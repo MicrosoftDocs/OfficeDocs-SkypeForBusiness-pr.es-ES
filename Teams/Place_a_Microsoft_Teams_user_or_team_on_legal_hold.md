@@ -1,0 +1,39 @@
+---
+title: "Poner a un usuario o un equipo de Microsoft Teams en retención legal | Soporte técnico de Microsoft"
+author: LolaJacobsen
+ms.author: lolaj
+manager: serdar
+ms.date: 08/10/2017
+ms.topic: solution
+ms.prod: teams
+description: "Aprenda a poner a un usuario o un equipo de Microsoft Teams en retención legal mediante el portal de seguridad y cumplimiento, y conozca qué debe poner en retención legal en función de los requisitos de datos."
+ms.openlocfilehash: b4e953447b683ed40d1b624739fde0b7d626e1b3
+ms.sourcegitcommit: 3b9b3f07f4f67cd5f43da68f48d62222d7e49167
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 08/31/2017
+---
+<a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Poner a un usuario o un equipo de Microsoft Teams en retención legal
+=======================================
+
+Para poner a un usuario o un equipo en retención legal, navegue al [portal de seguridad y cumplimiento](https://go.microsoft.com/fwlink/?linkid=854628). Cuando crea un nuevo caso, tiene la opción de poner en retención buzones o sitios.
+
+|||
+|---------|---------|
+|![](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image1.png)<br></br> Nota     |Si pone a un usuario en retención, el grupo no se pondrá en retención y viceversa.         |
+|![](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image2.png)<br></br> Importante     |Cuando se pone en retención a un usuario o un grupo, se retienen todas las copias de mensajes. Ejemplo: Bob publicó un mensaje en un canal y luego lo modificó. En una situación de retención, se retienen las dos copias del mensaje. Si no hay retención legal, se retiene solo el último mensaje.         |
+
+En la imagen de abajo, se está realizando una investigación en torno a Bob. Bob es miembro del equipo Manufacturing Specs (Especificaciones de fabricación).
+
+Si tuvieramos que poner en retención legal todos los sitios donde Bob pudiera haber hablado sobre planes de fabricación, tendríamos que agregar el sitio de SharePoint del equipo a la lista de sitios en retención legal, además del sitio de OneDrive para la Empresa de Bob.
+
+![](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image3.png)
+
+En resumen, vea la tabla de abajo para conocer lo que debe ponerse en retención legal en función de los requisitos de datos:
+
+|Escenario  |Qué poner en retención legal  |
+|---------|---------|
+|**Chats privados de Microsoft Teams**     |Buzón del usuario         |
+|**Chats de canal de Microsoft Teams**    |Buzón de grupo usado para el equipo         |
+|**Contenido de Microsoft Teams (por ejemplo, wiki y archivos)**     |Sitio de SharePoint usado por el equipo         |
+|**Contenido privado**     |Sitio de OneDrive para la Empresa del usuario         |
