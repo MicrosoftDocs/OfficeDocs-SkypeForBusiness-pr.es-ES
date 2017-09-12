@@ -29,7 +29,7 @@ El cliente web detecta la versión del explorador al conectarse con [https://tea
 
 Microsoft Teams admite los siguientes exploradores y versiones:
 
--   **Edge**: 12 o posterior
+-   **Microsoft Edge**: 12 o posterior
 
 -   **Internet Explorer:** 11 o posterior
 

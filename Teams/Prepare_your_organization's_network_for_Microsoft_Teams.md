@@ -88,7 +88,7 @@ Para mitigar el riesgo, asegúrese de que se asignen direcciones IP públicas ad
 
 #### <a name="intrusion-detection-and-prevention-guidance"></a>**Instrucciones para detener y prevenir intrusiones**
 
-Si su entorno tiene un sistema de detección o prevención de intrusiones (IDS/IPS) implementado para brindar una capa adicional de seguridad para las conexiones salientes, asegúrese de que el tráfico con destino a URL de Office 365 se agregue a una lista blanca.
+Si su entorno tiene un sistema de detección o prevención de intrusiones (IDS/IPS) implementado para brindar una capa adicional de seguridad para las conexiones salientes, asegúrese de que el tráfico con destino a URL de Office 365 se agregue a una lista de permitidos.
 
 <a name="network-health-determination"></a>Determinación del estado de la red
 -----------------
