@@ -12,7 +12,7 @@
 ## [Interacción entre Skype Empresarial y Microsoft Teams](Understand_how_Skype_for_Business_and_Microsoft_Teams_interact.md)
 ## [Actualizar a Microsoft Teams](Upgrade_to_Microsoft_Teams.md)
 
-# PLAN
+# Planificar
 ## [Información general de una implementación de Microsoft Teams](Overview_of_a_Microsoft_Teams_deployment.md)
 ## [Planificar grupos de Office 365 al crear equipos en Microsoft Teams](Plan_for_Office_365_groups_when_creating_teams_in_Microsoft_Teams.md)
 ## [Preparar la red de la organización para Microsoft Teams](Prepare_your_organization's_network_for_Microsoft_Teams.md)
@@ -27,7 +27,7 @@
 ## [Usar T-Bot para ayudar a los usuarios con Microsoft Teams](Use_T-Bot_to_help_users_with_Microsoft_Teams.md)
 
 
-# Administrar delegados
+# Administración
 ## [Obtener clientes para Microsoft Teams](Get_clients_for_Microsoft_Teams.md)
 ## [Configurar Microsoft Teams en su organización de Office 365](Set_up_Microsoft_Teams_in_your_Office_365_organization.md)
 ## [Gestionar acceso de los usuarios a Microsoft Teams](Manage_user_access_to_Microsoft_Teams.md)
@@ -49,7 +49,7 @@
 ## [Usar la búsqueda de contenido en Microsoft Teams](Use_Content_Search_in_Microsoft_Teams.md)
 ## [Poner a un usuario o un equipo de Microsoft Teams en retención legal](Place_a_Microsoft_Teams_user_or_team_on_legal_hold.md)
 
-# Solución de problemas
+# Solucionar problemas
 ## [Recursos de soporte técnico para Microsoft Teams](Support_resources_for_Microsoft_Teams.md)
 ## [Comprobar el estado del servicio para Microsoft Teams](Verify_service_health_for_Microsoft_Teams.md)
 ## [Solucionar problemas de conectividad con el cliente de Microsoft Teams](Troubleshoot_connectivity_issues_with_the_Microsoft_Teams_client.md)
