@@ -4,40 +4,40 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: tutorial
+ms.topic: article
 ms.service: msteams
 description: "Aprenda a configurar Microsoft Teams en su organización de Office 365."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 005d25a90d246072ccb4d67c251f0257c50cac51
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: d149586ffe7f01aafef627f7016a4a6dba5418d8
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
-<a name="set-up-microsoft-teams-in-your-office-365-organization"></a><span data-ttu-id="8feac-103">Configurar Microsoft Teams en su organización de Office 365</span><span class="sxs-lookup"><span data-stu-id="8feac-103">Set up Microsoft Teams in your Office 365 organization</span></span>
+<a name="set-up-microsoft-teams-in-your-office-365-organization"></a><span data-ttu-id="26d8d-103">Configurar Microsoft Teams en su organización de Office 365</span><span class="sxs-lookup"><span data-stu-id="26d8d-103">Set up Microsoft Teams in your Office 365 organization</span></span>
 ======================================================
 
-<span data-ttu-id="8feac-p101">Microsoft Teams está habilitado de manera predeterminada para las organizaciones que no han probado Microsoft Teams durante la vista previa. Para aquellas organizaciones que lo hayan probado en la vista previa, la configuración seguirá siendo la que tenían antes de la versión de disponibilidad general de Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="8feac-p101">By default, Microsoft Teams is enabled for organizations who have not tried Microsoft Teams during the preview. For organizations who have been testing in preview, the setting will remain as what was set prior to general availability of Microsoft Teams.</span></span>
+<span data-ttu-id="26d8d-p101">Microsoft Teams está habilitado de manera predeterminada para las organizaciones que no han probado Microsoft Teams durante la vista previa. Para aquellas organizaciones que lo hayan probado en la vista previa, la configuración seguirá siendo la que tenían antes de la versión de disponibilidad general de Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="26d8d-p101">By default, Microsoft Teams is enabled for organizations who have not tried Microsoft Teams during the preview. For organizations who have been testing in preview, the setting will remain as what was set prior to general availability of Microsoft Teams.</span></span>
 
-<span data-ttu-id="8feac-p102">Como administrador de su organización, puede asignar licencias de usuario para controlar el acceso individual a Microsoft Teams. También puede permitir o bloquear los orígenes de contenido que se pueden usar en Microsoft Teams. Vea [Configuración de administrador de Microsoft Teams](https://support.office.com/article/3966a3f5-7e0f-4ea9-a402-41888f455ba2) para saber más.</span><span class="sxs-lookup"><span data-stu-id="8feac-p102">As an administrator for your organization, you can assign user licenses to control individual access to Microsoft Teams and you can allow or block what content sources can be used in Microsoft Teams. See [Administrator settings for Microsoft Teams](https://support.office.com/article/3966a3f5-7e0f-4ea9-a402-41888f455ba2) for more details.</span></span>
+<span data-ttu-id="26d8d-p102">Como administrador de su organización, puede asignar licencias de usuario para controlar el acceso individual a Microsoft Teams. También puede permitir o bloquear los orígenes de contenido que se pueden usar en Microsoft Teams. Vea [Configuración de administrador de Microsoft Teams](https://support.office.com/article/3966a3f5-7e0f-4ea9-a402-41888f455ba2) para saber más.</span><span class="sxs-lookup"><span data-stu-id="26d8d-p102">As an administrator for your organization, you can assign user licenses to control individual access to Microsoft Teams and you can allow or block what content sources can be used in Microsoft Teams. See [Administrator settings for Microsoft Teams](https://support.office.com/article/3966a3f5-7e0f-4ea9-a402-41888f455ba2) for more details.</span></span>
 
-<span data-ttu-id="8feac-108">Aquellas organizaciones que quieran cambiar la habilitación o deshabilitación de Microsoft Teams pueden seguir estos pasos en su inquilino de Office 365:</span><span class="sxs-lookup"><span data-stu-id="8feac-108">Organizations who wish to change whether Microsoft Teams is enabled or not can follow the steps below to in their Office 365 tenant:</span></span>
+<span data-ttu-id="26d8d-108">Aquellas organizaciones que quieran cambiar la habilitación o deshabilitación de Microsoft Teams pueden seguir estos pasos en su inquilino de Office 365:</span><span class="sxs-lookup"><span data-stu-id="26d8d-108">Organizations who wish to change whether Microsoft Teams is enabled or not can follow the steps below to in their Office 365 tenant:</span></span>
 
-1.  <span data-ttu-id="8feac-109">Inicie sesión en el [Centro de administración de Office 365](https://go.microsoft.com/fwlink/?linkid=854665) con una cuenta que tenga privilegios de administrador globales.</span><span class="sxs-lookup"><span data-stu-id="8feac-109">Sign in to [Office 365 Admin Center](https://go.microsoft.com/fwlink/?linkid=854665) with an account that has Global Administrator privileges.</span></span>
+1.  <span data-ttu-id="26d8d-109">Inicie sesión en el [Centro de administración de Office 365](https://go.microsoft.com/fwlink/?linkid=854665) con una cuenta que tenga privilegios de administrador globales.</span><span class="sxs-lookup"><span data-stu-id="26d8d-109">Sign in to [Office 365 Admin Center](https://go.microsoft.com/fwlink/?linkid=854665) with an account that has Global Administrator privileges.</span></span>
 
-2.  <span data-ttu-id="8feac-110">Navegue a **Configuración** > Servicios > Complementos.</span><span class="sxs-lookup"><span data-stu-id="8feac-110">Navigate to **Settings Services** & add-ins.</span></span>
+2.  <span data-ttu-id="26d8d-110">Navegue a **Configuración** > Servicios > Complementos.</span><span class="sxs-lookup"><span data-stu-id="26d8d-110">Navigate to **Settings Services** & add-ins.</span></span>
 
     ![](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image1.png)
 
-3.  <span data-ttu-id="8feac-111">En la página Servicios > Complementos, haga clic en **Microsoft Teams**.</span><span class="sxs-lookup"><span data-stu-id="8feac-111">On the Services & add-ins page, click **Microsoft Teams**.</span></span>
+3.  <span data-ttu-id="26d8d-111">En la página Servicios > Complementos, haga clic en **Microsoft Teams**.</span><span class="sxs-lookup"><span data-stu-id="26d8d-111">On the Services & add-ins page, click **Microsoft Teams**.</span></span>
 
     ![](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
 
-4.  <span data-ttu-id="8feac-112">Para habilitar Microsoft Teams para la organización, cambie el botón de **alternancia** a **Activado** y haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="8feac-112">To enable Microsoft Teams for the organization, set the **Toggle** to **On** and then click **Save**.</span></span>
+4.  <span data-ttu-id="26d8d-112">Para habilitar Microsoft Teams para la organización, cambie el botón de **alternancia** a **Activado** y haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="26d8d-112">To enable Microsoft Teams for the organization, set the **Toggle** to **On** and then click **Save**.</span></span>
 
     ![](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image3.png)
 
 
 |  | |
 |---------|---------|
-|![](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image4.png)<br></br><span data-ttu-id="8feac-113">Nota </span><span class="sxs-lookup"><span data-stu-id="8feac-113">Note</span></span>     |<span data-ttu-id="8feac-p103">La capacidad en el nivel de inquilino de controlar el estado activado/desactivado de Microsoft Teams es temporal y se eliminará en el futuro. Cuando esto ocurra, el acceso a Microsoft Teams se controlará solamente mediante licencias de nivel de usuario.</span><span class="sxs-lookup"><span data-stu-id="8feac-p103">The tenant-level capability to control the on/off status of Microsoft Teams is temporary and will be removed at some point in the future. At that time, access to Microsoft Teams is controlled via user-level licensing only.</span></span>         |
+|![](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image4.png)<br></br><span data-ttu-id="26d8d-113">Nota </span><span class="sxs-lookup"><span data-stu-id="26d8d-113">Note</span></span>     |<span data-ttu-id="26d8d-p103">La capacidad en el nivel de inquilino de controlar el estado activado/desactivado de Microsoft Teams es temporal y se eliminará en el futuro. Cuando esto ocurra, el acceso a Microsoft Teams se controlará solamente mediante licencias de nivel de usuario.</span><span class="sxs-lookup"><span data-stu-id="26d8d-p103">The tenant-level capability to control the on/off status of Microsoft Teams is temporary and will be removed at some point in the future. At that time, access to Microsoft Teams is controlled via user-level licensing only.</span></span>         |
