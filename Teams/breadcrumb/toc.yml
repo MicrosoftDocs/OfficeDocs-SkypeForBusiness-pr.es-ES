@@ -1,7 +1,3 @@
 - name: Microsoft Teams
-  tocHref: /MicrosoftTeams/breadcrumb/
-  topicHref: 'https://go.microsoft.com/fwlink/?linkid=858815'
-  items:
-    - name: Documentación de Microsoft Teams
-      tocHref: /MicrosofTeams/
-      topicHref: /MicrosofTeams/index
+  tocHref: /
+  topicHref: /MicrosoftTeams/index

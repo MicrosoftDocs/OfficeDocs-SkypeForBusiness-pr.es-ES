@@ -6,18 +6,18 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Aprenda a poner a un usuario o un equipo de Microsoft Teams en retención legal mediante el portal de seguridad y cumplimiento, y conozca qué debe poner en retención legal en función de los requisitos de datos."
+description: "Aprenda a poner a un usuario o un equipo de Microsoft Teams en retención legal mediante el Centro de seguridad y cumplimiento, y conozca qué debe poner en retención legal en función de los requisitos de datos."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 473454728abbb588638185d5004219cf90cad302
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: 694a24127dfb366c0b0dac62624cb4baf175eb66
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Poner a un usuario o un equipo de Microsoft Teams en retención legal
 ==================================================
 
-Para poner a un usuario o un equipo en retención legal, navegue al [portal de seguridad y cumplimiento](https://go.microsoft.com/fwlink/?linkid=854628). Cuando crea un nuevo caso, tiene la opción de poner en retención buzones o sitios.
+Para poner a un usuario o un equipo en retención legal, navegue al [Centro de seguridad y cumplimiento](https://go.microsoft.com/fwlink/?linkid=854628). Cuando crea un nuevo caso, tiene la opción de poner en retención buzones o sitios.
 
 |||
 |---------|---------|

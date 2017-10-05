@@ -4,30 +4,30 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
-description: "Descripción general de las características de seguridad y cumplimiento de Microsoft Teams, que incluye auditoría y generación de informes, búsqueda de contenido de cumplimiento, eDiscovery y mucho más."
+description: "Descripción general de las características de seguridad y cumplimiento de Microsoft Teams, que incluye auditoría y generación informes, búsqueda de contenido de cumplimiento, eDiscovery y mucho más."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: f86344671c0a8e2d800540b609afed18ab74d25b
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: 3321dee954b9861054886677b2835c689035888c
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================
 
-Microsoft Teams está incorporado en la nube empresarial a gran escala de Office 365, y proporciona las funciones avanzadas de seguridad y cumplimiento que esperan nuestros clientes.
+Microsoft Teams está incorporado en la nube empresarial a gran escala de Office 365, proporcionando las funciones avanzadas de seguridad y cumplimiento que esperan nuestros clientes.
 
 En el momento de su lanzamiento, Microsoft Teams cumple con el Nivel C. Esto incluye las siguientes normas: ISO 27001, ISO 27018, SSAE16 SOC 1 y SOC 2, HIPAA y las cláusulas modelo de la UE (EUMC). Dentro del marco de cumplimiento de Microsoft, Microsoft clasifica las aplicaciones y servicios de Office 365 en cuatro categorías. Cada categoría está definida por compromisos de cumplimiento específicos que deben darse para que un servicio de Office 365, o un servicio de Microsoft relacionado, se agregue a dicha categoría.
 
-Los servicios de las categorías de cumplimiento C y D, que tienen compromisos de cumplimiento l’ideres en el sector, están habilitados de manera predeterminada. Los servicios en las categorías A y B incluyen controles para activar o desactivar los servicios para una organización entera. Los detalles se pueden encontrar en el [Marco de cumplimiento normativo de estándares y regulaciones del sector](https://go.microsoft.com/fwlink/?linkid=855777). Microsoft Teams también cumple con los requisitos de Cloud Security Alliance.
+Los servicios en las categorías de cumplimiento C y D que tiene compromisos de cumplimiento están habilitados de manera predeterminada. Los servicios en las categorías A y B incluyen controles para activar o desactivar estos servicios para una organización entera. Los detalles se pueden encontrar en el [Marco de cumplimiento normativo de estándares y regulaciones del sector](https://go.microsoft.com/fwlink/?linkid=855777). Microsoft Teams también cumple con los requisitos de Cloud Security Alliance.
 
-Microsoft Teams también emplea la autenticación en dos fases para todos los miembros del equipo y de la organización, el inicio de sesión único a través de Active Directory, y el cifrado de datos en tránsito y en reposo. Los archivos se almacenan en SharePoint y utilizan el cifrado de SharePoint. Las notas se almacenan en OneNote y utilizan el cifrado de OneNote.
+Microsoft Teams también emplea la autenticación en dos fases para todos los miembros del equipo y de la organización, el inicio de sesión único a través de Active Directory y el cifrado de datos en tránsito y en reposo. Los archivos se almacenan en SharePoint y utilizan el cifrado de SharePoint. Las notas se almacenan en OneNote y utilizan el cifrado de OneNote.
 
 También hemos agregado compatibilidad con la búsqueda en el registro de auditoría, eDiscovery y la suspensión legal para los canales, los chats y los archivos, así como la administración de aplicaciones móviles con Microsoft Intune.
 
-Estas herramientas se encuentran en el Portal de seguridad y cumplimiento de Office 365, y proporcionan las siguientes características:
+Estas herramientas se encuentran en el Portal de seguridad y cumplimiento de Office 365, y proporcionan las siguiente características:
 
 -   Auditoría y generación de informes
 
@@ -71,11 +71,10 @@ La siguiente imagen muestra el flujo de trabajo de los datos de Teams en Exchang
 ![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
 
-| | |
-|---------|---------|
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image2.png)<br>Importante</br>    |Puede haber hasta un máximo de 24 horas de retraso en la detección del contenido de Teams.         |
+> [!IMPORTANT]
+> Puede haber hasta un máximo de 24 horas de retraso en la detección del contenido de Microsoft Teams.
 
-Además, Microsoft está valorando la posibilidad de proporcionar las siguientes características a Microsoft Teams. Cuando estén disponibles, se proporcionarán instrucciones sobre cómo los clientes pueden aprovechar las características:
+Además, Microsoft tiene pensada la probabilidad de proporcionar las siguientes características de seguridad a Microsoft Teams. Cuando estén disponibles, se proporcionarán instrucciones sobre cómo los clientes pueden aprovechar las características:
 
 -   Directiva de retención específica de inquilinos
 

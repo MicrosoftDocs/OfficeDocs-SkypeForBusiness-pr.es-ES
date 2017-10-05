@@ -4,15 +4,15 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
 description: "Conozca todas las características de Microsoft Teams que puede habilitar en su organización de Office 365, incluidos la configuración en todo el inquilino, la integración del correo electrónico, las aplicaciones, el almacenamiento en nube y mucho más."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 00038f5020e640071f65ae1d046369308834d807
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: f61e0618f81e0eb8921ceb27d989c609f01356a4
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Habilitar características de Microsoft Teams en su organización de Office 365
 ======================================================
@@ -162,5 +162,5 @@ La sección Mensajes le permite establecer la siguiente configuración para su o
 | |  |  |
 |---------|---------|---------|
 |![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image11.png)     |Punto de decisión         |¿Qué configuración de Microsoft Teams habilitará su organización?         |
-|![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image12.png)     |Pasos siguientes        |Registre estas decisiones en la tabla que se encuentra en [Asignar roles y permisos en Microsoft Teams](Assign_roles_and_permissions_in_Microsoft_Teams.md)].         |
+|![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image12.png)     |Pasos siguientes        |Registre estas decisiones en la tabla que se encuentra en [Asignar roles y permisos en Microsoft Teams](assign-roles-permissions.md).         |
 

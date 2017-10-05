@@ -6,7 +6,6 @@
 ## [Información general de los equipos y canales en Microsoft Teams](teams-channels-overview.md)
 ## [Prácticas recomendadas para organizar equipos en Microsoft Teams](best-practices-organizing.md)
 ## [Grupos de Office 365 y Microsoft Teams](Office-365-groups.md)
-## [Interacción entre Skype Empresarial y Microsoft Teams](SkypeforBusiness-interact.md)
 ## [Interacción entre Exchange y Microsoft Teams](Exchange-Teams-interact.md)
 ## [Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams](SharePoint-OneDrive-interact.md)
 
@@ -55,23 +54,18 @@
 
 # [Implementar voz en la nube](cloud-voice-deployment.md)
 ## [Audioconferencias](audio-conferencing.md)
-### [Introducción](audio-conferencing.md#introduction)
-### [Definir casos de uso de empresas para llamadas RTC](audio-conferencing.md#define-business-use-cases-for-pstn-calling)
-### [Identificar las partes interesadas clave](audio-conferencing.md#identify-key-stakeholders)
-### [Definir objetivos y resultados principales, indicadores de éxito principales y riesgos](audio-conferencing.md#define-objectives-and-key-results-key-success-indicators-and-risks)
-### [Evaluar el entorno y la preparación que se tiene para la adopción](audio-conferencing.md#assess-environment-and-evaluate-adoption-readiness)
-### [Incorporación de personas](audio-conferencing.md#people-onboarding)
-### [Incorporación de técnicos](audio-conferencing.md#technical-onboarding)
-### [Potenciar la participación del usuario e impulsar la adopción](audio-conferencing.md#boost-user-engagement-and-drive-adoption)
-### [Medir, compartir el éxito e iterar](audio-conferencing.md#measure-share-success-and-iterate)
-### [Administrar y prepararse para el cambio](audio-conferencing.md#manage-and-prepare-for-change)
+### [Enfoque](audio-conferencing.md#Envision_AudioConferencing)
+### [Planificar](audio-conferencing.md#Planning_AudioConferencing)
 
 # [Recorrido desde Skype Empresarial a Microsoft Teams](Journey-SkypeforBusiness-Teams.md)
-## [Principios básicos del piloto: inicio del recorrido a Microsoft Teams](pilot-essentials.md)
-## [Guía en paralelo: Skype Empresarial y Microsoft Teams](guidance-SkypeforBusiness.md)
-## [Preguntas frecuentes: recorrido desde Skype Empresarial a Microsoft Teams](FAQ-journey.md)
+## [1 - Optimizar su entorno actual de Skype Empresarial para Microsoft Teams](prepare-teams.md)
+## [2. Crear un proyecto piloto de Microsoft Teams junto a Skype Empresarial](pilot-essentials.md)
+## [3 - Habilitar Microsoft Teams en paralelo con Skype Empresarial](guidance-SkypeforBusiness.md)
+## [4 - Generar valor a través de la adopción de usuarios](continue-journey.md)
+## [Preguntas frecuentes: Skype Empresarial y Microsoft Teams](FAQ-journey.md)
 
 # Vídeos y formación
-## [Recursos para la preparación de administradores de TI para Microsoft Teams](ITAdmin-readiness.md)
+## [Preparación de administradores de TI para Microsoft Teams](ITAdmin-readiness.md)
+### [Vídeos: Audioconferencia en Microsoft Teams](audio-conferencing-videos.md)
 ## [Formación del usuario final para Microsoft Teams](enduser-training.md)
 

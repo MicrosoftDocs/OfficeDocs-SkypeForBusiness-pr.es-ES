@@ -4,15 +4,15 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
 description: "Conozca las prácticas recomendadas de los métodos de comentarios en Microsoft Teams para garantizar la mejor experiencia posible con el equipo."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e18661ddc03e0085bdbc502cb2ce9f447d6f27ac
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: d69eadf88d0e102e460ec4c0ae9718dd57296c1c
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Prácticas recomendadas de los métodos de comentarios de los usuarios en Microsoft Teams
 ===========================================================
@@ -28,4 +28,4 @@ Los métodos de comentarios generados por la comunidad requieren la participaci�
 <a name="showcases"></a>Casos destacados
 ---------
 
-A medida que avance por esta experiencia, encontrará casos destacados en su propio entorno de empleados cuya creatividad con Microsoft Teams le sorprenderá y le hará disfrutar. Recomendamos que comparta estos casos destacados. Esto hará que los demás se animen a innovar, a formar a los usuarios que hayan comenzado hace poco tiempo y para recompensar a los miembros que hayan dedicado tiempo a pensar en la mejor forma de usar Microsoft Teams en su entorno. La configuración de un objetivo medible para identificar un número establecido de casos destacados cada trimestre ayudará a mantener la adopción al máximo.
+A medida que avance por esta experiencia, encontrará casos destacados en su propio entorno de empleados cuya creatividad con Microsoft Teams le sorprenderá y le hará disfrutar. Recomendamos que comparta estos casos destacados. Esto hará que los demás se animen a innovar, a formar a los usuarios que hayan comenzado hace proco tiempo y para recompensar a los miembros que hayan dedicado tiempo a pensar en la mejor forma de usar ;Microsoft Teams en su entorno. El configuración de un objetivo medible para identificar un número establecido de casos destacados cada trimestre ayudará a mantener la adopción al máximo.

@@ -4,15 +4,15 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
 description: "Aprenda a configurar una implementación de Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: aed20591afa8a53aad13ee537497aff398b4c24e
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: e582be2aeab3724fa70cc7c2f242538384d0f1c9
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Información general de una implementación de Microsoft Teams
 ========================================
@@ -38,7 +38,7 @@ Este es un ejemplo de cómo configurar una estructura de equipo/canal para impul
 
 |Nombre del equipo |Canales  |Fichas  |
 |---------|---------|---------|
-|Equipos implementados<br></br>Miembros:<ul><li>Patrocinador de proyecto</li><li>Analista de negocio</li><li>Jefe de proyecto</li><li>Profesional de TI de colaboración</li><li>Profesional de TI de redes</li><li>Jefe de adopción </li><li>Jefe de soporte técnico</li></ul>Propietarios: <ul><li>Jefe de proyecto</li><li>Profesional de TI de colaboración</li></ul>      |Planeamiento y preparación<br></br> Adopción<br></br> Lanzamiento<br></br> Asistencia técnica<br></br> Información útil<br></br><br></br><br></br><br></br><br></br><br></br><br></br>          |Agregue un vínculo de guías prácticas para la página web de Microsoft Teams ([www.SuccessWithTeams.com](https://go.microsoft.com/fwlink/?linkid=854396)) <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>        |
+|Equipos implementados<br></br>Miembros:<ul><li>Patrocinador de proyecto</li><li>Analista de negocio</li><li>Jefe de proyecto</li><li>Profesional de TI de colaboración</li><li>Profesional de TI de redes</li><li>Jefe de adopción </li><li>Jefe de soporte técnico</li></ul>Propietarios: <ul><li>Jefe de proyecto</li><li>Profesional de TI de colaboración</li></ul>      |Planeamiento y preparación<br></br> Adopción<br></br> Lanzamiento<br></br> Asistencia técnica<br></br> Información útil<br></br><br></br><br></br><br></br><br></br><br></br><br></br>          |Agregue un vínculo de guías prácticas para la página web de Microsoft Teams ([https://docs.microsoft.com/MicrosoftTeams](https://docs.microsoft.com/MicrosoftTeams)) <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>        |
 
 Esta configuración tendría este aspecto en Microsoft Teams:
 
@@ -53,4 +53,4 @@ Esta configuración tendría este aspecto en Microsoft Teams:
 
  
 
-*Para hacer un seguimiento de estos puntos de decisión, no dude en descargar el resumen de puntos de decisión.*
+*Para hacer un seguimiento de estos puntos de decisión, no dude en descargar el [resumen de puntos de decisión](https://www.microsoft.com/en-us/download/55981).*

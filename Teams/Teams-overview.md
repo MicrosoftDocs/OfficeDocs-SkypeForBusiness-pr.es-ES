@@ -4,20 +4,21 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
-description: "Conozca Microsoft Teams, su infraestructura y el uso de Office 365 con él."
+description: "Conozca Microsoft Teams, su infraestructura y cómo funciona con Office 365."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 28be6a4565a783337b63e8dc4e7c1fddf9d743d9
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: 7f28dc24baab9ba3d61b3181c05a09d108c320f3
+ms.sourcegitcommit: e0efee5350da54a1f1ae1c317f8613652c820bc6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/25/2017
 ---
 <a name="overview-of-microsoft-teams"></a>Introducción a Microsoft Teams
 ===========================
-
-![Espacio de trabajo basado en chats en Office 365](media/Overview-Microsoft-Teams-image1.png)
+|  |  |
+|---------|---------|
+|<iframe width="560" height="315" src="https://www.youtube.com/embed/FFQszYALS_A" frameborder="0" allowfullscreen></iframe> | |
 
 Microsoft Teams une todas las características de Office 365 para brindar un verdadero centro basado en chats para el trabajo en equipo y darles a los clientes la oportunidad de crear un entorno más abierto, fluido y digital. Microsoft Teams está construido a partir de tecnologías de Microsoft existentes que se entrelazan en Grupos de Office 365. 
 
@@ -27,22 +28,21 @@ La función de chat persistente de Microsoft Teams se brinda a través de un ser
 
 Microsoft Teams también brinda una experiencia de llamadas y reuniones integrada en la infraestructura de próxima generación basada en la nube, que también usan Skype y Skype Empresarial. Estas inversiones en tecnología incluyen servicios de nube basados en Azure para el procesamiento y la señalización de medios, códec de vídeo H.264, códecs de audio SILK y Opus, resiliencia de red, telemetría y diagnósticos de la calidad.
 
-Para ampliar las funciones de Microsoft Teams, hay disponibles conectores, fichas y bots como [aplicaciones](https://go.microsoft.com/fwlink/?linkid=854629) para traer desde fuera información, contenido e interacciones de bots inteligentes a Microsoft Teams.
+Para ampliar las funcionalidades de Microsoft Teams, use conectores, fichas y bots (disponibles en forma de [aplicaciones](https://go.microsoft.com/fwlink/?linkid=854629)) para traer desde fuera información, contenido e interacciones de bots inteligentes a Microsoft Teams.
 
 <a name="microsoft-teams-infrastructure"></a>Infraestructura de Microsoft Teams
 ------------------------------
 
 Microsoft Teams está construido a partir de tecnologías de Microsoft existentes, que se entrelazan en Grupos de Office 365. Gracias a su tecnología de la nube de Microsoft, las organizaciones pueden esperar un excelente rendimiento y confiabilidad al aprovechar Microsoft Teams como parte de su historia de colaboración.
 
-De manera predeterminada, un equipo creado en Microsoft Teams creará un grupo de Office 365 con el sitio de SharePoint Online completo con una biblioteca de documentos y una casilla de correo grupal de Exchange Online para el grupo, que Teams utilizará para almacenar información, como invitaciones a reuniones. Un equipo puede crearse a partir de grupos de Office 365 existentes, lo que permite que la pertenencia a grupos existente y el contenido almacenado en SharePoint Online y Exchange Online se traslade a Microsoft Teams.
+De manera predeterminada, un equipo creado en Microsoft Teams creará un grupo de Office 365, un sitio de SharePoint Online (completo con una biblioteca de documentos) y un buzón de Exchange Online para el grupo, que Microsoft Teams utilizará para almacenar información, como invitaciones a reuniones. Un equipo puede crearse a partir de grupos de Office 365 existentes, lo que permite que la pertenencia a grupos existente y el contenido almacenado en SharePoint Online y Exchange Online se traslade a Microsoft Teams.
 
-La función de chat persistente de Microsoft Teams se brinda a través de un servicio de chat que interactúa con el subestrato de Office 365, poniendo a disposición muchas de las funciones integradas de Office 365, como eDiscovery y archivado, a los datos que se van a intercambiar en Microsoft Teams.
+La función de chat persistente de Microsoft Teams se brinda a través de un servicio de chat que interactúa con Office 365, poniendo a disposición muchas de las funciones integradas de Office 365, como eDiscovery y archivado, a los datos que se van a intercambiar en Microsoft Teams.
 
-Para complementar la función de Microsoft Teams como panel de chat persistente donde se llevan a cabo conversaciones informales en tiempo real sobre temas muy específicos o subgrupos específicos dentro del grupo, Teams también brinda una experiencia de reunión integrada en la infraestructura de próxima generación basada en la nube que también utilizan Skype y Skype Empresarial. Estas inversiones en tecnología incluyen servicios de nube basados en Azure para el procesamiento y la señalización de medios, códec de vídeo H.264, códecs de audio SILK y Opus, resiliencia de red, telemetría y diagnósticos de la calidad.
+Para complementar la funcionalidad de Microsoft Teams como panel de chat persistente donde se llevan a cabo conversaciones informales en tiempo real, Microsoft Teams también brinda una experiencia de reunión integrada en la infraestructura de próxima generación basada en la nube que también utilizan Skype y Skype Empresarial. Estas inversiones en tecnología incluyen servicios de nube basados en Azure para el procesamiento y la señalización de medios, códec de vídeo H.264, códecs de audio SILK y Opus, resiliencia de red, telemetría y diagnósticos de la calidad.
 
-Los grupos de Office 365 aprovechan las identidades almacenadas en Azure Active Directory (Azure AD) y, de esta manera, todas las funciones de autenticación y autorización en Azure AD, como admisión de autenticación multifactor (MFA), están disponibles para su uso en Microsoft Teams.
+Los grupos de Office 365 aprovechan las identidades almacenadas en Azure Active Directory (Azure AD) y, de esta manera, todas las funcionalidades de autenticación y autorización en Azure AD, como admisión de autenticación multifactor (MFA), están disponibles para su uso en Microsoft Teams.
 
-Para ampliar las funciones de Microsoft Teams, hay disponibles conectores, fichas y bots como aplicaciones para traer desde fuera información, contenido e interacciones de bots inteligentes a Microsoft Teams.
 
 <a name="microsoft-teams-and-office-365"></a>Microsoft Teams y Office 365
 ------------------------------
@@ -53,7 +53,7 @@ Los diferentes grupos tienen distintas necesidades en base a su función y estil
 
 -   SharePoint para sitios y portales, servicios de contenido inteligente, automatización de procesos de negocio y Enterprise Search.
 
--   Yammer para impulsar las conexiones dentro de toda la empresa
+-   Yammer para impulsar las conexiones dentro de toda la empresa.
 
 -   Skype Empresarial como la columna vertebral del audio y el vídeo de la empresa.
 
@@ -95,7 +95,6 @@ He aquí los casos de uso comunes para cada aplicación en Office 365. Para obte
 
 -   Ofrece funcionalidad de telefonía empresarial.
 
--   Vea [Interacción entre Skype Empresarial y Microsoft Teams](Understand_how_Skype_for_Business_and_Microsoft_Teams_interact.md)
 
 ![](media/Overview_of_Microsoft_Teams_image5.png)
 
@@ -105,4 +104,4 @@ He aquí los casos de uso comunes para cada aplicación en Office 365. Para obte
 
 -   Sitio de equipo de SharePoint con todo el poder, aprovisionado automáticamente para cada equipo de Microsoft para almacenamiento de archivos, novedades del equipo, páginas, listas y mucho más.
 
--   Vea [Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams](Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams.md)
+-   Vea [Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams](SharePoint-OneDrive-interact.md)
