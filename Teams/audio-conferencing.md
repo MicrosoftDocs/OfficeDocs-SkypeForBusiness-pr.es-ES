@@ -783,7 +783,7 @@ La descripción completa de las funcionalidades que se incluyen se puede extraer
 > [!NOTE]
 > Los números de teléfono dedicados para puentes de conferencia se tienen en cuenta como parte del límite de números de teléfono que se pueden adquirir por inquilino, según el número de licencias que corresponden, como se describe en [Obtener números de teléfono de servicio de Skype Empresarial](https://support.office.com/article/Getting-Skype-for-Business-service-phone-numbers-e434aeb2-af99-40e7-981e-a474f0383734). Los números de teléfono gratuitos para puentes de conferencia necesitan los Créditos de comunicaciones.
 
-Si ya hay números de teléfono para puentes de conferencia que hay que transferir al servicio de Audioconferencia, teniendo en cuenta que cumplen los requisitos para cada país, los números de teléfono para puentes de conferencia existentes se pueden transferir a Microsoft.
+Si ya hay números de teléfono para puentes de conferencia que hay que transferir al servicio de Audioconferencia, teniendo en cuenta que cumplen los requisitos para cada país o región, los números de teléfono para puentes de conferencia existentes se pueden transferir a Microsoft.
 
 
 > [!NOTE]
