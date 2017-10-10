@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 description: Preguntas frecuentes que se plantean sobre el recorrido desde Skype Empresarial a Microsoft Teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 459f4971b1727cc777f1acfd5748a10dd36658ed
-ms.sourcegitcommit: 2c4e56908f2ba5ce9c99e6cb6867961e08b2daf8
+ms.openlocfilehash: 11b01e3ad0797f697775b3459d9925527baec856
+ms.sourcegitcommit: 769d817c2d487ea8b5f4339acef21d5f1ff137d3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2017
+ms.lasthandoff: 10/04/2017
 ---
 <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Preguntas frecuentes: recorrido desde Skype Empresarial a Microsoft Teams
 ==========================================================
 
-<a name="uc-vision"></a>Visión de UC
----------
+<a name="intelligent-communications-vision"></a>Visión de comunicaciones inteligentes
+----------------------------------
 
 ### <a name="what-is-microsofts-new-vision-for-intelligent-communications-aka-unified-communications-vision"></a>¿Cuál es la nueva visión de Microsoft sobre las comunicaciones inteligentes (también conocido como la visión de comunicaciones unificadas)? 
 
@@ -114,9 +114,7 @@ Los dispositivos de las salas de reuniones tienen un papel fundamental en la ide
 
 ### <a name="will-the-latest-generation-of-skype-room-systems-support-meetings-in-teams"></a>¿La última generación de Sistemas de salas de Skype admitirá reuniones en Microsoft Teams?
 
-Los dispositivos de las salas de reuniones tienen un papel fundamental en la idea que tenemos para los lugares de trabajo modernos y seguimos impulsando los Sistemas de salas de Skype. En Ignite, Lenovo anunció
-
-Sistemas de salas de Skype seguirá admitiendo reuniones en Microsoft Teams. En un principio, Sistemas de salas de Skype permitirá unirse con un solo clic a reuniones de Microsoft Teams y la mayoría de características de Sistemas de salas de Skype, a excepción de la compatibilidad de doble pantalla y dispositivos de vídeo panorámicos. Las dobles pantallas y los dispositivos panorámicos están planificados para posteriores lanzamientos.
+Los dispositivos de las salas de reuniones tienen un papel fundamental en la idea que tenemos para los lugares de trabajo modernos y seguimos impulsando los Sistemas de salas de Skype. En un principio, Sistemas de salas de Skype permitirá unirse con un solo clic a reuniones de Microsoft Teams y la mayoría de características de Sistemas de salas de Skype, a excepción de la compatibilidad de doble pantalla y dispositivos de vídeo panorámicos. Las dobles pantallas y los dispositivos panorámicos están planificados para posteriores lanzamientos.
 
 ### <a name="will-skype-room-systems-v1-be-updated-to-support-microsoft-teams-meetings"></a>¿La versión 1 de Sistemas de salas de Skype se actualizará para admitir las reuniones de Microsoft Teams? 
 
@@ -126,3 +124,6 @@ Los dispositivos de las salas de reuniones tienen un papel fundamental en la ide
 
 Microsoft tiene pensado lanzar un nuevo portal de administración para profesionales de TI dentro del Centro de administración de Office 365. Al igual que la consola de administración de Skype Empresarial, este nuevo portal se convertirá en el único lugar para administrar nuestras nuevas experiencias. La versión inicial del portal, pensada para principios de 2018, se ha diseñado para realizar desde ahí toda la administración a través de un modelo de directivas pensadas para empresas, solo para clientes de Microsoft Teams. Reemplazaría la interfaz de administración actual de Microsoft Teams. Con este portal, podremos crear directivas personalizadas de presencia, chat, aplicaciones, reuniones y voz, así como asignarlas a usuarios de Microsoft Teams. 
 
+### <a name="can-i-use-microsoft-teams-on-surface-hub"></a>¿Puedo usar Microsoft Teams en Surface Hub?
+
+Muchas de las experiencias de Microsoft Teams funcionan en Surface Hub mediante el explorador Microsoft Edge. Inicie sesión desde la pantalla de inicio de sesión de su Surface Hub, abra Microsoft Edge y escriba **teams.microsoft.com** para acceder a sus equipos, canales, documentos, conversaciones y reuniones. Surface Hub es compatible con las reuniones de Microsoft Teams y esperamos compartir más detalles en el futuro sobre las experiencias adicionales integradas de Microsoft Teams en Surface Hub.   

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Guía para usar Skype Empresarial y Microsoft Teams en paralelo."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: ee7c44bcfe2e451684f4cd9ce6402d8781dc6535
-ms.sourcegitcommit: e0efee5350da54a1f1ae1c317f8613652c820bc6
+ms.openlocfilehash: 760fa47db7965e0c2a74b01ae25f1d23d37d3180
+ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2017
+ms.lasthandoff: 09/28/2017
 ---
 <a name="enable-microsoft-teams-side-by-side-with-skype-for-business"></a>Habilitar Microsoft Teams en paralelo con Skype Empresarial 
 =============================================================
@@ -223,7 +223,7 @@ Cuando la experiencia piloto de Microsoft Teams se desarrolla con éxito para el
 <tr class="header">
 <td align="center"><p><img src="media/guidance_SkypeforBusiness_image3.png" /></p>
 <p>Nota</p></td>
-<td align="left">Durante el piloto y en la fase dos, cuando se habilita el chat privado, un usuario de Microsoft Teams que chatee con un usuario de Skype Empresarial no podrá hacer lo siguiente:<br><br>
+<td align="left">Durante el piloto y en la fase dos, cuando se habilita el chat privado, un usuario de Microsoft Teams que chatee con un usuario de Skype Empresarial no podrá hacer lo siguiente:<br>
 - Iniciar videollamada desde una sesión de chat<br>
 - Transferir archivos <br>
 - Iniciar una llamada con varios participantes desde la sesión de chat<br>

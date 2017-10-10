@@ -8,17 +8,15 @@ ms.topic: article
 ms.service: msteams
 description: "Con el acceso de invitado en Microsoft Teams, los equipos de su organización pueden colaborar con personas que no pertenecen a la organización al concederles acceso a equipos y canales."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e8cce3faa65de9c0cbd5ffdbb4cb4a6f43a1229d
-ms.sourcegitcommit: 1bc2abb2acabe0357d3770284b2710ed9c7f59ee
+ms.openlocfilehash: f440e1d67166931365a24cb18e855a179fc532ef
+ms.sourcegitcommit: 34abc255257716ab135e8eda7b07f8abb55a6bc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2017
+ms.lasthandoff: 10/02/2017
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Administrar el acceso de invitado a Microsoft Teams
 ======================================
 
-
-# <a name="guest-access-in-microsoft-teams"></a>Acceso de invitado a Microsoft Teams
 
 Con el acceso de invitado en Microsoft Teams, los equipos de su organización pueden colaborar con personas que no pertenecen a la organización al concederles acceso a equipos y canales. Un invitado es un usuario que no es empleado, estudiante ni es un miembro de su organización. Tampoco tiene una cuenta profesional o educativa con su organización. Por ejemplo, los invitados pueden incluir socios, proveedores o consultores.
   
@@ -26,12 +24,13 @@ Con el acceso de invitado en Microsoft Teams, los equipos de su organización pu
     
 
 Las organizaciones que utilizan Microsoft Teams pueden proporcionar acceso externo a sus socios para que accedan a equipos, documentos en canales, recursos, chats y aplicaciones, sin perder por ello el control total de sus datos corporativos.
+
 Microsoft Teams se basa en Grupos de Office 365 y proporciona a los grupos de Office 365 una nueva manera de acceder a sus activos compartidos. Microsoft Teams es la mejor solución para los miembros de grupos y equipos que chatean constantemente. Grupos de Office 365 es un servicio que proporciona suscripciones entre aplicaciones para un conjunto de activos de grupo compartidos, como un sitio de SharePoint o un panel de Power BI. De esta manera, los equipos pueden colaborar de forma efectiva y segura.
   
     
     
 
-### <a name="how-a-guest-joins-a-team"></a>Cómo se une un invitado a un equipo
+## <a name="how-a-guest-joins-a-team"></a>Cómo se une un invitado a un equipo
 
 
   
@@ -59,7 +58,7 @@ A continuación se muestra cómo un invitado se puede convertir en miembro de un
 - **Paso 2** El propietario del equipo o el administrador de Office 365 puede administrar las funcionalidades de un invitado en la medida que sea necesario. Por ejemplo, puede permitir que un invitado agregue o elimine canales o que deshabilite el acceso a los archivos.
     
   
-- **Paso 3** El invitado recibe un correo electrónico de bienvenida del propietario del equipo en el que le invita a unirse al equipo. Tras aceptar la invitación, el invitado puede [participar en los equipos y los canales](https://support.office.com/en-us/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), recibir mensajes del canal y responder a ellos, [acceder a los archivos de los canales](https://support.office.com/en-us/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e) y participar en el chat. Mientras utiliza Microsoft Teams, con una combinación de texto e iconos, todos los miembros del equipo tienen una indicación muy clara de que en un equipo están participando invitados. Para obtener más detalles, vea [cómo es la experiencia de invitado](#guestexp).
+- **Paso 3** El invitado recibe un correo electrónico de bienvenida del propietario del equipo en el que le invita a unirse al equipo. Tras aceptar la invitación, el invitado puede [participar en los equipos y los canales](https://support.office.com/en-us/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), recibir mensajes del canal y responder a ellos, [acceder a los archivos de los canales](https://support.office.com/en-us/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e) y participar en el chat. Mientras utiliza Microsoft Teams, la combinación de texto e iconos ofrece a todos los miembros del equipo una indicación muy clara de que en un equipo están participando invitados. Para obtener más detalles, vea [cómo es la experiencia de invitado](#guestexp).
     
   
 Los invitados pueden dejar el equipo en cualquier momento a través de los clientes de escritorio o web de Microsoft Teams. Para obtener más información, consulte [¿Cómo abandono un equipo?](https://support.office.com/en-us/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
@@ -74,7 +73,7 @@ Los invitados pueden dejar el equipo en cualquier momento a través de los clien
     
 
 <a name="guestexp"></a>
-### <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
+## <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 
 Cuando a un invitado se le ofrece unirse a un equipo, recibe un mensaje de correo de bienvenida que incluye información sobre el equipo y qué puede esperar ahora que es miembro. El invitado debe canjear la invitación del mensaje de correo electrónico para poder acceder al equipo y sus canales.
   
@@ -108,7 +107,6 @@ En la siguiente tabla se compara la funcionalidad de Microsoft Teams que está d
 
 |**Funcionalidad en Microsoft Teams**|**Usuario de Microsoft Teams de la organización**|**Usuario invitado**|
 |:-----|:-----|:-----|
-||||
 |Crear un canal  <br/>  *Los propietarios del equipo controlan este parámetro.*  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
 |Participar en un chat privado  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
 |Participar en una conversión del canal  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
@@ -128,7 +126,7 @@ En la siguiente tabla se compara la funcionalidad de Microsoft Teams que está d
 > Los administradores de Office 365 controlan las características que tienen a su disposición los invitados. 
   
     
-###<a name="manage-guests"></a>Administrar invitados
+## <a name="manage-guests"></a>Administrar invitados
 
 
 El acceso de invitado se incluye con todas las suscripciones de Office 365 Empresa Premium, Office 365 Enterprise y Office 365 Educación. No se necesita ninguna otra licencia de Office 365.
@@ -184,51 +182,28 @@ Para habilitar toda la experiencia de acceso de invitado de Microsoft Teams, los
     
      ![Inicie sesión en Office 365, acceda al Centro de administración de Office 365, seleccione Configuración y, a continuación, elija Servicios y complementos.](media/99e676d4-5b48-4525-9556-547031fa37d9.png)
   
-
-  
+ 
 
   
 3. Seleccione **Microsoft Teams**.
     
      ![La captura de pantalla muestra la opción del complemento de Microsoft Teams, como se selecciona en el Centro de administración de Office 365.](media/17ac5608-d212-4fa8-ae3a-e78c62003968.png)
   
-
-  
-
   
 4. En **Select the user/license type you want to configure** (Seleccione el tipo de usuario/licencia que desea configurar), seleccione **Invitado**.
     
-    
   
-    
-    
 ![La captura de pantalla del complemento de Microsoft Teams muestra la licencia de invitado seleccionada y la opción de Microsoft Teams establecida en Activado.](media/92aabda5-431c-4fdd-803e-5ab49290f4f7.png)
   
-    
-    
-
-  
-    
-    
-
-  
-    
-    
-
-    
   
 5. Pulse o haga clic en el botón de alternancia que hay junto a **Turn Microsoft Teams on or off for all users of this type** (Activar o desactivar Microsoft Teams para todos los usuarios de este tipo), cambie a **Activado** para activar Microsoft Teams y el acceso de invitado para su organización y, por último, seleccione **Guardar**. 
     
   
-
 > [!NOTE]
 > Puede pasar hasta una hora antes de que la configuración surta efecto. 
   
     
-    
-
-
-#### <a name="control-adding-guest-users-to-microsoft-teams-and-office-365-groups"></a>Controlar la adición de usuarios invitados a Microsoft Teams y grupos de Office 365
+## <a name="control-adding-guest-users-to-microsoft-teams-and-office-365-groups"></a>Controlar la adición de usuarios invitados a Microsoft Teams y grupos de Office 365
 <a name="bkmk_ControlAddingGuestUsers"> </a>
 
 
@@ -254,21 +229,10 @@ Para habilitar toda la experiencia de acceso de invitado de Microsoft Teams, los
     
 ![La captura de pantalla muestra el panel Grupos de Office 365 con las opciones activadas para permitir que los miembros del grupo externos a la organización accedan al contenido del grupo y para permitir que los propietarios del grupo agreguen a los grupos personas que no pertenecen a la organización.](media/eee77abd-4425-4585-91a8-5541c17ee7b2.png)
   
-    
-    
-
   
-    
-    
-
-  
-    
-    
-
-    
   
 <a name="controlguest"> </a>
-### <a name="turn-on-or-off-the-sharing-option-for-office-365"></a>Activar o desactivar la opción de uso compartido para Office 365
+## <a name="turn-on-or-off-the-sharing-option-for-office-365"></a>Activar o desactivar la opción de uso compartido para Office 365
 
 
 Con la opción Compartir, es posible agregar a los invitados a su organización. De forma predeterminada, la opción Compartir está habilitada. Si desea más información sobre cómo se desactiva la opción Compartir, consulte [Activar o desactivar la opción de uso compartido](https://support.office.com/en-us/article/Turn-on-or-off-the-Sharing-option-7c713d74-a144-4eab-92e7-d50df526ff96#bkmk_beforeyoubegin).
@@ -279,11 +243,8 @@ Con la opción Compartir, es posible agregar a los invitados a su organización.
 > [!IMPORTANT]
 > Si desactiva la opción Compartir, el acceso de invitado no estará disponible. 
   
-    
-    
 
-
-#### <a name="use-powershell-to-control-guest-access"></a>Usar PowerShell para controlar el acceso de invitado
+## <a name="use-powershell-to-control-guest-access"></a>Usar PowerShell para controlar el acceso de invitado
 <a name="bkmk_UsePowerShell"> </a>
 
 Además de usar el Centro de administración de Office 365 y el portal de Azure Active Directory, puede usar Windows PowerShell para controlar el acceso de invitado. Con PowerShell, puede hacer lo siguiente:
@@ -326,22 +287,22 @@ También se puede usar PowerShell para permitir o bloquear un usuario invitado e
   
     
 
-#### <a name="invite-guest-users"></a>Invitar a usuarios invitados
+## <a name="invite-guest-users"></a>Invitar a usuarios invitados
 <a name="bkmk_UsePowerShell"> </a>
 
-El propietario de un equipo o un administrador de Office 365 puede [invitar a un invitado a un equipo](https://support.office.com/en-us/article/invite-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoiaddateammember) de forma individual.  Sin embargo, los administradores no pueden usar el Centro de administración de Office 365 o el portal de Azure Active Directory para invitar a varios invitados a la vez. Para invitar a los invitados de forma central, considere la opción de usar la vista previa de colaboración B2B de Azure Active Directory. Si desea más información, vea [Acerca de la vista previa de la colaboración B2B de Azure AD](https://go.microsoft.com/fwlink/p/?linkid=853011).
+El propietario de un equipo o un administrador de Office 365 puede [invitar a un invitado a un equipo](https://support.office.com/en-us/article/invite-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoiaddateammember) de forma individual. Sin embargo, los administradores no pueden usar el Centro de administración de Office 365 o el portal de Azure Active Directory para invitar a varios invitados a la vez. Para invitar a los invitados de forma central, considere la opción de usar la vista previa de colaboración B2B de Azure Active Directory. Si desea más información, vea [Acerca de la vista previa de la colaboración B2B de Azure AD](https://go.microsoft.com/fwlink/p/?linkid=853011).
   
     
     
 
-#### <a name="edit-guest-user-information"></a>Editar información del usuario invitado
+## <a name="edit-guest-user-information"></a>Editar información del usuario invitado
 <a name="bkmk_UsePowerShell"> </a>
 
 En este momento, no puede editar la información de invitado en el Centro de administración de Office 365 o el Centro de administración de Exchange. Para editar las cuentas de invitado (como el nombre para mostrar o la foto del perfil), vaya a su portal de Azure Active Directory. Si desea más información, vea [Información acerca de la identidad de Office 365 y Azure Active Directory](https://support.office.com/en-us/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).
   
     
     
-### <a name="frequently-asked-questions-for-admins"></a>Preguntas más frecuentes para administradores
+## <a name="frequently-asked-questions-for-admins"></a>Preguntas más frecuentes para administradores
 <a name="bkmk_UsePowerShell"> </a>
 
 Estas son las preguntas comunes que los administradores de Office 365 tienen sobre cómo ofrecer a invitados que se unan a un equipo en Microsoft Teams.

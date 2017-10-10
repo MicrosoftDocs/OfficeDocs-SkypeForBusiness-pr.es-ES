@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Guía práctica para implementar la audioconferencia en Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: cf50e6468bdf4fc96419d39fbc889c5b5a220a8d
-ms.sourcegitcommit: e0efee5350da54a1f1ae1c317f8613652c820bc6
+ms.openlocfilehash: 5442f5bf11540f5429566bc683afaeb3a24ff4ac
+ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2017
+ms.lasthandoff: 09/28/2017
 ---
 <a name="audio-conferencing-in-microsoft-teams"></a>Audioconferencia en Microsoft Teams
 =====================================
@@ -20,7 +20,7 @@ ms.lasthandoff: 09/25/2017
 > [!IMPORTANT]
 > Las funciones de audioconferencia se encuentran en la versión preliminar pública. Está disponible para usuarios pioneros y clientes de la versión preliminar. No es una versión definitiva, sino que podría ir cambiando conforme haya nuevas versiones o actualizaciones.
 
-Audioconferencia en Office 365 (anteriormente conocida como Conferencia RTC) permite a los participantes unirse a las reuniones desde cualquier teléfono. Por el momento, esta característica se encuentra en Microsoft Teams y, con ella, los usuarios se pueden unir a las reuniones de Microsoft Teams a través de sus teléfonos. En las instrucciones prácticas que se detallan en este artículo, se revisan con usted todas las fases que conforman el recorrido de cliente de FastTrack para Office 365 hasta llegar a Audioconferencia: Enfoque, Incorporación y Nuevos valores.
+Audioconferencia en Office 365 (anteriormente conocida como Conferencia RTC) permite a los participantes unirse a las reuniones desde cualquier teléfono. Por el momento, esta característica se encuentra en Microsoft Teams (en la versión preliminar pública) y, con ella, los usuarios se pueden unir a las reuniones de Microsoft Teams a través de sus teléfonos. En las instrucciones prácticas que se detallan en este artículo, se revisan con usted todas las fases que conforman el recorrido de cliente de FastTrack para Office 365 hasta llegar a Audioconferencia: Enfoque, Incorporación y Nuevos valores.
 
 Esto es lo que conseguirá con [Audioconferencia](https://go.microsoft.com/fwlink/?linkid=858992) en Office 365.
 
@@ -587,7 +587,7 @@ Tras confirmar que su organización reúne los requisitos para poder usar el ser
 <tbody>
 <tr class="odd">
 <td align="left"><img src="media/audio_conferencing_image9.png" /></td>
-<td align="left">Pasos siguientes</td>
+<td align="left">Siguientes pasos</td>
 <td align="left"><p>Decida qué oficinas o ubicaciones de usuario se habilitarán para el servicio de Audioconferencia.</p></td>
 </tr>
 </tbody>

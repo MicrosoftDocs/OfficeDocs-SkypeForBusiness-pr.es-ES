@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Una lista de recursos de soporte técnico para Microsoft Teams que le ayudarán a usarlo de manera más eficiente y efectiva."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 0ce177c92d610b3f182c4f0f65685a5e4d26ed66
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 2883c0e35f200c2b5a5b5b6da9da0c50b067177d
+ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/28/2017
 ---
 <a name="support-resources-for-microsoft-teams"></a>Recursos de soporte técnico para Microsoft Teams
 =====================================
@@ -23,7 +23,7 @@ ms.lasthandoff: 09/22/2017
 
 -   [Ayuda de Microsoft Teams](https://support.office.com/Teams)
 
--   Centro de aprendizaje de Office - Microsoft Teams
+-   [Centro de aprendizaje de Office - Microsoft Teams](https://support.office.com/article/Microsoft-Teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 
 -   [Kit para el éxito del cliente de Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=846006)
 
