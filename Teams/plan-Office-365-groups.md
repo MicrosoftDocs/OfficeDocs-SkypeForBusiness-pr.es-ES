@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Conozca las decisiones que debería tomar al planificar grupos de Office 365, como elegir grupos privados y públicos, usar el cliente de Teams o la consola web de administración de Office 365 y cómo enseñar a usar las conversaciones a sus equipos."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 2f2267542d9b582416c219d01f40e7853ec24ae8
-ms.sourcegitcommit: 1bc2abb2acabe0357d3770284b2710ed9c7f59ee
+ms.openlocfilehash: db36bec549473429d0991693a81562558ff620d6
+ms.sourcegitcommit: a2b4959e05010ef90a7d4bfd4e96fb59ceace541
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2017
+ms.lasthandoff: 10/12/2017
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Planificar grupos de Office 365 al crear equipos en Microsoft Teams
 ==========================================================
@@ -25,7 +25,12 @@ Existen dos situaciones que podrían suscitar algunas discusiones a la hora de p
 
 -   En segundo lugar, para los clientes que no tienen grupos definidos en Office 365, puede crearlos mediante el portal de administración de Office 365, o bien de los clientes web y de escritorio de Teams. Como se mencionó anteriormente, debe administrar todas las pertenencias futuras a un grupo de Office 365 a través de un cliente de Teams. Dado que la pertenencia a un equipo también define la pertenencia a un grupo de Office 365, debe preparar a sus usuarios para este cambio.
 
-En los siguientes artículos se pueden encontrar contenido sobre preparación y adopción para los grupos de Office 365:
+## <a name="teams-respects-office-365-groups-naming-policy"></a>Microsoft Teams respeta la directiva de nomenclatura de los grupos de Office 365.
+La directiva de nomenclatura de los grupos de Office 365 que haya establecido su administrador se aplicará a Microsoft Teams cuando los usuarios creen o editen los nombres de los equipos. En ella se incluyen cosas como los sufijos y los prefijos obligatorios y la exclusión de palabras prohibidas.
+
+Para obtener más información, lea [Directiva de nomenclatura de grupos de Office 365 en Microsoft Teams](https://support.office.com/article/Office-365-Groups-Naming-Policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
+
+En los siguientes artículos se puede encontrar contenido sobre preparación y adopción para los grupos de Office 365:
 
 -   [Obtener más con grupos en Outlook](https://support.office.com/en-us/article/Get-more-with-Office-365-Groups-in-Outlook-93132800-5b11-49de-8cc2-605b6075b2b9)
 

@@ -39,8 +39,8 @@
 ## [Configurar la administración para aplicaciones en Microsoft Teams](admin-settings.md)
 
 # Seguridad y cumplimiento
-## [Modelos de identidad y autenticación en Microsoft Teams](identify-models-authentication.md)
 ## [Información general de seguridad y cumplimiento en Microsoft Teams](security-compliance-overview.md)
+## [Modelos de identidad y autenticación en Microsoft Teams](identify-models-authentication.md)
 ## [Buscar eventos en el log de auditorías en Microsoft Teams](audit-log-events.md)
 ## [Realizar una investigación de exhibición de documentos electrónicos en Microsoft Teams](eDiscovery-investigation.md)
 ## [Usar la búsqueda de contenido en Microsoft Teams](content-search.md)
