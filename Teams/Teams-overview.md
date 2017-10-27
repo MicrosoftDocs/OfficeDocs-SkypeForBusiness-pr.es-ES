@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Conozca Microsoft Teams, su infraestructura y cómo funciona con Office 365."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 319b2483b12e130fe6de48bc5b311d79362dddf7
-ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
+ms.openlocfilehash: b19e75db5f83403c7381046595d07e445a13cb0d
+ms.sourcegitcommit: a052a9d4db0a543f491bbd4708ca5a453145e2ef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 10/21/2017
 ---
 <a name="overview-of-microsoft-teams"></a>Introducción a Microsoft Teams
 ===========================
@@ -107,3 +107,11 @@ He aquí los casos de uso comunes para cada aplicación en Office 365. Para obte
 -   Sitio de equipo de SharePoint con todo el poder, aprovisionado automáticamente para cada equipo de Microsoft para almacenamiento de archivos, novedades del equipo, páginas, listas y mucho más.
 
 -   Vea [Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams](SharePoint-OneDrive-interact.md)
+
+## <a name="what-happened-to-the-teams-admin-faq"></a>¿Qué ha pasado con las preguntas frecuentes del administrador de Microsoft Teams?
+
+Aunque las preguntas frecuentes del administrador de Microsoft Teams eran muy útiles cuando se publicó por primera vez Microsoft Teams, rápidamente se convirtieron en un "cajón desastre" donde era muy difícil encontrar algo. Por ese motivo hemos decidido deshacernos de las preguntas frecuentes y hemos incorporado la información más relevante en la documentación de Microsoft Teams que está leyendo en este momento. Aquí encontrará toda la información que estaba en las preguntas frecuentes, en su contexto correcto.
+
+Si está buscando algo y no lo encuentra aquí, indíquenoslo en la sección **Comentarios** siguiente. Haremos todo lo posible por responder a sus comentarios en el plazo de 24 horas.
+
+Por cierto, **sí que** hay una sección de preguntas frecuentes en el [recorrido desde Skype Empresarial a Microsoft Teams](FAQ-journey.md). 

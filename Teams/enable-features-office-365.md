@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Conozca todas las características de Microsoft Teams que puede habilitar en su organización de Office 365, incluidos la configuración en todo el inquilino, la integración del correo electrónico, las aplicaciones, el almacenamiento en nube y mucho más."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: f61e0618f81e0eb8921ceb27d989c609f01356a4
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: e789e83e02f226d09c67fece89b72ed52aee5711
+ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/22/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Habilitar características de Microsoft Teams en su organización de Office 365
 ======================================================
@@ -102,7 +102,7 @@ NOTA: Los equipos no se pueden crear desde el panel Grupos. Deben crearse median
 
 De manera predeterminada, todos los usuarios pueden crear un equipo o un grupo. Los usuarios pueden crear equipos seleccionando Equipos en el lado izquierdo del cliente de Microsoft Teams (cliente de escritorio o aplicación web) y, a continuación, eligiendo Crear equipo en la parte inferior del cliente, debajo de la lista de equipos.
 
-Actualmente, el número máximo predeterminado de equipos que puede tener un inquilino de Office 365 es 500.000. Un administrador global puede crear un número ilimitado de equipos. Un usuario puede crear 250 equipos. Un propietario de equipo puede agregar 999 miembros a un equipo.
+Actualmente, el número máximo predeterminado de equipos que puede tener un inquilino de Office 365 es 500.000. Un administrador global puede crear un número ilimitado de equipos. Un usuario puede crear 250 equipos. Un propietario de equipo puede agregar 2500 miembros a un equipo.
 
 ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image8.png)
 

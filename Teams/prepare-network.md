@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Sepa cómo preparar y administrar la red de Microsoft Teams. La información incluye los requisitos de red, los requisitos de ancho de banda y otras consideraciones."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 9572b6ff52631bc41b57c8a4a44191ee79caee8e
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 79e7cd9e9ebef793c138e9482c7bc56c692e4ed1
+ms.sourcegitcommit: a052a9d4db0a543f491bbd4708ca5a453145e2ef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/21/2017
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams
 =================================================
@@ -29,7 +29,7 @@ Esto afecta la red de dos maneras: el tráfico fluirá entre los clientes de Mic
 
 |  |  |
 |---------|---------|
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image1.png)<br></br>Importante:    |Actualmente, no hay paridad de características cuando se transmiten medios en tiempo real entre los clientes. Los clientes de escritorio (Windows/Mac) admiten medios en conversaciones de par a par y en conferencias (incluido el escritorio compartido), mientras que los clientes móviles solo admiten audio de par a par.         |
+|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image1.png)<br></br>Importante:    |En este momento, las reuniones se pueden realizar con dispositivos móviles Android y iOS, pero no en Windows Phone (la compatibilidad con Windows Phone estará disponible muy pronto).       |
 
 Para obtener una experiencia óptima con los medios en tiempo real dentro de Microsoft Teams, se deben cumplir los requisitos de red para Office 365 (consulte la siguiente fuente para obtener más detalles: [Calidad de los medios y rendimiento de la conectividad de red para Skype Empresarial Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US))
 

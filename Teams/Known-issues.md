@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 560edb7454e923577633e21be9d4938a81cccd52
-ms.sourcegitcommit: a32e7860a34918198ab9fa388f5bb217c15f9e6c
+ms.openlocfilehash: 55e1dea54b9cf6dd73e6739991b1e4ff6cf57943
+ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 10/22/2017
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
  [Ayuda de Microsoft Teams](microsoft-teams-help.md) > [Escritorio y web](microsoft-teams-help.md#BKMK_DesktopAndWeb) > Actualización de los problemas conocidos de Microsoft Teams: 14 de septiembre de 2017 
@@ -33,10 +33,10 @@ En la siguiente tabla se enumeran los problemas conocidos de Microsoft Teams.
 |Diferencias de diseño en el cliente móvil de Microsoft Teams.  <br/> |Los equipos se muestran en una lista ordenada alfabéticamente y los canales no se pueden contraer en el cliente móvil.  <br/> |No hay ninguna solución.  <br/> |13/03/2017  <br/> |
 |La lista de espacios de trabajo no está ordenada alfabéticamente.  <br/> |Los usuarios que tienen que cambiar de espacio de trabajo cuando agregan una ficha PowerBI verán que la lista de espacios de trabajo entre los que tienen que alternar no está ordenada alfabéticamente.  <br/> |No hay ninguna solución.  <br/> ||
 |La barra de desplazamiento desaparece cuando se seleccionan informes.  <br/> |Cuando los usuarios que agregan informes de PowerBI intentan desplazarse por una lista que es más extensa que la pantalla de los informes no pueden evitar que se pierda la barra de desplazamiento.  <br/> |Use la flecha arriba o la flecha abajo para desplazarse por la lista.  <br/> ||
-|No se pueden agregar más de cinco usuarios a la vez.  <br/> |En los equipos públicos aún no es posible agregar más de cinco usuarios a la vez. El límite de miembros totales sigue siendo 999.  <br/> |En una próxima versión se abordará este problema.  <br/> |13/03/2017  <br/> |
+|No se pueden agregar más de cinco usuarios a la vez.  <br/> |En los equipos públicos aún no es posible agregar más de cinco usuarios a la vez. El límite de miembros totales es 2500.  <br/> |En una próxima versión se abordará este problema.  <br/> |13/03/2017  <br/> |
 |No hay ningún acceso externo al espacio de trabajo de Microsoft Teams.  <br/> |El acceso externo no está aún disponible, pero el acceso de invitado está incluido en el mapa de ruta de Microsoft Teams para agosto de 2017.  <br/> |No hay ninguna solución.  <br/> |02/11/2016  <br/> |
 |Los usuarios no pueden crear un equipo.  <br/> |Es posible que su empresa haya establecido una directiva para restringir quién puede crear equipos o grupos de Office 365.  <br/> |Compruébelo con su administrador de TI para saber cuál es la directiva de su empresa en relación con la creación de grupos y equipos.  <br/> |13/03/2017  <br/> |
-|El límite máximo de miembros de un equipo es 999.  <br/> |Cada equipo de Microsoft Teams puede incluir un máximo de 999 miembros por equipo.  <br/> |No hay ninguna solución.  <br/> |13/03/2017  <br/> |
+|El límite máximo de miembros de un equipo es 2500.  <br/> |Cada equipo de Microsoft Teams puede incluir un máximo de 2500 miembros por equipo.  <br/> |No hay ninguna solución.  <br/> |13/03/2017  <br/> |
 |Al eliminar un equipo, también se elimina el grupo que está asociado a él.  <br/> |Es posible que los usuarios no se percaten de que el grupo de Office 365 subyacente se elimina cuando se elimina el equipo. Además, si se elimina el grupo de Office 365 subyacente, el equipo se elimina también.  <br/> |Un idioma adicional en Microsoft Teams proporciona esta información al usuario. Esta información no está presente en la interfaz de grupos de Office 365.  <br/> |13/03/2017  <br/> |
 |Los buzones de grupo no están habilitados para poder archivar en ellos (almacenamiento extra).  <br/> |En el Centro de seguridad y cumplimiento de Office 365, los administradores globales no pueden habilitar el archivado en los buzones de grupo. Solo pueden hacerlo en los buzones de los usuarios.  <br/> |Si la capacidad del buzón de grupo está casi llena, póngase en contacto con el soporte técnico de Microsoft Office para ampliar el tamaño del buzón.  <br/> |01/02/2017  <br/> |
 |Los usuarios locales de Skype Empresarial no reciben mis mensajes.  <br/> |Los mensajes no se completarán cuando los usuarios de Microsoft Teams intenten enviar un mensaje a otra persona que esté usando Skype Empresarial local.  <br/> | Se admite la interoperabilidad entre Microsoft Teams y los usuarios que están alojados en Skype Empresarial Online. Los usuarios de Microsoft Teams pueden enviar chats entre dos personas a usuarios que no pertenezcan a Microsoft Teams con Skype Empresarial Online. <br/> No se admite la interoperabilidad entre Microsoft Teams y los usuarios que están alojados en Skype Empresarial local. Los usuarios de Microsoft Teams no pueden enviar chats entre dos personas a usuarios que no pertenezcan a Microsoft Teams con Skype Empresarial local.  <br/> |02/11/2016  <br/> |

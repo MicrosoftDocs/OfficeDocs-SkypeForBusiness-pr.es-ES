@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 description: "Conozca las prácticas recomendadas de los métodos de comentarios en Microsoft Teams para garantizar la mejor experiencia posible con el equipo."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d69eadf88d0e102e460ec4c0ae9718dd57296c1c
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: b3e495052ddf8b8e1642d9b740107338165aaa35
+ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/22/2017
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Prácticas recomendadas de los métodos de comentarios de los usuarios en Microsoft Teams
 ===========================================================
 
 La adopción de una nueva experiencia de colaboración consiste en cambiar el comportamiento de los usuarios. Los cambios de los humanos requieren formación, motivación y ejemplos positivos. Es fundamental que la gente se sienta escuchada durante la transición. Si ya ha establecido métodos de comentarios adecuados en su organización, puede ampliarlos para que incluyan la implementación de sus equipos. Si no lo ha hecho antes, puede seguir uno de estos enfoques:
 
--   La creación de un equipo público en Microsoft Teams al que puede unirse cualquier usuario para proporcionar comentarios sobre su experiencia (teniendo en cuenta que los grupos públicos están actualmente limitados a 999 usuarios).
+-   La creación de un equipo público en Microsoft Teams al que puede unirse cualquier usuario para proporcionar comentarios sobre su experiencia (teniendo en cuenta que los grupos públicos están limitados a 2500 usuarios).
 
 -   El uso de Yammer para proporcionar una comunidad abierta para las prácticas recomendadas y la compatibilidad de la experiencia.
 

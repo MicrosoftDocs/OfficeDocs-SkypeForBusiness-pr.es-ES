@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Conozca las decisiones que debería tomar al planificar grupos de Office 365, como elegir grupos privados y públicos, usar el cliente de Teams o la consola web de administración de Office 365 y cómo enseñar a usar las conversaciones a sus equipos."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: db36bec549473429d0991693a81562558ff620d6
-ms.sourcegitcommit: a2b4959e05010ef90a7d4bfd4e96fb59ceace541
+ms.openlocfilehash: c4829acbe141e1ed82b30819cf5d95846f114165
+ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2017
+ms.lasthandoff: 10/22/2017
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Planificar grupos de Office 365 al crear equipos en Microsoft Teams
 ==========================================================
@@ -21,7 +21,7 @@ Al considerar el uso de grupos de Office 365 o al crear equipos, piense para qu�
 
 Existen dos situaciones que podrían suscitar algunas discusiones a la hora de planificar grupos de Office 365 y su impacto en Microsoft Teams.
 
--   En primer lugar, dado que los clientes tienen inversiones en los grupos, actualmente admitimos grupos públicos o privados de menos de 999 miembros. Como mencionamos anteriormente, debería administrar la pertenencia de las personas a un equipo mediante un cliente de Teams y no a través de la consola web de administración de Office 365. Dada esta situación, si las personas están habituadas a las conversaciones encadenadas en los grupos de Office 365, vale la pena mencionar que una conversación de grupos de Office 365 se da fundamentalmente a través del correo electrónico y no es lo mismo que un mensaje de chat de un canal de equipo. Explique esta diferencia a sus usuarios y sugiera que adopten un formato de mensaje de chat más flexible en Teams, en lugar de enviar correos electrónicos al grupo a través de Outlook u OWA.
+-   En primer lugar, dado que los clientes tienen inversiones en los grupos, actualmente admitimos grupos públicos o privados de menos de 2500 miembros. Como mencionamos anteriormente, debería administrar la pertenencia de las personas a un equipo mediante un cliente de Teams y no a través de la consola web de administración de Office 365. Dada esta situación, si las personas están habituadas a las conversaciones encadenadas en los grupos de Office 365, vale la pena mencionar que una conversación de grupos de Office 365 se da fundamentalmente a través del correo electrónico y no es lo mismo que un mensaje de chat de un canal de equipo. Explique esta diferencia a sus usuarios y sugiera que adopten un formato de mensaje de chat más flexible en Teams, en lugar de enviar correos electrónicos al grupo a través de Outlook u OWA.
 
 -   En segundo lugar, para los clientes que no tienen grupos definidos en Office 365, puede crearlos mediante el portal de administración de Office 365, o bien de los clientes web y de escritorio de Teams. Como se mencionó anteriormente, debe administrar todas las pertenencias futuras a un grupo de Office 365 a través de un cliente de Teams. Dado que la pertenencia a un equipo también define la pertenencia a un grupo de Office 365, debe preparar a sus usuarios para este cambio.
 
