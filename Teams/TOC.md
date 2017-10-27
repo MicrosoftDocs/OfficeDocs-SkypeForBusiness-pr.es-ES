@@ -52,8 +52,8 @@
 ## [Solucionar problemas de conectividad con el cliente de Microsoft Teams](connectivity-issues.md)
 ## [Usar los archivos de registro para solucionar problemas en Microsoft Teams](log-files.md)
 
-# [Implementar voz en la nube](cloud-voice-deployment.md)
-## [Audioconferencias](audio-conferencing.md)
+# [Implementación de voz en la nube](cloud-voice-deployment.md)
+## [Audioconferencia](audio-conferencing.md)
 ### [Enfoque](audio-conferencing.md#Envision_AudioConferencing)
 ### [Planificar](audio-conferencing.md#Planning_AudioConferencing)
 
