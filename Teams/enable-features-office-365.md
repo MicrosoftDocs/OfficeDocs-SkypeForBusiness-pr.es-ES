@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Conozca todas las características de Microsoft Teams que puede habilitar en su organización de Office 365, incluidos la configuración en todo el inquilino, la integración del correo electrónico, las aplicaciones, el almacenamiento en nube y mucho más."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e789e83e02f226d09c67fece89b72ed52aee5711
-ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
+ms.openlocfilehash: a336d04bf8a296e608eb80796d16ba1f7dc3ed74
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Habilitar características de Microsoft Teams en su organización de Office 365
 ======================================================
@@ -34,19 +34,19 @@ En **Configuración de todos los inquilinos** puede activar o desactivar las opc
 
 La sección General le permite establecer la siguiente configuración para su organización.
 
-> ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image1.png)
+> ![Captura de pantalla de la sección General en la configuración para todos los inquilinos.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image1.png)
 
 -   **Mostrar el organigrama en el perfil personal:** Cuando esta configuración esté habilitada, se mostrará el organigrama en la tarjeta de contacto del usuario. Cuando se haga clic en ella, mostrará el organigrama detallado.
 
-    ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image2.png)
+    ![Captura de pantalla del icono de organigrama en la tarjeta de contacto de un usuario.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image2.png)
 
-    ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image3.png)
+    ![Captura de pantalla de un organigrama.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image3.png)
 
 -   **Usar Skype Empresarial para los destinatarios que no tengan Microsoft Teams:** Cuando esta configuración esté habilitada, se permitirá a los usuarios de Microsoft Teams ponerse en contacto con otros usuarios en la organización que no tengan permiso para Microsoft Teams mediante Skype Empresarial.
 
 -   **Permitir mensajes de ayuda proactivos de T-bot:** Cuando esta configuración esté habilitada, T-bot iniciará una sesión de chat privado con los usuarios para guiarlos en el uso de Microsoft Teams.
 
-    ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image4.png)
+    ![Captura de pantalla de la sección T-Bot en la interfaz de Microsoft Teams.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image4.png)
 
 <a name="email-integration"></a>Integración del correo electrónico
 -----------------
@@ -55,7 +55,7 @@ Active esta característica para que los usuarios puedan enviar un correo electr
 
 La integración del correo electrónico le permite establecer la siguiente configuración para su organización.
 
-   ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image5.png)
+   ![Captura de pantalla de la sección de integración del correo electrónico en la configuración para todos los inquilinos.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image5.png)
 
 -   **Permitir que los usuarios puedan enviar correo electrónico a los canales:** Cuando está habilitado, los enlaces de correo electrónico se habilitarán también y los usuarios podrán publicar mensajes a un canal enviando un correo electrónico a la dirección de correo electrónico del canal de Microsoft Teams.
 
@@ -70,19 +70,19 @@ Las aplicaciones en Microsoft Teams son una forma genial de integrar las herrami
 
 La sección **Aplicaciones** le permite establecer la siguiente configuración para su organización:
 
-![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.png)
+![Captura de pantalla de la sección Aplicaciones.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.png)
 
 -   **Permitir aplicaciones externas en Microsoft Teams:** Cuando esté habilitado, los usuarios podrán agregar fichas y bots que estén disponibles al inquilino de Office 365.
-![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.2.png)
+![Captura de pantalla del control para permitir aplicaciones externas en la sección Aplicaciones.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.2.png)
 
--   **Permitir la instalación de prueba de aplicaciones externas:** Cuando esté habilitado, los usuarios podrán instalar y habilitar bots y fichas personalizados.
+-   **Permitir la instalación de prueba de aplicaciones externas:** cuando esté habilitado, los usuarios podrán instalar y habilitar bots y fichas personalizados.
 
 <a name="custom-cloud-storage"></a>Almacenamiento en nube personalizado
 --------------------
 
 Las opciones de almacenamiento en nube en Microsoft Teams actualmente incluyen Box, Dropbox, Google Drive y ShareFile. Los usuarios pueden cargar y compartir archivos de los servicios de almacenamiento en nube en los canales y chats de Microsoft Teams. Pulse o haga clic en el botón de alternancia que hay al lado de los proveedores de almacenamiento en nube que quiera usar su organización.
 
-![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
+![Captura de pantalla de la sección de almacenamiento en nube personalizado.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
 
 <a name="user-settings-by-license"></a>Configuración de usuario por licencia
 ------------------------
@@ -104,7 +104,7 @@ De manera predeterminada, todos los usuarios pueden crear un equipo o un grupo. 
 
 Actualmente, el número máximo predeterminado de equipos que puede tener un inquilino de Office 365 es 500.000. Un administrador global puede crear un número ilimitado de equipos. Un usuario puede crear 250 equipos. Un propietario de equipo puede agregar 2500 miembros a un equipo.
 
-![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image8.png)
+![Captura de pantalla de la sección de configuración de usuario por licencia.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image8.png)
 
 Los canales son subcategorías de los equipos. Cualquier persona del equipo puede agregar un canal y participar en la conversación en un canal. Los canales se pueden crear para una actividad o para un departamento. Las conversaciones, los archivos y las páginas wiki son específicas de cada canal, pero todos los miembros del equipo podrán verlos.
 
@@ -114,7 +114,7 @@ Los canales son subcategorías de los equipos. Cualquier persona del equipo pued
 
 La sección **Llamadas y reuniones** le permite establecer la siguiente configuración para su organización:
 
-> ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
+> ![Captura de pantalla de la sección de llamadas y reuniones.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
 
 -   **Permitir la programación de reuniones privadas:** Cuando está habilitado, los usuarios pueden programar reuniones privadas que no se indican en ningún canal.
 
@@ -134,7 +134,7 @@ El número máximo de personas que pueden participar en una reunión es 80. Pued
 
 La sección Mensajes le permite establecer la siguiente configuración para su organización.
 
-![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image10.png)
+![Captura de pantalla de la sección de mensajes.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image10.png)
 
 -   **Habilitar Giphy para que los usuarios puedan agregar imágenes gif en las conversaciones:** Cuando está habilitado, los usuarios pueden usar imágenes animadas en las conversaciones.
 
@@ -161,6 +161,6 @@ La sección Mensajes le permite establecer la siguiente configuración para su o
 
 | |  |  |
 |---------|---------|---------|
-|![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image11.png)     |Punto de decisión         |¿Qué configuración de Microsoft Teams habilitará su organización?         |
-|![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image12.png)     |Pasos siguientes        |Registre estas decisiones en la tabla que se encuentra en [Asignar roles y permisos en Microsoft Teams](assign-roles-permissions.md).         |
+|![Icono de Punto de decisión.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image11.png)     |Punto de decisión         |¿Qué configuración de Microsoft Teams habilitará su organización?         |
+|![Icono de Siguientes pasos.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image12.png)     |Siguientes pasos        |Registre estas decisiones en la tabla que se encuentra en [Asignar roles y permisos en Microsoft Teams](assign-roles-permissions.md).         |
 

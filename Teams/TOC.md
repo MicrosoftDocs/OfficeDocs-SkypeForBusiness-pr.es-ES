@@ -29,28 +29,26 @@
 ## [Asignar roles y permisos en Microsoft Teams](assign-roles-permissions.md)
 ## [Habilitar características de Microsoft Teams en su organización de Office 365](enable-features-office-365.md)
 ## [Gestionar acceso de los usuarios a Microsoft Teams](user-access.md)
-## [Administrar el acceso de invitado a Microsoft Teams](guest-access.md)
 ## [Mejorar los grupos de Office 365 existentes con Microsoft Teams](enhance-office-365-groups.md)
 ## [Configurar una organización híbrida de Exchange para usarla con Microsoft Teams](Exchange-hybrid-organization.md)
 ## [Agregar dominio SMTP de Microsoft Teams como un dominio aceptado en Exchange Online](SMTP-accepted-domain.md)
 ## [Usar fichas integradas y personalizadas en Microsoft Teams](built-in-custom-tabs.md)
 ## [Usar Office 365 y conectores personalizados en Microsoft Teams](Office-365-custom-connectors.md)
 ## [Agregar bots para chats privados y canales en Microsoft Teams](add-bots.md)
-## [Configurar la administración para aplicaciones en Microsoft Teams](admin-settings.md)
+## [Configurar la administración para aplicaciones en Teams](admin-settings.md)
 
-# Seguridad y cumplimiento
-## [Información general de seguridad y cumplimiento en Microsoft Teams](security-compliance-overview.md)
-## [Modelos de identidad y autenticación en Microsoft Teams](identify-models-authentication.md)
-## [Buscar eventos en el log de auditorías en Microsoft Teams](audit-log-events.md)
-## [Realizar una investigación de exhibición de documentos electrónicos en Microsoft Teams](eDiscovery-investigation.md)
-## [Usar la búsqueda de contenido en Microsoft Teams](content-search.md)
-## [Poner a un usuario o un equipo de Microsoft Teams en retención legal](legal-hold.md)
 
-# Solucionar problemas
-## [Recursos de soporte técnico para Microsoft Teams](support-resources.md)
-## [Comprobar el estado del servicio para Microsoft Teams](service-health.md)
-## [Solucionar problemas de conectividad con el cliente de Microsoft Teams](connectivity-issues.md)
-## [Usar los archivos de registro para solucionar problemas en Microsoft Teams](log-files.md)
+# [Acceso de invitado a Teams](guest-access.md)
+## [Cómo se une un invitado a un equipo](guest-joins.md)
+## [Cómo es la experiencia de invitado](guest-experience.md)
+## [Dependencias de Office 365 para Teams](Teams-dependencies.md)
+## [Configurar el acceso de invitado a Teams](set-up-guests.md)
+## [Administrar el acceso de invitado a Teams](manage-guests.md)
+## [Agregar un invitado a un equipo](add-guests.md)
+## [Ver los usuarios invitados en un equipo](view-guests.md)
+## [Editar información del usuario invitado](edit-guests-information.md)
+## [Usar PowerShell para controlar el acceso de invitado a un equipo](guest-access-PowerShell.md)
+
 
 # [Implementación de voz en la nube](cloud-voice-deployment.md)
 ## [Audioconferencia](audio-conferencing.md)
@@ -67,5 +65,20 @@
 # Vídeos y formación
 ## [Preparación de administradores de TI para Microsoft Teams](ITAdmin-readiness.md)
 ### [Vídeos: Audioconferencia en Microsoft Teams](audio-conferencing-videos.md)
-## [Formación del usuario final para Microsoft Teams](enduser-training.md)
+## [Formación del usuario final para Teams](enduser-training.md)
 
+
+# Seguridad y cumplimiento
+## [Información general de seguridad y cumplimiento en Microsoft Teams](security-compliance-overview.md)
+## [Modelos de identidad y autenticación en Microsoft Teams](identify-models-authentication.md)
+## [Buscar eventos en el log de auditorías en Microsoft Teams](audit-log-events.md)
+## [Realizar una investigación de exhibición de documentos electrónicos en Microsoft Teams](eDiscovery-investigation.md)
+## [Usar la búsqueda de contenido en Microsoft Teams](content-search.md)
+## [Poner a un usuario o un equipo de Microsoft Teams en retención legal](legal-hold.md)
+
+
+# Solucionar problemas
+## [Recursos de soporte técnico para Microsoft Teams](support-resources.md)
+## [Comprobar el estado del servicio para Microsoft Teams](service-health.md)
+## [Solucionar problemas de conectividad con el cliente de Microsoft Teams](connectivity-issues.md)
+## [Usar los archivos de registro para solucionar problemas en Teams](log-files.md)

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Obtenga más información sobre cómo agregar bots en Microsoft Teams para chats privados y canales, crear bots personalizados y transferir localmente su propio bot para chats privados."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 905a105fba269aebb2b01cbccc1a47e7667ca341
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: b1473a621f9f40ef3220546988db0635721acb7c
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Agregar bots para chats privados y canales en Microsoft Teams
 ==========================================================
@@ -32,21 +32,21 @@ Hay dos maneras de integrar un bot para los chats privados y los canales:
 
 2.  Alternativamente, para encontrar bots, vaya a **Chat**, busque un **contacto** y haga clic en **Descubrir aplicaciones**.
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image1.png)
+![Captura de pantalla de la ventana de búsqueda con Descubrir aplicaciones como resultado de la búsqueda.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image1.png)
 
 3.  Seleccione con qué **bot** desea tener una conversación, tal como se muestra a continuación.
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image2.png)
+![Captura de pantalla de la ventana Descubrir aplicaciones con la ficha Bots seleccionada.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image2.png)
 
 4.  Una vez seleccionado, proporcione los **permisos** del bot y seleccione si desea usar **bots en un chat privado** o seleccione un **equipo** en el que usarlo.
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image3.png)
+![Captura de pantalla de la página de la aplicación AzureBot.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image3.png)
 
 5.  También puede usar un bot en el canal de un equipo. Para ello, haga clic en **Ver equipo y bots**. Aquí puede descubrir bots adicionales.
 
 6.  Los bots se pueden quitar en cualquier momento de un equipo. Solo tiene que hacer clic en **Ver equipo y bots** para ver todos los bots y después **quitar** el que desee.
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image4.png)
+![Captura de pantalla de la ficha Bots con la descripción de AzureBot.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image4.png)
 
 <a name="create-custom-bots-for-microsoft-teams"></a>Crear bots personalizados para Microsoft Teams
 --------------------------------------
@@ -62,10 +62,10 @@ Los bots se pueden probar con [emulador de Bot Framework](https://go.microsoft.c
 
 1.  Una vez que haya creado su bot, vaya a la [página](https://go.microsoft.com/fwlink/?linkid=854374) del **Panel de bots** del bot que ha desarrollado y, en **Detalles**, copie el **Identificador de aplicación de Microsoft**.
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
+![Captura de pantalla de la página de detalles para un bot con el identificador de aplicación de Microsoft resaltado.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
 
-2.  En Microsoft Teams, en el panel **Chat**, seleccione el icono **Agregar chat**. En **A:,** pegue el **identificador de aplicación de Microsoft** del bot.
+2.  En Microsoft Teams, en el panel **Chat**, seleccione el icono **Agregar chat**. En **Para:,** pegue el **identificador de aplicación de Microsoft** del bot.
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image6.png)
+![Captura de pantalla de un panel de chat con el icono de Agregar chat y la línea Para con el identificador de aplicación de Microsoft resaltado.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image6.png)
 
 3.  El identificador de la aplicación se resolverá con el **nombre del bot** y después podrá iniciar una conversación de chat con el bot.

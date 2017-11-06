@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Conozca las distintas licencias de Office 365, cuáles permiten a los usuarios usar Microsoft Teams y cómo habilitarlas o deshabilitarlas."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d3c49ab67d3f3b80f8501941a2223b7a4435f514
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: bb78ffd86183ae35800fc709ad74df691a43a4e8
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Licencias de Office 365 para Microsoft Teams
 ========================================
@@ -30,7 +30,7 @@ Estas suscripciones de Office 365 permiten a los usuarios usar Microsoft Teams:
 
 |||
 |---------|---------|
-|![](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image1.png)<br></br>Nota     |Microsoft Teams también está disponible para organizaciones sin ánimo de lucro. Las licencias gubernamentales no se admiten en este momento, pero se está investigando para admitirlas en el futuro.         |
+|![Icono de Nota.](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image1.png)<br></br>Nota     |Microsoft Teams también está disponible para organizaciones sin ánimo de lucro. Las licencias gubernamentales no se admiten en este momento, pero se está investigando para admitirlas en el futuro.         |
         
 
 
@@ -45,6 +45,6 @@ Microsoft Teams no está disponible como un servicio independiente.
 
 La licencia de Microsoft Teams está habilitada, de manera predeterminada, para todos los usuarios asignados que tengan suscripciones válidas de Office 365.
 
-![](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image2.png)
+![Captura de pantalla de la configuración en la sección de licencias en el Centro de administración de Office 365, donde se ve Microsoft Teams como Activado.](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image2.png)
 
 Se puede habilitar o deshabilitar Microsoft Teams para toda la organización. Está habilitado de manera predeterminada. **No se puede habilitar Microsoft Teams solo para una parte de una organización.** Si una organización tiene previsto poner en funcionamiento un piloto de Microsoft Teams con un grupo selecto de usuarios y, al mismo tiempo, restringir el acceso a Microsoft Teams para otros usuarios, debe deshabilitarse la licencia de Microsoft Teams para todos los usuarios que no formen parte del grupo piloto.

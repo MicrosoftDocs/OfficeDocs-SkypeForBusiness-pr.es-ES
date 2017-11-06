@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Guía para usar Skype Empresarial y Microsoft Teams en paralelo."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 760fa47db7965e0c2a74b01ae25f1d23d37d3180
-ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
+ms.openlocfilehash: b1a635fe4abb607064a0e26240ed58715fa43a8d
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="enable-microsoft-teams-side-by-side-with-skype-for-business"></a>Habilitar Microsoft Teams en paralelo con Skype Empresarial 
 =============================================================
@@ -33,7 +33,7 @@ En general, hay dos recorridos de cliente en paralelo principales. Son los sigui
 
     TI controla la experiencia en paralelo y guía a los usuarios a lo largo del recorrido que se hace para introducir gradualmente Microsoft Teams: primero se introduce un espacio de trabajo de colaboración nuevo basado en chats con chat privado, después las experiencias de reuniones y, por último, las experiencias de llamada de Microsoft Teams.
 
-![](media/guidance_SkypeforBusiness_image1.png)
+![Diagrama de dos recorridos paralelos de clientes: gestionado y no gestionado.](media/guidance_SkypeforBusiness_image1.png)
 
 <a name="side-by-side-benefits-and-considerations"></a>Ventajas y consideraciones en paralelo
 ----------------------------------------
@@ -103,7 +103,7 @@ Cada recorrido tiene ventajas y consideraciones que hay que evaluar a la hora de
 ---------------------------------------
 
 
-![](media/guidance_SkypeforBusiness_image4.png)
+![Diagrama del recorrido de cliente no administrado en paralelo.](media/guidance_SkypeforBusiness_image4.png)
 
 En un recorrido de cliente no administrado en paralelo, Microsoft Teams se presenta como una solución de colaboración (un espacio de trabajo basado en chats, canales, aplicaciones, integración con otras cargas de trabajo de Office 365, etc.) que involucra a software cliente y clientes web en equipos de escritorio (PC o Mac) y dispositivos móviles.
 
@@ -123,9 +123,9 @@ Este recorrido de cliente en paralelo puede aplicarse en su organización. En es
 <a name="managed-side-by-side-customer-journey"></a>Recorrido de cliente administrado en paralelo
 -------------------------------------
 
-![](media/guidance_SkypeforBusiness_image2.png)
+![Diagrama del recorrido de cliente administrado en paralelo.](media/guidance_SkypeforBusiness_image2.png)
 
-Un recorrido administrado de cliente en paralelo se inicia cuando la organización quiere controlar más la introducción de Microsoft Teams.
+Un recorrido administrado de cliente en paralelo se inicia cuando la organización quiere controlar más la introducción de Teams.
 
 -   El **primer paso** de este recorrido consiste en crear un proyecto piloto limitado de Microsoft Teams enfocado en requisitos de colaboración moderna (un espacio de trabajo basado en chats, canales, aplicaciones, integración con otras cargas de trabajo de Office 365, etc.). El chat privado y las reuniones de canal ah hoc de Microsoft Teams están habilitados para que los usuarios del proyecto piloto puedan evaluar las experiencias de chat privado y de reuniones de Microsoft Teams si así lo deciden. Las funcionalidades de llamadas privadas y reuniones programadas de Microsoft Teams no están habilitadas en esta fase. Para comenzar con el piloto, vaya a [Crear un proyecto piloto de Microsoft Teams junto a Skype Empresarial](pilot-essentials.md).
     

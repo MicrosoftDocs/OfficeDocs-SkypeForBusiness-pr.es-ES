@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Conozca los pasos que debe seguir cuando necesite realizar una exhibición de documentos electrónicos, como por ejemplo, cuando debe entregar toda la información almacenada electrónicamente para procedimientos legales."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 52827781811e991df30250adb353ba90a7b333d6
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: c9650604a65975058d10e2ca73eaadc985c73495
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de exhibición de documentos electrónicos en Microsoft Teams
 ============================
@@ -25,8 +25,6 @@ Se crean diarios de todos los chats de grupo o 1:1 en Microsoft Teams en los res
 
 2.  Los datos de Microsoft Teams aparecerán como **mensajes instantáneos o conversaciones** en los resultados del Excel, o puede montar el **.PST** en Outlook.
 
-    a.  Cuando monte el .PST para el equipo, tenga en cuenta que todas las conversaciones se guardan en la carpeta Chat de equipo en el Historial de conversaciones. El título del mensaje concuerda con el equipo y el canal. En la imagen de abajo podrá ver el mensaje de Bob que envió al canal  Project 7 (Proyecto 7) del equipo Manufacturing Specs (Especificaciones de fabricación).
+    a.  Cuando monte el .PST para el equipo, tenga en cuenta que todas las conversaciones se guardan en la carpeta Chat de equipo en Historial de conversaciones. El título del mensaje concuerda con el equipo y el canal. En la imagen de abajo podrá ver el mensaje de Bob que envió al canal Project 7 (Proyecto 7) del equipo Manufacturing Specs (Especificaciones de fabricación). ![Captura de pantalla de una carpeta Chat de equipo en el buzón de un usuario de Outlook.](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
-![](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
-
-3.  Para ver chats privados en el buzón de un usuario, tenga en cuenta que también se encuentran en la carpeta Chat de equipo en el Historial de conversaciones.
+3.  Para ver chats privados en el buzón de un usuario, tenga en cuenta que también se encuentran en la carpeta Chat de equipo en Historial de conversaciones.

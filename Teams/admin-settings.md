@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: Aprenda a permitir y habilitar aplicaciones en Microsoft Teams, incluida la carga lateral de aplicaciones externas.
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 19ed683382cd06d0b0c33686391e012f35f35fc4
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 33907b6e63d621bb0de48b38161d75f08c6dda4e
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurar la administración para aplicaciones en Microsoft Teams
 ==========================================
@@ -37,4 +37,4 @@ La carga lateral de aplicaciones en Microsoft Teams la pueden realizar únicamen
 
 Para saber más sobre la carga lateral de aplicaciones en Microsoft Teams, visite el tema sobre [carga lateral de aplicaciones en Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=854631) 
 
-![](media/Admin_settings_for_apps_in_Microsoft_Teams_image1.png)
+![Captura de pantalla de la sección Aplicaciones de la configuración de Microsoft Teams.](media/Admin_settings_for_apps_in_Microsoft_Teams_image1.png)

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Guía práctica para implementar la audioconferencia en Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 5442f5bf11540f5429566bc683afaeb3a24ff4ac
-ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
+ms.openlocfilehash: c6791646b58111a9785430b6541c57972a15ab20
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="audio-conferencing-in-microsoft-teams"></a>Audioconferencia en Microsoft Teams
 =====================================
@@ -638,8 +638,7 @@ _Tabla 7 Ejemplo de una lista de habilitación del sitio de servicio de Audiocon
 La [licencia de Audioconferencia](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7?ui=en-US&rs=en-US&ad=US), anteriormente conocida como licencia de Conferencia RTC para Skype Empresarial, está disponible como parte de los planes de suscripción de Office 365 E5 o como un complemento a los planes de suscripción de Office 365 E3 o E1.
 
 > [!NOTE]
-> Las conferencias de acceso telefónico local o RTC no admiten los proveedores de servicios de audioconferencia de terceros (ACP).<sup></sup>
-> <br>Si está usando la Conferencia RTC para Skype Empresarial Online, puede beneficiarse al instante de Audioconferencia en Microsoft Teams.
+> Las conferencias de acceso telefónico local o RTC no admiten los proveedores de servicios de audioconferencia de terceros (ACP).<sup></sup> <br>Si está usando la Conferencia RTC para Skype Empresarial Online, puede beneficiarse al instante de Audioconferencia en Microsoft Teams.
 
 Para proporcionar números de teléfono gratuitos para puentes de conferencia y admitir las conferencias por aceptación de llamada de números de teléfono internacionales, tendrá que configurar [Créditos de comunicaciones](https://support.office.com/article/What-is-PSTN-Consumption-billing-524dbea7-117f-493d-8005-6461f7f10059) para su organización.
 
@@ -1098,7 +1097,7 @@ Dentro de la característica de Sistema telefónico de Office 365, existen dos t
 
 El plan de marcado efectivo que se asigna a los usuarios es la combinación del plan de marcado de servicio (basado en la ubicación de uso de Office 365 del usuario) y el plan de marcado de inquilino (ya sea el de inquilino global o el de usuario de inquilino).
 
-![](media/audio_conferencing_image8.png)
+![La tabla muestra tres combinaciones de planes de marcado de inquilino y servicio.](media/audio_conferencing_image8.png)
 
 Hay un máximo de 25 reglas de normalización en cada plan de marcado de inquilino y, por lo tanto, hay que evitar duplicar las reglas de normalización que ya están disponibles como parte del plan de marcado de servicio.
 

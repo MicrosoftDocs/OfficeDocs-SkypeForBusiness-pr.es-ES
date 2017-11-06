@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Descripción general de las características de seguridad y cumplimiento de Microsoft Teams, que incluye auditoría y generación informes, búsqueda de contenido de cumplimiento, eDiscovery y mucho más."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 3321dee954b9861054886677b2835c689035888c
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: d42457165fae8e23181d7e7f4fe50ea30938dfd3
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================
@@ -68,11 +68,11 @@ Estas herramientas se encuentran en el Portal de seguridad y cumplimiento de Off
 
 La siguiente imagen muestra el flujo de trabajo de los datos de Teams en Exchange y SharePoint.
 
-![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
+![Diagrama del flujo de trabajo de los datos de Teams en Exchange y SharePoint.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
 
 > [!IMPORTANT]
-> Puede haber hasta un máximo de 24 horas de retraso en la detección del contenido de Microsoft Teams.
+> Puede haber hasta un máximo de 24 horas de retraso en la detección del contenido de Teams.
 
 Además, Microsoft tiene pensada la probabilidad de proporcionar las siguientes características de seguridad a Microsoft Teams. Cuando estén disponibles, se proporcionarán instrucciones sobre cómo los clientes pueden aprovechar las características:
 
@@ -87,8 +87,8 @@ Además, Microsoft tiene pensada la probabilidad de proporcionar las siguientes 
 
 | | | |
 |---------|---------|---------|
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Punto de decisión         |¿Qué características de seguridad y cumplimiento requiere su organización? ¿Su organización tiene las licencias necesarias para cumplir con los requisitos empresariales de seguridad y cumplimiento?         |
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Pasos siguientes         |Documente las características requeridas de seguridad y cumplimiento en la tabla siguiente.         |
+|![Icono de Punto de decisión.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Punto de decisión         |¿Qué características de seguridad y cumplimiento requiere su organización? ¿Su organización tiene las licencias necesarias para cumplir con los requisitos empresariales de seguridad y cumplimiento?         |
+|![Icono de Siguientes pasos.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Siguientes pasos         |Documente las características requeridas de seguridad y cumplimiento en la tabla siguiente.         |
 
 <a name="licensing"></a>Licencias
 ---------------
@@ -109,8 +109,8 @@ En lo que se refiere a las funciones de protección de información, las suscrip
 
 | |  |  |
 |---------|---------|---------|
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Punto de decisión         |¿Su organización tiene las licencias necesarias para cumplir con los requisitos empresariales de seguridad y cumplimiento?         |
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Pasos siguientes         |Revise las licencias actuales de su organización y confirme si cumplen todos los requisitos empresariales de cumplimiento y seguridad.         |
+|![Icono de Punto de decisión.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Punto de decisión         |¿Su organización tiene las licencias necesarias para cumplir con los requisitos empresariales de seguridad y cumplimiento?         |
+|![Icono de Siguientes pasos.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Siguientes pasos         |Revise las licencias actuales de su organización y confirme si cumplen todos los requisitos empresariales de cumplimiento y seguridad.         |
 
 Antes de habilitar alguna de estas características, asegúrese de que tiene acceso al Centro de seguridad y cumplimiento en el Centro de administración de Office 365. De manera predeterminada, los administradores de inquilinos tienen acceso.
 

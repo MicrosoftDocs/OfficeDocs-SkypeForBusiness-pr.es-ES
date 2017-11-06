@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Obtenga información sobre los diferentes equipos, canales y aplicaciones disponibles para una gran variedad de requisitos, como los servicios financieros, la planificación de eventos, las ventas y mucho más."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 1c73bc8aed92557e3a18837d6f252ce0590c5ad1
-ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
+ms.openlocfilehash: a25a53dc9abd7f77e90cc8d63762934f80991e89
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Información general de los equipos y canales en Microsoft Teams
 =================================================
@@ -31,7 +31,7 @@ Para empezar, veamos cómo Microsoft Teams permite que los equipos individuales 
 
     -   Los canales se pueden ampliar con aplicaciones que incluyen Fichas, Conectores y Bots.
 
-![](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
+![Diagrama de una jerarquía de cómo los equipos y canales se organizan en Microsoft Teams.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
 
 Una actividad clave de planificación inicial para animar a los usuarios a utilizar Microsoft Teams, consiste en ayudarles a pensar y comprender el modo en que Microsoft Teams puede mejorar la colaboración en sus actividades diarias.
 
@@ -45,7 +45,7 @@ A continuación puede ver algunos ejemplos de cómo los distintos tipos de usuar
 Microsoft Teams es perfecta para eliminar la idea de los silos de la organización y promocionar equipos para varias funciones. Por lo tanto, deberá animar a los usuarios para que piensen en términos de equipos funcionales en vez de silos de la organización.
 
 
-|Tipos de equipos  |Canales potenciales  |Aplicaciones (Fichas ![](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Conectores ![](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
+|Tipos de equipos  |Canales potenciales  |Aplicaciones (fichas) ![Icono de fichas.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Conectores ![Icono de Conectores.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Icono de Bots.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
 |Ventas     |Reunión anual de ventas<br></br> Revisión empresarial trimestral<br></br> Revisión del proceso de ventas mensual<br></br> Guía de tácticas de ventas |Power BI<br></br>Trello<br></br>CRM<br></br>Bot de resúmenes         |
 |Relaciones públicas     |Notas de prensa<br></br>Noticias y actualizaciones<br></br>Verificación de datos         |Fuente RSS<br></br>Twitter         |

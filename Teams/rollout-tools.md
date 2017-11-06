@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Conozca las herramientas que le ayudarán con el lanzamiento de lanzar Microsoft Teams, como plantillas de correo electrónico, guías de introducción, recursos del Kit para el éxito del cliente y mucho más."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d1b55c00109f60005fe7813bcfb82c4e56ed5aef
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: db70e78e57895497183d20e99282ccc1e7654e1d
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>Herramientas para ayudar con el lanzamiento de Microsoft Teams
 =================================================
@@ -27,6 +27,6 @@ Microsoft Teams está diseñado para impulsar la colaboración, además de ser u
 
 ||||
 |---------|---------|---------|
-|![](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image1.png)     | Punto de decisión        | <ul><li>¿Cuál es su estrategia de administración de cambios?</li><li>¿Cómo controló la organización la administración de cambios para otros lanzamientos de tecnología?</li><li>¿Quiénes son los patrocinadores ejecutivos, expertos, propietarios de servicio o administradores de TI que influirán en que Microsoft Teams tenga mayor o menor éxito en su organización?</li><li>¿Quién será el grupo piloto?</li></ul>  |
-|![](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image2.png)     |Pasos siguientes | <ul><li>Establezca una estrategia de adopción y administración de cambios para Microsoft Teams siguiendo estos procedimientos recomendados.</li><li>Presente su estrategia, el Kit para el éxito del cliente y las guías de introducción a los expertos y los jefes de equipo para empezar a formar el equipo interno de expertos para Microsoft Teams.</li></ul> |
+|![Icono de Punto de decisión.](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image1.png)     | Punto de decisión        | <ul><li>¿Cuál es su estrategia de administración de cambios?</li><li>¿Cómo controló la organización la administración de cambios para otros lanzamientos de tecnología?</li><li>¿Quiénes son los patrocinadores ejecutivos, expertos, propietarios de servicio o administradores de TI que influirán en que Microsoft Teams tenga mayor o menor éxito en su organización?</li><li>¿Quién será el grupo piloto?</li></ul>  |
+|![Icono de Siguientes pasos.](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image2.png)     |Siguientes pasos | <ul><li>Establezca una estrategia de adopción y administración de cambios para Microsoft Teams siguiendo estos procedimientos recomendados.</li><li>Presente su estrategia, el Kit para el éxito del cliente y las guías de introducción a los expertos y los jefes de equipo para empezar a formar el equipo interno de expertos para Microsoft Teams.</li></ul> |
 

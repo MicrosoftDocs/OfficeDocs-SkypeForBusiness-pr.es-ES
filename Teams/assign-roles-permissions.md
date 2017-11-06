@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Sepa cómo asignar roles y permisos de propietario y miembro de equipo en Microsoft Teams, incluidos permisos para crear equipos."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 1ccb0ff3216464aca5a17c3bebeb0e259929e798
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 086f054ff5af2326d106ce5c2088a50106a76462
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>Asignar roles y permisos en Microsoft Teams
 ===============================================
@@ -40,7 +40,7 @@ En la tabla siguiente se muestra la diferencia entre un propietario y un miembro
 
 | | |
 |---------|---------|
-|![](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>Nota     |Los propietarios pueden establecer a otros miembros como propietarios en la opción Ver equipos. Un equipo puede tener hasta 10 propietarios.         |
+|![Icono de bombilla.](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>Nota     |Los propietarios pueden establecer a otros miembros como propietarios en la opción Ver equipos. Un equipo puede tener hasta 10 propietarios.         |
 
 <a name="permissions-to-create-teams"></a>Permisos para crear equipos
 ---------------------------
@@ -89,5 +89,5 @@ Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
 
 ||||
 |---------|---------|---------|
-| ![](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |Punto de decisión         |¿Todos los usuarios de Microsoft Teams podrán crear equipos (recomendado)?         |
-| ![](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |Siguientes pasos         |Modifique los permisos predeterminados que determinan quiénes pueden crear grupos de Office 365 si es necesario limitar los usuarios que pueden crear equipos.         |
+| ![Icono de Punto de decisión.](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |Punto de decisión         |¿Todos los usuarios de Microsoft Teams podrán crear equipos (recomendado)?         |
+| ![Icono de Siguientes pasos.](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |Siguientes pasos         |Modifique los permisos predeterminados que determinan quiénes pueden crear grupos de Office 365 si es necesario limitar los usuarios que pueden crear equipos.         |

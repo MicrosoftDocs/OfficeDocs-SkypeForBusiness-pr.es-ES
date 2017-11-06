@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Sepa cómo preparar y administrar la red de Microsoft Teams. La información incluye los requisitos de red, los requisitos de ancho de banda y otras consideraciones."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 79e7cd9e9ebef793c138e9482c7bc56c692e4ed1
-ms.sourcegitcommit: a052a9d4db0a543f491bbd4708ca5a453145e2ef
+ms.openlocfilehash: 81285ee2ff2a2f7939a025609656ae723947fb73
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams
 =================================================
@@ -29,7 +29,7 @@ Esto afecta la red de dos maneras: el tráfico fluirá entre los clientes de Mic
 
 |  |  |
 |---------|---------|
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image1.png)<br></br>Importante:    |En este momento, las reuniones se pueden realizar con dispositivos móviles Android y iOS, pero no en Windows Phone (la compatibilidad con Windows Phone estará disponible muy pronto).       |
+|![Icono de Importante.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image1.png)<br></br>Importante    |En este momento, las reuniones se pueden realizar con dispositivos móviles Android y iOS, pero no en Windows Phone (la compatibilidad con Windows Phone estará disponible muy pronto).       |
 
 Para obtener una experiencia óptima con los medios en tiempo real dentro de Microsoft Teams, se deben cumplir los requisitos de red para Office 365 (consulte la siguiente fuente para obtener más detalles: [Calidad de los medios y rendimiento de la conectividad de red para Skype Empresarial Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US))
 
@@ -49,7 +49,7 @@ Para probar los dos segmentos de red, puede utilizarse una herramienta de evalua
 
 |  |  |
 |---------|---------|
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>Nota    |Se trata de la misma evaluación de preparación de la red que se recomienda ejecutar para los clientes que buscan implementar correctamente Skype Empresarial.         |
+|![Icono de Nota.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>Nota    |Se trata de la misma evaluación de preparación de la red que se recomienda ejecutar para los clientes que buscan implementar correctamente Skype Empresarial.         |
 
 <a name="bandwidth-requirements"></a>Requisitos de ancho de banda
 ----------
@@ -60,7 +60,7 @@ El contenido que encontrará a continuación puede utilizarse como información 
 
 |  |  |
 |---------|---------|
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>Nota    |Si el ancho de banda requerido no está disponible, los medios apilados dentro de Microsoft Teams degradarán la calidad de la sesión de audio o vídeo para adaptarse al ancho de banda más bajo, lo que afectará la calidad de la llamada o reunión. El cliente de Microsoft Teams intentará priorizar la calidad del audio por sobre la calidad del vídeo. Por lo tanto, es sumamente importante tener disponible la cantidad de ancho de banda esperada.       |
+|![Icono de Nota.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>Nota    |Si el ancho de banda requerido no está disponible, los medios apilados dentro de Microsoft Teams degradarán la calidad de la sesión de audio o vídeo para adaptarse al ancho de banda más bajo, lo que afectará la calidad de la llamada o reunión. El cliente de Microsoft Teams intentará priorizar la calidad del audio por sobre la calidad del vídeo. Por lo tanto, es sumamente importante tener disponible la cantidad de ancho de banda esperada.       |
 
 
 |Actividad  |Descargar ancho de banda  |Cargar ancho de banda  |Flujo de tráfico |
@@ -103,6 +103,6 @@ Si llegara a suceder que no cumple con estos criterios, este es el momento de pe
 
 |  |  |  |
 |---------|---------|---------|
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |Punto de decisión         |¿Ha evaluado la capacidad de la red para admitir medios en tiempo real?<br></br>Si su red no ha sido evaluada correctamente, o si sabe que no admitirá los medios en tiempo real, ¿deshabilitaría las funciones de vídeo y pantalla compartida para disminuir el impacto en la red y las experiencias deficientes en Teams?         |
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Siguientes pasos         |Calidad de red desconocida: Siga la guía de evaluación de preparación de la red en skypeoperationsframework.com para determinar si la red está lista para medios en tiempo real.<br></br>Calidad de red deficiente: Realice los pasos para reparar la red a fin de proporcionar un entorno adecuado para medios en tiempo real de alta calidad.<br></br>Red satisfactoria: Asegúrese de que se pueda acceder correctamente a todos los puertos y las direcciones IP.           |
+|![Icono de Punto de decisión.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |Punto de decisión         |¿Ha evaluado la capacidad de la red para admitir medios en tiempo real?<br></br>Si su red no ha sido evaluada correctamente, o si sabe que no admitirá los medios en tiempo real, ¿deshabilitaría las funciones de vídeo y pantalla compartida para disminuir el impacto en la red y las experiencias deficientes en Teams?         |
+|![Icono de Siguientes pasos.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Siguientes pasos         |Calidad de red desconocida: Siga la guía de evaluación de preparación de la red en skypeoperationsframework.com para determinar si la red está lista para medios en tiempo real.<br></br>Calidad de red deficiente: Realice los pasos para reparar la red a fin de proporcionar un entorno adecuado para medios en tiempo real de alta calidad.<br></br>Red satisfactoria: Asegúrese de que se pueda acceder correctamente a todos los puertos y las direcciones IP.           |
 

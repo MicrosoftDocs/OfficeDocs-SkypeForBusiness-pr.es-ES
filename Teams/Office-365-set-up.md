@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Aprenda a configurar Microsoft Teams en su organización de Office 365."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 5a35ad50fdbd1c99bfeb11b9f90948ef7490f8fc
-ms.sourcegitcommit: a052a9d4db0a543f491bbd4708ca5a453145e2ef
+ms.openlocfilehash: 8dafe7ce0f6531f37c85b0fa0bea7c824b276ed2
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="set-up-microsoft-teams-in-your-office-365-organization"></a>Configurar Microsoft Teams en su organización de Office 365
 ======================================================
@@ -25,19 +25,19 @@ Aquellas organizaciones que quieran cambiar la habilitación o deshabilitación 
 
 1.  Inicie sesión en el [Centro de administración de Office 365](https://go.microsoft.com/fwlink/?linkid=854665) con una cuenta que tenga privilegios de administrador globales.
 
-2.  Navegue a **Configuración** > Servicios > Complementos.
+2.  Navegue a **Configuración** > **Servicios y complementos**.
 
-    ![](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image1.png)
+    ![Captura de pantalla de la sección Configuración del Centro de administración de Office 365 con Servicios y complementos seleccionado. ](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image1.png)
 
-3.  En la página Servicios > Complementos, haga clic en **Microsoft Teams**.
+3.  En la página Servicios y complementos, haga clic en **Microsoft Teams**.
 
-    ![](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
+    ![Captura de pantalla de la página Servicios y complementos con Microsoft Teams seleccionado.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
 
 4.  Para habilitar Microsoft Teams para la organización, cambie el botón de **alternancia** a **Activado** y haga clic en **Guardar**.
 
-    ![](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image3.png)
+    ![Captura de pantalla de la página de configuración de Microsoft Teams donde se ve el botón de alternancia establecido en Activado para habilitar Microsoft Teams.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image3.png)
 
 
 |  | |
 |---------|---------|
-|![](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image4.png)<br></br>Nota      |La capacidad en el nivel de inquilino de controlar el estado activado/desactivado de Microsoft Teams es temporal y se eliminará en el futuro. Cuando esto ocurra, el acceso a Microsoft Teams se controlará solamente mediante licencias de nivel de usuario.         |
+|![Icono de Nota.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image4.png)<br></br>Nota     |La capacidad en el nivel de inquilino de controlar el estado activado/desactivado de Microsoft Teams es temporal y se eliminará en el futuro. Cuando esto ocurra, el acceso a Microsoft Teams se controlará solamente mediante licencias de nivel de usuario.         |

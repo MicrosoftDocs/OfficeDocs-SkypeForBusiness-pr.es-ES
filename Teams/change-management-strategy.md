@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Aprenda a crear una estrategia de gestión de cambios para Microsoft Teams a través de la identificación de partes interesadas clave, los resultados empresariales, las medidas de éxito y la gestión de su campaña."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 97f835f60777b5c6c907790fabc76dfaeeb1e268
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: faa2bf8247c4b4a3fc8827011423f8205e5c6b35
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Crear una estrategia de administración de cambios para Microsoft Teams
 =======================================================
@@ -48,16 +48,16 @@ La primera regla para una adopción exitosa es crear un equipo dinámico compues
 
 |  |  |
 |---------|---------|
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |Los **patrocinadores ejecutivos** son los líderes clave dentro de la organización y su participación es esencial para fomentar la adopción por parte de los empleados. Ellos tienen la mayor influencia sobre la cultura empresarial y pueden comunicar activamente el valor y los beneficios de una nueva tecnología y metodología.         |
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |Los **propietarios de servicios** son responsables de garantizar que las personas utilicen el servicio y se beneficien de él. Establecer propietarios de servicios dentro de la organización es importante para garantizar que se cumplan los objetivos de negocio establecidos para Office 365.         |
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Obtener el consenso de todos los usuarios de la organización es un reto. Los **expertos** pueden ayudar a mitigar este reto y tienen un papel importante en la adopción de Office 365. Tienen amplios conocimientos, se comprometen a transmitir su experiencia y están dispuestos a brindar capacitación y asistencia a sus pares. Ayudan a adaptar Office 365 a la realidad de su departamento o equipo.         |
+|![Icono de patrocinadores ejecutivos](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |Los **patrocinadores ejecutivos** son los líderes clave dentro de la organización y su participación es esencial para fomentar la adopción por parte de los empleados. Ellos tienen la mayor influencia sobre la cultura empresarial y pueden comunicar activamente el valor y los beneficios de una nueva tecnología y metodología.         |
+|![Icono de propietarios de servicios](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |Los **propietarios de servicios** son responsables de garantizar que las personas utilicen el servicio y se beneficien de él. Establecer propietarios de servicios dentro de la organización es importante para garantizar que se cumplan los objetivos de negocio establecidos para Office 365.         |
+|![Icono de expertos.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Obtener el consenso de todos los usuarios de la organización es un reto. Los **expertos** pueden ayudar a mitigar este reto y tienen un papel importante en la adopción de Office 365. Tienen amplios conocimientos, se comprometen a transmitir su experiencia y están dispuestos a brindar capacitación y asistencia a sus pares. Ayudan a adaptar Office 365 a la realidad de su departamento o equipo.         |
 
 Recomendamos realizar reuniones periódicas con estas partes interesadas para mantenerlas al tanto del progreso del programa. Iniciar un "consejo de colaboración" para permitir comentarios y debates puede ser una herramienta útil según la cultura empresarial.
 
 
 |  |  |
 |---------|---------|
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image4.png)<br></br>Sugerencia    |Aquellas personas que representan los mayores obstáculos para el cambio podrían convertirse en sus mejores aliados en una implementación de este tipo. Lo alentamos a que se comunique con estos miembros de la organización de forma temprana y con frecuencia para escuchar sus preocupaciones y problemas. A menudo, tendrán comentarios valiosos que ayudarán a que su campaña sea más exitosa.         |
+|![Icono de Sugerencia.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image4.png)<br></br>Sugerencia    |Aquellas personas que representan los mayores obstáculos para el cambio podrían convertirse en sus mejores aliados en una implementación de este tipo. Lo alentamos a que se comunique con estos miembros de la organización de forma temprana y con frecuencia para escuchar sus preocupaciones y problemas. A menudo, tendrán comentarios valiosos que ayudarán a que su campaña sea más exitosa.         |
 
 <a name="user-profiles"></a>Perfiles de usuarios
 -------------
@@ -71,7 +71,7 @@ Comprender el día a día de los usuarios le ayudará a dar prioridad a los resu
 
 Identificar a los individuos que podrán convertirse en expertos de colaboración le proporcionará un equipo de apoyo ampliado para su implementación. Cree una comunidad al brindarles información anticipada y comentarios sobre sus planes. Las inversiones que realice en esta comunidad, ya sea de tiempo, atención o recompensas, serán retribuidas a su implementación a través del apoyo y la colaboración de sus miembros.
 
-![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image5.png)
+![Gráfico de las acciones que pueden realizar los expertos.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image5.png)
 
 Para aprender a crear un programa de expertos, consiga [Crear un programa para expertos](https://go.microsoft.com/fwlink/?linkid=854665).
 

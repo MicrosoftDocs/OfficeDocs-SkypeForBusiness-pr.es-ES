@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Los conectores mantienen a su equipo al día al brindarles, directamente en un canal, contenido y actualizaciones de servicios que se utilizan con frecuencia."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 08f2526686c894e44193fb53d51f9f59d6960279
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 0b5bc5e3d78b9810a8f1db43122a0e4c877035a7
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Usar Office 365 y conectores personalizados en Microsoft Teams
 =======================================================
@@ -27,19 +27,19 @@ Actualmente, es posible agregar conectores mediante los clientes de escritorio y
 
 1.  Para agregar un conector a un canal, haga clic en los **puntos suspensivos (...)** a la derecha del nombre del canal y, a continuación, haga clic en **Conectores**.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
+    ![Captura de pantalla de la interfaz de Teams con un nombre de canal seleccionado y la opción Conectores seleccionada.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 
 2.  Los usuarios pueden seleccionar entre una variedad de conectores disponibles y, a continuación, deben hacer clic en **Agregar**.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
+    ![Captura de pantalla del cuadro de diálogo Conectores donde se ven los conectores disponibles que se van a agregar.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
 
 3.  Complete la información necesaria del conector seleccionado y haga clic en **Guardar**. Cada conector requiere un conjunto diverso de información para funcionar correctamente; incluso es posible que algunos le pidan iniciar sesión en el servicio mediante los vínculos provistos en la página de configuración del conector.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
+    ![Captura de pantalla de la página de configuración para el conector de RSS.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
 
 4.  Los datos proporcionados por el conector se publican automáticamente en el canal.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
+    ![Captura de pantalla de la interfaz de Teams donde se ve una conversación en un canal.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
 
 <a name="develop-custom-connectors"></a>Desarrollar conectores personalizados
 -----------------------------
@@ -48,18 +48,18 @@ Es muy fácil desarrollar conectores personalizados que puedan integrarse en sus
 
 1.  Agregue **webhook entrante** como lo haría con cualquier otro conector.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image5.png)
+    ![Captura de pantalla de la opción para agregar el conector de webhook entrante.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image5.png)
 
 2.  Para crear un webhook, especifique un **nombre**, actualice la imagen de webhook y haga clic en **Crear**.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image6.png)
+    ![Captura de pantalla de la página de configuración para el conector de webhook entrante. ](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image6.png)
 
 3.  Las aplicaciones que insertan datos en este canal requieren una URL del conector webhook. Se crea una **URL única** al crear el **webhook**. Comparta esta URL con sus desarrolladores, de modo que puedan configurar sus aplicaciones para insertar datos, según sea necesario.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image7.png)
+    ![Captura de pantalla de la URL exclusiva del webhook.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image7.png)
 
 4.  Cuando una aplicación externa inserta datos en un conector, el mensaje se muestra en la lista de conversaciones del canal como un mensaje especial denominado mensaje de **tarjeta de conector**.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image8.png)
+    ![Captura de pantalla de la interfaz de Teams donde se ve un mensaje de la tarjeta de conector.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image8.png)
 
 Los desarrolladores pueden configurar sus aplicaciones para crear estas tarjetas. Para esto, deben enviar una solicitud HTTP con una carga JSON simple a una dirección de webhook de Microsoft Teams, que es una URL única para ese perímetro, proporcionada por el asistente. Pídales a sus desarrolladores que consulten [Comenzar a trabajar con conectores de Office 365 para Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=855783), en Microsoft Developer Network, que incluye instrucciones detalladas y ejemplos de conectores. Otros recursos que pueden consultar son [Conectar aplicaciones a sus grupos en Outlook](https://support.office.com/en-us/article/Connect-apps-to-your-groups-in-Outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab) y [Office Dev Center para Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=855784).

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Aprenda a configurar una implementación de Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e5cebc5102cb8a5e43b4542eba0817efe36ac5e4
-ms.sourcegitcommit: a32e7860a34918198ab9fa388f5bb217c15f9e6c
+ms.openlocfilehash: 3ed2ee9377c871b36407c5777f0829e9cd71ade3
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Información general de una implementación de Microsoft Teams
 ========================================
@@ -31,7 +31,7 @@ Este podría ser un recorrido típico de Microsoft Teams:
 
 5.  Reajuste y aproveche la estrategia y lo que haya aprendido para un lanzamiento de más envergadura.
 
-![](media/Overview_of_a_Microsoft_Teams_deployment_image1.png)
+![Diagrama de etapas del recorrido de Teams: evaluación técnica y legal, evaluación/preparación, piloto de TI, piloto empresarial y, por último, lanzamiento.](media/Overview_of_a_Microsoft_Teams_deployment_image1.png)
 
 Durante el recorrido, uno de los primeros usos de Microsoft Teams en su entorno es el piloto de TI. Le recomendamos que aproveche este piloto para lograr que el equipo se implique a la hora de planear, entregar y usar Microsoft Teams, y llegar a los usuarios de negocio.
 
@@ -44,13 +44,13 @@ Este es un ejemplo de cómo configurar una estructura de equipo/canal para impul
 
 Esta configuración tendría este aspecto en Microsoft Teams:
 
-![](media/Overview_of_a_Microsoft_Teams_deployment_image2.png)
+![Captura de pantalla de un equipo y sus canales en Microsoft Teams.](media/Overview_of_a_Microsoft_Teams_deployment_image2.png)
 
 
 ||||
 |---------|---------|---------|
-|![](media/Overview_of_a_Microsoft_Teams_deployment_image3.png)     |Punto de decisión         |¿Qué canales y equipos iniciales quiere crear para el piloto de TI?         |
-|![](media/Overview_of_a_Microsoft_Teams_deployment_image4.png)     |Pasos siguientes         |Documente cuáles serán los canales o equipos iniciales para el piloto de TI.         |
+|![Icono de Punto de decisión.](media/Overview_of_a_Microsoft_Teams_deployment_image3.png)     |Punto de decisión         |¿Qué canales y equipos iniciales quiere crear para el piloto de TI?         |
+|![Icono de Siguientes pasos.](media/Overview_of_a_Microsoft_Teams_deployment_image4.png)     |Siguientes pasos         |Documente cuáles serán los canales o equipos iniciales para el piloto de TI.         |
 
 
  

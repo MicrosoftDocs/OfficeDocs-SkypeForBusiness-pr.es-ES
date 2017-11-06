@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Aprenda cómo funcionan los grupos y las pertenencias a grupos de Office 365 con Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: de8e4298345145c8caf9d03397cf026187b11c29
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 45a3607778d87e1de075468101a9f7e1a081688e
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Grupos de Office 365 y Microsoft Teams
 =====================================
@@ -28,7 +28,7 @@ Cuando crea un equipo de Microsoft Teams, en el back-end se crea un Grupo de Off
 
 |||
 |---------|---------|
-|  ![](media/Understand_Office_365_groups_and_Microsoft_Teams_image1.png) Nota    |Si se elimina un grupo de Office 365, se eliminará el alias de buzón para las conversaciones persistentes de Outlook/OWA e invitaciones a reuniones de Microsoft Teams, y el sitio de SharePoint se marcará para su eliminación. Solo se tarda 20 minutos aproximadamente desde que se elimina un equipo y se aprecia su efecto en Outlook. Si se elimina un equipo del cliente de Microsoft Teams, se eliminará inmediatamente de la vista a todos los que sean miembros del equipo. Si quita un miembro de un grupo de Office 365 que ha tenido habilitada la funcionalidad de Microsoft Teams, podría haber un retraso de aproximadamente una hora antes de que el equipo se elimine de la vista en el cliente de Microsoft Teams para las personas afectadas que se hayan eliminado.         |
+|  ![Icono de Nota.](media/Understand_Office_365_groups_and_Microsoft_Teams_image1.png) Nota    |Si se elimina un grupo de Office 365, se eliminará el alias de buzón para las conversaciones persistentes de Outlook/OWA e invitaciones a reuniones de Microsoft Teams, y el sitio de SharePoint se marcará para su eliminación. Solo se tarda 20 minutos aproximadamente desde que se elimina un equipo y se aprecia su efecto en Outlook. Si se elimina un equipo del cliente de Microsoft Teams, se eliminará inmediatamente de la vista a todos los que sean miembros del equipo. Si quita un miembro de un grupo de Office 365 que ha tenido habilitada la funcionalidad de Microsoft Teams, podría haber un retraso de aproximadamente una hora antes de que el equipo se elimine de la vista en el cliente de Microsoft Teams para las personas afectadas que se hayan eliminado.         |
 
 
 <a name="group-membership"></a>Pertenencia a grupos

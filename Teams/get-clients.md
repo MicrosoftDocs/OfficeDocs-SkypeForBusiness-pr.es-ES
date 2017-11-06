@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Aprenda a usar los distintos clientes disponibles para Microsoft Teams, que incluyen web, escritorio (Windows y Mac) y móvil (Android, iOS y Windows Phone)."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a23ae445392ee4a122c9b749f1bb0175fab44c11
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 6a1dea833a96781ae89ffb8f822e96b3e8636371
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
 ===========================
@@ -41,7 +41,7 @@ Microsoft Teams admite los siguientes exploradores y versiones:
 
 | | |
 |---------|---------|
-|![](media/Get_clients_for_Microsoft_Teams_image1.png)<br></br>Importante:     |Safari no se admite todavía, pero se admitirá pronto.         |
+|![Icono de Importante.](media/Get_clients_for_Microsoft_Teams_image1.png)<br></br>Importante     |Safari no se admite todavía, pero se admitirá pronto.         |
 
 <a name="desktop-clients"></a>Clientes de escritorio
 ------------------------
@@ -57,7 +57,7 @@ Los administradores de TI pueden elegir su método preferido para distribuir los
 
 | | |
 |---------|---------|
-|![](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>Nota    |La distribución del cliente a través de estos mecanismos es solo para la instalación inicial de los clientes de Microsoft Teams y no para futuras actualizaciones.         |
+|![Icono de Nota.](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>Nota    |La distribución del cliente a través de estos mecanismos es solo para la instalación inicial de los clientes de Microsoft Teams y no para futuras actualizaciones.         |
 
 #### <a name="windows"></a>Windows
 
@@ -65,7 +65,7 @@ La instalación de Microsoft Teams para Windows brinda instaladores que se puede
 
 | | |
 |---------|---------|
-|![](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>Nota    |La arquitectura (32 o 64 bits) de Microsoft Teams es independiente de la arquitectura de Office que esté instalada.        |
+|![Icono de Nota.](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>Nota    |La arquitectura (32 o 64 bits) de Microsoft Teams es independiente de la arquitectura de Office que esté instalada.        |
 
 El cliente de Windows se implementa en la carpeta AppData ubicada en el perfil del usuario. La implementación en el perfil local del usuario permite instalar el cliente sin que se requieran derechos elevados. El cliente de Windows se instala en las siguientes ubicaciones:
 
@@ -75,11 +75,11 @@ El cliente de Windows se implementa en la carpeta AppData ubicada en el perfil d
 
 Cuando los usuarios inician una llamada utilizando el cliente de Microsoft Teams, podrían recibir una advertencia con la configuración del firewall de Windows que les pide que permitan la comunicación. Es posible que se indique a los usuarios que ignoren el mensaje porque la llamada funcionará, incluso si la advertencia se descarta.
 
-![](media/Get_clients_for_Microsoft_Teams_image3.png)
+![Captura de pantalla de un cuadro de diálogo Alerta de seguridad de Windows.](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 | | |
 |---------|---------|
-|![](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>Nota    |La configuración del firewall de Windows se modificará incluso si el mensaje se descarta seleccionando "Cancelar". Se crearán dos reglas de entrada para teams.exe con la acción de bloqueo para los protocolos TCP y UDP.        |
+|![Icono de Nota.](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>Nota    |La configuración del firewall de Windows se modificará incluso si el mensaje se descarta seleccionando "Cancelar". Se crearán dos reglas de entrada para teams.exe con la acción de bloqueo para los protocolos TCP y UDP.        |
 
 #### <a name="mac"></a>Mac
 
@@ -105,8 +105,8 @@ Las aplicaciones móviles se distribuyen y actualizan solo a través de la corre
 
 | | | |
 |---------|---------|---------|
-|![](media/Get_clients_for_Microsoft_Teams_image4.png)      |Punto de decisión         |¿Hay alguna restricción que evite que los usuarios instalen el cliente de Microsoft Teams adecuado en sus dispositivos?         |
-|![](media/Get_clients_for_Microsoft_Teams_image5.png)     |Siguientes pasos         |Si su organización restringe la instalación de software, asegúrese de que el proceso sea compatible con Microsoft Teams. Nota: No se requieren derechos de administrador para instalar el cliente en PC, pero sí son necesarios para Mac.         |
+|![Icono de Punto de decisión.](media/Get_clients_for_Microsoft_Teams_image4.png)      |Punto de decisión         |¿Hay alguna restricción que evite que los usuarios instalen el cliente de Microsoft Teams adecuado en sus dispositivos?         |
+|![Icono de Siguientes pasos.](media/Get_clients_for_Microsoft_Teams_image5.png)     |Siguientes pasos         |Si su organización restringe la instalación de software, asegúrese de que el proceso sea compatible con Microsoft Teams. Nota: No se requieren derechos de administrador para instalar el cliente en PC, pero sí son necesarios para Mac.         |
 
 
   <span id="_Hlk477176062" class="anchor"></span>  Punto de decisión   ¿Hay alguna restricción que evite que los usuarios instalen el cliente de Microsoft Teams adecuado en sus dispositivos?
@@ -126,4 +126,4 @@ Actualmente, no hay opciones disponibles para configurar el cliente a través de
 
 En este momento, no hay opciones disponibles para que los administradores de TI puedan configurar las notificaciones para los clientes. Todas las opciones de notificaciones las establece el usuario. En la siguiente figura se detalla la configuración predeterminada del cliente.
 
-![](media/Get_clients_for_Microsoft_Teams_image6.png)
+![Captura de pantalla de la configuración de Notificaciones.](media/Get_clients_for_Microsoft_Teams_image6.png)

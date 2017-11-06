@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Conozca Microsoft Teams, su infraestructura y cómo funciona con Office 365."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: b19e75db5f83403c7381046595d07e445a13cb0d
-ms.sourcegitcommit: a052a9d4db0a543f491bbd4708ca5a453145e2ef
+ms.openlocfilehash: 10d4297f8b4cfcf3bf28a2a64177f078130166eb
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="overview-of-microsoft-teams"></a>Introducción a Microsoft Teams
 ===========================
@@ -63,7 +63,7 @@ Los diferentes grupos tienen distintas necesidades en base a su función y estil
 
 He aquí los casos de uso comunes para cada aplicación en Office 365. Para obtener instrucciones de uso detalladas, visite la [biblioteca de productividad de FastTrack](https://go.microsoft.com/fwlink/?linkid=854630)
 
-![](media/Overview_of_Microsoft_Teams_image1.png)
+![Icono de Microsoft Teams.](media/Overview_of_Microsoft_Teams_image1.png)
 
 -   Aprovechado por usuarios y equipos que desean colaborar en tiempo real con el mismo grupo de personas.
 
@@ -71,7 +71,7 @@ He aquí los casos de uso comunes para cada aplicación en Office 365. Para obte
 
 -   Permite a los usuarios conectar una amplia gama de herramientas en su espacio de trabajo (como Planner, Power BI, GitHub, etc.).
 
-![](media/Overview_of_Microsoft_Teams_image2.png)
+![Icono de Microsoft Outlook.](media/Overview_of_Microsoft_Teams_image2.png)
 
 -   Aprovechado por usuarios que prefieren colaborar en el entorno familiar del correo electrónico o de un modo más formal y estructurado.
 
@@ -79,7 +79,7 @@ He aquí los casos de uso comunes para cada aplicación en Office 365. Para obte
 
 -   Se comunica y conecta con usuarios que se encuentran fuera de los grupos de trabajo u organizaciones inmediatos.
 
-![](media/Overview_of_Microsoft_Teams_image3.png)
+![Icono de Yammer.](media/Overview_of_Microsoft_Teams_image3.png)
 
 -   Aprovechado para ayudar a conectar a los usuarios de toda la empresa, para que se organicen en comunidades de práctica y compartan procedimientos recomendados.
 
@@ -89,7 +89,7 @@ He aquí los casos de uso comunes para cada aplicación en Office 365. Para obte
 
 -   Motiva a la fuerza de trabajo de primera línea a compartir y recibir conocimientos y experiencia.
 
-![](media/Overview_of_Microsoft_Teams_image4.png)
+![Icono de Skype Empresarial.](media/Overview_of_Microsoft_Teams_image4.png)
 
 -   Aprovechado para comunicación y colaboración en tiempo real, tanto de manera interna como externa con clientes/socios.
 
@@ -98,7 +98,7 @@ He aquí los casos de uso comunes para cada aplicación en Office 365. Para obte
 -   Ofrece funcionalidad de telefonía empresarial.
 
 
-![](media/Overview_of_Microsoft_Teams_image5.png)
+![Icono de Microsoft SharePoint.](media/Overview_of_Microsoft_Teams_image5.png)
 
 -   Aprovechado para sitios y portales (por ejemplo, anuncios y novedades de la empresa, búsquedas y colaboración en documentos).
 

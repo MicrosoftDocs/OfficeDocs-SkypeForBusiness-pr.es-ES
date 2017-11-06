@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Conozca cómo SharePoint Online y OneDrive para la Empresa interaccionan con Microsoft Teams (por ejemplo, cómo se almacenan los chats privados) y la relación entre el equipo, el canal y la biblioteca de documentos."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: cf971714c1ad3b797c181f982ea8688bf8c73977
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 1ea55116faa7a998a3b2db0828972424ce3acef8
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams
 =============================================================================
@@ -29,8 +29,8 @@ Este es un ejemplo de las relaciones entre el equipo, el canal y la biblioteca d
 
 Se crea un sitio de SharePoint para cada equipo y la carpeta *Documentos compartidos* es la carpeta predeterminada que se crea para el equipo. Cada canal, incluido el canal **General**, que es canal predeterminado para cada equipo, tiene una carpeta dentro de la carpeta *Documentos compartidos*.
 
-![](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
+![Diagrama de las carpetas Documentos compartidos de SharePoint Online para un equipo y sus canales de Microsoft Teams.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
 
 Para cada usuario, la carpeta de OneDrive *Archivos de chat de Microsoft Teams* se usa para almacenar todos los archivos compartidos en los chat privados con otros usuarios (1:1 o 1:varios), y los permisos se configuran automáticamente para restringir el acceso sólo a usuarios autorizados.
 
-![](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
+![Diagrama de la carpeta de OneDrive denominada Archivos de chat de Microsoft Teams de los chats de cada usuario.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)

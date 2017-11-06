@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Guía para iniciar una experiencia piloto de Microsoft Teams en la que se analice todo lo que Microsoft Teams puede ofrecer a su organización mientras sigue usando Skype Empresarial."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 4340e3fa6b6ebdaf20105cfa568d17d9d3802b4e
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: c78e687535a47e5a267e087b39253c793b4b3d8a
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Crear un proyecto piloto de Microsoft Teams junto a Skype Empresarial
 ============================================
@@ -32,7 +32,7 @@ Este recurso, que está adaptado para los clientes actuales de Skype Empresarial
 
 Los pilotos se diseñan para confirmar la preparación de la organización. Se trata de una validación realista de los recursos y los procedimientos que se necesitan a mayor escala antes de lanzar el producto a toda la organización.  Para conseguir resultados más realistas, el programa piloto debe reproducir exactamente cómo se comunican y colaboran los usuarios actualmente, y comprobar cuál sería el escenario de implementación ideal con Skype Empresarial y Microsoft Teams. Tanto si su organización está considerando la idea de ejecutar Skype Empresarial y Microsoft Teams en paralelo como la de cambiar a Microsoft Teams más adelante, un piloto puede ayudar a identificar el camino que se debe seguir para su organización. *Vamos a empezar.*
 
-![](media/pilot_essentials_image3.png)
+![Diagrama de los pasos del proceso para un proyecto piloto.](media/pilot_essentials_image3.png)
 
 ## <a name="step-one-define-your-pilot-program-logistics"></a>Paso uno: definir la logística del programa piloto
 

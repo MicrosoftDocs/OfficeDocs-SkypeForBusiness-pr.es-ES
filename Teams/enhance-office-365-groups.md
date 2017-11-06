@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Aprenda a mejorar los grupos de Office 365 con Microsoft Teams invitando a una lista de distribución a un equipo, y agregue grupos de seguridad habilitados para correo y mucho más."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: c39a1098e15f8656dad71ea85d069a46c642d73c
-ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
+ms.openlocfilehash: 80e76b5dbdaddaca2d4c917e33a3d0870626042e
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Mejorar los grupos de Office 365 existentes con Microsoft Teams
 =======================================================
@@ -24,11 +24,11 @@ Para hacerlo, deben seguir el proceso de creación de un nuevo equipo desde el c
 
 |  |  |
 |---------|---------|
-|![](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image1.png)<br></br>Importante     |Solo los propietarios del grupo de Office 365 tienen permiso para mejorar un grupo existente con Microsoft Teams.         |
+|![Icono de Importante.](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image1.png)<br></br>Importante     |Solo los propietarios del grupo de Office 365 tienen permiso para mejorar un grupo existente con Microsoft Teams.         |
 
 Los usuarios también pueden invitar a una lista de distribución a un equipo, y los miembros de esa lista de distribución se agregarán al equipo. Se trata de una sincronización única, así que los cambios que se realicen posteriormente en los miembros del grupo de la lista de distribución no se replicarán en Teams. 
 
-![](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
+![Capturas de pantalla en secuencia que muestran la invitación de una lista de distribución y sus miembros a un equipo.](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
 
 También puede agregar grupos de seguridad habilitados para correo como miembros de un equipo. Pero si después agrega más miembros al grupo de seguridad, estos no se agregarán automáticamente al equipo. Debe agregar los nuevos miembros por separado o volver a agregar el grupo de seguridad al equipo. (Si vuelve a agregar el grupo de seguridad, con la desduplicación se asegurará de que los miembros se agreguen una sola vez).
 
