@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Descripción general de las características de seguridad y cumplimiento de Microsoft Teams, que incluye auditoría y generación informes, búsqueda de contenido de cumplimiento, eDiscovery y mucho más."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d42457165fae8e23181d7e7f4fe50ea30938dfd3
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 6cca28ee5cd96d24e4b0da0a29748e0cf383eb0c
+ms.sourcegitcommit: a315fbbb6a5337c32c9312550ee05fd9185020db
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/02/2017
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================
@@ -119,7 +119,14 @@ La búsquedas de contenido y eDiscovery no necesitan estar habilitadas en el Cen
 <a name="location-of-data-in-microsoft-teams"></a>Ubicación de los datos en Microsoft Teams
 -----------------------------------
 
-Los datos de Microsoft Teams se encuentran en la región según la afinidad de los inquilinos. Actualmente, Microsoft Teams admite las regiones de América, EMEA y APAC. En el futuro, Microsoft Teams proporcionará compatibilidad con GoLocal, donde los datos permanecen en el país (no solo en la región). Esté pendiente de las actualizaciones del [*Mapa de ruta de Office 365*](https://go.microsoft.com/fwlink/?linkid=855778).
+Los datos de Microsoft Teams se encuentran en la región según la afinidad de los inquilinos. Actualmente, Microsoft Teams admite las regiones de América, EMEA y APAC. 
+
+Desde el 1 de noviembre de 2017, Teams ofrece residencia de datos en Reino Unido solo para los nuevos inquilinos. Un nuevo inquilino se define como cualquier inquilino que no ha tenido ningún usuario desde el inicio de sesión del inquilino en Microsoft Teams.
+
+> [!NOTE]
+> Los inquilinos existentes del Reino Unido seguirán en EMEA hasta que se publique un plan de migración (que está previsto para 2018).
+
+Si desea más información, consulte la [entrada de blog](https://go.microsoft.com/fwlink/p/?linkid=862275) de la comunidad tecnológica de Microsoft Teams.
 
 <a name="privacy-in-microsoft-teams"></a>Privacidad en Microsoft Teams
 --------------------------
