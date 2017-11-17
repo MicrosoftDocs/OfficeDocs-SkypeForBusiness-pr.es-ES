@@ -2,17 +2,17 @@
 title: "Formación del usuario final para Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Recursos de formación que puede usar un administrador para implementar correctamente Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 86c5b5625e41e9c7513ccefbcfb84acd6b2c1453
-ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
+ms.openlocfilehash: cebd842e3b2ad1fccd9c48bb97376f196a3b63f8
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Formación del usuario final para Microsoft Teams
 =====================================

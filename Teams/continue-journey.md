@@ -2,17 +2,17 @@
 title: "Generar nuevos valores a través de la adopción de usuarios"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Guía para que continúe el recorrido desde Skype Empresarial a Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 82bc25fa33f2f9543679256072ef0b7fcab4fa07
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 67490b62f02d4bdd192dae90d462feefe046f0d7
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="drive-value-with-microsoft-teams-through-user-adoption"></a>Generar nuevos valores a través de la adopción de usuarios
 ================================================================

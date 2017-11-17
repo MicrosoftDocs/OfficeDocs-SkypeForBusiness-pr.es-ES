@@ -2,17 +2,17 @@
 title: Habilitar Microsoft Teams en paralelo con Skype Empresarial
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Guía para usar Skype Empresarial y Microsoft Teams en paralelo."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: b1a635fe4abb607064a0e26240ed58715fa43a8d
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 8e4c93d3b33a6b1fa5322bd8a18ff193f8eaa93a
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="enable-microsoft-teams-side-by-side-with-skype-for-business"></a>Habilitar Microsoft Teams en paralelo con Skype Empresarial 
 =============================================================

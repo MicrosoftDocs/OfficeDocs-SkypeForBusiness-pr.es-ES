@@ -1,18 +1,18 @@
 ---
 title: Administrar el acceso de invitado a Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: LaithAlShamri
+ms.author: laal
+manager: lolaj
 ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 description: 
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 96113a828d150cd19c54d0c01d7756e5077ef37c
-ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
+ms.openlocfilehash: beb9e46248569d46e1deb6d9210fde4ba329faaf
+ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 11/11/2017
 ---
 <a name="manage-guest-access-to-microsoft-teams"></a>Administrar el acceso de invitado a Microsoft Teams
 ======================================

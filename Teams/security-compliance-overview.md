@@ -2,17 +2,17 @@
 title: "Información general de seguridad y cumplimiento en Microsoft Teams | Soporte técnico de Microsoft"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Descripción general de las características de seguridad y cumplimiento de Microsoft Teams, que incluye auditoría y generación informes, búsqueda de contenido de cumplimiento, eDiscovery y mucho más."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 6cca28ee5cd96d24e4b0da0a29748e0cf383eb0c
-ms.sourcegitcommit: a315fbbb6a5337c32c9312550ee05fd9185020db
+ms.openlocfilehash: 83cad5896079173300d5aeaa40835f7ffa4d5074
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================

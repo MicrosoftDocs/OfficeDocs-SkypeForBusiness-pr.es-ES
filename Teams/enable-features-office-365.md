@@ -2,28 +2,29 @@
 title: "Habilitar características de Microsoft Teams en su organización de Office 365 | Soporte técnico de Microsoft"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Conozca todas las características de Microsoft Teams que puede habilitar en su organización de Office 365, incluidos la configuración en todo el inquilino, la integración del correo electrónico, las aplicaciones, el almacenamiento en nube y mucho más."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a336d04bf8a296e608eb80796d16ba1f7dc3ed74
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 7c626acc5e9fe4d19d7198ea023df155ff427f40
+ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/11/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Habilitar características de Microsoft Teams en su organización de Office 365
 ======================================================
 
-Microsoft Teams tiene varios parámetros de configuración que se pueden habilitar o deshabilitar a nivel de inquilino. Con Microsoft Teams habilitado para el inquilino, cualquier usuario que esté también habilitado para Microsoft Teams heredará la configuración desde el nivel de inquilino.
+Microsoft Teams tiene varios parámetros de configuración que se pueden habilitar o deshabilitar a nivel de inquilino. Con Teams habilitado para el inquilino, cualquier usuario que esté también habilitado para Teams heredará la configuración desde el nivel de inquilino.
 
-A continuación puede ver una lista de características que el administrador de Office 365 puede habilitar o deshabilitar en Microsoft Teams.
+A continuación puede ver una lista de características que un administrador de Office 365 puede elegir para habilitar o deshabilitar en Teams.
 
 A menos que se indique lo contrario, el valor predeterminado para una opción es Activado.
 
-Nota: Un administrador de Office 365 puede desactivar Microsoft Teams en cualquier momento mediante el Centro de administración de Office 365. Tenga en cuenta que los usuarios con licencias activas de Microsoft Teams seguirán viendo el icono de la aplicación Microsoft Teams, aunque lo desactive. Para ver información detallada sobre cómo quitar licencias de los usuarios, consulte Administrar el acceso de los usuarios a las licencias de Microsoft Teams. En cuanto Microsoft Teams se deshabilita, el acceso desde su cliente se bloquea, pero los datos que estén disponibles a través de otros clientes y servicios, como SharePoint o OneDrive, seguirán estando disponibles. Todos los datos continuarán en su lugar, a menos que los equipos se eliminen explícitamente.
+> [!NOTE]
+> Un administrador de Office 365 puede desactivar Microsoft Teams en cualquier momento mediante el Centro de administración de Office 365. Tenga en cuenta que los usuarios con licencias activas de Microsoft Teams seguirán viendo el icono de la aplicación Teams, aunque lo desactive. Para ver información detallada sobre cómo quitar licencias de los usuarios, consulte [Gestionar acceso de los usuarios a Microsoft Teams](user-access.md). En cuanto Teams se deshabilita, el acceso desde su cliente se bloquea, pero los datos que estén disponibles a través de otros clientes y servicios, como SharePoint o OneDrive, seguirán estando disponibles. Todos los datos continuarán en su lugar, a menos que los equipos se eliminen explícitamente.
 
 <a name="tenant-wide-settings"></a>Configuración de todos los inquilinos 
 ---------------------

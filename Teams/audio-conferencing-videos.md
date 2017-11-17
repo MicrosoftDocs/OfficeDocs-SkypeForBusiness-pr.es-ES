@@ -2,17 +2,17 @@
 title: "Vídeos: Audioconferencia en Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Vídeos que presentan la Audioconferencia en Microsoft Teams al administrador de TI."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: b66b69191ca67e7a64a4c6fdf85921bc615de427
-ms.sourcegitcommit: e0efee5350da54a1f1ae1c317f8613652c820bc6
+ms.openlocfilehash: 96f9b536e76eabe2cee81bacf499010e553184e8
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="videos-audio-conferencing-in-microsoft-teams"></a>Vídeos: Audioconferencia en Microsoft Teams
 =============================================

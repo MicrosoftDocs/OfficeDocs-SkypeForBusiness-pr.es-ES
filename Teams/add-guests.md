@@ -1,18 +1,18 @@
 ---
 title: Agregar un invitado a un equipo
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: LaithAlShamri
+ms.author: laal
+manager: lolaj
 ms.date: 10/23/2017
 ms.topic: article
 ms.service: msteams
 description: "Conozca las herramientas que un administrador tiene a su disposición para agregar usuarios invitados nuevos a una organización, incluidos los clientes web y de escritorio de Microsoft Teams y el portal de colaboración B2B de Azure Active Directory."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 640eb72c55d58e931fff7d52212b1a7dc9e6cdbf
-ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
+ms.openlocfilehash: 7764b05a3c3e945e505800ddf30372a2438236a6
+ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 11/11/2017
 ---
 <a name="add-a-guest-to-a-team"></a>Agregar un invitado a un equipo
 =====================

@@ -2,17 +2,17 @@
 title: Crear un proyecto piloto de Microsoft Teams junto a Skype Empresarial
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Guía para iniciar una experiencia piloto de Microsoft Teams en la que se analice todo lo que Microsoft Teams puede ofrecer a su organización mientras sigue usando Skype Empresarial."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: c78e687535a47e5a267e087b39253c793b4b3d8a
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 563ade26ec8e9a86806751b19f36548560a264f1
+ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/11/2017
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Crear un proyecto piloto de Microsoft Teams junto a Skype Empresarial
 ============================================
@@ -79,7 +79,7 @@ Un piloto formal debe definir el camino que se va a seguir , así como incluir u
 <thead>
 <tr class="header">
 <td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>Siguiente acción:</strong><ul><li>Inscribir al equipo del programa piloto</li><li>Indicar cuáles son las características y los escenarios empresariales que probará como parte del piloto</li><li>Completar los objetivos y criterios de éxito</li><li>Establecer la escala de tiempo del piloto</li></ul></td>
+<td align="left"><strong>Siguientes acciones:</strong><ul><li>Inscribir al equipo del programa piloto</li><li>Indicar cuáles son las características y los escenarios empresariales que probará como parte del piloto</li><li>Completar los objetivos y criterios de éxito</li><li>Establecer la escala de tiempo del piloto</li></ul></td>
 </tr>
 </thead>
 <tbody>
@@ -141,7 +141,11 @@ Informar a los participantes del programa piloto sobre lo que va a suceder, cuá
 
 Una vez que toda la logística esté preparada, podrá comenzar el programa piloto. Dirigir este programa supone comunicarse con los usuarios piloto, supervisar la red y el uso para asegurarse de que la red y la calidad siguen siendo buenas, recopilar opiniones de los participantes y revisar los vales de asistencia al cliente para ver cuáles son las preguntas relacionadas con Microsoft Teams.
 
-A continuación se sugiere una escala de tiempo basada en un piloto de 30 días de duración:
+> [!IMPORTANT]
+> Teams está activado de forma predeterminada, pero, antes de empezar con el programa piloto, asegúrese de que todos los usuarios piloto están habilitados para Teams. Si necesita ayuda para hacerlo, lea [Habilitar características de Microsoft Teams en su organización de Office 365](enable-features-office-365.md).
+> 
+
+A continuación se sugiere una escala de tiempo para un proyecto piloto de 30 días:
 
 -   Una semana antes del lanzamiento del proyecto piloto: enviar comunicación inicial a los usuarios piloto
 
