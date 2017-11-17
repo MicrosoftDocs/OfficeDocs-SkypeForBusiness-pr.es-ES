@@ -1,41 +1,113 @@
 ---
-title: Dependencias de Office 365 para Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
-ms.date: 10/20/17
+title: Autorizar el acceso de invitado en Microsoft Teams
+author: LaithAlShamri
+ms.author: laal
+manager: lolaj
+ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
-description: Microsoft Teams depende de los grupos de Office 365, SharePoint Online y OneDrive para la Empresa.
+description: "Administre las funcionalidades y las características de acceso de invitado de Microsoft Teams a través de cuatro niveles de autorización distintos."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e04770535976f509a8ac16cf054ea5e6760b5231
-ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
+ms.openlocfilehash: 8faf2e13efb0c4c031fabea11185f1e3cdd353d1
+ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 11/11/2017
 ---
-<a name="office-365-dependencies-for-microsoft-teams"></a><span data-ttu-id="6da90-103">Dependencias de Office 365 para Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="6da90-103">Office 365 licensing for Microsoft Teams</span></span>
+<a name="authorize-guest-access-in-microsoft-teams"></a><span data-ttu-id="308a8-103">Autorizar el acceso de invitado en Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="308a8-103">Manage guest access in Microsoft Teams</span></span>
 ===========================================
 
-<span data-ttu-id="6da90-104">Microsoft Teams depende de los grupos de Office 365 para almacenar las suscripciones de los equipos y otras propiedades como la configuración de clasificación de datos de los equipos.</span><span class="sxs-lookup"><span data-stu-id="6da90-104">In addition, Microsoft Teams relies on Office 365 groups to store teams' memberships and other properties such as team data classification settings.</span></span> <span data-ttu-id="6da90-105">Grupos de Office 365 es un servicio que proporciona suscripciones entre aplicaciones para un conjunto de activos de grupo compartidos, como un sitio de SharePoint o un panel de Power BI. De esta manera, los equipos pueden colaborar de forma efectiva y segura.</span><span class="sxs-lookup"><span data-stu-id="6da90-105">Office 365 Groups is a service that provides cross-application membership for a set of shared team assets, like a SharePoint site or a Power BI dashboard, so that the team can collaborate effectively and securely.</span></span> 
+<span data-ttu-id="308a8-104">Para satisfacer los requisitos de su organización, puede administrar las funcionalidades y las características de acceso de invitado de Microsoft Teams a través de cuatro niveles de autorización distintos.</span><span class="sxs-lookup"><span data-stu-id="308a8-104">To satisfy your organization’s requirements, you can manage Microsoft Teams guest access features and capabilities through four different levels of authorization.</span></span> <span data-ttu-id="308a8-105">Todos los niveles de autorización se aplican a su inquilino de Office 365.</span><span class="sxs-lookup"><span data-stu-id="308a8-105">All the authorization levels apply to your Office 365 tenant.</span></span> <span data-ttu-id="308a8-106">Cada nivel de autorización controla la experiencia de invitado como se muestra a continuación:</span><span class="sxs-lookup"><span data-stu-id="308a8-106">Each authorization level controls the guest experience as shown below:</span></span>
+- <span data-ttu-id="308a8-107">**Azure Active Directory**: el acceso de invitado en Microsoft Teams depende de la plataforma negocio a negocio (B2B) de Azure AD.</span><span class="sxs-lookup"><span data-stu-id="308a8-107">**Azure Active Directory**: Guest access in Microsoft Teams relies on the Azure AD business-to-business (B2B) platform.</span></span> <span data-ttu-id="308a8-108">Controla la experiencia de invitado a nivel de directorio, inquilino y aplicación.</span><span class="sxs-lookup"><span data-stu-id="308a8-108">Controls the guest experience at the directory, tenant, and application level.</span></span> 
+- <span data-ttu-id="308a8-109">**Microsoft Teams**: solo controla Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="308a8-109">**Microsoft Teams**: Controls Microsoft Teams only.</span></span> 
+- <span data-ttu-id="308a8-110">**Grupos de Office 365**: controla la experiencia de invitado en los Grupos de Office 365 y Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="308a8-110">**Office 365 Groups**: Controls the guest experience in Office 365 Groups and Microsoft Teams.</span></span>
+- <span data-ttu-id="308a8-111">**SharePoint Online y OneDrive para la Empresa**: controla la experiencia de invitado en SharePoint Online, OneDrive para la Empresa, Grupos de Office 365 y Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="308a8-111">**SharePoint Online and OneDrive for Business**: Controls the guest experience in SharePoint Online, OneDrive for Business, Office 365 Groups, and Microsoft Teams.</span></span>
 
-<span data-ttu-id="6da90-106">Teams también depende de SharePoint Online y OneDrive para la Empresa para almacenar archivos y documentos de canales y conversaciones de chat.</span><span class="sxs-lookup"><span data-stu-id="6da90-106">Teams relies on SharePoint Online and OneDrive for Business to store files and documents for channels and chat conversations.</span></span> <span data-ttu-id="6da90-107">Además, Teams depende de los grupos de Office 365 para almacenar las suscripciones de los equipos y otras propiedades como la configuración de clasificación de datos de los equipos.</span><span class="sxs-lookup"><span data-stu-id="6da90-107">In addition, Teams relies on Office 365 groups to store teams' memberships and other properties such as team data classification settings.</span></span> <span data-ttu-id="6da90-108">Los invitados están sujetos a los límites de servicio de [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) y [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019).</span><span class="sxs-lookup"><span data-stu-id="6da90-108">Yes, guests are subject to  [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) and [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) service limits.</span></span>
+<span data-ttu-id="308a8-112">Estos niveles de autorización distintos proporcionan la flexibilidad necesaria para configurar el acceso de invitado para su organización.</span><span class="sxs-lookup"><span data-stu-id="308a8-112">These different authorization levels provide you with flexibility in how you set up guest access for your organization.</span></span> <span data-ttu-id="308a8-113">Por ejemplo, si no quiere permitir usuarios invitados en su organización de Microsoft Teams, solo tiene que desactivar el acceso de invitado en Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="308a8-113">For example, if you don’t want to allow guest users in your Microsoft Teams organization, just turn off guest access in Microsoft Teams.</span></span> <span data-ttu-id="308a8-114">Otro ejemplo: podría habilitar el acceso de invitado en los niveles de AAD, Teams y Grupos, pero deshabilitaría la adición de usuarios invitados en equipos seleccionados que tengan un criterio o varios en común, como que la clasificación de datos es igual a confidencial.</span><span class="sxs-lookup"><span data-stu-id="308a8-114">Another example: You could enable guest access at the AAD, Teams, and Groups levels, but then disable guest users' addition on selected teams that match one or more criteria such as data classification equals confidential.</span></span> <span data-ttu-id="308a8-115">Además, quizá no use Grupos de Office 365.</span><span class="sxs-lookup"><span data-stu-id="308a8-115">And, perhaps you don’t use Office 365 Groups.</span></span> <span data-ttu-id="308a8-116">SharePoint Online y OneDrive para la Empresa tienen su propia configuración de acceso de invitado que no depende de Grupos de Office 365.</span><span class="sxs-lookup"><span data-stu-id="308a8-116">SharePoint Online and OneDrive for Business have their own guest access settings that don't rely on Office 365 Groups.</span></span> 
+
+> [!NOTE]
+> <span data-ttu-id="308a8-117">Los invitados están sujetos a los límites de servicio de [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) y [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019).</span><span class="sxs-lookup"><span data-stu-id="308a8-117">Guests are subject to  [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) and [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) service limits.</span></span> 
+
+  <span data-ttu-id="308a8-118">En el siguiente diagrama se muestra cómo se concede y se integra la dependencia de autorización de acceso de invitado entre Azure Active Directory, Microsoft Teams y Office 365.</span><span class="sxs-lookup"><span data-stu-id="308a8-118">The following diagram shows how guest access authorization dependency is granted and integrated between Azure Active Directory, Microsoft Teams, and Office 365.</span></span>
+
+
+![Diagrama de las dependencias de autorización para el acceso de invitado.](media/teams_dependencies_image1.png)
+
+
+##<a name="azure-active-directory"></a><span data-ttu-id="308a8-120">Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="308a8-120">Azure Active Directory</span></span>
+
+<span data-ttu-id="308a8-121">Con la colaboración negocio a negocio (B2B) de Azure AD, el envío de invitaciones a posibles usuarios invitados no está restringido a los administradores de inquilinos.</span><span class="sxs-lookup"><span data-stu-id="308a8-121">With Azure AD business-to-business (B2B) collaboration, sending invitations to potential guest users isn’t restricted to tenant admins.</span></span> <span data-ttu-id="308a8-122">En su lugar, puede usar directivas para delegar el envío de invitaciones a los usuarios que tengan roles que les permitan hacerlo.</span><span class="sxs-lookup"><span data-stu-id="308a8-122">Instead, you can use policies to delegate sending invitations to users whose roles allow them to send invitations.</span></span>
+
+<span data-ttu-id="308a8-123">La configuración de las invitaciones se aplica a nivel de inquilino y controla la experiencia de invitado a nivel de directorio, inquilino y aplicación.</span><span class="sxs-lookup"><span data-stu-id="308a8-123">The settings for invitations apply at the tenant level and control the guest experience at the directory, tenant, and application level.</span></span>
+
+
+![Captura de pantalla de la configuración de usuario en el portal de Azure Active Directory.](media/teams_dependencies_image2.png)
+
+
+<span data-ttu-id="308a8-125">Puede establecer las siguientes directivas de invitación:</span><span class="sxs-lookup"><span data-stu-id="308a8-125">You can set the following parameters:</span></span>
+- <span data-ttu-id="308a8-126">Desactivar invitaciones.</span><span class="sxs-lookup"><span data-stu-id="308a8-126">Turn off invitations.</span></span>
+- <span data-ttu-id="308a8-127">Solo pueden invitar los administradores y los usuarios que tengan el rol de invitador de usuarios.</span><span class="sxs-lookup"><span data-stu-id="308a8-127">Only admins and users in the guest inviter role can invite.</span></span>
+- <span data-ttu-id="308a8-128">Pueden invitar los administradores, el rol de invitador de usuarios y los miembros.</span><span class="sxs-lookup"><span data-stu-id="308a8-128">Admins, the guest inviter role, and members can invite.</span></span>
+- <span data-ttu-id="308a8-129">Pueden invitar todos los usuarios, incluidos los invitados.</span><span class="sxs-lookup"><span data-stu-id="308a8-129">All users, including guests, can invite.</span></span> <span data-ttu-id="308a8-130">(Esta es la directiva predeterminada para los inquilinos).</span><span class="sxs-lookup"><span data-stu-id="308a8-130">(This is the default policy for tenants.)</span></span>
+
+
+##<a name="microsoft-teams"></a><span data-ttu-id="308a8-131">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="308a8-131">Microsoft Teams</span></span>
+
+<span data-ttu-id="308a8-132">En Microsoft Teams, puede controlar si la experiencia de invitado está habilitada o deshabilitada en su organización.</span><span class="sxs-lookup"><span data-stu-id="308a8-132">In Microsoft Teams, you can control whether the guest experience is enabled or disabled for your organization.</span></span> <span data-ttu-id="308a8-133">La configuración está deshabilitada de forma predeterminada y se aplica en el nivel de inquilino para Microsoft Teams solo.</span><span class="sxs-lookup"><span data-stu-id="308a8-133">The setting is disabled by default and applies at the tenant level for Microsoft Teams only.</span></span>
+
+
+
+<span data-ttu-id="308a8-134">Puede administrar la configuración del acceso de invitado de Microsoft Teams desde el Centro de administración de Office 365.</span><span class="sxs-lookup"><span data-stu-id="308a8-134">You can manage Microsoft Teams guest access settings from the Office 365 admin center.</span></span> <span data-ttu-id="308a8-135">Si desea más información, consulte [Activar o desactivar el acceso de invitado para Microsoft Teams](set-up-guests.md).</span><span class="sxs-lookup"><span data-stu-id="308a8-135">For more details, see "Turn on or off guest access for Microsoft Teams."</span></span> 
+
+
+##<a name="office-365-groups"></a><span data-ttu-id="308a8-136">Grupos de Office 365</span><span class="sxs-lookup"><span data-stu-id="308a8-136">Office 365 groups</span></span>
+
+<span data-ttu-id="308a8-137">Desde Grupos de Office 365, puede controlar la adición de usuarios invitados y el acceso de invitado a todos los grupos de Office 365 y Microsoft Teams en su organización.</span><span class="sxs-lookup"><span data-stu-id="308a8-137">From Office 365 Groups, you can control adding guest users and guest access to all Office 365 groups and Microsoft Teams in your organization.</span></span>
+
+1. <span data-ttu-id="308a8-138">Inicie sesión con su cuenta de administrador global de Office 365 en [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).</span><span class="sxs-lookup"><span data-stu-id="308a8-138">Sign in with your Office 365 global admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).</span></span>
+    
+  
+2. <span data-ttu-id="308a8-139">En el menú de navegación, elija **Configuración** y luego **Servicios y complementos**.</span><span class="sxs-lookup"><span data-stu-id="308a8-139">In the navigation menu, choose **Settings** and then select **Services &amp; add-ins**.</span></span>
+    
+  
+3. <span data-ttu-id="308a8-140">Seleccione **Grupos de Office 365**.</span><span class="sxs-lookup"><span data-stu-id="308a8-140">Select **Office 365 Groups**.</span></span>
+    
+     ![Grupos de Office 365](media/e25a7920-254c-4da3-bc5f-a8c7f6b61423.png)
+  
+
+  
+
+  
+4. <span data-ttu-id="308a8-142">En la página de grupos de Office 365, configure el botón de alternancia en **Activado** o **Desactivado**, dependiendo de si quiere que los propietarios del equipo y el grupo que no pertenecen a la organización accedan a los grupos de Office 365.</span><span class="sxs-lookup"><span data-stu-id="308a8-142">On the Office 365 Groups page, set the toggle to **On** or **Off**, depending if you want to let team and group owners outside your organization access Office 365 groups.</span></span> <span data-ttu-id="308a8-143">Pulse o haga clic en el botón de alternancia, cambie a **Activado** junto a **Let group owners add people outside the organization to groups** (Permitir que los propietarios de grupo agreguen a los grupos personas externas a la organización).</span><span class="sxs-lookup"><span data-stu-id="308a8-143">Click or tap the toggle to **On** next to **Let group owners add people outside the organization to groups**.</span></span> <span data-ttu-id="308a8-144">Si cambia a Activado el botón de alternancia, verá otra opción para controlar si quiere que los propietarios de grupo y equipo puedan añadir personas externas a la organización a los grupos de Office 365 y Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="308a8-144">If you turn this toggle to On, you'll see another option to control whether you want to let group and team owners add people outside your organization to Office 365 groups and Microsoft teams.</span></span> <span data-ttu-id="308a8-145">Establezca el botón de alternancia en Activado si desea que los propietarios de grupo y equipo agreguen usuarios invitados.</span><span class="sxs-lookup"><span data-stu-id="308a8-145">Set this toggle to On if you want to let group and team owners add guest users.</span></span> <span data-ttu-id="308a8-146">![La captura de pantalla muestra el panel Grupos de Office 365 con las opciones activadas para permitir que los miembros del grupo externos a la organización accedan al contenido del grupo y para permitir que los propietarios del grupo agreguen a los grupos personas que no pertenecen a la organización.](media/eee77abd-4425-4585-91a8-5541c17ee7b2.png)</span><span class="sxs-lookup"><span data-stu-id="308a8-146">![Screenshot shows the Office 365 Groups panel with the options turned on to let group members outside the organization access group content and to let group owners add people outside the organization to groups.](media/eee77abd-4425-4585-91a8-5541c17ee7b2.png)</span></span>
+
+
+
+
+<span data-ttu-id="308a8-147">La configuración anterior se aplica a nivel de inquilino y controla la experiencia de invitado en Grupos de Office 365 y Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="308a8-147">The above settings apply at the tenant level and control the guest experience in Office 365 Groups and Microsoft Teams.</span></span>
+
+
+##<a name="sharepoint-online-and-onedrive-for-business"></a><span data-ttu-id="308a8-148">SharePoint Online y OneDrive para la Empresa</span><span class="sxs-lookup"><span data-stu-id="308a8-148">See How SharePoint Online and OneDrive for Business interact with Teams</span></span>
+
+<span data-ttu-id="308a8-149">Microsoft Teams depende de SharePoint Online y OneDrive para la Empresa para almacenar archivos y documentos de canales y conversaciones de chat.</span><span class="sxs-lookup"><span data-stu-id="308a8-149">Teams relies on SharePoint Online and OneDrive for Business to store files and documents for channels and chat conversations.</span></span>  
   
     
     
-<span data-ttu-id="6da90-109">Para habilitar toda la experiencia de acceso de invitado de Teams, los administradores de Office 365 tienen que seleccionar **Activado** en las siguientes opciones:</span><span class="sxs-lookup"><span data-stu-id="6da90-109">To enable the full Teams guest access experience, Office 365 admins need to select **On** for the following settings:</span></span>
+<span data-ttu-id="308a8-150">Para habilitar toda la experiencia de acceso de invitado de Teams, los administradores de Office 365 tienen que seleccionar **Activado** en las siguientes opciones:</span><span class="sxs-lookup"><span data-stu-id="308a8-150">To enable the full Teams guest access experience, Office 365 admins need to select **On** for the following settings:</span></span>
   
     
     
 
-- <span data-ttu-id="6da90-110">En SharePoint Online: **Only allow sharing with external users already in the directory** (Permitir solo compartir con usuarios externos que ya estén en el directorio)</span><span class="sxs-lookup"><span data-stu-id="6da90-110">In SharePoint Online: **Only allow sharing with external users already in the directory**</span></span>
+- <span data-ttu-id="308a8-151">En SharePoint Online: **Only allow sharing with external users already in the directory** (Permitir solo compartir con usuarios externos que ya estén en el directorio)</span><span class="sxs-lookup"><span data-stu-id="308a8-151">In SharePoint Online: **Only allow sharing with external users already in the directory**</span></span>
     
-    <span data-ttu-id="6da90-111">Para obtener más información, consulte [Administrar el uso compartido externo en su entorno de SharePoint Online](https://support.office.com/en-us/article/Manage-external-sharing-for-your-SharePoint-Online-environment-c8a462eb-0723-4b0b-8d0a-70feafe4be85).</span><span class="sxs-lookup"><span data-stu-id="6da90-111">For more information, see [Manage external sharing for your SharePoint Online environment](https://support.office.com/en-us/article/Manage-external-sharing-for-your-SharePoint-Online-environment-c8a462eb-0723-4b0b-8d0a-70feafe4be85).</span></span>
+    <span data-ttu-id="308a8-152">Para obtener más información, consulte [Administrar el uso compartido externo en su entorno de SharePoint Online](https://support.office.com/en-us/article/Manage-external-sharing-for-your-SharePoint-Online-environment-c8a462eb-0723-4b0b-8d0a-70feafe4be85).</span><span class="sxs-lookup"><span data-stu-id="308a8-152">For more information, see [Manage external sharing for your SharePoint Online environment](https://support.office.com/en-us/article/Manage-external-sharing-for-your-SharePoint-Online-environment-c8a462eb-0723-4b0b-8d0a-70feafe4be85).</span></span>
     
   
-- <span data-ttu-id="6da90-112">En los grupos de Office 365: **Let group owners add people outside the organization to groups** (Permitir que los propietarios de grupo agreguen a los grupos personas externas a la organización)</span><span class="sxs-lookup"><span data-stu-id="6da90-112">In Office 365 groups: **Let group owners add people outside the organization to groups**</span></span>
+- <span data-ttu-id="308a8-153">En los grupos de Office 365: **Let group owners add people outside the organization to groups** (Permitir que los propietarios de grupo agreguen a los grupos personas externas a la organización)</span><span class="sxs-lookup"><span data-stu-id="308a8-153">In Office 365 groups: **Let group owners add people outside the organization to groups**</span></span>
     
-    <span data-ttu-id="6da90-113">Para obtener más información, consulte [Controlar el acceso de invitado a Microsoft Teams](#controlguest).</span><span class="sxs-lookup"><span data-stu-id="6da90-113">For more information, see [Control guest access to Microsoft Teams](#controlguest).</span></span>
+    <span data-ttu-id="308a8-154">Para obtener más información, consulte [Controlar el acceso de invitado a Microsoft Teams](#controlguest).</span><span class="sxs-lookup"><span data-stu-id="308a8-154">For more information, see [Control guest access to Microsoft Teams](#controlguest).</span></span>
   
 
-<span data-ttu-id="6da90-114">La configuración de usuarios externos de SharePoint Online se puede administrar para el sitio de equipos conectados a Teams.</span><span class="sxs-lookup"><span data-stu-id="6da90-114">Yes, you can manage SharePoint Online external user settings for the Teams connected team site.</span></span> <span data-ttu-id="6da90-115">Si desea más detalles, vea [Administrar la configuración de su sitio de grupo de SharePoint](https://support.office.com/en-us/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42).</span><span class="sxs-lookup"><span data-stu-id="6da90-115">For more details, see  [Manage your SharePoint team site settings](https://support.office.com/en-us/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42).</span></span>
+<span data-ttu-id="308a8-155">La configuración anterior se aplica a nivel de inquilino y controla la experiencia de invitado en SharePoint Online, OneDrive para la Empresa, Grupos de Office 365 y Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="308a8-155">The above settings apply at the tenant level and control the guest experience at SharePoint Online, OneDrive for Business, Office 365 Groups and Microsoft Teams.</span></span>
+
+
+<span data-ttu-id="308a8-156">La configuración de usuarios externos de SharePoint Online se puede administrar para el sitio de equipos conectados a Teams.</span><span class="sxs-lookup"><span data-stu-id="308a8-156">You can manage SharePoint Online external user settings for the Teams connected team site.</span></span> <span data-ttu-id="308a8-157">Si desea más detalles, vea [Administrar la configuración de su sitio de grupo de SharePoint](https://support.office.com/en-us/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42).</span><span class="sxs-lookup"><span data-stu-id="308a8-157">For more details, see  [Manage your SharePoint team site settings](https://support.office.com/en-us/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42).</span></span>
