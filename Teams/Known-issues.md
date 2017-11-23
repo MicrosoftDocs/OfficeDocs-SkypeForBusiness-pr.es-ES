@@ -3,25 +3,28 @@ title: Problemas conocidos de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 09/25/2017
+ms.date: 11/15/2017
 ms.topic: article
 ms.service: msteams
 description: "Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 0f90929f2af5d72df5851d25a2456b4613fd5613
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: a065472b87ee61a7f910741beadb97ebfbb2ed5c
+ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 11/16/2017
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
- [Ayuda de Microsoft Teams](microsoft-teams-help.md) > [Escritorio y web](microsoft-teams-help.md#BKMK_DesktopAndWeb) > Actualización de los problemas conocidos de Microsoft Teams: 14 de septiembre de 2017 
   
 En la siguiente tabla se enumeran los problemas conocidos de Microsoft Teams.
 ## 
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
+|Los clientes de la UE y APAC reciben un error cuando agregan un usuario invitado desde otro inquilino    <br/> | Los clientes de la UE y APAC sufren un retraso en la replicación entre Microsoft Teams y Azure Active Directory. Cuando un usuario de un inquilino de UE o APAC intenta agregar un usuario invitado desde otro inquilino, recibe un mensaje de error indicando que vuelva a intentarlo.   <br/> |Haga clic en el botón para reintentar y vuelva a realizar la adición del usuario invitado.  <br/> |08/11/2017  <br/> |
+|Cuando intenta unirse a Teams desde Internet Explorer o Edge, el programa lo intenta constantemente o se bloquea y no consigue iniciar sesión.   <br/> | Su organización utiliza los sitios de confianza de Internet Explorer y la aplicación basada en web de Teams no logra iniciar sesión correctamente porque los sitios de confianza de Teams no están permitidos. <br/>|Haga los siguientes cambios en la configuración de IE, ya sea con los derechos de administrador o con un objeto de directiva de grupo:<br/><ol><li>En Opciones de Internet &gt; Privacidad &gt; Avanzada, acepte las cookies de origen y de terceros y marque la casilla Aceptar siempre las cookies de sesión.</li><li>Haga clic en Opciones de Internet &gt; Sitios de confianza &gt; Sitios y agregue lo siguiente:<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>NOTA</b>: Valide y permita siempre todas las direcciones URL de confianza de Teams y los requisitos del siguiente documento: [URL de Office 365 e intervalos de direcciones IP](httpds://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams).   <br/> <br/>|01/11/2017  <br/> |
+|La carga de fotos en Teams no está bloqueada en OWA/Outlook como requiere la directiva   <br/> | Teams permite a los usuarios cargar fotos directamente en Office 365, a pesar de la configuración de la directiva que hay en vigor para evitar que se carguen fotos en OWA.   <br/> <br/> ||16/10/2017  <br/> |
+|La dirección URL de Teams con parámetros se trunca tras la redirección del inicio de sesión  <br/> | En Internet Explorer y Edge, cuando se abre el vínculo de un archivo compartido de Teams en una aplicación web de Teams por primera vez después de iniciar sesión, se le redirige al documento equivocado. Si ya ha iniciado sesión en la aplicación web de Teams y hace clic en el vínculo de archivo compartido, el vínculo funcionará correctamente.   <br/> <br/> ||11/10/2017  <br/> |
 |Compatibilidad con el cliente web de Safari  <br/> |A los usuarios que intentan abrir el cliente web de Microsoft Teams en Safari se les redirige al sitio de descarga del cliente de escritorio. Microsoft está investigando la compatibilidad con Safari y compartirá las actualizaciones a través del mapa de ruta público de Office 365.  <br/> |Utilice exploradores compatibles, entre los que se incluyen: Microsoft Edge 12 y posterior, Internet Explorer 11 y posterior, Firefox 47.0 y posterior y Chrome 51.0 y posterior.  <br/> |02/11/2016  <br/> |
 |Los usuarios no pueden volver a crear un nombre de canal que haya existido anteriormente.  <br/> |Una vez que se crea el nombre de un canal, este no se puede volver a usar, incluso si se ha eliminado. Nuestro sistema mantiene estos datos para posibles situaciones de protección de información.  <br/> |No hay ninguna solución.  <br/> |13/03/2017  <br/> |
 |No se pueden insertar adhesivos con la aplicación móvil.  <br/> |No puede usar adhesivos en las aplicaciones móviles.  <br/> |No hay ninguna solución.  <br/> |13/03/2017  <br/> |

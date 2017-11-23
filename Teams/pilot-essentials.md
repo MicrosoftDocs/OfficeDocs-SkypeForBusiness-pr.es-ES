@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Guía para iniciar una experiencia piloto de Microsoft Teams en la que se analice todo lo que Microsoft Teams puede ofrecer a su organización mientras sigue usando Skype Empresarial."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 563ade26ec8e9a86806751b19f36548560a264f1
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: 4cfbf9fa1e5f06281564e5e9fa61e66aaa9090b3
+ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 11/16/2017
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Crear un proyecto piloto de Microsoft Teams junto a Skype Empresarial
 ============================================
@@ -109,7 +109,7 @@ Para que la validación sea la mejor posible, debe intentar incluir aproximadame
 
 ## <a name="step-three-design-your-test-plan-and-feedback-survey"></a>Paso tres: diseñar su plan de pruebas y la encuesta de opinión
 
-Una experiencia piloto que logre sus objetivos ofrece a sus participantes unas tareas claramente definidas que deben completar y un método para ofrecer comentarios. Su organización puede decidir incluir en el programa piloto todas las funcionalidades de una vez o hacerlo gradualmente (por ejemplo, colaboración, luego reuniones y, finalmente, chat y llamadas). Una manera eficaz de recopilar y evaluar los resultados de la experiencia piloto es tener una encuesta predefinida diseñada en función de los escenarios y características del plan de pruebas.
+Una experiencia piloto que logre sus objetivos ofrece a sus participantes unas tareas claramente definidas que deben completar y un método para ofrecer comentarios. Agrupe las tareas de manera que se presenten a los usuarios situaciones de la vida real que muestren la relevancia de sus actividades diarias. Su organización puede decidir incluir en el programa piloto todas las funcionalidades de una vez o hacerlo gradualmente (por ejemplo, primero la colaboración piloto, luego las reuniones y, finalmente, el chat y las llamadas). Asegúrese de disponer de un canal abierto para enviar comentarios que permita hacer un seguimiento del progreso y los resultados de las medidas. Una manera eficaz de recopilar y evaluar los resultados de la experiencia piloto es tener una encuesta predefinida diseñada en función de los escenarios y características de su plan de pruebas.
 
 <table>
 <thead>
