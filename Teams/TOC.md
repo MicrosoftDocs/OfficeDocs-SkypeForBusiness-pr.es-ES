@@ -85,4 +85,6 @@
 ## [Solucionar problemas de conectividad con el cliente de Microsoft Teams](connectivity-issues.md)
 ## [Usar los archivos de registro para solucionar problemas en Teams](log-files.md)
 
+
 # [Documentación para desarrolladores de Teams](https://docs.microsoft.com/microsoftteams/platform)
+
