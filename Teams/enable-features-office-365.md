@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Conozca todas las características de Microsoft Teams que puede habilitar en su organización de Office 365, incluidos la configuración en todo el inquilino, la integración del correo electrónico, las aplicaciones, el almacenamiento en nube y mucho más."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 7c626acc5e9fe4d19d7198ea023df155ff427f40
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: e2235756e77c3e27c1eeee9fd22decb5e0e4e062
+ms.sourcegitcommit: db47b9f4955150859bc35ab9d078fa3ab66b5faa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 11/20/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Habilitar características de Microsoft Teams en su organización de Office 365
 ======================================================
@@ -110,8 +110,6 @@ Actualmente, el número máximo predeterminado de equipos que puede tener un inq
 Los canales son subcategorías de los equipos. Cualquier persona del equipo puede agregar un canal y participar en la conversación en un canal. Los canales se pueden crear para una actividad o para un departamento. Las conversaciones, los archivos y las páginas wiki son específicas de cada canal, pero todos los miembros del equipo podrán verlos.
 
 ### <a name="calls-and-meetings"></a>Llamadas y reuniones
-
-Los canales son subcategorías de los equipos. Cualquier persona del equipo puede agregar un canal y participar en la conversación en un canal. Los canales se pueden crear para una actividad o para un departamento. Las conversaciones, los archivos y las páginas wiki son específicas de cada canal, pero todos los miembros del equipo podrán verlos.
 
 La sección **Llamadas y reuniones** le permite establecer la siguiente configuración para su organización:
 

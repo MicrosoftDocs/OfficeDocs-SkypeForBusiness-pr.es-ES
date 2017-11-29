@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Sepa cómo asignar roles y permisos de propietario y miembro de equipo en Microsoft Teams, incluidos permisos para crear equipos."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 21e9a1cb3f77d657824f5d532469b7b5efe62ede
-ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
+ms.openlocfilehash: 0fb84f0b72d2d36f3a584e811fa8640159825429
+ms.sourcegitcommit: cd6f4ac2ee7fa2b9de7af5c75c914eb84468d8f5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2017
+ms.lasthandoff: 11/21/2017
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>Asignar roles y permisos en Microsoft Teams
 ===============================================
