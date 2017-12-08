@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Conozca todas las características de Microsoft Teams que puede habilitar en su organización de Office 365, incluidos la configuración en todo el inquilino, la integración del correo electrónico, las aplicaciones, el almacenamiento en nube y mucho más."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e2235756e77c3e27c1eeee9fd22decb5e0e4e062
-ms.sourcegitcommit: db47b9f4955150859bc35ab9d078fa3ab66b5faa
+ms.openlocfilehash: c785e554034cd87fd27f5137f206c8dc0e5f972a
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Habilitar características de Microsoft Teams en su organización de Office 365
 ======================================================
@@ -56,7 +56,7 @@ Active esta característica para que los usuarios puedan enviar un correo electr
 
 La integración del correo electrónico le permite establecer la siguiente configuración para su organización.
 
-   ![Captura de pantalla de la sección de integración del correo electrónico en la configuración para todos los inquilinos.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image5.png)
+   ![Captura de pantalla de la sección de integración del correo electrónico en la configuración para todos los inquilinos.](media/QS-edu-email-integration.png)
 
 -   **Permitir que los usuarios puedan enviar correo electrónico a los canales:** Cuando está habilitado, los enlaces de correo electrónico se habilitarán también y los usuarios podrán publicar mensajes a un canal enviando un correo electrónico a la dirección de correo electrónico del canal de Microsoft Teams.
 
