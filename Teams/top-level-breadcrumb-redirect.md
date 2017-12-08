@@ -4,9 +4,9 @@ redirect_document_id: True
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-ms.openlocfilehash: 4792676a427d1aed841363758ca22bc72094671b
-ms.sourcegitcommit: 1bc2abb2acabe0357d3770284b2710ed9c7f59ee
+ms.openlocfilehash: e3f3963c647443347cff860bc9673239babd23f7
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2017
+ms.lasthandoff: 12/08/2017
 ---
