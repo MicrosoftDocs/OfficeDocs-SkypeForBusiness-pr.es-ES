@@ -1,27 +1,27 @@
 ---
-title: "Realizar una investigación de exhibición de documentos electrónicos en Microsoft Teams | Soporte técnico de Microsoft"
+title: "Realizar una investigación de eDiscovery en Microsoft Teams | Soporte técnico de Microsoft"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Conozca los pasos que debe seguir cuando necesite realizar una exhibición de documentos electrónicos, como por ejemplo, cuando debe entregar toda la información almacenada electrónicamente para procedimientos legales."
+description: "Conozca los pasos que debe seguir cuando necesite realizar una investigación de eDiscovery, como por ejemplo, cuando debe entregar toda la información almacenada electrónicamente para procedimientos legales."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 976806b8deb77ca947782146dec5dccaa8b8429e
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 2ca867ccdb3efb7a7d80152a4f55063cafc3bb28
+ms.sourcegitcommit: bbce24b59b31552a92eb76a8e360e8c72b4fdd8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 11/28/2017
 ---
-<a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de exhibición de documentos electrónicos en Microsoft Teams
+<a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 ============================
 
 Las grandes empresas a menudo se ven sometidas a procedimientos legales de elevadas penalizaciones, para lo que es necesario entregar toda la información almacenada electrónicamente.
 
-Se crean diarios de todos los chats de grupo o 1:1 en Microsoft Teams en los respectivos buzones de los usuarios y se crean diarios de todos los mensajes del canal en el buzón del grupo que representa el equipo. Los archivos cargados están cubiertos en la funcionalidad Exhibición de documentos electrónicos para SharePoint Online y OneDrive para la Empresa.
+Se crean diarios de todos los chats de grupo o 1:1 en Microsoft Teams en los respectivos buzones de los usuarios y se crean diarios de todos los mensajes del canal en el buzón del grupo que representa el equipo. Los archivos cargados están cubiertos en la funcionalidad eDiscovery para SharePoint Online y OneDrive para la Empresa.
 
-1.  Para realizar una investigación de exhibición de documentos electrónicos con el contenido de Microsoft Teams, revise [este vínculo](https://support.office.com/en-us/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da?ui=en-US&rs=en-US&ad=US#step1).
+1.  Para realizar una investigación de eDiscovery con el contenido de Microsoft Teams, revise [este vínculo](https://support.office.com/en-us/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da?ui=en-US&rs=en-US&ad=US#step1).
 
 2.  Los datos de Microsoft Teams aparecerán como **mensajes instantáneos o conversaciones** en los resultados del Excel, o puede montar el **.PST** en Outlook.
 

@@ -63,6 +63,7 @@
 ## [3 - Habilitar Microsoft Teams en paralelo con Skype Empresarial](guidance-SkypeforBusiness.md)
 ## [4 - Generar valor a través de la adopción de usuarios](continue-journey.md)
 ## [Preguntas frecuentes: Skype Empresarial y Microsoft Teams](FAQ-journey.md)
+## [Tutorial: Recorrido desde Skype Empresarial a Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 
 # Vídeos y formación
 ## [Preparación de administradores de TI para Microsoft Teams](ITAdmin-readiness.md)
@@ -73,7 +74,7 @@
 ## [Información general de seguridad y cumplimiento en Microsoft Teams](security-compliance-overview.md)
 ## [Modelos de identidad y autenticación en Microsoft Teams](identify-models-authentication.md)
 ## [Buscar eventos en el log de auditorías en Microsoft Teams](audit-log-events.md)
-## [Realizar una investigación de exhibición de documentos electrónicos en Microsoft Teams](eDiscovery-investigation.md)
+## [Realizar una investigación de eDiscovery en Microsoft Teams](eDiscovery-investigation.md)
 ## [Usar la búsqueda de contenido en Microsoft Teams](content-search.md)
 ## [Poner a un usuario o un equipo de Microsoft Teams en retención legal](legal-hold.md)
 

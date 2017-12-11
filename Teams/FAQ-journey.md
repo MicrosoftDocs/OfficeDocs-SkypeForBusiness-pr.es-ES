@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: Preguntas frecuentes que se plantean sobre el recorrido desde Skype Empresarial a Microsoft Teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: ffb09f4ef21828a8f0613bfa9402aa69263237d6
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 4303b59bb7044af57973fa1606338f5c4f6e2e5e
+ms.sourcegitcommit: 5814969da48133214d2f9ea04d6790ebe102d691
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/01/2017
 ---
 <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Preguntas frecuentes: recorrido desde Skype Empresarial a Microsoft Teams
 ==========================================================
@@ -31,6 +31,8 @@ A medida que los usuarios trabajan en más equipos, creemos que es más fácil i
 ### <a name="is-there-a-firm-deadline-by-which-customers-need-to-move-from-skype-for-business-online-to-teams"></a>¿Existe un plazo concreto para que los clientes pasen de Skype Empresarial Online a Microsoft Teams? 
 
 Vamos a publicar nuestro mapa de ruta para Microsoft Teams para que los clientes puedan valorar las funcionalidades de Microsoft Teams en relación con las suyas propias y puedan planificar su cambio a Microsoft Teams. Los clientes pueden decidir cuáles son los tiempos que más le convienen para cambiar a Microsoft Teams.
+
+Una buena manera de mantenerse al corriente de las noticias acerca del recorrido de Skype Empresarial a Teams es el [Mapa de ruta de las opciones de Skype Empresarial en Microsoft Teams](https://aka.ms/skype2teamsroadmap), un PDF descargable (disponible solo en inglés, por el momento) en el que se recogen las expectativas que tiene Microsoft actualmente en torno a qué opciones de Skype Empresarial estarán disponibles en Teams.
 
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>¿Qué futuro le espera a Skype Empresarial Server? 
 
