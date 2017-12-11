@@ -8,34 +8,40 @@ ms.topic: article
 ms.service: msteams
 description: Todo lo que necesita saber sobre el recorrido a Microsoft Teams desde Skype Empresarial Online.
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: fa3f44cf32f18383ed1258d768050d7494afe865
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 7616975c9395b6fa1219deb576b7ceff29d89bb7
+ms.sourcegitcommit: 5814969da48133214d2f9ea04d6790ebe102d691
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/01/2017
 ---
-<a name="journey-from-skype-for-business-to-microsoft-teams"></a><span data-ttu-id="2b825-103">Recorrido desde Skype Empresarial a Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="2b825-103">Journey from Skype for Business to Microsoft Teams</span></span>
+<a name="journey-from-skype-for-business-to-microsoft-teams"></a><span data-ttu-id="96114-103">Recorrido desde Skype Empresarial a Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="96114-103">Journey from Skype for Business to Microsoft Teams</span></span>
 ==================================================
 
-<span data-ttu-id="2b825-104">Como parte de [la visión de optimización de las comunicaciones ](https://aka.ms/intelligentcommunicationsblog) que Microsoft tiene para suministrar mejores experiencias de reuniones y llamadas, incorporamos las funcionalidades de Skype Empresarial en Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="2b825-104">As part of the Microsoft [intelligent communications vision](https://aka.ms/intelligentcommunicationsblog) to deliver smarter calling and meeting experiences, we’re building Skype for Business capabilities into Teams.</span></span> <span data-ttu-id="2b825-105">Este proceso será progresivo, y culminará con la adopción de Microsoft Teams como la única experiencia de cliente.</span><span class="sxs-lookup"><span data-stu-id="2b825-105">This will happen over time, and ultimately Teams will become the single client experience.</span></span> <span data-ttu-id="2b825-106">Como cliente valorado de Skype Empresarial, Microsoft le ayuda a recorrer cada uno de los pasos del recorrido hasta Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="2b825-106">As a valued Skype for Business customer, Microsoft is here to support you every step of the way on your journey to Teams.</span></span> <span data-ttu-id="2b825-107">Sabemos que se necesita un cierto tiempo para adaptarse a los cambios, de modo que le animamos a que comience a explorar Microsoft Teams ahora mismo y descubra todo lo que puede aportar a su organización, a la vez que sigue usando Skype Empresarial.</span><span class="sxs-lookup"><span data-stu-id="2b825-107">We understand that change takes time, so we invite you to begin exploring Teams today to understand the value it can offer to your organization, while you continue to run Skype for Business.</span></span> 
+<span data-ttu-id="96114-104">Como parte de [la visión de optimización de las comunicaciones ](https://aka.ms/intelligentcommunicationsblog) que Microsoft tiene para suministrar mejores experiencias de reuniones y llamadas, incorporamos las funcionalidades de Skype Empresarial en Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="96114-104">As part of the Microsoft [intelligent communications vision](https://aka.ms/intelligentcommunicationsblog) to deliver smarter calling and meeting experiences, we’re building Skype for Business capabilities into Teams.</span></span> <span data-ttu-id="96114-105">Este proceso será progresivo, y culminará con la adopción de Microsoft Teams como la única experiencia de cliente.</span><span class="sxs-lookup"><span data-stu-id="96114-105">This will happen over time, and ultimately Teams will become the single client experience.</span></span> <span data-ttu-id="96114-106">Como cliente valorado de Skype Empresarial, Microsoft le ayuda a recorrer cada uno de los pasos del recorrido hasta Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="96114-106">As a valued Skype for Business customer, Microsoft is here to support you every step of the way on your journey to Teams.</span></span> <span data-ttu-id="96114-107">Sabemos que se necesita un cierto tiempo para adaptarse a los cambios, de modo que le animamos a que comience a explorar Microsoft Teams ahora mismo y descubra todo lo que puede aportar a su organización, a la vez que sigue usando Skype Empresarial.</span><span class="sxs-lookup"><span data-stu-id="96114-107">We understand that change takes time, so we invite you to begin exploring Teams today to understand the value it can offer to your organization, while you continue to run Skype for Business.</span></span> 
 
-<span data-ttu-id="2b825-108">Visite el [plan de producto de Microsoft Teams](https://aka.ms/TeamsRoadmap) para estar al día de las próximas novedades de la herramienta y para poder decidir cuál es el mejor momento para que su organización empiece a usar Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="2b825-108">Visit the [Teams product roadmap](https://aka.ms/TeamsRoadmap) to stay on top of what’s coming next in Teams and decide the best time for your organization to move to Teams.</span></span>
+<span data-ttu-id="96114-108">Visite el [plan de producto de Microsoft Teams](https://aka.ms/TeamsRoadmap) para estar al día de las próximas novedades de la herramienta y para poder decidir cuál es el mejor momento para que su organización empiece a usar Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="96114-108">Visit the [Teams product roadmap](https://aka.ms/TeamsRoadmap) to stay on top of what’s coming next in Teams and decide the best time for your organization to move to Teams.</span></span>
 
-<span data-ttu-id="2b825-109">Para que los resultados sean los mejores posibles, le recomendamos que siga las directrices para conseguir:</span><span class="sxs-lookup"><span data-stu-id="2b825-109">For best results, we recommend that you follow this guidance in order:</span></span>
+<span data-ttu-id="96114-109">Otra buena manera de mantenerse al corriente de las noticias acerca del recorrido de Skype Empresarial a Teams es el [Mapa de ruta de las opciones de Skype Empresarial en Microsoft Teams](https://aka.ms/skype2teamsroadmap), un PDF descargable (disponible solo en inglés, por el momento) en el que se recogen las expectativas que tiene Microsoft actualmente en torno a qué opciones de Skype Empresarial estarán disponibles en Teams.</span><span class="sxs-lookup"><span data-stu-id="96114-109">Another great way to stay on top of news about the journey from Skype for Business to Teams is the [Skype for Busineses to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) - a downloadable PDF (in English only, at least for now) that gives Microsoft's current expectations about Skype for Business capabilities coming to Teams.</span></span>
+
+<span data-ttu-id="96114-110">Para que los resultados sean los mejores posibles, le recomendamos que siga las directrices para conseguir:</span><span class="sxs-lookup"><span data-stu-id="96114-110">For best results, we recommend that you follow this guidance in order:</span></span>
 
 
-[<span data-ttu-id="2b825-110">1 - Optimizar su entorno actual de Skype Empresarial para Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="2b825-110">1 - Optimize your current Skype for Business environment for Teams</span></span>](prepare-teams.md)
+[<span data-ttu-id="96114-111">1 - Optimizar su entorno actual de Skype Empresarial para Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="96114-111">1 - Optimize your current Skype for Business environment for Teams</span></span>](prepare-teams.md)
 
-[<span data-ttu-id="2b825-111">2. Crear un proyecto piloto de Microsoft Teams junto a Skype Empresarial</span><span class="sxs-lookup"><span data-stu-id="2b825-111">2 - Pilot Teams alongside Skype for Business</span></span>](pilot-essentials.md)
+[<span data-ttu-id="96114-112">2. Crear un proyecto piloto de Microsoft Teams junto a Skype Empresarial</span><span class="sxs-lookup"><span data-stu-id="96114-112">2 - Pilot Teams alongside Skype for Business</span></span>](pilot-essentials.md)
 
-[<span data-ttu-id="2b825-112">3 - Habilitar Microsoft Teams en paralelo con Skype Empresarial</span><span class="sxs-lookup"><span data-stu-id="2b825-112">3 - Enable Teams side-by-side with Skype for Business</span></span>](guidance-SkypeforBusiness.md)
+[<span data-ttu-id="96114-113">3 - Habilitar Microsoft Teams en paralelo con Skype Empresarial</span><span class="sxs-lookup"><span data-stu-id="96114-113">3 - Enable Teams side-by-side with Skype for Business</span></span>](guidance-SkypeforBusiness.md)
 
-[<span data-ttu-id="2b825-113">4 - Generar valor a través de la adopción de usuarios</span><span class="sxs-lookup"><span data-stu-id="2b825-113">4 - Drive value through user adoption</span></span>](continue-journey.md)
+[<span data-ttu-id="96114-114">4 - Generar valor a través de la adopción de usuarios</span><span class="sxs-lookup"><span data-stu-id="96114-114">4 - Drive value through user adoption</span></span>](continue-journey.md)
 
 
  
-### <a name="see-also"></a><span data-ttu-id="2b825-114">Vea también</span><span class="sxs-lookup"><span data-stu-id="2b825-114">See also</span></span>
-[<span data-ttu-id="2b825-115">Preguntas frecuentes: Skype Empresarial y Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="2b825-115">FAQ - Skype for Business & Teams vision</span></span>](FAQ-journey.md)
+### <a name="see-also"></a><span data-ttu-id="96114-115">Vea también</span><span class="sxs-lookup"><span data-stu-id="96114-115">See also</span></span>
+[<span data-ttu-id="96114-116">Tutorial: Recorrido desde Skype Empresarial a Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="96114-116">Journey from Skype for Business to Teams</span></span>](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+
+[<span data-ttu-id="96114-117">Preguntas frecuentes: Skype Empresarial y Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="96114-117">FAQ - Skype for Business & Teams vision</span></span>](FAQ-journey.md)
+
+[<span data-ttu-id="96114-118">De Skype Empresarial a Microsoft Teams: mapa de ruta de las opciones</span><span class="sxs-lookup"><span data-stu-id="96114-118">Skype for Business to Microsoft Teams: Capabilities Roadmap</span></span>](https://aka.ms/skype2teamsroadmap)
 
 
 
