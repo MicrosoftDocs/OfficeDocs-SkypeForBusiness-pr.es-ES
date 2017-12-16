@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Aprenda cómo funcionan los grupos y las pertenencias a grupos de Office 365 con Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 15989e5a846aa3bdf94f17218105d56336c8cfb9
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 2d6851a0c7ac44a5738ac4ee8de8f92bf257a77b
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Grupos de Office 365 y Microsoft Teams
 =====================================
@@ -26,10 +26,11 @@ Un administrador de Office 365 puede definir un grupo de Office 365, agregar mie
 
 Cuando crea un equipo de Microsoft Teams, en el back-end se crea un Grupo de Office 365 junto con la biblioteca de documentos de SharePoint asociada, el bloc de notas de OneNote junto con valores equivalentes en otras aplicaciones en la nube de Office 365. Si la persona que crea el equipo es propietario de un grupo privado o público de Office 365 existente, puede agregar la funcionalidad de Microsoft Teams al grupo. De este modo se crea un canal “General” en el que residen los mensajes de chat, los documentos, OneNote y otros objetos. En la biblioteca de documentos del canal se puede ver la carpeta “General” que representa en canal en el equipo. Es importante recordar que si crea su propia estructura de carpetas dentro de una biblioteca de documentos, **no se propaga** a Microsoft Teams como un canal. Por el momento, solo fluye de Microsoft Teams a SharePoint.
 
-|||
-|---------|---------|
-|  ![Icono de Nota.](media/Understand_Office_365_groups_and_Microsoft_Teams_image1.png) Nota    |Si se elimina un grupo de Office 365, se eliminará el alias de buzón para las conversaciones persistentes de Outlook/OWA e invitaciones a reuniones de Microsoft Teams, y el sitio de SharePoint se marcará para su eliminación. Solo se tarda 20 minutos aproximadamente desde que se elimina un equipo y se aprecia su efecto en Outlook. Si se elimina un equipo del cliente de Microsoft Teams, se eliminará inmediatamente de la vista a todos los que sean miembros del equipo. Si quita un miembro de un grupo de Office 365 que ha tenido habilitada la funcionalidad de Microsoft Teams, podría haber un retraso de aproximadamente una hora antes de que el equipo se elimine de la vista en el cliente de Microsoft Teams para las personas afectadas que se hayan eliminado.         |
 
+
+
+> [!NOTE]
+> Si se elimina un grupo de Office 365, se eliminará el alias de buzón para las conversaciones persistentes de Outlook/OWA e invitaciones a reuniones de Microsoft Teams, y el sitio de SharePoint se marcará para su eliminación. Solo se tarda 20 minutos aproximadamente desde que se elimina un equipo y se aprecia su efecto en Outlook. Si se elimina un equipo del cliente de Microsoft Teams, se eliminará inmediatamente de la vista a todos los que sean miembros del equipo. Si quita un miembro de un grupo de Office 365 que ha tenido habilitada la funcionalidad de Microsoft Teams, podría haber un retraso de aproximadamente una hora antes de que el equipo se elimine de la vista en el cliente de Microsoft Teams para las personas afectadas que se hayan eliminado.
 
 <a name="group-membership"></a>Pertenencia a grupos
 ----------------

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Aprenda a crear una estrategia de gestión de cambios para Microsoft Teams a través de la identificación de partes interesadas clave, los resultados empresariales, las medidas de éxito y la gestión de su campaña."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 7fb8c2f7804cd51ac74bcc06878572e0c2c605ad
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: ec0bea3c69ba9931727d9917246f71920d09cc7e
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Crear una estrategia de administración de cambios para Microsoft Teams
 =======================================================
@@ -55,9 +55,10 @@ La primera regla para una adopción exitosa es crear un equipo dinámico compues
 Recomendamos realizar reuniones periódicas con estas partes interesadas para mantenerlas al tanto del progreso del programa. Iniciar un "consejo de colaboración" para permitir comentarios y debates puede ser una herramienta útil según la cultura empresarial.
 
 
-|  |  |
-|---------|---------|
-|![Icono de Sugerencia.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image4.png)<br></br>Sugerencia    |Aquellas personas que representan los mayores obstáculos para el cambio podrían convertirse en sus mejores aliados en una implementación de este tipo. Lo alentamos a que se comunique con estos miembros de la organización de forma temprana y con frecuencia para escuchar sus preocupaciones y problemas. A menudo, tendrán comentarios valiosos que ayudarán a que su campaña sea más exitosa.         |
+
+
+> [!TIP]
+> Aquellas personas que representan los mayores obstáculos para el cambio podrían convertirse en sus mejores aliados en una implementación de este tipo. Lo alentamos a que se comunique con estos miembros de la organización de forma temprana y con frecuencia para escuchar sus preocupaciones y problemas. A menudo, tendrán comentarios valiosos que ayudarán a que su campaña sea más exitosa.
 
 <a name="user-profiles"></a>Perfiles de usuarios
 -------------
