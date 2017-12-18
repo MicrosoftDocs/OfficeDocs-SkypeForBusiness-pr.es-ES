@@ -51,11 +51,11 @@
 ## [Usar PowerShell para controlar el acceso de invitado a un equipo](guest-access-PowerShell.md)
 
 
-# [Implementación de voz en la nube](cloud-voice-deployment.md)
+# [Voz en la nube](cloud-voice-deployment.md)
 ## [Audioconferencia](audio-conferencing.md)
 ### [Enfoque](audio-conferencing.md#Envision_AudioConferencing)
-### [Planificar](audio-conferencing.md#Planning_AudioConferencing)
-### [Vídeos: Audioconferencia en Microsoft Teams](audio-conferencing-videos.md)
+## Vídeos
+### [Audioconferencia](audio-conferencing-videos.md)
 
 # [Recorrido desde Skype Empresarial a Microsoft Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1 - Optimizar su entorno actual de Skype Empresarial para Microsoft Teams](prepare-teams.md)
@@ -74,7 +74,7 @@
 ## [Información general de seguridad y cumplimiento en Microsoft Teams](security-compliance-overview.md)
 ## [Modelos de identidad y autenticación en Microsoft Teams](identify-models-authentication.md)
 ## [Buscar eventos en el log de auditorías en Microsoft Teams](audit-log-events.md)
-## [Realizar una investigación de eDiscovery en Microsoft Teams](eDiscovery-investigation.md)
+## [Realizar una investigación de exhibición de documentos electrónicos en Microsoft Teams](eDiscovery-investigation.md)
 ## [Usar la búsqueda de contenido en Microsoft Teams](content-search.md)
 ## [Poner a un usuario o un equipo de Microsoft Teams en retención legal](legal-hold.md)
 
@@ -85,6 +85,7 @@
 ## [Comprobar el estado del servicio para Microsoft Teams](service-health.md)
 ## [Solucionar problemas de conectividad con el cliente de Microsoft Teams](connectivity-issues.md)
 ## [Usar los archivos de registro para solucionar problemas en Teams](log-files.md)
+
 
 
 # [Documentación para desarrolladores de Teams](https://docs.microsoft.com/microsoftteams/platform)

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Conozca las distintas licencias de Office 365, cuáles permiten a los usuarios usar Microsoft Teams y cómo habilitarlas o deshabilitarlas."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 62b603bdbd2cd370e6c09dbfc877ccef9884404b
-ms.sourcegitcommit: cd6f4ac2ee7fa2b9de7af5c75c914eb84468d8f5
+ms.openlocfilehash: 9853bab16fead0ed4da766a6d9d59f2f93b34191
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Licencias de Office 365 para Microsoft Teams
 ========================================
@@ -24,7 +24,7 @@ Estas suscripciones de Office 365 permiten a los usuarios usar Teams:
 |Office 365 Empresa Essentials     |Office 365 Enterprise E1         |Office 365 Educación         |
 |Office 365 Empresa Premium     |Office 365 Enterprise E3         |Office 365 Educación Plus         |
 |     |Office 365 Enterprise E4 (retirada)         |Office 365 Educación E3 (retirada)         |
-|     |Office 365 Enterprise E5         |Office 365 Educación E5 (retirada)   
+|     |Office 365 Enterprise E5         |Office 365 Educación E5   
       |Office 365 Enterprise F1 |  |
 
 > [!NOTE]
@@ -49,3 +49,20 @@ La licencia de Teams está habilitada, de manera predeterminada, para todos los 
 Teams puede estar activado o desactivado para un tipo de licencia completo dentro de una organización y está activado de forma predeterminada para todos los tipos de licencias, excepto los usuarios invitados. **No es posible activar Teams solo para una parte de un tipo de licencia mediante el conmutador de Teams en el Centro de administración de Office 365.** Si desea activar Teams para algunos miembros de su organización y desactivarlo para otros (por ejemplo, si está planificando un proyecto piloto de Teams con un grupo determinado de usuarios), active el conmutador de licencia de Teams para todos y después desactívelo por usuario.
 
 ![Captura de pantalla de la configuración del tipo de licencia/usuario de Teams en la sección de licencias del Centro de administración de Office 365, donde se ve Microsoft Teams como Activado.](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image3.png)
+
+
+**Consejo:** habilitar y deshabilitar Teams como una licencia de carga de trabajo mediante PowerShell se realiza igual que con cualquier otra carga de trabajo. El nombre del plan de servicio es TEAMS1 para Microsoft Teams. (Consulte [Deshabilitar el acceso a los servicios con Office 365 PowerShell](https://technet.microsoft.com/en-us/library/dn771769.aspx) para obtener más información).
+
+**Muestra:** a continuación encontrará una muestra rápida de cómo se deshabilita Microsoft Teams para todos los miembros en un tipo de licencia particular. Primero deberá realizar esto y después habilitarlo individualmente para los usuarios que deben tener acceso por motivos de las pruebas piloto.
+
+*Para mostrar los tipos de planes que tiene en su organización, use el siguiente comando:*
+
+      Get-MsolAccountSku
+
+*Rellene el nombre del plan que incluye el nombre de su organización y el plan de su centro educativo (como ContosoSchool:ENTERPRISEPACK_STUDENT), y después ejecute los siguientes comandos:*
+
+      $acctSKU="<plan name>
+      $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
+*Para deshabilitar Microsoft Teams para todos los usuarios con una licencia activa para su plan, ejecute el siguiente comando:*
+
+      Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
