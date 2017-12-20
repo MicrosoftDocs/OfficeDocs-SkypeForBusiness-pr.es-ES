@@ -7,12 +7,11 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 description: 
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: beb9e46248569d46e1deb6d9210fde4ba329faaf
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: 256fc1ceb44f2a8d9589044610d6bf05cb12cde7
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="manage-guest-access-to-microsoft-teams"></a>Administrar el acceso de invitado a Microsoft Teams
 ======================================

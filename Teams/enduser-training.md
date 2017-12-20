@@ -7,12 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Recursos de formación que puede usar un administrador para implementar correctamente Microsoft Teams."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: cebd842e3b2ad1fccd9c48bb97376f196a3b63f8
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: e498987b7f20a276a4fc92771ebe2879162151e2
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Formación del usuario final para Microsoft Teams
 =====================================

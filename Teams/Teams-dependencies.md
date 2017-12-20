@@ -7,12 +7,11 @@ ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
 description: "Administre las funcionalidades y las características de acceso de invitado de Microsoft Teams a través de cuatro niveles de autorización distintos."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 8faf2e13efb0c4c031fabea11185f1e3cdd353d1
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: 86384a18fdea3d15bfb0bf6368a2529a05872371
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar el acceso de invitado en Microsoft Teams
 ===========================================
