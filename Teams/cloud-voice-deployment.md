@@ -2,17 +2,17 @@
 title: Implementar voz en la nube
 author: arachmanGitHub
 ms.author: MyAdvisor
-manager: lehewe
-ms.date: 12/07/2017
+manager: lolaj
+ms.date: 12/13/2017
 ms.topic: article
 ms.service: msteams
 description: "Guía práctica para implementar características de voz en la nube en Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a52071dc6fac4e8df906d6f400ae8b40bd62edd3
-ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
+ms.openlocfilehash: 4695032ee96c2c37c852e6db10a80019b9d1b1ca
+ms.sourcegitcommit: ac601c3fe040b47eb7fff1f4f01858c14f40baa4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 12/12/2017
 ---
 <a name="cloud-voice-deployment"></a>Implementar voz en la nube
 ======================
@@ -21,6 +21,7 @@ Microsoft Teams, el centro de trabajo en equipo y comunicaciones de Office 365, 
  
 Use la [guía práctica de Audioconferencia](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing) como ayuda para planificar la implementación de las audioconferencias en Teams.
 
+Use la [guía práctica para Sistema telefónico con Planes de llamada](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans) como ayuda para planificar la implementación de Sistema telefónico con Planes de llamada en Microsoft Teams.
  
 Esta página se irá actualizando conforme se vayan publicando características de voz en la nube adicionales en Teams.
 

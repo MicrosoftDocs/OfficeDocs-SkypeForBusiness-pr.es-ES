@@ -8,7 +8,11 @@
 ## [Grupos de Office 365 y Microsoft Teams](Office-365-groups.md)
 ## [Interacción entre Exchange y Microsoft Teams](Exchange-Teams-interact.md)
 ## [Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams](SharePoint-OneDrive-interact.md)
+## [Interoperabilidad entre Microsoft Teams y Skype Empresarial](Teams-and-SkypeforBusiness-interoperability.md)
 
+# [Guías de inicio rápido](quick-start-guides.md)
+## [Inicio rápido: Guía de planificación de Microsoft Teams](quick-start-enable-Teams.md)
+## [Configurar Planes de llamada](configuring-teams-calling-quickstartguide.md)
 
 # Planificar
 ## [Información general de una implementación de Microsoft Teams](deployment-overview.md)
@@ -54,6 +58,10 @@
 # [Voz en la nube](cloud-voice-deployment.md)
 ## [Audioconferencia](audio-conferencing.md)
 ### [Enfoque](audio-conferencing.md#Envision_AudioConferencing)
+## [Sistema telefónico con Planes de llamada](phone-system-with-calling-plans.md)
+### [Enfoque](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
+## Guías de inicio rápido
+### [Configurar Planes de llamada](configuring-teams-calling-quickstartguide.md)
 ## Vídeos
 ### [Audioconferencia](audio-conferencing-videos.md)
 
@@ -74,7 +82,7 @@
 ## [Información general de seguridad y cumplimiento en Microsoft Teams](security-compliance-overview.md)
 ## [Modelos de identidad y autenticación en Microsoft Teams](identify-models-authentication.md)
 ## [Buscar eventos en el log de auditorías en Microsoft Teams](audit-log-events.md)
-## [Realizar una investigación de exhibición de documentos electrónicos en Microsoft Teams](eDiscovery-investigation.md)
+## [Realizar una investigación de eDiscovery en Microsoft Teams](eDiscovery-investigation.md)
 ## [Usar la búsqueda de contenido en Microsoft Teams](content-search.md)
 ## [Poner a un usuario o un equipo de Microsoft Teams en retención legal](legal-hold.md)
 

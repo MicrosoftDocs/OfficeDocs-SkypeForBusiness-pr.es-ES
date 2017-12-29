@@ -8,21 +8,24 @@ ms.topic: article
 ms.service: msteams
 description: "Aprenda a poner a un usuario o un equipo de Microsoft Teams en retención legal mediante el Centro de seguridad y cumplimiento, y conozca qué debe poner en retención legal en función de los requisitos de datos."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e400731545efb103aa0b6b865eef833238b4b154
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 290462b78a0424bc02d1cbe3df5ae65672e187f7
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Poner a un usuario o un equipo de Microsoft Teams en retención legal
 ==================================================
 
 Para poner a un usuario o un equipo en retención legal, navegue al [Centro de seguridad y cumplimiento](https://go.microsoft.com/fwlink/?linkid=854628). Cuando crea un nuevo caso, tiene la opción de poner en retención buzones o sitios.
 
-|||
-|---------|---------|
-|![Icono de Nota.](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image1.png)<br></br> Nota     |Si pone a un usuario en retención, el grupo no se pondrá en retención y viceversa.         |
-|![Icono de Importante.](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image2.png)<br></br> Importante     |Cuando se pone en retención a un usuario o un grupo, se retienen todas las copias de mensajes. Ejemplo: Clay publicó un mensaje en un canal y luego lo modificó. En una situación de retención, se retienen las dos copias del mensaje. Si no hay retención legal, se retiene solo el último mensaje.         |
+> [!NOTE]
+> Si pone a un usuario en retención, el grupo no se pondrá en retención y viceversa.
+
+> [!IMPORTANT]
+> "Cuando se pone en retención a un usuario o un grupo, se retienen todas las copias de los mensajes. Ejemplo: Clay publicó un mensaje en un canal y luego lo modificó. En una situación de retención, se retienen las dos copias del mensaje. Si no hay retención legal, se retiene solo el último mensaje.
+
+
 
 En la imagen de abajo, se está realizando una investigación en torno a Clay. Clay es miembro del equipo Brokers-Dealers (Agentes distribuidores).
 

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Aprenda a mejorar los grupos de Office 365 con Microsoft Teams invitando a una lista de distribución a un equipo, y agregue grupos de seguridad habilitados para correo y mucho más."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: dc9126aa84c91a4124ba58613ba34111eeffb61c
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: db092c3d0c88ff82893eef4b6ea26fe9ba68a02e
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Mejorar los grupos de Office 365 existentes con Microsoft Teams
 =======================================================
@@ -22,9 +22,9 @@ Los usuarios de Microsoft Teams pueden mejorar un grupo de Office 365 existente 
 Para hacerlo, deben seguir el proceso de creación de un nuevo equipo desde el cliente de Microsoft Teams. Seleccione **“Sí, agregar la funcionalidad de Microsoft Teams”** en la parte inferior de la pantalla y elija el grupo existente que quiere mejorar con Microsoft Teams. Los miembros del grupo existente se agregarán automáticamente como miembros al equipo.
 
 
-|  |  |
-|---------|---------|
-|![Icono de Importante.](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image1.png)<br></br>Importante     |Solo los propietarios del grupo de Office 365 tienen permiso para mejorar un grupo existente con Microsoft Teams.         |
+
+> [!IMPORTANT]
+> Solo los propietarios de un grupo de Office 365 tienen permiso para mejorar un grupo existente con Microsoft Teams. 
 
 Los usuarios también pueden invitar a una lista de distribución a un equipo, y los miembros de esa lista de distribución se agregarán al equipo. Se trata de una sincronización única, así que los cambios que se realicen posteriormente en los miembros del grupo de la lista de distribución no se replicarán en Teams. 
 

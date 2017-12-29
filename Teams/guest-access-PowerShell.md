@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: Use PowerShell para permitir el acceso de invitado a los equipos de Microsoft Teams o bloquearlo.
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 563a1a56449be289572020dc226df69795596d1c
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: 0e087aadced6980db80890f423e3e6e3c4b7a701
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 12/15/2017
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>Usar PowerShell para controlar el acceso de invitado a un equipo
 ================================================
@@ -31,7 +31,7 @@ Además de usar el Centro de administración de Office 365 y el portal de Azure 
 - Permitir o bloquear a usuarios invitados en un equipo o grupo específico de Office 365
     
   
-Si desea más detalles, consulte [Usar PowerShell para controlar el acceso de invitados](https://support.office.com/en-us/article/Use-PowerShell-to-control-guest-access-bfc7a840-868f-4fd6-a390-f347bf51aff6#bkmk_usepowershell).
+Para obtener más información, consulte la sección "Usar PowerShell para controlar el acceso de invitado" en la ficha Administrar de [Acceso de invitado en Office 365 Groups](https://support.office.com/en-us/article/Use-PowerShell-to-control-guest-access-bfc7a840-868f-4fd6-a390-f347bf51aff6#bkmk_usepowershell).
   
     
     
@@ -39,3 +39,4 @@ También se puede usar PowerShell para permitir o bloquear un usuario invitado e
   
  
 Si desea bloquear a invitados en los equipos y seguir permitiendo que los invitados tengan acceso a sitios de SharePoint, puede usar los cmdlets de Azure Active Directory PowerShell para deshabilitar el parámetro AllowGuestAccessToGroups en el objeto de empresa, siempre que el uso compartido externo esté activado para los sitios de SharePoint.   
+

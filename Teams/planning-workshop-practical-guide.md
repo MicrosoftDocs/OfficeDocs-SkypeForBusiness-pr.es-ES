@@ -1,35 +1,32 @@
 ---
-title: "Kit para talleres de planeación y guía práctica para Microsoft Teams"
+title: 'Kit para taller: Planear, entregar y usar Microsoft Teams'
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 09/25/2017
+ms.date: 12/15/2017
 ms.topic: article
 ms.service: msteams
-description: "Herramientas de planeación y orientación práctica para ayudar a los administradores en sus primeros pasos con Microsoft Teams."
+description: "Herramientas de planeación y kit para taller para ayudar a los administradores en sus primeros pasos con Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 8861b25c08d1233949231031479f6fea031ee579
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 9f5914904e664f6ef2d04df6a9db04cecd9fe37c
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
-<a name="planning-workshop-kit-and-practical-guide-for-microsoft-teams"></a>Kit para talleres de planeación y guía práctica para Microsoft Teams
+<a name="workshop-kit-plan-deliver-and-operate-microsoft-teams"></a>Kit para taller: Planear, entregar y usar Microsoft Teams
 =============================================================
 
-Descargue estas herramientas de planeamiento y guía práctica que le ayudarán con el lanzamiento de Microsoft Teams en su organización.
+Descargue estas herramientas que le ayudarán en la planeación, entrega y uso de Microsoft Teams en su organización.
 
-- [Cuestionario previo al taller de Microsoft Teams](https://www.microsoft.com/en-us/download/55975)
+- [Guía de inicio rápido: Habilitar Microsoft Teams correctamente](https://www.microsoft.com/en-us/download/55981)
     
-    El documento Microsoft Teams Pre-workshop Questionnaire.docx sirve para recopilar información básica sobre el entorno de Office 365 actual de una organización. Con esta información, los coordinadores del taller podrán personalizar el contenido antes de impartir un taller sobre planeamiento de Microsoft Teams.
+    Este documento le guía por las cinco fases de la implementación para ayudarle a habilitar correctamente Microsoft Teams. Incluye un cuestionario de planificación técnica que recoge información sobre el entorno actual de Office 365 de su organización. El responsable del taller puede usar esta información para personalizar la presentación del taller. El cuestionario también recoge información sobre sus decisiones y los pasos que se seguirán después del taller.
 
-- [Taller de planeamiento para Microsoft Teams](https://www.microsoft.com/en-us/download/55982) 
+- [Taller: Planear, entregar y usar Microsoft Teams](https://www.microsoft.com/en-us/download/55982) 
     
-    El documento Planning Workshop for Microsoft Teams.pptx está dirigido a recursos expertos y les ayuda a mantener una conversación interactiva para ofrecer asistencia en los primeros pasos con Microsoft Teams. En el taller se ofrecerá una introducción a Microsoft Teams y se guiará a los asistentes en los puntos de decisión y los pasos siguientes que deben seguir.
+    Use esta diapositiva de PowerPoint para realizar un taller en su organización para planificar el lanzamiento de Microsoft Teams. El taller presenta Microsoft Teams y guía al equipo a través de los puntos de toma de decisiones y los pasos siguientes.
 
-- [Resumen sobre los puntos de decisión del taller de Microsoft Teams](https://www.microsoft.com/en-us/download/55981)
-    
-    El documento Microsoft Teams Workshop Decision Points Summary.docx recopila de manera sencilla todos los puntos de decisión y los siguientes pasos que figuran en los documentos Taller de planeamiento para Microsoft Teams y en el contenido de ayuda relacionado.
 
 ### <a name="see-also"></a>Vea también
 

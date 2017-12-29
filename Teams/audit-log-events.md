@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Aprenda a recuperar datos de Microsoft Teams del registro de auditorías."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 9d1a1c274ace1e680f890d7fe8abdea52886b073
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: b63f6b88d950038ec2e40e7b32eb74bc551cbdf1
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el log de auditorías en Microsoft Teams
 ==================================================
@@ -29,12 +29,13 @@ El registro de auditorías ofrece capacidades de búsqueda ad-hoc en eventos des
 
 La lista de eventos completa de todo Office 365 es muy larga y puede verla [aquí](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US#ID0EABAAA=Audited_activities).
 
-Antes de profundizar en la información esencial sobre auditorías, debe habilitarlas. Para habilitar las auditorías, navegue a *Security & Compliance Admin Center* (Centro de administración de seguridad y cumplimiento). En *Search for activity* (Buscar actividad), haga clic en **Start recording now** (Iniciar grabación ahora). Transcurridas 24 horas, los datos de auditoría estarán disponibles a través de *Audit Log Search* (Búsqueda en el registro de auditorías) que se encuentra en la ficha *Search & Investigation* (Búsqueda e investigación).
+Antes de profundizar en la información esencial sobre auditorías, debe habilitarlas. Para habilitar las auditorías, vaya a *Security & Compliance Admin Center* (Centro de administración de seguridad y cumplimiento). En *Search for activity* (Buscar actividad), haga clic en **Start recording now** (Iniciar grabación ahora). Transcurridas 24 horas, los datos de auditoría estarán disponibles a través de *Audit Log Search* (Búsqueda en el registro de auditorías) que se encuentra en la ficha *Search & Investigation* (Búsqueda e investigación).
 
 
-| |  |
-|---------|---------|
-|![Captura de pantalla de la página de inicio del Centro de seguridad y cumplimiento.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>Importante     |Los datos de auditoría solo están disponibles desde el momento en que se habilitó la auditoría.         |
+> [!IMPORTANT]
+> Los datos de auditoría solo están disponibles desde el momento en que se habilitó la auditoría.
+
+
 
 ![Captura de pantalla de la página de búsqueda del registro de auditorías del Centro de seguridad y cumplimiento.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image2.png)
 
@@ -51,6 +52,7 @@ Veamos cómo recuperar datos de Microsoft Teams del registro de auditorías:
 3.  Esta información se puede exportar a Excel y filtrarla si es necesario.
 
 
-|  | |
-|---------|---------|
-|![Icono del signo de exclamación.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>Importante |Si no se han habilitado las auditorías con antelación, deberá hacerlo antes de que los datos aparezcan en el registro de auditorías.         |
+> [!IMPORTANT]
+> Si no se han habilitado las auditorías con antelación, deberá hacerlo para que los datos aparezcan en el registro de auditorías.
+
+
