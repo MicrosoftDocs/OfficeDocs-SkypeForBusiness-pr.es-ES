@@ -3,11 +3,11 @@ layout: HubPage
 hide_bc: True
 title: "Guía práctica y documentación de Microsoft Teams"
 description: "Guía práctica y documentación de Microsoft Teams"
-ms.openlocfilehash: 8242454e9805e5daf4f7528a51479e20f82f28c7
-ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
+ms.openlocfilehash: 46b51273b92e0dd223baded42f64ea1bdb5d5c3a
+ms.sourcegitcommit: 334fee0485e16a6485055eff586203cc30e6fdc9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 12/12/2017
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -88,7 +88,7 @@ ms.lasthandoff: 12/08/2017
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Voz en la nube</h3>
-                                                    <p>Busque la guía práctica que necesita para comenzar a usar la audioconferencia en Teams.</p>
+                                                    <p>Encuentre la guía práctica que necesita para comenzar a usar Audioconferencia y Sistema telefónico en Microsoft Teams.</p>
                                                 </div>
                                             </div>
                                         </div>

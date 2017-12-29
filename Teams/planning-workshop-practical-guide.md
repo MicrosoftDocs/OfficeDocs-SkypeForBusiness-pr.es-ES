@@ -1,40 +1,37 @@
 ---
-title: "Kit para talleres de planeación y guía práctica para Microsoft Teams"
+title: 'Kit para taller: Planear, entregar y usar Microsoft Teams'
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 09/25/2017
+ms.date: 12/15/2017
 ms.topic: article
 ms.service: msteams
-description: "Herramientas de planeación y orientación práctica para ayudar a los administradores en sus primeros pasos con Microsoft Teams."
+description: "Herramientas de planeación y kit para taller para ayudar a los administradores en sus primeros pasos con Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 8861b25c08d1233949231031479f6fea031ee579
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 9f5914904e664f6ef2d04df6a9db04cecd9fe37c
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
-<a name="planning-workshop-kit-and-practical-guide-for-microsoft-teams"></a><span data-ttu-id="cf860-103">Kit para talleres de planeación y guía práctica para Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="cf860-103">Planning workshop kit and practical guide for Microsoft Teams</span></span>
+<a name="workshop-kit-plan-deliver-and-operate-microsoft-teams"></a><span data-ttu-id="c491d-103">Kit para taller: Planear, entregar y usar Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="c491d-103">Workshop kit: Plan, deliver, and operate Microsoft Teams</span></span>
 =============================================================
 
-<span data-ttu-id="cf860-104">Descargue estas herramientas de planeamiento y guía práctica que le ayudarán con el lanzamiento de Microsoft Teams en su organización.</span><span class="sxs-lookup"><span data-stu-id="cf860-104">Download these planning tools and practical guidance to walk you through rolling out Teams in your organization.</span></span>
+<span data-ttu-id="c491d-104">Descargue estas herramientas que le ayudarán en la planeación, entrega y uso de Microsoft Teams en su organización.</span><span class="sxs-lookup"><span data-stu-id="c491d-104">Download these planning tools and practical guidance to walk you through rolling out Teams in your organization.</span></span>
 
-- [<span data-ttu-id="cf860-105">Cuestionario previo al taller de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="cf860-105">Microsoft Teams Pre-workshop Questionnaire</span></span>](https://www.microsoft.com/en-us/download/55975)
+- [<span data-ttu-id="c491d-105">Guía de inicio rápido: Habilitar Microsoft Teams correctamente</span><span class="sxs-lookup"><span data-stu-id="c491d-105">Quick start guide: Successfully enable Teams</span></span>](https://www.microsoft.com/en-us/download/55981)
     
-    <span data-ttu-id="cf860-106">El documento Microsoft Teams Pre-workshop Questionnaire.docx sirve para recopilar información básica sobre el entorno de Office 365 actual de una organización. Con esta información, los coordinadores del taller podrán personalizar el contenido antes de impartir un taller sobre planeamiento de Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="cf860-106">The Microsoft Teams Pre-workshop Questionnaire.docx is intended to be used to collect basic information about an organization's current Office 365 environment, to allow an informed workshop leader to customize content prior to leading a Microsoft Teams Planning Workshop.</span></span>
+    <span data-ttu-id="c491d-106">Este documento le guía por las cinco fases de la implementación para ayudarle a habilitar correctamente Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="c491d-106">This document walks you through the five implementation phases for successfully enabling Teams.</span></span> <span data-ttu-id="c491d-107">Incluye un cuestionario de planificación técnica que recoge información sobre el entorno actual de Office 365 de su organización.</span><span class="sxs-lookup"><span data-stu-id="c491d-107">It includes a technical planning questionnaire that captures information about your organization's current Office 365 environment.</span></span> <span data-ttu-id="c491d-108">El responsable del taller puede usar esta información para personalizar la presentación del taller.</span><span class="sxs-lookup"><span data-stu-id="c491d-108">This information lets the workshop leader customize the workshop presentation.</span></span> <span data-ttu-id="c491d-109">El cuestionario también recoge información sobre sus decisiones y los pasos que se seguirán después del taller.</span><span class="sxs-lookup"><span data-stu-id="c491d-109">The questionnaire also captures your decisions and next steps from the workshop.</span></span>
 
-- [<span data-ttu-id="cf860-107">Taller de planeamiento para Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="cf860-107">Planning Workshop for Microsoft Teams</span></span>](https://www.microsoft.com/en-us/download/55982) 
+- [<span data-ttu-id="c491d-110">Taller: Planear, entregar y usar Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="c491d-110">Workshop: Plan, deliver, & operate Microsoft Teams</span></span>](https://www.microsoft.com/en-us/download/55982) 
     
-    <span data-ttu-id="cf860-p101">El documento Planning Workshop for Microsoft Teams.pptx está dirigido a recursos expertos y les ayuda a mantener una conversación interactiva para ofrecer asistencia en los primeros pasos con Microsoft Teams. En el taller se ofrecerá una introducción a Microsoft Teams y se guiará a los asistentes en los puntos de decisión y los pasos siguientes que deben seguir.</span><span class="sxs-lookup"><span data-stu-id="cf860-p101">The Planning Workshop for Microsoft Teams.pptx is intended to be used by a knowledgeable resource to deliver an interactive conversation to assist with getting started with Microsoft Teams. The workshop will introduce the attendees to Microsoft Teams while also guiding them through decision points and next steps.</span></span>
+    <span data-ttu-id="c491d-111">Use esta diapositiva de PowerPoint para realizar un taller en su organización para planificar el lanzamiento de Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="c491d-111">Use this PowerPoint deck to lead a workshop with your organization to plan your Teams rollout.</span></span> <span data-ttu-id="c491d-112">El taller presenta Microsoft Teams y guía al equipo a través de los puntos de toma de decisiones y los pasos siguientes.</span><span class="sxs-lookup"><span data-stu-id="c491d-112">The workshop introduces Teams and guides your team through decision points and next steps.</span></span>
 
-- [<span data-ttu-id="cf860-110">Resumen sobre los puntos de decisión del taller de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="cf860-110">Microsoft Teams Workshop Decision Points Summary</span></span>](https://www.microsoft.com/en-us/download/55981)
-    
-    <span data-ttu-id="cf860-111">El documento Microsoft Teams Workshop Decision Points Summary.docx recopila de manera sencilla todos los puntos de decisión y los siguientes pasos que figuran en los documentos Taller de planeamiento para Microsoft Teams y en el contenido de ayuda relacionado.</span><span class="sxs-lookup"><span data-stu-id="cf860-111">The Microsoft Teams Workshop Decision Points Summary.docx is a single asset to track all decision points and next steps from the Planning Workshop for Microsoft Teams and and in related Help content.</span></span>
 
-### <a name="see-also"></a><span data-ttu-id="cf860-112">Vea también</span><span class="sxs-lookup"><span data-stu-id="cf860-112">See also</span></span>
+### <a name="see-also"></a><span data-ttu-id="c491d-113">Vea también</span><span class="sxs-lookup"><span data-stu-id="c491d-113">See also</span></span>
 
-[<span data-ttu-id="cf860-113">Preparación de administradores de TI para Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="cf860-113">IT admin readiness for Teams</span></span>](ITAdmin-readiness.md)
+[<span data-ttu-id="c491d-114">Preparación de administradores de TI para Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="c491d-114">IT admin readiness for Teams</span></span>](ITAdmin-readiness.md)
 
-[<span data-ttu-id="cf860-114">Herramientas para ayudar con el lanzamiento de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="cf860-114">Get tools to support a rollout of Teams</span></span>](rollout-tools.md)
+[<span data-ttu-id="c491d-115">Herramientas para ayudar con el lanzamiento de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="c491d-115">Get tools to support a rollout of Teams</span></span>](rollout-tools.md)
 
 
