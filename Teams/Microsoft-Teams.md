@@ -88,7 +88,7 @@ ms.lasthandoff: 12/12/2017
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Voz en la nube</h3>
-                                                    <p>Encuentre la guía práctica que necesita para comenzar a usar Audioconferencia y Sistema telefónico en Microsoft Teams.</p>
+                                                    <p>Encuentre la guía práctica que necesita para comenzar a implementar la audioconferencia y el sistema telefónico en Microsoft Teams.</p>
                                                 </div>
                                             </div>
                                         </div>

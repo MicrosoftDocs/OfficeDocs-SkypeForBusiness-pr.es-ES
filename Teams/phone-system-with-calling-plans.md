@@ -1,12 +1,12 @@
 ---
-title: "Guía práctica para Sistema telefónico con Planes de llamada en Microsoft Teams"
+title: "Guía práctica para Sistema telefónico con planes de llamada en Microsoft Teams"
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: lolaj
 ms.date: 12/12/2017
 ms.topic: article
 ms.service: msteams
-description: "Guía práctica para planear, implementar y administrar Sistema telefónico con Planes de llamada en Microsoft Teams usando el marco Enfoque (planear), Incorporación (entregar), Nuevos valores (operar)."
+description: "Guía práctica para planificar, implementar y administrar el sistema telefónico con planes de llamada en Microsoft Teams mediante el marco Enfoque (planificar), Incorporación (entregar), Nuevos valores (operar)."
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ms.openlocfilehash: 5f40b92c5148480b60c3da8c206228036fb875eb
 ms.sourcegitcommit: ac601c3fe040b47eb7fff1f4f01858c14f40baa4
@@ -14,16 +14,16 @@ ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/12/2017
 ---
-<a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Guía práctica para Sistema telefónico con Planes de llamada en Microsoft Teams
+<a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Guía práctica para Sistema telefónico con planes de llamada en Microsoft Teams
 =========================================================================
 
 Sistema telefónico es una funcionalidad de Office 365 que permite administrar el enrutamiento de llamadas, las directivas y el aprovisionamiento de usuarios. Aquí se incluye el sistema de administración de llamadas, el enrutamiento de llamadas y el control de llamadas.
 
 Planes de llamada de Office 365 es un servicio complementario para la función Sistema telefónico que se proporciona a través de Microsoft Teams y Skype Empresarial Online. Planes de llamada proporciona a los usuarios de su empresa un número de teléfono principal y les permite realizar llamadas fuera de la organización y recibirlas a través de la red telefónica conmutada (RTC).
 
-Para obtener más información, consulte [Esto es lo que conseguirá con Sistema telefónico en Office 365](https://support.office.com/article/Here-s-what-you-get-with-Phone-System-in-Office-365-bc9756d1-8a2f-42c4-98f6-afb17c29231c) y [¿Qué es Planes de llamada en Office 365?](https://support.office.com/article/What-are-Calling-Plans-in-Office-365-3dc773b9-95e0-4448-b2f1-887c54022429)
+Para obtener más información, consulte [Esto es lo que conseguirá con Sistema telefónico en Office 365](https://support.office.com/article/Here-s-what-you-get-with-Phone-System-in-Office-365-bc9756d1-8a2f-42c4-98f6-afb17c29231c) y [¿Qué son los Planes de llamada en Office 365?](https://support.office.com/article/What-are-Calling-Plans-in-Office-365-3dc773b9-95e0-4448-b2f1-887c54022429)
 
-En esta guía práctica se detallan el recorrido que sigue el cliente con FastTrack para Office 365 y las tres fases que lo conforman (Enfoque, Incorporación y Nuevos valores) para ayudarle a planear, entregar y utilizar una implementación correcta de Sistema telefónico con Planes de llamada.
+En esta guía práctica se detallan el recorrido que sigue el cliente con FastTrack para Office 365 y las tres fases que lo conforman (Enfoque, Incorporación y Nuevos valores) para ayudarle a planificar, entregar y utilizar una implementación correcta de Sistema telefónico con Planes de llamada.
 
 > [!TIP]
 > En esta guía práctica ofreceremos ejemplos de respuestas para todas las actividades y discusiones clave. Los ejemplos de este documento se muestran dentro de recuadros de CONSEJO y se pueden utilizar como plantillas. La frase "Por añadir" indica que falta por completar con información como parte del proceso de planificación.
@@ -287,7 +287,7 @@ El uso de Créditos de comunicaciones se puede controlar por usuario, lo que le 
 |<img src="media/audio_conferencing_image9.png" />|Siguientes pasos|<ul><li>Documente a qué usuarios se asignará una licencia de Sistema telefónico junto con una licencia de Plan de llamada nacional y a qué usuarios se asignará una licencia de Sistema telefónico con una licencia de Plan de llamada nacional e internacional.</li><li>Documente el plan de Créditos de comunicaciones (cantidad inicial, cantidad de umbral y cantidad de recarga automática).</li><li>Documente qué usuarios se habilitarán para el uso de una licencia de Créditos de comunicaciones.</li></ul>|
 
 > [!TIP]
-> Puede documentar la lista de asignación de licencias a usuarios de Sistema telefónico con Planes de llamada usando el ejemplo siguiente:
+> Puede documentar la lista de asignación de licencias a usuarios de Sistema telefónico con Planes de llamada con el ejemplo siguiente:
 >|Usuario  |Oficina  |Licencia de Office 365  |Créditos de comunicaciones  |
 >|---------|---------|---------|---------|
 >|Emily Braun|32 London Bridge Street|Office 365 E5, Plan de llamada nacional e internacional|Habilitado|
@@ -321,7 +321,7 @@ Para obtener números de teléfono de Microsoft directamente, use una de estas o
 - [Cmdlets a través de una sesión remota de Windows PowerShell](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
 - [Enviar un formulario de solicitud de números de teléfono nuevos](https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb).
 
-El formulario de solicitud de números de teléfono nuevos es la mejor opción para la adquisición planificada de números de teléfono, porque le permite solicitar un bloque de números de teléfono consecutivos. La obtención de números de teléfono usando el centro de administración de Skype Empresarial o una sesión remota de Windows PowerShell no está disponible en todos los países y regiones.
+El formulario de solicitud de números de teléfono nuevos es la mejor opción para la adquisición planificada de números de teléfono, porque le permite solicitar un bloque de números de teléfono consecutivos. La obtención de números de teléfono mediante el centro de administración de Skype Empresarial o una sesión remota de Windows PowerShell no está disponible en todos los países o regiones.
 
 Los dos primeros métodos (usar el centro de administración de Skype Empresarial o una sesión remota de Windows PowerShell) se pueden utilizar para una adquisición de números de teléfono instantánea y puntual, y cuando no se requieren bloques de números de teléfono consecutivos.
 
@@ -342,7 +342,7 @@ Además de las direcciones de emergencia validadas, se pueden definir ubicacione
 |<img src="media/audio_conferencing_image9.png" />|Siguientes pasos|<ul><li>Documente el plan maestro para la adquisición de números de teléfono y especifique cómo se obtendrán los números de teléfono para cada oficina o ubicación de usuario que entre dentro de la implementación de Planes de llamada.</li><li>Si corresponde, complete <a href="https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb">un formulario de solicitud de número de teléfono nuevo</a> por cada oficina o ubicación.</li><li>Si elige transferir números de teléfono existentes, revise la <a href="https://go.microsoft.com/fwlink/?linkid=859011">guía de portabilidad de números</a> para planificar y ajustar el tiempo de implementación de Planes de llamada de forma acorde.</li><li>Documente las ubicaciones y las direcciones emergencia detalladas para cada oficina o ubicación de usuario dentro de la implementación de Planes de llamada.</li></ul>|
 
 > [!TIP]
-> Los detalles sobre la adquisición de números de teléfono, los números de teléfono y los datos de las ubicaciones de emergencia se pueden documentar usando la plantilla siguiente:
+> Los detalles sobre la adquisición de números de teléfono, los números de teléfono y los datos de las ubicaciones de emergencia se pueden documentar con la plantilla siguiente:
 >|Usuario  |Ubicación y dirección de emergencia  |Adquisición de número de teléfono  |Número de teléfono  |
 >|---------|---------|---------|---------|
 >|Emily Braun|1034/32 London Bridge Street, Londres, SE1, Reino Unido|Puerto existente|+44 20 7946 0034|
@@ -361,7 +361,7 @@ El correo de voz de Sistema telefónico funciona de forma predefinida con Exchan
 El correo de voz de Sistema telefónico cuenta con transcripción del correo de voz y esta opción está activada de forma predeterminada para todos los usuarios de la organización. En algunos casos, es posible que su empresa tenga que desactivar la transcripción del correo de voz para usuarios específicos o en toda la organización.
 
 > [!NOTE]
-> Se ha implementado un mecanismo de reserva para que el correo de Sistema telefónico pueda reenviar mensajes usando SMTP, lo que implica que los usuarios con un buzón de un sistema de correo electrónico de terceros podrán recibir sus mensajes de correo de voz. Sin embargo, no se ofrece garantía sobre la actividad del servicio ni la disponibilidad de otras funciones del correo de voz, como el cambio del saludo y otros ajustes de configuración.
+> Se ha implementado un mecanismo de reserva para que el correo de Sistema telefónico pueda reenviar mensajes mediante SMTP, lo que implica que los usuarios con un buzón de un sistema de correo electrónico de terceros podrán recibir sus mensajes de correo de voz. Sin embargo, no se ofrecen garantías sobre la actividad del servicio ni la disponibilidad de otras funciones del correo de voz, como el cambio del saludo y otros ajustes de configuración.
 
 <br>
 |         |         |         |
@@ -405,7 +405,7 @@ De forma predeterminada, todas las llamadas salientes usan el número de teléfo
 
 Un [plan de marcado](https://support.office.com/article/What-are-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b) en la característica de Sistema telefónico de Office 365 es un conjunto de reglas de normalización con las que los números de teléfono que se marcan se traducen a un formato alternativo (normalmente, el formato [E.164](https://go.microsoft.com/fwlink/?linkid=859014)) para poder autorizar las llamadas y enrutarlas. 
 
-Con un plan de marcado, los usuarios pueden marcar números de teléfono como suelen hacerlo, como, por ejemplo, omitiendo el código de área para las llamadas locales, omitiendo el prefijo internacional para las llamadas nacionales o incluso usando una marcación de dígitos breve cuando se realizan llamadas telefónicas.
+Con un plan de marcado, los usuarios pueden marcar números de teléfono de la forma habitual, como, por ejemplo, omitiendo el código de área para las llamadas locales, omitiendo el prefijo internacional para las llamadas nacionales o incluso usando una marcación de dígitos breve cuando se realizan llamadas telefónicas.
 
 Dentro de la característica de Sistema telefónico de Office 365, existen dos tipos de planes de marcado:
 

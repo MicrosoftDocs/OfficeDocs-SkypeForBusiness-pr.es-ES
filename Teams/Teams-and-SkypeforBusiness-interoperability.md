@@ -6,7 +6,7 @@ manager: lolaj
 ms.date: 12/12/2017
 ms.topic: article
 ms.service: msteams
-description: "Comprenda la interoperabilidad entre Microsoft Teams y Skype Empresarial, y cómo esta afecta a las experiencias de chat y llamada."
+description: "Conozca la interoperabilidad entre Microsoft Teams y Skype Empresarial, y cómo esta afecta a las experiencias de chat y llamadas."
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ms.openlocfilehash: a6593d6e2bc7302817a87c418da4bacb70f03b42
 ms.sourcegitcommit: 334fee0485e16a6485055eff586203cc30e6fdc9
@@ -22,7 +22,7 @@ Si su organización usa Skype Empresarial actualmente y pretende empezar a usar 
 > [!IMPORTANT]
 > Este documento se ofrece para realizar una evaluación temprana de la compatibilidad de Planes de llamada en Microsoft Teams. Se prevé el cambio de los detalles de la directiva de interoperabilidad de Microsoft Teams en el futuro.
 
-La interoperabilidad permite a los usuarios de Skype Empresarial y Microsoft Teams chatear y realizar llamadas entre sí, con lo que se logra una comunicación fluida en toda la organización. Para ayudar a los profesionales de TI a administrar la adopción de Microsoft Teams, hemos añadido una nueva directiva de interoperabilidad de Microsoft Teams que se administra a través de una sesión remota de Windows PowerShell en Skype Empresarial mediante cmdlets [`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype). Use esta directiva para configurar Microsoft Teams del modo que necesite para su organización.
+La interoperabilidad permite a los usuarios de Skype Empresarial y Microsoft Teams chatear y realizar llamadas entre ellos, con lo que se logra una comunicación fluida en toda la organización. Para ayudar a los profesionales de TI a administrar la adopción de Microsoft Teams, hemos añadido una nueva directiva de interoperabilidad de Microsoft Teams que se administra a través de una sesión remota de Windows PowerShell en Skype Empresarial mediante cmdlets [`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype). Use esta directiva para configurar Microsoft Teams del modo que necesite para su organización.
 
 
 > [!TIP]
@@ -32,15 +32,15 @@ La directiva de interoperabilidad de Microsoft Teams permite a los profesionales
 
 La directiva de interoperabilidad de Microsoft Teams se puede definir por inquilino o por usuario, e incluso se puede configurar para que los usuarios puedan elegir qué aplicación quieren usar para recibir mensajes de chat y llamadas.
 
-Esta flexibilidad integrada se proporciona para ayudar a su organización a probar y evaluar Microsoft Teams, y realizar la migración a esta aplicación al ritmo y del modo que mejor le convenga.
+Esta flexibilidad integrada sirve para que su organización pueda probar y evaluar Microsoft Teams, y realizar la migración a esta aplicación al ritmo y del modo que mejor le convenga.
 
 > [!NOTE]
 > La interoperabilidad entre Microsoft Teams y Skype Empresarial es posible entre usuarios que trabajan totalmente en línea (Skype Empresarial Online y Microsoft Teams) y usuarios en una implementación local de Skype Empresarial con una topología de implementación mixta (híbrida).
 
-## <a name="what-interoperability-means"></a>Qué significa interoperabilidad
-Interoperabilidad es la capacidad de los usuarios de Microsoft Teams y Skype Empresarial de chatear (MI) y realizar llamadas entre sí tanto desde Microsoft Teams como desde Skype Empresarial.
+## <a name="what-interoperability-means"></a>¿Qué significa la interoperabilidad?
+La interoperabilidad es la capacidad de los usuarios de Microsoft Teams y Skype Empresarial de chatear (MI) y realizar llamadas entre sí tanto desde Microsoft Teams como desde Skype Empresarial.
 
-Cuando las organizaciones comienzan la transición de Skype Empresarial a Microsoft Teams, la previsión es que habrá una combinación de usuarios utilizando clientes diferentes en la organización.
+Cuando las organizaciones comienzan la transición de Skype Empresarial a Microsoft Teams, la previsión es que habrá una combinación de usuarios que utilicen clientes diferentes en la organización.
 
 Para garantizar una productividad ininterrumpida, Microsoft Teams permite que los usuarios se comuniquen entre sí sin importar qué aplicación utilicen (Microsoft Teams o Skype Empresarial).
 
@@ -48,25 +48,25 @@ Las experiencias de interoperabilidad admitidas son, entre otras:
 - Los usuarios de Skype Empresarial que no usan Microsoft Teams pueden chatear con usuarios de Microsoft Teams y viceversa.<p>
 ![Experiencia de chat desde Microsoft Teams con interoperabilidad](media/Interop_chat_experience_from_Teams.png)<br>
 - Los usuarios de Skype Empresarial pueden hablar con los usuarios de Microsoft Teams mediante llamadas por voz y vídeo, y viceversa. Las opciones de llamada avanzadas, como la transferencia y el desvío de llamadas seguirán funcionando, incluso en las llamadas con interoperabilidad.<p>
-![Experiencia de llamada desde Microsoft Teams con interoperabilidad](media/Interop_calling_experience_from_Teams.png)<br>
+![Experiencia de llamadas desde Microsoft Teams con interoperabilidad](media/Interop_calling_experience_from_Teams.png)<br>
 
 > [!NOTE]
-> Desde el punto de vista de un usuario de Skype Empresarial, los chats y las llamadas a/desde Microsoft Teams se mostrarán como chats y llamadas básicos de Skype Empresarial. Consulte la sección [Limitaciones de las experiencias de interoperabilidad](#interop-experiences-limitations) para obtener más detalles.
+> Desde el punto de vista de un usuario de Skype Empresarial, los chats y las llamadas mediante Microsoft Teams se mostrarán como chats y llamadas básicos de Skype Empresarial. Consulte la sección [Limitaciones de las experiencias de interoperabilidad](#interop-experiences-limitations) para obtener más detalles.
 
 > [!IMPORTANT]
-> La presencia unificada entre Microsoft Teams y Skype Empresarial no es compatible actualmente, lo que significa que Microsoft Teams y Skype Empresarial mostrarán sus estados de presencia independientes. Para descubrir cuándo estará disponible la compatibilidad con la presencia unificada, consulte [De Skype Empresarial a Microsoft Teams: mapa de ruta de las opciones](https://aka.ms/skype2teamsroadmap).
+> La presencia unificada entre Microsoft Teams y Skype Empresarial no es compatible actualmente, lo que significa que Microsoft Teams y Skype Empresarial mostrarán sus propios estados de presencia independientes. Para descubrir cuándo estará disponible la compatibilidad con la presencia unificada, consulte [De Skype Empresarial a Microsoft Teams: mapa de ruta de las opciones](https://aka.ms/skype2teamsroadmap).
 
 ## <a name="interop-requirements"></a>Requisitos para la interoperabilidad
 Para que se habiliten las funcionalidades de interoperabilidad, los usuarios deben cumplir los siguientes criterios:
 - Los usuarios deben estar habilitados (o tener licencia) para Microsoft Teams
 - Los usuarios deben estar habilitados (o tener licencia) para Skype Empresarial Online
-    - Esto es aplicable a los usuarios que planeen usar Microsoft Teams solo o Microsoft Teams como su aplicación principal de chat y llamadas.
+    - Esto es aplicable a los usuarios que tengan pensado usar Microsoft Teams solo o Microsoft Teams como su aplicación principal de chat y llamadas.
 - En una implementación de Skype Empresarial híbrida:
-    - Los usuarios que se encuentren en una implementación local de Skype Empresarial (o una versión de Lync Server admitida actualmente para la implementación de Skype Empresarial Híbrido) disfrutan de interoperabilidad con usuarios en la nube que usen Microsoft Teams.
-    - Los usuarios en la nube que planeen usar Microsoft Teams como su aplicación de chat y llamadas principal deben estar habilitados (o tener licencia) para Skype Empresarial Online.
+    - Los usuarios que se encuentren en una implementación local de Skype Empresarial (o una versión de Lync Server admitida actualmente para la implementación de Skype Empresarial híbrida) disfrutan de interoperabilidad con usuarios en la nube que usen Microsoft Teams.
+    - Los usuarios en la nube que tengan pensado usar Microsoft Teams como su aplicación de chat y llamadas principal deben estar habilitados (o tener licencia) para Skype Empresarial Online.
 
-## <a name="supported-topologies-for-interop"></a>Topologías admitidas para la interoperabilidad
-La interoperabilidad entre Microsoft Teams y Skype Empresarial admite las siguientes topologías de implementación de Skype Empresarial:
+## <a name="supported-topologies-for-interop"></a>Topologías compatibles con la interoperabilidad
+La interoperabilidad entre Microsoft Teams y Skype Empresarial es compatible principalmente con las siguientes topologías de implementación de Skype Empresarial:
 - Solo Skype Empresarial Online
 - Skype Empresarial Híbrido (implementación mixta de Skype Empresarial Online y Skype Empresarial local)
 
@@ -77,15 +77,15 @@ En esta topología, será necesario habilitar a los usuarios configurados con Mi
 
 ![Interoperabilidad en una topología de implementación de solo Skype Empresarial Online](media/Interop_SkypeforBusinessOnlineOnly_topology.png)
 
-### <a name="skype-for-business-hybrid-deployment-topology"></a>Topología de implementación de Skype Empresarial Híbrido
+### <a name="skype-for-business-hybrid-deployment-topology"></a>Topología de implementación de Skype Empresarial híbrida
 Las organizaciones con una implementación compuesta por una implementación mixta de Skype Empresarial Online y Skype Empresarial Server (local) en una topología de implementación híbrida se pueden beneficiar de la compatibilidad de la interoperabilidad para chat y llamadas entre usuarios de Skype Empresarial (alojados en línea o localmente) y de Microsoft Teams.
 
 Al igual que en una topología de implementación de solo Skype Empresarial Online, será necesario habilitar a los usuarios configurados con Microsoft Teams como su aplicación principal de chat y llamadas también para Skype Empresarial Online y local para que funcione la interoperabilidad.
 
-![Interoperabilidad en una topología de implementación de Skype Empresarial Híbrido](media/Interop_SkypeforBusinessHybrid_topology.png)
+![Interoperabilidad en una topología de implementación de Skype Empresarial híbrida](media/Interop_SkypeforBusinessHybrid_topology.png)
 
 > [!IMPORTANT]
-> La compatibilidad de la interoperabilidad para Skype Empresarial Híbrido no incluye las funcionalidades de voz híbrida que se proporcionan a través de CCE (Cloud Connector Edition) o la conectividad RTC local usando la implementación existente (conocido comúnmente como OPCH [del inglés, "On Prem Config Hybrid" o modelo híbrido de configuración local]). Los usuarios de Microsoft Teams no se pueden habilitar para las funcionalidades de llamada RTC usando CCE u OPCH.
+> La compatibilidad de la interoperabilidad para Skype Empresarial híbrido no incluye las funcionalidades de voz híbrida que se proporcionan a través de CCE (Cloud Connector Edition) o la conectividad con RTC local mediante la implementación existente, lo que se conoce comúnmente como OPCH (modelo híbrido de configuración local). Los usuarios de Microsoft Teams no se pueden habilitar para las funcionalidades de llamada RTC con CCE u OPCH.
 
 ### <a name="interop-experiences-limitations"></a>Limitaciones de las experiencias de interoperabilidad
 Actualmente, además de la falta de la presencia unificada en Microsoft Teams y Skype Empresarial, lo que provoca que Microsoft Teams y Skype Empresarial tengan sus propios estados de presencia independientes, hay algunas funciones que no están disponibles en las experiencias de interoperabilidad de chat y llamadas entre Microsoft Teams y Skype Empresarial.
@@ -95,16 +95,16 @@ A continuación se especifica la lista actual de limitaciones del chat con inter
 - Las conversaciones de MI (chats) de varios participantes en Skype Empresarial solo pueden incluir participantes que usen Skype Empresarial.
 - No se admiten las transferencias de archivos en conversaciones de chat de dos participantes o el anexado de archivos en conversaciones de varias partes entre Microsoft Teams y Skype Empresarial, y viceversa.
 - El chat con interoperabilidad no es persistente en Microsoft Teams.
-- En Microsoft Teams, no se admiten en los chats con interoperabilidad Markdown, texto enriquecido, el conjunto completo de emoticonos, etc.
+- Los chats con interoperabilidad de Microsoft Teams no admiten las acciones de Markdown, el texto enriquecido, el conjunto completo de emoticonos, etc.
 
 A continuación se especifica la lista actual de limitaciones de las llamadas con interoperabilidad:
-- No se admite el uso compartido de pantalla (uso compartido de escritorio o aplicación) entre Microsoft Teams y Skype Empresarial.
-- No se admite el escalado de una llamada en curso de par a par (P2P) de voz o vídeo a una llamada de varios participantes que incluya usuarios de Microsoft Teams y Skype Empresarial.
+- No se admite la pantalla compartida (compartir escritorio o aplicaciones) entre Microsoft Teams y Skype Empresarial.
+- No se admite el escalado de llamadas de voz o vídeo en curso de par a par (P2P) a llamadas de varios participantes que incluyan usuarios de Microsoft Teams y Skype Empresarial.
 
 ## <a name="managing-interoperability"></a>Administrar la interoperabilidad
-Para administrar la interoperabilidad entre Microsoft Teams y Skype Empresarial se puede utilizar una nueva directiva llamada directiva de interoperabilidad de Microsoft Teams para controlar dónde enviar los chats y dirigir las llamadas (Microsoft Teams o Skype Empresarial). Esta directiva se puede configurar para todos los usuarios de la organización (directiva global), o aplicarse a usuarios individuales y administrarse a través de una sesión remota de Windows PowerShell en Skype Empresarial usando los cmdlets [`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps).
+Para administrar la interoperabilidad entre Microsoft Teams y Skype Empresarial se puede utilizar una nueva directiva llamada directiva de interoperabilidad de Microsoft Teams para controlar dónde enviar los chats y dirigir las llamadas (Microsoft Teams o Skype Empresarial). Esta directiva se puede configurar para todos los usuarios de la organización (directiva global), o aplicarse a usuarios individuales y administrarse a través de una sesión remota de Windows PowerShell en Skype Empresarial con los cmdlets [`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps).
 
-De forma predeterminada, esta directiva está configurada para garantizar que Microsoft Teams y Skype Empresarial se pueden usar simultáneamente con una interoperabilidad mínima. Este enfoque pretende garantizar que las comunicaciones y los procesos empresariales actuales de su organización no se ven interrumpidos a causa de la adopción de Microsoft Teams.
+De manera predeterminada, esta directiva está configurada para garantizar que Microsoft Teams y Skype Empresarial se puedan usar simultáneamente con una interoperabilidad mínima. Este enfoque pretende garantizar que las comunicaciones y los procesos empresariales actuales de su organización no se vean interrumpidos a causa de la adopción de Microsoft Teams.
 
 ### <a name="interop-policy-overview"></a>Información general de la directiva de interoperabilidad
 La directiva de interoperabilidad de Microsoft Teams consta de los siguientes parámetros:
@@ -113,7 +113,7 @@ La directiva de interoperabilidad de Microsoft Teams consta de los siguientes pa
 |-----------------------------|---------------------|---------|
 |`ChatDefaultClient`          | Predeterminado, Skype Empresarial, Microsoft Teams | Este parámetro especifica la aplicación de chat predeterminada        |
 |`CallingDefaultClient`       | Predeterminado, Skype Empresarial, Microsoft Teams | Este parámetro especifica la aplicación de llamadas predeterminada        |
-|`AllowEndUserClientOverride` | True, False         | Este parámetro especifica si los usuarios pueden invalidar la aplicación de chat y llamadas predeterminada         |
+|`AllowEndUserClientOverride` | True, False         | Este parámetro especifica si los usuarios pueden reemplazar la aplicación de chat y llamadas predeterminada         |
 
 > [!WARNING]
 > Aunque es posible crear una directiva de interoperabilidad de Microsoft Teams con valores independientes para los parámetros `ChatDefaultClient` y `CallingDefaultClient`, esperamos que esto cambie en el futuro. De momento, asegúrese de utilizar el mismo valor para los dos parámetros.
