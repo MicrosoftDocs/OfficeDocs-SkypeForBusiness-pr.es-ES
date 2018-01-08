@@ -1,62 +1,56 @@
 ---
-title: "Activar o desactivar las notificaciones del teléfono móvil"
-ms.author: TONYSMIT
+title: "Activar o desactivar las notificaciones de teléfono móvil"
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.OrgMobileNotification
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: 2de47013-4f09-493c-abc5-372f56ad69e3
-description: "Learn how to turn mobile phone notirications on or off so your users can receive alerts about incoming, voice mail, and missed instant messages. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: ms.lync.lac.OrgMobileNotification
+ms.custom: Setup
+description: "Aprenda a activar las notificaciones de teléfono móvil o desactivar para que los usuarios pueden recibir alertas de correo de voz entrante y perdida de mensajes instantáneos."
+ms.openlocfilehash: 7345859c265c8f300046a22aaac73e17292d0946
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="turn-on-or-off-mobile-phone-notifications"></a>Activar o desactivar las notificaciones de teléfono móvil
 
-# Activar o desactivar las notificaciones del teléfono móvil
-
-> [!IMPORTANT]
-> Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades.  
+Como **[asignar funciones de administración de Office 365 para el negocio](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** de su organización, puede elegir si su Skype para usuarios de negocios recibir alertas acerca de los mensajes instantáneos entrantes y perdidos cuando se encuentran en sus teléfonos móviles o tabletas.
   
-Como **[Asignar roles de administrador en Office 365](http://technet.microsoft.com/library/eac4d046-1afd-4f1a-85fc-8219c79e1504%28Office.14%29.aspx)** de su organización, puede elegir si los usuarios de Skype Empresarial reciban alertas sobre los mensajes instantáneos perdidos y entrantes cuando se encuentran en sus teléfonos móviles o tabletas.
+Android y Windows teléfonos, Skype para Business notifications emergen en tiempo real. Sin embargo, para dispositivos iPad, iPhone y Windows Phone, notificación de inserción se utiliza para mostrar las alertas cuando no activamente utiliza Skype para el negocio en su teléfono o Tablet PC.
   
-En los teléfonos Android y Windows Phone, las notificaciones de Skype Empresarial aparecen en tiempo real. En los dispositivos Windows Phone, iPhone y iPad, sin embargo, se usan las notificaciones push para mostrar alertas siempre que el usuario no esté usando activamente Skype Empresarial en el teléfono o tableta.
-  
-## Desactive las notificaciones de inserción en todos los dispositivos Windows Phone o Apple de su organización
+## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>Desactivar las notificaciones de inserción para todos los dispositivos Windows Phone o Apple en su organización
 <a name="__top"> </a>
 
-1. Inicie sesión en Office 365.
+1. Iniciar sesión en Office 365.
     
-2. Vaya al **Centro de administración de Office 365** > **Skype empresarial**.
+2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
     
-3. Vaya a **Organización** > **General**.
+3. Vaya a **organización** > **General**. 
     
-4. En **Notificaciones de teléfono móvil**, desactive la casilla situada junto al servicio de notificación que desea desactivar y haga clic en **Guardar**.
+4. En **las notificaciones del teléfono móvil**, desactive la casilla situada junto al servicio de notificación que desea deshabilitar y, a continuación, haga clic en **Guardar**.
     
-Tenga en cuenta:
+Recuerde: 
   
-- Si desactiva las notificaciones de inserción, los usuarios seguirán recibiendo todas las alertas cuando vuelvan a iniciar Skype Empresarial en otro dispositivo móvil.
+- Si desactiva las notificaciones de inserción, los usuarios seguirá reciban todas las alertas cuando inicia otra vez Skype para el negocio en su dispositivo móvil.
     
-- Las notificaciones de inserción están activadas de forma predeterminada. Los usuarios individuales pueden desactivarlas; para ello, deben seleccionar la opción adecuada de Skype Empresarial en su dispositivo móvil.
+- Las notificaciones de inserción están activadas de forma predeterminada. Los usuarios individuales pueden desactivarlas eligiendo el Skype apropiado para la opción de negocio en su dispositivo móvil.
     
-- Si desactiva las notificaciones de inserción, los usuarios no podrán volver a activarlas.
+- Al desactivar las notificaciones de inserción, los usuarios no pueden activarlos.
     
 > [!IMPORTANT]
-> Microsoft usa otras compañías para proporcionar en tiempo real Skype Empresarial notificaciones móviles para Windows Phone, iPhone y iPad usuarios. Consulte la [declaración de privacidad de Microsoft Skype para productos de empresa](https://go.microsoft.com/fwlink/p/?linkid=247732). 
+>  Microsoft utiliza otras empresas para proporcionar Skype en tiempo real de Business notifications móviles para usuarios de iPad, iPhone y Windows Phone. Consulte la [declaración de privacidad de Skype de Microsoft para los productos de la empresa](https://go.microsoft.com/fwlink/p/?linkid=247732). 
   
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **Declinación de responsabilidades de traducción automática**: Este artículo se ha traducido con un sistema informático sin intervención humana. Microsoft ofrece estas traducciones automáticas para que los hablantes de otros idiomas distintos del inglés puedan disfrutar del contenido sobre los productos, los servicios y las tecnologías de Microsoft. Puesto que este artículo se ha traducido con traducción automática, es posible que contenga errores de vocabulario, sintaxis o gramática. 
-  
-## Vea también
-<a name="MT_Footer"> </a>
-
-#### 
+## <a name="related-topics"></a>Temas relacionados
 
 [Configurar Skype Empresarial Online](set-up-skype-for-business-online.md)
 
