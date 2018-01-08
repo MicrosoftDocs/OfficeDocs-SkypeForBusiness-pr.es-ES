@@ -6,13 +6,13 @@ manager: lolaj
 ms.date: 12/12/2017
 ms.topic: article
 ms.service: msteams
-description: "Guía práctica para planificar, implementar y administrar el sistema telefónico con planes de llamada en Microsoft Teams mediante el marco Enfoque (planificar), Incorporación (entregar), Nuevos valores (operar)."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 5f40b92c5148480b60c3da8c206228036fb875eb
-ms.sourcegitcommit: ac601c3fe040b47eb7fff1f4f01858c14f40baa4
+description: "Guía práctica para planificar, implementar y administrar Sistema telefónico con Planes de llamada en Microsoft Teams mediante el marco Enfoque (planificar), Incorporación (entregar), Nuevos valores (operar)."
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: be79a70b47ec12141d907e2dc467fae2e9447315
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Guía práctica para Sistema telefónico con planes de llamada en Microsoft Teams
 =========================================================================
@@ -50,7 +50,7 @@ En este paso, los principales participantes del proyecto definirán casos de uso
 
 Los casos de uso empresariales se aportan con la intención de documentar los resultados que se esperan y que se pueden medir. Incluyen lo siguiente:
 
--   Descripción del proceso de negocio actual.
+-   Descripción del proceso de negocio actual
 -   Retos que se deben conseguir con el proceso de negocio actual definido.
 -   De qué manera la tecnología puede ayudar a alcanzar estos retos.
 -   Los resultados empresariales que se esperan y que se pueden medir si se alcanzan los retos impuestos anteriormente.
@@ -107,7 +107,7 @@ Los OKR contendrán una lista de los objetivos que se establecieron al inicio de
 > A continuación puede consultar un ejemplo de OKR relevantes para la implementación de Sistema telefónico con Planes de llamada:
 ><br>
 >
->**Visión: aumentar la productividad maximizando las inversiones de Office 365** 
+>**Visión: aumentar la productividad maximizando las inversiones de Office 365**
 >|Objetivos  |Resultados principales  |Acciones que realizar  |
 >|---------|---------|---------|
 >|Implementar Sistema telefónico con Planes de llamada en las sucursales europeas a finales del año fiscal 2018|T3 2018: implementar Sistema telefónico con Planes de llamada en la oficina de Londres|Enfoque<ul><li>Crear el plan de éxito</li><li>Crear un plan técnico de implementación muy detallado</li></ul><p>Incorporación<ul><li>Ejecutar el plan de éxito</li><li>Ejecutar el plan técnico de implementación</li></ul>|

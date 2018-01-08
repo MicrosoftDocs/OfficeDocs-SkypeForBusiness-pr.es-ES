@@ -1,5 +1,5 @@
 ---
-title: "Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams | Soporte técnico de Microsoft"
+title: "Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,12 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Conozca cómo SharePoint Online y OneDrive para la Empresa interaccionan con Microsoft Teams (por ejemplo, cómo se almacenan los chats privados) y la relación entre el equipo, el canal y la biblioteca de documentos."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 01149aa436862de8e6537c658524be9f4db13124
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: b7d9ffad23c8f26d7d95c3f31df4ff0307517179
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams
 =============================================================================
@@ -21,7 +21,7 @@ Cada equipo de Microsoft Teams tiene un sitio de grupo en SharePoint Online y ca
 
 Los archivos de chats privados se almacenan en la carpeta de OneDrive para la Empresa del **remitente** y se conceden permisos automáticamente a todos los participantes como parte del proceso de compartir archivos.
 
-Si no tiene habilitado SharePoint Online en su inquilino, los usuarios de Microsoft Teams no siempre podrán compartir archivos en los grupos. Los usuarios de chats privados no pueden compartir archivos porque se necesita OneDrive para la Empresa (que está ligado a la licencia de SharePoint) para esa funcionalidad. 
+Si no tiene habilitado SharePoint Online en su inquilino, los usuarios de Microsoft Teams no podrán compartir archivos en los grupos. Los usuarios de chats privados tampoco podrán compartir archivos, porque se necesita OneDrive para la Empresa (que está ligado a la licencia de SharePoint) para esa funcionalidad.
 
 Al almacenar archivos en la biblioteca de documentos de SharePoint Online y OneDrive para la Empresa, se siguen todas las reglas de cumplimiento configuradas en el nivel de inquilino.
 

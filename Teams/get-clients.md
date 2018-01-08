@@ -1,5 +1,5 @@
 ---
-title: "Obtener clientes para Microsoft Teams | Soporte técnico de Microsoft Teams"
+title: Obtener clientes para Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Aprenda a usar los distintos clientes disponibles para Microsoft Teams, que incluyen web, escritorio (Windows y Mac) y móvil (Android, iOS y Windows Phone)."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: fa0e91acd0847ab7b37113383348cb8be9a7a1c6
-ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
+ms.openlocfilehash: 8037d765e304aa6e950fdd0b9b5ad55079ec1700
+ms.sourcegitcommit: 19d7af5d60276c0a1ca3e01588b91c34a3fd0f92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/16/2017
+ms.lasthandoff: 12/22/2017
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
 ===========================
@@ -58,7 +57,7 @@ Los administradores de TI pueden elegir su método preferido para distribuir los
 
 > [!NOTE]
 > La distribución del cliente a través de estos mecanismos es solo para la instalación inicial de los clientes de Microsoft Teams y no para futuras actualizaciones.
-       |
+
 
 #### <a name="windows"></a>Windows
 

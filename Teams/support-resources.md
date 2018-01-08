@@ -1,5 +1,5 @@
 ---
-title: "Recursos de soporte técnico para Microsoft Teams | Soporte técnico de Microsoft"
+title: "Recursos de soporte técnico para Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Una lista de recursos de soporte técnico para Microsoft Teams que le ayudarán a usarlo de manera más eficiente y efectiva."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 55a5d764acce16ea20eb3504293392d24c4b0e05
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 0cd2abaf3baecfd91617314c038fb6d731009b85
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="support-resources-for-microsoft-teams"></a>Recursos de soporte técnico para Microsoft Teams
 =====================================

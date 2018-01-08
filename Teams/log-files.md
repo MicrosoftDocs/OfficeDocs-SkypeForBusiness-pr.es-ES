@@ -1,5 +1,5 @@
 ---
-title: "Uso de archivos de registro para solucionar problemas en Microsoft Teams | Soporte técnico de Microsoft"
+title: Usar los archivos de registro para solucionar problemas en Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Conozca los registros de depuración, medios y escritorio generados por Microsoft Teams, dónde se encuentran y cómo pueden ser útiles para resolver problemas."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a014e33df7587aee94a751e2a057f421655009fc
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 109f23ce188c5046d7aeaef7abc9d952a7780f47
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Usar los archivos de registro para solucionar problemas en Microsoft Teams
 =================================================

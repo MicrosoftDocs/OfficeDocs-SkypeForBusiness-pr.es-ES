@@ -1,6 +1,6 @@
 
 # Introducción
-## [Introducción a Microsoft Teams](Teams-Overview.md)
+## [Información general sobre Microsoft Teams](Teams-Overview.md)
 ## [Comprobar la preparación del entorno para Microsoft Teams](environment-readiness.md)
 ## [Licencias de Office 365 para Microsoft Teams](Office-365-licensing.md)
 ## [Información general de los equipos y canales en Microsoft Teams](teams-channels-overview.md)
@@ -10,16 +10,17 @@
 ## [Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams](SharePoint-OneDrive-interact.md)
 ## [Interoperabilidad entre Microsoft Teams y Skype Empresarial](Teams-and-SkypeforBusiness-interoperability.md)
 
-# [Guías de inicio rápido](quick-start-guides.md)
+# [Guías de inicio rápido para administradores de Microsoft Teams](quick-start-guides.md)
 ## [Inicio rápido: Guía de planificación de Microsoft Teams](quick-start-enable-Teams.md)
 ## [Configurar Planes de llamada](configuring-teams-calling-quickstartguide.md)
+## [Inicio rápido: Microsoft Teams para el ámbito educativo](Teams-quick-start-edu.yml)
 
 # Planificar
 ## [Información general de una implementación de Microsoft Teams](deployment-overview.md)
 ## [Planificar grupos de Office 365 al crear equipos en Microsoft Teams](plan-Office-365-groups.md)
 ## [Preparar la red de la organización para Microsoft Teams](prepare-network.md)
 ## [URL de Office 365 e intervalos de direcciones IP](Office-365-URLs-IP-address-ranges.md)
-## [Kit para talleres de planeación y guía práctica para Microsoft Teams](planning-workshop-practical-guide.md)
+## [Kit para taller: Planificar, entregar y usar Microsoft Teams](planning-workshop-practical-guide.md)
 
 # Adopción
 ## [Crear una estrategia de administración de cambios para Microsoft Teams](change-management-strategy.md)
@@ -81,8 +82,8 @@
 # Seguridad y cumplimiento
 ## [Información general de seguridad y cumplimiento en Microsoft Teams](security-compliance-overview.md)
 ## [Modelos de identidad y autenticación en Microsoft Teams](identify-models-authentication.md)
-## [Buscar eventos en el log de auditorías en Microsoft Teams](audit-log-events.md)
-## [Realizar una investigación de eDiscovery en Microsoft Teams](eDiscovery-investigation.md)
+## [Buscar eventos en el registro de auditoría en Microsoft Teams](audit-log-events.md)
+## [Realizar una investigación de exhibición de documentos electrónicos en Microsoft Teams](eDiscovery-investigation.md)
 ## [Usar la búsqueda de contenido en Microsoft Teams](content-search.md)
 ## [Poner a un usuario o un equipo de Microsoft Teams en retención legal](legal-hold.md)
 
@@ -94,7 +95,8 @@
 ## [Solucionar problemas de conectividad con el cliente de Microsoft Teams](connectivity-issues.md)
 ## [Usar los archivos de registro para solucionar problemas en Teams](log-files.md)
 
-
+# Microsoft Teams para el ámbito educativo
+## [Guía de inicio rápido para administradores: Microsoft Teams para el ámbito educativo](Teams-quick-start-edu.yml)
 
 # [Documentación para desarrolladores de Teams](https://docs.microsoft.com/microsoftteams/platform)
 

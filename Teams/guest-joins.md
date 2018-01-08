@@ -7,17 +7,16 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 description: "Vea un breve resumen sobre cómo se invita a un invitado a que se una a un equipo en Microsoft Teams."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 68aa176d3a1ab75a7d6d3baec01c18242ebea341
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: e7e847fb4f45fa4f026889af16b82cf0a3c47c67
+ms.sourcegitcommit: fe3da7145039ce514fbaa9443a4a1b9879dd6264
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="how-a-guest-joins-a-team"></a>Cómo se une un invitado a un equipo
 ========================
 
-El propietario de un equipo en Microsoft Teams puede agregar y administrar invitados en sus equipos a través de la versión web o de escritorio. Solo se podrá agregar como usuario invitado a los usuarios que tengan una dirección de correo electrónico que corresponda a una cuenta profesional o educativa de Azure Active Directory u Office 365.
+El propietario de un equipo en Microsoft Teams puede agregar y administrar invitados en sus equipos a través de la versión web o de escritorio. Solo se podrá agregar como usuario invitado a los usuarios que tengan una dirección de correo electrónico que corresponda a una cuenta profesional o educativa de Azure Active Directory u Office 365. Solo se puede agregar como invitados a personas que sean externas a la organización, como socios o consultores. Aquellos que pertenecen a la organización se pueden unir como miembros habituales del equipo.
   
     
     
@@ -36,10 +35,10 @@ A continuación se muestra cómo un invitado se puede convertir en miembro de un
 - **Paso 2** El propietario del equipo o el administrador de Office 365 puede administrar las funcionalidades de un invitado en la medida que sea necesario. Por ejemplo, puede permitir que un invitado agregue o elimine canales o que deshabilite el acceso a los archivos.
     
   
-- **Paso 3** El invitado recibe un correo electrónico de bienvenida del propietario del equipo en el que le invita a unirse al equipo. Tras aceptar la invitación, el invitado puede [participar en los equipos y los canales](https://support.office.com/en-us/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), recibir mensajes del canal y responder a ellos, [acceder a los archivos de los canales](https://support.office.com/en-us/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e) y participar en el chat. Mientras utiliza Microsoft Teams, la combinación de texto e iconos ofrece a todos los miembros del equipo una indicación muy clara de que en un equipo están participando invitados. Para obtener más detalles, vea [cómo es la experiencia de invitado](#guestexp).
+- **Paso 3** El invitado recibe un correo electrónico de bienvenida del propietario del equipo en el que le invita a unirse al equipo. Tras aceptar la invitación, el invitado puede [participar en los equipos y los canales](https://support.office.com/en-us/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), recibir mensajes del canal y responder a ellos, [acceder a los archivos de los canales](https://support.office.com/en-us/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e) y participar en el chat. Mientras utiliza Microsoft Teams, la combinación de texto e iconos ofrece a todos los miembros del equipo una indicación muy clara de que en un equipo están participando invitados. Para obtener más detalles, vea [Cómo es la experiencia de invitado](guest-experience.md).
     
   
 Los invitados pueden dejar el equipo en cualquier momento a través de los clientes de escritorio o web de Microsoft Teams. Para obtener más información, consulte [¿Cómo abandono un equipo?](https://support.office.com/en-us/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
 
 > [!NOTE]
-> Solo se puede agregar como invitados a personas que sean externas a la organización, como socios o consultores. Aquellos que pertenecen a la organización se pueden unir como miembros habituales del equipo. 
+> Aunque los usuarios pueden salir de un grupo por sí mismos, solo un administrador puede eliminarlos del inquilino. 

@@ -1,23 +1,26 @@
 ---
-title: "Prácticas recomendadas para organizar equipos en Microsoft Teams | Soporte técnico de Microsoft"
+title: "Prácticas recomendadas para organizar equipos en Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Conozca la prácticas recomendadas para organizar equipos en Microsoft Teams para estructurar su equipo de acuerdo con sus necesidades específicas."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 936d5132fb71563f1f8b2fff5561084c4201425a
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+description: "Conozca las prácticas recomendadas para organizar equipos en Microsoft Teams de acuerdo con las necesidades de su organización."
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 37b40af804193039cc2c2a8b5fa37a4547b896b0
+ms.sourcegitcommit: 5ab90d4bd39bf45198ef73d0fd45dd3d8baa6acb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/21/2017
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Prácticas recomendadas para organizar equipos en Microsoft Teams
 ======================================================
 
-Antes de crear un equipo, es recomendable pensar en un objetivo, un proyecto o un elemento de trabajo, así como en las personas o los grupos de la organización que pueden ayudar a trabajar en colaboración (seleccione adecuadamente las personas y los grupos que vaya a agregar para lograr su objetivo). Una vez que se haya creado, agregue estas personas o grupos para comenzar la colaboración. Es recomendable configurar más de un propietario para cada equipo (consulte [*Administración de equipos*](https://support.office.com/en-US/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499)).
+> [!TIP]
+> ¿Tiene un procedimiento recomendado o algún consejo acerca del uso de Microsoft Teams? Compártalo con nosotros a través de la sección **Comentarios** al final de este artículo.
+
+Antes de crear un equipo, es recomendable pensar en un objetivo, un proyecto o un elemento de trabajo, así como en las personas o los grupos de la organización que pueden ayudar a trabajar en colaboración. Una vez creado, añada estas personas o grupos a un equipo para comenzar la colaboración. Es recomendable configurar más de un propietario para cada equipo (consulte [*Administración de equipos*](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499)).
 
 Puede comenzar con un pequeño número de miembros del equipo para recopilar ideas a medida que se avanza, y después agregar personas o grupos nuevos según avanza el trabajo. Una de las grandes características de Microsoft Teams es que cuando se agregan nuevas personas o grupos, pueden ponerse al día rápidamente con lo que ya se ha hablado, ya que las conversaciones y los archivos están disponibles para los usuarios cuando se unen. Intente evitar crear equipos diferentes que tengan el mismo conjunto de miembros, ya que es posible que este enfoque no proporcione el contexto deseado para lograr el objetivo o completar el proyecto. Outlook es una herramienta ideal para compartir estos tipos de comunicaciones en todos los grupos.
 

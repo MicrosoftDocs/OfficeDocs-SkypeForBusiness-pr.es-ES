@@ -7,12 +7,12 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 description: "Obtenga más información sobre la funcionalidad de Microsoft Teams que está disponible para los usuarios invitados."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 596d0dd3bb754e6f6c983beb9ba62d775768d252
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 7ce64b92d5b51c7bfc154b955ed0c9c5ea1bab99
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 =================================
@@ -57,7 +57,7 @@ En la siguiente tabla se compara la funcionalidad de Microsoft Teams que está d
 |Compartir un archivo del chat  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Agregar aplicaciones (fichas, bots o conectores)  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Crear directivas de acceso de invitados a equipos y canales para todos los inquilinos  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Invitar a un usuario que no pertenece al dominio de inquilino de Office 365  <br/> ||![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Invitar a un usuario que no pertenece al dominio de inquilino de Office 365 <br/>  *Los propietarios del equipo controlan este parámetro.*  <br/> <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Crear un equipo  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Descubrir un equipo público y unirse a él  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Ver el organigrama  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||

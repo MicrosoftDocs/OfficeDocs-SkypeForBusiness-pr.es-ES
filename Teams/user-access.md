@@ -1,5 +1,5 @@
 ---
-title: "Gestionar el acceso de los usuarios a Microsoft Teams | Soporte técnico de Microsoft"
+title: Gestionar acceso de los usuarios a Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Aprenda a habilitar o deshabilitar el acceso a nivel de usuario por cada usuario.
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 5bf8a487a7931ff91e754c1e84839b75535ca3c9
-ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
+ms.openlocfilehash: 66ec29077b83b799c85acce1b5869b82fb0b83f7
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/16/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gestionar acceso de los usuarios a Microsoft Teams
 =====================================

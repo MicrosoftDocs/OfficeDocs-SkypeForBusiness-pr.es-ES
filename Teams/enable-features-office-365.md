@@ -1,5 +1,5 @@
 ---
-title: "Habilitar características de Microsoft Teams en su organización de Office 365 | Soporte técnico de Microsoft"
+title: "Habilitar características de Microsoft Teams en su organización de Office 365"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,29 +7,31 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Conozca todas las características de Microsoft Teams que puede habilitar en su organización de Office 365, incluidos la configuración en todo el inquilino, la integración del correo electrónico, las aplicaciones, el almacenamiento en nube y mucho más."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: c785e554034cd87fd27f5137f206c8dc0e5f972a
-ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: d6a4a8d10e20b57df16fac3c7ffeba0bacd64d2e
+ms.sourcegitcommit: 19d7af5d60276c0a1ca3e01588b91c34a3fd0f92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 12/22/2017
 ---
-<a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Habilitar características de Microsoft Teams en su organización de Office 365
+<a name="turn-on-microsoft-teams-features-in-your-office-365-organization"></a>Habilitar características de Microsoft Teams en su organización de Office 365
 ======================================================
 
-Microsoft Teams tiene varios parámetros de configuración que se pueden habilitar o deshabilitar a nivel de inquilino. Con Teams habilitado para el inquilino, cualquier usuario que esté también habilitado para Teams heredará la configuración desde el nivel de inquilino.
+Microsoft Teams tiene varios parámetros de configuración que se pueden habilitar o deshabilitar a nivel de inquilino de Office 365. Si Microsoft Teams está habilitado para un inquilino, cualquier usuario que esté también habilitado para Teams heredará del nivel de inquilino.
 
 A continuación puede ver una lista de características que un administrador de Office 365 puede elegir para habilitar o deshabilitar en Teams.
 
 A menos que se indique lo contrario, el valor predeterminado para una opción es Activado.
 
 > [!NOTE]
-> Un administrador de Office 365 puede desactivar Microsoft Teams en cualquier momento mediante el Centro de administración de Office 365. Tenga en cuenta que los usuarios con licencias activas de Microsoft Teams seguirán viendo el icono de la aplicación Teams, aunque lo desactive. Para ver información detallada sobre cómo quitar licencias de los usuarios, consulte [Gestionar acceso de los usuarios a Microsoft Teams](user-access.md). En cuanto Teams se deshabilita, el acceso desde su cliente se bloquea, pero los datos que estén disponibles a través de otros clientes y servicios, como SharePoint o OneDrive, seguirán estando disponibles. Todos los datos continuarán en su lugar, a menos que los equipos se eliminen explícitamente.
+> Un administrador de Office 365 puede desactivar Microsoft Teams en cualquier momento mediante el Centro de administración de Office 365. Tenga en cuenta que los usuarios con licencias activas de Microsoft Teams seguirán viendo el icono de la aplicación Microsoft Teams, aunque lo desactive. Para ver información detallada sobre cómo quitar licencias de los usuarios, consulte [Administrar el acceso de los usuarios a las licencias de Microsoft Teams](user-access.md). En cuanto Microsoft Teams se deshabilita, el acceso desde su cliente se bloquea, pero los datos que estén disponibles a través de otros clientes y servicios, como los archivos a través de SharePoint o OneDrive, seguirán estando disponibles. Todos los datos continuarán en su lugar, a menos que los equipos se eliminen explícitamente.
 
-<a name="tenant-wide-settings"></a>Configuración de todos los inquilinos 
+<a name="office-365-tenant-wide-settings"></a>Configuración a nivel de inquilino de Office 365 
 ---------------------
 
 En **Configuración de todos los inquilinos** puede activar o desactivar las opciones que se encuentran en General, Integración de correo electrónico, Aplicaciones y Almacenamiento en nube personalizado.
+
+Para editar **la configuración a nivel de inquilino** para Microsoft Teams, vaya al Centro de administración de Office 365. Después, elija **Configuración** > **Servicios y complementos** > **Microsoft Teams**.
 
 ### <a name="general"></a>General
 
@@ -43,9 +45,9 @@ La sección General le permite establecer la siguiente configuración para su or
 
     ![Captura de pantalla de un organigrama.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image3.png)
 
--   **Usar Skype Empresarial para los destinatarios que no tengan Microsoft Teams:** Cuando esta configuración esté habilitada, se permitirá a los usuarios de Microsoft Teams ponerse en contacto con otros usuarios en la organización que no tengan permiso para Microsoft Teams mediante Skype Empresarial.
+-   **Usar Skype Empresarial para los destinatarios que no tengan Microsoft Teams:** cuando esta configuración esté habilitada, se permitirá a los usuarios de Microsoft Teams ponerse en contacto con otros usuarios en la organización que no estén habilitados para Microsoft Teams mediante Skype Empresarial.
 
--   **Permitir mensajes de ayuda proactivos de T-bot:** Cuando esta configuración esté habilitada, T-bot iniciará una sesión de chat privado con los usuarios para guiarlos en el uso de Microsoft Teams.
+-   **Permitir mensajes de ayuda proactivos de T-bot:** cuando esta configuración esté habilitada, T-bot iniciará una sesión de chat privado con los usuarios para guiarlos en el uso de Microsoft Teams.
 
     ![Captura de pantalla de la sección T-Bot en la interfaz de Microsoft Teams.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image4.png)
 
@@ -58,11 +60,11 @@ La integración del correo electrónico le permite establecer la siguiente confi
 
    ![Captura de pantalla de la sección de integración del correo electrónico en la configuración para todos los inquilinos.](media/QS-edu-email-integration.png)
 
--   **Permitir que los usuarios puedan enviar correo electrónico a los canales:** Cuando está habilitado, los enlaces de correo electrónico se habilitarán también y los usuarios podrán publicar mensajes a un canal enviando un correo electrónico a la dirección de correo electrónico del canal de Microsoft Teams.
+-   **Permitir que los usuarios puedan enviar correo electrónico a los canales:** cuando está habilitado, los enlaces de correo electrónico se habilitarán también y los usuarios podrán publicar mensajes en un canal enviando un correo electrónico a la dirección de correo electrónico del canal de Microsoft Teams.
 
 > Para buscar la dirección de correo electrónico de un canal, haga clic en **Más opciones** junto al nombre del canal y después seleccione **Obtener dirección de correo electrónico**.
 
--   **Lista de remitentes restringidos:** Los dominios de los remitentes se pueden restringir aún más para garantizar que solo los dominios SMTP permitidos puedan enviar correos electrónicos a los canales de Microsoft Teams.
+-   **Lista de remitentes restringidos:** los dominios de los remitentes se pueden restringir aún más para garantizar que solo los dominios SMTP permitidos puedan enviar correos electrónicos a los canales de Microsoft Teams.
 
 <a name="apps"></a>Aplicaciones
 ----
@@ -99,9 +101,10 @@ Como administrador, puede administrar propietarios y miembros de equipos mediant
 
 Puede controlar qué usuarios de la organización pueden crear equipos en Microsoft Teams. La misma configuración de creación definida por los grupos de Office 365 se aplica a Microsoft Teams. Si desea más información sobre la administración de los grupos de Office 365, consulte [Crear grupos de Office 365](https://support.office.com/en-us/article/Create-Office-365-groups-74a1ef8b-3844-4d08-9980-9f8f7a36000f) y [Controlar quién puede crear grupos de Office 365](https://support.office.com/en-us/article/Control-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
-NOTA: Los equipos no se pueden crear desde el panel Grupos. Deben crearse mediante el cliente de escritorio de Microsoft Teams o la aplicación web.
+> [!NOTE]
+> Los equipos no se pueden crear desde el panel Grupos. Los equipos se deben crear mediante el cliente de escritorio de Microsoft Teams o la aplicación web.
 
-De manera predeterminada, todos los usuarios pueden crear un equipo o un grupo. Los usuarios pueden crear equipos seleccionando Equipos en el lado izquierdo del cliente de Microsoft Teams (cliente de escritorio o aplicación web) y, a continuación, eligiendo Crear equipo en la parte inferior del cliente, debajo de la lista de equipos.
+De manera predeterminada, todos los usuarios pueden crear un equipo o un grupo. Los usuarios pueden crear equipos seleccionando **Equipos** en el lado izquierdo del cliente de Microsoft Teams (cliente de escritorio o aplicación web) y, a continuación, eligiendo **Crear equipo y unirse a él** en la parte inferior del cliente, debajo de la lista de equipos.
 
 Actualmente, el número máximo predeterminado de equipos que puede tener un inquilino de Office 365 es 500.000. Un administrador global puede crear un número ilimitado de equipos. Un usuario puede crear 250 equipos. Un propietario de equipo puede agregar 2500 miembros a un equipo.
 

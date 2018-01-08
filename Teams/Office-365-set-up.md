@@ -1,5 +1,5 @@
 ---
-title: "Configurar Microsoft Teams en su organización de Office 365 | Soporte técnico de Microsoft"
+title: "Configurar Microsoft Teams en su organización de Office 365"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,12 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Aprenda a configurar Microsoft Teams en su organización de Office 365."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: f8db61d7ca8e183cce04cb993a40541c70e5e516
-ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 41af4c2ab8c3b81e3fe5f8e8eb189fe4d8ecafd5
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="set-up-microsoft-teams-in-your-office-365-organization"></a>Configurar Microsoft Teams en su organización de Office 365
 ======================================================
