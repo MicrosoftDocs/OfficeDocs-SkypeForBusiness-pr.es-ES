@@ -7,11 +7,11 @@ ms.date: 12/20/2017
 ms.topic: article
 ms.service: msteams
 description: "Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores."
-ms.openlocfilehash: a9642d43f26d06c759f606d360520c92d053ac77
-ms.sourcegitcommit: 5ab90d4bd39bf45198ef73d0fd45dd3d8baa6acb
+ms.openlocfilehash: b4335a9d3f85b00706b7f6d61c9b232f01193abe
+ms.sourcegitcommit: 18b1af39d6d2cd0e7f2d270dcd844e06c9075ae6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
   
@@ -52,6 +52,6 @@ En la siguiente tabla se enumeran los problemas conocidos de Microsoft Teams.
 |No se puede guardar la imagen de perfil.  <br/> |Los usuarios no pueden guardar su imagen de perfil cuando el buzón de Exchange está hospedado (alojado) localmente.  <br/> |No hay ninguna solución.  <br/> |28/02/2017  <br/> |
 |Las reuniones no están disponibles.  <br/> |El icono y la funcionalidad de las reuniones no están disponibles cuando el buzón de Exchange está hospedado (alojado) localmente.  <br/> |Actualice a la actualización acumulada 3 de Exchange 2016 o posterior para la implementación local.  <br/> |28/02/2017  <br/> |
 |Los buzones de grupo no están habilitados para poder archivar en ellos (almacenamiento extra).  <br/> |En el Centro de seguridad y cumplimiento de Office 365, los administradores globales no pueden habilitar el archivado en los buzones de grupo. Solo pueden hacerlo en los buzones de los usuarios.  <br/> |Si la capacidad del buzón de grupo está casi llena, póngase en contacto con el soporte técnico de Microsoft Office para ampliar el tamaño del buzón.  <br/> |01/02/2017  <br/> |
-|Compatibilidad con el cliente web de Safari  <br/> |A los usuarios que intentan abrir el cliente web de Microsoft Teams en Safari se les redirige al sitio de descarga del cliente de escritorio. Microsoft está investigando la compatibilidad con Safari y compartirá las actualizaciones a través del mapa de ruta público de Office 365.  <br/> |Utilice exploradores compatibles, entre los que se incluyen: Microsoft Edge 12 y posterior, Internet Explorer 11 y posterior, Firefox 47.0 y posterior y Chrome 51.0 y posterior.  <br/> |02/11/2016  <br/> |  
+|Compatibilidad con el cliente web de Safari  <br/> |A los usuarios que intentan abrir el cliente web de Microsoft Teams en Safari se les redirige al sitio de descarga del cliente de escritorio. Microsoft está investigando la compatibilidad con Safari y compartirá las actualizaciones a través del mapa de ruta público de Office 365.  <br/> |Utilice exploradores compatibles, entre los que se incluyen: Microsoft Edge 12 y posterior, Internet Explorer 11 y posterior, Firefox 55 y posterior y Chrome 51.0 y posterior.  <br/> |02/11/2016  <br/> |  
 |No es posible contactar con los miembros del equipo para realizar reuniones ad-hoc.  <br/> |Las reuniones ad hoc son posibles si ambas personas usan la aplicación de escritorio. Las reuniones aún no son posibles en la aplicación de Windows Phone.  <br/> |Descargue e instale la última versión de la aplicación de escritorio, iOS o Android para unirse a la reunión.  <br/> |02/11/2016  <br/> |
 |Los usuarios locales de Skype Empresarial no reciben mis mensajes.  <br/> |Los mensajes no se completarán cuando los usuarios de Microsoft Teams intenten enviar un mensaje a otra persona que esté usando Skype Empresarial local.  <br/> | Se admite la interoperabilidad entre Microsoft Teams y los usuarios que están alojados en Skype Empresarial Online. Los usuarios de Microsoft Teams pueden enviar chats entre dos personas a usuarios que no pertenezcan a Microsoft Teams con Skype Empresarial Online. <br/> No se admite la interoperabilidad entre Microsoft Teams y los usuarios que están alojados en Skype Empresarial local. Los usuarios de Microsoft Teams no pueden enviar chats entre dos personas a usuarios que no pertenezcan a Microsoft Teams con Skype Empresarial local.  <br/> |02/11/2016  <br/> |
