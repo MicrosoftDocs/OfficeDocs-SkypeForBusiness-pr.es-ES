@@ -1,10 +1,10 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: afe1e1eef51399bf5ff9843aef19ad3e265cf4c3
-ms.sourcegitcommit: a315fbbb6a5337c32c9312550ee05fd9185020db
+ms.openlocfilehash: 0bbef52ce06440aeb9d279937396f381a3ab408b
+ms.sourcegitcommit: 02403b6dc6e0a9a0a590fbf41fa8a552d2f29e1f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="welcome-to-sharepoint-and-onedrive"></a>Le damos la bienvenida a SharePoint y OneDrive
 
@@ -17,6 +17,6 @@ Los sitios de SharePoint Server 2016 proporcionan entornos que los administrador
 Revise nuestra página [Diagramas técnicos](https://technet.microsoft.com/en-us/library/cc263199(v=office.16).aspx) para ver las soluciones de SharePoint que se recomiendan.
 
 
-![Miniatura de pósteres](media/testfile.png)
+![Miniatura para pósteres](media/testfile.png)
 
 [Compruebe la guía de accesibilidad también](https://technet.microsoft.com/en-us/library/mt790686(v=office.16).aspx)
