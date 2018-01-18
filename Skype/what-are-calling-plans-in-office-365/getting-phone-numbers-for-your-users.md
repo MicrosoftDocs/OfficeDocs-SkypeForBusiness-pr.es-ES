@@ -1,52 +1,57 @@
 ---
-title: "Obtener números de teléfono para los usuarios"
+title: "Obtener números de teléfono de Skype Empresarial para los usuarios"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: Admin
-ms.topic: get-started-article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: aa2ec464-3481-4bbb-8c14-e13e18093df5
-description: "Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
+ms.openlocfilehash: dccd1d27093f0da0f77dea7e15e980febd636899
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="getting-phone-numbers-for-your-users"></a>Obtener números de teléfono de Skype Empresarial para los usuarios
 
-# Obtener números de teléfono para los usuarios
-
-> [!IMPORTANT]
-> Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades.  
-  
-Antes de poder configurar los usuarios de su organización para realizar y recibir llamadas de teléfono, debe obtener números de teléfono para ellos.
+[] Para poder configurar los usuarios de su organización para que puedan recibir y realizar llamadas telefónicas, debe usar el Centro de administración de Skype Empresarial para obtener los números de teléfono.
   
 Existen dos formas de obtener números para sus usuarios:
   
-- Obtener números de nuevos con la **Skype centro de administración de la empresa**.
+- Obtener números nuevos con el Centro de administración de Skype Empresarial.
     
-- Puerto o transferir los números existentes de su proveedor de servicio actual o de telefonía a Office 365.
+- Realizar la portabilidad de los números existentes de su proveedor de servicios u operador telefónico actual, o transferirlos.
     
-Debe utilizar la página **Agregar nuevo usuario números** para ver, buscar, adquirir y reserve dichos números. Puede buscar por **País o región**, **estado** y **Ciudad** y, a continuación, escriba el número de números de teléfono que necesitará para los usuarios.
+Debe usar la página **Números nuevos** para ver, buscar, adquirir y reservar dichos números. Puede buscar por **País o región**, **Estado** y **Ciudad** y, a continuación, escribir la cantidad de números de teléfono que necesitará para los usuarios.
   
 > [!NOTE]
-> Si necesita ayuda para configurar números de teléfono de su organización, puede hacerlo [Póngase en contacto con el soporte de Office 365 para empresas: ayuda para administradores](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx). 
+> Si necesita ayuda para configurar los números de teléfono para su organización, puede [ponerse en contacto con el servicio de asistencia al cliente](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
 ## 
 
- **Obtener números de teléfono nuevo para los usuarios**
+ Obtener números de teléfono nuevos para los usuarios
   
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
 2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
     
-3. En el panel de navegación izquierdo, vaya a **voz** > **números de teléfono**, haga clic en **Agregar nuevo número**![Add button](../images/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)y, a continuación, haga clic en **números nuevo usuario**.
+3. En la exploración de la izquierda vaya a **voz** > **números de teléfono**, haga clic en **Agregar nuevo número** ![botón Agregar](../images/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)y, a continuación, haga clic en **los números de usuario nuevo**.
     
     **IMPORTANTE**: Para poder ver la opción **Voz** en el panel de navegación izquierdo del Centro de administración de Skype Empresarial, primero tiene que adquirir como mínimo una **licencia de Enterprise E5**, una licencia del complemento **Sistema telefónico** o una licencia del complemento **Audioconferencia**.
     
-4. En la página **Agregar nuevo usuario números**, elija lo siguiente:
+4. En la página **Agregar nuevos números de usuario**, use los menús desplegables para elegir lo siguiente:
     
   - **País o región**
     
@@ -54,53 +59,53 @@ Debe utilizar la página **Agregar nuevo usuario números** para ver, buscar, ad
     
   - **Ciudad**
     
-5. En **cantidad**, introduzca la cantidad de números de teléfono que desea para su organización y haga clic en **Agregar** para crear una reserva. Tiene 10 minutos para seleccionar los números de teléfono Si realiza más de 10 minutos, los números de teléfono se devolverá al grupo de números.
+5. En **Cantidad**, introduzca el número de números de teléfono que quiere para su organización y haga clic en **Agregar** para crear una reserva. Tiene 10 minutos para seleccionar sus números de teléfono y, si tarda más de estos 10 minutos, estos números de teléfono se devolverán al grupo de números de teléfono.
     
     > [!NOTE]
-    > Puede ver el número de números de teléfono, que se basa en el número de licencias, que aparece junto a **los números de Total de usuario que puede adquirir**. Para obtener información detallada, consulte [¿Cuántos números de teléfono puede obtener?](how-many-phone-numbers-can-you-get.md)
+    > Puede ver la cantidad de números de teléfono, que se basa en el número de licencias, que se enumeran junto a **los números de usuario Total que puede adquirir**. Para obtener más información, consulte [cuántos números de teléfono puede conseguir?](how-many-phone-numbers-can-you-get.md)
   
 6. Puede hacer clic en **Mostrar números** para ver la lista completa de números de teléfono. Esto resulta útil si no desea seleccionar un número de teléfono concreto de la lista.
     
-7. Seleccione los números de teléfono que desea y, a continuación, haga clic en **números de adquirir**.
+7. Seleccione los números de teléfono que desee y haga clic en **Adquirir números**.
     
     > [!IMPORTANT]
-    > El número de números de teléfono para los usuarios (suscriptores) es igual que el número total de **Llamar a planear nacionales** o **Llamar a planear internacional** licencias asignadas multiplican por 1.1, además de 10 números de teléfono adicionales. Por ejemplo, si se tienen 50 usuarios en total con un Plan de llamar a nacionales o y llamar a planear internacional, puede adquirir de números de teléfono de **65** **(1.1 x 50 + 10)**. Para obtener información detallada, consulte[¿Cuántos números de teléfono puede obtener?](how-many-phone-numbers-can-you-get.md)> Si necesita obtener más números de teléfono que esto, póngase en contacto con [Póngase en contacto con el soporte de Office 365 para empresas: ayuda para administradores](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx). 
+    > El número de números de teléfono de los usuarios (suscriptores) es igual al número total de asignados **Plan de llamadas nacionales** o **nacionales y Plan de llamadas internacionales** licencias al multiplica por 1.1, además de 10 números de teléfono adicionales. Por ejemplo, si tiene 50 usuarios en total con un Plan de llamadas nacionales o nacionales y Plan de llamadas internacionales, puede adquirir los números de teléfono de **65** **(50 x 1.1 + 10)**. Para obtener más información, consulte [cuántos números de teléfono puede conseguir?](how-many-phone-numbers-can-you-get.md). Si necesita obtener más números de teléfono, consulte [Póngase en contacto con el soporte de Office 365 para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
- **Puerto o transferir números de teléfono de su proveedor de servicios o de telefonía**
+ Realizar la portabilidad de los números de su proveedor de servicios u operador telefónico o transferirlos
   
-- Si necesita 999 o menos números de teléfono para los usuarios, puede usar al Asistente para **Nuevo pedido de puerto número Local** en el Skype centro de administración de la empresa. Siga los pasos que se encuentra en[Números de teléfono de transferencia a Office 365](transfer-phone-numbers-to-office-365.md) para transferir sus números de teléfono sobre a Skype empresarial Online.
+- Si necesita que los números de teléfono 999 o menos para los usuarios, puede utilizar al Asistente para **Nuevo pedido de puerto número Local** en el Skype para el centro de administración de negocios. Siga los pasos descritos en los [números de teléfono de transferencia a Office 365](transfer-phone-numbers-to-office-365.md) para transferir sobre sus números de teléfono a Skype para los negocios en línea.
     
-- Si necesita más de 999 números de teléfono de puerto, vea [Enviar manualmente una solicitud de servicio personalizado](manually-submit-a-custom-service-request.md) para enviar una solicitud de servicio de pedidos de puerto o el orden para obtener todos los números de teléfono trasladados sobre Office 365.
+- Si tiene más de 999 números de teléfono de los que necesita realizar la portabilidad, consulte [Enviar manualmente una solicitud de servicio personalizado](manually-submit-a-custom-service-request.md) para enviar una solicitud de portabilidad del servicio o solicitar que todos esos números de teléfono se transfieran a Office 365.
     
-## Mostrar los números de teléfono para su organización
+## <a name="show-phone-numbers-for-your-organization"></a>Mostrar los números de teléfono para su organización
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
 2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
     
-3. En el panel de navegación izquierdo, vaya a **voz** > **números de teléfono**. Se muestran los números de teléfono que tiene para su organización en **número**.
+3. En el panel de navegación izquierdo, vaya a **Voz** > **Números de teléfono**. Los números de teléfono que haya elegido para su organización se mostrarán en **Número**.
     
     > [!NOTE]
-    > Puede ver números de teléfono específicos y el tipo de números en las columnas **Asignados** y **Tipo de número**. 
+    > Puede ver números de teléfono específicos y el tipo de números en las columnas **Asignados** y **Tipo de número**.
   
-## ¿Qué más necesita saber sobre los números de teléfono de los usuarios?
+## <a name="what-else-do-you-need-to-know-about-users-phone-numbers"></a>¿Qué más necesita saber sobre los números de teléfono del usuario?
 
-- Para obtener números de teléfono, debe usar la página **Agregar nuevo usuario números** para ver, buscar y reservar los números. Puede buscar por país o región, estado o la región y ciudad y, a continuación, escriba el número de números de teléfono que necesitará para los usuarios
+- Para adquirir números de teléfono, debe usar la página Números nuevos para ver, buscar y reservar dichos números. Puede buscar por País o región, Estado o región y Ciudad y, a continuación, escribir la cantidad de números de teléfono que necesitará para los usuarios.
     
-- Después de obtener los números de teléfono, debe asignar a un número a cada uno de los usuarios. Vea [Asignar, cambiar o quitar un número de teléfono a un usuario](assign-change-or-remove-a-phone-number-for-a-user.md).
+- Después de obtener los números de teléfono, deberá asignar uno a cada usuario. Consulte [Asignar un número de teléfono en Skype Empresarial](assign-change-or-remove-a-phone-number-for-a-user.md).
     
-- Puede usar la página de **números de teléfono** para ver la lista de números de teléfono disponibles en la columna **número**, vea si se ha asignado el número de teléfono en la columna **asignado** y ver la ubicación del número de teléfono en la ubicación del número de columna.
-    
-## Temas relacionados
-
-[Términos y condiciones de las llamadas de emergencias](emergency-calling-terms-and-conditions.md)
-  
-[Período de llamada de salida complementario de conferencias de audio](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-  
-## 
-<a name="MT_Footer"> </a>
+- Puede usar la página **Números de teléfono** para ver la lista de números de teléfono disponibles en la columna **Número**, para consultar si el número de teléfono está asignado o no, en la columna **Asignado**, así como la ubicación para el número de teléfono en la columna **Ubicación**.
 
 > [!NOTE]
-> **Declinación de responsabilidades de traducción automática**: Este artículo se ha traducido con un sistema informático sin intervención humana. Microsoft ofrece estas traducciones automáticas para que los hablantes de otros idiomas distintos del inglés puedan disfrutar del contenido sobre los productos, los servicios y las tecnologías de Microsoft. Puesto que este artículo se ha traducido con traducción automática, es posible que contenga errores de vocabulario, sintaxis o gramática. 
-  
+> Si necesita obtener más números de teléfono que esto, ponte [en contacto con soporte técnico para productos de empresa - Admin ayuda](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+    
+## <a name="related-topics"></a>Temas relacionados
+[Transferencia de preguntas habituales de los números de teléfono](transferring-phone-numbers-common-questions.md)
 
+[Diferentes tipos de números de teléfono utilizados para llamar a planes](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[Administrar números de teléfono de la organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+
+[Términos y condiciones de las llamadas de emergencias](emergency-calling-terms-and-conditions.md)
+
+[Skype para los negocios en línea: etiqueta de descargo de responsabilidad llamada de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)

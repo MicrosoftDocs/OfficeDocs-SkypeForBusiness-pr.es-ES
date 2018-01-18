@@ -1,66 +1,65 @@
 ---
-title: "Uso de los identificadores dinámicos de conferencias de Audio de su organización"
+title: "Uso de los identificadores de conferencia de Audio dinámicos en su organización"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: e55e4bff-fb67-4389-8695-f03024baa9b6
-description: "Se está actualizando el servicio de conferencia de Audio para proporcionar cada Skype para Business y Microsoft Teams reunión con identificadores de conferencia diferente. Identificadores de conferencia dinámicos son una mejora significativa sobre conferencias estático identificadores, ya que proporcionan:"
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: "Se está actualizando el servicio de conferencia de Audio para proporcionar cada Skype para reunión de negocios y Teams de Microsoft con identificadores de conferencia diferente. Identificadores de conferencia dinámicas suponen una mejora significativa sobre conferencia estática IDs, ya que proporcionan:"
+ms.openlocfilehash: 0838014e8a88d5e27b6bd84838ea105b9f75025a
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="using-audio-conferencing-dynamic-ids-in-your-organization"></a>Uso de los identificadores de conferencia de Audio dinámicos en su organización
 
-# Uso de los identificadores dinámicos de conferencias de Audio de su organización
-
-> [!IMPORTANT]
-> Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades.  
+Se está actualizando el servicio de conferencia de Audio para proporcionar cada Skype para reunión de negocios y Teams de Microsoft con identificadores de conferencia diferente. Identificadores de conferencia dinámicas suponen una mejora significativa sobre conferencia estática IDs, ya que proporcionan:
   
-Se está actualizando el servicio de conferencia de Audio para proporcionar cada Skype para Business y Microsoft Teams reunión con identificadores de conferencia diferente. Identificadores de conferencia dinámicos son una mejora significativa sobre conferencias estático identificadores, ya que proporcionan:
-  
-- **Seguridad mejorada** La conferencia identificadores son únicos para cada Skype para empresas o Microsoft Teams reunión y se generan cuando programada de la reunión.
+- **Seguridad mejorada** La conferencia identificadores son únicos para cada Skype para reuniones de negocios o Teams de Microsoft y se generan cuando se programa la reunión.
     
 - **Una mejor experiencia para todo tipo de reuniones** Las reuniones de un único organizador reciben una información específica de acceso telefónico local para evitar que los participantes por teléfono de la reunión se mezclen con los participantes de otra cuando se programan una detrás de otra.
     
 - **Una transición constante** Cuando a su organización se le habilita un identificador de conferencia dinámico, todas las reuniones que ya se hayan programado con un identificador estático de conferencia seguirán funcionando.
     
 > [!TIP]
-> Identificadores dinámicos solo están disponibles para los usuarios que están habilitados para ** Conferencias de Audio** y ha establecido Microsoft como su proveedor de servicios de audioconferencia. Puede[Asignar Microsoft como proveedor de conferencias de audio](assign-microsoft-as-the-audio-conferencing-provider.md) para sus usuarios.
+> IDs dinámicas sólo están disponibles para los usuarios que están habilitados para ** conferencias de Audio ** y establecer como su proveedor de conferencia de audio de Microsoft. Puede [Asignar Microsoft como proveedor de conferencia de audio](assign-microsoft-as-the-audio-conferencing-provider.md) para los usuarios.
   
-## ¿Qué cambios verán los usuarios de mi organización?
+## <a name="what-changes-will-the-users-in-my-organization-see"></a>¿Qué cambios verán los usuarios de mi organización?
 
-Después de que los identificadores de conferencia dinámico se han habilitado para su organización, cualquier nueva Skype para la empresa o Teams de Microsoft que la reunión está programada por usuarios de su organización que están habilitados para conferencias de Audio tendrá conferencia identificadores que será distinta de la Identificador de conferencia estático que tenían antes. Organizadores que tenían estático identificadores de conferencia antes necesitan recordar a los usuarios unirse a sus reuniones que ahora debe usar un nuevo identificador de conferencia en la invitación de la reunión antes de que puedan unirse a ella.
+Después de IDs de conferencia dinámico se han habilitado para su organización, cualquier nuevo Skype para negocios o Teams Microsoft reunión que se programa por usuarios de la organización que están habilitados para conferencias de Audio tendrá conferencia identificadores que será diferente de la Id. de conferencia estática que tenían antes. Organizadores que habían estática identificadores de conferencia antes necesitan recordar a los usuarios unirse a sus reuniones que necesitan ahora para utilizar un nuevo ID de conferencia en la invitación de la reunión antes de que puedan unirse a él.
   
 > [!NOTE]
-> Reuniones que se han programado por un usuario con identificadores de conferencia estático antes de que la organización ha habilitado para conferencia dinámico que identificadores seguirán teniendo los identificadores de conferencia estático, por lo que deberá seguir programar reuniones sin tener impacto. 
+> Reuniones que estaban programadas por un usuario con identificadores de conferencia estática antes de que la organización se habilitó para conferencia dinámica que continuarán identificadores tengan los identificadores de conferencia estática, por lo que continúan programar reuniones sin ningún impacto. 
   
-Estos ejemplos muestra la nueva experiencia para dos Skype para reuniones que han sido clasificados por el mismo usuario pero, ambos tienen dos identificadores de conferencia diferente:
+Estos ejemplos muestran la nueva experiencia de dos Skype para reuniones de negocios que han sido clasificados por el mismo usuario pero ahora tendrán dos identificadores de conferencia diferente: 
   
-La **reunión 1** se ha programado de 9:00 a 10:00 y su id. de conferencia es 93907123:
+ La **reunión 1** se ha programado de 9:00 a 10:00 y su id. de conferencia es 93907123:
   
 ![First Dynamic Conference ID.](../images/997b2473-7645-46df-9774-95eb070c2239.png)
   
-El mismo usuario ha programado la **reunión 2** de 10:00 a 11:00 y su id. de conferencia es 16353789:
+ El mismo usuario ha programado la **reunión 2** de 10:00 a 11:00 y su id. de conferencia es 16353789:
   
 ![Second Dynamic Conference IDs](../images/e1eecc76-812b-426c-90e8-80e9f6f4ad31.png)
   
-## Temas relacionados
+## <a name="related-topics"></a>Temas relacionados
 
 - [Configurar Skype Empresarial Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [Configurar conferencias de Audio de Skype para la empresa y Teams de Microsoft](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+- La conferencia de acceso telefónico local o también denominada conferencia RTC no está disponible para toda la organización de Office 365.
     
-- [Skype para Business y Microsoft Teams licencias de complemento](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+- Puede obtener más información en [Conferencias de acceso telefónico en Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **Declinación de responsabilidades de traducción automática**: Este artículo se ha traducido con un sistema informático sin intervención humana. Microsoft ofrece estas traducciones automáticas para que los hablantes de otros idiomas distintos del inglés puedan disfrutar del contenido sobre los productos, los servicios y las tecnologías de Microsoft. Puesto que este artículo se ha traducido con traducción automática, es posible que contenga errores de vocabulario, sintaxis o gramática. 
-  
 

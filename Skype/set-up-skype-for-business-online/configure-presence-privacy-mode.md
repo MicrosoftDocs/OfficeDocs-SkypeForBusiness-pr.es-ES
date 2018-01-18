@@ -1,44 +1,44 @@
 ---
-title: "Configurar el modo de privacidad de presencia"
-ms.author: TONYSMIT
+title: Configurar el modo de privacidad de presencia
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/21/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.OrgPresencePrivacy
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: b33d57fe-b9cf-43c1-961a-edf28db738e8
-description: "Learn how to set up privacy mode for your users so they can better control how people see their availability. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: ms.lync.lac.OrgPresencePrivacy
+ms.custom: Setup
+description: "Aprenda a configurar el modo de privacidad de los usuarios para que pueden controlar mejor cómo personas ven su disponibilidad. "
+ms.openlocfilehash: b31e9fc7d3493daebe6fb7715155fb882eebd0af
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="configure-presence-privacy-mode"></a>Configurar el modo de privacidad de presencia
 
-# Configurar el modo de privacidad de presencia
-
-> [!IMPORTANT]
-> Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades.  
+El Skype para configuración de presencia en línea de negocio proporciona más control sobre quién puede ver si están disponibles, en una reunión o fuera de la oficina a personas. Para obtener más información acerca de Skype para la presencia de la empresa y la configuración de privacidad, vea [Configurar presencia en Skype para los negocios en línea](configure-presence-in-skype-for-business-online.md). 
   
-La configuración de presencia de Skype Empresarial Online proporciona mayor control sobre quién puede ver si están disponibles en una reunión o fuera de la oficina a personas. Para obtener más información sobre la presencia de Skype Empresarial y configuración de privacidad, vea [Configurar la presencia en Skype Empresarial Online](configure-presence-in-skype-for-business-online.md).
-  
-## Elija la configuración de presencia predeterminada para todos los miembros de una organización
+## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>Elija la configuración de presencia en línea predeterminada para todos los usuarios de su organización
 <a name="__top"> </a>
 
-1. Vaya al Centro de administración de Skype Empresarial Online > **Organización > General**.
+1. Vaya al Skype para el centro de administración de negocios en línea > **organización > General**.
     
-2. En **Modo de privacidad de presencia**, elija la configuración y haga clic en **Guardar**.
+2. En **el modo de privacidad de presencia**, elija la configuración y, a continuación, haga clic en **Guardar**.
     
-|****Configuración****|****Quién puede ver la presencia de un usuario****|
+|**Configuración**|**Quién puede ver la presencia de un usuario**|
 |:-----|:-----|
-|**Mostrar información de presencia automáticamente** <br/> |Todos los usuarios de Skype Empresarial que no pertenezcan a los grupos de privacidad **Externo** o **Bloqueado**.  <br/> |
-|**Mostrar la información de presencia solo a los contactos de un usuario** <br/> |Todas las personas de la lista de contactos de un usuario que no pertenezcan a los grupos de privacidad **Externo** o **Bloqueado**.  <br/> Los usuarios pueden cambiar esta configuración en el cuadro de diálogo **Opciones** de Skype Empresarial. <br/> |
+|**Mostrar información de presencia automáticamente** <br/> |Todos los usuarios de Skype Empresarial que no pertenezcan a los grupos de privacidad **Externo** o **Bloqueado**. <br/> |
+|**Mostrar información de presencia únicamente a los contactos de un usuario** <br/> |Cualquier persona de la lista de contactos de un usuario que no pertenezca al grupo de privacidad **externo** o **bloqueado** . <br/> Los usuarios individuales pueden cambiar esta configuración en el Skype para el cuadro de diálogo **Opciones** de negocio. <br/> |
    
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Temas relacionados
+[Configurar Skype Empresarial Online](set-up-skype-for-business-online.md)
 
-> [!NOTE]
-> **Declinación de responsabilidades de traducción automática**: Este artículo se ha traducido con un sistema informático sin intervención humana. Microsoft ofrece estas traducciones automáticas para que los hablantes de otros idiomas distintos del inglés puedan disfrutar del contenido sobre los productos, los servicios y las tecnologías de Microsoft. Puesto que este artículo se ha traducido con traducción automática, es posible que contenga errores de vocabulario, sintaxis o gramática. 
-  
-
+[Permitir Skype para usuarios de negocios agregar contactos de Skype](let-skype-for-business-users-add-skype-contacts.md)

@@ -1,29 +1,35 @@
 ---
-title: "Activar o desactivar la precarga de contenido con Outlook en las reuniones"
+title: Activar o desactivar la precarga de contenido con Outlook en las reuniones
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/17/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: d217d422-f7e9-433d-ad24-bf41751f65ca
-description: "See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
+ms.openlocfilehash: 7cef226e6b2370aa486476375a5c4747dbe9e5b4
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Activar o desactivar la precarga de contenido con Outlook en las reuniones
 
-# Activar o desactivar la precarga de contenido con Outlook en las reuniones
-
-> [!IMPORTANT]
-> Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades.  
-  
-Los usuarios pueden cargar contenido, archivos o datos adjuntos que se han adjuntado a una invitación de reunión de Outlook a un Skype empresarial Online reunión, pero se puede activar o desactivar. Está activada de forma predeterminada para todas las organizaciones que usan Skype empresarial Online. Vea cómo [Precargar datos adjuntos para una reunión de Skype Empresarial.](http://technet.microsoft.com/library/fd3d9f9d-b448-4754-b813-02e49393f251%28Office.14%29.aspx).
+Los usuarios pueden cargar contenido, archivos o datos adjuntos vinculados a una invitación de reunión de Outlook a un Skype para reuniones de negocios en línea, pero se puede activar o desactivar. Está activada de forma predeterminada en todas las organizaciones que utilizan Skype para los negocios en línea. Vea cómo en [precarga datos adjuntos para un Skype para la reunión de negocios](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251).
   
 > [!NOTE]
-> En este momento no hay ningún cmdlets disponibles en Skype empresarial Online para configuración o ver los valores en línea para  _MaxContentStorageMB_ y _MaxUploadFileMB_. Solo están disponibles para las implementaciones locales. Es importante saber que el contenido no se cargarán en una reunión si el contenido adjunto supera el  _MaxUploadFileSizeMB_ o si se ha alcanzado el límite de _MaxContentStorageMB_.
+> Actualmente, no hay ningún cmdlets disponibles en Skype para los negocios en línea para la configuración o la visualización de valores en línea para _MaxContentStorageMB_ y _MaxUploadFileMB_. Sólo están disponibles para las implementaciones locales. Es importante saber que el contenido no se cargarán en una reunión si el contenido adjunto supera el _MaxUploadFileSizeMB_ o si se alcanza el límite de _MaxContentStorageMB_ .
   
-## Para empezar
+## <a name="to-get-you-started"></a>Para empezar
 
 ### 
 
@@ -37,7 +43,7 @@ Los usuarios pueden cargar contenido, archivos o datos adjuntos que se han adjun
     
 4. También necesitará instalar el módulo Windows PowerShell para Skype Empresarial Online que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype Empresarial Online. Este módulo, que solo se admite en equipos de 64 bits, puede descargarse desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=294688). Reinicie el equipo cuando se le solicite.
     
-Si necesita más información, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
+Si necesita más información, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
   
 ### 
 
@@ -70,14 +76,14 @@ Si necesita más información, consulte [Conectarse a todos los servicios de Off
   Import-PSSession $session
   ```
 
-Si desea obtener más información sobre cómo iniciar Windows PowerShell, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) o[Conectarse a Skype Empresarial Online con Windows PowerShell](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx).
+Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar con todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [conectarse a Skype para los negocios en línea mediante el uso de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
-## Activación o desactivación
+## <a name="turning-it-on-or-off"></a>Activación o desactivación
 
-Posibilidad de cargar contenido adjuntado a una invitación de reunión de Outlook para Skype para reuniones en línea de negocio está activada de forma predeterminada, pero necesita impedir que los usuarios de su organización desde precargar contenido en sus reuniones.
+Posibilidad de cargar contenido adjunto a una invitación de reunión de Outlook para Skype para reuniones de negocios en línea está activada de forma predeterminada, pero debe evitar que los usuarios de su organización en precarga contenido en sus reuniones.
   
 > [!IMPORTANT]
-> Esta configuración se puede sólo activar o desactivar para toda la organización; no puede activar o desactivar para un solo usuario. 
+> Esta configuración puede sólo activar o desactivar para toda la organización; no se activa o desactiva para un único usuario. 
   
  **Para desactivarla, abra Windows PowerShell y haga lo siguiente:**
   
@@ -91,7 +97,7 @@ Grant-CsGraphPolicy -PolicyName GraphDisabled
 Grant-CsGraphPolicy -PolicyName GraphEnabled 
 ```
 
-## ¿Quiere saber más sobre Windows PowerShell?
+## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
 - En relación con Windows PowerShell, todo se reduce a la administración de usuarios y de lo que pueden o no hacer los usuarios. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
@@ -107,10 +113,7 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
     
   - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Temas relacionados
+[Configurar Skype Empresarial Online](set-up-skype-for-business-online.md)
 
-> [!NOTE]
-> **Declinación de responsabilidades de traducción automática**: Este artículo se ha traducido con un sistema informático sin intervención humana. Microsoft ofrece estas traducciones automáticas para que los hablantes de otros idiomas distintos del inglés puedan disfrutar del contenido sobre los productos, los servicios y las tecnologías de Microsoft. Puesto que este artículo se ha traducido con traducción automática, es posible que contenga errores de vocabulario, sintaxis o gramática. 
-  
-
+[Permitir Skype para usuarios de negocios agregar contactos de Skype](let-skype-for-business-users-add-skype-contacts.md)

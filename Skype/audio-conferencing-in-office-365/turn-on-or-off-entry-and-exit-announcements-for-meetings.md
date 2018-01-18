@@ -1,59 +1,64 @@
 ---
-title: "Activar o desactivar los anuncios de entrada y salida para las reuniones"
+title: Activar o desactivar los avisos de entrada y salida para las reuniones
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/22/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: f2c7b5ea-07b6-4b77-8023-bec9596fcc32
-description: "Learn how to turn entry and exit announcements on or off in a Skype for Business Online meeting using the Skype for Business admin center. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: "Obtenga información sobre cómo activar la entrada y salida anuncios o desactivar un Skype para reuniones de negocios en línea usando el Skype para el centro de administración de negocios. "
+ms.openlocfilehash: 2298450d28ebb09acb87820b1f8a01cb9196708e
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>Activar o desactivar los avisos de entrada y salida para las reuniones
 
-# Activar o desactivar los anuncios de entrada y salida para las reuniones
-
-> [!IMPORTANT]
-> Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades.  
+Cuando configura la audioconferencia en Office 365, obtendrá un puente de conferencia de audio. Un puente de conferencia puede contener uno o más números de teléfono que utilizarán las personas que llaman a un Skype para reuniones de negocios o Teams de Microsoft. 
   
-Cuando configura audioconferencia en Office 365, obtendrá un puente de conferencia de audio. Un puente de conferencia puede contener uno o más números de teléfono que personas utilizarán para llamar a un Skype para empresas o Microsoft Teams reunión.
+El puente de conferencia responde a una llamada de un usuario que está marcando a una reunión mediante un teléfono. El puente de conferencia responde al llamador con indicaciones de voz de un operador automático de conferencia y, a continuación, dependiendo de la configuración, puede reproducir las notificaciones, pida a los llamadores para registrar su nombre y configurar la seguridad de NIP. Un PIN se asigna a un Skype para el organizador de la reunión de negocios o Teams de Microsoft, y les permite iniciar una reunión si no pueden comenzar la reunión mediante un Skype para la aplicación de negocios o Teams de Microsoft. Sin embargo, se puede establecer para que no sea necesario un PIN para iniciar una reunión.
   
-El puente de conferencia responde una llamada para un usuario que está marcando a una reunión mediante un teléfono. El puente de conferencia responde a la llamada con mensajes de voz de un operador automático de conferencia y, a continuación, según su configuración, puede reproducir las notificaciones, pida a las personas que llaman a grabar su nombre y a continuación, configure la seguridad PIN. Un PIN le proporcionará un Skype para empresas o Microsoft Teams organizador de la reunión y, a continuación, les permite iniciar una reunión si no pueden iniciar la reunión mediante un Skype para empresas o Microsoft Teams la aplicación. Sin embargo, puede configurarlo para que no se necesita un PIN para iniciar una reunión.
-  
-## Configurar las opciones para unirse a una reunión
+## <a name="setting-meeting-join-options"></a>Configuración de opciones de combinación de reunión
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+2. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-3. En la **Centro de administración de Skype Empresarial**, en el panel de navegación izquierdo, vaya a las **conferencias de Audio** > **Configuración del puente de Microsoft**.
+3. En el **Skype para el centro de administración de negocios**, en la exploración de la izquierda, vaya a las **conferencias de Audio** > **configuración de puente de Microsoft**.
     
-4. En **experiencia de unirse a la reunión**, active o desactive **Habilitar la entrada de la reunión y salir de notificaciones para ser activado**. Esta opción está seleccionada de forma predeterminada. Si se desactiva, los usuarios que ya se han unido a la reunión no recibir una notificación cuando alguien entra o sale de la reunión.
+4. En **experimentar la combinación de la reunión**, active o desactive **Permitir la entrada de la reunión y salir notificaciones al activarse**. Esto está seleccionada por defecto. Si lo desactiva, los usuarios que ya han participado en la reunión no le notificará cuando alguien entra o sale de la reunión.
     
-5. En **tipo de anuncio de entrada o salida**, seleccione **los nombres o números de teléfono** o **tonos**.
+5. En **tipo de anuncio de entrada/salida**, seleccione **los nombres o números de teléfono** o **tonos**.
     
-6. Active o desactive **las personas que llaman de Ask grabar su nombre antes de unirse a la reunión**.
+6. Active o desactive **los llamadores Ask para registrar su nombre antes de unirse a la reunión**.
     
-7. Después de realizar los cambios, haga clic en **Guardar**.
+7. **Solicitar a los autores de la llamada que registren su nombre antes de unirse a la reunión**. Esta opción está seleccionada de forma predeterminada. Si la desactiva, no se solicitará a las personas que llamen que registren su nombre antes de unirse a una reunión.
     
-## ¿Desea saber cómo administrar con Windows PowerShell?
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 
-- Para ahorrar tiempo o automatizar este proceso, puede usar el cmdlet [Set-CsOnlineDialInConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686 ) .
+- Para ahorrar tiempo o automatizar esta tarea, puede utilizar el cmdlet [Set-CsOnlineDialInConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686 ) .
     
-- Cuando se trata de Windows PowerShell, Skype Empresarial Online consiste en administración de usuarios y lo que los usuarios se permiten o no hacer. Con Windows PowerShell, puede administrar Office 365 mediante un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas a realizar. Para empezar con Windows PowerShell, consulte estos temas:
+-  Cuando se trata de Windows PowerShell, Skype Empresarial Online se centra en la administración de usuarios y en determinar qué pueden o no hacer los usuarios. Con Windows PowerShell, puede administrar Office 365 con un único punto de administración que puede simplificar el trabajo diario cuando tiene varias tareas que realizar. Para empezar a usar Windows PowerShell, vea estos temas:
     
-  - [¿Por qué necesita usar PowerShell de Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 con un único punto de administración que puede simplificar el trabajo diario cuando tenga que realizar varias tareas. Para empezar a usar Windows PowerShell, vea estos temas:
     
-  - [Mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell tiene muchas ventajas velocidad, simplificar y productividad sobre usando solo el centro de administración de Office 365 como cuando realice cambios en la configuración de muchos usuarios a la vez. Obtenga más información sobre estas ventajas en los siguientes temas:
+- Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad sobre utilizando sólo el centro de administración de Office 365, como cuando realice cambios en la configuración de muchos usuarios al mismo tiempo. Obtenga información acerca de estas ventajas en los siguientes temas: 
     
-  - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
   - [Usar Windows PowerShell para administrar Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
@@ -62,16 +67,7 @@ El puente de conferencia responde una llamada para un usuario que está marcando
     > [!NOTE]
     > El módulo Windows PowerShell para Skype Empresarial Online le permite crear una sesión de Windows PowerShell remota que se conecta con Skype Empresarial Online. Este módulo, que solo es compatible con equipos de 64 bits, se puede descargar desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Temas relacionados
 
-> [!NOTE]
-> **Declinación de responsabilidades de traducción automática**: Este artículo se ha traducido con un sistema informático sin intervención humana. Microsoft ofrece estas traducciones automáticas para que los hablantes de otros idiomas distintos del inglés puedan disfrutar del contenido sobre los productos, los servicios y las tecnologías de Microsoft. Puesto que este artículo se ha traducido con traducción automática, es posible que contenga errores de vocabulario, sintaxis o gramática. 
-  
-## Vea también
-<a name="MT_Footer"> </a>
-
-#### 
-
-[Conferencias de acceso telefónico en Office 365](../misctopics/dial-in-conferencing-in-office-365.md)
+[Preguntas frecuentes de audio conferencia](audio-conferencing-common-questions.md)
 

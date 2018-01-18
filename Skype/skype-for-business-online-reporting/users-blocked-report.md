@@ -1,74 +1,83 @@
 ---
-title: "Informe de bloqueados de Skype para los usuarios empresariales"
+title: Informe de usuarios bloqueados
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/24/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: 0ac844b2-1b08-4e5a-addf-03cde7af7a40
-description: "Learn about setting up Skype for Business Online domain federation with the domains you specify. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Reporting
+description: "Este informe, junto con otro Skype para los informes de negocios, ofrece detalles sobre la actividad, incluyendo el uso PSTN en toda la organización. "
+ms.openlocfilehash: 462018abc071c990fa89c226081d4bae78213b04
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="users-blocked-report"></a>Informe de usuarios bloqueados
 
-# Informe de bloqueados de Skype para los usuarios empresariales
-
-> [!IMPORTANT]
-> Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades.  
+El nuevo Skype para **informes** de Business dashboard muestra el resumen de la actividad en el Skype para productos comerciales de la organización. Permite profundizar para informes individuales a nivel de producto para brindar información más detallada acerca de las actividades dentro de cada producto. Por ejemplo, puede utilizar el informe de **Skype para usuarios de negocios bloqueados** para ver los usuarios de la organización que le impide realizar llamadas PSTN. Este informe, junto con otro Skype para los informes de negocios, ofrece detalles sobre la actividad, incluyendo el uso PSTN en toda la organización.
   
-El nuevo Skype para Business **informes** panel muestra la información general de la actividad a través de la Skype para productos de empresa de su organización. Le permite explorar los informes de nivel de producto individuales que le proporcione información más detallada sobre las actividades dentro de cada producto. Por ejemplo, puede usar el informe de **Skype para los usuarios empresariales bloqueados** para ver los usuarios de su organización que se ha bloqueado de realizar llamadas de RTC. Este informe, junto con otro Skype para los informes de empresa, ofrece detalles sobre la actividad, incluyendo el uso de RTC en toda la organización.
-  
-Consulte la [Informes de actividades en el Centro de administración de Office 365](http://technet.microsoft.com/library/0d6dfb17-8582-4172-a9a9-aed798150263%28Office.14%29.aspx) para obtener más informes que están disponibles.
+ Consulte la [información general de informes](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para informes más que están disponibles.
   
 > [!NOTE]
 > Puede ver todos los informes de Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Office 365. 
   
-## Cómo obtener acceso a la Skype para los usuarios empresariales bloqueados informe
+## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>Cómo llegar a la Skype para usuarios de negocios bloqueado informe
 
-- Vaya al **Centro de administración de Office 365** > **centros de administración** > ** Skype centro de administración de negocio** > **informes** > **usuarios bloquean**.
+- Ir al **Centro de administración de Office 365** > **centra Admin** > **Skype para el centro de administración de negocios** > **informes** > **los usuarios bloquean**.
     
-## Interpretar la Skype para informe de usuarios bloqueados de empresa
+## <a name="interpret-the-skype-for-business-users-blocked-report"></a>Interpretar el Skype para informe de negocio los usuarios bloqueados
 
-Puede obtener una vista a los usuarios bloqueados consultando cada una de las columnas mostradas.
+Puede obtener una vista a los usuarios bloqueados mirando en cada una de las columnas mostradas.
   
-Este es el aspecto del informe.
+Este es el aspecto del informe. 
   
-![Blocked users report](../images/df50a413-7a51-4340-a59b-3f83de941762.png)
-  
-|||
-|:-----|:-----|
-|**1** <br/> | La tabla muestra un desglose de todos los usuarios que están bloqueados y realizar llamadas. Muestra todos los usuarios que tienen el sistema telefónico o conferencias de Audio que se les ha asignado. Se pueden agregar o quitar columnas a la tabla. <br/> **Identificador de usuario** está en el inicio de sesión del usuario. <br/> **Número de teléfono** es el número de teléfono asignado a un usuario. <br/> **Hora de la acción de bloqueo** es la hora (UTC) en que se bloqueó al usuario para que no pudiera realizar llamadas. <br/> **Acción de bloqueo** es el tipo de acción que se realizó para bloquear al usuario. <br/> **Motivo de la acción de bloqueo** es el motivo por el que se bloqueó al usuario para que no pudiera realizar llamadas. <br/> |
-|**2** <br/> |Haga clic para arrastrar una columna a **Para agrupar por una columna concreta, arrastre y coloque el encabezado de columna aquí** si desea crear una vista que agrupe todos los datos de una o más columnas. <br/> |
-|**3** <br/> |También puede exportar los datos del informe a un archivo .csv de Excel haciendo clic o tocando pulsando en el botón **Exportar a Excel**.  <br/> Exporta datos de todos los usuarios y le permite hacer de ordenación y filtrado para realizar un análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar de la tabla en el informe. Si tiene más de 2000 usuarios, con el fin de filtrar y ordenar, debe exportar los datos.  <br/> |
+![Informe de los usuarios bloqueados](../images/df50a413-7a51-4340-a59b-3f83de941762.png)
+
+La tabla muestra un desglose de todos los usuarios que están bloqueadas para realizar llamadas. Muestra todos los usuarios con el sistema de teléfono o conferencias de Audio que se les asigne. Se pueden agregar o quitar columnas de la tabla.
+***
+![Número 1](../images/sfbcallout1.png)
+*   **Id. de usuario** está en el inicio de sesión del usuario.
+*   **Número de teléfono** es el número que se asigna a un usuario. 
+*   **Tiempo de acción de bloque** es el tiempo (UTC) que el usuario no pudo realizar llamadas.
+*   **Acción de bloqueo** es el tipo de acción que se ha tomado para bloquear al usuario.
+*   **Motivo de la acción de bloque** es el motivo que se ha bloqueado el usuario realizar llamadas.
+***
+![Número 2](../images/sfbcallout2.png)<br/>
+Haga clic para arrastrar una columna a **Para agrupar por una columna concreta, arrastre y coloque el encabezado de columna aquí** si desea crear una vista que agrupe todos los datos de una o más columnas.
+***
+![Número 3](../images/sfbcallout3.png)<br/>
+También puede exportar los datos del informe a un archivo .csv de Excel haciendo clic o tocando pulsando en el botón **Exportar a Excel**.
+
+Esto exporta los datos de todos los usuarios y permite realizar la ordenación y el filtrado para un posterior análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar dentro de la tabla en el informe. Si tiene más de 2000 usuarios, con el fin de filtrar y ordenar, debe exportar los datos.
+***
+
+## <a name="want-to-see-other-skype-for-business-reports"></a>¿Desea ver otros informes de Skype Empresarial?
+
+- [Skype para el informe de la actividad de negocio](activity-report.md) Puede ver cuánto los usuarios utilizan peer-to-peer, organizada y participó en sesiones de conferencia.
+    
+- [Skype para el informe de uso del dispositivo de empresa](device-usage-report.md) Puede ver los dispositivos incluyendo sistemas operativos basados en Windows y dispositivos móviles que tienen el Skype para el negocio de la aplicación instalada y lo utilizan para mensajería instantánea y reuniones.
+    
+- [Skype para informe de actividad de negocio conferencia multimedia](conference-organizer-activity-report.md) Puede ver cuánto los usuarios están organizando las conferencias que utilizan mensajería instantánea, audio y vídeo, compartir aplicaciones, Web, dial-in/out - 3ª parte y el dial-in/out - Microsoft.
+    
+- [Skype para informe de actividad de participantes de conferencia de negocio](conference-participant-activity-report.md) Puede ver cuántos de mensajería instantánea, audio o vídeo, compartir aplicaciones, Web y y conferencias conferencia dial-in/out están siendo participó en.
+    
+- [Skype para informe de actividad de igual a igual de negocio](peer-to-peer-activity-report.md) Puede ver cuánto los usuarios utilizan mensajería instantánea, audio y vídeo, uso compartido de aplicaciones y transferencia de archivos.
+    
+- [Skype para el informe de uso del negocio PSTN](pstn-usage-report.md) Puede ver el número de minutos dedicado a llamadas de entrada y de salida y el costo para estas llamadas.
+
+- [Skype para informe de minuto grupos empresariales PSTN](pstn-minute-pools-report.md) puede ver el número de minutos consumidos durante el mes actual dentro de la organización.
+
+- [Skype para el informe de detalles de sesión de negocios](session-details-report.md) Puede ver detalles acerca de experiencias de llamada del usuario individual.
    
-## ¿Desea ver otros informes de Skype Empresarial?
-
-- [Informe de actividad de Skype Empresarial](skype-for-business-activity-report.md) Puede ver cuánto los usuarios utilizan punto a punto, organizada y participó en sesiones de conferencia.
-    
-- [Skype para el informe de uso del dispositivo de empresa](skype-for-business-device-usage-report.md) Puede para ver los dispositivos incluidos sistemas operativos basados en Windows y dispositivos móviles que tienen el Skype empresarial instalan y utilizan para mensajería instantánea y reuniones.
-    
-- [Informe de actividad de organizador de conferencias de Skype Empresarial](skype-for-business-conference-organizer-activity-report.md) Puede ver cuánto los usuarios están organizar conferencias que utilizan mensajería instantánea, audio y vídeo, uso compartido de Web, marcado o fuera de las partes - 3 º y marcado-o fuera de Microsoft.
-    
-- [Informe de actividad de participantes de conferencias de Skype Empresarial](skype-for-business-conference-participant-activity-report.md) Puede ver cuántas mensajería instantánea, audio o vídeo, compartir aplicaciones, Web y y conferencias de conferencias de acceso telefónico o fuera son que se ha participado en.
-    
-- [Informe de actividad punto a punto de Skype Empresarial](skype-for-business-peer-to-peer-activity-report.md) Puede ver cuánto los usuarios utilizan mensajería instantánea, audio y vídeo, uso compartido de aplicaciones y transferencia de archivos.
-    
-- [Informe de uso de RTC de Skype Empresarial](skype-for-business-pstn-usage-report.md) Puede ver el número de minutos de llamadas entrantes y salientes y el costo para estas llamadas.
-    
-- [Informe de bloqueados de Skype para los usuarios empresariales](0ac844b2-1b08-4e5a-addf-03cde7af7a40.md) Puede ver los detalles sobre el tipo de medio que se usa, la duración de la sesión, el cliente que utiliza y la dirección URL de la conferencia.
-    
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **Declinación de responsabilidades de traducción automática**: Este artículo se ha traducido con un sistema informático sin intervención humana. Microsoft ofrece estas traducciones automáticas para que los hablantes de otros idiomas distintos del inglés puedan disfrutar del contenido sobre los productos, los servicios y las tecnologías de Microsoft. Puesto que este artículo se ha traducido con traducción automática, es posible que contenga errores de vocabulario, sintaxis o gramática. 
-  
-## Vea también
-<a name="MT_Footer"> </a>
-
-#### 
-
-[Informes de actividades en el Centro de administración de Office 365](http://technet.microsoft.com/library/0d6dfb17-8582-4172-a9a9-aed798150263%28Office.14%29.aspx)
-
+## <a name="related-topics"></a>Temas relacionados
+[Informes de actividad en el centro de administración de Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

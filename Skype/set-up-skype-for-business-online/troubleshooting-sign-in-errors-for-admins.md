@@ -1,212 +1,215 @@
 ---
-title: "Solución de problemas de inicio de sesión de Skype Empresarial Online para administradores"
+title: "Solución de problemas de Skype para errores de inicio de sesión empresarial en línea para administradores"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-ms.prod: office-online-server
-localization_priority: Normal
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: cdd4801a-2fe1-4aab-bbb6-db5f95f972d1
-description: "Learn common causes for Skype for Business Online sign-errors and Work through troubleshooting these problems. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: "Aprender las causas comunes de Skype para errores de inicio de sesión empresarial en línea y el trabajo a través de solucionar estos problemas. "
+ms.openlocfilehash: 55ef2775ecc2f04fe9ce89dc8691c9186512a0e0
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Solución de problemas de Skype para errores de inicio de sesión empresarial en línea para administradores
 
-# Solución de problemas de inicio de sesión de Skype Empresarial Online para administradores
-
-> [!IMPORTANT]
-> Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades.  
+Para solucionar los errores de inicio de sesión de negocios en línea Skype, iniciar mediante la eliminación de las causas más comunes de problemas de inicio de sesión. Si es necesario, puede seguir los pasos en función del tipo de error de resolución específica. Si el usuario todavía no puede iniciar sesión, recopilar información adicional y, a continuación, buscar ayuda adicional. 
   
-Para solucionar errores de inicio de sesión de Skype Empresarial Online, empiece eliminando las causas más comunes de problemas de inicio de sesión. Si es necesario, puede seguir pasos en función del tipo de error de resolución específica. Si el usuario aún no puede iniciar sesión, recopilar información adicional y, a continuación, buscar ayuda adicional.
-  
-## ¿Qué desea hacer?
-<a name="__top"> </a>
+## <a name="what-do-you-want-to-do"></a>¿Qué acción desea realizar?
+<a name="top"> </a>
 
-> [Comprobar causas frecuentes de errores de inicio de sesión de Skype Empresarial Online](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#__toc323194094)
+> [Verificación de las causas comunes de Skype para errores de inicio de sesión de negocios en línea](troubleshooting-sign-in-errors-for-admins.md#toc323194094)
     
-> [Seguir pasos de solución para un error específico (solo empresas)](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#__toc325626440)
+> [Siga los pasos de resolución de un error específico (sólo empresas)](troubleshooting-sign-in-errors-for-admins.md#toc325626440)
     
-> [Agregue una entrada de firewall para msoidsvc.exe en su servidor proxy](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#__add_a_firewall)
+> [Agregar una entrada de servidor de seguridad para msoidsvc.exe en su servidor proxy](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall)
     
-> [Actualizar la configuración DNS](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#__update_dns_service)
+> [Actualizar la configuración de DNS](troubleshooting-sign-in-errors-for-admins.md#update-dns-service)
     
-> [Instale un certificado SSL de un tercero en su servidor ADFS](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#__verify_upn_and)
+> [Instalar un certificado SSL de terceros en el servidor ADFS](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and)
     
-> [Actualizar credenciales de seguridad](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#__update_security_credentials_1)
+> [Actualizar las credenciales de seguridad](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials)
     
-> [Modifique las claves de registro TrustModelData](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#__modify_trustmodeldata_registry)
+> [Modificar las claves del registro TrustModelData](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry)
     
-> [Actualice la configuración de usuario en Active Directory](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#__update_user_settings_1)
+> [Actualizar la configuración de usuario en Active Directory](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)
     
-> [Usar la guía de solución de problemas del soporte técnico de Microsoft](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#__toc325626447)
+> [Utilice el Support Microsoft Guía de solución de problemas](troubleshooting-sign-in-errors-for-admins.md#toc325626447)
     
-> [Recopilar más información y buscar ayuda adicional](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#__collect_more_information_1)
+> [Recopilar más información y buscar ayuda adicional](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)
     
-## Comprobar causas frecuentes de errores de inicio de sesión de Skype Empresarial Online
-<a name="__toc323194094"> </a>
+## <a name="check-for-common-causes-of-skype-for-business-online-sign-in-errors"></a>Verificación de las causas comunes de Skype para errores de inicio de sesión de negocios en línea
+<a name="toc323194094"> </a>
 
-Problemas de inicio de sesión mayoría pueden deberse a un pequeño número de causas y muchos de ellos son fáciles de corregir. La siguiente tabla enumera algunas causas comunes de errores de inicio de sesión y algunos pasos que usted o los usuarios pueden seguir para resolverlos.
+Problemas de inicio de sesión más pueden atribuirse a un pequeño número de causas y muchas de ellas son fáciles de corregir. La tabla siguiente enumera algunas causas comunes de errores de inicio de sesión y algunos pasos que usted o los usuarios pueden realizar para resolverlas.
   
-|**Causa posible**|**Solución**|
+|**Causa posible**|**Resolución**|
 |:-----|:-----|
-|Durante el inicio de sesión, aparece un cuadro de diálogo que contiene la siguiente frase: **no puede verificar si el servidor es de confianza para la dirección de inicio de sesión. Conectar de todos modos?** <br/> |Verifique que el nombre de dominio del cuadro de diálogo pertenezca a un servidor de confianza de su organización, por ejemplo, **domainName.contoso.com**. Pídale al usuario que seleccione la casilla **Confiar siempre en este servidor** y, a continuación, haga clic en **Conectar**. <br/> Los clientes empresariales pueden evitar que aparezca este mensaje cuando un usuario inicia sesión por primera vez, modificando el registro de Windows en el equipo de cada usuario. Para obtener detalles, consulte [Modifique las claves de registro TrustModelData](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#__modify_trustmodeldata_registry).  <br/> |
-|Error en la escritura de la dirección de inicio de sesión, nombre de usuario o contraseña  <br/> | Confirme que el nombre de inicio de sesión y la contraseña del usuario sean correctos. <br/>  Verifique que el nombre de inicio de sesión del usuario tenga el siguiente formato: **bobk@contoso.com**. Este puede ser diferente al formato que usó para iniciar sesión en la red de su organización.  <br/>  Pídale al usuario que intente iniciar sesión de nuevo. <br/> |
-|Olvido de la contraseña  <br/> |Restablezca la contraseña del usuario y notifíquele la nueva contraseña provisoria.  <br/> |
-|No tiene licencia para usar Skype Empresarial Online  <br/> |Confirme que el usuario está registrado como un usuario Skype Empresarial Online. Si no es así, registrar al usuario y, a continuación, pídale al volver a iniciar sesión.  <br/> |
-|Versión incorrecta de Skype Empresarial Online instalado  <br/> |En general, este problema se asocia a un mensaje de error que contiene la siguiente frase: **es posible que el servicio de autenticación no sea compatible con esta versión del programa**.  <br/> Pídale al usuario que desinstale y vuelva a Skype Empresarial Online desde el Portal de Office 365.  <br/> |
-|Problema para adquirir un certificado personal obligatorio para iniciar sesión  <br/> |Si recientemente ha cambiado la dirección de inicio de sesión del usuario, deberá eliminar datos de inicio de sesión en caché. Pida a los usuarios para cerrar la sesión, haga clic en eliminar mi información de inicio de sesión de vínculo en la pantalla de inicio de sesión y vuelva a intentarlo.  <br/> |
-|Estableció un nombre de dominio personalizado y es posible que los cambios no hayan terminado de propagarse en el sistema.  <br/> |En primer lugar, asegúrese de que ha modificado los registros del servicio de nombres de dominio (DNS) para reflejar el cambio.  <br/> Si ya hizo los cambios necesarios en el DNS, recomiéndele al usuario que intente iniciar sesión más tarde. Los cambios en el DNS pueden demorar hasta 72 horas en verse reflejados en el sistema.  <br/> |
-|Reloj del sistema no sincronizado con el reloj del servidor  <br/> |Asegúrese de que el controlador de dominio de su red se esté sincronizando con una fuente de tiempo externa confiable. Para obtener detalles, consulte el artículo 816042 de Microsoft Knowledge Base, [Cómo configurar un servidor de tiempo autoritativo en Windows Server](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042).  <br/> |
+|Al iniciar la sesión, aparece un cuadro de diálogo que contiene la frase siguiente: **no se puede comprobar que el servidor es de confianza en la dirección de inicio de sesión. Conectarse de todas formas?** <br/> |Compruebe que el nombre de dominio en el cuadro de diálogo es un servidor de confianza en su organización, por ejemplo, **domainName.contoso.com**. Pedir al usuario que Active la casilla de verificación **Confiar siempre en este servidor** y, a continuación, haga clic en **Conectar**. <br/> Los clientes empresariales pueden impedir que este mensaje aparezca cuando un usuario inicia sesión por primera vez modificando el registro de Windows en el equipo de cada usuario. Para obtener más información, consulte [TrustModelData modificar las claves del registro](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry).<br/> |
+|Cuya dirección de inicio de sesión, nombre de usuario o contraseña  <br/> | Confirme que el nombre de inicio de sesión del usuario y la contraseña son correctos. <br/>  Compruebe que el nombre de usuario inicio de sesión tiene el formato siguiente: **bobk@contoso.com**. Esto puede ser diferente del formato que se utiliza para iniciar sesión en la red de su organización.  <br/>  Pedir al usuario que intente iniciar sesión de nuevo. <br/> |
+|Contraseña olvidada  <br/> |Restablecer la contraseña del usuario y notificar a él o ella de la nueva contraseña temporal.  <br/> |
+|No tiene licencia para utilizar Skype para los negocios en línea  <br/> |Confirme que el usuario se registra como un Skype para usuarios de negocios en línea. Si no es así, registrar al usuario y, a continuación, pídale al iniciar sesión de nuevo.  <br/> |
+|Versión incorrecta de Skype para los negocios en línea instalado  <br/> |Este problema se suele estar asociado a un mensaje de error que contenga la frase siguiente: **el servicio de autenticación puede ser incompatible con esta versión del programa**.  <br/> Pedir al usuario que desinstalar y volver a instalar Skype para los negocios en línea desde el Portal de Office 365.  <br/> |
+|Problema al adquirir un certificado personal necesario para iniciar sesión en  <br/> |Si recientemente ha cambiado la dirección de inicio de sesión del usuario, deberá eliminar los datos de inicio de sesión en caché. Pedir a los usuarios cerrar la sesión, haga clic en eliminar mi información de inicio de sesión de enlace en la pantalla de inicio de sesión y vuelva a intentarlo.  <br/> |
+|Configurar un nombre de dominio personalizado, y los cambios que no hayan terminado de propagarse a través del sistema.  <br/> |En primer lugar, asegúrese de que ha modificado los registros del servicio de nombres de dominio (DNS) para reflejar el cambio.  <br/> Si ya ha realizado los cambios necesarios de DNS, aconsejar al usuario que vuelva a conectarse más tarde. Cambios de DNS pueden tardar hasta 72 horas para que se reflejen en todo el sistema.  <br/> |
+|Sistema de reloj sincronizados con el reloj del servidor  <br/> |Asegúrese de que el controlador de dominio de la red se sincroniza con un origen de hora externo confiable. Para obtener más información, consulte el artículo 816042 de Microsoft Knowledge Base [cómo configurar un servidor horario con autoridad en Windows Server](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042).<br/> |
    
-[Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades. Para su referencia, puede encontrar la versión en inglés de este artículo aquíhttps://support.office.com/en-us/article/cdd4801a-2fe1-4aab-bbb6-db5f95f972d1. Para solucionar errores de inicio de sesión de Skype Empresarial Online, empiece eliminando las causas más comunes de problemas de inicio de sesión. Si es necesario, puede seguir pasos en función del tipo de error de resolución específica. Si el usuario aún no puede iniciar sesión, recopilar información adicional y, a continuación, buscar ayuda adicional.](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#__top)
+Para solucionar los errores de inicio de sesión de negocios en línea Skype, iniciar mediante la eliminación de las causas más comunes de problemas de inicio de sesión. Si es necesario, puede seguir los pasos en función del tipo de error de resolución específica. Si el usuario todavía no puede iniciar sesión, recopilar información adicional y, a continuación, buscar ayuda adicional. 
   
-## Seguir pasos de solución para un error específico (solo empresas)
-<a name="__toc325626440"> </a>
+## <a name="follow-resolution-steps-for-a-specific-error-enterprise-only"></a>Siga los pasos de resolución de un error específico (sólo empresas)
+<a name="toc325626440"> </a>
 
 > [!IMPORTANT]
-> Estas instrucciones se crearon para los clientes de Microsoft Office 365, Plan E. Si usted es cliente de Office 365, Plan P, pase a la sección que sigue, [Recopilar más información y buscar ayuda adicional](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#__collect_more_information_1). 
+>  Estas instrucciones están pensadas principalmente para clientes de Microsoft Office 365 Plan E. Si es un cliente de Office 365 Plan P, continúe con la siguiente sección,[recopilar más información y buscar ayuda adicional ](troubleshooting-sign-in-errors-for-admins.md#collect-more-information). 
   
-Si ya probó las sugerencias de la sección anterior y el usuario todavía no puede iniciar sesión, puede seguir intentando solucionar el problema, según el tipo de error. En la siguiente tabla, se enumeran los mensajes de error más frecuentes y las causas posibles. Después de la tabla se detallan los procedimientos para tratar cada problema.
+Si el usuario no puede iniciar sesión después de haber intentado las sugerencias en la sección anterior, puede hacer resolución de problemas adicional según el tipo de error. La tabla siguiente enumera los mensajes de error más comunes y las causas posibles. La tabla siguiente es procedimientos detallados para resolver cada problema.
   
-|**Mensaje de error**|**Causa posible**|**Solución**|
+|**Mensaje de error**|**Causa posible**|**Resolución**|
 |:-----|:-----|:-----|
-|No se encontró la dirección de inicio de sesión  <br/> |Las solicitudes de inicio de sesión del Asistente de inicio de sesión de Microsoft Online Services (msoidsvc.exe) no están atravesando su firewall externo o servidor proxy.  <br/> |[Agregue una entrada de firewall para msoidsvc.exe en su servidor proxy](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#__add_a_firewall) <br/> |
-|El servidor no está disponible temporalmente  <br/> |Si su organización tiene un dominio personalizado, es posible que estén faltando las configuraciones necesarias para el Sistema de nombre de dominio (DNS) o que sean incorrectas.  <br/> |[Actualizar la configuración DNS](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#__update_dns_service) <br/> |
-|El servidor no está disponible temporalmente  <br/> |Si su organización está utilizando un único inicio de sesión con Servicios de federación de Active Directory (ADFS), es posible que haya usado un certificado de Capas de sockets seguros (SSL) con firma personal en lugar de un certificado de una entidad de certificación externa.  <br/> |[Instale un certificado SSL de un tercero en su servidor ADFS](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#__verify_upn_and) <br/> |
-|Problema para adquirir un certificado personal obligatorio para iniciar sesión  <br/> |Si ya ha quitado los datos almacenados en caché de servidor que se usan para iniciar sesión y sigue apareciendo el error, credenciales de seguridad del usuario pueden estar dañadas o una carpeta RSA del equipo del usuario esté bloqueando la autenticación.  <br/> |[Actualizar credenciales de seguridad](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#__update_security_credentials_1) <br/> |
-|Cuando un usuario inicia sesión por primera vez, aparece un cuadro de diálogo del certificado de confianza.  <br/> |Este cuadro de diálogo aparece si su servidor Skype Empresarial todavía no aparece en la clave de registro **TrustModelData**.  <br/> |[Modifique las claves de registro TrustModelData](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#__modify_trustmodeldata_registry) <br/> |
-|El usuario no tiene habilitación para SIP  <br/> |Si se hizo una instalación previa de Microsoft Office Communications Server o Microsoft Lync Server 2010 en su organización, es posible que no haya eliminado a sus usuarios del servidor antes de desinstalar el software. Como consecuencia, el atributo **msRTCSIP-UserEnabled** todavía está establecido como **FALSO** en los servicios de dominio de Active Directory. <br/> |[Actualice la configuración de usuario en Active Directory](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#__update_user_settings_1) <br/> |
+|Dirección de inicio de sesión que no se encuentra  <br/> |Solicitudes de inicio de sesión desde el Asistente Microsoft Online Services Sign-On (msoidsvc.exe) no se van a través del servidor de seguridad externo o servidor proxy.  <br/> |[Agregar una entrada de servidor de seguridad para msoidsvc.exe en su servidor proxy](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall) <br/> |
+|Servidor no está disponible temporalmente  <br/> |Si su organización tiene un dominio personalizado, puede ser la configuración necesaria del sistema de nombres de dominio (DNS) falta o es incorrecto.  <br/> |[Actualizar la configuración de DNS](troubleshooting-sign-in-errors-for-admins.md#update-dns-service) <br/> |
+|Servidor no está disponible temporalmente  <br/> |Si su organización utiliza el inicio de sesión único con Active Directory Federation Services (ADFS), es posible que haya utilizado un certificado autofirmado de Secure Socket Layer (SSL) en lugar de uno de una entidad de certificación de terceros.  <br/> |[Instalar un certificado SSL de terceros en el servidor ADFS](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and) <br/> |
+|Problema al adquirir un certificado personal necesario para iniciar sesión en  <br/> |Si ya ha eliminado los datos del servidor en caché se utilizaron para iniciar sesión en y sigue apareciendo el error, las credenciales de seguridad del usuario pueden estar dañadas o puede estar bloqueando la autenticación a una carpeta RSA en el equipo del usuario.  <br/> |[Actualizar las credenciales de seguridad](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials) <br/> |
+|Un cuadro de diálogo de confianza de certificado aparece cuando un usuario inicia sesión por primera vez.  <br/> |Este cuadro de diálogo aparece si su Skype para Business server aún no aparece en la clave del registro **TrustModelData** . <br/> |[Modificar las claves del registro TrustModelData](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry) <br/> |
+|Usuario no está habilitado para SIP  <br/> |Si su organización tiene una instalación anterior de Microsoft Lync Server 2010 o Microsoft Office Communications Server, que no ha eliminado los usuarios desde el servidor antes de desactivarlo. Como resultado, el atributo **msRTCSIP-UserEnabled** todavía se establece en **FALSE** en servicios de dominio de Active Directory. <br/> |[Actualizar la configuración de usuario en Active Directory](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)<br/> |
    
-### Agregue una entrada de firewall para msoidsvc.exe en su servidor proxy
-<a name="__add_a_firewall"> </a>
+### <a name="add-a-firewall-entry-for-msoidsvcexe-to-your-proxy-server"></a>Agregar una entrada de servidor de seguridad para msoidsvc.exe en su servidor proxy
+<a name="add-a-firewall"> </a>
 
-Este procedimiento es una solución posible para el siguiente mensaje de error: **No se encontró la dirección de inicio de sesión**.
+Este procedimiento es una solución posible para el mensaje de error siguiente: **dirección de inicio de sesión no se encuentra**.
   
- **NOTA**: en los pasos que siguen se asume que está usando Microsoft Forefront Threat Management Gateway (TMG) 2010. Si tiene otra solución para puerta de enlace web, use las configuraciones que se describen en el paso 4, a continuación.
+ **Nota**: los pasos siguientes asumen que está utilizando Microsoft Forefront Threat Management Gateway (TMG) 2010. Si usted posee una solución de puerta de enlace de la web diferente, utilice la configuración descrita en el paso 4 más abajo.
   
-Para crear una entrada de aplicación para Msoidsvc.exe en Forefront TMG 2010, siga estos pasos:
+Para crear una entrada de la aplicación para Msoidsvc.exe en Forefront TMG 2010, siga estos pasos:
   
-1. En el panel izquierdo, en primer plano, haga clic en **Conexión de red**.
+1. En el panel izquierdo de Forefront, haga clic en **redes**.
     
-2. Haga clic en la pestaña **Red**. En la pestaña **Tareas** del panel derecho, haga clic en **Establecer la configuración de cliente de Forefront TMG**.
+2. Haga clic en la ficha **red** . En la ficha **tareas** en el panel derecho, haga clic en **Configurar opciones de cliente de Forefront TMG**.
     
-3. En el cuadro de diálogo **Configuración de cliente de Forefront TMG**, haga clic en **Nuevo**.
+3. En el cuadro de diálogo **Configuración de cliente de Forefront TMG** , haga clic en **nuevo**.
     
-4. En el cuadro de diálogo **Configuración de entrada de la aplicación**, configure la siguientes reglas:
+4. En el cuadro de diálogo **Configuración de entrada de la aplicación** , configure las siguientes reglas:
     
-|****Aplicación****|****Clave****|****Valor****|
+|**Aplicación**|**Clave**|**Valor**|
 |:-----|:-----|:-----|
 |**msoidsvc** <br/> |Deshabilitar  <br/> |0  <br/> |
 |**msoidsvc** <br/> |DisableEx  <br/> |0  <br/> |
    
-Para obtener información detallada, vea el artículo de Microsoft Knowledge Base 2409256, [que no puede conectarse a Skype empresarial Online porque un firewall local bloquea la conexión](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2409256).
+Para obtener información detallada, vea el artículo de Microsoft Knowledge Base 2409256, [que no se puede conectar a Skype para los negocios en línea porque un servidor de seguridad en instalaciones bloquea la conexión](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2409256).
   
-### Actualizar la configuración DNS
-<a name="__update_dns_service"> </a>
+### <a name="update-dns-settings"></a>Actualizar la configuración de DNS
+<a name="update-dns-service"> </a>
 
-Si su organización tiene un dominio personalizado, este procedimiento representa una solución posible para el siguiente mensaje de error: **El servidor no está disponible temporalmente**.
+Si su organización tiene un dominio personalizado, este procedimiento es una solución posible para el siguiente mensaje de error: **servidor no está disponible temporalmente**.
   
-- Póngase en contacto con el registrador de su nombre de dominio para obtener información sobre cómo agregar el siguiente registro CNAME a su dominio:
+- Para obtener información sobre cómo agregar el registro CNAME siguiente a su dominio, póngase en contacto con el registrador de nombres de dominio:
     
-  - **Tipo de registro DNS**: CNAME
+  - **Tipo de registro DNS**: CNAME 
     
   - **Nombre**: sip
     
-  - **Valor/Destino**: sipdir.online.microsoft.com
+  - **Valor/destino**: sipdir.online.microsoft.com
     
-Para obtener información detallada, vea el artículo 2566790 de Microsoft Knowledge Base, [Skype solucionar problemas de configuración de DNS en línea de negocio en Office 365](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790)y el artículo Wiki de Office 365, [asegurarse de que su red funcione con Skype empresarial (Lync) Online](https://go.microsoft.com/fwlink/?linkid=231156).
+Para obtener información detallada, vea el artículo de Microsoft Knowledge Base 2566790, [Skype solucionar problemas de configuración de DNS en línea de negocio de Office 365](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790).
   
-### Instale un certificado SSL de un tercero en su servidor ADFS
-<a name="__verify_upn_and"> </a>
+### <a name="install-a-third-party-ssl-certificate-on-your-adfs-server"></a>Instalar un certificado SSL de terceros en el servidor ADFS
+<a name="verify-upn-and"> </a>
 
-Para instalar un certificado SSL de un tercero en su servidor de Servicios de Federación de Active Domain (ADFS), siga estos pasos:
+Para instalar un certificado SSL de terceros en su servidor Active dominio Federation Services (ADFS), siga estos pasos:
   
-1. Obtenga un certificado SSL de una entidad de certificación externa como VeriSign o Thawte.
+1. Obtener un certificado SSL de una entidad de certificación de terceros como VeriSign o Thawte.
     
-2. Instalar el certificado en el servidor de ADFS mediante la consola de administración de ADFS.
+2. Instalar el certificado en el servidor ADFS mediante la consola de administración de ADFS. 
     
-### Actualizar credenciales de seguridad
-<a name="__update_security_credentials_1"> </a>
+### <a name="update-security-credentials"></a>Actualizar las credenciales de seguridad
+<a name="update-security-credentials"> </a>
 
-Este procedimiento representa una solución posible para el mensaje de error **Problemas para adquirir un certificado personal obligatorio para iniciar sesión**.
+Este procedimiento es una solución posible para el **problema de adquirir un certificado personal necesario para iniciar sesión en**el mensaje de error.
   
-Para eliminar los posibles problemas con los certificados o credenciales, primero debe renovar el certificado del usuario en Windows Certificate Manager. Para hacerlo, siga estos pasos:
+Para eliminar posibles problemas de certificado o credencial, primero hay que renovar el certificado del usuario en el Administrador de certificados de Windows. Para ello, siga estos pasos:
   
-1. Abra Windows Certificate Manager. Para hacerlo, haga clic en **Inicio**, **Correr**, escriba **certmgr.msc** y haga clic en **Aceptar**.
+1. Abra el Administrador de certificados de Windows. Para ello, haga clic en **Inicio**, haga clic en **Ejecutar**, escriba **certmgr.msc**y, a continuación, haga clic en **Aceptar**. 
     
-2. Haga doble clic en **personal** y, a continuación, en **Certificados**.
+2. Haga doble clic en **Personal**y, a continuación, haga doble clic en **certificados**. 
     
-3. Ordene por la columna **Emitido por** y, a continuación, busque un certificado que haya emitido Communications Server.
+3. Ordenar por la columna **Emitido por** y, a continuación, busque un certificado emitido por el servidor.
     
-4. Haga clic con el botón secundario sobre el certificado y luego, haga clic en **Eliminar**.
+4. Haga clic en el certificado y, a continuación, haga clic en **Eliminar**. 
     
-Luego, si el usuario está usando Windows 7, elimine las credenciales almacenadas en Windows Credential Manager. Para hacerlo, siga estos pasos:
+A continuación, si el usuario está ejecutando Windows 7, quitar las credenciales almacenadas en el Administrador de credenciales de Windows. Para ello, siga estos pasos:
   
-1. Haga clic en **Inicio**, **Panel de control** y, a continuación, en **Administrador de credenciales**.
+1. Haga clic en **Inicio**, haga clic en **Panel de Control**y, a continuación, haga clic en **Administrador de credenciales**. 
     
-2. Busque el conjunto de credenciales que se usa para conectarse a Skype Empresarial en línea.
+2. Busque el conjunto de credenciales que se utiliza para conectar con Skype para los negocios en línea. 
     
-3. Expanda el conjunto de credenciales y, a continuación, haga clic en **Quitar de la cámara**.
+3. Expanda el conjunto de credenciales y, a continuación, haga clic en **quitar de la caja fuerte**. 
     
-4. Volver a iniciar sesión y vuelva a escribir las credenciales del usuario.
+4. Iniciar sesión de nuevo y vuelva a escribir las credenciales del usuario.
     
-Por último, si ya actualizó las credenciales, pero el usuario todavía no puede iniciar sesión, intente eliminar la carpeta RSA del equipo del usuario, ya que podría estar bloqueando el proceso de autenticación:
+Por último, si el usuario todavía no puede iniciar sesión después de actualizar sus credenciales, intente eliminar la carpeta RSA en el equipo del usuario, ya que podría estar bloqueando la finalización del proceso de autenticación de usuario:
   
-1. Inicie sesión en el equipo del usuario mediante una cuenta de administrador.
+1. Iniciar sesión en el equipo del usuario con una cuenta de administrador.
     
-2. Si es necesario, active la opción de vista de carpeta **Mostrar archivos ocultos**.
+2. Si es necesario, active la opción de vista de carpeta **Mostrar archivos ocultos**. 
     
-3. Escriba lo siguiente en la barra de direcciones del explorador de archivos: **C:\\Documents and Settings\\UserName\\Application Data\\Microsoft\\Crypto\\RSA**, **donde** ** *UserName* ** ** es su nombre de inicio de sesión de Windows**.
+3. Escriba lo siguiente en la barra de direcciones de archivo Explorer: **C:\\Documents and Settings\\nombre de usuario\\datos de la aplicación\\Microsoft\\Crypto\\RSA**, donde ***nombreDeUsuario*** es el nombre de inicio de sesión de Windows.
     
-4. Elimine todas las carpetas que empiecen con el nombre **S-1-5-21-** seguido de una cadena de números.
+4. Elimine cualquier carpeta que comienza con el nombre **S-1-5-21 -** seguido de una cadena de números.
     
-### Modifique las claves de registro TrustModelData
-<a name="__modify_trustmodeldata_registry"> </a>
+### <a name="modify-trustmodeldata-registry-keys"></a>Modificar las claves del registro TrustModelData
+<a name="modify-trustmodeldata-registry"> </a>
 
-Cuando un usuario inicia sesión por primera vez, pueden recibir un cuadro de diálogo que contiene algo parecido al siguiente: **no puede verificar si el servidor es de confianza para la dirección de inicio de sesión. Conectar de todos modos?** Esta es una característica de seguridad y no un error. Sin embargo, puede impedir que el cuadro de diálogo aparezca utilizando un objeto de directiva de grupo (GPO) para actualizar los equipos de los usuarios con el nombre de dominio antes de que inicie sesión por primera vez. Para ello, haga lo siguiente:
+Cuando un usuario inicia sesión por primera vez, pueden recibir un cuadro de diálogo que contiene algo como lo siguiente: **no se puede comprobar que el servidor es de confianza en la dirección de inicio de sesión. Conectarse de todas formas?** Se trata de una característica de seguridad y no un error. Sin embargo, puede impedir que el cuadro de diálogo aparezca utilizando un objeto de directiva de grupo (GPO) para actualizar los equipos de los usuarios con su nombre de dominio antes de que inicie sesión por primera vez. Para ello, haga lo siguiente:
   
-- Cree e implemente un GPO que se anexe a su nombre de dominio Skype Empresarial, por ejemplo, DomainName.contoso.com, en el valor actual de HKEY_LOCAL_MACHINE\\Software\\Policies\\Microsoft\\Communicator\\TrustModelData.
+- Crear e implementar un GPO que anexa su Skype para nombre de dominio de negocio — por ejemplo, domainName.contoso.com—to el valor actual de HKEY_LOCAL_MACHINE\\Software\\directivas\\Microsoft\\Communicator\\ TrustModelData.
     
 > [!IMPORTANT]
-> Debe *anexar*  su nombre de dominio al valor existente, no solo sustituirlo.
+>  Debe *Anexar* el nombre del dominio al valor existente, no tiene que sustituirla.
   
-Para obtener detalles, consulte el artículo 2531068 de Microsoft Knowledge Base, [Skype Empresarial no puede verificar si el servidor es de confianza para su dirección de inicio de sesión](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2531068).
+Para obtener información detallada, vea el artículo de Microsoft Knowledge Base 2531068, [que Skype para el negocio (Lync) no puede comprobar que el servidor es de confianza en la dirección de inicio de sesión](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2531068).
   
-### Actualice la configuración de usuario en Active Directory
-<a name="__update_user_settings_1"> </a>
+### <a name="update-user-settings-in-active-directory"></a>Actualizar la configuración de usuario en Active Directory
+<a name="update-user-settings"> </a>
 
-Si se hizo una instalación previa de Microsoft Office Communications Server o Microsoft Lync Server 2010 en su organización, es posible que no haya eliminado a sus usuarios del servidor antes de desinstalar el software. Como consecuencia, el atributo **msRTCSIP-UserEnabled** todavía está establecido como **FALSO** en los servicios de dominio de Active Directory.
+Si su organización tiene una instalación anterior de Microsoft Lync Server 2010 o Microsoft Office Communications Server, que no ha eliminado los usuarios desde el servidor antes de desactivarlo. Como resultado, el atributo **msRTCSIP-UserEnabled** todavía se establece en **FALSE** en servicios de dominio de Active Directory.
   
-Para solucionar este problema, siga estos pasos:
+Para corregir este problema, siga estos pasos:
   
-1. Actualice el atributo **msRTCSIP-UserEnabled** en todos los usuarios afectados como **VERDADERO**.
+1. Actualizar el atributo **msRTCSIP-UserEnabled** para todos los usuarios afectados en **TRUE**.
     
-2. Vuelva a ejecutar la herramienta de sincronización de directorios (DirSync) de Microsoft Online Services. Para obtener más información, vea [directorios de AIntegrate su locales con Azure Active Directory](https://technet.microsoft.com/en-us/library/hh967642.aspx).
+2. Vuelva a ejecutar el de Microsoft Online Services-Herramienta de sincronización de directorios (DirSync). Para obtener más información, vea [AIntegrate en sus instalaciones de directorios con Active Directory de Azure](https://technet.microsoft.com/en-us/library/hh967642.aspx). 
     
-[Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades. Para su referencia, puede encontrar la versión en inglés de este artículo aquíhttps://support.office.com/en-us/article/cdd4801a-2fe1-4aab-bbb6-db5f95f972d1. Para solucionar errores de inicio de sesión de Skype Empresarial Online, empiece eliminando las causas más comunes de problemas de inicio de sesión. Si es necesario, puede seguir pasos en función del tipo de error de resolución específica. Si el usuario aún no puede iniciar sesión, recopilar información adicional y, a continuación, buscar ayuda adicional.](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#__top)
-  
-## Usar la guía de solución de problemas del soporte técnico de Microsoft
-<a name="__toc325626447"> </a>
+Para solucionar los errores de inicio de sesión de negocios en línea Skype, iniciar mediante la eliminación de las causas más comunes de problemas de inicio de sesión. Si es necesario, puede seguir los pasos en función del tipo de error de resolución específica. Si el usuario todavía no puede iniciar sesión, recopilar información adicional y, a continuación, buscar ayuda adicional. 
+## <a name="use-the-microsoft-support-troubleshooting-guide"></a>Utilice el Support Microsoft Guía de solución de problemas
+<a name="toc325626447"> </a>
 
-Si está todavía no puede resolver los problemas de inicio de sesión del usuario, revise la sugerencias del artículo 2541980, de Microsoft Knowledge Base acerca de [cómo solucionar problemas de inicio de sesión en Skype empresarial Online](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2541980).
+Si le sigue sin poder resolver los problemas de inicio de sesión del usuario, revise las sugerencias de Microsoft Knowledge Base el artículo 2541980, [cómo solucionar problemas de inicio de sesión en Skype para los negocios en línea](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2541980).
   
-## Recopilar más información y buscar ayuda adicional
-<a name="__collect_more_information_1"> </a>
+## <a name="collect-more-information-and-seek-additional-help"></a>Recopilar más información y buscar ayuda adicional
+<a name="collect-more-information"> </a>
 
-Si ha seguido las directrices anteriores y sigue sin poder resolver sus problemas de inicio de sesión, debe recopilar información adicional y póngase en contacto con soporte técnico. Para ello, siga estos pasos:
+Si ha seguido las instrucciones anteriores y todavía no puede resolver los problemas de inicio de sesión, debe recopilar información adicional y póngase en contacto con soporte técnico. Para ello, siga estos pasos: 
   
-1. Obtener los archivos de registro y detalles de registro de eventos de Windows desde el equipo del usuario. Para obtener instrucciones detalladas, vea el tema de ayuda para el usuario final [Activar registros de errores en Skype Empresarial](http://technet.microsoft.com/library/eaf6602b-95e0-4c27-869f-36017475806c%28Office.14%29.aspx).
+1. Obtener los archivos de registro y los detalles del registro de sucesos de Windows en el equipo del usuario. Para obtener instrucciones detalladas, consulte el tema de ayuda para el usuario final [activar los registros de errores en Lync](http://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c).
     
-2. Envíe los archivos de registro y la información detallada sobre el error al equipo de soporte técnico de Microsoft.
+2. Enviar los archivos de registro y la información detallada sobre el error a soporte técnico de Microsoft.
     
-Es posible que le pidan que envíe más información de diagnóstico, mediante la instalación del Kit de herramientas de soporte de registro y diagnóstico de Microsoft Online Services (MOSDAL) en el equipo del usuario afectado. Para obtener detalles, consulte [Cómo usar el Kit de herramientas de soporte MOSDAL](http://technet.microsoft.com/library/ddf1f52f-24a1-4675-abe0-141052c88b72%28Office.14%29.aspx).
+Le pedirá que proporcione información de diagnóstico adicional mediante la instalación de Microsoft Online Services diagnóstico y Kit de herramientas de soporte de registro (MOSDAL) en la máquina del usuario afectado. Para obtener más información, vea [utilizar el Kit de herramientas de soporte de MOSDAL](http://support.office.com/article/ddf1f52f-24a1-4675-abe0-141052c88b72).
   
-[Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades. Para su referencia, puede encontrar la versión en inglés de este artículo aquíhttps://support.office.com/en-us/article/cdd4801a-2fe1-4aab-bbb6-db5f95f972d1. Para solucionar errores de inicio de sesión de Skype Empresarial Online, empiece eliminando las causas más comunes de problemas de inicio de sesión. Si es necesario, puede seguir pasos en función del tipo de error de resolución específica. Si el usuario aún no puede iniciar sesión, recopilar información adicional y, a continuación, buscar ayuda adicional.](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#__top)
+Para solucionar los errores de inicio de sesión de negocios en línea Skype, iniciar mediante la eliminación de las causas más comunes de problemas de inicio de sesión. Si es necesario, puede seguir los pasos en función del tipo de error de resolución específica. Si el usuario todavía no puede iniciar sesión, recopilar información adicional y, a continuación, buscar ayuda adicional. 
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Temas relacionados
+[Configurar Skype Empresarial Online](set-up-skype-for-business-online.md)
 
-> [!NOTE]
-> **Declinación de responsabilidades de traducción automática**: Este artículo se ha traducido con un sistema informático sin intervención humana. Microsoft ofrece estas traducciones automáticas para que los hablantes de otros idiomas distintos del inglés puedan disfrutar del contenido sobre los productos, los servicios y las tecnologías de Microsoft. Puesto que este artículo se ha traducido con traducción automática, es posible que contenga errores de vocabulario, sintaxis o gramática. 
-  
-
+[Permitir Skype para usuarios de negocios agregar contactos de Skype](let-skype-for-business-users-add-skype-contacts.md)

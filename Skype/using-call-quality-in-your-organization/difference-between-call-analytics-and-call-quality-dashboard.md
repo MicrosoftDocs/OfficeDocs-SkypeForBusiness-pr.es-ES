@@ -1,59 +1,63 @@
 ---
-title: "¿Cuál es la diferencia entre el análisis de llamadas y panel de calidad de llamada?"
+title: "¿Cuál es la diferencia entre llamar a Analytics y llamar al panel de calidad?"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.date: 5/31/2017
-ms.audience: Admin
-ms.topic: reference
-ms.prod: office-online-server
-localization_priority: Normal
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
-description: "Learn about Call Analytics and Call Quality Dashboard and when to use them to monitor and troubleshoot call-quality problems in Skype for Business."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: "Obtenga información acerca de Analytics llamar y llamar al panel de calidad y cuándo utilizarlos para supervisar y solucionar problemas de calidad de la llamada en Skype para el negocio."
+ms.openlocfilehash: bc42c5a58520cbb96f523181ba350d46e3c64a3e
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="whats-the-difference-between-call-analytics-and-call-quality-dashboard"></a>¿Cuál es la diferencia entre llamar a Analytics y llamar al panel de calidad?
 
-# ¿Cuál es la diferencia entre el análisis de llamadas y panel de calidad de llamada?
-
-> [!IMPORTANT]
-> Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades.  
-  
-Skype Empresarial le ofrece dos formas para supervisar y solucionar problemas de calidad de la llamada: análisis de llamadas y panel de calidad de llamadas. En este artículo se describe ambos y se indica cuándo usar cada uno de ellos.
+Skype para empresas le ofrece dos maneras de supervisar y solucionar los problemas de calidad de llamadas: llamar a Analytics y llamar al panel de calidad. Este artículo describe ambos e indica cuándo utilizar cada uno de ellos.
   
 > [!NOTE]
-> Análisis de llamada está en vista previa. Texto e imágenes que se describen aquí no pueden coincidir con su experiencia. 
+> Análisis de llamada está en vista previa. Texto e imágenes que se describe aquí pueden no coincidir con su experiencia. 
   
-## ¿Qué es el análisis de llamadas y cuándo debo usarlo?
+## <a name="whats-call-analytics-and-when-should-i-use-it"></a>¿Qué es llamar a Analytics y cuándo debo usarlo?
 
-Análisis de llamada muestra información detallada sobre la conectividad relacionados con las reuniones para cada usuario de una cuenta de Skype Empresarial o llamadas específicas, redes y dispositivos. Si es un administrador de Skype Empresarial, puede usar el análisis de llamada para solucionar problemas de conexión y la calidad de llamada Skype Empresarial.
+Llamada Analytics muestra información detallada acerca de los dispositivos, redes y conectividad de las llamadas concretas y reuniones para cada usuario de un Skype para la cuenta de empresa. Si eres un Skype para la administración de negocios, puede utilizar Analytics llamar para solucionar problemas de calidad y conexión de llamada de negocio Skype.
   
-Si desea que no sean administradores, como agentes de departamento de soporte técnico de un proveedor externo, para usar el análisis de llamadas, puede asignar permisos para que pueden usar el análisis de llamada, pero no puede acceder al resto del centro de administración de Skype Empresarial:
+Si desea que no son de administrador, como agentes de asistencia técnica de un proveedor externo, para utilizar Analytics llamar, puede asignar permisos para que pueden utilizar Analytics llamar pero no puede acceder al resto de la Skype para el centro de administración de negocio: 
   
-- **Departamento de soporte técnico agentes con permisos de nivel 1**: agentes vea un conjunto de datos y la información de identificación personal (PII) en llamar análisis limitado. Pueden solucionar problemas de llamadas, pero los problemas con las reuniones se entregan con un agente de nivel 2.
+- **Los agentes de asistencia técnica con permisos de nivel 1**: agentes consulte un conjunto limitado de datos e información personal identificable (PII) en llamar a Analytics. Puede solucionar los llamadas, pero los problemas con las reuniones se entregan a un agente de nivel 2.
     
-- **Departamento de soporte técnico agentes con permisos de nivel 2**: agentes ver todos los datos disponibles en el análisis de llamadas y solucionar problemas de llamadas y reuniones. Tienen acceso completo a la información del cliente y registros de llamadas.
+- **Los agentes de asistencia técnica con permisos de nivel 2**: agentes vea todos los datos disponibles en llamar a Analytics y solucionar problemas de llamadas y reuniones. Tienen acceso completo para llamar a los registros y la información del cliente.
     
-Para obtener más información sobre cómo configurar el análisis de llamadas, consulte [Configurar Skype para Business Analytics de llamadas](set-up-skype-for-business-call-analytics.md). Para obtener más información acerca de cómo agentes del departamento de soporte técnico pueden trabajar con el análisis de llamadas, consulte [Calidad de llamadas de análisis de uso llamar a solucionar problemas de una mala Skype para la empresa](use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality.md).
+Para obtener más información acerca de cómo configurar Analytics llamar, consulte [Configurar Skype para llamar de Business Analytics](set-up-call-analytics.md). Para obtener más información sobre cómo pueden trabajar los agentes de asistencia técnica con Analytics llamar, consulte [Uso llamar análisis para solucionar problemas de calidad de sonido deficiente](use-call-analytics-to-troubleshoot-poor-call-quality.md).
   
-## ¿Qué es el panel de calidad de llamadas y cuándo debo usarlo?
+## <a name="whats-the-call-quality-dashboard-and-when-should-i-use-it"></a>¿Qué es el panel de calidad llamar y cuándo debo usarlo?
 
-Análisis de llamada proporciona información específica detallada acerca de la calidad de llamada experimentada por los usuarios. ¿Por qué tenía usuario Tony Smith a una llamada de una mala esta tarde? Mediante el análisis de llamadas, un administrador de Skype Empresarial o el agente de servicio de asistencia capacitado puede investigar el dispositivo, red, conectividad y otros factores relacionados con la llamada de Diego.
+Llamada Analytics proporciona información detallada y específica sobre la calidad de las llamadas experimentada por los usuarios. ¿Por qué usuario Tony Smith tuvo una mala llamada esta tarde? Con llamar a Analytics, puede investigar un Skype negocio admin o el agente de asistencia capacitado del dispositivo, red, conectividad y otros factores relacionados con la llamada de Tony.
   
-Donde está diseñado para ayudar a los administradores y agentes del departamento de soporte técnico solución problemas de calidad de llamada con llamadas específicas, el panel de calidad de llamadas (CQD) está diseñado para ayudar a los administradores de Skype Empresarial e ingenieros de red optimizan una red. CQD desplaza el enfoque de usuarios específicos y busca en su lugar agregado información para una organización completa Skype Empresarial.
+Donde CA está diseñado para ayudar a los administradores y los agentes de asistencia técnica llamada calidad solucionar problemas relacionados con llamadas concretas, el tablero de mandos de calidad llamar (CQD) está diseñado para ayudar a Skype para los administradores de negocios y los ingenieros de red optimizan una red. CQD cambia el foco de usuarios específicos y en su lugar busca información de agregado para un Skype todo para la organización empresarial. 
   
-¿La calidad de llamada deficiente de Diego es debido a un problema de red que también afecta a muchos otros usuarios. Experiencia de llamada individuales de Diego no está visible en CQD, pero se genera la calidad general de las llamadas realizadas mediante Skype Empresarial. Total con la CQD tramas pueden ser evidentes, que los ingenieros de red realizar evaluaciones informadas de calidad de la llamada. CQD proporciona informes de métrica de calidad de llamada que proporcionan recomendaciones sobre general llamar calidad, secuencias de cliente de servidor y cliente de cliente y calidad de voz [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252).
+Tal vez la calidad de sonido deficiente de Tony es debido a un problema de red que también afecta a otros muchos usuarios. Experiencia de llamadas individual de Tony no está visible en el CQD, pero se captura la calidad de las llamadas realizadas con Skype para el negocio. Con el CQD general patrones pueden ponerse de manifiesto, que los ingenieros de red puedan efectuar evaluaciones informadas de la calidad de las llamadas. CQD proporciona informes de métricas de calidad de llamada que le brindarán en general llamar a calidad, servidor cliente y secuencias de cliente a cliente y [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)de calidad de voz. 
   
-![Screenshot of Call Quality Dashboard in the Skype for Business Admin Center. Tabs shown are Overall Call Quality, Server - Client, Client - Client, and View Quality SLA.](../images/6eaccf99-8ee8-4f99-bdf2-ba1c72471cb9.png)
+![Captura de pantalla de panel de calidad de la llamada en el Skype para el centro de administración de negocios. Fichas que se muestran son calidad general llamar, servidor - cliente, cliente - cliente y SLA de calidad de la vista.](../images/6eaccf99-8ee8-4f99-bdf2-ba1c72471cb9.png)
   
-Para obtener más detalles, vea [Características del panel de calidad de llamadas de Skype Empresarial Online](turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-bu.md#BKMK_FeaturesOfTheCQD).
+Para obtener más información, vea [características del panel de calidad llamar de Skype para los negocios en línea](turning-on-and-using-call-quality-dashboard.md#BKMKFeaturesOfTheCQD).
   
-Análisis de llamada y CQD ejecutarán en paralelo y pueden usar independientemente o juntos. Por ejemplo, que un agente de nivel 1 determina que necesitan más ayuda para solucionar un problema de llamada. El agente de nivel 1 pasa la llamada a un agente de nivel 2, quién tiene acceso a más información en el análisis de llamar a que el agente de nivel 1. A su vez, el agente de nivel 2 puede alertar a un técnico de red para un problema. Ingeniería de red puede comprobar CQD para ver si los problemas generales relacionados con el sitio podrían ser un colaborador causa de problemas de la llamada.
+Análisis de llamada y CQD ejecutan en paralelo y se pueden usar independientemente o juntos. Por ejemplo, que un agente de nivel 1 determina que necesitan más ayuda para solucionar un problema de la llamada. El agente de nivel 1 pasa la llamada a un agente de nivel 2, que tiene acceso a más información en Analytics llamar a que el agente de nivel 1. A su vez, el agente de nivel 2 puede alertar a un ingeniero de red para un problema. El ingeniero de red puede consultar CQD para ver si un problema relacionado con el sitio global podría ser una contribuyente causa de los problemas de la llamada.
   
-Para obtener más información sobre CQD, consulte [Activar y usar el panel de calidad de llamada para Teams de Microsoft y Skype empresarial Online](turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-bu.md) y[Dimensiones y medidas disponibles en panel de calidad de llamada para Teams de Microsoft y Skype empresarial Online](dimensions-and-measures-available-in-call-quality-dashboard-for-microsoft-teams.md).
+Para obtener más información sobre CQD, consulte [activar y con llamar al panel de calidad para los equipos de Microsoft y Skype para los negocios en línea](turning-on-and-using-call-quality-dashboard.md) y [dimensiones y medidas disponibles en llamar al panel de calidad para los equipos de Microsoft y Skype para los negocios en línea](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Temas relacionados
+[Configurar Skype para llamar de Business Analytics](set-up-call-analytics.md)
 
-> [!NOTE]
-> **Declinación de responsabilidades de traducción automática**: Este artículo se ha traducido con un sistema informático sin intervención humana. Microsoft ofrece estas traducciones automáticas para que los hablantes de otros idiomas distintos del inglés puedan disfrutar del contenido sobre los productos, los servicios y las tecnologías de Microsoft. Puesto que este artículo se ha traducido con traducción automática, es posible que contenga errores de vocabulario, sintaxis o gramática. 
-  
-
+[Calidad de las llamadas uso llamar Analytics solucionar pobre Skype para empresas](use-call-analytics-to-troubleshoot-poor-call-quality.md)

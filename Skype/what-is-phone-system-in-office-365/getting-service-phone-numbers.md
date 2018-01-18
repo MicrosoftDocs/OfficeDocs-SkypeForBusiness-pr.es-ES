@@ -1,45 +1,57 @@
 ---
-title: "Obtener números de teléfono de servicio de Skype Empresarial"
+title: "Obtener números de teléfono de servicio"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: e434aeb2-af99-40e7-981e-a474f0383734
-
-description: "Además de obtener números de teléfono para usuarios individuales de Office 365, también es posible buscar y adquirir números de teléfono de pago o gratuitos para servicios como conferencias de acceso telefónico local (para puentes de conferencia) y operadores automáticos (conocidos como números de servicio). Los números de teléfono de servicio tienen una mayor capacidad de llamadas simultáneas que los números de teléfono de usuario o suscriptor. Por ejemplo, un número de servicio puede gestionar 100 llamadas simultáneas, mientras que un número de teléfono de usuario solo puede admitir unas pocas al mismo tiempo."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Phone System
+- Strat_SB_PSTN
+description: "Además de obtener números de teléfono para los usuarios de Office 365, puede buscar y adquirir el número o números de teléfono gratuitos para servicios tales como colas de llamada (también denominadas números de servicio), operadores automáticos y conferencias de audio (para puentes de conferencia). Números de teléfono de servicio tienen una mayor capacidad llamada simultánea que números de teléfono del usuario o abonado."
+ms.openlocfilehash: a2d4319f1d2b7714a228e0a16c391ec769e9b88b
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="getting-service-phone-numbers"></a>Obtener números de teléfono de servicio
 
-# Obtener números de teléfono de servicio de Skype Empresarial
-
-Además de obtener números de teléfono para usuarios individuales de Office 365, también es posible buscar y adquirir números de teléfono de pago o gratuitos para servicios como conferencias de acceso telefónico local (para puentes de conferencia) y operadores automáticos (conocidos como números de servicio). Los números de teléfono de servicio tienen una mayor capacidad de llamadas simultáneas que los números de teléfono de usuario o suscriptor. Por ejemplo, un número de servicio puede gestionar 100 llamadas simultáneas, mientras que un número de teléfono de usuario solo puede admitir unas pocas al mismo tiempo.
+Además de obtener números de teléfono para los usuarios de Office 365, puede buscar y adquirir el número o números de teléfono gratuitos para servicios tales como colas de llamada (también denominadas números de servicio), operadores automáticos y conferencias de audio (para puentes de conferencia). Números de teléfono de servicio tienen una mayor capacidad llamada simultánea que números de teléfono del usuario o abonado. Por ejemplo, un número de servicio puede controlar 100s de llamadas simultáneamente, mientras que el número de teléfono de un usuario sólo puede controlar varias llamadas simultáneamente.
   
-> [!IMPORTANT]
-> Debe configurarse primero el consumo RTC para poder adquirir números de teléfono gratuitos. 
+> [!NOTE]
+> Office 365 créditos de comunicaciones debe establecerse primero para adquirir números gratuitos. Consulte [Configurar comunicaciones créditos para su organización](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md). 
   
-Tiene dos maneras de obtener números de servicio para poder usarlos con Skype Empresarial: 
+Tiene dos maneras de obtener números de servicio, por lo que puede utilizar con Skype para empresas y Teams de Microsoft:
   
-- Obtener números nuevos de Office 365 y Skype Empresarial.
+- Obtener nuevos números de Office 365.
     
-- Realizar la portabilidad de los números existentes de su proveedor de servicios u operador telefónico o transferirlos.
+- Puerto o transferir los números existentes del proveedor de servicio o compañía de teléfono para Office 365.
     
     > [!NOTE]
-    > Al transferir sus números de servicio, se recomienda enfáticamente que se ponga en contacto con el [Póngase en contacto con el soporte de Office 365 para empresas: ayuda para administradores](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx) para asegurarse de que se considere y configure correctamente una mayor capacidad de llamadas simultáneas.
+    > Al transferir los números de servicio, se recomienda que en contacto con el [soporte técnico de Microsoft](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) para asegurarse de que la mayor capacidad llamada simultánea se considera y configurada correctamente.
   
-## Obtener nuevos números de servicio
+## <a name="get-new-service-numbers"></a>Obtener nuevos números de servicio
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
 2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
     
-3. En la barra de navegación izquierda, vaya a **Voz** > **Números de teléfono** > **Agregar** y, a continuación, **Nuevos números de servicio**.
+3. En la exploración de la izquierda vaya a **voz** > **números de teléfono** > **Agregar nuevo número**y, a continuación, haga clic en **los números de servicio nuevo**.
     
-    **IMPORTANTE**: Para poder ver la opción **Voz** en el panel de navegación izquierdo del Centro de administración de Skype Empresarial, primero tiene que adquirir como mínimo una **licencia de Enterprise E5**, una licencia del complemento **Sistema telefónico** o una licencia del complemento **Audioconferencia**.
+    > [!IMPORTANT] 
+    > Para que poder ver la opción de **voz** en la exploración de la izquierda en el Skype para el centro de administración de negocios, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia del módulo de **Sistema de teléfono** o al menos una **licencia Enterprise E5**.
     
-4. En la página **Agregar nuevos números de servicio**, use los menús desplegables para elegir lo siguiente:
+4. En la página **Agregar nuevos números de servicio** , seleccione lo siguiente:
     
   - **País o región**
     
@@ -47,46 +59,27 @@ Tiene dos maneras de obtener números de servicio para poder usarlos con Skype E
     
   - **Ciudad**
     
-5. En **Cantidad**, introduzca el número de números de teléfono que quiere para su organización y haga clic en **Agregar** para crear una reserva. Tiene 10 minutos para seleccionar sus números de teléfono y, si tarda más de estos 10 minutos, estos números de teléfono se devolverán al grupo de números de teléfono.
+5. Bajo **cantidad**, escriba el número de números de teléfono que desea para su organización y haga clic en **Agregar** para crear una reserva. Dispone de diez minutos para seleccionar sus números de teléfono; Si lleva más de 10 minutos, los números de teléfono se devolverá a la agrupación de números de teléfono.
     
     > [!NOTE]
-    > Puede ver la cantidad de números de teléfono que se basa en el número de licencias que aparecen junto a **Número de usuarios totales que puede adquirir**. 
+    > Puede ver la cantidad de números de teléfono, que se basa en el número de licencias, aparece junto a **Total Service números puede adquirir**. Para obtener más información, consulte [cuántos números de teléfono puede conseguir?](../what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get.md)
   
-6. Puede hacer clic en **Mostrar números** para ver la lista completa de números de teléfono. Esto resulta útil si no desea seleccionar un número de teléfono concreto de la lista.
+6. Puede hacer clic en **Mostrar números** para ver la lista completa de números de teléfono. Esto es útil si no desea seleccionar un número de teléfono específico en la lista.
     
 7. Seleccione los números de teléfono que desee y haga clic en **Adquirir números**.
     
-### Asignar números de servicio
+### <a name="assign-service-numbers"></a>Asignar números de servicio
 
-Cuando tenga sus números de servicio, pueden asignarse a un puente de conferencias de acceso telefónico local. Para ello, consulte [Cambiar el pago o gratuito números de pago en el puente de conferencia de Audio](../audio-conferencing-in-office-365/change-the-toll-or-toll-free-numbers-on-your-audio-conferencing-bridge.md).
+Una vez que tenga los números de servicio, se puede asignar a un puente de conferencia de audio. Para hacer esto, vea [cambiar el número o números libre de peaje en el puente de conferencia de Audio](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
   
-### Portabilidad o trasferencia de números de servicio existentes
+### <a name="port-or-transfer-existing-service-numbers"></a>Portabilidad o trasferencia de números de servicio existentes
 
-Si quiere transferir números de servicio de su proveedor de servicios u operador de telefonía actual, debe enviar manualmente una solicitud de portabilidad a Microsoft. Tiene que presentar solicitudes de portabilidad separadas para cada tipo de número de servicio (gratuito o pago) que vaya a transferir mediante una Carta de autorización (LOA). En la Carta de autorización (LOA), debe seleccionar el tipo correcto de número de servicio. Al ponerse en contacto con el soporte técnico de Microsoft, asegúrese de especificar que está transfiriendo un número de servicio ( *y no un número de usuario o suscriptor*  ) o la capacidad de llamadas simultáneas tal vez no sea suficiente para hacer frente a los volúmenes de llamadas. Si quiere conocer más acerca de cómo enviar una solicitud de portabilidad, consulte[Enviar manualmente una solicitud de servicio personalizado](../what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request.md).
-  
-## Expandir para ver cuántos números de teléfono se pueden obtener
+Si desea transferir números de servicio de su actual proveedor de servicios o el transportista, debe enviar manualmente un pedido de puerto a Microsoft. Tiene que enviar los pedidos de puerto diferente para cada tipo de número de servicio (pago VS gratuito) que se va a transferir utilizando una carta de autorización (LOA). En la carta de autorización (LOA), debe seleccionar el tipo correcto de número de servicio. Al ponerse en contacto con el soporte técnico de Microsoft, asegúrese de que especificar que va a transferir un número de servicio (*y no un número de suscriptor o usuario*) o la capacidad concurrente de llamada puede no ser suficiente para manejar volúmenes de llamada. Si desea transferir los números de teléfono o hacer otras cosas con sus números de teléfono, vea [administrar números de teléfono para su organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-Al obtener números de teléfono para su organización, puede obtener más números de teléfono que los que le corresponden por las licencias que tiene asignadas. Sin embargo, esto depende de los tipos de números de teléfono y del tipo de licencias que ha adquirido y asignado.
-  
-Puede ver la cantidad de números de teléfono que puede obtener en la página **Números de teléfono** del Centro de administración de Skype Empresarial o bien puede ejecutar el cmdlet[Get-CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/en-us/library/mt634605.aspx). 
-  
-> [!IMPORTANT]
-> Los siguientes límites no incluyen números de teléfono en los que haya realizado portabilidad o que haya transferido a Microsoft. 
-  
-||||
-|:-----|:-----|:-----|
-|**Este es el tipo de número de teléfono** <br/> |**¿Cómo se obtiene el total de números de teléfono?** <br/> |**Este es un ejemplo** <br/> |
-|Número de usuario (suscriptor)  <br/> |La cantidad de números de teléfono es igual a la cantidad total de licencias de planes de llamadas de voz  *nacionales + nacionales e internacionales*  , multiplicado por 1,1, y 10 números más que se proporcionan. <br/> |Si dispone de 50 usuarios en total con planes de llamadas de voz nacionales y nacionales e internacionales, puede adquirir **65** números de teléfono **(50 x 1,1 + 10)**. <br/> |
-|Número de servicio de pago  <br/> | La cantidad de números de teléfono es igual a la cantidad total de licencias de *PBX en la nube + Conferencia RTC*  y utiliza lo siguiente: <br/>  Si hay **1-25 licencias**, se proporcionan **5** números de teléfono. <br/>  Si hay **26-49 licencias**, se proporcionan **10** números de teléfono. <br/>  Si hay **50-99 licencias**, se proporcionan **20** números de teléfono. <br/>  Si hay **100-149 licencias**, se proporcionan **30** números de teléfono. <br/>  Si hay **150-199 licencias**, se proporcionan **40** números de teléfono. <br/>  Si hay **200-499 licencias**, se proporcionan **65** números de teléfono. <br/>  Si hay **500-749 licencias**, se proporcionan **90** números de teléfono. <br/>  Si hay **750-999 licencias**, se proporcionan **110** números de teléfono. <br/>  Si hay **1.000-1.249 licencias**, se proporcionan **125** números de teléfono. <br/>  Si hay **1.250-1.499 licencias**, se proporcionan **135** números de teléfono. <br/>  Si hay **1.500-1.999 licencias**, se proporcionan **160** números de teléfono. <br/>  Si hay **2.000-2.999 licencias**, se proporcionan **210** números de teléfono. <br/>  Si hay **3.000-6.999 licencias**, se proporcionan **420** números de teléfono. <br/>  Si hay **7.000-9.999 licencias**, se proporcionan **500** números de teléfono. <br/>  Si hay **10.000-14.999 licencias**, se proporcionan **600** números de teléfono. <br/>  Si hay **15.000-19.999 licencias**, se proporcionan **700** números de teléfono. <br/>  Si hay **20.000-49.999 licencias**, se proporcionan **1000** números de teléfono. <br/>  Si hay **más de 50.000**, se proporcionan **1.500** números de teléfono. <br/> |Si tiene un total de **51** licencias de PBX en la nube y Conferencia RTC, puede obtener **20** números de servicio de pago. <br/> |
-|Número de servicio gratuito  <br/> | La cantidad de números de teléfono es igual a la cantidad total de licencias de *PBX en la nube + Conferencia RTC*  y utiliza lo siguiente: <br/>  Si hay **1-25 licencias**, se proporcionan **5** números de teléfono. <br/>  Si hay **26-49 licencias**, se proporcionan **10** números de teléfono. <br/>  Si hay **50-99 licencias**, se proporcionan **20** números de teléfono. <br/>  Si hay **100-149 licencias**, se proporcionan **30** números de teléfono. <br/>  Si hay **150-199 licencias**, se proporcionan **40** números de teléfono. <br/>  Si hay **200-499 licencias**, se proporcionan **65** números de teléfono. <br/>  Si hay **500-749 licencias**, se proporcionan **90** números de teléfono. <br/>  Si hay **750-999 licencias**, se proporcionan **110** números de teléfono. <br/>  Si hay **1.000-1.249 licencias**, se proporcionan **125** números de teléfono. <br/>  Si hay **1.250-1.499 licencias**, se proporcionan **135** números de teléfono. <br/>  Si hay **1.500-1.999 licencias**, se proporcionan **160** números de teléfono. <br/>  Si hay **2.000-2.999 licencias**, se proporcionan **210** números de teléfono. <br/>  Si hay **3.000-6.999 licencias**, se proporcionan **420** números de teléfono. <br/>  Si hay **7.000-9.999 licencias**, se proporcionan **500** números de teléfono. <br/>  Si hay **10.000-14.999 licencias**, se proporcionan **600** números de teléfono. <br/>  Si hay **15.000-19.999 licencias**, se proporcionan **700** números de teléfono. <br/>  Si hay **20.000-49.999 licencias**, se proporcionan **1000** números de teléfono. <br/>  Si hay **más de 50.000**, se proporcionan **1.500** números de teléfono. <br/> |Si tiene un total de **1.001** licencias de PBX en la nube y Conferencia RTC, puede obtener **125** números de servicio gratuitos. <br/> > [!IMPORTANT]> Es necesario disponer de [Configurar comunicaciones créditos para su organización](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md) para reservar y utilizar números de teléfono gratuitos.          |
-   
 > [!NOTE]
-> Si necesita obtener más números de teléfono, consulte [Póngase en contacto con el soporte de Office 365 para empresas: ayuda para administradores](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx). 
+> Si necesita obtener más números de teléfono que esto, ponte [en contacto con soporte técnico para productos de empresa - ayuda Admin](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
-## Temas relacionados
+## <a name="related-topics"></a>Temas relacionados
+[Aquí está lo que se obtiene con el sistema de teléfono en Office 365](here-s-what-you-get-with-phone-system.md)
 
-[Términos y condiciones de las llamadas de emergencias](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
-  
-[Período de llamada de salida complementario de conferencias de audio](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-  
-
+[Disponibilidad de país y región para conferencias de Audio y planes de llamada](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

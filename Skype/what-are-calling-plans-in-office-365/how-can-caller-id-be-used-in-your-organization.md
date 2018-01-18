@@ -1,90 +1,90 @@
 ---
-title: "Cómo se puede usar la identificación de llamadas en su organización"
+title: "Identificador de uso en su organización"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/13/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: 5a0bd8ba-3334-46ee-becf-1025597737f6
-description: "Identificador de llamada se puede controlar para las llamadas entrantes y salientes para usuarios de sistema telefónico usando una directiva denominada CallingLineIdentity."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "Identificador de llamadas puede controlarse en llamadas entrantes y salientes para los usuarios del sistema de teléfono utilizando una directiva denominada CallingLineIdentity."
+ms.openlocfilehash: b9e889ae9d87277939e844eeb911834f466942c5
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="how-can-caller-id-be-used-in-your-organization"></a>Identificador de uso en su organización
 
-# Cómo se puede usar la identificación de llamadas en su organización
-
-> [!IMPORTANT]
-> Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades.  
+Identificador de llamadas puede controlarse en llamadas entrantes y salientes para los usuarios del sistema de teléfono utilizando una directiva denominada CallingLineIdentity.
   
-Identificador de llamada se puede controlar para las llamadas entrantes y salientes para usuarios de sistema telefónico usando una directiva denominada CallingLineIdentity.
+La funcionalidad de identificador de llamadas está disponible para todos los usuarios del sistema telefónico independientemente de conectividad RTC:
   
-La funcionalidad de identificador de llamada está disponible para todos los usuarios del sistema telefónico independientemente de la conectividad de RTC:
-  
-- Conectividad con RTC en línea
+- Conectividad RTC en línea
     
-- Conectividad con RTC local con Skype Empresarial Cloud Connector Edition (requiere Cloud Connector Edition 1.4.2 y posterior)
+- Conectividad de RTC local con Skype para conector de nube Business Edition (requiere nube conector Edition 1.4.2 y posteriores)
     
-- Conectividad con RTC local con Skype Empresarial Server (requiere Skype Empresarial Server 2015 CU5 y posterior)
+- Conectividad de RTC local con Skype para Business Server (requiere Skype para Business Server 2015 CU5 y posteriores)
     
 > [!NOTE]
-> Esta directiva no está disponible en Skype Empresarial 2015 Server. 
+> Esta directiva no está disponible en Skype para Business Server de 2015. 
   
-## Identificación de llamadas de salida
+## <a name="outbound-caller-id"></a>Identificador de llamada saliente
 
-Hay tres opciones disponibles para la identificación de llamadas RTC de salida:
+Hay tres opciones disponibles para el identificador de llamadas salientes de RTC:
   
-- El número de teléfono asignado al usuario, que es el valor predeterminado.
+- El número de teléfono asignado al usuario, que es el predeterminado.
     
-- Inventario de número de un número de teléfono que se clasifica como un  *servicio*  y número de *teléfono gratuito*  en su planes de llamada de teléfono de Office 365. Normalmente se asigna a una cola de llamada o de operador automático organizativa.
+- Un número de teléfono que se clasifica como un *servicio* y número de *línea gratuita* en sus planes de llamar en Office 365 teléfono número de inventario. Normalmente se asigna a una cola de operador o llamada de organización automática.
     
-- Configurado como anónimo.
+- Establece en anónimo.
     
-Sin embargo, no es posible asignar estos tipos de números de teléfono al identificador de llamadas de salida:
+Sin embargo, no puede asignar a estos tipos de números de teléfono para el identificador de llamadas salientes:
   
-- Número de los números de teléfono que se clasifican como un  *usuario*  en su teléfono para llamar a los planes de inventario
+- Número de los números de teléfono que se clasifican como un *usuario* de su teléfono llamando a los planes de inventario
     
-- Un número de teléfono de Skype Empresarial Server local.
+- Un Skype para Business Server número de teléfono local
     
-Para establecer la identificación de llamadas de salida, consulte [Establecer el identificador de llamada de un usuario](set-the-caller-id-for-a-user.md).
+Para establecer el identificador de llamadas salientes, vea [establecer el identificador de un usuario](set-the-caller-id-for-a-user.md).
   
-### Control de usuario final para la identificación de llamadas de salida
+### <a name="end-user-control-of-outbound-caller-id"></a>Control de usuario final de identificador de llamadas salientes
 
-El atributo EnableUserOverride permite a los usuarios de uno o varios cambiar la configuración de su identificador de llamada a **anónimo**. Esto solo se aplica cuando una directiva CallingLineIdentity está configurada con un parámetro de CallingIDSubstitute de LineURI o sustituir. El valor predeterminado de EnableUserOverride es False.
+El atributo EnableUserOverride permite a los usuarios de uno o varios cambiar su configuración del identificador de llamadas a **anónimo**. Esto sólo se aplica cuando se configura una directiva de CallingLineIdentity con un parámetro de CallingIDSubstitute de LineURI o sustituto. El valor predeterminado de EnableUserOverride es False.
   
-Los usuarios finales puede establecer su identificador de llamada a **anónimo** mediante la pestaña **Llamar configuración hacia delante** en la Skype para cliente de escritorio de la empresa.
+Los usuarios finales puede establecer su identificador a **anónimo** mediante la ficha **Llamar configuración hacia delante** en el Skype para cliente de escritorio de negocios.
   
 ||||
 |:-----|:-----|:-----|
-|**Windows** <br/> |**Versión** <br/> |**Compatible** <br/> |
-|Hacer clic y ejecutar  <br/> |Canal actual publicado el 6 de diciembre de 2016 - Versión 1611 (Compilación 7571.2072)  <br/> |Sí  <br/> |
-|Hacer clic y ejecutar  <br/> |Primera versión para el Canal diferido publicada el 22 de febrero de 2017 - Versión 1701 (Compilación 7766.2060)  <br/> |Sí  <br/> |
-|Hacer clic y ejecutar  <br/> |Aplazar canal publicada de 13 de junio de 2017: versión 1701 (compilación 7766.2092)  <br/> |Sí  <br/> |
+|**Windows** <br/> |**Versión** <br/> |**Admite** <br/> |
+|Hacer clic y ejecutar  <br/> |Canal actual versión de 6 de diciembre de 2016 - 1611 (Build 7571.2072)  <br/> |Sí  <br/> |
+|Hacer clic y ejecutar  <br/> |Primera versión para canal aplazado lanzado el 22 de febrero de 2017 - versión 1701 (Build 7766.2060)  <br/> |Sí  <br/> |
+|Hacer clic y ejecutar  <br/> |Deferred canal lanzado el 13 de junio de 2017 - versión 1701 (Build 7766.2092)  <br/> |Sí  <br/> |
 |MSI  <br/> |Skype Empresarial  <br/> |No  <br/> |
 |Mac  <br/> |Skype Empresarial  <br/> |No  <br/> |
    
-Sus usuarios finales también pueden configurar la identificación de llamadas en la página de configuración de usuario en: [https://mysettings.lync.com/pstncalling](https://mysettings.lync.com/pstncalling).
-  
-## Identificación de llamadas de entrada
+## <a name="inbound-caller-id"></a>Identificador de llamadas entrantes
 
-El atributo BlockIncomingCallerID permite para bloquear el identificador de llamada en llamadas entrantes de RTC. Puede establecer este atributo, pero no está disponible para los usuarios finales en la página de configuración de usuario. Y actualmente solo está disponible con conectividad de RTC en línea.
+El atributo BlockIncomingCallerID permite bloquear el identificador de llamadas en las llamadas entrantes de PSTN. Puede establecer este atributo, pero no está disponible para los usuarios finales en la página de configuración de usuario. Y actualmente sólo está disponible con conectividad PSTN en línea.
   
-Para establecer la identificación de llamadas de salida, consulte [Establecer el identificador de llamada de un usuario](set-the-caller-id-for-a-user.md).
+Para establecer el identificador de llamadas salientes, vea [establecer el identificador de un usuario](set-the-caller-id-for-a-user.md).
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Temas relacionados
+[Transferencia de preguntas habituales de los números de teléfono](transferring-phone-numbers-common-questions.md)
 
-> [!NOTE]
-> **Declinación de responsabilidades de traducción automática**: Este artículo se ha traducido con un sistema informático sin intervención humana. Microsoft ofrece estas traducciones automáticas para que los hablantes de otros idiomas distintos del inglés puedan disfrutar del contenido sobre los productos, los servicios y las tecnologías de Microsoft. Puesto que este artículo se ha traducido con traducción automática, es posible que contenga errores de vocabulario, sintaxis o gramática. 
-  
-## Vea también
-<a name="MT_Footer"> </a>
+[Diferentes tipos de números de teléfono utilizados para llamar a planes](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-#### 
+[Administrar números de teléfono de la organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Términos y condiciones de las llamadas de emergencias](emergency-calling-terms-and-conditions.md)
-  
-[Período de llamada de salida complementario de conferencias de audio](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-  
-[Skype para Business y Microsoft Teams licencias de complemento](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 
+[Skype para los negocios en línea: etiqueta de descargo de responsabilidad llamada de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)

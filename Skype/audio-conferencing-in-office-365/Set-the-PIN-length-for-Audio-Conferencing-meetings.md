@@ -1,66 +1,71 @@
 ---
-title: "Establecer la longitud del PIN para reuniones de conferencia de Audio"
+title: Establecer la longitud del perno para las reuniones de conferencia de Audio
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/15/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: b86d31c6-1543-478f-b8c6-4b71e708403a
-description: "Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in Skype for Business."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: "Obtenga información acerca de los parámetros para los requisitos de un PIN y longitud y consulte cómo establecer la duración de las reuniones en Skype para el negocio."
+ms.openlocfilehash: 853a8ed74377dd76b38eab62b04fc75e3295df2d
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="set-the-pin-length-for-audio-conferencing-meetings"></a>Establecer la longitud del perno para las reuniones de conferencia de Audio
 
-# Establecer la longitud del PIN para reuniones de conferencia de Audio
-
-> [!IMPORTANT]
-> Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades.  
+Cuando se configure en conferencias de audio por Skype para negocios o Teams de Microsoft, obtendrá un puente de conferencia de audio. Un puente de conferencia puede contener uno o más números de teléfono. Establece el número de teléfono se incluyen en las invitaciones de la reunión de Skype para aplicaciones de negocios y Teams de Microsoft.
   
-Cuando se establecen en conferencias de audio de Skype para la empresa o Teams de Microsoft, obtendrá un puente de conferencia de audio. Un puente de conferencia puede contener uno o más números de teléfono. Establecer el número de teléfono se incluirán en las invitaciones a reuniones de Skype para las aplicaciones empresariales y Teams de Microsoft.
+El puente de conferencia de audio responde a una llamada para las personas que llaman a una reunión mediante un teléfono. Responde al llamador con indicaciones de voz de un operador automático y a continuación, dependiendo de la configuración, puede reproducir las notificaciones y solicitar los llamadores para registrar su nombre. **Configuración de puente de Microsoft** le permiten cambiar la configuración de notificaciones de la reunión y unirse a la experiencia de la reunión y establecer la longitud de las clavijas que son utilizados por los organizadores de la reunión. Organizadores de reuniones Utilice pines para iniciar reuniones si ellos no pueden unirse a la reunión mediante el Skype para la aplicación de negocios o Teams de Microsoft.
   
-El puente de conferencia de audio responde una llamada para las personas que llaman a una reunión mediante un teléfono. Responde a la llamada con mensajes de voz de un operador automático y, a continuación, dependiendo de la configuración, puede reproducir las notificaciones y pida a las personas que llaman grabar su nombre. **Configuración del puente de Microsoft** le permite cambiar la configuración de notificaciones de reunión y unirse a la experiencia de la reunión y definir la duración de las clavijas que utilizan los organizadores de reuniones. Los organizadores de reuniones utilizan PIN para iniciar las reuniones si no puede unirse a la reunión mediante la Skype para empresas o Microsoft Teams la aplicación.
-  
-## Configurar la longitud del PIN
+## <a name="setting-the-pin-length"></a>Establecer la longitud del perno
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+2. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-3. En la **Centro de administración de Skype Empresarial**, en el panel de navegación izquierdo, vaya a las **conferencias de Audio** > **Configuración del puente de Microsoft**.
+3. En el **Skype para el centro de administración de negocios**, en la exploración de la izquierda, vaya a las **conferencias de Audio** > **configuración de puente de Microsoft**.
     
-4. En **seguridad** > **longitud del PIN**, seleccione el número de dígitos que desee para el PIN y, a continuación, haga clic en **Guardar**.
+4. En **seguridad** > **longitud PIN**, seleccione el número de dígitos que desee para el PIN y, a continuación, haga clic en **Guardar**.
     
 > [!NOTE]
-> Un PIN no es lo mismo que un identificador de conferencia. Los autores de llamada usan los identificadores de conferencia al unirse a la reunión. Se utilizan para identificar la reunión. El PIN se usa para autenticar un autor de llamada como organizador de la reunión. 
+> Un PIN es diferente de un identificador de la conferencia. Los llamadores utilizan identificadores de conferencia cuando se unen a la reunión. Se utilizan para identificar la reunión. El PIN se utiliza para autenticar un llamador como organizador de la reunión. 
   
-## ¿Desea más información sobre la configuración del PIN?
+## <a name="want-to-know-more-about-pin-settings"></a>¿Desea saber más acerca de la configuración de PIN?
 
-- PIN pueden ser de 4 a 12 dígitos; el valor predeterminado es 5. Crear PIN utilizan sólo números. No se utilizan letras y caracteres especiales.
+- Pines pueden oscilar entre 4 y 12 dígitos; el valor predeterminado es 5. Los números sólo se utilizan al crear pines. No se utilizan letras y caracteres especiales.
     
-- Un PIN solo es necesario para el organizador de la reunión cuando un usuario de Microsoft Teams o Skype Empresarial ya no ha iniciado la reunión. Si todos los usuarios se llaman a la reunión, el PIN es necesario para el organizador de la reunión iniciar la reunión.
+- Un PIN sólo es necesario para el organizador de la reunión cuando un Skype para usuarios de negocios o Teams de Microsoft ya no ha iniciado la conferencia. Si todo el mundo está marcando a la reunión, el PIN es necesario para el organizador de la reunión iniciar la reunión.
     
-- Configuración de seguridad PIN se aplica a todos los números de teléfono que están asociados a un puente de Microsoft. Se aplicará a todas las reuniones que utilizan los números de teléfono asociados con un puente determinado.
+- Configuración de la seguridad de NIP se aplica a todos los números de teléfono están asociados con un puente de Microsoft. Se aplicará a todas las reuniones que utilizan los números de teléfono asociados con un puente determinado. 
     
-## ¿Desea saber cómo administrar con Windows PowerShell?
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 
-- Para ahorrar tiempo o automatizar este proceso, puede usar el cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757) .
+- Para ahorrar tiempo o automatizar esta tarea, puede utilizar el cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757) .
     
-- Para establecer el número de dígitos del PIN en 8:  `Set-CsOnlineDialInConferencingTenantSettings -PinLength 8`
+- Para establecer el número de dígitos en el PIN 8:`Set-CsOnlineDialInConferencingTenantSettings -PinLength 8`
     
-- Windows PowerShell es todo sobre la administración de usuarios y lo que los usuarios se permiten o no hacer. Con Windows PowerShell, puede administrar Office 365 mediante un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas a realizar. Para empezar con Windows PowerShell, consulte estos temas:
+- Windows PowerShell es todo sobre la administración de usuarios y lo que los usuarios se permiten o no realizar. Con Windows PowerShell, puede administrar Office 365 mediante un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. Para empezar a utilizar Windows PowerShell, consulte estos temas:
     
-  - [¿Por qué necesita usar PowerShell de Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 con un único punto de administración que puede simplificar el trabajo diario cuando tenga que realizar varias tareas. Para empezar a usar Windows PowerShell, vea estos temas:
     
-  - [Mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell tiene muchas ventajas velocidad, simplificar y productividad sobre usando solo el centro de administración de Office 365, como cuando realice cambios en la configuración de muchos usuarios a la vez. Obtenga más información sobre estas ventajas en los siguientes temas:
+- Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad sobre utilizando sólo el centro de administración de Office 365, como cuando realice cambios en la configuración de muchos usuarios al mismo tiempo. Obtenga información acerca de estas ventajas en los siguientes temas: 
     
-  - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
   - [Usar Windows PowerShell para administrar Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
@@ -69,18 +74,9 @@ El puente de conferencia de audio responde una llamada para las personas que lla
   - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > El módulo Windows PowerShell para Skype Empresarial Online le permite crear una sesión de Windows PowerShell remota que se conecta con Skype Empresarial Online. Este módulo, que solo es compatible con equipos de 64 bits, se puede descargar desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
+    > [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="see-also"></a>Vea también
 
-> [!NOTE]
-> **Declinación de responsabilidades de traducción automática**: Este artículo se ha traducido con un sistema informático sin intervención humana. Microsoft ofrece estas traducciones automáticas para que los hablantes de otros idiomas distintos del inglés puedan disfrutar del contenido sobre los productos, los servicios y las tecnologías de Microsoft. Puesto que este artículo se ha traducido con traducción automática, es posible que contenga errores de vocabulario, sintaxis o gramática. 
-  
-## Vea también
-<a name="MT_Footer"> </a>
-
-#### 
-
-[Configurar conferencias de Audio de Skype para la empresa y Teams de Microsoft](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+[Configurar Audioconferencia para Skype Empresarial y Microsoft Teams](set-up-audio-conferencing.md)
 

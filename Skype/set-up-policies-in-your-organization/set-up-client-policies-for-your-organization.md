@@ -1,31 +1,39 @@
 ---
-title: "Configurar directivas de cliente para su organización"
+title: "Configurar directivas de cliente para la organización"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 0326b19f-4fd1-4b74-8791-df4c09a964b9
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
 description: "Las directivas de cliente ayudan a determinar las funciones de Skype Empresarial Online que estarán disponibles para los usuarios. Por ejemplo, puede dar a algunos usuarios permiso para transferir archivos, pero no a otros."
+ms.openlocfilehash: 2d76f1037e595419caf5059a563e441c521abd81
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="set-up-client-policies-for-your-organization"></a>Configurar directivas de cliente para la organización
 
-# Configurar directivas de cliente para su organización
-
-> [!IMPORTANT]
-> Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades.  
+[] Las directivas de cliente ayudan a determinar las funciones de Skype Empresarial Online que estarán disponibles para los usuarios. Por ejemplo, puede dar a algunos usuarios permiso para transferir archivos, pero no a otros.
   
-Las directivas de cliente ayudan a determinar las funciones de Skype Empresarial Online que estarán disponibles para los usuarios. Por ejemplo, puede dar a algunos usuarios permiso para transferir archivos, pero no a otros.
+Configuración de la directiva de cliente puede configurarse en el momento en que se crea una directiva, o puede utilizar el cmdlet **Set-CsClientPolicy** para modificar la configuración de una directiva existente.
   
-Configuración de la directiva de cliente se puede configurar en el momento en que se crea una directiva, o puede usar el cmdlet Set-CsClientPolicy para modificar la configuración de una directiva existente.
-  
-## Establecer las directivas de cliente
+## <a name="set-your-client-policies"></a>Establecer las directivas de cliente
 
 > [!NOTE]
-> Para toda la configuración de directiva de cliente de Skype empresarial Online, debe usar Windows PowerShell y **no se puede usar** la **Skype centro de administración de la empresa**. 
+> Para todas las configuraciones de directiva de cliente de Skype para los negocios en línea, debe utilizar Windows PowerShell y **no se puede utilizar** el **Skype para el centro de administración de negocios**. 
   
-### Verificar e iniciar Windows PowerShell
+### <a name="verify-and-start-windows-powershell"></a>Verificar e iniciar Windows PowerShell
 
 - **Comprobar que está ejecutando Windows PowerShell versión 3.0 o superior**
     
@@ -37,7 +45,7 @@ Configuración de la directiva de cliente se puede configurar en el momento en q
     
 4. También necesitará instalar el módulo Windows PowerShell para Skype Empresarial Online que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype Empresarial Online. Este módulo, que solo se admite en equipos de 64 bits, puede descargarse desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=294688). Reinicie el equipo cuando se le solicite.
     
-    Si necesita más información, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
+    Si necesita más información, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
     
 - **Iniciar una sesión de Windows PowerShell**
     
@@ -47,96 +55,81 @@ Configuración de la directiva de cliente se puede configurar en el momento en q
     
     > [!NOTE]
     > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.
-  
-> 
-  ```
-  Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+
+  ```      
+    Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+    $credential = Get-Credential
+    $session = New-CsOnlineSession -Credential $credential
+    Import-PSSession $session
   ```
 
-> 
-  ```
-  $credential = Get-Credential
-  ```
-
-> 
-  ```
-  $session = New-CsOnlineSession -Credential $credential
-  ```
-
-> 
-  ```
-  Import-PSSession $session
-  ```
-
-    Si desea obtener más información sobre cómo iniciar Windows PowerShell, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) o[Conectarse a Skype Empresarial Online con Windows PowerShell](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx).
+  Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar con todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [conectarse a Skype para los negocios en línea mediante el uso de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
-### Deshabilitar notificaciones de presencia y de iconos gestuales e impedir que se guarden de mensajes instantáneos
+### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>Deshabilitar iconos gestuales y notificaciones de presencia e impedir que guarden de IMs
 
-- Para crear una nueva directiva de esta configuración, ejecute:
+- Para crear una nueva directiva para estas configuraciones, ejecute:
     
 > 
   ```
   New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
   ```
 
-    Más información sobre el cmdlet [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx).
+  Obtenga más información sobre el cmdlet [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
     
-- Para conceder a la nueva directiva creado a todos los usuarios de su organización, ejecute:
+- Para conceder a la nueva directiva creada para todos los usuarios de la organización, ejecute:
     
 > 
   ```
   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
   ```
 
-    Más información sobre el cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx).
+  Obtenga más información acerca del cmdlet [Grant CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
     
-Si ya ha creado una directiva, puede usar el cmdlet [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) para realizar cambios en la directiva existente y, a continuación, use el cmdlet de[Conceder CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) para aplicar la configuración los usuarios.
+Si ya ha creado una directiva, puede utilizar el cmdlet [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) para realizar cambios a la directiva existente y, a continuación, use el cmdlet de [Concesión CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) para aplicar la configuración a los usuarios.
   
-### Permitir que se pueda hacer clic en las URL y los hiperenlaces en MI
+### <a name="enable-urls-or-hyperlinks-to-be-clickable-in-ims"></a>Permitir que se pueda hacer clic en las URL y los hiperenlaces en MI
 
-- Para crear una nueva directiva de esta configuración, ejecute:
+- Para crear una nueva directiva para estas configuraciones, ejecute:
     
 > 
   ```
   New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
   ```
 
-    Más información sobre el cmdlet [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx).
+  Obtenga más información sobre el cmdlet [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
     
-- Para conceder a la nueva directiva creado a todos los usuarios de su organización, ejecute:
+- Para conceder a la nueva directiva creada para todos los usuarios de la organización, ejecute:
     
 > 
   ```
   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
   ```
 
-    Más información sobre el cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx).
+  Obtenga más información acerca del cmdlet [Grant CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
     
-Si ya ha creado una directiva, puede usar el cmdlet [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) para realizar cambios en la directiva existente y, a continuación, use el cmdlet de[Conceder CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) para aplicar la configuración los usuarios.
+Si ya ha creado una directiva, puede utilizar el cmdlet [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) para realizar cambios a la directiva existente y, a continuación, use el cmdlet de [Concesión CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) para aplicar la configuración a los usuarios.
   
-### Impedir que se muestren los contactos recientes
+### <a name="prevent-showing-recent-contacts"></a>Impedir que se muestren los contactos recientes
 
-- Para crear una nueva directiva de esta configuración, ejecute:
-    
+- Para crear una nueva directiva para estas configuraciones, ejecute:
 > 
   ```
   New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
   ```
 
-    Más información sobre el cmdlet [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx).
+  Obtenga más información sobre el cmdlet [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
     
-- Para conceder a la nueva directiva que creó Amos mármol, ejecute:
-    
+- Para conceder a la nueva directiva que ha creado al Mármol Amos, ejecute:
 > 
   ```
   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
   ```
 
-    Más información sobre el cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx).
+  Obtenga más información acerca del cmdlet [Grant CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
     
-Si ya ha creado una directiva, puede usar el cmdlet [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) para realizar cambios en la directiva existente y, a continuación, use el cmdlet de[Conceder CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) para aplicar la configuración los usuarios.
+  Si ya ha creado una directiva, puede utilizar el cmdlet [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) para realizar cambios a la directiva existente y, a continuación, use el cmdlet de [Concesión CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) para aplicar la configuración a los usuarios.
   
-## ¿Quiere saber más sobre Windows PowerShell?
+## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
 - En relación con Windows PowerShell, todo se reduce a la administración de usuarios y de lo que pueden o no hacer los usuarios. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
@@ -152,10 +145,9 @@ Si ya ha creado una directiva, puede usar el cmdlet [Set-CsClientPolicy](https:/
     
   - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Temas relacionados
+[Crear directivas personalizadas de acceso externo](create-custom-external-access-policies.md)
 
-> [!NOTE]
-> **Declinación de responsabilidades de traducción automática**: Este artículo se ha traducido con un sistema informático sin intervención humana. Microsoft ofrece estas traducciones automáticas para que los hablantes de otros idiomas distintos del inglés puedan disfrutar del contenido sobre los productos, los servicios y las tecnologías de Microsoft. Puesto que este artículo se ha traducido con traducción automática, es posible que contenga errores de vocabulario, sintaxis o gramática. 
-  
+[Transferencias de archivos punto a punto de bloque](block-point-to-point-file-transfers.md)
 
+[Configurar directivas de la conferencia de la organización](set-up-conferencing-policies-for-your-organization.md)

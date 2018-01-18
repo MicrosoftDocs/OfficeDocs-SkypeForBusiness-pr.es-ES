@@ -1,28 +1,34 @@
 ---
-title: "Activar o desactivar los informes de comentarios de clientes de Skype Empresarial"
+title: Activar o desactivar los informes de comentarios de clientes de Skype Empresarial
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/17/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 35562b48-1da1-4081-8a3a-033d0f1986b2
-description: "Esta característica está actualmente en versión preliminar y podría cambiar cuando se publique o actualice."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: "Puede habilitar su Skype para utilizar el Skype integrado para la herramienta de comentarios de la aplicación empresarial para permitir a los usuarios enviar informes y proporcionar comentarios directamente a Microsoft sobre su experiencia de los usuarios de negocios."
+ms.openlocfilehash: 72a72a7ac71f3d6e7707ce2a70109b9432f034f7
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Activar o desactivar los informes de comentarios de clientes de Skype Empresarial
 
-# Activar o desactivar los informes de comentarios de clientes de Skype Empresarial
-
-> [!IMPORTANT]
-> Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades.  
-  
- **Esta característica está actualmente en versión preliminar y podría cambiar cuando se publique o actualice.**
-  
-Puede habilitar la Skype para los usuarios empresariales a usar el Skype integrado para la herramienta de comentarios de aplicación de empresa para permitir a los usuarios informar de problemas y proporcionar comentarios directamente a Microsoft sobre su experiencia.
+Puede habilitar su Skype para utilizar el Skype integrado para la herramienta de comentarios de la aplicación empresarial para permitir a los usuarios enviar informes y proporcionar comentarios directamente a Microsoft sobre su experiencia de los usuarios de negocios. 
   
 ![Skype for Business client reporting.](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
   
-Con esta herramienta, un usuario puede copiar los registros de la aplicación en su dispositivo para ayudar a Microsoft a mejorar investigar y solucionar problemas que podrían tener.
+Con esta herramienta, un usuario puede copiar los registros de la aplicación en su dispositivo para ayudar a Microsoft a mejor investigar y solucionar los problemas que pudieran tener. 
   
 ![Skype for Business client reporting.](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
   
@@ -30,10 +36,10 @@ También puede utilizar la configuración  _EnableOnlineFeedbackScreenshot_ para
   
 ![Skype for Business client reporting form.](../images/d859578d-8116-4d4b-a08f-c0cae28b8b76.png)
   
-> [!SECURITY NOTE]
-> Se almacenará los registros recopilados por la herramienta de comentarios de la aplicación para hasta un máximo de 90 días en los Estados Unidos mientras el problema se está investigando. Por este motivo, no habilite esta herramienta comentarios si infringe la directiva de protección de datos de su organización. 
+> [!IMPORTANT]
+> Se almacenarán los registros recopilados por la herramienta de comentarios de la aplicación para un máximo de 90 días en los Estados Unidos, mientras que el problema está siendo investigado. Por este motivo, no habilite esta herramienta comentarios si esto infringe la política de protección de datos de la organización. 
   
-## Verificar e iniciar Windows PowerShell
+## <a name="verify-and-start-windows-powershell"></a>Verificar e iniciar Windows PowerShell
 
 - **Comprobar que está ejecutando Windows PowerShell versión 3.0 o superior**
     
@@ -45,7 +51,7 @@ También puede utilizar la configuración  _EnableOnlineFeedbackScreenshot_ para
     
 4. También necesitará instalar el módulo Windows PowerShell para Skype Empresarial Online que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype Empresarial Online. Este módulo, que solo se admite en equipos de 64 bits, puede descargarse desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=294688). Reinicie el equipo cuando se le solicite.
     
-    Si necesita más información, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
+Si necesita más información, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
     
 - **Iniciar una sesión de Windows PowerShell**
     
@@ -55,41 +61,23 @@ También puede utilizar la configuración  _EnableOnlineFeedbackScreenshot_ para
     
     > [!NOTE]
     > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.
-  
 > 
   ```
-  Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+    Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+    $credential = Get-Credential
+    $session = New-CsOnlineSession -Credential $credential
+    Import-PSSession $session
   ```
-
-> 
-  ```
-  $credential = Get-Credential
-  ```
-
-> 
-  ```
-  $session = New-CsOnlineSession -Credential $credential
-  ```
-
-> 
-  ```
-  Import-PSSession $session
-  ```
-
-    Si desea obtener más información sobre cómo iniciar Windows PowerShell, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) o[Conectarse a Skype Empresarial Online con Windows PowerShell](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx).
+Si desea obtener más información sobre cómo iniciar Windows PowerShell, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o[Conectarse a Skype Empresarial Online con Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
-## Activar los informes de comentarios del cliente sobre la aplicación para todos los usuarios en la organización
+## <a name="turn-on-client-app-feedback-reporting-for-all-the-users-in-your-organization"></a>Activar los informes de comentarios del cliente sobre la aplicación para todos los usuarios en la organización
 
-Para habilitar comentarios reporting para los usuarios de su organización y les permiten enviar capturas de pantalla del dispositivo, ejecute:
-  
+Para habilitar comentarios reporting para los usuarios de la organización y les permiten enviar capturas de pantalla del dispositivo, ejecute:
 > 
   ```
   Set-CsClientPolicy -Identity EnableOnlineFeedback -EnableOnlineFeedback $true -EnableOnlineFeedbackScreenshots $true
-
   ```
-
-## ¿Quiere saber más sobre Windows PowerShell?
-
+## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 - En relación con Windows PowerShell, todo se reduce a la administración de usuarios y de lo que pueden o no hacer los usuarios. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
@@ -103,11 +91,8 @@ Para habilitar comentarios reporting para los usuarios de su organización y les
   - [Usar Windows PowerShell para administrar Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
   - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525038)
-    
-## 
-<a name="MT_Footer"> </a>
 
-> [!NOTE]
-> **Declinación de responsabilidades de traducción automática**: Este artículo se ha traducido con un sistema informático sin intervención humana. Microsoft ofrece estas traducciones automáticas para que los hablantes de otros idiomas distintos del inglés puedan disfrutar del contenido sobre los productos, los servicios y las tecnologías de Microsoft. Puesto que este artículo se ha traducido con traducción automática, es posible que contenga errores de vocabulario, sintaxis o gramática. 
-  
+## <a name="related-topics"></a>Temas relacionados
+[Configurar Skype Empresarial Online](set-up-skype-for-business-online.md)
 
+[Permitir Skype para usuarios de negocios agregar contactos de Skype](let-skype-for-business-users-add-skype-contacts.md)

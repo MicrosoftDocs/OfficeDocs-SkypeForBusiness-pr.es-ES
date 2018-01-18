@@ -1,51 +1,66 @@
 ---
-title: "Diferentes tipos de números de teléfono que utiliza para llamar a los planes"
+title: "Diferentes tipos de números de teléfono utilizados para llamar a planes"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/10/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: 26602564-0f15-44e6-a27b-c8f26668ba7f
-description: "Skype empresarial Online usa tipos de número de teléfono distinta según la finalidad para la que desea usar el número de teléfono. Skype empresarial Online utiliza los números de suscriptores , que se pueden asignar a los usuarios de su organización y números de servicio , que se asignan a servicios tales como las conferencias de Audio en Office 365, los operadores automáticos o colas de llamadas. Números de teléfono de servicio tienen números de capacidad de llamadas simultáneas mayor que suscriptor (o usuario). Números de teléfono de servicio están disponibles pero varían según el país o región y el tipo de número (si es un pago o número de teléfono gratuito). Si necesita adicionales u otros tipos de números que no sean aquellos números que se ve en la Skype centro de administración de la empresa, puede enviar una solicitud de número de teléfono en el escritorio de servicio Microsoft número de teléfono."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "Skype para los negocios en línea utiliza tipos de número de teléfono diferente según la finalidad para la que desea utilizar el número de teléfono."
+ms.openlocfilehash: 503a36e0d5d1e3c1794ed3ac423206e2947069b9
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Diferentes tipos de números de teléfono utilizados para llamar a planes
 
-# Diferentes tipos de números de teléfono que utiliza para llamar a los planes
-
-> [!IMPORTANT]
-> Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades.  
+Skype para los negocios en línea utiliza tipos de número de teléfono diferente según la finalidad para la que desea utilizar el número de teléfono. Skype para los negocios en línea utiliza números de **suscriptor** , que pueden asignarse a usuarios de la organización y **servicio** , que se asignan a servicios como las conferencias de Audio en Office 365, operadores automáticos o llamar a colas. Números de teléfono de servicio tienen un números *llame a simultáneos mayor capacidad* que el suscriptor (o usuario). Números de teléfono de servicio están disponibles pero variarán según el país o región y el tipo de número (ya sea un pago o número de teléfono gratuito). Si necesita adicionales u otros tipos de números que no sean esos números vistos en el Skype para el centro de administración de empresas, puede enviar una solicitud de número de teléfono a Microsoft teléfono número service desk.
   
-Skype empresarial Online usa tipos de número de teléfono distinta según la finalidad para la que desea usar el número de teléfono. Skype empresarial Online utiliza los números de **suscriptores**, que se pueden asignar a los usuarios de su organización y números de **servicio**, que se asignan a servicios tales como las conferencias de Audio en Office 365, los operadores automáticos o colas de llamadas. Números de teléfono de servicio tienen números de *capacidad de llamadas simultáneas mayor*  que suscriptor (o usuario). Números de teléfono de servicio están disponibles pero varían según el país o región y el tipo de número (si es un pago o número de teléfono gratuito). Si necesita adicionales u otros tipos de números que no sean aquellos números que se ve en la Skype centro de administración de la empresa, puede enviar una solicitud de número de teléfono en el escritorio de servicio Microsoft número de teléfono.
-  
-- **Números de suscriptores**
+- **Números de suscriptor**
     
-    Números de suscriptores están asignados a los usuarios y hay dos tipos:
+    Números de suscriptor se asignan a los usuarios, y hay dos tipos:
     
-  - **Números geográficos** Números geográficos tienen una relación en un área geográfico y más comunes. Por ejemplo, números de teléfono geográfica en la mayoría de los casos sólo pueden utilizarse dentro de una determinada dirección, ciudad, estado o región del país.
+  - **Números geográficos** Números geográficos tienen una relación con un área geográfica y son las más comunes. Por ejemplo, números de teléfono geográfica de la mayoría de los casos sólo pueden utilizarse dentro de una cierta dirección, ciudad, estado o región del país.
     
-  - **Números no geográficos** Números no geográficos son nacionales que no tienen una relación en un área geográfico dentro de un país o región. Por ejemplo, números no geográficos a menudo tienen el mismo costo cuando llame al número del desde cualquier lugar dentro del país o región. Además, algunos países, como Dinamarca, solo tienen números no geográficos disponibles.
+  - **Números no geográficos** Los números no geográficos son nacionales que no tienen una relación a un área geográfica dentro de un país o región. Por ejemplo, los números no geográficos a menudo tienen el mismo costo al llamar el número desde cualquier lugar dentro del país. Asimismo, algunos países, como Dinamarca, sólo tienen números no geográficos disponibles.
     
-- **Números de servicio** Están disponibles en varios tipos de número diferentes números de servicio y disponibilidad varían según el país o región.
+- **Números de servicio** Números de servicio están disponibles en varios tipos diferentes de número y disponibilidad varían según el país o región.
     
-  - **Números de servicio de pago**
+  - **Números de teléfono de servicio**
     
-    Números de servicio de pago pueden provocar un coste de pago al llamador y, a continuación, hay dos tipos:
+    Números de teléfono de servicio pueden incurrir en un costo de peaje al llamador, y hay dos tipos:
     
-  - **Números geográficos** Números geográficos tienen una relación en un área geográfico. Por ejemplo, números de teléfono geográfica en la mayoría de los casos sólo pueden utilizarse dentro de una determinada dirección, ciudad, estado o región del país.
+  - **Números geográficos** Números geográficos tienen una relación con un área geográfica. Por ejemplo, números de teléfono geográfica de la mayoría de los casos sólo pueden utilizarse dentro de una cierta dirección, ciudad, estado o región del país.
     
-  - **Números no geográficos** Números no geográficos son nacionales que no tienen una relación en un área geográfico dentro de un país o región. Por ejemplo, números no geográficos a menudo tienen el mismo costo cuando llame al número del desde cualquier lugar dentro del país o región.
+  - **Números no geográficos** Los números no geográficos son nacionales que no tienen una relación a un área geográfica dentro de un país o región. Por ejemplo, los números no geográficos a menudo tienen el mismo costo al llamar el número desde cualquier lugar dentro del país.
     
-  - **Números de servicio gratuito** Estos números de servicio normalmente no incurre en un costo de pago para el llamador. Skype empresarial Online proporciona los números de teléfono gratuitos nacionales en más de 60 países o regiones.
+  - **Números de servicio gratuito** Estos números de servicio normalmente no incurrir en un costo de peaje al llamador. Skype para los negocios en línea proporciona los números de teléfono gratuitos nacionales en más de 60 países o regiones.
     
     > [!CAUTION]
-    > Algunos países o regiones y que provienen de los tipos de número, como llamadas procedentes de los teléfonos móviles, pueden en algunos casos implicar un coste de pago para el llamador. 
+    > Algunos países/regiones y originarios de tipos numéricos, como llamadas originadas desde teléfonos móviles, pueden en algunos casos incurrir en un costo de peaje al llamador. 
   
-## 
-<a name="MT_Footer"> </a>
-
 > [!NOTE]
-> **Declinación de responsabilidades de traducción automática**: Este artículo se ha traducido con un sistema informático sin intervención humana. Microsoft ofrece estas traducciones automáticas para que los hablantes de otros idiomas distintos del inglés puedan disfrutar del contenido sobre los productos, los servicios y las tecnologías de Microsoft. Puesto que este artículo se ha traducido con traducción automática, es posible que contenga errores de vocabulario, sintaxis o gramática. 
-  
+> Si necesita obtener más números de teléfono que esto, ponte [en contacto con soporte técnico para productos de empresa - Admin ayuda](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+
+## <a name="related-topics"></a>Temas relacionados
+[Transferencia de preguntas habituales de los números de teléfono](transferring-phone-numbers-common-questions.md)
+
+[Administrar números de teléfono de la organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+
+[Términos y condiciones de las llamadas de emergencias](emergency-calling-terms-and-conditions.md)
+
+[Skype para los negocios en línea: etiqueta de descargo de responsabilidad llamada de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
+
 

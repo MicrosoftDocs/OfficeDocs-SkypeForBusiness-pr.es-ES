@@ -1,33 +1,38 @@
 ---
 title: "Resumen de configuración de Skype Empresarial Online"
-ms.author: TONYSMIT
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/16/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: da3386ab-0397-4c55-b9f0-9dbeade93455
-description: "This summary of Skype for Business organization and user settings can help you learn more about Public IM connetivity, Meeting invitiations, recording calls and meetings, and more.  "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: "Este resumen de Skype para la configuración de usuario y organización de negocios puede ayudarle a obtener más información acerca de la conectividad con IM pública, las invitaciones a reuniones, llamadas y reuniones y mucho más.  "
+ms.openlocfilehash: 027246fb704ec466851f80d18c02e50b8c807616
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="skype-for-business-online-settings-summary"></a>Resumen de configuración de Skype Empresarial Online
 
-# Resumen de configuración de Skype Empresarial Online
-
-> [!IMPORTANT]
-> Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades.  
-  
-El **Centro de administración de Skype Empresarial**contiene la configuración global de la organización y también la de los usuarios individuales.
+El **Skype para el centro de administración de negocios** incluye configuración para toda la organización y para usuarios individuales. 
   
 > [!NOTE]
-> Dependiendo de su ubicación, no es posible que tenga acceso a todas las características de Skype Empresarial Online. Para obtener más información, vea [restricciones de licencia para Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
+>  Dependiendo de su ubicación, no tendrá acceso a todas las características de Skype para los negocios en línea. Para obtener más información, vea [restricciones de licencia para Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
   
-## Configuración de Skype Empresarial Online para una organización:
+## <a name="skype-for-business-online-organization-settings"></a>Configuración de Skype Empresarial Online para una organización:
 <a name="__top"> </a>
 
-|****Configuración****|****Descripción****|****Valor predeterminado****|****Más información****|
+|**Configuración**|**Descripción**|**Predeterminado**|**Aprende más**|
 |:-----|:-----|:-----|:-----|
 |Federación de dominios  <br/> |Establecer comunicación con otras organizaciones que usan Skype Empresarial Online.  <br/> |Habilitado  <br/> |[Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
 |Conectividad de mensajería instantánea pública  <br/> |Establecer comunicación con usuarios de Skype Empresarial Online.  <br/> |Habilitado  <br/> |[Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
@@ -35,20 +40,17 @@ El **Centro de administración de Skype Empresarial**contiene la configuración 
 |Modo de privacidad de presencia  <br/> |Determinar quién puede ver el estado de presencia de un usuario de Skype Empresarial Online.  <br/> |Mostrar información de presencia automáticamente  <br/> |[Configurar el modo de privacidad de presencia](configure-presence-privacy-mode.md) <br/> |
 |Invitación a reunión  <br/> |Agregar pie de página y encabezado propios, así como vínculos para proporcionar información legal.  <br/> |Sin configurar  <br/> |[Personalizar invitaciones a reuniones](customize-meeting-invitations.md) <br/> |
    
-## Configuración de Skype Empresarial Online para un usuario:
+## <a name="skype-for-business-online-user-settings"></a>Configuración de Skype Empresarial Online para un usuario:
 <a name="__toc314837470"> </a>
 
-|****Configuración****|****Descripción****|****Valor predeterminado****|****Más información****|
+|**Configuración**|**Descripción**|**Predeterminado**|**Aprende más**|
 |:-----|:-----|:-----|:-----|
-|Audio y vídeo  <br/> |Mantener conversaciones de audio y vídeo con Skype Empresarial Online.  <br/> |Habilitado  <br/> |[Administradores: Configurar Skype Empresarial para usuarios individuales](admins-configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|Grabación  <br/> |Grabar llamadas y reuniones.  <br/> |Habilitado  <br/> |[Administradores: Configurar Skype Empresarial para usuarios individuales](admins-configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|Llamada a asistentes anónimos  <br/> |Permitir que los asistentes anónimos a una reunión de Skype Empresarial Online se conecten tras recibir una llamada del proveedor de servicios de audioconferencia.  <br/> |Habilitado  <br/> |[Administradores: Configurar Skype Empresarial para usuarios individuales](admins-configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|Deshabilitar características de no archivado  <br/> | Desactiva todas las características que no se capturan cuando la organización ha configurado una[Agregar contenido a un caso y poner orígenes en suspensión en el centro de exhibición de documentos electrónicos](https://go.microsoft.com/fwlink/?LinkId=529482) en la Centro de administración de Exchange: <br/>  Transferencia de archivos por mensajería instantánea <br/>  Páginas de OneNote compartidas <br/>  Anotaciones de PowerPoint <br/>  Active esta opción si tiene la obligación legal de conservar la información almacenada por medios electrónicos. <br/> |Deshabilitado  <br/> |[Administradores: Configurar Skype Empresarial para usuarios individuales](admins-configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|Audio y vídeo  <br/> |Mantener conversaciones de audio y vídeo con Skype Empresarial Online.  <br/> |Habilitado  <br/> |[Administradores: Configurar Skype Empresarial para usuarios individuales](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|Grabación  <br/> |Grabar llamadas y reuniones.  <br/> |Habilitado  <br/> |[Administradores: Configurar Skype Empresarial para usuarios individuales](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|Llamada a asistentes anónimos  <br/> |Permitir que los asistentes anónimos a una reunión de Skype Empresarial Online se conecten tras recibir una llamada del proveedor de servicios de audioconferencia.  <br/> |Habilitado  <br/> |[Administradores: Configurar Skype Empresarial para usuarios individuales](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|Deshabilitar características de no archivado  <br/> | Desactiva las características que no se capturan cuando la organización ha configurado una [Agregar contenido con orígenes de caso y el lugar en que se mantenga en el centro de eDiscovery](https://go.microsoft.com/fwlink/?LinkId=529482) en el centro de administración de Exchange: <br/>  Transferencia de archivos por mensajería instantánea <br/>  Páginas de OneNote compartidas <br/>  Anotaciones de PowerPoint <br/>  Active esta opción si tiene la obligación legal de conservar la información almacenada por medios electrónicos. <br/> |Deshabilitado  <br/> |[Administradores: Configurar Skype Empresarial para usuarios individuales](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Temas relacionados
+[Configurar Skype Empresarial Online](set-up-skype-for-business-online.md)
 
-> [!NOTE]
-> **Declinación de responsabilidades de traducción automática**: Este artículo se ha traducido con un sistema informático sin intervención humana. Microsoft ofrece estas traducciones automáticas para que los hablantes de otros idiomas distintos del inglés puedan disfrutar del contenido sobre los productos, los servicios y las tecnologías de Microsoft. Puesto que este artículo se ha traducido con traducción automática, es posible que contenga errores de vocabulario, sintaxis o gramática. 
-  
-
+[Permitir Skype para usuarios de negocios agregar contactos de Skype](let-skype-for-business-users-add-skype-contacts.md)

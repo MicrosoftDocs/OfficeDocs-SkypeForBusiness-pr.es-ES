@@ -1,32 +1,39 @@
 ---
-title: "Audioconferencia idiomas compatibles"
+title: Idiomas compatibles de conferencia de audio
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/9/2017
-ms.audience: Admin
-ms.topic: reference
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 572ca0c8-b9f0-4948-9409-e12ee0b94aa0
-description: "Find the dial-in conferencing language for each country or region and the culture ID assigned (en-US, da-DK, de-DE, etc)"
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: "Encontrar el lenguaje de marcado de conferencia para cada país o región y el identificador de referencia cultural asignan (en-US, da-DK, de-DE, etcetera)"
+ms.openlocfilehash: 68b82c507f7e97c9875e34896b300efabc5c8347
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="audio-conferencing-supported-languages"></a>Idiomas compatibles de conferencia de audio
 
-# Audioconferencia idiomas compatibles
-
-> [!IMPORTANT]
-> Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades.  
-  
-Cuando se instalar y configurar conferencias de Audio en Office 365, puede seleccionar los principales y secundarias (hasta 4) de los idiomas que se usan cuando las personas que llaman llaman a una Skype para empresas o Microsoft Teams reunión. A continuación se ofrece la lista de los idiomas admitidos para conferencias de Audio:
+Al configurar y configurar Audio conferencia en Office 365, puede seleccionar el primario y el secundario (4) idiomas que se utilizan cuando los llamadores marquen un Skype para reuniones de negocios o Teams de Microsoft. Aquí está la lista de idiomas admitidos para conferencias de Audio: 
   
 > [!IMPORTANT]
-> Idiomas principales y secundarios pueden cambiarse únicamente en los números de teléfono de conferencias de Audio dedicados. 
+> Idiomas primarios y secundarios pueden cambiarse únicamente en los números de teléfono de conferencia de Audio dedicados. 
   
-## Idiomas actualmente admitidos
+## <a name="currently-supported-languages"></a>Idiomas admitidos actualmente
 
-|****Idioma****|****País o región****|****Id. de referencia cultural****|
+|**Idioma**|**País o región**|**Identificador de referencia cultural**|
 |:-----|:-----|:-----|
 |Árabe  <br/> |Arabia Saudí  <br/> |ar-SA  <br/> |
 |Búlgaro  <br/> |Bulgaria  <br/> |bg-BG  <br/> |
@@ -36,60 +43,60 @@ Cuando se instalar y configurar conferencias de Audio en Office 365, puede selec
 |Croata  <br/> |Croacia  <br/> |hr-HR  <br/> |
 |Checo  <br/> |República Checa  <br/> |cs-CZ  <br/> |
 |Danés  <br/> |Dinamarca  <br/> |da-DK  <br/> |
-|Neerlandés  <br/> |Países Bajos  <br/> |nl-NL  <br/> |
+|Holandés  <br/> |Países Bajos  <br/> |nl-NL  <br/> |
 |Inglés  <br/> |Australia  <br/> |en-AU  <br/> |
 |Inglés  <br/> |Reino Unido  <br/> |en-GB  <br/> |
 |Inglés  <br/> |Estados Unidos  <br/> |en-US  <br/> |
 |Estonio  <br/> |Estonia  <br/> |et-EE  <br/> |
-|Filipino  <br/> |Filipinas  <br/> |fil-PH  <br/> |
-|Finés  <br/> |Finlandia  <br/> |fi-FL  <br/> |
+|Filipino  <br/> |Filipinas  <br/> |Fil-PH  <br/> |
+|Finlandés  <br/> |Finlandia  <br/> |Fi-FL  <br/> |
 |Francés  <br/> |Canadá  <br/> |fr-CA  <br/> |
 |Francés  <br/> |Francia  <br/> |fr-FR  <br/> |
 |Alemán  <br/> |Alemania  <br/> |de-DE  <br/> |
-|Georgiano  <br/> |Georgia  <br/> |ka-GE  <br/> |
+|Georgiano  <br/> |Georgia  <br/> |Ka-GE  <br/> |
 |Griego  <br/> |Grecia  <br/> |el-GR  <br/> |
 |Hebreo  <br/> | Israel <br/> | he-IL <br/> |
 |Hindi  <br/> |India  <br/> |hi-IN  <br/> |
 |Húngaro  <br/> |Hungría  <br/> |hu-HU  <br/> |
-|Indonesio  <br/> |Indonesia  <br/> |id-ID  <br/> |
-|Italiano  <br/> |Italia  <br/> | it-IT <br/> |
+|Indonesio  <br/> |Indonesia  <br/> |ID identificador  <br/> |
+|Italiano  <br/> |Italia  <br/> | IT-IT <br/> |
 |Japonés  <br/> |Japón  <br/> |ja-JP  <br/> |
 |Coreano  <br/> |Corea  <br/> |ko-KR  <br/> |
 |Letón  <br/> |Letonia  <br/> |lv-LV  <br/> |
 |Lituano  <br/> |Lituania  <br/> |lt-LT  <br/> |
-|Malayo  <br/> |Malasia  <br/> |ms-MY  <br/> |
+|Malayo  <br/> |Malasia  <br/> |MS mi  <br/> |
 |Noruego (Bokmal)  <br/> |Noruega  <br/> |nb-NO  <br/> |
-|Polaco  <br/> |Polonia  <br/> |pl-PL  <br/> |
+|Polaco  <br/> |Polonia  <br/> |PL-PL  <br/> |
 |Portugués  <br/> |Brasil  <br/> |pt-BR  <br/> |
 |Portugués  <br/> |Portugal  <br/> |pt-PT  <br/> |
-|Rumano  <br/> |Rumania  <br/> |ro-RO  <br/> |
+|Rumano  <br/> |Rumania  <br/> |Rodada  <br/> |
 |Ruso  <br/> |Rusia  <br/> |ru-RU  <br/> |
 |Eslovaco  <br/> |Eslovaquia  <br/> |sk-SK  <br/> |
 |Esloveno  <br/> |Eslovenia  <br/> |sk-SK  <br/> |
 |Español  <br/> |México  <br/> |es-MX  <br/> |
-|Español  <br/> |España  <br/> |es-ES  <br/> |
+|Español  <br/> |España  <br/> |ES-es  <br/> |
 |Sueco  <br/> |Suecia  <br/> |sv-SE  <br/> |
 |Tailandés  <br/> |Tailandia  <br/> |th-TH  <br/> |
 |Turco  <br/> |Turquía  <br/> |tr-TR  <br/> |
-|Ucraniano  <br/> |Ucrania  <br/> |uk-UA  <br/> |
+|Ucraniano  <br/> |Ucrania  <br/> |Reino Unido-UA  <br/> |
    
-Si está buscando países o regiones donde puede adquirir conferencias de Audio, consulte [¿Las conferencias RTC con números de teléfono están disponibles en mi país o región?](http://technet.microsoft.com/library/1096d81e-7e14-488c-95d8-b8322e39c059%28Office.14%29.aspx).
+Si está buscando países o regiones donde puede adquirir las conferencias de Audio, consulte [disponibilidad de país y región para conferencias de Audio y llamar a los planes](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
-Si está buscando determinados países o regiones que tienen números de teléfono para las conferencias de Audio, vea [Números de teléfono para las conferencias de Audio](phone-numbers-for-audio-conferencing.md).
+Si está buscando determinados países o regiones que tienen números de teléfono para las conferencias de Audio, vea [números de teléfono de conferencia de Audio](phone-numbers-for-audio-conferencing.md).
   
-## ¿Desea saber cómo administrar con Windows PowerShell?
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 
-- Para ahorrar tiempo o automatizar este proceso, puede usar los cmdlets [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) o[Cmdlets Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) .
+- Para ahorrar tiempo o automatizar esta tarea, puede usar los cmdlets [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) o [CsOnlineDialInConferencingServiceNumber del conjunto](https://go.microsoft.com/fwlink/?LinkId=617689) .
     
-- Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 con un único punto de administración que puede simplificar el trabajo diario cuando tenga que realizar varias tareas. Para empezar a usar Windows PowerShell, vea estos temas:
+-  Windows PowerShell es todo sobre la administración de usuarios y lo que los usuarios se permiten o no realizar. Con Windows PowerShell, puede administrar Office 365 mediante un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. Para empezar a utilizar Windows PowerShell, consulte estos temas:
     
-  - [¿Por qué necesita usar PowerShell de Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 con un único punto de administración que puede simplificar el trabajo diario cuando tenga que realizar varias tareas. Para empezar a usar Windows PowerShell, vea estos temas:
     
-  - [Mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell tiene muchas ventajas velocidad, simplificar y productividad sobre usando solo el centro de administración de Office 365, como cuando realice cambios en la configuración de muchos usuarios a la vez. Obtenga más información sobre estas ventajas en los siguientes temas:
+- Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad sobre utilizando sólo el centro de administración de Office 365, como cuando realice cambios en la configuración de muchos usuarios al mismo tiempo. Obtenga información acerca de estas ventajas en los siguientes temas: 
     
-  - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
   - [Usar Windows PowerShell para administrar Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
@@ -98,16 +105,8 @@ Si está buscando determinados países o regiones que tienen números de teléfo
     > [!NOTE]
     > El módulo Windows PowerShell para Skype Empresarial Online le permite crear una sesión de Windows PowerShell remota que se conecta con Skype Empresarial Online. Este módulo, que solo es compatible con equipos de 64 bits, se puede descargar desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Temas relacionados
 
-> [!NOTE]
-> **Declinación de responsabilidades de traducción automática**: Este artículo se ha traducido con un sistema informático sin intervención humana. Microsoft ofrece estas traducciones automáticas para que los hablantes de otros idiomas distintos del inglés puedan disfrutar del contenido sobre los productos, los servicios y las tecnologías de Microsoft. Puesto que este artículo se ha traducido con traducción automática, es posible que contenga errores de vocabulario, sintaxis o gramática. 
-  
-## Vea también
-<a name="MT_Footer"> </a>
+[Configurar Audioconferencia para Skype Empresarial y Microsoft Teams](set-up-audio-conferencing.md)
 
-#### 
-
-[Conferencias de acceso telefónico en Office 365](../misctopics/dial-in-conferencing-in-office-365.md)
 

@@ -1,399 +1,390 @@
 ---
-title: "¿Administrar la configuración de conferencias de Audio de mi organización?"
+title: "Administrar la configuración de la conferencia de acceso telefónico local en mi organización"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: bc9bd328-c5b2-44e5-af15-e02bf00e1c81
-description: "See steps to assign a dial-in conferencing license and conference ID to a user, set up a third party conferencing provider, and many other dial-in conferencing settings. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: 'See steps to assign a dial-in conferencing license and conference ID to a user, set up a third party conferencing provider, and many other dial-in conferencing settings. '
+ms.openlocfilehash: 6bca89f60c5ee4e9b840d2094500077cfa972902
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="manage-the-audio-conferencing-settings-for-my-organization"></a>Administrar la configuración de la conferencia de acceso telefónico local en mi organización
 
-# ¿Administrar la configuración de conferencias de Audio de mi organización?
-
-> [!IMPORTANT]
-> Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades.  
+[] Puede que le resulte más sencillo ver todas las opciones de configuración de conferencia de acceso telefónico local en un mismo lugar. 
   
-Es posible que resulte más fácil ver toda la configuración de conferencias de audio de Skype para la empresa y Teams de Microsoft en un único lugar.
-  
-## Asignar una licencia de conferencias de Audio
+## <a name="assign-an-audio-conferencing-license"></a>Asignar una licencia de conferencia de acceso telefónico local
 
 > [!NOTE]
-> No puede asignar licencias con la **Centro de administración de Skype Empresarial**. Deberá usar el centro de administración de Office 365. Vea [Asignar Skype para Business y Microsoft Teams licencias](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). 
+> No se puede asignar licencias usando el **Skype para el centro de administración de negocios**. Debe utilizar el centro de administración de Office 365. Consulte [Asignar Skype para licencias de negocio y equipos de Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). 
   
- **Para asignar una licencia para un usuario**
+ Para asignar una licencia a un usuario
   
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. En el panel de navegación izquierdo del **Centro de administración de Office 365**, vaya a **usuarios** > **usuarios activos** y, a continuación, seleccione el usuario o los usuarios de la lista de usuarios disponibles.
+2. En la exploración de la izquierda del **Centro de administración de Office 365**, vaya a **usuarios** > **usuarios activos**y a continuación, seleccione el usuario o usuarios de la lista de usuarios disponibles.
     
     > [!NOTE]
-    > Si va a asignar licencias a hasta 20 usuarios al mismo tiempo, puede usar la lista desplegable **Seleccionar una vista**, a continuación, elija una de las opciones o crear su propia vista. A continuación, haga clic en **Editar**, **siguiente** dos veces, a continuación, seleccione la licencia y haga clic en **Enviar**. También puede asignar licencias a varios usuarios con Windows Powershell. Para obtener instrucciones y secuencias de comandos de PowerShell de ejemplo, vea [Asignar Skype para Business y Microsoft Teams licencias](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). 
+    > Si va a asignar licencias a un máximo de 20 usuarios al mismo tiempo, puede usar el menú desplegable **Seleccionar una vista** y, luego, elegir una de las opciones o crear su propia vista. Luego, haga clic en **Editar**, haga clic dos veces en **Siguiente**, seleccione la licencia y haga clic en **Enviar**. También puede asignar licencias a varios usuarios con Windows PowerShell. Para obtener instrucciones y scripts de PowerShell de ejemplo, vea [Asignar licencias de Skype Empresarial](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). 
   
-3. En el panel de acciones, en **Licencias de productos**, haga clic en **Editar**. 
+3. En el panel de acciones, en **Licencia asignada**, haga clic en **Editar**. 
     
-4. En la página **Licencias de producto**, activar **Conferencias de Audio** y, a continuación, haga clic en **Guardar**. Para obtener más información sobre las licencias, vea [Skype para Business y Microsoft Teams licencias de complemento](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+4. En la página **Asignar licencia**, active **Conferencias RTC de Skype Empresarial** y haga clic en **Guardar**. Para obtener más información sobre licencias, consulte [Licencias complementarias de Skype Empresarial](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
 > [!NOTE]
-> Después de asignar la licencia, Microsoft puede no aparecer inicialmente en la lista como un proveedor de servicios de audioconferencia. Si esto sucede, inicie sesión en el centro de administración de Office 365 o presione CTRL + F5 para actualizar la ventana del explorador. 
+> Después de asignar la licencia, puede que Microsoft no aparezca en el menú desplegable como un proveedor de servicios de conferencia de acceso telefónico local. Si esto ocurre, cierre la sesión del centro de administración de Office 365 o presione CTRL + F5 para actualizar la ventana del explorador. 
   
-## Asignar un id. de conferencia a un usuario
+## <a name="assign-a-conference-id-for-a-user"></a>Asignar un ID de conferencia para un usuario
 
-Un identificador de conferencia se asigna automáticamente a un usuario cuando están configurados para conferencias de audio con Microsoft como proveedor de conferencias de audio. El identificador de conferencia asignado puede ser estática o dinámica y se envía la invitación a la reunión si la reunión está programada.
+Asignar un id. de conferencia a un usuario 
   
-Identificadores estáticos se usan cuando los usuarios de su organización no necesita recordar un número aleatorio; Puede seleccionar un número determinado o elegir uno que sea fácil de recordar. Cuando se usan los identificadores de conferencia dinámicos, cada reunión las programaciones de un usuario obtener asignará un identificador único. Si desea asignar dinámico en lugar de la conferencia estático identificadores, [Uso de los identificadores dinámicos de conferencias de Audio de su organización](using-audio-conferencing-dynamic-ids-in-your-organization.md).
+Identificadores estáticos se utilizan cuando las personas de la organización no desean recordar un número aleatorio; Puede seleccionar un determinado número o elija uno que sea fácil de recordar. Cuando se utilizan identificadores de conferencia dinámico, cada reunión programaciones de un usuario obtener asignará un identificador único conferencia. Si desea asignar el dinámico en lugar de conferencia estática identificadores, vea [conferencias de Audio utilizando identificadores dinámicos en su organización](using-audio-conferencing-dynamic-ids-in-your-organization.md).
+  
+El Skype para el centro de administración de negocios no puede utilizarse para asignar un ID de conferencia a un usuario, pero puede utilizar el cmdlet de Windows PowerShell para ello.
   
 El Centro de administración de Skype Empresarial no se puede usar para asignar un id. de conferencia a un usuario, pero se puede usar el cmdlet de Windows PowerShell para esta finalidad.
-  
-Para establecer el id. de conferencia de un usuario, ejecute:
   
 ```
 Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ConferenceId 8271964 
 ```
 
 > [!IMPORTANT]
-> Un identificador de conferencia debe contener 7 dígitos y no puede cambiar en la Skype centro de administración de la empresa o con Windows PowerShell. 
+> Para establecer el id. de conferencia de un usuario, ejecute: 
   
-Consulte [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ) para obtener más información sobre el cmdlet.
+El id. de conferencia tiene que contener siete dígitos y no se puede cambiar en el Centro de administración de Skype Empresarial ni con Windows PowerShell.
   
 > [!IMPORTANT]
->  Después de crea un nuevo identificador de conferencia, el identificador de conferencia antiguo no puede ser usado por las personas que llaman. Debe notificar a los usuarios a programar sus existentes invitaciones para asegurarse de que la conferencia nueva que identificador se agrega a las invitaciones de la reunión. Los usuarios pueden usar la herramienta de migración de reuniones Skype Empresarial para actualizar sus reuniones existentes. Para ver cómo descargar, instalar y ejecutar la Skype para la herramienta de actualización de reuniones de empresa, consulte:> [Herramienta de actualización de reuniones para Skype y Lync](http://technet.microsoft.com/library/2b525fe6-ed0f-4331-b533-c31546fcf4d4%28Office.14%29.aspx)> [Skype Empresarial Online, herramienta de migración de reuniones (64 bits)](http://go.microsoft.com/fwlink/?LinkID=626047)> [Skype empresarial Online, la herramienta de migración de reuniones (32 bits)](https://go.microsoft.com/fwlink/?LinkID=626046)
+>  Después de crea un nuevo ID de conferencia, no se puede utilizar el ID de conferencia antigua por los llamadores. Debe notificar a los usuarios a programar sus invitaciones para asegurarse de que la nueva conferencia que ID se agrega a las invitaciones para reuniones existentes. Los usuarios pueden utilizar el Skype para la herramienta de migración de reuniones de negocios para actualizar sus reuniones existentes. Para ver cómo descargar, instalar y ejecutar el Skype para la herramienta de actualización de reunión empresarial, consulte: [Herramienta de actualización de la reunión para Skype para empresas y Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype para los negocios en línea, herramienta de migración de reunión (64 bits)](http://go.microsoft.com/fwlink/?LinkID=626047)y [Skype para los negocios en línea, reunión Herramienta de migración (32-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
   
-Consulte [Ver, modificar y restablecer un identificador de conferencia asignado a un usuario](see-change-and-reset-a-conference-id-assigned-to-a-user.md).
+Consulte [Ver, cambiar y restablecer un ID de conferencia asignado a un usuario](see-change-and-reset-a-conference-id-assigned-to-a-user.md).
   
-## Cambiar el proveedor de conferencias de audio de Microsoft a un proveedor de terceros
+## <a name="change-the-audio-conferencing-provider-from-microsoft-to-a-third-party-provider"></a>Cambiar el proveedor de conferencia de audio de Microsoft a un proveedor de terceros
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Cambiar el proveedor de servicios de conferencia de acceso telefónico local de Microsoft a un proveedor de terceros
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+2. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-3. En la **Centro de administración de Skype Empresarial**, en el panel de navegación izquierdo, vaya a las **conferencias de Audio** > **usuarios** y luego seleccione el usuario que desea cambiar el proveedor de conferencias de audio para.
+3. En el **Skype para el centro de administración de negocios**, en la exploración de la izquierda, vaya a las **conferencias de Audio** > **los usuarios**y a continuación seleccione el usuario que desea cambiar el proveedor de conferencia de audio para.
     
-4. En el panel de acciones, haga clic en **Editar**.
+4. En el panel de acciones, haga clic en **Editar**. 
     
-5. En la página de **Propiedades**, en **nombre del proveedor**, seleccione el proveedor de servicios de audioconferencia para el usuario.
+5. En la página de **Propiedades** , en **nombre del proveedor**, elija el proveedor de conferencia de audio para el usuario.
     
     > [!NOTE]
-    > Solo puede seleccionar Microsoft como proveedor de conferencias de audio o **Ninguno** si ha seleccionado varios usuarios.
+    > Sólo puede seleccionar Microsoft como proveedor de conferencia de audio o **Ninguno** , si ha seleccionado varios usuarios.
   
-6. Haga clic en **Guardar**.
+6. Solo puede seleccionar Microsoft como el proveedor de servicios de conferencia de acceso telefónico local o **Ninguno** si ha seleccionado varios usuarios. 
     
-Consulte [Cambiar el proveedor de servicios de conferencia de acceso telefónico local para los usuarios](http://technet.microsoft.com/library/9b74f053-4d23-485f-9232-3d30370a8c6e%28Office.14%29.aspx).
   
-## Habilitar o deshabilitar los correos electrónicos enviados a los usuarios de conferencias de audio
+## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Habilitar o deshabilitar los mensajes de correo electrónico enviados a los usuarios de conferencia de audio
 
-Puede usar la Skype centro de administración de la empresa o Windows PowerShell para habilitar o deshabilitar el correo electrónico enviado a los usuarios.
+Habilitar o deshabilitar el envío de correos electrónicos a los usuarios de acceso telefónico local
   
- **Usar la Skype centro de administración de la empresa**
+ Puede usar el Centro de administración de Skype Empresarial o Windows PowerShell para habilitar o deshabilitar el envío de correos electrónicos a los usuarios.
   
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Usar el Centro de administración de Skype Empresarial
     
-2. Vaya al **Centro de administración de Office 365** > **Skype Empresarial** y en el panel de navegación izquierdo, haga clic en **conferencias de Audio**.
+2. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-3. En la página **Configuración del puente de Microsoft**, active o desactive **Enviar automáticamente los mensajes de correo electrónico a los usuarios si cambia su configuración de conferencias de audio**.
+3. En la página **configuración de puente de Microsoft** , active o desactive la **Enviar automáticamente mensajes de correo electrónico a los usuarios si cambia su configuración de conferencia de audio**.
     
 4. Haga clic en **Guardar**.
     
-    También puede enviar mensajes de correo electrónico al usuario con la configuración de conferencias de audio va a las propiedades del usuario audioconferencia y haciendo clic en **Enviar información de conferencia por correo electrónico**. El número de teléfono conferencia predeterminada y el identificador de conferencia de audio se incluye en la invitación a la reunión pero no el PIN.
+    Haga clic en **Guardar**.
     
-    Vea [Enviar un correo electrónico a un usuario con su información de conferencias de Audio](send-an-email-to-a-user-with-their-audio-conferencing-information.md).
+    Si hace esto, se enviará un correo electrónico que solo contenga el id. de la conferencia y el número de teléfono de la conferencia, pero no se incluirá el PIN.
     
- **Uso de Windows PowerShell**
+ Vea **Enviar un correo electrónico a un usuario con su información de conferencias de Audio**.
   
-- También puede usar Windows PowerShell y ejecutar:
+- Usar Windows PowerShell 
     
   ```
   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $true|$false
   ```
 
-    Puede usar el [Conjunto CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) administrar otras opciones de configuración de la organización, como correo electrónico.
+    También puede usar Windows PowerShell y ejecutar:
     
-## Cambiar la información de contacto del remitente en los mensajes de correo electrónico enviado a los usuarios
+## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>Cambiar información de contacto del remitente en los mensajes de correo electrónico enviados a los usuarios
 
-Puede realizar cambios en el correo electrónico que se envía automáticamente a los usuarios, incluida la dirección de correo electrónico real y el nombre para mostrar de la información de contacto del remitente. De forma predeterminada, el remitente de los mensajes de correo electrónico es Office 365, pero puede cambiar la dirección de correo electrónico y nombre para mostrar con Windows PowerShell y el cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) . Para realizar cambios en la dirección de correo electrónico que envía el correo electrónico a los usuarios, debe:
+Cambiar la información de contacto de los remitentes de mensajes de correo electrónico enviados a los usuarios
   
-- Escriba la dirección de correo electrónico en el parámetro  _SendEmailFromAddress_.
+- Escriba la dirección de correo electrónico en el parámetro _SendEmailFromAddress_ .
     
 - Escriba el nombre para mostrar del correo electrónico en el parámetro  _SendEmailFromDisplayName_.
     
-- Establecer el parámetro  _SendEmailOverride_ en _True_.
+- Establezca el parámetro _SendEmailOverride_ en _True_.
     
-Puede realizar cambios en el correo electrónico enviado a los usuarios, como la dirección de correo electrónico desde la que se envía el correo o el nombre para mostrar del correo electrónico al ejecutar:
+Puede realizar cambios en el correo electrónico enviado a los usuarios, como el correo electrónico se envía desde la dirección de correo electrónico o el nombre para mostrar para el correo electrónico mediante la ejecución de:
   
 ```
 Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"
 ```
 
+Puede realizar cambios en el correo electrónico enviado a los usuarios, como la dirección de correo electrónico desde la que se envía el correo o el nombre para mostrar del correo electrónico al ejecutar:
+  
 Si quiere cambiar la información de la dirección de correo electrónico, tendrá que asegurarse de que las directivas de correo electrónico de entrada de su organización permitan la recepción de mensajes enviados por la dirección de correo electrónico personalizada.
   
-Puede usar el cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) administrar otras opciones de configuración de la organización, como correo electrónico.
+Ver [mensajes de correo electrónico que se envían automáticamente a los usuarios al cambia su configuración de conferencia de Audio](emails-sent-to-users-when-their-settings-change.md).
   
-Ver [Mensajes de correo electrónico que se envían automáticamente a los usuarios cuando cambie su configuración de conferencias de Audio](emails-that-are-automatically-sent-to-users-when-their-audio-conferencing-settin.md).
-  
-## Restablecer el id. de conferencia de reunión
+## <a name="reset-the-meeting-conference-id"></a>Restablecer la reunión Id. de conferencia
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Restablecer el id. de conferencia de reunión
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+2. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-3. En la **Centro de administración de Skype Empresarial**, en el panel de navegación izquierdo, vaya a las **conferencias de Audio** y, en el panel Acción, en **El identificador de conferencia**, haga clic en **Restablecer**.
+3. En el **Skype para el centro de administración de negocios**, en la exploración de la izquierda, vaya a las **conferencias de Audio**y, en el panel de acción en el **Id. de conferencia**, haga clic en **Restablecer**.
     
-4. En la **Restablecer Id. de conferencia?** ventana, haga clic en **Sí**. Se crea automáticamente un identificador de conferencia y envía un correo electrónico al usuario con el nuevo identificador de conferencia si se habilita el envío de correo electrónico a los usuarios. Se habilita de forma predeterminada.
+4. En el **Restablecer Id. de conferencia?** ventana, haga clic en **Sí**. Se creará automáticamente un Id. de conferencia y un correo electrónico al usuario con el nuevo ID de conferencia si está habilitado el envío de correo electrónico a los usuarios. Está habilitado de forma predeterminada.
     
     > [!IMPORTANT]
-    >  Después de crea un nuevo identificador de conferencia, el identificador de conferencia antiguo no puede ser usado por las personas que llaman. Debe notificar a los usuarios a programar sus existentes invitaciones para asegurarse de que la conferencia nueva que identificador se agrega a las invitaciones de la reunión. Los usuarios pueden usar la herramienta de migración de reuniones Skype Empresarial para actualizar sus reuniones existentes. Para ver cómo descargar, instalar y ejecutar la Skype para la herramienta de actualización de reuniones de empresa, consulte:> [Herramienta de actualización de reuniones para Skype y Lync](http://technet.microsoft.com/library/2b525fe6-ed0f-4331-b533-c31546fcf4d4%28Office.14%29.aspx)> [Skype Empresarial Online, herramienta de migración de reuniones (64 bits)](http://go.microsoft.com/fwlink/?LinkID=626047)> [Skype empresarial Online, la herramienta de migración de reuniones (32 bits)](https://go.microsoft.com/fwlink/?LinkID=626046)
+    >  Después de crea un nuevo ID de conferencia, no se puede utilizar el ID de conferencia antigua por los llamadores. Debe notificar a los usuarios a programar sus invitaciones para asegurarse de que la nueva conferencia que ID se agrega a las invitaciones para reuniones existentes. Los usuarios pueden utilizar el Skype para la herramienta de migración de reuniones de negocios para actualizar sus reuniones existentes. Para ver cómo descargar, instalar y ejecutar el Skype para la herramienta de actualización de reunión empresarial, consulte: [herramienta de actualización de la reunión para Skype para empresas y Lync] ((https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype para negocios en línea Reunión de la herramienta de migración (64 bits)](http://go.microsoft.com/fwlink/?LinkID=626047)y [Skype para negocios en línea, herramienta de migración de reunión (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
   
-Vea [Restablecer un id. de conferencia para un usuario](reset-a-conference-id-for-a-user.md).
+Vea [Restablecer un Id. de conferencia para un usuario](reset-a-conference-id-for-a-user.md).
   
-## Restablecer el PIN del organizador de una conferencia
+## <a name="reset-a-conference-organizers-pin"></a>Restablecer el PIN del organizador de una conferencia
 
-Identificadores estáticos se usan cuando los usuarios de su organización no necesita recordar un número aleatorio; Puede seleccionar un número determinado o utilice uno que sea fácil de recordar. Cuando se usan los identificadores de conferencia dinámicos, cada reunión las programaciones de un usuario obtener asignará un identificador único. Si desea asignar dinámico en lugar de la conferencia estático identificadores, [Uso de los identificadores dinámicos de conferencias de Audio de su organización](using-audio-conferencing-dynamic-ids-in-your-organization.md).
+Identificadores estáticos se utilizan cuando las personas de la organización no desean recordar un número aleatorio; Puede seleccionar un determinado número o utilizar uno que sea fácil de recordar. Cuando se utilizan identificadores de conferencia dinámico, cada reunión programaciones de un usuario obtener asignará un identificador único conferencia. Si desea asignar el dinámico en lugar de conferencia estática IDs, [conferencias de Audio utilizando identificadores dinámicos en su organización](using-audio-conferencing-dynamic-ids-in-your-organization.md).
   
-Aunque se crea automáticamente un identificador de conferencia estático y se asigna a un usuario, puede haber ocasiones cuando un usuario no desea usar esta y desea configurar a un número determinado, o los usuarios no recuerda o que han perdido su identificador de conferencia. Puede usar la Skype centro de administración de la empresa y Windows PowerShell para ver, modificar y restablecer su identificador de conferencia.
+Aunque crea automáticamente un ID de conferencia estática y se asigna a un usuario, puede haber ocasiones cuando un usuario no desea utilizar esta y desea establecerla en un número determinado, o los usuarios no recuerdan o han perdido su ID de conferencia. Puede utilizar el Skype para el centro de administración de negocios y de Windows PowerShell para ver, cambiar y restablecer su ID de conferencia.
   
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Habilitar o deshabilitar el correo electrónico que se envían a los usuarios de acceso telefónico local
     
-2. Vaya al **Centro de administración de Office 365** > **Skype Empresarial** y en el panel de navegación izquierdo, haga clic en **conferencias de Audio**.
+2. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-3. Haga clic en **usuarios** y, a continuación, seleccione el usuario que desea restablecer el PIN para.
+3. Haga clic en **usuarios**y, a continuación, seleccione el usuario que desea restablecer el PIN para.
     
-4. En el panel Acción, **PIN**, haga clic en **Restablecer**.
+4. En el panel de acción, **PIN**, haga clic en **Restablecer**.
     
-Los usuarios recibirán un correo electrónico con su PIN cuando se encuentran habilitadas para conferencias de audio o cuando se restablece el PIN. Pero, si ha deshabilitado automáticamente enviar correos electrónicos, no se enviará un correo electrónico de restablecimiento PIN y tendrá que enviar manualmente el PIN para el usuario. El PIN sólo se mostrará una vez después de que se ha restablecido. Después de que se muestra inmediatamente después de restablecer, el PIN no se muestra ya en las propiedades de usuario en su lugar, *** se mostrarán.
+Los usuarios recibirán un correo electrónico con su NIP cuando están habilitados para conferencias de audio o cuando se restablece el NIP. Pero si ha deshabilitado automáticamente enviar mensajes de correo electrónico, no se enviará un correo electrónico de restablecimiento PIN y tendrá que enviar manualmente el PIN al usuario. El PIN sólo aparecerá una vez después de que se ha restablecido. Después se muestra inmediatamente después de que se restablezca, el PIN no se muestra ya en las propiedades del usuario; en su lugar, *** aparecerá. 
   
-Vea [Restablecer el PIN de conferencia de Audio para un usuario](reset-the-audio-conferencing-pin-for-a-user.md).
+Los usuarios recibirán un correo electrónico con su PIN cuando estén habilitados para la conferencia de acceso telefónico local o cuando se restablezca el PIN. Pero, si deshabilitó el envío automático de correos electrónicos, no se enviará un correo electrónico de restablecimiento de PIN al usuario y tendrá que enviar el PIN al usuario de forma manual. El PIN solo se mostrará una vez después de que se haya restablecido. Una vez que se muestra inmediatamente después de haberse restablecido, el PIN no se mostrará más en las propiedades del usuario y en su lugar se mostrará *****.
   
-## Enviar un correo electrónico con la información de conferencias de Audio a un usuario
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Enviar un correo electrónico con información de conferencia de Audio a un usuario
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Enviar un correo electrónico con información sobre la conferencia de acceso telefónico local a un usuario
     
-2. Vaya al **Centro de administración de Office 365** > **Skype Empresarial** y en el panel de navegación izquierdo, haga clic en **conferencias de Audio**.
+2. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-3. Haga clic en **usuarios** y, a continuación, seleccione el usuario que desea restablecer el PIN para.
+3. Haga clic en **usuarios**y, a continuación, seleccione el usuario que desea restablecer el PIN para.
     
-4. En el panel de acciones, haga clic en **Enviar información de conferencia por correo electrónico**.
+4. Haga clic en **Usuarios de acceso telefónico local** y seleccione el usuario para el que quiera restablecer el PIN.
     
     > [!NOTE]
-    > Cuando hace esto, la audioconferencia PIN no se envía al usuario. 
+    > Al hacerlo, la conferencia de audio PIN no se envía al usuario. 
   
-Vea [Enviar un correo electrónico a un usuario con su información de conferencias de Audio](send-an-email-to-a-user-with-their-audio-conferencing-information.md).
+Después de completar esta acción, el PIN de conferencia de acceso telefónico local no se enviará al usuario.
   
-## Establecer el número de teléfono de conferencias de audio predeterminado para los organizadores de la reunión
+## <a name="setting-the-default-audio-conferencing-phone-number-for-meeting-organizers"></a>Establecer el número de teléfono de conferencia de audio predeterminado para los organizadores de la reunión
 
- **Para establecer el número de teléfono de conferencias de audio predeterminado para los organizadores de la reunión cuando se habilita un usuario para conferencias de Audio**
+ Configurar el número de teléfono de conferencias de acceso telefónico local predeterminado para los organizadores de reuniones
   
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Para establecer el número de teléfono de conferencias de acceso telefónico local predeterminado para los organizadores de reuniones cuando está habilitando un usuario para las conferencias de acceso telefónico local
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+2. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-3. En el panel de navegación izquierdo, vaya a las **conferencias de Audio** > **usuarios**. Seleccione el usuario que desea habilitar para conferencias de Audio.
+3. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
     
-4. En el panel Acción, en las propiedades del usuario, haga clic en **Editar**.
+4. En el panel de acciones, en las propiedades del usuario, haga clic en **Editar**.
     
-5. En la página de **Propiedades**, en **nombre del proveedor**, use la lista desplegable para seleccionar el proveedor de servicios de audioconferencia.
+5. En la página de **Propiedades** , en **nombre del proveedor**, utilice la lista desplegable para seleccionar el proveedor de conferencia de audio.
     
-  - Si selecciona Microsoft como proveedor de conferencias de audio, puede elegir el número de teléfono de conferencias de audio predeterminado de la lista.
+  - Si selecciona Microsoft como proveedor de conferencia de audio, puede elegir el número de teléfono de conferencia de audio predeterminado en la lista.  
     
-  - Si selecciona un ACP de terceros como proveedor de conferencias de audio, debe introducir manualmente el número de pago y si es necesario, el número de teléfono gratuito. Los números de teléfono será el número de teléfono predeterminado.
+  - Si selecciona Microsoft como el proveedor de servicios de conferencia de acceso telefónico local, puede elegir de la lista el número de teléfono predeterminado de las conferencias de acceso telefónico local.
     
-    El número de teléfono de conferencias de audio predeterminado de un usuario es el número que se muestra en la invitación a la reunión al programar una reunión.
+    Si selecciona un ACP de terceros como proveedor de servicios de conferencia de acceso telefónico local, tendrá que introducir manualmente el número de pago y, si es necesario, el número de teléfono gratuito. Estos números de teléfono serán el número de teléfono predeterminado.
     
-6. Haga clic en **Guardar**.
+6. El número de teléfono de conferencias de acceso telefónico local predeterminado de un usuario es el número que se muestra en la invitación a la reunión cuando se programa una. 
     
-Consulte [Establecer los números de teléfono de conferencias de Audio para organizadores que se incluyen en invitaciones](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md).
+Consulte [el teléfono invita números incluidos en](set-the-phone-numbers-included-on-invites.md).
   
- **Para establecer el número de teléfono de conferencias de audio predeterminado para los organizadores de la reunión después de habilitar a un usuario para conferencias de audio**
+ Vea **Establecer los números de teléfono de conferencias de Audio para organizadores que se incluyen en invitaciones**.
   
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Para establecer el número de teléfono de conferencias de acceso telefónico local predeterminado después de haber habilitado un usuario para las conferencias de acceso telefónico local
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+2. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-3. En la **Centro de administración de Skype Empresarial**, en el panel de navegación izquierdo, vaya a las **conferencias de Audio** > **usuarios**, seleccione el usuario que desee y, en la página acción, haga clic en **Editar**.
+3. En el **Skype para el centro de administración de negocios**, en la exploración de la izquierda, vaya a las **conferencias de Audio** > **usuarios**, seleccione el usuario que desee y, en la página acción, haga clic en **Editar**.
     
-4. En la página de **Propiedades**, en **nombre del proveedor**, use la lista desplegable para seleccionar el proveedor de servicios de audioconferencia.
+4. En la página de **Propiedades** , en **nombre del proveedor**, utilice la lista desplegable para seleccionar el proveedor de conferencia de audio.
     
-  - Si el usuario usa Microsoft como proveedor de conferencias de audio, puede elegir el número de teléfono de conferencias de audio predeterminado de la lista.
+  - Si el usuario utiliza Microsoft como proveedor de conferencia de audio, puede elegir el número de teléfono de conferencia de audio predeterminado en la lista.  
     
-  - Si el usuario usa un ACP de terceros como proveedor de conferencias de audio, debe introducir manualmente el número de pago y si es necesario, el número de teléfono gratuito.
+  - Si el usuario usa Microsoft como el proveedor de servicios de conferencia de acceso telefónico local, puede elegir de la lista el número de teléfono predeterminado de las conferencias de acceso telefónico local.
     
-    El número de teléfono de conferencias de audio predeterminado de un usuario es el número que se muestra en la invitación a la reunión al programar una reunión.
+    Si el usuario usa un ACP de terceros como proveedor de servicios de conferencia de acceso telefónico local, tendrá que introducir manualmente el número de pago y, si es necesario, el número de teléfono gratuito.
     
-5. Haga clic en **Guardar**.
+5. El número de teléfono de conferencias de acceso telefónico local predeterminado de un usuario es el número que se muestra en la invitación a la reunión cuando se programa una. 
     
-Consulte [Establecer los números de teléfono de conferencias de Audio para organizadores que se incluyen en invitaciones](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md).
+Consulte [el teléfono invita números incluidos en](set-the-phone-numbers-included-on-invites.md).
   
-## Establecer la configuración del puente de conferencia de audio
+## <a name="setting-audio-conferencing-bridge-settings"></a>Configuración de puente de conferencia de audio
 
- **Establecer la experiencia de reunión cuando las personas que llaman unirse a una reunión**
+ Configuración del puente de audioconferencia o de conferencia de acceso telefónico local
   
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Establecer la experiencia de reunión cuando las personas que llaman se unen a una reunión
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+2. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-3. En la **Centro de administración de Skype Empresarial**, en el panel de navegación izquierdo, vaya a las **conferencias de Audio** > **Configuración del puente de Microsoft**.
+3. En el **Skype para el centro de administración de negocios**, en la exploración de la izquierda, vaya a las **conferencias de Audio** > **configuración de puente de Microsoft**.
     
-4. En **experiencia de unirse a la reunión**, seleccione las acciones siguientes:
+4. En **experimentar la combinación de reunión**, seleccione las siguientes acciones:
     
-  - **Habilitar la entrada de la reunión y salir de notificaciones para ser activado** Esta opción está seleccionada de forma predeterminada. Si desactiva esta casilla, los usuarios que ya se han unido a la reunión de forma predeterminada no recibir una notificación cuando alguien entra o sale de la reunión.
+  - En **Experiencia de entrada a la reunión**, seleccione las acciones siguientes:
     
-    Se puede establecer en una base de la reunión por reunión cuando un usuario une a una reunión mediante un Skype para empresas o Microsoft Teams la aplicación y modifican la configuración de **anunciar cuando entra o sale gente** en el menú **Opciones** de Microsoft Teams o reunión de Skype de la la reunión.
+    Se puede establecer de forma reunión cuando un usuario une a una reunión mediante un Skype para la aplicación de negocios o Teams de Microsoft y modifican la configuración de **anunciar cuando entran o salen** del menú reunión de Skype o Microsoft Teams **Opciones** de la reunión.
     
-  - **Personas que llaman de ASK grabar su nombre antes de unirse a la reunión** Esta opción está seleccionada de forma predeterminada. Si desactiva esta casilla, las personas que llaman no pedirá que graben sus nombres antes de unirse a una reunión.
+  - Esta opción se puede configurar de manera específica en cada reunión cuando un usuario se une a una reunión con el cliente de Skype Empresarial y modifica la opción **Anunciar cuando entra o sale gente** en el menú Opciones de reunión de Skype de la reunión.
     
-5. Después de realizar los cambios, haga clic en **Guardar**.
+5. **Solicitar a los autores de la llamada que registren su nombre antes de unirse a la reunión**. Esta opción está seleccionada de forma predeterminada. Si la desactiva, no se solicitará a las personas que llamen que registren su nombre antes de unirse a una reunión.
     
-Consulte [Cambiar la configuración de un puente de conferencia de Audio](change-the-settings-for-an-audio-conferencing-bridge.md).
+Después de realizar los cambios, haga clic en [Guardar](change-the-settings-for-an-audio-conferencing-bridge.md).
   
- **Establecer la longitud del PIN para las reuniones**
+ Vea **Cambiar la configuración de un puente de conferencias de acceso telefónico local de Microsoft**.
   
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Configurar la longitud del PIN de las reuniones
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+2. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-3. En la **Centro de administración de Skype Empresarial**, en el panel de navegación izquierdo, vaya a las **conferencias de Audio** > **Configuración del puente de Microsoft**.
+3. En el **Skype para el centro de administración de negocios**, en la exploración de la izquierda, vaya a las **conferencias de Audio** > **configuración de puente de Microsoft**.
     
-4. En **seguridad**, escriba el número de dígitos que desee para el PIN en la lista de **longitud del PIN** y, a continuación, haga clic en **Guardar**.
+4. En **seguridad**, especifique el número de dígitos que desee para el PIN en la lista de **longitud PIN** y, a continuación, haga clic en **Guardar**.
     
-    El PIN debe estar entre 4 y 12 dígitos. El valor predeterminado es 5.
+    El NIP debe tener entre 4 y 12 dígitos. El valor predeterminado es 5.
     
-Consulte [Cambiar la configuración de un puente de conferencia de Audio](change-the-settings-for-an-audio-conferencing-bridge.md).
+El PIN solo puede tener de 4 a 12 dígitos. El valor predeterminado es 5.
   
- **Habilitar o deshabilitar el correo electrónico se envíe a los usuarios de audio**
+ Vea **Cambiar la configuración de un puente de conferencias de acceso telefónico local de Microsoft**.
   
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Habilitar o deshabilitar el correo electrónico que se envían a los usuarios de acceso telefónico local
     
-2. Vaya al **Centro de administración de Office 365** > **Skype Empresarial** y en el panel de navegación izquierdo, haga clic en **conferencias de Audio**.
+2. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-3. En la página **Configuración del puente de Microsoft**, active o desactive **Enviar automáticamente los mensajes de correo electrónico a los usuarios si cambia su configuración de conferencias de audio**.
+3. En la página **configuración de puente de Microsoft** , active o desactive la **Enviar automáticamente mensajes de correo electrónico a los usuarios si cambia su configuración de conferencia de audio**.
     
 4. Haga clic en **Guardar**.
     
-    También puede enviar correo electrónico al usuario con la configuración de conferencias de audio, las propiedades del usuario conferencias de audio y haga clic en **Enviar información de conferencia por correo electrónico**.
+    Haga clic en **Guardar**.
+    
+    Si lo hace, se enviará un correo electrónico que sólo incluye los Id. de conferencia y número de teléfono de conferencia, pero el PIN no se incluirán.
     
     Si hace esto, se enviará un correo electrónico que solo contenga el id. de la conferencia y el número de teléfono de la conferencia, pero no se incluirá el PIN.
     
-    Vea [Enviar un correo electrónico a un usuario con su información de conferencias de Audio](send-an-email-to-a-user-with-their-audio-conferencing-information.md).
-    
-## Ver y configurar los idiomas primarios y secundarios en un puente de conferencia de audio
+## <a name="see-and-set-the-primary-and-secondary-languages-on-an-audio-conferencing-bridge"></a>Ver y configurar los idiomas primarios y secundarios en un puente de conferencia de audio
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Ver y configurar el idioma principal y los secundarios en un puente de conferencias de acceso telefónico local
+    
+2. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+    
+3. En el **Skype para el centro de administración de negocios**, en la exploración de la izquierda, vaya a las **conferencias de Audio**y, a continuación, haga clic en **puente de Microsoft**.
+    
+4. En el **Centro de administración de Skype Empresarial**, en el panel de navegación de la izquierda, vaya a **Conferencias de acceso telefónico local** y, luego, haga clic en **Puente de Microsoft**.
+    
+    También puede establecer los idiomas primarios y secundarios que son compatibles cuando se selecciona Microsoft como proveedor de conferencia de audio. El orden en que se selecciona en la lista es el mismo orden en el que se presentará idiomas a los llamadores.
+    
+También puede establecer el idioma principal y los idiomas secundarios compatibles al seleccionar Microsoft como proveedor de conferencias de acceso telefónico local. El orden que seleccione en las listas desplegables será el orden de los idiomas que se presentará a los autores de las llamadas.
+  
+## <a name="see-audio-conferencing-dial-in-numbers"></a>Ver números de acceso telefónico de conferencia de audio
+
+1. Ver números de acceso telefónico para conferencias de acceso telefónico local
     
 2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
     
-3. En la **Centro de administración de Skype Empresarial**, en el panel de navegación izquierdo, vaya a las **conferencias de Audio** y, a continuación, haga clic en **puente de Microsoft**.
+3. En el **Skype para el centro de administración de negocios**, en la exploración de la izquierda, vaya a las **conferencias de Audio** > **puente de Microsoft**. Aquí puede:
     
-4. Seleccione un número de teléfono de la lista, haga clic en **establecer idiomas** en el panel acción y, a continuación, en la página **establecer idiomas**, haga clic en usar la lista **idioma principal** para ver la lista completa de los idiomas admitidos.
+  - Ver los números de teléfono que se configuran mediante Office 365 para utilizarse para conferencias de Audio. 
     
-    También puede configurar los idiomas primario y secundarios que son compatibles cuando se selecciona Microsoft como el proveedor de servicios de audioconferencia. El orden en que se selecciona en las listas es el mismo orden en que se presentará los idiomas a las personas que llaman.
+  - Puede ver los números de teléfono que Office 365 establece para usarse con las conferencias de acceso telefónico local.
     
-Consulte [Establecer idiomas del operador automático para conferencias de Audio](set-auto-attendant-languages-for-audio-conferencing.md).
+  - También puede ver la ubicación y el idioma principal y los idiomas secundarios que usará el operador automático de las conferencias de acceso telefónico local.
+    
+Puede seleccionar el número de teléfono predeterminado de conferencia de acceso telefónico local que se asignará a los usuarios cuando estos se habiliten para la conferencia de acceso telefónico local. No obstante, si cambia el número de teléfono predeterminado del puente de conferencia de acceso telefónico local, el número de teléfono predeterminado de los usuarios existentes no cambiará.
   
-## Ver los números de acceso telefónico de conferencias de audio
+Vea [una lista de números de conferencia de Audio](see-a-list-of-audio-conferencing-numbers.md).
+  
+## <a name="see-a-list-of-users-that-are-enabled"></a>Ver una lista de usuarios que están habilitados
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Ver una lista de usuarios habilitados
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+2. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-3. En la **Centro de administración de Skype Empresarial**, en el panel de navegación izquierdo, vaya a las **conferencias de Audio** > **puente de Microsoft**. Aquí puede:
+3. En el **Skype para el centro de administración de negocios**, en la exploración de la izquierda, vaya a las **conferencias de Audio**> y, a continuación, **los usuarios**.
     
-  - Ver los números de teléfono que Office 365 establece para usarse para conferencias de Audio.
-    
-  - Ver la ubicación y los idiomas principales y secundarios, que se usará el operador automático de conferencias de Audio.
-    
-  - Seleccione el número de teléfono predeterminado que se asignará a los usuarios cuando están habilitadas para conferencias de Audio. Sin embargo, si cambia el número de teléfono predeterminado del puente de conferencia de audio, no cambiará el número de teléfono predeterminado para los usuarios existentes.
-    
-Puede ir a las **conferencias de Audio** > **usuarios** y seleccione las propiedades del usuario para cambiar el valor predeterminado de número para un usuario seleccionando un nuevo número de la lista de números que están disponibles en su organización.
+Vea [una lista de usuarios que están habilitados para conferencias de Audio](see-a-list-of-users-that-are-enabled-for-audio-conferencing.md).
   
-Vea [Ver una lista de números de conferencias de Audio](see-a-list-of-audio-conferencing-numbers.md).
-  
-## Ver una lista de usuarios habilitados
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+Hay varias configuraciones que se pueden administrar en el nivel de organización mediante Windows PowerShell. Esto facilita la configuración se aplican a todos los usuarios. 
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
-    
-3. En la **Centro de administración de Skype Empresarial**, en el panel de navegación izquierdo, vaya a las **conferencias de Audio** > y, a continuación, **los usuarios**.
-    
-Vea [Ver una lista de usuarios que están habilitados para conferencias de Audio](see-a-list-of-users-that-are-enabled-for-audio-conferencing.md).
-  
-## ¿Desea saber cómo administrar con Windows PowerShell?
+Existen varias opciones que puede configurar en el nivel de la organización con Windows PowerShell. Esto facilita la configuración de estas opciones y las aplica a todos los usuarios. Estas son las opciones de configuración de nivel de organización:
 
-- Existen varias opciones que puede administrar en el nivel de organización con Windows PowerShell. Esto facilita la configuración se aplican a todos los usuarios. Estas son la configuración de nivel de la organización:
-    
-    Para obtener más ayuda sobre cada cmdlet, vea [Skype para empresarial Online cmdlets](https://go.microsoft.com/fwlink/?LinkId=627324).
-    
+Aquí está la configuración de nivel de organización: 
 > 
+- **Establecimiento de notificaciones de entrada y salida** El valor predeterminado es _$true_.
   ```
-  Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true|$false
+  Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true|$false 
   ```
 
-    El valor predeterminado es  _$true_.
-    
-> 
+- **Configuración de grabación de nombre** El valor predeterminado es _$true_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -EnableNameRecording $true|false
   ```
 
-    El valor predeterminado es  _$true_.
-    
-> 
+- **Establecer la longitud del perno** El valor predeterminado es 5.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -PinLength 7
   ```
 
-    El valor predeterminado es 5.
-    
-> 
+- **Configuración de sólo marcado en reuniones desde el teléfono** El valor predeterminado _$false_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -AllowPSTNOnlyMeetingsByDefault $true|$false
   ```
 
-    El valor predeterminado es  _$false_.
-    
-> 
+- **Si desea enviar correo electrónico a los usuarios establecer** El valor predeterminado es _$true_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
-    El valor predeterminado es  _$true_.
-    
-> 
+- **Establecer si se va a enviar correo electrónico desde una cuenta diferente** El valor predeterminado es _$false_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromOverride $true|$false
   ```
 
-    El valor predeterminado es  _$false_.
-    
-> 
+- **Establecer la dirección de correo electrónico que se envía a los usuarios** El valor predeterminado es _$null_. 
   ```
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromAddress
   ```
 
-    El valor predeterminado es  _$null_.
-    
-> 
+- **Establecer el nombre para mostrar para el correo electrónico que se envía a los usuarios** El valor predeterminado es _$null_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromDisplayName
   ```
 
-    El valor predeterminado es  _$null_.
+ ## <a name="want-to-know-more-about-windows-powershell"></a>Para obtener más información acerca de Windows PowerShell   
+- Windows PowerShell es todo sobre la administración de usuarios y lo que los usuarios se permiten o no realizar. Con Windows PowerShell, puede administrar Office 365 mediante un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. Para empezar a utilizar Windows PowerShell, consulte estos temas:
     
-- Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 con un único punto de administración que puede simplificar el trabajo diario cuando tenga que realizar varias tareas. Para empezar a usar Windows PowerShell, vea estos temas:
+  - Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 con un único punto de administración que puede simplificar el trabajo diario cuando tenga que realizar varias tareas. Para empezar a usar Windows PowerShell, vea estos temas:
     
-  - [¿Por qué necesita usar PowerShell de Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-  - [Mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+- Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad sobre utilizando sólo el centro de administración de Office 365, como cuando realice cambios en la configuración de muchos usuarios al mismo tiempo. Obtenga información acerca de estas ventajas en los siguientes temas: 
     
-- Windows PowerShell tiene muchas ventajas velocidad, simplificar y productividad sobre usando solo el centro de administración de Office 365, como cuando realice cambios en la configuración de muchos usuarios a la vez. Obtenga más información sobre estas ventajas en los siguientes temas:
-    
-  - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
   - [Usar Windows PowerShell para administrar Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
@@ -401,16 +392,9 @@ Vea [Ver una lista de usuarios que están habilitados para conferencias de Audio
     
     El módulo Windows PowerShell para Skype Empresarial Online le permite crear una sesión de Windows PowerShell remota que se conecta con Skype Empresarial Online. Este módulo, que solo es compatible con equipos de 64 bits, se puede descargar desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
     
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Temas relacionados
 
-> [!NOTE]
-> **Declinación de responsabilidades de traducción automática**: Este artículo se ha traducido con un sistema informático sin intervención humana. Microsoft ofrece estas traducciones automáticas para que los hablantes de otros idiomas distintos del inglés puedan disfrutar del contenido sobre los productos, los servicios y las tecnologías de Microsoft. Puesto que este artículo se ha traducido con traducción automática, es posible que contenga errores de vocabulario, sintaxis o gramática. 
-  
-## Vea también
-<a name="MT_Footer"> </a>
+[Administrar la configuración de conferencia de Audio para un usuario](manage-the-audio-conferencing-settings-for-a-user.md)
 
-#### 
-
-[Configurar conferencias de Audio de Skype para la empresa y Teams de Microsoft](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+[Configurar Audioconferencia para Skype Empresarial y Microsoft Teams](set-up-audio-conferencing.md)
 

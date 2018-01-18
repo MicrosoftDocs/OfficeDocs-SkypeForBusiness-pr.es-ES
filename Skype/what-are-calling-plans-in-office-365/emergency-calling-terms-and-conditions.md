@@ -1,44 +1,40 @@
 ---
-title: "Términos y condiciones de las llamadas de emergencias"
+title: "Términos y condiciones llamadas de emergencia"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 9/22/2017
-ms.audience: Admin
-ms.topic: reference
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: ca2c751b-53ab-42c7-aed9-cfe27e662940
-description: "Learn how Emergency Services  (911) differ from traditional telephone services and how to make a call. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Calling Plans
+description: "Obtenga información acerca de cómo realizar una llamada y cómo se diferencian los servicios de emergencia (911) de servicios de telefonía tradicional. "
+ms.openlocfilehash: 8ed5e90ab2c00435b92dc1b35b2bece9198d745e
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="emergency-calling-terms-and-conditions"></a>Términos y condiciones llamadas de emergencia
 
-# Términos y condiciones de las llamadas de emergencias
+## <a name="important-information"></a>INFORMACIÓN IMPORTANTE
 
-> [!IMPORTANT]
-> Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades.  
+Llamar a los servicios de emergencia funciona de forma diferente con llamar a planes de Office 365 que en los servicios de telefonía tradicional. Es importante que entienda estas diferencias y comunicarlas a todos los usuarios con una llamada a planes de Office 365. Usted reconoce y acepta que ha leído y comprender las diferencias entre llamar a nuestros servicios de emergencia y este aviso se proporcionará a cada usuario con una llamada a planes de Office 365.
   
-## INFORMACIÓN IMPORTANTE
-
-Llamar a los servicios de emergencia funciona de forma diferente con llamar a los planes de Office 365 que en servicios de telefonía tradicional. Es importante conocer estas diferencias y comunicarlas a todos los usuarios con llamar a los planes de Office 365. Usted acepta y reconoce que ha leído y comprender las diferencias entre nuestros servicios de emergencia llamar y este aviso se proporcionará a cada usuario con llamar a los planes de Office 365.
+Las diferencias en nuestros servicios de emergencia llamando a funciones incluyen lo siguiente: (i) Skype para empresas puede desconocer la ubicación real de un llamador para hacer una llamada de los servicios de emergencia, que podría resultar en la llamada que se enrutan a los servicios de emergencia incorrecto Centro de llamadas o servicios de emergencia que se envía a una ubicación incorrecta; (ii) si el dispositivo del usuario no tiene poder, está experimentando un corte del suministro eléctrico o, por cualquier motivo, de lo contrario no puede acceder a Internet, el usuario no puede realizar una llamada de servicios de emergencia a través de una llamada a los planes de Office 365; y (iii) aunque llamar a planes de Office 365 puede utilizarse en cualquier parte del mundo donde una conexión a Internet está disponible, los usuarios no deben realizar una llamada de los servicios de emergencia desde una ubicación fuera de su país o región porque la llamada probablemente no se enrutarán a el centro de llamada apropiada en ese país o región.
   
-Las diferencias de nuestros servicios de emergencia llamar capacidades incluyen las siguientes: (i) Skype empresarial no puede saber la ubicación real de un llamador realizar una llamada de los servicios de emergencia, lo que podría provocar la llamada se enrutan a los servicios de emergencia incorrecta Centro de llamadas y servicios de emergencia que se envía a una ubicación incorrecta; ((ii) si el dispositivo del usuario no tiene electricidad, está experimentando un corte de alimentación o por cualquier motivo, no en caso contrario, tiene acceso a Internet, el usuario no puede realizar una llamada de los servicios de emergencia a través de llamar a los planes en Office 365; y (iii) aunque puede llamar a los planes de Office 365 utilizar en cualquier parte del mundo donde hay una conexión a Internet, los usuarios no deben realizar una llamada de los servicios de emergencia desde una ubicación situada fuera de su país o región porque la llamada es muy probable que no se enviarán al centro de llamada apropiada en ese país o región.
-  
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Temas relacionados
+[Transferencia de preguntas habituales de los números de teléfono](transferring-phone-numbers-common-questions.md)
 
-> [!NOTE]
-> **Declinación de responsabilidades de traducción automática**: Este artículo se ha traducido con un sistema informático sin intervención humana. Microsoft ofrece estas traducciones automáticas para que los hablantes de otros idiomas distintos del inglés puedan disfrutar del contenido sobre los productos, los servicios y las tecnologías de Microsoft. Puesto que este artículo se ha traducido con traducción automática, es posible que contenga errores de vocabulario, sintaxis o gramática. 
-  
-## Vea también
-<a name="MT_Footer"> </a>
+[Diferentes tipos de números de teléfono utilizados para llamar a planes](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-#### 
+[Administrar números de teléfono de la organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Skype empresarial Online: etiqueta de declinación de responsabilidades de emergencia llamar](https://go.microsoft.com/fwlink/?LinkID=692099)
-  
-[Términos y condiciones de las llamadas de emergencias](ca2c751b-53ab-42c7-aed9-cfe27e662940.md)
-  
-[Período de llamada de salida complementario de conferencias de audio](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-
+[Skype para los negocios en línea: etiqueta de descargo de responsabilidad llamada de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)

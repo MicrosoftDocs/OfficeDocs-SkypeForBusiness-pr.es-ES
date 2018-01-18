@@ -1,42 +1,43 @@
 ---
-title: "¿Qué debo poner para el nombre de la empresa?"
+title: "¿Qué debería colocar en el nombre de la organización?"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.PortOrderAccountInfoCompanyName
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 5c274a36-9e7a-4399-af08-688ffc75b8ac
-description: "What to put for the company in Skype for Business, and where you can find it. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.PortOrderAccountInfoCompanyName
+ms.custom: Calling Plans
+description: "Qué poner en Skype para el negocio la empresa y dónde puede encontrarlo. "
+ms.openlocfilehash: 846f6132011b5f9c6ff4defe7ded48c5b87caca6
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="what-should-i-put-in-for-the-company-name"></a>¿Qué debería colocar en el nombre de la organización?
 
-# ¿Qué debo poner para el nombre de la empresa?
-
-> [!IMPORTANT]
-> Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades.  
+Este es el nombre de su compañía u organización. El nombre de la empresa está limitado a 25 caracteres, lo que incluye espacios. El nombre de la compañía no se utiliza para procesar la solicitud de pedido de puerto; se utiliza en el caso de un litigio o si algo es incorrecto cuando los números de teléfono están que se pongan en puerto. Si no cabe el nombre completo de la compañía en el cuadro, no retrasar o se cancele la orden de puerto.
   
-Este es el nombre de su compañía u organización. El nombre de la compañía se limita a 25 caracteres, que incluye espacios. No se utiliza el nombre de la compañía para procesar la solicitud de orden puerto; se utiliza en el caso de un litigio o si algo es incorrecto cuando los números de teléfono se que se pongan en puerto. Si no puede ajustarse al nombre completo de la compañía en el cuadro, no retrasar o cancelar el orden de puerto.
-  
- **Para obtener instrucciones detalladas paso a paso, consulte [Números de teléfono de transferencia a Office 365](transfer-phone-numbers-to-office-365.md).**
-  
-## 
-<a name="MT_Footer"> </a>
-
+ **Para obtener instrucciones detalladas paso a paso, consulte [transferir números de teléfono para Office 365](transfer-phone-numbers-to-office-365.md).**
+ 
 > [!NOTE]
-> **Declinación de responsabilidades de traducción automática**: Este artículo se ha traducido con un sistema informático sin intervención humana. Microsoft ofrece estas traducciones automáticas para que los hablantes de otros idiomas distintos del inglés puedan disfrutar del contenido sobre los productos, los servicios y las tecnologías de Microsoft. Puesto que este artículo se ha traducido con traducción automática, es posible que contenga errores de vocabulario, sintaxis o gramática. 
-  
-## Vea también
-<a name="MT_Footer"> </a>
+> Si necesita obtener más números de teléfono que esto, ponte [en contacto con soporte técnico para productos de empresa - Admin ayuda](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
-#### 
+  
+## <a name="related-topics"></a>Temas relacionados
+[Transferencia de preguntas habituales de los números de teléfono](transferring-phone-numbers-common-questions.md)
+
+[Diferentes tipos de números de teléfono utilizados para llamar a planes](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Términos y condiciones de las llamadas de emergencias](emergency-calling-terms-and-conditions.md)
-  
-[Período de llamada de salida complementario de conferencias de audio](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
+
+[Skype para los negocios en línea: etiqueta de descargo de responsabilidad llamada de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
 

@@ -1,97 +1,96 @@
 ---
-title: "¿Qué son créditos de comunicaciones?"
+title: "¿Qué son los créditos de comunicaciones?"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/27/2017
-ms.audience: Admin
-ms.topic: overview
-ms.prod: office-online-server
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 524dbea7-117f-493d-8005-6461f7f10059
-description: "Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Licensing
+- Strat_SB_PSTN
+description: "Obtenga información sobre lo que se Obtén de facturación de créditos de comunicación (consumo PSTN), cómo buscar tasas y qué servicios. "
+ms.openlocfilehash: 336bcca1b6d85d30e355a09e04f35bc64a8f9a23
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="what-are-communications-credits"></a>¿Qué son los créditos de comunicaciones?
 
-# ¿Qué son créditos de comunicaciones?
-
-> [!IMPORTANT]
-> Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades.  
+Créditos de comunicaciones son una manera conveniente de pagar por minutos de conferencias de Audio y Plan de llamadas. Ayuda a garantizar que usted y sus usuarios nunca se interceptan sin ser capaz de:
   
-Créditos de comunicaciones son una forma cómoda de pagar por minutos de llamar a planear y conferencias de Audio. Ayuda a garantizar que usted y sus usuarios nunca se detectan sin poder:
-  
-- Agregar números de teléfono gratuitos para usar con las reuniones de conferencia de Audio, operadores automáticos o colas de llamadas. Llamadas gratuitos se cargarán por minuto y requieren un saldo positivo de créditos de comunicaciones.
+- Agregar números de teléfono gratuitos para usar con reuniones de conferencia de Audio, operadores automáticos o llamar a colas. Número gratuito llamadas se facturan por minuto y requieren un balance positivo de créditos de comunicaciones.
     
-- Marcar desde una reunión de conferencia de Audio para agregar otra persona desde cualquier lugar del mundo.
+- Marcar desde una reunión de la conferencia de Audio para agregar otra persona desde cualquier parte del mundo.
     
-- Marcar desde una reunión de la conferencia de Audio a su teléfono móvil con la Skype para empresas o Microsoft Teams aplicación instalada a destinos que ya no están incluidos en la suscripción.
+- Marcar desde una reunión de la conferencia de Audio a su teléfono móvil con el Skype para negocios o Teams Microsoft app instalado a destinos que ya no están incluidos en su suscripción.
     
-- Marcar cualquier número de teléfono internacionales cuando haya suscripciones **Llamar a planear nacionales**.
+- Marque cualquier número de teléfono internacional cuando tienes suscripciones **Plan de llamadas nacionales** .
     
-- Marcar los números de teléfono internacionales más allá de lo que incluye una suscripción de **Llamar a planear internacional**.
+- Marcar números de teléfono internacionales más allá de lo que está incluido en una suscripción **nacionales y Plan de llamadas internacionales** .
     
-- Marcar y pagar por minuto una vez haya agotado su cobertura de minutos mensual.
+- Marcar y paga por minuto una vez haya agotado la cobertura de minutos mensual.
     
 > [!NOTE]
-> Llamadas salientes a algunos destinos pueden incluirse en su suscripción de conferencias de Audio. Compruebe la información de suscripción para obtener más detalles. 
+> Llamadas salientes a algunos destinos pueden estar incluidas en su suscripción de conferencia de Audio. Compruebe la información de suscripción para obtener más detalles. 
   
 > [!NOTE]
-> Si su organización se encuentra en una región distinta de la dirección de facturación de su contrato Enterprise (EA), es posible que no pueda compre créditos de comunicaciones. Si no puede adquirir créditos de comunicaciones, abra un incidente de soporte desde el portal y trabajan con usted para mitigar este problema hasta que tenga una solución permanente en su lugar. 
+> Si su organización se encuentra en una región distinta de la dirección de facturación de su Contrato Enterprise (EA), es posible que no pueda comprar créditos de comunicaciones. Si no puede adquirir créditos de comunicaciones, abra un incidente de soporte técnico desde el portal y trabajaremos con usted para mitigar este problema hasta que una solución permanente. 
   
-## ¿Cuáles son los tipos de créditos de comunicaciones?
+## <a name="what-are-the-communications-credits-rates"></a>¿Cuáles son los tipos de créditos de comunicaciones?
 
-Si se pregunta cómo cuáles son el costo de las llamadas para llamar a los planes, consulte plan de comunicaciones créditos [tarifas de llamada](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#Rates) .
+Si se está preguntando cómo cuáles son el coste de las llamadas para llamar a los planes, consulte planes de créditos de comunicaciones [tarifas para llamar](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#Rates) .
   
-## ¿Qué es?
+## <a name="what-is-it"></a>¿Qué es?
 
-Para usar números gratuitos en Skype empresarial, créditos de comunicaciones son necesarios, como se cargarán estas llamadas por minuto. Además, se recomienda configurar comunicaciones créditos para los usuarios de llamar a planear y conferencias de Audio que necesitan la capacidad de acceso telefónico a **cualquier destino de RTC**. Muchos países o regiones se incluyen, pero pueden que algunos destinos no se incluyan en las suscripciones de conferencias de Audio o llamar a planear. Si no configurar comunicaciones créditos o asignar una licencia a los usuarios y ejecutar minutos para su organización (dependiendo de su Plan de llamada, plan de conferencias de Audio o su país o región), los usuarios no podrán realizar llamadas o llamar desde Online Reuniones de conferencia de audio.
+Para utilizar números de teléfono gratuitos en Skype para empresas, créditos de comunicaciones son necesarios como estas llamadas se facturan por minuto. Además, se recomienda configurar comunicaciones créditos para los usuarios de Plan de llamadas y conferencias de Audio que necesitan la capacidad de llamar a **cualquier destino PSTN**. Muchos países o regiones se incluyen, pero algunos destinos pueden no incluirse en las suscripciones de su Plan de llamadas o conferencias de Audio. Si no configuró créditos de comunicaciones o asignar una licencia a los usuarios y ejecutar minutos para la organización (según su Plan llamando, plan de conferencia de Audio o su país o región), los usuarios no podrán realizar llamadas o marcar desde Online Reuniones de conferencia de audio.
   
 > [!NOTE]
-> Debe configurar créditos de comunicaciones y, a continuación, asignar una licencia de créditos de comunicaciones para cada usuario en el **Centro de administración de Office 365** > **usuarios** > **Usuarios activos**. 
+> Debe configurar los créditos de comunicaciones y, a continuación, asignar una licencia de créditos de comunicaciones para cada usuario en el **Centro de administración de Office 365** > **usuarios** > **Usuarios activos**. 
   
-Se recomienda evaluar cuidadosamente el uso del servicio de RTC de su organización con el fin de entender la mejor configuración de créditos de comunicaciones. Puede ver más información acerca de los servicios de RTC lea [¿Qué planes de llamada en Office 365?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md) y[Conferencias de acceso telefónico en Office 365](../misctopics/dial-in-conferencing-in-office-365.md).
+Es recomendable que evalúe cuidadosamente PSTN servicio uso de su organización con el fin de comprender la mejor configuración para créditos de comunicaciones. Puede ver más información sobre servicios PSTN leyendo [¿Qué planes de llamada Office 365?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md) y [conferencia de Audio de las preguntas más frecuentes](../audio-conferencing-in-office-365/Audio-Conferencing-common-questions.md).
   
-Puede configurar la facturación de consumo con una **sola vez fondos** de saldo prepago **o** mediante la configuración de una cantidad de **recargar automática** ( **recomendado** ) con un saldo mínimo que desencadene una compra durante ese período recargar. Inicialmente, se recomienda que configure cantidades de recargar automáticas que permiten supervisar el uso real y encontrar el derecho auto umbrales de recargar que satisfaga sus necesidades y patrones de uso. Créditos de comunicaciones conviene a lo largo del tiempo y, a continuación, ajuste los importes de saldo y recargar mínimos según sea necesario se pueden adaptar para las necesidades de la organización.
+Puede configurar Facturación de consumo mediante una **financiación única** del saldo prepago **o** mediante la configuración de un importe de **recarga automática** ( **recomendado** ) con el saldo mínimo que desencadenará una compra para dicho monto de recarga. Inicialmente, se recomienda que configure los montos de recarga automática que permiten supervisar el uso real y encontrar el auto derecho umbrales de recarga que satisfaga sus necesidades y patrones de uso. Créditos de comunicaciones deben supervisarse con el tiempo y, a continuación, ajustan los importes de saldo y recarga mínimo según sea necesario para adaptar a las necesidades de cada organización.
   
 > [!NOTE]
-> Puede ver los planes y precios por [iniciar sesión en el centro de administración de Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y vaya a **facturación** > **suscripciones** > **Agregar suscripciones**. 
+> Puede ver los planes de precios iniciando la [sesión en el centro de administración de Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y va a **facturación** > **suscripciones** > **Agregar suscripciones**. 
   
-En el **Centro de administración de Office 365** > **facturación** > **suscripciones**, puede agregar crédito manualmente en cualquier momento. También puede habilitar la opción de **recargar automático**, que le permitirá rellenos de cuenta automática cuando el saldo está por debajo del umbral que ha configurado. Si decide su saldo de créditos de comunicaciones con una sola vez cantidad de fondos y, a continuación, que el saldo correspondiente a cero, los escenarios llamados adicionales anteriores ya no funciona, incluidos los números de teléfono gratuito. Por lo tanto, se recomienda que use la configuración **automática recargar** para evitar cualquier interrupción del servicio debería el balance de créditos de comunicaciones llegar a 0 (cero). Se le enviará un correo electrónico cuando recargar transacciones correctamente, recargar transacciones un error (por ejemplo, una tarjeta de crédito caducada) o sus comunicaciones créditos llegue a 0 (cero).
+En el **Centro de administración de Office 365** > **de facturación** > **suscripciones**, puede agregar crédito manualmente en cualquier momento. También puede habilitar la opción de **recarga automática** , lo que permitirá recargas de cuenta automática cuando el saldo cae por debajo del umbral que establezca. Si opta por financiar su saldo de créditos de comunicaciones con un importe único y el saldo cae a cero, los escenarios llamados adicionales anteriores dejarán de funcionar, incluidos los números de teléfono gratuito. Por lo tanto, se recomienda que utilice la opción de **recarga automática** para evitar cualquier interrupción del servicio a su saldo de créditos de comunicaciones debe llegar a 0 (cero). Se le enviará un correo electrónico cuando las transacciones de recarga tuvo éxito, error en las transacciones de recarga (como una tarjeta de crédito caducada) y o su saldo de créditos de comunicaciones llega a 0 (cero).
   
-## Créditos de comunicaciones
+## <a name="communications-credits"></a>Créditos de comunicaciones
 
-Cada organización tendrá un uso diferente de volumen de llamar a los planes y tasas para tener en cuenta. Debe obtener este tipo de datos de uso de su proveedor actual. Para organizaciones con Skype empresarial ya como su proveedor de servicio, puede obtener datos de uso revisando en cualquier **Centro de administración de Office 365** > **Skype centro de administración de la empresa** o **informes** > **informes** > **RTC información de uso**.
+Cada organización tendrá un uso distinto del volumen llamando a planes y tarifas a tener en cuenta. Debe obtener este tipo de datos de uso de su proveedor de servicio actual. Para las organizaciones que utilizan Skype para empresas ya como su proveedor de servicios, puede obtener datos de uso revisando en cualquier **Centro de administración de Office 365** > **informes** o **Skype para el centro de administración de negocios** > **informes**  >  **Detalles de uso de RTC**.
   
-Cuando configura créditos de comunicaciones, debe investigar el uso de la llamada de su organización determinar los importes que necesitará para devolver. Puede obtener información de uso de la llamada al revisar el informe de **Detalles de uso de RTC**. Este informe le permite exportar los registros de datos de la llamada a Excel y crear informes personalizados.
+Cuando configura créditos de comunicaciones, debe investigar el uso de la llamada de la organización determinar los importes que debe poner en el. Puede obtener información de uso de la llamada al revisar el informe de **Detalles de uso de RTC** . Este informe le permite exportar los registros de datos de la llamada a Excel y crear informes personalizados.
   
-## Aportaciones recomendadas
+## <a name="recommended-funding-amounts"></a>Recomienda importes de financiación
 
-Se recomienda que comience utilizando una pequeña cantidad financiación que para organizaciones pequeñas, podría ser incluso el mínimo de 20 $. Una vez recopilada un mes o dos de uso de RTC con el informe de detalles de uso de RTC, podrá ajustar los importes para cumplir con el uso normal de su organización.
+Se recomienda empezar utilizando una pequeña cantidad de financiación, que para organizaciones más pequeñas, podría incluso ser el mínimo de 20 dólares. Después de recopilar un mes o dos de uso PSTN mediante el informe de detalles de uso PSTN, podrá ajustar los montos para satisfacer el uso normal de la organización.
   
-Si está listo para establecer esta todas, vea [Configurar comunicaciones créditos para su organización](set-up-communications-credits-for-your-organization.md).
+Si está listo para establecer esto todo, consulte [Configurar comunicaciones créditos para su organización](set-up-communications-credits-for-your-organization.md).
   
-## ¿Desea obtener información acerca de los planes y los precios?
+## <a name="want-to-know-about-plans-and-pricing"></a>¿Desea obtener información acerca de los planes y los precios?
 
 Puede ver los planes y precios, visite uno de los siguientes vínculos:
   
 - [Planes de llamada](https://go.microsoft.com/fwlink/?linkid=799761)
     
-- [Conferencias de audio](https://go.microsoft.com/fwlink/?linkid=799762)
+- [Audioconferencia](https://go.microsoft.com/fwlink/?linkid=799762)
     
-- [Sistema telefónico](https://go.microsoft.com/fwlink/?linkid=799763 )
+- [Sistema de teléfono](https://go.microsoft.com/fwlink/?linkid=799763 )
     
-También puede ver información sobre precios por [iniciar sesión en el centro de administración de Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y vaya a **facturación** > **suscripciones** > **Agregar suscripciones**.
+También puede ver información sobre los precios al [iniciar sesión en el centro de administración de Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y va a **facturación** > **suscripciones** > **Agregar suscripciones**.
   
-Para ver una tabla con la licencia o licencias que necesita para cada característica, vea [Skype para Business y Microsoft Teams licencias de complemento](skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Para ver una tabla con la licencia o licencias que necesitará para cada función, vea [Skype para negocios y equipos de Microsoft licencias adicionales](skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-## Temas relacionados
-
-[Período de llamada de salida complementario de conferencias de audio](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-  
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **Declinación de responsabilidades de traducción automática**: Este artículo se ha traducido con un sistema informático sin intervención humana. Microsoft ofrece estas traducciones automáticas para que los hablantes de otros idiomas distintos del inglés puedan disfrutar del contenido sobre los productos, los servicios y las tecnologías de Microsoft. Puesto que este artículo se ha traducido con traducción automática, es posible que contenga errores de vocabulario, sintaxis o gramática. 
-  
-
+## <a name="related-topics"></a>Temas relacionados
+[Informe de uso de RTC de Skype Empresarial](../skype-for-business-online-reporting/pstn-usage-report.md)

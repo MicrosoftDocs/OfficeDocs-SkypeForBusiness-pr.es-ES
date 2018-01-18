@@ -1,29 +1,33 @@
 ---
-title: "Configuración de Vista previa de difusión de reunión de Skype"
-ms.author: tonysmit
+title: "Configuración de previsualización de difundir reunión de Skype"
+mms.author: tonysmit
 author: tonysmit
-ms.date: 11/16/2017
-ms.audience: End User
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.BroadcastMeetingsPreview
-ms.prod: office-online-server
+ms.assetid: 651d4773-cbd8-49e9-b55e-7abb8064060
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
 localization_priority: Normal
-ms.assetid: 651d4773-cbd8-49e9-b55e-7abb8064060a
-description: "La Skype para el programa de vista previa del cliente empresas proporciona acceso anticipado a nuevos productos y características. Permite a su organización obtener una vista rápida novedades, probar las nuevas características de su entorno y proporcionar comentarios antes de soltar la compilación de producto al público en general. Para obtener más información, vea Skype empresarial Preview."
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.BroadcastMeetingsPreview
+ms.custom: SMB
+description: "El Skype para el programa de vista previa de negocio cliente proporciona acceso temprano a nuevos productos y características. Permite a su organización obtener un adelanto de lo que vendrá, probar las nuevas características en su propio entorno y proporcionar comentarios antes de que publicamos generaciones del producto al público en general. Para obtener más información, consulte Skype para vista previa de la empresa."
+ms.openlocfilehash: 73043e342674db1e5a5b5b4acf11927922adef6e
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="skype-meeting-broadcast-preview-settings"></a>Configuración de previsualización de difundir reunión de Skype
 
-# Configuración de Vista previa de difusión de reunión de Skype
+El Skype para el programa de vista previa de negocio cliente proporciona acceso temprano a nuevos productos y características. Permite a su organización obtener un adelanto de lo que vendrá, probar las nuevas características en su propio entorno y proporcionar comentarios antes de que publicamos generaciones del producto al público en general. Para obtener más información, vea [Skype para vista previa de la empresa](https://www.skypepreview.com/).
 
-> [!IMPORTANT]
-> Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades.  
+## <a name="related-topics"></a>Temas relacionados
+[Introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
   
-La Skype para el programa de vista previa del cliente empresas proporciona acceso anticipado a nuevos productos y características. Permite a su organización obtener una vista rápida novedades, probar las nuevas características de su entorno y proporcionar comentarios antes de soltar la compilación de producto al público en general. Para obtener más información, vea [Skype empresarial Preview](https://www.skypepreview.com/).
-  
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **Declinación de responsabilidades de traducción automática**: Este artículo se ha traducido con un sistema informático sin intervención humana. Microsoft ofrece estas traducciones automáticas para que los hablantes de otros idiomas distintos del inglés puedan disfrutar del contenido sobre los productos, los servicios y las tecnologías de Microsoft. Puesto que este artículo se ha traducido con traducción automática, es posible que contenga errores de vocabulario, sintaxis o gramática. 
-  
+[Configurar Skype Empresarial Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
