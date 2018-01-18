@@ -1,5 +1,5 @@
 ---
-title: ExpressRoute and QoS in Skype for Business Online
+title: "ExpressRoute y QoS en Skype para el negocio en línea"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,7 +22,7 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/19/2017
 ---
-# <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute and QoS in Skype for Business Online
+# <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute y QoS en Skype para el negocio en línea
 
 Conectarse a Office 365 a través de una conexión de red dedicada con Azure ExpressRoute para Office 365 y Skype para los negocios en línea. La conexión dedicada para el Skype para aplicaciones de negocios le dará rendimiento predecible y confiable como privacidad fuera de la red pública internet. Ahora puede adquirir una conexión de red mejor a Office 365 y Skype para los negocios en línea que agrega la capacidad de predicción, confiabilidad de clase empresarial y viene con un SLA de tiempo activo.
   
@@ -66,7 +66,7 @@ Ley mistake LLC. es una empresa relativamente joven y los abogados y otros miemb
 |Associates  <br/> |300  <br/> |100  <br/> |20  <br/> |10  <br/> |
 |Asistente legal  <br/> |400  <br/> |125  <br/> |30  <br/> |15  <br/> |
 |Administradores ejecutivos  <br/> |100  <br/> |35  <br/> |6  <br/> |3  <br/> |
-|IT and general Administrative  <br/> |100  <br/> |25  <br/> |3  <br/> |2  <br/> |
+|TI y administración general  <br/> |100  <br/> |25  <br/> |3  <br/> |2  <br/> |
 |Total por sitio  <br/> |1.070  <br/> |345  <br/> |70  <br/> |36  <br/> |
 |Total por clase de sitio  <br/> |1.070  <br/> |1.035  <br/> |1.680  <br/> |1.800  <br/> |
    
@@ -102,67 +102,67 @@ Asignación basada en ACL de la red, las marcas de prioridad DSCP se implementan
 Cada proveedor de servicios de red de ExpressRoute tendrá una clase de servicio (QoS) que sea adecuado para vídeo y voz en tiempo real. Este COS se llama 'Expedited Forwarding' (EF) para voz y 'Reenvío asegurado' (AF) para vídeo. Debe ser muy cuidadoso en la cantidad de ancho de banda que adquirir para voz tráfico EF de tamaño. La razón es que la clase de voz del servicio es muy implacable en caso de que se envíe más tráfico de voz de la clase del servicio está configurada para.
   
 > [!TIP]
->  Any traffic that is sent on the voice class of service in excess of the service provider's commitment is immediately discarded which will direct effect voice quality.
+>  Cualquier tráfico que se envía en la clase de voz del servicio por encima del compromiso del proveedor de servicios se descarta inmediatamente que dirigirá la calidad de la voz de efecto.
   
-Cuando se mira el diseño general de Dewey ley LLC. it is extremely important that you accurately determine the amount of network bandwidth that they need to support the voice traffic across their network and be marking each voice packet (and only voice packets) with the DSCP setting for voice (i.e. DSCP EF 46).
+Cuando se mira el diseño general de Dewey ley LLC. es extremadamente importante que determinar con exactitud la cantidad de ancho de banda de red que necesitan para admitir el tráfico de voz a través de su red y puede marcar cada paquete de voz (y sólo los paquetes de voz) con el valor DSCP para voz (es decir, DSCP EF 46).
   
-To implement QoS across their enterprise network, the endpoints or routers must mark each packet with the appropriate Layer 3 priority indicator (i.e., DSCP). Along the entire network path, each switch and router must have the QoS option turned on. Having even only one network switch or router that doesn't have QoS turned on, the QoS markings on voice or video packets passing through that switch or router could be stripped off. This effectively disables QoS in all downstream switches and routers which decreases the value of having ExpressRoute.
+Para implementar QoS en toda su empresa en red, los extremos o enrutadores debe marcar cada paquete con el indicador de prioridad de capa 3 (es decir, DSCP) adecuado. A lo largo de la ruta de acceso de toda la red, cada conmutador y enrutador deben tener activada la opción de QoS. Tiene incluso sólo un switch de red o enrutador que no tiene activado el QoS, separa la calidad del servicio podrían ser marcas en los paquetes de voz o vídeo pase por ese switch o un router. Desactiva QoS en todos los switches de nivel inferiores y enrutadores que disminuye el valor de tener ExpressRoute.
   
-This also requires that the association of the Layer 3 and Layer 2 QoS priorities be defined at each point. The Layer 2 priority mechanisms are defined in IEEE 802.1p for wired networks and 802.11e/WMM for Wi-Fi networks. More importantly, the network router facing the network service provider's MPLS network must maintain the DSCP settings on all outbound packets so that they will maintain the appropriate MPLS class of service. 
+Esto también requiere que se defina la asociación de las prioridades de QoS de capa 2 y de nivel 3 en cada punto. Se definen los mecanismos de prioridad de capa 2 en IEEE 802.1p para redes cableadas y 802. 11e / WMM para redes Wi-Fi. Más importante aún, el enrutador de la red frente a red MPLS del proveedor de servicios de red debe mantener los valores DSCP en todos los paquetes salientes para que se mantengan la clase adecuada de MPLS de servicio. 
   
 > [!TIP]
->  For the specific details regarding QoS set-up, refer to Section 2.6 [Network Planning, Monitoring, and Troubleshooting with Lync Server]( https://go.microsoft.com/fwlink/?LinkId=760669). You can also see [Plan network requirements for Skype for Business 2015](https://go.microsoft.com/fwlink/?LinkId=690287) for more network planning requirements.
+>  Los detalles específicos acerca de la configuración de QoS, consulte sección 2.6 [Planificación de redes, supervisión y solución de problemas con Lync Server]( https://go.microsoft.com/fwlink/?LinkId=760669). También puede ver [Planear los requisitos de red para Skype para negocios 2015](https://go.microsoft.com/fwlink/?LinkId=690287) para red más requisitos de planificación.
   
-### <a name="ordering-network-access-services"></a>Ordering Network Access Services
+### <a name="ordering-network-access-services"></a>Pedidos de servicios de acceso de red
 
-Once you have the QoS network prerequisites and mechanisms in place to support ExpressRoute, the next step is to place an order for the ExpressRoute network access services. When ordering ExpressRoute access services for Dewey Law LLC from the Microsoft network services provider partner, you will need to provide two things:
+Una vez que los requisitos previos de red QoS y mecanismos para respaldar la ExpressRoute, el siguiente paso es realizar un pedido de los servicios de acceso de red ExpressRoute. Al solicitar los servicios de acceso de ExpressRoute para Dewey ley LLC desde el socio de proveedor de servicios de red de Microsoft, debe proporcionar dos cosas:
   
-- The total amount of bandwidth required to connect each site to ExpressRoute and Office 365.
+- La cantidad total de ancho de banda necesario para conectar cada sitio con ExpressRoute y Office 365.
     
-- The total bandwidth required for each class of service that is required to support Skype for Business apps that are being used at Dewey Law LLC. The class of service bandwidth requirement is driven by the volume of traffic you expect from each of the various Skype for Business applications like voice, video, IM, presence, and screen sharing.
+- El ancho de banda total requerido para cada clase de servicio que se requiere para soportar Skype para aplicaciones empresariales que se utilizan en Dewey ley LLC. Depende de la clase de requisito de ancho de banda del servicio por el volumen de tráfico que espera de cada uno de los diversos Skype para aplicaciones de negocios como voz, vídeo, mensajería instantánea, presencia y uso compartido de la pantalla.
     
-### <a name="determining-bandwidth-requirements-for-skype-for-business-applications"></a>Determining Bandwidth Requirements for Skype for Business Applications
+### <a name="determining-bandwidth-requirements-for-skype-for-business-applications"></a>Determinar los requisitos de ancho de banda de Skype para aplicaciones empresariales
 
-For Dewey Law LLC., once you have determined the total bandwidth required you now need to know how that total amount of bandwidth should be divided among the various classes of service. For example, how much bandwidth for each Skype for Business application.
+Para Dewey Law LLC., una vez que haya determinado el ancho de banda total requerido necesita saber cómo debería dividirse la cantidad total de ancho de banda entre las distintas clases de servicio. Por ejemplo, cuánto ancho de banda para cada Skype para aplicación empresarial.
   
-To determine those requirements at each of the Dewey Law LLC. sites, you will use the [Lync 2010 and 2013 Bandwidth Calculator](https://go.microsoft.com/fwlink/?LinkID=690282). This calculator is an Excel-based tool that allows you to specify the expected use of the various Skype for Business applications including voice, video, conferencing, and screen sharing. The calculator will automatically generate an estimate of the bandwidth and CoS requirements for each site on their network. When you download the Lync 2010 and 2013 Bandwidth Calculator, a user's guide will also be downloaded which will give you details on using it. 
+Para determinar estos requisitos en cada uno de los LLC ley Dewey. sitios, utilizará la [Calculadora de ancho de banda de 2013 y Lync 2010](https://go.microsoft.com/fwlink/?LinkID=690282). Esta calculadora es una herramienta basada en Excel que le permite especificar el uso esperado de los diversos Skype para aplicaciones de negocios como voz, vídeo, conferencias y uso compartido de la pantalla. La calculadora generará automáticamente una estimación del ancho de banda y CoS requisitos para cada sitio en su red. Cuando se descarga el Lync 2010 y Calculadora de ancho de banda de 2013, una guía del usuario se descargará que encontrará detalles sobre cómo usarla. 
   
-To help you with the spreadsheet, the various cells in the spreadsheet are color-coded:
+Para ayudarle con la hoja de cálculo, las celdas diferentes de la hoja de cálculo están codificados con colores:
   
-- **Green** These are general data input areas.
+- **Verde** Estas son las áreas de entrada de datos generales.
     
-- **Yellow** These are advanced data input areas. You can change these, but do so carefully.
+- **Amarillo** Estos son avanzados áreas de entrada de datos. Puede cambiarlos, pero hacerlo con cuidado.
     
-- **Red** These are read-only areas and are locked input values and can't be changed.
+- **Rojo** Éstas son áreas de sólo lectura y son valores de entrada bloqueados y no se puede cambiar.
     
-- **Gray** These are display-only areas. They are the results or data that is from the general input areas.
+- **Gris** Estas son áreas de sólo visualización. Son los resultados o los datos de las áreas de entrada generales.
     
-The design process for Dewey Law LLC. begins by characterizing their users into different 'Personas.' For each persona you define, you can specify their expected use of the various Skype for Business applications ('None', 'Low', 'Medium', 'High', or one of three defined 'Custom' settings). Those selections are found in the 'Persona' worksheet. The specific usage for each choice ('Low', 'Medium', or 'High') is provided, but the defaults for each choice can be changed. By identifying the number of users for each persona that is located at each site, the calculator can compute the total bandwidth required for each location.
+El proceso de diseño para Dewey ley LLC. comienza con la caracterización de sus usuarios en diferentes 'Personas'. Para cada rol que defina, puede especificar su uso esperado de los diversos Skype para aplicaciones de negocios ('None', 'Baja', 'Medianas', 'Altas' o uno de tres valores definidos 'Custom'). Estas selecciones se encuentran en la hoja de cálculo 'Persona'. Se proporciona el uso específico para cada opción ('Baja', 'Medio' o 'Alta'), pero se pueden cambiar los valores predeterminados de cada opción. Al identificar el número de usuarios para cada rol que se encuentra en cada sitio, la calculadora puede calcular el ancho de banda total requerido para cada ubicación.
   
-You can also specify the audio and video codecs that are used, whether forward error correction is used and also other system parameters that will affect the bandwidth requirements. You can use the default settings in the Lync 2010 and 2013 Bandwidth Calculator or select different codecs and other system parameters. For Dewey Law LLC's site design, the default settings can be used. However, to change from any of the default settings there is a pull-down menu with all of the available choices. The bandwidths that are used for each choice are included in the 'Codecs' worksheet. When you change any setting, the change in bandwidth and class of service (CoS) mix at each site is updated. Having this capability allows you to test different potential configurations for them and see the impact the changes will have on bandwidth requirements for them.
+También puede especificar el audio y códecs de vídeo que se utilizan, si se utiliza la corrección de errores y también otros parámetros del sistema que afectan a los requisitos de ancho de banda. Puede utilizar la configuración predeterminada en el Lync 2010 y Calculadora de ancho de banda de 2013 o seleccione distintos códecs y otros parámetros del sistema. Para diseñar un sitio Dewey ley LLC, puede utilizarse la configuración predeterminada. Sin embargo, para cambiar cualquiera de la predeterminada configuración allí es un menú desplegable con todas las opciones disponibles. Los anchos de banda utilizados por cada opción se incluyen en la hoja de cálculo 'Codecs'. Al cambiar cualquier configuración, el cambio en el ancho de banda y la clase de servicio (CoS) mezcla en cada sitio se actualiza. Tener esta capacidad le permite probar distintas configuraciones posibles para ellos y ver el impacto que tendrán los cambios en los requerimientos de ancho de banda de ellos.
   
-We have defined three personas for Dewey Law LLC., 'Executive/Partner', 'Associate/Paralegal' and 'IT admins'. The table below shows how we have set the usage profiles for the various Skype for Business apps for each persona.
+Hemos definido tres roles de Dewey Law LLC., 'Ejecutivo o pareja', ' Asociar/Asistente legal' y 'IT admins'. La tabla siguiente muestra cómo hemos establecido los perfiles de uso de los diversos Skype para aplicaciones de negocios para cada rol.
   
- **Personas and usage profiles ('Persona' Worksheet- Columns A through P)**
+ **Roles y perfiles de uso ('Persona' - hoja de cálculo las columnas A P)**
   
-|**Persona**|**IM/Presence**|**P2P audio**|**P2P video**|**Conferencing audio**|**Conferencing video**|**Compartir escritorio**|**Audioconferencia**|**RTV_Type de Lync 2010**|**Usuarios remotos**|**Lync 2013 stereo audio**|**Lync 2013 video quality**|**Lync 2013 users behavior for P2P video window**|**Lync 2013 Multi-view usage**|
+|**Rol**|**Mensajería instantánea y presencia**|**Audio de P2P**|**Vídeo P2P**|**Audio conferencia**|**Vídeo conferencia**|**Compartir escritorio**|**Audioconferencia**|**RTV_Type de Lync 2010**|**Usuarios remotos**|**Sonido estéreo de 2013 de Lync**|**Calidad de vídeo de Lync de 2013**|**Comportamiento de los usuarios de Lync 2013 para la ventana de vídeo P2P**|**Uso de múltiples vistas de 2013 de Lync**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Executive/ Partner  <br/> |Alta  <br/> |Mediana  <br/> |Bajo  <br/> |Mediana  <br/> |Mediana  <br/> |Ninguno  <br/> |Mediana  <br/> |CIF  <br/> |0%  <br/> |0%  <br/> |Mejor  <br/> |Típica  <br/> |Típica  <br/> |
-|Asociar / Paralegal  <br/> |Alta  <br/> |Mediana  <br/> |Bajo  <br/> |Mediana  <br/> |Alta  <br/> |Alta  <br/> |Mediana  <br/> |CIF  <br/> |0%  <br/> |0%  <br/> |Mediana  <br/> |Typical  <br/> |Typical  <br/> |
-|Administradores de TI  <br/> |Alta  <br/> |Mediana  <br/> |Ninguno  <br/> |Bajo  <br/> |Ninguno   <br/> |Ninguno  <br/> |Mediana  <br/> |CIF  <br/> |0%  <br/> |0%  <br/> |Mediana  <br/> |Typical  <br/> |Typical  <br/> |
+|Ejecutivo / socio  <br/> |Alta  <br/> |Mediana  <br/> |Bajo  <br/> |Mediana  <br/> |Mediana  <br/> |Ninguno  <br/> |Mediana  <br/> |CIF  <br/> |0%  <br/> |0%  <br/> |Mejor  <br/> |Típica  <br/> |Típica  <br/> |
+|Asociar / Paralegal  <br/> |Alta  <br/> |Mediana  <br/> |Bajo  <br/> |Mediana  <br/> |Alta  <br/> |Alta  <br/> |Mediana  <br/> |CIF  <br/> |0%  <br/> |0%  <br/> |Mediana  <br/> |Típica  <br/> |Típica  <br/> |
+|Administradores de TI  <br/> |Alta  <br/> |Mediana  <br/> |Ninguno  <br/> |Bajo  <br/> |Ninguno   <br/> |Ninguno  <br/> |Mediana  <br/> |CIF  <br/> |0%  <br/> |0%  <br/> |Mediana  <br/> |Típica  <br/> |Típica  <br/> |
    
-You will need to enter the information in the **Distribution of users by locations and positions** table above in the 'Sites' worksheet of the Lync 2010 and 2013 Bandwidth Calculator. As the number of users in the regional offices is identical, they are defined for one 'Site' and specified that there were three instances of it. The same was done for the large and small branches where there were 24 and 50 users in sites respectively.
+Debe introducir la información en la tabla de **distribución de usuarios por ubicaciones y posiciones** anteriormente en la hoja de cálculo 'Sitios' de la Lync 2010 y Calculadora de ancho de banda de 2013. Como el número de usuarios de las oficinas regionales es idéntico, se definen para un 'sitio' y especificó que había tres instancias de la misma. Se hace lo mismo para las ramas grandes y pequeñas donde había 24 y 50 usuarios en sitios respectivamente.
   
-After specifying the settings for each persona, you need to enter the number of users in each persona at each site in the 'Sites' worksheet. The total users for all sites is updated automatically. Since there aren't users at the Office 365 location, they should all be entered in the 'Branches' rows of the worksheet. The Lync 2010 and 2013 Bandwidth Calculator then populates the 'Best Effort Class', 'Data Traffic Class' and 'Real-time traffic class' columns in the 'WAN BW per QoS traffic class' table. This is shown in the data in the table below.
+Después de especificar la configuración para cada rol, debe introducir el número de usuarios en cada rol en cada sitio en la hoja de cálculo 'Sitios'. El número total de usuarios de todos los sitios se actualiza automáticamente. Dado que no hay usuarios en la ubicación de Office 365, deben todos introducirse en las filas de 'Ramas' de la hoja de cálculo. Calculadora de ancho de banda de 2013 y el Lync 2010 rellena la 'Clase de mejor esfuerzo', 'Clase de tráfico de datos' y columnas 'clase de tráfico en tiempo real' en la tabla 'BW WAN por clase de tráfico QoS'. Esto se muestra en los datos en la tabla siguiente.
   
 > [!TIP]
->  The full spreadsheet also includes the maximum number of simultaneous sessions for each application, but we deleted those columns to save space.
+>  La hoja de cálculo completa incluye también el número máximo de sesiones simultáneas para cada aplicación, pero hemos eliminado las columnas para ahorrar espacio.
   
- **Personas by site - ('Sites' Worksheet- Columns A, D, I and AI through AX)**
+ **Personas por sitio - ('Sitios' hoja de cálculo de las columnas A, D, I y AI a través de AX)**
   
-|**Nombre del sitio**|**Número total de usuarios en el sitio**|**Total Sites Like This**|**User Profile 1**|**User's of Profile 1**|**User Profile 2**|**User's of Profile 2**|**User Profile 3**|**User's of Profile 3**|
+|**Nombre del sitio**|**Número total de usuarios en el sitio**|**Total sitios como este**|**Perfil de usuario 1**|**Usuario del perfil 1**|**Perfil de usuario 2**|**Usuario de perfil 2**|**Perfil de usuario 3**|**Usuario de perfil 3**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Headquarters  <br/> |1070  <br/> |1  <br/> |Executive/Partner  <br/> |170  <br/> |Asociar/Asistente legal  <br/> |700  <br/> |Administradores de TI  <br/> |200  <br/> |
+|Sede central  <br/> |1070  <br/> |1  <br/> |Ejecutivo o pareja  <br/> |170  <br/> |Asociar/Asistente legal  <br/> |700  <br/> |Administradores de TI  <br/> |200  <br/> |
 |Oficinas regionales  <br/> |345  <br/> |3  <br/> |Ejecutivo o pareja  <br/> |60  <br/> |Asociar/Asistente legal  <br/> |225  <br/> |Administración de TI  <br/> |60  <br/> |
 |Las sucursales grandes  <br/> |70  <br/> |24  <br/> |Ejecutivo o pareja  <br/> |11  <br/> |Asociar/Asistente legal  <br/> |50  <br/> |Administración de TI  <br/> |9  <br/> |
 |Las sucursales pequeñas  <br/> |36  <br/> |50  <br/> |Ejecutivo o pareja  <br/> |6  <br/> |Asociar/Asistente legal  <br/> |25  <br/> |Administración de TI  <br/> |1  <br/> |

@@ -1,60 +1,68 @@
 ---
-title: "Obtener el nuevo formulario de solicitud de números de teléfono de usuario"
+title: "Obtener el formulario de solicitud de números de teléfono de usuario nuevo"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/12/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.GetNewNumbers
-ms.prod: office-online-server
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: c0295253-32cc-44ad-99bf-d4737a91a4aa
-description: "A veces (dependiendo de su país o región) no podrá obtener los números nuevos con la Skype centro de administración de la empresa o necesitará determinados números de teléfono o códigos de área. Si es así, debe descargar un formulario y enviar infórmenos. Nuestro servicio de asistencia tomará desde allí y le avise sobre el progreso o su pedido."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: ms.lync.lac.GetNewNumbers
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "A veces (dependiendo de su país o región) no podrá obtener los números de nuevo usando el Skype para el centro de administración de negocios o necesita determinados números de teléfono o códigos de área. Si es así, necesitará descargar un formulario y envíela a nosotros. Nuestro servicio de asistencia se tomará desde allí y permiten conocer el progreso o su pedido."
+ms.openlocfilehash: 0d8738949f202e6daf037a00dad8ac4ffe3dfd5d
+ms.sourcegitcommit: f332028d01a15272da0b09c6d751dbf227cb2d30
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/17/2018
 ---
+# <a name="get-new-user-phone-numbers-request-forms"></a>Obtener nuevos formularios de solicitud de números de teléfono de usuario
 
-# Obtener el nuevo formulario de solicitud de números de teléfono de usuario
+A veces (dependiendo de su país o región) no podrá obtener los números de nuevo usando el **Skype para el centro de administración de negocios**o necesita determinados números de teléfono o códigos de área. Si es así, necesitará descargar un formulario y envíela a nosotros. Nuestro servicio de asistencia se tomará desde allí y permiten conocer el progreso o su pedido.
+  
+    > [!CAUTION]
+    > In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out the form send it to us. 
+  
+Es importante saber que, cuando está realizando tareas de administración de números de teléfono, hay [distintos tipos de números de teléfono utilizados para llamar a los planes](different-kinds-of-phone-numbers-used-for-calling-plans.md) que se utilizan al conectar los números de teléfono de Skype para los negocios en línea. Si está buscando otras tareas de administración de números de teléfono, vea [administrar números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-> [!IMPORTANT]
-> Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades.  
+## <a name="what-do-you-need-to-do"></a>¿Qué debe hacer?
+
+- **Paso 1** : utilice los siguientes vínculos de descarga para descargar el formulario correcto.
+- **Paso 2** : rellenar el formulario correctamente.
+- **Paso 3** : envíenos el formulario. Para los números en los Estados Unidos, [enviarlo a nosotros](mailto:ptn@microsoft.com). Para los números en la Unión Europea (UE), [enviarlo a nosotros](mailto:ptneu@microsoft.com).
   
-A veces (dependiendo de su país o región) no podrá obtener los números nuevos con la **Skype centro de administración de la empresa** o necesitará determinados números de teléfono o códigos de área. Si es así, debe descargar un formulario y enviar infórmenos. Nuestro servicio de asistencia tomará desde allí y le avise sobre el progreso o su pedido.
-  
-> [!CAUTION]
-> En **Bélgica, Irlanda, Alemania y los países bajos**, no pueden obtener acceso a los números de teléfono nuevo teléfono con la **Skype centro de administración de la empresa**; debe descargar y rellene el envío de formulario nos. 
-  
-Es importante saber que, cuando se realiza tareas de administración de número de teléfono, hay [Diferentes tipos de números de teléfono que utiliza para llamar a los planes](different-kinds-of-phone-numbers-used-for-calling-plans.md) que se usan al conectarse a los números de teléfono en Skype empresarial Online. Si busca otras tareas de administración de número de teléfono, vea[Administrar los números de teléfono de su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
-  
-|**País o región**|**Vínculo directo al formulario que necesita**|
+|**País o región**|**Enlace directo al formulario que necesita**|
 |:-----|:-----|
-|Bélgica  <br/> |Obtener a nuevo suscriptor números de teléfono (usuario) en Bélgica (en-US)Obtener números de teléfono de nuevo suscriptor (usuario) en Bélgica (de-ser)Obtener números de teléfono de nuevo suscriptor (usuario) en Bélgica (NG-ser)Obtener números de teléfono de nuevo suscriptor (usuario) en Bélgica (nl-ser)|
-|Francia  <br/> |Obtener a nuevo suscriptor números de teléfono (usuario) en Francia (en-US)Obtener a nuevo suscriptor números de teléfono (usuario) en Francia (NG NG)|
-|Alemania  <br/> |Obtener a nuevo suscriptor números de teléfono (usuario) en Alemania (en-US)Obtener a nuevo suscriptor números de teléfono (usuario) en Alemania (de-DE)|
-|Irlanda  <br/> |Obtener a nuevo suscriptor números de teléfono (usuario) de Irlanda (en-US)|
-|Países Bajos  <br/> |Obtener a nuevo suscriptor números de teléfono (usuario) en los países bajos (en-US)Obtener números de teléfono (usuario) en los países bajos (nl-NL) de nuevo suscriptor|
-|España  <br/> |Obtener a nuevo suscriptor números de teléfono (usuario) en España (en-US)Obtener a nuevo suscriptor números de teléfono (usuario) en España (es-es)|
-|Reino Unido (UK)  <br/> |Obtener a nuevo suscriptor números de teléfono (usuario) en el Reino Unido (en-US)|
-|Estados Unidos (Estados Unidos) (y Puerto Rico)  <br/> |Obtener números de teléfono (usuario) en los Estados Unidos de nuevo suscriptor|
+|Bélgica  <br/> |[Nueva solicitud de número de teléfono de Bélgica (números geográficos) (v.3.0)(de.be)](../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(de.be).pdf) <br/> [Nueva solicitud de número de teléfono de Bélgica (números geográficos) (v.3.0)(fr.be)](../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(fr.be).pdf) <br/> [Nueva solicitud de número de teléfono de Bélgica (números geográficos) (v.3.0)(nl.be)](../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(nl.be).pdf) <br/> 
+|Francia  <br/> |[Nueva solicitud de número de teléfono de Francia (números geográficos) (v.3.0)(fr.fr)](../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3.0)-(fr.fr).pdf)|
+|Alemania  <br/> |[Nueva solicitud de número de teléfono de Alemania (números geográficos) (v.3.0)(de.de)](../downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.3.0)-(de.de).pdf)|
+|Irlanda  <br/> |[Nueva solicitud de número de teléfono de Irlanda (números geográficos) (v.3.0)(en.us)](../downloads/new-number-request-forms/new-phone-number-request-for-Ireland-(geographic-numbers)-(v.3.0)-(en.us).pdf)|
+|Países Bajos  <br/> |[Nueva solicitud de número de teléfono para los países bajos (números geográficos) (v.3.0)(nl.nl)](../downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(geographic-numbers)-(v.3.0)-(nl.nl).pdf)|
+|España  <br/>  |[Nueva solicitud de número de teléfono de España (números geográficos) (v.3.0)(es.es)](../downloads/new-number-request-forms/new-phone-number-request-for-spain-(geographic-numbers)-(v.3.0)-(es.es).pdf)| 
+Reino Unido (UK) <br/> |[Nueva solicitud de número de teléfono para el Reino Unido (números geográficos) (v.3.0)(en.us)](../downloads/new-number-request-forms/new-phone-number-request-for-the-u.k.-(geographic-numbers)-(v.3.0)-(en.us).pdf) 
+|Estados Unidos (EE.) (y Puerto Rico)<br/>|[Nueva solicitud de número de teléfono de Estados Unidos (números de usuario) (v.3.0)(en.us)](../downloads/new-number-request-forms/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3.0)-(en.us).pdf)|
    
-## Descargas de formularios de administración de número de teléfono
+## <a name="downloads-for-other-phone-number-management-forms"></a>Descargas para otras formas de administración número de teléfono
 
-- Puede ver la lista y descargar s de todas las letras de autorización (LOA), vaya a [Skype empresarial Online letras de autorización de](https://go.microsoft.com/fwlink/?LinkID=623745).
+- Puede ver la lista y descargar s de todas las cartas de autorización (LOA) yendo a [Skype para el negocio en línea letras de autorización](https://go.microsoft.com/fwlink/?LinkID=623745).
     
-- Puede ver la lista y descargar todos los formularios que están disponibles para obtener números de teléfono nuevo, vaya a [Skype para Business nuevas solicitudes de número de teléfono ](https://go.microsoft.com/fwlink/?linkid=851581).
+- Puede ver la lista y descargar todos los formularios que están disponibles para obtener nuevos números de teléfono yendo a [administrar números de teléfono de la organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Temas relacionados
+[Transferencia de preguntas habituales de los números de teléfono](transferring-phone-numbers-common-questions.md)
 
-> [!NOTE]
-> **Declinación de responsabilidades de traducción automática**: Este artículo se ha traducido con un sistema informático sin intervención humana. Microsoft ofrece estas traducciones automáticas para que los hablantes de otros idiomas distintos del inglés puedan disfrutar del contenido sobre los productos, los servicios y las tecnologías de Microsoft. Puesto que este artículo se ha traducido con traducción automática, es posible que contenga errores de vocabulario, sintaxis o gramática. 
-  
-## Vea también
-<a name="MT_Footer"> </a>
+[Diferentes tipos de números de teléfono utilizados para llamar a planes](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-#### 
+[Administrar números de teléfono de la organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Términos y condiciones de las llamadas de emergencias](emergency-calling-terms-and-conditions.md)
-  
-[Período de llamada de salida complementario de conferencias de audio](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype para los negocios en línea: etiqueta de descargo de responsabilidad llamada de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)

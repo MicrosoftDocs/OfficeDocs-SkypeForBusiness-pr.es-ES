@@ -1,5 +1,5 @@
 ---
-title: Toll-free dialing restrictions in Brunei
+title: Restricciones de marcado gratuito de Brunei
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,31 +15,31 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom: Calling Plans
-description: This will help you find out how to dial toll free numbers in each country/region. After you select the country/region, it will take you to a country-specific page that contains specific details, restrictions, and limits for toll-free service availability where toll-free service is available. The dialing format or formats will show you the required access codes within each country/region to dial the toll free number.
+description: "Esto le ayudará a averiguar cómo marcar números libre de peaje en cada país o región. Después de seleccionar el país o región, se tardará a una página específica de país que contiene detalles específicos, las restricciones y límites de disponibilidad del servicio gratuito donde el servicio gratuito está disponible. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito."
 ms.openlocfilehash: b53eb7078da4b647cd64205cf9624c6d8a1f98e2
 ms.sourcegitcommit: d5d9a9f9d7765cb615ab9fac88a7695c60210cfc
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/02/2018
 ---
-# <a name="toll-free-dialing-restrictions-in-brunei"></a>Toll-free dialing restrictions in Brunei
+# <a name="toll-free-dialing-restrictions-in-brunei"></a>Restricciones de marcado gratuito de Brunei
 
-[Find another country or region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.
+[Buscar otro país o región](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), o aprender más acerca de las restricciones y limitaciones de marcado gratuito.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|Is toll-free calling available?  <br/> |Sí  <br/> |
-|Dialing format(s)  <br/> | 801 4XXX <br/> |
-|Country/region ISO code  <br/> |BN  <br/> |
-|Island/territory covered  <br/> |No aplicable  <br/> |
-|Island/territory not covered  <br/> |No aplicable  <br/> |
-|Wired/fixed line availability  <br/> |Sí  <br/> |
-|Mobile network availability  <br/> |No  <br/> |
-|Comments, restrictions, and access issues  <br/> |Ninguno  <br/> |
+|¿Es gratuito de llamada disponibles?  <br/> |Sí  <br/> |
+|Formatos de marcado  <br/> | 4XXX 801 <br/> |
+|Código ISO de país o región  <br/> |BN  <br/> |
+|Isla o territorio cubierto  <br/> |No aplicable  <br/> |
+|Isla o territorio no cubierto  <br/> |No aplicable  <br/> |
+|Disponibilidad de línea por cable o fijo  <br/> |Sí  <br/> |
+|Disponibilidad de la red móvil  <br/> |No  <br/> |
+|Problemas de acceso, restricciones y comentarios  <br/> |Ninguno  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
-[Toll-free dialing limitations and restrictions](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
+[Restricciones y limitaciones de marcado gratuito](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
 
-[Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[Obtener números de teléfono de servicio Skype para empresas y Teams de Microsoft](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 

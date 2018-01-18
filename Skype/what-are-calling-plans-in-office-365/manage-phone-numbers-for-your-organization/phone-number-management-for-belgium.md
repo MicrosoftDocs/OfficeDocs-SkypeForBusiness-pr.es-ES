@@ -1,37 +1,45 @@
 ---
-title: "Administración de número de teléfono para Bélgica"
+title: "Administración de números de teléfono para Bélgica"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/22/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: ee10dde6-55ab-4141-92ca-dc97d8ca67f9
-
-description: "Utilice esta tabla para buscar información en obtener y administrar los números de teléfono en Bélgica de Skype empresarial Online."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Calling Plans
+description: "Utilice esta tabla para obtener más información sobre la obtención y administración de números de teléfono en Bélgica para Skype para los negocios en línea."
+ms.openlocfilehash: 3b0ef7b6468410023b55b2c16a7128b155bf6a9c
+ms.sourcegitcommit: f332028d01a15272da0b09c6d751dbf227cb2d30
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/17/2018
 ---
+# <a name="phone-number-management-for-belgium"></a>Administración de números de teléfono para Bélgica
 
-# Administración de número de teléfono para Bélgica
-
-> [!IMPORTANT]
-> Este artículo se ha traducido con traducción automática; vea la declinación de responsabilidades.  
+Utilice esta tabla para obtener más información sobre la obtención y administración de números de teléfono en Bélgica para Skype para los negocios en línea. 
   
-Utilice esta tabla para buscar información en obtener y administrar los números de teléfono en Bélgica de Skype empresarial Online.
+Para obtener más información, vea [administrar números de teléfono para su organización](manage-phone-numbers-for-your-organization.md).
   
-Para obtener más información, vea [Administrar los números de teléfono de su organización](manage-phone-numbers-for-your-organization.md).
-  
-|**¿Qué desea hacer?**|**Descargar los formularios correctos y enviarlos a nosotros**|
+|**¿Qué desea hacer?**|**Descargue las formas correctas y enviarlos a nosotros**|
 |:-----|:-----|
-|Obtener números de teléfono de nuevo usuario.  <br/> | En Bélgica, no se puede obtener números de teléfono para su organización mediante la Skype centro de administración de empresa, debe enviar una nueva solicitud de número de teléfono. Descargue una de estas formas: <br/> [Obtener números de teléfono nuevo en Bélgica (en-US)](http://download.microsoft.com/download/3/B/D/3BDD4575-EAFA-4777-B4C6-A42E8F235AC9/New Phone Number Request for Belgium %28Geographic numbers%29 (v.2) (en.US).pdf) <br/> [Obtener números de teléfono nuevo en Bélgica (de-ser)](http://download.microsoft.com/download/3/B/D/3BDD4575-EAFA-4777-B4C6-A42E8F235AC9/New Phone Number Request for Belgium %28Geographic numbers%29 (v.3) (de.BE).pdf) <br/> [Obtener números de teléfono nuevo en Bélgica (NG-ser)](http://download.microsoft.com/download/3/B/D/3BDD4575-EAFA-4777-B4C6-A42E8F235AC9/New Phone Number Request for Belgium %28Geographic numbers%29 (v.3) (fr.BE).pdf) <br/> [Obtener números de teléfono nuevo en Bélgica (nl-ser)](http://download.microsoft.com/download/3/B/D/3BDD4575-EAFA-4777-B4C6-A42E8F235AC9/New Phone Number Request for Belgium %28Geographic numbers%29 (v.3) (nl.BE).pdf) <br/>  Rellenar se abra y[enviarlo nos](mailto:ptneu@microsoft.com).  <br/> |
-|Debe obtener números de teléfono que se transfieren a nosotros.  <br/> | Descargue una de estas formas: <br/> [Letra de autorización (LOA) para Bélgica (números geográficos) (v.1.0) (en-US)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Belgium (Geographic numbers) (v.1.0) (en-US).pdf) <br/> [Letra de autorización (LOA) para Bélgica (números geográficos) (v.1.0) (nl-ser)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Belgium(Geographic numbers) (v.1.0) (nl-BE).pdf) <br/> [Letra de autorización (LOA) para Bélgica (números geográficos) (v.1.0) (NG-ser)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Belgium (Geographic numbers) (v.1.0) (fr-BE).pdf) <br/> [Letra de autorización (LOA) para Bélgica (números geográficos) (v.1.0) (de-ser)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Belgium(Geographic numbers) (v.1.0) (de-BE).pdf) <br/>  Rellenar se abra y[enviarlo nos](mailto:ptneu@microsoft.com).  <br/> |
-|Debe publicar o anular la publicación de números de teléfono en el directorio de teléfono nacionales.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de teléfono que desea publicar o anular la publicación.           <br/> |
-|Debe cambiar el número de un usuario a un número de servicio.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de usuario que desea convertir en números de servicio. <br/> |
+|Obtener nuevos números de teléfono del usuario.  <br/> |En Bélgica, no se puede obtener los números de teléfono para su organización mediante el Skype para el centro de administración de negocio, debe enviar una nueva solicitud de número de teléfono. Descargue una de estas formas: <br/> [Nueva solicitud de número de teléfono de Bélgica (números geográficos) (v.3.0)(de.be)](../../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(de.be).pdf) <br/> [Nueva solicitud de número de teléfono de Bélgica (números geográficos) (v.3.0)(fr.be)](../../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(fr.be).pdf) <br/> [Nueva solicitud de número de teléfono de Bélgica (números geográficos) (v.3.0)(nl.be)](../../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(nl.be).pdf) <br/>  Rellenar hacia fuera y [enviarlo a nosotros](mailto:ptneu@microsoft.com).  <br/> |
+|Debe obtener los números de teléfono que se transfieren a nosotros.  <br/> | Descargue una de estas formas: <br/> [Carta de autorización (LOA) para Bélgica (números geográficos) (v.1.0)(nl.be)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(nl.be).pdf) <br/> [Carta de autorización (LOA) para Bélgica (números geográficos) (v.1.0)(fr.be)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(fr.be).pdf) <br/> [Carta de autorización (LOA) para Bélgica (números geográficos) (v.1.0)(de.be)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(de.be).pdf) <br/>  Rellenar hacia fuera y [enviarlo a nosotros](mailto:ptneu@microsoft.com). <br/> |
+|Debe publicar o anular la publicación de números de teléfono en la guía telefónica nacional.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de teléfono que desea publicar o anular la publicación.      <br/> |
+|Debe cambiar el número de un usuario a un número de servicio.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de usuario que va a convertir a números de servicio. <br/> |
    
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Temas relacionados
+[Diferentes tipos de números de teléfono utilizados para llamar a planes](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-> [!NOTE]
-> **Declinación de responsabilidades de traducción automática**: Este artículo se ha traducido con un sistema informático sin intervención humana. Microsoft ofrece estas traducciones automáticas para que los hablantes de otros idiomas distintos del inglés puedan disfrutar del contenido sobre los productos, los servicios y las tecnologías de Microsoft. Puesto que este artículo se ha traducido con traducción automática, es posible que contenga errores de vocabulario, sintaxis o gramática. 
-  
+[Administrar números de teléfono de la organización](manage-phone-numbers-for-your-organization.md)
 
+[Términos y condiciones de las llamadas de emergencias](../emergency-calling-terms-and-conditions.md)
+
+[Skype para los negocios en línea: etiqueta de descargo de responsabilidad llamada de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
