@@ -1,0 +1,111 @@
+---
+title: "Transferir los números de teléfono para Office 365"
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
+ms.assetid: 47b3af8e-4171-4dec-8333-c956f108664e
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: ms.lync.lac.PortingNumbersOverview
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+- LIL_Placement
+description: "Aprenda lo que necesita saber y hacer antes de llevar los números de teléfono a Skype para el negocio y crear un pedido de puerto para transferirlos."
+ms.openlocfilehash: 13054913e73b21627f29bfb6038b44c97070417b
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
+---
+# <a name="transfer-phone-numbers-to-office-365"></a><span data-ttu-id="a02d7-103">Transferir los números de teléfono para Office 365</span><span class="sxs-lookup"><span data-stu-id="a02d7-103">Transfer phone numbers to Office 365</span></span>
+
+<span data-ttu-id="a02d7-104">Es fácil transferir sus números de teléfono de su proveedor de servicio actual a Skype para el negocio.</span><span class="sxs-lookup"><span data-stu-id="a02d7-104">It's easy to transfer your phone numbers from your current service provider to Skype for Business.</span></span> <span data-ttu-id="a02d7-105">Después de puerto sus números de teléfono a Skype para los negocios, Microsoft se convertirá en su proveedor de servicios y se le facturará esos números de teléfono.</span><span class="sxs-lookup"><span data-stu-id="a02d7-105">After you port your phone numbers to Skype for Business, Microsoft will become your service provider and will bill you for those phone numbers.</span></span>
+  
+<span data-ttu-id="a02d7-106">Antes de empezar a transferir los números de teléfono, se recomienda que revise la información de [preguntas comunes de números de teléfono de transferencia](transferring-phone-numbers-common-questions.md).</span><span class="sxs-lookup"><span data-stu-id="a02d7-106">Before you start transferring phone numbers, we recommend that you review the information in [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md).</span></span> <span data-ttu-id="a02d7-107">Si tiene números de servicio de conferencia telefónica de puentes, operadores automáticos u otros números de servicio, teléfono gratuito números o tiene más de 999 números de teléfono del usuario (suscriptor) que necesita transferir a Skype para empresas, consulte [administrar números de teléfono de la organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para descargar las formas correctas y enviarlos a nosotros.</span><span class="sxs-lookup"><span data-stu-id="a02d7-107">If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers or have more than 999 user (subscriber) phone numbers that you need to transfer to Skype for Business, see [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to download the correct forms and send them to us.</span></span>
+  > [!NOTE]
+  > <span data-ttu-id="a02d7-108">Procesamos órdenes de puerto para la transferencia de números de teléfono sólo en días laborables de Estados Unidos y no en los días festivos o fines de semana.</span><span class="sxs-lookup"><span data-stu-id="a02d7-108">We process port orders for transferring phone numbers only on U.S. business days and not on public holidays or weekends.</span></span> 
+  
+## <a name="how-to-create-a-port-order-and-transfer-your-phone-numbers-to-skype-for-business"></a><span data-ttu-id="a02d7-109">Cómo crear una orden de puerto y transferir sus números de teléfono a Skype para empresas</span><span class="sxs-lookup"><span data-stu-id="a02d7-109">How to create a port order and transfer your phone numbers to Skype for Business</span></span>
+<span data-ttu-id="a02d7-110"><a name="bk_LNPcountries_1"> </a></span><span class="sxs-lookup"><span data-stu-id="a02d7-110"></span></span>
+
+  > [!NOTE]
+  > <span data-ttu-id="a02d7-111">Si tiene números de servicio de conferencia telefónica de puentes, operadores automáticos u otros números de servicio, teléfono gratuito números o tiene más de 999 números de teléfono del usuario (suscriptor) que necesita transferir a Skype para empresas, consulte [administrar números de teléfono de la organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)) para seleccionar el país o región correctos y descargar los formularios correctos y enviarlos a nosotros.</span><span class="sxs-lookup"><span data-stu-id="a02d7-111">If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers or have more than 999 user (subscriber) phone numbers that you need to transfer to Skype for Business, see [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)) to select the correct country/region and download the correct forms and send them to us.</span></span>
+  
+1. <span data-ttu-id="a02d7-112">Inicie sesión en Office 365 con su cuenta profesional o educativa.</span><span class="sxs-lookup"><span data-stu-id="a02d7-112">Sign in to Office 365 with your work or school account.</span></span>
+    
+2. <span data-ttu-id="a02d7-113">Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.</span><span class="sxs-lookup"><span data-stu-id="a02d7-113">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
+    
+3. <span data-ttu-id="a02d7-114">En la exploración de la izquierda vaya a **voz** > **pedidos de puerto** > haga clic en **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="a02d7-114">In the left navigation go to **Voice** > **Port orders** > click **Add**.</span></span>
+    
+4. <span data-ttu-id="a02d7-115">En la página **Nuevo orden de puerto número Local** , lea la información y, a continuación, haga clic en **Comencemos**.</span><span class="sxs-lookup"><span data-stu-id="a02d7-115">On the **New Local Number Port Order** page, read the information and then click **Let's get started**.</span></span>
+    
+5. <span data-ttu-id="a02d7-116">En la página **información de cuenta** , escriba lo siguiente y, a continuación, haga clic en **siguiente**:</span><span class="sxs-lookup"><span data-stu-id="a02d7-116">On the **Account info** page, enter the following and then click **Next**:</span></span>
+    
+  - <span data-ttu-id="a02d7-117">**Número de cuenta** Número de cuenta para el proveedor de servicios o la portadora.</span><span class="sxs-lookup"><span data-stu-id="a02d7-117">**Account number** Account number for the service provider or carrier.</span></span>
+    
+  - <span data-ttu-id="a02d7-118">**Número de teléfono de facturación** debe estar en el formato E.164 (requiere un signo + para anteponer el número).</span><span class="sxs-lookup"><span data-stu-id="a02d7-118">**Billing telephone number** must be in the E.164 format (requires a + sign to prepend the number).</span></span> <span data-ttu-id="a02d7-119">Por ejemplo, un número de Norteamérica, utilice el formato + 1XXXYYYZZZZ.</span><span class="sxs-lookup"><span data-stu-id="a02d7-119">For example, for a North America number, use the format +1XXXYYYZZZZ.</span></span>
+    
+  - <span data-ttu-id="a02d7-120">**PIN para desbloquear el número** PIN - si es necesario por su actual proveedor de servicios o la portadora.</span><span class="sxs-lookup"><span data-stu-id="a02d7-120">**PIN to unblock number** PIN - if needed by your current service provider or carrier.</span></span>
+    
+  - <span data-ttu-id="a02d7-121">**Nombre de la compañía** Este es el nombre de su compañía u organización.</span><span class="sxs-lookup"><span data-stu-id="a02d7-121">**Company name** This is the name of your company or organization.</span></span>
+    
+    > [!NOTE]
+    > <span data-ttu-id="a02d7-122">El cuadro **nombre de la compañía** sólo aceptará los 25 caracteres que incluya espacios.</span><span class="sxs-lookup"><span data-stu-id="a02d7-122">The **Company name** box will only accept 25 characters that includes spaces.</span></span> <span data-ttu-id="a02d7-123">Si el nombre de la empresa tiene más de 25 caracteres, se enviarán los primeros 25 caracteres del nombre y el orden de puerto se seguirán procesando.</span><span class="sxs-lookup"><span data-stu-id="a02d7-123">If the company's name is longer than 25 characters, the first 25 characters of the name will be submitted and the port order will still be processed.</span></span>
+  
+  - <span data-ttu-id="a02d7-124">**Persona de autorización** Nombre de usuario autorizado.</span><span class="sxs-lookup"><span data-stu-id="a02d7-124">**Authorizing person** Authorized user's name.</span></span>
+    
+    > [!NOTE]
+    > <span data-ttu-id="a02d7-125">El cuadro **persona autorización** sólo aceptará los 15 caracteres que incluya espacios.</span><span class="sxs-lookup"><span data-stu-id="a02d7-125">The **Authorizing person** box will only accept 15 characters that includes spaces.</span></span> <span data-ttu-id="a02d7-126">Si el nombre de la persona autorizada tiene más de 15 caracteres, se enviarán los primeros 15 caracteres del nombre y el orden de puerto se seguirán procesando.</span><span class="sxs-lookup"><span data-stu-id="a02d7-126">If the authorized person's name is longer than 15 characters, the first 15 characters of the name will be submitted and the port order will still be processed.</span></span>
+  
+  - <span data-ttu-id="a02d7-127">**Dirección de servicio** Dirección de servicio de la cuenta.</span><span class="sxs-lookup"><span data-stu-id="a02d7-127">**Service address** Service address for the account.</span></span> <span data-ttu-id="a02d7-128">Se enumerarán en la lista de su proveedor de servicios o la portadora.</span><span class="sxs-lookup"><span data-stu-id="a02d7-128">This will be listed on the bill from your service provider or carrier.</span></span>
+    
+  - <span data-ttu-id="a02d7-129">**Ciudad**, **estado**, **código postal** de la dirección de servicio.</span><span class="sxs-lookup"><span data-stu-id="a02d7-129">**City**, **State**, **Zip** of the service address.</span></span>
+    
+6. <span data-ttu-id="a02d7-130">En la página de **números** , escriba los números de teléfono que desea transferir en formato E.164.</span><span class="sxs-lookup"><span data-stu-id="a02d7-130">On the **Numbers** page, enter the phone numbers that you want to transfer in E.164 format.</span></span> <span data-ttu-id="a02d7-131">Por ejemplo, un número de Norteamérica, utilice el formato + 1XXXYYYZZZZ.</span><span class="sxs-lookup"><span data-stu-id="a02d7-131">For example, for a North America number, use the format +1XXXYYYZZZZ.</span></span> <span data-ttu-id="a02d7-132">Separe varios números de teléfono con una coma.</span><span class="sxs-lookup"><span data-stu-id="a02d7-132">Separate multiple phone numbers by using a comma.</span></span>
+    
+    > [!NOTE]
+    > <span data-ttu-id="a02d7-133">Si está realizando un puerto por completo, debe incluir el número de teléfono de facturación (BTN) de servicio en la lista.</span><span class="sxs-lookup"><span data-stu-id="a02d7-133">If you are doing a full-port, you need to include the service Billing Telephone Number (BTN) in the list.</span></span> <span data-ttu-id="a02d7-134">Si está realizando un puerto parcial, deje el número de teléfono de facturación (BTN) de servicio fuera de esta lista.</span><span class="sxs-lookup"><span data-stu-id="a02d7-134">If you are doing a partial-port, leave the service Billing Telephone Number (BTN) out of this list.</span></span> 
+  
+    <span data-ttu-id="a02d7-135">Si está realizando un puerto por completo, seleccione **estoy transfiriendo todos mis números de mi proveedor actual**.</span><span class="sxs-lookup"><span data-stu-id="a02d7-135">If you are doing a full-port, select **I am transferring all my numbers from my current carrier**.</span></span> <span data-ttu-id="a02d7-136">Si está realizando un puerto parcial, seleccione **sólo estoy transfiriendo algunas de Mis números**.</span><span class="sxs-lookup"><span data-stu-id="a02d7-136">If you are doing a partial-port, select **I'm only transferring some of my numbers**.</span></span> <span data-ttu-id="a02d7-137">Después de elegir la correcta, haga clic en **comprobar la conservación del número**.</span><span class="sxs-lookup"><span data-stu-id="a02d7-137">After you choose the right one, click **Check number portability**.</span></span>
+    
+7. <span data-ttu-id="a02d7-138">Haga clic en **continuar**.</span><span class="sxs-lookup"><span data-stu-id="a02d7-138">Click **Proceed**.</span></span>
+    
+8. <span data-ttu-id="a02d7-139">En la página de **fecha de transferencia** , el **día** de la lista desplegable, seleccione la fecha y en la **hora de inicio** desplegable, seleccione el tiempo (EST) y, a continuación, haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="a02d7-139">On the **Transfer date** page, on the **Day** drop down, select the date and under the **Start time** drop down, select the time (EST) and then click **Next**.</span></span>
+    
+9. <span data-ttu-id="a02d7-140">En la página de la **carta de autorización** , compruebe cada uno de los siguientes cuadros.</span><span class="sxs-lookup"><span data-stu-id="a02d7-140">On the **Letter of authorization** page, check each of the following boxes.</span></span> <span data-ttu-id="a02d7-141">A continuación, en el cuadro **firma** , escriba a la persona que está autorizada a realizar cambios en la cuenta.</span><span class="sxs-lookup"><span data-stu-id="a02d7-141">Then under the **Signature** box, type the person that is authorized to make changes to the account.</span></span> <span data-ttu-id="a02d7-142">Este es el mismo nombre que se utiliza en la página **Información de cuenta** > **persona de autorización**.</span><span class="sxs-lookup"><span data-stu-id="a02d7-142">This is the same name that is used on the **Account Information** page > **Authorizing person**.</span></span> <span data-ttu-id="a02d7-143">Después haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="a02d7-143">Then click **Next**.</span></span>
+    
+10. <span data-ttu-id="a02d7-144">En la página **Enviar** en **notificar a otras personas** escribir cualquier otra dirección de correo electrónico de las personas que desee y haga clic en **orden de puerto de envío**.</span><span class="sxs-lookup"><span data-stu-id="a02d7-144">On the **Submit** page under **Other people to notify** enter any other email address of the people you want to and click **Submit port order**.</span></span> <span data-ttu-id="a02d7-145">El orden de puerto se mostrarán ahora en la página **pedidos de puerto** .</span><span class="sxs-lookup"><span data-stu-id="a02d7-145">The port order will now be listed on the **Port orders** page.</span></span> <span data-ttu-id="a02d7-146">Puede ver el estado de la orden en la columna **estado** .</span><span class="sxs-lookup"><span data-stu-id="a02d7-146">You can view the status of the order under **Status** column.</span></span> <span data-ttu-id="a02d7-147">Puede ver los detalles de la orden de puerto como el **ID de pedido**, **enviado**, **fecha de transferencia** y **estado**.</span><span class="sxs-lookup"><span data-stu-id="a02d7-147">You can view details of the port order such as the **Order ID**, **Submitted**, **Transfer date** and **Status**.</span></span> <span data-ttu-id="a02d7-148">Puede ver más detalles de la orden de puerto en el panel de acción, incluido el nombre del transportista.</span><span class="sxs-lookup"><span data-stu-id="a02d7-148">You can see more details for the port order in the Action pane, including the name of the carrier.</span></span>
+    
+## <a name="what-happens-next"></a><span data-ttu-id="a02d7-149">¿Qué sucede después?</span><span class="sxs-lookup"><span data-stu-id="a02d7-149">What happens next?</span></span>
+<span data-ttu-id="a02d7-150"><a name="bk_LNPcountries_1"> </a></span><span class="sxs-lookup"><span data-stu-id="a02d7-150"></span></span>
+
+<span data-ttu-id="a02d7-151">Una vez que se han enviado y recibido su orden de puerto, se le enviará un correo electrónico que comprueba su pedido de puerto.</span><span class="sxs-lookup"><span data-stu-id="a02d7-151">Once your port order has been submitted and received, you will be sent an email that verifies your port order.</span></span> 
+  
+<span data-ttu-id="a02d7-152">Su solicitud de pedido de puerto se comprobarán y se actualiza diariamente y se le notificará de su progreso y el estado de correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="a02d7-152">Your port order request will be checked and updated daily and you will be notified of its progress and status in email.</span></span> <span data-ttu-id="a02d7-153">Si se rechaza la solicitud, se le pedirá para abrir un ticket de soporte y que admiten el vale que le solicitamos que proporcione **ID de pedido del puerto**.</span><span class="sxs-lookup"><span data-stu-id="a02d7-153">If your request is rejected, you will be asked to open a support ticket and in that support ticket we ask that you provide **Port Order ID**.</span></span> <span data-ttu-id="a02d7-154">El orden de puerto ID puede encontrarse en el Skype para el centro de administración de negocios en **voz** > **pedidos de puerto** > columna de**ID de pedido** .</span><span class="sxs-lookup"><span data-stu-id="a02d7-154">The port order ID can be found in the Skype for Business admin center under **Voice** > **Port orders** > **Order ID** column.</span></span>
+  
+## <a name="what-if-i-have-problems"></a><span data-ttu-id="a02d7-155">¿Qué sucede si tengo problemas?</span><span class="sxs-lookup"><span data-stu-id="a02d7-155">What if I have problems?</span></span>
+<span data-ttu-id="a02d7-156"><a name="bk_LNPcountries_1"> </a></span><span class="sxs-lookup"><span data-stu-id="a02d7-156"></span></span>
+
+ <span data-ttu-id="a02d7-157">**La dirección del servicio no es la misma que la dirección de facturación. La información de dirección que se envían en el orden coincide con copia de factura de mi cliente, ¿por qué se lo sigue rechazando?**</span><span class="sxs-lookup"><span data-stu-id="a02d7-157">**The service address isn't the same as the billing address. The address information I submitted on the order matches my customer's bill copy, why is it still rejecting?**</span></span> <span data-ttu-id="a02d7-158">La mayoría de los transportistas identificará la información traslada basándose en la información de la dirección de servicio, no la dirección de facturación.</span><span class="sxs-lookup"><span data-stu-id="a02d7-158">Most carriers will identify the porting information based on the service address information, not the billing address.</span></span> <span data-ttu-id="a02d7-159">Puesto que una copia de la factura es un registro de facturación, no puede proporcionar la misma información que la dirección del servicio para los números de teléfono se están trasladando.</span><span class="sxs-lookup"><span data-stu-id="a02d7-159">Since a bill copy is a billing record, it may not provide the same information as the service address for the telephone number(s) being ported.</span></span>
+  
+ <span data-ttu-id="a02d7-160">**¿Qué debo hacer si se tarda mucho en procesar mi pedido?**</span><span class="sxs-lookup"><span data-stu-id="a02d7-160">**What should I do if my order is taking too long to process?**</span></span> <span data-ttu-id="a02d7-161">Queremos trasladar número para ser muy rápido y sencillo proceso.</span><span class="sxs-lookup"><span data-stu-id="a02d7-161">We want number porting to be very simple and quick process.</span></span> <span data-ttu-id="a02d7-162">Si el pedido está tardando más de lo que piensa que debería el estado aún no mostrar como completado en el Skype para el centro de administración de negocios abra ticket de soporte y, incluir el ID de pedido del puerto.</span><span class="sxs-lookup"><span data-stu-id="a02d7-162">If your order is taking longer than you think it should and the status still doesn't show as complete in the Skype for Business admin center, please open support ticket and include the port order ID.</span></span>
+
+
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
+   
+## <a name="related-topics"></a><span data-ttu-id="a02d7-163">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="a02d7-163">Related topics</span></span>
+[<span data-ttu-id="a02d7-164">Transferencia de preguntas habituales de los números de teléfono</span><span class="sxs-lookup"><span data-stu-id="a02d7-164">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
+
+[<span data-ttu-id="a02d7-165">Diferentes tipos de números de teléfono utilizados para llamar a planes</span><span class="sxs-lookup"><span data-stu-id="a02d7-165">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[<span data-ttu-id="a02d7-166">Términos y condiciones de las llamadas de emergencias</span><span class="sxs-lookup"><span data-stu-id="a02d7-166">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+
+[<span data-ttu-id="a02d7-167">Skype para los negocios en línea: etiqueta de descargo de responsabilidad llamada de emergencia</span><span class="sxs-lookup"><span data-stu-id="a02d7-167">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)

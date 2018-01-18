@@ -1,0 +1,44 @@
+---
+title: "¿Qué sucede si mi compañía de teléfono no aparece como el portador de origen?"
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
+ms.assetid: a8315746-0d17-4c75-ae37-eab82532a3d8
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.PortOrderDetailPanelWhois
+ms.custom: Calling Plans
+description: "Aprenda qué hacer si no aparece su portador en Skype para el negocio. "
+ms.openlocfilehash: 71a2ba5fd3a91a4ac31586020dd11af3086dcf48
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 12/15/2017
+---
+# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a><span data-ttu-id="f4eb9-103">¿Qué sucede si mi compañía de teléfono no aparece como el portador de origen?</span><span class="sxs-lookup"><span data-stu-id="f4eb9-103">What if my phone carrier isn't listed as the source carrier?</span></span>
+
+<span data-ttu-id="f4eb9-104">Es un poco confuso cuando vea que no se muestra el nombre de su compañía.</span><span class="sxs-lookup"><span data-stu-id="f4eb9-104">It's a little confusing when you see that the name of your carrier isn't listed.</span></span> <span data-ttu-id="f4eb9-105">En la mayoría de los casos, si el proveedor de servicios o la portadora es diferente, lo más probable es que se están transfiriendo a través de los números de teléfono son propiedad de una compañía aérea o proveedor de servicios diferente.</span><span class="sxs-lookup"><span data-stu-id="f4eb9-105">In most cases, if the service provider or carrier is different, chances are that the phone numbers you are transferring over are owned by a different service provider or carrier.</span></span> <span data-ttu-id="f4eb9-106">Puede haber ocasiones cuando el proveedor de servicios o la portadora que aparece podría ser diferente de su actual proveedor de servicios debido a su actual proveedor de servicios puede estar trabajando con un proveedor de servicios de terceros.</span><span class="sxs-lookup"><span data-stu-id="f4eb9-106">There can be times when the service provider or carrier that is listed could be different from your current service provider because your current service provider may be working with a third-party service provider.</span></span> 
+  
+<span data-ttu-id="f4eb9-107">Un ejemplo:</span><span class="sxs-lookup"><span data-stu-id="f4eb9-107">An example:</span></span>
+  
+- <span data-ttu-id="f4eb9-108">Si está adaptando número de Skype para el negocio como tu proveedor, podría ver que Level3 enumerados.</span><span class="sxs-lookup"><span data-stu-id="f4eb9-108">If you are porting number from Skype for Business as your carrier, you might see Level3 listed.</span></span>
+    
+ <span data-ttu-id="f4eb9-109">**Para obtener instrucciones detalladas paso a paso, consulte [transferir números de teléfono para Office 365](transfer-phone-numbers-to-office-365.md).**</span><span class="sxs-lookup"><span data-stu-id="f4eb9-109">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="f4eb9-110">Si necesita obtener más números de teléfono que esto, ponte [en contacto con soporte técnico para productos de empresa - Admin ayuda](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="f4eb9-110">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+
+  
+## <a name="related-topics"></a><span data-ttu-id="f4eb9-111">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="f4eb9-111">Related topics</span></span>
+[<span data-ttu-id="f4eb9-112">Transferencia de preguntas habituales de los números de teléfono</span><span class="sxs-lookup"><span data-stu-id="f4eb9-112">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
+
+[<span data-ttu-id="f4eb9-113">Términos y condiciones de las llamadas de emergencias</span><span class="sxs-lookup"><span data-stu-id="f4eb9-113">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+
+[<span data-ttu-id="f4eb9-114">Skype para los negocios en línea: etiqueta de descargo de responsabilidad llamada de emergencia</span><span class="sxs-lookup"><span data-stu-id="f4eb9-114">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
