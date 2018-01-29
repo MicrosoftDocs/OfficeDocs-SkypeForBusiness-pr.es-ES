@@ -7,11 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Aprenda a usar los distintos clientes disponibles para Microsoft Teams, que incluyen web, escritorio (Windows y Mac) y móvil (Android, iOS y Windows Phone)."
-ms.openlocfilehash: 2f07ba9fc8c7f08adf608c5d3a0708e680967632
-ms.sourcegitcommit: 18b1af39d6d2cd0e7f2d270dcd844e06c9075ae6
+ms.openlocfilehash: c10dde0e2893bc11f1d5a01eed1c30ed37ff30a0
+ms.sourcegitcommit: 6ddf8daf3aa1f43c67cb5a57721cb01a9c409f7b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/18/2018
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
 ===========================
@@ -27,20 +27,12 @@ No se requiere un complemento ni una descarga para utilizar Microsoft Teams con 
 
 El cliente web detecta la versión del explorador al conectarse con [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) y, si se detecta una versión no admitida, se bloquea el acceso a la interfaz web y se recomienda al usuario que descargue el cliente de escritorio o la aplicación móvil.
 
-Microsoft Teams admite los siguientes exploradores y versiones:
-
--   **Microsoft Edge**: 12 o posterior
-
--   **Internet Explorer:** 11 o posterior
-
--   **Chrome**: 51.0 o posterior
-
--   **Firefox**: 55 o posterior
-
-
+<a name="internet-browser-support"></a>Compatibilidad con exploradores web
+------------------------------
+Microsoft Teams es compatible con los siguientes exploradores web: Explorer 11, Microsoft Edge, la versión más reciente de Chrome y la versión más reciente de Firefox.
 
 > [!NOTE]
-> Safari no se admite todavía, pero se admitirá pronto.
+> Actualmente Safari no es compatible. Consulte el [mapa de ruta](http://aka.ms/TeamsRoadmap) para obtener información sobre las nuevas características de Microsoft Teams. A los usuarios que intenten abrir Microsoft Teams en Safari se les redirigirá al sitio de descarga del cliente de escritorio de Microsoft Teams.
 
 <a name="desktop-clients"></a>Clientes de escritorio
 ------------------------

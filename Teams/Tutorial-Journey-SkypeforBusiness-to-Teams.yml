@@ -10,12 +10,13 @@ metadata:
   ms.author: tbinder
   manager: lolaj
   ms.service: msteams
+  ms.topic: tutorial
   ms.collection: Strat_MT_TeamsAdmin
-  ms.openlocfilehash: 6c2359a55666fbbee825fa09dbb7045a64c56525
-  ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+  ms.openlocfilehash: f32fbc12569b19fc588cf13f8988f57454862881
+  ms.sourcegitcommit: 02403b6dc6e0a9a0a590fbf41fa8a552d2f29e1f
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 12/20/2017
+  ms.lasthandoff: 01/09/2018
 items:
 - durationInMinutes: 1
   content: "In this training, we introduce the new intelligent communications vision and explain the future for Skype for Business and Teams.\n\nThis training is for you if you're: \n\n- An It Pro \n\n- Responsible for planning, deploying, or managing Skype for Business\n\n- Interested in understanding how to introduce Teams in your organization\n\nWe'll go into detail on how these two products come together and explain what steps you can take today to prepare an existing Skype for Business environment for Teams. The key learnings of this tutorial are:\n\n- Understand the Intelligent communications vision\n\n- Understand the journey from Skype for Business Online to Teams\n\n- Understand what actions should be started today\n\nWe won't cover \"How to\" procedures for turning on Teams or running Skype for Business and Teams side by side. For this information, see the following:\n\n- Microsoft Ignite 2017 session: [How to enable and configure Microsoft Teams for your users](https://myignite.microsoft.com/sessions/53318)\n\n- Readiness: [Running Skype for Business and Microsoft Teams side-by-side](guidance-SkypeforBusiness.md) \n<-- (new content coming soon) -->\n\nIf you have any questions or feedback about this training, please:\n\n- Post in the comments section at the bottom of the 'next steps' page of this tutorial</a>\n\n- Email us at [AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Journey)\n\n- To give us your product feedback, such as feature requests, go to [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n"
