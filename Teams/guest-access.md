@@ -8,14 +8,20 @@ ms.topic: article
 ms.service: msteams
 description: "Con el acceso de invitado en Microsoft Teams, los equipos de su organización pueden colaborar con personas que no pertenecen a la organización al concederles acceso a equipos y canales."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 53fac61c9e8c36c572e77fd302f410ce5dce45d0
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: 07dbb6faca20fd39fc65c6508489500dda143040
+ms.sourcegitcommit: d62b48ee2c21435555255afe78db6349139b070c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/23/2018
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acceso de invitado a Microsoft Teams
 ======================================
+
+El acceso de invitado es una nueva opción de Microsoft Teams. Se trata de la una de las características más solicitadas por los clientes. Seguimos trabajando en ella para mejorar sus funcionalidades. Esto es lo que puede hacer para seguir nuestro progreso en el acceso de invitado y compartir con nosotros sus opiniones:
+- Si tiene problemas con el acceso de invitado, consulte [Problemas conocidos de Microsoft Teams](Known-issues.md).
+- Obtenga más información sobre las próximas características nuevas o actualizadas en el [mapa de ruta de Microsoft Teams](https://aka.ms/teamsroadmap).
+- Háganos llegar sus ideas sobre cualquier aspecto en [Teams UserVoice](https://aka.ms/TeamsUserVoice).
+- Comparta su experiencia en la sección Comentarios que encontrará más abajo.
 
 
 Con el acceso de invitado en Microsoft Teams, los equipos de su organización pueden colaborar con personas que no pertenecen a la organización al concederles acceso a equipos y canales. 
@@ -38,7 +44,7 @@ Microsoft Teams se basa en Grupos de Office 365 y proporciona a los grupos de Of
  
   
     
-  [Ayuda, guía práctica y herramientas](support-resources.md)  
+  [Recursos de soporte técnico para Microsoft Teams](support-resources.md)  
  
   
 

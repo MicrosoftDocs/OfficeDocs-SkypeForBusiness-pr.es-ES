@@ -3,16 +3,16 @@ title: "Inicio rápido: Guía de planificación de Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 12/15/2017
+ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
 description: "Use esta guía como ayuda para planificar, implementar y adoptar Microsoft Teams en su organización."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: dad9788c15c958876dc9a3b4adf637f88fe53b0a
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: 0dc620789a0ca2bf904c3a5795d01aabb755109a
+ms.sourcegitcommit: 3fb8ed855e72a28cd28c94f1414fbe81937d9422
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/23/2018
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>Inicio rápido: Guía de planificación de Microsoft Teams
 ==========================================================
@@ -73,10 +73,10 @@ Al implementar Microsoft Teams, no se olvide de habilitar la experiencia móvil.
 
 Implementar software no es lo único que hay que hacer para generar un cambio en la organización. Facilitar la colaboración es una tarea que tiene más relación con las personas que con la propia tecnología. Para lograr una correcta adopción de Office 365 y Microsoft Teams, tenga siempre en mente la experiencia de los empleados. Esta es una lista de comprobación rápida de nuestros procedimientos recomendados para ayudarle a comenzar: Los socios de Microsoft también pueden ayudarle a diseñar el plan de adopción correcto para su organización.
 
-1. **Lea la [Guía de adopción de Office 365](https://microsoft.sharepoint.com/:b:/t/ToolkitforTeamwork/ETCwPQo47a1IveJmot1vvb4BywRpFjqfRPrtjPtgF_i_hg?e=bfc85a9e74cd4cac8163286b6ef5ae74)** para consultar los procedimientos recomendados.  Use nuestro artículo sobre la [creación de una estrategia de administración de cambios para Microsoft Teams](change-management-strategy.md) para documentar su enfoque.
+1. **Lea la [Guía de adopción de Office 365]( https://aka.ms/office365adoptionguide)** para consultar los procedimientos recomendados. Use nuestro artículo sobre la [creación de una estrategia de administración de cambios para Microsoft Teams](change-management-strategy.md) para documentar su enfoque.
 1. **Revise los [informes de actividad de Office 365](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)** para comprender el uso en todo el entorno. Si no es administrador de Office 365 en su empresa, pídale al administrador que le conceda permisos de lectura de informes para que pueda acceder a los informes de actividad.
 2. **Registre los comentarios de los empleados** sobre su experiencia con Office 365 y Microsoft Teams. Use un canal púbico en Microsoft Teams si en su organización hay menos de 2500 personas. Use un grupo público en Yammer si su organización supera este límite en Microsoft Teams. 
-3. **Use materiales de [Your Digital Day](https://microsoft.sharepoint.com/teams/ToolkitforTeamwork/SitePages/A%20Day%20in%20the%20Digital%20Life.aspx) (Su día digital) para fomentar el uso de características comunes** fomentando el uso de chats, @menciones y el almacenamiento en la nube (OneDrive y SharePoint Online a través de Microsoft Teams) para atraer a las personas a la experiencia. Deje de enviar hojas de cálculo por correo 
+
 4. **Cuide a los expertos y resalte los logros.** Recompense a los empleados por adoptar las nuevas herramientas y usarlas de formas innovadoras que proporcionen los resultados empresariales. Esto, ante todo, propiciará una adopción continua de Office 365 y Microsoft Teams.
 
 

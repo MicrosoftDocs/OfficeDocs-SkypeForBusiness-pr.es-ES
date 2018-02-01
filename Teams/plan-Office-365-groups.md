@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Conozca las decisiones que debería tomar al planificar grupos de Office 365, como elegir grupos privados y públicos, usar el cliente de Teams o la consola web de administración de Office 365 y cómo enseñar a usar las conversaciones a sus equipos."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 49d8a78f4d3c2d7c03567992479d09d4fe06ca5d
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: 330cb6e8eb572fc2fb4141a2cea8a0ad6055d309
+ms.sourcegitcommit: 9861cc3eca070ef1c6b7375896ae1978a438c772
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/25/2018
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Planificar grupos de Office 365 al crear equipos en Microsoft Teams
 ==========================================================
@@ -24,9 +24,14 @@ Existen dos situaciones que podrían suscitar algunas discusiones a la hora de p
 -   En primer lugar, dado que los clientes tienen inversiones en los grupos, actualmente admitimos grupos públicos o privados de menos de 2500 miembros. Como mencionamos anteriormente, debería administrar la pertenencia de las personas a un equipo mediante un cliente de Teams y no a través de la consola web de administración de Office 365. Dada esta situación, si las personas están habituadas a las conversaciones encadenadas en los grupos de Office 365, vale la pena mencionar que una conversación de grupos de Office 365 se da fundamentalmente a través del correo electrónico y no es lo mismo que un mensaje de chat de un canal de equipo. Explique esta diferencia a sus usuarios y sugiera que adopten un formato de mensaje de chat más flexible en Teams, en lugar de enviar correos electrónicos al grupo a través de Outlook u OWA.
 
 -   En segundo lugar, para los clientes que no tienen grupos definidos en Office 365, puede crearlos mediante el portal de administración de Office 365, o bien de los clientes web y de escritorio de Teams. Como se mencionó anteriormente, debe administrar todas las pertenencias futuras a un grupo de Office 365 a través de un cliente de Teams. Dado que la pertenencia a un equipo también define la pertenencia a un grupo de Office 365, debe preparar a sus usuarios para este cambio.
+ 
 
-## <a name="teams-respects-office-365-groups-naming-policy"></a>Microsoft Teams respeta la directiva de nomenclatura de los grupos de Office 365.
+
+## <a name="teams-respects-office-365-groups-naming-policy-in-private-preview"></a>Microsoft Teams respeta la directiva de nomenclatura de los grupos de Office 365 (en la versión preliminar privada).
 La directiva de nomenclatura de los grupos de Office 365 que haya establecido su administrador se aplicará a Microsoft Teams cuando los usuarios creen o editen los nombres de los equipos. En ella se incluyen cosas como los sufijos y los prefijos obligatorios y la exclusión de palabras prohibidas.
+
+> [!NOTE]
+> Esta característica está disponible en la versión preliminar privada, lo que significa que, si no forma parte de dicha versión preliminar, Microsoft Teams no se adhiere todavía a la directiva de nomenclatura de los grupos de Office 365.
 
 Para obtener más información, lea [Directiva de nomenclatura de grupos de Office 365 en Microsoft Teams](https://support.office.com/article/Office-365-Groups-Naming-Policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
