@@ -1,107 +1,109 @@
 ---
-title: "¿Cómo se puede crear un ticket de soporte para la validación de direcciones?"
+title: "¿Cómo creo un vale de soporte para la validación de direcciones?"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 6e7c4964-b7b4-4f87-af00-220a2cd5a1c2
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: ms.lync.lac.CivicAddressValidationOpenSupportTicket
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
-description: "Validación de la dirección es una parte importante de la configuración de una llamada a planes de Office 365. Proporciona a un usuario de la organización una dirección llamada de emergencia que puede ser utilizada por los servicios de respuesta de emergencia."
-ms.openlocfilehash: e1f4cfe276f50b80f66a1d20d5c38a18b15b2071
-ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
-ms.translationtype: MT
+description: "La validación de direcciones es una parte muy importante de la configuración de Planes de llamada en Office 365. Proporciona a un usuario de su organización una dirección para llamadas de emergencia que puedan usar los servicios de respuesta de emergencias."
+ms.openlocfilehash: 3d6ab2d8b21b3ea2a85b3d7a2379cd5589cb392c
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/15/2017
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>¿Cómo se puede crear un ticket de soporte para la validación de direcciones?
+# <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>¿Cómo creo un vale de soporte para la validación de direcciones?
 
-Validación de la dirección es una parte importante de la configuración de una llamada a planes de Office 365. Proporciona a un usuario de la organización una dirección llamada de emergencia que puede ser utilizada por los servicios de respuesta de emergencia. Cómo se hace esto se basa en el tamaño de su organización.
+La validación de direcciones es una parte muy importante de la configuración de Planes de llamada en Office 365. Proporciona a un usuario de su organización una dirección para llamadas de emergencia que puedan usar los servicios de respuesta de emergencias. La forma que elija para hacerlo depende del tamaño de su organización.
 
 > [!NOTE]
-> Si necesita obtener más números de teléfono que esto, ponte [en contacto con soporte técnico para productos de empresa - Admin ayuda](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+> Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 
-## <a name="for-organizations-150-or-less-follow-these-steps"></a>Para las organizaciones de 150 o menos, siga estos pasos
-1. En el **Centro de administración de Office 365**, seleccione **¿necesita ayuda**?
-2. En la **necesita ayuda?** panel, cuéntenos lo que necesita ayuda con y elija **obtener ayuda**.
-3. Si no la ayudan los resultados en la sección de **soluciones** , elija uno de los siguientes:
-    - **Permítanos llamarlo (recomendado)**: confirmar tu número de contacto y luego pulsar **Llamarme**. El tiempo de espera previsto para una llamada se indica en el **necesita ayuda?** panel.
-    - **Envíenos un correo electrónico**: confirmar tu dirección de correo electrónico, elija **Enviar**. El tiempo de respuesta de llamada se indica en el **necesita ayuda?** panel.
+## <a name="for-organizations-150-or-less-follow-these-steps"></a>Para organizaciones de 150 o menos, siga estos pasos.
+1. En el **Centro de administración de Office 365**, elija **¿Necesita ayuda**?
+2. En el panel **¿Necesita ayuda?**, díganos con qué asunto necesita ayuda y seleccione **Obtener ayuda**.
+3. Si los resultados de la sección **View solutions** (Ver soluciones) no son de ayuda, elija una de las siguientes opciones:
+    - **Let us call you (Recommended)** (Permítanos llamarle [recomendado]): confirme su número de contacto y pulse **Llamarme**. El tiempo de espera previsible para la devolución de llamada se indica en el panel **¿Necesita ayuda?**.
+    - **Email us** (Envíenos un correo electrónico): confirme su dirección de correo electrónico y seleccione **Enviar**. El tiempo de respuesta de llamada se indica en el panel **¿Necesita ayuda?**.
 
-## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>Para organizaciones con más de 150 usuarios, crear una solicitud de servicio para validar una dirección de emergencia
+## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>En el caso de organizaciones con más de 150 usuarios, cree una solicitud de servicio para validar una dirección de emergencia.
 
 1. Inicie sesión como administrador en Office 365 con su cuenta profesional o educativa.
     
-2. En el centro de administración de Office 365, en la exploración de la izquierda, haga clic en **soporte** > **nueva solicitud de servicio**.
+2. En el Centro de administración de Office 365, en el panel de navegación izquierdo, haga clic en **Soporte** > **New service request** (Nueva solicitud de servicio).
     
-3. En **las solicitudes de servicio**, haga clic en **Agregar**.
+3. En **Service requests** (Solicitudes de servicio), haga clic en **Agregar**.
     
-4. En la página **Crear una solicitud de servicio**, haga clic en **Colaboración en línea**.
+4. En la página **Create a service request** (Crear una solicitud de servicio), haga clic en **Online collaboration** (Colaboración en línea).
     
-5. En la página **identifica el problema** , seleccione y escriba lo siguiente:
+5. En la página **Identify the issue** (Identificar el problema), seleccione y escriba lo siguiente:
     
-  - **Función:** Seleccione **doméstico Plan de llamadas** o **Plan nacional e internacional**.
+  - **Característica:** seleccione **Domestic Calling Plan** (Plan de llamadas nacionales) o **Domestic and International Plan** (Plan nacional e internacional).
     
-  - **Síntoma:** Introduzca la **llamada de emergencia**.
+  - **Symptom** (Síntoma): introduzca **Llamadas de emergencia**.
     
-  - **Resumen del problema:** Introduzca la **validación de la dirección**.
+  - **Issue summary** (Resumen del problema): introduzca **Address validation** (Validación de direcciones).
     
-  - **Detalles del problema:** Especificar los detalles acerca de las direcciones que desee validar como el:
+  - **Issue details** (Detalles del problema): introduzca los detalles relacionados con la dirección que quiere validar, como:
     
-      - Número de la calle
+      - Número de calle
     
-      - Nombre de la calle
+      - Nombre de calle
     
-      - Pueblo o ciudad
+      - Ciudad
     
       - País o región
     
     > [!IMPORTANT]
-    > **Puesto que el país o región donde ofrecemos llamando a planes de Office 365 que intenta validar una dirección de emergencia cuando se asigna el número de teléfono.**
+    > **Ponga el país o la región en el que ofrecemos Planes de llamada en Office 365 para los que esté intentando validar una dirección de emergencia cuando vaya a asignar el número de teléfono.**
   
-      - Postal o código postal
+      - Código postal
     
 6. Haga clic en la página **Siguiente** y en **Sí, continuar** para continuar.
     
-7. En la página **Agregar detalles**, seleccione y escriba la siguiente información:
+7. En la página **Add details** (Agregar detalles), seleccione y escriba lo siguiente:
     
-  - **¿No está disponible el servicio?** Seleccione **No**.
+  - **Is your service unavailable?** (¿El servicio no está disponible?) Seleccione **No**.
     
-  - **¿Cuántos usuarios se ven afectados?** Seleccione **algunos usuarios**.
+  - **How many users are affected?** (¿Cuántos usuarios se ven afectados?) Seleccione **Some users** (Algunos usuarios).
     
-  - **Escriba una dirección de correo electrónico de alguien afectado por este problema** o dejar en blanco.
+  - **Enter an email address of someone affected by this issue** (Escriba la dirección de correo electrónico de algún usuario afectado por este problema) o déjelo en blanco.
     
-  - **Seleccione los dominios que desea listar**
+  - **Select Domain(s) you want to list** (Seleccionar el dominio o dominios que desea agregar a la lista)
     
-  - **Adjuntar un archivo** si tiene varias direcciones que necesita validar.
+  - **Attach a file** (Adjuntar un archivo) si tiene que validar varias direcciones.
     
   - Haga clic en **Siguiente**.
     
   - Escriba su número de teléfono de contacto.
     
-8. Revise la información y, a continuación, haga clic en **Enviar solicitud**.
+8. Revise la información y, a continuación, haga clic en **Submit request** (Enviar solicitud).
     
 > [!TIP]
-> El número de referencia se mostrará en la página **Solicitudes de servicio** del centro de administración de Office 365.
+> El número de referencia se mostrará en la página **Service requests** (Solicitudes de servicio) del Centro de administración de Office 365.
   
 ## <a name="related-topics"></a>Temas relacionados
-[Transferencia de preguntas habituales de los números de teléfono](transferring-phone-numbers-common-questions.md)
+[Preguntas comunes sobre la transferencia de números de teléfono](transferring-phone-numbers-common-questions.md)
 
-[Diferentes tipos de números de teléfono utilizados para llamar a planes](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Diferentes tipos de números de teléfono que se usan para Planes de llamada](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Administrar números de teléfono de la organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Administrar los números de teléfono para su organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Términos y condiciones de las llamadas de emergencias](emergency-calling-terms-and-conditions.md)
+[Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)
 
-[Skype para los negocios en línea: etiqueta de descargo de responsabilidad llamada de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)

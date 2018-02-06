@@ -3,32 +3,38 @@ title: "Países y regiones donde Audioconferencia y Planes de llamada están dis
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
-ms.date: 01/22/2018
+ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
+ms.date: 01/24/2018
 ms.topic: article
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
+- Strat_SB_PSTN
 - LIL_Placement
 description: "Puede seleccionar un país o una región para comprobar si Audioconferencia, Sistema telefónico, Planes de llamada, Créditos de comunicaciones y los números gratuitos y de pago están disponibles o no."
-ms.openlocfilehash: c1d378a37850d8fdb9fb8d4cda68cedb929ba204
-ms.sourcegitcommit: 3fb8ed855e72a28cd28c94f1414fbe81937d9422
+ms.openlocfilehash: 2024b5df01cd1cfa787883fa3b2337500b2dea61
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Países y regiones donde Audioconferencia y Planes de llamada están disponibles
 
 Puede seleccionar un país o una región para comprobar si Audioconferencia, Sistema telefónico, Planes de llamada y Créditos de comunicaciones están disponibles.
+
+> [!Note]
+> Si busca una hoja de cálculo con todos los países y regiones, descargue y guarde la [hoja de cálculo con todos los países y regiones](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/downloads/country-region-availabilty/country-and-region-availability-(v.01242018)-(en.us).xlsx?raw=true).
 
 ## <a name="select-your-country-or-region-to-see-whats-available-for-you"></a>Seleccione su país o región para comprobar qué tiene a su disposición.
 
@@ -47,7 +53,7 @@ Puede seleccionar un país o una región para comprobar si Audioconferencia, Sis
 > - [Canadá](availability-in-canada.md)
 > - [Chile](availability-in-chile.md)
 > - [China](availability-in-china.md)
-> - [Colombia](availability-in-columbia.md)
+> - [Colombia](availability-in-colombia.md)
 > - [Costa Rica](availability-in-costa-rica.md)
 > - [Croacia](availability-in-croatia.md)
 > - [Chipre](availability-in-cyprus.md)
@@ -165,7 +171,7 @@ Además de obtener números de teléfono para usuarios individuales de Office 36
 Con la lista desplegable situada en la parte superior de la página, busque un país o región y los servicios que hay disponibles en cada uno.
 
 ### <a name="calling-plans"></a>Planes de llamadas
-Al igual que sucede con Sistema telefónico, con Planes de llamada los usuarios pueden hacer y recibir llamadas telefónicas. En primer lugar necesita un número de teléfono (no un número de servicio) de usuario (suscriptor) que pueda asignar al usuario y, a continuación, asignar un Plan de llamadas. Hay disponibles dos tipos de planes de llamada: **Nacionales** y **Nacionales e internacionales**. Consulte [¿Qué son los Planes de llamada?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md) para obtener más detalles.
+Al igual que sucede con Sistema telefónico, con Planes de llamada los usuarios pueden hacer y recibir llamadas telefónicas. En primer lugar necesita un número de teléfono (no un número de servicio) de usuario (suscriptor) que pueda asignar al usuario y, a continuación, asignar un Plan de llamadas. Hay disponibles dos tipos de planes de llamada: **nacionales** y **nacionales e internacionales**. Consulte [¿Qué son los Planes de llamada?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md) para obtener más detalles.
 
 También puede ver [Licencias de Sistema telefónico y Planes de llamada](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) para obtener información sobre las licencias.
 
