@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: anach
 description: "Aprenda a usar la búsqueda de contenido en Microsoft Teams y cómo buscar chats de canal desde Exchange, archivar cargas o modificaciones de archivos desde SharePoint y también OneNote."
-ms.openlocfilehash: 91f8e0f94b8665e58b25ee0aa5f6a1f8cded39e0
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 3e3e74ee4f7285df38ac9d650c7fb2156bdd9225
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/15/2018
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Usar la búsqueda de contenido en Microsoft Teams
 =====================================
@@ -26,4 +29,4 @@ También puede agregar criterios de consultas a la **búsqueda de contenido** pa
 
 ![Captura de pantalla del cuadro de diálogo Query (Consulta) con una búsqueda de palabra clave en curso.](media/Use_Content_Search_in_Microsoft_Teams_image2.png)
 
-Después de agregar las condiciones de búsqueda, si es que optó por hacerlo, puede exportar un informe o los datos en su PC para analizarlos. Para más información sobre cómo usar la búsqueda de contenido, eche un vistazo a este [vínculo](https://support.office.com/en-us/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a?ui=en-US&rs=en-US&ad=US&fromAR=1).
+Después de agregar las condiciones de búsqueda, si es que optó por hacerlo, puede exportar un informe o los datos en su PC para analizarlos. Para más información sobre cómo usar la búsqueda de contenido, eche un vistazo a este [vínculo](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a?ui=en-US&rs=en-US&ad=US&fromAR=1).

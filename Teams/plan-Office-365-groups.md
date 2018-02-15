@@ -8,11 +8,13 @@ ms.topic: article
 ms.service: msteams
 description: "Conozca las decisiones que debería tomar al planificar grupos de Office 365, como elegir grupos privados y públicos, usar el cliente de Teams o la consola web de administración de Office 365 y cómo enseñar a usar las conversaciones a sus equipos."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 330cb6e8eb572fc2fb4141a2cea8a0ad6055d309
-ms.sourcegitcommit: 9861cc3eca070ef1c6b7375896ae1978a438c772
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 2b421d2a87a6c70f1d663366b65a47d35260b484
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/15/2018
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Planificar grupos de Office 365 al crear equipos en Microsoft Teams
 ==========================================================
@@ -37,8 +39,8 @@ Para obtener más información, lea [Directiva de nomenclatura de grupos de Offi
 
 En los siguientes artículos se puede encontrar contenido sobre preparación y adopción para los grupos de Office 365:
 
--   [Obtener más con grupos en Outlook](https://support.office.com/en-us/article/Get-more-with-Office-365-Groups-in-Outlook-93132800-5b11-49de-8cc2-605b6075b2b9)
+-   [Obtener más con grupos en Outlook](https://support.office.com/article/Get-more-with-Office-365-Groups-in-Outlook-93132800-5b11-49de-8cc2-605b6075b2b9)
 
 <!-- -->
 
--   [Administrar la pertenencia a grupos en el centro de administración de Office 365](https://support.office.com/en-us/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
+-   [Administrar la pertenencia a grupos en el centro de administración de Office 365](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)

@@ -6,20 +6,23 @@ manager: lolaj
 ms.date: 01/24/2018
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ninadara, lolaj, rowille
 description: "Herramientas de planificación, talleres y kits de introducción para ayudar a los administradores en sus primeros pasos con Microsoft Teams."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e14c16ddd71114e90af15174266f14bbbbc5982e
-ms.sourcegitcommit: 6f5fc17ffdc1ef3b3eec42e17f7bebda88cb000b
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: cf4b7dad507ee10743df986ca6c489af2bf165b3
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/15/2018
 ---
 <a name="tools-and-workshops-plan-deliver-and-operate-microsoft-teams"></a>Herramientas y talleres: planificar, entregar y usar Microsoft Teams
 =============================================================
 
 Descargue estas herramientas que le ayudarán en la planificación, la entrega y el uso de Microsoft Teams en su organización.
 
-- [Kit de introducción de Microsoft Teams](http://microsoft.com/en-us/download/56505) 
+- [Kit de introducción de Microsoft Teams](http://microsoft.com/download/56505) 
     
     En esta guía encontrará consejos para sacar el máximo partido a Microsoft Teams en relación con diferentes aspectos de su organización, como marketing, ventas, finanzas, recursos humanos, tecnologías de la información, ingeniería y gestión de proyectos.
 
