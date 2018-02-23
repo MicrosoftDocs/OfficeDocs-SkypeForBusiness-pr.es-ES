@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ritikag
 description: Aprenda a habilitar o deshabilitar el acceso a nivel de usuario por cada usuario.
-ms.openlocfilehash: 66ec29077b83b799c85acce1b5869b82fb0b83f7
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 318d9467bf1565a50987b6716f2b0a1ad86999bf
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gestionar acceso de los usuarios a Microsoft Teams
 =====================================
@@ -37,25 +40,33 @@ Una licencia de usuario de Microsoft Teams puede deshabilitarse en cualquier mom
 
 Además de usar el centro de administración de Office 365, los administradores de Office 365 también pueden usar Office 365 PowerShell para asignar y quitar licencias. Para asignar una licencia a un usuario, utilice la siguiente sintaxis:
 
+```
 Set-MsolUserLicense -UserPrincipalName "\<Account\>" -AddLicenses "\<AccountSkuId\>"
+```
 
 En el siguiente ejemplo se asigna una licencia del plan de licencias litwareinc:ENTERPRISEPACK (Office 365 Enterprise E3) al usuario belindan@litwareinc.com sin licencia.
 
+```
 Set-MsolUserLicense -UserPrincipalName "belindan@litwareinc.com" -AddLicenses "litwareinc:ENTERPRISEPACK"
+```
 
-Para obtener más detalles y ejemplos, consulte [*Asignar licencias a cuentas de usuario con PowerShell de Office 365*](https://go.microsoft.com/fwlink/?linkid=855755)
+Para obtener más detalles y ejemplos, consulte [Asignar licencias a cuentas de usuario con PowerShell de Office 365](https://go.microsoft.com/fwlink/?linkid=855755).
 
 Para quitar licencias de una cuenta de usuario existente, utilice la siguiente sintaxis:
 
+```
 Set-MsolUserLicense -UserPrincipalName \<Account\> -RemoveLicenses "\<AccountSkuId1\>", "\<AccountSkuId2\>"
+```
 
 En el siguiente ejemplo se elimina la licencia litwareinc:ENTERPRISEPACK de la cuenta de usuario BelindaN@litwareinc.com.
 
+```
 Set-MsolUserLicense -UserPrincipalName belindan@litwareinc.com -RemoveLicenses "litwareinc:ENTERPRISEPACK"
+```
 
-Para obtener más detalles y ejemplos, consulte [*Eliminar licencias de cuentas de usuario con PowerShell de Office 365*](https://go.microsoft.com/fwlink/?linkid=855756).
+Para obtener más detalles y ejemplos, consulte [Eliminar licencias de cuentas de usuario con PowerShell de Office 365](https://go.microsoft.com/fwlink/?linkid=855756).
 
 | | | |
 |---------|---------|---------|
 |![Icono de Punto de decisión.](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Punto de decisión         |<ul><li>¿Cuál es el plan de su organización para comenzar a usar Microsoft Teams en toda la organización? (Piloto o Abierto)</li></ul>         |
-|![Icono de Siguientes pasos.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Siguientes pasos         |<ul><li>Si realiza la adopción a través de Piloto, decida si desea hacerlo a través de licencias o comunicación dirigida.</li><li>Según cuál sea su decisión, realice los pasos para asegurarse de que solo los usuarios piloto puedan acceder a Microsoft Teams (si es necesario).</li><li>Documente qué usuarios tendrán (o no tendrán) acceso a Microsoft Teams a continuación.</li></ul>         |
+|![Icono de Siguientes pasos.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Siguientes pasos         |<ul><li>Si realiza la adopción a través de Piloto, decida si desea hacerlo a través de licencias o comunicación dirigida.</li><li>Según cuál sea su decisión, realice los pasos para asegurarse de que solo los usuarios piloto puedan acceder a Microsoft Teams (si es necesario).</li><li>Documente qué usuarios tendrán (o no tendrán) acceso a Microsoft Teams.</li></ul>         |

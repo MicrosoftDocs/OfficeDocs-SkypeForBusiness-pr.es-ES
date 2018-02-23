@@ -3,27 +3,35 @@ title: "Habilitar características de Microsoft Teams en su organización de Off
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 09/25/2017
+ms.date: 01/29/2018
 ms.topic: article
 ms.service: msteams
-description: "Conozca todas las características de Microsoft Teams que puede habilitar en su organización de Office 365, incluidos la configuración en todo el inquilino, la integración del correo electrónico, las aplicaciones, el almacenamiento en nube y mucho más."
+ms.reviewer: ritikag
+description: "Conozca todas las características de Microsoft Teams que puede activar o desactivar en su organización de Office 365, incluidos la configuración en todo el inquilino, la integración del correo electrónico, las aplicaciones, el almacenamiento en nube y mucho más."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d6a4a8d10e20b57df16fac3c7ffeba0bacd64d2e
-ms.sourcegitcommit: 19d7af5d60276c0a1ca3e01588b91c34a3fd0f92
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 8d91d166651cce5adf0ff07a19b29b90047e98e0
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="turn-on-microsoft-teams-features-in-your-office-365-organization"></a>Habilitar características de Microsoft Teams en su organización de Office 365
 ======================================================
 
 Microsoft Teams tiene varios parámetros de configuración que se pueden habilitar o deshabilitar a nivel de inquilino de Office 365. Si Microsoft Teams está habilitado para un inquilino, cualquier usuario que esté también habilitado para Teams heredará del nivel de inquilino.
 
-A continuación puede ver una lista de características que un administrador de Office 365 puede elegir para habilitar o deshabilitar en Teams.
+A continuación puede ver una lista de las características que los administradores de Office 365 pueden activar o desactivar en Microsoft Teams. 
 
 A menos que se indique lo contrario, el valor predeterminado para una opción es Activado.
 
-> [!NOTE]
+> [!NOTE] 
+> Para ajustar la configuración de la administración en Microsoft Teams, vaya al Centro de administración de Office 365, abra **Configuración** > **Servicios y complementos**, y seleccione **Microsoft Teams**. Si ha iniciado sesión como administrador de Office 365, puede acceder con este vínculo: 
+>  
+> https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns  
+
+> [!IMPORTANT]
 > Un administrador de Office 365 puede desactivar Microsoft Teams en cualquier momento mediante el Centro de administración de Office 365. Tenga en cuenta que los usuarios con licencias activas de Microsoft Teams seguirán viendo el icono de la aplicación Microsoft Teams, aunque lo desactive. Para ver información detallada sobre cómo quitar licencias de los usuarios, consulte [Administrar el acceso de los usuarios a las licencias de Microsoft Teams](user-access.md). En cuanto Microsoft Teams se deshabilita, el acceso desde su cliente se bloquea, pero los datos que estén disponibles a través de otros clientes y servicios, como los archivos a través de SharePoint o OneDrive, seguirán estando disponibles. Todos los datos continuarán en su lugar, a menos que los equipos se eliminen explícitamente.
 
 <a name="office-365-tenant-wide-settings"></a>Configuración a nivel de inquilino de Office 365 
@@ -39,51 +47,61 @@ La sección General le permite establecer la siguiente configuración para su or
 
 > ![Captura de pantalla de la sección General en la configuración para todos los inquilinos.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image1.png)
 
--   **Mostrar el organigrama en el perfil personal:** Cuando esta configuración esté habilitada, se mostrará el organigrama en la tarjeta de contacto del usuario. Cuando se haga clic en ella, mostrará el organigrama detallado.
+-   **Mostrar el organigrama en el perfil personal:** si esta opción está activada, se muestra el icono del organigrama en la tarjeta de contacto del usuario. Al hacer clic en él, se muestra el organigrama detallado.
 
     ![Captura de pantalla del icono de organigrama en la tarjeta de contacto de un usuario.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image2.png)
 
     ![Captura de pantalla de un organigrama.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image3.png)
 
--   **Usar Skype Empresarial para los destinatarios que no tengan Microsoft Teams:** cuando esta configuración esté habilitada, se permitirá a los usuarios de Microsoft Teams ponerse en contacto con otros usuarios en la organización que no estén habilitados para Microsoft Teams mediante Skype Empresarial.
+-  **Usar Skype Empresarial para los destinatarios que no tienen Microsoft Teams:** si esta opción está activada, las conversaciones de Microsoft Teams se muestran automáticamente en Skype Empresarial a los usuarios que no pueden utilizar Microsoft Teams.  
 
--   **Permitir mensajes de ayuda proactivos de T-bot:** cuando esta configuración esté habilitada, T-bot iniciará una sesión de chat privado con los usuarios para guiarlos en el uso de Microsoft Teams.
+-   **Permitir mensajes de ayuda proactivos de T-bot:** si esta opción está activada, T-bot inicia una sesión de chat privado con los usuarios para ayudarlos a utilizar Microsoft Teams.
 
     ![Captura de pantalla de la sección T-Bot en la interfaz de Microsoft Teams.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image4.png)
 
 <a name="email-integration"></a>Integración del correo electrónico
 -----------------
 
-Active esta característica para que los usuarios puedan enviar un correo electrónico a un canal en Microsoft Teams mediante la dirección de correo electrónico del canal. Los usuarios pueden hacer esto para cualquier canal que pertenezca a un equipo que sea de su posesión. Los usuarios también pueden enviar correos electrónicos a cualquier canal de un equipo que tenga conectores habilitados para los miembros del equipo. Aunque un usuario no tenga permiso para crear una dirección de correo electrónico del canal, si alguien que sí tiene permiso crea esa dirección, podrá acceder a ella desde el menú \<icono de más\> de ese canal.
+Active esta característica para que los usuarios puedan enviar un correo electrónico a un canal en Microsoft Teams mediante la dirección de correo electrónico del canal. Los usuarios pueden hacer esto para cualquier canal que pertenezca a un equipo que sea de su posesión. Los usuarios también pueden enviar correos electrónicos a cualquier canal de un equipo que tenga conectores habilitados para los miembros del equipo. Aunque un usuario no tenga permiso para crear una dirección de correo electrónico en un canal, si alguien que sí tiene permiso crea esa dirección, el usuario sin permiso de creación podrá acceder a ella desde el menú **Más opciones** de ese canal.
 
-La integración del correo electrónico le permite establecer la siguiente configuración para su organización.
+Establezca la siguiente configuración de **Integración de correo electrónico** para su organización: 
 
    ![Captura de pantalla de la sección de integración del correo electrónico en la configuración para todos los inquilinos.](media/QS-edu-email-integration.png)
 
--   **Permitir que los usuarios puedan enviar correo electrónico a los canales:** cuando está habilitado, los enlaces de correo electrónico se habilitarán también y los usuarios podrán publicar mensajes en un canal enviando un correo electrónico a la dirección de correo electrónico del canal de Microsoft Teams.
+-   **Permitir que los usuarios puedan enviar correo electrónico a los canales:** si esta opción está activada, se habilitan los enlaces de correo electrónico y los usuarios pueden publicar mensajes en un canal enviando un correo electrónico a la dirección de correo electrónico del canal de Microsoft Teams. 
 
-> Para buscar la dirección de correo electrónico de un canal, haga clic en **Más opciones** junto al nombre del canal y después seleccione **Obtener dirección de correo electrónico**.
+ 
+-   **Permitir que los usuarios puedan enviar correo electrónico a los canales:** si está habilitada esta opción, los enlaces de correo electrónico se habilitan también y los usuarios pueden publicar mensajes en un canal enviando un correo electrónico a la dirección de correo electrónico del canal de Microsoft Teams. 
+
+    Para buscar la dirección de correo electrónico de un canal, haga clic en el menú **Más opciones** del canal y después seleccione **Obtener dirección de correo electrónico**. 
 
 -   **Lista de remitentes restringidos:** los dominios de los remitentes se pueden restringir aún más para garantizar que solo los dominios SMTP permitidos puedan enviar correos electrónicos a los canales de Microsoft Teams.
 
 <a name="apps"></a>Aplicaciones
 ----
 
-Las aplicaciones en Microsoft Teams son una forma genial de integrar las herramientas y los servicios que son importantes para su equipo directamente en un canal o chat.
+Las aplicaciones son fichas, conectores, bots o cualquier combinación de estos tres elementos que proporciona un servicio de terceros. Hay directivas de administración de Microsoft Teams que se pueden configurar en el Centro de administración de Office 365 para controlar qué aplicaciones externas de terceros están permitidas. Estas directivas permiten especificar qué aplicaciones están permitidas y cuáles no, el comportamiento de las aplicaciones nuevas externas y si se permite la instalación de prueba de aplicaciones. 
 
-La sección **Aplicaciones** le permite establecer la siguiente configuración para su organización:
+La sección **Aplicaciones** le permite establecer la siguiente configuración para su organización: 
 
 ![Captura de pantalla de la sección Aplicaciones.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.png)
 
--   **Permitir aplicaciones externas en Microsoft Teams:** Cuando esté habilitado, los usuarios podrán agregar fichas y bots que estén disponibles al inquilino de Office 365.
-![Captura de pantalla del control para permitir aplicaciones externas en la sección Aplicaciones.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.2.png)
+- **Permitir aplicaciones externas en Microsoft Teams:** si este conmutador está activado, los usuarios pueden agregar las fichas y los bots que estén disponibles al inquilino de Office 365. 
+ 
+    ![Captura de pantalla del control para permitir aplicaciones externas en la sección Aplicaciones.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.2.png)
 
--   **Permitir la instalación de prueba de aplicaciones externas:** cuando esté habilitado, los usuarios podrán instalar y habilitar bots y fichas personalizados.
+- **Habilitar nuevas aplicaciones externas de manera predeterminada**: si este conmutador está activado, los usuarios pueden activar nuevas aplicaciones en cuanto estas se agregan al catálogo de aplicaciones de Microsoft Teams. Desactive este conmutador si quiere controlar las aplicaciones nuevas. Si lo desactiva, deberá recordar revisar periódicamente las nuevas incorporaciones para que su organización no se pierda las nuevas aplicaciones de interés. 
+
+- **Permitir la instalación de prueba de aplicaciones externas:** si este conmutador está activado, los usuarios pueden instalar y habilitar bots y fichas personalizados. 
+
+Para obtener más información, consulte [Configurar la administración para aplicaciones en Microsoft Teams](admin-settings.md). 
+
+
 
 <a name="custom-cloud-storage"></a>Almacenamiento en nube personalizado
 --------------------
 
-Las opciones de almacenamiento en nube en Microsoft Teams actualmente incluyen Box, Dropbox, Google Drive y ShareFile. Los usuarios pueden cargar y compartir archivos de los servicios de almacenamiento en nube en los canales y chats de Microsoft Teams. Pulse o haga clic en el botón de alternancia que hay al lado de los proveedores de almacenamiento en nube que quiera usar su organización.
+Las opciones de almacenamiento en nube en Microsoft Teams actualmente incluyen Box, Dropbox, Google Drive y ShareFile. Los usuarios pueden cargar y compartir archivos de los servicios de almacenamiento en nube en los canales y chats de Microsoft Teams. Active el conmutador de los proveedores de almacenamiento en nube que quiera usar su organización. 
 
 ![Captura de pantalla de la sección de almacenamiento en nube personalizado.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
 
@@ -97,7 +115,9 @@ En **Configuración de usuario por licencia**, puede activar o desactivar las op
 
 El equipo está diseñado para reunir un grupo de personas que trabajan juntos para conseguir completar sus funciones. Los equipos pueden ser dinámicos para el trabajo basado en proyectos (por ejemplo, iniciar un producto o crear un centro de operaciones digital). Los equipos también pueden ser continuos para reflejar la estructura interna de la organización.
 
-Como administrador, puede administrar propietarios y miembros de equipos mediante el panel Grupos del portal del Centro de administración de Office 365. En la sección Equipos y canales, haga clic en el vínculo de **Usar el panel Grupos del centro de administración para administrar equipos**.
+Actualmente, el número máximo de equipos que puede tener un inquilino de Office 365 es 500.000. Un administrador global puede crear un número ilimitado de equipos. Un usuario puede crear 250 equipos. Un propietario de equipo puede agregar 2500 miembros a un equipo.
+
+Como administrador, puede administrar los propietarios y los miembros de equipos mediante el panel Grupos del Centro de administración de Office 365. Para obtener más información, haga clic en **Usar el panel Grupos del Centro de administración de Office 365 para administrar equipos** en **Equipos y canales**.
 
 Puede controlar qué usuarios de la organización pueden crear equipos en Microsoft Teams. La misma configuración de creación definida por los grupos de Office 365 se aplica a Microsoft Teams. Si desea más información sobre la administración de los grupos de Office 365, consulte [Crear grupos de Office 365](https://support.office.com/en-us/article/Create-Office-365-groups-74a1ef8b-3844-4d08-9980-9f8f7a36000f) y [Controlar quién puede crear grupos de Office 365](https://support.office.com/en-us/article/Control-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
@@ -106,59 +126,55 @@ Puede controlar qué usuarios de la organización pueden crear equipos en Micros
 
 De manera predeterminada, todos los usuarios pueden crear un equipo o un grupo. Los usuarios pueden crear equipos seleccionando **Equipos** en el lado izquierdo del cliente de Microsoft Teams (cliente de escritorio o aplicación web) y, a continuación, eligiendo **Crear equipo y unirse a él** en la parte inferior del cliente, debajo de la lista de equipos.
 
-Actualmente, el número máximo predeterminado de equipos que puede tener un inquilino de Office 365 es 500.000. Un administrador global puede crear un número ilimitado de equipos. Un usuario puede crear 250 equipos. Un propietario de equipo puede agregar 2500 miembros a un equipo.
-
 ![Captura de pantalla de la sección de configuración de usuario por licencia.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image8.png)
 
 Los canales son subcategorías de los equipos. Cualquier persona del equipo puede agregar un canal y participar en la conversación en un canal. Los canales se pueden crear para una actividad o para un departamento. Las conversaciones, los archivos y las páginas wiki son específicas de cada canal, pero todos los miembros del equipo podrán verlos.
 
-### <a name="calls-and-meetings"></a>Llamadas y reuniones
+## <a name="calls-and-meetings"></a>Llamadas y reuniones
 
-La sección **Llamadas y reuniones** le permite establecer la siguiente configuración para su organización:
+Establezca la siguiente configuración de **Llamadas y reuniones** para su organización:
 
-> ![Captura de pantalla de la sección de llamadas y reuniones.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
-
--   **Permitir la programación de reuniones privadas:** Cuando está habilitado, los usuarios pueden programar reuniones privadas que no se indican en ningún canal.
-
--   **Permitir reuniones ad-hoc del canal:**
-
--   **Permitir la programación de reuniones de canal:** Cuando está habilitado, los usuarios pueden programar una reunión de un canal a la que pueden unirse fácilmente todos los miembros del canal con un solo clic.
-
--   **Permitir vídeos en reuniones:** Especifica si se permite el uso de vídeo en las reuniones.
-
--   **Permitir pantalla compartida en reuniones:** Especifica si se permite compartir la pantalla en las reuniones.
-
--   **Permitir llamada privada:** Cuando está habilitado, los usuarios pueden realizar llamadas privadas.
+![Captura de pantalla de la sección de llamadas y reuniones.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
 
 El número máximo de personas que pueden participar en una reunión es 80. Puede haber hasta 20 miembros en un chat privado, incluido el usuario que lo creó.
 
-### <a name="messaging"></a>Mensajes 
+-   **Permitir la programación de reuniones privadas:** si esta opción está activada, los usuarios pueden programar reuniones privadas que no se indiquen en ningún canal.
+
+-   **Permitir reuniones ad-hoc del canal**
+
+-   **Permitir la programación de reuniones de canal:** si está habilitada esta opción, los usuarios pueden programar una reunión de un canal a la que pueden unirse fácilmente todos los miembros del canal con un solo clic.
+
+-   **Permitir vídeos en reuniones:** especifica si se permite el uso de vídeo en las reuniones.
+
+-   **Permitir pantalla compartida en reuniones:** especifica si se permite compartir la pantalla en las reuniones.
+
+-   **Permitir llamada privada:** si esta opción está activada, los usuarios pueden realizar llamadas privadas.
+
+## <a name="messaging"></a>Mensajes 
 
 La sección Mensajes le permite establecer la siguiente configuración para su organización.
 
 ![Captura de pantalla de la sección de mensajes.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image10.png)
 
--   **Habilitar Giphy para que los usuarios puedan agregar imágenes gif en las conversaciones:** Cuando está habilitado, los usuarios pueden usar imágenes animadas en las conversaciones.
+-   **Habilitar Giphy para que los usuarios puedan agregar imágenes gif en las conversaciones:** si esta opción está activada, los usuarios pueden usar imágenes animadas en las conversaciones.
 
-    -   **Clasificación de contenido:** Cuando las imágenes animadas están activadas, la clasificación de contenido se puede aplicar para restringir el tipo de imágenes animadas que se pueden mostrar en las conversaciones Las opciones de clasificación de contenido disponibles son:
+-   **Clasificación de contenido**: si las imágenes animadas están activadas, la clasificación de contenido se puede aplicar para restringir el tipo de imágenes animadas que se pueden mostrar en las conversaciones Las opciones de clasificación de contenido disponibles son:
 
-        -   Sin restricciones
+    -   Sin restricciones
+    -   Moderado (valor predeterminado)
+    -   Estricto
 
-        -   Moderado (valor predeterminado)
+-   **Habilitar memes para que los usuarios puedan editarlos y agregarlos a las conversaciones:** si esta opción está activada, los usuarios pueden usar memes de Internet para publicar entradas humorísticas.
 
-        -   Estricto
+-   **Habilitar adhesivos para que los usuarios puedan editarlos y agregarlos a las conversaciones:** si esta opción está activada, los usuarios pueden publicar imágenes con texto editable para llamar la atención de los miembros del canal.
 
--   **Habilitar memes para que los usuarios puedan editarlos y agregarlos a las conversaciones:** Cuando está habilitado, los usuarios pueden usar memes de Internet para publicar entradas humorísticas.
+-   **Permitir que los propietarios eliminen todos los mensajes:** si esta opción está activada, los propietarios del canal pueden quitar todos los mensajes de un canal.
 
--   **Habilitar adhesivos para que los usuarios puedan editarlos y agregarlos a las conversaciones:** Cuando está habilitado, los usuarios pueden publicar imágenes con texto editable para llamar la atención de los miembros del canal.
+-   **Permitir que los usuarios editen sus propios mensajes:** si esta opción está activada, los usuarios pueden editar sus propios mensajes.
 
--   **Permitir que los propietarios eliminen todos los mensajes:** Cuando está habilitado, los propietarios del canal pueden quitar todos los mensajes de un canal.
+-   **Permitir que los usuarios eliminen sus propios mensajes:** si esta opción está activada, los usuarios pueden eliminar sus propios mensajes.
 
--   **Permitir que los usuarios editen sus propios mensajes:** Cuando está habilitado, los usuarios pueden editar sus propios mensajes.
-
--   **Permitir que los usuarios eliminen sus propios mensajes:** Cuando está habilitado, los usuarios pueden eliminar sus propios mensajes.
-
--   **Permitir que los usuarios chateen en privado:** Cuando está habilitado, los usuarios pueden participar en chats privados que solo son visibles a los participantes del chat, en vez de todos los miembros del equipo.
+-   **Permitir que los usuarios chateen en privado:** si esta opción está activada, los usuarios pueden participar en chats privados que solo son visibles para los participantes del chat, en vez de para todos los miembros del equipo.
 
 
 | |  |  |

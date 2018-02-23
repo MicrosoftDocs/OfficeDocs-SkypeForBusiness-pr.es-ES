@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: anach
 description: "Descripción general de las características de seguridad y cumplimiento de Microsoft Teams, que incluye auditoría y generación informes, búsqueda de contenido de cumplimiento, eDiscovery y mucho más."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: f0b01c70a313e3e9e1cd6240a1eb0b42fa744622
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 1cb2bfe08736f355f01d55d05be7c7091b79f396
+ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/11/2018
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================
@@ -21,7 +24,7 @@ Microsoft Teams está incorporado en la nube empresarial a gran escala de Office
 
 En el momento de su lanzamiento, Microsoft Teams cumple con el Nivel C. Esto incluye las siguientes normas: ISO 27001, ISO 27018, SSAE16 SOC 1 y SOC 2, HIPAA y las cláusulas modelo de la UE (EUMC). Dentro del marco de cumplimiento de Microsoft, Microsoft clasifica las aplicaciones y servicios de Office 365 en cuatro categorías. Cada categoría está definida por compromisos de cumplimiento específicos que deben darse para que un servicio de Office 365, o un servicio de Microsoft relacionado, se agregue a dicha categoría.
 
-Los servicios en las categorías de cumplimiento C y D que tiene compromisos de cumplimiento están habilitados de manera predeterminada. Los servicios en las categorías A y B incluyen controles para activar o desactivar estos servicios para una organización entera. Los detalles se pueden encontrar en el [Marco de cumplimiento normativo de estándares y regulaciones del sector](https://go.microsoft.com/fwlink/?linkid=855777). Microsoft Teams también cumple con los requisitos de Cloud Security Alliance.
+Los servicios en las categorías de cumplimiento C y D que tienen compromisos de cumplimiento están habilitados de manera predeterminada. Los servicios en las categorías A y B incluyen controles para activar o desactivar estos servicios para una organización entera. Los detalles se pueden encontrar en el [Marco de cumplimiento normativo de estándares y regulaciones del sector](https://go.microsoft.com/fwlink/?linkid=855777). Teams también cumple con los requisitos de Cloud Security Alliance.
 
 Microsoft Teams también emplea la autenticación en dos fases para todos los miembros del equipo y de la organización, el inicio de sesión único a través de Active Directory y el cifrado de datos en tránsito y en reposo. Los archivos se almacenan en SharePoint y utilizan el cifrado de SharePoint. Las notas se almacenan en OneNote y utilizan el cifrado de OneNote.
 
@@ -35,7 +38,7 @@ Estas herramientas se encuentran en el Portal de seguridad y cumplimiento de Off
 
 -   Búsqueda de contenido de cumplimiento
 
-    -   La búsqueda de contenido se puede usar para buscar en Microsoft Teams mediante capacidades avanzadas de filtrado y se puede exportar a un contenedor específico para utilizarlo en relación con el cumplimiento y los litigios. Esto se puede hacer tanto con un caso de eDiscovery como sin él.
+    -   La búsqueda de contenido se puede usar para buscar en Teams mediante capacidades avanzadas de filtrado y se puede exportar a un contenedor específico para utilizarlo en relación con el cumplimiento y los litigios. Esto se puede hacer tanto con un caso de eDiscovery como sin él.
 
 -   eDiscovery
 
@@ -43,7 +46,7 @@ Estas herramientas se encuentran en el Portal de seguridad y cumplimiento de Off
 
     -   Las capacidades incluyen la administración de casos, la conservación, la búsqueda, el análisis y la exportación de datos de Microsoft Teams. Esto incluye los datos de los chats, los mensajes y los archivos.
 
-    -   Los clientes pueden aprovechar eDiscovery local o [eDiscovery avanzado](https://support.office.com/en-us/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4).
+    -   Los clientes pueden aprovechar eDiscovery local o [eDiscovery avanzado](https://support.office.com/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4).
 
     -   La siguiente tabla muestra las diferencias entre estos dos métodos:
 
@@ -62,7 +65,7 @@ Estas herramientas se encuentran en el Portal de seguridad y cumplimiento de Off
 
 -   Suspensión legal
 
-    -   Cuando cualquier equipo de Microsoft Teams se pone en suspensión local o suspensión por juicio, la suspensión se pone en los buzones de los grupos.
+    -   Cuando cualquier equipo de Teams se pone en suspensión local o suspensión por juicio, la suspensión se pone en los buzones de los grupos.
 
     -   Las suspensiones legales suelen aplicarse en el contexto de un caso de eDiscovery.
 
@@ -87,8 +90,8 @@ Además, Microsoft tiene pensada la probabilidad de proporcionar las siguientes 
 
 | | | |
 |---------|---------|---------|
-|![Icono de Punto de decisión.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Punto de decisión         |¿Qué características de seguridad y cumplimiento requiere su organización? ¿Su organización tiene las licencias necesarias para cumplir con los requisitos empresariales de seguridad y cumplimiento?         |
-|![Icono de Siguientes pasos.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Siguientes pasos         |Documente las características requeridas de seguridad y cumplimiento en la tabla siguiente.         |
+|![Icono de Punto de decisión.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Puntos de decisión         |¿Qué características de seguridad y cumplimiento requiere su organización? ¿Su organización tiene las licencias necesarias para cumplir con los requisitos empresariales de seguridad y cumplimiento?         |
+|![Icono de Siguientes pasos.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Pasos siguientes         |Documente las características requeridas de seguridad y cumplimiento en la tabla siguiente.         |
 
 <a name="licensing"></a>Licencias
 ---------------
@@ -109,26 +112,28 @@ En lo que se refiere a las funciones de protección de información, las suscrip
 
 | |  |  |
 |---------|---------|---------|
-|![Icono de Punto de decisión.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Punto de decisión         |¿Su organización tiene las licencias necesarias para cumplir con los requisitos empresariales de seguridad y cumplimiento?         |
-|![Icono de Siguientes pasos.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Siguientes pasos         |Revise las licencias actuales de su organización y confirme si cumplen todos los requisitos empresariales de cumplimiento y seguridad.         |
+|![Icono de Punto de decisión.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Puntos de decisión         |¿Su organización tiene las licencias necesarias para cumplir con los requisitos empresariales de seguridad y cumplimiento?         |
+|![Icono de Siguientes pasos.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Pasos siguientes         |Revise las licencias actuales de su organización y confirme si cumplen todos los requisitos empresariales de cumplimiento y seguridad.         |
 
 Antes de habilitar alguna de estas características, asegúrese de que tiene acceso al Centro de seguridad y cumplimiento en el Centro de administración de Office 365. De manera predeterminada, los administradores de inquilinos tienen acceso.
 
 La búsquedas de contenido y eDiscovery no necesitan estar habilitadas en el Centro de seguridad y cumplimiento.
 
-<a name="location-of-data-in-microsoft-teams"></a>Ubicación de los datos en Microsoft Teams
------------------------------------
+<a name="location-of-data-in-teams"></a>Ubicación de los datos en Teams
+-------------------------
 
-Los datos de Microsoft Teams se encuentran en la región según la afinidad de los inquilinos. Actualmente, Microsoft Teams admite las regiones de América, EMEA y APAC. 
+Los datos de Teams residen en la región geográfica asociada con su inquilino de Office 365. Actualmente, Microsoft Teams admite las regiones de América, EMEA y APAC. 
 
-Desde el 1 de noviembre de 2017, Teams ofrece residencia de datos en Reino Unido solo para los nuevos inquilinos. Un nuevo inquilino se define como cualquier inquilino que no ha tenido ningún usuario desde el inicio de sesión del inquilino en Microsoft Teams.
+> [!IMPORTANT]
+> En este momento, Teams ofrece residencia de datos en Reino Unido e Indica solo para los nuevos inquilinos. Un inquilino nuevo se define como cualquier inquilino que no ha tenido ningún usuario desde el inicio de sesión del inquilino en Teams. Los inquilinos existentes del Reino Unido y la India seguirán en las regiones de EMEA y APAC respectivamente hasta que se publique un plan de migración (que está previsto para 2018).
 
-> [!NOTE]
-> Los inquilinos existentes del Reino Unido seguirán en EMEA hasta que se publique un plan de migración (que está previsto para 2018).
+Si desea conocer más detalles sobre el inicio de la residencia de datos en India y Reino Unido, lea la publicación [Microsoft Teams launches India Data Residency, other geos coming soon](https://go.microsoft.com/fwlink/?linkid=867773) (Microsoft Teams iniciará la residencia de datos de India y otras zonas geográficas muy pronto) en el blog de Ansuman Acharya.
 
-Si desea más información, consulte la [entrada de blog](https://go.microsoft.com/fwlink/p/?linkid=862275) de la comunidad tecnológica de Microsoft Teams.
+Para ver qué región aloja los datos de su inquilino, vaya al [Centro de administración de Office 365](https://portal.office.com/adminportal/home) > **Configuración** > **Perfil de organización**. Desplácese hasta **Data location** (Ubicación de datos). 
 
-<a name="privacy-in-microsoft-teams"></a>Privacidad en Microsoft Teams
+![Captura de pantalla de la tabla de la ubicación de datos, incluido Teams, en el Centro de administración de Office 365.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+
+<a name="privacy-in-teams"></a>Privacidad en Teams
 --------------------------
 
 Como cliente de Office 365, el usuario posee y controla sus propios datos. Microsoft no usa los datos para ninguna otra finalidad que proporcionarle el servicio para el que se ha suscrito. Como proveedores de servicios, no examinamos el correo electrónico, los documentos o los equipos para enviar publicidad o para otras finalidades que no estén relacionadas con el servicio. Microsoft no tiene acceso al contenido cargado. Tal como ocurre en OneDrive para la Empresa y SharePoint Online, los datos de los clientes permanecen en el inquilino.

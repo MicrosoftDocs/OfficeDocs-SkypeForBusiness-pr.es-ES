@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 10/05/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: MyAdvisor, dearbeen
 description: "Una presentación de todo lo que necesita saber sobre el recorrido a Microsoft Teams desde Skype Empresarial Online."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: af0204d5eb1edd7b58aee5c8f913a8b5404b295f
-ms.sourcegitcommit: 02403b6dc6e0a9a0a590fbf41fa8a552d2f29e1f
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: f006e0a26fc2899da0c3cebc7aa100c0a910c739
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 02/03/2018
 ---
 <a name="journey-from-skype-for-business-to-microsoft-teams"></a>Recorrido desde Skype Empresarial a Microsoft Teams
 ==================================================
@@ -21,7 +24,7 @@ Como parte de [la visión de optimización de las comunicaciones ](https://aka.m
 
 Visite el [plan de producto de Microsoft Teams](https://aka.ms/TeamsRoadmap) para estar al día de las próximas novedades de la herramienta y para poder decidir cuál es el mejor momento para que su organización empiece a usar Microsoft Teams.
 
-Otra buena manera de mantenerse al corriente de las noticias acerca del recorrido de Skype Empresarial a Teams es el [Mapa de ruta de las opciones de Skype Empresarial en Microsoft Teams](https://aka.ms/skype2teamsroadmap), un PDF descargable (disponible solo en inglés, por el momento) en el que se recogen las expectativas que tiene Microsoft actualmente en torno a qué opciones de Skype Empresarial estarán disponibles en Teams.
+Otra buena manera de mantenerse al corriente de las noticias acerca del recorrido de Skype Empresarial a Teams es el [De Skype Empresarial a Microsoft Teams: mapa de ruta de las opciones](https://aka.ms/skype2teamsroadmap), un PDF descargable (disponible solo en inglés, por el momento) en el que se recogen las expectativas que tiene Microsoft actualmente en torno a qué opciones de Skype Empresarial estarán disponibles en Teams.
 
 Para que los resultados sean los mejores posibles, le recomendamos que siga las directrices para conseguir:
 

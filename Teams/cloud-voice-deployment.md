@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 12/13/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: MyAdvisor
 description: "Guía práctica para implementar características de voz en la nube en Microsoft Teams."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: b454e9f63856f41e1f4cbf34f889bd1ce357b0b4
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: b3b2203180d2ccf4ffbb7682c63d62cb63bbd726
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="cloud-voice-deployment"></a>Implementar voz en la nube
 ======================

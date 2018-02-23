@@ -6,20 +6,23 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: dansteve
 description: "Sepa lo que debe buscar cuando compruebe si el entorno está preparado para Microsoft Teams."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: fbc76126220857d2864f9159d57fd663ce66fd7b
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 2bd50af24bab2699e6638adeed3b33e602ec5bb6
+ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/11/2018
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>Comprobación de la preparación del entorno para Microsoft Teams
 ===========================================
 
 La transición a la nube será diferente para cada organización y su estado actual podría influir en el futuro funcionamiento de Microsoft Teams.
 
-Para lograr una experiencia óptima con Microsoft Teams, la organización debe implementar antes Exchange Online y SharePoint Online. Si no lo hace, o si tiene una configuración diferente, vea estos vínculos para obtener ayuda:
+Para lograr una experiencia óptima con Microsoft Teams, la organización debe implementar antes Exchange Online y SharePoint Online. Si no lo hace, o si tiene una configuración diferente, vea la información de estos vínculos para obtener ayuda:
 
 -   Si su organización no ha implementado ninguna carga de trabajo de Office 365, vea [Introducción a Office 365 para empresas](https://support.office.com/en-us/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029).
 

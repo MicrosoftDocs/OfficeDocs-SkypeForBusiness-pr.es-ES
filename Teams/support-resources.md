@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: lolaj, ninadara
 description: "Una lista de recursos de soporte técnico para Microsoft Teams que le ayudarán a usarlo de manera más eficiente y efectiva."
-ms.openlocfilehash: 0cd2abaf3baecfd91617314c038fb6d731009b85
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: f0ec54a1cd0613b1759f55739862bc5539596c50
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="support-resources-for-microsoft-teams"></a>Recursos de soporte técnico para Microsoft Teams
 =====================================
@@ -33,6 +36,8 @@ ms.lasthandoff: 12/20/2017
 -   [Microsoft Teams Developer Preview](https://go.microsoft.com/fwlink/?linkid=854397)
 
 -   [Problemas conocidos](https://support.office.com/en-US/article/Known-issues-for-Microsoft-Teams-04b35d1b-bdca-420a-991b-878da5157650)
+
+-   [Notas de la versión del cliente de Microsoft Teams](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
 
 ## <a name="feedback-and-support-options"></a>Comentarios y opciones de soporte técnico
 

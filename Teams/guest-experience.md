@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
+ms.reviewer: laal
 description: "Obtenga más información sobre la funcionalidad de Microsoft Teams que está disponible para los usuarios invitados."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 7ce64b92d5b51c7bfc154b955ed0c9c5ea1bab99
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 507fad5cfd17f0f070822ae41ea1b091cb2d54cd
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 =================================

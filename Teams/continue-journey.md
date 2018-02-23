@@ -8,11 +8,13 @@ ms.topic: article
 ms.service: msteams
 description: "Guía para que continúe el recorrido desde Skype Empresarial a Microsoft Teams."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: c6a5400ba84c01acd9e53b0cbbe526cbdda92f38
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 803795bb5c6cf3617105938ad964ccc9e3d84fdd
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="drive-value-with-microsoft-teams-through-user-adoption"></a>Generar nuevos valores a través de la adopción de usuarios
 ================================================================

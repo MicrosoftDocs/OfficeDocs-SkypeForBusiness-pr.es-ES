@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: dansteve
 description: "Sepa cómo asignar roles y permisos de propietario y miembro de equipo en Microsoft Teams, incluidos permisos para crear equipos."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: ec15844064a88cf1e6aa8af9e510107e342dd369
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: b5fb972106200306f64db27a33f16df98e56b8c0
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>Asignar roles y permisos en Microsoft Teams
 ===============================================
@@ -61,9 +64,11 @@ Si su organización está interesada en hacer esto, puede encontrar instruccione
 
     a.  **Acción:** Ejecute el siguiente script de PowerShell y compruebe que el parámetro UsersPermissiontoCreateGroupsEnabled esté establecido en **True**.
 
+    ```
     Connect-MsolService
 
     Get-MsolCompanyInformation
+    ```
 
     b.  Si no es verdadero, ejecute el cmdlet Set-MsolCompanySettings **para establecerlo en True**.
 Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
@@ -74,6 +79,7 @@ Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
 
     a.  **Acción:** Cree un objeto de configuración de grupos que contenga las opciones de configuración del grupo al que se le asignarán permisos delegados para crear grupos. 
 
+    ```
     Connect-AzureAD
 
     $Template = Get-AzureADDirectorySettingTemplate -Id 62375ab9-6b52-47ed-826b-58e47e0e304b
@@ -85,8 +91,9 @@ Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
     $setting["GroupCreationAllowedGroupId"] = "&lt;ObjectId of Group Allowed to Create Groups>"
 
     New-AzureADDirectorySetting -DirectorySetting $settings
+    ```
 
-    b. Para obtener más información, consulte: [Administrar la creación de grupos de Office 365](https://support.office.com/en-us/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-US&ad=US#step3)
+    b. Para obtener más información, consulte [Administrar la creación de grupos de Office 365](https://support.office.com/en-us/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-US&ad=US#step3).
 
 
 ||||

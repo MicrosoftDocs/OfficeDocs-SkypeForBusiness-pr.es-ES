@@ -8,11 +8,13 @@ ms.topic: article
 ms.service: msteams
 description: "Conozca la interoperabilidad entre Microsoft Teams y Skype Empresarial, y cómo esta afecta a las experiencias de chat y llamadas."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 8eca9f18d02d76fe1ab1b754ecf8a49b6b20aec3
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 08954783a3e0aaf8ae6b54c621ea21c67df6208e
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="microsoft-teams-and-skype-for-business-interoperability"></a>Interoperabilidad entre Microsoft Teams y Skype Empresarial
 =======================================================

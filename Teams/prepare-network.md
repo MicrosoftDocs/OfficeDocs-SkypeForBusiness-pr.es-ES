@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: arachman
 description: "Sepa cómo preparar y administrar la red de Microsoft Teams. La información incluye los requisitos de red, los requisitos de ancho de banda y otras consideraciones."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a89d4f201a0ea8f9392146e23629e6dd671bb7c3
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: db9dc97d117ad1844d56c59191bb92ec496a9a83
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams
 =================================================
@@ -70,7 +73,7 @@ El contenido que encontrará a continuación puede utilizarse como información 
 |---------|---------|---------|---------|
 |**Llamada de audio de par a par**     |0,1 MB         |0,1 MB         |Cliente <> Cliente         |
 |**Videollamada de par a par (pantalla completa)**     |4 MB         |4Mb         |Cliente <> Cliente          |
-|**Compartir escritorio de par a par (resolución de 1920*1080)**     |4 MB         |4 MB         |Cliente <> Cliente          |
+|**Compartir escritorio de par a par (resolución de 1920 x 1080)**     |4 MB         |4 MB         |Cliente <> Cliente          |
 |**Reunión de dos participantes**     |4 MB         |4 MB         |Cliente <> Office 365         |
 |**Reunión de tres participantes**     |8 MB         |6,5 MB         |Cliente <> Office 365           |
 |**Reunión de cuatro participantes**     |5,5 MB         |4 MB         |Cliente <> Office 365           |

@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 12/22/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: MyAdvisor, lolaj
 description: "Guía práctica para planificar, implementar y administrar Sistema telefónico con Planes de llamada en Microsoft Teams mediante el marco Enfoque (planificar), Incorporación (entregar), Nuevos valores (operar)."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 69162c3795bfab8ddc95eba0ce91a790b20f6332
-ms.sourcegitcommit: 495ee65ffc85d223c965c8b31f0350c7e844ab96
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: d7c2843a2ca982ada7d0ae68762556cd439cb244
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/23/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Guía práctica para implementar Audioconferencia en Microsoft Teams.
 ============================================================

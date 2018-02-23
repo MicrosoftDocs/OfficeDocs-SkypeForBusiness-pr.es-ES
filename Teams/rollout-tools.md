@@ -8,11 +8,13 @@ ms.topic: article
 ms.service: msteams
 description: "Busque herramientas que le ayudarán con el lanzamiento de Microsoft Teams, como plantillas de correo electrónico, guías de introducción, el Kit para el éxito del cliente y mucho más."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 217cfa5678ab8ffcb7f1ad31bf357c84825b5226
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 64d9ca6b608124628b7f43c1b0215475b0db797f
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>Herramientas para ayudar con el lanzamiento de Microsoft Teams
 =================================================
