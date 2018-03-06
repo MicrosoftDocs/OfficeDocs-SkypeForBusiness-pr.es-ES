@@ -2,7 +2,7 @@
 title: "Información general de seguridad y cumplimiento en Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -11,11 +11,11 @@ description: "Descripción general de las características de seguridad y cumpli
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1cb2bfe08736f355f01d55d05be7c7091b79f396
-ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
+ms.openlocfilehash: 376196b4f3d8479437eb4b4824c74574ae3012ce
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================

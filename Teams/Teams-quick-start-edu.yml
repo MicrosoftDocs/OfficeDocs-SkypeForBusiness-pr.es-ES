@@ -8,17 +8,20 @@ metadata:
   displayType: one-column
   interactive: azurecli
   ms.author: chucked
-  manager: lolaj
+  manager: serdars
+  ms.reviewer: ninadara
   ms.service: msteams
   ms.topic: tutorial
   ms.collection: Strat_MT_TeamsAdmin
+  ms.custom:
+  - NewAdminCenter_Update
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: c1fda571f68d6a206f12db6b8ed0d5adb975300a
-  ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+  ms.openlocfilehash: 32505bcd2c77edf27b2145f6594c4f1b9456306e
+  ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 02/03/2018
+  ms.lasthandoff: 02/19/2018
 items:
 - durationInMinutes: 2
   content: "\nMicrosoft Teams le permite crear clases colaborativas, interactuar con comunidades profesionales de aprendizaje, y comunicarse con el personal del centro educativo y los alumnos a través de una única experiencia en Office 365 Educación.\n\n\nEsta guía está dirigida a administradores de TI en el sector educativo que todavía no han implementado Microsoft Teams. Le ayudará a comprender lo siguiente: \n- Cómo habilitar Microsoft Teams en su centro educativo.\n- Qué tipo de controles están disponibles para administrar Microsoft Teams en su centro educativo.\n- Cuáles son los servicios de los socios, a través de referencias a documentación externa. \n\nEsta guía está diseñada para que pueda comenzar rápidamente a trabajar y contiene recomendaciones de configuración específicas para Microsoft Teams en centros educativos. No es una solución para todo, pero es un buen punto de partida. Consulte nuestra completa documentación sobre Microsoft Teams, comenzando con [Introducción a Microsoft Teams](Teams-overview.md). \n\nSi ya ha implementado Microsoft Teams (como prueba piloto o como implementación completa) y busca ayuda sobre el uso de Microsoft Teams, consulte [Microsoft Teams para el ámbito educativo](https://support.office.com/article/Microsoft-Teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).\n\n## <a name=\"before-you-begin\"></a>Antes de comenzar\n\n1. [Compruebe la preparación del entorno para Microsoft Teams](environment-readiness.md).\n2. Configure los puertos y protocolos adecuados para Microsoft Teams. Consulte [Intervalos de direcciones IP y URL de Office 365](office-365-urls-ip-address-ranges.md).\n3. [Prepare la red del centro educativo para Microsoft Teams](prepare-network.md).\n4. Microsoft Teams para el ámbito educativo ofrece tres nuevos tipos de equipos (haciendo un total de cuatro). Para comprender las diferencias y los casos de uso de cada uno, consulte [Seleccionar un tipo de equipo para colaborar en Microsoft Teams](https://support.office.com/article/Choose-a-team-type-to-collaborate-in-Microsoft-Teams-0a971053-d640-4555-9fd7-f785c2b99e67).\n\n[comment]: <> (Marcador de posición TODO: añadir sección sobre el trabajo como socio y un enlace al documento de estrategia para socios cuando se haya cargado al centro de descargas.)\n"

@@ -2,18 +2,18 @@
 title: "Crear una estrategia de administración de cambios para Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Aprenda a crear una estrategia de gestión de cambios para Microsoft Teams a través de la identificación de partes interesadas clave, los resultados empresariales, las medidas de éxito y la gestión de su campaña."
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf01ea1466b79021ef741d663cc598a487dfa206
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: af8b09f9799de676e3af389448a9f851ef558a7b
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Crear una estrategia de administración de cambios para Microsoft Teams
 =======================================================

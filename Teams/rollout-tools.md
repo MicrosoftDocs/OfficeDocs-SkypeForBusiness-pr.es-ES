@@ -2,7 +2,7 @@
 title: Herramientas para ayudar con el lanzamiento de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ description: "Busque herramientas que le ayudarán con el lanzamiento de Microso
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64d9ca6b608124628b7f43c1b0215475b0db797f
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 1e3265ef8f23efaf73182b64186045e2354bf8a1
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>Herramientas para ayudar con el lanzamiento de Microsoft Teams
 =================================================

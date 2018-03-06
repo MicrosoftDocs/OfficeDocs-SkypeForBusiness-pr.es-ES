@@ -2,7 +2,7 @@
 title: "Guías de inicio rápido para administradores de Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,13 @@ ms.reviewer: lolaj
 description: "Busque las guías de inicio rápido que necesite para comenzar a usar Microsoft Teams."
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9e7ed491ecb40abe870724abcbc3abd66c46732
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.custom:
+- NewAdminCenter_Update
+ms.openlocfilehash: 3e0cc06fbd0e97446371508270d02d02b1daa727
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="quick-start-guides-for-microsoft-teams-admins"></a>Guías de inicio rápido para administradores de Microsoft Teams
 =====================================

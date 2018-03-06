@@ -2,7 +2,7 @@
 title: "Comprobación de la preparación del entorno para Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -11,22 +11,22 @@ description: "Sepa lo que debe buscar cuando compruebe si el entorno está prepa
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bd50af24bab2699e6638adeed3b33e602ec5bb6
-ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
+ms.openlocfilehash: c94d6729f27a2f172b736805aae98d02f865c9b1
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>Comprobación de la preparación del entorno para Microsoft Teams
 ===========================================
 
-La transición a la nube será diferente para cada organización y su estado actual podría influir en el futuro funcionamiento de Microsoft Teams.
+La transición a la nube será diferente para cada organización y su estado actual podría influir en el futuro funcionamiento de Teams.
 
-Para lograr una experiencia óptima con Microsoft Teams, la organización debe implementar antes Exchange Online y SharePoint Online. Si no lo hace, o si tiene una configuración diferente, vea la información de estos vínculos para obtener ayuda:
+Para lograr una experiencia óptima con Teams, la organización debe implementar antes Exchange Online y SharePoint Online. Si no ha implementado estos servicios, o si tiene una configuración diferente, vea la información de estos vínculos para obtener ayuda:
 
--   Si su organización no ha implementado ninguna carga de trabajo de Office 365, vea [Introducción a Office 365 para empresas](https://support.office.com/en-us/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029).
+-   Si su organización no ha implementado ninguna carga de trabajo de Office 365, vea [Introducción a Office 365 para empresas](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029).
 
--   Si su organización no ha agregado ni configurado un dominio verificado para Office 365, vea el tema sobre la [comprobación del dominio de Office 365](https://support.office.com/en-us/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590).
+-   Si su organización no ha agregado ni configurado un dominio verificado para Office 365, vea el tema sobre la [comprobación del dominio de Office 365](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590).
 
 -   Si su organización no ha sincronizado identidades en Azure Active Directory, vea [Modelos de identidad y autenticación en Microsoft Teams](identify-models-authentication.md).
 

@@ -2,7 +2,7 @@
 title: Optimizar su entorno actual de Skype Empresarial para Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ description: "Guía para que inicie el recorrido desde Skype Empresarial a Micro
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb34e60e913926db1ddd6d71ea8a7d1c0d070cd2
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 0cae04416438d08771324b5227014ab4f3043a71
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="optimize-your-current-skype-for-business-environment-for-microsoft-teams"></a>Optimizar su entorno actual de Skype Empresarial para Microsoft Teams
 ==============================================================

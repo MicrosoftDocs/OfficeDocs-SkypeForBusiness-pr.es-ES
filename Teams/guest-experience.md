@@ -2,7 +2,7 @@
 title: "Cómo es la experiencia de invitado"
 author: LaithAlShamri
 ms.author: laal
-manager: lolaj
+manager: serdars
 ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
@@ -11,11 +11,11 @@ description: "Obtenga más información sobre la funcionalidad de Microsoft Team
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 507fad5cfd17f0f070822ae41ea1b091cb2d54cd
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 500d8b0aa1ed8f006fdbab2d67771c2d65ebaa53
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 =================================

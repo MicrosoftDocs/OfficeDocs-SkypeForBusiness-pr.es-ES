@@ -2,7 +2,7 @@
 title: Asignar roles y permisos en Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -11,11 +11,11 @@ description: "Sepa cómo asignar roles y permisos de propietario y miembro de eq
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5fb972106200306f64db27a33f16df98e56b8c0
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 0919d588cedf654a515f47f16fafb70cdc923f16
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>Asignar roles y permisos en Microsoft Teams
 ===============================================
@@ -44,7 +44,7 @@ En la tabla siguiente se muestra la diferencia entre un propietario y un miembro
 
 
 > [!NOTE]
-> Los propietarios pueden establecer a otros miembros como propietarios en la opción Ver equipos. Un equipo puede tener hasta 100 propietarios. Se recomienda tener al menos unos cuantos propietarios para ayudar a gestionar el equipo. De este modo se evita que algunos grupos se queden huérfanos si el único propietario deja la organización. Si desea más información sobre los grupos huérfanos, consulte [Asignar un nuevo propietario a un grupo huérfano](https://support.office.com/en-us/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).
+> Los propietarios pueden establecer a otros miembros como propietarios en la opción Ver equipos. Un equipo puede tener hasta 100 propietarios. Se recomienda tener al menos unos cuantos propietarios para ayudar a gestionar el equipo. De este modo se evita que algunos grupos se queden huérfanos si el único propietario deja la organización. Si desea más información sobre los grupos huérfanos, consulte [Asignar un nuevo propietario a un grupo huérfano](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).
 
 
 <a name="permissions-to-create-teams"></a>Permisos para crear equipos
@@ -73,7 +73,7 @@ Si su organización está interesada en hacer esto, puede encontrar instruccione
     b.  Si no es verdadero, ejecute el cmdlet Set-MsolCompanySettings **para establecerlo en True**.
 Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
 
-    c. Para obtener más información, consulte: [Administrar la creación de grupos de Office 365](https://support.office.com/en-us/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-001&ad=US#checkclevelsettings).
+    c. Para obtener más información, consulte: [Administrar la creación de grupos de Office 365](https://support.office.com/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-001&ad=US#checkclevelsettings).
 
 3.  Establecer la configuración de grupos de Office 365 para que solo los grupos de seguridad identificados tengan permisos para crear grupos
 
@@ -93,7 +93,7 @@ Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
     New-AzureADDirectorySetting -DirectorySetting $settings
     ```
 
-    b. Para obtener más información, consulte [Administrar la creación de grupos de Office 365](https://support.office.com/en-us/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-US&ad=US#step3).
+    b. Para obtener más información, consulte [Administrar la creación de grupos de Office 365](https://support.office.com/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-US&ad=US#step3).
 
 
 ||||

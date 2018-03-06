@@ -2,7 +2,7 @@
 title: Usar fichas integradas y personalizadas en Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ ms.reviewer: lucarras
 description: "Aprenda a usar fichas integradas y personalizadas para incluir características como conversaciones, archivos, mapas y mucho más."
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e3de0e5967fb99596d29c324187f94fcb0acc07
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: a2fd214e454752e4a759d229c310aabd901c50dd
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Usar fichas integradas y personalizadas en Microsoft Teams
 ==================================================

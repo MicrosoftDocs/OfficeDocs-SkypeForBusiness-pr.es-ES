@@ -2,7 +2,7 @@
 title: "Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams"
 author: arachmanGitHub
 ms.author: MyAdvisor
-manager: lolaj
+manager: serdars
 ms.date: 12/12/2017
 ms.topic: article
 ms.service: msteams
@@ -11,11 +11,11 @@ description: "Guía de inicio rápido para configurar Planes de llamada en Micro
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f9b266a3ce8d5a151ca608453d7f49821069208
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 6a32b615905d39bf8b91688f461f804a28d5a52d
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams
 ==============================================================

@@ -2,18 +2,18 @@
 title: Comprobar el estado del servicio para Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Le recomendamos que compruebe que el servicio de Microsoft Teams se encuentra en buen estado, además de otros componentes de Office 365, como Exchange, SharePoint y OneDrive para la Empresa."
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d345fb1c805c0df684fe75bb1d8a2ef43b90114f
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: b6f3fb65770f86447a1463ec3ac054d22ffcbf6f
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>Comprobar el estado del servicio para Microsoft Teams
 ===========================================

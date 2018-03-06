@@ -2,7 +2,7 @@
 title: Autorizar el acceso de invitado en Microsoft Teams
 author: LaithAlShamri
 ms.author: laal
-manager: lolaj
+manager: serdars
 ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ ms.reviwer: laal
 description: "Administre las funcionalidades y las características de acceso de invitado de Microsoft Teams a través de cuatro niveles de autorización distintos."
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de1ceee3b884b62680353eac11c94198024b927e
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 19d7bd54e63e67dc02a116cbd06cdfec9de4e180
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar el acceso de invitado en Microsoft Teams
 ===========================================

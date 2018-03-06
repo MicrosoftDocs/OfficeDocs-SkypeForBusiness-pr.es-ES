@@ -2,18 +2,20 @@
 title: "Formación de administradores para Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Vídeos de formación donde se presenta Microsoft Teams y se explica a los administradores cómo se planifica, implementa y funciona Microsoft Teams."
+ms.custom:
+- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 550c306e80bcb76dc9c232bb3152b4514c3f7332
-ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
+ms.openlocfilehash: 1f5c37becb8fd82953e07dc948e82a51b7c9cf6e
+ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/23/2018
 ---
 <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 ==================================
@@ -32,7 +34,7 @@ Descubra Microsoft Teams y fomente su uso en su organización. Vuelva a visitar 
 | Información especializada sobre el acceso de invitado <br>Un café en la sesión de Cloud con Laith Al y Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
 | e-Discovery en Microsoft Teams <br> Un café en la sesión de Cloud con Ansuman Acharya y Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
 | Microsoft Teams: introducción detallada para usar, habilitar y administrar la experiencia <br> Sesión de Microsoft Mechanics con Dan Stevenson y Jeremy Chapman |  <iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |
-
+| Administrar la experiencia de aplicaciones en Microsoft Teams <br> Un café en la sesión de Cloud con Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
 
 
 

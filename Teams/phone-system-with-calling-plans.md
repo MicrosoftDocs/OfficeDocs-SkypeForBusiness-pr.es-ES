@@ -2,7 +2,7 @@
 title: "Guía práctica para Sistema telefónico con planes de llamada en Microsoft Teams"
 author: arachmanGitHub
 ms.author: MyAdvisor
-manager: lolaj
+manager: serdars
 ms.date: 12/12/2017
 ms.topic: article
 ms.service: msteams
@@ -11,11 +11,11 @@ description: "Guía práctica para planificar, implementar y administrar Sistema
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e476956c98e074306f971d58ad6dc9aab6aec0b
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: a5ed92ed1fd156279c32c2627b85eca170a457f0
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Guía práctica para Sistema telefónico con planes de llamada en Microsoft Teams
 =========================================================================
@@ -320,7 +320,7 @@ Los números de teléfono se pueden conseguir [directamente a través de Microso
 
 Para obtener números de teléfono de Microsoft directamente, use una de estas opciones:
 
-- [Centro de administración de Skype Empresarial](https://support.office.com/en-us/article/Getting-phone-numbers-for-your-users-aa2ec464-3481-4bbb-8c14-e13e18093df5)
+- [Centro de administración de Skype Empresarial](https://support.office.com/article/Getting-phone-numbers-for-your-users-aa2ec464-3481-4bbb-8c14-e13e18093df5)
 - [Cmdlets a través de una sesión remota de Windows PowerShell](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
 - [Enviar un formulario de solicitud de números de teléfono nuevos](https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb).
 

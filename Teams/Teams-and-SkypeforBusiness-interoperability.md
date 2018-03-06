@@ -2,7 +2,7 @@
 title: Interoperabilidad entre Microsoft Teams y Skype Empresarial
 author: arachmanGitHub
 ms.author: MyAdvisor
-manager: lolaj
+manager: serdars
 ms.date: 12/12/2017
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ description: "Conozca la interoperabilidad entre Microsoft Teams y Skype Empresa
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08954783a3e0aaf8ae6b54c621ea21c67df6208e
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: ca1391aed7279bfb45adeca159b2a3aed6bcee30
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="microsoft-teams-and-skype-for-business-interoperability"></a>Interoperabilidad entre Microsoft Teams y Skype Empresarial
 =======================================================
@@ -47,13 +47,13 @@ Cuando las organizaciones comienzan la transición de Skype Empresarial a Micros
 Para garantizar una productividad ininterrumpida, Microsoft Teams permite que los usuarios se comuniquen entre sí sin importar qué aplicación utilicen (Microsoft Teams o Skype Empresarial).
 
 Las experiencias de interoperabilidad admitidas son, entre otras:
-- Los usuarios de Skype Empresarial que no usan Microsoft Teams pueden chatear con usuarios de Microsoft Teams y viceversa.<p>
+- Los usuarios de Skype Empresarial que no usan Teams pueden chatear con usuarios de Teams y viceversa.<p>
 ![Experiencia de chat desde Microsoft Teams con interoperabilidad](media/Interop_chat_experience_from_Teams.png)<br>
-- Los usuarios de Skype Empresarial pueden hablar con los usuarios de Microsoft Teams mediante llamadas por voz y vídeo, y viceversa. Las opciones de llamada avanzadas, como la transferencia y el desvío de llamadas seguirán funcionando, incluso en las llamadas con interoperabilidad.<p>
+- Los usuarios de Skype Empresarial pueden hablar con los usuarios de Teams mediante llamadas por voz y vídeo, y viceversa. Las opciones de llamada avanzadas, como la transferencia y el desvío de llamadas seguirán funcionando, incluso en las llamadas con interoperabilidad.<p>
 ![Experiencia de llamadas desde Microsoft Teams con interoperabilidad](media/Interop_calling_experience_from_Teams.png)<br>
 
 > [!NOTE]
-> Desde el punto de vista de un usuario de Skype Empresarial, los chats y las llamadas mediante Microsoft Teams se mostrarán como chats y llamadas básicos de Skype Empresarial. Consulte la sección [Limitaciones de las experiencias de interoperabilidad](#interop-experiences-limitations) para obtener más detalles.
+> Desde el punto de vista de un usuario de Skype Empresarial, los chats y las llamadas que se realizan a Teams o que se reciben desde Teams se mostrarán como chats y llamadas básicos de Skype Empresarial. Consulte la sección [Limitaciones de las experiencias de interoperabilidad](#interop-experiences-limitations) para obtener más detalles.
 
 > [!IMPORTANT]
 > La presencia unificada entre Microsoft Teams y Skype Empresarial no es compatible actualmente, lo que significa que Microsoft Teams y Skype Empresarial mostrarán sus propios estados de presencia independientes. Para descubrir cuándo estará disponible la compatibilidad con la presencia unificada, consulte [De Skype Empresarial a Microsoft Teams: mapa de ruta de las opciones](https://aka.ms/skype2teamsroadmap).

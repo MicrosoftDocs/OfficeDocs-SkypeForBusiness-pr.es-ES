@@ -2,7 +2,7 @@
 title: Acceso de invitado a Microsoft Teams
 author: LaithAlShamri
 ms.author: laal
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -11,11 +11,11 @@ description: "Con el acceso de invitado en Microsoft Teams, los equipos de su or
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e5f062d52bc03c6bcd469e8ce33c8f794c00b6c
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 318acad5b5f86b99640653a425e0a1841316ee3e
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acceso de invitado a Microsoft Teams
 ======================================
@@ -57,7 +57,7 @@ Microsoft Teams se basa en Grupos de Office 365 y proporciona a los grupos de Of
 |  |  |
 |---------|---------|
 | Información especializada sobre el acceso de invitado   | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
-| Habilitar el acceso de invitado en Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/7T54KmlIHQk" frameborder="0" allowfullscreen></iframe>   |
+| Habilitar el acceso de invitado en Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/g21Hcqdl5tI" frameborder="0" allowfullscreen></iframe>   |
  | Agregar invitados en Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
     
 

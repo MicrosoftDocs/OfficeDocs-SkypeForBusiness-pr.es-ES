@@ -2,19 +2,21 @@
 title: Activar o desactivar el acceso de invitado a Microsoft Teams
 author: LaithAlShamri
 ms.author: laal
-manager: lolaj
+manager: serdars
 ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
-ms.reviewer: laal
+ms.reviewer: rramesan
 description: Active o desactive el acceso de invitado en Microsoft Teams.
+ms.custom:
+- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 891cd9749a7782b52b4825311fc720aca54fc4ad
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: a9112494945cf97905853c827fbfdb0688e9c7fc
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Activar o desactivar el acceso de invitado a Microsoft Teams
 ======================================
@@ -63,5 +65,5 @@ La configuración de invitado se establece en Azure Active Directory. Los cambio
 
 |  |  |
 |---------|---------|
-| Habilitar el acceso de invitado en Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/7T54KmlIHQk" frameborder="0" allowfullscreen></iframe>   |
+| Habilitar el acceso de invitado en Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/g21Hcqdl5tI" frameborder="0" allowfullscreen></iframe>   |
  | Agregar invitados en Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 

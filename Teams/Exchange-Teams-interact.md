@@ -2,7 +2,7 @@
 title: "Interacción entre Exchange y Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -11,11 +11,11 @@ description: "Conozca la funcionalidad que hay entre Microsoft Teams y las disti
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63a464234877c8a93ad0c6aeb61d9a4e8ee3068e
-ms.sourcegitcommit: e01d5af6fca7e8339d80f46c1a6c3f7a8d228bff
+ms.openlocfilehash: c7da92ce791349994474c76fe736a06ddcd67999
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams 
 =========================================
@@ -53,6 +53,6 @@ Información adicional:
 
 -   En Microsoft Teams, las características de seguridad y cumplimiento (como la exhibición de documentos electrónicos, la búsqueda de contenido, el archivo y la retención legal) funcionan mejor en los entornos de Exchange Online y SharePoint Online. Para las conversaciones del canal, se crea un diario con los mensajes en el buzón del grupo en Exchange Online, y así están disponibles para la exhibición de documentos electrónicos. Si SharePoint Online y OneDrive para la Empresa (usando una cuenta profesional o educativa) están habilitados en toda la organización y para los usuarios, estas características de cumplimiento están disponibles también para todos los archivos de Teams.
 
-**Importante:**   Los usuarios que participan en conversaciones que forman parte de la lista de chats en Microsoft Teams deben tener un buzón de Exchange Online (basado en nube) para que el administrador pueda buscar conversaciones de chat. El motivo es que las conversaciones que forman parte de la lista de chats se almacenan en los buzones basados en nube de los participantes del chat. Si un participante del chat no tiene un buzón de Exchange Online, el administrador no podrá buscar conversaciones de chat ni ponerlas en retención. Por ejemplo, en una implementación híbrida de Exchange, los usuarios con buzones locales pueden, si lo desean, participar en conversaciones que forman parte de la lista de chats de Microsoft Teams. Sin embargo, en este caso, el contenido de estas conversaciones no se puede buscar y no se puede poner en retención porque los usuarios no tienen buzones basados en nube. Para saber más sobre las búsquedas de contenido y Microsoft Teams, vea [Ejecutar una búsqueda de contenido en el Centro de seguridad y cumplimiento de Office 365](https://support.office.com/en-us/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
+**Importante:**   Los usuarios que participan en conversaciones que forman parte de la lista de chats en Microsoft Teams deben tener un buzón de Exchange Online (basado en nube) para que el administrador pueda buscar conversaciones de chat. El motivo es que las conversaciones que forman parte de la lista de chats se almacenan en los buzones basados en nube de los participantes del chat. Si un participante del chat no tiene un buzón de Exchange Online, el administrador no podrá buscar conversaciones de chat ni ponerlas en retención. Por ejemplo, en una implementación híbrida de Exchange, los usuarios con buzones locales pueden, si lo desean, participar en conversaciones que forman parte de la lista de chats de Microsoft Teams. Sin embargo, en este caso, el contenido de estas conversaciones no se puede buscar y no se puede poner en retención porque los usuarios no tienen buzones basados en nube. Para saber más sobre las búsquedas de contenido y Microsoft Teams, vea [Ejecutar una búsqueda de contenido en el Centro de seguridad y cumplimiento de Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
 
 **Sugerencia:**   Para más información sobre cómo usar Azure AD Connect para la sincronización con Azure Active Directory, vea [*Integración de los directorios locales con Azure Active Directory*](https://go.microsoft.com/fwlink/?linkid=854600).

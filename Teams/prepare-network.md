@@ -2,7 +2,7 @@
 title: "Preparar la red de la organización para Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -11,31 +11,31 @@ description: "Sepa cómo preparar y administrar la red de Microsoft Teams. La in
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db9dc97d117ad1844d56c59191bb92ec496a9a83
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 0528d958f7e7f8f06f4dbfb1e38b297577436c56
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams
 =================================================
 
-Microsoft Teams combina tres formas de tráfico:
+Teams combina tres formas de tráfico:
 
--   Tráfico de datos entre el entorno en línea de Office 365 y el cliente de Microsoft Teams (señalización, presencia, chat, carga y descarga de archivos, sincronización de OneNote).
+-   Tráfico de datos entre el entorno en línea de Office 365 y el cliente de Teams (señalización, presencia, chat, carga y descarga de archivos, sincronización de OneNote).
 
--   Tráfico de comunicaciones de par a par en tiempo real (audio, vídeo y escritorio compartido).
+-   Tráfico de comunicaciones punto a punto en tiempo real (audio, vídeo y escritorio compartido).
 
 -   Tráfico de comunicaciones de conferencias en tiempo real (audio, vídeo y escritorio compartido).
 
-Esto afecta la red de dos maneras: el tráfico fluirá entre los clientes de Microsoft Teams directamente para las comunicaciones de par a par, y entre el entorno de Office 365 y los clientes de Microsoft Teams en las reuniones. Para asegurar un flujo de tráfico óptimo, se debe permitir que el tráfico fluya entre los segmentos de red internos (por ejemplo, entre sitios a través de WAN), así como entre los sitios de red y Office 365. Si no se abren los puertos correctos o se bloquean activamente determinados puertos, se obtendrá una experiencia deficiente.
+Esto afecta la red de dos maneras: el tráfico fluirá entre los clientes de Teams directamente para las comunicaciones punto a punto, y entre el entorno de Office 365 y los clientes de Teams en las reuniones. Para asegurar un flujo de tráfico óptimo, se debe permitir que el tráfico fluya entre los segmentos de red internos (por ejemplo, entre sitios a través de WAN), así como entre los sitios de red y Office 365. Si no se abren los puertos correctos o se bloquean activamente determinados puertos, se obtendrá una experiencia deficiente.
 
 
 
 > [!IMPORTANT]
-> En este momento, las reuniones se pueden realizar con dispositivos móviles Android y iOS, pero no en Windows Phone (la compatibilidad con Windows Phone estará disponible muy pronto).
+> En este momento, las reuniones se pueden realizar con dispositivos móviles Android y iOS, pero no en Windows Phone.
 
-Para obtener una experiencia óptima con los medios en tiempo real dentro de Microsoft Teams, se deben cumplir los requisitos de red para Office 365 (consulte la siguiente fuente para obtener más detalles: [Calidad de los medios y rendimiento de la conectividad de red para Skype Empresarial Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US))
+Para obtener una experiencia óptima con los medios en tiempo real dentro de Teams, se deben cumplir los requisitos de red para Office 365 (consulte la siguiente fuente para obtener más detalles: [Calidad de los medios y rendimiento de la conectividad de red para Skype Empresarial Online](https://support.office.com/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917)). 
 
 Los dos segmentos de red definitivos (cliente a Microsoft Edge y perímetro de cliente a Microsoft Edge) deben cumplir con los siguientes requisitos:
 
@@ -49,7 +49,7 @@ Los dos segmentos de red definitivos (cliente a Microsoft Edge y perímetro de c
 |**Vibración entre llegadas de paquetes**    |< 30 ms durante un intervalo de 15 s         |< 15 ms durante un intervalo de 15 s         |
 |**Reordenamiento de paquetes**    |< 0,05% paquetes sin ordenar         |< 0,01% paquetes sin ordenar         |
 
-Para probar los dos segmentos de red, puede utilizarse una herramienta de evaluación de red (fuente: [https://www.microsoft.com/en-us/download/details.aspx?id=53885](https://go.microsoft.com/fwlink/?linkid=855799)). Esta herramienta puede implementarse en el equipo cliente directamente, así como en un equipo de escritorio o portátil que esté conectado al perímetro de red de cliente. La herramienta incluye documentación limitada, pero se puede ver una documentación más profunda sobre el uso de la herramienta aquí: [Evaluación de preparación de la red](https://go.microsoft.com/fwlink/?linkid=855800). Al ejecutar la evaluación de preparación de la red, puede validar la preparación de la red para ejecutar aplicaciones de medios en tiempo real, como Microsoft Teams.
+Para probar los dos segmentos de red, puede descargar la [herramienta de evaluación de red](https://go.microsoft.com/fwlink/?linkid=855799). Esta herramienta puede implementarse en el equipo cliente directamente y en un equipo que esté conectado al perímetro de red de cliente. La documentación que viene con la herramienta es limitada, por lo que no debe perder la documentación más extensa que se incluye con la descarga. Al ejecutar esta evaluación de preparación de la red, puede validar la preparación de la red para ejecutar aplicaciones de medios en tiempo real, como Teams.
 
 
 
@@ -59,14 +59,14 @@ Para probar los dos segmentos de red, puede utilizarse una herramienta de evalua
 <a name="bandwidth-requirements"></a>Requisitos de ancho de banda
 ----------
 
-Los cálculos de ancho de banda para Microsoft Teams son complejos por lo que, para ayudar con esta tarea, se creó una calculadora. Para acceder a ella, vaya a: <http://aka.ms/bwcalc/>.
+Los cálculos de ancho de banda para Teams son complejos por lo que, para ayudar con esta tarea, se creó una calculadora. Para acceder a ella, vaya aquí: <http://aka.ms/bwcalc>.
 
 El contenido que encontrará a continuación puede utilizarse como información complementaria; sin embargo, se recomienda que los clientes usen la [calculadora de ancho de banda](https://aka.ms/bwcalc) para hacer un seguimiento de sus necesidades.
 
 
 
 > [!IMPORTANT]
->Si el ancho de banda requerido no está disponible, los medios apilados dentro de Microsoft Teams degradarán la calidad de la sesión de audio o vídeo para adaptarse al ancho de banda más bajo, lo que afectará la calidad de la llamada o reunión. El cliente de Microsoft Teams intentará priorizar la calidad del audio por sobre la calidad del vídeo. Por lo tanto, es sumamente importante tener disponible la cantidad de ancho de banda esperada.
+>Si el ancho de banda requerido no está disponible, los medios apilados dentro de Teams degradarán la calidad de la sesión de audio o vídeo para adaptarse al ancho de banda más bajo, lo que afectará a la calidad de la llamada o la reunión. El cliente de Teams intentará priorizar la calidad del audio sobre la calidad del vídeo. Por todo ello es sumamente importante tener disponible la cantidad de ancho de banda esperada.
 
 
 |Actividad  |Descargar ancho de banda  |Cargar ancho de banda  |Flujo de tráfico |
@@ -85,7 +85,7 @@ El contenido que encontrará a continuación puede utilizarse como información 
 
 #### <a name="external-name-resolution"></a>**Resolución de nombre externo**
 
-Asegúrese de que todos los equipos cliente que ejecutan el cliente de Microsoft Teams pueden resolver las consultas DNS externas para detectar los servicios brindados por Office 365.
+Asegúrese de que todos los equipos cliente que ejecutan el cliente de Teams pueden resolver las consultas DNS externas para detectar los servicios brindados por Office 365.
 
 #### <a name="nat-pool-size"></a>**Tamaño de grupo de NAT**
 
@@ -100,9 +100,9 @@ Si su entorno tiene un sistema de detección o prevención de intrusiones (IDS/I
 <a name="network-health-determination"></a>Determinación del estado de la red
 -----------------
 
-Al planificar la implementación de Microsoft Teams dentro de la red, debe asegurarse de tener el ancho de banda necesario, acceso a todas las direcciones IP necesarias y los puertos correctos abiertos, así como de cumplir los requisitos de rendimiento para los medios en tiempo real.
+Al planificar la implementación de Teams dentro de la red, debe asegurarse de tener el ancho de banda necesario, acceso a todas las direcciones IP necesarias y los puertos correctos abiertos, así como de cumplir los requisitos de rendimiento para los medios en tiempo real.
 
-Si sabe que no cumplirá con estos criterios, sus usuarios finales no obtendrán una experiencia óptima de Microsoft Teams, debido a que la calidad durante las llamadas y las reuniones será deficiente.
+Si sabe que no cumplirá con estos criterios, sus usuarios finales no obtendrán una experiencia óptima de Teams, debido a que la calidad durante las llamadas y las reuniones será deficiente.
 
 Si llegara a suceder que no cumple con estos criterios, este es el momento de pensar en pausar el proyecto para asegurarse de cumplir los criterios antes de continuar.
 
@@ -110,5 +110,5 @@ Si llegara a suceder que no cumple con estos criterios, este es el momento de pe
 |  |  |  |
 |---------|---------|---------|
 |![Icono de Punto de decisión.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |Punto de decisión         |¿Ha evaluado la capacidad de la red para admitir medios en tiempo real?<br></br>Si su red no ha sido evaluada correctamente, o si sabe que no admitirá los medios en tiempo real, ¿deshabilitaría las funciones de vídeo y pantalla compartida para disminuir el impacto en la red y las experiencias deficientes en Teams?         |
-|![Icono de Siguientes pasos.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Siguientes pasos         |Calidad de red desconocida: Siga la guía de evaluación de preparación de la red en skypeoperationsframework.com para determinar si la red está lista para medios en tiempo real.<br></br>Calidad de red deficiente: Realice los pasos para reparar la red a fin de proporcionar un entorno adecuado para medios en tiempo real de alta calidad.<br></br>Red satisfactoria: Asegúrese de que se pueda acceder correctamente a todos los puertos y las direcciones IP.           |
+|![Icono de Siguientes pasos.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Siguientes pasos         |Calidad de red desconocida: siga la guía de [evaluación de preparación de la red](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness) para determinar si la red está lista para medios en tiempo real.<br></br>Calidad de red deficiente: Realice los pasos para reparar la red a fin de proporcionar un entorno adecuado para medios en tiempo real de alta calidad.<br></br>Red satisfactoria: Asegúrese de que se pueda acceder correctamente a todos los puertos y las direcciones IP.           |
 

@@ -2,7 +2,7 @@
 title: "Información general de los equipos y canales en Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -10,16 +10,16 @@ description: "Obtenga información sobre los diferentes equipos, canales y aplic
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a35e8f7412240fdf3ecc7161a2f79441f9051ec2
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: b9586a321c74cdb3d16bf78cf8b63c67b1e46a05
+ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/23/2018
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Información general de los equipos y canales en Microsoft Teams
 =================================================
 
-Para empezar, veamos cómo Microsoft Teams permite que los equipos individuales puedan organizarse a sí mismos:
+Para empezar, veamos cómo Microsoft Teams permite que los equipos individuales puedan organizarse a sí mismos y puedan colaborar en distintos escenarios empresariales:
 
 -   Los **equipos** son recopilaciones de personas, contenido y herramientas alrededor de varios proyectos y tareas dentro de una organización.
 
@@ -31,13 +31,16 @@ Para empezar, veamos cómo Microsoft Teams permite que los equipos individuales 
 
     -   Los canales de equipo son lugares en los que todos los miembros del equipo pueden tener conversaciones abiertamente. Los chats privados solo son visibles para los participantes del chat.
 
-    -   Los canales se pueden ampliar con aplicaciones que incluyen Fichas, Conectores y Bots.
-
-![Diagrama de una jerarquía de cómo los equipos y canales se organizan en Microsoft Teams.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
-
-Una actividad clave de planificación inicial para animar a los usuarios a utilizar Microsoft Teams, consiste en ayudarles a pensar y comprender el modo en que Microsoft Teams puede mejorar la colaboración en sus actividades diarias.
+    -   Los canales se pueden ampliar con aplicaciones que incluyen fichas, conectores y bots que aumenten su valor para los miembros del equipo.
+    
+Dedique cinco minutos a escuchar los procedimientos que se recomiendan para organizar equipos, canales y fichas en este vídeo:
+|  |  |
+|---------|---------|
+| 5 minutos para configurar equipos, canales y fichas   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   | 
 
 De manera predeterminada, todos los usuarios tienen permisos para crear un equipo en Microsoft Teams (para modificarlo, consulte [Asignar roles y permisos en Microsoft Teams](assign-roles-permissions.md)). Los usuarios de un grupo de Office 365 existente también pueden mejorarlos con las funciones de Microsoft Teams.
+
+Una actividad clave de planificación inicial para animar a los usuarios a utilizar Microsoft Teams, consiste en ayudarles a pensar y comprender el modo en que Microsoft Teams puede mejorar la colaboración en sus actividades diarias. Hable con las personas y ayúdeles a seleccionar situaciones empresariales en las que estén colaborando en este momento de forma segmentada.  Diríjales a un canal con las fichas relevantes que les ayuden a realizar el trabajo que necesitan. Uno de los casos prácticos más influyente de Teams es cualquier proceso organizativo. 
 
 <a name="sample-team-set-up"></a>Configuración de equipo de muestra
 ------------------
@@ -59,4 +62,8 @@ Microsoft Teams es perfecta para eliminar la idea de los silos de la organizaci�
 |Logística     |Operaciones de almacenes<br></br>Mantenimiento de vehículos<br></br>Listas de conductores         |Servicio meteorológico<br></br>Cortes en carreteras y viajes<br></br>Planner<br></br>Tubot<br></br>UPS Bot         |
 |Recursos humanos     |Administración de talento<br></br>Contratación<br></br>Planificación de revisión del rendimiento<br></br>Moral         |Herramientas de recursos humanos<br></br>Sitios de publicación de trabajos externos<br></br>Growbot         |
 |Organizativo <br></br>Equipo virtual |Estrategia<br></br>Desarrollo de la mano de obra<br></br>Competencia e investigación         |Power BI<br></br>Microsoft Stream         |
+
+Es posible crear que Teams se alinee con la estructura de la organización.  Esto es especialmente útil para responsables que quieren levantar la moral, realizar revisiones de equipo específicas, aclarar procesos de incorporación de empleados, discutir planes de recursos y aumentar la visibilidad en una cantidad de recursos diversos.  
+
+![Diagrama de una jerarquía de cómo los equipos y canales se organizan en Microsoft Teams.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png
 

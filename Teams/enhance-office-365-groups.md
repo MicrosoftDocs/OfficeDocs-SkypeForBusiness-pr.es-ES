@@ -2,7 +2,7 @@
 title: Mejorar los grupos de Office 365 existentes con Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ description: "Aprenda a mejorar los grupos de Office 365 con Microsoft Teams inv
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf643d5b09ee7117bd451be135fac847c82c5edf
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 72b4e20cadd30ef2e6e21ef826aa2a2f86b63a2f
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Mejorar los grupos de Office 365 existentes con Microsoft Teams
 =======================================================

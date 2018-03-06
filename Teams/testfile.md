@@ -1,10 +1,10 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: d2576d254865e7f97ff614cc80689d952d8a3997
-ms.sourcegitcommit: b7f7ff1f88cd71ba289c20e745d0642ce5f11809
+ms.openlocfilehash: b58c4759fc66bd9f573123bebf1772609a7a79e2
+ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="welcome-to-office-content-on-docsmicrosoftcom"></a>Le damos la bienvenida a contenido de Office en docs.microsoft.com
 ## <a name="this-is-a-level-2-heading"></a>Este es un encabezado de nivel 2
@@ -19,16 +19,18 @@ ms.lasthandoff: 01/17/2018
 3. item 4
 
 
+cambiar a archivo de prueba
 
 
+Se puede modificar una tabla de Markdown para que parezca que contiene una lista de viñetas con símbolos de HTML y solo la etiqueta de linebreak:
 
-sasdfsdf para1
+| Celda de encabezado 1 | Celda de encabezado 2 |
+| ---          | ---          |
+| Celda de contenido |texto de introducción <br>&nbsp;&nbsp;&nbsp; &bull;&nbsp;&nbsp; elemento de lista 1<br> &nbsp;&nbsp;&nbsp; &bull;&nbsp;&nbsp; elemento de lista 2     |
+| Celda de contenido | Celda de contenido |
 
-para2
-
-**para3**
-
-
+<p>Visualizaré &#9744;</p>
+<p>Visualizaré &#x2610;</p>
 
 
 El contenido de Microsoft Teams está ahora disponible.

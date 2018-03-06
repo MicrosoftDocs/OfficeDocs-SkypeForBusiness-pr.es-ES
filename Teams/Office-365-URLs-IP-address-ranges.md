@@ -1,8 +1,8 @@
 ---
-title: URL de Office 365 e intervalos de direcciones IP
+title: Direcciones URL e intervalos de direcciones IP de Office 365
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ description: "Aprenda a configurar correctamente los intervalos de direcciones I
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21467e1c7f85cda5bdbfa68971119c8a6c0038bc
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 597d9ceb2f72fcd624b3071d26264ce74650cc0c
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>Direcciones URL e intervalos de direcciones IP de Office 365
 =====================================
