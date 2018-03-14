@@ -3,7 +3,8 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/**.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -29,7 +30,13 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "breadcrumb_path": "/microsoftteams/breadcrumb/toc.json",
+       "extendBreadcrumb": "true",
+       "feedback_system": "GitHub",
+       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",
+       "feedback_product_url": "https://microsoftteams.uservoice.com" 
+    },
     "fileMetadata": {},
     "template": [],
     "dest": "OfficeDocs-MicrosoftTeams"
