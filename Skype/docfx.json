@@ -69,7 +69,14 @@
     "globalMetadata": {
       "searchScope": ["Skype for Business"],
       "breadcrumb_path": "/skypeforbusiness/breadcrumb/toc.json",
-      "extendBreadcrumb": "true"
+      "extendBreadcrumb": "true",
+      "contributors_to_exclude": [
+          "dstrome",
+          "daswifty"
+      ],
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",
+      "feedback_product_url": "https://www.skypefeedback.com/" 
     },
     "fileMetadata": {},
     "template": [],
