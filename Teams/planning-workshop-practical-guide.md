@@ -1,5 +1,5 @@
 ---
-title: 'Herramientas y talleres: planificar, entregar y usar Microsoft Teams'
+title: 'Herramientas y talleres: planificar, entregar y adoptar Microsoft Teams'
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,25 +7,25 @@ ms.date: 01/24/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara, lolaj, rowille
-description: "Herramientas de planificación, talleres y kits de introducción para ayudar a los administradores en sus primeros pasos con Microsoft Teams."
+description: "Herramientas de planificación, talleres y kits de introducción para ayudar a las organizaciones en sus primeros pasos con Microsoft Teams."
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecb8c4f893f3bbced59331349e432883d0cb7953
-ms.sourcegitcommit: 9094c87dec3f8d7d05c7e879d357a6ed428d7cdf
+ms.openlocfilehash: 353d53287260da365646271ef886c95fe839bf6a
+ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/01/2018
 ---
-<a name="tools-and-workshops-plan-deliver-and-operate-microsoft-teams"></a>Herramientas y talleres: planificar, entregar y usar Microsoft Teams
+<a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Herramientas y talleres: planificar, entregar y adoptar Microsoft Teams
 =============================================================
 
-Descargue estas herramientas que le ayudarán en la planificación, la entrega y el uso de Microsoft Teams en su organización.
+Descargue estas herramientas que le ayudarán en la planificación, la entrega y la adopción de Microsoft Teams en su organización.
 
-- [Kit de introducción de Microsoft Teams](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) 
+
+- [Kit para el éxito del cliente de Microsoft Teams](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) 
     
-    Este kit contiene una gran variedad de presentaciones, plantillas de correo electrónico, sugerencias y trucos, y pósteres que puede usar para desplegar Teams en su organización. Incluye dos guías de inicio rápido: una para administradores de TI y otra para los responsables de equipo. Use estos recursos para sacar el máximo partido a Teams en relación con diferentes aspectos de su organización, como marketing, ventas, finanzas, recursos humanos, tecnologías de la información, ingeniería y gestión de proyectos.
-
+    Este kit contiene una gran variedad de presentaciones, plantillas de correo electrónico, sugerencias y trucos, y pósteres que puede usar para desplegar Teams e impulsar su adopción en su organización. Incluye dos guías de inicio rápido para administradores, jefes de equipo y ejemplos de casos de uso para cada departamento. Use estos recursos para sacar el máximo partido a Teams en relación con diferentes aspectos de su organización, como marketing, ventas, finanzas, recursos humanos, tecnologías de la información, ingeniería y gestión de proyectos. 
 
 
 - [Guía de inicio rápido para administradores](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)

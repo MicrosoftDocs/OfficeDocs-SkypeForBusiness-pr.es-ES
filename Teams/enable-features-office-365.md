@@ -13,11 +13,11 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad7af6222430f3cd3109ca76ce919a3342b959c8
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+ms.openlocfilehash: 87871cb46c1b9e584308b75376622473a3131888
+ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 <a name="turn-on-microsoft-teams-features-in-your-office-365-organization"></a>Habilitar características de Microsoft Teams en su organización de Office 365
 ======================================================
@@ -142,7 +142,7 @@ El número máximo de personas que pueden participar en una reunión es 80. Pued
 
 -   **Permitir la programación de reuniones privadas:** si esta opción está activada, los usuarios pueden programar reuniones privadas que no se indiquen en ningún canal.
 
--   **Permitir reuniones ad-hoc del canal**
+-   **Permitir reuniones ad-hoc del canal**: cuando se activa, los usuarios pueden iniciar rápidamente una reunión para un canal que se haya creado para un fin inmediato o específico.
 
 -   **Permitir la programación de reuniones de canal:** si está habilitada esta opción, los usuarios pueden programar una reunión de un canal a la que pueden unirse fácilmente todos los miembros del canal con un solo clic.
 

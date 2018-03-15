@@ -3,18 +3,18 @@ title: Optimizar su entorno actual de Skype Empresarial para Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
 description: "Guía para que inicie el recorrido desde Skype Empresarial a Microsoft Teams."
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cae04416438d08771324b5227014ab4f3043a71
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+ms.openlocfilehash: 15b989e69f637697a1ea9bde676382eeccb0e019
+ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 <a name="optimize-your-current-skype-for-business-environment-for-microsoft-teams"></a>Optimizar su entorno actual de Skype Empresarial para Microsoft Teams
 ==============================================================
@@ -43,7 +43,7 @@ Durante su recorrido, le recomendamos la guía práctica que encontrará en [My 
 ### <a name="quality-assessment"></a>Evaluación de calidad
 
 
-Antes de empezar a incorporar usuarios a Microsoft Teams, compruebe que su implementación actual de Skype Empresarial cumple con el nivel de calidad que se exige en lo referente a medios en tiempo real. Con el panel de calidad de llamadas (CQD, por su nombre en inglés "Call Quality Dashboard"), supervise el uso e identifique las tendencias de la calidad y, con el análisis de llamadas, preste atención a los indicadores de calidad de las llamadas individuales e intente resolver los problemas que encuentre.
+Antes de empezar a incorporar usuarios a Microsoft Teams, compruebe que su implementación actual de Skype Empresarial cumple con el nivel de calidad que se exige en lo referente a elementos multimedia en tiempo real. Con el panel de calidad de llamadas (CQD, por su nombre en inglés "Call Quality Dashboard"), supervise el uso e identifique las tendencias de la calidad y, con el análisis de llamadas, preste atención a los indicadores de calidad de las llamadas individuales e intente resolver los problemas que encuentre.
 
 Vea los [vídeos de CQD](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) para saber cómo debe usar el panel de calidad de llamadas para investigar la calidad de los medios.
 
