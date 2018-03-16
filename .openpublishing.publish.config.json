@@ -13,6 +13,7 @@
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
+        "Tutorial": "Content"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
