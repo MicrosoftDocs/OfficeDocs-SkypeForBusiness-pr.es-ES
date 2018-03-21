@@ -21,10 +21,10 @@ ms.custom:
 - Calling Plans
 description: "Descubra qué es la validación de direcciones, por qué es importante y de qué forma está relacionada con los servicios y las direcciones de emergencia. "
 ms.openlocfilehash: f5da983796a435ba64d428b21544a44a191e6de4
-ms.sourcegitcommit: 46ca433590a4c3aefbe2fb777542bb0b332563bf
-ms.translationtype: HT
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="what-is-address-validation"></a>¿Qué es la validación de direcciones?
 

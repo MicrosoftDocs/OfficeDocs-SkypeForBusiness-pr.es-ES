@@ -21,10 +21,10 @@ ms.custom:
 - Strat_SB_PSTN
 description: "Use esta tabla para buscar información sobre cómo se obtienen y se administran los números de teléfono en Alemania para Skype Empresarial Online y Microsoft Teams."
 ms.openlocfilehash: e9b222dce2379281fda2e2baa654a3230990c11d
-ms.sourcegitcommit: 46ca433590a4c3aefbe2fb777542bb0b332563bf
-ms.translationtype: HT
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="phone-number-management-for-germany"></a>Administración de números de teléfono para Alemania
 

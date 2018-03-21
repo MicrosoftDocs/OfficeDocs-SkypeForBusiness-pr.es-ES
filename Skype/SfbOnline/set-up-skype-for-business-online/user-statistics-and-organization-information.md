@@ -21,10 +21,10 @@ ms.custom:
 - Setup
 description: "Vea qué estadísticas tienen disponibles los usuarios de Skype Empresarial, como el número de usuarios habilitados, los usuarios habilitados con conferencia o los usuarios que están habilitados para Office 365."
 ms.openlocfilehash: 9a3336c061b69b951d2ec8cb6b927dd9115c7b7c
-ms.sourcegitcommit: 46ca433590a4c3aefbe2fb777542bb0b332563bf
-ms.translationtype: HT
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="user-statistics-and-organization-information"></a>Estadísticas del usuario e información de la organización
 

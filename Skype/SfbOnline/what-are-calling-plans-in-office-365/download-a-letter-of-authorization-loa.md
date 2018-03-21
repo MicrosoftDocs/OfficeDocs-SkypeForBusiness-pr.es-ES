@@ -21,10 +21,10 @@ ms.custom:
 - Strat_SB_PSTN
 description: "La Carta de autorización (LOA) nos concede permiso para solicitar en su nombre la transferencia de números existentes desde un proveedor de servicios diferente en caso de disputa."
 ms.openlocfilehash: 52f4d51a12b174d1b285e702ce65f8511c2a1500
-ms.sourcegitcommit: 46ca433590a4c3aefbe2fb777542bb0b332563bf
-ms.translationtype: HT
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="download-a-letter-of-authorization-loa"></a>Descargar una Carta de autorización (LOA) 
 

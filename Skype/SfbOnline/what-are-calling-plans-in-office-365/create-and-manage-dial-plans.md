@@ -1,0 +1,229 @@
+---
+title: Crear y administrar planes de marcado
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 01/22/2018
+ms.topic: article
+ms.assetid: 7af17c94-5f8f-4452-ae1d-01f495b4dc94
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+appliesto:
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: 'Learn how to create calling dial plans (PSTN Calling dial plans) in Office 365 and how to manage them. '
+ms.openlocfilehash: 6bef6ce242158e5bddf812a5c8fc03d52e4288e5
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 02/19/2018
+---
+# <a name="create-and-manage-dial-plans"></a>Crear y administrar planes de marcado
+
+Después de haber planeado los planes de marcado para su organización e imaginado todas las reglas de normalización que deben crearse para el enrutamiento de llamadas, debe usar Windows PowerShell para crear los planes de marcado y realice los cambios de configuración.
+  
+> [!NOTE]
+> Los planes de marcado no se pueden crear y administrar en el centro de administración de Skype Empresarial. 
+  
+## <a name="verifying-and-starting-remote-powershell"></a>Verificar e iniciar PowerShell remoto
+
+ **Comprobar que está ejecutando Windows PowerShell versión 3.0 o superior**
+  
+1. Para comprobar que se está ejecutando la versión 3.0 o superior: **Menú Inicio** > **Windows PowerShell**.
+    
+2. Para comprobar la versión, escriba  _Get-Host_ en la ventana **Windows PowerShell**.
+    
+3. Si no tiene la versión 3.0 o superior, deberá descargar e instalar las actualizaciones de Windows PowerShell. Vea [Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845) para descargar y actualizar Windows PowerShell a la versión 4.0. Reinicie el equipo cuando se le solicite.
+    
+4. También necesitará instalar el módulo Windows PowerShell para Skype Empresarial Online que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype Empresarial Online. Este módulo, que solo se admite en equipos de 64 bits, puede descargarse desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=294688). Reinicie el equipo cuando se le solicite.
+    
+Si necesita más información, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
+  
+ **Iniciar una sesión de Windows PowerShell**
+  
+1. En el **menú Inicio** > **Windows PowerShell**.
+    
+2. En la ventana **Windows PowerShell**, puede conectarse a su organización de Office 365 ejecutando:
+    
+    > [!NOTE]
+    > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.
+  
+> 
+  ```
+    Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+    $credential = Get-Credential
+    $session = New-CsOnlineSession -Credential $credential
+    Import-PSSession $session
+  ```
+
+Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar con todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [conectarse a Skype para los negocios en línea mediante el uso de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+  
+## <a name="creating-and-managing-your-dial-plans"></a>Crear y administrar sus planes de marcado
+
+Para crear y administrar planes de marcado de inquilino puede utilizar un cmdlet sencillo o un script de PowerShell.
+  
+### <a name="using-single-cmdlets"></a>Uso de cmdlets sencillos
+
+- Para crear un nuevo plan de marcado, ejecute:
+    
+  ```
+  New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
+  ```
+
+    Para ver otros ejemplos y parámetros, consulte [Nuevo-CsPlanMarcadoInquilinio](https://technet.microsoft.com/library/mt775026.aspx).
+    
+- Para cambiar la configuración en un plan de marcado, ejecute:
+    
+  ```
+  Set-CsTenantDialPlan -Identity RedmondDialPlan  -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9
+    -SimpleName "Dial-Plan-for-Redmond"
+  ```
+
+    Para ver otros ejemplos y parámetros, consulte[Configurar-CsPlanMarcadoInquilino](https://technet.microsoft.com/library/mt775023.aspx).
+    
+- Para agregar usuarios a un plan de marcado, ejecute:
+    
+  ```
+  Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
+  ```
+
+    Para ver otros ejemplos y parámetros, consulte [Garantizar-CsPlanMarcadoInquilino](https://technet.microsoft.com/library/mt775021.aspx).
+    
+- Para ver la configuración de un plan de marcado, ejecute:
+    
+  ```
+  Get-CsTenantDialPlan -Identity RedmondDialPlan
+  ```
+
+    Para ver otros ejemplos y parámetros, consulte[Obtener-CsPlanMarcadoInquilino](https://technet.microsoft.com/library/mt775024.aspx).
+    
+- Para eliminar un plan de marcado, ejecute:
+    
+  ```
+  Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
+  ```
+
+    Para ver otros ejemplos y parámetros, consulte [Eliminar-CsPlanMarcadoInquilino](https://technet.microsoft.com/library/mt775020.aspx).
+    
+- Para ver la configuración del plan de marcado efectivo, ejecute:
+    
+  ```
+  Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
+  ```
+
+    Para ver otros ejemplos y parámetros, consulte [Obtener-CsPlanMarcadoEfectivoInquilino](https://technet.microsoft.com/library/mt775022.aspx).
+    
+- Para evaluar la configuración efectiva de un plan de marcado, ejecute:
+    
+  ```
+  Test-CsEffectiveTenantDialPlan -DialedNumber 14255551234 -Identity 1849827b-a810-40a8-8f77-e94250d4680b_US_TenantDialPlanRedmond
+  ```
+
+    Para ver otros ejemplos y parámetros, consulte [Probar-CsPlanMarcadoEfectivoInquilino](https://technet.microsoft.com/library/mt775025.aspx).
+    
+### <a name="using-a-powershell-script"></a>Uso de un script de PowerShell
+
+Ejecute esto para eliminar una regla de normalización que esté asociada con un plan de marcado inquilino sin que tenga que eliminar en primer lugar el plan de marcado inquilino:
+```
+$b1=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
+Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$b1}
+(Get-CsTenantDialPlan -Identity RedmondDialPlan).NormalizationRules
+$b2=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
+Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$b2}
+```
+Ejecute esto para agregar la siguiente regla de normalización al plan de marcado inquilino existente denominado RedmondDialPlan.
+```
+$nr1=New-CsVoiceNormalizationRule -Parent Global -Description 'Organization extension dialing' -Pattern '^(\\d{3})$' -Translation '+14255551$1' -Name NR1 -IsInternalExtension $false -InMemory
+Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$nr1}
+```
+Ejecute esto para eliminar la siguiente regla de normalización del plan de marcado inquilino existente denominado RedmondDialPlan.
+```
+$nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
+Set-CsTenantDialPlan -Identity DP1 -NormalizationRules @{remove=$nr1}
+```
+
+Ejecute lo siguiente cuando desee examinar también las reglas de normalización existentes, determinar cuál de ellos desea eliminar y, a continuación, utilice su índice para quitarlo. La matriz de reglas de normalización se inicia con el índice 0. Nos gustaría quitar la regla de normalización de 3 dígitos, por lo que es índice 1.
+  
+```
+Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
+Description         : 4-digit
+Pattern             : ^(\\d{4})$
+Translation         : +1426666$1
+Name                : NR2
+IsInternalExtension : False
+
+Description         : 3-digit
+Pattern             : ^(\\d{3})$
+Translation         : +14255551$1
+Name                : NR12
+IsInternalExtension : False
+
+$nr1=(Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules[Number 1]
+Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
+```
+
+Ejecute esto para buscar todos los usuarios a los que se les ha garantizado el plan de marcado inquilino RedmondDialPlan.
+  
+```
+Get-CsOnlineuser | where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
+```
+
+Ejecute estos para agregar el plan de marcado local existente denominado OPDP1 como un plan de marcado inquilino para su organización. Debe primero guardar los locales plan a un archivo .xml de marcado y, a continuación, utilizarlo para crear el nuevo plan de marcado de inquilinos.
+  
+Ejecutar para guardar el plan de marcado local en el archivo .xml.
+  
+```
+$DPName = "OPDP1"
+$DPFileName = "dialplan.xml"
+Get-CsDialplan $DPName | Export-Clixml $DPFileName
+```
+
+Ejecute esto para crear el nuevo plan de marcado inquilino.
+  
+```
+$DPFileName = "dialplan.xml"
+$DP = Import-Clixml $DPFileName
+$NormRules = @()
+ForEach($nr in $dp.NormalizationRules)
+{
+ $id1 = "Global/" +$nr.Name
+$nr2 = New-CsVoiceNormalizationRule -Identity $id1 -Description $nr.Description -Pattern $nr.Pattern -Translation $nr.Translation  -IsInternalExtension $nr.IsInternalExtension -InMemory
+$NormRules += $nr2
+}
+New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
+```
+## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
+
+- En relación con Windows PowerShell, todo se reduce a la administración de usuarios y de lo que pueden o no hacer los usuarios. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
+    
+  - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+    
+  - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+    
+- Windows PowerShell ofrece numerosas ventajas de velocidad, sencillez y productividad con respecto al uso exclusivo del Centro de administración de Office 365, como por ejemplo a la hora de realizar cambios de configuración para varios usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+    
+  - [Mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+    
+  - [Usar Windows PowerShell para administrar Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+    
+  - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+    
+## <a name="related-topics"></a>See also
+[Preguntas comunes sobre la transferencia de números de teléfono](transferring-phone-numbers-common-questions.md)
+
+[Diferentes tipos de números de teléfono que se usan para Planes de llamada](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[Administrar los números de teléfono para su organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+
+[Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)
+
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
+

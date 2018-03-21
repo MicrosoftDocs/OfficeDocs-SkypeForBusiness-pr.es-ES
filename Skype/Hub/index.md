@@ -1,13 +1,13 @@
 ---
 layout: HubPage
-hide_bc: True
+hide_bc: 
 title: Skype Empresarial
 description: Skype Empresarial
 ms.openlocfilehash: cb4d447f38362ab35fc6968beef84fcecbb5659a
-ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 02/19/2018
 ---
 <div id="main" class="v2">
     <div class="container">

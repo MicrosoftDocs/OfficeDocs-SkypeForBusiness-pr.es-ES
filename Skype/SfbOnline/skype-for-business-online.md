@@ -13,10 +13,10 @@ ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
 ms.openlocfilehash: 3de4ba1e928dfef92a259738507a94a279e9ca1e
-ms.sourcegitcommit: 3fb8ed855e72a28cd28c94f1414fbe81937d9422
-ms.translationtype: HT
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="skype-for-business-online-admin"></a>Administración de Skype Empresarial Online
 
