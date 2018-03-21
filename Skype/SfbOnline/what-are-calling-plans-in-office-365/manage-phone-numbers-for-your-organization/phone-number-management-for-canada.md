@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: none
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "Use esta tabla para buscar información sobre cómo se obtienen y se administran los números de teléfono en Canadá para Skype Empresarial Online y Microsoft Teams."
-ms.openlocfilehash: 0189d49d29c8b100c59dadb7e2a92e827e39cada
-ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
-ms.translationtype: HT
+ms.openlocfilehash: aefcda10cc00a3ce24e831c2b6dd5a0b162f7158
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="phone-number-management-for-canada"></a>Administración de números de teléfono para Canadá
 > [!IMPORTANT]
@@ -36,7 +38,8 @@ Para obtener más información, consulte [Administrar los números de teléfono 
   
 |**¿Qué acción desea realizar?**|**Siga estos pasos y descargue los formularios correctos**|
 |:-----|:-----|
-|Necesita números de usuario que no estén incluidos en el Centro de administración de Skype Empresarial.  <br/> | Descargue uno de estos formularios: <br/> [Solicitud de número de teléfono nuevo para Canadá (números de usuario y de servicio) (v.1.0)(en-ca)](../../downloads/new-number-request-forms/new-phone-number-request-for-canada-(user-and-service-numbers)-(v.1.0)-(en-ca).pdf) <br/>[Solicitud de número de teléfono nuevo para Canadá (números de usuario y de servicio) (v.1.0)(fr-ca)](../../downloads/new-number-request-forms/new-phone-number-request-for-canada-(user-and-service-numbers)-(v.1.0)-(fr-ca).pdf)  <br/> <br>Rellénelo y [envíenoslo](mailto:ptn@microsoft.com).  <br/>|
+|Obtener números de teléfono de usuario nuevo que no se enumeran en el Skype para el centro de administración de negocios.  <br/> | Descargue uno de estos formularios: <br/> [Solicitud de número de teléfono nuevo para Canadá (números de usuario y de servicio) (v.1.0)(en-ca)](../../downloads/new-number-request-forms/new-phone-number-request-for-canada-(user-and-service-numbers)-(v.1.0)-(en-ca).pdf) <br/>[Solicitud de número de teléfono nuevo para Canadá (números de usuario y de servicio) (v.1.0)(fr-ca)](../../downloads/new-number-request-forms/new-phone-number-request-for-canada-(user-and-service-numbers)-(v.1.0)-(fr-ca).pdf)  <br/> <br>Rellénelo y [envíenoslo](mailto:ptn@microsoft.com).  <br/>||Obtener nuevos números de teléfono de servicio|Números de servicio fuera de Estados Unidos, descargue [este formulario](new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1)-(en-us).pdf), rellenar hacia fuera y [enviarlo a nosotros](mailto:ptneu@microsoft.com).
+|Obtener números de teléfono de servicio nuevo que no se enumeran en el Skype para el centro de administración de negocios. <br/> |Números de servicio fuera de Estados Unidos, descargue [este formulario](../../downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf), rellenar hacia fuera y [enviarlo a nosotros](mailto:ptneu@microsoft.com).
 |Necesita transferirnos números de teléfono.  <br/> |Descargue uno de estos formularios: <br/> [Carta de autorización (LOA) para Canadá (números de usuario y de servicio) (v.1.0) (en-ca)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(user-and-service-numbers)-(v.1.0)-(en-ca).pdf) <br/> [Carta de autorización (LOA) para Canadá (números de usuario y de servicio) (v.1.0) (fr-ca)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(user-and-service-numbers)-(v.1.0)-(fr-ca).pdf) <br/> [Carta de autorización (LOA) para Canadá (números gratuitos) (v.1.0) (en-ca)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(toll-free-numbers)-(v.1.0)-(en-ca).pdf) <br/>[Carta de autorización (LOA) para Canadá (números gratuitos) (v.1.1) (fr-ca)](../../downloads/LOA-forms/Letter-of-authorization-(loa)-for-canada-(toll-free-numbers)-(v.1.1)-(fr-ca).pdf)<br/> <br>**Nota:** Si intenta conseguir más de 999 números de teléfono de usuario o suscriptor, tendrá que rellenar una Carta de autorización (LOA) y enviárnosla. Consulte [Transferir números de teléfono a Office 365](../../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md) para obtener más información. <br/> <br>Rellénelo y [envíenoslo](mailto:ptn@microsoft.com).  <br/>|
 Tiene que cambiar de un número de usuario a un número de servicio.  <br/> |[Envíenos](mailto:ptn@microsoft.com) su PIN y la lista de números de usuario que quiere convertir en números de servicio. Para configurar un PIN, haga clic [aquí](../../what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider.md).  <br/> |
 |Tiene que transferir números desde una organización de Office 365 a otra.  <br/> |[Envíenos](mailto:ptn@microsoft.com) la lista de números de teléfono de usuario (suscriptor) que quiere transferir junto con el PIN de la organización de origen desde la que quiere transferir los números. Para configurar un PIN, haga clic [aquí](../../what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider.md).  <br/> |
@@ -48,5 +51,7 @@ Tiene que cambiar de un número de usuario a un número de servicio.  <br/> |[En
 
 [Términos y condiciones de las llamadas de emergencia](../emergency-calling-terms-and-conditions.md)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Empresarial Online: etiqueta de declinación de responsabilidades en llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
   
+## <a name="feedback"></a>¿Comentarios?
+Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).

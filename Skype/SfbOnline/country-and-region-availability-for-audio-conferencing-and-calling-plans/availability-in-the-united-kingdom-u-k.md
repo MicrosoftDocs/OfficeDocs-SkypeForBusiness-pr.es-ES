@@ -1,0 +1,88 @@
+---
+title: Disponibilidad en el Reino Unido (Reino Unido)
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.reviewer: mikedav, jastark, oscarr
+ms.date: 01/22/2018
+ms.topic: article
+ms.assetid: 523a955c-5185-4a53-9234-d8a71f57be85
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+appliesto:
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: None
+ms.custom:
+- Audio Conferencing
+- Phone System
+- Calling Plans
+description: "Aquí están disponibles para el Reino Unido los servicios de Office 365 para Skype para empresas y Teams de Microsoft."
+ms.openlocfilehash: d570d37d6593532b2c8fe49a8ac701879678e2d9
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 02/27/2018
+---
+# <a name="availability-in-the-united-kingdom-uk"></a>Disponibilidad en el Reino Unido (Reino Unido)
+
+[Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
+
+Aquí están disponibles para el Reino Unido los servicios de Office 365 para Skype para empresas y Teams de Microsoft.
+  
+## <a name="audio-conferencing"></a>Audioconferencia
+
+|**Característica**|**Detalles**|
+|:-----|:-----|
+|¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para London. Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible  <br/> |
+   
+## <a name="phone-system"></a>Sistema telefónico
+
+|**Característica**|**Detalles**|
+|:-----|:-----|
+|¿El sistema telefónico está disponible para la compra?  <br/> |Sí  <br/> |
+| Operadores automáticos <br/> |Disponible  <br/> |
+|Colas de llamadas  <br/> |Disponible  <br/> |
+|Correo de voz  <br/> |Disponible  <br/> |
+   
+## <a name="calling-plans"></a>Planes de llamadas
+
+|**Característica**|**Detalles**|
+|:-----|:-----|
+|¿Los planes de llamada están disponibles para la compra?  <br/> |Sí  <br/> |
+|Minutos disponibles para Planes de llamada  <br/> |1200 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (el límite al que se llegue antes cada mes).  <br/> |
+|¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
+   
+## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
+
+|**Característica**|**Detalles**|
+|:-----|:-----|
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> | Birmingham <br/>  Bolton <br/>  Bournemouth <br/>  Bradford <br/>  Brighton <br/>  Bristol <br/>  Coventry <br/>  Hull <br/>  Leeds <br/>  Leicester <br/>  Liverpool <br/>  Londres <br/>  Mánchester <br/>  Newcastle <br/>  Nottingham <br/>  Plymouth <br/>  Sheffield <br/>  Stoke-on-Trent <br/>  Teesside (Middlesbrough) <br/> |
+|¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
+|¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
+   
+ Si desea números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+  
+## <a name="communications-credits"></a>Créditos de comunicaciones
+
+|**Característica**|**Detalles**|
+|:-----|:-----|
+|¿Los créditos de comunicaciones están disponibles?  <br/> |Sí  <br/> |
+   
+Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para su organización](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
+  
+## <a name="related-topics"></a>Temas relacionados
+
+[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+
+[Países y regiones donde Audioconferencia y Planes de llamada están disponibles](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+## <a name="feedback"></a>¿Comentarios?
+Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).
+

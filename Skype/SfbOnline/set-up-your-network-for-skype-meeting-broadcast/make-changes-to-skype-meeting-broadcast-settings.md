@@ -19,11 +19,11 @@ f1keywords:
 ms.custom:
 - SMB
 description: "Puede habilitar la difusión de la reunión de Skype y realizar cambios en la configuración y las directivas para esas reuniones."
-ms.openlocfilehash: de3d37b288a41510e4b1ec30271c66bd6dfc0aae
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: b61a03178086699a8b5fc27ebc00f1c6b6f72021
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Realizar cambios en configuración de la difusión de reunión de Skype para su organización
 
@@ -43,3 +43,5 @@ Puede habilitar la difusión de la reunión de Skype y realizar cambios en la co
 
 [Configurar la red para Difusión de reunión de Skype](set-up-your-network-for-skype-meeting-broadcast.md)
 
+## <a name="feedback"></a>¿Comentarios?
+Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).

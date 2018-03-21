@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Configurar y utilizar Analytics llame a identificar y solucionar los problemas de calidad empresarial y Teams de Microsoft llamada de Skype.
-ms.openlocfilehash: 81d3f88bf04fa63aaa5857e2056aaf429e7ffcd4
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: ef8f9e10e25e7f67f0161a143c313ed25330db18
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="set-up-skype-for-business-call-analytics"></a>Configurar Skype para llamar de Business Analytics
 
@@ -91,3 +91,6 @@ Si está creando el archivo TSV o CSV desde el principio, vea [formato y estruct
 [Usar el análisis de llamadas para solucionar problemas de mala calidad de llamada en Skype Empresarial](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Diferencia entre el análisis de llamadas y el Panel de calidad de llamadas](difference-between-call-analytics-and-call-quality-dashboard.md)
+
+## <a name="feedback"></a>¿Comentarios?
+Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).

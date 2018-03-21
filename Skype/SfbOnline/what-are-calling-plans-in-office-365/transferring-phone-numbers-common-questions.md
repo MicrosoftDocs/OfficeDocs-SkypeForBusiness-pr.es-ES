@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 28cbf7d7-97f3-4a99-aa76-897022c14a24
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "Las siguientes son preguntas más frecuentes sobre la transferencia de números de teléfono a Skype para el negocio. Después de revisar las respuestas, debe ser preparado para crear una orden de puerto y transferir sus números de teléfono. Ver números de teléfono de transferencia a Office 365 para obtener instrucciones."
-ms.openlocfilehash: a7b6b9ea1b028f6578b13f29706c25fb182befc1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 3fe34a7c38fb8be206b0e3812674255d0593d188
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Transferencia de preguntas habituales de los números de teléfono
 
@@ -62,7 +64,7 @@ En general, puede transferir cualquier número de teléfono que sea de un provee
     
 - Números de teléfono VoIP de un proveedor de telefonía como Vonage o RingCentral.
     
-- Skype para números de teléfono de negocio híbrido. Si desea transferir estos números, necesita enviar correo electrónico a nosotros en <ptn@microsoft.com>.
+- Skype para números de teléfono de negocio híbrido. Si desea transferir estos números, debe enviar correo electrónico a nosotros en <ptn@microsoft.com>.
     
  **NO PUEDE TRANSFERIR:**
   
@@ -117,7 +119,7 @@ Aquí dispone de más información sobre el envío de solicitudes de portabilida
     
 - Los **números gratuitos** con códigos de área como: 800, 844, 855, 866, 877 y 888 no se pueden incluir en una solicitud de portabilidad de número con otros tipos de números. Para estos números gratuito de puerto, debe [enviar manualmente una solicitud de servicio personalizado](manually-submit-a-custom-service-request.md); no se enviaron en el Skype para el centro de administración de negocios. Ver [números de teléfono de administrar para su organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     
-    Es importante que use la LOA correcta para el país y el tipo de número de teléfono que desea transferir. Puede descargar las LOA [Descargar una Carta de autorización (LOA)](download-a-letter-of-authorization-loa.md). Ver [números de teléfono de administrar para su organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+    Es importante que use la LOA correcta para el país y el tipo de número de teléfono que desea transferir. Puede descargar el LOA que necesita [Descargar la carta de autorización (LOA) que necesita aquí](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     
 - Los **números de teléfono móvil** requieren un código PIN para autorizar la transferencia. Por lo tanto, requieren solicitudes de portabilidad de número separadas.
     
@@ -174,6 +176,7 @@ Para transferir o *puerto a* números de teléfono de Skype para los negocios en
 
 [Términos y condiciones de las llamadas de emergencia](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Empresarial Online: etiqueta de declinación de responsabilidades en llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
   
-
+## <a name="feedback"></a>¿Comentarios?
+Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).

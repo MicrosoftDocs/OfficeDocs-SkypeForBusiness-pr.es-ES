@@ -13,7 +13,7 @@ ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
 ms.openlocfilehash: 3de4ba1e928dfef92a259738507a94a279e9ca1e
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/19/2018

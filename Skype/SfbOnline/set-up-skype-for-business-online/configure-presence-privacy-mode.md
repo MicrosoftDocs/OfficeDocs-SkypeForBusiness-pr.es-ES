@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "Aprenda a configurar el modo de privacidad de los usuarios para que pueden controlar mejor cómo personas ven su disponibilidad. "
-ms.openlocfilehash: c548a0b85b4b458472da0d9196ac0271a92a16c2
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 6a50370afb0e35873536162c9db28e4d75eed96e
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="configure-presence-privacy-mode"></a>Configurar el modo de privacidad de presencia
 
@@ -44,3 +44,6 @@ El Skype para configuración de presencia en línea de negocio proporciona más 
 [Configurar Skype Empresarial Online](set-up-skype-for-business-online.md)
 
 [Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>¿Comentarios?
+Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).

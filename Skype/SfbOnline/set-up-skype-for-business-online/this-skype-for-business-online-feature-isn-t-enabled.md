@@ -19,11 +19,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "Buscar posibles causas y sugerencias de acción cuando se obtiene un Skype para negocios en línea no está habilitada error. "
-ms.openlocfilehash: ff8e8dca2dc4a196a31f979c6aced400d5a7b194
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e6b025ad9e53d520a5e79c380de80e71c5f0fe04
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>Este Skype para función de negocio en línea no está habilitada
 
@@ -39,3 +39,6 @@ Lo sentimos, parece que el usuario no está autorizado para esta característica
 [Configurar Skype Empresarial Online](set-up-skype-for-business-online.md)
 
 [Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>¿Comentarios?
+Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).

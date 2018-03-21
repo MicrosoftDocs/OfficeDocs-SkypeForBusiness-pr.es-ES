@@ -20,7 +20,7 @@ ms.custom:
 - Legal
 description: "Este es el contenido que debe publicarse para satisfacer los requerimientos de accesibilidad, cumplimiento de normas y reglamentarios de Skype para los negocios en línea en Francia. "
 ms.openlocfilehash: 1585f6b03efb75454c18024ae68c8068156a07d6
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/19/2018
