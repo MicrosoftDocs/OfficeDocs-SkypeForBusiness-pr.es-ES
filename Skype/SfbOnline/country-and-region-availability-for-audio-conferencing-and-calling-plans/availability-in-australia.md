@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: "Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Australia."
-ms.openlocfilehash: 7cc3be9976f0a581618cc93b835fceadab302717
-ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.openlocfilehash: 4552e465531ddbb331a0b0226b427ac44de1c558
+ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="availability-in-australia"></a>Disponibilidad en Australia
 
@@ -47,7 +47,7 @@ Aquí están los servicios de Office 365 para Skype para empresas y Teams de Mic
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿El sistema telefónico está disponible para la compra?  <br/> |Sí  <br/> |
-| Operadores automáticos <br/> |Disponible  <br/> |
+|Operadores automáticos <br/> |Disponible  <br/> |
 |Colas de llamadas  <br/> |Disponible  <br/> |
 |Correo de voz  <br/> |Disponible  <br/> |
    
@@ -57,7 +57,7 @@ Aquí están los servicios de Office 365 para Skype para empresas y Teams de Mic
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Los planes de llamada están disponibles para la compra?  <br/> |Sí, vea [Servicios de Telstra](http://aka.ms/TelstraVoicePlan).  <br/> |
+|¿Los planes de llamada están disponibles para la compra?  <br/> |Sí, consulte [Telstra servicios de voz](http://aka.ms/TelstraVoicePlan).  <br/> |
 |Minutos disponibles para Planes de llamada  <br/> |Vea [Servicios de Telstra](http://aka.ms/TelstraVoicePlan). <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> |Vea [Servicios de Telstra](http://aka.ms/TelstraVoicePlan). <br/> |
 
@@ -69,7 +69,7 @@ Aquí están los servicios de Office 365 para Skype para empresas y Teams de Mic
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
    
-Si desea obtener los números de teléfono gratuitos y de pago para operadores automáticos y colas de llamada, vea [Servicios de Telstra](http://aka.ms/TelstraVoicePlan). Para conferencias de audio, [póngase en contacto con nosotros](mailto:ptnapac@microsoft.com).
+Si desea obtener los números de teléfono gratuitos y de pago para operadores automáticos y colas de llamada, vea [Servicios de voz de Telstra](http://aka.ms/TelstraVoicePlan). Números de servicio de conferencia de audio, [póngase en contacto con nosotros](mailto:ptnapac@microsoft.com).
   
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 

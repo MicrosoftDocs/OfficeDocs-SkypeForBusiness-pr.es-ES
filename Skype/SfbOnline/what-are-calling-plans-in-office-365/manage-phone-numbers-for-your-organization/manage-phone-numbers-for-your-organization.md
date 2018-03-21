@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 02/06/2018
+ms.date: 03/19/2018
 ms.topic: article
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -24,11 +24,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "Cada país o región tiene sus propias instrucciones para conseguir números de teléfono para usuarios en Skype Empresarial Online y Microsoft Teams. Siga el vínculo al país o la región que corresponda de los que aparecen a continuación y consiga la información que necesita."
-ms.openlocfilehash: 600d1370d0823c0cf5efab0c75ce0f26d6867828
-ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.openlocfilehash: 01c6f3bbb01d74d021594612561d035163378ba5
+ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Administrar los números de teléfono para su organización
 Hay tres maneras de obtener tanto el usuario como el servicio (pago y gratuito) números para su organización.
@@ -37,7 +37,7 @@ Hay tres maneras de obtener tanto el usuario como el servicio (pago y gratuito) 
 - Transferir o "puerto" los números existentes sobre nos.
 
 > [!IMPORTANT]
-> En **Bélgica, Irlanda, Alemania y los países bajos**, no se puede obtener nuevos números de teléfono teléfono usando el **Skype para el centro de administración de negocios**; tienes que descargar y rellenar un formulario.
+> En **Bélgica, Irlanda, Alemania y los países bajos**, no se puede obtener nuevos números de teléfono teléfono usando el **Skype para el centro de administración de negocios**; tienes que descargar y rellenar un formulario. Nuevos números de teléfono en Australia, vea [Servicios de voz de Telstra](http://aka.ms/TelstraVoicePlan). 
 
 ***
 Si sabe qué tipo de formas que busca utilice la lista hacia abajo para seleccionar el país o la región donde se escuchan los números.
