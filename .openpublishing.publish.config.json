@@ -6,7 +6,7 @@
       "docset_name": "OfficeDocs-MicrosoftTeams",
       "build_source_folder": "Teams",
       "build_output_subfolder": "OfficeDocs-MicrosoftTeams",
-      "locale": "de-de",
+      "locale": "es-es",
       "monikers": [],
       "open_to_public_contributors": false,
       "type_mapping": {
@@ -22,7 +22,7 @@
       "docset_name": "OfficeDocs-SkypeForBusiness",
       "build_source_folder": "Skype",
       "build_output_subfolder": "OfficeDocs-SkypeForBusiness",
-      "locale": "de-de",
+      "locale": "es-es",
       "monikers": [],
       "open_to_public_contributors": false,
       "type_mapping": {
