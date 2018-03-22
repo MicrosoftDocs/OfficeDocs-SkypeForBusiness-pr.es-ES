@@ -6,7 +6,6 @@ manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.date: 01/22/2018
 ms.topic: article
-ms.assetid: f6fac40d-bc9e-4038-a537-587942d99066
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
@@ -22,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: "Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Egipto."
-ms.openlocfilehash: 76a84e6cc9b639b5b72c7babaae534daa4abd98e
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 5ed1349d921c3810032ff95d8e5b0a9cfcfc0807
+ms.sourcegitcommit: ddd923c871b5cd92499cd2bd4ac1f708aeae6467
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="availability-in-egypt"></a>Disponibilidad de Egipto
 
@@ -65,7 +64,7 @@ Aquí están los servicios de Office 365 para Skype para empresas y Teams de Mic
 |:-----|:-----|
 |¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> |No aplicable  <br/> |
 |¿Hay números de pago disponibles?  <br/> |No  <br/> |
-|¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
+|¿Hay números gratuitos disponibles?  <br/> |No <br/> |
    
  Si desea números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
   
@@ -83,5 +82,3 @@ Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para s
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>¿Comentarios?
-Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).
