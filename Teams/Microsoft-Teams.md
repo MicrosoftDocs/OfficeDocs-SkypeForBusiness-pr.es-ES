@@ -1,13 +1,14 @@
 ---
 layout: HubPage
-hide_bc: True
-title: "Guía práctica y documentación de Microsoft Teams"
-description: "Guía práctica y documentación de Microsoft Teams"
-ms.openlocfilehash: 46b51273b92e0dd223baded42f64ea1bdb5d5c3a
-ms.sourcegitcommit: 334fee0485e16a6485055eff586203cc30e6fdc9
-ms.translationtype: HT
+hide_bc: ''
+title: Guía práctica y documentación de Microsoft Teams
+description: Guía práctica y documentación de Microsoft Teams
+ms.topic: hub-page
+ms.openlocfilehash: 876249161f630923fa453f3336746df063896fc1
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 03/08/2018
 ---
 <div id="main" class="v2">
     <div class="container">
