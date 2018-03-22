@@ -1,24 +1,26 @@
 ---
-title: "Vídeos: Audioconferencia en Microsoft Teams"
+title: 'Vídeos: Audioconferencia en Microsoft Teams'
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor
-description: "Vídeos que presentan la Audioconferencia en Microsoft Teams al administrador de TI."
+description: Vídeos que presentan la Audioconferencia en Microsoft Teams al administrador de TI.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca56730d68d0409e0873df986b8618c9e7da2a46
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: d3c2c8c557c8a91b1adeafc523261b7aef499d51
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="videos-audio-conferencing-in-microsoft-teams"></a>Vídeos: Audioconferencia en Microsoft Teams
 =============================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 No se pierda [Vídeos: Audioconferencia en Microsoft Teams](audio-conferencing.md).
 

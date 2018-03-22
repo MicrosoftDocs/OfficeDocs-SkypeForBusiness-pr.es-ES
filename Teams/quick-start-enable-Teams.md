@@ -1,5 +1,5 @@
 ---
-title: "Inicio rápido: Guía de planificación de Microsoft Teams"
+title: 'Inicio rápido: Guía de planificación de Microsoft Teams'
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,15 +7,15 @@ ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, tonysmit
-description: "Use esta guía como ayuda para planificar, implementar y adoptar Microsoft Teams en su organización."
+description: Use esta guía como ayuda para planificar, implementar y adoptar Microsoft Teams en su organización.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7111e5aea9869a99ffec76f7da655f1ac0261aa8
-ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
-ms.translationtype: HT
+ms.openlocfilehash: ce2ac8ff38f5f051a3e288efede53efa4dc0c6e5
+ms.sourcegitcommit: 70fc5217f588e10ab0edb400f329ea597efaab52
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 03/12/2018
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>Inicio rápido: Guía de planificación de Microsoft Teams
 ==========================================================
@@ -44,7 +44,7 @@ Vea este breve vídeo con sencillas instrucciones que se deben tener en cuenta a
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
-Si Microsoft Teams no está habilitado en su inquilino de Office 365 y es un administrador de Office 365, siga las instrucciones que aparecen en nuestro artículo [Configurar Microsoft Teams en su organización de Office 365](office-365-set-up.md) para garantizar que sus usuarios tengan acceso a la aplicación.
+Si Teams de Microsoft no está habilitado en el inquilino de Office 365 y un Office 365 administrador siga las instrucciones en nuestro artículo [Administrar acceso de usuario a los equipos](user-access.md) para garantizar a los usuarios tengan acceso a la aplicación.
 
 ## <a name="step-3-complete-technical-planning"></a>Paso 3: complete la planificación técnica
 

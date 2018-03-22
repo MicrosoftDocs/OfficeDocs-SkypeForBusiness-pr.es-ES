@@ -3,7 +3,7 @@ title: Gestionar acceso de los usuarios a Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
@@ -12,63 +12,72 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd2c7490c837e34e242feed295e63a7ebac11dc6
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: a612420808af06a773d206573f02d805aac06b15
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gestionar acceso de los usuarios a Microsoft Teams
 =====================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-A nivel de usuario, el acceso a Microsoft Teams puede habilitarse o deshabilitarse por usuario, asignando o quitando la licencia de producto de Microsoft Teams.
+En el nivel de usuario, acceso a Teams de Microsoft puede habilitar o deshabilitar en cada usuario asignar o quitando la licencia del producto Microsoft Teams.
 
-Actualmente, no hay opciones de directiva para activar a desactivar características, o un subconjunto de características, de Microsoft Teams a nivel de un usuario individual fuera de la licencia.
-
-
+Actualmente, no hay ninguna opción de directiva para activar equipos o un subconjunto de características de los equipos, o desactivar en un nivel de usuario individual fuera de licencias.
 
 > [!NOTE]
->Microsoft recomienda que Microsoft Teams se habilite para todos los usuarios de una empresa, de modo que los equipos puedan formarse de manera orgánica para proyectos y otras iniciativas dinámicas. Incluso si decide realizar un piloto, podría ser útil mantener Microsoft Teams habilitado para todos los usuarios, pero solo enfocarse en las comunicaciones con el grupo piloto de usuarios.
+>Microsoft recomienda activar equipos para todos los usuarios de una empresa para que los equipos se pueden formar orgánicamente para proyectos y otras iniciativas dinámicas. Incluso si decide a piloto, puede ser útil mantener equipos habilitados para todos los usuarios, pero sólo comunicaciones con el grupo piloto de usuarios de destino.
 
-Las licencias de Microsoft Teams se gestionan directamente a nivel de usuario a través de las interfaces de gestión de usuarios del centro de administración de Office 365 Un administrador puede asignar licencias a nuevos usuarios cuando se crean nuevas cuentas, o bien a usuarios con cuentas existentes. El administrador debe tener privilegios de administrador de control de usuarios y de administrador global para Office 365 para poder gestionar licencias de Microsoft Teams.
+## <a name="manage-directly-through-the-office-365-admin-center"></a>Administrar directamente a través del centro de administración de Office 365
+
+Licencias de nivel de usuario de los equipos se administran directamente a través de las interfaces de administración de Office 365 admin center usuario. Un administrador puede asignar licencias a nuevos usuarios cuando se crean nuevas cuentas de usuario o los usuarios con cuentas existentes. El administrador debe tener privilegios de administrador del usuario o de administrador Global de Office 365 para administrar las licencias de Microsoft Teams.
 
 Cuando una SKU de licencia como E3 o E5 se asigna a un usuario, automáticamente se asigna una licencia de Microsoft Teams y el usuario queda habilitado para Microsoft Teams. Los administradores pueden tener un control granular de todos los servicios y las licencias de Office 365, y la licencia de Microsoft Teams para un usuario específico o un grupo de usuarios puede habilitarse o deshabilitarse.
 
 ![Captura de pantalla de la sección Licencias de productos en el Centro de administración de Office 365.](media/Manage_user_access_to_Microsoft_Teams_image2.png) 
 
-Una licencia de usuario de Microsoft Teams puede deshabilitarse en cualquier momento. Una vez que la licencia se deshabilita, se evitará el acceso de los usuarios a Microsoft Teams y el usuario ya no podrá ver Microsoft Teams en el iniciador de aplicaciones y la página de inicio de Office 365.
+Una licencia de usuario de equipos puede desactivarse en cualquier momento. Una vez que la licencia se deshabilita, se impedirá el acceso de los usuarios a Teams de Microsoft y el usuario ya no podrá ver los equipos en la página principal y el iniciador de la aplicación de Office 365.
 
 ![Captura de pantalla de la sección Licencias de productos en el Centro de administración de Office 365, donde se ve Microsoft Teams seleccionado.](media/Manage_user_access_to_Microsoft_Teams_image4.png)
 
-Además de usar el centro de administración de Office 365, los administradores de Office 365 también pueden usar Office 365 PowerShell para asignar y quitar licencias. Para asignar una licencia a un usuario, utilice la siguiente sintaxis:
+## <a name="manage-via-powershell"></a>Gestionar a través de PowerShell
 
-```
-Set-MsolUserLicense -UserPrincipalName "\<Account\>" -AddLicenses "\<AccountSkuId\>"
-```
+Para habilitar y deshabilitar Teams como licencia de carga de trabajo mediante PowerShell se sigue el mismo procedimiento que con cualquier otra carga de trabajo. El nombre del plan de servicio es TEAMS1 para Microsoft Teams. (Consulte [Deshabilitar el acceso a los servicios con Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) para obtener más información).
 
-En el siguiente ejemplo se asigna una licencia del plan de licencias litwareinc:ENTERPRISEPACK (Office 365 Enterprise E3) al usuario belindan@litwareinc.com sin licencia.
+**Ejemplo:** A continuación es sólo una muestra rápida sobre cómo deshabilitaría equipos para todos los miembros de un tipo de licencia particular. Primero deberá realizar esto y después habilitarlo individualmente para los usuarios que deben tener acceso por motivos de las pruebas piloto.
 
-```
-Set-MsolUserLicense -UserPrincipalName "belindan@litwareinc.com" -AddLicenses "litwareinc:ENTERPRISEPACK"
-```
+Para mostrar los tipos de planes que tiene en su organización, use el siguiente comando:
 
-Para obtener más detalles y ejemplos, consulte [Asignar licencias a cuentas de usuario con PowerShell de Office 365](https://go.microsoft.com/fwlink/?linkid=855755).
+      Get-MsolAccountSku
 
-Para quitar licencias de una cuenta de usuario existente, utilice la siguiente sintaxis:
+Rellene el nombre del plan que incluye el nombre de su organización y el plan de su centro educativo (como ContosoSchool:ENTERPRISEPACK_STUDENT), y después ejecute los siguientes comandos:
 
-```
-Set-MsolUserLicense -UserPrincipalName \<Account\> -RemoveLicenses "\<AccountSkuId1\>", "\<AccountSkuId2\>"
-```
+      $acctSKU="<plan name>
+      $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
+Para deshabilitar los equipos para todos los usuarios con una licencia activa para su plan con nombre, ejecute el siguiente comando:
 
-En el siguiente ejemplo se elimina la licencia litwareinc:ENTERPRISEPACK de la cuenta de usuario BelindaN@litwareinc.com.
-
-```
-Set-MsolUserLicense -UserPrincipalName belindan@litwareinc.com -RemoveLicenses "litwareinc:ENTERPRISEPACK"
-```
-
-Para obtener más detalles y ejemplos, consulte [Eliminar licencias de cuentas de usuario con PowerShell de Office 365](https://go.microsoft.com/fwlink/?linkid=855756).
+      Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
 
 | | | |
 |---------|---------|---------|
-|![Icono de Punto de decisión.](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Punto de decisión         |<ul><li>¿Cuál es el plan de su organización para comenzar a usar Microsoft Teams en toda la organización? (Piloto o Abierto)</li></ul>         |
-|![Icono de Siguientes pasos.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Siguientes pasos         |<ul><li>Si realiza la adopción a través de Piloto, decida si desea hacerlo a través de licencias o comunicación dirigida.</li><li>Según cuál sea su decisión, realice los pasos para asegurarse de que solo los usuarios piloto puedan acceder a Microsoft Teams (si es necesario).</li><li>Documente qué usuarios tendrán (o no tendrán) acceso a Microsoft Teams.</li></ul>         |
+|![Icono de Punto de decisión.](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Punto de decisión         |<ul><li>¿Cuál es el plan de la organización para la incorporación de equipos en toda la organización?  (Prueba piloto o abrir)</li></ul>         |
+|![Icono de Siguientes pasos.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Siguientes pasos         |<ul><li>Si realiza la adopción a través de Piloto, decida si desea hacerlo a través de licencias o comunicación dirigida.</li><li>Dependiendo de la decisión, tome pasos para asegurarse de que sólo los usuarios autorizados para tener acceso a los equipos (si es necesario) del piloto.</li><li>Documentar las directrices para que los usuarios que serán (o no) tener acceso a los equipos.</li></ul>         |
+
+## <a name="manage-via-office-sku-level-switch"></a>Gestionar a través de interruptor del nivel del Sku de Office
+[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
+
+1.  Inicie sesión en el [Centro de administración de Office 365](https://go.microsoft.com/fwlink/?linkid=854614) con una cuenta que tenga privilegios de administrador global.
+
+2.  Vaya a **Configuración** > **Servicios y complementos**.
+
+    ![Captura de pantalla de la sección Configuración del Centro de administración de Office 365 con Servicios y complementos seleccionado. ](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image1.png)
+
+3.  En la página Servicios y complementos, haga clic en **Microsoft Teams**.
+
+    ![Captura de pantalla de la página Servicios y complementos con Microsoft Teams seleccionado.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
+
+4.  Para activar Teams para la organización, use el selector de licencias, seleccione cada licencia, después establezca el botón de alternancia en **Activado** y finalmente haga clic en **Guardar**.
+
+    ![Captura de pantalla de la página de configuración de Microsoft Teams donde se ve el botón de alternancia establecido en Activado para habilitar Microsoft Teams.](media/Services-and-addins-control-Microsoft-Teams.PNG)

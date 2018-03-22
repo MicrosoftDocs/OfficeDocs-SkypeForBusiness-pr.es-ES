@@ -3,54 +3,49 @@ title: Obtener clientes para Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
-description: "Aprenda a usar los distintos clientes disponibles para Microsoft Teams, que incluyen web, escritorio (Windows y Mac) y móvil (Android, iOS y Windows Phone)."
+description: Aprenda a usar los distintos clientes disponibles para Microsoft Teams, que incluyen web, escritorio (Windows y Mac) y móvil (Android, iOS y Windows Phone).
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f2208ed21eb2db33f8d8ff90af97caa5b4912dfd
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 6cc06497da95f6c9e0f4e6a39d851125922e8b31
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
 ===========================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Microsoft Teams tiene clientes disponibles para web, escritorio (Windows y Mac) y móvil (Android, iOS y Windows Phone). Todos estos clientes requieren una conexión a Internet activa y no admiten el modo sin conexión.
 
 <a name="web-client"></a>Cliente web 
 ----------------
 
-El cliente web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) es un cliente completo y funcional que puede utilizarse desde una variedad de exploradores. En este momento, el cliente web no admite comunicaciones en tiempo real (por ejemplo, unirse a reuniones y realizar llamadas de uno a uno). Además, el explorador debe configurarse para permitir cookies de terceros. 
+El cliente web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) es un cliente completo y funcional que se puede usar desde una variedad de exploradores. En este momento, el cliente web no admite comunicaciones en tiempo real (por ejemplo, unirse a reuniones y realizar llamadas de uno a uno). Además, el explorador debe configurarse para permitir cookies de terceros. 
 
 No se requiere un complemento ni una descarga para utilizar Microsoft Teams con un explorador web.
 
-El cliente web detecta la versión del explorador al conectarse con [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) y, si se detecta una versión no admitida, se bloquea el acceso a la interfaz web y se recomienda al usuario que descargue el cliente de escritorio o la aplicación móvil.
+El cliente Web realiza la detección de la versión de explorador al conectarse a [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) y si se detecta una versión de explorador incompatible, se bloquea el acceso a la interfaz Web y se recomienda que el usuario descargue el cliente de escritorio o una aplicación móvil.
 
 <a name="internet-browser-support"></a>Compatibilidad con exploradores web
 ------------------------------
-Microsoft Teams es compatible con los siguientes exploradores web: 
-- Internet Explorer 11
-- Microsoft Edge
-- La última versión de Chrome y dos versiones anteriores
-- La última versión de Firefox y dos versiones anteriores
-
-> [!NOTE]
-> Actualmente Safari no es compatible. Consulte el [mapa de ruta](http://aka.ms/TeamsRoadmap) para obtener información sobre las nuevas características de Microsoft Teams. A los usuarios que intenten abrir Microsoft Teams en Safari se les redirigirá al sitio de descarga del cliente de escritorio de Microsoft Teams.
+[!INCLUDE [browser-support](includes/browser-support.md)]
 
 <a name="desktop-clients"></a>Clientes de escritorio
 ------------------------
 
-El cliente de escritorio de Microsoft Teams es una aplicación independiente y, actualmente, no forma parte de Office Pro Plus. Microsoft Teams está disponible para Windows (7+), en versiones de 32 y 64 bits, y para MacOs (10.10 y posteriores).
+El cliente de escritorio Teams de Microsoft es una aplicación independiente y no forma parte de Office Pro Plus actualmente. Equipos está disponible para Windows (7 +), versiones de 32 bits y 64 bits y MacOS (10.10 +). En Windows, los equipos requiere .NET framework 4.5 o posterior; el programa de instalación de equipos ofrecerá a instalarlo si no lo tiene.
 
-Los clientes de escritorio brindan asistencia en tiempo real para las comunicaciones (audio, vídeo y contenido compartido) para las reuniones de equipo, las llamadas grupales y las llamadas de uno a uno.
+Los clientes de escritorio ofrecen soporte de comunicaciones en tiempo real (audio, vídeo y contenido para compartir) para reuniones de equipo, llamadas uno-a-uno de grupo llamada y privada.
 
-Los usuarios pueden descargar e instalar los clientes de escritorio directamente desde [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) si tienen los permisos locales adecuados (no se requieren derechos de administrador para instalar el cliente de Teams en PC, pero sí son necesarios para Mac).
+Pueden descargar e instalar los usuarios finales directamente desde los clientes de escritorio [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) si tienen los permisos adecuados locales (derechos de administrador no son necesarios para instalar el cliente de los equipos en un PC pero se requieren en un Mac).
 
 Los administradores de TI pueden elegir su método preferido para distribuir los archivos de instalación en las máquinas de su organización, como System Center Configuration Manager (Windows) o Casper Suite (MacOS).
 

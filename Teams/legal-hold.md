@@ -1,5 +1,5 @@
 ---
-title: "Poner a un usuario o un equipo de Microsoft Teams en retención legal"
+title: Poner a un usuario o un equipo de Microsoft Teams en retención legal
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,14 +7,14 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
-description: "Aprenda a poner a un usuario o un equipo de Microsoft Teams en retención legal mediante el Centro de seguridad y cumplimiento, y conozca qué debe poner en retención legal en función de los requisitos de datos."
+description: Aprenda a poner a un usuario o un equipo de Microsoft Teams en retención legal mediante el Centro de seguridad y cumplimiento, y conozca qué debe poner en retención legal en función de los requisitos de datos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66dbf943c34c095db39b9b5399f44872c28d583e
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 7a4c62eb41131d43a3873499f1d562a30ffff946
+ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Poner a un usuario o un equipo de Microsoft Teams en retención legal
 ==================================================
@@ -25,7 +25,7 @@ Para poner a un usuario o un equipo en retención legal, navegue al [Centro de s
 > Si pone a un usuario en retención, el grupo no se pondrá en retención y viceversa.
 
 > [!IMPORTANT]
-> "Cuando se pone en retención a un usuario o un grupo, se retienen todas las copias de los mensajes. Ejemplo: Clay publicó un mensaje en un canal y luego lo modificó. En una situación de retención, se retienen las dos copias del mensaje. Si no hay retención legal, se retiene solo el último mensaje.
+> Cuando se pone en retención a un usuario o un grupo, se retienen todas las copias de mensajes. Ejemplo: Clay publicó un mensaje en un canal y luego lo modificó. En una situación de retención, se retienen las dos copias del mensaje. Si no hay retención legal, se retiene solo el último mensaje.
 
 
 

@@ -7,15 +7,15 @@ ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: "Guía para usar Skype Empresarial y Microsoft Teams en paralelo."
+description: Guía para usar Skype Empresarial y Microsoft Teams en paralelo.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66e21cb6e170785c336f4737cd61596d33ae305e
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 27e6f4449f4568f9777be92c8520215721154e2f
+ms.sourcegitcommit: 70fc5217f588e10ab0edb400f329ea597efaab52
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/12/2018
 ---
 <a name="enable-microsoft-teams-side-by-side-with-skype-for-business"></a>Habilitar Microsoft Teams en paralelo con Skype Empresarial 
 =============================================================
@@ -183,7 +183,7 @@ En esencia, Microsoft Teams se creó en torno al chat persistente y la integraci
 
 Dado que, de forma predeterminada, los usuarios de su organización que tienen una licencia de suscripción a Office 365 apta están habilitado para poder usar Microsoft Teams, se crea una experiencia piloto limitada de Microsoft Teams en la que se deshabilita la licencia de Microsoft Teams de todos los usuarios que no pertenecen a este grupo piloto.
 
-Para centrarse en el lanzamiento de Microsoft Teams como solución de chat privado y colaboración, y reducir la confusión que genera en los usuarios tener varias funcionalidades que se solapan con Skype Empresarial, puede cambiar las siguientes configuraciones en el nivel de inquilino de Office 365. Para cambiar estas configuraciones de Office 365, vea [Configurar Microsoft Teams en su organización de Office 365](Office-365-set-up.md).
+Para centrarse en el lanzamiento de Microsoft Teams como solución de chat privado y colaboración, y reducir la confusión que genera en los usuarios tener varias funcionalidades que se solapan con Skype Empresarial, puede cambiar las siguientes configuraciones en el nivel de inquilino de Office 365. Para cambiar esta configuración de Office 365, consulte [funciones de administrar equipos de Microsoft en su organización de Office 365](enable-features-office-365.md).
 
 <table>
 <thead>

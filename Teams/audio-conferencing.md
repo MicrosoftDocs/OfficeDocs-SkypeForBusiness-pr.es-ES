@@ -1,24 +1,26 @@
 ---
-title: "Guía práctica para implementar Audioconferencia en Microsoft Teams."
+title: Guía práctica para implementar Audioconferencia en Microsoft Teams.
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 12/22/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor, lolaj
-description: "Guía práctica para planificar, implementar y administrar Sistema telefónico con Planes de llamada en Microsoft Teams mediante el marco Enfoque (planificar), Incorporación (entregar), Nuevos valores (operar)."
+description: Guía práctica para planificar, implementar y administrar Sistema telefónico con Planes de llamada en Microsoft Teams mediante el marco Enfoque (planificar), Incorporación (entregar), Nuevos valores (operar).
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f845be7ddf83605adad119f7efa53725033a7823
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: cb41f929f477a058ee8c811f357caa6ff3de62ac
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Guía práctica para implementar Audioconferencia en Microsoft Teams.
 ============================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Audioconferencia en Office 365 permite a los participantes unirse a las reuniones desde cualquier teléfono.
 
@@ -359,7 +361,7 @@ También puede configurar cómo gestiona cada organizador de una reunión los au
 Hay otras configuraciones que se pueden aplicar para cada usuario y poder controlar el uso de los números de teléfono gratuitos para puentes de conferencia y realizar llamadas desde una conferencia.
 
 > [!NOTE]
-> Estos controles relacionados con los costes solo están disponibles en este momento para clientes de la versión preliminar. Puede inscribir a su organización en el programa de versión preliminar en [https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013).
+> Estos controles relacionados con los costes solo están disponibles en este momento para clientes de la versión preliminar. Puede inscribir a su organización en el programa de vista previa de [https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013).
 
 Con estos controles, puede decidir si los organizadores de las reuniones pueden proporcionar números de teléfono gratuitos para puentes de conferencia en las reuniones que organicen ellos y controlar si los participantes pueden llamar desde las reuniones que organicen ellos. El nivel de control de la aceptación de llamada abarca desde deshabilitar la aceptación de llamada, permitir solo llamar a números nacionales o permitir llamar a números nacionales e internacionales.
 

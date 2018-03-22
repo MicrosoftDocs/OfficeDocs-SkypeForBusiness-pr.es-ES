@@ -1,26 +1,28 @@
 ---
-title: "Configurar Microsoft Teams en su organización de Office 365"
+title: Activar Teams de Microsoft en su organización de Office 365
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
-description: "Aprenda a configurar Microsoft Teams en su organización de Office 365."
+description: Aprenda a activar Teams de Microsoft para la organización de Office 365.
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a6ec5e59471ed6527bbaefd4969f5b8e7e5a5bc
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: ac66fd152a5880d23169c93a26d4dcd6d2056942
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
-<a name="set-up-microsoft-teams-in-your-office-365-organization"></a>Configurar Microsoft Teams en su organización de Office 365
+<a name="turn-on-microsoft-teams-in-your-office-365-organization"></a>Activar Teams de Microsoft en su organización de Office 365
 ======================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 De forma predeterminada, Teams está activado para todas las organizaciones. Si ha usado Teams durante la fase preliminar, la configuración es la misma que se usó durante la versión preliminar de Teams.
 
@@ -31,7 +33,7 @@ Si desea saber más cosas sobre cómo se administran las licencias, lea [Licenci
 
 
 ## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>Activar o desactivar Teams para toda su organización
-
+[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
 1.  Inicie sesión en el [Centro de administración de Office 365](https://go.microsoft.com/fwlink/?linkid=854614) con una cuenta que tenga privilegios de administrador global.
 
@@ -46,7 +48,3 @@ Si desea saber más cosas sobre cómo se administran las licencias, lea [Licenci
 4.  Para activar Teams para la organización, use el selector de licencias, seleccione cada licencia, después establezca el botón de alternancia en **Activado** y finalmente haga clic en **Guardar**.
 
     ![Captura de pantalla de la página de configuración de Microsoft Teams donde se ve el botón de alternancia establecido en Activado para habilitar Microsoft Teams.](media/Services-and-addins-control-Microsoft-Teams.PNG)
-
-
-> [!NOTE]
-> El control a nivel de inquilino del estado activado/desactivado de Teams es temporal y se eliminará en el futuro. Cuando esto ocurra, el acceso a Teams se controlará únicamente mediante licencias de nivel de usuario. 

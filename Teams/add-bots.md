@@ -3,23 +3,25 @@ title: Agregar bots para chats privados y canales en Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lucarras
-description: "Obtenga más información sobre cómo agregar bots en Microsoft Teams para chats privados y canales, crear bots personalizados y transferir localmente su propio bot para chats privados."
+description: Obtenga más información sobre cómo agregar bots en Microsoft Teams para chats privados y canales, crear bots personalizados y transferir localmente su propio bot para chats privados.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d95f95e3c7db9ea257cf26761c41205eeacd131
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 50abaf5e6fb15451bfa1695ab2a16e0ce1747232
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Agregar bots para chats privados y canales en Microsoft Teams
 ==========================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Los bots son programas automatizados que responden a consultas u ofrecen actualizaciones y notificaciones sobre detalles que a los usuarios les resultan interesantes o sobre los que quieren mantenerse informado. Los bots permiten que los usuarios interactúen con servicios en la nube, como la administración de tareas, la programación y los sondeos, mediante conversaciones de chat en Microsoft Teams. Los bots de Microsoft Teams se crean en [Microsoft Bot Framework](https://go.microsoft.com/fwlink/?linkid=854370), y los bots desarrollados con este marco se pueden habilitar fácilmente para Microsoft Teams. Para obtener más información, consulte [Habilitar características de Microsoft Teams en su organización de Office 365](enable-features-office-365.md).
+Los robots son programas automatizados que responden a las consultas o proporcionan actualizaciones y notificaciones acerca de los usuarios de detalles encuentran interesantes o deseen mantenerse informado sobre. Los bots permiten a los usuarios interactuar con los servicios de nube como tareas de administración, programación y sondeo a través de conversaciones por chat en Teams de Microsoft. Robots de Teams de Microsoft se basan en el [Marco de Microsoft Bot](https://go.microsoft.com/fwlink/?linkid=854370). Los robots que se desarrollan mediante este marco se pueden habilitar fácilmente para Microsoft Teams. Para obtener más información, consulte [funciones de administrar equipos de Microsoft en su organización de Office 365](enable-features-office-365.md).
 
 Actualmente, Microsoft Teams admite bots en chats privados y canales dentro de un equipo. Los administradores pueden controlar si el uso de bots está permitido o prohibido en el inquilino de Office 365.<span id="_T-Bot" class="anchor"></span>
 

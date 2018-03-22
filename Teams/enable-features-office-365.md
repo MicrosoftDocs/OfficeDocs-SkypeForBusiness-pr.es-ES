@@ -1,28 +1,30 @@
 ---
-title: "Habilitar características de Microsoft Teams en su organización de Office 365"
+title: Administrar las características de Teams de Microsoft en su organización de Office 365
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/29/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
-description: "Conozca todas las características de Microsoft Teams que puede activar o desactivar en su organización de Office 365, incluidos la configuración en todo el inquilino, la integración del correo electrónico, las aplicaciones, el almacenamiento en nube y mucho más."
+description: Conozca todas las características de Microsoft Teams que puede activar o desactivar en su organización de Office 365, incluidos la configuración en todo el inquilino, la integración del correo electrónico, las aplicaciones, el almacenamiento en nube y mucho más.
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87871cb46c1b9e584308b75376622473a3131888
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: d4e450f4ffcb178a19d185b14d65b7adb880924b
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/15/2018
 ---
-<a name="turn-on-microsoft-teams-features-in-your-office-365-organization"></a>Habilitar características de Microsoft Teams en su organización de Office 365
+<a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Administrar las características de Teams de Microsoft en su organización de Office 365
 ======================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Microsoft Teams tiene varios parámetros de configuración que se pueden habilitar o deshabilitar a nivel de inquilino de Office 365. Si Microsoft Teams está habilitado para un inquilino, cualquier usuario que esté también habilitado para Teams heredará del nivel de inquilino.
+Los equipos tiene varias opciones que pueden ser activados o desactivados en el nivel de inquilinos de Office 365. Con equipos habilitados, cualquier usuario que también está habilitado para los equipos heredará la configuración del nivel de inquilinos.
 
 A continuación puede ver una lista de las características que los administradores de Office 365 pueden activar o desactivar en Microsoft Teams. 
 
@@ -70,9 +72,7 @@ Establezca la siguiente configuración de **Integración de correo electrónico*
 
    ![Captura de pantalla de la sección de integración del correo electrónico en la configuración para todos los inquilinos.](media/QS-edu-email-integration.png)
 
--   **Permitir que los usuarios puedan enviar correo electrónico a los canales:** si esta opción está activada, se habilitan los enlaces de correo electrónico y los usuarios pueden publicar mensajes en un canal enviando un correo electrónico a la dirección de correo electrónico del canal de Microsoft Teams. 
 
- 
 -   **Permitir que los usuarios puedan enviar correo electrónico a los canales:** si está habilitada esta opción, los enlaces de correo electrónico se habilitan también y los usuarios pueden publicar mensajes en un canal enviando un correo electrónico a la dirección de correo electrónico del canal de Microsoft Teams. 
 
     Para buscar la dirección de correo electrónico de un canal, haga clic en el menú **Más opciones** del canal y después seleccione **Obtener dirección de correo electrónico**. 
@@ -107,10 +107,17 @@ Las opciones de almacenamiento en nube en Microsoft Teams actualmente incluyen B
 
 ![Captura de pantalla de la sección de almacenamiento en nube personalizado.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
 
-<a name="user-settings-by-license"></a>Configuración de usuario por licencia
+<a name="settings-by-userlicense-type"></a>Ajustes por tipo de usuario o licencia
 ------------------------
+Cuando configura Microsoft Teams para su organización inicialmente, utilizó el el menú de **ajustes por tipo de licencia de** usuario/lista desplegable para seleccionar un tipo de licencia y luego se encienden los equipos para todos los usuarios de ese tipo de licencia.
 
-En **Configuración de usuario por licencia**, puede activar o desactivar las opciones que se encuentran en Equipos y canales, Llamadas y reuniones, y Mensajes.
+[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
+
+ Algunos ejemplos de tipos de licencia de usuario o son **Business & Enterprise** e **invitado**. (Si tiene una licencia de SKU de formación, **educación - profesores y personal** o **educación - alumno** están disponibles.) ![Control de licencia de usuario del conjunto](media/enable-microsoft-teams-features-in-your-office-365-organization-image13.png)
+
+Puede tener varios tipos de licencia dentro de la organización, por ejemplo, tanto **Business & Enterprise** como **invitado**. Teams de Microsoft sólo puede distinguir usuarios en función de las licencias que se les haya asignado. Puede activar o desactivar opciones para estos usuarios en **equipos y canales**, **reuniones y llamadas**y **mensajería**. Si se utiliza sólo una licencia tipo, considere la configuración aquí como configuración del arrendatario.
+> [!NOTE]
+> Para obtener más detalles sobre el acceso de invitado, consulte [Activar o desactivar acceso de invitado a equipos de Microsoft](set-up-guests.md).
 
 <a name="teams-and-channels"></a>Equipos y canales
 ------------------

@@ -1,20 +1,20 @@
 ---
-title: "Generar nuevos valores a través de la adopción de usuarios"
+title: Generar nuevos valores a través de la adopción de usuarios
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
-description: "Guía para que continúe el recorrido desde Skype Empresarial a Microsoft Teams."
+description: Guía para que continúe el recorrido desde Skype Empresarial a Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b897a4de7358faf01bb2c79835a5d7254c88dca
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 2162fdf8a942c9a45949c52efaf4fc9b70b76b00
+ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/09/2018
 ---
 <a name="drive-value-with-microsoft-teams-through-user-adoption"></a>Generar nuevos valores a través de la adopción de usuarios
 ================================================================
@@ -35,7 +35,7 @@ Microsoft se esfuerza en ofrecer guías prácticas adaptadas a cada caso y garan
 - ¿Es nuevo en la adopción y administración de cambios? Utilice la [guía de adopción de Office 365](https://go.microsoft.com/fwlink/?linkid=859045).
 
 
-## <a name="get-your-organizaton-ready-for-your-future-move-to-teams"></a>Preparar a su organización para el próximo cambio a Microsoft Teams
+## <a name="get-your-organization-ready-for-your-future-move-to-teams"></a>Dirección y prepárese para la migración futura a equipos de su organización
 
 - Use el [mapa de ruta](https://go.microsoft.com/fwlink/?linkid=859047) para desplazarse por su recorrido hasta Microsoft Teams.
 

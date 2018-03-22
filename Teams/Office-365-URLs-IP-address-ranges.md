@@ -3,26 +3,26 @@ title: Direcciones URL e intervalos de direcciones IP de Office 365
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
-description: "Aprenda a configurar correctamente los intervalos de direcciones IP y URL de Office 365, omita el proxy de reenvío cuando esté disponible para las conexiones con el servicio de Microsoft Teams y los requisitos para las directivas de redes y seguridad."
+description: Aprenda a configurar correctamente los intervalos de direcciones IP y URL de Office 365, omita el proxy de reenvío cuando esté disponible para las conexiones con el servicio de Microsoft Teams y los requisitos para las directivas de redes y seguridad.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 597d9ceb2f72fcd624b3071d26264ce74650cc0c
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 713815836b2edcad31528abc01c74a2332ecf88a
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>Direcciones URL e intervalos de direcciones IP de Office 365
 =====================================
 
-Eche un vistazo a este enlace para obtener una lista detallada y actualizada de las direcciones IP y los puertos exactos que se deben configurar: [Intervalos de direcciones IP y URL de Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US). Microsoft está mejorando continuamente el servicio de Office 365 y agregando nuevas funcionalidades, por lo que los puertos necesarios, las URL y las direcciones IP pueden cambiar con el paso del tiempo. Consulte la guía [URL de Office 365 e intervalos de direcciones IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) para conocer las versiones más actualizadas de puertos y protocolos. También le recomendamos que se [suscriba mediante RSS](https://go.microsoft.com/fwlink/p/?linkid=236301) para recibir notificaciones cuando los puntos de conexión se actualicen o cambien.
+Ir a [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) para obtener una lista detallada y actualizada de las direcciones URL, direcciones IP, puertos y protocolos que deben configurarse correctamente para los equipos. Microsoft está mejorando continuamente el servicio Office 365 y agregar nueva funcionalidad, lo que significa que los puertos requeridos, direcciones URL, y direcciones IP pueden cambiar con el tiempo. Recomendamos que [Suscribirse mediante RSS](https://go.microsoft.com/fwlink/p/?linkid=236301) para recibir notificaciones cuando se actualiza o cambia esta información.
 
-Como ya se ha mencionado, la experiencia de llamadas y reuniones de Microsoft Teams se creó a partir de la infraestructura en la nube de próxima generación que también se usa en Skype y Skype Empresarial. Entre estas inversiones tecnológicas se encuentran los servicios en la nube de Azure para señalización y procesamiento de medios, códec de vídeo H.264, códec de audio SILK y Opus, resiliencia de red, telemetría y diagnóstico de calidad. Como tal, hay URL y direcciones IP que son necesarias y puede que estén asociadas con Skype y Skype Empresarial.
+Los equipos de experiencia de llamada y las reuniones se basa en la siguiente generación basada en nube infraestructura que también es utilizada por Skype y Skype para el negocio. Estas inversiones en tecnología incluyen servicios de nube basados en Azure para el procesamiento y la señalización de medios, códec de vídeo H.264, códecs de audio SILK y Opus, resiliencia de red, telemetría y diagnósticos de la calidad. Como tales, hay direcciones URL y direcciones IP que son necesarios que pueda asociarse con Skype y Skype para el negocio.
 
-Para todas las cargas de trabajo de Office 365, el método de conexión recomendado para los servicios de Microsoft Teams es omitir el proxy de reenvío siempre que sea posible. Cuando un servidor proxy se asienta entre un cliente y los centros de datos de Office 365, es posible que los medios se fuercen a través de TCP en lugar de UDP, lo que afectaría a la calidad de los medios. Puede descargar un archivo PAC de proxy de muestra y usarlo para configurar la omisión del tráfico en la guía [Administración de puntos de conexión de Office 365](https://support.office.com/article/managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a).
+Para todas las cargas de trabajo de Office 365, el método recomendado de conexión a los servicios de los equipos está omitiendo al proxy de reenvío cuando sea posible. Cuando un servidor proxy se sitúa entre un cliente y los centros de datos de Office 365, los medios de comunicación pueden verse obligado sobre TCP en lugar de UDP, que afectaría la calidad media. Descargar archivos de PAC de proxy de ejemplo que pueden utilizarse para configurar la omisión de tráfico de los [extremos de administración de Office 365](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a).
 
-Si sus directivas de redes y seguridad requieren que el tráfico de Office 365 pase por un servidor proxy, asegúrese de que se cumplen los requisitos anteriores antes de implementar Microsoft Teams en producción (eche un vistazo a [Servidores proxy para Skype Empresarial Online](https://support.office.com/article/Proxy-Servers-for-Skype-for-Business-Online-7acaf2c2-35fa-490f-84cd-822e446e0fc7?ui=en-US&rs=en-US&ad=US) para más información).
+Si las directivas de seguridad y redes requieren Office 365 tráfico fluya a través de un servidor proxy, asegúrese de que los requisitos anteriores se cumplen antes de implementar equipos en producción (revisión de [Servidores Proxy para Skype para los negocios en línea](https://support.office.com/article/Proxy-Servers-for-Skype-for-Business-Online-7acaf2c2-35fa-490f-84cd-822e446e0fc7?ui=en-US&rs=en-US&ad=US) para Guía).

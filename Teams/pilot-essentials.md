@@ -3,18 +3,18 @@ title: Crear un proyecto piloto de Microsoft Teams junto a Skype Empresarial
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/02/2018
+ms.date: 03/19/2018
 ms.topic: article
 ms.service: msteams
-description: "Guía para iniciar una experiencia piloto de Microsoft Teams en la que se analice todo lo que Microsoft Teams puede ofrecer a su organización mientras sigue usando Skype Empresarial."
+description: Guía para iniciar una experiencia piloto de Microsoft Teams en la que se analice todo lo que Microsoft Teams puede ofrecer a su organización mientras sigue usando Skype Empresarial.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5c764212d439ef7e3592b52b841e2b531265ec7
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 386221bfc8a3249ef4c902605171e636f8a48f40
+ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/20/2018
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Crear un proyecto piloto de Microsoft Teams junto a Skype Empresarial
 ============================================
@@ -102,7 +102,7 @@ Para que la validación sea la mejor posible, debe intentar incluir aproximadame
 <thead>
 <tr class="header">
 <td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>Siguiente acción:</strong> identificar los grupos de prueba para el piloto.</td>
+<td align="left"><strong>La acción siguiente:</strong> Identificar los grupos de prueba piloto usando la dirección [Seleccionar usuarios para la prueba piloto de equipos](https://review.docs.microsoft.com/en-us/MicrosoftTeams/select-users-for-your-teams-pilot?branch=cloudvoice-working) .</td>
 </tr>
 </thead>
 <tbody>
@@ -126,7 +126,9 @@ Una experiencia piloto que logre sus objetivos ofrece a sus participantes unas t
 
 ## <a name="step-four-create-your-communications"></a>Paso cuatro: crear sus comunicaciones
 
-Informar a los participantes del programa piloto sobre lo que va a suceder, cuándo y por qué, así como lo que se espera de ellos, es muy importante para que tenga éxito. Para contagiarles el entusiasmo y lograr que se impliquen al máximo, debe incluir mensajes que sean relevantes para el usuario final cuando se comunique con los participantes del proyecto. Además, debe aportar vínculos a formación y soporte en los que los usuarios puedan conseguir información adicional conforme vaya avanzando el piloto.
+Informar a los participantes del programa piloto sobre lo que va a suceder, cuándo y por qué, así como lo que se espera de ellos, es muy importante para que tenga éxito. Para contagiarles el entusiasmo y lograr que se impliquen al máximo, debe incluir mensajes que sean relevantes para el usuario final cuando se comunique con los participantes del proyecto.
+
+Además, debe aportar vínculos a formación y soporte en los que los usuarios puedan conseguir información adicional conforme vaya avanzando el piloto. Un buen tema de ayuda para incluir es [cambiar a los equipos de Skype para el negocio](https://support.office.com/en-us/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964), que muestra algunas características familiares, así como algunas características nuevas que sólo están disponibles en Microsoft Teams.
 
 <table>
 <thead>
@@ -144,7 +146,7 @@ Informar a los participantes del programa piloto sobre lo que va a suceder, cuá
 Una vez que toda la logística esté preparada, podrá comenzar el programa piloto. Dirigir este programa supone comunicarse con los usuarios piloto, supervisar la red y el uso para asegurarse de que la red y la calidad siguen siendo buenas, recopilar opiniones de los participantes y revisar los vales de asistencia al cliente para ver cuáles son las preguntas relacionadas con Microsoft Teams.
 
 > [!IMPORTANT]
-> Teams está activado de forma predeterminada, pero, antes de empezar con el programa piloto, asegúrese de que todos los usuarios piloto están habilitados para Teams. Si necesita ayuda para hacerlo, lea [Habilitar características de Microsoft Teams en su organización de Office 365](enable-features-office-365.md).
+> Teams está activado de forma predeterminada, pero, antes de empezar con el programa piloto, asegúrese de que todos los usuarios piloto están habilitados para Teams. Para obtener Ayuda haciendo esto, lea [Administrar acceso de usuario a los equipos](user-access.md).
 > 
 
 A continuación se sugiere una escala de tiempo para un proyecto piloto de 30 días:

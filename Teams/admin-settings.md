@@ -1,9 +1,9 @@
 ---
-title: "Configurar la administración para aplicaciones en Microsoft Teams"
+title: Configurar la administración para aplicaciones en Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/29/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
@@ -13,14 +13,16 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fb8d7680338ebda68624a765068d4c386ea46b3
-ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
-ms.translationtype: HT
+ms.openlocfilehash: 58fb8598f8e63aa3e8abc943dcffde64452da462
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurar la administración para aplicaciones en Microsoft Teams
 ==========================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Las aplicaciones son fichas, conectores, bots o cualquier combinación de estos tres elementos que proporciona un servicio de terceros. Hay directivas de administración de Microsoft Teams que se pueden configurar en el Centro de administración de Office 365 para controlar qué aplicaciones externas de terceros están permitidas. Estas directivas permiten especificar qué aplicaciones están permitidas y cuáles no, el comportamiento de las aplicaciones nuevas externas y si se permite la instalación de prueba de aplicaciones.
 
@@ -51,7 +53,8 @@ La instalación de prueba es la forma en que se agrega una aplicación a Microso
 
 La instalación de prueba de aplicaciones en Microsoft Teams la pueden realizar únicamente los propietarios del equipo o los miembros con los permisos adecuados.  
 
-![Captura de pantalla de la sección Aplicaciones de la configuración de Microsoft Teams.](media/Admin_settings_for_apps_in_Microsoft_Teams_image1.png) 
+![Captura de pantalla de la sección de aplicaciones ampliada en configuración del arrendatario.](media/Admin_settings_for_apps_in_Microsoft_Teams_image2.png)
+
 
 ## <a name="creating-and-uploading-app-packages"></a>Crear y cargar paquetes de aplicaciones 
 

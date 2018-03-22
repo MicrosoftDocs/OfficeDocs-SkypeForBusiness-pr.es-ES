@@ -7,15 +7,15 @@ ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor, dearbeen
-description: "Una presentación de todo lo que necesita saber sobre el recorrido a Microsoft Teams desde Skype Empresarial Online."
+description: Una presentación de todo lo que necesita saber sobre el recorrido a Microsoft Teams desde Skype Empresarial Online.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: feb21b64982940571192453f012feab2542c3bf9
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: a8d89f0f24f8dc056617ab06890deca74e8fcf60
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 <a name="journey-from-skype-for-business-to-microsoft-teams"></a>Recorrido desde Skype Empresarial a Microsoft Teams
 ==================================================
@@ -44,7 +44,7 @@ Para que los resultados sean los mejores posibles, le recomendamos que siga las 
 
 [Preguntas frecuentes: Skype Empresarial y Microsoft Teams](FAQ-journey.md)
 
-[De Skype Empresarial a Microsoft Teams: mapa de ruta de las opciones](https://aka.ms/skype2teamsroadmap)
+[Guía básica de equipos de Microsoft](https://aka.ms/teamsroadmap)
 
 [De Skype Empresarial a Microsoft Teams: mapa de ruta de las opciones](https://aka.ms/skype2teamsroadmap)
 

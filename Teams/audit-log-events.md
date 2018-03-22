@@ -1,23 +1,25 @@
 ---
-title: "Buscar eventos en el registro de auditoría en Microsoft Teams"
+title: Buscar eventos en el registro de auditoría en Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/22/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
-description: "Aprenda a recuperar datos de Microsoft Teams del registro de auditoría de Office 365."
+description: Aprenda a recuperar datos de Microsoft Teams del registro de auditoría de Office 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f0fa9f55e10d3f2f9b29287b292878c3c2b5b4a
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 2ddf413f192941598f617ea10a755a2c23abd3f7
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 ==================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 El registro de auditoría puede ayudarle a investigar actividades específicas en los servicios de Office 365. Estas son algunas de las actividades que se auditan en Microsoft Teams:
 
@@ -33,7 +35,7 @@ Para ver la lista completa de actividades auditadas en Office 365, consulte [Bus
 
 ## <a name="turn-on-auditing-in-teams"></a>Activar la auditoría en Microsoft Teams
 
-Para que pueda ver los datos de una auditoría, primero debe activar la funcionalidad de auditoría en el **Centro de seguridad y cumplimiento** (https://protection.office.com). Para obtener ayuda para activar la auditoría, consulte [Activar o desactivar la búsqueda de registros de auditoría de Office 365](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
+Antes de que usted puede ver los datos de auditoría, deberá primero activar la auditoría en el **Centro de cumplimiento de normas y seguridad**(https://protection.office.com). Para obtener ayuda para activar la auditoría, consulte [Activar o desactivar la búsqueda de registros de auditoría de Office 365](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
 
 
 > [!IMPORTANT]
