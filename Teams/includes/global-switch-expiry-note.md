@@ -1,0 +1,2 @@
+> [!NOTE]
+> El control a nivel de inquilino del estado activado/desactivado de Teams es temporal y se eliminará en mayo de 2018. Cuando esto ocurra, el acceso a Teams se controlará únicamente mediante licencias de nivel de usuario. Para obtener más información, consulte [Administrar el acceso de los usuarios a Microsoft Teams](../user-access.md).
