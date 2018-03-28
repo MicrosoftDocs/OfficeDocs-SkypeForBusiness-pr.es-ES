@@ -3,7 +3,7 @@ title: Obtener clientes para Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/26/2018
+ms.date: 03/27/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -14,8 +14,8 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 837be1b510441a46984585c517e4d125e244599a
-ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
+ms.openlocfilehash: 61bfc43321433a06eba8196b732f8f12dded0d8d
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
