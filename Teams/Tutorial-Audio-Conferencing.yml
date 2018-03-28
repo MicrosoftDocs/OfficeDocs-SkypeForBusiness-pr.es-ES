@@ -1,0 +1,114 @@
+### YamlMime:Tutorial
+title: Audioconferencia en Microsoft Teams
+metadata:
+  title: Audioconferencia en Microsoft Teams
+  description: Tutorial interactivo le guía a través de conferencias de Audio en Microsoft Teams.
+  audience: IT Pro
+  level: Intermediate
+  displayType: one-column
+  interactive: azurecli
+  ms.author: tbinder
+  ms.reviewer: tbinder
+  manager: serdars
+  ms.date: 02/27/2018
+  ms.service: msteams
+  ms.topic: tutorial
+  ms.collection: Strat_MT_TeamsAdmin
+  appliesto:
+  - Microsoft Teams
+  ms.openlocfilehash: 84e821c7c4cd3f97e59731e90d4c42686140789a
+  ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
+  ms.translationtype: MT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 03/28/2018
+items:
+- durationInMinutes: 1
+  content: >
+    En este curso de formación, presentamos las conferencias de Audio en Microsoft Teams: la capacidad de unirse a una reunión de equipos desde un teléfono normal y el marcado de una reunión en un número de teléfono. Trataremos las capacidades de conferencia de Audio en equipos además de los requisitos y consideraciones de diseño para los equipos.
+
+
+    [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
+
+
+    Esta formación es perfecta en los siguientes casos:
+
+    -   Profesional de TI.
+
+    -   Responsable de planificar, implementar o administrar Microsoft Teams.
+
+    -   Considerando la planificación, implementación o administración de conferencia de Audio en los equipos.
+
+
+    Se cubrirán las siguientes secciones:
+
+    -   Requisitos de conferencia de audio
+
+    -   Pasos de diseño
+
+    -   Informes
+
+
+    Conferencias de audio agrega características y funcionalidad en las reuniones de los equipos. Se recomienda que complete [las reuniones de equipos de Microsoft](http://aka.ms/tr-meetings) antes de este tutorial.
+
+
+    [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
+
+
+    Si tiene preguntas o comentarios acerca de este documento de formación:
+
+
+    -   Registrar en la sección de comentarios en la parte inferior de la página de "Próximos pasos" de este tutorial
+
+    -   Envíenos un correo electrónico a [AskTeams\@Microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Audio%20Conferencing).
+
+
+    Para enviarnos comentarios sobre Microsoft Teams, como ideas para nuevas características, visite [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
+- title: Conferencias de audio en los equipos
+  durationInMinutes: 12
+  content: "\nCon las conferencias de Audio, los participantes utilizan un teléfono normal a participar en las reuniones de los equipos, ya sea mediante el marcado a la reunión desde su teléfono o mediante la funcionalidad de acceso telefónico de salida desde dentro de la reunión. Revise los recursos siguientes para obtener más información acerca de las conferencias de Audio:\n-   [Características de conferencia de audio](https://products.office.com/skype-for-business/audio-conferencing#Features) (tiempo estimado de lectura 1 minuto)\n-   [9 sugerencias para reuniones con los equipos de Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (estimado leyendo tiempo de \"\\#1 - combinación una reunión a través de conferencias de Audio\" es 1 minuto; más si leer el artículo completo)\n-   [Preguntas frecuentes de conferencia de audio](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (tiempo estimado de lectura 7 minutos)\n-   [Marcar desde una reunión para que otras personas pueden unirse a](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (tiempo estimado de lectura 2 minutos)\n"
+- title: 'Escenario: conferencia de Audio'
+  durationInMinutes: 1
+  content: "\nGarth funciona de Contoso, una empresa que tiene varias oficinas. Garth con frecuencia se necesita para conectarse con otras personas en otras ubicaciones de la oficina, y puesto que a menudo él trabaja desde casa o sale de viaje, es un gran aficionado de las reuniones de los equipos. Cuando envía una invitación a la reunión Garth, agrega automáticamente información de conferencia de Audio. Esto hace posible los siguientes escenarios:\n-   Alicia desea asistir a la reunión de Garth pero ella está de viaje y no tiene acceso a una red confiable. Por lo tanto, se une a la reunión utilizando las coordenadas en el marcado de la invitación a la reunión. Durante el proceso de acceso telefónico, utiliza su PIN para autenticar, así que es reconocida por el sistema como \"Alice\".\n-   Bob, que se encuentra actualmente en un hotel, se une a la reunión mediante el cliente de los equipos en su PC. Desafortunadamente, la calidad de audio a través de la conexión a internet en el hotel no es gran cosa, por lo que Bob llama a su propio número de teléfono de la reunión a través de la red telefónica pública conmutada (PSTN).\n-   Si los participantes de la reunión se deciden durante la llamada a la que desea agregar usuarios a un número de teléfono diferente, puede simplemente marcar al teléfono número y traer más personas a la reunión.\n-   Otros usuarios también pueden unirse en el cliente de los equipos de su PC, Mac o dispositivo móvil.\n"
+- title: Consideraciones de Skype para los clientes de negocios
+  durationInMinutes: 1
+  content: "\nSi ya utiliza Skype para el negocio, deberá considerar lo siguiente:\n\n###<a name=\"skype-for-business-serverhomed-users\"></a>Skype para los usuarios alojados en Business Server:\nSi utiliza Skype para Business Server, reuniones de equipos programadas por usuarios que están alojados en Skype para negocios locales no incluirá PSTN coordenadas de reunión. (Esto se documenta en los [problemas conocidos y solución de problemas de conferencia de Audio](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues)).\n\n###<a name=\"skype-for-business-onlinehomed-users\"></a>Skype para usuarios de negocios en línea alojado\nSi los usuarios alojados en Skype para los negocios en línea y estén activados para conferencias de Audio, automáticamente será habilitados para conferencias de Audio en los equipos. El PIN que se utilizan para la autenticación en las reuniones cuando se conectan a será el mismo para Skype para empresas y equipos.\n"
+- title: EnVision de conferencia de Audio
+  durationInMinutes: 48
+  content: "\nOrientación práctica trata con detalle lo que se necesita para planificar e implementar con éxito las conferencias de Audio. Consulte los artículos siguientes para entender estos pasos de diseño técnicos:\n\n-   [Definir mi éxito - conferencia de Audio](https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-audio-conferencing) (tiempo estimado de lectura 11 minutos)\n-   [Decisiones mi servicio - Conferencia de Audio](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing) (tiempo estimado de lectura 12 minutos)\n-   [Evaluar mi entorno](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment) (tiempo estimado de lectura 12 minutos)\n-   [Plan de administración del servicio](https://docs.microsoft.com/MicrosoftTeams/4-envision-plan-my-service-management) (tiempo estimado de lectura 5 minutos)\n-   [Planear la experiencia de los usuarios](https://docs.microsoft.com/MicrosoftTeams/5-envision-plan-my-users-experience) (tiempo estimado de lectura 5 minutos)\n-   [Documento mi plan de éxito](https://docs.microsoft.com/MicrosoftTeams/6-envision-document-my-success-plan) (tiempo estimado de lectura 6 minutos)\n"
+- title: Conferencias de Audio incorporado
+  durationInMinutes: 13
+  content: "\nAl igual que imaginar, la incorporación se trata en orientación práctica. Consulte los siguientes artículos para comprender cómo los usuarios incorporados para conferencias de Audio:\n\n-   [Preparar mi servicio](https://docs.microsoft.com/MicrosoftTeams/1-onboard-prepare-my-service) (tiempo estimado de lectura 6 minutos)\n-   [Preparar Mis usuarios](https://docs.microsoft.com/MicrosoftTeams/2-onboard-prepare-my-users) (tiempo estimado de lectura 2 minutos)\n-   [Implementar mi servicio](https://docs.microsoft.com/MicrosoftTeams/3-onboard-deploy-my-service) (tiempo estimado de lectura 3 minutos)\n-   [Problemas conocidos y solución de problemas de conferencia de audio](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues) (tiempo estimado de lectura para el contenido específico de los equipos es de 2 minutos)\n"
+- title: 'Ejercicio: configurar conferencias de Audio'
+  durationInMinutes: 20
+  content: "\nEn este ejercicio, tendrá la oportunidad de probar las conferencias de Audio en los equipos.\nAunque no describimos cómo realizar cada acción, recomendamos algunos escenarios para probarlo.\n\n###<a name=\"requirements\"></a>Requisitos\n-   Un inquilino de Office 365 con las licencias apropiadas para usar Teams\n    -   Recomendamos encarecidamente el uso de un inquilino de prueba dedicado.\n    -   Si no dispone de un inquilino de prueba, puede registrarse para obtener un inquilino de prueba gratuito en [Prueba de Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).\n    -   No realice pruebas en su entorno de producción. Cambiar configuraciones o directivas puede afectar negativamente a todos los usuarios y a su experiencia de usuario.\n-   Al menos dos puntos de conexión\n    -   Pueden ser dos equipos, pero también puede usar el cliente en un teléfono móvil.\n    -   Un teléfono que pueda conectarse a las reuniones y marcarse para\n\n###<a name=\"suggested-scenarios-to-test\"></a>Escenarios sugeridos para realizar pruebas\n-   Habilitar a usuarios para conferencias de Audio.\n-   Establecer números de puente de conferencia diferente para los distintos usuarios.\n-   Cambiar el número de puente de conferencia predeterminado para el arrendatario.\n-   Cambiar la configuración para el número de puente de conferencia (diferentes idiomas).\n-   Cambiar la configuración global de los puentes de conferencia (reunión notificaciones de entrada y salida, longitud PIN, notificaciones de correo electrónico).\n-   Observe el mensaje que se envía a los usuarios.\n-   Programar reuniones de equipos y revisar la invitación a la reunión.\n-   Unirse a una reunión desde un teléfono.\n-   Marcar desde una reunión a un teléfono.\n-   Utilizar controles de multifrecuencia de tono dual en una reunión para silenciar o quitar el silencio de un teléfono.\n"
+- title: Valor de unidad
+  durationInMinutes: 1
+  content: "\nDesde una perspectiva de informes tiene dos áreas para mirar:\n-   El uso: ¿cuántas reuniones tienen lugar?\n-   La calidad: ¿cuál es la calidad de las reuniones?\n\nDebe supervisar las dos áreas:\n-   Un uso bajo indica que los usuarios, por un motivo u otro, no están usando el producto. Sólo puede determinar las razones investigadas en más profundidad.\n    Los motivos pueden ir desde la percepción de que las reuniones no están cumpliendo los requisitos de los usuarios a una falta de reconocimiento o formación o problemas de calidad.\n-   La calidad baja, por otro lado, indica que hay problemas con la conectividad entre usuarios y Office 365. Puede generar una mala experiencia para el usuario y un uso más bajo. Consulte [Informes de Office 365 en el Centro de administración: actividad de los usuarios de Microsoft Teams](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) (el tiempo estimado de lectura es de 5 minutos) para conocer más cosas sobre los informes de uso.\n\nLa administración de la calidad no se incluye en esta formación, pero puede ver el siguiente material de formación:\n\n-   [Operar mi servicio](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service)\n"
+- title: Pasos siguientes
+  durationInMinutes: 1
+  content: >-
+    En este curso de formación, hemos explicado los siguientes puntos clave:
+
+    -   Conferencias de audio en los equipos
+
+    -   Requisitos para conferencias de Audio
+
+    -   Informes
+
+
+    ### <a name="next-steps"></a>Pasos siguientes
+
+
+    1.  Regístrese en [MyAdvisor](http://aka.ms/myadvisor) para obtener ayuda personalizada acerca de la implementación del servicio.
+
+    2.  Empezar a utilizar la conferencia de Audio en los equipos.
+
+    3.  Envíenos su opinión:
+        - Haga una publicación en la sección de comentarios de la parte inferior de esta página.
+        - Un correo electrónico a [AskTeams\@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Audio%20Conferencing)
+        - Para enviarnos comentarios acerca de Teams o solicitar una nueva característica, diríjase a [UserVoice de Teams](https://microsoftteams.uservoice.com/forums/555103-public).
+    4.  Manténgase al día:
+        - Siga el [Blog de los equipos](https://aka.ms/teamsblog).
+        - Lea la [Guía básica de los equipos](https://aka.ms/skype2teamsroadmap).
+        - Obtenga información acerca de las características más recientes publicadas en las [Notas de la versión](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
+    5.  Descubra [más módulos de formación y tutoriales](http://aka.ms/Teamsacademy).
