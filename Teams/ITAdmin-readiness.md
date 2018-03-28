@@ -11,11 +11,11 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7157f412cc28e44b6149b74a12be98a717496b8f
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: a2dbb006fa9e44d1f2f08efc716063c1c6b1540c
+ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 ==================================
@@ -28,8 +28,9 @@ Descubra Microsoft Teams y fomente su uso en su organización. Vuelva a visitar 
 |  |  |
 |---------|---------|
 | [Tutorial: Recorrido desde Skype Empresarial a Microsoft Teams](tutorial-journey-skypeforbusiness-to-teams.yml) |Una presentación de todo lo que necesita saber sobre el recorrido a Microsoft Teams desde Skype Empresarial Online.  |
-| [Inicio rápido: Administradores de Microsoft Teams para el ámbito educativo](teams-quick-start-edu.yml) |Para los administradores de TI, para implementar Microsoft Teams en toda la organización.   |
-[Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams](configuring-teams-calling-quickstartguide.md)| Guía de inicio rápido para configurar Planes de llamada en Microsoft Teams. |
+| [Tutorial: Conferencia de Audio en los equipos](Tutorial-Audio-Conferencing.yml) | Esta formación interactiva le guiará a través de conferencias de Audio en los equipos. |
+| [Inicio rápido: Teams de Microsoft para administradores de educación](teams-quick-start-edu.yml) |Para los administradores de TI, para implementar Microsoft Teams en toda la organización.   |
+| [Inicio rápido: configurar planes de llamada de Teams de Microsoft](configuring-teams-calling-quickstartguide.md)| Guía de inicio rápido para configurar Planes de llamada en Microsoft Teams. |
 | [Tutorial: Comprender las llamadas en Microsoft Teams](tutorial-calling-in-teams.yml)  |  Este documento de formación presenta las funcionalidades de llamada de Microsoft Teams, que se basan en la función Sistema telefónico en Office 365. Incluye una explicación de la planificación técnica necesaria para implementar Sistema telefónico, cómo configurarlo y cómo supervisar el uso y la calidad de las llamadas en la implementación.  |
 | [Vídeos de Audioconferencia](audio-conferencing-videos.md) |Vídeos que presentan la Audioconferencia en Microsoft Teams al administrador de TI.  |
 | [Tutorial: Reuniones en Teams](tutorial-meetings-in-teams.yml) | Este curso de formación presenta las reuniones de los equipos. Cubre las capacidades de la reunión, más requisitos y consideraciones de planeación. |

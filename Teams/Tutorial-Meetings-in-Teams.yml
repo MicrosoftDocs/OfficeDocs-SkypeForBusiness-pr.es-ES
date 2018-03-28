@@ -2,7 +2,7 @@
 title: Reuniones en Microsoft Teams
 metadata:
   title: Reuniones en Microsoft Teams
-  description: "Este tutorial interactivo le guía por las reuniones en Microsoft Teams."
+  description: Este tutorial interactivo le guía por las reuniones en Microsoft Teams.
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -16,17 +16,58 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 53df8e886493afd686b7bea49a108b59ff41a78b
-  ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
-  ms.translationtype: HT
+  ms.openlocfilehash: 293a74d706ca5be0ba890f8460d970b77de28621
+  ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
+  ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 03/01/2018
+  ms.lasthandoff: 03/28/2018
 items:
 - durationInMinutes: 1
-  content: "Este recurso de formación presenta las reuniones en Microsoft Teams. Se repasarán las funcionalidades de las reuniones en Teams, además de los requisitos y las consideraciones sobre la planificación para Teams.\n\nComo podrá observar a medida que se vaya desarrollando la formación, proporcionamos una gran cantidad de vínculos a información que ya existe, de manera que se crea una estructura del orden en que se deben leer los artículos.\n\nEsta formación es perfecta en los siguientes casos:\n-   Profesional de TI.\n-   Responsable de planificar, implementar o administrar Microsoft Teams.\n-   Está interesado en las reuniones en Teams\n\nSe cubrirán las siguientes secciones:\n-   Reuniones y sus tipos en Teams\n-   Requisitos para las reuniones\n-   Informes\n\nLa siguiente información está fuera del ámbito:\n-   Las reuniones pueden incluir una característica en la que los participantes sean capaces de unirse a las reuniones desde una línea telefónica habitual. Esta característica, llamada Audioconferencia, no se incluye en la formación.\n\nSi tiene preguntas o comentarios acerca de este documento de formación:\n\n-   Haga una publicación en la sección de comentarios de la parte inferior de la página \"Pasos siguientes\" de este tutorial.\n-   Envíenos un correo electrónico a [AskTeams\\@Microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Meetings).\n\nPara enviarnos comentarios sobre Microsoft Teams, como ideas para nuevas características, visite [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n"
+  content: >
+    Este recurso de formación presenta las reuniones en Microsoft Teams. Se repasarán las funcionalidades de las reuniones en Teams, además de los requisitos y las consideraciones sobre la planificación para Teams.
+
+
+    [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
+
+
+    Esta formación es perfecta en los siguientes casos:
+
+    -   Profesional de TI.
+
+    -   Responsable de planificar, implementar o administrar Microsoft Teams.
+
+    -   Está interesado en las reuniones en Teams
+
+
+    Se cubrirán las siguientes secciones:
+
+    -   Reuniones y sus tipos en Teams
+
+    -   Requisitos para las reuniones
+
+    -   Informes
+
+
+    La siguiente información está fuera del ámbito:
+
+    -   Las reuniones pueden incluir una característica en la que los participantes sean capaces de unirse a las reuniones desde una línea telefónica habitual. Esta característica, llamada Audioconferencia, no se incluye en la formación.
+
+
+    [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
+
+
+    Si tiene preguntas o comentarios acerca de este documento de formación:
+
+
+    -   Haga una publicación en la sección de comentarios de la parte inferior de la página "Pasos siguientes" de este tutorial.
+
+    -   Envíenos un correo electrónico a [AskTeams\@Microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Meetings).
+
+
+    Para enviarnos comentarios sobre Microsoft Teams, como ideas para nuevas características, visite [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
 - title: Reuniones en Teams
-  durationInMinutes: 20
-  content: "\nPara conocer las reuniones en Teams, vea lo siguiente:\n-   \"Realizar reuniones\" en [Reuniones y llamadas](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8) (el tiempo de lectura estimado es de 6 minutos)\n-   \"Realizar reuniones\" en [Reuniones y llamadas en dispositivos móviles](https://support.office.com/article/Meetings-and-calls-on-mobile-devices-62ff4c89-8214-4499-a637-c6d13896cc9e) (el tiempo de lectura estimado es de 4 minutos)\n\n-   Vídeo de [Reunirse ahora](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf?ui=en-US&rs=en-US&ad=US) (1:45 minutos)\n\n-   Vídeo de [Reuniones programadas](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137?ui=en-US&rs=en-US&ad=US) (1:45 minutos)\n\n-   [9 sugerencias para una reunión con Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) para conocer, entre otras cosas, más sobre la sala de espera, cómo unirse a reuniones de forma anónima, etc. (el tiempo de lectura estimado es de 6 minutos)\n"
+  durationInMinutes: 16
+  content: "\nPara conocer las reuniones en Teams, vea lo siguiente:\n-   \"Realizar reuniones\" en [Reuniones y llamadas](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8) (el tiempo de lectura estimado es de 6 minutos)\n\n-   Vídeo de [Reunirse ahora](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf?ui=en-US&rs=en-US&ad=US) (1:45 minutos)\n\n-   Vídeo de [Reuniones programadas](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137?ui=en-US&rs=en-US&ad=US) (1:45 minutos)\n\n-   [9 sugerencias para una reunión con Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) para conocer, entre otras cosas, más sobre la sala de espera, cómo unirse a reuniones de forma anónima, etc. (el tiempo de lectura estimado es de 6 minutos)\n"
 - title: 'Escenario: tipos de reuniones'
   durationInMinutes: 1
   content: "\nGarth trabaja para Contoso, una empresa con varias oficinas. Garth tiene que contactar normalmente con personas de otras oficinas remotas:\n\n-  Su equipo de proyecto se reúne una hora cada lunes. Como ya hay un canal dedicado para el proyecto en Microsoft Teams, Garth programa una \"Reunión de canal\" para esta sincronización que se realiza regularmente. Esto proporciona grandes ventajas para Garth y su equipo:\n   -   Se invita a todos los miembros del equipo automáticamente.\n   -   Los debates relacionados con la reunión que surjan antes, durante o después de la reunión forman parte de la discusión del canal.\n   -   Todos los miembros del equipo podrán ver la reunión y la discusión.\n-   Garth también tiene que sincronizarse con personas por separado, pero no quiere que el resto pueda ver estas reuniones. Por este motivo, Garth programa una \"reunión privada\".  \n    Gracias a las reuniones privadas, Garth puede iniciar un chat antes de que se produzca la reunión. Esta experiencia previa a la reunión ayuda a que la reunión sea más eficaz, puesto que Garth puede compartir material con antelación o hablar sobre la agenda con los principales miembros de la reunión. El mismo chat está también disponible durante la reunión para capturar notas y se puede usar después para hacer un seguimiento.\n-   En ocasiones, el equipo mantiene discusiones muy animadas en el canal y Garth tiene que tomar una decisión rápida. Determina que, en lugar de que todos escriban, sería más efectivo realizar una videollamada para comunicarse. En esta situación, Garth programa una reunión ad-hoc seleccionando **Reunirse ahora** en la conversación actual.\n"
@@ -36,7 +77,7 @@ items:
 - title: Requisitos y consideraciones para reuniones
   durationInMinutes: 4
   content: "\n###<a name=\"licensing\"></a>Licencias\nAunque se pueden mantener reuniones sin tener ninguna otra licencia (solo se necesita una licencia para Microsoft Teams), para algunas situaciones sí hacen falta otras licencias.\n\nPara la Audioconferencia, que permite que los participantes se unan a las reuniones de Teams desde un teléfono común, hace falta una licencia adicional. Esto se verá en un módulo de formación que se dedique solo a Audioconferencia.\n\nPara obtener más información, consulte [Licencias de Office 365 para Microsoft Teams](https://docs.microsoft.com/microsoftteams/office-365-licensing).\n\n###<a name=\"bandwidth-and-media-flow\"></a>Ancho de banda y flujo de multimedia\nEn Teams hay dos formas de iniciar la comunicación en tiempo real:\n-   Un usuario puede llamar a otro directamente.\n-   Un usuario puede crear una reunión (ad hoc o programada). Para las llamadas, los elementos multimedia (audio, vídeo o uso compartido de escritorio o aplicaciones) viajan de la forma más directa posible. Si, por ejemplo, no hay ningún firewall entre dos usuarios (por ejemplo, están en la misma red), el tráfico multimedia viaja directamente de un usuario al otro. Si, por el contrario, un firewall bloquea el tráfico directo que existe entre los usuarios, pasará a enviarse a través de un relé.\n\nPara las reuniones, todo el tráfico se envía en primer lugar al servicio de conferencia que se aloja en Office 365. El tráfico del audio se recopila ahí y se combina antes de volver a enviarlo; el tráfico de vídeo y el uso compartido de aplicaciones y de escritorio se recibe y se distribuye a los asistentes.\n    \nLa planificación del ancho de banda no se incluye en esta formación, pero sí va a ser crucial para la experiencia del usuario.\n\nPara obtener más información, consulte [Preparar la red de la organización para Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network).\n\n###<a name=\"exchange-dependencies\"></a>Dependencias de Exchange\n\nPara los clientes que usan Exchange Server en su entorno local, pueden darse algunas limitaciones (según la versión de Exchange Server) en lo que se refiere a la creación y la visualización de reuniones desde el cliente de Teams y también en cuanto al cumplimiento normativo.\nRevise [Interacción entre Exchange y Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact) (el tiempo de lectura estimado es de 3 minutos) para saber cuáles son estas posibles limitaciones.\n"
-- title: "Opciones de configuración de las reuniones"
+- title: Opciones de configuración de las reuniones
   durationInMinutes: 1
   content: "\nComo administrador de TI, puede habilitar y deshabilitar distintos tipos de reuniones, además de poder deshabilitar las modalidades, como el vídeo o el uso compartido de pantalla. Revise [Llamadas y reuniones](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365#calls-and-meetings) (el tiempo de lectura estimado es de 1 minuto) para descubrir más cosas sobre las opciones que se pueden configurar desde una perspectiva de los profesionales de TI. En este artículo también incluye el número máximo de participantes en las reuniones.\n"
 - title: 'Ejercicio: Configurar reuniones'
@@ -47,4 +88,29 @@ items:
   content: "\nDesde el punto de vista de la creación de informes, hay que fijarse en dos áreas:\n-   El uso: ¿cuántas reuniones tienen lugar?\n-   La calidad: ¿cuál es la calidad de las reuniones?\n\nDebe supervisar las dos áreas:\n-   Un uso bajo indica que los usuarios, por un motivo u otro, no están usando el producto. Los motivos solo se pueden determinar si se realiza una investigación adicional. Los motivos pueden ir desde la percepción de que las reuniones no están cumpliendo los requisitos de los usuarios a una falta de reconocimiento o formación o problemas de calidad.\n-   La calidad baja, por otro lado, indica que hay problemas con la conectividad entre usuarios y Office 365. Puede generar una mala experiencia para el usuario y un uso más bajo.\n    Consulte [Informes de Office 365 en el Centro de administración: actividad de los usuarios de Microsoft Teams](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) (el tiempo estimado de lectura es de 5 minutos) para conocer más cosas sobre los informes de uso.\n\nLa administración de la calidad no se incluye en esta formación, pero puede ver el siguiente material de formación:\n\n-   Para obtener información sobre el rol de experto en calidad, consulte [Rol de experto de calidad](https://docs.microsoft.com/microsoftteams/prepare-teams).\n-   Para obtener información sobre el Panel de calidad de llamadas, consulte [Investigar la calidad de los elementos multimedia con CQD](http://aka.ms/sof-cqd).\n"
 - title: Pasos siguientes
   durationInMinutes: 1
-  content: "En este curso de formación, hemos explicado los siguientes puntos clave:\n-   Reuniones y sus tipos en Teams\n-   Requisitos para las reuniones\n-   Informes\n\n### <a name=\"next-steps\"></a>Pasos siguientes\n\n1.  Regístrese en [MyAdvisor](http://aka.ms/myadvisor) para obtener ayuda personalizada acerca de la implementación del servicio.\n2.  Empiece a usar las reuniones en Teams.\n3.  Envíenos su opinión:\n    - Haga una publicación en la sección de comentarios de la parte inferior de esta página.\n    - Envíenos un correo electrónico a [AskTeams\\@Microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Meetings).\n    - Para enviarnos comentarios acerca de Teams o solicitar una nueva característica, diríjase a [UserVoice de Teams](https://microsoftteams.uservoice.com/forums/555103-public).\n4.  Descubra [más módulos de formación y tutoriales](http://aka.ms/Teamsacademy).\0"
+  content: >-
+    En este curso de formación, hemos explicado los siguientes puntos clave:
+
+    -   Reuniones y sus tipos en Teams
+
+    -   Requisitos para las reuniones
+
+    -   Informes
+
+
+    ### <a name="next-steps"></a>Pasos siguientes
+
+
+    1.  Regístrese en [MyAdvisor](http://aka.ms/myadvisor) para obtener ayuda personalizada acerca de la implementación del servicio.
+
+    2.  Empiece a usar las reuniones en Teams.
+
+    3.  Envíenos su opinión:
+        - Haga una publicación en la sección de comentarios de la parte inferior de esta página.
+        - Envíenos un correo electrónico a [AskTeams\@Microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Meetings).
+        - Para enviarnos comentarios acerca de Teams o solicitar una nueva característica, diríjase a [UserVoice de Teams](https://microsoftteams.uservoice.com/forums/555103-public).
+    4.  Manténgase al día:
+        - Siga el [Blog de los equipos](https://aka.ms/teamsblog).
+        - Lea la [Guía básica de los equipos](https://aka.ms/skype2teamsroadmap).
+        - Obtenga información acerca de las características más recientes publicadas en las [Notas de la versión](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
+    5.  Descubra [más módulos de formación y tutoriales](http://aka.ms/Teamsacademy).

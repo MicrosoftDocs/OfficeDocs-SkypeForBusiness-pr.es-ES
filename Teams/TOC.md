@@ -13,9 +13,12 @@
 # Configuración
 ## [Gestionar acceso de los usuarios a Microsoft Teams](user-access.md)
 ## [Obtener clientes para Microsoft Teams](get-clients.md)
+## [Iniciar sesión en los equipos](sign-in-teams.md)
 ## [Información general de una implementación de Microsoft Teams](deployment-overview.md)
 ## [Configurar Microsoft Teams en su organización de Office 365](Office-365-set-up.md)
 ## [Habilitar características de Teams en su organización de Office 365](enable-features-office-365.md)
+## [Administrar equipos durante la transición a la nueva Microsoft Teams & Skype para el centro de administración de negocios](manage-teams-skypeforbusiness-admin-center.md)
+## [Instalar Microsoft Teams que usan MSI](msi-deployment.md)
 ## [Dimensiones y medidas disponibles en el Panel de calidad de llamadas](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Configurar el análisis de llamadas de Skype Empresarial](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Usar el análisis de llamadas para solucionar problemas de mala calidad de llamada en Skype Empresarial](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -123,6 +126,7 @@
 
 
 ## Audioconferencia
+### [Tutorial: Conferencia de Audio en los equipos](Tutorial-Audio-Conferencing.yml)
 ### [Asignar a un tercero como proveedor de servicios de audioconferencia](/SkypeForBusiness/audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Asignar a Microsoft como proveedor de servicios de audioconferencia](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Preguntas comunes sobre Audioconferencia](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -158,6 +162,7 @@
 ### [Vídeos: Audioconferencia en Microsoft Teams](audio-conferencing-videos.md)
 
 ## Planes de llamada
+### [Tutorial: Llamar a equipos](Tutorial-calling-in-teams.yml)
 ### [Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams](configuring-teams-calling-quickstartguide.md)
 ### [Configurar Planes de llamada](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Agregar, cambiar o quitar una dirección de emergencia para su organización](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

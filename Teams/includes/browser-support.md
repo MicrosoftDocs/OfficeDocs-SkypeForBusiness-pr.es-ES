@@ -1,7 +1,10 @@
 Microsoft Teams es compatible con los siguientes exploradores web: 
 - Internet Explorer 11
 - Microsoft Edge
+  - Llamada y reuniones compatibles con borde RS2 o posterior
 - La última versión de Chrome y dos versiones anteriores
+  - Llamar a admitidos en cromo 59 o posterior
+  - Soporte de reuniones próximamente
 - La última versión de Firefox y dos versiones anteriores
 
 > [!NOTE]

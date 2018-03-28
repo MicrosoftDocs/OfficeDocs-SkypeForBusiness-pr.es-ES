@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Australia."
-ms.openlocfilehash: 4552e465531ddbb331a0b0226b427ac44de1c558
-ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
+description: Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Australia.
+ms.openlocfilehash: ec5ac53fc0688aeb6ed960f64c5ffb35ceb216f9
+ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="availability-in-australia"></a>Disponibilidad en Australia
 
@@ -53,13 +53,13 @@ Aquí están los servicios de Office 365 para Skype para empresas y Teams de Mic
    
 ## <a name="calling-plans"></a>Planes de llamadas
 > [!IMPORTANT]
-> Australia sólo está disponible para vista previa y clientes primeras implantaciones. Para obtener más información, vea [Telstra voz](http://aka.ms/TelstraVoicePlan). 
+> Actualmente sólo está disponible para vista previa y adopción temprana en Australia. Para obtener más información, vea [Llamar a Telstra para Office 365](http://aka.ms/TelstraVoicePlan). 
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Los planes de llamada están disponibles para la compra?  <br/> |Sí, consulte [Telstra servicios de voz](http://aka.ms/TelstraVoicePlan).  <br/> |
-|Minutos disponibles para Planes de llamada  <br/> |Vea [Servicios de Telstra](http://aka.ms/TelstraVoicePlan). <br/> |
-|¿A qué números se pueden hacer llamadas salientes?  <br/> |Vea [Servicios de Telstra](http://aka.ms/TelstraVoicePlan). <br/> |
+|¿Los planes de llamada están disponibles para la compra?  <br/> |Sí, vea [Llamar a Telstra para Office 365](http://aka.ms/TelstraVoicePlan).  <br/> |
+|Minutos disponibles para Planes de llamada  <br/> |Vea [llamar Telstra para Office 365](http://aka.ms/TelstraVoicePlan). <br/> |
+|¿A qué números se pueden hacer llamadas salientes?  <br/> |Vea [llamar Telstra para Office 365](http://aka.ms/TelstraVoicePlan). <br/> |
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 
@@ -69,7 +69,7 @@ Aquí están los servicios de Office 365 para Skype para empresas y Teams de Mic
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
    
-Si desea obtener los números de teléfono gratuitos y de pago para operadores automáticos y colas de llamada, vea [Servicios de voz de Telstra](http://aka.ms/TelstraVoicePlan). Números de servicio de conferencia de audio, [póngase en contacto con nosotros](mailto:ptnapac@microsoft.com).
+Si desea obtener los números de teléfono gratuitos y de pago para operadores automáticos y colas de llamada, vea [Llamar a Telstra para Office 365](http://aka.ms/TelstraVoicePlan). Números de servicio de conferencia de audio, [póngase en contacto con nosotros](mailto:ptnapac@microsoft.com).
   
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 
