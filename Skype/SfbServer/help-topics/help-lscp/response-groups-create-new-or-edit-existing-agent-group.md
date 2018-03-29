@@ -1,0 +1,72 @@
+---
+title: Grupos de respuesta crean nuevos o edición grupo de agentes existentes
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.date: 2/8/2018
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.lscp.RgsGroupEdit
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
+description: Los grupos de agentes definen quién puede responder las llamadas a un grupo de respuesta (conocido como agentes) y la configuración que se aplica a todos los agentes del grupo.
+ms.openlocfilehash: 4ae2869e335bc8d7d8b774f7daf7f5915dcba462
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/28/2018
+---
+# <a name="response-groups-create-new-or-edit-existing-agent-group"></a><span data-ttu-id="b1121-103">Grupos de respuesta: Crear nuevo o editar existente</span><span class="sxs-lookup"><span data-stu-id="b1121-103">Response Groups: Create New or Edit Existing Agent Group</span></span>
+ 
+<span data-ttu-id="b1121-104">Los grupos de agentes definen quién puede responder las llamadas a un grupo de respuesta (conocido como agentes) y la configuración que se aplica a todos los agentes del grupo.</span><span class="sxs-lookup"><span data-stu-id="b1121-104">Agent groups define who can answer calls to a response group (known as agents) and the settings that apply to all the agents in the group.</span></span>
+  
+## <a name="ui-reference"></a><span data-ttu-id="b1121-105">Referencia de interfaz de usuario</span><span class="sxs-lookup"><span data-stu-id="b1121-105">UI Reference</span></span>
+
+<span data-ttu-id="b1121-106">En la siguiente lista se describen los campos de la página.</span><span class="sxs-lookup"><span data-stu-id="b1121-106">The following list describes the fields on the page.</span></span>
+  
+- <span data-ttu-id="b1121-107">**Nombre** Cada grupo de agentes requiere un nombre único.</span><span class="sxs-lookup"><span data-stu-id="b1121-107">**Name** Each agent group requires a unique name.</span></span> <span data-ttu-id="b1121-108">Utilice un nombre descriptivo que identifica la función del grupo.</span><span class="sxs-lookup"><span data-stu-id="b1121-108">Use a descriptive name that identifies the group's function.</span></span> <span data-ttu-id="b1121-109">Por ejemplo, Help Desk.</span><span class="sxs-lookup"><span data-stu-id="b1121-109">For example, Help Desk.</span></span>
+    
+- <span data-ttu-id="b1121-110">**Descripción** Este campo es opcional.</span><span class="sxs-lookup"><span data-stu-id="b1121-110">**Description** This field is optional.</span></span> <span data-ttu-id="b1121-111">Úselo para proporcionar detalles sobre el grupo.</span><span class="sxs-lookup"><span data-stu-id="b1121-111">Use it to provide additional details about the group.</span></span>
+    
+- <span data-ttu-id="b1121-112">**Directiva de participación** Especificar la forma en que los agentes son iniciar sesión en el grupo de respuesta:</span><span class="sxs-lookup"><span data-stu-id="b1121-112">**Participation policy** Specify the way that agents are to sign into the response group:</span></span>
+    
+  - <span data-ttu-id="b1121-p103">Seleccione **Informal** para especificar que los agentes en el grupo no necesitan iniciar ni cerrar sesión en el grupo. Los agentes informales se conectan de forma automática cuando inician sesión. El valor predeterminado es **Informal**.</span><span class="sxs-lookup"><span data-stu-id="b1121-p103">Select **Informal** to specify that the agents in the group do not need to sign in and out. Informal agents are automatically signed in when they sign in. The default is **Informal**.</span></span>
+    
+  - <span data-ttu-id="b1121-115">Seleccione **Formal** para especificar que los agentes en el grupo deben firmar de entrada y salida. Cuando selecciona esta opción, agentes, haga clic en un elemento de menú en el cliente para abrir un navegador y mostrar una consola de página web para la firma de entrada y salida.</span><span class="sxs-lookup"><span data-stu-id="b1121-115">Select **Formal** to specify that the agents in the group must sign in and out. When you select this option, agents click a menu item in the client to open a browser and display a web page console for signing in and out.</span></span>
+    
+- <span data-ttu-id="b1121-116">**Alerta de tiempo (en segundos)** Especificar el número de segundos para que suene a un agente antes de ofrecer la llamada al siguiente agente disponible.</span><span class="sxs-lookup"><span data-stu-id="b1121-116">**Alert time (seconds)** Specify the number of seconds to ring an agent before offering the call to the next available agent.</span></span> <span data-ttu-id="b1121-117">El valor tiene que ser de al menos 10 segundos e inferior a 180 segundos.</span><span class="sxs-lookup"><span data-stu-id="b1121-117">The value must be at least 10 seconds and less than 180 seconds.</span></span> <span data-ttu-id="b1121-118">El valor predeterminado es 20 segundos.</span><span class="sxs-lookup"><span data-stu-id="b1121-118">The default is 20 seconds.</span></span>
+    
+- <span data-ttu-id="b1121-119">**Método de enrutamiento** Seleccione el método para determinar el orden en que los agentes reciben llamadas:</span><span class="sxs-lookup"><span data-stu-id="b1121-119">**Routing method** Select the method for determining the order in which agents receive calls:</span></span>
+    
+  - <span data-ttu-id="b1121-120">Seleccione **Máxima inactividad** para ofrecer una llamada nueva primero al agente que haya estado más tiempo inactivo (el que más tiempo ha estado **Disponible** o **Inactivo**).</span><span class="sxs-lookup"><span data-stu-id="b1121-120">Select **Longest idle** to offer a new call first to the agent who has been idle (has had a presence of **Available** or **Inactive**) the longest.</span></span>
+    
+  - <span data-ttu-id="b1121-p105">Seleccione **En paralelo** para ofrecer una nueva llamada a todos los agentes disponibles al mismo tiempo. La llamada se envía al primer agente que la acepte.</span><span class="sxs-lookup"><span data-stu-id="b1121-p105">Select **Parallel** to offer a new call to all available agents at the same time. The call is sent to the first agent who accepts it.</span></span>
+    
+  - <span data-ttu-id="b1121-123">Seleccione **Round robin** para ofrecer una llamada nueva a un agente cada vez.</span><span class="sxs-lookup"><span data-stu-id="b1121-123">Select **Round robin** to offer a new call to each agent in turn.</span></span>
+    
+  - <span data-ttu-id="b1121-124">Seleccione **En serie** para ofrecer siempre una llamada nueva a los agentes en el orden en que aparecen en la lista **Agentes**.</span><span class="sxs-lookup"><span data-stu-id="b1121-124">Select **Serial** to always offer a new call to agents in the order in which they are listed in the **Agent** list.</span></span>
+    
+  - <span data-ttu-id="b1121-125">Seleccione **el operador** para ofrecer una nueva llamada a todos los agentes que están conectados y la aplicación de grupo de respuesta al mismo tiempo, independientemente de su presencia actual.</span><span class="sxs-lookup"><span data-stu-id="b1121-125">Select **Attendant** to offer a new call to all agents who are signed in and the Response Group application at the same time, regardless of their current presence.</span></span> <span data-ttu-id="b1121-126">Operadores y usuarios de clientes que se configuran como agentes pueden ver todas las llamadas en espera y pueden responder a las llamadas en espera en cualquier orden.</span><span class="sxs-lookup"><span data-stu-id="b1121-126">Attendants and client users who are configured as agents can see all the calls that are waiting and can answer waiting calls in any order.</span></span> <span data-ttu-id="b1121-127">La llamada se envía al primer agente que la acepta y el resto de operadores y usuarios dejará de verla.</span><span class="sxs-lookup"><span data-stu-id="b1121-127">The call is sent to the first agent who accepts it, and the other attendants and users no longer see the call.</span></span>
+    
+- <span data-ttu-id="b1121-128">**Agentes** Seleccione los usuarios que van a ser agentes para el grupo de respuesta en una de las siguientes maneras:</span><span class="sxs-lookup"><span data-stu-id="b1121-128">**Agents** Select the users who are to be agents for the response group in one of the following ways:</span></span>
+    
+  - <span data-ttu-id="b1121-129">Seleccione **utilizar una lista existente de distribución de correo electrónico** para utilizar una lista de distribución de Exchange.</span><span class="sxs-lookup"><span data-stu-id="b1121-129">Select **Use an existing email distribution list** to use an Exchange distribution list.</span></span> <span data-ttu-id="b1121-130">Escriba el correo electrónico de la lista de distribución en **Dirección de la lista de distribución**.</span><span class="sxs-lookup"><span data-stu-id="b1121-130">Type the email address of the distribution list in **Distribution list address**.</span></span>
+    
+    > [!NOTE]
+    > <span data-ttu-id="b1121-p108">Solo puede seleccionar una lista de distribución por grupo de agentes. Si la lista de distribución incluye listas de distribución anidadas, estas no se incluirán en el grupo de agentes.</span><span class="sxs-lookup"><span data-stu-id="b1121-p108">You can select only one distribution list for an agent group. If the distribution list includes nested distribution lists, the nested distribution lists are not included in the agent group.</span></span> 
+  
+    > [!NOTE]
+    > <span data-ttu-id="b1121-133">El orden en que los agentes se muestran en la lista de distribución afecta al orden en que los agentes reciben llamadas para round robin y el enrutamiento en serie.</span><span class="sxs-lookup"><span data-stu-id="b1121-133">The order in which agents are listed in the distribution list affects the order in which agents receive calls for round robin and serial routing.</span></span> 
+  
+    > [!NOTE]
+    > <span data-ttu-id="b1121-134">Los miembros ocultos o listas ocultas pueden volverse visibles para los administradores de grupos de respuesta o usuarios.</span><span class="sxs-lookup"><span data-stu-id="b1121-134">Hidden memberships or hidden lists might become visible to Response Group administrators or users.</span></span> <span data-ttu-id="b1121-135">Para obtener más información, consulte [crear o modificar un grupo de agente en Skype para el año 2015 Business](../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md).</span><span class="sxs-lookup"><span data-stu-id="b1121-135">For details, see [Create or modify an agent group in Skype for Business 2015](../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md).</span></span> 
+  
+  - <span data-ttu-id="b1121-p110">Seleccione **Definir un grupo de agentes personalizado** para seleccionar los usuarios que quiere asignar como agentes del grupo de respuesta. Haga clic en **Seleccionar** para agregar un agente a la lista y en **Quitar** para eliminar un agente seleccionado de la lista.</span><span class="sxs-lookup"><span data-stu-id="b1121-p110">Select **Define a custom group of agents** to select the users you want to assign as agents for the response group. Click **Select** to add an agent to the list. Click **Remove** to delete a selected agent from the list.</span></span>
+    
+    <span data-ttu-id="b1121-p111">Las flechas arriba y abajo mueven un agente seleccionado hacia arriba y hacia abajo en la lista de agentes. El orden de los agentes afecta al orden en que los agentes reciben llamadas para round robin y el enrutamiento en serie.</span><span class="sxs-lookup"><span data-stu-id="b1121-p111">The up and down arrows move a selected agent up and down in the agent list. The order of agents in the list affects the order in which agents receive calls for round robin and serial routing.</span></span>
+    
+<span data-ttu-id="b1121-141">Para obtener más información acerca de capacidades y características de los grupos de respuesta, vea [Planear la aplicación de grupo de respuesta en Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación de planeamiento.</span><span class="sxs-lookup"><span data-stu-id="b1121-141">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span></span> <span data-ttu-id="b1121-142">Para obtener información detallada sobre cómo trabajar con grupos de agentes, vea [Administrar grupos de agente](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) en la documentación de las operaciones.</span><span class="sxs-lookup"><span data-stu-id="b1121-142">For details about working with agent groups, see [Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in the Operations documentation.</span></span>
+  
+

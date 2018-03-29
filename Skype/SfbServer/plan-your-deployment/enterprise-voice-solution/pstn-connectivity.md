@@ -1,0 +1,62 @@
+---
+title: Componentes de conectividad con RTC en Skype Empresarial Server 2015
+ms.author: crowe
+author: CarolynRowe
+manager: serdars
+ms.date: 12/20/2016
+ms.audience: ITPro
+ms.topic: conceptual
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection: IT_Skype16
+ms.custom: Strat_SB_Admin
+ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
+description: Conozca SIP trunking y puertas de enlace PSTN para Telefonía IP empresarial en Skype para Business Server.
+ms.openlocfilehash: 051066643649f9f8f872f4a2795e5ea71417d810
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/28/2018
+---
+# <a name="pstn-connectivity-components-in-skype-for-business-server-2015"></a><span data-ttu-id="aeae0-103">Componentes de conectividad con RTC en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="aeae0-103">PSTN connectivity components in Skype for Business Server 2015</span></span>
+ 
+<span data-ttu-id="aeae0-104">Conozca SIP trunking y puertas de enlace PSTN para Telefonía IP empresarial en Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="aeae0-104">Learn about SIP trunking and PSTN gateways for Enterprise Voice in Skype for Business Server.</span></span>
+  
+<span data-ttu-id="aeae0-105">Una solución VoIP empresarial necesita proporcionar llamadas entrantes y salientes a la red telefónica conmutada (RTC) sin que la calidad de servicio se vea afectada.</span><span class="sxs-lookup"><span data-stu-id="aeae0-105">An enterprise-grade VoIP solution must provide for calls to and from the public switched telephone network (PSTN) without any decline in Quality of Service (QoS).</span></span> <span data-ttu-id="aeae0-106">Además, los usuarios no tienen por qué conocer la tecnología subyacente cuando realizan o reciben llamadas.</span><span class="sxs-lookup"><span data-stu-id="aeae0-106">In addition, users should not be aware of the underlying technology when they place and receive calls.</span></span> <span data-ttu-id="aeae0-107">Desde la perspectiva del usuario, una llamada entre la infraestructura de Telefonía IP empresarial y PSTN debe parecer otra sesión SIP.</span><span class="sxs-lookup"><span data-stu-id="aeae0-107">From the user's perspective, a call between the Enterprise Voice infrastructure and the PSTN should seem like just another SIP session.</span></span>
+  
+<span data-ttu-id="aeae0-108">En las conexiones de RTC, puedes implementar un tronco SIP o una puerta de enlace RTC (también denominada vínculo SIP directo, con una PBX o sin ella).</span><span class="sxs-lookup"><span data-stu-id="aeae0-108">For PSTN connections, you can either deploy a SIP trunk or a PSTN gateway (with a PBX, also known as a Direct SIP link, or without a PBX).</span></span>
+  
+## <a name="sip-trunking"></a><span data-ttu-id="aeae0-109">Enlace troncal SIP</span><span class="sxs-lookup"><span data-stu-id="aeae0-109">SIP Trunking</span></span>
+
+<span data-ttu-id="aeae0-110">Como alternativa al uso de puertas de enlace PSTN, puede conectar su solución de Telefonía IP empresarial a la RTC mediante SIP trunking.</span><span class="sxs-lookup"><span data-stu-id="aeae0-110">As an alternative to using PSTN gateways, you can connect your Enterprise Voice solution to the PSTN by using SIP trunking.</span></span> <span data-ttu-id="aeae0-111">El enlace troncal SIP habilita los siguientes escenarios:</span><span class="sxs-lookup"><span data-stu-id="aeae0-111">SIP trunking enables the following scenarios:</span></span>
+  
+- <span data-ttu-id="aeae0-112">Un usuario de la empresa dentro o fuera del firewall corporativo puede realizar una llamada local o de larga distancia especificada por un número conforme a E.164 con terminación en la RTC como un servicio del proveedor de servicios correspondiente.</span><span class="sxs-lookup"><span data-stu-id="aeae0-112">An enterprise user inside or outside the corporate firewall can make a local or long-distance call specified by an E.164-compliant number that is terminated on the PSTN as a service of the corresponding service provider.</span></span>
+    
+- <span data-ttu-id="aeae0-113">Cualquier suscriptor de RTC pueda ponerse en contacto con un usuario de la empresa dentro o fuera del firewall corporativo marcando un número de llamada directa a la extensión (DID) asociado a ese usuario de la empresa.</span><span class="sxs-lookup"><span data-stu-id="aeae0-113">Any PSTN subscriber can contact an enterprise user inside or outside the corporate firewall by dialing a Direct Inward Dialing (DID) number associated with that enterprise user.</span></span>
+    
+<span data-ttu-id="aeae0-114">El uso de esta solución de implementación requiere un proveedor de servicios de enlace troncal SIP.</span><span class="sxs-lookup"><span data-stu-id="aeae0-114">The use of this deployment solution requires a SIP trunking service provider.</span></span> 
+  
+## <a name="pstn-gateways"></a><span data-ttu-id="aeae0-115">Puertas de enlace RTC</span><span class="sxs-lookup"><span data-stu-id="aeae0-115">PSTN gateways</span></span>
+
+<span data-ttu-id="aeae0-116">Puertas de enlace PSTN son dispositivos de otros fabricantes que traducen la señalización y los medios de comunicación entre la infraestructura de Telefonía IP empresarial y un PSTN o PBX.</span><span class="sxs-lookup"><span data-stu-id="aeae0-116">PSTN gateways are third-party devices that translate signaling and media between the Enterprise Voice infrastructure and a PSTN or a PBX.</span></span> <span data-ttu-id="aeae0-117">Puertas de enlace PSTN trabajan con el servidor de mediación para presentar una llamada PSTN o PBX a un cliente de Telefonía IP empresarial.</span><span class="sxs-lookup"><span data-stu-id="aeae0-117">PSTN gateways work with the Mediation Server to present a PSTN or PBX call to an Enterprise Voice client.</span></span> <span data-ttu-id="aeae0-118">El servidor de mediación presenta también llamadas de clientes de Telefonía IP empresarial a la puerta de enlace PSTN para enrutar a la PSTN o PBX.</span><span class="sxs-lookup"><span data-stu-id="aeae0-118">The Mediation Server also presents calls from Enterprise Voice clients to the PSTN gateway for routing to the PSTN or PBX.</span></span> <span data-ttu-id="aeae0-119">Para obtener una lista de los socios que trabajan con Microsoft para proporcionar dispositivos que funcionan con Skype para Business Server, consulte [el sitio Web de socios de comunicaciones unificadas de Microsoft](https://go.microsoft.com/fwlink/p/?linkId=202836).</span><span class="sxs-lookup"><span data-stu-id="aeae0-119">For a list of partners who work with Microsoft to provide devices that work with Skype for Business Server, see  [the Microsoft Unified Communications Partners website](https://go.microsoft.com/fwlink/p/?linkId=202836).</span></span> 
+  
+## <a name="private-branch-exchanges"></a><span data-ttu-id="aeae0-120">Centrales de conmutación</span><span class="sxs-lookup"><span data-stu-id="aeae0-120">Private Branch Exchanges</span></span>
+
+ <span data-ttu-id="aeae0-121">Si tiene una infraestructura de voz existente que utiliza una central de conmutación (PBX), puede utilizar su PBX con la Telefonía IP empresarial.</span><span class="sxs-lookup"><span data-stu-id="aeae0-121">If you have an existing voice infrastructure that uses a private branch exchange (PBX), you can use your PBX with Enterprise Voice.</span></span>
+  
+<span data-ttu-id="aeae0-122">Los escenarios de integración de Telefonía IP empresarial-PBX compatibles son los siguientes:</span><span class="sxs-lookup"><span data-stu-id="aeae0-122">The supported Enterprise Voice-PBX integration scenarios are as follows:</span></span>
+  
+- <span data-ttu-id="aeae0-123">IP-PBX compatible con omisión de medios, con un servidor de mediación.</span><span class="sxs-lookup"><span data-stu-id="aeae0-123">IP-PBX that supports media bypass, with a Mediation Server.</span></span>
+    
+- <span data-ttu-id="aeae0-124">IP-PBX que requiere una puerta de enlace RTC independiente.</span><span class="sxs-lookup"><span data-stu-id="aeae0-124">IP-PBX that requires a stand-alone PSTN gateway.</span></span>
+    
+- <span data-ttu-id="aeae0-125">PBX de multiplexación por división de tiempo (TDM), con una puerta de enlace RTC independiente.</span><span class="sxs-lookup"><span data-stu-id="aeae0-125">Time division multiplexing (TDM) PBX, with a stand-alone PSTN gateway.</span></span>
+    
+> [!NOTE]
+> <span data-ttu-id="aeae0-126">La omisión de medios no interactuará con todas las puertas de enlace RTC, las IP-PBX y los SBC.</span><span class="sxs-lookup"><span data-stu-id="aeae0-126">Media bypass will not interoperate with every PSTN gateway, IP-PBX, and SBC.</span></span> <span data-ttu-id="aeae0-127">Microsoft ha probado una serie de puertas de enlace RTC y SBC con socios certificados y ha realizado algunas pruebas con los IP-PBX de Cisco.</span><span class="sxs-lookup"><span data-stu-id="aeae0-127">Microsoft has tested a set of PSTN gateways and SBCs with certified partners and has done some testing with Cisco IP-PBXs.</span></span> <span data-ttu-id="aeae0-128">Omisión de medios es compatible sólo con los productos y versiones que se enumeran en [Unified Communications interoperabilidad programa abierto - Lync Server](https://go.microsoft.com/fwlink/p/?linkId=214406).</span><span class="sxs-lookup"><span data-stu-id="aeae0-128">Media bypass is supported only with products and versions listed at [Unified Communications Open Interoperability Program - Lync Server](https://go.microsoft.com/fwlink/p/?linkId=214406).</span></span> 
+  
+<span data-ttu-id="aeae0-129">Para obtener más información acerca de los asociados que ofrecen soluciones de Telefonía IP empresarial, consulte el [sitio Web de socios de comunicaciones unificadas de Microsoft](https://go.microsoft.com/fwlink/p/?linkId=202836).</span><span class="sxs-lookup"><span data-stu-id="aeae0-129">For details about partners who offer Enterprise Voice solutions, see the [Microsoft Unified Communications Partners website](https://go.microsoft.com/fwlink/p/?linkId=202836).</span></span>
+  
+<span data-ttu-id="aeae0-130">Para obtener más información acerca de los asociados que ofrecen soluciones de hardware de Telefonía IP empresarial, incluidas las puertas de enlace PSTN, consulte el [sitio Web de socios de comunicaciones unificadas de Microsoft](https://go.microsoft.com/fwlink/p/?linkId=202836).</span><span class="sxs-lookup"><span data-stu-id="aeae0-130">For details about partners who offer Enterprise Voice hardware solutions, including PSTN gateways, see the [Microsoft Unified Communications Partners website](https://go.microsoft.com/fwlink/p/?linkId=202836).</span></span>
+  
+
