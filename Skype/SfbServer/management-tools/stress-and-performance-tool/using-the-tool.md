@@ -171,7 +171,7 @@ The Skype for Business Server 2015 Stress and Performance Tool can also generate
   
 ![Herramienta Aprovisionamiento de usuarios donde se muestra la pestaña Configuración del servicio de información de ubicaciones.](../../media/227662a2-e0c3-4e34-ab54-5f1459344f30.png)
   
-If you choose to test this feature, fill in the values in the form and click the Generate LIS Config Files button, which will create .CSV files called:
+Si decide probar esta función, rellene los valores en el formulario y haga clic en el botón Generar archivos de configuración de LIS, que va a crear. Se llaman archivos CSV:
   
 - LIS_Subnet.csv
     
@@ -203,7 +203,7 @@ Start the Load Configuration tool (UserProfileGenerator.exe) and fill in the tab
 > [!IMPORTANT]
 > The user-specific values used in the Load Configuration tool (UserProfileGenerator.exe) must match the values specified in the Skype for Business Server 2015 User Creation Tool (UserProvisioningTool.exe) for the pool. 
   
-#### <a name="common-configuration-tab"></a>Common Configuration tab
+#### <a name="common-configuration-tab"></a>Ficha Configuración común
 
 The **Common Configuration** tab of the Load Configuration Tool is shown below. Fill in the fields of the Common Configuration tab, as described in the following steps.
   
@@ -227,293 +227,293 @@ The **Common Configuration** tab of the Load Configuration Tool is shown below. 
     
 9. Enter the maximum number of concurrent endpoints in the **Sign in Per Second (per Instance)** field. This is the maximum number of log ins for your users, and the recommendation is a rate of less than/equal to 2 per second (<=2).
     
-10. In the **Access Proxy or Pool FQDN** field, enter the fully qualified domain name (FQDN) of the server you want the clients to connect to. If the users are logging on externally, you'll need to type the access proxy. If the users are internal, give the FQDN of their Enterprise Pool or Standard Edition server.
+10. In the **Access Proxy or Pool FQDN** field, enter the fully qualified domain name (FQDN) of the server you want the clients to connect to. If the users are logging on externally, you'll need to type the access proxy. Si los usuarios son internos, asigne el FQDN de su servidor de grupo de servidores Enterprise o Standard Edition.
     
-11. In the **Port** field, enter the port that you want users to use for SIP (the default here is 5061).
+11. En el campo **puerto** , especifique el puerto que desea que los usuarios utilicen para SIP (el valor predeterminado es 5061).
     
 12. For the **External Network Server Settings** field, give the Access Proxy or Pool FQDN and, again, the **Port**. These settings are used only for External endpoints load simulation.
     
-#### <a name="general-scenarios-tab"></a>General Scenarios tab
+#### <a name="general-scenarios-tab"></a>Ficha de casos generales
 
 ![Herramienta de configuración de carga donde se muestra la ficha Escenarios generales.](../../media/45792e57-4322-4c20-956f-fe480b0de1a7.png)
   
 You can configure the load levels and parameters for each of the general scenarios offered by determining what you want to run or leave disabled. Here are your general options:
   
 > [!NOTE]
-> Load level values for all fields but Local Information Services are **Disabled**, **Low**, **Medium**, **High**, or **Custom**. If you select any setting but Disabled, then configurations are generated for each client. High results in the max supported load on the server; medium is 60% of high load; low is 30%. 
+> Valores de nivel de carga para todos los campos excepto los servicios de información Local están **desactivado**, **bajo**, **medio**, **alto**o **personalizado**. If you select any setting but Disabled, then configurations are generated for each client. Resultados de alta en la carga máxima compatible en el servidor; medio es el 60% de la carga elevada; bajo es del 30%. 
   
-- **Instant Messaging -** This includes peer-to-peer and conferencing; choose the appropriate value for Load Level.
+- **Mensajería instantánea:** Esto incluye peer-to-peer y conferencias; elegir el valor apropiado para el nivel de carga.
     
-- **Audio Conferencing -** Choose a load level for audio conferencing *only*  . Peer-to-peer calls will be tackled a little later in the **Voice Scenarios** section. Open the **Advanced** tab to enable MultiView.
+- **Audio Conferencing -** Choose a load level for audio conferencing *only*  . Llamadas de punto a punto se abordarse más adelante en la sección **Escenarios de voz** . Abra la ficha **Opciones avanzadas** para habilitar MultiView.
     
-- **Application Sharing -** Choose a load level for application sharing.
+- **Uso compartido de aplicaciones:** Elija un nivel de carga para el uso compartido de aplicaciones.
     
 - **Data Collaboration -** Choose a load level for data collaboration, which includes data conferencing.
     
-- **Distribution List Expansion -** Click the **Advanced** button and fill in the field with the same values configured on the DL tab of the User Creation Tool (UserProvisioningTool.exe). Choose a load level.
+- **Distribution List Expansion -** Click the **Advanced** button and fill in the field with the same values configured on the DL tab of the User Creation Tool (UserProvisioningTool.exe). Elija un nivel de carga.
     
-- **Address Book Web Query -** This is the address book lookup service rather than the address book file download. If you want to enable this for address book file downloads, click the **Advanced** button and set **EnableABSDownload** to True. Give a value for load level.
+- **Consulta de Web de libreta de direcciones-** Esto es el servicio de búsqueda de la libreta de direcciones en lugar de la descarga del archivo de libreta de direcciones. If you want to enable this for address book file downloads, click the **Advanced** button and set **EnableABSDownload** to True. Proporcionar un valor para el nivel de carga.
     
-- **Response Group Service -** Click the **Advanced** button and specify the URIs of the response groups you already created when you provisioned Response Group Service agents. You must choose at least one response group. To use more, separate the response groups with semicolons. Update **RGSUriSuffixStartIndex** and **RGSUriSuffixEndIndex** to the actual values. Choose a load level.
+- **Servicio de grupo de respuesta-** Haga clic en el botón **Opciones avanzadas** y especifique a las direcciones URI de los grupos de respuesta que ya creó cuando aprovisiona agentes de Servicio de grupo de respuesta. You must choose at least one response group. Para utilizar más, separar los grupos de respuesta con punto y coma. Actualización **RGSUriSuffixStartIndex** y **RGSUriSuffixEndIndex** a los valores reales. Elija un nivel de carga.
     
-- **Location Information Services -** Select a load level of either Enabled or Disabled.
+- **Servicios de información de ubicación:** Seleccione un nivel de carga de habilitado o deshabilitado.
     
 > [!NOTE]
-> Each of the scenarios has an Advanced button located next to it, and a set of check boxes that enable variations to the default setting. 
+> Cada uno de los escenarios tiene un botón avanzadas que se encuentra junto a la base de datos y un conjunto de casillas de verificación que permiten variaciones en el valor predeterminado. 
   
-- Choosing  *Ad-hoc*  will allow the tool to generate simulation of conferences that will be created throughout the hour.
+- Elegir *Ad-hoc* permitirá la herramienta generar la simulación de conferencias que se crearán a lo largo de la hora.
     
-- Choosing  *Large Conf*  means that a Large Conference Scenario will be simulated.
+- Si selecciona *Conf grande* significa que se simulará un gran escenario de conferencia.
     
--  *External*  tells the tool to also simulate external users.
+-  *Externo* , indica a la herramienta para simular también los usuarios externos.
     
-These buttons and check boxes are extra values specific to each scenario and will change the behavior of the Stress and Performance Tool and make customization possible.
+Estos botones y casillas de verificación son valores adicionales específicos para cada escenario y se cambia el comportamiento de la herramienta de rendimiento y esfuerzo y hacen posible la personalización.
   
-For each scenario on the General Scenarios tab (except for Location Information Services), if the value of Load Level is **Custom**, then the conversation rate will be calculated using the corresponding field in the Advanced dialog box. The field name may differ, depending on the scenario, but the field description will state:  *NOTE This number will only be used if Custom is selected from the drop-down menu*  .
+Para cada escenario en la ficha General escenarios (excepto para los servicios de información de ubicación), si el valor del nivel de carga es **personalizada**, a continuación, la velocidad de la conversación se calculará utilizando el campo correspondiente en el cuadro de diálogo Opciones avanzadas. El nombre de campo puede diferir, dependiendo del escenario, pero indicará la descripción del campo: *Nota: este número se utilizará sólo si se selecciona personalizado en el menú desplegable* .
   
-The values **High**, **Medium**, and **Low**, will alter the conversation rates per modality in line with the User Model that is a balance of all the scenarios. If there's a need to change the load level per modality due to a difference in expected usage, use a Custom conversation rate.
+Los valores **alto**, **medio**y **bajo**, modificará los índices de conversación por modalidad en consonancia con el modelo de usuario es un equilibrio de todos los escenarios. Si hay una necesidad de cambiar el nivel de carga por modalidad debido a una diferencia en el uso esperado, utilice una velocidad de conversación personalizado.
   
-#### <a name="voice-scenarios-tab"></a>Voice Scenarios tab
+#### <a name="voice-scenarios-tab"></a>Ficha de escenarios de voz
 
-This is the tab for configuration of all your voice-related scenarios.
+Se trata de la ficha de configuración de todos los escenarios relacionados con la voz.
   
 ![Herramienta de configuración de carga, ficha Escenarios de voz.](../../media/042e406f-5156-4095-a4eb-6298f24bb51f.png)
   
-Your options are:
+Las opciones son:
   
-- **VoIP -** Click the **Advanced** button and add values for the PhoneAreaCode and LocationProfile (dial plan) fields. You'll also give a value for Load Level. If you choose a load level for VoIP or UC/PSTN Gateway enabled, then a public-switched telephone network (PSTN) to unified communications (UC) configuration file will be generated to simulate external calls.
+- **VoIP:** Haga clic en el botón **Opciones avanzadas** y agregue valores para los campos de PhoneAreaCode y LocationProfile (dial plan). También le dará un valor de nivel de carga. Si elige un nivel de carga para VoIP o UC/puerta de enlace PSTN habilitada, a continuación, una red telefónica pública conmutada (PSTN) para comunicaciones unificadas (UC) se generará el archivo de configuración para simular llamadas externas.
     
-- **UC/PSTN Gateway -** You need to choose a Load Level value, and when you choose anything other than Disabled, you've also got to supply a value for PSTN area code by clicking the **Advanced** button. Click **Add** under the Mediation Server and PSTN. Make sure you have a route configured for the area code.
+- **Puerta de enlace PSTN/UC-** Debe elegir un valor de nivel de carga, y cuando elija algo distinto deshabilitado, también tienes que proporcionar un valor para el código de área PSTN haciendo clic en el botón **Avanzadas** . Haga clic en **Agregar** en el servidor de mediación y PSTN. Asegúrese de que tiene una ruta configurada para el código de área.
     
     > [!TIP]
-    > You can use either the Skype for Business Control Panel or Skype for Business Management Shell to verify your voice route configuration. 
+    > Puede utilizar ambos el Skype para el Panel de Control del negocio o Skype para el Shell de administración de negocios para verificar la configuración de ruta de voz. 
   
-- **Conferencing Attendant -** Supply a value for Load Level. Any value other than Disabled will enable the **Telephone Number** field. Enter the phone number of the Auto Attendant you want to use. Click **Advanced** and give a value for the **LocationProfile** field.
+- **Operador de conferencia:** Proporcione un valor para el nivel de carga. Cualquier valor distinto de deshabilitado habilitará el campo de **Número de teléfono** . Escriba el número de teléfono del Operador automático que desea utilizar. Haga clic en **Avanzadas** y proporcionar un valor para el campo **LocationProfile** .
     
-- **Call Parking Service -** Here, supply a Load Level.
+- **Llame al servicio de estacionamiento:** A continuación, proporcionar un nivel de carga.
     
-- **Mediation Server and PSTN -** Each Mediation Server that you want to use needs its own PSTN simulator. After you've determined which client you're going to use for the simulator, configuration your Mediation Server to route calls to that computer on the PSTN Simulator you configured. Click the **Add** button to configure a value for the Mediation Server.
+- **Servidor de mediación y PSTN-** Cada servidor de mediación que desea usar necesita su propio simulador PSTN. Una vez que haya determinado qué cliente va a utilizar para el simulador, configuración de su servidor de mediación para enrutar llama a ese equipo en el simulador PSTN configurado. Haga clic en el botón **Agregar** para configurar un valor para el servidor de mediación.
     
     > [!NOTE]
-    > Each scenario has an Advanced button located next to it. Advanced dialog boxes contain settings specific to each scenario that change the behavior of the Stress and Performance Tool and enable customization. > For each scenario on the Voice Scenarios tab, if the value of Load Level is **Custom**, then the conversation rate will be calculated by using the corresponding field in the Advanced dialog box. The field name may differ, depending on the scenario, but the field description will state:  *NOTE This number will only be used if Custom is selected from the drop-down menu*  .
+    > Cada escenario tiene un botón avanzadas que se encuentra junto a ella. Cuadros de diálogo avanzados contienen valores específicos para cada escenario que modifican el comportamiento de la herramienta de rendimiento y esfuerzo y permiten la personalización. > Para cada escenario en la ficha de escenarios de la voz, si el valor del nivel de carga es **personalizada**, a continuación, la velocidad de la conversación se calculará utilizando el campo correspondiente en el cuadro de diálogo Opciones avanzadas. El nombre de campo puede diferir, dependiendo del escenario, pero indicará la descripción del campo: *Nota: este número se utilizará sólo si se selecciona personalizado en el menú desplegable* .
   
-#### <a name="web-app-tab"></a>Web App tab
+#### <a name="web-app-tab"></a>Ficha de la aplicación Web
 
 ![Herramienta de configuración de carga, ficha Aplicación web.](../../media/505b54ef-8140-4dec-a43e-08091f592b34.png)
   
-Web App supports conferencing scenarios through the Unified Communications Web API (UCWA) server that's installed on a Front End server. Use the Web App tab to configure all web app-related scenarios. Options are:
+Web de la aplicación admite escenarios de conferencia a través del servidor de la API de Web de comunicaciones unificadas (UCWA) que se instala en un servidor Front-End. Utilice la ficha de la aplicación Web para configurar todos los escenarios relacionados con la aplicación de web. Las opciones son:
   
-- **General Web App Settings -** Click the **Additional Settings** button and set the **ReachTargetServerUrl** to the Directory Pool virtual IP (VIP) of the Front End pool VIP.
+- **Opciones a generales de la aplicación Web:** Haga clic en el botón **Configuración adicional** y establezca la **ReachTargetServerUrl** al grupo del directorio virtual IP (VIP) del grupo de servidores Front-End VIP.
     
-- **Application Sharing -** Select a value for Load Level.
+- **Uso compartido de aplicaciones:** Seleccione un valor para el nivel de carga.
     
-- **Data Collaboration -** Select a value for Load Level.
+- **Colaboración de datos-** Seleccione un valor para el nivel de carga.
     
-- **Instant Messaging -** Select a value for Load Level.
+- **Mensajería instantánea:** Seleccione un valor para el nivel de carga.
     
-- **Voice Conferencing -** Select a value for Load Level.
+- **Conferencias de voz-** Seleccione un valor para el nivel de carga.
     
 > [!NOTE]
-> Each of the scenarios has an **Advanced** button located next to it. Advanced dialogs contain values specific to each scenario that will change the behavior of the Stress and Performance Tool and enable customization.> For each of the Web App scenarios, if the Load Level is **Custom**, then the value specified in the **ConversationsPerHour** field is used instead of the default.
+> Cada uno de los escenarios tiene un botón de **Opciones avanzadas** situado junto a él. Cuadros de diálogo avanzados contienen valores específicos para cada escenario que permite cambiar el comportamiento de la herramienta de rendimiento y esfuerzo personalización. > para cada uno de los escenarios de la aplicación Web, si el nivel de carga es **personalizada**, a continuación, el valor especificado en el ** ConversationsPerHour** campo se utiliza en lugar del predeterminado.
   
-#### <a name="mobility-tab"></a>Mobility tab
+#### <a name="mobility-tab"></a>Ficha de movilidad
 
-Use this tab to configure all of the mobility-related scenarios.
+Utilice esta ficha para configurar todas las situaciones relacionadas con la movilidad.
   
 ![Herramienta de configuración de carga, pestaña Movilidad.](../../media/30af39c2-50ea-476a-8a56-ce2ddf08517e.png)
   
-The options here are:
+Las opciones son:
   
-- **General Mobility Settings -** Click **Additional Settings** and set the field UcwaTargetServerUrl to the Director Pool virtual IP (VIP) or the Front End pool VIP.
+- **Configuración general de movilidad:** Haga clic en **Configuración adicional** y establece el campo UcwaTargetServerUrl en la IP virtual (VIP) grupo de directores o el grupo de servidores Front-End VIP.
     
-- **Presence and P2P Instant Messaging/Audio -** Select a value for Load Level to enable the Mobility simulation.
+- **Presencia y mensajería instantánea de P2P/Audio-** Seleccione un valor para el nivel de carga permitir la simulación de movilidad.
     
 > [!NOTE]
-> Each of the scenarios has an **Advanced** button located next to it. Advanced dialogs contain values specific to each scenario that will change the behavior of the Stress and Performance Tool and enable customization.> For each of the Mobility scenarios, if the Load Level is **Custom**, then the value specified in the **ConversationsPerHour** field is used instead of the default.
+> Cada uno de los escenarios tiene un botón de **Opciones avanzadas** situado junto a él. Cuadros de diálogo avanzados contienen valores específicos para cada escenario que permite cambiar el comportamiento de la herramienta de rendimiento y esfuerzo personalización. > para cada uno de los escenarios de movilidad, si el nivel de carga es **personalizada**, a continuación, el valor especificado en el ** ConversationsPerHour** campo se utiliza en lugar del predeterminado.
   
-#### <a name="summary-tab"></a>Summary tab
+#### <a name="summary-tab"></a>Ficha Resumen
 
-The Summary tab indicates which users to use for each of the scenarios.
+La ficha Resumen indica qué usuarios para cada uno de los escenarios.
   
 ![Herramienta de configuración de carga, ficha Resumen.](../../media/436fb3f2-d73e-402d-bc6e-e8a6740819d2.png)
   
-The Summary tab indicates which users to use for each of the scenarios. 
+La ficha Resumen indica qué usuarios para cada uno de los escenarios. 
   
-It's possible to manually configure user number ranges by selecting the **Enable Custom User Range Generation** check box, and then double-clicking the scenario in the table that has the User Range that you want to customize.
+Es posible configurar manualmente los intervalos numéricos de usuario seleccionando la casilla de verificación **Habilitar generación de rango de usuario personalizado** y, a continuación, haga doble clic en el escenario en la tabla que tiene el rango de usuario que desea personalizar.
   
-Check **(RunClient.bat) Add sign-in delay when starting** in order to include delays in the generated batch files to correspond to the sign-in rate. This is useful to prevent server overload when signing in a large number of users.
+Comprobar **(RunClient.bat) agregar signo de retraso al iniciar** para incluir retrasos en los archivos por lotes generado que corresponda a la velocidad de inicio de sesión. Esto es útil para evitar sobrecarga en el servidor al iniciar sesión en un gran número de usuarios.
   
-Click **Generate Files** and select the folder where you want to generate the configuration. A dialog box will appear when your files have been successfully created.
+Haga clic en **Generar archivos** y seleccione la carpeta donde desea generar la configuración. Cuando los archivos se han creado correctamente, aparecerá un cuadro de diálogo.
   
 ![Cuadro de mensaje “Archivos de configuración de carga generados correctamente”. Haga clic en Aceptar.](../../media/c3c1d4a0-cb44-4837-8124-03354f5d9d8c.png)
   
-## <a name="run-lyncperftool"></a>Run LyncPerfTool
+## <a name="run-lyncperftool"></a>Ejecutar LyncPerfTool
 <a name="BKMK_RunTool"> </a>
 
-You'll need to create users, contacts, and scenarios before running the Skype for Business Server 2015 Stress and Performance Tool (LyncPerfTool.exe). For details about using the tools to perform these actions, see [Create Users and Contacts](using-the-tool.md#BKMK_CreateUsersAndContacts) and [Configure User Profile](using-the-tool.md#BKMK_UserProfile) previously in this article. Running these tools will also generate a file that will run with the Stress and Performance tool as part of a batch file with the required parameters included.
+Debe crear los usuarios, contactos y escenarios antes de ejecutar el Skype para Business Server 2015 herramienta Stress and Performance (LyncPerfTool.exe). Para obtener más información acerca de cómo utilizar las herramientas para realizar estas acciones, consulte [crear usuarios y contactos](using-the-tool.md#BKMK_CreateUsersAndContacts) y [Configurar el perfil de usuario](using-the-tool.md#BKMK_UserProfile) anteriormente en este artículo. Ejecutar estas herramientas también generará un archivo que se ejecutará con los parámetros necesarios que se incluye con la herramienta de rendimiento y esfuerzo como parte de un archivo por lotes.
   
-### <a name="running-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Running the Skype for Business Server 2015 Stress and Performance tool
+### <a name="running-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Ejecuta el Skype para herramientas de 2015 de Business Server Stress and Performance
 
-The Load Configuration tool (UserProfileGenerator.exe) creates a batch file that enables you to run the Stress and Performance tool (LyncPerfTool.exe) by registering performance counters and loading the XML configuration file. The batch file runs one instance of LyncPerfTool.exe per configuration file. To run the batch file follow these steps:
+La herramienta de configuración de carga (UserProfileGenerator.exe) crea un archivo por lotes que le permite ejecutar la herramienta de carga y rendimiento (LyncPerfTool.exe) mediante el registro de contadores de rendimiento y carga el archivo de configuración XML. El archivo por lotes ejecuta una instancia de LyncPerfTool.exe por el archivo de configuración. Para ejecutar el archivo por lotes siga estos pasos:
   
-### <a name="run-the-stress-and-performance-test"></a>Run the Stress and Performance test
+### <a name="run-the-stress-and-performance-test"></a>Ejecutar la prueba de esfuerzo y rendimiento
 
-1. Copy the folder with the configuration folders and files inside to the directory that has LyncPerfTool.exe on each client computer. (For example, if you generated the configuration files in the folder named 1.28_13.16.16, copy that folder to the folder with LyncPerfTool.exe in it. Do this on each client.)
+1. Copie la carpeta con los archivos dentro y carpetas de configuración al directorio que se LyncPerfTool.exe en cada equipo cliente. (Por ejemplo, si ha generado los archivos de configuración en la carpeta denominada 1.28_13.16.16, copie esa carpeta a la carpeta con LyncPerfTool.exe en él. Hacer esto en cada cliente).
     
-2. Navigate to the client folder and run the **RunClient** batch script. You can double-click the batch file in Windows Explorer and it will run all of the configuration files for that client. You can also run the script from a client folder by using the following syntax:
+2. Desplácese a la carpeta de cliente y ejecute la secuencia de comandos de proceso por lotes **RunClient** . Haga doble clic en el archivo por lotes en el Explorador de Windows y se ejecutará todos los archivos de configuración para ese cliente. También puede ejecutar la secuencia de comandos desde una carpeta de cliente utilizando la sintaxis siguiente:
     
   ```
   RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
   ```
 
-To run the Stress and Performance tool directly, open a command prompt and type the following command at the command line (and when doing this for the first time, be sure to register the performance counters  `regsvr32 /i /n /s LyncPerfToolPerf.dll`, as shown in the note later in this topic):
+Para ejecutar la herramienta de carga y rendimiento directamente, abra un símbolo del sistema y escriba el comando siguiente en la línea de comandos (y al hacerlo por primera vez, asegúrese de registrar los contadores de rendimiento `regsvr32 /i /n /s LyncPerfToolPerf.dll`, como se muestra en la nota más adelante en este tema):
   
 ```
 LyncPerfTool.exe /file:IM_client0.xml
 ```
 
-To have the tool display the values in the configuration file, include the  `/displayfile` parameter on the preceding command, so that it looks like this:
+Para que la herramienta muestre los valores en el archivo de configuración, se incluyen los `/displayfile` parámetro en el comando anterior, por lo que TI tiene el siguiente aspecto:
   
 ```
 LyncPerfTool.exe /file:IM_client0.xml /displayfile
 ```
 
-To  *end*  the process, press Ctrl+C.
+Al *final* del proceso, presione CTRL+c.
   
 > [!NOTE]
-> Before running the Stress and Performance tool directly, you must register the performance counters via the following command:  `regsvr32 /i /n /s LyncPerfToolPerf.dll`
+> Antes de ejecutar la herramienta de carga y rendimiento directamente, debe registrar los contadores de rendimiento mediante el siguiente comando:`regsvr32 /i /n /s LyncPerfToolPerf.dll`
   
 > [!NOTE]
-> Every instance of the Stress and Performance tool that you start will immediately begin signing in users, usually at a rate of one user per second. 
+> Cada instancia de la herramienta de rendimiento y esfuerzo que inicia comenzará inmediatamente la firma en los usuarios, normalmente a una velocidad de un usuario por segundo. 
   
-The peak user sign-in rate for the pool is about 12 per second. This means that you shouldn't start more than 12 LyncPerfTool.exe instances at the same time while users are still signing in. One thousand users will take about 20 minutes to fully sign in at one per second.
+El usuario inicio de sesión de velocidad máxima para el grupo es de aproximadamente 12 por segundo. Esto significa que no debe iniciar instancias de más de 12 LyncPerfTool.exe al mismo tiempo mientras los usuarios aún están firmando. Mil usuarios tardará unos 20 minutos para firmar completamente uno por segundo.
   
-## <a name="interpreting-the-results"></a>Interpreting the Results
+## <a name="interpreting-the-results"></a>Interpretar los resultados
 <a name="BKMK_Interpret"> </a>
 
-The Skype for Business Server 2015 Stress and Performance Tool has many counters that can help you understand what the client is doing, and whether it's encountering issues.
+El Skype para Business Server 2015 Stress y la herramienta de rendimiento tiene muchos contadores que pueden ayudarle a comprender lo que está haciendo el cliente y, si está encontrando problemas.
   
-### <a name="client-counters"></a>Client Counters
+### <a name="client-counters"></a>Contadores de cliente
 
-Each instance of LyncPerfTool.exe running has a separate instance of the counters. Each instance is named by its process ID. If clients are overloaded other issues can occur. To prevent these issues:
+Cada instancia de LyncPerfTool.exe ejecución tiene una instancia independiente de los contadores. Cada instancia se denominará por su identificador de proceso. Si los clientes están sobrecargados pueden producirse otros problemas. Para evitar estos problemas:
   
-- Monitor CPU and Memory usage on the client computers. If the CPU is consistently above 90 percent, reduce the number of users.
+- Supervisar el uso de CPU y memoria en los equipos cliente. Si la CPU está constantemente por encima de 90%, reducir el número de usuarios.
     
-- When the Memory footprint is high, you may run into issues if the Page File begins to run out of space. Verify that the Commit Charge is not hitting the limit on the computer. If you are running into Memory limits consider increasing the Page File size or reducing the number of users.
+- Cuando el consumo de memoria es alto, puede tener problemas si el archivo de la página comienza a quedarse sin espacio. Compruebe que la carga de transacciones no está alcanzando el límite en el equipo. Si está ejecutando en límites de memoria, considere aumentar el tamaño del archivo de paginación o reducir el número de usuarios.
     
-Here's a list of key performance counters:
+Presentamos una lista de contadores de rendimiento clave:
   
-**General Information**
+**Información general**
 
-|**Performance Counter**|**Descripción**|
+|**Contador de rendimiento**|**Descripción**|
 |:-----|:-----|
-|Time Spent in Minutes  <br/> |Time spent since the process was started.  <br/> |
-|Active Endpoints  <br/> |Number of endpoints currently connected to the server.  <br/> |
-|Failed Logons  <br/> |Total number of endpoint sign-in failures.  <br/> |
-|Logon Attempts  <br/> |Total number of endpoint sign-in attempts.  <br/> |
-|Endpoints Disconnected  <br/> |Total number of endpoints that have been disconnected.  <br/> |
+|Tiempo transcurrido en minutos  <br/> |Tiempo desde que se inició el proceso.  <br/> |
+|Extremos activos  <br/> |Número de extremos conectados actualmente al servidor.  <br/> |
+|Inicios de sesión fallidos  <br/> |Número total de errores de inicio de sesión de extremo.  <br/> |
+|Intentos de inicio de sesión  <br/> |Número total de intentos de inicio de sesión de extremo.  <br/> |
+|Extremos desconectados  <br/> |Número total de extremos que se han desconectado.  <br/> |
    
-**Presence Information**
+**Información de presencia**
 
-|**Performance Counter**|**Descripción**|
+|**Contador de rendimiento**|**Descripción**|
 |:-----|:-----|
-|SetPresence Calls  <br/> |Total number of presence change attempts. For different types of presence changes, see the SetPresence (Presence Type) Calls Performance Counter.  <br/> |
-|NNN Responses for SetPresence  <br/> |Total number of nnn response codes received from the server.  <br/> |
-|GetPresence Calls  <br/> |Total number of get presence request attempts.  <br/> |
-|NNN Responses for GetPresence  <br/> |Total number of nnn response codes received from the server.  <br/> |
+|Llamadas SetPresence  <br/> |Número total de presencia cambiar intentos. Para diferentes tipos de cambios de presencia, ver el contador de rendimiento de llamadas SetPresence (tipo de presencia).  <br/> |
+|NNN respuestas para SetPresence  <br/> |Número total de códigos de respuesta nnn recibidos desde el servidor.  <br/> |
+|Llamadas de GetPresence  <br/> |Número total de intentos de solicitud de presencia de get.  <br/> |
+|NNN respuestas de GetPresence  <br/> |Número total de códigos de respuesta nnn recibidos desde el servidor.  <br/> |
    
-**Address Book service information**
+**Información del servicio de libreta de direcciones**
 
-|**Performance Counter**|**Descripción**|
+|**Contador de rendimiento**|**Descripción**|
 |:-----|:-----|
-|ABS Full/Delta File Downloads Attempted  <br/> |Total number of full or delta file download requests attempted.  <br/> |
-|ABS Full/Delta File Downloads Succeeded  <br/> |Total number of full or delta file download requests attempted.  <br/> |
-|Address Book Web Query service related counters  <br/> |Address book file download related counters.  <br/> |
-|ABS WS Calls attempted  <br/> |Total number of Address Book Web Query service requests attempted.  <br/> |
-|ABS WS Calls Succeeded  <br/> |Total number of Address Book Web Query service requests that returned a successful response code.  <br/> |
-|ABS WS Calls Failed  <br/> |Total number of Address Book Web Query service requests that returned an error response code.  <br/> |
+|Descargas de archivos ABS completo/Delta intentadas  <br/> |Número total de full o delta solicitudes de descarga de archivo ha intentado.  <br/> |
+|Archivo ABS completo/Delta descarga correcta  <br/> |Número total de full o delta solicitudes de descarga de archivo ha intentado.  <br/> |
+|Consulta Web de libreta de direcciones los contadores relacionados con el servicio  <br/> |Archivo de libreta de direcciones descargar contadores relacionados.  <br/> |
+|ABS WS llamadas ha intentado  <br/> |Número total de solicitudes de servicio de consulta Web de libreta de direcciones ha intentado.  <br/> |
+|ABS WS llamadas correctamente  <br/> |Número total de solicitudes de servicio de consulta Web de libreta de direcciones que devolvió un código de respuesta correcta.  <br/> |
+|Error en las llamadas WS ABS  <br/> |Número total de solicitudes de servicio de consulta Web de libreta de direcciones que ha devuelto un código de respuesta de error.  <br/> |
    
 > [!NOTE]
-> This category includes counters used to monitor Address Book service (ABS) file downloads and Address Book Web Query service requests. 
+> Esta categoría incluye contadores para supervisar las descargas de archivos de libreta de direcciones (ABS) de servicio y las solicitudes de servicio de consulta Web de libreta de direcciones. 
   
-**Distribution List (DL) Information**
+**Información de distribución (DL) de la lista**
 
-|**Performance Counter**|**Descripción**|
+|**Contador de rendimiento**|**Descripción**|
 |:-----|:-----|
-|Calls Attempted  <br/> |Total number of distribution list expansion (DLX) web service requests attempted.  <br/> |
-|Calls Succeeded  <br/> |Total number of DLX web service requests that returned a successful response code.  <br/> |
-|Calls Failed  <br/> |Total number of DLX web service requests that returned an error response code.  <br/> |
+|Llamadas ha intentado  <br/> |Número total de solicitudes de servicio de web en expansión (DLX) de distribución lista ha intentado.  <br/> |
+|Llamadas se realizó correctamente  <br/> |Número total de solicitudes de servicio web DLX devolvió un código de respuesta correcta.  <br/> |
+|Error en las llamadas  <br/> |Número total de solicitudes de servicio web DLX devolvió un código de respuesta de error.  <br/> |
    
 
   
 > [!NOTE]
-> The performance counters listed below report numbers for all Voice over IP (VoIP) calls, including calls to Mediation Server, A/V Conferencing Server, Edge Server, Response Group application, and Conference Auto Attendant, when these scenarios are enabled. 
+> Los contadores de rendimiento enumeran a continuación de números de informe para todos los voz sobre IP (VoIP) llamadas, incluidas las llamadas al servidor de mediación, A / aplicación V Conferencing Server, borde, respuesta grupo de servidores y de Operador automático de conferencia, cuando están habilitados estos escenarios. 
   
-**VoIP Basic Information**
+**Información básica de VoIP**
 
-|**Performance Counter**|**Descripción**|
+|**Contador de rendimiento**|**Descripción**|
 |:-----|:-----|
-|Calls Active  <br/> |Total number of incoming/outgoing voice calls ongoing currently.  <br/> |
-|Calls Terminated  <br/> |Total number of incoming/outgoing voice calls already terminated.  <br/> |
-|Calls Declined  <br/> |Total number of incoming voice calls declined.  <br/> |
-|Incoming/Outgoing Calls Attempted  <br/> |Total number of incoming/outgoing voice calls attempted.  <br/> |
-|Incoming/Outgoing Calls Established  <br/> |Total number of incoming/outgoing voice calls established.  <br/> |
-|Calls Received NNN  <br/> |Total number of nnn response codes received from the server.  <br/> |
-|VoIP Pass Rate (%)  <br/> |Total calls established/Total calls attempted.  <br/> |
+|Llamadas activas  <br/> |Número total de voz entrantes/salientes llamadas continua actualmente.  <br/> |
+|Termina las llamadas  <br/> |Número total de llamadas de voz entrantes/salientes ya finalizado.  <br/> |
+|Llamadas rechazadas  <br/> |Número total de llamadas de voz entrantes rechazadas.  <br/> |
+|Llamadas entrantes o salientes que se ha intentado  <br/> |Número total de llamadas de voz entrantes/salientes ha intentado.  <br/> |
+|Llamadas entrantes o salientes establecidas  <br/> |Número total de llamadas de voz entrantes/salientes establecidas.  <br/> |
+|Llamadas recibidas NNN  <br/> |Número total de códigos de respuesta nnn recibidos desde el servidor.  <br/> |
+|Tasa de Pass de VoIP (%)  <br/> |Total de llamadas de llamadas de establecido/Total ha intentado.  <br/> |
    
-**Response Group service Call Information**
+**Información de llamadas de servicio de grupo de respuesta**
 
-|**Performance Counter**|**Descripción**|
+|**Contador de rendimiento**|**Descripción**|
 |:-----|:-----|
-|Calls Active  <br/> |Total number of active calls to the Response Group application.  <br/> |
-|Calls Attempted  <br/> |Total number of calls attempted.  <br/> |
+|Llamadas activas  <br/> |Número total de llamadas activas para la aplicación de grupo de respuesta.  <br/> |
+|Llamadas ha intentado  <br/> |Número total de llamadas ha intentado.  <br/> |
    
-**Instant Messaging (IM) Call Information**
+**Información de la llamada (IM) de mensajería instantánea**
 
-|**Performance Counter**|**Descripción**|
+|**Contador de rendimiento**|**Descripción**|
 |:-----|:-----|
-|Calls Active  <br/> |Total number of ongoing incoming/outgoing instant messaging calls.  <br/> |
-|Calls Terminated  <br/> |Total number of incoming/outgoing instant messaging calls already terminated.  <br/> |
-|Calls Received NNN  <br/> |Total number of nnn response codes received from the server.  <br/> |
-|IM Messages Received/Sent  <br/> |Total number of messages received or sent for all sessions.  <br/> |
-|Incoming/Outgoing Calls Attempted  <br/> |Total number of incoming/outgoing instant messaging calls attempted.  <br/> |
-|Incoming/Outgoing Calls Established  <br/> |Total number of incoming/outgoing instant message calls established.  <br/> |
+|Llamadas activas  <br/> |Número total de llamadas de mensajería instantáneas entrante y saliente continuadas.  <br/> |
+|Termina las llamadas  <br/> |Número total de llamadas de mensajería instantáneas entrante y saliente ya finalizado.  <br/> |
+|Llamadas recibidas NNN  <br/> |Número total de códigos de respuesta nnn recibidos desde el servidor.  <br/> |
+|Mensajes Instantáneos recibidos/enviados  <br/> |Número total de mensajes recibidos o enviados para todas las sesiones.  <br/> |
+|Llamadas entrantes o salientes que se ha intentado  <br/> |Número total de llamadas entrantes/salientes instantáneas mensajería llamadas ha intentado.  <br/> |
+|Llamadas entrantes o salientes establecidas  <br/> |Número total de llamadas de mensajes instantáneos entrantes o salientes establecidas.  <br/> |
    
-**App Sharing Call Information**
+**Información de llamada de compartir aplicación**
 
-|**Performance Counter**|**Descripción**|
+|**Contador de rendimiento**|**Descripción**|
 |:-----|:-----|
-|Calls Active  <br/> |Total number of ongoing incoming/outgoing application sharing calls.  <br/> |
-|Calls Terminated  <br/> |Total number of incoming/outgoing application sharing calls already terminated.  <br/> |
-|Calls Received NNN  <br/> |Total number of nnn response codes received from the server.  <br/> |
-|Incoming/Outgoing Calls Attempted  <br/> |Total number of incoming/outgoing application sharing calls attempted.  <br/> |
-|Incoming/Outgoing Calls Established  <br/> |Total number of incoming/outgoing application sharing calls established.  <br/> |
+|Llamadas activas  <br/> |Número total de compartir llamadas de aplicación continuo entrantes o salientes.  <br/> |
+|Termina las llamadas  <br/> |Número total de solicitud entrantes o salientes compartir llamadas ya finalizado.  <br/> |
+|Llamadas recibidas NNN  <br/> |Número total de códigos de respuesta nnn recibidos desde el servidor.  <br/> |
+|Llamadas entrantes o salientes que se ha intentado  <br/> |Número total de solicitud entrantes o salientes compartir llamadas ha intentado.  <br/> |
+|Llamadas entrantes o salientes establecidas  <br/> |Número total de solicitud entrantes o salientes compartir llamadas establecidas.  <br/> |
    
-**CAA Call Information**
+**Información de llamada de CAA**
 
-|**Performance Counter**|**Descripción**|
+|**Contador de rendimiento**|**Descripción**|
 |:-----|:-----|
-|Calls Active  <br/> |Total number of incoming/outgoing public switched telephone network (PSTN) calls ongoing currently.  <br/> |
-|Calls Terminated  <br/> |Total number of incoming/outgoing PSTN calls already terminated.  <br/> |
-|Incoming/Outgoing Calls Attempted  <br/> |Total number of incoming/outgoing PSTN calls attempted.  <br/> |
-|Incoming/Outgoing Calls Established  <br/> |Total number of incoming/outgoing PSTN calls established.  <br/> |
+|Llamadas activas  <br/> |Número total de llamadas entrantes/salientes de red telefónica pública conmutada (PSTN) llamadas continua actualmente.  <br/> |
+|Termina las llamadas  <br/> |Número total de llamadas entrantes o salientes de PSTN ya finalizado.  <br/> |
+|Llamadas entrantes o salientes que se ha intentado  <br/> |Número total de llamadas PSTN entrantes o salientes ha intentado.  <br/> |
+|Llamadas entrantes o salientes establecidas  <br/> |Número total de llamadas PSTN entrantes o salientes establecidas.  <br/> |
    
-**Conference Information**
+**Información sobre la conferencia**
 
-|**Performance Counter**|**Descripción**|
+|**Contador de rendimiento**|**Descripción**|
 |:-----|:-----|
-|Active Instant Messaging Conferences  <br/> |Total number of ongoing instant messaging conferences.  <br/> |
-|Active Audio/Video Conferences  <br/> |Total number of ongoing audio/video (A/V) conferences.  <br/> |
-|Active Application Sharing Conferences  <br/> |Total number of ongoing application sharing conferences.  <br/> |
-|Number of Participants  <br/> |Total number of participants currently connected to conferences.  <br/> |
-|Conference Schedule Failure  <br/> |Total number of failures while trying to schedule a conference.  <br/> |
-|Join Conference Failure  <br/> |Total number of failures while trying to connect to a conference.  <br/> |
+|Conferencias de mensajería instantáneas activas  <br/> |Número total de curso conferencias de mensajería instantáneas.  <br/> |
+|Conferencias de Audio y vídeo activas  <br/> |Número total de audio y vídeo continuo (A / V) conferencias.  <br/> |
+|Aplicación activa compartir conferencias  <br/> |Número total de compartir conferencias continuada de la aplicación.  <br/> |
+|Número de participantes  <br/> |Número total de participantes conectados actualmente a las conferencias.  <br/> |
+|Error de programación de conferencias  <br/> |Número total de errores al intentar programar una conferencia.  <br/> |
+|Unirse a conferencia error  <br/> |Número total de errores al intentar conectarse a una conferencia.  <br/> |
    
-**UCWA Client Counters**
+**Contadores de cliente UCWA**
 
-|**Performance Counter**|**Descripción**|
+|**Contador de rendimiento**|**Descripción**|
 |:-----|:-----|
-|Total Number of IMMCU Joins Succeeded  <br/> |Total number of instant messaging conferences joined.  <br/> |
-|Total Number of DMCU Joins Succeeded  <br/> |Total number of A/V conferences joined.  <br/> |
+|Número total de IMMCU une correcta  <br/> |Número total de conferencias de mensajería instantáneas se unió.  <br/> |
+|Número total de DMCU une correcta  <br/> |Número total de A / conferencias unido.  <br/> |
    
 

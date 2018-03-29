@@ -270,16 +270,16 @@ Certificados para servidores Standard Edition:
 |**Certificado**|**Nombre común o nombre del sujeto**|**Nombre alternativo del sujeto**|**Ejemplo**|**Comentarios**|
 |:-----|:-----|:-----|:-----|:-----|
 |Predeterminado  <br/> |FQDN del grupo de servidores  <br/> |FQDN del grupo y FQDN del servidor  <br/> Si hay varios dominios SIP y está habilitada la configuración automática de los clientes, el Asistente para certificados detectará y agregará los FQDN de todos los dominios SIP admitidos.  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta del sistema de nombres de dominio (DNS) en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |En servidor de Standard Edition de servidores Standard Edition, el FQDN del servidor es el mismo que el FQDN del grupo.  <br/> El asistente detecta todos los dominios SIP especificados durante la instalación y los agrega automáticamente al nombre alternativo de sujeto.  <br/> También puede usar este certificado para la autenticación de servidor a servidor.  <br/> |
-|Web interno  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • Interno web FQDN (que es el mismo que el FQDN del servidor)  <br/> Y  <br/> • Meet simple URLs  <br/> • Dial-in simple URL  <br/> • Admin simple URL  <br/> O BIEN  <br/> • A wildcard entry for the simple URLs  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=Meet.contoso.com; SAN=Meet.fabrikam.com; SAN=dialin.contoso.com; SAN=Admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN =\*. contoso.com  <br/> |No se puede reemplazar el web interno FQDN en el generador de topología.  <br/> Si dispone de varias URL sencillas de reunión, deberá incluirlas todas como nombres alternativos de sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
-|Web externo  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • Externo web FQDN  <br/> Y  <br/> • Dial-in simple URL  <br/> • Meet simple URLs per SIP domain  <br/> O BIEN  <br/> • A wildcard entry for the simple URLs  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN =\*. contoso.com  <br/> |Si tiene varias direcciones URL simples satisfacer, tiene que incluir todos ellos como nombres alternativos del sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
+|Web interno  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • Interno web FQDN (que es el mismo que el FQDN del servidor)  <br/> Y  <br/> • Satisfacer simples direcciones de URL  <br/> • Acceso telefónico URL simple  <br/> • Administración sencilla URL  <br/> O BIEN  <br/> • Una entrada comodín para las direcciones URL simples  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=Meet.contoso.com; SAN=Meet.fabrikam.com; SAN=dialin.contoso.com; SAN=Admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN =\*. contoso.com  <br/> |No se puede reemplazar el web interno FQDN en el generador de topología.  <br/> Si dispone de varias URL sencillas de reunión, deberá incluirlas todas como nombres alternativos de sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
+|Web externo  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • Externo web FQDN  <br/> Y  <br/> • Acceso telefónico URL simple  <br/> • Satisfacer simples direcciones URL por dominio SIP  <br/> O BIEN  <br/> • Una entrada comodín para las direcciones URL simples  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=Meet.contoso.com; SAN=Meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN =\*. contoso.com  <br/> |Si tiene varias direcciones URL simples satisfacer, tiene que incluir todos ellos como nombres alternativos del sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
    
 Certificados para los servidores frontales en un grupo de servidores Front-End:
   
 |**Certificado**|**Nombre común o nombre del sujeto**|**Nombre alternativo del sujeto**|**Ejemplo**|**Comentarios**|
 |:-----|:-----|:-----|:-----|:-----|
 |Predeterminado  <br/> |FQDN del grupo de servidores  <br/> |FQDN del grupo y FQDN del servidor  <br/> Si hay varios dominios SIP y está habilitada la configuración automática de los clientes, el Asistente para certificados detectará y agregará los FQDN de todos los dominios SIP admitidos.  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta del sistema de nombres de dominio (DNS) en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |El asistente detecta todos los dominios SIP especificados durante la instalación y los agrega automáticamente al nombre alternativo de sujeto.  <br/> También puede usar este certificado para la autenticación de servidor a servidor.  <br/> |
-|Web interno  <br/> |FQDN del grupo de servidores  <br/> |Cada uno de los siguientes elementos:  <br/> • Interno web FQDN (que no es el mismo que el FQDN del servidor)  <br/> FQDN del servidor •  <br/> • Skype para el FQDN del grupo de negocio  <br/> Y  <br/> • Meet simple URLs  <br/> • Dial-in simple URL  <br/> • Admin simple URL  <br/> O BIEN  <br/> • A wildcard entry for the simple URLs  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN =\*. contoso.com  <br/> |Si tiene varias direcciones URL simples satisfacer, tiene que incluir todos ellos como nombres alternativos del sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
-|Web externo  <br/> |FQDN del grupo de servidores  <br/> |Cada uno de los siguientes elementos:  <br/> • Externo web FQDN  <br/> Y  <br/> • Dial-in simple URL  <br/> • Admin simple URL  <br/> O BIEN  <br/> • Una entrada comodín para las direcciones URL simples  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=Meet.contoso.com; SAN=Meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN =\*. contoso.com  <br/> |Si tiene varias direcciones URL simples satisfacer, tiene que incluir todos ellos como nombres alternativos del sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
+|Web interno  <br/> |FQDN del grupo de servidores  <br/> |Cada uno de los siguientes elementos:  <br/> • Interno web FQDN (que no es el mismo que el FQDN del servidor)  <br/> FQDN del servidor •  <br/> • Skype para el FQDN del grupo de negocio  <br/> Y  <br/> • Satisfacer simples direcciones de URL  <br/> • Acceso telefónico URL simple  <br/> • Administración sencilla URL  <br/> O BIEN  <br/> • Una entrada comodín para las direcciones URL simples  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=Meet.contoso.com; SAN=Meet.fabrikam.com; SAN=dialin.contoso.com; SAN=Admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN =\*. contoso.com  <br/> |Si tiene varias direcciones URL simples satisfacer, tiene que incluir todos ellos como nombres alternativos del sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
+|Web externo  <br/> |FQDN del grupo de servidores  <br/> |Cada uno de los siguientes elementos:  <br/> • Externo web FQDN  <br/> Y  <br/> • Acceso telefónico URL simple  <br/> • Administración sencilla URL  <br/> O BIEN  <br/> • Una entrada comodín para las direcciones URL simples  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=Meet.contoso.com; SAN=Meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN =\*. contoso.com  <br/> |Si tiene varias direcciones URL simples satisfacer, tiene que incluir todos ellos como nombres alternativos del sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
    
 Certificados para el Director:
   
@@ -287,7 +287,7 @@ Certificados para el Director:
 |:-----|:-----|:-----|:-----|
 |Predeterminado  <br/> |Grupo de directores  <br/> |FQDN del Director, el FQDN del grupo de Director.  <br/> Si este grupo es el servidor de inicio de sesión automático para clientes y estricta DNS del necesaria la coincidencia en directiva de grupo, también necesitará entradas para sip.sipdomain (para cada dominio SIP que tiene).  <br/> |pool.contoso.com; SAN=dir01.contoso.com  <br/> Si este grupo de directores es el servidor de inicio de sesión automático para los clientes y es necesaria la coincidencia de DNS de strict en la directiva de grupo, deberá SAN=sip.contoso.com; SAN=SIP.fabrikam.com  <br/> |
 |Web interno  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • Interno web FQDN (que es el mismo que el FQDN del servidor)  <br/> FQDN del servidor •  <br/> • Skype para el FQDN del grupo de negocio  <br/> Y  <br/> • Satisfacer simples direcciones de URL  <br/> • Acceso telefónico URL simple  <br/> • Administración sencilla URL  <br/> O BIEN  <br/> • Una entrada comodín para las direcciones URL simples  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=Meet.contoso.com; SAN=Meet.fabrikam.com; SAN=dialin.contoso.com; SAN=Admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN =\*. contoso.com  <br/> |
-|Web externo  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • Externo web FQDN  <br/> Y  <br/> • Meet simple URLs per SIP domain  <br/> • Dial-in simple URL  <br/> O BIEN  <br/> • A wildcard entry for the simple URLs  <br/> |The Director external web FQDN must be different from the Front End pool or Front End Server.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN =\*. contoso.com  <br/> |
+|Web externo  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • Externo web FQDN  <br/> Y  <br/> • Satisfacer simples direcciones URL por dominio SIP  <br/> • Acceso telefónico URL simple  <br/> O BIEN  <br/> • Una entrada comodín para las direcciones URL simples  <br/> |El FQDN de web externo Director debe ser distinto del grupo de servidores Front-End o un servidor Front-End.  <br/> SN=dir01.contoso.com; SAN=meet.contoso.com de SAN=directorwebcon01.contoso.com; SAN=Meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN =\*. contoso.com  <br/> |
    
 Certificados de servidor de mediación independiente:
   
@@ -297,23 +297,23 @@ Certificados de servidor de mediación independiente:
    
 Certificados para el dispositivo de la rama que sobreviven:
   
-|**Certificado**|**Subject name/Common name**|**Subject alternative name**|**Ejemplo**|
+|**Certificado**|**Nombre común o nombre del sujeto**|**Nombre alternativo del sujeto**|**Ejemplo**|
 |:-----|:-----|:-----|:-----|
 |Predeterminado  <br/> |FQDN de la aplicación  <br/> |SIP. \<sipdomain\> (necesita sólo una entrada por cada dominio SIP)  <br/> |SN=sba01.contoso. NET; SAN=SIP.contoso.com; SAN=SIP.fabrikam.com  <br/> |
    
 ### <a name="certificates-for-your-persistent-chat-server"></a>Certificados para el servidor de chat persistente
 
-Al instalar al servidor de charla persistente, va a necesita un certificado emitido por la misma CA que el utilizado por su Skype para servidores internos Business Server 2015. Esto debe realizarse para cada servidor que ejecuta el persistente servicios Web de Chat para carga y descarga de archivos. We highly recommend you have the required certificate(s) before you start your Persistent Chat installation, and if your CA is external, even more so (these things can take a little time to be issued).
+Al instalar al servidor de charla persistente, va a necesita un certificado emitido por la misma CA que el utilizado por su Skype para servidores internos Business Server 2015. Esto debe realizarse para cada servidor que ejecuta el persistente servicios Web de Chat para carga y descarga de archivos. Se recomienda tener el o los certificados necesarios antes de iniciar la instalación de charla persistente y si la entidad emisora de certificados es externo, más aún (estas cosas pueden tardar algo de tiempo para emitir).
   
 ### <a name="certificates-for-external-user-access-edge"></a>Certificados para el acceso de usuarios externos (Edge)
 
-Skype for Business Server 2015 supports the use of a **single public certificate** for access and web conferencing Edge external interfaces, plus the A/V Authentication service, which is all provided via the Edge Server(s). La interfaz interna del borde normalmente utiliza un certificado privado emitido por la entidad emisora de certificados interna, pero si lo prefiere, puede utilizar un certificado público para esto, si proviene de una CA de confianza.
+Skype para el año 2015 de Business Server admite el uso de un **único certificado público** de web y acceso a interfaces externas de borde de conferencias, además de la / servicio de autenticación de V, que se proporciona a través de los servidores de borde. La interfaz interna del borde normalmente utiliza un certificado privado emitido por la entidad emisora de certificados interna, pero si lo prefiere, puede utilizar un certificado público para esto, si proviene de una CA de confianza.
   
 Su proxy inverso (RP) también usa un certificado público y cifra sus propias comunicaciones con los clientes y los servidores internos mediante HTTP (o, para ser más precisos, TLS por HTTP).
   
 ### <a name="certificates-for-mobility"></a>Certificados para movilidad
 
-If you're deploying mobility and you're supporting automatic discovery for mobile clients, you're going to need to include some additional subject alternate name entries on your certificates to support the secure connections from the mobile clients.
+Si está implementando movilidad y está fomentando el descubrimiento automático para clientes móviles, va a necesitar incluir algunas entradas de nombre alternativo de sujeto adicional en sus certificados para admitir las conexiones seguras de los clientes móviles.
   
 Estos son los certificados en los que necesitará nombres alternativos de sujeto para la detección automática:
   
@@ -325,38 +325,38 @@ Estos son los certificados en los que necesitará nombres alternativos de sujeto
     
 En las siguientes tablas se ofrecen detalles.
   
-Now, this is where a little pre-planning is good, but sometimes you've deployed Skype for Business Server 2015 without intending to deploy mobility, and that comes up down the line when you already have certificates in your environment. Volver a emitir los certificados desde una CA interna suele ser sencillo, pero en el caso de una CA pública puede resultar un poco más caro.
+Ahora, esto es donde un poco de planificación previa es buena, pero a veces ha implementado Skype para Business Server 2015 sin intención de implementar la movilidad y que aparece abajo de la línea cuando ya tiene certificados en su entorno. Volver a emitir los certificados desde una CA interna suele ser sencillo, pero en el caso de una CA pública puede resultar un poco más caro.
   
-If that's what you're looking at, and if you have a lot of SIP domains (which would make adding SANS more expensive), you can configure your reverse proxy to use HTTP for the initial Autodiscover Service request, instead of using HTTPS (which is the default configuration). Tiene más información en el tema Planificación para la movilidad.
+Si eso es lo que estás buscando y tienes un montón de dominios SIP (que sería agregar SANS más costoso), puede configurar el proxy inverso para utilizar HTTP en la solicitud inicial de Autodiscover Service, en lugar de utilizar HTTPS (que es el predeterminado configuración). Tiene más información en el tema Planificación para la movilidad.
   
-Director pool and Front End pool certificate requirements:
+Requisitos de los certificados de grupo de director y Front-End:
   
-|**Descripción**|**SAN entry**|
+|**Descripción**|**Entrada de SAN**|
 |:-----|:-----|
-|URL del servicio Detección automática interna  <br/> |SAN=lyncdiscoverinternal.\<sipdomain\>  <br/> |
-|URL del servicio Detección automática externa  <br/> |SAN=lyncdiscover.\<sipdomain\>  <br/> |
+|URL del servicio Detección automática interna  <br/> |SAN = lyncdiscoverinternal. \<sipdomain\>  <br/> |
+|URL del servicio Detección automática externa  <br/> |SAN = lyncdiscover. \<sipdomain\>  <br/> |
    
 También puede utilizar SAN =\*. \<sipdomain\>
   
 Requisitos de certificado (CA pública) de proxy inverso
   
-|**Descripción**|**SAN entry**|
+|**Descripción**|**Entrada de SAN**|
 |:-----|:-----|
-|URL del servicio Detección automática externa  <br/> |SAN=lyncdiscover.\<sipdomain\>  <br/> |
+|URL del servicio Detección automática externa  <br/> |SAN = lyncdiscover. \<sipdomain\>  <br/> |
    
 Este SAN debe asignarse al certificado asignado al agente de escucha SSL de su proxy inverso.
   
 > [!NOTE]
-> Your reverse proxy listener's going to have SANs for your external Web Services URL(s). Some examples would be SAN=skypewebextpool01.contoso.com and dirwebexternal.contoso.com, if you've deployed the Director, (which is optional). 
+> Curso el proxy inverso del agente de escucha que SANs para la URL de servicios Web externos. Algunos ejemplos serían SAN=skypewebextpool01.contoso.com y dirwebexternal.contoso.com, si ha implementado el Director, (que es opcional). 
   
 ## <a name="file-share"></a>Recurso compartido de archivos
 <a name="Fileshare"> </a>
 
-Skype for Business Server 2015 is able to use the same file share for all file storage. Deberá tener en cuenta lo siguiente:
+Skype para Business Server 2015 es capaz de utilizar el mismo recurso compartido de archivo para el almacenamiento de todos los archivos. Deberá tener en cuenta lo siguiente:
   
-- Un recurso compartido de archivos debe estar en un almacenamiento conectado directo (DAS) o en un almacenamiento en red (SAN), y esto incluye el sistema de archivos distribuidos (DFS) y las matrices redundantes de discos independientes (RAID). For further reading on DFS for Windows Server 2012, check out [this DFS page](https://technet.microsoft.com/en-us/library/jj127250.aspx).
+- Un recurso compartido de archivos debe estar en un almacenamiento conectado directo (DAS) o en un almacenamiento en red (SAN), y esto incluye el sistema de archivos distribuidos (DFS) y las matrices redundantes de discos independientes (RAID). Para obtener más información sobre DFS para Windows Server 2012, consulte [esta página DFS](https://technet.microsoft.com/en-us/library/jj127250.aspx).
     
-- We recommend a shared cluster for the file share. If you're using one, you should cluster Windows Server 2012 or Windows Server 2012 R2. Windows Server 2008 R2 is acceptable as well. Why the latest Windows? Older versions may not have the right permissions to enable all features. You can use Cluster Administrator to create the file shares, and this [Creating a Cluster](https://support.microsoft.com/kb/284838) KB article will help you with those details.
+- Se recomienda un clúster compartido para el recurso compartido de archivo. Si está utilizando uno, debe organizar en clústeres Windows Server 2012 o Windows Server R2 de 2012. Windows Server 2008 R2 también es aceptable. ¿Por qué el más reciente para Windows? Las versiones más antiguas no tenga los permisos adecuados para habilitar todas las características. Puede utilizar el Administrador de clústeres para crear los recursos compartidos de archivo y, en este artículo la [creación de un clúster](https://support.microsoft.com/kb/284838) KB le ayudará con esos detalles.
     
 > [!CAUTION]
 > Es preciso que recuerde que no se admite el uso del almacenamiento conectado a la red (NAS) como recurso compartido de archivo, de modo que utilice una de las opciones que se han descrito anteriormente. 

@@ -10,7 +10,7 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: Strat_SB_Hybrid
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
-description: 'Summary: Learn about the environmental requirements for Edge Server in Skype for Business Server 2015.'
+description: 'Resumen: Conozca los requisitos del entorno para el servidor perimetral en Skype para Business Server 2015.'
 ms.openlocfilehash: fd3c7d6c5fe138878b0122ea5c1885ad6ef84171
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.lasthandoff: 03/28/2018
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server-2015"></a>Requisitos del entorno del servidor perimetral en Skype Empresarial Server 2015
  
-**Summary:** Learn about the environmental requirements for Edge Server in Skype for Business Server 2015.
+**Resumen:** Obtenga información acerca de los requisitos ambientales para el servidor perimetral en Skype para Business Server 2015.
   
-A lot of planning and preparation needs to take place outside of the Skype for Business Server 2015 Edge Server environment itself. En este artículo, repasaremos qué preparativos tiene que realizar en el entorno de la organización, según la lista que se muestra abajo:
+Mucha planificación y preparación debe llevarse a cabo fuera del Skype para el propio entorno de servidor perimetral de Business Server 2015. En este artículo, repasaremos qué preparativos tiene que realizar en el entorno de la organización, según la lista que se muestra abajo:
   
 - [Topology planning](edge-environmental-requirements.md#TopoPlan)
     
@@ -34,32 +34,32 @@ A lot of planning and preparation needs to take place outside of the Skype for B
 ## <a name="topology-planning"></a>Planificar la topología
 <a name="TopoPlan"> </a>
 
-Skype for Business Server 2015 Edge Server topologies are able to use:
+Skype para topologías de servidor perimetral de Business Server 2015 son capaces de usar:
   
 - Direcciones IP públicas enrutables.
     
 - Direcciones IP privadas no enrutables si se usa la traducción de direcciones de red (NAT) **simétrica**.
     
 > [!TIP]
-> Your Edge Server can be configured to use a single IP address with distinct ports for each service, or it can use distinct IP addresses for each service, but use the same default port (which by default will be TCP 443). Hay más información en la sección de requisitos de las direcciones IP de abajo. 
+> El servidor perimetral puede configurarse para utilizar una única dirección IP con puertos distintos para cada servicio, o puede utilizar distintas direcciones IP para cada servicio, pero utilizar el mismo puerto predeterminado (que de forma predeterminada será TCP 443). Hay más información en la sección de requisitos de las direcciones IP de abajo. 
   
 Si elige direcciones IP privadas no enrutables con NAT, recuerde los siguientes puntos:
   
 - Tiene que usar direcciones IP privadas enrutables en las **tres** interfaces externas.
     
-- Tiene que configurar la NAT **simétrica** para el tráfico entrante y saliente. Symmetric NAT is the only supported NAT you can use with Skype for Business Server 2015 Edge Server.
+- Tiene que configurar la NAT **simétrica** para el tráfico entrante y saliente. NAT simétrico es que el único admitido NAT puede utilizar con Skype para el servidor perimetral de Business Server 2015.
     
-- Configure la NAT para que no cambie las direcciones de origen entrantes. The A/V Edge service needs to be able to receive the incoming source address to find the optimal media path.
+- Configure la NAT para que no cambie las direcciones de origen entrantes. A / servicio V perimetral debe ser capaz de recibir la dirección de origen entrante para encontrar la ruta de medios óptima.
     
-- Your Edge Servers need to be able to communicate with one another from their public A/V Edge IP addresses. El firewall tiene que permitir este tráfico.
+- Los servidores Edge necesitan poder comunicarse entre sí desde sus públicas A / V borde IP direcciones. El firewall tiene que permitir este tráfico.
     
-- NAT can **only** be used for scaled consolidated Edge Servers if you use DNS load balancing. Si usa el equilibrio de carga de hardware (HLB), tiene que usar direcciones IP enrutables públicamente **sin** NAT.
+- NAT **sólo** utilizará para servidores de borde consolidado escala si utiliza Equilibrio de carga DNS. Si usa el equilibrio de carga de hardware (HLB), tiene que usar direcciones IP enrutables públicamente **sin** NAT.
     
-You'll have no problems having your Access, Web conferencing and A/V Edge interfaces behind a router or firewall performing symmetric NAT for both single and scaled consolidated Edge Server topologies (as long as you're not using hardware load balancing).
+No tendrá ningún problema con el acceso, conferencias Web y A y V borde interfaces detrás de un enrutador o firewall realizan NAT simétrico para único y escala consolidan topologías de servidor perimetral (siempre y cuando no se utiliza el equilibrio de carga de hardware).
   
-### <a name="summary-of-edge-server-topology-options"></a>Summary of Edge Server topology options
+### <a name="summary-of-edge-server-topology-options"></a>Resumen de las opciones de topología de servidor perimetral
 
-We have several topology options available for Skype for Business Server 2015 Edge Server deployments:
+Tenemos varias opciones de topología disponibles para Skype para implementaciones de servidor perimetral de Business Server 2015:
   
 - Servidor perimetral consolidado simple con direcciones IP privadas y NAT
     
@@ -73,19 +73,19 @@ We have several topology options available for Skype for Business Server 2015 Ed
     
 Para que le sea más fácil elegir una, la siguiente tabla le ofrece un resumen de las opciones de cada topología:
   
-|**Topología**|**High availability**|**Additional DNS records required for external Edge Server in the Edge pool?**|**Edge failover for Skype for Business Server sessions**|**Edge failover for Skype for Business Server federation sessions**|
+|**Topología**|**Alta disponibilidad**|**¿Registros DNS necesarios para servidor de borde externo en la piscina de borde adicionales?**|**Failover de borde para Skype para sesiones de Business Server**|**Failover de borde para Skype para sesiones de federación Business Server**|
 |:-----|:-----|:-----|:-----|:-----|
 |Servidor perimetral consolidado simple con direcciones IP privadas y NAT  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |
 |Servidor perimetral consolidado simple con direcciones IP públicas  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |
-|Servidor perimetral consolidado ampliado con direcciones IP privadas y NAT (con equilibrio de carga DNS)  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Yes&sup1;  <br/> |
-|Servidor perimetral consolidado ampliado con direcciones IP públicas (con equilibrio de carga DNS)  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Yes&sup1;  <br/> |
+|Servidor perimetral consolidado ampliado con direcciones IP privadas y NAT (con equilibrio de carga DNS)  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí & sup1;  <br/> |
+|Servidor perimetral consolidado ampliado con direcciones IP públicas (con equilibrio de carga DNS)  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí & sup1;  <br/> |
 |Servidor perimetral consolidado ampliado con equilibradores de carga de hardware  <br/> |Sí  <br/> |No (un registro A DNS por VIP)  <br/> |Sí  <br/> |Sí  <br/> |
    
-&sup1; Exchange Unified Messaging (UM) remote user failover using DNS load balancing requires Exchange 2013 or newer.
+& sup1; Conmutación por error de usuario remoto de Exchange Unified Messaging (UM) con equilibrio de carga DNS requiere Exchange 2013 o posterior.
   
 ### <a name="ip-address-requirements"></a>Requisitos de direcciones IP
 
-On a fundamental level, three services need IP addresses; Access Edge service, Web Conferencing Edge service, and A/V Edge service. Tiene la opción de usar tres direcciones IP, una para cada uno de los servicios, o puede usar uno y optar por poner cada servicio en un puerto diferente (puede comprobar la sección [Port and firewall planning](edge-environmental-requirements.md#PortFirewallPlan) para más información sobre esto). Para un entorno de servidor perimetral consolidado simple, es prácticamente todo.
+En un nivel fundamental, tres servicios necesitan direcciones IP; Acceso a servicio de borde, el servicio perimetral de conferencia Web y A / servicio V perimetral. Tiene la opción de usar tres direcciones IP, una para cada uno de los servicios, o puede usar uno y optar por poner cada servicio en un puerto diferente (puede comprobar la sección [Port and firewall planning](edge-environmental-requirements.md#PortFirewallPlan) para más información sobre esto). Para un entorno de servidor perimetral consolidado simple, es prácticamente todo.
   
 > [!NOTE]
 > Como se indica anteriormente, puede optar por tener una dirección IP para los tres servicios y ejecutarlos en diferentes puertos. Para ser claros, no lo recomendamos. Si sus clientes no pueden tener acceso a los puertos alternativos que usa en este escenario, tampoco pueden obtener acceso a la característica completa de su entorno perimetral. 
@@ -94,7 +94,7 @@ Puede ser un poco más complicado con topologías consolidadas ampliadas, por lo
   
 #### <a name="ip-address-requirements-for-scaled-consolidated-edge-ip-address-per-role"></a>Requisitos de dirección IP para servidor perimetral consolidado ampliado (dirección IP por rol)
 
-|**Number of Edge Servers per pool**|**Number of required IP addresses for DNS load balancing**|**Number of required IP addresses for hardware load balancing**|
+|**Número de servidores perimetrales por grupo**|**Número de direcciones IP requeridas para DNS equilibrio de carga**|**Número de direcciones IP requeridas para equilibrio de carga de hardware**|
 |:-----|:-----|:-----|
 |2  <br/> |6  <br/> |3 (1 por VIP) + 6  <br/> |
 |3  <br/> |9  <br/> |3 (1 por VIP) + 9  <br/> |
@@ -103,7 +103,7 @@ Puede ser un poco más complicado con topologías consolidadas ampliadas, por lo
    
 #### <a name="ip-address-requirements-for-scale-consolidated-edge-single-ip-address-for-all-roles"></a>Requisitos de dirección IP para servidor perimetral consolidado ampliado (dirección IP única para todos los roles)
 
-|**Number of Edge Servers per pool**|**Number of required IP addresses for DNS load balancing**|**Number of required IP addresses for hardware load balancing**|
+|**Número de servidores perimetrales por grupo**|**Número de direcciones IP requeridas para DNS equilibrio de carga**|**Número de direcciones IP requeridas para equilibrio de carga de hardware**|
 |:-----|:-----|:-----|
 |2  <br/> |2  <br/> |1 (1 por VIP) + 2  <br/> |
 |3  <br/> |3  <br/> |1 (1 por VIP) + 3  <br/> |
@@ -112,71 +112,71 @@ Puede ser un poco más complicado con topologías consolidadas ampliadas, por lo
    
 Veamos algunos asuntos adicionales en los que pensar durante la planeación.
   
-- **High availability**: If you need high availability in your deployment, you should deploy at least two Edge Servers in a pool. It's worth noting that a single Edge pool will support up to 12 Edge Servers (though Topology Builder will allow you to add up to 20, that's not tested or supported, so we advise you don't do that). If you need more than 12 Edge Servers, you should create additional Edge pools for them.
+- **Alta disponibilidad**: si necesita alta disponibilidad en su implementación, debe implementar al menos dos servidores de borde en un grupo. Cabe señalar que un repositorio único con borde soportará hasta 12 servidores perimetrales (aunque el generador de topología le permitirá agregar hasta 20, que no se ha probado o compatible, por lo que recomendamos que no lo hacen). Si necesita más de 12 servidores perimetrales, debería crear agrupaciones de borde adicionales para ellos.
     
-- **Hardware load balancing**: We recommend DNS load balancing for most scenarios. Hardware load balancing is also supported, of course, but notably it's required for a single scenario over DNS load balancing:
+- **Equilibrio de carga de hardware**: recomendamos DNS equilibrio de carga para la mayoría de los escenarios. Equilibrio de carga de hardware también es compatible, por supuesto, pero en particular se requiere para un escenario único sobre el equilibrio de carga DNS:
     
-  - External access to Exchange 2007 or Exchange 2010 (with no SP) Unified Messaging (UM).
+  - Acceso externo a Exchange 2007 o Exchange 2010 (con ningún SP) Unified Messaging (UM).
     
-- **DNS load balancing**: For UM, Exchange 2010 SP1 and newer are able to be supported by DNS load balancing. Note that if you need to go with DNS load balancing for an earlier version of Exchange, it'll work, but all the traffic for this will go to the first server in the pool, and if it's not available, that traffic will subsequently fail.
+- **Equilibrio de carga DNS**: para mensajería unificada de Exchange 2010 SP1 y más reciente son capaces de ser compatibles con equilibrio de carga DNS. Tenga en cuenta que si necesita ir con DNS equilibrio de carga para una versión anterior de Exchange, trabajará, pero todo el tráfico para esto pasará al primer servidor en el grupo, y si no está disponible, el tráfico que posteriormente se producirá un error.
     
-    DNS load balancing is also recommended if you're federating with companies using Lync Server 2010, Lync Server 2013, and Microsoft Office 365.
+    También se recomienda equilibrio de carga DNS, si está realizando una federación con las empresas que utilizan Microsoft Office 365, Lync Server 2013 y Lync Server 2010.
     
 ## <a name="dns-planning"></a>Planificación de DNS
 <a name="DNSPlan"> </a>
 
-When it comes to Skype for Business Server 2015 Edge Server deployment, it's vital to prepare for DNS properly. Con los registros correctos en su ubicación, la implementación será mucho más sencilla. Afortunadamente ha elegido una topología en la sección anterior, ya que realizaremos una descripción general y después enumeraremos algunas tablas que esquematicen los registros DNS para esos escenarios. We'll also have some [Advanced Edge Server DNS planning for Skype for Business Server 2015](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md) for more in-depth reading, if you need it.
+Cuando se trata de Skype para la implementación de servidor perimetral de Business Server 2015, es vital para preparar correctamente en DNS. Con los registros correctos en su ubicación, la implementación será mucho más sencilla. Afortunadamente ha elegido una topología en la sección anterior, ya que realizaremos una descripción general y después enumeraremos algunas tablas que esquematicen los registros DNS para esos escenarios. También tendremos una [planificación avanzada borde servidor DNS para Skype para Business Server 2015](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md) para la lectura más detallada, si lo necesita.
   
-### <a name="dns-records-for-single-consolidated-edge-server-scenarios"></a>DNS records for Single consolidated Edge Server scenarios
+### <a name="dns-records-for-single-consolidated-edge-server-scenarios"></a>Los registros DNS para único consolidan escenarios de servidor perimetral
 
-These will be the DNS records you're going to need for a singe Edge Server using either public IPs or private IPs with NAT. Dado que estos son datos de ejemplo, le daremos IP de muestra para que pueda resolver sus propias entradas de forma más fácil:
+Éstos serán los registros DNS que va a necesitar para un servidor perimetral mediante cualquier pública única IPs o IPs privadas con NAT. Dado que estos son datos de ejemplo, le daremos IP de muestra para que pueda resolver sus propias entradas de forma más fácil:
   
 - Adaptador de red interna: 172.25.33.10 (no hay ninguna puerta de enlace predeterminada asignada)
     
     > [!NOTE]
-    > Ensure that there is a route from the network containing the Edge internal interface to any networks that contain servers running Skype for Business Server 2015 or Lync Server 2013 clients (for example, from 172.25.33.0 to 192.168.10.0). 
+    > Asegúrese de que hay una ruta de la red que contiene la interfaz interna del borde a todas las redes que contienen servidores que ejecutan Skype para clientes Business Server 2015 o Lync Server 2013 (por ejemplo, de 172.25.33.0 a 192.168.10.0). 
   
 - Adaptador de red externa:
     
   - IP públicas:
     
-  - Access Edge: 131.107.155.10 (this is the primary, with default gateway set to your public router, ex: 131.107.155.1)
+  - Servidor perimetral de acceso: 131.107.155.10 (éste es el principal, con puerta de enlace predeterminada establecida al router pública, ex: 131.107.155.1)
     
-  - Web Conferencing Edge: 131.107.155.20 (secondary)
+  - Borde de conferencias Web: 131.107.155.20 (secundario)
     
-  - A/V Edge: 131.107.155.30 (secondary)
+  - A / V borde: 131.107.155.30 (secundario)
     
-  Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
+  Web conferencias y A las direcciones IP públicas borde V son las direcciones IP adicionales (secundarias) en la sección avanzada de las propiedades del protocolo de Internet versión 4 (TCP/IPv4) y protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área Local en Windows Server.
     
   - IP privadas:
     
-  - Access Edge: 10.45.16.10 (this is the primary, with default gateway set to your router, ex: 10.45.16.1)
+  - Servidor perimetral de acceso: 10.45.16.10 (éste es el principal, con puerta de enlace predeterminada establecida en el enrutador, ex: 10.45.16.1)
     
-  - Web Conferencing Edge: 10.45.16.20 (secondary)
+  - Borde de conferencias Web: 10.45.16.20 (secundario)
     
-  - A/V Edge: 10.45.16.30 (secondary)
+  - A / V borde: 10.45.16.30 (secundario)
     
-Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
+Web conferencias y A las direcciones IP públicas borde V son las direcciones IP adicionales (secundarias) en la sección avanzada de las propiedades del protocolo de Internet versión 4 (TCP/IPv4) y protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área Local en Windows Server.
   
 > [!TIP]
 >Hay otra configuración posible:
   
-- Puede usar una dirección IP en el adaptador de red externa. We don't recommend this because then you're going to need to differentiate between the thee services using different ports (which you can do in Skype for Business Server) but there are some firewalls that may block the alternate ports. Vea la sección de [Port and firewall planning](edge-environmental-requirements.md#PortFirewallPlan) para más información sobre esto.
+- Puede usar una dirección IP en el adaptador de red externa. No se recomienda esto porque a continuación va a necesitar diferenciar entre la TI servicios mediante puertos diferentes (lo que puede hacer en Skype para Business Server), pero hay algunos servidores de seguridad que se pueden bloquear los puertos alternativos. Vea la sección de [Port and firewall planning](edge-environmental-requirements.md#PortFirewallPlan) para más información sobre esto.
     
 - Puede tener tres adaptadores de red externa en lugar de uno y asignar una de las IP del servicio a cada uno. ¿Por qué? Se separarían los servicios y si algo va mal, facilitaría solucionar los problemas y dejar que otros servicios continuasen trabajando potencialmente mientras resuelve un problema.
     
-|**Ubicación**|**Type**|**Puerto**|**Registro DNS o el nombre de dominio completo**|**Dirección IP o FQDN**|**Notas**|
+|**Ubicación**|**Tipo**|**Puerto**|**Registro DNS o el nombre de dominio completo**|**Dirección IP o FQDN**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|DNS externo  <br/> |Un registro  <br/> |NA  <br/> |sip.contoso.com  <br/> |**public:** 131.107.155.10 <br/> **private:** 10.45.16.10 <br/> |An external interface for your Access Edge service. You'll need one for every SIP domain with Skype for Business users.  <br/> |
+|DNS externo  <br/> |Un registro  <br/> |NA  <br/> |SIP.contoso.com  <br/> |**pública:** 131.107.155.10 <br/> **privado:** 10.45.16.10 <br/> |Una interfaz externa para el servicio de servidor perimetral de acceso. Necesitará una para cada dominio SIP con Skype para usuarios de negocios.  <br/> |
 |DNS externo  <br/> |Un registro  <br/> |NA  <br/> |Webcon.contoso.com  <br/> |**pública:** 131.107.155.20 <br/> **privado:** 10.45.16.20 <br/> |Una interfaz externa para el servicio perimetral de conferencia Web.  <br/> |
-|DNS externo  <br/> |Un registro  <br/> |NA  <br/> |AV.contoso.com  <br/> |**pública:** 131.107.155.30 <br/> **private:** 10.45.16.30 <br/> |An external interface for your A/V Edge service.  <br/> |
-|DNS externo  <br/> |Registro SRV  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |An external interface for your Access Edge service. This SRV record is required for Skype for Business Server 2015, Lync Server 2013, and Lync Server 2010 clients to work externally. You'll need one for every domain with Skype for Business users.  <br/> |
-|DNS externo  <br/> |Registro SRV  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |An external interface for your Access Edge service. Este registro SRV es necesario para la detección DNS automática de asociados federados denominada Dominios SIP permitidos. You'll need one for every domain with Skype for Business users.  <br/> |
-|DNS interno  <br/> |Un registro  <br/> |NA  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10  <br/> |La interfaz interna para el servidor perimetral consolidado.  <br/> |
+|DNS externo  <br/> |Un registro  <br/> |NA  <br/> |AV.contoso.com  <br/> |**pública:** 131.107.155.30 <br/> **privado:** 10.45.16.30 <br/> |Una interfaz externa para su / servicio V perimetral.  <br/> |
+|DNS externo  <br/> |Registro SRV  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |SIP.contoso.com  <br/> |Una interfaz externa para el servicio de servidor perimetral de acceso. Este registro SRV es necesaria para Skype para clientes de Lync Server 2010, Lync Server 2013 y Business Server 2015 para que trabaje externamente. Necesitará una para cada dominio con Skype para usuarios de negocios.  <br/> |
+|DNS externo  <br/> |Registro SRV  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |SIP.contoso.com  <br/> |Una interfaz externa para el servicio de servidor perimetral de acceso. Este registro SRV es necesario para la detección DNS automática de asociados federados denominada Dominios SIP permitidos. Necesitará una para cada dominio con Skype para usuarios de negocios.  <br/> |
+|DNS interno  <br/> |Un registro  <br/> |NA  <br/> |sfvedge.contoso.NET  <br/> |172.25.33.10  <br/> |La interfaz interna para el servidor perimetral consolidado.  <br/> |
    
-### <a name="dns-records-for-scaled-dns-and-hardware-edge-server-scenarios"></a>DNS records for Scaled DNS and hardware Edge Server scenarios
+### <a name="dns-records-for-scaled-dns-and-hardware-edge-server-scenarios"></a>Registros DNS para escalar DNS y escenarios de servidor perimetral de hardware
 
-These will be the DNS records you're going to need for a singe Edge Server using either public IPs or private IPs with NAT. Dado que estos son datos de ejemplo, le daremos IP de muestra para que pueda resolver sus propias entradas de forma más fácil:
+Éstos serán los registros DNS que va a necesitar para un servidor perimetral mediante cualquier pública única IPs o IPs privadas con NAT. Dado que estos son datos de ejemplo, le daremos IP de muestra para que pueda resolver sus propias entradas de forma más fácil:
   
 - Adaptador de red interna:
     
@@ -195,29 +195,29 @@ These will be the DNS records you're going to need for a singe Edge Server using
     
         - Servidor perimetral de acceso: 131.107.155.10 (éste es el principal, con puerta de enlace predeterminada establecida al router pública, ex: 131.107.155.1)
     
-        - Web Conferencing Edge: 131.107.155.20 (secondary)
+        - Borde de conferencias Web: 131.107.155.20 (secundario)
     
-        - A/V Edge: 131.107.155.30 (secondary)
+        - A / V borde: 131.107.155.30 (secundario)
     
-          Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
+          Web conferencias y A las direcciones IP públicas borde V son las direcciones IP adicionales (secundarias) en la sección avanzada de las propiedades del protocolo de Internet versión 4 (TCP/IPv4) y protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área Local en Windows Server.
     
     - IP privadas:
     
-         - Access Edge: 10.45.16.10 (this is the primary, with default gateway set to your router, ex: 10.45.16.1)
+         - Servidor perimetral de acceso: 10.45.16.10 (éste es el principal, con puerta de enlace predeterminada establecida en el enrutador, ex: 10.45.16.1)
     
-         - Web Conferencing Edge: 10.45.16.20 (secondary)
+         - Borde de conferencias Web: 10.45.16.20 (secundario)
     
-         - A/V Edge: 10.45.16.30 (secondary)
+         - A / V borde: 10.45.16.30 (secundario)
     
-      Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
+      Web conferencias y A las direcciones IP públicas borde V son las direcciones IP adicionales (secundarias) en la sección avanzada de las propiedades del protocolo de Internet versión 4 (TCP/IPv4) y protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área Local en Windows Server.
     
   - Nodo 2
     
      - IP públicas:
     
-       - Access Edge: 131.107.155.11 (this is the primary, with default gateway set to your public router, ex: 131.107.155.1)
+       - Servidor perimetral de acceso: 131.107.155.11 (éste es el principal, con puerta de enlace predeterminada establecida al router pública, ex: 131.107.155.1)
     
-       - Web Conferencing Edge: 131.107.155.21 (secondary)
+       - Borde de conferencias Web: 131.107.155.21 (secundario)
     
        - A / V borde: 131.107.155.31 (secundario)
     
@@ -231,11 +231,11 @@ These will be the DNS records you're going to need for a singe Edge Server using
     
       - A / V borde: 10.45.16.31 (secundario)
     
-      Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
+      Web conferencias y A las direcciones IP públicas borde V son las direcciones IP adicionales (secundarias) en la sección avanzada de las propiedades del protocolo de Internet versión 4 (TCP/IPv4) y protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área Local en Windows Server.
     
 Hay otra configuración posible:
   
-- Puede usar una dirección IP en el adaptador de red externa. We don't recommend this because then you're going to need to differentiate between the thee services using different ports (which you can do in Skype for Business Server) but there are some firewalls that may block the alternate ports. Vea la sección de [Port and firewall planning](edge-environmental-requirements.md#PortFirewallPlan) para más información sobre esto.
+- Puede usar una dirección IP en el adaptador de red externa. No se recomienda esto porque a continuación va a necesitar diferenciar entre la TI servicios mediante puertos diferentes (lo que puede hacer en Skype para Business Server), pero hay algunos servidores de seguridad que se pueden bloquear los puertos alternativos. Vea la sección de [Port and firewall planning](edge-environmental-requirements.md#PortFirewallPlan) para más información sobre esto.
     
 - Puede tener tres adaptadores de red externa en lugar de uno y asignar una de las IP del servicio a cada uno. ¿Por qué? Se separarían los servicios y si algo va mal, facilitaría solucionar los problemas y dejar que otros servicios continuasen trabajando potencialmente mientras resuelve un problema.
     
