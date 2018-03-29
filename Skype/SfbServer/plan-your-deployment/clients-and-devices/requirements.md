@@ -64,7 +64,7 @@ Sistemas de salas de Skype v2 puede escalar a tamaños de sala diferente a trav�
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> ||
 |[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |Audio - 1.0.172  <br/> Vídeo: 1.0.156  <br/> |
 |[Conectar Logitech ConferenceCam](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0  <br/> 1.1.684  <br/> |
-|[Logitech Group](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778  <br/> |
+|[Grupo de Logitech](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778  <br/> |
 |[Logitech 930e](http://www.logitech.com/en-us/product/c930e-webcam) <br/> | 8.0.914 <br/> |
 |[Logitech PTZ Pro](http://www.logitech.com/en-us/product/conferencecam-ptz-pro) <br/> | 1.1.219 <br/> |
 |[Trío de Polycom RealPresence](http://www.polycom.com/voice-conferencing-solutions/conference-phones/realpresence-trio.mdl) <br/> |5.4.4.7511  <br/> |
@@ -93,56 +93,56 @@ Sistemas de salas de Skype v2 puede escalar a tamaños de sala diferente a trav�
     > Una televisión de consumo que se utiliza como un frente de las necesidades de visualización de sala para soporte o habilitar la característica de Control de electrónica de consumo (CEC) de HDMI por lo que puede cambiar automáticamente a un origen de vídeo activo en modo de espera. Esta característica no se admite en todos los televisores. 
   
 > [!NOTE]
-> Sistemas de salas de Skype v2 no utiliza un teclado. En caso de necesitarlo, el administrador debe usar el teclado en pantalla. A USB keyboard or mouse will be required when imaging the Skype Room Systems v2 device. 
+> Sistemas de salas de Skype v2 no utiliza un teclado. En caso de necesitarlo, el administrador debe usar el teclado en pantalla. Un teclado o mouse USB será necesario cuando el dispositivo de sistemas de salas de Skype v2 de imágenes. 
   
 Las siguientes tablas ofrecen recomendaciones para periféricos basados en el tamaño de la sala:
   
 **Sala de Skype v2 de sistemas certificados de periféricos de Audio**
 
-|**Room Type**|**Number of People**|**Distancia máxima recomendada de micrófono a la persona que habla**|**Device by maximum room size**|**Comentarios**|
+|**Tipo de habitación**|**Número de personas**|**Distancia máxima recomendada de micrófono a la persona que habla**|**Dispositivo de tamaño máximo de sala**|**Comentarios**|
 |:-----|:-----|:-----|:-----|:-----|
-|**Focus** <br/> 10' x 9'  <br/> |2-4  <br/> |1,5 m  <br/> |Logitech Connect  <br/> |The Logitech Connect devices include a camera so it must be positioned at the front of the room (not center of table) to capture local meeting attendees.  <br/> |
-|**Small** <br/> 16' x 16'  <br/> |4-6  <br/> |2,0 m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |El volumen de reproducción puede estar limitado para salas más grandes.  <br/> |
-|**Media** <br/> 18' x 20'  <br/> |6-12  <br/> |2.4m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS  <br/> |The Logitech MeetUp includes a camera so it must be positioned at the front of room (not center of table to capture local meeting attendees).  <br/> In general, rooms with long rectangular or u-shaped tables may benefit from additional satellite microphones.  <br/> SP 220 MS se debe usar con la configuración de cadena de margarita.  <br/> |
-|**Large** <br/> 15' x 20'  <br/> |12-16  <br/> |3m  <br/> Esta distancia también se aplica al área cubierta por cada micrófono satelital adicional conectado al dispositivo de audio en cuestión.   <br/> |Logitech Group + satellite mics  <br/> Polycom Trio+ satellite mics  <br/> Polycom CX5100 + satellite mics  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS + satellite mics  <br/> |Todos los dispositivos de audio que se enumeran en esta fila admiten opciones de micrófono satelital.  <br/> CX5100 incluye una cámara integrada de 360 grados de manera que el dispositivo puede situarse en el centro de la mesa.  <br/> SP 220 MS se debe usar con la configuración de cadena de margarita.  <br/> |
+|**Foco** <br/> 10' x 9'  <br/> |2-4  <br/> |1,5 m  <br/> |Logitech Connect  <br/> |Los dispositivos conectar Logitech incluyen una cámara, por lo que deberá estar situado en la parte delantera de la sala (no el centro de la tabla) para capturar los asistentes a la reunión local.  <br/> |
+|**Pequeño** <br/> 16' x 16'  <br/> |4-6  <br/> |2,0 m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |El volumen de reproducción puede estar limitado para salas más grandes.  <br/> |
+|**Media** <br/> 18' x 20'  <br/> |6-12  <br/> |2,4 m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS  <br/> |El Logitech MeetUp incluye una cámara, por lo que deberá estar situado en la parte delantera de la sala (no el centro de la tabla para capturar los asistentes a la reunión local).  <br/> En general, salas con tablas largo rectangulares o en forma de u pueden beneficiarse de los micrófonos de satélite adicionales.  <br/> SP 220 MS se debe usar con la configuración de cadena de margarita.  <br/> |
+|**Grandes** <br/> 15' x 20'  <br/> |12-16  <br/> |3m  <br/> Esta distancia también se aplica al área cubierta por cada micrófono satelital adicional conectado al dispositivo de audio en cuestión.   <br/> |Grupo de Logitech + micrófonos de satélite  <br/> Micrófonos de satélite Polycom trío +  <br/> Polycom CX5100 + micrófonos de satélite  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000 + micrófonos de satélite  <br/> |Todos los dispositivos de audio que se enumeran en esta fila admiten opciones de micrófono satelital.  <br/> CX5100 incluye una cámara integrada de 360 grados de manera que el dispositivo puede situarse en el centro de la mesa.  <br/> SP 220 MS se debe usar con la configuración de cadena de margarita.  <br/> |
    
-**Skype Room Systems v2 Certified Video Peripherals**
+**Sala de Skype v2 de sistemas certificados periféricos de vídeo**
 
-|**Room Type**|**Number of People**|**Device by Optimal room size**|**Comentarios**|
+|**Tipo de habitación**|**Número de personas**|**Dispositivo de tamaño del sitio óptimo**|**Comentarios**|
 |:-----|:-----|:-----|:-----|
-|**Focus** <br/> 10' x 9'  <br/> |2-4  <br/> |Logitech Connect  <br/> Logitech MeetUp  <br/> Polycom CX5100   <br/> ||
-|**Small** <br/> 16' x 16'  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> |Logitech PTZ Pro often bundled with Logitech Group  <br/> |
+|**Foco** <br/> 10' x 9'  <br/> |2-4  <br/> |Logitech Connect  <br/> Logitech MeetUp  <br/> Polycom CX5100   <br/> ||
+|**Pequeño** <br/> 16' x 16'  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> |Logitech PTZ Pro suele incluirse con grupo de Logitech  <br/> |
 |**Media** <br/> 18' x 20'  <br/> |6-12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
-|**Large** <br/> 15' x 20'  <br/> |12-16  <br/> |Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
+|**Grandes** <br/> 15' x 20'  <br/> |12-16  <br/> |Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
    
 ## <a name="required-software-downloads"></a>Descargas de software necesarias
 
-You will need the following downloads to build your own Skype Room Systems v2 image:
+Necesitará las siguientes descargas para crear su propia imagen de sistemas de salas de Skype v2:
   
-- The [Skype Room Systems v2 installation package](https://go.microsoft.com/fwlink/?linkid=851168).
+- El [paquete de instalación de sistemas de salas de Skype v2](https://go.microsoft.com/fwlink/?linkid=851168).
     
-- Obtain a copy of the 64-bit version of Windows 10 Enterprise Creator's Update (English language, build 1703). 
+- Obtenga una copia de la versión de 64 bits de Update del creador de Windows 10 Enterprise (en inglés, compilación 1703). 
     
     > [!NOTE]
-    > The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Skype Room Systems v2 release 3.0.12.0 (update 3). 
+    > Ya no se admite la versión de 64 bits de la edición de aniversario de Windows 10 Enterprise (en inglés, versión 1607) a partir de sistemas de salas de Skype v2 versión 3.0.12.0 (actualización 3). 
   
-- The supported [Surface Pro 4 drivers](https://go.microsoft.com/fwlink/?linkid=856887) or [Surface Pro drivers](https://go.microsoft.com/fwlink/?linkid=856888).
+- El admitidos [Surface Pro 4 controladores](https://go.microsoft.com/fwlink/?linkid=856887) o [controladores Surface Pro](https://go.microsoft.com/fwlink/?linkid=856888).
     
-These downloads need to be combined into a bootable Windows installation media disk in a specific way, described further in [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md). 
+Estas descargas deben combinarse en un disco arrancable de medios de instalación de Windows de una manera específica, describe con más detalle en [Configurar una consola de sistemas de salas de Skype v2](../../deploy/deploy-clients/console.md). 
   
-In addition, you will probably want a copy of the [Powershell script](https://go.microsoft.com/fwlink/?linkid=870105) used to provision Skype Room Systems v2 accounts.
+Además, probablemente le interesará una copia del [script de Powershell](https://go.microsoft.com/fwlink/?linkid=870105) usa para aprovisionar a las cuentas de los sistemas de salas de Skype v2.
   
 ## <a name="see-also"></a>Vea también
 
 #### 
 
-[Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
+[Plan para la sala de Skype v2 de sistemas](skype-room-systems-v2-0.md)
   
-[Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md)
+[Implementar sala de Skype v2 de sistemas](../../deploy/deploy-clients/room-systems-v2.md)
   
-[Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md)
+[Configurar una consola de sistemas de salas de Skype v2](../../deploy/deploy-clients/console.md)
   
-[Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Administrar espacio de Skype v2 de sistemas](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 #### 
 
 [Licencias complementarias de Skype Empresarial](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

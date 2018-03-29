@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-description: 'Summary: Learn about the performance counters that you can use to monitor servers running the Unified Communications Web API (UCWA) and the Skype for Business Server 2015 Mcx Mobility Service.'
+description: 'Resumen: Conozca los contadores de rendimiento que puede utilizar para supervisar los servidores que ejecutan el API de Web de comunicaciones unificadas (UCWA) y el Skype para servicio de movilidad de Business Server 2015 Mcx.'
 ms.openlocfilehash: 7f82f263969deb5fc71e448f0e514dd0056c31eb
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
 ms.translationtype: MT
@@ -18,17 +18,17 @@ ms.lasthandoff: 03/28/2018
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server-2015"></a>Contadores de rendimiento de movilidad en Skype Empresarial Server 2015
  
-**Summary:** Learn about the performance counters that you can use to monitor servers running the Unified Communications Web API (UCWA) and the Skype for Business Server 2015 Mcx Mobility Service.
+**Resumen:** Obtenga información sobre los contadores de rendimiento que puede utilizar para supervisar los servidores que ejecutan el API de Web de comunicaciones unificadas (UCWA) y el Skype para servicio de movilidad de Business Server 2015 Mcx.
   
-The following tables list the names and descriptions of performance counters that you can use to monitor servers running the Unified Communications Web API (UCWA) and the Skype for Business Server 2015 Mcx Mobility Service. 
+Las tablas siguientes enumeran los nombres y descripciones de contadores de rendimiento que puede utilizar para supervisar los servidores que ejecutan el API de Web de comunicaciones unificadas (UCWA) y el Skype para servicio de movilidad de Business Server 2015 Mcx. 
   
-The category name for the counters in the UCWA table is **LS:WEB - UCWA**.
+El nombre de la categoría de los contadores de la tabla UCWA es **LS:WEB - UCWA**.
   
 El nombre de categoría de los contadores de la tabla relativa al servicio de movilidad Mcx es **LS:WEB - Mobile Communication Service**.
   
 ## <a name="performance-counters-for-ucwa"></a>Contadores de rendimiento para UCWA
 
-|**Counter**|**Descripción**|
+|**Contador**|**Descripción**|
 |:-----|:-----|
 |Recuento de aplicaciones activas  <br/> |Número actual de aplicaciones  <br/> |
 |Recuento de modalidad de uso compartido de aplicaciones activa  <br/> |Número actual de modalidad de uso compartido de aplicaciones  <br/> |
@@ -56,7 +56,7 @@ El nombre de categoría de los contadores de la tabla relativa al servicio de mo
 |Cantidad de errores de recuperación de foto de Active Directory  <br/> |Cantidad total de errores en recuperar fotos de Active Directory  <br/> |
 |Cantidad de errores de búsqueda de contacto  <br/> |Cantidad total de errores de búsqueda de contactos en Exchange  <br/> |
 |Cantidad de errores de deserialización  <br/> |Cantidad total de errores de deserialización  <br/> |
-|Number of HD Photo Get Failures  <br/> |Cantidad total de errores en recuperar fotos HD de Exchange  <br/> |
+|Número de errores de Get HD Photo  <br/> |Cantidad total de errores en recuperar fotos HD de Exchange  <br/> |
 |Exceso de número máximo de suscripciones por aplicación  <br/> |Cantidad de solicitudes de suscripción por encima del máximo permitido por aplicación  <br/> |
 |Exceso de número máximo de suscripciones por lote  <br/> |Cantidad de solicitudes de suscripción por encima del máximo permitido por lote  <br/> |
 |Errores de suscripción de presencia  <br/> |Cantidad de errores al suscribir la presencia  <br/> |
@@ -74,9 +74,9 @@ El nombre de categoría de los contadores de la tabla relativa al servicio de mo
 |Sesiones totales finalizadas ya que se ha agotado el tiempo de espera de inactividad  <br/> |Cantidad total de sesiones que han finalizado porque se ha agotado el tiempo de espera de inactividad del usuario  <br/> |
 |Total de aplicaciones limitadas  <br/> |Cantidad total de aplicaciones limitadas  <br/> |
    
-**Performance Counters for Mcx Mobility Service**
+**Contadores de rendimiento para el servicio de movilidad Mcx**
 
-|**Counter**|**Descripción**|
+|**Contador**|**Descripción**|
 |:-----|:-----|
 |Duración media de una sesión en milisegundos  <br/> |Duración media de una sesión en milisegundos  <br/> |
 |Suscripciones de notificación de inserción actuales  <br/> |Cantidad actual de suscripciones de notificación de inserción. Esta cantidad representa, junto con el recuento de sesiones actualmente activas, el subconjunto de sesiones actualmente activas que hay registradas para dispositivos Windows Mobile o iPhone.  <br/> |
