@@ -1,0 +1,90 @@
+---
+title: Crear una directiva de archivado en Skype Empresarial Server 2015
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.date: 3/28/2016
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
+description: 'Resumen: Conozca cómo crear una nueva directiva de archivado para Skype para Business Server 2015.'
+ms.openlocfilehash: 38a87892620a4d4fdd70b2cf855dc37d371b1b57
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/28/2018
+---
+# <a name="create-a-new-archiving-policy-in-skype-for-business-server-2015"></a>Crear una directiva de archivado en Skype Empresarial Server 2015
+
+**Resumen:** Aprenda a crear una nueva directiva de archivado para Skype para Business Server 2015.
+  
+Puede crear directivas de archivado por medio del Panel de control o por medio de los cmdlets de Windows PowerShell.
+  
+## <a name="create-a-new-archiving-policy-by-using-the-control-panel"></a>Crear una directiva de archivado con el Panel de control
+
+Para crear una directiva de archivado con el Panel de control:
+  
+1. Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna. 
+    
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de Admin para abrir el Skype para Panel de Control de servidor empresarial. 
+    
+3. En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Directiva de archivado**.
+    
+4. Haga clic en **Nuevo** y, luego, siga uno de estos procedimientos: 
+    
+   - Para crear una directiva de archivado de nivel de sitio, haga clic en **Directiva de sitio**, en **Seleccionar un sitio** y, después, haga clic en el sitio al que se va a aplicar la directiva.
+    
+   - Para crear una directiva de archivado de usuario, haga clic en **Directiva de usuario**.
+    
+5. En **Directiva de archivado nueva**, haga lo siguiente:
+    
+   - En **Nombre**, especifique un nombre para la nueva directiva (por ejemplo, externalContoso).
+    
+   - En **Descripción**, proporcione información detallada sobre la función de la directiva (por ejemplo, directiva de archivado de usuarios externos para Contoso).
+    
+   - Para controlar el archivado de comunicaciones con usuarios internos, active o desactive la casilla **Archivar comunicaciones internas**.
+    
+  - Para controlar el archivado de comunicaciones externas, active o desactive la casilla **Archivar comunicaciones externas**.
+    
+6. Haga clic en **Confirmar**.
+    
+    > [!IMPORTANT]
+    > La configuración de una directiva de usuario únicamente se aplica a los usuarios y grupos de usuarios específicos a los que aplica la directiva. Para obtener más información, vea [aplicar una directiva de archivado para los usuarios de Skype para Business Server 2015](apply-a-policy-to-users.md). 
+  
+## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>Crear una directiva de archivado con Windows PowerShell
+
+Puede también crear una directiva de archivado con el cmdlet de Windows PowerShell **New-CsArchivingPolicy**. Para obtener más información, vea el tema de ayuda para el cmdlet [New-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) .
+  
+### <a name="to-create-a-new-archiving-policy-at-the-site-level"></a>Crear una directiva de archivado en el ámbito de sitio
+
+Este comando crea una directiva de archivado para el sitio Redmond:
+  
+```
+New-CsArchivingPolicy -Identity "site:Redmond"
+```
+
+### <a name="to-create-a-new-archiving-policy-at-the-per-user-level"></a>Para crear una directiva de archivado por usuario
+
+Para crear una directiva de archivado por usuario, simplemente especifique una identidad única al crear la directiva:
+  
+```
+New-CsArchivingPolicy -Identity "RedmondArchivingPolicy"
+```
+
+### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-internal-communication-sessions"></a>Para crear una directiva de archivado que permita el archivado de sesiones de comunicaciones internas
+
+Ya que no se especifican parámetros (excepto el parámetro obligatorio Identity) en los comandos anteriores, las nuevas directivas usarán los valores predeterminados para todas sus propiedades. Para crear directivas que usen otros valores de propiedades, basta con incluir el parámetro y el valor de parámetro correspondiente. Por ejemplo, el siguiente comando crea una directiva de archivado que permite archivar internas sesiones de mensajería instantánea: 
+  
+```
+New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True
+```
+
+### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-both-internal-and-external-communication-sessions"></a>Para crear una directiva de archivado que permita el archivado de sesiones de comunicaciones tanto internas como externas
+
+Con la inclusión de varios parámetros se pueden cambiar varios valores de propiedad. Por ejemplo, este comando configura la nueva directiva de archivado de sesiones de mensajería instantánea internas y externas:
+  
+```
+New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True -ArchiveExternal $True
+```

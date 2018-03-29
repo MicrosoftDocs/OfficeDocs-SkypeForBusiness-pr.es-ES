@@ -1,0 +1,61 @@
+---
+title: Flujo de trabajo de grupos de respuesta
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.date: 11/17/2014
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.lscp.RgsWorkFlowMain
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
+description: Grupos de respuesta consisten en flujos de trabajo, colas y grupos de agentes. Flujos de trabajo de grupo de respuesta definen las acciones que se realizan cuando la aplicación de grupo de respuesta recibe una llamada de teléfono.
+ms.openlocfilehash: d4fa4f946c8dd54d0abab6bea41cc632f780f747
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/28/2018
+---
+# <a name="response-groups-workflow"></a>Flujo de trabajo de grupos de respuesta
+ 
+Grupos de respuesta consisten en flujos de trabajo, colas y grupos de agentes. Flujos de trabajo de grupo de respuesta definen las acciones que se realizan cuando la aplicación de grupo de respuesta recibe una llamada de teléfono. 
+  
+Los **Grupos de respuesta** - página de**flujo de trabajo** muestra una lista de todos los flujos de trabajo de grupo de respuesta que se definen para su organización.
+  
+## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
+
+Puede realizar las siguientes tareas de los **Grupos de respuesta** - página de**flujo de trabajo** :
+  
+- Crear o cambiar un flujo de trabajo de grupo de captura
+    
+- Crear o cambiar un flujo de trabajo interactivo
+    
+## <a name="ui-reference"></a>Referencia de interfaz de usuario
+
+En la siguiente lista se describen los comandos de la página.
+  
+- **Creación o edición de un flujo de trabajo** Abre la herramienta de configuración de grupo de respuesta para crear o editar un flujo de trabajo.
+    
+- **Actualizar** Actualiza la lista de flujos de trabajo.
+    
+En la siguiente lista se describen los campos de la página.
+  
+- **Nombre** El nombre único que se asigna al flujo de trabajo.
+    
+- **Servicio** El servicio de **ApplicationServer** que alberga el flujo de trabajo.
+    
+- **Dirección SIP** La dirección SIP del grupo que responderá a las llamadas al flujo de trabajo.
+    
+- **Teléfono** El número de teléfono al que se llama para llegar a este grupo de respuesta.
+    
+- **Idioma** El idioma que se utiliza para texto a voz y reconocimiento de voz.
+    
+- **IVR** Indica si el flujo de trabajo es un flujo de trabajo interactivo o un grupo de captura.
+    
+- **Habilitado** Indica si se activa el flujo de trabajo para recibir llamadas.
+    
+Para obtener más información acerca de capacidades y características de los grupos de respuesta, vea [Planear la aplicación de grupo de respuesta en Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación de planeamiento. Para obtener más información acerca de cómo trabajar con flujos de trabajo de grupo de respuesta, vea [Administrar flujos de trabajo de grupo de respuesta](http://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) en la documentación de las operaciones.
+  
+

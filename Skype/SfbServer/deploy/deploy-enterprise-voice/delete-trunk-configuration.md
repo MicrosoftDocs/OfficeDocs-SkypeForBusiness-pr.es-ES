@@ -1,0 +1,85 @@
+---
+title: Eliminar un conjunto existente de opciones de configuración de troncos SIP en Skype Empresarial Server 2015
+ms.author: crowe
+author: CarolynRowe
+manager: serdars
+ms.date: 3/28/2016
+ms.audience: ITPro
+ms.topic: get-started-article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection: IT_Skype16
+ms.custom: Strat_SB_Admin
+ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
+description: 'Resumen: Conozca cómo eliminar una colección de valores de configuración del tronco utilizando el Skype para el Panel de Control de servidor empresarial.'
+ms.openlocfilehash: 4193922cbf3c318ada0e896a6082c51f33615330
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/28/2018
+---
+# <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server-2015"></a>Eliminar un conjunto existente de opciones de configuración de troncos SIP en Skype Empresarial Server 2015
+ 
+**Resumen:** Aprenda a eliminar una colección de valores de configuración de tronco mediante el Skype para el Panel de Control de servidor empresarial.
+  
+Las opciones de configuración de los troncos SIP definen la relación y las capacidades entre un servidor de mediación y la puerta de enlace de la red telefónica conmutada (RTC), una central de conmutación pública de IP (PBX) o un controlador de borde de sesión (SBC) en el proveedor de servicios. Estas opciones de configuración especifican:
+  
+- Si se debe activar la omisión de medios en los troncos.
+    
+- Las condiciones en las que se envían los paquetes de protocolo de control de transporte en tiempo real (RTCP).
+    
+- Si se requiere el cifrado mediante el protocolo de transporte seguro en tiempo real (SRTP) en todos los troncos.
+    
+Al instalar Skype para Business Server, se crea una colección global de la configuración de troncales SIP para usted. Esta recopilación global de configuraciones no puede eliminarse. Sin embargo, puede utilizar el Skype para el Panel de Control de servidor de negocios o el cmdlet [Remove-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cstrunkconfiguration?view=skype-ps) para "Restablecer" las propiedades de la colección global a sus valores predeterminados. Por ejemplo, si ha definido el parámetro Enable3pccRefer en True, al restablecer la recopilación global el parámetro Enable3pccRefer volverá al valor predeterminado False.
+  
+Los Administradores también pueden crear configuraciones de tronco personalizadas en el ámbito del sitio o en el ámbito del servicio (para una puerta de enlace PSTN individual); estas configuraciones personalizadas pueden eliminarse. Al eliminar estas configuraciones personalizadas tenga en cuenta lo siguiente:
+  
+- Si elimina la configuración del ámbito del servicio, el tronco SIP administrado por esas configuraciones será administrado por las configuraciones aplicadas a su sitio, si existieran. Si no existen las configuraciones del sitio, esos troncos serán administrados por la recopilación global de configuraciones de tronco.
+    
+- Si elimina las configuraciones del ámbito del sitio, cualquier tronco SIP administrado por esas configuraciones será entonces administrado por la recopilación global de configuraciones de tronco.
+    
+### <a name="to-remove-trunk-configuration-settings-with-skype-for-business-server-control-panel"></a>Para quitar valores de configuración de tronco con Skype para Panel de Control de servidor de Business
+
+1. En Skype para Business Server Control Panel, haga clic en **Enrutamiento de voz** y, a continuación, haga clic en **Configuración de tronco**.
+    
+2. En la pestaña **Configuración de tronco**, seleccione la recopilación de configuraciones de tronco SIP que desea eliminar, haga clic en **Editar** y, a continuación, haga clic en **Eliminar**. Para eliminar varias recopilaciones en la misma operación, haga clic en la primera recopilación que desea eliminar, luego mantenga presionada la tecla Ctrl y haga clic en cualquier otra recopilación que desee eliminar.
+    
+3. La propiedad **Estado** para la recopilación se actualizará a **No confirmado**. Para confirmar los cambios y eliminar la recopilación, haga clic en **Confirmar** y luego en **Confirmar todo**.
+    
+4. En el cuadro de diálogo **Valores de configuración de voz no confirmados**, haga clic en haga clic en **Aceptar**.
+    
+5. En el cuadro de diálogo de **Skype para Business Server Control Panel** , haga clic en **Aceptar**.
+    
+6. Si cambia de opinión y decide no eliminar la recopilación, haga clic en **Confirmar** y, a continuación, haga clic en **Cancelar todos los cambios no confirmados**. Cuando aparezca el cuadro de diálogo de **Skype para Business Server Control Panel** , haga clic en **Aceptar**.
+    
+## <a name="removing-trunk-configuration-settings-by-using-skype-for-business-server-management-shell-cmdlets"></a>Quitar configuración troncal mediante Skype para los Cmdlets del Shell de administración de Business Server
+
+Puede eliminar los valores de configuración de tronco mediante Skype para el Shell de administración de servidor empresarial y el cmdlet **Remove-CsTrunkConfiguration** . Puede ejecutar este cmdlet desde el Skype para el Shell de administración de servidor empresarial o desde una sesión remota de Skype para el Shell de administración de servidor de empresa.
+  
+### <a name="to-remove-a-specified-collection-of-settings"></a>Para quitar una recopilación concreta de opciones de configuración
+
+- El siguiente comando elimina las configuraciones de tronco aplicadas al sitio Redmond:
+    
+  ```
+  Remove-CsTrunkConfiguration -Identity site:Redmond
+  ```
+
+### <a name="to-remove-all-the-collections-applied-to-the-site-scope"></a>Quitar todas las recopilaciones aplicadas al ámbito del sitio
+
+- Este comando elimina todas las configuraciones de tronco aplicadas al ámbito del servicio:
+    
+  ```
+  Get-CsTrunkConfiguration -Filter "service:*" | Remove-CsTrunkConfiguration
+  ```
+
+### <a name="to-remove-all-the-collections-where-media-bypass-is-enabled"></a>Quitar todas las recopilaciones en las que la omisión de medios está habilitada
+
+- El siguiente comando quita las configuraciones de tronco en las que la omisión de medios se ha habilitado:
+    
+  ```
+  Get-CsTrunkConfiguration | Where-Object {$_.EnableBypass -eq $True} | Remove-CsTrunkConfiguration
+  ```
+
+Para obtener más información, vea el tema de ayuda para el cmdlet [Remove-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cstrunkconfiguration?view=skype-ps) .
+  
+

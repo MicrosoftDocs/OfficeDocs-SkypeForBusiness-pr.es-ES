@@ -1,0 +1,82 @@
+---
+title: Número de teléfono sin asignar
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.date: 3/24/2015
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.lscp.VoiceFeaVacantNumMain
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
+description: Los números sin asignar son números de teléfono válidos en la organización, pero que no se han asignado a un usuario o teléfono. En la tabla de números sin asignar se identifica cómo desea que se traten las llamadas a números sin asignar.
+ms.openlocfilehash: fb04799513fb4f9ddf06c2e229284963a53fd0d7
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/28/2018
+---
+# <a name="unassigned-phone-number"></a>Número de teléfono sin asignar
+ 
+Los números sin asignar son números de teléfono válidos en la organización, pero que no se han asignado a un usuario o teléfono. En la tabla de números sin asignar se identifica cómo desea que se traten las llamadas a números sin asignar.
+  
+La forma en que configure la tabla de números sin asignar depende de cómo desee usarla. Puede configurar la tabla con todas las extensiones válidas para la organización, con únicamente extensiones sin asignar, o bien con una combinación de ambos tipos de números. La tabla de números sin asignar puede incluir tanto números asignados como sin asignar, pero solamente se invoca cuando un autor de llamadas marca un número que no está asignado en ese momento. Si incluye todas las extensiones válidas en la tabla de números sin asignar, puede especificar la acción que va a tener lugar siempre que alguien abandone la organización, sin necesidad de volver a configurar la tabla. Si incluye extensiones sin asignar en la tabla, puede personalizar la acción que va a tener lugar respecto a números específicos. Por ejemplo, si cambia la extensión del departamento de soporte interno, puede incluir el número antiguo de este departamento en la tabla y asignarlo a un anuncio que comunique el número nuevo.
+  
+> [!IMPORTANT]
+> Antes de configurar la tabla de números sin asignar, tiene que haber definido uno o más anuncios o haber establecido un operador automático de mensajería unificada de Exchange. 
+  
+La página **Número no asignado** muestra una lista de todos los intervalos de números sin asignar definidos en la organización.
+  
+## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
+
+En la página **Número no asignado** puede realizar las siguientes tareas:
+  
+- Crear un intervalo de números sin asignar
+    
+- Cambiar un intervalo de números sin asignar existente
+    
+- Eliminar un intervalo de números sin asignar
+    
+- Cambiar el orden de los intervalos de números sin asignar para determinar qué acción necesita aplicarse primero a una llamada entrante que coincida con un número sin asignar. 
+    
+## <a name="ui-reference"></a>Referencia de interfaz de usuario
+
+En la siguiente lista se describen los comandos de la página.
+  
+- **Nuevo** Inicia un nuevo intervalo de números sin asignar.
+    
+- **Editar** Abre el intervalo de números sin asignar seleccionado para su edición, selecciona todos los intervalos de números sin asignar en la lista o elimina el intervalo de números sin asignar seleccionado.
+    
+- **Mover hacia arriba** Mueve el intervalo de números sin asignar seleccionado arriba en la lista para que Skype para Business Server encuentra antes y aplica la acción especificada antes de aplicar las acciones especificadas para los otros rangos de la lista.
+    
+    > [!NOTE]
+    > Skype para Business Server busca en la tabla sin asignar número de arriba a abajo y utiliza el primer rango que coincide con el número sin asignar. Por ejemplo, si tiene un intervalo que especifique una acción de último recurso, asegúrese de que ese intervalo se encuentra en último lugar en la lista. 
+  
+- **Mover hacia abajo** Mueve el intervalo de números sin asignar seleccionado hacia abajo en la lista.
+    
+- **Confirmar todos** Guarda todos los cambios realizados en los intervalos numéricos sin asignar.
+    
+    > [!IMPORTANT]
+    > Este comando guarda todos los cambios realizados en las páginas **Nuevo número sin asignar** y **Editar número sin asignar**.
+  
+- **Actualizar** Actualiza la lista de intervalos numéricos sin asignar.
+    
+En la siguiente lista se describen los campos de la página.
+  
+- **Nombre** El nombre único que identifica el intervalo de números sin asignar.
+    
+- **Estado** Muestra el número de intervalos que se han guardado en la base de datos y cuáles no.
+    
+- **Inicio de intervalo** El número inicial del intervalo de números sin asignar.
+    
+- **Intervalo final** El número final del intervalo de números sin asignar.
+    
+- **Destino** El identificador de servicio del servicio de aplicación que hospeda la aplicación de anuncio que controlará las llamadas entrantes a este rango de números sin asignar.
+    
+- **Anuncio** El anuncio que se reproducirá para este rango de números sin asignar.
+    
+Para obtener más información acerca de capacidades y características de anuncio, vea [Planear la aplicación de anuncio en Skype para negocios 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) en la documentación de planificación. Para obtener más información sobre cómo trabajar con intervalos numéricos sin asignar, vea [Configurar el enrutamiento de sin asignar números de teléfono](http://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) en la documentación de las operaciones.
+  
+

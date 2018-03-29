@@ -1,0 +1,10 @@
+---
+título: "Solicitud de certificado (cuenta de autoridad de certificado)" ms.author: jambirk autor: Administrador de jambirk: serdars ms.date: 17/11/2014 ms.audience: ms.topic de ITPro: artículo f1_keywords:
+- ms.lync.dep.DeployCertRequestCAAccount ms.prod: localization_priority de Skype para negocios itpro: Normal ms.assetid: descripción de 6251322d-ac36-4760-b467-bcd543af22aa: "para enviar una solicitud, la entidad emisora de certificados (CA) puede requerir credenciales distintas de las del usuario que ha iniciado sesión como. Para permitir que una solicitud de certificado como un usuario diferente, active la casilla de verificación especificar las credenciales alternativas para la entidad emisora y, a continuación, escriba el nombre de usuario o dominio\nombre de usuario para un usuario que puede solicitar el certificado. En el cuadro de texto contraseña, escriba la contraseña para el usuario que ha especificado. El nombre de usuario y la contraseña se envían como parte del proceso de solicitud del certificado, pero no en la solicitud del certificado real a una entidad emisora de certificados en línea."
+---
+
+# <a name="certificate-request-certificate-authority-account"></a>Solicitud de certificado (cuenta de autoridad de certificado)
+ 
+Para enviar una solicitud, la entidad emisora de certificados (CA) puede requerir credenciales distintas de las del usuario que ha iniciado sesión como. Para permitir que una solicitud de certificado como un usuario diferente, active la casilla de verificación **especificar credenciales alternativas para la entidad emisora**y, a continuación, escriba el nombre de usuario o _dominio_\ _nombre de usuario_ para un usuario que puede solicitar el certificado . En el cuadro de texto **contraseña** , escriba la contraseña para el usuario que ha especificado. El nombre de usuario y la contraseña se envían como parte del proceso de solicitud del certificado, pero no en la solicitud del certificado real a una entidad emisora de certificados en línea.
+  
+
