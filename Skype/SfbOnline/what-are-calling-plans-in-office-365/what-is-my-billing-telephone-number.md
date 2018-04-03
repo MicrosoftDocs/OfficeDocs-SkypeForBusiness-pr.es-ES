@@ -1,5 +1,5 @@
 ---
-title: "¿Cuál es mi número de teléfono de facturación?"
+title: ¿Cuál es mi número de teléfono de facturación?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,31 +20,31 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoBTN
 ms.custom:
 - Calling Plans
-description: "Aprender qué es el Skype para el negocio, número de teléfono de facturación y dónde ir para obtener instrucciones paso a paso acerca de cómo transferir un número."
-ms.openlocfilehash: 9ec02914e9ad8e097f701efc9d86ed26d612cbe5
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Aprender qué es el Skype para el negocio, número de teléfono de facturación y dónde ir para obtener instrucciones paso a paso acerca de cómo transferir un número.
+ms.openlocfilehash: 3cfb34fb26a55a756d910a417da030df2dba64a0
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
-# <a name="what-is-my-billing-telephone-number"></a><span data-ttu-id="d4686-103">¿Cuál es mi número de teléfono de facturación?</span><span class="sxs-lookup"><span data-stu-id="d4686-103">What is my billing telephone number?</span></span>
+# <a name="what-is-my-billing-telephone-number"></a><span data-ttu-id="9a058-103">¿Cuál es mi número de teléfono de facturación?</span><span class="sxs-lookup"><span data-stu-id="9a058-103">What is my billing telephone number?</span></span>
 
-<span data-ttu-id="d4686-104">El número de teléfono de facturación (BTN) es el número de teléfono principal que se incluyen en la factura y facturado por su proveedor de servicios o la portadora.</span><span class="sxs-lookup"><span data-stu-id="d4686-104">The billing telephone number (BTN) is the main phone number that is included on your bill and billed by your service provider or carrier.</span></span> <span data-ttu-id="d4686-105">Si está transfiriendo un número de teléfono de una cuenta que tenga sólo un número de teléfono, debe colocar este número de teléfono en.</span><span class="sxs-lookup"><span data-stu-id="d4686-105">If you are transferring a phone number from an account that has only one phone number, you will need to put this phone number in.</span></span> <span data-ttu-id="d4686-106">Si va a transferir números de teléfono de una cuenta que tenga más de uno, puede mirar su factura o póngase en contacto con su proveedor de servicios o la portadora para determinar cuál es el número de teléfono de facturación de su cuenta.</span><span class="sxs-lookup"><span data-stu-id="d4686-106">If you are transferring phone numbers from an account that has more than one, you can look at your bill or contact your service provider or carrier to determine what the billing telephone number is for your account.</span></span>
+<span data-ttu-id="9a058-104">El número de teléfono de facturación (BTN) es el número de teléfono principal que se incluyen en la factura y facturado por su proveedor de servicios o la portadora.</span><span class="sxs-lookup"><span data-stu-id="9a058-104">The billing telephone number (BTN) is the main phone number that is included on your bill and billed by your service provider or carrier.</span></span> <span data-ttu-id="9a058-105">Si está transfiriendo un número de teléfono de una cuenta que tenga sólo un número de teléfono, debe colocar este número de teléfono en.</span><span class="sxs-lookup"><span data-stu-id="9a058-105">If you are transferring a phone number from an account that has only one phone number, you will need to put this phone number in.</span></span> <span data-ttu-id="9a058-106">Si va a transferir números de teléfono de una cuenta que tenga más de uno, puede mirar su factura o póngase en contacto con su proveedor de servicios o la portadora para determinar cuál es el número de teléfono de facturación de su cuenta.</span><span class="sxs-lookup"><span data-stu-id="9a058-106">If you are transferring phone numbers from an account that has more than one, you can look at your bill or contact your service provider or carrier to determine what the billing telephone number is for your account.</span></span>
   
- <span data-ttu-id="d4686-107">**Para obtener instrucciones detalladas paso a paso, consulte [transferir números de teléfono para Office 365](transfer-phone-numbers-to-office-365.md).**</span><span class="sxs-lookup"><span data-stu-id="d4686-107">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**</span></span>
+ <span data-ttu-id="9a058-107">**Para obtener instrucciones detalladas paso a paso, consulte [transferir números de teléfono para Office 365](transfer-phone-numbers-to-office-365.md).**</span><span class="sxs-lookup"><span data-stu-id="9a058-107">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="d4686-108">Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="d4686-108">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="9a058-108">Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="9a058-108">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
   
-## <a name="related-topics"></a><span data-ttu-id="d4686-109">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="d4686-109">Related topics</span></span>
-[<span data-ttu-id="d4686-110">Preguntas comunes sobre la transferencia de números de teléfono</span><span class="sxs-lookup"><span data-stu-id="d4686-110">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
+## <a name="related-topics"></a><span data-ttu-id="9a058-109">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="9a058-109">Related topics</span></span>
+[<span data-ttu-id="9a058-110">Preguntas comunes sobre la transferencia de números de teléfono</span><span class="sxs-lookup"><span data-stu-id="9a058-110">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
 
-[<span data-ttu-id="d4686-111">Diferentes tipos de números de teléfono que se usan para Planes de llamada</span><span class="sxs-lookup"><span data-stu-id="d4686-111">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[<span data-ttu-id="9a058-111">Diferentes tipos de números de teléfono que se usan para Planes de llamada</span><span class="sxs-lookup"><span data-stu-id="9a058-111">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[<span data-ttu-id="d4686-112">Términos y condiciones de las llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="d4686-112">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="9a058-112">Términos y condiciones de las llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="9a058-112">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
 
-[<span data-ttu-id="d4686-113">Skype Empresarial Online: etiqueta de declinación de responsabilidades en llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="d4686-113">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
+[<span data-ttu-id="9a058-113">Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="9a058-113">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a><span data-ttu-id="d4686-114">¿Comentarios?</span><span class="sxs-lookup"><span data-stu-id="d4686-114">Feedback?</span></span>
-<span data-ttu-id="d4686-115">Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).</span><span class="sxs-lookup"><span data-stu-id="d4686-115">To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).</span></span>
+  
+ 

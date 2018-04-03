@@ -1,5 +1,5 @@
 ---
-title: "Restricciones de marcado gratuito de Taiwán"
+title: Restricciones de marcado gratuito de Taiwán
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,34 +19,34 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: "Esto le ayudará a averiguar cómo marcar números libre de peaje en cada país o región. Después de seleccionar el país o región, se tardará a una página específica de país que contiene detalles específicos, las restricciones y límites de disponibilidad del servicio gratuito donde el servicio gratuito está disponible. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito."
-ms.openlocfilehash: 1c338890b3b4df076742d5b56860258badb35793
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Esto le ayudará a averiguar cómo marcar números libre de peaje en cada país o región. Después de seleccionar el país o región, se tardará a una página específica de país que contiene detalles específicos, las restricciones y límites de disponibilidad del servicio gratuito donde el servicio gratuito está disponible. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
+ms.openlocfilehash: 4fe5866c761600693143a652db2d84c9db8e0d48
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
-# <a name="toll-free-dialing-restrictions-in-taiwan"></a><span data-ttu-id="ea20e-105">Restricciones de marcado gratuito de Taiwán</span><span class="sxs-lookup"><span data-stu-id="ea20e-105">Toll-free dialing restrictions in Taiwan</span></span>
+# <a name="toll-free-dialing-restrictions-in-taiwan"></a><span data-ttu-id="59287-105">Restricciones de marcado gratuito de Taiwán</span><span class="sxs-lookup"><span data-stu-id="59287-105">Toll-free dialing restrictions in Taiwan</span></span>
 
-<span data-ttu-id="ea20e-106">[Buscar otro país o región](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), o aprender más acerca de las restricciones y limitaciones de marcado gratuito.</span><span class="sxs-lookup"><span data-stu-id="ea20e-106">[Find another country or region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="59287-106">[Buscar otro país o región](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), o aprender más acerca de las restricciones y limitaciones de marcado gratuito.</span><span class="sxs-lookup"><span data-stu-id="59287-106">[Find another country or region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="ea20e-107">**Detalles**</span><span class="sxs-lookup"><span data-stu-id="ea20e-107">**Details**</span></span>|<span data-ttu-id="ea20e-108">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="ea20e-108">**Description**</span></span>|
+|<span data-ttu-id="59287-107">**Detalles**</span><span class="sxs-lookup"><span data-stu-id="59287-107">**Details**</span></span>|<span data-ttu-id="59287-108">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="59287-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="ea20e-109">¿Es gratuito de llamada disponibles?</span><span class="sxs-lookup"><span data-stu-id="ea20e-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="ea20e-110">Sí</span><span class="sxs-lookup"><span data-stu-id="ea20e-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="ea20e-111">Formatos de marcado</span><span class="sxs-lookup"><span data-stu-id="ea20e-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="ea20e-112">00 801 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="ea20e-112">00 801 XXX XXX</span></span>  <br/> |
-|<span data-ttu-id="ea20e-113">Código ISO de país o región</span><span class="sxs-lookup"><span data-stu-id="ea20e-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="ea20e-114">TW</span><span class="sxs-lookup"><span data-stu-id="ea20e-114">TW</span></span>  <br/> |
-|<span data-ttu-id="ea20e-115">Isla o territorio cubierto</span><span class="sxs-lookup"><span data-stu-id="ea20e-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="ea20e-116">No aplicable</span><span class="sxs-lookup"><span data-stu-id="ea20e-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="ea20e-117">Isla o territorio no cubierto</span><span class="sxs-lookup"><span data-stu-id="ea20e-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="ea20e-118">No aplicable</span><span class="sxs-lookup"><span data-stu-id="ea20e-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="ea20e-119">Disponibilidad de línea por cable o fijo</span><span class="sxs-lookup"><span data-stu-id="ea20e-119">Wired/fixed line availability</span></span>  <br/> | <span data-ttu-id="ea20e-120">ITFS:KG Telecom = NO</span><span class="sxs-lookup"><span data-stu-id="ea20e-120">ITFS:KG Telecom = NO</span></span> <br/> |
-|<span data-ttu-id="ea20e-121">Disponibilidad de la red móvil</span><span class="sxs-lookup"><span data-stu-id="ea20e-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="ea20e-p102">Parcial. Ver comentarios.</span><span class="sxs-lookup"><span data-stu-id="ea20e-p102">Partial. See comments.</span></span>  <br/> |
-|<span data-ttu-id="ea20e-124">Problemas de acceso, restricciones y comentarios</span><span class="sxs-lookup"><span data-stu-id="ea20e-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="ea20e-p103">Sin acceso terrestre de KG Telecom. Acceso móvil: No se cobra el tiempo de llamada. Para el acceso móvil: Acceso desde todas las redes móviles excepto KG Telecom.</span><span class="sxs-lookup"><span data-stu-id="ea20e-p103">No wireline access from KG Telecom. Mobile access: No airtime is charged. For Mobile access: Access from all mobile networks except KG Telecom.</span></span>  <br/> |
+|<span data-ttu-id="59287-109">¿Es gratuito de llamada disponibles?</span><span class="sxs-lookup"><span data-stu-id="59287-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="59287-110">Sí</span><span class="sxs-lookup"><span data-stu-id="59287-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="59287-111">Formatos de marcado</span><span class="sxs-lookup"><span data-stu-id="59287-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="59287-112">00 801 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="59287-112">00 801 XXX XXX</span></span>  <br/> |
+|<span data-ttu-id="59287-113">Código ISO de país o región</span><span class="sxs-lookup"><span data-stu-id="59287-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="59287-114">TW</span><span class="sxs-lookup"><span data-stu-id="59287-114">TW</span></span>  <br/> |
+|<span data-ttu-id="59287-115">Isla o territorio cubierto</span><span class="sxs-lookup"><span data-stu-id="59287-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="59287-116">No aplicable</span><span class="sxs-lookup"><span data-stu-id="59287-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="59287-117">Isla o territorio no cubierto</span><span class="sxs-lookup"><span data-stu-id="59287-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="59287-118">No aplicable</span><span class="sxs-lookup"><span data-stu-id="59287-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="59287-119">Disponibilidad de línea por cable o fijo</span><span class="sxs-lookup"><span data-stu-id="59287-119">Wired/fixed line availability</span></span>  <br/> | <span data-ttu-id="59287-120">ITFS:KG Telecom = NO</span><span class="sxs-lookup"><span data-stu-id="59287-120">ITFS:KG Telecom = NO</span></span> <br/> |
+|<span data-ttu-id="59287-121">Disponibilidad de la red móvil</span><span class="sxs-lookup"><span data-stu-id="59287-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="59287-p102">Parcial. Ver comentarios.</span><span class="sxs-lookup"><span data-stu-id="59287-p102">Partial. See comments.</span></span>  <br/> |
+|<span data-ttu-id="59287-124">Problemas de acceso, restricciones y comentarios</span><span class="sxs-lookup"><span data-stu-id="59287-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="59287-p103">Sin acceso terrestre de KG Telecom. Acceso móvil: No se cobra el tiempo de llamada. Para el acceso móvil: Acceso desde todas las redes móviles excepto KG Telecom.</span><span class="sxs-lookup"><span data-stu-id="59287-p103">No wireline access from KG Telecom. Mobile access: No airtime is charged. For Mobile access: Access from all mobile networks except KG Telecom.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="ea20e-128">See also</span><span class="sxs-lookup"><span data-stu-id="ea20e-128">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="59287-128">See also</span><span class="sxs-lookup"><span data-stu-id="59287-128">Related topics</span></span>
 
-[<span data-ttu-id="ea20e-129">Restricciones y limitaciones de marcado gratuito</span><span class="sxs-lookup"><span data-stu-id="ea20e-129">Toll-free dialing limitations and restrictions</span></span>](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="59287-129">Restricciones y limitaciones de marcado gratuito</span><span class="sxs-lookup"><span data-stu-id="59287-129">Toll-free dialing limitations and restrictions</span></span>](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="ea20e-130">Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="ea20e-130">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[<span data-ttu-id="59287-130">Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="59287-130">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-## <a name="feedback"></a><span data-ttu-id="ea20e-131">¿Comentarios?</span><span class="sxs-lookup"><span data-stu-id="ea20e-131">Feedback?</span></span>
-<span data-ttu-id="ea20e-132">Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).</span><span class="sxs-lookup"><span data-stu-id="ea20e-132">To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).</span></span>
+  
+ 
