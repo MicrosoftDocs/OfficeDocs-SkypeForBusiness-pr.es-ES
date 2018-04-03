@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: 'Resumen: Explore estos vínculos para obtener información sobre cómo instalar y configurar Skype para Business Server 2015 y actualización de versiones anteriores de Lync Server.'
-ms.openlocfilehash: d628c6a8c3e942c61d19f4ddfce1f45337110587
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: abce331272dc457bf3444281b810a1e571b1a545
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="deploy-skype-for-business-server-2015"></a>Implementar Skype Empresarial Server 2015
  
@@ -59,6 +59,7 @@ Los siguientes recursos sobre cómo planear para Skype para Business Server est�
 |:-----|:-----|:-----|
 |![Icono de TechCenter](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype para Business Server para profesionales de TI](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |Visite los centros de recursos y TechCenter para obtener acceso a vídeos, sitios de la comunidad, documentación, descargas, etc.  <br/> |
 |![Icono de contenido de desarrollador](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Plataforma de desarrollador de Skype](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |Buscar recursos de desarrollo de Skype para Business Server, incluidos ejemplos de código, la formación y el SDK.  <br/> |
-|![Icono de noticias, blogs, etc.](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Administración del cambio y adopción](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Blogs de Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Blog técnico de Office 365](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) <br/> [Blog del equipo de Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Mantenerse al día con las noticias de los equipos que crean y documento Skype para Business Server.  <br/> |
+|![Icono de noticias, blogs, etc.](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Administración del cambio y adopción](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Blogs de Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> 
+[Blog del equipo de Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Mantenerse al día con las noticias de los equipos que crean y documento Skype para Business Server.  <br/> |
    
 

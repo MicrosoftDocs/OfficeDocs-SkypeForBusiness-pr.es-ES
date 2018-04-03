@@ -1,5 +1,5 @@
 ---
-title: "Disponibilidad en los países bajos"
+title: Disponibilidad en los países bajos
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Aquí están disponibles para los países bajos los servicios de Office 365 para Skype para empresas y Teams de Microsoft."
-ms.openlocfilehash: da0e726f8175a5af1b5866dcbf0b24d036c3f8f4
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Aquí están disponibles para los países bajos los servicios de Office 365 para Skype para empresas y Teams de Microsoft.
+ms.openlocfilehash: 1631f8fa144117812271581878c7f3aa91b76a4a
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-the-netherlands"></a>Disponibilidad en los países bajos
 
@@ -83,4 +83,5 @@ Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para s
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Configurar el teléfono invita números incluidos en"
+title: Configurar el teléfono invita números incluidos en
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: 800baa9e79af4ac2d73484ebc66d2f2cfccda176
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+ms.openlocfilehash: 59ebd95f5b7f7ee546ab272596adf353b2a7adbc
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-the-phone-numbers-included-on-invites"></a>Configurar el teléfono invita números incluidos en
 
@@ -141,4 +141,4 @@ De forma predeterminada, al cambiar la configuración de conferencia de un usuar
     
 ## <a name="related-topics"></a>See also
 
-[Conferencias de acceso telefónico en Office 365](set-up-audio-conferencing.md)
+[Probar o comprar Audioconferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

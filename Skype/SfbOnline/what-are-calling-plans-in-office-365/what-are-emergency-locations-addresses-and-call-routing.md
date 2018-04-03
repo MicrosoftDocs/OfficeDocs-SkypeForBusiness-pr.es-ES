@@ -1,5 +1,5 @@
 ---
-title: "¿Qué son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?"
+title: ¿Qué son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 589bf5f5-490a-4215-8588-99bab7d33e31
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,11 +23,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn what emergency address, location, and emergency call routing are, and how to plan and assign them to your users. '
-ms.openlocfilehash: 35553da49cbaffde1a960ce83550b6fc4ce3ef07
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 8aceaab0c54b42555c31f14883973fdab3c854fd
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-are-emergency-locations-addresses-and-call-routing"></a>¿Qué son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?
 
@@ -74,3 +76,6 @@ Ubicaciones y direcciones de emergencia se utilizan durante el proceso de enruta
 [Términos y condiciones de las llamadas de emergencia](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
 
 [Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
+ 

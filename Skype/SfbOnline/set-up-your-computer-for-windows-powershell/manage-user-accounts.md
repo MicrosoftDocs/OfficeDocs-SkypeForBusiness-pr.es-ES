@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: "Para obtener información acerca Skype de su organización para usuarios de negocios en línea, use el cmdlet Get-CsOnlineUser en Windows PowerShell."
-ms.openlocfilehash: f51f2c1f723a26bfa3a815bfe7641b68c5d23b26
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Para obtener información acerca Skype de su organización para usuarios de negocios en línea, use el cmdlet Get-CsOnlineUser en Windows PowerShell.
+ms.openlocfilehash: b4647fae1baf84a2cc59a30c9291df196b56a88e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="manage-user-accounts"></a>Administrar cuentas de usuario
 
@@ -114,3 +114,6 @@ Get-CsOnlineUser -LdapFilter "department=Finance"
 
 ## <a name="related-topics"></a>See also
 [Configurar el equipo de Skype para la administración de negocios en línea mediante Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+
+  
+ 

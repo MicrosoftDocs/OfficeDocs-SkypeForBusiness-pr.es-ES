@@ -1,5 +1,5 @@
 ---
-title: "Implementación de teléfonos de Skype Empresarial Online"
+title: Implementación de teléfonos de Skype Empresarial Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: faa17eb3-7483-4984-87f2-815d981b68ae
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "Aprenda los pasos de implementación para obtener el firmware correcto, actualizarla si es necesario, asignar licencias y configurar las opciones de Skype para los teléfonos de negocios en línea"
-ms.openlocfilehash: 86756fb1033e2928a7427c9352fbf6fbb24dc154
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Aprenda los pasos de implementación para obtener el firmware correcto, actualizarla si es necesario, asignar licencias y configurar las opciones de Skype para los teléfonos de negocios en línea
+ms.openlocfilehash: ee6f8e0b892b8cef1c70c7bc01ba7e7d9c4cb8e8
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Implementación de teléfonos de Skype Empresarial Online
 
@@ -38,7 +40,7 @@ En todos los tipos de empresas, tener un número de teléfono permite a los usua
 
 Antes de comenzar, es recomendable descargar las guías para administradores y los manuales de usuario de los teléfonos que proporciona el fabricante.
   
-- Para teléfonos Polycom, consulte al [Polycom Deployment Guide] ((http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
+- Para teléfonos Polycom, consulte [Polycom Deployment Guide] ((http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
     
 - Para los teléfonos Yealink, consulte [Yealink Skype para HD SIP teléfonos para los negocios](http://www.yealink.com/products_top_2.html).
     
@@ -224,4 +226,5 @@ BToE puede configurarse para funcionar en dos modos: *Manual* y *automático* (p
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Este Skype para función de negocio en línea no está habilitada"
+title: Este Skype para función de negocio en línea no está habilitada
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords:
 - ms.lync.lac.FeatureNotEnabled
 ms.custom:
 - Setup
-description: "Buscar posibles causas y sugerencias de acción cuando se obtiene un Skype para negocios en línea no está habilitada error. "
-ms.openlocfilehash: e6b025ad9e53d520a5e79c380de80e71c5f0fe04
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Buscar posibles causas y sugerencias de acción cuando se obtiene un Skype para negocios en línea no está habilitada error. '
+ms.openlocfilehash: 5d0167ed53f5396d3d048815986dea7600f9182f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>Este Skype para función de negocio en línea no está habilitada
 
@@ -40,5 +40,5 @@ Lo sentimos, parece que el usuario no está autorizado para esta característica
 
 [Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>¿Comentarios?
-Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).
+  
+ 

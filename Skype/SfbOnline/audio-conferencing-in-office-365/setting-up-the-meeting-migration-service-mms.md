@@ -1,5 +1,5 @@
 ---
-title: "Configuración del servicio de migración de reuniones (MMS)"
+title: Configuración del servicio de migración de reuniones (MMS)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 031f09c0-9d2a-487a-b6db-b5d4bed6d16a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Servicio de migración (MMS) de la reunión es un Skype para servicio de negocios que se ejecuta en segundo plano y que automáticamente actualiza Skype para reuniones de negocios y Teams de Microsoft para los usuarios. MMS está diseñado para eliminar la necesidad de actualizar su Skype para reuniones de negocios y Teams de Microsoft para los usuarios que ejecuten la herramienta de migración de la reunión."
-ms.openlocfilehash: 0d33efb2f60a06853ba26cd6e525f624114c95a5
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Servicio de migración (MMS) de la reunión es un Skype para servicio de negocios que se ejecuta en segundo plano y que automáticamente actualiza Skype para reuniones de negocios y Teams de Microsoft para los usuarios. MMS está diseñado para eliminar la necesidad de actualizar su Skype para reuniones de negocios y Teams de Microsoft para los usuarios que ejecuten la herramienta de migración de la reunión.
+ms.openlocfilehash: 46f7c0223c88b7a4a3aa3a553e14df85ce86835d
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>Configuración del servicio de migración de reuniones (MMS)
 
@@ -292,4 +294,4 @@ Si desea obtener más información sobre cómo iniciar Windows PowerShell, consu
     
 ## <a name="related-topics"></a>See also
 
-[Conferencias de acceso telefónico en Office 365](set-up-audio-conferencing.md)
+[Probar o comprar Audioconferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

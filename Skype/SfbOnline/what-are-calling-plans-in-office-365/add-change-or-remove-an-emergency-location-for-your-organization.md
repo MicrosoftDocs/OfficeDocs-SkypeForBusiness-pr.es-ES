@@ -1,5 +1,5 @@
 ---
-title: "Agregar, cambiar o quitar una ubicación de emergencia para su organización"
+title: Agregar, cambiar o quitar una ubicación de emergencia para su organización
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 11cadb26-534d-41db-af6b-1f648edfd907
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,15 +22,15 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn to add, change, or remove an emergency location used by  Skype for Business on Public Switched Telephone Networks (PSTN) for your organization. '
-ms.openlocfilehash: 59463441b6b99b8ad0e7a45c57de6b5d41ace49c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: ade701fffc4281110bc3e639ed0c291e27d1e846
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Agregar, cambiar o quitar una ubicación de emergencia para su organización
 
-Dependiendo del número de ubicaciones físicas en la organización, puede crear ubicaciones de emergencia para edificios, plantas y oficinas para crear una dirección de emergencia más específica. Consulte [¿qué ubicaciones de emergencia, direcciones y enrutamiento de llamadas?](what-are-emergency-locations-addresses-and-call-routing.md) para obtener más información.
+Dependiendo del número de ubicaciones físicas en la organización, puede crear ubicaciones de emergencia para edificios, plantas y oficinas para crear una dirección de emergencia más específica. Consulte [¿qué ubicaciones de emergencia, direcciones y enrutamiento de llamadas?](what-are-emergency-locations-addresses-and-call-routing.md) para obtener más información. 
   
 Para saber cómo obtener un Plan de llamadas y cuánto cuestan, vea [Skype para negocios y equipos de Microsoft licencias adicionales](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
@@ -87,3 +89,4 @@ Para saber cómo obtener un Plan de llamadas y cuánto cuestan, vea [Skype para 
 [Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
 
   
+ 

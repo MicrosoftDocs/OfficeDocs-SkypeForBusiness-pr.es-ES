@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: 'Learn how to assign a conference ID to a user in Skype for Business and what the conference ID''s parameters should be. '
-ms.openlocfilehash: b542e764d0b8b1587c34e78a54612410cd72a3bd
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: "Learn how to assign a conference ID to a user in Skype for Business and what the conference ID's parameters should be. "
+ms.openlocfilehash: 12fe2b0f425f58dca8272f5f0536ba5393b2f76c
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="see-change-and-reset-a-conference-id-assigned-to-a-user"></a>Ver, modificar y restablecer un identificador de conferencia asignado a un usuario
 
@@ -108,7 +108,6 @@ Puede restablecer un Id. de conferencia para un usuario si, por ejemplo, si olvi
     
 - El ID de conferencia para todos los usuarios de conferencia de audio será 7 dígitos de forma predeterminada y no se puede cambiar el número de dígitos.
     
-- Si el usuario se mueve de Microsoft como proveedor de conferencia de audio a un proveedor de conferencia de audio de terceros o el proveedor de conferencia de audio se establece en **Ninguno**, el identificador de la conferencia ya no funcionará. Consulte [asignar un tercero como el proveedor de conferencia de audio](assign-a-third-party-as-the-audio-conferencing-provider.md) o [mover el proveedor de conferencia de audio de un usuario a Microsoft](moving-a-user-s-audio-conferencing-provider-to-microsoft.md).
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 
@@ -128,5 +127,5 @@ Puede restablecer un Id. de conferencia para un usuario si, por ejemplo, si olvi
     
 ## <a name="related-topics"></a>See also
 
-[Conferencias de acceso telefónico en Office 365](set-up-audio-conferencing.md)
+[Probar o comprar Audioconferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 

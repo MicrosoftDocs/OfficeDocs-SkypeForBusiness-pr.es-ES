@@ -1,5 +1,5 @@
 ---
-title: "Establezca su NIP para transferir números a un nuevo proveedor de servicios"
+title: Establezca su NIP para transferir números a un nuevo proveedor de servicios
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: f1defa5b-e49c-4d8c-a5f8-3f736201af5e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Para transferir o puerto números de teléfono de Skype para los negocios en línea a otro proveedor de servicio telefónico o portador, debe establecer manualmente un PIN. Una vez establecido el PIN, necesitará incluirlo cuando solicite un número de teléfono con el puerto."
-ms.openlocfilehash: 03e2e0ca76ea434e2458f1dec4a236996a19f7aa
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Para transferir o puerto números de teléfono de Skype para los negocios en línea a otro proveedor de servicio telefónico o portador, debe establecer manualmente un PIN. Una vez establecido el PIN, necesitará incluirlo cuando solicite un número de teléfono con el puerto.
+ms.openlocfilehash: f4ff20f4252686d047b3e9d83cf8beb4b3a9daae
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Establezca su NIP para transferir números a un nuevo proveedor de servicios
 
@@ -73,6 +75,7 @@ Aquí es alguna información específica sobre este PIN debe saber:
 
 [Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-
+  
+ 
   
 

@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: d080bb8c-3465-47bb-ad2b-9428f1a3fd24
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,12 +22,12 @@ f1keywords:
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Consulte cómo probar o adquirir licencias de conferencia de Audio (conferencias PSTN) para Office 365 configurar llamadas de conferencia pueden llamar a las personas. "
-ms.openlocfilehash: 2c2b76bb207d5463c4b431e4cf9be4f0ecdba472
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Consulte cómo probar o adquirir licencias de conferencia de Audio (conferencias PSTN) para Office 365 configurar llamadas de conferencia pueden llamar a las personas. '
+ms.openlocfilehash: 1dda3a2ecc24e512e9d614b42292233471525805
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365"></a>Probar o comprar Audio conferencia en Office 365
 
@@ -73,7 +75,7 @@ Si usted es un cliente de volumen y licencias, puede obtener licencias de confer
   
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Paso 2: Establecer el proveedor de conferencia de audio para las personas que conducen o programan reuniones
 
-Cuando se asigna una licencia de **Conferencia de Audio** a las personas de la organización que conducen o programar reuniones, son todos configurados y listo para ir! (No es necesario establecer su proveedor de conferencia de audio.) Pero si hay usuarios que han estado utilizando un proveedor de conferencia de audio de terceros (ACP), necesitará [mover el proveedor de conferencia de audio de un usuario a Microsoft](moving-a-user-s-audio-conferencing-provider-to-microsoft.md).
+Cuando se asigna una licencia de **Conferencia de Audio** a las personas de la organización que conducen o programar reuniones, son todos configurados y listo para ir! (No es necesario establecer su proveedor de conferencia de audio.) 
   
 > [!NOTE]
 > Si desea utilizar un ACP de terceros, elija **conferencias de Audio** > **puente de Microsoft**. En la parte inferior de la página, haga clic en **Si en su lugar desea configurar un proveedor de servicios de audioconferencia de terceros, haga clic aquí**. 

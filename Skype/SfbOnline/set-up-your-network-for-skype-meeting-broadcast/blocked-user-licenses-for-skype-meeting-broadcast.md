@@ -1,5 +1,5 @@
 ---
-title: "Bloqueado licencias de usuario para la difusión de la reunión de Skype"
+title: Bloqueado licencias de usuario para la difusión de la reunión de Skype
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,16 +17,16 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - SMB
-description: "Desafortunadamente, hay ciertas licencias de usuario se bloquean cuando el usuario vaya a https://broadcast.skype.com y desea utilizar Skype reunión difusión. Si un usuario ve este mensaje, tienen una licencia bloqueada asignado a ellos. Si aún desea utilizarla, asignarles otra licencia de Office 365."
-ms.openlocfilehash: 946e073183f52af84adbbf5f727282f487db07c3
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Desafortunadamente, hay ciertas licencias de usuario se bloquean cuando el usuario vaya a https://broadcast.skype.com y desea utilizar Skype reunión difusión. Si un usuario ve este mensaje, tienen una licencia bloqueada asignado a ellos. Si aún desea utilizarla, asignarles otra licencia de Office 365.
+ms.openlocfilehash: 59b00fd9b7557177994a1d4279756c56aa5ba613
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Bloqueado licencias de usuario para la difusión de la reunión de Skype
 
-Desafortunadamente, hay ciertas licencias de usuario se bloquean cuando los usuarios, van a https://broadcast.skype.com y desea utilizar Skype reunión difusión. Si un usuario ve este mensaje, tienen una licencia bloqueada asignado a ellos. Si aún desea utilizarla, asignarles otra licencia de Office 365.
+Desafortunadamente, hay ciertas licencias de usuario se bloquean cuando los usuarios vayan a https://broadcast.skype.com y desea utilizar Skype reunión difusión. Si un usuario ve este mensaje, tienen una licencia bloqueada asignado a ellos. Si aún desea utilizarla, asignarles otra licencia de Office 365.
   
  *"La directiva de empresa no permite utilizar Skype reunión difusión. Consulte con su administrador del sistema para asegurarse de que el servicio está habilitado y que tiene la licencia correcta".* 
   
@@ -69,3 +69,6 @@ Difundir reunión de Skype se bloqueará si cualquiera de las siguientes licenci
 [Introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
   
 [Configurar Skype Empresarial Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+
+  
+ 

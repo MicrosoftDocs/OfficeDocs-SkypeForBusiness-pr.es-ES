@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
-ms.openlocfilehash: 0d2e0cf33df896a3d3cd70f134ae2ab7d5ffc903
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: ae647dc469676b3fa94723f020fd8ac641aa7dd0
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute y QoS en Skype Empresarial Online
 
@@ -200,7 +200,7 @@ Es muy importante que no supere el ancho de banda de voz o la clase de servicio 
 Podemos calcular el ancho de banda total que atravesará la WAN y la cantidad de ancho de banda que atravesará ExpressRoute; para ello usamos la estimación del ancho de banda de la tabla **Por aplicación por sitio** anterior. La parte de tráfico que atraviesa ExpressRoute excluye el ancho de banda entre sitios del mismo nivel.
 
  
-|**Sitio**|**Máximo de ancho de banda de SIP/MI**|**Máximo de ancho de banda de audioconferencia**|**Máximo de ancho de banda de videoconferencia**|**Máximo de ancho de banda de uso compartido de WAN**|**Máximo de ancho de banda de WAN para llamadas RTC**|**Total ExpressRoute<br/>tráfico por clase de sitio<br/>(es decir, total<br/>tiempo Nº de sitios)**|
+|**Sitio**|**Máximo de ancho de banda de SIP/MI**|**Máximo de ancho de banda de audioconferencia**|**Máximo de ancho de banda de videoconferencia**|**Máximo de ancho de banda de uso compartido de WAN**|**Máximo de ancho de banda de WAN para llamadas RTC**|**Total ExpressRoute<br/>traffic per site class<br/>(i.e., total<br/>time # of sites)**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |**Sede central** <br/> |1.070  <br/> |739,50  <br/> |2640,00  <br/> |4224,00  <br/> |2688,30  <br/> |11361,80  <br/> |
 |**Oficinas regionales** <br/> |345  <br/> |255,00  <br/> |1320,00  <br/> |1536,00  <br/> |896,10  <br/> |8704,20  <br/> |
@@ -404,5 +404,5 @@ Las herramientas empresariales eficaces tienen que producir resultados confiable
 
 [Documentación de ExpressRoute](https://go.microsoft.com/fwlink/?LinkId=690285)
 
-## <a name="feedback"></a>¿Comentarios?
-Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Agregar o quitar una dirección de emergencia para su organización"
+title: Agregar o quitar una dirección de emergencia para su organización
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: f954c67c-b73c-4473-b6cd-a0fbcd0fd4c9
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn how to add an emergency address to your Skype for Business account. '
-ms.openlocfilehash: a147b349cdd201cc585e557f3996d166caf4454d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 1853d3904b79d3f4edad2909e2cf2476d3450828
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="add-or-remove-an-emergency-address-for-your-organization"></a>Agregar o quitar una dirección de emergencia para su organización
 
@@ -75,3 +77,6 @@ Para saber cómo obtener un Plan de llamadas y cuánto cuesta, vea [Skype para n
 [Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)
 
 [Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
+ 

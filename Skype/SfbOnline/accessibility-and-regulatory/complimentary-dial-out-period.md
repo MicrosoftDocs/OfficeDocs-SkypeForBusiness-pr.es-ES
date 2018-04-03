@@ -1,5 +1,5 @@
 ---
-title: "Período complementario de acceso telefónico de salida"
+title: Período complementario de acceso telefónico de salida
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
-description: "Clientes pueden usar Office 365 llamando a planear y conferencia de Audio de Office 365, según lo permitido en el Skype para negocios en línea PSTN utilizar términos de servicios y contrato de licencias por volumen de cliente."
+hideEdit: true
+description: Clientes pueden usar Office 365 llamando a planear y conferencia de Audio de Office 365, según lo permitido en el Skype para negocios en línea PSTN utilizar términos de servicios y contrato de licencias por volumen de cliente.
 ms.openlocfilehash: fac5ad1e413d62669e1ed23e6ea19f1c51ea3017
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Audio conferencia dial-out del período complementario
 

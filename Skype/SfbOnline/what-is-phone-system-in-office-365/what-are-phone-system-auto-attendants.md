@@ -1,5 +1,5 @@
 ---
-title: "¿Cuáles son los operadores de sistema de teléfono automáticos?"
+title: ¿Cuáles son los operadores de sistema de teléfono automáticos?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "Obtenga información acerca de qué son los operadores automáticos de sistema telefónico (PBX nube) y cómo utilizarlos. "
-ms.openlocfilehash: c1770476dda3b63137faf687a60e1ddbfc87c943
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
+description: 'Obtenga información acerca de qué son los operadores automáticos de sistema telefónico (PBX nube) y cómo utilizarlos. '
+ms.openlocfilehash: a1253419bdd321efd99a4ea375655d52f154b6ab
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>¿Cuáles son los operadores de sistema de teléfono automáticos?
 
@@ -274,5 +274,5 @@ Puede obtener más información acerca de cómo realizar cambios en la configura
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>¿Comentarios?
-Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).
+  
+ 

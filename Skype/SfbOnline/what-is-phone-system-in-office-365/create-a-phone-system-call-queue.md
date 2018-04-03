@@ -1,5 +1,5 @@
 ---
-title: "Crear una cola de llamadas de sistema de teléfono"
+title: Crear una cola de llamadas de sistema de teléfono
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Phone System
 - Strat_SB_PSTN
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 363c6d7eefd63d1f89eb5d1420e516894d432b6b
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: a6eac4b7fec191d9e897f41e3c32b270ab21abcf
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="create-a-phone-system-call-queue"></a>Crear una cola de llamadas de sistema de teléfono
 
@@ -95,7 +97,7 @@ Para comenzar a utilizar colas de llamadas, es importante recordar algunas cosas
 Before you can create and set up your call queues, you will need to get or transfer your existing toll or toll-free service numbers. Después de obtener el número o números de teléfono de servicio gratuito, se mostrará en **Skype para el centro de administración de negocios** > **voz** > **números de teléfono**y la voluntad de **tipo número** en la lista aparecen como **servicio - gratis **. Para obtener los números de servicio, vea [números de teléfono de servicio de obtención de Skype para empresas y equipos de Microsoft](getting-service-phone-numbers.md) o si desea transferir y el número de servicio existente, consulte [transferir números de teléfono para Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
-> Si está fuera de los Estados Unidos, no puede utilizar el Skype para el centro de administración de negocios para obtener números de servicio. Vaya [administrar números de teléfono de la organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) en su lugar para ver cómo hacerlo desde fuera de Estados Unidos.
+> Si está fuera de los Estados Unidos, no puede utilizar el Skype para el centro de administración de negocios para obtener números de servicio. Vaya a [administrar números de teléfono de la organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) en su lugar para ver cómo hacerlo desde fuera de Estados Unidos.
   
 ## <a name="step-3---create-a-new-call-queue"></a>Paso 3: crear una cola de llamadas nueva
 
@@ -138,6 +140,9 @@ En el **Centro de administración de Skype Empresarial**, haga clic en **Enrutam
  1. Abra **Opciones** en su escritorio Skype para cliente de empresa. 
  2. En la ficha **Transferencia de llamadas** , haga clic en el vínculo **Editar configuración en línea** .
  3. En la página de configuración de usuario, haga clic en **Llamar a colas**y, a continuación, desactive las casillas de verificación de las colas para las que desean participar.
+ 
+    > [!NOTE] 
+    > Agentes utilizando Mac, mobile, o clientes de Lync 2013 o usuarios de voz híbrida que están alojados en locales utilizando Skype para 2015 Business server, puede ir a [https://aka.ms/cqsettings](https://aka.ms/cqsettings) para obtener acceso a la opción de descarte.
    
 ### <a name="add-call-agents-to-a-call-queue"></a>Agregar agentes de llamadas a una cola de llamadas
 
@@ -161,7 +166,7 @@ En el **Centro de administración de Skype Empresarial**, haga clic en **Enrutam
 ![Número 2](../images/sfbcallout2.png)<br/><br/>**Cuando se alcanza el número máximo de llamadas** Cuando la llamada de cola alcanza su tamaño máximo (establecida mediante el valor **máximo que se llama en la cola** ), puede elegir qué sucede con las nuevas llamadas recibidas.
 *    **Desconectar con una señal de línea ocupada**: se desconectará la llamada.
 *    **Desviar esta llamada** Cuando se selecciona esta opción, tienes estas opciones:
-     *    **Persona de la empresa** Un usuario con una licencia de **Sistema de teléfono** en línea y habilitarse para Telefonía IP empresarial o tienen un Plan de llamadas. Puede establecer que el autor de la llamada se derive a un correo de voz. Para ello, seleccione una **persona de la empresa** y establezca esta persona para que las llamadas se desvían directamente al correo de voz. <br/>
+     *    **Persona de la empresa** Un usuario con una licencia de **Sistema de teléfono** en línea y habilitarse para Telefonía IP empresarial o tienen un Plan de llamadas. Puede establecer que el autor de la llamada se derive a un correo de voz. Para ello, seleccione una **persona de la empresa** y establezca esta persona para que las llamadas se desvían directamente al correo de voz. <br/> <br/>Para obtener información acerca de las licencias necesarias para el correo de voz, consulte [configurar correo de voz del sistema telefónico](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md). 
      
         > [!Note]
         > Los usuarios alojados en locales no se admite el uso de Lync Server 2010.<br/>
@@ -175,7 +180,7 @@ En el **Centro de administración de Skype Empresarial**, haga clic en **Enrutam
 ![Número 4](../images/sfbcallout4.png)<br/><br/>**Cuando una llamada agota el tiempo de espera**: puede elegir lo que sucede con las llamadas cuando alcanzan el límite establecido en el ajuste **Cuánto tiempo puede esperar una llamada en la cola**:
 *    **Desconectar**: la llamada se desconectará.
 *    **Desviar esta llamada** Cuando se selecciona esta opción, tienes estas opciones:
-     *    **Persona de la empresa** Un usuario con una licencia de **Sistema de teléfono** en línea y habilitarse para Telefonía IP empresarial o tienen planes de llamada. Puede establecer que el autor de la llamada se derive a un correo de voz. Para ello, seleccione una **persona de la empresa** y establezca esta persona para que las llamadas se desvían directamente al correo de voz. 
+     *    **Persona de la empresa** Un usuario con una licencia de **Sistema de teléfono** en línea y habilitarse para Telefonía IP empresarial o tienen planes de llamada. Puede establecer que el autor de la llamada se derive a un correo de voz. Para ello, seleccione una **persona de la empresa** y establezca esta persona para que las llamadas se desvían directamente al correo de voz. </br><br/>  Para obtener información acerca de las licencias necesarias para el correo de voz, consulte [configurar correo de voz del sistema telefónico](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md). 
 
         > [!Note]
         > Los usuarios alojados en locales no se admite el uso de Lync Server 2010.<br/>
@@ -239,3 +244,6 @@ Estos son los cmdlets que necesita para administrar una cola de llamadas.
 [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](getting-service-phone-numbers.md)
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+  
+ 

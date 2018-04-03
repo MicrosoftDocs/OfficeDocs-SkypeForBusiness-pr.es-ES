@@ -1,5 +1,5 @@
 ---
-title: "¿Por qué no puedo utilizar el Skype para el centro de administración de negocios en línea ahora mismo?"
+title: ¿Por qué no puedo utilizar el Skype para el centro de administración de negocios en línea ahora mismo?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords:
 - ms.lync.lac.TenantInMigration
 ms.custom:
 - Setup
-description: "Obtenga información acerca de lo que puede y no se puede utilizar en Skype para centro de administración de negocios y otras características cuando el servicio se está migrando a otro centro de datos de Microsoft. "
-ms.openlocfilehash: e9d0f2b56ebe11ef95b59ff125434dcf3dd4574d
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Obtenga información acerca de lo que puede y no se puede utilizar en Skype para centro de administración de negocios y otras características cuando el servicio se está migrando a otro centro de datos de Microsoft. '
+ms.openlocfilehash: 0b87061f1ef3861c4c01d9144fa5e2c86f5c2985
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>¿Por qué no puedo utilizar el Skype para el centro de administración de negocios en línea ahora mismo?
 
@@ -68,5 +68,5 @@ Seguro. Mientras nos estamos migrando su Skype para servicio de los negocios en 
 
 [Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>¿Comentarios?
-Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).
+  
+ 

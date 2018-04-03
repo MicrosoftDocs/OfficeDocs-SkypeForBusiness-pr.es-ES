@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Aquí están disponibles para el Reino Unido los servicios de Office 365 para Skype para empresas y Teams de Microsoft."
-ms.openlocfilehash: d570d37d6593532b2c8fe49a8ac701879678e2d9
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Aquí están disponibles para el Reino Unido los servicios de Office 365 para Skype para empresas y Teams de Microsoft.
+ms.openlocfilehash: d15afe1a5a0d9cd669d090684bc670e1115bf5c2
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>Disponibilidad en el Reino Unido (Reino Unido)
 
@@ -83,6 +83,6 @@ Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para s
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>¿Comentarios?
-Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).
+  
+ 
 

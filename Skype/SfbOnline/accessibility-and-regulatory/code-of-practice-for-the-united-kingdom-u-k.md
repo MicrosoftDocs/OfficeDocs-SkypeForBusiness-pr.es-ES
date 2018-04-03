@@ -1,5 +1,5 @@
 ---
-title: "Código de práctica para el Reino Unido (Reino Unido)"
+title: Código de práctica para el Reino Unido (Reino Unido)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
+hideEdit: true
 description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: ec34b528ed31f78e3c6075f357ff96c702371514
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: c1528d1ec28dd940b5b696dd03f9c389f6d16844
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="code-of-practice-for-the-united-kingdom-uk"></a>Código de práctica para el Reino Unido (Reino Unido)
 
@@ -114,7 +114,7 @@ El marcador clandestino de Internet, que es similar a un virus informático, es 
   
 ### <a name="phonepayplus"></a>PhonepayPlus
 
-Todos los Proveedores de servicios deben registrarse en PhonepayPlus, que es una organización independiente aprobada por Ofcom. PhonepayPlus regula los servicios de tarifas Premium e investiga las quejas presentadas por los clientes. Todos los proveedores de servicios deben cumplir el código de PhonepayPlus de práctica, que se puede encontrar en [http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice). Si un Proveedor de servicios infringe el Código de prácticas, PhonepayPlus podría:
+Todos los Proveedores de servicios deben registrarse en PhonepayPlus, que es una organización independiente aprobada por Ofcom. PhonepayPlus regula los servicios de tarifas Premium e investiga las quejas presentadas por los clientes. Todos los Proveedores de servicios deben cumplir el Código de prácticas de PhonepayPlus, que se encuentra en [http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice). Si un Proveedor de servicios infringe el Código de prácticas, PhonepayPlus podría:
   
 - Obligar a una de las parte a solucionar la infracción
     
@@ -124,7 +124,7 @@ Todos los Proveedores de servicios deben registrarse en PhonepayPlus, que es una
     
 ### <a name="service-provider-contact-information"></a>Información de contacto de los Proveedores de servicios
 
-Para buscar información de contacto de un proveedor de servicios, puede utilizar la herramienta de #NumberChecker de PhonepayPlus en [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry). Si cree que se le ha cobrado incorrectamente un servicio de tarifa Premium, póngase en contacto directamente con el Proveedor de servicios.
+Para encontrar información de contacto de un Proveedor de servicios, puede usar la herramienta #NumberChecker de PhonepayPlus en [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry). Si cree que se le ha cobrado incorrectamente un servicio de tarifa Premium, póngase en contacto directamente con el Proveedor de servicios.
   
 ### <a name="complaints"></a>Quejas
 
@@ -148,5 +148,3 @@ Las tarifas de los servicios de traducción nacionales, los números personales 
 ## <a name="related-topics"></a>Temas relacionados
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>¿Comentarios?
-Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).

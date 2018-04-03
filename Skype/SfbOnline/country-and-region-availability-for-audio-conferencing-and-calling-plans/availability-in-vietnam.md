@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Vietnam."
-ms.openlocfilehash: 3a258c598ba92507d619dd666a1daf3faa7d51a6
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Vietnam.
+ms.openlocfilehash: 9dca343478665d164df386b16501802109c36e17
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-vietnam"></a>Disponibilidad de Vietnam
 
@@ -83,5 +83,6 @@ Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para s
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+  
+ 
 

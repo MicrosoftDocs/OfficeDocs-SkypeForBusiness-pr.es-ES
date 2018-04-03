@@ -1,5 +1,5 @@
 ---
-title: "Configurar comunicaciones créditos para su organización"
+title: Configurar comunicaciones créditos para su organización
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Licensing
 - Strat_SB_PSTN
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 61ee7bb2a4de8417f9e018de369c0a87649b75a1
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.openlocfilehash: 8a60efc9318354b9873c976cf717d3dd2cf73b3d
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar comunicaciones créditos para su organización
 
@@ -43,7 +43,7 @@ Para ello, **debe asignar una conferencia de Audio o una licencia de sistema tel
   
 - Asignar una licencia de **Conferencia de Audio** a los usuarios. See [Assign Skype for Business and Microsoft Teams licenses](assign-skype-for-business-and-microsoft-teams-licenses.md).
     
-    Después de asignar esta licencia, deberá configurar conferencias de audio. Si desea ver instrucciones detalladas, vea [Configurar conferencias de Audio de Skype para la empresa y Teams de Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing.md).
+    Después de asignar esta licencia, deberá configurar conferencias de audio. Para obtener instrucciones detalladas, consulte [probar o comprar Audio conferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md).
     
 - Asignar el **Sistema de teléfono** y una licencia de Plan de llamadas nacional o nacional e internacional a los usuarios. See [Assign Skype for Business and Microsoft Teams licenses](assign-skype-for-business-and-microsoft-teams-licenses.md).
     
@@ -114,8 +114,6 @@ Para ver una tabla con la licencia o licencias que necesitará para cada funció
 
 - [Configurar Skype Empresarial Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [Configurar conferencias de Audio de Skype para la empresa y Teams de Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-    
 - [Configurar el correo de voz de Sistema telefónico - Ayuda para el administrador](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
     
 - [Configurar planes de llamada](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) y [Llamar a planes de Office 365](calling-plans-for-office-365.md)
@@ -124,5 +122,5 @@ Para ver una tabla con la licencia o licencias que necesitará para cada funció
     
 - [Configurar el conector de la nube](https://technet.microsoft.com/en-us/library/mt605228.aspx) y [descargar el conector de la nube](https://aka.ms/CloudConnectorInstaller)
 
-## <a name="feedback"></a>¿Comentarios?
-Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).
+  
+ 

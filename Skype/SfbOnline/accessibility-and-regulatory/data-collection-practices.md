@@ -1,5 +1,5 @@
 ---
-title: "Prácticas de recopilación de datos"
+title: Prácticas de recopilación de datos
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
-description: "Microsoft recopila datos de censos, el uso y el error para entender cómo se utiliza Skype para el negocio y donde los usuarios tienen problemas. Los datos se utilizan para planificar mejoras del producto."
+hideEdit: true
+description: Microsoft recopila datos de censos, el uso y el error para entender cómo se utiliza Skype para el negocio y donde los usuarios tienen problemas. Los datos se utilizan para planificar mejoras del producto.
 ms.openlocfilehash: f58a5650da1b6f489c63fdb5e5870321e0f06727
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype para las prácticas de recopilación de datos de negocio y Teams de Microsoft
 

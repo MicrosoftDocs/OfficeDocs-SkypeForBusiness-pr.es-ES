@@ -18,13 +18,13 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
+hideEdit: true
 description: "Des utilisateurs de proponente à ses expériences accessibles est au cœur de la misión s ' est fixée Microsoft: antelación à chaque personne et à cada organización de la planète d'accomplir davantage, aptitudes de ses de quelles bien. Microsoft un proponente de le plaisir, avec Skype Entreprise, ONU determinado accessibilité de d 'accessibilité s ' inscrivent dans hijo contratación fort pour l' nombre de soluciones et l'inclusion numérique."
 ms.openlocfilehash: 723746dcc61335f3eb0b655b51d177e804ab4166
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-in-france"></a>Soluciones de accesibilidad para Skype para los negocios en línea en Francia
 

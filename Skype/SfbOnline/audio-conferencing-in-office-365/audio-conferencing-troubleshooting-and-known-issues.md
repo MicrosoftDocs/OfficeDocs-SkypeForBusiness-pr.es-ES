@@ -1,5 +1,5 @@
 ---
-title: "Problemas conocidos y solución de conferencia de audio"
+title: Problemas conocidos y solución de conferencia de audio
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 72979911-5319-4de2-a275-4dd9a0f44fe6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Obtener una lista de problemas conocidos al utilizar Microsoft como su proveedor de conferencia de acceso telefónico, el estado y algunas soluciones. "
-ms.openlocfilehash: 9e566d0ba9f07aeecca222ef586f301b1cd6cf5f
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Obtener una lista de problemas conocidos al utilizar Microsoft como su proveedor de conferencia de acceso telefónico, el estado y algunas soluciones. '
+ms.openlocfilehash: 3748c6f60c04ea34f327eb371ba16f112a124287
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Problemas conocidos y solución de conferencia de audio
 
@@ -46,6 +48,7 @@ Por ahora, utilícelo como referencia cuando esté solucionando problemas potenc
 |Marcar las necesidades para utilizar 5 dígitos o más.  <br/> |Los usuarios que intentan marcar desde una reunión necesitan escribir en 5 o más dígitos, aunque esté disponible para normalizar dígitos corto a E.164, regla de normalización de plan de marcado.  <br/> |Marcar escribiendo el número DID completo o el formato de número local en lugar del número de extensión interna.  <br/> |25/9/2017  <br/> |
 |Dial de control no aparece intermitentemente.  <br/> |Dial de control puede no ser visible desde el panel de información de la reunión.  <br/> |No hay ninguna solución.  <br/> |25/9/2017  <br/> |
 |Id. de conferencia estático no compatible para reuniones de Microsoft Teams.  <br/> |Si el admin reemplaza el valor predeterminado de Id. de conferencia dinámico al ID de conferencia estática, este valor no tiene efecto para las reuniones de Microsoft Teams. Vea [conferencias de Audio utilizando identificadores dinámicos en su organización](using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |No hay ninguna solución.  <br/> |25/9/2017  <br/> |
+|Coordenadas de reunión PSTN no están disponibles para Skype para usuarios de negocios locales  <br/> |Si el usuario es un Skype para usuarios de empresa local, asignada con Skype para los negocios en línea, conferencias de Audio y licencias de equipos, todas las reuniones programadas con los equipos no incluirá coordenadas reunión PSTN. <br/> |No hay ninguna solución.  <br/> |1/2/2018  <br/> |
    
 ### <a name="skype-for-business-app"></a>Skype para el negocio de la aplicación
 
@@ -58,6 +61,4 @@ Por ahora, utilícelo como referencia cuando esté solucionando problemas potenc
    
 ## <a name="related-topics"></a>See also
 
-[Conferencias de acceso telefónico en Office 365](set-up-audio-conferencing.md)
-  
-
+[Probar o comprar Audioconferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -21,19 +21,17 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Éstas son algunas de las preguntas más frecuentes que se obtienen de los clientes que deseen utilizar la conferencia de Audio."
-ms.openlocfilehash: e699cd6a8c481df892114af5365866df8169019e
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: Éstas son algunas de las preguntas más frecuentes que se obtienen de los clientes que deseen utilizar la conferencia de Audio.
+ms.openlocfilehash: f31f6744fa04697aa2ff24455aa440769f0f824b
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="audio-conferencing-common-questions"></a>Preguntas frecuentes de audio conferencia
 
 Éstas son algunas de las preguntas más frecuentes que se obtienen de los clientes que deseen utilizar la conferencia de Audio. 
   
-Para obtener instrucciones detalladas para la configuración de conferencia de Audio, consulte [configurar las conferencias de Audio de Skype para empresas y equipos de Microsoft](set-up-audio-conferencing.md).
-
 ## <a name="what-are-the-benefits-of-audio-conferencing"></a>¿Cuáles son las ventajas de las conferencias de Audio?
 
 Si se llama en las reuniones es muy útil cuando la gente está de viaje, por ejemplo y no puede asistir a una reunión mediante el Skype para la aplicación de negocios o Teams de Microsoft en sus equipos portátiles o dispositivos móviles. Pero hay otros casos en los que un teléfono para asistir a un Skype para negocios o Teams Microsoft reunión puede ser una opción mejor que con una aplicación en un equipo:
@@ -152,8 +150,6 @@ Programación de una reunión que se van a unir todos los asistentes con un tel�
    
 ## <a name="related-topics"></a>See also
 
-[Configurar conferencias de Audio de Skype para la empresa y Teams de Microsoft](set-up-audio-conferencing.md)
-  
 [Configurar Skype Empresarial Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
   
 [Números de teléfono para Audioconferencia](phone-numbers-for-audio-conferencing.md)

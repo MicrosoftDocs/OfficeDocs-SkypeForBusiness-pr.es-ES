@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "Aprenda a planear e implementar Skype para empresas pequeñas, medianas y grandes empresas y ponerlo a disposición de los usuarios. "
-ms.openlocfilehash: 5a3af14d7bf507a50ab7d007a066e3bd42d90c50
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Aprenda a planear e implementar Skype para empresas pequeñas, medianas y grandes empresas y ponerlo a disposición de los usuarios. '
+ms.openlocfilehash: ee7799116f20a8ca1e9f1cb71d8616d44df93c8e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>Implementar el Skype para Business client en Office 365
 
@@ -153,4 +153,5 @@ Puede controlar la frecuencia con obtener actualizaciones de función utilizando
   
 Puede obtener más información en [Conferencias de acceso telefónico en Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-
+  
+ 

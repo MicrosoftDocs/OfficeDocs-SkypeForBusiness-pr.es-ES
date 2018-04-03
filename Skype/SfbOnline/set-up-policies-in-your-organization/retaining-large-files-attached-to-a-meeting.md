@@ -1,5 +1,5 @@
 ---
-title: "Retener grandes archivos adjuntos a un Skype para la reunión de negocios"
+title: Retener grandes archivos adjuntos a un Skype para la reunión de negocios
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "Puede adjuntar archivos a un Skype para reuniones de negocios, que los participantes, a continuación, pueden abrir y descargar. Archivos adjuntos de Skype para reuniones de negocios se mantienen en los buzones de cualquier participante cuyo buzón se coloca en retención para litigios, tiene aplicada una política de retención de Office 365 o se coloca en una suspensión de un caso de eDiscovery en la seguridad de Office 365 &amp; Centro de cumplimiento. Este contenido se guarda en las carpetas de elementos recuperables de los participantes en sus buzones."
-ms.openlocfilehash: fb20055106362143b5c4573115e095637d873599
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Puede adjuntar archivos a un Skype para reuniones de negocios, que los participantes, a continuación, pueden abrir y descargar. Archivos adjuntos de Skype para reuniones de negocios se mantienen en los buzones de cualquier participante cuyo buzón se coloca en retención para litigios, tiene aplicada una política de retención de Office 365 o se coloca en una suspensión de un caso de eDiscovery en la seguridad de Office 365 &amp; Centro de cumplimiento. Este contenido se guarda en las carpetas de elementos recuperables de los participantes en sus buzones.
+ms.openlocfilehash: c2f032a34cc5de604bb5437554add885c29645a0
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>Retener grandes archivos adjuntos a un Skype para la reunión de negocios
 
@@ -44,5 +44,5 @@ Los buzones que no están suspendidos no tendrá todos los datos reunión guarda
 
 [Configurar directivas de la conferencia de la organización](set-up-conferencing-policies-for-your-organization.md)
   
-## <a name="feedback"></a>¿Comentarios?
-Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).
+  
+ 

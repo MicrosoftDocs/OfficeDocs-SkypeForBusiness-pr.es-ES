@@ -1,5 +1,5 @@
 ---
-title: "Diagnosticar problemas de conexión con el Skype para Business Connector en línea"
+title: Diagnosticar problemas de conexión con el Skype para Business Connector en línea
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: "Solucionar problemas al crear una sesión de PowerShell remota para conectar con Skype para los negocios en línea, incluyendo Import-Module, shell simultánea, Live ID y errores de permiso."
-ms.openlocfilehash: 80062caae67eca24f47e1deb764121aef96ba30f
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Solucionar problemas al crear una sesión de PowerShell remota para conectar con Skype para los negocios en línea, incluyendo Import-Module, shell simultánea, Live ID y errores de permiso.
+ms.openlocfilehash: 3b00bfba29a8523d49690059ce1faceabcf040ab
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexión con el Skype para Business Connector en línea
 
@@ -65,7 +65,7 @@ El Skype para el módulo de Business Connector en línea se puede ejecutar sólo
   
   - **Error**: *Import-Module: la versión de la carga PowerShell es '2.0'. El módulo ' D:\\archivos de programa\\archivos comunes\\2013 de Microsoft Lync Server\\módulos\\LyncOnlineConnector\\LyncOnlineConnector.psd1' requiere una versión mínima de PowerShell de '3.0' para ejecutar. Comprobar la instalación de la PowerShell y vuelva a intentarlo.*
 
-- **Resolución**: la única manera de solucionar este problema es instalar Windows PowerShell 3.0, que está disponible en Microsoft Download Center en [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595).
+- **Resolución**: la única manera de solucionar este problema es instalar Windows PowerShell 3.0, que está disponible desde Microsoft Download Center en [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595).
   
 ## <a name="failed-to-connect-to-live-id-server"></a>No se pudo conectar a Live ID de servidor
 <a name="BKMKFailedConnect"> </a>
@@ -83,7 +83,7 @@ Normalmente hay tres razones de por qué puede fallar el intento de conexión co
     Start-Service "msoidsvc"
     ```
 
-    Si está ejecutando el servicio, podría encontrar problemas con la conexión de red entre el equipo y el servidor de autenticación de Microsoft Live ID. Para comprobar esto, abra Internet Explorer y vaya a [https://login.microsoftonline.com/.](https://login.microsoftonline.com/.) Intente iniciar sesión en Office 365 desde allí. Si esto no funciona, probablemente está experimentando problemas de conexión de red.
+    Si está ejecutando el servicio, podría encontrar problemas con la conexión de red entre el equipo y el servidor de autenticación de Microsoft Live ID. Para comprobar esto, abra Internet Explorer y vaya a [ https://login.microsoftonline.com/.](https://login.microsoftonline.com/.) Intente iniciar sesión en Office 365 desde allí. Si esto no funciona, probablemente está experimentando problemas de conexión de red.
   
     Con menos frecuencia, es posible que se haya configurado el URI de conexión para el servidor de autenticación de Microsoft Live ID a un valor incorrecto. Si ya ha determinado que el inicio de sesión Ayudante se está ejecutando y que no experimenta problemas de conectividad de red, esto puede ser el problema. En este caso, póngase en contacto con el soporte técnico de Office 365.
   
@@ -129,7 +129,7 @@ Para usar PowerShell para administrar Skype para los negocios en línea, debe es
 
 Cada administrador se permite un máximo de tres conexiones remotas simultáneas en Skype para los negocios en línea. Si tiene tres conexiones remotas de PowerShell para arriba y ejecutando, cualquier intento de realizar simultáneamente una cuarta conexión dará error con el mensaje de error siguiente:
 
-- **Error**: *New-PSSession: error de conexión a servidor remoto admin.vdomain.com [admin.vdomain.com] con el siguiente mensaje de error: The WS-Management no puede procesar la solicitud. Se superó el número máximo de shells simultáneos para este usuario. Cierre shells existentes o aumentar la cuota para este usuario. Para obtener más información, consulte el [resolución remota de problemas](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1*
+- **Error**: *New-PSSession: error de conexión a servidor remoto admin.vdomain.com [admin.vdomain.com] con el siguiente mensaje de error: The WS-Management no puede procesar la solicitud. Se superó el número máximo de shells simultáneos para este usuario. Cierre shells existentes o aumentar la cuota para este usuario. Para obtener más información, consulte el [resolución de problemas remota] (https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 
 - **Resolución**: la única forma de resolver este problema es cerrar uno o más de las conexiones anteriores. Cuando haya terminado con un Skype para la sesión de negocios en línea, le recomendamos que utilice el cmdlet **Remove-PSSession** para terminar la sesión. Esto ayudará a evitar este problema.
   
@@ -138,10 +138,12 @@ Cada administrador se permite un máximo de tres conexiones remotas simultáneas
 
 Aunque cada administrador puede tener como máximo tres conexiones simultáneas a un Skype para inquilinos de negocios en línea, no solo usuario puede tener más de nueve conexiones simultáneas. Por ejemplo, tres administradores pueden tener cada uno tres sesiones abiertas. Si un administrador cuarto intenta realizar una conexión (resultantes de un total de 10 conexiones simultáneas), este intento producirá un error, con el siguiente mensaje de error:
   
-- **Error**: *New-PSSession: error de conexión a servidor remoto admin.vdomain.com [admin.vdomain.com] con el siguiente mensaje de error: The WS-Management no puede procesar la solicitud. Se superó el número máximo de shells simultáneos para este arrendatario. Cierre shells existentes o aumentar la cuota para este arrendatario. Para obtener más información, consulte el [resolución remota de problemas](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1*
+- **Error**: *New-PSSession: error de conexión a servidor remoto admin.vdomain.com [admin.vdomain.com] con el siguiente mensaje de error: The WS-Management no puede procesar la solicitud. Se superó el número máximo de shells simultáneos para este arrendatario. Cierre shells existentes o aumentar la cuota para este arrendatario. Para obtener más información, consulte el [resolución de problemas remota] (https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 
 - **Resolución**: la única forma de resolver este problema es cerrar uno o más de las conexiones anteriores. Cuando haya terminado con un Skype para la sesión de negocios en línea, le recomendamos que utilice el cmdlet **Remove-PSSession** para terminar esa sesión. Esto ayudará a evitar este problema.  
  
 ## <a name="related-topics"></a>See also
 [Configurar el equipo de Skype para la administración de negocios en línea mediante Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
+  
+ 

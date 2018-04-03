@@ -1,5 +1,5 @@
 ---
-title: "¿Cuál es la diferencia entre llamar a Analytics y llamar al panel de calidad?"
+title: ¿Cuál es la diferencia entre llamar a Analytics y llamar al panel de calidad?
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: "Obtenga información acerca de Analytics llamar y llamar al panel de calidad y cuándo utilizarlos para supervisar y solucionar problemas de calidad de la llamada en Skype para el negocio."
-ms.openlocfilehash: a17b98451013f24810fd437fa3eb638f98610a8f
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Obtenga información acerca de Analytics llamar y llamar al panel de calidad y cuándo utilizarlos para supervisar y solucionar problemas de calidad de la llamada en Skype para el negocio.
+ms.openlocfilehash: 934b0cfec28fa4a67e1dad699db504bda25b2978
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="whats-the-difference-between-call-analytics-and-call-quality-dashboard"></a>¿Cuál es la diferencia entre llamar a Analytics y llamar al panel de calidad?
 
@@ -64,3 +64,6 @@ Para obtener más información sobre CQD, consulte [activar y con llamar al pane
 [Configurar el análisis de llamadas de Skype Empresarial](set-up-call-analytics.md)
 
 [Usar el análisis de llamadas para solucionar problemas de mala calidad de llamada en Skype Empresarial](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+
+  
+ 

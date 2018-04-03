@@ -1,5 +1,5 @@
 ---
-title: "Información de cuenta de orden de puerto"
+title: Información de cuenta de orden de puerto
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfo
 ms.custom:
 - Calling Plans
-description: "Obtenga información acerca de qué información de cuenta que será necesario cuando se trabaja con un asistente nuevo orden de puerto número Local. "
-ms.openlocfilehash: 33816b96de13f3e6ffac22d6ff738cc78bef6db7
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Obtenga información acerca de qué información de cuenta que será necesario cuando se trabaja con un asistente nuevo orden de puerto número Local. '
+ms.openlocfilehash: 53fa83e98af94505fd8cea5f2b30caf267f9d7e5
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="port-order-account-information"></a>Información de cuenta de orden de puerto
 
@@ -82,3 +82,6 @@ Para realizar el envío del pedido de puerto sencillo y evitar errores, asegúre
 [Términos y condiciones de las llamadas de emergencias](emergency-calling-terms-and-conditions.md)
 
 [Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
+ 

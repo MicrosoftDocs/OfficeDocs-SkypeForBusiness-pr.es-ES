@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
-description: "Este tema define el conjunto de requisitos de rendimiento de red para Skype para servicios empresariales en línea y cómo puede utilizar Internet o ExpressRoute para la conectividad entre la red y Skype para los negocios en línea en función de la evaluación de la red conectividad. Si ha decidido implementar Azure ExpressRoute de conectividad dedicada a Office 365, este documento también proporciona instrucciones acerca de cómo diseñar las conexiones ExpressRoute en Skype diferente para escenarios de implementación de negocios en línea."
-ms.openlocfilehash: 7b68253fe44850009639de57eadee2edefeb5e0c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Este tema define el conjunto de requisitos de rendimiento de red para Skype para servicios empresariales en línea y cómo puede utilizar Internet o ExpressRoute para la conectividad entre la red y Skype para los negocios en línea en función de la evaluación de la red conectividad. Si ha decidido implementar Azure ExpressRoute de conectividad dedicada a Office 365, este documento también proporciona instrucciones acerca de cómo diseñar las conexiones ExpressRoute en Skype diferente para escenarios de implementación de negocios en línea.
+ms.openlocfilehash: 11808a2462fff5ec5c3d6472d060dbba698735f3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Calidad Media y rendimiento de conectividad de red en Skype para el negocio en línea
 
@@ -127,7 +127,7 @@ Para Skype óptimo para la calidad de los medios empresariales, los siguientes o
   
 |||
 |:-----|:-----|
-|**Métrica** <br/> |**Target** <br/> |
+|**Métrica** <br/> |**Destino** <br/> |
 |Latencia (unidireccional)  <br/> |< 50 ms  <br/> |
 |Latencia (RTT o tiempo de ida y vuelta)  <br/> |< 100 ms  <br/> |
 |Pérdida de paquetes ráfaga  <br/> |< 10% durante un intervalo de 200 ms  <br/> |
@@ -153,12 +153,12 @@ Los siguientes son los objetivos de performance de la red o umbrales necesarios 
   
 |||
 |:-----|:-----|
-|**Métrica** <br/> |**Target** <br/> |
-|Latency (one way)  <br/> |< 30 ms  <br/> |
-|Latency (RTT)  <br/> |< 60 ms  <br/> |
+|**Métrica** <br/> |**Destino** <br/> |
+|Latencia (unidireccional)  <br/> |< 30 ms  <br/> |
+|Latencia (RTT)  <br/> |< 60 ms  <br/> |
 |Pérdida de paquetes ráfaga  <br/> |< 1% durante un intervalo de 200 ms  <br/> |
 |Pérdida de paquetes  <br/> |< 0,1% durante un intervalo de 15 s  <br/> |
-|Packet inter-arrival Jitter  <br/> |< 15 ms durante un intervalo de 15 s  <br/> |
+|Vibración de llegada entre paquetes  <br/> |< 15 ms durante un intervalo de 15 s  <br/> |
 |Reaprovisionamiento de paquete  <br/> |< 0,01% paquetes sin ordenar  <br/> |
    
  **Otros requisitos del destino de rendimiento:**
@@ -176,7 +176,7 @@ Para probar las conexiones de Internet a la red de Microsoft, se recomienda que 
   
 ||||
 |:-----|:-----|:-----|
-|**IP address** <br/> |**Tipo** <br/> |**Ubicación** <br/> |
+|**Dirección IP** <br/> |**Tipo** <br/> |**Ubicación** <br/> |
 |13.107.8.2  <br/> |VIP  <br/> |World Wide IP de difusión por proximidad  <br/> |
    
  **Éstas son algunas recomendaciones de alto niveles a seguir para evaluar el rendimiento de la red:**
@@ -258,7 +258,7 @@ No, no es necesario para Skype para negocios SLA de calidad de voz en línea Exp
 
 Antes de tomar una decisión sobre la red de opciones de conectividad para Skype para los negocios en línea, los clientes deben evaluar su red y conectividad a Internet actual basada en los requisitos de rendimiento de red descritos en [requisitos de rendimiento de red para conectar con Skype para los negocios en línea](media-quality-and-network-connectivity-performance.md#bkNetworkPerf).
   
-If network performance over the current Internet connection is set up for enough capacity during peak time and that it meets the network performance requirements from sites to Microsoft network Edges and from your network Edges to Microsoft network Edges, you can continue to use your existing Internet connectivity to connect to Skype for Business Online.
+Si se establece el rendimiento de la red a través de la conexión actual a Internet para capacidad suficiente durante las horas pico y cumple los requisitos de rendimiento de red de sitios a los bordes de red de Microsoft y de sus bordes de red a los bordes de red de Microsoft, puede seguir utilizando la conexión a Internet existente para conectar con Skype para los negocios en línea.
   
 Para los sitios de la empresa donde no se cumplen los requisitos de rendimiento de red, se recomienda que primero trabajar con los proveedores de servicios de red existente para mejorar el rendimiento de la red. Sin embargo, si todavía no se cumplen, ExpressRoute de Azure puede ayudarle a garantizar que su Skype para conectividad de nube en línea Business puede ayudarle a satisfacer los requerimientos de performance de la red.
   
@@ -287,11 +287,11 @@ Si ha decidido que es ExpressRoute que se basa en las recomendaciones anteriores
   
 ### <a name="online-only-deployment---single-site"></a>Implementación sólo en línea - único sitio
 
-If all of your users use the Skype for Business Online service, and if your offices are centered around a single physical location and you decide to deploy Azure ExpressRoute, you should set up single ExpressRoute connection between your company site to the closest [ExpressRoute peering location](https://azure.microsoft.com/en-us/documentation/articles/expressroute-locations/).
+Si todos los usuarios utilizan el Skype para servicio de los negocios en línea y sus oficinas se centran en una sola ubicación física y decide implementar ExpressRoute de Azure, debe establecer una única conexión de ExpressRoute entre el sitio de su compañía a lo más cercano [Ubicación de interconexión de ExpressRoute](https://azure.microsoft.com/en-us/documentation/articles/expressroute-locations/).
   
-El gráfico siguiente muestra un ejemplo de este tipo de implementación. Para este ejemplo, Contoso es una universidad en Orlando, FL. Contoso tiene 10.000 miembros del profesorado y los alumnos. Las pruebas de Internet desde su ubicación a sitios de borde de Microsoft mostraron mayores pérdida de paquetes de 5% durante las horas de clase. El ha decidido obtener una conexión dedicada a Office 365 con ExpressRoute un provisioning excesivo ancho de banda para que pueden evitar la congestión de la red para Office 365 especialmente para Skype para el tráfico en tiempo real de negocio en línea. They connect to the Microsoft cloud through ExpressRoute at the Atlanta, GA MeetMe site.
+El gráfico siguiente muestra un ejemplo de este tipo de implementación. Para este ejemplo, Contoso es una universidad en Orlando, FL. Contoso tiene 10.000 miembros del profesorado y los alumnos. Las pruebas de Internet desde su ubicación a sitios de borde de Microsoft mostraron mayores pérdida de paquetes de 5% durante las horas de clase. El ha decidido obtener una conexión dedicada a Office 365 con ExpressRoute un provisioning excesivo ancho de banda para que pueden evitar la congestión de la red para Office 365 especialmente para Skype para el tráfico en tiempo real de negocio en línea. Se conectan a la nube de Microsoft a través de ExpressRoute en el sitio de Atlanta, Georgia, MeetMe.
   
-![ExpressRoute Single Site.](../images/59fbca3c-a3ea-4568-8da5-3281096a7453.png)
+![Sitio de ExpressRoute único.](../images/59fbca3c-a3ea-4568-8da5-3281096a7453.png)
   
 ### <a name="online-only-deployment---multiple-sites-on-the-same-continent"></a>Implementación sólo en línea - varios sitios en el mismo continente
 
@@ -299,45 +299,47 @@ Si su empresa utiliza Skype para servicios en línea de negocio de varias oficin
   
 En el siguiente ejemplo, Contoso es una empresa de servicios de viaje de Estados Unidos que tiene su sede en Nueva York, pero cuenta con otras oficinas en Estados Unidos. Sus oficinas están interconectadas a través de una WAN que utiliza MPLS para conectarse a Office 365. Configura inicialmente una conexión ExpressRoute de su enrutador de Internet en Hoboken, New Jersey al sitio MeetMe de Nueva York. 
   
-With this setup, network traffic from most of their sites to the Microsoft Network (New York Edge site) can meet the Skype for Business client connection network performance targets described in [Network Performance requirements from a Skype for Business client to Microsoft network Edge](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge). Sin embargo, latencia entre las oficinas de la costa oeste de Contoso a Nueva York va a través de 50 ms. unidireccional. Además, Honolulu es la segunda oficina de Contoso, latencia de Honolulu a Nueva York supera 80 ms unidireccional. To ensure good media quality for users in those offices, Contoso decided to add a west coast ExpressRoute connection between their San Jose site and the Silicon Valley ExpressRoute MeetMe site.
+Con esta configuración, el tráfico de red de la mayoría de los sitios de Microsoft Network (sitio de Nueva York Edge) puede satisfacer el Skype para objetivos de performance de red en conexión de negocio cliente descrito en [requisitos de rendimiento de la red desde un Skype para el cliente de Business para Microsoft, red perimetral](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge). Sin embargo, latencia entre las oficinas de la costa oeste de Contoso a Nueva York va a través de 50 ms. unidireccional. Además, Honolulu es la segunda oficina de Contoso, latencia de Honolulu a Nueva York supera 80 ms unidireccional. Para asegurar una calidad media buena para los usuarios de dichas oficinas, Contoso decidió agregar una costa oeste ExpressRoute conexión entre sus sitios de San José y Silicon Valley ExpressRoute MeetMe.
   
-![Express Router Multi-site on the same continent.](../images/bf57a473-01e1-4271-9675-385767bc58e1.png)
+![Express enrutador de múltiples sitios en el mismo continente.](../images/bf57a473-01e1-4271-9675-385767bc58e1.png)
   
-### <a name="online-only-deployment---multiple-sites-on-different-continents"></a>Online only deployment - Multiple sites on different continents
+### <a name="online-only-deployment---multiple-sites-on-different-continents"></a>Implementación sólo en línea - varios sitios en diferentes países
 
-If all of your users are using Skype for Business Online service, and if your offices are in multiple physical locations across multiple continents, if you decide to deploy Azure ExpressRoute, you should set up at least one ExpressRoute connection for each continent between each continent's main site to its closest [ExpressRoute peering location](https://azure.microsoft.com/en-us/documentation/articles/expressroute-locations/). Depending on cost vs benefit, you can choose to deploy additional ExpressRoute connections from sites where network performance targets aren't met.
+Si todos los usuarios utilizan Skype para servicio de los negocios en línea, y sus oficinas se encuentran en varias ubicaciones físicas en varios continentes, si decide implementar ExpressRoute de Azure, debe configurar al menos una conexión de ExpressRoute para cada continente entre el sitio principal de cada continente a su [ubicación de interconexión ExpressRoute](https://azure.microsoft.com/en-us/documentation/articles/expressroute-locations/)de más cercano. Función costo vs beneficio, puede implementar conexiones adicionales de ExpressRoute de sitios donde no se cumplen los objetivos de performance de la red.
   
-En el siguiente ejemplo, Contoso es una empresa de abogados corporativos de gran tamaño con oficinas en las principales ciudades en Norteamérica y Europa. Based on their Internet connection and their internal network performance assessment, Contoso decided to deploy two ExpressRoute connections in North America and a single ExpressRoute circuit for all their European offices.
+En el siguiente ejemplo, Contoso es una empresa de abogados corporativos de gran tamaño con oficinas en las principales ciudades en Norteamérica y Europa. Basándose en su evaluación de rendimiento de la red interna y de su conexión a Internet, Contoso decidió implementar dos conexiones ExpressRoute en América del Norte y un circuito de ExpressRoute única para todas sus oficinas europeas.
   
-![ExpressRoute with multiple sites and continents.](../images/c967550b-dc85-4b37-a7bc-cd825ec86854.png)
+![ExpressRoute con varios sitios y continentes.](../images/c967550b-dc85-4b37-a7bc-cd825ec86854.png)
   
-### <a name="hybrid-deployment"></a>Hybrid deployment
+### <a name="hybrid-deployment"></a>Implementación híbrida
 
-If you have an on-premises Lync or Skype for Business deployment and choose to implement a hybrid Skype for Business Online integration, we recommend that if you decide to deploy Azure ExpressRoute, you need to have at least one ExpressRoute connection for each on-premises Lync or Skype for Business Edge site and at least one ExpressRoute connection for each continent with offices. Depending on cost vs benefit, for each continent you can choose to deploy additional ExpressRoute connections from offices where network performance targets aren't being met.
+Si tienes un Lync en locales o Skype para la implementación en la empresa y se decide implementar un híbrido Skype para la integración de los negocios en línea, le recomendamos que si decide implementar ExpressRoute de Azure, debe tener al menos una conexión de ExpressRoute para cada uno local Lync o Skype para sitio de borde del negocio y al menos una conexión de ExpressRoute para cada continente con oficinas. Función costo vs beneficio, para cada continente puede implementar conexiones de ExpressRoute adicionales de oficinas donde no se cumplen los objetivos de performance de la red.
   
-Si tienes un Skype local para la implementación en la empresa, debe seguir el [borde Server Planning and Deployment Guide](https://technet.microsoft.com/en-us/library/mt346417.aspx). Specifically, the Edge servers must be reachable from outside of your network. This is usually achieved either by assigning a routable public IP address to the Edge server, or by using network address translation (NAT).
+Si tienes un Skype local para la implementación en la empresa, debe seguir el [borde Server Planning and Deployment Guide](https://technet.microsoft.com/en-us/library/mt346417.aspx). En concreto, los servidores perimetrales deben ser accesibles desde fuera de la red. Normalmente, esto se logra mediante la asignación de una dirección IP pública enrutable para el servidor perimetral o mediante el uso de traducción de direcciones de red (NAT).
   
-In the following example, Contoso has an existing on-premises Skype for Business Enterprise Voice deployment. They want to migrate on-premises users to Office 365 online services. They also decided to use a hybrid deployment so that they can continue to use their existing PSTN infrastructure for all on-premises and online users. Contoso's on-premises data center and Skype for Business Edge Servers are in Chicago. For their deployment, Contoso decided to set up one ExpressRoute connection between their Chicago data center and the Chicago ExpressRoute. They also added a west coast ExpressRoute connection to better serve their Honolulu office.
+En el siguiente ejemplo, Contoso tiene un Skype en instalaciones existentes para la implementación de Telefonía IP empresarial de negocios. Desean migrar usuarios locales a los servicios en línea de Office 365. También decidieron utilizar una implementación híbrida, por lo que puede seguir usando su infraestructura PSTN existente para todos los usuarios en línea y locales. Centro de datos local de Contoso y Skype para servidores de borde empresariales están en Chicago. Para su implementación, Contoso decidió establecer una conexión de ExpressRoute entre su data center de Chicago y el ExpressRoute de Chicago. También conferían una costa oeste ExpressRoute conexión para servir mejor a su oficina de Honolulu.
   
-![ExpressRoute Hybrid.](../images/a7467c56-642f-44e5-adfb-ecca91ba2dd3.png)
+![ExpressRoute híbrido.](../images/a7467c56-642f-44e5-adfb-ecca91ba2dd3.png)
   
-### <a name="online-deployment-with-cloud-connector-edition"></a>Online deployment with Cloud Connector Edition
+### <a name="online-deployment-with-cloud-connector-edition"></a>Implantación en línea con la edición de conector de nube
 
-Skype for Business Online Cloud Connector Edition is a hybrid offering that consists of a set of packaged Virtual Machines (VMs) that implement on-premises PSTN connectivity. By deploying a minimal Skype for Business Server topology in a virtualized environment, you will be able to send and receive calls with landlines and mobile phones through the existing on-premises PSTN voice infrastructure.
+Skype para Business Edition de conector de nube en línea es ofrecer un híbrido que consta de un conjunto de paquetes máquinas virtuales (VMs) que implementan conectividad de RTC local. Al implementar una mínima Skype para topología Business Server en un entorno virtualizado, podrá enviar y recibir llamadas con teléfonos fijos y móviles a través de la infraestructura de voz de RTC local existente.
   
-If you decide to deploy Azure ExpressRoute and Cloud Connector Edition, we recommend for you to set up at least one Express Route connection for each continent between each continent's main site to it's closest [ExpressRoute peering location](https://azure.microsoft.com/en-us/documentation/articles/expressroute-locations/). Depending on cost vs benefit, for each continent you can choose to deploy additional ExpressRoute connections from sites where network performance targets aren't being met.
+Si decide implementar ExpressRoute de Azure y la nube conector Edition, se recomienda para que configurar al menos una conexión directa para cada continente entre el sitio Web principal de cada continente a su más cercano [ExpressRoute interconexión ubicación](https://azure.microsoft.com/en-us/documentation/articles/expressroute-locations/). Función costo vs beneficio, para cada continente puede implementar conexiones adicionales de ExpressRoute de sitios donde no se cumplen los objetivos de performance de la red.
   
-If you have an on-premises Skype for Business deployment, you must follow the [Planning Guide for Skype for Business Cloud Connector Edition](https://technet.microsoft.com/EN-US/library/mt605227.aspx). Specifically, the Access Edge and A/V Edge services should be assigned public IP addresses and reachable from Office 365 data centers.
+Si tienes un Skype local para la implementación en la empresa, debe seguir la [Guía de planificación para Skype para conector de nube Business Edition](https://technet.microsoft.com/EN-US/library/mt605227.aspx). En concreto, el servidor perimetral de acceso y A / servicios de borde V deben asignarse direcciones IP públicas y son accesibles desde los centros de datos de Office 365.
   
-In the following example, Contoso is a European accounting firm with presence in a few major European countries and cities. When they sign up for Skype for Business Online for all their collaboration needs, they decided to put a Cloud Connector for each country they have a physical location to continue to use their PSTN infrastructure and carrier contracts that already exist. Based on their testing from all their sites and Microsoft network Edge, they determined that a single ExpressRoute connection in London will help meet the Skype for Business client connection network performance targets described in [Network Performance requirements from a Skype for Business client to Microsoft network Edge](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge).
+En el siguiente ejemplo, Contoso es una empresa de contabilidad Europea con presencia en algunos de los principales países europeos y ciudades. Al inscribirse para Skype para los negocios en línea para todas sus necesidades de colaboración, decidió poner una nube de conector para cada país que tienen una ubicación física para seguir utilizando su infraestructura PSTN y los contratos de transporte que ya existen. Basado en las pruebas de todos sus sitios y borde de Microsoft network, determinó que una sola conexión de ExpressRoute de Londres ayudará a cumplir el Skype para objetivos de performance de red en conexión de negocio cliente descrito en el rendimiento de la red de [ Borde de red requisitos desde un Skype para Business client para Microsoft](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge).
   
-![ExpressRoute Cloud Connector One.](../images/ebdc96e5-b22a-4bf2-b668-062460b4b890.png)
+![Nube de ExpressRoute conector uno.](../images/ebdc96e5-b22a-4bf2-b668-062460b4b890.png)
   
-Below is another deployment option for Contoso. In this case, they decided to set up an ExpressRoute connection at each site where a Cloud Connector is deployed. 
+A continuación es otra opción de implementación de Contoso. En este caso, decidieron establecer una conexión de ExpressRoute en cada sitio donde se implementa un conector de nube. 
   
-![ExpressRoute Cloud Connector Two.](../images/06d967a9-64f5-4d7d-98ed-3f3add1b7c2b.png)
+![Nube de ExpressRoute conector dos.](../images/06d967a9-64f5-4d7d-98ed-3f3add1b7c2b.png)
   
 ## <a name="related-topics"></a>See also
 
 [ExpressRoute y QoS en Skype Empresarial Online](expressroute-and-qos-in-skype-for-business-online.md)
 
+  
+ 

@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Aquí están disponibles para Brunei los servicios de Office 365 para Skype para empresas y Teams de Microsoft."
-ms.openlocfilehash: eec2edad282d4bcc34a40b2c669a5c97a10859ee
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Aquí están disponibles para Brunei los servicios de Office 365 para Skype para empresas y Teams de Microsoft.
+ms.openlocfilehash: 0a375722169ea38a4a027a1a84284f583d0791dc
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-brunei"></a>Disponibilidad de Brunei
 
@@ -82,6 +82,3 @@ Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para s
 [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-## <a name="feedback"></a>¿Comentarios?
-Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).

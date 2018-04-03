@@ -1,5 +1,5 @@
 ---
-title: "Estadísticas del usuario e información de la organización"
+title: Estadísticas del usuario e información de la organización
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ f1keywords:
 - ms.lync.lac.DashboardUserStatistics
 ms.custom:
 - Setup
-description: "Vea qué estadísticas tienen disponibles los usuarios de Skype Empresarial, como el número de usuarios habilitados, los usuarios habilitados con conferencia o los usuarios que están habilitados para Office 365."
-ms.openlocfilehash: 371e1eabb7979dc805f2a4473040a491f3950352
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Vea qué estadísticas tienen disponibles los usuarios de Skype Empresarial, como el número de usuarios habilitados, los usuarios habilitados con conferencia o los usuarios que están habilitados para Office 365.
+ms.openlocfilehash: 29fe9f5aad88e7eb394d09316d5c37c4d6531687
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="user-statistics-and-organization-information"></a>Estadísticas del usuario e información de la organización
 
@@ -36,7 +36,7 @@ El panel de Skype Empresarial le ofrece información rápida sobre la configurac
 |:-----|:-----|
 |**Propiedad** <br/> |**Cómo se puede cambiar** <br/> |
 |Usuarios de Skype Empresarial Online  <br/> |Para agregar usuarios o bloquearlos y que no usen la aplicación de Skype Empresarial, consulte [Asignar o quitar licencias de Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) o [Quitar licencias de usuarios en Office 365 para empresas](https://support.office.com/article/9b497c85-d0a4-4735-80fa-d3565bc05bd1).  <br/> Para obtener una lista completa de las acciones que debe seguir cuando un usuario abandona la empresa, consulte [Quitar a un antiguo empleado de Office 365](https://support.office.com/article/44d96212-4d90-4027-9aa9-a95eddb367d1).  <br/> |
-|Usuarios habilitados para Audioconferencia  <br/> |Para habilitar usuarios para Audioconferencia, consulte [Configurar Audioconferencia para Skype Empresarial y Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md).  <br/> |
+|Usuarios habilitados para Audioconferencia  <br/> |Para permitir que las personas para conferencias de Audio, vea [probar o comprar Audio conferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md).  <br/> |
 |Usuarios en la nube  <br/> |Es el número de usuarios de Skype Empresarial Online que tienen cuentas de Office 365.  <br/> Para agregar personas a su suscripción de Office 365 (es decir, crear cuentas de Office 365 para estos usuarios), consulte [Agregar usuarios individualmente o de forma masiva en Office 365: ayuda para el administrador](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec).  <br/> |
 |Usuarios sincronizados y alojados en línea  <br/> |Es el número de usuarios híbridos que se crean en una implementación en línea de Skype Empresarial Server, pero que se sincronizan con Office 365.  <br/> Para configurar una conectividad híbrida de Skype Empresarial, consulte [Implementar la conectividad híbrida entre Skype Empresarial Server y Skype Empresarial Online](https://technet.microsoft.com/en-us/library/jj204669.aspx).  <br/> |
    
@@ -61,5 +61,5 @@ El panel de Skype Empresarial le ofrece información rápida sobre la configurac
 
 [Informes de actividades en el Centro de administración de Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
-## <a name="feedback"></a>¿Comentarios?
-Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).
+  
+ 

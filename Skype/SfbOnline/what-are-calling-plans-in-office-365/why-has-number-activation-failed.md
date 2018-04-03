@@ -1,5 +1,5 @@
 ---
-title: "¿Por qué ha fallado la activación número?"
+title: ¿Por qué ha fallado la activación número?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.NumberActivationStateFailed
 ms.custom:
 - Calling Plans
-description: "La validación de direcciones es una parte muy importante de la configuración de Planes de llamada en Office 365. Proporciona a un usuario de su organización una dirección para llamadas de emergencia que puedan usar los servicios de respuesta de emergencias."
-ms.openlocfilehash: 3b1ccd58900bce586e8d9c556dc32efbe1ee0cbb
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: La validación de direcciones es una parte muy importante de la configuración de Planes de llamada en Office 365. Proporciona a un usuario de su organización una dirección para llamadas de emergencia que puedan usar los servicios de respuesta de emergencias.
+ms.openlocfilehash: 0da05c5cdcc3c0c28d92d44d7433ec1a1abcabce
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="why-has-number-activation-failed"></a>¿Por qué ha fallado la activación número?
 La validación de direcciones es una parte muy importante de la configuración de Planes de llamada en Office 365. Si por alguna razón que un número de teléfono no se activa debido a la validación de direcciones, debe crear una solicitud de servicio. La forma que elija para hacerlo depende del tamaño de su organización.
@@ -105,3 +105,6 @@ La validación de direcciones es una parte muy importante de la configuración d
 [Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)
 
 [Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
+ 

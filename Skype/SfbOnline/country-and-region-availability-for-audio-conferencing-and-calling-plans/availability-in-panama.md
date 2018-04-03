@@ -1,5 +1,5 @@
 ---
-title: "Disponibilidad de Panamá"
+title: Disponibilidad de Panamá
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Presentamos los servicios de Office 365 para Skype para empresas y Teams de Microsoft de Panamá."
-ms.openlocfilehash: 2dff4e3b60218896fe7aa0de1abbf6c3a7f0c35d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Presentamos los servicios de Office 365 para Skype para empresas y Teams de Microsoft de Panamá.
+ms.openlocfilehash: 84fbceff474f54fe9c1a4f40a461bd7304cbd8d7
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-panama"></a>Disponibilidad de Panamá
 
@@ -83,5 +83,6 @@ Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para s
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+  
+ 
 

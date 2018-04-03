@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - Alchemy
 - LIL_Placement
-description: "Aprenda a configurar su dominio, usuarios, mensajería instantánea y presencia para su organización para instalar Skype para empresas. También aprenderá a configurar conferencias de audio, sistema telefónico y planes de llamada y difusión de la reunión de Skype. "
-ms.openlocfilehash: 122ff43fd13a2bd9e2207d9e4e1c2b6e5d8be2a8
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Aprenda a configurar su dominio, usuarios, mensajería instantánea y presencia para su organización para instalar Skype para empresas. También aprenderá a configurar conferencias de audio, sistema telefónico y planes de llamada y difusión de la reunión de Skype. '
+ms.openlocfilehash: ad0608dbb637b4b2343bf39d47b2beea0ca9e12c
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-skype-for-business-online"></a>Configurar Skype Empresarial Online
   
@@ -130,8 +130,6 @@ Antes de configurar más características, asegúrese de tener licencias para po
 
 En algunas ocasiones, en su organización se necesitará un teléfono para llamar a una reunión. Skype Empresarial incluye la característica de Audioconferencia para este tipo de situaciones. Las personas pueden llamar a las reuniones de Skype Empresarial con un teléfono en lugar de hacerlo con la aplicación de Skype Empresarial en un dispositivo móvil o PC.
   
-Si quiere ver instrucciones detalladas paso a paso, consulte [Configurar conferencias de Audio de Skype para la empresa y Teams de Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing.md) en Office 365.
-  
 ### <a name="set-up-phone-system-and-the-calling-plans-in-office-365"></a>Configurar Sistema telefónico y Plan de llamadas de Office 365
 
 La característica de Sistema telefónico de Office 365 le brinda un sistema telefónico para la empresa. Las llamadas a otros usuarios de Skype Empresarial de su empresa son gratuitas y los empleados pueden recibir correos de voz de otros empleados u otros usuarios externos. Esto es lo que obtiene con Sistema telefónico.
@@ -152,7 +150,7 @@ A continuación se muestra una introducción a los pasos para configurar Difusi�
     
 3. [Configurar la red para difundir reunión de Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md): si desea host webinars y otras difusiones con asistentes externos a su organización, debe configurar la red.
     
-4. [Programar una difusión de reunión Skype](http://support.office.com/article/c3995bc9-4d32-4f75-a004-3bc5c477e553) y tiene una [combinación de una difusión de reunión Skype](http://support.office.com/article/14689da0-821d-48d4-9035-ea762de80ebe): asegúrese de que el trabajo de difusión reuniones programar una difusión de reunión Skype en *https://portal.broadcast.skype.com* y, a continuación, haga que alguien intente unirse a la reunión.
+4. [Programar una difusión de reunión Skype](http://support.office.com/article/c3995bc9-4d32-4f75-a004-3bc5c477e553) y tiene una [combinación de una difusión de reunión Skype](http://support.office.com/article/14689da0-821d-48d4-9035-ea762de80ebe): hacer reuniones de difusión que funcionan mediante la programación de la difusión de una reunión de Skype en *https://portal.broadcast.skype.com* y, a continuación, haga que alguien intente unirse a la reunión.
     
 ## <a name="learn-about-network-connectivity-requirements"></a>Aprender acerca de los requisitos de conectividad de red
 <a name="bkmk_more"> </a>
@@ -177,5 +175,5 @@ La calidad de audio, vídeo y uso compartido de la aplicación en Skype Empresar
 
 [Planificar la conectividad híbrida entre Skype Empresarial Server y Skype Empresarial Online](https://go.microsoft.com/fwlink/p/?linkid=400791)
   
-## <a name="feedback"></a>¿Comentarios?
-Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).
+  
+ 

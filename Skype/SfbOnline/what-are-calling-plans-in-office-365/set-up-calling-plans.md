@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
+ms.date: 03/30/2018
 ms.topic: article
 ms.assetid: 57893158-1acd-44ac-acaf-19f58264a9e0
 ms.tgt.pltfrm: cloud
@@ -23,17 +23,21 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 871edfa997e9267213480a448eda952a7927783b
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.openlocfilehash: dcba074f1c0e6966ef0632a95035e681aa25a194
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-calling-plans"></a>Configurar las llamadas RTC en Skype Empresarial
 
 Calls to other Skype for Business users are free, but if you want your users to be able to call phones outside of your business, get a Domestic Calling Plan or an International Calling Plan in Office 365. It's easy to set this up for your business. 
+
+## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>Paso 1: Averiguar si llamar a planes están disponibles en su país o región
+
+Vaya a [disponibilidad de país y región para conferencias de Audio y planes de llamada](..//country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) y seleccione su país o región para obtener la información de disponibilidad acerca de planes de llamada, así como información acerca de las llamadas de conferencia de Audio, sistema de teléfono y número gratuito números y créditos de comunicaciones.
   
-## <a name="step-1-buy-and-assign-licenses"></a>Paso 1: Comprar licencias y asignarlas
+## <a name="step-2-buy-and-assign-licenses"></a>Paso 2: Comprar y asignar licencias
 
 1. If the Phone System in Office 365 feature isn't included in your plan, you may need to purchase **Phone System** add-on licenses. Una vez haya licencias del **Sistema de teléfono** , compra [Llamar a planes de Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md). See [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md), and buy the licenses and plan. 
     
@@ -42,87 +46,41 @@ Calls to other Skype for Business users are free, but if you want your users to 
   
 2. First assign the licenses, and then assign a Calling Plan to the people in your organization. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
     
-## <a name="step-2-get-phone-numbers"></a>Paso 2: Obtener números de teléfono
+## <a name="step-3-get-phone-numbers"></a>Paso 3: Obtener números de teléfono
 
-El orden de los pasos es levemente diferente si se encuentra fuera de los Estados Unidos. Esto se debe a que en algunos países o regiones, puede obtener una dirección de emergencia con el número de teléfono que recibe de Office 365 o el que usted transfiere. Por ello, si está fuera de los Estados Unidos, lleve a cabo primero el [Paso 3: Agregar direcciones y ubicaciones de emergencia para la organización](set-up-calling-plans.md#bkmk_add_addresses) y, a continuación, realice el **Paso 2:Obtener los números de teléfono**.
-  
-1. SI está usando números de teléfono de Office 365, siga estos pasos. **Si necesita transferir los números de teléfono existentes desde otro proveedor de servicios, siga los pasos en [Transferir números de teléfono a Skype Empresarial Online](transfer-phone-numbers-to-office-365.md)**.
-    
-2. Inicie sesión en Office 365 con su cuenta profesional o educativa.
-    
-3. Vaya al **Centro de administración de Office 365** > **Centros de administración** > **Skype Empresarial >** **Voz**.
+Hay tres maneras de obtener nuevos números de usuario:
 
-    > [!IMPORTANT] 
-    > Para que poder ver la opción de **voz** en la exploración de la izquierda en el Skype para el centro de administración de negocios, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia del módulo de **Sistema de teléfono** o al menos una **licencia Enterprise E5**.
-   
-4. Choose **Phone numbers**. You'll see how many **Phone System** licenses you have, to give you an idea how many phone numbers to request.
+- **Utilice el Skype para el centro de administración de negocios.** Para algunos países o regiones, puede obtener los números de los puentes de conferencia usando el Skype para el centro de administración de negocios, vea [números de teléfono del servicio de obtención](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
     
-    > [!TIP]
-    > Puede adquirir varios números de teléfono, sin importar que tenga una cantidad menor de licencias. Para determinar cuántos números de teléfono pueden adquirirse, agregue el 10 % de las licencias y después 10 más. Por ejemplo, si adquirió 100 licencias, puede adquirir 120 números de teléfono. Consulte [cuántos números puedo conseguir?](how-many-phone-numbers-can-you-get.md) 
+- **Los números existentes de puerto.** Puede trasladar o transferir números existentes desde su actual proveedor de servicios o la compañía de teléfono para Office 365. Consulte [transferir números de teléfono a Office 365](transfer-phone-numbers-to-office-365.md) o [administrar números de teléfono de la organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obtener más información para ayudarle a hacerlo.  
   
-5. Choose **Add new number** > **New user numbers**, and on the **Add new user numbers** page, choose the country/region, state/region, and city that you want to select numbers from.
-    
-6.  En **Cantidad**, escriba la cantidad de números de teléfono que desea para su organización desde esta área y, a continuación, haga clic en **Agregar** para crear una reserva.
-    
-    > [!CAUTION]
-    > Tiene 10 minutos para seleccionar los números de teléfono. Después de 10 minutos, los teléfonos se devuelven al grupo de teléfonos de Office 365. 
-  
-    En la siguiente imagen, puede ver que agregué números de teléfono para dos ciudades diferentes y que me quedan 9 minutos para adquirirlos. 
-    
-     ![At the Add user numbers page, specify the area where you want to get the numbers for.](../images/f6dc1ef3-0bf2-4b4f-b32c-ca27e69c5553.png)
-  
-7. Puede elegir **Mostrar números** para ver la lista completa de números de teléfonos. Esto es útil si no quiere un número de teléfono específico de la lista.
-    
-8. Seleccione los números de teléfono que desee y elija **Adquirir números**.
-    
-9. Volverá a la página Voz en la que verá todos los números de teléfono adquiridos.
-    
-    ![At the Voice dashboard, you'll see all the phone numbers you acquired.](../images/4a9c681c-13f9-4cdc-a25b-93eb00d06b6c.png)
-  
-## <a name="step-3-add-emergency-addresses-and-locations-for-your-organization"></a>Paso 3: Agregar direcciones y ubicaciones de emergencia para la organización
+- **Utilizar un formulario de solicitud para nuevos números.** A veces (dependiendo de su país o región) no podrá obtener sus números de teléfono de nuevo usando el Skype para el centro de administración de negocios o necesita determinados números de teléfono o códigos de área. En ese caso, tendrá que descargar un formulario y enviárnoslo. Para obtener más información, vea [administrar números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) . 
+
+
+## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>Paso 4: Agregue direcciones de emergencia y ubicaciones para su organización
 <a name="bkmk_add_addresses"> </a>
 
-1. En la página **Voz**, elija **Ubicaciones de emergencia** > **Agregar**.
+Una dirección de emergencia debe estar asociada con un número de teléfono; Cuando sucede esta asociación puede variar entre los países y regiones. Por ejemplo, en los Estados Unidos, debe asociar una dirección de emergencia cuando se asigna el número de teléfono al usuario. En el Reino Unido, debe asociar una dirección al número de teléfono de emergencia al obtener los números de teléfono de Office 365 o transferir números de teléfono de su proveedor de servicio actual. 
+
+Para agregar una dirección de emergencia para su organización, en el Skype para el centro de administración de negocios vaya a **voz** > **ubicaciones de emergencia** > **Agregar nueva dirección**. Para obtener más información, vea [Add o remove y dirección de emergencia para su organización](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md) .
+
+Para agregar una ubicación de emergencia para su organización en el Skype para el centro de administración de negocios, vaya a **voz** > **ubicaciones de emergencia** > **Agregar nueva dirección**. Para obtener información detallada, vea [Agregar, cambiar o quitar una ubicación de emergencia para su organización](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md) .
+
     
-2. En el panel **Nueva dirección**, introduzca un nombre para la dirección y, a continuación, complete los cuadros restantes.
-    
-     ![When you enter a new emergency address, the formatting of the street name might cause an error.](../images/dc1c5ef3-0554-4fb7-9ab1-5ea3ac9e5eb5.png)
-  
-    > [!TIP]
-    > Para los clientes que hablan inglés, si el nombre de la calle es un número, asegúrese de incluir "st" o "th" al final, como se muestra en la imagen anterior. 
-  
-3. Elija **Validar**.
-    
-    Si es necesario, se le pedirá que realice correcciones a la dirección. 
-    
-    > [!CAUTION]
-    > Validar una dirección civil o postal implica asegurarse de que sea legítima y tenga el formato correcto. Es posible que una dirección de emergencia parcialmente correcta, por ejemplo con el nombre de la ciudad mal escrito, pueda seguir pasando como válida. Incluso si está mal escrita, pero pasó la validación, la combinación del nombre de la ciudad mal escrito junto con las demás partes correctas de la dirección constituye información suficiente para dirigir la llamada al centro de distribución emergencia correspondiente. 
-  
-    > [!TIP]
-    > Si es necesario corregir la dirección para una respuesta de emergencia, se mostrará un banner verde que le informa que la dirección se ha actualizado. 
-  
-4. Después de validar la dirección, elija **Guardar**.
-    
-## <a name="step-4-assign-phone-numbers-and-emergency-addresses-to-users"></a>Paso 4: Asignar números de teléfono y direcciones de emergencia a los usuarios
+## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>Paso 5: Asignar una dirección de emergencia y un número de teléfono a un usuario
 <a name="bkmk_add_addresses"> </a>
 
-> [!TIP]
-> Si agrega más personas a la empresa justo antes de realizar este paso, es posible que demoren **varias horas** en aparecer en la página **Usuarios de voz**. Existe latencia.
-  
-1. En la página **Usuarios de voz**, elija la persona a la que quiera asignar un número de teléfono y una dirección de emergencia.
+Cuando configura una llamada a planes de Office 365, debe asignar un número de teléfono y dirección de emergencia a cada uno de los usuarios. Debe crear la dirección de emergencia antes de asociarlo con un número de teléfono. 
+
+Para agregar una dirección de emergencia para un usuario en el Skype para el centro de administración de negocios, vaya a **voz** > **usuarios de voz** > **ubicación de emergencia** > **Asignar número** > **Cambiar ubicación**. Para obtener más información, vea [asignar o cambiar una dirección de emergencia para un usuario](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md) .
+
+   > [!NOTE]
+   > También puede asignar una dirección de emergencia cuando se asigna un número de teléfono.
+
+Para asignar un número de teléfono a un usuario en el Skype para el centro de administración de negocios, vaya a **voz** > **usuarios de voz** > **Asignar número** > **Cambiar ubicación**. Para obtener más información, vea [asignar, cambiar o quitar un número de teléfono de un usuario](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md) .
+
     
-2. Elija **Asignar número**.
-    
-3. En la página **Asignar número**, en el menú desplegable **Seleccione el número que desea asignar**, seleccione el número de teléfono para el usuario.
-    
-4. Para seleccionar una dirección de emergencia, escriba el nombre de la ciudad en el cuadro **Buscar ciudad** y elija Buscar.
-    
-    > [!IMPORTANT]
-    > Si se encuentra fuera de los Estados Unidos, los números ya tienen una dirección de emergencia, pero puede cambiarla ahora. Consulte [Asignar o cambiar la dirección de emergencia de un usuario](assign-or-change-an-emergency-address-for-a-user.md). 
-  
-5. Después de asignar el número de teléfono y la dirección de emergencia, elija **Guardar**.
-    
-## <a name="step-5-tell-your-users-about-their-new-phone-numbers"></a>Paso 5: Informar a los usuarios sus números de teléfono nuevos
+## <a name="step-6-tell-your-users-about-their-new-phone-numbers"></a>Paso 6: Indique a los usuarios acerca de sus nuevos números de teléfono
 <a name="bkmk_add_addresses"> </a>
 
 Recomendamos enviar correo o usar el método de comunicación preferido de su empresa para informar a sus miembros los nuevos números de teléfono. 
@@ -150,7 +108,7 @@ En los **Equipos de Microsoft**, los usuarios pueden ver su número de teléfono
     
 - Las ubicaciones de emergencia no se validan, solo se validan las direcciones de emergencia.
     
-- Si quiere más información sobre las direcciones de emergencia, vea [¿Qué son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?](what-are-emergency-locations-addresses-and-call-routing.md)
+- Si quiere más información sobre las direcciones de emergencia, vea [¿Qué son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?](../what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing.md)
     
 ## <a name="do-you-want-to-automate-assigning-phone-numbers"></a>¿Quiere automatizar la asignación de números de teléfono?
 <a name="bkmk_add_addresses"> </a>
@@ -163,8 +121,8 @@ Si tiene experiencia con Windows PowerShell, puede usar los siguientes cmdlets p
     
 Para obtener más información, consulte [Referencia rápida:Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](https://technet.microsoft.com/en-us/library/dn362776%28v=ocs.15%29.aspx).
   
-    > [!NOTE]
-    > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+   > [!NOTE]
+   > Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
@@ -178,7 +136,7 @@ Para obtener más información, consulte [Referencia rápida:Usar Windows PowerS
 
 [Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)
 
-[Skype Empresarial Online: etiqueta de declinación de responsabilidades en llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>¿Comentarios?
-Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).
+  
+ 

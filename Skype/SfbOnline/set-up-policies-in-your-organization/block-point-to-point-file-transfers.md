@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "En Skype para los negocios en línea, tiene capacidad para controlar a las transferencias de archivos punto a punto (P2P) como parte de la configuración de directivas de conferencia existente. Sin embargo, esto permite o bloquea las transferencias para los usuarios si están transfiriendo archivos a un usuario que pertenezca a la misma organización o a un usuario federado de otra organización de archivos. Siguiendo los pasos siguientes, puede bloquear a las transferencias de archivos P2P con organizaciones federadas o asociados."
-ms.openlocfilehash: 288bec32d55d9784690d84b8daa205dd33568847
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: En Skype para los negocios en línea, tiene capacidad para controlar a las transferencias de archivos punto a punto (P2P) como parte de la configuración de directivas de conferencia existente. Sin embargo, esto permite o bloquea las transferencias para los usuarios si están transfiriendo archivos a un usuario que pertenezca a la misma organización o a un usuario federado de otra organización de archivos. Siguiendo los pasos siguientes, puede bloquear a las transferencias de archivos P2P con organizaciones federadas o asociados.
+ms.openlocfilehash: 8e3fd112d46a88752b0d6d19cf2e1fbb1787df32
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="block-point-to-point-file-transfers"></a>Transferencias de archivos punto a punto de bloque
 
@@ -125,3 +125,5 @@ Puede aplicar a un usuario mediante la creación de una nueva directiva y conced
 
 [Configurar directivas de la conferencia de la organización](set-up-conferencing-policies-for-your-organization.md)
 
+  
+ 

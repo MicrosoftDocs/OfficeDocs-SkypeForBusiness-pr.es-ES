@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Tailandia."
-ms.openlocfilehash: 46a7dcdd85ca73b0e3fd5c239feca7ee57b18dae
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Tailandia.
+ms.openlocfilehash: f9e88c4035b6f17cc32dc788cd2c6b0c8f77af60
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-thailand"></a>Disponibilidad de Tailandia
 
@@ -83,3 +83,5 @@ Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para s
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Obtener números de teléfono de servicio"
+title: Obtener números de teléfono de servicio
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: e434aeb2-af99-40e7-981e-a474f0383734
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "Además de obtener números de teléfono para los usuarios de Office 365, puede buscar y adquirir el número o números de teléfono gratuitos para servicios tales como colas de llamada (también denominadas números de servicio), operadores automáticos y conferencias de audio (para puentes de conferencia). Los números de teléfono de servicio tienen una mayor capacidad de llamadas simultáneas que los números de teléfono de usuario o suscriptor."
-ms.openlocfilehash: 16b152fd738b76f0abcfe7e93f2e6a43a2ac55bb
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Además de obtener números de teléfono para los usuarios de Office 365, puede buscar y adquirir el número o números de teléfono gratuitos para servicios tales como colas de llamada (también denominadas números de servicio), operadores automáticos y conferencias de audio (para puentes de conferencia). Los números de teléfono de servicio tienen una mayor capacidad de llamadas simultáneas que los números de teléfono de usuario o suscriptor.
+ms.openlocfilehash: 9de4029d38d661ff6e95bbf999146931cda6406b
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="getting-service-phone-numbers"></a>Obtener números de teléfono de servicio
 
@@ -85,3 +87,6 @@ Si quiere transferir números de servicio de su proveedor de servicios u operado
 [Esto es lo que conseguirá con Sistema telefónico en Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+  
+ 

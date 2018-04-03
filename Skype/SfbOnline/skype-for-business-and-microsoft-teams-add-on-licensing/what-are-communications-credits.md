@@ -1,5 +1,5 @@
 ---
-title: "¿Qué son los créditos de comunicaciones?"
+title: ¿Qué son los créditos de comunicaciones?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 524dbea7-117f-493d-8005-6461f7f10059
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Licensing
 - Strat_SB_PSTN
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 604fb504d54ffb2721e82cac6364629b04feea15
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 4c8cb1ccd2cbccb176f0b362592dfd08bc952bb2
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-are-communications-credits"></a>¿Qué son los créditos de comunicaciones?
 
@@ -96,3 +98,6 @@ Para ver una tabla con la licencia o licencias que necesitará para cada funció
   
 ## <a name="related-topics"></a>See also
 [Informe de uso de RTC de Skype Empresarial](../skype-for-business-online-reporting/pstn-usage-report.md)
+
+  
+ 

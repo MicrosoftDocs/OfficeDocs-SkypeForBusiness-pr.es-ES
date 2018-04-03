@@ -1,5 +1,5 @@
 ---
-title: "Activar o desactivar las notificaciones del teléfono móvil"
+title: Activar o desactivar las notificaciones del teléfono móvil
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ f1keywords:
 - ms.lync.lac.OrgMobileNotification
 ms.custom:
 - Setup
-description: "Aprenda a activar las notificaciones de teléfono móvil o desactivar para que los usuarios pueden recibir alertas de correo de voz entrante y perdida de mensajes instantáneos."
-ms.openlocfilehash: bd1c72f4c67b093db2970be3eae17c31149404e2
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Aprenda a activar las notificaciones de teléfono móvil o desactivar para que los usuarios pueden recibir alertas de correo de voz entrante y perdida de mensajes instantáneos.
+ms.openlocfilehash: 111d225b77c735dcf139a207f7c338cd228c873f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Activar o desactivar las notificaciones del teléfono móvil
 
@@ -56,3 +56,5 @@ Tenga en cuenta:
 
 [Configurar Skype Empresarial Online](set-up-skype-for-business-online.md)
 
+  
+ 

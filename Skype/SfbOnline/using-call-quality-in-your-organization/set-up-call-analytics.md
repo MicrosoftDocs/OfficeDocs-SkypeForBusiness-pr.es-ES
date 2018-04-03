@@ -6,7 +6,7 @@ manager: serdars
 ms.reviewer: mikedav, wlooney
 ms.date: 01/22/2018
 ms.topic: article
-ms.assetid: 
+ms.assetid: ''
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Configurar y utilizar Analytics llame a identificar y solucionar los problemas de calidad empresarial y Teams de Microsoft llamada de Skype.
-ms.openlocfilehash: ef8f9e10e25e7f67f0161a143c313ed25330db18
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 0169d8e2008ce0d87f4ee666663d4d8ccb71d1b8
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-skype-for-business-call-analytics"></a>Configurar Skype para llamar de Business Analytics
 
@@ -72,7 +72,7 @@ Los agentes de asistencia de nivel 1 controlen problemas básicos de calidad de 
     
      ![Captura de pantalla muestra los permisos de página llame Analytics con las opciones de permisos de nivel 1 y nivel 2.](../images/ed5b6b05-b407-4363-8cf0-a6e79027f64b.png)
   
- Los usuarios con cualquiera de estos niveles de permiso obtener Analytics llame a través de la dirección URL dedicado *https://adminportal.services.skypeforbusiness.com*.
+ Los usuarios con cualquiera de estos niveles de permiso llegar a llamar análisis a través de la dirección URL dedicada *https://adminportal.services.skypeforbusiness.com*.
   
 ## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>Cargue un archivo TSV o CSV para agregar creación de sitio y la información de inquilinos
 <a name="BKMK_UploadFiles"> </a>
@@ -92,5 +92,5 @@ Si está creando el archivo TSV o CSV desde el principio, vea [formato y estruct
 
 [Diferencia entre el análisis de llamadas y el Panel de calidad de llamadas](difference-between-call-analytics-and-call-quality-dashboard.md)
 
-## <a name="feedback"></a>¿Comentarios?
-Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).
+  
+ 

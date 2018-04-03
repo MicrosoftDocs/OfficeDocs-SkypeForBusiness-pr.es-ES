@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Aquí están disponibles para Bosnia y Herzegovina los servicios de Office 365 para Skype para empresas y Teams de Microsoft."
-ms.openlocfilehash: 0e5d37a9def0980b16379443b94d0e295372f30e
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Aquí están disponibles para Bosnia y Herzegovina los servicios de Office 365 para Skype para empresas y Teams de Microsoft.
+ms.openlocfilehash: 2c31d018b623ae53d5775ce1180507e77c3ce536
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>Disponibilidad en Bosnia &amp; Herzegovina
 
@@ -82,5 +82,4 @@ Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para s
 [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
 

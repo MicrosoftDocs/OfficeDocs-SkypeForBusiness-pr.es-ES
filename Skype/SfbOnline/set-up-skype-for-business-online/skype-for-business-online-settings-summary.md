@@ -1,5 +1,5 @@
 ---
-title: "Resumen de configuración de Skype Empresarial Online"
+title: Resumen de configuración de Skype Empresarial Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ ROBOTS: NOIDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Setup
-description: "Este resumen de Skype para la configuración de usuario y organización de negocios puede ayudarle a obtener más información acerca de la conectividad con IM pública, las invitaciones a reuniones, llamadas y reuniones y mucho más.  "
-ms.openlocfilehash: e537074bea8d8243cbb4d951580c4432620ce539
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Este resumen de Skype para la configuración de usuario y organización de negocios puede ayudarle a obtener más información acerca de la conectividad con IM pública, las invitaciones a reuniones, llamadas y reuniones y mucho más.  '
+ms.openlocfilehash: f730b18110f4c114ebb414a2aa863a9194b427a0
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Resumen de configuración de Skype Empresarial Online
 
@@ -57,5 +57,5 @@ El **Skype para el centro de administración de negocios** incluye configuració
 
 [Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>¿Comentarios?
-Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).
+  
+ 

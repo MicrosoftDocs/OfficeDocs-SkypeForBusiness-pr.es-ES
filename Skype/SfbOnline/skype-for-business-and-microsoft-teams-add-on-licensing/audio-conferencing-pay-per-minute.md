@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 - Strat_SB_PSTN
-description: "Además de la licencia de cada usuario estándar de conferencias de Audio, volumen y licencias de las organizaciones pueden elegir una oferta de pago por minuto para habilitar capacidades de conferencia de Audio para sus organizaciones."
-ms.openlocfilehash: 8c61f9057f79bebc797c0691b4b89996d851d83d
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: Además de la licencia de cada usuario estándar de conferencias de Audio, volumen y licencias de las organizaciones pueden elegir una oferta de pago por minuto para habilitar capacidades de conferencia de Audio para sus organizaciones.
+ms.openlocfilehash: 4fbf487a0a20476bfc05f2287478e51871d3c899
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audio conferencia pago por minuto
 
@@ -67,10 +67,8 @@ Para habilitar la conferencia de Audio pago por minuto para los usuarios de su o
 - [Para llamar a los planes de precios](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
     
 ## <a name="related-topics"></a>See also
-
-[Conferencias de acceso telefónico en Office 365](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
   
 Puede obtener más información en [Conferencias de acceso telefónico en Office 365](skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-## <a name="feedback"></a>¿Comentarios?
-Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).
+  
+ 

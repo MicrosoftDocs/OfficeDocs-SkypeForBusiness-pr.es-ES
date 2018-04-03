@@ -1,5 +1,5 @@
 ---
-title: "¿Qué debería colocar en el número de cuenta?"
+title: ¿Qué debería colocar en el número de cuenta?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoAccountNumber
 ms.custom:
 - Calling Plans
-description: "Vea lo que se debe incluir como un número de cuenta en Skype para el negocio y donde encontrará. "
-ms.openlocfilehash: 1853e8c6d63db37d89f41c49a6302d2f765a0302
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Vea lo que se debe incluir como un número de cuenta en Skype para el negocio y donde encontrará. '
+ms.openlocfilehash: 14a95d5f4061216fbf0dfef077bdac9ac4294206
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-should-i-put-in-for-the-account-number"></a>¿Qué debería colocar en el número de cuenta?
 
@@ -48,4 +48,5 @@ Normalmente, puede encontrar el número de cuenta en cualquier factura o factura
 
 [Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-
+  
+ 

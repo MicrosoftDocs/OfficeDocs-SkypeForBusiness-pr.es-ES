@@ -1,5 +1,5 @@
 ---
-title: "Skype del usuario para el plan de servicio de los negocios en línea no es válido"
+title: Skype del usuario para el plan de servicio de los negocios en línea no es válido
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords:
 - ms.lync.lac.ServicePlanNotValid
 ms.custom:
 - Setup
-description: "Vea dónde asignar un plan de servicio válido para un usuario después de un Skype para el plan de servicio de los negocios en línea no válido error. "
-ms.openlocfilehash: d109386134afdca9641eac6b5f9c9b2aad1f45c1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Vea dónde asignar un plan de servicio válido para un usuario después de un Skype para el plan de servicio de los negocios en línea no válido error. '
+ms.openlocfilehash: f7a68154d3b81e8f7108f147d1016466f71a924a
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>Skype del usuario para el plan de servicio de los negocios en línea no es válido
 
@@ -36,4 +36,5 @@ Ir al **Centro de administración de Office 365** > **usuarios activos** y asign
 
 [Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype](let-skype-for-business-users-add-skype-contacts.md)
   
-
+  
+ 

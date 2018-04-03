@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: En este artículo se describe cómo configurar el dispositivo de consola de los Sistemas de sala de Skype v2 y sus periféricos.
-ms.openlocfilehash: 6ca029fa7f5560dfdfebd789938d9b53ff2e9abc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6e2ec8384387cefd074342abb3da316288af1f0f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Configurar una consola de Sistemas de salas de Skype v2
  
@@ -70,13 +70,9 @@ En este momento, deberá aplicar la imagen que ha creado. La tableta se ejecutar
     
 5. Cuando se inicie la instalación de Windows, suelte el botón de reducción de volumen (-).
     
-6. Cuando el dispositivo de los sistemas de salas de Skype v2 se inicia por primera vez, su comportamiento dependerá de qué versión de Sysprep.exe que se utiliza en el archivo AutoUnattend.xml (vea el paso 7 de [Preparar la imagen de instalación](console.md#Prep_Image)):
+6. El sistema se cerrará una vez completada la instalación.
     
-   - Si se habilitó la versión /shutdown del comando, el sistema continuará con la instalación y eventualmente se apagará. Una vez que se apague, puede arrancar en los medios externos que contienen Windows PE y usar DISM para instalar paquetes de idioma, aplicar imágenes, capturar la imagen de referencia del equipo o llevar a cabo otras acciones.
-    
-   - Si se habilitó la versión /reboot del comando, el sistema continuará con la instalación y eventualmente le solicitará al usuario que seleccione la configuración regional. Tras realizar esta selección, se iniciará el dispositivo v2 de sistemas de salas de Skype en su proceso de inicio. Vea [Configuración inicial de la consola](console.md#Initial).
-    
-Una vez que se haya apagado o reiniciado el sistema, podrá extraer con seguridad el disco de instalación USB. En este momento, puede colocar la tableta en el dock y conectar los periféricos necesarios para la sala de reunión. Consulte las instrucciones del fabricante.
+Después de que el sistema se cierra, es seguro retirar el disco de instalación de USB. En este momento, puede colocar la tableta en el dock y conectar los periféricos necesarios para la sala de reunión. Consulte las instrucciones del fabricante.
   
  
 ### <a name="selecting-a-language-in-creators-update"></a>Selecciona un idioma en la actualización del creador

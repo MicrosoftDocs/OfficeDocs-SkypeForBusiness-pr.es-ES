@@ -1,5 +1,5 @@
 ---
-title: "¿Por qué tengo problemas al entrar en el Reino Unido ¿información de la dirección?"
+title: ¿Por qué tengo problemas al entrar en el Reino Unido ¿información de la dirección?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.CivicAddressGBSyntaxError
 ms.custom:
 - Calling Plans
-description: "Aquí están algunas de las razones por qué puede que tenga problemas para obtener su dirección o direcciones para validar correctamente en el Reino Unido (Reino Unido)."
-ms.openlocfilehash: 6f77a9f69751df04d995c098768d99d85a6e2c70
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Aquí están algunas de las razones por qué puede que tenga problemas para obtener su dirección o direcciones para validar correctamente en el Reino Unido (Reino Unido).
+ms.openlocfilehash: 75373098af599768aa654f5327c1f40069ed51c7
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>¿Por qué tengo problemas al entrar en el Reino Unido ¿información de la dirección?
 
@@ -117,3 +117,6 @@ Si tienes algún problema al introducir el código postal, recuerde:
 [Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)
 
 [Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
+ 

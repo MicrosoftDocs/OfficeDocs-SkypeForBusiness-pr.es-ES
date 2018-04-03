@@ -1,5 +1,5 @@
 ---
-title: "Correos electrónicos enviados a los usuarios cuando cambia su configuración"
+title: Correos electrónicos enviados a los usuarios cuando cambia su configuración
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 1b46da6d-f93a-4cc0-9ae8-af765935b007
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn about what information is sent automatically to users by email when their dial-in conferencing settings change. '
-ms.openlocfilehash: ccc95e8cee5f4db1729423bc7a1bccecf87ac121
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: f504e9b807afb4a587a9d6f13baf69a3c5b9db68
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="emails-sent-to-users-when-their-settings-change"></a>Correos electrónicos enviados a los usuarios cuando cambia su configuración
 
@@ -71,7 +73,7 @@ De forma predeterminada, hay cuatro tipos de correo electrónico que se enviará
     
     Esto ocurre cuando se quita la licencia de **Conferencia de Audio** de un usuario o al cambiar el proveedor de conferencia de audio de un usuario de Microsoft a un proveedor de conferencia de audio de terceros o cuando se configura el proveedor como **Ninguno**. Este correo electrónico contiene las instrucciones y la información del usuario utilizar el Skype para la herramienta de actualización de reunión en línea de negocio para quitar la información específica de conferencias de audio, como el ID predeterminado conferencia telefónica número o conferencia.
     
-    Consulte [asignar o quitar licencias para Office 365 para el negocio](https://support.office.com/en-us/article/997596b5-4173-4627-b915-36abac6786dc) o [asignar un tercero como el proveedor de conferencia de audio](assign-a-third-party-as-the-audio-conferencing-provider.md).
+    Consulte [Asignar o cancelar licencia para Office 365 para empresas](https://support.office.com/en-us/article/997596b5-4173-4627-b915-36abac6786dc).
     
     Este es un ejemplo de este correo electrónico:
     
@@ -162,4 +164,3 @@ Si quiere cambiar la información de la dirección de correo electrónico, tendr
 [Habilitar o deshabilitar el envío de correos electrónicos cuando cambie la configuración de conferencias de Audio](enable-or-disable-sending-emails-when-their-settings-change.md)
   
 [Enviar un correo electrónico a un usuario con su información de conferencias de Audio](send-an-email-to-a-user-with-their-dial-in-information.md)
-

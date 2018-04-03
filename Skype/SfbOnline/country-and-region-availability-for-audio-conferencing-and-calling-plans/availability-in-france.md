@@ -23,10 +23,10 @@ ms.custom:
 - Calling Plans
 description: Presentamos los servicios de Office 365 para Skype para empresas y Teams de Microsoft para Francia.
 ms.openlocfilehash: b75594d18259155a2480487b64eb33767d53e69f
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-france"></a>Disponibilidad en Francia
 

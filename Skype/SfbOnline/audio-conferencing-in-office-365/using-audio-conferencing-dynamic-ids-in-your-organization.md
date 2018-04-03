@@ -1,5 +1,5 @@
 ---
-title: "Uso de los identificadores de conferencia de Audio dinámicos en su organización"
+title: Uso de los identificadores de conferencia de Audio dinámicos en su organización
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Se está actualizando el servicio de conferencia de Audio para proporcionar cada Skype para reunión de negocios y Teams de Microsoft con identificadores de conferencia diferente. Identificadores de conferencia dinámicas suponen una mejora significativa sobre conferencia estática IDs, ya que proporcionan:"
-ms.openlocfilehash: c4158537f7c36299a82df92d3c6ced6cb6189315
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: 'Se está actualizando el servicio de conferencia de Audio para proporcionar cada Skype para reunión de negocios y Teams de Microsoft con identificadores de conferencia diferente. Identificadores de conferencia dinámicas suponen una mejora significativa sobre conferencia estática IDs, ya que proporcionan:'
+ms.openlocfilehash: 418e6f486b8108791930c7843bfed8bdc56e83ef
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="using-audio-conferencing-dynamic-ids-in-your-organization"></a>Uso de los identificadores de conferencia de Audio dinámicos en su organización
 
@@ -61,7 +61,5 @@ Estos ejemplos muestran la nueva experiencia de dos Skype para reuniones de nego
 ## <a name="related-topics"></a>See also
 
 - [Configurar Skype Empresarial Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-    
-- [Configurar conferencias de Audio de Skype para la empresa y Teams de Microsoft](set-up-audio-conferencing.md)
     
 - Puede obtener más información en [Conferencias de acceso telefónico en Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).

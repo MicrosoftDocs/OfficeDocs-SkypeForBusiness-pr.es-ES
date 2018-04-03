@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "Skype para los negocios en línea le permite crear directivas de acceso externo adicional. A diferencia de las directivas de cliente o conferencias, donde es posible tener varias combinaciones, hay tres directivas predefinidas de acceso externo que pueden cubrir la mayoría de los escenarios."
-ms.openlocfilehash: 8ed4549aa1b32ccfb13bda559394e6aa79ab47ed
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Skype para los negocios en línea le permite crear directivas de acceso externo adicional. A diferencia de las directivas de cliente o conferencias, donde es posible tener varias combinaciones, hay tres directivas predefinidas de acceso externo que pueden cubrir la mayoría de los escenarios.
+ms.openlocfilehash: 6eb0d9ecd3eaacc34e8392bbd32329c801505c34
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="create-custom-external-access-policies"></a>Crear directivas personalizadas de acceso externo
 
@@ -116,5 +116,5 @@ Para ello, ejecute:
 
 [Configurar directivas de la conferencia de la organización](set-up-conferencing-policies-for-your-organization.md)
 
-## <a name="feedback"></a>¿Comentarios?
-Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "¿Cuántos números de teléfono pueden obtener?"
+title: ¿Cuántos números de teléfono pueden obtener?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Al obtener números de teléfono para su organización, puede obtener más números de teléfono que los que le corresponden por las licencias que tiene asignadas. Sin embargo, esto depende de los tipos de números de teléfono y del tipo de licencias que ha adquirido y asignado. Puede hacer clic en los distintos tipos de números de teléfono utilizados para llamar a los planes para obtener información sobre los números de teléfono diferentes que se usan en Skype para los negocios en línea."
-ms.openlocfilehash: 51b6276c5bc29b978b3a77b28c09529e621e8e0c
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: Al obtener números de teléfono para su organización, puede obtener más números de teléfono que los que le corresponden por las licencias que tiene asignadas. Sin embargo, esto depende de los tipos de números de teléfono y del tipo de licencias que ha adquirido y asignado. Puede hacer clic en los distintos tipos de números de teléfono utilizados para llamar a los planes para obtener información sobre los números de teléfono diferentes que se usan en Skype para los negocios en línea.
+ms.openlocfilehash: 729f99b2b0f0a3507c6ecba0e119fe12083ac6c2
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>¿Cuántos números de teléfono pueden obtener?
 
@@ -59,5 +59,5 @@ Puede ver la cantidad de números de teléfono que puede obtener en la página d
 
 [Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>¿Comentarios?
-Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).
+  
+ 

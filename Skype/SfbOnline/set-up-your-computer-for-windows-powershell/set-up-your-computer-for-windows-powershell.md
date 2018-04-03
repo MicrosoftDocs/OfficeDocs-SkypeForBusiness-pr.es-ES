@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: "Averigüe los requisitos para la administración remota de Skype para el negocio en línea a través de Windows PowerShell, incluidos los sistemas operativos compatibles."
-ms.openlocfilehash: 964a2263fed0984a6e0ed7efc982a9a76021b3f1
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Averigüe los requisitos para la administración remota de Skype para el negocio en línea a través de Windows PowerShell, incluidos los sistemas operativos compatibles.
+ms.openlocfilehash: 16ff297e7a7730bdba9a0172efe6d1c559f3050e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Configurar un equipo de Windows PowerShell
 
@@ -56,5 +56,5 @@ Puede encontrar información acerca de cómo descargar e instalar estos elemento
 ## <a name="related-topics"></a>See also
 [Diagnosticar problemas de conexión con el Skype para business connector en línea](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
-## <a name="feedback"></a>¿Comentarios?
-Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Administrar Skype para las organizaciones de negocios en línea"
+title: Administrar Skype para las organizaciones de negocios en línea
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: "Uso de Windows PowerShell y los cmdlets Get-CsTenant y Get-CsTenantLicensingConfiguration para obtener información sobre su Skype para inquilinos de negocios en línea."
-ms.openlocfilehash: 484911da152ce4bd8f682321575c0cfecafd4e73
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Uso de Windows PowerShell y los cmdlets Get-CsTenant y Get-CsTenantLicensingConfiguration para obtener información sobre su Skype para inquilinos de negocios en línea.
+ms.openlocfilehash: 53043fbf623ce2cc7342bf5ac7b32c363927def5
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>Administrar Skype para las organizaciones de negocios en línea
 
@@ -47,3 +47,6 @@ Para obtener más información acerca de si la información de licencia para el 
   
 ## <a name="related-topics"></a>See also
 [Configurar el equipo de Skype para la administración de negocios en línea mediante Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+
+  
+ 

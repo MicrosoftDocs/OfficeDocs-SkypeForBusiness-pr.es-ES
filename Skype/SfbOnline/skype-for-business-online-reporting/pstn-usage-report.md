@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: "El nuevo Skype para el área del centro de administración de negocio informes muestra realiza la llamada y audio conferencia actividad en su organización. Permite profundizar en los informes para brindar información más detallada acerca de las actividades de cada usuario. Por ejemplo, puede usar el informe Detalles de uso de RTC de Skype Empresarial para ver el número de minutos dedicados a llamadas entrantes y salientes, así como el coste de dichas llamadas. Puede ver los detalles del uso de PSTN de conferencia de Audio incluyendo el costo de la llamada para que pueda comprender su uso y llame a los detalles de facturación para determinar el uso dentro de la organización."
-ms.openlocfilehash: af7e33bc2cdc69d244eed1574ef5a075884f550d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: El nuevo Skype para el área del centro de administración de negocio informes muestra realiza la llamada y audio conferencia actividad en su organización. Permite profundizar en los informes para brindar información más detallada acerca de las actividades de cada usuario. Por ejemplo, puede usar el informe Detalles de uso de RTC de Skype Empresarial para ver el número de minutos dedicados a llamadas entrantes y salientes, así como el coste de dichas llamadas. Puede ver los detalles del uso de PSTN de conferencia de Audio incluyendo el costo de la llamada para que pueda comprender su uso y llame a los detalles de facturación para determinar el uso dentro de la organización.
+ms.openlocfilehash: c71987882d9c09549a2efb194fa284afaf534f78
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="pstn-usage-report"></a>Informe de uso PSTN
 
@@ -91,8 +91,10 @@ Este es el aspecto del informe.
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>Haga clic para arrastrar una columna a **Para agrupar por una columna concreta, arrastre y coloque el encabezado de columna aquí** si desea crear una vista que agrupe todos los datos de una o más columnas.
  ***
-![Número 3](../images/sfbcallout3.png)<br/>También puede exportar los datos del informe a un archivo .csv de Excel haciendo clic o tocando pulsando en el botón **Exportar a Excel**. <br/><br/> De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar dentro de la tabla en el mismo informe. Si tiene más de 2000 usuarios, para ordenar y filtrar tendrá que exportar los datos.
-   
+![Número 3](../images/sfbcallout3.png)<br/>También puede exportar el informe de los datos en una ficha delimitado por archivo de Excel, haciendo clic o punteando en el botón **Exportar a Excel** . <br/><br/> De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar dentro de la tabla en el mismo informe. 
+    > [!Note] 
+    > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
+
 ## <a name="want-to-see-other-skype-for-business-reports"></a>¿Desea ver otros informes de Skype Empresarial?
 
 - [Skype para el informe de la actividad de negocio](activity-report.md) Puede ver cuánto los usuarios utilizan peer-to-peer, organizada y participó en sesiones de conferencia.
@@ -114,4 +116,5 @@ Este es el aspecto del informe.
 ## <a name="related-topics"></a>See also
 [Informes de actividades en el Centro de administración de Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
-
+  
+ 

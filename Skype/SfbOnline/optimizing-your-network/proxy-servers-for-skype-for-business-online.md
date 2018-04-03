@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
-description: "En este artículo se ofrecen algunas indicaciones sobre cómo usar un servidor proxy con Skype Empresarial."
-ms.openlocfilehash: 19c12ed4265c6549f00b54b3463215702d3ced2b
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: En este artículo se ofrecen algunas indicaciones sobre cómo usar un servidor proxy con Skype Empresarial.
+ms.openlocfilehash: 0f4d0b82eeaedd4b81ea84a8d8d3a67993d7be96
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="proxy-servers-for-skype-for-business-online"></a>Servidores proxy para Skype Empresarial Online
 
@@ -71,8 +71,11 @@ Para organizaciones que usen **soluciones del servidor proxy Bluecoat**, se ha p
     
 El soporte nativo de Bluecoat para Skype Empresarial se puede activar fácilmente, lo que permitirá identificar el tráfico relevante y gestionarlo correctamente. De este modo se garantiza una autenticación, señalización y un flujo de tráfico de medios óptimos para proporcionar una fantástica experiencia de usuario sin comprometer la seguridad.
     
-Consulte el siguiente vínculo si Proxy Bluecoat es una parte de la topología de red: https://support.symantec.com/en_US/article.DOC9757.html
+Consulte el siguiente vínculo si Proxy Bluecoat es una parte de la topología de red:https://support.symantec.com/en_US/article.DOC9757.html
 
 ## <a name="related-topics"></a>See also
 
 [Optimizar la red para Skype Empresarial Online](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
+
+  
+ 

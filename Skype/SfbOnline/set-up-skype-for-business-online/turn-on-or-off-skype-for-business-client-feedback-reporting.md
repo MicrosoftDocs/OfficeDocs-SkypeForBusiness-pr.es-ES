@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "Puede habilitar su Skype para utilizar el Skype integrado para la herramienta de comentarios de la aplicación empresarial para permitir a los usuarios enviar informes y proporcionar comentarios directamente a Microsoft sobre su experiencia de los usuarios de negocios."
-ms.openlocfilehash: c60057e2b303fb9265560754fb4bb2643685ac5c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Puede habilitar su Skype para utilizar el Skype integrado para la herramienta de comentarios de la aplicación empresarial para permitir a los usuarios enviar informes y proporcionar comentarios directamente a Microsoft sobre su experiencia de los usuarios de negocios.
+ms.openlocfilehash: d88ea4fc9f760def5ab7bb40efed9e1ebdfac2f0
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Activar o desactivar los informes de comentarios de clientes de Skype Empresarial
 
@@ -97,3 +97,6 @@ Para habilitar comentarios reporting para los usuarios de la organización y les
 [Configurar Skype Empresarial Online](set-up-skype-for-business-online.md)
 
 [Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype](let-skype-for-business-users-add-skype-contacts.md)
+
+  
+ 

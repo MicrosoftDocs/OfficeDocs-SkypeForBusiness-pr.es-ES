@@ -1,5 +1,5 @@
 ---
-title: "¿Qué debería colocar en la dirección de servicio?"
+title: ¿Qué debería colocar en la dirección de servicio?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoServiceAddress
 ms.custom:
 - Calling Plans
-description: "Obtenga información acerca de ¿cuál es la dirección del servicio, cómo difiere de la dirección de facturación y dónde puede encontrarlo. "
-ms.openlocfilehash: dc894bad87a232154207300b02e722e9d10626e6
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Obtenga información acerca de ¿cuál es la dirección del servicio, cómo difiere de la dirección de facturación y dónde puede encontrarlo. '
+ms.openlocfilehash: c5791e2bb48bc6fb8a42c1941ed3b6b225b22460
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-should-i-put-in-for-the-service-address"></a>¿Qué debería colocar en la dirección de servicio?
 
@@ -45,3 +45,6 @@ La dirección de servicio es diferente de la dirección de facturación o de eme
 [Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)
 
 [Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
+ 

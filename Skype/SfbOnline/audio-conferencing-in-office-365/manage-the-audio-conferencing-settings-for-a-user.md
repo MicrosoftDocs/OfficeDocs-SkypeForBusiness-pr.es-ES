@@ -1,5 +1,5 @@
 ---
-title: "Administrar la configuración de conferencia de Audio para un usuario"
+title: Administrar la configuración de conferencia de Audio para un usuario
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 0f39dc9d-eb60-4c5a-9ae3-e34a01834d9b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Como administrador de Office 365, puede editar la configuración de conferencia de Audio: como proveedor, pago predeterminado o número de teléfono gratuito, Id. de conferencia o PIN, para un usuario individual en la organización. Si desea editar la configuración de su organización, consulte Administrar la conferencia de Audio configuración para mi organización."
-ms.openlocfilehash: 81fe87e796a7b15942a1a3e309c72f733dec6104
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Como administrador de Office 365, puede editar la configuración de conferencia de Audio: como proveedor, pago predeterminado o número de teléfono gratuito, Id. de conferencia o PIN, para un usuario individual en la organización. Si desea editar la configuración de su organización, consulte Administrar la conferencia de Audio configuración para mi organización.'
+ms.openlocfilehash: cf9db4b2191b7b8152dc5c831b098de4143402b9
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user"></a>Administrar la configuración de conferencia de Audio para un usuario
 
@@ -58,8 +60,4 @@ Como administrador de Office 365, puede editar la configuración de conferencia 
 
 [Administrar la configuración de Audioconferencia para mi organización](manage-the-audio-conferencing-settings-for-my-organization.md)
 
-[Configurar conferencias de Audio de Skype para la empresa y Teams de Microsoft](set-up-audio-conferencing.md)
-  
 [Preguntas comunes sobre Audioconferencia](audio-conferencing-common-questions.md)
-  
-

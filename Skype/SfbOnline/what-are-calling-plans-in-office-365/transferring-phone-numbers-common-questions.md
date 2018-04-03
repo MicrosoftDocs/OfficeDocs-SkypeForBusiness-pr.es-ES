@@ -1,5 +1,5 @@
 ---
-title: "Transferencia de preguntas habituales de los números de teléfono"
+title: Transferencia de preguntas habituales de los números de teléfono
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Las siguientes son preguntas más frecuentes sobre la transferencia de números de teléfono a Skype para el negocio. Después de revisar las respuestas, debe ser preparado para crear una orden de puerto y transferir sus números de teléfono. Ver números de teléfono de transferencia a Office 365 para obtener instrucciones."
-ms.openlocfilehash: 3fe34a7c38fb8be206b0e3812674255d0593d188
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: Las siguientes son preguntas más frecuentes sobre la transferencia de números de teléfono a Skype para el negocio. Después de revisar las respuestas, debe ser preparado para crear una orden de puerto y transferir sus números de teléfono. Ver números de teléfono de transferencia a Office 365 para obtener instrucciones.
+ms.openlocfilehash: ce62365c337d94c05c7ca1b3ff1703cb39086f97
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Transferencia de preguntas habituales de los números de teléfono
 
@@ -176,7 +176,7 @@ Para transferir o *puerto a* números de teléfono de Skype para los negocios en
 
 [Términos y condiciones de las llamadas de emergencia](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
 
-[Skype Empresarial Online: etiqueta de declinación de responsabilidades en llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
   
-## <a name="feedback"></a>¿Comentarios?
-Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).
+  
+ 

@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: fd41934d-f2eb-4a1b-89d8-32cb37702b33
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 - Strat_SB_PSTN
-description: "Aprenda cómo asignar Skype para licencias profesionales para el sistema telefónico, conferencias de Audio, llamando a los planes y créditos de comunicaciones. "
-ms.openlocfilehash: a5cbc36d1b5ce5a7d79587df369b2d3bf3caacd6
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Aprenda cómo asignar Skype para licencias profesionales para el sistema telefónico, conferencias de Audio, llamando a los planes y créditos de comunicaciones. '
+ms.openlocfilehash: 12a26dc7b9ebd47ae10005afb66f23a8cb278237
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="assign-skype-for-business-and-microsoft-teams-licenses"></a>Asignar Skype para licencias de negocio y Teams de Microsoft
 
@@ -113,11 +115,7 @@ Los pasos son los mismos que se siguen para asignar una licencia de Office 365. 
 
 - **Proveedor de conferencia de audio de terceros**: si ya alguien está configurado para utilizar un proveedor de conferencia de audio de terceros, cuando se asigna una licencia de **Conferencias de Audio** , se modificarán para utilizar Microsoft como el conferencias de audio proveedor de servicios. Puede volver a cambiar al usuario al proveedor de terceros.
     
-- Próximos pasos: después de asignar licencias de **Conferencias de Audio** , debe asignar un proveedor de conferencia de audio. Realice una de las acciones siguientes:
-    
-  - [Asignar a Microsoft como proveedor de servicios de audioconferencia](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
-    
-  - O bien, [asignar un tercero como el proveedor de conferencia de audio](../audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider.md)
+- Próximos pasos: después de asignar licencias de **Conferencias de Audio** , debe asignar un proveedor de conferencia de audio. Consulte [asignar Microsoft como proveedor de conferencia de audio].
     
 ### <a name="how-to-assign-an-audio-conferencing-license-to-one-user"></a>Cómo asignar una licencia de conferencia de Audio a un usuario
 
@@ -199,10 +197,10 @@ Los pasos son los mismos que se siguen para asignar una licencia de Office 365. 
 Observemos la secuencia de comandos para asignar licencias de **Conferencia de Audio** . Para actualizarlo con la información de asignación de licencias de **Créditos de comunicaciones** .
   
 ## <a name="related-topics"></a>See also
-
-[Configurar conferencias de Audio de Skype para la empresa y Teams de Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
   
 [Configurar Planes de llamada](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
   
 [Agregar fondos y administrar Créditos de comunicaciones](add-funds-and-manage-communications-credits.md)
   
+  
+ 

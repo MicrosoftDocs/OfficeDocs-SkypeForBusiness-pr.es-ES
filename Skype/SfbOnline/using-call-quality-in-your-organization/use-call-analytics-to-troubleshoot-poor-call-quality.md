@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: "Utilizar detalles de llamar análisis sobre conectividad, redes y dispositivos para solucionar problemas de usuarios con Skype para llamadas de negocios y reuniones."
-ms.openlocfilehash: cbb728c14c58393a5ec71cc538ad958ba58fb947
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Utilizar detalles de llamar análisis sobre conectividad, redes y dispositivos para solucionar problemas de usuarios con Skype para llamadas de negocios y reuniones.
+ms.openlocfilehash: b7f900509506433bd2c863fb6c0c33c4f71f2ab5
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality"></a>Calidad de las llamadas uso llamar Analytics solucionar pobre Skype para empresas
 
@@ -46,7 +46,7 @@ Consulte su Skype para Business admin si necesita ayuda con los permisos.
   
  **Abrir llamar Analytics como un agente de asistencia de nivel 1 o nivel 2**
   
-1. Ir al centro de administración de Office 365 e inicie sesión con su cuenta de trabajo o escuela. A continuación, en el explorador web vaya a *https://adminportal.services.skypeforbusiness.com*.
+1. Ir al centro de administración de Office 365 e inicie sesión con su cuenta de trabajo o escuela. En el explorador web vaya al *https://adminportal.services.skypeforbusiness.com*.
     
 2. En **La búsqueda de usuarios**, empiece a escribir la dirección o el nombre o el sip del usuario cuyas llamadas que desee solucionar y, a continuación, seleccione el usuario de la lista.
     
@@ -77,5 +77,5 @@ Para las sesiones de audio con calidad de experiencia (QoE) datos, la tabla sigu
 
 [Diferencia entre el análisis de llamadas y el Panel de calidad de llamadas](difference-between-call-analytics-and-call-quality-dashboard.md)
 
-## <a name="feedback"></a>¿Comentarios?
-Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).
+  
+ 

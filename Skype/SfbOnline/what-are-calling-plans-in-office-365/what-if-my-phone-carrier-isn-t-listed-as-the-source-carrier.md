@@ -1,5 +1,5 @@
 ---
-title: "¿Qué sucede si mi compañía de teléfono no aparece como el portador de origen?"
+title: ¿Qué sucede si mi compañía de teléfono no aparece como el portador de origen?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderDetailPanelWhois
 ms.custom:
 - Calling Plans
-description: "Aprenda qué hacer si no aparece su portador en Skype para el negocio. "
-ms.openlocfilehash: da9f5603c477f67b68ed02b00434b10318de31c8
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Aprenda qué hacer si no aparece su portador en Skype para el negocio. '
+ms.openlocfilehash: 7ca5b0b959066dec5841862ac9270dcc023aecd4
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>¿Qué sucede si mi compañía de teléfono no aparece como el portador de origen?
 
@@ -46,7 +46,7 @@ Un ejemplo:
 
 [Términos y condiciones de las llamadas de emergencias](emergency-calling-terms-and-conditions.md)
 
-[Skype Empresarial Online: etiqueta de declinación de responsabilidades en llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>¿Comentarios?
-Para proporcionar comentarios sobre el producto o para hacernos saber cómo lo estamos haciendo, vea [Skype para comentarios de comercio](https://www.skypefeedback.com).
+  
+ 
