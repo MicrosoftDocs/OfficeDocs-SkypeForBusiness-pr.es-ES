@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. '
-ms.openlocfilehash: b4244647674f25a10b6ca447a6ee8b4d23b36a9f
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 7c6f0e70780b04e75be52ead1eaf08602bcba003
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin"></a>Iniciar una conferencia de Audio por teléfono sin un PIN
 
@@ -38,19 +38,29 @@ Un PIN no es necesario para el organizador de la reunión si alguien ha iniciado
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Habilitar o deshabilitar la posibilidad de que los autores de llamada anónimos se unan a la reunión
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+**Utilizando los equipos de Microsoft y Skype para el centro de administración de negocios**
+
+1. En la exploración de la izquierda, haga clic en **usuarios**. 
+
+2. Seleccione un usuario en la lista y, a continuación, haga clic en **Editar** en la parte superior de la página. 
+
+3. Haga clic en el menú situado junto a **Los puentes de conferencia**y, a continuación, haga clic en **Editar**.
+
+4. En el panel de **proveedor de puente de conferencia** , habilitar o deshabilitar **no autenticado de permitir a quienes llaman para ser los primeros en una reunión. Si no, a continuación, esperan en la sala de espera hasta que un usuario autenticado se une**.
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+4. Haga clic en **Aplicar**. 
+
+Puede usar el Centro de administración de Skype Empresarial o Windows PowerShell para habilitar o deshabilitar el envío de correos electrónicos a los usuarios.
     
-3. En el **Skype para el centro de administración de negocios**, en la exploración de la izquierda, vaya a las **conferencias de Audio** > **usuarios**. 
+1. En el **Skype para el centro de administración de negocios**, en la exploración de la izquierda, vaya a las **conferencias de Audio** > **usuarios**. 
     
-4. En la lista, seleccione el usuario y en el panel Acción, haga clic en **Editar**. 
+2. En la lista, seleccione el usuario y en el panel Acción, haga clic en **Editar**. 
     
-5. En la página de propiedades del usuario, en **Opciones de la reunión**, active o desactive Permitir no autenticado a **quienes llaman para ser los primeros en una reunión. Si no, a continuación, esperan en la sala de espera hasta que un usuario autenticado se une**.
+3. En la página de propiedades del usuario, en **Opciones de la reunión**, active o desactive Permitir no autenticado a **quienes llaman para ser los primeros en una reunión. Si no, a continuación, esperan en la sala de espera hasta que un usuario autenticado se une**.
     
-6. Haga clic en **Guardar**. 
+4. Haga clic en **Guardar**. 
     
- **Para habilitar o deshabilitar a los llamadores anónimos a todas las reuniones, del usuario con Windows Powershell**
+ **Uso de Windows Powershell**
   
 - Ejecute lo siguiente: 
     

@@ -10,11 +10,11 @@ description: Guía para iniciar una experiencia piloto de Microsoft Teams en la 
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 386221bfc8a3249ef4c902605171e636f8a48f40
-ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.openlocfilehash: ccb09692991eeacc43d035389d245a0735030f1c
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/05/2018
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Crear un proyecto piloto de Microsoft Teams junto a Skype Empresarial
 ============================================
@@ -199,7 +199,7 @@ En función de los resultados, a continuación mostramos algunas rutas que puede
 <br> y <br><br>
 <li>el estado de la red es satisfactorio,</li></ul></td>
 <td align="left"><p>implementar Microsoft Teams y Skype Empresarial en paralelo para algunos escenarios o todos ellos. Para que la fase de aprendizaje sea más fácil, recomendamos que vaya lanzando características poco a poco, en lugar de todas a la vez.</p>
-<p>Vea más información sobre cómo [ejecutar Skype Empresarial y Microsoft Teams en paralelo](guidance-SkypeforBusiness.md).</p>
+<p>Conozca más sobre el [viaje de actualización y coexistencia de Skype para empresas y equipos](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).</p>
 <p>descargar <a href="https://go.microsoft.com/fwlink/?linkid=859044">plantillas para la preparación de los usuarios</a> que ayuden a crear una comunicación fluida con los usuarios finales en torno a su nueva experiencia en paralelo.</p></td>
 </tr>
 <tr class="odd">
@@ -207,7 +207,7 @@ En función de los resultados, a continuación mostramos algunas rutas que puede
 <br> y <br><br>
 <li>el estado de la red es satisfactorio,</li></ul></td>
 <td align="left"><p>implementar Microsoft Teams y Skype Empresarial en paralelo para todos los escenarios y animaría a los usuarios a priorizar Microsoft Teams siempre que fuese posible. Además, debería reunirse con su equipo de cuentas o el Soporte técnico de Microsoft para informarles de que su organización estaría lista para pasarse a Microsoft Teams.</p>
-<p>Vea más información sobre cómo [ejecutar Skype Empresarial y Microsoft Teams en paralelo](guidance-SkypeforBusiness.md).</p>
+<p>Conozca más sobre el [viaje de actualización y coexistencia de Skype para empresas y equipos](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).</p>
 <p>descargar <a href="https://go.microsoft.com/fwlink/?linkid=859044">plantillas para la preparación de los usuarios</a> que ayuden a crear una comunicación fluida con los usuarios en torno a su nueva experiencia en paralelo.</p></td>
 </tr>
 <tr class="even">

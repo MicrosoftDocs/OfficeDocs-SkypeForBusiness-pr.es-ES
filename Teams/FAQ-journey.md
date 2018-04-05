@@ -11,11 +11,11 @@ description: Preguntas frecuentes que se plantean sobre el recorrido desde Skype
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d14538fb0884be77ffaedefd3459c8448d981d34
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 648e43ab121f226893d72c7a38a80923aedda1f2
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/05/2018
 ---
 <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Preguntas frecuentes: recorrido desde Skype Empresarial a Microsoft Teams
 ==========================================================
@@ -62,7 +62,7 @@ Los clientes deben evaluar el mapa de ruta de Microsoft Teams para determinar si
 
 ### <a name="what-support-are-you-offering-to-customers-who-wish-to-move-to-teams-especially-those-who-have-made-significant-investments-in-skype-for-business-in-office-365"></a>¿Qué tipo de soporte ofrece a los clientes que quieren pasarse a Microsoft Teams, sobre todo aquellos que han hecho importantes inversiones en Skype Empresarial para Office 365?
 
-Los clientes deben seguir usando Skype Empresarial para Office 365 hasta que Microsoft Teams ofrezca todo lo que ellos necesitan. Para aquellos clientes que quieren pasar usuarios s Microsoft Teams, les ofreceremos herramientas e instrucciones que les ayuden a controlar y administrar el proceso. En [https://aka.ms/skypeandteams](https://aka.ms/skypeandteams) puede encontrar guías descriptivas y procedimientos recomendados. Para que la transición sea lo más fácil posible para los usuarios que nunca han usado Microsoft Teams, tenemos una experiencia especializada para el primer uso y marcas con explicaciones dentro de los productos. FastTrack, el soporte técnico al cliente y los socios estarán todos disponibles para ayudar a los clientes en su transición.
+Los clientes deben seguir usando Skype Empresarial para Office 365 hasta que Microsoft Teams ofrezca todo lo que ellos necesitan. Para aquellos clientes que quieren pasar usuarios s Microsoft Teams, les ofreceremos herramientas e instrucciones que les ayuden a controlar y administrar el proceso. Consejos y mejores prácticas estará disponibles en [https://aka.ms/skypeandteams](https://aka.ms/skypeandteams). Para que la transición sea lo más fácil posible para los usuarios que nunca han usado Microsoft Teams, tenemos una experiencia especializada para el primer uso y marcas con explicaciones dentro de los productos. FastTrack, el soporte técnico al cliente y los socios estarán todos disponibles para ayudar a los clientes en su transición.
 
 ### <a name="what-does-this-mean-from-a-licensing-perspective-how-will-customers-pay-for-intelligent-communications-services-in-teams"></a>¿Qué significa esto desde una perspectiva de licencias? ¿Cómo pagarán los clientes los servicios de comunicaciones inteligentes en Microsoft Teams?
 
@@ -77,7 +77,7 @@ Por el momento no hay planes de programar actualizaciones para los clientes de e
 
 ### <a name="how-can-customers-learn-when-skype-for-business-capabilities-will-be-available-in-teams"></a>¿Cómo pueden saber los clientes cuándo están disponibles las funcionalidades de Skype Empresarial en Microsoft Teams?
 
-Ofreceremos esta información sobre las próximas características de Microsoft Teams en el [mapa de ruta de Office 365](https://go.microsoft.com/fwlink/?linkid=859057). El mapa de ruta de Skype a Microsoft Teams se encuentra en [http://aka.ms/skype2teamsroadmap](http://aka.ms/skype2teamsroadmap). 
+Ofreceremos esta información sobre las próximas características de Microsoft Teams en el [mapa de ruta de Office 365](https://go.microsoft.com/fwlink/?linkid=859057). El Skype Roadmap de los equipos está en [http://aka.ms/skype2teamsroadmap](http://aka.ms/skype2teamsroadmap). 
  
 
 ### <a name="what-apis-and-sdks-will-be-made-available-for-teams"></a>¿Qué API y SDK estarán disponibles para Microsoft Teams?
@@ -133,7 +133,7 @@ No hay planes de admitir proveedores de servicios de audioconferencia (ACP) exte
 
 ### <a name="what-is-the-plan-for-video-interoperability-support-for-teams-meetings"></a>¿Cuál es el plan para el soporte de interoperabilidad de vídeo para las reuniones de Microsoft Teams?
 
-Los dispositivos de las salas de reuniones tienen un papel fundamental en la idea que tenemos para los lugares de trabajo modernos. El 25 de septiembre anunciamos en Ignite que estamos trabajando con Blue Jeans y Pexip para poder ofrecer interoperabilidad de vídeo en la nube con Microsoft Teams. Los clientes pueden seguir usando Polycom Real Connect para Office 365 con Skype Empresarial Online. Compartiremos nuestro mapa de ruta para que los clientes puedan valorar si Microsoft Teams ofrece lo que necesitan. 
+Los dispositivos de las salas de reuniones tienen un papel fundamental en la idea que tenemos para los lugares de trabajo modernos. Anunciamos el 25 de septiembre en prender que estamos trabajando con vaqueros, Pexip y Polycom para ofrecer interoperabilidad vídeo de nube con los equipos. Los clientes pueden seguir usando Polycom Real Connect para Office 365 con Skype Empresarial Online. Compartiremos nuestro mapa de ruta para que los clientes puedan valorar si Microsoft Teams ofrece lo que necesitan. 
 
 ### <a name="will-the-latest-generation-of-skype-room-systems-v2-support-meetings-in-teams"></a>¿La última generación de Sistemas de salas de Skype (V2) admitirá reuniones en Microsoft Teams?
 

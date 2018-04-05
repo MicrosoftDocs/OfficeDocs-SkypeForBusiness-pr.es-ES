@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: Strat_SB_Hybrid
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Obtenga información sobre Skype Empresarial Cloud Connector Edition, un conjunto de máquinas virtuales (VM) empaquetadas que implementa la conectividad RTC local con el Sistema telefónico de Office 365 (PBX en la nube).
-ms.openlocfilehash: f69becbd25ad00ca4353c0b287f2abcc43bdecfd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5c175a09a83d8fb5fe3267329c63075b450a9b1f
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Plan para Skype Empresarial Cloud Connector Edition
  
@@ -412,9 +412,8 @@ En este caso, todo el tráfico de los medios de comunicación para el punto fina
 
 El equipo host debe ser capaz de llegar a recursos externos para instalar, actualizar y administrar el conector de nube correctamente. En la siguiente tabla se muestran los destinos y los puertos que se necesitan entre el equipo host y el recurso externo. 
   
-||||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Dirección  <br/> |IP de origen  <br/> |IP de destino  <br/> |Puerto de origen  <br/> |Puerto de destino  <br/> |Protocolo  <br/> |Finalidad  <br/> |
+|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Saliente  <br/> |IPs de host conector de nube  <br/> |Cualquiera  <br/> |Cualquiera  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
 |Saliente  <br/> |IPs de host conector de nube  <br/> |Cualquiera  <br/> |Cualquiera  <br/> |80, 443  <br/> |TCP  <br/> |Lista de revocación de certificados (CRL)  <br/> |
 |Saliente  <br/> |IPs de host Connectorr de nube  <br/> |Cualquiera  <br/> |Cualquiera  <br/> |80, 443  <br/> |TCP  <br/> |Actualización del conector de nube  <br/> Skype Empresarial Online  <br/> PowerShell de administración  <br/> Windows Update  <br/> |

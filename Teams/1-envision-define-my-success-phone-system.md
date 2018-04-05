@@ -11,17 +11,15 @@ description: Medir los resultados de su sistema de teléfono con una llamada a l
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9883fb04c70d07a0249d2390b894bba3d491ec04
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 23e471e7917ee188d0c4e601a59c53087ad2f9e0
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="define-my-success"></a>Definir mi éxito
 
-## <a name="introduction"></a>Introducción
-
-Este contenido proporciona una visión general de los requisitos para definir correctamente el éxito de la implementación de sistema de teléfono con planes de llamada para su organización. Si se define adecuadamente su éxito, puede medir los resultados a medida que avance a través de su implementación y compruebe que los resultados que obtendrá los resultados que desea.
+Este artículo ofrece una visión general de los requisitos para la definición de éxito para la implementación de sistema de teléfono con planes de llamada para su organización. Definiendo correctamente qué se considera exitoso, puede medir los resultados a medida que avance a través de la implementación y comprobar que los resultados que obtendrá son las que deseaba.
 
 <!--ENDOFSECTION-->
 

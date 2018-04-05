@@ -1,5 +1,5 @@
 ---
-title: "Directivas de restricción de llamada saliente para conferencias de Audio y usuario llamadas PSTN"
+title: Directivas de restricción de llamada saliente para conferencias de Audio y usuario llamadas PSTN
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,11 +18,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: Los administradores pueden controlar el tipo de audio llamadas PSTN conferencias y el usuario final que se pueden realizar los usuarios.
-ms.openlocfilehash: 0585fc8861d8a805380bc6058523ec91087c4764
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+ms.openlocfilehash: ab6f34e46ceb6a9811830ba1444278db667de73c
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Directivas de restricción de llamada saliente para conferencias de Audio y usuario llamadas PSTN
 
@@ -39,19 +39,33 @@ Controles de llamada saliente pueden aplicarse a cada usuario y proporcionan los
    > Una llamada se determina como doméstica Si el número de teléfono al que llame se encuentra en el mismo país como el país en el que se ha establecido en Office 365 para el organizador de la reunión (en el caso de conferencias de audio) o el usuario final (en el caso de las llamadas PSTN usuario final). 
 
 
-## <a name="restrict-audio-conferencing-outbound-calls-using-the-skype-for-business-admin-center"></a>Restringir las llamadas salientes de conferencia de audio mediante el Skype para el centro de administración de negocios 
+## <a name="restrict-audio-conferencing-outbound-calls"></a>Restringir las llamadas salientes de conferencia de audio 
 
+**Utilizando los equipos de Microsoft y Skype para el centro de administración de negocios**
 
-1.  Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
-2.  En el Skype para el centro de administración de negocios, en la exploración de la izquierda, vaya a las **conferencias de Audio** > **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
-3.  En el panel de acciones, haga clic en **Editar**.
-4.  En **restricciones de marcado de salida de las reuniones de este usuario**, seleccione la opción de restricción de acceso telefónico de salida que desee.
+1. En la exploración de la izquierda, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
+
+2. En la parte superior de la página, haga clic en **Editar**.
+
+3. Haga clic en el menú situado junto a **Los puentes de conferencia**y, a continuación, haga clic en **Editar** en la lista desplegable.
+
+4. En el panel de **proveedor de puente de conferencia** , en **restricciones de marcado de salida de las reuniones de este usuario**, seleccione la opción de restricción de acceso telefónico de salida que desee.
+
+5. Haga clic en **Aplicar**. 
+
+Puede usar el Centro de administración de Skype Empresarial o Windows PowerShell para habilitar o deshabilitar el envío de correos electrónicos a los usuarios.
+
+1.  En el **Skype para el centro de administración de negocios**, en la exploración de la izquierda, vaya a las **conferencias de Audio** > **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
+
+2.  En el panel de acciones, haga clic en **Editar**.
+
+3.  En **restricciones de marcado de salida de las reuniones de este usuario**, seleccione la opción de restricción de acceso telefónico de salida que desee.
 
     ![Las restricciones a las opciones de acceso telefónico de salida](../images/restrictions-to-dial-outs.png)
 
 5. Haga clic en **Guardar**.
 
-## <a name="restrict-audio-conferencing-and-end-user-outbound-calls-using-powershell"></a>Restringir el audio llamadas salientes conferencias y el usuario final con PowerShell
+**Uso de PowerShell**
 
 Restricciones de llamadas salientes están controladas por una directiva única denominada OnlineDialOutPolicy que tiene un atributo de restricción para cada uno. No se puede personalizar la directiva, en su lugar, existen instancias de directivas predefinidas para cada combinación de la configuración. 
 

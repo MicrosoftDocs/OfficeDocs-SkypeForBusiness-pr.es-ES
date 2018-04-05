@@ -11,11 +11,11 @@ description: Una presentación de todo lo que necesita saber sobre el recorrido 
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8d89f0f24f8dc056617ab06890deca74e8fcf60
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.openlocfilehash: b4341be17cd224e01cc6024d6bf871a6823cdad2
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/05/2018
 ---
 <a name="journey-from-skype-for-business-to-microsoft-teams"></a>Recorrido desde Skype Empresarial a Microsoft Teams
 ==================================================
@@ -33,7 +33,7 @@ Para que los resultados sean los mejores posibles, le recomendamos que siga las 
 
 [2. Crear un proyecto piloto de Microsoft Teams junto a Skype Empresarial](pilot-essentials.md)
 
-[3 - Habilitar Microsoft Teams en paralelo con Skype Empresarial](guidance-SkypeforBusiness.md)
+[3 - actualizar viaje y coexistencia de Skype para empresas y equipos](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 [4 - Generar valor a través de la adopción de usuarios](continue-journey.md)
 

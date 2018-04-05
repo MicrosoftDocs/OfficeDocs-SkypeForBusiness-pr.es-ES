@@ -11,11 +11,12 @@ description: Guía práctica para planificar, implementar y administrar Sistema 
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb41f929f477a058ee8c811f357caa6ff3de62ac
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment
+ms.openlocfilehash: 51efc627e9aa7e86fdff6ed842e3b2f1956aa528
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Guía práctica para implementar Audioconferencia en Microsoft Teams.
 ============================================================

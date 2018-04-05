@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Lea este tema para aprender a supervisar la versión del conector de nube 2.1 y posterior implementación mediante Microsoft Operations Management Suite (OMS).
-ms.openlocfilehash: 5e03504f27eadbb235c1b5c84e8c7a19d66aea7d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8cb454cfcb61bb11e0545ab5ff7dd45d1403ce55
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Supervisar el conector de nube mediante Operations Management Suite (OMS)
  
@@ -221,9 +221,8 @@ Para identificar problemas con los registros de sucesos y contadores de rendimie
     
 En la tabla siguiente se enumera los servicios que Microsoft recomienda supervisar con una lista de los identificadores de sucesos de inicio y de parada:
   
-|||||
-|:-----|:-----|:-----|:-----|
 |Nombre de servicio  <br/> |Función de servidor de destino  <br/> |Id. de suceso de detener  <br/> |Id. de suceso de inicio  <br/> |
+|:-----|:-----|:-----|:-----|
 |RTCMEDSRV  <br/> |Servidor de mediación  <br/> |25003  <br/> |25002  <br/> |
 |RTCSRV  <br/> |Servidor perimetral  <br/> |12289  <br/> |12288  <br/> |
 |RTCMRAUTH  <br/> |Servidor perimetral  <br/> |19003  <br/> |19002  <br/> |
@@ -231,9 +230,8 @@ En la tabla siguiente se enumera los servicios que Microsoft recomienda supervis
    
 En la tabla siguiente enumera los problemas de red que Microsoft recomienda la supervisión:
   
-||||||
-|:-----|:-----|:-----|:-----|:-----|
 |Nombre de Monitor  <br/> |Función de servidor de destino  <br/> |Expresión de ID de evento de éxito  <br/> |Expresión de ID de evento de error  <br/> |Ejemplo de error  <br/> |
+|:-----|:-----|:-----|:-----|:-----|
 |Servidor de mediación para error de conectividad de la puerta de enlace  <br/> |Servidor de mediación  <br/> |25062 || 25002  <br/> |25061  <br/> |Error de MS PING Gateway (opción)  <br/> |
 |Servidor de mediación para la puerta de enlace de llamar a error de finalización  <br/> |Servidor de mediación  <br/> |25064 || 25002  <br/> |25063  <br/> |Error de MS trata de realizar la llamada a la puerta de enlace  <br/> |
 |Problemas de la red  <br/> |Servidor perimetral  <br/> |14353 || 12288  <br/> |14624  <br/> |No se pudo iniciar en la dirección IP local 192.168.231.14 en el puerto 5061 transporte TLS  <br/> |

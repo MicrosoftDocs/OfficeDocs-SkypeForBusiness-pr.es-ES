@@ -1,10 +1,10 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: c6ed5d7cd16456414991fd08c127cddf3653a40c
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: c3d89338f761f8937267b79774ea39a7c88ce4b2
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="welcome-to-office-content-on-docsmicrosoftcom"></a>Le damos la bienvenida a contenido de Office en docs.microsoft.com
 ## <a name="this-is-a-level-2-heading"></a>Este es un encabezado de nivel 2
@@ -31,7 +31,6 @@ Se puede modificar una tabla de Markdown para que parezca que contiene una lista
 
 <p>Visualizaré &#9744;</p>
 <p>Visualizaré &#x2610;</p>
-
 
 El contenido de Microsoft Teams está ahora disponible.
 [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams)

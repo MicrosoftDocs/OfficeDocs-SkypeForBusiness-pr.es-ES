@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: e2a57a63cbc7b633e0240b7ec94f2d548a2dbe31
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: c7582030765db6951c972dc3fa59610aca73417e
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change"></a>Habilitar o deshabilitar el envío de correos electrónicos cuando cambie la configuración de conferencias de Audio
 
@@ -56,22 +56,29 @@ Aquí es un ejemplo del correo electrónico que se envía a los usuarios cuando 
     
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Habilitar o deshabilitar el correo electrónico se envíe a los usuarios
 
-Habilitar o deshabilitar el envío de correos electrónicos a los usuarios de acceso telefónico local
+Puede utilizar Microsoft Teams, el Skype para el centro de administración de negocios o de Windows PowerShell para habilitar o deshabilitar el correo electrónico enviado a los usuarios.
+
+**Utilizando los equipos de Microsoft y Skype para el centro de administración de negocios**
+1. En la exploración de la izquierda, vaya a **reuniones** > **Puentes de conferencia**. 
+
+2. En la parte superior de la página **Puentes de conferencia** , haga clic en **Configuración de puente**. 
+
+3. En el panel **configuración de puente** , habilitar o deshabilitar **automáticamente enviar correos electrónicos a los usuarios si cambia su configuración de acceso telefónico**.
+
+4. Haga clic en **Aplicar**.
   
- Puede usar el Centro de administración de Skype Empresarial o Windows PowerShell para habilitar o deshabilitar el envío de correos electrónicos a los usuarios.
-  
-1. Usar el Centro de administración de Skype Empresarial
+Puede usar el Centro de administración de Skype Empresarial o Windows PowerShell para habilitar o deshabilitar el envío de correos electrónicos a los usuarios.
     
-2. Ir al **Centro de administración de Office 365** > **Skype para el negocio**y la exploración de la izquierda, haga clic en **conferencias de Audio**.
+1. En el **Skype para el centro de administración de negocios**, en la exploración de la izquierda, haga clic en **conferencias de Audio**.
     
-3. On the **Microsoft bridge settings** page, select or clear the **Automatically send emails to users if their audio conferencing settings change**.
+2. On the **Microsoft bridge settings** page, select or clear the **Automatically send emails to users if their audio conferencing settings change**.
     
-4. Click **Save**.
+3. Click **Save**.
     
     > [!TIP]
     > También puede enviar correo electrónico a un usuario con la configuración de conferencia de audio yendo a las **conferencias de Audio** > **usuarios**, seleccionar el usuario y hacer clic en **Enviar información de conferencia a través de correo electrónico**.  Si lo hace, se enviará un correo electrónico que sólo incluye los Id. de conferencia y número de teléfono de conferencia, pero no el PIN.  Para obtener más información, vea [Enviar un correo electrónico a un usuario con su información de conferencia de Audio](send-an-email-to-a-user-with-their-dial-in-information.md) .
   
- Vea **Enviar un correo electrónico a un usuario con su información de conferencias de Audio**.
+Vea **Enviar un correo electrónico a un usuario con su información de conferencias de Audio**.
   
 - Ejecute el siguiente procedimiento para deshabilitar el envío de correos electrónicos: 
     

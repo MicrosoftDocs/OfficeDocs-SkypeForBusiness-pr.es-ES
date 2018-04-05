@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable whether your users can record their names when they join a meeting '
-ms.openlocfilehash: f01d9457fee181615b8a30467ec558eb36a32e7a
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 6f1c5c9c86f4b0296340c9185acdc9d505baeda7
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting"></a>Permitir a los usuarios grabar su nombre al unirse a una reunión
 
@@ -36,19 +36,28 @@ El puente de conferencia responde a la llamada de un usuario que llama a una reu
   
 ## <a name="set-whether-callers-should-record-their-name"></a>Establecer si los autores de las llamadas tienen que grabar sus nombres
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+**Utilizando los equipos de Microsoft y Skype para el centro de administración de negocios**
+
+1. En la exploración de la izquierda, vaya a **reuniones** > **Puentes de conferencia**. 
+
+2. En la parte superior de la página **Puentes de conferencia** , haga clic en **Configuración de puente**. 
+
+3. Habilitar o deshabilitar **Habilitar la entrada de la reunión y salir de notificaciones para activarse**.
+
+4. Haga clic en **Aplicar**.
+
+
+**Usando el Skype para el centro de administración de negocios**
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+1. En el **Centro de administración de Skype Empresarial**, en el panel de navegación de la izquierda, vaya a **Conferencia de acceso telefónico local** > **Configuración del puente de Microsoft**.
     
-3. En el **Centro de administración de Skype Empresarial**, en el panel de navegación de la izquierda, vaya a **Conferencia de acceso telefónico local** > **Configuración del puente de Microsoft**.
-    
-4. En **experimentar join Meeting**, vea la casilla de verificación **Habilitar la entrada de la reunión y salir de notificaciones para activarse**.
+2. En **experimentar join Meeting**, vea la casilla de verificación **Habilitar la entrada de la reunión y salir de notificaciones para activarse**.
     
   - **Activado**: se solicitará a los autores de las llamadas que graben sus nombres antes de unirse a la reunión. Esta opción está seleccionada de forma predeterminada.
     
   - **Desactivado**: no se solicitará a los autores de las llamadas que graben sus nombres antes de unirse a la reunión.
     
-5. Después de realizar los cambios, haga clic en **Guardar**.
+3. Después de realizar los cambios, haga clic en **Guardar**.
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 

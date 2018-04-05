@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Aprenda a admitir resistencia de voz de Skype para Business Server Telefonía IP empresarial, en los sitios centrales y sitios de sucursales. Opciones de sitio de sucursal incluyen implementar que sobreviven de rama de dispositivos o servidores de sucursal que sobreviven.
-ms.openlocfilehash: a4ce7e01ef93ef7bfca2357b65b315b4be5c6781
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4303df46b7430ec8a7e3891baec7f9ff99d85480
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server-2015"></a>Planificar la resistencia de la Telefonía IP en Skype Empresarial Server 2015
  
@@ -87,9 +87,8 @@ Los siguientes requisitos y recomendaciones para implementar la resistencia de v
 
 Skype para Business Server depende de los siguientes componentes de software y la infraestructura para garantizar la resistencia de voz:
   
-|||
-|:-----|:-----|
 |**Componente** <br/> |**Funcional** <br/> |
+|:-----|:-----|
 |DNS  <br/> |Resolver los registros SRV y A para la conectividad de servidor y cliente a servidor  <br/> |
 |Exchange y los servicios Web Exchange (EWS)  <br/> |Póngase en contacto con almacenamiento de información; datos de calendario  <br/> |
 |Mensajería unificada de Exchange y los servicios Web de Exchange  <br/> |Llamar a registros, lista de correo de voz, correo de voz  <br/> |

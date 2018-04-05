@@ -11,20 +11,22 @@ description: Elija entre planes de llamada y licencias, configurar ubicaciones d
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38e382992f3170f16718eac8d2c6f0902dbaff3b
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 4b7b1aaff60d6aa35fa10334c8d55e6a057eccaf
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
+
+Para planear la implementación técnica del sistema de teléfono con planes de llamada, debe realizar una serie de decisiones de servicio con anterioridad para mejor preparar a su organización a implementar una solución que satisfaga sus requisitos de negocio definidos.
 
 ## <a name="calling-in-teams"></a>Llamar en Microsoft Teams
 
 Con Teams de Microsoft, los usuarios pueden realizar y recibir llamadas de teléfono a o desde la red telefónica pública conmutada (PSTN). Los usuarios pueden usar sus propios números de teléfono dedicada para efectuar y recibir llamadas nacionales e internacionales de las aplicaciones de cliente de los equipos, con funciones avanzadas que incluyen correo de voz y llamadas de emergencia (911 mejorado).
 
 > [!NOTE]
-> La guía básica de los equipos más reciente para identificar las características de conferencia de Audio de equipos en el ámbito de la implementación puede encontrarse en <https://aka.ms/skype2teamsroadmap>.
+> La guía básica de los equipos más reciente para identificar equipos de sistema de teléfono con el Plan de llamadas de funciones en el ámbito para su implementación se puede encontrar en <https://aka.ms/skype2teamsroadmap>.
 
 ## <a name="phone-system-in-teams"></a>Sistema telefónico en los equipos
 

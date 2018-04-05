@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to turn entry and exit announcements on or off in a Skype for Business Online meeting using the Skype for Business admin center. '
-ms.openlocfilehash: ca109a1e6a1538c6561e8f5a6e29bd0f70cf5efe
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+ms.openlocfilehash: 0e15116061d35af39e8010c8e079395aaa7c4a8b
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>Activar o desactivar los anuncios de entrada y salida para las reuniones
 
@@ -36,19 +36,31 @@ El puente de conferencia responde a una llamada de un usuario que está marcando
   
 ## <a name="setting-meeting-join-options"></a>Configurar las opciones para unirse a una reunión
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+**Utilizando los equipos de Microsoft y Skype para el centro de administración de negocios**
+
+1. En la exploración de la izquierda, vaya a **reuniones** > **Puentes de conferencia**. 
+
+2. En la parte superior de la página **Puentes de conferencia** , haga clic en **Configuración de puente**. 
+
+3. En el panel **configuración de puente** , habilitar o deshabilitar **Habilitar la entrada de la reunión y salir de notificaciones para activarse**. Esta opción está seleccionada de forma predeterminada. Si lo desactiva, los usuarios que ya han participado en la reunión no le notificará cuando alguien entra o sale de la reunión.
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+4. En **tipo de anuncio de entrada/salida**, seleccione **los nombres o números de teléfono** o **tonos**.
     
-3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
+5. Habilitar o deshabilitar **los llamadores Ask para registrar su nombre antes de unirse a la reunión**.
     
-4. En **experimentar la combinación de la reunión**, active o desactive **Permitir la entrada de la reunión y salir notificaciones al activarse**. Esta opción está seleccionada de forma predeterminada. Si lo desactiva, los usuarios que ya han participado en la reunión no le notificará cuando alguien entra o sale de la reunión.
+6. Después de realizar los cambios, haga clic en **Aplicar**.
+
+Puede usar el Centro de administración de Skype Empresarial o Windows PowerShell para habilitar o deshabilitar el envío de correos electrónicos a los usuarios.
     
-5. En **tipo de anuncio de entrada/salida**, seleccione **los nombres o números de teléfono** o **tonos**.
+1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
-6. Active o desactive **los llamadores Ask para registrar su nombre antes de unirse a la reunión**.
+2. En **experimentar la combinación de la reunión**, active o desactive **Permitir la entrada de la reunión y salir notificaciones al activarse**. Esta opción está seleccionada de forma predeterminada. Si lo desactiva, los usuarios que ya han participado en la reunión no le notificará cuando alguien entra o sale de la reunión.
     
-7. Después de realizar los cambios, haga clic en **Guardar**.
+3. En **tipo de anuncio de entrada/salida**, seleccione **los nombres o números de teléfono** o **tonos**.
+    
+4. Active o desactive **los llamadores Ask para registrar su nombre antes de unirse a la reunión**.
+    
+5. Después de realizar los cambios, haga clic en **Guardar**.
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 

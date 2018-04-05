@@ -1,5 +1,5 @@
 ---
-title: "Cambiar la configuración de un puente de conferencia de Audio"
+title: Cambiar la configuración de un puente de conferencia de Audio
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: 'Get the steps you need to change settings for a Microsoft dial-in conferencing bridge that''s used to prompt callers and gather names and pins for meeting organizers when they''re not using Skype for Business clients. '
-ms.openlocfilehash: 62307bf26458ae54134772a0d920bcc602265bdc
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: "Get the steps you need to change settings for a Microsoft dial-in conferencing bridge that's used to prompt callers and gather names and pins for meeting organizers when they're not using Skype for Business clients. "
+ms.openlocfilehash: d9b80b06a3c52c6ec386a0e5052f1bb71f914650
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Cambiar la configuración de un puente de conferencia de Audio
 
@@ -37,17 +37,39 @@ El puente de conferencia contesta una llamada y solicita al llamador con indicac
   > [!IMPORTANT]
   > Un PIN sólo es necesario para el organizador de la reunión cuando un Skype para usuario de la aplicación empresarial o Teams de Microsoft ya no ha iniciado la conferencia. Si todo el mundo está marcando a la reunión, el PIN es necesario para el organizador de la reunión iniciar la reunión. 
   
-## <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Cambiar la configuración de un puente de conferencia de audio
+## <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Cambiar la configuración de un puente de conferencia de audio 
+
+### <a name="using-the-microsoft-teams-and-skype-for-business-admin-center"></a>Utilizando los equipos de Microsoft y Skype para el centro de administración de negocios
+
+1. En la exploración de la izquierda, vaya a **reuniones** > **Puentes de conferencia**. 
+
+2. En la parte superior de la página **Puentes de conferencia** , haga clic en **Configuración de puente**. 
+
+3. En el panel **configuración de puente** , seleccione: 
+  - **Habilitar la entrada de la reunión y salir de notificaciones para activarse** Si desactiva esta opción, los usuarios que ya han participado en la reunión no se le notificará cuando alguien entra o sale de la reunión.
+    
+    Cuando selecciona **Habilitar la entrada de la reunión y salir notificaciones para ser activado**, puede seleccionar estas opciones en la lista **tipo de entrada o salida de anuncio** :
+    
+  - **Los nombres o números de teléfono** Cuando los usuarios de acceso telefónico a una reunión, su número de teléfono se reproducirá cuando se unan a ella.
+    
+  - **Tonos** Cuando los usuarios de acceso telefónico a una reunión, un tono de sonido se reproducirá cuando se unan a ella.
+      
+  - **Llamadores ASK para registrar su nombre antes de unirse a la reunión** Si desactiva esta opción, los llamadores no pedirá que registre su nombre antes de que se unen a una reunión.
+
+4. Para establecer la longitud del perno para las reuniones, seleccione el número de dígitos que desee para el PIN en la lista de **longitud PIN** .
+
+5. Para especificar si desea enviar correo electrónico a los usuarios, activar o desactivar **automáticamente enviar correos electrónicos a los usuarios si cambia su configuración de conferencia de audio**.
+    Para obtener más información, consulte [mensajes de correo electrónico se envían automáticamente a los usuarios al cambia su configuración de conferencia de Audio](emails-sent-to-users-when-their-settings-change.md) .
+ 
+6. Haga clic en **Aplicar**. 
+
+### <a name="using-skype-for-business-online"></a>Usar Skype para el negocio en línea
 
  **Configurar la experiencia de reunión cuando los llamadores unirse a una reunión**
-  
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+1. En el **Skype para el centro de administración de negocios**, en la exploración de la izquierda vaya a las **conferencias de Audio** > **configuración de puente de Microsoft**.
     
-3. En el **Skype para el centro de administración de negocios**, en la exploración de la izquierda vaya a las **conferencias de Audio** > **configuración de puente de Microsoft**.
-    
-4. En la página **configuración de puente de Microsoft** , en la **experiencia de unión de la reunión**, seleccione:
+2. En la página **configuración de puente de Microsoft** , en la **experiencia de unión de la reunión**, seleccione:
     
   - **Habilitar la entrada de la reunión y salir de notificaciones para activarse** Esto está seleccionada por defecto. Si desactiva la casilla de verificación, los usuarios que ya han participado en la reunión no se le notificará cuando alguien entra o sale de la reunión.
     
@@ -62,11 +84,11 @@ El puente de conferencia contesta una llamada y solicita al llamador con indicac
   
   - **Llamadores ASK para registrar su nombre antes de unirse a la reunión** Esto está seleccionada por defecto. Si desactiva la casilla de verificación, los llamadores no pedirá que registre su nombre antes de que se unen a una reunión.
     
-5. Después de realizar los cambios, haga clic en **Guardar**.
+3. Después de realizar los cambios, haga clic en **Guardar**.
     
 Vea **Cambiar la configuración de un puente de conferencias de acceso telefónico local de Microsoft**.
   
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Configurar la longitud del PIN de las reuniones
     
 2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
     
@@ -97,11 +119,11 @@ Vea **Cambiar la configuración de un puente de conferencias de acceso telefóni
     
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell cuenta con muchas ventajas en velocidad, simplicidad y productividad en comparación con solo usar el centro de administración de Office 365, como cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes: 
     
-  - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
   - [Usar Windows PowerShell para administrar Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     

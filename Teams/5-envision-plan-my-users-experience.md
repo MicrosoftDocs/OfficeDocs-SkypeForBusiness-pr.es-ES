@@ -11,13 +11,15 @@ description: Elija las aplicaciones de cliente de los equipos, planear la calida
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d15d000098a1970c7e3f471d6fec8be202f26ae
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 866395a4dd58016c0989ec4b34f602877251d021
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-my-users-experience"></a>Planear la experiencia de los usuarios
+
+Este artículo ofrece una visión general de los requisitos para identificar correctamente los elementos de la implementación de servicios de voz de nube que afectan directamente a la experiencia de los usuarios. Mediante la preparación de estos elementos antes de su implementación, tendrá más posibilidades de ofrecer exitosamente una experiencia confiable de alta calidad para los usuarios. 
 
 ## <a name="client-deployment"></a>Implementación de clientes
 

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: Este artículo proporciona orientación sobre cuántos servidores necesitan en un sitio para el número de usuarios en ese sitio, según el uso que se describe en los modelos de usuario en Skype para Business Server 2015.
-ms.openlocfilehash: b8395e1fdec1a9d4ed100a911fccd6177b03c665
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 313bd440188b1d97afa95d71fcca4e74b5cb8217
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server-2015"></a>Uso de modelo de usuario de planeamiento de capacidad para Skype Empresarial Server 2015
  
@@ -163,9 +163,8 @@ Si se implementa archivado o supervisión, la funcionalidad de front-end de esto
   
 En la tabla siguiente se indica cuánto almacenamiento de base de datos se necesita aproximadamente por usuario y por día para los datos de supervisión y archivado.
   
-|||||
-|:-----|:-----|:-----|:-----|
 ||**CDR (Supervisión)** <br/> |**QoE (Supervisión)** <br/> |**Archivado** <br/> |
+|:-----|:-----|:-----|:-----|
 |Espacio en disco necesario por usuario y por día  <br/> |49 KB  <br/> |28 KB  <br/> |57 KB  <br/> |
    
 Durante las pruebas de rendimiento, Microsoft usó el hardware de la tabla siguiente para el servidor de bases de datos de supervisión y archivado. Las pruebas, recopilan los datos de dos grupos de Front-End, cada uno de los cuales contenía 80.000 usuarios.
@@ -181,9 +180,8 @@ Durante las pruebas de rendimiento, Microsoft usó el hardware de la tabla sigui
    
 **Configuraciones de disco recomendadas**
 
-||||
-|:-----|:-----|:-----|
 |**Unidad** <br/> |**Configuración RAID** <br/> |**Número de discos** <br/> |
+|:-----|:-----|:-----|
 |Archivos de datos de las bases de datos de CDR, QoE y archivado, en una sola unidad  <br/> |1+0  <br/> |16  <br/> |
 |Archivo de registro de la base de datos CDR  <br/> |1  <br/> |2  <br/> |
 |Archivo de registro de la base de datos QoE  <br/> |1  <br/> |2  <br/> |

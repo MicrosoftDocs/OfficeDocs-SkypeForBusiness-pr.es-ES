@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: 'Learn the steps to reset a user''s meeting conference ID, and get links to meeting update and migration tools. '
-ms.openlocfilehash: 2a5ab1adf9335b2bc5c219975aff11c9e54292fa
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: "Learn the steps to reset a user's meeting conference ID, and get links to meeting update and migration tools. "
+ms.openlocfilehash: 6cc73876d188f1ae00ec267e14af4771ded7b957
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="reset-a-conference-id-for-a-user"></a>Restablecer un id. de conferencia para un usuario
 
@@ -41,16 +41,24 @@ Identificadores de conferencia sólo se establecen automáticamente sólo para S
   
 ## <a name="resetting-the-conference-id-for-a-user"></a>Restablecer el Id. de conferencia para un usuario
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+**Utilizando los equipos de Microsoft y Skype para el centro de administración de negocios**
+
+1. En la exploración de la izquierda, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
+
+2. En la parte superior de la página, haga clic en **Editar**.
+
+3. Haga clic en el menú situado junto a **Los puentes de conferencia**y, a continuación, haga clic en **Restablecer Id. de conferencia** en la lista desplegable.
+
+2. En la ventana **Restablecer Id. de conferencia** , haga clic en **Aceptar**. Una conferencia que se creará automáticamente el ID y el correo electrónico enviado al usuario con el nuevo ID de conferencia. De forma predeterminada, se envían mensajes de correo electrónico a los usuarios, pero esto se puede desactivar.   
+
+Puede usar el Centro de administración de Skype Empresarial o Windows PowerShell para habilitar o deshabilitar el envío de correos electrónicos a los usuarios.
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+1. En el **Skype para el centro de administración de negocios**, haga clic en **conferencias de Audio** > **usuarios**, seleccione un usuario y, a continuación, en el panel de acción en el **Id. de conferencia** , haga clic en **Restablecer**.
     
-3. En el **Skype para el centro de administración de negocios**, haga clic en **conferencias de Audio** > **usuarios**, seleccione un usuario y, a continuación, en el panel de acción en el **Id. de conferencia** , haga clic en **Restablecer**.
+2. En el **Restablecer Id. de conferencia?** ventana, haga clic en **Sí**. Una conferencia que se creará automáticamente el ID y el correo electrónico enviado al usuario con el nuevo ID de conferencia. De forma predeterminada, se envían mensajes de correo electrónico a los usuarios, pero esto se puede desactivar.
     
-4. En el **Restablecer Id. de conferencia?** ventana, haga clic en **Sí**. Una conferencia que se creará automáticamente el ID y el correo electrónico enviado al usuario con el nuevo ID de conferencia. De forma predeterminada, se envían mensajes de correo electrónico a los usuarios, pero esto se puede desactivar.
-    
-    > [!NOTE]
-    > Después de restablecer el Id. de conferencia, se enviará al usuario un correo electrónico con el nuevo Id. de conferencia. Este mensaje de correo electrónico se enviará a la dirección de correo electrónico principal, en muchos casos, su buzón de correo de Office 365. El correo electrónico contiene el nuevo Id. de conferencia, los números de teléfono de acceso telefónico local predeterminados y las instrucciones para usar la herramienta de actualización de reuniones de Skype Empresarial para actualizar las reuniones existentes. 
+> [!NOTE]
+> Después de restablecer el Id. de conferencia, se enviará al usuario un correo electrónico con el nuevo Id. de conferencia. Este mensaje de correo electrónico se enviará a la dirección de correo electrónico principal, en muchos casos, su buzón de correo de Office 365. El correo electrónico contiene el nuevo Id. de conferencia, los números de teléfono de acceso telefónico local predeterminados y las instrucciones para usar la herramienta de actualización de reuniones de Skype Empresarial para actualizar las reuniones existentes. 
   
 ## <a name="what-else-should-i-know"></a>¿Qué más debo saber?
 

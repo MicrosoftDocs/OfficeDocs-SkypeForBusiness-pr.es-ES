@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 'Resumen: Revisar las consideraciones de dirección URL sencilla en este tema antes de implementar los registros DNS de Skype para Business Server 2015.'
-ms.openlocfilehash: 989ea4f518c1917311759158bbe29355f400138b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 87346a7c4c03837e5ebfdf0143cdb7c786f0e43b
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server-2015"></a>Requisitos de DNS para direcciones URL simples en Skype para Business Server 2015
  
@@ -63,9 +63,8 @@ Si utiliza esta opción, necesita un registro DNS A independiente para cada dire
   
 **Opción de nomenclatura URL simple 1**
 
-|||
-|:-----|:-----|
 |**Dirección URL sencilla** <br/> |**Ejemplo** <br/> |
+|:-----|:-----|
 |Reunión  <br/> |https://meet.contoso.com, https://meet.fabrikam.com, y así sucesivamente (una para cada dominio SIP de su organización)  <br/> |
 |Acceso telefónico local  <br/> |https://dialin.contoso.com  <br/> |
 |Administrador  <br/> |https://admin.contoso.com  <br/> |
@@ -74,9 +73,8 @@ Con la opción 2, simples direcciones URL se basan en el nombre de dominio SfB20
   
 **Opción de nomenclatura URL simple 2**
 
-|||
-|:-----|:-----|
 |**Dirección URL sencilla** <br/> |**Ejemplo** <br/> |
+|:-----|:-----|
 |Reunión  <br/> |https://SfB2015.contoso.com/Meet, https://SfB2015.fabrikam.com/Meet, y así sucesivamente (una para cada dominio SIP de su organización)  <br/> |
 |Acceso telefónico local  <br/> |https://SfB2015.contoso.com/Dialin  <br/> |
 |Administrador  <br/> |https://SfB2015.contoso.com/Admin  <br/> |
@@ -85,9 +83,8 @@ La opción 3 es más útil si tiene varios dominios SIP, y desea tener direccion
   
 **Opción de nomenclatura URL simple 3**
 
-|||
-|:-----|:-----|
 |**Dirección URL sencilla** <br/> |**Ejemplo** <br/> |
+|:-----|:-----|
 |Reunión  <br/> |https://SfB2015.contoso.com/contosoSIPdomain/Meet  <br/> https://SfB2015.contoso.com/fabrikamSIPdomain/Meet  <br/> |
 |Acceso telefónico local  <br/> |https://SfB2015.contoso.com/Dialin  <br/> |
 |Administrador  <br/> |https://SfB2015.contoso.com/Admin  <br/> |

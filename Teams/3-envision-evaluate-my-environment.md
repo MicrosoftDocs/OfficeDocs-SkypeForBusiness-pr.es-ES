@@ -11,13 +11,15 @@ description: Utilice roles y análisis de redes para evaluar la preparación de 
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5d22bd46006b3bdd1f874da021045c36975b4ec
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 3b97a588a55eb1b7183315751a9483d69eeb0b6b
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="evaluate-my-environment"></a>Evaluar mi entorno
+
+Este artículo ofrece una visión general de los requisitos para evaluar correctamente el entorno actual para el uso de servicios de voz de la nube. Mediante la evaluación de su entorno, identificar los riesgos y los requisitos que afectan la implementación de voz de nube global. Al identificar estos elementos con antelación, puede ajustar el diseño para conseguir el éxito.
 
 ## <a name="introduction-to-evaluating-your-environment"></a>Introducción a la evaluación del entorno 
 
@@ -46,20 +48,19 @@ Este conocimiento le ayudará a su organización ajustará su plan del proyecto 
 
 ## <a name="adoption-and-change-management-assessment-capabilities"></a>Capacidades de evaluación de administración de adopción y cambio 
 
-Puede evaluar la preparación de adopción de su organización mediante la ejecución de análisis de rol para elaborar una lista de personas que pueden destinarse para la implementación del sistema de teléfono de conferencia de Audio y con los servicios de Plan de llamadas. Análisis de rol incluyen la identificación de los dispositivos periféricos adicionales u otros dispositivos necesarios para obtener los resultados del negocio previsto.
+Implementación pone una nueva tecnología en manos de un usuario, pero sólo se obtienen los resultados del negocio después de usuarios verdaderamente adoptar esa solución como sus propios. Para asegurar la adopción sostenida de una nueva solución, deberá concentrar sus esfuerzos en la preparación de usuario y administración de cambios. Para obtener resultados óptimos, realice el planeamiento como una secuencia de trabajo paralelo a sus actividades de preparación técnica de la disponibilidad de usuario e incorporar las siguientes actividades:
 
-Para realizar análisis de rol, puede realizar un taller con la participación de partes interesadas relevantes del proyecto, utilizando el deck de taller de [Alineación de la Persona](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_7) y [Persona característica matriz](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_8).
-Puede resumir los resultados del taller de análisis de rol en un informe mediante la plantilla de [Informe de análisis de la Persona](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_9) .
+-   **Organizativa y generación de perfiles de usuario:** Análisis de la receptividad organizacional para cambiar además de análisis de uso mayúsculas y minúsculas y rol
 
->[!NOTE]
->Aunque los activos de la persona se escribieron inicialmente Skype para los negocios en línea, la mayoría del contenido es relevante para los equipos. No dude en modificar y quitar elementos que no son relevantes para los objetivos del proyecto.
+-   **Preparación de preparación y recursos:** Creación del conocimiento destino y de amplio alcance, formación y recursos de soporte, incluyendo centrado valor mensajería para acelerar la compra de usuario
+
+Utilice las siguientes consideraciones para evaluar la preparación de su organización para la administración de cambio de usuario.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul><li> ¿Quién será responsable de completar una evaluación de función y alineación de persona?</li><li>Evaluar su capacidad para realizar la adopción y cambiar la administración de la organización.</li></ol></td></tr>
-
-
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Documentar los resultados de la evaluación de alineación y función del rol.</li><li>Si es necesario, haga participar a los recursos externos para ayudar a impulsar la adopción y cambiar la administración de la organización.</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul><li>¿Ha tenido éxito previo con la adopción de usuario del software o los servicios?</li><li>¿Puede hacer un seguimiento de absorción de uso?</li><li>¿Tiene los recursos necesarios para diseñar y administrar inicial&mdash;y&mdash;campaña de adopción (sensibilización, formación y asistencia)?</li><li>¿Tiene un equipo de gestión de la adopción o cambiar de usuario dedicada, o pueden invertir en esos recursos para garantizar los resultados del negocio?</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Si respondió "Sí" a todas las anteriores, identificar a los participantes de administración de cambio de usuario correcto y empezar la planificación de la disponibilidad de usuario.</li><li>Si respondió "no" a algunas o a todas las anteriores, considere contratar recursos externos para ayudar a impulsar la administración de cambios y actividades relacionadas con la adopción de su organización.</li></ol></td></tr>
 </table>
+
 
 <!--ENDOFSECTION-->
 

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Lea este tema para obtener información acerca de cómo asignar directivas de conferencias para cuentas del Sistema de salas de Skype.
-ms.openlocfilehash: 73ab8f48bc399f4478b0a9c22aceb68d7a54a11b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 07ce5031bd053837d69d3ed3da27aabb344c3a65
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Directiva de conferencias para las cuentas del Sistema de salas de Skype
  
@@ -24,9 +24,8 @@ Lea este tema para obtener información acerca de cómo asignar directivas de co
 
 La directiva de conferencia asignada a la cuenta de sistema del sitio de Skype debe tener ciertas características. La mayoría de los casos, el cliente de sistema de sala de Skype se une a una reunión programada y, por tanto, la directiva de conferencia del organizador de la reunión afectará a la conferencia. Sin embargo, en Skype para Business Server, ciertas capacidades dependen configuración del participante en la. Por ejemplo, si la directiva de los participantes permite una resolución máxima de vídeo de 1080p, los participantes experimentar esta capacidad de vídeo de resolución más alto en la conferencia incluso si directiva del organizador no lo permite. La tabla siguiente describe varias la configuración que debe tener en cuenta al configurar las directivas de la conferencia para cuentas de sistema del sitio de Skype en su organización. 
   
-||||
-|:-----|:-----|:-----|
 |Característica  <br/> |Valor  <br/> |Comment  <br/> |
+|:-----|:-----|:-----|
 |AllowIPAudio  <br/> |TRUE  <br/> |Debe ser true para el sonido del sistema de sala de Skype  <br/> |
 |AllowIPVideo  <br/> |TRUE  <br/> |Debe ser true para audio de sistema del sitio de Skype trabajar en sesiones de Pizarra (ad hoc) Reunirse ahora en el sistema del sitio de Skype  <br/> |
 |AllowMultiView  <br/> |TRUE  <br/> |Permite sistema Skype sala representar vistas múltiples, varias secuencias de vídeo  <br/> |

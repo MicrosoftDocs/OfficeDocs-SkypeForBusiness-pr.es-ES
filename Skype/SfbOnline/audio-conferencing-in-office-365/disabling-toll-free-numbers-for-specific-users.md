@@ -1,5 +1,5 @@
 ---
-title: "Desactivación de números de teléfono gratuitos para usuarios específicos"
+title: Desactivación de números de teléfono gratuitos para usuarios específicos
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Los administradores pueden controlar cómo los organizadores pueden usar números de teléfono gratuitos para sus reuniones."
-ms.openlocfilehash: fb4b0f8725608928e686307845871b4f5c1976d9
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: Los administradores pueden controlar cómo los organizadores pueden usar números de teléfono gratuitos para sus reuniones.
+ms.openlocfilehash: d0b7703f4dd518caa5ffb339282c5a7bbac4daa3
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="disabling-toll-free-numbers-for-specific-users"></a>Desactivación de números de teléfono gratuitos para usuarios específicos
 
@@ -42,14 +42,31 @@ Cuando los números gratuitos están deshabilitados para el organizador de una d
 
  - Los participantes pueden continuar unirse a reuniones del organizador con números de teléfono. 
 
-## <a name="disabling-toll-free-numbers-for-specific-users-using-the-skype-for-business-admin-center"></a>Desactivación de números de teléfono gratuitos para usuarios específicos mediante el Skype para el centro de administración de negocios 
- 1. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**. 
- 2. En el Skype para el centro de administración de negocios, en la exploración de la izquierda, vaya a las **conferencias de Audio** > **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles. 
- 3. En el panel de acciones, haga clic en **Editar**. 
- 4. Active o desactive **Permitir mediante números de teléfono gratuitos para unirse a las reuniones de este usuario**. 
- 5. Haga clic en **Guardar**. 
+## <a name="disabling-toll-free-numbers-for-specific-users"></a>Desactivación de números de teléfono gratuitos para usuarios específicos 
+
+**Utilizando los equipos de Microsoft y Skype para el centro de administración de negocios**
+
+1. En la exploración de la izquierda, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
+
+2. En la parte superior de la página, haga clic en **Editar**.
+
+3. Haga clic en el menú situado junto a **Los puentes de conferencia**y, a continuación, haga clic en **Editar** en la lista desplegable.
+
+4. En el panel de **proveedor de puente de conferencia** , desactive **Permitir utilizando números gratuitos en el puente de conferencia de la organización para unirse a las reuniones de este usuario**. 
+
+5. Haga clic en **Aplicar.** 
+
+Puede usar el Centro de administración de Skype Empresarial o Windows PowerShell para habilitar o deshabilitar el envío de correos electrónicos a los usuarios.
+
+1. En el **Skype para el centro de administración de negocios**, en la exploración de la izquierda, vaya a las **conferencias de Audio** > **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles. 
+
+2. En el panel de acciones, haga clic en **Editar**. 
+
+3. Desactive **Permitir mediante números de teléfono gratuitos para unirse a las reuniones de este usuario**. 
  
-## <a name="disabling-toll-free-numbers-for-specific-users-using-powershell"></a>Desactivación de números de teléfono gratuitos para usuarios específicos mediante PowerShell  
+4. Haga clic en **Guardar**. 
+ 
+**Uso de PowerShell**  
 
 Puede utilizar el parámetro AllowTollFreeDialIn del cmdlet Set-CsOnlineDialInConferencingUser para habilitar o deshabilitar este control. Por ejemplo: 
 

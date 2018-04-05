@@ -23,11 +23,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Consulte cómo probar o adquirir licencias de conferencia de Audio (conferencias PSTN) para Office 365 configurar llamadas de conferencia pueden llamar a las personas. '
-ms.openlocfilehash: 1dda3a2ecc24e512e9d614b42292233471525805
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: eec26ca81cf9ee29d0d341720c2fdb353038a1e1
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365"></a>Probar o comprar Audio conferencia en Office 365
 
@@ -75,10 +75,7 @@ Si usted es un cliente de volumen y licencias, puede obtener licencias de confer
   
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Paso 2: Establecer el proveedor de conferencia de audio para las personas que conducen o programan reuniones
 
-Cuando se asigna una licencia de **Conferencia de Audio** a las personas de la organización que conducen o programar reuniones, son todos configurados y listo para ir! (No es necesario establecer su proveedor de conferencia de audio.) 
-  
-> [!NOTE]
-> Si desea utilizar un ACP de terceros, elija **conferencias de Audio** > **puente de Microsoft**. En la parte inferior de la página, haga clic en **Si en su lugar desea configurar un proveedor de servicios de audioconferencia de terceros, haga clic aquí**. 
+Cuando se asigna una licencia de **Conferencia de Audio** a las personas de la organización que conducen o programar reuniones, son todos configurados y listo para ir! (No es necesario establecer su proveedor de conferencia de audio.)  
   
 ## <a name="step-3-other-admin-tasks"></a>Paso 3: ¿Otras tareas administrativas
 

@@ -11,17 +11,15 @@ description: Medir los resultados de la implementación de conferencias de Audio
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1b0b40dd3b8a034d655a14e0dd905f8a9a3c0ec
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 80af34d827ecc1646e85f7a8db4593dbf446ed30
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="define-my-success"></a>Definir mi éxito
 
-## <a name="introduction"></a>Introducción
-
-Este contenido proporciona una visión general de los requisitos para definir correctamente el éxito de la implementación de conferencias de Audio para su organización. Si se define adecuadamente su éxito, puede medir los resultados a medida que avance a través de su implementación y compruebe que los resultados que obtendrá los resultados que desea.
+Este artículo ofrece una visión general de los requisitos para la definición de éxito para la implementación de conferencias de Audio para su organización. Definiendo correctamente qué se considera exitoso, puede medir los resultados a medida que avance a través de la implementación y comprobar que los resultados que obtendrá son las que deseaba.
 
 <!--ENDOFSECTION-->
 

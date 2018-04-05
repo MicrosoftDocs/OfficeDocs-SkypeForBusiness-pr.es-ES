@@ -11,15 +11,17 @@ description: Obtenga información sobre las reuniones, las licencias y la dispon
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a4007b328ec66bed0ccae0160491b4ee20f858
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: fa51cda9a9ce57d7672b152b45eb9c8e3cf4ba46
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 
 Para planear la implementación técnica de conferencia de Audio, debe realizar una serie de decisiones de servicio antes de tiempo para preparar mejor a su organización a implementar una solución que satisfaga sus requisitos de negocio definidos.
+
+## <a name="audio-conferencing-in-teams"></a>Conferencias de audio en los equipos
 
 Como parte de la definición de las características de conferencia de Audio necesarias en Microsoft Teams, uno de los primeros pasos consiste en evaluar el plan público más reciente para determinar:
 
@@ -296,13 +298,13 @@ Traslado de número de teléfono es un tema complejo y requiere planificación m
 
 ## <a name="dial-plans"></a>Planes de marcado
 
-A Dial Plan in the Phone System feature of Office 365 is a set of normalization rules that translates dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing. The Audio Conferencing service leverages the same capabilities used by Phone System to translate dialed phone numbers in conference dial-out scenarios (for example, invite participants via PSTN and dial back, “call me” feature).
+Un Plan de marcado en la función de sistema de teléfono de Office 365 es un conjunto de reglas de normalización que traduce marcaba números de teléfono en un formato alternativo (normalmente en formato E.164) para la autorización de llamada y el enrutamiento de llamadas. El servicio de conferencia de Audio aprovecha las mismas capacidades de sistema de teléfono utilizadas para convertir los números de teléfono marcado en escenarios de acceso telefónico de salida de conferencia (por ejemplo, invitar a participantes a través de PSTN y marcado, la característica "Llamarme").
 
-In the Phone System feature of Office 365, there are two types of dial plans:
+En la función de sistema de teléfono de Office 365, hay dos tipos de planes de marcado:
 
--   **Service dial plan:** This is the default dial plan that’s applied to users based on their Office 365 usage location, and it can’t be modified.
+-   **Plan de marcado de servicio:** De forma predeterminada el plan de marcado que se aplica a los usuarios basándose en su ubicación de uso de Office 365 y no puede modificarse.
 
--   **Tenant dial plan:** This is a customizable dial plan within a tenant, which is further divided into two types:
+-   **Plan de marcado de inquilinos:** Se trata de un plan de marcado personalizable dentro de un arrendatario, que se divide en dos tipos:
 
     -   **Plan de marcado de inquilinos global:** El plan de marcado que se aplica a todos los usuarios de los inquilinos.
 
@@ -334,7 +336,7 @@ Para obtener más información acerca de los planes de marcado, consulte [¿Cuá
 >|**SG-Singapore-OMB**<br>_Plan de marcado de OMB Singapore, SG_|**SG-OMB-Internal**<br>_Número interno (x8000 â €"x 8999) para la oficina de OMB, Singapur_|^(8\d{3})$<br>+656888$1<br>True|
 >||**SG-TollFree**<br>_Normalización de número gratuito para Singapur_|^(1?800\d{7})\d*$<br>+65$1<br>False|
 >||**SG-Service**<br>_Normalización de número de servicio para Singapur_|^(1\d{3,4}\|9\d{2})$<br>1 $<br>False|
->|**FR-Paris-Issy-39qdPR**<br>_Plan de marcado de 39 quai du Président Roosevelt Issy-les-Moulineaux, Francia_|**FR-39qdPR-Internal**<br>_Internal number (x7000 â€“ x7999) for 39 quai du Président Roosevelt office, Issy-les-Moulineaux, France_|^(7\d{3})$<br>+3319999$1<br>True|
+>|**FR-Paris-Issy-39qdPR**<br>_Plan de marcado de 39 quai du Président Roosevelt Issy-les-Moulineaux, Francia_|**FR-39qdPR-Internal**<br>_Número interno (x7000 â €"x 7999) para 39 quai du Président Roosevelt office, Issy-les-Moulineaux, Francia_|^(7\d{3})$<br>+3319999$1<br>True|
 >||**FR-TollFree**<br>_Normalización de número gratuito para Francia_|^0?(80\d{7})\d*$<br>+33$1<br>False|
 >||**FR-Service**<br>_Normalización de número de servicio para Francia_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>1 $<br>False|
 
@@ -358,9 +360,9 @@ Para obtener más información acerca de los planes de marcado, consulte [¿Cuá
 
 <!--ENDOFSECTION-->
 
-## <a name="document-service-decisions"></a>Document service decisions 
+## <a name="document-service-decisions"></a>Decisiones del servicio de documento 
 
-Use the information from the previous sections of this article to document your service decisions. In general, this documentation will contain the following main sections:
+Utilice la información de las secciones anteriores de este artículo para documentar sus decisiones de servicio. En general, esta documentación contiene las secciones principales siguientes:
 
 -   Lista de habilitación del sitio de servicio de Audioconferencia
 
@@ -374,7 +376,7 @@ Use the information from the previous sections of this article to document your 
 
 -   Asignaciones de configuraciones de puentes de conferencia
 
--   Phone numbers acquisition plans
+-   Planes de adquisición de números de teléfono
 
 -   Planes de marcado de inquilino
 

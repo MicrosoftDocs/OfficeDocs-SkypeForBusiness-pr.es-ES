@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 'Resumen: Implementar IPv6 antes de instalar Skype para Business Server 2015.'
-ms.openlocfilehash: e91b0a3afabf8088d6fed2f21124fb17a4f7e94f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 40c5209a582aeb55657e8e1f0b8971f2c8ed79d0
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Planificar IPv6 en Skype Empresarial
  
@@ -128,9 +128,8 @@ La siguiente tabla muestra la matriz de soporte entre el grupo de servidor Front
   
 **Grupo de servidores Front-End y matriz de borde Pool (contorno interno)**
 
-|||||
-|:-----|:-----|:-----|:-----|
 ||**Grupo de servidores perimetrales: IPv4** <br/> |**Grupo de servidores perimetrales: pila dual** <br/> |**Grupo de servidores perimetrales: IPv6** <br/> |
+|:-----|:-----|:-----|:-----|
 |**Grupo de servidores front-end: IPv4** <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
 |**Grupo de servidores front-end: pila dual** <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
 |**Grupo de servidores front-end: IPv6** <br/> |No  <br/> |No  <br/> |Sí\*  <br/> |
@@ -141,9 +140,8 @@ La tabla siguiente es una matriz de combinaciones admitidas de las interfaces pe
   
 **Piscina de borde (contorno interno) y el borde de la piscina Matrix (contorno externo)**
 
-|||||
-|:-----|:-----|:-----|:-----|
 ||**Grupo de servidores perimetrales (perímetro externo): IPv4** <br/> |**Grupo de servidores perimetrales (perímetro externo): pila dual** <br/> |**Grupo de servidores perimetrales (perímetro externo): IPv6** <br/> |
+|:-----|:-----|:-----|:-----|
 |**Grupo de servidores perimetrales (perímetro interno): IPv4** <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
 |**Grupo de servidores perimetrales (perímetro interno): pila dual** <br/> |No  <br/> |Sí  <br/> |No  <br/> |
 |**Grupo de servidores perimetrales (perímetro interno): IPv6** <br/> |No  <br/> |No  <br/> |Sí\*  <br/> |

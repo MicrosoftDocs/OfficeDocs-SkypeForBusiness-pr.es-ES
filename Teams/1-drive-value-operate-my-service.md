@@ -11,13 +11,15 @@ description: Las tareas y actividades necesarias para la administración de serv
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f8abb573203bcb3f0292604c3b439f5903aa221
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 308ca6bd3ea0dcd847756392d8db721b48aa8d08
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="operate-my-service"></a>Operar mi servicio
+
+Este artículo ofrece una visión general de los requisitos para el funcionamiento con éxito servicios de nube de voz para su organización. Accionando correctamente los servicios de voz de la nube, es asegurarse de que va a proporcionar una experiencia confiable de alta calidad para su organización.
 
 ## <a name="introduction-to-the-operations-guide"></a>Introducción a la Guía de operaciones
 
