@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: Strat_SB_Hybrid
 ms.assetid: 6a523c86-2eac-4fa4-973a-4406872c9a7d
 description: 'Resumen: Conozca cómo migrar la configuración de usuario y mover usuarios a Skype para los negocios en línea.'
-ms.openlocfilehash: dada94d1bc198a86a06c468dc959fa0684e706d2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 352798c217cb7495134cb32996db783f7e498ded
+ms.sourcegitcommit: cacd16f596460c1400dd514437794afd04bddadc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>Mover usuarios de local a Skype Empresarial Online
  
@@ -30,7 +30,7 @@ Antes de mover el usuario a Office 365, debería confirmar primero que las cuent
   
 ### <a name="to-confirm-that-an-on-premises-user-account-has-been-synchronized-with-office-365"></a>Para confirmar que se ha sincronizado una cuenta de usuario local con Office 365
 
-1. Con una cuenta de administrador de inquilinos, abra el [Centro de administración de Office 365](https://portal.office.com/) para el arrendatario.
+1. Con una cuenta de administrador de inquilinos, abra el [Centro de administración de Office 365](https://portal.office.com/) para el arrendatario.  Cuentas del Administrador de inquilinos deben concederse ambos el Skype para la función de administrador de empresa y la función de administración de usuario (o la función de administrador Global) realizar esta función en Office 365
     
 2. En el panel de navegación izquierdo, haga clic en **Usuarios** y, después, en **Usuarios activos**.
     

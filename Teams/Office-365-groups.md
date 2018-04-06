@@ -6,15 +6,15 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Aprenda cómo funcionan los grupos y las pertenencias a grupos de Office 365 con Microsoft Teams."
+description: Aprenda cómo funcionan los grupos y las pertenencias a grupos de Office 365 con Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 981a3ba78f70f7ae1eb8ab90e1fb23a4e60a516e
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 9f16a99f00add1e93bfdf4cde29f4b75f384a296
+ms.sourcegitcommit: cacd16f596460c1400dd514437794afd04bddadc
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/06/2018
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Grupos de Office 365 y Microsoft Teams
 =====================================
@@ -37,6 +37,6 @@ Cuando crea un equipo de Microsoft Teams, en el back-end se crea un Grupo de Off
 <a name="group-membership"></a>Pertenencia a grupos
 ----------------
 
-En función de dónde proceda la pertenencia a grupos, las características y las capacidades que tendrán los usuarios serán distintas. Por ejemplo, si quita un miembro de un equipo, se quitará también del grupo de Office 365. Al eliminarlo del grupo, se elimina inmediatamente del equipo y los canales del cliente de Microsoft Teams. Si quita una persona de un grupo a través del portal de administración de Office 365, ya no tendrá acceso a otros aspectos de colaboración, como la biblioteca de documentos de SharePoint Online, Yammer Group o OneNote compartido. Sin embargo, seguirá teniendo acceso a la funcionalidad de chat del equipo durante una hora aproximadamente.
+Características de los grupos y las capacidades de los usuarios depende donde usted maneja la pertenencia a un grupo de. Por ejemplo, si quita a un miembro de un equipo, se quitan del grupo de 365 de Office. Eliminación del grupo inmediatamente quita el equipo y los canales desde el cliente de los equipos. Si quita a una persona de un grupo mediante el portal de administración de Office 365, ya no tendrán acceso a los otros aspectos de colaboración como biblioteca de documentos SharePoint Online, grupo Yammer o compartida OneNote. Sin embargo, aún tendrán acceso a la funcionalidad de chat del equipo durante una hora aproximadamente.
 
-Nuestra recomendación con respecto a la administración de miembros de Microsoft Teams es la de agregar o eliminar funcionalidades a través del cliente de Microsoft Teams para garantizar que se aplica el correcto control de acceso en cascada a otras aplicaciones de nube dependientes. Además, así evitará una experiencia fraccionada, ya que los usuarios tendrán la impresión de que siguen teniendo acceso a los recursos que solían tener (hasta que en el siguiente ciclo de sincronización se agregue o se revoque el acceso a un determinado componente del servicio).
+Mejores prácticas para administrar los miembros de los equipos: agregar y quitar miembros desde el cliente de los equipos para asegurar el correcto control de acceso en cascada a otras aplicaciones de nube dependientes se aplica. Además, evitará una experiencia inconexa dejando la gente con la impresión aún tienen acceso a los recursos que se solía (hasta que se agrega el siguiente ciclo de sincronización o revoca el acceso a un componente concreto del servicio). Si agrega o quita los miembros del equipo fuera el cliente de los equipos (utilizando Office 365 Admin Center, AD Azure, o PowerShell en línea de Exchange), que a veces tarda hasta una hora para que los cambios se reflejen en los equipos.

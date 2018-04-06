@@ -23,11 +23,12 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: "Learn what Office 365 Callings Plans (PSTN calling) are, what regions it's available in, and where to go for step by step instructions on how to set it up. "
-ms.openlocfilehash: cc6405662eef6be5a2461147356b2a1a58fccf0f
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+search.appverid: MED150, MOE150
+ms.openlocfilehash: 235000b5b6446d5b622a7abbc1af216d3340b1d0
+ms.sourcegitcommit: cacd16f596460c1400dd514437794afd04bddadc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="what-are-calling-plans-in-office-365"></a>¿Qué planes de llamada Office 365?
 
