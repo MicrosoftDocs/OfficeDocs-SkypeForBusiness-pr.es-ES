@@ -6,6 +6,7 @@
 ## [Comprobar la preparación del entorno para Teams](environment-readiness.md).
 ## [Preparar la red de la organización para Microsoft Teams](prepare-network.md)
 ## [URL de Office 365 e intervalos de direcciones IP](Office-365-URLs-IP-address-ranges.md)
+## [Límites y especificaciones de equipos](limits-specifications-teams.md)
 
 
 
@@ -224,7 +225,7 @@
 ### [1.1 - descubrimientos del entorno para la implementación de equipos de Microsoft](environmental-discovery-for-microsoft-teams-rollout.md)
 ## [2. Crear un proyecto piloto de Microsoft Teams junto a Skype Empresarial](pilot-essentials.md)
 ### [2.1 - Seleccionar usuarios para la prueba piloto de equipos](select-users-for-your-teams-pilot.md)
-## [3 - actualizar viaje y coexistencia de Skype para empresas y equipos](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+## [3 - comprender la coexistencia y actualizar los modos para Skype para empresas y equipos](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ## [4 - Generar valor a través de la adopción de usuarios](continue-journey.md)
 ## [Preguntas frecuentes: Skype Empresarial y Microsoft Teams](FAQ-journey.md)
 ## [Tutorial: Recorrido desde Skype Empresarial a Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)

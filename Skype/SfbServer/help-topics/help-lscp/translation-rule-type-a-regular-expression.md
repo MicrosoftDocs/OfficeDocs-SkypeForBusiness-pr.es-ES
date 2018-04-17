@@ -1,12 +1,27 @@
 ---
-<span data-ttu-id="53706-101">título: "Traducción regla tipo una expresión Regular" ms.author: kenwith autor: Administrador de kenwith: serdars ms.date: 17/11/2014 ms.audience: ms.topic de ITPro: artículo f1_keywords:</span><span class="sxs-lookup"><span data-stu-id="53706-101">title: "Translation Rule Type a Regular Expression" ms.author: kenwith author: kenwith manager: serdars ms.date: 11/17/2014 ms.audience: ITPro ms.topic: article f1_keywords:</span></span>
-- <span data-ttu-id="53706-102">ms.lync.lscp.VoiceRuleRegexEdit ms.prod: localization_priority de Skype para negocios itpro: Normal ms.assetid: descripción de 5ee83724-b399-4f8d-8f6d-4b53a26296b4: "en este campo patrón de coincidencia, especifique el modelo que se utiliza para que coincida con el números que se traducirán.</span><span class="sxs-lookup"><span data-stu-id="53706-102">ms.lync.lscp.VoiceRuleRegexEdit ms.prod: skype-for-business-itpro localization_priority: Normal ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4 description: "In the Match this pattern field, specify the pattern that will be used to match the numbers to be translated.</span></span> <span data-ttu-id="53706-103">En el campo regla de traducción, especificar un modelo de formato de los números traducidos.</span><span class="sxs-lookup"><span data-stu-id="53706-103">In the Translation rule field, specify a pattern for the format of translated numbers.</span></span> <span data-ttu-id="53706-104">Por ejemplo, si escribe ^\+(\d{9}\d+)$ en la coincidencia de patrón esto campo y 011$ 1 en el campo de regla de traducción, la regla traducirá +441235551010 a 011441235551010. "</span><span class="sxs-lookup"><span data-stu-id="53706-104">For example, if you enter ^\+(\d{9}\d+)$ in the Match this pattern field and 011$1 in the Translation rule field, the rule will translate +441235551010 to 011441235551010."</span></span>
+title: Translation Rule Type a Regular Expression
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.date: 11/17/2014
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.lscp.VoiceRuleRegexEdit
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
+description: In the Match this pattern field, specify the pattern that will be used to match the numbers to be translated. In the Translation rule field, specify a pattern for the format of translated numbers. For example, if you enter ^\+(\d{9}\d+)$ in the Match this pattern field and 011$1 in the Translation rule field, the rule will translate +441235551010 to 011441235551010.
+ms.openlocfilehash: b5fc6c33bea5c7eca59fb06bee089fab0c9df061
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 04/16/2018
 ---
-
-# <a name="translation-rule-type-a-regular-expression"></a><span data-ttu-id="53706-105">Regla de traducción: Escriba una expresión Regular</span><span class="sxs-lookup"><span data-stu-id="53706-105">Translation Rule: Type a Regular Expression</span></span>
+# <a name="translation-rule-type-a-regular-expression"></a><span data-ttu-id="9d8bf-105">Translation Rule: Type a Regular Expression</span><span class="sxs-lookup"><span data-stu-id="9d8bf-105">Translation Rule: Type a Regular Expression</span></span>
  
-<span data-ttu-id="53706-106">En el campo **coincide con este modelo** , especificar el patrón que se utilizará para coincidir con los números que se traducirán.</span><span class="sxs-lookup"><span data-stu-id="53706-106">In the **Match this pattern** field, specify the pattern that will be used to match the numbers to be translated.</span></span> <span data-ttu-id="53706-107">En el campo **regla de traducción** , especificar un modelo de formato de los números traducidos.</span><span class="sxs-lookup"><span data-stu-id="53706-107">In the **Translation rule** field, specify a pattern for the format of translated numbers.</span></span> <span data-ttu-id="53706-108">Por ejemplo, si escribe ^\+(\d{9}\d+)$ en el campo de **este patrón de coincidencia** y 011$ 1 en el campo **regla de traducción** , la regla se traducirá +441235551010 a 011441235551010.</span><span class="sxs-lookup"><span data-stu-id="53706-108">For example, if you enter ^\+(\d{9}\d+)$ in the **Match this pattern** field and 011$1 in the **Translation rule** field, the rule will translate +441235551010 to 011441235551010.</span></span>
+<span data-ttu-id="9d8bf-106">In the **Match this pattern** field, specify the pattern that will be used to match the numbers to be translated.</span><span class="sxs-lookup"><span data-stu-id="9d8bf-106">In the **Match this pattern** field, specify the pattern that will be used to match the numbers to be translated.</span></span> <span data-ttu-id="9d8bf-107">In the **Translation rule** field, specify a pattern for the format of translated numbers.</span><span class="sxs-lookup"><span data-stu-id="9d8bf-107">In the **Translation rule** field, specify a pattern for the format of translated numbers.</span></span> <span data-ttu-id="9d8bf-108">For example, if you enter ^\+(\d{9}\d+)$ in the **Match this pattern** field and 011$1 in the **Translation rule** field, the rule will translate +441235551010 to 011441235551010.</span><span class="sxs-lookup"><span data-stu-id="9d8bf-108">For example, if you enter ^\+(\d{9}\d+)$ in the **Match this pattern** field and 011$1 in the **Translation rule** field, the rule will translate +441235551010 to 011441235551010.</span></span>
   
-<span data-ttu-id="53706-109">Para obtener más información acerca de los distintos procedimientos que se pueden realizar utilizando el Skype para Business Server Control Panel, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="53706-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="9d8bf-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="9d8bf-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 
