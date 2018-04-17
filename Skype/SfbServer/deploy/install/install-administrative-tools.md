@@ -11,57 +11,57 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
-description: 'Resumen: Conozca cómo instalar las herramientas administrativas necesarias para una instalación de Skype para Business Server 2015. Descargue una prueba gratuita de Skype para Business Server 2015 desde el centro de Evaluation de Microsoft en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: e54dfd4b29f3947b58517007949922a5c1230d51
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Summary: Learn how to install the administrative tools required for an installation of Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: c0d6b4a2ad41fbca4c89e6095a34eabf08e191ee
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server-2015"></a>Instalar herramientas administrativas en Skype Empresarial Server 2015
  
-**Resumen:** Obtenga información acerca de cómo instalar las herramientas administrativas necesarias para una instalación de Skype para Business Server 2015. Descargue una prueba gratuita de Skype para Business Server 2015 desde el centro de Evaluation de Microsoft en: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Summary:** Learn how to install the administrative tools required for an installation of Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
-Las herramientas administrativas incluyen el generador de topología y el Panel de Control. Las herramientas administrativas deben instalarse en al menos un servidor en la topología o en una estación de trabajo de administración de 64 bits que ejecuta una versión de sistema operativo de Windows que es compatible con Skype para Business Server. Puede realizar los pasos 1 a 5 en cualquier orden. Sin embargo, debe realizar los pasos 6, 7 y 8 en orden y después los pasos del 1 al 5, tal como se indica en el diagrama. Instalar las herramientas administrativas es el paso 3 de 8.
+The administrative tools include Topology Builder and the Control Panel. The administrative tools must be installed on at least one server in the topology or a 64-bit management workstation running a Windows OS version that is supported for Skype for Business Server. You can do steps 1 through 5 in any order. However, you must do steps 6, 7, and 8 in order, and after steps 1 through 5, as outlined in the diagram. Installing the administrative tools is step 3 of 8.
   
 ![Diagrama de información general](../../media/d856afe8-4758-432f-bc45-e1956016419a.png)
   
-## <a name="install-skype-for-business-server-2015-administrative-tools"></a>Instalar Skype para herramientas administrativas Business Server 2015
+## <a name="install-skype-for-business-server-2015-administrative-tools"></a>Install Skype for Business Server 2015 administrative tools
 
-Los medios de instalación de Skype para Business Server 2015 proporcionan una experiencia flexible. Cuando ejecuta Setup.exe por primera vez, las únicas herramientas instaladas son el Skype para el Asistente para implementación de Business Server y el Skype para el Shell de administración de servidor empresarial. Mediante el uso de estas dos herramientas, conocidas como componentes principales, puede continuar con el proceso de instalación, pero no proporcionan la funcionalidad principal para el Skype para el entorno de servidor empresarial general. El Asistente para la implementación se inicia automáticamente después de instalar los componentes principales. La sección del Asistente de implementación titulado **Instalar herramientas administrativas** instala Skype para el generador de topología de servidor empresarial y Skype para Business Server Control Panel.
+The installation media for Skype for Business Server 2015 provides a flexible experience. When you first run Setup.exe, the only tools installed are the Skype for Business Server Deployment Wizard and the Skype for Business Server Management Shell. By using these two tools, known as Core Components, you can continue with the installation process, but they do not provide primary functionality for the overall Skype for Business Server environment. El Asistente para la implementación se inicia automáticamente después de instalar los componentes principales. The section of the Deployment Wizard titled **Install Administrative Tools** installs Skype for Business Server Topology Builder and Skype for Business Server Control Panel.
   
 > [!IMPORTANT]
-> Cada Skype para entorno Business Server debe tener al menos un servidor con las herramientas administrativas instaladas. 
+> Every Skype for Business Server environment must have at least one server with the administrative tools installed. 
   
 Vea los pasos del vídeo para **Instalar herramientas administrativas**:
   
-![Su explorador no admite vídeo. Instale Microsoft Silverlight, Adobe Flash Player o Internet Explorer 9.](../../media/MSN_Video_Widget.gif)
+> [!video https://www.microsoft.com/en-us/videoplayer/embed/99a5c436-963b-4eed-b423-651568c87cb1?autoplay=false]
   
-### <a name="install-skype-for-business-server-2015-administrative-tools-from-the-deployment-wizard"></a>Instalar Skype para Business Server 2015 herramientas administrativas desde el Asistente para implementación
+### <a name="install-skype-for-business-server-2015-administrative-tools-from-the-deployment-wizard"></a>Install Skype for Business Server 2015 administrative tools from the Deployment Wizard
 
-1. Inserte el Skype para los medios de instalación de Business Server 2015. Si la configuración no empieza automáticamente, haga doble clic en **Configuración**.
+1. Insert the Skype for Business Server 2015 installation media. Si la configuración no empieza automáticamente, haga doble clic en **Configuración**.
     
 2. La ejecución del disco de instalación necesita Microsoft Visual C++. Aparecerá un cuadro de diálogo preguntándole si quiere instalarlo. Haga clic en **Sí**.
     
-3. De forma inteligente, una nueva característica de Skype para Business Server 2015, puede conectarse a Internet para buscar actualizaciones durante el proceso de instalación. Esto proporciona una mejor experiencia, ya que se asegura de que dispone de las actualizaciones más recientes del producto en el momento de la instalación. Haga clic en **Instalar** para empezar la instalación.
+3. By using Smart Setup, a new feature in Skype for Business Server 2015, you can connect to the Internet to check for updates during the installation process. Esto proporciona una mejor experiencia, ya que se asegura de que dispone de las actualizaciones más recientes del producto en el momento de la instalación. Haga clic en **Instalar** para empezar la instalación.
     
 4. Revise cuidadosamente el contrato de licencia y, si está de acuerdo, elija **Acepto los términos del Contrato de licencia** y haga clic en **Aceptar**.
     
-5. El Skype para componentes de núcleo de 2015 Business Server se instalará en el servidor. 
+5. The Skype for Business Server 2015 Core Components will be installed on the server. 
     
     Estos componentes incluyen lo siguiente, como se muestra en la figura.
     
     ![Componentes principales de la pantalla Aplicaciones.](../../media/0da1d983-4c4b-4b23-a196-c3bdba4857c6.png)
   
-  - **Skype para el Asistente de implementación de Business Server 2015** Programa de implementación que proporciona una plataforma de lanzamiento para instalar los diferentes componentes de Skype para Business Server 2015.
+  - **Skype for Business Server 2015 Deployment Wizard** A deployment program that provides a launch pad for installing the various components of Skype for Business Server 2015.
     
-  - **Skype para el Shell de administración de negocio servidor 2015** Un programa de PowerShell preconfigurado que permite administración de Skype para Business Server 2015.
+  - **Skype for Business Server 2015 Management Shell** A preconfigured PowerShell program that allows for administration of Skype for Business Server 2015.
     
-    Una vez finalizada la instalación de los componentes principales, se iniciará automáticamente el Skype para el Asistente para implementación de Business Server 2015, como se muestra en la figura. 
+    Once the installation of the Core Components is complete, the Skype for Business Server 2015 Deployment Wizard will automatically launch, as shown in the figure. 
     
     ![Asistente de implementación del servidor de Skype Empresarial 2015](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
   
-6. Además de los componentes principales, también necesitará instalar Skype para el generador de topología de Business Server 2015 y Skype para Panel de Control de Business Server 2015 en al menos un servidor en el entorno. Haga clic en **Instalar herramientas administrativas** en el Asistente para la implementación.
+6. In addition to the Core Components, you will also need to install Skype for Business Server 2015 Topology Builder and Skype for Business Server 2015 Control Panel on at least one server in the environment. Haga clic en **Instalar herramientas administrativas** en el Asistente para la implementación.
     
 7. Haga clic en **Siguiente** para empezar la instalación.
     
@@ -69,8 +69,8 @@ Vea los pasos del vídeo para **Instalar herramientas administrativas**:
     
     ![Herramientas administrativas del servidor de Skype Empresarial 2015](../../media/760873dd-9c87-4efb-bf98-7162d876fd18.png)
   
-   - **Skype para el generador de topología Business Server 2015** Un programa utilizado para generar, implementar y administrar topologías.
+   - **Skype for Business Server 2015 Topology Builder** A program used to build, deploy, and manage topologies.
     
-   - **Skype para Panel de Control de Business Server 2015** Un programa que se utiliza para administrar la instalación.
+   - **Skype for Business Server 2015 Control Panel** A program used to administer the installation.
     
 

@@ -13,11 +13,11 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ab460b848bff27d8aeabc643e34082eaa25d5ae
-ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
+ms.openlocfilehash: 443f20b1ecd8295acc4f731211c69d23a79f28dd
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 <a name="sign-in-to-microsoft-teams"></a>Iniciar sesión en equipos de Microsoft
 ==========================

@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Use esta tabla para buscar información sobre cómo se obtienen y se administran los números de teléfono en Alemania para Skype Empresarial Online y Microsoft Teams.
-ms.openlocfilehash: 6f7f6f8f67c2e880472d9c6c97d683dfc138fdbc
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: aff38621cd534ea14c6a57c92ac1d2a163a3b4f0
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="phone-number-management-for-germany"></a>Administración de números de teléfono para Alemania
 
@@ -37,8 +37,8 @@ Para obtener más información, consulte [Administrar los números de teléfono 
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos**|
 |:-----|:-----|
 |Obtener números de teléfono de usuario nuevo que no se enumeran en el Skype para el centro de administración de negocios.  <br/> | En Alemania, no se pueden conseguir números de teléfono para su organización mediante el Centro de administración de Skype Empresarial. Debe enviar una solicitud de número de teléfono nuevo. En primer lugar, descargue este formulario: <br/> [Solicitud de número de teléfono nuevo para Alemania (números geográficos) (v.3.0)(de-de)](../../downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.3.0)-(de-de).pdf) <br/>  Después, rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).  <br/> |
-|Obtener números de teléfono de servicio nuevo que no se enumeran en el Skype para el centro de administración de negocios. <br/> |Números de servicio fuera de Estados Unidos, descargue [este formulario](../../downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf), rellenar hacia fuera y [enviarlo a nosotros](mailto:ptneu@microsoft.com).
-|Necesita transferirnos números de teléfono.  <br/> | Descargue [Carta de autorización (LOA) para Alemania (números geográficos) (v.1.0)(de-de)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de-de).pdf). <br/>  Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).  <br/> |
+|Obtener números de teléfono de servicio nuevo que no se enumeran en el Skype para el centro de administración de negocios. <br/> |Descargue este formulario [nueva solicitud de número de teléfono de Alemania (números de servicio) (v.1.2) (de-de)] (.. /.. /downloads/loa-Forms/New-Phone-Number-Request-for-Germany-(Service-Numbers)-(v.1.2)-(de-de.PDF).<br/> Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).
+|Necesita transferirnos números de teléfono.  <br/> | Descargue uno de estos formularios. <br/> Para números de usuario: <br/> [Carta de autorización (LOA) para Alemania (números geográficos) (v.1.0)(de-de)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de-de).pdf) <br/><br/> Para números de teléfono gratuitos: <br/> [Carta de autorización (LOA) para Alemania (números gratuitos) (v.2.0) (de-de)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.2.0)-(de-de).pdf) <br/><br/> Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).  <br/> |
 |Necesita publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de teléfono que quiere publicar o quitar de esta guía. <br/> |
 |Tiene que cambiar de un número de usuario a un número de servicio.  <br/> |[Envíenos](mailto:ptneu@microsoft.com ) la lista de números de usuario que quiere convertir en números de servicio. <br/> |
    

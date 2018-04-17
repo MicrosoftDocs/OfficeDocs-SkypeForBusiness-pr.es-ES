@@ -1,0 +1,1 @@
+Estamos actualizando con frecuencia cómo se tratarán las características de Skype para empresas y Teams de Microsoft, por lo que los pasos pueden ser ligeramente diferentes de lo que se ve. Utilice el siguiente vínculo para comunicarnos si tiene comentarios.

@@ -19,18 +19,18 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Utilizar detalles de llamar análisis sobre conectividad, redes y dispositivos para solucionar problemas de usuarios con Skype para llamadas de negocios y reuniones.
-ms.openlocfilehash: b7f900509506433bd2c863fb6c0c33c4f71f2ab5
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 8f782a18dd7cb7fe7cbae73c7bd43b3e44c6928c
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality"></a>Calidad de las llamadas uso llamar Analytics solucionar pobre Skype para empresas
 
 Llamada Analytics le ayuda a solucionar problemas de conexión o llamada con Skype para el negocio. Llamada Analytics muestra información detallada acerca de los dispositivos, redes y conectividad de las llamadas y reuniones de cada usuario en su Skype para la cuenta de empresa. Si el edificio, del sitio y de inquilinos se ha agregado información al llamar a Analytics, también se mostrará para cada llamada y sesión. Información disponible a través de llamar Analytics puede ayudar a averiguar por qué un usuario tenía una llamada deficiente o experiencia de reunión. 
   
-    > [!NOTE]
-    > Call Analytics is currently in preview. Text and images described here may not match your experience. 
+> [!NOTE]
+> Análisis de llamada está en vista previa. Texto e imágenes que se describe aquí pueden no coincidir con su experiencia.
   
 ## <a name="troubleshoot-call-quality-problems-using-call-analytics"></a>Solucionar problemas de calidad de llamada utilizando Analytics llamar
 

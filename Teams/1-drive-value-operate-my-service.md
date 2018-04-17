@@ -3,7 +3,7 @@ title: Guía de operaciones de equipos de Microsoft
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 03/13/2018
+ms.date: 04/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -11,11 +11,11 @@ description: Las tareas y actividades necesarias para la administración de serv
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 308ca6bd3ea0dcd847756392d8db721b48aa8d08
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 9d64da9bbe792031afbb3538020b7ff92fbaf493
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="operate-my-service"></a>Operar mi servicio
 
@@ -415,7 +415,7 @@ Firewalls de cliente pueden afectar a la calidad de la llamada e incluso impedir
 
 ### <a name="wi-fi-drivers"></a>Controladores de Wi-Fi
 
-Controladores de Wi-Fi podrían ser problemáticos. Por ejemplo, un controlador puede tener muy agresivos comportamientos móviles entre puntos de acceso que pueden inducir innecesario-punto de acceso de conmutación, lo que a la calidad de sonido deficiente. Se podría descubrir un controlador Wi-Fi bajo rendimiento a través de una revisión de calidad de experiencia (consulte [Guía de revisión de calidad de experiencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/CloudVoice-working/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) para obtener más detalles). Es fundamental implementar un proceso controlado por la calidad que supervisa los nuevos controladores de Wi-Fi y asegura que probarlos antes de implementarlos en la población general de usuarios.
+Controladores de Wi-Fi podrían ser problemáticos. Por ejemplo, un controlador puede tener muy agresivos comportamientos móviles entre puntos de acceso que pueden inducir innecesario-punto de acceso de conmutación, lo que a la calidad de sonido deficiente. Se podría descubrir un controlador Wi-Fi bajo rendimiento a través de una revisión de calidad de experiencia (consulte [Guía de revisión de calidad de experiencia](https://aka.ms/qerguide) para obtener más detalles). Es fundamental implementar un proceso controlado por la calidad que supervisa los nuevos controladores de Wi-Fi y asegura que probarlos antes de implementarlos en la población general de usuarios.
 
 ### <a name="endpoint-management"></a>Administración de extremo
 

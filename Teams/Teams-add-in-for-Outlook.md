@@ -3,21 +3,23 @@ title: Usar el complemento para reunión de Microsoft Teams en Outlook
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 03/12/2018
+audience: Admin
+ms.date: 04/09/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
+localization_priority: Normal
 description: Microsoft Teams instala un complemento en Outlook que permite a los usuarios programar reuniones de Microsoft Teams desde Outlook.
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 811c27a48a0e9bbccfbea7ac12e54ef0697b3f2b
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 109911e27a881ea09fb9854bb84ab19222722c39
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/16/2018
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -62,7 +64,16 @@ El complemento para reunión de Microsoft Teams sigue en proceso de desarrollo p
 - Este complemento es para reuniones programadas con participantes específicos, no para reuniones en un canal. Las reuniones de canal se deben programar desde Microsoft Teams. Actualmente, el complemento para reunión de Microsoft Teams en Outlook solo está disponible para usuarios de Windows, pero próximamente será compatible con Mac.
 - El complemento no funciona si hay un proxy de autenticación en la ruta de red entre el equipo del usuario y los servicios de Microsoft Teams.
 
+## <a name="troubleshooting"></a>Solución de problemas
+
+Si no se puede obtener la reunión de equipos de complemento de Outlook para que instale, pruebe estos pasos para solucionar problemas.
+
+- Reinicie al cliente de escritorio de los equipos.
+- Cerrar sesión y, a continuación, iniciar una sesión en el cliente de escritorio de los equipos.
+- Reinicie al cliente de escritorio de Outlook. (Asegúrese de que Outlook no se está ejecutando en modo de administrador.)
+- Asegúrese de que el nombre de la cuenta de usuario registrado no contiene espacios. (Esto es un problema conocido y se resolverá en una futura actualización.)
+- Asegúrese de que está habilitado el inicio de sesión único (SSO).
+
 Para obtener instrucciones generales sobre cómo desactivar complementos, consulte [Ver, administrar e instalar los complementos de los programas de Office](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
 
 Obtenga más información sobre [reuniones y llamadas en Microsoft Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
-

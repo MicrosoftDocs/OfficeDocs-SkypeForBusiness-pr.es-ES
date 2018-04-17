@@ -6,16 +6,16 @@ manager: serdars
 ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: dearbean
 description: Guía para que inicie el recorrido desde Skype Empresarial a Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a9c9d4ccdbe3f3f1a2107c832b5437860e17d73
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: ee2ca43a9338798cd59a64c03f53d0b692d30c35
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/16/2018
 ---
 <a name="optimize-your-current-skype-for-business-environment-for-microsoft-teams"></a>Optimizar su entorno actual de Skype Empresarial para Microsoft Teams
 ==============================================================
@@ -48,7 +48,7 @@ Antes de empezar a incorporar usuarios a Microsoft Teams, compruebe que su imple
 
 Vea los [vídeos de CQD](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) para saber cómo debe usar el panel de calidad de llamadas para investigar la calidad de los medios.
 
-Para obtener más información acerca de Analytics llamar, leer [Skype para llamar de Business Analytics](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
+To learn more about Call Analytics, read [Skype for Business Call Analytics](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
 
 ### <a name="quality-champion-role"></a>Rol de experto de calidad
 

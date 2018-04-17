@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/22/2018
+ms.date: 04/03/2018
 ms.topic: article
 ms.assetid: 783fad3f-b77c-422b-b91f-7c8b0af324fb
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Get the steps you need to change settings for a Microsoft dial-in conferencing bridge that's used to prompt callers and gather names and pins for meeting organizers when they're not using Skype for Business clients. "
-ms.openlocfilehash: d9b80b06a3c52c6ec386a0e5052f1bb71f914650
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+description: 'Obtenga los pasos que necesarios para cambiar la configuración de un puente de conferencia que se utiliza para solicitar a los llamadores y recopilar nombres y clavijas para los organizadores de la reunión cuando no utilizan Skype para aplicaciones empresariales o Teams de Microsoft. '
+ms.openlocfilehash: 727392bc81bce2fb3cfd84029e6a275e1eed3e24
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Cambiar la configuración de un puente de conferencia de Audio
 
@@ -36,19 +36,20 @@ El puente de conferencia contesta una llamada y solicita al llamador con indicac
 
   > [!IMPORTANT]
   > Un PIN sólo es necesario para el organizador de la reunión cuando un Skype para usuario de la aplicación empresarial o Teams de Microsoft ya no ha iniciado la conferencia. Si todo el mundo está marcando a la reunión, el PIN es necesario para el organizador de la reunión iniciar la reunión. 
-  
-## <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Cambiar la configuración de un puente de conferencia de audio 
 
-### <a name="using-the-microsoft-teams-and-skype-for-business-admin-center"></a>Utilizando los equipos de Microsoft y Skype para el centro de administración de negocios
+> [!CAUTION]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-1. En la exploración de la izquierda, vaya a **reuniones** > **Puentes de conferencia**. 
+## <a name="using-the-microsoft-teams-and-skype-for-business-admin-center"></a>Utilizando los equipos de Microsoft y Skype para el centro de administración de negocios
 
-2. En la parte superior de la página **Puentes de conferencia** , haga clic en **Configuración de puente**. 
+1. En la exploración de la izquierda, vaya a **reuniones** > **puentes de conferencia**. 
+
+2. En la parte superior de la página **puentes de conferencia** , haga clic en **configuración de puente**. 
 
 3. En el panel **configuración de puente** , seleccione: 
-  - **Habilitar la entrada de la reunión y salir de notificaciones para activarse** Si desactiva esta opción, los usuarios que ya han participado en la reunión no se le notificará cuando alguien entra o sale de la reunión.
+  - **Entrada de reunión y salir de las notificaciones** Si desactiva esta opción, los usuarios que ya han participado en la reunión no se le notificará cuando alguien entra o sale de la reunión.
     
-    Cuando selecciona **Habilitar la entrada de la reunión y salir notificaciones para ser activado**, puede seleccionar estas opciones en la lista **tipo de entrada o salida de anuncio** :
+    Al activar **las notificaciones de entrada y salida de la reunión**, puede seleccionar estas opciones:
     
   - **Los nombres o números de teléfono** Cuando los usuarios de acceso telefónico a una reunión, su número de teléfono se reproducirá cuando se unan a ella.
     
@@ -63,7 +64,7 @@ El puente de conferencia contesta una llamada y solicita al llamador con indicac
  
 6. Haga clic en **Aplicar**. 
 
-### <a name="using-skype-for-business-online"></a>Usar Skype para el negocio en línea
+## <a name="using-skype-for-business-admin-center"></a>Usar Skype para el centro de administración de negocios
 
  **Configurar la experiencia de reunión cuando los llamadores unirse a una reunión**
     
@@ -78,9 +79,6 @@ El puente de conferencia contesta una llamada y solicita al llamador con indicac
   - **Los nombres o números de teléfono** Cuando los usuarios de acceso telefónico a una reunión, su número de teléfono se reproducirá cuando se unan a ella.
     
   - **Tonos** Cuando los usuarios de acceso telefónico a una reunión, un tono de sonido se reproducirá cuando se unan a ella.
-    
-    > [!NOTE]
-    > **Tono** está ahora disponible como tipo de anuncio para todos los clientes como una característica de vista previa.
   
   - **Llamadores ASK para registrar su nombre antes de unirse a la reunión** Esto está seleccionada por defecto. Si desactiva la casilla de verificación, los llamadores no pedirá que registre su nombre antes de que se unen a una reunión.
     
@@ -107,7 +105,7 @@ Vea **Cambiar la configuración de un puente de conferencias de acceso telefóni
     
 3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
-4. En la página **configuración de puente de Microsoft** , seleccione o desactive **Enviar automáticamente mensajes de correo electrónico a los usuarios si cambia su configuración de conferencias de audio**y, a continuación, haga clic en **Guardar**.
+4. En la página **configuración de puente de Microsoft** , seleccione o desactive **Enviar automáticamente mensajes de correo electrónico a los usuarios si cambia su información de acceso telefónico**y, a continuación, haga clic en **Guardar**.
     
     Para obtener más información, consulte [mensajes de correo electrónico se envían automáticamente a los usuarios al cambia su configuración de conferencia de Audio](emails-sent-to-users-when-their-settings-change.md) .
     

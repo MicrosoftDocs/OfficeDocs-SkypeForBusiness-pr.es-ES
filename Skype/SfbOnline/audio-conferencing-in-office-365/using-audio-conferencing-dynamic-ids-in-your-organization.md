@@ -18,48 +18,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
+Robots: noindex
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: 'Se está actualizando el servicio de conferencia de Audio para proporcionar cada Skype para reunión de negocios y Teams de Microsoft con identificadores de conferencia diferente. Identificadores de conferencia dinámicas suponen una mejora significativa sobre conferencia estática IDs, ya que proporcionan:'
-ms.openlocfilehash: 418e6f486b8108791930c7843bfed8bdc56e83ef
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+redirect_url: https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user
+redirect_document_id: true
+description: ''
+ms.openlocfilehash: d89df98b814378474d7eb2e2346e839859f6b1e7
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="using-audio-conferencing-dynamic-ids-in-your-organization"></a>Uso de los identificadores de conferencia de Audio dinámicos en su organización
-
-Se está actualizando el servicio de conferencia de Audio para proporcionar cada Skype para reunión de negocios y Teams de Microsoft con identificadores de conferencia diferente. Identificadores de conferencia dinámicas suponen una mejora significativa sobre conferencia estática IDs, ya que proporcionan:
-  
-- **Seguridad mejorada** La conferencia identificadores son únicos para cada Skype para reuniones de negocios o Teams de Microsoft y se generan cuando se programa la reunión.
-    
-- **Una mejor experiencia para todo tipo de reuniones** Las reuniones de un único organizador reciben una información específica de acceso telefónico local para evitar que los participantes por teléfono de la reunión se mezclen con los participantes de otra cuando se programan una detrás de otra.
-    
-- **Una transición constante** Cuando a su organización se le habilita un identificador de conferencia dinámico, todas las reuniones que ya se hayan programado con un identificador estático de conferencia seguirán funcionando.
-    
-> [!TIP]
-> IDs dinámicas sólo están disponibles para los usuarios que están habilitados para ** conferencias de Audio ** y establecer como su proveedor de conferencia de audio de Microsoft. Puede [Asignar Microsoft como proveedor de conferencia de audio](assign-microsoft-as-the-audio-conferencing-provider.md) para los usuarios.
-  
-## <a name="what-changes-will-the-users-in-my-organization-see"></a>¿Qué cambios verán los usuarios de mi organización?
-
-Después de IDs de conferencia dinámico se han habilitado para su organización, cualquier nuevo Skype para negocios o Teams Microsoft reunión que se programa por usuarios de la organización que están habilitados para conferencias de Audio tendrá conferencia identificadores que será diferente de la Id. de conferencia estática que tenían antes. Organizadores que habían estática identificadores de conferencia antes necesitan recordar a los usuarios unirse a sus reuniones que necesitan ahora para utilizar un nuevo ID de conferencia en la invitación de la reunión antes de que puedan unirse a él.
-  
-> [!NOTE]
-> Reuniones que estaban programadas por un usuario con identificadores de conferencia estática antes de que la organización se habilitó para conferencia dinámica que continuarán identificadores tengan los identificadores de conferencia estática, por lo que continúan programar reuniones sin ningún impacto. 
-  
-Estos ejemplos muestran la nueva experiencia de dos Skype para reuniones de negocios que han sido clasificados por el mismo usuario pero ahora tendrán dos identificadores de conferencia diferente: 
-  
- La **reunión 1** se ha programado de 9:00 a 10:00 y su id. de conferencia es 93907123:
-  
-![First Dynamic Conference ID.](../images/997b2473-7645-46df-9774-95eb070c2239.png)
-  
- El mismo usuario ha programado la **reunión 2** de 10:00 a 11:00 y su id. de conferencia es 16353789:
-  
-![Second Dynamic Conference IDs](../images/e1eecc76-812b-426c-90e8-80e9f6f4ad31.png)
-  
-## <a name="related-topics"></a>See also
-
-- [Configurar Skype Empresarial Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-    
-- Puede obtener más información en [Conferencias de acceso telefónico en Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
