@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 02/23/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -19,11 +18,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: Los administradores pueden controlar cómo los organizadores pueden usar números de teléfono gratuitos para sus reuniones.
-ms.openlocfilehash: d0b7703f4dd518caa5ffb339282c5a7bbac4daa3
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 0d2b4d16d6475587dd85223e0a88f64562664429
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="disabling-toll-free-numbers-for-specific-users"></a>Desactivación de números de teléfono gratuitos para usuarios específicos
 

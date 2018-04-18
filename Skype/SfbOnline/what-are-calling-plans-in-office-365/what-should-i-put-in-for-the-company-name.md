@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 5c274a36-9e7a-4399-af08-688ffc75b8ac
 ms.tgt.pltfrm: cloud
@@ -21,11 +20,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Qué poner en Skype para el negocio la empresa y dónde puede encontrarlo. '
-ms.openlocfilehash: 9664879695a79a485b034667feff2c4486878bae
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: f2b25c6d0adac626091163b39ab220a1000bae28
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="what-should-i-put-in-for-the-company-name"></a>¿Qué debería colocar en el nombre de la organización?
 

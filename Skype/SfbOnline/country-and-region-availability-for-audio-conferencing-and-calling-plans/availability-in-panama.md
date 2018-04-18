@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: d15c6f11-da29-4cda-951a-308c13ff841b
 ms.tgt.pltfrm: cloud
@@ -22,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Presentamos los servicios de Office 365 para Skype para empresas y Teams de Microsoft de Panamá.
-ms.openlocfilehash: 84fbceff474f54fe9c1a4f40a461bd7304cbd8d7
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 6f9840b4e3414d3c1ec861c6094047d97b4a56e2
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="availability-in-panama"></a>Disponibilidad de Panamá
 

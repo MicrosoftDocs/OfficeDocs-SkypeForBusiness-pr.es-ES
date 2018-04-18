@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 26d73dda-ab26-4af4-8aec-d17f3479ae50
 ms.tgt.pltfrm: cloud
@@ -22,11 +21,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: Vea cómo seleccionar los idiomas operador automático de conferencia de audio para un número de conferencia de audio.
-ms.openlocfilehash: 4cd40a54c90559d3886b737b8e9f66f02346358f
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 6b3d0f2fd9a74429a0b1817fc3987c0fdef8698e
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing"></a>Establecer idiomas del operador automático para conferencias de Audio
 

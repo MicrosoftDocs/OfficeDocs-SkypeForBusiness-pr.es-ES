@@ -1,10 +1,9 @@
 ---
-title: "Administrar los números de teléfono para su organización"
+title: Administrar los números de teléfono para su organización
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 03/19/2018
 ms.topic: article
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -23,12 +22,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Cada país o región tiene sus propias instrucciones para conseguir números de teléfono para usuarios en Skype Empresarial Online y Microsoft Teams. Siga el vínculo al país o la región que corresponda de los que aparecen a continuación y consiga la información que necesita."
-ms.openlocfilehash: 01c6f3bbb01d74d021594612561d035163378ba5
-ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
+description: Cada país o región tiene sus propias instrucciones para conseguir números de teléfono para usuarios en Skype Empresarial Online y Microsoft Teams. Siga el vínculo al país o la región que corresponda de los que aparecen a continuación y consiga la información que necesita.
+ms.openlocfilehash: 1a1c2a0efafa2edc9e3bae2eff812edadfca1d87
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Administrar los números de teléfono para su organización
 Hay tres maneras de obtener tanto el usuario como el servicio (pago y gratuito) números para su organización.

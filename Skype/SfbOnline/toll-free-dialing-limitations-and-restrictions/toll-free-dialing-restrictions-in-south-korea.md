@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: bbd48199-0fe5-4458-b29b-d2b2f44e6e8e
 ms.tgt.pltfrm: cloud
@@ -20,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Esto le ayudará a averiguar cómo marcar números libre de peaje en cada país o región. Después de seleccionar el país o región, se tardará a una página específica de país que contiene detalles específicos, las restricciones y límites de disponibilidad del servicio gratuito donde el servicio gratuito está disponible. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
-ms.openlocfilehash: b99f4a9a222396b3323e8aa5e0839134d07e3e28
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 24d4938e9b2b61a6c6586aa977da05c9b56e2561
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="toll-free-dialing-restrictions-in-south-korea"></a>Restricciones de marcado gratuito en Corea del sur
 

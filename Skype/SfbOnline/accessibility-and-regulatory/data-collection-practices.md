@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: c17e8ea6-b83b-4345-9401-47a6c8b13aad
 ms.tgt.pltfrm: cloud
@@ -20,11 +19,11 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft recopila datos de censos, el uso y el error para entender cómo se utiliza Skype para el negocio y donde los usuarios tienen problemas. Los datos se utilizan para planificar mejoras del producto.
-ms.openlocfilehash: f58a5650da1b6f489c63fdb5e5870321e0f06727
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 46a292e462708b77b60aa1c8a52c2148fbc82775
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype para las prácticas de recopilación de datos de negocio y Teams de Microsoft
 

@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.date: 03/22/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -22,11 +21,11 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: 'Información sobre licencias adicionales y características para GOV, EDU y planes de la organización sin ánimo de lucro. '
-ms.openlocfilehash: 59e48c07063321659b3efba35c8201835aacabbf
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 20097c08bf20dd974190532aa19de11a22e51a83
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>GOV, EDU y organizaciones sin ánimo de lucro
 

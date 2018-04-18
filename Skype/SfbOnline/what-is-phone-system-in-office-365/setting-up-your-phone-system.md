@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: makolomi
-ms.date: 02/28/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -19,11 +18,11 @@ ms.custom:
 - Phone System
 - Strat_SB_PSTN
 description: 'Aprenda a configurar el sistema de teléfono (PBX nube) para su organización. '
-ms.openlocfilehash: a9715797284f08c3d7f2ecbf3ba45a9269a5e0e0
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 95fed9f26cefddce80de5c8f12a0e18d7368d1f4
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Configuración de sistema de teléfono de la organización
 

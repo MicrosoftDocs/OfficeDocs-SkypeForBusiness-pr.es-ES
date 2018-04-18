@@ -1,10 +1,9 @@
 ---
-title: "Usar la calidad de las llamadas en su organización"
+title: Usar la calidad de las llamadas en su organización
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, wlooney
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 57c0568a-78b0-4167-b1d1-af782f70f24b
 ms.tgt.pltfrm: cloud
@@ -19,11 +18,11 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Configurar y utilizar Analytics llame a identificar y solucionar los problemas de calidad empresarial y Teams de Microsoft llamada de Skype.
-ms.openlocfilehash: 32900eb98ce4ea25602ed748fc750427b795d313
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+ms.openlocfilehash: 9db4c9441b1cd1c8d7d58a640b0bcd9fef78941e
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="using-call-quality-in-your-organization"></a>Usar la calidad de las llamadas en su organización
 

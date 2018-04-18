@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: e2376646-f0d6-4d33-a8fd-68ecbd46fb7a
 ms.tgt.pltfrm: cloud
@@ -21,11 +20,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Aquí están algunas de las razones por qué puede que tenga problemas para obtener su dirección o direcciones para validar correctamente en el Reino Unido (Reino Unido).
-ms.openlocfilehash: 75373098af599768aa654f5327c1f40069ed51c7
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: b2cd02f05bb062b94780f49af4908ac90ed0f674
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>¿Por qué tengo problemas al entrar en el Reino Unido ¿información de la dirección?
 

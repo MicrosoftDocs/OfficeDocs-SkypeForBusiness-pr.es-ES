@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: makolomi
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: ab9f05a2-22cb-4692-a585-27f82d1b37c7
 ms.tgt.pltfrm: cloud
@@ -22,11 +21,11 @@ ms.custom:
 - Phone System
 - Strat_SB_PSTN
 description: 'Obtenga información acerca de qué son los operadores automáticos de sistema telefónico (PBX nube) y cómo utilizarlos. '
-ms.openlocfilehash: a1253419bdd321efd99a4ea375655d52f154b6ab
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 59c0dbc129e782749cdc873115e760f1e3d894e3
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>¿Cuáles son los operadores de sistema de teléfono automáticos?
 

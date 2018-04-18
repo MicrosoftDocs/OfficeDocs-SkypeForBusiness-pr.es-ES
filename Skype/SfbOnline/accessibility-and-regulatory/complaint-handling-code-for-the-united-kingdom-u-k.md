@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 6f51ee4a-d939-4ba3-8659-ccf012d069f8
 ms.tgt.pltfrm: cloud
@@ -20,11 +19,11 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
-ms.openlocfilehash: 1c67d16704f93d256a66595ffacdd4ed70c5b439
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 0d6a5a0f71dee2c218b8f4cd477fc8379ef69b4f
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="complaint-handling-code-for-the-united-kingdom-uk"></a>Queja código de control para el Reino Unido (Reino Unido)
 

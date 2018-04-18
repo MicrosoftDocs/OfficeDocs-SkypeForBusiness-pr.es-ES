@@ -1,15 +1,16 @@
 ---
-title: "Cambiar los números de teléfono en el puente de conferencia de Audio"
+title: Cambiar los números de teléfono en el puente de conferencia de Audio
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 6403f6d1-c05a-44ab-a6e0-558000e246f4
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Al adquirir licencias de conferencias de Audio, Microsoft aloja el puente de conferencia de audio para su organización. El puente de conferencia de audio proporciona los números de teléfono para acceso desde distintas ubicaciones para que los participantes y organizadores pueden utilizarlos para unir Skype para reuniones de negocios o Teams de Microsoft mediante un teléfono."
-ms.openlocfilehash: 21603ebc5ea710598a1af70a66fe4388e206cea9
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Al adquirir licencias de conferencias de Audio, Microsoft aloja el puente de conferencia de audio para su organización. El puente de conferencia de audio proporciona los números de teléfono para acceso desde distintas ubicaciones para que los participantes y organizadores pueden utilizarlos para unir Skype para reuniones de negocios o Teams de Microsoft mediante un teléfono.
+ms.openlocfilehash: cb38da52bd2c67a66e354b21712b8cc0d986796c
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Cambiar los números de teléfono en el puente de conferencia de Audio
 
@@ -226,4 +227,3 @@ Windows PowerShell ofrece numerosas ventajas de velocidad, sencillez y productiv
 
 ## <a name="related-topics"></a>See also
 [Cambiar la configuración de un puente de Audioconferencia](change-the-settings-for-an-audio-conferencing-bridge.md)
-  

@@ -3,7 +3,6 @@ title: Activar o desactivar los informes de comentarios de clientes de Skype Emp
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 35562b48-1da1-4081-8a3a-033d0f1986b2
 ms.tgt.pltfrm: cloud
@@ -17,11 +16,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Puede habilitar su Skype para utilizar el Skype integrado para la herramienta de comentarios de la aplicación empresarial para permitir a los usuarios enviar informes y proporcionar comentarios directamente a Microsoft sobre su experiencia de los usuarios de negocios.
-ms.openlocfilehash: d88ea4fc9f760def5ab7bb40efed9e1ebdfac2f0
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 4d2f39f48152534d96f24c32f0031b55f11cbcae
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Activar o desactivar los informes de comentarios de clientes de Skype Empresarial
 

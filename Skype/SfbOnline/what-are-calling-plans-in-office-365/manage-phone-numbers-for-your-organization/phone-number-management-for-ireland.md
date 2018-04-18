@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/31/2018
 ms.topic: article
 ms.assetid: 4ae9b75f-d5e8-4afb-b17d-4ea668c00669
 ms.tgt.pltfrm: cloud
@@ -22,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Use esta tabla para buscar información sobre cómo se obtienen y se administran los números de teléfono en Irlanda para Skype Empresarial Online y Microsoft Teams.
-ms.openlocfilehash: 44d108e813d6a15cafb507a9a8647c4a7e32adb2
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: e799a0bab2bc9005727c6d14247b5ec877b74e43
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="phone-number-management-for-ireland"></a>Administración de números de teléfono para Irlanda
 

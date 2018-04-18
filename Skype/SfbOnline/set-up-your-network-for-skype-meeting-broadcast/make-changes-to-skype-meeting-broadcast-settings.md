@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: micchan
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 8e46e857-f046-4e87-a633-0d7fb88d66d5
 ms.tgt.pltfrm: cloud
@@ -19,11 +18,11 @@ f1keywords:
 ms.custom:
 - SMB
 description: Puede habilitar la difusión de la reunión de Skype y realizar cambios en la configuración y las directivas para esas reuniones.
-ms.openlocfilehash: 26b5173ad911632a1a36b499e9f617f6848c2345
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: e4e51e7e23138fe2e0b0cd1ce05d19f275c085b9
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Realizar cambios en configuración de la difusión de reunión de Skype para su organización
 

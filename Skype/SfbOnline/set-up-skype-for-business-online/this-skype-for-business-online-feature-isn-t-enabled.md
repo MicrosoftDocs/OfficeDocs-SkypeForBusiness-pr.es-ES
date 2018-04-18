@@ -3,7 +3,6 @@ title: Este Skype para función de negocio en línea no está habilitada
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: e95a7d09-0c45-4b95-956e-f099b7b0e659
 ms.tgt.pltfrm: cloud
@@ -19,11 +18,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Buscar posibles causas y sugerencias de acción cuando se obtiene un Skype para negocios en línea no está habilitada error. '
-ms.openlocfilehash: 5d0167ed53f5396d3d048815986dea7600f9182f
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 372ea06a914df61efbc3a55b846423a569c2ac31
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>Este Skype para función de negocio en línea no está habilitada
 

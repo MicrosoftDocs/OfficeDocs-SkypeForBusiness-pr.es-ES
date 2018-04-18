@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 03/19/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -20,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Utilice esta tabla para obtener más información sobre la obtención y administración de números de teléfono en Australia para Skype para los negocios en línea y Teams de Microsoft.
-ms.openlocfilehash: 9059ac571b4b70a15ebe9a1b356d6198a86e1f92
-ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
+ms.openlocfilehash: eee327ce128b7756db9955d000b56771c965109e
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="phone-number-management-for-australia"></a>Administración de números de teléfono para Australia
 > [!IMPORTANT]

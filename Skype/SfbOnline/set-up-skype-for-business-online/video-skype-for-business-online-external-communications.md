@@ -3,7 +3,6 @@ title: Vídeo Comunicaciones externas de Skype Empresarial Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: a4fa9dea-1de3-461c-a32a-f1bf54596c16
 ms.tgt.pltfrm: cloud
@@ -17,11 +16,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn to set up Skype for Business Online external communications for your users can communicate with external Skype contacts. '
-ms.openlocfilehash: b915bd266f1df7056182dc89b472a2a30ee371de
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 30b00ae0e28280ac66c002f068cfd90713ee541b
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>Vídeo: Comunicaciones externas de Skype Empresarial Online
 

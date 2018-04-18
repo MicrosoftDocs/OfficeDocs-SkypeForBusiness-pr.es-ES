@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: b7bcf334-1dc6-4fd7-8145-f89ce695fca0
 ms.tgt.pltfrm: cloud
@@ -21,11 +20,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Obtenga información acerca de ¿cuál es la dirección del servicio, cómo difiere de la dirección de facturación y dónde puede encontrarlo. '
-ms.openlocfilehash: c5791e2bb48bc6fb8a42c1941ed3b6b225b22460
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 2c5155c83f950f4840f351b686aa458e70016d0f
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="what-should-i-put-in-for-the-service-address"></a>¿Qué debería colocar en la dirección de servicio?
 

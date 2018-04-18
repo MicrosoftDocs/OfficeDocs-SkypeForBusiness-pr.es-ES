@@ -1,10 +1,9 @@
 ---
-title: Los usuarios pueden realizar llamadas salientes a estos países y regiones
+title: Users can make outbound calls to these countries and regions
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 ms.tgt.pltfrm: cloud
@@ -20,16 +19,16 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Este tema contiene todos los países o regiones que los usuarios pueden realizar llamadas salientes a si disponen de un Plan de llamadas.
-ms.openlocfilehash: 9cac97144bec681773eca2811751525e0c2950d5
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+description: This topic contains all of the countries/regions that users can place outbound calls to if they have a Calling Plan.
+ms.openlocfilehash: bd8ce62b5f1d5c8b032503a045e40c72bbe5d00b
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Los usuarios pueden realizar llamadas salientes a estos países y regiones
+# <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Users can make outbound calls to these countries and regions
 
-### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-a-domestic-or-domestic-and-international-calling-plan-license"></a>Vea lo que los usuarios de países o regiones pueden realizar llamadas salientes a si el usuario tiene un nacional o nacionales y Plan de llamadas internacionales de licencia
+### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-a-domestic-or-domestic-and-international-calling-plan-license"></a>See what countries/regions users can make outbound calls to if the user has a Domestic or Domestic and International Calling Plan license
 
 
 |**A - D**| **E - H**|**I - L**|**M - O**|**P - S**|**T - Z**|
@@ -61,7 +60,7 @@ ms.lasthandoff: 04/03/2018
 |Bolivia |Guyana| |Nueva Caledonia |Eslovenia |Zimbabue |
 |Bosnia-Herzegovina |Haití ||Nueva Zelanda |Sudáfrica | 
 |Botsuana |Honduras ||Nicaragua |España |
-|Brasil |Hong Kong ||Níger |Sri Lanka | 
+|Bazil |Hong Kong ||Níger |Sri Lanka | 
 |Bunei Darussalam |Hungría ||Nigeria |San Pedro y Miquelón | 
 |Bulgaria |||Islas Marianas del Norte |Sudán |
 |Burkina Faso |||Noruega |Surinam |

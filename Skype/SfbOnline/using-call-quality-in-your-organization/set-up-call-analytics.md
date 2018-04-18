@@ -4,7 +4,6 @@ ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: mikedav, wlooney
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: ''
 ms.tgt.pltfrm: cloud
@@ -19,11 +18,11 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Configurar y utilizar Analytics llame a identificar y solucionar los problemas de calidad empresarial y Teams de Microsoft llamada de Skype.
-ms.openlocfilehash: 0169d8e2008ce0d87f4ee666663d4d8ccb71d1b8
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 6e4566198e140c94da40f4db1a890eb4190d5da3
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="set-up-skype-for-business-call-analytics"></a>Configurar Skype para llamar de Business Analytics
 

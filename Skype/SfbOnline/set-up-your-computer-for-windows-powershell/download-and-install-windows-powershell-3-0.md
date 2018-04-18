@@ -3,7 +3,6 @@ title: Descargar e instalar Windows PowerShell 3.0
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: d739cd71-3c18-42ea-879f-b408bf53b1f4
 ms.tgt.pltfrm: cloud
@@ -18,11 +17,11 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Descargar, instalar y, a continuación, utilice 3.0 de Windows PowerShell para crear una sesión de PowerShell remoto que se conecta a Skype para los negocios en línea.
-ms.openlocfilehash: 56e0c885d25510156b7336e63f83c89c29b07fb4
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: e3f1ca14b5c9e134ee5186b6c441fc948d1ef65b
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="download-and-install-windows-powershell-30"></a>Descargar e instalar Windows PowerShell 3.0
 

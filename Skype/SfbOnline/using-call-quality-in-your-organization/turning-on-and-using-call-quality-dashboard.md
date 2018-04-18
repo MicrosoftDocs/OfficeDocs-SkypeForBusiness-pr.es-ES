@@ -1,10 +1,9 @@
 ---
-title: Turning on and using Call Quality Dashboard
+title: Encendiendo y usando llame al panel de control de calidad
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: mikedav, wlooney
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 553fa13c-92d2-4d5c-a3d5-41a073cb047c
 ms.tgt.pltfrm: cloud
@@ -19,236 +18,236 @@ f1keywords:
 - ms.lync.lac.ToolsCallQualityDashboard
 ms.custom:
 - Reporting
-description: 'See how to turn on and use the Skype for Business Online Call Quality Dashboard and get summary reports of quality of calls. '
-ms.openlocfilehash: 463567d46da9f7fa50aa54880e017ae886cba57d
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+description: 'Consulte cómo activar y usar el Skype para negocios en línea panel calidad llamar y obtener informes de resumen de la calidad de las llamadas. '
+ms.openlocfilehash: 10826d22d2110d73b5233c36837fc5d20d34e382
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online
+# <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activar y utilizar llamar al panel de calidad para Teams de Microsoft y Skype para los negocios en línea
 
-Learn how to configure your Office 365 organization to use the Call Quality Dashboard to monitor call quality.
+Obtenga información sobre cómo configurar la organización de Office 365 para utilizar el panel de calidad llame para supervisar la calidad de las llamadas.
   
-The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic describes the steps you'll need to complete to start collecting data.
+El tablero de mandos de calidad llamar (CQD) para Teams de Microsoft y Skype para los negocios en línea le permite obtener información sobre la calidad de las llamadas realizadas mediante Skype y Teams de Microsoft para servicios de negocios. Este tema describe los pasos que debe realizar para iniciar la recopilación de datos.
   
 > [!NOTE]
-> The CQD detailed reports are currently available as Tech Preview but available to all customers. 
+> El CQD detallado informes están actualmente disponible como Tech Preview pero están disponibles para todos los clientes. 
   
-## <a name="latest-changes-and-updates"></a>Latest changes and updates
+## <a name="latest-changes-and-updates"></a>Actualizaciones y cambios más recientes
 
-The most recent changes to CQD are as follows:
+Los cambios más recientes a CQD son los siguientes:
   
-- Includes Microsoft Teams data in addition to Skype for Business Online data.
+- Incluye datos de Teams de Microsoft además de Skype para los datos de los negocios en línea.
     
-- Summary reports include a product filter to select all data, Microsoft Teams data, or Skype for Business Online data.
+- Informes de resumen incluyen un filtro de productos para seleccionar todos los datos, los datos de Microsoft Teams o Skype para datos empresariales en línea.
     
-Refer to this article for a list of [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
+Consulte este artículo para obtener una lista de [dimensiones y medidas disponibles en llamar al panel de calidad](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 > [!NOTE]
-> Information about updates and changes to the dashboard can be found by clicking the link in the **Good news!** banner when it is displayed on the dashboard.
+> Encontrará información acerca de actualizaciones y cambios en el escritorio haciendo clic en el vínculo de la **buenas noticias!** Pancarta cuando se muestra en el tablero de mandos.
   
-## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Activate Microsoft Call Quality Dashboard (CQD) Summary Reports
+## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Activar los informes de resumen de Microsoft llamada calidad Dashboard (CQD)
 
-Before you can start using the CQD, you'll need to activate it for your Office 365 organization.
+Antes de que puede empezar a utilizar el CQD, debe activarlo para su organización de Office 365.
   
-1. Sign in to your Office 365 organization using an admin account, and then select the **Admin** tile to open the Admin center.
+1. Iniciar sesión la organización de Office 365 con una cuenta de administrador y, a continuación, seleccione el azulejo **Admin** para abrir el centro de administración.
     
-2. In the left pane, under **Admin centers**, select **Skype for Business** to open the Skype for Business admin center.
+2. En el panel izquierdo, en **centros de administración**, seleccione **Skype para empresas** para abrir el Skype para el centro de administración de negocios.
     
-3. In the Skype for Business admin center, select **Tools** in the left pane, and then select **Skype for Business Online Call Quality Dashboard**.
+3. En Skype para el centro de administración de negocios, seleccione **Herramientas** en el panel izquierdo y seleccione **Skype para negocios en línea panel calidad llamar**.
     
-     ![Skype for Business tools](../images/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
+     ![Skype para herramientas profesionales](../images/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
   
-4. On the page that opens, log in with your Global Administrator account, and then provide the credentials for the account when prompted.
+4. En la página que se abre, inicie sesión con su cuenta de administrador Global y, a continuación, proporcione las credenciales de la cuenta cuando se le pida.
     
-     ![CQD Login](../images/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
+     ![Inicio de sesión CQD](../images/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
-After you login, once activated, the CQD will begin collecting and processing data.
+Después de iniciar sesión, una vez activado, el CQD empezará a recopilar y procesar datos.
   
 > [!NOTE]
-> It may take a couple of hours to process enough data to display meaningful results in the reports. 
+> Puede tardar un par de horas para procesar datos suficientes para mostrar resultados significativos en los informes. 
   
-## <a name="features-of-the-call-quality-dashboard-for-skype-for-business-online"></a>Features of the Call Quality Dashboard for Skype for Business Online
+## <a name="features-of-the-call-quality-dashboard-for-skype-for-business-online"></a>Características del panel de calidad llamada de Skype para el negocio en línea
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-CQD Summary Reports provide a subset of the features planned for Detailed Reports. The differences between the two editions are summarized here:
+Informes de resumen de CQD proporcionan un subconjunto de las características planeadas para informes detallados. Las diferencias entre las dos ediciones se resumen a continuación:
   
-|**Característica**|**Summary Reports**|**Detailed Reports**|
+|**Característica**|**Informes de resumen**|**Informes detallados**|
 |:-----|:-----|:-----|
-|Application sharing metric  <br/> |No  <br/> |Sí  <br/> |
-|Customer building information support  <br/> |Sí  <br/> |Sí  <br/> |
-|Drill-down analysis support  <br/> |No  <br/> |Sí  <br/> |
-|Media reliability metrics  <br/> |No  <br/> |Sí  <br/> |
-|Out-of-the-box reports  <br/> |Sí  <br/> |Sí  <br/> |
-|Overview reports  <br/> |Sí  <br/> |Sí  <br/> |
-|Per-user report set  <br/> |No  <br/> |Sí  <br/> |
-|Report set customization (add, delete, modify reports)  <br/> |No  <br/> |Sí  <br/> |
-|Video-based screen sharing metrics  <br/> |No  <br/> |Sí  <br/> |
-|Video metrics  <br/> |No  <br/> |Sí  <br/> |
-|Amount of data available  <br/> |Last 6 months  <br/> |Last 6 months  <br/> |
-|Microsoft Teams data  <br/> |Sí  <br/> |Sí  <br/> |
+|Métrica de uso compartido de aplicaciones  <br/> |No  <br/> |Sí  <br/> |
+|Edificio de la información del cliente  <br/> |Sí  <br/> |Sí  <br/> |
+|Soporte de análisis detallado  <br/> |No  <br/> |Sí  <br/> |
+|Medidas de confiabilidad de los medios de comunicación  <br/> |No  <br/> |Sí  <br/> |
+|Informes de fuera de la caja  <br/> |Sí  <br/> |Sí  <br/> |
+|Informes de resumen  <br/> |Sí  <br/> |Sí  <br/> |
+|Conjunto de informes por usuario  <br/> |No  <br/> |Sí  <br/> |
+|Informe establece personalización (agregar, eliminar, modificar informes)  <br/> |No  <br/> |Sí  <br/> |
+|Pantalla de vídeo compartiendo métrica  <br/> |No  <br/> |Sí  <br/> |
+|Métricas de vídeo  <br/> |No  <br/> |Sí  <br/> |
+|Cantidad de datos disponibles  <br/> |Últimos 6 meses  <br/> |Últimos 6 meses  <br/> |
+|Datos de Teams de Microsoft  <br/> |Sí  <br/> |Sí  <br/> |
    
-### <a name="out-of-the-box-reports"></a>Out-of-the-box reports
+### <a name="out-of-the-box-reports"></a>Informes de fuera de la caja
 
-Both editions of CQD provide an out-of-the-box experience, giving you call quality metrics without the need to create any new reports. Once data is processed in the back-end, you can start seeing call quality data in the reports.
+Ambas ediciones de CQD proporcionan una fuera-de-la-caja experiencia, proporcionándole llamar métricas de calidad sin necesidad de crear los nuevos informes. Una vez que los datos se procesan en el servidor back-end, puede empezar a ver llamadas datos de calidad en los informes.
   
-### <a name="overview-reports"></a>Overview reports
+### <a name="overview-reports"></a>Informes de resumen
 
-Both editions of the CQD provide a high-level entry point to the overall call quality information, but the way information is presented in Summary Reports is different from that of Detailed Reports.
+Ambas ediciones de la CQD proporcionan un punto de entrada de alto nivel a la información general de calidad de llamada, pero la información se presenta en los informes de resumen de forma distinta a la de informes detallados.
   
-Summary Reports provide a simplified tabbed page report view that enables users to quickly browse and understand the overall call quality status and trends.
+Informes de resumen proporcionan una vista de informe simplificado página con fichas que permite a los usuarios examinar rápidamente y comprender el estado de calidad de la llamada y las tendencias generales.
   
-The four tabs include:
+Se incluyen las cuatro fichas:
   
-- **Overall Call Quality** - provides information about all streams, which is an aggregation of Server-Client streams and Client-Client streams, as well as separate Server-Client and Client-Client streams, in the form of monthly and daily trends.
+- **Calidad general llamar** : proporciona información acerca de todas las secuencias, que es una acumulación de streams de cliente de servidor de secuencias de cliente a cliente, así como servidor cliente independiente y secuencias de cliente a cliente, en forma de tendencias diarias y mensuales.
     
-- **Server - Client** - provides additional details for the streams between Server and Client endpoints.
+- **Servidor - cliente** : proporciona detalles adicionales para las secuencias entre los extremos de cliente y servidor.
     
-- **Client - Client** - provides additional details for the streams between two Client endpoints.
+- **Cliente - cliente** - proporciona detalles adicionales para las secuencias entre dos extremos de cliente.
     
-- **Voice Quality SLA** - provides information about calls that are included in the Skype for Business Online Voice Quality SLA.
+- **SLA de calidad de voz** - proporciona información sobre las llamadas que se incluyen en el Skype para negocios SLA de calidad de voz en línea.
     
-### <a name="overall-call-quality-tab"></a>Overall Call Quality tab
+### <a name="overall-call-quality-tab"></a>Ficha general de llamar a calidad
 
-Use the data on this tab to evaluate call quality status and trends by looking at the stream counts and poor percentages. The legend in the upper-right corner shows which color and visual elements represent these metrics.
+Utilizar los datos de esta ficha para evaluar el estado de calidad de la llamada y tendencias mirando la secuencia recuentos y porcentajes deficientes. La leyenda en la esquina superior derecha indica qué color y elementos visuales representan estas métricas.
   
-![CQD Data key](../images/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
+![Clave de datos de CQD](../images/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-Streams are classified in three groups: Good, Poor, and Unclassified. There are also calculated  *Poor %*  values that give you the ratio of streams classified as *Poor*  to the total classified stream count. Since *Poor % = Poor streams/ (Poor streams+ Good streams) * 100*  , this makes the *Poor %*  unaffected by the presence with multiple *Unclassified*  streams. For what is used for classifying a stream as poor or good, refer to [Call Quality Thresholds](https://aka.ms/cqd_quality_thresholds).
+Secuencias se clasifican en tres grupos: Bueno, pobre y sin clasificar. Allí también se calculan los que pobres valores *%* que ofrecen es la proporción de secuencias clasificadas como *deficiente* al recuento total secuencia clasificada. Puesto que *% pobre = pobre secuencias / (pobre secuencias + buenas secuencias) * 100* , por ello, la *pobre %* afectado por la presencia con varias secuencias *no clasificados* . Para qué se utiliza para la clasificación de una secuencia como buena o mala, consulte [Llamar a umbrales de calidad](https://aka.ms/cqd_quality_thresholds).
   
-Use the scale on the left to measure the stream count values.
+Utilice la escala de la izquierda para medir los valores de número de secuencia.
   
-![CQD data count](../images/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
+![Recuento de datos CQD](../images/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
   
-Use the scale on the right to measure the Poor % values.
+Utilice la escala de la derecha para medir los valores de % deficiente.
   
-![CQD data per cent](../images/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
+![Datos CQD por ciento](../images/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
   
-You can also obtain the actual numerical values by hovering the mouse over a bar.
+También puede obtener los valores numéricos reales al situar el puntero sobre una barra.
   
 > [!NOTE]
-> The following example is from a very small sample data set, and the values aren't realistic for an actual deployment. 
+> En el siguiente ejemplo es de un conjunto de datos de muestra muy pequeña, y los valores no son realistas para una implementación real. 
   
-![CQD Data numeric](../images/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
+![Numérico de datos CQD](../images/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
   
-The overall stream volume is an important factor in determining how relevant the calculated Poor percentages are. The smaller the volume of overall streams, the less reliable the reported Poor percentage values are.
+El volumen total de la secuencia es un factor importante para determinar la importancia de los porcentajes calculados deficientes. Cuanto menor sea el volumen de secuencias generales, menos fiables son los valores de porcentaje deficiente conocida.
   
-### <a name="server-client-tab-and-client-client-tabs"></a>Server-Client tab and Client-Client tabs
+### <a name="server-client-tab-and-client-client-tabs"></a>Ficha de servidor cliente y las fichas de cliente-cliente
 
-These two tabs provide additional details for the streams that took place in their endpoint-to-endpoint scenarios. Both tabs have four collapsible sections, representing four scenarios under which media streams would flow.
+Estas dos fichas proporcionan detalles adicionales para las secuencias que tuvieron lugar en los escenarios de extremo a extremo. Ambas fichas tienen cuatro secciones contraíbles, que representa cuatro situaciones en las que serían flujo flujos de medios.
   
-- Wired Inside
+- Con cable interior
     
-- Wired Outside
+- Wired fuera
     
-- Wifi Inside
+- WiFi interior
     
-- Wifi Outside
+- WiFi exterior
     
-#### <a name="inside-test"></a>Inside Test
+#### <a name="inside-test"></a>Prueba interior
 
-During processing, the CQD back-end classifies a stream as  *Inside*  or *Outside*  using Building information, if it exists. Endpoints of each stream are associated with a subnet address. If the subnet is in the list of the subnets marked InsideCorp in the uploaded Building information, then it is considered *Inside*. If Building information has not yet been uploaded, then Inside Test will always classify the streams as *Outside*. Please note that Inside Test for Server-Client scenario only considers the client endpoint. Because servers are always outside from a user's perspective, this isn't accounted for in the test.
+Durante el procesamiento, el back-end CQD clasifica una secuencia como *dentro* o *fuera* utilizando información del edificio, si es que existe. Extremos de cada secuencia se asocian con una dirección de subred. Si la subred está en la lista de las subredes marcadas InsideCorp en la información de creación cargada, se considera *dentro*. Si dicha información no ha se ha cargado todavía, dentro de la prueba siempre clasificará las secuencias como *fuera*. Tenga en cuenta que dentro de la prueba para el escenario de servidor cliente sólo considera el extremo de cliente. Como los servidores están siempre fuera desde la perspectiva de un usuario, esto no representaron en la prueba.
   
-#### <a name="wired-vs-wifi"></a>Wired vs. wifi
+#### <a name="wired-vs-wifi"></a>Cableadas y wifi
 
-As the names indicate, this is a classification criteria based on the type of client connections. Again, server is always wired and it isn't included in the calculation.
+Como indican los nombres, esto es un criterio de clasificación según el tipo de conexiones de cliente. De nuevo, siempre se conecta el servidor y no se incluye en el cálculo.
   
 > [!NOTE]
-> Given a stream, if one of the two endpoints is connected to a Wifi network, then it is classified as Wifi in CQD. 
+> Dada una secuencia, si uno de los dos extremos está conectado a una red Wifi, se clasifica como Wifi en CQD. 
   
-## <a name="selecting-product-data-to-see-in-reports"></a>Selecting product data to see in reports
+## <a name="selecting-product-data-to-see-in-reports"></a>Selección de datos de producto para ver en los informes
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-In the Summary and Location Enhanced Reports, you can use the **Product Filter** drop-down to show all product data, only Microsoft Teams data, or only Skype for Business Online data.
+En el resumen y los informes mejorados de ubicación, puede utilizar la lista desplegable **Filtro de productos** para mostrar todos los datos del producto, sólo los datos de Teams de Microsoft, o sólo Skype para datos empresariales en línea.
   
-![Screenshot shows the Product Filter control with options for All, Microsoft Teams, and Skype for Business.](../images/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
+![Captura de pantalla muestra el control de filtro de producto con opciones para todas las Teams de Microsoft y Skype para el negocio.](../images/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
   
-In Detailed reports, you can use the **Is Teams** dimension to filter the data to Microsoft Teams or Skype for Business Online data as part of defining the report.
+En informes detallados, puede utilizar la dimensión de **Los equipos es** para filtrar los datos a Microsoft Teams o Skype para datos empresariales en línea como parte de la definición del informe.
   
-## <a name="upload-building-information"></a>Upload Building information
+## <a name="upload-building-information"></a>Información de generación de carga
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting **Tenant Data Upload** from the settings menu in the top-right corner. This page is used for admins to upload their own information, such as mapping of IP address and geographical information, mapping each wireless AP and its MAC address, etc.
+El tablero de mandos de los informes de resumen de CQD incluye una página de **Inquilinos al cargar los datos** , tiene acceso seleccionando el **Inquilino al cargar los datos** en el menú de configuración en la esquina superior derecha. Esta página se utiliza para los administradores para cargar su propia información, como la asignación de dirección IP y la información geográfica, asignación de cada punto de acceso inalámbrico y su dirección MAC, etcetera.
   
-![CQD Dashboard](../images/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
+![Panel CQD](../images/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
-1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type for uploading. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building as well as other geographical information). Currently we are only supporting the "Building" data type. A few more data types will be added with subsequent releases.
+1. En la página de **Carga de datos de inquilinos** , utilice el menú desplegable para elegir un tipo de archivo de datos para cargar. El tipo de datos de archivo denota el contenido del archivo (por ejemplo, "Crear" se refiere a la asignación de dirección IP y la creación, así como otra información geográfica). Actualmente sólo estamos apoyando el tipo de datos de "Creación". Algunos tipos de datos más se agregará con versiones posteriores.
     
-2. After selecting the file data type, click **Browse** to choose a data file.
+2. Después de seleccionar el tipo de datos de archivo, haga clic en **Examinar** para elegir un archivo de datos.
     
-  - The data file must be a .tsv (Tab-separated values) file or a .csv (Comma-separated value) file. If using a .csv file, any field that contains a comma must be surrounded by quotes or have the comma removed. For example, if your building name is NY,NY, in the .csv file it should be entered as "NY,NY".
+  - El archivo de datos debe ser un archivo TSV (valores separados por comas) o un archivo de CSV (valores separados por comas). Si utiliza un archivo .csv, cualquier campo que contenga una coma debe ir entre comillas o quita el punto y coma. Por ejemplo, si el nombre del edificio es de Nueva York, NY, en el archivo .csv debe escribirse como "Nueva York, NY".
     
-  - The data file must be no larger than 50MB in size.
+  - El archivo de datos debe ser no más de 50MB de tamaño.
     
-  - For each data file, each column in the file must match a predefined data type, discussed later in this topic.
+  - Para cada archivo de datos, cada columna del archivo debe coincidir con un tipo de datos predefinido, tratado más adelante en este tema.
     
-3. After selecting a data file, specify **Start date** and, optionally, **Specify an end date**.
+3. Después de seleccionar un archivo de datos, especifique la **fecha de inicio** y, opcionalmente, **Especifique una fecha final**.
     
-4. After selecting **Start date**, select **Upload** to upload the file to the CQD server.
+4. Después de seleccionar la **fecha de inicio**, seleccione **cargar** para cargar el archivo en el servidor CQD.
     
-    Before the file is uploaded, it is first validated. Once validated, it is stored in an Azure blob. If validation fails or the file fails to be stored in an Azure blob, an error message is displayed requesting a correction to the file. The following image shows an error occurring when the number of columns in the data file is incorrect.
+    Antes de cargar el archivo, primero se valida. Una vez validado, se almacena en un objeto binario de Azure. Si se produce un error de validación o el archivo no se almacena en un objeto binario de Azure, se muestra un mensaje de error solicitando una corrección en el archivo. La imagen siguiente muestra un error que se produce cuando el número de columnas del archivo de datos es incorrecto.
     
-     ![CQD Example upload validation error](../images/22716a32-3d3d-4870-983c-46089e8b212a.png)
+     ![Error de validación de carga de ejemplo CQD](../images/22716a32-3d3d-4870-983c-46089e8b212a.png)
   
-5. If no errors occur during validation, the file upload will succeed. You can then see the uploaded data file in the **My uploads** table, which shows the full list of all uploaded files for the current tenant at the bottom of that page.
+5. Si no se producen errores durante la validación, la carga de archivos se realizará correctamente. A continuación, puede ver el archivo de datos cargado en la tabla **Mis archivos** , que muestra la lista completa de todos los archivos cargados por el arrendatario en la parte inferior de la página actual.
     
-    Each record shows one uploaded tenant data file, with file type, last update time, time period, description, a remove icon, and a download icon. To remove a file, select the trash bin icon in the table. To download a file, select the download icon in the **Download** column of the table.
+    Cada registro muestra a los inquilinos cargado un archivo de datos, con el tipo de archivo, hora de última actualización, período de tiempo, descripción, un icono de eliminación y un icono de descarga. Para quitar un archivo, seleccione el icono de Papelera de basura en la tabla. Para descargar un archivo, seleccione el icono de descarga en la columna **Descargar** de la tabla.
     
-     ![CQD My Uploads table](../images/4168a883-bbea-461a-80b1-42eedf2e7732.png)
+     ![Tabla de carga de mi CQD](../images/4168a883-bbea-461a-80b1-42eedf2e7732.png)
   
-### <a name="tenant-data-file-format-and-building-data-file-structure"></a>Tenant data file format and Building data file structure
+### <a name="tenant-data-file-format-and-building-data-file-structure"></a>Formato de archivo de datos de clientes y la estructura de archivos de datos de creación
 <a name="BKMKTenantDataFile"> </a>
 
-The format of the data file you upload must meet the following to pass the validation check before uploading.
+El formato del archivo de datos que carga debe cumplir lo siguiente para pasar la comprobación de validación antes de cargar.
   
-- The file must be either a .tsv file, which means, in each row, columns are separated by a TAB, or a .csv file with each column separated by a comma.
+- El archivo debe ser un archivo TSV, lo que significa, en cada fila, las columnas están separadas por TABULADORES, o en un archivo .csv con cada columna separado por una coma.
     
-- The content of the data file doesn't include table headers. That means the first line of the data file should be real data, not headers like "Network," etc.
+- El contenido del archivo de datos no incluye encabezados de tabla. Eso significa que la primera línea del archivo de datos debe ser datos reales, no encabezados como "Red", etcetera.
     
-- For each column, the data type can only be String, Number, or Bool. If it is Number, the value must be a numeric value; if it is Bool, the value must be either 0 or 1.
+- Para cada columna, el tipo de datos sólo puede ser cadena, número o Bool. Si el número es, el valor debe ser un valor numérico; Si es Bool, el valor debe ser 0 o 1.
     
-- For each column, if the data type is string, the data can be empty (but still must be separated by an appropriate delimiter (i.e., a tab or comma). This just assigns that field an empty string value.
+- Para cada columna, si el tipo de datos es string, los datos pueden estar vacíos (pero todavía deben estar separados por un delimitador apropiado (es decir, una ficha o una coma). Esto simplemente asigna ese campo un valor de cadena vacía.
     
-- There must be 14 columns for each row, each column must have the following data type, and the columns must be in the order listed in the following table:
+- Debe haber 14 columnas para cada fila, cada columna debe tener los siguientes datos de tipo y las columnas deben estar en el orden indicado en la tabla siguiente:
     
-|**Column Name**|**Data type**|**Ejemplo**|
+|**Nombre de la columna**|**Tipo de datos**|**Ejemplo**|
 |:-----|:-----|:-----|
 |Red  <br/> |Cadena  <br/> |192.168.1.0  <br/> |
-|NetworkName  <br/> |Cadena  <br/> |USA/Seattle/SEATTLE-SEA-1  <br/> |
+|NetworkName  <br/> |Cadena  <br/> |USA/Seattle/SEATTLE-mar-1  <br/> |
 |NetworkRange  <br/> |Número  <br/> |26  <br/> |
-|BuildingName  <br/> |Cadena  <br/> |SEATTLE-SEA-1  <br/> |
+|Nombredeedificio  <br/> |Cadena  <br/> |SEATTLE-MAR-1  <br/> |
 |OwnershipType  <br/> |Cadena  <br/> |Contoso  <br/> |
-|BuildingType  <br/> |Cadena  <br/> |IT Termination  <br/> |
-|BuildingOfficeType  <br/> |Cadena  <br/> |Engineering  <br/> |
+|BuildingType  <br/> |Cadena  <br/> |Terminación de TI  <br/> |
+|BuildingOfficeType  <br/> |Cadena  <br/> |De ingeniería  <br/> |
 |Ciudad  <br/> |Cadena  <br/> |Seattle  <br/> |
-|ZipCode  <br/> |Cadena  <br/> |98001  <br/> |
-|Country  <br/> |Cadena  <br/> |US  <br/> |
+|Código postal  <br/> |Cadena  <br/> |98001  <br/> |
+|País  <br/> |Cadena  <br/> |NOSOTROS  <br/> |
 |Estado  <br/> |Cadena  <br/> |WA  <br/> |
 |Region  <br/> |Cadena  <br/> |MSUS  <br/> |
 |InsideCorp  <br/> |Booleano  <br/> |1  <br/> |
 |ExpressRoute  <br/> |Booleano  <br/> |0  <br/> |
    
 > [!IMPORTANT]
-> The network range can be used to represent a supernet (combination of several subnets with a single routing prefix). All new building uploads will be checked for any overlapping ranges. If you have previously uploaded a building file, you should download the current file and re-upload it to identify any overlaps and fix the issue before uploading again. Any overlap in previously uploaded files may result in the wrong mappings of subnets to buildings in the reports. Certain VPN implementations do not accurately report the subnet information. It is recommended that when adding a VPN subnet to the building file, instead of one entry for the subnet, separate entries are added for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you should have 256 rows, with one row for each address between 172.16.18.0/32 and 172.16.18.255/32, inclusive. 
+> El intervalo de red puede utilizarse para representar una supernet (combinación de varias subredes con un solo prefijo de enrutamiento). Se comprobarán todas las cargas de creación nueva para los rangos superpuestos. Si previamente se ha cargado un archivo de creación, debe descargar el archivo actual y volver a cargarla para las superposiciones de identificar y corregir el problema antes de volver a cargar. Puede producir cualquier superposición en archivos cargados previamente las asignaciones incorrectas de subredes para edificios en los informes. Ciertas implementaciones de VPN no informan con precisión de la información de subred. Se recomienda que al agregar una subred VPN para el archivo de edificio, en lugar de una entrada para la subred independientes se agregan entradas para cada dirección de la subred VPN como una red independiente de 32 bits. Cada fila puede tener los mismos metadatos de creación. Por ejemplo, en lugar de una fila de 172.16.18.0/24, debe tener filas de 256, con una fila para cada dirección entre 172.16.18.0/32 y 172.16.18.255/32, ambos inclusive. 
   
-## <a name="selecting-media-type-in-detailed-reports"></a>Selecting media type in detailed reports
+## <a name="selecting-media-type-in-detailed-reports"></a>Seleccionar tipo de medio de informes detallados
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-The detailed reports support looking at quality and media reliability for audio, video, application sharing, and video-based screen-sharing media types. Dimensions, measures, and filters that are specific to a single media type have "Audio", "Video", "AppSharing", or "VBSS" as a prefix.
+Los informes detallados admiten mirando confiabilidad de calidad y los medios de comunicación para audio, vídeo, uso compartido de aplicaciones y tipos de medios de uso compartido de pantalla basados en vídeo. Dimensiones, medidas y filtros que son específicos de un tipo de medio solo tienen "Audio", "Video", "Compartir" o "VBSS" como prefijo.
   
-![Call Quality Dashboard Dimensions.](../images/ae132202-d6dc-43bd-b8b3-ea9c24c519e8.png)
+![Llame a dimensiones del panel de calidad.](../images/ae132202-d6dc-43bd-b8b3-ea9c24c519e8.png)
   
-If you want to view the dimensions and measures for a single media type, the new MediaType dimension and filter may be required. For example, to have a report that shows the total session counts across different media types, include the MediaType dimension.
+Si desea ver las dimensiones y medidas para un tipo de medio único, pueden requerirse la nueva dimensión MediaType y el filtro. Por ejemplo, para un informe que muestra que el total de la sesión cuenta a través de diferentes tipos de medios, incluir la dimensión MediaType.
   
-![Call Quality Dashboard Total Stream Count.](../images/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
+![Llame a calidad panel secuencia Total Count.](../images/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
 
 ## <a name="related-topics"></a>See also
 [Configurar el análisis de llamadas de Skype Empresarial](set-up-call-analytics.md)
 
-[Use Call Analytics to troubleshoot poor  call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Utilizar Analytics llamar a solucionar problemas de calidad de sonido deficiente](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Difference between Call Analytics and Call Quality Dashboard?](difference-between-call-analytics-and-call-quality-dashboard.md)
+[¿Diferencia entre análisis de llamada y llamada Quality Dashboard?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  

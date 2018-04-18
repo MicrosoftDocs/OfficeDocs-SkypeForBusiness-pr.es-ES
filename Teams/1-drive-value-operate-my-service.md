@@ -3,7 +3,7 @@ title: Guía de operaciones de equipos de Microsoft
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -11,11 +11,11 @@ description: Las tareas y actividades necesarias para la administración de serv
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d64da9bbe792031afbb3538020b7ff92fbaf493
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 4d9b76d62457c541924c6f72eb246bf63f1fe026
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="operate-my-service"></a>Operar mi servicio
 
@@ -372,7 +372,7 @@ Esta función requiere los conocimientos necesarios para identificar tendencias 
 El experto de calidad aprovecha las herramientas existentes y procesos documentados, como llamar a calidad Dashboard (CQD) y la Guía de revisión de experiencia de calidad, para controlar la experiencia del usuario, identifican tendencias de calidad y corrección de la unidad donde sea necesario.
 El experto de calidad debe trabajar con los equipos correspondientes a las acciones de corrección de unidad y el informe a un Comité de dirección sobre el progreso y los problemas abiertos.
 
-La [Calidad de la Guía de revisión de experiencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) incluye actividades que evaluarán y proporcionan orientaciones sobre correcciones en áreas clave que tienen el mayor impacto en la mejora de la experiencia del usuario. Las instrucciones proporcionadas en la Guía de revisión de experiencia de calidad se centra en usar CQD en línea como herramienta principal para informar e investigar cada área, con énfasis en audio para maximizar la adopción e impacto. Se traducirá también directamente cualquier optimizaciones realizadas a la red para mejorar la experiencia de sonido a mejoras en el uso compartido de escritorio y vídeo.
+La [Calidad de la Guía de revisión de experiencia](https://aka.ms/qerguide) incluye actividades que evaluarán y proporcionan orientaciones sobre correcciones en áreas clave que tienen el mayor impacto en la mejora de la experiencia del usuario. Las instrucciones proporcionadas en la Guía de revisión de experiencia de calidad se centra en usar CQD en línea como herramienta principal para informar e investigar cada área, con énfasis en audio para maximizar la adopción e impacto. Se traducirá también directamente cualquier optimizaciones realizadas a la red para mejorar la experiencia de sonido a mejoras en el uso compartido de escritorio y vídeo.
 
 Se recomienda encarecidamente que se nombra al Campeón de calidad desde el principio. Después de que se ha designado, deberían empezar a familiarizarse con el contenido de la Guía de revisión de experiencia de calidad y materiales de capacitación asociados.
 
@@ -394,7 +394,7 @@ Se recomienda encarecidamente que se nombra al Campeón de calidad desde el prin
 
 [Información de generación de carga](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
-[Calidad de la Guía de revisión de experiencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)
+[Calidad de la Guía de revisión de experiencia](https://aka.ms/qerguide)
 
 <!--ENDOFSECTION-->
 
@@ -443,7 +443,7 @@ Incluso si ha seguido las instrucciones anteriores, los usuarios de su organizac
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Requisitos de extremo    | Asegúrese de que extremo los equipos continúa cumpliendo todos los requisitos de software para los equipos [clientes de equipos de Microsoft](https://docs.microsoft.com/microsoftteams/get-clients).                                                                                                                                                                                       | Cada mes   |               |
 | Servidores de seguridad de extremo       | Mantener las exclusiones en el servidor de seguridad de extremo basándose en la información en el artículo de [Office 365 URL y los intervalos de direcciones IP](https://aka.ms/o365ips) adecuadas. El proveedor tendrá la orientación específica acerca de cómo mantener las exclusiones. Suscribirse a la [fuente RSS](https://support.office.com/en-us/o365ip/rss) para recibir automáticamente una notificación de cambios. | Según sea necesario |               |
-| Controladores de Wi-Fi            | Probar y actualizar los controladores de Wi-Fi en el PC. Validar los resultados mediante CQD ([Guía de revisión de calidad de experiencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/CloudVoice-working/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)).                                                                                                                                                                                                                                                                   | Según sea necesario |               |
+| Controladores de Wi-Fi            | Probar y actualizar los controladores de Wi-Fi en el PC. Validar los resultados mediante CQD ([Guía de revisión de calidad de experiencia](https://aka.ms/qerguide)).                                                                                                                                                                                                                                                                   | Según sea necesario |               |
 | Administración de extremo      | Mantener el catálogo de extremos compatibles y dispositivos de interfaz (como auriculares). Administrar contratos de proveedores, garantía, distribución, reemplazo y reparar las directivas.                                                                                                                                                                                                        | Cada mes   |               |
 | Solución de problemas de extremo | Solucionar problemas de tareas pueden incluir; comprobación de la conectividad, consulta la lista de problemas conocidos, registro de recopilación, análisis y escalamiento a Microsoft Support o proveedores.                                                                                                                                                                                               | Según sea necesario |               |
 
@@ -564,6 +564,6 @@ Continuamente evaluar y remediar las zonas descritas en este documento, podrá r
 
 Las instrucciones proporcionadas en la Guía de revisión de experiencia de calidad se centra en usar Online llame calidad Dashboard (CQD) como herramienta principal para informar e investigar cada área descrita, con énfasis en audio para maximizar la adopción y el impacto. Se traducirá también directamente cualquier optimizaciones realizadas a la red para mejorar la experiencia de sonido a mejoras en el uso compartido de escritorio y vídeo.
 
-Recomendamos encarecidamente que se nombra al Campeón de calidad desde el principio. Después de que se ha designado, deberían empezar a familiarizarse con el contenido de la [Guía de revisión de experiencia de calidad](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true).
+Recomendamos encarecidamente que se nombra al Campeón de calidad desde el principio. Después de que se ha designado, deberían empezar a familiarizarse con el contenido de la [Guía de revisión de experiencia de calidad](https://aka.ms/qerguide).
 
 <!--ENDOFSECTION-->

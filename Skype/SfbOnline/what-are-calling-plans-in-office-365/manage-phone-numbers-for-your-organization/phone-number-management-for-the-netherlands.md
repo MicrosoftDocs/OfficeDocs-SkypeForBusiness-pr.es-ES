@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/31/2018
 ms.topic: article
 ms.assetid: f3b75104-bdb9-435a-bec5-9858db9df402
 ms.tgt.pltfrm: cloud
@@ -22,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Use esta tabla para buscar información sobre cómo se obtienen y se administran los números de teléfono en los Países Bajos para Skype Empresarial Online y Microsoft Teams.
-ms.openlocfilehash: fdac24a59d6e59bea9d3f946642bd8135157e25c
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 8a1bc4941c9bd79282af5894e6f45079dbc9946d
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>Administración de números de teléfono para los Países Bajos
 

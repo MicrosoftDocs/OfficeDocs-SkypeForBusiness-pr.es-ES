@@ -3,7 +3,6 @@ title: Transferencias de archivos punto a punto de bloque
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 9adf9859-de5b-461e-92ea-b6ce4dd2f7c1
 ms.tgt.pltfrm: cloud
@@ -17,11 +16,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: En Skype para los negocios en línea, tiene capacidad para controlar a las transferencias de archivos punto a punto (P2P) como parte de la configuración de directivas de conferencia existente. Sin embargo, esto permite o bloquea las transferencias para los usuarios si están transfiriendo archivos a un usuario que pertenezca a la misma organización o a un usuario federado de otra organización de archivos. Siguiendo los pasos siguientes, puede bloquear a las transferencias de archivos P2P con organizaciones federadas o asociados.
-ms.openlocfilehash: 8e3fd112d46a88752b0d6d19cf2e1fbb1787df32
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: e73a2baa8368d3ed1c20a79e8f78010749c05fb2
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="block-point-to-point-file-transfers"></a>Transferencias de archivos punto a punto de bloque
 

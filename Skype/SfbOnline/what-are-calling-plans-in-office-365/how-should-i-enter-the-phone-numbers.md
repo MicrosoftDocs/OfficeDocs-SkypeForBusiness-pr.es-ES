@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 28aa24b4-8c81-4327-9752-989ea7540db2
 ms.tgt.pltfrm: cloud
@@ -20,11 +19,11 @@ f1keywords: ms.lync.lac.PortOrderNumbers
 ms.custom:
 - Calling Plans
 description: 'Aprenda a configurar los números de teléfono cuando instalarlas en Skype para el negocio. '
-ms.openlocfilehash: 68fe698612c095e657dab56723df7de6eb13b858
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 66e86d01b11f2dc6ad45d59d19f2ccc5a6f6311a
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="how-should-i-enter-the-phone-numbers"></a>¿Cómo debo escribir los números de teléfono?
 

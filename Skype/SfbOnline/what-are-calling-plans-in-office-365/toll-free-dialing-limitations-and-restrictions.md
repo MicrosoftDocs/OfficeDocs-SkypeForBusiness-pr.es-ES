@@ -1,10 +1,9 @@
 ---
-title: Restricciones y limitaciones de marcado gratuito
+title: Toll-free dialing limitations and restrictions
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 6b8d5ddb-59c1-4ee7-b171-18e5ace2dcd6
 ms.tgt.pltfrm: cloud
@@ -21,20 +20,20 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: Esto le ayudará a averiguar cómo marcar números libre de peaje en cada país o región. Después de seleccionar el país o región, se tardará a una página específica de país que contiene detalles específicos, las restricciones y límites de disponibilidad del servicio gratuito donde el servicio gratuito está disponible. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
-ms.openlocfilehash: 9ece5f4cf978b00cc782d936251d013c4cf43f8c
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+description: This will help you find out how to dial toll free numbers in each country/region. After you select the country/region, it will take you to a country-specific page that contains specific details, restrictions, and limits for toll-free service availability where toll-free service is available. The dialing format or formats will show you the required access codes within each country/region to dial the toll-free number.
+ms.openlocfilehash: b683c5e09beef434111379d108b3d09b1ba684a9
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="toll-free-dialing-limitations-and-restrictions"></a>Restricciones y limitaciones de marcado gratuito
+# <a name="toll-free-dialing-limitations-and-restrictions"></a>Toll-free dialing limitations and restrictions
 
-Esto le ayudará a averiguar cómo marcar números libre de peaje en cada país o región. Después de seleccionar el país o región, se tardará en una página que contenga donde está disponible incluidos detalles específicos, restricciones y límites de servicio gratuito de peaje. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
+This will help you find out how to dial toll free numbers in each country or region. After you select the country/region, it will take you to a page that contains where toll free service is available including specific details, restrictions, and limits. The dialing format or formats will show you the required access codes within each country/region to dial the toll-free number.
   
-Si está listo, seleccione un país o región:
+If you're ready, select a country or region:
   
-## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>Seleccione su país o región para ver los códigos de marcado, limitaciones y restricciones.
+## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>Select your country or region to see the dialing codes, limitations and restrictions.
 
 > [!div class="op_single_selector"]    
 > - [Argentina](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
@@ -46,8 +45,8 @@ Si está listo, seleccione un país o región:
 > - [Brunéi](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md)
 > - [Bulgaria](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md)
 > - [Chile](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md)
-> - [China (norte)](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
-> - [China (sur)](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
+> - [China (North)](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
+> - [China (South)](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
 > - [Colombia](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md)
 > - [Croacia](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md)
 > - [Chipre](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus.md)
@@ -99,20 +98,20 @@ Si está listo, seleccione un país o región:
 > - [Venezuela](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 > - [Vietnam](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
   
-## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>Aquí están algunas cosas importantes para recordar acerca de los números de teléfono libre:
+## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>Here are some important things for you to remember about toll free numbers:
 
-- **Números sin pago sólo funcionan en cada país o región.** Por ejemplo, los usuarios no podrán llamar a un número de teléfono gratuito australiano fuera de Australia.
+- **Toll free numbers only operate within each country/region.** For example, your users won't be able to call an Australian toll-free number outside of Australia.
     
-- **Adquisición o trasladar Universal International Freephone números (UIFN) no es compatible.**
+- **Acquiring or porting Universal International Freephone Numbers (UIFN) isn't supported.**
     
-- **En muchos países o regiones, el organismo regulador/telecomunicaciones en el país o región requiere mantener al menos 100 minutos de uso por mes con el fin de conservar el número de cada número de teléfono gratuito.**
+- **In many countries/regions, the regulator/telecommunication agency in the country/region requires each toll free phone number to maintain at least 100 minutes of usage per month in order to retain the number.**
     
     > [!NOTE]
-    > En caso de obtener un número gratuito y el uso del número no cumple estos requisitos mínimos, Microsoft puede ser obligado por el organismo regulador/telecomunicaciones para recuperar al número de usted. 
+    > In the event you get a toll free number and the usage of the number doesn't meet these minimum requirements, Microsoft may be compelled by the regulator/telecommunication agency to reclaim the number from you. 
   
-- **Alámbricos, línea fija y acceso a la red móvil a números de teléfono gratuitos pueden restringirse total o parcialmente.** El formato de marcado describe los códigos de acceso requeridos en cada país o región para realizar llamadas con el número gratuito.
+- **Wireline, fixed line, and mobile network access to toll-free numbers may be fully or partially restricted.** El formato de marcado describe los códigos de acceso requeridos en cada país o región para realizar llamadas con el número gratuito.
     
-- **Números libres de pago de Plan de numeración de América del Norte:** Tarifas por minuto para números sin pago Plan de numeración de América del Norte están determinados por el país de origen. La tasa de pago libre por minuto para las llamadas que se originan en el mapa de Estados Unidos a la velocidad definida como "Norteamérica". Sin embargo, las llamadas que se originan en otros países de América del Norte como Canadá, Puerto Rico, etc. tienen tasas de libre de pago específico.
+- **North America Numbering Plan Toll Free Numbers:** Per-minute rates for North America Numbering Plan toll free numbers are determined by the originating country. The toll free per-minute rate for calls that originate from the United States map to the rate defined as "North America." However, calls that originate from other North American countries such as Canada, Puerto Rico, etc. have specific toll free rates.
 
 > [!NOTE]
 > Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

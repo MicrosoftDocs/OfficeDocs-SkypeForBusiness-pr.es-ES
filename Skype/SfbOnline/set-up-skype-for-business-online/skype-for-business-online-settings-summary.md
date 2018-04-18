@@ -3,7 +3,6 @@ title: Resumen de configuración de Skype Empresarial Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: da3386ab-0397-4c55-b9f0-9dbeade93455
 ms.tgt.pltfrm: cloud
@@ -18,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Este resumen de Skype para la configuración de usuario y organización de negocios puede ayudarle a obtener más información acerca de la conectividad con IM pública, las invitaciones a reuniones, llamadas y reuniones y mucho más.  '
-ms.openlocfilehash: f730b18110f4c114ebb414a2aa863a9194b427a0
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 17504d2c0e367a6bd92f427befb3aebb7ecdc364
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Resumen de configuración de Skype Empresarial Online
 

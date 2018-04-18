@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 1ea8af70-bc19-454c-adba-b029a08de07c
 ms.tgt.pltfrm: cloud
@@ -22,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para los países bajos los servicios de Office 365 para Skype para empresas y Teams de Microsoft.
-ms.openlocfilehash: 1631f8fa144117812271581878c7f3aa91b76a4a
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: fdc36b7b66b400fae01c584ef348c57fd935f14d
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="availability-in-the-netherlands"></a>Disponibilidad en los países bajos
 
