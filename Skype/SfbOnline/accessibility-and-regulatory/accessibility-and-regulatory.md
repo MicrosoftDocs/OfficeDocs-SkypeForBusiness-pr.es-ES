@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: bfda8317-12a9-4594-9fb3-c0061a82711e
 ms.tgt.pltfrm: cloud
@@ -18,11 +17,11 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Legal
-description: "Este es el contenido que debe publicarse para satisfacer los requerimientos de accesibilidad, cumplimiento de normas y reglamentarios de Skype para los negocios en línea en Francia. "
-ms.openlocfilehash: 1585f6b03efb75454c18024ae68c8068156a07d6
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+description: 'Este es el contenido que debe publicarse para satisfacer los requerimientos de accesibilidad, cumplimiento de normas y reglamentarios de Skype para los negocios en línea en Francia. '
+ms.openlocfilehash: 3c529abdd888aac8aa535fad7acc4d35d981dba5
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="accessibility-and-regulatory"></a><span data-ttu-id="f6c3c-103">Accesibilidad y reglamentaciones</span><span class="sxs-lookup"><span data-stu-id="f6c3c-103">Accessibility and regulatory</span></span>
+# <a name="accessibility-and-regulatory"></a><span data-ttu-id="8d011-103">Accesibilidad y reglamentaciones</span><span class="sxs-lookup"><span data-stu-id="8d011-103">Accessibility and regulatory</span></span>

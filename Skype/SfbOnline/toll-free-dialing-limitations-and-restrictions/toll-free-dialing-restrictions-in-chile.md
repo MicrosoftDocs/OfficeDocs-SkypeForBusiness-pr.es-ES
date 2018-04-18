@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 5d616ef2-29b2-4c5e-9103-ef531369512d
 ms.tgt.pltfrm: cloud
@@ -20,32 +19,32 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Esto le ayudará a averiguar cómo marcar números libre de peaje en cada país o región. Después de seleccionar el país o región, se tardará a una página específica de país que contiene detalles específicos, las restricciones y límites de disponibilidad del servicio gratuito donde el servicio gratuito está disponible. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
-ms.openlocfilehash: 52776b4e155ca3503e3a09cfa7d8e820dc7c74bd
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 6b03c684a1f9932276e0028852ef3d5d6d7e34c6
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="toll-free-dialing-restrictions-in-chile"></a><span data-ttu-id="d7bfd-105">Restricciones de marcado gratuito de Chile</span><span class="sxs-lookup"><span data-stu-id="d7bfd-105">Toll-free dialing restrictions in Chile</span></span>
+# <a name="toll-free-dialing-restrictions-in-chile"></a><span data-ttu-id="71140-105">Restricciones de marcado gratuito de Chile</span><span class="sxs-lookup"><span data-stu-id="71140-105">Toll-free dialing restrictions in Chile</span></span>
 
-<span data-ttu-id="d7bfd-106">[Buscar otro país o región](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), o aprender más acerca de las restricciones y limitaciones de marcado gratuito.</span><span class="sxs-lookup"><span data-stu-id="d7bfd-106">[Find another country or region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="71140-106">[Buscar otro país o región](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), o aprender más acerca de las restricciones y limitaciones de marcado gratuito.</span><span class="sxs-lookup"><span data-stu-id="71140-106">[Find another country or region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="d7bfd-107">**Detalles**</span><span class="sxs-lookup"><span data-stu-id="d7bfd-107">**Details**</span></span>|<span data-ttu-id="d7bfd-108">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="d7bfd-108">**Description**</span></span>|
+|<span data-ttu-id="71140-107">**Detalles**</span><span class="sxs-lookup"><span data-stu-id="71140-107">**Details**</span></span>|<span data-ttu-id="71140-108">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="71140-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="d7bfd-109">¿Es gratuito de llamada disponibles?</span><span class="sxs-lookup"><span data-stu-id="d7bfd-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="d7bfd-110">Sí</span><span class="sxs-lookup"><span data-stu-id="d7bfd-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="d7bfd-111">Formatos de marcado</span><span class="sxs-lookup"><span data-stu-id="d7bfd-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="d7bfd-112">123 XXXX XXXX</span><span class="sxs-lookup"><span data-stu-id="d7bfd-112">123 XXXX XXXX</span></span> <br/>  <span data-ttu-id="d7bfd-113">188 800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="d7bfd-113">188 800 XXX XXX</span></span> <br/> |
-|<span data-ttu-id="d7bfd-114">Código ISO de país o región</span><span class="sxs-lookup"><span data-stu-id="d7bfd-114">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="d7bfd-115">CL</span><span class="sxs-lookup"><span data-stu-id="d7bfd-115">CL</span></span>  <br/> |
-|<span data-ttu-id="d7bfd-116">Isla o territorio cubierto</span><span class="sxs-lookup"><span data-stu-id="d7bfd-116">Island/territory covered</span></span>  <br/> |<span data-ttu-id="d7bfd-117">No aplicable</span><span class="sxs-lookup"><span data-stu-id="d7bfd-117">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="d7bfd-118">Isla o territorio no cubierto</span><span class="sxs-lookup"><span data-stu-id="d7bfd-118">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="d7bfd-119">Sin acceso en la Isla de Pascua.</span><span class="sxs-lookup"><span data-stu-id="d7bfd-119">No access from Easter Islands.</span></span>  <br/> |
-|<span data-ttu-id="d7bfd-120">Disponibilidad de línea por cable o fijo</span><span class="sxs-lookup"><span data-stu-id="d7bfd-120">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="d7bfd-p102">Parcial. Ver comentarios.</span><span class="sxs-lookup"><span data-stu-id="d7bfd-p102">Partial. See comments.</span></span>  <br/> |
-|<span data-ttu-id="d7bfd-123">Disponibilidad de la red móvil</span><span class="sxs-lookup"><span data-stu-id="d7bfd-123">Mobile network availability</span></span>  <br/> |<span data-ttu-id="d7bfd-p103">Parcial. Ver comentarios.</span><span class="sxs-lookup"><span data-stu-id="d7bfd-p103">Partial. See comments.</span></span>  <br/> |
-|<span data-ttu-id="d7bfd-126">Problemas de acceso, restricciones y comentarios</span><span class="sxs-lookup"><span data-stu-id="d7bfd-126">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="d7bfd-127">El formato de número 188 800 XXX XXX es accesible desde la red de Telefónica.</span><span class="sxs-lookup"><span data-stu-id="d7bfd-127">The 188 800 XXX XXX number format is accessible from the Telefonica network.</span></span> <span data-ttu-id="d7bfd-128">El formato de número XXXX XXXX 123 es accesible desde la red de Entel sólo.</span><span class="sxs-lookup"><span data-stu-id="d7bfd-128">The 123 XXXX XXXX number format is accessible from Entel network only.</span></span> <span data-ttu-id="d7bfd-129">El acceso móvil es accesible desde los dos formatos de número.</span><span class="sxs-lookup"><span data-stu-id="d7bfd-129">Mobile access is accessible for both number formats.</span></span>  <br/> |
+|<span data-ttu-id="71140-109">¿Es gratuito de llamada disponibles?</span><span class="sxs-lookup"><span data-stu-id="71140-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="71140-110">Sí</span><span class="sxs-lookup"><span data-stu-id="71140-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="71140-111">Formatos de marcado</span><span class="sxs-lookup"><span data-stu-id="71140-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="71140-112">123 XXXX XXXX</span><span class="sxs-lookup"><span data-stu-id="71140-112">123 XXXX XXXX</span></span> <br/>  <span data-ttu-id="71140-113">188 800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="71140-113">188 800 XXX XXX</span></span> <br/> |
+|<span data-ttu-id="71140-114">Código ISO de país o región</span><span class="sxs-lookup"><span data-stu-id="71140-114">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="71140-115">CL</span><span class="sxs-lookup"><span data-stu-id="71140-115">CL</span></span>  <br/> |
+|<span data-ttu-id="71140-116">Isla o territorio cubierto</span><span class="sxs-lookup"><span data-stu-id="71140-116">Island/territory covered</span></span>  <br/> |<span data-ttu-id="71140-117">No aplicable</span><span class="sxs-lookup"><span data-stu-id="71140-117">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="71140-118">Isla o territorio no cubierto</span><span class="sxs-lookup"><span data-stu-id="71140-118">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="71140-119">Sin acceso en la Isla de Pascua.</span><span class="sxs-lookup"><span data-stu-id="71140-119">No access from Easter Islands.</span></span>  <br/> |
+|<span data-ttu-id="71140-120">Disponibilidad de línea por cable o fijo</span><span class="sxs-lookup"><span data-stu-id="71140-120">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="71140-p102">Parcial. Ver comentarios.</span><span class="sxs-lookup"><span data-stu-id="71140-p102">Partial. See comments.</span></span>  <br/> |
+|<span data-ttu-id="71140-123">Disponibilidad de la red móvil</span><span class="sxs-lookup"><span data-stu-id="71140-123">Mobile network availability</span></span>  <br/> |<span data-ttu-id="71140-p103">Parcial. Ver comentarios.</span><span class="sxs-lookup"><span data-stu-id="71140-p103">Partial. See comments.</span></span>  <br/> |
+|<span data-ttu-id="71140-126">Problemas de acceso, restricciones y comentarios</span><span class="sxs-lookup"><span data-stu-id="71140-126">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="71140-127">El formato de número 188 800 XXX XXX es accesible desde la red de Telefónica.</span><span class="sxs-lookup"><span data-stu-id="71140-127">The 188 800 XXX XXX number format is accessible from the Telefonica network.</span></span> <span data-ttu-id="71140-128">El formato de número XXXX XXXX 123 es accesible desde la red de Entel sólo.</span><span class="sxs-lookup"><span data-stu-id="71140-128">The 123 XXXX XXXX number format is accessible from Entel network only.</span></span> <span data-ttu-id="71140-129">El acceso móvil es accesible desde los dos formatos de número.</span><span class="sxs-lookup"><span data-stu-id="71140-129">Mobile access is accessible for both number formats.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="d7bfd-130">See also</span><span class="sxs-lookup"><span data-stu-id="d7bfd-130">Related topics</span></span>
-[<span data-ttu-id="d7bfd-131">Restricciones y limitaciones de marcado gratuito</span><span class="sxs-lookup"><span data-stu-id="d7bfd-131">Toll-free dialing limitations and restrictions</span></span>](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
+## <a name="related-topics"></a><span data-ttu-id="71140-130">See also</span><span class="sxs-lookup"><span data-stu-id="71140-130">Related topics</span></span>
+[<span data-ttu-id="71140-131">Restricciones y limitaciones de marcado gratuito</span><span class="sxs-lookup"><span data-stu-id="71140-131">Toll-free dialing limitations and restrictions</span></span>](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="d7bfd-132">Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="d7bfd-132">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[<span data-ttu-id="71140-132">Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="71140-132">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
   
  
