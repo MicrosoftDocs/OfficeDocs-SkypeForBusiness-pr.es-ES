@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 9e1ed7ac-a49b-4092-b9e9-40486512145c
 ms.tgt.pltfrm: cloud
@@ -20,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Esto le ayudará a averiguar cómo marcar números libre de peaje en cada país o región. Después de seleccionar el país o región, se tardará a una página específica de país que contiene detalles específicos, las restricciones y límites de disponibilidad del servicio gratuito donde el servicio gratuito está disponible. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
-ms.openlocfilehash: e8ded971205c4d373bd6ac62dfbce59220f6be86
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: ee0af1f9f2ca9ad55b401eacda2781f5a9d4280b
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="toll-free-dialing-restrictions-in-honduras"></a>Restricciones de marcado gratuito de Honduras
 

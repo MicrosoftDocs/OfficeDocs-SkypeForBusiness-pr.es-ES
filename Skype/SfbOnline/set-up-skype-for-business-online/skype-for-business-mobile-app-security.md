@@ -3,7 +3,6 @@ title: Skype para la seguridad de aplicaciones móviles de negocio
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: d2be8c74-3ba2-4b2d-9807-634904e1f0e8
 ms.tgt.pltfrm: cloud
@@ -17,11 +16,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Aprenda a configurar la seguridad de aplicaciones móviles para los usuarios. '
-ms.openlocfilehash: b3d75f9d5d4dc0b5e9cc76ee9dfd56bf9002ef6d
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 5f0ce617ae7dc3b8b6dd75e50c9594e5d5524aa3
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Skype para la seguridad de aplicaciones móviles de negocio
 

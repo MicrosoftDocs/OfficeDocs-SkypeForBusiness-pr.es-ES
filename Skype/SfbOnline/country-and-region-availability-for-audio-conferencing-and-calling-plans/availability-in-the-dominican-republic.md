@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 1eb066bc-394a-434e-87a2-61d257a7e77d
 ms.tgt.pltfrm: cloud
@@ -22,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para la República Dominicana los servicios de Office 365 para Skype para empresas y Teams de Microsoft.
-ms.openlocfilehash: b11df2299272ec2dfd9ff1b89bcb5631e43061bd
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 28078e343617905252a90f2c14a97fdb0dea5087
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="availability-in-the-dominican-republic"></a>Disponibilidad de la República Dominicana
 

@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 08ef2b9b-e891-46ae-aa7f-26bce663b519
 ms.tgt.pltfrm: cloud
@@ -20,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Esto le ayudará a averiguar cómo marcar números libre de peaje en cada país o región. Después de seleccionar el país o región, se tardará a una página específica de país que contiene detalles específicos, las restricciones y límites de disponibilidad del servicio gratuito donde el servicio gratuito está disponible. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
-ms.openlocfilehash: 747328491b16e5f148b1d56eda4f1ce1502b3ced
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 94f5e69e32ecc6e07d4f769746bc051b82667b2a
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="toll-free-dialing-restrictions-in-south-africa"></a>Restricciones de marcado gratuito de Sudáfrica
 

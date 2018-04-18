@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: bf4ea2ea-4f7c-4f41-8e4c-d9ceb11626cc
 ms.tgt.pltfrm: cloud
@@ -21,11 +20,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Obtenga información acerca de qué información de cuenta que será necesario cuando se trabaja con un asistente nuevo orden de puerto número Local. '
-ms.openlocfilehash: 53fa83e98af94505fd8cea5f2b30caf267f9d7e5
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: dcd445947a35d750381f3ff1e7094172cee267cf
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="port-order-account-information"></a>Información de cuenta de orden de puerto
 

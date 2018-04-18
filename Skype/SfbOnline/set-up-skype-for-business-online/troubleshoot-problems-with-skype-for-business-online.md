@@ -3,7 +3,6 @@ title: Solución de problemas con Skype Empresarial Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: dce3356e-83a3-4718-88e7-59885bbaa911
 ms.tgt.pltfrm: cloud
@@ -17,11 +16,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: 40e6811df0ad920daa6d974e222b659da5c5b97d
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 533e282f9b11e91748c747797ad6a93d4caf036a
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Solución de problemas con Skype Empresarial Online
 

@@ -1,10 +1,9 @@
 ---
-title: Availability in Lithuania
+title: Disponibilidad de Lituania
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: c3a51334-fff3-4b31-9618-c150adb53a0c
 ms.tgt.pltfrm: cloud
@@ -21,25 +20,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Here are the Office 365 services for Skype for Business and Microsoft Teams available for Lithuania.
-ms.openlocfilehash: 7518db6ee267d65e06fe89d25ab5f5a936be3fad
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+description: Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Lituania.
+ms.openlocfilehash: 09c5a21b0e04a76bb169398ab31443d9c8644578
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="availability-in-lithuania"></a>Availability in Lithuania
+# <a name="availability-in-lithuania"></a>Disponibilidad de Lituania
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Here are the Office 365 services for Skype for Business and Microsoft Teams available for Lithuania.
+Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Lituania.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Yes, for Vilnius. Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para Vilnius. Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |No disponible  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico

@@ -3,7 +3,6 @@ title: Permitir que los usuarios de Skype Empresarial agreguen contactos de Skyp
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/23/2018
 ms.topic: article
 ms.assetid: 08666236-1894-42ae-8846-e49232bbc460
 ms.tgt.pltfrm: cloud
@@ -18,11 +17,11 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to  let people who are using Skype for Business contact Skype for Business users from outside your organization and add them to their list of contacts. '
-ms.openlocfilehash: c9867478474bd344674b1392af4d909931760b8c
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 4385ca2a5d8654d9619c353932462f2d32a1c9a3
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype
 
