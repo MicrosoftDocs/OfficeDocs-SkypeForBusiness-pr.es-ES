@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 28aa24b4-8c81-4327-9752-989ea7540db2
 ms.tgt.pltfrm: cloud
@@ -20,83 +19,83 @@ f1keywords: ms.lync.lac.PortOrderNumbers
 ms.custom:
 - Calling Plans
 description: 'Aprenda a configurar los números de teléfono cuando instalarlas en Skype para el negocio. '
-ms.openlocfilehash: 68fe698612c095e657dab56723df7de6eb13b858
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 66e86d01b11f2dc6ad45d59d19f2ccc5a6f6311a
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="how-should-i-enter-the-phone-numbers"></a><span data-ttu-id="fb274-103">¿Cómo debo escribir los números de teléfono?</span><span class="sxs-lookup"><span data-stu-id="fb274-103">How should I enter the phone numbers?</span></span>
+# <a name="how-should-i-enter-the-phone-numbers"></a><span data-ttu-id="dfe65-103">¿Cómo debo escribir los números de teléfono?</span><span class="sxs-lookup"><span data-stu-id="dfe65-103">How should I enter the phone numbers?</span></span>
 
-<span data-ttu-id="fb274-104">Al convertir números de teléfono, debe escribir en el formato correcto.</span><span class="sxs-lookup"><span data-stu-id="fb274-104">When you are porting phone numbers, you must enter them in the correct format.</span></span> 
+<span data-ttu-id="dfe65-104">Al convertir números de teléfono, debe escribir en el formato correcto.</span><span class="sxs-lookup"><span data-stu-id="dfe65-104">When you are porting phone numbers, you must enter them in the correct format.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="fb274-105">Cada número de teléfono o un rango de número de teléfono debe escribirse por separado en cada línea.</span><span class="sxs-lookup"><span data-stu-id="fb274-105">Each phone number or range of phone number must be entered separately on each line.</span></span> 
+> <span data-ttu-id="dfe65-105">Cada número de teléfono o un rango de número de teléfono debe escribirse por separado en cada línea.</span><span class="sxs-lookup"><span data-stu-id="dfe65-105">Each phone number or range of phone number must be entered separately on each line.</span></span> 
   
-- <span data-ttu-id="fb274-106">Al escribir números de teléfono único:</span><span class="sxs-lookup"><span data-stu-id="fb274-106">When you are entering single phone numbers:</span></span>
+- <span data-ttu-id="dfe65-106">Al escribir números de teléfono único:</span><span class="sxs-lookup"><span data-stu-id="dfe65-106">When you are entering single phone numbers:</span></span>
     
-  - <span data-ttu-id="fb274-107">Se pasará por alto todos los caracteres especiales (incluidos los guiones "-").</span><span class="sxs-lookup"><span data-stu-id="fb274-107">All special characters will be ignored (including dash "-").</span></span> <span data-ttu-id="fb274-108">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="fb274-108">For example:</span></span>
+  - <span data-ttu-id="dfe65-107">Se pasará por alto todos los caracteres especiales (incluidos los guiones "-").</span><span class="sxs-lookup"><span data-stu-id="dfe65-107">All special characters will be ignored (including dash "-").</span></span> <span data-ttu-id="dfe65-108">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="dfe65-108">For example:</span></span>
     
-  - <span data-ttu-id="fb274-109">Para un número de 10 dígitos: \*\* &amp; \*(425\*() (\*&amp;4&amp;\*()) (\*250649\*\* a **+14255550649**, se corregirá.</span><span class="sxs-lookup"><span data-stu-id="fb274-109">For a 10-digit number: **&amp;\*(425\*()(\*&amp;4&amp;\*())(\*250649** will be corrected to **+14255550649**.</span></span>
+  - <span data-ttu-id="dfe65-109">Para un número de 10 dígitos: \*\* &amp; \*(425\*() (\*&amp;4&amp;\*()) (\*250649\*\* a **+14255550649**, se corregirá.</span><span class="sxs-lookup"><span data-stu-id="dfe65-109">For a 10-digit number: **&amp;\*(425\*()(\*&amp;4&amp;\*())(\*250649** will be corrected to **+14255550649**.</span></span>
     
-  - <span data-ttu-id="fb274-110">Para un número de 11 dígitos: **1\*() (\*&amp;42&amp;\*() (\*&amp;55550649** a **+14255550649**, se corregirá.</span><span class="sxs-lookup"><span data-stu-id="fb274-110">For an 11-digit number: **1\*()(\*&amp;42&amp;\*()(\*&amp;55550649** will be corrected to **+14255550649**.</span></span>
+  - <span data-ttu-id="dfe65-110">Para un número de 11 dígitos: **1\*() (\*&amp;42&amp;\*() (\*&amp;55550649** a **+14255550649**, se corregirá.</span><span class="sxs-lookup"><span data-stu-id="dfe65-110">For an 11-digit number: **1\*()(\*&amp;42&amp;\*()(\*&amp;55550649** will be corrected to **+14255550649**.</span></span>
     
-  - <span data-ttu-id="fb274-111">Si hay 10 u 11 dígitos, se omitirán todas las etiquetas.</span><span class="sxs-lookup"><span data-stu-id="fb274-111">All tags will be ignored if there are 10 or 11 digits.</span></span> <span data-ttu-id="fb274-112">Por ejemplo, ** \<div > 4255551234\</div >** será **+14255551234**.</span><span class="sxs-lookup"><span data-stu-id="fb274-112">For example, **\<div> 4255551234\</div>** will be **+14255551234**.</span></span>
+  - <span data-ttu-id="dfe65-111">Si hay 10 u 11 dígitos, se omitirán todas las etiquetas.</span><span class="sxs-lookup"><span data-stu-id="dfe65-111">All tags will be ignored if there are 10 or 11 digits.</span></span> <span data-ttu-id="dfe65-112">Por ejemplo, ** \<div > 4255551234\</div >** será **+14255551234**.</span><span class="sxs-lookup"><span data-stu-id="dfe65-112">For example, **\<div> 4255551234\</div>** will be **+14255551234**.</span></span>
     
-  - <span data-ttu-id="fb274-113">"-", se omitirá espacio y paréntesis.</span><span class="sxs-lookup"><span data-stu-id="fb274-113">"-", space, and parenthesis will be ignored.</span></span> <span data-ttu-id="fb274-114">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="fb274-114">For example:</span></span>
+  - <span data-ttu-id="dfe65-113">"-", se omitirá espacio y paréntesis.</span><span class="sxs-lookup"><span data-stu-id="dfe65-113">"-", space, and parenthesis will be ignored.</span></span> <span data-ttu-id="dfe65-114">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="dfe65-114">For example:</span></span>
     
-  - <span data-ttu-id="fb274-115">Para un número de 10 dígitos: **(425) 555-6776** se corregirá para **+14255556776**.</span><span class="sxs-lookup"><span data-stu-id="fb274-115">For a 10-digit number: **(425) 555-6776** will be corrected to **+14255556776**.</span></span>
+  - <span data-ttu-id="dfe65-115">Para un número de 10 dígitos: **(425) 555-6776** se corregirá para **+14255556776**.</span><span class="sxs-lookup"><span data-stu-id="dfe65-115">For a 10-digit number: **(425) 555-6776** will be corrected to **+14255556776**.</span></span>
     
-  - <span data-ttu-id="fb274-116">Para un número de 11 dígitos: se corregirán **555-6776 1(425)** a **+14255556776**.</span><span class="sxs-lookup"><span data-stu-id="fb274-116">For an 11-digit number: **1(425) 555-6776** will be corrected to **+14255556776**.</span></span>
+  - <span data-ttu-id="dfe65-116">Para un número de 11 dígitos: se corregirán **555-6776 1(425)** a **+14255556776**.</span><span class="sxs-lookup"><span data-stu-id="dfe65-116">For an 11-digit number: **1(425) 555-6776** will be corrected to **+14255556776**.</span></span>
     
-  - <span data-ttu-id="fb274-117">Todas las letras serán tratadas como caracteres especiales y pasa por alto si hay un número de teléfono de 10 o 11 dígitos.</span><span class="sxs-lookup"><span data-stu-id="fb274-117">All letters will be treated as special characters and ignored if there is a 10-digit or 11-digit phone number.</span></span> <span data-ttu-id="fb274-118">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="fb274-118">For example:</span></span>
+  - <span data-ttu-id="dfe65-117">Todas las letras serán tratadas como caracteres especiales y pasa por alto si hay un número de teléfono de 10 o 11 dígitos.</span><span class="sxs-lookup"><span data-stu-id="dfe65-117">All letters will be treated as special characters and ignored if there is a 10-digit or 11-digit phone number.</span></span> <span data-ttu-id="dfe65-118">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="dfe65-118">For example:</span></span>
     
-  - <span data-ttu-id="fb274-119">Para un número de 10 dígitos: **14jaosia2reoij05jof55506ajfoj49isdjf** se corregirá para **+14255550649**.</span><span class="sxs-lookup"><span data-stu-id="fb274-119">For a 10-digit number: **14jaosia2reoij05jof55506ajfoj49isdjf** will be corrected to **+14255550649**.</span></span>
+  - <span data-ttu-id="dfe65-119">Para un número de 10 dígitos: **14jaosia2reoij05jof55506ajfoj49isdjf** se corregirá para **+14255550649**.</span><span class="sxs-lookup"><span data-stu-id="dfe65-119">For a 10-digit number: **14jaosia2reoij05jof55506ajfoj49isdjf** will be corrected to **+14255550649**.</span></span>
     
-  - <span data-ttu-id="fb274-120">Para un número de 11 dígitos: **1ade4jaoda2rfoij05ojof55506dsfoj49if** se corregirá para **+14255550649**.</span><span class="sxs-lookup"><span data-stu-id="fb274-120">For an 11-digit number: **1ade4jaoda2rfoij05ojof55506dsfoj49if** will be corrected to **+14255550649**.</span></span>
+  - <span data-ttu-id="dfe65-120">Para un número de 11 dígitos: **1ade4jaoda2rfoij05ojof55506dsfoj49if** se corregirá para **+14255550649**.</span><span class="sxs-lookup"><span data-stu-id="dfe65-120">For an 11-digit number: **1ade4jaoda2rfoij05ojof55506dsfoj49if** will be corrected to **+14255550649**.</span></span>
     
-  - <span data-ttu-id="fb274-121">Cualquier combinación de caracteres especiales, incluso en otros idiomas, se corregirá.</span><span class="sxs-lookup"><span data-stu-id="fb274-121">Any combination of special characters, even in other languages, will be corrected.</span></span> <span data-ttu-id="fb274-122">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="fb274-122">For example:</span></span> 
+  - <span data-ttu-id="dfe65-121">Cualquier combinación de caracteres especiales, incluso en otros idiomas, se corregirá.</span><span class="sxs-lookup"><span data-stu-id="dfe65-121">Any combination of special characters, even in other languages, will be corrected.</span></span> <span data-ttu-id="dfe65-122">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="dfe65-122">For example:</span></span> 
     
-  - <span data-ttu-id="fb274-123">Para un número de 10 dígitos:**中文4中文2ajj5\*() (\*(5()... 551345** se corregirá para **+14555551345**.</span><span class="sxs-lookup"><span data-stu-id="fb274-123">For a 10-digit number: **中文4中文2ajj5\*（）（\*（5()...551345** will be corrected to **+14555551345**.</span></span>
+  - <span data-ttu-id="dfe65-123">Para un número de 10 dígitos:**中文4中文2ajj5\*() (\*(5()... 551345** se corregirá para **+14555551345**.</span><span class="sxs-lookup"><span data-stu-id="dfe65-123">For a 10-digit number: **中文4中文2ajj5\*（）（\*（5()...551345** will be corrected to **+14555551345**.</span></span>
     
-  - <span data-ttu-id="fb274-124">Para un número de 11 dígitos:**中文4中文2$ a5\*() (\*(5()... 55 (.1345** a **+14555551345**, se corregirá.</span><span class="sxs-lookup"><span data-stu-id="fb274-124">For an 11-digit number: **中文4中文2$a5\*（）（\*（5()...55(.1345** will be corrected to **+14555551345**.</span></span>
+  - <span data-ttu-id="dfe65-124">Para un número de 11 dígitos:**中文4中文2$ a5\*() (\*(5()... 55 (.1345** a **+14555551345**, se corregirá.</span><span class="sxs-lookup"><span data-stu-id="dfe65-124">For an 11-digit number: **中文4中文2$a5\*（）（\*（5()...55(.1345** will be corrected to **+14555551345**.</span></span>
     
-  - <span data-ttu-id="fb274-125">Si los números contienen menos de 10 o más de 11 dígitos, se resaltará el usuario corregir:</span><span class="sxs-lookup"><span data-stu-id="fb274-125">If any numbers contain fewer than 10 digits or more than 11 digits, they will be highlighted for the user to correct:</span></span>
+  - <span data-ttu-id="dfe65-125">Si los números contienen menos de 10 o más de 11 dígitos, se resaltará el usuario corregir:</span><span class="sxs-lookup"><span data-stu-id="dfe65-125">If any numbers contain fewer than 10 digits or more than 11 digits, they will be highlighted for the user to correct:</span></span>
     
-  - <span data-ttu-id="fb274-126">\*\*5551245\* \* se resaltará y deberá corregirse.</span><span class="sxs-lookup"><span data-stu-id="fb274-126">\*\*5551245\*\* will be highlighted and need to be corrected.</span></span>
+  - <span data-ttu-id="dfe65-126">\*\*5551245\* \* se resaltará y deberá corregirse.</span><span class="sxs-lookup"><span data-stu-id="dfe65-126">\*\*5551245\*\* will be highlighted and need to be corrected.</span></span>
     
-  - <span data-ttu-id="fb274-127">**1234567891011** se resaltará y deberá corregirse.</span><span class="sxs-lookup"><span data-stu-id="fb274-127">**1234567891011** will be highlighted and need to be corrected.</span></span>
+  - <span data-ttu-id="dfe65-127">**1234567891011** se resaltará y deberá corregirse.</span><span class="sxs-lookup"><span data-stu-id="dfe65-127">**1234567891011** will be highlighted and need to be corrected.</span></span>
     
-  - <span data-ttu-id="fb274-128">Se resaltarán los números de menos de 10 o más de 11 dígitos, con caracteres especiales, sin que se corrige automáticamente.</span><span class="sxs-lookup"><span data-stu-id="fb274-128">Any numbers that are fewer than 10 digits or more than 11 digits, with any special characters, will be highlighted without being automatically corrected.</span></span>
+  - <span data-ttu-id="dfe65-128">Se resaltarán los números de menos de 10 o más de 11 dígitos, con caracteres especiales, sin que se corrige automáticamente.</span><span class="sxs-lookup"><span data-stu-id="dfe65-128">Any numbers that are fewer than 10 digits or more than 11 digits, with any special characters, will be highlighted without being automatically corrected.</span></span>
     
-  - <span data-ttu-id="fb274-129">Para un número de 7 dígitos sin caracteres especiales que se introduce: **123456abcdefg7** se resaltará y deberá corregirse, pero no se pasa por alto las letras.</span><span class="sxs-lookup"><span data-stu-id="fb274-129">For a 7-digit number without special characters that is entered: **123456abcdefg7** will be highlighted and need to be corrected, but the letters won't be ignored.</span></span>
+  - <span data-ttu-id="dfe65-129">Para un número de 7 dígitos sin caracteres especiales que se introduce: **123456abcdefg7** se resaltará y deberá corregirse, pero no se pasa por alto las letras.</span><span class="sxs-lookup"><span data-stu-id="dfe65-129">For a 7-digit number without special characters that is entered: **123456abcdefg7** will be highlighted and need to be corrected, but the letters won't be ignored.</span></span>
     
-  - <span data-ttu-id="fb274-130">Para un número de 7 dígitos con caracteres especiales que se introduce: **12345!@#$%^&amp;\*(): @# $% ^&amp;\*() 7** se resaltará para corregirse.</span><span class="sxs-lookup"><span data-stu-id="fb274-130">For a 7-digit number with special characters that is entered: **12345!@#$%^&amp;\*()--@#$%^&amp;\*()7** will be highlighted to be corrected.</span></span> <span data-ttu-id="fb274-131">Los caracteres especiales no se omiten.</span><span class="sxs-lookup"><span data-stu-id="fb274-131">The special characters won't be ignored.</span></span>
+  - <span data-ttu-id="dfe65-130">Para un número de 7 dígitos con caracteres especiales que se introduce: **12345!@#$%^&amp;\*(): @# $% ^&amp;\*() 7** se resaltará para corregirse.</span><span class="sxs-lookup"><span data-stu-id="dfe65-130">For a 7-digit number with special characters that is entered: **12345!@#$%^&amp;\*()--@#$%^&amp;\*()7** will be highlighted to be corrected.</span></span> <span data-ttu-id="dfe65-131">Los caracteres especiales no se omiten.</span><span class="sxs-lookup"><span data-stu-id="dfe65-131">The special characters won't be ignored.</span></span>
     
-- <span data-ttu-id="fb274-132">Cuando se introduce un intervalo de números de teléfono.</span><span class="sxs-lookup"><span data-stu-id="fb274-132">When you are entering a range of phone numbers.</span></span>
+- <span data-ttu-id="dfe65-132">Cuando se introduce un intervalo de números de teléfono.</span><span class="sxs-lookup"><span data-stu-id="dfe65-132">When you are entering a range of phone numbers.</span></span>
     
-  - <span data-ttu-id="fb274-133">Se permiten sólo dos números de teléfono.</span><span class="sxs-lookup"><span data-stu-id="fb274-133">Only two phone numbers are allowed.</span></span> <span data-ttu-id="fb274-134">El número menor debe ser el primer número del intervalo.</span><span class="sxs-lookup"><span data-stu-id="fb274-134">The smaller number must be the first number in the range.</span></span>
+  - <span data-ttu-id="dfe65-133">Se permiten sólo dos números de teléfono.</span><span class="sxs-lookup"><span data-stu-id="dfe65-133">Only two phone numbers are allowed.</span></span> <span data-ttu-id="dfe65-134">El número menor debe ser el primer número del intervalo.</span><span class="sxs-lookup"><span data-stu-id="dfe65-134">The smaller number must be the first number in the range.</span></span>
     
-  - <span data-ttu-id="fb274-135">Todos los caracteres especiales (excepto el guión "-") son como números solo tratar de la misma.</span><span class="sxs-lookup"><span data-stu-id="fb274-135">All special characters (except for the dash "-") are treated the same as single numbers.</span></span> <span data-ttu-id="fb274-136">Por ejemplo, **(425) 555 0&amp;\*(123-(1425) 5557899nm** se corregirá a **+14255550123 - +13202040659**.</span><span class="sxs-lookup"><span data-stu-id="fb274-136">For example, **(425)555 0&amp;\*(123-(1425)5557899nm** will be corrected to **+14255550123 -+13202040659**.</span></span>
+  - <span data-ttu-id="dfe65-135">Todos los caracteres especiales (excepto el guión "-") son como números solo tratar de la misma.</span><span class="sxs-lookup"><span data-stu-id="dfe65-135">All special characters (except for the dash "-") are treated the same as single numbers.</span></span> <span data-ttu-id="dfe65-136">Por ejemplo, **(425) 555 0&amp;\*(123-(1425) 5557899nm** se corregirá a **+14255550123 - +13202040659**.</span><span class="sxs-lookup"><span data-stu-id="dfe65-136">For example, **(425)555 0&amp;\*(123-(1425)5557899nm** will be corrected to **+14255550123 -+13202040659**.</span></span>
     
-  - <span data-ttu-id="fb274-137">El "-" se utiliza para separar sólo los dos números.</span><span class="sxs-lookup"><span data-stu-id="fb274-137">The "-" is used for only separating the two numbers.</span></span> <span data-ttu-id="fb274-138">No se admite para incluir múltiples "-" en el intervalo de números.</span><span class="sxs-lookup"><span data-stu-id="fb274-138">It isn't supported to include multiple "-" in the number range.</span></span> <span data-ttu-id="fb274-139">Por ejemplo, **(425) 555-0649-(425) 555-1115** se debe escribir como **(425) 5550649 - (425) 5551115**.</span><span class="sxs-lookup"><span data-stu-id="fb274-139">For example, **(425) 555-0649 - (425) 555-1115** should be entered as **(425) 5550649 - (425) 5551115**.</span></span>
+  - <span data-ttu-id="dfe65-137">El "-" se utiliza para separar sólo los dos números.</span><span class="sxs-lookup"><span data-stu-id="dfe65-137">The "-" is used for only separating the two numbers.</span></span> <span data-ttu-id="dfe65-138">No se admite para incluir múltiples "-" en el intervalo de números.</span><span class="sxs-lookup"><span data-stu-id="dfe65-138">It isn't supported to include multiple "-" in the number range.</span></span> <span data-ttu-id="dfe65-139">Por ejemplo, **(425) 555-0649-(425) 555-1115** se debe escribir como **(425) 5550649 - (425) 5551115**.</span><span class="sxs-lookup"><span data-stu-id="dfe65-139">For example, **(425) 555-0649 - (425) 555-1115** should be entered as **(425) 5550649 - (425) 5551115**.</span></span>
     
- <span data-ttu-id="fb274-140">**Para obtener instrucciones detalladas paso a paso, consulte [transferir números de teléfono para Office 365](transfer-phone-numbers-to-office-365.md).**</span><span class="sxs-lookup"><span data-stu-id="fb274-140">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**</span></span>
+ <span data-ttu-id="dfe65-140">**Para obtener instrucciones detalladas paso a paso, consulte [transferir números de teléfono para Office 365](transfer-phone-numbers-to-office-365.md).**</span><span class="sxs-lookup"><span data-stu-id="dfe65-140">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**</span></span>
 
  > [!NOTE]
-> <span data-ttu-id="fb274-141">Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="fb274-141">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="dfe65-141">Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="dfe65-141">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
   
-## <a name="related-topics"></a><span data-ttu-id="fb274-142">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="fb274-142">Related topics</span></span>
-[<span data-ttu-id="fb274-143">Preguntas comunes sobre la transferencia de números de teléfono</span><span class="sxs-lookup"><span data-stu-id="fb274-143">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
+## <a name="related-topics"></a><span data-ttu-id="dfe65-142">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="dfe65-142">Related topics</span></span>
+[<span data-ttu-id="dfe65-143">Preguntas comunes sobre la transferencia de números de teléfono</span><span class="sxs-lookup"><span data-stu-id="dfe65-143">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
 
-[<span data-ttu-id="fb274-144">Diferentes tipos de números de teléfono que se usan para Planes de llamada</span><span class="sxs-lookup"><span data-stu-id="fb274-144">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[<span data-ttu-id="dfe65-144">Diferentes tipos de números de teléfono que se usan para Planes de llamada</span><span class="sxs-lookup"><span data-stu-id="dfe65-144">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[<span data-ttu-id="fb274-145">Administrar los números de teléfono para su organización</span><span class="sxs-lookup"><span data-stu-id="fb274-145">Manage phone numbers for your organization</span></span>](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[<span data-ttu-id="dfe65-145">Administrar los números de teléfono para su organización</span><span class="sxs-lookup"><span data-stu-id="dfe65-145">Manage phone numbers for your organization</span></span>](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[<span data-ttu-id="fb274-146">Términos y condiciones de las llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="fb274-146">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="dfe65-146">Términos y condiciones de las llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="dfe65-146">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
 
-[<span data-ttu-id="fb274-147">Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="fb274-147">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
+[<span data-ttu-id="dfe65-147">Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="dfe65-147">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
 
   
  
