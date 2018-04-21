@@ -1,5 +1,5 @@
 
-# [Skype for Business Online Admin](../skype-for-business-online.md)
+# [Skype para la administración de negocios en línea](../skype-for-business-online.md)
 
 ## [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
@@ -11,7 +11,7 @@
 ### [Cambiar la configuración de un puente de Audioconferencia](../audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge.md)
 ### [Cambiar los números de teléfono de su puente de Audioconferencia](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 ### [Llamar desde una reunión para que otras personas puedan unirse](../audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it.md)
-### [Disabling toll-free numbers for specific users](../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md)
+### [Desactivación de números de teléfono gratuitos para usuarios específicos](../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md)
 ### [Correos electrónicos que se envían a los usuarios cuando cambia la configuración](../audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change.md) 
 ### [Habilitar o deshabilitar el envío de correos electrónicos cuando cambia la configuración](../audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change.md)
 ### [Habilitar que los usuarios registren su nombre cuando se unan a una reunión](../audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting.md)
@@ -47,7 +47,7 @@
 ### [Conseguir números de teléfono para sus usuarios](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)
 ### [Cómo se consiguen Planes de llamada para Office 365](../what-are-calling-plans-in-office-365/how-to-get-calling-plans-for-office-365.md)
 ### [Administrar los números de teléfono para su organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-#### [Phone number management for Australia](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
+#### [Administración de números de teléfono para Australia](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
 #### [Administración de números de teléfono para Bélgica](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
 #### [Administración de números de teléfono para Canadá](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
 #### [Administración de números de teléfono para Francia](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-france.md)
@@ -59,6 +59,7 @@
 #### [Administración de números de teléfono para EE. UU.](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 ### [Cómo se puede usar la identificación de llamadas en su organización](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md)
 ### [¿Cuántos números de teléfono puede conseguir?](../what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get.md)
+### [Más información sobre identificador de línea llama y llamar a nombre de entidad](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name)
 ### [Buscar números de teléfono para los usuarios](../what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users.md)
 ### [Consultar una lista de números de teléfono de su organización](../what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization.md)
 ### [Establecer la identificación de llamadas de un usuario](../what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user.md)
@@ -71,6 +72,7 @@
 ### [¿Qué son los planes de marcado?](../what-are-calling-plans-in-office-365/what-are-dial-plans.md)
 
 ## Sistema telefónico de Office 365
+### [¿Qué es Sistema telefónico en Office 365?](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
 ### [Crear una cola de llamadas de Sistema telefónico](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Obtener teléfonos para Skype Empresarial Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Implementar teléfonos de Skype Empresarial Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
@@ -81,7 +83,7 @@
 #### [Idiomas para los mensajes y los saludos del correo de voz desde Skype Empresarial](../what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages.md)
 #### [Configurar el correo de voz de Sistema telefónico - Ayuda para el administrador](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
 ### [Configurar un operador automático de Sistema telefónico](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
-### [Setting up Phone System in your organization](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
+### [Configuración de sistema de teléfono de la organización](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
 ### [¿Qué son los operadores automáticos de Sistema telefónico?](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
 
 ## [Configurar la red para Difusión de reunión de Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
@@ -165,4 +167,4 @@
 ### [Código de prácticas para Reino Unido (UK)](../accessibility-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Código de administración de quejas para Reino Unido (UK)](../accessibility-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Prácticas de recopilación de datos](../accessibility-and-regulatory/data-collection-practices.md)
-### [End of life program for the integration of Skype for Business with third-party audio conferencing](../accessibility-and-regulatory/end-of-integration-with-3rd-party-providers.md)
+### [Fin del programa de vida para la integración de Skype para empresas con conferencias de audio de terceros](../accessibility-and-regulatory/end-of-integration-with-3rd-party-providers.md)

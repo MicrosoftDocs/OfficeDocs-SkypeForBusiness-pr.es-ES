@@ -11,11 +11,11 @@ description: Los administradores pueden utilizar el MSI de equipos a granel impl
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a2031a567b96db6987c6c9c035631f17fd3d03f
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: e8d1f8b77b4b362b95fb03d3f0202bfc6da619e8
+ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/20/2018
 ---
 <a name="install-microsoft-teams-using-msi"></a>Instalar Microsoft Teams que usan MSI
 ===========================================
@@ -37,7 +37,7 @@ El MSI de equipos colocará a un instalador en archivos de programa. Cada vez qu
 Utilizar el archivo MSI para implementar actualizaciones, el cliente se actualización automática cuando se detecta que una nueva versión está disponible en el servicio. Para volver a implementar el programa de instalación más reciente utilice el proceso de reimplementación de MSI que se describe a continuación. Si implementa una versión anterior del paquete de MSI, el cliente se actualizará automáticamente siempre que sea posible para el usuario. Si se implementa una versión muy antigua, el archivo MSI activará una actualización de la aplicación antes de que el usuario es capaz de utilizar los equipos. 
 
 > [!Important] 
-> No recomendamos que cambie las ubicaciones de instalación predeterminadas, ya que esto podría interrumpir el flujo de actualización. Que, a continuación, eventualmente bloqueará los usuarios tengan acceso al servicio. 
+> No recomendamos que cambie las ubicaciones de instalación predeterminadas, ya que esto podría interrumpir el flujo de actualización. Tener una versión demasiado antigua eventualmente bloqueará a los usuarios tengan acceso al servicio. 
 
 
 ## <a name="target-machine-requirements"></a>Requisitos del equipo de destino

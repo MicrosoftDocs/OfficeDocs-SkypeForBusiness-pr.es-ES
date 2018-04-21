@@ -21,22 +21,19 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: "Learn the steps to reset a user's meeting conference ID, and get links to meeting update and migration tools. "
-ms.openlocfilehash: 077b35169b3829262c38c9ebc44451aba8bd110d
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 3c40c4bb59dd6628730542f73d8bdbddae7b9ad7
+ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="reset-a-conference-id-for-a-user"></a>Restablecer un id. de conferencia para un usuario
 
-Cuando las organizaciones todavía no ha habilitado para identificadores de conferencia dinámico, un ID de conferencia estática se crea automáticamente cuando se habilita un Skype para usuarios de negocios o Teams de Microsoft para conferencias de Audio mediante Microsoft como proveedor. Este ID de conferencia se incluye en la parte inferior de las invitaciones junto con los números de teléfono de acceso telefónico que pueden utilizarse por los llamadores que llaman a una reunión a reuniones. Cuando el usuario marca el número de teléfono, el operador automático de la reunión le preguntará el llamador para introducir este ID de conferencia para poder asistir a la reunión.
+Un ID de conferencia dinámico se incluye en la parte inferior de las invitaciones junto con los números de teléfono de acceso telefónico que pueden utilizarse por los llamadores que llaman a una reunión a reuniones. Cuando el usuario marca el número de teléfono, el operador automático de la reunión le preguntará el llamador para introducir este ID de conferencia para poder asistir a la reunión.
   
 > [!NOTE]
-> Si su proveedor de conferencias es Microsoft, identificadores de conferencia de los usuarios se establecen en sólo dinámica predeterminada. Por desgracia, no podrá cambiarla en el Skype para el centro de administración de negocio o el uso de Windows Powershell. Tendrá que ponerse en contacto con el soporte técnico de Microsoft. 
-  
-Identificadores estáticos se utilizan cuando las personas de la organización no desean recordar un número aleatorio; Puede seleccionar un determinado número o utilizar uno que sea fácil de recordar. Cuando se utilizan identificadores de conferencia dinámico, cada reunión programaciones de un usuario obtener asignará un identificador único conferencia. Si desea asignar el dinámico en lugar de conferencia estática IDs, [vaya aquí](using-audio-conferencing-dynamic-ids-in-your-organization.md).
-  
-Identificadores de conferencia sólo se establecen automáticamente sólo para Skype para usuarios de negocios y Teams de Microsoft habilitado para conferencias de Audio mediante Microsoft como su proveedor de conferencia de audio. Si necesita restablecer un Id. de conferencia para un usuario que está usando un proveedor de conferencia de audio de terceros (ACP), deberá especificar manualmente un Id. de conferencia en la página de propiedades para el usuario.
+> Si su proveedor de conferencias es Microsoft, identificadores de conferencia de los usuarios se establecen en sólo dinámica predeterminada. Desafortunadamente, no es posible cambiarla en el Skype para el centro de administración de negocio o el uso de Windows Powershell sea estático, ya que ahora es incompatible.
+Automáticamente sólo se configuran los ID de conferencia sólo para Skype para usuarios de negocios y Teams de Microsoft habilitado para conferencias de Audio. 
   
 ## <a name="resetting-the-conference-id-for-a-user"></a>Restablecer el Id. de conferencia para un usuario
 
@@ -81,7 +78,7 @@ Puede usar el Centro de administración de Skype Empresarial o Windows PowerShel
 
 - En relación con Windows PowerShell, todo se reduce a la administración de usuarios y de lo que pueden o no hacer los usuarios. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
-  - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     

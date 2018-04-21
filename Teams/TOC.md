@@ -266,7 +266,7 @@
 
 # Solución de problemas y soporte
 ## [Herramientas para ayudar con el lanzamiento de Microsoft Teams](rollout-tools.md)
-## [Problemas conocidos de Teams](known-issues.md)
+## [Problemas conocidos de Teams](Known-issues.md)
 ## [Recursos de soporte técnico para Teams](support-resources.md)
 ## [Solucionar problemas de conectividad con el cliente de Microsoft Teams](connectivity-issues.md)
 ## [Usar los archivos de registro para solucionar problemas en Teams](log-files.md)
