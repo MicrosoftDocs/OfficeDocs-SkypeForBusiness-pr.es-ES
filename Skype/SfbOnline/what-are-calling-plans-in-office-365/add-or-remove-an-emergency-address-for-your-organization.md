@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn how to add an emergency address to your Skype for Business account. '
-ms.openlocfilehash: 6aea50ec96dab1ef0aff57fd92053677d8e7de82
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: d6b52f2eee9d80aa3dfc78e976e6312ac9fef650
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="add-or-remove-an-emergency-address-for-your-organization"></a>Agregar o quitar una dirección de emergencia para su organización
 
@@ -73,9 +73,9 @@ Para saber cómo obtener un Plan de llamadas y cuánto cuesta, vea [Skype para n
 
 [Administrar los números de teléfono para su organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)
+[Términos y condiciones de las llamadas de emergencia](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

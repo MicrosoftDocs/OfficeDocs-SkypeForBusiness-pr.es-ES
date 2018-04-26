@@ -20,11 +20,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 6ddd65369c029c138e8c100db46165f6aa6bd3b1
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 08e6f8cc836478658310702c87e744fcdc352bb8
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="whats-the-status-of-my-port-orders"></a>¿Cuál es el estado de mis solicitudes de portabilidad?
 
@@ -53,9 +53,9 @@ La tabla siguiente muestra estados de orden de puerto, así como las acciones qu
 
 [Diferentes tipos de números de teléfono que se usan para Planes de llamada](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)
+[Términos y condiciones de las llamadas de emergencia](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

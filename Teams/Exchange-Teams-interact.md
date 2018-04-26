@@ -11,11 +11,11 @@ description: Conozca la funcionalidad que hay entre Microsoft Teams y las distin
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea3162de2ff5ab5e4aa15fe63545382f1c48378d
-ms.sourcegitcommit: d70e5a5e7d05a2226c1d011895fb12187d73fad0
+ms.openlocfilehash: 65bbcc3155147141b99f63be686a92b85f87c119
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/26/2018
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams 
 =========================================
@@ -30,12 +30,12 @@ En la siguiente tabla se ofrece información para usuarios con Exchange Online h
 
 **Acciones compatibles:** 
 
-| El buzón del usuario se hospeda en:   | Crear equipos   |Unirse a equipos|Crear canales|Crear y ver reuniones|Modificar la imagen de perfil de usuario|Agregar y configurar conectores|Agregar y configurar fichas|Agregar y configurar bots|
-|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|
-|**Exchange Online Dedicated vNext**|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|
-|**Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)|Sí|Sí|Sí|No|No|No|Sí| Sí|
-|**Exchange local** (requiere sincronización con Azure AD)|Sí|Sí|Sí|Sí*|No|No|Sí|Sí|
+| El buzón del usuario se hospeda en: | eDiscovery| Suspensión legal | Retención| Administración del equipo y canal |Crear y ver reuniones| Modificar la imagen de perfil de usuario | Historial de llamadas | Administrar contactos | Acceso a los contactos de Outlook | Correo de voz |Agregar y configurar conectores|Agregar y configurar fichas|Agregar y configurar bots| 
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|**Exchange Online**|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|
+|**Exchange Online Dedicated vNext**|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|
+|**Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)|Sí (lista de permitidos)|No|No|Sí|No|No|Sí|Sí|No|Sí (Exchange 2013 +)|No|Sí|Sí|
+|**Exchange local** (requiere sincronización con Azure AD)|Sí (lista de permitidos)|No|No|Sí|Sí (Exchange 2016 CU3 +)|No|Sí|Sí|No|Sí (Exchange 2013 +)|No|Sí|Sí|
                                                             
 *\*Exchange 2016 CU3 y las versiones posteriores son compatibles*
 

@@ -23,11 +23,11 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Puede seleccionar un país o una región para comprobar si Audioconferencia, Sistema telefónico, Planes de llamada, Créditos de comunicaciones y los números gratuitos y de pago están disponibles o no.
-ms.openlocfilehash: 7d0a7efd6c524050f53e168a85ca652095a35c3e
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 4be2e366a241dfe07a22dfa6487c377283fd58ba
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Países y regiones donde Audioconferencia y Planes de llamada están disponibles
 
@@ -158,7 +158,7 @@ En Audioconferencia, hay una característica llamada "*Llamarme*" que se puede u
 La posibilidad de realizar llamadas desde una reunión a otro país o región del mundo que no esté incluido en la siguiente lista está disponible mediante [Créditos de comunicaciones de Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md). Para esos usuarios, tendrá que [configurar Créditos de comunicaciones para su organización](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
   
 > [!NOTE]
-> Durante el período de introducción, los usuarios de todas las organizaciones pueden realizar llamadas al utilizar la característica Llamarme o al agregar a otras personas a una reunión con cualquiera de los siguientes países o regiones sin cargos adicionales, si bien están sujetos al [Período gratuito para la realización de llamadas de Audioconferencia](../accessibility-and-regulatory/complimentary-dial-out-period.md). 
+> Durante el período de introducción, los usuarios de todas las organizaciones pueden realizar llamadas al utilizar la característica Llamarme o al agregar a otras personas a una reunión con cualquiera de los siguientes países o regiones sin cargos adicionales, si bien están sujetos al [Período gratuito para la realización de llamadas de Audioconferencia](../legal-and-regulatory/complimentary-dial-out-period.md). 
   
 ### <a name="phone-system"></a>Sistema telefónico
 Con Sistema telefónico, puede crear operadores automáticos y colas de llamada (con un número gratuito o de pago) para contestar las llamadas que se reciban para su organización y, cuando agregue un Plan de llamadas para los usuarios, estos pueden usar Skype Empresarial para ocuparse de las tareas básicas de control de llamadas, como realizar y recibir llamadas, transferirlas y silenciarlas o reactivarlas. Los usuarios de **Sistema telefónico** pueden hacer clic en un nombre de la libreta de direcciones y Skype Empresarial realizará una llamada a esa persona. Para realizar y recibir llamadas, los usuarios de **Sistema telefónico** pueden usar sus dispositivos móviles, auriculares con un equipo portátil o PC, o bien uno de los distintos teléfonos IP compatibles con Skype Empresarial.

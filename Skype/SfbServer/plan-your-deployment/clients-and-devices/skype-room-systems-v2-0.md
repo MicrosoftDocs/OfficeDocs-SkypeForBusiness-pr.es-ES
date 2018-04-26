@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Este artículo explica las consideraciones de planeación relevantes para la implementación de sistemas de salas de Skype v2, la próxima generación de sistemas de salas de Skype.
-ms.openlocfilehash: 3d958c5d07cfafd2eeddd6076182a635cfff19de
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 372c920eaeaaee050e420cd25195565555426561
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="plan-for-skype-room-systems-v2"></a>Plan para Sistemas de salas de Skype v2
  
@@ -55,11 +55,11 @@ Sistemas de salas de Skype v2 es la más reciente solución de conferencia de Mi
     
 - Transmisión por cable integrada para compartir el escritorio del proyecto con la sala y con la reunión de Skype.
     
-- Selección de usuario en la aplicación de reunión sala audio y vídeo dispositivos USB U1
+- Selección de usuario en la aplicación de reunión sala de audio y vídeo dispositivos USB & #x 2776;
     
-- Soporte de doble pantalla (para la paridad de sistemas heredados) U2
+- Soporte de doble pantalla (para la paridad de sistemas heredados) & #x 2777;
     
-- Themability (temas integrados y la capacidad para establecer un tema personalizado) U2
+- Themability (temas integrados y la capacidad para establecer un tema personalizado) & #x 2777;
     
  **Fácil de implementar, sencillo de administrar.**
   
@@ -77,39 +77,39 @@ Sistemas de salas de Skype v2 es la más reciente solución de conferencia de Mi
     
 - Se ejecuta en tablet Surface Pro 4
     
-- Integra la sala consola informes de estado de los clientes que utilicen Microsoft Operations Management Suite (Véase [administración de Plan de sistemas de salas de Skype v2 con OMS](oms-management.md)) U1
+- Integra la sala consola informes de estado de los clientes que utilicen Microsoft Operations Management Suite (Véase [administración de Plan de sistemas de salas de Skype v2 con OMS](oms-management.md)) & #x 2776;
     
-- Capacidad de enviar comentarios público genera U2
+- Capacidad de enviar comentarios para compilaciones públicas & #x 2777;
     
-- Telemetría mejorada en el cumplimiento de fiabilidad de combinación U2
+- Unirse a una telemetría mejorada alrededor de reunión confiabilidad & #x 2777;
     
-- OMS adicional reporting U2
+- Otros informes de OMS & #x 2777;
     
-- Capacidad del Administrador de TI para configurar los dispositivos de forma remota U2
+- Capacidad de administración de TI para configurar de forma remota dispositivos & #x 2777;
     <!--  - Front-of-Room UX shows room details pre-meeting U2  -->
-- Se ejecuta en tablet Surface Pro U3
+- Se ejecuta en tablet Surface Pro & #x 2778;
     
-- Admite Update (en inglés, compilación 1703) U3 del creador de Windows 10 Enterprise
+- Compatible con Windows 10 Enterprise Creator Update (en inglés, compilación 1703) & #x 2778;
     
-- Soporte para [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) acoplar hardware U3
+- Soporte para [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) acoplar hardware & #x 2778;
     
-- Soporte técnico de OEM para entorno controla U3 (Crestron)
+- Soporte técnico de OEM para controles del entorno (Crestron) & #x 2778;
     
-- Soporte para [La serie Polycom MSR](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) acoplar hardwareU4
+- Soporte para [La serie Polycom MSR](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) acoplar hardware & #x 2779;
     
-- Soporte para el U4 [Logitech Brio](https://www.logitech.com/en-us/product/brio)
+- Soporte para [Logitech Brio](https://www.logitech.com/en-us/product/brio) & #x 2779;
 
-- Soporte de [Lenovo concentrador 500](https://www3.lenovo.com/us/en/hub500)U5 acoplar hardware  
+- Soporte de [Lenovo concentrador 500](https://www3.lenovo.com/us/en/hub500) acoplar hardware & #x277A;  
     
-U1 - característica incluida en la actualización 1 (SW Ver. 2.0.2.0).
+& #x 2776; -Característica incluida en la actualización 1 (SW Ver. 2.0.2.0).
   
-U2 - característica presentada en Update 2 (SW Ver. 3.0.6.0). 
+& #x 2777; -Característica presentada en Update 2 (SW Ver. 3.0.6.0). 
   
-U3 - característica presentada en actualización 3 (SW Ver. 3.0.12.0). 
+& #x 2778; -Característica presentada en actualización 3 (SW Ver. 3.0.12.0). 
   
-U4 - característica incluida en la actualización 4 (SW Ver. 3.0.15.0). 
+& #x 2779; -Característica incluida en la actualización 4 (SW Ver. 3.0.15.0). 
 
-U5 - característica incluida en la actualización 5 (SW Ver. 3.1.98.0). 
+& #x277A; -Característica incluida en la actualización 5 (SW Ver. 3.1.98.0). 
   
 ## <a name="preparing-your-skype-for-business-environment"></a>Preparación del entorno de Skype Empresarial
 

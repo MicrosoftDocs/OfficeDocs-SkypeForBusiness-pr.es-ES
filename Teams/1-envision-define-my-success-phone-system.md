@@ -11,11 +11,12 @@ description: Medir los resultados de su sistema de teléfono con una llamada a l
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23e471e7917ee188d0c4e601a59c53087ad2f9e0
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
+ms.openlocfilehash: a5e4345009622758720e246677f830e21428dc57
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="define-my-success"></a>Definir mi éxito
 

@@ -21,45 +21,45 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'See how to search for phone numbers you can assign to your users, by country/region, state/region, or city, and specify the quantity of numbers you need. '
-ms.openlocfilehash: aa6faaf80b23d4011f9859916a56fb8d9041cc76
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: eeb46b41f44e53d4ad02c688f1a90b0e2f4c6385
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Buscar números de teléfono para los usuarios
 
-[] Al configurar los usuarios de su organización para realizar y recibir llamadas telefónicas, es preciso usar el **Centro de administración de Skype Empresarial**y obtener, en primer lugar, números de teléfono que se puedan asignar a los usuarios. The phone number you assign to a user will be a phone number that you have chosen for your organization and will be listed in the drop-down list when you edit the properties of the user and click **Assign**.
+[] Al configurar los usuarios de su organización para realizar y recibir llamadas telefónicas, es preciso usar el **Centro de administración de Skype Empresarial**y obtener, en primer lugar, números de teléfono que se puedan asignar a los usuarios. El número de teléfono que se asigna a un usuario será un número de teléfono que ha elegido para su organización y se mostrarán en la lista desplegable al editar las propiedades del usuario y haga clic en **asignar**.
   
-Pero antes de poder asignar números de teléfono a los usuarios, necesita usar la página **Números nuevos** para buscar los números que están disponibles en un área. Puede buscar por **País o región**, **Estado** o **Ciudad** y, a continuación, escribir los números de teléfono que necesite para los usuarios. 
+Antes de poder asignar a números de teléfono a los usuarios, debe utilizar la página **nuevos números** para buscar números que están disponibles para usted dentro de un área. Puede buscar por **Ciudad**, **estado**y **país o región**y, a continuación, escriba el número de números de teléfono que necesitará para los usuarios. 
   
-If you need some help with getting phone numbers, you can see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) or [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+Si necesita ayuda con la obtención de números de teléfono, puede ver [administrar números de teléfono de la organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) o el [contacto de soporte para productos de empresa - Admin ayuda](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
 ## <a name="search-for-phone-numbers"></a>Buscar números de teléfono
 
- **To search for phone numbers for your users**
+ **Para buscar números de teléfono de los usuarios**
   
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
 2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
     
-3. In the left navigation go to **Voice** > **Phone numbers**, and then click **Add new number** > **New user numbers**.
+3. En la exploración de la izquierda vaya a **voz** > **números de teléfono**y, a continuación, haga clic en **Agregar nuevo número** > **nuevos números de usuario**.
     
     **IMPORTANTE**: Para poder ver la opción **Voz** en el panel de navegación izquierdo del Centro de administración de Skype Empresarial, primero tiene que adquirir como mínimo una **licencia de Enterprise E5**, una licencia del complemento **Sistema telefónico** o una licencia del complemento **Audioconferencia**.
     
-4. On the **Add new user numbers** page, click the **Country** and **State** lists to select the state that you want to select numbers from, and then select the area code for the city from the **City** list.
+4. En la página **Agregar nuevos números de usuario** , haga clic en las listas de **estado** y el **país** para seleccionar el estado que desea seleccionar números de y, a continuación, seleccione el código de área de la ciudad de la lista de la **Ciudad** .
     
-5.  En **Cantidad**, introduzca el número de números de teléfono que quiere para su organización y haga clic en **Agregar** para crear una reserva. Tiene 10 minutos para seleccionar los números de teléfono. If you take more than 10 minutes, the numbers will be returned to the pool of phone numbers.
+5.  En **Cantidad**, introduzca el número de números de teléfono que quiere para su organización y haga clic en **Agregar** para crear una reserva. Tiene 10 minutos para seleccionar los números de teléfono. Si lleva más de 10 minutos, los números se devolverá a la agrupación de números de teléfono.
     
     > [!NOTE]
     > You can see the number of phone numbers, which is based on the number of licenses, listed next to **Total user numbers you can acquire**. 
   
 6. Puede hacer clic en **Mostrar números** para ver la lista completa de números de teléfono. Esto resulta útil si no desea seleccionar un número de teléfono concreto de la lista.
     
-7. Select the phone numbers you want ,and then click **Acquire numbers**.
+7. Seleccione los números de teléfono que desee y, a continuación, haga clic en **los números de adquisición**.
     
     > [!IMPORTANT]
-    > Puede comprar una cantidad de números de teléfono superior a las licencias que tenga. Para determinar cuántos números de teléfono puede comprar, sume un 10 % al número de licencias que tenga y, después, sume 10 licencias. For example, if you have 100 **Domestic Calling Plan** and/or **International Calling Plan** licenses, you can reserve 120 phone numbers, assuming that you have not already acquired some phone numbers for those 100 users. For more details, see [How many phone numbers can you get?](how-many-phone-numbers-can-you-get.md)
+    > Puede comprar una cantidad de números de teléfono superior a las licencias que tenga. Para determinar cuántos números de teléfono puede comprar, sume un 10 % al número de licencias que tenga y, después, sume 10 licencias. Por ejemplo, si tiene 100 licencias de **Plan de llamadas nacionales** o **Internacionales Plan de llamadas** , puede reservar 120 números de teléfono, suponiendo que aún no ha adquirido algunos números de teléfono de los 100 usuarios. Para obtener más detalles, vea [cuántos números de teléfono puede conseguir?](how-many-phone-numbers-can-you-get.md)
 
 ## <a name="related-topics"></a>Temas relacionados
 [Preguntas comunes sobre la transferencia de números de teléfono](transferring-phone-numbers-common-questions.md)
@@ -68,9 +68,9 @@ If you need some help with getting phone numbers, you can see [Manage phone numb
 
 [Administrar los números de teléfono para su organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)
+[Términos y condiciones de las llamadas de emergencia](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Las siguientes son preguntas más frecuentes sobre la transferencia de números de teléfono a Skype para el negocio. Después de revisar las respuestas, debe ser preparado para crear una orden de puerto y transferir sus números de teléfono. Ver números de teléfono de transferencia a Office 365 para obtener instrucciones.
-ms.openlocfilehash: f5f267fea1d06f1225773257df2be2d4312f837b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 64ce253ffa9feb62bb2c737082a1162ced301878
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Transferencia de preguntas habituales de los números de teléfono
 
@@ -173,9 +173,9 @@ Para transferir o *puerto a* números de teléfono de Skype para los negocios en
 ## <a name="related-topics"></a>Temas relacionados
 [Diferentes tipos de números de teléfono que se usan para Planes de llamada](../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Términos y condiciones de las llamadas de emergencia](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+[Términos y condiciones de las llamadas de emergencia](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
   
  

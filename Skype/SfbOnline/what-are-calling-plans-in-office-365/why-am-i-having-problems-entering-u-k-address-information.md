@@ -20,11 +20,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Aquí están algunas de las razones por qué puede que tenga problemas para obtener su dirección o direcciones para validar correctamente en el Reino Unido (Reino Unido).
-ms.openlocfilehash: b2cd02f05bb062b94780f49af4908ac90ed0f674
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: bb1a42f7607979e4a41ec96e9ce80b0b4b8a4dac
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>¿Por qué tengo problemas al entrar en el Reino Unido ¿información de la dirección?
 
@@ -113,9 +113,9 @@ Si tienes algún problema al introducir el código postal, recuerde:
 
 [Diferentes tipos de números de teléfono que se usan para Planes de llamada](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)
+[Términos y condiciones de las llamadas de emergencia](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

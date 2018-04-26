@@ -11,11 +11,12 @@ description: Medir los resultados de la implementación de conferencias de Audio
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80af34d827ecc1646e85f7a8db4593dbf446ed30
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
+ms.openlocfilehash: 3da7257ed094913ac377c7b91e5f2c1d7982fa7e
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="define-my-success"></a>Definir mi éxito
 

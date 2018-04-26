@@ -20,11 +20,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Aprenda qué hacer si no aparece su portador en Skype para el negocio. '
-ms.openlocfilehash: 1cebfb2858161f03c4a688592454b8602b6606f0
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 80946b3950965b3b2f3ce8aaff46f29622f2b5a5
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>¿Qué sucede si mi compañía de teléfono no aparece como el portador de origen?
 
@@ -43,9 +43,9 @@ Un ejemplo:
 ## <a name="related-topics"></a>Temas relacionados
 [Preguntas comunes sobre la transferencia de números de teléfono](transferring-phone-numbers-common-questions.md)
 
-[Términos y condiciones de las llamadas de emergencias](emergency-calling-terms-and-conditions.md)
+[Términos y condiciones de las llamadas de emergencias](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

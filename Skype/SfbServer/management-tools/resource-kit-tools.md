@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: En este tema se describe las herramientas en el Skype for Business Server 2015 Resource Kit, incluida la finalidad de cada herramienta y ejemplos de su uso. El Skype para el Kit de recursos de 2015 Business Server ayuda a facilitar las tareas rutinarias para los administradores de TI que implementan y administran Skype para Business Server 2015. Por ejemplo, la herramienta Web Conf datos puede utilizarse para controlar fácilmente los datos que están cargados por los usuarios durante una reunión en línea. La herramienta SEFAUtil puede utilizarse para configurar la llamada al delegado reenviar y responder a los usuarios. Recomendamos a los administradores de TI a utilizar estas herramientas para administrar con más eficacia Skype para Business Server 2015.
-ms.openlocfilehash: 8367400ea7730eabbd2686c3bb2b7c16cdf9a1f2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7178b7e5566badfea8096e314b1ac23213173a35
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Documentación de las herramientas del kit de recursos de Skype Empresarial Server 2015
  
@@ -82,6 +82,9 @@ Los escenarios principales para la herramienta son los siguientes:
 - Permitir a los administradores restaurar la configuración predeterminada del Servicio de libreta de direcciones.
     
 La herramienta ABSConfig puede iniciarse mediante el archivo ABSConfig.exe. La herramienta se abre en la ficha **Configurar atributos** . Esta tabla tiene opciones para asignar atributos de servicios de dominio de Active Directory a los campos de atributo de Skype para Business Server 2015 y especificar los usuarios que desea incluir o excluir en archivos del servicio de libreta de direcciones basados en filtros de atributo específico. También tiene opciones para personalizar el valor del número de teléfono que se incluirá en el archivo de la libreta de direcciones. La opción **Restaurar valores predeterminados** permite a los administradores restaurar la configuración del Servicio de libreta de direcciones a los valores predeterminados.
+
+> [!NOTE]
+> Volver a hacer mapping de los atributos de AD para los diversos nombres de campo de OC funcionará sólo para descarga de archivos de libreta de direcciones y no es compatible con la consulta Web de libreta de direcciones.
   
 ### <a name="output"></a>Salida
 

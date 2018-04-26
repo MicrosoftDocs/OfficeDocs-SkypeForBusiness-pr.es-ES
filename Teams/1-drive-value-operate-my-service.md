@@ -11,11 +11,11 @@ description: Las tareas y actividades necesarias para la administración de serv
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d9b76d62457c541924c6f72eb246bf63f1fe026
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 8ab8749dc71e124dcf723444208aab6eae95a665
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="operate-my-service"></a>Operar mi servicio
 
@@ -531,7 +531,7 @@ De forma predeterminada, todos los usuarios con un buzón en Exchange Online tie
 
 <!--ENDOFSECTION-->
 
-## <a name="dailyweeklymonthlyas-needed-tasks"></a>Tareas diarias/semanales/mensuales/según sea necesario
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tareas diarias/semanales/mensuales/según sea necesario
 
 | Actividad                    | Descripción                                                                                                                                                                                                                                                                                                                                                                                                             | Cadence   | Equipo asignado |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|

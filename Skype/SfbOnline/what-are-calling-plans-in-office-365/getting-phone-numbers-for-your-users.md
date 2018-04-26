@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
-ms.openlocfilehash: c9e5d08879f9ec176cbe4659d49e351ba08ffce7
-ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
+ms.openlocfilehash: daa722993d0734f0601c9ac5d02f39041d0d082d
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtener números de teléfono de Skype Empresarial para los usuarios
 
@@ -110,9 +110,9 @@ Debe usar la página **Números nuevos** para ver, buscar, adquirir y reservar d
 
 [Administrar los números de teléfono para su organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)
+[Términos y condiciones de las llamadas de emergencia](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  
