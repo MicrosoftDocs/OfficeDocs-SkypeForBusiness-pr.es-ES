@@ -20,10 +20,10 @@ ms.custom:
 hideEdit: true
 description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
 ms.openlocfilehash: 99a416cbbbd91e9af894f5d981836485491146f1
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="code-of-practice-for-the-united-kingdom-uk"></a>Código de práctica para el Reino Unido (Reino Unido)
 

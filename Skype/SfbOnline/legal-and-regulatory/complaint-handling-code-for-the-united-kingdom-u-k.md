@@ -20,10 +20,10 @@ ms.custom:
 hideEdit: true
 description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
 ms.openlocfilehash: 0d6a5a0f71dee2c218b8f4cd477fc8379ef69b4f
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="complaint-handling-code-for-the-united-kingdom-uk"></a>Queja código de control para el Reino Unido (Reino Unido)
 
