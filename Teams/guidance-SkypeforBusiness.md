@@ -14,9 +14,9 @@ redirect_url: http://docs.microsoft.com/microsoftteams/upgrade-and-coexistence-o
 redirect_document_id: true
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94b7f58c7f94925d8b9ea1ec4b80a514b3e02792
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 3134735ce7248b5adbdf3a2f9b160f6dee9e0558
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/26/2018
 ---
