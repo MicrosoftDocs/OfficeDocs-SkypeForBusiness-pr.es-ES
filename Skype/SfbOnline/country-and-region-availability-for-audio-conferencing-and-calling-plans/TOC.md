@@ -1,9 +1,9 @@
 
-# [Skype para la administración de negocios en línea](../skype-for-business-online.md)
+# [Skype para administración en línea de negocio](../skype-for-business-online.md)
 
 ## [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## [Audioconferencia en Office 365](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md)  
+## [Audioconferencia en Office 365](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md) 
 ### [Asignar a Microsoft como proveedor de servicios de audioconferencia](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
 ### [Preguntas comunes sobre Audioconferencia](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
 ### [Idiomas compatibles con Audioconferencia](../audio-conferencing-in-office-365/audio-conferencing-supported-languages.md)
@@ -11,7 +11,7 @@
 ### [Cambiar la configuración de un puente de Audioconferencia](../audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge.md)
 ### [Cambiar los números de teléfono de su puente de Audioconferencia](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 ### [Llamar desde una reunión para que otras personas puedan unirse](../audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it.md)
-### [Desactivación de números de teléfono gratuitos para usuarios específicos](../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md)
+### [Deshabilitar a los números gratuitos para usuarios específicos](../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md)
 ### [Correos electrónicos que se envían a los usuarios cuando cambia la configuración](../audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change.md) 
 ### [Habilitar o deshabilitar el envío de correos electrónicos cuando cambia la configuración](../audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change.md)
 ### [Habilitar que los usuarios registren su nombre cuando se unan a una reunión](../audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting.md)
@@ -33,6 +33,7 @@
 ### [Iniciar una audioconferencia por teléfono sin PIN](../audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin.md)
 ### [Probar o comprar Audioconferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [Activar o desactivar los anuncios de entrada y salida para las reuniones](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
+
 
 
 ## [Planes de llamada en Office 365](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
@@ -60,7 +61,7 @@
 #### [Administración de números de teléfono para EE. UU.](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 ### [Cómo se puede usar la identificación de llamadas en su organización](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md)
 ### [¿Cuántos números de teléfono puede conseguir?](../what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get.md)
-###[Más información sobre identificador de línea llama y llamar a nombre de entidad](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
+###[Obtener más información acerca de ID de la línea de llamada y llamar a nombre de entidad](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
 ### [Buscar números de teléfono para los usuarios](../what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users.md)
 ### [Consultar una lista de números de teléfono de su organización](../what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization.md)
 ### [Establecer la identificación de llamadas de un usuario](../what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user.md)
@@ -84,7 +85,7 @@
 #### [Idiomas para los mensajes y los saludos del correo de voz desde Skype Empresarial](../what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages.md)
 #### [Configurar el correo de voz de Sistema telefónico - Ayuda para el administrador](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
 ### [Configurar un operador automático de Sistema telefónico](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
-### [Configuración de sistema de teléfono de la organización](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
+### [Configurar el sistema telefónico en la organización](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
 ### [¿Qué son los operadores automáticos de Sistema telefónico?](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
 
 ## [Configurar la red para Difusión de reunión de Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
@@ -93,10 +94,19 @@
 ### [Hacer cambios en la configuración de Difusión de reunión de Skype](../set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md)
 
 ## [Licencias complementarias de Skype Empresarial y Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+### Opciones de licencia en función del plan
+#### [Office 365 Business Premium](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
+#### [Premium de Office 365, Office 365 ProPlus, o Skype para la empresa en línea Plan 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
+#### [Office 365 Enterprise E1, E3 y E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
+#### [Office 365 Enterprise E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
+#### [Office 365 Enterprise E5 (sin conferencias de Audio)](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
+#### [Sistema de salas de Skype v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+#### [GOV, EDU y organizaciones sin fines de lucro](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 ### [Agregar fondos y administrar Créditos de comunicaciones](../skype-for-business-and-microsoft-teams-add-on-licensing/add-funds-and-manage-communications-credits.md)
 ### [Asignar licencias de Skype Empresarial y Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
 ### [Audioconferencia con pago por minuto](../skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md)
 ### [Configurar Créditos de comunicaciones para su organización](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)
+### [Planes de llamada para Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md)
 ### [¿Qué son los Créditos de comunicaciones?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
 
 ## [Configurar Skype Empresarial Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
@@ -161,12 +171,14 @@
 ### [Administrar cuentas de usuario](../set-up-your-computer-for-windows-powershell/manage-user-accounts.md)
 ### [Administrar su organización con el conector de Skype Empresarial Online](../set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations.md)
 
-## Legales y reglamentarios
+## Legales y normativos
 ### [Declaración de accesibilidad de conformidad para Skype Empresarial Online en Francia](../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
 ### [Soluciones de accesibilidad para Skype Empresarial Online en Francia](../legal-and-regulatory/accessibility-solutions-in-france.md)
+### [Regístrese IP Relay en Canadá:](../legal-and-regulatory/ip-relay-canada-email-signup.md)
+### [Retransmisión de IP en Canadá: Guía del usuario](../legal-and-regulatory/ip-relay-canada-user-guide.md)
 ### [Período gratuito de aceptación de llamadas](../legal-and-regulatory/complimentary-dial-out-period.md)
 ### [Código de prácticas para Reino Unido (UK)](../legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Código de administración de quejas para Reino Unido (UK)](../legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Prácticas de recopilación de datos](../legal-and-regulatory/data-collection-practices.md)
 ### [Etiquetas llamadas de emergencia](../legal-and-regulatory/emergency-calling-labels.md)
-### [Fin del programa de vida para la integración de Skype para empresas con conferencias de audio de terceros](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)
+### [Fin del programa de vida para la integración de Skype para la empresa con la conferencia de audio de terceros](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)
