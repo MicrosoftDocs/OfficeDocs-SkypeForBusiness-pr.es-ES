@@ -7,27 +7,29 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
-description: Habilitar a usuarios de grupo llamar recogida en Skype para Telefonía IP empresarial de Business Server y asignar a un número de grupo.
-ms.openlocfilehash: aaacf080f9e7f7ae7f9bad3f8b13201972d7a72f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Permitir a los usuarios para su grupo de llamada recogida en Skype para Business Server Enterprise Voice y asignar a un número de grupo.
+ms.openlocfilehash: ce360bc1f66f3e7b55d3c0f8ea9e392d957f25ea
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business-2015"></a>Habilitar la respuesta de llamadas grupales para los usuarios y asignar un número de grupo en Skype Empresarial 2015
  
-Habilitar a usuarios de grupo llamar recogida en Skype para Telefonía IP empresarial de Business Server y asignar a un número de grupo.
+Permitir a los usuarios para su grupo de llamada recogida en Skype para Business Server Enterprise Voice y asignar a un número de grupo.
   
-Después de agregar números de grupo recogida de llamada a la tabla de llamada park órbita, utilice la herramienta SEFAUtil para asignar a los números de grupo a los usuarios y habilitar recogida de grupo llame para ellos.
+Después de agregar números de llamada pickup grupo a la tabla de órbitas de estacionamiento de llamada, use la herramienta SEFAUtil para asignar a los números de grupo a los usuarios y habilitar recogida de llamadas de grupo para ellos.
   
 > [!NOTE]
-> En una implementación híbrida, no asigne a un grupo de recogida de llamar al grupo a los usuarios que están alojados en línea. Los usuarios que están alojados en línea no pueden participar en la recogida de llamar al grupo. Es decir, no se puede contestar a sus llamadas por otros usuarios y no puede responder a las llamadas a otros usuarios. 
+> En una implementación híbrida, no asigne a un grupo de recogida de llamadas de grupo a los usuarios que están hospedados en línea. Los usuarios que están hospedados en línea no pueden participar en recogida de llamadas de grupo. Es decir, sus llamadas no pueden ser atendidas por otros usuarios y no pueden atender las llamadas a otros usuarios. 
   
-### <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a>Para asignar a un número de grupo y habilitar recogida de grupo llame para un usuario
+### <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a>Para asignar a un número de grupo y habilitar recogida de llamadas de grupo para un usuario
 
 1. Inicie sesión como administrador en el equipo en el que haya instalado la herramienta SEFAUtil.
     
@@ -47,5 +49,5 @@ Después de agregar números de grupo recogida de llamada a la tabla de llamada 
 
 #### 
 
-[Recogida de grupo deshabilitar para usuarios](http://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
+[Recogida de deshabilitar grupo para los usuarios](http://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
 

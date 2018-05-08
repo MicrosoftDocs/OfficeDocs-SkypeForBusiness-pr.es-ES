@@ -7,56 +7,58 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
-description: 'Resumen: Conozca cómo habilitar los usuarios realizar y recibir llamadas mediante Telefonía IP empresarial de Skype para Business Server 2015.'
-ms.openlocfilehash: d187723b347121400bfbce00d238851f2d0651a9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información sobre cómo habilitar a los usuarios realizar y recibir llamadas mediante el uso de Enterprise Voice en Skype para Business Server 2015.'
+ms.openlocfilehash: c7cbedb083ac76006a2bc7aaaec17082f7da75dd
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server-2015"></a>Habilitar a los usuarios para la telefonía IP empresarial en Skype Empresarial Server 2015
  
-**Resumen:** Aprenda a habilitar los usuarios realizar y recibir llamadas mediante Telefonía IP empresarial de Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo habilitar a los usuarios realizar y recibir llamadas mediante el uso de Enterprise Voice en Skype para Business Server 2015.
   
-Después de implementar la Telefonía IP empresarial o llamar a través de trabajo, puede utilizar los siguientes procedimientos para habilitar un usuario realizar llamadas mediante Telefonía IP empresarial:
+Después de implementar Enterprise Voice o llamar vía trabajo, puede usar los siguientes procedimientos para habilitar a un usuario realizar llamadas mediante el uso de Enterprise Voice:
   
 > [!NOTE]
-> De los procedimientos siguientes, sólo la primera puede realizarse mediante Skype para Panel de Control de servidor de Business. Para los restantes procedimientos, puede utilizar Skype sólo para el Shell de administración de servidor de empresa. 
+> De los procedimientos siguientes, sólo la primera se puede realizar mediante el uso de Skype para el Panel de Control de servidor empresarial. Para los restantes procedimientos, puede usar Skype sólo para el Shell de administración de servidor empresarial. 
   
-- Habilitar la cuenta de usuario para Telefonía IP empresarial.
+- Habilitar la cuenta de usuario para Enterprise Voice.
     
 - (Opcional) Asignar a la cuenta de usuario una directiva de voz específica para el usuario.
     
 - (Opcional) Asignar a la cuenta de usuario un plan de marcado específico para el usuario.
     
-### <a name="to-enable-a-user-account-for-enterprise-voice"></a>Para habilitar una cuenta de usuario para Telefonía IP empresarial
+### <a name="to-enable-a-user-account-for-enterprise-voice"></a>Para habilitar una cuenta de usuario para Enterprise Voice
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins, o como miembro del rol administrativo **CsVoiceAdministrator**, **CsServerAdministrator** o **CsAdministrator**.
     
-2. Abre Skype para Panel de Control del servidor de empresa.
+2. Abra Skype para el Panel de Control de servidor empresarial.
     
 3. En la barra de navegación izquierda, haga clic en **Usuarios**.
     
 4. En el cuadro **Buscar usuarios**, escriba la primera parte del nombre para mostrar, el nombre, los apellidos, el nombre de la cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de línea de la cuenta de usuario que desee habilitar y, a continuación, haga clic en **Buscar**.
     
-5. En la tabla, haga clic en la cuenta de usuario que desea habilitar para Telefonía IP empresarial.
+5. En la tabla, haga clic en la cuenta de usuario que desea habilitar para Enterprise Voice.
     
 6. En el menú **Editar**, haga clic en **Mostrar detalles**.
     
-7. En la página **Editar Skype para usuarios del servidor de empresa** , en **telefonía**, haga clic en **Telefonía IP empresarial**.
+7. En la página **Editar Skype para usuarios del servidor de empresa** , en **telefonía**, haga clic en **Enterprise Voice**.
     
 8. Haga clic en **URI de línea** y, a continuación, escriba un número de teléfono exclusivo y normalizado (por ejemplo, tel:+14255550200).
     
 9. Haga clic en **Confirmar**.
     
-Para terminar la habilitación de un usuario de Telefonía IP empresarial, asegúrese de que el usuario tiene asignada una directiva de voz y un plan de marcado, ya sea global (asignado por defecto) o específicos del usuario. De forma predeterminada, todos los usuarios se asignan a una directiva de voz global y plan de marcado. Si ya hubiera una directiva de voz o un plan de marcado a nivel de sitio para el sitio en el que se hospeda la cuenta de usuario, dichas directivas se aplicarán automáticamente al usuario. Para aplicar una directiva de voz por usuario o plan a un usuario de marcado, debe ejecutar los cmdlets **Grant CsVoicePolicy** y **CsDialPlan de la concesión** . Para obtener más información, consulte los siguientes procedimientos de este tema.
+Para terminar de habilitar un usuario para Enterprise Voice, asegúrese de que el usuario tiene asignada una directiva de voz y un plan de marcado, ya sea global (asignado de forma predeterminada) o específica del usuario. De forma predeterminada, todos los usuarios se les asigna una directiva de voz global y plan de marcado. Si ya hubiera una directiva de voz o un plan de marcado a nivel de sitio para el sitio en el que se hospeda la cuenta de usuario, dichas directivas se aplicarán automáticamente al usuario. Para aplicar una directiva de voz por usuario o plan a un usuario de marcado, debe ejecutar los cmdlets **Grant-CsVoicePolicy** y **Grant-CsDialPlan** . Para obtener más información, consulte los siguientes procedimientos de este tema.
 ## <a name="voice-policy-assignment"></a>Asignación de directivas de voz
 
-Directivas de voz global y a nivel de sitio se asignan automáticamente a todas las cuentas de usuario habilitadas para Telefonía IP empresarial. También puede crear directivas de voz aplicables a usuarios o grupos específicos. Estas directivas por usuario deben estar explícitamente asignadas a los usuarios o grupos. Si desea utilizar el global o directiva de voz para todos los usuarios que están habilitados para Telefonía IP empresarial del sitio, puede omitir esta sección y continuar a la sección de [Asignación de Plan de marcado](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment) más adelante en este tema.
+Las directivas de voz global y de nivel de sitio se asignan automáticamente a todas las cuentas de usuario que están habilitadas para Enterprise Voice. También puede crear directivas de voz aplicables a usuarios o grupos específicos. Estas directivas por usuario deben estar explícitamente asignadas a los usuarios o grupos. Si desea usar la información global o sitio directiva de voz para todos los usuarios que están habilitados para Enterprise Voice, puede omitir esta sección y continuar con la sección [Asignación de Plan de marcado](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment) más adelante en este tema.
   
 ### <a name="to-assign-a-user-specific-voice-policy"></a>Para asignar una directiva de voz específica del usuario
 
@@ -76,12 +78,12 @@ Directivas de voz global y a nivel de sitio se asignan automáticamente a todas 
    Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
    ```
 
-    En este ejemplo, el usuario con el nombre para mostrar Bob Kelly se asigna la directiva de voz con el nombre **VoicePolicyJapan**.
+    En este ejemplo, el usuario con el nombre para mostrar Bob Kelly es asignado la directiva de voz con el nombre **VoicePolicyJapan**.
     
 ## <a name="dial-plan-assignment"></a>Asignación de planes de marcado
 <a name="BKMK_DialPlanAssignment"> </a>
 
-Para completar la configuración de la cuenta de usuario para los usuarios de Telefonía IP empresarial o los usuarios de acceso telefónico de la conferencia, el usuario debe asignarse un plan de marcado. Las cuentas de usuario emplearán automáticamente el plan de marcado global o, si existe, el plan de marcado del sitio, en los casos en los que no se asigne explícitamente un plan de marcado creado particularmente para el usuario. Si desea utilizar el global o plan de marcado para todos los usuarios que están habilitados para Telefonía IP empresarial del sitio, puede omitir esta sección.
+Para completar la configuración de la cuenta de usuario para los usuarios de Enterprise Voice o los usuarios de conferencia de acceso telefónico, el usuario debe estar asignado un plan de marcado. Las cuentas de usuario emplearán automáticamente el plan de marcado global o, si existe, el plan de marcado del sitio, en los casos en los que no se asigne explícitamente un plan de marcado creado particularmente para el usuario. Si desea usar la información global o sitio plan de marcado para todos los usuarios que están habilitados para Enterprise Voice, puede omitir esta sección.
   
 ### <a name="to-assign-a-user-specific-dial-plan"></a>Asignar un plan de marcado específico de usuario
 
@@ -101,6 +103,6 @@ Para completar la configuración de la cuenta de usuario para los usuarios de Te
    Grant-CsDialPlan -Identity "Bob Kelly" -PolicyName DialPlanJapan
    ```
 
-    En este ejemplo, el usuario con el nombre para mostrar Bob Kelly se asigna el plan de marcado del usuario con el nombre **DialPlanJapan**.
+    En este ejemplo, el usuario con el nombre para mostrar Bob Kelly es asignado el plan de marcado de usuario con el nombre **DialPlanJapan**.
     
 

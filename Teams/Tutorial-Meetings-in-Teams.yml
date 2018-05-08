@@ -13,14 +13,15 @@ metadata:
   ms.date: 02/27/2018
   ms.service: msteams
   ms.topic: tutorial
+  localization_priority: Priority
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 293a74d706ca5be0ba890f8460d970b77de28621
-  ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
+  ms.openlocfilehash: 33d6ab730ccbd0ead444e8ae482bf697efdf3c51
+  ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 03/28/2018
+  ms.lasthandoff: 05/03/2018
 items:
 - durationInMinutes: 1
   content: >
@@ -111,6 +112,6 @@ items:
         - Para enviarnos comentarios acerca de Teams o solicitar una nueva característica, diríjase a [UserVoice de Teams](https://microsoftteams.uservoice.com/forums/555103-public).
     4.  Manténgase al día:
         - Siga el [Blog de los equipos](https://aka.ms/teamsblog).
-        - Lea la [Guía básica de los equipos](https://aka.ms/skype2teamsroadmap).
-        - Obtenga información acerca de las características más recientes publicadas en las [Notas de la versión](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
+        - Leer la [Guía básica de los equipos](https://aka.ms/skype2teamsroadmap).
+        - Obtenga información acerca de las características más recientes lanzamiento en las [Notas de la versión](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
     5.  Descubra [más módulos de formación y tutoriales](http://aka.ms/Teamsacademy).

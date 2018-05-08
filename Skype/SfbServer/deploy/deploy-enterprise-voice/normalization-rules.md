@@ -7,61 +7,63 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
-description: 'Resumen: Aprender a definir, crear y modificar una regla de normalización en Skype para Business Server 2015.'
-ms.openlocfilehash: 5b55e5e930680d3c51908b77d44a80e2e74ef89c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información sobre cómo definir, crear y modificar una regla de normalización en Skype para Business Server 2015.'
+ms.openlocfilehash: 5ee0b138d118d0c437255cb3e90321019119aedf
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-or-modify-a-normalization-rule-in-skype-for-business-2015"></a>Crear o modificar una regla de normalización en Skype Empresarial 2015
  
-**Resumen:** Aprenda a definir, crear y modificar una regla de normalización en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo definir, crear y modificar una regla de normalización en Skype para Business Server 2015.
   
 Definir, crear y modificar reglas de normalización en Skype para Business Server.
   
 ### <a name="to-define-a-normalization-rule-by-using-build-a-normalization-rule"></a>Para definir una regla de normalización con Crear regla de normalización
 
-1. Abre Skype para Panel de Control de servidor empresarial
+1. Abra Skype para el Panel de Control de servidor empresarial
     
-2. (Opcional) Siga los pasos del [crear o modificar un plan de marcado de Skype para Business Server 2015](dial-plans.md) a través de paso 11 o [modificar un Plan de marcado](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) en el paso 10.
+2. (Opcional) Siga los pasos descritos en [crear o modificar un plan de marcado de Skype para Business Server 2015](dial-plans.md) a través de paso 11 o [modificar un Plan de marcado](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) hasta el paso 10.
     
-3. En la **Regla de normalización de nuevo** o **Editar regla de normalización**, escriba un nombre que describa el patrón del número que se está normalizando en **nombre** (por ejemplo, 5DigitExtension).
+3. En **Nueva regla de normalización** o **Editar regla de normalización**, escriba un nombre que describa el patrón de número que se normalizará en **nombre** (por ejemplo, 5DigitExtension).
     
 4. (Opcional) En **Descripción**, escriba una descripción de la regla de normalización (por ejemplo, "Convierte extensiones de 5 dígitos").
     
 5. En **Generar regla de normalización**, escriba valores en los siguientes campos:
     
-   - **A partir de dígitos** (Opcional) Especificar los dígitos de los números marcados que desee el modelo de coincidencia. Por ejemplo, type425 si desea que el modelo de coincidencia marcar números que comienzan con 425.
+   - **Dígitos iniciales** (Opcional) Especificar los dígitos a la izquierda de los números marcados que desea que coincida el patrón. Por ejemplo, type425 si desea que coincida el patrón marcado números que comienzan con 425.
     
-   - **Longitud** Especificar el número de dígitos en el modelo correspondiente y seleccione si desea que el modelo debe coincidir exactamente con la longitud de esta, coincidencia marcaba números que están por lo menos esta longitud o coincidencia marcaba números de cualquier longitud.
+   - **Longitud** Especificar el número de dígitos en el patrón coincidente y seleccione si desea que el patrón debe coincidir exactamente con este valor de longitud, coincidencia los números que tienen al menos esta longitud marcados con o números de cualquier longitud marcados de coincidencia.
     
-   - **Dígitos para quitar** (Opcional) Especificar el número de dígitos que se quitará de los números marcados de inicio que desee el modelo de coincidencia.
+   - **Dígitos para quitar** (Opcional) Especifique el número de dígitos que se quitará de los números marcados iniciales que desea que coincida el patrón.
     
-   - **Dígitos para agregar** (Opcional) Especificar dígitos que se agrega a los números marcados y que desea que el modelo de coincidencia.
+   - **Dígitos a agregar.** (Opcional) Especificar los dígitos que se agrega a los números marcados que desea que coincida el patrón.
     
-    Los valores que introduzca en estos campos se reflejarán en **Patrón con el que coincidir** y **Regla de conversión**. Por ejemplo, si deja Tipo7 vacío, **dígitos de inicio** en el campo **longitud** , seleccione **exactamente**y especifique 0 en **dígitos para quitar**, la expresión regular resultante en el **modelo de coincidencia** es:
+    Los valores que introduzca en estos campos se reflejarán en **Patrón con el que coincidir** y **Regla de conversión**. Por ejemplo, si deja Tipo7 vacía, **dígitos de inicio** en el campo de **longitud** y seleccione **exactamente**y especificar 0 en **dígitos para quitar**, la expresión regular resultante en el **modelo de coincidencia** es:
     
     ^(\d{7})$
     
 6. En **Regla de conversión**, especifique un patrón para el formato de los números de teléfono E.164 convertidos como se indica a continuación:
     
-   - Un valor que represente la cantidad de dígitos especificada en el patrón de coincidencia. Por ejemplo, si el modelo coincidente es ^ (\d{7})$ $1, a continuación, en la regla de traducción representa números marcados de 7 dígitos.
+   - Un valor que represente la cantidad de dígitos especificada en el patrón de coincidencia. Por ejemplo, si el patrón coincidente es ^(\d{7})$, a continuación, $1 en la traducción de la regla representa los números marcados de 7 dígitos.
     
-   - (Opcional) Escriba un valor en el campo de **dígitos que se deben agregar** para especificar dígitos anteponer al número traducido (por ejemplo, +1425).
+   - (Opcional) Escriba un valor en el campo **dígitos a agregar** para especificar los dígitos para ser antepone del número convertido (por ejemplo, + 1425).
     
-    Por ejemplo, si el **modelo de coincidencia** contains^(\d{7})$ como modelo para los números marcados y **regla de traducción** contiene + 1425$ 1 como modelo para E.164 números de teléfono, la regla normaliza 5550100 a +14255550100.
+    Por ejemplo, si el **modelo de coincidencia** contiene ^(\d{7})$ como el patrón para los números marcados con y contiene la **regla de conversión** + 1425$ 1 como el patrón para E.164 números de teléfono, la regla 5550100 en + 14255550100.
     
 7. (Opcional) Si la regla de normalización da un número de teléfono interno de la organización, seleccione **Extensión interna**.
     
 8. (Opcional) Especifique un número para probar la regla de normalización y después haga clic en **Ir**. Los resultados de la prueba se muestran en **Introducir un número para probarlo**.
     
     > [!NOTE]
-    > Puede guardar una regla de normalización que aún no haya pasado la prueba y volver a configurarla más adelante. Para obtener más información, vea [Enrutamiento de voz de prueba](http://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx). 
+    > Puede guardar una regla de normalización que aún no haya pasado la prueba y volver a configurarla más adelante. Para obtener información detallada, vea [Probar enrutamiento de voz](http://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx). 
   
 9. Haga clic en **Aceptar** para guardar la regla de normalización.
     
@@ -71,15 +73,15 @@ Definir, crear y modificar reglas de normalización en Skype para Business Serve
     
     > [!NOTE]
     > Cuando cree o cambie una regla de normalización, debe ejecutar el
-comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, consulte [publicación de cambios a la configuración de enrutamiento de voz de Skype para el año 2015 de negocios pendientes](voice-route-config-changes.md) en la documentación de las operaciones.
+comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, consulte [publicar los cambios en la configuración de enrutamiento de voz en Skype para profesionales de 2015 pendientes](voice-route-config-changes.md) en la documentación sobre operaciones.
   
 ### <a name="to-define-a-normalization-rule-manually"></a>Para definir una regla de normalización de forma manual
 
-1. Abre Skype para Panel de Control de servidor empresarial
+1. Abra Skype para el Panel de Control de servidor empresarial
     
-2. (Opcional) Siga los pasos del [crear o modificar un plan de marcado de Skype para Business Server 2015](dial-plans.md). 
+2. (Opcional) Siga los pasos descritos en [crear o modificar un plan de marcado de Skype para Business Server 2015](dial-plans.md). 
     
-3. En la **Regla de normalización de nuevo** o **Editar regla de normalización**, escriba un nombre que describa el patrón del número que se está normalizando en **nombre** (por ejemplo, el nombre de la rule5DigitExtension de normalización).
+3. En **Nueva regla de normalización** o **Editar regla de normalización**, escriba un nombre que describa el patrón de número que se normalizará en **nombre** (por ejemplo, nombre de la rule5DigitExtension de normalización).
     
 4. (Opcional) En el campo **Descripción**, escriba una descripción de la regla de normalización (por ejemplo, "Convierte extensiones de 5 dígitos").
     
@@ -91,7 +93,7 @@ comando **Confirmar todo** para publicar el cambio de configuración. Para obten
     
    - En **Regla de conversión**, especifique un patrón para el formato de los números de teléfono E.164 convertidos.
     
-    Por ejemplo, si escribe ^ (\d{7})$ en **este patrón de coincidencia** y + 1425$ 1 en la **regla de conversión**, la regla se normaliza 5550100 a +14255550100.
+    Por ejemplo, si escribe ^(\d{7})$ en **este patrón de coincidencia** y + 1425$ 1 en **regla de conversión**, la regla 5550100 en + 14255550100.
     
 7. (Opcional) Si la regla de normalización da un número de teléfono interno de la organización, seleccione **Extensión interna**.
     
@@ -105,6 +107,6 @@ comando **Confirmar todo** para publicar el cambio de configuración. Para obten
     
     > [!NOTE]
     > Cuando cree o cambie una regla de normalización, debe ejecutar el
-comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, consulte [publicación de cambios a la configuración de enrutamiento de voz de Skype para el año 2015 de negocios pendientes](voice-route-config-changes.md) en la documentación de las operaciones.
+comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, consulte [publicar los cambios en la configuración de enrutamiento de voz en Skype para profesionales de 2015 pendientes](voice-route-config-changes.md) en la documentación sobre operaciones.
   
 

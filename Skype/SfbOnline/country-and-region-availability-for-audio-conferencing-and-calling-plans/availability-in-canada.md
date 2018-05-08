@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: A continuación se indican los servicios de Office 365 para Skype Empresarial y Microsoft Teams que están disponibles para Canadá.
-ms.openlocfilehash: abc0ecee302e3f646e43fcbb54e5ecf2e19ee5bd
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 6a5f5f0c73d82880acfd9adfa824825ed41b4f85
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="availability-in-canada"></a>Disponibilidad en Canadá
 
@@ -51,8 +51,6 @@ A continuación se indican los servicios de Office 365 para Skype Empresarial y 
 |Correo de voz  <br/> |Disponible  <br/> |
 
 ## <a name="calling-plans"></a>Planes de llamadas
-> [!IMPORTANT]
-> Canadá solo está disponible para los clientes de la versión preliminar y los usuarios pioneros. Para obtener más información, consulte [Programas de Skype Preview](https://www.skypepreview.com).
     
 |**Característica**|**Detalles**|
 |:-----|:-----|
@@ -69,6 +67,9 @@ A continuación se indican los servicios de Office 365 para Skype Empresarial y 
 |¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
    
  Si desea números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+
+> [!Note] 
+> Cuando una llamada planear (nacionales o nacional e internacional) usuario en los Estados Unidos marca un número de teléfono en Canadá se tratará como una llamada nacional. También es el caso cuando un usuario en Canadá va a realizar una llamada a un número de Estados Unidos.
   
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 

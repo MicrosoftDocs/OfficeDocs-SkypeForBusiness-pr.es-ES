@@ -7,23 +7,23 @@ ms.date: 9/25/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom:
+localization_priority: Priority
+ms.collection:
 - Strat_SB_Hybrid
-- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
-description: Obtenga información acerca de la implementación de un único sitio PSTN en nube conector Edition.
-ms.openlocfilehash: 6268a9207d36e89faf391ac77a7dd832ba65704f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Obtenga información sobre la implementación de un único sitio de RTC en la nube conector Edition.
+ms.openlocfilehash: ba6d5e4fe350db5076f7067be01726282f2dcc45
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Implementar un solo sitio en Cloud Connector
  
-Obtenga información acerca de la implementación de un único sitio PSTN en nube conector Edition.
+Obtenga información sobre la implementación de un único sitio de RTC en la nube conector Edition.
   
-Puede implementar Skype para conector de nube Business Edition con o sin soporte de alta disponibilidad (HA). Si desea habilitar HA, tendrá que implementar dos o más dispositivos dentro de un sitio. También puede convertir un dispositivo existente para que admita HA después de su implementación.
+Puede implementar Skype para Business Edition de conector en la nube con o sin compatibilidad con alta disponibilidad (HA). Si desea habilitar HA, tendrá que implementar dos o más dispositivos dentro de un sitio. También puede convertir un dispositivo existente para que admita HA después de su implementación.
   
 ## <a name="deploy-the-first-skype-for-business-cloud-connector-edition-appliance"></a>Implementar el primer dispositivo de Skype Empresarial Cloud Connector Edition
 
@@ -36,7 +36,7 @@ Register-CcAppliance
 Siga las instrucciones para proporcionar el nombre y la contraseña de la cuenta de administrador de inquilinos. Use la cuenta que creó para la administración en línea de Cloud Connector. Además, siga las instrucciones para proporcionar la contraseña del certificado externo, la del administrador de modo seguro, la del administrador de dominio y la del administrador de máquinas virtuales. 
  
   
-En versión 1.4.2 y versiones anteriores, también, siga las instrucciones para proporcionar la contraseña de certificado externo, contraseña de admin de modo seguro, contraseña de administrador de dominio y contraseña de administrador de la máquina virtual. 
+En la versión 1.4.2 y versiones anteriores, también, siga las instrucciones para proporcionar la contraseña de certificado externo, contraseña de administrador de modo seguro, contraseña de administrador de dominio y contraseña de administrador de la máquina virtual. 
   
 En la versión 2.0 y las versiones posteriores, siga también las instrucciones para proporcionar la contraseña del certificado externo, la contraseña de CceService y la contraseña de CABackupFile.
   
@@ -48,9 +48,9 @@ Install-CcAppliance
 
 ## <a name="add-an-appliance-to-an-existing-site"></a>Agregar una aplicación a un sitio existente
 
-Puede extender un sitio existente de conector de nube para admitir alta disponibilidad agregando dispositivos adicionales para el sitio. 
+Puede ampliar un sitio existente de conector en la nube para admitir alta disponibilidad mediante la adición de dispositivos adicionales para el sitio. 
   
-1. Siga los pasos para preparar el dispositivo conector de nube como se describe en [Preparar el dispositivo conector de nube](prepare-your-cloud-connector-appliance.md). Tenga en cuenta que algunos pasos solo se requieren para el primer dispositivo de la implementación. Confirme que exista el directorio del sitio y que esté configurado correctamente para la compatibilidad con HA.
+1. Siga los pasos para preparar el dispositivo conector en la nube, tal y como se describe en [Preparar el dispositivo de conector en la nube](prepare-your-cloud-connector-appliance.md). Tenga en cuenta que algunos pasos solo se requieren para el primer dispositivo de la implementación. Confirme que exista el directorio del sitio y que esté configurado correctamente para la compatibilidad con HA.
     
 2. Ejecute el siguiente cmdlet solo en un servidor host recién agregado para actualizar la información de topología en la configuración de inquilino de Office 365. Si desea agregar varios dispositivos al mismo tiempo, ejecute el cmdlet en cada uno de los hosts recién agregados, uno por uno:
     
@@ -71,7 +71,7 @@ Puede extender un sitio existente de conector de nube para admitir alta disponib
   ```
 
 > [!NOTE]
-> Si el directorio de sitios se ha establecido en la ruta de acceso a una carpeta local, tiene que definir un recurso compartido de archivos para esta carpeta y usar una ruta de acceso UNC para el directorio de sitios en el nuevo dispositivo. Puede dejar el directorio de sitios del primer dispositivo con la ruta de acceso local o modificarla para usar la ruta de acceso UNC para el recurso compartido en la misma carpeta. Si modifica la ubicación del directorio de sitios del recurso compartido, tendrá que desinstalar y volver a instalar después los dispositivos que se hayan instalado previamente. > Importante: La contraseña de la cuenta CceService y la cuenta de CABackupFile debe ser el mismo en todos los equipos implementados en el sitio, para que los dispositivos pueden acceder a la cuota de directorio de sitio y el archivo de copia de seguridad de entidad emisora de certificados cifrado en el directorio de sitios. 
+> Si el directorio de sitios se ha establecido en la ruta de acceso a una carpeta local, tiene que definir un recurso compartido de archivos para esta carpeta y usar una ruta de acceso UNC para el directorio de sitios en el nuevo dispositivo. Puede dejar el directorio de sitios del primer dispositivo con la ruta de acceso local o modificarla para usar la ruta de acceso UNC para el recurso compartido en la misma carpeta. Si modifica la ubicación del directorio de sitios del recurso compartido, tendrá que desinstalar y volver a instalar después los dispositivos que se hayan instalado previamente. > Importante: La contraseña de la cuenta CceService y la cuenta de CABackupFile debe ser el mismo en todos los dispositivos que se implementan en el sitio, por lo que pueden tener acceso a los dispositivos el recurso compartido de directorio de sitios y el archivo de copia de seguridad cifrado de entidad emisora de certificados en el directorio de sitios. 
   
 ## <a name="remove-an-appliance-from-an-existing-site"></a>Quitar una aplicación de un sitio existente
 

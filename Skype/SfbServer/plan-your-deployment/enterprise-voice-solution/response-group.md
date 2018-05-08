@@ -7,32 +7,34 @@ ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
-description: Planificación de grupos de respuesta en Skype para Telefonía IP empresarial de Business Server, que le permite configurar el enrutamiento de llamadas a grupos de usuarios. Incluye requisitos para los archivos de audio.
-ms.openlocfilehash: dd98ded5af55e39f773b4a0167428ba1644cee87
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+description: Planeación de grupos de respuesta en Skype para Business Server Enterprise Voice, que le permite configurar el enrutamiento de llamadas a grupos de usuarios. Incluye requisitos para los archivos de audio.
+ms.openlocfilehash: 628126cfc3815dfabdf0e73c962e8dcff326b416
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server-2015"></a>Planificar la aplicación de grupo de respuesta en Skype Empresarial Server 2015
  
-Planificación de grupos de respuesta en Skype para Telefonía IP empresarial de Business Server, que le permite configurar el enrutamiento de llamadas a grupos de usuarios. Incluye requisitos para los archivos de audio.
+Planeación de grupos de respuesta en Skype para Business Server Enterprise Voice, que le permite configurar el enrutamiento de llamadas a grupos de usuarios. Incluye requisitos para los archivos de audio.
   
-Si su organización tiene grupos de personas que responda y gestión ciertos tipos de llamadas, como para servicio al cliente, un departamento de soporte interno o asistencia telefónica general para un departamento, puede implementar la aplicación de grupo de respuesta para administrar estos tipos de llamadas. El grupo de respuesta aplicación dirige y pone en cola las llamadas entrantes designa las personas, que se conocen como agentes. Puedes aumentar el uso de los servicios de asistencia telefónica y reducir la sobrecarga de ejecutar dichos servicios con un grupo de respuesta.
+Si su organización tiene grupos de personas que responder y gestionar ciertos tipos de llamadas, como para servicio al cliente, una asistencia interno o soporte técnico de teléfono general para un departamento, puede implementar la aplicación de grupo de respuesta para administrar estos tipos de llamadas. El grupo de respuesta aplicación enruta y pone en cola las llamadas entrantes a designar las personas, que se conocen como agentes. Puedes aumentar el uso de los servicios de asistencia telefónica y reducir la sobrecarga de ejecutar dichos servicios con un grupo de respuesta.
   
-Cuando el autor de una llamada llama a un grupo de respuesta, la llamada se redirige a un agente de acuerdo con un grupo de extensiones o las respuestas del autor de la llamada frente a las preguntas de la respuesta interactiva de voz (IVR). La aplicación de grupo de respuesta utiliza métodos de enrutamiento de grupo de respuesta estándar para enrutar la llamada al siguiente agente disponible. Los métodos de enrutamiento de llamadas compatibles incluyen enrutamiento serial, según agente libre por más tiempo, paralelo, round robin y de operador (es decir, se llaman a todos los agentes al mismo tiempo para cada llamada entrante, independientemente de los estados de presencia). 
+Cuando el autor de una llamada llama a un grupo de respuesta, la llamada se redirige a un agente de acuerdo con un grupo de extensiones o las respuestas del autor de la llamada frente a las preguntas de la respuesta interactiva de voz (IVR). La aplicación de grupo de respuesta usa los métodos de enrutamiento de grupo de respuesta estándar para enrutar la llamada al siguiente agente disponible. Los métodos de enrutamiento de llamadas compatibles incluyen enrutamiento serial, según agente libre por más tiempo, paralelo, round robin y de operador (es decir, se llaman a todos los agentes al mismo tiempo para cada llamada entrante, independientemente de los estados de presencia). 
   
 Si no hay ningún agente disponible, la llamada se mantiene en una cola hasta que haya alguno. Mientras se encuentra en la cola, el autor de la llamada escucha música hasta que un agente disponible acepte la llamada. Si la cola está llena o si la llamada supera el tiempo de espera mientras se encuentra en la cola, el autor de la llamada oirá un mensaje y, luego, se desconectará la llamada o se transferirá a un destino diferente, como a un correo de voz o a un número de teléfono distinto. Cuando un agente acepta la llamada, el autor de la llamada puede ver o no la identidad del agente, en función de cómo haya configurado el administrador el grupo de respuesta. Los agentes pueden ser formales, lo que significa que necesitan iniciar sesión en el grupo para poder aceptar las llamadas redirigidas al grupo, o bien informales, lo que significa que no es necesario que inicien sesión y finalicen sesión en el grupo para aceptar llamadas.
   
 > [!NOTE]
-> Solo los usuarios locales pueden ser agentes. Si un agente se mueve desde locales Online, llamadas de grupo de respuesta no se enrutarán a ese agente. 
+> Solo los usuarios locales pueden ser agentes. Si un agente se mueve de local a en línea, las llamadas de grupo de respuesta no se enrutarán a ese agente. 
   
 > [!NOTE]
-> La aplicación de grupo de respuesta utiliza un servicio interno, llamado haciendo coincidir, poner en cola las llamadas y buscar a agentes disponibles. Cada equipo que ejecuta la aplicación de grupo de respuesta ejecuta el servicio que hace coincidir, pero sólo un servicio que hace coincidir por grupo está activo en un momento, los demás son pasivos. Si el servicio de contactos activo deja de estar disponible durante una interrupción no planificada, se activará uno de los servicios de contactos pasivos. La aplicación de grupo de respuesta hace todo lo posible para asegurarse de que ese enrutamiento de llamadas y Queue Server continúa sin interrupciones. Pero, cuando se produce la transición del servicio de contactos, todas las llamadas que se están transfiriendo en ese momento se pierden. Por ejemplo, si la transición se debe el servidor Front-End que deje de funcionar, cualquier llamada que esté controlando el servicio activo que hace coincidir en servidor Front-End también se pierden. 
+> La aplicación de grupo de respuesta usa un servicio interno, llamado correspondencia, poner en cola las llamadas y buscar a los agentes disponibles. Cada equipo que ejecuta la aplicación de grupo de respuesta ejecuta el servicio de correspondencia, pero solo un servicio de correspondencia por grupo de servidores está activo en un momento--los demás son pasivos. Si el servicio de contactos activo deja de estar disponible durante una interrupción no planificada, se activará uno de los servicios de contactos pasivos. La aplicación de grupo de respuesta no la mejor manera para asegurarse de que el enrutamiento de llamadas y puesta en cola continúen sin interrupciones. Pero, cuando se produce la transición del servicio de contactos, todas las llamadas que se están transfiriendo en ese momento se pierden. Por ejemplo, si la transición es debido al servidor Front-End que deje de funcionar, las llamadas atendidas actualmente por el servicio de correspondencia activo en el también se pierden servidor Front-End. 
   
 ## <a name="response-group-workflows"></a>Flujos de trabajo de grupo de respuesta
 
@@ -43,69 +45,69 @@ Un flujo de trabajo define el comportamiento de una llamada desde el momento en 
   
 ## <a name="management-of-response-groups"></a>Administración de los grupos de respuesta
 
-En Skype para Business Server, existen dos funciones de administración para administrar grupos de respuesta: respuesta grupo Administrador y Administrador de grupo de respuesta. Los administradores de grupos de respuesta pueden administrar cualquier aspecto de cualquier grupo de respuesta. Los jefes de grupo de respuesta pueden administrar sólo determinados aspectos, y sólo para los grupos de la respuesta les pertenecen. El rol de administrador puede ayudar a reducir los costos de administración, ya que puede delegar la responsabilidad limitada para grupos específicos de respuesta a cualquier usuario que está habilitada para la Telefonía IP empresarial. Tenga en cuenta que un usuario puede ser un administrador de grupos de respuesta y un administrador de grupo de respuesta. 
+En Skype para Business Server, dos roles de administración están disponibles para la administración de grupos de respuesta: Director de grupo de respuesta y Administrador de grupo de respuesta. Los administradores de grupo de respuesta pueden administrar todos los aspectos de cualquier grupo de respuesta. Administradores del grupo de respuesta pueden administrar sólo determinados aspectos, y solo para grupos de la respuesta son propietarios. La función Administrador puede ayudar a reducir los costos de administración, ya que puede delegar responsabilidades limitadas para grupos de respuesta específicos a cualquier usuario habilitado para Enterprise Voice. Tenga en cuenta que un usuario puede ser un administrador de grupos de respuesta y un administrador de grupo de respuesta. 
   
-Para adaptarse a la función Manager, aplicación de grupo de respuesta utiliza un **Tipo de flujo de trabajo** administrado o no administrado. En la tabla siguiente se describen los grupos de respuesta administrados y no administrados.
+Para dar cabida a la función de administrador, la aplicación de grupo de respuesta utiliza un **Tipo de flujo de trabajo** de administrado o no administrado. En la tabla siguiente se describen los grupos de respuesta administrados y no administrados.
   
 **Grupos de respuesta administrados y no administrados**
 
 |**Tipo de grupo de respuesta**|**Descripción**|
 |:-----|:-----|
-|No administrado  <br/> | Los grupos de respuesta no administrados no tienen ningún director asignado. Sólo el administrador del grupo de respuesta puede configurar estos grupos de respuesta. <br/>  Varios grupos de respuesta no administrados pueden compartir un grupo de agentes o una cola. <br/>  Al migrar grupos de respuesta desde una versión anterior a Skype para Business Server, el tipo se establece en no administrado. <br/> |
-|Administrado  <br/> | Los administradores de grupos de respuesta pueden configurar cualquier aspecto de grupos de respuesta administrado. <br/>  Los jefes de grupo de respuesta no pueden ver o modificar los grupos de respuesta que no se asignan explícitamente a ellos. <br/>  Los jefes de grupo de respuesta pueden configurar sólo algunas configuraciones para los grupos de respuesta que tienen asignados explícitamente. <br/>  Los grupos de respuesta administrados no pueden compartir grupos de agentes ni colas con otros grupos de respuesta, ya sean administrados o no administrados. <br/> |
+|No administrado  <br/> | Los grupos de respuesta no administrados no tienen ningún director asignado. Sólo el Administrador de grupos de respuesta puede configurar estos grupos de respuesta. <br/>  Varios grupos de respuesta no administrados pueden compartir un grupo de agentes o una cola. <br/>  Cuando se migran grupos de respuesta desde una versión anterior a Skype para Business Server, el tipo se establece como no administrados. <br/> |
+|Administrado  <br/> | Los administradores de grupo de respuesta pueden configurar cualquier aspecto de los grupos de respuesta administrados. <br/>  Los administradores de grupo de respuesta no se pueden ver o modificar los grupos de respuesta que no se haya asignado explícitamente a ellos. <br/>  Los administradores de grupo de respuesta pueden configurar solo algunas opciones de configuración para los grupos de respuesta que se les haya asignado explícitamente. <br/>  Los grupos de respuesta administrados no pueden compartir grupos de agentes ni colas con otros grupos de respuesta, ya sean administrados o no administrados. <br/> |
    
-En la tabla siguiente se describe las acciones que los jefes de grupo de respuesta puede y no se puede realizar para los grupos de respuesta asignados a ellos.
+En la siguiente tabla se describe las acciones que los administradores del grupo de respuesta puede y no se puede realizar para los grupos de respuesta asignados a ellos.
   
-**Funciones de administrador de grupo de respuesta**
+**Capacidades de director de grupo de respuesta**
 
 |**Puede configurar:**|**Puede crear, eliminar o configurar:**|**No se puede:**|
 |:-----|:-----|:-----|
-| Agentes <br/>  Mensajes de bienvenida <br/>  Nombre del grupo de respuesta <br/>  Descripción <br/>  Número para mostrar <br/>  Horario comercial <br/>  Música en espera <br/>  Estado (activo/inactivo) <br/>  Flujos de trabajo del grupo de extensiones o flujos de trabajo de la respuesta interactiva de voz (IVR) <br/> | Grupos de agentes <br/>  Colas <br/>  Conjuntos de vacaciones <br/> | Crear o eliminar ningún tipo de flujo de trabajo <br/>  Modificar la configuración principal de los grupos de respuesta, como el **URI de SIP**, el **número de teléfono** o el **tipo de flujo de trabajo**.  <br/> |
+| Agentes <br/>  Mensajes de bienvenida <br/>  Nombre de grupo de respuesta <br/>  Descripción <br/>  Número para mostrar <br/>  Horario comercial <br/>  Música en espera <br/>  Estado (activo/inactivo) <br/>  Flujos de trabajo del grupo de extensiones o flujos de trabajo de la respuesta interactiva de voz (IVR) <br/> | Grupos de agentes <br/>  Colas <br/>  Conjuntos de vacaciones <br/> | Crear o eliminar ningún tipo de flujo de trabajo <br/>  Modificar la configuración principal de los grupos de respuesta, como el **URI de SIP**, el **número de teléfono** o el **tipo de flujo de trabajo**.  <br/> |
    
-Los jefes de grupo de respuesta pueden utilizar las siguientes herramientas para gestionar sus grupos de respuesta designado. 
+Los administradores de grupo de respuesta pueden usar las siguientes herramientas para administrar sus grupos de respuesta designado. 
   
 - Panel de control de Skype Empresarial Server
     
     > [!NOTE]
-    > Los jefes de grupo de respuesta sólo pueden administrar la configuración de grupo de respuesta con esta herramienta. Otro Skype para la configuración del servidor de negocios no están disponibles para los administradores. 
+    > Los administradores de grupo de respuesta sólo pueden administrar la configuración de grupo de respuesta con esta herramienta. Otro Skype para la configuración de Business Server no están disponibles para los administradores. 
   
 - Herramienta de configuración de grupo de respuesta
     
 - Shell de administración de Skype Empresarial Server
     
-Escalas de grupo de respuesta a departamentos o entornos de grupo de trabajo (para obtener más información, vea [Planear la capacidad de respuesta de grupo](http://technet.microsoft.com/library/a2459a69-1f45-4f2f-bca5-d4f442708e44.aspx)) y se pueden implementar en las instalaciones de telefonía totalmente nuevo. Es compatible con las llamadas entrantes de la implementación de Telefonía IP empresarial y de la red de transporte local. Agentes pueden usar Skype para negocios, 2013 Lync, Lync 2010, Lync 2010 Attendant o Lync Phone Edition para tomar las llamadas que se dirijan a ellos.
+Escala de grupo de respuesta también a departamentos o entornos de grupo de trabajo (para obtener información detallada, vea [Planear la capacidad de grupo de respuesta](http://technet.microsoft.com/library/a2459a69-1f45-4f2f-bca5-d4f442708e44.aspx)) y se pueden implementar en instalaciones de telefonía totalmente nuevas. Es compatible con las llamadas entrantes de la implementación de Enterprise Voice y de la red del operador local. Agentes pueden utilizar Skype para profesionales, Lync 2013, Lync 2010, Lync 2010 Attendant o Lync Phone Edition para atender las llamadas enrutadas a ellos.
   
 ## <a name="deployment-and-requirements"></a>Requisitos e implementación
 
-La aplicación de grupo de respuesta se habilita automáticamente al implementar la Telefonía IP empresarial.
+La aplicación de grupo de respuesta se habilita automáticamente al implementar Enterprise Voice.
   
 ### <a name="hardware-and-software-requirements"></a>Requisitos de hardware y software
 
-La aplicación de grupo de respuesta tiene los mismos requisitos de hardware, requisitos del sistema operativo y requisitos previos de software como servidores frontales. 
+La aplicación de grupo de respuesta tiene los mismos requisitos de hardware, requisitos del sistema operativo y requisitos previos de software como servidores Front-End. 
   
-Si utiliza archivos Windows Media Audio (.wma) para anuncios y música de grupo de respuesta, todos los servidores frontales o ediciones estándar servidores que ejecutan la aplicación de grupo de respuesta deben tener Windows Media Format Runtime instalado para servidores Windows Server 2008 R2 o Microsoft Media Foundation para servidores que ejecutan Windows Server 2012 o R2 de Windows Server 2012. Para Windows Server 2008 R2, Windows Media Format Runtime se instala como parte de la experiencia de escritorio de Windows.
+Si utiliza archivos de Windows Media Audio (.wma) para anuncios y música de grupo de respuesta, todos los servidores Front-End o las ediciones Standard servidores que ejecutan la aplicación de grupo de respuesta deben tener instalado para los servidores que ejecutan Windows Windows Media Format Runtime Server 2008 R2 o Microsoft Media Foundation para los servidores que ejecutan Windows Server 2012 o Windows Server 2012 R2. Para Windows Server 2008 R2, el tiempo de ejecución de Windows Media Format se instala como parte de la experiencia de escritorio de Windows.
   
-Grupo de respuesta usa **paquetes de idioma** para admitir el reconocimiento de voz y texto a voz. Estas tecnologías de voz se utilizan al configurar mensajes, como el mensaje de bienvenida y otras indicaciones, voz interactiva (IVR) de respuesta preguntas y respuestas. De forma predeterminada, los 26 admiten language packs se instalan al implementar Skype para Business Server.
+Grupo de respuesta usa **paquetes de idioma** para admitir el reconocimiento de voz y texto a voz. Estas tecnologías de voz se usan al configurar los mensajes, como el mensaje de bienvenida y otros mensajes, interactiva de voz (IVR) de respuesta preguntas y respuestas. De forma predeterminada, el 26 admite el idioma al implementar Skype para Business Server se hayan instalado los paquetes.
   
 ### <a name="port-requirements"></a>Requisitos de los puertos
 
 La aplicación de grupo de respuesta utiliza los siguientes puertos:
   
-- **5071 de puerto** para solicitudes de escucha de SIP
+- **Puerto 5071** para solicitudes de escucha SIP
     
-- **8404 de puerto** para las comunicaciones
+- **Puerto 8404** para las comunicaciones
     
     > [!NOTE]
-    > Este puerto se utiliza para el servicio que hace coincidir y es necesario cuando se implementa la aplicación de grupo de respuesta en un grupo que tiene más de un servidor de Front-End. 
+    > Este puerto se usa para el servicio de correspondencia y es necesario cuando se implementa la aplicación de grupo de respuesta en un grupo de servidores que tiene más de un servidor Front-End. 
   
    > [!NOTE]
-   > Estos puertos son valores predeterminados que se pueden cambiar mediante el cmdlet **Set-CsApplicationServer** . Para obtener más información acerca de este cmdlet, vea el Skype para la documentación del Shell de administración de servidor empresarial.
+   > Estos puertos son la configuración predeterminada que se puede cambiar mediante el cmdlet **Set-CsApplicationServer** . Para obtener más información acerca de este cmdlet, vea el Skype para la documentación del Shell de administración de servidor empresarial.
   
 ### <a name="audio-file-requirements"></a>Requisitos de archivos de audio
 
-El formato de archivo de onda (.wav) de grupo de respuesta aplicación admite y un archivo de Windows Media audio (.wma) formato para mensajes de grupo de respuesta, música en espera o preguntas de voz interactiva (IVR) de la respuesta.
+El formato de archivo de onda (.wav) de admite de aplicación de grupo de respuesta y el archivo de Windows Media audio (.wma) formato para los mensajes de grupo de respuesta, música en espera o preguntas de voz interactiva (IVR) de la respuesta.
   
-El formato de archivo de audio de Windows Media requiere que esté instalado Windows Media Format Runtime en servidores frontales ejecuta Windows Server 2008 R2 y Windows Server 2008. Para obtener más información, mira "Requisitos de software" anteriormente en esta sección.
+El formato de archivo de audio de Windows Media requiere que el tiempo de ejecución de formato de Windows Media está instalado en los servidores Front-End que ejecutan Windows Server 2008 R2 y Windows Server 2008. Para obtener más información, mira "Requisitos de software" anteriormente en esta sección.
   
 #### <a name="supported-wave-file-formats"></a>Formatos de archivo wave compatibles
 
@@ -125,16 +127,16 @@ Para obtener el máximo rendimiento de los archivos wave, recomendamos usar un a
 
 Si usas un archivo de audio de Windows Media, considera la posibilidad de usar velocidades de bits lentas y comprueba el rendimiento del sistema cuando se somete a carga.
   
-Puedes usar Microsoft Expression Encoder 4 para convertir un archivo al formato de audio de Windows Media. Para descargar el 4 de Expression Encoder, consulte [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkId=202843).
+Puedes usar Microsoft Expression Encoder 4 para convertir un archivo al formato de audio de Windows Media. Para descargar la expresión codificador 4, consulte [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkId=202843).
   
 ### <a name="response-group-configuration-tool-requirements"></a>Requisitos para la herramienta de configuración del grupo de respuesta
 
-La herramienta de configuración de grupo de respuesta admite las combinaciones de sistemas operativos y exploradores web que se describe en la tabla siguiente.
+La herramienta de configuración de grupo de respuesta admite combinaciones de sistemas operativos y exploradores web que se describen en la siguiente tabla.
   
 > [!NOTE]
 > Se admiten las versiones de 32 y 64 bits de los sistemas operativos. Solamente se admiten las versiones de 32 bits de Internet Explorer. 
   
-**Sistemas operativos y exploradores Web**
+**Los sistemas operativos y exploradores Web**
 
 |**Sistema operativo**|**Explorador Web**|
 |:-----|:-----|
@@ -152,7 +154,7 @@ La consola del agente admite combinaciones de los sistemas operativos y los expl
 > [!NOTE]
 > Se admiten las versiones de 32 y 64 bits de los sistemas operativos. Solamente se admiten las versiones de 32 bits de Internet Explorer. 
   
-**Sistemas operativos y exploradores Web**
+**Los sistemas operativos y exploradores Web**
 
 |**Sistema operativo**|**Explorador Web**|
 |:-----|:-----|
@@ -167,11 +169,11 @@ La consola del agente admite combinaciones de los sistemas operativos y los expl
 
 La aplicación de grupo de respuesta admite a los siguientes clientes:
   
-- Skype para el cliente de escritorio de negocios
+- Skype para el cliente de escritorio empresarial
     
-- Cliente de escritorio Lync 2013
+- Cliente de escritorio de Lync 2013
     
-- Cliente de escritorio Lync 2010
+- Cliente de escritorio de Lync 2010
     
 - Operador de Lync 2010
     
@@ -180,19 +182,19 @@ La aplicación de grupo de respuesta admite a los siguientes clientes:
 - Lync Phone Edition
     
 > [!NOTE]
-> La aplicación de grupo de respuesta no es compatible con clientes móviles de Lync. 
+> La aplicación de grupo de respuesta no se admite en clientes móviles de Lync. 
   
-El cliente específico que puede utilizar depende del tipo de usuario del grupo de respuesta que está: 
+El cliente concreto que puede usar depende del tipo de usuario de grupo de respuesta que está: 
   
 - Los **autores de llamadas** pueden llamar a un grupo de respuesta a través de cualquiera de los clientes de la lista anterior y a través de un teléfono estándar por la red telefónica conmutada (RTC).
     
-- **Agentes informales** (los agentes que no firman dentro y fuera de sus grupos para aceptar llamadas) pueden aceptar llamadas usando el operador, Lync o Lync Phone Edition. Agentes informales están firmados automáticamente en sus grupos cuando inician sesión en Skype para Business Server mediante uno de estos clientes.
+- **Agentes informales** (los agentes que no conectarse y desconectarse de sus grupos para aceptar llamadas) pueden aceptar llamadas mediante el uso de Attendant, Lync o Lync Phone Edition. Agentes informales se conectan automáticamente en sus grupos cuando inician sesión Skype para Business Server mediante uno de estos clientes.
     
-- **Agentes formales** (los agentes que deben firmar dentro y fuera de sus grupos para aceptar llamadas) pueden aceptar llamadas mediante Skype para el negocio y acceso a la consola de agente desde el elemento de menú o mediante el operador y acceso a la consola de agente directamente desde Internet Explorer.
+- **Agentes formales** (los agentes que deben conectarse y desconectarse de sus grupos para aceptar llamadas) pueden aceptar llamadas mediante Skype para la empresa y obtener acceso a la consola de agente desde el elemento de menú o mediante el operador y obtener acceso a la consola de agente directamente desde el Explorador de Internet.
     
 ## <a name="capacity-planning"></a>Planificación de la capacidad
 
-En la tabla siguiente se describe el modelo de usuario de grupo de respuesta que se puede utilizar como base para los requerimientos de planificación de capacidad.
+En la siguiente tabla se describe el modelo de usuario de grupo de respuesta que puede usar como base para los requisitos de planeación de capacidad.
   
 > [!NOTE]
 > En las cantidades de la tabla siguiente se presupone que usas archivos wave (.wav) mono de 16 bits a 16 kHz para todos los archivos de audio del grupo de respuesta. Si usas otros formatos de archivo, como audio de Windows Media (.wma), las cantidades pueden variar. 
@@ -200,9 +202,9 @@ En la tabla siguiente se describe el modelo de usuario de grupo de respuesta que
 > [!IMPORTANT]
 > Ten en cuenta que, para planificar la capacidad de la recuperación ante desastres, cada grupo de un grupo emparejado necesita poder gestionar las cargas de trabajo para todos los grupos de respuesta en ambos grupos. 
   
-**Modelo de grupo de respuesta de usuario**
+**Modelo de usuario de grupo de respuesta**
 
-|**Métrica**|**Por cada grupo de servidores Enterprise Edition <br/> (con 8 servidores frontales)**|**Por cada servidor Standard Edition**|
+|**Métrica**|**Por grupo de servidores Enterprise Edition <br/> (con 8 servidores Front-End)**|**Por servidor Standard Edition**|
 |:-----|:-----|:-----|
 |Llamadas entrantes por segundo  <br/> |16  <br/> |2  <br/> |
 |Llamadas simultáneas conectadas a IVR o a la música en espera  <br/> |480  <br/> |60  <br/> |

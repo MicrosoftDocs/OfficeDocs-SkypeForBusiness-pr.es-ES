@@ -7,30 +7,32 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
-description: Habilitar a usuarios para retener llamadas en Skype para Telefonía IP empresarial de Business Server.
-ms.openlocfilehash: 3af13e59541799a75c58f6e796bf07e7a978065e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Habilitar a los usuarios para el estacionamiento de llamadas en Skype para Business Server Enterprise Voice.
+ms.openlocfilehash: b93a9393a095a4860bfd8f392f95d834dad6fa71
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business-2015"></a>Habilitar el estacionamiento de llamadas para los usuarios en Skype Empresarial 2015
  
-Habilitar a usuarios para retener llamadas en Skype para Telefonía IP empresarial de Business Server.
+Habilitar a los usuarios para el estacionamiento de llamadas en Skype para Business Server Enterprise Voice.
   
-De forma predeterminada, llamada Park está deshabilitado para todos los usuarios. Los usuarios no pueden aparcar llamadas o recuperar llamadas aparcadas hasta que están habilitados para el parque de llamada en la directiva de voz.
+De forma predeterminada, el estacionamiento de llamadas está deshabilitado para todos los usuarios. Los usuarios no se pueden estacionar llamadas ni recuperar llamadas estacionadas mientras estén habilitados para estacionamiento de llamadas en la directiva de voz.
   
-Puede habilitar la llamada Park en el ámbito global o en el ámbito del sitio o ámbito de usuario. El ámbito de usuario tiene prioridad sobre el ámbito de sitio y el ámbito de sitio tiene prioridad sobre el ámbito global. Si dispone de varias directivas de voz, revise todas las directivas para habilitar llamada Park, no sólo la directiva global.
+Puede habilitar estacionamiento de llamadas en el ámbito global o en el ámbito de sitio o el ámbito de usuario. El ámbito de usuario tiene prioridad sobre el ámbito de sitio y el ámbito de sitio tiene prioridad sobre el ámbito global. Si tiene varias directivas de voz, revise todas las directivas para habilitar estacionamiento de llamadas, no sólo la directiva global.
   
-### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>Usar Skype para Panel de Control de servidor empresarial para habilitar llamada Park para los usuarios
+### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>Usar Skype para el Panel de Control de servidor empresarial para habilitar estacionamiento de llamadas para los usuarios
 
 1. Inicie sesión en el equipo como miembro del grupo **RTCUniversalServerAdmins** o bien como miembro del rol administrativo **CsVoiceAdministrator**, **CsServerAdministrator** o **CsAdministrator**.
     
-2. Abre Skype para Panel de Control del servidor de empresa.
+2. Abra Skype para el Panel de Control de servidor empresarial.
     
 3. En la barra de navegación izquierda, haga clic en **Enrutamiento de voz**.
     
@@ -42,7 +44,7 @@ Puede habilitar la llamada Park en el ámbito global o en el ámbito del sitio o
     
 7. Haga clic en **Aceptar** para guardar la directiva de voz.
     
-### <a name="to-use-cmdlets-to-enable-call-park-for-users"></a>Para usar Cmdlets para habilitar la llamada en espera para los usuarios
+### <a name="to-use-cmdlets-to-enable-call-park-for-users"></a>Para usar Cmdlets para habilitar estacionamiento de llamadas para los usuarios
 
 1. Inicie sesión en el equipo como un miembro del grupo RTCUniversalServerAdmins o bien, como un miembro del rol administrativo CsVoiceAdministrator, CsServerAdministrator o CsAdministrator.
     
@@ -54,7 +56,7 @@ Puede habilitar la llamada Park en el ámbito global o en el ámbito del sitio o
    Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
    ```
 
-    Por ejemplo, para habilitar el parque de llamada para la directiva predeterminada de voz global:
+    Por ejemplo, para habilitar estacionamiento de llamadas para la directiva de voz global predeterminada:
     
    ```
    Set-CsVoicePolicy -EnableCallPark $true
@@ -64,5 +66,5 @@ Puede habilitar la llamada Park en el ámbito global o en el ámbito del sitio o
 
 #### 
 
-[Crear o modificar una directiva de voz y configurar registros de uso PSTN en Skype para negocios 2015](voice-policy-and-pstn-usage-records.md)
+[Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para profesionales de 2015](voice-policy-and-pstn-usage-records.md)
 

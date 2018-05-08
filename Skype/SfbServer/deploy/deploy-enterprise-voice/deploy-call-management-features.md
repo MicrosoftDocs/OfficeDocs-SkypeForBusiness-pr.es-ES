@@ -7,40 +7,42 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
-description: Implementación de características de administración de llamadas de Skype para Telefonía IP empresarial de Business Server.
-ms.openlocfilehash: c267a41fc55e5584051a8c6accfd0c145871ec65
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Implementación de características de administración de llamadas de Skype para Business Server Enterprise Voice.
+ms.openlocfilehash: 181c8e983416c91e6847869786170ad2f73c8728
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="deploy-call-management-features-in-skype-for-business-2015"></a>Implementar características de administración de llamadas de Skype Empresarial 2015
  
-Implementación de características de administración de llamadas de Skype para Telefonía IP empresarial de Business Server.
+Implementación de características de administración de llamadas de Skype para Business Server Enterprise Voice.
   
-Cómo llamadas entrantes de control de características de administración de llamadas de Telefonía IP empresarial son enrutados y responden. Skype para Business Server proporciona características de administración de la siguiente llamada: 
+Llamada de Enterprise Voice las características de administración controlan cómo las llamadas entrantes se enrutan y se responde. Skype para Business Server proporciona características de administración de la siguiente llamada: 
   
-- **Parque de llamada**: permite a los usuarios de voz Aparque temporalmente una llamada y recoger a continuación desde el mismo teléfono u otro teléfono.
+- **Estacionamiento de llamadas**: permite a los usuarios de voz estacionar temporalmente una llamada y recuperarla desde el mismo teléfono o a otro teléfono.
     
-- **Recogida de llamar a grupo**: permite a los usuarios responder a las llamadas realizadas a otro usuario que está asignado a un grupo de recogida marcando el número del grupo de recogida de llamada.
+- **Recogida de llamadas de grupo**: permite a los usuarios responder a las llamadas realizadas a otro usuario que se asigna a un grupo pickup marcando el número de llamada de grupo pickup.
     
-- **Grupo de respuesta**: las llamadas entrantes a los grupos de agentes utilizando rutas de captura grupos o preguntas de voz interactiva (IVR) de respuesta y las respuestas.
+- **Grupo de respuesta**: enruta las llamadas entrantes a grupos de agentes mediante el uso de grupos y respuestas o preguntas de voz interactiva (IVR) de respuesta de búsqueda.
     
 - **Anuncio**: reproduce un mensaje para las llamadas realizadas a un número no asignado, redirige la llamada a otro lugar, o realiza ambas acciones.
     
-Esta sección describe cómo configurar estas características de administración de llamadas durante una implementación de Telefonía IP empresarial.
+En esta sección se describe cómo configurar estas características de administración de llamadas durante la implementación de Enterprise Voice.
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Proceso de implementación para el parque de llamada en Skype para negocios 2015](deployment-process-for-call-park.md)
+- [Proceso de implementación de estacionamiento de llamadas en Skype para profesionales de 2015](deployment-process-for-call-park.md)
     
 - [Deployment process for Group Call Pickup in Skype for Business 2015](deployment-process-for-group-call-pickup.md)
     
-- [Proceso de implementación de grupo de respuesta en Skype para negocios 2015](deployment-process-for-response-group.md)
+- [Proceso de implementación de grupo de respuesta en Skype para profesionales de 2015](deployment-process-for-response-group.md)
     
 - [Proceso de implementación de la aplicación de anuncio en Skype para Business Server 2015](deployment-process-for-the-announcement-application.md)
     

@@ -7,39 +7,41 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
-description: Crear o modificar una cola del grupo de respuesta, en Skype para Telefonía IP empresarial de Business Server.
-ms.openlocfilehash: a5b76fd8003fcdd4152f57404b14271c4eaa8ef8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Crear o modificar una cola de grupo de respuesta, en Skype para Business Server Enterprise Voice.
+ms.openlocfilehash: 5ff696de582a1d0238e9b67bbe0b53affb33ffd2
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business-2015"></a>Crear o modificar una cola en Skype Empresarial 2015
  
-Crear o modificar una cola del grupo de respuesta, en Skype para Telefonía IP empresarial de Business Server.
+Crear o modificar una cola de grupo de respuesta, en Skype para Business Server Enterprise Voice.
   
 Las colas contienen autores de la llamada hasta que un agente atiende la llamada. Cuando la aplicación de grupo de respuesta busca un agente disponible, busca grupos de agentes en el orden en que éstos se enumeran. Puede seleccionar los grupos de agentes asignados a la cola y especificar el comportamiento de la cola, como el límite de número de llamadas que puede contener la cola y cuánto tiempo debe esperar una llamada hasta que un agente la responda.
   
 Use uno de los procedimientos siguientes para crear o modificar una cola.
   
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>Usar Skype para Business Server Control Panel para crear o modificar una cola
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>Usar Skype para el Panel de Control de servidor empresarial para crear o modificar una cola
 
 1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins o como miembro de uno de los roles administrativos predefinidos que admiten el Grupo de respuesta.
     
     > [!NOTE]
     > Si es uno de los administradores delegados del grupo de respuesta de un flujo de trabajo administrado, puede crear o modificar colas de grupo de respuesta y asignarlas a los flujos de trabajo que administre. 
   
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de Admin para abrir el Skype para Panel de Control de servidor empresarial.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.  
     
 3. En la barra de navegación izquierda, haga clic en **Grupos de respuesta** y luego en **Cola**.
     
 4. En la página **Cola**, lleve a cabo alguna de estas acciones:
     
-   - Para crear una cola nueva, haga clic en **Nuevo**. En **Seleccione un servicio**, escriba parte o todo el nombre del servicio **ApplicationServer** donde desea agregar la cola en el campo de búsqueda. En la lista de servicios que aparezca, haga clic en el servicio que desea y en **Aceptar**.
+   - Para crear una cola nueva, haga clic en **Nuevo**. En **Seleccionar un servicio**, escriba parte o todo el nombre del servicio **ApplicationServer** donde desea agregar la cola en el campo de búsqueda. En la lista de servicios que aparezca, haga clic en el servicio que desea y en **Aceptar**.
     
    - Para modificar una cola actual, escriba total o parcialmente el nombre de la cola en el campo de búsqueda. En la lista de colas que aparezca, haga clic sucesivamente en la cola que desea, **Editar** y **Mostrar detalles**.
     
@@ -66,11 +68,11 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
     
      - Para desconectar la llamada una vez transcurrido el tiempo de espera, haga clic en **Desconectar**.
     
-     - Para reenviar la llamada al correo de voz, haga clic en **Reenviar correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una dirección de correo de voz en el formato sip: _ \<nombre de usuario\>_@ _\<domainname\> _ (para ejemplo, sip:bob@contoso.com).
+     - Para reenviar la llamada al correo de voz, haga clic en **desviar a correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una dirección de correo de voz con el formato sip: _ \<nombre de usuario\>_@ _\<domainname\> _ (para ejemplo, sip:bob@contoso.com).
     
-     - Para reenviar la llamada a otro número de teléfono, haga clic en **Reenviar al número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba el número de teléfono en el formato sip: _ \<número\>_@ _\<\>_ (por ejemplo, sip:+14255550121@contoso.com).
+     - Para reenviar la llamada a otro número de teléfono, haga clic en **desviar a número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba el número de teléfono en el formato sip: _ \<número\>_@ _\<domainname\>_ (por ejemplo, sip:+14255550121@contoso.com).
     
-     - Para reenviar la llamada a otro usuario, haga clic en **Reenviar a la dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el identificador URI para el usuario en el formato sip: _ \<nombre de usuario\>_@ _\<domainname\>_.
+     - Para reenviar la llamada a otro usuario, haga clic en **Reenviar a dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el URI del usuario en el formato sip: _ \<nombre de usuario\>_@ _\<domainname\>_.
     
      - Para reenviar la llamada a otra cola, haga clic en **Desviar a otra cola** y busque la cola que desea usar.
     
@@ -84,17 +86,17 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
     
      - Para desconectar la llamada una vez transcurrido el tiempo de espera, haga clic en **Desconectar**.
     
-     - Para reenviar la llamada al correo de voz, haga clic en **Reenviar correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una dirección de correo de voz en el formato sip: _ \<nombre de usuario\>_@ _\<domainname\> _ (para ejemplo, sip:bob@contoso.com).
+     - Para reenviar la llamada al correo de voz, haga clic en **desviar a correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una dirección de correo de voz con el formato sip: _ \<nombre de usuario\>_@ _\<domainname\> _ (para ejemplo, sip:bob@contoso.com).
     
-     - Para reenviar la llamada a otro número de teléfono, haga clic en **Reenviar al número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba el número de teléfono en el formato sip: _ \<número\>_@ _\<\>_ (por ejemplo, sip:+14255550121@contoso.com).
+     - Para reenviar la llamada a otro número de teléfono, haga clic en **desviar a número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba el número de teléfono en el formato sip: _ \<número\>_@ _\<domainname\>_ (por ejemplo, sip:+14255550121@contoso.com).
     
-     - Para reenviar la llamada a otro usuario, haga clic en **Reenviar a la dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el identificador URI para el usuario en el formato sip: _ \<nombre de usuario\>_@ _\<domainname\>_.
+     - Para reenviar la llamada a otro usuario, haga clic en **Reenviar a dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el URI del usuario en el formato sip: _ \<nombre de usuario\>_@ _\<domainname\>_.
     
      - Para reenviar la llamada a otra cola, haga clic en **Desviar a otra cola** y busque la cola que desea usar.
     
 10. Haga clic en **Confirmar**.
     
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>Usar Skype para negocios de Shell de administración de servidor para crear o modificar una cola
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>Usar Skype para Shell de administración de servidor empresarial para crear o modificar una cola
 
 1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins o como miembro de uno de los roles administrativos predefinidos que admiten el Grupo de respuesta.
     
@@ -116,7 +118,7 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
    ```
 
    > [!NOTE]
-   > Para utilizar un archivo de audio para el símbolo del sistema, use el cmdlet **Import-CsRgsAudioFile** . Para obtener más información, consulte [CsRgsAudioFile de importación](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
+   > Para usar un archivo de audio para el símbolo del sistema, use el cmdlet **Import-CsRgsAudioFile** . Para obtener información detallada, vea [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 4. Defina la acción que debe realizarse cuando se alcance el umbral de tiempo de espera de la cola y guárdela en una variable. En la línea de comandos ejecute:
     
@@ -125,7 +127,7 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
    ```
 
    > [!NOTE]
-   > Para obtener más información acerca de posibles acciones y su sintaxis, consulte [CsRgsCallAction de nuevo](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
+   > Para obtener información detallada acerca de las posibles acciones y su sintaxis, consulte [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
   
     Por ejemplo:
     
@@ -146,7 +148,7 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
   ```
 
       > [!NOTE]
-      > Para utilizar un archivo de audio para el símbolo del sistema, use el cmdlet **Import-CsRgsAudioFile** . Para obtener más información, consulte [CsRgsAudioFile de importación](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
+      > Para usar un archivo de audio para el símbolo del sistema, use el cmdlet **Import-CsRgsAudioFile** . Para obtener información detallada, vea [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 6. Defina la acción que debe realizarse cuando se alcance el umbral de desbordamiento de la cola y guárdela en una variable. En la línea de comandos ejecute:
     
@@ -155,7 +157,7 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
   ```
 
     > [!NOTE]
-    > Para obtener más información acerca de posibles acciones y su sintaxis, consulte [CsRgsCallAction de nuevo](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
+    > Para obtener información detallada acerca de las posibles acciones y su sintaxis, consulte [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
   
     Por ejemplo:
     
@@ -176,7 +178,7 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
    ```
 
     > [!NOTE]
-    > Para obtener más información acerca de cómo crear el grupo de agentes, vea [New-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
+    > Para obtener información detallada acerca de cómo crear el grupo de agentes, vea [New-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
   
 9. Cree la cola. En la línea de comandos, ejecute:
     
@@ -200,17 +202,17 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
 
 #### 
 
-[Nueva CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
+[New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
   
-[Conjunto de CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/set-csrgsqueue?view=skype-ps)
+[Set-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/set-csrgsqueue?view=skype-ps)
   
-[Nueva CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
+[New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
   
-[Nueva CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
+[New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
   
 [Get-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/get-csrgsqueue?view=skype-ps)
   
-[CsRgsAudioFile de importación](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
   
-[Quitar CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/remove-csrgsqueue?view=skype-ps)
+[Remove-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/remove-csrgsqueue?view=skype-ps)
 

@@ -7,35 +7,37 @@ ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
-description: Lea este tema para aprender a planear las políticas de ubicación para una implementación de los servicios de emergencia mejorada (E9-1-1) en Skype para Telefonía IP empresarial de Business Server.
-ms.openlocfilehash: 246a4bcddece986d9488c5e2bccbbece5f1a2cc9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Lea este tema para aprender a planear las directivas de ubicación para una implementación de servicios de emergencia mejorado (E9-1-1) en Skype para Business Server Enterprise Voice.
+ms.openlocfilehash: 013eeea9858910c6ef94c928f92c42a742908355
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-location-policies-for-skype-for-business-server-2015"></a>Planificar directivas de ubicación para Skype Empresarial Server 2015
  
-Lea este tema para aprender a planear las políticas de ubicación para una implementación de los servicios de emergencia mejorada (E9-1-1) en Skype para Telefonía IP empresarial de Business Server. 
+Lea este tema para aprender a planear las directivas de ubicación para una implementación de servicios de emergencia mejorado (E9-1-1) en Skype para Business Server Enterprise Voice. 
   
 > [!NOTE]
-> Skype para Business Server ahora admite la configuración de varios números de emergencia para un cliente. Si desea configurar varios números de emergencia, debe seguir la información en el [Plan para varios números de emergencia en Skype para Business Server 2015](multiple-emergency-numbers.md) y [configurar varios números de emergencia en Skype para negocios 2015](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md). 
+> Skype para Business Server ahora admite la configuración de varios números de emergencias para un cliente. Si desea configurar varios números de emergencias, debe seguir la información de [planeación para varios números de emergencias en Skype para Business Server 2015](multiple-emergency-numbers.md) y [configurar varios números de emergencias en Skype para profesionales de 2015](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md). 
   
-Puede crear directivas de ubicación utilizando el Skype para el Panel de Control del negocio o mediante el cmdlet [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) . Para obtener más información, vea [crear directivas de ubicación en Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/create-location-policies.md).
+Crear directivas de ubicación mediante el Skype para el Panel de Control o mediante el cmdlet [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) . Para obtener más información, vea [crear directivas de ubicación en Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/create-location-policies.md).
   
 Cada directiva de ubicación contiene la información siguiente:
   
  **Habilitar 9-1-1 mejorado**
   
-Si este valor se habilita, se habilita también al cliente para los servicios de emergencia mejorados (E9-1-1). Cuando un cliente se registra, intenta adquirir una ubicación desde el servicio de información de ubicación e incluirá la información de ubicación como parte de una llamada de emergencia.
+Si este valor se habilita, se habilita también al cliente para los servicios de emergencia mejorados (E9-1-1). Cuando se registra un cliente, intenta adquirir una ubicación del servicio de información de ubicación e incluirá la información de ubicación como parte de una llamada de emergencia.
   
  **Ubicación**
   
-Esta opción sólo se utiliza cuando se habilita **Habilitar Enhanced 9-1-1** .
+Esta configuración se usa sólo cuando está habilitado para **Habilitar Enhanced 9-1-1** .
   
 Puede configurar **Ubicación** para definir el comportamiento del cliente de la siguiente manera:   
   
@@ -50,25 +52,25 @@ Puede configurar **Ubicación** para definir el comportamiento del cliente de la
   
  **Declinación de responsabilidades del servicio de emergencia mejorado**
   
-En esta configuración se especifica la declinación de responsabilidad que los usuarios ven si rechazan la solicitud de una ubicación. En Skype para Business Server, puede utilizar Directiva de ubicación para establecer renuncias diferentes para distintas configuraciones regionales o conjuntos de usuarios diferentes.
+En esta configuración se especifica la declinación de responsabilidad que los usuarios ven si rechazan la solicitud de una ubicación. En Skype para Business Server, puede usar la directiva de ubicación para establecer la declinación de responsabilidades diferentes para distintas configuraciones regionales o distintos conjuntos de usuarios.
   
  **Cadena de marcado de emergencia (número de marcado de E9-1-1)**
   
-Esta cadena de marcado (menos el interlineado "+", pero incluyendo ninguna normalización realizada por Dial Plan el usuario) significa que la llamada es una llamada de emergencia. La **cadena de marcado de emergencia** implica que el cliente incluya la información de la devolución de llamadas y de la ubicación con la llamada.
+Esta cadena de marcado (menos el interlineado "+", pero incluido cualquier normalización hecha por el Plan de marcado para el usuario) significa que la llamada es una llamada de emergencia. La **cadena de marcado de emergencia** implica que el cliente incluya la información de la devolución de llamadas y de la ubicación con la llamada.
   
 > [!NOTE]
-> Si su organización no utiliza un prefijo de acceso a línea externa, no necesitará crear regla de normalización correspondiente Plan de marcado que agrega un signo "+" en la cadena 911 antes de enviar la llamada al enrutamiento de salida en un servidor que ejecuta Skype para Business Server; la voluntad de "+" se antepone automáticamente por el Skype para cliente de negocios como consecuencia de la política de ubicación. Sin embargo, si su sitio utiliza un prefijo de acceso externo, necesita agregar una regla de normalización a la directiva aplicable Dial Plan que elimina el prefijo de acceso externo y se agrega la "+". Por ejemplo, si su ubicación utiliza un prefijo de acceso externo de 9 y un usuario marca 9 911 para realizar una llamada de emergencia, el cliente utilizará su directiva Plan de acceso telefónico para normalizar esto a +911 antes de la se evalúa el número marcado por las rutas de perfil de la ubicación del llamador. 
+> Si su organización no utiliza un prefijo de acceso a línea externa, no es necesario crear una Plan de marcado de normalización regla correspondiente que agrega un "+" a la cadena 911 antes de enviar la llamada para el enrutamiento saliente en un servidor que ejecuta Skype para Business Server; se eliminará mediante la "+" se antepone automáticamente por el Skype para clientes empresariales como consecuencia de la directiva de ubicación. Sin embargo, si el sitio usa un prefijo de acceso externo, debe agregar una regla de normalización a la directiva aplicable Plan de marcado que se elimina el prefijo de acceso externo y se agrega el "+". Por ejemplo, si su ubicación utiliza un prefijo de acceso externo de 9 y un usuario marca 9 911 para realizar una llamada de emergencia, el cliente usará su directiva de Plan de marcado para normalizar esto a +911 antes de la se evalúa el número marcado por las rutas en el perfil de ubicación del autor de la llamada. 
   
  **Máscaras de cadena de marcado de emergencia (número de marcado de E9-1-1)**
   
-Una separados por punto y coma lista de cadenas de marcado que se traduce en la **Cadena de marcado de emergencia**de especificada. Por ejemplo, es aconsejable agregar 112, que es el número de servicio de emergencia para la mayor parte de Europa. Un visitante Skype para usuarios de empresa en Europa puede desconocer 911 es el número de emergencia de Estados Unidos, pero pueden marcar 112 y obtener el mismo resultado. Como con la cadena de marcado de emergencia, no incluya un signo "+" antes de cada número, y si usa códigos de acceso a línea externa, asegúrese de que hay reglas de normalización en la directiva del usuario Dial Plan quitar los dígitos del código de acceso.
+Una separados por punto y coma lista de cadenas de marcado que se traduce en la **Cadena de marcado de emergencia**de especificada. Por ejemplo, es posible que desee agregar 112, que es el número de servicio de emergencia para la mayoría de Europa. Un visitante Skype para usuarios de empresa de Europa no puede saber que 911 es el número de emergencia de Estados Unidos, pero puede marcar 112 y obtener el mismo resultado. Como con la cadena de marcado de emergencia, no incluya un "+" delante de cada número y usar los códigos de acceso de línea externa, asegúrese de que hay reglas de normalización en la directiva de Plan de marcado del usuario para quitar desactiva el dígito del código de acceso.
   
  **Uso de RTC**
   
 El nombre del uso de RTC que contiene las rutas de acceso de enrutamiento que determinan a qué tronco SIP, a qué puerta de enlace RTC o a qué puerta de enlace ELIN se dirigen las llamadas de emergencia.
   
 > [!NOTE]
-> Solo se puede asignar un uso a una directiva de ubicación. Este uso de PSTN reemplaza los usos PSTN asignada a una directiva de voz del usuario, pero sólo se aplica a las llamadas efectuadas a la cadena de marcado de emergencia o a una de las máscaras de cadena de marcado de emergencia. 
+> Solo se puede asignar un uso a una directiva de ubicación. Este uso de RTC reemplaza los usos de RTC asignados a la directiva de voz del usuario, pero sólo se aplica a las llamadas realizadas a la cadena de marcado de emergencia o en una de las máscaras de cadena de marcado de emergencia. 
   
  **URI de notificación**
   
@@ -84,6 +86,6 @@ Especifica si el URI de conferencia se incluirá en la llamada de emergencia en 
   
  **Intervalo de actualización de la ubicación**
   
-Especifica la cantidad de tiempo (en horas) entre las solicitudes del cliente para una actualización de la ubicación del servicio de información de la ubicación. El valor puede ser cualquier número entre 1 y 12. El valor predeterminado es 4.
+Especifica la cantidad de tiempo (en horas) entre las solicitudes de cliente para una actualización de la ubicación del servicio de información de ubicación. El valor puede ser cualquier número entre 1 y 12. El valor predeterminado es 4.
   
 

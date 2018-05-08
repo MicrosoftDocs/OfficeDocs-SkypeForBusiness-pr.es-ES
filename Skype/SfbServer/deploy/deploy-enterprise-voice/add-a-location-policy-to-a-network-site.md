@@ -7,32 +7,34 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
-description: Asignar directivas de ubicación de E9-1-1 a los sitios de la red de Skype para Telefonía IP empresarial de Business Server.
-ms.openlocfilehash: bf2b8675ebaa14e98f8a362b3a0714037000de95
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Asignar directivas de ubicación de E9-1-1 a los sitios de red de Skype para Business Server Enterprise Voice.
+ms.openlocfilehash: 5d6b343db63a309661720a8379d204a0abcac1f5
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server-2015"></a>Agregar una directiva de ubicación a un sitio de red en Skype Empresarial Server 2015
  
-Asignar directivas de ubicación de E9-1-1 a los sitios de la red de Skype para Telefonía IP empresarial de Business Server. 
+Asignar directivas de ubicación de E9-1-1 a los sitios de red de Skype para Business Server Enterprise Voice. 
   
-Los ejemplos siguientes muestran cómo agregar la directiva de ubicación de **Redmond** definida en [las políticas de ubicación de crear en Skype para Business Server 2015](create-location-policies.md) a un sitio de red existente y cómo crear un nuevo sitio de red que utiliza la ubicación de **Redmond** Directiva.
+Los siguientes ejemplos muestran cómo agregar la directiva de ubicación de **Redmond** definida en [las directivas de ubicación de crear de Skype para Business Server 2015](create-location-policies.md) a un sitio de red existente y cómo crear un nuevo sitio de red que usa la ubicación de **Redmond** Directiva.
   
-Para obtener más información acerca de cómo trabajar con sitios de red, consulte la documentación de Shell de administración de Lync Server para los siguientes cmdlets:
+Para obtener información detallada sobre cómo trabajar con sitios de red, consulte la documentación del Shell de administración de Lync Server para los cmdlets siguientes:
   
-- **Nueva CsNetworkSite**
+- **New-CsNetworkSite**
     
 - **Get-CsNetworkSite**
     
-- **Conjunto de CsNetworkSite**
+- **Set-CsNetworkSite**
     
-- **Quitar CsNetworkSite**
+- **Remove-CsNetworkSite**
     
 ### <a name="to-assign-a-location-policy-to-an-existing-network-site"></a>Para asignar una directiva de ubicación a un sitio de red existente
 

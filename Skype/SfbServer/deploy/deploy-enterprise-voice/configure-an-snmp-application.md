@@ -7,24 +7,26 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
-description: Configurar una aplicación SNMP para E9-1-1 en Skype para Telefonía IP empresarial de Business Server.
-ms.openlocfilehash: 5c10d00e05979c2a3e0efff015da61e5ff2c6ee9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Configurar una aplicación SNMP para que funcione con E9-1-1 en Skype para Business Server Enterprise Voice.
+ms.openlocfilehash: 4d864d8617f679867e514f3cc74ae4fe0201a989
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="configure-an-snmp-application-in-skype-for-business-server-2015"></a>Configurar una aplicación SNMP en Skype Empresarial Server 2015
  
-Configurar una aplicación SNMP para E9-1-1 en Skype para Telefonía IP empresarial de Business Server. 
+Configurar una aplicación SNMP para que funcione con E9-1-1 en Skype para Business Server Enterprise Voice. 
   
-Skype para Business Server incluye una interfaz de servicios web estándar que puede utilizar para conectar el servicio de información de ubicación a las aplicaciones de Simple Network Management Protocol (SNMP) que coincidan con las direcciones MAC con puerto y cambie la información. 
+Skype para Business Server incluye una interfaz de servicio web estándar que puede usar para conectar el servicio de información de ubicación para las aplicaciones de Protocolo Simple de administración de redes (SNMP) que coincidan con las direcciones MAC con puerto e información de conmutadores. 
   
-Si se instala una aplicación SNMP y se produce un error en el servicio de información de ubicación encontrar a una coincidencia en la base de datos de ubicación, el servicio de información de ubicación consulta automáticamente la aplicación mediante la dirección MAC proporcionada por el cliente. El servicio de información de ubicación, a continuación, utiliza la información de puerto y switch devuelve la aplicación SNMP para volver a consultar la base de datos de ubicación.
+Si se instala una aplicación SNMP y se produce un error en el servicio de información de ubicación buscar a una coincidencia en la base de datos de ubicación, el servicio de información de ubicación consulta automáticamente la aplicación mediante el uso de la dirección MAC proporcionada por el cliente. El servicio de información de ubicación, a continuación, utiliza la información de puerto y el modificador devuelta por la aplicación SNMP para volver a consultar la base de datos de ubicación.
   
 > [!NOTE]
 > Las direcciones MAC no están disponibles en equipos que ejecutan Windows 8. 
@@ -43,5 +45,5 @@ Si se instala una aplicación SNMP y se produce un error en el servicio de infor
 
 #### 
 
-[Conjunto de CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
+[Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
 

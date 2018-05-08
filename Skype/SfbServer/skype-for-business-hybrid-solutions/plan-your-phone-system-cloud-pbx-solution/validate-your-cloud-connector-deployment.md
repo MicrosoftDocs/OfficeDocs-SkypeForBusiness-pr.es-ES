@@ -7,19 +7,21 @@ ms.date: 3/2/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 30b6be15-77fa-43b0-b558-87b9724feb35
-description: Después de completar los pasos necesarios para implementar y configurar Skype para conector de nube Business Edition, compruebe que puede realizar y recibir llamadas.
-ms.openlocfilehash: 59eac4dc704c27c86a7d1160b710a0876fcd18aa
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Una vez haya completado los pasos para implementar y configurar Skype para Business Edition de conector en la nube, compruebe que puede realizar y recibir llamadas.
+ms.openlocfilehash: a94c8d0e6b086e7c0b0478295fd4e061fc52b003
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="validate-your-cloud-connector-deployment"></a>Validación de la implementación de Cloud Connector
  
-Después de completar los pasos necesarios para implementar y configurar Skype para conector de nube Business Edition, compruebe que puede realizar y recibir llamadas.
+Una vez haya completado los pasos para implementar y configurar Skype para Business Edition de conector en la nube, compruebe que puede realizar y recibir llamadas.
   
 ## <a name="validate-the-deployment"></a>Validar la implementación
 

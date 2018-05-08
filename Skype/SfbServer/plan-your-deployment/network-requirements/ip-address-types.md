@@ -7,26 +7,28 @@ ms.date: 7/22/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
-description: 'Resumen: Revisar las consideraciones de tipo de dirección IP a continuación antes de implementar Skype para Business Server 2015.'
-ms.openlocfilehash: facfff432cfcde74af737b5a7c5db87d36f3eb41
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Revise las consideraciones de tipo de dirección IP a continuación antes de implementar Skype para Business Server 2015.'
+ms.openlocfilehash: d94995e75ecbb4df973a01ebfa5f00ed91575c19
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Configurar tipos de dirección IP en Skype Empresarial
  
-**Resumen:** Revisar las consideraciones de tipo de dirección IP a continuación antes de implementar Skype para Business Server 2015.
+**Resumen:** Revise las consideraciones de tipo de dirección IP a continuación antes de implementar Skype para Business Server 2015.
   
-Implementar tipos de direcciones IP mediante la configuración de la topología que se configura en el generador de topología. En esta sección se describe cómo implementar tipos de direcciones IP en los servidores frontales, los servidores de mediación y servidores perimetrales.
+Implementar tipos de direcciones IP mediante el uso de la configuración de la topología que configurar en el generador de topología. En esta sección se describe cómo implementar tipos de direcciones IP en servidores Front-End, servidores de mediación y servidores perimetrales.
   
 ## <a name="deploy-ip-address-types-on-a-front-end-server"></a>Implementar tipos de direcciones IP en un servidor front-end
 
-Con el generador de topología, realice los pasos del procedimiento siguiente para implementar tipos de direcciones IP en un servidor Front-End.
+Con el generador, realice los pasos del siguiente procedimiento para implementar tipos de direcciones IP en un servidor Front-End.
   
 ### <a name="to-deploy-ip-address-types-on-a-front-end-server"></a>Para implementar los tipos de direcciones IP en un servidor front-end
 
@@ -34,7 +36,7 @@ Con el generador de topología, realice los pasos del procedimiento siguiente pa
     
 2. En el cuadro de diálogo **Editar propiedades**, seleccione el tipo de dirección IP que desea configurar. Para establecer una configuración de doble pila, seleccione **Habilitar IPv4** y **Habilitar IPv6**, como se muestra en la figura siguiente.
     
-   **Editar el cuadro de diálogo Propiedades para el grupo de servidor Front-End**
+   **Editar el cuadro de diálogo de propiedades para el grupo de servidor Front-End**
 
   - **Usar todas las direcciones IP configuradas**. Seleccione esta opción si desea que se usen todas las direcciones IP definidas en el equipo. 
     
@@ -48,19 +50,19 @@ Con el generador de topología, realice los pasos del procedimiento siguiente pa
   - **Dirección IP de RTC**. Defina una dirección IP para la RTC cuando asigne un servidor de mediación en el servidor front-end. Esta dirección necesita coincidir con el formato del tipo de dirección seleccionado.
     
     > [!NOTE]
-    > No se admite la instalación de tarjetas de interfaz de red adicionales (NIC) para admitir la configuración de direcciones IP PSTN en servidores frontales. Para obtener más información acerca de configuraciones compatibles de NIC para Skype para Business Server, vea [plataformas de hardware de servidor para Lync Server 2013](http://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx). 
+    > No se admite la instalación de tarjetas de interfaz de red adicionales (NIC) para admitir la configuración de direcciones IP PSTN en servidores Front-End. Para obtener más información acerca de configuraciones compatibles de NIC de Skype para Business Server, vea [plataformas de hardware de servidor para Lync Server 2013](http://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx). 
   
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>Implementar tipos de dirección IP en un servidor de mediación
 
-Con el generador de topología, realice los pasos del procedimiento siguiente para implementar tipos de direcciones IP en un servidor de mediación.
+Con el generador, realice los pasos del siguiente procedimiento para implementar tipos de direcciones IP en un servidor de mediación.
   
 ### <a name="to-deploy-ip-address-types-on-a-mediation-server"></a>Para implementar tipos de direcciones IP en un servidor de mediación
 
-- Generador de topología, en **grupos de mediación**, (ratón) en el servidor dentro de un grupo y, a continuación, seleccione **Editar propiedades**. (Como alternativa, seleccione el servidor y, a continuación, haga clic en **Editar propiedades** en el menú **acción** .)
+- En Topology Builder, en **grupos de servidores de mediación**, haga clic en el servidor dentro de un grupo de servidores y, a continuación, seleccione **Editar propiedades**. (Como alternativa, seleccione el servidor y, a continuación, haga clic en **Editar propiedades** en el menú **acción** ).
     
 - En el cuadro de diálogo **Editar propiedades**, seleccione el tipo de dirección IP que desea configurar. Para establecer una configuración de doble pila, seleccione **Habilitar IPv4** y **Habilitar IPv6**, como se muestra en la figura siguiente.
     
-   **Editar el cuadro de diálogo Propiedades para el grupo de servidor de mediación**
+   **Editar el cuadro de diálogo de propiedades para el grupo de servidores de mediación**
 
   - **Usar todas las direcciones IP configuradas**. Seleccione esta opción si desea que se usen todas las direcciones IP definidas en el equipo. 
     
@@ -74,21 +76,21 @@ Con el generador de topología, realice los pasos del procedimiento siguiente pa
   - **Dirección IP de RTC**. Defina una dirección IP para la RTC cuando asigne un servidor de mediación en el servidor front-end. Esta dirección necesita coincidir con el formato del tipo de dirección seleccionado.
     
     > [!NOTE]
-    > No se admite la instalación de NIC adicionales para admitir la configuración de direcciones IP PSTN en servidores independientes de mediación. Para obtener más información acerca de configuraciones compatibles de NIC para Skype para Business Server, vea [plataformas de hardware de servidor para Lync Server 2013](http://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx). 
+    > No se admite la instalación de NIC adicionales para admitir la configuración de direcciones IP PSTN en los servidores de mediación independiente. Para obtener más información acerca de configuraciones compatibles de NIC de Skype para Business Server, vea [plataformas de hardware de servidor para Lync Server 2013](http://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx). 
   
 ## <a name="deploy-ip-address-types-on-a-edge-server"></a>Implementar tipos de dirección IP en un servidor perimetral
 
-Con el generador de topología, realice los pasos del procedimiento siguiente para implementar tipos de direcciones IP en un servidor perimetral.
+Con el generador, realice los pasos del siguiente procedimiento para implementar tipos de direcciones IP en un servidor perimetral.
   
 ### <a name="to-deploy-ip-address-types-on-an-edge-server"></a>Para implementar tipos de direcciones IP en un servidor perimetral
 
-1. Generador de topología, en **grupos de borde**, (ratón) en el servidor dentro de un grupo y, a continuación, seleccione **Editar propiedades**. (Como alternativa, seleccione el servidor y, a continuación, haga clic en **Editar propiedades** en el menú **acción** .)
+1. En Topology Builder, en **grupos de servidores perimetrales**, haga clic en el servidor dentro de un grupo de servidores y, a continuación, seleccione **Editar propiedades**. (Como alternativa, seleccione el servidor y, a continuación, haga clic en **Editar propiedades** en el menú **acción** ).
     
 2. En la ventana **Editar propiedades**, seleccione la configuración de dirección IP que quiera admitir. En las siguientes figuras se muestra una configuración de pila dual para la interfaz interna y la interfaz externa.
     
-   **Doble interfaz interna del servidor perimetral de apilada**
+   **Dual apilada interfaz interna del servidor perimetral**
 
-   **Apiladas servidor perimetral externo interfaz dual**
+   **Dual apilada interfaz externa del servidor perimetral**
 
 3. Es preciso proporcionar las direcciones internas y externas apropiadas para cada tipo de dirección que seleccione.
     

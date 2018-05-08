@@ -7,38 +7,40 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
-description: Aprenda a admitir resistencia de voz de Skype para Business Server Telefonía IP empresarial, en los sitios centrales y sitios de sucursales. Opciones de sitio de sucursal incluyen implementar que sobreviven de rama de dispositivos o servidores de sucursal que sobreviven.
-ms.openlocfilehash: 4303df46b7430ec8a7e3891baec7f9ff99d85480
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+description: Obtenga información sobre cómo admitir la resistencia de voz en Skype para Business Server Enterprise Voice, en sitios centrales y sitios de sucursal. Opciones de sitio de sucursal incluyen implementar aplicaciones de sucursal con funciones de supervivencia o servidores de sucursal con funciones de supervivencia.
+ms.openlocfilehash: f5497c31e407d5d03564ab7caf7a0b8c8d4e0914
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server-2015"></a>Planificar la resistencia de la Telefonía IP en Skype Empresarial Server 2015
  
-Aprenda a admitir resistencia de voz de Skype para Business Server Telefonía IP empresarial, en los sitios centrales y sitios de sucursales. Opciones de sitio de sucursal incluyen implementar que sobreviven de rama de dispositivos o servidores de sucursal que sobreviven.
+Obtenga información sobre cómo admitir la resistencia de voz en Skype para Business Server Enterprise Voice, en sitios centrales y sitios de sucursal. Opciones de sitio de sucursal incluyen implementar aplicaciones de sucursal con funciones de supervivencia o servidores de sucursal con funciones de supervivencia.
   
-Resistencia de voz se refiere a la capacidad de los usuarios para seguir realizar y recibir llamadas si un sitio central que hosts Skype para Business Server no está disponible, ya sea a través de un área extensa red falla (WAN) o a otra causa. Si se produce un error en un sitio central, el servicio de Telefonía IP empresarial debe continuar sin interrupciones mediante un failover transparente a un sitio de backup. En caso de error de la WAN, llamadas de sitio de sucursal deben redirigirse a una puerta de enlace PSTN local. Esta sección analiza los planes de resistencia de voz en caso de fallo del sitio central o WAN.
+Resistencia de voz hace referencia a la capacidad de los usuarios para continuar realizar y recibir llamadas si un sitio central que hosts Skype para Business Server deja de estar disponible, ya sea a través de un área extensa (WAN) error u otra causa de red. Si se produce un error en un sitio central, servicio de Enterprise Voice debe seguir ininterrumpido a través de la conmutación por error transparente a un sitio de copia de seguridad. En caso de error de WAN, se deben redirigir las llamadas del sitio de sucursal a una puerta de enlace de RTC local. En esta sección se describe la planeación para la resistencia de voz en caso de fallo del sitio central o WAN.
   
-## <a name="central-site-resiliency"></a>Resiliencia del sitio central
+## <a name="central-site-resiliency"></a>Resistencia del sitio central
 
-Cada vez más, las empresas tienen varios sitios repartidos por todo el mundo. Mantenimiento de los servicios de emergencia, acceso al servicio de asistencia y la capacidad para realizar tareas empresariales críticas cuando un sitio central está fuera de servicio es esencial para cualquier solución de resistencia de la Telefonía IP empresarial. Cuando un sitio central no está disponible, se deben cumplir las siguientes condiciones:
+Cada vez más, las empresas tienen varios sitios dispersos por todo el mundo. Mantenimiento de los servicios de emergencia, acceso al servicio de asistencia y la capacidad de llevar a cabo las tareas críticas del negocio cuando un sitio central está fuera de servicio es esencial para cualquier solución de resistencia de Enterprise Voice. Cuando un sitio central deja de estar disponible, deben cumplirse las siguientes condiciones:
   
-- Se debe proporcionar failover de voz.
+- Se debe proporcionar conmutación por error de voz.
     
-- Los usuarios que normalmente se registran con el grupo de Front-End en el sitio central deben ser capaces de registrar con un grupo de servidores frontales alternativo. Esto puede hacerse mediante la creación de SRV de DNS varios registros, cada uno de los cuales se resuelve en un grupo de directores o grupo de servidores Front-End en cada uno de los sitios centrales. Puede ajustar la prioridad y el peso de los registros SRV para que los usuarios que son atendidos por ese sitio central obtendrán el grupo correspondiente de Director y Front-End por delante de las de otros registros SRV.
+- Los usuarios que normalmente registrar con el grupo de servidores Front-End en el sitio central deben poder registrar con un grupo de servidores Front-End alternativo. Esto puede realizarse mediante la creación de registros, cada uno de los cuales se resuelve en un grupo de directores o grupo de servidores Front-End en cada uno de los sitios centrales de varios SRV de DNS. Puede ajustar la prioridad y el peso de los registros SRV para que los usuarios que presta servicio ese sitio central obtendrán el grupo de servidores Front-End y Director correspondiente por delante de las de otros registros SRV.
     
-- Llamadas a y desde los usuarios ubicados en otros sitios deben enrutarse de nuevo a la RTC.
+- Las llamadas a y desde usuarios ubicados en otros sitios deben enrutarse de nuevo a la RTC.
     
-Este tema describe la solución recomendada para proteger la resistencia de voz del sitio central.
+En este tema se describe la solución recomendada para garantizar la resistencia de voz del sitio central.
   
 ### <a name="architecture-and-topology"></a>Arquitectura y topología
 
-Planear la resistencia de voz en un sitio central, requiere un conocimiento básico de la función central desempeñada por el Skype para Business Server Registrar para habilitar la conmutación por error de voz. El Skype para Registrar servidor de negocios es un servicio que permite la autenticación y el registro de cliente y proporciona servicios de enrutamiento. Se ejecuta en todos los servidor Standard Edition, servidor Front-End, Director o dispositivo que sobreviven de rama. Un grupo de registrador consiste en Registrar servicios ejecutándose en el grupo de servidores Front-End y que residen en el mismo sitio. Un Skype para Business client descubre el grupo de servidores Front-End mediante el mecanismo de descubrimiento siguientes: 
+Planeación de resistencia de voz en un sitio central requiere un conocimiento básico de la función central reproducido el Skype para Business Server registrador en la habilitación de la conmutación por error de voz. El Skype para el registrador de servidor empresarial es un servicio que permite la autenticación y el registro de cliente y proporciona servicios de enrutamiento. Se ejecuta en todos los servidores Standard Edition, servidor Front-End, Director o aplicación de sucursal con funciones de supervivencia. Un grupo de registrador formado por servicios de registrador que se ejecutan en el grupo de servidores Front-End y que residen en el mismo sitio. Un Skype para clientes empresariales detecta el grupo de servidores Front-End mediante el mecanismo de detección siguiente: 
   
 1. Registro SRV de DNS
     
@@ -46,343 +48,343 @@ Planear la resistencia de voz en un sitio central, requiere un conocimiento bás
     
 3. Opción DHCP 120
     
-Una vez el Skype para Business client se conecta al grupo de Front-End, está dirigida por el equilibrador de carga a uno de los servidores frontales en el grupo. Ese servidor Front-End, a su vez, redirige al cliente a un registrador preferido del grupo.
+Después de la Skype para clientes empresariales se conecta al grupo de servidores Front-End, se dirige por el equilibrador de carga a uno de los servidores Front-End del grupo de servidores. Ese servidor Front-End, a su vez, redirige al cliente a un registrador preferido en el grupo de servidores.
   
-Cada usuario habilitado para Telefonía IP empresarial se asigna a un grupo de Registrar determinado, que se convierte en conjunto de registrador principal del usuario. En un sitio determinado, cientos o miles de usuarios normalmente comparten un único repositorio principal del registrador. Para tener en cuenta el consumo de recursos de sitio central por cualquier usuario del sitio de sucursal que se basan en el sitio central de presencia, conferencias o conmutación por error, le recomendamos que considere cada usuario del sitio de sucursal como si el usuario fuera un usuario registrado en el sitio central. Actualmente no hay ningún límite en el número de usuarios del sitio de sucursal, incluidos los usuarios registrados con un dispositivo de la rama que sobreviven.
+Cada usuario habilitado para Enterprise Voice se asigna a un determinado grupo de registrador, que se convierte en el grupo de registrador principal de dicho usuario. En un sitio determinado, cientos o miles de usuarios suelen compartan un único grupo de registrador principal. Para tener en cuenta para el consumo de recursos del sitio central por los usuarios de sitio de sucursal que se basan en el sitio central de presencia, conferencias o conmutación por error, se recomienda que tenga en cuenta de cada usuario del sitio de sucursal como si el usuario fuera un usuario registrado con el sitio central. Actualmente no hay ningún límite en el número de usuarios del sitio de sucursal, incluidos los usuarios registrados con una aplicación de sucursal con funciones de supervivencia.
   
-Para garantizar la resistencia de voz en caso de una falla en el sitio central, el grupo principal del registrador debe tener un único grupo designado de backup registrador ubicado en otro sitio. La copia de seguridad puede configurarse mediante configuración resistencia de generador de topología. Suponiendo que un vínculo WAN resistente entre los dos sitios, automáticamente se dirigen a los usuarios cuyo grupo de registrador principal ya no está disponible al grupo copia de seguridad de registrador.
+A fin de garantizar la resistencia de voz en el caso de un error en el sitio central, el grupo de registrador principal debe tener un grupo de registrador de reserva designado único que se encuentra en otro sitio. La copia de seguridad se puede configurar con la configuración de resistencia de generador de topología. Suponiendo que un vínculo WAN resistente entre los dos sitios, automáticamente se dirigen a los usuarios cuyo grupo de registrador principal ya no está disponible para el grupo de registrador de copia de seguridad.
   
-Los pasos siguientes describen el proceso de descubrimiento y registro de cliente:
+Los siguientes pasos describen el proceso de detección y registro de cliente:
   
-1. Un cliente descubre Skype para Business Server a través de los registros SRV de DNS. En Skype para Business Server, los registros SRV de DNS pueden configurarse para devolver más de un FQDN a la consulta DNS SRV. Por ejemplo, si la empresa Contoso tiene tres sitios centrales (Norteamérica, Europa y Asia Pacífico) y un grupo de directores en cada sitio central, pueden señalar los registros SRV de DNS para el FQDN del grupo de Director en cada una de las tres ubicaciones. Como el grupo de Director en una de las ubicaciones está disponible, puede conectar el cliente para el primer salto Skype para Business Server.
+1. Un cliente descubre Skype para Business Server a través de los registros DNS SRV. En Skype para Business Server, los registros DNS SRV pueden configurarse para devolver más de un FQDN a la consulta DNS SRV. Por ejemplo, si la empresa Contoso tiene tres sitios centrales (América del Norte, Europa y Asia Pacífico) y un grupo de directores en cada sitio central, pueden apuntar registros SRV de DNS para el FQDN del grupo de directores en cada una de las tres ubicaciones. Siempre y cuando el grupo de directores en una de las ubicaciones está disponible, puede conectar el cliente para el primer salto Skype para Business Server.
     
     > [!NOTE]
-    > Uso de un grupo de directores es opcional. Un grupo de servidores Front-End puede utilizarse en su lugar. 
+    > Uso de un grupo de servidores de Director es opcional. Un grupo de servidores Front-End se puede usar en su lugar. 
   
-2. El grupo de directores informa el Skype para Business client pool de registrador principal del usuario y backup registrador.
+2. El grupo de directores informa a la Skype para cliente de negocio sobre grupo de registrador principal del usuario y grupo de registrador de copia de seguridad.
     
-3. El Skype para Business client intenta conectarse primero al grupo de registrador principal del usuario. Si el grupo principal del registrador está disponible, el registrador acepta el registro. Si el grupo principal del registrador no está disponible, el Skype para empresa cliente intenta conectarse al grupo copia de seguridad de registrador. Si el grupo de registrador auxiliar está disponible y ha determinado que el conjunto de registrador principal del usuario está disponible (al detectar una falta de latido para un intervalo especificado de conmutación por error) el grupo copia de seguridad del registrador acepta el registro del usuario. Una vez que el registrador de copia de seguridad detecta que el registrador principal nuevo está disponible, el grupo copia de seguridad del registrador redirigirá a clientes de conmutación por error a su grupo principal.
+3. El Skype para clientes empresariales intenta conectarse primero al grupo de registrador principal del usuario. Si el grupo de registrador principal está disponible, el registrador acepta el registro. Si el grupo de registrador principal no está disponible, el Skype para clientes empresariales intenta conectarse al grupo de registrador de copia de seguridad. Si el grupo de registrador de copia de seguridad está disponible y ha determinado que grupo de registrador principal del usuario no está disponible (mediante la detección de una falta de latido para un intervalo especificado de conmutación por error) grupo de registrador de copia de seguridad acepta el registro del usuario. Después de que el registrador de copia de seguridad detecta que el registrador principal vuelve a estar disponible, el grupo de registrador de copia de seguridad le llevará a los clientes de conmutación por error a su grupo principal.
     
 ### <a name="requirements-and-recommendations"></a>Requisitos y recomendaciones
 
-Los siguientes requisitos y recomendaciones para implementar la resistencia de voz del sitio central son adecuadas para la mayoría de las organizaciones:
+Los siguientes requisitos y las recomendaciones para implementar la resistencia de voz del sitio central son adecuadas para la mayoría de las organizaciones:
   
-- Los sitios en los que residen los grupos de registro principales y de reserva deben estar conectados mediante un vínculo WAN resistente.
+- Los sitios en la que residen los grupos de registrador principales y de reserva deberán estar conectados mediante un vínculo WAN resistente.
     
-- Cada sitio central debe contener un grupo de registrador que consta de uno o varios registradores.
+- Cada sitio central debe contener un grupo de registrador formado por uno o varios registradores.
     
-- Cada pool de registrador debe ser compensados utilizando DNS equilibrio de carga, equilibrio de carga de hardware o ambos. Para obtener información detallada acerca de cómo planear la configuración de equilibrio de carga, vea [requisitos de equilibrio de Skype para el negocio de carga](../../plan-your-deployment/network-requirements/load-balancing.md).
+- Cada grupo de registrador debe ser con equilibrio de carga mediante el uso de DNS el equilibrio de carga, equilibrio de carga de hardware o ambos. Para obtener información detallada acerca de cómo planear la configuración de equilibrio de carga, vea [requisitos de Skype para la empresa del equilibrio de carga](../../plan-your-deployment/network-requirements/load-balancing.md).
     
-- Cada usuario debe asignarse a un grupo de registrador principal utilizando ambos el Skype para el Shell de administración de servidor de negocio **Conjunto CsUser** cmdlet o el Skype para Business Server Control Panel.
+- Cada usuario debe estar asignado a un grupo de registrador principal mediante el uso de puede ser la Skype para el cmdlet **set-CsUser** de Shell de administración de servidor empresarial o el Skype para el Panel de Control de servidor empresarial.
     
-- El grupo principal del registrador debe tener un único repositorio de registrador backup ubicado en un sitio central diferente. 
+- El grupo de registrador principal debe tener un único grupo de registrador de copia de seguridad que se encuentra en un sitio central diferente. 
     
-- El grupo principal del registrador debe configurarse para que conmutar por error al grupo copia de seguridad de Registrar. De forma predeterminada, el registro principal se establece en conmutar al grupo Registrar backup después de un intervalo de 300 segundos. Puede cambiar este intervalo utilizando el Skype para el generador de topología de servidor empresarial.
+- El grupo de registrador principal debe configurarse para conmutar por error al grupo de registrador de copia de seguridad. De forma predeterminada, se establece el registrador principal para conmutar por error al grupo de registrador de copia de seguridad después de un intervalo de 300 segundos. Puede cambiar este intervalo mediante la Skype para Business Server Topology Builder.
     
-- Configurar una ruta de migración tras error. Al configurar la ruta, especificar una puerta de enlace que se encuentra en un sitio diferente de la especificada en la ruta principal de la puerta de enlace.
+- Configurar una ruta de conmutación por error. Al configurar la ruta, especifique una puerta de enlace que se encuentra en un sitio diferente de la puerta de enlace especificado en la ruta principal.
     
-- Si el sitio central contiene el servidor de administración principal y el sitio es probable que esté inactivo durante un período prolongado, deberá volver a instalar las herramientas de administración en el sitio de copia de seguridad; de lo contrario, no podrá cambiar ninguna configuración de administración.
+- Si el sitio central incluido el servidor de administración principal y el sitio es probable que esté inactivo durante un período prolongado, deberá volver a instalar las herramientas de administración en el sitio de copia de seguridad; de lo contrario, no podrá cambiar cualquier configuración de administración.
     
 ### <a name="dependencies"></a>Dependencias
 
-Skype para Business Server depende de los siguientes componentes de software y la infraestructura para garantizar la resistencia de voz:
+Skype para Business Server depende de los siguientes componentes de software e infraestructura para garantizar la resistencia de voz:
   
 |**Componente** <br/> |**Funcional** <br/> |
 |:-----|:-----|
-|DNS  <br/> |Resolver los registros SRV y A para la conectividad de servidor y cliente a servidor  <br/> |
-|Exchange y los servicios Web Exchange (EWS)  <br/> |Póngase en contacto con almacenamiento de información; datos de calendario  <br/> |
-|Mensajería unificada de Exchange y los servicios Web de Exchange  <br/> |Llamar a registros, lista de correo de voz, correo de voz  <br/> |
-|Opciones DHCP 120  <br/> |Si SRV de DNS no está disponible, el cliente intentará utilizar DHCP opción 120 para descubrir al registrador. Para que esto funcione, debe configurarse un servidor DHCP o Skype para negocios servidor DHCP debe estar habilitado.  <br/> |
+|DNS  <br/> |Resolver registros SRV y A para la conectividad de servidor a servidor y cliente a servidor  <br/> |
+|Exchange y los servicios Web Exchange (EWS)  <br/> |Póngase en contacto con el almacenamiento de información; datos del calendario  <br/> |
+|Mensajería unificada de Exchange y servicios Web de Exchange  <br/> |Llamar a los registros, lista de correo de voz, correo de voz  <br/> |
+|Opciones de DHCP 120  <br/> |Si DNS SRV no está disponible, el cliente intentará usar la opción DHCP 120 para detectar al registrador. Para que funcione, debe configurarse un servidor DHCP o Skype para profesionales servidor DHCP debe estar habilitada.  <br/> |
    
-### <a name="survivable-voice-features"></a>Características de voz que sobreviven
+### <a name="survivable-voice-features"></a>Características de voz con funciones de supervivencia
 
-Si se han implementado los requisitos y las recomendaciones anteriores, el grupo de registrador auxiliar proporcionará las siguientes características de voz:
+Si se han implementado los requisitos y recomendaciones anterior, se proporcionará las siguientes características de voz por grupo de registrador de copia de seguridad:
   
-- Llamadas salientes de RTC
+- Llamadas RTC salientes
     
-- Llamadas entrantes de PSTN, si el proveedor de servicios de telefonía es compatible con la capacidad de conmutación por error a un sitio de backup
+- Llamadas RTC entrantes, si el proveedor de servicios de telefonía es compatible con la capacidad de conmutación por error a un sitio de copia de seguridad
     
-- Llamadas entre los usuarios en el mismo sitio y entre dos sitios diferentes de Enterprise
+- Llamadas entre los usuarios en el mismo sitio y entre dos sitios diferentes de empresa
     
-- Tratamiento de llamada básico, incluidos espera de llamada, la recuperación y transferencia
+- Administración de llamadas básica, incluidos espera de llamada, recuperación y transferencia
     
-- Dos proveedores de mensajería instantánea y compartir audio y vídeo entre los usuarios en el mismo sitio
+- Dos proveedores de mensajería instantánea y uso compartido de audio y vídeo entre los usuarios en el mismo sitio
     
-- Transferencia, de llamadas simultáneas de timbres de extremos, la delegación de llamada y los servicios de llamada de equipo, pero sólo si se configuran ambas partes para llamar a la delegación, o todos los miembros del equipo, en el mismo sitio.
+- Desvío de llamadas, llamadas simultáneas de extremos, delegación de llamadas y servicios de llamada de equipo, pero sólo si se configuran ambas partes para la delegación de llamada, o todos los miembros del equipo, en el mismo sitio.
     
-- Los clientes y los teléfonos existentes seguirán funcionando.
+- Teléfonos y clientes existentes siguen funcionando.
     
 - Registro detallado de llamadas (CDR)
     
 - Autenticación y autorización
     
-Dependiendo de cómo están configurados, las siguientes características de voz pueden o no funcionen cuando un sitio principal central está fuera de servicio:
+Dependiendo de cómo estén configuradas, las siguientes características de voz pueden o no funcionen cuando un sitio central principal está fuera de servicio:
   
 - Depósito de correo de voz y la recuperación 
     
-    Si desea disponer de mensajería unificada de Exchange al sitio principal central está fuera de servicio, debe hacer uno de estos procedimientos:
+    Si desea que la mensajería unificada de Exchange que estén disponibles cuando el sitio central principal está fuera de servicio, debe hacer una de las siguientes:
     
-  - Cambiar registros SRV de DNS para que señalen los servidores mensajería unificada de Exchange en el sitio central para backup servidores mensajería unificada de Exchange en otro sitio.
+  - Cambiar registros SRV de DNS para que los servidores de mensajería unificada de Exchange en el sitio central elija copia de seguridad servidores de mensajería unificada de Exchange en otro sitio.
     
-  - Configurar el plan de marcado de cada usuario mensajería unificada de Exchange para incluir servidores de mensajería unificada de Exchange en el sitio central y el sitio de copia de seguridad, sin designar los servidores de mensajería unificada de Exchange backup como deshabilitado. Si el sitio primario está disponible, el Administrador de Exchange debe marcar los servidores mensajería unificada de Exchange en el sitio de copia de seguridad como habilitado.
+  - Configurar el plan de marcado de cada usuario mensajería unificada de Exchange para incluir los servidores de mensajería unificada de Exchange en el sitio central y el sitio de copia de seguridad, pero designar los servidores de mensajería unificada de Exchange backup como deshabilitado. Si el sitio primario deja de estar disponible, el Administrador de Exchange debe marcar los servidores de mensajería unificada de Exchange en el sitio de copia de seguridad como habilitado.
     
-    Si ninguna de las soluciones anteriores es posible, a continuación, mensajería unificada de Exchange no estarán disponible en caso de que el sitio central deja de estar disponible.
+    Si ninguna de las soluciones anteriores es posible, a continuación, mensajería unificada de Exchange no estará disponible en el sitio central deja de estar disponible de eventos.
     
 - Conferencia de todos los tipos
     
-    Un usuario que ha fallado a un sitio de backup puede unirse a una conferencia que se crea o alojada en un organizador cuyo grupo está disponible pero no se puede crear o anfitrión de una conferencia en su propio grupo primario, que ya no está disponible. De igual forma, otros usuarios no pueden unirse a conferencias alojadas en el grupo principal del usuario afectado.
+    Un usuario que no ha podido a través de un sitio de copia de seguridad puede unirse a una conferencia que se crea u hospedada por un organizador cuyo grupo está disponible pero no se puede crear u hospedar una conferencia en su propio grupo principal, que ya no está disponible. De forma similar, otros usuarios no pueden unirse a las conferencias que se hospedan en el grupo principal del usuario afectado.
     
-Las siguientes características de voz no funcionan cuando un sitio principal central está fuera de servicio:
+Las siguientes características de voz no funcionan cuando un sitio central principal está fuera de servicio:
   
 - Operador automático de conferencia
     
-- Presencia y enrutamiento basado en DND
+- Presencia y enrutamiento basado en DNS
     
-- Actualizar la configuración del reenvío de llamada
+- Actualizar la configuración de transferencia de llamadas
     
-- Servicio de grupo de respuesta y el parque de llamada
+- Servicio de grupo de respuesta y estacionamiento de llamadas
     
-- Aprovisionamiento de teléfonos nuevos y clientes
+- Aprovisionamiento de nuevos teléfonos y clientes
     
-- Búsqueda de Web de libreta de direcciones
+- Búsqueda de Web de la libreta de direcciones
     
-## <a name="branch-site-resiliency"></a>Resistencia de sitios de sucursal
+## <a name="branch-site-resiliency"></a>Resistencia de la sucursal
 
-Si desea proporcionar resiliencia del sitio de la sucursal, es decir, servicio de Telefonía IP empresarial de alta disponibilidad, tiene tres opciones para hacerlo:
+Si desea proporcionar resistencia de sitios de sucursal, es decir, servicio de Enterprise Voice de alta disponibilidad, tiene tres opciones para hacerlo:
   
 - Aplicación de sucursal con funciones de supervivencia
     
 - Servidor de sucursal con funciones de supervivencia
     
-- Un completo Skype para la implementación de Business Server en el sitio de la sucursal 
+- Una completa Skype para la implementación de Business Server en el sitio de sucursal 
     
-Esta guía le ayudará a evaluar qué solución de resiliencia es mejor para su organización y, en función de la solución de resistencia, qué solución de conectividad PSTN a utilizar. También le ayudará a preparar la implementación de la solución que elija mediante la descripción de los requisitos previos y otras consideraciones de planeación.
+Esta guía le ayudará a evaluar qué solución de resistencia es mejor para su organización y, en función de su solución de resistencia, la solución de conectividad RTC a usar. También le ayudará a preparar la implementación de la solución que elija mediante la descripción de los requisitos previos y otras consideraciones de planeación.
   
 ### <a name="branch-site-resiliency-features"></a>Características de resistencia de sitios de sucursal
 
-Si proporciona resistencia del sitio de la sucursal, si se produce un error en la conexión de WAN del sitio de una sucursal a un sitio central o si el sitio central es inaccesible, deben seguir siendo disponibles las siguientes características de voz:
+Si proporcionar resistencia de sitios de sucursal, si se produce un error en la conexión de WAN del sitio de sucursal a un sitio central o si el sitio central es inaccesible, deberían seguir estén disponibles las siguientes características de voz:
   
-- Entrante y saliente telefónica pública conmutada (PSTN) de red llamadas
+- Llamadas entrantes y salientes telefónica conmutada (RTC)
     
-- Llamadas entre los usuarios en el mismo sitio y entre dos sitios diferentes de Enterprise
+- Llamadas entre los usuarios en el mismo sitio y entre dos sitios diferentes de empresa
     
-- Tratamiento de llamada básico, incluidos espera de llamada, la recuperación y transferencia
+- Administración de llamadas básica, incluidos espera de llamada, recuperación y transferencia
     
-- Dos proveedores de mensajería instantánea
+- Mensajería instantánea de dos participantes
     
-- Transferencia, de llamadas simultáneas de timbres de extremos, la delegación de llamada y los servicios de llamada de equipo, pero sólo si el usuario delegado y delegado (por ejemplo, un administrador y administrador del administrador) o todos los miembros del equipo, se configuran en el mismo sitio
+- Desvío de llamadas, llamadas simultáneas de extremos, delegación de llamadas y servicios de llamada de equipo, pero sólo si el usuario delegado y delegado (por ejemplo, un administrador y administrador del director) o todos los miembros del equipo, se configuran en el mismo sitio
     
 - Registros de detalles de llamadas (CDR)
     
-- Conferencia telefónica de PSTN con conferencias AutoAttendant
+- Conferencia de acceso telefónico RTC con operador automático de conferencia
     
-- Funciones de correo de voz, si configura opciones de redireccionamiento de correo de voz.
+- Capacidades de correo de voz, si se configura el redireccionamiento de configuración de correo de voz.
     
 - Autorización y autenticación de usuario
     
-Las siguientes características estarán disponibles sólo si su solución de resistencia es un Skype a gran escala para la implementación de Business Server en el sitio de la sucursal:
+Las siguientes características estarán disponibles solo si su solución de resistencia es una Skype a gran escala para la implementación de Business Server en la sucursal:
   
-- Mensajería instantánea, web y A / conferencias audiovisuales
+- Mensajería instantánea, web y / conferencia A/v
     
-- Presencia y enrutamiento basado en No molestar DND (donde las llamadas se impide timbre en las extensiones que tienen activado el DND)
+- Presencia y basado en No molestar DNS enrutamiento (donde las llamadas se impide suenen en extensiones con DND activado)
     
-- Actualizar la configuración del reenvío de llamada
+- Actualizar la configuración de transferencia de llamadas
     
-- Aplicación de grupo de respuesta y la aplicación de llamada Park
+- Aplicación de grupo de respuesta y aplicación estacionamiento de llamadas
     
-- Aprovisionamiento de teléfonos nuevos y los clientes, pero sólo si los servicios de dominio de Active Directory está presente en el sitio de la sucursal.
+- Aprovisionamiento de nuevos teléfonos y clientes, pero sólo si los servicios de dominio de Active Directory está presente en el sitio de sucursal.
     
 - 9-1-1 mejorado (E9-1-1)
     
-    Si se implementa E9-1-1 y la troncal SIP en el sitio central no está disponible porque el vínculo WAN está inactivo, el dispositivo de la rama que sobreviven enrutará llamadas E9-1-1 a la puerta de enlace de la sucursal local. Para habilitar esta característica, las directivas de voz de los usuarios del sitio de la sucursal deben enrutar las llamadas a la puerta de enlace local en caso de error de la WAN.
+    Si se implementa E9-1-1 y el tronco SIP en el sitio central no está disponible debido a que el vínculo WAN está inactivo, a continuación, la aplicación de sucursal con funciones de supervivencia enrutarán las llamadas de E9-1-1 a la puerta de enlace de la sucursal local. Para habilitar esta característica, las directivas de voz de los usuarios de los sitios de sucursal deben enrutar las llamadas a la puerta de enlace local en el caso de error de WAN.
     
 > [!NOTE]
-> SBA (sucursal que sobreviven) no se admite para XMPP. Los usuarios alojados en una SBA configuraciones no podrá enviar IMs o ver presencia con contactos XMPP. 
+> SBA (sucursal con funciones de supervivencia) no se admite para XMPP. Los usuarios alojados en una SBA configuraciones no podrá enviar mensajes instantáneos o ver el estado de presencia con los contactos XMPP. 
   
 ### <a name="branch-site-resiliency-solutions"></a>Soluciones de resistencia de sitios de sucursal
 
-Existen ventajas evidentes para proporcionar resistencia del sitio de la sucursal para su organización. En concreto, si pierde la conexión con el sitio central, los usuarios del sitio de sucursal seguirá dispone de correo de voz y servicio de Telefonía IP empresarial (si configurar redireccionamiento de configuración de correo de voz). Sin embargo, en los sitios con menos de 25 usuarios, una solución de resistencia puede no proporcionar suficiente un retorno de la inversión. 
+Existen ventajas obvias para proporcionar resistencia de sitios de sucursal a su organización. En concreto, si se pierde la conexión con el sitio central, los usuarios del sitio de sucursal seguirán tiene correo de voz y de servicio de Enterprise Voice (si se configura el redireccionamiento de configuración de correo de voz). Sin embargo, para los sitios con menos de 25 usuarios, una solución de resistencia de no puede proporcionar un suficiente retorno de la inversión. 
   
-Si decide proporcionar resistencia del sitio de la sucursal, tiene tres opciones. En la tabla siguiente puede ayudarle a determinar la mejor opción para su organización.
+Si decide proporcionar resistencia de sitios de sucursal, tiene tres opciones. En la siguiente tabla puede ayudarle a determinar la mejor opción para su organización.
   
-|**Si usted...**|**Le recomendamos que utilice un...**|
+|**Si se...**|**Se recomienda que use un...**|
 |:-----|:-----|
-|Alojar entre 25 y 1000 usuarios en el sitio de sucursal y el retorno de la inversión no admite una implementación completa o cuando local está disponible soporte administrativo  <br/> |Aplicación de sucursal con funciones de supervivencia  <br/> El dispositivo de la rama que sobreviven es un servidor en placa estándar de la industria con un Skype para el registrador de servidor empresarial y servidor de mediación que se ejecuta en Windows Server 2008 R2. El dispositivo de la rama que sobreviven también contiene una puerta de enlace de telefonía pública conmutada (PSTN) de la red. Dispositivos calificados de terceros (desarrollados por los socios de Microsoft en el sistema de calificación y certificación de dispositivo de rama funciones de supervivencia (SBA)) proporcionan una conexión continua de PSTN en caso de error de la WAN, pero este enfoque no proporciona resistente presencia y conferencias porque estas características dependen de servidores frontales en el sitio central.  <br/> Para obtener más información acerca de dispositivos de sucursales que sobreviven, consulte "Detalles de dispositivo de sucursal que sobreviven", más adelante en este tema.  <br/> **Nota:** Si decide usar también un tronco SIP con el dispositivo de la rama que sobreviven, póngase en contacto con su proveedor del dispositivo de sucursal que sobreviven para obtener información acerca de qué proveedor de servicios es mejor para su organización. <br/> |
-|Alojar entre 1000 y 2000 los usuarios del sitio de la sucursal, carecen de una conexión WAN resistente y ha entrenado Skype para los administradores de servidores de negocios disponibles  <br/> |Servidor de sucursal que sobreviven o dos dispositivos de sucursal que sobreviven.  <br/> El servidor de sucursal que sobreviven es cumplir los requisitos de hardware especificado un servidor de Windows que tenga Skype software registrador de servidor empresarial y servidor de mediación instalado en él. Debe conectarse a una puerta de enlace PSTN o un tronco SIP a un proveedor de servicio telefónico.  <br/> Para obtener más información acerca de servidores de sucursal que sobreviven, consulte "Detalles de servidor de sucursal que sobreviven", más adelante en este tema.  <br/> |
-|Si necesita características de presencia y conferencias en además de voz características de hasta 5000 usuarios y ha entrenado Skype para los administradores de servidores de negocios disponibles  <br/> |Implementar un sitio central con un servidor Standard Edition en lugar de un sitio de sucursal.  <br/> Un Skype a gran escala para la implementación de Business Server proporciona una conexión continua de RTC y resistente presencia y conferencias en caso de error de la WAN.  <br/> |
+|Hospeda entre 25 y 1000 usuarios en su sitio de sucursal, y si el retorno de la inversión no es compatible con una distribución completa o donde local asistencia administrativa no está disponible  <br/> |Aplicación de sucursal con funciones de supervivencia  <br/> La aplicación de sucursal con funciones de supervivencia es un servidor blade estándar del sector con un Skype para el registrador de servidor empresarial y servidor de mediación que se ejecutan en Windows Server 2008 R2. La aplicación de sucursal con funciones de supervivencia también contiene una puerta de enlace de telefónica conmutada (RTC). Dispositivos compatibles de terceros (desarrollados por los socios de Microsoft en el programa de calificación y certificación de dispositivo de sucursal con funciones de supervivencia (SBA)) proporcionan una conexión RTC continua en caso de error de WAN, pero este enfoque no proporciona resistente presencia y conferencia porque estas características dependen de los servidores Front-End en el sitio central.  <br/> Para obtener información detallada acerca de las aplicaciones de sucursal con funciones de supervivencia, vea "Detalles de dispositivo de sucursal con funciones de supervivencia", más adelante en este tema.  <br/> **Nota:** Si decide usar también un tronco SIP con su aplicación de sucursal con funciones de supervivencia, póngase en contacto con el proveedor de la aplicación de sucursal con funciones de supervivencia para obtener más información sobre qué proveedor de servicios es mejor para su organización. <br/> |
+|Hospeda entre 1000 y 2000 usuarios en su sitio de sucursal, carecen de una conexión WAN resistente y han formación Skype empresarial para administradores de servidor disponibles  <br/> |Un servidor de sucursal con funciones de supervivencia o dos aplicaciones de sucursal con funciones de supervivencia.  <br/> El servidor de sucursal con funciones de supervivencia es un servidor de Windows los requisitos de hardware especificado de la reunión que tenga Skype para el registrador de servidor empresarial y servidor de mediación software instalado en él. Se debe conectar a una puerta de enlace RTC o un tronco SIP a un proveedor de servicios telefónicos.  <br/> Para obtener información detallada acerca de los servidores de sucursal con funciones de supervivencia, vea "Detalles de servidor de sucursal con funciones de supervivencia", más adelante en este tema.  <br/> |
+|Si necesita las características de presencia y conferencia en además de voz las características de hasta 5000 usuarios y han formación Skype empresarial para administradores de servidor disponibles  <br/> |Implementar como un sitio central con un servidor Standard Edition en lugar de un sitio de sucursal.  <br/> Un Skype a gran escala para la implementación de Business Server proporciona una conexión RTC y resistente presencia y conferencia en caso de error de WAN.  <br/> |
    
-#### <a name="resiliency-topologies"></a>Topologías de resiliencia
+#### <a name="resiliency-topologies"></a>Topologías de resistencia
 
-La figura siguiente muestra las topologías recomendadas para resistencia del sitio de la sucursal.
+La figura siguiente muestra las topologías recomendadas para la resistencia de sitios de sucursal.
   
-**Opciones de resistencia del sitio de sucursal**
+**Opciones de resistencia de sitios de sucursal**
 
 ![Opciones de resistencia de voz para sucursal](../../media/Plan_OCS_Voice_BranchResiliencyOptions.jpg)
   
-#### <a name="survivable-branch-appliance-details"></a>Detalles del dispositivo de la rama que sobreviven
+#### <a name="survivable-branch-appliance-details"></a>Detalles de la aplicación de sucursal con funciones de supervivencia
 
-El Skype para Business Server Appliance que sobreviven de rama incluye los siguientes componentes:
+El Skype para aplicación de sucursal con funciones de supervivencia de Business Server incluye los siguientes componentes:
   
-- Registrador de autenticación de usuario, registro y enrutamiento de llamadas
+- Un registrador para la autenticación de usuario, el registro y el enrutamiento de llamadas
     
-- Un servidor de mediación para el tratamiento de señales entre el registrador y una puerta de enlace PSTN
+- Un servidor de mediación para controlar la señalización entre el registrador y una puerta de enlace de RTC
     
-- Una puerta de enlace PSTN para enrutar las llamadas a la PSTN como un transporte de reserva en caso de una interrupción de la WAN
+- Una puerta de enlace de RTC para enrutar las llamadas a la RTC como un transporte de reserva si se produce una interrupción de la WAN
     
-- SQL Server Express para almacenar datos de usuario local
+- SQL Server Express para el almacenamiento de datos de usuario local
     
-El dispositivo de la rama que sobreviven también incluye los troncos PSTN, puertos analógicos y un adaptador de Ethernet. 
+La aplicación de sucursal con funciones de supervivencia también incluye troncos RTC, puertos analógicos y un adaptador Ethernet. 
   
-Si está disponible la conexión de WAN del sitio de la sucursal en un sitio central, los usuarios de rama interna continuar registrar con el registrador de dispositivo rama que sobreviven y obtener servicio ininterrumpido de voz mediante la conexión del dispositivo de sucursal que sobreviven a la RTC. Sitio de sucursal, los usuarios que se conectan desde casa u otras ubicaciones remotas podrán registrar con un servidor de registros en un sitio central, si el vínculo WAN al sitio de sucursal no está disponible. Estos usuarios tendrán funcionalidad completa de comunicaciones unificadas, con la única excepción que las llamadas entrantes al sitio de sucursal irá al correo de voz. Cuando esté disponible la conexión WAN, los usuarios del sitio de sucursal debe restaurar toda la funcionalidad. La conmutación por error para el dispositivo de la rama que sobreviven ni la restauración del servicio requiere la presencia de un administrador de TI.
+Si la conexión de WAN del sitio de sucursal a un sitio central deja de estar disponible, los usuarios de sucursal interno continuarán para registrarse con el registrador de dispositivo de sucursal con funciones de supervivencia y obtener un servicio ininterrumpido voice mediante el uso de la conexión de aplicación de sucursal con funciones de supervivencia a la RTC. Los usuarios que se conectan desde casa u otras ubicaciones remotas podrán registrar con un servidor de registrador en un sitio central si el vínculo WAN a la sucursal en el sitio de sucursal no está disponible. Estos usuarios tendrán la funcionalidad completa de comunicaciones unificadas, con la única excepción que se realizarán las llamadas entrantes para el sitio de sucursal al correo de voz. Cuando la conexión WAN pasa a estar disponible, se debería restaurar toda la funcionalidad a los usuarios del sitio de sucursal. Ni la conmutación por error a la aplicación de sucursal con funciones de supervivencia ni la restauración del servicio requiere la presencia de un administrador de TI.
   
-Skype para Business Server admite hasta dos dispositivo de sucursal que sobreviven en un sitio de sucursal. 
+Skype para Business Server admite hasta dos aplicación de sucursal con funciones de supervivencia en un sitio de sucursal. 
   
-#### <a name="survivable-branch-appliance-deployment-overview"></a>Información general sobre la implementación de dispositivo que puede perdurar rama
+#### <a name="survivable-branch-appliance-deployment-overview"></a>Información general sobre la implementación de dispositivo de sucursal con funciones de supervivencia
 
-El dispositivo de la rama que sobreviven es fabricado por fabricantes de equipos originales en asociación con Microsoft y desplegado en su nombre por distribuidores de valor añadidos. Esta implementación debe producirse después de Skype para Business Server se ha implementado en el sitio central, una conexión WAN con el sitio de sucursal está en su sitio y los usuarios del sitio de sucursal están habilitados para Telefonía IP empresarial.
+La aplicación de sucursal con funciones de supervivencia se fabricó por fabricantes de equipos originales en asociación con Microsoft y se implementan en su nombre por los minoristas de valor agregados. Esta implementación debe producirse sólo una vez que Skype para Business Server se ha implementado en el sitio central, una conexión WAN con el sitio de sucursal en su lugar, y los usuarios del sitio de sucursal están habilitados para Enterprise Voice.
   
-Para obtener más información acerca de estas fases, vea [implementar un servidor o dispositivo de sucursal que sobreviven](http://technet.microsoft.com/library/cb780c14-dc5f-41ba-8092-f20ae905bd16.aspx) en la documentación de implementación.
+Para obtener información detallada acerca de estas fases, vea [implementación de un servidor o una aplicación de sucursal con funciones de supervivencia](http://technet.microsoft.com/library/cb780c14-dc5f-41ba-8092-f20ae905bd16.aspx) en la documentación de implementación.
   
 |**Fase**|**Pasos**|**Derechos de usuario**|
 |:-----|:-----|:-----|
-|Configurar servicios de dominio de Active Directory para el dispositivo de la rama que sobreviven  <br/> |**En el sitio central:** <br/>  Crear una cuenta de usuario de dominio (o la identidad de la empresa) para el técnico que va a instalar y activar el dispositivo de sucursal que sobreviven en el sitio de sucursal. <br/>  Crear una cuenta de equipo (con el correspondiente nombre de dominio completo (FQDN)) para el dispositivo de sucursal que sobreviven en servicios de dominio de Active Directory. <br/>  Generador de topología, crear y publicar el dispositivo de la rama que sobreviven. <br/> |La cuenta de usuario del técnico debe ser un miembro de RTCUniversalSBATechnicians. El dispositivo de la rama que puede perdurar debe pertenecer al grupo de RTCSBAUniversalServices, lo que sucede automáticamente cuando se utiliza el generador de topología.  <br/> |
-|Instalar y activar el dispositivo de la rama que sobreviven.  <br/> |**En el sitio de la sucursal:** <br/>  Conecte el dispositivo de la rama que sobreviven a un puerto Ethernet y puerto PSTN. <br/>  Inicie el dispositivo de la rama que sobreviven. <br/>  Unir el dispositivo de la rama que sobreviven al dominio, usando la cuenta de usuario de dominio creada para el dispositivo que sobreviven de sucursal en el sitio central. Establezca el FQDN y la dirección IP para que coincida con el FQDN en la cuenta de equipo. <br/>  Configurar el dispositivo de sucursal que sobreviven mediante la interfaz de usuario OEM. <br/>  Probar la conectividad PSTN. <br/> |La cuenta de usuario del técnico debe ser un miembro de RTCUniversalSBATechnicians.  <br/> |
+|Configurar los servicios de dominio de Active Directory para la aplicación de sucursal con funciones de supervivencia  <br/> |**En el sitio central:** <br/>  Cree una cuenta de usuario de dominio (o identidad de empresa) para el técnico que vaya a instalar y activar la aplicación de sucursal con funciones de supervivencia en el sitio de sucursal. <br/>  Cree una cuenta de equipo (con el correspondiente nombre de dominio completo (FQDN)) para la aplicación de sucursal con funciones de supervivencia en los servicios de dominio de Active Directory. <br/>  En el generador, crear y publicar la aplicación de sucursal con funciones de supervivencia. <br/> |La cuenta de usuario del técnico debe ser un miembro de RTCUniversalSBATechnicians. La aplicación de sucursal con funciones de supervivencia debe pertenecer al grupo de RTCSBAUniversalServices, lo que sucede automáticamente al usar el generador de topología.  <br/> |
+|Instalar y activar la aplicación de sucursal con funciones de supervivencia.  <br/> |**En la sucursal:** <br/>  Conectar la aplicación de sucursal con funciones de supervivencia a un puerto Ethernet y el puerto de RTC. <br/>  Inicie la aplicación de sucursal con funciones de supervivencia. <br/>  Unirse a la aplicación de sucursal con funciones de supervivencia en el dominio, con la cuenta de usuario de dominio creada para la aplicación de sucursal con funciones de supervivencia en el sitio central. Establecer la dirección IP y FQDN para que coincida con el FQDN creado en la cuenta de equipo. <br/>  Configurar la aplicación de sucursal con funciones de supervivencia mediante la interfaz de usuario OEM. <br/>  Probar la conectividad de RTC. <br/> |La cuenta de usuario del técnico debe ser un miembro de RTCUniversalSBATechnicians.  <br/> |
    
-#### <a name="survivable-branch-server-details"></a>Detalles del servidor de sucursal que sobreviven
+#### <a name="survivable-branch-server-details"></a>Detalles del servidor de sucursal con funciones de supervivencia
 
-En el generador de topología crear el sitio de la sucursal, agregue el servidor de sucursal que sobreviven a ese sitio y ejecutar el Skype para el Asistente para implementación de Business Server en el equipo donde desea instalar la función.
+En el generador de topología crear el sitio de sucursal, agregue el servidor de sucursal con funciones de supervivencia a ese sitio y, a continuación, ejecute el Skype para el Asistente para la implementación de Business Server en el equipo donde desea instalar el rol.
   
-### <a name="branch-site-resiliency-requirements"></a>Requisitos de resistencia del sitio de sucursal
+### <a name="branch-site-resiliency-requirements"></a>Requisitos de resistencia de sitios de sucursal
 
-Este tema le ayudará a preparar los usuarios para la supervivencia de correo de voz y resiliencia de sitio de la sucursal y también especifica los requisitos de hardware y software pertinentes.
+En este tema le ayudará a preparar a los usuarios para la resistencia de sucursales y las funciones de supervivencia de correo de voz y también especifica los requisitos de hardware y software pertinentes.
   
-#### <a name="preparing-branch-users-for-branch-site-resiliency"></a>Preparar a los usuarios de la sucursal para el sitio de la sucursal resistencia
+#### <a name="preparing-branch-users-for-branch-site-resiliency"></a>Preparación de los usuarios de sucursal para la resistencia de sitios de sucursal
 
-Preparar los usuarios para la resiliencia del sitio de sucursal estableciendo su grupo Registrar como el dispositivo de sucursal funciones de supervivencia (SBA) o el servidor de sucursal que sobreviven.
+Preparar a los usuarios para la resistencia de sitios de sucursal mediante la configuración de su grupo de registrador como el dispositivo de sucursal con funciones de supervivencia (SBA) o el servidor de sucursal con funciones de supervivencia.
   
-#### <a name="registrar-assignments-for-branch-users"></a>Registrar asignaciones para los usuarios de la sucursal
+#### <a name="registrar-assignments-for-branch-users"></a>Asignaciones de registrador para usuarios de sucursal
 
-Independientemente de qué solución de resistencia de sitio de la sucursal que elija, debe asignar a un registrador principal a cada usuario. Los usuarios del sitio de sucursal siempre deben registrar con el registrador en el sitio de la sucursal, independientemente de si dicho registrador reside en el dispositivo de sucursal que sobreviven, servidor de sucursal que sobreviven o Skype independiente para Business Server Standard o Enterprise Edition servidor de. Un registro de recursos de servicio (SRV) de dominio nombre (de dominio DNS) del sistema es necesario para que un cliente puede descubrir su grupo de registrador. Si el dispositivo de la rama que sobreviven está disponible, se trata cómo los clientes del sitio de sucursal detectará automáticamente el registrador de copia de seguridad.
+Independientemente de qué solución de resistencia de sitios de sucursal que elija, debe asignar a un registrador principal a cada usuario. Los usuarios del sitio de sucursal siempre deben registrar con el registrador en la sucursal, independientemente de si ese registrador reside en la aplicación de sucursal con funciones de supervivencia, un servidor de sucursal con funciones de supervivencia o Skype independiente para Business Server Standard o Enterprise Edition servidor. Un registro de recursos de servicio (SRV) de dominio nombre del sistema (de dominio DNS) es necesario para que un cliente puede detectar su grupo de registrador. Si la aplicación de sucursal con funciones de supervivencia deja de estar disponible, esto es cómo los clientes de sitios de sucursal descubre automáticamente el registrador de copia de seguridad.
   
-Si un sitio de la sucursal no tiene un servidor DNS, hay dos formas de configurar la detección del dispositivo de sucursal que sobreviven o del servidor de sucursal que sobreviven:
+Si un sitio de sucursal no tiene un servidor DNS, existen dos métodos alternativos para configurar la detección de la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia:
   
-- Configurar 120 de opción de DHCP en el servidor de protocolo de configuración dinámica de Host (DHCP) del sitio de la sucursal para que señale el nombre de dominio completo (FQDN) del equipo de sucursal que sobreviven o servidor de la sucursal que sobreviven.
+- Configurar la opción de DHCP 120 en el servidor de protocolo de configuración dinámica de Host (DHCP) del sitio de sucursal para que apunte al nombre de dominio completo (FQDN) de la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia.
     
-- Configurar el dispositivo de sucursal que sobreviven o el servidor de sucursal que sobreviven para responder a las consultas de 120 de DHCP.
+- Configurar la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia para responder a las consultas de DHCP 120.
     
-#### <a name="voice-routing-for-branch-users"></a>Voz de enrutamiento para los usuarios de la sucursal
+#### <a name="voice-routing-for-branch-users"></a>Enrutamiento para usuarios de sucursal de voz
 
-Recomendamos que cree una voz de nivel de usuario independiente sobre la directiva del protocolo de Internet (VoIP) para los usuarios de un sitio de sucursal. Esta directiva debe incluir una ruta principal que utiliza la puerta de enlace de servidor de dispositivo de sucursal que sobreviven o sucursal y una o varias rutas de copia de seguridad que utilice un tronco con una puerta de enlace de telefonía pública conmutada (PSTN) de red en el sitio central. Si la ruta principal no está disponible, se utilizará la ruta de copia de seguridad que utiliza una o varias puertas de enlace de sitio central. De este modo, independientemente de donde está registrado un usuario — en el sitio de sucursal registrador o el grupo copia de seguridad de Registrar en el sitio central, la directiva del usuario VoIP siempre está en efecto. Ésta es una consideración importante para los escenarios de conmutación por error. Por ejemplo, si necesita cambiar el nombre del dispositivo de la rama que sobreviven o volver a configurar el dispositivo de sucursal que sobreviven para conectarse a un grupo de registrador en el sitio central de copia de seguridad, debe mover los usuarios del sitio de sucursal al sitio central para la duración. (Para obtener más información acerca de cómo cambiar el nombre o volver a configurar un dispositivo de la rama que sobreviven, vea [Apéndice B: administrar un dispositivo de la rama que sobreviven](http://technet.microsoft.com/library/2ec9d505-6d39-491c-9524-8cf36866b855.aspx) en la documentación de implementación). Si los usuarios no tienen políticas a nivel de usuario VoIP o planes de marcado de nivel de usuario, cuando los usuarios se mueven a otro sitio, el sitio VoIP y políticas del marcado de nivel de sitio planes del sitio central aplican a los usuarios de forma predeterminada, en lugar del sitio de sucursal nivel de sitio VoIP políticas y marcado planes. En este escenario, a menos que se utiliza de planes de marcado de las directivas de VoIP de nivel de sitio y de nivel de sitio también puede aplicar el grupo copia de seguridad de Registrar a los usuarios del sitio de sucursal, se producirá un error en las llamadas. Por ejemplo, si los usuarios de un sitio de sucursal en Japón se mueven a un sitio central en Redmond, un plan de marcado con reglas de normalización que anteponer +1425 para todas las llamadas de 7 dígitos es improbable adecuadamente traducir llamadas para esos usuarios.
+Le recomendamos que cree una voz de nivel de usuario independiente a través de la directiva de protocolo de Internet (VoIP) para los usuarios en un sitio de sucursal. Esta directiva debe incluir una ruta principal que utiliza la puerta de enlace de servidor de aplicación de sucursal con funciones de supervivencia o de sucursal y una o varias rutas de copia de seguridad que utilice un tronco con una puerta de enlace de telefónica conmutada (RTC) en el sitio central. Si la ruta principal no está disponible, la ruta de copia de seguridad que utiliza una o más puertas de enlace de sitio central se usa en su lugar. De este modo, independientemente de donde se registró un usuario, en el sitio de sucursal registrador o grupo de registrador de copia de seguridad en el sitio central: la directiva del usuario VoIP siempre es en efecto. Esto es una consideración importante para los escenarios de conmutación por error. Por ejemplo, si necesita cambiar el nombre de la aplicación de sucursal con funciones de supervivencia o volver a configurar la aplicación de sucursal con funciones de supervivencia para conectarse a una copia de seguridad del grupo de registrador en el sitio central, debe mover los usuarios del sitio de sucursal al sitio central para la duración. (Para obtener información detallada sobre el cambio de nombre o volver a configurar una aplicación de sucursal con funciones de supervivencia, vea [Apéndice B: administración de una aplicación de sucursal con funciones de supervivencia](http://technet.microsoft.com/library/2ec9d505-6d39-491c-9524-8cf36866b855.aspx) en la documentación de implementación). Si los usuarios no tienen las directivas de nivel de usuario VoIP o planes de marcado de nivel de usuario, cuando los usuarios se mueven a otro sitio, las directivas de VoIP de nivel de sitio y el marcado de nivel de sitio planes del sitio central se aplican a los usuarios de forma predeterminada, en lugar de la sucursal nivel de sitio VoIP las directivas y marcado planes. En este escenario, a menos que se utilizó de planes de marcado de las directivas de VoIP de nivel de sitio y de nivel de sitio de grupo de registrador de copia de seguridad también se puede aplicar a los usuarios del sitio de sucursal, sus llamadas se producirá un error. Por ejemplo, si los usuarios de un sitio de sucursal que se encuentra en Japón se mueven a un sitio central en Redmond, un plan de marcado con reglas de normalización que anteponga + 1425 a todas las llamadas de 7 dígitos es poco probable que traducir correctamente las llamadas para esos usuarios.
   
 > [!IMPORTANT]
-> Cuando se crea una ruta de copia de seguridad de office de sucursales, se recomienda que agregue dos registros de uso de teléfono PSTN a la directiva de usuario de oficina sucursal y asignar rutas diferentes a cada uno de ellos. El primero, o primario, ruta podría dirigir llamadas a la puerta de enlace asociada al dispositivo de sucursal funciones de supervivencia (SBA) o servidor de la sucursal; el segundo, o copia de seguridad, ruta podría dirigir llamadas a la puerta de enlace en el sitio central. En la dirección de las llamadas, el servidor de SBA o sucursales intentará todas las rutas que se asigna al primer registro de uso PSTN antes de intentar el segundo registro de uso. 
+> Cuando se crea una ruta de copia de seguridad de office de sucursal, se recomienda que agregue dos registros de uso de teléfono RTC a la directiva de usuario de office de sucursal y asignar rutas independientes para cada uno de ellos. La primera, o primario, ruta sería dirigir las llamadas a la puerta de enlace asociada con el dispositivo de sucursal con funciones de supervivencia (SBA) o el servidor de sucursal; el segundo, o una copia de seguridad, ruta sería dirigir las llamadas a la puerta de enlace en el sitio central. En dirigir las llamadas, el servidor de sucursal o SBA intentará todas las rutas asignadas al primer registro de uso de RTC antes de intentar el segundo registro de uso. 
   
-Para ayudar a garantizar que las llamadas entrantes a los usuarios del sitio de sucursal llegará a los usuarios cuando la puerta de enlace de la sucursal o el componente de Windows del sitio que sobreviven dispositivo de sucursales está disponible (que ocurriría, por ejemplo, si el dispositivo de sucursal que sobreviven o sucursal puerta de enlace funcionaran por mantenimiento), crear una ruta de conmutación por error en la puerta de enlace (o trabajar con su proveedor de marcado interno directo (DID)) para redirigir las llamadas entrantes al grupo copia de seguridad de Registrar en el sitio central. Desde allí, las llamadas se enrutarán a través de la WAN vínculo a los usuarios de la sucursal. Asegúrese de que la ruta traduce números para cumplir con la puerta de enlace PSTN o formatos de número de teléfono aceptados del otro interlocutor de tronco. Para obtener más información acerca de la creación de una ruta de conmutación por error, consulte [configuración de una ruta de migración tras error](http://technet.microsoft.com/library/76e48df4-3b78-4fb7-b1f7-c1e604b81bad.aspx). También crear planes de marcado de nivel de servicio para el tronco asociado a la puerta de enlace en el sitio de la sucursal para normalizar las llamadas entrantes. Si dispone de dos dispositivos de sucursal que sobreviven en un sitio de sucursal, puede crear un plan de marcado de nivel de sitio para ambos a menos que sea necesario un plan de nivel de servicio independiente para cada uno.
+Para ayudar a garantizar que las llamadas entrantes a los usuarios del sitio de sucursal alcanzará esos usuarios cuando no está disponible la puerta de enlace de la sucursal o el componente de Windows del sitio de la aplicación de sucursal con funciones de supervivencia (que ocurriría, por ejemplo, si la aplicación de sucursal con funciones de supervivencia o sucursal puerta de enlace eran hacia abajo para el mantenimiento), crear una ruta de conmutación por error en la puerta de enlace (o trabajar con su proveedor de llamada directa (DID)) para redirigir las llamadas entrantes al grupo de registrador de copia de seguridad en el sitio central. Desde allí, las llamadas se enrutarán a través de la WAN vínculo a los usuarios de sucursal. Asegúrese de que la ruta convierte los números para cumplir con la puerta de enlace RTC o formatos de números de teléfono aceptados del otro interlocutor tronco. Para obtener información detallada sobre la creación de una ruta de conmutación por error, vea [Configurar una ruta de conmutación por error](http://technet.microsoft.com/library/76e48df4-3b78-4fb7-b1f7-c1e604b81bad.aspx). También crear planes de marcado de nivel de servicio para el tronco asociado con la puerta de enlace en el sitio de sucursal para normalizar las llamadas entrantes. Si tiene dos aplicaciones de sucursal con funciones de supervivencia en un sitio de sucursal, puede crear un plan de marcado de nivel de sitio para ambos a menos que sea necesario un plan de nivel de servicio independiente para cada uno.
   
 > [!NOTE]
-> Para tener en cuenta el consumo de recursos de sitio central por cualquier usuario del sitio de sucursal que se basan en el sitio central de presencia, conferencias o conmutación por error, le recomendamos que considere cada usuario del sitio de sucursal como si el usuario se ha registrado en el sitio central. Actualmente no hay ningún límite en el número de usuarios del sitio de sucursal, incluidos los usuarios registrados con un dispositivo de la rama que sobreviven. 
+> Para tener en cuenta para el consumo de recursos del sitio central por los usuarios de sitio de sucursal que se basan en el sitio central de presencia, conferencias o conmutación por error, se recomienda que tenga en cuenta de cada usuario del sitio de sucursal como si el usuario se ha registrado en el sitio central. Actualmente no hay ningún límite en el número de usuarios del sitio de sucursal, incluidos los usuarios registrados con una aplicación de sucursal con funciones de supervivencia. 
   
-También se recomienda que cree una directiva de voz y el plan de marcado de nivel de usuario y asignarlo a los usuarios del sitio de sucursal. Para obtener más información, consulte [crear o modificar un plan de marcado de Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md) y [crear la directiva de enrutamiento VoIP para los usuarios de la sucursal](http://technet.microsoft.com/library/10deca9f-f870-4a42-b25d-e4fc53108658.aspx) en la documentación de implementación.
+También se recomienda que cree una directiva de voz y el plan de marcado de nivel de usuario y, a continuación, se asigna a los usuarios del sitio de sucursal. Para obtener información detallada, vea [crear o modificar un plan de marcado de Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md) y [crear la directiva de enrutamiento VoIP para usuarios de sucursal](http://technet.microsoft.com/library/10deca9f-f870-4a42-b25d-e4fc53108658.aspx) en la documentación de implementación.
   
 #### <a name="routing-extension-numbers"></a>Números de extensión de enrutamiento
 
-Al preparar los planes de marcado y las directivas de voz para los usuarios del sitio de sucursal, no olvide incluir las reglas de normalización y las reglas de conversión que coinciden con las cadenas y el formato de número utilizado en la msRTCSIP-línea (o línea URI) de atributos, para que habilite Skype para llamadas de negocios entre los usuarios del sitio de sucursal y el sitio central de los usuarios se enrutarán correctamente, especialmente cuando las llamadas deben enrutarse de nuevo por PSTN porque el vínculo WAN no está disponible. Además, existen consideraciones especiales para los números marcados que incluyen números de extensión, simplemente los números de teléfono.
+Al preparar planes de marcado y las directivas de voz para que los usuarios del sitio de sucursal, asegúrese de incluir las reglas de normalización y reglas de conversión que coinciden con las cadenas y el formato de número utilizado en la msRTCSIP-line (o URI de línea) de atributo, para que habilite Skype para llamadas de trabajo entre los usuarios del sitio de sucursal y el sitio central a los usuarios se van a enrutar correctamente, especialmente cuando las llamadas deben enrutarse de nuevo a través de la RTC debido a que el vínculo WAN no está disponible. Además, existen consideraciones especiales para los números marcados que incluyan los números de extensión, simplemente los números de teléfono.
   
-Reglas de normalización y reglas de traducciones que coincidan con los URI de línea que contienen un número de extensión, ya sea exclusivamente o además de un número de teléfono E.164 completo tienen requisitos adicionales. Esta sección describe varios escenarios de ejemplo para dirigir las llamadas de identificadores URI de línea con un número de extensión.
+Reglas de normalización y traducciones las reglas que coinciden con los URI de línea que contienen un número de extensión, si exclusivamente o además de un número de teléfono E.164 completo, tienen requisitos adicionales. En esta sección se describe varios escenarios de ejemplo para enrutar las llamadas para los identificadores URI de línea con un número de extensión.
   
-Si su organización no tiene números de teléfono de marcado interno directo (DID) configurados para usuarios individuales y el URI de la línea de cada usuario se configura con sólo un número de extensión, los usuarios internos pueden llamar a uno de otro sólo un número de extensión de marcado. Sin embargo, debe configurar reglas de normalización que se pueden aplicar a las llamadas de un usuario del sitio de sucursal a un usuario del sitio central, que coinciden con los números de extensión.
+Si su organización no dispone de los números de teléfono directo DID (llamada) configurados para usuarios individuales y el URI de línea de cada usuario se configura con solo un número de extensión, los usuarios internos pueden llamar a otro marcando sólo un número de extensión. Sin embargo, debe configurar reglas de normalización que se pueden aplicar a las llamadas de un usuario del sitio de sucursal a un usuario del sitio central, que coinciden con los números de extensión.
   
-En un escenario donde el vínculo WAN entre un sitio de sucursal y un sitio central está disponible, llamadas de los usuarios del sitio de sucursal a los usuarios del sitio central no requieren la regla de normalización coincidente para traducir el número, porque la llamada no se enruta a través la RTC. Por ejemplo:
+En un escenario donde el vínculo WAN entre una sucursal y un sitio central está disponible, las llamadas de los usuarios del sitio de sucursal a los usuarios del sitio central no requieren la regla de normalización coincidente para convertir el número, porque la llamada no se enrutan a través de la RTC. Por ejemplo:
   
 |**Nombre de la regla**|**Descripción**|**Patrón de números**|**Traducción**|**Ejemplo**|
 |:-----|:-----|:-----|:-----|:-----|
-|5digitExtensions  <br/> |No traducir números de 5 dígitos  <br/> |^ (\d{5})$  <br/> |$1  <br/> |no se ha traducido 10001  <br/> |
+|5digitExtensions  <br/> |No traduce números de 5 dígitos  <br/> |^(\d{5})$  <br/> |$1  <br/> |no traduce 10001  <br/> |
    
-También debe dar cabida a números de extensión para escenarios específicos, como cuando el vínculo WAN entre un sitio de sucursal y el sitio central no está disponible y se debe enrutar una llamada desde un sitio de sucursal por PSTN. Durante una interrupción de la WAN, si un usuario del sitio de sucursal llama a un usuario del sitio central marcando su sitio central de extensión, debe tener una regla de salida de traducción que agrega el número de teléfono completo del usuario del sitio central. Si el URI de línea de un usuario contiene el número de teléfono completo de la organización y el único número de extensión en lugar de un número de teléfono completo que es único para el usuario, debe tener una regla de salida de traducción que se agrega el número de teléfono completo de su organización en su lugar . Por ejemplo:
+También debe dar cabida a los números de extensión para escenarios específicos, como cuando el vínculo WAN entre un sitio de sucursal y el sitio central no está disponible y se debe enrutar una llamada desde un sitio de sucursal a través de la RTC. Durante una interrupción de la WAN, si un usuario del sitio de sucursal llama a un usuario del sitio central marcando la extensión del usuario del sitio central, debe tener una regla de conversión de salida que agrega el número de teléfono completo del usuario del sitio central. Si un URI de línea de un usuario contiene el número de teléfono completo de su organización y el número de extensión único del usuario en lugar de un número de teléfono completo que es único para el usuario, debe tener una regla de conversión de salida que agrega el número de teléfono completo de su organización en su lugar . Por ejemplo:
   
-|**Descripción**|**Patrón de coincidencia**|**Traducción**|**Ejemplo**|
+|**Descripción**|**Coincidencia de patrón**|**Traducción**|**Ejemplo**|
 |:-----|:-----|:-----|:-----|
-|Convierte números de 5 dígitos para el número de teléfono y extensión de un usuario  <br/> |^ (\d{5})$  <br/> |+14255550123; ext = $1  <br/> |10001 se traduce a +14255550123; ext = 10001  <br/> |
-|Convierte números de 5 dígitos para el número de teléfono de la organización y la extensión de un usuario  <br/> |^ (\d{5})$  <br/> |+14255550100; ext = $1  <br/> |10001 se traduce a +14255550100; ext = 10001  <br/> |
+|Convierte los números de 5 dígitos al número de teléfono y la extensión de un usuario  <br/> |^(\d{5})$  <br/> |+ 14255550123; ext = $1  <br/> |10001 se traduce a + 14255550123; ext = 10001  <br/> |
+|Convierte los números de 5 dígitos al número de teléfono de la organización y la extensión de un usuario  <br/> |^(\d{5})$  <br/> |+ 14255550100; ext = $1  <br/> |10001 se traduce a + 14255550100; ext = 10001  <br/> |
    
-En este escenario, si el interlocutor de tronco que controla el redireccionamiento a la RTC no admite números de extensión, a continuación, la regla de conversión de salida también debe quitar el número de extensión. Por ejemplo:
+En este escenario, si el par de tronco que administra el desvío a la RTC no es compatible con los números de extensión, a continuación, la regla de conversión de salida también debe quitar el número de extensión. Por ejemplo:
   
-|**Descripción**|**Patrón de coincidencia**|**Traducción**|**Ejemplo**|
+|**Descripción**|**Coincidencia de patrón**|**Traducción**|**Ejemplo**|
 |:-----|:-----|:-----|:-----|
-|Quita la extensión de los números de teléfono con extensiones  <br/> |^\+(\d\*); $ ext=(\d\*)  <br/> |+$1  <br/> |+14255550123; ext = 10001 se traduce a +14255550123  <br/> |
+|Quita la extensión de los números de teléfono con extensiones  <br/> |^\+(\d\*); ext=(\d\*)$  <br/> |+$1  <br/> |+ 14255550123; ext = 10001 se traduce a + 14255550123  <br/> |
    
-Si es o no un vínculo WAN disponible si su organización no tiene HICIERON configurado para los usuarios individuales de números y el URI de la línea de un usuario contiene el número de teléfono de la organización y el número de extensión exclusiva del usuario, debe configurar su número línea telefónica de la organización URI con un número que es accesible por el interlocutor de tronco o puerta de enlace PSTN en el sitio de la sucursal. También debe configurar la línea de número de teléfono de su organización URI para incluir su propia extensión exclusiva para las llamadas a enrutarse a ese número.
+O no está disponible, si la organización no tiene un vínculo WAN ha configurado para los usuarios individuales de los números y el URI de línea para un usuario contiene el número de teléfono de la organización y el número de extensión único del usuario y, a continuación, debe configurar su teléfono número URI de línea la organización con un número que es accesible por el mismo nivel de tronco o puerta de enlace RTC en el sitio de sucursal. También debe configurar URI para incluir su propia extensión exclusiva para las llamadas deben enrutarse a ese número de la línea de número de teléfono de su organización.
   
 #### <a name="preparing-for-voice-mail-survivability"></a>Preparación para la supervivencia de correo de voz
 
-Generalmente, Exchange Unified Messaging (UM) está instalado sólo en un sitio central y no en los sitios de sucursal. Un llamador podrá dejar un mensaje de correo de voz, incluso si el vínculo WAN entre los sitios de sucursal y central no está disponible. Como resultado, la configuración de los URI de línea para el número de teléfono de Operador automático en mensajería unificada de Exchange proporciona correo de voz para los usuarios del sitio de sucursal requiere consideraciones especiales, además de la directiva de voz dial plan y reglas de normalización aplicables a ese correo de voz número.
+Mensajería unificada de Exchange (UM) normalmente se instala sólo en un sitio central y no en sitios de sucursal. Un autor de la llamada debe ser capaz de dejar un mensaje de correo de voz, incluso si el vínculo WAN entre sitios de sucursal y el sitio central no está disponible. Como resultado, configurar el URI de línea para el número de teléfono del operador de automático en mensajería unificada de Exchange que proporciona correo de voz para los usuarios del sitio de sucursal requiere consideraciones especiales, además de la directiva de voz, de marcado plan y reglas de normalización aplicables a ese correo de voz número.
   
-Que sobreviven de rama de supervivencia (SBA) y servidores de sucursal que sobreviven proporcionan la supervivencia de correo de voz para los usuarios de sucursales durante una interrupción de la WAN. En concreto, si está utilizando un dispositivo de la rama que sobreviven o servidor de sucursal que sobreviven y la WAN no está disponible, la SBA o el servidor de sucursal que sobreviven redistribuye llamadas no respondidas por PSTN para mensajería unificada de Exchange en el sitio central. Con un servidor de sucursal que sobreviven o de SBA, los usuarios también pueden recuperar mensajes de correo de voz a través de la red PSTN durante una interrupción de la WAN. Finalmente, durante una interrupción de la WAN del dispositivo de sucursal que sobreviven o servidor de sucursal que sobreviven pone en cola las notificaciones de llamada perdida y, a continuación, las cargas en el servidor de mensajería unificada de Exchange cuando se restaura la WAN. Para asegurar que el redireccionamiento de correo de voz es resistente, asegúrese de que se agregue una entrada para el FQDN del grupo de servidores del sitio central y una entrada para el FQDN del servidor de borde al archivo hosts en el servidor de sucursal que sobreviven. De lo contrario, la resolución DNS puede tiempo de espera si no tiene un servidor DNS en el sitio de la sucursal.
+Aplicaciones de sucursal con funciones de supervivencia (SBA) y servidores de sucursal con funciones de supervivencia proporcionan las funciones de supervivencia de correo de voz para usuarios de sucursal durante una interrupción de la WAN. En concreto, si está utilizando una aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia y la WAN deja de estar disponible, la SBA o un servidor de sucursal con funciones de supervivencia redistribuye las llamadas no respondidas a través de la RTC para mensajería unificada de Exchange en el sitio central. Con una SBA o un servidor de sucursal con funciones de supervivencia, los usuarios también pueden recuperar los mensajes de correo de voz a través de la RTC durante una interrupción de la WAN. Por último, durante una interrupción de la WAN la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia pone en cola las notificaciones de llamadas perdidas y, a continuación, carga en el servidor de mensajería unificada de Exchange cuando se restaura la WAN. Para ayudar a garantizar que el desvío de correo de voz es resistente, asegúrese de que se agregue una entrada para FQDN del grupo de servidores del sitio central y una entrada para el FQDN del servidor perimetral en el archivo hosts en el servidor de sucursal con funciones de supervivencia. De lo contrario, la resolución DNS puede tiempo de espera si no tiene un servidor DNS en la sucursal.
   
-Se recomienda la siguiente configuración para la supervivencia de correo de voz para los usuarios del sitio de sucursal: 
+Se recomienda la siguiente configuración para las funciones de supervivencia del correo de voz para los usuarios del sitio de sucursal: 
   
-- Un administrador de Microsoft Exchange debe configurar Exchange UM Operador automático (AA) para aceptar sólo los mensajes. Esta configuración deshabilita todas las otras funciones genéricas, como transferencia a un usuario o a un operador y limita el AA para que solamente acepten mensajes. Como alternativa, puede utilizar el Administrador de Exchange una AA genérico o un AA personalizado para enrutar la llamada a un operador.
+- Un administrador de Microsoft Exchange debe configurar Exchange UM operador automático (AA) para que únicamente acepte mensajes. Esta configuración deshabilita todos los otro funcionalidad genérica, como la transferencia a un usuario o a un operador y limita el AA para que solamente acepten mensajes. Como alternativa, puede usar el Administrador de Exchange una AA genérico o un AA personalizado para enrutar la llamada a un operador.
     
-- El Skype para el Administrador de servidor de Business debe tomar el número de teléfono de AA y utilizar ese número de teléfono como el número de **exchange um auto attendant** en el correo de voz redireccionamiento de configuración para el dispositivo de sucursal que sobreviven o servidor de sucursal.
+- El Skype para el administrador del servidor empresarial debe tomar el número de teléfono del AA y usar ese número de teléfono como el número de **exchange um operador automático** en la configuración de la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal de reenrutamiento del correo de voz.
     
-- El Skype para el administrador del servidor de la empresa debe obtener número de teléfono de acceso de suscriptor de mensajería unificada de Exchange y utilizará ese número como el número de **acceso de suscriptor** en el correo de voz redireccionamiento de configuración para el dispositivo de sucursal que sobreviven o servidor de la sucursal que sobreviven .
+- El Skype para el administrador del servidor empresarial debe obtener número de teléfono de acceso de suscriptor de mensajería unificada de Exchange y usar ese número como el número de **acceso de suscriptor** en la configuración de la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia de reenrutamiento del correo de voz .
     
-- El Skype para el administrador del servidor de la empresa debe configurar mensajería unificada de Exchange, por lo que sólo un plan de marcado está asociado a todos los usuarios de sucursales que necesitan tener acceso a correo de voz durante una interrupción de la WAN.
+- El Skype para el administrador del servidor empresarial debe configurar la mensajería unificada de Exchange para que sólo un plan de marcado está asociado con todos los usuarios de sucursal que necesiten obtener acceso al correo de voz durante una interrupción de la WAN.
     
-- Cuando el vínculo WAN no está disponible, las llamadas a los usuarios del sitio de sucursal se pueden enrutar al buzón de voz de Exchange Unified Messaging (UM) del usuario, pero sólo si se aplica la directiva de voz a la llamada especifica un número de teléfono del correo de voz que es único y no incluye una extensión número.
+- Cuando el vínculo WAN no está disponible, las llamadas a los usuarios del sitio de sucursal se puedan enrutar a buzón de correo de voz de mensajería unificada de Exchange (UM) del usuario, pero sólo si la directiva de voz se aplica a la llamada especifica un número de teléfono del correo de voz que es único y no incluye una extensión número.
     
-#### <a name="hardware-and-software-requirements-for-branch-site-resiliency"></a>Requisitos de hardware y Software para el sitio de la sucursal resistencia
+#### <a name="hardware-and-software-requirements-for-branch-site-resiliency"></a>Requisitos de hardware y Software para la resistencia de sitios de sucursal
 
-Los requisitos de hardware y software varían dependiendo de la solución de resistencia.
+Los requisitos de hardware y software pueden variar dependiendo de la solución de resistencia.
   
-#### <a name="requirements-for-survivable-branch-appliances"></a>Requisitos para los dispositivos de la rama que sobreviven
+#### <a name="requirements-for-survivable-branch-appliances"></a>Requisitos para aplicaciones de sucursal con funciones de supervivencia
 
-Software y hardware necesario está integrado en el dispositivo de la rama que sobreviven. Sin embargo, también se recomienda que cada sitio de sucursal implementar un servidor DHCP para obtener direcciones IP; de cliente de lo contrario, cuando la concesión DHCP caduca, los clientes no tendrán conectividad IP.
+Hardware y software necesario está integrado en la aplicación de sucursal con funciones de supervivencia. Sin embargo, también se recomienda que cada sitio de sucursal implementar un servidor DHCP para obtener direcciones IP; de cliente de lo contrario, cuando expira la concesión DHCP, los clientes no tendrán conectividad IP.
   
-Si los servidores DNS de empresa se encuentran únicamente en los sitios centrales, los usuarios del sitio de sucursal no podrán conectarse a ellos durante una interrupción de la WAN y, por tanto, se producirá un error de Skype para el descubrimiento de Business Server que utiliza DNS SRV (registro de recursos de servicio (SRV)). Para asegurar el redireccionamiento de petición de datos durante una interrupción de la WAN, deben almacenarse en caché registros DNS en el sitio de la sucursal. Si lo admite el enrutador de la sucursal, activar el almacenamiento en caché de DNS. O bien, puede implementar un servidor DNS en la sucursal. Esto puede ser un servidor independiente o una versión del dispositivo que sobreviven rama que admite capacidades de DNS. Para obtener más información, póngase en contacto con el proveedor del dispositivo de sucursal que sobreviven.
+Si los servidores DNS de empresa se encuentran únicamente en los sitios centrales, los usuarios del sitio de sucursal no podrán conectarse a ellos durante una interrupción de la WAN y, por lo tanto, se producirá un error de Skype para la detección Business Server que usa DNS SRV (registro de recursos de servicio (SRV)). A fin de garantizar reenrutamiento prompt durante una interrupción de la WAN, se deben almacenar en caché los registros DNS en la sucursal. Si lo admite el enrutador de la sucursal, activar el almacenamiento en caché de DNS. O bien, puede implementar un servidor DNS en la sucursal. Esto puede ser un servidor independiente o una versión de la aplicación de sucursal con funciones de supervivencia que es compatible con las capacidades DNS. Para obtener más información, póngase en contacto con su proveedor de la aplicación de sucursal con funciones de supervivencia.
   
 > [!NOTE]
-> No es necesario disponer de un controlador de dominio en un sitio de sucursal. El dispositivo de la rama que sobreviven autentica a los clientes mediante un certificado especial que envía al cliente como respuesta a la solicitud de certificado de cliente cuando inicia una sesión. 
+> No es necesario disponer de un controlador de dominio en un sitio de sucursal. La aplicación de sucursal con funciones de supervivencia autentica a los clientes mediante el uso de un certificado especial que envía al cliente en respuesta a la solicitud de certificado de cliente cuando inicia sesión en. 
   
-Skype para clientes de empresa puede descubrir el Skype para Business Server utilizando DHCP opción 120 (opción de registrador SIP). Esto puede configurarse de dos maneras:
+Skype para los clientes empresariales puede descubrir el Skype para Business Server mediante el uso de la opción de DHCP 120 (opción de registrador SIP). Esto puede configurarse de dos maneras:
   
-- Configurar el servidor DHCP en el sitio de la sucursal para responder a las consultas de 120 de DHCP, que devuelven el nombre completo del registrador en el dispositivo de sucursal que sobreviven o un servidor de sucursal que sobreviven.
+- Configurar el servidor DHCP en el sitio de sucursal para responder a las consultas de DHCP 120, que devuelven el FQDN del registrador en la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia.
     
-- Activar Skype para Business Server DHCP. Cuando esto está activado, el Skype para Registrar servidor de negocio responde a las consultas de 120 de opción de DHCP. Tenga en cuenta que el registrador no responde a las consultas DHCP que no sean de 120 de opciones DHCP.
+- Activar Skype para Business Server DHCP. Cuando esto está activado, el Skype para Business Server registrador responde a las consultas de la opción DHCP 120. Tenga en cuenta que el registrador no responde a las consultas DHCP distinto de las opciones de DHCP 120.
     
-Además, para los sitios de sucursales más grandes que tienen varias subredes, los agentes de retransmisión DHCP deben estar habilitados para reenviar consultas de 120 de opción de DHCP al servidor DHCP (configuración 1) o al registrador (configuración 2).
+Además, para los sitios de sucursal más grandes que tengan varias subredes, deben habilitarse agentes de retransmisión DHCP para reenviar consultas de la opción DHCP 120 al servidor DHCP (configuración 1) o al registrador (configuración 2).
   
-Por último, los usuarios del sitio de sucursal deben ser configurados para Telefonía IP empresarial y provisionados de un extremo de comunicaciones unificadas apropiado.
+Por último, los usuarios del sitio de sucursal deben ser configurados para Enterprise Voice y aprovisionados con un extremo de comunicaciones unificadas apropiado.
   
-#### <a name="requirements-for-survivable-branch-servers"></a>Requisitos de servidores de sucursal que sobreviven
+#### <a name="requirements-for-survivable-branch-servers"></a>Requisitos para los servidores de sucursal con funciones de supervivencia
 
-Los requisitos para los servidores de sucursal que sobreviven son lo mismo que los requisitos para un servidor Front-End. Para obtener más información, consulte [requisitos del servidor para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+Los requisitos para servidores de sucursal con funciones de supervivencia son los mismos que los requisitos para un servidor Front-End. Para obtener información detallada, vea [requisitos de servidor para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
   
-#### <a name="requirements-for-full-scale-skype-for-business-server-branch-site-deployments"></a>Requisitos de Skype a gran escala para implementaciones de Business Server sitio de sucursal
+#### <a name="requirements-for-full-scale-skype-for-business-server-branch-site-deployments"></a>Requisitos de Skype a gran escala para las implementaciones de sitio de sucursal de servidor empresarial
 
-Para obtener más información, vea [requisitos del servidor para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) en la documentación de planeamiento.
+Para obtener información detallada, vea [requisitos de servidor para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) en la documentación de planeación.
   
 ### <a name="example-configuring-a-failover-route"></a>Ejemplo: configuración de una ruta de conmutación por error
 
- En el ejemplo siguiente se muestra cómo un administrador puede definir una ruta de conmutación por error para su uso si el GW1 de Dallas se encuentra inactiva para mantenimiento o no está disponible. Las tablas siguientes ilustran el cambio de configuración necesario.
+ En el ejemplo siguiente se muestra cómo un administrador puede definir una ruta de conmutación por error para su uso si la Dallas-GW1 está inactivo para el mantenimiento o no está disponible. En las tablas siguientes ilustran el cambio de configuración necesarias.
   
 **La tabla 1. Directiva de usuario**
 
-|**Directiva de usuario**|**Uso del teléfono**|
+|**Directiva de usuario**|**Uso de teléfono**|
 |:-----|:-----|
-|Directiva predeterminada de llamada  <br/> |Local  <br/> GlobalPSTNHopoff  <br/> |
+|Directiva de llamada predeterminada  <br/> |Local  <br/> GlobalPSTNHopoff  <br/> |
 |Directiva Local de Redmond  <br/> |RedmondLocal  <br/> |
 |Directiva de llamada de Dallas  <br/> |DallasUsers  <br/> GlobalPSTNHopoff  <br/> |
    
-**La tabla 2. Rutas**
+**Tabla 2. Rutas**
 
-|**Nombre de ruta**|**Patrón de números**|**Uso del teléfono**|**Tronco**|**Puerta de enlace**|
+|**Nombre de ruta**|**Patrón de números**|**Uso de teléfono**|**Tronco**|**Puerta de enlace**|
 |:-----|:-----|:-----|:-----|:-----|
-|Ruta Local de Redmond  <br/> |^\+1 (425|206|$ 253)(\d{7})  <br/> |Local  <br/> RedmondLocal  <br/> |Trunk1  <br/> Trunk2  <br/> |Rojo-GW1  <br/> Rojo-GW2  <br/> |
-|Ruta Local de Dallas  <br/> |^\+1 (972|214|$ 469)(\d{7})  <br/> |Local  <br/> |Trunk3  <br/> |GW1 de Dallas  <br/> |
-|Ruta universal  <br/> |^\+?(\d\*)$  <br/> |GlobalPSTNHopoff  <br/> |Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> |Rojo-GW1  <br/> Rojo-GW2  <br/> GW1 de Dallas  <br/> |
-|Ruta de los usuarios de Dallas  <br/> |^\+?(\d\*)$  <br/> |DallasUsers  <br/> |Trunk3  <br/> |GW1 de Dallas  <br/> |
+|Ruta Local de Redmond  <br/> |^\+1 (425|206|253)(\d{7})$  <br/> |Local  <br/> RedmondLocal  <br/> |Trunk1  <br/> Trunk2  <br/> |Red-GW1  <br/> Red-GW2  <br/> |
+|Ruta Local de Dallas  <br/> |^\+1 (972|214|469)(\d{7})$  <br/> |Local  <br/> |Trunk3  <br/> |Dallas-GW1  <br/> |
+|Ruta universal  <br/> |^\+?(\d\*)$  <br/> |GlobalPSTNHopoff  <br/> |Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> |Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
+|Ruta de usuarios de Dallas  <br/> |^\+?(\d\*)$  <br/> |DallasUsers  <br/> |Trunk3  <br/> |Dallas-GW1  <br/> |
    
-En la tabla 1, se agrega un uso de teléfono de GlobalPSTNHopoff después de la DallasUsers uso en la directiva de Dallas llamada de teléfono. Esto habilita las llamadas con la directiva de Dallas llamando a utilizar rutas que se configuran para el uso de teléfono GlobalPSTNHopoff, si está disponible una ruta para el uso de teléfono DallasUsers.
+En la tabla 1, se agrega un uso telefónico GlobalPSTNHopoff después del uso de la directiva de llamada de Dallas telefónico DallasUsers. Esto permite que las llamadas con la directiva de llamada de Dallas usen las rutas que se configuran para el uso de teléfono GlobalPSTNHopoff si una ruta para el uso telefónico DallasUsers no está disponible.
   
 

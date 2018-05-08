@@ -7,22 +7,24 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
-description: 'Resumen: Conozca cómo configurar un enlace entre un servidor de mediación y compañeros para Telefonía IP empresarial en Skype para Business Server 2015.'
-ms.openlocfilehash: a2630d3e37e6ab15a0e88593549e9365ac69a3e7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información sobre cómo configurar un tronco entre un servidor de mediación y a los compañeros para Enterprise Voice en Skype para Business Server 2015.'
+ms.openlocfilehash: 4944cac2b06d837facf0cf014fb3a4fd32343305
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="configure-trunks-in-skype-for-business-server-2015"></a>Configurar troncos en Skype Empresarial Server 2015
  
-**Resumen:** Obtenga información sobre cómo configurar un enlace entre un servidor de mediación y compañeros para Telefonía IP empresarial en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo configurar un tronco entre un servidor de mediación y a los compañeros para Enterprise Voice en Skype para Business Server 2015.
   
-Como parte de la implementación de Telefonía IP empresarial, puede configurar un enlace entre un servidor de mediación y uno o más de los siguientes pares para proporcionar conectividad de telefónica pública conmutada (PSTN) de red para clientes de Telefonía IP empresarial y dispositivos de su organización:
+Como parte de la implementación de Enterprise Voice, puede configurar un tronco entre un servidor de mediación y uno o varios de los siguientes elementos del mismo nivel para proporcionar conectividad de telefónica conmutada (RTC) de la red de clientes de Enterprise Voice y dispositivos en su organización:
   
 - Conexión basada en troncos SIP para un proveedor de servicio s de telefonía
     
@@ -30,20 +32,20 @@ Como parte de la implementación de Telefonía IP empresarial, puede configurar 
     
 - Central de conmutación (PBX)
     
-Para obtener más detalles, consulte [Plan de conectividad PSTN en Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
+Para obtener más información, consulte [Plan para la conectividad de RTC en Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
   
-Skype para la funcionalidad de Business Server admite varias asociaciones entre los servidores de mediación y puertas de enlace. Estas asociaciones se realizan mediante la definición de un tronco, que es una asociación lógica entre un grupo de servidores de mediación y telefónica pública conmutada (PSTN) de red puerta de enlace, controlador de borde de sesión (SBC) o IP-PBX. Utilice el generador de topología para asociar las puertas de enlace con los servidores de mediación (es decir, troncos).
+Skype para la funcionalidad de Business Server admite varias asociaciones entre los servidores de mediación y puertas de enlace. Estas asociaciones se realizan mediante la definición de un tronco, que es una asociación lógica entre un grupo de servidores de mediación y una telefónica conmutada (RTC) de red puerta de enlace, controlador de borde de sesión (SBC) o IP-PBX. Use el generador de topología para asociar las puertas de enlace con los servidores de mediación (es decir, troncos).
   
-- Para asignar o quitar un tronco en Skype para Business Server, primero debe definir un tronco en el generador de topología. Un tronco consiste en la asociación siguiente: servidor de mediación completo nombre de dominio (completo FQDN), el puerto de escucha del servidor de mediación, el FQDN de la puerta de enlace y el puerto de escucha de puerta de enlace.
+- Para asignar o quitar un tronco en Skype para Business Server, primero debe definir un tronco en el generador de topología. Un tronco consta de la asociación siguiente: el servidor de mediación completo (FQDN) del nombre de dominio, el puerto de escucha del servidor de mediación, el FQDN de puerta de enlace y el puerto de escucha de puerta de enlace.
     
-- Para configurar varios troncos, puede crear varias asociaciones entre la misma puerta de enlace y el servidor de mediación. Esto proporciona resistencia adicional a la infraestructura de Telefonía IP empresarial, que es especialmente útil en escenarios interoperables de private branch exchange (PBX). 
+- Para configurar varios troncos, puede crear varias asociaciones entre la misma puerta de enlace y el servidor de mediación. Esto proporciona resistencia adicional a la infraestructura de telefonía IP empresarial, que es especialmente útil en escenarios de interoperational de central de conmutación (PBX) de exchange. 
     
-Cuando se define un tronco, debe estar asociado con una ruta. Para asociar un tronco a una ruta, define un nombre sencillo para el tronco en el generador de topología. Este nombre simple se utiliza como el nombre de tronco en el Skype Business Server Panel de Control, donde los troncos pueden asociarse con rutas. El nombre simple del tronco se utiliza como el nombre de puerta de enlace desde el Skype para el Shell de administración de servidor de empresa. 
+Cuando se define un tronco, debe estar asociado con una ruta. Para asociar un tronco a una ruta, defina un nombre sencillo para el tronco en el generador de topología. Este nombre simple se utiliza como el nombre del tronco en el Skype para el Panel de Control de servidor empresarial, donde se pueden asociadas con rutas de troncos. El nombre del tronco simple se utiliza como el nombre de la puerta de enlace de la Skype para Shell de administración de servidor empresarial. 
   
 ```
 New-CsVoiceRoute -Identity <RouteId> -NumberPattern <String> -PstnUsages @{add="<UsageString>"} -PstnGatewayList @{add="<TrunkSimpleName>"}
 ```
 
-El administrador debe seleccionar un tronco predeterminado asociado con un servidor de mediación. En el generador de topología (ratón) en el servidor de mediación asociado y, a continuación, haga clic en **Propiedades**. Especifique la puerta de enlace predeterminada para el servidor de mediación. 
+El administrador debe seleccionar un tronco predeterminado asociado con un servidor de mediación. En el generador de topología, haga clic en el servidor de mediación asociado y, a continuación, haga clic en **Propiedades**. Especifique la puerta de enlace predeterminada para el servidor de mediación. 
   
 

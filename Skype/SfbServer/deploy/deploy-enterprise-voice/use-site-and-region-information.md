@@ -1,5 +1,5 @@
 ---
-title: Configuración multimedia bypass global en Skype para Business Server 2015 utilizar la información del sitio y región
+title: Configurar la configuración global de desvío de medios en Skype para Business Server 2015 utilizar la información de sitio y región
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,31 +7,33 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
-description: Configurar la omisión de medios destinados a sólo algunos sitios y áreas de Skype para Telefonía IP empresarial de Business Server.
-ms.openlocfilehash: cebfa9d416fe3e68cd5615ae11616707ba1f60a8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Configurar el desvío de medios que se usará para sólo ciertos sitios y regiones en Skype para Business Server Enterprise Voice.
+ms.openlocfilehash: ce9daafdde21bc2d30a942ce6b888f2cc7c4e2ff
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-2015-to-use-site-and-region-information"></a>Configuración multimedia bypass global en Skype para Business Server 2015 utilizar la información del sitio y región
+# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-2015-to-use-site-and-region-information"></a>Configurar la configuración global de desvío de medios en Skype para Business Server 2015 utilizar la información de sitio y región
  
-Configurar la omisión de medios destinados a sólo algunos sitios y áreas de Skype para Telefonía IP empresarial de Business Server. 
+Configurar el desvío de medios que se usará para sólo ciertos sitios y regiones en Skype para Business Server Enterprise Voice. 
   
- Si utiliza omitir los pasos de este tema para configurar opciones globales de los medios de comunicación, la suposición es que no tiene buena conectividad entre todos los Skype para extremos de negocio y cualquier elemento del mismo nivel para el que configuró omisión de medios en la conexión de troncal.
+ Si usa el desvío de los pasos descritos en este tema para establecer la configuración global para los medios, la suposición es que no tienen una buena conectividad entre todos los Skype para los extremos de negocio y cualquier elemento del mismo nivel para los que ha configurado el desvío de medios en la conexión del tronco.
   
 > [!NOTE]
 > La información de región de red y sitio de red se comparte entre las características de Enterprise Voice avanzadas del control de admisión de llamadas y el desvío de medios cuando ambos están habilitados. Por consiguiente, si ya ha configurado el control de admisión de llamadas, no es necesario que realice el siguiente procedimiento para editar la información de región y sitio específica para la omisión de medios. Siga los pasos de este procedimiento si todavía no ha configurado los sitios y regiones de red para el control de admisión de llamadas y desea cambiar las opciones del omisión de medios. 
   
-Para omitir los medios para trabajar correctamente debe haber coherencia entre un sitio tal como se define en el generador de topología y tal y como se define al configurar regiones de red y sitios de red. Por ejemplo, si tiene un sitio de sucursal que definió en el generador de topología tiene sólo una puerta de enlace PSTN implementado, entonces ese sitio de la sucursal debe estar configurado con una directiva de Telefonía IP empresarial que permite a los usuarios del sitio de sucursal sus llamadas PSTN que se enrutan a través de la red PSTN puerta de enlace en el sitio de la sucursal.
+El desvío de medios para que funcione correctamente debe haber coherencia entre un sitio como se define en el generador de topología y tal y como se define al configurar regiones de red y sitios de red. Por ejemplo, si tiene un sitio de sucursal que definido en el generador con sólo una puerta de enlace RTC implementada, a continuación, ese sitio de sucursal debe estar configurado con una directiva de Enterprise Voice que permite a los usuarios del sitio de sucursal tiene sus llamadas RTC se enrutan a través de la RTC puerta de enlace en el sitio de sucursal.
   
 ### <a name="to-configure-site-and-region-information-for-media-bypass"></a>Configurar la información de sitio y región para el desvío de medios
 
-1. Abra una ventana del explorador y, a continuación, escriba la dirección URL de Admin para abrir el Skype para Panel de Control de servidor empresarial.  
+1. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.  
     
 2. En la barra de navegación izquierda, haga clic en **Configuración de red**.
     
@@ -50,7 +52,7 @@ Para omitir los medios para trabajar correctamente debe haber coherencia entre u
     
 A continuación, agregue subredes al sitio de red, como se describe en [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets). Cuando haya asociado todas las subredes a sitios de red, la implementación de la omisión de medios habrá finalizado.
 > [!IMPORTANT]
-> Si todavía no ha creado regiones de red y sitios de red, deberá crearlos en primer lugar para poder continuar con la implementación de la omisión de medios. Para obtener más información, vea [implementar regiones de red, sitios y subredes en Skype para negocios 2015](deploy-network.md). 
+> Si todavía no ha creado regiones de red y sitios de red, deberá crearlos en primer lugar para poder continuar con la implementación de la omisión de medios. Para obtener información detallada, consulte [Deploy regiones de red, sitios y las subredes de Skype para profesionales de 2015](deploy-network.md). 
   
 ## <a name="see-also"></a>Vea también
 

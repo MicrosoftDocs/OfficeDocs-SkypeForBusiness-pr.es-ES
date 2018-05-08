@@ -7,48 +7,50 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
-description: Diseñar y crear flujos de trabajo de grupo de respuesta, en Skype para Telefonía IP empresarial de Business Server. Se cubren tanto los flujos de trabajo de grupo de extensiones como los flujos de trabajo interactivos.
-ms.openlocfilehash: acbe37456f644ab387da57942cccf8fee527a16e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Diseñar y crear flujos de trabajo de grupo de respuesta, en Skype para Business Server Enterprise Voice. Se cubren tanto los flujos de trabajo de grupo de extensiones como los flujos de trabajo interactivos.
+ms.openlocfilehash: 71380d7dc048663eca9543a31d67462ead0321c3
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business-2015"></a>Diseñar y crear flujos de trabajo de grupo de respuesta en Skype Empresarial 2015
  
-Diseñar y crear flujos de trabajo de grupo de respuesta, en Skype para Telefonía IP empresarial de Business Server. Se cubren tanto los flujos de trabajo de grupo de extensiones como los flujos de trabajo interactivos.
+Diseñar y crear flujos de trabajo de grupo de respuesta, en Skype para Business Server Enterprise Voice. Se cubren tanto los flujos de trabajo de grupo de extensiones como los flujos de trabajo interactivos.
   
-Un flujo de trabajo define el comportamiento de una llamada desde el momento en que suena el teléfono hasta que alguien la atiende. El flujo de trabajo especifica la cola a utilizar para la celebración de la llamada y el método de enrutamiento para usar para que flujos de trabajo de grupo de captura o las preguntas y respuestas para utilizar flujos de trabajo de grupo de respuesta interactiva. 
+Un flujo de trabajo define el comportamiento de una llamada desde el momento en que suena el teléfono hasta que alguien la atiende. El flujo de trabajo especifica la cola que desee utilizar para contener la llamada y el método de enrutamiento debe usar para que los flujos de trabajo de grupo de extensiones o las preguntas y respuestas que se usará para los flujos de trabajo de grupo de respuesta interactiva. 
   
 Un flujo de trabajo también define configuraciones como el mensaje de bienvenida, la música en espera, horario laboral y los días festivos.
   
 > [!NOTE]
 > Debe crear grupos de agentes y colas antes de crear un flujo de trabajo que use dichos elementos. 
   
-## <a name="creating-or-modifying-a-hunt-group-workflow"></a>Creación o modificación de un flujo de trabajo de grupo de captura
+## <a name="creating-or-modifying-a-hunt-group-workflow"></a>Creación o modificación de un flujo de trabajo de grupo de búsqueda
 
-### <a name="to-use-response-group-configuration-tool-to-create-or-modify-a-hunt-group-workflow"></a>Utilizar la herramienta de configuración de grupo de respuesta para crear o modificar un flujo de trabajo de grupo de captura
+### <a name="to-use-response-group-configuration-tool-to-create-or-modify-a-hunt-group-workflow"></a>Para usar la herramienta de configuración de grupo de respuesta para crear o modificar un flujo de trabajo de grupo de búsqueda
 
 1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins o como miembro de uno de los roles administrativos predefinidos que admiten el Grupo de respuesta.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de Admin para abrir el Skype para Panel de Control de servidor empresarial.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.  
     
 3. En la barra de navegación izquierda, haga clic en **Grupos de respuesta** y después en **Flujo de trabajo**.
     
 4. En la página **Flujo de trabajo**, haga clic en **Crear o editar un flujo de trabajo**.
     
-5. En el campo **Seleccione un servicio** de búsqueda, escriba todo o parte del nombre del servicio **ApplicationServer** que aloja el flujo de trabajo que desea crear o cambiar. En la lista de resultados que aparece, haga clic en el servicio que desea y en **Aceptar**.
+5. En el campo de búsqueda **Seleccionar un servicio** , escriba todo o parte del nombre del servicio **ApplicationServer** que hospeda el flujo de trabajo que desea crear o cambiar. En la lista de resultados que aparece, haga clic en el servicio que desea y en **Aceptar**.
     
     > [!NOTE]
-    > Se abre la herramienta de configuración de grupo de respuesta. También puede abrir la herramienta de configuración de grupo de respuesta directamente desde un explorador web escribiendo la siguiente URL: https:// _ \<webPoolFqdn\>_/RgsConfig. 
+    > Se abre la herramienta de configuración de grupo de respuesta. También puede abrir la herramienta de configuración de grupo de respuesta directamente desde un explorador web, escriba la siguiente dirección URL: https:// _ \<Fqdngrupoweb\>_/RgsConfig. 
   
 6. Siga uno de estos pasos:
     
-   - En **crear un nuevo flujo de trabajo**, junto a **Grupo de captura, haga clic en crear**.
+   - En **crear un nuevo flujo de trabajo**, junto a **Grupo de extensiones, haga clic en crear**.
     
    - En **Administrar un flujo de trabajo existente**, localice el flujo de trabajo que desea cambiar y, a continuación, en **Acción**, haga clic en **Editar**.
     
@@ -60,10 +62,10 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 8. Para permitir que los usuarios federados puedan llamar al grupo, active la casilla **Habilitar para federación**. También debe tener una directiva de acceso externo que se aplica a la aplicación de grupo de respuesta configurada para la federación.
     
     > [!NOTE]
-    > La directiva de acceso externo global se aplica a la aplicación de grupo de respuesta. Puede configurar la directiva global para la federación del grupo de respuesta mediante Skype para Panel de Control de servidor empresarial o mediante el cmdlet **Set-CsExternalAccessPolicy** para establecer el parámetro EnableOutsideAccess en True. Recuerde que la configuración de la directiva global se aplica a todos los usuarios, a menos que se les haya asignado una directiva de usuario o de sitio. Por lo tanto, antes de cambiar la configuración de los grupos de respuesta, asegúrese de que la configuración de la federación cumpla los requisitos de la organización. Para obtener más información acerca de cómo se aplican las directivas para los usuarios, vea [Administrar directiva de acceso externo para su organización](http://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Para obtener más información acerca de la configuración de la federación, consulte [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps). 
+    > La directiva de acceso externo global se aplica a la aplicación de grupo de respuesta. Puede configurar la directiva global para la federación de grupo de respuesta mediante el uso de Skype para el Panel de Control de servidor empresarial o mediante el cmdlet **Set-CsExternalAccessPolicy** para establecer el parámetro EnableOutsideAccess en True. Recuerde que la configuración de la directiva global se aplica a todos los usuarios, a menos que se les haya asignado una directiva de usuario o de sitio. Por lo tanto, antes de cambiar la configuración de los grupos de respuesta, asegúrese de que la configuración de la federación cumpla los requisitos de la organización. Para obtener información detallada acerca de cómo aplican las directivas a los usuarios, vea [Administración de directiva de acceso externo para su organización](http://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Para obtener información detallada acerca de la configuración de federación, vea [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps). 
   
     > [!NOTE]
-    > Los usuarios que están alojados en Skype para los negocios en línea no pueden realizar llamadas a los grupos de respuesta que se alojan en una implementación local. Esto es cierto en ambas implementaciones híbridas y, en casos donde una implementación local está asociada a un Skype para la implementación de los negocios en línea. 
+    > Los usuarios que se hospedan en Skype para profesionales en línea no pueden realizar llamadas a grupos de respuesta que se hospedan en una implementación local. Esto es así en ambas implementaciones híbridas y en los casos donde una implementación local está asociada con un Skype para la implementación empresarial en línea. 
   
 9. Para ocultar la identidad de los agentes durante las llamadas, active la casilla **Habilitar anonimato de agente**.
     
@@ -73,9 +75,9 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 10. En **Especifique la dirección del grupo que recibirá las llamadas**, escriba la dirección del identificador uniforme de recursos (URI) del SIP primario del grupo que responderá las llamadas al flujo de trabajo.
     
     > [!NOTE]
-    > El URI principal de un flujo de trabajo es la forma cómo se identifica y se denomina el flujo de trabajo. El URI de SIP que especifique se crea como un objeto de contacto en servicios de dominio de Active Directory. Para crear el identificador URI, el objeto debe ser único en Active Directory. 
+    > El URI principal de un flujo de trabajo es la forma cómo se identifica y se denomina el flujo de trabajo. El URI de SIP que especifique se crea como un objeto de contacto en los servicios de dominio de Active Directory. Para crear el identificador URI, el objeto debe ser único en Active Directory. 
   
-11. En **nombre para mostrar**, escriba el nombre que desea mostrar el flujo de trabajo (por ejemplo, el grupo de respuesta de ventas).
+11. En **nombre para mostrar**, escriba el nombre que se va a mostrar para el flujo de trabajo (por ejemplo, grupo de respuesta de ventas).
     
     > [!NOTE]
     > No incluya los caracteres "<" o ">" en el nombre para mostrar. No use los siguientes nombres para mostrar porque están reservados: **RGS Presence Watcher** o **Announcement Service**. 
@@ -84,9 +86,9 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
     
 13. En **Número para mostrar**, escriba el número tal como desea que aparezca para el grupo de respuesta (por ejemplo, +1 (425) 555-0165).
     
-14. (Opcional) En **Descripción**, escriba una descripción para el flujo de trabajo como desee que aparezca en la tarjeta de contacto en Skype para el negocio.
+14. (Opcional) En **Descripción**, escriba una descripción para el flujo de trabajo tal como desea que aparezca en la tarjeta de contacto de Skype para la empresa.
     
-15. En **Tipo de flujo de trabajo**, seleccione **Administrado** si este flujo de trabajo va a ser administrado por un administrador de grupos de respuesta. Siga este procedimiento para asignar a administradores de grupo de respuesta al flujo de trabajo:
+15. En **Tipo de flujo de trabajo**, seleccione **Administrado** si este flujo de trabajo va a ser administrado por un administrador de grupos de respuesta. Realice lo siguiente para asignar a administradores del grupo de respuesta para el flujo de trabajo:
     
     a. Escriba el URI del SIP de un administrador para este flujo de trabajo y haga clic en **Agregar**.
     
@@ -107,7 +109,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
    - Para usar una grabación de un archivo de audio de Windows Media (.wma) o WAVE (.wav) para el mensaje de bienvenida, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo de audio y luego haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
     
     > [!NOTE]
-    > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener más información acerca de formatos de archivo compatibles, vea [Requisitos técnicos para los grupos de respuesta](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
+    > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo compatibles, vea [Requisitos técnicos para grupos de respuesta](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
   
 18. En **Paso 4 Especificar horario comercial**, en el cuadro **Su zona horaria**, haga clic en la zona horaria para el flujo de trabajo.
     
@@ -119,7 +121,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
    - Para usar una programación predefinida de horario comercial, haga clic en **Usar una programación preestablecida** y después seleccione el horario que desea utilizar en la lista desplegable.
     
      > [!NOTE]
-     > Debe definir al menos una programación preestablecida previamente para poder seleccionar esta opción. Puede definir programaciones preestablecidas con el cmdlet **New-CSRgsHoursOfBusiness**. Para obtener información detallada, vea [grupo de respuesta (opcional) definir el horario en Skype para negocios 2015](optional-define-response-group-business-hours.md). 
+     > Debe definir al menos una programación preestablecida previamente para poder seleccionar esta opción. Puede definir programaciones preestablecidas con el cmdlet **New-CSRgsHoursOfBusiness**. Para obtener información detallada, vea el [grupo de respuesta (opcional) definir el horario en Skype para profesionales de 2015](optional-define-response-group-business-hours.md). 
   
      > [!NOTE]
      > Cuando selecciona una programación preestablecida, **Día**, **Abrir** y **Cerrar** se rellenan automáticamente con los días y las horas en los que el grupo de respuesta se encuentra disponible.
@@ -143,7 +145,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
    - Para usar una grabación en un archivo de audio para el mensaje, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea usar y después haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
     
      > [!NOTE]
-     > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener más información acerca de los formatos de archivos de audio admitidos, consulte [Los requisitos técnicos para los grupos de respuesta](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
+     > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo de audio compatibles, vea [Requisitos técnicos para grupos de respuesta](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
   
 23. Especifique cómo abordar las llamadas tras la reproducción del mensaje (si se ha configurado uno):
     
@@ -158,7 +160,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 24. En **Paso 5 Especificar vacaciones**, haga clic en las casillas para uno o más conjuntos de vacaciones que definan los días en los que el grupo de respuesta no esté laboralmente disponible.
     
     > [!NOTE]
-    > Defina las vacaciones y los conjuntos de vacaciones antes de configurar el flujo de trabajo. Para ello, use los cmdlets **New-CsRgsHoliday** y **New-CsRgsHolidaySet**. Para obtener detalles, vea [conjuntos de vacaciones de grupos de respuesta de definir (opcional) en Skype para negocios 2015](optional-define-response-group-holiday-sets.md). 
+    > Defina las vacaciones y los conjuntos de vacaciones antes de configurar el flujo de trabajo. Para ello, use los cmdlets **New-CsRgsHoliday** y **New-CsRgsHolidaySet**. Para obtener información detallada, vea el [grupo de respuesta (opcional) definir conjuntos de días festivos en Skype para profesionales de 2015](optional-define-response-group-holiday-sets.md). 
   
 25. Si desea reproducir un mensaje durante las vacaciones, active la casilla **Reproducir un mensaje durante las vacaciones** y después especifique el mensaje que se va a reproducir con uno de los siguientes procedimientos:
     
@@ -170,7 +172,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
    - Para usar una grabación en un archivo de audio para el mensaje, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea usar y después haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
     
      > [!NOTE]
-     > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener más información acerca de los formatos de archivos de audio admitidos, consulte [Los requisitos técnicos para los grupos de respuesta](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
+     > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo de audio compatibles, vea [Requisitos técnicos para grupos de respuesta](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
   
 26. Especifique cómo abordar las llamadas tras la reproducción del mensaje (si se ha configurado uno):
     
@@ -191,11 +193,11 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
    - Para usar una grabación de un archivo de audio para la música en espera, haga clic en **Seleccionar un archivo de música**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **un archivo de música**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea usar y después haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
     
      > [!NOTE]
-     > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener más información acerca de los formatos de archivos de audio admitidos, consulte [Los requisitos técnicos para los grupos de respuesta](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
+     > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo de audio compatibles, vea [Requisitos técnicos para grupos de respuesta](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
   
 29. Haga clic en **Implementar**.
     
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>Usar Skype para negocios de Shell de administración de servidor para crear o modificar un flujo de trabajo de grupo de captura
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>Usar Skype para Shell de administración de servidor empresarial para crear o modificar un flujo de trabajo de grupo de búsqueda
 
 1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins o como miembro de uno de los roles administrativos predefinidos que admiten el Grupo de respuesta.
     
@@ -214,7 +216,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
    ```
 
      > [!NOTE]
-     > Para utilizar un archivo de audio para el símbolo del sistema, use el cmdlet **Import-CsRgsAudioFile** . Para obtener más información, consulte [CsRgsAudioFile de importación](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
+     > Para usar un archivo de audio para el símbolo del sistema, use el cmdlet **Import-CsRgsAudioFile** . Para obtener información detallada, vea [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 4. Obtenga la identidad de la cola o la pregunta a la que se dirigirán las llamadas. En la línea de comandos, ejecute:
     
@@ -222,7 +224,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
    $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
    ```
 
-    Para obtener más información acerca de la creación de la cola, consulte [CsRgsQueue de nuevo](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps).
+    Para obtener información detallada sobre la creación de la cola, vea [New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps).
     
 5. Defina la acción que se ejecutará cuando un flujo de trabajo se abra en horas de trabajo y guárdela en una variable. En la línea de comandos, ejecute:
     
@@ -239,17 +241,17 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
    ```
 
-6. Si desea definir horas laborables y vacaciones, debe crearlas antes de crear o modificar el flujo de trabajo. Para obtener información detallada, vea [grupo de respuesta (opcional) definir el horario en Skype para negocios 2015](optional-define-response-group-business-hours.md) y [(opcional) definir respuesta vacaciones conjuntos en Skype para negocios 2015](optional-define-response-group-holiday-sets.md).
+6. Si desea definir horas laborables y vacaciones, debe crearlas antes de crear o modificar el flujo de trabajo. Para obtener información detallada, vea el [grupo de respuesta (opcional) definir el horario en Skype para 2015 de negocio](optional-define-response-group-business-hours.md) y [grupo de respuesta (opcional) definir conjuntos de días festivos en Skype para profesionales de 2015](optional-define-response-group-holiday-sets.md).
     
-7. Si desea tener mensajes para las llamadas que se reciben fuera del horario laboral o en festivos, utilice el cmdlet **New-CsRgsPrompt** para definir el símbolo del sistema y utilice el **Nuevo CsRgsCallAction** para definir la acción que se realizará después del símbolo del sistema. Para obtener más información, consulte [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps) y [CsRgsCallAction de nuevo](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps).
+7. Si desea tener mensajes para las llamadas que se reciben fuera del horario laboral o en días festivos, use el cmdlet **New-CsRgsPrompt** para definir el símbolo del sistema y use el **New-CsRgsCallAction** para definir la acción que se realizará después el símbolo del sistema. Para obtener información detallada, vea [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps) y [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps).
     
-8. Recuperar el nombre del servicio para el servicio de grupo de respuesta de Lync Server y asignarlo a una variable. En la línea de comandos, ejecute:
+8. Recuperar el nombre del servicio para el servicio de grupo de respuesta de Lync Server y asignarla a una variable. En la línea de comandos, ejecute:
     
    ```
    $serviceId="service:"+(Get-CSService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
-9. Cree o modifique el flujo de trabajo. Para crear un flujo de trabajo, utilice **CsRgsWorkflow de nuevo**. Para modificar un flujo de trabajo, utilice el **Conjunto CsRgsWorkflow**. En la línea de comandos, escriba lo siguiente:
+9. Cree o modifique el flujo de trabajo. Para crear un flujo de trabajo, use **New-CsRgsWorkflow**. Para modificar un flujo de trabajo, use **Set-CsRgsWorkflow**. En la línea de comandos, escriba lo siguiente:
     
    ```
    $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-MangersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
@@ -265,22 +267,22 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
      > Todos los usuarios que hayan sido designados administradores de flujos de trabajo deben tener asignado el rol CsResponseGroupManager. 
   
      > [!NOTE]
-     > Para obtener más información acerca de otros parámetros opcionales, vea [New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps) o [CsRgsWorkflow del conjunto](https://docs.microsoft.com/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
+     > Para obtener información detallada acerca de los parámetros opcionales adicionales, vea [New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps) o [Set-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
   
 ## <a name="designing-an-interactive-workflow"></a>Diseñar un flujo de trabajo interactivo
 
-Puede utilizar la respuesta de voz interactiva (IVR) para obtener información de los llamadores y dirija la llamada a la cola adecuada. Pares de preguntas y respuestas determinan qué cola se debe utilizar. Según la respuesta del llamador, el llamador recibe una pregunta de seguimiento o se enruta a la cola adecuada. Las preguntas de IVR y las respuestas del llamador se proporcionan para el agente responde que acepta la llamada, que proporciona información valiosa para el agente.
+Puede usar la respuesta interactiva de voz (IVR) para obtener información de autores de llamadas y dirigir la llamada a la cola adecuada. Pares de preguntas y respuestas determinan qué cola que desee utilizar. Dependiendo de la respuesta del autor, el autor de la llamada oye una pregunta de seguimiento o se enruta a la cola adecuada. Las preguntas de IVR y las respuestas del autor de la llamada se proporcionan al agente encargado de responder que acepta la llamada, que proporciona información valiosa para el agente.
   
 ### <a name="overview-of-ivr-features"></a>Información general de las características de IVR
 
 La aplicación de grupo de respuesta ofrece el reconocimiento de voz y capacidades de texto a voz en 26 idiomas. Puede formular preguntas al IVR mediante texto a voz o un archivo wave (.wave) o Windows Media Audio (.wma). Los autores de las llamadas pueden responder mediante voz o tono de marcado de frecuencia múltiple (DTMF).
   
-Los flujos de trabajo interactivos admiten hasta dos niveles de preguntas; cada una de las preguntas tiene cuatro respuestas posibles. El IVR realiza al llamador una pregunta y según la respuesta del llamador, dirige el llamador a una cola o realiza una segunda pregunta. La segunda pregunta también puede tener cuatro respuestas posibles. Según la respuesta a la pregunta de segundo nivel, el autor de la llamada se enruta a la cola adecuada.
+Los flujos de trabajo interactivos admiten hasta dos niveles de preguntas; cada una de las preguntas tiene cuatro respuestas posibles. IVR realiza el autor de la llamada una pregunta y según la respuesta del autor, enruta el autor de la llamada a una cola o realiza una segunda pregunta. La segunda pregunta también puede tener cuatro respuestas posibles. Según la respuesta a la pregunta de segundo nivel, el autor de la llamada se enruta a la cola adecuada.
   
 > [!NOTE]
-> Al diseñar flujos de llamada utilizando Skype para negocios de Shell de administración de servidor, puede definir cualquier número de niveles de preguntas IVR y cualquier número de respuestas. Sin embargo, para mejorar la usabilidad, le recomendamos que no use más de tres niveles de preguntas, con no más de cinco respuestas por pregunta. Además, si diseña un flujo de llamadas que tiene más de dos niveles de preguntas con más de cuatro respuestas cada, no puede modificar el flujo de llamadas mediante Skype para Panel de Control de servidor empresarial. 
+> Al diseñar flujos de llamadas mediante el uso de Skype para Shell de administración de servidor empresarial, puede definir cualquier número de niveles de preguntas de IVR y cualquier número de respuestas. Sin embargo, para mejorar la usabilidad, le recomendamos que no use más de tres niveles de preguntas, con no más de cinco respuestas por pregunta. Además, si diseña un flujo de llamada que tiene más de dos niveles de preguntas con más de cuatro respuestas cada, no se puede editar el flujo de llamadas mediante el uso de Skype para el Panel de Control de servidor empresarial. 
   
-Las preguntas de IVR y las respuestas del llamador se proporcionan para el agente responde que acepta la llamada.
+Las preguntas de IVR y las respuestas del autor de la llamada se proporcionan al agente encargado de responder que acepta la llamada.
   
 ### <a name="working-with-speech-technologies"></a>Trabajar con tecnologías de voz
 
@@ -300,7 +302,7 @@ Los siguientes apartados contienen ejemplos de escenarios de IVR y pares de preg
   
 #### <a name="ivr-with-one-level-of-questions"></a>IVR con preguntas de un nivel
 
-En el ejemplo siguiente se muestra un IVR con un nivel de preguntas. Utiliza el reconocimiento de voz para detectar la respuesta del llamador.
+En el ejemplo siguiente se muestra un IVR con un nivel de preguntas. Utiliza el reconocimiento de voz para detectar la respuesta del autor.
   
  **Pregunta:** "Gracias por llamar a Recursos Humanos. Si desea hablar con Nóminas, diga nóminas. Si no, diga Recursos humanos".
   
@@ -354,9 +356,9 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     
 - Si desea incluir un mensaje largo, puede añadirlo a la primera pregunta, en lugar del mensaje de bienvenida. Los autores de las llamadas pueden omitir el mensaje si forma parte de la primera pregunta, respondiéndola, pero no pueden omitir el mensaje de bienvenida.
     
-- Hable en lenguaje del llamador. Evite usar un lenguaje rebuscado. Hable con naturalidad.
+- Hable en idioma el autor de la llamada. Evite usar un lenguaje rebuscado. Hable con naturalidad.
     
-- Escriba indicaciones efectivas. Quite todas las opciones innecesarias. Estructura de la información para que el llamador espera respuesta está al final de la frase. Por ejemplo, "para hablar con el equipo de ventas, presione 1."
+- Escriba indicaciones efectivas. Quite todas las opciones innecesarias. Estructura de la información para que el autor de la llamada esperaba respuesta está al final de la oración. Por ejemplo, "para hablar con el equipo de ventas, presione 1."
     
 - Haga que las respuestas de voz sean fáciles para el usuario. Por ejemplo, si incluye respuestas de DTMF y de voz, use algo así: "Para hablar con el equipo de ventas, pulse 1 o diga ventas".
     
@@ -364,20 +366,20 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     
 ## <a name="creating-or-modifying-an-interactive-workflow"></a>Crear o modificar un flujo de trabajo interactivo
 
-### <a name="to-use-response-group-configuration-tool-to-create-or-modify-an-interactive-workflow"></a>Utilizar la herramienta de configuración de grupo de respuesta para crear o modificar un flujo de trabajo interactivo
+### <a name="to-use-response-group-configuration-tool-to-create-or-modify-an-interactive-workflow"></a>Para usar la herramienta de configuración de grupo de respuesta para crear o modificar un flujo de trabajo interactivo
 
 1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins o como miembro de uno de los roles administrativos predefinidos que admiten el Grupo de respuesta.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de Admin para abrir el Skype para Panel de Control de servidor empresarial.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.  
     
 3. En la barra de navegación izquierda, haga clic en **Grupos de respuesta** y después en **Flujo de trabajo**.
     
 4. En la página **Flujo de trabajo**, haga clic en **Crear o editar un flujo de trabajo**.
     
-5. En el campo **Seleccione un servicio** de búsqueda, escriba todo o parte del nombre del servicio **ApplicationServer** que aloja el flujo de trabajo que desea crear o modificar. En la lista de resultados que aparece, haga clic en el servicio que desea y en **Aceptar**.
+5. En el campo de búsqueda **Seleccionar un servicio** , escriba todo o parte del nombre del servicio **ApplicationServer** que hospeda el flujo de trabajo que desea crear o modificar. En la lista de resultados que aparece, haga clic en el servicio que desea y en **Aceptar**.
     
     > [!NOTE]
-    > Se abre la herramienta de configuración de grupo de respuesta. También puede abrir la herramienta de configuración de grupo de respuesta directamente desde un explorador web escribiendo la siguiente URL: https:// _ \<webPoolFqdn\>_/RgsConfig. 
+    > Se abre la herramienta de configuración de grupo de respuesta. También puede abrir la herramienta de configuración de grupo de respuesta directamente desde un explorador web, escriba la siguiente dirección URL: https:// _ \<Fqdngrupoweb\>_/RgsConfig. 
   
 6. Siga uno de estos pasos:
     
@@ -393,10 +395,10 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 8. Para permitir que los usuarios federados puedan llamar al grupo, active la casilla **Habilitar para federación**. También debe tener una directiva de acceso externo que se aplica a la aplicación de grupo de respuesta configurada para la federación.
     
     > [!NOTE]
-    > La directiva de acceso externo global se aplica a la aplicación de grupo de respuesta. Puede configurar la directiva global para la federación del grupo de respuesta mediante Skype para Panel de Control de servidor empresarial o mediante el cmdlet **Set-CsExternalAccessPolicy** para establecer el parámetro EnableOutsideAccess en True. Recuerde que la configuración de la directiva global se aplica a todos los usuarios, a menos que se les haya asignado una directiva de usuario o de sitio. Por lo tanto, antes de cambiar la configuración de los grupos de respuesta, asegúrese de que la configuración de la federación cumpla los requisitos de la organización. Para obtener más información acerca de cómo se aplican las directivas para los usuarios, vea [Administrar directiva de acceso externo para su organización](http://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Para obtener más información acerca de la configuración de la federación, consulte **CsExternalAccessPolicy del conjunto** de documentación..
+    > La directiva de acceso externo global se aplica a la aplicación de grupo de respuesta. Puede configurar la directiva global para la federación de grupo de respuesta mediante el uso de Skype para el Panel de Control de servidor empresarial o mediante el cmdlet **Set-CsExternalAccessPolicy** para establecer el parámetro EnableOutsideAccess en True. Recuerde que la configuración de la directiva global se aplica a todos los usuarios, a menos que se les haya asignado una directiva de usuario o de sitio. Por lo tanto, antes de cambiar la configuración de los grupos de respuesta, asegúrese de que la configuración de la federación cumpla los requisitos de la organización. Para obtener información detallada acerca de cómo aplican las directivas a los usuarios, vea [Administración de directiva de acceso externo para su organización](http://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Para obtener información detallada acerca de la configuración de federación, consulte **Set-CsExternalAccessPolicy** en la documentación de..
   
     > [!NOTE]
-    > Los usuarios que están alojados en Skype para los negocios en línea no pueden realizar llamadas a los grupos de respuesta que se alojan en una implementación local. Esto es cierto en ambas implementaciones híbridas y, en casos donde una implementación local está asociada a un Skype para la implementación de los negocios en línea. 
+    > Los usuarios que se hospedan en Skype para profesionales en línea no pueden realizar llamadas a grupos de respuesta que se hospedan en una implementación local. Esto es así en ambas implementaciones híbridas y en los casos donde una implementación local está asociada con un Skype para la implementación empresarial en línea. 
   
 9. Para ocultar la identidad de los agentes durante las llamadas, active la casilla **Habilitar anonimato de agente**.
     
@@ -414,9 +416,9 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     
 13. En **Número para mostrar**, escriba el número tal como desea que aparezca para el grupo de respuesta (por ejemplo, +1 (425) 555-0165).
     
-14. (Opcional) En **Descripción**, escriba una descripción para el flujo de trabajo que desea que aparezca en la tarjeta de contacto en Skype para el negocio. 
+14. (Opcional) En **Descripción**, escriba una descripción para el flujo de trabajo que desea que aparezca en la tarjeta de contacto de Skype para la empresa. 
     
-15. En **Tipo de flujo de trabajo**, seleccione **Administrado** si este flujo de trabajo va a ser administrado por un administrador de grupos de respuesta. Siga este procedimiento para asignar a administradores de grupo de respuesta al flujo de trabajo:
+15. En **Tipo de flujo de trabajo**, seleccione **Administrado** si este flujo de trabajo va a ser administrado por un administrador de grupos de respuesta. Realice lo siguiente para asignar a administradores del grupo de respuesta para el flujo de trabajo:
     
     a. Escriba el URI del SIP de un administrador para este flujo de trabajo y haga clic en **Agregar**.
     
@@ -437,7 +439,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     - Para usar una grabación de archivos de Wave o Windows Media Audio para el mensaje de bienvenida, haga clic en **Seleccionar una grabación**. Si desea cargar un nuevo archivo de audio, haga clic en el vínculo de **una grabación**. En la nueva ventana de explorador, haga clic en **Examinar**, seleccione el archivo de audio que desea usar y haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
     
     > [!NOTE]
-    > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener más información acerca de formatos de archivo compatibles, vea [Requisitos técnicos para los grupos de respuesta](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
+    > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo compatibles, vea [Requisitos técnicos para grupos de respuesta](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
   
 18. En **Paso 4 Especificar horario comercial**, en el cuadro **Su zona horaria**, haga clic en la zona horaria del flujo de trabajo.
     
@@ -449,7 +451,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
    - Para usar una programación predefinida de horario comercial, haga clic en **Usar una programación preestablecida** y después seleccione el horario que desea utilizar en la lista desplegable.
     
      > [!NOTE]
-     > Debe definir al menos una programación preestablecida previamente para poder seleccionar esta opción. Puede definir programaciones preestablecidas con el cmdlet **New-CSRgsHoursOfBusiness**. Para obtener información detallada, vea [grupo de respuesta (opcional) definir el horario en Skype para negocios 2015](optional-define-response-group-business-hours.md). Cuando selecciona una programación preestablecida, **Día**, **Abrir** y **Cerrar** se rellenan automáticamente con los días y las horas en los que el grupo de respuesta se encuentra disponible.
+     > Debe definir al menos una programación preestablecida previamente para poder seleccionar esta opción. Puede definir programaciones preestablecidas con el cmdlet **New-CSRgsHoursOfBusiness**. Para obtener información detallada, vea el [grupo de respuesta (opcional) definir el horario en Skype para profesionales de 2015](optional-define-response-group-business-hours.md). Cuando selecciona una programación preestablecida, **Día**, **Abrir** y **Cerrar** se rellenan automáticamente con los días y las horas en los que el grupo de respuesta se encuentra disponible.
   
    - Para usar una programación personalizada que se aplique solo a este flujo de trabajo, haga clic en **Usar una programación personalizada**.
     
@@ -470,7 +472,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     - Para usar una grabación en un archivo de audio para el mensaje, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea usar y después haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
     
     > [!NOTE]
-    > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener más información acerca de formatos de archivo compatibles, vea [Requisitos técnicos para los grupos de respuesta](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
+    > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo compatibles, vea [Requisitos técnicos para grupos de respuesta](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
   
 23. Especifique cómo abordar las llamadas tras la reproducción del mensaje (si se ha configurado uno):
     
@@ -485,7 +487,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 24. En **Paso 5 Especificar vacaciones**, haga clic en las casillas para uno o más conjuntos de vacaciones que definan los días en los que el grupo de respuesta no esté laboralmente disponible.
     
     > [!NOTE]
-    > Defina las vacaciones y los conjuntos de vacaciones antes de configurar el flujo de trabajo. Para ello, use los cmdlets **New-CsRgsHoliday** y **New-CsRgsHolidaySet**. Para obtener detalles, vea [conjuntos de vacaciones de grupos de respuesta de definir (opcional) en Skype para negocios 2015](optional-define-response-group-holiday-sets.md). 
+    > Defina las vacaciones y los conjuntos de vacaciones antes de configurar el flujo de trabajo. Para ello, use los cmdlets **New-CsRgsHoliday** y **New-CsRgsHolidaySet**. Para obtener información detallada, vea el [grupo de respuesta (opcional) definir conjuntos de días festivos en Skype para profesionales de 2015](optional-define-response-group-holiday-sets.md). 
   
 25. Si desea reproducir un mensaje durante las vacaciones, active la casilla **Reproducir un mensaje durante las vacaciones** y después especifique el mensaje que se va a reproducir con uno de los siguientes procedimientos:
     
@@ -497,7 +499,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
    - Para usar una grabación en un archivo de audio para el mensaje, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea usar y después haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
     
      > [!NOTE]
-     > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener más información acerca de los formatos de archivos de audio admitidos, consulte [Los requisitos técnicos para los grupos de respuesta](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
+     > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo de audio compatibles, vea [Requisitos técnicos para grupos de respuesta](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
   
 26. Especifique cómo abordar las llamadas tras la reproducción del mensaje (si se ha configurado uno):
     
@@ -516,7 +518,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     - Para usar una grabación de archivo de audio para la música en espera, haga clic en **Seleccionar un archivo de música**. Si desea cargar un nuevo archivo de audio, haga clic en el vínculo de   **un archivo de música**. En la nueva ventana de explorador, haga clic en **Examinar**, seleccione el archivo de audio que desea usar y haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
     
     > [!NOTE]
-    > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener más información acerca de formatos de archivo compatibles, vea [Requisitos técnicos para los grupos de respuesta](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
+    > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo compatibles, vea [Requisitos técnicos para grupos de respuesta](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
   
 28. En **Paso 7 Configurar una respuesta interactiva de voz**, en   **El usuario escuchará el siguiente texto o mensaje grabado**, especifique la pregunta que desea formular a los autores de las llamadas, como se indica a continuación:
     
@@ -528,10 +530,10 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     > [!NOTE]
     > El motor de conversión de texto a voz traduce el símbolo "#" como la palabra "número". Si necesita hacer referencia a la tecla #, debe usar el nombre de tecla, en lugar de el símbolo, en el mensaje de asistencia por voz. Por ejemplo, "Para hablar con el departamento de ventas, presione la tecla almohadilla". 
   
-   - Para usar un archivo de audio pregrabado que contiene la pregunta, haga clic en **Seleccionar una grabación** y en el vínculo **una grabación** para cargar el archivo. En la nueva ventana de explorador, haga clic en **Examinar**, seleccione el archivo de audio y haga clic en **Abrir**. Haga clic en **cargar** para cargar el archivo y, opcionalmente, puede escribir la pregunta en el cuadro de texto (que permite la pregunta y la respuesta del llamador, se reenvíen al agente responde).
+   - Para usar un archivo de audio pregrabado que contiene la pregunta, haga clic en **Seleccionar una grabación** y en el vínculo **una grabación** para cargar el archivo. En la nueva ventana de explorador, haga clic en **Examinar**, seleccione el archivo de audio y haga clic en **Abrir**. Haga clic en **cargar** para cargar el archivo y, a continuación, opcionalmente, puede escribir la pregunta en el cuadro de texto (Esto permite que la pregunta y la respuesta del autor, se transfieran al agente encargado de responder).
     
      > [!NOTE]
-     > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener más información acerca de formatos de archivo compatibles, vea [Requisitos técnicos para los grupos de respuesta](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
+     > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo compatibles, vea [Requisitos técnicos para grupos de respuesta](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
   
 29. En **Respuesta 1**, especifique la primera respuesta posible a la pregunta con este procedimiento:
     
@@ -555,7 +557,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     
 32. Haga clic en **Implementar**.
     
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-interactive-workflow"></a>Usar Skype para negocios de Shell de administración de servidor para crear o modificar un flujo de trabajo interactivo
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-interactive-workflow"></a>Usar Skype para Shell de administración de servidor empresarial para crear o modificar un flujo de trabajo interactivo
 
 1.  Inicie sesión como miembro del grupo RTCUniversalServerAdmins o como miembro de uno de los roles administrativos predefinidos que admiten el Grupo de respuesta.
     
@@ -643,17 +645,17 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 
 #### 
 
-[(Opcional) Definir grupo de respuesta festividades en Skype para negocios 2015](optional-define-response-group-holiday-sets.md)
+[(Opcional) Días festivos de definir grupo de respuesta se establecen en Skype para profesionales de 2015](optional-define-response-group-holiday-sets.md)
 #### 
 
-[(Opcional) Definir respuesta grupo horario en Skype para negocios 2015](optional-define-response-group-business-hours.md)
+[(Opcional) Grupo de respuesta de definir el horario en Skype para profesionales de 2015](optional-define-response-group-business-hours.md)
 #### 
 
-[Nueva CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
+[New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
   
-[Conjunto de CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
+[Set-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
   
-[Nueva CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
+[New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
   
-[Nueva CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
+[New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
 
