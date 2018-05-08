@@ -1,5 +1,5 @@
 ---
-title: Iniciar una conferencia de Audio por teléfono sin un PIN
+title: Iniciar una conferencia de Audio a través del teléfono sin un PIN
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,49 +15,51 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. '
-ms.openlocfilehash: 8a4b9c9cbb21c8a269e9d07285e4ecf68d2f2a7a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 4deb415e9fd7154d72b7d598bcc5dfb8eabed6ed
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="start-an-audio-conference-over-the-phone-without-a-pin"></a>Iniciar una conferencia de Audio por teléfono sin un PIN
+# <a name="start-an-audio-conference-over-the-phone-without-a-pin"></a>Iniciar una conferencia de Audio a través del teléfono sin un PIN
 
-Puede ser frustrante para los usuarios que llamen a una reunión que se celebrará en la sala de la reunión escuchar música porque el Skype para el organizador de la reunión de negocios o Teams de Microsoft no ha comenzado la reunión. 
+Puede resultar frustrante para los usuarios que se conectan a una reunión a permanecer en la sala de espera de la reunión de escucha música porque la Skype para el organizador de la reunión empresarial o Teams de Microsoft no ha comenzado la reunión. 
   
-Si llama a un organizador de la reunión la reunión, de forma predeterminada, se requiere un PIN para iniciar una reunión. Puede configurar, por lo que cualquiera puede llamar a una reunión y no se le pida un PIN iniciar la reunión. Puede usar el Centro de administración de Skype Empresarial para habilitar o deshabilitar este parámetro para un solo usuario.
+Si llama a un organizador de la reunión la reunión, de forma predeterminada, se requiere un PIN para iniciar una reunión. Se puede configurarla para que cualquier persona puede conectarse a una reunión y no se le pida un PIN iniciar la reunión. Puede usar el Centro de administración de Skype Empresarial para habilitar o deshabilitar este parámetro para un solo usuario.
   
-Un PIN no es necesario para el organizador de la reunión si alguien ha iniciado la conferencia desde un Skype para la aplicación de negocios o Teams de Microsoft. El PIN solo será necesario si el organizador de la reunión se une a ella desde un teléfono. El NIP de reuniones se envía al usuario audio cuando se asignan a la licencia de **Conferencias de Audio** y están habilitados para conferencias de Audio. Ver [mensajes de correo electrónico que se envían automáticamente a los usuarios al cambia su configuración de conferencia de Audio](emails-sent-to-users-when-their-settings-change.md)y [Enviar un correo electrónico a un usuario con su información de conferencia de Audio](send-an-email-to-a-user-with-their-dial-in-information.md) .
+Un PIN no es necesario para el organizador de la reunión si alguien ha iniciado la conferencia desde una Skype para aplicación empresarial o Teams de Microsoft. El PIN solo será necesario si el organizador de la reunión se une a ella desde un teléfono. El PIN para las reuniones se envía al usuario audio cuando se asignan a la licencia de **Conferencias de Audio** y están habilitados para conferencias de Audio. Vea [Enviar un correo electrónico a un usuario con su información de conferencia de Audio](send-an-email-to-a-user-with-their-dial-in-information.md) y [mensajes de correo electrónico que se envían automáticamente a los usuarios al cambia su configuración de conferencias de Audio](emails-sent-to-users-when-their-settings-change.md).
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Habilitar o deshabilitar la posibilidad de que los autores de llamada anónimos se unan a la reunión
 
-**Utilizando los equipos de Microsoft y Skype para el centro de administración de negocios**
+![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
 
-1. En la exploración de la izquierda, haga clic en **usuarios**. 
+1. En el panel de navegación izquierdo, haga clic en **usuarios**. 
 
 2. Seleccione un usuario en la lista y, a continuación, haga clic en **Editar** en la parte superior de la página. 
 
-3. Haga clic en el menú situado junto a **Los puentes de conferencia**y, a continuación, haga clic en **Editar**.
+3. Haga clic en el menú situado junto a **Puentes de conferencia**y, a continuación, haga clic en **Editar**.
 
-4. En el panel de **proveedor de puente de conferencia** , habilitar o deshabilitar **no autenticado de permitir a quienes llaman para ser los primeros en una reunión. Si no, a continuación, esperan en la sala de espera hasta que un usuario autenticado se une**.
+4. En el panel de **proveedor de puente de conferencia** , habilitar o deshabilitar los autores de llamadas de **Permitir no autenticado para que sea el primer personas en una reunión. Si no, a continuación, esperará en la sala de espera hasta que un usuario autenticado se une a**.
     
 4. Haga clic en **Aplicar**. 
 
-Puede usar el Centro de administración de Skype Empresarial o Windows PowerShell para habilitar o deshabilitar el envío de correos electrónicos a los usuarios.
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
     
-1. En el **Skype para el centro de administración de negocios**, en la exploración de la izquierda, vaya a las **conferencias de Audio** > **usuarios**. 
+1. En el **Skype para el centro de administración de negocio**, en el panel de navegación izquierdo, vaya a la **conferencia de Audio** > **a los usuarios**. 
     
-2. En la lista, seleccione el usuario y en el panel Acción, haga clic en **Editar**. 
+2. En la lista, seleccione el usuario y en el panel de acciones, haga clic en **Editar**. 
     
-3. En la página de propiedades del usuario, en **Opciones de la reunión**, active o desactive Permitir no autenticado a **quienes llaman para ser los primeros en una reunión. Si no, a continuación, esperan en la sala de espera hasta que un usuario autenticado se une**.
+3. En la página de propiedades del usuario, en **Opciones de reunión**, active o desactive los autores de llamadas de **Permitir no autenticado para que sea el primer personas en una reunión. Si no, a continuación, esperará en la sala de espera hasta que un usuario autenticado se une a**.
     
 4. Haga clic en **Guardar**. 
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
  **Uso de Windows Powershell**
   
@@ -69,19 +71,19 @@ Puede usar el Centro de administración de Skype Empresarial o Windows PowerShel
 
 ## <a name="what-else-should-you-know"></a>¿Qué más debe saber?
 
-- Si desea restablecer el PIN, consulte [Restablecer el PIN de conferencia de Audio para un usuario](reset-the-audio-conferencing-pin-for-a-user.md).
+- Si desea restablecer el PIN, consulte [Restablecer el PIN de conferencia de Audio](reset-the-audio-conferencing-pin.md).
     
 - Si está habilitado el acceso anónimo o que no requiere un PIN iniciar una reunión:
     
-  - Si no ha iniciado la reunión (hay nadie en la reunión todavía): un llamador se preguntará si es el organizador; Si contesta Sí, pedirá su PIN y después de él escribe el NIP, se iniciará la sesión y el usuario unirá a la reunión.
+  - Si no ha comenzado la reunión (hay nadie en la reunión todavía): un autor de la llamada se preguntará si es el organizador; Si contesta Sí, se pedirá para su PIN y después de que escribe el NIP, se iniciará la reunión y el usuario se unirá a la reunión.
     
-  - Si la reunión ya inició (alguien ya está en la reunión): no se solicita un llamador si es el organizador y nunca se pedirá el PIN; ya se ha iniciado la sesión y unirá a la persona que llama.
+  - Si la reunión ya ha iniciado (otro usuario ya está en la reunión): un autor de la llamada no se le pida si es el organizador y nunca se solicitará el PIN; ya se ha iniciado la reunión, y el autor de la llamada se unirá a.
     
 - Si se deshabilita el acceso anónimo o que no requiere un PIN iniciar una reunión:
     
-  - Si no ha iniciado la reunión (hay nadie en la reunión aún): no se solicita un llamador si es el organizador y nunca se pedirá el PIN. Debido a la configuración del organizador se establece en off, se iniciará la reunión y los llamadores anónimos se unirá a la reunión.
+  - Si no ha comenzado la reunión (hay nadie en la reunión todavía): un autor de la llamada no se le pida si es el organizador y nunca se pedirá el PIN. Debido a que la configuración del organizador se establece en off, se iniciará la reunión y los llamadores anónimos se unirá a la reunión.
     
-  - Si la reunión ya inició (alguien ya está en la reunión): no se solicita un llamador si es el organizador y nunca se pedirá el PIN; ya se ha iniciado la sesión y unirá a la persona que llama.
+  - Si la reunión ya ha iniciado (otro usuario ya está en la reunión): un autor de la llamada no se le pida si es el organizador y nunca se pedirá el PIN, ya se ha iniciado la reunión y el autor de la llamada se unirá a.
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 

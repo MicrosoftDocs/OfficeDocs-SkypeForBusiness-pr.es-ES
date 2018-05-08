@@ -1,5 +1,5 @@
 ---
-title: GOV, EDU y organizaciones sin ánimo de lucro
+title: GOV, EDU y organizaciones sin fines de lucro
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,28 +14,27 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Licensing
-- Strat_SB_PSTN
 - LIL_Placement
-description: 'Información sobre licencias adicionales y características para GOV, EDU y planes de la organización sin ánimo de lucro. '
-ms.openlocfilehash: 20097c08bf20dd974190532aa19de11a22e51a83
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 'Obtenga información sobre licencias adicionales y las características para GOV, EDU y planes de la organización sin fines de lucro. '
+ms.openlocfilehash: cc0777a6dd62e8353ef381c9f0e379e552c6bf18
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="gov-edu-and-non-profit-organizations"></a>GOV, EDU y organizaciones sin ánimo de lucro
+# <a name="gov-edu-and-non-profit-organizations"></a>GOV, EDU y organizaciones sin fines de lucro
 
-La mayoría de Skype para funciones de negocio disponibles .gov, .edu y organizaciones sin ánimo de lucro. Consulte la tabla siguiente para obtener más detalles.
+La mayoría de Skype para las características de negocio disponibles para .gov, .edu y organizaciones sin fines de lucro. Consulte la tabla siguiente para obtener información detallada.
 
 |**Característica de Skype Empresarial**|**Disponible para .GOV (GCC)**|**Disponible para .GOV (no GCC)**|**Disponible para .EDU**|**Disponible para organizaciones sin ánimo de lucro**|
 |:-----|:-----|:-----|:-----|:-----|
 |Difusión de reunión de Skype  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |Sí  <br/> |
-|Skype para conferencias de Audio de negocios  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
-|Sistema de teléfono de Office 365  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
-|Plan de llamada Office 365  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
+|Skype para conferencias de Audio profesionales  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
+|Sistema telefónico de Office 365  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
+|Plan de llamada de Office 365  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
    
 Vea la publicación de este blog: [Funciones avanzadas de Office 365 disponibles ahora para los clientes de la nube de la comunidad del gobierno de EE. UU.](https://blogs.office.com/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/).

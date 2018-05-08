@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Phone System
-- Strat_SB_PSTN
 description: 'Aprenda a configurar Skype Empresarial para usar otro idioma para el saludo del correo de voz predeterminado de su organización. '
-ms.openlocfilehash: 5ee5b3e307e21e4b7225fadfbe2a079dd40f72de
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: b5d03806065337312ec35b30b58cfb0e6af1e0b6
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Cambiar el idioma predeterminado en los saludos y los correos electrónicos
 
@@ -42,11 +41,11 @@ Si es [administrador global de Office 365](https://support.office.com/en-us/arti
   
 - **¿Desea grabar el mensaje del correo de voz saliente?** Consulte [Comprobar el correo de voz y las opciones de Skype Empresarial](https://support.office.com/en-us/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
 
-- **¿Desea cambiar el idioma de símbolo del sistema de correo de voz?** Vaya a [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) y elegir un nuevo idioma en **Idioma del símbolo del sistema**.
+- **¿Desea cambiar el idioma de símbolo del sistema de correo de voz?** Vaya a [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) y elija un nuevo idioma en **Idioma del símbolo del sistema**.
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Cambiar el idioma del sistema para todos los usuarios de la organización
 
-1. Inicie sesión con su cuenta de [administrador global de Office 365](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) en[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
+1. Iniciar sesión con su cuenta de [administrador global de Office 365](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) en[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
     
 2. En el Centro de administración, elija **Configuración** > **Perfil de organización**. 
     

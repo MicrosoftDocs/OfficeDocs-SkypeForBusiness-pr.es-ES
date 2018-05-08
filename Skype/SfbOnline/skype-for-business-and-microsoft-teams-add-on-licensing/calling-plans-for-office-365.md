@@ -15,60 +15,59 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords:
 - O365E_E5Voiceplandetails
 - O365M_E5Voiceplandetails
 - O365P_E5Voiceplandetails
 ms.custom:
 - Licensing
-- Strat_SB_PSTN
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 2de1aa91df462461ca17edfe032d0f290422eada
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 35cdd382b15bbc659355fa5b331587227cadcb1a
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="calling-plans-for-office-365"></a>Planes de llamada para Office 365
 
-Llamadas a otro Skype para usuarios de negocios y Teams de Microsoft son gratuitas, pero si desea que los usuarios puedan llamar a los teléfonos regulares y aún no tiene un proveedor de servicios para realizar llamadas de voz, necesitará adquirir un Plan de llamadas. [¿Qué son los Planes de llamada en Office 365?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
+Llamadas a otro Skype para los usuarios profesionales y Microsoft Teams son gratuitas, pero si desea que los usuarios puedan llamar a teléfonos normales y ya no tiene un proveedor de servicios para realizar llamadas de voz, necesita adquirir un Plan de llamada. [¿Qué son los Planes de llamada en Office 365?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
   
-Le presentamos la opción llamar a planes:
+A continuación presentamos la opción llamar a planes:
   
-- **Plan de llamadas nacionales**: pueden llamar los usuarios con licencia a números ubicados en el país o región donde se asignan en Office 365.
+- **Llamar a planear nacionales**: los usuarios con licencia pueden destacar a los números que se encuentra en el país o región donde se les asignaron en Office 365.
     
-- **Nacionales y Plan de llamadas internacionales**: pueden llamar los usuarios con licencia a números ubicados en el país o región donde su licencia de Office 365 está asignado al usuario basándose en la ubicación del usuario y a números internacionales en países o regiones de [196 ](../country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
+- **Nacionales y llamar a planear internacional**: los usuarios con licencia pueden destacar a los números que se encuentra en el país o región donde su licencia de Office 365 se asigna al usuario en función de la ubicación del usuario y a los números de internacionales en [196 países o regiones ](../country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
     
 Minutos mensuales para cada organización y cada país o región se encuentran [aquí](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 > [!IMPORTANT]
-> El país o región se basa en la ubicación de la licencia del usuario en el **Centro de administración de Office 365** > **usuarios activos** y **no** la dirección de facturación se enumeran en el **Perfil de la organización** en el centro de administración de Office 365 de ** **.   
+> El país o región se basa en la ubicación de la licencia del usuario en el **Centro de administración de Office 365** > **usuarios activos** y **no** la dirección de facturación enumeradas en el **Perfil de organización** en el centro de administración de Office 365 ** **.   
 ![Ubicación de la licencia del usuario](../images/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
-Para obtener información detallada acerca de los límites de uso y condiciones de uso, vea [período complementario de acceso telefónico de salida de conferencia de Audio](../legal-and-regulatory/complimentary-dial-out-period.md).
+Para obtener información detallada acerca de los límites de uso y condiciones de uso, vea [conferencias de Audio del período complementario de salida](../legal-and-regulatory/complimentary-dial-out-period.md).
   
-## <a name="how-to-buy-a-calling-plan"></a>Cómo comprar un Plan de llamadas
+## <a name="how-to-buy-a-calling-plan"></a>Cómo comprar un Plan de llamada
 
-1. **En primer lugar debe adquirir una licencia del complemento **Sistema de teléfono** **. Para ello, [inicie sesión en el centro de administración de Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y seleccione **facturación** > **Servicios de compra** > **suscripciones de complemento** > **comprar ahora**.
+1. **En primer lugar debe adquirir una licencia del complemento **Del sistema de teléfono** **. Para ello, [inicie sesión en el centro de administración de Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y elija **facturación** > **Servicios de compra** > **suscripciones complemento** > **comprar ahora**.
     
-    ![Al comprar las licencias de nube PBX, verá una opción para adquirir una plan de llamadas de voz.](../images/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
+    ![Cuando comprar las licencias de PBX en la nube, verá una opción para adquirir una plan de llamada de voz.](../images/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > Dependiendo del plan, debe comprar más complementos antes usted puede comprar licencias del sistema de teléfono. Para obtener más información, consulte "Opciones de la licencia según su plan" en [Skype para negocios y equipos de Microsoft licencias adicionales](skype-for-business-and-microsoft-teams-add-on-licensing.md).
+    > En función de su plan, deberá comprar más complementos antes de que puede comprar licencias del sistema de teléfono. Para obtener más información, consulte "Opciones de licencia en función del plan" en [Skype para profesionales y los equipos de Microsoft complemento licencias](skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-2. Después de comprar licencias del sistema de teléfono, puede adquirir el Plan llamando al iniciar sesión en el **Centro de administración de Office 365**, **facturación** > **Servicios de compra** > **suscripciones de complemento**y, a continuación, haga clic en **comprar ahora**. Verá que la llamada a planes de allí.
+2. Después de adquirir licencias del sistema de teléfono, puede comprar el Plan de llamar a iniciando sesión en el **Centro de administración de Office 365**, elija **facturación** > **Servicios de compra** > **suscripciones de complemento**y, a continuación, haciendo clic en **comprar ahora**. Verá la llamada planes de no existe.
     
-    ![Después de comprar una licencia de nube PBX, puede comprar planes de llamadas de voz.](../images/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
+    ![Después de adquirir una licencia de PBX en la nube, puede comprar planes de llamada de voz.](../images/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-Puede comprar y asignar diferentes planes de llamar a diferentes usuarios, dependiendo de las necesidades de su organización. Después de seleccionar el Plan de llamadas es necesario, proceder a la retirada. El plan se asigna a cada usuario en el centro de administración de Office 365. Para obtener información, vea [Asignar Skype para licencias de negocio y equipos de Microsoft](assign-skype-for-business-and-microsoft-teams-licenses.md).
+Puede comprar y asignar distintos planes de llamada a los usuarios diferentes, según las necesidades de su organización. Después de seleccionar el llamar al Plan que necesita, ir a la caja. Asignar un plan para cada usuario en el centro de administración de Office 365. Para obtener más información, vea [Asignar Skype para licencias de negocio y equipos de Microsoft](assign-skype-for-business-and-microsoft-teams-licenses.md).
   
-## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>¿Tiene un proveedor de servicios que proporciona conectividad de RTC local para usuarios de híbrido?
+## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>¿Tiene un proveedor de servicios que proporciona conectividad con RTC local para los usuarios de híbrida?
 
-Si es así, no es necesario comprar un Plan de llamadas. Office 365 E5 de la empresa incluye el complemento **Sistema de teléfono** , para que pueda proceder a la retirada.
+Si es así, no es necesario adquirir un Plan de llamada. Office 365 E5 de la empresa incluye el complemento **Del sistema de teléfono** , por lo que puede continuar con la desprotección.
   
-A continuación, asignar las licencias de complemento E5 de la empresa o **Sistema telefónico** a los usuarios en el centro de administración de Office 365. Para obtener información, vea [Asignar Skype para licencias de negocio y equipos de Microsoft](assign-skype-for-business-and-microsoft-teams-licenses.md).
+A continuación, asignar las licencias de complemento E5 de la empresa o **Sistema telefónico** a los usuarios en el centro de administración de Office 365. Para obtener más información, vea [Asignar Skype para licencias de negocio y equipos de Microsoft](assign-skype-for-business-and-microsoft-teams-licenses.md).
   
 ## <a name="pricing-information"></a>Información de precios
 
@@ -86,9 +85,9 @@ A continuación presentamos más artículos que explican cómo configurar los pl
     
 - Puede obtener más información en [Conferencias de acceso telefónico en Office 365](skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
-- [Plan de Skype para conector de nube Business Edition](https://technet.microsoft.com/EN-US/library/Mt605227.aspx): este artículo explica cómo configurar el sistema de teléfono de Office 365 con su propia conectividad PSTN.
+- [Planeación de Skype para Business Edition de conector en la nube](https://technet.microsoft.com/EN-US/library/Mt605227.aspx): en este artículo se explica cómo configurar el sistema telefónico de Office 365 con su propio conectividad RTC.
     
-- [Diseñar el sistema de teléfono en la solución de Office 365 (nube PBX)](https://go.microsoft.com/fwlink/p/?LinkId=717926)
+- [Planear el sistema telefónico en la solución de Office 365 (en la nube PBX)](https://go.microsoft.com/fwlink/p/?LinkId=717926)
     
 ## 
 
@@ -104,7 +103,7 @@ A continuación presentamos más artículos que explican cómo configurar los pl
     
 - [Agregar fondos y administrar Créditos de comunicaciones](add-funds-and-manage-communications-credits.md)
     
-- [Configurar el conector de la nube](https://technet.microsoft.com/en-us/library/mt605228.aspx) y [descargar el conector de la nube](https://aka.ms/CloudConnectorInstaller)
+- [Configurar el conector en la nube](https://technet.microsoft.com/en-us/library/mt605228.aspx) y [Descargue el conector en la nube](https://aka.ms/CloudConnectorInstaller)
   
   
  

@@ -15,45 +15,47 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within the Skype for Business admin center. '
-ms.openlocfilehash: d97da976941f0853e5948112e4e7c34c7841afc8
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 28fb899586c6a0904126249b769e6fb0004878ca
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing"></a>Ver una lista de usuarios que están habilitados para conferencias de Audio
 
-Después de haber habilitado Skype para usuarios de negocios o Teams de Microsoft en su organización para conferencias de Audio, puede ver la lista de aquellos usuarios que se han habilitado. Al mirar la lista, verá también para cada usuario en la lista el tipo de proveedor de conferencia de audio que utiliza, el número de teléfono marcado predeterminado para el usuario, y si la organización no está habilitada para identificadores de conferencia dinámico, la conferencia estática IDs para las reuniones de conferencia de audio que se organizan.
+Después de haber habilitado Skype para los usuarios empresariales o Teams de Microsoft en su organización para conferencias de Audio, puede ver la lista de los usuarios que han sido habilitados. Cuando examine la lista, también verá para cada usuario en la lista el tipo de proveedor de conferencias de audio que están usando, el número de teléfono de acceso telefónico predeterminada para el usuario, y si su organización no está habilitada para los identificadores de conferencia dinámico, la conferencia estática identificadores para las reuniones de conferencia de audio que organizan.
   
 ## <a name="viewing-a-list-of-users"></a>Ver una lista de los usuarios
 
-**Utilizando los equipos de Microsoft y Skype para el centro de administración de negocios**
+![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
 
-- En la exploración de la izquierda, haga clic en **usuarios**.
+- En el panel de navegación izquierdo, haga clic en **usuarios**.
 
-Puede usar el Centro de administración de Skype Empresarial o Windows PowerShell para habilitar o deshabilitar el envío de correos electrónicos a los usuarios.
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
     
-- En la exploración de la izquierda, vaya a las **conferencias de Audio** > **usuarios**.
+- En el panel de navegación izquierdo, vaya a la **conferencia de Audio** > **a los usuarios**.
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
 ## <a name="what-else-should-i-know"></a>¿Qué más debo saber?
 
-- Al ver la lista de usuarios que están habilitados, puede seleccionar un usuario de la lista y utilice el panel de acción para modificar la configuración de conferencia de audio para ese usuario.
+- Al ver la lista de usuarios que están habilitadas, puede seleccionar un usuario de la lista y usar el panel de acciones para modificar la configuración de conferencia de audio para que el usuario.
     
-- Cuando selecciona un usuario que está configurado para utilizar Microsoft como proveedor de conferencia de audio, puede ver el número de teléfono predeterminado y si su organización está habilitada para identificadores de conferencia dinámico y puede restablecer el Id. de conferencia para las reuniones que la Organiza el usuario.
+- Cuando se selecciona un único usuario que está configurado para usar Microsoft como proveedor de conferencias de audio, puede ver el número de teléfono predeterminado y si la organización está habilitada para los identificadores de conferencia dinámico y puede restablecer el identificador de conferencia para las reuniones que el Organiza el usuario.
     
-- Al seleccionar un usuario, que está configurado para utilizar un proveedor de conferencia de audio de terceros, puede ver el nombre del proveedor de conferencia de audio, el número de teléfono de pago y el número de teléfono gratuito (si se configuran).
+- Cuando se selecciona un único usuario al que está configurado para usar un proveedor de conferencia de audio de terceros, puede ver el nombre del proveedor de conferencias de audio, el número de teléfono de pago y el número de teléfono gratuito (si se configuran).
     
 - Puede usar las opciones de filtro para mostrar los usuarios que tienen:
     
   - **Conferencias de audio en**
     
-  - **Conferencias de audio apagado**
+  - **Conferencias de audio desactivado**
     
   - **Proveedor de conferencias - Microsoft**
     
@@ -65,9 +67,9 @@ Puede usar el Centro de administración de Skype Empresarial o Windows PowerShel
     
   - Seleccionar un número predeterminado diferente para estos usuarios.
     
-  - Desactivar las conferencias de audio para el usuario, cambiando el proveedor a **Ninguno**.
+  - Desactivar conferencias de audio para el usuario cambiando el proveedor en **Ninguno**.
     
-  - Cambie a Microsoft como proveedor de conferencia de audio si al usuario se le ha asignado una licencia de **Conferencia de Audio** .
+  - Cambie a Microsoft como proveedor de conferencias de audio si el usuario se ha asignado una licencia de **Conferencias de Audio** .
     
   - Permitir o no permitir a los usuarios anónimos activar las reuniones telefónicas de los usuarios seleccionados.
     

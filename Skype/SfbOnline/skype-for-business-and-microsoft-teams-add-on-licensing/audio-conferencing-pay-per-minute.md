@@ -15,49 +15,48 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Licensing
-- Strat_SB_PSTN
-description: Además de la licencia de cada usuario estándar de conferencias de Audio, volumen y licencias de las organizaciones pueden elegir una oferta de pago por minuto para habilitar capacidades de conferencia de Audio para sus organizaciones.
-ms.openlocfilehash: 6e6db248d897081ff2858a384f3a27e9b6324488
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Además de la licencia de cada usuario estándar de conferencias de Audio, por volumen y licencias de las organizaciones también pueden elegir una oferta de pago por minuto para habilitar las capacidades de conferencia de Audio para sus organizaciones.
+ms.openlocfilehash: 7b3d8bca026c9dbb46c62f6f7d80d4dba486581d
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audio conferencia pago por minuto
 
-Además de la licencia de cada usuario estándar de conferencias de Audio, volumen y licencias de las organizaciones pueden elegir una oferta de pago por minuto para habilitar capacidades de conferencia de Audio para sus organizaciones.
+Además de la licencia de cada usuario estándar de conferencias de Audio, por volumen y licencias de las organizaciones también pueden elegir una oferta de pago por minuto para habilitar las capacidades de conferencia de Audio para sus organizaciones.
   
 
-Se puede averiguar si su [país o región es compatible](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) para las conferencias de Audio.
+Se puede averiguar si su [país o región se admite](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) para conferencias de Audio.
 
   
 > [!NOTE]
-> Ya que esta oferta sólo está disponible para clientes de volumen y licencias, debe trabajar con su representante de cuenta para adquirir licencias. 
+> Debido a que esta oferta sólo está disponible para los clientes de volumen y la licencia, debe trabajar con su representante de cuenta para adquirir licencias. 
   
 ## <a name="need-some-details"></a>¿Necesita algunos detalles?
 
-Considerando que la oferta de licencia por usuario de conferencia de Audio incluye el uso de acceso telefónico y algunos dial-out, conferencias de Audio pago por minuto **te permite pagar para todas las de su uso de conferencia de Audio sobre una base por minuto sin pagar mensualmente por usuario licencia**. De esta forma, todas las llamadas de acceso telefónico y acceso telefónico de salida se cargará en una base por minuto, incluyendo:
+Mientras que la oferta de licencia por usuario de conferencias de Audio incluye algunas uso de salida y marcado en uso, conferencias de Audio pago por minuto **permite pagar para todas las de su uso de conferencias de Audio en una base por minuto sin pagar por un usuario por todos los meses licencia**. Con esto, todas las llamadas de acceso telefónico y de salida se cargará en una base por minuto, incluidos:
   
-- Llamadas entrantes en peajes números de conferencia de Audio de su organización.
+- Llamadas entrantes a los números de conferencia de Audio de la organización de pago.
     
-- Llamadas entrantes a los números gratuitos de conferencia de Audio de su organización.
+- Llamadas entrantes a los números gratuitos de conferencias de Audio de la organización.
     
 - Llamadas salientes realizadas a números de teléfono externos desde dentro de una reunión de la organización.
     
 > [!NOTE]
-> Puede encontrar las tarifas de acceso telefónico y acceso telefónico de salida asociadas a estos tipos de llamadas revisando el **Ver las tarifas de donde desea llamar a sección** en [Conferencias de Audio](https://products.office.com/en-us/skype-for-business/pstn-conferencing). 
+> Puede encontrar las tasas de acceso telefónico y de salida asociadas a estos tipos de llamadas al revisar la **Ver las tarifas de donde desea llamar sección** en una [Conferencia de Audio](https://products.office.com/en-us/skype-for-business/pstn-conferencing). 
   
-Pago por minuto requiere la organización tengan [Comunicaciones créditos](what-are-communications-credits.md) habilitado con una licencia asignada a cada usuario en orden para conferencias de Audio trabajar. Si desea obtener más detalles, vea [Configurar comunicaciones créditos para su organización](set-up-communications-credits-for-your-organization.md) o [Skype para negocios y equipos de Microsoft licencias adicionales](skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Pago por minuto requiere su organización tengan [Communications créditos](what-are-communications-credits.md) habilitado con una licencia asignada a cada usuario en orden para conferencias de Audio para que funcione. Si desea obtener más detalles, vea [Configurar Communications créditos para su organización](set-up-communications-credits-for-your-organization.md) o [Skype para profesionales y los equipos de Microsoft complemento licencias](skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-Para habilitar la conferencia de Audio pago por minuto para los usuarios de su organización, vea [probar o comprar Audio conferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md).
+Para habilitar la conferencia de Audio pago por minuto para los usuarios de su organización, vea [probar o comprar conferencias de Audio en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md).
   
-## <a name="want-to-find-out-more-about-pricing"></a>¿Desea obtener más información acerca de precios?
+## <a name="want-to-find-out-more-about-pricing"></a>¿Desea obtener más información sobre precios?
 
- **¿Busca los precios?** Consulte [cómo ver precios y adquirir licencias adicionales](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) o uno de los siguientes:
+ **¿Busca los precios?** Vea [cómo ver los precios y comprar licencias adicionales](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) o uno de los siguientes:
   
 - [Precios de Audioconferencia](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
     

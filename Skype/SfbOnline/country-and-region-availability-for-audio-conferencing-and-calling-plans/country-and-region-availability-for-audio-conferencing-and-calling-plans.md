@@ -15,7 +15,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
@@ -23,15 +23,15 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Puede seleccionar un país o una región para comprobar si Audioconferencia, Sistema telefónico, Planes de llamada, Créditos de comunicaciones y los números gratuitos y de pago están disponibles o no.
-ms.openlocfilehash: 4be2e366a241dfe07a22dfa6487c377283fd58ba
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 5707784f04dc52697ecd3d65b4c48ec105d10247
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Países y regiones donde Audioconferencia y Planes de llamada están disponibles
 
-Puede seleccionar un país o una región para ver qué características de voz de nube están disponibles para su organización.
+Puede seleccionar un país o región para ver qué características de voz en la nube están disponibles para su organización.
 ***
 ## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>¡Seleccione su país o región para ver lo que está disponible para su organización!
 
@@ -123,7 +123,7 @@ Puede seleccionar un país o una región para ver qué características de voz d
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**Si está buscando una hoja de cálculo con todos los países y regiones, descargue y guarde la [hoja de cálculo de la disponibilidad de país o región de nube voz característica](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/country-and-region-availabilty/country-and-region-availability-(v-03202018)-(en-us).xlsx?raw=true)**.
+**Si busca una hoja de cálculo con todos los países y regiones, descargue y guarde la [hoja de cálculo de la disponibilidad de país o región de la nube voz característica](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/country-and-region-availabilty/country-and-region-availability-(v-05042018)-(en-us).xlsx?raw=true)**.
 
 ***
 
@@ -131,7 +131,7 @@ Una vez que compruebe si uno de los servicios de Skype Empresarial o Microsoft T
 
 > [!NOTE]
 
-> Si necesita obtener más números de teléfono de los usuarios, consulte [obtención de números de teléfono de los usuarios](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md) o para formularios de solicitud de número de teléfono, [números de teléfono de administrar para su organización](../what-are-calling-plans-in-office-365\manage-phone-numbers-for-your-organization\manage-phone-numbers-for-your-organization.md).
+> Si necesita obtener más números de teléfono para los usuarios, vea [Introducción de los números de teléfono para los usuarios](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md) o, para los formularios de solicitud de número de teléfono, [administrar los números de teléfono para su organización](../what-are-calling-plans-in-office-365\manage-phone-numbers-for-your-organization\manage-phone-numbers-for-your-organization.md).
 
 
 ## <a name="want-to-learn-more-about-these-services"></a>¿Quiere saber más cosas sobre estos servicios?
@@ -163,7 +163,7 @@ La posibilidad de realizar llamadas desde una reunión a otro país o región de
 ### <a name="phone-system"></a>Sistema telefónico
 Con Sistema telefónico, puede crear operadores automáticos y colas de llamada (con un número gratuito o de pago) para contestar las llamadas que se reciban para su organización y, cuando agregue un Plan de llamadas para los usuarios, estos pueden usar Skype Empresarial para ocuparse de las tareas básicas de control de llamadas, como realizar y recibir llamadas, transferirlas y silenciarlas o reactivarlas. Los usuarios de **Sistema telefónico** pueden hacer clic en un nombre de la libreta de direcciones y Skype Empresarial realizará una llamada a esa persona. Para realizar y recibir llamadas, los usuarios de **Sistema telefónico** pueden usar sus dispositivos móviles, auriculares con un equipo portátil o PC, o bien uno de los distintos teléfonos IP compatibles con Skype Empresarial.
 
-Además de obtener números de teléfono para usuarios individuales de Office 365, también es posible buscar y adquirir números de teléfono de pago o gratuitos para servicios como Audioconferencia (para puentes de conferencia), operadores automáticos y colas de llamadas. Son los llamados números de servicio. Ver [números de teléfono del servicio de obtención](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md) para obtener números de teléfono. Pero, para sus usuarios, después de asignarles un Plan de llamadas, puede asignar un número de teléfono de usuario para que puedan hacer y recibir llamadas de teléfono. Puede encontrar esos números de teléfono [aquí](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md). También puede consultar [Asignar, cambiar o quitar un número de teléfono para un usuario](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md). 
+Además de obtener números de teléfono para usuarios individuales de Office 365, también es posible buscar y adquirir números de teléfono de pago o gratuitos para servicios como Audioconferencia (para puentes de conferencia), operadores automáticos y colas de llamadas. Son los llamados números de servicio. Ver [los números de teléfono del servicio de introducción](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md) para obtener números de teléfono. Pero, para sus usuarios, después de asignarles un Plan de llamadas, puede asignar un número de teléfono de usuario para que puedan hacer y recibir llamadas de teléfono. Puede encontrar esos números de teléfono [aquí](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md). También puede consultar [Asignar, cambiar o quitar un número de teléfono para un usuario](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md). 
 
 [Precios de Sistema telefónico](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
 
@@ -186,7 +186,7 @@ Además de obtener números de teléfono para usuarios individuales de Office 36
   
 A continuación se muestra una lista de las capitales y las ciudades más importantes en las que puede conseguir números de servicio de pago que se pueden usar con Audioconferencia y Planes de llamada. Mediante el **Centro de administración de llamadas de Skype Empresarial** podrá conseguir números de servicio de pago.
   
-Si desea obtener un número de servicio gratuito o de pago, puede ver los [números de teléfono del servicio de obtención](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). Si ya tiene un número de servicio de pago o gratuito que desee transferir desde otro proveedor, consulte [Administrar los números de teléfono para su organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Si desea obtener un teléfono de pago o número de teléfono gratuito de servicio, puede ver [los números de teléfono del servicio de introducción](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). Si ya tiene un número de servicio de pago o gratuito que desee transferir desde otro proveedor, consulte [Administrar los números de teléfono para su organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 Con la lista desplegable situada en la parte superior de la página, busque un país o región y los servicios que hay disponibles en cada uno.
 

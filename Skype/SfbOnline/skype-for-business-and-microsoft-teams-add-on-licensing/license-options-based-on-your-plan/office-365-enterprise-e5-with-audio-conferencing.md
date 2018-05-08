@@ -14,26 +14,25 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Licensing
-- Strat_SB_PSTN
 - LIL_Placement
-description: 'Obtenga información sobre licencias adicionales, características y cómo comprar para planes empresariales de Office 365. '
-ms.openlocfilehash: 01cfe75d6bb8d8e5689b6d317f7dbd5c3e56ad19
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 'Obtenga información sobre cómo comprar para planes de Office 365 Enterprise, características y licencias adicionales. '
+ms.openlocfilehash: 3749d16c1dc518133a0ab0f17f3814301660fbe2
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Enterprise E5
 
-El plan de [Empresa E5 de Office 365](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software) incluye Skype la mayoría de funciones de negocio y Teams de Microsoft. Solo hay unas pocas opciones adicionales.
+El plan de [Office 365 Enterprise E5](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software) incluye Skype la mayoría de las características empresariales y de Microsoft Teams. Solo hay unas pocas opciones adicionales.
   
 |||
 |:-----|:-----|
 |**Para agregar esta característica** <br/> |**Esto es lo que debe comprar** <br/> |
-|**¡Conferencia de audio se incluye!** <br/> |Una vez que compre la licencia, Microsoft será el proveedor de conferencia de audio.  <br/> |
-|**Números de teléfono gratuitos para el acceso a las reuniones y la capacidad para marcar desde una reunión para agregar a alguien mediante una llamada a cualquier teléfono del mundo.** <br/> |[Créditos de comunicaciones](../set-up-communications-credits-for-your-organization.md)|
-|**Sistema de teléfono y correo de voz está incluido!** <br/> |Planes de llamada: compre un [Plan de llamadas](../../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md) de Office 365. <br/>  O bien, utilizar el [servicio de teléfono de su proveedor existente](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing). |
+|**¡Conferencias de audio se incluye!** <br/> |Una vez que adquirir la licencia, Microsoft será su proveedor de conferencia de audio.  <br/> |
+|**Números gratuitos para el acceso telefónico a las reuniones y la capacidad de marcar un número de una reunión para agregar a alguien mediante una llamada a cualquier número de teléfono en el mundo.** <br/> |[Créditos de comunicaciones](../set-up-communications-credits-for-your-organization.md)|
+|**Se incluye el sistema telefónico y correo de voz!** <br/> |Planes de llamada: comprar una [Planeación de la llamada](../../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md) en Office 365. <br/>  O bien, usar el [servicio de teléfono de su proveedor existente](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing). |

@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable whether your users can record their names when they join a meeting '
-ms.openlocfilehash: a90eebdc0d75b96feeac94b07333fed47756478b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: e183b133339022c9cfbdb58756584efb9b455550
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting"></a>Permitir a los usuarios grabar su nombre al unirse a una reunión
 
@@ -35,22 +34,22 @@ El puente de conferencia responde a la llamada de un usuario que llama a una reu
   
 ## <a name="set-whether-callers-should-record-their-name"></a>Establecer si los autores de las llamadas tienen que grabar sus nombres
 
-**Utilizando los equipos de Microsoft y Skype para el centro de administración de negocios**
+![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
 
-1. En la exploración de la izquierda, vaya a **reuniones** > **Puentes de conferencia**. 
+1. En el panel de navegación izquierdo, vaya a **las reuniones** > **Puentes de conferencia**. 
 
-2. En la parte superior de la página **Puentes de conferencia** , haga clic en **Configuración de puente**. 
+2. En la parte superior de la página de **Puentes de conferencia** , haga clic en **Configuración de puente**. 
 
 3. Habilitar o deshabilitar **Habilitar la entrada de la reunión y salir de notificaciones para activarse**.
 
 4. Haga clic en **Aplicar**.
 
 
-**Usando el Skype para el centro de administración de negocios**
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
     
 1. En el **Centro de administración de Skype Empresarial**, en el panel de navegación de la izquierda, vaya a **Conferencia de acceso telefónico local** > **Configuración del puente de Microsoft**.
     
-2. En **experimentar join Meeting**, vea la casilla de verificación **Habilitar la entrada de la reunión y salir de notificaciones para activarse**.
+2. En la **experiencia de unirse a la reunión**, vea la casilla de verificación **Habilitar la entrada de la reunión y salir de notificaciones para activarse**.
     
   - **Activado**: se solicitará a los autores de las llamadas que graben sus nombres antes de unirse a la reunión. Esta opción está seleccionada de forma predeterminada.
     
@@ -58,6 +57,9 @@ El puente de conferencia responde a la llamada de un usuario que llama a una reu
     
 3. Después de realizar los cambios, haga clic en **Guardar**.
     
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 
 - Para ahorrar tiempo o automatizar este proceso, puede usar el cmdlet [Set-CsOnlineDialInConferencingTenantSettings ](https://go.microsoft.com/fwlink/?LinkId=715757).

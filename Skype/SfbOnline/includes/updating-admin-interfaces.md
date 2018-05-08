@@ -1,1 +1,1 @@
-Estamos actualizando con frecuencia cómo administrar las características de Microsoft Teams. Pasos pueden ser un poco diferentes.
+Con frecuencia estamos actualizando cómo pueden administrar las características que se encuentran en Microsoft Teams. Pasos pueden ser un poco diferentes.

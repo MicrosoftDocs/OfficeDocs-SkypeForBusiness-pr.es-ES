@@ -15,65 +15,67 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
-description: Al adquirir licencias de conferencias de Audio, Microsoft aloja el puente de conferencia de audio para su organización. El puente de conferencia de audio proporciona los números de teléfono para acceso desde distintas ubicaciones para que los participantes y organizadores pueden utilizarlos para unir Skype para reuniones de negocios o Teams de Microsoft mediante un teléfono.
-ms.openlocfilehash: cb38da52bd2c67a66e354b21712b8cc0d986796c
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Cuando comprar licencias de conferencias de Audio, Microsoft hospeda el puente de conferencia de audio para su organización. El puente de conferencia de audio proporciona los números de teléfono de acceso telefónico desde diferentes ubicaciones para que los participantes y los organizadores de reuniones utilizar para unirse a Skype para reuniones profesionales o Teams de Microsoft mediante un teléfono.
+ms.openlocfilehash: de5959a6182e354a9f12669100b60f66fd70f88f
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Cambiar los números de teléfono en el puente de conferencia de Audio
 
-Al adquirir licencias de **Conferencias de Audio** , Microsoft aloja el *puente de conferencia de audio* para su organización. El puente de conferencia de audio proporciona los números de teléfono para acceso desde distintas ubicaciones para que los participantes y organizadores pueden utilizarlos para unir Skype para reuniones de negocios o Teams de Microsoft mediante un teléfono.
+Cuando comprar licencias de **Conferencias de Audio** , Microsoft hospeda el *puente de conferencia de audio* para la organización. El puente de conferencia de audio proporciona los números de teléfono de acceso telefónico desde diferentes ubicaciones para que los participantes y los organizadores de reuniones utilizar para unirse a Skype para reuniones profesionales o Teams de Microsoft mediante un teléfono.
   
-Además de los números de teléfono ya asignados para el puente de conferencia, puede [obtener los números de servicio adicionales](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md) (cuota y números de teléfono gratuitos utilizados para conferencias de audio) desde otras ubicaciones y, a continuación, asignar para la conferencia de puente para que pueda ampliar la cobertura para los usuarios.
+Además de los números de teléfono ya está asignados a su puente de conferencia, puede [obtener los números de servicio adicionales](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md) (teléfono de pago y los números gratuitos usados para conferencias de audio) desde otras ubicaciones y, a continuación, asignar a la conferencia de puente para que pueda Expanda la cobertura para los usuarios.
   
 > [!NOTE]
-> Para poder asignar o desasignar a un número de teléfono de un puente de conferencia, el número de teléfono debe ser un número de '*service*'. Puede ver el tipo de número es desplazándose a **voz** > **números de teléfono** y buscar en la columna **Tipo de número** . Office 365 créditos de comunicaciones debe establecerse primero en orden para que los usuarios de marcado en el puente en un número gratuito. 
+> Para poder asignar o quitar la asignación a un número de teléfono para un puente de conferencia, el número de teléfono debe ser un número de '*service*'. Puede ver el tipo de número es navegando a **voz** > **los números de teléfono** y busque en la columna **Tipo de número** . Office 365 Communications créditos se debe establecer primero en orden para que los usuarios de marcado en el puente en un número de teléfono gratuito. 
   
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>Pasos para asignar un número de teléfono de servicio nuevo a su puente de conferencia
 
-### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>Paso 1: asigne al nuevo número de teléfono para el puente de conferencia de audio
+### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>Paso 1: asignar al nuevo número de teléfono para el puente de conferencia de audio
 
 1. Inicie sesión en Office 365 con su cuenta profesional.
     
-2. Ir al **Centro de administración de Office 365** > **centra Admin** > **Skype for Business** > **voz** > **números de teléfono**.
+2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **Skype para la empresa** > **voz** > **los números de teléfono**.
     
-3. Seleccione el número de teléfono de la lista y en el panel Acción, haga clic en **asignar**.
+3. Seleccione el número de teléfono de la lista y, en el panel de acciones, haga clic en **asignar**.
     
 4. En la página **Asignar**, haga clic en **Guardar**.
     
-    Sólo un número de teléfono de servicio puede establecerse como el número predeterminado para el puente de conferencia; **números gratuitos del servicio no se puede establecer como el número predeterminado del puente de conferencia**. Si va a asignar a un número de teléfono de servicio y que le gustaría se establece como el número del nuevo para el puente de conferencia de audio, seleccione **usar este número como el valor predeterminado**.
+    Sólo un número de teléfono de pago de servicio se puede establecer como el número predeterminado para el puente de conferencia; **números de teléfono gratuito de servicio no se puede establecer como el número predeterminado del puente de conferencia**. Si va a asignar a un número de teléfono de pago de servicio y que le gustaría establecer como el número predeterminado nuevo para el puente de conferencia de audio, seleccione **usar este número como el valor predeterminado**.
     
     > [!NOTE]
-    > Tras asignar un nuevo número de teléfono, incluso si el número ha pasado a ser el nuevo número predeterminado, no cambiará el número predeterminado de los usuarios existentes. Para establecer el número predeterminado o un número gratuito que se agrega a la reunión del organizador invita, vea [Configurar el teléfono invita números incluidos en](set-the-phone-numbers-included-on-invites.md). 
+    > Tras asignar un nuevo número de teléfono, incluso si el número ha pasado a ser el nuevo número predeterminado, no cambiará el número predeterminado de los usuarios existentes. Para establecer el pago predeterminado o un número de teléfono gratuito que se agrega a la reunión del organizador invita, vea [establecer el teléfono los números incluidos en invitaciones](set-the-phone-numbers-included-on-invites.md). 
   
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ### <a name="step-2---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Paso 2: Cambiar los números de teléfono predeterminados que se incluyen en las invitaciones de reunión de los usuarios (opcional)
 
-Cuando se programa una reunión, los números de teléfono que se incluyen en las invitaciones de reunión son los predeterminados del usuario. Para obtener más información, consulte [Configurar el teléfono invita números incluidos en](set-the-phone-numbers-included-on-invites.md).
+Cuando se programa una reunión, los números de teléfono que se incluyen en las invitaciones de reunión son los predeterminados del usuario. Para obtener más información, vea [establecer el teléfono los números incluidos en invitaciones](set-the-phone-numbers-included-on-invites.md).
   
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Ir al **Centro de administración de Office 365** > **centra Admin** > **Skype for Business** > **conferencias de Audio** > **usuarios** y seleccione los usuarios en la lista.
+2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **Skype para la empresa** > **conferencias de Audio** > **a los usuarios** y seleccione los usuarios en la lista.
     
 3. Haga clic en **Editar** en el panel de acciones.
     
-4. En **número de peaje predeterminado** o **predeterminado de número de teléfono gratuito**, seleccione el número en la lista y haga clic en **Guardar**.
+4. En **número de teléfono de pago predeterminado** o **número gratuito predeterminado**, seleccione el número en la lista y haga clic en **Guardar**.
     
-Cuando se han guardado los cambios, el teléfono predeterminado nuevos números se incluirán en la reunión invita a organizadores de la próxima vez que programe una nueva reunión.
+Después de que se han guardado los cambios, el nuevo número de teléfono de forma predeterminada los números se incluirá en la reunión invitaciones de los organizadores de la próxima vez que programan una reunión nueva.
   
 ### <a name="step-3---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>Paso 3: Actualizar las invitaciones de reunión existentes de los usuarios que usan el servicio de migración de reuniones (opcional)
 
 Para los dos pasos siguientes, debe iniciar Windows PowerShell.
   
-Con el servicio de migración de la reunión, opcionalmente puede actualizar invitaciones a reuniones que se enviaron a los usuarios de su organización antes de que se han cambiado sus números de teléfono predeterminados. Para obtener información adicional, consulte [Configuración del servicio de migración de reuniones (MMS)](setting-up-the-meeting-migration-service-mms.md).
+Mediante el servicio de migración de la reunión, puede actualizar, opcionalmente, las invitaciones de reunión que ya se han enviado a los usuarios de su organización antes de que se han cambiado sus números de teléfono predeterminado. Para obtener información adicional, consulte [Configuración del servicio de migración de reuniones (MMS)](setting-up-the-meeting-migration-service-mms.md).
   
-- Ejecutar el servicio de migración de reunión (MMS) para los usuarios que tenían sus números de teléfono predeterminado se cambió en el paso 2. Para ello, ejecute el siguiente comando:
+- Ejecute el servicio de migración de reunión (MMS) para los usuarios que tenían sus números de teléfono predeterminado ha cambiado en el paso 2. Para ello, ejecute el siguiente comando:
     
 ```
     Start-CsExMeetingMigration user@contoso.com
@@ -89,7 +91,7 @@ Con el servicio de migración de la reunión, opcionalmente puede actualizar inv
 ## <a name="steps-when-you-are-unassigning-a-service-phone-number-for-a-conferencing-bridge"></a>Pasos para quitar la asignación de un número de teléfono de servicio de su puente de conferencia
 
 
-Cuando quite la asignación de un número de teléfono de un puente de conferencia, los usuarios ya no podrán volver a unirse a las reuniones con ese número. Dado que está cambiando el número de teléfono, es importante para actualizar todos los usuarios que podrían tener un número de teléfono como su número predeterminado (si existe) y actualizar sus invitaciones a reuniones antes de que el número de teléfono está asignado desde el puente de conferencia de audio existentes. 
+Cuando quite la asignación de un número de teléfono de un puente de conferencia, los usuarios ya no podrán volver a unirse a las reuniones con ese número. Debido a que se va a cambiar el número de teléfono, es importante que se debe actualizar todos los usuarios que podrían tener un número de teléfono como su número predeterminado (si hay alguno) y para actualizar sus invitaciones a reuniones antes de que el número de teléfono sin asignar desde el puente de conferencia de audio existente. 
   
 Si se quita el número de teléfono sin actualizar los usuarios y sus reuniones, las invitaciones de reunión existentes podrían contener un número de teléfono que no funcione para unirse a las reuniones.
   
@@ -103,16 +105,16 @@ Reemplace el número de teléfono gratuito o de pago predeterminado de todos los
 Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be removed> -ToNumber <Number to be set as new default> -NumberType <"Toll" or "Toll-Free"> -RescheduleMeetings
 ```
  > [!IMPORTANT] 
- >También puede cambiar el número predeterminado o número gratuito de los usuarios en el Skype para el centro de administración de negocios. Sin embargo, esto no volver a programar automáticamente sus reuniones. 
+ >También puede cambiar el pago predeterminado o el número de teléfono gratuito de usuarios en el Skype para el centro de administración de negocio. Sin embargo, esto no volver a programar automáticamente sus reuniones. 
  
- Para obtener información adicional, consulte [el teléfono invita números incluidos en](set-the-phone-numbers-included-on-invites.md).
+ Para obtener más información, vea [establecer el teléfono los números incluidos en invitaciones](set-the-phone-numbers-included-on-invites.md).
 
   > [!NOTE]
   > Dependiendo de cuál sea el tamaño de su organización, este proceso podría llevar algún tiempo. 
   
 ### <a name="step-2---view-meeting-migration-status-using-windows-powershell"></a>Paso 2: Ver el estado de migración de las reuniones con Windows PowerShell
 
-Se volverá a programar todas las reuniones una vez que no hay ninguna operación en estado *pendiente* o *En curso* .
+Todas las reuniones se volverá a programar una vez que no hay ninguna operación en estado *pendiente* o *En curso* .
   
 ```
 Get-CsMeetingMigrationStatus -SummaryOnly
@@ -120,18 +122,18 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 Para obtener más información sobre el servicio de migración de reuniones, consulte [Configuración del servicio de migración de reuniones (MMS)](setting-up-the-meeting-migration-service-mms.md).
   
-### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>Paso 3: Cancelar al antiguo número de teléfono desde el puente de conferencia de audio
+### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>Paso 3: cancelar la asignación del antiguo número de teléfono desde el puente de conferencia de audio
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Ir al **Centro de administración de Office 365** > **centra Admin** > **Skype for Business** > **voz** > **números de teléfono**.
+2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **Skype para la empresa** > **voz** > **los números de teléfono**.
     
-3. Seleccione el número de teléfono de la lista y en el panel Acción, haga clic en **asignar**.
+3. Seleccione el número de teléfono de la lista y, en el panel de acciones, haga clic en **Cancelar asignación**.
     
 4. En la ventana de confirmación, haga clic en **Sí**.
     
   > [!IMPORTANT]
-  > Después de un número de teléfono no está asignado de un puente de conferencia de audio, el número de teléfono ya no estará disponible para que los usuarios puedan unirse a reuniones nuevas o existentes. 
+  > Una vez sin asignar un puente de conferencia de audio de un número de teléfono, el número de teléfono ya no estará disponible para los usuarios participar en reuniones nuevas o existentes. 
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 <a name="bkPowerShell"> </a>
@@ -169,11 +171,11 @@ Si necesita más información, consulte [Conectarse a todos los servicios de Off
     Import-PSSession $session
   ```
 
-Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar con todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [conectarse a Skype para los negocios en línea mediante el uso de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [Connecting to Skype para profesionales en línea mediante Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
 ### <a name="save-time-or-automate"></a>Ahorrar tiempo o automatizar
 
-Para ahorrar tiempo o automatizar este proceso, puede utilizar el [Conjunto CsOnlineDialInConferencingUser](http://go.microsoft.com/fwlink/?LinkId=617688) o los cmdlets de **Conjunto CsOnlineDialInConferencingUserDefaultNumber** .
+Para ahorrar tiempo o automatizar este proceso, puede usar el [Conjunto CsOnlineDialInConferencingUser](http://go.microsoft.com/fwlink/?LinkId=617688) o los cmdlets **Set-CsOnlineDialInConferencingUserDefaultNumber** .
   
 - Use el cmdlet [Set-CsOnlineDialInConferencingUser](http://go.microsoft.com/fwlink/?LinkId=617688) para cambiar el número de pago o el número gratuito predeterminado para usuarios específicos.
     
@@ -186,7 +188,7 @@ Para ahorrar tiempo o automatizar este proceso, puede utilizar el [Conjunto CsOn
 - Use el cmdlet de **Set-CsOnlineDialInConferencingUserDefaultNumber** para cambiar el número de pago o el número gratuito predeterminado de los usuarios, según el número predeterminado original o la ubicación.
     
     > [!NOTE]
-    > Para encontrar el BridgeID, utilice el **Get-CsOnlineDialInConferencingBridge**.
+    > Para buscar el BridgeID, use el **Get-CsOnlineDialInConferencingBridge**.
   
   - Para establecer el 8005551234 como número gratuito predeterminado para todos los usuarios que no tengan un número, ejecute:
     

@@ -15,25 +15,24 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: 'Learn how to add an emergency address to your Skype for Business account. '
-ms.openlocfilehash: d6b52f2eee9d80aa3dfc78e976e6312ac9fef650
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 48091ec9a3b5d689c8ecc72947712404bee2ecd2
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="add-or-remove-an-emergency-address-for-your-organization"></a>Agregar o quitar una dirección de emergencia para su organización
 
-Una dirección de emergencia debe estar asociada con un número de teléfono - pero cuando esto sucede puede variar entre países/regiones. Por ejemplo, en los Estados Unidos, debe asociar una dirección de emergencia cuando se asigna el número de teléfono al usuario. En el Reino Unido, debe asociar una dirección al número de teléfono de emergencia al obtener los números de teléfono de Office 365 o transferir números de teléfono de su proveedor de servicio actual.
+Una dirección de emergencia debe asociarse con un número de teléfono - pero cuando esto sucede puede variar entre países o regiones. Por ejemplo, en los Estados Unidos, debe asociar una dirección de emergencia al asignar el número de teléfono al usuario. En el Reino Unido, debe asociar una dirección para el número de teléfono de emergencia al obtener los números de teléfono de Office 365 o transferir los números de teléfono de su proveedor de servicio actual.
   
-No importa de qué país o región está en, es posible agregar una ubicación o ubicaciones de emergencia dirección o eliminar una dirección de emergencia. Dependiendo del número de ubicaciones físicas en la organización, puede crear para edificios, plantas y oficinas. Consulte [¿qué ubicaciones de emergencia, direcciones y enrutamiento de llamadas?](what-are-emergency-locations-addresses-and-call-routing.md) para obtener algunos detalles.
+Independientemente del lugar en que se encuentra en país o región, es posible agregar una ubicación o ubicaciones de emergencia de direcciones o quitar una dirección de emergencia. Dependiendo del número de ubicaciones físicas en la organización, puede crear para los edificios, plantas y oficinas. Vea [¿Cuáles son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?](what-are-emergency-locations-addresses-and-call-routing.md) para obtener algunos detalles.
   
-Para saber cómo obtener un Plan de llamadas y cuánto cuesta, vea [Skype para negocios y equipos de Microsoft licencias adicionales](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Para obtener información sobre cómo obtener un Plan de llamada y cuánto cuesta, vea [Skype para profesionales y los equipos de Microsoft complemento licencias](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 ## <a name="to-add-an-emergency-address"></a>Para agregar una dirección de emergencia
 
@@ -41,19 +40,19 @@ Para saber cómo obtener un Plan de llamadas y cuánto cuesta, vea [Skype para n
     
 2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
     
-3. En la exploración de la izquierda, vaya a **voz** > **ubicaciones de emergencia**y, a continuación, haga clic en el botón **Agregar nueva dirección** .
+3. En el panel de navegación izquierdo, vaya a **voz** > **ubicaciones de emergencia**y, a continuación, haga clic en el botón **Agregar nueva dirección** .
     
     > [!Important]
-    > Para que poder ver la opción de **voz** en la exploración de la izquierda en el Skype para el centro de administración de negocios, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia del módulo de **Sistema de teléfono** o al menos una **licencia Enterprise E5**.
+    > Para que pueda ver la opción de **voz** en la izquierda en la Skype para el centro de administración de negocio, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia adicional para **El sistema de teléfono** o al menos una **licencia Enterprise E5**.
     
-4. En el panel de acción, en la **Nueva dirección**, escriba la información necesaria en los cuadros.
+4. En el panel de acciones, en la **Nueva dirección**, escriba la información necesaria en los cuadros.
     
-5. Después de introducir toda la información de la dirección, haga clic en **Validar**.
+5. Después de escribir toda la información de la dirección, haga clic en **Validar**.
     
     > [!IMPORTANT]
     > Validar una dirección civil o postal implica asegurarse de que sea legítima y tenga el formato correcto. Es posible que una dirección de emergencia parcialmente correcta, por ejemplo con el nombre de la ciudad mal escrito, pueda seguir pasando como válida. Incluso si está mal escrita, pero pasó la validación, la combinación del nombre de la ciudad mal escrito junto con las demás partes correctas de la dirección constituye información suficiente para dirigir la llamada al centro de distribución emergencia correspondiente. 
   
-    Si no se puede validar la dirección, puede enviar una solicitud de validación manual haciendo clic en **Enviar una solicitud de validación** si intenta validar una dirección de Estados Unidos, o haga clic en **Abrir una solicitud de servicio para obtener ayuda con la validación de direcciones** si está fuera de la Estados Unidos.
+    Si no se puede validar la dirección, puede enviar una solicitud de validación manual haciendo clic en **Enviar una solicitud de validación** si está intentando validar una dirección de Estados Unidos, o haga clic en **Abrir una solicitud de servicio para obtener ayuda con la validación de direcciones** si está fuera de la Estados Unidos.
     
 6. Después de validar la dirección, haga clic en **Guardar**.
     
@@ -63,10 +62,10 @@ Para saber cómo obtener un Plan de llamadas y cuánto cuesta, vea [Skype para n
     
 2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
     
-3. En la exploración de la izquierda, vaya a **voz** > **ubicación de emergencia**, seleccione la dirección que desea eliminar y, en el panel Acción, haga clic en **Eliminar**.
+3. En el panel de navegación izquierdo, vaya a **voz** > **ubicación de emergencia**, seleccione la dirección que desea eliminar y, en el panel de acciones, haga clic en **Eliminar**.
     
     > [!IMPORTANT]
-    > Para que poder ver la opción de **voz** en la exploración de la izquierda en el Skype para el centro de administración de negocios, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia del módulo de **Sistema de teléfono** o al menos una **licencia Enterprise E5**.
+    > Para que pueda ver la opción de **voz** en la izquierda en la Skype para el centro de administración de negocio, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia adicional para **El sistema de teléfono** o al menos una **licencia Enterprise E5**.
     
 ## <a name="related-topics"></a>Temas relacionados
 [¿Qué son las direcciones, las ubicaciones de emergencia y el enrutamiento de llamadas?](what-are-emergency-locations-addresses-and-call-routing.md)

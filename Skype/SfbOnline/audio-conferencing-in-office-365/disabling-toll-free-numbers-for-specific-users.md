@@ -1,5 +1,5 @@
 ---
-title: Desactivación de números de teléfono gratuitos para usuarios específicos
+title: Deshabilitar a los números gratuitos para usuarios específicos
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,61 +12,63 @@ ms.collection:
 - Strat_SB_PSTN
 ms.audience: Admin
 ms.appliesto: Skype for Business, Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
-description: Los administradores pueden controlar cómo los organizadores pueden usar números de teléfono gratuitos para sus reuniones.
-ms.openlocfilehash: 0d2b4d16d6475587dd85223e0a88f64562664429
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Los administradores pueden controlar cómo los organizadores pueden usar los números gratuitos para sus reuniones.
+ms.openlocfilehash: a63078256ac9ac52b3d405bd3cf1b63120fb77ce
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="disabling-toll-free-numbers-for-specific-users"></a>Desactivación de números de teléfono gratuitos para usuarios específicos
+# <a name="disabling-toll-free-numbers-for-specific-users"></a>Deshabilitar a los números gratuitos para usuarios específicos
 
-Si su organización tiene números gratuitos en su Microsoft Audio Conferencing Bridge, puede permitir o impedir su uso en las reuniones de organizadores específicos.  
+Si su organización tiene los números gratuitos en su Bridge Conferencing de Audio de Microsoft, puede permitir o impedir su uso en las reuniones de los organizadores específicos.  
 
-De forma predeterminada, todos los usuarios de su organización están habilitados para el uso de números de teléfono gratuitos, lo que significa que esos números, si está disponible, pueden utilizarse por los participantes para unirse a sus reuniones. Si no es el comportamiento deseado de algunos usuarios de su organización, puede evitar que usuarios específicos utilizando esos números en sus reuniones a través de un control de habilitación número gratuito. 
+De forma predeterminada, todos los usuarios de su organización están habilitados para el uso de los números gratuitos, lo que significa que dichos números, si está disponible, se pueden usar por los participantes para unirse a sus reuniones. Si no es el comportamiento deseado para algunos usuarios de su organización, puede restringir usuarios específicos de uso de dichos números en sus reuniones a través de un control de habilitación de número gratuito. 
 
-Cuando los números gratuitos están deshabilitados para el organizador de una determinada: 
- - Ya no se incluirán un número gratuito en su o invita su reunión. 
- - Ya no se mostrarán en la página "Buscar un número local" que se hace referencia en su números gratuitos o invita su reunión. 
- - Los participantes no pueden participar en la reunión del organizador determinado si marcar cualquier número gratuito de la organización. 
- - Se programará automáticamente todas las reuniones del organizador y se quitará el número gratuito de ellos.  
+Cuando se deshabilitan los números gratuitos para el organizador de una determinada: 
+ - Un número de teléfono gratuito ya no se incluirá en su o invita su reunión. 
+ - Los números gratuitos ya no se mostrarán en la página "Encontrar un número local" en el que se hace referencia en su o invita su reunión. 
+ - Los participantes no puedan unirse a la reunión del organizador determinado si marcado de cualquier número de teléfono gratuito de la organización. 
+ - Se volverá a programar automáticamente todas las reuniones del organizador de la, y el número de teléfono gratuito se quitará de ellos.  
 
     > [!IMPORTANT]
     > Esto volverá a enviar todas las invitaciones de correo electrónico del organizador a todos los participantes de las reuniones. 
 
- - Los participantes pueden continuar unirse a reuniones del organizador con números de teléfono. 
+ - Los participantes pueden continuar unirse a reuniones del organizador utilizando números de teléfono de pago. 
 
-## <a name="disabling-toll-free-numbers-for-specific-users"></a>Desactivación de números de teléfono gratuitos para usuarios específicos 
+## <a name="disabling-toll-free-numbers-for-specific-users"></a>Deshabilitar a los números gratuitos para usuarios específicos 
 
-**Utilizando los equipos de Microsoft y Skype para el centro de administración de negocios**
+![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
 
-1. En la exploración de la izquierda, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
+1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
 2. En la parte superior de la página, haga clic en **Editar**.
 
-3. Haga clic en el menú situado junto a **Los puentes de conferencia**y, a continuación, haga clic en **Editar** en la lista desplegable.
+3. Haga clic en el menú situado junto a **Puentes de conferencia**y, a continuación, haga clic en **Editar** en la lista desplegable.
 
-4. En el panel de **proveedor de puente de conferencia** , desactive **Permitir utilizando números gratuitos en el puente de conferencia de la organización para unirse a las reuniones de este usuario**. 
+4. En el panel de **proveedor de puente de conferencia** , desactive **Permitir utilizando los números gratuitos en el puente de conferencia de su organización para unirse a las reuniones de este usuario**. 
 
 5. Haga clic en **Aplicar.** 
 
-Puede usar el Centro de administración de Skype Empresarial o Windows PowerShell para habilitar o deshabilitar el envío de correos electrónicos a los usuarios.
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
 
-1. En el **Skype para el centro de administración de negocios**, en la exploración de la izquierda, vaya a las **conferencias de Audio** > **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles. 
+1. En el **Skype para el centro de administración de negocio**, en el panel de navegación izquierdo, vaya a la **conferencia de Audio** > **a los usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles. 
 
 2. En el panel de acciones, haga clic en **Editar**. 
 
-3. Desactive **Permitir mediante números de teléfono gratuitos para unirse a las reuniones de este usuario**. 
+3. Desactive **Permitir el uso de los números gratuitos para unirse a las reuniones de este usuario**. 
  
 4. Haga clic en **Guardar**. 
  
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+ 
 **Uso de PowerShell**  
 
-Puede utilizar el parámetro AllowTollFreeDialIn del cmdlet Set-CsOnlineDialInConferencingUser para habilitar o deshabilitar este control. Por ejemplo: 
+Puede usar el parámetro AllowTollFreeDialIn del cmdlet Set-CsOnlineDialInConferencingUser para habilitar o deshabilitar este control. Por ejemplo: 
 
- - Conjunto CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false
+ - Set-CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false

@@ -15,52 +15,54 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to turn entry and exit announcements on or off in a Skype for Business Online meeting using the Skype for Business admin center. '
-ms.openlocfilehash: a9c3788db6b5742b4f2b41961c3843b4939c315b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 8c2eee6d9a6631fa9ade4e3f1dc4b54b74ea4465
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>Activar o desactivar los anuncios de entrada y salida para las reuniones
 
-Cuando configura la audioconferencia en Office 365, obtendrá un puente de conferencia de audio. Un puente de conferencia puede contener uno o más números de teléfono que utilizarán las personas que llaman a un Skype para reuniones de negocios o Teams de Microsoft. 
+Cuando establece una conferencia con Audio en Office 365, obtendrá un puente de conferencia de audio. Un puente de conferencia puede contener uno o más números de teléfono que los usuarios utilizarán para llamar a en un Skype para reuniones de negocios o Teams de Microsoft. 
   
-El puente de conferencia responde a una llamada de un usuario que está marcando a una reunión mediante un teléfono. El puente de conferencia responde al llamador con indicaciones de voz de un operador automático de conferencia y, a continuación, dependiendo de la configuración, puede reproducir las notificaciones, pida a los llamadores para registrar su nombre y configurar la seguridad de NIP. Un PIN se asigna a un Skype para el organizador de la reunión de negocios o Teams de Microsoft, y les permite iniciar una reunión si no pueden comenzar la reunión mediante un Skype para la aplicación de negocios o Teams de Microsoft. Sin embargo, se puede establecer para que no sea necesario un PIN para iniciar una reunión.
+El puente de conferencia responde a una llamada de un usuario que se llama a una reunión mediante un teléfono. El puente de conferencia responde el autor de la llamada con mensajes de voz de un operador automático de conferencia y, a continuación, dependiendo de la configuración, puede reproducir las notificaciones, pida a los autores de llamadas para registrar su nombre y configurar la seguridad de NIP. Un PIN se asignó a un Skype para profesionales o Microsoft Teams organizador de la reunión, y les permite iniciar una reunión si no pueden iniciar la reunión utilizando un Skype para aplicación empresarial o Teams de Microsoft. Sin embargo, se puede establecer para que no es necesario un NIP para iniciar una reunión.
   
 ## <a name="setting-meeting-join-options"></a>Configurar las opciones para unirse a una reunión
 
-**Utilizando los equipos de Microsoft y Skype para el centro de administración de negocios**
+![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
 
-1. En la exploración de la izquierda, vaya a **reuniones** > **Puentes de conferencia**. 
+1. En el panel de navegación izquierdo, vaya a **las reuniones** > **Puentes de conferencia**. 
 
-2. En la parte superior de la página **Puentes de conferencia** , haga clic en **Configuración de puente**. 
+2. En la parte superior de la página de **Puentes de conferencia** , haga clic en **Configuración de puente**. 
 
-3. En el panel **configuración de puente** , habilitar o deshabilitar **Habilitar la entrada de la reunión y salir de notificaciones para activarse**. Esta opción está seleccionada de forma predeterminada. Si lo desactiva, los usuarios que ya han participado en la reunión no le notificará cuando alguien entra o sale de la reunión.
+3. En el panel **configuración de puente** , habilitar o deshabilitar **Habilitar la entrada de la reunión y salir de notificaciones para activarse**. Esta opción está seleccionada de forma predeterminada. Si se desactiva, los usuarios que ya se han unido a la reunión no recibirá una notificación cuando alguien entra o sale de la reunión.
     
-4. En **tipo de anuncio de entrada/salida**, seleccione **los nombres o números de teléfono** o **tonos**.
+4. En **tipo de anuncio de entrada o salida**, seleccione **los nombres o números de teléfono** o **tonos**.
     
-5. Habilitar o deshabilitar **los llamadores Ask para registrar su nombre antes de unirse a la reunión**.
+5. Habilitar o deshabilitar **los autores de llamadas Ask para registrar su nombre antes de unirse a la reunión**.
     
 6. Después de realizar los cambios, haga clic en **Aplicar**.
 
-Puede usar el Centro de administración de Skype Empresarial o Windows PowerShell para habilitar o deshabilitar el envío de correos electrónicos a los usuarios.
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
     
 1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
-2. En **experimentar la combinación de la reunión**, active o desactive **Permitir la entrada de la reunión y salir notificaciones al activarse**. Esta opción está seleccionada de forma predeterminada. Si lo desactiva, los usuarios que ya han participado en la reunión no le notificará cuando alguien entra o sale de la reunión.
+2. En la **experiencia de unirse a la reunión**, active o desactive **Habilitar la entrada de la reunión y salir de notificaciones para activarse**. Esta opción está seleccionada de forma predeterminada. Si se desactiva, los usuarios que ya se han unido a la reunión no recibirá una notificación cuando alguien entra o sale de la reunión.
     
-3. En **tipo de anuncio de entrada/salida**, seleccione **los nombres o números de teléfono** o **tonos**.
+3. En **tipo de anuncio de entrada o salida**, seleccione **los nombres o números de teléfono** o **tonos**.
     
-4. Active o desactive **los llamadores Ask para registrar su nombre antes de unirse a la reunión**.
+4. Active o desactive **los autores de llamadas Ask para registrar su nombre antes de unirse a la reunión**.
     
 5. Después de realizar los cambios, haga clic en **Guardar**.
     
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 
 - Para ahorrar tiempo o automatizar este proceso, puede usar el cmdlet [Set-CsOnlineDialInConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686 ).
@@ -71,7 +73,7 @@ Puede usar el Centro de administración de Skype Empresarial o Windows PowerShel
     
   - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad sobre utilizando sólo el centro de administración de Office 365, como cuando realice cambios en la configuración de muchos usuarios al mismo tiempo. Más información sobre estas ventajas en los temas siguientes: 
+- Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad sobre solo usa el centro de administración de Office 365, como cuando desea realizar cambios en la configuración de muchos usuarios al mismo tiempo. Más información sobre estas ventajas en los temas siguientes: 
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

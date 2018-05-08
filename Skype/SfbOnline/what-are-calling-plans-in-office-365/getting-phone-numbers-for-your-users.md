@@ -15,29 +15,28 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
-ms.openlocfilehash: daa722993d0734f0601c9ac5d02f39041d0d082d
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: ff7716a057ee2b3bb27b01a4912f718d28e3739b
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtener números de teléfono de Skype Empresarial para los usuarios
 
 [] Para poder configurar los usuarios de su organización para que puedan recibir y realizar llamadas telefónicas, debe usar el Centro de administración de Skype Empresarial para obtener los números de teléfono.
   
-Hay tres maneras de obtener nuevos números de usuario:
+Hay tres maneras de obtener los nuevos números de usuario:
 
-- **Utilice el Skype para el centro de administración de negocios.** Para algunos países o regiones, puede obtener los números de los usuarios utilizando el Skype para el centro de administración de negocios, consulte [obtención de números de teléfono de los usuarios](getting-phone-numbers-for-your-users.md).
+- **Use el Skype para el centro de administración de negocio.** Para algunos países o regiones, puede obtener números para los usuarios con el Skype para el centro de administración de negocio, vea la [Introducción de los números de teléfono para los usuarios](getting-phone-numbers-for-your-users.md).
     
-- **Los números existentes de puerto.** Puede trasladar o transferir números existentes desde su actual proveedor de servicios o la compañía de teléfono para Office 365. Consulte [transferir números de teléfono a Office 365](transfer-phone-numbers-to-office-365.md) o [administrar números de teléfono de la organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obtener más información para ayudarle a hacerlo.  
+- **Puertos de sus números de existentes.** Puede puerto o transferir los números existentes desde su proveedor de servicio actual o el operador de teléfono para Office 365. Consulte [transferir los números de teléfono a Office 365](transfer-phone-numbers-to-office-365.md) o [administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obtener más información que le ayudarán a hacer esto.  
   
-- **Utilizar un formulario de solicitud para nuevos números.** A veces (dependiendo de su país o región) no podrá obtener sus números de teléfono de nuevo usando el Skype para el centro de administración de negocios o necesita determinados números de teléfono o códigos de área. En ese caso, tendrá que descargar un formulario y enviárnoslo. Para obtener más información, vea [administrar números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .
+- **Usar un formulario de solicitud para los nuevos números.** A veces (dependiendo de su país o región) no podrá obtener sus números de teléfono nuevo mediante la Skype para el centro de administración de negocio o necesitará determinados números de teléfono o códigos de área. En ese caso, tendrá que descargar un formulario y enviárnoslo. Para obtener más información, vea [administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .
     
 Debe usar la página **Números nuevos** para ver, buscar, adquirir y reservar dichos números. Puede buscar por **País o región**, **Estado** y **Ciudad** y, a continuación, escribir la cantidad de números de teléfono que necesitará para los usuarios.
   
@@ -50,10 +49,10 @@ Debe usar la página **Números nuevos** para ver, buscar, adquirir y reservar d
     
 2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
     
-3. En la exploración de la izquierda vaya a **voz** > **números de teléfono**, haga clic en **Agregar nuevo número** ![botón Agregar](../images/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)y, a continuación, haga clic en **los números de usuario nuevo**.
+3. En el panel de navegación izquierdo, vaya a **voz** > **los números de teléfono**, haga clic en **Agregar nuevo número** ![botón Agregar](../images/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)y, a continuación, haga clic en **nuevo usuario los números**.
     
     > [!IMPORTANT]
-    > Para que poder ver la opción de **voz** en la exploración de la izquierda en el Skype para el centro de administración de negocios, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia del módulo de **Sistema de teléfono** o al menos una **licencia Enterprise E5**.
+    > Para que pueda ver la opción de **voz** en la izquierda en la Skype para el centro de administración de negocio, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia adicional para **El sistema de teléfono** o al menos una **licencia Enterprise E5**.
     
 4. En la página **Agregar nuevos números de usuario**, use los menús desplegables para elegir lo siguiente:
     
@@ -73,11 +72,11 @@ Debe usar la página **Números nuevos** para ver, buscar, adquirir y reservar d
 7. Seleccione los números de teléfono que desee y haga clic en **Adquirir números**.
     
     > [!IMPORTANT]
-    > El número de números de teléfono de los usuarios (suscriptores) es igual al número total de asignados **Plan de llamadas nacionales** o **nacionales y Plan de llamadas internacionales** licencias al multiplica por 1.1, además de 10 números de teléfono adicionales. Por ejemplo, si tiene 50 usuarios en total con un Plan de llamadas nacionales o nacionales y Plan de llamadas internacionales, puede adquirir los números de teléfono de **65** **(50 x 1.1 + 10)**. Para obtener más información, consulte [cuántos números de teléfono puede conseguir?](how-many-phone-numbers-can-you-get.md). Si necesita obtener más números de teléfono, consulte [Póngase en contacto con el soporte de Office 365 para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
+    > El número de números de teléfono para los usuarios (suscriptores) es igual que el número total de **Llamar a planear nacional** o **nacionales y llamar a planear internacional de** las licencias que haya asignado multiplicado por 1.1, además de 10 números de teléfono adicionales. Por ejemplo, si tiene 50 usuarios en total con un Plan de llamar a nacional o nacionales y llamar a planear internacional, puede adquirir de números de teléfono de **65** **(50 x 1.1 + 10)**. Para obtener información detallada, vea [cuántos números de teléfono puede obtener?](how-many-phone-numbers-can-you-get.md). Si necesita obtener más números de teléfono, consulte [Póngase en contacto con el soporte de Office 365 para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
  Realizar la portabilidad de los números de su proveedor de servicios u operador telefónico o transferirlos
   
-- Si necesita 999 o menos números de teléfono para sus usuarios, puede usar el asistente para la **Solicitud de portabilidad de nuevo número local** del Centro de administración de Skype Empresarial. Siga los pasos descritos en los [números de teléfono de transferencia a Office 365](transfer-phone-numbers-to-office-365.md) para transferir sobre sus números de teléfono a Skype para los negocios en línea.
+- Si necesita 999 o menos números de teléfono para sus usuarios, puede usar el asistente para la **Solicitud de portabilidad de nuevo número local** del Centro de administración de Skype Empresarial. Siga los pasos que se encuentran en [los números de teléfono de transferencia a Office 365](transfer-phone-numbers-to-office-365.md) para transferir a través de sus números de teléfono a Skype para profesionales en línea.
     
 - Si tiene más de 999 números de teléfono de los que necesita realizar la portabilidad, consulte [Enviar manualmente una solicitud de servicio personalizado](manually-submit-a-custom-service-request.md) para enviar una solicitud de portabilidad del servicio o solicitar que todos esos números de teléfono se transfieran a Office 365.
     

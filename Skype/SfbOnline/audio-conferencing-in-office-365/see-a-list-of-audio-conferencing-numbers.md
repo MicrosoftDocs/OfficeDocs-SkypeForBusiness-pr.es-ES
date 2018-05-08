@@ -15,48 +15,50 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to look up your dial-in conferencing numbers from within Skype for Business. '
-ms.openlocfilehash: d4e1ef41a02a0197133d2b5cc08a4f35f961e4ee
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: c50c7a06aae2e9e68a5f9a2c66fc04f912a35705
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers"></a>Ver una lista de números de conferencia de Audio
 
-Al configurar conferencias de Audio de Skype para usuarios de negocios y Teams de Microsoft, puede ver los números de teléfono disponibles para conferencias de audio. Esta lista tendrá todos los números de teléfono de conferencia de audio que están disponibles para su organización.
+Cuando se establece una conferencia con Audio de Skype para los usuarios profesionales y Microsoft Teams, puede ver los números de teléfono que están a su disposición para conferencias de audio. Esta lista tendrá todos los números de teléfono de conferencia de audio que están disponibles para su organización.
   
- **¿Busca los precios?** Consulte [precios para conferencias de Audio](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
+ **¿Busca los precios?** Vea [precios para conferencias de Audio](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
   
 > [!IMPORTANT]
-> **No hay un recurso que contiene una lista de todos los números de acceso telefónico para conferencias de Audio.** Si desea para ver si hay números de teléfono de marcado disponibles en su área o país o región, vaya a **Skype para el centro de administración de negocios** > **voz** > **Números de teléfono**, haga clic en **Agregar**y, a continuación, haga clic en nuevo servicio de ** Números**. Use las listas de **País o región**, **Estado o región** y **Ciudad** para filtrar la búsqueda. También, si está buscando números de servicio gratuito, seleccione **número gratuito** desde el estado o región **** lista.
+> **No hay un recurso que contiene una lista de todos los números de acceso telefónico para conferencias de Audio.** Si está buscando para ver si hay números de teléfono de acceso telefónico disponibles en su área o país o región, vaya a **Skype para el centro de administración de negocio** > **voz** > **Los números de teléfono**, haga clic en **Agregar**y, a continuación, haga clic en nuevo servicio de ** Los números de**. Use las listas de **País o región**, **Estado o región** y **Ciudad** para filtrar la búsqueda. Además, si busca los números de teléfono gratuito de servicio, seleccione **gratuito** desde la provincia o región **** lista.
   
-Si solo hay un número de teléfono disponible en su organización, todos los usuarios lo usarán como número predeterminado. Cuando varios números de teléfono están disponibles, puede seleccionar el número de teléfono predeterminado para cada usuario. Este número por defecto se incluirán en Skype para invitaciones a reuniones de negocios y Teams de Microsoft.
+Si solo hay un número de teléfono disponible en su organización, todos los usuarios lo usarán como número predeterminado. Cuando varios números de teléfono están disponibles, puede seleccionar el número de teléfono predeterminado para cada usuario. Este número predeterminado se incluirá en Skype para las invitaciones a reuniones de negocios y Microsoft Teams.
   
-Puede ver [el teléfono invita números incluidos en](set-the-phone-numbers-included-on-invites.md) para cambiar el número de teléfono marcado para un único usuario.
+Puede ver [el teléfono invita los números incluidos en](set-the-phone-numbers-included-on-invites.md) para cambiar el número de teléfono de acceso telefónico para un único usuario.
   
 > [!NOTE]
 > Los números de marcado domésticos están dedicados a su organización y son los únicos que pueden configurarse como el número de teléfono predeterminado. Sin embargo, los números de marcado internacionales pueden compartirse en varias organizaciones. 
   
-## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Para ver sus números de teléfono de conferencia de audio
+## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png--to-view-your-audio-conferencing-phone-numbers"></a>![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png)  Para ver los números de teléfono de conferencia de audio
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
 2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
     
-3. En el **Skype para el centro de administración de negocios**, en la exploración de la izquierda, vaya a las **conferencias de Audio** > **puente de Microsoft**y a continuación:
+3. En el **Skype para el centro de administración de negocio**, en el panel de navegación izquierdo, vaya a la **conferencia de Audio** > de**puente de Microsoft**y a continuación:
     
-  - Puede ver los números de teléfono disponibles para conferencias de audio.
+  - Puede ver los números de teléfono que están disponibles para conferencias de audio.
     
-  - También puede ver la ubicación y los idiomas primarios y secundarios que se utilizarán en el conferencias de audio automática operador.
+  - También puede ver la ubicación y operador automático de los idiomas principales y secundarios que se utilizará en la conferencia de audio.
     
 > [!NOTE]
-> Puede ir a las **conferencias de Audio** > **usuarios** y seleccione las propiedades del usuario para cambiar el valor predeterminado de número seleccionando un nuevo número de la lista de números disponibles en su organización. Consulte [el teléfono invita números incluidos en](set-the-phone-numbers-included-on-invites.md). 
+> Puede ir a la **conferencia de Audio** > **a los usuarios** y seleccione las propiedades del usuario para cambiar el valor predeterminado de número seleccionando un nuevo número de la lista de los números disponibles en su organización. Vea [el teléfono los números incluidos en invitaciones](set-the-phone-numbers-included-on-invites.md). 
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 
