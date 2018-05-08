@@ -1,5 +1,5 @@
 ---
-title: Agregar fondos y administrar créditos de comunicaciones
+title: Agregar fondos y administrar Communications créditos
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,7 +15,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords:
 - O365E_SFBVoiceCredit
 - O365E_SFBVoiceCreditAether
@@ -27,43 +27,42 @@ f1keywords:
 - O365P_SFBVoiceCreditAether
 ms.custom:
 - Licensing
-- Strat_SB_PSTN
-description: 'Aprenda a pagar créditos de comunicación (consumo PSTN) de Skype para servicios de negocios y ver planes para mantener a los usuarios con acceso al sistema de teléfono continua. '
-ms.openlocfilehash: c791c87d2a3b676aeb8d859441ba427811152619
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 'Obtenga información sobre cómo pagar créditos de comunicación (consumo de RTC) para Skype para servicios de negocios y vea los planes para mantener a los usuarios con acceso al sistema de teléfono continua. '
+ms.openlocfilehash: e0cef7b40788045f4b76b0df0e0ee828ec0ab98d
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/08/2018
 ---
-# <a name="add-funds-and-manage-communications-credits"></a>Agregar fondos y administrar créditos de comunicaciones
+# <a name="add-funds-and-manage-communications-credits"></a>Agregar fondos y administrar Communications créditos
 
-Créditos de comunicaciones son una manera conveniente de pagar por el sistema telefónico y llamar a los planes de Office 365. Ayuda a garantizar que usted y sus usuarios nunca se interceptan sin ser capaz de:
+Créditos de comunicaciones son una forma cómoda de pago para el sistema telefónico y llamar a los planes en Office 365. Ayuda a garantizar que usted y sus usuarios nunca se detectan sin ser capaz de:
   
-- Llamar a las reuniones, conferencias de Audio con números de teléfono de acceso telefónico gratuito.
+- Acceso telefónico a las reuniones de conferencia de Audio con números de teléfono de acceso telefónico gratuito.
     
-- Marcar desde una reunión de la conferencia de Audio para agregar otra persona desde cualquier parte del mundo.
+- Marcar un número de una reunión de conferencia de Audio para agregar otra persona desde cualquier lugar en el mundo.
     
-- Marcar desde una reunión de la conferencia de Audio a su teléfono móvil con el Skype para la aplicación de negocios o Teams de Microsoft instalada.
+- Marcar un número de una reunión de conferencias de Audio a su teléfono móvil con el Skype para profesionales o Microsoft Teams aplicación instalada.
     
-- Marque cualquier número de teléfono internacional cuando se tiene un **Plan de llamadas nacionales**.
+- Cuando haya un **Nacionales llamar al Plan**de marcado de cualquier número de teléfono internacional.
     
-- Marcar y paga por minuto una vez haya agotado la cobertura de minutos mensual.
+- Marcar un número y de pago por minuto una vez haya agotado la cobertura de minutos mensual.
     
 > [!NOTE]
-> Si se pregunta cuánto es y en las tasas, vea la tabla de tarifas en la página [Llamar a planes](https://go.microsoft.com/fwlink/p/?LinkId=799523) .
+> Si se pregunta cuánto es y en las tasas, vea la tabla de tasas en la página de [Planes de llamada](https://go.microsoft.com/fwlink/p/?LinkId=799523) .
   
-Como administrador, puede agregar fondos manualmente o puede configurar la recarga automática, que nos **recomienda**.
+Como administrador, puede agregar fondos manualmente o puede configurar recarga automático, que se **recomienda**.
   
 Esta opción recarga automáticamente su saldo cuando se encuentra por debajo del umbral mínimo que establezca. Se recomienda usar la opción de recarga automática para que no tenga que acordarse de agregar fondos de forma manual. Los fondos se agregarán automáticamente cuando el saldo alcance el límite. Si no elige la recarga automática, corre el riesgo de que el saldo sea inferior a cero. En ese momento, ni su usuario ni el resto podrán realizar llamadas gratuitas ni llamadas internacionales.
   
-Puede actualizar las opciones de pago en cualquier momento. En la página **suscripciones** , seleccione **Comunicaciones créditos**y realice las actualizaciones.
+Puede actualizar las opciones de pago en cualquier momento. En la página de **suscripciones** , seleccione **Communications créditos**y realice las actualizaciones.
   
-Los fondos se aplicará sólo a créditos de comunicaciones en tarifas publicadas de Microsoft cuando se utilizan los servicios. Los fondos no utilizados dentro de los doce (12) meses de la fecha de compra caducarán y se ejecutará.
+Fondos se aplicarán sólo a Communications créditos a velocidades publicados de Microsoft cuando se usan los servicios. Todos los fondos que no se usa dentro de doce (12) meses de la fecha de compra caducarán y se ejecutará.
   
 > [!TIP]
-> Te enviaremos que un correo electrónico de notificaciones, cuando los fondos se agregan a través de recarga automática, cuando se produce un error en la recarga automática (por ejemplo, cuando caduca una tarjeta de crédito) y cuando el saldo está por debajo de cero. 
+> Se enviará que un correo electrónico de notificaciones, cuando se agregan fondos a través de auto-recarga, cuando se produce un error en la recarga de automático (por ejemplo, cuando caduca una tarjeta de crédito) y cuando su saldo cae por debajo de cero. 
   
-Para obtener más información, consulte [¿qué comunicaciones créditos?](what-are-communications-credits.md)
+Para obtener más información, vea [¿Cuáles son las comunicaciones créditos?](what-are-communications-credits.md)
   
 ## <a name="want-to-know-about-plans-and-pricing"></a>¿Desea obtener información acerca de los planes y los precios?
 
@@ -71,13 +70,13 @@ Puede ver los planes y precios, visite uno de los siguientes vínculos:
   
 - [Planes de llamada](https://go.microsoft.com/fwlink/?LinkId=799761 )
     
-- [Planes de conferencia de audio](https://go.microsoft.com/fwlink/?LinkId=799762 )
+- [Planes de conferencias de audio](https://go.microsoft.com/fwlink/?LinkId=799762 )
     
 - [Planes de sistema de teléfono](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-También puede ver información al [iniciar sesión en el centro de administración de Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y **facturación** > **suscripciones** > **Agregar suscripciones**.
+También puede ver información iniciando [sesión en el centro de administración de Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y va a **facturación** > **suscripciones** > **Agregar suscripciones**.
   
-Para ver una tabla con la licencia o licencias que necesitará para cada función, vea [Skype para negocios y equipos de Microsoft licencias adicionales](skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Para ver una tabla con la licencia o licencias que necesitará para cada característica, vea [Skype para profesionales y los equipos de Microsoft complemento licencias](skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-topics"></a>See also
 
@@ -85,9 +84,9 @@ Para ver una tabla con la licencia o licencias que necesitará para cada funció
     
 - [Configurar el correo de voz de Sistema telefónico - Ayuda para el administrador](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
     
-- [Configurar planes de llamada](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) y [Llamar a planes de Office 365](calling-plans-for-office-365.md)
+- [Configurar planes de llamada](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) y [Llamar a los planes de Office 365](calling-plans-for-office-365.md)
         
-- [Configurar el conector de la nube](https://technet.microsoft.com/en-us/library/mt605228.aspx) y [descargar el conector de la nube](https://aka.ms/CloudConnectorInstaller)
+- [Configurar el conector en la nube](https://technet.microsoft.com/en-us/library/mt605228.aspx) y [Descargue el conector en la nube](https://aka.ms/CloudConnectorInstaller)
 
   
  

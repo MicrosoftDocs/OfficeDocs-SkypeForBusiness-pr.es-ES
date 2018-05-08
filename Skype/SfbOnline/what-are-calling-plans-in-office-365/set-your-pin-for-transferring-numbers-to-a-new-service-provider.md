@@ -1,5 +1,5 @@
 ---
-title: Establezca su NIP para transferir números a un nuevo proveedor de servicios
+title: Establecer el PIN para transferir los números a un nuevo proveedor de servicios
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,50 +15,49 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
-description: Para transferir o puerto números de teléfono de Skype para los negocios en línea a otro proveedor de servicio telefónico o portador, debe establecer manualmente un PIN. Una vez establecido el PIN, necesitará incluirlo cuando solicite un número de teléfono con el puerto.
-ms.openlocfilehash: 80b782880f8acc2767ed6743ddf2e89f24299308
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: Para transferir o de puerto a los números de teléfono de Skype para profesionales en línea a otro proveedor de servicios telefónicos o portadora, debe establecer manualmente un PIN. Después de establecer el PIN, necesitará incluirlo en la solicitud a un número de teléfono fuera de puerto.
+ms.openlocfilehash: 30eaed1f5ec139f82dce75cfec77c873b8f491de
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/08/2018
 ---
-# <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Establezca su NIP para transferir números a un nuevo proveedor de servicios
+# <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Establecer el PIN para transferir los números a un nuevo proveedor de servicios
 
-Para transferir o *puerto a* números de teléfono de Skype para los negocios en línea a otro proveedor de servicio telefónico o portador, tendrá que configurar manualmente un PIN. Una vez establecido el PIN, necesitará incluirlo cuando solicite un número de teléfono con el puerto. 
+Para transferir o *puerto a* números de teléfono de Skype para profesionales en línea a otro proveedor de servicios telefónicos o portadora, deberá configurar manualmente un PIN. Después de establecer el PIN, necesitará incluirlo en la solicitud a un número de teléfono fuera de puerto. 
   
 > [!IMPORTANT]
-> Un puerto de la CLAVIJA de salida sólo se utiliza en las organizaciones de los Estados Unidos. 
+> Un puerto de salida PIN sólo se utiliza en las organizaciones de los Estados Unidos. 
   
-Para obtener más información acerca de cómo transferir y trasladar los números de teléfono de entrada/salida, consulte [transferir números de teléfono para Office 365](transfer-phone-numbers-to-office-365.md) .
+Para obtener más información acerca de la transferencia y trasladar los números de teléfono de entrada y salida, vea [transferir los números de teléfono para Office 365](transfer-phone-numbers-to-office-365.md) .
   
-Aquí es alguna información específica sobre este PIN debe saber:
+Aquí es algunos información específica sobre este PIN debe conocer:
   
-- Si no se ha configurado un PIN, no será capaz de transferencia o puerto de números de teléfono de Skype para los negocios en línea.
+- Si no se ha configurado un PIN, no podrá al puerto a los números de teléfono o transferencia de Skype para profesionales en línea.
     
 - Puede contener 6-10 dígitos (números).
     
 - No puede contener letras o caracteres especiales.
     
-- El PIN predeterminado es en blanco, pero si se insertan en, no puede quitar o establézcala en blanco.
+- El valor predeterminado PIN está en blanco, pero si se insertan en, no se puede quitar o establecer en blanco.
     
 - Puede actualizar o cambiar el PIN después de especificar uno.
     
-## <a name="set-up-your-pin"></a>Configurar su PIN
+## <a name="set-up-your-pin"></a>Configurar el NIP
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Ir al **Centro de administración de Office 365** > **centra Admin** > **Skype para el negocio**.
+2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **Skype para la empresa**.
     
-3. En la exploración de la izquierda, elija **voz** > **pedidos de puerto**.
+3. En el panel de navegación izquierdo, elija **voz** > **pedidos de puerto**.
     
-4. Haga clic en **Set up y administrar el PIN** que se utiliza para la transferencia o traslado de números a otra empresa de transporte de servicio.
+4. Haga clic en **establecer seguridad y administrar el PIN** que se usa para la transferencia o trasladar los números a otro operador de servicio.
     
-5. En el **establecer o cambiar el puerto de la CLAVIJA de salida** del panel, introduzca el PIN y haga clic en **Guardar**.
+5. En la **establecer o cambiar el puerto de salida PIN** del panel, escriba el PIN y haga clic en **Guardar**.
 
 > [!NOTE]
 > Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

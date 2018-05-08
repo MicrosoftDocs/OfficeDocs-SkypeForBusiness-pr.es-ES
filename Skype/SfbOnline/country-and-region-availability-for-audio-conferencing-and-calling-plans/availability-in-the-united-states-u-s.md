@@ -1,5 +1,5 @@
 ---
-title: Disponibilidad en los Estados Unidos (EE.)
+title: Disponibilidad en los Estados Unidos (Estados Unidos)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,18 +20,18 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están disponibles para los Estados Unidos los servicios de Office 365 para Skype para empresas y Teams de Microsoft.
-ms.openlocfilehash: 34ef8a3ead8dfc37690f3588b8b61c8f1b467f95
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Teams disponibles para los Estados Unidos.
+ms.openlocfilehash: db1d6c2473e45479cc9eca16951946a8c2ead9b5
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/08/2018
 ---
-# <a name="availability-in-the-united-states-us"></a>Disponibilidad en los Estados Unidos (EE.)
+# <a name="availability-in-the-united-states-us"></a>Disponibilidad en los Estados Unidos (Estados Unidos)
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están disponibles para los Estados Unidos los servicios de Office 365 para Skype para empresas y Teams de Microsoft.
+Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Teams disponibles para los Estados Unidos.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -55,7 +55,16 @@ Aquí están disponibles para los Estados Unidos los servicios de Office 365 par
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿Los planes de llamada están disponibles para la compra?  <br/> |Sí  <br/> |
-|Minutos disponibles para Planes de llamada  <br/> |3000 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (el límite al que se llegue antes cada mes). Las llamadas nacionales en los Estados Unidos incluyen las llamadas a los 50 estados de Estados Unidos y Puerto Rico. Los usuarios que tengan asignada la ubicación de uso de licencia de EE. UU. o Puerto Rico comparten el mismo grupo de minutos.  <br/> |
+|Minutos disponibles para llamar a los planes. |Hay tres opciones de plan por mes del calendario:
+- 120 minuto nacionales llamada Plan (la disponibilidad es limitada)
+- 240 minutos nacionales llamada Plan (la disponibilidad es limitada)
+- Plan de llamada nacionales 1200 minuto
+- Plan de llamada nacionales 1200 minuto
+- 600 minutos para las llamadas internacionales (si ha adquirido una nacionales & llamar a planear internacional)
+
+Llamada nacional de Estados Unidos incluye llamadas a todos los Estados de Estados Unidos y Puerto Rico 50. Los usuarios asignados con la ubicación de uso de la licencia de Estados Unidos y Puerto Rico comparten el mismo conjunto de minutos.
+|||
+|:-----|:-----|
 |¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios

@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Resumen: Configurar los requisitos de servidor que no sean de Skype para Business Server 2015. Hay una gran variedad de cosas que querrá configurado antes de realizar la implementación, incluidos Active Directory, DNS, certificados y uso compartido de archivos.'
-ms.openlocfilehash: ed01b466abe46a83ca4d44b2cb555c85ab9af248
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 61b5d0a9bbce1fc2549f01f7f13209e87f74caf0
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Requisitos del entorno para Skype Empresarial Server 2015
  
@@ -358,9 +358,9 @@ Skype para Business Server 2015 es capaz de utilizar el mismo recurso compartido
   
 - Un recurso compartido de archivos debe estar en un almacenamiento conectado directo (DAS) o en un almacenamiento en red (SAN), y esto incluye el sistema de archivos distribuidos (DFS) y las matrices redundantes de discos independientes (RAID). Para obtener más información sobre DFS para Windows Server 2012, desproteger [esta página DFS](https://technet.microsoft.com/en-us/library/jj127250.aspx).
     
-- Se recomienda un clúster compartido para el recurso compartido de archivos. Si está utilizando uno, debe organizar en clústeres Windows Server 2012 o Windows Server 2012 R2. Windows Server 2008 R2 también es aceptable. ¿Por qué el más reciente para Windows? Las versiones más antiguas no pueden tener los permisos adecuados para habilitar todas las características. Puede usar el Administrador de clústeres para crear los recursos compartidos de archivos y, en este artículo de [creación de un clúster](https://support.microsoft.com/kb/284838) KB le ayudará con esos detalles.
+- Se recomienda un clúster compartido para el recurso compartido de archivos. Si está utilizando uno, debe organizar en clústeres Windows Server 2012 o Windows Server 2012 R2. Windows Server 2008 R2 también es aceptable. ¿Por qué el más reciente para Windows? Las versiones más antiguas no pueden tener los permisos adecuados para habilitar todas las características. Puede usar el Administrador de clústeres para crear los recursos compartidos de archivos y, en este artículo [cómo crear recursos compartidos de archivos en un clúster](https://support.microsoft.com/en-us/help/224967/how-to-create-file-shares-on-a-cluster) le ayudará con esos detalles.
     
-> [!CAUTION]
+> [!CAUTION] 
 > Es preciso que recuerde que no se admite el uso del almacenamiento conectado a la red (NAS) como recurso compartido de archivo, de modo que utilice una de las opciones que se han descrito anteriormente. 
   
 

@@ -15,21 +15,20 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
-description: Aprenda a ver una lista de todos los números de teléfono de su organización, todos los números asignados a los usuarios y todos los números que se asignan a los usuarios de voz desde el Skype para el centro de administración de negocios.
-ms.openlocfilehash: f1bbb27fc1432d411a8241c75bf4e7ba12ccbe0d
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: Obtenga información sobre cómo ver una lista de todos los números de teléfono en su organización, todos los números que se asigna a los usuarios y todos los números que se asignan a los usuarios de voz desde el Skype para el centro de administración de negocio.
+ms.openlocfilehash: 26dc251308d63b2feb91134a052e37c97c145568
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Ver una lista de números de teléfono de su organización
 
-Existen distintos tipos de números de teléfono que puede asignar a usuarios o a otros servicios (números de servicio), como para las conferencias de Audio de Office 365.
+Hay distintos tipos de números de teléfono que puede asignar a usuarios o a otros servicios (números de servicio), como para conferencias de Audio en Office 365.
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>Para ver una lista de todos los números de teléfono de los que dispone para su organización
 
@@ -40,21 +39,21 @@ Existen distintos tipos de números de teléfono que puede asignar a usuarios o 
 3. En el **Centro de administración de Skype Empresarial**, en el panel de navegación de la izquierda, vaya a **Voz** > **Números de teléfono**.
     
     > [!IMPORTANT]
-    > Para que poder ver la opción de **voz** en la exploración de la izquierda en el Skype para el centro de administración de negocios, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia del módulo de **Sistema de teléfono** o al menos una **licencia Enterprise E5**.
+    > Para que pueda ver la opción de **voz** en la izquierda en la Skype para el centro de administración de negocio, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia adicional para **El sistema de teléfono** o al menos una **licencia Enterprise E5**.
     
-4. Para ver los números de teléfono que se asignan, vea la columna de **número** .
+4. Para ver los números de teléfono que se asignan, vea la columna **número** .
     
-5. Puede utilizar la lista desplegable para filtrar la vista por:
+5. Puede usar la lista desplegable para filtrar la vista por:
     
   - **Todos** los números de teléfono, incluidos los números de teléfono de servicios.
     
-  - De teléfono **intervalo de números** que se establece.
+  - Un teléfono **intervalo de números** que ha configurado.
     
-  - Números de teléfono que se **asigna al usuario**.
+  - Números de teléfono que están **asignados al usuario**.
     
-  - Los números de teléfono que **asigna a la conferencia** para conferencias de acceso telefónico.
+  - Números de teléfono que **asignada a la conferencia** para conferencias de acceso telefónico.
     
-  - Números de teléfono que están **asignados**.
+  - Números de teléfono que están **sin asignar**.
     
   - La **ubicación** de los números de teléfono.
     
@@ -69,9 +68,9 @@ Cuando configure usuarios, es posible que solo quiera ver la lista de los númer
 3. En el **Centro de administración de Skype Empresarial**, en el panel de navegación de la izquierda, vaya a **Voz** > **Usuarios de voz**.
     
     > [!IMPORTANT]
-    > Para que poder ver la opción de **voz** en la exploración de la izquierda en el Skype para el centro de administración de negocios, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia del módulo de **Sistema de teléfono** o al menos una **licencia Enterprise E5**.
+    > Para que pueda ver la opción de **voz** en la izquierda en la Skype para el centro de administración de negocio, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia adicional para **El sistema de teléfono** o al menos una **licencia Enterprise E5**.
     
-4. Puede filtrar la vista para números de teléfono que se asignan a los usuarios o números de teléfono que puede asignar a un usuario. Puede filtrar por:
+4. Puede filtrar la vista para números de teléfono que se asignan a los usuarios o los números de teléfono que se pueden asignar a un usuario. Puede filtrar por:
     
   - **Todos** los números de teléfono, incluidos los números de teléfono de servicios.
     
@@ -90,9 +89,9 @@ Al configurar los usuarios de su organización para realizar y recibir llamadas 
 3. En el **Centro de administración de Skype Empresarial**, en el panel de navegación de la izquierda, vaya a **Voz** > **Usuarios de voz**.
     
     > [!IMPORTANT]
-    > Para que poder ver la opción de **voz** en la exploración de la izquierda en el Skype para el centro de administración de negocios, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia del módulo de **Sistema de teléfono** o al menos una **licencia Enterprise E5**.
+    > Para que pueda ver la opción de **voz** en la izquierda en la Skype para el centro de administración de negocio, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia adicional para **El sistema de teléfono** o al menos una **licencia Enterprise E5**.
     
-4. Puede utilizar la lista desplegable para filtrar la vista para los usuarios activos, si el usuario está en línea o locales, o el estado y el tipo de licencia para el usuario. Puede filtrar por:
+4. Puede usar la lista desplegable para filtrar la vista para los usuarios activos, si el usuario está en línea o local, o el estado y el tipo de licencia para un usuario. Puede filtrar por:
     
   - **Usuarios activos** y si un usuario está alojado en línea o en las instalaciones.
     
