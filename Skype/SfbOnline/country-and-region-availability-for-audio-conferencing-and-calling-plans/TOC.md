@@ -73,8 +73,7 @@
 ### [¿Qué son las direcciones, las ubicaciones de emergencia y el enrutamiento de llamadas?](../what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing.md)
 ### [¿Qué son los planes de marcado?](../what-are-calling-plans-in-office-365/what-are-dial-plans.md)
 
-## Sistema telefónico de Office 365
-### [¿Qué es Sistema telefónico en Office 365?](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
+## [Sistema telefónico en Office 365](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
 ### [Crear una cola de llamadas de Sistema telefónico](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Obtener teléfonos para Skype Empresarial Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Implementar teléfonos de Skype Empresarial Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
@@ -87,6 +86,7 @@
 ### [Configurar un operador automático de Sistema telefónico](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [Configurar el sistema telefónico en la organización](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
 ### [¿Qué son los operadores automáticos de Sistema telefónico?](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+#### [Configurar un operador automático de Sistema telefónico](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
 ## [Configurar la red para Difusión de reunión de Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
 ### [Licencias de usuario bloqueadas para Difusión de reunión de Skype](../set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)
