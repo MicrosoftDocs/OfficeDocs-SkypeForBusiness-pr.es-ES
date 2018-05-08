@@ -20,7 +20,7 @@
 ### [Políticas de restricción de llamadas salientes para Audioconferencia y las llamadas RTC de usuario](../audio-conferencing-in-office-365/outbound-calling-restriction-policies.md)
 ### [Números de teléfono para Audioconferencia](../audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing.md)
 ### [Restablecer un Id. de conferencia para un usuario](../audio-conferencing-in-office-365/reset-a-conference-id-for-a-user.md)
-### [Restablecer el PIN de Audioconferencia para un usuario](../audio-conferencing-in-office-365/reset-the-audio-conferencing-pin-for-a-user.md)
+### [Restablecer el PIN de conferencia de Audio](../audio-conferencing-in-office-365/reset-the-audio-conferencing-pin.md)
 ### [Consultar, cambiar y restablecer un Id. de conferencia asignado a un usuario](../audio-conferencing-in-office-365/see-change-and-reset-a-conference-id-assigned-to-a-user.md)
 ### [Consultar una lista de números de Audioconferencia](../audio-conferencing-in-office-365/see-a-list-of-audio-conferencing-numbers.md)
 ### [Consultar una lista de usuarios que se han habilitado para Audioconferencia](../audio-conferencing-in-office-365/see-a-list-of-users-that-are-enabled-for-audio-conferencing.md)
