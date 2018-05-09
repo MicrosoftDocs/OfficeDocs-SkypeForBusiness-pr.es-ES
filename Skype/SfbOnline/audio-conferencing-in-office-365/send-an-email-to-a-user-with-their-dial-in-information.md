@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Enviar un correo electrónico con su información de conferencia de audio de los usuarios.
-ms.openlocfilehash: da006b1e63dd36234acf20bb02fdffba2dc70fa2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0ac6aa097b9c34c23c27afb2e99e4e40e3f587c8
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>Enviar un correo electrónico a un usuario con su información de conferencias de Audio
 
@@ -39,7 +39,25 @@ Este es un ejemplo del correo electrónico que se envía:
   
 ![Correo electrónico de conferencia de acceso telefónico](../images/audio-conferencing-info.png)
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-send-an-email-with-audio-conferencing-information-to-a-user"></a>![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) Enviar un correo electrónico con información de conferencia de audio a un usuario
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Enviar un correo electrónico con información de conferencia de audio a un usuario
+
+![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
+
+1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
+
+2. En la parte superior de la página, haga clic en **Editar**.
+
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
+
+1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
+
+2. En la parte superior de la página, haga clic en **Editar**.
+
+3. En **Conferencias de Audio**, haga clic en **Enviar información de conferencia en el correo electrónico**.
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
@@ -51,9 +69,6 @@ Este es un ejemplo del correo electrónico que se envía:
     
 > [!TIP]
 > También puede enviar correo electrónico al usuario con la configuración de conferencias de audio mediante la edición de las propiedades del usuario y, a continuación, haciendo clic en **conferencias de Audio** > **Enviar información de conferencia a través de correo electrónico**. 
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="what-else-should-you-know-about-this-email"></a>¿Qué más debe saber sobre este correo electrónico?
 

@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: A continuación se indican los servicios de Office 365 para Skype Empresarial y Microsoft Teams que están disponibles para Canadá.
-ms.openlocfilehash: 6a5f5f0c73d82880acfd9adfa824825ed41b4f85
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e79b8960366881ae4f5e6d2205cd5b935b468b08
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="availability-in-canada"></a>Disponibilidad en Canadá
 
@@ -55,8 +55,10 @@ A continuación se indican los servicios de Office 365 para Skype Empresarial y 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿Los planes de llamada están disponibles para la compra?  <br/> |Sí  <br/> |
-|Minutos disponibles para Planes de llamada  <br/> |3000 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (el límite al que se llegue antes cada mes). <br/> |
-|¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
+|Minutos disponibles para llamar a los planes. |Hay cuatro opciones de plan disponibles por mes del calendario: <ul><li>120 minuto al llamar a planear nacionales </li><li>240 minuto al llamar a planear nacionales</li></li><li>3000 minuto al llamar a planear nacionales </li></li><li>minuto 600 para llamar a planes internacionales y nacionales</li></li> 
+|¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
+> [!Note]
+> Las llamadas a los Estados Unidos se tratan como llamadas nacionales.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 

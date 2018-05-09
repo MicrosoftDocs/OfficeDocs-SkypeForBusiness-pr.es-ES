@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to look up your dial-in conferencing numbers from within Skype for Business. '
-ms.openlocfilehash: c50c7a06aae2e9e68a5f9a2c66fc04f912a35705
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: bccd4a5c02dbb6bc32c27e315b80a39705284429
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers"></a>Ver una lista de números de conferencia de Audio
 
@@ -42,7 +42,19 @@ Puede ver [el teléfono invita los números incluidos en](set-the-phone-numbers-
 > [!NOTE]
 > Los números de marcado domésticos están dedicados a su organización y son los únicos que pueden configurarse como el número de teléfono predeterminado. Sin embargo, los números de marcado internacionales pueden compartirse en varias organizaciones. 
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png--to-view-your-audio-conferencing-phone-numbers"></a>![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png)  Para ver los números de teléfono de conferencia de audio
+## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Para ver los números de teléfono de conferencia de audio
+
+![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
+
+1. En el panel de navegación izquierdo, vaya a **las reuniones** > **puentes de conferencia**. 
+2.  Ver los números de teléfono que están disponibles para conferencias de audio.
+
+- También puede ver la ubicación y el idioma principal que se utilizará en el operador automático de conferencia de audio.
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
@@ -57,8 +69,6 @@ Puede ver [el teléfono invita los números incluidos en](set-the-phone-numbers-
 > [!NOTE]
 > Puede ir a la **conferencia de Audio** > **a los usuarios** y seleccione las propiedades del usuario para cambiar el valor predeterminado de número seleccionando un nuevo número de la lista de los números disponibles en su organización. Vea [el teléfono los números incluidos en invitaciones](set-the-phone-numbers-included-on-invites.md). 
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 

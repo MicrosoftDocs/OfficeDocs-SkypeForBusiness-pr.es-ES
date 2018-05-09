@@ -3,15 +3,15 @@ title: Problemas conocidos de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 4/30/2018
+ms.date: 5/8/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: marcl, ninadara, v-leslc
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 087273d7d5d4d1eb20b83925087479ac702e72a3
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 5aaa22ee981fc3369d82aa118fafe017cc6dda01
+ms.sourcegitcommit: 0d649ac15d8b50e497b05531b724bc9a171a2953
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/08/2018
@@ -22,6 +22,10 @@ En este artículo se enumera los problemas conocidos de Microsoft Teams, por ár
 ## 
 
 ## <a name="administration"></a>Administración
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|No se puede agregar a miembros a los equipos cuando UsersPermissionToReadOtherUsersEnabled está establecido en false  <br/> |Cuando este valor está establecido en false en AAD, atención al cliente no puede agregar miembros interna y externa en Microsoft Teams, y se muestra el siguiente mensaje de error: "se no podríamos agregar miembros. Hemos ejecutado en un problema. Por favor, inténtelo de nuevo más tarde." Sin embargo, los miembros pueden agregarse directamente a los grupos de Office 365.    <br/> |Cambiar este valor en true en AAD.  <br/> |4/10/18  <br/> |
+
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |Administración de administración de los conectores de todo el inquilino ya no está disponible  <br/> |Al intentar agregar un conector de cliente y versión en línea se produce el error: se produjo un error inesperado. Vuelva a intentarlo. Set-OrganizationConfig - ConnectorsEnabled = True   <br/> |Deshabilitar con la configuración de los equipos. Vea el artículo de soporte técnicohttps://msdn.microsoft.com/en-us/microsoft-teams/connectors  <br/> |21/06/2017  <br/> |
@@ -179,6 +183,10 @@ En este artículo se enumera los problemas conocidos de Microsoft Teams, por ár
 |Los usuarios no pueden crear un equipo.  <br/> |Es posible que su empresa haya establecido una directiva para restringir quién puede crear equipos o grupos de Office 365.  <br/> |Compruébelo con su administrador de TI para saber cuál es la directiva de su empresa en relación con la creación de grupos y equipos.  <br/> |13/03/2017  <br/> |
 
 ## <a name="tabs"></a>Fichas
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|Ficha sitio Web conduce a confusión en el cliente  <br/> |Las fichas del sitio Web no son equivalentes a su explorador. Un número de sitios, sobre todo aquellas que requieren autenticación o uso de elementos emergentes, no funcionará cuando anclados como una ficha de sitio Web.  <br/> |Estamos trabajando en la mejora de la interfaz de usuario para que sea más clara para los clientes.  <br/> |5/2/18  <br/> |
+
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |Fichas no funciona desde que se habilitó acceso condicional <br/> |Algunas fichas no pueden cargarse ya en el cliente de escritorio desde que se habilitó acceso condicional en el inquilino. Cuando se usa al cliente Web de carga de las fichas. Algunas fichas que podrían verse afectados son: PowerBI, formularios, VSTS, PowerApps y lista de SharePoint.  <br/> |Para ver las fichas afectadas debe usar los equipos en perimetral, Internet Explorer o Chrome con la extensión de las cuentas de Windows 10 instalada. Algunas fichas todavía dependen de la autenticación web, que no funciona en el cliente de escritorio cuando está habilitada la entidad emisora de certificados. Trabajamos con socios para habilitar estos escenarios; hasta ahora hemos habilitado organizador, OneNote y Stream. <br/> |4/5/18  <br/>|

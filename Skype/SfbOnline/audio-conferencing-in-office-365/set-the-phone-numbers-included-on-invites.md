@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: 03b6f3b2ce270d1dd6e2855dec4ee2af9a2447c8
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0ade5a68483319fe437d83c51dbe40ddb4f0fbc0
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="set-the-phone-numbers-included-on-invites"></a>Establecer el teléfono los números incluidos en invitaciones
 
@@ -38,7 +38,28 @@ Un puente de conferencia le proporciona un conjunto de números de teléfono de 
 > [!NOTE]
 > Puede haber un máximo de un teléfono de pago y un número de teléfono gratuito en la invitación a la reunión para un organizador de la reunión, pero también hay un vínculo que se encuentra en la parte inferior de cada invitación a la reunión que se abre la lista completa de todos los números de teléfono de acceso telefónico que se pueden usar para unirse a una reunión. 
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) Establecer el número de teléfono de marcado predeterminado para un organizador de la reunión
+## <a name="set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>Establecer el número de teléfono de marcado predeterminado para un organizador de la reunión
+
+![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
+
+1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
+
+    ![Selección de los usuarios en el Microsoft Teams y Skype para el centro de administración de negocio de muestra](../images/teamsselectusers.png)
+
+2. En la parte superior de la página, haga clic en **Editar**.
+
+    ![Haga clic en Editar en los equipos de Microsoft y Skype para el centro de administración de negocio](../images/teamsedituser.png)
+
+3. Junto a **Conferencias de Audio**, haga clic en **Editar**. 
+    
+    ![Haga clic en Editar junto a la conferencia de Audio](../images/teamseditaudioconf.png)
+
+4. Use los campos de **número de teléfono de pago** o **número de teléfono gratuito** para escribir los números para el usuario.
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
@@ -70,11 +91,23 @@ Un puente de conferencia le proporciona un conjunto de números de teléfono de 
     > Debe asignarse al menos un número de teléfono gratuito para el puente de conferencia antes de que se puede establecer como el número de teléfono gratuito predeterminado de un usuario. Para obtener un número de teléfono gratuito, vea [los números de teléfono del servicio de introducción de Skype para profesionales y los equipos de Microsoft](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
   
   - **Un tercero es el proveedor**: Use los campos de **número de teléfono de pago** y **número de teléfono gratuito** para escribir los números para el usuario.
-    
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-reset-audio-conferencing-phone-numbers"></a>![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) Restablecer los números de teléfono de conferencia de audio
+
+## <a name="change-the-audio-conferencing-phone-number-for-users"></a>Cambiar el número de teléfono de conferencia de audio para los usuarios
+
+![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
+
+1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
+
+2. En la parte superior de la página, haga clic en **Editar**.
+
+3. Junto a **Conferencias de Audio**, haga clic en **Editar**. 
+    
+4. Use los campos de **número de teléfono de pago** o **número de teléfono gratuito** para escribir los números para el usuario.
+
+## <a name="reset-audio-conferencing-phone-numbers"></a>Restablecer los números de teléfono de conferencia de audio
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
 
 1. En el **Skype para el centro de administración de negocio**, elija **conferencias de Audio**.
     

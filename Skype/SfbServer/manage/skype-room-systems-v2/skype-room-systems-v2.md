@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: Lea este tema para obtener más información acerca de la administración de sistemas de salón de Skype v2, la próxima generación de sistemas de salón de Skype.
-ms.openlocfilehash: 562dbeea19fb732caf9348e2bfd632da3579e71a
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 48069f7e5e63df752fe94cb557796e9f2080c917
+ms.sourcegitcommit: 0d649ac15d8b50e497b05531b724bc9a171a2953
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="manage-skype-room-systems-v2"></a>Administrar Sistemas de salas de Skype v2
  
@@ -180,10 +180,9 @@ Si desea administrar manualmente las actualizaciones y no puede seguir el proced
     
 2. Ejecute el siguiente script de identificación de los dispositivos de v2 de sistemas de salón de Skype, cambiar \<compartir\> al dispositivo compartir según corresponda:
     
-  ```
-  Add-AppxPackage -Update -ForceApplicationShutdown -Path \\<share>\Rigel\x64\Ship\AppPackages\*\*.appx -DependencyPath (Get-ChildItem \\<share>\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx | Foreach-Object {$_.FullName}) 
-
-  ```
+```
+Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
+```
 
 ## <a name="admin-mode-and-device-management"></a>Modo de administrador y administración de dispositivos
 <a name="AdminMode"> </a>

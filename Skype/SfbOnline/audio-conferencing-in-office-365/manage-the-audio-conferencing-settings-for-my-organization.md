@@ -19,9 +19,9 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'See steps to assign a dial-in conferencing license and conference ID to a user, set up a third party conferencing provider, and many other dial-in conferencing settings. '
-ms.openlocfilehash: b2759e4ee1f8e8cac2f753eb5afecbf13642abb0
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+description: 'Vea los pasos para asignar un identificador de conferencia y licencia de conferencia de acceso telefónico a un usuario y muchas otras opciones de conferencia de acceso telefónico. '
+ms.openlocfilehash: 7a5f82a827049f591d012af7f752e26ac4f9d87b
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/08/2018
@@ -51,28 +51,6 @@ ms.lasthandoff: 05/08/2018
 > [!NOTE]
 > Después de asignar la licencia, puede que Microsoft no aparezca en el menú desplegable como un proveedor de servicios de conferencia de acceso telefónico local. Si esto ocurre, cierre la sesión del centro de administración de Office 365 o presione CTRL + F5 para actualizar la ventana del explorador. 
   
-## <a name="assign-a-conference-id-for-a-user"></a>Asignar un id. de conferencia a un usuario
-
-Asignar un id. El identificador de conferencia se envía en la invitación a la reunión cuando la reunión está programada. Cada reunión que un usuario programa obtener asignará un identificador de conferencia único.
-  
-El Centro de administración de Skype Empresarial no se puede usar para asignar un id. de conferencia a un usuario, pero se puede usar el cmdlet de Windows PowerShell para esta finalidad.
-  
-El Centro de administración de Skype Empresarial no se puede usar para asignar un id. de conferencia a un usuario, pero se puede usar el cmdlet de Windows PowerShell para esta finalidad.
-  
-```
-Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ConferenceId 8271964 
-```
-
-> [!IMPORTANT]
-> Para establecer el id. de conferencia de un usuario, ejecute: 
-  
-Para más información sobre el cmdlet, vea [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ).
-  
-> [!IMPORTANT]
->  After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use the Skype for Business Meeting Migration Tool to update their existing meetings. Para ver cómo descargar, instalar y ejecutar la Skype para la herramienta de actualización de reunión empresarial, consulte: [Herramienta de actualización de la reunión de Skype para empresas y Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype para Online de negocio, herramienta de migración de reunión (64 bits)](http://go.microsoft.com/fwlink/?LinkID=626047)y [Skype para en línea de negocio, reunión Herramienta de migración (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
-  
-See [See, change, and reset a conference ID assigned to a user](see-change-and-reset-a-conference-id-assigned-to-a-user.md).
-    
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Habilitar o deshabilitar los correos electrónicos enviados a los usuarios de conferencia de audio
 
 ![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
@@ -212,49 +190,32 @@ Vea [Restablecer el PIN de conferencia de Audio](reset-the-audio-conferencing-pi
   
 Después de completar esta acción, el PIN de conferencia de acceso telefónico local no se enviará al usuario.
   
-## <a name="setting-the-default-audio-conferencing-phone-number-for-meeting-organizers"></a>Establecer el número de teléfono de conferencia de audio predeterminada para los organizadores de reuniones
+## <a name="setting-the-phone-numbers-included-on-invites"></a>Configuración del teléfono los números incluidos en invitaciones
 
- Configurar el número de teléfono de conferencias de acceso telefónico local predeterminado para los organizadores de reuniones
+![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
+
+1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
+
+2. Junto a **Conferencias de Audio**, haga clic en **Editar**.
+ 
+3. En el panel de **Conferencia de Audio** , puede establecer el **número de teléfono de pago** y, si se permite, el **número de teléfono gratuito**.
+
+4. Haga clic en **Guardar**.
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**  
   
-1. Para establecer el número de teléfono de conferencias de acceso telefónico local predeterminado para los organizadores de reuniones cuando está habilitando un usuario para las conferencias de acceso telefónico local
+1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
 2. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
 3. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
     
-4. In the Action pane, in the user's properties, click **Edit**.
-    
-5. On the **Properties** page, under **Provider name**, use the drop-down list to select the audio conferencing provider.
-    
-  - If you select Microsoft as the audio conferencing provider, you can choose the default audio conferencing phone number from the list.  
-    
-  - Si selecciona Microsoft como el proveedor de servicios de conferencia de acceso telefónico local, puede elegir de la lista el número de teléfono predeterminado de las conferencias de acceso telefónico local.
-    
-    Si selecciona un ACP de terceros como proveedor de servicios de conferencia de acceso telefónico local, tendrá que introducir manualmente el número de pago y, si es necesario, el número de teléfono gratuito. Estos números de teléfono serán el número de teléfono predeterminado.
-    
-6. El número de teléfono de conferencias de acceso telefónico local predeterminado de un usuario es el número que se muestra en la invitación a la reunión cuando se programa una. 
+4. En el panel de acciones, puede establecer el **número de teléfono de pago** y, si se permite, el **número de teléfono gratuito**.
+
+5. Haga clic en **Guardar**.
     
 Vea [el teléfono los números incluidos en invitaciones](set-the-phone-numbers-included-on-invites.md).
   
- Vea **Establecer los números de teléfono de conferencias de Audio para organizadores que se incluyen en invitaciones**.
-  
-1. Para establecer el número de teléfono de conferencias de acceso telefónico local predeterminado después de haber habilitado un usuario para las conferencias de acceso telefónico local
-    
-2. Inicie sesión en Office 365 con su cuenta profesional o educativa.
-    
-3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**, select the user you want, and in the Action page, click **Edit**.
-    
-4. On the **Properties** page, under **Provider name**, use the drop-down list to select the audio conferencing provider.
-    
-  - If the user uses Microsoft as the audio conferencing provider, you can choose the default audio conferencing phone number from the list.  
-    
-  - Si el usuario usa Microsoft como el proveedor de servicios de conferencia de acceso telefónico local, puede elegir de la lista el número de teléfono predeterminado de las conferencias de acceso telefónico local.
-    
-    Si el usuario usa un ACP de terceros como proveedor de servicios de conferencia de acceso telefónico local, tendrá que introducir manualmente el número de pago y, si es necesario, el número de teléfono gratuito.
-    
-5. El número de teléfono de conferencias de acceso telefónico local predeterminado de un usuario es el número que se muestra en la invitación a la reunión cuando se programa una. 
-    
-Vea [el teléfono los números incluidos en invitaciones](set-the-phone-numbers-included-on-invites.md).
   
 ## <a name="choosing-audio-conferencing-bridge-settings"></a>Elegir la configuración de puente de conferencia de audio
 
@@ -378,9 +339,22 @@ El PIN solo puede tener de 4 a 12 dígitos. El valor predeterminado es 5.
     
 También puede establecer el idioma principal y los idiomas secundarios compatibles al seleccionar Microsoft como proveedor de conferencias de acceso telefónico local. El orden que seleccione en las listas desplegables será el orden de los idiomas que se presentará a los autores de las llamadas.
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png--see-audio-conferencing-dial-in-numbers"></a>![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png)  Vea los números de acceso telefónico de conferencias de audio
+## <a name="see-audio-conferencing-dial-in-numbers"></a>Vea los números de acceso telefónico de conferencias de audio
 
-1. Ver números de acceso telefónico para conferencias de acceso telefónico local
+![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
+
+1. En el panel de navegación izquierdo, vaya a **las reuniones** > **Puentes de conferencia**. 
+
+2. Seleccione un número de teléfono de la lista y haga clic en **Editar**. Here you can:
+    
+  - View the phone numbers that are set by Office 365 to be used for Audio Conferencing. 
+    
+  - Ver la ubicación y el idioma principal, que se utilizará en el operador automático de conferencia de Audio.
+
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**  
+
+1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
 2. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
@@ -413,7 +387,7 @@ Hay varias opciones de configuración que puede administrar en el nivel de organ
 Existen varias opciones que puede configurar en el nivel de la organización con Windows PowerShell. Esto facilita la configuración de estas opciones y las aplica a todos los usuarios. Estas son las opciones de configuración de nivel de organización:
 
 A continuación presentamos la configuración de nivel de la organización: 
-> 
+ 
 - **Configuración de notificaciones de entrada o salida** El valor predeterminado es _$true_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true|$false 

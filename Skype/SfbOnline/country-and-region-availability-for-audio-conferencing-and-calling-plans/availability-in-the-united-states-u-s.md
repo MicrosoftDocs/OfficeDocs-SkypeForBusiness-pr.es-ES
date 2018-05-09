@@ -21,8 +21,8 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Teams disponibles para los Estados Unidos.
-ms.openlocfilehash: db1d6c2473e45479cc9eca16951946a8c2ead9b5
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 36a33915108d11a65349e8c1fca73c57fe1feae7
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/08/2018
@@ -55,17 +55,10 @@ Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Te
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿Los planes de llamada están disponibles para la compra?  <br/> |Sí  <br/> |
-|Minutos disponibles para llamar a los planes. |Hay tres opciones de plan por mes del calendario:
-- 120 minuto nacionales llamada Plan (la disponibilidad es limitada)
-- 240 minutos nacionales llamada Plan (la disponibilidad es limitada)
-- Plan de llamada nacionales 1200 minuto
-- Plan de llamada nacionales 1200 minuto
-- 600 minutos para las llamadas internacionales (si ha adquirido una nacionales & llamar a planear internacional)
-
-Llamada nacional de Estados Unidos incluye llamadas a todos los Estados de Estados Unidos y Puerto Rico 50. Los usuarios asignados con la ubicación de uso de la licencia de Estados Unidos y Puerto Rico comparten el mismo conjunto de minutos.
-|||
-|:-----|:-----|
-|¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
+|Minutos disponibles para llamar a los planes. |Hay cuatro opciones de plan disponibles por mes del calendario: <ul><li>120 minuto nacionales llamar a planear (la disponibilidad es limitada)</li><li>240 minuto nacionales llamar a planear (la disponibilidad es limitada)</li></li><li>3000 minuto al llamar a planear nacionales </li></li><li>600 minutos para llamar a planes internacionales y nacionales</li></li> 
+|¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
+>[!Note] 
+> Llamada nacional de Estados Unidos incluye llamadas a todos los Estados de Estados Unidos y Puerto Rico 50. Los usuarios asignados con la ubicación de uso de la licencia de Estados Unidos y Puerto Rico comparten el mismo conjunto de minutos.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 
