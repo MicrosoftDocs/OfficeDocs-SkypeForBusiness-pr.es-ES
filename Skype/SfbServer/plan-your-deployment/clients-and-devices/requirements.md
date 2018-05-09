@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: En este artículo se resume los requisitos para admitir un v2 de sistemas de salón de Skype.
-ms.openlocfilehash: 1c9e998c096b92788a2e214220987dfe4aafffca
-ms.sourcegitcommit: 0d649ac15d8b50e497b05531b724bc9a171a2953
+ms.openlocfilehash: 0fb1fbcde28c343787967485dd6cae36491311b7
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Requisitos de Sistemas de salas de Skype v2
  
@@ -108,13 +108,16 @@ En las tablas siguientes se proporcionan recomendaciones para periféricos segú
    
 **Sala de Skype sistemas v2 Certified periféricos vídeo**
 
-|**Tipo de salón**|**Número de personas**|**Dispositivo por el tamaño de la sala óptimo**|**Comentarios**|
+|Tipo de sala|Cantidad de personas|Dispositivo por el tamaño de la sala óptimo|Comentarios|
 |:-----|:-----|:-----|:-----|
 |**Foco** <br/> 10' x 9'  <br/> |2-4  <br/> |Logitech Connect  <br/> Logitech MeetUp  <br/> Polycom CX5100   <br/> ||
 |**Pequeña** <br/> 16' x 16'  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> MSR de Polycom  <br/> Polycom CX5100   <br/> |Logitech PTZ Pro suele incluirse con grupo de Logitech  <br/> |
 |**Media** <br/> 18' x 20'  <br/> |6-12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> MSR de Polycom  <br/> Polycom CX5100   <br/> ||
 |**Grande** <br/> 15' x 32 º  <br/> |12-16  <br/> |Logitech PTZ Pro  <br/> MSR de Polycom  <br/> Polycom CX5100   <br/> ||
    
+ > [!NOTE]
+ > Parte frontal de la resolución de pantalla de la sala debe establecerse en no superior a 1920x1080p.
+
 ## <a name="required-software-downloads"></a>Descargas de software necesarias
 
 Necesitará las siguientes descargas para crear su propia imagen de v2 de sistemas de salón de Skype:

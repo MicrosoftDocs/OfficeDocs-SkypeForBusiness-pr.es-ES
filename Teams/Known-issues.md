@@ -3,18 +3,18 @@ title: Problemas conocidos de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 5/8/2018
+ms.date: 5/9/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: marcl, ninadara, v-leslc
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5aaa22ee981fc3369d82aa118fafe017cc6dda01
-ms.sourcegitcommit: 0d649ac15d8b50e497b05531b724bc9a171a2953
+ms.openlocfilehash: 13db401651181bf186a61f643b80c7750b9978a0
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
   
@@ -76,7 +76,7 @@ En este artículo se enumera los problemas conocidos de Microsoft Teams, por ár
 ## <a name="channels"></a>Canales
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|Cuando un usuario abandona la compañía, aparece en Microsoft Teams como "Usuario desconocido"<br/> |Cuando un usuario abandona la compañía, aparece en Microsoft Teams como "Usuario desconocido". Además, se muestra la ficha conversación: "usuario desconocido se ha agregado al equipo". Problema archivado como:https://domoreexp.visualstudio.com/MSTeams/_workitems/edit/168830  <br/> |No hay ninguna solución.  <br/> |12/9/17  <br/> |
+|Cuando un usuario abandona la compañía, aparece en Microsoft Teams como "Usuario desconocido"<br/> |Cuando un usuario abandona la compañía, aparece en Microsoft Teams como "Usuario desconocido". Además, se muestra la ficha conversación: "usuario desconocido se ha agregado al equipo". <br/> |No hay ninguna solución.  <br/> |12/9/17  <br/> |
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
