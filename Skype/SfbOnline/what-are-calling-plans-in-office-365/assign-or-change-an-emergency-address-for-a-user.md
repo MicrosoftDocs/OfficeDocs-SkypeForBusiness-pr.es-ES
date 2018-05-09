@@ -15,56 +15,55 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: Learn how to set up an emergency address and phone number for each of your users that works with the Public Switched Telephone Network (PSTN).
-ms.openlocfilehash: cb9fe4dbf75310cffaa6fa05a9bee5c920df0da9
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 185a3eb8d64e990b4e242a62cf7b76bd02237371
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="assign-or-change-an-emergency-address-for-a-user"></a><span data-ttu-id="59acc-103">Asignar o cambiar la dirección de emergencia de un usuario</span><span class="sxs-lookup"><span data-stu-id="59acc-103">Assign or change an emergency address for a user</span></span>
+# <a name="assign-or-change-an-emergency-address-for-a-user"></a><span data-ttu-id="ad4e5-103">Asignar o cambiar la dirección de emergencia de un usuario</span><span class="sxs-lookup"><span data-stu-id="ad4e5-103">Assign or change an emergency address for a user</span></span>
 
-<span data-ttu-id="59acc-104">Cuando configura una llamada a planes de Office 365, debe asignar un número de teléfono y dirección de emergencia a cada uno de los usuarios.</span><span class="sxs-lookup"><span data-stu-id="59acc-104">When you are setting up Calling Plans in Office 365, you will need to assign a phone number and emergency address to each of your users.</span></span> <span data-ttu-id="59acc-105">Debe crear la dirección de emergencia antes de asociarlo con un número de teléfono.</span><span class="sxs-lookup"><span data-stu-id="59acc-105">The emergency address must be created before you can associate it with a phone number.</span></span> <span data-ttu-id="59acc-106">Consulte [¿qué ubicaciones de emergencia, direcciones y enrutamiento de llamadas?](what-are-emergency-locations-addresses-and-call-routing.md) para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="59acc-106">See [What are emergency locations, addresses and call routing?](what-are-emergency-locations-addresses-and-call-routing.md) for more information.</span></span>
+<span data-ttu-id="ad4e5-104">Cuando configura una llamada a los planes en Office 365, debe asignar un número de teléfono y dirección de emergencia a cada uno de los usuarios.</span><span class="sxs-lookup"><span data-stu-id="ad4e5-104">When you are setting up Calling Plans in Office 365, you will need to assign a phone number and emergency address to each of your users.</span></span> <span data-ttu-id="ad4e5-105">Debe crear la dirección de emergencia antes de asociarlo con un número de teléfono.</span><span class="sxs-lookup"><span data-stu-id="ad4e5-105">The emergency address must be created before you can associate it with a phone number.</span></span> <span data-ttu-id="ad4e5-106">Vea [¿Cuáles son las ubicaciones de emergencia, direcciones y enrutamiento de llamadas?](what-are-emergency-locations-addresses-and-call-routing.md) para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="ad4e5-106">See [What are emergency locations, addresses and call routing?](what-are-emergency-locations-addresses-and-call-routing.md) for more information.</span></span>
   
-<span data-ttu-id="59acc-107">Desea saber cómo obtener llamando a planes en Office 365 y cuánto cuestan, vea [Skype para negocios y equipos de Microsoft licencias adicionales](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span><span class="sxs-lookup"><span data-stu-id="59acc-107">Want to know how to get Calling Plans in Office 365 and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span></span>
+<span data-ttu-id="ad4e5-107">¿Desea saber cómo obtener los planes de llamada en Office 365 y cuánto de costo, vea [Skype para profesionales y los equipos de Microsoft complemento licencias](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span><span class="sxs-lookup"><span data-stu-id="ad4e5-107">Want to know how to get Calling Plans in Office 365 and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span></span>
   
-## <a name="assign-or-change-an-emergency-address"></a><span data-ttu-id="59acc-108">Asignar o cambiar una dirección de emergencia</span><span class="sxs-lookup"><span data-stu-id="59acc-108">Assign or change an emergency address</span></span>
+## <a name="assign-or-change-an-emergency-address"></a><span data-ttu-id="ad4e5-108">Asignar o cambiar una dirección de emergencia</span><span class="sxs-lookup"><span data-stu-id="ad4e5-108">Assign or change an emergency address</span></span>
 
-1. <span data-ttu-id="59acc-109">Inicie sesión en Office 365 con su cuenta profesional o educativa.</span><span class="sxs-lookup"><span data-stu-id="59acc-109">Sign in to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="ad4e5-109">Inicie sesión en Office 365 con su cuenta profesional o educativa.</span><span class="sxs-lookup"><span data-stu-id="ad4e5-109">Sign in to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="59acc-110">Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.</span><span class="sxs-lookup"><span data-stu-id="59acc-110">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
+2. <span data-ttu-id="ad4e5-110">Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.</span><span class="sxs-lookup"><span data-stu-id="ad4e5-110">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
     
-3. <span data-ttu-id="59acc-111">En la exploración de la izquierda vaya a **voz**, haga clic en **usuarios de voz**.</span><span class="sxs-lookup"><span data-stu-id="59acc-111">In the left navigation go to **Voice**, then click **Voice users**.</span></span>
+3. <span data-ttu-id="ad4e5-111">En el panel de navegación izquierdo vaya a **voz**, a continuación, haga clic en **usuarios de voz**.</span><span class="sxs-lookup"><span data-stu-id="ad4e5-111">In the left navigation go to **Voice**, then click **Voice users**.</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="59acc-112">Para que poder ver la opción de **voz** en la exploración de la izquierda en el Skype para el centro de administración de negocios, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia del módulo de **Sistema de teléfono** o al menos una **licencia Enterprise E5**.</span><span class="sxs-lookup"><span data-stu-id="59acc-112">For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
+    > <span data-ttu-id="ad4e5-112">Para que pueda ver la opción de **voz** en la izquierda en la Skype para el centro de administración de negocio, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia adicional para **El sistema de teléfono** o al menos una **licencia Enterprise E5**.</span><span class="sxs-lookup"><span data-stu-id="ad4e5-112">For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
     
-4. <span data-ttu-id="59acc-113">En la página **Usuarios de voz**, busque y seleccione el usuario cuya dirección de emergencia quiere cambiar.</span><span class="sxs-lookup"><span data-stu-id="59acc-113">On the **Voice users** page, locate and select the user you want to change the emergency address for.</span></span>
+4. <span data-ttu-id="ad4e5-113">En la página **Usuarios de voz**, busque y seleccione el usuario cuya dirección de emergencia quiere cambiar.</span><span class="sxs-lookup"><span data-stu-id="ad4e5-113">On the **Voice users** page, locate and select the user you want to change the emergency address for.</span></span>
     
-5. <span data-ttu-id="59acc-114">En el panel de acciones, en **Ubicación de emergencia**, haga clic en **Cambiar**.</span><span class="sxs-lookup"><span data-stu-id="59acc-114">In the Action pane, under **Emergency location**, click **Change**.</span></span>
+5. <span data-ttu-id="ad4e5-114">En el panel de acciones, en **Ubicación de emergencia**, haga clic en **Cambiar**.</span><span class="sxs-lookup"><span data-stu-id="ad4e5-114">In the Action pane, under **Emergency location**, click **Change**.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="59acc-115">Solo se puede cambiar una dirección de emergencia que ya esté validada.</span><span class="sxs-lookup"><span data-stu-id="59acc-115">You can only change an emergency address that has already been validated.</span></span> <span data-ttu-id="59acc-116">Para cambiar una dirección de emergencia que no se ha validado, eliminarla y crear otra dirección de emergencia.</span><span class="sxs-lookup"><span data-stu-id="59acc-116">To change an emergency address that hasn't been validated, delete it and create another emergency address.</span></span> 
+    > <span data-ttu-id="ad4e5-115">Solo se puede cambiar una dirección de emergencia que ya esté validada.</span><span class="sxs-lookup"><span data-stu-id="ad4e5-115">You can only change an emergency address that has already been validated.</span></span> <span data-ttu-id="ad4e5-116">Para cambiar una dirección de emergencia que no se ha validado, eliminarla y crear otra dirección de emergencia.</span><span class="sxs-lookup"><span data-stu-id="ad4e5-116">To change an emergency address that hasn't been validated, delete it and create another emergency address.</span></span> 
   
-6. <span data-ttu-id="59acc-117">En la página **Asignar un número**, haga clic en **Cambiar ubicación**.</span><span class="sxs-lookup"><span data-stu-id="59acc-117">On the **Assign number** page, click **Change location**.</span></span>
+6. <span data-ttu-id="ad4e5-117">En la página **Asignar un número**, haga clic en **Cambiar ubicación**.</span><span class="sxs-lookup"><span data-stu-id="ad4e5-117">On the **Assign number** page, click **Change location**.</span></span>
     
-7. <span data-ttu-id="59acc-118">En **dirección de emergencia de cambiar a**, escriba el nombre de la ciudad y haga clic en **Buscar**.</span><span class="sxs-lookup"><span data-stu-id="59acc-118">Under **Change emergency address to**, enter the name of the city and click **Search**.</span></span>
+7. <span data-ttu-id="ad4e5-118">En **Cambiar dirección de emergencia a**, escriba el nombre de la ciudad y haga clic en **Buscar**.</span><span class="sxs-lookup"><span data-stu-id="ad4e5-118">Under **Change emergency address to**, enter the name of the city and click **Search**.</span></span>
     
-8. <span data-ttu-id="59acc-119">Seleccione la dirección de emergencia de la lista desplegable de direcciones y, a continuación, haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="59acc-119">Select the emergency address from the address drop-down list, and then click **Save**.</span></span> 
+8. <span data-ttu-id="ad4e5-119">Seleccione la dirección de emergencia desde la lista desplegable de direcciones y, a continuación, haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="ad4e5-119">Select the emergency address from the address drop-down list, and then click **Save**.</span></span> 
     
-## <a name="related-topics"></a><span data-ttu-id="59acc-120">See also</span><span class="sxs-lookup"><span data-stu-id="59acc-120">Related topics</span></span>
-[<span data-ttu-id="59acc-121">¿Qué es la validación de direcciones?</span><span class="sxs-lookup"><span data-stu-id="59acc-121">What is address validation?</span></span>](what-is-address-validation.md)
+## <a name="related-topics"></a><span data-ttu-id="ad4e5-120">See also</span><span class="sxs-lookup"><span data-stu-id="ad4e5-120">Related topics</span></span>
+[<span data-ttu-id="ad4e5-121">¿Qué es la validación de direcciones?</span><span class="sxs-lookup"><span data-stu-id="ad4e5-121">What is address validation?</span></span>](what-is-address-validation.md)
 
-[<span data-ttu-id="59acc-122">Administrar los números de teléfono para su organización</span><span class="sxs-lookup"><span data-stu-id="59acc-122">Manage phone numbers for your organization</span></span>](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[<span data-ttu-id="ad4e5-122">Administrar los números de teléfono para su organización</span><span class="sxs-lookup"><span data-stu-id="ad4e5-122">Manage phone numbers for your organization</span></span>](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[<span data-ttu-id="59acc-123">Términos y condiciones de las llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="59acc-123">Emergency calling terms and conditions</span></span>](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="ad4e5-123">Términos y condiciones de las llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="ad4e5-123">Emergency calling terms and conditions</span></span>](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-<span data-ttu-id="59acc-124">[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="59acc-124">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="ad4e5-124">[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="ad4e5-124">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  

@@ -26,7 +26,7 @@ redirect_url: https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferenci
 redirect_document_id: true
 ms.openlocfilehash: 4c1edda3fecc93fcd882f5d5d54b49322e008d5b
 ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/03/2018
 ---

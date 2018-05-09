@@ -15,20 +15,19 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords:
 - ms.lync.lac.DialInExportImport
 - ms.lync.lac.DialInProvider
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to set up a third-party as your dial-in conferencing provider with Skype for Business. '
 robots: noindex
 redirect_url: https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider
 redirect_document_id: true
-ms.openlocfilehash: c56fb5b818a40049d6770fce470be219e02062a1
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: c50a3f939a9b6932d2ff37a588935dd2ad58bb4e
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
