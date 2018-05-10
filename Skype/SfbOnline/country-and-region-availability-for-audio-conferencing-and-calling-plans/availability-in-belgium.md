@@ -20,25 +20,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Bélgica.
-ms.openlocfilehash: 59470a754d0bf7fa0823a6e3ac4099bd0e966980
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Aquí están disponibles para Bélgica los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+ms.openlocfilehash: 6bb8f95f8ce3e1957076bd4900c0362d6c97b73c
+ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="availability-in-belgium"></a>Disponibilidad en Bélgica
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Bélgica.
+Aquí están disponibles para Bélgica los servicios de Office 365 para Skype para empresas y Microsoft Teams.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, Bruselas. Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para Bruselas. Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
@@ -51,12 +51,12 @@ Aquí están los servicios de Office 365 para Skype para empresas y Teams de Mic
 |Correo de voz  <br/> |Disponible  <br/> |
    
 ## <a name="calling-plans"></a>Planes de llamadas
-
+    
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿Los planes de llamada están disponibles para la compra?  <br/> |Sí  <br/> |
-|Minutos disponibles para Planes de llamada  <br/> |1200 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (el límite al que se llegue antes cada mes).  <br/> |
-|¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
+|Minutos disponibles para llamar a los planes. |Hay cuatro opciones de plan disponibles por mes del calendario: <ul><li>120 minuto al llamar a planear nacionales </li><li>240 minuto al llamar a planear nacionales</li></li><li>1200 minuto al llamar a planear nacionales </li></li><li>minuto 600 para llamar a planes internacionales y nacionales</li></li> 
+|¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 
@@ -66,7 +66,7 @@ Aquí están los servicios de Office 365 para Skype para empresas y Teams de Mic
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
    
- Si desea obtener los números de teléfono gratuitos y de pago para conferencias de Audio, operador automático y las colas de llamada, vea [números de teléfono de servicio de obtención de Skype para empresas y equipos de Microsoft](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+ Si desea obtener los números de teléfono gratuito y de pago para conferencias de Audio, el operador automático y las colas de llamadas, vea [los números de teléfono del servicio de introducción de Skype para profesionales y los equipos de Microsoft](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 

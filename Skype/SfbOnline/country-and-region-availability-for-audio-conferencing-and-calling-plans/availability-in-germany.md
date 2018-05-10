@@ -20,18 +20,18 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Alemania.
-ms.openlocfilehash: 3570f4a2e66ac83fd5ab6fc295e5725618f17c2a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Aquí están disponibles para Alemania los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+ms.openlocfilehash: a0e88129ee1477bdaeec910cdc2e58a08ae21dd2
+ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="availability-in-germany"></a>Disponibilidad en Alemania
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Alemania.
+Aquí están disponibles para Alemania los servicios de Office 365 para Skype para empresas y Microsoft Teams.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -51,12 +51,12 @@ Aquí están los servicios de Office 365 para Skype para empresas y Teams de Mic
 |Correo de voz  <br/> |Disponible  <br/> |
    
 ## <a name="calling-plans"></a>Planes de llamadas
-
+    
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿Los planes de llamada están disponibles para la compra?  <br/> |Sí  <br/> |
-|Minutos disponibles para Planes de llamada  <br/> |1200 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (el límite al que se llegue antes cada mes).  <br/> |
-|¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
+|Minutos disponibles para llamar a los planes. |Hay cuatro opciones de plan disponibles por mes del calendario: <ul><li>120 minuto al llamar a planear nacionales </li><li>240 minuto al llamar a planear nacionales</li></li><li>3000 minuto al llamar a planear nacionales </li></li><li>minuto 600 para llamar a planes internacionales y nacionales</li></li> 
+|¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 
