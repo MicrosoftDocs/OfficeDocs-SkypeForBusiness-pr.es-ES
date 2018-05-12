@@ -1,0 +1,385 @@
+---
+title: Actualizar lista de comprobación de Essentials - Microsoft Teams
+author: dearbeen
+ms.author: lolaj
+manager: serdars
+ms.date: 03/31/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: lsomi
+description: Plan de acción de diez paso acelerado de actualización de Skype para la empresa a los equipos
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: acb2463c687ad387145ab2a2ba058583233411cc
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2018
+---
+<a name="about-upgrade-essentials"></a>
+# <a name="about-the-upgrade-essentials-checklist"></a>Acerca de la lista de comprobación de actualización de Essentials 
+
+Diseñado para organizaciones más pequeñas o aquellas que utilizan Skype para empresarial en línea para la mensajería instantánea (chat) y sólo las reuniones, la lista de comprobación de actualización Essentials es un plan de acción acelerado que incluya núcleos, se recomiendan las actividades y asociados recursos para implementar una move correcta de Skype para la empresa a los equipos.
+
+Estos diez sencillos pasos proporcionan todo lo que necesita para la actualización correcta. Tenga en cuenta que la escala de tiempo es una aproximación; deberá ajustar basándose en la programación de actualización de la organización.
+
+¿No está familiarizado con los equipos? [Lea acerca de cómo los equipos](https://products.office.com/en-us/microsoft-teams/group-chat-software) reúne las conversaciones, las reuniones, archivos, aplicaciones de Office y la integración de terceros, ya que proporciona un concentrador único para el trabajo en equipo en Office 365.
+
+¿Tiene preguntas acerca de la actualización? Ver nuestras preguntas más frecuentes.
+
+<a name="step-1"></a>
+
+## <a name="step-1-notify-your-key-stakeholders"></a>Paso 1. Notificar a las partes interesadas claves
+
+*(Aproximadamente cuatro a seis semanas antes de la actualización)*
+
+
+Líderes ejecutivos son responsables de éxito de la empresa; Asegúrese de mantenerlos los conocimientos acerca de los cambios de tecnología. Dado que es posible que no todos los usuarios reciben o leer la notificación de prestaciones de las actualizaciones, debe informar a las partes interesadas (por ejemplo, director general, TI, Marketing y clientes potenciales del departamento de soporte técnico) antes de empezar a planear la actualización.
+
+**Recursos:**
+
+-   [Ejemplo de correo electrónico: comunicación de los participantes](#step-1-email)
+ 
+[Volver al principio](#about-upgrade-essentials)
+
+<a name="step-2"></a>
+
+## <a name="step-2-envision-your-organization-on-teams"></a>Paso 2. Comprender la organización en los equipos
+
+*(Aproximadamente cuatro a seis semanas antes de la actualización)*
+
+Equipos ofrece Skype compatible para la funcionalidad empresarial — como mensajería instantánea (chat) y las reuniones, pero también pueden hacer mucho más. Como un concentrador de true para el trabajo en equipo, los equipos permite a los grupos de trabajo Administrar proyectos, archivos, las conversaciones y aplicaciones en una ubicación. Decidir cómo la organización usará los equipos y permitir que su entorno para lograr el éxito.
+
+> [!Note]
+> Como un Skype existente para cliente comercial, la infraestructura de red actual es probable que ya está configurado para los equipos. Para confirmar esto, puede seguir las instrucciones de "Completar planeación técnica" vinculada a continuación (Esto es opcional).
+
+**Recursos:**
+
+-   [Información general sobre Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/Teams-overview)
+-   [Obtenga información sobre los equipos y canales](https://docs.microsoft.com/MicrosoftTeams/teams-channels-overview)
+-   [Completar planeación técnica](https://docs.microsoft.com/MicrosoftTeams/quick-start-enable-teams#step-3-complete-technical-planning)
+
+
+[Volver al principio](#about-upgrade-essentials)
+
+<a name="step-3"></a>
+
+## <a name="step-3-know-your-skype-for-business-users"></a>Paso 3. Conocer su Skype para usuarios profesionales
+
+*(Aproximadamente cuatro semanas antes de la actualización)*
+
+Los usuarios que se adoptan profundamente en Skype para la empresa es posible que necesita un poco más tiempo o ayuda para realizar la transición a los equipos. Tome tiempo para revisar su Skype para uso empresarial actual para identificar los principales usuarios que necesitan soporte adicional y para establecer una línea de base de uso que puede hacer un seguimiento con sus números de posteriores a la actualización.
+
+**Recursos:**
+
+-   [Vea los datos de uso en los informes de actividad en Office 365](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+
+[Volver al principio](#about-upgrade-essentials)
+
+<a name="step-4"></a>
+
+## <a name="step-4-notify-your-users-that-skype-for-business-is-becoming-teams"></a>Paso 4. Notifique a los usuarios que Skype para la empresa se está convirtiendo en los equipos
+
+*(Aproximadamente dos o tres semanas antes de la actualización)*
+
+Reserve antelación a los usuarios les proporcionará tiempo para familiarizarse con los equipos sin afectar negativamente a su productividad, lo que resulta en una experiencia de usuario más positiva. Enviar una comunicación con respecto a lo que está cambiando, ¿por qué está cambiando y cómo puede preparar para él.
+
+> [!Note]
+> Si es necesario, puede habilitar los equipos de los usuarios a través del portal de administración de Office 365 en este momento.
+
+**Recursos:**
+
+-   [Administrar las características de los equipos en la organización](https://docs.microsoft.com/microsoftteams/enable-features-office-365)
+-   [Ejemplo de correo electrónico: anuncio a los usuarios acerca de Skype para la empresa](#step-4-email)
+
+[Volver al principio](#about-upgrade-essentials)
+
+<a name="step-5"></a>
+
+## <a name="step-5-activate-the-user-upgrade-notification"></a>Paso 5. Activar la notificación de actualización de usuario
+*(Aproximadamente una semana antes de la actualización)*
+
+Mantener momentum actualización mediante la habilitación de la notificación de actualización de usuario a través del portal de administración, que proporciona una alerta visual en la Skype para clientes empresariales que Skype para la empresa se está convirtiendo en los equipos.
+
+**Recursos:**
+
+-   ¿Vínculo a instrucciones - Irinel?
+
+[Volver al principio](#about-upgrade-essentials)
+
+<a name="step-6"></a>
+
+## <a name="step-6-remind-your-users-that-skype-for-business-is-becoming-teams"></a>Paso 6. Recuerde a los usuarios que Skype para la empresa se está convirtiendo en los equipos
+*(Aproximadamente cinco días antes de la actualización)*
+
+Los usuarios están ocupados con sus responsabilidades diarias. Recordar a ellos de la actualización pendiente ayudará a garantizar que recordar a cabo los pasos que se necesitan para preparar los equipos. Este es el momento perfecto para recordar a los usuarios acerca de los cursos disponibles y cómo empezar a trabajar con los equipos.
+
+**Recursos:**
+
+-   [Ejemplo de correo electrónico: recordar a los usuarios a empezar a trabajar con los equipos](#step-6-email)
+
+[Volver al principio](#about-upgrade-essentials)
+
+<a name="step-7"></a>
+
+## <a name="step-7-upgrade-users-to-teams"></a>Paso 7. ¡Actualizar los usuarios a los equipos!
+
+*(Actualización día)*
+
+Hoy es el día de que la organización actualiza oficialmente a los equipos como la solución de comunicación y colaboración. En el portal de administración de Office 365, active el modificador de actualización. Los usuarios recibirán una notificación en su Skype para cliente de negocio que se ha actualizado a los equipos.
+
+Se recomienda que después de que todos los usuarios se han actualizado, envíe un correo electrónico le les da la bienvenida a los equipos.
+
+**Recursos:**
+
+-   ¿Vínculo para actualizar instrucciones a los usuarios – Irinel? – a la espera de versión de la característica y documentación
+-   [Ejemplo de correo electrónico: dar la bienvenida a los usuarios de los equipos](#step-7-email)
+
+[Volver al principio](#about-upgrade-essentials)
+
+<a name="step-8"></a>
+
+## <a name="step-8-monitor-teams-usage-against-your-baseline"></a>Paso 8. Supervisar el uso de los equipos con su línea base
+
+*(Acerca de uno o dos semanas después de la actualización)*
+
+Ajustar a una nueva tecnología puede tardar un poco. Compruebe el uso de para comprobar que los usuarios utilizan los equipos en el mismo, o mayor, tal como lo hacían con Skype para la empresa de nivel. Compruebe con los usuarios que no están usando los equipos con los niveles esperados.
+
+**Recursos:**
+
+-   [Vea los datos de uso](https://portal.office.com/AdminPortal/Home#/reportsUsage)
+
+[Volver al principio](#about-upgrade-essentials)
+
+<a name="step-9"></a>
+
+## <a name="step-9-measure-user-satisfaction"></a>Paso 9. Satisfacción de los usuarios medida
+
+*(Acerca de uno o dos semanas después de la actualización)*
+
+Satisfacción de los empleados puede influir en la productividad, retención, y, en última instancia, los resultados empresariales. Llegar a los usuarios a evaluar la opinión de los clientes de usuario sobre la actualización y su satisfacción con los equipos.
+
+**Recursos:**
+
+-   [Correo electrónico de ejemplo: comprobar con los usuarios](#step-9-email), además de [las encuestas de usuario](#step-9-surveys)
+
+[Volver al principio](#about-upgrade-essentials)
+
+<a name="step-10"></a>
+
+## <a name="step-10-maximize-your-roi-with-teams"></a>Paso 10. Maximizar el rendimiento de la inversión con los equipos 
+*(Continuo)*
+    
+Después de los usuarios se sienten cómodos con la mensajería instantánea (chat) y reuniones en los equipos, animarlos a ampliar sus casos de uso mediante la integración de aplicación y de colaboración de los equipos, verdaderamente optimización de su nueva solución y maximizar un retorno de la inversión.
+
+**Recursos:**
+
+-   [Ejemplo de correo electrónico: animar a los usuarios a explorar los equipos aún más](#step-10-email)
+
+[Volver al principio](#about-upgrade-essentials)
+
+## <a name="sample-emails"></a>Ver los correos electrónicos
+
+<a name="step-1-email"></a>
+
+### <a name="stakeholder-email-for-step-1"></a>Correo electrónico de los participantes, para el paso 1
+
+Línea de asunto:
+
+```
+IMPORTANT ANNOUNCEMENT Regarding Skype for Business
+```
+
+Cuerpo del correo electrónico:
+
+````
+As Microsoft [announced](https://blogs.office.com/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) in September 2017, Skype for Business and Microsoft Teams will be coming together into one solution. Teams builds on the great capabilities of Skype for Business and offers chat (IM), meetings, audio/video calling, file management, and a project workspace in one collaboration tool.
+
+Microsoft has indicated that Teams is now ready for our organization. To take full advantage of this new solution, we will be transitioning users from Skype for Business to Teams over the next 30 days. Our official transition date is <<insert X date>>, after which Skype for Business will be decommissioned for our organization.
+
+Microsoft has provided an upgrade checklist outlining the essential tasks we should take to facilitate this transition. If you’re listed on the To line, you’re a key stakeholder in executing a successful transition to Teams and I may be reaching out for assistance. In the interim, let me know if you have any questions.
+````
+[Devuelva al paso 1](#step-1)
+
+<a name="step-4-email"></a>
+
+### <a name="notify-users-email-for-step-4"></a>Notificar a correo electrónico de los usuarios, en el paso 4
+
+Línea de asunto:
+
+```
+IMPORTANT ANNOUNCEMENT Regarding Skype for Business
+```
+
+Cuerpo del correo electrónico:
+
+````
+From instant messaging to meetings to audio calling, we understand how much you rely on technologies like Skype for Business to get your job done. We’re excited to announce that we’ll be transitioning to Microsoft Teams, which provides one solution for your communication and collaboration needs. Teams leverages much of what you know and love about Skype for Business and expands what’s possible, integrating chat (IM), online meetings, calling, file management and a project workspace all into one interface.
+
+When is this transition happening?
+
+Our official transition to Teams is set for <<X date>>, but your journey starts today. We understand that change takes time and want to ensure you have what you need to be successful while minimizing disruption to your daily routine. Over the next few weeks, you’ll receive a series of emails with step-by-step activities to help you prepare for the transition to Teams. You’ll also see a notification in your Skype for Business client, notifying you of this pending upgrade.
+
+CALL TO ACTION: Get started with Teams today
+
+-   View this [Introducing Microsoft Teams video](http://teamsdemo.office.com/)
+-   Follow these [Quick Start](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d) steps to send your first chat in Teams
+
+If you have questions or need help, please reach out to <<insert company support information>>.
+````
+
+[Devuelva al paso 4](#step-4)
+
+<a name="step-6-email"></a>
+
+### <a name="remind-users-email-for-step-6"></a>Recordar a correo electrónico de los usuarios, para el paso 6
+
+Línea de asunto: 
+
+```
+ACTION REQUIRED: Host your next online meeting in Teams
+```
+
+Cuerpo del correo electrónico:
+````
+We’re just <<X weeks/days>> away from the transition to Microsoft Teams and want to make sure that you’re ready. Online meetings are part of our everyday life, so take time this week to get acquainted with online meetings in Teams. Complete the following steps for the smoothest experience:
+
+CALL TO ACTION: Make your next online meeting a Teams meeting
+
+-   Follow [these steps](https://support.office.com/article/get-your-team-together-for-better-meetings-71e3858c-7e5f-4ad7-bb67-c77d80237e96) to host your first Teams meeting.
+-   Begin rescheduling recurring Skype for Business meetings in Teams.
+-   Make every new online meeting a Teams meeting.
+
+What will happen to my Skype for Business meetings after we move to Teams?
+
+Your Skype for Business meetings will continue to work. However, if you want all meetings to be in Teams, you’ll have to cancel existing meetings and reschedule them in Teams.
+
+Tip: If you need assistance with scheduling meetings, T-Bot can help! In the Teams client, simply go to the Chat tab, select New chat, and type T-Bot in the To line. Type "schedule a meeting" (without the quotation marks), and T-Bot will guide you through the steps.
+
+Should you have questions about this upgrade, contact <<insert alias or contact info>>.
+````
+
+[Devuelva al paso 6](#step-6)
+
+<a name="step-7-email"></a>
+
+### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>Correo electrónico de bienvenida a los usuarios desde el patrocinador ejecutivo, para el paso 7
+
+Línea de asunto:
+
+```
+PLEASE READ: Skype for Business is now Microsoft Teams
+```
+
+Cuerpo del correo electrónico:
+
+````
+Let me be the first to officially welcome you to Microsoft Teams. Your Skype for Business client will be decommissioned, and Teams is your default application for chat and meetings. In case you missed it, let’s review what Microsoft Teams can do for you:
+
+-   Offers familiar Skype for Business chat and meeting features to maintain a consistent feel.
+-   Simplifies communication with a centralized contact list and persistent chat tracking for quick access to your conversations.
+-   Saves time by providing a single location for your project notes, Office documents, team members, conversations AND meetings.
+-   Alleviates the frustration of trying to find that lost email attachment, by storing and accessing files in one place
+-   Makes communication more fun and personal with customizable memes and Giphys.
+
+CALL TO ACTION: If you need assistance getting started in Teams:
+
+-   View this Introducing Microsoft Teams video: http://teamsdemo.office.com/
+-   Visit the Office 365 Training Center, or simply ask T-Bot. 
+
+Should you have questions about Teams, contact <<insert alias or contact info>>.
+
+Regards,
+
+<<insert executive sponsor name>>
+````
+
+[Devuelva al paso 7](#step-7)
+
+<a name="step-9-email"></a>
+
+### <a name="check-in-email-for-step-9"></a>Protección de correo electrónico, para el paso 9
+
+
+Línea de asunto:
+
+```
+ACTION REQUESTED: Tell us about your Microsoft Teams experience
+```
+
+Cuerpo del correo electrónico:
+
+````
+We upgraded to Microsoft Teams just over a week ago and want to hear from you.
+
+Share your feedback (see sample below) and transition experience with us. Your information will be used to ensure you have what you need to use Teams moving forward, and help us better prepare for upgrades like this in the future. This survey will be open until <<x date>> and should take no more than 5 minutes to complete.
+
+Should you have questions, contact <<insert alias or contact info>>.
+````
+
+[Devuelva al paso 9](#step-9)
+ 
+<a name="step-10-email"></a>
+
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Correo electrónico para pedir a los usuarios para conceder a los equipos y los canales de un bloque try, para el paso 10
+
+[//]: # (Debbie, agrega esta línea de asunto. ¿Está bien?)
+Línea de asunto:: 
+
+```
+CALL TO ACTION: Give teams and channels a try
+```
+
+Cuerpo del correo electrónico:
+
+````
+Now that you’re up and running with Microsoft Teams, learn what else Teams can do for you. More than just chat and meetings, Teams serves as a hub for teamwork—where you can chat, collaborate, and share content with the people you work with. Using the teams and channels functionality enables you to organize your projects and conversations in a way that works for you.
+
+CALL TO ACTION: Give teams and channels a try
+
+-   Learn about [teams and channels](https://support.office.com/article/learn-about-teams-and-channels-5e4fd702-85f5-48d7-ae14-98821a1f90d3).
+-   [Create a team](https://support.office.com/article/video-teams-and-channels-c3d63c10-77d5-4204-a566-53ddcf723b46) for a current project or initiative.
+
+Tip: The best use of the Teams workspace comes when the right people join the right team. Work with your manager or colleagues to optimize the use of teams and channels.
+
+Should you have questions, contact <<insert alias or contact info>>.
+````
+
+[Devuelva al paso 10](#step-10)
+
+<a name="step-9-surveys"></a>
+
+## <a name="sample-surveys-for-the-check-in-email-in-step-9"></a>Ejemplos encuestas, para la protección de correo electrónico en el paso 9
+
+Indicar el grado se encuentra al realizar las siguientes actividades en los equipos y si hay una o más actividades que le gustaría usar para obtener más información acerca de.
+
+|  &nbsp;  | Mucha experiencia | Algo de experiencia | No especializados en todos los | Para obtener más información | N/D | ¿No está seguro o no familiar |   |   |   |    |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|------------------|--------------------|--------------------|-----|---------------------|---|---|---|----|
+| Equipos de uso de mensajería instantánea o charlar con otras personas                                                                                                                     |              |                  |                    |                    |     |                     |   |   |   |    |
+| Equipos de uso para las reuniones en línea                                                                                                                             |              |                  |                    |                    |     |                     |   |   |   |    |
+| Equipos de uso para la colaboración (equipos y canales)                                                                                                          |              |                  |                    |                    |     |                     |   |   |   |    |
+| Use los equipos en mi dispositivo móvil                                                                                                                             |              |                  |                    |                    |     |                     |   |   |   |    |
+
+
+| **¿Qué ocurre, en caso de haber algo, se le impide usar Microsoft Teams?**   | **Seleccione todos los que se aplican** |
+|--------|-------|
+|  Nunca he oído sobre él    | & #9744; |
+| No tengo instalado en mi equipo   |  & #9744;  |
+| No sé cómo puede beneficiarme a mí o a las personas que trabajo con   |  & #9744;  |
+| No he tenido tiempo para evaluar para mis necesidades   |  & #9744;  |
+| Ya uso otras aplicaciones que mis necesidades de comunicación y colaboración   |  & #9744;  |
+| ¿Necesito formación antes de usarlo   |  & #9744;  |
+| He intentó usarlo, pero tenía problemas técnicos o una mala experiencia    |  & #9744;   |
+| Nuestro servicio de asistencia técnica no se ha podido ayudarme con mis preguntas   | & #9744;   |
+| Nothing, actualmente puedo usarlo    |  & #9744;  |
+| Otros (especifique)     | & #9744;   |
+
+
+**¿Con qué probabilidad va a recomendar Teams Microsoft a un compañero o amigo? (0 = no es probable en absoluto... 10 = extremadamente probable)** 
+     
+| 0      | 1            | 2                | 3                  | 4                  | 5   | 6                   | 7 | 8 | 9 | 10 |
+| ------| -----  | ---------|-------|-----|-------|------|------|------|------|------|
+|&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
+
+[Devuelva al paso 9](#step-9)
