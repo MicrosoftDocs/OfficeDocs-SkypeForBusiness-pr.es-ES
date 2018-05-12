@@ -3,269 +3,160 @@ title: Plan para Sistemas de salas de Skype v2
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/16/2018
+ms.date: 5/10/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: En este artículo se explica las consideraciones de planeación relevantes para la implementación de sistemas de salón de Skype v2, la próxima generación de sistemas de salón de Skype.
-ms.openlocfilehash: 7b36e9bc9c85a57b81be542f09d65c357f6020c0
-ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
+ms.openlocfilehash: 20c2163988d73eb704b09ee8f845a1a046a593af
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 05/11/2018
 ---
-# <a name="plan-for-skype-room-systems-v2"></a>Plan para Sistemas de salas de Skype v2
- 
-En este artículo se explica las consideraciones de planeación relevantes para la implementación de sistemas de salón de Skype v2, la próxima generación de sistemas de salón de Skype. 
-  
- V2 de sistemas de salón de Skype es la solución de conferencia más reciente de Microsoft diseñada para transformar la sala de reuniones en un Skype enriquecido, colaboración para que la experiencia empresarial. Los usuarios disfrutarán de su Skype familiar para la interfaz de negocios y los administradores de TI apreciará una aplicación de Windows 10 Skype reunión fácil de implementar y administrada. Sistemas de salón de Skype v2 está diseñado para aprovechar equipamiento existente como paneles LCD para facilitar la de instalación para incorporar Skype para la empresa en la sala de reuniones.
-  
-Sistemas de salón de Skype v2 usa una aplicación UWP diseñado específicamente que actúa como la interfaz de usuario de la reunión de Skype. Se ejecuta en un Surface Pro 4 o Surface Pro en un modo de consola (una vez implementada la aplicación UWP es la única aplicación que se ejecutará en el dispositivo) y requiere su propia cuenta de dispositivo en su Skype para la implementación de negocio. Aprovecha el equipo existente, como los paneles LCD y las cámaras y los micrófonos periféricos (que tienen un precio bastante económico), para que la experiencia que se ofrece en la sala de reuniones sea de gran calidad. El software se actualiza a través de la Tienda Windows y de Windows Update.
-  
-Antes de comenzar la preparación del entorno, asegúrese de que tener el hardware y software necesarios. Para obtener más información, vea [requisitos de sistemas de salón de Skype v2](requirements.md). 
-  
-> [!NOTE]
-> Sistemas de salón de Skype v2 está destinado para su uso con Skype Business Server 2015 o Skype para profesionales en línea. No se esperan plataformas anteriores al igual que Lync Server 2013 para trabajar con sistemas de salas de Skype v2. 
-  
+# <a name="plan-skype-room-systems-v2"></a>Planeación de la sala de Skype v2 de sistemas 
 
-  
- **Creado para Skype Empresarial**
-  
-- Un solo toque para unirse a reuniones de Skype.
-    
-- La experiencia de las reuniones de Skype optimizada para salas con prestaciones de audio HD de banda ancha y vídeo HD en toda la pantalla.
-    
-- Todos los participantes se pueden conectar a la reunión de Skype mediante el dispositivo que elijan desde el lugar en el que se encuentren.
-    
-- Invite a las personas desde su directorio, donde podrá consultar su disponibilidad en ese mismo momento o a través de una llamada de teléfono.
-    
-- Es compatible con los servicios de conferencias RTC y llamadas RTC de Skype Empresarial como sustitución del teléfono de conferencias independiente de su sala.
-    
- **Transforme cualquier sala de reuniones**
-  
-- Una aplicación de reuniones de Skype dedicada y optimizada para el controlador táctil situado en el centro de la mesa y las pantallas frontales de gran tamaño.
-    
-- Permite aprovechar las inversiones que ya ha realizado en pantallas frontales o proyectores.
-    
-- Funciona en todo tipo de áreas de reuniones, desde los espacios más apiñados a las salas de conferencias más amplias.
-    
-- Los dispositivos de audio y vídeo certificados de Skype Empresarial están disponibles para diversos tamaños de salas.
-    
-- Transmisión por cable integrada para compartir el escritorio del proyecto con la sala y con la reunión de Skype.
-    
-- Selección del usuario en la aplicación de reunión de la sala audio y vídeo dispositivos USB & #x 2776;
-    
-- Compatibilidad con pantalla dual (para la paridad de sistemas heredados) & #x 2777;
-    
-- Themability (temas integrados y la capacidad para establecer tema personalizado) & #x 2777;
-    
- **Fácil de implementar, sencillo de administrar.**
-  
-- Un dispositivo que está encendido en todo momento y que activará automáticamente las pantallas cuando detecte que hay alguna persona en la sala.
-    
-- Sencilla implementación y actualización de la aplicación de reuniones de Skype para UWP (Plataforma universal de Windows).
-    
-- Windows AppLocker bloquea el dispositivo con la aplicación de reuniones de Skype.
-    
-- Se supervisa y se administra como un dispositivo con Windows 10 Enterprise mediante Intune y SCCM (MDM).
-    
-- Fiabilidad de carácter empresarial.
-    
-- La formación que requieren los usuarios es muy poca puesto que ya conocen la interfaz de usuario de Skype.
-    
-- Se ejecuta en tablet Surface Pro 4
-    
-- Integrado salón consola informes de estado de los clientes que usen el conjunto de aplicaciones de administración de operaciones de Microsoft (consulte [administración de sistemas de planeación de las salas Skype v2 con OMS](oms-management.md)) & #x 2776;
-    
-- Capacidad de proporcionar comentarios para compilaciones públicas & #x 2777;
-    
-- Unirse a telemetría mejorada alrededor de reunión confiabilidad & #x 2777;
-    
-- Adicionales de informes de OMS & #x 2777;
-    
-- Capacidad de administración de TI para configurar los dispositivos de forma remota & #x 2777;
-    <!--  - Front-of-Room UX shows room details pre-meeting U2  -->
-- Se ejecuta en tablet Surface Pro & #x 2778;
-    
-- Admite de Windows 10 Enterprise creador actualización (en inglés, compilación 1703) & #x 2778;
-    
-- Soporte para [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) acopla hardware & #x 2778;
-    
-- Soporte técnico de OEM para controles del entorno (Crestron) & #x 2778;
-    
-- Soporte para la [Serie de Polycom MSR](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) acopla hardware & #x 2779;
-    
-- Soporte técnico para la [Logitech Brio](https://www.logitech.com/en-us/product/brio) & #x 2779;
+En este artículo se presenta un enfoque end-to-end para la planeación, ofrecer y funcionamiento de sistemas de salón de Skype versión 2 (v2) como parte de su estrategia de salas de conferencia y reunión general.
 
-- Soporte técnico para [Lenovo concentrador 500](https://www3.lenovo.com/us/en/hub500) acopla hardware & #x277A;  
-    
-& #x 2776; -Característica introducida en Update 1 (SW Ver. 2.0.2.0).
-  
-& #x 2777; -Característica introducida en actualización 2 (SW Ver. 3.0.6.0). 
-  
-& #x 2778; -Característica introducida en actualización 3 (SW Ver. 3.0.12.0). 
-  
-& #x 2779; -Característica introducida en la actualización 4 (SW Ver. 3.0.15.0). 
+Encontrará información debajo que cubren el enfoque recomendado y las decisiones clave que debe tomar, con vínculos a información técnica auxiliar de planificación. Se recomienda que revise las secciones del Plan, implementar y administrar incluso si totalmente ya está implementado.
 
-& #x277A; -Característica introducida en Update 5 (SW Ver. 3.1.98.0). 
-  
-## <a name="preparing-your-skype-for-business-environment"></a>Preparación del entorno de Skype Empresarial
+## <a name="overview-of-skype-room-systems-v2"></a>Información general de Skype sala v2 de sistemas
 
-Esta sección contiene información general sobre los pasos necesarios para preparar su entorno para que pueda usar todas las características de sistemas de salón de Skype v2.
-  
-1. Prepare una cuenta de dispositivo para cada consola v2 de sistemas de salón de Skype. Para obtener información detallada, vea [implementar sistemas de salón de Skype v2](../../deploy/deploy-clients/room-systems-v2.md) .
-    
-2. Asegúrese de que las conexiones de red y de Internet funcionen correctamente en el dispositivo que se va a utilizar.  
-    
-  - Debe ser capaz de recibir una dirección IP mediante DHCP (Nota: Skype salón sistemas v2 no se pueden configurar con una dirección IP estática en el primer inicio de unidad)
-    
-  - Debe tener estos puertos abiertos (además de abrir los puertos normales para los medios de Skype Empresarial):
-    
-  - HTTPS: 443
-    
-  - HTTP: 80
-    
-  - Si su red se ejecuta mediante un proxy, necesitará también la dirección del proxy o la información de script.
-    
-    > [!NOTE]
-    > Sistemas de salón de Skype v2 no es compatible con entrada HDCP, que se ha observado para provocar problemas con HDMI ingesta funcionalidad (vídeo, audio). Tenga cuidado para asegurarse de que los conmutadores conectados a sistemas de salón de Skype v2 tienen opciones HDCP desactivadas. 
-  
-3. Para poder mejorar su experiencia, Microsoft recopila información. Para recopilar información, necesitamos que estos sitios figuren en la lista de permitidos:
-    
-  - Extremo de cliente de telemetría:https://vortex.data.microsoft.com/
-    
-  - Extremo de la configuración de telemetría:https://settings.data.microsoft.com/
-    
-### <a name="create-and-test-a-device-account"></a>Crear y probar una cuenta de dispositivo
+Sistemas de salón de Skype v2 proporciona una completa Skype para experiencia de reunión de negocio que combine el uso compartido del contenido, audio y vídeo de alta definición a las reuniones de todos los tamaños de ponerse a trabajar pequeñas áreas para salas de conferencias de gran tamaño.
 
-Una *cuenta de dispositivo* es una cuenta que utiliza el cliente de v2 de sistemas de salón de Skype para tener acceso a las características de Exchange, al igual que el calendario y para habilitar Skype para la empresa. Para obtener información detallada, vea [implementar sistemas de salón de Skype v2](../../deploy/deploy-clients/room-systems-v2.md) .
-  
-### <a name="check-network-availability"></a>Comprobar la disponibilidad de red
+![Una consola, un micrófono y una pantalla grande montado en la pared de la sala de conferencia ilustran los elementos de un programa de instalación de ejemplo v2 de sistemas de salón de Skype.] (../../media/room-systems-image1.png "Una consola, un micrófono y una pantalla grande montado en la pared de la sala de conferencia ilustran los elementos de un programa de instalación de ejemplo v2 de sistemas de salón de Skype.")
 
-Para que funcione correctamente, el dispositivo de v2 de sistemas de Skype sala debe tener acceso a una red por cable que cumple estos requisitos:
-  
-- Tener acceso a su instancia de Active Directory o Azure Active Directory (Azure AD), así como a sus servidores de Microsoft Exchange y Skype Empresarial.
-    
-- Tener acceso a un servidor que pueda proporcionar una dirección IP mediante DHCP. Sistemas de salón de Skype v2 no se puede configurar con una dirección IP estática.
-    
-- Tener acceso a los puertos HTTP 80 y 443.
-    
-- Puertos TCP y UDP configurados como se describe en [requisitos de puerto para Lync Server 2013](https://technet.microsoft.com/en-us/library/gg398798%28v=ocs.15%29.aspx) para locales Skype para implementaciones empresariales o [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) para Skype para implementaciones en línea de negocio.
-    
-> [!IMPORTANT]
-> Asegúrese de usar una conexión de red cableada de 1 Gbps para garantizar que dispondrá de la banda ancha necesaria.  
-  
-### <a name="certificates"></a>Certificados
+[Ayudar sistemas de salón de Skype v2](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) es un recurso excelente para obtener más información acerca de los sistemas de salón de Skype v2 y cómo puede agregar valor como parte de su Skype para la implementación de la empresa. Además, se recomienda Mire este [vídeo de información general](https://youtu.be/tNey5KZVCl0). 
 
-Su dispositivo v2 de Skype salón sistemas utiliza certificados para los servicios Web Exchange, Skype para profesionales, el uso de la red y la autenticación. En el caso de que los servidores relacionados utilicen certificados públicos, como ocurre con las implementaciones en línea y algunas locales, no será necesario que el administrador realice ninguna otra acción en relación a la instalación de certificados. Si, por el contrario, la entidad de certificación es una CA privada (habitual en las instalaciones locales), el dispositivo necesita poder confiar en esa CA, lo que implica tener los certificados de la cadena CA + CA instalados en el dispositivo. Al añadir el dispositivo al dominio, esta tarea se realiza de forma automática.
-  
-Los certificados se instalarán del mismo modo en que se instalarían para cualquier otro cliente de Windows.  
-  
-> [!NOTE]
-> Es posible que se requieren certificados con el fin de que tengan sistemas de salón de Skype v2 Skype para Business Server. 
-  
-### <a name="proxy"></a>Proxy
 
-Sistemas de salón de Skype v2 está diseñado para heredar la configuración de Proxy del sistema operativo Windows. Acceda al SO Windows de la siguiente manera:
-  
-1. En la interfaz de usuario de sistemas de salón de Skype v2, haga clic en el icono de engranaje de configuración donde se le pedirá la contraseña de administrador local en el dispositivo (la contraseña predeterminada es "sfb").
-    
-2. Puntee en "Configuración" seguida de puntear en el botón "Ir a Windows" y, a continuación, puntee en el "obtuvo para el inicio de sesión de administración en" botón y, a continuación, haciendo clic en el botón "Administrador" (si el equipo está unido al dominio elija "Otro usuario", a continuación, usar. \admin como el nombre de usuario).
-    
-3. En la "búsqueda de Windows" del cuadro de tipo izquierdo inferior en regedit (presione largo de la pantalla o la derecha haga clic en y elija "Ejecutar como administrador").
-    
-4. Haga clic en la carpeta HKEY_USERS (podrá ver una lista de identificadores de seguridad de los usuarios de la máquina), asegúrese de que la carpeta raíz HKEY_USERS esté seleccionada.
-    
-    Se le pedirá un nombre de clave para su subárbol recién cargada; Escriba en Skype (ahora debería ver la configuración del registro para el usuario de Skype).
-    
-5. Haga clic en Archivo y, a continuación, elija "Cargar subárbol".
-    
-6. Busque la carpeta "C:\Users\Skype" y, en el cuadro Nombre de archivo, escriba NNTUSER.dat y después presione el botón para abrir.
-    
-7. Abra la clave de Skype y vaya a configuración de HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet, a continuación, asegúrese de que se escriben estas opciones de configuración: 
-    
-    [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
-    
-    "MigrateProxy" = dword: 00000001
-    
-    "ProxyEnable" = dword: 00000001
-    
-    "ProxyServer"="xx.xx.xx.xx:8080"
-    
-    Si ProxyServer no existe, es posible que deba agregar esta clave como una cadena, cambie xx.xx.xx.xx:8080 a la dirección IP/host y al puerto de su servidor Proxy.
-    
-8. Una vez que haya terminado de realizar los cambios que resalte el usuario Skype clave (carpeta raíz de Skype) y elija Descargar sección en el menú archivo de registro (se le pedirá confirmación - seleccionar **Sí** ).
-    
-9. Ahora puede cerrar el editor del registro y escribir cerrar la sesión en el cuadro de búsqueda de Windows.
-    
-10. Nuevamente en la pantalla de inicio de sesión, elija el usuario de **Skype**. Si todos los pasos anteriores se realizaron correctamente, el dispositivo v2 de sistemas de salón de Skype se inicio de sesión correctamente.
-    
-Para usar esta aplicación, debe poder conectarse a los puntos de conexión que se describen a continuación. Para ver las direcciones IP, amplíe la sección de direcciones IP que se encuentra debajo de la tabla que describe el flujo de tráfico.
-  
-**Ejemplos de nombre y puerto de Host de Proxy de Firewall**
+## <a name="skype-room-systems-v2-components"></a>Componentes de v2 de sistemas de salón de Skype 
 
-|**Propósito**|**Origen o credenciales**|**Puerto de origen**|**Destino**|**CDN**|**ExpressRoute para Office 365**|**Destino IP**|**Puerto de destino**|
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Autenticación e identidad  <br/> |Vea la [identidad y la autenticación de Office 365](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
-|Portal e infraestructura compartida  <br/> |Vea [Office 365 del portal y compartida](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
-|Señalización de SIP  <br/> |Equipo cliente o usuario conectado  <br/> |Puertos efímeros  <br/> |\*. contoso.com  <br/> |No  <br/> |Sí  <br/> |[Skype para rangos IP empresarial](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
-|Conferencia web de conexiones PSOM (modelo de objetos compartidos persistentes)  <br/> |Equipo cliente o usuario conectado  <br/> |Puertos efímeros  <br/> |\*. contoso.com  <br/> |No  <br/> |Sí  <br/> |[Skype para rangos IP empresarial](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
-|Descargas HTTPS  <br/> |Equipo cliente o usuario conectado  <br/> |Puertos efímeros  <br/> |\*. contoso.com  <br/> |No  <br/> |Sí  <br/> |[Skype para rangos IP empresarial](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
-|Audio  <br/> |Equipo cliente o usuario conectado  <br/> |TCP/UDP 50.000-50.019  <br/> |\*. contoso.com  <br/> |No  <br/> |Sí  <br/> |[Skype para rangos IP empresarial](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50.000-59.999  <br/> |
-|Vídeo  <br/> |Equipo cliente o usuario conectado  <br/> |TCP/UDP 50.020-50.039  <br/> |\*. contoso.com  <br/> |No  <br/> |Sí  <br/> |[Skype para rangos IP empresarial](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50.000-59.999  <br/> |
-|Compartir escritorio  <br/> |Equipo cliente o usuario conectado  <br/> |TCP/UDP 50.040-50.059  <br/> |\*. contoso.com  <br/> |No  <br/> |Sí  <br/> |[Skype para rangos IP empresarial](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, 50.000-59.999  <br/> |
-|Notificaciones de inserción de Lync Mobile para Lync Mobile 2010 en dispositivos iOS. No es necesario para dispositivos móviles Android, Nokia Symbian o Windows Phone.  <br/> |Equipo cliente o usuario conectado  <br/> |Puertos efímeros  <br/> |\*. contoso.com  <br/> |No  <br/> |Sí  <br/> |[Skype para rangos IP empresarial](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
-|Telemetría de Skype  <br/> |Equipo cliente o usuario conectado  <br/> |Puertos efímeros  <br/> |skypemaprdsitus.trafficmanager.NET  <br/> pipe.Skype.com  <br/> |No  <br/> |No  <br/> |N/D  <br/> |TCP 443  <br/> |
-|Sugerencias rápidas del cliente de Skype  <br/> |Equipo cliente o usuario conectado  <br/> |Puertos efímeros  <br/> |quicktips.skypeforbusiness.com  <br/> |No  <br/> |No  <br/> |N/D  <br/> |TCP 443  <br/> |
-   
-> [!NOTE]
-> El carácter comodín de contoso.com y broadcast.skype.com representa una larga lista de nodos que se utilizan en exclusividad para Office 365. 
-  
-### <a name="create-provisioning-packages"></a>Crear paquetes de aprovisionamiento
+Sistemas de salón de Skype v2 incluye los siguientes componentes claves para proporcionar una experiencia de usuario excelente:
 
-Paquetes de aprovisionamiento va a usar para autenticar al servidor de Exchange o Skype para Business Server.
-  
-### <a name="admin-group-management"></a>Administración del grupo de administradores
+-   Panel de control de pantalla táctil
+-   COMPUTE
+-   Aplicación de v2 de sistemas de salón de Skype
+-   Acoplar/extensor
+-   Dispositivos periféricos (cámara, micrófono, altavoz)
+-   Pantallas externas (máximo de dos)
+-   Entrada HDMI
 
-Después de la unión a un dominio, puede usar la Directiva de grupo o la Administración del equipo local para configurar un Grupo de seguridad como administrador local, tal como lo haría para un PC con Windows en su dominio. Las personas que formen parte de ese grupo de seguridad podrán introducir sus credenciales y desbloquear Configuración.
-  
-> [!NOTE]
-> Si su dispositivo v2 de sistemas de salón de Skype pierde la relación de confianza con el dominio (por ejemplo, si quita el v2 de sistemas de salón de Skype desde el dominio después de está unido al dominio), no podrá autenticar en el dispositivo y abrir seguridad de la configuración. La solución alternativa es iniciar sesión con la cuenta de administrador local. 
-  
-## <a name="local-accounts"></a>Cuentas locales
+Puede adquirir estos componentes como preinstalados paquetes desde un número de proveedores, o puede comprar individualmente los componentes admitidos siguiendo los [requisitos documentan en este artículo](requirements.md). 
 
-### <a name="skype-room-systems-local-user-account"></a>Cuenta de usuario local de Sistemas de salas de Skype
+También, además de la combinación de acoplar / Surface Pro, puede comprar v2 de sistemas de salón de Skype con el panel de control de pantalla táctil, compute, acoplar y clave dispositivos periféricos integrados. 
 
-Normalmente, la cuenta de dispositivo no requiere una contraseña. Es posible asignarle una, pero acarrea consecuencias, como que los usuarios se puedan quedar bloqueados fuera de la aplicación de consola cuando expire la contraseña. Por lo tanto, el administrador debe garantizar que la contraseña no esté configurada para que expire.
-  
-### <a name="admin---local-administrator-account"></a>"Administrador": cuenta de administrador local
+Normalmente, los paquetes y las unidades integradas incluyen software preinstalado, mientras que si comprar componentes admitidos por separado para los sistemas Surface Pro, necesitará instalar el software. Para obtener instrucciones, vea [este artículo sobre la instalación de software en los dispositivos](../../deploy/deploy-clients/room-systems-scale.md). 
 
-Contraseña de Skype salón sistemas v2 de forma predeterminada se establece en "sfb". Puede cambiar la contraseña localmente, vaya a configuración de Windows \> vaya a Windows o en el archivo AutoUnattend.xml (use el Administrador de la imagen de sistema de Windows desde ADK para realizar el cambio en el archivo xml).
-  
-> [!CAUTION]
-> Asegúrese de cambiar la contraseña de v2 de Skype salón sistemas tan pronto como sea posible. 
-  
-Otra manera de administrar la contraseña de administrador local es configurar una directiva de grupo en la que los administradores de dominio se conviertan en administradores locales.
-  
-La contraseña del administrador local no se incluye como opción durante la configuración.
-  
-### <a name="machine-account"></a>Cuenta de equipo
+Puede implementar sistemas de salón de Skype v2 con Skype para profesionales en línea o Skype para las implementaciones empresariales de híbrida o local. Soporte técnico de Microsoft Teams es muy próximamente.
 
-Mucho al igual que cualquier dispositivo de Windows, el nombre del equipo puede cambiarse haciendo clic en configuración de \> sobre \> cambiar el nombre de PC.
-  
- Si desea cambiar el nombre del equipo después de unirse a un dominio, use el comando de PowerShell de cambio de nombre de equipo seguido por el nombre del equipo nuevo.
-  
-## <a name="see-also"></a>Vea también
+|    |     |
+|-----------|------------|
+|![](../../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Va a implementar sistemas de salón de Skype v2 en su organización? </li><li>¿Cómo va a adquirir los sistemas de v2 de sistemas de salón de Skype: agrupado, como componentes separados, o bien como una unidad integrada?</li></ul> |
+| ![](../../media/audio_conferencing_image9.png)<br/>Pasos siguientes | <ul><li>Identificar quién emprenderá las actividades clave en toda la implementación.</li><li>Revise las salas de reuniones tiene (y va a configurar) para comprender donde desea implementar sistemas de salón de Skype v2 y los dispositivos periféricos que serían apropiado para el tamaño de la sala.</li></ul> |
 
-#### 
+## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>Identificar quién emprenderá las actividades clave en toda la implementación
 
-[Requisitos de v2 de sistemas de salón de Skype](requirements.md)
-  
-[Implementación de salón de Skype v2 de sistemas](../../deploy/deploy-clients/room-systems-v2.md)
-  
-[Configurar una consola de v2 de sistemas de salón de Skype](../../deploy/deploy-clients/console.md)
-  
-[Administración de salón de Skype v2 de sistemas](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+Use el enfoque se ilustra a continuación le guiarán a través de la implementación y personalizar los resultados de ejemplo proporcionados a lo largo de estos artículos, según sea necesario para la organización.
 
+Comience con la descripción de salones de qué conferencia tienen y qué proceso de previsión funcionaría mejor para usted en el futuro, a continuación, desplazarse por selección y obtención el equipo necesario, preparación de los sitios, configuración e implementación de su servicio, administración de cambios y adopción de usuario y el desarrollo de las operaciones y los procedimientos de mantenimiento.
+
+![Comience con la descripción de lo que tiene y previsión qué funcionaría mejor para usted, a continuación, mover a través de la selección y obtención de los equipos que necesita, preparación de los sitios, configuración e implementación de su servicio, administración de adopción de cambio y el usuario, y desarrollo de las operaciones y los procedimientos de mantenimiento.] (../../media/room-systems-image2.png "Comience con la descripción de lo que tiene y previsión qué funcionaría mejor para usted, a continuación, mover a través de la selección y obtención de los equipos que necesita, preparación de los sitios, configuración e implementación de su servicio, administración de adopción de cambio y el usuario, y desarrollo de las operaciones y los procedimientos de mantenimiento.")
+
+Es posible que necesite coordinar estas actividades a través de varios equipos. Se proporciona una visión general de las actividades principales que deben abarcar así como sugerencias para los equipos que son normalmente implicados en la implementación y administración de sistemas de salas de conferencia, para ayudarle a decidir que necesita para que funcione con.
+
+| Tarea                       | Quién puede realizar la tarea           | Asignado a | Vínculos a este contenido |
+|----------------------------|----------------------------------------|-------------|-----------------------|
+| Salones de inventario            | Instalaciones / equipo AV / equipo de proyecto de TI |             | [Inventario de sala y planeación de capacidad](#room-inventory-and-capability-planning)        |
+| Plan de capacidades          | TI equipo del proyecto                        |             | [Inventario de sala y planeación de capacidad](#room-inventory-and-capability-planning)                       |
+| Selección de dispositivos           | TI equipo del proyecto o equipo AV              |             | [Selección de dispositivos](#device-selection)                      |
+| Compras                | TI equipo del proyecto o equipo AV              |             | [Compras](#procurement)                      |
+| Preparación del sitio             | Instalaciones / equipo AV / equipo de proyecto de TI |             | [Preparación del sitio](../../deploy/deploy-clients/room-systems-v2.md#site-readiness)                      |
+| Preparación del servicio          | TI equipo del proyecto                        |             | [Preparación del servicio](../../deploy/deploy-clients/room-systems-v2.md#service-readiness)                      |
+| Configuración              | TI equipo del proyecto                        |             | [Configuración e implementación](../../deploy/deploy-clients/room-systems-v2.md#configuration-and-deployment)                      |
+| Implementación                 | Instalaciones / equipo AV / equipo de proyecto de TI |             | [Lista de comprobación de implementación](../../deploy/deploy-clients/console.md#skype-room-systems-v2-deployment-checklist)                      |
+| Adopción                   | Instalaciones / equipo AV / equipo de proyecto de TI |             | [Adopción](#plan-for-adoption-and-change-management)                      |
+| Operaciones y mantenimiento | Equipo de AV / equipo de proyecto de TI              |             | [Introducción a la administración](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)                      |
+
+
+## <a name="room-inventory-and-capability-planning"></a>Inventario de sala y planeación de capacidad
+
+El primer paso consiste en realizar un inventario de reunión existente y salas de conferencias para comprender su entorno, el tamaño de la sala, el diseño y el propósito y para identificar las capacidades que desee cada sala en el ámbito que se debe tener en el futuro, como qué más completos de la organización las capacidades de colaboración se habilitará en la sala. 
+
+Después de crear un inventario de los equipos y las capacidades de cada sala existente, los requisitos para esa sala fuente en la selección de dispositivo de planeación crear una solución de conferencias de gran versatilidad. Las modalidades (audio, vídeo) necesarias para cada sala, además de tamaño de la sala y propósito — todos desempeñan un rol importante en decidir cuál es la solución más adecuada para cada sala. 
+
+Como parte de la detección, lo s clave a tener en cuenta el diseño y acústica de la sala. Por ejemplo, compruebe que las sillas en la sala no puede bloquear la vista de la cámara. Compruebe que no tiene la sala de eco excesivo o ruido aire acondicionado, y que tiene suficiente capacidad para las pantallas y los sistemas de la sala de Skype v2. Existen muchos factores a tener en cuenta que podrán realizar de aviso en su equipo audiovisual (AV) o socio. 
+
+|    |     |
+|-----------|------------|
+| ![](../../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Qué salones están en el ámbito de esta implementación?</li><li>¿Los sitios que están en el ámbito de la implementación?</li><li>¿Inventario de las salas que realizará la reunión?</li></ul> |
+| ![](../../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Revise las salas de ámbito y definir las configuraciones de v2 de sistemas de salón de Skype para ellos.</li></ul>|
+
+_Inventario de sala de reunión o conferencia de ejemplo_
+
+| **Sitio**  | **Nombre del salón** | **Tipo de salón** | **Número de personas**  | **¿En el ámbito?** | **Capacidades de salón actual**       | **Capacidades de sala futuras**                             |
+|-----------|---------------|---------------|-----------------------|--------------|-------------------------------------|----------------------------------------------------------|
+| HQ de Londres | Curie         | Medio        | 6&ndash;12                  | Sí          | Manos libres                        | 1 pantalla, audio y vídeo plus presentación<br>Acceso de RTC |
+| HQ Sidney | Hill          | Grande         | 12&ndash;16                 | Sí          | Heredado AV unidad, 1 pantalla y cámara | 2 pantallas, audio y vídeos plus presentación<br>Acceso de RTC |
+
+**Sugerencia pro** – si tiene muchos sitios de inventario, es posible que desee descargar y usar la [implantación de sitio y planificación de la migración - cuestionario de sitio](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_15).
+
+## <a name="device-selection"></a>Selección de dispositivos 
+
+Evaluar qué solución de v2 de sistemas de salón de Skype es el más adecuado para cada sala en función de las capacidades futuras que desee de la sala. Decidir qué dispositivos periféricos AV son el mejor ajuste, según el tamaño de la sala y diseño. 
+
+Para obtener instrucciones para el tipo de sistema y los dispositivos periféricos por tipo de sala y el tamaño, vea el artículo de [los requisitos de sistemas de salón de Skype v2](requirements.md) . 
+
+Según el proveedor que lo prefiere, use la información proporcionada en el artículo de los requisitos para definir la configuración de dispositivo periférico admitidos por tipo de habitación y v2 de sistemas de salón de Skype y usar como plantilla para la implementación. 
+
+**Sugerencia pro** – no es posible aplicables para la implementación de algunos tipos de sala.
+
+|    |     |
+|-----------|------------|
+| ![](../../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Desde el inventario, que son tipos de salas en el ámbito de la implementación?</li><li>¿Los sistemas que va a implementar para cada tipo de salón?</li></ul>|
+| ![](../../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Empieza a recopilar material operativa clave para los sistemas elegidos y haga participar a su equipo de compras.</li></ul>|
+
+_Plantilla de implementación de ejemplo sistemas de salón de Skype v2 para su organización_
+
+| **Tipo y tamaño de la sala** | **Número de personas**  | **Sistema de v2 de sistemas de salón de Skype** | **Dispositivos periféricos**  | **Display(s)** |
+|----------------------|-----------------------|----------------------------------|-------------------------|-----------------|
+| Enfoque 10' por 9'      | 2&ndash;4                   |                                  |                         |                 |
+| Pequeña 16' por 16'     | 4&ndash;6                   |                                  |                         |                 |
+| Medio 18' por 20'    | 6&ndash;12                  |                                  |                         |                 |
+| Grandes 15' por 32 º     | 12&ndash;16                 |                                  |                         |                 |
+
+**Sugerencia Pro:** Ahora es un buen momento para iniciar la recopilación de información acerca de la solución de v2 de sistemas de salón de Skype que haya elegido. Se recomienda que trabaje con su proveedor para explicar la finalización de la plantilla de diseño para capturar la información que va a ser relevante para la implementación; puede [descargar esta plantilla útil](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_11) desde MyAdvisor. 
+
+## <a name="procurement"></a>Compras 
+
+Puede adquirir el sistema elegido como un paquete o una solución integrada a través de los socios de dispositivo. También puede adquirir un muelle de dispositivo de socio y preparar su propia solución de v2 de Skype salón sistemas mediante el uso de un dispositivo Surface Pro y existentes, _admite_ AV dispositivos periféricos. 
+
+Puede adquirir sistemas de salón de Skype v2 de un número de socios que se enumeran en el [artículo de los requisitos](requirements.md). Visite los sitios Web de los asociados de negocios para obtener más información acerca de estas soluciones y opciones de adquisiciones. 
+
+Dependiendo de su escala de implementación y el enfoque, podría decidir tener la v2 de sistemas de salón de Skype y admite dispositivos periféricos que se van a enviar a una ubicación central para la configuración inicial y asignación. Esto puede resultar un buen método para una implementación por fases en muchos sitios. O bien, es posible que elija Enviar los paquetes directamente a los sitios. 
+
+|    |     |
+|-----------|------------|
+| ![](../../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Se incluyen los componentes directamente a un sitio o a una instalación de almacenamiento provisional?</li><li>¿Quién va a administrar las instalaciones de almacenamiento provisional (si decide utilizar uno)?</li></ul>|
+| ![](../../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Planeación de operaciones.</li><li>Planeación de adopción y administración de cambios.</li></ul>|
+
+## <a name="plan-for-operations"></a>Planeación de operaciones de 
+
+La organización debe ejecutar las tareas de supervisión, administración y gestión de forma continuada y la clave de TI para que se lleven a cabo estas tareas en su implementación de acuerdo. 
+
+Muchas organizaciones tienen un socio que administra sus dispositivos y salas de conferencias o un equipo de AV. Este equipo debe estar implicado en quién va a administrar los dispositivos de v2 de sistemas de salón de Skype en el futuro para supervisar el rendimiento e implementar las actualizaciones de software y revisiones de acuerdo. 
+
+Tenga en cuenta qué cola del departamento de soporte técnico que enrutar las llamadas relacionados con el v2֪ de sistemas de salón de Skype a y proporcionar preguntas más frecuentes para el equipo del departamento de soporte técnico por lo que pueden mejor entender cómo utilizar sistemas de salón de Skype v2 y la clave de solución de problemas de pasos que pueden llevar a cabo. Un buen punto de partida para estas preguntas más frecuentes es la [Ayuda del usuario](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) y el [conocido lista de problemas](../../manage/skype-room-systems-v2/known-issues.md).
+
+|    |     |
+|-----------|------------|
+| ![](../../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decidir quién va a administrar sistemas de las salas Skype v2.</li><li>Decidir con qué cola del departamento de soporte técnico para enrutar llamadas relacionados con sistemas de salón de Skype a.</li></ul>|
+| ![](../../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Prepárese para las cuentas de host. </li></ul>|
+
+
+## <a name="plan-for-adoption-and-change-management"></a>Planeación de adopción y administración de cambios
+
+Sistemas de salón de Skype v2 sistemas presentan las nuevas capacidades a los usuarios. Es importante que reconocer que se trata de un cambio para los usuarios, y debe asegurarse de que la campaña identifica las ventajas que del nuevo sistema tendrá para los usuarios y los clientes potenciales de los puntos de conversación clave se pueden usar para explicar con sus equipos. 
+
+Considere la posibilidad de programar póster y eventos de show-and-tell cae en cada sitio para informar a los usuarios de las nuevas capacidades. También puede crear en la sala "guías de inicio rápido." Considere la posibilidad de buscar a un experto de las reuniones en cada sitio que puede ayudar a otros a ponerse en marcha y empezar a usar los dispositivos.

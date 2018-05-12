@@ -12,11 +12,11 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: En este artículo se describe cómo configurar el dispositivo de consola de los Sistemas de sala de Skype v2 y sus periféricos.
-ms.openlocfilehash: b9b786de35af63202b168b0664440d28302492e5
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b82343f98304b0607bb3525b508aecf81e80a031
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Configurar una consola de Sistemas de salas de Skype v2
  
@@ -49,7 +49,7 @@ Instalar la aplicación v2 de sistemas de salón de Skype en un Surface Pro 4 o 
 > Funcionará un v2 de Skype salón sistemas existentes con Windows 10 Enterprise aniversario de actualización de mover a sistemas de salón de Skype v2 actualización 3 mediante el almacén de Windows, pero se debe realizar una nueva instalación tal y como se describe a continuación. 
   
 1. Descargue la [MSU para KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu).
-2. Descargar el [script CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842).
+2. Descargar el [script CreateSrsMedia.ps1](room-systems-v2-scripts.md).
 3. Colocar la MSU para KB4056892 en el mismo directorio que la secuencia de comandos CreateSrsMedia.ps1.
 4. Ejecute el script CreateSrsMedia.ps1 desde un símbolo del sistema con privilegios elevados en un equipo Windows 10.
 
@@ -164,7 +164,7 @@ El dispositivo de v2 de sistemas de salón de Skype debe confiar en los certific
 
 1. Descargue el certificado de la entidad de certificación en su equipo y guárdelo en "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer".
     
-2. Colocar la superficie de 4 en modo de administrador (consulte [administración de modo y el dispositivo de administración](../../manage/skype-room-systems-v2/skype-room-systems-v2.md#AdminMode)).
+2. Colocar la superficie de 4 en modo de administrador (consulte [administración de modo y el dispositivo de administración](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)).
     
 3. Ejecute el siguiente comando:
     
@@ -175,11 +175,11 @@ El dispositivo de v2 de sistemas de salón de Skype debe confiar en los certific
 ### <a name="join-an-active-directory-domain-optional"></a>Unión al dominio de Active Directory (opcional)
 <a name="Certs"> </a>
 
-Puede participar en los dispositivos de sistemas de salón de Skype v2 a su dominio. Dispositivos de sistemas de salón de Skype v2 deben ubicarse en una unidad organizativa independiente desde estaciones de trabajo de sus PC debido a que muchas de las directivas de estación de trabajo no son compatibles con sistemas de salas de Skype v2. Un ejemplo común son las directivas de cumplimiento de contraseña que se impiden que se inicie automáticamente sistemas de salón de Skype v2. Para obtener información acerca de la administración de configuraciones de GPO, consulte [administrar sistemas de salón de Skype v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md). 
+Puede participar en los dispositivos de sistemas de salón de Skype v2 a su dominio. Dispositivos de sistemas de salón de Skype v2 deben ubicarse en una unidad organizativa independiente desde estaciones de trabajo de sus PC debido a que muchas de las directivas de estación de trabajo no son compatibles con sistemas de salas de Skype v2. Un ejemplo común son las directivas de cumplimiento de contraseña que se impiden que se inicie automáticamente sistemas de salón de Skype v2. Para obtener información acerca de la administración de configuraciones de GPO, consulte [administrar sistemas de salón de Skype v2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md). 
   
 ### <a name="to-join-skype-room-system-v2-to-a-domain"></a>Para unir Sistemas de salas de Skype v2 a un dominio
 
-1. Inicio de sesión en la consola de la administración de cuenta (consulte [administración de modo y el dispositivo de administración](../../manage/skype-room-systems-v2/skype-room-systems-v2.md#AdminMode)).
+1. Inicio de sesión en la consola de la administración de cuenta (consulte [administración de modo y el dispositivo de administración](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)).
     
 2. Inicie un símbolo de sistema de PowerShell con privilegios elevados.
     
