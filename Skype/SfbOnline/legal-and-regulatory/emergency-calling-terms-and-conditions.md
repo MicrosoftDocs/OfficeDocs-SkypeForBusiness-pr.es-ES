@@ -18,20 +18,20 @@ ROBOTS: NOINEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Obtenga información acerca de cómo realizar una llamada y cómo se diferencian los servicios de emergencia (911) de servicios de telefonía tradicional. '
-ms.openlocfilehash: 1e96595796c92d3ba505b52e6321dd28db46f54c
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: 'Obtenga información sobre cómo los servicios de emergencia (911) difieren de servicios de telefonía tradicional y cómo realizar una llamada. '
+ms.openlocfilehash: 62d7354430c3548e246766016721002364a9a626
+ms.sourcegitcommit: c63e7a8a746d427a1c886e8dca4d631c851e417c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/14/2018
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>Términos y condiciones de las llamadas de emergencias
 
 ## <a name="important-information"></a>INFORMACIÓN IMPORTANTE
 
-Llamar a los servicios de emergencia funciona de forma diferente con llamar a planes de Office 365 que en los servicios de telefonía tradicional. Es importante que entienda estas diferencias y comunicarlas a todos los usuarios con una llamada a planes de Office 365. Usted reconoce y acepta que ha leído y comprender las diferencias entre llamar a nuestros servicios de emergencia y este aviso se proporcionará a cada usuario con una llamada a planes de Office 365.
+Llamar a los servicios de emergencia funciona de forma diferente con una llamada a los planes en Office 365 que en servicios de telefonía tradicional. Es importante que entienda estas diferencias y comunicarlas a todos los usuarios con una llamada a los planes en Office 365. Usted acepta y confirma que ha leído y comprender las diferencias de nuestros servicios de emergencia de llamada y este aviso se proporcionará a cada usuario con una llamada a los planes en Office 365.
   
-Las diferencias en nuestros servicios de emergencia llamando a funciones incluyen lo siguiente: (i) Skype para empresas puede desconocer la ubicación real de un llamador para hacer una llamada de los servicios de emergencia, que podría resultar en la llamada que se enrutan a los servicios de emergencia incorrecto Centro de llamadas o servicios de emergencia que se envía a una ubicación incorrecta; (ii) si el dispositivo del usuario no tiene poder, está experimentando un corte del suministro eléctrico o, por cualquier motivo, de lo contrario no puede acceder a Internet, el usuario no puede realizar una llamada de servicios de emergencia a través de una llamada a los planes de Office 365; y (iii) aunque llamar a planes de Office 365 puede utilizarse en cualquier parte del mundo donde una conexión a Internet está disponible, los usuarios no deben realizar una llamada de los servicios de emergencia desde una ubicación fuera de su país o región porque la llamada probablemente no se enrutarán a el centro de llamada apropiada en ese país o región.
+Las diferencias de nuestros servicios de emergencia al llamar a funciones incluyen los siguientes: (i) Skype para la empresa no puede conocer la ubicación real de un autor de la llamada que hace una llamada de los servicios de emergencia, lo que podría provocar la llamada se enruta a los servicios de emergencia incorrecto Centro de llamadas o los servicios de emergencia que se envía a una ubicación incorrecta; (ii) si el dispositivo del usuario no tiene electricidad, está experimentando un corte de alimentación o, por cualquier motivo, no en caso contrario, tiene acceso a Internet, el usuario no puede realizar una llamada de los servicios de emergencia a través de planes de llamada en Office 365; y (iii) aunque llamar a los planes en Office 365 puede usarse en cualquier parte del mundo donde una conexión a Internet está disponible, los usuarios no deben realizar una llamada de los servicios de emergencia desde una ubicación fuera de su país o región particular debido a que la llamada es probable que no se van a enrutar a el centro de llamadas adecuada en ese país o región.
   
 ## <a name="related-topics"></a>Temas relacionados
 [Preguntas comunes sobre la transferencia de números de teléfono](../what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions.md)

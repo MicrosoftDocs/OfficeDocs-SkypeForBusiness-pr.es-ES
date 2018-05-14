@@ -1,5 +1,5 @@
 ---
-title: Queja código de control para el Reino Unido (Reino Unido)
+title: Reclamación código de control para el Reino Unido (Reino Unido)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,15 +19,15 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
-ms.openlocfilehash: 0d6a5a0f71dee2c218b8f4cd477fc8379ef69b4f
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 6be6321191451fe55ec764290a8aa0db03c11417
+ms.sourcegitcommit: c63e7a8a746d427a1c886e8dca4d631c851e417c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/14/2018
 ---
-# <a name="complaint-handling-code-for-the-united-kingdom-uk"></a>Queja código de control para el Reino Unido (Reino Unido)
+# <a name="complaint-handling-code-for-the-united-kingdom-uk"></a>Reclamación código de control para el Reino Unido (Reino Unido)
 
-Este código se aplica a clientes de pequeñas empresas (organizaciones con 10 empleados o menos) en el Reino Unido (UK) en relación con el servicio Office 365 llamando a Plan (el "servicio") con arreglo a normas de comunicaciones del Reino Unido. Los demás servicios de Skype Empresarial están regidos por su acuerdo de servicio con Microsoft y por otros términos aplicables en relación con el uso del servicio particular.
+Este código se aplica a los clientes de pequeña empresa (las organizaciones con 10 empleados o menos) en el Reino Unido (Reino Unido) en relación con el servicio de planeación de llamada de Office 365 (el "servicio") con arreglo a las normativas de comunicaciones de Reino Unido. Los demás servicios de Skype Empresarial están regidos por su acuerdo de servicio con Microsoft y por otros términos aplicables en relación con el uso del servicio particular.
   
 ## <a name="how-to-make-a-complaint"></a>Cómo presentar una queja
 
@@ -47,7 +47,7 @@ Si el representante de Skype Empresarial no puede resolver el problema inmediata
   
 Skype Empresarial pretende resolver todas las quejas relacionadas con el Servicio en un plazo de siete (7) días laborables tras el recibo. 
   
-Si no está satisfecho con la manera en que se administra su queja sobre el servicio, usted puede pedir el Skype para el representante de la empresa controla su reclamo por teléfono o correo electrónico, remitir la queja con arreglo a su contrato de servicio a. Microsoft evaluará la queja en un plazo de siete (7) días desde su recibo.
+Si no está satisfecho con la manera en que se administra la reclamación relacionada con el servicio, puede pedir la Skype para el representante de la empresa controla la reclamación, por teléfono o correo electrónico pasar la reclamación al acuerdo con el contrato de servicio. Microsoft evaluará la queja en un plazo de siete (7) días desde su recibo.
   
 ## <a name="alternative-dispute-resolution"></a>Resolución alternativa de disputas
 
@@ -59,7 +59,7 @@ Todas las quejas se deben enviar a los Servicios del Ombudsman en un máximo de 
   
 Los pasos para trasladar una queja a los Servicios del Ombudsman se encuentran en el [sitio web](http://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809) de los Servicios del Ombudsman .
   
-Se pueden llegar a servicios del Defensor del Pueblo rellenando un formulario de contacto en el sitio Web de los servicios del Defensor del Pueblo o por teléfono, carta o correo electrónico:
+Puede llegar a servicios de mediador rellenando un formulario de contacto en el sitio Web de los servicios del mediador o por teléfono, carta o correo electrónico:
   
 - Formulario de contacto: [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
     
