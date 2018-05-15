@@ -21,7 +21,7 @@ ms.custom:
 - Strat_SB_PSTN
 ms.openlocfilehash: 12ed7d5c24649903f7cd3020d66ee4e9fcb77b6f
 ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/10/2018
 ---

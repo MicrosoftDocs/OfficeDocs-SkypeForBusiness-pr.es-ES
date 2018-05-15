@@ -77,6 +77,7 @@
 ### [Crear una cola de llamadas de Sistema telefónico](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Obtener teléfonos para Skype Empresarial Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Implementar teléfonos de Skype Empresarial Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
+###[Configuración de seguridad de los teléfonos de área común (CAP)](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
 ### [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [Esto es lo que obtiene con Sistema telefónico](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 ### Correo de voz de Sistema telefónico
