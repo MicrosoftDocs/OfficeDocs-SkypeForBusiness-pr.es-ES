@@ -9,8 +9,8 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
-ms.openlocfilehash: e5995955e35c707f5ce3d21f884c54a62188c27d
-ms.sourcegitcommit: c63e7a8a746d427a1c886e8dca4d631c851e417c
+ms.openlocfilehash: 39a3811b411256b1d2a00f9f0e3f48f333fc2df7
+ms.sourcegitcommit: 92f2fa97c8870f8ad86c6001f2240a74261e2600
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/14/2018
@@ -37,52 +37,49 @@ Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
 | RTM (1.0.8) | 7/12/2016  | 
 
 
-
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Sistemas de salón de Skype v2 característica introducción y su resolución
 
-
 ### <a name="311040-04162018"></a>3.1.104.0 (16/04/2018)
-**Nuevas características** introducidas en esta actualización: 
+Se introdujeron en esta actualización: 
 - Corrección para mejorar OSK (teclado en pantalla) comportamiento en sistemas basados en la ventana de 10 versión 1709
 - Mejoras realizadas a prepararse para las actualizaciones futuras del sistema operativo
 
 
 ### <a name="311000-03162018"></a>3.1.100.0 (16/03/2018)
-**Nuevas características** introducidas en esta actualización: 
+Se introdujeron en esta actualización:  
 - Aplicación que se ha actualizado para mejorar la telemetría.
 
 ### <a name="31990-03142018"></a>3.1.99.0 (14/03/2018)
-**Nuevas características** introducidas en esta actualización: 
+Se introdujeron en esta actualización: 
 - Es posible que se producen las revisiones de un problema donde reunión intermitente unirse a problemas.
-- Las revisiones de un problema se conoce como resultado en un dispositivo "bloquee" experiencia.
+- Soluciona un problema conocido como resultado una experiencia de bloqueo"dispositivo".
 
 ### <a name="31980--382018"></a>3.1.98.0 (8/3/2018)
-**Nuevas características** introducidas en esta actualización: 
+Se introdujeron en esta actualización: 
 - Errores/correcciones para mejorar la estabilidad de bloqueo
 - Compatibilidad con la consola de tamaño variable
 - Procesamiento de audio periférico descarga (lista blanca de medios adicionales)
-- También incluye las optimizaciones que permiten a los profesionales de TI crear imágenes personal con la actualización de enero de Windows 10 versión 1709 y versiones posteriores.  
+- Optimizaciones que permiten a los profesionales de TI crear imágenes personal con la actualización de enero de Windows 10 versión 1709 y versiones posteriores.  
 
 <!--### 3.1.97.0 (00/00/0000)
-**New feature(s)** introduced in this update: 
+Introduced in this update:  
 - Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500)  hardware only.  -->
 
 
 ### <a name="30160-11272017"></a>3.0.16.0 (27/11/2017)
-**Nuevas características** introducidas en esta actualización: 
+Se introdujeron en esta actualización:  
 - Soluciona un problema con la característica "Enviar comentarios".
 
 ### <a name="30150-1032017"></a>3.0.15.0 (10/3/2017)
-**Nuevas características** introducidas en esta actualización: 
+Se introdujeron en esta actualización: 
 - Soporte para la [Serie de Polycom MSR](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) acopla hardware
 - Soporte técnico para la [Logitech Brio](https://www.logitech.com/en-us/product/brio)
-- [10:52 AM] David novio
-- resuelve un problema donde muestra (consola y plano de sala) producirá un error de entrar en modo de suspensión cuando no hay ninguna actividad en la sala.
+- Resuelve un problema donde muestra (consola y plano de sala) producirá un error de entrar en modo de suspensión cuando no hay ninguna actividad en la sala.
 
 
 ### <a name="30120-912017"></a>3.0.12.0 (9/1/2017)
-**Nuevas características** introducidas en esta actualización:  
-- Se ejecuta en Tablet PC (2017) Surface Pro  
+Se introdujeron en esta actualización:   
+- Se ejecuta en una tableta Surface Pro (2017)  
 - Admite la actualización del creador de Windows 10 Enterprise (en inglés, compilación 1703)    
 - Soporte para [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) acopla hardware    
 - Soporte técnico de OEM para controles del entorno (Crestron)
@@ -90,11 +87,11 @@ Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
 Ya no se admite la versión de 64 bits de edición de Windows 10 Enterprise aniversario (en inglés, versión 1607) a partir de sistemas de salón de Skype v2 versión 3.0.12.0 (actualización 3). 
 
 ### <a name="3080-842017"></a>3.0.8.0 (4/8/2017) 
-**Nuevas características** introducidas en esta actualización: 
+Se introdujeron en esta actualización: 
 - Resuelve problemas observados cuando busca federados a los usuarios a través del campo de búsqueda de los participantes. Anterior a esta revisión, los resultados de búsqueda para los usuarios federados externos es posible que no tiene resuelven correctamente y en su lugar devuelve resultados incorrectos. 
 
 ### <a name="3060-772017"></a>3.0.6.0 (7/7/2017) 
-**Nuevas características** introducidas en esta actualización:  
+Se introdujeron en esta actualización: 
 - Compatibilidad con pantalla dual (para la paridad de sistemas heredados)   
 - Themability (temas integrados y la capacidad para establecer tema personalizado) 
 - Capacidad de proporcionar comentarios para compilaciones públicas     
@@ -105,7 +102,7 @@ Ya no se admite la versión de 64 bits de edición de Windows 10 Enterprise aniv
 
 
 ### <a name="2020-03152017"></a>2.0.2.0 (15/03/2017)
-**Nuevas características** introducidas en esta actualización: 
+Se introdujeron en esta actualización: 
 - Selección de usuario en la aplicación de los dispositivos USB de audio y vídeos de sala de la reunión
 - Integrado salón consola informes de estado de los clientes que usen el conjunto de aplicaciones de administración de operaciones de Microsoft (consulte [administración de sistemas de planeación de las salas Skype v2 con OMS](oms-management.md)) 
 
@@ -114,43 +111,28 @@ Ya no se admite la versión de 64 bits de edición de Windows 10 Enterprise aniv
 
  **Creado para Skype Empresarial**
   
-- Un solo toque para unirse a reuniones de Skype.
-    
+- Un solo toque para unirse a reuniones de Skype.    
 - La experiencia de las reuniones de Skype optimizada para salas con prestaciones de audio HD de banda ancha y vídeo HD en toda la pantalla.
-    
 - Todos los participantes se pueden conectar a la reunión de Skype mediante el dispositivo que elijan desde el lugar en el que se encuentren.
-    
 - Invite a las personas desde su directorio, donde podrá consultar su disponibilidad en ese mismo momento o a través de una llamada de teléfono.
-    
 - Es compatible con los servicios de conferencias RTC y llamadas RTC de Skype Empresarial como sustitución del teléfono de conferencias independiente de su sala.
     
  **Transforme cualquier sala de reuniones**
   
 - Una aplicación de reuniones de Skype dedicada y optimizada para el controlador táctil situado en el centro de la mesa y las pantallas frontales de gran tamaño.
-    
 - Permite aprovechar las inversiones que ya ha realizado en pantallas frontales o proyectores.
-    
 - Funciona en todo tipo de áreas de reuniones, desde los espacios más apiñados a las salas de conferencias más amplias.
-    
 - Los dispositivos de audio y vídeo certificados de Skype Empresarial están disponibles para diversos tamaños de salas.
-    
 - Transmisión por cable integrada para compartir el escritorio del proyecto con la sala y con la reunión de Skype.
-    
     
  **Fácil de implementar, sencillo de administrar.**
   
 - Un dispositivo que está encendido en todo momento y que activará automáticamente las pantallas cuando detecte que hay alguna persona en la sala.
-    
 - Sencilla implementación y actualización de la aplicación de reuniones de Skype para UWP (Plataforma universal de Windows).
-    
 - Windows AppLocker bloquea el dispositivo con la aplicación de reuniones de Skype.
-    
 - Se supervisa y se administra como un dispositivo con Windows 10 Enterprise mediante Intune y SCCM (MDM).
-    
 - Fiabilidad de carácter empresarial.
-    
 - La formación que requieren los usuarios es muy poca puesto que ya conocen la interfaz de usuario de Skype.
-    
 - Se ejecuta en tablet Surface Pro 4
  
 
