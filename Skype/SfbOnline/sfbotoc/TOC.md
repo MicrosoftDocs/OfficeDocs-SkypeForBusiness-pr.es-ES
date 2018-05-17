@@ -34,13 +34,12 @@
 ### [Probar o comprar Audioconferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [Activar o desactivar los anuncios de entrada y salida para las reuniones](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
 
-
-
 ## [Planes de llamada en Office 365](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
 ### [Agregar, cambiar o quitar una ubicación de emergencia para su organización](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
 ### [Agregar o quitar una dirección de emergencia para su organización](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
 ### [Asignar, cambiar o quitar un número de teléfono para un usuario](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Asignar o cambiar una dirección de emergencia para un usuario](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
+### [Bloquear las llamadas entrantes](../what-are-calling-plans-in-office-365/block-incoming-calls.md)
 ### [Problemas conocidos de Planes de llamada](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [Cambiar la dirección de emergencia de un usuario](../what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md)
 ### [Cambiar la ubicación de emergencia de un usuario](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
@@ -77,6 +76,7 @@
 ### [Crear una cola de llamadas de Sistema telefónico](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Obtener teléfonos para Skype Empresarial Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Implementar teléfonos de Skype Empresarial Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
+#### [Configuración de seguridad de los teléfonos de área común (CAP)](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
 ### [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [Esto es lo que obtiene con Sistema telefónico](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 ### Correo de voz de Sistema telefónico
@@ -146,11 +146,12 @@
 ### [Servidores proxy para Skype Empresarial Online](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
 
 ## Usar la calidad de las llamadas en su organización
+### [Análisis de llamada y el panel de calidad de llamada](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [Dimensiones y medidas disponibles en el Panel de calidad de llamadas](../using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Configurar el análisis de llamadas de Skype Empresarial](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [Activar y usar el Panel de calidad de llamadas](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
 ### [Usar Análisis de llamadas para solucionar problemas de mala calidad de llamada](../using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Diferencias entre Análisis de llamadas y Panel de calidad de llamadas](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
+
 
 ## [Creación de informes en Skype Empresarial Online](../skype-for-business-online-reporting/skype-for-business-online-reporting.md)
 ### [Informe de actividad](../skype-for-business-online-reporting/activity-report.md)
