@@ -11,10 +11,10 @@ localization_priority: Normal
 ms.collection: ''
 description: Lea este tema para obtener información sobre cómo enrutamiento directo de Microsoft teléfono del sistema le permite conectar un compatibles, proporcionado por el cliente sesión controlador de borde (SBC) para el sistema telefónico de Microsoft.
 ms.openlocfilehash: 9809c4acb5d80f18dc076b07e81c052caa6fbc0d
-ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
+ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="plan-direct-routing"></a>Planeación de enrutamiento directo
 

@@ -1,5 +1,5 @@
 ---
-title: Configurar Skype para llamar de Business Analytics
+title: Configuración de Skype para Business Analytics de llamadas
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -17,79 +17,79 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: Configurar y utilizar Analytics llame a identificar y solucionar los problemas de calidad empresarial y Teams de Microsoft llamada de Skype.
-ms.openlocfilehash: 6e4566198e140c94da40f4db1a890eb4190d5da3
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Configurar y usar el análisis de llamada para identificar y solucionar problemas de Skype para profesionales y Microsoft Teams problemas de calidad de llamada.
+ms.openlocfilehash: 0fea9e37933908ef64f1b2eb100f3851f84a6690
+ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
-# <a name="set-up-skype-for-business-call-analytics"></a>Configurar Skype para llamar de Business Analytics
+# <a name="set-up-skype-for-business-call-analytics"></a>Configuración de Skype para Business Analytics de llamadas
 
-Como un Skype para la administración de negocios en línea, puede utilizar Analytics llamar a solucionar problemas de Skype para empresas y problemas de calidad y conexión de llamada de Teams de Microsoft. Le resultará útil para configurar las siguientes capacidades en Analytics llame al:
+Como un Skype para administración en línea de negocio, puede usar el análisis de llamadas para solucionar problemas de Skype para la empresa y Microsoft Teams llamar a problemas de calidad y de conexión. Es posible que encuentre útil para configurar las siguientes funciones en análisis de llamadas:
   
-- Establecer los permisos que permiten a otro personal, como los agentes de asistencia técnica, use Analytics llamar pero evitar que accedan al resto de la Skype para el centro de administración de negocios. 
+- Establecer los permisos que permiten a otros personal, por ejemplo, los agentes del departamento de soporte técnico, use llamar análisis pero impedir que obtener acceso al resto de la Skype para el centro de administración de negocio. 
     
-- Agregar creación, sitio e información del arrendatario a llamar Analytics cargando un archivo TSV o CSV de datos.
+- Agregar información del inquilino, de sitio y de creación para llamar a análisis al cargar un archivo de datos .tsv o .csv.
     
 > [!NOTE]
-> Análisis de llamada está en vista previa. Texto e imágenes que se describe aquí pueden no coincidir con su experiencia. 
+> Análisis de la llamada está actualmente en la vista previa. Texto e imágenes que se describen aquí no pueden coincidir con su experiencia. 
   
-## <a name="set-call-analytics-permissions"></a>Establecer permisos de llamar Analytics
+## <a name="set-call-analytics-permissions"></a>Establecer permisos de análisis de llamadas
 <a name="BKMK_SetCAPerms"></a>
 
-El usuario Admin, obtendrá acceso completo a todas las características de análisis llamar. Además, puede utilizar un modelo de asistencia técnica en llamar analítica que incluye grupos de permisos de nivel 1 y nivel 2. Los usuarios con permisos de nivel 1 pueden tener acceso a sólo una visión limitada de llamar Analytics. Los usuarios con permisos de nivel 2 pueden tener acceso a toda la funcionalidad de llamar Analytics. Dos niveles de permisos impiden el acceso al resto de la Skype para el centro de administración de negocios. Puede conceder acceso a los niveles mediante la adición de un grupo que contenga al usuario el nivel 1 o de la sección de nivel 2 de la página de permisos. Para obtener información detallada, vea [configurar permisos en niveles de llamar Analytics](set-up-call-analytics.md#BKMK_SetUpTier).
+Como la administración, obtener acceso completo a todas las características de análisis de llamadas. Además, puede usar un modelo de departamento de soporte técnico en análisis de llamadas que incluye los grupos de permisos de nivel 1 y nivel 2. Los usuarios con permisos de nivel 1 pueden obtener acceso sólo una vista limitada del análisis de llamadas. Los usuarios con permisos de nivel 2 pueden tener acceso a la funcionalidad completa de análisis de llamadas. Ambos niveles de permisos impiden el acceso al resto de la Skype para el centro de administración de negocio. Puede conceder acceso a los niveles mediante la adición de un grupo que contiene el usuario para el nivel 1 o la sección de nivel 2 de la página de permisos. Para obtener información detallada, vea [configurar permisos en niveles en el análisis de llamadas](set-up-call-analytics.md#BKMK_SetUpTier).
   
-Los agentes de asistencia de nivel 1 controlen problemas básicos de calidad de la llamada. Agentes de nivel 1 no investigar los problemas con las reuniones; recopilan información relacionada y, a continuación, convertirse en un agente de nivel 2. Agentes de nivel 2 ver información en los registros de llamada detallados que está oculta de los agentes de nivel 1. En la tabla siguiente ofrece una visión general de la información disponible a agentes utilizando Analytics llamar.
+Los agentes del departamento de soporte técnico de nivel 1 controlan problemas básicos de calidad de la llamada. Los agentes de nivel 1 no investigar problemas con reuniones; puedan recopilan información relacionada y, a continuación, pasar a un agente de nivel 2. Los agentes de nivel 2 ver información en el registro de llamadas detallada que está oculto de agentes de nivel 1. En la siguiente tabla proporciona una visión general de la información disponible a agentes mediante el análisis de llamadas.
 
 
 |**Actividad**|**Información de análisis de llamada**|**Lo que ve el agente de nivel 1**|**Lo que ve el agente de nivel 2**|
 |:-----|:-----|:-----|:-----|
-|**Llamadas** <br/> |Nombre del llamador  <br/> |El nombre del usuario para el que busca en el agente.  <br/> |Nombre de usuario.  <br/> |
-||Nombre del destinatario  <br/> |Se muestra como un usuario interno o externo.  <br/> |Nombre del destinatario.  <br/> |
-||Número de teléfono del llamador  <br/> |Número de teléfono completo excepto los tres últimos dígitos están ofuscados con símbolos de asterisco. Por ejemplo, 15552823 ***.  <br/> |Número de teléfono completo excepto los tres últimos dígitos están ofuscados con símbolos de asterisco. Por ejemplo, 15552823 ***.  <br/> |
-||Número de teléfono del destinatario  <br/> |Número de teléfono completo excepto los tres últimos dígitos están ofuscados con símbolos de asterisco. Por ejemplo, 15552823 ***.  <br/> |Número de teléfono completo excepto los tres últimos dígitos están ofuscados con símbolos de asterisco. Por ejemplo, 15552823 ***.  <br/> |
-||**Detalles de llamadas** > ficha**Avanzadas** <br/> |Información que no se muestra.  <br/> |Todos los datos de muestra, como nombres de dispositivo, la dirección IP, la asignación de subred y mucho más.  <br/> |
-||**Detalles de llamadas** > **Avanzadas** > ficha**Depurar** <br/> |Información que no se muestra.  <br/> |Todos los datos que se muestra como sufijo DNS y SSID.  <br/> |
-|**Reuniones** <br/> |Nombres de los participantes  <br/> |El nombre del usuario para el que busca en el agente. Otros participantes identificados como usuario interno o externo.  <br/> |Todos los nombres que se muestran.  <br/> |
+|**Llamadas** <br/> |Nombre del autor de la llamada  <br/> |El nombre del usuario para el que desea buscar el agente.  <br/> |Nombre de usuario.  <br/> |
+||Nombre del destinatario  <br/> |Se muestra como usuario interno o externo.  <br/> |Nombre del destinatario.  <br/> |
+||Número de teléfono del autor de la llamada  <br/> |Número de teléfono completo, excepto los últimos tres dígitos son confusos con los símbolos de asterisco. Por ejemplo, 15552823 ***.  <br/> |Número de teléfono completo, excepto los últimos tres dígitos son confusos con los símbolos de asterisco. Por ejemplo, 15552823 ***.  <br/> |
+||Número de teléfono del destinatario  <br/> |Número de teléfono completo, excepto los últimos tres dígitos son confusos con los símbolos de asterisco. Por ejemplo, 15552823 ***.  <br/> |Número de teléfono completo, excepto los últimos tres dígitos son confusos con los símbolos de asterisco. Por ejemplo, 15552823 ***.  <br/> |
+||**Detalles de llamadas** > ficha**Opciones avanzadas** <br/> |Información que no se muestra.  <br/> |Todos los detalles que se muestran, como los nombres de dispositivo, dirección IP, asignación de subred y mucho más.  <br/> |
+||**Detalles de llamadas** > **Avanzadas** > ficha**Depurar** <br/> |Información que no se muestra.  <br/> |Todos los detalles que se muestran como sufijo DNS y SSID.  <br/> |
+|**Reuniones** <br/> |Nombres de los participantes  <br/> |El nombre del usuario para el que desea buscar el agente. Demás participantes identificados como usuario interno o externo.  <br/> |Todos los nombres que se muestran.  <br/> |
 ||Recuento de participantes  <br/> |Número de participantes.  <br/> |Número de participantes.  <br/> |
-||Detalles de la sesión  <br/> |Detalles de la sesión se muestra con excepciones. Se muestra sólo el nombre del usuario para el que busca en el agente. Otros participantes identificados como usuario interno o externo. Los últimos tres dígitos de número de teléfono protegido con símbolos de asterisco.  <br/> |Detalles de la sesión que se muestra. Nombres de usuario y los detalles de la sesión que se muestra. Los últimos tres dígitos de número de teléfono protegido con símbolos de asterisco.  <br/> |
+||Detalles de la sesión  <br/> |Detalles de la sesión se muestra con excepciones. Se muestra sólo el nombre del usuario para el que desea buscar el agente. Demás participantes identificados como usuario interno o externo. Los últimos tres dígitos del número de teléfono confusos con los símbolos de asterisco.  <br/> |Detalles de la sesión que se muestra. Los nombres de usuario y se muestra detalles de la sesión. Los últimos tres dígitos del número de teléfono confusos con los símbolos de asterisco.  <br/> |
    
- **Configurar permisos en niveles de Analytics llamar** 
+ **Configurar permisos en niveles de análisis de llamadas de** 
  <a name="BKMK_SetUpTier"> </a>
   
-1. Crear grupos de seguridad de Office 365 para el nivel 1 y nivel 2 y agregue las personas que desee a cada grupo. También puede volver a grupos de seguridad existentes. Para obtener más información, vea [crear, modificar o eliminar un grupo de seguridad en el centro de administración de Office 365](https://support.office.com/article/55c96b32-e086-4c9e-948b-a018b44510cb).
+1. Creación de grupos de seguridad de Office 365 para nivel 1 y nivel 2, y agregue las personas que desee a cada grupo. También puede volver a usar los grupos de seguridad existentes. Para obtener más información, vea [crear, editar o eliminar un grupo de seguridad en el centro de administración de Office 365](https://support.office.com/article/55c96b32-e086-4c9e-948b-a018b44510cb).
     
-2. En el centro de administración de Office 365, vaya a **centros de Admin** > **Skype para el negocio**.
+2. En el centro de administración de Office 365, vaya a **centros de administración** > **Skype para la empresa**.
     
     > [!NOTE]
-    > Si aterrizar en el antiguo Skype para el centro de administración de negocios, vaya a la nueva versión haciendo clic en **ven a probar nuestro nuevo centro de admin**. 
+    > Si land en el antiguo Skype para el centro de administración de negocio, vaya a la nueva versión haciendo clic en **se incluyen probar nuestro nuevo centro de administración**. 
   
-3. En el nuevo Skype para el centro de administración de negocios, haga clic en **permisos**.
+3. En el nuevo Skype para el centro de administración de negocio, haga clic en **permisos**.
     
-4. Agregue los grupos de seguridad de Office 365 a los cuadros de **nivel 1** y **nivel 2** . Puede agregar varios grupos para cada función.
+4. Agregue los grupos de seguridad de Office 365 a los cuadros de **nivel 1** y **nivel 2** . Puede agregar varios grupos a cada rol.
     
-     ![Captura de pantalla muestra los permisos de página llame Analytics con las opciones de permisos de nivel 1 y nivel 2.](../images/ed5b6b05-b407-4363-8cf0-a6e79027f64b.png)
+     ![Captura de pantalla muestra la página permisos para llamar a análisis con las opciones de permisos de nivel 1 y nivel 2.](../images/ed5b6b05-b407-4363-8cf0-a6e79027f64b.png)
   
- Los usuarios con cualquiera de estos niveles de permiso llegar a llamar análisis a través de la dirección URL dedicada *https://adminportal.services.skypeforbusiness.com*.
+ Obtienen los usuarios con cualquiera de estos niveles de permisos para llamar a análisis a través de la dirección URL dedicada *https://adminportal.services.skypeforbusiness.com*.
   
-## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>Cargue un archivo TSV o CSV para agregar creación de sitio y la información de inquilinos
+## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>Cargue un archivo .tsv o .csv para agregar la creación de sitios y la información de inquilinos
 <a name="BKMK_UploadFiles"> </a>
 
-Puede agregar información del arrendatario, sitio y edificio Analytics llamar cargando un archivo .csv o .tsv. Con toda esta información, llame a Analytics puede asignar direcciones IP a ubicaciones físicas. Usted o helpdesk agentes útil esta información ayudar a identificar tendencias en los problemas de la llamada. Por ejemplo, ¿por qué muchos de los usuarios en el mismo edificio tener similar llamar a problemas de calidad? 
+Puede agregar información del inquilino, de sitio y de creación para análisis de llamar a cargar un archivo .csv o .tsv. Con toda esta información, llame al análisis puede asignar direcciones IP a ubicaciones físicas. Usted o departamento de soporte técnico los agentes pueden encontrar esta información útil para ayudar a las tendencias de manchas de color en problemas de llamada. Por ejemplo, ¿por qué son similares de muchos usuarios en el mismo edificio tener llamar a problemas de calidad? 
   
-![Captura de pantalla muestra la página de sitios con valores para el número de sitios y el número de subredes y el botón Seleccionar archivo para importar los datos del sitio cargando un .tsv o un archivo .csv.](../images/b2f3a5cb-32b5-4f60-a9af-0691aa6ff1e8.png)
+![Captura de pantalla muestra la página de sitios con los valores de número de sitios y el número de subredes y el botón Seleccionar archivo para importar datos del sitio mediante la carga de un .tsv o un archivo .csv.](../images/b2f3a5cb-32b5-4f60-a9af-0691aa6ff1e8.png)
   
-Si eres un Skype para la administración de negocios, puede utilizar un archivo de datos existente desde el Skype para negocios en línea panel calidad llamar. En primer lugar, descargue el archivo desde el panel de calidad llamar y, a continuación, cargarlo en llamar Analytics. Para descargar un archivo de datos existente, vaya a la **Skype para el centro de administración de negocios** > **Herramientas** > **Skype para negocios en línea panel calidad llamar** > **Cargar ahora**. En la lista **Mis archivos** , haga clic en **Descargar** junto al archivo que desee.
+Si usted es un Skype para administración empresarial, puede usar un archivo de datos existente desde el Skype para profesionales Online panel calidad de llamadas. En primer lugar, descargue el archivo desde el panel de calidad de llamadas y, a continuación, cárguela en análisis de llamadas. Para descargar un archivo de datos existente, vaya a la **Skype para el centro de administración de negocio de** > **Herramientas** > **Skype para profesionales Online panel calidad de llamadas** > **Cargar ahora**. En la lista **Mis cargas** , haga clic en **Descargar** junto al archivo que desee.
   
-Si está creando el archivo TSV o CSV desde el principio, vea [formato y estructura de archivos de datos de creación de archivos de datos de inquilinos](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataFile).
+Si está creando el archivo .tsv o .csv desde el principio, vea [formato y estructura de archivos de datos de creación de archivos de datos de inquilinos](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataFile).
   
 ## <a name="related-topics"></a>Temas relacionados
 <a name="BKMK_UploadFiles"> </a>
 
 [Usar el análisis de llamadas para solucionar problemas de mala calidad de llamada en Skype Empresarial](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Diferencia entre el análisis de llamadas y el Panel de calidad de llamadas](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Análisis de llamada y el panel de calidad de llamada](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  
