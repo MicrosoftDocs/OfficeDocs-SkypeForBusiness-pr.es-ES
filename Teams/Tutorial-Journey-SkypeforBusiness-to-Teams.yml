@@ -6,7 +6,6 @@ metadata:
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  interactive: azurecli
   ms.author: tbinder
   ms.reviewer: tbinder
   manager: serdars
@@ -16,11 +15,11 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: ff3bd0ef632b1e694f0e90aa46966641071be2dc
-  ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+  ms.openlocfilehash: c4fc0b4e75a7e4e3cd2c391102580c37c0b826af
+  ms.sourcegitcommit: 8ceb230c058471210b89449dde0034300e6c4da1
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 05/03/2018
+  ms.lasthandoff: 05/17/2018
 items:
 - durationInMinutes: 1
   content: "En este curso de formación, se presenta la nueva visión de comunicaciones inteligentes y se explica el futuro de Skype Empresarial y Teams.\n\nEste documento de formación es perfecto para usted en caso de que: \n\n- Profesional de TI \n\n- Sea responsable de planificar, implementar o administrar Skype Empresarial\n\n- Esté interesado en saber cómo introducir Teams en su organización\n\nLe explicaremos detalladamente los puntos en los que coinciden estos dos productos y los pasos que puede dar hoy mismo para adecuar un entorno de Skype Empresarial a Teams. Los puntos clave de este tutorial son los siguientes:\n\n- Comprender la visión de comunicaciones inteligentes\n\n- Comprender el recorrido desde Skype Empresarial Online a Microsoft Teams\n\n- Acciones deberían tomarse cuanto antes\n\nNo se explicarán los procedimientos para activar Teams o ejecutar Skype Empresarial y Teams en paralelo. Para obtener esa información, consulte los recursos siguientes:\n\n- Sesión de Microsoft Ignite 2017: [Cómo habilitar y configurar Microsoft Teams para sus usuarios](https://myignite.microsoft.com/sessions/53318)\n\n- [Actualizar el recorrido y la coexistencia de Skype Empresarial y Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) \n\nSi tiene preguntas o comentarios acerca de este documento de formación:\n\n- Haga una publicación en la sección de comentarios de la parte inferior de la página \"Pasos siguientes\" de este tutorial.</a>\n\n- Envíenos un correo electrónico a [AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Journey)\n\n- Para enviarnos comentarios sobre el producto (por ejemplo, solicitudes de características), diríjase a [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n"

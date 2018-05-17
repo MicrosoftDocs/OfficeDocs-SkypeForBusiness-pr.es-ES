@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Teams disponibles para los Estados Unidos.
-ms.openlocfilehash: 36a33915108d11a65349e8c1fca73c57fe1feae7
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: b1d5f66f1ebb63553904a9b1992bf9e08d46a98a
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="availability-in-the-united-states-us"></a>Disponibilidad en los Estados Unidos (Estados Unidos)
 
@@ -38,7 +38,7 @@ Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Te
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para Chicago, Dallas, Los Ángeles y Nueva York. Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para: <br/><ul><li> Chicago<li>Dallas<li>Los Ángeles<li>Ciudad de Nueva York</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
@@ -56,6 +56,7 @@ Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Te
 |:-----|:-----|
 |¿Los planes de llamada están disponibles para la compra?  <br/> |Sí  <br/> |
 |Minutos disponibles para llamar a los planes. |Hay cuatro opciones de plan disponibles por mes del calendario: <ul><li>120 minuto nacionales llamar a planear (la disponibilidad es limitada)</li><li>240 minuto nacionales llamar a planear (la disponibilidad es limitada)</li></li><li>3000 minuto al llamar a planear nacionales </li></li><li>600 minutos para llamar a planes internacionales y nacionales</li></li> 
+|¿Puede realizar llamadas salientes a los números de premium? <br/> | No se admite en este momento. <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
 >[!Note] 
 > Llamada nacional de Estados Unidos incluye llamadas a todos los Estados de Estados Unidos y Puerto Rico 50. Los usuarios asignados con la ubicación de uso de la licencia de Estados Unidos y Puerto Rico comparten el mismo conjunto de minutos.
@@ -64,7 +65,7 @@ Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Te
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> | Alabama, Birmingham <br/>  Arizona, Phoenix <br/>  Arkansas, Little Rock <br/>  California, Los Ángeles <br/>  California, San Francisco <br/>  Colorado, Denver <br/>  Columbia, Washington DC <br/>  Connecticut, Hartford <br/>  Delaware, Wilmington <br/>  Florida, Miami <br/>  Georgia, Atlanta <br/>  Hawái, Honolulu <br/>  Idaho, Boise <br/>  Illinois, Aurora <br/>  Illinois, Chicago <br/>  Illinois, Cicero <br/>  Indiana, Indianápolis <br/>  Iowa, Iowa City <br/>  Kansas, Wichita <br/>  Kentucky, Louisville <br/>  Luisiana, Nueva Orleans <br/>  Maine, Portland <br/>  Maryland, Baltimore <br/>  Massachusetts, Boston <br/>  Michigan, Pontiac <br/>  Minnesota, Minneapolis <br/>  Minnesota, St. Paul <br/>  Misisipi, Jackson <br/>  Misuri, Kansas City <br/>  Misuri, St. Louis <br/>  Montana, Billings <br/>  Carolina del Norte, Charlotte <br/>  Dakota del Norte, Fargo <br/>  Nebraska, Omaha <br/>  Nevada, Las Vegas <br/>  Nuevo Hampshire, Manchester <br/>  Nueva Jersey, Newark <br/>  Nuevo México, Albuquerque <br/>  Nueva York, Ciudad de Nueva York <br/>  Ohio, Columbus <br/>  Oklahoma, Oklahoma City <br/>  Oregón, Portland <br/>  Pensilvania, Filadelfia <br/>  Rhode Island, Providence <br/>  Carolina del Sur, Charleston <br/>  Dakota del Sur, Sioux Falls <br/>  Tennessee, Memphis <br/>  Texas, Dallas <br/>  Texas, Houston <br/>  Salt Lake City <br/>  Vermont, Brattleboro <br/>  Virginia, Richmond <br/>  Washington, Seattle <br/>  Virginia Occidental, Charleston <br/>  Wisconsin, Milwaukee <br/>  Wyoming, Laramie <br/> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> |<ul><li>Alabama, Birmingham <li>  Arizona, Phoenix <li>  Arkansas, Little Rock <li> California, Los Ángeles <li> California, San Francisco <li>  Colorado, Denver <li>  Columbia, Washington DC <li>  Connecticut, Hartford <li>  Delaware, Wilmington <li>Florida, Miami <li>  Georgia, Atlanta <li> Hawái, Honolulu <li> Idaho, Boise <li> Illinois, Aurora <li> Illinois, Chicago <li> Illinois, Cicero<li>  Indiana, Indianápolis <li>  Iowa, Iowa City <li>  Kansas, Wichita <li> Kentucky, Louisville <li>  Luisiana, Nueva Orleans <li> Maine, Portland <li> Maryland, Baltimore <li>  Massachusetts, Boston <li> Michigan, Pontiac <li> Minnesota, Minneapolis <li> Minnesota, St. Paul <li> Misisipi, Jackson <li>  Misuri, Kansas City <li>Misuri, St. Louis <li>  Montana, Billings <li> Carolina del Norte, Charlotte<li>Dakota del Norte, Fargo <li> Nebraska, Omaha <li> Nevada, Las Vegas <li>  Nuevo Hampshire, Manchester <li> Nueva Jersey, Newark <li> Nuevo México, Albuquerque <li>  Nueva York, Ciudad de Nueva York <li>Ohio, Columbus <li>Oklahoma, Oklahoma City <li> Oregón, Portland <li> Pensilvania, Filadelfia <li> Rhode Island, Providence <li>  Carolina del Sur, Charleston <li>Dakota del Sur, Sioux Falls <li>  Tennessee, Memphis <li> Texas, Dallas <li>  Texas, Houston <li> Salt Lake City <li> Vermont, Brattleboro<li> Virginia, Richmond <li> Washington, Seattle <li>  Virginia Occidental, Charleston<li>  Wisconsin, Milwaukee <li> Wyoming, Laramie</ul> |
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
    

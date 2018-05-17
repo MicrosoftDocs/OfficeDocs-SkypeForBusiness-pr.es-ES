@@ -14,10 +14,10 @@ ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Utilice este tema para obtener secuencias de comandos que se utiliza con sistemas de salas de Skype v2.
 ms.openlocfilehash: 3ffea4150508f5efa78d0d1c7ec12ba12bdc141d
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="skype-room-systems-v2-scripts"></a>Secuencias de comandos de Skype salón sistemas v2
  

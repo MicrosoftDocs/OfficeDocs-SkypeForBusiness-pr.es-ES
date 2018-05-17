@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Lea este tema para obtener información sobre cómo enrutamiento directo de Microsoft teléfono del sistema le permite conectar un compatibles, proporcionado por el cliente sesión controlador de borde (SBC) para el sistema telefónico de Microsoft.
-ms.openlocfilehash: 27a2c09927729268caaca0d12c75df8d0fe13a51
-ms.sourcegitcommit: 92f2fa97c8870f8ad86c6001f2240a74261e2600
+ms.openlocfilehash: 9809c4acb5d80f18dc076b07e81c052caa6fbc0d
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="plan-direct-routing"></a>Planeación de enrutamiento directo
 
@@ -207,10 +207,10 @@ El tráfico de medios fluye hacia y desde un servicio independiente en el Micros
 
 Microsoft sólo admite la SBC certificada para emparejar con el enrutamiento directo. Debido a que Enterprise Voice es crítico para la empresa, Microsoft ejecuta pruebas intensivas con el seleccionado SBCs y funciona con los proveedores SBC para asegurarse de los dos sistemas es compatible. 
 
-Los dispositivos que se han validado aparecen como certificado para el enrutamiento directo de los equipos. Se garantizan que los dispositivos certificados para que funcione en todos los escenarios. También es un proceso de soporte conjunto entre Microsoft y los proveedores SBC establecidos. 
+Los dispositivos que se han validado aparecen como certificado para el enrutamiento directo de los equipos. Se garantizan que los dispositivos certificados para que funcione en todos los escenarios. También es un proceso de soporte conjunto entre Microsoft y los proveedores SBC establecidos.  
 
 Los siguientes proveedores están en el proceso de estar certificadas:
-- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-sbcs-media-gateways)
+- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
 - Cinta de opciones (anteriormente Sonus):
    - [Serie de SBC perimetral](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
    - [SBC Core Series TBD](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)

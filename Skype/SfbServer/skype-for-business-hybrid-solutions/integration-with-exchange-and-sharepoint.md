@@ -17,11 +17,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Resumen: Conozca Skype para la integración de Business Server 2015 con Exchange y SharePoint.'
-ms.openlocfilehash: 12f6974a6a0d3641242eda072332667ece31c72a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 51943ac3b67ec204429a1970836f03f04acec0d5
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Integración con Exchange y SharePoint
  
@@ -35,7 +35,7 @@ Las siguientes tablas enumeran las características admitidas en una implementac
   
  **Skype para Business Server local y Exchange local**
   
-| |
+
 |**Característica**|**Notas**|
 |:-----|:-----|
 |Mensajería instantánea y presencia en Outlook  <br/> |Para obtener más información, vea [mensajería instantánea y presencia](http://technet.microsoft.com/library/6a93ae95-3b64-410b-ab72-74dea232f065.aspx).  <br/> |
@@ -55,7 +55,7 @@ Las siguientes tablas enumeran las características admitidas en una implementac
    
  **Skype para Business Server local y Exchange Online**
   
-| |
+
 |**Característica**|**Notas**|
 |:-----|:-----|
 |Mensajería instantánea y presencia en Outlook  <br/> |Para obtener más información, vea [Configurar la integración entre local Skype para Business Server 2015 y Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
@@ -75,7 +75,7 @@ Las siguientes tablas enumeran las características admitidas en una implementac
    
  **Skype para profesionales en línea y de Exchange local**
   
-| |
+ 
 |**Característica**|**Notas**|
 |:-----|:-----|
 |Presencia en Outlook  <br/> ||
@@ -92,7 +92,7 @@ Las siguientes tablas enumeran las características admitidas en una implementac
    
  **Skype para la empresa en línea y Exchange Online**
   
-| |
+
 |**Característica**|**Notas**|
 |:-----|:-----|
 |Mensajería instantánea y presencia en Outlook  <br/> ||

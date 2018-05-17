@@ -12,10 +12,10 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: acb2463c687ad387145ab2a2ba058583233411cc
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/16/2018
 ---
 <a name="about-upgrade-essentials"></a>
 # <a name="about-the-upgrade-essentials-checklist"></a>Acerca de la lista de comprobación de actualización de Essentials 

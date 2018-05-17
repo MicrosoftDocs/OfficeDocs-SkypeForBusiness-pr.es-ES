@@ -10,10 +10,10 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
 ms.openlocfilehash: 39a3811b411256b1d2a00f9f0e3f48f333fc2df7
-ms.sourcegitcommit: 92f2fa97c8870f8ad86c6001f2240a74261e2600
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="release-notes"></a>Notas de la versión 
 

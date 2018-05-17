@@ -11,11 +11,11 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a053d32e8180f19eaf480ef48f56f6748ff24508
-ms.sourcegitcommit: 6b868f683e1f2354eb42fdf33911e77b7a3a83e2
+ms.openlocfilehash: add6436d66c088d6ffa14867cc03268cb082f0b3
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="setting-your-coexistence-settings"></a>Establecer la configuración de coexistencia
 
@@ -35,16 +35,18 @@ ms.lasthandoff: 05/12/2018
 
 2. En la parte superior de la página de la **página de actualización de los equipos** , realice los siguientes cambios si trabajan para usted.
 - Establecer el modo de **coexistencia**
-    - **Islas**
-    - **Skype para la empresa solo**
-    - **Sólo los equipos**
+    - **Islas** : use esta configuración cuando haya algunos usuarios en Skype para algunos usuarios que usan los equipos y profesionales.
+    - **Skype para la empresa sólo** - Utilice esta opción si sólo tienen Skype para los usuarios empresariales.
+    - **Los equipos sólo** - Utilice esta opción si sólo tienen los usuarios de los equipos.
 - Establecer **Skype para usuarios profesionales notificar a que los equipos está disponible para la actualización.**
-    - Si desactiva esta, hará...
+    - Si desactiva esta, indicará el Skype para usuarios profesionales que pueden actualizar a la aplicación de los equipos.
 - Establecer la **aplicación preferida para los usuarios participar en Skype para reuniones de negocios** esta configuración determina qué aplicación se usa para unirse a Skype para reuniones de negocios y se cumplirá independientemente del valor del modo de coexistencia.
     - **Aplicación de las reuniones de Skype (valor predeterminado)**
     - **Skype para la empresa con características limitadas**
 - Establecer si para **Descargar la aplicación de los equipos en el fondo de Skype para usuarios profesionales** esta configuración en modo silencioso descargas de la aplicación de los equipos de los usuarios que ejecutan Skype para la empresa en Windows. Se tiene en cuenta sólo si el modo de coexistencia para el usuario es sólo de los equipos, o si se habilitan las notificaciones de actualización pendientes en Skype para la empresa.
-3. Después de realizar los cambios, haga clic en **Guardar** .
+1. Después de realizar los cambios, haga clic en **Guardar** .
 
 
-### <a name="related-topic"></a>Tema relacionado
+### <a name="related-topics"></a>See also
+[Planear el viaje](upgrade-plan-journey.md)
+[comprender la coexistencia y actualización de los modos de Skype para profesionales y los equipos](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
