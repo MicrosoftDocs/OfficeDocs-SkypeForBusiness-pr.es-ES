@@ -10,10 +10,10 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Lea este tema para obtener más información acerca de la administración de sistemas de salón de Skype v2, la próxima generación de sistemas de salón de Skype.
 ms.openlocfilehash: d8dfb5c04d73717e8f20352c6cb422498f5a9b34
-ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
+ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Operaciones y mantenimiento de sistemas de salón de Skype v2 
  

@@ -6,7 +6,6 @@ metadata:
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  interactive: azurecli
   ms.author: tbinder
   manager: serdars
   ms.service: msteams
@@ -15,11 +14,11 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 4c23c7aebcf45c190da29287f4cf7f6f1a4aeb7d
-  ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+  ms.openlocfilehash: 623fffb3f6470571b039c106ec5f0a4205f6c35a
+  ms.sourcegitcommit: 8ceb230c058471210b89449dde0034300e6c4da1
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 05/03/2018
+  ms.lasthandoff: 05/17/2018
 items:
 - durationInMinutes: 1
   content: "Este recurso de formación presenta las funcionalidades de llamada de Microsoft Teams, que se basan en la característica Sistema telefónico de Office 365. Explicaremos la planificación técnica necesaria para implementar Sistema telefónico, cómo configurarlo, y cómo supervisar el uso y la calidad de las llamadas en la implementación.\n\nEste documento de formación es perfecto para usted en caso de que: \n\n- Profesional de TI.\n\n- Responsable de planificar, implementar o administrar Microsoft Teams.\n\n- Responsable de planificar la introducción de las funcionalidades de llamada en su implementación de Microsoft Teams.\n\nAprenderá lo siguiente:\n\n- ¿Que son las llamadas en Microsoft Teams?\n\n- Cómo planificar las llamadas en Microsoft Teams.\n\n- Cómo configurar las llamadas en Microsoft Teams.\n\n[!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]\n\nSi tiene preguntas o comentarios acerca de este documento de formación:\n\n- Haga una publicación en la sección de comentarios de la parte inferior de la página \"Pasos siguientes\" de este tutorial.</a>\n\n- Envíenos un correo electrónico a [AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Calling)\n\nPara enviarnos comentarios sobre Microsoft Teams, como ideas para nuevas características, visite [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n"

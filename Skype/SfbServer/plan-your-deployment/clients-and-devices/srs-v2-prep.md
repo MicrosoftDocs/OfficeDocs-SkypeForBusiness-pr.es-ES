@@ -11,10 +11,10 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: En este artículo se explica los preparativos de infraestructura para la implementación de sistemas de salón de Skype v2.
 ms.openlocfilehash: b8f1e52686cfab957f2fb81a33deecc778514673
-ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
+ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="prepare-your-environment"></a>Preparar el entorno
 
