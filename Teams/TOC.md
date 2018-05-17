@@ -25,7 +25,7 @@
 ## [Dimensiones y medidas disponibles en el Panel de calidad de llamadas](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Configurar el análisis de llamadas de Skype Empresarial](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Usar el análisis de llamadas para solucionar problemas de mala calidad de llamada en Skype Empresarial](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Diferencia entre el análisis de llamadas y el Panel de calidad de llamadas](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Análisis de llamada y el panel de calidad de llamada](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 
@@ -50,7 +50,6 @@
 ## [Configurar una organización híbrida de Exchange para usarla con Microsoft Teams](exchange-hybrid-organization.md)
 ## [Agregar dominio SMTP de Microsoft Teams como un dominio aceptado en Exchange Online](smtp-accepted-domain.md)
 ## [Usar el complemento para reunión de Microsoft Teams en Outlook](teams-add-in-for-outlook.md)
-
 
 
 
@@ -122,10 +121,10 @@
 
 ## Supervisar la calidad de las llamadas y QoS
 ### [QoS en Teams](QoS-in-Teams.md)
+### [Análisis de llamada y el panel de calidad de llamada](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Dimensiones y medidas disponibles en el Panel de calidad de llamadas](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Configurar el análisis de llamadas de Skype Empresarial](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Usar el análisis de llamadas para solucionar problemas de mala calidad de llamada en Skype Empresarial](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Diferencia entre el análisis de llamadas y el Panel de calidad de llamadas](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 ## Audioconferencia
