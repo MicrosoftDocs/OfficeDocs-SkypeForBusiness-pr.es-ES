@@ -12,11 +12,11 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d6e657316af2c4f861e68a0ffebc7e478f1234f
-ms.sourcegitcommit: c63e7a8a746d427a1c886e8dca4d631c851e417c
+ms.openlocfilehash: c0a251887b6c71c113c4ec9a25a812d4b9f6b827
+ms.sourcegitcommit: 0d584174263c044c2ba12e32d2c924349226075c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="quality-of-experience-review-guide"></a>Calidad de experiencia consulte la Guía
 
@@ -1171,7 +1171,7 @@ Para obtener más información, vea el artículo siguiente acerca del [rendimien
 
 -   [Configurar el análisis de llamadas de Skype Empresarial](https://support.office.com/article/Set-up-Skype-for-Business-Call-Analytics-FBF7247A-84AE-46CC-9204-2C45B1C734CD)
 
--   [Diferencia entre el análisis de llamadas y el Panel de calidad de llamadas](https://support.office.com/article/What-s-the-difference-between-Call-Analytics-and-Call-Quality-Dashboard-4CD5FE35-8463-4996-A252-086CD3CA2D9A)
+-   [Análisis de llamada y el panel de calidad de llamada](https://support.office.com/article/What-s-the-difference-between-Call-Analytics-and-Call-Quality-Dashboard-4CD5FE35-8463-4996-A252-086CD3CA2D9A)
 
 -   [Usar el análisis de llamadas para solucionar problemas de mala calidad de llamada en Skype Empresarial](https://support.office.com/article/Use-Call-Analytics-to-troubleshoot-poor-Skype-for-Business-call-quality-66945036-ae87-4c08-a0bb-984e50d6b009)
 

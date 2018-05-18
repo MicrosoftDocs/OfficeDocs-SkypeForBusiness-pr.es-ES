@@ -10,8 +10,8 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Lea este tema para obtener información sobre cómo enrutamiento directo de Microsoft teléfono del sistema le permite conectar un compatibles, proporcionado por el cliente sesión controlador de borde (SBC) para el sistema telefónico de Microsoft.
-ms.openlocfilehash: 9809c4acb5d80f18dc076b07e81c052caa6fbc0d
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 3e7a0899fd7a79003a522d59fe1f4f7508978a51
+ms.sourcegitcommit: 0d584174263c044c2ba12e32d2c924349226075c
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/17/2018
@@ -190,9 +190,9 @@ En la tabla siguiente resume las relaciones entre centros de datos principal, se
 |El centro de datos terciario (sip3.pstnhub.microsoft.com)|ASIA|ASIA|UNIÓN EUROPEA|
 |||||
 
-## <a name="media-traffic-ip-addresses-and-port-ranges"></a>El tráfico de medios: intervalos de direcciones IP y puerto
+## <a name="media-traffic-port-ranges"></a>El tráfico de medios: intervalos de puertos
 
-El tráfico de medios fluye hacia y desde un servicio independiente en el Microsoft Cloud. El intervalo de IP de los procesadores de medios se muestra en la siguiente tabla:
+El tráfico de medios fluye hacia y desde un servicio independiente en el Microsoft Cloud. El intervalo de puertos de los procesadores de medios se muestra en la siguiente tabla: 
 
 |**Tráfico**|**De**|**Hasta**|**Puerto de origen**|**Puerto de destino**|
 |:--- |:--- |:--- |:--- |:--- |
