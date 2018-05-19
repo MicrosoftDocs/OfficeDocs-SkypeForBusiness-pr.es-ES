@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga los pasos que necesarios para cambiar la configuración de un puente de conferencia que se usa para solicitar los autores de llamadas y recopilar los nombres y los PIN para los organizadores de reuniones cuando no utilizan Skype para las aplicaciones empresariales o Teams de Microsoft. '
-ms.openlocfilehash: c58c1b3031da9e9ebe8408568bed0fd4b8c9ae9b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 439907b6b1055db2487491c4b0be89cbb96bdf72
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Cambiar la configuración de un puente de conferencia de Audio
 
@@ -75,13 +75,13 @@ El puente de conferencia responde a una llamada y solicita el autor de la llamad
     
   - **Habilitar la entrada de la reunión y salir de las notificaciones para ser activado** Está seleccionada de manera predeterminada. Si desactiva la casilla de verificación, no se le notificará a los usuarios que ya se han unido a la reunión cuando alguien entra o sale de la reunión.
     
-    Cuando se selecciona **Habilitar la entrada de la reunión y salir de las notificaciones para ser activado**, puede seleccionar estas opciones en la lista **tipo de anuncio de entrada o salida** :
+  - Cuando se selecciona **Habilitar la entrada de la reunión y salir de las notificaciones para ser activado**, puede seleccionar estas opciones en la lista **tipo de anuncio de entrada o salida** :
     
-  - **Los nombres o números de teléfono** Cuando los usuarios conectan a una reunión, su número de teléfono se reproducirá cuando se unan a él.
+   - **Los nombres o números de teléfono** Cuando los usuarios conectan a una reunión, su número de teléfono se reproducirá cuando se unan a él.
     
-  - **Tonos** Cuando los usuarios conectan a una reunión, un tono de audio se reproducirá cuando se unan a él.
+   - **Tonos** Cuando los usuarios conectan a una reunión, un tono de audio se reproducirá cuando se unan a él.
   
-  - **Autores de llamadas ASK para registrar su nombre antes de unirse a la reunión** Está seleccionada de manera predeterminada. Si desactiva la casilla de verificación, los autores de llamadas no se le pida para registrar su nombre antes de unirse a una reunión.
+   - **Autores de llamadas ASK para registrar su nombre antes de unirse a la reunión** Está seleccionada de manera predeterminada. Si desactiva la casilla de verificación, los autores de llamadas no se le pida para registrar su nombre antes de unirse a una reunión.
     
 3. Después de realizar los cambios, haga clic en **Guardar**.
     

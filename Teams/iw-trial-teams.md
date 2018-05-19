@@ -1,9 +1,9 @@
 ---
-title: Administrar la oferta de prueba de trabajador de la información para Microsoft Teams
+title: Administrar la oferta de prueba de la nube de Microsoft los equipos comerciales
 author: ChuckEdmonson
 ms.author: chucked
 manager: lolaj
-ms.date: 04/27/2018
+ms.date: 05/17/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -11,16 +11,16 @@ ms.service: msteams
 localization_priority: Normal
 description: Los usuarios de Office 365 que no tienen licencia para Microsoft Teams pueden iniciar una versión de prueba de 1 año de los equipos.
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 491f7503843d1feebbff88579fba1eae11895e0e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e282481cc8cdb5eba23a56ef32adff2e812fefbf
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/19/2018
 ---
-<a name="manage-the-iw-trial-offer-for-microsoft-teams"></a>Administrar la oferta de prueba de trabajador de la información para Microsoft Teams
-=============================================
+<a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Administrar la oferta de prueba de la nube de Microsoft los equipos comerciales
+=======================================================
 
-Microsoft Teams es una gran herramienta de colaboración para su organización. Permite a las personas y los equipos se analizan, innovar y compartir ideas utilizando la potencia de Office 365. La oferta de prueba de trabajador de la información para Microsoft Teams ofrece usuarios de Office 365 existentes en la organización que no tienen licencia para que Microsoft Teams iniciar una versión de prueba de 1 año del producto. Los administradores tienen la capacidad de activar o desactivar esta característica para los usuarios dentro de su inquilino.
+Microsoft Teams es una gran herramienta de colaboración para su organización. Permite a las personas y los equipos se analizan, innovar y compartir ideas utilizando la potencia de Office 365. Microsoft los equipos comerciales en la nube prueba ofrece usuarios de Office 365 existentes en la organización que no tienen licencia para que Microsoft Teams iniciar una versión de prueba de 1 año del producto. Los administradores tienen la capacidad de activar o desactivar esta característica para los usuarios dentro de su inquilino.
 
 ## <a name="whats-in-the-offer"></a>¿Qué es en la oferta
 
@@ -38,11 +38,16 @@ Los planes de servicio incluidos en esta oferta son:
 
 ## <a name="who-is-eligible"></a>¿Quiénes son elegibles
 
-Los usuarios que no tienen una licencia de Office 365 que incluye los equipos pueden iniciar la oferta de prueba de trabajador de la información. Por ejemplo, si un usuario tiene Office 365 Business Premium (que incluye los equipos) y el plan de servicio de los equipos está deshabilitado, no son aptos para la versión de evaluación.
+Los usuarios que no tienen una licencia de Office 365 que incluye los equipos pueden iniciar la oferta de prueba de Microsoft los equipos comerciales en la nube. Por ejemplo, si un usuario tiene Office 365 Business Premium (que incluye los equipos) y el plan de servicio de los equipos está deshabilitado, no son aptos para la versión de evaluación.
 
-En el nivel de inquilino, los equipos como un servicio debe habilitarse (en el centro de administración de equipos). (Para obtener más información, vea [características de administración de equipos de Microsoft en su organización de Office 365](enable-features-office-365.md). Además, deben estar habilitados para registrarse y obtener aplicaciones y versiones de evaluación (en el centro de administración de Office 365). Para obtener más información, vea [administrar el trabajador de la información prueba](#manage-the-iw-trial) más adelante en este artículo.
+Además, el inquilino no es aptos para la prueba if: 
+- Usted es un cliente de socio de distribución
+- Usted es un cliente de socio revendedor
+- Usted es un cliente GCC, GOV o edu.
 
-No son válidos para el trabajador de la información prueba los inquilinos GOV y EDU.
+Además, si el inquilino es no válido para la oferta de prueba Microsoft los equipos de comercial en la nube, no verá el modificador **permiten a los usuarios instalar los servicios y aplicaciones de prueba** .
+
+En el nivel de inquilino, los equipos como un servicio debe habilitarse (en el centro de administración de equipos). Para obtener más información, vea [características de administración de equipos de Microsoft en su organización de Office 365](enable-features-office-365.md). Además, deben estar habilitados para registrarse y obtener aplicaciones y versiones de evaluación (en el centro de administración de Office 365). Para obtener más información, vea [administrar el trabajador de la información prueba](#manage-the-iw-trial) más adelante en este artículo.
 
 ## <a name="how-users-sign-up-for-the-trial"></a>Cómo los usuarios suscribirse a la versión de evaluación
 
