@@ -17,11 +17,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 'Resumen: Lea este tema para obtener información sobre cómo planear la conectividad híbrida entre Skype para Business Server y Skype para profesionales en línea. A la hora de implementar muchas soluciones híbridas de Skype Empresarial, el primer paso consiste en configurar la conectividad híbrida.'
-ms.openlocfilehash: 31c10423c6ba838e595de75e39d6f166de30c756
-ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
+ms.openlocfilehash: d61bdd8ecf7ce35e1f80e5b69ede590d5d2c1cd1
+ms.sourcegitcommit: c8963d8a1de4197ddb72229b3c26460e9e0aae77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Planificar la conectividad híbrida entre Skype Empresarial Server y Skype Empresarial Online
  
@@ -301,7 +301,7 @@ Además de los requisitos de puerto para la comunicación interna, debe configur
 |STUN  <br/> |TCP  <br/> |Servidor perimetral A/V  <br/> |Office 365  <br/> |50.000-59.999  <br/> |443  <br/> |Abierto para sesiones de uso compartido de aplicaciones, vídeo y audio  <br/> |
 |STUN  <br/> |TCP  <br/> |Office 365  <br/> |Servidor perimetral A/V  <br/> |50.000-59.999  <br/> |443  <br/> |Abierto para sesiones de uso compartido de aplicaciones, vídeo y audio  <br/> |
 |STUN  <br/> |UDP  <br/> |Servidor perimetral A/V  <br/> |Office 365  <br/> |3478  <br/> |3478  <br/> |Abierto para sesiones de vídeo y audio  <br/> |
-|STUN  <br/> |UDP  <br/> |Office 365  <br/> |Servidor perimetral A/V  <br/> |443  <br/> |3478  <br/> |Abierto para sesiones de vídeo y audio  <br/> |
+|STUN  <br/> |UDP  <br/> |Office 365  <br/> |Servidor perimetral A/V  <br/> |3478  <br/> |3478  <br/> |Abierto para sesiones de vídeo y audio  <br/> |
    
 Para obtener más información acerca de puerto y firewall para servidor perimetral de planeación, vea [requisitos de entorno de servidor perimetral de Skype para Business Server 2015](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md). Consulte también [los requisitos de puerto y protocolo para los servidores](../plan-your-deployment/network-requirements/ports-and-protocols.md) y el [diagrama de cargas de trabajo de protocolo](http://go.microsoft.com/fwlink/p/?LinkId=550989).
   
