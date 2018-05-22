@@ -12,11 +12,11 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: En este artículo se describe cómo configurar el dispositivo de consola de los Sistemas de sala de Skype v2 y sus periféricos.
-ms.openlocfilehash: b82343f98304b0607bb3525b508aecf81e80a031
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 96fb2a88d699ca364f02f24af58d2f17dc555e11
+ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/21/2018
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Configurar una consola de Sistemas de salas de Skype v2
  
@@ -49,7 +49,7 @@ Instalar la aplicación v2 de sistemas de salón de Skype en un Surface Pro 4 o 
 > Funcionará un v2 de Skype salón sistemas existentes con Windows 10 Enterprise aniversario de actualización de mover a sistemas de salón de Skype v2 actualización 3 mediante el almacén de Windows, pero se debe realizar una nueva instalación tal y como se describe a continuación. 
   
 1. Descargue la [MSU para KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu).
-2. Descargar el [script CreateSrsMedia.ps1](room-systems-v2-scripts.md).
+2. Descargar el [script CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842).
 3. Colocar la MSU para KB4056892 en el mismo directorio que la secuencia de comandos CreateSrsMedia.ps1.
 4. Ejecute el script CreateSrsMedia.ps1 desde un símbolo del sistema con privilegios elevados en un equipo Windows 10.
 

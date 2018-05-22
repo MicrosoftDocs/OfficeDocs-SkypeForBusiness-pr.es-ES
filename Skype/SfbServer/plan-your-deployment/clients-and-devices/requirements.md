@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: En este artículo se resume los requisitos para admitir un v2 de sistemas de salón de Skype.
-ms.openlocfilehash: 0fb1fbcde28c343787967485dd6cae36491311b7
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 39ea680d3f7a1b45531b038e5465e74647fea12a
+ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/21/2018
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Requisitos de Sistemas de salas de Skype v2
  
@@ -28,35 +28,37 @@ Sistemas de salón de Skype v2 puede escalar a tamaños de sala diferente a trav
   
 - Un 32GB o mayor disco USB que se configurará como medio de instalación de Windows de arranque para Windows 10 Enterprise. 
     
-- Uno de los PC siguientes:
+- Uno de los siguientes tabletas o consolas:
     
 **Tabletas compatibles**
-
-
-|**Tablet PC**|**Procesador**|**MEMORIA RAM**|**Disco**|
+|Tablet PC|Procesador|MEMORIA RAM|Disco|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 4 & sup1;  <br/> |I5 principales  <br/> |4GB  <br/> |128GB  <br/> |
-|Surface Pro 4 & sup1;  <br/> |I5 principales  <br/> |8GB  <br/> |256GB  <br/> |
-|Surface Pro & sup1; <br/> |I5 principales  <br/> |4GB  <br/> |128GB  <br/> |
-|Surface Pro & sup1; <br/> |I5 principales  <br/> |8GB  <br/> |256GB  <br/> |
-|Surface Pro & sup1; <br/> |Core i7  <br/> |8GB  <br/> |128GB  <br/> |
-|Surface Pro & sup1; <br/> |Core i7  <br/> |16GB  <br/> |512GB  <br/> |
-|Surface Pro & sup1; <br/> |Core i7  <br/> |16GB  <br/> |1TB  <br/> |
+|Surface Pro 4    |I5 principales  |4GB  |128GB  |
+|Surface Pro 4    |I5 principales  |8GB  |256GB  |    
+|Surface Pro (2017)  |I5 principales  |4GB  |128GB  |
+|Surface Pro (2017)  |I5 principales  |8GB  |256GB  |
+|Surface Pro (2017)  |Core i7  |8GB  |128GB  |
+|Surface Pro (2017)  |Core i7  |16GB  |512GB  |
+|Surface Pro (2017) |Core i7  |16GB  |1TB  |
    
-& sup1; : No se admiten los procesadores de núcleo M3 en este modelo.
+> [!NOTE]
+> No se admiten los procesadores de núcleo M3.
+
+**Consolas compatibles**
+|Consola|Procesador|MEMORIA RAM|Disco|
+|:-----|:-----|:-----|:-----|
+|[Concentrador de Lenovo 500](https://www3.lenovo.com/us/en/hub500) |I5 principales  |8GB  |128GB  |  
+ <!-- HP dock is still pending  -->  
     
- 
+- Una de las siguientes opciones de estación de acoplamiento para proteger una tableta a la reunión de la sala tabla. 
     
-- Una de las siguientes opciones de estación de acoplamiento para proteger la tableta a la reunión de la sala tabla. 
-    
-  - [Logitech SmartDock](https://www.logitech.com/en-us/product/smartdock)
+  - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
     
   - [SR Crestron](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
     
   - [Serie de Polycom MSR](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
-  - [Concentrador de Lenovo 500](https://www3.lenovo.com/us/en/hub500)  
-<!-- HP dock is still pending  -->  
+
  
 **Certificado de las versiones de firmware para periféricos USB de audio y vídeos**
 |**Periféricos v2 de sistemas de salón de Skype**|**Versión de firmware certificada para sistemas de salón de Skype v2**|
@@ -133,7 +135,7 @@ Necesitará las siguientes descargas para crear su propia imagen de v2 de sistem
     
 Estas descargas deben combinarse en un disco de medios de instalación de Windows arranque de una manera específica, describen más detalladamente en [Configure una consola de v2 de sistemas de salón de Skype](../../deploy/deploy-clients/console.md). 
   
-Además, deseará probablemente una copia de la [secuencia de comandos de Powershell](https://go.microsoft.com/fwlink/?linkid=870105) usado para aprovisionar cuentas v2 de sistemas de salón de Skype.
+Además, deseará probablemente una copia de [SkypeRoomProvisioningScript.ps1](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomProvisioningScript.ps1.txt), usado para aprovisionar cuentas v2 de sistemas de salón de Skype.
   
 ## <a name="see-also"></a>Vea también
 

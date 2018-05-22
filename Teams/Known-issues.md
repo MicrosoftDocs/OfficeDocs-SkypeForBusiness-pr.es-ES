@@ -10,11 +10,11 @@ ms.reviewer: marcl, ninadara, v-leslc
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13db401651181bf186a61f643b80c7750b9978a0
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 6624aa94ef6581805e3ba2b79f09aefb95616bb0
+ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/21/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
   
@@ -84,7 +84,7 @@ En este artículo se enumera los problemas conocidos de Microsoft Teams, por ár
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|Cambio de nombre de un canal en Microsoft Teams no cambiar el nombre de la carpeta correspondiente en SharePoint Online  <br/> |Si se cambia el nombre de un canal en Microsoft Teams, no cambia la carpeta en la biblioteca de documentos de SharePoint Online correspondiente al equipo para que coincidan con. En su lugar, se crea una nueva carpeta para que coincida con el nuevo nombre de canal. No se migran los archivos en la carpeta de biblioteca de documentos original.  <br/> |No hay ninguna solución.  <br/> |13/03/2017  <br/> |
+|Cambio de nombre de un canal en Microsoft Teams no cambiar el nombre de la carpeta correspondiente en SharePoint Online  <br/> |Si se cambia el nombre de un canal en Microsoft Teams, no cambia la carpeta en la biblioteca de documentos de SharePoint Online correspondiente al equipo para que coincidan con. El nombre de carpeta de SharePoint Online correcto se muestra en la parte superior de la ficha archivos de canal cuyo nombre ha cambiado.  <br/> |No hay ninguna solución.  <br/> |13/03/2017  <br/> |
 
 ## <a name="chat"></a>Chat
 
