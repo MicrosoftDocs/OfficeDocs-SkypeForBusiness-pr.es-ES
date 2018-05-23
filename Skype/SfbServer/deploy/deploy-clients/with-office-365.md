@@ -13,11 +13,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lea este tema para obtener información acerca de cómo implementar sistemas de salón de Skype v2 con Office 365.
-ms.openlocfilehash: 87ae4f7e846cce1cfeca2c7f64fdee93476ae350
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: ac6cbd53f16fb9fe07e24ef288eddbc5acca1b00
+ms.sourcegitcommit: 5e094591704e27d9d802ff86c1ada6d775ab783a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Implementar Sistemas de salas de Skype v2 con Office 365 
  
@@ -92,7 +92,7 @@ Para habilitar Skype para la empresa, debe tener lo siguiente:
    También puede configurar un número de teléfono para la sala de la siguiente manera:
     
    ```
-   Set-MsolUser -UniversalPrincipalName <upn> -PhoneNumber <phone number>
+   Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
    ```
 
 6. La cuenta del dispositivo debe tener una licencia válida de Office 365 o Exchange y Skype para la empresa no funcionará. Si dispone de la licencia, debe asignar una ubicación de uso para su cuenta de dispositivo: Esto determina qué SKU de las licencias están disponibles para su cuenta. Puede usar Get-MsolAccountSku para recuperar una lista de SKU disponibles para el inquilino de Office 365, como se indica a continuación:
