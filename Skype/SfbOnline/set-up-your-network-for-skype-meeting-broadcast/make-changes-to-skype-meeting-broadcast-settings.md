@@ -1,5 +1,5 @@
 ---
-title: Realizar cambios en configuración de la difusión de reunión de Skype para su organización
+title: Realizar cambios en la configuración de la difusión de reunión de Skype para su organización
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,26 +17,26 @@ f1keywords:
 - ms.lync.lac.BroadcastMeetings
 ms.custom:
 - SMB
-description: Puede habilitar la difusión de la reunión de Skype y realizar cambios en la configuración y las directivas para esas reuniones.
-ms.openlocfilehash: e4e51e7e23138fe2e0b0cd1ce05d19f275c085b9
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Puede habilitar la difusión de reunión de Skype y realizar cambios en la configuración y las directivas para las reuniones.
+ms.openlocfilehash: 7cba3f66713d76e32da01d3dd318a6096dbed35c
+ms.sourcegitcommit: faea19005301c56a081b6e6157965becac76ec2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/22/2018
 ---
-# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Realizar cambios en configuración de la difusión de reunión de Skype para su organización
+# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Realizar cambios en la configuración de la difusión de reunión de Skype para su organización
 
-Puede habilitar la difusión de la reunión de Skype y realizar cambios en la configuración y las directivas para esas reuniones.
+Puede habilitar la difusión de reunión de Skype y realizar cambios en la configuración y las directivas para las reuniones.
   
-- **Habilitar la difusión de la reunión de Skype** Permite la difusión de la reunión de Skype. Después de habilitar la difusión de la reunión de Skype, debe [Configurar la red para difundir reunión de Skype](set-up-your-network-for-skype-meeting-broadcast.md). Realice este paso si desea celebrar seminarios y otras difusiones para personas fuera de su negocio. 
+- **Habilitar la difusión de reunión de Skype** Permite la difusión de reunión de Skype. Después de habilitar la difusión de reunión de Skype, debe [Configurar la red para difundir presentación de reunión de Skype](set-up-your-network-for-skype-meeting-broadcast.md). Realice este paso si desea que se espera seminarios Web y otras difusiones para las personas de fuera de su negocio. 
     
-- **Características de habilitar Skype reunión difusión de vista previa para mi organización** El Skype para programas de clientes de negocios proporcionan acceso temprano a nuevos productos y características. Esto proporciona a su organización un adelanto de lo que vendrá y la oportunidad de probar las nuevas características en su propio entorno y proporcionar sus comentarios antes de que lanzamos generaciones del producto al público en general.<br/>[Skype para vista previa del negocio](https://www.skypepreview.com/)
+- **Características de Preview de Difundir presentación de reunión de habilitar Skype para mi organización** El Skype para programas para clientes empresariales proporcionan acceso rápido a los nuevos productos y características. Esto da a su organización un vistazo a las novedades y la oportunidad de probar las nuevas características en su propio entorno y proporcionar comentarios antes de que se suelte generaciones del producto al público en general.<br/>[Skype para vista previa de negocio](https://www.skypepreview.com/)
     
-- **Permitir que los organizadores a programar reuniones anónimas** Esto permite a los organizadores realizar traducción para las reuniones de difusión y subtítulos cerrados.
+- **Permitir que los organizadores programen reuniones anónimas** Esto permite a los organizadores de crear eventos de difusión que permitir que cualquier persona fuera de su organización para unirse a sin un requisito para iniciar sesión.
     
-- **Permitir reuniones de difusión para registrarse** Esto permite que las reuniones que se registrarán el moderador u organizador.
+- **Reuniones de difusión de permitir que se registre** Esto permite que cualquier tiene que estar registradas por el moderador o el organizador de reuniones.
     
-- **Helpdesk support URL para los asistentes** Especifique un vínculo para la difusión de asistentes que se utilizará si necesitan ayuda conectar o asistir a una reunión de difusión.
+- **Dirección URL para los asistentes de soporte de departamento de soporte técnico** Especifique un vínculo para los asistentes de difusión de reunión que se utilizará si necesitan ayuda conectar o asistir a una reunión de difusión.
     
 ## <a name="related-topics"></a>See also
 
