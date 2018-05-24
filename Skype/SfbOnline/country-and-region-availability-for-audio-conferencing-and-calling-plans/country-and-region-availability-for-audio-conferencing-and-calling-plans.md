@@ -1,5 +1,6 @@
 ---
 title: Países y regiones donde Audioconferencia y Planes de llamada están disponibles
+ms.date: 05/23/2018
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,11 +24,11 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Puede seleccionar un país o una región para comprobar si Audioconferencia, Sistema telefónico, Planes de llamada, Créditos de comunicaciones y los números gratuitos y de pago están disponibles o no.
-ms.openlocfilehash: c106f90cee586fccbeb87b9b45757691191b449e
-ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
+ms.openlocfilehash: 5a8ccbda886b72b0ad960a92152d37d68784197d
+ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Países y regiones donde Audioconferencia y Planes de llamada están disponibles
 

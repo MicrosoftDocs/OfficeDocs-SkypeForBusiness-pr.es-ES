@@ -1,5 +1,6 @@
 ---
 title: Skype para profesionales y Microsoft Teams complemento licencias
+ms.date: 05/23/2018
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,11 +22,11 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga información sobre las licencias de complemento, las características que obtendrá con, cómo comprar un producto para el producto y cómo usar su operador de telefonía existente con ellos. Puede obtener información sobre precios y plan de detalles para Office 365, créditos de comunicación, y los planes de llamada. '
-ms.openlocfilehash: 4bc58d0863890ab9cdd610f3bfa21803c81f8671
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 8de537ccec1e1ff10d42c1b31bae539bde671ba8
+ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="skype-for-business-and-microsoft-teams-add-on-licensing"></a>Skype para profesionales y Microsoft Teams complemento licencias
 
