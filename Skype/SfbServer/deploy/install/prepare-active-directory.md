@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 'Resumen: Obtenga información sobre cómo preparar el dominio de Active Directory para una instalación de Skype para Business Server 2015. Descargue una versión de prueba gratuita de Skype para Business Server 2015 desde el Evaluation de Microsoft center en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 96b45f02bbb8d14ed9c72d24092fc20183e37c6d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 6dfd6452e2ff0296fdeb90bd4f81296efac2be62
+ms.sourcegitcommit: 4eae947e339e728e5e1f338677860b910aafc029
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server-2015"></a>Preparar Active Directory para Skype Empresarial Server 2015
  
@@ -174,3 +174,7 @@ Vea los pasos del vídeo **Preparar Active Directory**:
      ![Preparación de Active Directory completada.](../../media/1fbb655a-25c3-4652-96f9-af0427def17d.png)
   
 
+## <a name="see-also"></a>Vea también
+
+#### 
+[Servicios de dominio de Active Directory para Skype para Business Server 2015](../../plan-your-deployment/security/active-directory-domain-services.md)
