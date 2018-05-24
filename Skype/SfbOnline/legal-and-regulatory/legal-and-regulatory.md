@@ -18,10 +18,10 @@ f1keywords: None
 ms.custom:
 - Legal
 description: 'Este es el contenido que se debe publicar para satisfacer los requisitos de la accesibilidad, cumplimiento y normativas de Skype para profesionales en línea en Francia. '
-ms.openlocfilehash: 7c17cd60f7ba693a182e22aeba8d160942a6bf37
-ms.sourcegitcommit: c63e7a8a746d427a1c886e8dca4d631c851e417c
+ms.openlocfilehash: 498fbb07ab5d2dd6ea036e1ceeb1e5598203a8cf
+ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2018
+ms.lasthandoff: 05/24/2018
 ---
-# <a name="legal-and-regulatory"></a><span data-ttu-id="92e24-103">Legales y normativos</span><span class="sxs-lookup"><span data-stu-id="92e24-103">Legal and regulatory</span></span>
+# <a name="legal-and-regulatory"></a><span data-ttu-id="bc78b-103">Legales y normativos</span><span class="sxs-lookup"><span data-stu-id="bc78b-103">Legal and regulatory</span></span>
