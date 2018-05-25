@@ -10,30 +10,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
-description: 'Resumen: Crear un grupo de servidores de vídeo interoperabilidad en Skype para Business Server 2015 mediante el generador de topología.'
-ms.openlocfilehash: ab34cf5b547301314bf169b56481818f78e9908a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Cree un grupo de servidores de interoperabilidad de vídeo en Skype para Business Server 2015 mediante el generador de topología.'
+ms.openlocfilehash: 89fcdf34480bc9b99295993d28e32ca547f07893
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server-2015"></a>Crear un grupo de VIS en Skype Empresarial Server 2015
  
-**Resumen:** Crear un grupo de servidores de vídeo interoperabilidad en Skype para Business Server 2015 mediante el generador de topología.
+**Resumen:** Crear un grupo de servidores de interoperabilidad de vídeo en Skype para Business Server 2015 mediante el generador de topología.
   
 ### <a name="create-a-vis-or-vis-pool-using-topology-builder"></a>Crear un VIS o un grupo de VIS con el Generador de topologías
 
-1. Abra el Generador de topologías en el servidor front-end. En el panel izquierdo del generador de topología, haga clic en ** vídeo interoperabilidad servidor grupos ** y elija **Nuevo grupo de servidores de interoperabilidad de vídeo**. 
+1. Abra el Generador de topologías en el servidor front-end. En el panel izquierdo del generador de topología, haga clic en ** los grupos de servidores de servidor de interoperabilidad de vídeo ** y elija **Nuevo grupo de servidores de interoperabilidad de vídeo**. 
     
-2. De este modo, se abrirá un asistente para **Crear un grupo de servidores de interoperabilidad de vídeo**. Proporcionar el FQDN del grupo para el nuevo servidor de interoperabilidad de vídeo y seleccione **este grupo tiene un servidor** o **este grupo tiene varios servidores** basada en su requisito, a continuación, haga clic en **siguiente**.
+2. De este modo, se abrirá un asistente para **Crear un grupo de servidores de interoperabilidad de vídeo**. Proporcionar el FQDN del grupo de servidores para el nuevo servidor de interoperabilidad de vídeo y seleccione **este grupo de servidores tiene un servidor** o **este grupo de servidores tiene varios servidores** en función de sus requisitos, a continuación, haga clic en **siguiente**.
     
-    Si desea implementar un grupo de servidores de interoperabilidad de vídeo para proporcionar alta disponibilidad, seleccione **este grupo cuenta con varios servidores**. Recuerde lo siguiente en relación con esta opción: 
+    Si desea implementar un grupo de servidores de interoperabilidad de vídeo para proporcionar una alta disponibilidad, seleccione **este grupo de servidores tiene varios servidores**. Recuerde lo siguiente en relación con esta opción: 
     
-    - Debe implementar el equilibrio de carga de DNS para admitir grupos de servidores de interoperabilidad de vídeo. 
+    - Debe implementar el equilibrio de carga DNS para admitir grupos de servidores de interoperabilidad de vídeo. 
     
-   - En la siguiente página, en el elemento **Definir los equipos de este grupo de servidores**, escriba el **FQDN de equipo** de cada servidor del grupo en el campo de texto y, luego, haga clic en **Agregar**. Repita este paso para agregar otro servidor de interoperabilidad de vídeo a la agrupación. Cuando haya definido todos los equipos en el grupo, presione **Siguiente**.
+   - En la siguiente página, en el elemento **Definir los equipos de este grupo de servidores**, escriba el **FQDN de equipo** de cada servidor del grupo en el campo de texto y, luego, haga clic en **Agregar**. Repita este paso para agregar otro servidor de interoperabilidad de vídeo al grupo de servidores. Cuando haya definido todos los equipos en el grupo, presione **Siguiente**.
     
-    Si desea implementar sólo un servidor de interoperabilidad de vídeo en el grupo, ya que no requieren alta disponibilidad, seleccione **este grupo tiene un servidor** y haga clic en **siguiente**.
+    Si desea implementar un solo servidor de interoperabilidad de vídeo en el grupo de servidores debido a que no requieran una alta disponibilidad, a continuación, seleccione **este grupo de servidores tiene un servidor** y haga clic en **siguiente**.
     
 3. Seleccione el grupo de servidores del próximo salto/FE de la lista desplegable y presione **Siguiente**.
     
@@ -41,7 +41,7 @@ ms.lasthandoff: 03/28/2018
     
 5. Defina un puerto TCP o TLS.
     
-    Seleccione el servidor de interoperabilidad de vídeo recién agregado en el panel izquierdo del generador de topología, haga clic botón derecho y elija **Editar propiedades**. Habilite o actualice el puerto TCP o TLS (lo que corresponda en su caso) y seleccione **Aceptar**. Aunque TLS se agrega de forma predeterminada, solo TCP es el que se ha comprobado completamente con CUCM.
+    Seleccione el servidor de interoperabilidad de vídeo recién agregado en el panel izquierdo del generador de topología, botón secundario haga clic en él y elija **Editar propiedades**. Habilite o actualice el puerto TCP o TLS (lo que corresponda en su caso) y seleccione **Aceptar**. Aunque TLS se agrega de forma predeterminada, solo TCP es el que se ha comprobado completamente con CUCM.
     
 6. Agregue una puerta de enlace de vídeo. Para ello, expanda Componentes compartidos, haga clic con el botón secundario en **Puertas de enlace de vídeo** y, luego, seleccione **Nueva puerta de enlace de vídeo**.
     
@@ -49,27 +49,26 @@ ms.lasthandoff: 03/28/2018
     
 8. Seleccione IPv4 o IPv6, lo que corresponda. Puede usar todas las direcciones IP configuradas o acotar el uso del servicio a determinadas direcciones IP.
     
-9. Seleccione el puerto de escucha de la puerta de enlace de vídeo. Seleccione el protocolo de transporte (TCP o TLS) y asociarlo con un servidor de interoperabilidad de vídeo que se configura para un vídeo troncal SIP. El protocolo de transporte de la puerta de enlace de vídeo tiene que ser el mismo que el que se ha configurado para el VIS.
+9. Seleccione el puerto de escucha de la puerta de enlace de vídeo. Seleccione el protocolo de transporte (TCP o TLS) y asociarlo con un servidor de interoperabilidad de vídeo que se configura para un tronco SIP vídeo. El protocolo de transporte de la puerta de enlace de vídeo tiene que ser el mismo que el que se ha configurado para el VIS.
     
-10. Tras completar el paso anterior, se agrega el tronco SIP de vídeo pertinente. Haga clic con el botón secundario en el tronco SIP de vídeo y seleccione el tronco que acaba de agregar. El nombre de vídeo troncal SIP, asociados vídeo servidor de interoperabilidad, protocolo de transporte SIP y puerto se pueden cambiar. 
+10. Tras completar el paso anterior, se agrega el tronco SIP de vídeo pertinente. Haga clic con el botón secundario en el tronco SIP de vídeo y seleccione el tronco que acaba de agregar. El nombre del tronco SIP vídeo, asociado vídeo de interoperabilidad de servidor, el protocolo de transporte SIP y puerto se pueden cambiar. 
     
     > [!NOTE]
-    >  Un servidor de interoperabilidad de vídeo admite troncos de 1: n. Por lo tanto, varios troncos pueden agregarse, que se asocia con un único servidor de interoperabilidad de vídeo, donde cada tronco termina en una puerta de enlace de vídeo diferentes. La limitación es que una puerta de enlace de vídeo determinado tiene solo un tronco que puede definirse para el Skype para la implementación de Business Server.
+    >  Un servidor de interoperabilidad de vídeo admite troncos de 1: n. Por lo tanto, varios troncos pueden agregarse, que se asocia con un único servidor de interoperabilidad de vídeo, donde cada tronco termina en una puerta de enlace de vídeo diferentes. La limitación es que una puerta de enlace de vídeo determinado tiene solo un tronco que puede definirse para la Skype para la implementación de Business Server.
   
-11. Publicar el documento de topología, como se describe en [crear y publicar la nueva topología en Skype para Business Server 2015](../../deploy/install/create-and-publish-new-topology.md).
+11. Publicar el documento de topología tal como se describe en [crear y publicar la nueva topología de Skype para Business Server 2015](../../deploy/install/create-and-publish-new-topology.md).
     
     > [!NOTE]
-    > Para mejorar la resiliencia, es aconsejable configurar un segundo servidor de interoperabilidad de vídeo o VIS piscina, o una agrupación de Front-End de copia de seguridad. Consulte [Resiliency mechanisms](../../plan-your-deployment/video-interop-server.md#resiliency) para más información.
+    > Para mejorar la resistencia, es posible que desee configurar un segundo grupo de servidor de interoperabilidad de vídeo o con respecto, o un grupo de servidores Front-End copia de seguridad. Consulte [Resiliency mechanisms](../../plan-your-deployment/video-interop-server.md#resiliency) para más información.
   
 Todas las tareas realizadas con el Generador de topologías tendrían que finalizar aquí. Continúe con la instalación del software en el nuevo servidor o en los nuevos servidores VIS.
 ## <a name="see-also"></a>Vea también
 
 #### 
 
-[Implementar la función de servidor de VIS en Skype para Business Server 2015](deploy-the-vis-server-role.md)
-#### 
+[Implementar el rol de servidor de respecto de Skype para Business Server 2015](deploy-the-vis-server-role.md)
 
-[Plan de vídeo servidor interoperabilidad en Skype para Business Server 2015](../../plan-your-deployment/video-interop-server.md)
+[Planeación de servidor de interoperabilidad vídeo en Skype para Business Server 2015](../../plan-your-deployment/video-interop-server.md)
   
-[Crear y publicar la nueva topología en Skype para Business Server 2015](../../deploy/install/create-and-publish-new-topology.md)
+[Crear y publicar la nueva topología de Skype para Business Server 2015](../../deploy/install/create-and-publish-new-topology.md)
 

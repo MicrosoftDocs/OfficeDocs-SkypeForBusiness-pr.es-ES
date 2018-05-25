@@ -9,11 +9,11 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
-ms.openlocfilehash: 39a3811b411256b1d2a00f9f0e3f48f333fc2df7
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 3c8c314000fddf78f9247efaefa989f586c1e7b4
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="release-notes"></a>Notas de la versión 
 
@@ -152,4 +152,3 @@ Se introdujeron en esta actualización:
 [Planeación de la sala de Skype v2 de sistemas](skype-room-systems-v2-0.md)
 
 [Administración de salón de Skype v2 de sistemas](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-#### 

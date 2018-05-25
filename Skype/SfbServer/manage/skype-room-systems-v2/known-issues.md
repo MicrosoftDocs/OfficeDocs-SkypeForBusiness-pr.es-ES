@@ -9,11 +9,11 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: En este artículo se describe problemas conocidos de las versiones actuales de sucursal de sistemas de salón de Skype v2.
-ms.openlocfilehash: cdcd33566c4e14078b14ed5d3656eb1bffee6c6a
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 9214a1b198431decda70687d7e1dd3aa08069554
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="known-issues"></a>Problemas conocidos 
  
@@ -64,4 +64,3 @@ Ya no se admite la versión de 64 bits de edición de Windows 10 Enterprise aniv
 [Ayuda de la versión 2 de sistemas de salón de Skype](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Administración de salón de Skype v2 de sistemas](skype-room-systems-v2.md)
-#### 

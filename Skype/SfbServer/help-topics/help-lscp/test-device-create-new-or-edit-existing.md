@@ -1,5 +1,5 @@
 ---
-title: Dispositivo de prueba crear nuevo o editar existente
+title: Dispositivo de prueba crear nuevos o editar los existentes
 ms.author: laurawi
 author: LauraWi
 manager: serdars
@@ -11,16 +11,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
-description: La característica Dispositivo de prueba funciona junto con la característica Actualización de dispositivos. Puede agregar un dispositivo de prueba a la página de prueba de dispositivos y, a continuación, utilizar este dispositivo para comprobar la funcionalidad de las nuevas actualizaciones antes de implementarlas en dispositivos de producción. Puede probar un dispositivo de forma global (en todo el entorno) o en un solo sitio. Un dispositivo de prueba se identifica por su dirección Media Access Control (MAC) o número de serie. Cuando agrega un dispositivo, aparece en la lista en la página dispositivo de prueba de la Skype para Panel de Control de servidor empresarial.
-ms.openlocfilehash: 022a56797952986f52772cb5fbed6d1f09bf7d75
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: La característica Dispositivo de prueba funciona junto con la característica Actualización de dispositivos. Puede agregar un dispositivo de prueba a la página probar dispositivo y, a continuación, usar este dispositivo para comprobar la funcionalidad de nuevas actualizaciones antes de implementar las actualizaciones en los dispositivos de producción. Puede probar un dispositivo de forma global (en todo el entorno) o en un solo sitio. Un dispositivo de prueba se identifica por su dirección Media Access Control (MAC) o número de serie. Cuando se agrega un dispositivo, aparece en la lista en la página dispositivo de prueba de la Skype para el Panel de Control de servidor empresarial.
+ms.openlocfilehash: 765bd7db9cbce369a92d3bb532076e480374ebb4
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>Dispositivo de prueba: Crear nuevo o editar existente
  
-La característica Dispositivo de prueba funciona junto con la característica Actualización de dispositivos. Puede agregar un dispositivo de prueba a la página **Dispositivo de prueba** y, luego, usar este dispositivo para comprobar la funcionalidad de las actualizaciones nuevas antes de implementarlas en los dispositivos de producción. Puede probar un dispositivo de forma global (en todo el entorno) o en un solo sitio. Un dispositivo de prueba se identifica por su dirección Media Access Control (MAC) o número de serie. Cuando agrega un dispositivo, aparece en la lista en la página de **Prueba de dispositivo** de la Skype para Panel de Control de servidor empresarial.
+La característica Dispositivo de prueba funciona junto con la característica Actualización de dispositivos. Puede agregar un dispositivo de prueba a la página **Dispositivo de prueba** y, luego, usar este dispositivo para comprobar la funcionalidad de las actualizaciones nuevas antes de implementarlas en los dispositivos de producción. Puede probar un dispositivo de forma global (en todo el entorno) o en un solo sitio. Un dispositivo de prueba se identifica por su dirección Media Access Control (MAC) o número de serie. Cuando se agrega un dispositivo, aparece en la lista en la página **Dispositivo de prueba** de la Skype para el Panel de Control de servidor empresarial.
   
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 
@@ -34,13 +34,13 @@ En las páginas **Nuevo dispositivo de prueba** o **Editar dispositivo de prueba
 
 En las siguientes listas se describen los menús, comandos, campos y propiedades de la página.
   
-- **Ámbito de aplicación** Identifica el ámbito (Global o sitio) de dispositivo de la prueba.
+- **Ámbito** Identifica el ámbito (Global o sitio) del dispositivo de prueba.
     
-- **Nombre** Puede agregar o modificar el nombre del dispositivo de la prueba.
+- **Nombre** Puede agregar o modificar el nombre del dispositivo de prueba.
     
-- **Nombre de dispositivo** Puede agregar o modificar el nombre del dispositivo de la prueba.
+- **Nombre de dispositivo** Puede agregar o modificar el nombre del dispositivo de prueba.
     
-- **Tipo de identificador** Puede seleccionar el método que se utiliza para identificar el dispositivo, seleccionando una de las siguientes acciones:
+- **Tipo de identificador** Puede seleccionar el método que usar para identificar el dispositivo seleccionando una de las siguientes opciones:
     
   - **Dirección MAC**
     
@@ -48,17 +48,16 @@ En las siguientes listas se describen los menús, comandos, campos y propiedades
     
 - **Identificador único** Puede escribir la dirección MAC o número de serie del dispositivo.
     
-Para obtener más información acerca de las pruebas de los dispositivos, vea [Agregar un dispositivo a prueba la funcionalidad de actualización](http://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) en la documentación de las operaciones.
+Para obtener información detallada acerca de cómo probar dispositivos, vea [Agregar un dispositivo para probar la funcionalidad de actualización](http://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) en la documentación sobre operaciones.
 ## <a name="see-also"></a>Vea también
 
 #### 
 
 [Dispositivo de prueba](test-device.md)
-#### 
 
-[Nueva CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
+[Nuevo-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
   
-[Conjunto de CsTestDevice](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
+[Set-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
   
-[Ver actualizaciones de Software para los dispositivos de su organización](http://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)
+[Ver actualizaciones de Software para dispositivos de la organización](http://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)
 

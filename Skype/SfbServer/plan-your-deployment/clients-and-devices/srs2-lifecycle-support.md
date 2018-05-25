@@ -9,11 +9,11 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: En este artículo se describe la compatibilidad de ciclo de vida para sistemas de salón de Skype v2.
-ms.openlocfilehash: 94f0465af97dd0f9d620a269a47280b6edca9fd9
-ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
+ms.openlocfilehash: 596197a240d4cf44e8bcf0d0069f9cad5d5e6777
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/16/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="version-support"></a>Compatibilidad con la versión
  
@@ -46,4 +46,3 @@ Todas las versiones se enumeran en las [notas de la versión v2 de sistemas de s
 
 [Planeación de la sala de Skype v2 de sistemas](skype-room-systems-v2-0.md)
 
-#### 

@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 'Resumen: Obtenga información sobre cómo definir una regla de conversión mediante la compilación una herramienta de la regla de conversión de Skype para Business Server 2015.'
-ms.openlocfilehash: dab0b2c2b808b873a443c14849e69f2b33ed9e31
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: cdaa26a832b453e641bf4b7fbd2df30a80324f7d
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server-2015"></a>Crear o modificar una regla de conversión para presentación del identificador del destinatario de la llamada en Skype Empresarial Server 2015
  
@@ -107,7 +107,6 @@ Siga estos pasos si desea definir una regla de conversión especificando un conj
 [Configurar un tronco sin desvío de medios en Skype para Business Server 2015](configure-trunk-without-media-bypass.md)
   
 [Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para profesionales de 2015](voice-route-config-changes.md)
-#### 
 
 [Implementar el desvío de medios en Skype para Business Server 2015](deploy-media-bypass.md)
 

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: En este artículo se resume los requisitos para admitir un v2 de sistemas de salón de Skype.
-ms.openlocfilehash: 39ea680d3f7a1b45531b038e5465e74647fea12a
-ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
+ms.openlocfilehash: 7259e82be2ed0e57ba784a96774c12b10f990170
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Requisitos de Sistemas de salas de Skype v2
  
@@ -148,7 +148,6 @@ Además, deseará probablemente una copia de [SkypeRoomProvisioningScript.ps1](h
 [Configurar una consola de v2 de sistemas de salón de Skype](../../deploy/deploy-clients/console.md)
   
 [Administración de salón de Skype v2 de sistemas](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-#### 
 
 [Licencias complementarias de Skype Empresarial](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)
 

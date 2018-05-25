@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 'Resumen: Configurar un tronco sin desvío de medios habilitado para Skype para Business Server 2015.'
-ms.openlocfilehash: 1885ef2a599398fa0ef9d36075d80e0a9f588dd5
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 399ee06eeddb309fe9820ad13a5c30e931b3486d
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server-2015"></a>Configurar un tronco sin omisión de medios en Skype Empresarial Server 2015
  
@@ -167,7 +167,6 @@ Tal como se describe a continuación, una configuración de tronco agrupa un con
 #### 
 
 [Configurar un tronco con desvío de medios en Skype para Business Server 2015](configure-trunk-with-media-bypass.md)
-#### 
 
 [Definición de reglas de conversión](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
 
