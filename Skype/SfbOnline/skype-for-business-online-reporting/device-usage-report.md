@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: El nuevo panel Informes de Office 365 muestra la información general de actividad en los productos de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto. Por ejemplo, puede usar el Skype para el informe de uso del dispositivo de empresa para ver los dispositivos, incluidos los sistemas operativos basados en Windows y dispositivos móviles, que tienen el Skype para la aplicación empresarial de instalan y están usando para la mensajería instantánea y reuniones. Comprobar los informes de actividad en el centro de administración de Office 365 para obtener más información.
-ms.openlocfilehash: 711138e62b6614606b8532004591547cb2acd525
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 415522c9b8999229e32c90b2ac3be0a69a068a9c
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="device-usage-report"></a>Informe de uso del dispositivo
 
@@ -54,8 +54,9 @@ Puede obtener una vista en los dispositivos que están usando el Skype para la a
 ***
 ![Número 1](../images/sfbcallout1.png)<br/>Puede verse el informe de **Skype para uso empresarial del dispositivo** para las tendencias durante los últimos 7 días, 30 días, 90 días o 180 días. Sin embargo, si hace clic en un día determinado en el informe, en la tabla (consulte: número 7) mostrará datos durante 30 días, hasta la fecha (vea número 2) para cuando se generó el informe.
 
-    > [!Note]
-    > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
+> [!NOTE]
+> Si hace clic en los detalles de un día específico, en la tabla sólo muestra los datos de los 30 días hasta la fecha de cuando se generó el informe.
+    
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>
 Cada informe tiene la fecha del momento en que se generó. Normalmente, los informes reflejan una latencia de 24 a 48 horas de tiempo de actividad. 

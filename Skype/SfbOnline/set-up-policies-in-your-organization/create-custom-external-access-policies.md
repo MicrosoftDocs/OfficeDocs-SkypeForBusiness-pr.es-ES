@@ -1,5 +1,5 @@
 ---
-title: Crear directivas personalizadas de acceso externo
+title: Crear directivas de acceso externo personalizado
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,35 +15,35 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: Skype para los negocios en línea le permite crear directivas de acceso externo adicional. A diferencia de las directivas de cliente o conferencias, donde es posible tener varias combinaciones, hay tres directivas predefinidas de acceso externo que pueden cubrir la mayoría de los escenarios.
-ms.openlocfilehash: 424102ddf9570ac4b3a8d02917b2d9cafe6bff6f
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Skype para profesionales en línea le permite crear directivas de acceso externo adicionales. A diferencia de las directivas de cliente o las conferencias, donde puede tener varias combinaciones de, hay tres directivas de acceso externo predefinidos que pueden cubrir la mayor parte de los escenarios.
+ms.openlocfilehash: 8d0cff680ebf225a9dc62e585f39ab3f0b27e3c3
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/25/2018
 ---
-# <a name="create-custom-external-access-policies"></a>Crear directivas personalizadas de acceso externo
+# <a name="create-custom-external-access-policies"></a>Crear directivas de acceso externo personalizado
 
-Skype para los negocios en línea le permite crear directivas de acceso externo adicional. A diferencia de las directivas de cliente o conferencias, donde es posible tener varias combinaciones, hay tres directivas predefinidas de acceso externo que pueden cubrir la mayoría de los escenarios. Estos son:
+Skype para profesionales en línea le permite crear directivas de acceso externo adicionales. A diferencia de las directivas de cliente o las conferencias, donde puede tener varias combinaciones de, hay tres directivas de acceso externo predefinidos que pueden cubrir la mayor parte de los escenarios. Estos son:
   
-- No federado o consumidor de Skype Access (_Etiqueta: NoFederationAndPIC_ )
+- No federado o el acceso de los consumidores de Skype (_Etiqueta: NoFederationAndPIC_ )
     
 - Sólo acceso federado (_Etiqueta: FederationOnly_ )
     
-- Federados y consumidor accede (_FederationAndPICDefault_)
+- Federados y consumidor tener acceso a (_FederationAndPICDefault_)
     
-Directivas externas personalizadas le permiten crear más políticas que no estén cubiertos por los valores anteriores. Cuando se creó la directiva, se necesitaría para establecer todos los parámetros necesarios y se no se puede modificar más adelante. Creación de nuevas directivas personalizadas permiten a las características de control como el acceso de los consumidores Skype o una directiva para deshabilitar pública de nube audio o vídeo, lo cual es algo que no estaba cubierto con una configuración predefinida. Las directivas de acceso externo personalizado siguen la misma sintaxis que las directivas de cliente, movilidad y conferencias. Puede encontrar más información acerca de las opciones [aquí](https://technet.microsoft.com/en-us/library/mt228132.aspx).
+Le permiten directivas externas personalizadas crear otras directivas que no están cubiertas por los valores anteriores. Cuando se creó la directiva, se necesitaría para establecer todos los parámetros necesarios y se han podido modificar más adelante. Creación de nuevas directivas personalizadas permiten a las características de control, como el acceso de los consumidores Skype o una directiva para deshabilitar pública de nube audio y vídeo, que es algo que no estaba cubierto con valores de configuración predefinidos. Directivas de acceso externo personalizado siguen la misma sintaxis que las directivas de cliente, la movilidad y la conferencia. Puede encontrar más información acerca de esas opciones de configuración [aquí](https://technet.microsoft.com/en-us/library/mt228132.aspx).
   
-Para que esto funcione, el usuario debe utilizar una versión compatible de 2016 Skype hacer clic para ejecutar para el negocio de la aplicación que lo admite. Se requiere la siguiente versión mínima de Skype para cliente de negocios 2016 clic y ejecutar:
+Para realizar este trabajo, el usuario debe usar una versión compatible de 2016 Click-to-Run Skype para la aplicación empresarial que lo admite. La siguiente versión mínima de Skype para clientes empresariales 2016 Click-to-Run es necesaria:
   
-|**Tipo**|**Fecha de lanzamiento**|**Versión**|**Versión**|
+|**Tipo de**|**Fecha de lanzamiento**|**Versión**|**Versión**|
 |:-----|:-----|:-----|:-----|
-|Primera versión para el canal actual  <br/> |17/11/2016  <br/> |16.0.7571.2006  <br/> |Versión 1611 (compilación 7571.2006)  <br/> |
+|Primera versión de canal actual  <br/> |17/11/2016  <br/> |16.0.7571.2006  <br/> |Versión 1611 (compilación 7571.2006)  <br/> |
 |Canal actual  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Versión 1611 (compilación 7571.2072)  <br/> |
-|Canal diferido  <br/> |22/2/2017  <br/> |16.0.7369.2118  <br/> |Versión 1609 (compilación 7369.2118)  <br/> |
+|Canal diferida  <br/> |22/2/2017  <br/> |16.0.7369.2118  <br/> |Versión 1609 (compilación 7369.2118)  <br/> |
    
 > [!CAUTION]
-> Usuarios que utilizan versiones anteriores de Skype para clientes de Mac o Windows Business apps podrán transferir archivos. 
+> Los usuarios que usan versiones anteriores de Skype para aplicaciones de Windows de negocio o los clientes de Mac aún podrá transferir archivos. 
   
 ## <a name="verify-and-start-windows-powershell"></a>Verificar e iniciar Windows PowerShell
 
@@ -75,9 +75,9 @@ Para que esto funcione, el usuario debe utilizar una versión compatible de 2016
     Import-PSSession $session
   ```
 
-  Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar con todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [conectarse a Skype para los negocios en línea mediante el uso de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+  Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [Connecting to Skype para profesionales en línea mediante Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
-## <a name="create-a-custom-external-access-policy-for-a-user"></a>Crear una directiva personalizada de acceso externo para un usuario
+## <a name="create-a-custom-external-access-policy-for-a-user"></a>Crear una directiva de acceso externo personalizado para un usuario
 
 Para ello, ejecute:
   
@@ -94,7 +94,7 @@ Para ello, ejecute:
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-- En relación con Windows PowerShell, todo se reduce a la administración de usuarios y de lo que pueden o no hacer los usuarios. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
+- Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -113,7 +113,7 @@ Para ello, ejecute:
 
 [Establecer directivas de cliente en su organización](set-up-client-policies-for-your-organization.md)
 
-[Configurar directivas de la conferencia de la organización](set-up-conferencing-policies-for-your-organization.md)
+[Configurar las directivas de conferencia en la organización](set-up-conferencing-policies-for-your-organization.md)
 
   
  

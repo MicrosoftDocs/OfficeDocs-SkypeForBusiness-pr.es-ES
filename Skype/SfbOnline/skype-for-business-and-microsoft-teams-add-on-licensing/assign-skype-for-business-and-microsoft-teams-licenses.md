@@ -20,17 +20,19 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Obtenga información sobre cómo asignar Skype para licencias de negocio para el sistema telefónico, conferencias de Audio, llamar a los planes y créditos Communications. '
-ms.openlocfilehash: 00c80637e4b94a66f63c43e51f0bc3e562d42bea
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9cc11ea1e527ccfae205152ae869316bbb3ffa88
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="assign-skype-for-business-and-microsoft-teams-licenses"></a>Asignar Skype para licencias de negocio y Microsoft Teams
 
 Este artículo ofrece sugerencias acerca de cómo asignar licencias a los usuarios para características como conferencias de Audio, el sistema telefónico y planes de llamar a. También proporciona scripts para asignar varias licencias a la vez.
+
+> [!IMPORTANT]
+> Vea [las licencias de Skype para complemento de negocio y equipos de Microsoft](skype-for-business-and-microsoft-teams-add-on-licensing.md) para obtener información acerca de qué licencias que necesitará comprar y **cómo comprar** ellos, dependiendo de su Office 365 planeación - por lo que los usuarios obtener conferencias de Audio, los números gratuitos y la posibilidad de llamar a números de teléfono fuera de su negocio.
   
- **Importante**: vea [Skype para profesionales y los equipos de Microsoft complemento licencias](skype-for-business-and-microsoft-teams-add-on-licensing.md) para obtener información acerca de las licencias del cliente necesiten a comprar y **cómo comprar** - según su plan de Office 365 - por lo que los usuarios obtener conferencias de Audio, los números gratuitos, y la capacidad de llamar a números de teléfono fuera de su negocio.
   
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>Sistema y planes de llamada de teléfono: sugerencias y secuencias de comandos para la asignación de licencias
 

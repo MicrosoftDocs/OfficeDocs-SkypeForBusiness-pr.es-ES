@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 81fbb40aad10687d3a75020a23b20cbeee7d5c2e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 119e56f27edc992466a6565235715d2703b1cb12
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="create-a-phone-system-call-queue"></a>Crear una cola de llamadas de sistema telefónico
 
@@ -127,7 +127,10 @@ En el **Centro de administración de Skype Empresarial**, haga clic en **Enrutam
 ![Muestra las opciones del método de distribución de la llamada](../images/5d249515-d532-4af2-90da-011404028b89.png)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/>**Llame al método de distribución** Puede elegir el **operador** o **en serie** para el método de distribución de la cola de llamada. Todas las colas de llamadas nuevas y existentes tienen un enrutamiento operador seleccionada de manera predeterminada. Para usar el enrutamiento en serie, debe elegir explícitamente la opción de enrutamiento **en serie** de cmdlets y la interfaz de usuario. <br/><br/> Cuando se elige el enrutamiento en serie y se guarda la cola de llamadas, las llamadas desde la cola sonarán a los agentes uno a uno, comenzando por el principio de la lista de agentes. Si un agente omite o no recoge una llamada, la llamada sonará al siguiente agente en la lista y probará todos los agentes de uno a uno hasta que se recoge o tiempos de espera en la cola.  <br/><br/>  **Nota:** Enrutamiento en serie omitirá a los agentes que están **sin conexión**, han establecido su presencia en **No molestar**o contienen **participa** de la obtención de las llamadas de esta cola.  
+![Número 1](../images/sfbcallout1.png)<br/>**Llame al método de distribución** Puede elegir el **operador** o **en serie** para el método de distribución de la cola de llamada. Todas las colas de llamadas nuevas y existentes tienen un enrutamiento operador seleccionada de manera predeterminada. Para usar el enrutamiento en serie, debe elegir explícitamente la opción de enrutamiento **en serie** de cmdlets y la interfaz de usuario. <br/><br/> Cuando se elige el enrutamiento en serie y se guarda la cola de llamadas, las llamadas desde la cola sonarán a los agentes uno a uno, comenzando por el principio de la lista de agentes. Si un agente omite o no recoge una llamada, la llamada sonará al siguiente agente en la lista y probará todos los agentes de uno a uno hasta que se recoge o tiempos de espera en la cola.   
+
+> [!NOTE]
+> Enrutamiento en serie omitirá a los agentes que están **sin conexión**, han establecido su presencia en **No molestar**o contienen **participa** de la obtención de las llamadas de esta cola. 
    
 ### <a name="select-an-agent-opt-out-option"></a>Seleccionar un agente excluir de opción
 
@@ -222,7 +225,7 @@ Estos son los cmdlets que necesita para administrar una cola de llamadas.
     
 ### <a name="more-about-windows-powershell"></a>Más información sobre Windows PowerShell
 
-- En relación con Windows PowerShell, todo se reduce a la administración de usuarios y de lo que pueden o no hacer los usuarios. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
+- Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

@@ -19,11 +19,11 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft recopila datos de error, el uso y el recuento para comprender cómo se utiliza Skype para la empresa y donde los usuarios tienen problemas. Los datos se usan para planear mejoras en los productos.
-ms.openlocfilehash: 46a292e462708b77b60aa1c8a52c2148fbc82775
-ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
+ms.openlocfilehash: 8ea357aefe96505285d9c7bb870ef852ea2649a4
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype para profesionales y Microsoft Teams prácticas de recopilación de datos
 
@@ -77,8 +77,9 @@ Recolección de datos está activado de forma predeterminada, pero local Adminis
 Los usuarios finales no se puede activar o desactivar la recolección de datos.
   
 Para la aplicación de las reuniones de Skype y las páginas de web del iniciador de participación, la forma de controlar la telemetría es a través de esta directiva:
-  
-Set-CsWebServiceConfiguration - MeetingUxEnableTelemetry $True
+ 
+`Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True` 
+
   
 Esta directiva el valor predeterminado es false, por lo que la colección de telemetría está desactivado de forma predeterminada. Esta configuración es por grupo y controla todos los usuarios que se conectan con la aplicación de las reuniones de Skype a una reunión hospedada en ese servidor.
   
@@ -99,9 +100,9 @@ Informes de errores requieren dos cosas:
   
 - La configuración de directiva de grupo de DisableAutomaticSendTracing se establece en False en el servidor o en el centro de administración de inquilinos (es decir, el estado predeterminado). Para obtener más información, vea [Configurar directivas de arranque cliente en Skype para Business Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx) .
     
-- Los usuarios finales individualmente participar en de la ficha General (haga clic en el icono del engranaje y el cuadro de diálogo de la opción, se abre con la ficha General que se muestra) en el Skype para clientes empresariales.
+- Los usuarios finales individualmente participar en de la ficha General (haga clic en el icono del engranaje ![icono de engranaje](../images/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) y, a continuación, se abre el cuadro de diálogo **Opciones** con la ficha **General** que se muestra) en el Skype para clientes empresariales.
     
-     ![Icono de engranaje](../images/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)
+ 
   
 ![Skype para checkbox de colección de datos profesionales en las opciones > cuadro de diálogo General](../images/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
   
