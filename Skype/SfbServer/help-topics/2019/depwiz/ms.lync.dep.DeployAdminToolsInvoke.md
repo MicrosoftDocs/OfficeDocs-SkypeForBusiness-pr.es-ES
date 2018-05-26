@@ -12,14 +12,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 33fdbb31-c9c7-49cb-81ab-2522ac9ac8b9
 description: Para obtener información detallada acerca de cómo utilizar el Asistente para la implementación para instalar Skype para Business Server 2015, vea instalar Skype para Business Server 2015.
-ms.openlocfilehash: 52d4a04609c7e52356107696a0710fb52d7c60b4
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: b6398ac91e3f8cc3fb0ad281116ee6abb4c86cbc
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
-# <a name="deployment-wizard-using-the-admin-tools"></a><span data-ttu-id="ef909-103">Asistente para la implementación: Uso de las herramientas administrativas</span><span class="sxs-lookup"><span data-stu-id="ef909-103">Deployment Wizard: Using the Admin Tools</span></span>
+# <a name="deployment-wizard-using-the-admin-tools"></a><span data-ttu-id="3811a-103">Asistente para la implementación: Uso de las herramientas administrativas</span><span class="sxs-lookup"><span data-stu-id="3811a-103">Deployment Wizard: Using the Admin Tools</span></span>
  
-<span data-ttu-id="ef909-104">Para obtener información detallada acerca de cómo utilizar el Asistente para la implementación para instalar Skype para Business Server 2015, vea [Instalar Skype para Business Server 2015](../../deploy/install/install.md).</span><span class="sxs-lookup"><span data-stu-id="ef909-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
+<span data-ttu-id="3811a-104">Para obtener información detallada acerca de cómo utilizar el Asistente para la implementación para instalar Skype para Business Server 2015, vea [Instalar Skype para Business Server 2015](../../../deploy/install/install.md).</span><span class="sxs-lookup"><span data-stu-id="3811a-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../../deploy/install/install.md).</span></span>
   
 

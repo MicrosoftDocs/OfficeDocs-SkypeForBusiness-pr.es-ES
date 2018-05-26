@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 3a7b4efe4f79b43ad9613e9bb0b60975960c7d65
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 1cc2718b740f141f29d6a8eb24342079a2813232
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
-# <a name="xmpp-federated-partners-create-new-or-edit-existing"></a><span data-ttu-id="abada-104">Socios federados de XMPP: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="abada-104">XMPP Federated Partners: Create New or Edit Existing</span></span>
+# <a name="xmpp-federated-partners-create-new-or-edit-existing"></a><span data-ttu-id="c7c5a-104">Socios federados de XMPP: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="c7c5a-104">XMPP Federated Partners: Create New or Edit Existing</span></span>
  
-<span data-ttu-id="abada-p102">¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="abada-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="c7c5a-p102">¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="c7c5a-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="abada-107">Crear o editar la configuración del socio XMPP</span><span class="sxs-lookup"><span data-stu-id="abada-107">Create or Edit XMPP Partner Configuration</span></span>](http://technet.microsoft.com/library/362dbe5e-8ee9-4aba-8c26-5907312b4a60.aspx)
+- [<span data-ttu-id="c7c5a-107">Crear o editar la configuración del socio XMPP</span><span class="sxs-lookup"><span data-stu-id="c7c5a-107">Create or Edit XMPP Partner Configuration</span></span>](http://technet.microsoft.com/library/362dbe5e-8ee9-4aba-8c26-5907312b4a60.aspx)
     
-- [<span data-ttu-id="abada-108">Tabla de opciones de negociación para XMPP socios federados</span><span class="sxs-lookup"><span data-stu-id="abada-108">Negotiation Settings Table for XMPP Federated Partners</span></span>](http://technet.microsoft.com/library/ef773942-ef92-4f71-85a1-738dfebdfa00.aspx)
+- [<span data-ttu-id="c7c5a-108">Tabla de opciones de negociación para XMPP socios federados</span><span class="sxs-lookup"><span data-stu-id="c7c5a-108">Negotiation Settings Table for XMPP Federated Partners</span></span>](http://technet.microsoft.com/library/ef773942-ef92-4f71-85a1-738dfebdfa00.aspx)
     
-<span data-ttu-id="abada-109">Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="abada-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="c7c5a-109">Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="c7c5a-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
 
