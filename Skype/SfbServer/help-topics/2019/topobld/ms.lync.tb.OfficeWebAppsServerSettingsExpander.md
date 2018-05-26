@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 description: 'Para editar las propiedades de Office Web Apps Server configurada. Pueden modificarse las siguientes propiedades:'
-ms.openlocfilehash: 44f9218ff8e125389dae06396a9b06e5cc197e44
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: b7da5e19d6d9c300d96442c97bf4866116a60af3
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Editar configuración del servidor Office Web Apps
  
@@ -28,7 +28,7 @@ Para editar las propiedades de Office Web Apps Server configurada. Pueden modifi
   
 Active la casilla **El servidor de Office Web Apps se implementa en una red externa** si este servidor está implementado en su red perimetral o en otra zona de red que se encuentra fuera del firewall interno que separa la red perimetral, las redes de poca confianza e Internet de la implementación interna.
   
-![Expansor de configuración de Office Web Apps](../../media/OfficeWebApps_Settings_Expander.jpg)
+![Expansor de configuración de Office Web Apps](../../../media/OfficeWebApps_Settings_Expander.jpg)
   
 ## <a name="see-also"></a>Vea también
 

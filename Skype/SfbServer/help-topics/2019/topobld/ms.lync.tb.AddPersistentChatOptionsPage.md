@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 description: 'Configurar opciones para el servidor de Chat persistente o grupo de servidores de Chat persistente mediante la definición de las siguientes propiedades:'
-ms.openlocfilehash: 445e84b4be0567b63b9a56a7bc130e584a826430
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f1276fa72f9a6c41ac4d5ec8e2a91232561eb79d
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>Definir propiedades y opciones para grupo de servidores de chat persistente
  
@@ -28,7 +28,7 @@ Configurar opciones para el servidor de Chat persistente o grupo de servidores d
   
  **Habilitar cumplimiento**: Active la casilla de verificación si tiene previsto implementar la característica de cumplimiento de normas de Chat persistente opcional y una base de datos.
   
- **Usar copia de seguridad de SQL Server almacena para habilitar la recuperación ante desastres**: seleccione esta casilla de verificación si tiene previsto implementar y la recuperación ante desastres de Persistent Chat SQL Server se almacena en un conjunto de copia de seguridad configurado de almacenes en otro servidor SQL Server. Para obtener información detallada, vea [Configure una alta disponibilidad y recuperación ante desastres para servidor de Chat persistente en Skype para Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
+ **Usar copia de seguridad de SQL Server almacena para habilitar la recuperación ante desastres**: seleccione esta casilla de verificación si tiene previsto implementar y la recuperación ante desastres de Persistent Chat SQL Server se almacena en un conjunto de copia de seguridad configurado de almacenes en otro servidor SQL Server. Para obtener información detallada, vea [Configure una alta disponibilidad y recuperación ante desastres para servidor de Chat persistente en Skype para Business Server 2015](../../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
   
 > [!NOTE]
 > Esta opción solamente está disponible para grupos de servidores con varios servidores. 
@@ -50,7 +50,7 @@ Haga clic en **Ayuda** para obtener acceso a la ayuda contextual, como esta pág
 
 #### 
 
-[Planeación de servidor de Chat persistente en Skype para Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planeación de servidor de Chat persistente en Skype para Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Agregar servidor de Chat persistente a su Skype para topología empresarial Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Agregar servidor de Chat persistente a su Skype para topología empresarial Server 2015](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
 

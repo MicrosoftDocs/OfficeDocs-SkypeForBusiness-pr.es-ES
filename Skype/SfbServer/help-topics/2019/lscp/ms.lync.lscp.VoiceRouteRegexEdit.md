@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fc0fd40d-77b0-40c1-94f4-1026f70bcf30
 description: Escriba una expresión regular de .NET Framework para especificar el patrón coincidente para los números de teléfono de destino a la que se aplica la ruta.
-ms.openlocfilehash: d1a17074f6a6013107ce1a754a5d6815af4dfd74
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 545119aa03301a124efb82af399c8e76232b61d5
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="normalization-rule-type-a-regular-expression"></a>Regla de normalización: Escriba una expresión Regular
  
 Escriba una expresión regular de .NET Framework para especificar el patrón coincidente para los números de teléfono de destino a la que se aplica la ruta. 
   
-Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).
+Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../../manage/manage.md).
   
 

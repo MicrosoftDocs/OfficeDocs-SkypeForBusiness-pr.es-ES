@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: 'Para editar o modificar la configuración de un tronco SIP, efectúe las acciones siguientes:'
-ms.openlocfilehash: 13ea9abfb6d53b57333c2c96b8a2f8adde963ebf
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 511f1496d77b44dbd1ce94a229915a1edfa32e32
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="trunk-settings-expander"></a>Expansor de configuración de tronco
  
@@ -37,7 +37,7 @@ Para editar o modificar la configuración de un tronco SIP, efectúe las accion
   
  **Puerto del servidor de mediación asociado**: un valor obligatorio, esto se establece en el valor que el servidor de mediación está configurado para escuchar en.
   
-![Expansor de configuración de tronco](../../media/Trunk_Settings_Expander.jpg)
+![Expansor de configuración de tronco](../../../media/Trunk_Settings_Expander.jpg)
   
 ## <a name="see-also"></a>Vea también
 

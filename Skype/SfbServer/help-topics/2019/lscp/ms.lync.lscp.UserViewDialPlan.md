@@ -12,23 +12,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8780aaad-1318-4e7a-945c-5e1863761034
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 5acf84c8f2b826a52a0afa465ce7f73171e66c8d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: bc7a2e0f3201e306e4a65eec5cec8ebde2377061
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="users-view-or-configure-dial-plan"></a>Usuarios: Ver o configurar el Plan de marcado
  
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
   
-- [Crear o modificar un plan de marcado de Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [Crear o modificar un plan de marcado de Skype para Business Server 2015](../../../deploy/deploy-enterprise-voice/dial-plans.md)
     
 - [Modificar un Plan de marcado](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
     
-- [Crear o modificar una regla de normalización en Skype para profesionales de 2015](../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [Crear o modificar una regla de normalización en Skype para profesionales de 2015](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
     
 - [Crear o modificar una regla de normalización manualmente](http://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
     
-Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).
+Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../../manage/manage.md).
 

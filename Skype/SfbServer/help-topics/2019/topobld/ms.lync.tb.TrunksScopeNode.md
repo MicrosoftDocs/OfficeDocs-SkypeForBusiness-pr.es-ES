@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 description: 'Troncos con el botón secundario en el generador de topología para llevar a cabo lo siguiente:'
-ms.openlocfilehash: e164e11c3185e8306146f3558459afbcf9fe52f5
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: fbd9f99a8f8b98589f204835a45a5ed7bd0984da
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="trunks-scope-node"></a>Nodo de ámbito de troncos
  
@@ -26,7 +26,7 @@ ms.lasthandoff: 05/24/2018
     
 Además de la opción de nuevo tronco, puede efectuar las tareas generales siguientes:
   
-![Nodo de ámbito de troncos](../../media/Trunks_Scope_Node.jpg)
+![Nodo de ámbito de troncos](../../../media/Trunks_Scope_Node.jpg)
   
 - **Topología**. Esta opción permite definir una nueva topología, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores o quitar la implementación.
     

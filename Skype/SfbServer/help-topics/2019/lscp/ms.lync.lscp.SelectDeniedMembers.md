@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: Un administrador de Chat persistente puede crear y administrar categorías de salón de chat. Como parte de la creación y administración de categorías de salón de chat, un administrador de Chat persistente puede configurar entidades de seguridad (los servicios de dominio de Active Directory grupos/contenedores o usuarios) que tienen acceso a ser miembros o los creadores de salones de chat de una categoría determinada. Un administrador de Chat persistente también puede agregar DeniedMembers a una categoría y se convierten en exclusiones explícitas a la lista de permitidos. DeniedMembers reemplazar lo que aparece en AllowedMembers.
-ms.openlocfilehash: f8fc7179df8facb98408e4506cf681cbefb97c62
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 98e57342296f181971c799bafa1b77eccd24b509
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="select-denied-members"></a>Seleccionar miembros denegados
  
@@ -30,7 +30,7 @@ En la página **Seleccionar miembros denegados** puede realizar las siguientes t
     
 - [Nuevas características de servidor de Chat en grupo](http://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
     
-Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).
+Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../../manage/manage.md).
   
 ## <a name="to-configure-categories-for-chat-rooms"></a>Para configurar categorías para salones de chat
 

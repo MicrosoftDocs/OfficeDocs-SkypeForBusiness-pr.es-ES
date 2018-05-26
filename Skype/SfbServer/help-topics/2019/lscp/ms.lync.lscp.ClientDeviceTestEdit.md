@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
 description: La característica Dispositivo de prueba funciona junto con la característica Actualización de dispositivos. Puede agregar un dispositivo de prueba a la página probar dispositivo y, a continuación, usar este dispositivo para comprobar la funcionalidad de nuevas actualizaciones antes de implementar las actualizaciones en los dispositivos de producción. Puede probar un dispositivo de forma global (en todo el entorno) o en un solo sitio. Un dispositivo de prueba se identifica por su dirección Media Access Control (MAC) o número de serie. Cuando se agrega un dispositivo, aparece en la lista en la página dispositivo de prueba de la Skype para el Panel de Control de servidor empresarial.
-ms.openlocfilehash: 022a56797952986f52772cb5fbed6d1f09bf7d75
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 0eb79ad604b228ce4531738b4f7f1423ab5b98e2
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>Dispositivo de prueba: Crear nuevo o editar existente
  
@@ -53,7 +53,7 @@ Para obtener información detallada acerca de cómo probar dispositivos, vea [Ag
 
 #### 
 
-[Dispositivo de prueba](test-device.md)
+[Dispositivo de prueba](ms.lync.lscp.ClientDeviceTestMain.md)
 #### 
 
 [Nuevo-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)

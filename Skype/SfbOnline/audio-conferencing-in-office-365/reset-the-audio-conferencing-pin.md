@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información acerca de cómo restablecerlos y lo que debe saber acerca de PIN. '
-ms.openlocfilehash: 092d51061c374e14485527993a95e03e8e29649d
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 956c8e1ec7a83832c9aa2605845bc7fd42a047f7
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="reset-the-audio-conferencing-pin"></a>Restablecer el PIN de conferencia de Audio
 
@@ -32,7 +32,17 @@ Un NIP es un código formado por los números que se crean para cada Skype para 
   
 Las reuniones se pueden iniciar cuando se une a un usuario autenticado mediante un Skype para aplicación empresarial o Microsoft Teams o cuando el organizador se une a con su PIN a través del teléfono. Cuando una reunión necesita un PIN para empezar, los usuarios que se unan a la reunión por teléfono se colocarán en la sala de espera y escucharán música en espera hasta que se inicie la reunión. Si el organizador de la reunión no necesita un PIN para iniciar la reunión por teléfono, a los autores de la llamada no se les pedirá un PIN cuando se unan a la reunión.
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-reset-a-users-pin"></a>![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) Restablecer un PIN de usuario
+## <a name="reset-a-users-pin"></a>Restablecer un PIN de usuario
+
+![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
+
+1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
+
+2. En la parte superior de la página, haga clic en **Editar**.
+
+3. En las **Conferencias de Audio**, haga clic en **Restablecer PIN**.
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png)  **utilizando el Skype para el centro de administración de negocio**
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
@@ -45,9 +55,16 @@ Las reuniones se pueden iniciar cuando se une a un usuario autenticado mediante 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
    
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-have-a-user-reset-his-or-her-own-pin"></a>![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) Tener un usuario restablezca el NIP de su propia
+## <a name="have-a-user-reset-his-or-her-own-pin"></a>Tener un usuario restablezca el NIP de su propia
 
-Un usuario puede restablecer un PIN mediante el uso de la opción de **Restablecimiento de PIN** en la página de **conferencia de acceso telefónico** . Puede tener acceso a la página de este en uno de tres maneras:
+![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
+
+1. Hacer que el usuario vaya a [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing).
+2. Haga clic en **Restablecer PIN**. 
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png)  **utilizando el Skype para el centro de administración de negocio**
+
+Un usuario puede restablecer un PIN mediante el uso de la opción de **Restablecimiento de PIN** en la página de **conferencia de acceso telefónico** . Puede tener acceso a esta página en una de estas tres maneras:
 
 * En un explorador, vaya a [https://mysettings.lync.com/pstncalling](https://mysettings.lync.com/pstncalling).
 * En Skype para la empresa, haga clic en la flecha **Mostrar menú** situada junto a **Opciones**y, a continuación, haga clic en **Herramientas de** > **Configuración conferencia de acceso telefónico**.

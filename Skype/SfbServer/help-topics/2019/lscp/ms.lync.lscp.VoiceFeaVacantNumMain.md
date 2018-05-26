@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 description: Los números sin asignar son números de teléfono válidos en la organización, pero que no se han asignado a un usuario o teléfono. En la tabla de números sin asignar se identifica cómo desea que se traten las llamadas a números sin asignar.
-ms.openlocfilehash: fb04799513fb4f9ddf06c2e229284963a53fd0d7
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: d145b3ed7e55404e3763e0bdf65ae467a000c180
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="unassigned-phone-number"></a>Número de teléfono sin asignar
  
@@ -77,6 +77,6 @@ En la siguiente lista se describen los campos de la página.
     
 - **Anuncio** El anuncio que se reproducirá para este intervalo de números sin asignar.
     
-Para obtener información detallada sobre las capacidades y características de anuncio, consulte [Plan para la aplicación de anuncio en Skype para 2015 empresarial](../../plan-your-deployment/enterprise-voice-solution/announcement.md) en la documentación de planeación. Para obtener información detallada sobre cómo trabajar con intervalos numéricos sin asignar, vea [Configurar el enrutamiento de sin asignar números de teléfono](http://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) en la documentación sobre operaciones.
+Para obtener información detallada sobre las capacidades y características de anuncio, consulte [Plan para la aplicación de anuncio en Skype para 2015 empresarial](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) en la documentación de planeación. Para obtener información detallada sobre cómo trabajar con intervalos numéricos sin asignar, vea [Configurar el enrutamiento de sin asignar números de teléfono](http://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) en la documentación sobre operaciones.
   
 

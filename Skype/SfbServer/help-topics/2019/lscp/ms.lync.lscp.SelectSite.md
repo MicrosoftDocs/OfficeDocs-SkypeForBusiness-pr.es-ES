@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: Use el seleccionar un cuadro de diálogo de sitio para buscar los sitios están disponibles en su entorno. Para usar un sitio existente, haga clic en un sitio en la lista y, a continuación, haga clic en Aceptar.
-ms.openlocfilehash: 7c39b0d4d0fad775f1c271542f76889060267c33
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7aba1089d73188c2d65771a87f01a20f93c48c4a
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="select-a-site"></a>Seleccionar un sitio
  
@@ -25,7 +25,7 @@ Use el cuadro de diálogo **Seleccionar un sitio** para buscar los sitios dispon
 > [!NOTE]
 > Para recuperar todos los sitios disponibles, no escriba nada en el campo de búsqueda y haga clic en el icono de búsqueda. 
   
-Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).
+Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../../manage/manage.md).
   
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 
@@ -35,7 +35,7 @@ En la página **Seleccionar un sitio** puede realizar las siguientes tareas:
     
 - [Crear una directiva de sitio para Chat persistente](http://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
     
-Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).
+Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../../manage/manage.md).
   
 ## <a name="to-configure-persistent-chat-options-globally"></a>Para configurar las opciones de Chat persistente a nivel global
 

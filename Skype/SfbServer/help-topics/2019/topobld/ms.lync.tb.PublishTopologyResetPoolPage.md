@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 description: Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco que se incluyen actúan como marcadores de posición.
-ms.openlocfilehash: 3cf88c4f1a9b4241df20fdbd3afded1bcbe82a26
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7a56f502e5e0f6f2747076e5eab423e91d363f20
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="publish-topology-reset-pool-page"></a>Página Publicar topología - Restablecer grupos
  
@@ -28,5 +28,5 @@ Para agregar nuevos equipos a un grupo de servidores existente, debe reiniciar e
 
 #### 
 
-[Crear y publicar la nueva topología de Skype para Business Server 2015](../../deploy/install/create-and-publish-new-topology.md)
+[Crear y publicar la nueva topología de Skype para Business Server 2015](../../../deploy/install/create-and-publish-new-topology.md)
 

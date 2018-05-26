@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 description: Activar o desactivar un servidor de Chat persistente de implementada o grupo de servidores de Chat persistente mediante el uso de los servidores o grupos de servidores que aparecen en la configuración de estado de equipo. Seleccione un servidor o grupo de servidores en la lista y haga clic en el botón activo realizar para configurar un servidor o grupo de servidores como activo.
-ms.openlocfilehash: 4005cbd2aa6973023321fe198876a6b4149b9476
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 30ffdd1f136f738ea21bec38242f86c6b3a5e360
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="persistent-chat-machines-expander"></a>Expansor de equipos de chat persistente
  
@@ -34,7 +34,7 @@ Establecer un servidor de Chat persistente de implementada o grupo de servidores
 
 #### 
 
-[Planeación de servidor de Chat persistente en Skype para Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planeación de servidor de Chat persistente en Skype para Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Agregar servidor de Chat persistente a su Skype para topología empresarial Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Agregar servidor de Chat persistente a su Skype para topología empresarial Server 2015](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
 

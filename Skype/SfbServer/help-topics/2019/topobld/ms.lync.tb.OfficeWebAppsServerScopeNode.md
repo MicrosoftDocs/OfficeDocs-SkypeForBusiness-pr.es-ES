@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 description: 'Botón secundario haga clic en los servidores de Office Web Apps en el generador de topología para realizar lo siguiente:'
-ms.openlocfilehash: fccc7fc89c069b45a9482c3cea21b9faf189dc74
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 4418b338be168d997b3e3b703cbbfa8211332d39
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Expansor de nodo de ámbito del servidor de Office Web Apps
  
@@ -26,7 +26,7 @@ Botón secundario haga clic en **Los servidores de Office Web Apps** en el gener
     
 Además de la opción nuevo Office Web Apps Server, puede realizar las tareas generales siguientes:
   
-![Nodo de ámbito del servidor de Office Web Apps](../../media/OfficeWebApps_Server_Scope_Node.jpg)
+![Nodo de ámbito del servidor de Office Web Apps](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
   
 - **Topología**. Esta opción permite definir una nueva topología, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores o quitar la implementación.
     

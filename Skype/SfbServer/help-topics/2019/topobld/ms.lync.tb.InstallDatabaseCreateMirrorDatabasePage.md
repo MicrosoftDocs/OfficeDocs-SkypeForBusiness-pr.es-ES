@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 description: Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco que se incluyen actúan como marcadores de posición.
-ms.openlocfilehash: 3bb3a5d28be508b1070baa62e1fc1b269157c906
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 9705e4502984cd8239038ef14916e8cd7959da56
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="install-database-create-mirror-database-page"></a>Instalar base de datos de creación de página de la base de datos de reflejo
  
@@ -28,7 +28,7 @@ Si opta por no instalar las bases de datos de reflejo de SQL Server durante el p
 
 #### 
 
-[Implementar el reflejo de SQL para una alta disponibilidad de servidor Back-End en Skype para Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
+[Implementar el reflejo de SQL para una alta disponibilidad de servidor Back-End en Skype para Business Server 2015](../../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
 #### 
 
 [Install-CsMirrorDatabase](https://docs.microsoft.com/powershell/module/skype/install-csmirrordatabase?view=skype-ps)

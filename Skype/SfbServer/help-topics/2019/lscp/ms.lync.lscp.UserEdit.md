@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e687e12e-efae-4b8c-a716-c29c41ee7b75
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 507c70863513809a37fc1722a4272e2e726a3836
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7e3d357932032d67642dd9a116551c9e79e4d1b0
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="users-edit-user"></a>Usuarios: Editar usuario
  
@@ -24,13 +24,13 @@ ms.lasthandoff: 05/24/2018
   
 - [Habilitar o deshabilitar usuarios para Lync Server 2010](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
     
-- [Habilitar a usuarios para Enterprise Voice en Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Habilitar a usuarios para Enterprise Voice en Skype para Business Server 2015](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
 - [Asignar una directiva de conferencia para modificar una experiencia de usuario predeterminada reunión](http://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
     
 - [Especificar las versiones de cliente admitidas para el inicio de sesión de un usuario](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
     
-- [Asignar una directiva de PIN por usuario en Skype para Business Server 2015](../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [Asignar una directiva de PIN por usuario en Skype para Business Server 2015](../../../manage/authentication/assign-a-per-user-pin-policy.md)
     
 - [Configurar la federación, el acceso de usuarios remotos y la conectividad de mensajería instantánea pública para los usuarios](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     
@@ -44,5 +44,5 @@ ms.lasthandoff: 05/24/2018
     
 - [Asignar una directiva de Chat persistente por usuario](http://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
     
-Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).
+Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../../manage/manage.md).
 

@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b71c6e6f-681c-4230-954d-3e95ab64ca00
 description: Puede usar la sección categorías de la página de Chat persistente para configurar categorías. Una categoría de salón de Chat en grupo es una estructura lógica para la organización de los salones de chat. Una categoría define un conjunto predeterminado de listas de control de acceso (ACL) para controlar los usuarios y grupos de usuarios que se pueden crear o unir a salones de chat. Puede usar zonas de protección de datos confidenciales de imposición de categorías entre distintas subdivisiones en sus organizaciones.
-ms.openlocfilehash: 52c58cb17f4d5bec9fbfb61188ac67d5d57978c3
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f199220dc45e8a611682cfedc871ba744aa6d18e
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="persistent-chat-category-main-page"></a>Página principal de categoría de chat persistente
  
@@ -24,7 +24,7 @@ Puede usar la sección **Categoría** de la página **Chat persistente** para co
   
 Las categorías de salones de chat pueden contener salones de chat, pero no otras categorías. Cada categoría describe su contenido con metadatos, como el _nombre_ y _Descripción_. Además, la categoría tiene las propiedades que pueden establecer para controlar el comportamiento de los salones de chat que pertenecen a ella, por ejemplo, si los salones de chat permitir _invitaciones_ o _Cargas de archivos_, o contienen _El historial de Chat_.
   
-Para crear una nueva categoría, vea [Administrar categorías en el servidor de Chat persistente en Skype para Business Server 2015](../../manage/persistent-chat/categories.md). Si es un administrador de Chat persistente, puede crear categorías mediante el panel de control o los cmdlets de Windows PowerShell.
+Para crear una nueva categoría, vea [Administrar categorías en el servidor de Chat persistente en Skype para Business Server 2015](../../../manage/persistent-chat/categories.md). Si es un administrador de Chat persistente, puede crear categorías mediante el panel de control o los cmdlets de Windows PowerShell.
   
 ## <a name="tasks-that-you-can-perform"></a>Tareas que puede realizar
 
@@ -74,6 +74,6 @@ En la página **Categoría** puede realizar las siguientes tareas:
     
 ### 
 
-Para obtener información detallada sobre las características de servidor de Chat persistente y funciones, vea [Planear Persistent Chat Server in Skype para Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server en Skype para Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)y [Administrar Persistent Chat Server en Skype para Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
+Para obtener información detallada sobre las características de servidor de Chat persistente y funciones, vea [Planear Persistent Chat Server in Skype para Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server en Skype para Business Server 2015](../../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)y [Administrar Persistent Chat Server en Skype para Business Server 2015](../../../manage/persistent-chat/persistent-chat.md).
   
 

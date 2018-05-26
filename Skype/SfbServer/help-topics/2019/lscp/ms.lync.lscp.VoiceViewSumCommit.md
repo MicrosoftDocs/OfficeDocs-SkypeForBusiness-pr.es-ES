@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
 description: Puede usar el cuadro de diálogo Configuración de voz no confirmada para revisar todos los cambios que ha realizado. Desplácese por el cuadro de diálogo para repasar todos los cambios sin confirmar o haga clic en las flechas para expandir o contraer las diferentes secciones. Cuando haya terminado, haga clic en Confirmar para confirmar todos estos cambios, o haga clic en Cancelar para volver atrás y modificar los cambios.
-ms.openlocfilehash: 9010bea8b79f1d8cbf2eeae1b27bfa551c71dae7
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: d6c7b95329709732f42289f616e21929a0ed976d
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="uncommitted-voice-configuration-settings-commit"></a>Valores de configuración de voz no confirmados: Confirmar
  
@@ -25,6 +25,6 @@ El cuadro de diálogo **Valores de configuración de voz no confirmados** sirve 
 > [!IMPORTANT]
 > Si hace clic en **Confirmar**, confirmará **todos** los cambios de la lista del cuadro de diálogo **Valores de configuración de voz no confirmados**.
   
-Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).
+Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../../manage/manage.md).
   
 

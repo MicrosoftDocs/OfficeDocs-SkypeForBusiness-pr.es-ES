@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 description: Puede usar la página Directiva de Chat persistente del grupo de Chat persistente para administrar las directivas en un nivel global, de usuario, sitio o grupo de servidores, incluidas la configuración de la directiva global predeterminada y crear uno o más usuarios y sitios directivas adicionales para la implementación. Si un usuario está habilitado para el servidor de Chat persistente mediante una directiva, el entorno de servidor de Chat persistente aparece en su cliente.
-ms.openlocfilehash: 14d600c558a7a72887aa7ff3e349857115e8a792
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 173264b08feddbc77bf3a3d8be4d4ad8d1978669
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="persistent-chat-policy-main-page"></a>Página principal de directiva de chat persistente
  
@@ -30,7 +30,7 @@ La directiva global se crea automáticamente al implementar servidor de Chat per
 Puede crear y configurar varias directivas de usuario y de sitio que, junto con la directiva global, permiten a los usuarios para el servidor de Chat persistente. Las directivas de servidor de Chat persistente de grupo de servidores y sitios reemplazan la directiva global del servidor de Chat persistente, pero sólo para los usuarios de ese sitio. Las directivas de usuario reemplazan a las directivas globales, de grupo y de sitio para los usuarios que tengan asignada esa directiva de usuario.
   
 > [!NOTE]
-> Para configurar y usar el servidor de Chat persistente, debe primero usar el generador de topología para agregar compatibilidad con servidor de Chat persistente a la topología y, a continuación, publique la topología. Para obtener información detallada, vea [Agregar servidor de Chat persistente a su Skype para topología empresarial Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md). 
+> Para configurar y usar el servidor de Chat persistente, debe primero usar el generador de topología para agregar compatibilidad con servidor de Chat persistente a la topología y, a continuación, publique la topología. Para obtener información detallada, vea [Agregar servidor de Chat persistente a su Skype para topología empresarial Server 2015](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md). 
   
 ## <a name="tasks-that-you-can-perform"></a>Tareas que puede realizar
 
