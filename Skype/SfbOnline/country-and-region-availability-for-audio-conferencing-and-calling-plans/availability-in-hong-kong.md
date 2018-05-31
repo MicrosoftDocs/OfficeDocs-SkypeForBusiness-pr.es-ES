@@ -26,6 +26,7 @@ ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/11/2018
+ms.locfileid: "19137720"
 ---
 # <a name="availability-in-hong-kong"></a><span data-ttu-id="c9883-103">Disponibilidad en Hong Kong</span><span class="sxs-lookup"><span data-stu-id="c9883-103">Availability in Hong Kong</span></span>
 

@@ -21,6 +21,7 @@ ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/10/2018
+ms.locfileid: "19117451"
 ---
 # <a name="assign-a-voice-routing-policy"></a><span data-ttu-id="21dd9-103">Asignar una directiva de enrutamiento de voz</span><span class="sxs-lookup"><span data-stu-id="21dd9-103">Assign a Voice Routing Policy</span></span>
  

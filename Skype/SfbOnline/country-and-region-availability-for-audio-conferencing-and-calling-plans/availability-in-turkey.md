@@ -26,6 +26,7 @@ ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/11/2018
+ms.locfileid: "19137525"
 ---
 # <a name="availability-in-turkey"></a><span data-ttu-id="fb636-103">Disponibilidad de Turquía</span><span class="sxs-lookup"><span data-stu-id="fb636-103">Availability in Turkey</span></span>
 

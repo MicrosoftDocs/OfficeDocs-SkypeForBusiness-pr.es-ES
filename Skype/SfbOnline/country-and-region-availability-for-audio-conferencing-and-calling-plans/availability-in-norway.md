@@ -26,6 +26,7 @@ ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/11/2018
+ms.locfileid: "19136764"
 ---
 # <a name="availability-in-norway"></a><span data-ttu-id="8677a-103">Disponibilidad en Noruega</span><span class="sxs-lookup"><span data-stu-id="8677a-103">Availability in Norway</span></span>
 

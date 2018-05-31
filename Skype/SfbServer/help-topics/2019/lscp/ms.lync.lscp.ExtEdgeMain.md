@@ -17,6 +17,7 @@ ms.sourcegitcommit: 14061f39e51be9853ba53fc2a7a9a6640b2f2bb8
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "19186698"
 ---
 # <a name="access-edge-configuration"></a><span data-ttu-id="e9b99-104">Configuración perimetral de acceso</span><span class="sxs-lookup"><span data-stu-id="e9b99-104">Access Edge Configuration</span></span>
  

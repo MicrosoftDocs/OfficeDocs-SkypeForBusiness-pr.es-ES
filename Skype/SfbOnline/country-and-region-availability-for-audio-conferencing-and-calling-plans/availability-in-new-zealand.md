@@ -26,6 +26,7 @@ ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/11/2018
+ms.locfileid: "19136824"
 ---
 # <a name="availability-in-new-zealand"></a><span data-ttu-id="e4e42-103">Disponibilidad de Nueva Zelanda</span><span class="sxs-lookup"><span data-stu-id="e4e42-103">Availability in New Zealand</span></span>
 

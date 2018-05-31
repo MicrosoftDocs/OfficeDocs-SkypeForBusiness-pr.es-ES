@@ -26,6 +26,7 @@ ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/11/2018
+ms.locfileid: "19136654"
 ---
 # <a name="availability-in-singapore"></a><span data-ttu-id="f7640-103">Disponibilidad de Singapur</span><span class="sxs-lookup"><span data-stu-id="f7640-103">Availability in Singapore</span></span>
 

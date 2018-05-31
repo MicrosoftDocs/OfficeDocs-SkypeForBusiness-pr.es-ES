@@ -19,6 +19,7 @@ ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/10/2018
+ms.locfileid: "19117521"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business-2015"></a><span data-ttu-id="7c6c1-103">Implementar la herramienta SEFAUtil en Skype Empresarial 2015</span><span class="sxs-lookup"><span data-stu-id="7c6c1-103">Deploy the SEFAUtil tool in Skype for Business 2015</span></span>
  

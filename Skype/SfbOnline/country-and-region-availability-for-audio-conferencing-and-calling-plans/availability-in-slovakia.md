@@ -26,6 +26,7 @@ ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/11/2018
+ms.locfileid: "19137352"
 ---
 # <a name="availability-in-slovakia"></a><span data-ttu-id="0467e-103">Disponibilidad en Eslovaquia</span><span class="sxs-lookup"><span data-stu-id="0467e-103">Availability in Slovakia</span></span>
 

@@ -25,6 +25,7 @@ ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/11/2018
+ms.locfileid: "19137567"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a><span data-ttu-id="d35b6-103">Obtener teléfonos con Skype Empresarial Online</span><span class="sxs-lookup"><span data-stu-id="d35b6-103">Getting phones for Skype for Business Online</span></span>
 

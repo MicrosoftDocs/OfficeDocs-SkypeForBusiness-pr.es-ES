@@ -26,6 +26,7 @@ ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/11/2018
+ms.locfileid: "19137042"
 ---
 # <a name="availability-in-south-africa"></a><span data-ttu-id="2369e-103">Disponibilidad de Sudáfrica</span><span class="sxs-lookup"><span data-stu-id="2369e-103">Availability in South Africa</span></span>
 

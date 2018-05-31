@@ -17,6 +17,7 @@ ms.sourcegitcommit: 14061f39e51be9853ba53fc2a7a9a6640b2f2bb8
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "19186694"
 ---
 # <a name="administrative-roles-and-skype-for-business-server-control-panel"></a><span data-ttu-id="0a93e-107">Las funciones administrativas y Skype para el Panel de Control de servidor empresarial</span><span class="sxs-lookup"><span data-stu-id="0a93e-107">Administrative Roles and Skype for Business Server Control Panel</span></span>
  

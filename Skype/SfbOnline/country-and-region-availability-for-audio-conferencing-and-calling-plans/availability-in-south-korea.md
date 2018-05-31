@@ -26,6 +26,7 @@ ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/11/2018
+ms.locfileid: "19137076"
 ---
 # <a name="availability-in-south-korea"></a><span data-ttu-id="02f75-103">Disponibilidad en Corea del sur</span><span class="sxs-lookup"><span data-stu-id="02f75-103">Availability in South Korea</span></span>
 
