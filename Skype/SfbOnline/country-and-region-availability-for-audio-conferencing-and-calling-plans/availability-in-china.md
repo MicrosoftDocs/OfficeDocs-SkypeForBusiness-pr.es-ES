@@ -20,25 +20,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí son los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponible para China.
-ms.openlocfilehash: 0018725fbe10c3e3bdb37540815b8c98ea1127e7
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Teams disponibles para China.
+ms.openlocfilehash: e2a37acc84ca81f67cc146e6f2baa8762e1f9ae0
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/11/2018
+ms.locfileid: "19136935"
 ---
 # <a name="availability-in-china"></a>Disponibilidad en China
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí son los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponible para China.
+Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Teams disponibles para China.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |No  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para Beijing. Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para:<br/><ul><li> Pekín</ul> Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico

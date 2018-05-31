@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Implementación de la herramienta de SEFAUtil de Skype para Business Server.
-ms.openlocfilehash: 48fa0077315169e6a80e65e91d7ce9a31583cdb5
-ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
+ms.openlocfilehash: 4def73d0bca655569275f61d9ebfeafb4ab7e3d4
+ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/10/2018
+ms.locfileid: "19117521"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business-2015"></a>Implementar la herramienta SEFAUtil en Skype Empresarial 2015
  
@@ -29,7 +30,7 @@ Para implementar y administrar recogida de llamadas de grupo, debe usar el Skype
 > [!IMPORTANT]
 > Tiempo de ejecución de Microsoft Unified Communications Managed API (UCMA) 5 debe estar instalado en cualquier equipo donde va a ejecutar la herramienta SEFAUtil. Descargarlo aquí: [Unified Communications Managed API 5.0 en tiempo de ejecución](https://www.microsoft.com/en-us/download/details.aspx?id=47344). También puede descargar el SDK de 5 de UCMA, que incluye el tiempo de ejecución, aquí: [UCMA 5.0 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=47345).
   
-Puede ejecutar la herramienta de SEFAUtil de cualquier grupo de servidores Front-End en su implementación.
+Puede ejecutar la herramienta de SEFAUtil de cualquier grupo de servidores Front-End en su implementación. Para ejecutar la herramienta SEFAUtil debe ejecutar los pasos 1, 2 y 3 de la Skype para el Asistente para la implementación empresarial en el equipo de aplicación de confianza. SEFAUtil requiere estar presente en el almacén de configuración local, así como un certificado.
   
 > [!NOTE]
 > Para obtener más información acerca de cómo ejecutar SEFAUtil, vea el artículo del blog de Technet, "[cómo obtener SEFAutil ejecutando?](https://go.microsoft.com/fwlink/?LinkId=278940)". 

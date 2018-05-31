@@ -21,11 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: A continuación se indican los servicios de Office 365 para Skype Empresarial y Microsoft Teams que están disponibles para Colombia.
-ms.openlocfilehash: 391cdd49d80651fea2ccd49b00644f7503ae2e74
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 6fb217939ba63ba76c6512d22a87b304b28aa8e8
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/11/2018
+ms.locfileid: "19137176"
 ---
 # <a name="availability-in-colombia"></a>Disponibilidad en Colombia
 
@@ -38,7 +39,7 @@ A continuación se indican los servicios de Office 365 para Skype Empresarial y 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para Bogotá. Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para:<br/><ul><li> Bogotá</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |No disponible  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
@@ -62,7 +63,7 @@ A continuación se indican los servicios de Office 365 para Skype Empresarial y 
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> | Bogotá <br/>  Medellín <br/> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> | <ul><li>Bogotá <li>  Medellín </ul> |
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
    

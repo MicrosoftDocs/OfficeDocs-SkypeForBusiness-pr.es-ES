@@ -20,25 +20,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Portugal.
-ms.openlocfilehash: 4fb61cef8085b58e1789fb9a723a6f7effa30617
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Aquí están disponibles para Portugal los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+ms.openlocfilehash: 61fc2189530a55388780b9273afa7f7af3e1e12c
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/11/2018
+ms.locfileid: "19137166"
 ---
 # <a name="availability-in-portugal"></a>Disponibilidad en Portugal
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Portugal.
+Aquí están disponibles para Portugal los servicios de Office 365 para Skype para empresas y Microsoft Teams.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para Lisboa. Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para:<br/><ul><li> Lisboa</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico

@@ -1,5 +1,5 @@
 ---
-title: Disponibilidad en Perú
+title: Disponibilidad de Perú
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,25 +20,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Perú.
-ms.openlocfilehash: 163c2347872ac56c883d648030a73d69179ad64b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Aquí están disponibles para Perú los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+ms.openlocfilehash: 2cef59fa5ff9025d6e18bd314e5c0105a00d4a76
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/11/2018
+ms.locfileid: "19136684"
 ---
-# <a name="availability-in-peru"></a>Disponibilidad en Perú
+# <a name="availability-in-peru"></a>Disponibilidad de Perú
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Perú.
+Aquí están disponibles para Perú los servicios de Office 365 para Skype para empresas y Microsoft Teams.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para Lima. Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para: <br/><ul><li>Lima</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |No disponible  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico

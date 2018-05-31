@@ -20,25 +20,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Taiwán.
-ms.openlocfilehash: 60871f714533d31b9f7a60296bf2b98054bcde95
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Aquí están disponibles para Taiwán los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+ms.openlocfilehash: 9ab75efa6b0e3ca8172ccada7ec206de9c8bd4ac
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/11/2018
+ms.locfileid: "19137022"
 ---
 # <a name="availability-in-taiwan"></a>Disponibilidad de Taiwán
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Taiwán.
+Aquí están disponibles para Taiwán los servicios de Office 365 para Skype para empresas y Microsoft Teams.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para Taipei. Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para: <br/><ul><li>Taipéi</ul> Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico

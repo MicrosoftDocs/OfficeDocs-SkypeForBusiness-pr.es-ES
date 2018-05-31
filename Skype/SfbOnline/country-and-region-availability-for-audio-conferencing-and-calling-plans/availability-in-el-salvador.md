@@ -1,5 +1,5 @@
 ---
-title: Disponibilidad del Salvador
+title: Disponibilidad en El Salvador
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,25 +20,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están disponibles para El Salvador los servicios de Office 365 para Skype para empresas y Teams de Microsoft.
-ms.openlocfilehash: 7d24310c36de2b9d284e95cc9fc5845f08f2fd57
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Aquí están disponibles para El Salvador los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+ms.openlocfilehash: 7986974c707bf9c9b0bb7987ef49847099c1783c
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/11/2018
+ms.locfileid: "19137485"
 ---
-# <a name="availability-in-el-salvador"></a>Disponibilidad del Salvador
+# <a name="availability-in-el-salvador"></a>Disponibilidad en El Salvador
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están disponibles para El Salvador los servicios de Office 365 para Skype para empresas y Teams de Microsoft.
+Aquí están disponibles para El Salvador los servicios de Office 365 para Skype para empresas y Microsoft Teams.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |No  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para San Salvador. Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para:<br/><ul><li> San Salvador</ul> Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |No disponible  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico

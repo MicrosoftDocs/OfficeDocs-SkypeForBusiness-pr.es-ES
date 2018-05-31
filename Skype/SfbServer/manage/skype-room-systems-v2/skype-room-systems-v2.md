@@ -1,79 +1,44 @@
 ---
-title: Administrar Sistemas de salas de Skype v2
+title: Introducción a la administración de sistemas de salón de Skype v2
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
+ms.date: 5/10/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
-description: Lea este tema para obtener más información acerca de la administración de sistemas de salón de Skype v2, la próxima generación de sistemas de salón de Skype.
-ms.openlocfilehash: 48069f7e5e63df752fe94cb557796e9f2080c917
-ms.sourcegitcommit: 0d649ac15d8b50e497b05531b724bc9a171a2953
+description: Introducción a la administración de sistemas de salón de Skype v2.
+ms.openlocfilehash: 5e6fe310051d5fc48875a878e64868a8a5672346
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/11/2018
+ms.locfileid: "19136340"
 ---
-# <a name="manage-skype-room-systems-v2"></a>Administrar Sistemas de salas de Skype v2
- 
-Lea este tema para obtener más información acerca de la administración de sistemas de salón de Skype v2, la próxima generación de sistemas de salón de Skype.
-  
-V2 de sistemas de salón de Skype es la solución de conferencia más reciente de Microsoft diseñada para transformar la sala de reuniones en un Skype enriquecido, colaboración para que la experiencia empresarial. Los usuarios disfrutarán de su Skype familiar para la interfaz de negocios y los administradores de TI apreciará una aplicación de Windows 10 Skype reunión fácil de implementar y administrada. Sistemas de salón de Skype v2 está diseñado para aprovechar equipamiento existente como paneles LCD para facilitar la de instalación para incorporar Skype para la empresa en la sala de reuniones.
-  
-Con una configuración adicional, es posible mediante el conjunto de aplicaciones de administración de operaciones de Microsoft (OMS) tal como se describe la [administración de sistemas de planeación de las salas Skype v2 con OMS](../../plan-your-deployment/clients-and-devices/oms-management.md), implementar sistemas de salón de Skype v2 con OMS y la [administración](../../deploy/deploy-clients/with-oms.md)de [administrar administración remota Dispositivos de sistemas de salón de Skype v2 con OMS](oms.md). Es posible que también [configuración de la consola Administrar un v2 de sistemas de Skype salón de forma remota con un archivo de configuración XML](xml-config-file.md), que incluye la aplicación de un tema de presentación personalizada. 
-  
-## <a name="collecting-logs-on-skype-room-systems-v2"></a>Recopilación de registros en los Sistemas de salas de Skype v2
-<a name="Logs"> </a>
+# <a name="management-overview"></a>Introducción a la administración 
 
-Para recopilar los registros, se debe invocar la secuencia de comandos de la colección de registro que se distribuye con la aplicación de sistemas de salón de Skype v2. En el modo de administrador, inicie un símbolo del sistema con privilegios elevados y emita el siguiente comando:
-  
-```
-powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
-```
+Es esencial que desarrollar y ejecutar el mantenimiento continuado y operaciones para asegurarse de que los sistemas de v2 de Skype salón sistemas están disponibles para los usuarios y ofrecen a un usuario excelente experimentan. 
 
-Los registros de será salida como un archivo ZIP en c:\rigel.
-  
-## <a name="front-of-room-display-settings"></a>Configuración de la pantalla frontal de la sala
-<a name="Display"> </a>
+## <a name="monitoring"></a>Supervisión 
 
-Configure la pantalla frontal de la sala en modo Extendido. Al hacerlo, se asegurará de que la interfaz de usuario de la consola no se duplique en esa pantalla al desconectar y volver a conectar la pantalla.
-  
-> [!NOTE]
-> Una televisión de consumo usada como una parte delantera del salón de mostrar las necesidades de soporte técnico o habilitar la característica de Control de electrónica de consumidor (CEC) de HDMI para que puede cambiar automáticamente a un origen de vídeo activo de modo de espera. Esta característica no se admite en todos los televisores. 
-  
-## <a name="skype-room-systems-v2-reset-factory-restore"></a>Restablecer los Sistemas de salas de Skype v2 (a valores de fábrica)
-<a name="Reset"> </a>
+Sistemas de salón de Skype v2 sistemas de supervisión consta de dos actividades clave:
 
-Si v2 de sistemas de salón de Skype no se está ejecutando bien, realizar un restablecimiento de fábrica puede ayudar a. Esto puede realizarse en la aplicación de configuración de la ficha de "Recuperación" bajo el encabezado "Restablecer este PC", seleccione "Introducción" seguido de "Quitar todo". Siga los mensajes que queden como desee para restablecer el dispositivo.
-  
-> [!NOTE]
-> Hay un problema conocido donde el v2 de sistemas de salón de Skype puede convertirse en no se puede usar si se selecciona la opción "Mantener mis archivos - quita aplicaciones y configuración pero mantiene los archivos personales" durante el proceso de restablecimiento de Windows. **No** use esta opción.
-  
-## <a name="supported-remote-options"></a>Opciones remotas admitidas
-<a name="RemoteOptions"> </a>
+-  Dispositivo, la aplicación y la supervisión de dispositivos periféricos
 
-La tabla siguiente resume las operaciones remotas posibles y los métodos que se pueden utilizar para llevarlas a cabo.
-  
+-  Calidad y confiabilidad de supervisión (CQD)
 
-|**Grupo de trabajo**|**No asociado a un dominio**|**Asociado a un dominio**|
-|:-----|:-----|:-----|
-|Reinicio  <br/> |Escritorio remoto  <br/> Powershell remoto  <br/> |Escritorio remoto (requiere una configuración adicional)  <br/> Powershell remoto (requiere una configuración adicional)  <br/> SCCM  <br/> |
-|Actualizar SO  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
-|Actualización de aplicaciones  <br/> |Tienda Windows  <br/> |Tienda Windows  <br/> SCCM  <br/> |
-|Configuración de cuenta de Skype  <br/> |No se admite actualmente  <br/> |No se admite actualmente  <br/> |
-|Registros de acceso  <br/> |No se admite actualmente  <br/> |No se admite actualmente  <br/> |
-   
-## <a name="configuring-group-policy-for-skype-room-systems-v2"></a>Configurar la directiva de grupo para los Sistemas de salas de Skype v2
-<a name="GroupPolicy"> </a>
+### <a name="skype-room-systems-v2-device-application-and-peripheral-device-monitoring"></a>Dispositivo v2 de Skype salón sistemas, aplicaciones y supervisión de dispositivos periféricos
 
-En esta sección, se explica la configuración del sistema que depende de sistemas de salón de Skype v2 funcione correctamente. Al unirse a sistemas de salón de Skype v2 a un dominio, asegúrese de que la directiva de grupo no sobrescribe la configuración siguiente:
-  
+Para asegurarse de que los usuarios podrán utilizar las unidades de sistemas de salón de Skype v2, las unidades deben estar en, conectado a la red con la aplicación de v2 de sistemas de salón de Skype configurada correctamente y estar conectadas a dispositivos periféricos funcionamiento. 
+
+
+Información sobre el estado de la aplicación de v2 de Skype salón sistemas y dispositivos periféricos conectados está escrita por la aplicación de v2 de sistemas de salón de Skype para el registro de eventos de Windows y documenta [en este artículo](oms.md#understand-the-log-entries). 
 
 |**Configuración**|**Permite**|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AdminAutoLogon = (dword) 1  <br/> |Permite v2 de sistemas de salón de Skype iniciar copia de seguridad  <br/> |
+|HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (dword) 1  <br/> |Permite v2 de sistemas de salón de Skype iniciar copia de seguridad  <br/> |
 |Administración de energía -\> en AC, desactivar pantalla después de 10 minutos  <br/> Administración de energía -\> en AC, nunca colocar del sistema al modo de suspensión  <br/> |Permite v2 de sistemas de salón de Skype para desactivar muestra adjunto y reactivar automáticamente  <br/> |
 |net accounts /maxpwage:unlimited  <br/> O medios alternativos para deshabilitar la opción de caducidad de la contraseña en la cuenta local. Si esto no se realiza, la cuenta de Skype no podrá iniciar sesión indicando que la contraseña ha caducado. Tenga en cuenta que esto afectará todas las cuentas locales de la máquina y, por consiguiente, si no se configura esto, la cuenta administrativa del cuadro eventualmente también caducará.  <br/> |Permite que la cuenta de Skype siempre inicie sesión  <br/> |
    
@@ -82,183 +47,42 @@ Transferencia de archivos mediante directivas de grupo se describe en [configura
 ## <a name="remote-management-using-powershell"></a>Administración remota con PowerShell
 <a name="RemotePS"> </a>
 
-Con PowerShell, es posible ejecutar las siguientes operaciones de administración de manera remota (la tabla a continuación muestra ejemplos de script):
-  
-- Obtener dispositivos conectados
-    
-- Obtener estado de la aplicación
-    
-- Obtener información del sistema
-    
-- Reiniciar el sistema
-    
-- Recuperar registros
-    
-- Transferencia de archivos (requiere un dominio se unió a sistemas de salón de Skype v2)
-    
-> [!NOTE]
-> Esta funcionalidad está desactivada de manera predeterminada. Tiene que habilitar PowerShell remoto para el entorno en el sistema de v2 de sistemas de salón de Skype para llevar a cabo las operaciones que aparece a continuación. Consulte la documentación en **[Enable-PSRemoting](https://technet.microsoft.com/en-us/library/hh849694.aspx)** para obtener información acerca de cómo habilitar PowerShell remoto.
-  
-Por ejemplo, puede habilitar PowerShell remoto de esta manera:
-  
-1. Inicie sesión como administrador en un dispositivo de v2 de sistemas de salón de Skype.
-    
-2. Inicie un símbolo de sistema de PowerShell con privilegios elevados.
-    
-3. Escriba el siguiente comando: Enable-PSRemoting - forzar
-    
-Para ejecutar una operación de administración:
-  
-1. Inicie sesión en un equipo con las credenciales de cuenta que tiene permiso para ejecutar los comandos de PowerShell en un dispositivo de v2 de sistemas de salón de Skype.
-    
-2. Inicie un símbolo de sistema de PowerShell común en su PC.
-    
-3. Copie el texto del comando en la tabla a continuación y péguelo en el símbolo del sistema.
-    
-4. Reemplace `<Device fqdn>` campos con valores FQDN apropiados para su entorno.
-    
-5. Reemplace * \<ruta de acceso\> * con el nombre de archivo y ruta de acceso local del archivo de configuración de SkypeSettings.xml maestra (o imagen de tema).
-    
-Para obtener los dispositivos conectados
-  
-```
-invoke-command {Write-Host "VIDEO DEVICES:" 
-gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Image"} | Format-Table Name,Status,Present; Write-Host "AUDIO DEVICES:" 
-gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Media"} | Format-Table Name,Status,Present; Write-Host "DISPLAY DEVICES:" 
-gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Monitor"} | Format-Table Name,Status,Present} -ComputerName <Device fqdn>
-```
 
-Obtener estado de la aplicación
-  
-```
-invoke-command { $package = get-appxpackage -User Skype -Name Microsoft.SkypeRoomSystem; if ($package -eq $null) {Write-host "SkypeRoomSystems not installed."} else {write-host "SkypeRoomSystem Version : " $package.Version}; $process = Get-Process -Name "Microsoft.SkypeRoomSystem" -ErrorAction SilentlyContinue; if ($process -eq $null) {write-host "App not running."} else {$process | format-list StartTime,Responding}}  -ComputerName <Device fqdn>
-```
+Se recomienda que utilice el conjunto de aplicaciones de Microsoft Operations Manager para supervisar los sistemas de v2 de sistemas de salón de Skype. Para obtener instrucciones acerca de cómo configurar la supervisión y alertas básicas, vea [administración de v2 de implementar sistemas de salón de Skype con OMS](../../deploy/deploy-clients/with-oms.md). 
 
-Obtener información del sistema
-  
-```
-invoke-command {gwmi -Class Win32_ComputerSystem | Format-List PartOfDomain,Domain,Workgroup,Manufacturer,Model
-gwmi -Class Win32_Bios | Format-List SerialNumber,SMBIOSBIOSVersion} -ComputerName <Device fqdn>
-```
+Uso de esta guía, puede crear un panel simple de usar para identificar los problemas con las unidades de v2 de sistemas de salón de Skype en toda la implementación. 
 
-Reiniciar el sistema
-  
-```
-invoke-command { Shutdown /r /t 0 } -ComputerName <Device fqdn>
-```
+|    |     |
+|-----------|------------|
+|![](../../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Confirme que usará el conjunto de aplicaciones de las operaciones de administración para supervisar la implementación de sistemas de salón de Skype v2.</li><li>Decidir que va a utilizar para alertas de correo electrónico de la lista de distribución de destino.</li></ul>|
+|![](../../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Definir la calidad y el enfoque de supervisión de la confiabilidad.</li></ul>|
 
-Recuperar registros
-  
-```
-$targetDevice = "<Device fqdn> "
-$logFile = invoke-command {$output = Powershell.exe -ExecutionPolicy Bypass -File C:\Rigel\x64\Scripts\Provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
-Get-ChildItem -Path C:\Rigel\*.zip | Sort-Object -Descending -Property LastWriteTime | Select-Object -First 1} -ComputerName $targetDevice
-$session = new-pssession -ComputerName $targetDevice
-Copy-Item -Path $logFile.FullName -Destination .\ -FromSession $session; invoke-command {remove-item -force C:\Rigel\*.zip} -ComputerName $targetDevice
-```
+## <a name="quality-and-reliability-monitoring-cqd"></a>Calidad y confiabilidad de supervisión (CQD)
 
-Insertar un archivo XML de configuración (o un gráfico del tema)
-  
-```
-$movefile = "<path>";
-$targetDevice = "\\<Device fqdn> \Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState\SkypeSettings.xml"; 
-Copy-Item $movefile $targetDevice 
-```
+Se recomienda que implemente calidad operativa continuada y confiabilidad procedimientos de supervisión como parte de su implementación para supervisar las tendencias de llamada y la calidad de la reunión y la confiabilidad, que identifica las áreas de preocupación y trabajar hacia una resolución. 
 
-## <a name="software-updates"></a>Actualizaciones de software
-<a name="SWupdate"> </a>
+Cuando se carga la información de creación en CQD puede investigar las tendencias de calidad y la confiabilidad de llamadas en un nivel por edificio, lo que facilita la comparación de los edificios y centra la atención en problemas específicos. Para obtener más información, descargue el [Monitor-CQD de Skype para entrega en línea de negocio y la Guía de operaciones](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=6_2_0_15). 
 
-De forma predeterminada, se intentará v2 de sistemas de salón de Skype conectar con el almacén de Windows para obtener la versión más reciente de software de sistemas de salón de Skype v2, por lo que el dispositivo requiere acceso a internet de regular. Asegúrese de que el dispositivo de v2 de sistemas de salón de Skype se carga con la versión más reciente de la aplicación, antes de ponerse en contacto con Microsoft con problemas de soporte técnico.
-  
-De forma predeterminada, sistemas de salón de Skype v2 va a conectarse a Windows Update para recuperar del sistema operativo, así como firmware periférico USB actualizaciones e instálelas fuera del horario configurado. Para configurar horarios comerciales, puede iniciar sesión en la cuenta de administrador y ejecutar la aplicación Configuración.
-  
-Si desea administrar manualmente las actualizaciones y no puede seguir el procedimiento normal para el [Almacén de Microsoft para la empresa](https://businessstore.microsoft.com/en-us/store) para [distribuir las aplicaciones sin conexión](https://docs.microsoft.com/en-us/microsoft-store/distribute-offline-apps), puede adquirir el archivo APPX correspondiente y las dependencias desde el [kit de implementación](https://go.microsoft.com/fwlink/?linkid=851168) (desde las instrucciones para [Configurar una consola de v2 de sistemas de salón de Skype](../../deploy/deploy-clients/console.md)) que se pueden utilizar con SCCM. La versión del kit de implementación queda muy por detrás de la versión de almacenamiento, por lo que es posible que no siempre coincide con la compilación más reciente disponible.
-  
-### <a name="to-update-using-powershell"></a>Para actualizar el uso de Powershell
+Se recomienda que revise y siga la [Guía de revisión de calidad de experiencia](https://aka.ms/qerguide) para identificar las tendencias de calidad y la confiabilidad y crear un plan de acción para resolverlos conflictos. 
 
-1. Extraer el paquete de la instalación [MSI](https://go.microsoft.com/fwlink/?linkid=851168) en un recurso compartido de dispositivo puede tener acceso.
-    
-2. Ejecute el siguiente script de identificación de los dispositivos de v2 de sistemas de salón de Skype, cambiar \<compartir\> al dispositivo compartir según corresponda:
-    
-```
-Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
-```
+## <a name="updating-the-skype-room-systems-v2-os-and-skype-room-systems-application"></a>Actualización de la aplicación de sistema operativo y sistemas de salón de Skype de v2 sistemas de salón de Skype 
 
-## <a name="admin-mode-and-device-management"></a>Modo de administrador y administración de dispositivos
-<a name="AdminMode"> </a>
+Se recomienda que actualizar para sacar partido de las actualizaciones del producto y mejoras en la aplicación v2 de sistemas de salón de Skype v2 OS y sistemas de salón de Skype. Para obtener instrucciones detalladas, consulte [v2 de administración de sistemas de salón de Skype](room-systems-v2-operations.md#software-updates). 
 
-Para realizar algunas funciones de administración, como la instalación manual de un certificado de entidad de certificación privado, es necesario poner el dispositivo Surface 4 en el modo de administrador.  
-  
-### <a name="switching-to-admin-mode-and-back-when-the-skype-room-systems-v2-app-is-running"></a>Cambia al modo de administrador y cuando se ejecuta la aplicación v2 de sistemas de salón de Skype
+## <a name="troubleshooting"></a>Solución de problemas
 
-1. Cuelgue las llamadas que haya en curso y vuelva a la pantalla de inicio.
-    
-2. Haga clic en el icono del engranaje y abrir el menú (son de las opciones de **configuración**, la **accesibilidad**y **Reinicie el dispositivo** ).
-    
-3. Seleccione **Configuración**.
-    
-4. Introduzca la contraseña de administrador. Se abrirá la pantalla Configuración.
-    
-    > [!NOTE]
-    > Si el dispositivo no está unido a un dominio, se utilizará la cuenta del administrador local (nombre de usuario "Administrador") de forma predeterminada. La contraseña predeterminada de esta cuenta es "sfb", aunque se recomienda a la organización que la cambie por motivos de seguridad tan pronto como sea posible. Si la máquina está unida a un dominio, puede iniciar sesión con una cuenta de dominio que tenga los privilegios adecuados. 
-  
-5. Haga clic en **Configuración de Windows** en la columna izquierda.
-    
-6. Seleccione **Ir a inicio de sesión de administrador**.
-    
-7. Introduzca la contraseña de administrador. De este modo, se cierra la sesión de la aplicación y se le dirige a la pantalla de inicio de sesión de Windows. 
-    
-8. Inicie sesión en el escritorio con sus credenciales de administrador. Tendrá los privilegios necesarios para administrar el dispositivo.
-    
-9. Realice las tareas de administración que sean necesarias.
-    
-10. Cierre la sesión de la cuenta del administrador.
-    
-11. Volver a sistemas de salón de Skype v2 seleccionando el icono de la cuenta de usuario en el extremo izquierdo de la pantalla y seleccione **Skype**.
-    
-    Si el usuario de **Skype** no aparece, es posible que deba seleccione **otro usuario** y escriba **. \skype** como el nombre de usuario y de inicio de sesión.
-    
- La consola ahora es nuevo en el modo de funcionamiento normal. El siguiente procedimiento requiere adjuntar un teclado al dispositivo si uno no está asociado. 
-  
-### <a name="switching-to-admin-mode-and-back-when-the-skype-room-systems-v2-app-crashes"></a>Cambia al modo de administrador y cuando se bloquea la aplicación v2 de sistemas de salón de Skype
+Se recomienda que configure alertas del conjunto de aplicaciones de administración de operaciones tal como se describe en la sección anterior para que su equipo de operaciones y el departamento de soporte técnico le avisará de que cualquier problema de v2 de sistemas de salón de Skype. Se describen las opciones disponibles para la administración remota de PowerShell en [PowerShell de uso de administración remota](room-systems-v2-operations.md#remote-management-using-powershell). En caso de que se desconecta un dispositivo periférico, es posible que necesite se basan en locales "inteligentes manos" o soporte de TI para investigar y volver a conectar los dispositivos. 
 
-1. Presione rápidamente la tecla Windows cinco veces. De este modo accederá a la pantalla de inicio de sesión de Windows.  
-    
-2. Inicie sesión en el escritorio con las credenciales de administrador.
-    
-    > [!NOTE]
-    > Con este método no se cierra la sesión del usuario de Skype ni finaliza la aplicación, pero solo lo debe usar si la aplicación no responde y el otro método no está disponible. 
-  
-3. Realice las tareas de administración que sean necesarias.
-    
-4. Reinicie la máquina cuando termine.
-    
- La consola se reinicia en su modo de funcionamiento normal, que ejecuta la aplicación de sistemas de salón de Skype v2. Si adjuntó el teclado, puede quitarlo para que pueda llevar a cabo este procedimiento.
-## <a name="troubleshooting-tips"></a>Sugerencias para la solución de problemas
-<a name="TS"> </a>
+Para obtener más información sobre el modo de administración y solución de problemas, vea [administrar sistemas de salón de Skype v2](room-systems-v2-operations.md#admin-mode-and-device-management). 
 
-- Las invitaciones a reuniones no es posible que aparezca cuando se envían a través de los límites del dominio (por ejemplo, entre las dos compañías). En estos casos, los administradores de TI deben decidir si desea permitir que los usuarios externos programar una reunión o no.
-    
-- Sistemas de salón de Skype v2 no admite redirecciones de detección automática de Exchange a través de Exchange 2010.
-    
-- Por lo general, recomendamos que los administradores de TI deshabiliten todos los extremos de audio que no vayan a ser utilizados.
-    
-- En el caso de que una imagen reflejada aparezca en la vista previa de la sala, el administrador de TI puede corregir desconectando y volviendo a conectar la cámara o volteando la orientación de la imagen con el control remoto de la cámara.
-    
-- Ha habido casos de pérdida de acceso táctil a la consola. En estos casos, el problema a veces se resuelve reiniciando el sistema v2 de sistemas de salón de Skype.
-    
-- Ha habido casos de pérdida de audio local al conectar un PC a la consola mediante una transmisión integrada. En esos casos, el problema de reproducción de audio local se puede resolver reiniciando el PC.
-    
-## <a name="see-also"></a>Vea también
-<a name="TS"> </a>
+### <a name="see-also"></a>Vea también
 
-#### 
+[Ayuda de la versión 2 de sistemas de salón de Skype](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Planeación de la sala de Skype v2 de sistemas](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
-  
-[Implementación de salón de Skype v2 de sistemas](../../deploy/deploy-clients/room-systems-v2.md)
-  
-[Configurar una consola de v2 de sistemas de salón de Skype](../../deploy/deploy-clients/console.md)
-  
-[Administrar una configuración de la consola de sistemas de salón de Skype v2 de forma remota con un archivo de configuración XML](xml-config-file.md)
 
+[Implementación de salón de Skype v2 de sistemas](../../deploy/deploy-clients/room-systems-v2.md)
+
+[Configurar una consola de v2 de sistemas de salón de Skype](../../deploy/deploy-clients/console.md)
+
+[Administrar una configuración de la consola de sistemas de salón de Skype v2 de forma remota con un archivo de configuración XML](xml-config-file.md)

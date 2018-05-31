@@ -20,25 +20,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Polonia.
-ms.openlocfilehash: ec5b3aa085d64d1ec0d9543245c5d5bb3905cb84
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Aquí están disponibles para Polonia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+ms.openlocfilehash: 7707eec638d74c7226c69bfeccd66fdbf3bd98fa
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/11/2018
+ms.locfileid: "19137156"
 ---
 # <a name="availability-in-poland"></a>Disponibilidad de Polonia
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Polonia.
+Aquí están disponibles para Polonia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para Varsovia. Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para:<br/><ul><li> Varsovia</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
@@ -62,7 +63,7 @@ Aquí están los servicios de Office 365 para Skype para empresas y Teams de Mic
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> | Bydgoszcz <br/>  Gdansk <br/>  Katowice <br/>  Cracovia <br/>  Łódź <br/>  Lublin <br/>  Poznań <br/>  Szczecin <br/>  Varsovia <br/>  Breslavia <br/> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> |<ul><li>Bydgoszcz <li>  Gdansk <li>  Katowice <li>  Cracovia <li>  Łódź <li>  Lublin <li>  Poznań <li>  Szczecin <li>  Varsovia <li>  Breslavia </ul> |
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
    

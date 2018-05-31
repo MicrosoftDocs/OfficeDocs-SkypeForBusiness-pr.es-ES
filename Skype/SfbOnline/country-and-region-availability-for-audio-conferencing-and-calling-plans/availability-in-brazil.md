@@ -20,25 +20,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Brasil.
-ms.openlocfilehash: b03b1e0841b89ef0fc60f98753824b29856bd157
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Aquí están disponibles para Brasil los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+ms.openlocfilehash: c51ab060f192757e1086897119370f9403b78e2f
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/11/2018
+ms.locfileid: "19136674"
 ---
 # <a name="availability-in-brazil"></a>Disponibilidad en Brasil
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Brasil.
+Aquí están disponibles para Brasil los servicios de Office 365 para Skype para empresas y Microsoft Teams.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para Sao Paulo. Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para:<br/><ul><li> São Paulo</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
@@ -62,7 +63,7 @@ Aquí están los servicios de Office 365 para Skype para empresas y Teams de Mic
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> | Río de Janeiro <br/>  São Paulo <br/> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> | <ul><li>Río de Janeiro <li>  São Paulo </ul> |
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
    
@@ -78,7 +79,7 @@ Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para s
   
 ## <a name="see-also"></a>Vea también
 
-#### <a name="other-resources"></a>See also
+#### <a name="other-resources"></a>Otros recursos
 
 ## <a name="related-topics"></a>Temas relacionados
 

@@ -1,5 +1,5 @@
 ---
-title: Disponibilidad de Bahréin
+title: Disponibilidad en Bahrein
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,25 +20,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles de Bahréin.
-ms.openlocfilehash: 93fc237af2e4a40b7419c178595da45b1b305b8f
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Aquí están disponibles para Bahrein los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+ms.openlocfilehash: e6d48ee03d615bb0f6f41729a7bf9eda5036d7ec
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/11/2018
+ms.locfileid: "19136584"
 ---
-# <a name="availability-in-bahrain"></a>Disponibilidad de Bahréin
+# <a name="availability-in-bahrain"></a>Disponibilidad en Bahrein
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles de Bahréin.
+Aquí están disponibles para Bahrein los servicios de Office 365 para Skype para empresas y Microsoft Teams.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |No  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para Manama. Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para: <br/><ul><li>Manama</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |No disponible  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico

@@ -1,5 +1,5 @@
 ---
-title: Disponibilidad en Argentina
+title: Disponibilidad de Argentina
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,25 +20,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Argentina.
-ms.openlocfilehash: 24c67f2104ec64340a9d1470bc44e75925085ab4
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Aquí están disponibles para Argentina los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+ms.openlocfilehash: 00f7d05855afd56382e162a1664a108f91beb858
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/11/2018
+ms.locfileid: "19137146"
 ---
-# <a name="availability-in-argentina"></a>Disponibilidad en Argentina
+# <a name="availability-in-argentina"></a>Disponibilidad de Argentina
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están los servicios de Office 365 para Skype para empresas y Teams de Microsoft disponibles para Argentina.
+Aquí están disponibles para Argentina los servicios de Office 365 para Skype para empresas y Microsoft Teams.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para Buenos Aires. Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para:<br/><ul><li>Buenos Aires</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> | No disponible <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
@@ -58,15 +59,15 @@ Aquí están los servicios de Office 365 para Skype para empresas y Teams de Mic
 |Minutos disponibles para Planes de llamada  <br/> |No aplicable  <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> |No aplicable  <br/> |
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Cuota y peaje liberan de números para servicios
+## <a name="toll-and-toll-free-numbers-for-services"></a>Teléfono de pago y gratuitos para servicios
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> | Buenos Aires <br/>  Córdoba <br/>  La Plata <br/>  Mar del Plata <br/>  Mendoza <br/>  Rosario <br/>  San Miguel de Tucumán <br/> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | <ul><li>Buenos Aires <li>Córdoba <li>La Plata <li>Mar del Plata <li>Mendoza <br/>  <li>San Miguel de Tucumán <br/> |
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
-|¿Existen números sin pago?  <br/> |Sí  <br/> |
+|¿Están disponibles los números de teléfono de pago gratuita?  <br/> |Sí  <br/> |
    
- Si desea obtener peajes y peajes números de teléfono gratuito para conferencias de Audio, operadores automáticos y llamar a las colas, vea [números de teléfono de servicio de obtención de Skype para empresas y equipos de Microsoft](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+ Si desea obtener de pago y los números de teléfono gratuito de pago para conferencias de Audio, automáticos y colas de llamadas, vea [los números de teléfono del servicio de introducción de Skype para profesionales y los equipos de Microsoft](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 
