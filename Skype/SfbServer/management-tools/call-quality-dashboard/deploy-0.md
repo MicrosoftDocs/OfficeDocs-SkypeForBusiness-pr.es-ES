@@ -1,5 +1,5 @@
 ---
-title: Implementar panel de calidad de la llamada de Skype para Business Server 2015
+title: Implementar el panel de calidad de llamada para Skype para Business Server 2015
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,166 +10,167 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
-description: 'Resumen: Conozca el proceso de implementación para llamar al panel de calidad. Panel de calidad de la llamada es una herramienta de Skype para Business Server 2015.'
-ms.openlocfilehash: ff8f9bae2c292720bb3fd9943bc541a8eeb6759c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Información sobre el proceso de implementación para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.'
+ms.openlocfilehash: 8a15d8da91235b4927bfaf35eadad625db42f45c
+ms.sourcegitcommit: 0a0fd436d4d732710bb65e1809ac28dd2e0df41a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/31/2018
+ms.locfileid: "19526385"
 ---
-# <a name="deploy-call-quality-dashboard-for-skype-for-business-server-2015"></a>Implementar panel de calidad de la llamada de Skype para Business Server 2015
+# <a name="deploy-call-quality-dashboard-for-skype-for-business-server-2015"></a>Implementar el panel de calidad de llamada para Skype para Business Server 2015
  
-**Resumen:** Conozca el proceso de implementación para llamar al panel de calidad. Panel de calidad de la llamada es una herramienta de Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre el proceso de implementación para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.
   
 ## <a name="deployment-overview"></a>Introducción a la implementación
 
 Panel de calidad de llamada (CQD) consta de tres componentes principales:
   
-- **Base de datos de archivo**, donde se replica y se almacenan los datos de la calidad de la experiencia (QoE).
+- **Base de datos de archivo**, donde se replica y se almacenan los datos de calidad de la experiencia (QoE).
     
-- **Cubo**, donde se agregan los datos de base de datos de archivo de calidad para acceso rápido y optimizado.
+- **Cubo**, donde se agregan los datos de la base de datos de archivo de QoE para acceso rápido y optimizado.
     
-- **Portal**, donde los usuarios pueden consultar y visualizar datos QoE fácilmente.
+- **Portal**, donde los usuarios pueden consultar y visualizar los datos de QoE fácilmente.
     
 ![Componentes de CQD](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
   
-El proceso de instalación para el archivo QoE implica la creación de la base de datos de archivo de calidad de la experiencia, implementar un procedimiento de SQL Server almacenan que moverá los datos desde el origen de base de datos de métricas de calidad de la experiencia en base de datos de archivo de calidad de la experiencia y configurar el trabajo de agente de SQL Server para ejecutar el almacenado procedimiento a intervalos regulares. 
+El proceso de instalación para el archivo QoE implica la creación de la base de datos de archivo de QoE, implementación de un procedimiento almacenado de SQL Server que se moverá los datos desde el origen de base de datos de métricas de QoE en QoE Archivar base de datos y configurar el trabajo de agente SQL Server para ejecutar el almacenado procedimiento a intervalos regulares. 
   
-Implementación del cubo obtiene información del usuario en donde el archivo QoE se encuentra, implementa el cubo y configura un trabajo del Agente SQL Server normal que actualice el cubo a intervalos regulares.
+Implementación de cubo obtiene información de usuario en donde el archivo QoE se encuentra, implementa el cubo y configura un trabajo del Agente SQL Server regular que se va a actualizar el cubo a intervalos regulares.
   
-Instalar portal crea una base de datos que almacena la asignación de usuarios CQD, informes y consultas de cada usuario. A continuación, configura una aplicación web IIS que es el panel donde los usuarios pueden ver un conjunto de informes predefinido, así como personalizar y crear sus propias consultas para visualizar los datos del cubo. La instalación del portal crea dos aplicaciones web adicionales que expone las API para que los usuarios obtener acceso mediante programación al repositorio y el cubo. (Estas API se utilizan internamente por el tablero de mandos).
+Instalación del portal crea una base de datos de repositorio que almacena la asignación de usuarios CQD a informes o consultas de cada usuario. A continuación, configura una aplicación web IIS que es el panel donde los usuarios pueden ver un conjunto de informes predefinido, así como personalizar y crear sus propias consultas para visualizar los datos del cubo. La instalación del portal crea dos aplicaciones web adicionales que expone las API para los usuarios a obtener acceso mediante programación el repositorio y el cubo. (Estas API se usan internamente por el tablero de mandos).
   
 
-|**Fase**|**Pasos**|**Funciones y pertenencia a grupos**|**Documentación**|
+|**Fase**|**Pasos**|**Roles y pertenencia a grupos**|**Documentación**|
 |:-----|:-----|:-----|:-----|
-|Instalar software y hardware necesario.  <br/> |Decida la configuración CQD y elija un SQL Server desde el que se va a realizar la instalación.  <br/> |Usuario de dominio que es miembro del grupo de administradores locales.  <br/> |Sección "Previamente instalar requisitos" en la documentación de implementación.  <br/> |
-|Instalar CQD.  <br/> |Ejecute el MSI siguiendo el documento de implementación.  <br/> |Para realizar la instalación, la cuenta de instalación debe ser un usuario de dominio que sea miembro del grupo local Administradores y tener acceso de lectura a la base de datos de métricas de calidad en el servidor de supervisión.  <br/> |Secciones "Cuentas y pasos de implementación" en la documentación de implementación.  <br/> |
-|Conceder acceso de usuario.  <br/> |Para administrar la autorización del usuario en el Portal, se recomienda utilizar la autorización de direcciones URL, que se introdujo en IIS 7.0. Para obtener más información, vea [Autorización de direcciones URL de descripción IIS 7.0](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).  <br/> |Usuario de dominio que es miembro del grupo de administradores locales.  <br/> |Administrar el acceso de usuario a la sección de Portal en la documentación de implementación.  <br/> |
-|Opcional: Proporcionar la información de asignación de subred.  <br/> |Llenar tablas de asignación de creación de base de datos de archivo de calidad y de red.  <br/> |Una cuenta con acceso de escritura a la base de datos de archivo de calidad.  <br/> |Sección "Proporcionar información de subred" en la documentación del usuario.  <br/> |
+|Instalar software y hardware como requisito previo.  <br/> |Decida en la configuración de CQD y elija un servidor SQL Server desde el que se va a realizar la instalación.  <br/> |Usuario de dominio que es miembro del grupo de administradores locales.  <br/> |Sección "Pre-requisitos para la instalación" en la documentación de implementación.  <br/> |
+|Instalar CQD.  <br/> |Ejecute el MSI siguiendo el documento de implementación.  <br/> |Para realizar la instalación, la cuenta de instalación debe ser un usuario de dominio que sea miembro del grupo de administradores locales y tener acceso de lectura a la base de datos de métricas de QoE en el servidor de supervisión.  <br/> |Secciones "Las cuentas y los pasos de implementación" en la documentación de implementación.  <br/> |
+|Conceder acceso de usuario.  <br/> |Para administrar la autorización de usuario en el Portal, se recomienda utilizar la autorización de dirección URL, que se introdujo en IIS 7.0. Para obtener más información, vea [Autorización de dirección URL de descripción IIS 7.0](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).  <br/> |Usuario de dominio que es miembro del grupo de administradores locales.  <br/> |Administrar el acceso de usuario para la sección de Portal en la documentación de implementación.  <br/> |
+|Opcional: Proporcionar información de asignación de subred.  <br/> |Rellenar la red y las tablas de asignación de creación en la base de datos QoE Archive.  <br/> |Una cuenta con acceso de escritura a la base de datos de archivo de QoE.  <br/> |Sección "Proporcionar información de subred" en la documentación del usuario.  <br/> |
    
 ## 
 
-Implementación de llamar al panel de calidad implica configurar la infraestructura e instalar el software. El siguiente procedimiento describe el proceso.
+La implementación de panel de calidad de llamadas implica la configuración de la infraestructura e instalar el software. El siguiente procedimiento describe el proceso.
   
 ### <a name="deployment-steps"></a>Pasos de implementación
 
-1. Copie el CallQualityDashboard.msi en el equipo donde el componente de base de datos de archivo de CQD debe ser instalado (es decir, el equipo que tiene SQL Server instalado). 
+1. Copie la CallQualityDashboard.msi en el equipo donde se tiene que instalar el componente de base de datos de archivo de CQD (Esto es el equipo que tiene instalado SQL Server). 
     
-2. Ejecute el archivo MSI (Windows le pedirá que se ejecutan con privilegios de administrador, hágalo). 
+2. Ejecute el archivo MSI (Windows solicitará ejecutar con privilegios de administrador, hágalo). 
     
-3. Aceptar al CLUF.
+3. Acepte al CLUF.
     
-4. Seleccione la carpeta de destino donde se encuentra o acepte la ubicación predeterminada archivos relacionados con componentes de panel de calidad llamar.
+4. Seleccione la carpeta de destino donde los archivos relacionados con los componentes del panel de calidad de llamadas se encuentra o acepte la ubicación predeterminada.
     
-5. Seleccione todas las funciones.
+5. Seleccione todas las características.
     
-6. En la página Configuración de archiving QoE, proporcione la siguiente información:
+6. En la página Configuración del archivo de QoE, proporcione la información siguiente:
     
-   - **De SQL Server de métricas de calidad:** Nombre de la instancia de SQL Server de donde se encuentra la base de datos de métricas de calidad (Esto será el origen de datos).
+   - **Las métricas de QoE SQL Server:** Nombre de instancia de SQL Server para que se encuentra la base de datos de métricas de QoE (Esto será el origen de datos).
     
-   - **Archivo QoE SQL Server nombre:** Esto es el campo de sólo lectura y se fija como el nombre de dominio completo del equipo local. Archivo DB puede instalarse sólo en el equipo local.
+   - **Nombre de archivo de QoE SQL Server:** Este es el campo de sólo lectura y se fija en el nombre de dominio completo de la máquina local. Archivo de base de datos puede instalarse solo en la máquina local.
     
-   - **Archivo QoE SQL Server instancia:** Un nombre de instancia de SQL Server local para que la base de datos de archivo debe ser creado. Para utilizar una instancia predeterminada de SQL Server, deje este campo en blanco. Para utilizar una instancia con nombre de SQL Server, especifique el nombre de instancia (por ejemplo, el nombre después de la "\").
+   - **Archivo QoE instancia de SQL Server:** Un nombre de la instancia de SQL Server local para donde es la base de datos de archivo que se creará. Para usar una instancia de SQL Server de forma predeterminada, deje este campo en blanco. Para usar una instancia con nombre de SQL Server, especifique el nombre de instancia (por ejemplo, el nombre después de la "\").
     
-   - **QoE Archivar base de datos:** De forma predeterminada, esta opción se establece en "Crear nueva base de datos". Dado que no se admite la actualización de archivo DB, la única circunstancia en que puede utilizarse la opción "Usar la base de datos existente" es si la base de datos de archivo existente tiene el mismo esquema que la compilación para instalarse.
+   - **QoE Archivar base de datos:** De forma predeterminada, esta opción se establece en "Crear nueva base de datos". Dado que no se admite la actualización de base de datos de archivo, el único caso en que se puede usar la opción "Usar la base de datos existente" es si la base de datos de archivo existente tiene el mismo esquema que la compilación que se van a instalar.
     
-   - **Directorio del archivo de base de datos:** Ruta de acceso donde se colocarán los archivos de base de datos (.mdf y .ldf) de la base de datos de archivo. Esto debe estar en una unidad independiente (HDD2 en la configuración de hardware recomendada) desde el sistema operativo. Tenga en cuenta que dado que los nombres de archivo se corrigen en la instalación, para evitar posibles conflictos, se recomienda que se utilice un directorio no tiene archivos en blanco.
+   - **Directorio del archivo de base de datos:** Ruta de acceso donde se deben colocar los archivos de base de datos (archivos .mdf y .ldf) para la base de datos de archivo. Esto debe estar en una unidad independiente (HDD2 en la configuración de hardware recomendada) desde el sistema operativo. Tenga en cuenta que dado que los nombres de archivo se corrigen en la instalación, para evitar posibles conflictos, se recomienda que se utiliza un directorio en blanco con ningún archivo.
     
-   - **Utilizar varias particiones:** El valor predeterminado se establece en "Partición múltiples", que no requiere edición Business Intelligence o Enterprise edition de SQL Server. Para Standard edition, seleccione la opción de "Partición única". Tenga en cuenta que el rendimiento de procesamiento del cubo puede verse afectado si se utiliza una única partición.
-    
-    > [!NOTE]
-    > No se puede cambiar la selección de la opción de usar varias particiones una vez finalizada la instalación. Para cambiarlo, el cubo característica debe ser la primera desinstala y vuelve a instalar utilizando la opción "Cambiar" Panel de Control. 
-  
-   - **Crear particiones de directorio de archivo:** Ruta de acceso que se deben colocar las particiones de la base de datos de archivo de calidad. Esto debe estar en una unidad independiente (HDD3 en la configuración de hardware recomendada) de la unidad de sistema operativo y la unidad de archivos de registro de base de datos SQL. Tenga en cuenta que dado que los nombres de archivo se corrigen en la instalación, para evitar posibles conflictos, se recomienda que se utilice un directorio no tiene archivos en blanco.
-    
-   - **Usuario de trabajo del Agente SQL - nombre de usuario &amp; contraseña:** Nombre de cuenta de servicio de dominio y la contraseña (máscara) que se utilizará para ejecutar el paso de "Datos de archivo de la calidad" del trabajo del agente de SQL Server (que se ejecutará el procedimiento almacenado para recuperar datos la base de datos de métricas de calidad de la experiencia en archivo DB, por lo que esta cuenta debe tener acceso de lectura a DB de métricas de calidad,  como se indica en la sección de cuentas. Esta cuenta debe tener también un inicio de sesión en la instancia de SQL Server de QoE Archive).
+   - **Usar varias particiones:** El valor predeterminado se establece en "Partición varios", lo cual requiere la edición de inteligencia empresarial o Enterprise edition de SQL Server. Para Standard edition, seleccione la opción de "Única partición". Tenga en cuenta que el rendimiento de procesamiento del cubo puede verse afectado si se usa una única partición.
     
     > [!NOTE]
-    > La cuenta que se está ejecutando la instancia de SQL Server, como SERVICE\MSSQLSERVER de NT, debe tener acceso a los directorios mencionados para que la instalación se realice correctamente. Para obtener información detallada, vea [Configurar permisos de sistema de archivos para obtener acceso al motor de base de datos](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
+    > No se puede cambiar la selección para la opción de usar varias particiones una vez finalizada la instalación. Para cambiarlo, el cubo que se necesita la característica a la primera desinstalado y, a continuación, volver a instalar mediante la opción "Cambiar" en el Panel de Control. 
   
-7. Al hacer clic en siguiente, el programa de instalación llevará a cabo comprobaciones de requisitos previos e informe si se produjeran problemas. Cuando comprueba todo son un requisito previo paso, el programa de instalación se vaya a la página de configuración de cubo. 
+   - **Crear particiones de directorio de archivo:** Ruta de acceso donde se deben colocar las particiones de la base de datos de archivo de QoE. Esto debe estar en una unidad independiente (HDD3 en la configuración de hardware recomendada) de la unidad de sistema operativo y la unidad de archivos de registro de base de datos SQL. Tenga en cuenta que dado que los nombres de archivo se corrigen en la instalación, para evitar posibles conflictos, se recomienda que se utiliza un directorio en blanco con ningún archivo.
+    
+   - **Usuario de trabajo del Agente SQL - nombre de usuario &amp; contraseña:** Nombre de cuenta de servicio de dominio y la contraseña (enmascarado) que se usará para ejecutar el paso de "Datos de archivo QoE" del trabajo de agente SQL Server (que se ejecutará el procedimiento almacenado para recuperar datos la base de datos de métricas de calidad de la experiencia en la base de datos de archivo, por lo que esta cuenta debe tener acceso de lectura a la base de datos de métricas de QoE,  como se indica en la sección cuentas. Esta cuenta también debe tener un inicio de sesión en la instancia de SQL Server de QoE archivo).
     
     > [!NOTE]
-    > Si el programa de instalación muestra un mensaje de advertencia que el servicio Agente de SQL Server para la instancia de SQL Server archivo QoE no se está ejecutando actualmente, la instalación puede continuar, pero posterior a la instalación, asegúrese que el servicio Agente SQL está ejecutando y establece el tipo de inicio en Automática para que se ejecute la tarea programada. 
+    > La cuenta que se está ejecutando la instancia de SQL Server, como NT SERVICE\MSSQLSERVER, debe tener acceso a los directorios indicadas anteriormente para que la instalación se realice correctamente. Para obtener información detallada, vea [Configurar permisos de sistema de archivos para obtener acceso al motor de base de datos](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
   
-8. En la página de configuración de cubo, proporcione la siguiente información:
-    
-   - **Archivo QoE SQL Server nombre:** Esto es el campo de sólo lectura y se fija como el nombre de dominio completo del equipo local. Cubo puede instalarse sólo desde el equipo que tiene la base de datos de archivo de calidad (Nota. Cubo puede instalarse en un equipo remoto. Vea a continuación)
-    
-   - **Archivo QoE SQL Server instancia:** Nombre de la instancia de SQL Server de donde se encuentra la base de datos de archivo QoE. Para especificar una instancia de SQL Server predeterminada, deje este campo en blanco. Para especificar una instancia con nombre de SQL Server, escriba el nombre de instancia (por ejemplo, el nombre después de la "\"). Si el componente de archiving QoE fue seleccionado para la instalación, este campo se rellenará previamente con el valor proporcionado en la página Configuración de archiving QoE.
-    
-   - **De cubo Analysis Server:** Nombre de la instancia de SQL Server Analysis Services para donde es necesario crear el cubo. Esto puede ser un equipo diferente, pero el usuario que instala debe ser un miembro del grupo Administradores de servidor de la instancia de Analysis Services de SQL Server de destino.
+7. Tras hacer clic en siguiente, el programa de instalación llevará a cabo comprobaciones de requisitos previos e informe si se producen problemas. Cuando comprobaciones de todas las de requisitos previos paso, el programa de instalación se vaya a la página de configuración de cubo. 
     
     > [!NOTE]
-    >  Para obtener más información acerca de cómo configurar permisos de administrador de servidor de servicios de análisis, vea [Conceder permisos de administrador del servidor (Analysis Services)](https://msdn.microsoft.com/en-us/library/ms174561.aspx)
+    > Si el programa de instalación muestra un mensaje de advertencia que el servicio Agente SQL Server para la instancia de SQL Server de QoE archivo actualmente no se está ejecutando, puede continuar con la instalación, pero posterior a la instalación por favor, asegúrese de que el servicio del Agente SQL se está ejecutando y establece el tipo de inicio Automática para que se ejecute el trabajo programado. 
   
-   - **Utilizar varias particiones:** El valor predeterminado se establece en "Partición múltiples", que no requiere edición Business Intelligence o Enterprise edition de SQL Server. Para Standard edition, seleccione la opción de "Partición única". Tenga en cuenta que el rendimiento de procesamiento del cubo puede verse afectado si se utiliza una única partición.
+8. En la página de configuración de cubo, proporcione la información siguiente:
+    
+   - **Nombre de archivo de QoE SQL Server:** Este es el campo de sólo lectura y se fija en el nombre de dominio completo de la máquina local. Cubo puede instalarse solo desde el equipo que tiene la base de datos de archivo de QoE (tenga en cuenta. Cubo propio puede instalarse en un equipo remoto. Vea más adelante)
+    
+   - **Archivo QoE instancia de SQL Server:** Nombre de instancia de SQL Server para que se encuentra la base de datos de archivo de QoE. Para especificar una instancia de SQL Server de forma predeterminada, deje este campo en blanco. Para especificar una instancia con nombre de SQL Server, escriba el nombre de instancia (por ejemplo, el nombre después de la "\"). Si el componente de archivo QoE se ha seleccionado para la instalación, este campo estará rellenado previamente con el valor proporcionado en la página Configuración de QoE archiving.
+    
+   - **Cubos de Analysis Server:** Nombre de instancia de SQL Server Analysis Services para donde es el cubo que se creará. Esto puede ser un equipo diferente, pero el usuario que instala tiene que ser un miembro de los administradores del servidor de la instancia de SQL Server Analysis Services de destino.
     
     > [!NOTE]
-    >  No se puede cambiar la selección de la opción de usar varias particiones una vez finalizada la instalación. Para cambiarlo, el cubo característica debe ser la primera desinstala y vuelve a instalar utilizando la opción "Cambiar" Panel de Control.
+    >  Para obtener más información acerca de cómo configurar permisos de administrador del servidor de Analysis Services, vea [Conceder permisos de administrador del servidor (Analysis Services)](https://msdn.microsoft.com/en-us/library/ms174561.aspx)
   
-   - **Usuario - nombre de usuario de cubo &amp; contraseña:** Nombre de cuenta de servicio de dominio y una contraseña (máscara) que desencadene el procesamiento del cubo. Si el componente de archiving QoE fue seleccionado para la instalación, este campo se rellenará previamente con el valor proporcionado en la página de configuración de archivo para el usuario de trabajo del Agente SQL, pero es recomendable que especifique una cuenta de servicio de dominio diferente para que el programa de instalación puede conceder la privilegios necesarios mínimos a él.
+   - **Usar varias particiones:** El valor predeterminado se establece en "Partición varios", lo cual requiere la edición de inteligencia empresarial o Enterprise edition de SQL Server. Para Standard edition, seleccione la opción de "Única partición". Tenga en cuenta que el rendimiento de procesamiento del cubo puede verse afectado si se usa una única partición.
     
-9. Al hacer clic en siguiente, se realizará otra ronda de validación y notificará cualquier problema. Tras completar correctamente la validación, el instalador se vaya a la página de configuración del Portal. 
+    > [!NOTE]
+    >  No se puede cambiar la selección para la opción de usar varias particiones una vez finalizada la instalación. Para cambiarlo, el cubo que se necesita la característica a la primera desinstalado y, a continuación, volver a instalar mediante la opción "Cambiar" en el Panel de Control.
+  
+   - **Usuario - nombre de usuario de cubos &amp; contraseña:** Nombre de cuenta de servicio de dominio y contraseña (enmascarado) que se activará el procesamiento del cubo. Si el componente de archiving QoE se ha seleccionado para la instalación, este campo se rellenará previamente con el valor proporcionado en la página Configuración de archivo para el usuario de trabajo del Agente SQL, pero se recomienda especificar una cuenta de servicio de dominio diferente para que el programa de instalación puede conceder el privilegios necesarios a ella.
     
-10. En la página Configuración de Portal, proporcione la siguiente información:
+9. Al hacer clic en siguiente, se realizará otra ronda de validación y se informará de cualquier problema. Tras completar correctamente la validación, el programa de instalación se vaya a la página de configuración del Portal. 
     
-    - **Archivo QoE SQL Server:** Nombre de la instancia de SQL Server de donde se encuentra la base de datos de archivo de calidad. Tenga en cuenta que, a diferencia de la página de configuración de archivo de calidad de la experiencia y la página de configuración de cubo, el nombre del equipo no es fijo y se debe proporcionar. Si el componente de archiving QoE fue seleccionado para la instalación, este campo se rellenará previamente con el valor proporcionado en la página Configuración de archiving QoE.
+10. En la página Configuración de Portal, proporcione la información siguiente:
     
-    - **De cubo Analysis Server:** Nombre de la instancia de SQL Server Analysis Services para donde se encuentra el cubo. Si se selecciona el componente de cubo para la instalación, este campo se rellenará previamente con el valor proporcionado en la página Configuración de cubo.
+    - **Archivo QoE SQL Server:** Nombre de instancia de SQL Server para que se encuentra la base de datos de archivo de QoE. Tenga en cuenta que, a diferencia de la página de configuración de archivo de calidad de la experiencia y la página de configuración de cubo, el nombre del equipo no es fijo y se debe proporcionar. Si el componente de archivo QoE se ha seleccionado para la instalación, este campo estará rellenado previamente con el valor proporcionado en la página Configuración de QoE archiving.
     
-    - **Repositorio de SQL Server:** Donde es la base de datos de repositorio que se cree el nombre de la instancia de SQL Server. Si se ha proporcionado el nombre de la instancia de SQL Server de donde se encuentra la base de datos de archivo QoE anteriormente en el programa de instalación (en otros componentes), este campo se rellenará previamente con el nombre de instancia QoE archivo base de datos SQL Server. Puede tratarse de cualquier instancia de SQL Server.
+    - **Cubos de Analysis Server:** Nombre de instancia de SQL Server Analysis Services para que se encuentra el cubo. Si el componente de cubo se ha seleccionado para la instalación, este campo estará rellenado previamente con el valor proporcionado en la página Configuración de cubo.
     
-    - **Base de datos de repositorio:** De forma predeterminada la opción se establece en "Crear nueva base de datos". Dado que no se admite la actualización de la base de datos de repositorio, la única circunstancia en que puede utilizarse la opción "Usar la base de datos existente" es si la base de datos de repositorio existente tiene el mismo esquema que la compilación para instalarse.
+    - **Repositorio SQL Server:** Nombre de instancia de SQL Server donde está la base de datos de repositorio que se creará. Si se ha proporcionado el nombre de instancia de SQL Server para que se encuentra la base de datos de archivo QoE anteriormente en el programa de instalación (en otros componentes), este campo se rellena previamente con el nombre de instancia QoE Archivar base de datos SQL Server. Esto puede ser cualquier instancia de SQL Server.
     
-    - **Grupo de aplicaciones IIS usuario - nombre de usuario &amp; contraseña:** La cuenta que se debe ejecutar en el grupo de aplicaciones IIS. Los campos nombre de usuario y la contraseña aparecerá atenuados si se seleccionan las cuentas del sistema integrado. Estos campos sólo se habilitará si "Otros" está seleccionada en el cuadro desplegable para que el usuario puede escribir la información de cuenta de servicio de dominio.
+    - **Base de datos de repositorio:** De forma predeterminada, la opción se establece en "Crear nueva base de datos". Dado que no se admite la actualización de base de datos de repositorio, el único caso en que se puede usar la opción "Usar la base de datos existente" es si la base de datos de repositorio existente tiene el mismo esquema que la compilación que se van a instalar.
     
-11. Al hacer clic en siguiente, se realizará la Ronda final de validación para asegurarse de que las instancias de SQL Server son accesibles mediante las credenciales proporcionadas y que está disponible en el equipo IIS. Tras completar correctamente la validación, el programa de instalación continuará con la instalación. 
+    - **Usuario del grupo de aplicaciones IIS - nombre de usuario &amp; contraseña:** La cuenta que se debe ejecutar en el grupo de aplicaciones de IIS. Los campos nombre de usuario y la contraseña se resaltan en gris si están seleccionadas las cuentas del sistema integrado. Estos campos sólo se habilitará si "Otros" esté activada en el cuadro desplegable para que el usuario puede escribir la información de cuenta de servicio de dominio.
     
-Cuando el instalador haya finalizado, más probable es que el trabajo del agente de SQL Server será en curso, realizando la carga inicial de los datos de la calidad y el procesamiento del cubo. Dependiendo de la cantidad de datos de calidad, el portal no tendrá datos disponibles para su visualización aún. Para comprobar el estado de la carga de datos y el procesamiento del cubo, vaya a `http://<machinename>/CQD/#/Health`. 
+11. Al hacer clic en siguiente, se realizará la Ronda final de validación para asegurarse de que las instancias de SQL Server son accesibles utilizando las credenciales proporcionadas y que está disponible en el equipo de IIS. Tras completar correctamente la validación, el instalador continuará con el programa de instalación. 
+    
+Cuando se realiza el programa de instalación, es muy probable que el trabajo del Agente SQL Server será en curso, realizando la carga inicial de los datos de QoE y el procesamiento del cubo. Dependiendo de la cantidad de datos de QoE, el portal no tendrán datos disponibles para la visualización aún. Para comprobar el estado de la carga de datos y el procesamiento del cubo, vaya a `http://<machinename>/CQD/#/Health`. 
 > [!NOTE]
-> Tenga en cuenta que la dirección URL para comprobar el estado de la descarga de procesamiento de cubos distingue mayúsculas de minúsculas. Si escribe la dirección URL no funciona ' estado'. Debe especificar 'Estado' al final de la dirección URL con una mayúscula H. 
+> Tenga en cuenta que la dirección URL de comprobación del estado de la descarga de procesamiento de cubos distingue mayúsculas de minúsculas. Si escribe 'estado' no funcionan en la dirección URL. Debe escribir 'Estado' al final de la dirección URL con una letra mayúscula H. 
   
-Mensajes de registro detallado se mostrará si está habilitado el modo de depuración. Para habilitar el modo de depuración, vaya a **%SYSTEMDRIVE%\Program Files\Skype para negocios 2015 CQD\QoEDataService\web.config**y actualizar la siguiente línea, por lo que el valor se establece en **True**:
+Los mensajes de registro detallado se mostrarán si está habilitado el modo de depuración. Para habilitar el modo de depuración, vaya a **%SYSTEMDRIVE%\Program Files\Skype para profesionales de 2015 CQD\QoEDataService\web.config**y actualizar la siguiente línea, por lo que el valor se establece en **True**:
 
 ```
 <add key="QoEDataLib.DebugMode" value="True" /> 
 ```
 
-Es accesible a través de la página principal del portal `http://<machinename>/CQD`. 
-## <a name="managing-user-access-for-the-portal"></a>Administración del acceso de usuario para el Portal
+La página principal del portal es accesible a través de `http://<machinename>/CQD`. 
+## <a name="managing-user-access-for-the-portal"></a>Administrar el acceso de usuario para el Portal
 
-Para administrar la autorización del usuario en el Portal, se recomienda utilizar la autorización de direcciones URL, que se introdujo en IIS 7.0. Para obtener más información acerca de la seguridad IIS, vea [Autorización de direcciones URL de descripción IIS 7.0 ](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).
+Para administrar la autorización de usuario en el Portal, se recomienda utilizar la autorización de dirección URL, que se introdujo en IIS 7.0. Para obtener más información acerca de la seguridad IIS, vea [Autorización de dirección URL de descripción IIS 7.0 ](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).
   
-Cualquier aplicación de web o sitio web heredan el valor predeterminado configurado para todo IIS, que normalmente es "Permitir que todos los usuarios" de autorización de direcciones URL. Si necesita acceso al Portal para que sea más restrictivo, a continuación, los administradores pueden conceder acceso a sólo el grupo de usuarios específico mediante la modificación de las reglas de autorización"".
+Cualquier aplicación web, web o sitio heredan el valor predeterminado configurado para IIS todo, que normalmente es "Permitir que todos los usuarios" de autorización de dirección URL. Si necesita acceso al Portal para que sea más restrictivo, a continuación, los administradores pueden conceder acceso a sólo el grupo específico de usuarios mediante la edición de las reglas de autorización"".
   
 ![Implementar la calidad de llamadas: reglas de autorización en IIS](../../media/0da80c28-58fe-4aca-94b4-db684389468c.png)
   
 > [!NOTE]
-> El icono de las reglas de autorización no es se debe confundir con la "autorización. NET" en la sección ASP.NET, que es un mecanismo de autorización diferente. 
+> El icono de las reglas de autorización no es debe confundirse con el "autorización de. NET" en la sección ASP.NET, que es un mecanismo de autorización diferentes. 
   
-Los administradores deben quitar primero la regla heredada "permitir que todos los usuarios". Esto impide que los usuarios no autorizados accedan al Portal.
+Los administradores deben quitar primero la regla heredado "permitir que todos los usuarios". Esto impide que los usuarios no autorizados acceso al Portal.
   
 ![Implementar CQD](../../media/fa17ad19-d303-40f8-8324-d13fd67936ab.png)
   
-A continuación, los administradores deben agregar nuevas reglas permitir y conceder el permiso para acceder al Portal de usuarios específicos. Se recomienda que un grupo local llamado "CQDPortalUsers" se crea para administrar los usuarios.
+A continuación, los administradores deben agregar nuevas reglas permitir y concesión de permiso para obtener acceso al Portal de usuarios específicos. Se recomienda que se ha creado un grupo local denominado "CQDPortalUsers" para administrar los usuarios.
   
 ![Implementar el panel de calidad de llamadas](../../media/8cfdc141-ec89-4552-921b-53196f497cbf.png)
   
-Los detalles de configuración se almacenan en el archivo web.config ubicado en el directorio físico del Portal.
+Los detalles de configuración se almacenan en el archivo web.config que se encuentra en el directorio físico del Portal.
   
 ```
 <?xml version="1.0" encoding="UTF-8"?> <configuration> <system.webServer> <security> <authorization> <remove users="*" roles="" verbs="" /> <add accessType="Allow" roles="CQDPortalUsers" /> </authorization> </security> </system.webServer> </configuration> 
 ```
 
-El siguiente paso es configurar el panel de la CQD. Después de que IIS autentica a los usuarios, deberán tener permisos de archivo en el directorio CQD para acceder al contenido de portal web. Es posible cambiar las ACL a través de la ficha de seguridad de las propiedades del directorio CQD para agregar usuarios individuales o grupos; Sin embargo, el enfoque recomendado es dejar intactos los permisos de archivo. En su lugar, cambie la configuración de IIS para utilizar el proceso de trabajo IIS para tener acceso al directorio CQD, independientemente de que el usuario está autenticado. 
+El siguiente paso es configurar el panel de la CQD. Después de que los usuarios se autentican con IIS, deberá tener permisos de archivo en el directorio CQD con el fin de obtener acceso al contenido del portal web. Es posible cambiar las ACL a través de la ficha seguridad de las propiedades del directorio CQD para agregar usuarios individuales o grupos; Sin embargo, el enfoque recomendado es dejar intactos los permisos de archivo. En su lugar, cambie la configuración de IIS para usar el proceso de trabajo IIS para tener acceso al directorio CQD independientemente del lugar en que se autentica el usuario. 
   
 > [!IMPORTANT]
-> Es importante que sólo cambiar esta configuración para la aplicación de CQD y no para las dos aplicaciones API: QoEDataService y QoERepositoryService. 
+> Es importante sólo cambiar esta configuración para la aplicación de CQD y no para las dos aplicaciones de API: QoEDataService y QoERepositoryService. 
   
-### <a name="configuring-file-access-for-the-cqd-dashboard"></a>Configuración de acceso de archivo para el CQD (escritorio)
+### <a name="configuring-file-access-for-the-cqd-dashboard"></a>Configurar el acceso de archivo para el CQD (panel)
 
-1. Abra el Editor de configuración para CQD.
+1. Abra el Editor de configuración de CQD.
     
      ![Implementar el panel de calidad de llamadas](../../media/544056eb-3090-434e-bae6-321c984029fa.png)
   
@@ -185,80 +186,80 @@ El siguiente paso es configurar el panel de la CQD. Después de que IIS autentic
     
 ## <a name="known-issues"></a>Problemas conocidos
 
-En raras ocasiones, el programa de instalación no puede crear la configuración correcta en IIS. Cambio manual es necesaria para permitir a los usuarios iniciar sesión en el CQD. Si los usuarios tienen problemas para iniciar sesión, siga estos pasos:
+En algunos casos poco frecuentes, el programa de instalación no puede crear la configuración correcta en IIS. Cambio manual se requiere para permitir a los usuarios iniciar sesión en la CQD. Si los usuarios tienen problemas para iniciar sesión, siga estos pasos:
   
-1. Abra el Administrador de IIS y vaya al sitio Web predeterminado.
+1. Abra el Administrador de IIS y navegue al sitio Web predeterminado.
     
      ![Implementar el panel de calidad de llamadas](../../media/dc6007aa-870b-4d70-867d-32ffd937063b.png)
   
-2. Haga clic en "Autenticación". Si la "Autenticación anónima", "Suplantación de ASP.NET", "Autenticación mediante formularios" y "Autenticación de Windows" no coincide con la mostrada a continuación, cámbielos manualmente para que coincida con la siguiente configuración. Todos los otros mecanismos de autenticación deben estar deshabilitadas.
+2. Haga clic en "Autenticación". Si la "Autenticación anónima", "Suplantación de ASP.NET", "Autenticación basada en formularios" y "Autenticación de Windows" no coincide con la configuración que se muestra a continuación, cámbielos manualmente para que coincida con la siguiente configuración. Se deben deshabilitar todos los otros mecanismos de autenticación.
     
      ![Implementar el panel de calidad de llamadas](../../media/5d9e38fb-8a50-41a2-a423-3ce983a83d0c.png)
   
-3. "Autenticación de Windows", haga clic en Configuración avanzada en el lado derecho.
+3. Para la "Autenticación de Windows", haga clic en Configuración avanzada en el lado derecho.
     
      ![Implementar el panel de calidad de llamadas](../../media/cad29486-df40-4cc9-82f3-bbdaca52d9ca.png)
   
-4. Establecer "Protección ampliada" para aceptar y Active la casilla de "autenticación de modo Kernel habilitar".
+4. Establezca "Protección ampliada" para aceptar y Active la casilla "autenticación de modo Kernel de habilitar".
     
      ![Implementar el panel de calidad de llamadas](../../media/0ab2dda1-0001-4747-8cfc-072e9368b6cb.png)
   
 5. Repita los pasos anteriores para cada una de las entradas de "CQD", "QoEDataService" y "QoERepositoryService" debajo de "sitio Web predeterminado".
     
-Para los enlaces de puerto HTTP y HTTPS, el instalador creará enlaces de puertos en los números de puerto predeterminado (puerto 80 para HTTP) y el puerto 443 para HTTPS. Si hay otro sitio Web en el equipo que utiliza estos enlaces, habrá un conflicto y no se puede predecir el comportamiento IIS. La mejor manera de evitar este problema es asegurarse de que no hay otros sitios Web se asigna a los puertos 80 y 443 antes de instalar CQD. 
+Para los enlaces de puerto HTTP y HTTPS, el instalador creará los enlaces de puerto en los números de puerto predeterminado (puerto 80 para HTTP) y el puerto 443 para HTTPS. Si no hay otro sitio Web en el equipo que usa estos enlaces, habrá un conflicto y no se puede predecir el comportamiento IIS. La mejor forma de evitar este problema es asegurarse de que no hay otros sitios Web se asigna a los puertos 80 y 443 antes de instalar CQD. 
   
-Para habilitar SSL/TLS en IIS y obligar a los usuarios conectarse a través de HTTPS seguro en lugar de HTTP:
+Para habilitar SSL/TLS en IIS y obligar a los usuarios para conectarse a través de HTTPS seguro en lugar de HTTP:
   
-1. Configurar Secure Sockets Layer en IIS, vea [Configuring Secure Sockets Layer in IIS 7](https://technet.microsoft.com/en-us/library/cc771438%28v=ws.10%29.aspx). Una vez hecho esto, reemplace `http` con `https`.
+1. Configuración de capa de Sockets seguros en IIS, vea [Configuring Secure Sockets Layer en IIS 7](https://technet.microsoft.com/en-us/library/cc771438%28v=ws.10%29.aspx). Una vez hecho, reemplace `http` con `https`.
     
-2. Para obtener instrucciones acerca de cómo habilitar TLS en las conexiones de SQL Server, vea [cómo habilitar el cifrado SSL para una instancia de SQL Server utilizando Microsoft Management Console ](https://support.microsoft.com/en-us/kb/316898/).
+2. Para obtener instrucciones acerca de cómo habilitar TLS en las conexiones de SQL Server, vea [cómo habilitar el cifrado SSL para una instancia de SQL Server mediante el uso de Microsoft Management Console ](https://support.microsoft.com/en-us/kb/316898/).
     
 ### <a name="cube-sync-fails"></a>Error de sincronización de cubo
 
-QoEMetrics puede contener algunos registros no válidos tomando como base los relojes del usuario final. Si el desfase temporal es mayor que 60 años, se producirá un error en la importación de cubo.
+QoEMetrics puede contener algunos registros no válidos en función de los relojes de usuario final. Si el tiempo sesgado es mayor que 60 años, se producirá un error en la importación de cubo.
   
- Compruebe el Min y Max StartTime y EndTime mediante las siguientes selecciones. Buscar y eliminar registros en el futuro ahora, pasado y muy distante, puede tenerse y se romperán los procesos de sincronización.
+ Compruebe el Min y Max StartTime y EndTime mediante las siguientes selecciones. Buscar y eliminar registros en el futuro últimos mucho y muy lejano, puede ignorarse e interrumpirá la seguridad de los procesos de sincronización.
   
-- Seleccione MIN(StartTime) de CqdPartitionedStreamView
+- Seleccione MIN(StartTime) desde CqdPartitionedStreamView
     
-- Seleccione MAX(StartTime) de CqdPartitionedStreamView
+- Seleccione MAX(StartTime) desde CqdPartitionedStreamView
     
-- Seleccione MIN(EndTime) de CqdPartitionedStreamView
+- Seleccione MIN(EndTime) desde CqdPartitionedStreamView
     
-- Seleccione MAX(EndTime) de CqdPartitionedStreamView
+- Seleccione MAX(EndTime) desde CqdPartitionedStreamView
     
 ## <a name="post-install-tasks"></a>Tareas posteriores a la instalación
 
-### <a name="importing-buildings-and-networks"></a>Importación de edificios y redes
+### <a name="importing-buildings-and-networks"></a>Importación de los edificios y las redes
 
 Después de instalar CQD, realice las siguientes tareas de configuración:
   
-1. Definir tipos de edificio (recomendados)
+1. Definir tipos de creación (recomendados)
     
-2. Definir los tipos de propiedad del edificio (recomendados)
+2. Definir tipos de propiedad de creación (recomendados)
     
-3. Definir los tipos de red (altamente recomendados)
+3. Definir tipos de redes (altamente recomendados)
     
-4. Edificios de importación (recomendado)
+4. Los edificios de importación (recomendado)
     
 5. Subredes de importación (recomendadas)
     
-### <a name="define-building-types"></a>Definir tipos de edificios
+### <a name="define-building-types"></a>Definir tipos de creación
 
-Tipos de construcción se utilizan para describir las definiciones de diferentes edificios o tipos dentro de su organización. 
+Tipos de creación se utilizan para describir las definiciones de diferentes edificios o tipos de dentro de la organización. 
   
 > [!NOTE]
-> Este paso es opcional, pero recomendado. 
+> Este paso es opcional, pero se recomienda. 
   
 Ejemplos
   
 - Sede central
     
-- Oficina remota
+- Remoto de Office
     
-- Ubicación de la empresa conjunta
+- Ubicación de participación
     
- **Sintaxis de SQL de ejemplo**
+ **Sintaxis SQL de ejemplo**
   
 ```
 INSERT INTO
@@ -273,24 +274,24 @@ VALUES
 
 Los parámetros BuildingTypeId y BuildingTypeDesc son necesarios.
   
-### <a name="define-building-ownership-types"></a>Definir los tipos de propiedad de edificio
+### <a name="define-building-ownership-types"></a>Definir tipos de propiedad de creación
 
-Tipos de propiedad se utilizan para distinguir los activos arrendados propietario vs.
+Tipos de propiedad se usan para distinguir vs perteneciente cedida activos.
   
 > [!NOTE]
-> Este paso es opcional, pero recomendado. 
+> Este paso es opcional, pero se recomienda. 
   
 Ejemplos
   
-- Contoso arrendado no-RE&amp;F
+- Concesión de Contoso que no sean-RE&amp;F
     
-- Contoso arrendado RE&amp;F
+- Contoso conexión alquilada RE&amp;F
     
-- Propiedad de Contoso
+- Contoso que pertenecen
     
-- Filial arrendado
+- Subsidiaria concedida
     
- **Sintaxis de SQL de ejemplo**
+ **Sintaxis SQL de ejemplo**
   
 ```
 INSERT INTO
@@ -307,12 +308,12 @@ VALUES
 
 Los parámetros OwnershipTypeId y OwnershipTypeDesc son necesarios. 
   
-### <a name="define-network-names"></a>Definir nombres de red
+### <a name="define-network-names"></a>Definir los nombres de red
 
-Tipos de red se utilizan para describir los diferentes tipos de redes en la organización. Esto le da la capacidad de filtrar (o filtrar) los tipos de red específicos.
+Tipos de redes se utilizan para describir los diversos tipos de redes dentro de la organización. Esto le ofrece la capacidad de filtrar en (o filtrar) tipos específicos de red.
   
 > [!NOTE]
-> Se recomienda definir los nombres de red, pero es opcional. Si decide no definir nombres de red, asegúrese de que cada entrada de CqdNetwork tiene un BuildingId de 0. 
+> Se recomienda para definir los nombres de red, pero es opcional. Si decide no definir los nombres de red, asegúrese de que cada entrada de CqdNetwork tiene un BuildingId de 0. 
   
 Ejemplos
   
@@ -320,7 +321,7 @@ Ejemplos
     
 - LABORATORIO
     
- **Sintaxis de SQL de ejemplo**
+ **Sintaxis SQL de ejemplo**
   
 ```
 INSERT INTO [dbo].[CqdNetworkName] 
@@ -331,18 +332,18 @@ VALUES
 ('VPN','VPN') 
 ```
 
-Los parámetros NetworkNameID y NetworkName son necesarios, el parámetro NetworkType es opcional pero se recomienda.
+Los parámetros NetworkNameID y NetworkName son necesarios, el parámetro NetworkType es opcional pero recomendado.
   
-### <a name="import-buildings"></a>Edificios de importación
+### <a name="import-buildings"></a>Los edificios de importación
 
-Importación de edificios permite obtener creación de conocimientos específicos (llamadas deficientes por edificio en WiFi o por cable, etcetera.). 
+Importación de edificios le ofrece la posibilidad de obtener creación de conocimientos específicos (llamadas deficientes por a partir de WiFi o con cable, etcetera.). 
   
 > [!NOTE]
-> Este paso es opcional, pero recomendado. 
+> Este paso es opcional, pero se recomienda. 
   
-Antes de importar un edificio nuevo ya debería tener un BuildingKey predefinido identificado. Para ello, ejecute el comando "Seleccionar MAX(BuildingKey) de CqdBuilding" SQL para identificar el valor actual y agregar 1 al resultado.
+Antes de importar un nuevo edificio debe tener un BuildingKey predefinido identificado. Para ello, ejecute el comando "Seleccione MAX(BuildingKey) desde CqdBuilding" SQL para identificar el valor actual y agregar 1 para el resultado.
   
- **Sintaxis de SQL de ejemplo**
+ **Sintaxis SQL de ejemplo**
   
 ```
 INSERT INTO [dbo].[CqdBuilding] 
@@ -356,18 +357,18 @@ VALUES
 (2, 'Ann Arbor', 'AA', 0, 0)
 ```
 
-El BuildingKey, nombredeedificio, BuildingShortName, OwnershipTypeId, se requieren los parámetros BuildingTypeId, los otros parámetros son opcionales.
+El BuildingKey, nombredeedificio, BuildingShortName, OwnershipTypeId, se requieren los parámetros BuildingTypeId, los demás parámetros son opcionales.
   
 ### <a name="import-subnets"></a>Importar subredes
 
-Importación de edificios permite obtener creación de conocimientos específicos (llamadas deficientes por edificio en WiFi o por cable, etcetera.). 
+Importación de edificios le ofrece la posibilidad de obtener creación de conocimientos específicos (llamadas deficientes por a partir de WiFi o con cable, etcetera.). 
   
 > [!NOTE]
-> Este paso es opcional, pero recomendado. 
+> Este paso es opcional, pero se recomienda. 
   
-Importar subredes y asignarlos a los edificios importados en el último paso. Si ha decidido no llenar NetworkName, asegúrese de que cada entrada en esta tabla utiliza un NetworkNameID de 0.
+Importar subredes y asignarlos a los edificios importados en el último paso. Si ha decidido no rellenar NetworkName, asegúrese de que cada entrada en la tabla siguiente usa un NetworkNameID de 0.
   
- **Sintaxis de SQL de ejemplo**
+ **Sintaxis SQL de ejemplo**
   
 ```
 INSERT INTO [dbo].[CqdNetwork] 
@@ -381,13 +382,13 @@ VALUES
  ('172.16.254.0',0,1,'2015-11-11')
 ```
 
-La red y se requieren parámetros de UpdatedDate, los otros parámetros son opcionales.
+La red y se requieren los parámetros UpdatedDate, los demás parámetros son opcionales.
   
 ### <a name="optional-bssid"></a>Opcional: BSSID
 
-Rellenar información de BSSID proporciona correlación de secuencia WiFi adicional por el regulador o el radio. Se trata además de filtrar por edificio o subred. 
+Rellenar información BSSID proporciona correlación de secuencia WiFi adicional por controlador o radio. Esto es además de filtrar por crear o subred. 
   
- **Sintaxis de SQL de ejemplo**
+ **Sintaxis SQL de ejemplo**
   
 ```
 INSERT INTO [dbo].[CqdBssid]
@@ -405,20 +406,20 @@ VALUES
 
 |**Como se muestra en CQD**|**Tabla CQDBssid**|**Entradas de ejemplo**|
 |:-----|:-----|:-----|
-|AP NName  <br/> |PA  <br/> |AP1  <br/> |
+|AP NName  <br/> |PUNTO DE ACCESO  <br/> |AP1  <br/> |
 |BBssid  <br/> |BSS  <br/> |00-00-00-00-00-00 (debe utilizar el formato delimitado)  <br/> |
-|Controlador  <br/> |Building  <br/> |Aruba PA 7  <br/> |
+|Controlador de  <br/> |Building  <br/> |AP Aruba 7  <br/> |
 |Dispositivo  <br/> |ess  <br/> |Controlador1  <br/> |
 |Radio  <br/> |phy  <br/> |BGN  <br/> |
    
 ### <a name="processing-the-imported-data"></a>Procesamiento de los datos importados
 
-De forma predeterminada, después de importar datos de construcción/red se aplicarán sólo a los registros generados después de que el punto en el tiempo. 
+De forma predeterminada, después de importar datos de creación/red se aplicará sólo a registros generados después de ese punto en el tiempo. 
   
-Para etiquetar todos los registros anteriores con estos nuevos datos, debe ejecutar el procedimiento almacenado de CqdUpdateBuilding como se muestra a continuación: 
+Para marcar todos los registros anteriores con estos nuevos datos, debe ejecutar el procedimiento almacenado de CqdUpdateBuilding tal y como se muestra a continuación: 
   
-Dar la fecha de su primer registro (identificar que con el comando Seleccionar MIN(StartTime) de SQL de CqdPartitionedStreamView), un EndDate del mañana, NULL para los dos últimos valores.
+Asígnele la fecha de su primer registro (identificar que con el comando Seleccionar MIN(StartTime) desde CqdPartitionedStreamView SQL), una fecha de finalización de la mañana, a continuación, en NULL para los dos últimos valores.
   
-Una vez que los datos están asociados con los datos de la secuencia, el cubo de SSIS debe volver a procesar todos los registros. Esto aplica también cuando masiva agregar datos BSSID-ISP. Asegúrese de que está seleccionado "Proceso completo".
+Una vez que los datos se asocian con los datos de la secuencia, se necesita el cubo de SSIS para volver a procesar todos los registros. Esto también aplica cuando masiva agregar datos BSSID-ISP. Asegúrese de que esté seleccionado "Proceso completo".
   
 
