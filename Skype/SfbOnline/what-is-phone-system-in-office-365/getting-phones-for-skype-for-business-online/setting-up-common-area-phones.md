@@ -17,129 +17,130 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Obtenga información sobre los pasos de implementación para obtener el firmware correcto, actualizarlo si es necesario, asignar licencias y configurar las opciones de teléfonos de área común.
-ms.openlocfilehash: bcf7d8eaf287af0b801168c62e7c22915f735aa2
-ms.sourcegitcommit: 6b868f683e1f2354eb42fdf33911e77b7a3a83e2
-ms.translationtype: MT
+description: Conozca los pasos de implementación para obtener el firmware correcto, actualizarlo si es necesario, asignar licencias y configurar ajustes para teléfonos de área común.
+ms.openlocfilehash: 25605e7538792080213eebb898e612be6ce5bfab
+ms.sourcegitcommit: bdf9946b7c65ef7985d6b03a1479ea3a5c17a304
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2018
+ms.lasthandoff: 05/23/2018
+ms.locfileid: "19426805"
 ---
 # <a name="set-up-common-area-phones"></a>Configurar teléfonos de área común
-Normalmente, se coloca un teléfono de área común (CAP) en un área como una sala de espera o a otra área que está disponible para una gran cantidad de personas. Por ejemplo, un teléfono de área de recepción de teléfono puerta teléfono o salas de reuniones, las mayúsculas se configuran como dispositivos en lugar de los usuarios e iniciar sesión automáticamente en una red. En los pasos siguientes, le ayudaremos a configurar para el sistema telefónico con planes de llamar a una cuenta, por lo que puede implementar estos tipos de teléfonos para su organización.
+Por lo general, un teléfono de área común (CAP) se coloca en un área como un vestíbulo u otra área que está disponible para muchas personas. Por ejemplo, un teléfono del área de recepción, un teléfono de la puerta o un teléfono de la sala de reuniones; los CAP se configuran como dispositivos en lugar de como usuarios y se conectan automáticamente a una red. En los pasos a continuación, le ayudaremos a configurar una cuenta para un sistema telefónico con planes de llamadas, de modo que pueda implementar este tipo de teléfonos en su organización.
 
-## <a name="prerequisites-for-common-area-phones"></a>Requisitos previos para teléfonos de área común
+## <a name="prerequisites-for-common-area-phones"></a>Requisitos previos de los teléfonos de área común
 
 Lo primero que debe hacer es confirmar que tiene lo siguiente:
 
- - Licencia de teléfono de área común de compra y un Plan de llamada.
- - Buscar y comprar teléfonos aprobados (ver la lista [aquí](deploying-skype-for-business-online-phones.md)).         
- - Actualice el firmware en los teléfonos (vea admitido firmware [en este tema](getting-phones-for-skype-for-business-online.md).  Puede comprobar el firmware de teléfono haciendo lo siguiente:       
-    - **Los teléfonos Polycom VVX**: Ir a la **configuración de** > **estado** > **plataforma** > **aplicación** > **principal**.
-    - **Teléfonos Yealink**: vaya al **estado** de la pantalla del teléfono principal.
-    - **Teléfonos AudioCodes**: vaya al **menú** > **Estado del dispositivo** > **versión de Firmware** desde la pantalla de inicio. 
-    - **Teléfonos de Lync Phone Edition (LPE)**: vaya al **menú** > **Información del sistema** desde la pantalla de inicio.
+ - Adquiera una licencia de teléfono de área común y un plan de llamadas.
+ - Busque y compre teléfonos aprobados (vea la lista [aquí](deploying-skype-for-business-online-phones.md)).         
+ - Actualice el firmware de sus teléfonos (consulte el firmware compatible [en este tema](getting-phones-for-skype-for-business-online.md)).  Puede verificar el firmware en su teléfono haciendo esto:       
+    - **Teléfonos Polycom VVX**: entre en **Configuración** > **Estado** > **Plataforma** > **Aplicación** > **Principal**.
+    - **Teléfonos Yealink**: entre en **Estado** en la pantalla principal del teléfono.
+    - **Teléfonos AudioCodes**: estando en la pantalla de inicio, entre en **Menú** > **Estado del dispositivo** > **Versión de firmware**. 
+    - **Teléfonos Lync Phone Edition (LPE)**: estando en la pantalla de inicio, entre en **Menú** > **Información del sistema**.
 
-    Actualizaciones de firmware se administran mediante el Skype para servicio empresarial. Cada Skype para la empresa certificada firmware del teléfono se cargó en la Skype para servidor de actualización de negocio, y actualización de dispositivos está habilitado en todos los teléfonos de forma predeterminada. 
+    Las actualizaciones de firmware las administra el servicio de Skype for Business. Todos los firmware de teléfono certificados para Skype for Business se cargan en el servidor de actualización de Skype for Business, y la actualización del dispositivo está habilitada en todos los teléfonos de forma predeterminada. 
 
-    Según el tiempo de inactividad en el teléfono y los intervalos de sondeo, teléfonos automáticamente descargar e instalar las compilaciones certificadas más recientes. Puede deshabilitar la configuración de actualización de dispositivo mediante el cmdlet [Set-CsIPPhonePolicy](https://docs.microsoft.com/powershell/module/skype/set-csipphonepolicy) y establecer el parámetro *EnableDeviceUpdate* en `false`.
+    En función del tiempo de inactividad del teléfono y de los intervalos de sondeo, los teléfonos descargarán e instalarán automáticamente las últimas compilaciones certificadas. Puede deshabilitar la configuración de actualización del dispositivo usando el cmdlet [Set-CsIPPhonePolicy](https://docs.microsoft.com/powershell/module/skype/set-csipphonepolicy) y configurando el parámetro *EnableDeviceUpdate* como `false`.
 
-## <a name="setting-up-a-common-area-phone"></a>Configuración de un teléfono de área común
-Debe seguir estos pasos:
+## <a name="setting-up-a-common-area-phone"></a>Configurar un teléfono de área común
+Tendrá que seguir estos pasos:
 
-### <a name="set-up-your-user-account-for-the-phone"></a>Configurar una cuenta de usuario para el teléfono
+### <a name="step-1---buy-the-licenses"></a>Paso 1: comprar las licencias
+1. En el centro de administración de Office 365, entre en **Facturación** > **Servicios de compra**, y agregue **Otros planes**.
 
-#### <a name="step-1---buy-the-licenses"></a>Paso 1: comprar las licencias
-1. En el centro de administración de Office 365, vaya a **facturación** > **Servicios de compra**, y agregar **otros planes**.
-
-    ![CAP license.png](../../images/cap-license.png)
-2. Haga clic en **Teléfono de área común** > **comprar ahora** > en la página de **finalización de compra** haga clic en **comprar ahora**.
-3. Haga clic en expandir **las suscripciones del complemento** y, a continuación, haga clic en para adquirir un Plan de llamar a. Elija la **nacionales llamar al Plan** o la **planeación de la llamada nacional e internacional**.
+    ![CAP-license.png](../../images/cap-license.png)
+2. Haga clic en **Teléfono de área común** > **Comprar ahora** > y en la página de **Pago** haga clic en **Compra ahora**.
+3. Haga clic para expandir las **Suscripciones de complementos** y luego haga clic para comprar un plan de llamadas. Elija el **Plan de llamadas nacionales** o el **Plan de llamadas nacionales e internacionales**.
 
 > [!Note]
-> No necesita una licencia de sistema telefónico. Ha incluido con la licencia de **Teléfono de área común** .
+> No necesita una licencia de sistema telefónico. Está incluida en la licencia del **teléfono de área común**.
 
-Para obtener más información sobre las licencias, vea [Skype para profesionales y los equipos de Microsoft complemento licencias](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Para obtener más información sobre las licencias, consulte [Licencias de complementos de Skype for Business y Microsoft Teams](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
-#### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Paso 2: crear una nueva cuenta de usuario para el teléfono y asignar las licencias
-1. En el centro de administración de Office 365, vaya a **los usuarios** > **Usuarios activos** > **Agregar un usuario**.
-2. Colocar en un **nombre de usuario** , como "Main" para el nombre y el "Recepción" para el segundo nombre.
-3. Colocar en un **nombre para mostrar** si no es así generar automáticamente como "Recepción principal".
-4. Colocar en un **nombre de usuario** , como "MainReception" o "Mainlobby".
-5. Para teléfonos de área común, es posible que desee establecer una contraseña manualmente o tener la misma contraseña para todos los teléfonos de área común. Además, es posible que piense anula la selección de **realizar este usuario cambiar su contraseña cuando inician sesión por primera vez en**.
+### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Paso 2: crear una nueva cuenta de usuario para el teléfono y asignar las licencias
+1. En el centro de administración de Office 365, entre en **Usuarios** > **Usuarios activos** > **Agregar un usuario**.
+2. Indique un **Nombre de usuario** del estilo de "Principal" para el primer nombre y "Recepción" para el segundo nombre.
+3. Indique un **Nombre para mostrar** si no se autogenera uno del estilo de "Recepción principal".
+4. Indique un **Nombre de usuario** del estilo de "RecepciónPrincipal" o "VestíbuloPrincipal".
+5. Para teléfonos de área común, quizá desee establecer una contraseña manualmente o tener la misma para todos los teléfonos de ese tipo. Además, puede plantearse deseleccionar **Hacer que este usuario cambie su contraseña cuando se conecte por primera vez**.
 
     > [!Tip]
-    > ¡ESPERAR! No haga clic en **Agregar**. Ugh, si hizo clic en **Agregar** el hacer esto: Centro de administración de Office 365 > **usuarios** > **usuarios activos** y, a continuación, busque el usuario. A continuación, en la página de propiedades del usuario, haga clic en **licencias de producto** y, a continuación, haga clic en **Editar**. En la página **licencias de producto** , encienda el **Teléfono de área común** y de selección ya sea un **Nacionales llamar a planear** o un nacionales y **Llamar a planear internacional**.
+    > ¡ESPERE! ¡No haga clic en **Agregar**! Uf, si ya ha hecho clic en **Agregar** haga esto: entre en el centro de administración de Office 365> **Usuarios** > **Usuarios activos** y luego encuentre al usuario. Después, en la página de propiedades del usuario, haga clic en **Licencias de producto** y después haga clic en **Editar**. En la página de **Licencias de producto**, active **Teléfono de área común** y elija un **Plan de llamadas nacionales** o un **Plan de llamadas internacionales** y nacionales.
 
-6. Si son aún no existe, asigne las licencias para este usuario. En la misma página, haga clic para expandir **las licencias de producto**. Para activar el siguiente:
+6. Estando aún allí, asigne las licencias a este usuario. En la misma página, haga clic para expandir las **Licencias de producto**. Active lo siguiente:
     - Teléfono de área común
-    - A continuación, tendrá que escoger ya sea un **Llamar a planear nacionales** o un nacionales y **Llamar a planear internacional**.
+    - Luego debe elegir un **Plan de llamadas nacionales** o un **Plan de llamadas internacionales** y nacionales.
      
-    Asignación de las licencias tendrá el siguiente aspecto:
+    La asignación de licencias tendrá este aspecto:
 
     ![TurnOnCapLicense.png](../../images/cap-license-turn-on.png)
 
     > [!Note]
-    > Como ya debe saber, Skype para empresarial Plan 2 se incluye con la licencia de **Teléfono de área común** .
+    > Para su interés, el Plan 2 de Skype for Business se incluye con la licencia del **teléfono de área común**.
 
-Para obtener más detalles, vea [Agregar un usuario](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec).
+Para más detalles, consulte [Agregar un usuario](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec).
 
-#### <a name="step-3---assign-a-phone-number-to-the-user"></a>Paso 3: asignar a un número de teléfono al usuario
-![logotipo-sfb-30x30.png](../../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
-1. En el centro de administración de Office 365 > **centros de administración** > **Skype para la empresa**.
-2. En el **Skype para el centro de administración de negocio** >  **voz** > **los números de teléfono**.
-3. Seleccione un número de la lista de números de teléfono y haga clic en **asignar**.
-4. En la página **asignar** , en el cuadro de **usuario de voz** , escriba el nombre del usuario que se usa para el teléfono, a continuación, seleccione el usuario en, **Seleccione un usuario de voz de** lista desplegable. 
-5. Mientras esté allí necesita agregar una dirección de emergencia. Una vez que buscar, mire en la **Seleccione emergencia dirección** para elegir el adecuado para usted.
-6. Haga clic en **Guardar** y el usuario debe tener este aspecto:
+### <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>Paso 3: asignar un número de teléfono a la cuenta de usuario del teléfono de área común
 
-    ![CAP-usuario-number.png](../../images/cap-user-number.png)
+![sfb-logo-30x30.png](../../images/sfb-logo-30x30.png) Asignar un número de teléfono al usuario mediante el **centro de administración de Skype for Business**
+
+1. En el centro de administración de Office 365, entre en > **Centros de administración** > **Skype for Business**.
+2. En el **centro de administración de Skype for Business** >  **Voz** > **Números de teléfono**.
+3. Seleccione un número de la lista de números de teléfono y haga clic en **Asignar**.
+4. En la página **Asignar**, en el cuadro **Usuario de voz** indique el nombre del usuario que se utiliza para el teléfono y luego seleccione el usuario en el desplegable **Seleccionar un usuario de voz**. 
+5. Allí deberá agregar también una dirección de emergencia. Tras hacer la búsqueda, revise **Seleccionar dirección de emergencia** para elegir la correcta en su caso.
+6. Haga clic en **Guardar** y el usuario debería tener este aspecto:
+
+    ![cap-user-number.png](../../images/cap-user-number.png)
 
    > [!Note]
-   > Los usuarios sólo aparecerá si tienen una licencia de **Sistema telefónico** aplicada. Si ya ha realizado esta, a continuación, en ocasiones, se tarda un poco para que el usuario aparezca en la lista.
+   > Los usuarios solo aparecerán si tienen aplicada una licencia de **sistema telefónico**. Si acaba de aplicársela, el usuario a veces tarda un poco de tiempo en aparecer en la lista.
 
-Para obtener más cosas, vea [Introducción de los números de teléfono para los usuarios](../../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md).
+Para más información, consulte [Obtener números de teléfono para los usuarios](../../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md).
 
-Si se lo está preguntando, también puede tomarse su número de teléfono que tiene con otro operador y "*puerto*" o transferirlos a través de Office 365. Vea, [transferir los números de teléfono para Office 365](../../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
+Por si se lo está preguntando, también puede coger el número de teléfono que tenga con otra compañía y "*pasarlo*" o transferirlo a Office 365. Consulte, [Transferir números de teléfono a Office 365](../../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
 
-## <a name="step-4---setting-up-your-phone"></a>Paso 4: configurar el teléfono
+### <a name="step-4---setting-up-your-phone"></a>Paso 4: configurar el teléfono
 
-**Establecer el modo en un teléfono**
+**Configurar el modo en el teléfono**
 
-El teléfono o teléfonos que tiene deben tener activado el modo de teléfono de área común. Es posible que desee comprobar para asegurarse de que lo hacen. 
+El teléfono o teléfonos que posea deben tener activado el **Modo de teléfono de área común**. Quizá convenga verificarlo para asegurarse de que así es. 
 
-**Este es un ejemplo de cómo configurar un teléfono Polycom VVX**
+**Aquí tiene un ejemplo de cómo configurar un teléfono Polycom VVX**
 
-- Habilitar el modo de teléfono de área común para el VVX Polycom siguiendo estos pasos:
-    1. En el explorador, conéctese a la interfaz web para que se puede habilitar el modo de capital.
-    2. A continuación, vaya a **configuración** y en la opción de **Skype para configuración de negocio** , seleccione **Teléfono de área común**.
-    3. Haga clic en **Sí** para guardar la configuración.
+- Habilite el modo de teléfono de área común en un Polycom VVX siguiendo estos pasos:
+    1. En su explorador, conéctese a la interfaz web para poder habilitar el modo CAP.
+    2. Luego entre en **Configuración** y, en la opción **Configuración de Skype for Business**, seleccione **Teléfono de área común**.
+    3. Haga clic en **Sí** para guardar su configuración.
 
-- Ahora que está habilitado el modo de capital, configurar el teléfono mediante la pantalla del teléfono. La presentación debe mostrar **CaAP está habilitado**. A continuación, haga lo siguiente:
+- Ahora que el modo CAP está habilitado, configure el teléfono usando la pantalla del mismo. La pantalla debería mostrar **CaAP está habilitado**. Luego haga esto:
 
-    1. Haga clic en **configuración**.
-    2. Seleccione **avanzada**.
+    1. Haga clic en **Configuración**.
+    2. Seleccione **Avanzado**.
     3. Escriba la contraseña.
-    4. En **la configuración de administración**, seleccione **Configuración de teléfono de área común**.
-    5. Habilitar el **modo de administración de CAP**y **CAP** .
+    4. En **Configuración de administración**, seleccione **Configuración del teléfono de área común**.
+    5. Habilite **CAP** y **Modo de administración CAP**.
     6. Haga clic en **Guardar configuración**.
 
-- Ahora bien, el teléfono está listo para poder iniciar sesión en la pantalla principal.
+- Bien, ahora su teléfono está listo para que pueda conectarse en la pantalla de inicio.
 
-    1. Iniciar sesión mediante la selección de **configuración** > **características** > **Skype para la empresa.**
-    2. Seleccione **Las credenciales de usuario**y seleccione **Inicio de sesión de web (CAP)** para generar un código.
-    3. Vaya al [portal de aprovisionamiento](http://aka.ms/skypecap)e iniciar sesión como **Administrador**.
-    4. Escriba el nombre para mostrar (por ejemplo, Main recepción).
+    1. Conéctese seleccionando **Configuración** > **Características** > **Skype for Business.**
+    2. Seleccione **Credenciales de usuario** y luego **conexión web (CAP)** para generar un código.
+    3. Entre en el [portal de aprovisionamiento](http://aka.ms/skypecap) y conéctese como **administrador**.
+    4. Escriba el nombre para mostrar (por ejemplo, Recepción principal).
 
        > [!Note]
-       > Si está activada la opción **Buscar sólo los teléfonos de área común** , desactive la casilla de verificación y busque de nuevo.'
+       > Si está marcado **Buscar solo teléfonos de área común**, desactive la casilla de verificación y busque de nuevo.
 
-    5. En la ventana de código de emparejamiento, escriba el código que aparece en el teléfono y haga clic en **aprovisionar**.
+    5. En la ventana del código de vinculación, escriba el código que se muestra en el teléfono y haga clic en **Aprovisionar**.
 
-        Después de este último paso, el teléfono debe iniciar sesión automáticamente.
+        Tras este último paso, el teléfono debería conectarse automáticamente.
 
-### <a name="related-topics"></a>See also
+### <a name="related-topics"></a>Temas relacionados
 
-- Obtener más información acerca de los teléfonos disponibles en la [Implementación de Skype para teléfonos empresarial en línea](deploying-skype-for-business-online-phones.md).
+- Vea más información sobre teléfonos disponibles en [Implementar teléfonos de Skype for Business Online](deploying-skype-for-business-online-phones.md).
 - [Obtener teléfonos con Skype Empresarial Online](getting-phones-for-skype-for-business-online.md)
 
 
