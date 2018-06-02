@@ -16,7 +16,6 @@
 ## [Gestionar acceso de los usuarios a Microsoft Teams](user-access.md)
 ## [Obtener clientes para Microsoft Teams](get-clients.md)
 ## [Requisitos de hardware para la aplicación de los equipos](hardware-requirements-for-the-teams-app.md)
-## [Migración e interoperabilidad con Skype para la empresa](migration-interop-guidance-for-teams-with-skype.md)
 ## [Inicie sesión en los equipos](sign-in-teams.md)
 ## [Información general de una implementación de Microsoft Teams](deployment-overview.md)
 ## [Configurar Microsoft Teams en su organización de Office 365](Office-365-set-up.md)
@@ -41,7 +40,7 @@
 
 
 # Interoperabilidad con Office 365
-## [Interoperabilidad entre Microsoft Teams y Skype Empresarial](teams-and-skypeforbusiness-interoperability.md)
+## [Migración e interoperabilidad con Skype para la empresa](migration-interop-guidance-for-teams-with-skype.md)
 ## [Grupos de Office 365 y Microsoft Teams](office-365-groups.md)
 ## [Mejorar los grupos de Office 365 existentes con Microsoft Teams](enhance-office-365-groups.md)
 ## [Planificar grupos de Office 365 al crear equipos en Microsoft Teams](plan-office-365-groups.md)
@@ -227,6 +226,7 @@
 ## [2. Crear un proyecto piloto de Microsoft Teams junto a Skype Empresarial](pilot-essentials.md)
 ### [2.1 - Seleccionar usuarios del piloto de equipos](select-users-for-your-teams-pilot.md)
 ## [3 - comprender la coexistencia y actualizar los modos de Skype para profesionales y los equipos](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [3.1 - equipos y Skype para la interoperabilidad y coexistencia de negocio](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 ## [4 - Generar valor a través de la adopción de usuarios](continue-journey.md)
 ## [Preguntas frecuentes: Skype Empresarial y Microsoft Teams](FAQ-journey.md)
 ## [Tutorial: Recorrido desde Skype Empresarial a Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)

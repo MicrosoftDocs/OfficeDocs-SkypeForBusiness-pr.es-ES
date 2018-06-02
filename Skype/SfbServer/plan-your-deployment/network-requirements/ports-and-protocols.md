@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Resumen: Revise las consideraciones de uso del puerto antes de implementar Skype para Business Server 2015.'
-ms.openlocfilehash: 4bf9b7f9f1d0d0b99a8add76c4f73d4adcebea16
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 576b0247631e4f01909acb717e12efbb954d5cb0
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/02/2018
+ms.locfileid: "19546595"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de protocolo y puerto para los servidores
  
@@ -26,7 +27,7 @@ ms.lasthandoff: 05/03/2018
   
 Skype para Business Server requiere que estén abiertos determinados puertos en los firewalls internos y externos. Además, si se ha implementado el protocolo de seguridad de Internet (IPSec) en la organización, IPSec debe estar deshabilitado en el intervalo de puertos que se usa para la entrega de audio, vídeo y vídeo panorámico. 
   
-Aunque esto puede parecer complicado bit en primer lugar, el trabajo para planear esto puede realizarse mediante el [Skype para la herramienta de planeación de Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=50357). Una vez que se ha desplazado a través de las preguntas del asistente acerca de qué características que se va a utilizar, para cada sitio que defina se puede ver el informe de Firewall en el informe de administración perimetral y usar la información que aparece no existe para crear reglas de yourfirewall. También puede realizar ajustes en muchos de los nombres y las direcciones IP utilizadas para obtener más información vea [revisión del informe de Firewall](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report). Tenga en cuenta que puede exportar el informe de administración perimetral a una hoja de cálculo de Excel y el informe de Firewall será una de las hojas de cálculo en el archivo. 
+Aunque esto puede parecer complicado bit en primer lugar, el trabajo para planear esto puede realizarse mediante el [Skype para la herramienta de planeación de Business Server 2015](https://go.microsoft.com/fwlink/p/?LinkID=282725). Una vez que se ha desplazado a través de las preguntas del asistente acerca de qué características que se va a utilizar, para cada sitio que defina se puede ver el informe de Firewall en el informe de administración perimetral y usar la información que aparece no existe para crear reglas de yourfirewall. También puede realizar ajustes en muchos de los nombres y las direcciones IP utilizadas para obtener más información vea [revisión del informe de Firewall](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report). Tenga en cuenta que puede exportar el informe de administración perimetral a una hoja de cálculo de Excel y el informe de Firewall será una de las hojas de cálculo en el archivo. 
   
 También puede encontrar la información en estas tablas en forma de diagrama revisando el póster de cargas de trabajo de protocolo vinculado fuera el artículo [Technical diagrams de Skype para Business Server 2015](../../technical-diagrams.md) .
   

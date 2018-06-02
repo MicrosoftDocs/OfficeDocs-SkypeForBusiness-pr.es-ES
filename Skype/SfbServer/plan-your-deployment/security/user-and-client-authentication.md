@@ -9,29 +9,30 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
-description: Un usuario confianza es aquel cuyas credenciales se han autenticado por un servidor de confianza en Skype para Business Server 2015. Este servidor suele ser un servidor Standard Edition, servidor Enterprise Edition de Front-End o Director. Skype para Business Server se basa en servicios de dominio de Active Directory como repositorio de fondo único, confianza de credenciales de usuario.
-ms.openlocfilehash: d8fa9265a4c27432dd4c2dba6e15c07e39f348b8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Un usuario confianza es aquel cuyas credenciales se han autenticado por un servidor de confianza en Skype para Business Server 2015. Este servidor suele ser un servidor Standard Edition, Director o servidor Front-End de Enterprise Edition. Skype para Business Server se basa en los servicios de dominio de Active Directory como el repositorio back-end confianza único de credenciales de usuario.
+ms.openlocfilehash: 0cdf51da260c8251ca5abbb3ce0834e196a8d51b
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/02/2018
+ms.locfileid: "19546526"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server-2015"></a>Autenticación de usuarios y clientes para Skype Empresarial Server 2015
  
-Un usuario confianza es aquel cuyas credenciales se han autenticado por un servidor de confianza en Skype para Business Server 2015. Este servidor suele ser un servidor Standard Edition, servidor Enterprise Edition de Front-End o Director. Skype para Business Server se basa en servicios de dominio de Active Directory como repositorio de fondo único, confianza de credenciales de usuario.
+Un usuario confianza es aquel cuyas credenciales se han autenticado por un servidor de confianza en Skype para Business Server 2015. Este servidor suele ser un servidor Standard Edition, Director o servidor Front-End de Enterprise Edition. Skype para Business Server se basa en los servicios de dominio de Active Directory como el repositorio back-end confianza único de credenciales de usuario.
   
 La autenticación consiste en proporcionar credenciales de usuario a un servidor de confianza. Skype para Business Server utiliza los siguientes protocolos de autenticación, según el estado y la ubicación del usuario.
   
-- **Protocolo de MIT Kerberos versión 5 seguridad** para los usuarios internos con credenciales de Active Directory. Kerberos requiere conectividad de cliente para servicios de dominio de Active Directory, por eso no puede utilizarse para autenticar a clientes fuera del firewall corporativo.
+- **Protocolo de MIT Kerberos versión 5 seguridad** para los usuarios internos con credenciales de Active Directory. Kerberos requiere la conectividad del cliente a los servicios de dominio de Active Directory, que es la razón por la que no se puede usar para autenticar clientes ubicados fuera del firewall corporativo.
     
-- **Protocolo NTLM** para los usuarios con credenciales de Active Directory que se conecten desde un extremo fuera del firewall corporativo. El servicio de servidor perimetral de acceso pasa las solicitudes de inicio de sesión a un Director, si está presente, o un servidor Front-End para la autenticación. El servicio de servidor perimetral de acceso no realiza autenticación.
+- **Protocolo NTLM** para los usuarios con credenciales de Active Directory que se conectan desde un extremo ubicado fuera del firewall corporativo. El servicio de servidor perimetral de acceso pasa las solicitudes de inicio de sesión a un Director, si está presente, o un servidor Front-End para la autenticación. El propio servicio de servidor perimetral de acceso no realiza la autenticación.
     
     > [!NOTE]
-    > El protocolo NTLM ofrece una protección contra ataques más débil que la de Kerberos, por lo que algunas organizaciones minimizan el uso de NTLM. Como resultado, puede estar restringido el acceso a Skype para Business Server 2015 internos o los clientes conectados a través de una conexión VPN o de DirectAccess. 
+    > El protocolo NTLM ofrece una protección contra ataques más débil que la de Kerberos, por lo que algunas organizaciones minimizan el uso de NTLM. Como resultado, acceso a Skype para Business Server 2015 puede estar restringido a interno o los clientes conectan a través de una conexión VPN o DirectAccess. 
   
 - **Protocolo de autenticación** implícita para los usuarios denominados anónimos. Los usuarios anónimos son usuarios externos que no tienen credenciales de Active Directory reconocidas, pero que han recibido una invitación a una conferencia local y tienen una clave de conferencia válida. La autenticación implícita no se utiliza para otras interacciones del cliente.
     
-Skype para la autenticación de servidor de negocios 2015 consta de dos fases:
+Skype para la autenticación de Business Server 2015 consta de dos fases:
   
 1. Se establece una asociación de seguridad entre el cliente y el servidor.
     
@@ -43,6 +44,19 @@ Los usuarios con credenciales válidas emitidas por un socio federado son de con
   
 Los protocolos ICE y TURN también usan el desafío de autenticación implícita que se describe en la RFC del IETF referente a TURN.
   
-Certificados de cliente ofrecen un método alternativo para que los usuarios se autentiquen mediante Skype para Business Server 2015. En vez de proporcionar un nombre de usuario y una contraseña, los usuarios cuentan con un certificado y una clave privada correspondiente al certificado necesario para resolver un desafío criptográfico. (Este certificado debe tener un nombre de asunto o nombre alternativo del sujeto que identifica al usuario y debe ser emitido por una CA raíz de confianza en servidores que ejecuten Skype para Business Server 2015, estar dentro del período de validez del certificado y no ha sido revocado.) Para ser autenticados, los usuarios sólo tiene que escribir en un número de identificación personal (PIN). Los certificados son particularmente útiles en el caso de teléfonos fijos, teléfonos móviles y otros dispositivos donde resulta complicado escribir un nombre de usuario y una contraseña.
+Certificados de cliente proporcionan un método alternativo para que los usuarios se autentiquen mediante Skype para Business Server 2015. En vez de proporcionar un nombre de usuario y una contraseña, los usuarios cuentan con un certificado y una clave privada correspondiente al certificado necesario para resolver un desafío criptográfico. (Este certificado debe tener un nombre de sujeto o nombre alternativo del sujeto que identifica al usuario y debe ser emitido por una entidad de certificación raíz que sea de confianza por los servidores que ejecutan Skype para Business Server 2015, estar dentro del período de validez del certificado y no ha sido revocado.) Para ser autenticados, los usuarios sólo tiene que escribir un número de identificación personal (PIN). Los certificados son particularmente útiles en el caso de teléfonos fijos, teléfonos móviles y otros dispositivos donde resulta complicado escribir un nombre de usuario y una contraseña.
   
+### <a name="cryptographic-requirements-due-to-asp-net-45"></a>Requisitos de cifrado debido a ASP .NET 4.5 
 
+A partir de Skype para Business Server 2015 CU5, AES no es compatible con ASP.NET 4.6 y esto puede causar la aplicación de las reuniones de Skype que se inicie. Si un cliente usa AES como el valor de la clave de validación de máquina debe restablecer el valor de clave de máquina a SHA-1 u otro algoritmo compatible en el nivel de sitio de la aplicación de las reuniones de Skype en IIS. Si es necesario, vea [Administración de la configuración de ASP.NET de IIS 8.0](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) para obtener instrucciones.
+  
+Otros valores admitidos son:
+  
+- HMACSHA256
+    
+- HMACSHA384
+    
+- HMACSHA512
+    
+ Los valores de MD5, 3DES y AES son ya no se permite, tal como se administraban una vez en ASP.NET 4. [Mejoras criptográficas en ASP.NET 4.5, pt 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) tiene información más detallada.
+  

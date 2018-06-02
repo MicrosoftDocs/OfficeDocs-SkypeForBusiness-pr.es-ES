@@ -18,11 +18,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: 0b376ddecf13a1346e17f23bbc1780e2780255dc
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 3240f26159e39169e1e31dcdb278acbd43a13f11
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 06/02/2018
+ms.locfileid: "19516868"
 ---
 # <a name="activity-report"></a>Informe de actividad
 
@@ -56,8 +57,9 @@ Puede obtener una vista de la actividad de Skype Empresarial de su usuario consu
 ![Número 1](../images/sfbcallout1.png)<br/>
 Puede verse el informe de actividad de correo electrónico de **Skype para la actividad de negocio** para las tendencias durante los últimos 7 días, 30 días, 90 días o 180 días. Sin embargo, si hace clic en un día determinado en el informe, (vea número 7) mostrará la tabla de datos de hasta 28 días desde la fecha actual (no la fecha que se generó el informe).
 
-    > [!Note]
-    > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
+> [!NOTE]
+> Si hace clic en los detalles de un día específico, en la tabla sólo muestra los datos de los 30 días hasta la fecha de cuando se generó el informe.
+
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>
 Cada informe tiene la fecha del momento en que se generó. Normalmente, los informes reflejan una latencia de 24 a 48 horas de tiempo de actividad. 
@@ -80,7 +82,10 @@ En ambos gráficos, el eje X es el intervalo de fechas seleccionado para este in
 ![Número 7](../images/sfbcallout7.png)<br/>
 La tabla muestra un desglose de todas las actividades de conferencia por usuario. Muestra todos los usuarios que disponen de Skype para la empresa asignada a ellas y sus actividades de conferencia. Puede agregar columnas adicionales a la tabla.
 *    **Nombre de usuario** es el nombre del usuario.
-*    **Eliminado** indica que se ha quitado la licencia del usuario. <br/> <br/> **Nota:** Actividad para un usuario eliminado seguirá mostrándose en un informe como navegará se concede bajo licencia en algún momento durante el período de tiempo seleccionado. La columna **Eliminado** ayuda a ver que el usuario ya no está activo, pero que ha contribuido a los datos del informe.<br/><br/>
+*    **Eliminado** indica que se ha quitado la licencia del usuario.<br/><br/>
+    > [!NOTE]
+    > Actividad para un usuario eliminado seguirá mostrándose en un informe como navegará se concede bajo licencia en algún momento durante el período de tiempo seleccionado. La columna **Eliminado** ayuda a ver que el usuario ya no está activo, pero que ha contribuido a los datos del informe.
+     
 *    **Fecha de eliminación** es la fecha en que se quitó la licencia del usuario.
 *    **Fecha de última actividad (UTC)** es la última vez que el usuario interactuó en una sesión de punto a punto u organizó una conferencia o participó en ella.
 *    **Punto a punto** se muestra el número total de sesiones de conferencia de punto a punto que usa el usuario.
