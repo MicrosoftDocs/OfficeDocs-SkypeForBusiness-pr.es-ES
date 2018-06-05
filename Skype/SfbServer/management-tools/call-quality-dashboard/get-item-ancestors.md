@@ -1,5 +1,5 @@
 ---
-title: Obtener los antecesores del elemento
+title: Obtener elemento antecesores
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,41 +10,42 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
-description: 'Resumen: Conozca la operación obtener antecesores del elemento, que es parte del elemento de servicio. El servicio del elemento es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de la llamada es una herramienta de Skype para Business Server 2015.'
-ms.openlocfilehash: ab5cc9dd388d1192922430e2a728bb8073b3e0d7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información acerca de la operación obtener antecesores del elemento, que es parte del servicio de elemento. El servicio de elemento es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.'
+ms.openlocfilehash: 60d77ff1fd14a994d55a42516cd686891a56595f
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569204"
 ---
-# <a name="get-item-ancestors"></a>Obtener los antecesores del elemento
+# <a name="get-item-ancestors"></a>Obtener elemento antecesores
  
-**Resumen:** Obtener información sobre la operación de obtener antecesores del elemento, que es parte del elemento de servicio. El servicio del elemento es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de la llamada es una herramienta de Skype para Business Server 2015.
+**Resumen:** Obtenga información acerca de la operación obtener antecesores del elemento, que es parte del servicio de elemento. El servicio de elemento es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.
   
-La operación de obtener elementos antecesores es parte del elemento de servicio en la API de repositorio para llamar al panel de calidad.
+La operación obtener elemento antecesores es parte del servicio de elemento de la API de repositorio para llamar al panel de calidad.
   
-## <a name="get-item-ancestors"></a>Obtener los antecesores del elemento
+## <a name="get-item-ancestors"></a>Obtener elemento antecesores
 
-Antecesores del elemento Get devuelve a un antecesores de elementos específicos del repositorio.
+Get elemento antecesores devuelve a un antecesores elementos específicos del repositorio.
   
 
-|**Método**|**URI de la solicitud**|**Versión de HTTP**|
+|**(Método)**|**URI de la solicitud**|**Versión de HTTP**|
 |:-----|:-----|:-----|
 |Obtener  <br/> |https://\<portal\>/QoERepositoryService/repository/itemAncestors / {itemId}  <br/> |HTTP/1.1  <br/> |
    
- **URI parámetros** : ninguno.
+ **Los parámetros URI** - ninguno.
   
  **Encabezados de solicitud** - sin encabezados adicionales.
   
- **Cuerpo de la solicitud** - ninguno.
+ **Cuerpo de la convocatoria** - ninguno.
   
  **Respuesta** : la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.
   
- **Código de estado** - una operación correcta devuelve el código de estado 200 (OK). Si un usuario especificado que no se encuentra el identificador, devuelve el código de estado 404 (no encontrado).
+ **Código de estado** - una operación correcta devuelve código de estado 200 (Aceptar). Si un usuario especificado que no se encuentra el identificador, devuelve el código de estado 404 (no encontrado).
   
  **Encabezados de respuesta** - sin encabezados adicionales.
   
- **Cuerpo de la respuesta** : a continuación es una carga de respuesta de ejemplo en JSON.
+ **Cuerpo de la respuesta** - a continuación es una carga de respuesta de ejemplo en JSON.
   
 ```
 [{
@@ -57,13 +58,12 @@ Antecesores del elemento Get devuelve a un antecesores de elementos específicos
 "item2": 1,
 "item3": "All Audio Streams"
 }]
-
 ```
 
- *Item1* - ID del elemento.
+ *Item1* - identificador del elemento.
   
- *Item2* - profundidad es la distancia desde el elemento. 0 es el elemento primario inmediato.
+ *Item2* - profundidad es la distancia desde el elemento. 0 es el objeto primario inmediato.
   
- *Item3* : título del artículo.
+ *Item3* - título del elemento.
   
 

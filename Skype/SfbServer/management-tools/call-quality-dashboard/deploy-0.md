@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Resumen: Información sobre el proceso de implementación para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.'
-ms.openlocfilehash: 8a15d8da91235b4927bfaf35eadad625db42f45c
-ms.sourcegitcommit: 0a0fd436d4d732710bb65e1809ac28dd2e0df41a
+ms.openlocfilehash: 0d096ba8c2303ca952100a8142b356944b775dcc
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/31/2018
-ms.locfileid: "19526385"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569190"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server-2015"></a>Implementar el panel de calidad de llamada para Skype para Business Server 2015
  
@@ -268,8 +268,7 @@ INSERT INTO
 [BuildingTypeDesc])
 VALUES
 (1, 
-'Headquarters') 
-  
+'Headquarters')   
 ```
 
 Los parámetros BuildingTypeId y BuildingTypeDesc son necesarios.

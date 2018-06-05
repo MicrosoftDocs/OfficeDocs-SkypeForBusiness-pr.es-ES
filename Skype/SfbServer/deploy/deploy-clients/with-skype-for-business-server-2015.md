@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: Lea este tema para obtener información acerca de cómo implementar sistemas de salón de Skype v2 con Skype para Business Server 2015.
-ms.openlocfilehash: 49d52b866c210554d66bf7cd9f59d1b5d8539070
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9705d849027f03a4d4befc6c433f0fe6fb4bc414
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568259"
 ---
 # <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a>Implementar Sistemas de salas de Skype v2 con Skype Empresarial Server 2015
  
@@ -101,7 +102,6 @@ Antes de comenzar a implementar sistemas de salón de Skype v2, asegúrese de qu
    Set-CsMeetingRoom -DomainController DC-ND-001.contoso.com -Identity PROJECTRIGEL01 -EnterpriseVoiceEnabled $true
    Grant-CsVoicePolicy -PolicyName VP1 -Identity PROJECTRIGEL01
    Grant-CsDialPlan -PolicyName DP1 -Identity PROJECTRIGEL01
-
    ```
 
    De nuevo, tendrá que reemplazar el controlador de dominio y los números de teléfono que se han proporcionado como ejemplo con su propia información. El valor de parámetro $true no se modifica.
@@ -120,12 +120,9 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.com -RegistrarPool cs3.contoso.com
 Set-CsMeetingRoom -Identity rigel1 -EnterpriseVoiceEnabled $true -LineURI tel:+155555555555
 Grant-CsVoicePolicy -PolicyName dk -Identity rigel1
 Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
-
 ```
 
 ## <a name="see-also"></a>Vea también
-
-#### 
 
 [Planeación de la sala de Skype v2 de sistemas](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
@@ -134,4 +131,3 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 [Configurar una consola de v2 de sistemas de salón de Skype](console.md)
   
 [Administración de salón de Skype v2 de sistemas](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-

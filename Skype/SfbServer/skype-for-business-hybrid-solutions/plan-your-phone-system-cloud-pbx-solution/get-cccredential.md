@@ -10,17 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: 'The Get-CcCredential cmdlet returns the credential of the current Skype for Business Cloud Connector Edition deployment. '
-ms.openlocfilehash: 4d8c9d95b9de0930e0c332f419f00947ca271821
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: cff2ba89f7ebf3151a92a753e4dc6adc490dde05
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569997"
 ---
 # <a name="get-cccredential"></a>Get-CcCredential
  
 The Get-CcCredential cmdlet returns the credential of the current Skype for Business Cloud Connector Edition deployment.  
   
-Con la versión 2.0 y versiones posteriores, también puede utilizar el parámetro - DisplayPassword para mostrar las contraseñas para el inquilino, Administrador de dominio y VMAdmin.
+Con la versión 2.0 y versiones posteriores, también puede usar el parámetro - DisplayPassword para mostrar las contraseñas para TenantAdmin, Administrador de dominio y VMAdmin.
   
 ```
 Get-CcCredential [[-AccountType] <string> {VmAdmin | DomainAdmin | SafeModeAdmin | ExternalCert | TenantAdmin}]
@@ -53,15 +54,14 @@ $bstr = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($password);
 $text = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($bstr);
 [System.Runtime.InteropServices.Marshal]::ZeroFreeBSTR($bstr);
 Write-Host $text
-
 ```
 
 ## <a name="parameters"></a>Parámetros
 <a name="DetailedDescription"> </a>
 
-|**Parámetro**|**Requerida.**|**Tipo**|**Descripción**|
+|**Parámetro**|**Requerida.**|**Tipo de**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> | Obligatorio  <br/> | System.String <br/> | AccountType valor puede ser una de las siguientes acciones: <br/>  VmAdmin: el administrador local de las máquinas virtuales de conector de nube. <br/>  DomainAdmin: el administrador de dominio del dominio de máquina virtual de Cloud Connector. <br/>  SafeModeAdmin: SafeModeAdmin del controlador de dominio de la máquina virtual de Cloud Connector. <br/>  ExternalCert: cuenta del certificado interno instalado en el servidor perimetral. <br/>  TenantAdmin: administrador del inquilino de O365. <br/> |
+| AccountType <br/> | Obligatorio  <br/> | System.String <br/> | AccountType valor puede ser una de las siguientes opciones: <br/>  VmAdmin: el administrador local de las máquinas virtuales de conector en la nube. <br/>  DomainAdmin: el administrador de dominio del dominio de máquina virtual de Cloud Connector. <br/>  SafeModeAdmin: SafeModeAdmin del controlador de dominio de la máquina virtual de Cloud Connector. <br/>  ExternalCert: cuenta del certificado interno instalado en el servidor perimetral. <br/>  TenantAdmin: administrador del inquilino de O365. <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
@@ -76,6 +76,6 @@ The Get-CcCredential cmdlet returns an instance of the System.Management.Automat
 ## <a name="see-also"></a>Consulte también
 <a name="ReturnTypes"> </a>
 
-[Conjunto de CcCredential](set-cccredential.md)
+[Set-CcCredential](set-cccredential.md)
   
 

@@ -9,18 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
-description: 'Resumen: Conozca la aplicación de grupo de respuesta en Skype para Business Server 2015.'
-ms.openlocfilehash: 7fb30b5ac068b9f87e68cb98b975b87e06c455f1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información sobre la aplicación de grupo de respuesta en Skype para Business Server 2015.'
+ms.openlocfilehash: 815158fbe7d477dd263591f161312d054480808c
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569026"
 ---
 # <a name="response-group-usage-report-in-skype-for-business-server-2015"></a>Informe de uso del grupo de respuesta en Skype Empresarial Server 2015
  
-**Resumen:** Obtener información sobre la aplicación de grupo de respuesta en Skype para Business Server 2015.
+**Resumen:** Obtenga información acerca de la aplicación de grupo de respuesta en Skype para Business Server 2015.
   
-La aplicación de grupo de respuesta proporciona una manera de Skype para Business Server 2015 contestar y enrutar llamadas basándose en el número que se ha marcado y, opcionalmente, en las respuestas del llamador a una serie de preguntas. Normalmente, las llamadas grupo de respuesta no se enrutan a una persona individual pero, en su lugar, se dirigen a un equipo de personas que se conoce como un grupo de agentes. Por ejemplo, si alguien llama el número de teléfono para el departamento de soporte, Skype para Business Server 2015 puede enrutar automáticamente que la llamada el primer agente de mesa de ayuda disponible. Alternativamente, Skype para Business Server podría pedir una serie de preguntas ("Presione 1 si tiene problemas de hardware. Pulse 2 si tiene problemas de software. Presione 3 si tiene problemas de red."), y, a continuación, enrutar la llamada al agente de asistencia al cliente ayuda más apropiado basándose en la respuesta a esas preguntas.
+La aplicación de grupo de respuesta proporciona una manera de Skype para Business Server 2015 responder y enrutar las llamadas de teléfono según el número que se ha marcado y, opcionalmente, de las respuestas del autor de la llamada a una serie de preguntas. Normalmente, las llamadas de grupo de respuesta no se enrutan a una persona individual, pero, en su lugar, se enrutan a un equipo de personas que se conoce como un grupo de agentes. Por ejemplo, si alguien llama al número de teléfono para el servicio de asistencia, Skype para Business Server 2015 puede enrutar automáticamente esa llamada al primer agente de escritorio de ayuda disponibles. Como alternativa, Skype para Business Server podría pedir una serie de preguntas ("Presione 1 si tiene problemas de hardware. Presione 2 si tiene problemas de software. Presione 3 si tiene problemas de red."), y, a continuación, enrutar la llamada al agente de asistencia al cliente ayuda más adecuado en función de la respuesta a estas preguntas.
   
 El Informe de uso del grupo de respuesta ofrece una perspectiva detallada del número de llamadas de teléfono que se han recibido en todos los flujos de trabajo de grupo de respuesta y, luego, separa dichas llamadas en categorías finitas como, por ejemplo, Llamadas ofrecidas, Llamadas contestadas o Llamadas abandonadas.
   
@@ -44,7 +45,7 @@ El Informe de uso del grupo de respuesta permite filtrar URI de flujos de trabaj
   
 ## <a name="accessing-the-response-group-usage-report"></a>Acceso al Informe de uso del grupo de respuesta
 
-Es posible tener acceso al Informe de uso del grupo de respuesta desde la página de inicio de informes de supervisión. Puede desglosar la [Respuesta grupo llamar a lista informe en Skype para Business Server 2015](call-list-report.md) haciendo clic en cualquiera de las siguientes métricas:
+Es posible tener acceso al Informe de uso del grupo de respuesta desde la página de inicio de informes de supervisión. Puede desglosar la [Respuesta grupo Call List Report en Skype para Business Server 2015](call-list-report.md) haciendo clic en cualquiera de las siguientes métricas:
   
 - Llamadas recibidas
     
@@ -67,7 +68,7 @@ Aunque los URI de los flujos de trabajo no se muestran en el Informe de uso del 
   
 Puede utilizar un enfoque similar para evaluar el número de llamadas atendidas por su servicio de asistencia interno o por el departamento de atención al cliente.
   
-Para revisar las estadísticas de uso de un flujo de trabajo determinado, escriba el URI del flujo de trabajo en el cuadro URI de flujo de trabajo. Tal como se ha mencionado, los URI de flujos de trabajo (dirección SIP asociada a un flujo de trabajo) no se muestran en el informe. Esto implica que necesitará buscar otra forma de determinar el URI de un flujo de trabajo. Una forma de hacerlo es utilizar Windows PowerShell y el Skype para el Shell de administración de servidor empresarial. Por ejemplo, este comando devuelve los URI de todos los flujos de trabajo de grupo de respuesta:
+Para revisar las estadísticas de uso de un flujo de trabajo determinado, escriba el URI del flujo de trabajo en el cuadro URI de flujo de trabajo. Tal como se ha mencionado, los URI de flujos de trabajo (dirección SIP asociada a un flujo de trabajo) no se muestran en el informe. Esto implica que necesitará buscar otra forma de determinar el URI de un flujo de trabajo. Una manera de hacerlo consiste en usar Windows PowerShell y el Skype para Shell de administración de servidor empresarial. Por ejemplo, este comando devuelve los URI de todos los flujos de trabajo de grupo de respuesta:
   
 ```
 Get-CsRgsWorkflow | Select-Object Name, PrimaryUri
@@ -75,20 +76,18 @@ Get-CsRgsWorkflow | Select-Object Name, PrimaryUri
 
 Se devolverán datos similares a estos:
   
-```
+<pre>
 Name                            PrimaryUri
 ----                            ----------
 Customer Support                sip:support@litwareinc.com
 Help Desk                       sip:helpdesk@litwareinc.com
 New Ad Campaign                 sip:newads@litwareinc.com
-
-```
+</pre>
 
 Este comando devuelve información de un único flujo de trabajo, el flujo de trabajo con el nombre New Ad Campaign:
   
 ```
 Get-CsRgsWorkflow -Name "New Ad Campaign" | Select-Object Name, PrimaryUri
-
 ```
 
 ## <a name="filters"></a>Filtros
@@ -97,7 +96,7 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
   
 En la tabla siguiente se muestran los filtros que se pueden utilizar en el informe de uso del grupo de respuesta.
   
-**Filtros de informe de uso de grupo de respuesta**
+**Filtros del informe de uso de grupo de respuesta**
 
 |**Nombre.**|**Descripción**|
 |:-----|:-----|
@@ -110,9 +109,9 @@ En la tabla siguiente se muestran los filtros que se pueden utilizar en el infor
 
 En la tabla siguiente se muestra la información que recoge el informe de uso del grupo de respuesta.
   
-**Métricas de informe de uso de grupo de respuesta**
+**Métricas del informe de uso de grupo de respuesta**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Puede ordenar por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Cada hora** <br/> **Cada día** <br/> **Cada semana** <br/> **Cada mes** <br/> |No  <br/> |Indica el intervalo temporal seleccionado. Cuando corresponda, podrá hacer clic en un intervalo temporal determinado para ver información detallada para dicho intervalo. Por ejemplo, si está usando el intervalo de Cada día y hace clic en 07/07/2015, verá un desglose por horas de la actividad de registro del usuario correspondiente para esa fecha.  <br/> |
 |**Llamadas recibidas** <br/> |No  <br/> |Cantidad total de llamadas recibidas por todas las instancias de la aplicación Grupo de respuesta. Al hacer clic en este elemento, el informe le muestra el informe Lista de llamadas del grupo de respuesta correspondiente al periodo de tiempo seleccionado.  <br/> |

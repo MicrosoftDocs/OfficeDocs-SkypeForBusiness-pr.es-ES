@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Lea acerca de cómo instalar y configurar las opciones de disponibilidad en Skype para Business Server 2015.
-ms.openlocfilehash: ff0f9a892d0882adcc2af0c4c41c1177b3488520
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d9348077c5779984879d3ac9f0d68bf68fd0c561
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568217"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Instalar y configurar Opciones de disponibilidad para Skype Empresarial Server
  
@@ -102,14 +103,12 @@ Por ejemplo, el siguiente comando configura Opciones de disponibilidad para el u
   
 ```
 Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
-
 ```
 
 En el siguiente ejemplo, el comando configura Opciones de disponibilidad para la usuaria "Chrystal Velasquez". En esta configuración, se enviarán al correo de voz las nuevas llamadas entrantes de "Chrystal Velasquez" cuando ya esté al teléfono:
   
 ```
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy 
-
 ```
 
 Puede recuperar información de configuración acerca de las opciones de disponibilidad mediante el cmdlet [Get-CsBusyOptions](http://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) . En el ejemplo siguiente se devuelve la configuración de opciones de disponibilidad para "KenMyer@Contoso.com":
@@ -122,7 +121,6 @@ Puede quitar las opciones de disponibilidad mediante el cmdlet [Remove-CsBusyOpt
   
 ```
 Remove-CsBusyOptions -Identity "Ken Myer"
-
 ```
 
 Para obtener información detallada sobre los cmdlets de usar para configurar las opciones de disponibilidad, vea el contenido de referencia técnica para [Set-CsBusyOptions](http://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx), [Get-CsBusyOptions](http://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx)y [Remove-CsBusyOptions](http://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx).
@@ -137,24 +135,21 @@ $p2 = New-CsClsProvider -Name Sipstack -Type WPP -Level Info -Flags
  "TF_PROTOCOL,TF_CONNECTION,TF_SECURITY,TF_DIAG,TF_SHOW_CONFERENCE,TF_SHOW_ALLREQUESTS,TF_SHOW_ALLSIPHEADERS" -Role Registrar
 $p3 = New-CsClsProvider -Name BusyOptions -Type WPP -Level Verbose -Flags All
 New-CsClsScenario -Parent Global -Name BusyOptions -Provider @{Add=$p1,$p2,$p3} 
-
 ```
 
 ## <a name="verify-and-troubleshoot"></a>Verificación y solución de problemas:
 
 Después de instalar las opciones de disponibilidad, puede comprobar que la instalación fue correcta mediante el cmdlet [Get-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/get-csserverapplication?view=skype-ps) para recuperar la lista de aplicaciones de servidor. Si Opciones de disponibilidad se instaló correctamente, el resultado del cmdlet deberá mostrar la configuración de Opciones de disponibilidad de la siguiente manera:
   
-|||
-|:-----|:-----|
-|Identity   <br/> |  : Service:Registrar:pool0.vdomain.com/BusyOptions <br/> |
-|Prioridad  <br/> | : 5 <br/> |
-|URI   <br/> |: http://www.microsoft.com/LCS/BusyOptions  <br/> |
-|Nombre  <br/> |  : BusyOptions <br/> |
-|Habilitado  <br/> |: True  <br/> |
-|Crítico  <br/> |: False  <br/> |
-|NombreDeSecuenciaDeComandos  <br/> | : <br/> |
-|Script   <br/> | : <br/> |
-   
-También puede usar el Visor de eventos de Windows para comprobar que la instalación de las opciones de disponibilidad se realizó correctamente y que Skype para Business Server cargado correctamente las opciones de disponibilidad. Para comprobar las opciones de disponibilidad, abra **Visor de eventos:\> registros de aplicación y servicios -\> Skype (o Lync) Server** y busca el identificador de evento = 30253.
+<pre>
+Identity   : Service:Registrar:pool0.vdomain.com/BusyOptions 
+Priority   : 5 
+Uri        : http://www.microsoft.com/LCS/BusyOptions 
+Name       : BusyOptions 
+Enabled    : True 
+Critical   : False  
+ScriptName : 
+Script     : 
+</pre> 
   
-
+También puede usar el Visor de eventos de Windows para comprobar que la instalación de las opciones de disponibilidad se realizó correctamente y que Skype para Business Server cargado correctamente las opciones de disponibilidad. Para comprobar las opciones de disponibilidad, abra **Visor de eventos:\> registros de aplicación y servicios -\> Skype (o Lync) Server** y busca el identificador de evento = 30253.

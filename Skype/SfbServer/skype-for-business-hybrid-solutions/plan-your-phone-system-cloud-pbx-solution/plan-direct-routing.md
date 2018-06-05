@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Lea este tema para obtener información sobre cómo enrutamiento directo de Microsoft teléfono del sistema le permite conectar un compatibles, proporcionado por el cliente sesión controlador de borde (SBC) para el sistema telefónico de Microsoft.
-ms.openlocfilehash: 3e7a0899fd7a79003a522d59fe1f4f7508978a51
-ms.sourcegitcommit: 0d584174263c044c2ba12e32d2c924349226075c
+ms.openlocfilehash: 8fb9ca844c8397d57bba7c87b1a7b8701beff20f
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569983"
 ---
 # <a name="plan-direct-routing"></a>Planeación de enrutamiento directo
 
@@ -69,7 +70,7 @@ En la siguiente tabla, se enumeran los requisitos de infraestructura para el SBC
 |Nombre de dominio completo (FQDN) para el SBC|Un FQDN para el SBC, donde la parte del dominio del FQDN es uno de los dominios registrados en el inquilino de Office 365. Para obtener más información, vea [nombres de dominio SBC](#sbc-domain-names).|
 |Entrada DNS pública para el SBC |Una entrada DNS pública asignar el FQDN SBC a la dirección IP pública. |
 |Certificado de confianza pública para el SBC |Un certificado para el SBC que se usará para todas las comunicaciones con el enrutamiento directo. Para obtener más información, vea [pública certificado de confianza para el SBC](#public-trusted-certificate-for-the-sbc).|
-|Puntos de conexión para el enrutamiento directo |Los puntos de conexión para el enrutamiento directo son los FQDN de tres los siguientes:<br/><br/>```sip.pstnhub.microsoft.com```: FQDN global, debe intentar primero.<br/>```sip2.pstnhub.microsoft.com```: FQDN secundario, geográficamente se asigna a la segunda región de prioridad.<br/>```sip3.pstnhub.microsoft.com```– Terciario FQDN, geográficamente se asigna a la región de prioridad de terceros.<br/><br/>Para obtener información sobre los requisitos de configuración, vea [de señalización SIP: FQDN y los puertos de firewall](#sip-signaling-fqdns-and-firewall-ports).|
+|Puntos de conexión para el enrutamiento directo |Los puntos de conexión para el enrutamiento directo son los FQDN de tres los siguientes:<br/><br/>`sip.pstnhub.microsoft.com`: FQDN global, debe intentar primero.<br/>`sip2.pstnhub.microsoft.com`: FQDN secundario, geográficamente se asigna a la segunda región de prioridad.<br/>`sip3.pstnhub.microsoft.com`– Terciario FQDN, geográficamente se asigna a la región de prioridad de terceros.<br/><br/>Para obtener información sobre los requisitos de configuración, vea [de señalización SIP: FQDN y los puertos de firewall](#sip-signaling-fqdns-and-firewall-ports).|
 |Las direcciones IP de servidor de seguridad y los puertos para los medios de enrutamiento directo |La SBC se comunica con los siguientes servicios en la nube:<br/><br/>Proxy, que controla la señalización SIP<br/>Procesador de medios, que controla los medios-excepto cuando es el desvío de medios en<br/><br/>Estos dos servicios tienen direcciones IP distintas en Microsoft Cloud, que se describen más adelante en este documento.<br/><br/>Para obtener más información, vea la [sección de equipos de Microsoft](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) en [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |
 |Medios de transporte perfil|RTP/TCP/SAVP <br/>RTP/UDP/SAVP|
 Las direcciones IP de servidor de seguridad y los puertos de medios de Microsoft Teams |Para obtener más información, vea [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |

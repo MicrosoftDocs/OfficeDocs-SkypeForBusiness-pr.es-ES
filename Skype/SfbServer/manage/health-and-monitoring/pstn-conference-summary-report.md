@@ -9,18 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
-description: 'Resumen: Conozca el informe resumen de conferencia PSTN en Skype para Business Server 2015.'
-ms.openlocfilehash: 1897b6ebf25e4de4f60af91d76ada539ea3561f9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Información sobre el informe resumen de conferencia de RTC en Skype para Business Server 2015.'
+ms.openlocfilehash: cda98ec62d8f59992f028cd9189e5f696ffaf2ac
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569295"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server-2015"></a>Informe de resumen de conferencia RTC en Skype Empresarial Server 2015
  
-**Resumen:** Obtener información sobre el informe resumen de conferencia PSTN en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre el informe resumen de conferencia de RTC en Skype para Business Server 2015.
   
-En Skype para Business Server 2015, una conferencia de RTC es una conferencia en la que como mínimo un participante se conecta a la parte de audio mediante el uso de un teléfono PSTN (red telefónica pública conmutada). (Un teléfono PSTN es un "fijo", un teléfono celular o cualquier otro número de teléfono que no haga uso de la voz sobre IP.) Aunque se conoce como conferencias PSTN en los informes de supervisión, estas conferencias quizás se conoce más comúnmente como conferencias de acceso telefónico.
+En Skype para Business Server 2015, una conferencia de RTC es cualquier conferencia en la que al menos un participante se conecta a la parte de audio mediante el uso de un teléfono RTC (red telefónica conmutada). (Un teléfono RTC es un teléfono "fijo", un teléfono móvil o cualquier otro número de teléfono que no hace uso de la voz sobre IP.) Aunque se conoce como de conferencias RTC en los informes de supervisión, estas conferencias, posiblemente, se conocen con más frecuencia como conferencias de acceso telefónico.
   
 El informe de resumen de conferencias RTC proporciona información sobre todas las conferencias RTC mantenidas en su organización (es decir, todas las conferencias en las que hubo al menos un usuario de acceso telefónico). El informe incluye información sobre la cantidad total de conferencias RTC, la cantidad total de personas que participaron en dichas conferencias y, quizás lo más importante, la cantidad total de usuarios de acceso telefónico (métrica Total de participantes RTC).
   
@@ -30,9 +31,9 @@ El informe de resumen de conferencias RTC solo es accesible desde la página pri
   
 ## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>Optimización del uso del informe de resumen de conferencias RTC
 
-Para determinar el porcentaje de todas las conferencias que incluyen usuarios de acceso telefónico, comparar el valor de la métrica de conferencias PSTN Total con la métrica Total de conferencias se encuentra en el [Informe de resumen de conferencia en Skype para Business Server 2015](conference-summary-report.md).
+Para determinar el porcentaje de todas las conferencias que incluyen usuarios con acceso telefónico, compare el valor de la métrica de conferencias RTC Total con la métrica Total de conferencias que se encuentra en el [Informe de resumen de conferencia en Skype para Business Server 2015](conference-summary-report.md).
   
-Si no ve la cantidad de conferencias RTC que esperaba ver, tenga en cuenta que la capacidad para organizar una conferencia que admita usuarios de acceso telefónico depende de la directiva de conferencias que se haya asignado a un usuario; si muy pocos usuarios pueden organizar conferencias RTC, obviamente verá pocas conferencias RTC. Para comprobar rápidamente que las directivas de conferencia (si existe) de permitir a los usuarios programar conferencias PSTN ejecutando el siguiente comando desde dentro el Skype para el Shell de administración de servidor de Business:
+Si no ve la cantidad de conferencias RTC que esperaba ver, tenga en cuenta que la capacidad para organizar una conferencia que admita usuarios de acceso telefónico depende de la directiva de conferencias que se haya asignado a un usuario; si muy pocos usuarios pueden organizar conferencias RTC, obviamente verá pocas conferencias RTC. Para comprobar rápidamente cuál de las directivas de conferencia (si hay alguno) permiten a los usuarios programar conferencias RTC ejecutando el siguiente comando desde dentro de la Skype de consola de administración de servidor empresarial:
   
 ```
 Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
@@ -40,7 +41,7 @@ Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 
 Se devolverán datos similares a estos:
   
-```
+<pre>
 Identity                                EnableDialInConferencing
 --------                                ------------------------
 Global                                                      True
@@ -48,8 +49,7 @@ site:Redmond                                               False
 site:Dublin                                                False
 Tag:RedmondDialInUsers                                      True
 Tag:DublinDialInUsers                                       True
-
-```
+</pre>
 
 ## <a name="filters"></a>Filtros
 
@@ -57,7 +57,7 @@ Los filtros constituyen un modo de obtener un conjunto de datos más acorde con 
   
 La siguiente tabla contiene los filtros que se pueden usar con el informe de resumen de conferencia RTC.
   
-**Filtros de informe de resumen de conferencias PSTN**
+**Filtros del informe de resumen de conferencia RTC**
 
 |**Nombre.**|**Descripción**|
 |:-----|:-----|
@@ -69,9 +69,9 @@ La siguiente tabla contiene los filtros que se pueden usar con el informe de res
 
 La siguiente tabla contiene la información que recoge el informe de resumen de conferencia RTC.
   
-**Métricas de informe de resumen de conferencias PSTN**
+**Métricas del informe de resumen de conferencia RTC**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Puede ordenar por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Cada hora** <br/> **Cada día** <br/> **Cada semana** <br/> **Cada mes** <br/> |No  <br/> |Indica el intervalo temporal seleccionado. Cuando corresponda, podrá hacer clic en un intervalo temporal determinado para ver información detallada para dicho intervalo. Por ejemplo, si está usando el intervalo de Cada día y hace clic en 07/07/2015, verá un desglose por horas de la actividad de registro del usuario correspondiente para esa fecha.  <br/> |
 |**Total de conferencias RTC** <br/> |No  <br/> |Cantidad total de conferencias donde se permitió el acceso telefónico.  <br/> |

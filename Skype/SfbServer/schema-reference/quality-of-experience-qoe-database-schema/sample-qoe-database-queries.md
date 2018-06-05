@@ -9,24 +9,25 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
-description: Esta sección contiene ejemplos de consultas de la base de datos de calidad de la experiencia (QoE).
-ms.openlocfilehash: 20ca6bc8aea6035ebe27fc5f77d512464cd82dcc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Esta sección contiene consultas de ejemplo para la base de datos de calidad de la experiencia (QoE).
+ms.openlocfilehash: 70fff2c34e7eade21e5f2c29893a175ee65e39b0
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19570181"
 ---
 # <a name="sample-qoe-database-queries"></a>Consultas de base de datos de QoE de ejemplo
  
-Esta sección contiene ejemplos de consultas de la base de datos de calidad de la experiencia (QoE). 
+Esta sección contiene consultas de ejemplo para la base de datos de calidad de la experiencia (QoE). 
   
-Utilice el ejemplo siguiente para obtener el promedio la inestabilidad y pérdida de paquetes para todas las secuencias de audio.
+Use el siguiente ejemplo para obtener la media de la vibración y pérdida de paquetes para todas las secuencias de audio.
   
 ```
 select avg(cast(JitterInterArrival as bigint)) as JitterAvg, avg(PacketLossRate) as PacketLossRateAvg from AudioStream
 ```
 
-Utilice el siguiente ejemplo para encontrar el número total de conferencias que utilizan la consola de reunión.
+Use el siguiente ejemplo para buscar el número total de conferencias que utilizaron la consola de reunión.
   
 ```
 select avg(ConversationalMOS)
@@ -37,10 +38,9 @@ on s.ConferenceDateTime = m.ConferenceDateTime
    and m.MediaLineLabel = 0 -- audio media line
    and s.CallerUserAgentType = 4 -- Lync
    and s.CalleeUserAgentType = 4 -- Lync
-
 ```
 
-Utilice el siguiente ejemplo para obtener ConversstionalMOS, SendingMOS y ListendingMOS por el dispositivo de captura.
+Use el siguiente ejemplo para obtener los valores de Conversationalmos, SendingMOS y ListendingMOS por dispositivo de captura.
   
 ```
 select t.DeviceName as Device, count(*) as SampleNum, avg(ConversationalMOS) as ConversationalMOS, avg(SendListenMOS) SendingMOS, avg(RecvListenMOS) as ListendingMOS
@@ -65,7 +65,4 @@ from
 )as t
 group by t.DeviceName
 order by SampleNum desc
-
 ```
-
-

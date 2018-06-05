@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Obtenga información sobre cómo configurar el enrutamiento directo de Microsoft teléfono del sistema.
-ms.openlocfilehash: e2f9629de713c363de02124a922b21882853d54d
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 2a600b7f6e61ae9dead69e5bfac534e2196974b1
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19570174"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -59,14 +60,14 @@ gcm *onlinePSTNGateway*
 
 El comando devolverá las cuatro funciones que se muestra aquí que le permiten administrar el SBCs. 
 
-```
+<pre>
 CommandType    Name                       Version    Source 
 -----------    ----                       -------    ------ 
 Function       Get-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt 
 Function       New-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt 
 Function       Remove-CsOnlinePSTNGateway 1.0        tmp_v5fiu1no.wxt 
 Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
-```   
+</pre>   
 
 
 ### <a name="pair-the-sbc-to-the-tenant"></a>Par la SBC para el inquilino 
@@ -86,7 +87,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
 ```
 Devuelve:
-``` 
+<pre>
 Identity              : sbc.contoso.com 
 Fqdn                  : sbc.contoso.com 
 SipSignallingPort     : 5067 
@@ -96,7 +97,7 @@ ForwardPai            : False
 SendSipOptions        : True 
 MaxConcurrentSessions : 100 
 Enabled               : True   
-```
+</pre>
 Existen opciones adicionales que se pueden establecer durante el emparejamiento. En el ejemplo anterior, sin embargo, solo la mínima necesaria se muestran los parámetros. 
  
 En la siguiente tabla se enumera los parámetros adicionales que puede usar en la configuración de parámetros para *New-CsOnlinePstnGateway*. 
@@ -129,7 +130,7 @@ La puerta de enlace emparejado debe aparecer en la lista tal como se muestra en 
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
 ```
 Que devuelve:
-``` 
+<pre>
 Identity              : sbc.contoso.com  
 Fqdn                  : sbc.contoso.com 
 SipSignallingPort     : 5067 
@@ -141,7 +142,7 @@ ForwardPai            : False
 SendSipOptions        : True 
 MaxConcurrentSessions : 100 
 Enabled               : True 
-```
+</pre>
 
 #### <a name="validate-sip-options-flow"></a>Validar flujo de opciones de SIP 
 
@@ -290,7 +291,7 @@ Que devuelve una lista de nombres que es posible que esté truncada:
   Usage     : {testusage, US and Canada, International, karlUsage. . .}
 ```
 En el ejemplo siguiente, puede ver el resultado de la ejecución del comando de PowerShell *`(Get-CSOnlinePSTNUsage).usage`* para mostrar los nombres completos (no truncados).    
-```
+<pre>
  testusage
  US and Canada
  International
@@ -300,7 +301,7 @@ En el ejemplo siguiente, puede ver el resultado de la ejecución del comando de 
  karlUsage2
  Unrestricted
  Two trunks
-  ```
+</pre>
 
 **Paso 2:** En una sesión de PowerShell en Skype para profesionales en línea, cree tres rutas: Redmond 1, Redmond 2 y otros + 1, como se detalla en la tabla anterior. 
 
@@ -312,7 +313,7 @@ Para crear la ruta de "Redmond 1", escriba:
   ```
 
 Que devuelve:
-```
+<pre>
 Identity                : Redmond 1
 Priority            : 1
 Description         :
@@ -322,7 +323,7 @@ OnlinePstnGatewayList   : {sbc1.contoso.biz, sbc2.contoso.biz}
 Name            : Redmond 1
 SuppressCallerId    :
 AlternateCallerId   :
-```
+</pre>
 Para crear la ruta de Redmond 2, escriba:
 
 ```
@@ -355,7 +356,7 @@ Validar que ha configurado correctamente la ruta mediante la ejecución de la `G
 New-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 Que se debe devolver:
-```
+<pre>
 Identity            : Redmond 1 
 Priority            : 1
 Description     : 
@@ -378,7 +379,7 @@ NumberPattern       : ^\+1(425|206) (\d{7})$
 OnlinePstnUsages    : {US and Canada}    
 OnlinePstnGatewayList   : {sbc5.contoso.biz, sbc6.contoso.biz}
 Name            : Other +1
-```
+</pre>
 
 En el ejemplo, la ruta "Otros + 1" automáticamente se asignó prioridad. 
 
@@ -392,12 +393,12 @@ New-CsOnlineVoiceRoutingPolicy "US Only" -OnlinePstnUsages "US and Canada"
 
 En este ejemplo, se muestra el resultado:
 
-```
+<pre>
 Identity        : Tag:US only
 OnlinePstnUsages    : {US and Canada}
 Description         :
 RouteType           : BYOT
-```
+</pre>
 
 **Paso 4:** Conceder al usuario Spence Low una directiva de enrutamiento de voz mediante el uso de PowerShell.
 
@@ -411,12 +412,11 @@ RouteType           : BYOT
 Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
 Que devuelve:
-```
+<pre>
 OnlineVoiceRoutingPolicy
 ------------------------
 US Only
-
-```
+</pre>
 
 #### <a name="creating-a-voice-routing-policy-with-several-pstn-usages"></a>Creación de una directiva de enrutamiento de voz con varios usos de RTC
 
@@ -470,7 +470,7 @@ Los pasos para crear el uso de RTC "Internacional", "Internacional", de la ruta 
   ```
   Que devuelve:
 
-  ```
+  <pre>
   Identity                  : International 
   Priority                      : 5
   Description                   : 
@@ -480,27 +480,29 @@ Los pasos para crear el uso de RTC "Internacional", "Internacional", de la ruta 
   Name                            : International
   SupressCallerId           :
   AlternateCallerId         :
-  ```
+</pre>
 3.  A continuación, no cree una directiva de enrutamiento de voz "restricciones". El uso de RTC "Redmond 1" y "Redmond" volver a usar en esta directiva de enrutamiento de voz para conservar un tratamiento especial para las llamadas al número "XX XX de XXX +1 425" y "XX XX de XXX +1 206" como llamadas locales o local.
 
-    ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”```
+```
+New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”
+```
 
-    Tome nota del orden de los usos de RTC:
+    Take note of the order of PSTN Usages:
 
-    a. Si una llamada realizada a número "+ 1425 XXX XX XX" con los usos configurados como en el ejemplo siguiente, la llamada sigue la ruta de establecer en el uso de "Nosotros y Canadá" y se aplica la lógica de enrutamiento especial. Es decir, la llamada se enruta mediante sbc1<span></span>. contoso.biz y sbc2<span></span>. contoso.biz primero y, a continuación, sbc3<span></span>. contoso.biz y sbc4<span></span>. contoso.biz como las rutas de copia de seguridad. 
+    a. If a call made to number “+1425 XXX XX XX” with the usages configured as in the following example, the call follows the route set in “US and Canada” usage and the special routing logic is applied. That is, the call is routed using  sbc1<span></span>.contoso.biz and sbc2<span></span>.contoso.biz first, and then  sbc3<span></span>.contoso.biz and sbc4<span></span>.contoso.biz as the backup routes. 
 
-    b.  Si el uso de RTC "Internacional" es antes de "Nosotros y Canadá", las llamadas a + 1425 XXX XX XX se enrutan a sbc2<span></span>. contoso.biz y sbc5<span></span>. contoso.biz como parte de la lógica de enrutamiento. Escriba el comando:
+    b.  If “International” PSTN usage is before “US and Canada,” calls to + 1425 XXX XX XX are routed to sbc2<span></span>.contoso.biz and sbc5<span></span>.contoso.biz as part of the routing logic. Enter the command:
 
     ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”```
 
    Que devuelve
 
-   ```
+  <pre>
    Identity     : International 
    OnlinePstnUsages     : {US and Canada, International}     
    Description      :  
    RouteType        : BYOT
-   ```
+  </pre>
 
 4.  Asignar la directiva de enrutamiento de voz para el usuario "John Woods" mediante el siguiente comando.
 
@@ -515,11 +517,11 @@ Los pasos para crear el uso de RTC "Internacional", "Internacional", de la ruta 
   ```
   Que devuelve:
 
-  ```
-  OnlineVoiceRoutingPolicy
-  ------------------------
-  No Restrictions
-  ```
+<pre>
+    OnlineVoiceRoutingPolicy
+    ------------------------
+    No Restrictions
+</pre>
 
 El resultado es que la directiva de voz que se aplican a las llamadas de John Woods se sin restricciones y va a seguir la lógica de enrutamiento de llamadas disponible para llamadas de Estados Unidos, Canadá e internacional.
 

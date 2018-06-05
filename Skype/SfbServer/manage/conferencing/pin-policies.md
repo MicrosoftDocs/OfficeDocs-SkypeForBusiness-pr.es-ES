@@ -1,5 +1,5 @@
 ---
-title: Administrar directivas de NIP para conferencias de acceso telefónico en Skype para Business Server 2015
+title: Administración de directivas PIN para conferencias en Skype para Business Server 2015
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,18 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
-description: 'Resumen: Conozca cómo administrar directivas de NIP para conferencias de acceso telefónico en Skype para Business Server 2015.'
-ms.openlocfilehash: ecc1c41c4d08583baaec4279ea35d9ba796d3e5e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información sobre cómo administrar las directivas de PIN para conferencias de acceso telefónico en Skype para Business Server 2015.'
+ms.openlocfilehash: ee6a303a59ef6bc17ca3bd3300a701505cf9042b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569054"
 ---
-# <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server-2015"></a>Administrar directivas de NIP para conferencias de acceso telefónico en Skype para Business Server 2015
+# <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server-2015"></a>Administración de directivas PIN para conferencias en Skype para Business Server 2015
  
-**Resumen:** Aprenda a administrar directivas de NIP para conferencias de acceso telefónico en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo administrar las directivas de PIN para conferencias de acceso telefónico en Skype para Business Server 2015.
   
-Skype para los usuarios de Business Server que tiene credenciales de servicios de dominio de Active Directory (AD DS) en su organización puede unirse a conferencias de acceso telefónico como usuarios autenticados utilizando un número de identificación personal (PIN). La directiva de PIN define las reglas de funcionamiento de los PIN de conferencias de acceso telefónico local.
+Skype para los usuarios de Business Server que tienen credenciales de servicios de dominio de Active Directory (AD DS) en su organización puede participar en conferencias de acceso telefónico como los usuarios autenticados mediante el uso de un número de identificación personal (PIN). La directiva de PIN define las reglas de funcionamiento de los PIN de conferencias de acceso telefónico local.
   
  Si desea usar la misma directiva de PIN para toda la organización, puede usar la directiva de PIN global y modificarla según sea necesario. La directiva de PIN global define las reglas de los PIN para conferencias de acceso telefónico local en el nivel de bosque. Puede modificar la directiva de PIN global, pero no se puede eliminar.
   
@@ -30,38 +31,37 @@ Las directivas de PIN se aplican a usuarios que van del ámbito más limitado al
   
 ## <a name="view-information-about-pin-policies"></a>Ver información sobre las directivas de PIN
 
-Puede ver información acerca de las directivas de NIP utilizando Skype para Panel de Control de servidor empresarial o mediante Skype para el Shell de administración de servidor empresarial.
+Puede ver información acerca de las directivas de PIN mediante Skype para el Panel de Control de servidor empresarial o mediante el uso de Skype para Shell de administración de servidor empresarial.
   
-### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-control-panel"></a>Ver información acerca de las directivas de NIP utilizando Skype para Panel de Control de servidor empresarial
+### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-control-panel"></a>Ver información sobre las directivas de PIN mediante el uso de Skype para el Panel de Control de servidor empresarial
 
-1.  Desde una cuenta de usuario que es miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que esté en la red en el que implementa Skype para Business Server 2015.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server 2015.
     
-2.  Abre Skype para Panel de Control del servidor de empresa.
+2.  Abra Skype para el Panel de Control de servidor empresarial.
     
 3. En la barra de navegación izquierda, haga clic en **Conferencia** y después en **Directiva de PIN**.
     
 4. En la página **Directiva de PIN**, haga clic en la directiva de PIN que desee modificar, haga clic en **Editar** y luego en **Mostrar detalles**.
     
-### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>Ver información acerca de las directivas de NIP utilizando Skype para el Shell de administración de servidor empresarial
+### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>Ver información sobre las directivas de PIN mediante el uso de Skype para Shell de administración de servidor empresarial
 
 Para ver información sobre las directivas de PIN, use el cmdlet **Get-CsPinPolicy**. Por ejemplo, el siguiente comando devuelve información sobre una sola directiva de PIN con el valor de Identity site:Redmond:
   
 ```
 Get-CsPinPolicy -Identity "site:Redmond"
-
 ```
 
-Para obtener más información, incluida una descripción de la sintaxis completa y lista de parámetros, vea [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps).
+Para obtener más información, incluida una descripción de la sintaxis completa y una lista de parámetros, vea [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps).
   
 ## <a name="modify-the-global-pin-policy"></a>Modificar la directiva de PIN global
 
-Puede modificar la directiva de NIP global utilizando Skype para Panel de Control de servidor empresarial o mediante Skype para el Shell de administración de servidor empresarial.
+Puede modificar la directiva de PIN global mediante el uso de Skype para el Panel de Control de servidor empresarial o mediante el uso de Skype para Shell de administración de servidor empresarial.
   
-### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>Modificar la conferencia de marcado global directiva de NIP mediante Skype para Panel de Control de servidor empresarial
+### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>Modificar la conferencia de marcado global directiva de PIN mediante Skype para el Panel de Control de servidor empresarial
 
-1.  Desde una cuenta de usuario que es miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que esté en la red en el que implementa Skype para Business Server 2015.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server 2015.
     
-2.  Abre Skype para Panel de Control del servidor de empresa.
+2.  Abra Skype para el Panel de Control de servidor empresarial.
     
 3. En la barra de navegación izquierda, haga clic en **Conferencia** y después en **Directiva de PIN**.
     
@@ -86,7 +86,7 @@ Puede modificar la directiva de NIP global utilizando Skype para Panel de Contro
   
 12. Haga clic en **Confirmar**.
     
-### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>Modificar la conferencia de marcado global directiva de NIP mediante Skype de Shell de administración de servidor empresarial
+### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>Modificar la conferencia de marcado global directiva de PIN mediante Skype para Shell de administración de servidor empresarial
 
 Para modificar la directiva de PIN global de conferencias de acceso telefónico local, use el cmdlet **Set-CsPinPolicy**.
   
@@ -94,20 +94,19 @@ El siguiente comando cambia el valor de la propiedad MinPasswordLength de todas 
   
 ```
 Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
-
 ```
 
-Para obtener más información, incluida una descripción de la sintaxis completa y lista de parámetros, consulte [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps).
+Para obtener más información, incluida una descripción de la sintaxis completa y una lista de parámetros, consulte [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps).
   
 ## <a name="create-a-user-or-site-pin-policy"></a>Crear una directiva de PIN de usuario o sitio
 
-Puede crear un usuario o una directiva de NIP de sitio utilizando Skype para Panel de Control de servidor empresarial o mediante Skype para el Shell de administración de servidor empresarial.
+Puede crear un usuario o directiva de PIN del sitio mediante el uso de Skype para el Panel de Control de servidor empresarial o mediante el uso de Skype para Shell de administración de servidor empresarial.
   
-### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Crear un usuario o un sitio directiva de NIP mediante Skype para Business Server Control Panel
+### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Crear un usuario o directiva de PIN del sitio mediante el uso de Skype para el Panel de Control de servidor empresarial
 
-1. Desde una cuenta de usuario que es miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que esté en la red en el que implementa Skype para Business Server 2015.
+1. Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server 2015.
     
-2.  Abre Skype para Panel de Control del servidor de empresa.
+2.  Abra Skype para el Panel de Control de servidor empresarial.
     
 3. En la barra de navegación izquierda, haga clic en **Conferencia** y después en **Directiva de PIN**.
     
@@ -138,7 +137,7 @@ Puede crear un usuario o una directiva de NIP de sitio utilizando Skype para Pan
   
 13. Haga clic en **Confirmar**.
     
-### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Crear un usuario o una directiva de NIP de sitio mediante Skype para el Shell de administración de servidor de Business
+### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Crear un usuario o directiva de PIN del sitio mediante el uso de Skype para Shell de administración de servidor empresarial
 
 Para crear una directiva de PIN de usuario o sitio, use el cmdlet **New-CsPinPolicy**.
   
@@ -148,17 +147,17 @@ El siguiente comando crea una directiva de PIN con el parámetro Identity site:R
 New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 ```
 
- Para obtener más información, incluida una descripción de la sintaxis completa y lista de parámetros, consulte [New-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/new-cspinpolicy?view=skype-ps).
+ Para obtener más información, incluida una descripción de la sintaxis completa y una lista de parámetros, vea [New-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/new-cspinpolicy?view=skype-ps).
   
 ## <a name="modify-a-user-or-site-pin-policy"></a>Modificar una directiva de PIN de usuario o sitio
 
-Puede modificar un usuario o una directiva de NIP de sitio utilizando Skype para Panel de Control de servidor empresarial o mediante Skype para el Shell de administración de servidor empresarial.
+Puede modificar un usuario o directiva de PIN del sitio mediante el uso de Skype para el Panel de Control de servidor empresarial o mediante el uso de Skype para Shell de administración de servidor empresarial.
   
-### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Modificar un usuario o una directiva de NIP de sitio mediante Skype para Panel de Control de servidor de Business
+### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Modificar un usuario o directiva de PIN del sitio mediante el uso de Skype para el Panel de Control de servidor empresarial
 
-1.  Desde una cuenta de usuario que es miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que esté en la red en el que implementa Skype para Business Server 2015.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server 2015.
     
-2.  Abre Skype para Panel de Control del servidor de empresa.
+2.  Abra Skype para el Panel de Control de servidor empresarial.
     
 3. En la barra de navegación izquierda, haga clic en **Conferencia** y después en **Directiva de PIN**.
     
@@ -168,7 +167,7 @@ Puede modificar un usuario o una directiva de NIP de sitio utilizando Skype para
     
 6. Haga clic en **Confirmar**.
     
-### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Modificar un usuario o una directiva de NIP de sitio mediante Skype para el Shell de administración de servidor de Business
+### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Modificar un usuario o directiva de PIN del sitio mediante el uso de Skype para Shell de administración de servidor empresarial
 
 Para modificar la directiva de PIN de conferencias de acceso telefónico local, use el cmdlet **Set-CsPinPolicy**.
   
@@ -176,26 +175,25 @@ El siguiente comando modifica la directiva de PIN asignada al sitio de Redmond. 
   
 ```
 Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
-
 ```
 
-Para obtener más información, incluida una descripción de la sintaxis completa y lista de parámetros, consulte [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps).
+Para obtener más información, incluida una descripción de la sintaxis completa y una lista de parámetros, consulte [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps).
   
 ## <a name="delete-a-user-or-site-pin-policy"></a>Eliminar una directiva de PIN de usuario o sitio
 
-Puede eliminar un usuario o una directiva de NIP de sitio utilizando Skype para Panel de Control de servidor empresarial o mediante Skype para el Shell de administración de servidor empresarial.
+Puede eliminar un usuario o directiva de PIN del sitio mediante el uso de Skype para el Panel de Control de servidor empresarial o mediante el uso de Skype para Shell de administración de servidor empresarial.
   
-### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Eliminar un usuario o una directiva de PIN del sitio utilizando Skype para Panel de Control de servidor empresarial
+### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Eliminar un usuario o directiva de PIN del sitio mediante el uso de Skype para el Panel de Control de servidor empresarial
 
-1.  Desde una cuenta de usuario que es miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que esté en la red en el que implementa Skype para Business Server 2015.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server 2015.
     
-2.  Abre Skype para Panel de Control del servidor de empresa.
+2.  Abra Skype para el Panel de Control de servidor empresarial.
     
 3. En la barra de navegación izquierda, haga clic en **Conferencia** y después en **Directiva de PIN**.
     
 4. En la página **Directiva de PIN**, haga clic en la directiva de PIN que desee modificar, haga clic en **Editar** y después en **Eliminar**.
     
-### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Eliminar un usuario o directiva de PIN del sitio utilizando Skype para el Shell de administración de servidor empresarial
+### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Eliminar un usuario o directiva de PIN del sitio mediante el uso de Skype para Shell de administración de servidor empresarial
 
 Para eliminar una directiva de PIN de usuario o sitio, use el cmdlet **Remove-CsPinPolicy**.
   
@@ -205,6 +203,6 @@ El siguiente comando quita todas las directivas de PIN que se han configurado en
 Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
 ```
 
-Para obtener más información, incluida una descripción de la sintaxis completa y lista de parámetros, vea [Quitar CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps).
+Para obtener más información, incluida una descripción de la sintaxis completa y una lista de parámetros, vea [Remove-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps).
   
 

@@ -9,16 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
-description: 'Resumen: Conozca cómo probar marcado en conferencias en Skype para Business Server 2015.'
-ms.openlocfilehash: 9df525710513dbccc2fd488dc9bb5a6f7ed49200
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información sobre cómo probar la conferencia de acceso telefónico en Skype para Business Server 2015.'
+ms.openlocfilehash: 7e6e53d5d4ee3e3e28beadc54ca86a79c6118637
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569274"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server-2015"></a>Probar las conferencias de acceso telefónico local en Skype Empresarial Server 2015
  
-**Resumen:** Aprenda a probar marcado en conferencias en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo probar la conferencia de acceso telefónico en Skype para Business Server 2015.
   
 Como comprobación final de la configuración de las conferencias de acceso telefónico local, puede buscar planes de marcado que tengan una región de conferencia de acceso telefónico local que no sea usada por ningún número de acceso, así como números de acceso que no tengan asignada una región de conferencia de acceso telefónico local. También debe comprobar que la página web Configuración de la conferencia de acceso telefónico local y los números de acceso telefónico local funcionan correctamente.
   
@@ -36,7 +37,7 @@ Como comprobación final de la configuración de las conferencias de acceso tele
 
     Este cmdlet devuelve todos los planes de marcado que tienen una región de conferencia de acceso telefónico local que no es usada por ningún número de acceso.
     
-Para obtener más información, consulte [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
+Para obtener más información, vea [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## <a name="find-access-numbers-without-assigned-regions"></a>Buscar números de acceso sin regiones asignadas
 
@@ -52,7 +53,7 @@ Para obtener más información, consulte [Get-CsDialInConferencingAccessNumber](
 
     Este cmdlet devuelve todos los números de acceso de conferencia de acceso telefónico local que no están asociados a ninguna región.
     
-Para obtener más información, consulte [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
+Para obtener más información, vea [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## <a name="test-webpage-and-access-numbers"></a>Página web y números de acceso de prueba
 
@@ -75,11 +76,10 @@ Para comprobar que la página web Configuración de la conferencia de acceso tel
    User name:  testuser1@contoso.com
    Password:  ********
 Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
-
   ```
 
-    El informe resultante indica si hay errores, junto con la información de diagnóstico específica. -Indicador detallado proporciona más información detallan acerca del acceso a cuántos números se han encontrado y detalles acerca de ellos.
+    El informe resultante indica si hay errores, junto con la información de diagnóstico específica. -Verbose marca proporciona más información detallan sobre el acceso de cuántas se han encontrado números y detalles acerca de ellos.
     
-Para obtener más información, consulte [CsDialInConferencing en la prueba](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps).
+Para obtener más información, consulte [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps).
   
 

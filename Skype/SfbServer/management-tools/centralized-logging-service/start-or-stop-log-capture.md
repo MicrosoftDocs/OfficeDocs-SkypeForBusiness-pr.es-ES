@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Resumen: Obtenga información sobre cómo iniciar o detener una sesión de captura del registro de servicio de registro centralizado en Skype para Business Server 2015.'
-ms.openlocfilehash: 3a66e9320734900c3f944b2a7abce55359a765d8
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: dee3a9cd1b5feaf241795de6595f755b3f321409
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504729"
+ms.locfileid: "19570160"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Iniciar o detener la captura de registros de CLS en Skype Empresarial Server 2015
  
@@ -75,7 +75,6 @@ El servicio de registro centralizado proporciona dos formas para emitir comandos
     
   ```
   Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
-
   ```
 
     La correcta ejecución de este escenario devuelve un resultado similar al siguiente:
