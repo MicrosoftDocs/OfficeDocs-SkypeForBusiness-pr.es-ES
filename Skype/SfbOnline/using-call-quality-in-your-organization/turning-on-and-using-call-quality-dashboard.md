@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Vea cómo activar y usar el Skype para profesionales Online panel calidad de llamadas y obtener informes de resumen de calidad de las llamadas. '
-ms.openlocfilehash: 966dc71705344b1cece9b0e706539d64df95bf50
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 856cf70085bbd0c7ca5cd5e253aec991bb970d62
+ms.sourcegitcommit: dfcdb18d0eb3205ef9180f048674f586aac92de0
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501272"
+ms.locfileid: "19570320"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activar y con el panel de calidad de llamadas para Microsoft Teams y Skype para profesionales en línea
 
@@ -250,7 +250,7 @@ Si desea ver las dimensiones y medidas para un tipo de medio único, la nueva di
 
 [Análisis de uso de llamadas para solucionar problemas de calidad de la llamada deficiente](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Análisis de Cll y panel de calidad de llamada](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Análisis de llamada y el panel de calidad de llamada](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  
