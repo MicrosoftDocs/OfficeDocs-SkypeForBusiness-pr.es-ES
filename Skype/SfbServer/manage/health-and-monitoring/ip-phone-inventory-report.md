@@ -9,20 +9,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
-description: 'Resumen: Conozca el informe de inventario de teléfono IP en Skype para Business Server 2015.'
-ms.openlocfilehash: a161fae573a10f8da875736387284f0771a363e9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Información sobre el informe de inventario de teléfono IP en Skype para Business Server 2015.'
+ms.openlocfilehash: fd68e94f9d4c30aafb86302d8211b52909f737db
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569557"
 ---
 # <a name="ip-phone-inventory-report-in-skype-for-business-server-2015"></a>Informe de inventario de teléfono IP en Skype Empresarial Server 2015
  
-**Resumen:** Obtener información sobre el informe de inventario de teléfono IP en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre el informe de inventario de teléfono IP en Skype para Business Server 2015.
   
 El informe de inventario de teléfono IP ofrece información sobre los teléfonos IP que la organización usa actualmente. El informe proporciona una lista detallada de los teléfonos IP que realmente se usaron durante el período de informes especificado. Entre otros datos, este informe permite que los administradores conozcan si aún hay teléfonos antiguos obsoletos en uso que se necesiten reemplazar. También puede advertir a los administradores sobre la presencia de teléfonos costosos que casi no se usan en la organización. Ese tipo de información puede resultar valiosa en el momento de comprar teléfonos nuevos o de redistribuir los teléfonos existentes. (Por ejemplo, se le puede pedir a un usuario que rara vez usa su costoso teléfono que lo intercambie con un usuario que usa el suyo con mucha más frecuencia).
   
-Es preciso tener en cuenta que este informe presenta algunas limitaciones cuando se usa como un informe de inventario real. En primer lugar, el informe de teléfono IP muestra una lista con todos los teléfonos que ha iniciado sesión en Skype para Business Server durante el período de tiempo especificado, ordenados por su última hora de inicio de sesión. Si un teléfono no inició sesión durante el período especificado, no aparecerá en el informe de inventario. Eso incluye los teléfonos que iniciaron sesión antes de que comenzara el período y que seguían conectados durante el intervalo especificado. Por ejemplo, supongamos que desea ver el inventario de teléfonos completo de julio de 2015. Así, suponga que varios teléfonos conectado a Skype para Business Server en el 30 de junio de 2015 y se sigue conectados a partir del 1 de julio. Esos teléfonos no se mostrarán en el informe de inventario del 1 de julio.
+Es preciso tener en cuenta que este informe presenta algunas limitaciones cuando se usa como un informe de inventario real. En primer lugar, el informe de teléfono IP simplemente se enumeran todos los teléfonos que inició sesión en Skype para Business Server durante el período de tiempo especificado, ordenadas por su última hora de inicio de sesión. Si un teléfono no inició sesión durante el período especificado, no aparecerá en el informe de inventario. Eso incluye los teléfonos que iniciaron sesión antes de que comenzara el período y que seguían conectados durante el intervalo especificado. Por ejemplo, supongamos que desea ver el inventario de teléfonos completo de julio de 2015. Así, suponga que varios teléfonos iniciado Skype para Business Server en el 30 de junio de 2015 y que aún se han iniciado sesión a partir de 1 º de julio. Esos teléfonos no se mostrarán en el informe de inventario del 1 de julio.
   
 También es importante tener en cuenta que el informe de inventario puede incluir teléfonos que la organización ya no usa. Por ejemplo, supongamos que diferentes teléfonos de Fabrikam iniciaron sesión en el sistema el miércoles, 01 de julio de 2015. Cinco días después, la organización se deshizo de todos esos teléfonos de Fabrikam y los reemplazó por un modelo más nuevo de Contoso. Los teléfonos de Fabrikam seguirán apareciendo en el informe de "inventario" porque iniciaron sesión en el sistema durante el mes de julio.
   
@@ -46,7 +47,7 @@ $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Na
 
 Se devolverán datos similares a estos:
   
-```
+<pre>
 Count    Name
 -----    ----
   267    POLYCOM, CX700
@@ -60,8 +61,7 @@ Count    Name
    11    Microsoft, CPE_A
     9    POLYCOM, CX500
     7    Aastra, 6721ip
-
-```
+</pre>
 
 De modo similar, estos dos comandos indican qué teléfonos iniciaron sesión en el sistema, pero nunca se usaron en realidad para hacer llamadas (el valor de la métrica Última actividad está en blanco, lo que indica que no hubo ninguna actividad reciente):
   
@@ -72,7 +72,7 @@ $phones | Where-Object {$_."Last activity" -eq ""}
 
 Se devuelven datos similares a estos para cada teléfono que no se usó:
   
-```
+<pre>
 Manufacturer     : POLYCOM
 Hardware version : CX600
 MAC address      : 00-04-F2-00-01-76
@@ -81,7 +81,7 @@ User agent       : CPE/4.0.7423.1 OCPhone/4.0.7423.1 (Microsoft Lync 2010 (Beta)
 Last logon time  : 8/30/2010 4:44:48 PM
 Last logoff time : 8/30/2010 5:59:07 PM
 Last activity    :
-```
+</pre>
 
 Otra forma interesante de usar el informe de inventario de teléfono IP es la siguiente: si tiene la dirección MAC de un teléfono IP, puede conocer quién usó el teléfono por última vez con solo escribir esa dirección en el cuadro de texto Dirección MAC. El informe luego mostrará, entre otros datos, la dirección SIP del usuario que inició sesión con ese teléfono por última vez. También puede escribir la dirección SIP de un usuario (en el cuadro Prefijo de URI de usuario) para conocer todos los teléfonos que usó ese determinado usuario.
   
@@ -91,14 +91,14 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
   
 En la siguiente tabla verá una lista de los filtros que puede usar con el informe de inventario de teléfono IP.
   
-**Filtros de informe de inventario de teléfono IP**
+**Filtros del informe de inventario de teléfono IP**
 
 |**Nombre.**|**Descripción**|
 |:-----|:-----|
 |**De** <br/> |Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio como se indica a continuación:  <br/> 07/07/2015 13:00  <br/> Si no escribe una hora de inicio, el informe se iniciará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 07/07/2015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 03/07/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/> |
 |**Hasta** <br/> |Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización como se indica a continuación:  <br/> 07/07/2015 13:00  <br/> Si no escribe una hora de finalización, el informe finalizará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 07/07/2015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 03/07/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/> |
 |**Fabricante** <br/> |Nombre de la empresa que fabricó el teléfono IP. Los valores de este filtro se rellenan automáticamente a partir de los teléfonos IP que hay actualmente en la base de datos.  <br/> |
-|**Versión de hardware** <br/> |Número de versión del teléfono IP; mediante el uso de los fabricantes y los filtros de la versión de Hardware puede inequívocamente identidad un determinado tipo de teléfono. Los valores de este filtro se rellenan automáticamente a partir de los teléfonos IP que hay actualmente en la base de datos.  <br/> |
+|**Versión de hardware** <br/> |Número de versión del teléfono IP; mediante el fabricante y los filtros de la versión de Hardware puede identifica de forma exclusiva identidad un tipo concreto de teléfono. Los valores de este filtro se rellenan automáticamente a partir de los teléfonos IP que hay actualmente en la base de datos.  <br/> |
 |**Agente de usuario** <br/> |Identificador del software del teléfono IP. Los valores de este filtro se rellenan automáticamente a partir de los teléfonos IP que hay actualmente en la base de datos.  <br/> |
 |**Dirección MAC** <br/> |Identificador único de la interfaz de red del teléfono IP. La dirección Media Access Control (MAC) suele asignarse en el momento de fabricar el teléfono y está preprogramada en el hardware del dispositivo.  <br/> Para buscar registros correspondientes a una dirección MAC concreta, basta con escribir esa dirección. Por ejemplo:  <br/> 00-08-5D-16-16-48  <br/> Necesita escribir la dirección completa. Si escribe parte de una dirección (por ejemplo, 00-08-5D), no obtendrá ningún resultado.  <br/> |
 |**Días anteriores a la última actividad** <br/> | Seleccione uno de los siguientes valores: <br/>  [Todas] <br/>  10 <br/>  20 <br/>  30 <br/> |
@@ -109,9 +109,9 @@ En la siguiente tabla verá una lista de los filtros que puede usar con el infor
 
 En la tabla siguiente se muestra la información proporcionada en el informe de inventario de teléfono IP.
   
-**Métricas de informe de inventario de teléfono IP**
+**Métricas del informe de inventario de teléfono IP**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Puede ordenar por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Fabricante** <br/> |Sí  <br/> |Nombre de la empresa que fabricó el teléfono IP.  <br/> |
 |**Versión de hardware** <br/> |Sí  <br/> |Número de versión del teléfono IP.  <br/> |
@@ -119,7 +119,7 @@ En la tabla siguiente se muestra la información proporcionada en el informe de 
 |**URI de usuario** <br/> |Sí  <br/> |Dirección SIP del usuario que usó el teléfono IP.  <br/> |
 |**Agente de usuario** <br/> |Sí  <br/> |Identificador del software del teléfono IP.  <br/> |
 |**Hora del último inicio de sesión** <br/> |Sí  <br/> |Fecha y hora en que el teléfono IP último inicio de sesión Skype para Business Server.  <br/> |
-|**Hora del último cierre de sesión** <br/> |Sí  <br/> |Fecha y hora en que el teléfono IP última salido del Skype para Business Server.  <br/> |
+|**Hora del último cierre de sesión** <br/> |Sí  <br/> |Fecha y hora en que el teléfono IP por última vez cerró en Skype para Business Server.  <br/> |
 |**Última actividad** <br/> |Sí  <br/> |Fecha y hora en que se usó por última vez el teléfono IP.  <br/> |
    
 
