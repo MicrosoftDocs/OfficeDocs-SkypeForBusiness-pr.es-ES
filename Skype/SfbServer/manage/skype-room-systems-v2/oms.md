@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 description: 'En este artículo se comenta cómo se administran los dispositivos de Sistemas de salas de Skype v2 de una forma integrada y descentralizada mediante Microsoft Operations Management Suite. '
-ms.openlocfilehash: 4290e89f2a5faba6fa4efdfb48e57345bc0c35f5
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: b77f7216593d30c843eb49fd8879a83b5b0025c8
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504239"
 ---
 # <a name="manage-skype-room-systems-v2-devices-with-oms"></a>Administración de los dispositivos de Sistemas de salas de Skype v2 con OMS
  
@@ -40,11 +41,8 @@ Si conoce estas descripciones de eventos, le servirán como alertas para saber r
 |4000  <br/> Información  <br/> |Es un evento de reinicio de aplicación. Cada vez que se reinicia la aplicación, este evento aparece en el registro de eventos de Windows.  <br/> | {"Description":"App restarts.","ResourceState":"Healthy","OperationName":"Restart","OperationResult":"Pass","OS":"Windows 10","OSVersion":"10.0.14393.693","Alias":"alias@domain.com","DisplayName":"Display Name","AppVersion":"1.0.38.0","IPv4Address":"10.10.10.10","IPv6Address":"ip v6 address"} <br/> La aplicación de Skype Empresarial se puede reinicar por diversos motivos. Compare la frecuencia de reinicio de los dispositivos que se encuentran en el mismo edificio y en distintos edificios, teniendo en cuenta algunos problemas conocidos, como los fallos y las fluctuaciones en la energía, ya que esto podría indicar que existen problemas en la infraestructura. <br/> |
    
 ## <a name="see-also"></a>Vea también
-<a name="Telemetry"> </a>
-
-#### 
+<a name="Telemetry"></a>
 
 [Planeación de la administración de sistemas de salón de Skype v2 con OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
   
 [Implementar la administración de sistemas de salón de Skype v2 con OMS](../../deploy/deploy-clients/with-oms.md)
-

@@ -20,17 +20,18 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 96878a2deb9a75ab0c927c2e1cd2c9e4dd34c2bd
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 7303a87d263148f091d6cd2f1b44d79a4b9c0ae8
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500514"
 ---
 # <a name="peer-to-peer-activity-report"></a>Informe de actividad de punto a punto
 
 [] El nuevo panel **Informes** de Office 365 muestra la información general de actividad en los productos de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto. Por ejemplo, puede usar el informe de **Skype para la actividad de punto a punto** para ver cuánto los usuarios utilizan mensajería instantánea, aplicación de audio, vídeo, uso compartido y la transferencia de archivos. 
 
-Desproteja la [información general de informes](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+Revise la [información general de informes](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
   
 Este informe, junto con los otro Skype para los informes de negocio, proporciona detalles sobre la actividad en toda la organización. Estos detalles son muy útiles para investigar, planificar y tomar otras decisiones empresariales para su organización. 
   
@@ -57,8 +58,9 @@ Puede obtener una vista de su actividad punto a punto de Skype Empresarial en lo
 ***
 ![Número 1](../images/sfbcallout1.png)<br/>El informe de **actividad punto a punto de Skype Empresarial** se puede usar para ver las tendencias de los últimos 7 días, 30 días, 90 días o 180 días. Sin embargo, si hace clic en un día determinado en el informe, en la tabla (consulte: número 7) mostrará datos durante 30 días, hasta la fecha (vea número 2) para cuando se generó el informe.
 
-    > [!Note]
-    > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
+> [!NOTE]
+> Si hace clic en los detalles de un día específico, en la tabla sólo muestra los datos de los 30 días hasta la fecha de cuando se generó el informe.
+
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>Cada informe tiene la fecha del momento en que se generó. Normalmente, los informes reflejan una latencia de 24 a 48 horas de tiempo de actividad. 
 ***

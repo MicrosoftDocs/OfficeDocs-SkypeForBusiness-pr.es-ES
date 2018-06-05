@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Lea este tema para obtener más información sobre cómo configurar cuentas para sistemas de salón de Skype v2 en Exchange e Skype para Business Server 2015.
-ms.openlocfilehash: 6efd8f32a19ff54958583e11e7910fb17a882953
-ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
+ms.openlocfilehash: 1aa6c3d9ca8d80f054550cfa167a7a75e032ef0f
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501379"
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>Configurar cuentas para sistemas de salón de Skype v2
  
@@ -80,8 +81,6 @@ Es la mejor forma de configurar las cuentas de usuario configurarlos con Windows
 Si prefiere usar la interfaz de usuario de Office 365 a través de los cmdlets de Windows PowerShell, pueden realizar manualmente algunos pasos. Consulte [creación de una cuenta de dispositivo con Office 365](https://technet.microsoft.com/itpro/surface-hub/create-a-device-account-using-office-365).
   
 ## <a name="see-also"></a>Vea también
-
-#### 
 
 [Planeación de la sala de Skype v2 de sistemas](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   

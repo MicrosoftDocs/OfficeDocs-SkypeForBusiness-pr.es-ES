@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: En este artículo se explica cómo implementar la administración de dispositivos de sistemas de salón de Skype v2 de manera integrada, end-to-end con el conjunto de aplicaciones de administración de operaciones de Microsoft.
-ms.openlocfilehash: 7d8dc8a7e7f5a74c68fbc7bf5ecb98664c2b02ad
-ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
+ms.openlocfilehash: b0e43360b92b2ac8fdc32794a03942ec5c7755dc
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501035"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>Implementar la administración de Sistemas de salas de Skype v2 con OMS
  
@@ -495,7 +496,6 @@ Conjunto de aplicaciones de administración de operaciones proporciona solucione
 
 ## <a name="see-also"></a>Vea también
 
-#### 
 [Planeación de la administración de sistemas de salón de Skype v2 con OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
   
 [Administrar dispositivos de sistemas de salón de Skype v2 con OMS](../../manage/skype-room-systems-v2/oms.md)

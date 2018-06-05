@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Resumen: Obtenga información sobre cómo implementar la supervisión en Skype para Business Server 2015.'
-ms.openlocfilehash: a25165add0ca6f9acd08e77efeda42cf7a8819ef
-ms.sourcegitcommit: 4eae947e339e728e5e1f338677860b910aafc029
+ms.openlocfilehash: 8f96fa2b240bc41e83de8e618114d948127c6c55
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19502020"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server-2015"></a>Implementar la supervisión en Skype Empresarial Server 2015
  
@@ -95,7 +96,5 @@ Si lo prefiere, también puede habilitar la supervisión QoE desde dentro de la 
 Tal como hemos visto, los ejemplos anteriores muestran cómo habilitar la supervisión de forma global; es decir, permiten habilitar la supervisión de CDR y QoE en toda la organización. De forma alternativa, puede separar las opciones de configuración de CDR y QoE en el sitio para habilitar o deshabilitar la supervisión en cada sitio. Por ejemplo, puede habilitar la supervisión de CDR para el sitio de Redmont y deshabilitarla para el sitio de Dublín. Para obtener más información acerca de cómo administrar las opciones de configuración de supervisión, consulte el tema de la Guía de implementación [Configure de detalles de las llamadas y la configuración de calidad de la experiencia de Skype para Business Server 2015](call-detail-recording-and-qoe.md).
   
 ## <a name="see-also"></a>Vea también
-
-#### 
 
 [Planeación de la supervisión en Skype para Business Server 2015](../../plan-your-deployment/monitoring.md)

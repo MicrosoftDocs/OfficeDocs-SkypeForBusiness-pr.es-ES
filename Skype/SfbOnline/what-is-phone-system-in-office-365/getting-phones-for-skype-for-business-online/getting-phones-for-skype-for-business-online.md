@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: 894637bbde15a80f377098e61d1eba77fbef4bf2
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: c58f9c6fe4174f58f4c430fe121cd071a0b5b9a5
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2018
-ms.locfileid: "19137567"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19494016"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obtener teléfonos con Skype Empresarial Online
 
@@ -78,7 +78,7 @@ Skype para profesionales Online no requiere ninguna licencia adicional de Micros
   
 Fabricante de los modelos de licencia puede variar entre open SIP y Skype para firmware de certificación empresarial. Si va a reutilizar un modelo certificado con un firmware SIP abierto, tendrá que verificar los requisitos de la licencia con el fabricante.
   
-## <a name="skype-for-business-online-connected-phones-feature-set"></a>Conjunto de características de los teléfonos conectados para Skype Empresarial Online
+## <a name="skype-for-business-online-connected-phones-feature-set"></a>Skype para conjunto de características de teléfonos empresariales en línea conectados
 
 Para funciones y características del dispositivo completa, compruebe las guías de usuario del fabricante.
   
@@ -106,9 +106,10 @@ Para funciones y características del dispositivo completa, compruebe las guías
 |Integración de imagen de contacto  <br/> |No  <br/> |Sí  <br/> |No  <br/> |Sí  <br/> |
 ||||||
 
-    > [!NOTE]
-    > CX 600 or any other Aries phones don't support multifactor authentication (MFA). If you force MFA, these devices will fail to sign-in. These devices must use only Org ID for authetication.
-   
+     
+> [!NOTE]
+> CX 600 o cualquier otros teléfonos Aries no admiten la autenticación multifactor (MFA). Si fuerza MFA, estos dispositivos se producirá un error en el inicio de sesión. Estos dispositivos deben utilizar sólo el identificador de organización para la autenticación.
+ 
 ## <a name="what-else-should-you-know"></a>¿Qué más tengo que saber?
 Para obtener instrucciones detalladas, consulte [Implementación de teléfonos de Skype Empresarial Online](deploying-skype-for-business-online-phones.md).
 

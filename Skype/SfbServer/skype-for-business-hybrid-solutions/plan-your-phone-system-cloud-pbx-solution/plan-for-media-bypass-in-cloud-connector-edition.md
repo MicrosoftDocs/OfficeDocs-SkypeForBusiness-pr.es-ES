@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Lea este tema para revisar las consideraciones de planificación a la hora de implementar la omisión de medios con la versión 2.0 de Cloud Connector Edition y las versiones posteriores. Para obtener información sobre la implementación de medios desvío, consulte Deploy medios de desvío en la nube conector Edition.
-ms.openlocfilehash: a2dfca68d7bfe02ae0701dc13d76bc24121a1cb8
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0cf79a256030635ccab92653f8f7b40b5ba0b555
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504568"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Plan para la omisión de medios en Cloud Connector Edition
  
@@ -111,7 +112,4 @@ Con la omisión de medios habilitada, el tráfico de los medios entre un cliente
   
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Implementar el desvío de medios en la nube conector Edition](deploy-media-bypass-in-cloud-connector.md)
-

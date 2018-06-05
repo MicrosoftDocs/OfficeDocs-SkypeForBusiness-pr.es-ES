@@ -19,11 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar el sistema telefónico (PBX en la nube) para su organización. '
-ms.openlocfilehash: 3092442f9b2421bb0dc8a7a6ac7683761176d64c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 26ffa60322c4b3f37b8f524c43efdf9a74cb1305
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501044"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Configurar el sistema telefónico en la organización
 
@@ -39,7 +40,7 @@ La siguiente es una guía paso a paso para configurar el sistema telefónico en 
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>Paso 2: Comprar y asignar licencias de sistema telefónico y planeación de la llamada
 
-Para asignar una licencia de sistema telefónico y planeación de la llamada a un solo usuario los pasos son los mismos que asignar una licencia de Office 365. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Si desea asignar a varios usuarios de forma masiva, vea (.. / skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+Para asignar una licencia de sistema telefónico y planeación de la llamada a un solo usuario los pasos son los mismos que asignar una licencia de Office 365. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Si desea asignar a varios usuarios de forma masiva, vea [Asignar Skype para licencias de negocio y equipos de Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
 ## <a name="step-3-get-phone-numbers-for-your-users"></a>Paso 3: Obtener los números de teléfono para los usuarios
 
@@ -53,7 +54,10 @@ Existen tres maneras de obtener números para los usuarios:
 Debe usar la página **Números nuevos** para ver, buscar, adquirir y reservar dichos números. Puede buscar por país o región, estado y ciudad y, a continuación, escriba el número de números de teléfono que se necesita para los usuarios. 
 
 ### <a name="get-new-user-phone-numbers"></a>Obtener los nuevos números de teléfono del usuario 
-  
+ 
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
+
+ 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
 2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
@@ -77,6 +81,9 @@ A veces (dependiendo de su país o región) no podrá obtener sus números de nu
 Además de obtener los números de teléfono para los usuarios de Office 365, puede buscar y adquirir el teléfono de pago o números de teléfono gratuito para servicios como conferencias de audio (para el puente de conferencia), operadores automáticos y colas de llamadas (también denominadas números de servicio). Los números de teléfono de servicio tienen una mayor capacidad de llamadas simultáneas que los números de teléfono de usuario o suscriptor. Por ejemplo, un número de servicio puede controlar 100s de llamadas simultáneamente, mientras que el número de teléfono de un usuario sólo puede controlar algunas llamadas simultáneamente.
 
 ### <a name="get-new-service-numbers"></a>Obtener nuevos números de servicio
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
+
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
@@ -262,7 +269,7 @@ Debe configurar Communications créditos si le gustaría usar números gratuitos
     
 3. En el panel de acciones, en **Licencia asignada**, haga clic en **Editar**.
     
-4. En la página **licencias de producto** , alternar ** Communications créditos ** **en** para asignar esta licencia y, a continuación, haga clic en **Guardar**.
+4. En la página **licencias de producto** , alternar **Communications créditos** **en** para asignar esta licencia y, a continuación, haga clic en **Guardar**.
     
     > [!NOTE]
     > Incluso si tiene usuarios que tengan asignados una licencia **Enterprise E5** , sigue siendo recomendable hacer esto.

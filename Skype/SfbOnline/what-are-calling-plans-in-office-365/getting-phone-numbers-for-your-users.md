@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
-ms.openlocfilehash: ff7716a057ee2b3bb27b01a4912f718d28e3739b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a4ede7e5bac4b7e1fe5931f404a6d2c9e4f63056
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500867"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtener números de teléfono de Skype Empresarial para los usuarios
 
@@ -44,6 +45,8 @@ Debe usar la página **Números nuevos** para ver, buscar, adquirir y reservar d
 > Si necesita ayuda para configurar los números de teléfono para su organización, puede [ponerse en contacto con el servicio de asistencia al cliente](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>Obtener números de teléfono nuevos para los usuarios
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
   
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
@@ -81,6 +84,8 @@ Debe usar la página **Números nuevos** para ver, buscar, adquirir y reservar d
 - Si tiene más de 999 números de teléfono de los que necesita realizar la portabilidad, consulte [Enviar manualmente una solicitud de servicio personalizado](manually-submit-a-custom-service-request.md) para enviar una solicitud de portabilidad del servicio o solicitar que todos esos números de teléfono se transfieran a Office 365.
     
 ## <a name="show-phone-numbers-for-your-organization"></a>Mostrar los números de teléfono para su organización
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     

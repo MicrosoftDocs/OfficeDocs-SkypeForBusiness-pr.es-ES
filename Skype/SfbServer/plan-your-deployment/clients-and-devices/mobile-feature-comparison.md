@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: 'Resumen: Revise la compatibilidad con la característica para el cliente móvil durante la planeación de Skype para Business Server 2015.'
-ms.openlocfilehash: 3ec2662915b72993de41b2398355bb4010810b3d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b4e7e0bd186a3622c8f6fdf671799efdd8ab792d
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504302"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Comparación de características de cliente móvil de Skype para la empresa
  
@@ -166,7 +167,7 @@ En dispositivos iOS, Skype para la empresa cierra la sesión automáticamente de
 |Navegar por una lista de reuniones personales  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Unirse a una reunión, incluso si no tienen un Skype para la cuenta de empresa  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Ver más información sobre los participantes de la reunión  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
-|Iniciar una conversación grupal no programada con varios participantes directamente desde su cliente o dispositivo   <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Iniciar una conversación grupal no programada con varios participantes directamente desde su cliente o dispositivo   <br/> |& #x 2714;|& #x 2714;|& #x 2714;||
    
  & #x 2776;  Para los usuarios de Office 365, esta característica requiere Enterprise Voice, que forma parte de la licencia de E5.
   

@@ -18,11 +18,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: ed65aaed214a35b961c9c13c0d789a224e41258f
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 7917920c0eeaf5b5e0c1f31ee4eca9bafed10c85
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500785"
 ---
 # <a name="conference-organizer-activity-report"></a>Informe de actividad del organizador de la conferencia
 
@@ -55,8 +56,9 @@ Puede obtener una vista en su Skype para conferencias de empresa que se han orga
 ***
 ![Número 1](../images/sfbcallout1.png)<br/>El informe de **Actividad de organizador de conferencias de Skype Empresarial** puede visualizarse para las tendencias de los últimos 7 días, 30 días, 90 días o 180 días. Sin embargo, si hace clic en un día determinado en el informe, en la tabla (consulte: número 7) mostrará datos durante 30 días, hasta la fecha (vea número 2) para cuando se generó el informe.
 
-    > [!Note]
-    > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
+> [!NOTE]
+> Si hace clic en los detalles de un día específico, en la tabla sólo muestra los datos de los 30 días hasta la fecha de cuando se generó el informe.
+
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>Cada informe tiene la fecha del momento en que se generó. Normalmente, los informes reflejan una latencia de 24 a 48 horas de tiempo de actividad. 
 ***
@@ -79,7 +81,9 @@ En ambos gráficos, el eje X es el intervalo de fechas seleccionado para este in
 ![Número 8](../images/sfbcallout8.png)<br/>La tabla muestra un desglose por usuario de las actividades de conferencia que se han organizado por usuario. Se muestran todos los usuarios que tienen Skype Empresarial asignado y las conferencias que han organizado. Puede agregar columnas adicionales a la tabla. 
 *    **Nombre de usuario** es el nombre del usuario. 
 *    **Eliminado** indica que se ha quitado la licencia del usuario.<br/><br/>
-     **Nota:**  Actividad para un usuario eliminado seguirá mostrándose en un informe como navegará se concede bajo licencia en algún momento durante el período de tiempo seleccionado. La columna **Eliminado** ayuda a ver que el usuario ya no está activo, pero que ha contribuido a los datos del informe.<br/> <br/>
+    > [!NOTE]
+    > Actividad para un usuario eliminado seguirá mostrándose en un informe como navegará se concede bajo licencia en algún momento durante el período de tiempo seleccionado. La columna **Eliminado** ayuda a ver que el usuario ya no está activo, pero que ha contribuido a los datos del informe.
+     
 *    **Fecha de eliminación** es la fecha en que se quitó la licencia del usuario. 
 *    **Fecha de última actividad (UTC)** es la fecha de última actividad (UTC) del usuario. 
 *    **MI** muestra el número total de conferencias de MI que se han organizado. 

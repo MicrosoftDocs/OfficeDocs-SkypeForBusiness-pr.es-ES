@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Resumen: Elija la topología de Skype para Business Server 2015. Obtenga información sobre la combinación de servidor de Skype para Business Server 2015.'
-ms.openlocfilehash: aec5cc781e571361f80b84fafd9d101dd8a97c19
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d7760ecc2998bdb2ace400cfaeec6eddaf5fcb5b
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504526"
 ---
 # <a name="topology-basics-for-skype-for-business-server-2015"></a>Conceptos básicos de topología de Skype Empresarial Server 2015
  
@@ -283,7 +284,4 @@ El recurso compartido de archivos puede estar en un servidor separado o puede co
     
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Topologías de referencia de Skype para Business Server 2015](reference-topologies.md)
-

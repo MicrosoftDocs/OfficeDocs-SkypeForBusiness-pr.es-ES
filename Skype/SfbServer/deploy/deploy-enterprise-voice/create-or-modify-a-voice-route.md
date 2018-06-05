@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: 'Resumen: Obtenga información sobre cómo crear o modificar una ruta de voz de Skype para Business Server 2015 mediante el Skype para el Panel de Control de servidor empresarial.'
-ms.openlocfilehash: a999cf8ce068aeca217995bf9f8b0395beaa1d2b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 7c1bd9e118d95e89111225e49d2e07e921d8f33c
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500936"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business-2015"></a>Crear o modificar una ruta de voz en Skype Empresarial 2015
  
@@ -122,11 +123,8 @@ ms.lasthandoff: 05/03/2018
   
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Ver registros de uso de RTC de Skype para profesionales de 2015](view-pstn-usage-records.md)
   
 [Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para profesionales de 2015](voice-policy-and-pstn-usage-records.md)
   
 [Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para profesionales de 2015](voice-route-config-changes.md)
-

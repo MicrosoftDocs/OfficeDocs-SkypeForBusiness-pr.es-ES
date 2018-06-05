@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Resumen: Crear o modificar directivas de voz y configurar registros de uso de RTC mediante la Skype para el Panel de Control de servidor empresarial.'
-ms.openlocfilehash: fc1d60cb66dd0cf73c63b9896f153bb83c8fec24
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 69904c28d8121cd8416b547e17fcad866260a319
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501052"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business-2015"></a>Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype Empresarial 2015
  
@@ -335,8 +336,6 @@ ms.lasthandoff: 05/03/2018
     
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Ver registros de uso de RTC de Skype para profesionales de 2015](view-pstn-usage-records.md)
   
 [Crear o modificar una ruta de voz de Skype para profesionales de 2015](create-or-modify-a-voice-route.md)
@@ -344,4 +343,3 @@ ms.lasthandoff: 05/03/2018
 [Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para profesionales de 2015](voice-route-config-changes.md)
   
 [Configurar escape de correo de voz de Skype para profesionales de 2015](configure-voice-mail-escape.md)
-

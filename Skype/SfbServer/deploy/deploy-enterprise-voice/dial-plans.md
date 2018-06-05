@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 'Resumen: Obtenga información sobre cómo crear o modificar un plan de marcado mediante el Skype para el Panel de Control de servidor empresarial.'
-ms.openlocfilehash: 573633d6281cf6abe966e90f38f99a4f96e25604
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9ded641ead3aef5cb6b42b27ca06da34ba9133c6
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501066"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server-2015"></a>Crear o modificar un plan de marcado de Skype Empresarial Server 2015
  
@@ -156,7 +157,4 @@ ms.lasthandoff: 05/03/2018
   
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para profesionales de 2015](voice-route-config-changes.md)
-

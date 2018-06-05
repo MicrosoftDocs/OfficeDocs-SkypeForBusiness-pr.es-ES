@@ -16,11 +16,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: f180dc41bb76c8ceba0ce657232b543afebd5e6b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: fdb0b7585c2462b64d4735bc4c59d9020e6466e3
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500765"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Probar la instalación de Skype Empresarial Online
 
@@ -47,7 +48,7 @@ Esto es lo que necesita:
 ## <a name="set-up-test-accounts"></a>Configurar cuentas de prueba
 <a name="__toc328126910"> </a>
 
-1. Vaya a **Administrador** > **Office 365** > **Usuarios y grupos**, luego agregue![Agregar](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) y escriba la información requerida.
+1. Vaya a **administración** > **Office 365** > **a los usuarios y grupos**y, a continuación, seleccione agrega![agregar](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) y escriba la información necesaria.
     
 2. Cuando llegue al Paso 4 (correo electrónico), escriba su propia dirección de correo electrónico. Tendrá entonces un registro del nombre y la contraseña del nuevo usuario. 
     
@@ -75,7 +76,7 @@ Después de configurar los usuarios para las audioconferencias, estos reciben un
   
  **Para agregar información de audioconferencias a la cuenta de uno de los usuarios de prueba**
   
-1. Haga clic en **Audioconferencia** > **Usuarios**.
+1. Haga clic en **conferencias de Audio** > **a los usuarios**.
     
 2. Haga clic en los nombres de los usuarios que desea configurar para conferencias de acceso telefónico y, a continuación, haga clic en **Editar**![Editar](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
     

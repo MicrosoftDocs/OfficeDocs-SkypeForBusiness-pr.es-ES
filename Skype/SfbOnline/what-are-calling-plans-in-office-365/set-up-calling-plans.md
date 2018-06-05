@@ -21,11 +21,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 7ba6ade1e18dd17716a6669d6a97c3150a97a03a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 104b682ebf7b28b09e7f44c75d37cf2874e34c47
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500972"
 ---
 # <a name="set-up-calling-plans"></a>Configurar las llamadas RTC en Skype Empresarial
 Calls to other Skype for Business users are free, but if you want your users to be able to call phones outside of your business, get a Domestic Calling Plan or an International Calling Plan in Office 365. It's easy to set this up for your business. 
@@ -44,7 +45,7 @@ Vaya a la [disponibilidad de país y región para las conferencias de Audio y ll
 ## <a name="step-3-get-phone-numbers"></a>Paso 3: Obtener los números de teléfono
 Hay tres maneras de obtener los nuevos números de usuario:
 
-- **Use el Skype para el centro de administración de negocio.** Para algunos países o regiones, puede obtener números para los usuarios con el Skype para el centro de administración de negocio, vea [Introducción números de teléfono e para los usuarios.](getting-phone-numbers-for-your-users.md).
+- **Use el Skype para el centro de administración de negocio.** Para algunos países o regiones, puede obtener números para los usuarios con el Skype para el centro de administración de negocio, vea la [Introducción de los números de teléfono para los usuarios](getting-phone-numbers-for-your-users.md).
     
 - **Puertos de sus números de existentes.** Puede puerto o transferir los números existentes desde su proveedor de servicio actual o el operador de teléfono para Office 365. Consulte [transferir los números de teléfono a Office 365](transfer-phone-numbers-to-office-365.md) o [administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obtener más información que le ayudarán a hacer esto.  
   
@@ -53,20 +54,36 @@ Hay tres maneras de obtener los nuevos números de usuario:
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>Paso 4: Agregar las direcciones de emergencias y ubicaciones para su organización
 <a name="bkmk_add_addresses"></a> Una dirección de emergencia debe asociarse con un número de teléfono; Cuando sucede esta asociación puede variar entre países y regiones. Por ejemplo, en los Estados Unidos, debe asociar una dirección de emergencia al asignar el número de teléfono al usuario. En el Reino Unido, debe asociar una dirección para el número de teléfono de emergencia al obtener los números de teléfono de Office 365 o transferir los números de teléfono de su proveedor de servicio actual. 
 
-Para agregar una dirección de emergencia para su organización, en el Skype para el centro de administración de negocio vaya a **voz** > **ubicaciones de emergencia** > **Agregar nueva dirección**. Para obtener información detallada, vea [Agregar o quitar y dirección de emergencia para su organización](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md) .
+**Para agregar una dirección de emergencia para la organización**
 
-Para agregar una ubicación de emergencia para su organización, en el Skype para el centro de administración de negocio, vaya a **voz** > **ubicaciones de emergencia** > **Agregar nueva dirección**. Para obtener información detallada, vea [Agregar, cambiar o quitar una ubicación de emergencia para su organización](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md) .
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
+
+En Skype para el centro de administración de negocio, vaya a **voz** > **ubicaciones de emergencia** > **Agregar nueva dirección**. Para obtener información detallada, vea [Agregar o quitar y dirección de emergencia para su organización](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md) .
+
+**Para agregar una ubicación de emergencia para su organización** 
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
+
+En Skype para el centro de administración de negocio, vaya a **voz** > **ubicaciones de emergencia** > **Agregar nueva dirección**. Para obtener información detallada, vea [Agregar, cambiar o quitar una ubicación de emergencia para su organización](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md) .
 
     
 ## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>Paso 5: Asignar una dirección de emergencia y un número de teléfono a un usuario
 <a name="bkmk_add_addresses"></a> Cuando está configurando llamar a planes de Office 365, debe asignar un número de teléfono y dirección de emergencia a cada uno de los usuarios. Debe crear la dirección de emergencia antes de asociarlo con un número de teléfono. 
 
-Para agregar una dirección de emergencia para un usuario, en la Skype para el centro de administración de negocio, vaya a **voz** > **a los usuarios de voz** > **ubicación de emergencia** > **Asignar número** > **cambiar la ubicación**. Para obtener más información, vea [asignar o cambiar una dirección de emergencia para un usuario](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md) .
+**Para agregar una dirección de emergencia para un usuario** 
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
+
+En Skype para el centro de administración de negocio, vaya a **voz** > **a los usuarios de voz** > **ubicación de emergencia** > **Asignar número** > **cambiar la ubicación**. Para obtener más información, vea [asignar o cambiar una dirección de emergencia para un usuario](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md) .
 
    > [!NOTE]
    > También puede asignar una dirección de emergencia cuando se asigna un número de teléfono.
 
-Para asignar un número de teléfono a un usuario, en la Skype para el centro de administración de negocio, vaya a **voz** > **a los usuarios de voz** > **Asignar número** > **cambiar la ubicación**. Para obtener más información, vea [asignar, cambiar o quitar un número de teléfono de un usuario](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md) .
+**Para asignar a un número de teléfono a un usuario**
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
+
+En Skype para el centro de administración de negocio, vaya a **voz** > **a los usuarios de voz** > **Asignar número** > **cambiar la ubicación**. Para obtener más información, vea [asignar, cambiar o quitar un número de teléfono de un usuario](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md) .
 
 ## <a name="step-6-tell-your-users-about-their-new-phone-numbers"></a>Paso 6: Indique a los usuarios acerca de sus números de teléfono nuevo
 <a name="bkmk_add_addresses"> </a>

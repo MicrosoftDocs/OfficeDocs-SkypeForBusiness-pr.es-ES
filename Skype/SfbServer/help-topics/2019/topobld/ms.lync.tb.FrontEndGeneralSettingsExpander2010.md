@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Para editar las propiedades del grupo de servidores Front-End o de servidor Front-End, edición o configurar los siguientes atributos. La página de configuración se divide en las secciones siguientes:'
-ms.openlocfilehash: 11d93e27ab333fc03a65d0d578ca3bbeb933a43a
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 3fcc23cfb794260f79e285e6e49efc7c657e4df0
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19502482"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expansor de configuración General Front-End de Lync Server 2010
  
@@ -97,7 +98,4 @@ Haga clic en **Ayuda** para leer este tema de ayuda.
   
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Definir y configurar un servidor Standard Edition o grupo de servidores Front-End](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)
-

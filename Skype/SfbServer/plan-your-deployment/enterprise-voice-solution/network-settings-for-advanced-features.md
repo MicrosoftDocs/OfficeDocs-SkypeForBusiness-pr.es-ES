@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Información sobre regiones de red, sitios de red y subredes IP. Todos estos deben configurarse para implementar el Plan de desvío de medios en Skype para la empresa 2015, planeación de control de admisión de llamadas en Skype para Business Server 2015), o un Plan de servicios de emergencia en Skype para Business Server 2015 en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: c08ac0a4e5f93c15cc3bfa43bd622381017118be
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e76c88df482dfd5e58d6c0e11449eb6f6242b796
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504099"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server-2015"></a>Configuración de red para las características avanzadas de telefonía IP empresarial en Skype Empresarial Server 2015
  
@@ -69,11 +70,8 @@ Para asociar subredes a sitios de red, puede usar la sección de **Configuració
   
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Planeación de control de admisión de llamadas en Skype para Business Server 2015](call-admission-control.md)
   
 [Planeación de servicios de emergencia en Skype para Business Server 2015](emergency-services.md)
   
 [Planeación de desvío de medios en Skype para profesionales de 2015](media-bypass.md)
-

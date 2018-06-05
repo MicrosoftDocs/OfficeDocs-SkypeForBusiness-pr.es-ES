@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: 'Resumen: Cree un grupo de servidores de interoperabilidad de vídeo en Skype para Business Server 2015 mediante el generador de topología.'
-ms.openlocfilehash: 89fcdf34480bc9b99295993d28e32ca547f07893
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: c66889530bbcc8753e8003667e6ea26589cd5daf
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501705"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server-2015"></a>Crear un grupo de VIS en Skype Empresarial Server 2015
  
@@ -64,11 +65,8 @@ ms.lasthandoff: 05/24/2018
 Todas las tareas realizadas con el Generador de topologías tendrían que finalizar aquí. Continúe con la instalación del software en el nuevo servidor o en los nuevos servidores VIS.
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Implementar el rol de servidor de respecto de Skype para Business Server 2015](deploy-the-vis-server-role.md)
 
 [Planeación de servidor de interoperabilidad vídeo en Skype para Business Server 2015](../../plan-your-deployment/video-interop-server.md)
   
 [Crear y publicar la nueva topología de Skype para Business Server 2015](../../deploy/install/create-and-publish-new-topology.md)
-

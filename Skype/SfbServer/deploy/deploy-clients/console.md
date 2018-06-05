@@ -12,11 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: En este artículo se describe cómo configurar el dispositivo de consola de los Sistemas de sala de Skype v2 y sus periféricos.
-ms.openlocfilehash: 96fb2a88d699ca364f02f24af58d2f17dc555e11
-ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
+ms.openlocfilehash: eed37791c73b2deeb9e5f0605dbf1265d9a1d02d
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501028"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Configurar una consola de Sistemas de salas de Skype v2
  
@@ -236,8 +237,6 @@ Para realizar una comprobación final y asegurarse de que el dispositivo de cons
 ## <a name="see-also"></a>Vea también
 <a name="Checklist"> </a>
 
-#### 
-
 [Planeación de la sala de Skype v2 de sistemas](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [Implementación de salón de Skype v2 de sistemas](room-systems-v2.md)
@@ -245,4 +244,3 @@ Para realizar una comprobación final y asegurarse de que el dispositivo de cons
 [Configurar una consola de v2 de sistemas de salón de Skype](console.md)
   
 [Administración de salón de Skype v2 de sistemas](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-

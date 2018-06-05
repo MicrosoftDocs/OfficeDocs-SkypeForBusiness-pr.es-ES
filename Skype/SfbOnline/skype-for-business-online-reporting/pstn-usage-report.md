@@ -1,5 +1,5 @@
 ---
-title: Informe de uso PSTN
+title: Informe de uso de RTC
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,27 +16,30 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: El nuevo Skype para el área del centro de administración de negocio informes muestra realiza la llamada y audio conferencia actividad en su organización. Permite profundizar en los informes para brindar información más detallada acerca de las actividades de cada usuario. Por ejemplo, puede usar el informe Detalles de uso de RTC de Skype Empresarial para ver el número de minutos dedicados a llamadas entrantes y salientes, así como el coste de dichas llamadas. Puede ver los detalles del uso de PSTN de conferencia de Audio incluyendo el costo de la llamada para que pueda comprender su uso y llame a los detalles de facturación para determinar el uso dentro de la organización.
-ms.openlocfilehash: 6ee6606ae37e02d07e3c3e57ca9fee529b150626
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: El nuevo Skype para el área de informes del centro de administración empresarial muestra realiza la llamada y audio conferencia actividad en la organización. Permite profundizar en los informes para proporciona una idea más granular acerca de las actividades de cada usuario. Por ejemplo, puede usar el informe Detalles de uso de RTC de Skype Empresarial para ver el número de minutos dedicados a llamadas entrantes y salientes, así como el coste de dichas llamadas. Puede ver detalles de uso de RTC de conferencia de Audio incluido el costo de la llamada para que pueda comprender su uso y llamar a los detalles de facturación para determinar el uso dentro de la organización.
+ms.openlocfilehash: e69595c9aa85e181ecc74afbfa949679b4b3f561
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500945"
 ---
-# <a name="pstn-usage-report"></a>Informe de uso PSTN
+# <a name="pstn-usage-report"></a>Informe de uso de RTC
 
-El nuevo Skype para el área de **informes** del centro de administración de negocios muestra realiza la llamada y audio conferencia actividad en su organización. Permite profundizar en los informes para brindar información más detallada acerca de las actividades de cada usuario. Por ejemplo, puede usar el informe **Detalles de uso de RTC de Skype Empresarial** para ver el número de minutos dedicados a llamadas entrantes y salientes, así como el coste de dichas llamadas. Puede ver los detalles del uso de PSTN de conferencia de Audio incluyendo el costo de la llamada para que pueda comprender su uso y llame a los detalles de facturación para determinar el uso dentro de la organización.
+El nuevo Skype para el área de **informes** del centro de administración empresarial muestra realiza la llamada y audio conferencia actividad en la organización. Permite profundizar en los informes para proporciona una idea más granular acerca de las actividades de cada usuario. Por ejemplo, puede usar el informe **Detalles de uso de RTC de Skype Empresarial** para ver el número de minutos dedicados a llamadas entrantes y salientes, así como el coste de dichas llamadas. Puede ver detalles de uso de RTC de conferencia de Audio incluido el costo de la llamada para que pueda comprender su uso y llamar a los detalles de facturación para determinar el uso dentro de la organización.
   
-Consulte la [información general de informes](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para informes más que están disponibles.
+Revise la [información general de informes](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para obtener más informes que están disponibles.
   
-Este informe, junto con lo otro Skype para los informes de negocios, ofrece detalles sobre la actividad incluyendo llamada uso en toda la organización. Estos detalles son muy útiles cuando usted investigando, planear y realizar otros negocios las decisiones para su organización y para la configuración de [comunicaciones créditos](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
+Este informe, junto con los otro Skype para los informes de negocio, proporciona detalles sobre la actividad incluyendo llamar al uso en toda la organización. Estos detalles son muy útiles cuando se investigar, planear y realizar otros profesionales las decisiones durante la para su organización y para la configuración de [comunicaciones créditos](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
   
 > [!NOTE]
 > Podrá ver todos los informes de Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Office 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Cómo acceder al informe Detalles de uso de RTC de Skype Empresarial
 
-- Ir al **Centro de administración de Office 365** > **centra Admin** > **Skype para el centro de administración de negocios** > **informes** > **Detalles de uso de RTC**.
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
+
+- Vaya al **Centro de administración de Office 365** > **centros de administración** > **Skype para el centro de administración de negocio** > **informes** > **Detalles de uso de RTC**.
     
     > [!NOTE]
     > Según la suscripción de Office 365 que tenga, puede que no vea todos los productos ni los informes que se muestran aquí. 
@@ -50,67 +53,67 @@ Este es el aspecto del informe.
 ![Informe de uso de RTC de Skype Empresarial](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)
 
 ***
-![Número 1](../images/sfbcallout1.png)<br/>La tabla muestra un desglose de todo el uso de RTC por usuario. Muestra todos los usuarios con Skype para empresas asignados a ellos y su uso de RTC. Puede agregar o quitar columnas en la tabla.
-*    **Call ID** es el identificador de llamada para una llamada. Es un identificador único para la llamada que se utiliza al llamar a soporte técnico de Microsoft.
+![Número 1](../images/sfbcallout1.png)<br/>La tabla muestra un desglose de todo el uso de RTC por usuario. Muestra todos los usuarios que tienen Skype para la empresa asignada a ellas y su uso de RTC. Puede agregar o quitar columnas en la tabla.
+*    **Identificador de llamada** es el identificador de llamada para una llamada. Es un identificador único para la llamada que se usa al llamar a soporte técnico de Microsoft.
 *    **Identificador de usuario** es el nombre de inicio de sesión del usuario.
-*    **Número de teléfono** es el Skype para el número de teléfono profesional que recibió la llamada para las llamadas entrantes o el número marcado para las llamadas salientes.
+*    **Número de teléfono** es el Skype para el número de teléfono profesional que recibió la llamada para llamadas entrantes o el número marcado para las llamadas salientes.
 *    **Ubicación de usuario** es el país o región donde se encuentra el usuario.
-*    **Identificador** es el número de teléfono del que llama (identificador) para las llamadas entrantes, el número de que originó la llamada o el Skype para número de negocio desde el que se originó la llamada para las llamadas salientes.
-*    **Tipo de llamada** es si la llamada fue llamar un PSTN entrante o saliente y coloca el tipo de llamada como una llamada de un usuario o una conferencia de audio. Puede ver los tipos de llamada son: 
+*    **Identificador de autor de la llamada** es el número de teléfono del autor de la llamada (identificador de autor de la llamada) para las llamadas entrantes, el número de que se ha originado la llamada o el Skype para el número de trabajo desde la que se originó la llamada para las llamadas salientes.
+*    **Tipo de llamada** es si la llamada tuvo una RTC entrante o saliente de llamadas y el tipo de llamada, como una llamada realizada por un usuario o una conferencia de audio. Los tipos de llamada, es posible que vea son: 
 
-     **Tipos de llamada planes de llamada** 
+     **Tipos de llamada del Plan de llamada** 
      *    **user_in** (el usuario recibe una llamada entrante de RTC) 
-     *    **user_out** (el usuario coloca una llamada saliente de RTC) 
-     *    **user_out_conf** (el usuario agregado a 2 o más participantes PSTN a la llamada como una llamada de conferencia de 3 vías) 
+     *    **user_out** (el usuario realiza una llamada saliente de RTC) 
+     *    **user_out_conf** (el usuario agregado a 2 o más participantes de RTC a la llamada como una llamada de conferencia de canales de 3) 
      *    **user_out_transfer** (el usuario transfiere la llamada a un número de RTC) 
-     *    **user_out_forwarding** (el usuario reenvía la llamada a un número de RTC)
+     *    **user_out_forwarding** (el usuario reenviar la llamada a un número de RTC)
 
-     **Tipos de llamadas de conferencia de audio**
-     *    **conf_in** (una llamada entrante en el puente de conferencia de Audio) 
-     *    **conf_out** (una llamada saliente que va desde el puente de conferencia de Audio normalmente para agregar un número PSTN a la conferencia)
+     **Tipos de llamada de conferencia de audio**
+     *    **conf_in** (es decir, una llamada entrante para el puente de conferencia de Audio) 
+     *    **conf_out** (una llamada saliente que va desde el puente de conferencia de Audio normalmente para agregar un número RTC a la conferencia)
 
      **Aplicaciones de comunicaciones unificadas (UCAP)** 
-     *    **ucap_in** (una llamada entrante a la aplicación de comunicaciones unificadas como cola de operador o llamada automática) 
-     *    **ucap_out** (una llamada saliente de la aplicación de comunicaciones unificadas como cola de operador o llamada automática)
+     *    **ucap_in** (es decir, una llamada entrante a la aplicación de comunicaciones unificadas como una cola de llamada o de operador automático) 
+     *    **ucap_out** (una llamada saliente desde la aplicación de comunicaciones unificadas como cola de llamada o de operador automático)
 *     
-     **Nacionales e internacionales** indica si la llamada que se colocó consideró nacionales (dentro de un país o región) o internacionales (fuera de un país o región) basado en la ubicación del usuario. 
-*    **Marcado de destino** es el nombre del destino del país o región que se marca como Francia, Alemania o los Estados Unidos (US). 
-*    **Tipo de número** es el tipo de número de teléfono en el número de teléfono de un usuario, un servicio o un número de teléfono gratuito.  
+     **Nacional o internacional** le indica si la llamada que se ha colocado se consideró nacionales (dentro de un país o región) o internacionales (fuera de un país o región) según la ubicación del usuario. 
+*    **Marcado de destino** es el nombre del destino del país o región que se marca como Francia, Alemania o de los Estados Unidos (US). 
+*    **Tipo de número** es el tipo de número de teléfono que va desde el número de teléfono de un usuario, un servicio o el número de teléfono gratuito.  
 *    **Hora de inicio (UTC)** es la hora a la que se ha iniciado o realizado la llamada. 
 *    **Duración** muestra el tiempo durante el cual ha estado conectada la llamada.  
 *    **ConfID** es el identificador de la conferencia de la conferencia de audio. 
-*    **Cargo** es la cantidad de dinero o el coste de la llamada que se cobran a su cuenta. 
-*    **Moneda** es el tipo de moneda que se usa para calcular el coste de la llamada. 
-*    **La capacidad** es la licencia que se utiliza para la llamada. Puede ver los tipos de licencia son: 
-     *    **MCOPSTNPP** - créditos de comunicaciones <br/> **MCOPSTN1** - Plan de llamadas nacionales (3000 min US / min 1200 UE planes) 
+*    **Cargo** es la cantidad de dinero o costo de la llamada que se carga a su cuenta. 
+*    **Moneda** es el tipo de moneda que se usa para calcular el costo de la llamada. 
+*    **Se trata de la licencia que se usa para la llamada.** Los tipos de licencia que es posible que vea son: 
+     *    **MCOPSTNPP** - Communications créditos <br/> **MCOPSTN1** - llamar a planear nacionales (3000 min US / planes de 1200 min la Unión Europea) 
      *    **MCOPSTN2** - Plan de llamadas internacionales 
-     *    **MCOPSTN5** - domésticos llamando a Plan (plan de llamadas de 120 minutos) 
-     *    **MCOMEETADD** - conferencia de Audio
-     *    **MCOMEETACPEA** - pago por minuto de audioconferencias 
+     *    **MCOPSTN5** - nacionales llamar a Plan (plan llamada 120 minutos) 
+     *    **MCOMEETADD** - conferencias de Audio
+     *    **MCOMEETACPEA** - pago por minuto conferencias de Audio 
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>Haga clic para arrastrar una columna a **Para agrupar por una columna concreta, arrastre y coloque el encabezado de columna aquí** si desea crear una vista que agrupe todos los datos de una o más columnas.
  ***
-![Número 3](../images/sfbcallout3.png)<br/>También puede exportar el informe de los datos en una ficha delimitado por archivo de Excel, haciendo clic o punteando en el botón **Exportar a Excel** . <br/><br/> De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar dentro de la tabla en el mismo informe. 
+![Número 3](../images/sfbcallout3.png)<br/>También puede exportar el informe de datos en una ficha delimitada por el archivo de Excel, haciendo clic o punteando en el botón **Exportar a Excel** . <br/><br/> De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar dentro de la tabla en el mismo informe. 
     > [!Note] 
     > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
 
 ## <a name="want-to-see-other-skype-for-business-reports"></a>¿Desea ver otros informes de Skype Empresarial?
 
-- [Skype para el informe de la actividad de negocio](activity-report.md) Puede ver cuánto los usuarios utilizan peer-to-peer, organizada y participó en sesiones de conferencia.
+- [Skype para informe de actividad de negocio](activity-report.md) Puede ver la cantidad de los usuarios están usando peer-to-peer, organizada y participó en las sesiones de conferencia.
     
-- [Skype para el informe de uso del dispositivo de empresa](device-usage-report.md) Puede ver los dispositivos incluyendo sistemas operativos basados en Windows y dispositivos móviles que tienen el Skype para el negocio de la aplicación instalada y lo utilizan para mensajería instantánea y reuniones.
+- [Skype para el informe de uso del dispositivo de empresa](device-usage-report.md) Puede para ver los dispositivos incluidos los sistemas operativos basados en Windows y dispositivos móviles que tienen el Skype para la aplicación empresarial de instalan y están usando para la mensajería instantánea y reuniones.
     
-- [Skype para informe de actividad de negocio conferencia multimedia](conference-organizer-activity-report.md) Puede ver cuánto los usuarios están organizando las conferencias que utilizan la mensajería instantánea, audio o vídeo, compartir aplicaciones, Web, /dial out - 3ª parte y /dial — Microsoft.
+- [Skype para informe de actividad de organizador de conferencia empresarial](conference-organizer-activity-report.md) Puede ver cuánto los usuarios están organizar conferencias que utilizan la mensajería instantánea, audio y vídeo, compartir aplicaciones, Web, /dial out - 3rd fabricantes y /dial out - Microsoft.
     
-- [Skype para informe de actividad de participantes de conferencia de negocio](conference-participant-activity-report.md) Puede ver cuántos de mensajería instantánea, audio y vídeo, uso compartido de aplicaciones, Web y marcado a cabo conferencias de audio están siendo participados en.
+- [Skype para informe de actividad de participantes de conferencia empresarial](conference-participant-activity-report.md) Puede ver cuántos de mensajería instantánea, audio y vídeo, uso compartido de aplicaciones, Web y acceso telefónico a conferencias de audio que se están participó en.
     
-- [Skype para informe de actividad de igual a igual de negocio](peer-to-peer-activity-report.md) Puede ver cuánto los usuarios utilizan mensajería instantánea, audio y vídeo, uso compartido de aplicaciones y transferencia de archivos.
+- [Skype para informe de actividad de punto a punto de negocio](peer-to-peer-activity-report.md) Puede ver cuánto los usuarios utilizan mensajería instantánea, audio y vídeo, uso compartido de aplicaciones y transferencia de archivos.
     
-- [Skype para usuarios de negocios bloqueado informe](users-blocked-report.md) Puede ver los usuarios de su organización que le impide realizar llamadas PSTN.
+- [Informe de bloqueados de Skype para usuarios profesionales](users-blocked-report.md) Puede ver los usuarios de la organización que se han bloqueado desde la realización de llamadas de RTC.
 
-- [Skype para informe de minuto grupos empresariales PSTN](pstn-minute-pools-report.md) puede ver el número de minutos consumidos durante el mes actual dentro de la organización.
+- [Skype para informe de grupos de servidores minuto RTC de negocio](pstn-minute-pools-report.md) puede ver el número de minutos consumidos durante el mes actual dentro de la organización.
 
-- [Skype para el informe de detalles de sesión de negocios](session-details-report.md) Puede ver detalles acerca de experiencias de llamada del usuario individual.
+- [Skype para el informe de detalles de sesiones de negocio](session-details-report.md) Puede ver detalles acerca de las experiencias de llamada de usuario individual.
     
 ## <a name="related-topics"></a>See also
 [Informes de actividades en el Centro de administración de Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

@@ -19,11 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Vea cómo activar y usar el Skype para profesionales Online panel calidad de llamadas y obtener informes de resumen de calidad de las llamadas. '
-ms.openlocfilehash: f8a7a71a0e0c0e64ceb7447c53c15483d977e16a
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 966dc71705344b1cece9b0e706539d64df95bf50
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501272"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activar y con el panel de calidad de llamadas para Microsoft Teams y Skype para profesionales en línea
 
@@ -50,7 +51,9 @@ Hacer referencia a este artículo para obtener una lista de [las dimensiones y m
 ## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Activar los informes de resumen del panel (CQD) de calidad de llamada de Microsoft
 
 Antes de empezar a usar el CQD, debe activarlo para su organización de Office 365.
-  
+ 
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
+ 
 1. Inicie sesión en la organización de Office 365 con una cuenta de administrador y, a continuación, seleccione el icono de **administración** para abrir el centro de administración.
     
 2. En el panel izquierdo, en **centros de administración**, seleccione Abrir el Skype para el centro de administración de negocio de **Skype para la empresa** .
@@ -63,7 +66,7 @@ Antes de empezar a usar el CQD, debe activarlo para su organización de Office 3
     
      ![Inicio de sesión de CQD](../images/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
-Una vez que haya iniciado sesión, una vez activada, la CQD comenzará recopilación y procesamiento de datos.
+Después de iniciar sesión, una vez activada, la CQD comenzará el procesamiento y recopilación de datos.
   
 > [!NOTE]
 > Puede tardar un par de horas para procesar datos suficientes para mostrar resultados significativos en los informes. 

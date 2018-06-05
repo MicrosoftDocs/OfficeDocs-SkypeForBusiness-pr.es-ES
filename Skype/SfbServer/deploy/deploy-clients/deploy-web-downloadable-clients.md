@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Resumen: Implementar la Skype para la aplicación empresarial de Web y aplicación de las reuniones de Skype se utiliza con Skype para la empresa.'
-ms.openlocfilehash: a81e8744208261934635aee4f8a872a81b179c90
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 35d019e7b0c97586091d1de8151f6714e7d31b92
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501979"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server-2015"></a>Implementar clientes web descargables en Skype Empresarial Server 2015
  
@@ -149,8 +150,6 @@ Este procedimiento es opcional. Si no se utiliza, los usuarios externos seguirá
 ## <a name="see-also"></a>Vea también
 <a name="SMA_Enable"> </a>
 
-#### 
-
 [Planeación de los clientes de las reuniones (Web App y aplicación de las reuniones)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
   
 [Planeación de los clientes de las reuniones (Web App y aplicación de las reuniones)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
@@ -160,4 +159,3 @@ Este procedimiento es opcional. Si no se utiliza, los usuarios externos seguirá
 [Declaración de privacidad de Microsoft Online Services](https://www.microsoft.com/en-us/privacystatement/OnlineServices/Default.aspx)
   
 [Los términos de licencia y documentación](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;amp;DocumentTypeId=31)
-

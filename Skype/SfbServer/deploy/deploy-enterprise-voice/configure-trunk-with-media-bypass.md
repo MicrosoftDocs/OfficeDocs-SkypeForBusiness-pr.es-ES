@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 'Resumen: Configurar un tronco con desvío de medios habilitado para Skype para Business Server 2015. Esto le permitirá minimizar el número de servidores de mediación, suponiendo que el proveedor de troncos SIP lo admite.'
-ms.openlocfilehash: 08853388e17956be64fe11e18efd9f436007312d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f8e353e7d11bb3921839f957be25e0bfb6804a03
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501297"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server-2015"></a>Configurar un tronco con omisión de medios en Skype Empresarial Server 2015
  
@@ -183,8 +184,6 @@ Una configuración de tronco tal como se describe más abajo agrupa un conjunto 
 Una vez haya configurado el tronco, continúe configurando medios desvío eligiendo entre medios global Omitir opciones, tal como se describe en [el desvío de medios Deploy en Skype para Business Server 2015](deploy-media-bypass.md) en la documentación de implementación.
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Configurar un tronco sin desvío de medios en Skype para Business Server 2015](configure-trunk-without-media-bypass.md)
 
 [Implementar el desvío de medios en Skype para Business Server 2015](deploy-media-bypass.md)
@@ -192,4 +191,3 @@ Una vez haya configurado el tronco, continúe configurando medios desvío eligie
 [Definición de reglas de conversión](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
   
 [Configurar el desvío de medios](http://technet.microsoft.com/library/f50a7a13-c6a0-48f1-bee1-e45fa2b2f9b8.aspx)
-

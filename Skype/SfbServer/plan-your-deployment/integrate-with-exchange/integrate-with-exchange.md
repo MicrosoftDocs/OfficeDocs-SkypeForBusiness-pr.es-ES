@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Resumen: Revise este tema para obtener información acerca de cómo integrar Skype para profesionales de 2015 servidor con Exchange Server 2016 o Exchange Server 2013.'
-ms.openlocfilehash: 3c71509fc05ecabdf34f1d6ce8ec4f1a7af523be
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 2534cd1d2b3bd02998beb2034c704259b6b14c49
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19505121"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Plan para la integración de Skype Empresarial y Exchange
  
@@ -112,8 +113,6 @@ En la siguiente tabla se detalla las características admitidas en diversas comb
 ## <a name="see-also"></a>Vea también
 <a name="feature_support"> </a>
 
-#### 
-
 [Configurar la integración entre local Skype para Business Server 2015 y Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md)
   
 [Configurar OAuth entre Skype para profesionales Online y Exchange local](../../deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises.md)
@@ -123,4 +122,3 @@ En la siguiente tabla se detalla las características admitidas en diversas comb
 [Cómo integrar Exchange Server 2013 con Lync Server 2013, Skype para profesionales en línea o una implementación híbrida de Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=746494)
   
 [Configuración de las aplicaciones asociadas en Skype para Business Server 2015 y Microsoft Exchange Server](https://go.microsoft.com/fwlink/p/?LinkId=746495)
-

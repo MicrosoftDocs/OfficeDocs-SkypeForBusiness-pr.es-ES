@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Crear, modificar o eliminar los intervalos numéricos sin asignar para la aplicación de anuncio en Skype para Business Server Enterprise Voice. Esto afecta a cómo se administran las llamadas a números sin asignar.
-ms.openlocfilehash: 22de5516a11231b9ad706242c559608d9b9964db
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 72a6751ec203b9b3451f5080e610ca0c09007db9
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500929"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server-2015"></a>Crear o modificar un intervalo numérico sin asignar en Skype Empresarial Server 2015
  
@@ -168,11 +169,8 @@ Use uno de los siguientes procedimientos para configurar los intervalos numéric
   
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Nueva CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/new-csunassignednumber?view=skype-ps)
   
 [Set-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/set-csunassignednumber?view=skype-ps)
   
 [Get-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/get-csunassignednumber?view=skype-ps)
-

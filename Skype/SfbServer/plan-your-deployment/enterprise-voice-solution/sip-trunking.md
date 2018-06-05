@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: Obtenga información sobre el enlace troncal SIP en Skype para Business Server Enterprise Voice
-ms.openlocfilehash: 39300bfd518729cf99e41accfc64412bbcf4afb4
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 01f8401f6573220c8995df99f863bfd95a08ffb8
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504106"
 ---
 # <a name="sip-trunking-in-skype-for-business-server-2015"></a>Enlace troncal SIP en Skype Empresarial Server 2015
  
@@ -182,7 +183,4 @@ Si usas un servidor de VPN, recomendamos seguir estas instrucciones:
     
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Enlace troncal SIP sitio de sucursal en Skype para Business Server 2015](branch-site.md)
-

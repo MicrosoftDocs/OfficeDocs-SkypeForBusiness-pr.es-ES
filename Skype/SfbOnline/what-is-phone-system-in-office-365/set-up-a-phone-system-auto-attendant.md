@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar y probar a automáticos de sistema telefónico (PBX en la nube) para administración de la organización eficaz de las llamadas. '
-ms.openlocfilehash: dae8dc68162944f6547615626d5e94912a99caf2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 255b93c40419eaf10994b42de214d4495cd09b6a
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501113"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Configurar un operador automático de sistema telefónico
 
@@ -46,6 +47,9 @@ Si desea obtener más información sobre los operadores automáticos, consulte [
   
 ## <a name="step-2---create-a-new-auto-attendant"></a>Paso 2: crear un operador automático nuevo
 
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
+
+
 En el **Centro de administración de Skype Empresarial**, haga clic en **Enrutamiento de llamadas** > **Operadores automáticos**, y después en **Agregar nuevo**:
   
 ### <a name="edit-general-info-page"></a>Página Editar información general
@@ -58,8 +62,9 @@ En el **Centro de administración de Skype Empresarial**, haga clic en **Enrutam
 
 ![Número 2](../images/sfbcallout2.png)<br/>**Número de teléfono** Esta configuración es opcional. Si lo desea, seleccione un número de teléfono para el operador automático. Puede seleccionar cualquier pago de servicio disponibles o el número de teléfono gratuito que tienen para su organización. Si no se enumera ningún número de teléfono, deberá obtener un número de servicio de pago o gratuito. Vaya [aquí](getting-service-phone-numbers.md) para llegar a ellos. <br/> <br/>
 
-    > [!Note]
-    > **User (subscriber)** numbers can't be assigned to auto attendants.
+> [!NOTE]
+> **User (subscriber)** numbers can't be assigned to auto attendants.
+    
 ***
 ![Número 3](../images/sfbcallout3.png)<br/>**Zona horaria**: debe establecer la zona horaria para el operador automático, pero no es necesario que se corresponda con la zona horaria de la dirección principal que se muestra para su organización. Cada operador automático puede tener una zona horaria diferente, y el horario laboral establecido para el operador automático se ajustará en función de la zona horaria seleccionada.
 ***
@@ -115,13 +120,17 @@ Puede configurar el saludo, mensajes de voz y los menús que las personas que es
 ***
 ![Número 3](../images/sfbcallout3.png)<br/>**Texto del menú**: para crear un mensaje para el menú principal puede usar la característica Texto a voz o cargar un archivo de audio (.wav, .mp3 o .wma). Puede escribir el mensaje en el cuadro **Las personas que llaman escucharán** o grabar un archivo de audio y decir, por ejemplo: "Pulse o diga 1 para Ventas. Pulse o diga 2 para Servicios. Pulse o diga 3 para Atención al cliente. Para hablar con el operador, pulse o diga 0. Para escuchar este mensaje de nuevo, pulse la tecla de asterisco o diga Repetir". **Crear un mensaje de asistencia por voz personalizado**: si elige esta opción, debe introducir el texto que desea que lea el sistema (hasta 1000 caracteres). **Cargar un archivo de audio**: si elige esta opción, deberá grabar el saludo y cargar el archivo de audio (en formato .wav, .mp3 o .wma).
 ***
-![Número 4](../images/sfbcallout4.png)<br/>**Marcado por nombre** Si elige esta opción, esto permitirá que a las personas que llaman a buscar personas en su organización con búsqueda en el directorio. You can select which people will be listed as available or not available for Dial by Name by setting up those options on the **Dial scope** page. Cualquier usuario con una licencia de **Sistema telefónico** en línea o cualquier usuario hospedado local utilizando Skype para Business Server 2015 o Lync Server 2013, puede encontrarse con marcado por nombre.<br/><br/>  **Precaución:** Los usuarios alojados en implementaciones locales con Lync 2010 **no se puede alcanzar** con marcado por nombre.
+![Número 4](../images/sfbcallout4.png)<br/>**Marcado por nombre** Si elige esta opción, esto permitirá que a las personas que llaman a buscar personas en su organización con búsqueda en el directorio. You can select which people will be listed as available or not available for Dial by Name by setting up those options on the **Dial scope** page. Cualquier usuario con una licencia de **Sistema telefónico** en línea o cualquier usuario hospedado local utilizando Skype para Business Server 2015 o Lync Server 2013, puede encontrarse con marcado por nombre.<br/><br/>  
+
+> [!WARNING]
+> Los usuarios alojados en implementaciones locales con Lync 2010 **no se puede alcanzar** con marcado por nombre.
 ***
 
 ![Número 5](../images/sfbcallout5.png)<br/>**Editar las opciones de menú**: puede agregar o eliminar opciones de menú usando las teclas del teclado. Para agregar una opción de menú, pulse la tecla correspondiente en el teclado. Las teclas en uso cambiarán de color y la línea de opciones correspondiente se mostrará debajo. Para eliminar una opción de menú, simplemente haga clic en la clave correspondiente en el control de teclado para anular la selección de esta clave. Se quitará la fila de asignación de claves.<br/><br/>  **Sugerencia:** Debe actualizar menú mensajes de texto o volver a registrar el audio por separado cuando se agrega a la eliminación de opciones porque no se realiza automáticamente para el símbolo del sistema de menú existente.  <br/><br/>  Cualquier opción de menú se puede agregar y quitar en cualquier orden, y las asignaciones de teclas no tienen que ser continuo. Es posible, por ejemplo, para crear un menú con las teclas de 0, 1 y 3 que se asignan a opciones, mientras no se usa la tecla 2.<br/><br/> 
 
-    > [!Note] 
-    > The keys * (Repeat) and # (Back) are reserved by the system and can't be reassigned. If speech recognition is enabled, pressing * will correspond with "Repeat" and # will correspond with the "Back" voice commands. <br/><br/>
+> [!NOTE]
+> Las teclas * (las veces) y # (Back) están reservados por el sistema y no se pueden reasignar. Si está habilitado el reconocimiento de voz, al presionar * corresponderá con "Repetir" y # se corresponden con los comandos de voz "Atrás".
+
 
 Para configurar las opciones de menú, después de seleccionar las claves, necesitará: 
 - **Escriba el nombre de la opción** Esto puede tener hasta 64 caracteres y puede contener varias palabras como "Servicio de atención al cliente" o "operaciones y motivos". Si está habilitado el reconocimiento de voz, automáticamente se reconocerá el nombre y la persona que llama podrán, presione 3, diga "tres" o diga "Servicio de atención al cliente" para seleccionar la opción asignada a la tecla 3. 
@@ -231,7 +240,7 @@ Estos son los cmdlets que necesita para administrar un operador automático.
    
 ### <a name="more-about-windows-powershell"></a>Más información sobre Windows PowerShell
 
-- En relación con Windows PowerShell, todo se reduce a la administración de usuarios y de lo que pueden o no hacer los usuarios. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
+- Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

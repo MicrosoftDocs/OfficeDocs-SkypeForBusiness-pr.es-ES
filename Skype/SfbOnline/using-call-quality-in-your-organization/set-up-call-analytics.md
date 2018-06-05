@@ -18,11 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Configurar y usar el análisis de llamada para identificar y solucionar problemas de Skype para profesionales y Microsoft Teams problemas de calidad de llamada.
-ms.openlocfilehash: 0fea9e37933908ef64f1b2eb100f3851f84a6690
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 5cba53e1a01b1aff3a08f4ec84cea60dc455fb35
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500697"
 ---
 # <a name="set-up-skype-for-business-call-analytics"></a>Configuración de Skype para Business Analytics de llamadas
 
@@ -57,6 +58,8 @@ Los agentes del departamento de soporte técnico de nivel 1 controlan problemas 
    
  **Configurar permisos en niveles de análisis de llamadas de** 
  <a name="BKMK_SetUpTier"> </a>
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
   
 1. Creación de grupos de seguridad de Office 365 para nivel 1 y nivel 2, y agregue las personas que desee a cada grupo. También puede volver a usar los grupos de seguridad existentes. Para obtener más información, vea [crear, editar o eliminar un grupo de seguridad en el centro de administración de Office 365](https://support.office.com/article/55c96b32-e086-4c9e-948b-a018b44510cb).
     

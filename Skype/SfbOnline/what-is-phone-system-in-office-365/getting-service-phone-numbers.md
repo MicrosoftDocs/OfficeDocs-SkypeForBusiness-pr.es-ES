@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Además de obtener los números de teléfono para los usuarios de Office 365, puede buscar y adquirir el teléfono de pago o números de teléfono gratuito para servicios como conferencias de audio (para el puente de conferencia), operadores automáticos y colas de llamadas (también denominadas números de servicio). Los números de teléfono de servicio tienen una mayor capacidad de llamadas simultáneas que los números de teléfono de usuario o suscriptor.
-ms.openlocfilehash: 9a7761ca39295ef36531f74b835d9e0dbd498d51
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 78bb84b60e6c7b4632e8eef84e2b6dc057af136e
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500731"
 ---
 # <a name="getting-service-phone-numbers"></a>Introducción a los números de teléfono de servicio
 
@@ -43,6 +44,8 @@ Tiene dos maneras de obtener números de servicio, por lo que puede usar con Sky
     > Cuando se transfiere sus números de servicio, se recomienda que en contacto con el [soporte técnico de Microsoft](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) para asegurarse de que la mayor capacidad llamada simultánea se consideran y configurada correctamente.
   
 ## <a name="get-new-service-numbers"></a>Obtener nuevos números de servicio
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     

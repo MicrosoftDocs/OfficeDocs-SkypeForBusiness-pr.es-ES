@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Crear o modificar una cola de grupo de respuesta, en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 5ff696de582a1d0238e9b67bbe0b53affb33ffd2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d959ca00829200ac8ad54168d72ca108adabb39f
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500987"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business-2015"></a>Crear o modificar una cola en Skype Empresarial 2015
  
@@ -200,8 +201,6 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
 
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
   
 [Set-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/set-csrgsqueue?view=skype-ps)
@@ -215,4 +214,3 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
 [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
   
 [Remove-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/remove-csrgsqueue?view=skype-ps)
-
