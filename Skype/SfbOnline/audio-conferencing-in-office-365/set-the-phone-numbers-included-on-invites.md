@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: 0ade5a68483319fe437d83c51dbe40ddb4f0fbc0
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 5ddc20d1b9166315581a6f894c5d630d9e247881
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568285"
 ---
 # <a name="set-the-phone-numbers-included-on-invites"></a>Establecer el teléfono los números incluidos en invitaciones
 
@@ -135,7 +136,7 @@ De forma predeterminada, cuando se cambia la configuración de conferencia de un
 - Use el cmdlet de **Set-CsOnlineDialInConferencingUserDefaultNumber** para cambiar el número de pago o el número gratuito predeterminado de los usuarios, según el número predeterminado original o la ubicación.
     
     > [!NOTE]
-    > Para buscar el BridgeID, use el **Get-CsOnlineDialInConferencingBridge**.
+    > Para buscar el BridgeID, use el cmdlet **Get-CsOnlineDialInConferencingBridge** .
   
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings 

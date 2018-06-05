@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: Lea este tema para obtener información sobre cómo unirse a un equipo PC de la aplicación de Sistema de salas de Skype para su dominio.
-ms.openlocfilehash: e858122b8c931c53a7cb2eff0fe58ff225547a07
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
+ms.openlocfilehash: ffc55984df3b42b06f4db8faa6a286ea41e99480
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568664"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Consideraciones de unión a dominio del Sistema de salas de Skype
  
@@ -57,7 +58,6 @@ $username = "contso.local\LRS01"
 $password = ConvertTo-SecureString "password123" -AsPlainText -Force
 $myCred = New-Object System.Management.Automation.PSCredential $username, $password
 Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomSystem,OU=Resources,DC=CONTOSO,DC=LOCAL"
-
 ```
 
 Aunque cree un OU independiente y bloqueo de herencia, existen algunas directivas que podrían ocasionar problemas en un nivel superior. Una directiva de grupo con una configuración de no invalidación supera a un OU con una configuración de herencia de directiva de bloqueo. Para obtener más información, vea el artículo "No invalidar as en comparación con para bloquear la herencia de directivas" en la documentación de directiva de grupo en http://technet.microsoft.com/en-us/library/cc978255.aspx.
@@ -65,8 +65,6 @@ Aunque cree un OU independiente y bloqueo de herencia, existen algunas directiva
 Puede tener varios enfoques para solucionar estos problemas. Le aconsejamos que consulte con los expertos de Active Directory para asegurarse de que obtiene un OU que tiene una configuración de GPO adecuada, o al menos un OU en el que las directivas descritas anteriormente no existan. Se recomienda habilitar la calidad de servicio (QoS) para dispositivos de sistema de salas de Skype.
 
 ## <a name="see-also"></a>Vea también
-
-#### 
   
 [Configuración de dispositivo: Crear nuevos o editar los existentes](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 

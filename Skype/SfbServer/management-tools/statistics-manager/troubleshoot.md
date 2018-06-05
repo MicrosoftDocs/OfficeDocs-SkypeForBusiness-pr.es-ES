@@ -10,18 +10,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
-description: 'Resumen: Leer este tema para solucionar problemas de la implementación del Administrador de estadísticas de Skype para Business Server 2015.'
-ms.openlocfilehash: 6fa9011ed3ff6ac18e64539bbe8f7a2314857188
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Lea este tema para solucionar problemas de la implementación del Administrador de estadísticas de Skype para Business Server 2015.'
+ms.openlocfilehash: 3af372effd41fd679733324e1615de6b2c49ce0b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569836"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server-2015"></a>Solucionar problemas del administrador de estadísticas para Skype Empresarial Server 2015
  
 **Resumen:** Lea este tema para solucionar problemas de la implementación del Administrador de estadísticas de Skype para Business Server 2015.
   
-Este tema describe cómo solucionar problemas de la implementación del Administrador de estadísticas que describen eventos que puede ver en el registro de sucesos de aplicación y las acciones adecuadas que podría seguir para rectificar el evento. Este tema contiene las siguientes secciones:
+En este tema se describe cómo solucionar problemas de la implementación del Administrador de estadísticas mediante la descripción de eventos, es posible que vea en el registro de eventos de aplicación y las acciones adecuadas que puede tardar para corregir el evento. Este tema contiene las siguientes secciones:
   
 - [Eventos del agente](troubleshoot.md#BKMK_Agent)
     
@@ -34,7 +35,7 @@ Este tema describe cómo solucionar problemas de la implementación del Administ
 
 - **1000**: no se puede configurar el limitador de procesador (objeto de trabajo). Motivo desconocido
     
-- **1001** : limitar el proceso no se permite en el proceso (probablemente ya se encuentre en un objeto de trabajo)
+- **1001** : limitar el proceso no se permite en el proceso (probablemente ya dentro de un objeto de trabajo)
     
     El agente se ejecuta en un objeto de trabajo de Windows para limitar automáticamente su superficie de memoria. Si el agente no se inicia y estas entradas de evento se encuentran en el registro de eventos, no se puede crear una instancia del objeto de trabajo en el servidor. Para evitar este problema, se puede quitar el límite de memoria superior cambiando un valor en el archivo de configuración:
     
@@ -42,15 +43,14 @@ Este tema describe cómo solucionar problemas de la implementación del Administ
   C:\Program Files\Skype for Business Server StatsMan Agent\PerfAgent.exe.config
   ```
 
-    Busque "MaxProcessMemoryMB" y cambie el valor a "0", como se muestra:
+    Buscar "MaxProcessMemoryMB" y cambie el valor a "0" como se muestra:
     
   ```
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
-
   ```
 
     > [!NOTE]
-    > Si se modifica, el agente sigue generalmente consumirá \< 100 MB de memoria, sin embargo no será forzosamente limitado a 300 MB como está predeterminado. Si se realiza este cambio, se recomienda estrechamente supervisar el uso de memoria para garantizar al agente no consume una gran cantidad de memoria en el equipo host. 
+    > Si se realiza este cambio, el agente sigue generalmente consumirá \< 100 MB de memoria, sin embargo no será forzosamente limitado a 300 MB como es el valor predeterminado. Si se realiza este cambio, se recomienda estrechamente supervisar el uso de memoria para garantizar al agente no consumir una gran cantidad de memoria en el equipo host. 
   
 - **2000**: error en la inicialización del cliente
     
@@ -60,17 +60,17 @@ Este tema describe cómo solucionar problemas de la implementación del Administ
     
 1. Garantice que el servicio de escucha se esté ejecutando en el equipo de escucha. Si no, asegúrese de que Redis se esté ejecutando en ese servidor y, a continuación, reinicie el servicio de escucha.
     
-    Compruebe el registro de sucesos del Administrador de estadísticas en el equipo de agente de escucha para asegurarse de que no existen problemas con el propio servicio de escucha de gestor de estadísticas.
+    Compruebe el registro de eventos de estadísticas administrador en el equipo de agente de escucha para no asegurarse de que no haya ningún problema con el propio servicio de agente de escucha de las estadísticas de administrador.
     
 2. Use una herramienta de conectividad como telnet para comprobar la conectividad desde el equipo del agente al de escucha en el puerto correcto.
     
-    Si no, asegúrese de que la regla de firewall entrante esté habilitada en el equipo de escucha para el tipo de red al que está conectado el equipo de escucha (privado/público/dominio). Si el equipo del agente de escucha no está unido a un dominio, puede aparecer la red como pública, y en ese caso, las reglas de firewall instaladas con el Gestor de estadísticas no se aplicarán de forma predeterminada.
+    Si no, asegúrese de que la regla de firewall entrante esté habilitada en el equipo de escucha para el tipo de red al que está conectado el equipo de escucha (privado/público/dominio). Si el equipo de agente de escucha no está unido a un dominio, la red puede aparecer como pública y en ese caso no se aplicarán las reglas de firewall que se instalan con el Administrador de estadísticas de forma predeterminada.
     
 - **4000**: error al descargar información del servidor desde la escucha (motivo desconocido)
     
   - **4001**: no se encuentra el servidor en la topología de escucha
     
-    Este error se producirá si el servidor se conecta correctamente al agente de escucha, pero el servidor no se agregó a la topología en la caché del agente de escucha. Opciones de resolución:
+    Se producirá este error si el servidor se conecta correctamente al agente de escucha, pero el servidor no se ha agregado a la topología en memoria caché del agente de escucha. Opciones de resolución:
     
   - 	Asegúrese de que ha seguido las instrucciones para importar la topología. Consulte [Importar la topología](deploy.md#BKMK_ImportTopology).   
     
@@ -90,7 +90,7 @@ Este tema describe cómo solucionar problemas de la implementación del Administ
     
   - Si la conexión se realiza mediante proxy, compruebe la configuración de proxy.
     
-  - Compruebe el registro de StatsMan del equipo de agente de escucha para problemas con su configuración.
+  - Comprobar el registro de StatsMan del equipo de agente de escucha para problemas con su configuración.
     
   - **4005**: no se pudo deserializar el XML
     
@@ -141,7 +141,7 @@ Este tema describe cómo solucionar problemas de la implementación del Administ
     
     Se registra cada vez que se inicia la escucha.
     
-- **22000** : inicialización de administrador de estadísticas de agente se realizó correctamente.
+- **22000** : inicialización del Administrador de estadísticas de agente se ha realizado correctamente.
     
 - **23000**: EventLogQueryManager se ha inicializado correctamente (primera vez o después de un error)
     
@@ -158,7 +158,7 @@ Este tema describe cómo solucionar problemas de la implementación del Administ
 ## <a name="website-issues"></a>Problemas de sitio web
 <a name="BKMK_Website"> </a>
 
-- Inicio de sesión repetitiva pregunta en cromo - esto era un error que se ha resuelto en la versión 1.1. Asegúrese de que ha actualizado a la versión más reciente del Administrador de estadísticas si está viendo las solicitudes de inicio de sesión repetido en el Explorador de cromo. Para comprobar la versión del sitio web en el que se está ejecutando:
+- Inicio de sesión repetitiva solicita en cromo - era un error que se ha resuelto en la versión 1.1. Asegúrese de que haber actualizado a la versión más reciente del Administrador de estadísticas si está viendo solicitudes de inicio de sesión repetidas en el Explorador de cromo. Para comprobar la versión del sitio web en el que se está ejecutando:
     
   - 	En el Explorador de archivos, abra (directorio predeterminado)
     
@@ -173,12 +173,12 @@ Este tema describe cómo solucionar problemas de la implementación del Administ
 
 Para obtener más información, consulte lo siguiente:
   
-- [Plan para el Gestor de estadísticas de Skype para Business Server 2015](plan.md)
+- [Planeación para el Administrador de estadísticas de Skype para Business Server 2015](plan.md)
     
-- [Implementar el administrador estadísticas de Skype para Business Server 2015](deploy.md)
+- [Implementar el Administrador de estadísticas de Skype para Business Server 2015](deploy.md)
     
-- [Actualizar estadísticas Administrador de Skype para Business Server 2015](upgrade.md)
+- [Actualizar el Administrador de estadísticas de Skype para Business Server 2015](upgrade.md)
     
-- [Skype para blog Business Manager de estadísticas de servidor](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Skype para Business Server Manager de estadísticas de blog](https://blogs.technet.microsoft.com/skypestatsman/)
     
 

@@ -10,49 +10,49 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
-description: 'Resumen: Conozca la operación obtener Log de integración, que forma parte de la API de datos para llamar al panel de calidad. Panel de calidad de la llamada es una herramienta de Skype para Business Server 2015.'
-ms.openlocfilehash: 8ccd4fc299cbf5310a5974d55b181aa1f42255ce
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información acerca de la operación obtener Log de integración, que es parte de la API de datos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.'
+ms.openlocfilehash: a71d01780222d673c8455176ac82fc51683b441e
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569075"
 ---
 # <a name="get-integration-log"></a>Obtener Log integración
  
-**Resumen:** Obtener información sobre la operación de obtener el Log de integración, que forma parte de la API de datos para llamar al panel de calidad. Panel de calidad de la llamada es una herramienta de Skype para Business Server 2015.
+**Resumen:** Obtenga información acerca de la operación obtener Log de integración, que es parte de la API de datos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.
   
-La operación Get Log integración forma parte de la API para llamar al panel de calidad de datos
+La operación de obtener el registro de integración es parte de la API de datos para el panel de calidad de llamadas
   
 ## <a name="get-integration-log"></a>Obtener Log integración
 
-Obtener Log integración operación devuelve una lista de entradas del registro que describe las actividades en el cubo de la calidad de procesamiento.
+Obtenga la operación devuelve una lista de entradas de registro que describe las actividades en el cubo de QoE de procesamiento de registro de integración.
   
-Esta operación está deshabilitada de forma predeterminada por motivos de seguridad. Cuando se deshabilita, devuelve una cadena vacía. Para habilitar esta operación, los administradores deben configurar el archivo web.config para la aplicación web de API de datos host.
+Esta operación está deshabilitada de forma predeterminada por motivos de seguridad. Cuando deshabilitado, devuelve una cadena vacía. Para habilitar esta operación, los administradores deben configurar el archivo web.config para la aplicación web de host de la API de datos.
   
 
-|Método|**URI de la solicitud**|**Versión de HTTP**|
+|(Método)|**URI de la solicitud**|**Versión de HTTP**|
 |:-----|:-----|:-----|
 |Obtener  <br/> |https://\<portal\>/QoEDataService/IntegrationLog  <br/> |HTTP/1.1  <br/> |
    
- **URI parámetros** : ninguno.
+ **Los parámetros URI** - ninguno.
   
  **Encabezados de solicitud** - sin encabezados adicionales.
   
- **Cuerpo de la solicitud** - ninguno.
+ **Cuerpo de la convocatoria** - ninguno.
   
  **Respuesta** : la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.
   
- **Código de estado** - una operación correcta devuelve el código de estado 200 (OK).
+ **Código de estado** - una operación correcta devuelve código de estado 200 (Aceptar).
   
  **Encabezados de respuesta** - sin encabezados adicionales.
   
- **Cuerpo de la respuesta** : a continuación es un ejemplo de estructura de entradas de registro.
+ **Cuerpo de la respuesta** - a continuación es un ejemplo de estructura de entradas de registro.
   
 ```
 [
 {"LogCategory":"<category>","LogTime":"2015-03-18T10:28:29.10","LogDescription":"<log description>"}
 ]
-
 ```
 
 

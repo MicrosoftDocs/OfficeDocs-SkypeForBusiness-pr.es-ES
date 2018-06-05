@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Siga los pasos descritos en este tema para modificar la configuración de un Skype existente de conector de nube de Business Edition 1.4.1 o implementación posterior.
-ms.openlocfilehash: 86efbf21efae3dc95508528850a984912e4930a1
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9e660744e05bfd0628c19b86110ad33443c58671
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569571"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modificar la configuración de una implementación de Cloud Connector existente
  
@@ -235,7 +236,6 @@ Get-CcCredential -AccountType CABackupFile -DisplayPassword
 Get-CcCredential -AccountType CceService -DisplayPassword
 Get-CcCredential -AccountType VMAdmin -DisplayPassword
 Get-CcCredential -AccountType DomainAdmin -DisplayPassword
-
   ```
 
 2. Ejecute el cmdlet de entrar CcUpdate para purgar el dispositivo y mover en modo de mantenimiento manual.

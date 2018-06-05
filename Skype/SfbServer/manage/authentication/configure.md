@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 'Resumen: Configurar la autenticación de dos factores en Skype para Business Server 2015.'
-ms.openlocfilehash: f7394c0415fb14698ae837c4604f1a2ceaa22931
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 96e1e355aa248b8cfc0ac1efbca7e41f056022be
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504652"
+ms.locfileid: "19569120"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server-2015"></a>Configurar la autenticación en dos fases en Skype Empresarial Server 2015
  
@@ -328,20 +328,17 @@ En los siguientes pasos, se describe cómo crear una configuración de proxy per
 1. Desde Skype para Business Server Management Shell de línea de comandos, cree una nueva configuración de proxy para cada Skype para el grupo de servidores de Business Server 2015 perimetrales, grupo de servidores Enterprise y Standard Edition server que va a estar habilitada para autenticación pasiva mediante la ejecución de la siguientes comandos:
     
   ```
-  New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
--UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+  New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
   ```
 
   ```
-  New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" 
--UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+  New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
   ```
 
 2. Para comprobar que se han deshabilitado correctamente todos los demás tipos de autenticación de proxy, ejecute el siguiente comando:
     
   ```
-  Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com"
- | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
+  Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
   ```
 
 ## <a name="see-also"></a>Vea también

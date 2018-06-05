@@ -15,20 +15,21 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: Puede habilitar su Skype para utilizar el Skype integrado para la herramienta de comentarios de la aplicación empresarial para permitir a los usuarios enviar informes y proporcionar comentarios directamente a Microsoft sobre su experiencia de los usuarios de negocios.
-ms.openlocfilehash: 4d2f39f48152534d96f24c32f0031b55f11cbcae
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Puede habilitar la Skype para usuarios profesionales utilizar el Skype integrada para la herramienta de comentarios de aplicación empresarial para permitir que los usuarios notificar problemas y proporcionar comentarios directamente a Microsoft acerca de su experiencia.
+ms.openlocfilehash: 9e995a61337a8393b869161e143d76f1df5454ae
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568357"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Activar o desactivar los informes de comentarios de clientes de Skype Empresarial
 
-Puede habilitar su Skype para utilizar el Skype integrado para la herramienta de comentarios de la aplicación empresarial para permitir a los usuarios enviar informes y proporcionar comentarios directamente a Microsoft sobre su experiencia de los usuarios de negocios. 
+Puede habilitar la Skype para usuarios profesionales utilizar el Skype integrada para la herramienta de comentarios de aplicación empresarial para permitir que los usuarios notificar problemas y proporcionar comentarios directamente a Microsoft acerca de su experiencia. 
   
 ![Skype for Business client reporting.](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
   
-Con esta herramienta, un usuario puede copiar los registros de la aplicación en su dispositivo para ayudar a Microsoft a mejor investigar y solucionar los problemas que pudieran tener. 
+Con esta herramienta, un usuario puede copiar los registros de la aplicación en su dispositivo para ayudar a Microsoft a investigar y solucionar los problemas que pudieran tener mejor. 
   
 ![Skype for Business client reporting.](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
   
@@ -37,7 +38,7 @@ También puede utilizar la configuración  _EnableOnlineFeedbackScreenshot_ para
 ![Skype for Business client reporting form.](../images/d859578d-8116-4d4b-a08f-c0cae28b8b76.png)
   
 > [!IMPORTANT]
-> Se almacenarán los registros recopilados por la herramienta de comentarios de la aplicación para un máximo de 90 días en los Estados Unidos, mientras que el problema está siendo investigado. Por este motivo, no habilite esta herramienta comentarios si esto infringe la política de protección de datos de la organización. 
+> Se almacenará los registros recopilados por la herramienta de comentarios de la aplicación para un máximo de 90 días en los Estados Unidos mientras el problema se investiga. Por este motivo, no habilite esta herramienta comentarios si esto infringe la directiva de protección de datos de su organización. 
   
 ## <a name="verify-and-start-windows-powershell"></a>Verificar e iniciar Windows PowerShell
 
@@ -61,7 +62,7 @@ Si necesita más información, consulte [Conectarse a todos los servicios de Off
     
     > [!NOTE]
     > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.
-> 
+ 
   ```
     Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
@@ -72,13 +73,13 @@ Si desea obtener más información sobre cómo iniciar Windows PowerShell, consu
     
 ## <a name="turn-on-client-app-feedback-reporting-for-all-the-users-in-your-organization"></a>Activar los informes de comentarios del cliente sobre la aplicación para todos los usuarios en la organización
 
-Para habilitar comentarios reporting para los usuarios de la organización y les permiten enviar capturas de pantalla del dispositivo, ejecute:
-> 
+Para habilitar los comentarios de informes para los usuarios de su organización y que puedan enviar capturas de pantalla del dispositivo, ejecute:
+ 
   ```
   Set-CsClientPolicy -Identity EnableOnlineFeedback -EnableOnlineFeedback $true -EnableOnlineFeedbackScreenshots $true
   ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
-- En relación con Windows PowerShell, todo se reduce a la administración de usuarios y de lo que pueden o no hacer los usuarios. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
+- Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

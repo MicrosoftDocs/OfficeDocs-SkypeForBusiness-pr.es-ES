@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: Lea este tema para aprender a configurar las directivas de ubicación de servicio de emergencia (E9-1-1) de Skype mejorado en Business Server Enterprise Voice.
-ms.openlocfilehash: 2bb2d7fad7906d78d5118f219b0b85d92dd97b23
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 6687e5ac8d414ef9db49c2fccdde9dceedb93889
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568300"
 ---
 # <a name="create-location-policies-in-skype-for-business-server-2015"></a>Crear directivas de ubicación en Skype Empresarial Server 2015
  
@@ -62,14 +63,12 @@ Para obtener más información, vea [Planear las directivas de ubicación para S
     
    ```
    Set-CsLocationPolicy -Identity Global -EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -PstnUsage "emergencyUsage" -EmergencyDialString "911" -ConferenceMode "twoway" -ConferenceUri "sip:+14255550123@litwareinc.com" -EmergencyDialMask "112" NotificationUri "sip:security@litwareinc.com" -UseLocationForE911Only $true -LocationRefreshInterval 2
-
    ```
 
 3. Ejecute el cmdlet siguiente para crear una directiva de ubicación con etiqueta.
     
    ```
    New-CsLocationPolicy -Identity Tag:Redmond - EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -UseLocationForE911Only $false -PstnUsage "EmergencyUsage" -EmergencyDialString "911" -EmergencyDialMask "112" -NotificationUri "sip:security@litwareinc.com" -ConferenceUri "sip:+14255550123@litwareinc.com" -ConferenceMode "twoway" -LocationRefreshInterval 2
-
    ```
 
 4. Ejecute el cmdlet siguiente para aplicar la directiva de ubicación con etiqueta que se ha creado en el paso 3 en una directiva de usuario.
@@ -77,5 +76,3 @@ Para obtener más información, vea [Planear las directivas de ubicación para S
    ```
    (Get-CsUser | where { $_.Name -match "UserName" }) | Grant-CsLocationPolicy -PolicyName Redmond
    ```
-
-

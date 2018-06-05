@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Lea este tema para obtener información acerca de los pasos para implementar el desvío de medios con la nube conector Edition versión 2.0 y versiones posterior.
-ms.openlocfilehash: 0d147cbd1f6497757aa73e380ebeca0c03f1de7b
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: fc1ebe85ff3d26d66688173ea70c53c441d96e77
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505198"
+ms.locfileid: "19570047"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Implementar el desvío de medios en la nube conector Edition
  
@@ -55,7 +55,6 @@ Para comprobar la replicación en línea al grupo de servidores de inquilinos, e
 ```
 Get-CsTenantHybridConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
-
 ```
 
 Para comprobar la replicación local, conectarse a los servidores de mediación de conector en la nube, ejecute el siguiente comando en PowerShell y confirme que Enabled = True y AlwaysBypass = True

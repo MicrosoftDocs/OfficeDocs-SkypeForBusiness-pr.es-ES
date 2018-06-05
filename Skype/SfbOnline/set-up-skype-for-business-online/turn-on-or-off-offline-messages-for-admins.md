@@ -16,25 +16,26 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 99238998f5bb5396f0c2c97226ac9dc37180fe01
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 84455ad8efceda6af8f7f077ff9968485debed06
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568401"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>Activar o desactivar los mensajes sin conexión para administradores
 
-Puede enviar Skype para IMs de negocio a sus contactos incluso si no has iniciado sesión. Esta característica le permite a sus contactos saber que ha intentado hablar con ellos. No tiene que esperar hasta que alguien esté en línea para poder enviarle un mensaje. 
+Puede enviar Skype para mensajes instantáneos de negocio a sus contactos, incluso si no están firmadas. Esta característica le permite a sus contactos saber que ha intentado hablar con ellos. No tiene que esperar hasta que alguien esté en línea para poder enviarle un mensaje. 
   
 Información importante sobre los mensajes sin conexión:
   
 - Los mensajes sin conexión no se archivan en el buzón del usuario.
     
-- Se enviarán mensajes sin conexión para el buzón del usuario y se notificará al usuario cuando inician sesión en Skype para el negocio.
+- Se van a enviar los mensajes sin conexión para el buzón del usuario y se notificará al usuario cuando inicie sesión Skype para la empresa.
     
-- Si estado del destinatario del mensaje se establece en **No molestar** o **presentación**, recibirán un mensaje perdido que se envía desde Skype del destinatario para el cliente de negocios.
+- Si el estado del destinatario del mensaje se establece en **No molestar** o **presentar**, recibirán un mensaje perdido que se envía desde Skype el destinatario para clientes empresariales.
     
-Para obtener más información, vea [usar mensajería sin conexión en Skype para el negocio](http://support.office.com/article/ffdc6a43-71a1-40ee-bfcc-640d21324a3d).
+Para obtener más información, vea [uso sin conexión de mensajería en Skype para la empresa](http://support.office.com/article/ffdc6a43-71a1-40ee-bfcc-640d21324a3d).
   
 ## <a name="to-get-you-started"></a>Para empezar
 
@@ -66,31 +67,19 @@ Si necesita más información, consulte [Conectarse a todos los servicios de Off
 > 
   ```
   Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
-  ```
-
-> 
-  ```
   $credential = Get-Credential
-  ```
-
-> 
-  ```
   $session = New-CsOnlineSession -Credential $credential
-  ```
-
-> 
-  ```
   Import-PSSession $session
   ```
 
-Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar con todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [conectarse a Skype para los negocios en línea mediante el uso de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [Connecting to Skype para profesionales en línea mediante Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
 ## <a name="turning-on-or-off-offline-im"></a>Activar o desactivar la mensajería instantánea sin conexión
 
 > [!NOTE]
-> Mensajes sin conexión están **sólo** disponibles en la versión más reciente de la Skype hacer clic en ejecutar para cliente de empresa y no están disponibles cuando se utiliza un Skype hacer clic para ejecutar antiguos de negocio o un archivo *.msi se utilizó para instalar el Skype para cliente de empresa.
+> Los mensajes sin conexión están **sólo** disponibles en la versión más reciente de la Skype Click-to-Run para cliente empresarial y no están disponibles cuando se usa un Skype de Click-to-Run anterior para la empresa o un archivo *.msi se usó para instalar el Skype para clientes empresariales.
   
-Para habilitar o deshabilitar mensajes sin conexión enviar los mensajes sin conexión para los usuarios de su organización, establezca _EnableIMAutoArchiving_ en `True` o `False`. De forma predeterminada, se establece en `True`.
+Para habilitar o deshabilitar sin conexión mensajes enviar mensajes sin conexión para los usuarios de su organización, establezca _EnableIMAutoArchiving_ en `True` o `False`. De forma predeterminada, se establece en `True`.
   
 Para desactivarlo, use el cmdlet **Set-CsClientPolicy** y ejecute:
   
@@ -98,26 +87,18 @@ Para desactivarlo, use el cmdlet **Set-CsClientPolicy** y ejecute:
 Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 ```
 
-Para habilitar o deshabilitar el envío de mensajes sin conexión mensajes sin conexión para un usuario, establezca _EnableIMAutoArchiving_ en `True` o `False`. De forma predeterminada, esta opción está establecida en  `True`. Puede utilizar una directiva existente o crear uno similar al ejemplo siguiente.
+Para habilitar o deshabilitar el envío de mensajes sin conexión sin conexión, los mensajes para un usuario, establezca _EnableIMAutoArchiving_ en `True` o `False`. De forma predeterminada, esta opción está establecida en  `True`. Puede usar una directiva existente o crear uno al igual que en el ejemplo siguiente.
   
-> 
+ 
   ```
   New-CsClientPolicy -Identity OfflineIM
-  ```
-
-> 
-  ```
   Set-CsClientPolicy -Identity OfflineIM -EnableIMAutoArchiving $False
-  ```
-
-> 
-  ```
   Grant -CsClientPolicy -Identity "Tony Smith" - PolicyName OfflineIM
   ```
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-- En relación con Windows PowerShell, todo se reduce a la administración de usuarios y de lo que pueden o no hacer los usuarios. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
+- Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

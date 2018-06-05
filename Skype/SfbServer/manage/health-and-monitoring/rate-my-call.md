@@ -9,61 +9,61 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
-description: 'Resumen: Conozca la función tasa mi llamar en Skype para Business Server 2015.'
-ms.openlocfilehash: 1e0088c563f38be59bda0fad10dbd367ea0646e9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información sobre la característica de tasa mi llamada de Skype para Business Server 2015.'
+ms.openlocfilehash: 54e751731e305767eecb755f274de667949379f2
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569800"
 ---
 # <a name="rate-my-call-in-skype-for-business-server-2015"></a>Valorar mi llamada en Skype Empresarial Server 2015
  
-**Resumen:** Obtenga información sobre la función tasa mi llamar en Skype para Business Server 2015.
+**Resumen:** Obtenga información acerca de la característica de tasa mi llamada de Skype para Business Server 2015.
   
-Llame a Mi velocidad es una nueva característica de Skype para negocios 2015 y 2016 clientes Windows que proporciona a las empresas una forma para obtener comentarios de los usuarios finales.
+Tasa de Mis llamadas es una característica nueva de Skype para 2015 de negocios y clientes de 2016 en Windows que proporciona una forma de obtener comentarios de los usuarios finales de las empresas.
   
-La ventana tasa Mis llamadas ofrece un sistema de clasificación "estrella" y símbolos predefinidos para llamadas de audio y vídeo. Además, los administradores pueden habilitar un campo personalizado proporcionar comentarios.
+La ventana de tasa mi llamada ofrece un sistema de clasificación "estrella" y tokens predefinidos para llamadas de audio y vídeo. Además, los administradores pueden habilitar un campo personalizado proporcionar comentarios.
   
 Actualmente, los datos recopilados de Valorar mi llamada no se incluyen en ningún informe de supervisión existente, aunque dispone de un informe de supervisión independiente. Se recopilan datos en tablas SQL que se pueden tener acceso mediante la ejecución de consultas SQL.
   
-## <a name="rate-my-call-prerequisites"></a>Valorar mis requisitos previos de la llamada
+## <a name="rate-my-call-prerequisites"></a>Tasa de Mis llamada de los requisitos previos
 
-Antes de que los usuarios de su Skype para la implementación de Business Server pueden obtener acceso a la funcionalidad de llame a Mi velocidad, se debe implementar y configurar el siguiente conjunto de componentes:
+Antes de que los usuarios de su Skype para la implementación de Business Server pueden tener acceso a funcionalidad tasa Mis llamadas, se debe implementar y configurar el siguiente conjunto de componentes:
   
--  Debe tener Skype para Business Server instalado (versión 9160 o superior).
+-  Debe tener Skype para Business Server instalado (versión 9160 o posterior).
     
-- Hacer que los usuarios instalar y actualizar a la versión más reciente de Skype para empresas y también les pedimos que utilice el Skype para la interfaz de usuario de negocio.
+- Hacer que los usuarios instalar y actualizar a la versión más reciente de Skype para la empresa y pídales también debe usar el Skype para la interfaz de usuario de negocio.
     
-- Los usuarios deben estar alojados en el Skype para el grupo de negocio de servidor Front-End.
+- Los usuarios deben estar alojados en el Skype para grupo de negocio de servidor Front-End.
     
-- Debe tener un Skype para base de datos supervisión Business Server implementado y asociado a su Skype para grupos de servidores empresariales.
+- Debe tener un Skype para base de datos supervisión Business Server implementado y asociado a su Skype para grupos de servidores de negocio.
     
 - Le recomendamos que implemente el Panel de calidad de llamadas (CQD).
     
-## <a name="configure-rate-my-call"></a>Configurar la velocidad de mi llamada
+## <a name="configure-rate-my-call"></a>Configuración de tasa de mi llamada
 
-La función de tasa mi llamada está habilitada de forma predeterminada en la directiva de cliente con la configuración siguiente:
+La característica tasa mi llamada está habilitada de forma predeterminada en la directiva de cliente con la siguiente configuración:
   
-- Velocidad de mi llamada Mostrar porcentaje - 10%
+- Tasa de mi llamada para mostrar porcentaje - 10%
     
-- Velocidad de mi llamada permitir personalizar comentarios del usuario - deshabilitado
+- Tasa de mi llamada permitir personalizada los comentarios del usuario - deshabilitado
     
-No hay ninguna acción necesaria para habilitar la característica base, sin embargo, pero si desea una respuesta personalizada debe habilitar por separado. El siguiente cmdlet de Windows PowerShell es un ejemplo de habilitar comentarios de usuario final personalizadas y cambiar el intervalo de 10% a 80%.
+No hay ninguna acción necesaria para habilitar la característica base, sin embargo, pero si desea que los comentarios personalizado debe habilitarlo por separado. El siguiente cmdlet de Windows PowerShell es un ejemplo de habilitar comentarios del usuario final personalizado y cambiar el intervalo de un 10% al 80%.
   
 ```
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
-
 ```
 
-## <a name="accessing-rate-my-call-data"></a>Velocidad de acceso a Mis datos de llamada
+## <a name="accessing-rate-my-call-data"></a>Tasa de acceso a Mis datos de llamada
 
-Se recopilan datos de los usuarios en dos tablas de la base de datos de supervisión.
+Se recopilan datos de los usuarios de dos tablas de la base de datos de supervisión.
   
  **[QoeMetrics]. [dbo]. [CallQualityFeedbackToken]** -Esta tabla contiene los resultados de sondeo token por los usuarios finales.
   
  **[QoeMetrics]. [dbo]. [CallQualityFeedbackTokenDef]** -Esta tabla contiene las definiciones de símbolo (token).
   
-Las definiciones de símbolo (token) se codifican como sigue:
+Las definiciones de símbolo (token) se codifican como se indica a continuación:
   
 |||
 |:-----|:-----|
@@ -106,11 +106,11 @@ Las definiciones de símbolo (token) se codifican como sigue:
 |501  <br/> |Reliabilty_Join  <br/> |
 |502  <br/> |Reliabilty_Invite  <br/> |
    
- **[QoeMetrics]. [dbo]. [CallQualityFeedback]** Esta tabla contiene los resultados de sondeo de comentarios de voto y cliente "Estrella" si habilitado.
+ **[QoeMetrics]. [dbo]. [CallQualityFeedback]** Esta tabla contiene los resultados de sondeo de comentarios de voto y atención al cliente "Estrella" si se habilita.
   
-Datos de las tablas se pueden llamar utilizando un **seleccione \* de [Table.Name]** consulta o mediante Microsoft SQL Server Management Studio.
+Datos de tablas que se pueden llamar mediante el uso de un **seleccione \* de [Table.Name]** consulta o mediante el uso de Microsoft SQL Server Management Studio.
   
-Pueden utilizarse las siguientes consultas SQL:
+Se pueden usar las siguientes consultas SQL:
   
  **Audio**
   
@@ -189,7 +189,7 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>Actualización de definiciones de símbolo (token)
 
-La última Skype para clientes empresariales informe nuevo token problema IDs (\> 100) que no pueden estar presentes en la sección [QoeMetrics]. [dbo]. Tabla [CallQualityFeedbackTokenDef]. Para actualizar la tabla de base de datos con las últimas definiciones de símbolo (token), el comando debajo de SQL se puede ejecutar en la base de datos de supervisión mediante Microsoft SQL Server Management Studio. Este comando reemplazará todas las entradas de la sección [QoeMetrics]. [dbo]. Tabla [CallQualityFeedbackTokenDef].
+El último Skype para clientes empresariales notificar nuevo token problema identificadores (\> 100) que pueden no estar presentes en la sección [QoeMetrics]. [dbo]. Tabla [CallQualityFeedbackTokenDef]. Para actualizar la tabla de base de datos con las últimas definiciones de símbolo (token), el comando debajo de SQL se puede ejecutar en la base de datos de supervisión con Microsoft SQL Server Management Studio. Este comando reemplazará todas las entradas en la sección [QoeMetrics]. [dbo]. Tabla [CallQualityFeedbackTokenDef].
   
 ```
 DELETE FROM [CallQualityFeedbackTokenDef];

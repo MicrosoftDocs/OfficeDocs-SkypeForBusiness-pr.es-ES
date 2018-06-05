@@ -11,17 +11,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: 'Resumen: Configurar una aplicación de socio local para Skype para Business Server 2015.'
-ms.openlocfilehash: 4a31d97f7a4c2f717084c72cbc349c4f495597ea
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2f13196288fb7b609e5e3d39996c12eab04493dc
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569452"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server-2015"></a>Configurar una aplicación de socio local de Skype Empresarial Server 2015
  
 **Resumen:** Configurar una aplicación de socio local para Skype para Business Server 2015.
   
-Después de haber asignado el certificado OAuthTokenIssuer, a continuación, debe configurar su Skype para aplicaciones de socios de negocios servidor 2015. (El procedimiento va a ser tratado configura tanto 2013 de Microsoft Exchange Server y SharePoint para actuar como aplicaciones de asociados de negocios, que es opcional). Para configurar una aplicación de socio local, debe comenzar por la siguiente secuencia de comandos de Windows PowerShell de copiar y pegar el código en el Bloc de notas (o cualquier otro editor de texto):
+Una vez que haya asignado el certificado OAuthTokenIssuer, a continuación, debe configurar su Skype para aplicaciones de socio de negocio Server 2015. (El procedimiento a se tratan configura tanto Microsoft Exchange Server 2013 y SharePoint para que actúen como aplicaciones de socio, que es opcional). Para configurar una aplicación de socio local, debe empezar por el siguiente script de Windows PowerShell de copiar y pegar el código en el Bloc de notas (o cualquier otro editor de texto):
   
 ```
 if ((Get-CsPartnerApplication -ErrorAction SilentlyContinue) -ne $Null)
@@ -69,10 +70,9 @@ else
    }
 
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
-
 ```
 
-Una vez copiado el código, guarde el script con una extensión de archivo .PS1 (por ejemplo, C:\Scripts\ServerToServerAuth.ps1). Nota que, antes de ejecutar esta secuencia de comandos, debe reemplazar las direcciones URL de metadatos https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 y http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1 con las direcciones URL de metadatos utilizadas por los servidores de 2013 Exchange y SharePoint, respectivamente. Consulte la documentación del producto para 2013 de Exchange y SharePoint para obtener información sobre cómo se puede identificar la dirección URL de metadatos del producto correspondiente.
+Una vez copiado el código, guarde el script con una extensión de archivo .PS1 (por ejemplo, C:\Scripts\ServerToServerAuth.ps1). Tenga en cuenta que, antes de ejecutar este script, debe reemplazar las direcciones URL de metadatos https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 y http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1 con las direcciones URL de metadatos utilizadas por los servidores de Exchange 2013 y SharePoint, respectivamente. Vea la documentación del producto Exchange 2013 y SharePoint para obtener información sobre cómo se puede identificar la dirección URL de metadatos del producto respectivos.
   
 Si observamos la última línea del script, veremos que se usa la siguiente sintaxis para llamar al cmdlet Set-CsOAuthConfiguration:
   
@@ -86,13 +86,13 @@ Como no se usó el parámetro Realm al llamar a Set-CsOAuthConfiguration, el dom
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000 -Realm "contoso.com"
 ```
 
-Después de realizar estos cambios, a continuación, puede ejecutar la secuencia de comandos y configurar 2013 de Exchange y SharePoint como aplicaciones de asociados de negocios, ejecutando el archivo de secuencia de comandos desde el Skype para el Shell de administración de servidor de Business. Por ejemplo:
+Después de realizar estos cambios, a continuación, puede ejecutar el script y configure Exchange 2013 y SharePoint como aplicaciones de los socios, ejecutando el archivo de secuencia de comandos desde el Skype para Shell de administración de servidor empresarial. Por ejemplo:
   
 ```
 C:\Scripts\ServerToServerAuth.ps1
 ```
 
-Tenga en cuenta que puede ejecutar esta secuencia de comandos incluso si no tiene ambos 2013 Exchange y SharePoint Server instalado:, ningún problema se producirá si, digamos, configurar SharePoint Server como una aplicación asociada aunque no tenga instalado SharePoint Server.
+Tenga en cuenta que puede ejecutar este script, incluso si no tienen ambos Exchange 2013 y SharePoint Server instalado:, no se producirá ningún problema si, por ejemplo, configurar SharePoint Server como una aplicación de socio, aunque no es necesario instalar SharePoint Server.
   
 Cuando se ejecuta este script, es posible que aparezca un mensaje de error parecido al siguiente:
   
@@ -102,9 +102,9 @@ New-CsPartnerApplication : Cannot bind parameter 'MetadataUrl' to the target. Ex
 
 Este mensaje de error suele indicar una de estas dos situaciones: 1) una de las direcciones URL especificadas en el script no es válida (dicho de otro modo, una de las direcciones URL de metadatos no es realmente una dirección URL de metadatos) o 2) no se pudo establecer contacto con una de las direcciones URL de metadatos. Si esto sucede, compruebe que las direcciones URL son correctas y accesibles y vuelva a ejecutar el script.
   
-Después de crear la aplicación de Skype para Business Server 2015, a continuación, debe configurar Skype para Business Server sea una aplicación asociada para 2013 de Exchange. Puede configurar las aplicaciones de socios para 2013 de Exchange mediante la ejecución de la secuencia de comandos configurar-EnterprisePartnerApplication.ps1; todo lo que necesita hacer es especificar la dirección URL de metadatos de Skype para Business Server e indicar que Skype para Business Server es la nueva aplicación. 
+Después de crear la aplicación de socio de Skype para Business Server 2015, a continuación, debe configurar Skype para Business Server como una aplicación de socio para Exchange 2013. Puede configurar las aplicaciones de socios para Exchange 2013, ejecute el script Configure-EnterprisePartnerApplication.ps1; todo lo que necesita hacer es especificar la dirección URL de metadatos de Skype para Business Server e indicar que Skype para Business Server es la nueva aplicación de socio. 
   
-Para configurar Skype para Business Server como una aplicación asociada para Exchange, abra el Shell de administración de Exchange y ejecutar un comando similar a éste
+Para configurar Skype para Business Server como una aplicación de socio para Exchange, abra el Shell de administración de Exchange y ejecute un comando similar al siguiente
   
 ```
 "c:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1" -AuthMetadataUrl "https://SkypePro.contoso.com/metadata/json/1" -ApplicationType "Lync"

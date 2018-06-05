@@ -10,29 +10,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
-description: 'Resumen: Configurar cuentas de usuario de prueba y monitor nodo de Skype para transacciones sintéticas Business Server.'
-ms.openlocfilehash: 55172fb152b3b02e87e8d46048c820c2c1b2dd04
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Configure cuentas de usuario de prueba y configuración de nodo de Monitor de Skype para las transacciones sintéticas Business Server.'
+ms.openlocfilehash: ee5330f10dd97e8ecc8a3e3e30962e6e8a69555b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569878"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Configurar los usuarios y las opciones de configuración de la prueba del nodo de monitor
  
-**Resumen:** Configurar cuentas de usuario de prueba y monitor nodo de Skype para transacciones sintéticas Business Server.
+**Resumen:** Configurar cuentas de usuario de prueba y configuración de nodo de Monitor de Skype para las transacciones sintéticas Business Server.
   
 Después de configurar el equipo que funcionará como nodo de monitor, debe hacer lo siguiente:
   
-1. [Configurar cuentas de usuario de prueba](test-users-and-settings.md#testuser) que se utilizarán por estos nodos de observador. Si usa el método de autenticación Negotiate, también debe usar el cmdlet **Set-CsTestUserCredential** para habilitar estas cuentas de prueba para su uso en el nodo de monitor.
+1. [Configurar cuentas de usuario de prueba](test-users-and-settings.md#testuser) que va a usar estos nodos de monitor. Si usa el método de autenticación Negotiate, también debe usar el cmdlet **Set-CsTestUserCredential** para habilitar estas cuentas de prueba para su uso en el nodo de monitor.
     
 2. Actualizar las opciones de configuración del nodo de monitor.
     
 ## <a name="configure-test-user-accounts"></a>Configurar cuentas de usuario de prueba
 <a name="testuser"> </a>
 
-No es necesario que las cuentas de prueba representan personas reales, pero deben ser cuentas de Active Directory válidas. Además, estas cuentas deben estar habilitadas para Skype para Business Server 2015, deben tener direcciones SIP válidas y deberían estar habilitadas para que la Telefonía IP empresarial (utilizar la transacción sintética de prueba CsPstnPeerToPeerCall). 
+Cuentas de prueba no es necesario representar personas reales, pero deben ser cuentas de Active Directory válidas. Además, estas cuentas deben estar habilitadas para Skype para Business Server 2015, deben tener direcciones SIP válidas y que se debe habilitar para que Enterprise Voice (usar la transacción sintética Test-CsPstnPeerToPeerCall). 
   
-Si está usando el método de autenticación TrustedServer, solamente debe asegurarse de que estas cuentas existen y configurarlas como se ha indicado. Debe asignar al menos tres usuarios de prueba para cada grupo que desee probar. Si utiliza el método de autenticación Negotiate, también debe usar el cmdlet Set-CsTestUserCredential y el Skype para el negocio el Shell de administración de servidor habilitar estas cuentas para trabajar con las transacciones sintéticas de prueba. Esto hace al ejecutar un comando similar al siguiente (estos comandos se supone que se han creado tres cuentas de usuario de Active Directory y que estas cuentas están habilitadas para Skype para Business Server 2015):
+Si está usando el método de autenticación TrustedServer, solamente debe asegurarse de que estas cuentas existen y configurarlas como se ha indicado. Debe asignar al menos tres usuarios de prueba para cada grupo que desee probar. Si está utilizando el método de autenticación Negotiate, también debe usar el cmdlet Set-CsTestUserCredential y el Skype para Shell de administración de servidor empresarial para habilitar estas cuentas para trabajar con las transacciones sintéticas de prueba. Hacer esto mediante la ejecución de un comando similar al siguiente (estos comandos se suponen que se han creado las tres cuentas de usuario de Active Directory y que estas cuentas estén habilitadas para Skype para Business Server 2015):
   
 ```
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
@@ -42,7 +43,7 @@ Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "li
 
 Debe incluir no solo la dirección SIP, sino también el nombre de usuario y una contraseña. Si no incluye la contraseña, el cmdlet Set-CsTestUserCredential le pedirá que la escriba. El nombre de usuario se pueden especificar con el formato nombre de dominio\nombre de usuario que se muestra en el bloque de código anterior.
   
-Para comprobar que se crearon las credenciales de usuario de prueba, ejecutar estos comandos desde el Skype para el Shell de administración de servidor de negocios:
+Para comprobar que se han creado las credenciales de usuario de prueba, ejecute estos comandos desde la Skype para Shell de administración de servidor empresarial:
   
 ```
 Get-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com"
@@ -185,7 +186,7 @@ Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Ob
 
 El comando anterior devolverá información similar a la siguiente, según las transacciones sintéticas que se hayan asignado al nodo:
   
-PersistentChatMessage DataConference de presencia de registro IM GroupIM P2PAV AvConference
+Registro mensajería instantánea GroupIM P2PAV AvConference presencia PersistentChatMessage DataConference
 > [!TIP]
 > Para ver las transacciones sintéticas en orden alfabético, use este comando en su lugar: 
   
@@ -201,7 +202,7 @@ Get-CsWatcherNodeConfiguration
 
 Obtendrá una información similar a la siguiente:
   
-Identidad: atl-cs-001.litwareinc.com TestUsers: {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com...} ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test; Te...} TargetFqdn: númeroDePuerto de atl-cs-001.litwareinc.com: 5061To Compruebe que el nodo del monitor se ha configurado correctamente, escriba el comando siguiente desde el Skype para el Shell de administración de servidor de negocios:
+Identidad: atl-cs-001.litwareinc.com TestUsers: {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com...} ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test; Te...} TargetFqdn: atl-cs-001.litwareinc.com PortNumber: 5061To Compruebe que el nodo de monitor se ha configurado correctamente, escriba el siguiente comando desde el Skype para Shell de administración de servidor empresarial:
   
 ```
 Test-CsWatcherNodeConfiguration
@@ -301,7 +302,6 @@ $cred1 = Get-Credential "contoso\testUser1"
 $cred2 = Get-Credential "contoso\testUser2"
 
 Test-CsPersistentChatMessage -TargetFqdn pool0.contoso.com -SenderSipAddress sip:testUser1@contoso.com -SenderCredential $cred1 -ReceiverSipAddress sip:testUser2@contoso.com -ReceiverCredential $cred2 -TestUser1SipAddress sip:testUser1@contoso.com -TestUser2SipAddress sip:testUser2@contoso.com -Setup $true
-
 ```
 
 Esta tarea de configuración debe realizarse desde la empresa:
@@ -320,9 +320,9 @@ Para ejecutar esta transacción sintética, se debe configurar lo siguiente:
     
 - Números de llamada directa a la extensión (DID) de cada cuenta de usuario.
     
-- Rutas de políticas de VoIP y de voz que permiten que las llamadas al número del destinatario llegar a la puerta de enlace PSTN.
+- Rutas de voz y las directivas de VoIP que permiten llamadas al número del receptor para llegar a la puerta de enlace de RTC.
     
-- Una puerta de enlace PSTN que acepta la llamada y medio que se usará para enrutar llamadas de vuelta al grupo doméstico del receptor, en función del número marcado.
+- Una puerta de enlace de RTC que acepta la llamada y los medios que se usará para enrutar las llamadas a grupo de servidores principales de un receptor, en función del número marcado.
     
 ### <a name="unified-contact-store-synthetic-transaction"></a>Transacción sintética de almacén de contactos unificados
 
@@ -334,13 +334,13 @@ Para ejecutar esta transacción, se deben cumplir las siguientes condiciones:
     
 - Los usuarios de prueba deben tener un buzón de Exchange válido.
     
-Después de que se cumplen estas condiciones, puede ejecutar el siguiente cmdlet de Windows PowerShell para migrar listas de contactos de los usuarios de prueba para Exchange:
+Después de que se cumplen estas condiciones, puede ejecutar el siguiente cmdlet de Windows PowerShell para migrar las listas de contactos de los usuarios de prueba a Exchange:
   
 ```
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer -Setup
 ```
 
-El proceso de migración de las listas de contactos de los usuarios de prueba a Exchange puede tardar un tiempo. Para supervisar el progreso de la migración, la misma línea de comandos se puede ejecutar sin el - indicador de instalación:
+El proceso de migración de las listas de contactos de los usuarios de prueba a Exchange puede tardar un tiempo. Para supervisar el progreso de la migración, la misma línea de comandos se puede ejecutar sin la - marca el programa de instalación:
   
 ```
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer
@@ -362,11 +362,11 @@ En este ejemplo, es necesario que haya una regla de Skype Empresarial Server 201
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Transacción sintética de Video Interop Server (VIS)
 
-La transacción sintéticos servidor de interoperabilidad de vídeo (VIS) requiere que descargue e instale los archivos de soporte de transacciones sintéticas ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
+La transacción de servidor de interoperabilidad de vídeo (VISIBLES) requiere que descargue e instale los archivos de soporte técnico de transacciones sintéticas ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
   
-Para instalar VISSTSupportPackage.msi, asegúrese de que las dependencias (en los requisitos del sistema) para el archivo msi ya estén instaladas. Ejecute VISSTSupportPackage.msi para realizar una instalación sencilla. El archivo .msi instala todos los archivos en la siguiente ruta: "%ProgramFiles%\VIS paquete de soporte de transacciones sintéticas".
+Para instalar VISSTSupportPackage.msi, asegúrese de que las dependencias (en los requisitos del sistema) para el archivo msi ya estén instaladas. Ejecute VISSTSupportPackage.msi para realizar una instalación sencilla. El archivo .msi instala todos los archivos en la ruta de acceso siguiente: "%ProgramFiles%\VIS paquete de compatibilidad con transacciones sintéticas".
   
-Para obtener más detalles sobre cómo ejecutar las transacciones sintéticas VIS, consulte la documentación para el cmdlet [Test-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/en-us/library/dn985894.aspx) .
+Para obtener más información acerca de cómo realizar la transacción sintética respecto, consulte la documentación para el cmdlet [Test-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/en-us/library/dn985894.aspx) .
   
 ## <a name="changing-the-run-frequency-for-synthetic-transactions"></a>Cambiar la frecuencia de ejecución para transacciones sintéticas
 <a name="special_synthetictrans"> </a>
@@ -377,13 +377,13 @@ Si es conveniente ejecutar transacciones sintéticas más a menudo, deberá redu
   
 Para cambiar la frecuencia de ejecución de las transacciones, siga estos pasos:
   
-1. Abrir System Center Operations Manager. Haga clic en la sección de creación. Haga clic en la sección reglas (en creación)
+1. Abrir System Center Operations Manager. Haga clic en la sección de creación. Haga clic en la sección reglas (debajo de creación)
     
-2. En la sección reglas, busque la regla con el nombre "Main sintéticos transacción Runner colección regla de rendimiento"
+2. En la sección reglas, busque la regla con el nombre "Main sintéticas transacciones corredor colección regla de rendimiento"
     
-3. Haga clic con el botón secundario del mouse en la regla, seleccione reemplazos selecciona Anular la regla y, a continuación, seleccione "todos los objetos de clase: Monitor de grupo"
+3. Haga clic con el botón secundario del mouse en la regla, seleccione reemplazos selecciona Anular la regla y, a continuación, seleccione "para todos los objetos de clase: Monitor de grupo de servidores"
     
-4. En la ventana Propiedades de reemplazar, seleccione el nombre del parámetro "Frecuencia" y establezca el valor de reemplazar a la deseada.
+4. En la ventana Propiedades de reemplazar, seleccione el nombre del parámetro "Frecuencia" y establezca el valor de reemplazar a la que desee.
     
 5. En la misma ventana, seleccione el módulo de administración al que se debe aplicar esta invalidación.
     
@@ -417,11 +417,11 @@ Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable Reg
 ```
 
 > [!NOTE]
-> : No escriba delante el nombre de la variable con el carácter $. Use, por ejemplo, el nombre de variable RegistrationTest, no $RegistrationTest. 
+> : No anteponga el nombre de variable con el carácter $. Use, por ejemplo, el nombre de variable RegistrationTest, no $RegistrationTest. 
   
 Cuando ejecute este comando, verá una salida similar a esta:
   
-Fqdn de destino: atl-cs-001.litwareinc.com resultado: error latencia: 00:00:00 mensaje de Error: este equipo no tiene ningún certificado asignado. Diagnóstico: puede tener acceso a información mucho más detallada de este error que acaba el mensaje de error que se muestra a continuación. Para tener acceso a esta información en formato HTML, utilice un comando similar a éste para guardar la información almacenada en la variable RegistrationTest a un archivo HTML:
+Fqdn de destino: atl-cs-001.litwareinc.com resultado: error de latencia: 00:00:00 mensaje de Error: este equipo no tiene ningún certificado asignado. Diagnóstico: puede tener acceso a información mucho más detallada de este error que acaba el mensaje de error que se muestra aquí. Para obtener acceso a esta información en formato HTML, use un comando similar a éste para guardar la información almacenada en la variable RegistrationTest en un archivo HTML:
   
 ```
 $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html
@@ -438,6 +438,4 @@ Puede ver estos archivos con Windows Internet Explorer, Microsoft Visual Studio 
 Transacciones sintéticas que se ejecute desde dentro de System Center Operations Manager generará automáticamente estos archivos de registro de errores. Estos registros no se generarán si se produce un error en la ejecución antes de que Skype Empresarial Server PowerShell pueda cargar y ejecutar la transacción sintética. 
   
 > [!IMPORTANT]
-> De forma predeterminada, Skype para Business Server 2015 guarda archivos de registro a una carpeta que no está compartida. Para que estos registros estén fácilmente accesibles, se recomienda compartir esta carpeta. Por ejemplo: \\atl-watcher-001.litwareinc.com\WatcherNode. 
-  
-
+> De forma predeterminada, Skype para Business Server 2015 guarda los archivos de registro en una carpeta que no se comparte. Para hacer que estos registros fácilmente accesible, deben compartir esta carpeta. Por ejemplo: \\atl-watcher-001.litwareinc.com\WatcherNode. 

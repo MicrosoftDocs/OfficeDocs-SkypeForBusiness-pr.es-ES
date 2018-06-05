@@ -10,27 +10,28 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
-description: 'Resumen: Conjunto de acceso telefónico conferencias de un usuario de PIN para Skype para Business Server 2015.'
-ms.openlocfilehash: d94df7ff557c9a229fd5f049ca10f9c1e7f22407
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Establecer telefónico un usuario PIN para Skype para Business Server 2015.'
+ms.openlocfilehash: 557aaa3fc191e6423ae323e53d2dacdf5f0019b1
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568824"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server-2015"></a>Establecer el PIN de conferencia de acceso telefónico local para un usuario en Skype Empresarial Server 2015
  
-**Resumen:** Establecer conferencias en el marcado de un usuario PIN para Skype para Business Server 2015.
+**Resumen:** Establecer telefónico un usuario PIN para Skype para Business Server 2015.
   
-Para unirse a una conferencia de acceso telefónico como un usuario autenticado, un Skype para Business Server 2015 usuario con credenciales de servicios de dominio de Active Directory (AD DS) requiere un número de identificación personal (PIN). Si un usuario olvida de la conferencia telefónica de PIN o no ha configurado el PIN mediante Skype para Business Server 2015, puede establecer el NIP del usuario de Skype para Panel de Control de servidor empresarial. Puede generar el PIN automáticamente o crear uno de forma manual.
+Para unirse a una conferencia de acceso telefónico como un usuario autenticado, una Skype para Business Server 2015 usuario con las credenciales de los servicios de dominio de Active Directory (AD DS) requiere un número de identificación personal (PIN). Si un usuario olvida la conferencia telefónico PIN o no ha establecido el PIN mediante el uso de Skype para Business Server 2015, puede establecer el PIN del usuario de Skype para el Panel de Control de servidor empresarial. Puede generar el PIN automáticamente o crear uno de forma manual.
   
 > [!NOTE]
 > Las características específicas del PIN como, por ejemplo, su longitud mínima, pueden configurarse como una directiva. Además de la directiva global, puede configurar una directiva de PIN para sitios o usuarios individuales. 
   
-### <a name="to-set-a-users-pin"></a>Para establecer el NIP de un usuario
+### <a name="to-set-a-users-pin"></a>Para establecer un PIN de usuario
 
 1. Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de Admin para abrir el Skype para Panel de Control de servidor empresarial.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.  
     
 3. En la barra de navegación izquierda, haga clic en **Usuarios**.
     
@@ -62,7 +63,7 @@ Para unirse a una conferencia de acceso telefónico como un usuario autenticado,
     
 7. En el cuadro de diálogo **Establecer PIN**, realice una de las siguientes acciones:
     
-   - Para permitir Skype para Business Server 2015 generar el NIP del usuario, seleccione **generar automáticamente un PIN válido** (el predeterminado).
+   - Para permitir que Skype para Business Server 2015 generar el PIN del usuario, seleccione **generar automáticamente un PIN válido** (valor predeterminado).
     
    - Para crear su propio PIN, haga clic en **Escribir manualmente un PIN específico**, haga clic en el cuadro de texto y escriba un PIN que cumpla los requisitos de PIN especificados en la configuración de la directiva de PIN.
     
@@ -76,17 +77,16 @@ Para unirse a una conferencia de acceso telefónico como un usuario autenticado,
     
 10. Haga clic en **Cerrar**.
     
-## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Asignación de un PIN de usuario mediante Cmdlets de Windows PowerShell
+## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Asignar un PIN de usuario mediante Cmdlets de Windows PowerShell
 
-Puede asignar números de PIN con el cmdlet Set-CsClientPin. Este cmdlet se puede ejecutar desde el Skype para el Shell de administración de servidor empresarial o desde una sesión remota de Windows PowerShell. Para obtener más información acerca del uso de Windows PowerShell remoto para conectar con Skype para Business Server, consulte el artículo de blog ["rápido inicio: administración de Microsoft Lync Server 2010 utilizando remoto PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). El proceso es el mismo en Skype para Business Server. 
+Puede asignar números de PIN con el cmdlet Set-CsClientPin. Se puede ejecutar este cmdlet, ya sea desde el Skype para Shell de administración de servidor empresarial o desde una sesión remota de Windows PowerShell. Para obtener información detallada acerca del uso de Windows PowerShell remoto para conectarse a Skype para Business Server, vea el artículo del blog ["rápido iniciar: administración de Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). El proceso es el mismo en Skype para Business Server. 
   
 ### <a name="to-auto-assign-a-pin-number-to-a-user"></a>Para asignar automáticamente un número de PIN a un usuario
 
-El siguiente comando asigna un número PIN al usuario a Ken Myer. Ya no se incluye el parámetro del código Pin, Skype para Business Server generará automáticamente y asignar al número PIN.
+El siguiente comando asigna un número PIN al usuario a Ken Myer. Debido a que no se incluye el parámetro de Pin, Skype para Business Server generará automáticamente y asignar al número PIN.
     
   ```
   Set-CsClientPin -Identity "Ken Myer" 
-
   ```
 
 ### <a name="to-assign-a-specific-pin-number-to-a-user"></a>Para asignar automáticamente un número de PIN específico a un usuario

@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: Configurar rutas de voz de E9-1-1 en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: c31ac7c264fb931c127375eca5a383d10998c3f1
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b61b77fce36e0415d9c6f1189d8ecf2a5659d2f9
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568231"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server-2015"></a>Configurar una ruta de voz de E9-1-1 en Skype Empresarial Server 2015
  
@@ -49,7 +50,6 @@ Para implementar E9-1-1, deberá configurar primero una ruta de voz para llamada
     
    ```
    New-CsVoiceRoute -Name "EmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="EmergencyUsage"} -PstnGatewayList @{add="co1-pstngateway-1"}
-
    ```
 
 5. De forma opcional, para conexiones de enlace troncal SIP, se recomienda que ejecute el cmdlet siguiente para crear una ruta local para las llamadas que no se controlan mediante el tronco SIP del proveedor de servicios E9-1-1. Esta ruta se usará en el caso de que la conexión con el proveedor de servicios de E9-11 no esté disponible. 

@@ -10,11 +10,12 @@ ms.reviewer: marcl, ninadara, v-leslc
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6624aa94ef6581805e3ba2b79f09aefb95616bb0
-ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
+ms.openlocfilehash: 420e303ebd517a472dcd3bcde1004acf44ca2dc3
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569903"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
   
@@ -99,6 +100,10 @@ En este artículo se enumera los problemas conocidos de Microsoft Teams, por ár
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |Los usuarios locales de Skype Empresarial no reciben mis mensajes.  <br/> |Los mensajes no se completarán cuando los usuarios de Microsoft Teams intenten enviar un mensaje a otra persona que esté usando Skype Empresarial local. <br/> | Se admite la interoperabilidad entre Microsoft Teams y los usuarios que están alojados en Skype Empresarial Online. Los usuarios de Microsoft Teams pueden enviar chats entre dos personas a usuarios que no pertenezcan a Microsoft Teams con Skype Empresarial Online. <br/> No se admite la interoperabilidad entre Microsoft Teams y los usuarios que están alojados en Skype Empresarial local. Los usuarios de Microsoft Teams no pueden enviar chats entre dos personas a usuarios que no pertenezcan a Microsoft Teams con Skype Empresarial local. <br/> |02/11/2016  <br/> |
+
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|Skype para la interoperabilidad de negocio y equipos <br/> |Una vez que los usuarios se actualizan a los equipos que no se cierren al cliente de los equipos y, a continuación, usar el Skype para clientes empresariales de la misma manera que antes de que actualicen a los equipos. <br/> | Una vez que los usuarios han actualizado a los equipos que deben tener los equipos y Skype para clientes empresariales abrir al mismo tiempo o sólo tienen el cliente de los equipos abierto. Debe evitar tener sólo la Skype para cliente empresarial open en caso contrario, realizarán los mensajes de correo electrónico.<br/> |01/05/18  <br/> |
 
 ## <a name="client"></a>Cliente
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|

@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Solución de problemas de la implementación de nube conector Edition.
-ms.openlocfilehash: 2e4f0d2a258e48e4c953fb8ea4175c64b585b91f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 41d2d43c5b47c3c0774cbdf6a29304d8c86132dc
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569673"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Solución de problemas con la implementación de Cloud Connector
  
@@ -175,9 +176,8 @@ A continuación se muestran soluciones para problemas habituales:
   Unregister-CsHybridPSTNAppliance -Force
   ```
 
-- 
     
-    **Problema: El cmdlet Get-CcRunningVersion devuelve un valor vacío si no hay un dispositivo implementado que se ejecutan en el host.**
+-    **Problema: El cmdlet Get-CcRunningVersion devuelve un valor vacío si no hay un dispositivo implementado que se ejecutan en el host.**
     
     **Resolución:** esto puede producirse cuando se actualiza de 1.3.4 o 1.3.8 a 1.4.1. Después de instalar la versión 1.4.1 con .msi, debe ejecutar `Register-CcAppliance` antes de ejecutar cualquier otro cmdlet. `Register-CcAppliance` migrará el archivo module.ini de %perfilusuario%\CloudConnector a %ProgramData%\CloudConnector. Si no se hizo esto, se creará un nuevo module.ini en la carpeta %ProgramData%\CloudConnector y se reemplazará la información de la versión de copia de seguridad/en ejecución para 1.3.4 o 1.3.8.
     
@@ -208,21 +208,19 @@ A continuación se muestran soluciones para problemas habituales:
     
     Para las versiones en la nube conector antes de 2.0:
     
-  ```
-  Reset-CcCACertificate 
-Renew-CcServerCertificate 
-Remove-CcLegacyServerCertificate 
-
-  ```
+    ```
+    Reset-CcCACertificate 
+    Renew-CcServerCertificate 
+    Remove-CcLegacyServerCertificate 
+    ```
 
     O bien, para la versión de conector en la nube 2.0 y versiones posterior:
     
-  ```
-  Reset-CcCACertificate 
-Update-CcServerCertificate 
-Remove-CcLegacyServerCertificate 
-
-  ```
+    ```
+    Reset-CcCACertificate 
+    Update-CcServerCertificate 
+    Remove-CcLegacyServerCertificate 
+    ```
 
 3. Ejecute el cmdlet Exit-CcUpdate para iniciar los servicios y salir del modo de mantenimiento.
     
@@ -240,27 +238,25 @@ Remove-CcLegacyServerCertificate
     
     Para las versiones en la nube conector antes de 2.0:
     
-  ```
-  Reset-CcCACertificate
-Renew-CcServerCertificate
-Remove-CcLegacyServerCertificate 
-
-  ```
+    ```
+    Reset-CcCACertificate
+    Renew-CcServerCertificate
+    Remove-CcLegacyServerCertificate 
+    ```
 
     O bien, para la versión de conector en la nube 2.0 y versiones posterior:
     
-  ```
-  Reset-CcCACertificate
-Update-CcServerCertificate
-Remove-CcLegacyServerCertificate 
-
-  ```
+    ```
+    Reset-CcCACertificate
+    Update-CcServerCertificate
+    Remove-CcLegacyServerCertificate 
+    ```
 
   - En el primer dispositivo, ejecute el siguiente cmdlet para realizar una copia de seguridad de los archivos de la entidad emisora de certificados para la \<SiteRoot\> carpeta. Más adelante, en todos los otros dispositivos en el mismo sitio, el cmdlet Reset-CcCACertificate consumirá automáticamente los archivos de copia de seguridad de la entidad emisora de certificados y dispositivos, usarán el mismo certificado raíz.
     
-  ```
-  Backup-CcCertificationAuthority
-  ```
+    ```
+    Backup-CcCertificationAuthority
+    ```
 
   - Ejecute el cmdlet de Exit CcUpdate para iniciar servicios y salir del modo de mantenimiento. 
     
@@ -274,55 +270,51 @@ Remove-CcLegacyServerCertificate
   Set-CcCredential -AccountType TenantAdmin
   ```
 
-- 
-    
-    **Problema: Después de cambiar la contraseña de la cuenta del servidor de host utilizados para la implementación, recibirá el siguiente mensaje de error: "ConvertTo-SecureString: especificar la clave no es válido para su uso en estado." en %ProgramFiles%\Skype para la nube de Business Connector Edition\ManagementService\CceManagementService.log o mientras se ejecuta el cmdlet Get-CcCredential.**
+- **Problema: Después de cambiar la contraseña de la cuenta del servidor de host utilizados para la implementación, recibirá el siguiente mensaje de error: "ConvertTo-SecureString: especificar la clave no es válido para su uso en estado." en %ProgramFiles%\Skype para la nube de Business Connector Edition\ManagementService\CceManagementService.log o mientras se ejecuta el cmdlet Get-CcCredential.**
     
     **Resolución:** Todas las credenciales del conector en la nube se almacenan en el siguiente archivo: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ". Cuando se cambia la contraseña en el servidor de host, debe actualizar las credenciales almacenadas localmente.
     
     **Si está ejecutando en la nube conector versión 1.4.2,** vuelva a generar todas las contraseñas de conector en la nube, siga estos pasos:
     
-1. Reinicie el servidor host.
+    1. Reinicie el servidor host.
     
-2. Elimine el archivo siguiente: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ".
+    2. Elimine el archivo siguiente: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ".
     
-3. Iniciar una consola de PowerShell como administrador y, a continuación, ejecute "Register-CcAppliance-Local" para volver a escribir las contraseñas que sigue a la descripción. Escriba las mismas contraseñas que ha especificado antes de la implementación del conector en la nube.
+    3. Iniciar una consola de PowerShell como administrador y, a continuación, ejecute "Register-CcAppliance-Local" para volver a escribir las contraseñas que sigue a la descripción. Escriba las mismas contraseñas que ha especificado antes de la implementación del conector en la nube.
     
     **Si está ejecutando en la nube conector versión 2.0 o posterior,** vuelva a generar todas las contraseñas de conector en la nube, siga estos pasos:
     
-1. Reinicie el servidor host.
+    1. Reinicie el servidor host.
     
-2. Elimine el archivo siguiente: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ".
+    2. Elimine el archivo siguiente: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ".
     
-3. Iniciar una consola de PowerShell como administrador y, a continuación, ejecute "Register-CcAppliance-Local" para volver a escribir las contraseñas que sigue a la descripción. 
+    3. Iniciar una consola de PowerShell como administrador y, a continuación, ejecute "Register-CcAppliance-Local" para volver a escribir las contraseñas que sigue a la descripción. 
     
     Si el archivo de contraseñas almacenadas en caché se generó con la versión 1.4.2 de Cloud Connector, use la contraseña de VMAdmin para la contraseña de CceService cuando se le solicite. Introduzca la misma contraseña que usó antes para la implementación de Cloud Connector de todas las otras cuentas.
     
     Si el archivo de contraseñas almacenadas en caché se generó con la versión 1.4.2 de Cloud Connector y las contraseñas de DomainAdmin y VMAdmin son diferentes, debe realizar los siguientes pasos:
     
-1. Ejecute Set-CcCredential -AccountType DomainAdmin como sigue:
+    1. Ejecute Set-CcCredential -AccountType DomainAdmin como sigue:
     
-1. Cuando se soliciten las credenciales de cuenta anteriores, introduzca las credenciales que ha utilizado para la contraseña de CceService.
+    2. Cuando se soliciten las credenciales de cuenta anteriores, introduzca las credenciales que ha utilizado para la contraseña de CceService.
     
-2. Cuando se soliciten las credenciales de cuenta nuevas, introduzca la contraseña para la contraseña de DomainAdmin que usó antes.
+    3. Cuando se soliciten las credenciales de cuenta nuevas, introduzca la contraseña para la contraseña de DomainAdmin que usó antes.
     
     Si se ha generado el archivo de contraseña almacenada en caché con el conector de nube versión 2.0 o posterior, de forma predeterminada, VmAdmin y Administrador de dominio usan la misma contraseña como CceService. Si cambia la contraseña del administrador del dominio y VMAdmin, debe realizar los siguientes pasos:
     
-1. Ejecute Set-CcCredential -AccountType DomainAdmin como sigue:
+    1. Ejecute Set-CcCredential -AccountType DomainAdmin como sigue:
     
-1. Cuando se soliciten las credenciales de cuenta anteriores, introduzca las credenciales que ha utilizado para la contraseña de CceService.
+        1. Cuando se soliciten las credenciales de cuenta anteriores, introduzca las credenciales que ha utilizado para la contraseña de CceService.
     
-2. Cuando se soliciten las credenciales de cuenta nuevas, introduzca la contraseña para la contraseña de DomainAdmin que usó antes.
+        2. Cuando se soliciten las credenciales de cuenta nuevas, introduzca la contraseña para la contraseña de DomainAdmin que usó antes.
     
-2. Ejecute Set-CcCredential -AccountType VmAdmin como sigue:
+    2. Ejecute Set-CcCredential -AccountType VmAdmin como sigue:
     
-1. Cuando se soliciten las credenciales de cuenta anteriores, introduzca las credenciales que ha utilizado para la contraseña de CceService.
+        1. Cuando se soliciten las credenciales de cuenta anteriores, introduzca las credenciales que ha utilizado para la contraseña de CceService.
     
-2. Cuando se soliciten las credenciales de cuenta nuevas, introduzca la contraseña para la contraseña de VmAdmin que usó antes.  
+        2. Cuando se soliciten las credenciales de cuenta nuevas, introduzca la contraseña para la contraseña de VmAdmin que usó antes.  
     
-- 
-    
-    **Problema: Con la nube conector versión 2.1 y versiones posterior, cuando se ejecuta registrar CcAppliance u otros cmdlets en el dispositivo, recibirá un mensaje de error como: "para cada objeto: la propiedad 'Comunes' no se encuentra en este objeto. Compruebe que existe la propiedad. En C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 char: 14 "**
+- **Problema: Con la nube conector versión 2.1 y versiones posterior, cuando se ejecuta registrar CcAppliance u otros cmdlets en el dispositivo, recibirá un mensaje de error como: "para cada objeto: la propiedad 'Comunes' no se encuentra en este objeto. Compruebe que existe la propiedad. En C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 char: 14 "**
     
     **Resolución:** En la nube conector 2.1 y posterior requiere .NET Framework 4.6.1 o posterior. Por favor, actualice .NET Framework en el dispositivo a la versión 4.6.1 o posterior y vuelva a ejecutar la cmdlet(s).
     
@@ -346,9 +338,7 @@ Remove-CcLegacyServerCertificate
   Set-CsCceApplianceDeploymentStatus -Identity <Appliance Identity GUID> -Action Deploy -Status Finished
   ```
 
-- 
-    
-    **Problema: debe comprobar si existen actualizaciones de Windows e instalarlas manualmente en el servidor host o las máquinas virtuales.**
+-  **Problema: debe comprobar si existen actualizaciones de Windows e instalarlas manualmente en el servidor host o las máquinas virtuales.**
     
     **Resolución:** recomendamos que aproveche las actualizaciones automatizadas del sistema operativo proporcionada por Skype Empresarial Cloud Connector Edition. Después de que se registre un dispositivo para administración en línea y se habilite la actualización automática del sistema operativo, el servidor host y las máquinas virtuales automáticamente comprobarán si existen actualizaciones de Windows y las instalarán de acuerdo con la configuración de la ventana de la hora de actualización del sistema operativo.
     
@@ -358,15 +348,13 @@ Remove-CcLegacyServerCertificate
     
     Para obtener información sobre cómo actualizar manualmente su implementación de Cloud Connector, consulte la siguiente sección.
     
-- 
-    
-    **Problema: Al conector de la nube se actualiza a una nueva compilación, cmdlets de conector en la nube no se actualizan.** En ocasiones, esto ocurre si una ventana de PowerShell se deja abierta cuando se produzca la actualización automática.
+-   **Problema: Al conector de la nube se actualiza a una nueva compilación, cmdlets de conector en la nube no se actualizan.** En ocasiones, esto ocurre si una ventana de PowerShell se deja abierta cuando se produzca la actualización automática.
     
     **Resolución:** Para cargar los cmdlets actualizados, puede hacer lo siguiente:
     
-  - Cierre de PowerShell en el dispositivo de conector en la nube y, a continuación, vuelva a abrir PowerShell.
+     - Cierre de PowerShell en el dispositivo de conector en la nube y, a continuación, vuelva a abrir PowerShell.
     
-  - O bien, puede ejecutar Import-Module CloudConnector-Force. 
+     - O bien, puede ejecutar Import-Module CloudConnector-Force. 
     
 ## <a name="install-windows-updates-manually"></a>Instalar manualmente las actualizaciones de Windows
 
@@ -415,5 +403,3 @@ Si necesita instalar un software antivirus en el equipo host de conector en la n
 - %ProgramFiles%\WindowsPowerShell\Modules\CloudConnector
     
 - El proceso de Microsoft.Rtc.CCE.ManagementService.exe.
-    
-

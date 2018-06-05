@@ -1,5 +1,5 @@
 ---
-title: Ejecutar consulta
+title: Ejecutar la consulta
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,33 +10,34 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
-description: 'Resumen: Conozca la operación Ejecutar consulta, que forma parte de la API de datos para llamar al panel de calidad. Panel de calidad de la llamada es una herramienta de Skype para Business Server 2015.'
-ms.openlocfilehash: 6e294625e173854382e39abc098a0480871586ac
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información acerca de la operación de ejecutar la consulta, que es parte de la API de datos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.'
+ms.openlocfilehash: 3720ce118537963e5093741c4f05315e887bd60d
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569750"
 ---
-# <a name="run-query"></a>Ejecutar consulta
+# <a name="run-query"></a>Ejecutar la consulta
  
-**Resumen:** Obtener información sobre la operación de ejecutar consulta, que forma parte de la API de datos para llamar al panel de calidad. Panel de calidad de la llamada es una herramienta de Skype para Business Server 2015.
+**Resumen:** Obtenga información acerca de la operación de ejecutar la consulta, que es parte de la API de datos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.
   
-La operación de ejecutar consulta forma parte de la API de datos para llamar al panel de calidad.
+La operación de ejecutar la consulta forma parte de la API de datos para el panel de calidad de llamadas.
   
-## <a name="run-query"></a>Ejecutar consulta
+## <a name="run-query"></a>Ejecutar la consulta
 
-Ejecutar consulta operación proporciona la capacidad de ejecutar una consulta en el cubo basándose en los filtros, las medidas y dimensiones especificadas y devolver los datos de nuevo.
+Ejecutar consulta operación proporciona la capacidad de ejecutar una consulta en el cubo en función de los filtros, las medidas y dimensiones especificadas y volver atrás los datos.
   
 
-|**Método**|**URI de la solicitud**|**Versión de HTTP**|
+|**(Método)**|**URI de la solicitud**|**Versión de HTTP**|
 |:-----|:-----|:-----|
 |Exponer  <br/> |https://\<portal\>/QoEDataService/RunQuery  <br/> |HTTP/1.1  <br/> |
    
- **URI parámetros** : ninguno.
+ **Los parámetros URI** - ninguno.
   
  **Encabezados de solicitud** - sin encabezados adicionales.
   
- El **Cuerpo de la solicitud** - aquí es una carga de solicitud muestra en JSON. Contiene dimensiones, filtros y medida necesaria para una consulta.
+ **Cuerpo de la solicitud** - aquí es una carga de solicitud de ejemplo en JSON. Contiene las dimensiones, filtros y medida necesaria para una consulta.
   
 ```
 {
@@ -69,24 +70,23 @@ Ejecutar consulta operación proporciona la capacidad de ejecutar una consulta e
 "Type": 0
 }
 }
-
 ```
 
- *Filtros* : una lista de expresiones de filtro para aplicar tales que el conjunto de datos resultante se reflejan sólo el subconjunto de los datos que son de interés.
+ *Filtros* : una lista de expresiones de filtro que se aplique tal que el conjunto de datos resultante reflejará sólo el subconjunto de los datos que son de interés.
   
- *Dimensiones* - una lista de las dimensiones que se utilizará para la agregación de los datos. Se requiere al menos una dimensión pero pueden especificarse varias dimensiones para obtener un nivel adicional de agregados secundarios.
+ *Dimensiones* - una lista de las dimensiones que se usará para la agregación de los datos. Se requiere al menos una dimensión, pero se pueden especificar varias dimensiones para obtener un nivel adicional de agregaciones subcaracterística.
   
- *Medidas* : una lista de medidas, también conocido como hechos, que son las métricas a agregarse deseadas se basan en las dimensiones que especificó.
+ *Las medidas* : una lista de las medidas, también conocido como hechos, que son las métricas que desee para agregarse según las dimensiones que especificó.
   
- *Trend* - instrucciones de control adicional para personalizar los datos de resultado.
+ *Tendencia* - instrucciones adicionales de control para personalizar los datos de resultado.
   
  **Respuesta** : la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.
   
- **Código de estado** - una operación correcta devuelve el código de estado 200 (OK).
+ **Código de estado** - una operación correcta devuelve código de estado 200 (Aceptar).
   
  **Encabezados de respuesta** - sin encabezados adicionales.
   
- **Cuerpo de la respuesta** : a continuación es una carga de respuesta de ejemplo en JSON. Contiene una tabla de datos que contiene los datos, también contendrá metadatos, que muestra el tiempo de ejecución de la consulta y si son o no los datos de la caché.
+ **Cuerpo de la respuesta** - a continuación es una carga de respuesta de ejemplo en JSON. Contiene una tabla de datos que contiene los datos, también va a contener metadatos, que muestra el tiempo de ejecución de la consulta y si está o no los datos de la memoria caché.
   
 ```
 {
@@ -122,10 +122,8 @@ Ejecutar consulta operación proporciona la capacidad de ejecutar una consulta e
 
 ```
 
- *Tiempo de ejecución* - el tiempo total que tarda el servidor devuelva los datos. Esto puede o no puede implicar la caché.
+ *Tiempo de ejecución* : el tiempo total que tardó el servidor devuelva los datos. Esto puede o no puede implicar la memoria caché.
   
- *Resultados de datos* - el resultado de la consulta. Es una matriz bidimensional que contiene todas las permutaciones de los miembros de las dimensiones y cada elemento que contiene los nombres de miembros de las dimensiones, así como los valores agregados de las medidas especificadas.
+ *Resultado de los datos* - el resultado de la consulta. Es una matriz bidimensional que contiene todas las permutaciones de miembros de las dimensiones y cada elemento que contiene los nombres de miembros de las dimensiones, así como los valores agregados de las mediciones especificados.
   
- *Resultado es de la caché* - para diagnósticos. Indica si el resultado procede de la memoria caché o del cubo de la calidad de la experiencia.
-  
-
+ *Resultado es de la caché* - para diagnósticos. Indica si el resultado procede de la memoria caché o desde el cubo de QoE.

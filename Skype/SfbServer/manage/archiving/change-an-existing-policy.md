@@ -9,24 +9,25 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
-description: 'Resumen: Conozca cómo cambiar usuario políticas de archiving para Skype para Business Server 2015.'
-ms.openlocfilehash: f03ddc0799868e825c46fad2f93ba93d3b8a071a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información sobre cómo cambiar usuario directivas de archivado para Skype para Business Server 2015.'
+ms.openlocfilehash: 21774eaff8b58c585b347e1f657aa7afcc3b6106
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569410"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server-2015"></a>Cambiar una directiva de archivado existente en Skype Empresarial Server 2015
  
-**Resumen:** Aprenda a cambiar usuario políticas de archiving para Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo cambiar usuario directivas de archivado para Skype para Business Server 2015.
   
-Al implementar en primer lugar Skype para Business Server 2015, configurar políticas de archiving iniciales que determinan cómo se implementa el archivado de los usuarios en la implementación. Este tema describe cómo administrar y corregir directivas. 
+Cuando se implementa en primer lugar Skype para Business Server 2015, configurar las directivas de archivado iniciales que determinan cómo se implementa el archivado para los usuarios de su implementación. Este tema describe cómo administrar y corregir directivas. 
   
 ## <a name="change-archiving-policies-by-using-the-control-panel"></a>Cambiar las directivas de archivado con el Panel de control
 
 1. Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna. 
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de Admin para abrir el Skype para Panel de Control de servidor empresarial. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial. 
     
 3. En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Directiva de archivado**.
     
@@ -47,7 +48,7 @@ Al implementar en primer lugar Skype para Business Server 2015, configurar polí
 6. Haga clic en **Confirmar**.
     
     > [!IMPORTANT]
-    > La configuración de una directiva de usuario únicamente se aplica a los usuarios y grupos de usuarios específicos a los que aplica la directiva. Para obtener más información, vea [aplicar una directiva de archivado para los usuarios de Skype para Business Server 2015](apply-a-policy-to-users.md). 
+    > La configuración de una directiva de usuario únicamente se aplica a los usuarios y grupos de usuarios específicos a los que aplica la directiva. Para obtener información detallada, vea [aplicar una directiva de archivado para los usuarios de Skype para Business Server 2015](apply-a-policy-to-users.md). 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>Cambiar las directivas de archivado con Windows PowerShell
 
@@ -59,21 +60,18 @@ Para habilitar el archivado de sesiones de comunicación internas, establezca el
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True
-
 ```
 
 Para habilitar el archivado de sesiones de comunicación externas, establezca el valor del parámetro ArchiveExternal en True ($True): 
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveExternal $True
-
 ```
 
-Para habilitar el archivado de las sesiones de comunicación interna y externa, establezca el valor de los parámetros de la ArchiveInternal y la ArchiveExternal como True: 
+Para habilitar el archivado de sesiones de comunicación internas y externas, establezca el valor de los parámetros de la ArchiveInternal y ArchiveExternal en True: 
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True
-
 ```
 
 ### <a name="disable-archiving-policies"></a>Deshabilitar las directivas de archivado
@@ -82,5 +80,4 @@ Para deshabilitar el archivado por completo, establezca el valor de los parámet
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $False -ArchiveExternal $False
-
 ```

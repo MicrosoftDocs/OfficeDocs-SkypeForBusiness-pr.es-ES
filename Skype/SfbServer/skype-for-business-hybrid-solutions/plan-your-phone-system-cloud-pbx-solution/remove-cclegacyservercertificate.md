@@ -1,5 +1,5 @@
 ---
-title: Quitar CcLegacyServerCertificate
+title: Remove-CcLegacyServerCertificate
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
 description: El cmdlet Remove-CcLegacyServerCertificate quita los certificados de servidores heredados en el almacén de administración central, el servidor de mediación y el servidor perimetral después de ejecutar los cmdlets Renew-CcCACertificate o Renew-CcServerCertificate.
-ms.openlocfilehash: f23a753df1a5c9f81b81bc0f1d7d33c01020b489
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: dc52351d9c66ff310329da62dbd69da74b19c222
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569843"
 ---
-# <a name="remove-cclegacyservercertificate"></a>Quitar CcLegacyServerCertificate
+# <a name="remove-cclegacyservercertificate"></a>Remove-CcLegacyServerCertificate
  
 El cmdlet Remove-CcLegacyServerCertificate quita los certificados de servidores heredados en el almacén de administración central, el servidor de mediación y el servidor perimetral después de ejecutar los cmdlets Renew-CcCACertificate o Renew-CcServerCertificate.
   
@@ -41,13 +42,12 @@ En el siguiente ejemplo se quitan los certificados emitidos para el servidor de 
   
 ```
 Remove-CcLegacyServerCertificate -Roles @("MS", "Edge") 
-
 ```
 
 ## <a name="parameters"></a>Parámetros
 <a name="Examples"> </a>
 
-|**Parámetro**|**Requerida.**|**Tipo**|**Descripción**|
+|**Parámetro**|**Requerida.**|**Tipo de**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | Roles <br/> |Opcional   <br/> |System.Array  <br/> | Matriz de roles de servidor de Cloud Connector. <br/> |
    
@@ -70,6 +70,6 @@ Ninguno
   
 [CcCACertificate renovar](renew-cccacertificate.md)
   
-[Actualización CcCACertificate](update-cccacertificate.md)
+[Actualización de CcCACertificate](update-cccacertificate.md)
   
 

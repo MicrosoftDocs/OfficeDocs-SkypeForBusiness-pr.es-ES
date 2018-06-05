@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Resumen: Los profesionales de TI deben revisar los requisitos de soporte técnico para la Skype para la aplicación empresarial de Web y aplicación de las reuniones de Skype durante la planeación de Skype para Business Server 2015. En este artículo no está pensada para los usuarios de estas aplicaciones.'
-ms.openlocfilehash: 88006a758909f56f21724706bf9670077d603caa
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 832cc68dfb645132c95baaefb9c9af5d9e996a2a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2018
-ms.locfileid: "19546564"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569885"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planeación de los clientes de las reuniones (Web App y aplicación de las reuniones)
  
@@ -165,6 +165,8 @@ A partir de Skype para Business Server 2015 CU5, AES no es compatible con ASP.NE
   
 ## <a name="see-also"></a>Vea también
 <a name="BKMK_Conferencing"> </a>
+
+[Requisitos mínimos de red de aplicación de las reuniones de Skype](minimum-network-requirements.md)
 
 [Implementar a los clientes que se pueden descargar de Web en Skype para Business Server 2015](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 

@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 'Si necesitará quitar el servidor de archivos que actualmente está actuando como el almacén de archivos para su Skype para la implementación empresarial Server 2015, o si necesita realizar otros cambios que harían que el archivo actual almacén no está disponible, primero debe crear un nuevo recurso compartido. Después deberá realizar los siguientes pasos:'
-ms.openlocfilehash: 0fe535bef6878406f60560a256d6c89f91b91375
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: cb79fe34afee093647b7d871bdd3096ce6040f7a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569424"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>Mover los datos del almacén de archivos a un almacén de archivos nuevo en Skype Empresarial Server 2015
  
@@ -69,7 +70,6 @@ Si necesitará quitar el servidor de archivos que actualmente está actuando com
     
   ```
   Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
-
   ```
 
     > [!TIP]
@@ -85,9 +85,6 @@ Si necesitará quitar el servidor de archivos que actualmente está actuando com
     
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Reasignar un servidor a un almacén de archivos diferente](http://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
   
 [Quitar un almacén de archivos](http://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)
-

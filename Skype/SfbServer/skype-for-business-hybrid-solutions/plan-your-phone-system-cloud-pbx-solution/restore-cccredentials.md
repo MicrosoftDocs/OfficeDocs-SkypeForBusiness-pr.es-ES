@@ -9,27 +9,27 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
-description: El cmdlet Restore Cc-credenciales restaura todas las credenciales de la actual Skype para la implementación del conector de nube Business Edition.
-ms.openlocfilehash: 045d7f651408b1cbdbd508966da3272ac61d7c04
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: El cmdlet Restore Cc-credenciales restaura todas las credenciales de la actual Skype para la implementación de Business Edition de conector en la nube.
+ms.openlocfilehash: bb74444c5f63b792abf6c12c317c1a824298426c
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569736"
 ---
 # <a name="restore-cccredentials"></a>Restauración CcCredentials
  
-El cmdlet Restore Cc-credenciales restaura todas las credenciales de la actual Skype para la implementación del conector de nube Business Edition. 
+El cmdlet Restore Cc-credenciales restaura todas las credenciales de la actual Skype para la implementación de Business Edition de conector en la nube. 
   
-Este cmdlet se aplica a Skype para negocios nube conector Edition 2.1.
+Este cmdlet se aplica a Skype para conector Edition 2.1 de negocio en la nube.
   
 ```
-
 Restore-CcCredentials 
 ```
 
 ## <a name="detailed-description"></a>Descripción detallada
 
-El cmdlet Restore-CcCredentials limpia todas las credenciales y se le pregunta si desea volver a escribir todas las credenciales usadas para el actual Skype para implementación de nube de Business Connector.
+El cmdlet Restore-CcCredentials limpia todas las credenciales y le pregunta si desea volver a escribir todas las credenciales usadas para el actual Skype para la implementación de nube de Business Connector.
   
 ## <a name="parameters"></a>Parámetros
 
@@ -37,7 +37,7 @@ Ninguno
   
 ## <a name="input-types"></a>Tipos de entrada
 
-Ninguno. El cmdlet Restore-CcCredentials no acepta entrada canalizada.
+Ninguno. El cmdlet Restore-CcCredentials no acepta entradas transferidas.
   
 ## <a name="return-types"></a>Tipos de valores devueltos
 
@@ -45,7 +45,7 @@ Ninguno.
   
 ## <a name="example"></a>Ejemplo
 
-En el ejemplo siguiente se restaura todas las credenciales de la implementación de nube conector actual:
+En el ejemplo siguiente se restaura todas las credenciales de la implementación actual de conector en la nube:
   
 ```
     PS C:\>Restore-CcCredentials
@@ -55,6 +55,6 @@ En el ejemplo siguiente se restaura todas las credenciales de la implementación
 
 [Get-CcCredential](get-cccredential.md)
   
-[Conjunto de CcCredential](set-cccredential.md)
+[Set-CcCredential](set-cccredential.md)
   
 

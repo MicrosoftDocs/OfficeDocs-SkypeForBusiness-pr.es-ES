@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: 'Resumen: Obtenga información sobre cómo configurar escape de correo de voz de Skype para Business Server 2015 mediante el Skype para Shell de administración de servidor empresarial.'
-ms.openlocfilehash: dea96ffb9eb670a430e9f983660a793444812438
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2f8cf7549fd91c8153803a42f5dfb3b78a311e56
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568293"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business-2015"></a>Configurar escape de buzón de voz en Skype Empresarial 2015
  
@@ -42,14 +43,9 @@ Esta configuración se realiza mediante la Skype para cmdlet del Shell de admini
 
 ```
 Set-CsVoicePolicy UserVoicePolicy -EnableVoiceMailEscapeTimer $true - PSTNVoicemailEscapeTimer 2000
-
 Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -PSTNVoicemailEscapeTimer 1500
-
 ```
 
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Configuración de directivas de voz y registros de uso de RTC para autorizar privilegios y características de llamada](http://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
-
