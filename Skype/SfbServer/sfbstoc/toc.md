@@ -69,6 +69,8 @@
 #### Plan de enrutamiento directo de sistema telefónico de Microsoft
 ##### [Planeación de enrutamiento directo](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-direct-routing.md)
 ##### [Configurar el enrutamiento directo](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-direct-routing.md)
+##### [Migración a enrutamiento directo](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/migrating-to-direct-routing.md)
+##### [Cuentas de usuario en un entorno híbrido con conectividad RTC](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/user-accounts-in-a-hybrid-environment-with-pstn.md)
 ### [Planeación de la conectividad híbrida](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)
 ### [Implementa la conectividad híbrida](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
 #### [Configurar la federación con Skype para profesionales en línea](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md)
@@ -102,6 +104,7 @@
 #### [Compatibilidad con Office](../plan-your-deployment/clients-and-devices/compatibility-with-office.md)
 #### [Resolución de vídeo](../plan-your-deployment/clients-and-devices/video-resolutions.md)
 #### [Clientes de las reuniones](../plan-your-deployment/clients-and-devices/meetings-clients.md)
+##### [Requisitos mínimos de red de aplicación de las reuniones de Skype](../plan-your-deployment/clients-and-devices/minimum-network-requirements.md)
 #### [Requisitos para Windows Phone](../plan-your-deployment/clients-and-devices/requirements-for-windows-phone.md)
 #### [Sistema de salas de Skype v2](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 ##### [Compatibilidad con las versiones actuales de sucursal](../plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md)
