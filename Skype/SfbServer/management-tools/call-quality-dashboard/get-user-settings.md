@@ -10,43 +10,44 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bdfe063b-e808-4f3c-884a-acbbabb9be0a
-description: 'Resumen: Conozca la operación de obtener la configuración de usuario, que es parte del servicio de configuración de usuario. El servicio de configuración de usuario es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de la llamada es una herramienta de Skype para Business Server 2015.'
-ms.openlocfilehash: 55c3247f0412a9ce10927496ee65255129edfd93
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información acerca de la operación de obtener la configuración de usuario, que es parte del servicio de configuración de usuario. El servicio de configuración de usuario es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.'
+ms.openlocfilehash: 7342cce07a0ec327f4216a6ed690b1d753bf8cdc
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569473"
 ---
 # <a name="get-user-settings"></a>Obtener la configuración de usuario
  
-**Resumen:** Obtener información sobre la operación de obtener la configuración de usuario, que es parte del servicio de configuración de usuario. El servicio de configuración de usuario es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de la llamada es una herramienta de Skype para Business Server 2015.
+**Resumen:** Obtenga información acerca de la operación de obtener la configuración de usuario, que es parte del servicio de configuración de usuario. El servicio de configuración de usuario es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.
   
-La operación de obtener la configuración de usuario es parte del servicio de configuración de usuario en la API de repositorio para llamar al panel de calidad.
+La operación de obtener la configuración de usuario es parte del servicio de configuración de usuario de la API de repositorio para llamar al panel de calidad.
   
 ## <a name="get-user-settings"></a>Obtener la configuración de usuario
 
-Configuración de usuario de Get devuelve una lista de valores para un usuario especificado.
+Configuración del usuario Get devuelve una lista de valores para un usuario especificado.
   
 
-|**Método**|**URI de la solicitud**|**Versión de HTTP**|
+|**(Método)**|**URI de la solicitud**|**Versión de HTTP**|
 |:-----|:-----|:-----|
-|Obtener  <br/> |https://\<portal\>/QoERepositoryService/repository/usuario / {ID} / configuración  <br/> |HTTP/1.1  <br/> |
+|Obtener  <br/> |https://\<portal\>/QoERepositoryService/repository/usuario / {userId} / configuración  <br/> |HTTP/1.1  <br/> |
    
- **Parámetros del URI**
+ **Parámetros URI**
   
--  *efectivo* : opcional. Este parámetro aplica únicamente cuando se utiliza el valor predeterminado de ID de usuario especial. En otros casos, se omitirá. `True`Devuelve la configuración de usuario eficaz y `false` devuelve la configuración del usuario (predeterminado).
+-  *eficaz* - opcional. Este parámetro aplica sólo cuando se usa el valor predeterminado de identificador de usuario especiales. En otros casos, se omitirá. `True`Devuelve la configuración de usuario eficaz y `false` devuelve la configuración del usuario (valor predeterminado).
     
  **Encabezados de solicitud** - sin encabezados adicionales.
   
- **Cuerpo de la solicitud** - ninguno.
+ **Cuerpo de la convocatoria** - ninguno.
   
  **Respuesta** : la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.
   
- **Código de estado** - una operación correcta devuelve el código de estado 200 (OK).
+ **Código de estado** - una operación correcta devuelve código de estado 200 (Aceptar).
   
  **Encabezados de respuesta** - sin encabezados adicionales.
   
- **Cuerpo de la respuesta** : a continuación es una carga de respuesta de ejemplo en JSON.
+ **Cuerpo de la respuesta** - a continuación es una carga de respuesta de ejemplo en JSON.
   
 ```
 [{
@@ -59,7 +60,4 @@ Configuración de usuario de Get devuelve una lista de valores para un usuario e
 "key": "ShowTimeStamps",
 "value": "true"
 }]
-
 ```
-
-

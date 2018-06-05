@@ -16,18 +16,19 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
-ms.openlocfilehash: 312a008c85acb5067f0198e7a1b0a88cbbced8b5
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 7a572689575a708707aeca3eb963d5eb7d864594
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568275"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Activar o desactivar la precarga de contenido con Outlook en las reuniones
 
-Los usuarios pueden cargar contenido, archivos o datos adjuntos vinculados a una invitación de reunión de Outlook a un Skype para reuniones de negocios en línea, pero se puede activar o desactivar. Está activada de forma predeterminada en todas las organizaciones que utilizan Skype para los negocios en línea. Vea información sobre cómo [Precargar datos adjuntos para una reunión de Skype Empresarial.](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251).
+Los usuarios pueden cargar contenido, archivos o datos adjuntos que están asociados a una invitación de reunión de Outlook a un Skype para la reunión en línea de negocio, pero se la puede activar o desactivar. Está activado de forma predeterminada para todas las organizaciones que utilizan Skype para profesionales en línea. Vea información sobre cómo [Precargar datos adjuntos para una reunión de Skype Empresarial.](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251).
   
 > [!NOTE]
-> Actualmente, no hay ningún cmdlets disponibles en Skype para los negocios en línea para la configuración o la visualización de valores en línea para _MaxContentStorageMB_ y _MaxUploadFileMB_. Solo están disponibles para implementaciones locales. Es importante saber que el contenido no se cargarán en una reunión si el contenido adjunto supera el _MaxUploadFileSizeMB_ o si se alcanza el límite de _MaxContentStorageMB_ .
+> Actualmente, no hay ningún cmdlets disponibles en Skype para empresarial en línea para la configuración o la visualización de valores en línea para _MaxContentStorageMB_ y _MaxUploadFileMB_. Solo están disponibles para implementaciones locales. Es importante saber que el contenido no se cargarán en una reunión si el contenido adjunto supera el _MaxUploadFileSizeMB_ o si se alcanza el límite de _MaxContentStorageMB_ .
   
 ## <a name="to-get-you-started"></a>Para empezar
 
@@ -56,34 +57,21 @@ Si necesita más información, consulte [Conectarse a todos los servicios de Off
     > [!NOTE]
     > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.
   
-> 
-  ```
-  Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
-  ```
+```
+Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+$credential = Get-Credential
+$session = New-CsOnlineSession -Credential $credential
+Import-PSSession $session
+```
 
-> 
-  ```
-  $credential = Get-Credential
-  ```
-
-> 
-  ```
-  $session = New-CsOnlineSession -Credential $credential
-  ```
-
-> 
-  ```
-  Import-PSSession $session
-  ```
-
-Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar con todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [conectarse a Skype para los negocios en línea mediante el uso de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [Connecting to Skype para profesionales en línea mediante Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
 ## <a name="turning-it-on-or-off"></a>Activación o desactivación
 
-Posibilidad de cargar contenido adjunto a una invitación de reunión de Outlook para Skype para reuniones de negocios en línea está activada de forma predeterminada, pero debe evitar que los usuarios de su organización en precarga contenido en sus reuniones.
+Ser capaz de cargar de antemano contenido adjunto a una invitación de reunión de Outlook para Skype para reuniones en línea de negocio está activado de forma predeterminada, pero es posible que deba evitar que los usuarios de la organización de carga previa de contenido en sus reuniones.
   
 > [!IMPORTANT]
-> Esta configuración puede sólo activar o desactivar para toda la organización; no se activa o desactiva para un único usuario. 
+> Esta configuración sólo se puede activar o desactivar para toda la organización; no se puede activar o desactiva para un único usuario. 
   
  **Para desactivarla, abra Windows PowerShell y haga lo siguiente:**
   
@@ -99,7 +87,7 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-- En relación con Windows PowerShell, todo se reduce a la administración de usuarios y de lo que pueden o no hacer los usuarios. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
+- Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

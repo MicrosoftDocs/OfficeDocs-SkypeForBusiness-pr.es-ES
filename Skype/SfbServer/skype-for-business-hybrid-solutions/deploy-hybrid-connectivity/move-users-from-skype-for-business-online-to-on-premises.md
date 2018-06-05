@@ -16,11 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 description: 'Resumen: Obtenga información sobre cómo mover las cuentas de usuario de en línea para localmente en Skype para Business Server.'
-ms.openlocfilehash: 867fb34cbbb0e908fd8af521cff9a1867caa30a7
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 7e0400a0a77a50253e6932c8255c64eb58574229
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569480"
 ---
 # <a name="move-users-from-skype-for-business-online-to-on-premises"></a>Mover usuarios de Skype para empresarial en línea para local
  
@@ -144,9 +145,6 @@ Una vez que haya terminado de estos pasos, puede migrar las cuentas de usuario t
     
   ```
   $cred = Get-Credential
-  ```
-
-  ```
   Move-CsUser -Identity <username>@contoso.com  -Target "<fe-pool>.contoso.com " -Credential $cred -HostedMigrationOverrideURL <URL>
   ```
 

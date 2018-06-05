@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Resumen: Revise la carga equilibrio consideraciones antes de implementar Skype para Business Server 2015.'
-ms.openlocfilehash: 5d5c1c58746fe9656a0eb123d211ed5b3f330063
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: dee231f9c50e8ad71ead0ad6b31ad20e00da1b7a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569494"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Requisitos del equilibrio de carga para Skype Empresarial
  
@@ -151,6 +152,12 @@ Es necesario definir la supervisión de puertos en los equilibradores de carga d
 Skype Business Server habilita DNS para equilibrio de carga, una solución de software que puede reducir considerablemente la sobrecarga de administración para equilibrio de carga en la red. Equilibrio de carga DNS equilibra el tráfico de red que es exclusivo de Skype para Business Server, como el tráfico SIP y el tráfico de medios.
   
 Si implementa el equilibrio de carga DNS, se reducirán sobrecarga de administración su organización para equilibradores de carga de hardware. Además, se evitará la solución de problemas complejos asociados a errores de configuración de equilibradores de carga del tráfico SIP. También puede impedir que se establezcan conexiones de servidores para poder desconectar servidores. El equilibrio de carga de DNS también garantiza que los problemas relacionados con los equilibradores de carga de hardware no afecten a elementos de tráfico SIP, como el enrutamiento de llamadas básico.
+
+El siguiente diagrama muestra un ejemplo que incluye ambas interna y equilibrio de carga de DNS externo: 
+  
+**Diagrama de red perimetral con las direcciones IPv4 públicas**
+
+![ejemplo de diagrama de red DNS](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
 Si se utiliza el equilibrio de carga de DNS también podrá adquirir equilibradores de carga de hardware a un precio más económico que si usa equilibradores de carga de hardware para todos los tipos de tráfico. Debe usar los equilibradores de carga que han transcurrido calificación de interoperabilidad de las pruebas con Skype para Business Server. Para obtener información detallada acerca de pruebas de interoperabilidad de equilibrador de carga, vea [Socios de equilibrador de carga de Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=202452). El contenido se aplica a Skype para Business Server.
   
