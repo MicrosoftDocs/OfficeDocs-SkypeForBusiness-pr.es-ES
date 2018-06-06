@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 'Resumen: Revise las consideraciones de tipo de dirección IP a continuación antes de implementar Skype para Business Server 2015.'
-ms.openlocfilehash: d94995e75ecbb4df973a01ebfa5f00ed91575c19
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: adebab15a0c10310b25af30f6e933625df61dc3d
+ms.sourcegitcommit: a612ebe25e06c2cb090f776325712caf3cf3b943
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19630150"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Configurar tipos de dirección IP en Skype Empresarial
  
@@ -78,20 +79,15 @@ Con el generador, realice los pasos del siguiente procedimiento para implementar
     > [!NOTE]
     > No se admite la instalación de NIC adicionales para admitir la configuración de direcciones IP PSTN en los servidores de mediación independiente. Para obtener más información acerca de configuraciones compatibles de NIC de Skype para Business Server, vea [plataformas de hardware de servidor para Lync Server 2013](http://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx). 
   
-## <a name="deploy-ip-address-types-on-a-edge-server"></a>Implementar tipos de dirección IP en un servidor perimetral
+## <a name="deploy-ip-address-types-on-an-edge-server"></a>Implementar tipos de dirección IP en un servidor perimetral
 
-Con el generador, realice los pasos del siguiente procedimiento para implementar tipos de direcciones IP en un servidor perimetral.
+Con el generador, realice los pasos siguientes:
   
 ### <a name="to-deploy-ip-address-types-on-an-edge-server"></a>Para implementar tipos de direcciones IP en un servidor perimetral
 
 1. En Topology Builder, en **grupos de servidores perimetrales**, haga clic en el servidor dentro de un grupo de servidores y, a continuación, seleccione **Editar propiedades**. (Como alternativa, seleccione el servidor y, a continuación, haga clic en **Editar propiedades** en el menú **acción** ).
     
-2. En la ventana **Editar propiedades**, seleccione la configuración de dirección IP que quiera admitir. En las siguientes figuras se muestra una configuración de pila dual para la interfaz interna y la interfaz externa.
-    
-   **Dual apilada interfaz interna del servidor perimetral**
-
-   **Dual apilada interfaz externa del servidor perimetral**
+2. En la ventana **Editar propiedades**, seleccione la configuración de dirección IP que quiera admitir.    
 
 3. Es preciso proporcionar las direcciones internas y externas apropiadas para cada tipo de dirección que seleccione.
     
-
