@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Obtenga información sobre la implementación de varios sitios de RTC en la nube conector Edition.
-ms.openlocfilehash: 2bc56f2cdff3f852bf2557fc3ae98e1a2f8fa854
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: c0e41408b43574fdfd3e8dc6b1d2c8ffc434d8c5
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569529"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Implementar varios sitios en Cloud Connector
  
@@ -45,7 +46,6 @@ ExternalSIPIPs=192.168.1.4
 ExternalMRFQDNPoolName=mr1
 ExternalMRIPs=192.168.1.4
 ExternalMRPublicIPs=23.99.115.35
-
 ```
 
 Sitio RTC 2
@@ -64,7 +64,6 @@ ExternalSIPIPs=192.168.1.5
 ExternalMRFQDNPoolName=mr2
 ExternalMRIPs=192.168.1.5
 ExternalMRPublicIPs=104.42.226.134
-
 ```
 
 Para cada sitio de RTC que desee agregar, siga los pasos de [implementar un sitio de conector en la nube](deploy-a-single-site-in-cloud-connector.md).

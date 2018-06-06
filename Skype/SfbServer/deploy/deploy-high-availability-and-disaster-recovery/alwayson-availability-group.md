@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Implementar (instalar) un siempre en grupo de disponibilidad en su Skype para Business Server implementación.
-ms.openlocfilehash: ed6155ca1d3c7b24450bd8ca5099c2f6fc75e8a4
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 7a277421c13243ba7096a794b59ed93218644f22
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569508"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server-2015"></a>Implementar un grupo de disponibilidad siempre en un servidor Back-End de Skype para Business Server 2015
  
@@ -432,5 +433,3 @@ Cómo implementar un AG depende de si se implementa en un nuevo grupo de servido
      ```
 
      - Repita los dos pasos anteriores (conmutar por error el grupo a una réplica secundaria, a continuación, usar `Install-CsDatabase -Update`) para cada réplica en el grupo.
-    
-
