@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Lea este tema para obtener información acerca de cómo implementar sistemas de salón de Skype v2 con Exchange Online.
-ms.openlocfilehash: 210f01f4d016ee0d3855edc79f20e2adceaa4f18
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: f97b4a140a220440c18c5a3094af01299da9dddf
+ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568880"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19649615"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online-hybrid"></a>Implementar Sistemas de salas de Skype v2 con Exchange Online (híbrida)
  
@@ -40,7 +40,7 @@ Para implementar sistemas de salón de Skype v2 con Exchange Online, siga los pa
 Set-ExecutionPolicy Unrestricted
 $org='contoso.microsoft.com'
 $cred=Get-Credential $admin@$org
-$sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/ps1-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
+$sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
 ```
 
 2. Después de establecer una sesión, podrá crear un nuevo buzón y habilitar como un RoomMailboxAccount o cambiar la configuración de un buzón de sala existente. Esto le permitirá la cuenta autenticar en sistemas de salón de Skype v2.

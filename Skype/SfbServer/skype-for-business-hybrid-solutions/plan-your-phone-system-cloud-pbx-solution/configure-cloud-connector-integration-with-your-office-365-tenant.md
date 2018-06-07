@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Obtenga información sobre cómo configurar la integración de conector en la nube con el inquilino de Office 365.
-ms.openlocfilehash: 62caf2cd70b16f0a8e85a38b381478d49e4ee37c
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 40cb3334fb3d45432ada1a63aae8368a60433ad0
+ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19649646"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configurar la integración de Cloud Connector con el inquilino de Office 365
  
@@ -165,7 +166,7 @@ Cuando una llamada de P2P se remite a una conferencia de RTC, la Skype para serv
     
     Usar el dominio SIP predeterminado del conector en la nube (el primer dominio SIP en el archivo. ini) como el dominio de usuario.
     
-    No asigne ninguna licencia de Office 365 (como E5) a la cuenta que cree. Espere a que la sincronización de AD de Office 365 se complete.
+    Asignar una licencia de Office 365 (como E5) a la cuenta que cree.
     
 2. Iniciar una sesión de PowerShell remota de inquilino con sus credenciales de administrador de inquilinos y, a continuación, ejecute el siguiente cmdlet para establecer el servidor de mediación y el FQDN del servidor perimetral a ese usuario de cuenta, reemplazar \<DisplayName\> con el nombre para mostrar del usuario para el cuenta que ha creado:
     

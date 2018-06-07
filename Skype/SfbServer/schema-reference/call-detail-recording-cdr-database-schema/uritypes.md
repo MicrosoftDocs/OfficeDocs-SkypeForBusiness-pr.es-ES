@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77c4dfae-1b29-4e81-ba05-609e61643998
 description: En la tabla UriTypes contiene los diferentes tipos URI (identificador uniforme de recursos) que se supervisan en Skype para Business Server 2015.
-ms.openlocfilehash: e21fe7d88c64acf57ad8d318a755b7fa6c73c1c2
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: d1a796367ae068dcd814b13b1b0ec6ce9ae453f1
+ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570061"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19649608"
 ---
 # <a name="uritypes-table"></a>Tabla UriTypes
  
 En la tabla UriTypes contiene los diferentes tipos URI (identificador uniforme de recursos) que se supervisan en Skype para Business Server 2015.
 
-Cuando se crea la CDR DB, se crean dos registros para representar PhoneUri y UserUri y otros usuarios 
+Cuando se crea la CDR DB, se crean dos registros para representar PhoneUri y UserUri, y los registros se crean después de se asignan dinámicamente UriTypeId. 
   
 |**Columna**|**Tipo de datos**|**Clave o índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
