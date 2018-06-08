@@ -20,15 +20,19 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within the Skype for Business admin center. '
-ms.openlocfilehash: 28fb899586c6a0904126249b769e6fb0004878ca
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d7a5c272968def249df22af25fd36d257f8c74a0
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703468"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing"></a>Ver una lista de usuarios que están habilitados para conferencias de Audio
 
 Después de haber habilitado Skype para los usuarios empresariales o Teams de Microsoft en su organización para conferencias de Audio, puede ver la lista de los usuarios que han sido habilitados. Cuando examine la lista, también verá para cada usuario en la lista el tipo de proveedor de conferencias de audio que están usando, el número de teléfono de acceso telefónico predeterminada para el usuario, y si su organización no está habilitada para los identificadores de conferencia dinámico, la conferencia estática identificadores para las reuniones de conferencia de audio que organizan.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>Ver una lista de los usuarios
 
@@ -40,9 +44,6 @@ Después de haber habilitado Skype para los usuarios empresariales o Teams de Mi
     
 - En el panel de navegación izquierdo, vaya a la **conferencia de Audio** > **a los usuarios**.
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-    
 ## <a name="what-else-should-i-know"></a>¿Qué más debo saber?
 
 - Al ver la lista de usuarios que están habilitadas, puede seleccionar un usuario de la lista y usar el panel de acciones para modificar la configuración de conferencia de audio para que el usuario.
@@ -75,7 +76,7 @@ Después de haber habilitado Skype para los usuarios empresariales o Teams de Mi
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 
-- En relación con Windows PowerShell, todo se reduce a la administración de usuarios y de lo que pueden o no hacer los usuarios. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
+- Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

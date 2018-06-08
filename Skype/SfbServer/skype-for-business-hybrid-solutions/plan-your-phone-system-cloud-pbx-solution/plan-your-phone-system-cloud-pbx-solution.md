@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0c4a0ec4-1a2b-4ce8-8323-f797162ab4fe
 description: Obtenga información sobre el sistema de teléfono de Microsoft en soluciones de Office 365 (en la nube PBX) para habilitar el control de llamadas y las capacidades de conmutación (PBX) en la nube de Office 365.
-ms.openlocfilehash: 2b8fbad9d5ec81f4e950aa7dfe9041913761f1fb
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9949c2559bcaf6a46e788a0fe640b42c7a66c1b7
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695106"
 ---
 # <a name="plan-your-phone-system-in-office-365-cloud-pbx-solution"></a>Planear el sistema telefónico en la solución de Office 365 (en la nube PBX)
  
@@ -26,7 +27,11 @@ Obtenga información sobre el sistema de teléfono de Microsoft en soluciones de
   
 Microsoft ofrece una variedad de opciones para habilitar los usuarios para llamar a landlines y teléfonos móviles a través de la red telefónica pública conmutada (RTC), si existen la sus cuentas en Office 365 en Skype para profesionales en línea o en su Skype local para la empresa Implementación de servidor o de Lync Server 2013.
   
-En este artículo se describe las diferentes ofertas de voz de Microsoft y, a continuación, se proporciona orientación en el que es posible opciones que lo mejor para usted, según el estado actual y los planes futuros de la organización. Puede usar este artículo junto con la Skype de póster de soluciones de voz en línea de negocio está disponible como una descarga en formatos de [Visio](https://download.microsoft.com/download/2/E/E/2EE5C4DE-7F12-475C-A507-37870020F0D3/Plan Voice Solution poster - Final.vsdx) y [PDF](https://download.microsoft.com/download/2/E/E/2EE5C4DE-7F12-475C-A507-37870020F0D3/Plan Voice Solution poster - Final.pdf) .
+En este artículo se describe las diferentes ofertas de voz de Microsoft y, a continuación, se proporciona orientación en el que es posible opciones que lo mejor para usted, según el estado actual y los planes futuros de la organización. 
+
+Puede usar este artículo junto con la Skype para póster de soluciones de voz en línea de negocio disponible como una descarga en formato PDF y de Visio:
+* [Visio](https://download.microsoft.com/download/2/E/E/2EE5C4DE-7F12-475C-A507-37870020F0D3/Plan%20Voice%20Solution%20poster%20-%20Final.vsdx)
+* [PDF](https://download.microsoft.com/download/2/E/E/2EE5C4DE-7F12-475C-A507-37870020F0D3/Plan%20Voice%20Solution%20poster%20-%20Final.pdf)
   
 ## <a name="enterprise-voice"></a>Telefonía IP empresarial
 

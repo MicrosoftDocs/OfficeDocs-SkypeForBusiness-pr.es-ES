@@ -17,11 +17,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Los administradores pueden controlar cómo los organizadores pueden usar los números gratuitos para sus reuniones.
-ms.openlocfilehash: a63078256ac9ac52b3d405bd3cf1b63120fb77ce
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: c144f807a20088f8e2330b541ba18b1da4b40e10
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703802"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-users"></a>Deshabilitar a los números gratuitos para usuarios específicos
 
@@ -39,6 +40,9 @@ Cuando se deshabilitan los números gratuitos para el organizador de una determi
     > Esto volverá a enviar todas las invitaciones de correo electrónico del organizador a todos los participantes de las reuniones. 
 
  - Los participantes pueden continuar unirse a reuniones del organizador utilizando números de teléfono de pago. 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Deshabilitar a los números gratuitos para usuarios específicos 
 

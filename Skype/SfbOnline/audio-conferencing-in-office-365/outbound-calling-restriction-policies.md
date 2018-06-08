@@ -16,11 +16,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Los administradores pueden controlar el tipo de audioconferencias llamadas de RTC de conferencia y el usuario final que pueden realizar los usuarios.
-ms.openlocfilehash: 2929198a8bfff866f0d9f6d375593cd429885b2e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0533a15d6c60720f37c859f110b30af617d95774
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703428"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Directivas de restricción de llamada saliente para las llamadas de RTC de conferencias de Audio y usuario
 
@@ -36,6 +37,8 @@ Controles de llamada saliente se pueden aplicar por usuario y proporcionan los s
    > [!NOTE]
    > Una llamada se determina como nacionales si el número de teléfono llamada se encuentra en el mismo país como el país en el que se ha establecido en Office 365 para el organizador de la reunión (en el caso de conferencias de audio) o el usuario final (en el caso de las llamadas de RTC de usuario final). 
 
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Restringir las llamadas salientes de conferencias de audio 
 

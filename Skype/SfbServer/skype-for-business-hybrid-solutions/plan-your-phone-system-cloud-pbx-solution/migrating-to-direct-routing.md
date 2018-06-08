@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Obtenga información sobre lo que necesita para migrar a enrutamiento directo desde un Skype para profesionales en línea y perspectiva de la configuración de los equipos.
-ms.openlocfilehash: bac5f7bc9b215995429d591e829de63d19cfb636
-ms.sourcegitcommit: dfcdb18d0eb3205ef9180f048674f586aac92de0
+ms.openlocfilehash: a788c90472fdb76301682132caf0de19c646bbaa
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19579435"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703563"
 ---
 # <a name="migrating-to-direct-routing"></a>Migración a enrutamiento directo
 
@@ -106,3 +106,20 @@ Set-CsUserPstnSettings -Identity <UPN> -AllowInternationCalls $false -HybridPSTN
 ```
 
 
+## <a name="related-links"></a>VÍNCULOS RELACIONADOS
+
+[Guía de interoperabilidad y migración para las organizaciones que utilizan los equipos junto con Skype para la empresa](https://docs.microsoft.com/en-us/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
+
+[GRANT CsTeamsUpgradePolicy](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Grant-CsTeamsUpgradePolicy.md)
+
+[Get-CsTeamsUpgradePolicy](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Get-CsTeamsUpgradePolicy.md)
+
+[Nueva CsTeamsUpgradePolicy](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/New-CsTeamsUpgradePolicy.md)
+
+[Remove-CsTeamsUpgradePolicy](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Remove-CsTeamsUpgradePolicy.md)
+
+[Set-CsTeamsUpgradePolicy](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsTeamsUpgradePolicy.md)
+
+[Get-CsTeamsUpgradeConfiguration](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Get-CsTeamsUpgradeConfiguration.md)
+
+[Set-CsTeamsUpgradeConfiguration](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsTeamsUpgradeConfiguration.md)

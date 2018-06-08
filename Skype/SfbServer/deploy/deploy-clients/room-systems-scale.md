@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este tema para obtener más información sobre la implementación de sistemas de salón de Skype v2 en las implementaciones de gran escala.
-ms.openlocfilehash: 33ac42e42695a7881d6348aee32046223f97b418
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 2117916287ff6064f89a8be4dedec046d4e4cec4
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694904"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Implementación de sistemas de salón de Skype v2 mediante System Center Configuration Manager
 
@@ -576,7 +577,7 @@ Utilice las secuencias de tareas con System Center Configuration Manager para au
 
 Puede descargar y fácilmente importar una secuencia de tareas de ejemplo y personalícelo para satisfacer sus necesidades.
 
-1.  [**Descargue**]() el ejemplo de secuencia de tareas y copie el archivo zip descargado en una ubicación compartida.
+1.  [**Descargue**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true) el ejemplo de secuencia de tareas y copie el archivo zip descargado en una ubicación compartida.
 2.  En la consola de Configuration Manager, vaya a la **Biblioteca de Software** \> **sistemas operativos** \> **Secuencias de tareas**y, a continuación, seleccione **Importar secuencia de tareas**.
 
 3.  Seleccione **Examinar**, vaya a la ubicación de la carpeta compartida que utilizó en el paso 1, seleccione el archivo **.zip de implementación (EN-US) v2 de Skype salón de sistemas** y, a continuación, seleccione **siguiente**.
@@ -611,7 +612,8 @@ Puede descargar y fácilmente importar una secuencia de tareas de ejemplo y pers
         -  Proporcionar información de licencias y el registro incluida la clave de producto, contraseña de la cuenta de administrador local y la zona horaria (según sus necesidades).
 
     6.  **Aplicar la configuración de red**: este paso permite especificar un grupo de trabajo o el nombre de dominio de Active Directory y la unidad organizativa.
-
+    > [!NOTE]
+    > Vea [Consideraciones unirse de dominio del sistema de sala de Skype](domain-joining-considerations.md) para acciones recomendadas que debe tener en la implementación de unidades de v2 de Skype salón sistemas como miembros de un dominio de Active Directory.
     7.  **Aplicar controladores:** Este paso y sus subpasos se usan para implementar controladores de dispositivo aplicables y firmware basada en el modelo Surface Pro que tiene. Actualizar cada paso para especificar el paquete de controladores relevantes asociado con esta implementación.
         -   Cada paquete de controlador está configurado para sacar provecho de los filtros de Instrumental de administración de Windows (WMI) para implementar los controladores relevantes y marca y modelo de firmware según la Surface Pro.
         -   Se recomienda encarecidamente que no se modifique la configuración de estos controladores, en caso contrario, puede producirse un error de implementación.

@@ -20,17 +20,21 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información acerca de cómo restablecerlos y lo que debe saber acerca de PIN. '
-ms.openlocfilehash: 956c8e1ec7a83832c9aa2605845bc7fd42a047f7
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 85e890327da538016ffb874ee01be0e86959f47e
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703762"
 ---
 # <a name="reset-the-audio-conferencing-pin"></a>Restablecer el PIN de conferencia de Audio
 
 Un NIP es un código formado por los números que se crean para cada Skype para usuarios profesionales y Microsoft Teams está habilitado para conferencias de audio. PIN de conferencia de audio se usan por los organizadores de reuniones para identificar que son el organizador de la reunión y que puedan iniciar una reunión a través del teléfono. Si usan el Skype para aplicación empresarial o Microsoft Teams para iniciar la reunión, un PIN no es necesario. Si los usuarios olvidan su PIN y no pueden encontrar en el correo electrónico que se envió a ellos cuando se han habilitado para conferencias de audio, un administrador puede restablecer su NIP, o pueden restablecer su propios NIP.
   
 Las reuniones se pueden iniciar cuando se une a un usuario autenticado mediante un Skype para aplicación empresarial o Microsoft Teams o cuando el organizador se une a con su PIN a través del teléfono. Cuando una reunión necesita un PIN para empezar, los usuarios que se unan a la reunión por teléfono se colocarán en la sala de espera y escucharán música en espera hasta que se inicie la reunión. Si el organizador de la reunión no necesita un PIN para iniciar la reunión por teléfono, a los autores de la llamada no se les pedirá un PIN cuando se unan a la reunión.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="reset-a-users-pin"></a>Restablecer un PIN de usuario
 

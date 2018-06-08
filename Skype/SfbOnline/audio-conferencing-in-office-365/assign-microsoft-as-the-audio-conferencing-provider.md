@@ -20,17 +20,21 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: abb9a526a73951c3b3d4326fff67dc928691e2f1
-ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
+ms.openlocfilehash: 934513c3f119044f05835e49fe73f8aba74de753
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703732"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Asignar Microsoft como el proveedor de conferencia de audio
 
 Para utilizar la conferencia de Audio en Office 365 con Skype para empresas y Microsoft Teams, los usuarios de la organización necesitan tener una licencia de conferencias de Audio asignada a ellos. Vea [probar o comprar conferencias de Audio en Office 365](try-or-purchase-audio-conferencing-in-office-365.md) para obtener más información sobre licencias y cuánto cuesta.
 
 Conferencia de Audio de Microsoft proporciona los números de teléfono de acceso telefónico, el NIP y la conferencia identificadores que pueden usarse por los participantes de la reunión para unirse a las reuniones de la organización. Sólo debe asignar Microsoft como proveedor de conferencias de audio a las personas que se van a programar o un cliente potencial Skype para las reuniones de negocios o Teams de Microsoft.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Asignar Microsoft como el proveedor de conferencia de audio
 

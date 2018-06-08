@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: "Learn the steps to reset a user's meeting conference ID, and get links to meeting update and migration tools. "
-ms.openlocfilehash: eb827cff5bdfbc86bf85aab63a8f29165a91f034
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 3a02ae779b55aa9ca4f340d5a88d6e5fb9c5f750
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703418"
 ---
 # <a name="reset-a-conference-id-for-a-user"></a>Restablecer un id. de conferencia para un usuario
 
@@ -33,7 +34,10 @@ Un identificador de conferencia dinámico se incluye en la parte inferior de las
 > [!NOTE]
 > Si su proveedor de conferencia es Microsoft, los identificadores de conferencia de los usuarios se establecen en dinámico sólo de forma predeterminada. Lamentablemente, no hay ninguna capacidad para cambiar en la Skype para el centro de administración de negocio o el uso de Windows Powershell para convertirse en estáticos, ya que esta es ahora no compatible.
 ID de conferencia se establece automáticamente solo sólo para Skype para profesionales y Microsoft Teams a los usuarios habilitados para conferencias de Audio. 
-  
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="resetting-the-conference-id-for-a-user"></a>Restablecer el identificador de conferencia para un usuario
 
 ![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
@@ -80,7 +84,7 @@ ID de conferencia se establece automáticamente solo sólo para Skype para profe
 
 - En relación con Windows PowerShell, todo se reduce a la administración de usuarios y de lo que pueden o no hacer los usuarios. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
-  - [Introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     

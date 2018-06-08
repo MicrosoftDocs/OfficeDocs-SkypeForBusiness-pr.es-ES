@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
-ms.openlocfilehash: 66cf9e662231a9afefe605649e8bae0d4652713b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 31d81b1a61838d4fcb8151ef467b14a9c1240c4b
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703388"
 ---
 # <a name="dialing-out-from-a-meeting-so-other-people-can-join-it"></a>Llamar desde una reunión para que otras personas puedan unirse
 
@@ -33,6 +34,9 @@ ms.lasthandoff: 05/03/2018
 - Puede llamar solo si se une a una reunión con un cliente de Skype Empresarial.
     
 - Como organizador de la reunión, está habilitado para las conferencias de acceso telefónico local.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
  **Paso 1:** En la invitación a la reunión puede usar la opción **Invitar a varias personas** para llamar a un número de teléfono.
   
@@ -50,7 +54,7 @@ Dial-out is only available to some countries/regions. Para obtener una lista com
 
 [Probar o comprar Audioconferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
-- Puede obtener más información en [Conferencias de acceso telefónico en Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- [Licencias complementarias de Skype Empresarial y Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
 ## <a name="related-topics"></a>See also
 

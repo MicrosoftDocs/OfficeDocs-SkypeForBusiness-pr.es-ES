@@ -20,15 +20,19 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Como un administrador de Office 365, puede editar la configuración de conferencias de Audio, como el proveedor, pago predeterminado o número de teléfono gratuito, identificador de conferencia o PIN: para un usuario individual en la organización. Si desea editar la configuración de la organización, vea Administrar la conferencia de Audio configuración para mi organización.'
-ms.openlocfilehash: 141ede21a99ff251786c7dfc63f4c55358b61c72
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 064625919cab532c10cdadd16ad95e144d301419
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703378"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user"></a>Administrar la configuración de conferencia de Audio para un usuario
 
 Como un administrador de Office 365, puede editar la configuración de conferencias de Audio, como el proveedor, pago predeterminado o número de teléfono gratuito, identificador de conferencia o PIN: para un usuario individual en la organización. Si desea editar la configuración de la organización, vea [Administrar la configuración de conferencia de Audio de mi organización](manage-the-audio-conferencing-settings-for-my-organization.md).
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
 

@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn about what information is sent automatically to users by email when their dial-in conferencing settings change. '
-ms.openlocfilehash: 47225eff4d7d8bd091b2b7ba9d795c600cbd4b0e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4766f8f236cbe94b11660165b8659a892d301285
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703438"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change"></a>Correos electrónicos enviados a los usuarios cuando cambie la configuración de sus
 
@@ -77,6 +78,9 @@ De forma predeterminada, hay cuatro tipos de correo electrónico que se van a en
     
      ![Las conferencias de acceso telefónico local están desactivadas.](../images/audio-conferencing-turned-off.png)
   
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Realizar cambios en los mensajes de correo electrónico que se les envían
 
 Puede realizar cambios en el correo electrónico que se envía automáticamente a los usuarios incluidos en la dirección de correo electrónico y el nombre para mostrar que se incluye en la información *de* contacto. De forma predeterminada, será el remitente de los mensajes de correo electrónico de Office 365, pero se puede cambiar la dirección de correo electrónico y nombre para mostrar con Windows PowerShell y el cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) . Para realizar cambios en la dirección de correo electrónico que envía el correo electrónico a los usuarios, debe:

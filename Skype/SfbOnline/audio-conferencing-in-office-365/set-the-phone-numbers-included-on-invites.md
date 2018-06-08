@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: 5ddc20d1b9166315581a6f894c5d630d9e247881
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: eb2c5c5e8cdc0562cb5a2e391c741763b1da0bd4
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568285"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703752"
 ---
 # <a name="set-the-phone-numbers-included-on-invites"></a>Establecer el teléfono los números incluidos en invitaciones
 
@@ -38,6 +38,9 @@ Un puente de conferencia le proporciona un conjunto de números de teléfono de 
   
 > [!NOTE]
 > Puede haber un máximo de un teléfono de pago y un número de teléfono gratuito en la invitación a la reunión para un organizador de la reunión, pero también hay un vínculo que se encuentra en la parte inferior de cada invitación a la reunión que se abre la lista completa de todos los números de teléfono de acceso telefónico que se pueden usar para unirse a una reunión. 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>Establecer el número de teléfono de marcado predeterminado para un organizador de la reunión
 
@@ -56,9 +59,6 @@ Un puente de conferencia le proporciona un conjunto de números de teléfono de 
     ![Haga clic en Editar junto a la conferencia de Audio](../images/teamseditaudioconf.png)
 
 4. Use los campos de **número de teléfono de pago** o **número de teléfono gratuito** para escribir los números para el usuario.
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
 

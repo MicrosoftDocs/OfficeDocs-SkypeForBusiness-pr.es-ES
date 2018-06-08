@@ -9,13 +9,17 @@ ms.service: msteams
 ms.reviewer: lsomi
 description: Plan de acción de diez paso acelerado de actualización de Skype para la empresa a los equipos
 MS.collection: Strat_MT_TeamsAdmin
+robots: noindex
+redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams
+redirect_document_id: true
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: acb2463c687ad387145ab2a2ba058583233411cc
-ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
+ms.openlocfilehash: 00ea2876fb8a794292901b38236391099566aa95
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/16/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695369"
 ---
 <a name="about-upgrade-essentials"></a>
 # <a name="about-the-upgrade-essentials-checklist"></a>Acerca de la lista de comprobación de actualización de Essentials 

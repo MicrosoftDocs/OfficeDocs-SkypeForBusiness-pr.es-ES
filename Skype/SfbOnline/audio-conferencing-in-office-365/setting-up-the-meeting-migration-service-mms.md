@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Servicio de migración (MMS) de la reunión es un Skype para servicio empresarial que se ejecuta en segundo plano y Skype se actualiza automáticamente para las reuniones de negocios y Microsoft Teams para los usuarios. MMS está diseñado para eliminar la necesidad de los usuarios ejecutar la herramienta de migración de la reunión para actualizar su Skype para las reuniones de negocios y Microsoft Teams.
-ms.openlocfilehash: f81c394d676da951cf98f34f080fb26f135b9550
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 820726451c1ed9a28d29882903348f231ee4ce16
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501003"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703812"
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>Configuración del servicio de migración de reuniones (MMS)
 
@@ -141,6 +141,9 @@ Al igual que la Herramienta de migración de reuniones, MMS envía las actualiza
 ## <a name="managing-mms"></a>Administrar MMS
 
 Debe usar Windows PowerShell para administrar MMS y compruebe el estado de las migraciones continuadas. La información de esta sección asume que está familiarizado con el uso de PowerShell para administrar su organización de Skype Empresarial. Si está familiarizado con PowerShell, vea la sección [Uso de PowerShell para administrar su Skype para organización empresarial](setting-up-the-meeting-migration-service-mms.md#WPSInfo) al final de este artículo.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ### <a name="how-do-i-check-the-status-of-meeting-migrations"></a>¿Cómo compruebo el estado de las migraciones de las reuniones?
 

@@ -12,28 +12,28 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17a2a7e4be22878cf0625077b23fad388b38bc9e
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 6aaa763c423d7756808856706375f96f99224b9e
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19576991"
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694892"
 ---
-<a name="manage-the-microsoft-teams-private-app-store"></a>Administración de la tienda de aplicaciones de Microsoft los equipos privados
+<a name="publish-apps-to-the-microsoft-teams-private-app-store"></a>Publicar aplicaciones en la tienda de aplicaciones de Microsoft los equipos privados
 ============================================
 
 > [!IMPORTANT]
 > Esta página describe una característica de la versión preliminar y contiene contenido preliminar que puede cambiar considerablemente antes de que se libere. Las capturas de pantalla son marcadores de posición y podrían ser diferentes de lo que se ve.
 
-Puede usar Microsoft Teams Private App Store para crear y distribuir las aplicaciones de línea de negocio para su organización. 
+Puede usar Microsoft Teams Private App Store para probar y distribuir aplicaciones de línea de negocio para su organización. 
 
 Microsoft Teams Private App Store permite distribuir las aplicaciones de línea de negocio que han sido creadas específicamente para su organización y que se basan en para completan las funciones empresariales fundamentales para los usuarios. 
  
-Existen dos métodos para administrar la tienda de aplicaciones privada de los equipos:
+Existen dos métodos para publicar aplicaciones en la tienda de aplicaciones privada de los equipos:
 - Directamente desde el cliente de los equipos 
-- Cmdlets que aprovechan las API de gráfico de Microsoft (este método no todavía está disponible).
+- Cmdlets que aprovechan las API de gráfico de Microsoft (este método no está todavía disponible para vista previa.)
 
-## <a name="manage-the-teams-private-app-store-from-the-teams-client"></a>Administración de la tienda de aplicaciones privada de los equipos desde el cliente de los equipos
+## <a name="publish-an-app-to-the-teams-private-app-store-from-the-teams-client"></a>Publicar una aplicación en la tienda de aplicaciones privada de los equipos desde el cliente de los equipos
 
 ### <a name="get-a-teams-app-package"></a>Obtener un paquete de la aplicación de los equipos
 

@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to look up your dial-in conferencing numbers from within Skype for Business. '
-ms.openlocfilehash: bccd4a5c02dbb6bc32c27e315b80a39705284429
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 70602e252d7c31bff7d6181c0cd5a51353da2def
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703662"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers"></a>Ver una lista de números de conferencia de Audio
 
@@ -41,7 +42,10 @@ Puede ver [el teléfono invita los números incluidos en](set-the-phone-numbers-
   
 > [!NOTE]
 > Los números de marcado domésticos están dedicados a su organización y son los únicos que pueden configurarse como el número de teléfono predeterminado. Sin embargo, los números de marcado internacionales pueden compartirse en varias organizaciones. 
-  
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Para ver los números de teléfono de conferencia de audio
 
 ![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
@@ -50,9 +54,6 @@ Puede ver [el teléfono invita los números incluidos en](set-the-phone-numbers-
 2.  Ver los números de teléfono que están disponibles para conferencias de audio.
 
 - También puede ver la ubicación y el idioma principal que se utilizará en el operador automático de conferencia de audio.
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
 

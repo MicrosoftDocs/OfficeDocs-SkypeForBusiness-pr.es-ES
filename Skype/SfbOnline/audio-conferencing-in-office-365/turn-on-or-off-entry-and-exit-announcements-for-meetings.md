@@ -20,17 +20,21 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to turn entry and exit announcements on or off in a Skype for Business Online meeting using the Skype for Business admin center. '
-ms.openlocfilehash: 8c2eee6d9a6631fa9ade4e3f1dc4b54b74ea4465
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 18b22e5491b67b6f4ec3f089803bcfb5e486eb14
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703458"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>Activar o desactivar los anuncios de entrada y salida para las reuniones
 
 Cuando establece una conferencia con Audio en Office 365, obtendrá un puente de conferencia de audio. Un puente de conferencia puede contener uno o más números de teléfono que los usuarios utilizarán para llamar a en un Skype para reuniones de negocios o Teams de Microsoft. 
   
 El puente de conferencia responde a una llamada de un usuario que se llama a una reunión mediante un teléfono. El puente de conferencia responde el autor de la llamada con mensajes de voz de un operador automático de conferencia y, a continuación, dependiendo de la configuración, puede reproducir las notificaciones, pida a los autores de llamadas para registrar su nombre y configurar la seguridad de NIP. Un PIN se asignó a un Skype para profesionales o Microsoft Teams organizador de la reunión, y les permite iniciar una reunión si no pueden iniciar la reunión utilizando un Skype para aplicación empresarial o Teams de Microsoft. Sin embargo, se puede establecer para que no es necesario un NIP para iniciar una reunión.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-meeting-join-options"></a>Configurar las opciones para unirse a una reunión
 
@@ -60,8 +64,6 @@ El puente de conferencia responde a una llamada de un usuario que se llama a una
     
 5. Después de realizar los cambios, haga clic en **Guardar**.
     
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 

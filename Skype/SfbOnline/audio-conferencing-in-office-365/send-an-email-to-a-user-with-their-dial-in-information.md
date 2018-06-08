@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Enviar un correo electrónico con su información de conferencia de audio de los usuarios.
-ms.openlocfilehash: 0ac6aa097b9c34c23c27afb2e99e4e40e3f587c8
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 363c2ada59dfc0e61944e032d19f6d47a2d30343
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703398"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>Enviar un correo electrónico a un usuario con su información de conferencias de Audio
 
@@ -38,6 +39,9 @@ En ocasiones, Skype para los usuarios profesionales o Microsoft Teams necesite e
 Este es un ejemplo del correo electrónico que se envía:
   
 ![Correo electrónico de conferencia de acceso telefónico](../images/audio-conferencing-info.png)
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Enviar un correo electrónico con información de conferencia de audio a un usuario
 
@@ -46,10 +50,6 @@ Este es un ejemplo del correo electrónico que se envía:
 1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
 2. En la parte superior de la página, haga clic en **Editar**.
-
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
 

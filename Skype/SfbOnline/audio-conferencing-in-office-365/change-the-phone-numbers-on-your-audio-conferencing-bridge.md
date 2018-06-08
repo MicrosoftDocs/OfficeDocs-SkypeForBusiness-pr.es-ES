@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Cuando comprar licencias de conferencias de Audio, Microsoft hospeda el puente de conferencia de audio para su organización. El puente de conferencia de audio proporciona los números de teléfono de acceso telefónico desde diferentes ubicaciones para que los participantes y los organizadores de reuniones utilizar para unirse a Skype para reuniones profesionales o Teams de Microsoft mediante un teléfono.
-ms.openlocfilehash: 0eceff97470bf6c0df6b0818734955ebf71d0f76
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 1801a3501e865ca91081a0e298efc45882a872eb
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568367"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703652"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Cambiar los números de teléfono en el puente de conferencia de Audio
 
@@ -35,13 +35,13 @@ Además de los números de teléfono ya está asignados a su puente de conferenc
   
 > [!NOTE]
 > Para poder asignar o quitar la asignación a un número de teléfono para un puente de conferencia, el número de teléfono debe ser un número de '*service*'. Puede ver el tipo de número es navegando a **voz** > **los números de teléfono** y busque en la columna **Tipo de número** . Office 365 Communications créditos se debe establecer primero en orden para que los usuarios de marcado en el puente en un número de teléfono gratuito. 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>Pasos para asignar un número de teléfono de servicio nuevo a su puente de conferencia
 
 ### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>Paso 1: asignar al nuevo número de teléfono para el puente de conferencia de audio
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 1. Inicie sesión en Office 365 con su cuenta profesional.
     
