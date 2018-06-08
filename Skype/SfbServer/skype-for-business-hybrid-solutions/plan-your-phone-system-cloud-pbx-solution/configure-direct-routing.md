@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Obtenga información sobre cómo configurar el enrutamiento directo de Microsoft teléfono del sistema.
-ms.openlocfilehash: 2a600b7f6e61ae9dead69e5bfac534e2196974b1
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 225189778a2ab6650cc874d43a6db0fa9f684dfa
+ms.sourcegitcommit: 9dc1c9afccb1792611b6e6d60dfcf62302dbde81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570174"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19709172"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -102,7 +102,7 @@ Existen opciones adicionales que se pueden establecer durante el emparejamiento.
  
 En la siguiente tabla se enumera los parámetros adicionales que puede usar en la configuración de parámetros para *New-CsOnlinePstnGateway*. 
 
-|**¿Obligatorio?**|**Nombre.**|**Descripción**|**Valor predeterminado**|**Valores posibles**|**Tipo y restricciones**|
+|¿Obligatorio?|Nombre|Descripción|Predeterminado|Valores posibles|Tipo y restricciones|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Sí|FQDN|El nombre FQDN de la SBC |Ninguna|Nombre de NoneFQDN, límite 63 caracteres|Cadena, lista de caracteres permitidos y no permitidos en [las convenciones de nomenclatura en Active Directory para equipos, dominios, sitios y unidades organizativas](https://support.microsoft.com/en-us/help/909264)|
 |No|MediaBypass |El parámetro reservado para uso futuro. Parámetro indicado de la SBC admite el desvío de medios y el administrador desea usarlo.|Ninguna|Verdadero<br/>Falso|Booleano|
@@ -207,7 +207,7 @@ Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMai
 Por ejemplo, para agregar un número de teléfono para el usuario "Sergio bajo", escribiría lo siguiente: 
 
 ```
-Set-CsUser - “Spencer Low" -OnPremisLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsUser - “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
 El número de teléfono utilizado debe configurarse como un número de teléfono E.164 completo con el código de país. 
@@ -334,7 +334,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 Para crear la ruta de otra + 1, escriba:
 
 ```
-New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
+New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\\+1(\d{10})$"
 -OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
 ```
 
@@ -375,7 +375,7 @@ Name            : Redmond 2
 Identity        : Other +1 
 Priority            : 4
 Description     : 
-NumberPattern       : ^\+1(425|206) (\d{7})$
+NumberPattern       : ^\\+1(\d{10})$
 OnlinePstnUsages    : {US and Canada}    
 OnlinePstnGatewayList   : {sbc5.contoso.biz, sbc6.contoso.biz}
 Name            : Other +1
@@ -413,9 +413,9 @@ Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
 Que devuelve:
 <pre>
-OnlineVoiceRoutingPolicy
-------------------------
-US Only
+    OnlineVoiceRoutingPolicy
+    ---------------------
+    US Only
 </pre>
 
 #### <a name="creating-a-voice-routing-policy-with-several-pstn-usages"></a>Creación de una directiva de enrutamiento de voz con varios usos de RTC
