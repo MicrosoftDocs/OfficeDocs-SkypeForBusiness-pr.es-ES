@@ -6,57 +6,62 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: bjwhalen
-description: Esto le ayudará a elegir el modo de coexistencia y establecer otras opciones de configuración de coexistencia.
+description: En este artículo le ayudará a elegir el modo de coexistencia y establecer otras opciones de configuración de coexistencia.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7d96c628744273906f4289f7b82aa4cf28e4216
-ms.sourcegitcommit: 9dc1c9afccb1792611b6e6d60dfcf62302dbde81
+ms.openlocfilehash: d5540a204b1db34f65414cdba112401501884ccf
+ms.sourcegitcommit: 7c6036c60a8b18556215f5d540dda2a3f068479d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19713064"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19747074"
 ---
 # <a name="setting-your-coexistence-settings"></a>Establecer la configuración de coexistencia
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Al actualizar su Skype para usar los equipos de los usuarios de negocios, dispone de varias opciones disponibles para realizar un proceso transparente para los usuarios. Tiene la opción para realizar la coexistencia y actualizar la configuración para todos los usuarios de la organización o puede realizar cambios en la configuración de un único o un conjunto de usuarios de su organización. Puede encontrar más información, lea [los modos de actualización y coexistencia de comprenda el funcionamiento para Skype para profesionales y los equipos](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) para obtener una mejor comprensión de los tipos de modos que están disponibles para usted.
+Al actualizar su Skype para usar los equipos de los usuarios de negocios, dispone de varias opciones que le ayudarán a realizar un proceso transparente para los usuarios. Tiene la opción para realizar la coexistencia y actualizar la configuración para todos los usuarios de la organización a la vez, o puede realizar cambios en la configuración de un único o un conjunto de usuarios de su organización. Tenga en cuenta que las versiones anteriores de Skype para los clientes empresariales pueden no respetan estas opciones de configuración.
 
-## <a name="setting-your-upgrade-options-for-all-users-in-your-organization"></a>Configurar las opciones de actualización para todos los usuarios de la organización
+Asignada un nivel de usuario de configuración tiene prioridad sobre la configuración aplicada en el nivel de toda la organización. Puede obtener una mejor comprensión de los tipos de modos que están disponibles para usted, lea [comprender la coexistencia y actualización de viaje para Skype para profesionales y los equipos](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).  
+
+## <a name="setting-upgrade-options-for-all-users-in-your-organization"></a>Configurar las opciones de actualización para todos los usuarios de la organización
 
 ![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
 
 1. En el panel de navegación izquierdo, vaya a **configuración de toda la organización** > **actualización de los equipos**. 
 
 2. En la parte superior de la página de la **página de actualización de los equipos** , realice los siguientes cambios si trabajan para usted.
-- Establecer el modo de **coexistencia**
-    - **Islas** : use esta configuración cuando haya algunos usuarios en Skype para algunos usuarios que usan los equipos y profesionales.
-    - **Skype para la empresa sólo** - Utilice esta opción si sólo tienen Skype para los usuarios empresariales.
-    - **Los equipos sólo** - Utilice esta opción si sólo tienen los usuarios de los equipos.
-- Establecer **Skype para usuarios profesionales notificar a que los equipos está disponible para la actualización.**
-    - Si desactiva esta, indicará el Skype para usuarios profesionales que pueden actualizar a la aplicación de los equipos.
-- Establecer la **aplicación preferida para los usuarios participar en Skype para reuniones de negocios** esta configuración determina qué aplicación se usa para unirse a Skype para reuniones de negocios y se cumplirá independientemente del valor del modo de coexistencia.
-    - **Aplicación de las reuniones de Skype (valor predeterminado)**
-    - **Skype para la empresa con características limitadas**
-- Establecer si para **Descargar la aplicación de los equipos en el fondo de Skype para usuarios profesionales** esta configuración en modo silencioso descargas de la aplicación de los equipos de los usuarios que ejecutan Skype para la empresa en Windows. Se tiene en cuenta sólo si el modo de coexistencia para el usuario es sólo de los equipos, o si se habilitan las notificaciones de actualización pendientes en Skype para la empresa.
+    - Establezca el modo de **coexistencia** .
+        - **Islas** : Utilice esta opción si desea que los usuarios puedan utilizar ambos Skype para profesionales y los equipos de forma simultánea.
+        - **Skype para la empresa sólo** - Utilice esta opción si desea que los usuarios sólo para usar Skype para la empresa.
+        - Sólo los equipos de **los equipos sólo** - Utilice esta opción si desea que los usuarios usen. Tenga en cuenta que incluso con esta opción, los usuarios todavía pueden unirse a reuniones hospedadas en Skype para la empresa.
+    - Establecer **Notificar a Skype para los usuarios empresariales que los equipos está disponible para la actualización**. Si desactiva esta, le indicará el Skype para usuarios profesionales que se va a ser actualizado pronto a la aplicación de los equipos.
+    - Establecer la **aplicación preferida para los usuarios participar en Skype para reuniones de negocios**. Esta configuración determina qué aplicación se utiliza para unirse a Skype para reuniones de negocios y se cumplirá independientemente del valor del modo de coexistencia.
+      - **Aplicación de las reuniones de Skype**
+      - **Skype para la empresa con características limitadas**
+    - Establece si se van a **Descargar la aplicación de los equipos en el fondo de Skype para los usuarios empresariales**.  Esta opción de configuración en modo silencioso descarga la aplicación de los equipos de los usuarios que ejecutan Skype para la empresa en Windows. Se tiene en cuenta sólo si el modo de coexistencia para el usuario es sólo de los equipos o si se habilitan las notificaciones de actualización pendientes en Skype para la empresa.
 3. Después de realizar los cambios, haga clic en **Guardar** .
 
-## <a name="setting-your-upgrade-options-for-a-user-in-your-organization"></a>Configurar las opciones de actualización para un usuario de la organización
+## <a name="setting-upgrade-options-for-a-single-user-in-your-organization"></a>Configurar las opciones de actualización para un único usuario de la organización
 
 ![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
 
-1. En el panel de navegación izquierdo, vaya a **los usuarios** , a continuación, seleccione el usuario en la lista. 
-2. En la ficha de **cuenta** para el usuario, en la sección de **actualización de los equipos** , haga clic en **Editar**.
-- Puede establecer el modo de **coexistencia** . Elegir entre las siguientes opciones:
-    - **Configuración de uso Org-todo** Use esta configuración si desea que el usuario para utilizar la configuración de la configuración de **toda la organización** . Si selecciona esta opción, no puede seleccionar las notificaciones para el usuario.
-    - **Islas** : Use esta configuración cuando haya algunos usuarios en Skype para algunos usuarios que usan los equipos y profesionales. Si selecciona esta opción, puede habilitar las notificaciones para el usuario al activar la opción **Notificar la Skype para usuarios de empresa** . Le indicará el Skype para usuarios de empresa que pueden actualizar a la aplicación de los equipos.
-    - **Skype para la empresa sólo** - Utilice esta opción si sólo tiene Skype para los usuarios empresariales. Si selecciona esta opción, puede habilitar las notificaciones para el usuario al activar la opción **Notificar la Skype para usuarios de empresa** . Le indicará el Skype para usuarios de empresa que pueden actualizar a la aplicación de los equipos.
-    - **Los equipos sólo** - Utilice esta opción si sólo tienen los usuarios de los equipos. Si selecciona esta opción, puede habilitar las notificaciones para el usuario al activar la opción **Notificar la Skype para usuarios de empresa** . Le indicará el Skype para usuarios de empresa que pueden actualizar a la aplicación de los equipos.
-3. Después de realizar los cambios, haga clic en **Guardar** .
+1. En el panel de navegación izquierdo, vaya a **los usuarios**y, a continuación, seleccione el usuario en la lista. 
+2. En la ficha de **cuenta** para el usuario, en **los equipos de actualización**, haga clic en **Editar**.
+- Puede establecer el **modo de coexistencia**. Elegir entre las siguientes opciones:
+    - **Configuración de toda la organización uso** - Utilice esta opción si desea que el usuario para utilizar la configuración de la configuración de **toda la organización** . 
+    - **Islas** : Utilice esta opción si desea que el usuario para poder utilizar ambos Skype para profesionales y los equipos. 
+    - **Skype para la empresa sólo** - Utilice esta opción si desea que el usuario pueda utilizar Skype para la empresa. 
+    - Sólo los equipos de **los equipos sólo** - Utilice esta opción si desea que el usuario pueda utilizar. El usuario aún podrá unirse a Skype para reuniones de negocios.
+3. Si selecciona un **modo de coexistencia** distinto al **uso Org toda la configuración**, tiene la opción de habilitar las notificaciones en Skype del usuario para la aplicación empresarial de actualización a los equipos próximamente. Puede habilitar esta notificación para el usuario al activar la opción **Notificar la Skype para usuarios de empresa** .
+4. Después de realizar los cambios, haga clic en **Guardar** .
 
 ### <a name="related-topics"></a>See also
 [Planear el viaje](upgrade-plan-journey.md)
-[comprender la coexistencia y actualización de los modos de Skype para profesionales y los equipos](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+
+[Comprender la coexistencia y actualizar viaje para Skype para profesionales y los equipos](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+
+[Guía de interoperabilidad y migración para las organizaciones que utilizan los equipos junto con Skype para la empresa](https://docs.microsoft.com/en-us/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
