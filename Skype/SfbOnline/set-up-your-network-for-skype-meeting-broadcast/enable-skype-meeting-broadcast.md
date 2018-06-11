@@ -17,26 +17,27 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Antes de que los miembros de su organización puedan usar Difusión de reunión de Skype, usted deberá habilitarla. Para llevar a cabo este paso, tiene que saber cómo usar Windows PowerShell. Si no tiene experiencia con Windows PowerShell, analice contratar un socio de Microsoft para que lleve a cabo este paso por usted.
-ms.openlocfilehash: 847630e92d0a8ea26edcc7bb70213ee9f932517d
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 2564cf8acc809cb3b3973519bfea3518c851eb34
+ms.sourcegitcommit: 0fa147c33b1d7b5790af8d93339700ab62939430
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19744265"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Habilitar la Difusión de reunión de Skype
 
 [] Antes de que los miembros de su organización puedan usar Difusión de reunión de Skype, usted deberá habilitarla. Para llevar a cabo este paso, tiene que saber cómo usar Windows PowerShell. Si no tiene experiencia con Windows PowerShell, analice contratar un [socio de Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) para que lleve a cabo este paso por usted.
-  
-> [!CAUTION]
-> Difusión de reunión de Skype está desactivada de manera predeterminada porque la distribución del contenido multimedia de una reunión de difusión usa Red de entrega de contenido (CDN) de Microsoft Azure para conseguir una escala realmente elevada y ser compatible con las miles de personas que están viendo la difusión. El contenido multimedia agrupado que pasa a través de la CDN está cifrado, y el caché de CDN tiene un tiempo de vida limitado. Además, es posible que el componente de CDN de Azure todavía no satisfaga todos los elementos de las cláusulas modelo de la UE que deriva de la Directiva de protección de datos de la UE. Al habilitar esta característica, da por hecho que conoce esta advertencia. 
+
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Habilitar Difusión de reunión de Skype mediante el Centro de administración de Skype Empresarial
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
 
 1. Inicie sesión con su cuenta de administrador global de Office 365 en [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
     
 2. En el Centro de administración de Office 365, vaya a **Centros de administración** > **Skype Empresarial**.
     
-3. En el **Skype para el centro de administración de negocios**, vaya a **las reuniones en línea** > **reuniones de difusión**y, a continuación, seleccione **Habilitar la difusión de reunión de Skype**.
+3. En el **Skype para el centro de administración de negocio**, vaya a **las reuniones en línea** > **difundir las reuniones**y, a continuación, seleccione **Habilitar la difusión de reunión de Skype**.
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>Habilitar la Difusión de reunión de Skype mediante PowerShell
 
