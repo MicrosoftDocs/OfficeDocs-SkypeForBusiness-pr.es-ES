@@ -1,5 +1,5 @@
 ---
-title: Establecer la configuración de coexistencia
+title: Establecer las opciones de actualización y coexistencia
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -11,14 +11,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5540a204b1db34f65414cdba112401501884ccf
-ms.sourcegitcommit: 7c6036c60a8b18556215f5d540dda2a3f068479d
+ms.openlocfilehash: b23869226081b46a3668d33b0a25528de4e04ec4
+ms.sourcegitcommit: 86a88975f9ac8d282ae5fc71d6c2f8f6208c0b6a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
-ms.locfileid: "19747074"
+ms.locfileid: "19748913"
 ---
-# <a name="setting-your-coexistence-settings"></a>Establecer la configuración de coexistencia
+# <a name="setting-your-coexistence-and-upgrade-settings"></a>Establecer las opciones de actualización y coexistencia
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
