@@ -1,5 +1,5 @@
 ---
-title: Bloqueado licencias de usuario para la difusión de la reunión de Skype
+title: Bloquea las licencias de usuario para difundir presentación de reunión de Skype
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,52 +16,46 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - SMB
-description: Desafortunadamente, hay ciertas licencias de usuario se bloquean cuando el usuario vaya a https://broadcast.skype.com y desea utilizar Skype reunión difusión. Si un usuario ve este mensaje, tienen una licencia bloqueada asignado a ellos. Si aún desea utilizarla, asignarles otra licencia de Office 365.
-ms.openlocfilehash: 536df828081fdda78b6a0079a53661a4b3276e3a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Desafortunadamente, hay algunas licencias de usuario que se bloquean cuando el usuario vaya a https://broadcast.skype.com y quiere usar Difundir presentación de reunión de Skype. Si un usuario ve este mensaje, tienen una de las licencias bloqueadas asignadas a ellos. Si aún desea usarlo, asígnele otra licencia de Office 365.
+ms.openlocfilehash: f7a7bb44a6de3cfaa5af282f855b0345f0a3ea76
+ms.sourcegitcommit: 2290f152ea13d87fb1fd70007fe19523184ce947
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/12/2018
+ms.locfileid: "19844603"
 ---
-# <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Bloqueado licencias de usuario para la difusión de la reunión de Skype
+# <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Bloquea las licencias de usuario para difundir presentación de reunión de Skype
 
-Desafortunadamente, hay ciertas licencias de usuario se bloquean cuando los usuarios vayan a https://broadcast.skype.com y desea utilizar Skype reunión difusión. Si un usuario ve este mensaje, tienen una licencia bloqueada asignado a ellos. Si aún desea utilizarla, asignarles otra licencia de Office 365.
+Desafortunadamente, hay algunas licencias de usuario que se bloquean cuando los usuarios que vayan a https://broadcast.skype.com y quiere usar Difundir presentación de reunión de Skype. Si un usuario ve este mensaje, tienen una de las licencias bloqueadas asignadas a ellos. Si aún desea usarlo, asígnele otra licencia de Office 365.
   
- *"La directiva de empresa no permite utilizar Skype reunión difusión. Consulte con su administrador del sistema para asegurarse de que el servicio está habilitado y que tiene la licencia correcta".* 
+ *"La directiva de empresa no permite usar Difundir presentación de reunión de Skype. Compruebe con el administrador del sistema para asegurarse de que el servicio está habilitado y que tiene la licencia correcta".* 
   
-## <a name="blocked-user-licenses"></a>Licencias de usuario bloqueadas
+## <a name="blocked-user-licenses"></a>Licencias de usuario bloqueados
 
-Difundir reunión de Skype se bloqueará si cualquiera de las siguientes licencias de usuario se asignan a un usuario.
+Difundir presentación de reunión de Skype se bloqueará si cualquiera de las siguientes licencias de usuario se asignan a un usuario.
   
-- Personal/Fac de educación de Office 365
+- Office 365 educación /fac/personal
     
-- Estudiante de educación de Office 365
+- Office 365 educación Student
     
-- Office 365 educación Plus Fac/personal
+- Office 365 educación Plus /fac/personal
     
-- Office 365 educación Plus alumno
+- Office 365 educación Plus Student
     
-- Office 365 educación E1 Fac/personal
+- Office 365 educación E1 /fac/personal
     
-- Office 365 educación E1 alumno
+- Office 365 educación E1 Student
     
-- Office 365 educación E3 Fac/personal
+- Office 365 educación E3 /fac/personal
     
-- Office 365 educación E3 Fac/personal grande
+- Office 365 educación E3 /fac/personal de gran tamaño
     
 - Office 365 educación E3 Student
     
-- Beneficios de uso de Office 365 A3 alumno
+- Ventaja de uso de Office 365 A1 student
     
-- Beneficios de uso de Office 365 A5 alumno
-    
-- Office 365 A5 sin beneficio uso PSTN conferencia alumno
-    
-- Beneficios de uso de Microsoft 365 A3 alumno
-    
-- Beneficios de uso de Microsoft 365 A5 alumno
-    
-- Ventajas de utilizar Microsoft 365 A5 alumno sin conferencias PSTN
+- Ventajas de uso de Microsoft 365 A1 student
+
     
 ## <a name="related-topics"></a>See also
 
