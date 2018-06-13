@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 description: Lea este tema para obtener información acerca de cómo implementar sistemas de salón de Skype v2 en un entorno híbrido con Exchange local.
-ms.openlocfilehash: f2550fb5dffcd8be3f3f8e330db2e3cfa32651dd
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: cf816fe8b2a80f10ce34c46cb527bb72774ebd10
+ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500793"
+ms.lasthandoff: 06/12/2018
+ms.locfileid: "19856023"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-on-premises-hybrid"></a>Implementar Sistemas de salas de Skype v2 con Exchange local (híbrida)
  
@@ -66,16 +66,15 @@ Si va a implementar sistemas de salón de Skype v2 con Exchange local, va a usar
 1. Habilitar el buzón remoto, abra el shell de administración de Exchange local con permisos de administrador y ejecute el siguiente comando:
      
    ```
-   Enable-Mailbox 'PROJECTRIGEL01@contoso.com' -RemoteRoutingAddress 'PROJECTRIGEL01@contoso.com' -Room
+   Enable-Mailbox 'PROJECTRIGEL01@contoso.com' -Room
    ```
 
 2. Iniciar una sesión remota de Windows PowerShell y conectarse a Microsoft Exchange. Desde el inquilino de Office 365, ejecute los siguientes comandos:
     
    ```
-   Set-ExecutionPolicy Unrestricted
    $org='contoso.com'
    $cred=Get-Credential $admin@$org
-   $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri 'https://outlook.office365.com/ps1-liveid/' -Credential $cred -Authentication Basic -AllowRedirection 
+   $sess = New-PSSession -ConfigurationName Microsoft.Exchange -Credential $cred -AllowRedirection -Authentication Basic -ConnectionUri "https://<ExchangeServerFQDN>/PowerShell"
    Import-PSSession $sess
    ```
 

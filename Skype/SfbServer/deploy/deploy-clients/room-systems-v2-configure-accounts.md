@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Lea este tema para obtener más información sobre cómo configurar cuentas para sistemas de salón de Skype v2 en Exchange e Skype para Business Server 2015.
-ms.openlocfilehash: 1aa6c3d9ca8d80f054550cfa167a7a75e032ef0f
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: fb0bbe4b8048bfeda0acf10a0e6cfc73ce8163ea
+ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501379"
+ms.lasthandoff: 06/12/2018
+ms.locfileid: "19856166"
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>Configurar cuentas para sistemas de salón de Skype v2
  

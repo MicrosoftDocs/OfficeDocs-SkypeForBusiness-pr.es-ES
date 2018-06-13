@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: En este artículo se explica las consideraciones de planeación relevantes para la implementación de sistemas de salón de Skype v2, la próxima generación de sistemas de salón de Skype.
-ms.openlocfilehash: 20c2163988d73eb704b09ee8f845a1a046a593af
-ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
+ms.openlocfilehash: 89bcfb0e668526893b14dba5202a4e22fed2e8a8
+ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/12/2018
+ms.locfileid: "19856118"
 ---
 # <a name="plan-skype-room-systems-v2"></a>Planeación de la sala de Skype v2 de sistemas 
 
