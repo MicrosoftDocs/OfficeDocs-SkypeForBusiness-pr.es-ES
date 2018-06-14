@@ -8,19 +8,21 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: En este artículo se describe problemas conocidos de las versiones actuales de sucursal de sistemas de salón de Skype v2.
-ms.openlocfilehash: 9214a1b198431decda70687d7e1dd3aa08069554
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: En este artículo se describe los problemas conocidos para sistemas de salón de Skype v2, por área de característica.
+ms.openlocfilehash: 2fde12d616260963dc342df2d9cef94acf616756
+ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19881545"
 ---
 # <a name="known-issues"></a>Problemas conocidos 
  
 En este artículo se enumeran los problemas conocidos para sistemas de salón de Skype v2, por área de característica.
 <!-- If we get word that one of these issues no longer applies, contact meerak@microsoft.com or msmets@microsoft.com and let them know to EoL the corresponding KB  -->
 
-<a name="update"></a> ## Actualización 
+<a name="update"> </a>  
+## <a name="update"></a>Actualización 
 
 | Título del problema |  Comportamiento de \/ síntoma | Solución conocida | Artículo KB |
 |  ---        |      ---             |   ---            | --- |
@@ -53,14 +55,12 @@ Use siempre una conexión de red de 1 Gbps por cable para asegurarse de que tien
 ***
 Si su dispositivo v2 de sistemas de salón de Skype pierde la relación de confianza con el dominio (por ejemplo, si quita el v2 de sistemas de salón de Skype desde el dominio después de está unido al dominio), no podrá autenticar en el dispositivo y abrir seguridad de la configuración. La solución alternativa es iniciar sesión con la cuenta de administrador local. 
 ***
-Ya no se admite la versión de 64 bits de edición de Windows 10 Enterprise aniversario (en inglés, versión 1607) a partir de sistemas de salón de Skype v2 versión 3.0.12.0 (actualización 3). 
+Ya no se admite la versión de 64 bits de edición de Windows 10 Enterprise aniversario (en inglés, versión 1607) a partir de sistemas de salón de Skype v2 versión 3.0.12.0. 
 ***
 
 <a name="See"> </a>  
 ## <a name="see-also"></a>Vea también
 
-
-#### 
 [Ayuda de la versión 2 de sistemas de salón de Skype](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Administración de salón de Skype v2 de sistemas](skype-room-systems-v2.md)
