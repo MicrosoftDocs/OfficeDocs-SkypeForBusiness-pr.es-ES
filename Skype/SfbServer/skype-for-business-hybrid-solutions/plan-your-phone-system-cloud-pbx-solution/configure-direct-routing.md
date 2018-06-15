@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Obtenga información sobre cómo configurar el enrutamiento directo de Microsoft teléfono del sistema.
-ms.openlocfilehash: 225189778a2ab6650cc874d43a6db0fa9f684dfa
-ms.sourcegitcommit: 9dc1c9afccb1792611b6e6d60dfcf62302dbde81
+ms.openlocfilehash: 8b132174a305e55d79b935ceec5105fcfc1fc2e6
+ms.sourcegitcommit: 6c3bf5f453188bc951e92aa26b5562bf6680d4d7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19709172"
+ms.lasthandoff: 06/15/2018
+ms.locfileid: "19907947"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -346,7 +346,7 @@ En algunos casos es necesario para enrutar todas las llamadas a la misma SBC; Po
 - Enrutar todas las llamadas a la misma SBC
 
     ```
-    Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern "." 
+    Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" 
      -OnlinePstnGatewayList sbc1.contoso.biz
     ```
 
