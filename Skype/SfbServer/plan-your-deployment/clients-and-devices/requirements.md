@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
-description: En este artículo se resume los requisitos para admitir un v2 de sistemas de salón de Skype.
-ms.openlocfilehash: 443f24e80b8d7e66c38fdb0e2e99ab6926bce4b4
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: En este artículo se resume los requisitos para la compatibilidad con sistemas de salas de Skype v2.
+ms.openlocfilehash: 1d44178beb69cda78b72bb8d0e599af81be39321
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504802"
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887880"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Requisitos de Sistemas de salas de Skype v2
  
-En este artículo se resume los requisitos para admitir un v2 de sistemas de salón de Skype. 
+En este artículo se resume los requisitos para la compatibilidad con sistemas de salas de Skype v2. 
   
 La implementación incluirá la creación de cuentas como se describe en [implementar sistemas de salón de Skype v2](../../deploy/deploy-clients/room-systems-v2.md) y configurar una consola de reunión tal como se describe en [Configurar una consola de v2 de sistemas de salón de Skype](../../deploy/deploy-clients/console.md). También es posible que necesita hacer referencia a [Skype para Business licensing del complemento](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).
   
@@ -136,7 +136,7 @@ Necesitará las siguientes descargas para crear su propia imagen de v2 de sistem
     
 Estas descargas deben combinarse en un disco de medios de instalación de Windows arranque de una manera específica, describen más detalladamente en [Configure una consola de v2 de sistemas de salón de Skype](../../deploy/deploy-clients/console.md). 
   
-Además, deseará probablemente una copia de [SkypeRoomProvisioningScript.ps1](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomProvisioningScript.ps1.txt), usado para aprovisionar cuentas v2 de sistemas de salón de Skype.
+Además, deseará probablemente una copia de [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a menudo se usan para aprovisionar cuentas v2 de sistemas de salón de Skype.
   
 ## <a name="see-also"></a>Vea también
 

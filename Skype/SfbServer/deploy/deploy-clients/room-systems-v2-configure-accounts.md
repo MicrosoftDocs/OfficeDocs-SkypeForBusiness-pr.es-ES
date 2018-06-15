@@ -12,25 +12,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ''
-description: Lea este tema para obtener más información sobre cómo configurar cuentas para sistemas de salón de Skype v2 en Exchange e Skype para Business Server 2015.
-ms.openlocfilehash: fb0bbe4b8048bfeda0acf10a0e6cfc73ce8163ea
-ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
+description: Lea este tema para obtener más información sobre cómo configurar cuentas para sistemas de salón de Skype v2 en Exchange e Skype para la empresa.
+ms.openlocfilehash: 8284795df5f3cc50db0a4089deb9755239e5876e
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2018
-ms.locfileid: "19856166"
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887901"
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>Configurar cuentas para sistemas de salón de Skype v2
  
-Lea este tema para obtener más información acerca de sistemas de salón de Skype v2 y cómo se integra con Exchange y Skype para Business Server 2015.
+Lea este tema para obtener más información acerca de sistemas de salón de Skype v2 y cómo se integra con Exchange y Skype para la empresa.
   
-En este tema se explica cómo crear las cuentas usadas por v2 de sistemas de salón de Skype en Microsoft Exchange y Skype para Business Server 2015. Las instrucciones de implementación para dispositivos de sistemas de salón de Skype v2 se aborda en [Configure una consola de v2 de sistemas de salón de Skype](console.md). Es probable que su infraestructura esté incluida en una de las siguientes configuraciones:
+En este tema se explica cómo crear las cuentas usadas por v2 de sistemas de salón de Skype en Microsoft Exchange y Skype para la empresa. Las instrucciones de implementación para dispositivos de sistemas de salón de Skype v2 se aborda en [Configure una consola de v2 de sistemas de salón de Skype](console.md). Es probable que su infraestructura esté incluida en una de las siguientes configuraciones:
   
 - Implementación en línea: entorno de su organización se implementa completamente en Office 365. Para obtener más información, vea [implementar sistemas de salón de Skype v2 con Office 365](with-office-365.md).
     
 - Implementación local: su organización tiene servidores que controla, donde se hospedan Active Directory, Exchange y Skype para Business Server 2015. Para obtener más información, vea [implementar sistemas de salón de Skype v2 con Skype para Business Server 2015](with-skype-for-business-server-2015.md)
     
-- Implementación híbrida: su organización tiene una mezcla de servicios, con algunas hospedado en local y algunas alojado en línea a través de Office 365. Con sistemas de salas de Skype v2, se admiten los siguientes escenarios híbrida: 
+- Las implementaciones híbridas: su organización tiene una mezcla de servicios, con algunas hospedado en local y algunas alojado en línea a través de Office 365. Con sistemas de salas de Skype v2, se admiten los siguientes escenarios híbrida: 
     
   - Exchange Online con Skype para Business Server 2015 local. Para obtener más información, vea [implementar sistemas de salón de Skype v2 con Exchange Online (híbrido)](with-exchange-online.md).
     
@@ -76,7 +76,7 @@ Mientras que las propiedades para la configuración básica permitirá la cuenta
 |:-----|:-----|
 |Autenticación basada en certificados  <br/> |Los certificados pueden ser necesarios para Exchange y Skype para Business Server. Para implementar certificados, puede cargarlos cuando haya iniciado sesión como administrador.  <br/> |
    
-Es la mejor forma de configurar las cuentas de usuario configurarlos con Windows PowerShell remoto. Microsoft proporciona [SkypeRoomProvisioningScript.ps1](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomProvisioningScript.ps1.txt), una secuencia de comandos que le ayudarán a crear nuevas cuentas de usuario o validar cuentas de recursos existentes que tienen con el fin de ayudarle a convertirlas en cuentas de usuario de v2 de Skype salón sistemas compatibles.
+La forma más sencilla de configurar las cuentas de usuario es configurarlas mediante Windows PowerShell remoto. Microsoft proporciona [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), una secuencia de comandos que le ayudarán a crear nuevas cuentas de usuario o validar cuentas de recursos existentes que tienen con el fin de ayudarle a convertirlas en cuentas de usuario de v2 de Skype salón sistemas compatibles.
   
 Si prefiere usar la interfaz de usuario de Office 365 a través de los cmdlets de Windows PowerShell, pueden realizar manualmente algunos pasos. Consulte [creación de una cuenta de dispositivo con Office 365](https://technet.microsoft.com/itpro/surface-hub/create-a-device-account-using-office-365).
   

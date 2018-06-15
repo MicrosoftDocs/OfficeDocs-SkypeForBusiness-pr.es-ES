@@ -1,5 +1,5 @@
 ---
-title: Implementar Sistemas de salas de Skype v2 con Exchange Online (híbrida)
+title: Implementar Sistemas de salas de Skype v2 con Exchange Online
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,18 +13,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Lea este tema para obtener información acerca de cómo implementar sistemas de salón de Skype v2 con Exchange Online.
-ms.openlocfilehash: bb9f236db41b4eabd2dd73f2e9344f1ff3681cf7
-ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
+ms.openlocfilehash: dad47f56d96da0f84383b2638684c65554e5a8f9
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/14/2018
-ms.locfileid: "19881577"
+ms.locfileid: "19887894"
 ---
-# <a name="deploy-skype-room-systems-v2-with-exchange-online-hybrid"></a>Implementar Sistemas de salas de Skype v2 con Exchange Online (híbrida)
+# <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>Implementar Sistemas de salas de Skype v2 con Exchange Online 
  
-Lea este tema para obtener información acerca de cómo implementar sistemas de salón de Skype v2 con Exchange Online.
+Lea este tema para obtener información acerca de cómo implementar sistemas de salón de Skype v2 con Exchange Online y Skype para Business Server local.
   
-Si su organización tiene una mezcla de servicios, con algunas hospedado en local y algunas alojado en línea, a continuación, la configuración depende de donde se hospeda cada servicio. Este tema tratan las implementaciones híbridas en sistemas de salón de Skype v2 con Exchange alojado en línea. Debido a que hay muchas variaciones en este tipo de implementación, no es posible proporcionar instrucciones detalladas para todos ellos. El siguiente proceso funcionará para muchas configuraciones. Si el proceso no es adecuado para el programa de instalación, se recomienda que use Windows PowerShell (consulte el Apéndice: PowerShell) para lograr el mismo resultado final, tal como se describe aquí y para otras opciones de implementación. A continuación, debe usar la secuencia de comandos de Windows PowerShell proporcionada para comprobar el programa de instalación de sistemas de salón de Skype v2. (Vea la secuencia de comandos de comprobación de cuenta).
+Si su organización tiene una mezcla de servicios, con algunas hospedado en local y algunas alojado en línea, a continuación, la configuración depende de donde se hospeda cada servicio. Este tema tratan las implementaciones híbridas en sistemas de salón de Skype v2 con Exchange alojado en línea. Debido a que hay muchas variaciones en este tipo de implementación, no es posible proporcionar instrucciones detalladas para todos ellos. El siguiente proceso funcionará para muchas configuraciones. Si el proceso no es adecuado para el programa de instalación, se recomienda que use Windows PowerShell para lograr el mismo resultado final, tal como se describe aquí y para otras opciones de implementación. 
+
+La forma más sencilla de configurar las cuentas de usuario es configurarlas mediante Windows PowerShell remoto. Microsoft proporciona [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), una secuencia de comandos que le ayudarán a crear nuevas cuentas de usuario o validar cuentas de recursos existentes que tienen con el fin de ayudarle a convertirlas en cuentas de usuario de v2 de Skype salón sistemas compatibles. Si lo prefiere, puede seguir los pasos siguientes para configurar las cuentas que se va a usar el dispositivo v2 de sistemas de salón de Skype.
+
+
   
 ## <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>Implementar Sistemas de salas de Skype v2 con Exchange Online
 
@@ -141,6 +145,8 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 Para la validación, debe usar cualquier Skype para clientes empresariales para iniciar sesión en esta cuenta.
   
 ## <a name="see-also"></a>Vea también
+
+[Configurar cuentas para sistemas de salón de Skype v2](room-systems-v2-configure-accounts.md)
 
 [Planeación de la sala de Skype v2 de sistemas](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
