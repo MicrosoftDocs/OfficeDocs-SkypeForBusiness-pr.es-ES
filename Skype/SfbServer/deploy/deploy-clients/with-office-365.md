@@ -13,36 +13,36 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lea este tema para obtener información acerca de cómo implementar sistemas de salón de Skype v2 con Office 365.
-ms.openlocfilehash: b44633ae7e0dab875771cbc3146688215d1bdcbc
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: bf23da871b3e736bd9fce2ee821b716fc43830b1
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569522"
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887908"
 ---
-# <a name="deploy-skype-room-systems-v2-with-office-365"></a><span data-ttu-id="82844-103">Implementar Sistemas de salas de Skype v2 con Office 365 </span><span class="sxs-lookup"><span data-stu-id="82844-103">Deploy Skype Room Systems v2 with Office 365</span></span>
+# <a name="deploy-skype-room-systems-v2-with-office-365"></a><span data-ttu-id="44b5f-103">Implementar Sistemas de salas de Skype v2 con Office 365 </span><span class="sxs-lookup"><span data-stu-id="44b5f-103">Deploy Skype Room Systems v2 with Office 365</span></span>
  
-<span data-ttu-id="82844-104">Lea este tema para obtener información acerca de cómo implementar sistemas de salón de Skype v2 con Office 365.</span><span class="sxs-lookup"><span data-stu-id="82844-104">Read this topic for information on how to deploy Skype Room Systems v2 with Office 365.</span></span>
-  
-<span data-ttu-id="82844-105">En este tema se describe cómo agregar una cuenta de dispositivo para sistemas de salón de Skype v2 cuando tiene una implementación en línea de Office 365.</span><span class="sxs-lookup"><span data-stu-id="82844-105">This topic describes how to add a device account for Skype Room Systems v2 when you have an Office 365 online deployment.</span></span>
-  
-## <a name="deploy-skype-room-systems-v2-with-office-365"></a><span data-ttu-id="82844-106">Implementar Sistemas de salas de Skype v2 con Office 365 </span><span class="sxs-lookup"><span data-stu-id="82844-106">Deploy Skype Room Systems v2 with Office 365</span></span>
+<span data-ttu-id="44b5f-104">Lea este tema para obtener información acerca de cómo implementar sistemas de salón de Skype v2 con Office 365, donde Skype para empresas y Exchange estén en línea.</span><span class="sxs-lookup"><span data-stu-id="44b5f-104">Read this topic for information on how to deploy Skype Room Systems v2 with Office 365, where Skype for Business and Exchange are both online.</span></span> 
 
-<span data-ttu-id="82844-107">Antes de implementar sistemas de salón de Skype v2 con Office 365, asegúrese de que cumplen los requisitos.</span><span class="sxs-lookup"><span data-stu-id="82844-107">Before you deploy Skype Room Systems v2 with Office 365, be sure you have met the requirements.</span></span> <span data-ttu-id="82844-108">Para obtener más información, vea [requisitos de sistemas de salón de Skype v2](../../plan-your-deployment/clients-and-devices/requirements.md).</span><span class="sxs-lookup"><span data-stu-id="82844-108">For more information, see [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).</span></span>
+<span data-ttu-id="44b5f-105">La forma más sencilla de configurar las cuentas de usuario es configurarlas mediante Windows PowerShell remoto.</span><span class="sxs-lookup"><span data-stu-id="44b5f-105">The easiest way to set up user accounts is to configure them using remote Windows PowerShell.</span></span> <span data-ttu-id="44b5f-106">Microsoft proporciona [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), una secuencia de comandos que le ayudarán a crear nuevas cuentas de usuario o validar cuentas de recursos existentes que tienen con el fin de ayudarle a convertirlas en cuentas de usuario de v2 de Skype salón sistemas compatibles.</span><span class="sxs-lookup"><span data-stu-id="44b5f-106">Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Skype Room Systems v2 user accounts.</span></span> <span data-ttu-id="44b5f-107">Si lo prefiere, puede seguir los pasos siguientes para configurar las cuentas que se va a usar el dispositivo v2 de sistemas de salón de Skype.</span><span class="sxs-lookup"><span data-stu-id="44b5f-107">If you prefer, you can follow the steps below to configure accounts your Skype Room Systems v2 device will use.</span></span>
   
-<span data-ttu-id="82844-109">Para habilitar Skype para la empresa, debe tener lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="82844-109">To enable Skype for Business, you must have the following:</span></span>
-  
-- <span data-ttu-id="82844-110">Skype para profesionales Online (Plan 2) o superior en su plan de Office 365.</span><span class="sxs-lookup"><span data-stu-id="82844-110">Skype for Business Online (Plan 2) or higher in your Office 365 plan.</span></span> <span data-ttu-id="82844-111">El plan debe admitir la funcionalidad de conferencias.</span><span class="sxs-lookup"><span data-stu-id="82844-111">The plan needs to support conferencing capability.</span></span>
-    
-- <span data-ttu-id="82844-112">Si necesita Enterprise Voice (telefonía PSTN) con proveedores de servicios de telefonía para sistemas de salón de Skype v2 necesita Skype para profesionales en línea (planeación de 3).</span><span class="sxs-lookup"><span data-stu-id="82844-112">If you need Enterprise Voice (PSTN telephony) using telephony service providers for Skype Room Systems v2 you need Skype for Business Online (Plan 3).</span></span>
-    
-- <span data-ttu-id="82844-113">Los usuarios de inquilinos deben tener los buzones de Exchange.</span><span class="sxs-lookup"><span data-stu-id="82844-113">Your tenant users must have Exchange mailboxes.</span></span>
-    
-- <span data-ttu-id="82844-114">Su cuenta de Skype salón sistemas v2 requieren un Skype para profesionales Online (Plan 2) o Skype para licencia empresarial en línea (planeación de 3), pero no requiere una licencia de Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="82844-114">Your Skype Room Systems v2 account does require a Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3) license, but it does not require an Exchange Online license.</span></span>
-    
-### <a name="add-a-device-account"></a><span data-ttu-id="82844-115">Agregar una cuenta de dispositivo</span><span class="sxs-lookup"><span data-stu-id="82844-115">Add a device account</span></span>
+## <a name="deploy-skype-room-systems-v2-with-office-365"></a><span data-ttu-id="44b5f-108">Implementar Sistemas de salas de Skype v2 con Office 365 </span><span class="sxs-lookup"><span data-stu-id="44b5f-108">Deploy Skype Room Systems v2 with Office 365</span></span>
 
-1. <span data-ttu-id="82844-116">Iniciar una sesión remota de Windows PowerShell en un PC y conectarse a Exchange.</span><span class="sxs-lookup"><span data-stu-id="82844-116">Start a remote Windows PowerShell session on a PC and connect to Exchange.</span></span> <span data-ttu-id="82844-117">Asegúrese de tener los permisos adecuados establecidos para ejecutar los cmdlets asociados.</span><span class="sxs-lookup"><span data-stu-id="82844-117">Be sure you have the right permissions set to run the associated cmdlets.</span></span> <span data-ttu-id="82844-118">Estos son algunos ejemplos de cmdlets que puede utilizar y modificar en su entorno.</span><span class="sxs-lookup"><span data-stu-id="82844-118">The following are some examples of cmdlets that can be used and modified in your environment.</span></span>
+<span data-ttu-id="44b5f-109">Antes de implementar sistemas de salón de Skype v2 con Office 365, asegúrese de que cumplen los requisitos.</span><span class="sxs-lookup"><span data-stu-id="44b5f-109">Before you deploy Skype Room Systems v2 with Office 365, be sure you have met the requirements.</span></span> <span data-ttu-id="44b5f-110">Para obtener más información, vea [requisitos de sistemas de salón de Skype v2](../../plan-your-deployment/clients-and-devices/requirements.md).</span><span class="sxs-lookup"><span data-stu-id="44b5f-110">For more information, see [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).</span></span>
+  
+<span data-ttu-id="44b5f-111">Para habilitar Skype para la empresa, debe tener lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="44b5f-111">To enable Skype for Business, you must have the following:</span></span>
+  
+- <span data-ttu-id="44b5f-112">Skype para profesionales Online (Plan 2) o superior en su plan de Office 365.</span><span class="sxs-lookup"><span data-stu-id="44b5f-112">Skype for Business Online (Plan 2) or higher in your Office 365 plan.</span></span> <span data-ttu-id="44b5f-113">El plan debe admitir la funcionalidad de conferencias.</span><span class="sxs-lookup"><span data-stu-id="44b5f-113">The plan needs to support conferencing capability.</span></span>
+    
+- <span data-ttu-id="44b5f-114">Si necesita Enterprise Voice (telefonía PSTN) con proveedores de servicios de telefonía para sistemas de salón de Skype v2 necesita Skype para profesionales en línea (planeación de 3).</span><span class="sxs-lookup"><span data-stu-id="44b5f-114">If you need Enterprise Voice (PSTN telephony) using telephony service providers for Skype Room Systems v2 you need Skype for Business Online (Plan 3).</span></span>
+    
+- <span data-ttu-id="44b5f-115">Los usuarios de inquilinos deben tener los buzones de Exchange.</span><span class="sxs-lookup"><span data-stu-id="44b5f-115">Your tenant users must have Exchange mailboxes.</span></span>
+    
+- <span data-ttu-id="44b5f-116">Su cuenta de Skype salón sistemas v2 requieren un Skype para profesionales Online (Plan 2) o Skype para licencia empresarial en línea (planeación de 3), pero no requiere una licencia de Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="44b5f-116">Your Skype Room Systems v2 account does require a Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3) license, but it does not require an Exchange Online license.</span></span>
+    
+### <a name="add-a-device-account"></a><span data-ttu-id="44b5f-117">Agregar una cuenta de dispositivo</span><span class="sxs-lookup"><span data-stu-id="44b5f-117">Add a device account</span></span>
+
+1. <span data-ttu-id="44b5f-118">Iniciar una sesión remota de Windows PowerShell en un PC y conectarse a Exchange.</span><span class="sxs-lookup"><span data-stu-id="44b5f-118">Start a remote Windows PowerShell session on a PC and connect to Exchange.</span></span> <span data-ttu-id="44b5f-119">Asegúrese de tener los permisos adecuados establecidos para ejecutar los cmdlets asociados.</span><span class="sxs-lookup"><span data-stu-id="44b5f-119">Be sure you have the right permissions set to run the associated cmdlets.</span></span> <span data-ttu-id="44b5f-120">Estos son algunos ejemplos de cmdlets que puede utilizar y modificar en su entorno.</span><span class="sxs-lookup"><span data-stu-id="44b5f-120">The following are some examples of cmdlets that can be used and modified in your environment.</span></span>
     
    ```
    Set-ExecutionPolicy Unrestricted
@@ -53,15 +53,15 @@ ms.locfileid: "19569522"
    Import-PSSession $sess
    ```
 
-2. <span data-ttu-id="82844-119">Después de establecer una sesión, podrá crear un nuevo buzón y habilitar como un RoomMailboxAccount o cambiar la configuración de un buzón de sala existente.</span><span class="sxs-lookup"><span data-stu-id="82844-119">After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox.</span></span> <span data-ttu-id="82844-120">Esto le permitirá la cuenta autenticar a los sistemas de salón de Skype v2.</span><span class="sxs-lookup"><span data-stu-id="82844-120">This will allow the account to authenticate to Skype Room Systems v2.</span></span>
+2. <span data-ttu-id="44b5f-121">Después de establecer una sesión, podrá crear un nuevo buzón y habilitar como un RoomMailboxAccount o cambiar la configuración de un buzón de sala existente.</span><span class="sxs-lookup"><span data-stu-id="44b5f-121">After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox.</span></span> <span data-ttu-id="44b5f-122">Esto le permitirá la cuenta autenticar a los sistemas de salón de Skype v2.</span><span class="sxs-lookup"><span data-stu-id="44b5f-122">This will allow the account to authenticate to Skype Room Systems v2.</span></span>
     
-  <span data-ttu-id="82844-121">Si va a cambiar un buzón de recursos existente:</span><span class="sxs-lookup"><span data-stu-id="82844-121">If you are changing an existing resource mailbox:</span></span>
+  <span data-ttu-id="44b5f-123">Si va a cambiar un buzón de recursos existente:</span><span class="sxs-lookup"><span data-stu-id="44b5f-123">If you are changing an existing resource mailbox:</span></span>
     
 ```
 Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
 ```
 
-  <span data-ttu-id="82844-122">Si está creando un nuevo buzón de recursos:</span><span class="sxs-lookup"><span data-stu-id="82844-122">If you're creating a new resource mailbox:</span></span>
+  <span data-ttu-id="44b5f-124">Si está creando un nuevo buzón de recursos:</span><span class="sxs-lookup"><span data-stu-id="44b5f-124">If you're creating a new resource mailbox:</span></span>
     
    ```
    New-Mailbox -MicrosoftOnlineServicesID PROJECTRIGEL01@contoso.com -Alias PROJECTRIGEL01 
@@ -69,7 +69,7 @@ Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMail
  (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. <span data-ttu-id="82844-p105">Para mejorar la experiencia de la reunión, es necesario configurar diversas propiedades de Exchange en la cuenta del dispositivo. Si desea ver qué propiedades hay que configurar, consulte la sección sobre propiedades de Exchange.</span><span class="sxs-lookup"><span data-stu-id="82844-p105">Various Exchange properties must be set on the device account to improve the meeting experience. You can see which properties need to be set in the Exchange properties section.</span></span>
+3. <span data-ttu-id="44b5f-p106">Para mejorar la experiencia de la reunión, es necesario configurar diversas propiedades de Exchange en la cuenta del dispositivo. Si desea ver qué propiedades hay que configurar, consulte la sección sobre propiedades de Exchange.</span><span class="sxs-lookup"><span data-stu-id="44b5f-p106">Various Exchange properties must be set on the device account to improve the meeting experience. You can see which properties need to be set in the Exchange properties section.</span></span>
     
    ```
    Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false
@@ -78,31 +78,31 @@ Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMail
 
    ```
 
-4. <span data-ttu-id="82844-125">Tendrá que conectarse a Azure Active Directory para aplicar algunas de las configuraciones de la cuenta.</span><span class="sxs-lookup"><span data-stu-id="82844-125">You will need to connect to Azure Active Directory to apply some account settings.</span></span> <span data-ttu-id="82844-126">Para conectarse a Azure AD, ejecute el siguiente cmdlet:</span><span class="sxs-lookup"><span data-stu-id="82844-126">To connect to Azure AD, run the following cmdlet:</span></span>
+4. <span data-ttu-id="44b5f-127">Tendrá que conectarse a Azure Active Directory para aplicar algunas de las configuraciones de la cuenta.</span><span class="sxs-lookup"><span data-stu-id="44b5f-127">You will need to connect to Azure Active Directory to apply some account settings.</span></span> <span data-ttu-id="44b5f-128">Para conectarse a Azure AD, ejecute el siguiente cmdlet:</span><span class="sxs-lookup"><span data-stu-id="44b5f-128">To connect to Azure AD, run the following cmdlet:</span></span>
     
    ```
    Connect-MsolService -Credential $cred
    ```
 
-5. <span data-ttu-id="82844-127">	Si no desea que expire la contraseña, ejecute el cmdlet Set-MsolUser con la opción PasswordNeverExpires como sigue:  </span><span class="sxs-lookup"><span data-stu-id="82844-127">If you do not want the password to expire, run the Set-MsolUser cmdlet with the PasswordNeverExpires option as follows:</span></span> 
+5. <span data-ttu-id="44b5f-129">	Si no desea que expire la contraseña, ejecute el cmdlet Set-MsolUser con la opción PasswordNeverExpires como sigue:  </span><span class="sxs-lookup"><span data-stu-id="44b5f-129">If you do not want the password to expire, run the Set-MsolUser cmdlet with the PasswordNeverExpires option as follows:</span></span> 
     
    ```
    Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
    ```
 
-   <span data-ttu-id="82844-128">También puede configurar un número de teléfono para la sala de la siguiente manera:</span><span class="sxs-lookup"><span data-stu-id="82844-128">You can also set a phone number for the room as follows:</span></span>
+   <span data-ttu-id="44b5f-130">También puede configurar un número de teléfono para la sala de la siguiente manera:</span><span class="sxs-lookup"><span data-stu-id="44b5f-130">You can also set a phone number for the room as follows:</span></span>
     
    ```
    Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
    ```
 
-6. <span data-ttu-id="82844-129">La cuenta del dispositivo debe tener una licencia válida de Office 365 o Exchange y Skype para la empresa no funcionará.</span><span class="sxs-lookup"><span data-stu-id="82844-129">The device account needs to have a valid Office 365 license, or Exchange and Skype for Business will not work.</span></span> <span data-ttu-id="82844-130">Si dispone de la licencia, debe asignar una ubicación de uso para su cuenta de dispositivo: Esto determina qué SKU de las licencias están disponibles para su cuenta.</span><span class="sxs-lookup"><span data-stu-id="82844-130">If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account.</span></span> <span data-ttu-id="82844-131">Puede usar Get-MsolAccountSku para recuperar una lista de SKU disponibles para el inquilino de Office 365, como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="82844-131">You can use Get-MsolAccountSku to retrieve a list of available SKUs for your Office 365 tenant as follows:</span></span>
+6. <span data-ttu-id="44b5f-131">La cuenta del dispositivo debe tener una licencia válida de Office 365 o Exchange y Skype para la empresa no funcionará.</span><span class="sxs-lookup"><span data-stu-id="44b5f-131">The device account needs to have a valid Office 365 license, or Exchange and Skype for Business will not work.</span></span> <span data-ttu-id="44b5f-132">Si dispone de la licencia, debe asignar una ubicación de uso para su cuenta de dispositivo: Esto determina qué SKU de las licencias están disponibles para su cuenta.</span><span class="sxs-lookup"><span data-stu-id="44b5f-132">If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account.</span></span> <span data-ttu-id="44b5f-133">Puede usar Get-MsolAccountSku para recuperar una lista de SKU disponibles para el inquilino de Office 365, como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="44b5f-133">You can use Get-MsolAccountSku to retrieve a list of available SKUs for your Office 365 tenant as follows:</span></span>
     
    ```
    Get-MsolAccountSku
    ```
 
-   <span data-ttu-id="82844-p108">A continuación, puede agregar una licencia mediante el cmdlet Set-MsolUserLicense. En este caso, $strLicense es el código de SKU que ve (por ejemplo, contoso:STANDARDPACK).</span><span class="sxs-lookup"><span data-stu-id="82844-p108">Next, you can add a license using the Set-MsolUserLicense cmdlet. In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK).</span></span>
+   <span data-ttu-id="44b5f-p109">A continuación, puede agregar una licencia mediante el cmdlet Set-MsolUserLicense. En este caso, $strLicense es el código de SKU que ve (por ejemplo, contoso:STANDARDPACK).</span><span class="sxs-lookup"><span data-stu-id="44b5f-p109">Next, you can add a license using the Set-MsolUserLicense cmdlet. In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK).</span></span>
     
    ```
    Set-MsolUser -UserPrincipalName $acctUpn -UsageLocation "US"
@@ -110,9 +110,9 @@ Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMail
    Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```
 
-7. <span data-ttu-id="82844-134">A continuación, deberá habilitar la cuenta del dispositivo con Skype para la empresa.</span><span class="sxs-lookup"><span data-stu-id="82844-134">Next, you need to enable the device account with Skype for Business.</span></span> <span data-ttu-id="82844-135">Asegúrese de que su entorno cumple los requisitos definidos en [los requisitos de sistemas de salón de Skype v2](../../plan-your-deployment/clients-and-devices/requirements.md).</span><span class="sxs-lookup"><span data-stu-id="82844-135">Be sure your environment meets the requirements defined in [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).</span></span>
+7. <span data-ttu-id="44b5f-136">A continuación, deberá habilitar la cuenta del dispositivo con Skype para la empresa.</span><span class="sxs-lookup"><span data-stu-id="44b5f-136">Next, you need to enable the device account with Skype for Business.</span></span> <span data-ttu-id="44b5f-137">Asegúrese de que su entorno cumple los requisitos definidos en [los requisitos de sistemas de salón de Skype v2](../../plan-your-deployment/clients-and-devices/requirements.md).</span><span class="sxs-lookup"><span data-stu-id="44b5f-137">Be sure your environment meets the requirements defined in [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).</span></span>
     
-   <span data-ttu-id="82844-136">Iniciar una sesión remota de Windows PowerShell de manera (asegúrese de instalar Skype para componentes de PowerShell en línea de negocio):</span><span class="sxs-lookup"><span data-stu-id="82844-136">Start a remote Windows PowerShell session as follows (be sure to install Skype for Business Online PowerShell components):</span></span>
+   <span data-ttu-id="44b5f-138">Iniciar una sesión remota de Windows PowerShell de manera (asegúrese de instalar Skype para componentes de PowerShell en línea de negocio):</span><span class="sxs-lookup"><span data-stu-id="44b5f-138">Start a remote Windows PowerShell session as follows (be sure to install Skype for Business Online PowerShell components):</span></span>
     
    ```
    Import-Module LyncOnlineConnector  
@@ -120,38 +120,38 @@ Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMail
    Import-PSSession $cssess -AllowClobber
    ```
 
-   <span data-ttu-id="82844-137">A continuación, habilitar su cuenta de Skype salón sistemas v2 de Skype para Business Server ejecutando el siguiente cmdlet:</span><span class="sxs-lookup"><span data-stu-id="82844-137">Next, enable your Skype Room Systems v2 account for Skype for Business Server by running the following cmdlet:</span></span>
+   <span data-ttu-id="44b5f-139">A continuación, habilitar su cuenta de Skype salón sistemas v2 de Skype para Business Server ejecutando el siguiente cmdlet:</span><span class="sxs-lookup"><span data-stu-id="44b5f-139">Next, enable your Skype Room Systems v2 account for Skype for Business Server by running the following cmdlet:</span></span>
     
    ```
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
-   <span data-ttu-id="82844-138">Obtener la información de RegistrarPool de la nueva cuenta de usuario que se va al programa de instalación, tal como se muestra en este ejemplo:</span><span class="sxs-lookup"><span data-stu-id="82844-138">Obtain the RegistrarPool information from the new user account being setup, as shown in this example:</span></span>
+   <span data-ttu-id="44b5f-140">Obtener la información de RegistrarPool de la nueva cuenta de usuario que se va al programa de instalación, tal como se muestra en este ejemplo:</span><span class="sxs-lookup"><span data-stu-id="44b5f-140">Obtain the RegistrarPool information from the new user account being setup, as shown in this example:</span></span>
     
     ```
     Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
     ```
 
     > [!NOTE]
-    > <span data-ttu-id="82844-139">No se pueden crear nuevas cuentas de usuario en el mismo grupo de registrador como cuentas de usuario existentes en el inquilino.</span><span class="sxs-lookup"><span data-stu-id="82844-139">New user accounts might not be created on the same registrar pool as existing user accounts in the tenant.</span></span> <span data-ttu-id="82844-140">El comando anterior se evitará que los errores en el programa de instalación de cuenta debido a esta situación.</span><span class="sxs-lookup"><span data-stu-id="82844-140">The command above will prevent errors in account setup due to this situation.</span></span> 
+    > <span data-ttu-id="44b5f-141">No se pueden crear nuevas cuentas de usuario en el mismo grupo de registrador como cuentas de usuario existentes en el inquilino.</span><span class="sxs-lookup"><span data-stu-id="44b5f-141">New user accounts might not be created on the same registrar pool as existing user accounts in the tenant.</span></span> <span data-ttu-id="44b5f-142">El comando anterior se evitará que los errores en el programa de instalación de cuenta debido a esta situación.</span><span class="sxs-lookup"><span data-stu-id="44b5f-142">The command above will prevent errors in account setup due to this situation.</span></span> 
   
-<span data-ttu-id="82844-141">Una vez haya completado los pasos anteriores para habilitar su cuenta de v2 de sistemas de salón de Skype en Skype para profesionales en línea, debe asignar una licencia a dispositivos de sistemas de salón de Skype v2.</span><span class="sxs-lookup"><span data-stu-id="82844-141">After you've completed the preceding steps to enable your Skype Room Systems v2 account in Skype for Business Online, you need to assign a license to Skype Room Systems v2 device.</span></span> <span data-ttu-id="82844-142">Uso del portal administrativo de Office 365, asignar puede ser un Skype para profesionales Online (Plan 2) o un Skype para licencia empresarial Online (Plan 3) para el dispositivo.</span><span class="sxs-lookup"><span data-stu-id="82844-142">Using the Office 365 administrative portal, assign either a Skype for Business Online (Plan 2) or a Skype for Business Online (Plan 3) license to the device.</span></span>
+<span data-ttu-id="44b5f-143">Una vez haya completado los pasos anteriores para habilitar su cuenta de v2 de sistemas de salón de Skype en Skype para profesionales en línea, debe asignar una licencia a dispositivos de sistemas de salón de Skype v2.</span><span class="sxs-lookup"><span data-stu-id="44b5f-143">After you've completed the preceding steps to enable your Skype Room Systems v2 account in Skype for Business Online, you need to assign a license to Skype Room Systems v2 device.</span></span> <span data-ttu-id="44b5f-144">Uso del portal administrativo de Office 365, asignar puede ser un Skype para profesionales Online (Plan 2) o un Skype para licencia empresarial Online (Plan 3) para el dispositivo.</span><span class="sxs-lookup"><span data-stu-id="44b5f-144">Using the Office 365 administrative portal, assign either a Skype for Business Online (Plan 2) or a Skype for Business Online (Plan 3) license to the device.</span></span>
   
-### <a name="assign-a-license-to-your-account"></a><span data-ttu-id="82844-143">Asignar una licencia a su cuenta</span><span class="sxs-lookup"><span data-stu-id="82844-143">Assign a license to your account</span></span>
+### <a name="assign-a-license-to-your-account"></a><span data-ttu-id="44b5f-145">Asignar una licencia a su cuenta</span><span class="sxs-lookup"><span data-stu-id="44b5f-145">Assign a license to your account</span></span>
 
-1. <span data-ttu-id="82844-144">Inicio de sesión como administrador de inquilinos, abra el Portal de administración de Office 365 y haga clic en la aplicación de administración.</span><span class="sxs-lookup"><span data-stu-id="82844-144">Login as a tenant administrator, open the Office 365 Administrative Portal, and click on the Admin app.</span></span>
+1. <span data-ttu-id="44b5f-146">Inicio de sesión como administrador de inquilinos, abra el Portal de administración de Office 365 y haga clic en la aplicación de administración.</span><span class="sxs-lookup"><span data-stu-id="44b5f-146">Login as a tenant administrator, open the Office 365 Administrative Portal, and click on the Admin app.</span></span>
     
-2. <span data-ttu-id="82844-145">Haga clic en **Usuarios y grupos** y después haga clic en **Agregar usuarios, restablecer contraseñas, y más**.</span><span class="sxs-lookup"><span data-stu-id="82844-145">Click **Users and Groups** and then click **Add users, reset passwords, and more**.</span></span>
+2. <span data-ttu-id="44b5f-147">Haga clic en **Usuarios y grupos** y después haga clic en **Agregar usuarios, restablecer contraseñas, y más**.</span><span class="sxs-lookup"><span data-stu-id="44b5f-147">Click **Users and Groups** and then click **Add users, reset passwords, and more**.</span></span>
     
-3. <span data-ttu-id="82844-146">Seleccione la cuenta de v2 de sistemas de salón de Skype y, a continuación, haga clic en o puntee en el icono de lápiz, que significa que editar.</span><span class="sxs-lookup"><span data-stu-id="82844-146">Select the Skype Room Systems v2 account, and then click or tap the pen icon, which means edit.</span></span>
+3. <span data-ttu-id="44b5f-148">Seleccione la cuenta de v2 de sistemas de salón de Skype y, a continuación, haga clic en o puntee en el icono de lápiz, que significa que editar.</span><span class="sxs-lookup"><span data-stu-id="44b5f-148">Select the Skype Room Systems v2 account, and then click or tap the pen icon, which means edit.</span></span>
     
-4. <span data-ttu-id="82844-147">Haga clic en la opción **Licencias**.</span><span class="sxs-lookup"><span data-stu-id="82844-147">Click on the **Licenses** option.</span></span>
+4. <span data-ttu-id="44b5f-149">Haga clic en la opción **Licencias**.</span><span class="sxs-lookup"><span data-stu-id="44b5f-149">Click on the **Licenses** option.</span></span>
     
-5. <span data-ttu-id="82844-148">En la sección **asignación de licencias** , es necesario seleccionar Skype para profesionales Online (Plan 2) o Skype para profesionales Online (Plan 3), en función de la concesión de licencias y que haya decidido en cuanto a la necesidad de Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="82844-148">In the **Assign licenses** section, you need to select Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3), depending on your licensing and what you've decided in terms of needing Enterprise Voice.</span></span> <span data-ttu-id="82844-149">Debe utilizar una licencia de planeación 3 si desea usar en la nube PBX en sistemas de salón de Skype v2.</span><span class="sxs-lookup"><span data-stu-id="82844-149">You'll have to use a Plan 3 license if you want to use Cloud PBX on Skype Room Systems v2.</span></span> <span data-ttu-id="82844-150">Para la conectividad de voz, como mínimo necesitará PBX en la nube.</span><span class="sxs-lookup"><span data-stu-id="82844-150">Minimally you will need CloudPBX for voice connectivity.</span></span> <span data-ttu-id="82844-151">Después deberá configurar la voz híbrida o las llamadas RTC en función del método de conectividad con RTC.</span><span class="sxs-lookup"><span data-stu-id="82844-151">Then configure hybrid voice or PSTN calling based on the PSTN connectivity method.</span></span>
+5. <span data-ttu-id="44b5f-150">En la sección **asignación de licencias** , es necesario seleccionar Skype para profesionales Online (Plan 2) o Skype para profesionales Online (Plan 3), en función de la concesión de licencias y que haya decidido en cuanto a la necesidad de Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="44b5f-150">In the **Assign licenses** section, you need to select Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3), depending on your licensing and what you've decided in terms of needing Enterprise Voice.</span></span> <span data-ttu-id="44b5f-151">Debe utilizar una licencia de planeación 3 si desea usar en la nube PBX en sistemas de salón de Skype v2.</span><span class="sxs-lookup"><span data-stu-id="44b5f-151">You'll have to use a Plan 3 license if you want to use Cloud PBX on Skype Room Systems v2.</span></span> <span data-ttu-id="44b5f-152">Para la conectividad de voz, como mínimo necesitará PBX en la nube.</span><span class="sxs-lookup"><span data-stu-id="44b5f-152">Minimally you will need CloudPBX for voice connectivity.</span></span> <span data-ttu-id="44b5f-153">Después deberá configurar la voz híbrida o las llamadas RTC en función del método de conectividad con RTC.</span><span class="sxs-lookup"><span data-stu-id="44b5f-153">Then configure hybrid voice or PSTN calling based on the PSTN connectivity method.</span></span>
     
-6. <span data-ttu-id="82844-152">Haga clic en **Guardar** para completar la tarea.</span><span class="sxs-lookup"><span data-stu-id="82844-152">Click **Save** to complete the task.</span></span>
+6. <span data-ttu-id="44b5f-154">Haga clic en **Guardar** para completar la tarea.</span><span class="sxs-lookup"><span data-stu-id="44b5f-154">Click **Save** to complete the task.</span></span>
     
-## <a name="sample-room-account-setup-in-exchange-online-and-skype-for-business-online"></a><span data-ttu-id="82844-153">Ejemplo: Cuenta de sala del programa de instalación de Exchange Online y Skype para profesionales en línea</span><span class="sxs-lookup"><span data-stu-id="82844-153">Sample: Room account setup in Exchange Online and Skype for Business Online</span></span>
+## <a name="sample-room-account-setup-in-exchange-online-and-skype-for-business-online"></a><span data-ttu-id="44b5f-155">Ejemplo: Cuenta de sala del programa de instalación de Exchange Online y Skype para profesionales en línea</span><span class="sxs-lookup"><span data-stu-id="44b5f-155">Sample: Room account setup in Exchange Online and Skype for Business Online</span></span>
 
 ```
 New-Mailbox -MicrosoftOnlineServicesID Rigel1@contoso.com
@@ -177,15 +177,17 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 ```
 
 > [!NOTE]
-> <span data-ttu-id="82844-p113">De esta manera, se agregan CloudPBX y PSTNCallingDomesticAndInternational. Además, deberá usar la interfaz de administración para asignar un número de teléfono.</span><span class="sxs-lookup"><span data-stu-id="82844-p113">This adds CloudPBX and PSTNCallingDomesticAndInternational. Addtionally, you will need to use the Admin interface to assign a phone number.</span></span> 
+> <span data-ttu-id="44b5f-p114">De esta manera, se agregan CloudPBX y PSTNCallingDomesticAndInternational. Además, deberá usar la interfaz de administración para asignar un número de teléfono.</span><span class="sxs-lookup"><span data-stu-id="44b5f-p114">This adds CloudPBX and PSTNCallingDomesticAndInternational. Addtionally, you will need to use the Admin interface to assign a phone number.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="82844-156">Vea también</span><span class="sxs-lookup"><span data-stu-id="82844-156">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="44b5f-158">Vea también</span><span class="sxs-lookup"><span data-stu-id="44b5f-158">See also</span></span>
 
-[<span data-ttu-id="82844-157">Planeación de la sala de Skype v2 de sistemas</span><span class="sxs-lookup"><span data-stu-id="82844-157">Plan for Skype Room Systems v2</span></span>](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[<span data-ttu-id="44b5f-159">Configurar cuentas para sistemas de salón de Skype v2</span><span class="sxs-lookup"><span data-stu-id="44b5f-159">Configure accounts for Skype Room Systems v2</span></span>](room-systems-v2-configure-accounts.md)
+
+[<span data-ttu-id="44b5f-160">Planeación de la sala de Skype v2 de sistemas</span><span class="sxs-lookup"><span data-stu-id="44b5f-160">Plan for Skype Room Systems v2</span></span>](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[<span data-ttu-id="82844-158">Implementación de salón de Skype v2 de sistemas</span><span class="sxs-lookup"><span data-stu-id="82844-158">Deploy Skype Room Systems v2</span></span>](room-systems-v2.md)
+[<span data-ttu-id="44b5f-161">Implementación de salón de Skype v2 de sistemas</span><span class="sxs-lookup"><span data-stu-id="44b5f-161">Deploy Skype Room Systems v2</span></span>](room-systems-v2.md)
   
-[<span data-ttu-id="82844-159">Configurar una consola de v2 de sistemas de salón de Skype</span><span class="sxs-lookup"><span data-stu-id="82844-159">Configure a Skype Room Systems v2 console</span></span>](console.md)
+[<span data-ttu-id="44b5f-162">Configurar una consola de v2 de sistemas de salón de Skype</span><span class="sxs-lookup"><span data-stu-id="44b5f-162">Configure a Skype Room Systems v2 console</span></span>](console.md)
   
-[<span data-ttu-id="82844-160">Administración de salón de Skype v2 de sistemas</span><span class="sxs-lookup"><span data-stu-id="82844-160">Manage Skype Room Systems v2</span></span>](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[<span data-ttu-id="44b5f-163">Administración de salón de Skype v2 de sistemas</span><span class="sxs-lookup"><span data-stu-id="44b5f-163">Manage Skype Room Systems v2</span></span>](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
