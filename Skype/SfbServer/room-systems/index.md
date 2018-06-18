@@ -11,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Las consideraciones de planeación relevantes para la implementación de sistemas de salón de Skype v2 y cómo implementar y administrar el sistema.
-ms.openlocfilehash: 649899f31cdc0e584f954408f269b77fce891b9d
-ms.sourcegitcommit: fecc87046d16a973499403f6cd097a608b6272f8
+ms.openlocfilehash: a5bc788c1e0a3fab68ea70ef417567ed37e47783
+ms.sourcegitcommit: 0f089f0c1bc641793c61928fb1c8fa62b2dfabee
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19927798"
 ---
 <h2>Sala de Skype sistemas v2 & #x 2013; <br>la próxima generación de sistemas de las salas de Skype </h2>
 <ul class="panelContent cardsW cols cols2">
@@ -107,4 +108,7 @@ ms.lasthandoff: 05/17/2018
 > [!NOTE]
 > Sistemas de salón de Skype v2 está destinado para su uso con Skype Business Server 2015 o Skype para profesionales en línea. Soporte técnico de Microsoft Teams es muy próximamente. <br><br>No se espera plataformas anteriores al igual que Lync Server 2013 para trabajar con sistemas de salas de Skype v2. 
 
-Estos artículos están diseñados para las personas que la obligación de planeación, implementación y administración de dispositivos de sistemas de salón de Skype v2 y no para los usuarios del sistema. Los usuarios estarán más interesados en la [Ayuda en pantalla](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+Estos artículos están diseñados para las personas que la obligación de planeación, implementación y administración de estos dispositivos y no para los usuarios del sistema. Los usuarios estarán más interesados en los sistemas de salón de Skype v2 [Ayuda en pantalla](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+
+> [!NOTE]
+> Sistema de sala de Skype y sistemas de salón de Skype v2 son distintos productos con dependencias diferentes y procedimientos de implementación. 

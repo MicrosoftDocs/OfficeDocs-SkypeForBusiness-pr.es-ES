@@ -10,16 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: En este tema se describe los procedimientos de implementación para el uso de Skype para la empresa mientras se conecta a un escritorio virtual remoto.
-ms.openlocfilehash: 47491b4409f21386cf28f811b6c2c3cbffe1e69b
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 4e4193998a9374c1aa0160999ad53a9ec3d8aab7
+ms.sourcegitcommit: 0f089f0c1bc641793c61928fb1c8fa62b2dfabee
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501674"
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19927855"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server-2015"></a>Implementar el complemento Lync VDI con Skype Empresarial Server 2015
  
-En este tema se describe los procedimientos de implementación para el uso de Skype para la empresa mientras se conecta a un escritorio virtual remoto. 
+En este tema se describe los procedimientos de implementación para el uso de Skype para la empresa mientras se conecta a un escritorio virtual remoto. Consideraciones de planeación se encuentran en la [planeación de Skype para la empresa en entornos de VDI](../../plan-your-deployment/clients-and-devices/vdi-environments.md).
   
 El entorno de Infraestructura de escritorio virtual (VDI) se utiliza en algunas organizaciones donde los problemas de seguridad y cumplimiento son especialmente delicados. Sus usuarios se encuentran en equipos Windows locales y utilizan clientes en un escritorio virtual. Usar Skype para la empresa en una conexión como el que requiere el software adicional de complemento de VDI.
   

@@ -268,6 +268,7 @@
 ### [Planificar grupos de Office 365 al crear equipos en Microsoft Teams](plan-office-365-groups.md)
 ### [Crear un equipo que abarque toda la empresa con PowerShell](company-wide-team-creation-powershell.yml)
 ### [El cmdlet de PowerShell hace referencia a Teams](https://docs.microsoft.com/powershell/module/teams)
+### [Flujos de llamadas de los equipos de Microsoft Online](microsoft-teams-online-call-flows.md)
 
 
 # Solución de problemas y soporte

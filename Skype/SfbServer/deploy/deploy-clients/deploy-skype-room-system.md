@@ -1,5 +1,5 @@
 ---
-title: Implementar el Sistema de salas de Skype en Skype Empresarial Server
+title: Introducción a la implementación para el sistema de sala de Skype
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,23 +9,27 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
-description: Obtenga información acerca de cómo implementar el sistema de sala de Skype, una reunión solución de sala compuesta de integrada de hardware y software que está optimizado para unirse a Skype para reuniones de negocios.
-ms.openlocfilehash: 11cbae1cdbdd0585a2ea67625179ee7862309723
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Obtenga información acerca de cómo implementar del sistema de la sala de Skype, una reunión de solución de sala formado por integrada de hardware y software que está optimizado para unirse a Skype para reuniones de negocios.
+ms.openlocfilehash: ed31a1892ca1661282f87775fae805da5b5f8504
+ms.sourcegitcommit: 0f089f0c1bc641793c61928fb1c8fa62b2dfabee
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19927805"
 ---
-# <a name="deploy-skype-room-system-in-skype-for-business-server"></a>Implementar el Sistema de salas de Skype en Skype Empresarial Server
+# <a name="deployment-planning-for-skype-room-system-in-skype-for-business"></a>Planes de implementación de sistema de sala de Skype en Skype para la empresa
  
-Obtenga información acerca de cómo implementar el sistema de sala de Skype, una reunión solución de sala compuesta de integrada de hardware y software que está optimizado para unirse a Skype para reuniones de negocios.
+Obtenga información acerca de cómo implementar del sistema de la sala de Skype, una reunión de solución de sala formado por integrada de hardware y software que está optimizado para unirse a Skype para reuniones de negocios.
   
 > [!NOTE]
-> Para los propósitos de este contenido, Skype para el negocio para el sistema de sala inteligente, RL Crestron, y Polycom CX8000 se denominará sistema de sala de Skype. 
+> Para los propósitos de este contenido, Skype para la empresa para sistema de sala inteligentes, RL Crestron, y Polycom CX8000 se hará referencia a como sistema de sala de Skype. 
+
+> [!NOTE]
+> Sistemas de salón de Skype v2 es un producto diferente con dependencias diferentes y procedimientos de implementación. Para obtener información sobre los sistemas de la sala de Skype v2, vea [planeación de sistemas de salón de Skype v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md).
   
- Sistema de sala de Skype es un Skype para cliente de comunicaciones unificadas de negocio que ha sido optimizado para Skype para reuniones de negocios en salas de conferencias física.
+ Sistema de sala de Skype es un Skype para cliente de comunicaciones unificadas de negocio que se ha optimizado para Skype para reuniones de negocios en salas de conferencias físico.
   
-El cliente del sistema de sala de Skype se desarrolló desde el Skype para Business client utilizando el Skype para SDK de negocio. El Skype para Business client se ejecuta en segundo plano en el modo UI suprimido parcial. El Skype para Business client controla la Galería de vídeos y la fase contenido en la pantalla en la parte delantera de la sala. El cliente del sistema de sala de Skype proporciona una experiencia de consola en la pantalla de sobremesa para controlar las reuniones. Sistema de sala de Skype proporciona: 
+El cliente del sistema de salas de Skype se desarrolló desde el Skype para cliente empresarial mediante el uso de la Skype para SDK de negocio. El Skype para clientes empresariales se ejecuta en segundo plano en el modo de la interfaz de usuario se suprimieron parcial. El Skype para clientes empresariales controla la Galería de vídeo y régimen de contenido en la pantalla en la parte frontal de la sala. El cliente del sistema de salas de Skype proporciona una experiencia de consola en la pantalla de sobremesa para controlar las reuniones. Sistema de sala de Skype proporciona: 
   
 - Una experiencia de unión a reuniones en un solo toque
     
@@ -37,42 +41,42 @@ El cliente del sistema de sala de Skype se desarrolló desde el Skype para Busin
     
 - Compartir e intercambiar contenido 
     
-Este documento le guiará en el proceso de aprovisionamiento del sistema de sala de Skype en Skype para Business Server y Exchange Server. Consulte también la Guía de instalación de sistema de sala de Skype proporcionado por el administrador, que le guiará en el proceso de configuración del dispositivo PC y dispositivos en la sala de reuniones. 
+Este documento le guía a través del aprovisionamiento del sistema de la sala de Skype en Skype para Business Server y Exchange Server. Consulte también la Guía de instalación del sistema de sala de Skype proporcionada por el administrador, que le guiará en el proceso de configuración del dispositivo PC y dispositivos en la sala de reuniones. 
   
 ## <a name="prerequisites"></a>Requisitos previos
 
-Los siguientes son los requisitos de sistema de sala de Skype: 
+A continuación es los requisitos de sistema de la sala de Skype: 
   
 - Una cuenta de buzón de recursos de Exchange para facilitar la programación del calendario para las salas de reuniones con el servicio Detección automática habilitado en Exchange Server (versión 2013 preferida).
     
-- Un Skype para la cuenta de sistema habilitado para negocios de sala de Skype en un Skype para el grupo de servidores de empresa (Enterprise o Standard Edition).
+- Un Skype para la cuenta del sistema de sala de Skype habilitado para el negocio en un Skype para grupo de servidores de empresarial (Enterprise o Standard Edition).
     
-- Un dispositivo de cliente de sistema de sala de Skype PC con todo el software necesario instalado. El equipo debe ejecutar el sistema operativo Windows 7 Embedded Standard. Los asociados de OEM proporcionarán este hardware junto con todos los dispositivos (pantallas, cámaras, micrófonos y altavoces).
+- Un dispositivo de cliente de sistema de salas de Skype PC con todo el software necesario instalado. El equipo debe ejecutar el sistema operativo Windows 7 Embedded Standard. Los asociados de OEM proporcionarán este hardware junto con todos los dispositivos (pantallas, cámaras, micrófonos y altavoces).
     
-- Si decide unir el dispositivo de sistema de sala de Skype PC a un dominio de servicios de dominio de Active Directory (AD DS), debe especificar la configuración de directiva de grupo que no interfiera con el sistema del sitio de Skype. Como alternativa, puede dejar este equipo en el grupo de trabajo. 
+- Si decide participar en el dispositivo del sistema de salas de Skype PC a un dominio de servicios de dominio de Active Directory (AD DS), debe especificar la configuración de directiva de grupo que no interfiera con el sistema de sala de Skype. Como alternativa, puede dejar este equipo en el grupo de trabajo. 
     
 - Derechos de usuario adecuados para ejecutar los cmdlets en este documento. Los cmdlets CsMeetingRoom se modelan tomando como base el cmdlet CsUser. Por lo tanto, todos los roles de controles de acceso basados en roles (RBAC) requeridos para ejecutar cmdlet CsUser también se aplican a los cmdlets CsMeetingRoom. 
     
 ## <a name="supported-topologies"></a>Topologías compatibles
 
-La tabla siguiente indica la interoperabilidad del sistema de sala de Skype de cliente entre varias implementaciones de Skype para topologías de Exchange y de negocios, en locales o en la nube: 
+En la siguiente tabla indica la interoperabilidad del cliente del sistema de salas de Skype entre las diversas implementaciones de Skype para topologías empresariales y de Exchange, ya sea local o en la nube: 
   
 
 |**Topología**|**AD**|**Skype Empresarial**|**Exchange**|
 |:-----|:-----|:-----|:-----|
 |Implementación local  <br/> |Implementación local  <br/> |Implementación local  <br/> |Implementación local  <br/> |
-|Office 365 multiempresa (O365MT)  <br/> |En línea  <br/> |En línea  <br/> |En línea  <br/> |
+|Office 365 varios inquilinos (O365MT)  <br/> |En línea  <br/> |En línea  <br/> |En línea  <br/> |
 |Office 365 Dedicated  <br/> (Póngase en contacto con su proveedor de servicios)  <br/> |Implementación local  <br/> |En línea  <br/> |En línea  <br/> |
 |Híbrido (dominio dividido)  <br/> No compatible  <br/> |Implementación local  <br/> Implementación local  <br/> Implementación local  <br/> |Implementación local  <br/> En línea  <br/> En línea  <br/> |En línea  <br/> En línea  <br/> Implementación local  <br/> |
    
-Las versiones anteriores a Lync Server 2013 son compatibles parcialmente. En estos casos, el sistema del sitio de Skype pueden participar en Skype para conferencias de empresa (los que programan los usuarios alojados en Lync Server 2010) como las conferencias son "públicas", lo que significa que las conferencias no están personalizados para el acceso restringido. 
+Las versiones anteriores a Lync Server 2013 son compatibles parcialmente. En estos escenarios, sistema de sala de Skype pueden participar en Skype para conferencias de empresa (aquellos que están programados por los usuarios hospedados en Lync Server 2010) como las conferencias son "públicas", lo que significa que las conferencias no están personalizadas para el acceso restringido. 
   
-Sistema de sala de Skype no puede ser alojado en una versión de Lync server anteriores a Lync Server 2013. Cuando un sistema de sala de Skype no puede conectarse a Exchange para recuperar la configuración del calendario, por ejemplo, cuando no hay ningún buzón de Exchange configurado para la cuenta de sistema del sitio de Skype o no se puede tener acceso a Exchange--Reunirse ahora y conferencia ad hoc funcionará, pero va a unir una reunión programada no lo hará. 
+Sistema de sala de Skype no pueden hospedarse en una versión de Lync server anteriores a Lync Server 2013. Cuando no se puede conectar un sistema de sala de Skype a Exchange para recuperar la configuración de calendario--por ejemplo, cuando no hay ningún buzón de Exchange configurado para la cuenta del sistema de salas de Skype o no se puede tener acceso a Exchange--Reunirse ahora y conferencia ad hoc funcionará, pero unirse un reunión programada no lo harán. 
   
-En la siguiente tabla indica la compatibilidad de cliente de sistema de sala de Skype con versiones de Exchange Server: 
+En la siguiente tabla indica la compatibilidad de cliente del sistema de salas de Skype con versiones de Exchange Server: 
   
 
-|**Exchange**|**En las instalaciones**|**En línea**|**Híbrido**|
+|**Exchange**|**En local**|**En línea**|**Híbrido**|
 |:-----|:-----|:-----|:-----|
 |Exchange 2010  <br/> |Sí (un solo bosque)  <br/> |N/D  <br/> |N/D  <br/> |
 |Exchange 2013  <br/> |Sí (compatibilidad con varios bosques disponible para Exchange 2013 CU6 y versiones posteriores)  <br/> |Sí  <br/> |Sí  <br/> |
