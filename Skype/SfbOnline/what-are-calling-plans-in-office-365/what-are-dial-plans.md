@@ -20,14 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre qué tipo de acceso telefónico al llamar a planes (planes de marcado de llamar a RTC) están disponibles con Office 365 y cómo elegir uno para la organización.  '
-search.appverid:
-- MED150
-- MOE150
-ms.openlocfilehash: ae3ab844279db56f4d3e66551555894935eb8942
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 5df6b2e9f9e5ccb83d6320cbd43f78ef4fc44424
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933169"
 ---
 # <a name="what-are-dial-plans"></a>¿Cuáles son los planes de marcado?
 
@@ -144,7 +142,7 @@ La siguiente tabla ilustra un plan de marcado de muestra para Redmond, Washingto
 ## <a name="related-topics"></a>See also
 [Crear y administrar planes de marcado](create-and-manage-dial-plans.md)
 
-Puede obtener más información en [Conferencias de acceso telefónico en Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+[Licencias complementarias de Skype Empresarial y Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 
 [Preguntas comunes sobre la transferencia de números de teléfono](transferring-phone-numbers-common-questions.md)
 
