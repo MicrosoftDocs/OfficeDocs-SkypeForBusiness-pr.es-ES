@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: Cree o modifique las rutas interregional de red, que se usan por el control de admisión de llamadas de Enterprise Voice en Skype para Business Server.
-ms.openlocfilehash: 22e7872c6faa989779a93b6524c1740386f32d7d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f9f395325ecf2df35ac43730501603c2fdda9157
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500610"
 ---
 # <a name="create-network-interregional-routes-in-skype-for-business-server-2015"></a>Crear rutas entre regiones de red en Skype Empresarial Server 2015
  
@@ -78,8 +79,6 @@ En el ejemplo de topología, hay que definir rutas entre regiones de red para ca
     
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Nueva CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
   
 [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/get-csnetworkinterregionroute?view=skype-ps)
@@ -87,4 +86,3 @@ En el ejemplo de topología, hay que definir rutas entre regiones de red para ca
 [Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/set-csnetworkinterregionroute?view=skype-ps)
   
 [Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkinterregionroute?view=skype-ps)
-

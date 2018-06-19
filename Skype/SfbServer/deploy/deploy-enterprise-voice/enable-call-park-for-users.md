@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: Habilitar a los usuarios para el estacionamiento de llamadas en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: b93a9393a095a4860bfd8f392f95d834dad6fa71
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 88385ae1332905ae242cf0b4a5002f96b336a1af
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500454"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business-2015"></a>Habilitar el estacionamiento de llamadas para los usuarios en Skype Empresarial 2015
  
@@ -64,7 +65,4 @@ Puede habilitar estacionamiento de llamadas en el ámbito global o en el ámbito
 
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para profesionales de 2015](voice-policy-and-pstn-usage-records.md)
-

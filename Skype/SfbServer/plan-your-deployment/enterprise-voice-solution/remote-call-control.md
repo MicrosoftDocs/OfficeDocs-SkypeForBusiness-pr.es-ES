@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: Control remoto de llamadas era una característica en versiones anteriores de Lync Server que habilita a los usuarios controlar sus teléfonos PBX con Lync Server. En Skype para Business Server, esta característica se ha reemplazado con llamar vía trabajo. En las versiones de cliente de Skype para Business Server 2015 y continuas de llamadas hacia delante remoto control ya no está disponible para configurar en el cliente y se ha quitado para su uso.
-ms.openlocfilehash: e3a8031a79d547a279b377a45e1e8461cd47a2e7
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 83e3138d11113d46b3225980205150f79d85235c
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19504036"
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business-2015"></a>Planificar el control remoto de llamadas en Skype Empresarial 2015
  
@@ -38,11 +39,8 @@ Para obtener más información, vea [Control remoto de llamadas](https://go.micr
   
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Planeación de la llamada vía trabajo en Skype para Business Server 2015](call-via-work.md)
   
 [Comparación de características de cliente de escritorio de Skype para la empresa](../../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)
 
 [Realizar una Skype para llamada de negocio pero usar su teléfono de escritorio PBX para audio](https://support.office.com/en-us/article/Make-a-Skype-for-Business-call-but-use-your-PBX-desk-phone-for-audio-6a316c11-a05e-460c-b969-32ff0ad848e6)
-

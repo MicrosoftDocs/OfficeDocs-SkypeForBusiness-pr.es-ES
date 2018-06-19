@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
 description: Habilitar desvío de medios omitir siempre el servidor de mediación en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: d7a80d9fb0365dde437f10696b13262f8667addf
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9e28af8bd794c3c0924e9a6688eeca159c435d28
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500437"
 ---
 # <a name="configure-media-bypass-in-skype-for-business-server-2015-to-always-bypass-the-mediation-server"></a>Configurar el desvío de medios en Skype para Business Server 2015 omitir siempre el servidor de mediación
  
@@ -44,9 +45,6 @@ Si no se dispone de buena conectividad entre Skype para los extremos de negocio 
     
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Planeación de desvío de medios en Skype para profesionales de 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
   
 [Implementar el desvío de medios en Skype para Business Server 2015](deploy-media-bypass.md)
-

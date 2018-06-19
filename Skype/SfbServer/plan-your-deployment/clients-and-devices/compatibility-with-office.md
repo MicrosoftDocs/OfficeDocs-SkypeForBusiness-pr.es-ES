@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: Comprender las formas que se puede tener acceso a Skype para las características empresariales de Outlook y otras aplicaciones de Microsoft Office.
-ms.openlocfilehash: 186b8951718e6903ec7cc4f8c317504b74917716
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 49bfb52925855ad7fd5ce0564056cfd8c5039ef6
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503987"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype para la compatibilidad de negocio con aplicaciones de Office
  
@@ -65,15 +66,12 @@ En la siguiente tabla se describe Skype para soporte del negocio para las distin
    
 ## <a name="see-also"></a>Vea también
  
-
 [Los requisitos de cliente de Windows y la compatibilidad de software](windows-requirements.md)
   
 [Planeación de los clientes de las reuniones (Web App y aplicación de las reuniones)](meetings-clients.md)
-#### 
 
 [Interoperabilidad de clientes en Lync 2013](http://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)
   
 [Requisitos del sistema cliente](http://technet.microsoft.com/library/38f3a465-dac1-4381-bc59-270a4ef07ced.aspx)
   
 [Requisitos de aplicación de almacenamiento de Windows de Lync](http://technet.microsoft.com/library/5f2e0a40-8450-4f61-b6f6-913fc1906020.aspx)
-

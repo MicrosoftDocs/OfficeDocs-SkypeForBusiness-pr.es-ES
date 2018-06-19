@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: deaa170f-041e-45cb-8eab-f02931ab541e
 description: Obtenga información acerca de las reglas de normalización para el estacionamiento de llamadas en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: c637240d4c193bbec05228d167d77f7bd18c0d04
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d97c882efccf208d4457ec3bbbc0c2bf1a4e0b53
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500671"
 ---
 # <a name="verify-normalization-rules-for-call-park-in-skype-for-business-2015"></a>Comprobar las reglas de normalización para el estacionamiento de llamadas en Skype Empresarial 2015
  
@@ -31,7 +32,4 @@ No se deben normalizar órbitas de estacionamiento de llamadas. Revise sus plane
   
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Crear o modificar un plan de marcado de Skype para Business Server 2015](dial-plans.md)
-

@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: Crear o modificar un intervalo de números de grupo llamada recogida en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: e67c8094bf66590d006fbce75f49258bb3f4f2a9
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b0fd219fb415439712d73e0c5dad22ba3f92b4fa
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500838"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business-2015"></a>Crear o modificar un intervalo numérico de respuesta de llamadas grupales en Skype Empresarial 2015
  
@@ -76,11 +77,8 @@ Los intervalos de números del grupo de atención de llamadas deben cumplir con 
   
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Nuevo-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
   
 [Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
   
 [Eliminar un intervalo de órbitas de estacionamiento de llamadas](http://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)
-

@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 'Resumen: Obtenga información sobre las opciones para la planeación de una solución de comunicaciones de voz y unificada en Skype para Business Server 2015.'
-ms.openlocfilehash: 9e0b0be7652f8f400e697086b09b447f7f97e958
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b8870cb252613a362c38262185e779b06dff6136
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19504260"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server-2015"></a>Planear la solución de Enterprise Voice en Skype para Business Server 2015
  
@@ -45,11 +46,8 @@ Por supuesto, puede tener algunos de los usuarios habilitados para Enterprise Vo
   
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Planeación de Enterprise Voice en Skype para Business Server 2015](enterprise-voice.md)
   
 [Planeación de la llamada vía trabajo en Skype para Business Server 2015](call-via-work.md)
   
 [Plan para el control remoto de llamadas en Skype para profesionales de 2015](remote-call-control.md)
-
