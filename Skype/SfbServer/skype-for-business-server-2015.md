@@ -12,15 +12,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: 'Resumen: Explore estos vínculos para obtener información sobre cómo implementar Skype para Business Server 2015.'
-ms.openlocfilehash: ac6462e1604f487ad703fb2e543361a4360a811d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 21a776b96c640b152e512b3c052340e2ed8f45d9
+ms.sourcegitcommit: 3356670f2849306ce329899509d2104fe0404939
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19949818"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype Empresarial Server 2015
 
-Skype para empresas es una plataforma de comunicaciones y colaboración que reúne una experiencia de cliente inspirado en Skype con control, cumplimiento de normas y seguridad de nivel empresarial. Skype para empresas ofrece características como la presencia, mensajería instantánea, voz y videollamadas y reuniones en línea. 
+Skype para la empresa es una plataforma de comunicaciones y colaboración que reúne una experiencia de cliente inspiración por Skype con control, cumplimiento y seguridad de nivel empresarial. Skype para la empresa ofrece características que incluyen la presencia, mensajería instantánea, voz y llamadas de vídeo y reuniones en línea. 
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -30,7 +31,7 @@ Skype para empresas es una plataforma de comunicaciones y colaboración que reú
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_tasks.svg" alt="Tasks" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-blue.svg" alt="Tasks" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -48,7 +49,7 @@ Skype para empresas es una plataforma de comunicaciones y colaboración que reú
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/SkypeForBusiness/sfbserver/media/icon-hybrid.svg" alt="Hybrid" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/hybrid-blue.svg" alt="Hybrid" />
 
                         </div>
                     </div>
@@ -67,7 +68,7 @@ Skype para empresas es una plataforma de comunicaciones y colaboración que reú
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_deploy.svg" alt="Deploy" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-blue.svg" alt="Deploy" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -85,7 +86,7 @@ Skype para empresas es una plataforma de comunicaciones y colaboración que reú
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_upgrade.svg" alt="Upgrade" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/upload-blue.svg" alt="Upgrade" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -103,7 +104,7 @@ Skype para empresas es una plataforma de comunicaciones y colaboración que reú
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_architecture.svg" alt="Architecture" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/process-flow-blue.svg" alt="Architecture" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -121,11 +122,11 @@ Skype para empresas es una plataforma de comunicaciones y colaboración que reú
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_download-generic.svg" alt="Download" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/download-blue.svg" alt="Download" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Descargar desde el Skype para el centro de evaluación de negocio</h3>
+                        <h3>Descargar desde la Skype para el centro de evaluación de negocio</h3>
                     </div>
                 </div>
             </div>
@@ -157,7 +158,7 @@ Skype para empresas es una plataforma de comunicaciones y colaboración que reú
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Instalar y administrar</h3>
+                        <h3>Instalación y administración</h3>
                         <p>[Instalar Skype para Business Server](/SkypeForBusiness/deploy/install/install)</p>
                         <p>[Administrar Skype para Business Server](/SkypeForBusiness/manage/manage)</p>
                      </div>
@@ -185,7 +186,7 @@ Skype para empresas es una plataforma de comunicaciones y colaboración que reú
                     <div class="cardText">
                         <h3>Difusión de reunión de Skype</h3>
                         <p><a href="https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d">¿Qué es?</a></p>
-                        <p>[Configurar la implementación local para difundir reunión de Skype](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)
+                        <p>[Configurar la implementación local para difundir presentación de reunión de Skype](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)
                     </div>
                 </div>
             </div>
@@ -197,9 +198,9 @@ Skype para empresas es una plataforma de comunicaciones y colaboración que reú
                 <div class="card">
                     <div class="cardText">
                         <h3>Soluciones híbridas</h3>
-                        <p>[Plan de conectividad de híbrido](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)</p>
-                        <p>[Diseñe la solución de sistema de teléfono (PBX de nube)](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution)</p>
-                        <p>[Plan para la edición de conector de nube](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)</p>
+                        <p>[Planeación de la conectividad híbrida](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)</p>
+                        <p>[Planear la solución de sistema telefónico (PBX en la nube)](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution)</p>
+                        <p>[Planeación de la edición de conector en la nube](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)</p>
                </div>
                 </div>
             </div>
