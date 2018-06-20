@@ -287,6 +287,7 @@
 
 #Microsoft Teams para el ámbito educativo
 ## [Inicio rápido: Administradores de Teams para el ámbito educativo](teams-quick-start-edu.yml)
+## [Recursos de los equipos para los administradores de educación](resources-teams-edu.md)
 
 # [Documentación para desarrolladores de Teams](https://docs.microsoft.com/microsoftteams/platform)
 
