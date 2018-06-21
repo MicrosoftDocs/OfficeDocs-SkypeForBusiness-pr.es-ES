@@ -3,7 +3,6 @@ title: Agregar el FQDN del servidor perimetral
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,16 +11,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 description: Debe especificar un nombre de dominio completo (FQDN) para el servicio de servidor perimetral de acceso. Si no seleccionó el uso de un FQDN único &amp; opción de dirección IP en la seleccionar las características de página, también debe especificar un FQDN para el servicio perimetral de conferencia Web y en lugar de A / servicio perimetral A/v.
-ms.openlocfilehash: 06ac7f789b7fd3b8d380c3303c13977313c06a40
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 74ddd2ed5359ce535d8c447b640f5fae44bb6339
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19990122"
 ---
-# <a name="add-edge-server-fqdn"></a><span data-ttu-id="339c1-104">Agregar el FQDN del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="339c1-104">Add Edge Server FQDN</span></span>
+# <a name="add-edge-server-fqdn"></a><span data-ttu-id="6f133-104">Agregar el FQDN del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="6f133-104">Add Edge Server FQDN</span></span>
  
-<span data-ttu-id="339c1-105">Debe especificar un nombre de dominio completo (FQDN) para el servicio de servidor perimetral de acceso.</span><span class="sxs-lookup"><span data-stu-id="339c1-105">You must specify a fully qualified domain name (FQDN) for the Access Edge service.</span></span> <span data-ttu-id="339c1-106">Si no seleccionó el **utilizar un FQDN único &amp; dirección IP** opción en la página **Seleccionar características** , también debe especificar un FQDN para el servicio perimetral de conferencia Web y en lugar de A / servicio perimetral A/v.</span><span class="sxs-lookup"><span data-stu-id="339c1-106">If you did not select the **Use a single FQDN &amp; IP address** option on the **Select features** page, you must also specify an FQDN for the Web Conferencing Edge service and for the A/V Edge service.</span></span>
+<span data-ttu-id="6f133-105">Debe especificar un nombre de dominio completo (FQDN) para el servicio de servidor perimetral de acceso.</span><span class="sxs-lookup"><span data-stu-id="6f133-105">You must specify a fully qualified domain name (FQDN) for the Access Edge service.</span></span> <span data-ttu-id="6f133-106">Si no seleccionó el **utilizar un FQDN único &amp; dirección IP** opción en la página **Seleccionar características** , también debe especificar un FQDN para el servicio perimetral de conferencia Web y en lugar de A / servicio perimetral A/v.</span><span class="sxs-lookup"><span data-stu-id="6f133-106">If you did not select the **Use a single FQDN &amp; IP address** option on the **Select features** page, you must also specify an FQDN for the Web Conferencing Edge service and for the A/V Edge service.</span></span>
   
-<span data-ttu-id="339c1-107">Además, si ha seleccionado la **utilizar un FQDN único &amp; dirección IP** opción, debe especificar un número de puerto diferente para cada uno de los Servicios perimetrales (puerto configuración recomendada: 444 para el servidor perimetral de acceso de servicio, 8057 para el servicio de servidor perimetral de conferencia Web y 443 para un / V Servicio perimetral).</span><span class="sxs-lookup"><span data-stu-id="339c1-107">Also, if you selected the **Use a single FQDN &amp; IP address** option, you must specify a different port number for each of the Edge services (recommended port settings: 444 for Access Edge service, 8057 for Web Conferencing Edge service, and 443 for A/V Edge service).</span></span> <span data-ttu-id="339c1-108">Si no ha seleccionado la opción, puede usar el mismo número de puerto (por ejemplo, 443) para todos los tres servicios.</span><span class="sxs-lookup"><span data-stu-id="339c1-108">If you did not select the option, you can use the same port number (such as 443) for all three services.</span></span>
+<span data-ttu-id="6f133-107">Además, si ha seleccionado la **utilizar un FQDN único &amp; dirección IP** opción, debe especificar un número de puerto diferente para cada uno de los Servicios perimetrales (puerto configuración recomendada: 444 para el servidor perimetral de acceso de servicio, 8057 para el servicio de servidor perimetral de conferencia Web y 443 para un / V Servicio perimetral).</span><span class="sxs-lookup"><span data-stu-id="6f133-107">Also, if you selected the **Use a single FQDN &amp; IP address** option, you must specify a different port number for each of the Edge services (recommended port settings: 444 for Access Edge service, 8057 for Web Conferencing Edge service, and 443 for A/V Edge service).</span></span> <span data-ttu-id="6f133-108">Si no ha seleccionado la opción, puede usar el mismo número de puerto (por ejemplo, 443) para todos los tres servicios.</span><span class="sxs-lookup"><span data-stu-id="6f133-108">If you did not select the option, you can use the same port number (such as 443) for all three services.</span></span>
   
 

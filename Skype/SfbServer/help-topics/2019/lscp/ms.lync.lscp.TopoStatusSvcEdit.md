@@ -3,7 +3,6 @@ title: Topología Ver detalle del servicio
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,23 +11,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 9a70bbd0fb7a19a1857a5aca00b439af5a73bd09
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: b90ee1f363db347c32e29457c80e390858d257c3
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987945"
 ---
-# <a name="topology-view-service-detail"></a><span data-ttu-id="a5953-104">Topología: Ver detalle del servicio</span><span class="sxs-lookup"><span data-stu-id="a5953-104">Topology: View Service Detail</span></span>
+# <a name="topology-view-service-detail"></a><span data-ttu-id="d78ce-104">Topología: Ver detalle del servicio</span><span class="sxs-lookup"><span data-stu-id="d78ce-104">Topology: View Service Detail</span></span>
  
-<span data-ttu-id="a5953-p102">¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="a5953-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="d78ce-p102">¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="d78ce-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="a5953-107">Ver una lista de los equipos que ejecutan Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="a5953-107">View a List of Computers Running Lync Server 2010</span></span>](http://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
+- [<span data-ttu-id="d78ce-107">Ver una lista de los equipos que ejecutan Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="d78ce-107">View a List of Computers Running Lync Server 2010</span></span>](http://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
     
-- [<span data-ttu-id="a5953-108">Ver detalles acerca de un servicio</span><span class="sxs-lookup"><span data-stu-id="a5953-108">View Details About a Service</span></span>](http://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
+- [<span data-ttu-id="d78ce-108">Ver detalles acerca de un servicio</span><span class="sxs-lookup"><span data-stu-id="d78ce-108">View Details About a Service</span></span>](http://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
     
-- [<span data-ttu-id="a5953-109">Iniciar o detener servicios de Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="a5953-109">Start or Stop Lync Server 2010 Services</span></span>](http://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
+- [<span data-ttu-id="d78ce-109">Iniciar o detener servicios de Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="d78ce-109">Start or Stop Lync Server 2010 Services</span></span>](http://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
     
-- [<span data-ttu-id="a5953-110">Impedir nuevas conexiones a servicios</span><span class="sxs-lookup"><span data-stu-id="a5953-110">Prevent New Connections to Services</span></span>](http://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
+- [<span data-ttu-id="d78ce-110">Impedir nuevas conexiones a servicios</span><span class="sxs-lookup"><span data-stu-id="d78ce-110">Prevent New Connections to Services</span></span>](http://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
     
-<span data-ttu-id="a5953-111">Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="a5953-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
+<span data-ttu-id="d78ce-111">Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="d78ce-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
 
