@@ -3,7 +3,6 @@ title: Nodo de ámbito de aplicaciones de sucursal
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 description: 'El nodo aplicaciones de sucursal con funciones de supervivencia enumera las aplicaciones de sucursal con funciones de supervivencia en este sitio de sucursal. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: c31e91d3d6076950b80dae9f34faa97700031c7a
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 35edd7329a293c4f5aea92ebaf4c3fa71c2c0e8e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19991631"
 ---
 # <a name="branch-office-appliances-scope-node"></a>Nodo de ámbito de aplicaciones de sucursal
  

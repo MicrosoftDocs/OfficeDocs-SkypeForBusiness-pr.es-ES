@@ -3,7 +3,6 @@ title: Expansor de configuración general de aplicación de sucursal
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 'Para editar la configuración de una aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia, le presentamos las secciones siguientes:'
-ms.openlocfilehash: 1f0c1b47d0ea042f29172f4557ef78db42f83216
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: eb82254746ea74e06dcd51231712d4694fa8aa9c
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19991603"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Expansor de configuración general de aplicación de sucursal
  

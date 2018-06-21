@@ -3,7 +3,6 @@ title: Agregar supervisión de Director
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 description: 'Puede definir el almacén de SQL Server de supervisión mediante la configuración de las siguientes propiedades:'
-ms.openlocfilehash: d33e994275679731a832b40c780d03c9a782d8fd
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 421eca100d65e529ac965dc927d193e9378bdc5f
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19992016"
 ---
 # <a name="add-director-monitoring"></a>Agregar supervisión de Director
  

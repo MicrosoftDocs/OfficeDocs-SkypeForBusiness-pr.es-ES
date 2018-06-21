@@ -3,7 +3,6 @@ title: Los usuarios ver la directiva de movilidad
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
 description: La vista - cuadro de diálogo Directiva de movilidad muestra las propiedades de la directiva de movilidad seleccionada.
-ms.openlocfilehash: f00a792d8efb3e537501916e667b4af0508c4579
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: ebd466bc4794b14b34dca10b664121fe5d0f0179
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19991659"
 ---
 # <a name="users-view-mobility-policy"></a>Usuarios: Ver directiva de movilidad
  
@@ -26,11 +26,8 @@ Para obtener información detallada acerca de cómo asignar directivas de movili
   
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Planeación de movilidad](http://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
   
 [Implementación de movilidad](http://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
   
 [Directivas de movilidad](http://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx)
-

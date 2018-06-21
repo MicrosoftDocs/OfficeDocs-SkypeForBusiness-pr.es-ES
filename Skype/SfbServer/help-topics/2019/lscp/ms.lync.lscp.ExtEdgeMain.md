@@ -3,7 +3,6 @@ title: Configuración perimetral de acceso
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1bd49911-df70-4f96-85bc-1f005ea65163
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 2bd3ca16bcd6438ff71e4bcb8073ef86f8ec62fb
-ms.sourcegitcommit: 14061f39e51be9853ba53fc2a7a9a6640b2f2bb8
+ms.openlocfilehash: ceb3bec941724b7501a746058aecef9963ddf4eb
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "19186698"
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19990614"
 ---
 # <a name="access-edge-configuration"></a>Configuración perimetral de acceso
  
