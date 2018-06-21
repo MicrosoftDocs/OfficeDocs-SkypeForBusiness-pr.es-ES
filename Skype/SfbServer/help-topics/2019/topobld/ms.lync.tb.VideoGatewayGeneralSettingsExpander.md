@@ -3,7 +3,6 @@ title: Configuración general de la puerta de enlace de vídeo
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d1485ab-f912-4153-9839-4717f0314729
 description: Se describen los pasos necesarios para definir un nuevo frente o puerta de enlace de vídeo en el generador en línea en crear un grupo de servidores con respecto de Skype para Business Server 2015.
-ms.openlocfilehash: c7cbc1bf12b9e1c81f678be83744b8f9a680c948
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 78a14d289f1234ece530ffc57b047c9bb71bc31e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19997139"
 ---
 # <a name="video-gateway-general-settings"></a>Configuración general de la puerta de enlace de vídeo
  
@@ -32,7 +32,4 @@ Los pasos de configuración para un nuevo servidor de interoperabilidad de víde
   
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Planeación de servidor de interoperabilidad vídeo en Skype para Business Server 2015](../../../plan-your-deployment/video-interop-server.md)
-

@@ -3,7 +3,6 @@ title: Configuración de reuniones
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,12 +10,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
-description: Opciones de configuración que definen el tipo de conferencias (también calledmeetings) que los usuarios pueden crear y controlar cómo (o si) los usuarios anónimos y los usuarios de conferencia de acceso telefónico pueden unirse a estas conferencias. Estas opciones solo se aplican a las reuniones programadas. No se aplican a reuniones ad-hoc que se crean haciendo clic en la opción Reunirse ahora en el cliente.
-ms.openlocfilehash: 1318f2eee75809e736ce04af01eb2f2563b86f0f
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: Opciones de configuración que definen el tipo de conferencias (también llamadas reuniones) que los usuarios pueden crear y controlar cómo (o si) los usuarios anónimos y los usuarios de conferencia de acceso telefónico pueden unirse a estas conferencias. Estas opciones solo se aplican a las reuniones programadas. No se aplican a reuniones ad-hoc que se crean haciendo clic en la opción Reunirse ahora en el cliente.
+ms.openlocfilehash: a3a175d6dd49502a3686ea356c30c9da5c7ad01d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19997034"
 ---
 # <a name="meeting-configuration"></a>Configuración de reuniones
  

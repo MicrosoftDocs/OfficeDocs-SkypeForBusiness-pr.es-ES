@@ -3,7 +3,6 @@ title: Asistente para certificados
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 description: Para solicitar, asignar, quitar o ver certificados, use el Asistente para certificados. Debe haber iniciado sesión como miembro del grupo RTCUniversalServerAdmins. No hace falta pertenecer a ningún otro grupo para solicitar un certificado a una entidad de certificación pública. Para solicitar un certificado de infraestructura de clave pública (PKI) de su organización, es necesario que confirme lo que adicionales, si hay alguno, pertenencias a grupos que necesitará. Durante la tarea de la solicitud, puede escribir las credenciales que se utilizará para solicitar que el certificado desde su PKI entidad emisora de certificados.
-ms.openlocfilehash: d700a6cae510bbc12ed2e37c9c3df166d2704269
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 5216b190aafc095f00cd66e931c84caebd115a69
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19997041"
 ---
 # <a name="certificate-wizard"></a>Asistente para certificados
  
