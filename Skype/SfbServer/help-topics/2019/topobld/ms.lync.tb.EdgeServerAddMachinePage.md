@@ -3,7 +3,6 @@ title: Equipo agregado del servidor perimetral
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bdae4545-942e-4f76-9d3f-6ac5d1ebe213
 description: Especifique el nombre de dominio completo (FQDN) de cada equipo que desea agregar como un servidor perimetral en este grupo de servidores. Después de agregar un equipo a la lista, puede actualizar el FQDN del equipo o quitar el grupo de servidores, en cualquier momento antes de publicar la topología. Después de publicar la topología, el cambio del FQDN requiere eliminar el servidor en el generador de topología y, a continuación, agregar un nuevo servidor al grupo de servidores con el FQDN nuevo. Para obtener información detallada acerca del diseño de la topología para un grupo de servidores perimetrales, consulte Define Your Edge Topology en la documentación de implementación perimetral.
-ms.openlocfilehash: 3efa42994fd01baea43145ec285a79256243628f
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 60daa862f30d10b1a4a582eed3cb09fa6ff36520
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19975093"
 ---
 # <a name="edge-server-add-machine"></a>Equipo agregado del servidor perimetral
  

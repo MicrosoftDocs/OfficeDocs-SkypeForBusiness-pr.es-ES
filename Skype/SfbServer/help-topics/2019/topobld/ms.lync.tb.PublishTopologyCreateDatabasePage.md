@@ -3,7 +3,6 @@ title: Crear base de datos
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 description: Generador de topología proporciona una forma de instalar las bases de datos en un almacén de SQL Server. Al instalar las bases de datos mediante el uso de Topology Builder, la aplicación lee información de la topología y, a continuación, instala las bases de datos necesarios en el equipo de SQL Server especificado o el clúster de SQL Server. Se trata del único tipo de instalación de bases de datos disponible mediante el Generador de topologías. Si es necesario instalar una base de datos específica en un equipo específico, o si se debe instalar una base de datos combinada, debe usar el cmdlet Install-CsDatabase e interfaz de línea de comandos de Windows PowerShell en su lugar.
-ms.openlocfilehash: 9bee333e0b56a6eeb8f4363e6657be2fabfa1ace
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f9d351d4b6b7cb37d2daeb889caabb1f4090e74e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979802"
 ---
 # <a name="create-database"></a>Crear base de datos
  
@@ -24,7 +24,7 @@ Generador de topología proporciona una forma de instalar las bases de datos en 
   
 ### <a name="creating-a-database"></a>Creación de una base de datos
 
-1. Haga clic en el Skype para Business Server 2015 nodo y, a continuación, haga clic en **Instalar base de datos**.
+1. Haga clic en el Skype para el nodo de servidor empresarial y, a continuación, haga clic en **Instalar base de datos**.
     
 2. En el cuadro de diálogo **Instalar bases de datos** , en la página **Crear base de datos** , seleccione el nombre de dominio completo (FQDN) del almacén de SQL Server donde están las nuevas bases de datos que se creará.
     

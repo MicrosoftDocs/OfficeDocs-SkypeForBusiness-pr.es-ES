@@ -3,7 +3,6 @@ title: Nodo de ámbito de troncos
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 description: 'Troncos con el botón secundario en el generador de topología para llevar a cabo lo siguiente:'
-ms.openlocfilehash: fbd9f99a8f8b98589f204835a45a5ed7bd0984da
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 01d5e4eb137807e25962a4f5cccd2eb0e044a910
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19975837"
 ---
 # <a name="trunks-scope-node"></a>Nodo de ámbito de troncos
  

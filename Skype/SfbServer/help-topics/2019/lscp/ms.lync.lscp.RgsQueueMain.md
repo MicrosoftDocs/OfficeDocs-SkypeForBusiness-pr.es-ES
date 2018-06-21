@@ -3,7 +3,6 @@ title: Cola de grupos de respuesta
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 description: Grupos de respuesta constan de grupos de agentes, colas y flujos de trabajo. Las colas de grupo de respuesta contienen las llamadas a un grupo de respuesta hasta que un agente atiende la llamada.
-ms.openlocfilehash: ee9e60edaf6b0ffa690a75817e9f1c41c049e344
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 8ebdc6a421261f049bcfdd1da8054d3d05849f3f
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19971478"
 ---
 # <a name="response-groups-queue"></a>Cola de grupos de respuesta
  
@@ -52,6 +52,6 @@ En la siguiente lista se describen los campos de la página.
     
 - **Descripción** La descripción de la cola.
     
-Para obtener información detallada sobre las características de grupo de respuesta y funciones, consulte [Plan para la aplicación de grupo de respuesta en Skype para Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación de planeación. Para obtener información detallada sobre cómo trabajar con colas de grupo de respuesta, vea [Administración de colas de grupo de respuesta](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) en la documentación sobre operaciones.
+Para obtener información detallada sobre las características de grupo de respuesta y funciones, consulte [Plan para la aplicación de grupo de respuesta en Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md). Para obtener información detallada sobre cómo trabajar con colas de grupo de respuesta, vea [Administración de colas de grupo de respuesta](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) en la documentación sobre operaciones.
   
 

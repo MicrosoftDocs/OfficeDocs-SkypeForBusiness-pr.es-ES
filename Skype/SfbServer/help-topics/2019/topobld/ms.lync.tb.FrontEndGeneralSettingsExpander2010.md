@@ -3,7 +3,6 @@ title: Expansor de configuración General Front-End de Lync Server 2010
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Para editar las propiedades del grupo de servidores Front-End o de servidor Front-End, edición o configurar los siguientes atributos. La página de configuración se divide en las secciones siguientes:'
-ms.openlocfilehash: 3fcc23cfb794260f79e285e6e49efc7c657e4df0
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 9b72d78b0c6e4c1278f23d794ca713e3fef772cf
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19502482"
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19976720"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expansor de configuración General Front-End de Lync Server 2010
  
@@ -40,7 +39,7 @@ Para editar las propiedades del grupo de servidores Front-End o de servidor Fron
     
 - Si ha seleccionado conferencias, puede seleccionarse la **conferencia de acceso telefónico local (RTC)** . Active la casilla de verificación para habilitar las características de conferencia de acceso telefónico.
     
-- Seleccione la casilla de verificación **Enterprise Voice** si va a implementar las características para habilitar Lync Server 2013 para que actúe como su sistema de teléfono de voz mediante voz a través de tecnologías IP (VoIP), incluida la opción de implementación de teléfonos auriculares, SIP troncos o público conectividad de red telefónica conmutada con el servidor de mediación, puertas de enlace RTC y IP-PBX, en combinación o solo, basándose en los requisitos y el diseño. Para ver todos los detalles en Enterprise Voice, vea [Enterprise Voice](http://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) y [planeación para Enterprise Voice en Skype para Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Seleccione la casilla de verificación **Enterprise Voice** si va a implementar las características para habilitar Lync Server 2013 para que actúe como su sistema de teléfono de voz mediante voz a través de tecnologías IP (VoIP), incluida la opción de implementación de teléfonos auriculares, SIP troncos o público conectividad de red telefónica conmutada con el servidor de mediación, puertas de enlace RTC y IP-PBX, en combinación o solo, basándose en los requisitos y el diseño. Para ver todos los detalles en Enterprise Voice, vea [Enterprise Voice](http://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) y [planeación para Enterprise Voice en Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
     
     **Asociaciones**
     

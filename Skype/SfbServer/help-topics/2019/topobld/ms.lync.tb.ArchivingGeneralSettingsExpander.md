@@ -3,7 +3,6 @@ title: Expansor de configuración general del servidor de archivado
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 description: 'En el generador, puede editar las propiedades de un servidor individual de archivado ya sea bien por el servidor que ejecuta el archivado en el árbol de consola y haga clic en acción en la barra de herramientas, o haciendo clic en una tarea en el panel de acciones y, a continuación, hace clic en Editar Las propiedades y cambiar cualquiera de las siguientes opciones:'
-ms.openlocfilehash: 76225fe039fea402779e42dd5a33b68a3ab6a8ec
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 9ccad6b4808bc5ffe2066576eff9b2e298f9c236
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19978177"
 ---
 # <a name="archiving-server-general-settings-expander"></a>Expansor de configuración general del servidor de archivado
  

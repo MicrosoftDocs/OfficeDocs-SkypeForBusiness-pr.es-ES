@@ -3,7 +3,6 @@ title: Directiva de archivado
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 description: 'Use las directivas de archivado para habilitar y deshabilitar el archivado para los usuarios alojados en Skype para Business Server. En cada directiva de archivado, puede habilitar o deshabilitar el archivado para una de las siguientes opciones (o ambas):'
-ms.openlocfilehash: 6bdccd0f717314fb36a698ee8dd9d237a47d6bdd
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: efe2a17e5f3e85b83e937e38613b630e3a78f7d9
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979970"
 ---
 # <a name="archiving-policy"></a>Directiva de archivado
  
@@ -35,7 +35,7 @@ Las directivas de archivado están formadas por la directiva global y, de forma 
 - **Directiva de usuario (opcional)** Puede especificar uno o varios usuarios directivas de archivado, que cada uno de los cuales se pueden configurar para habilitar y deshabilitar el archivado de comunicaciones internas o externas para un usuario específico o grupo de usuarios. Una directiva de usuario reemplaza a las directivas globales y de sitio, pero solo para los usuarios y grupos de usuarios que tengan asignadas directivas de archivado de nivel de usuario. Las directivas de usuario se pueden editar o eliminar.
     
 > [!NOTE]
-> Las directivas de archivado se aplican sólo a los usuarios hospedados en Skype para Business Server. Si utiliza la integración de Exchange para almacenar datos en Microsoft Exchange, a continuación, las directivas de Exchange 2013 de archivado control de archivado para los usuarios alojados en Exchange 2013. Para habilitar el archivado para aquellos usuarios, se debe colocar el buzón del usuario en suspensión en contexto. 
+> Las directivas de archivado se aplican sólo a los usuarios hospedados en Skype para Business Server. Si utiliza la integración de Exchange para almacenar datos de archivado en Microsoft Exchange, a continuación, Exchange archivado de control de las directivas para los usuarios alojados en Exchange. Para habilitar el archivado para aquellos usuarios, se debe colocar el buzón del usuario en suspensión en contexto. 
   
 La página **Directiva de archivado** muestra cada directiva de archivado configurada en la implementación. También refleja el nombre de la directiva, el ámbito (global, sitio o usuario) y qué opciones de archivado están habilitadas para cada directiva de archivado. En la página **Directiva de archivado**, dispone de las siguientes opciones:
 - **Nuevo** Puede agregar uno o varios de cada una de las directivas de archivado opcionales siguientes:

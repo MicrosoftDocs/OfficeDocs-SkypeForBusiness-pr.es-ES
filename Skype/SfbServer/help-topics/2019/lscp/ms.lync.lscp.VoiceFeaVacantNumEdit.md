@@ -3,7 +3,6 @@ title: Número de teléfono sin asignar crear nuevos o editar los existentes
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 description: Los números sin asignar son números de teléfono válidos en la organización, pero que no se han asignado a un usuario o teléfono. En la tabla de números sin asignar se identifica cómo desea que se traten las llamadas a números sin asignar.
-ms.openlocfilehash: 4b12efb58891d093e6ae74a6659b8e268053dac8
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 93babaa493fe1cd353c29ccd503b81a4ca9107f8
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964663"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Número de teléfono sin asignar: Crear nuevos o editar los existentes
  
@@ -51,6 +51,6 @@ En la siguiente lista se describen los campos de la página.
     
   - **Número de teléfono del operador automático** Seleccione el número de teléfono para el operador de Exchange UM automático.
     
-Para obtener información detallada sobre las capacidades y características de anuncio, consulte [Plan para la aplicación de anuncio en Skype para 2015 empresarial](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) en la documentación de planeación. Para obtener información detallada sobre cómo trabajar con intervalos numéricos sin asignar, vea [Configurar el enrutamiento de sin asignar números de teléfono](http://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) en la documentación sobre operaciones.
+Para obtener información detallada sobre las capacidades y características de anuncio, consulte [Plan para la aplicación de anuncio en Skype para la empresa](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) en la documentación de planeación. Para obtener información detallada sobre cómo trabajar con intervalos numéricos sin asignar, vea [Configurar el enrutamiento de sin asignar números de teléfono](http://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) en la documentación sobre operaciones.
   
 

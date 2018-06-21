@@ -1,9 +1,8 @@
 ---
 title: Edición de configuración del registro de dispositivo
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: Puede agregar una configuración de registro de dispositivo a la página Editar configuración de registro que determina el tamaño máximo del registro de la caché, el tamaño del archivo de registro máximo o período de tiempo que se mantiene un archivo de registro antes de que se elimina. Puede cambiar esta configuración según los requisitos de su organización.
-ms.openlocfilehash: f933d71016b626648e6fb142af91872da4ed04ff
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 712ba87ab19d2b69792ba720e984d64dd4aac478
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19972332"
 ---
 # <a name="device-log-configuration-edit"></a>Configuración de registro de dispositivo: editar
  
@@ -51,7 +51,4 @@ En las siguientes listas se describen los menús, comandos, campos y propiedades
     
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Configuración de registro de dispositivo](ms.lync.lscp.ClientDeviceCfgMain.md)
-

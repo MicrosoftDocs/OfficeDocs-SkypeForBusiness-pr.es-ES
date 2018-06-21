@@ -3,7 +3,6 @@ title: Los usuarios nuevos objetos de contacto
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05e0d949-0cc6-4d3c-b935-a09a6ad52adc
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 25473441ef9b50344d785090800cc21f960449c1
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 498a4ecfe1a0c693e4fdaeb73858592de5390df7
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19965566"
 ---
 # <a name="users-new-contact-objects"></a>De los usuarios: Nuevos objetos de contacto
  
@@ -36,7 +36,7 @@ ms.lasthandoff: 05/25/2018
     
 - [Asignar una directiva de ubicación a un usuario](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
     
-- [Habilitar a usuarios para Enterprise Voice en Skype para Business Server 2015](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Habilitar a usuarios para Enterprise Voice en Skype para Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
 - [Configurar la federación, el acceso de usuarios remotos y la conectividad de mensajería instantánea pública para los usuarios](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     

@@ -3,7 +3,6 @@ title: Editar expansor de configuración perimetral para Lync Server 2010
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 'Modificar la configuración para el servidor perimetral o grupo de servidores perimetrales mediante la configuración de las siguientes propiedades:'
-ms.openlocfilehash: 682412e1a486cc7351f081d903d8db1131367623
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 5c63dabef721884f387fd901f48c2231895ef35c
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19976713"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Editar expansor de configuración perimetral para Lync Server 2010
  

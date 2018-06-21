@@ -3,7 +3,6 @@ title: Asociar aplicación de sucursal con Front-End
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 607709a0-1617-44f3-bf68-fec1129250a4
 description: Para asociar la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia a un grupo de servidores Front-End o un servidor Standard Edition, en la página Seleccionar el Front-End del grupo, seleccione el grupo de servidores Front-End o un servidor Standard Edition en la lista desplegable grupo de Front-End. Haga clic en siguiente para continuar.
-ms.openlocfilehash: b6ba4e79c2dbc80eacaafdd206b96d1e440090ea
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 9677100188aa040fa4ce034257518840e7dbf6e2
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19969417"
 ---
 # <a name="associate-branch-office-appliance-with-front-end"></a>Asociar aplicación de sucursal con Front-End
  

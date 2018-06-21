@@ -3,7 +3,6 @@ title: Asociar servidor de mediación con borde
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 description: 'Para definir un servidor de mediación, especifique la configuración que asocia el servidor de mediación con un servidor Front-End y con un servidor perimetral o grupo de servidores. Para asociar el servidor de mediación o un grupo de servidores con un servidor perimetral o grupo de servidores perimetrales, haga lo siguiente:'
-ms.openlocfilehash: 105c379e2740db099df73dc5d534a8c94992d7ea
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 5fe2a7439494fdb8cc0e579eff6a146851bea369
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974883"
 ---
 # <a name="associate-mediation-server-with-edge"></a>Asociar servidor de mediación con borde
  
@@ -29,6 +29,6 @@ Para definir un servidor de mediación, especifique la configuración que asocia
 > [!NOTE]
 > Si aún no ha definido un servidor perimetral o grupo de servidores perimetrales en la implementación, la lista desplegable no va a contener las entradas. Puede hacer clic en **siguiente** para continuar y editar la configuración del servidor de mediación después de agregar un servidor perimetral o grupo de servidores para la implementación.
   
-Para obtener más información, vea [implementar un servidor de mediación en el generador de Skype para Business Server 2015](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
+Para obtener más información, vea [implementar un servidor de mediación en el generador de Skype para Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
   
 

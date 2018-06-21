@@ -1,9 +1,8 @@
 ---
 title: Dispositivo de prueba
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
-ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 description: Puede agregar un dispositivo de prueba a la página probar dispositivo y, a continuación, usar este dispositivo para comprobar la funcionalidad de nuevas actualizaciones antes de implementar las actualizaciones en los dispositivos de producción. Puede probar un dispositivo de forma global (en todo el entorno) o en un solo sitio. Un dispositivo de prueba se identifica por su dirección Media Access Control (MAC) o número de serie. Cuando se agrega un dispositivo, aparece en la lista en la página dispositivo de prueba de la Skype para el Panel de Control de servidor empresarial.
-ms.openlocfilehash: 9d58c474b08cf1938a289743e57725cdf33d123f
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: a95366b712d9dcdc44d6bc3b4f7f51af0d59f5aa
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19969585"
 ---
 # <a name="test-device"></a>Dispositivo de prueba
  
@@ -53,14 +53,10 @@ En las siguientes listas se describen los menús, comandos, campos y propiedades
 Para obtener información detallada acerca de cómo probar dispositivos, vea [Agregar un dispositivo para probar la funcionalidad de actualización](http://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) en la documentación sobre operaciones.
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Dispositivo de prueba: Crear nuevos o editar los existentes](ms.lync.lscp.ClientDeviceTestEdit.md)
-#### 
 
 [Nuevo-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
   
 [Set-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
   
 [Ver actualizaciones de Software para dispositivos de la organización](http://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)
-

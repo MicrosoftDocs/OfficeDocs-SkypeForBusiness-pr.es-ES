@@ -3,7 +3,6 @@ title: Agregar IP de NAT de servidor perimetral
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 description: La dirección IP pública es la dirección IP que se usa en la traducción de direcciones de red (NAT). La dirección IP debe ser públicamente enrutable. Esto es necesario porque ha seleccionado la dirección IP externa de este borde se traduce el grupo de servidores mediante la opción de NAT en la página Seleccionar características de este asistente.
-ms.openlocfilehash: 4bfbcb7d8859dc928c78c8e32b21604ef473317b
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 64bdb9f64abfc81e1338067d9afe780f1e40cb48
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964572"
 ---
 # <a name="add-edge-server-nat-ip"></a>Agregar IP de NAT de servidor perimetral
  

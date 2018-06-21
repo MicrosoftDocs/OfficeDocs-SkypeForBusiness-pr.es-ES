@@ -3,7 +3,6 @@ title: Grupo de grupos de respuesta
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 description: Grupos de respuesta constan de grupos de agentes, colas y flujos de trabajo. Un grupo de agentes es un grupo de personas que se designan para atender las llamadas de grupo de respuesta.
-ms.openlocfilehash: c2636da9d21532a9f449f1663b9458ac253ecf27
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: ea4441a65abe6d2acb3f57a920b75e9f893e9b72
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974222"
 ---
 # <a name="response-groups-group"></a>Grupos de respuesta: grupo
  
@@ -52,6 +52,6 @@ En la siguiente lista se describen los campos de la página.
     
 - **Descripción** La descripción para el grupo de agentes.
     
-Para obtener información detallada sobre las características de grupo de respuesta y funciones, consulte [Plan para la aplicación de grupo de respuesta en Skype para Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación de planeación. Para obtener información detallada sobre cómo trabajar con grupos de agentes, consulte [Administración de grupos de agentes](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) en la documentación sobre operaciones.
+Para obtener información detallada sobre las características de grupo de respuesta y funciones, consulte [Plan para la aplicación de grupo de respuesta en Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md). Para obtener información detallada sobre cómo trabajar con grupos de agentes, consulte [Administración de grupos de agentes](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) en la documentación sobre operaciones.
   
 

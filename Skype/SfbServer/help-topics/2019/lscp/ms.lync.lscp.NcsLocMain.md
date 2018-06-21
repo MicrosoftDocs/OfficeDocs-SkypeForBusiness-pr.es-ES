@@ -3,7 +3,6 @@ title: Directiva de ubicación
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 description: Las directivas de ubicación determinan si 9-1-1 mejorado (E9-1-1) está habilitado y el modo de usarlo, así como el modo en que la información de ubicación se usa para usuarios y contactos.
-ms.openlocfilehash: 0a4d438ac208af88229f75e7fc8f9eec4d3e7697
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 508aaa6c887d17169ea759e15630975296d27bcb
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964775"
 ---
 # <a name="location-policy"></a>Directiva de ubicación
  
@@ -31,7 +31,7 @@ Las directivas de ubicación incluyen la directiva global y, de forma opcional, 
 - **Las directivas de usuario (opcionales):** Puede crear uno o varios usuarios directivas de ubicación, cada uno de los cuales se aplica a un usuario específico o grupo de usuarios. Las directivas de usuario reemplazan las directivas globales y las directivas de sitio.
     
 > [!NOTE]
-> También puede asignar directivas de ubicación a sitios de red, que son grupos de subredes. Las directivas de ubicación asignadas a los sitios de red prevalecen sobre las demás directivas de usuario. Para obtener información detallada acerca de cómo asignar directivas de ubicación a sitios de red mediante el uso de cmdlets, consulte [Agregar una directiva de ubicación en un sitio de red de Skype para Business Server 2015](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md). Para obtener información detallada acerca del uso de Skype para el Panel de Control de servidor empresarial para asignar una directiva de ubicación a un sitio de red, consulte [Configuración de sitios de red](http://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx). 
+> También puede asignar directivas de ubicación a sitios de red, que son grupos de subredes. Las directivas de ubicación asignadas a los sitios de red prevalecen sobre las demás directivas de usuario. Para obtener información detallada acerca de cómo asignar directivas de ubicación a sitios de red mediante el uso de cmdlets, consulte [Agregar una directiva de ubicación en un sitio de red de Skype para Business Server](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md). Para obtener información detallada acerca del uso de Skype para el Panel de Control de servidor empresarial para asignar una directiva de ubicación a un sitio de red, consulte [Configuración de sitios de red](http://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx). 
   
 La página **Directiva de ubicación** muestra una lista de todas las directivas de ubicación definidas en la organización.
   

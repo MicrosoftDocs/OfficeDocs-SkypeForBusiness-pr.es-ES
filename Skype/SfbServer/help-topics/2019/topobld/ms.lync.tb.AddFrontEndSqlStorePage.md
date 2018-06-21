@@ -3,7 +3,6 @@ title: Agregar almacén de Front-End SQL Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
 description: Una implementación de Standard Edition server instala automáticamente el software de base de datos de Microsoft SQL Server Express requerido y la base de datos de SQL Server. Por lo tanto, todas las opciones se rellena automáticamente y no se puede realizar cambios a la configuración predeterminada.
-ms.openlocfilehash: facb2e91511323e6fc87015016b060ba5076c8f6
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 2b7527207974310c30b559011a580fe8871164d1
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964494"
 ---
 # <a name="add-front-end-sql-server-store"></a>Agregar almacén de Front-End SQL Server
  
@@ -24,7 +24,7 @@ Una implementación de Standard Edition server instala automáticamente el softw
   
 El grupo de servidores Front-End de una implementación de Enterprise Edition server requiere una edición de 64 bits compatible del software de base de datos de SQL Server para la base de datos back-end. Puede seleccionar una base de datos de SQL Server definido previamente que se usará para la base de datos back-end, o definir una nueva base de datos de SQL Server mediante la especificación de un nombre de dominio completo (FQDN) del servidor en el que se residen la base de datos de SQL Server y la instancia de SQL S servidor que desea usar para la nueva base de datos de SQL Server (que puede ser la instancia predeterminada o una instancia con nombre que especifique). También puede optar por habilitar la creación de reflejos en el almacén de SQL Server y especificar a un testigo de reflejo para conmutación por error automática.
   
-Para obtener más información acerca de SQL Server admite, vea [admitir la agrupación en clústeres y Software de base de datos](http://technet.microsoft.com/library/e05d0032-bbea-4e61-987d-d07b1c045fd5.aspx) en la documentación referente a. Para obtener información detallada acerca de cómo configurar SQL Server para la base de datos back-end, vea [Configurar SQL Server para Lync Server 2010](http://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx) en la documentación de implementación.
+Para obtener más información acerca de SQL Server admite, vea [admitir la agrupación en clústeres y Software de base de datos](http://technet.microsoft.com/library/e05d0032-bbea-4e61-987d-d07b1c045fd5.aspx) en la documentación referente a. Para obtener información detallada acerca de cómo configurar SQL Server para la base de datos back-end, vea [Configurar SQL Server](http://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx) en la documentación de implementación.
   
 > [!NOTE]
 > Si la cuenta que se usa para publicar la topología tiene los permisos y derechos de usuario adecuados, puede crear la base de datos back-end (comunicaciones en tiempo real (RTC)) al publicar la topología. También puede crear la base de datos más adelante, incluidos como parte del procedimiento de instalación. 

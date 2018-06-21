@@ -3,7 +3,6 @@ title: Definir el tronco raíz para una nueva dirección IP o puerta de enlace R
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 description: 'Definir el tronco raíz para la dirección IP o red telefónica conmutada (RTC) debe configurar lo siguiente:'
-ms.openlocfilehash: 230c6def2706df1f7ef274ead174d8b603c248d8
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 2ebf044a72b4e2951469bee7ea1d74b271e23e0c
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19978184"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Definir el tronco raíz para una nueva dirección IP o puerta de enlace RTC
  
@@ -34,12 +34,8 @@ Definir el tronco raíz para la dirección IP o red telefónica conmutada (RTC) 
     
 ## <a name="see-also"></a>Vea también
 
-#### 
-
-[Configurar un tronco con desvío de medios en Skype para Business Server 2015](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+[Configurar un tronco con desvío de medios en Skype para Business Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
   
-[Configurar un tronco sin desvío de medios en Skype para Business Server 2015](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
-#### 
+[Configurar un tronco sin desvío de medios en Skype para Business Server](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
 [Soporte técnico de enlace troncal SIP](http://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
-

@@ -3,7 +3,6 @@ title: Asociar VIS con servidor perimetral
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,12 +10,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64d99926-053d-4a7f-a26d-467eef6c0950
-description: Se describen los pasos necesarios para definir un nuevo frente o puerta de enlace de vídeo en el generador en línea en crear un grupo de servidores con respecto de Skype para Business Server 2015.
-ms.openlocfilehash: eb828abb527e9edb6f8118fa456f2a75b72bb061
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+description: Se describen los pasos necesarios para definir un nuevo frente o puerta de enlace de vídeo en el generador de topología en línea en crear un grupo de servidores con respecto de Skype para Business Server.
+ms.openlocfilehash: 4c4bf15d59fa9aa65a747a552d54ac879c06b51a
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19967673"
 ---
 # <a name="associate-vis-with-edge"></a>Asociar VIS con servidor perimetral
  
@@ -32,7 +32,4 @@ Los pasos de configuración para un nuevo servidor de interoperabilidad de víde
   
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Planeación de servidor de interoperabilidad vídeo en Skype para Business Server 2015](../../../plan-your-deployment/video-interop-server.md)
-

@@ -3,7 +3,6 @@ title: Agregar colocaciones de servidor Front-End 2010
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: Para una implementación de Enterprise Edition, puede combinar cualquiera el A / servicio de conferencia A/v, el servidor de mediación o ambos en el grupo de servidores Front-End, o se pueden implementar cada uno de ellos como servidores independientes. Para una implementación de servidor Standard Edition, el servicio de conferencia A/v siempre se instala también si se habilita la conferencia.
-ms.openlocfilehash: 555f23cc9a6cf07f9a095edb56c8307c495def6c
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 495132c2dc290e175447e6a58eee04fcfab2892a
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964558"
 ---
 # <a name="add-front-end-server-collocations-2010"></a>Agregar colocaciones de servidor Front-End 2010
  
@@ -31,8 +31,8 @@ Puede combinar el rol de servidor de mediación en una Standard Edition Front-En
     
 - El IP-PBX o SBC está configurado para recibir tráfico desde cualquier servidor de mediación del grupo de servidores y puede enrutar el tráfico uniformemente a todos los servidores de mediación en el grupo de servidores.
     
-Puede usar Microsoft Lync Server 2013, herramienta de planeación para evaluar si el grupo de servidores Front-End donde desea colocar el servidor de mediación puede administrar la carga. Si el entorno no cumple estos requisitos, a continuación, debe implementar un grupo de servidores de mediación independiente.
+Puede usar la herramienta de planeación para evaluar si el grupo de servidores Front-End donde desea colocar el servidor de mediación puede administrar la carga. Si el entorno no cumple estos requisitos, a continuación, debe implementar un grupo de servidores de mediación independiente.
   
-En general, combinación de A / servidor de conferencia A/v o servidor de mediación no se recomienda si su organización tiene una alta disponibilidad y escalabilidad requirementsFor detalles acerca de combinar estas funciones de servidor en un grupo de servidores Front-End de Enterprise Edition implementación, consulte [definir y configurar un grupo de servidores Front-End](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) en la documentación de implementación. Para obtener información detallada acerca de los / característica de conferencia A/v y de los componentes, consulte [Planning for Conferencing](http://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) en la documentación de planeación. Para obtener información detallada sobre las características de Enterprise Voice y componentes, incluido el servidor de mediación, consulte [Plan para Enterprise Voice en Skype para Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) en la documentación de planeación.
+En general, combinación de A / servidor de conferencia A/v o servidor de mediación no se recomienda si su organización tiene una alta disponibilidad y escalabilidad requirementsFor detalles acerca de combinar estas funciones de servidor en un grupo de servidores Front-End de Enterprise Edition implementación, consulte [definir y configurar un grupo de servidores Front-End](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) en la documentación de implementación. Para obtener información detallada acerca de los / característica de conferencia A/v y de los componentes, consulte [Planning for Conferencing](http://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) en la documentación de planeación. Para obtener información detallada sobre las características de Enterprise Voice y componentes, incluido el servidor de mediación, consulte [Plan para Enterprise Voice en Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) en la documentación de planeación.
   
 

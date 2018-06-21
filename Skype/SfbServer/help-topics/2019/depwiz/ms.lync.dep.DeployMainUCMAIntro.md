@@ -3,7 +3,6 @@ title: Asistente para la implementación de API de comunicaciones unificadas
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,15 +10,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0eb47fc9-17fe-4ccf-b7c9-1a2cf95f943c
-description: Para obtener información detallada acerca de cómo utilizar el Asistente para la implementación para instalar Skype para Business Server 2015, vea instalar Skype para Business Server 2015.
-ms.openlocfilehash: 12d7424abd3c9781e86cf7c37fb00c61d10e46a9
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+description: Para obtener información detallada acerca de cómo utilizar el Asistente para la implementación para instalar Skype para Business Server, vea instalar Skype for Business Server.
+ms.openlocfilehash: e9564a20dea0bcc1d5f4d5e16d0194ca875a5528
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19978255"
 ---
 # <a name="deployment-wizard-unified-communications-api"></a>Asistente para la implementación: API de comunicaciones unificadas
  
-Para obtener información detallada acerca de cómo utilizar el Asistente para la implementación para instalar Skype para Business Server 2015, vea [Instalar Skype para Business Server 2015](../../../deploy/install/install.md).
+Para obtener información detallada acerca de cómo utilizar el Asistente para la implementación para instalar Skype para Business Server, vea [Instalar Skype para Business Server](../../../deploy/install/install.md).
   
 

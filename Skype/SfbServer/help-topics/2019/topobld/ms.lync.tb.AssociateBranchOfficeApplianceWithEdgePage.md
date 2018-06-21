@@ -3,7 +3,6 @@ title: Asociar la aplicación de la sucursal con el perímetro
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 4/14/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 description: Si tiene servidores perimetrales implementados y debe proporcionar servicios de medios para su uso externo, elija el servidor perimetral o grupo de servidores que se asociarán a la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia mediante la selección en la lista desplegable. Haga clic en siguiente para continuar.
-ms.openlocfilehash: 1fc6d734511a8e4bf614694057727c35f209f96c
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 760cdcc357e1a605edd0842d47703142ac1ad174
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19968044"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>Asociar la aplicación de la sucursal con el perímetro
  

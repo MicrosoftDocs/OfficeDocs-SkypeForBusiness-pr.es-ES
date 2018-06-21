@@ -3,7 +3,6 @@ title: Configuración de seguridad del registrador
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 0ce1ab220963c705002be8cbbf1aef4a876ceff3
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 8212398664b3d5f7cf0bfb674cd8cc50ddfa21ad
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19968345"
 ---
 # <a name="registrar-security-settings"></a>Configuración de seguridad del registrador
  

@@ -3,7 +3,6 @@ title: Complemento de chat persistente
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 description: Puede usar la sección de la página de Chat persistente para asociar las direcciones URL a salones de Chat persistente. Estas direcciones URL aparecen en el cliente, en el salón de chat, en el panel de extensibilidad de la conversación. Un administrador necesita agregar complementos a la lista de complementos registrados, y los administradores/creadores del salón de chat necesitan asociar los salones a uno de los complementos registrados para que los clientes puedan ver esta actualización en su cliente.
-ms.openlocfilehash: b9b10c7c4b055c694d58b6cfda9b1e2a84739483
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 9aebe2f1bb1f17a562130e06e3c3030f533659b8
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964593"
 ---
 # <a name="persistent-chat-add-in"></a>Complemento de chat persistente
  
 Puede usar **la sección de la página de **Chat persistente** ** para asociar las direcciones URL a salones de Chat persistente. Estas direcciones URL aparecen en el cliente, en el salón de chat, en el panel de extensibilidad de la conversación. Un administrador necesita agregar complementos a la lista de complementos registrados, y los administradores/creadores del salón de chat necesitan asociar los salones a uno de los complementos registrados para que los clientes puedan ver esta actualización en su cliente.
   
-Los complementos sirven para ampliar la experiencia en el salón. Un complemento típico puede incluir una dirección URL que apunte a una aplicación de Silverlight que intercepta cuando un tablero de cotizaciones se registra en un salón de chat y muestra el historial de cotizaciones en el panel de extensibilidad. Otros ejemplos serían incrustar una dirección URL de OneNote 2013 en el salón de chat como complemento para incluir contexto compartido, como "Lista de prioridades" o "Tema del día".
+Los complementos sirven para ampliar la experiencia en el salón. Un complemento típico puede incluir una dirección URL que apunte a una aplicación de Silverlight que intercepta cuando un tablero de cotizaciones se registra en un salón de chat y muestra el historial de cotizaciones en el panel de extensibilidad. Otros ejemplos son incrustación de una dirección URL de OneNote en el salón de chat como un complemento para incluir algunos contexto compartido, como "Desde la parte superior de la cuenta" o "Tema del día".
   
 Para crear complementos para salones de Chat persistente, vea [configurar complementos para salones de Chat persistente en Skype para Business Server 2015](../../../manage/persistent-chat/configure-add-ins.md). Si es un administrador de Chat persistente, puede crear complementos mediante el panel de control o los cmdlets de Windows PowerShell.
   

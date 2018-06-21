@@ -3,7 +3,6 @@ title: Panel de control - búsqueda de usuario actualizada
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 5/21/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: Puede usar los resultados de una consulta de búsqueda para configurar usuarios de Skype para Business Server. Puede buscar usuarios según el nombre para mostrar, el nombre, los apellidos, el nombre de cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de línea. También Puede buscar usuarios con el panel de control de Lync Server o el complemento de usuarios y equipos de Active Directory.
-ms.openlocfilehash: 188c60467f5579a56cd4b5fa85a616f2e4639663
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 6bd837326e70b3712eb478d662cd6b5a41336953
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19971408"
 ---
 # <a name="control-panel---updated-user-search"></a>Panel de control - actualización: Búsqueda de usuarios
  
@@ -36,7 +36,7 @@ Puede llevar a cabo las tareas siguientes en la página **Búsqueda de usuarios*
     
 - [Asignar directivas a usuarios](http://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
     
-- [Habilitar a usuarios para Enterprise Voice en Skype para Business Server 2015](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Habilitar a usuarios para Enterprise Voice en Skype para Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
 - [Configurar la federación, el acceso de usuarios remotos y la conectividad de mensajería instantánea pública para los usuarios](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     

@@ -3,7 +3,6 @@ title: Nodo de ámbito de servidores de archivado
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 description: En el generador de topología, se pueden realizar las tareas relacionadas con un servidor de archivado individuales, bien el servidor de archivado en el árbol de consola, al hacer clic en acción en la barra de herramientas, o haciendo clic en una tarea en el panel de acciones y, a continuación, haciendo clic en el siguiente archivado Opción de servidor.
-ms.openlocfilehash: d9fb1557c4d302ab4b11cc03e754c7a007abc6af
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: a42a215a3a8af193c68c12bdf953948d449d3536
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19967575"
 ---
 # <a name="archiving-servers-scope-node"></a>Nodo de ámbito de servidores de archivado
  

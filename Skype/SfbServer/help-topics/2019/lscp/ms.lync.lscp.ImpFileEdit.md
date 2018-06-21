@@ -3,7 +3,6 @@ title: Filtro de archivo crear nuevos o editar los existentes
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 6fa1c16a7ef27473d7c4a6e2380528756fedc77b
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: ca43cd417a4a3a996c65ea06bab7254c080a4948
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19978241"
 ---
 # <a name="file-filter-create-new-or-edit-existing"></a>Filtro de archivo: Crear nuevos o editar los existentes
  
@@ -26,5 +26,5 @@ ms.lasthandoff: 05/25/2018
     
 - [Crear un nuevo filtro de transferencia de archivo para un sitio específico](http://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
     
-Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../../manage/manage.md).
+Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server](../../../manage/manage.md).
 

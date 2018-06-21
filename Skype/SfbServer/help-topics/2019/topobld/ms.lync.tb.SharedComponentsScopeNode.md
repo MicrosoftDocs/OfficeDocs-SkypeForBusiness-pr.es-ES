@@ -3,7 +3,6 @@ title: Nodo de ámbito de componentes compartidos
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 description: Botón secundario haga clic en componentes compartidos en el árbol de la jerarquía de Topology Builder para crear nuevos componentes compartidos o para tener acceso a las opciones del nivel topología.
-ms.openlocfilehash: c3d5ad676439658beee774cbb71e6ea9a1660872
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 34100f245178b347d997a09bdd2ec7c901b2762d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974145"
 ---
 # <a name="shared-components-scope-node"></a>Nodo de ámbito de componentes compartidos
  

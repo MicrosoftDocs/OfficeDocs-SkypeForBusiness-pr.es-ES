@@ -3,7 +3,6 @@ title: Seleccionar contactos de Active Directory
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8732867c-4f78-454a-a4cc-49c3e76ce40c
 description: Use el seleccionar del cuadro de diálogo de Active Directory para buscar contactos que desea habilitar para Skype para la empresa. Escriba en el cuadro de búsqueda la dirección SIP o nombre para mostrar del contacto que quiera localizar. Para recuperar todos los contactos disponibles, deje vacío el cuadro de búsqueda.
-ms.openlocfilehash: 9e79b717460e8c3b6386c0bf50a45e24ffc1e941
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: f01ad28d128245e2edafb490d37eb0929d012334
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19970524"
 ---
 # <a name="select-contacts-from-active-directory"></a>Seleccionar contactos de Active Directory
  

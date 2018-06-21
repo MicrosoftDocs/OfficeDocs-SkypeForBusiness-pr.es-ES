@@ -3,7 +3,6 @@ title: Editar directiva de movilidad de cliente
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 description: En el cuadro de diálogo Editar directiva de movilidad, puede editar los detalles de una directiva de movilidad.
-ms.openlocfilehash: 2016209684eb19f519905ea7f8e210f5e01ef5f5
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 6e7c8f1b043219fbc7cb098f15c006e907d1822d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19969592"
 ---
 # <a name="edit-client-mobility-policy"></a>Editar directiva de movilidad de cliente
  
@@ -40,9 +40,6 @@ Para obtener información detallada acerca de las directivas de movilidad, vea [
   
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Planeación de movilidad](http://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
   
 [Implementación de movilidad](http://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
-

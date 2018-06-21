@@ -3,7 +3,6 @@ title: Preparar dominio actual
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,16 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
-description: 'Para preparar un dominio a los servidores host que ejecuta Skype para Business Server 2015 o Skype para los usuarios de Business Server, debe completar el paso 5: Preparar dominio actual, como se describe en el tema mediante el programa de instalación para ejecutar la preparación del dominio. Para completar el paso, debe haber iniciado sesión como miembro del grupo Administradores del dominio en el dominio que va a preparar o como miembro del grupo Administradores de organización del bosque al que pertenece el dominio. Para preparar el dominio:'
-ms.openlocfilehash: e34498dd44d7518300b0e7d4df6a5135b8e51a2d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: 'Para preparar un dominio a los servidores host que ejecuta Skype para Business Server o Skype para los usuarios de Business Server, debe completar el paso 5: Preparar dominio actual, como se describe en el tema mediante el programa de instalación para ejecutar la preparación del dominio. Para completar el paso, debe haber iniciado sesión como miembro del grupo Administradores del dominio en el dominio que va a preparar o como miembro del grupo Administradores de organización del bosque al que pertenece el dominio. Para preparar el dominio:'
+ms.openlocfilehash: 7b67521cef97efd2bdfc0da344a8619272899340
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979893"
 ---
 # <a name="prepare-current-domain"></a>Preparar dominio actual
  
-Para preparar un dominio a los servidores host que ejecuta Skype para Business Server 2015 o Skype para los usuarios de Business Server, debe completar **paso 5: preparar el dominio actual**, tal como se describe en el tema [Uso de programa de instalación para ejecutar la preparación del dominio](http://technet.microsoft.com/library/95dab800-1f2c-4506-b36c-99986643b149.aspx). Para completar el paso, debe haber iniciado sesión como miembro del grupo Administradores del dominio en el dominio que va a preparar o como miembro del grupo Administradores de organización del bosque al que pertenece el dominio. Para preparar el dominio:
+Para preparar un dominio a los servidores host que ejecuta Skype para Business Server o Skype para los usuarios de Business Server, debe completar **paso 5: preparar el dominio actual**, tal como se describe en el tema [Uso de programa de instalación para ejecutar la preparación del dominio](http://technet.microsoft.com/library/95dab800-1f2c-4506-b36c-99986643b149.aspx). Para completar el paso, debe haber iniciado sesión como miembro del grupo Administradores del dominio en el dominio que va a preparar o como miembro del grupo Administradores de organización del bosque al que pertenece el dominio. Para preparar el dominio:
   
 1. De Skype para medio o la carpeta de instalación de Business Server 2015, ejecute Setup.exe para iniciar la Skype para el Asistente para la implementación de servidor de negocio.
     

@@ -18,12 +18,12 @@ ms.custom:
 - Reporting
 description: El nuevo Skype para el área de informes del centro de administración empresarial muestra realiza la llamada y audio conferencia actividad en la organización. Permite profundizar en los informes para proporciona una idea más granular acerca de las actividades de cada usuario. Por ejemplo, puede usar el informe Detalles de uso de RTC de Skype Empresarial para ver el número de minutos dedicados a llamadas entrantes y salientes, así como el coste de dichas llamadas. Puede ver detalles de uso de RTC de conferencia de Audio incluido el costo de la llamada para que pueda comprender su uso y llamar a los detalles de facturación para determinar el uso dentro de la organización.
 search.appverid: MET150
-ms.openlocfilehash: 62b6bff4952a590bfeef47a6d1fe23e1fe3d49d5
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 59a1fbae9614fa6742f73b46c442d7912c71f88d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933131"
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19973372"
 ---
 # <a name="pstn-usage-report"></a>Informe de uso de RTC
 
@@ -89,6 +89,7 @@ Este es el aspecto del informe.
      *    **MCOPSTNPP** - Communications créditos <br/> **MCOPSTN1** - llamar a planear nacionales (3000 min US / planes de 1200 min la Unión Europea) 
      *    **MCOPSTN2** - Plan de llamadas internacionales 
      *    **MCOPSTN5** - nacionales llamar a Plan (plan llamada 120 minutos) 
+     *    **MCOPSTN6** - nacionales llamar a Plan (plan de llamadas de 240 min) Nota: disponibilidad limitada
      *    **MCOMEETADD** - conferencias de Audio
      *    **MCOMEETACPEA** - pago por minuto conferencias de Audio 
 ***

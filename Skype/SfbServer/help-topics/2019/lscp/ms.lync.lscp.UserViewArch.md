@@ -3,7 +3,6 @@ title: Los usuarios ver o configuración directiva de archivado
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1d6ec29-178e-4325-8901-ee6cf0e91759
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 0e4c13e06ec4682f22e5745907379fd26b783723
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 039c6971a533344cfb0d6aee9387b7afb58a0257
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979214"
 ---
 # <a name="users-view-or-configure-archiving-policy"></a>Usuarios: Ver o configurar Directiva de archivado
  

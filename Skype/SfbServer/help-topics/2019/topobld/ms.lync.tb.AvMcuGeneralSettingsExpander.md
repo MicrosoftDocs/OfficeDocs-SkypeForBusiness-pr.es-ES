@@ -3,7 +3,6 @@ title: Expansor de configuración General de MCU AV
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 description: 'Para editar las propiedades de un grupo de servidor de conferencia A/v que ya haya definido, puede hacer lo siguiente:'
-ms.openlocfilehash: 9e0b1ef0aafae579aa0bab56e340177aeea0ecf8
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 1ecc843ec0324a6b07a62d9ba114a2b30fbc6f45
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19966875"
 ---
 # <a name="av-mcu-general-settings-expander"></a>Expansor de configuración General de MCU AV
  

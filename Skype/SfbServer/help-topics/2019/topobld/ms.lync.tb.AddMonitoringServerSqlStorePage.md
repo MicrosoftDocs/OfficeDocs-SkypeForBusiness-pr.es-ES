@@ -3,7 +3,6 @@ title: Agregar almacén de SQL Server de servidor de supervisión
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
 description: El servidor de supervisión requiere una edición de 64 bits compatible del software de base de datos de SQL Server para almacenar los datos de supervisión. Puede seleccionar una base de datos de SQL Server definido previamente que se usará para la supervisión, o definir una nueva base de datos de SQL Server mediante la especificación de un nombre de dominio completo (FQDN) del servidor en el que reside la base de datos de SQL Server, además de la instancia de SQL Servidor que desea usar para la nueva base de datos de SQL Server (que puede ser la instancia predeterminada o una instancia con nombre que especifique).
-ms.openlocfilehash: f52f44acd9ca57112da75fcc368d8ebaae99b081
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 362f4be3d778d0c5607f6c0ee1233d85d6b9149e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19969774"
 ---
 # <a name="add-monitoring-server-sql-server-store"></a>Agregar almacén de SQL Server de servidor de supervisión
  

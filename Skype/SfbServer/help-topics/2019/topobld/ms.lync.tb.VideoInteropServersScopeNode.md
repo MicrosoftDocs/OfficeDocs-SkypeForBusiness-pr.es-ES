@@ -3,7 +3,6 @@ title: 'Servidores de interoperabilidad de vídeo: Definir el ámbito del nodo'
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 963e6693-26bc-439f-b76d-04389e6ebbf9
 description: Se describen los pasos necesarios para definir un nuevo frente o puerta de enlace de vídeo en el generador en línea en crear un grupo de servidores con respecto de Skype para Business Server 2015.
-ms.openlocfilehash: d956e4ff19c0222022792da4ddc5ee91f0c2d40d
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: b3c8a7da7fbfb520136b538331b8fbef66157ad8
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19970825"
 ---
 # <a name="video-interop-servers---scope-the-node"></a>Servidores de interoperabilidad de vídeo: Definir el ámbito del nodo
  
@@ -32,7 +32,4 @@ Los pasos de configuración para un nuevo servidor de interoperabilidad de víde
   
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Planeación de servidor de interoperabilidad vídeo en Skype para Business Server 2015](../../../plan-your-deployment/video-interop-server.md)
-

@@ -3,7 +3,6 @@ title: Estado de la distribución de confirmación de cambios de voz para la con
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e5086fb-3c3b-432a-9eab-a9b12cb79d76
 description: Si no se han completado los cambios, revise los mensajes de este cuadro de diálogo, cambie la configuración de enrutamiento de voz y vuelva a intentarlo.
-ms.openlocfilehash: 20bbc0893de138dad07568b5fd99294ad100e42b
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 35bfd4298e4dc88555a1f2518a7d96e2517540fe
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19967694"
 ---
 # <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a>Enrutamiento de voz: Estado de confirmación de cambios de configuración del enrutamiento de voz
  
