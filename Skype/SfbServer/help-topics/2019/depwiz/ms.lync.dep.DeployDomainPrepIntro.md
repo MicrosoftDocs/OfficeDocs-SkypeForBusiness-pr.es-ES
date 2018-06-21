@@ -3,7 +3,6 @@ title: Preparar dominio actual (introducción)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,15 +10,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 25f2e262-d6ed-4081-bbfd-5f8be5997e6b
-description: La página preparar el dominio comienza el proceso de preparación del dominio para Skype para Business Server 2015. Haga clic en siguiente para comenzar a preparar el dominio.
-ms.openlocfilehash: f5b805e86084f688f3247f14a3cc1ad778ffc4b9
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: La página preparar el dominio comienza el proceso de preparación del dominio para Skype para Business Server. Haga clic en siguiente para comenzar a preparar el dominio.
+ms.openlocfilehash: 0a80cc50edd778b2c66eda76ad3affcc6fa4386a
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19990754"
 ---
-# <a name="prepare-current-domain-intro"></a><span data-ttu-id="953c1-104">Preparar dominio actual (introducción)</span><span class="sxs-lookup"><span data-stu-id="953c1-104">Prepare Current Domain (Intro)</span></span>
+# <a name="prepare-current-domain-intro"></a><span data-ttu-id="8f508-104">Preparar dominio actual (introducción)</span><span class="sxs-lookup"><span data-stu-id="8f508-104">Prepare Current Domain (Intro)</span></span>
  
-<span data-ttu-id="953c1-105">La página **Preparar el dominio** comienza el proceso de preparación del dominio para Skype para Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="953c1-105">The **Prepare Domain** page begins the process of preparing the domain for Skype for Business Server 2015.</span></span> <span data-ttu-id="953c1-106">Haga clic en **Siguiente** para preparar el dominio.</span><span class="sxs-lookup"><span data-stu-id="953c1-106">Click **Next** to begin preparing the domain.</span></span>
+<span data-ttu-id="8f508-105">La página **Preparar el dominio** comienza el proceso de preparación del dominio para Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="8f508-105">The **Prepare Domain** page begins the process of preparing the domain for Skype for Business Server.</span></span> <span data-ttu-id="8f508-106">Haga clic en **Siguiente** para preparar el dominio.</span><span class="sxs-lookup"><span data-stu-id="8f508-106">Click **Next** to begin preparing the domain.</span></span>
   
 
