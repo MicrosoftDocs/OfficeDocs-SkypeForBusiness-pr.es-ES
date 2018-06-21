@@ -3,7 +3,6 @@ title: Agregar servidor perimetral
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bd9c2b2-8329-4b31-a937-e462f5cc7293
 description: Para incorporar un servidor perimetral o un grupo de servidores perimetrales al diseño de la topología, se necesita indicar el nombre de dominio completo del servidor en el que se quiere implementar el servidor perimetral o el grupo de servidores perimetrales. Antes de publicar una topología que incluye el servidor perimetral o grupo de servidores perimetrales e instalación de Skype para Business Server, debe haber completado todos los requisitos previos para la implementación de acceso de usuarios externos. Para obtener información detallada acerca de estos requisitos previos, consulte preparación de la instalación de servidores en la red perimetral, en la documentación de implementación.
-ms.openlocfilehash: 3d377bee22ff33450327e91d4888c3ee419b4195
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: d5021404bc9e8445433f1acdae2c022045f45628
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987371"
 ---
 # <a name="add-edge-server"></a>Agregar servidor perimetral
  

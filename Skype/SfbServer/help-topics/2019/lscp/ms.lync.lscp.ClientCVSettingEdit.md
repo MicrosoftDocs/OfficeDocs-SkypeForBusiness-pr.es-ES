@@ -1,9 +1,8 @@
 ---
 title: Configuración de la versión de cliente crear nuevos o editar los existentes
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
-ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
 description: Los ajustes de configuración de versión de cliente se usan para activar o desactivar el control de versiones de cliente. La configuración de la versión de cliente Global se instala con Skype para Business Server y se usa para habilitar o deshabilitar el control de la versión de cliente para la implementación de servidores completa. Si la configuración Global está habilitada, las directivas de versión de cliente que tenga activas tendrán efecto cuando los usuarios intenten iniciar sesión. Puede deshabilitar la configuración de versión de cliente Global si no desea que se produzca ningún control de versiones de cliente.
-ms.openlocfilehash: 19c7cda4924148c6129e3fc3847c2770c51708d9
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 3b03ae27b20ddd84a371c91c95bb3372457df33b
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987581"
 ---
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>Configuración de versiones de cliente: Crear nueva o editar existente
  
@@ -56,5 +56,5 @@ En las siguientes listas se describen los menús, comandos, campos y propiedades
     
   - **Dirección URL** Si ha seleccionado **Bloquear con dirección URL** o **Permitir con dirección URL**, puede especificar la dirección URL de descarga de cliente para incluir en el mensaje de error.
     
-Para obtener información detallada acerca de la interoperabilidad entre clientes y versiones de cliente, consulte [Client Interoperability in Lync 2013 Preview](http://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) en la documentación de planeación. Para obtener información detallada sobre cómo trabajar con las configuraciones de versión de cliente, vea [modificar la acción predeterminada para los clientes no admiten explícitamente o restringidos](http://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) en la documentación sobre operaciones.
+Para obtener información detallada acerca de la interoperabilidad entre clientes y versiones de cliente, consulte [Interoperabilidad del cliente](http://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) en la documentación de planeación. Para obtener información detallada sobre cómo trabajar con las configuraciones de versión de cliente, vea [modificar la acción predeterminada para los clientes no admiten explícitamente o restringidos](http://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) en la documentación sobre operaciones.
 

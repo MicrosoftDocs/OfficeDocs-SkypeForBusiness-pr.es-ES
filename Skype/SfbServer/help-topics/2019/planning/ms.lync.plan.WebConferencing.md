@@ -3,7 +3,6 @@ title: Conferencias Web (herramienta de planeación)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 4/8/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,19 +11,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
-description: Skype para las conferencias web de Business Server 2015 incluye la colaboración en documentos, uso compartido de aplicaciones y uso compartido de escritorio.
-ms.openlocfilehash: 1e2863895e9e0666381d6095e5846456029205b7
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+description: Skype para las conferencias web de Business Server incluye la colaboración en documentos, uso compartido de aplicaciones y uso compartido de escritorio.
+ms.openlocfilehash: 9f375f280ec43d90bcab7ded65e0ce0c08562a0d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19989086"
 ---
 # <a name="web-conferencing-planning-tool"></a>Conferencias Web (herramienta de planeación)
  
-Skype para las conferencias web de Business Server 2015 incluye la colaboración en documentos, uso compartido de aplicaciones y uso compartido de escritorio.
+Skype para las conferencias web de Business Server incluye la colaboración en documentos, uso compartido de aplicaciones y uso compartido de escritorio.
   
 > [!NOTE]
-> Skype para Business Server 2015 usa Office Web Apps y Office Web Apps Server para controlar el uso compartido y representación de presentaciones de PowerPoint. Características de conferencia Web funcionan exactamente el mismo, tal y como lo hacen en Microsoft Lync 2013. Para obtener información detallada sobre la instalación y configuración de Office Web Apps Server, vea [Configurar la integración con Office Web Apps Server y Lync Server 2013](https://technet.microsoft.com/en-us/library/jj204792%28v=ocs.15%29.aspx). 
+> Skype para Business Server usa Office Web Apps y Office Web Apps Server para controlar el uso compartido y representación de presentaciones de PowerPoint. Características de conferencia Web funcionan exactamente el mismo, tal y como lo hacen en Microsoft Lync 2013. Para obtener información detallada sobre la instalación y configuración de Office Web Apps Server, vea [Configurar la integración con Office Web Apps Server y Lync Server 2013](https://technet.microsoft.com/en-us/library/jj204792%28v=ocs.15%29.aspx). 
   
 Para obtener información sobre la planeación de la habilitación de las conferencias web en la organización, consulte los siguientes temas: 
   

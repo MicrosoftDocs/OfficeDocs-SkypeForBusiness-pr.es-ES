@@ -1,9 +1,8 @@
 ---
 title: Configuración de registro de dispositivo
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
-ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 description: El servicio Device Update Web crea automáticamente archivos de registro que registran la actividad de actualización de los dispositivos. Como parte de la estrategia de administración de datos de la organización, es posible que desee establecer umbrales en tamaño de caché de datos de registro, el tamaño del archivo de registro o el período de tiempo que se mantiene un archivo de registro antes de que se elimina. Puede cambiar esta configuración según los requisitos de su organización. Si no desea que el servicio Device Update Web purgue los archivos de registro de forma automática, puede purgarlos manualmente según sea necesario. La configuración de registros se puede cambiar de forma global o por sitio.
-ms.openlocfilehash: e5a88c7437b654846fd464133b953465cd5d3e2a
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 69e75062038bdbc6072e48c18ed09193c7090659
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19988365"
 ---
 # <a name="device-log-configuration"></a>Configuración de registro de dispositivo
  
@@ -58,7 +58,4 @@ En las siguientes listas se describen los menús, comandos, campos y propiedades
     
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Modificar la configuración de los archivos de registro de actividad de actualización de dispositivo](http://technet.microsoft.com/library/9b57f126-1853-43b3-bbd4-06401e6498bd.aspx)
-

@@ -3,7 +3,6 @@ title: Nodo de ámbito de supervisión
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,16 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
-description: 'En el generador de topología de Lync Server 2013, se pueden realizar tareas relacionadas con un servidor individual que ejecuta la supervisión haciendo doble clic en el servidor que ejecuta la supervisión en el árbol de consola, haciendo clic en acción en la barra de herramientas, o haciendo clic en una tarea en el panel de acciones y a continuación Haga clic en una de las siguientes opciones para el servidor que ejecuta la supervisión:'
-ms.openlocfilehash: f1e59900993444218df820f81668c1c6d4762162
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: 'En el generador de topología, se pueden realizar las tareas relacionadas con un servidor individual que ejecuta la supervisión haciendo doble clic en el servidor que ejecuta la supervisión en el árbol de consola, haciendo clic en acción en la barra de herramientas, o haciendo clic en una tarea en el panel de acciones y, a continuación, haciendo clic en uno de las siguientes opciones para el servidor que ejecuta la supervisión:'
+ms.openlocfilehash: 006bfb85db15bd5d842644ca63edf55cf3b9b495
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987280"
 ---
 # <a name="monitoring-scope-node"></a>Nodo de ámbito de supervisión
  
-En el generador de topología de Lync Server 2013, se pueden realizar las tareas relacionadas con un servidor individual haciendo doble clic en el servidor que ejecuta la supervisión en el árbol de consola, haga clic en **acción** en la barra de herramientas o haciendo clic en una tarea en las acciones que ejecuta la supervisión panel y, a continuación, haga clic en una de las siguientes opciones para el servidor que ejecuta la supervisión:
+En el generador de topología, se pueden realizar tareas relacionadas con un servidor individual que ejecuta la supervisión haciendo doble clic en el servidor que ejecuta la supervisión en el árbol de consola, al hacer clic en **acción** en la barra de herramientas, o haciendo clic en una tarea en el panel de acciones y a continuación Haga clic en una de las siguientes opciones para el servidor que ejecuta la supervisión:
   
 - **Editar propiedades**. Se abre la página **Editar propiedades** para el servidor que ejecuta la supervisión, donde puede cambiar el nombre de dominio completo (FQDN) del servidor que ejecuta la base de datos de SQL Server de supervisión o de supervisión.
     

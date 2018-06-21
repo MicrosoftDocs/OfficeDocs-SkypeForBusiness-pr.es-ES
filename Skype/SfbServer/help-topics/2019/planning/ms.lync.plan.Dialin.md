@@ -3,7 +3,6 @@ title: Dial-in Conferencing (herramienta de planeación)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 4/6/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,16 +11,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
-description: Skype para conferencias de acceso telefónico 2015 de servidor empresarial permite a los usuarios unirse al audio de una Skype para Business Server 2015 conferencia mediante el uso de un teléfono de telefónica conmutada (RTC) sin necesidad de un proveedor de conferencia de audio de terceros.
-ms.openlocfilehash: 84eca329f21baf54930b121fd8c6a822a81ba8ea
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+description: Skype para conferencias de acceso telefónico Business Server permite a los usuarios unirse al audio de una Skype para conferencia de Business Server mediante el uso de un teléfono de telefónica conmutada (RTC) sin necesidad de un proveedor de conferencia de audio de terceros.
+ms.openlocfilehash: 7b4c30d9d94e7d587aa2a6be9b20b8d1216d552d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987826"
 ---
 # <a name="dial-in-conferencing-planning-tool"></a>Dial-in Conferencing (herramienta de planeación)
  
-Skype para conferencias de acceso telefónico 2015 de servidor empresarial permite a los usuarios unirse al audio de una Skype para Business Server 2015 conferencia mediante el uso de un teléfono de telefónica conmutada (RTC) sin necesidad de un proveedor de conferencia de audio de terceros.
+Skype para conferencias de acceso telefónico Business Server permite a los usuarios unirse al audio de una Skype para conferencia de Business Server mediante el uso de un teléfono de telefónica conmutada (RTC) sin necesidad de un proveedor de conferencia de audio de terceros.
   
 Para obtener información sobre la planeación de la habilitación de la conferencia de acceso telefónico en la organización, consulte el siguiente tema y los temas a los que se vincula: 
   

@@ -3,7 +3,6 @@ title: Preparar bosque actual
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 description: Para preparar el bosque de los servicios de dominio de Active Directory, debe correctamente extender el esquema, como se describe en el tema preparación del esquema de ejecución y asegúrese de que el esquema se ha replicado.
-ms.openlocfilehash: 80218036b6eaee5abb0156ca6a13678f9b9f2238
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f993236fc13fc2274acaa8bb4c6b0ae1105afccb
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987490"
 ---
 # <a name="prepare-current-forest"></a>Preparar bosque actual
  

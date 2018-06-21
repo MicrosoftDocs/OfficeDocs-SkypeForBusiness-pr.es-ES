@@ -3,7 +3,6 @@ title: Directiva de archivado crear nuevos o editar los existentes
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 description: 'Use las directivas de archivado para controlar el archivado de comunicaciones internas y externas en su implementación para los usuarios que están hospedados en Skype para Business Server. Las directivas de archivado incluyen la directiva global y, de forma opcional, una o varias directivas de usuario y de sitio:'
-ms.openlocfilehash: f01fb0c53d88000d76a00e74353cd1c6005163f0
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: c8061d5b92656e473e628f95e0fe410df248f7ce
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987812"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>Directiva de archivado: Crear nueva o editar existente
  
@@ -29,7 +29,7 @@ Use las directivas de archivado para controlar el archivado de comunicaciones in
 - **Directivas de usuario (opcionales)** Puede especificar uno o varios usuarios directivas de archivado, que cada uno de los cuales se pueden configurar para habilitar y deshabilitar el archivado de comunicaciones internas o externas para un usuario específico. Una directiva de usuario reemplaza a las directivas globales y de sitio, pero solo para los usuarios a los que asigne una directiva de usuario. Las directivas de usuario se pueden editar o eliminar.
     
 > [!NOTE]
-> Si utiliza la integración de Exchange para almacenar datos en Microsoft Exchange, a continuación, las directivas de Exchange 2013 de archivado control de archivado para los usuarios alojados en Exchange 2013. Para habilitar el archivado para aquellos usuarios, se debe colocar el buzón del usuario en suspensión en contexto. 
+> Si utiliza la integración de Exchange para almacenar datos de archivado en Microsoft Exchange, a continuación, Exchange archivado de control de las directivas para los usuarios alojados en Exchange. Para habilitar el archivado para aquellos usuarios, se debe colocar el buzón del usuario en suspensión en contexto. 
   
 Especifique las siguientes opciones para configurar los ajustes de una nueva directiva de archivado o una existente:
 - **Nombre** Cada directiva de archivado requiere un nombre. El nombre se determina por el tipo de directiva que está agregando o editando:

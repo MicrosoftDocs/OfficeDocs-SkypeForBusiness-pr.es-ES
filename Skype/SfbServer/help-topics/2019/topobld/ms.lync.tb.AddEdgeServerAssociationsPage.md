@@ -3,7 +3,6 @@ title: Agregar asociaciones de servidor perimetral
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 description: Use esta página para seleccionar los grupos de servidores Front-End y servidores Standard Edition usará este grupo de servidores perimetrales para A y el tráfico A/v.
-ms.openlocfilehash: abad97cfca236dc73a3ce8a7279977f43d850f9d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 6742683ae38b5f49bd3acbf1a02abd1b770137f8
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19988904"
 ---
 # <a name="add-edge-server-associations"></a>Agregar asociaciones de servidor perimetral
  

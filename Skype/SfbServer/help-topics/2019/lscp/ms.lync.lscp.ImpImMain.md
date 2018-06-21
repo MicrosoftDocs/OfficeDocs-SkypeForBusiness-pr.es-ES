@@ -3,7 +3,6 @@ title: Filtro de URL
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2677dcba-92f6-432a-9e2f-f7ad72497e3c
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 125624406e3e7f0350c4e48126a51359fdedce54
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: fb20f56ca84d5a2a099f328e8f6586bd256ee14a
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19989898"
 ---
 # <a name="url-filter"></a>Filtro de URL
  

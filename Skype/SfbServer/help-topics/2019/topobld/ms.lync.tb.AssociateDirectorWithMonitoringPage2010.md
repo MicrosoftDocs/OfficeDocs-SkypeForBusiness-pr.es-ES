@@ -3,7 +3,6 @@ title: Asociar Director con la página de supervisión para Lync Server 2010
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ad77291-832d-41ee-9ffc-61132691363b
 description: 'Para configurar un servidor de supervisión y asociarlo con el Director o el Director de grupo de servidores:'
-ms.openlocfilehash: bb2478658a366d93f4716916e71e530f02570186
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 3c4e5179b2f8d2f2638a7d59efe2cbfc59ac6139
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987413"
 ---
 # <a name="associate-director-with-monitoring-page-for-lync-server-2010"></a>Asociar Director con la página de supervisión para Lync Server 2010
  

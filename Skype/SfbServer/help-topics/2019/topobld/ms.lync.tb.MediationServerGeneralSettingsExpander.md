@@ -3,7 +3,6 @@ title: Expansor de configuración general del servidor de mediación
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 4/14/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,11 +10,12 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e0ad9f0-27d5-4975-ae88-0b8ff8a4c514
-ms.openlocfilehash: 51e00323c3c0d5df3915b2652b273f1fa189143e
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: b343152bd1a47fb749e1812a1cace372010b98ac
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987322"
 ---
 # <a name="mediation-server-general-settings-expander"></a>Expansor de configuración general del servidor de mediación
  

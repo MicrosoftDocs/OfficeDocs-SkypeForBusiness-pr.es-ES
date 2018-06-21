@@ -1,27 +1,26 @@
 ---
-title: Mover los datos del almacén de archivos a un almacén de archivos nuevo en Skype Empresarial Server 2015
+title: Almacén de archivos de movimiento de datos a un nuevo almacén de archivos en Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/30/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
-description: 'Si necesitará quitar el servidor de archivos que actualmente está actuando como el almacén de archivos para su Skype para la implementación empresarial Server 2015, o si necesita realizar otros cambios que harían que el archivo actual almacén no está disponible, primero debe crear un nuevo recurso compartido. Después deberá realizar los siguientes pasos:'
-ms.openlocfilehash: cb79fe34afee093647b7d871bdd3096ce6040f7a
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Si necesitará quitar el servidor de archivos que actualmente está actuando como el almacén de archivos para su Skype para la implementación de Business Server, o si necesita realizar otros cambios que harían que el archivo actual almacén no está disponible, primero debe crear un nuevo recurso compartido. Después deberá realizar los siguientes pasos:'
+ms.openlocfilehash: fd8869a7cd0ca5f29d839de373e3e7d2f3d76faa
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569424"
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19988274"
 ---
-# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>Mover los datos del almacén de archivos a un almacén de archivos nuevo en Skype Empresarial Server 2015
+# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Almacén de archivos de movimiento de datos a un nuevo almacén de archivos en Skype para Business Server
  
-Si necesitará quitar el servidor de archivos que actualmente está actuando como el almacén de archivos para su Skype para la implementación empresarial Server 2015, o si necesita realizar otros cambios que harían que el archivo actual almacén no está disponible, primero debe crear un nuevo recurso compartido. Después deberá realizar los siguientes pasos:
+Si necesitará quitar el servidor de archivos que actualmente está actuando como el almacén de archivos para su Skype para la implementación de Business Server, o si necesita realizar otros cambios que harían que el archivo actual almacén no está disponible, primero debe crear un nuevo recurso compartido. Después deberá realizar los siguientes pasos:
   
-1. Apague el Skype para los servicios empresariales Server 2015 que usar el almacén de archivos que se va a quitar.
+1. Apague el Skype para servicios de Business Server que utilizan el almacén de archivos que se va a quitar.
     
 2. Definir el almacén de archivos en el generador de topología y publique los cambios para que el nuevo archivo de almacenamiento disponibles para la implementación.
     
@@ -33,7 +32,7 @@ Si necesitará quitar el servidor de archivos que actualmente está actuando com
     
 ### <a name="to-move-file-store-data-from-one-file-store-to-a-new-file-store"></a>Para mover los datos de un almacén de archivos a otro nuevo
 
-1. Inicie sesión en un equipo como miembro del grupo RTCUniversersalServerAdmins o CsServerAdministrator del grupo donde se instalan los Skype para Business Server 2015, herramientas administrativas.
+1. Inicie sesión como miembro del grupo RTCUniversersalServerAdmins o CsServerAdministrator del grupo donde se instalan los Skype para Business Server, las herramientas administrativas en un equipo.
     
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.  
     
@@ -43,7 +42,7 @@ Si necesitará quitar el servidor de archivos que actualmente está actuando com
     
 5. Inicie sesión en el equipo donde se encuentre instalado el Generador de topologías como miembro del grupo Administradores del dominio y el grupo RTCUniversalServerAdmins.
     
-6. Inicie el generador: Haga clic en **Inicio**, haga clic en **Todos los programas**, haga clic en **Skype para Business Server 2015**y, a continuación, haga clic en **Skype para Business Server 2015Topology Builder**.
+6. Inicie el generador: Haga clic en **Inicio**, haga clic en **Todos los programas**, haga clic en **Skype para Business Server**y, a continuación, haga clic en **Skype para Business Server Topology Builder**.
     
 7. Seleccione un servidor o un grupo que use el almacén de archivos y realice lo siguiente:
     

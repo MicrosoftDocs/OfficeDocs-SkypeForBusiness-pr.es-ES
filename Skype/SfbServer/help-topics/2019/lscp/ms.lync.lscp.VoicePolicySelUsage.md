@@ -3,7 +3,6 @@ title: Seleccione el registro de uso de RTC
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80a5b130-2b36-4318-9870-f5176c8d8f62
 description: Use el cuadro de diálogo Seleccionar registro de uso de RTC para buscar un registro de uso de (RTC) de la red telefónica conmutada pública existente que se puede usar.
-ms.openlocfilehash: c0eabb6ff10bcd555803cb5d1b6d360526a5f14b
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: df636b17aa4ee362a5501ce87d2eeffdf1aed52f
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987266"
 ---
 # <a name="select-pstn-usage-record"></a>Seleccione el registro de uso de RTC
  

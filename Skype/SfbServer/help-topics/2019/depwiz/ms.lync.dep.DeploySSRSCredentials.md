@@ -3,7 +3,6 @@ title: SQL Server Reporting Services (credenciales)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 033906cd-385f-4b04-9607-376888ec414d
 description: 'Para especificar las credenciales para el SQL Server Reporting Services (SSRS) para tener acceso a la base de datos de supervisión, haga lo siguiente:'
-ms.openlocfilehash: 00b06c9f13d06ebac5990fd0456eae92f4dc26b3
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: cf990287a622185771260bc93f8dbe4fada37ff2
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987350"
 ---
 # <a name="sql-server-reporting-services-credentials"></a>SQL Server Reporting Services (credenciales)
  
@@ -27,6 +27,6 @@ En la **Página de especificación de credenciales**, especifique las credencial
 > [!NOTE]
 > Para obtener información detallada, consulte "especificación de credenciales y conexión información de informe de orígenes de datos (SSRS)" en [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431). 
   
-Para obtener información detallada sobre la implementación de los informes de Reporting Services para el servidor que ejecuta la supervisión, consulte [Instalar informes de supervisión en Skype para Business Server 2015](../../../deploy/deploy-monitoring/install-monitoring-reports.md).
+Para obtener información detallada sobre la implementación de los informes de Reporting Services para el servidor que ejecuta la supervisión, consulte [Instalación de informes de supervisión en Skype para Business Server](../../../deploy/deploy-monitoring/install-monitoring-reports.md).
   
 

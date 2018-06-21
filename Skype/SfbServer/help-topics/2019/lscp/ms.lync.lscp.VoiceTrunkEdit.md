@@ -3,7 +3,6 @@ title: Configuración del tronco crear nuevos o editar los existentes
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,21 +11,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 5df3294ddac7255f639d49a3c5e71da57fc59cca
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 3e490953a750a8512f08d3314afafc6ee5a5e039
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987658"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>Configuración del tronco: Crear nuevos o editar los existentes
  
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
   
-- [Configurar un tronco con desvío de medios en Skype para Business Server 2015](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+- [Configurar un tronco con desvío de medios en Skype para Business Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
     
-- [Configurar un tronco sin desvío de medios en Skype para Business Server 2015](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+- [Configurar un tronco sin desvío de medios en Skype para Business Server](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
     
-- [Crear o modificar una regla de conversión para llamado presentación del identificador de Skype para Business Server 2015](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [Crear o modificar una regla de conversión para llamado presentación del identificador de Skype para Business Server](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
     
 - [Crear o modificar una regla de conversión manualmente](http://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
     
