@@ -3,7 +3,6 @@ title: Cola de grupos de respuesta
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,46 +11,47 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 description: Grupos de respuesta constan de grupos de agentes, colas y flujos de trabajo. Las colas de grupo de respuesta contienen las llamadas a un grupo de respuesta hasta que un agente atiende la llamada.
-ms.openlocfilehash: ee9e60edaf6b0ffa690a75817e9f1c41c049e344
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 8ebdc6a421261f049bcfdd1da8054d3d05849f3f
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19971478"
 ---
-# <a name="response-groups-queue"></a><span data-ttu-id="631db-104">Cola de grupos de respuesta</span><span class="sxs-lookup"><span data-stu-id="631db-104">Response Groups Queue</span></span>
+# <a name="response-groups-queue"></a><span data-ttu-id="6aa00-104">Cola de grupos de respuesta</span><span class="sxs-lookup"><span data-stu-id="6aa00-104">Response Groups Queue</span></span>
  
-<span data-ttu-id="631db-105">Grupos de respuesta constan de grupos de agentes, colas y flujos de trabajo.</span><span class="sxs-lookup"><span data-stu-id="631db-105">Response groups consist of agent groups, queues, and workflows.</span></span> <span data-ttu-id="631db-106">Las colas de grupo de respuesta contienen las llamadas a un grupo de respuesta hasta que un agente atiende la llamada.</span><span class="sxs-lookup"><span data-stu-id="631db-106">Response Group queues hold calls to a response group until an agent answers the call.</span></span> 
+<span data-ttu-id="6aa00-105">Grupos de respuesta constan de grupos de agentes, colas y flujos de trabajo.</span><span class="sxs-lookup"><span data-stu-id="6aa00-105">Response groups consist of agent groups, queues, and workflows.</span></span> <span data-ttu-id="6aa00-106">Las colas de grupo de respuesta contienen las llamadas a un grupo de respuesta hasta que un agente atiende la llamada.</span><span class="sxs-lookup"><span data-stu-id="6aa00-106">Response Group queues hold calls to a response group until an agent answers the call.</span></span> 
   
-<span data-ttu-id="631db-107">Los **Grupos de respuesta** - página**cola** muestra una lista de todas las colas de grupo de respuesta que se definen para su organización.</span><span class="sxs-lookup"><span data-stu-id="631db-107">The **Response Groups** - **Queue** page displays a list of all the Response Group queues that are defined for your organization.</span></span>
+<span data-ttu-id="6aa00-107">Los **Grupos de respuesta** - página**cola** muestra una lista de todas las colas de grupo de respuesta que se definen para su organización.</span><span class="sxs-lookup"><span data-stu-id="6aa00-107">The **Response Groups** - **Queue** page displays a list of all the Response Group queues that are defined for your organization.</span></span>
   
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="631db-108">Tareas que puede realizar</span><span class="sxs-lookup"><span data-stu-id="631db-108">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="6aa00-108">Tareas que puede realizar</span><span class="sxs-lookup"><span data-stu-id="6aa00-108">Tasks you can perform</span></span>
 
-<span data-ttu-id="631db-109">Puede realizar las siguientes tareas desde los **Grupos de respuesta** - página de**cola** :</span><span class="sxs-lookup"><span data-stu-id="631db-109">You can perform the following tasks from the **Response Groups** - **Queue** page:</span></span>
+<span data-ttu-id="6aa00-109">Puede realizar las siguientes tareas desde los **Grupos de respuesta** - página de**cola** :</span><span class="sxs-lookup"><span data-stu-id="6aa00-109">You can perform the following tasks from the **Response Groups** - **Queue** page:</span></span>
   
-- <span data-ttu-id="631db-110">Crear una cola nueva</span><span class="sxs-lookup"><span data-stu-id="631db-110">Create a new queue</span></span>
+- <span data-ttu-id="6aa00-110">Crear una cola nueva</span><span class="sxs-lookup"><span data-stu-id="6aa00-110">Create a new queue</span></span>
     
-- <span data-ttu-id="631db-111">Cambiar una cola existente</span><span class="sxs-lookup"><span data-stu-id="631db-111">Change an existing queue</span></span>
+- <span data-ttu-id="6aa00-111">Cambiar una cola existente</span><span class="sxs-lookup"><span data-stu-id="6aa00-111">Change an existing queue</span></span>
     
-- <span data-ttu-id="631db-112">Eliminar una cola</span><span class="sxs-lookup"><span data-stu-id="631db-112">Delete a queue</span></span>
+- <span data-ttu-id="6aa00-112">Eliminar una cola</span><span class="sxs-lookup"><span data-stu-id="6aa00-112">Delete a queue</span></span>
     
-## <a name="ui-reference"></a><span data-ttu-id="631db-113">Referencia de interfaz de usuario</span><span class="sxs-lookup"><span data-stu-id="631db-113">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="6aa00-113">Referencia de interfaz de usuario</span><span class="sxs-lookup"><span data-stu-id="6aa00-113">UI Reference</span></span>
 
-<span data-ttu-id="631db-114">En la siguiente lista se describen los comandos de la página.</span><span class="sxs-lookup"><span data-stu-id="631db-114">The following list describes the commands on the page.</span></span>
+<span data-ttu-id="6aa00-114">En la siguiente lista se describen los comandos de la página.</span><span class="sxs-lookup"><span data-stu-id="6aa00-114">The following list describes the commands on the page.</span></span>
   
-- <span data-ttu-id="631db-115">**Nuevo** Inicia una nueva cola.</span><span class="sxs-lookup"><span data-stu-id="631db-115">**New** Starts a new queue.</span></span>
+- <span data-ttu-id="6aa00-115">**Nuevo** Inicia una nueva cola.</span><span class="sxs-lookup"><span data-stu-id="6aa00-115">**New** Starts a new queue.</span></span>
     
-- <span data-ttu-id="631db-116">**Editar** Se abre la cola seleccionada para editarla, selecciona todas las colas de la lista o elimina la cola seleccionada.</span><span class="sxs-lookup"><span data-stu-id="631db-116">**Edit** Opens the selected queue to edit it, selects all queue in the list, or deletes the selected queue.</span></span>
+- <span data-ttu-id="6aa00-116">**Editar** Se abre la cola seleccionada para editarla, selecciona todas las colas de la lista o elimina la cola seleccionada.</span><span class="sxs-lookup"><span data-stu-id="6aa00-116">**Edit** Opens the selected queue to edit it, selects all queue in the list, or deletes the selected queue.</span></span>
     
-- <span data-ttu-id="631db-117">**Actualizar** Actualiza la lista de colas.</span><span class="sxs-lookup"><span data-stu-id="631db-117">**Refresh** Refreshes the list of queues.</span></span>
+- <span data-ttu-id="6aa00-117">**Actualizar** Actualiza la lista de colas.</span><span class="sxs-lookup"><span data-stu-id="6aa00-117">**Refresh** Refreshes the list of queues.</span></span>
     
-<span data-ttu-id="631db-118">En la siguiente lista se describen los campos de la página.</span><span class="sxs-lookup"><span data-stu-id="631db-118">The following list describes the fields on the page.</span></span>
+<span data-ttu-id="6aa00-118">En la siguiente lista se describen los campos de la página.</span><span class="sxs-lookup"><span data-stu-id="6aa00-118">The following list describes the fields on the page.</span></span>
   
-- <span data-ttu-id="631db-119">**Nombre** El nombre único que identifica la cola.</span><span class="sxs-lookup"><span data-stu-id="631db-119">**Name** The unique name that identifies the queue.</span></span>
+- <span data-ttu-id="6aa00-119">**Nombre** El nombre único que identifica la cola.</span><span class="sxs-lookup"><span data-stu-id="6aa00-119">**Name** The unique name that identifies the queue.</span></span>
     
-- <span data-ttu-id="631db-120">**Servicio** El servicio de **ApplicationServer** que hospeda la cola.</span><span class="sxs-lookup"><span data-stu-id="631db-120">**Service** The **ApplicationServer** service that hosts the queue.</span></span>
+- <span data-ttu-id="6aa00-120">**Servicio** El servicio de **ApplicationServer** que hospeda la cola.</span><span class="sxs-lookup"><span data-stu-id="6aa00-120">**Service** The **ApplicationServer** service that hosts the queue.</span></span>
     
-- <span data-ttu-id="631db-121">**Descripción** La descripción de la cola.</span><span class="sxs-lookup"><span data-stu-id="631db-121">**Description** The description for the queue.</span></span>
+- <span data-ttu-id="6aa00-121">**Descripción** La descripción de la cola.</span><span class="sxs-lookup"><span data-stu-id="6aa00-121">**Description** The description for the queue.</span></span>
     
-<span data-ttu-id="631db-122">Para obtener información detallada sobre las características de grupo de respuesta y funciones, consulte [Plan para la aplicación de grupo de respuesta en Skype para Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación de planeación.</span><span class="sxs-lookup"><span data-stu-id="631db-122">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span></span> <span data-ttu-id="631db-123">Para obtener información detallada sobre cómo trabajar con colas de grupo de respuesta, vea [Administración de colas de grupo de respuesta](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) en la documentación sobre operaciones.</span><span class="sxs-lookup"><span data-stu-id="631db-123">For details about working with Response Group queues, see [Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) in the Operations documentation.</span></span>
+<span data-ttu-id="6aa00-122">Para obtener información detallada sobre las características de grupo de respuesta y funciones, consulte [Plan para la aplicación de grupo de respuesta en Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md).</span><span class="sxs-lookup"><span data-stu-id="6aa00-122">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md).</span></span> <span data-ttu-id="6aa00-123">Para obtener información detallada sobre cómo trabajar con colas de grupo de respuesta, vea [Administración de colas de grupo de respuesta](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) en la documentación sobre operaciones.</span><span class="sxs-lookup"><span data-stu-id="6aa00-123">For details about working with Response Group queues, see [Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) in the Operations documentation.</span></span>
   
 
