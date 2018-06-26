@@ -11,20 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
 description: Use el cuadro de diálogo Seleccionar tronco para buscar un tronco existente que se puede usar.
-ms.openlocfilehash: bcd0250d791af80ff45beeb9b26386e2679be8de
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 12c25c7fe739da75ac22ac909093608d6360a4c6
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997132"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20044035"
 ---
-# <a name="select-trunk"></a><span data-ttu-id="00cde-103">Seleccionar tronco</span><span class="sxs-lookup"><span data-stu-id="00cde-103">Select Trunk</span></span>
+# <a name="select-trunk"></a><span data-ttu-id="6a881-103">Seleccionar tronco</span><span class="sxs-lookup"><span data-stu-id="6a881-103">Select Trunk</span></span>
  
-<span data-ttu-id="00cde-104">Use el cuadro de diálogo **Seleccionar tronco** para buscar un tronco existente que se puede usar.</span><span class="sxs-lookup"><span data-stu-id="00cde-104">Use the **Select Trunk** dialog box to find an existing trunk that you can use.</span></span>
+<span data-ttu-id="6a881-104">Use el cuadro de diálogo **Seleccionar tronco** para buscar un tronco existente que se puede usar.</span><span class="sxs-lookup"><span data-stu-id="6a881-104">Use the **Select Trunk** dialog box to find an existing trunk that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="00cde-105">Para recuperar todos los troncos disponibles, no escriba nada en el cuadro de búsqueda y, a continuación, haga clic en el icono de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="00cde-105">To retrieve all available trunks, do not type anything in the search box, and then click the search icon.</span></span> 
+> <span data-ttu-id="6a881-105">Para recuperar todos los troncos disponibles, no escriba nada en el cuadro de búsqueda y, a continuación, haga clic en el icono de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="6a881-105">To retrieve all available trunks, do not type anything in the search box, and then click the search icon.</span></span> 
   
-<span data-ttu-id="00cde-106">Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="00cde-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
+ 
   
 

@@ -11,17 +11,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c799a3-90a0-4d58-8f8b-17eea56144dc
-description: Utilice el cuadro de diálogo Asignar propiedades para especificar un identificador de sitio de red y descripción a varias subredes al mismo tiempo. En Descripción, escriba la descripción que desee utilizar para las subredes que seleccionó. En el identificador de sitio de red, seleccione el ID de localización de red que desea asignar a las subredes que seleccionó. Para asignar estas propiedades a las subredes que seleccionó, haga clic en Aceptar.
-ms.openlocfilehash: c22e1b44408c11cee77c2f78b259f2ba69404b4a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Use el cuadro de diálogo Asignar propiedades para especificar un identificador de sitio descripción y red en varias subredes a la vez. En Descripción, escriba la descripción que desea usar para las subredes que ha seleccionado. En el identificador de sitio de red, seleccione el identificador de sitio de red que desea asignar a las subredes que ha seleccionado. Para asignar estas propiedades a las subredes que ha seleccionado, haga clic en Aceptar.
+ms.openlocfilehash: 17ea661fbc02bb554c47e7a6b47916c234e6c0f7
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20044085"
 ---
-# <a name="assign-properties"></a><span data-ttu-id="d4e9b-106">Asignar propiedades</span><span class="sxs-lookup"><span data-stu-id="d4e9b-106">Assign Properties</span></span>
+# <a name="assign-properties"></a><span data-ttu-id="6ce11-106">Asignar propiedades</span><span class="sxs-lookup"><span data-stu-id="6ce11-106">Assign Properties</span></span>
  
-<span data-ttu-id="d4e9b-107">Utilice el cuadro de diálogo **Asignar propiedades** para especificar un identificador de sitio de red y descripción a varias subredes al mismo tiempo.</span><span class="sxs-lookup"><span data-stu-id="d4e9b-107">Use the **Assign Properties** dialog box to specify a description and network site ID to multiple subnets at one time.</span></span> <span data-ttu-id="d4e9b-108">En **Descripción**, escriba la descripción que desee utilizar para las subredes que seleccionó.</span><span class="sxs-lookup"><span data-stu-id="d4e9b-108">In **Description**, type the description you want to use for the subnets you selected.</span></span> <span data-ttu-id="d4e9b-109">En el **identificador de sitio de red**, seleccione el ID de localización de red que desea asignar a las subredes que seleccionó.</span><span class="sxs-lookup"><span data-stu-id="d4e9b-109">In **Network site ID**, select the network site ID that you want to assign to the subnets you selected.</span></span> <span data-ttu-id="d4e9b-110">Para asignar estas propiedades a las subredes que seleccionó, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="d4e9b-110">To assign these properties to the subnets you selected, click **OK**.</span></span>
+<span data-ttu-id="6ce11-107">Use el cuadro de diálogo **Asignar propiedades** para especificar un identificador de sitio descripción y red en varias subredes a la vez.</span><span class="sxs-lookup"><span data-stu-id="6ce11-107">Use the **Assign Properties** dialog box to specify a description and network site ID to multiple subnets at one time.</span></span> <span data-ttu-id="6ce11-108">En **Descripción**, escriba la descripción que desea usar para las subredes que ha seleccionado.</span><span class="sxs-lookup"><span data-stu-id="6ce11-108">In **Description**, type the description you want to use for the subnets you selected.</span></span> <span data-ttu-id="6ce11-109">En el **identificador de sitio de red**, seleccione el identificador de sitio de red que desea asignar a las subredes que ha seleccionado.</span><span class="sxs-lookup"><span data-stu-id="6ce11-109">In **Network site ID**, select the network site ID that you want to assign to the subnets you selected.</span></span> <span data-ttu-id="6ce11-110">Para asignar estas propiedades a las subredes que ha seleccionado, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6ce11-110">To assign these properties to the subnets you selected, click **OK**.</span></span>
   
-<span data-ttu-id="d4e9b-111">Para obtener más información acerca de los distintos procedimientos que se pueden realizar utilizando el Skype para Business Server Control Panel, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="d4e9b-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
-  
+
 
