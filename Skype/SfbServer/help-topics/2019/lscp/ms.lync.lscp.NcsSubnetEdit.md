@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e08a6a2d-1f88-4a84-b6e5-b84dcded4a86
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 3e57df6889d71333f7060eeff8fc3c248765c716
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: db325d9cb15155a343e2780ec6e8584996d25670
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987609"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20044308"
 ---
 # <a name="associate-a-subnet-add-new-or-edit-existing"></a>Asociar una subred: agregar nuevos o editar los existentes
  
@@ -24,5 +24,5 @@ ms.locfileid: "19987609"
   
 - [Configuración de subredes de red](http://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
     
-Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../../manage/manage.md).
+ 
 

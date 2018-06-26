@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 53acc62ac2f69bbff2725b467e0518653ea92bb4
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 87a53304daed2e5299fd247d1fe8b9dbeedacbd7
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991638"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20046406"
 ---
 # <a name="dial-plan-create-new-or-edit-existing"></a>Plan de marcado: Crear nuevos o editar los existentes
  
@@ -30,5 +30,5 @@ ms.locfileid: "19991638"
     
 - [Crear o modificar una regla de normalización manualmente](http://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
     
-Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../../manage/manage.md).
+ 
 

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: def3644bf7e7f136ae21ebd10b5caef61b12ae74
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 7b57c7665f223270c770fd9547f26d8e334daab0
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19990663"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20043951"
 ---
 # <a name="test-voice-routing-test-cases"></a>Enrutamiento de voz de prueba: casos de prueba
  
@@ -30,5 +30,5 @@ ms.locfileid: "19990663"
     
 - [Ejecutar casos de prueba de enrutamiento de voz](http://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
     
-Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../../manage/manage.md).
+ 
 

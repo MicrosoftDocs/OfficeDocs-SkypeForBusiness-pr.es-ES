@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 662c8e9893055f732d70349f61ccb436fd9bb41c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 2653366eccb71594730c292fb897e9b582d186b9
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19978563"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20046723"
 ---
 # <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>Socios federados de XMPP: Crear nuevos o editar los existentes
  
@@ -26,5 +26,5 @@ ms.locfileid: "19978563"
     
 - [Tabla de opciones de negociación para XMPP socios federados](http://technet.microsoft.com/library/ef773942-ef92-4f71-85a1-738dfebdfa00.aspx)
     
-Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../../manage/manage.md).
+ 
 
