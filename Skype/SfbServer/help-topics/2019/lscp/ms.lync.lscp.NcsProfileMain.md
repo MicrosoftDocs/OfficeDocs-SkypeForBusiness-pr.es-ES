@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a7ad229-31f3-477e-b254-f45858213fa8
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 24238b0a0493fd82a404175627c3a11538324160
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 100d90a3cf140e1c3c42c6521cadc90fa38ea1ba
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19990782"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20049145"
 ---
-# <a name="bandwidth-policy-profile"></a><span data-ttu-id="752dd-104">Perfil de directiva de ancho de banda</span><span class="sxs-lookup"><span data-stu-id="752dd-104">Bandwidth Policy Profile</span></span>
+# <a name="bandwidth-policy-profile"></a><span data-ttu-id="b84bb-104">Perfil de directiva de ancho de banda</span><span class="sxs-lookup"><span data-stu-id="b84bb-104">Bandwidth Policy Profile</span></span>
  
-<span data-ttu-id="752dd-p102">¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="752dd-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="b84bb-p102">¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="b84bb-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="752dd-107">Configuración de perfil de directiva de ancho de banda</span><span class="sxs-lookup"><span data-stu-id="752dd-107">Configuring Bandwidth Policy Profile</span></span>](http://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
+- [<span data-ttu-id="b84bb-107">Configuración de perfil de directiva de ancho de banda</span><span class="sxs-lookup"><span data-stu-id="b84bb-107">Configuring Bandwidth Policy Profile</span></span>](http://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
     
-<span data-ttu-id="752dd-108">Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="752dd-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
+ 
 
