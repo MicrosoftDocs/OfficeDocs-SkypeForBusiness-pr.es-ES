@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 description: Creación y administración de salas de Chat persistente es mucho más sencillo con el uso correcto de las categorías. Un administrador de Chat persistente puede definir AllowedMembers y Creators para cada categoría y también puede definir la configuración predeterminada de salón de chat y comportamientos que se aplicará a todos los salones de chat creados en la categoría. Los administradores de charla persistentes crean y administran las categorías mediante el uso de Skype para cmdlets de Windows PowerShell o de Panel de Control de servidor empresarial.
-ms.openlocfilehash: 91ad59a0bfc42fb354bee4de59e018accfe1b594
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: a6fe9ea02d8056d5b26c898e060e37d2e87ff7d4
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20049152"
 ---
 # <a name="select-creators"></a>Seleccionar creadores
  
@@ -30,7 +31,7 @@ En la página **Seleccionar creadores** puede realizar las siguientes tareas:
     
 - [Nuevas características de servidor de Chat en grupo](http://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
     
-Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../../manage/manage.md).
+ 
   
 ## <a name="to-configure-categories-for-chat-rooms"></a>Para configurar categorías para salones de chat
 
@@ -42,8 +43,6 @@ Para obtener información detallada sobre las características de servidor de Ch
   
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Descripción de la pertenencia de Chat en grupo](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
   
 [Usar categorías para administrar el servidor de Chat persistente](http://technet.microsoft.com/library/dfcb3ad1-da90-467e-b08c-f4e68673b7b5.aspx)
@@ -51,4 +50,3 @@ Para obtener información detallada sobre las características de servidor de Ch
 [Mover un salón de Chat de una categoría a otra](http://technet.microsoft.com/library/7e93b8f6-5a18-4476-a432-3918e01bcfa6.aspx)
   
 [Creación o edición de un salón nuevo](http://technet.microsoft.com/library/aa8f4349-cfd9-4036-9c4d-de8fb2c4c8a4.aspx)
-

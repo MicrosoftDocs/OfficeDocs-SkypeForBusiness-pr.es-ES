@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: Un administrador de Chat persistente puede crear y administrar categorías de salón de chat. Como parte de la creación y administración de categorías de salón de chat, un administrador de Chat persistente puede configurar entidades de seguridad (los servicios de dominio de Active Directory grupos/contenedores o usuarios) que tienen acceso a ser miembros o los creadores de salones de chat de una categoría determinada. Un administrador de Chat persistente también puede agregar DeniedMembers a una categoría y se convierten en exclusiones explícitas a la lista de permitidos. DeniedMembers reemplazar lo que aparece en AllowedMembers.
-ms.openlocfilehash: 98e57342296f181971c799bafa1b77eccd24b509
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: b5d203c02e8bec67da2a9a94fb7726675a6151cf
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20049089"
 ---
 # <a name="select-denied-members"></a>Seleccionar miembros denegados
  
@@ -30,7 +31,7 @@ En la página **Seleccionar miembros denegados** puede realizar las siguientes t
     
 - [Nuevas características de servidor de Chat en grupo](http://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
     
-Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../../manage/manage.md).
+ 
   
 ## <a name="to-configure-categories-for-chat-rooms"></a>Para configurar categorías para salones de chat
 
@@ -42,7 +43,4 @@ Para obtener información detallada sobre las características de servidor de Ch
   
 ## <a name="see-also"></a>Vea también
 
-#### 
-
 [Descripción de la pertenencia de Chat en grupo](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
-

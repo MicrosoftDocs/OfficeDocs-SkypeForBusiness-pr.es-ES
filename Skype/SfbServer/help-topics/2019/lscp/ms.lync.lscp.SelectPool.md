@@ -12,17 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: Use el seleccionar un cuadro de diálogo servicio para buscar servicios disponibles en su entorno. Para usar un servicio existente, haga clic en un servicio en la lista y, a continuación, haga clic en Aceptar.
-ms.openlocfilehash: 8e7d96479a0c5703a8b480ce88267ba74e5a35d7
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 04f70c8ba98d9f153998014cfa9fb4869b137bad
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20049124"
 ---
 # <a name="select-a-service"></a>Seleccionar un servicio
  
 Use el cuadro de diálogo **Seleccionar un servicio** para buscar los servicios disponibles en su entorno. Para usar un servicio existente, haga clic en un servicio de la lista y, a continuación, en **Aceptar**. 
   
-Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../../manage/manage.md).
+ 
   
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 
@@ -34,7 +35,7 @@ En la página **Seleccionar un servicio** puede realizar las siguientes tareas:
     
 - [Configure las opciones del servidor de Chat en grupo global o de grupo de servidores de Chat en grupo](http://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
     
-Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../../manage/manage.md).
+ 
   
 ## <a name="to-configure-categories-for-chat-rooms"></a>Para configurar categorías para salones de chat
 
