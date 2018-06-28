@@ -80,9 +80,6 @@
 ## [Configuración del servicio de migración de reuniones (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
 
 
-
-
-
 # [Acceso de invitado](guest-access.md)
 ## [Cómo se une un invitado a un equipo](guest-joins.md)
 ## [Cómo es la experiencia de invitado](guest-experience.md)
@@ -213,6 +210,13 @@
 ### [Configurar el correo de voz de Sistema telefónico](/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [¿Qué son los operadores automáticos de Sistema telefónico?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
+## Enrutamiento directo de teléfono del sistema
+### [Planeación de enrutamiento directo](direct-routing-plan.md)
+### [Configurar el enrutamiento directo](direct-routing-configure.md)
+### [Migración a enrutamiento directo](direct-routing-migrating.md)
+### [Cuentas de usuario en un entorno híbrido con conectividad RTC](direct-routing-user-accounts-in-a-hybrid-environment.md)
+### [Configurar un controlador de borde de sesión para varios inquilinos](direct-routing-sbc-multiple-tenants.md)
+### [Controladores de borde de sesión certificados para el enrutamiento directo](direct-routing-border-controllers.md)
 
 # Seguridad y cumplimiento
 ## [Información general de seguridad y cumplimiento en Microsoft Teams](security-compliance-overview.md)
