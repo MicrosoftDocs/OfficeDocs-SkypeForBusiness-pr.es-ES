@@ -1,5 +1,5 @@
 
-# [Skype para administración en línea de negocio](../skype-for-business-online.md)
+# [Administración de Skype for Business Online](../skype-for-business-online.md)
 
 ## [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
@@ -71,7 +71,7 @@
 ### [¿Qué son las direcciones, las ubicaciones de emergencia y el enrutamiento de llamadas?](../what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing.md)
 ### [¿Qué son los planes de marcado?](../what-are-calling-plans-in-office-365/what-are-dial-plans.md)
 
-## [Sistema telefónico en Office 365](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
+## [Sistema telefónico de Office 365](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
 ### [Crear una cola de llamadas de Sistema telefónico](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Obtener teléfonos para Skype Empresarial Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Implementar teléfonos de Skype Empresarial Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
@@ -83,7 +83,7 @@
 #### [Idiomas para los mensajes y los saludos del correo de voz desde Skype Empresarial](../what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages.md)
 #### [Configurar el correo de voz de Sistema telefónico - Ayuda para el administrador](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
 ### [Configurar un operador automático de Sistema telefónico](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
-### [Configurar el sistema telefónico en la organización](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
+### [Configuración del sistema telefónico en su organización](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
 ### [¿Qué son los operadores automáticos de Sistema telefónico?](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
 #### [Configurar un operador automático de Sistema telefónico](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
@@ -149,6 +149,7 @@
 ### [Configurar el análisis de llamadas de Skype Empresarial](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [Activar y usar el Panel de calidad de llamadas](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
 ### [Usar Análisis de llamadas para solucionar problemas de mala calidad de llamada](../using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [Clasificación de la secuencia en el panel de calidad de llamada](../using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard.md)
 
 ## [Creación de informes en Skype Empresarial Online](../skype-for-business-online-reporting/skype-for-business-online-reporting.md)
 ### [Informe de actividad](../skype-for-business-online-reporting/activity-report.md)
