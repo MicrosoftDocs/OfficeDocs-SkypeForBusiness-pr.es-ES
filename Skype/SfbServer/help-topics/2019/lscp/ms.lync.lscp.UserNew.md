@@ -11,20 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 80952cec03913db1576cec5a6c7b8345ff6aad94
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 2a45181b15fa3bb2a4766491e193a9770193e47b
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20049096"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088521"
 ---
 # <a name="users-new-lync-server-user"></a>Usuarios: Nuevo usuario de Lync Server
  
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
   
-- [Agregar un nuevo usuario a Lync Server 2010](http://technet.microsoft.com/library/1edd1c1c-307d-450b-abea-33aaf56bdf13.aspx)
+- [Agregar un nuevo usuario](http://technet.microsoft.com/library/1edd1c1c-307d-450b-abea-33aaf56bdf13.aspx)
     
-- [Habilitar o deshabilitar usuarios para Lync Server 2010](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [Habilitar o deshabilitar usuarios](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
     
 - [Asignar una directiva de conferencia para modificar una experiencia de usuario predeterminada reunión](http://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
     

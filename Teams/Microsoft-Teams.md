@@ -1,14 +1,15 @@
 ---
 layout: HubPage
-hide_bc: ''
+hide_bc: true
 title: Guía práctica y documentación de Microsoft Teams
 description: Guía práctica y documentación de Microsoft Teams
 ms.topic: hub-page
-ms.openlocfilehash: 876249161f630923fa453f3336746df063896fc1
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.openlocfilehash: 1d7b8162f79cfc51da611830e2bd9fae9e6d84a0
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088340"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -27,7 +28,7 @@ ms.lasthandoff: 03/08/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/media/hubs/microsoftteamshome/teams-get-started.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-GetStarted-400x140.svg" alt="a pedestrian symbol with an arrow pointing to a computer screen, tablet, and phone" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -46,7 +47,7 @@ ms.lasthandoff: 03/08/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/media/hubs/microsoftteamshome/teams-skype-to-teams.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Journey-400x140.svg" alt="a roadmap with footsteps" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -65,7 +66,7 @@ ms.lasthandoff: 03/08/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/media/hubs/microsoftteamshome/teams-change-management.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="a task list, a wrench and a gear symbol" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -84,7 +85,7 @@ ms.lasthandoff: 03/08/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/media/hubs/microsoftteamshome/teams-voice-deployment.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" alt="a user with a phone and clouds" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -103,7 +104,7 @@ ms.lasthandoff: 03/08/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/media/hubs/microsoftteamshome/teams-security-compliance.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Security-Compliance-400x140.svg" alt="a shield with a check mark and clouds" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -122,7 +123,7 @@ ms.lasthandoff: 03/08/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/media/hubs/microsoftteamshome/teams-training.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-TrainingVideos-400x140.svg" alt="a video play symbol" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">

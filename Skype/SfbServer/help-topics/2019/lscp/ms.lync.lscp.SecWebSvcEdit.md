@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: d7f31af610a0d69398d614eb9e3ac8ca98a79b38
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: f83ddc0c951988cf82753693088a2974ea0a5613
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20045151"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088500"
 ---
 # <a name="web-service-security-settings-create-new-or-modify-existing"></a>Configuración de seguridad del servicio Web: Crear nuevos o modificar los existentes
  
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
   
-- [Administrar la configuración de configuración del servicio Web en Skype para Business Server 2015](../../../manage/authentication/web-service-configuration-settings.md)
+- [Administrar la configuración de configuración del servicio Web en Skype para Business Server](../../../manage/authentication/web-service-configuration-settings.md)
     
 - [Modificar un servicio Web existente](http://technet.microsoft.com/library/bd9c7aa5-d31c-4fab-b31d-8baae26b1296.aspx)
     

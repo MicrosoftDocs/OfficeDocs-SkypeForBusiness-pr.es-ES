@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: Puede usar los resultados de una consulta de búsqueda para configurar usuarios de Skype para Business Server. Puede buscar usuarios según el nombre para mostrar, el nombre, los apellidos, el nombre de cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de línea. También Puede buscar usuarios con el panel de control de Lync Server o el complemento de usuarios y equipos de Active Directory.
-ms.openlocfilehash: 253dfd6a2e454b7d68211b18a5c1c3e8c6c4a837
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: eb123d3fcbf13b75687f40d7311d8d9af8cb8fda
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20046441"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088549"
 ---
 # <a name="control-panel---updated-user-search"></a>Panel de control - actualización: Búsqueda de usuarios
  
@@ -26,11 +26,11 @@ Puede usar los resultados de una consulta de búsqueda para configurar usuarios 
 
 Puede llevar a cabo las tareas siguientes en la página **Búsqueda de usuarios** del panel de control:
   
-- [Búsqueda para los usuarios de Lync Server 2010](http://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
+- [Búsqueda de usuarios](http://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
     
-- [Habilitar o deshabilitar usuarios para Lync Server 2010](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [Habilitar o deshabilitar usuarios](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
     
-- [Mover el usuario](ms.lync.lscp.UserMove.md)
+- [Mover usuario](ms.lync.lscp.UserMove.md)
     
 - [Mover todos los usuarios](ms.lync.lscp.UserMoveAll.md)
     

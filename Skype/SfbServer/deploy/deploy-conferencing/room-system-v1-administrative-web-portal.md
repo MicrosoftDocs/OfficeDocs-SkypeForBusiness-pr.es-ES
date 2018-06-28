@@ -9,29 +9,30 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
-description: El Skype para sistemas de salas de Skype de Business Server 2015 v1 (v1 SRS, anteriormente conocido como sistema de sala de Lync) administrativo Portal Web es un portal web que las organizaciones pueden utilizar para mantener sus salas de conferencia sistemas de salas de Skype. Los administradores pueden utilizar el Portal Web del SRS v1 administrativas para supervisar el estado de los dispositivos, por ejemplo mediante la supervisión de dispositivos de audio y vídeo. Con este portal, los administradores también pueden recopilar información de diagnóstico de forma remota para supervisar el estado de las salas de conferencias.
-ms.openlocfilehash: d87241cc983fabf76a952bce4941063169f787c2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: El Skype para sistemas de negocio Server 2015 Skype salón v1 (v1 SRS, anteriormente conocido como sistema de sala de Lync) administrativas Portal Web es un portal web que las organizaciones pueden usar para mantener las salas de conferencias de sistemas de salón de Skype. Los administradores pueden usar el Portal Web del SRS v1 administrativas para supervisar el estado del dispositivo, por ejemplo mediante la supervisión de dispositivos de audio y vídeo. Con este portal, los administradores también pueden recopilar información de diagnóstico de forma remota para supervisar el estado de las salas de conferencias.
+ms.openlocfilehash: 84f9d84861980f970fb496f957c712a1d7dfead4
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088535"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server-2015"></a>Implementar el portal web administrativo de SRS v1 en Skype Empresarial Server 2015
  
-El Skype para sistemas de salas de Skype de Business Server 2015 v1 (v1 SRS, anteriormente conocido como sistema de sala de Lync) administrativo Portal Web es un portal web que las organizaciones pueden utilizar para mantener sus salas de conferencia sistemas de salas de Skype. Los administradores pueden utilizar el Portal Web del SRS v1 administrativas para supervisar el estado de los dispositivos, por ejemplo mediante la supervisión de dispositivos de audio y vídeo. Con este portal, los administradores también pueden recopilar información de diagnóstico de forma remota para supervisar el estado de las salas de conferencias.
+El Skype para sistemas de negocio Server 2015 Skype salón v1 (v1 SRS, anteriormente conocido como sistema de sala de Lync) administrativas Portal Web es un portal web que las organizaciones pueden usar para mantener las salas de conferencias de sistemas de salón de Skype. Los administradores pueden usar el Portal Web del SRS v1 administrativas para supervisar el estado del dispositivo, por ejemplo mediante la supervisión de dispositivos de audio y vídeo. Con este portal, los administradores también pueden recopilar información de diagnóstico de forma remota para supervisar el estado de las salas de conferencias.
   
-Para utilizar esta característica, el Portal Web del SRS v1 administrativos debe implementarse en cada Skype para el servidor de Business Server Front-End. Esta guía proporciona instrucciones para administradores sobre cómo instalar y configurar el portal web administrativo de SRS. Está destinado a los administradores que tienen conocimiento de Skype para administración de servidores empresariales, y que tienen derechos de usuario de administrador para modificar el Skype para la topología de servidores de negocios.
+Para usar esta característica, el Portal Web del SRS v1 administrativas debe estar implementado en cada Skype para Business Server Front-End Server. Esta guía proporciona instrucciones para administradores sobre cómo instalar y configurar el portal web administrativo de SRS. Está destinado a los administradores que tienen conocimiento de Skype para la administración de Business Server y que tienen derechos de usuario de administrador para modificar la Skype de topología de servidores de negocio.
   
-Después de v1 SRS que administrativas Portal Web se implementa en el servidor, los administradores pueden comprobar los dispositivos de estado SRS v1 registrándose en el sitio desde sus propios equipos o equipos portátiles. 
+Después de la v1 SRS que administrativas Portal Web se implementa en el servidor, los administradores pueden comprobar el estado SRS v1 para los dispositivos, inicie sesión el sitio desde sus propios equipos o equipos portátiles. 
   
 > [!IMPORTANT]
-> Descargue el [Microsoft Skype sala sistemas v1 administrativas Web Portal de Skype para Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=46906). 
+> Descargue el [Portal de sistemas v1 Web administrativo para Skype para Business Server 2015 de sala de Microsoft Skype](https://www.microsoft.com/en-us/download/details.aspx?id=46906). 
   
 En este tema:
   
-- [Configurar el entorno para el Portal Web administrativa del SRS v1](room-system-v1-administrative-web-portal.md#Config_Env)
+- [Configurar el entorno para el portal web administrativo de SRS v1](room-system-v1-administrative-web-portal.md#Config_Env)
     
-- [Instalar el Portal de administración Web SRS v1](room-system-v1-administrative-web-portal.md#Install_SRS)
+- [Instalar el portal web administrativo de SRS v1](room-system-v1-administrative-web-portal.md#Install_SRS)
     
 - [Usar el portal web administrativo de SRS](room-system-v1-administrative-web-portal.md#Use_Portal)
     
@@ -43,13 +44,13 @@ Para usar el portal web administrativo de SRS v1, tendrá que instalar o configu
 > [!IMPORTANT]
 > Si el servidor está configurado con la autenticación Kerberos y NTLM, y se está ejecutando SRS en un equipo que no está unido al dominio, la autenticación Kerberos generará un error y el usuario no verá el estado de SRS en el portal administrativo. Para resolver este problema, configure el servidor con autenticación NTLM o autenticación NTLM y TLS-DSK (sin Kerberos), o una el equipo SRS al dominio. 
   
-1. Instalar Skype para actualizaciones acumulativas de servidor empresarial en el Skype para la topología de servidores de empresa. 
+1. Instalar Skype para actualizaciones acumulativas de servidor empresarial en el Skype de topología de servidores de negocio. 
     
-    Para obtener la actualización o ver qué se incluye con él, vea [actualizaciones de Skype para Business Server 2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015).
+    Para obtener la actualización o ver qué se incluye con él, vea [actualizaciones para Skype para Business Server 2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015).
     
 2. Cree un usuario de Active Directory habilitado para usar SIP.
     
-    El Portal Web del SRS v1 administrativas utiliza estas credenciales para consultar información de Skype para Business Server. El nombre de usuario de los ejemplos es LRSApp.
+    El Portal Web del SRS v1 administrativas usa estas credenciales para consultar la información de Skype para Business Server. El nombre de usuario de los ejemplos es LRSApp.
     
 3. Cree un grupo de seguridad de Active Directory con el nombre LRSSupportAdminGroup.
     
@@ -63,9 +64,9 @@ Para usar el portal web administrativo de SRS v1, tendrá que instalar o configu
   
 5. Cree un grupo de seguridad de Active Directory con el nombre LRSPowerUserAdminsGroup. 
     
-    Cree el grupo con el ámbito de grupo Global y el tipo de grupo Seguridad. Los usuarios habilitados para SIP que se agregan a este grupo están autorizados a utilizar todas las funciones de portal de administración, incluida la administración masiva de Skype para salas de negocios. 
+    Cree el grupo con el ámbito de grupo Global y el tipo de grupo Seguridad. Los usuarios habilitados para SIP agregados a este grupo están autorizados a utilizar todas las funciones de portal de administración, incluida la administración masiva de Skype para salas de negocio. 
     
-6. Agregue SRSFullAccessAdminGroup como miembro de LRSSupportAdminGroup.
+6. Agregar LRSFullAccessAdminGroup como un miembro de LRSSupportAdminGroup.
     
      ![Página de miembros de la propiedad LRSSupportAdminGroup](../../media/LRS_Add_LRSSupportAdminGroup.png)
   
@@ -78,11 +79,11 @@ Para usar el portal web administrativo de SRS v1, tendrá que instalar o configu
 ## <a name="install-the-srs-v1-administrative-web-portal"></a>Instalar el portal web administrativo de SRS v1
 <a name="Install_SRS"> </a>
 
-Descargue el [Microsoft Skype sala sistemas v1 administrativas Web Portal de Skype para Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=46906). 
+Descargue el [Portal de sistemas v1 Web administrativo para Skype para Business Server 2015 de sala de Microsoft Skype](https://www.microsoft.com/en-us/download/details.aspx?id=46906). 
   
 Para instalar el portal web administrativo de SRS v1, use los pasos siguientes.
   
-1. Configurar el puerto de la aplicación de confianza ejecutando el siguiente cmdlet en Skype de Shell de administración de servidor de negocios:
+1. Configure el puerto de la aplicación de confianza ejecutando el siguiente cmdlet en Skype para Shell de administración de servidor empresarial:
     
    ```
    Set-CsWebServer -Identity POOLFQDN -MeetingRoomAdminPortalInternalListeningPort 4456 -MeetingRoomAdminPortalExternalListeningPort 4457
@@ -94,7 +95,7 @@ Para instalar el portal web administrativo de SRS v1, use los pasos siguientes.
     
     %Archivos de programa%\Skype Empresarial Server 2015\Web Components\Meeting Room Portal\Int\Handler\
     
-4. En el archivo Web.Config, cambie la PortalUserName al nombre de usuario creado en el paso 2 en la sección "[Configurar el entorno para el Portal Web del SRS v1 administrativas](room-system-v1-administrative-web-portal.md#Config_Env)" (nombre en el paso recomendado es LRSApp): 
+4. En el archivo Web.Config, cambie la PortalUserName para el nombre de usuario creado en el paso 2 en la sección "[Configurar el entorno para el Portal Web del SRS v1 administrativas](room-system-v1-administrative-web-portal.md#Config_Env)" (el nombre recomendado en el paso es LRSApp): 
     
     ```
     <add key="PortalUserName" value="sip:LRSApp@domain.com" />
@@ -106,7 +107,7 @@ Para instalar el portal web administrativo de SRS v1, use los pasos siguientes.
    <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
    ```
 
-6. Si el puerto que utiliza es que no sea 5061, agregue la línea siguiente en el archivo Web.Config: 
+6. Si utiliza un puerto diferente de 5061, agregue la siguiente línea en el archivo Web.Config:  
     
    ```
    <add key="PortalUserRegistrarPort" value="5061" />
@@ -128,7 +129,7 @@ Para verificar la instalación del portal web administrativo de SRS v1 haga lo s
     
     https://\<fe-server\>/lrs
     
-    Para acceder a la página, deberá agregar los registros DNS como se describe en "[registros DNS en automático cliente inicios de sesión necesarios](https://go.microsoft.com/fwlink/p/?LinkId=318056)."
+    Para obtener acceso a la página, necesita agregar los registros DNS, tal como se describe en "[necesario registros DNS para automático inicio de sesión de los clientes](https://go.microsoft.com/fwlink/p/?LinkId=318056)".
     
 ## <a name="use-the-srs-administrative-web-portal"></a>Usar el portal web administrativo de SRS
 <a name="Use_Portal"> </a>
@@ -149,20 +150,20 @@ Después de implementar SRS en el servidor, puede comprobar el estado de todas l
 
 La página de resumen ofrece la siguiente información sobre todas las salas de SRS implementadas en el servidor:
   
-- **Etiqueta** El nombre personalizado que el administrador le da a la sala. La etiqueta se puede establecer en el portal haciendo clic en el nombre del salón.
+- **Etiqueta** El nombre personalizado que proporciona el administrador a la sala. La etiqueta se puede establecer en el portal de haciendo clic en el nombre del salón.
     
-- **Salud** El estado de la sala, que se deriva el estado agregado de la sala, que se muestra en la sección estado de la página de configuración de la sala.
+- **Mantenimiento** El estado de mantenimiento de la sala, que se deriva el estado de mantenimiento de agregado de la sala, que se muestra en la sección estado de la página de configuración de la sala.
     
-- **Siguiente reunión** La fecha y hora de la próxima reunión está programada.
+- **Próxima reunión** La fecha y hora de la próxima reunión está programada.
     
-- **SRS versión, fabricante, modelo** Estos valores están predefinidos en SRS. Según el fabricante, estos campos pueden estar en blanco.
+- **SRS versión, fabricante, modelo** Estos valores están predefinidos en SRS. Según el fabricante, estos campos pueden dejarse en blanco.
     
 - **Última actualización** Muestra la última vez que se actualiza la página web.
     
 ![Vista resumida del portal de administración del sistema Lync Room](../../media/LRS_AdminPortal_Summary_view.png)
   
 > [!NOTE]
-> Sólo se verá el menú administración masiva si forma parte del grupo de seguridad LRSPowerUserAdminsGroup. 
+> Sólo se verá el menú de administración de forma masiva si forma parte del grupo de seguridad LRSPowerUserAdminsGroup. 
   
 ### <a name="srs-room-information"></a>Información sobre salas de SRS
 
@@ -176,7 +177,7 @@ En la sección de configuración, puede establecer la contraseña, la etiqueta d
   
 #### <a name="details"></a>Detalles
 
-La sección de detalles proporciona un resumen de sólo lectura de la configuración de la sala SRS, incluyendo: la hora de la última actualización; próxima reunión; últimas actualizaciones, mantenimiento y calibración; altavoz de forma predeterminada, mic y la configuración de timbre; versión; URI DE SIP; número de pantallas y detalles acerca de cada pantalla; estado y la actividad.
+La sección detalles de proporciona un resumen de solo lectura de configuraciones de la sala SRS, incluido: la hora de última actualización; próxima reunión; última actualizaciones, mantenimiento y calibración; configuración del timbre; micrófono y altavoz de forma predeterminada versión; URI DE SIP; número de pantallas y obtener información detallada sobre cada pantalla; estado y la actividad.
   
 ![Vista en detalle del portal de administración del sistema Lync Room](../../media/LRS_AdminPortal_Detail_view.png)
   
@@ -186,14 +187,14 @@ La sección de solución de problemas se puede usar para recopilar remotamente r
   
 #### <a name="health"></a>Mantenimiento
 
-La sección de salud le da una indicación visual del estado de la Skype para Business Server conexión, dispositivo de audio, el dispositivo de vídeo, estado de resistencia y dispositivo de pantalla.
+La sección Mantenimiento proporciona una indicación visual del estado de la Skype para Business Server connection, dispositivo de audio, dispositivo de vídeo, estado de resistencia y el dispositivo de pantalla.
   
 ![Estado de los salones del portal de administración del sistema Lync Room](../../media/LRS_AdminPortal_RoomInfoHealth.png)
   
 ### <a name="additional-notes-about-the-administrative-web-portal"></a>Notas adicionales sobre el portal web administrativo
 
 > [!NOTE]
->  Cambios de configuración se aplican sólo después de que se reinicie el sistema SRS. > Si caduca la contraseña de la cuenta LRSApp, no podrá ver el estado de las salas. Configurar la contraseña de la cuenta LRSAppuser para que nunca caduca o asegúrese de actualizar la contraseña cuando está cerca de caducidad > portal web administrativa del SRS es compatible para las implementaciones locales.
+>  Cambios en la configuración se aplican sólo después de que se reinicie el sistema SRS. > Si caduca la contraseña de la cuenta LRSApp, no podrá ver el estado de las salas. Configurar la contraseña de la cuenta LRSAppuser para que nunca caduca o asegúrese de actualizar la contraseña cuando está cerca de expiración. > portal web administrativa de SRS el es compatible con las implementaciones locales únicamente.
   
 ### <a name="bulk-management"></a>Administración en masa 
 
@@ -207,15 +208,15 @@ Para realizar una operación de administración en masa, seleccione las salas qu
   
 ### <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
-#### <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>¿Por qué no puedo iniciar sesión en el portal web administrativo?
+#### <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>¿Por qué no puedo iniciar sesión en el portal web administrativas?
 
-Cuando se abre https://localhost/lrs, podrá ver la página de inicio de sesión, pero cuando escribe en sus credenciales, no puedes iniciar sesión. En este caso, debe abrir https://FQDNofFEserver/SRS para iniciar sesión en el portal web administrativa.
+Cuando se abre https://localhost/lrs, podrá ver la página de inicio de sesión, pero cuando se escribe en sus credenciales, no puede iniciar sesión. En este caso, debe abrir el https://FQDNofFEserver/SRS para iniciar sesión en el portal web administrativo.
   
 #### <a name="why-cant-i-see-srs-v1-in-the-administrative-web-portal"></a>¿Por qué no puedo ver v1 SRS en el portal web administrativa?
 
-- Asegúrese de que su implementación tiene cuentas de SRS y de que estas se han creado según las recomendaciones de implementación del portal web administrativo de SRS. Asegúrese de que las cuentas SRS aprovisionadas utilizando Enable-CsMeetingRoom, no habilitar-CsUser en el Skype para Business Server.
+- Asegúrese de que su implementación tiene cuentas de SRS y de que estas se han creado según las recomendaciones de implementación del portal web administrativo de SRS. Asegúrese de que las cuentas SRS se aprovisionan con Enable-CsMeetingRoom, no habilitar-CsUser, en la Skype para Business Server.
     
-- Si ha creado cuentas de SRS y no puede ver las cuentas en el portal web administrativa, recopilar los registros del servidor utilizando el Skype para la herramienta de registro de servidor de negocios con el componente **MeetingPortal** seleccionado y, a continuación, enviarlos a su contacto de soporte técnico SRS.
+- Si ha creado las cuentas SRS y no se puede ver las cuentas en el portal web administrativa, recopilar los registros del servidor mediante el Skype para la herramienta de registro de servidor empresarial con el componente de **MeetingPortal** seleccionado y, a continuación, enviarlos a su contacto de soporte técnico SRS.
     
 - Si ha creado cuentas de SRS y no las ve en el portal web administrativo, recopile los registros de cliente usando Fiddler, copie el registro de la consola de las herramientas de desarrollo del explorador y luego envíe esta información a su contacto de soporte técnico de SRS. También puede modificar el valor del nivel de seguimiento en el archivo Web.Config para obtener un registro más detallado.
     
@@ -232,15 +233,15 @@ Cuando se abre https://localhost/lrs, podrá ver la página de inicio de sesión
   </system.diagnostics>
   ```
 
-#### <a name="why-cant-i-see-the-status-of-srs-in-the-administrative-web-portal"></a>¿Por qué no puedo ver el estado de SRS en el portal web administrativo?
+#### <a name="why-cant-i-see-the-status-of-srs-in-the-administrative-web-portal"></a>¿Por qué no puedo ver el estado de SRS en el portal web administrativa?
 
 - Asegúrese de que la cuenta de usuario LRSApp esté habilitada para SIP.
     
-- Si sigue teniendo problemas, recopilar el archivo **Trace.log** del sistema SRS de D:\Tracing\LRSAdminLogs\, y envíelo a su contacto de soporte técnico SRS.
+- Si sigue teniendo problemas, recopilar el archivo **Trace.log** en el sistema SRS de D:\Tracing\LRSAdminLogs\, y, a continuación, envíelo a su contacto de soporte técnico SRS.
     
-#### <a name="why-cant-i-see-the-bulk-management-menus-for-srs-in-the-administrative-web-portal"></a>¿Por qué no puedo ver los menús de administración masiva para SRS en el portal web administrativo?
+#### <a name="why-cant-i-see-the-bulk-management-menus-for-srs-in-the-administrative-web-portal"></a>¿¿Por qué no puedo ver los menús de administración de forma masiva para SRS en el portal web administrativa?
 
-Asegúrese de que la cuenta de usuario de LRSApp está habilitado para SIP y forma parte del grupo de seguridad LRSPowerUserAdminsGroup. 
+Asegúrese de que la cuenta de usuario LRSApp está habilitado para SIP y que forma parte del grupo de seguridad LRSPowerUserAdminsGroup. 
   
 #### <a name="does-the-srs-v1-administrative-web-portal-work-with-skype-room-systems-v2"></a>¿El portal web administrativo de SRS v1 funciona con Sistemas de salas de Skype v2?
 
