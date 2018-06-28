@@ -1,5 +1,5 @@
 ---
-title: Activar y con el panel de calidad de llamadas
+title: Activar y usar el Panel de calidad de llamadas
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Vea cómo activar y usar el Skype para profesionales Online panel calidad de llamadas y obtener informes de resumen de calidad de las llamadas. '
-ms.openlocfilehash: 856cf70085bbd0c7ca5cd5e253aec991bb970d62
-ms.sourcegitcommit: dfcdb18d0eb3205ef9180f048674f586aac92de0
+ms.openlocfilehash: 6651525ced62b89b690a8100ec69a36b5fd5695c
+ms.sourcegitcommit: b859f9b3cb89f0b0ac4aacbba75f916e38981a26
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570320"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20091612"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activar y con el panel de calidad de llamadas para Microsoft Teams y Skype para profesionales en línea
 
@@ -42,7 +42,9 @@ Los cambios más recientes a CQD son los siguientes:
 - Incluye los datos de Microsoft Teams además de Skype para datos profesionales en línea.
     
 - Informes de resumen de incluyen un filtro de producto para seleccionar todos los datos, los datos de Microsoft Teams o Skype para datos profesionales en línea.
-    
+
+- Se ha actualizado la lógica de clasificación de calidad de secuencia vídeo y VBSS. Hacer referencia a la [Clasificación de la secuencia en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md) para las definiciones de clasificador más recientes.
+
 Hacer referencia a este artículo para obtener una lista de [las dimensiones y medidas disponibles en el panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 > [!NOTE]
@@ -117,7 +119,7 @@ Usar los datos de esta ficha para evaluar el estado de calidad de llamada y las 
   
 ![Clave de datos de CQD](../images/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-Las secuencias se clasifican en tres grupos: Bueno, deficiente y sin clasificar. Hay también se calculan *% deficiente* valores que proporcionan que la proporción de secuencias de clasificó como *deficiente* que el recuento total de secuencia clasificados. Puesto que *deficiente % = deficientes secuencias / (deficiente secuencias + secuencias de buena) * 100* , esto hace que el *% deficiente* que no afectado por la presencia con varias secuencias de *no clasificados* . Para que se usa para la clasificación de un objeto stream como buena o mala, consulte [Umbrales de calidad de llamadas](https://aka.ms/cqd_quality_thresholds).
+Las secuencias se clasifican en tres grupos: Bueno, deficiente y sin clasificar. Hay también se calculan *% deficiente* valores que proporcionan que la proporción de secuencias de clasificó como *deficiente* que el recuento total de secuencia clasificados. Puesto que *deficiente % = deficientes secuencias / (deficiente secuencias + secuencias de buena) * 100* , esto hace que el *% deficiente* que no afectado por la presencia con varias secuencias de *no clasificados* . Para que se usa para la clasificación de un objeto stream como buena o mala, hacer referencia a la [Clasificación de la secuencia en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md).
   
 Utilice la escala a la izquierda para medir los valores de número de secuencia.
   

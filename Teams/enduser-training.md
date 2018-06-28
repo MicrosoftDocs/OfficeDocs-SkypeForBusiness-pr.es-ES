@@ -10,11 +10,12 @@ ms.reviewer: lolaj, ninadara
 description: Recursos de formación que puede usar un administrador para implementar y adoptar correctamente Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b095d25f4b414eda58e8030264139b7fdf5b42a
-ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
+ms.openlocfilehash: bcfefb62ab0c9bbe7b24addd8ee74c3e188edcf6
+ms.sourcegitcommit: b859f9b3cb89f0b0ac4aacbba75f916e38981a26
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20091577"
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Formación del usuario final para Microsoft Teams
 =====================================
@@ -32,6 +33,7 @@ Use estos recursos de formación para que su organización pueda sacar el máxim
 | [Canal de Microsoft Teams en YouTube](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
 | [Canal "Coffee in the Cloud" en YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |Vídeos de revisión de procedimientos, prácticas recomendadas y características  |
 | Introducción a Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/GPmjfqnvuG4" frameborder="0" allowfullscreen></iframe>   |
+| Introducción a los equipos de Microsoft para el ámbito educativo  | <iframe width="350" height="200" src="https://youtu.be/xz4Jn_OtdUI" frameborder="0" allowfullscreen></iframe>   |
 | 5 minutos para configurar equipos, canales y fichas   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
 | Colaborar a grandes rasgos - agregar a invitados a su equipo de Microsoft  | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   |
 | Acelerar su colaboración - mediante la barra de comandos en los equipos de Microsoft  | <iframe width="350" height="200" src="https://www.youtube.com/embed/wYrRCRphrp0" frameborder="0" allowfullscreen></iframe>   |
