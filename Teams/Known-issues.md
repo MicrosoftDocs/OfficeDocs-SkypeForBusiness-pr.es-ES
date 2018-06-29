@@ -6,16 +6,16 @@ manager: serdars
 ms.date: 5/9/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: marcl, ninadara, v-leslc
+ms.reviewer: marcl, ninadara
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6624aa94ef6581805e3ba2b79f09aefb95616bb0
-ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
+ms.openlocfilehash: 65417bc9d64ac895811736f11dfdb565c42704f2
+ms.sourcegitcommit: f7554cd4fab65ce948aba269f8aabde2fe5fa082
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19691220"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "20136937"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
   
@@ -23,6 +23,10 @@ En este artículo se enumera los problemas conocidos de Microsoft Teams, por ár
 ## 
 
 ## <a name="administration"></a>Administración
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|Los registros de auditoría pueden informar de un nombre de usuario incorrecto como iniciador cuando alguien se ha quitado de un equipo  <br/> |Equipo de los equipos es un grupo moderno en AAD. Cuando que agrega o quitar un miembro a través de la interfaz de usuario de los equipos, el flujo sabe exactamente el usuario que inició el cambio, y el registro de auditoría refleja la información correcta. Sin embargo, si un usuario de un miembro a través de AAD de agrega o quita, el cambio se sincroniza con el back-end de los equipos sin que indica que los equipos que inició la acción. Microsoft Teams recoge el primer propietario del equipo como el iniciador, que finalmente se refleja en así como el registro de auditoría.    <br/> |  <br/> |11/5/18  <br/> |
+
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |No se puede agregar a miembros a los equipos cuando UsersPermissionToReadOtherUsersEnabled está establecido en false  <br/> |Cuando este valor está establecido en false en AAD, atención al cliente no puede agregar miembros interna y externa en Microsoft Teams, y se muestra el siguiente mensaje de error: "se no podríamos agregar miembros. Hemos ejecutado en un problema. Por favor, inténtelo de nuevo más tarde." Sin embargo, los miembros pueden agregarse directamente a los grupos de Office 365.    <br/> |Cambiar este valor en true en AAD.  <br/> |4/10/18  <br/> |
@@ -205,6 +209,10 @@ En este artículo se enumera los problemas conocidos de Microsoft Teams, por ár
 |Los equipos de la integración de organizador con organizador en línea <br/> |Cubos de tareas en el organizador no se muestran en la experiencia en línea del organizador.  <br/> |No hay ninguna solución. <br/> |28/02/2017  <br/>|
 
 ## <a name="teams"></a>Microsoft Teams
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|Los registros de auditoría pueden informar de un nombre de usuario incorrecto como iniciador cuando alguien se ha quitado de un equipo  <br/> |Equipo de los equipos es un grupo moderno en AAD. Cuando que agrega o quitar un miembro a través de la interfaz de usuario de los equipos, el flujo sabe exactamente el usuario que inició el cambio, y el registro de auditoría refleja la información correcta. Sin embargo, si un usuario de un miembro a través de AAD de agrega o quita, el cambio se sincroniza con el back-end de los equipos sin que indica que los equipos que inició la acción. Microsoft Teams recoge el primer propietario del equipo como el iniciador, que finalmente se refleja en así como el registro de auditoría.    <br/> |  <br/> |11/5/18  <br/> |
+
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |La carga de fotos en Teams no está bloqueada en OWA/Outlook como requiere la directiva   <br/> | Teams permite a los usuarios cargar fotos directamente en Office 365, a pesar de la configuración de la directiva que hay en vigor para evitar que se carguen fotos en OWA.   <br/> |<br/>  |16/10/2017  <br/> |
