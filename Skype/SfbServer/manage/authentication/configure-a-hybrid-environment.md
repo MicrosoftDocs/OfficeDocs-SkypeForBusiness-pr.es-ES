@@ -1,5 +1,5 @@
 ---
-title: Configurar un entorno híbrido en Skype Empresarial Server 2015
+title: Configurar la autenticación de servidor a servidor para un Skype para entorno híbrido de Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
-description: 'Resumen: Configure Skype para Business Server 2015 en un entorno híbrido.'
-ms.openlocfilehash: 4798839bd001e6320870d7ca97ba99108e3b32de
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Configurar la autenticación de servidor a servidor para un Skype para entorno híbrido de Business Server.'
+ms.openlocfilehash: 889e62cf2c462dc9f1cc9ab4b96ae73f99bc9c6e
+ms.sourcegitcommit: 3d1556113ce4050b79ee34c138482b34273b8c1d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570188"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "20178818"
 ---
-# <a name="configure-a-hybrid-environment-in-skype-for-business-server-2015"></a>Configurar un entorno híbrido en Skype Empresarial Server 2015
+# <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>Configurar la autenticación de servidor a servidor para un Skype para entorno híbrido de Business Server.
  
-**Resumen:** Configure Skype para Business Server 2015 en un entorno híbrido.
+**Resumen:** Configurar la autenticación de servidor a servidor para Skype para entorno híbrido de Business Server.
   
 En una configuración híbrida, algunos de los usuarios están hospedados en una instalación local de Skype para Business Server 2015 mientras otros usuarios están hospedados en la versión de Office 365 de Skype para Business Server. Con el fin de configurar la autenticación de servidor a servidor en un entorno híbrido, primero debe configurar la instalación local de Skype para Business Server 2015 para que confíe en el servidor de autorización de Office 365. El paso inicial en este proceso puede llevarse a cabo mediante la ejecución de la siguiente Skype para el script de Shell de administración de servidor empresarial:
   
