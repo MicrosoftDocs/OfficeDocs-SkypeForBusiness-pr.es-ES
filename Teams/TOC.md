@@ -246,6 +246,13 @@
 #### [Configurar un operador automático de Sistema telefónico](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Configurar el correo de voz de Sistema telefónico](/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [¿Qué son los operadores automáticos de Sistema telefónico?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### Enrutamiento directo de teléfono del sistema
+#### [Planeación de enrutamiento directo](direct-routing-plan.md)
+#### [Configurar el enrutamiento directo](direct-routing-configure.md)
+#### [Migración a enrutamiento directo](direct-routing-migrating.md)
+#### [Cuentas de usuario en un entorno híbrido con conectividad RTC](direct-routing-user-accounts-in-a-hybrid-environment.md)
+#### [Configurar un controlador de borde de sesión para varios inquilinos](direct-routing-sbc-multiple-tenants.md)
+#### [Lista de controladores de borde de sesión de certificados para el enrutamiento directo](direct-routing-border-controllers.md)
 ### [Flujos de llamadas de los equipos de Microsoft Online](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 
