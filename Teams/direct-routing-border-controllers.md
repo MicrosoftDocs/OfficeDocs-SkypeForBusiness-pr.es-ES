@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Los socios de Microsoft con proveedores seleccionados de SBC certifica su SBC para trabajan con el enrutamiento directo.
-ms.openlocfilehash: 72d1567dbc827685316fc390e532d82a254f7748
-ms.sourcegitcommit: b859f9b3cb89f0b0ac4aacbba75f916e38981a26
+ms.openlocfilehash: d5cb169aaf1545d496e19e533c1466e68258d35c
+ms.sourcegitcommit: 13bec625269307e5988acecd3b765c29594d66fe
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20091676"
+ms.lasthandoff: 07/04/2018
+ms.locfileid: "20192663"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión de certificados para el enrutamiento directo
 
@@ -51,5 +51,5 @@ En la tabla siguiente se enumera los dispositivos certificados para el enrutamie
 |     | SBC sueco  |   & #10004;    |    Pendiente     |    V6.2      |
 |     |SBC 1000   |     & #10004;   |     Pendiente    |    V7.0.2   |& #10004; 
 |     | SBC 2000    |     & #10004;   |    Pendiente     |    V7.0.2      |
-|[Thinktel](http://www.thinktel.ca/services/think-365/think-365-overview/)     |    Piense SBC 365      |  Pendiente       |    Pendiente     |   V1.4       |
+|[Thinktel](http://www.thinktel.ca/services/think-365/think-365-overview/)     |    Piense SBC 365      |  & #10004;       |    Pendiente     |   V1.4       |
 |     |         |         |         |         |

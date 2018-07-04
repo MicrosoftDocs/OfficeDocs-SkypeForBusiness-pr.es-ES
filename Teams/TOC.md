@@ -123,7 +123,7 @@
 <!-- ============================================================ -->
 # Interopearability con Office 365
 ## [Migración e interoperabilidad con Skype para la empresa](migration-interop-guidance-for-teams-with-skype.md)
-## [Establecer las opciones de actualización y coexistencia](setting-your-coexistence-and-upgrade-settings.md)
+## [Establecer la coexistencia y la configuración de actualizaciones](setting-your-coexistence-and-upgrade-settings.md)
 ## [Grupos de Office 365 y Microsoft Teams](office-365-groups.md)
 ## [Mejorar los grupos de Office 365 existentes con Microsoft Teams](enhance-office-365-groups.md)
 ## [Interacción entre Exchange y Microsoft Teams](exchange-teams-interact.md)
