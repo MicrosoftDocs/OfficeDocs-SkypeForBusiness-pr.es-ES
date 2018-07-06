@@ -15,14 +15,15 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: c4fc0b4e75a7e4e3cd2c391102580c37c0b826af
-  ms.sourcegitcommit: 8ceb230c058471210b89449dde0034300e6c4da1
+  ms.openlocfilehash: d072c7f8d1ca0998fbe0a1ddee152717b6c69843
+  ms.sourcegitcommit: 1fde3af8f5c93c1328842990c7d14cbc0fbfdf97
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 05/17/2018
+  ms.lasthandoff: 07/05/2018
+  ms.locfileid: "20201361"
 items:
 - durationInMinutes: 1
-  content: "En este curso de formación, se presenta la nueva visión de comunicaciones inteligentes y se explica el futuro de Skype Empresarial y Teams.\n\nEste documento de formación es perfecto para usted en caso de que: \n\n- Profesional de TI \n\n- Sea responsable de planificar, implementar o administrar Skype Empresarial\n\n- Esté interesado en saber cómo introducir Teams en su organización\n\nLe explicaremos detalladamente los puntos en los que coinciden estos dos productos y los pasos que puede dar hoy mismo para adecuar un entorno de Skype Empresarial a Teams. Los puntos clave de este tutorial son los siguientes:\n\n- Comprender la visión de comunicaciones inteligentes\n\n- Comprender el recorrido desde Skype Empresarial Online a Microsoft Teams\n\n- Acciones deberían tomarse cuanto antes\n\nNo se explicarán los procedimientos para activar Teams o ejecutar Skype Empresarial y Teams en paralelo. Para obtener esa información, consulte los recursos siguientes:\n\n- Sesión de Microsoft Ignite 2017: [Cómo habilitar y configurar Microsoft Teams para sus usuarios](https://myignite.microsoft.com/sessions/53318)\n\n- [Actualizar el recorrido y la coexistencia de Skype Empresarial y Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) \n\nSi tiene preguntas o comentarios acerca de este documento de formación:\n\n- Haga una publicación en la sección de comentarios de la parte inferior de la página \"Pasos siguientes\" de este tutorial.</a>\n\n- Envíenos un correo electrónico a [AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Journey)\n\n- Para enviarnos comentarios sobre el producto (por ejemplo, solicitudes de características), diríjase a [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n"
+  content: "En este curso de formación, se presenta la nueva visión de comunicaciones inteligentes y se explica el futuro de Skype Empresarial y Teams.\n\nEste documento de formación es perfecto para usted en caso de que: \n\n- Profesional de TI \n\n- Sea responsable de planificar, implementar o administrar Skype Empresarial\n\n- Esté interesado en saber cómo introducir Teams en su organización\n\nLe explicaremos detalladamente los puntos en los que coinciden estos dos productos y los pasos que puede dar hoy mismo para adecuar un entorno de Skype Empresarial a Teams. Los puntos clave de este tutorial son los siguientes:\n\n- Comprender la visión de comunicaciones inteligentes\n\n- Comprender el recorrido desde Skype Empresarial Online a Microsoft Teams\n\n- Acciones deberían tomarse cuanto antes\n\nNo se explicarán los procedimientos para activar Teams o ejecutar Skype Empresarial y Teams en paralelo. Para obtener esa información, consulte los recursos siguientes:\n\n- Sesión de Microsoft Ignite 2017: [Cómo habilitar y configurar Microsoft Teams para sus usuarios](https://myignite.microsoft.com/sessions/53318)\n\n- [Actualizar el recorrido y la coexistencia de Skype Empresarial y Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) \n\nSi tiene preguntas o comentarios acerca de este documento de formación:\n\n- Haga una publicación en la sección de comentarios de la parte inferior de la página \"Pasos siguientes\" de este tutorial.</a>\n\n- Para enviarnos comentarios sobre el producto (por ejemplo, solicitudes de características), diríjase a [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n"
 - title: Comprender las comunicaciones inteligentes
   durationInMinutes: 4
   content: >
@@ -111,5 +112,4 @@ items:
 
     5.  Envíenos su opinión
         - Envíenos su opinión o háganos preguntas acerca de este curso de formación en la sección **Comentarios** de la parte inferior de esta página.
-        - Envíenos un correo electrónico a [AskTeams@Microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Journey)
         - Para enviarnos comentarios acerca de Teams o solicitar una nueva característica, diríjase a [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).

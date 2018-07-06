@@ -16,11 +16,12 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 5f72133bacc1c299ad47eb3bc928827f733e87a8
-  ms.sourcegitcommit: 8ceb230c058471210b89449dde0034300e6c4da1
+  ms.openlocfilehash: 4cb5a14f2bce0a9450788de178cff8e27cbc4e33
+  ms.sourcegitcommit: 1fde3af8f5c93c1328842990c7d14cbc0fbfdf97
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 05/16/2018
+  ms.lasthandoff: 07/05/2018
+  ms.locfileid: "20201418"
 items:
 - durationInMinutes: 1
   content: >
@@ -58,8 +59,6 @@ items:
 
 
     -   Registrar en la sección comentarios en la parte inferior de la página "Próximos pasos" de este tutorial
-
-    -   Envíenos un correo electrónico a [AskTeams\@Microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Audio%20Conferencing).
 
 
     Para enviarnos comentarios sobre Microsoft Teams, como ideas para nuevas características, visite [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
@@ -105,7 +104,6 @@ items:
 
     3.  Envíenos su opinión:
         - Haga una publicación en la sección de comentarios de la parte inferior de esta página.
-        - Envíenos un correo electrónico en [AskTeams\@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Audio%20Conferencing)
         - Para enviarnos comentarios acerca de Teams o solicitar una nueva característica, diríjase a [UserVoice de Teams](https://microsoftteams.uservoice.com/forums/555103-public).
     4.  Manténgase al día:
         - Siga el [Blog de los equipos](https://aka.ms/teamsblog).
