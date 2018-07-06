@@ -1,5 +1,5 @@
 ---
-title: Configuración de Skype para Business Analytics de llamadas
+title: Configurar el análisis de llamadas de Skype Empresarial
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,14 +18,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Configurar y usar el análisis de llamada para identificar y solucionar problemas de Skype para profesionales y Microsoft Teams problemas de calidad de llamada.
-ms.openlocfilehash: 5cba53e1a01b1aff3a08f4ec84cea60dc455fb35
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: d9483d702280bfe7119ff64431e5d42b168f9021
+ms.sourcegitcommit: 26d93a15c9d4704c08f3fabc5635839ce2456b2d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500697"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "20205019"
 ---
-# <a name="set-up-skype-for-business-call-analytics"></a>Configuración de Skype para Business Analytics de llamadas
+# <a name="set-up-skype-for-business-call-analytics"></a>Configurar el análisis de llamadas de Skype Empresarial
 
 Como un Skype para administración en línea de negocio, puede usar el análisis de llamadas para solucionar problemas de Skype para la empresa y Microsoft Teams llamar a problemas de calidad y de conexión. Es posible que encuentre útil para configurar las siguientes funciones en análisis de llamadas:
   
@@ -34,7 +34,7 @@ Como un Skype para administración en línea de negocio, puede usar el análisis
 - Agregar información del inquilino, de sitio y de creación para llamar a análisis al cargar un archivo de datos .tsv o .csv.
     
 > [!NOTE]
-> Análisis de la llamada está actualmente en la vista previa. Texto e imágenes que se describen aquí no pueden coincidir con su experiencia. 
+> Análisis de la llamada está ahora disponible en el Microsoft Teams y Skype para centro de administración de negocio en https://admin.teams.microsoft.com. Permisos de agente de departamento de soporte técnico y la carga de la topología de red estará disponibles en el nuevo portal de administración en los próximos meses. Mientras tanto se puede seguir usando el extremo de https://adminportal.services.skypeforbusiness.com para el acceso de departamento de soporte técnico de nivel 1 y nivel 2. 
   
 ## <a name="set-call-analytics-permissions"></a>Establecer permisos de análisis de llamadas
 <a name="BKMK_SetCAPerms"></a>
@@ -52,7 +52,7 @@ Los agentes del departamento de soporte técnico de nivel 1 controlan problemas 
 ||Número de teléfono del destinatario  <br/> |Número de teléfono completo, excepto los últimos tres dígitos son confusos con los símbolos de asterisco. Por ejemplo, 15552823 ***.  <br/> |Número de teléfono completo, excepto los últimos tres dígitos son confusos con los símbolos de asterisco. Por ejemplo, 15552823 ***.  <br/> |
 ||**Detalles de llamadas** > ficha**Opciones avanzadas** <br/> |Información que no se muestra.  <br/> |Todos los detalles que se muestran, como los nombres de dispositivo, dirección IP, asignación de subred y mucho más.  <br/> |
 ||**Detalles de llamadas** > **Avanzadas** > ficha**Depurar** <br/> |Información que no se muestra.  <br/> |Todos los detalles que se muestran como sufijo DNS y SSID.  <br/> |
-|**Reuniones** <br/> |Nombres de los participantes  <br/> |El nombre del usuario para el que desea buscar el agente. Demás participantes identificados como usuario interno o externo.  <br/> |Todos los nombres que se muestran.  <br/> |
+|**Reuniones.** <br/> |Nombres de los participantes  <br/> |El nombre del usuario para el que desea buscar el agente. Demás participantes identificados como usuario interno o externo.  <br/> |Todos los nombres que se muestran.  <br/> |
 ||Recuento de participantes  <br/> |Número de participantes.  <br/> |Número de participantes.  <br/> |
 ||Detalles de la sesión  <br/> |Detalles de la sesión se muestra con excepciones. Se muestra sólo el nombre del usuario para el que desea buscar el agente. Demás participantes identificados como usuario interno o externo. Los últimos tres dígitos del número de teléfono confusos con los símbolos de asterisco.  <br/> |Detalles de la sesión que se muestra. Los nombres de usuario y se muestra detalles de la sesión. Los últimos tres dígitos del número de teléfono confusos con los símbolos de asterisco.  <br/> |
    

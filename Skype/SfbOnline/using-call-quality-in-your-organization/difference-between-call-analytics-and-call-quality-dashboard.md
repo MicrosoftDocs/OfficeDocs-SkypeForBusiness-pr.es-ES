@@ -18,24 +18,27 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Obtenga información sobre el análisis de llamadas y, a continuación, llame al panel de calidad y cuándo usarlos para supervisar y solucionar los problemas de calidad de la llamada de Skype para la empresa.
-ms.openlocfilehash: 59be26d9f5adc48b71b2b675f872025b13eb206e
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 3871db21fef268f9589246b31ee285aa117d0412
+ms.sourcegitcommit: 26d93a15c9d4704c08f3fabc5635839ce2456b2d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933071"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "20205090"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Análisis de llamada y el panel de calidad de llamada
 
-Skype para la empresa le ofrece dos formas para supervisar y solucionar los problemas de calidad de la llamada: análisis de llamadas y panel de calidad de llamadas. En este artículo se describe ambos y se indica cuándo se debe usar cada uno de ellos.
+Microsoft Teams y Skype para la empresa le ofrecen dos maneras para supervisar y solucionar los problemas de calidad de la llamada: análisis de llamadas y panel de calidad de llamadas. En este artículo se describe ambos y se indica cuándo se debe usar cada uno de ellos.
   
 > [!NOTE]
-> Análisis de la llamada está actualmente en la vista previa. Texto e imágenes que se describen aquí no pueden coincidir con su experiencia. Sólo últimos 30 días de datos está disponible en el análisis de llamadas.
+> Análisis de la llamada está ahora disponible en el Microsoft Teams y Skype para centro de administración de negocio en https://admin.teams.microsoft.com. Sólo últimos 30 días de datos está disponible en el análisis de llamadas.
   
 ## <a name="whats-call-analytics-and-when-should-i-use-it"></a>¿Qué es el análisis de llamadas, y cuándo debo usarlo?
 
-Análisis de la llamada muestran información detallada acerca de los dispositivos, redes y conectividad relacionadas con las llamadas específicas y las reuniones para cada usuario en un Skype para la cuenta de empresa. Si usted es un Skype para administración empresarial, puede usar análisis llamar para solucionar problemas de Skype para problemas de conexión y la calidad de llamada empresariales.
-  
+Análisis de la llamada muestran información detallada acerca de los dispositivos, redes y conectividad relacionadas con las llamadas específicas y las reuniones para cada usuario en un Microsoft Teams o Skype para la cuenta de empresa. Si usted es un administrador de Office 365, puede usar llamar análisis para solucionar problemas de conexión y la calidad de llamada en Microsoft Teams y Skype para la empresa.
+
+> [!NOTE]
+> Permisos de agente de departamento de soporte técnico y la carga de la topología de red estará disponibles en el nuevo portal de administración en los próximos meses.
+
 Si desea que no son de administrador, como agentes de departamento de soporte técnico de un proveedor externo, para usar el análisis de llamadas, puede asignar permisos para que pueden utilizar llamadas análisis pero no pueden obtener acceso el resto de la Skype para el centro de administración empresarial: 
   
 - **Los agentes del departamento de soporte técnico con permisos de nivel 1**: agentes vea un conjunto limitado de datos y la información de identificación personal (PII) en análisis de llamadas. Pueden solucionar problemas de las llamadas, pero problemas con las reuniones se entregan a un agente de nivel 2.
@@ -46,7 +49,7 @@ Para obtener información detallada sobre la configuración de análisis de llam
   
 ## <a name="whats-the-call-quality-dashboard-and-when-should-i-use-it"></a>¿Qué es el panel de calidad de llamadas y cuándo debo usarlo?
 
-Análisis de llamada le ofrece información específica detallada acerca de la calidad de llamada tuvo por los usuarios. ¿Por qué tenía una llamada deficiente esta tarde usuario Tony Smith? Mediante el análisis de llamadas, un Skype para administración empresarial o agente del departamento de soporte técnico capacitados puede investigar el dispositivo, red, conectividad y otros factores relacionados con la llamada de Tomás.
+Análisis de llamada le ofrece información específica detallada acerca de la calidad de llamada tuvo por los usuarios. ¿Por qué tenía una llamada deficiente esta tarde usuario Tony Smith? Uso de análisis de llamadas, puede investigar un Microsoft Teams o Skype para administración empresarial o agente del departamento de soporte técnico capacitados del dispositivo, red, conectividad y otros factores relacionados con la llamada de Tomás.
   
 Donde entidad de certificación está diseñada para ayudar a los administradores y los agentes del departamento de soporte técnico solución los problemas de calidad de llamada con llamadas específicas, el panel de calidad de llamadas (CQD) está diseñado para ayudar a Skype para los administradores de negocio e ingenieros de red optimizan una red. CQD lleva el enfoque de usuarios específicos y en su lugar, busca información de agregado para un Skype todo para la organización empresarial. 
   
