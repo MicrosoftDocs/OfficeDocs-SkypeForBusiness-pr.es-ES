@@ -18,11 +18,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: En este artículo se ofrecen algunas indicaciones sobre cómo usar un servidor proxy con Skype Empresarial.
-ms.openlocfilehash: a4369208ab277e0eb5490a637421de605235a0cd
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: fcae4ec366845818d515a4d78c79ea77d038a4a5
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211026"
 ---
 # <a name="proxy-servers-for-skype-for-business-online"></a>Servidores proxy para Skype Empresarial Online
 
@@ -54,24 +55,6 @@ Microsoft también recomienda:
     
 Si se siguen estas instrucciones, la posibilidad de sufrir problemas debería ser mínima.
   
-## <a name="proxy-vendors-with-built-in-skype-for-business-support-or-configuration-options"></a>Proveedores de servidores proxy con opciones de configuración o soporte de Skype Empresarial integrados
-
-En esta sección encontrará información sobre proveedores de servidores proxy que proporcionan productos o servicios que han demostrado que funcionan correctamente con el tráfico de Skype Empresarial.
-  
-Para organizaciones que usen **soluciones del servidor proxy Bluecoat**, se ha publicado un nuevo firmware que aborda varios problemas relacionados con:
-    
-  - Interceptación SSL
-    
-  - Comprobaciones OCSP/SRL
-    
-  - SIP sobre TLS
-    
-  - Soporte para TURN
-    
-El soporte nativo de Bluecoat para Skype Empresarial se puede activar fácilmente, lo que permitirá identificar el tráfico relevante y gestionarlo correctamente. De este modo se garantiza una autenticación, señalización y un flujo de tráfico de medios óptimos para proporcionar una fantástica experiencia de usuario sin comprometer la seguridad.
-    
-Consulte el siguiente vínculo si Proxy Bluecoat es una parte de la topología de red:https://support.symantec.com/en_US/article.DOC9757.html
-
 ## <a name="related-topics"></a>See also
 
 [Optimizar la red para Skype Empresarial Online](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)

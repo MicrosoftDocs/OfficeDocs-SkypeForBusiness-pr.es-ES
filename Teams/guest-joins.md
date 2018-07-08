@@ -10,12 +10,12 @@ ms.reviewer: laal
 description: Vea un breve resumen sobre cómo se invita a un invitado a que se una a un equipo en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb8672168b3f9f249f5f2d538c6f152c9012e29f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: aa6efbf95d0f68b6871aa0693a6e6bf1062b9f84
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969375"
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211055"
 ---
 <a name="how-a-guest-joins-a-team"></a>Cómo se une un invitado a un equipo
 ========================
@@ -46,4 +46,4 @@ Durante el uso de los equipos, texto y los iconos de dar a todos los miembros de
 Los invitados pueden dejar el equipo en cualquier momento a través de los clientes de escritorio o web de Microsoft Teams. Para obtener más información, consulte [¿Cómo abandono un equipo?](https://support.office.com/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
 
 > [!NOTE]
-> Dejando el equipo no quitará la cuenta de invitado el inquilino de organización. Acerca de cómo quitar usted mismo de las organizaciones, vea [salen de una organización como usuario invitado](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization) . Como alternativa, el Administrador de la organización puede quitar los usuarios invitados desde el inquilino.
+> Dejando el equipo no quitará la cuenta de invitado el inquilino de organización. Vea [salen de una organización como un usuario invitado](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization) en cómo quitar usted mismo de la organización. Como alternativa, el Administrador de la organización puede quitar los usuarios invitados desde el inquilino.
