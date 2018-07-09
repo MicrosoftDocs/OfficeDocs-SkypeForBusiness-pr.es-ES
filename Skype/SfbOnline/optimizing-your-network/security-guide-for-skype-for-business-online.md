@@ -19,33 +19,33 @@ f1keywords: None
 ms.custom:
 - Security
 description: Guía de seguridad para Skype Empresarial Online <add description>
-ms.openlocfilehash: b3ba4368cd68239ad612e5c4dfd059a100173b30
-ms.sourcegitcommit: 0fa147c33b1d7b5790af8d93339700ab62939430
+ms.openlocfilehash: 4d379a827b5dde8780d017834fd0ef011f2055eb
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19744325"
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211130"
 ---
-#  <a name="security-and-skype-for-business-online"></a>Seguridad y Skype for Business Online
+#  <a name="security-and-skype-for-business-online"></a>Seguridad y Skype Empresarial Online
 
-Skype for Business Online (SfBO), como parte del servicio Office 365, sigue las mejores prácticas y procedimientos de seguridad, como la seguridad de nivel de servicio a través de la "defensa en profundidad", los controles de cliente en el servicio, el reforzamiento de la seguridad y las mejores prácticas operativas. Para obtener toda la información, consulte el [Centro de confianza de Office 365](https://products.office.com/en-us/business/office-365-trust-center-security).
+Skype Empresarial Online (SfBO, Skype for Business Online), como parte del servicio Office 365, sigue las mejores prácticas y procedimientos de seguridad, como la seguridad de nivel de servicio a través de la "defensa en profundidad", los controles de cliente en el servicio, el reforzamiento de la seguridad y las mejores prácticas operativas.  Si quiere información detallada, consulte el Centro de confianza de Office 365 (https://products.office.com/en-us/business/office-365-trust-center-security).
 
 ## <a name="trustworthy-by-design"></a>Fiabilidad basada en el diseño
 Skype Empresarial Online está diseñado y desarrollado conforme al ciclo de vida de desarrollo de seguridad (SDL, Security Development Lifecycle) de Trustworthy Computing de Microsoft, que se describe en https://www.microsoft.com/en-us/sdl/default.aspx. El primer paso para crear un sistema de comunicaciones unificadas más seguro fue diseñar modelos de amenazas y probar cada característica tal como se diseñó. Se incorporaron muchas mejoras relacionadas con la seguridad, tanto al proceso como a las prácticas de codificación. Las herramientas de tiempo de compilación detectan excesos de almacenaje y otras amenazas de seguridad antes de que el código se incorpore al producto final. Obviamente, es imposible realizar diseños contra amenazas de seguridad desconocidas. Ningún sistema puede garantizar la seguridad total. Sin embargo, como el desarrollo del producto se basó en principios de diseño seguro desde el inicio, Skype Empresarial Online cuenta con tecnologías de seguridad estándar del sector como parte fundamental de su infraestructura. 
 
-## <a name="trustworthy-by-default"></a>De confianza de forma predeterminada
-En Skype Empresarial Online, las redes de comunicación están encriptadas de forma predeterminada. Al requerir que todos los servidores utilicen certificados, y al usar OAUTH, TLS, el Protocolo de transporte en tiempo real (SRTP) y otras técnicas de cifrado estándar del sector, como el estándar de cifrado avanzado (AES) de 256 bits, todos los datos de Skype for Business Online están protegidos en la red.
+## <a name="trustworthy-by-default"></a>Fiable de forma predeterminada
+En Skype Empresarial Online, las redes de comunicación están encriptadas de forma predeterminada. Al requerir que todos los servidores utilicen certificados y al usar OAUTH, TLS, el Protocolo de transporte en tiempo real (SRTP) y otras técnicas de cifrado estándar del sector, como el estándar de cifrado avanzado (AES) de 256 bits, todos los datos de Skype Empresarial Online están protegidos en la red.
 
 ## <a name="how-sfbo-handles-common-security-threats"></a>¿Cómo gestiona SfBO las amenazas comunes de seguridad?
 Esta sección identifica las amenazas de seguridad más comunes del servicio SfBO y la forma en que Microsoft minimiza cada amenaza.
 
 ### <a name="compromised-key-attack"></a>Ataque de clave comprometida
-Una clave es un código o número secreto que se utiliza para cifrar, descifrar o comprobar información secreta. Existen dos claves importantes en uso en la infraestructura de clave pública (PKI, Public Key Infrastructure) que deben ser consideradas: la clave privada que tiene cada titular de certificado y la clave de sesión, que se utiliza después de una identificación exitosa y de un intercambio de claves de sesión entre las partes que se estén comunicando.  Un ataque de clave comprometida se produce cuando el atacante consigue la clave privada o de sesión. Cuando el atacante consigue la clave, puede usarla para descifrar datos cifrados sin que el remitente lo sepa.
+Una clave es un código o número secreto que se usa para cifrar, descifrar o validar información secreta. Existen dos claves importantes en uso en la infraestructura de clave pública (PKI, Public Key Infrastructure) que deben ser consideradas: la clave privada que tiene cada titular de certificado y la clave de sesión, que se utiliza después de una identificación exitosa y de un intercambio de claves de sesión entre las partes que se estén comunicando.  Un ataque de clave comprometida se produce cuando el atacante consigue la clave privada o de sesión. Cuando el atacante consigue la clave, puede usarla para descifrar datos cifrados sin que el remitente lo sepa.
 
-Skype for Business Online utiliza las funciones de PKI del sistema operativo Windows Server para proteger los datos de la clave que se utilizan para el cifrado de las conexiones Seguridad de la capa de transporte (TLS). Las claves que se utilizan para cifrar elementos multimedia se intercambian mediante conexiones TLS. 
+Skype Empresarial Online utiliza las funciones de PKI del sistema operativo Windows Server para proteger los datos de la clave que se utilizan para el cifrado de las conexiones Seguridad de la capa de transporte (TLS). Las claves que se utilizan para cifrar elementos multimedia se intercambian mediante conexiones TLS. 
 
-### <a name="network-denial-of-service-attack"></a>Ataque por denegación de servicio de la red
-El ataque por denegación de servicio se produce cuando el atacante impide que los usuarios válidos utilicen la red con normalidad. Mediante un ataque por denegación de servicio, el atacante puede:
+### <a name="network-denial-of-service-attack"></a>Ataque por denegación de servicio de red
+El ataque por denegación de servicio se produce cuando el atacante impide que los usuarios válidos usen la red de forma normal. Mediante un ataque por denegación de servicio, el atacante puede hacer lo siguiente:
 - Enviar datos no válidos a las aplicaciones y los servicios que se ejecutan en la red que sufre el ataque para interrumpir su funcionamiento normal.
 - Enviar una gran cantidad de tráfico, lo que sobrecarga el sistema hasta que deja de responder o responde lentamente a las solicitudes legítimas.
 - Ocultar las pruebas de los ataques.
@@ -56,16 +56,16 @@ SfBO ofrece protección frente a estos ataques mediante la ejecución de la prot
 ### <a name="eavesdropping"></a>Interceptación
 La interceptación se produce cuando un atacante obtiene acceso a la ruta de datos en una red y puede supervisar y leer el tráfico. Este tipo de ataque también se denomina rastreo o espionaje. Si el tráfico se produce como texto sin formato, el atacante puede leerlo cuando obtiene acceso a la ruta. Un ejemplo es un ataque que se realiza al controlar un enrutador de la ruta de acceso a los datos. 
 
-SfBO utiliza TLS mutua (MTLS) para las comunicaciones del servidor en O365 y TLS de los clientes al servicio. Esto lo convierte en un ataque muy difícil o imposible de llevar a cabo en el período de tiempo en el que puede atacarse una conversación determinada. TLS autentica a todos los participantes y cifra todo el tráfico. Esto no impide la interceptación, pero el atacante no puede leer el tráfico a menos se interrumpa el cifrado.
+SfBO utiliza TLS mutua (MTLS) para las comunicaciones del servidor en O365 y TLS de los clientes al servicio. Esto lo convierte en un ataque muy difícil o imposible de llevar a cabo en el período de tiempo en el que puede atacarse una conversación determinada. TLS autentica a todos los participantes y cifra todo el tráfico. Esto no impide la interceptación pero, si no se interrumpe el cifrado del tráfico, el atacante no puede leerlo.
 
-El protocolo TURN se usa para lograr objetivos relacionados con elementos multimedia en tiempo real.  El protocolo TURN no requiere que se cifre el tráfico. Además, la información que envía está protegida por la integridad del mensaje. Si bien este protocolo puede ser interceptado, la información que envía (es decir, direcciones IP y puerto) se puede extraer directamente examinando las direcciones de origen y de destino de los paquetes. El servicio SfBO garantiza que los datos son válidos verificando la integridad del mensaje con la clave derivada de algunos elementos, incluida una contraseña TURN que nunca se envía en texto sin cifrar. SRTP (Secure Real-Time Transport Protocol) se utiliza para el tráfico de elementos multimedia y también está encriptado.
+El protocolo TURN se usa para lograr objetivos relacionados con elementos multimedia en tiempo real.  El protocolo TURN no requiere que se cifre el tráfico. Además, la información que envía está protegida por la integridad del mensaje. Si bien este protocolo puede ser interceptado, la información que envía (es decir, direcciones IP y puerto) se puede extraer directamente examinando las direcciones de origen y de destino de los paquetes. El servicio SfBO garantiza que los datos son válidos verificando la integridad del mensaje mediante la clave derivada de algunos elementos, incluida una contraseña TURN que nunca se envía en texto sin cifrar. SRTP (Secure Real-Time Transport Protocol) se utiliza para el tráfico de elementos multimedia y también está encriptado.
 
 ### <a name="identity-spoofing-ip-address-spoofing"></a>Suplantación de identidad (suplantación de dirección IP)
-La suplantación de identidad (spoofing) se produce cuando el atacante identifica y usa una dirección IP de una red, un equipo o un componente de red sin tener autorización para ello. En este tipo de ataque, el atacante actúa como si fuese la entidad que hubiera identificado la dirección IP en un caso normal. En el marco de Microsoft Lync Server 2010, esta situación solo se produce si el administrador ha hecho estas dos cosas:
-- Ha configurado conexiones compatibles únicamente con el Protocolo de control de transmisión (TCP) (lo cual no se recomienda porque las comunicaciones TCP no están cifradas).
+La suplantación de identidad (spoofing) se produce cuando el atacante identifica y usa una dirección IP de una red, un equipo o un componente de red sin tener autorización para ello. En este tipo de ataque, el atacante actúa como si fuese la entidad que suele identificarse mediante la dirección IP. En Microsoft Lync Server 2010, esta situación solo se produce si el administrador ha realizado las dos siguientes acciones:
+- Ha configurado conexiones compatibles únicamente con el Protocolo de control de transmisión (TCP), lo cual no se recomienda porque las comunicaciones TCP no están cifradas.
 - Ha marcado las direcciones IP de esas conexiones como hosts de confianza. 
 
-Este es un problema menor para las conexiones TLS (Seguridad de la capa de transporte), puesto que TLS autentica todas las partes y cifra todo el tráfico. El uso de TLS evita que un atacante suplante las direcciones IP en una conexión concreta (por ejemplo, conexiones Mutual TLS). Sin embargo, un atacante aún podría suplantar la dirección del servidor DNS que SfBO utiliza. No obstante, puesto que en SfBO la autenticación se realiza con certificados, el atacante no tendrá un certificado válido necesario para suplantar a uno de los participantes en la comunicación.
+Este es un problema menor para las conexiones TLS (Seguridad de la capa de transporte), puesto que TLS autentica todas las partes y cifra todo el tráfico. El uso de TLS evita que un atacante suplante las direcciones IP en una conexión concreta (por ejemplo, conexiones Mutual TLS). Sin embargo, un atacante aún podría suplantar la dirección del servidor DNS que utiliza SfBO. No obstante, puesto que en SfBO la autenticación se realiza con certificados, el atacante no tendrá un certificado válido necesario para suplantar a uno de los participantes en la comunicación.
 
 ### <a name="man-in-the-middle-attack"></a>Ataque de tipo "Man in the middle"
 Un ataque de tipo "Man in the middle" se produce cuando un atacante desvía la comunicación entre dos usuarios a través del equipo del atacante sin que lo sepan esos dos usuarios. El atacante puede supervisar y leer el tráfico antes de enviarlo al destinatario previsto. Sin darse cuenta, todos los usuarios que participan en la comunicación envían tráfico al atacante y reciben tráfico del mismo pensando que la comunicación se produce únicamente con el usuario previsto. Esto puede suceder si un atacante modifica los Servicios de dominio de Active Directory para agregar su servidor como un servidor de confianza o modifica el Sistema de nombres de dominio (DNS) para que los clientes se conecten al servidor a través del atacante. 
@@ -73,16 +73,16 @@ Un ataque de tipo "Man in the middle" se produce cuando un atacante desvía la c
 También se puede producir un ataque "Man in the middle" con tráfico de elementos multimedia entre dos clientes, excepto que en SfBO las transmisiones de uso compartido y punto a punto de audio, video y aplicaciones se encriptan con SRTP, usando claves criptográficas que se negocian entre pares empleando el protocolo de inicio de sesión (SIP, Session Initiation Protocol) sobre TLS. 
 
 ### <a name="rtp-replay-attack"></a>Ataque de reproducción RTP
-Un ataque de reproducción se produce cuando una transmisión de elementos multimedia válida entre dos partes se intercepta y retransmite con fines malintencionados. SfBO utiliza SRTP junto con un protocolo de señalización segura que protege las transmisiones contra ataques de reproducción al permitir que el receptor mantenga un registro de los paquetes RTP ya recibidos y pueda comparar cada paquete nuevo con los que ya figuran en el índice.
+Un ataque de reproducción tiene lugar cuando una transmisión de medios válida entre dos partes se intercepta y retransmite con fines malintencionados. SfBO utiliza SRTP junto con un protocolo de señalización segura que protege las transmisiones contra ataques de reproducción al permitir que el receptor mantenga un registro de los paquetes RTP ya recibidos y pueda comparar cada paquete nuevo con los que ya figuran en el índice.
 
-### <a name="spim"></a>Mensajes instantáneos no deseados ("spim")
+### <a name="spim"></a>Mensajes instantáneos no deseados
 El término inglés "spim" hace referencia a los mensajes instantáneos comerciales no deseados o a las solicitudes de suscripción de presencia no deseadas. Si bien estos mensajes por sí mismos no son un peligro para la seguridad de la red, son como mínimo molestos, pueden reducir la disponibilidad y la productividad de los recursos, y podrían llegar a poner en peligro la red. Un ejemplo de ello es el caso de usuarios que se envían solicitudes no deseadas entre sí. Los usuarios pueden bloquearse entre sí para evitarlo, pero con la federación, si se establece un ataque coordinado de este tipo, puede ser difícil de solucionar a menos que se deshabilite la federación para el asociado.
 
 ### <a name="viruses-and-worms"></a>Virus y gusanos
-Un virus es una unidad de código que tiene por objeto reproducir más unidades de código similares. Los virus necesitan un host, como un archivo, un correo electrónico o un programa, para poder funcionar. Al igual que un virus, un gusano es una unidad de código que está codificada para reproducir unidades de código adicionales similares, pero que, a diferencia de un virus, no necesita un host. Los virus y los gusanos suelen aparecer principalmente durante las transferencias de archivos entre clientes o cuando otros usuarios envían direcciones URL. Si hay un virus en su equipo, podrá, por ejemplo, utilizar su identidad y enviar mensajes instantáneos en su nombre.  Las medidas estándar de seguridad de cliente como los análisis periódicos en busca de virus pueden mitigar este problema.  
+Un virus es una unidad de código que tiene por objeto reproducir más unidades de código similares. Los virus necesitan un host, como un archivo, un correo electrónico o un programa, para poder funcionar. Al igual que un virus, un gusano es una unidad de código que está codificada para reproducir unidades de código adicionales similares, pero que, a diferencia de un virus, no necesita un host. Los virus y los gusanos suelen aparecer principalmente durante las transferencias de archivo entre clientes o cuando otros usuarios envían direcciones URL. Si su equipo tiene un virus, podrá, por ejemplo, usar su identidad y enviar mensajes instantáneos en su nombre.  Las medidas estándar de seguridad de cliente como los análisis periódicos en busca de virus pueden mitigar este problema.  
 
 ## <a name="personally-identifiable-information"></a>Información de identificación personal
-SfBO puede llegar a divulgar información a través de una red pública que podría vincularse a una persona. Dicha información se puede desglosar en dos categorías:
+SfBO puede llegar a divulgar información que podría vincularse a una persona a través de una red pública. Dicha información se puede desglosar en dos categorías:
 - **Datos de presencia mejorada**&nbsp;&nbsp;&nbsp;Los datos de presencia mejorada es información que el usuario tiene la opción de compartir mediante un vínculo a un socio federado o con contactos en una organización. Estos datos no se comparten con los usuarios de una red de mensajería instantánea pública. Las directivas de cliente y otras opciones de configuración del cliente pueden otorgar algún tipo de control al administrador del sistema. En el servicio SfBO, es posible configurar el modo de privacidad de presencia mejorada para un usuario individual para impedir que los usuarios de SfBO que no están en la lista de contactos del usuario vean la información de presencia del usuario. 
 - **Datos obligatorios**&nbsp;&nbsp;&nbsp;Los datos obligatorios son datos que se requieren para el correcto funcionamiento del servidor o del cliente. Se trata de información que es necesaria en un servidor o una red para el enrutamiento, el mantenimiento de estados y la señalización.
 Las siguientes tablas enumeran los datos que se requieren para que SfBO funcione.
@@ -117,11 +117,11 @@ Las siguientes tablas enumeran los datos que se requieren para que SfBO funcione
 <!-- end of table -->
 
 ## <a name="security-framework-for-sfbo"></a>Marco de seguridad para SfBO
-Este capítulo proporciona información general sobre los elementos básicos que forman el marco de seguridad de Microsoft SfBO. Estos elementos son los siguientes:
+Esta sección ofrece información general acerca de los elementos fundamentales que conforman el marco de seguridad de Microsoft SfBO. Dichos elementos son los siguientes:
 - Azure Active Directory (AAD) proporciona un único depósito de back-end de confianza para cuentas de usuario. 
 - La infraestructura de clave pública (PKI) utiliza certificados emitidos por entidades de certificación de confianza (CA) para autenticar los servidores y garantizar la integridad de los datos.
-- La Seguridad de la capa de transporte (TLS), HTTPS sobre SSL (HTTPS) y Mutual TLS (MTLS) permiten la autenticación de los extremos y el cifrado de la mensajería instantánea. Las transmisiones de uso compartido y punto a punto de audio, vídeo y aplicaciones se cifran y se comprueba su integridad con el Protocolo de transporte seguro en tiempo real (SRTP,).
-- Para la autenticación del usuario se utilizan los protocolos estándar del sector, siempre que sea posible.
+- La Seguridad de la capa de transporte (TLS), HTTPS sobre SSL (HTTPS) y Mutual TLS (MTLS) permiten la autenticación de los extremos y el cifrado de la mensajería instantánea. Las transmisiones de uso compartido y punto a punto de audio, vídeo y aplicaciones se cifran y se comprueba su integridad con el Protocolo de transporte seguro en tiempo real (SRTP).
+- Para la autenticación del usuario se usan los protocolos estándar de la industria, siempre que sea posible.
 
 En los temas de esta sección se describe cómo funciona cada uno de estos elementos básicos para mejorar la seguridad del servicio SfBO.
 
@@ -130,7 +130,7 @@ Azure Active Directory funciona como el servicio de directorio para O365. Almace
 
 ### <a name="public-key-infrastructure-for-sfbo"></a>Infraestructura de clave pública para SfBO
 El servicio SfBO utiliza certificados para autenticar los servidores y establecer una cadena de confianza entre clientes y servidores y entre las distintas funciones del servidor. La infraestructura de claves públicas (PKI, Public Key Infrastructure) de Windows Server proporciona la infraestructura para establecer y validar esta cadena de confianza.
-Los certificados son Id. digitales. Identifican un servidor por nombre y especifican sus propiedades. Para garantizar la validez de la información incluida en un certificado, este debe proceder de una entidad de certificación que sea de confianza para los clientes u otros servidores que se conectan al servidor. Si el servidor se conecta únicamente a otros clientes y servidores de una red privada, la CA puede ser una CA de empresa. Si el servidor interactúa con entidades ubicadas fuera de la red privada, es posible que se requiera una CA pública.
+Los certificados son identificadores digitales. Identifican un servidor por nombre y especifican sus propiedades. Para garantizar la validez de la información incluida en un certificado, este debe proceder de una entidad de certificación que sea de confianza para los clientes u otros servidores que se conectan al servidor. Si el servidor se conecta únicamente a otros clientes y servidores de una red privada, la entidad de certificación puede ser una entidad de certificación de empresa. Si el servidor interactúa con entidades ubicadas fuera de la red privada, es posible que se requiera una CA pública.
 
 Incluso si la información incluida en el certificado es válida, es preciso comprobar de alguna manera que el servidor que presenta el certificado es realmente el servidor representado por el certificado. Ahí es donde entra en juego la PKI de Windows.
 Cada certificado está asociado a una clave pública. El servidor indicado en el certificado tiene una clave privada correspondiente que solo él conoce. El cliente o servidor que se conecta usa la clave pública para cifrar un fragmento de información aleatorio y enviarlo al servidor. Si el servidor descifra la información y la devuelve como texto sin formato, la entidad que se conecta puede estar segura de que el servidor tiene la clave privada asociada al certificado y, por consiguiente, es el servidor indicado en el certificado.
@@ -286,5 +286,6 @@ Los organizadores de la reunión controlan si los participantes pueden realizar 
 - **Todas las personas, incluidas las de fuera de mi empresa**&nbsp;&nbsp; Todas las personas (sin restricciones) que se unan a la reunión pueden presentar.
 - **La gente que yo invite**&nbsp;&nbsp;El organizador de la reunión especifica qué usuarios pueden presentar agregándolos a una lista de presentadores.
 
-## <a name="learn-more"></a>Más información
+## <a name="related-topics"></a>See also
 [Centro de confianza de Office 365](https://products.office.com/en-us/business/office-365-trust-center-security)
+
