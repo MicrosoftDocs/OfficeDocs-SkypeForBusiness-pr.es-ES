@@ -3,7 +3,7 @@ title: Implementación de equipos de Microsoft para el concentrador de superfici
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/02/2018
+ms.date: 07/10/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 948f9f9ed32f4e5846248dfbcd2b96577a0f34ee
-ms.sourcegitcommit: 2b15226723c299fe94f1a012aa21222173fe3af8
+ms.openlocfilehash: cfd9e5fd267de180907c2ea41c53541c08ff28b7
+ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "20192183"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "20266941"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Implementación de equipos de Microsoft para el concentrador de superficie
 ======================================
@@ -141,46 +141,33 @@ Una vez haya completado los pasos anteriores para habilitar los equipos de la cu
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Instalación de los equipos para exponer concentrador desde el almacén de Microsoft 
 
-Estas instrucciones incluyen las soluciones alternativas actuales para la instalación de los equipos de concentrador de superficie de Microsoft Store. 
+Estas instrucciones son para la instalación de los equipos de concentrador de superficie de Microsoft Store. 
  
-1. Inicie el almacén de Windows:<br>
+1. Iniciar el almacén de Microsoft:<br>
    a. Puntee en **Iniciar** > **todas las aplicaciones** > **configuración**.<br> b. Puntee en **dispositivo de concentrador de superficie de cuenta, administración**.<br>
    c. En la izquierda, puntee en la ficha **aplicaciones y características** .<br> d. En la derecha, puntee en el botón **Abrir almacén** . 
-2. De Microsoft Store, busque *Los equipos de Microsoft*. Se mostrarán los **Equipos de Microsoft para el concentrador de superficie (vista previa)** . Puntee en el botón **obtener la aplicación** para instalar.  
+2. De Microsoft Store, busque *Los equipos de Microsoft*. Se mostrarán los **Equipos de Microsoft para el concentrador de superficie** . Puntee en el botón **obtener la aplicación** para instalar.  
 3. Una vez finalizada la instalación, reinicie el concentrador de superficie. 
-4. Una vez reiniciado el concentrador de superficie, debe ser capaz de iniciar la aplicación de los equipos desde el menú **Inicio** y unirse a una reunión desde el calendario. 
 
-## <a name="make-teams-the-default-vtc-application"></a>Hacer que los equipos de la aplicación de VTC predeterminada
+> [!NOTE]
+> Puntee en no en el **Inicio** de la lista de página de la tienda.
 
-Los equipos pueden ser configurados para que sea la aplicación predeterminada de VTC en lugar de Skype para la empresa. Una directiva de Mobile Device Management (MDM) debe aplicarse en el dispositivo del concentrador de superficie. 
+## <a name="make-teams-the-default-calling-and-meetings-application"></a>Hacer que los equipos de la aplicación de las reuniones y llamadas de forma predeterminada
  
-Hay dos opciones para configurar las directivas de MDM: 
+Hay dos opciones para configurar la directiva de aplicación de llamadas y las reuniones de forma predeterminada: 
 
-- Si tiene una directiva configurada, agregarlo a través de la aplicación de administración de dispositivos. 
-- Si no tiene configurada una directiva de remota, tenemos un archivo de paquete suministrados que se puede cargar en una clave USB.
-
-### <a name="device-management-configuration"></a>Configuración de administración de dispositivos
-
-El siguiente es un ejemplo de adición de una directiva MDM configurada desde una entidad de certificación MDM central. Si se trata de la red corporativa, puede usar las siguientes instrucciones textual, incluida la cuenta de usuario. 
+- **Opción 1**: configurar a través de la clave USB. 
+- **Opción 2**: configurar a través de MDM como InTune.
  
-1. En la sección **Administración de dispositivos** , puntee en **+**.<br>
-   Se abrirá el cuadro de diálogo **Conectar a trabajar o escuela** . 
-2. Escriba la dirección de correo electrónico de la directiva y la contraseña cuando se le solicite.<br>
-   **Nota:**  Hay un error en el sistema operativo que no actualice automáticamente la interfaz de usuario después de haber especificado su cuenta de administración de dispositivos. Debe cerrar y volver a abrir Configuración para poder ver la cuenta que aparece. 
-3. Tardará unos minutos sincronizar la configuración de directiva MDM. Si desea forzar una sincronización, puntee en el botón **cuenta MDM** y, a continuación, puntee en el botón **Info** . Este modo se abrirá la ventana de información donde, a continuación, puntee en **sincronización**. 
-4. Para comprobar que tiene lo que necesita, puede comprobar el registro. Debería ver dos claves en **HKLM\Software\Microsoft\Windows\CurrentVersion\PPI\VtcCallSettings**. <br><br>
-   El valor DWORD **VtcAppMeetingHandlingMode** indica que los equipos es la aplicación predeterminada. Se reconocen los siguientes valores. <br><br>
-    |Número | Valor   |
-    |-------|---------|
-    |0      | SkypePreferred            |
-    |1      | VtcPreferred (equipos)      |
-    |2      | VtcExclusive (sólo en los equipos) |
+### <a name="option-1-configure-via-usb-key"></a>Opción 1: Configurar a través de la clave USB 
+ 
+Los paquetes se pueden encontrar en esta [página de descarga](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g). Elija la adecuada para el paquete que va a instalar y cópielo a una clave USB. El archivo .ppkg correcto para usar depende de la directiva de aplicación predeterminado que desea aplicar la siguiente manera: 
 
-    El **VtcCallAppPackageId** es el nombre del paquete de los equipos instalado. Si esto no se muestra, asegúrese de que ha instalado el paquete de los equipos y volver a sincronizar. 
- 
-### <a name="configure-mdm-via-usb-key"></a>Configurar MDM a través de la clave USB 
- 
-Los paquetes se pueden encontrar en esta [página de descarga](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g). Elija la adecuada para el paquete que va a instalar y cópielo a una clave USB. El archivo .ppkg correcto para usar depende del paquete de los equipos que se ha instalado desde el almacén y la directiva que desea aplicar (Skype exclusivo, Skype preferido, los equipos preferidos, exclusiva de los equipos). 
+|Número  |Descripción  |
+|---------|---------|
+|0     | Aplicación preferida de Skype en la pantalla de inicio, las reuniones de los equipos disponibles        |
+|1     | Aplicación preferida de los equipos en la pantalla de inicio, las reuniones de Skype disponibles        |
+|2     | Aplicación exclusiva de los equipos en la pantalla de inicio (aplicación de Skype no está disponible)        |
  
 1. Adjunta la clave USB en el dispositivo del concentrador de superficie. 
 2. Abra la aplicación de **configuración** en un dispositivo concentrador de superficie. 
@@ -189,8 +176,27 @@ Los paquetes se pueden encontrar en esta [página de descarga](https://1drv.ms/f
 5. Haga clic en **Agregar o quitar un paquete de aprovisionamiento**. 
 6. Haga clic en **Agregar paquete**.
 7. Seleccione la opción de **Medios extraíble** en el menú desplegable. 
-8. Agregue el **Allowbuildspreview.ppkg**y, a continuación, seleccione el paquete de concentrador de superficie que desee agregar. 
+8. Agregar el paquete apropiado de **TeamsRTMMode*.ppkg** que anteriormente se ha copiado a la clave USB. 
 9. Reinicie el dispositivo concentrador de superficie. 
+10. Una vez reiniciado el dispositivo, debe ser capaz de iniciar la aplicación de los equipos desde la pantalla de inicio y unirse a una reunión desde el calendario. 
+
+### <a name="option-2-configure-via-mdm-such-as-intune"></a>Opción 2: Configurar a través de MDM como InTune 
+
+Use lo siguiente para configurar la directiva de aplicación predeterminada llamadas y reuniones a través de InTune.
+
+|Configuración   |Valor    |Descripción    |
+|----------|---------|---------|
+| Ruta de acceso      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
+|Tipo de datos | entero (0-2)   |0 - aplicación preferida de Skype en la pantalla de inicio, las reuniones de los equipos disponibles<br>1 - equipos aplicación preferida en la pantalla de inicio, las reuniones de Skype disponibles<br>2 - equipos aplicación exclusivo en la pantalla de inicio (aplicación de Skype no está disponible) |
+|Operaciones| Obtener, establecer        |
+
+|Configuración   |Valor    |
+|----------|---------|
+| Ruta de acceso      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
+|Tipo de datos | cadena (conjunto de cadena a los equipos el identificador del paquete de aplicación como - **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe! Los equipos**) |
+|Operaciones| Obtener, establecer        |
+
+Reinicie el dispositivo concentrador de superficie. Una vez reiniciado el dispositivo, debe ser capaz de iniciar la aplicación de los equipos desde la pantalla de inicio y unirse a una reunión desde el calendario.
 
 > [!NOTE]
 > Si no se admite su dispositivo o dispositivos de su organización parte del programa de información confidencial de Windows y se encuentra en países cubiertos por el Reglamento General de protección de datos (GDPR) (o ha cambiado manualmente la configuración de telemetría en básico), a continuación, debe volver a comprobar que se ha permitido telemetría completo antes de unirse a la información confidencial de programa. GDPR cambiar el comportamiento predeterminado de los dispositivos de concentradores de la superficie de la UE para establecer telemetría en básico.

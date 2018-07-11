@@ -10,12 +10,12 @@ ms.reviewer: marcl, ninadara
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65417bc9d64ac895811736f11dfdb565c42704f2
-ms.sourcegitcommit: f7554cd4fab65ce948aba269f8aabde2fe5fa082
+ms.openlocfilehash: ee04fc9452342b78dc94a3c5c4e977f944d9164b
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "20136937"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246549"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
   
@@ -100,10 +100,6 @@ En este artículo se enumera los problemas conocidos de Microsoft Teams, por ár
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |Los usuarios locales de Skype Empresarial no reciben mis mensajes.  <br/> |Los mensajes no se completarán cuando los usuarios de Microsoft Teams intenten enviar un mensaje a otra persona que esté usando Skype Empresarial local.  <br/> | Se admite la interoperabilidad entre Microsoft Teams y los usuarios que están alojados en Skype Empresarial Online. Los usuarios de Microsoft Teams pueden enviar chats entre dos personas a usuarios que no pertenezcan a Microsoft Teams con Skype Empresarial Online. <br/> No se admite la interoperabilidad entre Microsoft Teams y los usuarios que están alojados en Skype Empresarial local. Los usuarios de Microsoft Teams no pueden enviar chats entre dos personas a usuarios que no pertenezcan a Microsoft Teams con Skype Empresarial local.  <br/> |02/11/2016  <br/> |
-
-|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
-|:-----|:-----|:-----|:-----|
-|Los usuarios locales de Skype Empresarial no reciben mis mensajes.  <br/> |Los mensajes no se completarán cuando los usuarios de Microsoft Teams intenten enviar un mensaje a otra persona que esté usando Skype Empresarial local. <br/> | Se admite la interoperabilidad entre Microsoft Teams y los usuarios que están alojados en Skype Empresarial Online. Los usuarios de Microsoft Teams pueden enviar chats entre dos personas a usuarios que no pertenezcan a Microsoft Teams con Skype Empresarial Online. <br/> No se admite la interoperabilidad entre Microsoft Teams y los usuarios que están alojados en Skype Empresarial local. Los usuarios de Microsoft Teams no pueden enviar chats entre dos personas a usuarios que no pertenezcan a Microsoft Teams con Skype Empresarial local. <br/> |02/11/2016  <br/> |
 
 ## <a name="client"></a>Cliente
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|

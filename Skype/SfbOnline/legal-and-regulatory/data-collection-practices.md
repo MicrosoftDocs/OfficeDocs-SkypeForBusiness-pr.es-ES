@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft recopila datos de error, el uso y el recuento para comprender cómo se utiliza Skype para la empresa y donde los usuarios tienen problemas. Los datos se usan para planear mejoras en los productos.
-ms.openlocfilehash: 9f0e0886df721397fe82a60672ef3947c14a3860
-ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
+ms.openlocfilehash: 2175d3fea0ab5cc2ca7cb573d48e3c700ac2bd03
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2018
-ms.locfileid: "19856040"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246482"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype para profesionales y Microsoft Teams prácticas de recopilación de datos
 
@@ -77,15 +77,10 @@ Recolección de datos está activado de forma predeterminada, pero local Adminis
   
 Los usuarios finales no se puede activar o desactivar la recolección de datos.
   
-Para la aplicación de las reuniones de Skype y las páginas de web del iniciador de participación, la forma de controlar la telemetría es a través de esta directiva: <<<<<<< HEAD
-  
-<a name="set-cswebserviceconfiguration--meetinguxenabletelemetry-true"></a>Set-CsWebServiceConfiguration - MeetingUxEnableTelemetry $True
-=======
+Para la aplicación de las reuniones de Skype y las páginas de web del iniciador de participación, la forma de controlar la telemetría es a través de esta directiva:
  
 `Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True` 
 
->>>>>>> maestro
-  
 Esta directiva el valor predeterminado es false, por lo que la colección de telemetría está desactivado de forma predeterminada. Esta configuración es por grupo y controla todos los usuarios que se conectan con la aplicación de las reuniones de Skype a una reunión hospedada en ese servidor.
   
 ## <a name="error-reporting-data"></a>Datos de informes de error
@@ -105,16 +100,9 @@ Informes de errores requieren dos cosas:
   
 - La configuración de directiva de grupo de DisableAutomaticSendTracing se establece en False en el servidor o en el centro de administración de inquilinos (es decir, el estado predeterminado). Para obtener más información, vea [Configurar directivas de arranque cliente en Skype para Business Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx) .
     
-<<<<<<< HEAD
-- Los usuarios finales individualmente participar en de la ficha General (haga clic en el icono del engranaje y el cuadro de diálogo de la opción, se abre con la ficha General que se muestra) en el Skype para clientes empresariales.
-    
-     ![Icono de engranaje](../images/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)
-=======
 - Los usuarios finales individualmente participar en de la ficha General (haga clic en el icono del engranaje ![icono de engranaje](../images/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) y, a continuación, se abre el cuadro de diálogo **Opciones** con la ficha **General** que se muestra) en el Skype para clientes empresariales.
     
  
->>>>>>> maestro
-  
 ![Skype para checkbox de colección de datos profesionales en las opciones > cuadro de diálogo General](../images/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
   
 Para la aplicación de las reuniones de Skype, la MeetingUxEnableTelemetry controla también informes de errores, aunque para se bloquea en Windows, la configuración de Watson control cargar información de bloqueo. No hay ninguna configuración de usuario para la aplicación de las reuniones de Skype como se puede ver en el cuadro de diálogo de cliente de escritorio.

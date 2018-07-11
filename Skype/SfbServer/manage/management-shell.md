@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: El Skype para Shell de administración de Business Server proporciona la interfaz de línea de comandos para la administración y la administración de servidores. Se basa en Windows PowerShell e incluye un completo conjunto de cmdlets de gestión y administración que son específicos de Skype y los productos de servidor heredados de Lync.
-ms.openlocfilehash: e1c954c75f03be7e7603866c4bb58d5927f2c3f8
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 50e76784526a3430c6e91a3c6cfdd76962fda3cd
+ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569375"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "20266884"
 ---
 # <a name="skype-for-business-server-2015-management-shell"></a>Shell de administración de Skype Empresarial Server 2015
  
@@ -70,5 +70,8 @@ Cosas que debe saber acerca de Windows PowerShell en Skype para Business Server:
   ```
 
     Para obtener información más detallada, consulte la [Ayuda actualizable](https://technet.microsoft.com/library/hh847735.aspx).
+    
+    > [!NOTE]
+    > Si está usando PowerShell de forma remota debe permitir la comunicación a través de un firewall. Para obtener más información acerca de los usos de comunicación remota de PowerShell de puertos, vea [¿qué Does PowerShell comunicación remota de uso del puerto?](https://blogs.technet.microsoft.com/christwe/2012/06/20/what-port-does-powershell-remoting-use/).
     
 

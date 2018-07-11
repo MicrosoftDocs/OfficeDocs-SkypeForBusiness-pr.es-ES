@@ -18,12 +18,12 @@ ms.custom:
 - Reporting
 description: El nuevo Skype para el área de informes del centro de administración empresarial muestra realiza la llamada y audio conferencia actividad en la organización. Permite profundizar en los informes para proporciona una idea más granular acerca de las actividades de cada usuario. Por ejemplo, puede usar el informe Detalles de uso de RTC de Skype Empresarial para ver el número de minutos dedicados a llamadas entrantes y salientes, así como el coste de dichas llamadas. Puede ver detalles de uso de RTC de conferencia de Audio incluido el costo de la llamada para que pueda comprender su uso y llamar a los detalles de facturación para determinar el uso dentro de la organización.
 search.appverid: MET150
-ms.openlocfilehash: 59a1fbae9614fa6742f73b46c442d7912c71f88d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 3c2148b54c04950867feef1844a4ca1595f708e5
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973372"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246492"
 ---
 # <a name="pstn-usage-report"></a>Informe de uso de RTC
 
@@ -74,8 +74,9 @@ Este es el aspecto del informe.
      *    **conf_out** (una llamada saliente que va desde el puente de conferencia de Audio normalmente para agregar un número RTC a la conferencia)
 
      **Aplicaciones de comunicaciones unificadas (UCAP)** 
-     *    **ucap_in** (es decir, una llamada entrante a la aplicación de comunicaciones unificadas como una cola de llamada o de operador automático) 
-     *    **ucap_out** (una llamada saliente desde la aplicación de comunicaciones unificadas como cola de llamada o de operador automático)
+     *    **ucap_in** (una llamada de RTC entrante a la aplicación de comunicaciones unificadas como una cola de llamada o de operador automático) 
+     *    **ucap_out** (una llamada de RTC saliente desde la aplicación de comunicaciones unificadas como cola de llamada o de operador automático)
+     *    **Nota:** Las llamadas que se han transferido a un usuario de la aplicación de comunicaciones unificadas, como una cola de llamada o de operador automático no aparecerán en el informe de uso de RTC como estos tramos de llamada son las llamadas de audio de punto a punto (P2P). Puede obtener acceso a las llamadas de P2P en la Skype para el centro de administración de negocio en "Herramientas > Skype para Business llamar Analytics" y buscar por dirección SIP o el nombre de usuario que correlaciona la llamada por fecha y hora o que se originan CLID (identificador de la línea de llamada). 
 *     
      **Nacional o internacional** le indica si la llamada que se ha colocado se consideró nacionales (dentro de un país o región) o internacionales (fuera de un país o región) según la ubicación del usuario. 
 *    **Marcado de destino** es el nombre del destino del país o región que se marca como Francia, Alemania o de los Estados Unidos (US). 
