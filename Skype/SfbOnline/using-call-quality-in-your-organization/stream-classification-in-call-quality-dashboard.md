@@ -17,16 +17,16 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Descubra cómo se clasifica la calidad de la transmisión en el panel de calidad de llamadas para Microsoft Teams y Skype for Business Online.
-ms.openlocfilehash: 7eb0e7f7a3a2447f69f4e42826d74169e1dba549
-ms.sourcegitcommit: b859f9b3cb89f0b0ac4aacbba75f916e38981a26
+ms.openlocfilehash: 7806178b355d3f86cbc470f6d7401b3f76077b12
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20136917"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246627"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Clasificación de la transmisión en el panel de calidad de llamadas
 
-El panel de calidad de llamadas de Microsoft Teams y Skype for Business Online le permite obtener información sobre la calidad de las llamadas que se realizan con los servicios Microsoft Teams y Skype for Business. Este tema proporciona información detallada sobre la clasificación de calidad de las transmisiones multimedia. Para obtener más información sobre el panel de calidad de llamadas y cómo habilitarlo, consulte [Activar y usar el panel de calidad de llamadas](turning-on-and-using-call-quality-dashboard.md).
+El panel de calidad de llamadas de Microsoft Teams y Skype for Business Online le permiten obtener información sobre la calidad de las llamadas que se realizan con los servicios Microsoft Teams y Skype for Business. Este tema proporciona información detallada sobre la clasificación de calidad de las transmisiones multimedia. Para obtener más información sobre el panel de calidad de llamadas y cómo habilitarlo, consulte [Activar y usar el panel de calidad de llamadas](turning-on-and-using-call-quality-dashboard.md).
 
 ## <a name="classifier-definitions"></a>Definiciones del clasificador
 
@@ -38,11 +38,11 @@ Una transmisión de audio se marca como mala si se cumplen una o más de las con
 
 |**Métrica**|**Condición**|**Explicación**|
 |:-----|:-----|:-----|
-|Degradación media de audio|> 1.0|Degradación media de puntuación de opinión media ("mean opinion score") de la red para la transmisión. Representa cuánto ha afectado la pérdida de red y la vibración a la calidad del audio recibido.|
-|Tiempo de ida y vuelta|> 500|Tiempo medio de ida y vuelta en la propagación de red, calculado en milisegundos, tal como se especifica en RFC3550.|
-|Velocidad de pérdida de paquetes|> 0.1|Velocidad media de pérdida de paquetes en la transmisión.|
-|Fluctuación|> 30|Fluctuación media de la transmisión, en milisegundos.|
-|Media de muestras ocultas de ratio|> 0,07|Ratio medio entre el número de tramas de audio con muestras ocultas generadas por la recuperación de pérdidas de paquetes y el número total de tramas de audio.|
+|Degradación media del audio|>1,0|Degradación: "mean opinion score" de red en la transmisión. Indica el grado de impacto de la pérdida y la vibración de red sobre la calidad del audio recibido.|
+|Tiempo de ida y vuelta|>500|Tiempo medio de ida y vuelta de propagación en red calculado como se especifica en RFC3550 (en milisegundos).|
+|Velocidad de pérdida de paquetes|>0,1|Velocidad media de pérdida de paquetes en la transmisión.|
+|Vibración|>30|Vibración media en la transmisión (en milisegundos).|
+|Índice medio de muestras ocultas|> 0,07|Índice medio entre el número de tramas de audio con muestras ocultas generadas por la recuperación páquetes perdidos y el número total de tramas de audio.|
 
 ### <a name="video-classifier"></a>Clasificador de vídeo
 
@@ -50,10 +50,9 @@ Una transmisión de vídeo se marca como buena o mala según el valor de la prim
 
 |**Paso n. º**|**Métrica**|**Condición**|**Clasificación si la condición es verdadera**|**Clasificación si la condición es falsa**|**Clasificación si la métrica no está disponible**|**Explicación**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Porcentaje medio de pérdida de fotogramas locales de vídeo|> 50|Mala|Buena|Continúe con el paso 2
-|Porcentaje medio de fotogramas de vídeo perdidos según se muestran al usuario. Se incluyen los fotogramas recuperados de las pérdidas de red.|
-|2|Velocidad media de fotogramas de vídeo|< 7|Mala|Buena|Continúe con el paso 3|Media de fotogramas por segundo que se reciben en una transmisión de vídeo, calculada para la duración de la sesión.|
-|3|FECPLR de publicación de vídeo|> 0,15|Mala|Buena|Sin clasificar|Porcentaje de pérdida de paquetes tras aplicar la corrección de errores de reenvío (FEC) a los agregados en todas las transmisiones de vídeo y códecs.|
+|1|Porcentaje medio de pérdida de tramas locales de vídeo|˃50 % |Mala|Buena|Continúe con el paso 2|Porcentaje medio de fotogramas de vídeo perdidos cuando se muestran al usuario. Se incluyen los fotogramas que se recuperan de las pérdidas de red.|
+|2|Velocidad media de fotogramas de vídeo|< 7|Mala|Buena|Continúe con el paso 3|Fotogramas por segundo de media que se reciben en una transmisión de vídeo, calculada a lo largo de la duración de la sesión.|
+|3|Post FECPLR de vídeo|> 0,15|Mala|Buena|Sin clasificar|Porcentaje de pérdida de paquetes tras aplicar FEC, agregado en todas las transmisiones de vídeo y códecs.|
 
 ### <a name="vbss-classifier"></a>Clasificador de VBSS
 
@@ -61,10 +60,9 @@ Una transmisión de VBSS se marca como buena o mala según el valor de la primer
 
 |**Paso N. º**|**Métrica**|**Condición**|**Clasificación si la condición es verdadera**|**Clasificación si la condición es falsa**|**Clasificación si la métrica no está disponible**|**Explicación**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Porcentaje medio de pérdida de fotogramas locales de vídeo|> 50|Mala|Buena|Continúe con el paso 2
-|Porcentaje medio de fotogramas de vídeo perdidos según se muestran al usuario. Se incluyen los fotogramas recuperados de las pérdidas de red.|
-|2|Velocidad media de fotogramas de vídeo|< 2|Mala|Buena|Continúe con el paso 3|Media de fotogramas por segundo que se reciben en una transmisión de vídeo, calculada para la duración de la sesión.|
-|3|FECPLR de publicación de vídeo|>  0.15|Mala|Buena|Sin clasificar|Sin clasificar|Porcentaje de pérdida de paquetes tras aplicar la corrección de errores de reenvío (FEC) a los agregados en todas las transmisiones de vídeo y códecs.|
+|1|Porcentaje medio de pérdida de tramas locales de VBSS|˃50 % |Mala|Buena|Continúe con el paso 2|Porcentaje medio de fotogramas de vídeo perdidos cuando se muestran al usuario. Se incluyen los fotogramas que se recuperan de las pérdidas de red.|
+|2|Velocidad media de fotogramas VBSS|<2|Mala|Buena|Continúe con el paso 3|Fotogramas por segundo de media que se reciben en una transmisión de vídeo, calculada a lo largo de la duración de la sesión.|
+|3|VBSS Post FECPLR|>  0.15|Mala|Buena|Sin clasificar|Sin clasificar|Porcentaje de pérdida de paquetes tras aplicar FEC, agregado en todas las transmisiones de vídeo y códecs.|
 
 ### <a name="application-sharing-classifier"></a>Clasificador de uso compartido de aplicaciones
 
@@ -73,8 +71,8 @@ Una transmisión de uso compartido de aplicaciones se marca como mala si se cump
 **Métrica**|**Condición**|**Explicación**|
 |:-----|:-----|:-----|
 |Porcentaje total de bloques perdidos|> 36|Porcentaje de ventanas que se descartan en lugar de enviarse a un equipo remoto (por ejemplo, del MCU a un visor). Las ventanas descartadas (o perdidas) se pueden deber a restricciones en el ancho de banda entre el cliente y el servidor.|
-|Latencia media de proceso de bloques de RDP AppSharing|> 400|Latencia media en milisegundos en el procesamiento de bloques en la pila de RDP del servidor de conferencias.|
-|Media unidireccional relativa a AppSharing|> 1,75|Retraso medio unidireccional relativo entre los puntos de conexión en milisegundos para transmisiones de uso compartido de aplicaciones.|
+|Latencia media de proceso de bloques de RDP AppSharing|>400|Latencia media en milisegundos en el procesamiento de ventanas en la pila de RDP del servidor de conferencias.|
+|Media unidireccional relativa a AppSharing|> 1,75|Retraso medio unidireccional relativo entre los puntos de conexión para transmisiones de uso compartido de aplicaciones (en milisegundos).|
 
 ## <a name="unclassified-streams"></a>Transmisiones sin clasificar
 
@@ -102,8 +100,8 @@ Si la conectividad ICE es correcta para una transmisión sin clasificar, la tran
 
 
 ## <a name="related-topics"></a>Temas relacionados
-[Activar y usar el panel de calidad de llamadas](turning-on-and-using-call-quality-dashboard.md)
+[Activar y usar el Panel de calidad de llamadas](turning-on-and-using-call-quality-dashboard.md)
 
-[Dimensiones y medidas disponibles en el panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[Dimensiones y medidas disponibles en el Panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[Usar Análisis de llamadas para solucionar problemas de mala calidad de llamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Usar análisis de llamadas para solucionar problemas relacionados con la mala calidad de las llamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md)
