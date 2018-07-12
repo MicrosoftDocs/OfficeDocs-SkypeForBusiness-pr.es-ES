@@ -250,6 +250,7 @@
 #### [Planeación de enrutamiento directo](direct-routing-plan.md)
 #### [Configurar el enrutamiento directo](direct-routing-configure.md)
 #### [Migración a enrutamiento directo](direct-routing-migrating.md)
+#### [Supervisar y solucionar problemas de enrutamiento directo](direct-routing-monitor-and-troubleshoot.md)
 #### [Cuentas de usuario en un entorno híbrido con conectividad RTC](direct-routing-user-accounts-in-a-hybrid-environment.md)
 #### [Configurar un controlador de borde de sesión para varios inquilinos](direct-routing-sbc-multiple-tenants.md)
 #### [Lista de controladores de borde de sesión de certificados para el enrutamiento directo](direct-routing-border-controllers.md)
