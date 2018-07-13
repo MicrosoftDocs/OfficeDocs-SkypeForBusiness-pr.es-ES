@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Descubra cómo se clasifica la calidad de la transmisión en el panel de calidad de llamadas para Microsoft Teams y Skype for Business Online.
-ms.openlocfilehash: 7806178b355d3f86cbc470f6d7401b3f76077b12
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: 6cd19fb1f163f6e7a9e11598b03f539b5fc1a02d
+ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246627"
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20327082"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Clasificación de la transmisión en el panel de calidad de llamadas
 
@@ -38,11 +38,11 @@ Una transmisión de audio se marca como mala si se cumplen una o más de las con
 
 |**Métrica**|**Condición**|**Explicación**|
 |:-----|:-----|:-----|
-|Degradación media del audio|>1,0|Degradación: "mean opinion score" de red en la transmisión. Indica el grado de impacto de la pérdida y la vibración de red sobre la calidad del audio recibido.|
-|Tiempo de ida y vuelta|>500|Tiempo medio de ida y vuelta de propagación en red calculado como se especifica en RFC3550 (en milisegundos).|
-|Velocidad de pérdida de paquetes|>0,1|Velocidad media de pérdida de paquetes en la transmisión.|
-|Vibración|>30|Vibración media en la transmisión (en milisegundos).|
-|Índice medio de muestras ocultas|> 0,07|Índice medio entre el número de tramas de audio con muestras ocultas generadas por la recuperación páquetes perdidos y el número total de tramas de audio.|
+|Media de la degradación del audio|>1,0|Media de degradación de la puntuación de opinión media de la red en la transmisión. Representa en qué medida la vibración y la pérdida de red han afectado a la calidad del audio recibido.|
+|Tiempo de ida y vuelta|>500|Tiempo medio de ida y vuelta en la propagación de red, que se calcula en milisegundos como se especifica en el RFC3550.|
+|Tasa de pérdida de paquetes|>0,1|Porcentaje medio de pérdida de paquetes en la transmisión.|
+|Fluctuación|>30|Fluctuación media producida en la transmisión en milisegundos.|
+|Índice medio de muestras ocultas|> 0,07|Índice medio entre el número de tramas de audio con muestras ocultas generadas por la recuperación paquetes perdidos y el número total de tramas de audio.|
 
 ### <a name="video-classifier"></a>Clasificador de vídeo
 
@@ -50,8 +50,8 @@ Una transmisión de vídeo se marca como buena o mala según el valor de la prim
 
 |**Paso n. º**|**Métrica**|**Condición**|**Clasificación si la condición es verdadera**|**Clasificación si la condición es falsa**|**Clasificación si la métrica no está disponible**|**Explicación**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Porcentaje medio de pérdida de tramas locales de vídeo|˃50 % |Mala|Buena|Continúe con el paso 2|Porcentaje medio de fotogramas de vídeo perdidos cuando se muestran al usuario. Se incluyen los fotogramas que se recuperan de las pérdidas de red.|
-|2|Velocidad media de fotogramas de vídeo|< 7|Mala|Buena|Continúe con el paso 3|Fotogramas por segundo de media que se reciben en una transmisión de vídeo, calculada a lo largo de la duración de la sesión.|
+|1|Porcentaje medio de pérdida de tramas locales de vídeo|˃50 % |Mala|Buena|Continúe con el paso 2|Porcentaje medio de fotogramas de vídeo perdidos cuando se muestran al usuario. Se incluyen los fotogramas que se recuperan de las pérdidas de red.|
+|2|Velocidad media de fotogramas de vídeo|< 7|Mala|Buena|Continúe con el paso 3|Media de fotogramas por segundo que se reciben en una transmisión de vídeo, calculada a lo largo de la sesión.|
 |3|Post FECPLR de vídeo|> 0,15|Mala|Buena|Sin clasificar|Porcentaje de pérdida de paquetes tras aplicar FEC, agregado en todas las transmisiones de vídeo y códecs.|
 
 ### <a name="vbss-classifier"></a>Clasificador de VBSS
@@ -60,9 +60,9 @@ Una transmisión de VBSS se marca como buena o mala según el valor de la primer
 
 |**Paso N. º**|**Métrica**|**Condición**|**Clasificación si la condición es verdadera**|**Clasificación si la condición es falsa**|**Clasificación si la métrica no está disponible**|**Explicación**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Porcentaje medio de pérdida de tramas locales de VBSS|˃50 % |Mala|Buena|Continúe con el paso 2|Porcentaje medio de fotogramas de vídeo perdidos cuando se muestran al usuario. Se incluyen los fotogramas que se recuperan de las pérdidas de red.|
-|2|Velocidad media de fotogramas VBSS|<2|Mala|Buena|Continúe con el paso 3|Fotogramas por segundo de media que se reciben en una transmisión de vídeo, calculada a lo largo de la duración de la sesión.|
-|3|VBSS Post FECPLR|>  0.15|Mala|Buena|Sin clasificar|Sin clasificar|Porcentaje de pérdida de paquetes tras aplicar FEC, agregado en todas las transmisiones de vídeo y códecs.|
+|1|Porcentaje medio de pérdida de tramas locales de vídeo|˃50 % |Mala|Buena|Continúe con el paso 2|Porcentaje medio de fotogramas de vídeo perdidos cuando se muestran al usuario. Se incluyen los fotogramas que se recuperan de las pérdidas de red.|
+|2|Media de la tasa de fotogramas de vídeo|<2|Mala|Buena|Continúe con el paso 3|Media de fotogramas por segundo que se reciben en una transmisión de vídeo, calculada a lo largo de la sesión.|
+|3|Post FECPLR de vídeo|>  0.15|Mala|Buena|Sin clasificar|Porcentaje de pérdida de paquetes tras aplicar FEC, agregado en todas las transmisiones de vídeo y códecs.|
 
 ### <a name="application-sharing-classifier"></a>Clasificador de uso compartido de aplicaciones
 
@@ -71,7 +71,7 @@ Una transmisión de uso compartido de aplicaciones se marca como mala si se cump
 **Métrica**|**Condición**|**Explicación**|
 |:-----|:-----|:-----|
 |Porcentaje total de bloques perdidos|> 36|Porcentaje de ventanas que se descartan en lugar de enviarse a un equipo remoto (por ejemplo, del MCU a un visor). Las ventanas descartadas (o perdidas) se pueden deber a restricciones en el ancho de banda entre el cliente y el servidor.|
-|Latencia media de proceso de bloques de RDP AppSharing|>400|Latencia media en milisegundos en el procesamiento de ventanas en la pila de RDP del servidor de conferencias.|
+|Latencia media de proceso de bloques de RDP AppSharing|> 400|Latencia media en milisegundos en el procesamiento de ventanas en la pila de RDP del servidor de conferencias.|
 |Media unidireccional relativa a AppSharing|> 1,75|Retraso medio unidireccional relativo entre los puntos de conexión para transmisiones de uso compartido de aplicaciones (en milisegundos).|
 
 ## <a name="unclassified-streams"></a>Transmisiones sin clasificar
@@ -100,8 +100,8 @@ Si la conectividad ICE es correcta para una transmisión sin clasificar, la tran
 
 
 ## <a name="related-topics"></a>Temas relacionados
-[Activar y usar el Panel de calidad de llamadas](turning-on-and-using-call-quality-dashboard.md)
+[Activar y usar el Panel de calidad de llamadas (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
 [Dimensiones y medidas disponibles en el Panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[Usar análisis de llamadas para solucionar problemas relacionados con la mala calidad de las llamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Usar Análisis de llamadas para solucionar problemas de mala calidad de llamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)
