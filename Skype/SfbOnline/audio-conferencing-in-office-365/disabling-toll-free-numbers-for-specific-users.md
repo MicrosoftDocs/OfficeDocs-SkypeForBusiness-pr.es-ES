@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Los administradores pueden controlar cómo los organizadores pueden usar los números gratuitos para sus reuniones.
-ms.openlocfilehash: c144f807a20088f8e2330b541ba18b1da4b40e10
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: 2f506163ce815f71d18935040dbf13bf4af4f04c
+ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703802"
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20324145"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-users"></a>Deshabilitar a los números gratuitos para usuarios específicos
 

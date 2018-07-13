@@ -1,5 +1,5 @@
 ---
-title: ¿Cuáles son las comunicaciones créditos?
+title: ¿Qué son los Créditos de comunicaciones?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 5d3a1c2b3565f8497bf108d9af6ad44379f2515b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 070816cf38fd86bf89bb05d27f1aedf5a5f90da5
+ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20326999"
 ---
-# <a name="what-are-communications-credits"></a>¿Cuáles son las comunicaciones créditos?
+# <a name="what-are-communications-credits"></a>¿Qué son los Créditos de comunicaciones?
 
 Créditos de comunicaciones son una forma cómoda de pago para los minutos de conferencias de Audio y la planeación de la llamada. Ayuda a garantizar que usted y sus usuarios nunca se detectan sin ser capaz de:
   
@@ -76,7 +77,7 @@ Cuando está configurando créditos Communications, debe investigar el uso de la
   
 ## <a name="recommended-funding-amounts"></a>Aportaciones recomendadas
 
-Es recomendable que se comienza mediante una pequeña cantidad de financiación, que, para las organizaciones más pequeñas, podría ser incluso el mínimo de 20 $. Una vez que haya recopilado una o dos meses de uso de RTC con el informe de detalles de uso de RTC, podrá ajustar los importes para satisfacer el uso normal de la organización.
+Es recomendable que se comienza mediante una pequeña cantidad de financiación, que, para las organizaciones más pequeñas, podría ser incluso el mínimo de 50 $. Una vez que haya recopilado una o dos meses de uso de RTC con el informe de detalles de uso de RTC, podrá ajustar los importes para satisfacer el uso normal de la organización.
   
 Si está listo para establecer esto Subir todo, vea [Configurar Communications créditos para su organización](set-up-communications-credits-for-your-organization.md).
   
@@ -84,7 +85,7 @@ Si está listo para establecer esto Subir todo, vea [Configurar Communications c
 
 Puede ver los planes y precios, visite uno de los siguientes vínculos:
   
-- [Planes de llamada](https://go.microsoft.com/fwlink/?linkid=799761)
+- [Planes de llamadas](https://go.microsoft.com/fwlink/?linkid=799761)
     
 - [Audioconferencia](https://go.microsoft.com/fwlink/?linkid=799762)
     
