@@ -3,19 +3,18 @@ title: Requisitos de hardware y software para el servidor de chat persistente en
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: 'Resumen: Lea este tema para obtener más información acerca de los requisitos de hardware y software para el servidor de Chat persistente en Skype para Business Server 2015.'
-ms.openlocfilehash: 8db3bda71cb27ec059dcf4c73f8d4754ffcb8b2d
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: 4daf53219937a4ffcfee0e51d80cffb7f1626cf5
+ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246659"
+ms.lasthandoff: 07/14/2018
+ms.locfileid: "20363933"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Requisitos de hardware y software para el servidor de chat persistente en Skype Empresarial Server 2015
  
@@ -61,7 +60,7 @@ Para preparar una plataforma de servidor de base de datos, asegúrese de que cad
   
 Confirma que una de las siguientes aplicaciones de software está instalada en el servidor de bases de datos:
 
-- Microsoft SQL Server 2016 y se debe ejecutar con Skype para Business Server actualización acumulativa 7 o versiones posteriores. Es recomendable que ejecuta SQL Server 2016 con el último service pack. Para obtener información detallada acerca de cómo instalar Microsoft SQL Server 2016, vea [instalar SQL Server 2016](https://docs.microsoft.com/pt-pt/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016).
+- Microsoft SQL Server 2014 y se debe ejecutar con Skype para Business Server acumulativa actualización 6 o versiones posteriores. Es recomendable que ejecuta SQL Server 2014 con el último service pack. Para obtener información detallada acerca de cómo instalar Microsoft SQL Server 2014, vea [instalar SQL Server 2014](https://docs.microsoft.com/pt-pt/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014).
 
 - Microsoft SQL Server 2012 (edición de 64 bits) y se recomienda la ejecución con el último service pack. Para obtener información detallada acerca de cómo instalar Microsoft SQL Server 2012, vea [instalar SQL Server 2012](https://go.microsoft.com/fwlink/p/?LinkID=248559).
 

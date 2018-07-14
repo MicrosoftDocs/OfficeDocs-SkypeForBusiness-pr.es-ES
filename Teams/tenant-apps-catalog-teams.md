@@ -3,7 +3,7 @@ title: Publicar aplicaciones en el catálogo de aplicaciones del inquilino de eq
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 06/26/2018
+ms.date: 07/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: prem
@@ -12,18 +12,15 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 298caf3cee6fe6af38f22ef9ac7dd85991fd6dba
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 11db7dec3122de3eb783152483a1575cf92dc585
+ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20050462"
+ms.lasthandoff: 07/14/2018
+ms.locfileid: "20363908"
 ---
 <a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Publicar aplicaciones en el catálogo de aplicaciones del inquilino de equipos de Microsoft
 =======================================================
-
-> [!IMPORTANT]
-> Esta página describe una característica de la versión preliminar y contiene contenido preliminar que puede cambiar considerablemente antes de que se libere. Las capturas de pantalla son marcadores de posición y podrían ser diferentes de lo que se ve.
 
 Puede usar el catálogo de aplicaciones de inquilino de los equipos de Microsoft para probar y distribuir aplicaciones de línea de negocio para su organización. 
 

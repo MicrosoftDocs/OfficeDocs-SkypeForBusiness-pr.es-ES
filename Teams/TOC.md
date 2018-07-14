@@ -122,7 +122,7 @@
 
 
 <!-- ============================================================ -->
-# Interopearability con Office 365
+# Interoperabilidad con Office 365
 ## [Migración e interoperabilidad con Skype para la empresa](migration-interop-guidance-for-teams-with-skype.md)
 ## [Establecer la coexistencia y la configuración de actualizaciones](setting-your-coexistence-and-upgrade-settings.md)
 ## [Grupos de Office 365 y Microsoft Teams](office-365-groups.md)
@@ -165,6 +165,11 @@
 ### [Grabación de la reunión de los equipos en la nube](cloud-recording.md)
 ### [Usar el complemento para reunión de Microsoft Teams en Outlook](teams-add-in-for-outlook.md)
 ### [Configuración del servicio de migración de reuniones (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+### Eventos en directo
+#### [¿Cuáles son los equipos de eventos en directo?](what-are-teams-live-events.md)
+
+
+
 ## Aplicaciones y servicios
 ### [Configurar la administración para aplicaciones en Teams](admin-settings.md)
 ### [Agregar bots para chats privados y canales en Microsoft Teams](add-bots.md)

@@ -3,7 +3,7 @@ title: Ejecute Microsoft Teams en un entorno virtual
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/12/2018
+ms.date: 07/13/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d00ee6a3c14b5a1bb97685124293b13977c323af
-ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
+ms.openlocfilehash: 08a82c2450d238a59d7e076ceb95368c3dce91e2
+ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20328750"
+ms.lasthandoff: 07/14/2018
+ms.locfileid: "20363926"
 ---
 <a name="run-microsoft-teams-in-a-virtual-environment"></a>Ejecute Microsoft Teams en un entorno virtual
 ============================================
@@ -55,7 +55,7 @@ Los cmdlets *CsTeamsCallingPolicy* permiten a los administradores control si al 
 \>> *Import-PSSession $sfboSession*<br>
 3.  Ver la lista de opciones de directiva de llamada:<br>
 \>> *Get-CsTeamsCallingPolicy*
-4.  Busque la opción preestablecida donde se deshabilitan todas las directivas de reunión:<br>
+4.  Busque la opción preestablecida donde se deshabilitan todas las directivas de llamada:<br>
 ![Captura de pantalla de opción de las reuniones con todas las directivas de reunión deshabilitado.](media/virtual-environment-image2.png)
 5.  La opción de directiva preestablecido "DisallowCalling" se aplican a todos los usuarios que van a usar los equipos en un entorno virtualizado:<br>
 \>> *GRANT-CsTeamsMeetingPolicy - PolicyName AllOff-Identity "user id de correo electrónico"*
