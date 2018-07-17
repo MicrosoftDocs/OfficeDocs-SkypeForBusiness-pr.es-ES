@@ -11,12 +11,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aae2fb4118a5069c7f1f85a90326ec9c158037db
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: eed2f652ae91c8f6c5296fc558d5008fb0e5e607
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569600"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20409315"
 ---
 <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 ==================================
@@ -28,7 +28,7 @@ Descubra Microsoft Teams y fomente su uso en su organización. Vuelva a visitar 
 
 |  |  |
 |---------|---------|
-| [Tutorial: Recorrido desde Skype Empresarial a Microsoft Teams](tutorial-journey-skypeforbusiness-to-teams.yml) |Una presentación de todo lo que necesita saber sobre el recorrido a Microsoft Teams desde Skype Empresarial Online.  |
+| [Tutorial: Actualización de Skype para la empresa a los equipos de Microsoft](tutorial-journey-skypeforbusiness-to-teams.yml) |Le guiará a través de todo lo que necesita saber acerca de la actualización para los equipos de Skype para profesionales en línea.  |
 | [Tutorial: Conferencias de Audio en los equipos](Tutorial-Audio-Conferencing.yml) | Este curso de formación interactiva le guiará a través de conferencias de Audio en los equipos. |
 | [Inicio rápido: Teams Microsoft para los administradores de educación](teams-quick-start-edu.yml) |Para los administradores de TI, para implementar Microsoft Teams en toda la organización.   |
 | [Inicio rápido: configuración de planes de llamada en Microsoft Teams](configuring-teams-calling-quickstartguide.md)| Guía de inicio rápido para configurar Planes de llamada en Microsoft Teams. |

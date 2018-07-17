@@ -1,5 +1,5 @@
 ---
-title: Users can make outbound calls to these countries and regions
+title: Los usuarios pueden hacer llamadas salientes a estos países y regiones
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,17 +19,17 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: This topic contains all of the countries/regions that users can place outbound calls to if they have a Calling Plan.
-ms.openlocfilehash: bd8ce62b5f1d5c8b032503a045e40c72bbe5d00b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Este tema contiene todos los países o regiones que los usuarios pueden realizar llamadas salientes a si tienen un Plan de llamada.
+ms.openlocfilehash: 036fd70b067d461505c4fccf83fe1e4b5a5c408f
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20409375"
 ---
-# <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Users can make outbound calls to these countries and regions
+# <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Los usuarios pueden hacer llamadas salientes a estos países y regiones
 
-### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-a-domestic-or-domestic-and-international-calling-plan-license"></a>See what countries/regions users can make outbound calls to if the user has a Domestic or Domestic and International Calling Plan license
-
+### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-a-domestic-or-domestic-and-international-calling-plan-license"></a>Vea lo que los usuarios de países o regiones pueden realizar llamadas salientes a si el usuario tiene un nacional o nacionales y licencia de llamar a planear internacional
 
 |**A - D**| **E - H**|**I - L**|**M - O**|**P - S**|**T - Z**|
 ---|---|---|---|---|---|
@@ -60,7 +60,7 @@ ms.lasthandoff: 04/18/2018
 |Bolivia |Guyana| |Nueva Caledonia |Eslovenia |Zimbabue |
 |Bosnia-Herzegovina |Haití ||Nueva Zelanda |Sudáfrica | 
 |Botsuana |Honduras ||Nicaragua |España |
-|Bazil |Hong Kong ||Níger |Sri Lanka | 
+|Brasil |Hong Kong ||Níger |Sri Lanka | 
 |Bunei Darussalam |Hungría ||Nigeria |San Pedro y Miquelón | 
 |Bulgaria |||Islas Marianas del Norte |Sudán |
 |Burkina Faso |||Noruega |Surinam |
