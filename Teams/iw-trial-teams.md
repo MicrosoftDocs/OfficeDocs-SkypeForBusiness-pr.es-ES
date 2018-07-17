@@ -3,7 +3,7 @@ title: Administrar la oferta de prueba de la nube de Microsoft los equipos comer
 author: ChuckEdmonson
 ms.author: chucked
 manager: lolaj
-ms.date: 05/17/2018
+ms.date: 07/17/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -11,11 +11,12 @@ ms.service: msteams
 localization_priority: Normal
 description: Los usuarios de Office 365 que no tienen licencia para Microsoft Teams pueden iniciar una versión de prueba de 1 año de los equipos.
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e282481cc8cdb5eba23a56ef32adff2e812fefbf
-ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
+ms.openlocfilehash: ec12fa2687255fb3097d4bbe637389bc643d77cd
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20412336"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Administrar la oferta de prueba de la nube de Microsoft los equipos comerciales
 =======================================================
@@ -47,11 +48,11 @@ Además, el inquilino no es aptos para la prueba if:
 
 Además, si el inquilino es no válido para la oferta de prueba Microsoft los equipos de comercial en la nube, no verá el modificador **permiten a los usuarios instalar los servicios y aplicaciones de prueba** .
 
-En el nivel de inquilino, los equipos como un servicio debe habilitarse (en el centro de administración de equipos). Para obtener más información, vea [características de administración de equipos de Microsoft en su organización de Office 365](enable-features-office-365.md). Además, deben estar habilitados para registrarse y obtener aplicaciones y versiones de evaluación (en el centro de administración de Office 365). Para obtener más información, vea [administrar el trabajador de la información prueba](#manage-the-iw-trial) más adelante en este artículo.
+En el nivel de inquilino, los equipos como un servicio debe habilitarse (en el centro de administración de equipos). Para obtener más información, vea [características de administración de equipos de Microsoft en su organización de Office 365](enable-features-office-365.md). Además, deben estar habilitados para registrarse y obtener aplicaciones y versiones de evaluación (en el centro de administración de Office 365). Para obtener más información, vea [Manage la versión de prueba](#manage-the-trial) más adelante en este artículo.
 
 ## <a name="how-users-sign-up-for-the-trial"></a>Cómo los usuarios suscribirse a la versión de evaluación
 
-Los usuarios optan pueden registrarse para la versión de evaluación de trabajador de la información iniciando sesión en los equipos ([teams.microsoft.com](https://teams.microsoft.com)). Si optan, verán la pantalla siguiente para iniciar la versión de evaluación. 
+Los usuarios optan pueden registrarse para la oferta de prueba iniciando sesión en los equipos ([teams.microsoft.com](https://teams.microsoft.com)). Si optan, verán la pantalla siguiente para iniciar la versión de evaluación. 
 
 ![Captura de pantalla de la página de inicio para la versión de evaluación de los equipos trabajador de la información.](media/iw-trial-start-screen.png)
 
@@ -59,9 +60,9 @@ La versión de evaluación de trabajador de la información concede una versión
  
 Todos los ensayos dentro de la organización compartan el mismo fechas inicial y final, que es la fecha en que el primer usuario firmado para la versión de evaluación. Por ejemplo, si un usuario inicia la primera versión de evaluación en el 25 de abril de 2018 y el usuario B inicia una versión de prueba en 3 de junio de 2018, versión de prueba de los dos usuarios caducará el 25 de abril de 2019.
 
-## <a name="manage-the-iw-trial"></a>Administración de la versión de evaluación de trabajador de la información
+## <a name="manage-the-trial"></a>Administración de la versión de evaluación
 
-Los administradores pueden deshabilitar la capacidad de los usuarios finales para aplicaciones de prueba y servicios dentro de su inquilino de notificación. Actualmente, la versión de evaluación de los equipos trabajador de la información es la prueba sólo en esta categoría, pero esto es posible que se aplica a otros programas similares en el futuro. 
+Los administradores pueden deshabilitar la capacidad de los usuarios finales para aplicaciones de prueba y servicios dentro de su inquilino de notificación. Actualmente, la versión de evaluación de los equipos es la prueba sólo en esta categoría, pero esto es posible que se aplica a otros programas similares en el futuro. 
 
 1\. Desde el [Centro de administración de Office 365](https://portal.office.com/adminportal/home), vaya a **Servicios & complementos** > **usuario que son propiedad de aplicaciones y servicios**.
 
@@ -71,7 +72,7 @@ Los administradores pueden deshabilitar la capacidad de los usuarios finales par
 
 ![Captura de pantalla del usuario que pertenecen a la página de aplicaciones y servicios en el centro de administración de Office 365.](media/iw-trial-enable-2.png)
 
-3\. Puede desactivar los equipos para el inquilino yendo al portal de administración de equipos. Cuando esta opción está deshabilitada, los usuarios no pueden reclamar la versión de evaluación de los equipos trabajador de la información.
+3\. Puede desactivar los equipos para el inquilino yendo al portal de administración de equipos. Cuando esta opción está deshabilitada, los usuarios no se pueden reclamar que ofrecen los equipos de prueba.
 
 4\. Si ha deshabilitado el plan de servicio de los equipos para un usuario individual que tiene una licencia de aplicaciones, el usuario no es aptos para una licencia de prueba de notificación.
 
