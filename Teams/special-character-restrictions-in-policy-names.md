@@ -17,26 +17,92 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - me.teamsadmincenter.policies.naming.error
 description: Vea ¿qué problemas hay con caracteres especiales en los nombres de las directivas y qué puede hacer para solucionarlo.
-ms.openlocfilehash: 7d835669f0acc7cd2a2e42acb1aa9fa9d2fdf765
-ms.sourcegitcommit: 26d93a15c9d4704c08f3fabc5635839ce2456b2d
+ms.openlocfilehash: 4ddd6a618c42f629acd64162ad608aede6b1819f
+ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2018
-ms.locfileid: "20205081"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20397092"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>¿Cuáles son las restricciones de caracteres especiales en las directivas de los equipos?
 
-**Aunque pueden usar caracteres especiales para la creación de directivas de los equipos con PowerShell, limitará en la administración de estas directivas.  Por lo tanto, se recomienda encarecidamente nombres de directiva no incluir caracteres especiales.**
+**No se puede crear o modificar las directivas (para mensajería, reuniones, etc.) que tienen un carácter especial en el nombre en el Microsoft Teams y Skype para el centro de administración de negocio.** 
 
-Nombres de directiva que se crean con PowerShell para las reuniones y conversaciones en los equipos pueden tener caracteres especiales, como @, #, $. Sin embargo, si desea editar la directiva en el Microsoft Teams y Skype para el centro de administración de negocio, no podrá a. Debe usar Windows PowerShell y el cmdlet de directiva correcta para realizar cambios.
+Si un nombre de directiva contiene caracteres especiales, estará limitado en la administración de estas directivas en el Microsoft Teams y Skype para el centro de administración de negocio. **Por lo tanto, se recomienda encarecidamente que los nombres de directiva no incluir caracteres especiales**. 
 
-Si tiene un objeto de directiva con caracteres especiales y que desea quitar los caracteres especiales con el fin de administrar mejor la directiva en el Microsoft Teams y Skype para el centro de administración de negocio, debe usar el siguiente procedimiento. 
+Nombres de directiva que se han creado mediante PowerShell para las reuniones y mensajería en los equipos pueden tener caracteres especiales, como @, #, $. Sin embargo, si desea realizar cambios en la directiva en el Microsoft Teams y Skype para el centro de administración de negocio, no podrá a. 
 
-Nota: En el procedimiento articulado aquí se usa en el ejemplo de una directiva de mensajería.  Por subsituting los cmdlets relevantes, se usaría el mismo proceso para cualquier otro tipo de directiva (por ejemplo, las de reuniones). 
+Si tiene una directiva con caracteres especiales, debe editar la directiva de uso de Windows PowerShell (siempre) o crear una nueva directiva en el Microsoft Teams y Skype para el centro de administración de negocio con la misma configuración que la directiva anterior y asígnele el mismo grupo p de los usuarios.
 
-1.) llamar a Get-CSMessagingPolicy-identidad < antiguoNombreDeDirectiva > y captura el resultado de la directiva.
-2.) llame a Set-CSMessagingPolicy-identidad < nuevoNombreDeDirectiva > para crear una nueva directiva con la misma configuración que la directiva original pero sin caracteres especiales en el nombre.
-3.) llamar a Delete-CSMessagingPolicy-identidad < antiguoNombreDeDirectiva > para eliminar la directiva.  Si este comando se ejecuta correctamente, se hayan acabado y puede empezar a asignar a los usuarios a la nueva directiva de uso de PowerShell o el Microsoft Teams y Skype para el centro de administración de negocio.
-4.) si el comando anterior no se realiza correctamente, es debido a que se ha asignado la directiva anterior a un usuario.  Ejecutar cancelar la asignación de cmdlet para quitar la asignación de la directiva de usuario, asignar la nueva directiva y, a continuación, vuelva a ejecutar dwlete.
+## <a name="to-remove-special-characters"></a>Para quitar los caracteres especiales
 
 
+
+**Paso 1: establecer una conexión remota con PowerShell.** 
+ [Configurar el equipo de Windows PowerShell](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) si no lo ha hecho todavía.
+```
+ Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+ $credential = Get-Credential
+ $session = New-CsOnlineSession -Credential $credential
+ Import-PSSession $session
+```
+
+
+**Paso 2: obtener la configuración de la directiva anterior y capturar el resultado.**
+
+> [!NOTE]
+> En este ejemplo es para una directiva de [mensajería](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) .  Los pasos sería el mismo para otros tipos de directiva, pero debe usar el cmdlet correcto. 
+
+  ```
+  Get-CsTeamsMessagingPolicy -id <old_policy_name>
+  ```
+
+
+**Paso 3: crear una nueva directiva.**
+
+Puede crear la nueva directiva con la misma configuración mediante el Microsoft Teams y Skype para centro de administración de negocio o PowerShell.
+
+Ejecuta Esto creará una nueva directiva de pero necesita agregar la configuración correcta, vean [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) y, a continuación, si lo ejecuta:
+
+  ```
+  Set-CsTeamsMessagingPolicy -id <new_policy_name>
+ ```
+**Paso 4: asignar la directiva.**
+ ```
+Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
+ ```
+Vea, [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) para obtener más información sobre este cmdlet.
+
+**Paso 5: eliminar la directiva anterior.**
+
+Esta acción eliminará la directiva anterior con los caracteres especiales.
+  ```
+  Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
+  ```
+Vea, [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) para obtener más información sobre este cmdlet.
+
+Si este comando se ejecuta correctamente, haya terminado. Si el comando anterior devuelve un error, es debido a que la directiva anterior se asigna a los usuarios por lo que necesita ejecutar para quitar todos los usuarios asignados de la directiva:
+
+```
+Grant-CsMessagingPolicy -Policy <old_policy_name> $null
+```
+### <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
+
+Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 con un único punto de administración que puede simplificar el trabajo diario cuando tenga que realizar varias tareas. Para empezar a usar Windows PowerShell, vea estos temas:
+    
+  - [¿Por qué necesita usar Office 365 PowerShell?](https://go.microsoft.com/fwlink/?LinkId=525041)
+    
+  - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+    
+- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making settings changes for many users at one time. Learn about these advantages in the following topics:
+    
+  - [Introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+    
+    [Usar Windows PowerShell para administrar Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+    
+  - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+    
+    > [!NOTE]
+    > El módulo de Windows PowerShell para Skype para profesionales en línea le permite crear una sesión remota de Windows PowerShell que se conecta a Skype para profesionales en línea y Microsoft Teams. Este módulo, que solo es compatible con equipos de 64 bits, se puede descargar desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
+  
+### <a name="related-topics"></a>See also
