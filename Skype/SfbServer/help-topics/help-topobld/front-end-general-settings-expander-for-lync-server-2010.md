@@ -3,7 +3,7 @@ title: Expansor de configuración General Front-End de Lync Server 2010
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Para editar las propiedades del grupo de servidores Front-End o de servidor Front-End, edición o configurar los siguientes atributos. La página de configuración se divide en las secciones siguientes:'
-ms.openlocfilehash: 4d18d8499c053d2fbed5b0b3dba97bda263f28cd
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: dbe4e83065f7869d860fec1a0c8868283f8e8414
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504092"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966380"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expansor de configuración General Front-End de Lync Server 2010
  
