@@ -1,9 +1,9 @@
 ---
-title: Certificado pendiente (Invoke)
+title: Certificado pendiente (invocar)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,18 +11,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
-description: La página ejecución de comandos muestra el estado de los comandos que se va a recuperar el certificado pendiente. Cuando se complete la tarea, está disponible el archivo de registro de recuperar certificados pendientes. Haga clic en Ver registro para revisar el procesamiento y el estado de finalización de la tarea. Haga clic en siguiente para continuar.
-ms.openlocfilehash: 3195ca99c14ba0ca25a3923c4be32d6557feb0fe
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: La página ejecución de comandos muestra el estado de los comandos que se va a recuperar el certificado pendiente. Cuando se complete la tarea, el archivo de registro de recuperar certificados pendientes está disponible. Haga clic en Ver registro para revisar el procesamiento y el estado de finalización de tarea. Haga clic en Siguiente para continuar.
+ms.openlocfilehash: 2f2601e5501a777d78285ca39d5eb7b895dd980c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986526"
 ---
-# <a name="pending-certificate-invoke"></a><span data-ttu-id="c962e-106">Certificado pendiente (Invoke)</span><span class="sxs-lookup"><span data-stu-id="c962e-106">Pending Certificate (Invoke)</span></span>
+# <a name="pending-certificate-invoke"></a><span data-ttu-id="fae06-106">Certificado pendiente (invocar)</span><span class="sxs-lookup"><span data-stu-id="fae06-106">Pending Certificate (Invoke)</span></span>
  
-<span data-ttu-id="c962e-107">La página **Ejecución de comandos** muestra el estado de los comandos que se va a recuperar el certificado pendiente.</span><span class="sxs-lookup"><span data-stu-id="c962e-107">The **Executing Commands** page displays the status of the commands that are retrieving the pending certificate.</span></span> <span data-ttu-id="c962e-108">Cuando se complete la tarea, está disponible el archivo de registro de **Recuperar certificados pendientes** .</span><span class="sxs-lookup"><span data-stu-id="c962e-108">When the task is completed, the **Retrieve Pending Certificates** log file is available.</span></span> <span data-ttu-id="c962e-109">Haga clic en **Ver registro** para revisar el procesamiento y el estado de finalización de la tarea.</span><span class="sxs-lookup"><span data-stu-id="c962e-109">Click **View Log** to review the processing and task completion status.</span></span> <span data-ttu-id="c962e-110">Haga clic en **Siguiente** para continuar.</span><span class="sxs-lookup"><span data-stu-id="c962e-110">Click **Next** to continue.</span></span>
+<span data-ttu-id="fae06-107">La página **Ejecución de comandos** muestra el estado de los comandos que se va a recuperar el certificado pendiente.</span><span class="sxs-lookup"><span data-stu-id="fae06-107">The **Executing Commands** page displays the status of the commands that are retrieving the pending certificate.</span></span> <span data-ttu-id="fae06-108">Cuando se complete la tarea, el archivo de registro de **Recuperar certificados pendientes** está disponible.</span><span class="sxs-lookup"><span data-stu-id="fae06-108">When the task is completed, the **Retrieve Pending Certificates** log file is available.</span></span> <span data-ttu-id="fae06-109">Haga clic en **Ver registro** para revisar el procesamiento y el estado de finalización de tarea.</span><span class="sxs-lookup"><span data-stu-id="fae06-109">Click **View Log** to review the processing and task completion status.</span></span> <span data-ttu-id="fae06-110">Haga clic en **Siguiente** para continuar.</span><span class="sxs-lookup"><span data-stu-id="fae06-110">Click **Next** to continue.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="c962e-111">Si el certificado todavía no se ha aprobado por el Administrador de la entidad emisora de certificados, el archivo de registro recuperar petición pendiente indicará que hay solicitudes pendientes.</span><span class="sxs-lookup"><span data-stu-id="c962e-111">If the certificate has not yet been approved by the certification authority administrator, the Retrieve Pending Request log file will indicate that there are pending requests.</span></span> <span data-ttu-id="c962e-112">Si el Administrador de la entidad emisora de certificados ha denegado la solicitud, el archivo de registro indica un error y notificará el error, que indica que se ha denegado la solicitud y el nombre de usuario de la persona que ha rechazado la petición.</span><span class="sxs-lookup"><span data-stu-id="c962e-112">If the certification authority administrator has denied the request, the log file will indicate a failure and will report the error, indicating that the request was denied and the user name of the person who denied the request.</span></span> 
+> <span data-ttu-id="fae06-111">Si el certificado todavía no se ha aprobado por el Administrador de la entidad de certificación, el archivo de registro recuperar solicitudes pendientes indicará que no hay solicitudes pendientes.</span><span class="sxs-lookup"><span data-stu-id="fae06-111">If the certificate has not yet been approved by the certification authority administrator, the Retrieve Pending Request log file will indicate that there are pending requests.</span></span> <span data-ttu-id="fae06-112">Si el Administrador de la entidad de certificación ha denegado la solicitud, el archivo de registro indicará un error y notificará el error, que indica que se ha denegado la solicitud y el nombre de usuario de la persona que ha rechazado la petición.</span><span class="sxs-lookup"><span data-stu-id="fae06-112">If the certification authority administrator has denied the request, the log file will indicate a failure and will report the error, indicating that the request was denied and the user name of the person who denied the request.</span></span> 
   
 

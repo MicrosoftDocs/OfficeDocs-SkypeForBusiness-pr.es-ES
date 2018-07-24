@@ -7,17 +7,18 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d90fce21-d7ff-4a9a-bc20-68021a37dca4
+ROBOTS: NOINDEX, NOFOLLOW
 description: Temas de Panel de control
-ms.openlocfilehash: 96b7a6dcde5343ab896a3aeb506677f3235df6d3
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 5391d566516fe2e5b079469438d2f990e563675a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19965552"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006758"
 ---
-# <a name="help-lscp"></a><span data-ttu-id="9024b-103">Ayuda-LSCP</span><span class="sxs-lookup"><span data-stu-id="9024b-103">Help-LSCP</span></span>
+# <a name="help-lscp"></a><span data-ttu-id="ef910-103">Ayuda-LSCP</span><span class="sxs-lookup"><span data-stu-id="ef910-103">Help-LSCP</span></span>
  
-<span data-ttu-id="9024b-104">En los temas de este nodo proporcionan ayuda para la Skype para el Panel de Control de servidor empresarial.</span><span class="sxs-lookup"><span data-stu-id="9024b-104">The topics in this node provide help for the Skype for Business Server Control Panel.</span></span>
+<span data-ttu-id="ef910-104">En los temas de este nodo proporcionan ayuda para la Skype para el Panel de Control de servidor empresarial.</span><span class="sxs-lookup"><span data-stu-id="ef910-104">The topics in this node provide help for the Skype for Business Server Control Panel.</span></span>
   
 
 
