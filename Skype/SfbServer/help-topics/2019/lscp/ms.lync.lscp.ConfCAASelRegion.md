@@ -10,19 +10,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1b79b214-cc7b-4686-b7e2-f451910335fd
-description: Use el cuadro de diálogo Seleccionar regiones para buscar las regiones disponibles en su entorno. Para utilizar una región existente, haga clic en una región en la lista y, a continuación, haga clic en Aceptar.
-ms.openlocfilehash: d86ed557c8d3bbacc4a7d577b25c7a44486c8011
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Use el cuadro de diálogo Seleccionar regiones para buscar las regiones disponibles en su entorno. Para usar una región existente, haga clic en una región de la lista y, a continuación, en Aceptar.
+ms.openlocfilehash: 84d36c557d3f4855c7359f619aaeb4b20bd7eeae
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987399"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020547"
 ---
-# <a name="select-regions"></a><span data-ttu-id="54032-104">Seleccionar regiones</span><span class="sxs-lookup"><span data-stu-id="54032-104">Select Regions</span></span>
+# <a name="select-regions"></a><span data-ttu-id="7c7cf-104">Seleccionar regiones</span><span class="sxs-lookup"><span data-stu-id="7c7cf-104">Select Regions</span></span>
  
-<span data-ttu-id="54032-p102">Use el cuadro de diálogo **Seleccionar regiones** para buscar las regiones disponibles en su entorno. Para usar una región existente, haga clic en una región de la lista y, a continuación, en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="54032-p102">Use the **Select Regions** dialog box to find regions available in your environment. To use an existing region, click a region in the list and then click **OK**.</span></span>
+<span data-ttu-id="7c7cf-p102">Use el cuadro de diálogo **Seleccionar regiones** para buscar las regiones disponibles en su entorno. Para usar una región existente, haga clic en una región de la lista y, a continuación, en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="7c7cf-p102">Use the **Select Regions** dialog box to find regions available in your environment. To use an existing region, click a region in the list and then click **OK**.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="54032-107">Para recuperar todas las regiones disponibles, no escriba nada en el campo de búsqueda y haga clic en el icono de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="54032-107">To retrieve all available regions, do not type anything in the search box and then click the search icon.</span></span> 
+> <span data-ttu-id="7c7cf-107">Para recuperar todas las regiones disponibles, no escriba nada en el campo de búsqueda y haga clic en el icono de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="7c7cf-107">To retrieve all available regions, do not type anything in the search box and then click the search icon.</span></span> 
   
 
