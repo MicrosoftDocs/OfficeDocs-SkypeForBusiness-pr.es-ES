@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bf967ad7-c36b-4a8b-8e78-eb11f9365a47
+ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 9946c331776d75307ca8e28033ce745a176d6052
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 65f98d6ddff1c7c215103285aecac5c4dcae8e54
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19971457"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965852"
 ---
 # <a name="sip-federated-providers-create-new-or-edit-existing"></a>Proveedores federados SIP: Crear nuevo o editar existente
  
