@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
+ROBOTS: NOINDEX, NOFOLLOW
 description: Para agregar direcciones URL sencillas adicionales a la definición de la implementación, especifique la dirección URL de la nueva dirección URL simple.
-ms.openlocfilehash: d86c383213b5dfa5472cec9cb46f67abf220e289
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ef26dc814340f9dd2acfa57290d5493946ba5f15
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006001"
+ms.locfileid: "21061160"
 ---
 # <a name="add-simple-url"></a>Agregar dirección URL sencilla
  

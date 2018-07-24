@@ -11,13 +11,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
+ROBOTS: NOINDEX, NOFOLLOW
 description: Skype para Business Server Audio y vídeo (A / V) conferencia permite a los usuarios participar en conferencias de vídeo o audio en tiempo real.
-ms.openlocfilehash: f7ce477d02f3fb06b8681b7365de2c4895a7e442
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: bf81bd6c6dfa0dbde4bbea4e6c0bdce17b89e3ed
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20043804"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21057787"
 ---
 # <a name="audio-video-conferencing-planning-tool"></a>Conferencias de vídeo audio (herramienta de planeación)
  

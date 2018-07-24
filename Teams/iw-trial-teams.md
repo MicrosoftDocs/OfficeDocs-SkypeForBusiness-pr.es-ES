@@ -3,7 +3,7 @@ title: Administrar la oferta de prueba de la nube de Microsoft los equipos comer
 author: ChuckEdmonson
 ms.author: chucked
 manager: lolaj
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -11,12 +11,12 @@ ms.service: msteams
 localization_priority: Normal
 description: Los usuarios de Office 365 que no tienen licencia para Microsoft Teams pueden iniciar una versión de prueba de 1 año de los equipos.
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: ec12fa2687255fb3097d4bbe637389bc643d77cd
-ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
+ms.openlocfilehash: 23d36f161b19af18ff379c2a929ea5b701b8cc6b
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20412336"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21068926"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Administrar la oferta de prueba de la nube de Microsoft los equipos comerciales
 =======================================================
@@ -33,7 +33,7 @@ Los planes de servicio incluidos en esta oferta son:
 - Equipos de Microsoft (Teams1, los equipos de trabajador de la información)
 - Office Online
 - Planeación de PowerApps para Office 365 1
-- SharePoint Online Plan 1
+- Quiosco de SharePoint Online
 - Influir hora de elegir
 - Yammer Enterprise
 
@@ -56,9 +56,11 @@ Los usuarios optan pueden registrarse para la oferta de prueba iniciando sesión
 
 ![Captura de pantalla de la página de inicio para la versión de evaluación de los equipos trabajador de la información.](media/iw-trial-start-screen.png)
 
-La versión de evaluación de trabajador de la información concede una versión de prueba de 1 año en toda la organización. Usuarios optan adicionales dentro de la organización pueden registrarse para la versión de evaluación de trabajador de la información a través del mismo proceso.
- 
+La versión de evaluación concede una versión de prueba de un año en toda la organización. Esta versión de prueba hará 500.000 licencias disponibles para la asignación. Para cada licencia asignada, la versión de evaluación asigna 2 GB de almacenamiento de SharePoint Online. Los usuarios optan adicionales dentro de la organización pueden registrarse para la versión de prueba pasando por el mismo proceso.
+
 Todos los ensayos dentro de la organización compartan el mismo fechas inicial y final, que es la fecha en que el primer usuario firmado para la versión de evaluación. Por ejemplo, si un usuario inicia la primera versión de evaluación en el 25 de abril de 2018 y el usuario B inicia una versión de prueba en 3 de junio de 2018, versión de prueba de los dos usuarios caducará el 25 de abril de 2019.
+
+La primera persona que se registró para la versión de prueba es el "propietario" de la suscripción. Sólo esa persona puede administrar la suscripción. 
 
 ## <a name="manage-the-trial"></a>Administración de la versión de evaluación
 

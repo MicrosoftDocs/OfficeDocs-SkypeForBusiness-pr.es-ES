@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 814f5b06-3e5a-4a39-804d-7f7d3fbee54d
+ROBOTS: NOINDEX, NOFOLLOW
 description: Especificar el grupo de servidores de mediación o próximo salto del servidor de mediación seleccionando el grupo definido de Front-End de Enterprise Edition o Standard Edition front-end de la lista desplegable. Un Director o el Director de grupo de servidores no es una selección válida para un grupo de servidores de mediación o el próximo salto del servidor de mediación y no aparecerán en la lista. Haga clic en Aceptar para guardar los cambios. Haga clic en Cancelar para descartar los cambios y salir de la página de propiedades.
-ms.openlocfilehash: 1edf712ad9bb21aba6b05c964b6e40d0c247c240
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 783c7d8c5cd0f7a85ceb3500f3583340ad49a272
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19966273"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21064656"
 ---
 # <a name="mediation-next-hop-settings-expander"></a>Expansor de configuración de próximo salto de mediación
  

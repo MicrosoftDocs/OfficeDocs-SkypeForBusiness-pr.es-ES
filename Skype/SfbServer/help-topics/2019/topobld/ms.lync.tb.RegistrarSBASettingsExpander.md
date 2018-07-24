@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Editar la configuración de resistencia y configure las siguientes propiedades:'
-ms.openlocfilehash: 78c25613f1a552dbcfbfcaed9db787cf9a0fb7eb
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 83ad2a3bff1e305d3d8559c6244313ebf05f173f
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976777"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21057205"
 ---
 # <a name="registrar-sba-settings-expander"></a>Expansor de configuración SBA de registrador
  

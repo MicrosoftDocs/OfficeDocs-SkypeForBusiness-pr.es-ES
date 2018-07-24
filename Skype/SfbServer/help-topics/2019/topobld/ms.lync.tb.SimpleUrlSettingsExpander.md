@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para especificar nuevas, quitar las ya existentes, o para cambiar las direcciones URL sencillas de la activa, haga lo siguiente:'
-ms.openlocfilehash: 064d26bb3b77f0ba151ee3a6714e0ac233a7bfa0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a46096db273f80753588025d0c81bb07b1d03416
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20990598"
+ms.locfileid: "21060569"
 ---
 # <a name="simple-url-settings-expander"></a>Expansor de configuración de dirección URL sencilla
  

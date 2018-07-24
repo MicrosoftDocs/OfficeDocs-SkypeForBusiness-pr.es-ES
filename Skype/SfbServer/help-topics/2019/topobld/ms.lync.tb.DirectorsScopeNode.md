@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
-description: 'El nodo grupos de servidores de Director enumera los grupos de directores en la topología. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: c50862bdcb9ace37d58098134f726fe718df6f20
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'El nodo Grupos de directores contiene los grupos de directores de la topología. Puede efectuar la acción siguiente:'
+ms.openlocfilehash: 0a71f6395f62716fe54b07e7660c362ef4d20a96
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974792"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21063934"
 ---
 # <a name="directors-scope-node"></a>Nodo de ámbito de directores
  

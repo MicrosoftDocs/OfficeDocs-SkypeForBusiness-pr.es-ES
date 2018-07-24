@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para definir el almacén de SQL Server de supervisión mediante la configuración de las siguientes propiedades:'
-ms.openlocfilehash: bb53d2105bc3a412b06d1fc51fbd4413c49271e6
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 14528aeb86d34f96d54d3cf4088ea8d2b08dfd88
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988337"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21065344"
 ---
 # <a name="add-front-end-monitoring-store-page"></a>Agregar página de almacén de supervisión de Front-End
  

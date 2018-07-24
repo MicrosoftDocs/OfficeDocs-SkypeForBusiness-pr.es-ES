@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
-description: 'El nodo de puertas de enlace RTC enumera las puertas de enlace de telefónica conmutada (RTC) de las redes en la topología. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: 7a6f84b8fcc4d8180ddd5dbc8a5ee52a3b753512
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'El nodo Puertas de enlace RTC contiene las puertas de enlace de red telefónica conmutada (RTC) de la topología. Puede efectuar la acción siguiente:'
+ms.openlocfilehash: 094dbf42d9e8acd1bda9994c3de1a1049d211941
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19975998"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21059080"
 ---
 # <a name="pstn-gateways-scope-node"></a>Nodo de ámbito de puertas de enlace RTC
  

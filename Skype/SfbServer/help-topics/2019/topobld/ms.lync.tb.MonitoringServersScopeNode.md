@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'El nodo servidores de supervisión muestra los servidores de supervisión en la topología. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: d873de289ef94c780cf862ccc5b195f0847c049a
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: fcb72dcbcbca0c2242785aaec95d36006896e5f6
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19968366"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21057198"
 ---
 # <a name="monitoring-servers-scope-node"></a>Nodo de ámbito de servidores de supervisión
  

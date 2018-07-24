@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc94f75e-9abe-4e02-b835-3c845b317d65
+ROBOTS: NOINDEX, NOFOLLOW
 description: El control de admisión de llamadas (CAC) es una red de regiones, sitios y subredes que permiten colocar restricciones en las transmisiones de audio y vídeo según el ancho de banda disponible. Después de configurar la red para el control de admisión de llamadas, deberá habilitarlo para forzar las limitaciones de ancho de banda.
-ms.openlocfilehash: b555b7415d96ec99e827ac20a8055fabca3b0a0b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 5a6f1627c2d15b62a9c89c9714ca1fc23b416468
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976614"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21062167"
 ---
 # <a name="call-admission-control-settings-expander"></a>Expansor de configuración de control de admisión de llamadas
  

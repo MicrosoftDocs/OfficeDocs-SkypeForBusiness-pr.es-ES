@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
-description: 'El nodo servidores de aplicaciones de confianza enumera los grupos de aplicaciones de confianza en este sitio. Los grupos de servidores de aplicaciones de confianza contienen servidores que ejecuten las aplicaciones de confianza de comunicaciones unificadas de Microsoft, pero no ejecute Skype para funciones de servidor empresarial. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: 4d71f5527b97b290c03ff125b49c5a2a57d22d3d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'El nodo Servidores de aplicaciones de confianza contiene los grupos de aplicaciones de confianza de este sitio. Los grupos de servidores de aplicaciones de confianza contienen servidores que ejecuten las aplicaciones de confianza de comunicaciones unificadas de Microsoft, pero no ejecute Skype para funciones de servidor empresarial. Puede efectuar la acción siguiente:'
+ms.openlocfilehash: 24f167f8ab81983d596c2686da7342c6858830ff
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19990066"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21062625"
 ---
 # <a name="external-applications-scope-node"></a>Nodo de ámbito de aplicaciones externas
  

@@ -11,13 +11,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
+ROBOTS: NOINDEX, NOFOLLOW
 description: Los servidores perimetrales pueden configurarse para permitir que a los usuarios internos y externos acceso a los contactos pertenecientes a organizaciones asociadas o servicios.
-ms.openlocfilehash: d3541fae214d64a87f9bbc51603e3ae19346c686
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f42767554ebfb588609b05948ff0162597582d9b
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983815"
+ms.locfileid: "21068295"
 ---
 # <a name="federation-planning-tool"></a>Federación (herramienta de planeación)
  

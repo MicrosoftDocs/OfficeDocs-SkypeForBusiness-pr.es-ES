@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
+ROBOTS: NOINDEX, NOFOLLOW
 description: Para editar las propiedades de una base de datos de SQL Server, debe cambiar la instancia de base de datos de SQL Server. No puede usar el cuadro de diálogo Editar propiedades para realizar tareas tales como mover la base de datos del servidor de archivado de un equipo a otro. Además, no puede usar el cuadro de diálogo Editar propiedades para cambiar la instancia de SQL Server que hospeda el almacén de Administración Central.
-ms.openlocfilehash: d9ba91dca9cb6e0e779f154925a4d00065458866
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: aaab5adde793a585d632c3e246f0023c92f244b0
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19972234"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21066510"
 ---
 # <a name="sql-store-settings-expander"></a>Expansor de configuración de almacén de SQL
  

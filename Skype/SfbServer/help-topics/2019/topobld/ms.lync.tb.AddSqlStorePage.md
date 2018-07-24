@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para definir un nuevo almacén de SQL, lo que significa que se están especificando una base de datos basada en SQL Server y una instancia de SQL Server, una instancia predeterminada o una instancia con nombre: especifique lo siguiente.'
-ms.openlocfilehash: 3e61767b1c014692a5375ede6de103fffcf5284f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 1ce9e4a247d2a39c10c533ad13ac0d8c7b9e18c6
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987308"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21063867"
 ---
 # <a name="add-sql-store"></a>Agregar almacén de SQL
  

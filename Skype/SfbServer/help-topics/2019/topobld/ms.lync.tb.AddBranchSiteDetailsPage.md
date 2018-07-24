@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para especificar los detalles de un sitio, haga lo siguiente:'
-ms.openlocfilehash: b9ea732078d97bb1768db3b54c138377cbac39ca
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 58d8edfc6ea78cfcf25018e37e4b848a437ee1af
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19996978"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21057268"
 ---
 # <a name="add-branch-site-details"></a>Agregar detalles de sitio de sucursal
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ea4474a-7453-49a9-ba38-2c7dc4337b05
+ROBOTS: NOINDEX, NOFOLLOW
 description: Cada grupo de servidores Front-End y aplicación de sucursal con funciones de supervivencia sólo pueden tener un que servidor de supervisión asociado con ella. Cuando está habilitada la supervisión para el sitio, el servidor de supervisión proporciona detalles de llamadas (CDR) y creación de informes y recopilación de datos de calidad de la experiencia (QoE).
-ms.openlocfilehash: 61f6160fb4fcfbd069d2f074fdf249c80580dc7b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 6180f7d6fc48db5293ffae8eaba5f95c34267358
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19996943"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21060816"
 ---
 # <a name="associate-front-end-with-monitoring"></a>Asociar Front-End con supervisión
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
+ROBOTS: NOINDEX, NOFOLLOW
 description: Definir los equipos que va a formar parte de un grupo de servidores de Chat persistente escribiendo el nombre de dominio completo (FQDN) en el FQDN del equipo. Este nombre debe coincidir con el nombre del equipo que figura en los registros host (A o AAAA) del sistema de nombres de dominio (DNS).
-ms.openlocfilehash: 922b3dc602fd7e1f4900bca08eefae796c4c8823
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0aedfef5aefeab8a483450df938e174dd1edf6ae
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "21016660"
+ms.locfileid: "21060576"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>Definir equipos en grupo de servidores de chat persistente
 

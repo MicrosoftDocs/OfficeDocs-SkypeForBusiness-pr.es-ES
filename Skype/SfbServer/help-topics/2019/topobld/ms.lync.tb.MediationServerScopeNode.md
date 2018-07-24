@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bad9844-2d3c-4ac7-adde-5b382f02d18d
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra los puertos de escucha y las puertas de enlace de red telefónica conmutada (RTC) asociadas a este grupo de servidores de mediación. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: d03f9cda4ff2342add31cd6a5bf51366fc800ac3
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 1cd5a0f3997004824ee85d9930b331d0c7faccab
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988673"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21066383"
 ---
 # <a name="mediation-server-scope-node"></a>Nodo de ámbito del servidor de mediación
  

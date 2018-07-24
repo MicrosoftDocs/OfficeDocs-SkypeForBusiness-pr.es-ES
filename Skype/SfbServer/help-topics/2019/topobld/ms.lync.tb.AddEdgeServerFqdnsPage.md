@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
+ROBOTS: NOINDEX, NOFOLLOW
 description: Debe especificar un nombre de dominio completo (FQDN) para el servicio de servidor perimetral de acceso. Si no seleccionó el uso de un FQDN único &amp; opción de dirección IP en la seleccionar las características de página, también debe especificar un FQDN para el servicio perimetral de conferencia Web y en lugar de A / servicio perimetral A/v.
-ms.openlocfilehash: 74ddd2ed5359ce535d8c447b640f5fae44bb6339
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 1387726c9f4cffd22d7e9becd7908846b734357d
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19990122"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21067605"
 ---
 # <a name="add-edge-server-fqdn"></a>Agregar el FQDN del servidor perimetral
  

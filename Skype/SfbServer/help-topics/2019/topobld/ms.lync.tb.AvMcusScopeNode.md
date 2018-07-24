@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
-description: 'El nodo grupos de servidores de conferencia A/v enumera los grupos de servidores de conferencia A/v en su topología. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: fb4c18ef6698be10771f8eef857db22ffeb3dbaf
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'El nodo Grupos de servidores de conferencia A/V contiene los grupos de servidores de conferencia A/V de la topología. Puede efectuar la acción siguiente:'
+ms.openlocfilehash: a3f4b1d3f2cc533533b7049ba83d89f475e4f6d5
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988491"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21061358"
 ---
 # <a name="av-mcus-scope-node"></a>Nodo de ámbito MCU AV
  

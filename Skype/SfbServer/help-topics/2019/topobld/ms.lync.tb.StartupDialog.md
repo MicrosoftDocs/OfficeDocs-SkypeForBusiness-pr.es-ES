@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Inicie el generador de topología para configurar las propiedades y la configuración de la implementación. En el inicio, el generador de topología muestra un cuadro de diálogo que le pregunta ¿cuál será el origen del documento de topología. Seleccione una de las tres opciones:'
-ms.openlocfilehash: ef7a55e36fd360ec86eb166e653f802b7eb270c3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d0bd1ca60710b5e2b11e5a393b0536c947b914fc
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "21020569"
+ms.locfileid: "21064303"
 ---
 # <a name="topology-builder-startup-dialog"></a>Cuadro de diálogo de inicio del Generador de topologías
  

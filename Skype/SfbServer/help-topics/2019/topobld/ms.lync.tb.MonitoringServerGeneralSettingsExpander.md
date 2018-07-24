@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
-description: 'En el generador, puede editar las propiedades de un servidor de supervisión individual haciendo clic en el servidor de supervisión en el árbol de consola y, a continuación, haga clic en acción en la barra de herramientas, o haciendo clic en una tarea en el panel de acciones y, a continuación, haga clic en Editar propiedades y el cambio de cualquiera de las siguientes opciones:'
-ms.openlocfilehash: fb4bc9a26cddc3497a7f80f02821ae578742a199
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'En el Generador de topologías puede editar las propiedades de un servidor de supervisión concreto, ya sea haciendo clic con el botón secundario en el servidor de supervisión en el árbol de consola; haciendo clic en Acción en la barra de herramientas; o haciendo clic en una tarea del panel Acciones, haciendo clic en Editar propiedades y, a continuación, cambiando cualquiera de las opciones siguientes:'
+ms.openlocfilehash: fbea857fc4588ae43b936e647f0d2697a5da5cd2
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19977043"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21057383"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>Expansor de configuración general del servidor de supervisión
  

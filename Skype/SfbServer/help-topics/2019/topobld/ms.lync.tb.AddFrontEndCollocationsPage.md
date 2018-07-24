@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
+ROBOTS: NOINDEX, NOFOLLOW
 description: Para una implementación de Enterprise Edition, el servicio de conferencia A/v se instala también en el grupo de servidores Front-End. También puede instalar el servidor de mediación en el grupo de servidores Front-End, o puede implementar como un servidor independiente. El servicio de conferencia A/v siempre se instala también si se habilita la conferencia.
-ms.openlocfilehash: 58f06cda9927c7596844fd3cda884bdfe48e32a7
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: a7e81191b9f187a87fbe29f56919a4e6c77823ef
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974981"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069296"
 ---
 # <a name="add-front-end-server-collocations"></a>Agregar colocaciones de servidor Front-End
  

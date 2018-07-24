@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Nodo muestra el nombre de dominio completo (FQDN), asociado de servidor de mediación y otra información básica acerca de esta puerta de enlace de telefónica conmutada (RTC). Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: 1c511c68f38cda0d135037b098b1192381fabde3
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: dcdb2ee6710f2c5b13fb3ff3b25b4dd229155f40
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979991"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069063"
 ---
 # <a name="pstn-gateway-scope-node"></a>Nodo de ámbito de puerta de enlace RTC
  

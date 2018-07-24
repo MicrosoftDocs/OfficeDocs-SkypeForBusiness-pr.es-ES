@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Botón secundario haga clic en un tronco SIP existente en el generador de topología para realizar lo siguiente:'
-ms.openlocfilehash: 151fe7b7a00ae91a8828058826212027ab6f3619
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 2ce46a56efd8f17c2a59ca27c8b8730712d6bc01
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979956"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21061715"
 ---
 # <a name="trunk-scope-node"></a>Nodo de ámbito del tronco
  

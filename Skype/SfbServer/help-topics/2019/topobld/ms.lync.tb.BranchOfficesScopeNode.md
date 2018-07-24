@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
-description: 'El nodo sitios de sucursal enumera los sitios de sucursal que están asociados con este sitio central. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: 7907f5ec8205ae7fbd6d61aef695a501e108f18e
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'El nodo Sitios de sucursal contiene los sitios de sucursal asociados a este sitio central. Puede efectuar la acción siguiente:'
+ms.openlocfilehash: eedc185129fe73bd073f8d8bae540eb9ab2621a6
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997097"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21061724"
 ---
 # <a name="branch-offices-scope-node"></a>Nodo de ámbito de sucursales
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
-description: Para editar o especificar la configuración externa para los servidores perimetrales, primero debe determinar si va a usar direcciones IP independientes para acceso de protocolo de inicio de sesión (SIP), el servicio de servidor perimetral de conferencia Web y el servicio perimetral de Audio y vídeo.
-ms.openlocfilehash: 96d34ed48238da6d3c80b1bb9fb03714560fd89c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Para editar o especificar la configuración externa de los servidores perimetrales, primero debe determinar si va a usar direcciones IP diferentes para el acceso SIP, el servicio de servidor perimetral de conferencia web de y el servicio de servidor perimetral A/V.
+ms.openlocfilehash: 4edc676da68538c9860083b1e27f7e16eb89f846
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19966000"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069585"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>Expansor de configuración de FQDN del servidor perimetral
  

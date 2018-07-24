@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra el nombre de dominio completo (FQDN), los puertos y el almacén de archivos asociado de este grupo de directores. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: 24643997de1000007357515db0883a41dbddac2c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 64590075286b7b88ab4c2097f3fd735a788e5f1c
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987279"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21063278"
 ---
 # <a name="director-scope-node"></a>Nodo de ámbito de director
  
