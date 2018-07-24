@@ -11,16 +11,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
+ROBOTS: NOINDEX, NOFOLLOW
 description: Desvío de medios hace referencia a quitar el servidor de mediación de la ruta de acceso de medios siempre que sea posible para las llamadas con señalización que atraviese el servidor de mediación. Para obtener más detalles, vea Plan para los medios de desvío en Skype para la empresa.
-ms.openlocfilehash: f59c129afbfdcdfaa791d5c6e0606997f72d1bd1
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 601bf7a12a077dc2e820849b92c924711a19da0d
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974288"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21058671"
 ---
-# <a name="media-bypass-planning-tool"></a><span data-ttu-id="36f1c-104">Desvío de medios (herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="36f1c-104">Media Bypass (Planning Tool)</span></span>
+# <a name="media-bypass-planning-tool"></a><span data-ttu-id="df0ad-104">Desvío de medios (herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="df0ad-104">Media Bypass (Planning Tool)</span></span>
  
-<span data-ttu-id="36f1c-105">Desvío de medios hace referencia a quitar el servidor de mediación de la ruta de acceso de medios siempre que sea posible para las llamadas con señalización que atraviese el servidor de mediación.</span><span class="sxs-lookup"><span data-stu-id="36f1c-105">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span> <span data-ttu-id="36f1c-106">Para obtener más detalles, vea [Plan para los medios de desvío en Skype para la empresa](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span><span class="sxs-lookup"><span data-stu-id="36f1c-106">For more details, see [Plan for media bypass in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span></span>
+<span data-ttu-id="df0ad-105">Desvío de medios hace referencia a quitar el servidor de mediación de la ruta de acceso de medios siempre que sea posible para las llamadas con señalización que atraviese el servidor de mediación.</span><span class="sxs-lookup"><span data-stu-id="df0ad-105">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span> <span data-ttu-id="df0ad-106">Para obtener más detalles, vea [Plan para los medios de desvío en Skype para la empresa](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span><span class="sxs-lookup"><span data-stu-id="df0ad-106">For more details, see [Plan for media bypass in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span></span>
   
 
