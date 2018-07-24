@@ -1,26 +1,26 @@
 ---
-title: Informe de detalles de llamadas en Skype Empresarial Server 2015
+title: Informe de detalles de llamadas en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
-description: 'Resumen: Conozca el informe de detalle de llamar utilizado en Skype para Business Server 2015.'
-ms.openlocfilehash: 942562ed33462506c9da137b3e4377e102d0ec98
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Información sobre el informe de detalles de llamadas usadas en Skype para Business Server.'
+ms.openlocfilehash: 3f560a2d4217b5afd61036b39100b39888fe577a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978885"
 ---
-# <a name="call-detail-report-in-skype-for-business-server-2015"></a>Informe de detalles de llamadas en Skype Empresarial Server 2015
+# <a name="call-detail-report-in-skype-for-business-server"></a>Informe de detalles de llamadas en Skype para Business Server
  
-**Resumen:** Obtener información sobre el informe de detalle de llamar utilizado en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre el informe de detalles de llamadas usadas en Skype para Business Server.
   
-El informe de detalle llame a proporciona una vista detallada de una llamada individual; el informe incluye casi toda la calidad de métricas de experiencia y estadísticas recopilados por Skype para Business Server 2015, dividido en secciones de informe como:
+El informe de detalles de llamadas proporciona una visión detallada de una llamada individual; el informe incluye casi todas la calidad de la experiencia métricas y las estadísticas recopiladas por Skype para Business Server, se divide en las secciones de informes, como:
   
 - Información de llamada 
     
@@ -48,17 +48,17 @@ El Informe de detalles de llamadas resulta de gran utilidad para determinar exac
 
 Es posible tener acceso al Informe de detalles de llamadas desde cualquiera de los informes siguientes:
   
-- El [Informe de ubicación en Skype para Business Server 2015](location-report.md) (haciendo clic en el volumen de llamadas o la métrica de porcentaje de llamadas pobres)
+- [Ubicación informe en Skype para Business Server (ubicación-report.md) (haciendo clic en el volumen de llamadas o la métrica porcentaje de llamadas deficientes)
     
-- El [Informe de resumen de calidad Media en Skype para Business Server 2015](summary.md) (haciendo clic en el volumen de llamadas o llamada pobre porcentaje métrica)
+- El [Media Quality Summary Report en Skype para Business Server (summary.md) (haciendo clic en el volumen de llamadas o la métrica porcentaje de llamadas deficientes)
     
-- El [Informe de comparación de calidad Media en Skype para Business Server 2015](comparison.md) (haciendo clic en el [Informe de lista de llamar en Skype para Business Server 2015](call-list-report-0.md) y, a continuación, haga clic en la métrica de detalle).
+- El [Informe de comparación de calidad de medios en Skype para Business Server](comparison.md) (haciendo clic en el [Informe de lista de llamadas en Skype para Business Server](call-list-report-0.md) y, a continuación, haga clic en la métrica detalles).
     
-- El [Informe de rendimiento del servidor en Skype para Business Server 2015](server-performance.md) (haciendo clic en el volumen de llamadas o llamada pobre porcentaje métrica)
+- El [Informe de rendimiento del servidor en Skype para Business Server](server-performance.md) (haciendo clic en el volumen de llamadas o la métrica porcentaje de llamadas deficientes)
     
-- El [Informe de lista de llamar en Skype para Business Server 2015](call-list-report-0.md) (haciendo clic en la métrica de detalle)
+- El [Informe de lista de llamadas en Skype para Business Server](call-list-report-0.md) (haciendo clic en la métrica detalles)
     
-Desde el informe de detalle llame puede acceder el [Dispositivo informe en Skype para Business Server 2015](device-report.md) haciendo clic en cualquiera de las siguientes métricas:
+Desde el informe de detalles de llamadas, puede acceder al [Informe de dispositivos en Skype para Business Server](device-report.md) haciendo clic en cualquiera de las métricas siguientes:
   
 - Dispositivo de captura
     
@@ -82,9 +82,9 @@ Ninguno. No se puede filtrar el informe de detalles de llamadas.
 
 En la tabla siguiente se muestra la información que recoge el informe de detalles de llamadas sobre cada llamada.
   
-**Llamar a métricas de informe de detalle**
+**Métricas del informe de detalles de llamadas**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**PAI de autor de la llamada** <br/> |No  <br/> |P-Asserted-Identity del usuario que inició la llamada. P-Asserted-Identity se utiliza para transmitir la identidad demostrada de un usuario en una red de confianza.  <br/> |
 |**URI de autor de la llamada** <br/> |No  <br/> |Dirección SIP del usuario que inició la llamada.  <br/> |

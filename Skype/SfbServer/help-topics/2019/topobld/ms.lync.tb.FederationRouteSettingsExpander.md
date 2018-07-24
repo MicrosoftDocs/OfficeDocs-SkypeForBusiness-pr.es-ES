@@ -11,18 +11,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 description: Para establecer una asignación de ruta de federación de sitio, primero debe tener habilitada en el servidor perimetral o grupo de servidores perimetrales de federación. Si no está habilitada la federación en el servidor perimetral o grupo de servidores, la configuración de asignación de ruta de federación para el sitio no estará disponible para su modificación.
-ms.openlocfilehash: 7933809dc53be713a9a745e2c1fd100e4de1c6b6
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 260a5dd836adb0c2e99d660f134e57a15a257f18
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988288"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986816"
 ---
 # <a name="federation-route-settings-expander"></a>Expansor de configuración de ruta de federación
  
 Para establecer una asignación de ruta de federación de sitio, primero debe tener habilitada en el servidor perimetral o grupo de servidores perimetrales de federación. Si no está habilitada la federación en el servidor perimetral o grupo de servidores, la configuración de asignación de ruta de federación para el sitio no estará disponible para su modificación.
-  
-## 
 
 Si se ha configurado la configuración de federación en el servidor perimetral o grupo de servidores, puede configurar las siguientes opciones: 
   

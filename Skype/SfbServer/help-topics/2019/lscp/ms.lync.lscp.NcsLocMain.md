@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
+ROBOTS: NOINDEX, NOFOLLOW
 description: Las directivas de ubicación determinan si 9-1-1 mejorado (E9-1-1) está habilitado y el modo de usarlo, así como el modo en que la información de ubicación se usa para usuarios y contactos.
-ms.openlocfilehash: 508aaa6c887d17169ea759e15630975296d27bcb
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 9299b3b909e36a0f0cbfb28b20cc989fe7e09bbd
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964775"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985265"
 ---
 # <a name="location-policy"></a>Directiva de ubicación
  

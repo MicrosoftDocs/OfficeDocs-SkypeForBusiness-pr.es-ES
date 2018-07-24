@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Las configuraciones de archivado sirven para controlar las opciones de archivado de su implementación. Las configuraciones de archivado constan de la configuración global y, de forma opcional, de una o varias configuraciones de sitio y grupo:'
-ms.openlocfilehash: 3cc5c560ebafdf5dbf1ddac05d7c6b25653c0eb4
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 1e85367566618638da8e8c9a826c56eecad6b029
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976875"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974811"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuración de archivado: Crear nueva o editar existente
  
@@ -69,5 +70,5 @@ Especifique las siguientes opciones para configurar los ajustes de una nueva con
     > [!NOTE]
     > Si habilita la integración de Microsoft Exchange, depuración para los usuarios alojados en Exchange y con sus buzones de correo que se colocan en suspensión en contexto se controla mediante Exchange. La única excepción es para los archivos de la conferencia, que se almacenan en el recurso compartido de archivos de Lync Server. Estos archivos se purgan desde el recurso compartido de archivos sólo después de que los archivos se han exportado (que se cargan a Exchange), si selecciona la opción para purgar los datos después de haber exportado los datos de archivado, o después del número máximo especificado de días, si especifica un número máximo de días de retención. 
   
-Para obtener información detallada acerca de la característica de archivado y capacidades, que incluye la integración de Exchange, vea [Planear el archivado en Skype para Business Server 2015](../../../plan-your-deployment/archiving/archiving.md), [implementar el archivado de Skype para Business Server 2015](../../../deploy/deploy-archiving/deploy-archiving.md)y [administrar el archivado en Skype para 2015 empresariales de servidor](../../../manage/archiving/archiving.md).
+Para obtener información detallada acerca de la característica de archivado y capacidades, que incluye la integración de Exchange, consulte [Plan para el archivado en Skype para Business Server](../../../plan-your-deployment/archiving/archiving.md), [implementar el archivado de Skype para Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)y [administrar el archivado en Skype para la empresa Servidor](../../../manage/archiving/archiving.md).
 

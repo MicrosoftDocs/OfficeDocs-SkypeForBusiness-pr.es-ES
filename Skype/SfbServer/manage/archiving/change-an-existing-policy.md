@@ -1,27 +1,26 @@
 ---
-title: Cambiar una directiva de archivado existente en Skype Empresarial Server 2015
+title: Cambiar una directiva en Skype de archivado para Business Server existente
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
-description: 'Resumen: Obtenga información sobre cómo cambiar usuario directivas de archivado para Skype para Business Server 2015.'
-ms.openlocfilehash: 21774eaff8b58c585b347e1f657aa7afcc3b6106
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Obtenga información sobre cómo cambiar las directivas de archivado para Skype para Business Server de usuarios.'
+ms.openlocfilehash: 6c92d4f7e4c2a464d248f6b981165de000615432
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569410"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974654"
 ---
-# <a name="change-an-existing-archiving-policy-in-skype-for-business-server-2015"></a>Cambiar una directiva de archivado existente en Skype Empresarial Server 2015
+# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Cambiar una directiva en Skype de archivado para Business Server existente
  
-**Resumen:** Obtenga información sobre cómo cambiar usuario directivas de archivado para Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo cambiar las directivas de archivado para Skype para Business Server de usuarios.
   
-Cuando se implementa en primer lugar Skype para Business Server 2015, configurar las directivas de archivado iniciales que determinan cómo se implementa el archivado para los usuarios de su implementación. Este tema describe cómo administrar y corregir directivas. 
+Cuando se implementa en primer lugar Skype para Business Server, configuración de directivas de archivado iniciales que determinan cómo se implementa el archivado para los usuarios de la implementación. Este tema describe cómo administrar y corregir directivas. 
   
 ## <a name="change-archiving-policies-by-using-the-control-panel"></a>Cambiar las directivas de archivado con el Panel de control
 
@@ -48,7 +47,7 @@ Cuando se implementa en primer lugar Skype para Business Server 2015, configurar
 6. Haga clic en **Confirmar**.
     
     > [!IMPORTANT]
-    > La configuración de una directiva de usuario únicamente se aplica a los usuarios y grupos de usuarios específicos a los que aplica la directiva. Para obtener información detallada, vea [aplicar una directiva de archivado para los usuarios de Skype para Business Server 2015](apply-a-policy-to-users.md). 
+    > La configuración de una directiva de usuario únicamente se aplica a los usuarios y grupos de usuarios específicos a los que aplica la directiva. Para obtener información detallada, vea [aplicar una directiva de archivado para los usuarios de Skype para Business Server](apply-a-policy-to-users.md). 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>Cambiar las directivas de archivado con Windows PowerShell
 

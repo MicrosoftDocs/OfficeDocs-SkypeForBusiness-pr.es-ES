@@ -1,24 +1,24 @@
 ---
-title: Informe de distribución de errores en Skype Empresarial Server 2015
+title: Informe de distribución de errores en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
-description: 'Resumen: Conozca el informe de distribución falla en Skype para Business Server 2015.'
-ms.openlocfilehash: 002f8e9b72ded0d5793b775e445cd57f20f35af5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Información sobre el informe de distribución de errores en Skype para Business Server.'
+ms.openlocfilehash: 47cb4374f8e443d9c288ab07dc97b1447ccacf45
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008511"
 ---
-# <a name="failure-distribution-report-in-skype-for-business-server-2015"></a>Informe de distribución de errores en Skype Empresarial Server 2015
+# <a name="failure-distribution-report-in-skype-for-business-server"></a>Informe de distribución de errores en Skype para Business Server
  
-**Resumen:** Obtener información sobre el informe de distribución falla en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre el informe de distribución de errores en Skype para Business Server.
   
 El Informe de distribución de errores clasifica las sesiones con error en las categorías siguientes:
   
@@ -44,13 +44,13 @@ Puede usar estas categorías para determinar dónde se está produciendo exactam
 
 Puede tener acceso al Informe de distribución de errores desde cualquiera de los informes siguientes haciendo clic en la métrica **Volumen de errores esperados** o **Volumen de errores inesperados**:
   
-- [Informe de errores Top en Skype para Business Server 2015](top-failures-report.md)
+- [Informe de errores principales en Skype para Business Server](top-failures-report.md)
     
-- [Informe de diagnóstico de conferencia en Skype para Business Server 2015](conference-diagnostic-report.md)
+- [Informe de diagnósticos de conferencia en Skype para Business Server](conference-diagnostic-report.md)
     
-- [Informe de diagnóstico de actividad Peer-to-Peer de Skype para Business Server 2015](peer-to-peer-activity-diagnostic-report.md)
+- [Informe de diagnóstico de actividad punto a punto en Skype para Business Server](peer-to-peer-activity-diagnostic-report.md)
     
-Desde el informe de distribución de error, puede hacer clic en cualquiera de las siguientes métricas para ver el [Informe de lista de error en Skype para Business Server 2015](failure-list-report.md):
+Desde el informe de distribución de errores, puede hacer clic en cualquiera de las siguientes métricas para ver el [Informe de lista de errores en Skype para Business Server](failure-list-report.md):
   
 - Principales motivos del diagnóstico (sesiones)
     
@@ -84,7 +84,7 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
   
 La siguiente tabla muestra los filtros que puede utilizar con el informe de resumen de conferencia.
   
-**Filtros de informe de distribución de error**
+**Filtros de informes de distribución de errores**
 
 |**Nombre.**|**Descripción**|
 |:-----|:-----|
@@ -99,9 +99,9 @@ La siguiente tabla muestra los filtros que puede utilizar con el informe de resu
 
 La siguiente tabla enumera la información proporcionada en el informe de distribución de errores basándose en el Id. de diagnóstico que aparece con mayor frecuencia.
   
-**Métricas para las principales razones de diagnóstico**
+**Métricas para motivos del diagnóstico destacados**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Clasificación** <br/> |No  <br/> |Clasificación relativa de sesiones con errores basándose en los Id. de diagnóstico. El Id. de diagnóstico es un identificador único (con el formato de un encabezado de diagnóstico MS) adjunto a un mensaje SIP que suele proporcionar información útil para resolver errores.  <br/> |
 |**Principales motivos de diagnóstico** <br/> |No  <br/> |Id. de diagnóstico generado en una sesión.  <br/> |
@@ -111,9 +111,9 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
 
 La siguiente tabla enumera la información proporcionada en el informe de distribución de errores basándose en las modalidades de sesiones que experimentaron más errores.
   
-**Métricas de las modalidades superiores**
+**Métricas para modalidades destacadas**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Clasificación** <br/> |No  <br/> |Clasificación relativa de sesiones con errores basándose en los tipos de sesiones (por ejemplo, una conferencia de audio o vídeo o una sesión de transferencia de archivos de punto a punto).  <br/> |
 |**Principales modalidades** <br/> |No  <br/> |Tipo de sesión.  <br/> |
@@ -123,21 +123,21 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
 
 La siguiente tabla enumera la información proporcionada en el informe de distribución de errores basándose en los grupos de servidores que experimentaron más errores.
   
-**Métricas de grupos principales**
+**Métricas para grupos destacados**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
-|**Clasificación** <br/> |No  <br/> |Clasificación relativa de sesiones fallidas en función del grupo de registrador o servidor perimetral donde se llevó a cabo la sesión.  <br/> |
-|**Principales grupos de servidores** <br/> |No  <br/> |Nombre del grupo del registrador o servidor perimetral.  <br/> |
-|**Sesiones** <br/> |No  <br/> |Número total de sesiones fallidas por grupo de registrador o servidor perimetral.  <br/> |
+|**Clasificación** <br/> |No  <br/> |Clasificación relativa de sesiones con errores basándose en el grupo de registrador o servidor perimetral donde tuvo lugar la sesión.  <br/> |
+|**Principales grupos de servidores** <br/> |No  <br/> |Nombre del grupo de registrador o servidor perimetral.  <br/> |
+|**Sesiones** <br/> |No  <br/> |Número total de sesiones con errores por grupo de registrador o servidor perimetral.  <br/> |
    
 ## <a name="metrics-for-top-sources"></a>Métricas para fuentes destacadas
 
 La siguiente tabla enumera la información proporcionada en el informe de distribución de errores basándose en los equipos que experimentaron más errores.
   
-**Métricas de las fuentes principales**
+**Métricas para fuentes destacadas**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Clasificación** <br/> |No  <br/> |Clasificación relativa de sesiones con errores por equipo.  <br/> |
 |**Principales fuentes** <br/> |No  <br/> |Nombre del equipo que participó en la sesión con errores.  <br/> |
@@ -147,11 +147,11 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
 
 En la siguiente tabla se enumera la información proporcionada en el informe de distribución de errores a partir de los componentes que experimentaron más errores.
   
-**Métricas de componentes principales**
+**Métricas para componentes destacados**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
-|**Clasificación** <br/> |No  <br/> |Clasificación relativa de sesiones fallidas basado en componentes (por ejemplo, ExumRouting, GroupChat o MediationServer).  <br/> |
+|**Clasificación** <br/> |No  <br/> |Clasificación relativa de sesiones con errores basándose en el componente (por ejemplo, ExumRouting, GroupChat o MediationServer).  <br/> |
 |**Principales componentes** <br/> |No  <br/> |Nombre del componente que participó en la sesión con errores.  <br/> |
 |**Sesiones** <br/> |No  <br/> |Cantidad total de sesiones con errores por componente.  <br/> |
    
@@ -159,9 +159,9 @@ En la siguiente tabla se enumera la información proporcionada en el informe de 
 
 La siguiente tabla enumera la información proporcionada en el informe de distribución de errores basándose en los usuarios que experimentaron más errores al intentar llamar a otra persona (denominados remitentes).
   
-**Métricas de la parte superior de los usuarios**
+**Métricas para usuarios destacados**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Clasificación** <br/> |No  <br/> |Clasificación relativa de sesiones con errores basándose en el usuario invitado a unirse a la sesión.  <br/> |
 |**Principales remitentes** <br/> |No  <br/> |Dirección SIP del usuario invitado a unirse a la sesión.  <br/> |
@@ -171,7 +171,7 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
 
 La siguiente tabla enumera la información proporcionada en el informe de distribución de errores basándose en los usuarios que experimentaron más errores cuando otro usuario intentó llamarlos (denominados destinatarios).
   
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Clasificación** <br/> |No  <br/> |Clasificación relativa de sesiones con errores basándose en el usuario que inició la sesión.  <br/> |
 |**Principales destinatarios** <br/> |No  <br/> |Dirección SIP del usuario que inició la sesión.  <br/> |
@@ -181,9 +181,9 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
 
 La siguiente tabla enumera la información proporcionada en el informe de distribución de errores basándose en el software extremo que experimentó más errores.
   
-**Métricas para agentes de usuario superior**
+**Métricas para agentes de usuario destacados**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Clasificación** <br/> |No  <br/> |Clasificación relativa de sesiones con errores basándose en el agente de usuario (software) que participa en la sesión. Por ejemplo: RTCC/4.0.0.0 Enrutamiento de entrada/4.0.0.0.  <br/> |
 |**Principales agentes de usuario** <br/> |No  <br/> |Nombre del agente de usuario que participó en la sesión con errores.  <br/> |

@@ -1,9 +1,9 @@
 ---
-title: Registrar SBA configuración Expander
+title: Expansor de configuración SBA de registrador
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,25 +11,26 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
-description: 'Modificar las opciones de resiliencia y configurar las siguientes propiedades:'
-ms.openlocfilehash: cdc367d1f010749e72ea2144e757d673bd41ba4a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Editar la configuración de resistencia y configure las siguientes propiedades:'
+ms.openlocfilehash: 201ccc2ed52d5f483da5a66998aaf988bdeef268
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973097"
 ---
-# <a name="registrar-sba-settings-expander"></a>Registrar SBA configuración Expander
+# <a name="registrar-sba-settings-expander"></a>Expansor de configuración SBA de registrador
  
-Modificar las opciones de **resiliencia** y configurar las siguientes propiedades:
+Editar la configuración de **resistencia** y configure las siguientes propiedades:
   
-- Seleccione **servicio de usuario asociados y grupo de registrador auxiliar** de la lista.
+- Seleccione **servicio de usuario asociado y grupo de registrador de copia de seguridad** de la lista.
     
-    Opcionalmente, active la casilla de verificación **automático failover y failback para voz** .
+    De forma opcional, active la casilla de verificación **conmutación automática por error y conmutación por recuperación de Voice** .
     
-    Configurar el **intervalo de detección del error de voz (s)** y el **intervalo de recuperación tras error de voz (s)**. De forma predeterminada, los intervalos son 120 segundos para la detección de fallos de voz y 240 segundos para la conmutación por recuperación de voz.
+    Configurar el **intervalo de detección de error de voz (s)** y el **intervalo de la conmutación por recuperación de Voice (seg.)**. De forma predeterminada, los intervalos son 120 para la detección de error de voz y 240 segundos para la conmutación por recuperación de Voice.
     
     > [!CAUTION]
-    > El número de segundos que defina para los intervalos de failover y failback debe probarse cuidadosamente para asegurarse de que la resistencia funciona como se esperaba. Establecer un intervalo bajo (es decir, menos de 120 segundos) o la conmutación por error y establecer demasiado estrechamente podrán provocar la conmutación no funciona según lo previsto y real. 
+    > El número de segundos que se definen para los intervalos de conmutación por error y conmutación por recuperación se debería probar detenidamente para asegurarse de que la resistencia funciona según lo previsto. Si se establece el intervalo en baja (es decir, menos de 120 segundos) o la conmutación por error y la conmutación por recuperación establecer demasiado estrechamente pueden ocasionar que la conmutación por error real y la conmutación por recuperación no funciona según lo previsto. 
   
  **Aceptar** Se aceptan y confirman los cambios en el cuadro de diálogo.
   
@@ -39,7 +40,4 @@ Modificar las opciones de **resiliencia** y configurar las siguientes propiedade
   
 ## <a name="see-also"></a>Vea también
 
-#### 
-
-[Planeación para Telefonía IP empresarial resiliencia](http://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
-
+[Planeación de resistencia de Enterprise Voice](http://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)

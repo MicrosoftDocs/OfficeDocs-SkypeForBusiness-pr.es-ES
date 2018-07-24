@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
+ROBOTS: NOINDEX, NOFOLLOW
 description: Use el cuadro de diálogo Seleccionar extensiones de tipo de archivo para seleccionar las extensiones de tipo de archivo que desea bloquear o permitir activando (para bloquear) o desactivando (para permitir) extensiones de tipo de las casillas de verificación junto a las extensiones de archivo. Haga clic en la flecha para expandir una categoría y ver todas las extensiones de tipo de archivo para esa categoría. Si desea seleccionar todas las extensiones de tipo de archivo para una categoría, seleccione el nombre de categoría.
-ms.openlocfilehash: 413a53b7dfa3b3b13534df9e64d57063e5c09102
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: e9dd652859a5aeda5c1d8a95b20964018b88e3de
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979655"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975130"
 ---
 # <a name="select-file-type-extensions"></a>Seleccione las extensiones de tipo de archivo
  
@@ -26,6 +27,6 @@ Si no ve la extensión para un tipo de archivo que desea para seleccionar que ap
   
 Después de agregar todas las extensiones de tipo de archivo que desee a la lista de **extensiones de tipo de archivo seleccionados** , haga clic en **Aceptar**.
   
-Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server](../../../manage/manage.md).
+ 
   
 

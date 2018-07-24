@@ -1,25 +1,24 @@
 ---
-title: Informe de actividad de usuario en Skype Empresarial Server 2015
+title: Informe de actividad de usuario en Skype para Business Server 25
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
-description: 'Resumen: Información sobre el informe de actividad de usuario en Skype para Business Server 2015.'
-ms.openlocfilehash: ed0e61d2e5593287c4f793d8b0c4cf647d772478
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Información sobre el informe de actividad de usuario en Skype para Business Server.'
+ms.openlocfilehash: 13e5eb691e81994e2fac368244522fdcab2003df
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569396"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981209"
 ---
-# <a name="user-activity-report-in-skype-for-business-server-2015"></a>Informe de actividad de usuario en Skype Empresarial Server 2015
+# <a name="user-activity-report-in-skype-for-business-server"></a>Informe de actividad de usuario en Skype para Business Server
  
-**Resumen:** Obtenga información sobre el informe de actividad de usuario en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre el informe de actividad de usuario en Skype para Business Server.
   
 El Informe de actividad de usuario proporciona una lista detallada de sesiones de conferencia y de punto a punto realizadas por sus usuarios en un período determinado. A diferencia de muchos de los Informes de supervisión, el Informe de actividad de usuario une cada llamada a usuarios individuales. Por ejemplo, las sesiones de punto a punto especifican los URI del SIP de la persona que inició la llamada (el usuario De) y la persona a la que se realizó la llamada (el usuario Para). Si expande la información de una conferencia, verá una lista de todos los participantes de la conferencia y el rol que desempeñaban en esa conferencia.
   
@@ -41,14 +40,14 @@ Ken.My
   
 ## <a name="to-access-the-user-activity-report"></a>Acceso al informe de actividad de usuario
 
-Para obtener al Informe de actividad de usuario hay que ir a la página de inicio de Informes de supervisión. También puede alcanzar el informe de actividad de usuario, haga clic en la métrica URI del usuario en el [Informe de inventario de teléfono IP en Skype para Business Server 2015](ip-phone-inventory-report.md). Desde el Informe de actividad de usuario, puede hacer clic en el URI de conferencia (para una conferencia) para obtener acceso al Informe de detalles de conferencia. De forma similar, al hacer clic en la métrica detalles para una llamada punto a punto le lleva al [informe de detalles de la sesión de punto a punto en Skype para Business Server 2015](peer-to-peer-session-detail-report.md).
+Para obtener al Informe de actividad de usuario hay que ir a la página de inicio de Informes de supervisión. También puede alcanzar el informe de actividad de usuario, haga clic en la métrica URI del usuario en el [Informe de inventario de teléfono IP en Skype para Business Server](ip-phone-inventory-report.md). Desde el Informe de actividad de usuario, puede hacer clic en el URI de conferencia (para una conferencia) para obtener acceso al Informe de detalles de conferencia. De forma similar, al hacer clic en la métrica detalles para una llamada punto a punto le lleva al [informe de detalles de la sesión de punto a punto en Skype para Business Server](peer-to-peer-session-detail-report.md).
   
 ## <a name="making-the-best-use-of-the-user-activity-report"></a>Hacer el mejor uso del informe de actividad de usuario
 
-Aunque hay mucha información buena en el Informe de actividad de usuario, esa información puede a veces ser difícil de encontrar. Por ejemplo, toda la actividad de usuario que se lleva a cabo en la organización durante un período especificado se incluye en el informe de actividad de usuario; que significa ocultas, dentro del informe es información sobre qué usuarios utilizaron en realidad Skype para Business Server 2015 de alguna manera.
+Aunque hay mucha información buena en el Informe de actividad de usuario, esa información puede a veces ser difícil de encontrar. Por ejemplo, toda la actividad de usuario que se lleva a cabo en la organización durante un período especificado se incluye en el informe de actividad de usuario; que significa ocultas, dentro del informe es información sobre qué usuarios utilizaron en realidad Skype para Business Server de alguna manera.
   
 > [!NOTE]
-> Técnicamente, es posible que alguna actividad de usuario es posible que vaya queda sin registrar: mientras Skype para Business Server se esfuerza por mantener la información acerca de todas las llamadas de teléfono, es posible que una llamada podría se han realizado sin la información acerca de la llamada que se escriben en el base de datos. Skype para Business Server está diseñado para ofrecer un vistazo extremadamente preciso pero no necesariamente perfecto a cómo se utiliza Skype para Business Server 2015. (El hecho de que no hay ninguna garantía de que se registran el 100% de todas las llamadas explica por qué Skype para supervisar un servidor empresarial no debe usarse como un sistema de facturación.) Segundo, un informe de supervisión puede sólo para mostrar, como máximo, 1.000 registros. Según la cantidad de actividad de usuario que tenga y el período de tiempo con el que trabaje, eso significa que su consulta podría no devolverle todos los datos realmente almacenados en la base de datos. 
+> Técnicamente, es posible que alguna actividad de usuario es posible que vaya queda sin registrar: mientras Skype para Business Server se esfuerza por mantener la información acerca de todas las llamadas de teléfono, es posible que una llamada podría se han realizado sin la información acerca de la llamada que se escriben en el base de datos. Skype para Business Server está diseñado para ofrecer un vistazo extremadamente preciso pero no necesariamente perfecto a cómo se utiliza Skype para Business Server. (El hecho de que no hay ninguna garantía de que se registran el 100% de todas las llamadas explica por qué Skype para supervisar un servidor empresarial no debe usarse como un sistema de facturación.) Segundo, un informe de supervisión puede sólo para mostrar, como máximo, 1.000 registros. Según la cantidad de actividad de usuario que tenga y el período de tiempo con el que trabaje, eso significa que su consulta podría no devolverle todos los datos realmente almacenados en la base de datos. 
   
 - ¿Qué usuarios utilizaron en realidad el sistema durante este período?
     
@@ -127,9 +126,9 @@ La siguiente tabla muestra los filtros que puede utilizar con el informe de acti
 
 En la siguiente tabla se muestra la información proporcionada en el informe de actividad de usuario correspondiente a sesiones punto a punto (es decir, sesiones con solo dos participantes).
   
-**Métricas para las sesiones de punto a punto**
+**Métricas de las sesiones punto a punto**
 
-|**Nombre.**|**¿Puede ordenar por este elemento?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Detalle** <br/> |No  <br/> |Al hacer clic en este elemento, el informe le muestra el informe de detalles de sesiones punto a punto correspondiente a la sesión seleccionada.  <br/> |
 |**Remitente** <br/> |Sí  <br/> |Dirección SIP del usuario que inició la sesión punto a punto.  <br/> |
@@ -146,7 +145,7 @@ En la siguiente tabla se muestra la información proporcionada en el informe de 
   
 **Métricas de las sesiones de conferencia**
 
-|**Nombre.**|**¿Puede ordenar por este elemento?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**URI de conferencia** <br/> |Sí  <br/> |Identificador único de la conferencia. Al hacer clic en este elemento, el informe le muestra el informe de detalles de conferencia de la sesión seleccionada. Al desplegar este elemento, el informe le muestra información sobre los participantes en la conferencia. Para más información, mire la sección "Métricas de los participantes en las conferencias" en este mismo tema.  <br/> |
 |**Organizador** <br/> |Sí  <br/> |Dirección SIP del usuario que organizó la conferencia  <br/> |
@@ -158,9 +157,9 @@ En la siguiente tabla se muestra la información proporcionada en el informe de 
 
 En la tabla siguiente se muestra la información que recoge el informe de actividad de usuario sobre cada participante en una conferencia.
   
-**Métricas de participantes de la conferencia**
+**Métricas de los participantes en conferencias**
 
-|**Nombre.**|**¿Puede ordenar por este elemento?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Rol** <br/> |No  <br/> |Rol del usuario en la conferencia (por ejemplo, moderador).  <br/> |
 |**Participante** <br/> |No  <br/> |Dirección SIP del usuario.  <br/> |

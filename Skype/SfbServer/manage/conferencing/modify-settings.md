@@ -1,32 +1,32 @@
 ---
-title: Modificar las opciones de configuración de reuniones en Skype Empresarial Server 2015
+title: Modificar valores de configuración de Skype para Business Server de la reunión
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
-description: 'Resumen: Conozca cómo modificar valores de configuración de Skype para Business Server 2015 de reunión.'
-ms.openlocfilehash: 95f28f35859553f79fc6f74f8850f224bda54deb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información sobre cómo modificar los valores de configuración de Skype para Business Server de la reunión.'
+ms.openlocfilehash: b4b8307711fcf7b120c867debe5ab3e2978f6ef7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978970"
 ---
-# <a name="modify-meeting-configuration-settings-in-skype-for-business-server-2015"></a>Modificar las opciones de configuración de reuniones en Skype Empresarial Server 2015
+# <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Modificar valores de configuración de Skype para Business Server de la reunión
  
-**Resumen:** Obtenga información sobre cómo modificar valores de configuración de Skype para Business Server 2015 de reunión.
+**Resumen:** Obtenga información sobre cómo modificar los valores de configuración de Skype para Business Server de la reunión.
   
-Puede modificar valores de configuración de reunión utilizando Skype para Panel de Control de servidor empresarial o mediante Skype para el Shell de administración de servidor de Business.
+Puede modificar una configuración de reunión mediante el uso de Skype para el Panel de Control de servidor empresarial o mediante el uso de Skype para Shell de administración de servidor empresarial.
   
-## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Modificar valores de configuración de la reunión con Skype para Panel de Control de servidor empresarial
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Modificar una configuración de reunión mediante el uso de Skype para el Panel de Control de servidor empresarial
 
 1. Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
     
-2.  Abre Skype para Panel de Control del servidor de empresa.
+2.  Abra Skype para el Panel de Control de servidor empresarial.
     
 3. En la barra de navegación izquierda, haga clic en **Conferencia** y después en **Configuración de reunión**.
     
@@ -36,7 +36,7 @@ Puede modificar valores de configuración de reunión utilizando Skype para Pane
     
 6. Haga clic en **Confirmar**.
     
-## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Modificar valores de configuración de la reunión con Skype para el Shell de administración de servidor empresarial
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Modificar una configuración de reunión mediante el uso de Skype para Shell de administración de servidor empresarial
 
 Para modificar las opciones de configuración de la reunión, use el cmdlet **Set-CsMeetingConfiguration**.
   

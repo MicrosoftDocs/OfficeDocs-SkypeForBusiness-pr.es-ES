@@ -1,9 +1,9 @@
 ---
-title: Ampliador de configuración General del servidor de mediación de Lync Server 2010
+title: Expansor de configuración General del servidor de mediación para Lync Server 2010
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,43 +11,41 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
-description: 'Editar las propiedades de los servidores de mediación en este cuadro de diálogo. En el lado izquierdo es un conjunto de vínculos rápidos para pasar a la configuración de opciones generales, ajustes de salto siguiente y configuración de puerta de enlace PSTN. En cada sección son los siguientes valores:'
-ms.openlocfilehash: bc5016c9dbeb6b0693444f930c9883b1736258d2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Para editar las propiedades de los servidores de mediación en este cuadro de diálogo. En el lado izquierdo es un conjunto de vínculos rápidos para pasar a la configuración para la configuración General, la configuración de próximo salto y la configuración de puerta de enlace de RTC. En cada sección son las siguientes opciones:'
+ms.openlocfilehash: 0d3601731473b3d48b8199ee69f1e3ed18e806b9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967799"
 ---
-# <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Ampliador de configuración General del servidor de mediación de Lync Server 2010
+# <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Expansor de configuración General del servidor de mediación para Lync Server 2010
  
-Editar las propiedades de los servidores de mediación en este cuadro de diálogo. En el lado izquierdo es un conjunto de vínculos rápidos para pasar a la configuración de opciones generales, ajustes de salto siguiente y configuración de puerta de enlace PSTN. En cada sección son los siguientes valores:
+Para editar las propiedades de los servidores de mediación en este cuadro de diálogo. En el lado izquierdo es un conjunto de vínculos rápidos para pasar a la configuración para la configuración General, la configuración de próximo salto y la configuración de puerta de enlace de RTC. En cada sección son las siguientes opciones:
   
  **General**:
   
-- **FQDN**: editar el nombre de dominio completo del servidor de mediación
+- **FQDN**: edite el nombre de dominio completo del servidor de mediación
     
-- **Asociaciones**: Active la casilla de verificación de **grupo de asociar borde (para componentes de medios)** y seleccione un servidor perimetral o grupo de borde para el servidor de mediación para utilizar como la ruta de acceso de medios de acceso externo.
+- **Asociaciones**: Active la casilla de verificación de **grupo de servidores perimetrales asociados (para componentes multimedia)** y seleccione un servidor perimetral o grupo de servidores perimetrales para el servidor de mediación para usarlo como la ruta de acceso de medios para el acceso externo.
     
  **Próximo salto**:
   
-- **Selección de salto siguiente**: seleccionar de una lista que utilice como la ruta de acceso para el servidor de mediación a utilizar para la comunicación con la implementación, el grupo de servidor Front-End o Front-End.
+- **Selección de próximo salto**: seleccione en la lista el grupo de servidores Front-End o de servidor Front-End para usarlo como la ruta de acceso para el servidor de mediación que se usará para comunicarse con su implementación.
     
- **Puerta de enlace PSTN**:
+ **Puerta de enlace RTC**:
   
- **Puerta de enlace PSTN del servidor de mediación**:
+ **Puerta de enlace RTC del servidor de mediación**:
   
-- **Puertos de escucha**: definir los puertos de escucha en el servidor de mediación. Puede definir un puerto para la seguridad de la capa de transporte o **TLS** o **TCP**, o protocolo de control de transporte. Para la entrada de puerto para TCP esté disponible, debe seleccionar la casilla de verificación para **Habilitar el puerto TCP**. 
+- **Puertos de escucha**: definir los puertos de escucha en el servidor de mediación. Puede definir un puerto para la seguridad de la capa de transporte o de **TLS** o **TCP**, o protocolo de control de transporte. Para el puerto de entrada para TCP para que esté disponible, debe seleccionar la casilla de verificación para **Habilitar el puerto TCP**. 
     
     > [!IMPORTANT]
-    > Consulte la configuración de configuración y documentación de la puerta de enlace de telefónica pública conmutada (PSTN) de red para determinar si necesita habilitar y definir los valores de puerto TLS, TCP o ambos. TLS es un protocolo más seguro, el uso de certificados para cifrar el tráfico entre el servidor de mediación y la puerta de enlace PSTN. No todas las puertas de enlace PSTN compatible con TLS. 
+    > Hacer referencia a la configuración de documentación y la configuración de la puerta de enlace de telefónica conmutada (RTC) para determinar si necesita habilitar y definir valores de puerto TLS, TCP o ambos. TLS es un protocolo más seguro, uso de certificados para cifrar el tráfico entre el servidor de mediación y la puerta de enlace de RTC. No todas las puertas de enlace de RTC admiten TLS. 
   
-- Se muestra una lista de los troncos SIP y las puertas de enlace que se definen y configurados para su implementación. Si no hay entradas están presentes, no hay ningún SIP troncos o puertas de enlace PSTN configurados para su implementación. Definir y configurar los troncos y puertas de enlace en **Componentes compartidos** en el generador de topología.
+- Aparece una lista de enlaces troncales SIP y las puertas de enlace que se definen y configurados para su implementación. Si no hay entradas están presentes, no hay ningún troncos SIP o puertas de enlace RTC configurados para su implementación. Definir y configurar troncos y las puertas de enlace en **Componentes compartidos** en el generador de topología.
     
 ## <a name="see-also"></a>Vea también
 
-#### 
-
-[Información general acerca de SIP Trunking](http://technet.microsoft.com/library/204f2c21-436f-4b2d-93ea-d6db98fa2952.aspx)
+[Información general sobre el enlace troncal SIP](http://technet.microsoft.com/library/204f2c21-436f-4b2d-93ea-d6db98fa2952.aspx)
   
-[Opciones de implementación de puerta de enlace PSTN](http://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
-
+[Opciones de implementación de puerta de enlace de RTC](http://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)

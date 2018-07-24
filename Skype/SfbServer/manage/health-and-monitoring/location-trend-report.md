@@ -1,24 +1,24 @@
 ---
-title: Informe de tendencias de ubicación en Skype Empresarial Server 2015
+title: Informe de tendencias de ubicación en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
-description: 'Resumen: Conozca el informe de tendencias de ubicación en Skype para Business Server 2015.'
-ms.openlocfilehash: c28a22fdf4122dde45b506e90cf752794deaf781
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Información sobre el informe de tendencias de ubicación en Skype para Business Server.'
+ms.openlocfilehash: 007bd549dbccffdbbe83ff4d96ebd09b83b7c5e3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973608"
 ---
-# <a name="location-trend-report-in-skype-for-business-server-2015"></a>Informe de tendencias de ubicación en Skype Empresarial Server 2015
+# <a name="location-trend-report-in-skype-for-business-server"></a>Informe de tendencias de ubicación en Skype para Business Server
  
-**Resumen:** Obtener información sobre el informe de tendencias de ubicación en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre el informe de tendencias de ubicación en Skype para Business Server.
   
 El informe de tendencias de ubicación proporciona información sobre la tendencia de calidad de las llamadas de las ubicaciones de red.
   
@@ -28,7 +28,7 @@ Los filtros son un modo de recuperar un conjunto de datos más específico o de 
   
 En la siguiente tabla se muestran los filtros que se pueden usar con el informe de tendencias de ubicación. 
   
-**Filtros de informe de tendencias de ubicación**
+**Filtros del informe de tendencias de ubicación**
 
 |**Nombre.**|**Descripción**|
 |:-----|:-----|

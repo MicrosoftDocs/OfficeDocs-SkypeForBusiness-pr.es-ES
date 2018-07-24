@@ -1,26 +1,25 @@
 ---
-title: Usar la autenticación en dos fases con el cliente de Skype Empresarial y Skype Empresarial Server 2015
+title: Usar autenticación de dos factores con Skype para clientes empresariales y Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/13/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
-description: 'Resumen: Use la autenticación en dos fases con Skype para Business Server 2015 y Skype para la empresa.'
-ms.openlocfilehash: 081065facfcf01b6bb87bce3d621cf4a6ecd4dd6
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Resumen: Use la autenticación en dos fases con Skype para Business Server y Skype para la empresa.'
+ms.openlocfilehash: 95e44c50dec37eea86b90317575a09509df80649
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504925"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986554"
 ---
-# <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server-2015"></a>Usar la autenticación en dos fases con el cliente de Skype Empresarial y Skype Empresarial Server 2015
+# <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Usar autenticación de dos factores con Skype para clientes empresariales y Skype para Business Server
  
-**Resumen:** Usar autenticación de dos factores con Skype para Business Server 2015 y Skype para la empresa.
+**Resumen:** Usar autenticación de dos factores con Skype para Business Server y Skype para la empresa.
   
 ## <a name="sign-in-to-skype-for-business-for-the-first-time"></a>Iniciar sesión en Skype Empresarial por primera vez
 
@@ -46,7 +45,7 @@ La información de inicio de sesión normalmente se configura automáticamente c
 
 Cuando haya terminado de usar Skype para la empresa, puede cerrar la presentación, desconectarse de la sesión o salir del programa, todo desde el menú archivo. En la tabla siguiente se explican las diferencias entre estas opciones.
   
-|**Opción**|**Para qué sirve**|**Cómo realizarlo**|
+|**Opción**|**Qué hace**|**Cómo lo hago**|
 |:-----|:-----|:-----|
 |Cerrar  <br/> |Cierra la presentación, pero permite la Skype para sesión empresarial identificado con su identificador de continuar con la ejecución de usuario. El motivo es poder seguir recibiendo notificaciones e interactuando con los demás. <br/> <br/> Puede obtener la presentación atrás en cualquier momento haciendo clic en el Skype para el icono de negocio en la barra de tareas o el área de notificación en la parte inferior de la pantalla.  <br/> | En Skype para la ventana principal de negocio, realice una de las siguientes opciones: <br/> 1. Seleccione el botón **Opciones** , a continuación, seleccione **archivo** > **Close**.  <br/> 2. Haga clic en el botón **Cerrar** (X) en la esquina superior derecha de la ventana. <br/> |
 |Cerrar sesión  <br/> |Finaliza la sesión asociada con el identificador de usuario, pero Skype para la empresa sigue ejecutándose en segundo plano. Al cerrar la sesión, aparece la ventana de inicio de sesión.  <br/> **Sugerencia:** Seleccione **Eliminar mi información de inicio de sesión** al cerrar la sesión quitar el registro de su identificador de inicio de sesión y la contraseña desde el equipo. De este modo tiene que resultar más fácil al equipo técnico ayudar a los usuarios a resolver problemas de inicio de sesión. También puede ayudar a garantizar que la información de inicio de sesión es más segura, ya que resulta más difícil para los usuarios no autorizados iniciar sesión con credenciales ajenas. <br/> |En Skype para la ventana principal de negocio, seleccione el botón **Opciones** y después seleccione el **archivo** > **Cerrar sesión**.  <br/> |
@@ -62,7 +61,7 @@ Algunas organizaciones ahora usan un proceso de inicio de sesión en varios paso
     
 ### <a name="enroll-your-smart-card"></a>Inscriba su tarjeta inteligente
 
-Antes de que puede iniciar sesión con una tarjeta inteligente, la tarjeta debe ser "inscrito", es decir, sus credenciales de usuario se tienen que se identifican con la tarjeta. Esto se aplica tanto a tarjetas físicas como virtuales. Este proceso, es posible que ya sido a cabo a través de su Skype para Business Server 2015 administrador. Compruebe con ellos si no está seguro de si el que se ha realizado.
+Antes de que puede iniciar sesión con una tarjeta inteligente, la tarjeta debe ser "inscrito", es decir, sus credenciales de usuario se tienen que se identifican con la tarjeta. Esto se aplica tanto a tarjetas físicas como virtuales. Este proceso, es posible que ya sido a cabo a través de su Skype para el administrador del servidor de negocio. Compruebe con ellos si no está seguro de si el que se ha realizado.
   
 > [!NOTE]
 > Dado que cada tarjeta inteligente virtual sólo está asociado con el dispositivo se instala en, tendrá una tarjeta independiente que se inscriben para cada equipo de Windows 8 que se utiliza. 
@@ -143,6 +142,6 @@ Antes de usar su tarjeta inteligente por primera vez, se recomienda que haga cli
   
 ## <a name="see-also"></a>Vea también
 
-[Administrar la autenticación de dos factores en Skype para Business Server 2015](two-factor-authentication.md)
+[Administrar la autenticación de dos factores en Skype para Business Server](two-factor-authentication.md)
   
-[Configuración de autenticación de dos factores en Skype para Business Server 2015](configure.md)
+[Configuración de autenticación de dos factores en Skype para Business Server](configure.md)

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
+ROBOTS: NOINDEX, NOFOLLOW
 description: El servicio Device Update Web crea automáticamente archivos de registro que registran la actividad de actualización de los dispositivos. Como parte de la estrategia de administración de datos de la organización, es posible que desee establecer umbrales en tamaño de caché de datos de registro, el tamaño del archivo de registro o el período de tiempo que se mantiene un archivo de registro antes de que se elimina. Puede cambiar esta configuración según los requisitos de su organización. Si no desea que el servicio Device Update Web purgue los archivos de registro de forma automática, puede purgarlos manualmente según sea necesario. La configuración de registros se puede cambiar de forma global o por sitio.
-ms.openlocfilehash: 69e75062038bdbc6072e48c18ed09193c7090659
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: e345f65fdffa5a3db6bd67dff1e16ef1f196d094
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988365"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20982975"
 ---
 # <a name="device-log-configuration"></a>Configuración de registro de dispositivo
  

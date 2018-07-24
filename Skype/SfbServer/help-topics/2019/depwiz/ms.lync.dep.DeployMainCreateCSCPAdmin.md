@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para conceder acceso a la Skype para Business Server, realice lo siguiente:'
-ms.openlocfilehash: 9f9342b02f89b31c22a50f834aa08347ba7fd798
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: c90290184b461e6662672ef3b6c32096ca63871f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979032"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973090"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>Crear administradores del Panel de control de Skype Empresarial Server
  
@@ -49,7 +50,7 @@ Otras funciones incluyen:
     
 - **CsUserAdministrator:** los miembros pueden administrar, habilitar y deshabilitar usuarios, y asignar directivas existentes a usuarios.
     
-- **CsViewOnlyAdministrator:** Los miembros pueden ver la implementación y configuración de la información del servidor. Esta pertenencia permite un miembro para supervisar el estado de los servidores que ejecutan Skype para Business Server 2015.
+- **CsViewOnlyAdministrator:** Los miembros pueden ver la implementación y configuración de la información del servidor. Esta pertenencia permite un miembro para supervisar el estado de los servidores que ejecutan Skype para Business Server.
     
 - **CsVoiceAdministrator:** Los miembros pueden crear, configurar y administrar las opciones relacionadas con la voz de Skype para Business Server.
     

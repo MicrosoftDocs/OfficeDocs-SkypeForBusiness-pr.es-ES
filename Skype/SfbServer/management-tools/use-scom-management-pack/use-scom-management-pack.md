@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Resumen: Obtenga información sobre cómo configurar su Skype para infraestructura de Business Server 2015 para trabajar con System Center Operations Manager.'
-ms.openlocfilehash: cb2eb053142bcbc4c24a61f6dbd7322a3772f4a6
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: b94490c60234f76b0e07f0b7732d76cc2354eaad
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504792"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20994965"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Administrar Skype Empresarial Server 2015 con el módulo de administración SCOM
  
@@ -42,7 +42,7 @@ Los paquetes de administración se pueden usar con System Center Operations Mana
   
 |**Configuración**|**¿Se admite?**|
 |:-----|:-----|
-|Sistema operativo Windows Server 2008 R2  <br/> Sistema operativo Windows Server 2012 R2  <br/> |Sí. Ambos en Skype para server Business Server 2015 y nodos de Monitor de transacciones sintéticas.  <br/> |
+|Sistema operativo Windows Server 2008 R2  <br/> Sistema operativo Windows Server 2012 R2  <br/> |Sí. Ambos en Skype para server Business Server 2015 y nodos de Monitor de transacciones sintéticas.  <br/> |
 |Servidores agrupados en clúster  <br/> |No admitido.  <br/> |
 |Supervisión sin agente  <br/> |No admitido.  <br/> |
 |Entorno virtual  <br/> |Sí.  <br/> |
@@ -96,7 +96,7 @@ Las siguientes características son nuevas en Skype para paquetes de administrac
 
 El Skype para Business Server 2015 Management Pack aprovecha una gran variedad de características que le ayudarán a detectar y diagnosticar problemas. Estas características de proporcionar visibilidad en tiempo real en el estado de un Skype para entorno empresarial Server 2015.
   
-|**Escenario de supervisión**|**Descripción**|
+|**Supervisión escenario**|**Descripción**|
 |:-----|:-----|
 |Transacciones sintéticas  <br/> | Cmdlets de Windows PowerShell para probar y ayudar a asegurar una alta disponibilidad de escenarios, como inicio de sesión de presencia, mensajería instantánea y conferencias para los usuarios. <br/> Las transacciones sintéticas se pueden ejecutar desde cualquier ubicación geográfica, incluso desde la empresa, desde fuera de ésta y desde las sucursales.  <br/> Cuando se producen errores en una transacción sintética, se crean registros HTML para ayudar a determinar la naturaleza exacta del error. Esto incluye comprender qué acción ha dado lugar al error, la latencia de cada acción, la línea de comandos usada para ejecutar la prueba y el error específico que se han producido.  <br/> |
 |Alertas de confiabilidad de llamadas  <br/> |Registros de detalles de llamadas (CDR) escritas por Skype para servidores de Business Server 2015 reflejar si los usuarios son capaces de conectarse a una llamada o por qué se ha finalizado una llamada. Las alertas de confiabilidad de las llamadas consultan la base de datos de CDR para generar alertas que indican si hay un número elevado de usuarios con problemas de conectividad con las llamadas punto a punto o con la funcionalidad de conferencia básica.  <br/> El escenario abarca llamadas de audio, mensajería instantánea (MI) de punto a punto y otras características de conferencia.  <br/> |
@@ -118,7 +118,7 @@ Las alertas se clasifican en las siguientes categorías:
 
 Skype para paquetes de administración de Business Server 2015 proporcionar aumento de la cobertura de alertas a través de las transacciones sintéticas. Las transacciones sintéticas están integrados en el módulo de administración de Operations Manager para probar los escenarios de extremo a otro usuario de cmdlets de Windows PowerShell. Al designar un servidor para ejecutar transacciones sintéticas, estos cmdlets se desencadenan periódicamente por el módulo de administración. Errores de resultante de una transacción sintética generan una alerta de estado. Aquí están las transacciones sintéticas compatibles para Skype para Business Server 2015:
   
-**Transacciones sintéticas admitidas para el registro, presencia y contactos**
+**Transacciones sintéticas compatibles para registro, presencia y contactos**
 
 ||||
 |:-----|:-----|:-----|
@@ -134,8 +134,11 @@ Skype para paquetes de administración de Business Server 2015 proporcionar aume
 |:-----|:-----|:-----|
 |6  <br/> |Mensajes instantáneos de punto a punto  <br/> |Disponible en Lync Server 2010 y más allá  <br/> |
 |7  <br/> |Audio y vídeo punto a punto  <br/> |Disponible en Lync Server 2010 y más allá  <br/> |
-|8  <br/> |Mensajería instantánea punto a punto MCX (móvil)  <br/> |Disponible en la versión de septiembre de 2011 de Lync Server 2010 y versiones posteriores  <br/> |
-   
+|8  <br/> |Mensajería instantánea punto a punto MCX (móvil)  <br/> |Disponible en la versión de septiembre de 2011 de Lync Server 2010 para Skype para profesionales de 2015  <br/> |
+ 
+> [!NOTE]
+> Compatibilidad con MCX para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Los usuarios deben actualizar a un cliente actual.
+  
 **Transacciones sintéticas compatibles para conferencias y chat persistente**
 
 ||||
@@ -156,14 +159,14 @@ Skype para paquetes de administración de Business Server 2015 proporcionar aume
 |17  <br/> |Conectividad del servidor perimetral de A/V  <br/> |Disponible en Lync Server 2013 y más allá  <br/> |
 |18  <br/> |Conectividad de mensajería unificada de Exchange de conectividad de servidor perimetral AV (correo de voz)  <br/> |Disponible en Lync Server 2013 y más allá  <br/> |
 |19  <br/> |Llamada punto a punto de RTC  <br/> |Disponible en Lync Server 2010 y más allá  <br/> |
-|20  <br/> |Mensajería instantánea XMPP (federación)  <br/> |Disponible en Lync Server 2013 y más allá  <br/> |
+|20  <br/> |Mensajería instantánea XMPP (federación)  <br/> |Disponible en Lync Server 2013 y Skype para profesionales de 2015  <br/> |
 |21  <br/> |Servidor de interoperabilidad de vídeo  <br/> |Es una novedad de Skype para Business Server 2015  <br/> |
    
 ## <a name="how-health-rolls-up"></a>Resumen del estado
 
 En la siguiente tabla se muestra los Estados de mantenimiento de objetos el Skype para Business Server paquete de supervisión.
   
-|**Objeto de paquete de administración**|**Descripción**|
+|**Objeto de módulo de administración**|**Descripción**|
 |:-----|:-----|
 |Skype para la implementación de servidor de la empresa  <br/> |Representa la implementación de Skype para Business Server 2015 en la organización.  <br/> |
 |Skype para sitio Business Server  <br/> |Representa distintas ubicaciones geográficas donde se han implementado los servicios.  <br/> |

@@ -1,34 +1,37 @@
 ---
-title: Contadores de rendimiento de movilidad en Skype Empresarial Server 2015
+title: Contadores de rendimiento de movilidad en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-description: 'Resumen: Conozca los contadores de rendimiento que puede utilizar para supervisar los servidores que ejecutan el API de Web de comunicaciones unificadas (UCWA) y el Skype para servicio de movilidad de Business Server 2015 Mcx.'
-ms.openlocfilehash: 7f82f263969deb5fc71e448f0e514dd0056c31eb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información sobre los contadores de rendimiento que puede usar para supervisar los servidores que ejecutan la API de Web de comunicaciones unificadas (UCWA) y la Skype Business Server Mcx servicio de movilidad.'
+ms.openlocfilehash: a1e44d0ba7fec9eb50d7d1f1bcea78a85a1f4955
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969848"
 ---
-# <a name="mobility-performance-counters-in-skype-for-business-server-2015"></a>Contadores de rendimiento de movilidad en Skype Empresarial Server 2015
+# <a name="mobility-performance-counters-in-skype-for-business-server"></a>Contadores de rendimiento de movilidad en Skype para Business Server
  
-**Resumen:** Obtenga información sobre los contadores de rendimiento que puede utilizar para supervisar los servidores que ejecutan el API de Web de comunicaciones unificadas (UCWA) y el Skype para servicio de movilidad de Business Server 2015 Mcx.
+**Resumen:** Obtenga información sobre los contadores de rendimiento que puede usar para supervisar los servidores que ejecutan la API de Web de comunicaciones unificadas (UCWA) y la Skype Business Server Mcx servicio de movilidad.
   
-Las tablas siguientes enumeran los nombres y descripciones de contadores de rendimiento que puede utilizar para supervisar los servidores que ejecutan el API de Web de comunicaciones unificadas (UCWA) y el Skype para servicio de movilidad de Business Server 2015 Mcx. 
+Las siguientes tablas enumeran los nombres y descripciones de los contadores de rendimiento que puede usar para supervisar los servidores que ejecutan la API de Web de comunicaciones unificadas (UCWA) y la Skype Business Server Mcx servicio de movilidad. 
   
-El nombre de la categoría de los contadores de la tabla UCWA es **LS:WEB - UCWA**.
+El nombre de categoría para los contadores de la tabla UCWA es **LS:WEB - UCWA**.
   
 El nombre de categoría de los contadores de la tabla relativa al servicio de movilidad Mcx es **LS:WEB - Mobile Communication Service**.
+
+> [!NOTE]
+> Compatibilidad con MCX para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Los usuarios deben actualizar a un cliente actual.
   
 ## <a name="performance-counters-for-ucwa"></a>Contadores de rendimiento para UCWA
 
-|**Contador**|**Descripción**|
+|Contador|Descripción|
 |:-----|:-----|
 |Recuento de aplicaciones activas  <br/> |Número actual de aplicaciones  <br/> |
 |Recuento de modalidad de uso compartido de aplicaciones activa  <br/> |Número actual de modalidad de uso compartido de aplicaciones  <br/> |
@@ -110,4 +113,5 @@ El nombre de categoría de los contadores de la tabla relativa al servicio de mo
 |Llamadas de voz entrantes correctas totales  <br/> |Cantidad total de llamadas de voz entradas que se han realizado correctamente  <br/> |
 |Llamadas de voz salientes correctas totales  <br/> |Cantidad total de llamadas de voz salientes que se han realizado correctamente  <br/> |
    
-
+> [!NOTE]
+> Compatibilidad con MCX para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Los usuarios deben actualizar a un cliente actual.

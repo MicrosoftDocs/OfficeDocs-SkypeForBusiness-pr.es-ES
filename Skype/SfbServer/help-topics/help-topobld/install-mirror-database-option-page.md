@@ -1,9 +1,9 @@
 ---
-title: Instale la página de opciones de base de datos reflejada
+title: Instalar página de opción de base de datos de reflejo
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,21 +11,22 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
-description: 'Configurar opciones de base de datos reflejada definiendo el siguiente:'
-ms.openlocfilehash: c51c3c6e4ee4c86fe97830c639374ab9d97278da
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Configurar configuración de base de datos reflejada defina lo siguiente:'
+ms.openlocfilehash: aadb4ddc61603a827ff1e9f2bc1c2d332ad8d7db
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974595"
 ---
-# <a name="install-mirror-database-option-page"></a>Instale la página de opciones de base de datos reflejada
+# <a name="install-mirror-database-option-page"></a>Instalar página de opción de base de datos de reflejo
  
-Configurar **Opciones de base de datos reflejada** definiendo el siguiente:
+Configurar **Configuración de base de datos reflejada** defina lo siguiente:
   
-- Escriba la **ruta de acceso al archivo compartir** para definir la ubicación de los archivos de copia de seguridad de SQL Server para la base de datos que se espejan.
+- Escriba la **ruta de acceso al archivo compartir** para definir la ubicación para los archivos de SQL Server de copia de seguridad de la base de datos que se está reflejando.
     
     > [!NOTE]
-    > La instancia principal de SQL Server (instancia predeterminada o una instancia con nombre) debe tener permisos de escritura al recurso compartido de archivo que defina aquí. La instancia de SQL Server (instancia predeterminada o una instancia con nombre) del espejo debe tener permisos para el mismo recurso compartido de archivos de lectura. 
+    > La instancia principal de SQL Server (instancia predeterminada o una instancia con nombre) debe tener permisos de escritura para el recurso compartido de archivos que defina aquí. La instancia de SQL Server (instancia predeterminada o una instancia con nombre) reflejado debe tener permisos para el mismo recurso compartido de archivos de lectura. 
   
  **Aceptar** Se aceptan y confirman los cambios en el cuadro de diálogo.
   
@@ -35,7 +36,4 @@ Configurar **Opciones de base de datos reflejada** definiendo el siguiente:
   
 ## <a name="see-also"></a>Vea también
 
-#### 
-
-[Implementar SQL espejado para alta disponibilidad de servidor nuevo en Skype para Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
-
+[Implementar un reflejo de SQL para alta disponibilidad de servidores back-end en Skype Empresarial Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)

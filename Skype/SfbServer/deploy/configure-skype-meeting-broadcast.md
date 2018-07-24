@@ -3,7 +3,6 @@ title: Configurar la implementación local para la difusión de reunión de Skyp
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -15,12 +14,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 'Resumen: Obtenga información sobre los pasos que necesarios para llevar a cabo para configurar Difundir presentación de reunión de Skype para su Skype local para la implementación híbrida de Business Server.'
-ms.openlocfilehash: da34ecdf1a83ffb0b2e259756d9124af8e628b9f
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 55b7c5c1e97c2e059ead73384ae2914b07d47c4b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568409"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004696"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configurar la implementación local para la difusión de reunión de Skype
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
-description: La opción configurar nombres alternativos de sujeto adicionales proporciona la oportunidad de agregar cualquier nombre alternativo de sujeto adicional (SAN) para el certificado antes de finalizar y solicitar el certificado. Para agregar el SAN, escriba el nombre de dominio completo (FQDN) del SAN y, a continuación, haga clic en Agregar. Si ha agregado una SAN que se debe eliminar, resalte la entrada de SAN y haga clic en quitar. Para quitar todas las entradas de SAN que haya agregado, haga clic en Borrar todo.
-ms.openlocfilehash: b22adb3b02974273856fe0001598d4999a37d5a6
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: La opción Configurar nombres alternativos de sujeto ofrece la oportunidad de agregar nombres alternativos de sujeto adicionales (SAN) al certificado antes de finalizar y solicitar el certificado. Para incorporar un nombre alternativo de sujeto, escriba su nombre de dominio completo y haga clic en Agregar. Si ha agregado un nombre alternativo de sujeto que se debe eliminar, seleccione la entrada correspondiente y haga clic en Quitar. Si desea quitar todas las entradas de nombres alternativos de sujeto que ha agregado, haga clic en Borrar todo.
+ms.openlocfilehash: 7410319f0f04d5e162476919978ef2f92eeabd0e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991532"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21011345"
 ---
 # <a name="certificate-request-additional-subject-alternate-names"></a>Solicitud de certificado (nombres alternativos de sujeto adicionales)
  

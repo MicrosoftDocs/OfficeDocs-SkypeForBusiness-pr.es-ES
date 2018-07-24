@@ -1,31 +1,30 @@
 ---
-title: Ver la información del PIN del usuario en Skype Empresarial Server 2015
+title: Vista de usuario información del PIN en Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
-description: 'Resumen: Ver la información de PIN de usuario en Skype para Business Server 2015.'
-ms.openlocfilehash: fecd4c983cad20b0efa77cbd5c6fc809db777aec
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Ver la información de PIN de usuario en Skype para Business Server.'
+ms.openlocfilehash: 4b0eda76e4429ee5c6d658f4d161783bc4d356a3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568762"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008562"
 ---
-# <a name="view-user-pin-information-in-skype-for-business-server-2015"></a>Ver la información del PIN del usuario en Skype Empresarial Server 2015
+# <a name="view-user-pin-information-in-skype-for-business-server"></a>Vista de usuario información del PIN en Skype para Business Server
  
-**Resumen:** Vista de usuario información del PIN en Skype para Business Server 2015.
+**Resumen:** Vista de usuario información del PIN en Skype para Business Server.
   
-Para unirse a una conferencia de acceso telefónico como un usuario autenticado, una Skype para Business Server 2015 usuario con las credenciales de los servicios de dominio de Active Directory (AD DS) requiere un número de identificación personal (PIN). Puede ver información de PIN de un usuario de Skype para el Panel de Control de servidor empresarial.
+Para unirse a una conferencia de acceso telefónico como un usuario autenticado, una Skype para usuario Business Server con las credenciales de los servicios de dominio de Active Directory (AD DS) requiere un número de identificación personal (PIN). Puede ver información de PIN de un usuario de Skype para el Panel de Control de servidor empresarial.
   
 > [!NOTE]
-> Puede ver información de estado del PIN como, por ejemplo, si se ha establecido el PIN o cuándo se modificó el PIN, pero no puede ver el PIN actual viendo su estado. Si un usuario ha perdido su NIP, puede restablecer siguiendo los procedimientos descritos en [establecer telefónico un usuario PIN en Skype para Business Server 2015](set-a-user-s-dial-in-conferencing-pin.md)
+> Puede ver información de estado del PIN como, por ejemplo, si se ha establecido el PIN o cuándo se modificó el PIN, pero no puede ver el PIN actual viendo su estado. Si un usuario ha perdido su NIP, puede restablecer siguiendo los procedimientos descritos en [establecer telefónico un usuario PIN en Skype para Business Server](set-a-user-s-dial-in-conferencing-pin.md)
   
 ### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>Para ver un PIN de usuario de Skype para Panel de Control de servidor empresarial
 
@@ -87,6 +86,6 @@ Para obtener más información, vea el tema de ayuda para el cmdlet [Get-CsConfe
   
 ## <a name="see-also"></a>Vea también
 
-[Establecer telefónico un usuario PIN en Skype para Business Server 2015](set-a-user-s-dial-in-conferencing-pin.md)
+[Establecer telefónico un usuario PIN en Skype para Business Server](set-a-user-s-dial-in-conferencing-pin.md)
   
-[Bloquear o desbloquear un usuario PIN en Skype para Business Server 2015](lock-or-unlock-a-user-pin.md)
+[Bloquear o desbloquear un usuario PIN en Skype para Business Server](lock-or-unlock-a-user-pin.md)

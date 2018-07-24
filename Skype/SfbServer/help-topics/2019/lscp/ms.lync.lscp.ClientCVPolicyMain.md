@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
-description: Puede especificar la versión de los clientes que se admiten en su entorno. Cuando dos clientes que ejecutan versiones diferentes interactúan entre sí, las características disponibles para cualquiera de esos clientes pueden verse limitadas por las funciones del otro cliente. Para que el mayor uso de las características incluidas en Skype para Business Server y para mejorar la experiencia global del usuario, puede usar el filtro de versiones de cliente para restringir las versiones de cliente que se usan en su entorno. Mediante el filtro de versiones de cliente también puede ayudar a reducir los costes asociados al uso de varias versiones de cliente.
-ms.openlocfilehash: 539d0fe24678b9bc9784adf9d3512c1441298010
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Puede especificar la versión de los clientes que se admiten en su entorno. Cuando dos clientes que ejecutan versiones diferentes interactúan entre sí, las características disponibles para cualquiera de esos clientes pueden verse limitadas por las funciones del otro cliente.
+ms.openlocfilehash: 2743c62f6fbd692723c4ed9ea464e665a65d0abc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969578"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009697"
 ---
 # <a name="client-version-policy"></a>Directiva de versión de clientes
  
@@ -26,7 +27,7 @@ Puede especificar la versión de los clientes que se admiten en su entorno. Cuan
 
 En la página **Directiva de versión de cliente** puede realizar las siguientes tareas:
   
-- Editar la directiva de versión de cliente predeterminada (**Global**).
+- Editar la directiva de versión de cliente predeterminada ( **Global**).
     
 - Crear directivas de versión de cliente para un grupo o sitio concreto.
     

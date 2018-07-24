@@ -1,27 +1,26 @@
 ---
-title: Implementar el almacenamiento de contactos unificado en Skype Empresarial Server 2015
+title: 'Implementar el almacén de contactos unificados en Skype para Business Server '
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
-description: 'Resumen: Habilitar el almacén de contactos unificados en Skype para Business Server 2015.'
-ms.openlocfilehash: 2004ab4074af98381fbbfdf67ba4ce0bac9503a8
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Habilitar el almacén de contactos unificados en Skype para Business Server.'
+ms.openlocfilehash: 36515e9542a18d422254292b0cf2a2b4ef937178
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568720"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978224"
 ---
-# <a name="deploy-unified-contact-store-in-skype-for-business-server-2015"></a>Implementar el almacenamiento de contactos unificado en Skype Empresarial Server 2015
+# <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>Implementar el almacén de contactos unificados en Skype para Business Server
  
-**Resumen:** Habilitar el almacén de contactos unificados en Skype para Business Server 2015.
+**Resumen:** Habilitar el almacén de contactos unificados en Skype para Business Server.
   
-Habilitar el almacén de contactos unificados en Skype para Business Server 2015 no requiere cualquier configuración de la topología. Para habilitar el almacén de contactos unificado para los usuarios:
+Habilitar el almacén de contactos unificados en Skype para Business Server no requiere ninguna configuración de la topología. Para habilitar el almacén de contactos unificado para los usuarios:
   
 - La directiva del almacén de contactos unificado está habilitada (que es el comportamiento predeterminado).
     
@@ -34,11 +33,11 @@ Después de que los contactos del usuario se han migrado, lo que sucede automát
   
 ## <a name="enable-users-for-unified-contact-store"></a>Habilitar usuarios para el almacenamiento de contactos unificado
 
-Al implementar Skype para Business Server 2015 y publicar la topología, almacén de contactos unificados está habilitado para todos los usuarios de forma predeterminada. No es necesario realizar ninguna acción adicional para habilitar el almacén de contactos unificados después de implementar Skype para Business Server 2015. Sin embargo, puede usar el cmdlet **Set-CsUserServicesPolicy** para personalizar qué usuarios han unificada almacén de contactos disponibles. Puede habilitar esta característica globalmente, por sitio, por inquilino, por individuo o por grupos de individuos.
+Al implementar Skype para Business Server y publicar la topología, almacén de contactos unificados está habilitado para todos los usuarios de forma predeterminada. No es necesario realizar ninguna acción adicional para habilitar el almacén de contactos unificados después de implementar Skype para Business Server. Sin embargo, puede usar el cmdlet **Set-CsUserServicesPolicy** para personalizar qué usuarios han unificada almacén de contactos disponibles. Puede habilitar esta característica globalmente, por sitio, por inquilino, por individuo o por grupos de individuos.
   
 ### <a name="to-enable-users-for-unified-contact-store"></a>Para habilitar usuarios para el almacén de contactos unificado
 
-1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
+1. Iniciar el Skype para Shell de administración de negocio Server: haga clic en **Inicio**, haga clic en **Todos los programas**, haga clic en **Skype para la empresa**y, a continuación, haga clic en **Skype para Shell de administración de servidor empresarial**.
     
 2. Siga uno de estos pasos:
     
@@ -90,7 +89,7 @@ Al implementar Skype para Business Server 2015 y publicar la topología, almacé
    ```
 
     > [!NOTE]
-    > En el ejemplo anterior, el primer comando crea una nueva directiva por usuario denominada UCS habilitado a los usuarios con la marca UcsAllowed establecida en True. El segundo comando asigna la directiva al usuario con el nombre para mostrar Ken Myer, lo que significa que Ken Myer ahora está habilitado para el almacén de contactos unificado.
+    > En el ejemplo anterior, el primer comando crea una directiva por usuario denominada Usuarios habilitados para UCS con el indicador UcsAllowed establecido en True. El segundo comando asigna la directiva al usuario con el nombre para mostrar Ken Myer, lo que significa que Ken Myer ahora está habilitado para el almacén de contactos unificado.
   
 ## <a name="migrate-users-to-unified-contact-store"></a>Migrar usuarios al almacén de contactos unificado
 
@@ -124,11 +123,11 @@ Puede determinar si se han migrado los contactos de un usuario usando uno de los
 
 Si es necesario revertir el contacto unificado almacenar característica, revertir los contactos sólo si el usuario se mueve de nuevo a Exchange 2010 o Lync Server 2010. Para revertir, deshabilitar la directiva para el usuario y, a continuación, ejecute el cmdlet **Invoke-CsUcsRollback** . Sólo ejecutar **Invoke-CsUcsRollback** por sí solo no es suficiente para garantizar la reversión permanente, debido a que el almacén de contactos unificados migración se iniciará nuevamente si la directiva no está deshabilitada. Por ejemplo, si un usuario es deshacer porque se deshace 2013 de Exchange a Exchange 2010 y, a continuación, se mueve el buzón del usuario a Exchange 2013, la migración de almacén de contactos unificados se iniciará nuevamente siete días después de la operación de deshacer, siempre y cuando el almacén de contactos unificado aún se está habilitada para el usuario en la directiva de servicios de usuario.
   
-El cmdlet **Move-CsUser** revierte automáticamente almacén de contactos del usuario de Exchange 2013 a Skype para Business Server 2015 en las situaciones siguientes:
+El cmdlet **Move-CsUser** revierte automáticamente almacén de contactos del usuario de Exchange 2013 a Skype para Business Server en las situaciones siguientes:
   
-- Cuando se mueven usuarios de Skype para Business Server 2015 para Microsoft Lync Server 2013 o Lync Server 2010. 
+- Cuando se mueven usuarios de Skype para Business Server para Microsoft Lync Server 2013 o Lync Server 2010. 
     
-- Cuando se migran usuarios entre locales, como cuando un usuario se mueve de Skype para empresarial en línea para Skype para Business Server 2015 local, o viceversa.
+- Cuando se migran usuarios entre locales, como cuando un usuario se mueve de Skype para empresarial en línea para Skype para Business Server local, o viceversa.
     
 La importación de datos del almacén de contactos unificado desde una base de datos de copia de seguridad puede dañar los datos del almacén de contactos unificado y del usuario si el modo de almacén de contactos unificado cambia entre la exportación y la importación. Por ejemplo:
   

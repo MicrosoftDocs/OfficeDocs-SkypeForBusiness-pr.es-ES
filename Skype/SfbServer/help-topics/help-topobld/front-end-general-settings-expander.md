@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 'Dispone de las siguientes secciones para editar la configuración de un grupo de servidores front-end o un servidor Standard Edition:'
-ms.openlocfilehash: 84b26c929f2f662c93163df2fd73a6e3576a3a97
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 74a26ca009d0a050babd10e72aeae2e814905cd4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986872"
 ---
 # <a name="front-end-general-settings-expander"></a>Expansor de configuración general front-end
  
@@ -32,7 +33,7 @@ Dispone de las siguientes secciones para editar la configuración de un grupo de
     
 ## <a name="front-end-pool"></a>Grupo de servidores front-end
 
-En el caso de un grupo de servidores front-end, puede configurar las opciones generales, de resistencia, de servicios web y de servidor de mediación. Para más información, mire las subsecciones siguientes. Para obtener más información sobre cómo definir y configurar las opciones para el grupo de servidores Front-End, vea [implementación de servidores de mediación y definir pares](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+En el caso de un grupo de servidores front-end, puede configurar las opciones generales, de resistencia, de servicios web y de servidor de mediación. Para más información, mire las subsecciones siguientes. Para obtener información detallada sobre cómo definir y configurar las opciones del grupo de servidores Front-End, consulte [Deploying Mediation Servers and Defining Peers](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
   
 ### <a name="general-settings"></a>Configuración general
 
@@ -46,7 +47,7 @@ Puede definir la siguiente configuración general:
     
   - **Conferencia**. Incluye las conferencias de audio, de vídeo y de uso compartido de aplicaciones. Tras seleccionar esta opción, puede elegir la conferencia de acceso telefónico local (RTC). Más avanzada esta sección, concretamente en la subsección “Configuración del servidor de mediación”, puede especificar y definir una puerta de enlace RTC.
     
-  - **Telefonía IP empresarial**. Permite voz interno a través de llamadas IP completo de teléfonos móviles y dispositivos y Skype para clientes empresariales. Para habilitar las funciones de llamada externa, es necesario especificar un servidor de mediación. Para más información, mire “Servidor de mediación” más adelante en este tema.
+  - **Telefonía IP empresarial**. Habilita voz interno a través de llamadas IP a los auriculares completo y dispositivos y Skype para clientes empresariales. Para habilitar las funciones de llamada externa, es necesario especificar un servidor de mediación. Para más información, mire “Servidor de mediación” más adelante en este tema.
     
 - En **Asociaciones**, edite o especifique lo siguiente:
     
@@ -99,7 +100,7 @@ Para modificar o especificar más opciones de los servicios web en el grupo de s
 Indique lo siguiente en **Servicios web internos**:
   
 > [!CAUTION]
-> Si tiene más de un grupo de servidores Front-End o servidor Front-End, los servicios Web externos FQDN debe ser único. Por ejemplo, si define el FQDN de un servidor Front-End de servicios Web externos como **pool01.contoso.com**, no puede utilizar **pool01.contoso.com** para otro grupo de servidores Front-End o un servidor Front-End. Si también está implementando los directores, los servicios Web externos FQDN definen para cualquier Director o grupo de directores debe ser distinta a cualquier otro Director o Director de grupo, como también a partir de cualquier Front-End de agrupaciones o servidor Front-End. Si decide reemplazar los servicios web interno con un FQDN de definición propia, cada FQDN debe ser único en cualquier grupo de servidores Front-End, Director o Director de grupo.
+> Si tiene más de un grupo de servidores Front-End o servidor Front-End, los servicios Web externos FQDN debe ser único. Por ejemplo, si define el FQDN de un servidor Front-End de servicios Web externos como **pool01.contoso.com**, no puede usar **pool01.contoso.com** para otro grupo de servidores Front-End o servidor Front-End. Si también va a implementar los directores, el FQDN de servicios Web externos definidos para cualquier Director o grupo de directores debe ser único en cualquier otro Director o Director de grupo de servidores, como también a partir de cualquier Front-End del grupo de servidores o servidor Front-End. Si decide reemplazar los servicios web internos con un FQDN autodefinido, cada FQDN debe ser único de cualquier otro grupo de servidores Front-End, Director o Director de grupo de servidores.
   
 - Si selecciona **FQDN de reemplazo**, puede especificar un nombre de dominio completo distinto para la identidad de **Servicios web internos** en el grupo de servidores. La configuración predeterminada es el nombre del grupo de servidores actual, según se haya definido para el grupo de servidores front-end.
     
@@ -109,7 +110,7 @@ Indique lo siguiente en **Servicios web externos**:
   
 - El FQDN de Servicios web externos. El FQDN especificado aquí se definirá normalmente según los requisitos de la conexión externa, como el proxy inverso.
     
-- Los puertos de escucha y publicados de HTTP y HTTPS que la implementación necesita. La configuración predeterminada del puerto 8080 para HTTP y el puerto 4443 para HTTPS se define inicialmente. Puede cambiar estos valores para los puertos de escucha en función de los requisitos de proxy inverso y de red externa. Los puertos publicados se establecen en el valor predeterminado es el puerto 80 para HTTP y el puerto 443 para HTTPS. Estos valores determinan qué puertos el grupo escuchará las solicitudes entrantes. Normalmente, estos no es necesario cambiarlo, a menos que haya un conflicto de requisitos de puerto en el grupo. Se esperan que puertos publicados internos y externos con los mismos valores de puerto. No es un conflicto.
+- Los puertos de escucha y publicados de HTTP y HTTPS que la implementación necesita. La configuración predeterminada del puerto 8080 para HTTP y el puerto 4443 para HTTPS se define inicialmente. Puede cambiar estos valores para los puertos de escucha en función de los requisitos de proxy inverso y de red externa. Se establecen los puertos publicados en valor predeterminado de puerto 80 para HTTP y el puerto 443 para HTTPS. Estos valores determinan qué puertos escuchará el grupo de servidores para las solicitudes entrantes. Normalmente, estos no es necesario que debe cambiar, a menos que haya un conflicto de los requisitos de puerto en el grupo de servidores. Se esperan internos y externos puertos publicados con los mismos valores de puerto. No es un conflicto.
     
 ### <a name="mediation-server"></a>Servidor de mediación
 
@@ -123,17 +124,17 @@ Puede especificar lo siguiente en relación con un **servidor de mediación**:
     
 - Si tiene asociado más de un tronco con un servidor de mediación, puede especificar uno de ellos como el tronco predeterminado. Para ello, seleccione la puerta de enlace y, luego, haga clic en **Establecer como predeterminado**. Para anular la selección de una puerta de enlace como predeterminada, haga clic en **No establecer como predeterminado**. 
     
-Para obtener más información sobre cómo definir y configurar las opciones para el grupo de servidores Front-End, vea [implementación de servidores de mediación y definir pares](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+Para obtener información detallada sobre cómo definir y configurar las opciones del grupo de servidores Front-End, consulte [Deploying Mediation Servers and Defining Peers](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
   
 ## <a name="standard-edition-server"></a>Servidor Standard Edition
 
-En el caso de un servidor Standard Edition, puede configurar las opciones generales, de resistencia, de servicios web y de servidor de mediación. Para más información, mire las siguientes subsecciones. Para obtener más información sobre cómo definir y configurar las opciones para el servidor Standard Edition, consulte [definición y configuración de la topología](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) e [implementar servidores de mediación y definir pares](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+En el caso de un servidor Standard Edition, puede configurar las opciones generales, de resistencia, de servicios web y de servidor de mediación. Para más información, mire las siguientes subsecciones. Para obtener información detallada sobre cómo definir y configurar las opciones para el servidor Standard Edition, consulte [definir y configurar la topología](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) y [Deploying Mediation Servers and Defining Peers](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
   
 ### <a name="general-settings"></a>Configuración general
 
 Puede definir la siguiente configuración general:
   
-- ** FQDN **. El valor del nombre de dominio completo no se puede modificar. Para cambiar el nombre de dominio completo asociado con un servidor Standard Edition, necesita quitar y redefinir dicho servidor.
+- **FQDN**. El valor del nombre de dominio completo no se puede modificar. Para cambiar el nombre de dominio completo asociado con un servidor Standard Edition, necesita quitar y redefinir dicho servidor.
     
 - Seleccione **Usar todas las direcciones IP configuradas** o **Limitar el uso del servicio a las direcciones IP seleccionadas**. Si decide limitar el servicio a determinadas direcciones IP definidas, necesitará definir la dirección IP principal que el servidor usará para todas las comunicaciones, excepto RTC. Para RTC hay que definir una dirección IP aparte. También puede seleccionar **Habilitar IPv6** para habilitar IPv6 para este servidor.
     
@@ -143,7 +144,7 @@ Puede definir la siguiente configuración general:
     
   - **Conferencia**. Incluye las conferencias de audio, de vídeo y de uso compartido de aplicaciones. Tras seleccionar esta opción, puede elegir **Conferencia de acceso telefónico local (RTC)**. Más adelante, concretamente en la sección de configuración del servidor de mediación, puede especificar y definir una puerta de enlace RTC.
     
-  - **Telefonía IP empresarial**. Permite voz interno a través de llamadas IP completo de teléfonos móviles y dispositivos y Skype para clientes empresariales. Para habilitar las funciones de llamada externa, es necesario especificar un servidor de mediación. Para más información, mire “Servidor de mediación” más adelante en este tema.
+  - **Telefonía IP empresarial**. Habilita voz interno a través de llamadas IP a los auriculares completo y dispositivos y Skype para clientes empresariales. Para habilitar las funciones de llamada externa, es necesario especificar un servidor de mediación. Para más información, mire “Servidor de mediación” más adelante en este tema.
     
 - En **Asociaciones**, puede editar o especificar lo siguiente:
     
@@ -202,6 +203,6 @@ Puede especificar lo siguiente en relación con un **servidor de mediación**:
     
 - Si tiene asociada más de una puerta de enlace con un servidor de mediación, puede especificar una de ellas como la puerta de enlace predeterminada. Para ello, seleccione la puerta de enlace y, luego, haga clic en **Establecer como predeterminado**. Para anular la selección de una puerta de enlace como predeterminada, haga clic en **No establecer como predeterminado**. 
     
-Para obtener más información sobre cómo definir y configurar las opciones para el servidor Standard Edition, consulte [definición y configuración de la topología](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) e [implementar servidores de mediación y definir pares](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+Para obtener información detallada sobre cómo definir y configurar las opciones para el servidor Standard Edition, consulte [definir y configurar la topología](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) y [Deploying Mediation Servers and Defining Peers](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
   
 

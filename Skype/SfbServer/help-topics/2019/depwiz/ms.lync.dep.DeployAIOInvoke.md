@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
+ROBOTS: NOINDEX, NOFOLLOW
 description: En la página de comandos de ejecución, se pueden ver las tareas de instalación de SQL Server Express y configuración para actuar como el almacén de Administración Central en el panel de tareas. De forma predeterminada, se crea una instancia de una base de datos basada en SQL Server denominada RTC. También se crean las reglas de Firewall para permitir el acceso de entrada y salido para servidores y clientes para comunicarse con la base de datos y la instancia. Una vez finalizada la tarea, puede seleccionar el archivo de registro de la lista desplegable. El archivo de registro se denomina secuencia de inicio del equipo local. Después de seleccionar el archivo de registro, haga clic en Ver registro. Revise el archivo de registro para los errores y advertencias. Cuando esté listo para continuar, haga clic en Finalizar. Ahora debe definir la topología con Topology Builder si aún no lo ha hecho.
-ms.openlocfilehash: ec6cd9d7f8e7812ca61138e053fd18abf4e24d96
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 44fae0f1349b9252f207248fa99b714b0a8550ce
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964536"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987514"
 ---
 # <a name="prepare-single-standard-edition-server-invoke"></a>Preparar el servidor Standard Edition (invocar)
  

@@ -1,25 +1,25 @@
 ---
-title: Exclusiones de análisis antivirus para Skype Empresarial Server 2015
+title: Análisis de exclusiones para Skype para Business Server del antivirus
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/24/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
-description: Información general de interoperación del detector de virus con Skype para Business Server 2015.
-ms.openlocfilehash: 054ed03146964de7ec0621138186e3c41843c236
-ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
+description: Información general de interoperación del detector de virus con Skype para Business Server.
+ms.openlocfilehash: 2e85816b10a808224a79b065153ecf466c4911c8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009267"
 ---
-# <a name="antivirus-scanning-exclusions-for-skype-for-business-server-2015"></a>Exclusiones de análisis antivirus para Skype Empresarial Server 2015
+# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Análisis de exclusiones para Skype para Business Server del antivirus
  
-Información general de interoperación del detector de virus con Skype para Business Server 2015.
+Información general de interoperación del detector de virus con Skype para Business Server.
 
 En este artículo se incluyen recomendaciones que pueden ayudar a un administrador a determinar la causa del potencial de inestabilidad en un equipo que está ejecutando una versión compatible de Microsoft Windows cuando se usa con el software antivirus en un dominio de Active Directory entorno o en un entorno empresarial administrada.
 
@@ -27,15 +27,15 @@ Se recomienda que aplicar temporalmente estos procedimientos para evaluar un sis
 
 Este artículo contiene información que muestra cómo ayudar a reducir la configuración de seguridad o cómo desactivar temporalmente las características de seguridad en un equipo. Puede realizar estos cambios para comprender la naturaleza de un problema específico. Antes de realizar estos cambios, le recomendamos que evalúe los riesgos asociados con la implementación de esta solución en su entorno concreto. Si decide implementar esta solución alternativa, tome las medidas adicionales oportunas para ayudar a proteger el equipo para los archivos que ya no se examina el software antivirus.
   
-Para asegurarse de que el detector antivirus no interfiere con el funcionamiento de Skype para Business Server 2015, debe excluir directorios y procesos específicos para cada Skype para Business Server 2015 server o rol de servidor en el que ejecute un detector de virus. Es necesario excluir los siguientes procesos y directorios:
+Para asegurarse de que el detector antivirus no interfiere con el funcionamiento de Skype para Business Server, debe excluir directorios y procesos específicos para cada Skype para un servidor Business Server o rol de servidor en el que ejecute un detector de virus. Es necesario excluir los siguientes procesos y directorios:
   
 > [!NOTE]
-> Las ubicaciones de archivos y carpetas enumeradas a continuación son las ubicaciones predeterminadas de Skype para Business Server 2015. Si no usó los valores predeterminados para algunas ubicaciones, excluya esas ubicaciones especificadas para su organización en lugar de las ubicaciones predeterminadas especificadas en este tema. 
+> Las ubicaciones de archivos y carpetas enumeradas a continuación son las ubicaciones predeterminadas de Skype para Business Server. Si no usó los valores predeterminados para algunas ubicaciones, excluya esas ubicaciones especificadas para su organización en lugar de las ubicaciones predeterminadas especificadas en este tema. 
   
 > [!IMPORTANT]
 > Tenga en cuenta que es posible que algunos programas antivirus necesiten rutas de acceso absolutas (no relativas) para su lista de exclusión. 
   
-- Skype para los procesos de negocio Server 2015:
+- Skype para los procesos del servidor empresarial:
     
   - ABServer.exe
     
@@ -125,6 +125,9 @@ Para asegurarse de que el detector antivirus no interfiere con el funcionamiento
   - %systemroot%\SysWow64\LogFiles
     
   - %SystemRoot%\Microsoft.NET\assembly\GAC_MSIL
+
+    > [!NOTE]
+    > Tenga en cuenta que estas rutas de acceso son específicos de Skype para la versión de Business Server. 
     
   - %programfiles%\Skype Empresarial Server 2015
     

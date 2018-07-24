@@ -3,19 +3,18 @@ title: Implementaciones locales de bosque único de Sistema de salas de Skype
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: Lea este tema para obtener información sobre cómo implementar Sistema de salas de Skype en un entorno local de un único bosque.
-ms.openlocfilehash: 9d9e3b837ea4adc0244ee83d843c05b47625f6eb
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 8c931aca8505aa4d41175dbf5e1a138b668323d0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569961"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967908"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Implementaciones locales de bosque único de Sistema de salas de Skype
  
@@ -25,7 +24,7 @@ En esta sección se proporciona una visión general de los pasos de aprovisionam
   
 ## <a name="single-forest-on-premises-deployments"></a>Implementaciones locales de un solo bosque
 
-Si ya tiene una cuenta de buzón de recursos para la sala de conferencias, puede usarla. Si no es así, necesitará crear una. Puede usar el Shell de administración de Exchange (PowerShell) o la consola de administración de Exchange para crear una cuenta de buzón de recursos. Se recomienda usar un nuevo (eliminar el buzón antiguo y volver a crear) buzón de recursos para el sistema de sala de Skype. Asegúrese de realizar una copia de seguridad de todos los datos del buzón antes de eliminarlo y de exportarlos de nuevo al buzón recién creado con el cliente de Outlook (consulte Exportar o realizar copias de seguridad de mensajes, calendario, tareas y contactos para obtener más información). Para restaurar las reuniones perdidas, elimine el buzón de correo, vea [Conectar o restaurar un buzón eliminado](https://technet.microsoft.com/en-us/library/jj863438%28v=exchg.150%29.aspx). 
+Si ya tiene una cuenta de buzón de recursos para la sala de conferencias, puede usarla. Si no es así, necesitará crear una. Puede usar el Shell de administración de Exchange (PowerShell) o la consola de administración de Exchange para crear una cuenta de buzón de recursos. Se recomienda usar un nuevo (eliminar el buzón antiguo y volver a crear) buzón de recursos para el sistema de sala de Skype. Asegúrese de realizar una copia de seguridad de todos los datos del buzón antes de eliminarlo y de exportarlos de nuevo al buzón recién creado con el cliente de Outlook (consulte Exportar o realizar copias de seguridad de mensajes, calendario, tareas y contactos para obtener más información). Para restaurar las reuniones perdidas, elimine el buzón de correo, vea [Conectar o restaurar un buzón eliminado](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx). 
   
 Para usar una cuenta de buzón de recursos (por ejemplo, LRS-01), siga los siguientes pasos:
   

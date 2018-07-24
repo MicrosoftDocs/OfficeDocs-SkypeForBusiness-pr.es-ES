@@ -1,9 +1,9 @@
 ---
-title: Filtro de URL crear nuevo o editar existente
+title: Filtro para direcciones URL crear nuevos o editar los existentes
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,19 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1406c7c5-eb55-4b6a-8d74-d625ea9e9922
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: c3879db07cc210390375753f696c5d2f7307e06c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b562510f7af9c1f4f1f77cc07d881dda95bd5608
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006828"
 ---
-# <a name="url-filter-create-new-or-edit-existing"></a>Filtro de URL: Crear nuevo o editar existente
+# <a name="url-filter-create-new-or-edit-existing"></a>Filtro para direcciones URL: Crear nuevos o editar los existentes
  
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
   
 - [Modificar el filtro de dirección URL predeterminado](http://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
     
-- [Crear un nuevo filtro de URL para manejar hipervínculos en conversaciones de mensajería instantánea](http://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
+- [Crear un nuevo filtro de dirección URL para administrar hipervínculos en conversaciones de mensajería instantánea](http://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
     
-Para obtener más información acerca de los distintos procedimientos que se pueden realizar utilizando el Skype para Business Server Control Panel, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).
+Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).
 

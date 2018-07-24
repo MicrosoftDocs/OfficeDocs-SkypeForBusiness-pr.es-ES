@@ -1,25 +1,24 @@
 ---
-title: Crear directorios de conferencia en Skype Empresarial Server 2015
+title: Crear directorios de conferencia en Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
-description: 'Resumen: Obtenga información sobre cómo crear directorios de conferencia en Skype para Business Server 2015.'
-ms.openlocfilehash: 861172a76da68d39fd9f8213de6e45a892aa1780
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Obtenga información sobre cómo crear directorios de conferencia en Skype para Business Server.'
+ms.openlocfilehash: d54f9782e43c85d5119d0d6138131dc1858ee8f0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568748"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967729"
 ---
-# <a name="create-conference-directories-in-skype-for-business-server-2015"></a>Crear directorios de conferencia en Skype Empresarial Server 2015
+# <a name="create-conference-directories-in-skype-for-business-server"></a>Crear directorios de conferencia en Skype para Business Server
  
-**Resumen:** Obtenga información sobre cómo crear directorios de conferencia en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo crear directorios de conferencia en Skype para Business Server.
   
 Directorios de conferencia mantienen una asignación entre el identificador de reunión alfanumérico que usa un participante para unirse a una conferencia cuando se usa Skype para la empresa y el identificador de conferencia sólo numérico que usa un participante de la conferencia de acceso telefónico para unirse a la conferencia. 
   

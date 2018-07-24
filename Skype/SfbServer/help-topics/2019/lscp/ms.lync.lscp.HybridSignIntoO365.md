@@ -14,13 +14,14 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
+ROBOTS: NOINDEX, NOFOLLOW
 description: Use el Skype para el Asistente para la capacidad de administración de negocio servidor híbrido que le ayudarán a configurar su entorno para la implementación híbrida con Skype para profesionales en línea.
-ms.openlocfilehash: 03183e8935119b7caf623e9478ec2239f29c352d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 012acb21f78707a17f8c90fde490d4d7d9a2b1fb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19968520"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971142"
 ---
 # <a name="hybrid-wizard-sign-in-to-office-365"></a>Asistente híbrido: Inicio de sesión en Office 365
  

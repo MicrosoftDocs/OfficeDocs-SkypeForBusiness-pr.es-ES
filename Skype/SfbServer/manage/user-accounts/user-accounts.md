@@ -1,25 +1,24 @@
 ---
-title: Administrar cuentas de usuario de Skype para Business Server 2015
+title: Administrar cuentas de usuario de Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
-description: Las secciones de este artículo describen cómo habilitar, deshabilitar temporalmente o quitar usuarios de Active Directory de Skype para Business Server 2015.
-ms.openlocfilehash: 00e1f40e72e6073d73a906c814dfc942e6588ba9
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: Las secciones de este artículo describen cómo habilitar, deshabilitar temporalmente o quitar usuarios de Active Directory de Skype para Business Server.
+ms.openlocfilehash: ee6a82c5b5def06866379467beddae788d85171b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505163"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20976740"
 ---
-# <a name="manage-user-accounts-for-skype-for-business-server-2015"></a>Administrar cuentas de usuario de Skype para Business Server 2015
+# <a name="manage-user-accounts-for-skype-for-business-server"></a>Administrar cuentas de usuario de Skype para Business Server
  
-Las secciones de este artículo describen cómo habilitar, deshabilitar temporalmente o quitar usuarios de Active Directory de Skype para Business Server 2015.
+Las secciones de este artículo describen cómo habilitar, deshabilitar temporalmente o quitar usuarios de Active Directory de Skype para Business Server.
   
 Para obtener información acerca de cómo habilitar a un usuario de Active Directory, vea [crear una nueva cuenta de usuario](https://technet.microsoft.com/en-us/library/cc732336%28v=ws.11%29.aspx). Para obtener información sobre cómo eliminar un usuario de Active Directory, vea [Eliminar una cuenta de usuario](https://technet.microsoft.com/en-us/library/cc753730%28v=ws.11%29.aspx).
   
@@ -29,7 +28,7 @@ Este artículo contiene los siguientes procedimientos:
   
 - [Para buscar uno o varios usuarios](user-accounts.md#Search)
     
-- [Agregar y habilitar un nuevo Skype para usuario Business Server 2015](user-accounts.md#Add)
+- [Agregar y habilitar un nuevo Skype para usuario Business Server](user-accounts.md#Add)
     
 - [Deshabilitar o volver a habilitar una cuenta de usuario habilitada anteriormente para Skype para Business Server](user-accounts.md#Disable)
     
@@ -40,7 +39,7 @@ Este artículo contiene los siguientes procedimientos:
 ## <a name="to-search-for-one-or-more-users"></a>Para buscar uno o varios usuarios
 <a name="Search"> </a>
 
-Puede usar los resultados de una consulta de búsqueda para configurar usuarios de Active Directory para Skype para Business Server 2015. Puede buscar usuarios según el nombre para mostrar, el nombre, los apellidos, el nombre de cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de línea.
+Puede usar los resultados de una consulta de búsqueda para configurar usuarios de Active Directory para Skype para Business Server. Puede buscar usuarios según el nombre para mostrar, el nombre, los apellidos, el nombre de cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de línea.
   
 Puede buscar los usuarios mediante el Skype para Panel de Control de servidor empresarial o los usuarios de Active Directory y complemento de equipos. El siguiente procedimiento describe cómo usar Skype para el Panel de Control de servidor empresarial para buscar los usuarios.
   
@@ -67,10 +66,10 @@ Puede buscar los usuarios mediante el Skype para Panel de Control de servidor em
     
 6. En **Los resultados de búsqueda**, aparecerán los resultados de búsqueda. Puede seleccionar cualquier o todos los usuarios en la lista y realizar tareas de configuración en los usuarios que seleccione.
     
-## <a name="add-and-enable-a-new-skype-for-business-server-2015-user"></a>Agregar y habilitar un nuevo Skype para usuario Business Server 2015
+## <a name="add-and-enable-a-new-skype-for-business-server-user"></a>Agregar y habilitar un nuevo Skype para usuario Business Server
 <a name="Add"> </a>
 
-Después de habilitar una cuenta de usuario en usuarios y equipos de usuarios de Active Directory, puede usar Skype para el Panel de Control de Business Server para crear y habilitar nuevas Skype Business Server 2015 las cuentas de usuario mediante la adición de un usuario de Active Directory a Skype para Business Server 2015.
+Después de habilitar una cuenta de usuario en usuarios y equipos de usuarios de Active Directory, puede usar Skype para el Panel de Control de Business Server para crear y habilitar nuevas Skype Business Server las cuentas de usuario mediante la adición de un usuario de Active Directory a Skype para Business Server.
   
 También puede usar un cmdlet, específicamente [Enable-CsUser](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps).
   
@@ -86,7 +85,7 @@ También puede usar un cmdlet, específicamente [Enable-CsUser](https://docs.mic
     
 6. En el cuadro de **búsqueda de usuarios** , escriba todo o la primera parte del nombre, Mostrar nombre, nombre, apellidos, nombre de la cuenta de administrador de cuentas de seguridad (SAM), dirección de correo electrónico, nombre Principal del usuario (UPN) o número de teléfono de la cuenta de usuario de Active Directory que desee y, a continuación, haga clic en **Buscar**.
     
-7. En la tabla, seleccione la cuenta que desea agregar a Skype para Business Server 2015 y, a continuación, haga clic en **Aceptar**.
+7. En la tabla, seleccione la cuenta que desea agregar a Skype para Business Server y, a continuación, haga clic en **Aceptar**.
     
 8. Asigne al usuario a un grupo de servidores, especificar detalles adicionales y asigne las directivas al usuario que desee y, a continuación, haga clic en **Habilitar**.
     
@@ -136,7 +135,7 @@ Para obtener más información, vea el tema de ayuda para el cmdlet [Set-CsUser]
 ## <a name="disable-a-user-for-enterprise-voice"></a>Deshabilitar a un usuario para Enterprise Voice
 <a name="Disable_EV"> </a>
 
-Use el procedimiento siguiente para deshabilitar Enterprise Voice para una cuenta de usuario que está habilitada para Skype en Business Server 2015.
+Use el procedimiento siguiente para deshabilitar Enterprise Voice para una cuenta de usuario que está habilitada para Skype en Business Server.
   
 ### <a name="to-disable-a-user-account-for-enterprise-voice"></a>Para deshabilitar una cuenta de usuario para Enterprise Voice
 
@@ -159,11 +158,11 @@ Use el procedimiento siguiente para deshabilitar Enterprise Voice para una cuent
   
 8. Haga clic en **Confirmar**.
     
-El usuario es ahora no se puede usar la característica de Enterprise Voice. Información relacionada: <br/>[Enterprise Voice y movilidad](http://technet.microsoft.com/library/72cbe2f5-1a01-4a6f-84a5-01f3212a8992.aspx)<br/> [Habilitar a usuarios para Enterprise Voice en Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype para Shell de administración de Business Server 2015](../management-shell.md)
+El usuario es ahora no se puede usar la característica de Enterprise Voice. Información relacionada: <br/>[Enterprise Voice y movilidad](http://technet.microsoft.com/library/72cbe2f5-1a01-4a6f-84a5-01f3212a8992.aspx)<br/> [Habilitar a usuarios para Enterprise Voice en Skype para Business Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Shell de administración de Skype Empresarial Server](../management-shell.md)
 ## <a name="remove-a-user-account-with-the-skype-for-business-server-management-shell"></a>Quitar una cuenta de usuario con el Skype para Shell de administración de servidor empresarial
 <a name="Remove"> </a>
 
-Puede usar el siguiente procedimiento para quitar una cuenta de usuario agregada anteriormente en Skype para Business Server 2015. 
+Puede usar el siguiente procedimiento para quitar una cuenta de usuario agregada anteriormente en Skype para Business Server. 
   
 > [!NOTE]
 > Eliminación de un usuario hará que perder cualquier configuración establecida para la cuenta de usuario. Si desea deshabilitar temporalmente una cuenta de usuario en su lugar, vea [Deshabilitar o volver a habilitar una cuenta de usuario habilitada anteriormente para Skype para Business Server](user-accounts.md#Disable). 

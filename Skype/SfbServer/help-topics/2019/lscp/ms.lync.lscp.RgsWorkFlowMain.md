@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
+ROBOTS: NOINDEX, NOFOLLOW
 description: Grupos de respuesta constan de grupos de agentes, colas y flujos de trabajo. Los flujos de trabajo de grupo de respuesta definen las acciones que se toman cuando la aplicación de grupo de respuesta recibe una llamada de teléfono.
-ms.openlocfilehash: 6af4d40b75ae090cd3e99746ea111e3d804aed60
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: eabf3dfdd8e9dd9f63bb7fed6e71c1a7b2cbed38
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997027"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997536"
 ---
 # <a name="response-groups-workflow"></a>Flujo de trabajo de grupos de respuesta
  
@@ -56,6 +57,6 @@ En la siguiente lista se describen los campos de la página.
     
 - **Habilitado** Indica si el flujo de trabajo está activado para recibir llamadas.
     
-Para obtener información detallada sobre las características de grupo de respuesta y funciones, consulte [Plan para la aplicación de grupo de respuesta en Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md). Para obtener información detallada sobre cómo trabajar con flujos de trabajo de grupo de respuesta, vea [Administrar flujos de trabajo de grupo de respuesta](http://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) en la documentación sobre operaciones.
+Para obtener información detallada sobre las características de grupo de respuesta y funciones, consulte [Plan para la aplicación de grupo de respuesta en Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación de planeación. Para obtener información detallada sobre cómo trabajar con flujos de trabajo de grupo de respuesta, vea [Administrar flujos de trabajo de grupo de respuesta](http://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) en la documentación sobre operaciones.
   
 

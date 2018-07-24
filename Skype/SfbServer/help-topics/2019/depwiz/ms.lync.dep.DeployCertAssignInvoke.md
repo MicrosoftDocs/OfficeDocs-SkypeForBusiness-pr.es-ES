@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
-description: La página ejecución de comandos muestra las acciones realizadas por las tareas para asignar el certificado al servidor. Cuando haya completado las tareas, puede ver el registro que se detalla el proceso de asignación del certificado. Para ver el archivo de registro, haga clic en Ver registro.
-ms.openlocfilehash: 3fa2230124ce5f30078483747db710ef7d5d468e
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: La página ejecución de comandos muestra las acciones realizadas por las tareas para asignar el certificado al servidor. Cuando haya completado las tareas, puede ver el registro que se detalla el proceso de asignación del certificado. Para visualizar el archivo de registro, haga clic en Ver registro.
+ms.openlocfilehash: 385ee73a1619781b90a409410ed20bb96a31c993
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991469"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967708"
 ---
 # <a name="certificate-assignment-invoke"></a>Asignación de certificados (invocar)
  

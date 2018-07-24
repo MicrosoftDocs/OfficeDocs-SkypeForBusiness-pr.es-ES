@@ -1,28 +1,27 @@
 ---
-title: Configurar una aplicación de socio local de Skype Empresarial Server 2015
+title: Configurar una aplicación de socio local para Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
-description: 'Resumen: Configurar una aplicación de socio local para Skype para Business Server 2015.'
-ms.openlocfilehash: 2f13196288fb7b609e5e3d39996c12eab04493dc
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Configurar una aplicación de socio local para Skype para Business Server.'
+ms.openlocfilehash: 1377957797108f3cbc8e290b7750e9fba489cbf8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569452"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009728"
 ---
-# <a name="configure-an-on-premises-partner-application-for-skype-for-business-server-2015"></a>Configurar una aplicación de socio local de Skype Empresarial Server 2015
+# <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>Configurar una aplicación de socio local para Skype para Business Server
  
-**Resumen:** Configurar una aplicación de socio local para Skype para Business Server 2015.
+**Resumen:** Configurar una aplicación de socio local para Skype para Business Server.
   
-Una vez que haya asignado el certificado OAuthTokenIssuer, a continuación, debe configurar su Skype para aplicaciones de socio de negocio Server 2015. (El procedimiento a se tratan configura tanto Microsoft Exchange Server 2013 y SharePoint para que actúen como aplicaciones de socio, que es opcional). Para configurar una aplicación de socio local, debe empezar por el siguiente script de Windows PowerShell de copiar y pegar el código en el Bloc de notas (o cualquier otro editor de texto):
+Una vez que haya asignado el certificado OAuthTokenIssuer, a continuación, debe configurar su Skype para aplicaciones de socio Business Server. (El procedimiento a se tratan configura tanto Microsoft Exchange Server 2013 y SharePoint para que actúen como aplicaciones de socio, que es opcional). Para configurar una aplicación de socio local, debe empezar por el siguiente script de Windows PowerShell de copiar y pegar el código en el Bloc de notas (o cualquier otro editor de texto):
   
 ```
 if ((Get-CsPartnerApplication -ErrorAction SilentlyContinue) -ne $Null)
@@ -102,7 +101,7 @@ New-CsPartnerApplication : Cannot bind parameter 'MetadataUrl' to the target. Ex
 
 Este mensaje de error suele indicar una de estas dos situaciones: 1) una de las direcciones URL especificadas en el script no es válida (dicho de otro modo, una de las direcciones URL de metadatos no es realmente una dirección URL de metadatos) o 2) no se pudo establecer contacto con una de las direcciones URL de metadatos. Si esto sucede, compruebe que las direcciones URL son correctas y accesibles y vuelva a ejecutar el script.
   
-Después de crear la aplicación de socio de Skype para Business Server 2015, a continuación, debe configurar Skype para Business Server como una aplicación de socio para Exchange 2013. Puede configurar las aplicaciones de socios para Exchange 2013, ejecute el script Configure-EnterprisePartnerApplication.ps1; todo lo que necesita hacer es especificar la dirección URL de metadatos de Skype para Business Server e indicar que Skype para Business Server es la nueva aplicación de socio. 
+Después de crear la aplicación de socio de Skype para Business Server, a continuación, debe configurar Skype para Business Server como una aplicación de socio para Exchange 2013. Puede configurar las aplicaciones de socios para Exchange 2013, ejecute el script Configure-EnterprisePartnerApplication.ps1; todo lo que necesita hacer es especificar la dirección URL de metadatos de Skype para Business Server e indicar que Skype para Business Server es la nueva aplicación de socio. 
   
 Para configurar Skype para Business Server como una aplicación de socio para Exchange, abra el Shell de administración de Exchange y ejecute un comando similar al siguiente
   

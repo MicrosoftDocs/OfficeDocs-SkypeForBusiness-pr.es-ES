@@ -1,44 +1,44 @@
 ---
-title: Usar informes de supervisión en Skype Empresarial Server 2015
+title: Uso de informes de supervisión en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
-description: 'Resumen: Conozca acerca de la supervisión de informes de Skype para Business Server 2015.'
-ms.openlocfilehash: ff34efdf698e19006e99819c52c01c68dba2c3ae
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información sobre la supervisión de informes en Skype para Business Server.'
+ms.openlocfilehash: 68fcf3a738d2cf849bd51959a86f2d61e53db603
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003796"
 ---
-# <a name="using-monitoring-reports-in-skype-for-business-server-2015"></a>Usar informes de supervisión en Skype Empresarial Server 2015
+# <a name="using-monitoring-reports-in-skype-for-business-server"></a>Uso de informes de supervisión en Skype para Business Server 
  
-**Resumen:** Obtenga información acerca de la supervisión de informes de Skype para Business Server 2015.
+**Resumen:** Obtenga información acerca de la supervisión de informes en Skype para Business Server.
   
-Skype para Business Server 2015 incluye un conjunto de informes estándares que se publican por el servicio de informe de Microsoft SQL Server. En estos informes, accesibles a través de un explorador web, encontrará información sobre el uso, el diagnóstico de llamadas y la calidad de medios, todo ello basado en el registro detallado de llamadas (CDR) y en los registros de calidad de la experiencia (QoE) que se almacenan en las bases de datos de CDR y QoE.
+Skype para Business Server incluye un conjunto de informes estándar que se publican por Microsoft SQL Server Reporting Services. En estos informes, accesibles a través de un explorador web, encontrará información sobre el uso, el diagnóstico de llamadas y la calidad de medios, todo ello basado en el registro detallado de llamadas (CDR) y en los registros de calidad de la experiencia (QoE) que se almacenan en las bases de datos de CDR y QoE.
   
-Para utilizar estos informes, debe instalar los informes de supervisión en un equipo que está ejecutando una instancia de la de SQL Server.
+Para usar estos informes, debe instalar los informes de supervisión en un equipo que ejecuta una instancia de SQL Server.
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Utilizando el panel de supervisión en Skype para Business Server 2015](monitoring-dashboard.md) Proporciona a los administradores una rápida visión general de su estado del sistema y el uso del sistema.
+- [Uso del panel de supervisión en Skype para Business Server](monitoring-dashboard.md) Proporciona a los administradores con una introducción rápida a su estado del sistema y el uso del sistema.
     
-- [Informes de uso del sistema en Skype para Business Server 2015](system-usage-reports.md) Proporciona información de uso del sistema basado en datos de CDR recopilados por Skype para Business Server.
+- [Informes de uso del sistema en Skype para Business Server](system-usage-reports.md) Proporciona información sobre el uso del sistema en función de los datos de CDR recopilados por Skype para Business Server.
     
-- [Llamar a informes de diagnóstico (por usuario) en Skype para Business Server 2015](call-diagnostic-reports-per-user.md) Proporciona información por usuario acerca de las sesiones de conferencias y peer-to-peer fallidas.
+- [Llamar a informes de diagnóstico (por usuario) en Skype para Business Server](call-diagnostic-reports-per-user.md) Proporciona información por usuario acerca de las sesiones de punto a punto y conferencias con errores.
     
-- [Llamar a informes de diagnóstico en Skype para Business Server 2015](call-diagnostic-reports.md) Proporciona información de resumen y datos de diagnóstico de error peer-to-peer y sesiones de conferencias.
+- [Llamar a los informes de diagnóstico en Skype para Business Server](call-diagnostic-reports.md) Proporciona información de resumen y datos de diagnóstico sobre las sesiones de conferencia y punto a punto con errores.
     
-- [Informes de diagnóstico de calidad Media en Skype para Business Server 2015](media-quality-diagnostic-reports.md) Proporciona información acerca de la calidad de las llamadas, así como información de diagnóstico y solución de problemas de llamadas fallidas.
+- [Informes de diagnósticos de calidad de medios en Skype para Business Server](media-quality-diagnostic-reports.md) Proporciona información acerca de la calidad de las llamadas, así como información de diagnóstico y solución de problemas para las llamadas con errores.
     
 ## <a name="locating-records"></a>Localización de registros
 
-Los informes de supervisión muestran únicamente un número limitado de registros en pantalla de cada vez. El número de registros que aparece en una pantalla varía en función del informe. Puede utilizar el avance y retroceso control estándar (que se encuentra en la barra de herramientas de cada informe) que permiten recorrer los datos página a página para ver los registros que no se muestran actualmente en la pantalla. También se puede ir rápidamente a la primera o a la última página del conjunto de datos.
+Los informes de supervisión muestran únicamente un número limitado de registros en pantalla de cada vez. El número de registros que aparece en una pantalla varía en función del informe. Para ver los registros que no se muestran actualmente en la pantalla puede usar hacia delante y hacia atrás control estándar (que se encuentra en la barra de herramientas de cada informe) que se permiten en una página a través de los datos. También se puede ir rápidamente a la primera o a la última página del conjunto de datos.
   
 Además de estos controles, también se puede ir a cualquier página del conjunto de datos escribiendo el número de página en el cuadro **Página actual** y presionando la tecla ENTRAR.
   
@@ -46,7 +46,7 @@ Además de poder avanzar por los datos de página en página, todos los informes
   
 Tal y como se ha mencionado, los informes de supervisión ofrecen únicamente las funciones de búsqueda más básicas; así, por ejemplo, no se puede especificar el campo en el que buscar el valor, sino que se buscan automáticamente los valores coincidentes en todos los campos de todos los registros. Tampoco se pueden usar caracteres comodín en las búsquedas y en todos los casos se buscarán valores parciales. Esto quiere decir que, si se busca 111, la búsqueda detectará no solo el valor 111, sino también los valores 11100, 811, 3112, 611A5B y cualquier otro campo que incluya el valor 111.
   
-Cada informe está configurado para mostrar un conjunto predeterminado de registros. Por ejemplo, de forma predeterminada el informe de registro de usuario muestra las actividades de registro de usuario para la semana pasada. En algunos casos, esto podría resultar en un informe que no devuelve ningún registro. En este caso, significa que no hay registros de usuario han tenido lugar en la semana pasada. Si ve el mensaje "no hay resultados coincidan con los filtros de informe", pruebe a cambiar los valores de filtro (por ejemplo, cambiar el período de tiempo el mes pasado, en lugar de la semana pasada) y vuelva a ejecutar la consulta. Para obtener más información, consulte la sección "Filtrado de datos" más adelante en este tema.
+Cada informe está configurado para mostrar un conjunto de registros predeterminado. Por ejemplo, de forma predeterminada el informe de registro de usuario muestra las actividades de registro de usuario para la semana pasada. En algunos casos, esto puede dar lugar en un informe que no devuelve ningún registro. En este caso, significa que no hay registros de usuario han tenido lugar en la semana pasada. Si ve el mensaje "no hay resultados coinciden con los filtros del informe", pruebe a cambiar los valores de filtro (por ejemplo, cambiar el período de tiempo del mes pasado, en lugar de la semana pasada) y vuelva a ejecutar la consulta. Para obtener información detallada, vea la sección "Filtrado de datos" más adelante en este tema.
   
 ## <a name="filtering-data"></a>Filtrado de datos
 

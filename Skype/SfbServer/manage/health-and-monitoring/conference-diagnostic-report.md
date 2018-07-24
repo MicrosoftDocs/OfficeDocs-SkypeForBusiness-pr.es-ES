@@ -1,26 +1,26 @@
 ---
-title: Informe de diagnósticos de conferencia en Skype Empresarial Server 2015
+title: Informe de diagnósticos de conferencia en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
-description: 'Resumen: Conozca el informe de diagnóstico de conferencia utilizado en Skype para Business Server 2015.'
-ms.openlocfilehash: 6d638efbd011026cd4481d3a68d0a4836fb792a3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Información sobre el informe de diagnósticos de conferencia usadas en Skype para Business Server.'
+ms.openlocfilehash: 75d12f8b2906e84a8ca786a7103ce41d87f3f300
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981132"
 ---
-# <a name="conference-diagnostic-report-in-skype-for-business-server-2015"></a>Informe de diagnósticos de conferencia en Skype Empresarial Server 2015
+# <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Informe de diagnósticos de conferencia en Skype para Business Server
  
-**Resumen:** Obtener información sobre el informe de diagnóstico de conferencia utilizado en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre el informe de diagnósticos de conferencia usadas en Skype para Business Server.
   
-El Informe de diagnósticos de conferencia facilita información sobre las sesiones de conferencia que se han completado correctamente y las que han presentado algún error. Tenga en cuenta que Skype para Business Server distingue entre diferentes tipos de error:
+El Informe de diagnósticos de conferencia facilita información sobre las sesiones de conferencia que se han completado correctamente y las que han presentado algún error. Tenga en cuenta que Skype para Business Server distingue entre distintos tipos de error:
   
 - **Error esperado**. Un error esperado es, generalmente, un error en el sentido más técnico. Por ejemplo, supongamos que alguien inicia una conferencia, pero la comunicación se cuelga antes de que otros usuarios puedan unirse a ella. Técnicamente, eso es un error: la conferencia se ha iniciado, pero no se ha completado. Pero, es un error que cabe esperar que ocurra, porque si el organizador cancela la conferencia antes de que otros usuarios se unan a ella, no podemos esperar que la conferencia se complete.
     
@@ -28,15 +28,15 @@ El Informe de diagnósticos de conferencia facilita información sobre las sesio
     
 Observe que las métricas Correcta, Error esperado y Error inesperado podrían no incluirse en la métrica Total de sesiones. Por ejemplo, podría ver los siguientes valores en el informe:
   
-|**Éxitos**|**Errores esperados**|**Errores inesperados**|**Total de sesiones**|
+|**Correctas**|**Errores esperados**|**Errores inesperados**|**Total de sesiones**|
 |:-----|:-----|:-----|:-----|
 |2024  <br/> |469  <br/> |16  <br/> |2521  <br/> |
    
-Si sumamos 2024 + 469 + 16, obtenemos un total de 2509 sesiones y, en cambio, la columna Total de sesiones muestra 2521 sesiones. Las 12 sesiones "que faltan" son las sesiones que el sistema no ha podido clasificar como correctas ni con error. A veces, que será el caso cuando un producto de terceros presenta un nuevo código de diagnóstico es muy conocido en el servidor de supervisión. Cuando esto ocurre, las llamadas realizadas por medio de este producto que ocasionen ese código de diagnóstico no siempre se clasificarán como Correcta, Error esperado o Error inesperado.
+Si sumamos 2024 + 469 + 16, obtenemos un total de 2509 sesiones y, en cambio, la columna Total de sesiones muestra 2521 sesiones. Las 12 sesiones "que faltan" son las sesiones que el sistema no ha podido clasificar como correctas ni con error. En ocasiones, que será el caso cuando un producto de terceros presenta un nuevo código de diagnóstico que está familiarizado al servidor de supervisión. Cuando esto ocurre, las llamadas realizadas por medio de este producto que ocasionen ese código de diagnóstico no siempre se clasificarán como Correcta, Error esperado o Error inesperado.
   
 ## <a name="accessing-the-conference-diagnostic-report"></a>Acceso al Informe de diagnósticos de conferencia
 
-Al Informe de diagnósticos de conferencia, se puede obtener acceso desde la página de inicio de Informes de supervisión. El [Informe de distribución falla en Skype para Business Server 2015](failure-distribution-report.md) puede acceder haciendo clic en cualquiera de las siguientes métricas:
+Al Informe de diagnósticos de conferencia, se puede obtener acceso desde la página de inicio de Informes de supervisión. Puede acceder al [Informe de distribución de errores en Skype para Business Server](failure-distribution-report.md) haciendo clic en cualquiera de las métricas siguientes:
   
 - Volumen de errores inesperados
     
@@ -44,7 +44,7 @@ Al Informe de diagnósticos de conferencia, se puede obtener acceso desde la pá
     
 ## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>Cómo hacer el mejor uso del Informe de diagnósticos de conferencia
 
-El Informe de diagnósticos de conferencia incluye una serie de gráficos. Cada una de las columnas mostradas en el gráfico es, en realidad, un hipervínculo. Si hace clic en una columna, podrá desglosar el [Informe de distribución falla en Skype para Business Server 2015](failure-distribution-report.md) para ese período de tiempo y ese tipo de conferencia.
+El Informe de diagnósticos de conferencia incluye una serie de gráficos. Cada una de las columnas mostradas en el gráfico es, en realidad, un hipervínculo. Si hace clic en una columna, se podrá profundizar para el [Informe de distribución de errores en Skype para Business Server](failure-distribution-report.md) para ese período de tiempo y ese tipo de conferencia.
   
 ## <a name="filters"></a>Filtros
 
@@ -52,7 +52,7 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
   
 En la tabla siguiente se muestran los filtros que se pueden utilizar con el Informe de diagnósticos de conferencia.
   
-**Filtros de informe de diagnóstico de conferencia**
+**Filtros del Informe de diagnósticos de conferencia**
 
 |**Nombre.**|**Descripción**|
 |:-----|:-----|
@@ -66,9 +66,9 @@ En la tabla siguiente se muestran los filtros que se pueden utilizar con el Info
 
 En la siguiente tabla se enumera la información proporcionada en el Informe de diagnósticos de conferencia para cada tipo de sesión de conferencia.
   
-**Métricas de informe de diagnóstico de conferencia**
+**Métricas del Informe de diagnósticos de conferencia**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Volumen de corrección** <br/> |No  <br/> |Cantidad total de conferencias correctas  <br/> |
 |**Porcentaje de corrección** <br/> |No  <br/> |Porcentaje de conferencias que se realizaron con problemas considerables. Se calcula dividiendo el volumen de sesiones correctas por el total de sesiones.  <br/> |

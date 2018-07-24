@@ -1,30 +1,30 @@
 ---
-title: Eventos de UCWA en Skype Empresarial Server 2015
+title: Eventos UCWA en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
-description: 'Resumen: Conozca la Web de comunicaciones unificadas (UCWA) de la API de Skype para Business Server 2015.'
-ms.openlocfilehash: cc9b62a4d00e9c4ed4feadfbfecfa4e3f8ca79fa
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información acerca de la Web de comunicaciones unificadas (UCWA) de la API de Skype para Business Server.'
+ms.openlocfilehash: 5a9fa42fa1367cd4afd74bc40f30549ca5777950
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981096"
 ---
-# <a name="ucwa-events-in-skype-for-business-server-2015"></a>Eventos de UCWA en Skype Empresarial Server 2015
+# <a name="ucwa-events-in-skype-for-business-server"></a>Eventos UCWA en Skype para Business Server
  
-**Resumen:** Obtenga información sobre el Web de comunicaciones unificadas (UCWA) de la API de Skype para Business Server 2015.
+**Resumen:** Obtenga información acerca de la Web de comunicaciones unificadas (UCWA) de la API de Skype para Business Server.
   
-Skype para Business Server 2015 utiliza la API de Web de comunicaciones unificadas (UCWA) para una serie de propósitos, tengan acceso a Microsoft Exchange para búsquedas de contacto a la presencia de actualización para los clientes móviles.
+Skype para Business Server usa la API de Web de comunicaciones unificadas (UCWA) para una serie de propósitos, pueda tener acceso a Microsoft Exchange para las búsquedas de contactos a la actualización de presencia para los clientes móviles.
   
 UCWA escribirá los registros del comportamiento operativo como tipos de evento informativos, de advertencia y de error. En la siguiente tabla se describen los eventos que pueden escribir los componentes de UCWA.
   
-|**Id. de suceso**|**Tipo de evento**|**Resumen**|**Causa y solución**|
+|**Id. del evento**|**Tipo de evento**|**Resumen**|**Causa y solución**|
 |:-----|:-----|:-----|:-----|
 |20001  <br/> |Informativo  <br/> |Se inicializó UCWA  <br/> |N/D  <br/> N/D  <br/> |
 |20002  <br/> |Error  <br/> |UCWA encontró una excepción inesperada durante la inicialización  <br/> |Se produjo un error inesperado durante la inicialización  <br/> Examine los detalles de la excepción en la entrada del registro de eventos asociada para determinar la posible causa  <br/> |

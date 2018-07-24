@@ -3,18 +3,18 @@ title: Instalar y probar Skype Empresarial para Windows Phone
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: 'Resumen: Obtenga información sobre cómo instalar y probar Skype para la empresa en su Windows Phone.'
-ms.openlocfilehash: 12916e26857e5d456338519adee6190c11bace7b
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 90e8b99532e51399f9f76e5e12d60a3eeab84481
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978050"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Skype Empresarial Server 2015: instalar y probar Skype Empresarial para Windows Phone
  
@@ -109,9 +109,5 @@ Para quitar el Skype para la aplicación empresarial para Windows Phone desde su
     
 2. Puntee y mantenga el Skype para aplicaciones de negocio para Windows Phone y, a continuación, seleccione **desinstalar**.
     
-## <a name="see-also"></a>Vea también
 
-#### 
-
-[Introducción a Skype para empresarial para Windows Phone 8.1]()
 

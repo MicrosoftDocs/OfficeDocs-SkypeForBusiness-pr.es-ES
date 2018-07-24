@@ -1,35 +1,36 @@
 ---
-title: Administrar la topología en Skype Empresarial Server 2015
+title: Administrar la topología de Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/30/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2f8ce22-938e-4e22-8a1a-c829a1366b27
-description: 'Resumen: Conozca los pasos para administrar la topología de Skype para Business Server 2015.'
-ms.openlocfilehash: eb151bd6730672f969c6491a08afc79aadf4b935
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información sobre los pasos necesarios para administrar la topología de Skype para Business Server.'
+ms.openlocfilehash: f00168f706d1639f20cbfa2df7cb3fd089eb2bc4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986610"
 ---
-# <a name="manage-your-topology-in-skype-for-business-server-2015"></a>Administrar la topología en Skype Empresarial Server 2015
+# <a name="manage-your-topology-in-skype-for-business-server"></a>Administrar la topología de Skype para Business Server 
  
-**Resumen:** Conozca los pasos para administrar la topología de Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre los pasos necesarios para administrar la topología de Skype para Business Server.
   
-Los temas siguientes proporcionan instrucciones paso a paso en tareas relacionadas con la administración de su Skype para la topología de servidores de la empresa y los servidores frontales.
+Los temas siguientes proporcionan instrucciones paso a paso en tareas relacionadas con la administración de su Skype para la topología de servidor empresarial y los servidores Front-End.
   
-- [Revisión o actualización de servidores frontales de Skype para Business Server 2015](patch-or-update-front-end-servers.md)
+- [Una revisión o actualización de servidores Front-End en Skype para Business Server](patch-or-update-front-end-servers.md)
     
-- [Agregar o quitar un servidor Front-End de Skype para Business Server 2015](add-or-remove-a-front-end-server.md)
+- [Agregar o quitar un servidor Front-End en Skype para Business Server](add-or-remove-a-front-end-server.md)
     
-- [Agregar bases de datos a un grupo de disponibilidad AlwaysOn en Skype para Business Server 2015](add-databases.md) [Revisión o actualización de un servidor nuevo servidor o Standard Edition en Skype para Business Server 2015](patch-or-update-a-back-end-or-standard-edition-server.md)
+- [Agregar las bases de datos a un grupo de disponibilidad AlwaysOn en Skype para Business Server](add-databases.md) [Revisión o actualización de un servidor Back-End o servidor Standard Edition en Skype para Business Server](patch-or-update-a-back-end-or-standard-edition-server.md)
     
-- [Revisiones o actualizaciones a un SQL Server en un grupo de disponibilidad AlwaysOn en Skype para Business Server 2015](patch-or-update-sql-server.md)
+- [Una revisión o actualización de un servidor SQL Server en un grupo de disponibilidad AlwaysOn en Skype para Business Server](patch-or-update-sql-server.md)
     
-- [Almacén de archivos de mover datos a un nuevo almacén de archivo en Skype para Business Server 2015](../../help-topics/help-topobld/move-file-store-data.md)
+- [Almacén de archivos de movimiento de datos a un nuevo almacén de archivos en Skype para Business Server](../../help-topics/help-topobld/move-file-store-data.md)
+
     
 

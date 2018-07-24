@@ -1,9 +1,9 @@
 ---
-title: Asociar el Front-End con AV MCU
+title: Asociar Front-End con MCU AV
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,17 +11,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 314e3b0b-9ca7-423b-9c8e-80eb6013d36f
-description: A conferencias audiovisuales habilita el audio en tiempo real y comunicaciones de vídeo entre los usuarios (es decir, si disponen de dispositivos de cliente adecuado, como auriculares para conferencias de audio y webcams para videoconferencias). Si su implementación admite conferencias y habilitar conferencias web y A / conferencias audiovisuales, puede colocar el A / V Conferencing Server con el servidor Front-End), o puede implementar uno o más A independiente / V servidores de conferencia (A / grupo de conferencias audiovisuales) . Si elige la opción de implementar un independiente A / V Conferencing Server, se debe definir en el generador de topología.
-ms.openlocfilehash: 7b38f9bc548c3c29d713f2c36a04b782ad7d6279
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Una conferencia A/v permite comunicaciones vídeo entre los usuarios y audio en tiempo real (es decir, si tienen los dispositivos cliente adecuados, como auriculares con micrófono para conferencias de audio y cámaras Web para las conferencias de vídeo). Si su implementación admite la conferencia y habilitar conferencia web y A / conferencia A/v, se puede combinar el / servidor de conferencia A/v con el servidor Front-End), o puede implementar uno o varios A independiente o servidores de conferencia A/v (A o grupo de servidores de conferencia A/v) . Si elige la opción de implementación independiente o servidor de conferencia A/v, debe definir en el generador de topología.
+ms.openlocfilehash: 1e6e95ef7f6dd216b5cb2fe87b1f4525ce900396
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975504"
 ---
-# <a name="associate-front-end-with-av-mcu"></a>Asociar el Front-End con AV MCU
+# <a name="associate-front-end-with-av-mcu"></a>Asociar Front-End con MCU AV
  
-A conferencias audiovisuales habilita el audio en tiempo real y comunicaciones de vídeo entre los usuarios (es decir, si disponen de dispositivos de cliente adecuado, como auriculares para conferencias de audio y webcams para videoconferencias). Si su implementación admite conferencias y habilitar conferencias web y A / conferencias audiovisuales, puede colocar el A / V Conferencing Server con el servidor Front-End), o puede implementar uno o más A independiente / V servidores de conferencia (A / grupo de conferencias audiovisuales) . Si elige la opción de implementar un independiente A / V Conferencing Server, se debe definir en el generador de topología.
+Una conferencia A/v permite comunicaciones vídeo entre los usuarios y audio en tiempo real (es decir, si tienen los dispositivos cliente adecuados, como auriculares con micrófono para conferencias de audio y cámaras Web para las conferencias de vídeo). Si su implementación admite la conferencia y habilitar conferencia web y A / conferencia A/v, se puede combinar el / servidor de conferencia A/v con el servidor Front-End), o puede implementar uno o varios A independiente o servidores de conferencia A/v (A o grupo de servidores de conferencia A/v) . Si elige la opción de implementación independiente o servidor de conferencia A/v, debe definir en el generador de topología.
   
-Todos los grupos en un sitio y los grupos de múltiples sitios centrales pueden utilizar el mismo A / V Conferencing Server, si el uso no supere la capacidad del A / V Conferencing Server. 
+Todos los grupos de servidores de un sitio y los grupos de servidores de varios sitios centrales pueden utilizar la misma / servidor de conferencia A/v, uso no sobrepase la capacidad del / servidor de conferencia A/v. 
   
 

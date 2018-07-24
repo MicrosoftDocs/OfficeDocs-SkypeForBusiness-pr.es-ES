@@ -1,32 +1,32 @@
 ---
-title: Eliminar una directiva de archivado existente en Skype Empresarial Server 2015
+title: Eliminar una directiva en Skype de archivado para Business Server existente
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
-description: 'Resumen: Conozca cómo eliminar una directiva de archivado para Skype para Business Server 2015.'
-ms.openlocfilehash: aeb640cc832bffbded4765e5b6cc931a17365215
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información sobre cómo eliminar una directiva de archivado para Skype para Business Server.'
+ms.openlocfilehash: 0446999923b462311f941b6653157b41000b1f43
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973104"
 ---
-# <a name="delete-an-existing-archiving-policy-in-skype-for-business-server-2015"></a>Eliminar una directiva de archivado existente en Skype Empresarial Server 2015
+# <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>Eliminar una directiva en Skype de archivado para Business Server existente
 
-**Resumen:** Obtenga información acerca de cómo eliminar una directiva de archivado para Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo eliminar una directiva de archivado para Skype para Business Server.
   
-Puede eliminar una directiva de usuario o de sitio, pero no puede eliminar una directiva global. Si elimina la directiva global, Skype para Business Server restablece automáticamente la directiva a los valores predeterminados.
+Puede eliminar una directiva de usuario o de sitio, pero no puede eliminar una directiva global. Si se elimina la directiva global, Skype para Business Server restablece automáticamente la directiva a los valores predeterminados.
   
 ## <a name="delete-a-policy-by-using-the-control-panel"></a>Eliminar una directiva con el Panel de control
 
 1. Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna. 
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de Admin para abrir el Skype para Panel de Control de servidor empresarial. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial. 
     
 3. En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Directiva de archivado**.
     

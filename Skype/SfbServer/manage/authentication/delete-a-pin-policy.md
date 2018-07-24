@@ -1,36 +1,36 @@
 ---
-title: Eliminar una directiva de PIN en Skype Empresarial Server 2015
+title: Eliminar una directiva de PIN en Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
-description: 'Resumen: Eliminar de acceso telefónico conferencias de un usuario de PIN de Skype para Business Server 2015.'
-ms.openlocfilehash: b64a4509105214358549f320cf8885d6386986f7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Eliminar telefónico un usuario PIN para Skype para Business Server.'
+ms.openlocfilehash: 22c70204aa73430c49cf232dfba859d3ef54b74c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974899"
 ---
-# <a name="delete-a-pin-policy-in-skype-for-business-server-2015"></a>Eliminar una directiva de PIN en Skype Empresarial Server 2015
+# <a name="delete-a-pin-policy-in-skype-for-business-server"></a>Eliminar una directiva de PIN en Skype para Business Server
  
-**Resumen:** Eliminar de acceso telefónico conferencias de un usuario de PIN de Skype para Business Server 2015.
+**Resumen:** Eliminar telefónico un usuario PIN para Skype para Business Server.
   
 Siga estos pasos para eliminar una directiva de número de identificación personal (PIN).
   
 > [!NOTE]
 > No puede eliminar la directiva global de PIN. 
   
-### <a name="to-delete-a-pin-policy-in-skype-for-business-server-control-panel"></a>Para eliminar una directiva de NIP en Skype para Panel de Control de servidor empresarial
+### <a name="to-delete-a-pin-policy-in-skype-for-business-server-control-panel"></a>Para eliminar una directiva de PIN en Skype para el Panel de Control de servidor empresarial
 
-1.  Desde una cuenta de usuario que es miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que esté en la red en el que implementa Skype para Business Server 2015.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server .
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de Admin para abrir el Skype para Panel de Control de servidor empresarial.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.  
     
 3. En la barra de navegación izquierda, haga clic en **Seguridad** y, a continuación, en **Directiva de PIN**.
     
@@ -40,9 +40,9 @@ Siga estos pasos para eliminar una directiva de número de identificación perso
     
 6. Haga clic en **Aceptar**.
     
-## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Quitar directivas de NIP mediante Cmdlets de Windows PowerShell
+## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Eliminación de directivas de PIN mediante el uso de Cmdlets de Windows PowerShell
 
-Puede eliminar directivas de NIP mediante Windows PowerShell y el cmdlet Remove-CsPinPolicy. Este cmdlet se puede ejecutar desde el Skype para el Shell de administración de servidor empresarial o desde una sesión remota de Windows PowerShell. Para obtener más información acerca del uso de Windows PowerShell remoto para conectar con Skype para Business Server, consulte el artículo de blog ["rápido inicio: administración de Microsoft Lync Server 2010 utilizando remoto PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). El proceso es el mismo en Skype para Business Server.
+Puede eliminar las directivas de PIN mediante el uso de Windows PowerShell y el cmdlet Remove-CsPinPolicy. Se puede ejecutar este cmdlet, ya sea desde el Skype para Shell de administración de servidor empresarial o desde una sesión remota de Windows PowerShell. Para obtener información detallada acerca del uso de Windows PowerShell remoto para conectarse a Skype para Business Server, vea el artículo del blog ["rápido iniciar: administración de Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). El proceso es el mismo en Skype para Business Server.
   
 ### <a name="to-remove-a-specific-pin-policy"></a>Quitar una directiva de PIN específica
 

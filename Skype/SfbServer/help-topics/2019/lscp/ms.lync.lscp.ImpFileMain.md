@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6178d9e5-a919-4a7d-9633-d5f155556306
+ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 76b0247dfc0a9bf8c5c4fac91852a52d8da2f4e2
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: e29895baa76a94d258ea1e374b0e4cafbd9a53f4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20049131"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987439"
 ---
 # <a name="file-filter"></a>Filtro de archivo
  

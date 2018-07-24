@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
+ROBOTS: NOINDEX, NOFOLLOW
 description: Para preparar el bosque de los servicios de dominio de Active Directory, debe correctamente extender el esquema, como se describe en el tema preparación del esquema de ejecución y asegúrese de que el esquema se ha replicado.
-ms.openlocfilehash: f993236fc13fc2274acaa8bb4c6b0ae1105afccb
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 8bab8fecef4980c2d82f92a90f5c11c6bf7870f1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987490"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971900"
 ---
 # <a name="prepare-current-forest"></a>Preparar bosque actual
  
@@ -29,7 +30,7 @@ Una vez completados los requisitos previos, puede empezar el **Paso 3: Preparar 
 2. En la página **Preparar el bosque**, haga clic en **Siguiente**.
     
     > [!NOTE]
-    > La preparación del bosque permite elegir dónde desea colocar los grupos universales de Skype para Business Server 2015. Elija una ubicación que respete los requisitos de su organización. 
+    > La preparación del bosque permite elegir dónde desea colocar los grupos universales de Skype para Business Server. Elija una ubicación que respete los requisitos de su organización. 
   
 3. En la página **Ejecución de comandos**, busque **Estado de tarea: Completado** y haga clic en **Ver registro**. Asegúrese de que no haya errores. Examine las advertencias para saber si son las previstas y son habituales en la infraestructura.
     

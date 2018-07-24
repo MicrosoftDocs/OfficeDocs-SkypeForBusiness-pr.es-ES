@@ -1,34 +1,33 @@
 ---
-title: Administrar los servicios de Skype para Business Server 2015
+title: Administrar los servicios de Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
-description: Este artículo describe cómo administrar los servicios que se ejecutan en un Skype para topología empresarial Server 2015.
-ms.openlocfilehash: 87bf9fd90c68155504e6be5b28b56d571eaad924
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: Este artículo describe cómo administrar los servicios que se ejecutan en un Skype de topología de servidores de negocio.
+ms.openlocfilehash: 0bf12ed7719be7804b2cb4d69e29a7d0a058e142
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569578"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977006"
 ---
-# <a name="manage-services-for-skype-for-business-server-2015"></a>Administrar los servicios de Skype para Business Server 2015
+# <a name="manage-services-for-skype-for-business-server"></a>Administrar los servicios de Skype para Business Server
 
-Este artículo describe cómo administrar los servicios que se ejecutan en un Skype para topología empresarial Server 2015.
+Este artículo describe cómo administrar los servicios que se ejecutan en un Skype de topología de servidores de negocio.
   
-## <a name="view-a-list-of-computers-running-skype-for-business-server-2015"></a>Ver una lista de los equipos que ejecutan Skype para Business Server 2015
+## <a name="view-a-list-of-computers-running-skype-for-business-server"></a>Ver una lista de los equipos que ejecutan Skype para Business Server
 <a name="view_list"> </a>
 
-Puede usar Skype para el Panel de Control de servidor empresarial para ver una lista de todos los equipos que ejecutan Skype para Business Server 2015 en su topología y ver el estado de servicio de cada uno. Puede ordenar la lista por equipo, grupo o sitio. 
+Puede usar Skype para el Panel de Control de servidor empresarial para ver una lista de todos los equipos que ejecutan Skype para Business Server en su topología y ver el estado de servicio de cada uno. Puede ordenar la lista por equipo, grupo o sitio. 
   
 ### <a name="to-view-a-list-of-computers-running-skype-for-business-server"></a>Para ver una lista de los equipos que ejecutan Skype para Business Server
 
-1. Desde una cuenta de usuario que se asigna a cualquiera de las funciones administrativas predefinidas para Skype para Business Server 2015, inicie sesión en cualquier equipo en la implementación interna. Para obtener información detallada acerca de las funciones administrativas predefinidas disponibles en Skype para Business Server 2015, consulte **Planning for Role-Based Access Control**.   
+1. Desde una cuenta de usuario que se asigna a cualquiera de las funciones administrativas predefinidas para Skype para Business Server, inicie sesión en cualquier equipo en la implementación interna. Para obtener información detallada acerca de las funciones administrativas predefinidas disponibles en Skype para Business Server, consulte **Planning for Role-Based Access Control**.   
 2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.   
 3. En la barra de navegación izquierda, haga clic en **topología** y, a continuación, haga clic en **estado**.   
 4. En la página **estado** , realice una de las siguientes opciones según sea necesario:
@@ -36,7 +35,7 @@ Puede usar Skype para el Panel de Control de servidor empresarial para ver una l
    - Haga clic en **Actualizar** para ver la lista más actualizada.  
    - Búsqueda de un equipo específico, escriba el nombre del equipo en el campo de búsqueda.
     
-## <a name="view-the-status-of-services-running-on-a-skype-for-business-2015-server"></a>Ver el estado de los servicios que se ejecutan en un Skype para servidor empresarial 2015
+## <a name="view-the-status-of-services-running-on-a-skype-for-business-server"></a>Ver el estado de los servicios que se ejecutan en un Skype para Business server
 <a name="view-status"> </a>
 
 Puede usar Skype para el Panel de Control de servidor empresarial para ver todos los servicios que se ejecutan en un equipo específico en su Skype de topología de servidores de negocio y ver el estado de cada servicio.
@@ -84,7 +83,7 @@ Puede usar Skype para el Panel de Control de servidor empresarial para ver detal
   
 ### <a name="to-view-details-for-a-service"></a>Para ver los detalles para un servicio
 
-1. Desde una cuenta de usuario que se asigna a cualquiera de las funciones administrativas predefinidas para Skype para Business Server 2015, inicie sesión en cualquier equipo en la implementación interna. Para obtener información detallada acerca de las funciones administrativas predefinidas disponibles en Skype para Business Server 2015, consulte **Planning for Role-Based Access Control**.
+1. Desde una cuenta de usuario que se asigna a cualquiera de las funciones administrativas predefinidas para Skype para Business Server, inicie sesión en cualquier equipo en la implementación interna. Para obtener información detallada acerca de las funciones administrativas predefinidas disponibles en Skype para Business Server, consulte **Planning for Role-Based Access Control**.
 2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial. 
 3. En la barra de navegación izquierda, haga clic en **topología** y, a continuación, haga clic en **estado**.
 4. En la página **estado** , ordenar o a través de la lista de búsqueda y, a continuación, haga clic en el equipo que desea ver.
@@ -95,14 +94,14 @@ Puede usar Skype para el Panel de Control de servidor empresarial para ver detal
    - Para ver los detalles de este servicio en particular, haga clic en **Propiedades** y, a continuación, haga clic en **Cerrar**.
    - Para volver a la lista de todos los equipos de la topología, haga clic en **Cerrar**.
     
-## <a name="start-or-stop-skype-for-business-server-2015-services"></a>Inicio o detención de Skype para servicios de Business Server 2015
+## <a name="start-or-stop-skype-for-business-server-services"></a>Inicio o detención de Skype para servicios de Business Server
 <a name="StartStop"> </a>
 
-Puede usar Skype para el Panel de Control de servidor empresarial para iniciar o detener todos los Skype para servicios de 2015 de servidor empresarial que se ejecutan en un equipo específico o para iniciar o detener un servicio específico.
+Puede usar Skype para el Panel de Control de servidor empresarial para iniciar o detener todos los Skype para servicios de Business Server que se ejecutan en un equipo específico o para iniciar o detener un servicio específico.
   
 ### <a name="to-start-or-stop-all-skype-for-business-services-on-a-computer"></a>Para iniciar o detener todos los Skype para servicios de negocios en un equipo
 
-1. Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server 2015. Puede determinar si se le ha asignado el CsServerAdministrator o un rol RBAC CsAdministrator mediante la ejecución de un comando similar al siguiente:
+1. Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server . Puede determinar si se le ha asignado el CsServerAdministrator o un rol RBAC CsAdministrator mediante la ejecución de un comando similar al siguiente:
     
   ```
   Get-CsAdminRoleAssignment -Identity "kenmyer"
@@ -129,11 +128,11 @@ Puede usar Skype para el Panel de Control de servidor empresarial para iniciar o
 ## <a name="prevent-sessions-for-services"></a>Impedir sesiones para servicios
 <a name="prevent_session"> </a>
 
-Puede usar Skype para el Panel de Control de servidor empresarial para evitar sesiones nuevas para todas las Skype para servicios de 2015 de servidor empresarial que se ejecutan en un equipo específico o para evitar sesiones nuevas para un Skype específico para el servicio de Business Server 2015.
+Puede usar Skype para el Panel de Control de servidor empresarial para evitar sesiones nuevas para todas las Skype para servicios de Business Server que se ejecutan en un equipo específico o para evitar sesiones nuevas para un Skype específico para el servicio de Business Server.
   
 ### <a name="to-prevent-new-sessions-for-all-skype-for-business-services-on-a-computer"></a>Para evitar que las sesiones de nuevo para todos los Skype para servicios de negocios en un equipo
 
-1. Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server 2015.
+1. Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server .
 2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial. 
 3. En la barra de navegación izquierda, haga clic en **topología** y, a continuación, haga clic en **estado**.
 4. En la página **estado** , ordenación o búsqueda a través de la lista como sea necesario para encontrar el equipo que ejecuta los servicios para la que desea impedir nuevas sesiones y, a continuación, haga clic en él.
@@ -142,7 +141,7 @@ Puede usar Skype para el Panel de Control de servidor empresarial para evitar se
     
 ### <a name="to-prevent-new-sessions-for-a-specific-service"></a>Para evitar que las sesiones nuevas para un servicio específico
 
-1. Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server 2015.
+1. Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server .
 2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial. 
 3. En la barra de navegación izquierda, haga clic en **topología** y, a continuación, haga clic en **estado**.
 4. En la página de **estado** , la ordenación o la búsqueda a través de la lista según sea necesario para encontrar el equipo que ejecuta el servicio que desea iniciar o detener y, a continuación, haga clic en él. 

@@ -1,26 +1,26 @@
 ---
-title: Administrar los anuncios al unirse y abandonar conferencias en Skype Empresarial Server 2015
+title: Administrar unirse a conferencia y dejar anuncios en Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
-description: 'Resumen: Conozca cómo administrar la incorporación a la conferencia y dejar anuncios en Skype para Business Server 2015.'
-ms.openlocfilehash: 33e01efebc7d188fe329c1c39718aaf661af1e44
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información sobre cómo administrar unirse a conferencia y dejar anuncios en Skype para Business Server.'
+ms.openlocfilehash: 84c9b5f9457d16570e58b119329d6b8fcefa4205
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008494"
 ---
-# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server-2015"></a>Administrar los anuncios al unirse y abandonar conferencias en Skype Empresarial Server 2015
+# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Administrar unirse a conferencia y dejar anuncios en Skype para Business Server
  
-**Resumen:** Aprenda a administrar la incorporación a la conferencia y dejar anuncios en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo administrar unirse a conferencia y dejar anuncios en Skype para Business Server.
   
-Cuando los usuarios de acceso telefónico unirse o abandonar una conferencia, la aplicación de anuncio de conferencia puede anunciar su entrada o reproducir un tono o diciendo sus nombres para salir. Puede cambiar cómo funcionan los anuncios mediante Skype para el Shell de administración de servidor empresarial y el cmdlet **Set-CsDialinConferencing** con los siguientes parámetros:
+Cuando los usuarios de acceso telefónico unirse o abandonar una conferencia, la aplicación de anuncio de conferencia puede anunciar su entrada o salir de reproducir un tono o diciendo sus nombres. Puede cambiar el funcionan de los anuncios mediante el uso de Skype para Shell de administración de servidor empresarial y el cmdlet **Set-CsDialinConferencing** con los siguientes parámetros:
   
 - EnableNameRecording: determina si se pedirá a los participantes anónimos que graben su nombre antes de unirse a la conferencia. El valor predeterminado es "$true," lo que significa que se pide a los participantes anónimos que indiquen su nombre cuando se unen a una conferencia. (Los participantes autenticados no graban su nombre porque se usa el nombre para mostrar).
     
@@ -43,7 +43,7 @@ Puede configurar estas opciones en el ámbito global o en el ámbito del sitio. 
   Get-CsDialinConferencingConfiguration
   ```
 
-Este cmdlet recupera información acerca de si los participantes deberán registrar su nombre al unirse a una conferencia y cómo Skype para Business Server responde cuando los participantes unirse o abandonar una conferencia de acceso telefónico.
+Este cmdlet recupera información acerca de si los participantes deben grabar su nombre al unirse a una conferencia y cómo Skype para Business Server responde cuando los participantes unirse o abandonar una conferencia de acceso telefónico.
     
 4. Ejecute los siguientes comandos en símbolo del sistema:
     

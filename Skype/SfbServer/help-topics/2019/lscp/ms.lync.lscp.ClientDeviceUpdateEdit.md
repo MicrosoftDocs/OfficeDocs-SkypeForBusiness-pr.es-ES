@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
+ROBOTS: NOINDEX, NOFOLLOW
 description: Puede agregar una configuración de registro de dispositivo a la página Editar configuración de registro que determina el tamaño máximo del registro de la caché, el tamaño del archivo de registro máximo o período de tiempo que se mantiene un archivo de registro antes de que se elimina. Puede cambiar esta configuración según los requisitos de su organización.
-ms.openlocfilehash: 712ba87ab19d2b69792ba720e984d64dd4aac478
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 7e2e5091c662f105b47e2a3a8574c144457753dc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19972332"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974441"
 ---
 # <a name="device-log-configuration-edit"></a>Configuración de registro de dispositivo: editar
  

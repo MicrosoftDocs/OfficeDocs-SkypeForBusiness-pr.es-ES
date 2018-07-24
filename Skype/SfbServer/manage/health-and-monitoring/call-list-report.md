@@ -1,27 +1,26 @@
 ---
-title: Informe de lista de llamadas de grupo de respuesta en Skype Empresarial Server 2015
+title: Informe de lista de llamadas de grupo de respuesta en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
-description: 'Resumen: Obtenga información sobre la aplicación de grupo de respuesta en Skype para Business Server 2015.'
-ms.openlocfilehash: 6f7d2938f02b84942b2dc09e4fc3058ab6ee63db
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Obtenga información sobre la aplicación de grupo de respuesta en Skype para Business Server.'
+ms.openlocfilehash: 90806465f3de57d30701eaf541f7ca685be180d3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569002"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997246"
 ---
-# <a name="response-group-call-list-report-in-skype-for-business-server-2015"></a>Informe de lista de llamadas de grupo de respuesta en Skype Empresarial Server 2015
+# <a name="response-group-call-list-report-in-skype-for-business-server"></a>Informe de lista de llamadas de grupo de respuesta en Skype para Business Server
  
-**Resumen:** Obtenga información acerca de la aplicación de grupo de respuesta en Skype para Business Server 2015.
+**Resumen:** Obtenga información acerca de la aplicación de grupo de respuesta en Skype para Business Server.
   
-La aplicación de grupo de respuesta proporciona una manera de Skype para Business Server 2015 responder y enrutar las llamadas de teléfono según el número que se ha marcado y, opcionalmente, de las respuestas del autor de la llamada a una serie de preguntas. Normalmente, las llamadas de grupo de respuesta no se enrutan a una persona individual, pero, en su lugar, se enrutan a un equipo de personas que se conoce como un grupo de agentes. Por ejemplo, si alguien llama al número de teléfono para el servicio de asistencia, Skype para Business Server 2015 puede enrutar automáticamente esa llamada al primer agente de escritorio de ayuda disponibles. Como alternativa, Skype para Business Server podría pedir una serie de preguntas ("Presione 1 si tiene problemas de hardware. Presione 2 si tiene problemas de software. Presione 3 si tiene problemas de red"). y, a continuación, enrutar la llamada al agente de asistencia al cliente ayuda más adecuado en función de la respuesta a estas preguntas.
+La aplicación de grupo de respuesta proporciona una manera de Skype para Business Server responder y enrutar las llamadas de teléfono según el número que se ha marcado y, opcionalmente, de las respuestas del autor de la llamada a una serie de preguntas. Normalmente, las llamadas de grupo de respuesta no se enrutan a una persona individual, pero, en su lugar, se enrutan a un equipo de personas que se conoce como un grupo de agentes. Por ejemplo, si alguien llama al número de teléfono para el servicio de asistencia, Skype para Business Server puede enrutar automáticamente esa llamada al primer agente de escritorio de ayuda disponibles. Como alternativa, Skype para Business Server podría pedir una serie de preguntas ("Presione 1 si tiene problemas de hardware. Presione 2 si tiene problemas de software. Presione 3 si tiene problemas de red"). y, a continuación, enrutar la llamada al agente de asistencia al cliente ayuda más adecuado en función de la respuesta a estas preguntas.
   
 El Informe de lista de llamadas de grupo de respuesta representa una colección de llamadas que reúnen unas características especificadas (tipo de llamada, periodo de tiempo en que se hizo). El Informe de uso del grupo de respuesta (que necesita abrirse antes de abrir el Informe de lista de llamadas de grupo de respuesta) reconoce los siguientes tipos de llamada:
   
@@ -39,7 +38,7 @@ El Informe de lista de llamadas de grupo de respuesta representa una colección 
     
 ## <a name="accessing-the-response-group-call-list-report"></a>Acceso al informe de lista de llamadas de grupo de respuesta
 
-Sólo se puede tener acceso al informe de lista de llamadas de grupo de respuesta haciendo clic en una de las siguientes métricas que se encuentra en el [Informe de uso del grupo de respuesta en Skype para Business Server 2015](response-group-usage-report.md):
+Sólo se puede tener acceso al informe de lista de llamadas de grupo de respuesta haciendo clic en una de las siguientes métricas que se encuentra en el [Informe de uso del grupo de respuesta en Skype para Business Server](response-group-usage-report.md):
   
 - Llamadas recibidas
     
@@ -55,7 +54,7 @@ Sólo se puede tener acceso al informe de lista de llamadas de grupo de respuest
 
 El Informe de lista de llamadas de grupo de respuesta le permite limitar los datos que se muestran en las llamadas en las que participa un flujo de trabajo de grupos de respuesta en particular. Para ello, tendrá que escribir el URI del flujo de trabajo (es decir, su dirección SIP) en el cuadro URI de flujo de trabajo. Ahora bien, para poder hacer eso, primero tendrá que poder ver el cuadro URI de flujo de trabajo. Para mostrar las opciones de filtrado del Informe de lista de llamadas de grupo de respuesta, haga clic en el botón Mostrar u ocultar parámetros de la esquina superior izquierda de la ventana de informes.
   
-Tenga en cuenta que, al pasar el mouse sobre Código de respuesta o Id. de diagnóstico, la lista de llamadas de grupo de respuesta no muestra información sobre ninguna de esas dos métricas. Si necesita más información, es posible que tenga en cuenta el código de respuesta o el identificador de diagnóstico y, a continuación, busque esos valores en el [Informe de errores de la parte superior de Skype para Business Server 2015](top-failures-report.md).
+Tenga en cuenta que, al pasar el mouse sobre Código de respuesta o Id. de diagnóstico, la lista de llamadas de grupo de respuesta no muestra información sobre ninguna de esas dos métricas. Si necesita más información, es posible que tenga en cuenta el código de respuesta o el identificador de diagnóstico y, a continuación, busque esos valores en el [Informe de errores de la parte superior de Skype para Business Server](top-failures-report.md).
   
 Ante una pregunta como "¿Qué flujo de trabajo concreto recibió más llamadas?", puede hacer lo siguiente:
   
@@ -103,7 +102,7 @@ En la siguiente tabla se detalla la información que facilita el informe de list
   
 **Métricas del informe de lista de llamadas de grupo de respuesta**
 
-|**Nombre.**|**¿Puede ordenar por este elemento?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Autor de llamada** <br/> |No  <br/> |Dirección SIP del autor de la llamada.  <br/> |
 |**Flujo de trabajo** <br/> |No  <br/> |Dirección SIP del flujo de trabajo de Grupo de respuesta.  <br/> |

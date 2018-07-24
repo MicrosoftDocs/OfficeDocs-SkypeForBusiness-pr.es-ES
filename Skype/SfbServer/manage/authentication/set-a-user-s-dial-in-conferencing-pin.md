@@ -1,28 +1,27 @@
 ---
-title: Establecer el PIN de conferencia de acceso telefónico local para un usuario en Skype Empresarial Server 2015
+title: Establecer telefónico un usuario PIN en Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
-description: 'Resumen: Establecer telefónico un usuario PIN para Skype para Business Server 2015.'
-ms.openlocfilehash: 557aaa3fc191e6423ae323e53d2dacdf5f0019b1
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Establecer telefónico un usuario PIN para Skype para Business Server.'
+ms.openlocfilehash: e5d14af74c208aaf29fffe94937afc1253a032da
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568824"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009385"
 ---
-# <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server-2015"></a>Establecer el PIN de conferencia de acceso telefónico local para un usuario en Skype Empresarial Server 2015
+# <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Establecer telefónico un usuario PIN en Skype para Business Server
  
-**Resumen:** Establecer telefónico un usuario PIN para Skype para Business Server 2015.
+**Resumen:** Establecer telefónico un usuario PIN para Skype para Business Server.
   
-Para unirse a una conferencia de acceso telefónico como un usuario autenticado, una Skype para Business Server 2015 usuario con las credenciales de los servicios de dominio de Active Directory (AD DS) requiere un número de identificación personal (PIN). Si un usuario olvida la conferencia telefónico PIN o no ha establecido el PIN mediante el uso de Skype para Business Server 2015, puede establecer el PIN del usuario de Skype para el Panel de Control de servidor empresarial. Puede generar el PIN automáticamente o crear uno de forma manual.
+Para unirse a una conferencia de acceso telefónico como un usuario autenticado, una Skype para usuario Business Server con las credenciales de los servicios de dominio de Active Directory (AD DS) requiere un número de identificación personal (PIN). Si un usuario olvida la conferencia telefónico PIN o no ha establecido el PIN mediante el uso de Skype para Business Server, puede establecer el PIN del usuario de Skype para el Panel de Control de servidor empresarial. Puede generar el PIN automáticamente o crear uno de forma manual.
   
 > [!NOTE]
 > Las características específicas del PIN como, por ejemplo, su longitud mínima, pueden configurarse como una directiva. Además de la directiva global, puede configurar una directiva de PIN para sitios o usuarios individuales. 
@@ -63,7 +62,7 @@ Para unirse a una conferencia de acceso telefónico como un usuario autenticado,
     
 7. En el cuadro de diálogo **Establecer PIN**, realice una de las siguientes acciones:
     
-   - Para permitir que Skype para Business Server 2015 generar el PIN del usuario, seleccione **generar automáticamente un PIN válido** (valor predeterminado).
+   - Para permitir que Skype para Business Server generar el PIN del usuario, seleccione **generar automáticamente un PIN válido** (valor predeterminado).
     
    - Para crear su propio PIN, haga clic en **Escribir manualmente un PIN específico**, haga clic en el cuadro de texto y escriba un PIN que cumpla los requisitos de PIN especificados en la configuración de la directiva de PIN.
     

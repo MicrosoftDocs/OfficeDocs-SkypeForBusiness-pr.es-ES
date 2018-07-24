@@ -1,24 +1,24 @@
 ---
-title: Informe de resumen de diagnósticos de llamadas en Skype Empresarial Server 2015
+title: Informe de resumen de diagnóstico de llamadas en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
-description: 'Resumen: Conozca llamar resumen informe de diagnósticos utilizados en Skype para Business Server 2015.'
-ms.openlocfilehash: 8d040ab2d59fdbc822448de2d3c9918ec39ae289
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información sobre la llamada diagnóstico informe de resumen de usadas en Skype para Business Server.'
+ms.openlocfilehash: 6d4db52f266e9c7387662563a8640cfaeab56ca8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20976824"
 ---
-# <a name="call-diagnostic-summary-report-in-skype-for-business-server-2015"></a>Informe de resumen de diagnósticos de llamadas en Skype Empresarial Server 2015
+# <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Informe de resumen de diagnóstico de llamadas en Skype para Business Server
  
-**Resumen:** Obtenga información sobre llamar resumen informe de diagnósticos utilizados en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre la llamada diagnóstico informe de resumen de usadas en Skype para Business Server.
   
 El informe de resumen de diagnósticos de llamadas proporciona un resumen general de las sesiones de punto a punto y las sesiones de conferencia con errores. El informe muestra el porcentaje general de errores para ambos tipos de sesiones y desglosa la información sobre los errores por tipo de modalidad de sesión:
   
@@ -34,7 +34,7 @@ El informe de resumen de diagnósticos de llamadas proporciona un resumen genera
     
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>Acceso al informe de resumen de diagnósticos de llamadas
 
-El informe de resumen de diagnósticos de llamadas es accesible desde la página principal de informes de supervisión. Desde el informe de resumen de diagnóstico llame puede tener acceso el [informe de diagnóstico de actividad Peer-to-Peer de Skype para Business Server 2015](peer-to-peer-activity-diagnostic-report.md) haciendo clic en la métrica de la tasa de error en la sección de resumen de la sesión de Peer-to-Peer del informe. También puede abrir el [Informe de diagnóstico de conferencia en Skype para Business Server 2015](conference-diagnostic-report.md) haciendo clic en cualquiera de las siguientes métricas de conferencia:
+El informe de resumen de diagnósticos de llamadas es accesible desde la página principal de informes de supervisión. Desde el informe de resumen de diagnósticos de llamadas, puede acceder al [informe de diagnóstico de actividad punto a punto en Skype para Business Server](peer-to-peer-activity-diagnostic-report.md) haciendo clic en la métrica de la tasa de errores en la sección de resumen de la sesión de punto a punto del informe. También puede acceder al [Informe de diagnósticos de conferencia en Skype para Business Server](conference-diagnostic-report.md) haciendo clic en cualquiera de las siguientes métricas de conferencia:
   
 - Porcentaje de errores de sesión generales
     
@@ -44,7 +44,7 @@ El informe de resumen de diagnósticos de llamadas es accesible desde la página
     
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>Optimización del uso del informe de resumen de diagnósticos de llamadas
 
-El informe de resumen de diagnóstico llame incluye gráficos que comparan las tasas de errores para las diversas modalidades utilizadas en Skype para Business Server 2015. Las columnas de estos gráficos son realmente vínculos activos; Por ejemplo, si hace clic en la columna de mensajería instantánea para la sesiones de peer-to-peer, podrá desglosar una instancia del [informe de diagnóstico de actividad Peer-to-Peer de Skype para Business Server 2015](peer-to-peer-activity-diagnostic-report.md), un informe que proporciona información adicional acerca de todas las las sesiones incluidas en el informe de resumen de diagnóstico llamar de mensajería instantánea.
+El informe de resumen de diagnósticos de llamadas incluye gráficos que comparan las tasas de error para las diversas modalidades usadas en Skype para Business Server. Las columnas en estos gráficos son realmente vínculos activos; Por ejemplo, si hace clic en la columna de mensajería instantánea para las sesiones de punto a punto, se podrá profundizar para una instancia del [informe de diagnóstico de actividad punto a punto en Skype para Business Server](peer-to-peer-activity-diagnostic-report.md), un informe que proporciona detalles adicionales acerca de todos los las sesiones que se incluyen en el informe de resumen de diagnósticos de llamadas de mensajería instantánea.
   
 ## <a name="filters"></a>Filtros
 
@@ -52,7 +52,7 @@ Los filtros constituyen un modo de obtener un conjunto de datos más acorde con 
   
 En la siguiente tabla se muestran los filtros que se pueden usar en el informe de resumen de diagnósticos de llamadas.
   
-**Llamar a filtros de informe resumen de diagnóstico**
+**Filtros del informe de resumen de diagnósticos de llamadas**
 
 |**Nombre.**|**Descripción**|
 |:-----|:-----|
@@ -65,9 +65,9 @@ En la siguiente tabla se muestran los filtros que se pueden usar en el informe d
 
 En la siguiente tabla se muestra la información recogida el informe de resumen de diagnósticos de llamadas de las sesiones punto a punto (esto es, sesiones en las que solo participan dos usuarios).
   
-**Métricas para la sesiones de Peer-to-Peer**
+**Métricas de las sesiones punto a punto**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Total de sesiones** <br/> |No  <br/> |Cantidad total de sesiones punto a punto que ha tenido lugar.  <br/> |
 |**Porcentaje de errores** <br/> |No  <br/> |Porcentaje de las sesiones punto a punto con errores. Al hacer clic en este elemento, el informe muestra el informe de diagnósticos de actividad punto a punto, que contiene información más detallada sobre las sesiones punto a punto con errores.  <br/> |
@@ -76,9 +76,9 @@ En la siguiente tabla se muestra la información recogida el informe de resumen 
 
 En la siguiente tabla se muestra la información recogida el informe de resumen de diagnósticos de llamadas de las sesiones de conferencia (esto es, sesiones en las que participan tres o más usuarios).
   
-**Métricas para la sesiones de conferencia**
+**Métricas de las sesiones de conferencia**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Total de conferencias** <br/> |No  <br/> |Cantidad total de conferencias que ha tenido lugar.  <br/> |
 |**Total de sesiones de conferencias** <br/> |No  <br/> |Cantidad total de sesiones de conferencia que ha tenido lugar.  <br/> |

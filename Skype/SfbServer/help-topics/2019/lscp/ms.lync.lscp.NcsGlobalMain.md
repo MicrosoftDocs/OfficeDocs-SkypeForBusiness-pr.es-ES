@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 93a17c91-816e-4de0-8065-7dec45203355
+ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 2a075521ecba39799300e71dda5f0d2990d08f9a
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 14552cd0b6b8a34e477d50043cb4da66e3565e62
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20044427"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20979063"
 ---
 # <a name="network-configuration-global-setting"></a>Configuración de red: Configuración Global
  

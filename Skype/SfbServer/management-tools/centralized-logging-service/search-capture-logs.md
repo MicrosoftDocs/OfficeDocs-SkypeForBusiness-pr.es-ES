@@ -3,7 +3,7 @@ title: Buscar registros de captura creados por el servicio de registro centraliz
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: 'Resumen: Obtenga información sobre cómo buscar y leer los registros de captura del servicio de registro centralizado en Skype para Business Server 2015.'
-ms.openlocfilehash: eb90fcab49bca13e1a3cbe89102301167e059fda
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 4016aeaac5b693ceef620dad66031254f208bfbf
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570167"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969021"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Buscar registros de captura creados por el servicio de registro centralizado en Skype Empresarial Server 2015
  

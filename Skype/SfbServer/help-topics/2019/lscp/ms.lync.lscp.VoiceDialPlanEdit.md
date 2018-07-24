@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
+ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 87a53304daed2e5299fd247d1fe8b9dbeedacbd7
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 58461e643c9435772b64265aef250283930a5582
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20046406"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986893"
 ---
 # <a name="dial-plan-create-new-or-edit-existing"></a>Plan de marcado: Crear nuevos o editar los existentes
  

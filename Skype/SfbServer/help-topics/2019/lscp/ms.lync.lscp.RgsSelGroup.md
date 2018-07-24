@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
+ROBOTS: NOINDEX, NOFOLLOW
 description: Las colas de grupo de respuesta contienen llamadas a grupos de respuesta hasta que un agente atiende la llamada. Colas han asignado a grupos de agentes. Al crear o editar una cola, utilice el cuadro de diálogo Seleccionar grupos para seleccionar uno o varios grupos de agentes que se asignará a la cola.
-ms.openlocfilehash: 8b8ebcce726b92e40f20f077319dcec1272d35f2
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 288efe4395361b508e7ebe245155c55319161581
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974004"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967858"
 ---
 # <a name="select-groups"></a>Seleccionar grupos
  

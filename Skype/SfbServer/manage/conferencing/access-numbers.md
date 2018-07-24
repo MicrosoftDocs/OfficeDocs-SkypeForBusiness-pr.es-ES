@@ -1,29 +1,28 @@
 ---
-title: Administrar números de conferencia de acceso telefónico local en Skype Empresarial Server 2015
+title: 'Administrar números de acceso telefónico en Skype para Business Server '
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
-description: 'Resumen: Obtenga información sobre cómo administrar los números de acceso telefónico en Skype para Business Server 2015.'
-ms.openlocfilehash: 3bbde214863fa7d08214569e4d9aa2a767016eb4
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Obtenga información sobre cómo administrar los números de acceso telefónico en Skype para Business Server.'
+ms.openlocfilehash: a9e93b52a329a4fdce6817a758b6c6dcb29a0348
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569438"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008191"
 ---
-# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server-2015"></a>Administrar números de conferencia de acceso telefónico local en Skype Empresarial Server 2015
+# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Administrar números de acceso telefónico en Skype para Business Server
  
-**Resumen:** Obtenga información sobre cómo administrar los números de acceso telefónico en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo administrar los números de acceso telefónico en Skype para Business Server.
   
 Cuando se implementa la característica de conferencia de acceso telefónico local, es necesario establecer números de teléfono que los usuarios puedan marcar desde la red telefónica conmutada (RTC) para unirse a la parte de audio de las conferencias. Estos números de acceso telefónico se muestran en invitaciones a reuniones y en la página web de configuración de conferencia de acceso telefónico local. 
   
-En este tema se describe cómo ver, modificar o eliminar números de acceso a conferencias de acceso telefónico local existentes. Para obtener más información acerca de cómo crear los números de acceso telefónico inicial, vea [Configure telefónico en Skype para Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+En este tema se describe cómo ver, modificar o eliminar números de acceso a conferencias de acceso telefónico local existentes. Para obtener más información acerca de cómo crear los números de acceso telefónico inicial, vea [Configure telefónico en Skype para Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
   
 ## <a name="view-dial-in-conferencing-access-numbers"></a>Ver los números de acceso a conferencias de acceso telefónico local
 
@@ -122,7 +121,7 @@ Puede modificar los números de acceso telefónico mediante el uso de Skype para
     
     Puede seleccionar hasta cuatro idiomas secundarios para cada número acceso telefónico. Los usuarios pueden seleccionar un idioma secundario antes de especificar el ID de conferencia cuando marcan para acceder a una conferencia.
     
-12. Para agregar una región para el número de acceso telefónico, en **regiones asociadas**, haga clic en ** Agregar **, haga clic en una o más regiones que están asociadas con los planes de marcado para este número de acceso telefónico y, a continuación, haga clic en **Aceptar**.
+12. Para agregar una región para el número de acceso telefónico, en **regiones asociadas**, haga clic en **Agregar**, haga clic en una o más regiones que están asociados con los planes de marcado para este número de acceso telefónico y, a continuación, haga clic en **Aceptar**.
     
 13. Para eliminar una región del número de acceso telefónico local, en **Regiones asociadas**, seleccione la región que desea eliminar y haga clic en **Quitar**.
     
@@ -152,7 +151,7 @@ Puede eliminar un número de acceso telefónico mediante el uso de Skype para el
   
 ### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>Eliminar un número de acceso telefónico mediante Skype para el Panel de Control de servidor empresarial
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server 2015.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server .
     
 2.  Abra Skype para el Panel de Control de servidor empresarial.
     

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 091aea61-22c2-4363-acd0-ccbc193755dd
+ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 50c84242f086373a6cf802227cd9a7829270b46b
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 0bb98dcd5492ab8690ac9669b248b54d7424186a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20043958"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20994958"
 ---
 # <a name="configure-a-network-site-create-new-or-edit-existing"></a>Configurar un sitio de red: crear nuevos o editar los existentes
  

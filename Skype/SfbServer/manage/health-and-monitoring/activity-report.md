@@ -1,32 +1,32 @@
 ---
-title: Informe de actividad de conferencia en Skype Empresarial Server 2015
+title: Informe de actividad de conferencia en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
-description: 'Resumen: Conozca el informe de actividad de la conferencia usado en Skype para Business Server 2015.'
-ms.openlocfilehash: 9655858acf63dc93b3441cce7c94def7444cbcf1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Información sobre el informe de actividad de conferencia usadas en Skype para Business Server.'
+ms.openlocfilehash: ae88379434bdd33882721ba07ecc311b457b4000
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997487"
 ---
-# <a name="conference-activity-report-in-skype-for-business-server-2015"></a>Informe de actividad de conferencia en Skype Empresarial Server 2015
+# <a name="conference-activity-report-in-skype-for-business-server"></a>Informe de actividad de conferencia en Skype para Business Server
  
-**Resumen:** Obtener información sobre el informe de actividad de la conferencia usado en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre el informe de actividad de conferencia usadas en Skype para Business Server.
   
-El informe de actividad de conferencia le facilita que responda a preguntas como cuántas conferencias se están celebrando cada día y cuántas se celebran. La información como esta no es solo útil por sí misma sino también como herramienta de solución de problemas. Por ejemplo, supongamos que los usuarios se están quejando de que la red parece particularmente lenta a mitad del día. Informa de un vistazo rápido a la actividad de la conferencia podría sugerir una razón posible: se ha programado más de conferencias entre las 10:00 A.M. y las 2:00 PM, a continuación, en cualquier otro momento.
+El informe de actividad de conferencia le facilita que responda a preguntas como cuántas conferencias se están celebrando cada día y cuántas se celebran. La información como esta no es solo útil por sí misma sino también como herramienta de solución de problemas. Por ejemplo, supongamos que los usuarios se están quejando de que la red parece particularmente lenta a mitad del día. Informes de un vistazo rápido a la actividad de conferencia, podrían sugerir uno de los motivos posible: se ha programado la mucho más conferencias entre las 10:00 A.M. y las 2:00 P.M., a continuación, en cualquier otro momento.
   
 Si la red lenta está causando problemas, puede animar a los usuarios a reprogramar algunas de sus conferencias durante las horas de menor tráfico del día.
   
 ## <a name="accessing-the-conference-activity-report"></a>Acceso al informe de actividad de conferencia
 
-El informe de actividad de la conferencia se tiene acceso desde el [Informe de resumen de conferencia en Skype para Business Server 2015](conference-summary-report.md) haciendo clic en cualquiera de las siguientes métricas:
+El informe de actividad de conferencia se obtiene acceso desde el [Informe de resumen de conferencia en Skype para Business Server](conference-summary-report.md) haciendo clic en cualquiera de las siguientes métricas:
   
 - Total de conferencias
     
@@ -46,7 +46,7 @@ De manera predeterminada, el informe de actividad de conferencia le muestra la c
 
 Los filtros se emplean para recuperar un conjunto de datos más específico o para ver los datos devueltos de diferentes formas. En la tabla siguiente, se muestran los filtros que se pueden utilizar en el informe de actividad de conferencia.
   
-**Filtros de informe de actividad de conferencia**
+**Filtros del informe de actividad de conferencia**
 
 |**Nombre.**|**Descripción**|
 |:-----|:-----|
@@ -61,7 +61,7 @@ En la tabla siguiente, se muestra la información proporcionada en el informe de
   
 **Métricas para conferencias por grupo**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Grupo de servidores** <br/> |No  <br/> |Nombre del grupo de registradores o servidor perimetral utilizado en la conferencia.  <br/> |
 |**Fecha y hora** <br/> |No  <br/> |Fecha y hora en que se desarrolló la conferencia.  <br/> |
@@ -71,9 +71,9 @@ En la tabla siguiente, se muestra la información proporcionada en el informe de
 
 En la tabla siguiente, se muestra la información proporcionada en el informe de actividad de conferencia para cada tipo de servidor.
   
-**Métricas para conferencias por el tipo de servidor**
+**Métricas para conferencias por tipo de servidor**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Tipo de servidor de conferencia** <br/> |No  <br/> | Tipo de servidor usado en la conferencia, generalmente, uno de los siguientes: <br/>  Servidor de conferencia web <br/>  Servidor de conferencia de mensajería instantánea <br/>  Servidor de conferencia con telefonía <br/>  Servidor de conferencia A/V <br/>  Uso compartido de aplicaciones <br/> |
 |**Fecha y hora** <br/> |No  <br/> |Fecha y hora en que se desarrolló la conferencia.  <br/> |

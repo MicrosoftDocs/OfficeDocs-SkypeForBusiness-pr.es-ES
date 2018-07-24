@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a3cb2e6-e253-4a3d-b1d7-2b93b3cfc36a
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'El panel de ejecutar comandos muestra el estado de las tareas para la instalación de la réplica local de sólo lectura del almacén de Administración Central. Mientras se ejecutan las tareas, el panel de tareas se actualiza cuando se ejecutan los comandos. Debe revisar el estado de la tarea y tenga en cuenta los errores o advertencias que se muestran. Cuando las tareas son completadas, el estado de la tarea de mensaje: completado se muestra, y los nombres de los archivos de registro muestra la lista desplegable para los archivos de registro. Para ver los archivos de registro que se crearon, elija un archivo de registro para ver y haga clic en Ver registro. Revise todos los archivos de registro para el éxito, errores y mensajes de advertencia.'
-ms.openlocfilehash: 5fb7d100a863191eb8a308057e98360666512fb6
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 6977804f333c7cee4e71fd9d45d1e25416f0af81
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969445"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989481"
 ---
 # <a name="install-local-configuration-store-invoke"></a>Instalar almacén de configuración Local (invocar)
  

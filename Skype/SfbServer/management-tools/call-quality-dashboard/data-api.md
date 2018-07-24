@@ -3,7 +3,7 @@ title: API de datos para el panel de calidad de llamada (CQD) en Skype para Busi
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
 description: 'Resumen: Obtenga información sobre la API de Rata para el panel de calidad de llamada. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.'
-ms.openlocfilehash: ccc9965af4766277978968b91321aefb5fdae3b9
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 293844d253e70e291c063d2af64226abaed3c9d9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568866"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21011081"
 ---
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>API de datos para el panel de calidad de llamada (CQD) en Skype para Business Server 2015
  

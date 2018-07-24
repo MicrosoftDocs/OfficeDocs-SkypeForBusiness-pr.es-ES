@@ -1,9 +1,9 @@
 ---
-title: Configuración de seguridad del servicio Web, crea nuevas o modificar las existentes
+title: Configuración de seguridad del servicio Web crea nuevos o modificar los existentes
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,21 +12,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: d293deefed1cdde5dfc8a05ce36c70170cf2bd8b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8423494546bfccdcabc03cbfdfd36aefdd9079e3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967929"
 ---
-# <a name="web-service-security-settings-create-new-or-modify-existing"></a>Configuración de seguridad del servicio Web: Crear nuevas o modificar las existentes
+# <a name="web-service-security-settings-create-new-or-modify-existing"></a>Configuración de seguridad del servicio Web: Crear nuevos o modificar los existentes
  
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
   
-- [Administrar opciones de configuración del servicio Web en Skype para Business Server 2015](../../manage/authentication/web-service-configuration-settings.md)
+- [Administrar opciones de configuración de servicio web en Skype Empresarial Server 2015](../../manage/authentication/web-service-configuration-settings.md)
     
 - [Modificar un servicio Web existente](http://technet.microsoft.com/library/bd9c7aa5-d31c-4fab-b31d-8baae26b1296.aspx)
     
-- [Eliminar un servicio Web](http://technet.microsoft.com/library/c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1.aspx)
+- [Eliminación de un servicio Web](http://technet.microsoft.com/library/c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1.aspx)
     
-Para obtener más información acerca de los distintos procedimientos que se pueden realizar utilizando el Skype para Business Server Control Panel, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).
+Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).
 

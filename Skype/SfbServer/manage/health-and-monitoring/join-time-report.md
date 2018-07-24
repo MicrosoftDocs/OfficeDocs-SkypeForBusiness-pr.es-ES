@@ -1,24 +1,24 @@
 ---
-title: Informe de fecha y hora de conexión a una conferencia en Skype Empresarial Server 2015
+title: Informe de tiempo de unirse a conferencia en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
-description: 'Resumen: Conozca la combinación tiempo resumen informe de la conferencia en Skype para Business Server 2015.'
-ms.openlocfilehash: ce5bd7b3f1182c9c00171b87a2b0b63556992327
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información sobre la conferencia unirse a tiempo informe de resumen en Skype para Business Server.'
+ms.openlocfilehash: 111222b915aafee346f27e4a509c0484e2ec3e00
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981125"
 ---
-# <a name="conference-join-time-report-in-skype-for-business-server-2015"></a>Informe de fecha y hora de conexión a una conferencia en Skype Empresarial Server 2015
+# <a name="conference-join-time-report-in-skype-for-business-server"></a>Informe de tiempo de unirse a conferencia en Skype para Business Server
  
-**Resumen:** Obtener información sobre la conferencia combinación tiempo informe resumido en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre la conferencia unirse a tiempo informe de resumen en Skype para Business Server.
   
 El Resumen del tiempo de incorporación a la conferencia permite determinar cuánto tardan los usuarios en unirse a una conferencia. El informe muestra el tiempo de unión promedio (en milisegundos), así como un desglose que permite saber cuántos usuarios pudieron unirse a una conferencia en 2 o menos segundos, cuántos usuarios necesitaron entre 2 y 5 segundos para unirse a la conferencia, etc.
   
@@ -30,7 +30,7 @@ Para obtener acceso al informe del tiempo de incorporación a la conferencia tie
 
 Los filtros se emplean para recuperar un conjunto de datos más específico o para ver los datos devueltos de diferentes formas. En la tabla siguiente, se muestran los filtros que se pueden utilizar en el informe de tiempo de incorporación a la conferencia.
   
-**Conferencia combinación tiempo filtros de informe**
+**Filtros del informe de tiempo de incorporación a la conferencia**
 
 |**Nombre.**|**Descripción**|
 |:-----|:-----|
@@ -44,9 +44,9 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
 
 En la tabla siguiente, se muestra la información proporcionada en el informe de tiempo de incorporación a la conferencia.
   
-**Conferencia combinación tiempo informe métricas**
+**Métricas del informe de tiempo de incorporación a la conferencia**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Fecha** <br/> El título real de esta métrica variará en función del intervalo seleccionado.  <br/> |No  <br/> |Fecha y hora en las que tuvo lugar la conferencia.  <br/> |
 |**Total de sesiones** <br/> |No  <br/> |Cantidad total de sesiones, incluidas las sesiones correctas, las sesiones con errores (tanto esperados como inesperados) y las sesiones sin categoría.  <br/> |

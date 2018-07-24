@@ -1,35 +1,35 @@
 ---
-title: Modificar una directiva de PIN existente en Skype Empresarial Server 2015
+title: Modificar una directiva PIN existente en Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
-description: 'Resumen: Modificar una directiva existente de PIN en Skype para Business Server 2015.'
-ms.openlocfilehash: bb9be5807da0e72dfbc59d2000af82b181bfc6d6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Modificar una directiva PIN existente en Skype para Business Server.'
+ms.openlocfilehash: 30b9926a7f8094cae1e23be6d0e9a0ade6d8d8a6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006188"
 ---
-# <a name="modify-an-existing-pin-policy-in-skype-for-business-server-2015"></a>Modificar una directiva de PIN existente en Skype Empresarial Server 2015
+# <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>Modificar una directiva PIN existente en Skype para Business Server
  
-**Resumen:** Modificar una directiva existente de PIN en Skype para Business Server 2015.
+**Resumen:** Modificar una directiva PIN existente en Skype para Business Server.
   
-Puede utilizar la ficha **Directiva de NIP** para proporcionar autenticación de identificación personal numérica (PIN) a los usuarios que se conectan a Skype para negocios con teléfonos IP. Para usar la autenticación de PIN, asegúrese de que la opción **Habilitar autenticación de PIN** esté seleccionada en la configuración del servicio web.
+Puede usar la ficha **Directiva de PIN** para proporcionar autenticación de identificación personal numérica (PIN) a los usuarios que se conectan a Skype para la empresa con teléfonos IP. Para usar la autenticación de PIN, asegúrese de que la opción **Habilitar autenticación de PIN** esté seleccionada en la configuración del servicio web.
   
 Siga estos pasos para modificar una directiva de PIN de nivel de usuario o de sitio. 
   
 ### <a name="to-modify-an-existing-pin-policy"></a>Para modificar una directiva de PIN existente
 
-1.  Desde una cuenta de usuario que es miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que esté en la red en el que implementa Skype para Business Server 2015.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server .
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de Admin para abrir el Skype para Panel de Control de servidor empresarial. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial. 
     
 3. En la barra de navegación izquierda, haga clic en **Seguridad** y, a continuación, en **Directiva de PIN**.
     

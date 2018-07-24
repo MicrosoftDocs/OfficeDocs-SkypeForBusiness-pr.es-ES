@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
-description: 'Al realizar una solicitud de certificado a una entidad de certificación en línea (CA) (normalmente, estos son los servidores que se encuentran en la red interna) en la página Elija una entidad de certificación (CA), se presentan con dos opciones:'
-ms.openlocfilehash: 0092e29f7cb477686cb873aa7318519d12381f72
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'Al solicitar un certificado a una entidad de certificación en línea (o CA; suelen ser servidores ubicados en la red interna) en la página Elija una entidad de certificación, aparecen dos opciones:'
+ms.openlocfilehash: 860faad4bcbb78010cabf835817ad852aca1e66b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973118"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975403"
 ---
 # <a name="certificate-request-certificate-authority"></a>Solicitud de certificado (entidad de certificación)
  

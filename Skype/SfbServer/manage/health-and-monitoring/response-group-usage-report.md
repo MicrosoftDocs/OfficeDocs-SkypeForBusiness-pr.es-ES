@@ -1,27 +1,26 @@
 ---
-title: Informe de uso del grupo de respuesta en Skype Empresarial Server 2015
+title: Informe de uso del grupo de respuesta en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
-description: 'Resumen: Obtenga información sobre la aplicación de grupo de respuesta en Skype para Business Server 2015.'
-ms.openlocfilehash: 815158fbe7d477dd263591f161312d054480808c
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Obtenga información sobre la aplicación de grupo de respuesta en Skype para Business Server.'
+ms.openlocfilehash: 78d1645a0651d39a6860f9e65456f48b1740d265
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569026"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001164"
 ---
-# <a name="response-group-usage-report-in-skype-for-business-server-2015"></a>Informe de uso del grupo de respuesta en Skype Empresarial Server 2015
+# <a name="response-group-usage-report-in-skype-for-business-server"></a>Informe de uso del grupo de respuesta en Skype para Business Server
  
-**Resumen:** Obtenga información acerca de la aplicación de grupo de respuesta en Skype para Business Server 2015.
+**Resumen:** Obtenga información acerca de la aplicación de grupo de respuesta en Skype para Business Server.
   
-La aplicación de grupo de respuesta proporciona una manera de Skype para Business Server 2015 responder y enrutar las llamadas de teléfono según el número que se ha marcado y, opcionalmente, de las respuestas del autor de la llamada a una serie de preguntas. Normalmente, las llamadas de grupo de respuesta no se enrutan a una persona individual, pero, en su lugar, se enrutan a un equipo de personas que se conoce como un grupo de agentes. Por ejemplo, si alguien llama al número de teléfono para el servicio de asistencia, Skype para Business Server 2015 puede enrutar automáticamente esa llamada al primer agente de escritorio de ayuda disponibles. Como alternativa, Skype para Business Server podría pedir una serie de preguntas ("Presione 1 si tiene problemas de hardware. Presione 2 si tiene problemas de software. Presione 3 si tiene problemas de red."), y, a continuación, enrutar la llamada al agente de asistencia al cliente ayuda más adecuado en función de la respuesta a estas preguntas.
+La aplicación de grupo de respuesta proporciona una manera de Skype para Business Server responder y enrutar las llamadas de teléfono según el número que se ha marcado y, opcionalmente, de las respuestas del autor de la llamada a una serie de preguntas. Normalmente, las llamadas de grupo de respuesta no se enrutan a una persona individual, pero, en su lugar, se enrutan a un equipo de personas que se conoce como un grupo de agentes. Por ejemplo, si alguien llama al número de teléfono para el servicio de asistencia, Skype para Business Server puede enrutar automáticamente esa llamada al primer agente de escritorio de ayuda disponibles. Como alternativa, Skype para Business Server podría pedir una serie de preguntas ("Presione 1 si tiene problemas de hardware. Presione 2 si tiene problemas de software. Presione 3 si tiene problemas de red."), y, a continuación, enrutar la llamada al agente de asistencia al cliente ayuda más adecuado en función de la respuesta a estas preguntas.
   
 El Informe de uso del grupo de respuesta ofrece una perspectiva detallada del número de llamadas de teléfono que se han recibido en todos los flujos de trabajo de grupo de respuesta y, luego, separa dichas llamadas en categorías finitas como, por ejemplo, Llamadas ofrecidas, Llamadas contestadas o Llamadas abandonadas.
   
@@ -45,7 +44,7 @@ El Informe de uso del grupo de respuesta permite filtrar URI de flujos de trabaj
   
 ## <a name="accessing-the-response-group-usage-report"></a>Acceso al Informe de uso del grupo de respuesta
 
-Es posible tener acceso al Informe de uso del grupo de respuesta desde la página de inicio de informes de supervisión. Puede desglosar la [Respuesta grupo Call List Report en Skype para Business Server 2015](call-list-report.md) haciendo clic en cualquiera de las siguientes métricas:
+Es posible tener acceso al Informe de uso del grupo de respuesta desde la página de inicio de informes de supervisión. Puede desglosar la [Respuesta grupo Call List Report en Skype para Business Server](call-list-report.md) haciendo clic en cualquiera de las siguientes métricas:
   
 - Llamadas recibidas
     
@@ -96,7 +95,7 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
   
 En la tabla siguiente se muestran los filtros que se pueden utilizar en el informe de uso del grupo de respuesta.
   
-**Filtros del informe de uso de grupo de respuesta**
+**Filtros del informe de uso del grupo de respuesta**
 
 |**Nombre.**|**Descripción**|
 |:-----|:-----|
@@ -109,9 +108,9 @@ En la tabla siguiente se muestran los filtros que se pueden utilizar en el infor
 
 En la tabla siguiente se muestra la información que recoge el informe de uso del grupo de respuesta.
   
-**Métricas del informe de uso de grupo de respuesta**
+**Métricas del informe de uso del grupo de respuesta**
 
-|**Nombre.**|**¿Puede ordenar por este elemento?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Cada hora** <br/> **Cada día** <br/> **Cada semana** <br/> **Cada mes** <br/> |No  <br/> |Indica el intervalo temporal seleccionado. Cuando corresponda, podrá hacer clic en un intervalo temporal determinado para ver información detallada para dicho intervalo. Por ejemplo, si está usando el intervalo de Cada día y hace clic en 07/07/2015, verá un desglose por horas de la actividad de registro del usuario correspondiente para esa fecha.  <br/> |
 |**Llamadas recibidas** <br/> |No  <br/> |Cantidad total de llamadas recibidas por todas las instancias de la aplicación Grupo de respuesta. Al hacer clic en este elemento, el informe le muestra el informe Lista de llamadas del grupo de respuesta correspondiente al periodo de tiempo seleccionado.  <br/> |

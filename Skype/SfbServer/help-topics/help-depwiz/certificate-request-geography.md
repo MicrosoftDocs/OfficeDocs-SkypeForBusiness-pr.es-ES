@@ -3,7 +3,7 @@ title: Solicitud de certificado (geografía)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,15 +11,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aef0110c-b4b0-453c-a2dd-602372e64952
-description: La página información geográfica solicita información adicional para la solicitud de certificado. En esta página, seleccione país y tipo de estado o provincia y ciudad o localidad en un cuadro de texto. Tenga en cuenta que no debe utilizar abreviaturas y debe deletrear el nombre completo del estado o provincia y ciudad o localidad.
-ms.openlocfilehash: 538dfb02a8c6dff1561666b3adc4cd1124c5ee5a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: La página información geográfica solicita información adicional para la solicitud de certificado. En esta página, seleccione país y, a continuación, tipo de estado o provincia y ciudad o localidad en un cuadro de texto. Tenga en cuenta que no se deben usar abreviaturas y debe escribir el nombre completo del estado o provincia y ciudad o localidad.
+ms.openlocfilehash: c89205e172b1691e65f7cb51a99a0882b947074b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20999061"
 ---
 # <a name="certificate-request-geography"></a>Solicitud de certificado (geografía)
  
-La página **Información geográfica** solicita información adicional para la solicitud de certificado. En esta página, selecciona el **país**y, a continuación, escriba la provincia de **** y **Ciudad o localidad** en un cuadro de texto. Tenga en cuenta que no debe utilizar abreviaturas y debe deletrear el nombre completo del estado o provincia y ciudad o localidad.
+La página **Información geográfica** solicita información adicional para la solicitud de certificado. En esta página, seleccione el **país**y, a continuación, escriba **estado o provincia** y ciudad o localidad de **** en un cuadro de texto. Tenga en cuenta que no se deben usar abreviaturas y debe escribir el nombre completo del estado o provincia y ciudad o localidad.
   
 

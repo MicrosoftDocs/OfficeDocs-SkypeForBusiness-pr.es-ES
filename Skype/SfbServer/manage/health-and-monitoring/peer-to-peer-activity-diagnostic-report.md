@@ -1,42 +1,42 @@
 ---
-title: Informe de diagnóstico de actividad punto a punto en Skype Empresarial Server 2015
+title: Informe de diagnóstico de actividad punto a punto en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
-description: 'Resumen: Conozca el informe de diagnóstico de la actividad de Peer-to-Peer en Skype para Business Server 2015.'
-ms.openlocfilehash: 72b749d3b26bf189c336b1b361d43e2385c98e6f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Información sobre el informe de diagnóstico de actividad punto a punto en Skype para Business Server.'
+ms.openlocfilehash: ccc0c793a27df51c86d7ae0a6a9b575c7f6a5659
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980819"
 ---
-# <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server-2015"></a>Informe de diagnóstico de actividad punto a punto en Skype Empresarial Server 2015
+# <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>Informe de diagnóstico de actividad punto a punto en Skype para Business Server
  
-**Resumen:** Obtener información sobre el informe de diagnóstico de la actividad de Peer-to-Peer en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre el informe de diagnóstico de actividad punto a punto en Skype para Business Server.
   
-El informe de diagnósticos de actividad punto a punto proporciona información sobre el éxito y error de sus sesiones de comunicación punto a punto. Tenga en cuenta que Skype para Business Server 2015 distingue entre diferentes tipos de error:
+El informe de diagnósticos de actividad punto a punto proporciona información sobre el éxito y error de sus sesiones de comunicación punto a punto. Tenga en cuenta que Skype para Business Server distingue entre distintos tipos de error:
   
-- **Error esperado**. Un error esperado es normalmente un error solo en el sentido más técnico. Por ejemplo, supongamos que llama a alguien, pero que esta persona está fuera de la oficina y no puede responder al teléfono. Dado que no se respondió la llamada, esta se considera técnicamente un error. Por otra parte, esto fue un error previsto: Skype para Business Server 2015 no espera responder el teléfono si no está disponible para responder el teléfono. De la misma manera, se producirá un error inesperado si intenta enviar un mensaje instantáneo a un usuario que se encuentra fuera de línea, o ha iniciado sesión, solo en un teléfono que no admite mensajería instantánea.
+- **Error esperado**. Un error esperado es normalmente un error solo en el sentido más técnico. Por ejemplo, supongamos que llama a alguien, pero que esta persona está fuera de la oficina y no puede responder al teléfono. Dado que no se respondió la llamada, esta se considera técnicamente un error. Por otro lado, era un error esperado: Skype para Business Server no esperan que responda a la llamada si no está disponible para responder al teléfono. De la misma manera, se producirá un error inesperado si intenta enviar un mensaje instantáneo a un usuario que se encuentra fuera de línea, o ha iniciado sesión, solo en un teléfono que no admite mensajería instantánea.
     
-- **Error inesperado**. Un error inesperado es exactamente lo que su nombre sugiere: un error que, en las circunstancias actuales, no se espera que ocurra. Por ejemplo, supongamos que se llama a alguien y la persona está disponible para responder a la llamada; Sin embargo, cuando Skype para Business Server 2015 intenta enrutar la llamada al correo de voz la llamada falla porque se ha perdido la conectividad de la mensajería unificada de Exchange. Ese es un error inesperado; esperaría que las llamadas siempre se pudieran enrutar al correo de voz. Como regla general, los errores inesperados son errores verdaderos: hay problemas que probablemente no se pueden remediar a través de la capacitación del usuario o medidas similares.
+- **Error inesperado**. Un error inesperado es exactamente lo que su nombre sugiere: un error que, en las circunstancias actuales, no se espera que ocurra. Por ejemplo, supongamos que se llama a persona a alguien y está disponible para atender la llamada; Sin embargo, cuando intente Skype para Business Server enrutar la llamada al correo de voz de la llamada se produce un error debido a que se ha perdido la conectividad con la mensajería unificada de Exchange. Ese es un error inesperado; esperaría que las llamadas siempre se pudieran enrutar al correo de voz. Como regla general, los errores inesperados son errores verdaderos: hay problemas que probablemente no se pueden remediar a través de la capacitación del usuario o medidas similares.
     
 Tenga en cuenta que es posible que las métricas de éxito, errores esperados y errores inesperados no se sumen a la métrica de sesiones totales. Por ejemplo, en la ilustración anterior, tenemos los siguientes valores:
   
-|**Éxitos**|**Errores esperados**|**Errores inesperados**|**Total de sesiones**|
+|**Correctas**|**Errores esperados**|**Errores inesperados**|**Total de sesiones**|
 |:-----|:-----|:-----|:-----|
 |2024  <br/> |469  <br/> |16  <br/> |2521  <br/> |
    
-Si suma 2024 + 469 + 16, obtiene un total de 2.509 sesiones, aunque la columna Total de sesiones muestra un total de 2.521 sesiones. Las 12 sesiones "que faltan" son sesiones que el sistema no puede clasificar como correctas o no correctas. A veces, que será el caso cuando un producto de terceros presenta un nuevo código de diagnóstico es muy conocido en Skype para Business Server. Cuando eso sucede, las llamadas realizadas usando ese producto, y la notificación de ese código de diagnóstico, no siempre se pueden clasificar como correcto, un error esperado o un error inesperado.
+Si suma 2024 + 469 + 16, obtiene un total de 2.509 sesiones, aunque la columna Total de sesiones muestra un total de 2.521 sesiones. Las 12 sesiones "que faltan" son sesiones que el sistema no puede clasificar como correctas o no correctas. En ocasiones, que será el caso cuando un producto de terceros presenta un nuevo código de diagnóstico que no esté familiarizado para Skype para Business Server. Cuando eso sucede, las llamadas realizadas usando ese producto, y la notificación de ese código de diagnóstico, no siempre se pueden clasificar como correcto, un error esperado o un error inesperado.
   
 ## <a name="accessing-the-peer-to-peer-activity-diagnostic-report"></a>Obtener acceso al informe de diagnósticos de actividad punto a punto
 
-Al informe de diagnósticos de actividad punto a punto se obtiene acceso desde la página principal de informes de supervisión. El [Informe de distribución falla en Skype para Business Server 2015](failure-distribution-report.md) puede acceder haciendo clic en cualquiera de las siguientes métricas:
+Al informe de diagnósticos de actividad punto a punto se obtiene acceso desde la página principal de informes de supervisión. Puede acceder al [Informe de distribución de errores en Skype para Business Server](failure-distribution-report.md) haciendo clic en cualquiera de las métricas siguientes:
   
 - Volumen de errores inesperados
     
@@ -52,7 +52,7 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
   
 En la tabla siguiente, se muestran los filtros que se pueden utilizar en el informe de diagnóstico de actividad punto a punto.
   
-**Filtros de informe de diagnóstico de actividad Peer-to-Peer**
+**Filtros del informe de diagnóstico de actividad punto a punto**
 
 |**Nombre.**|**Descripción**|
 |:-----|:-----|
@@ -68,7 +68,7 @@ En la tabla siguiente, se muestra la información proporcionada en el informe de
   
 **Métricas (por modalidad)**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Volumen de corrección** <br/> |No  <br/> |Cantidad total de sesiones punto a punto correctas.  <br/> |
 |**Porcentaje de corrección** <br/> |No  <br/> |Porcentaje de sesiones punto a punto que se completaron con problemas importantes. Se calcula dividiendo el volumen de corrección por el total de sesiones.  <br/> |

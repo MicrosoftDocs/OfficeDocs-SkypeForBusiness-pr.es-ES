@@ -1,38 +1,38 @@
 ---
-title: Informe de resumen de actividad punto a punto en Skype Empresarial Server 2015
+title: Informe de resumen de actividad punto a punto en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
-description: 'Resumen: Conozca el informe de resumen de la actividad de Peer-to-Peer en Skype para Business Server 2015.'
-ms.openlocfilehash: bebef02fbae79f1b85cab8c03f6f27c8e49ea879
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Información sobre el informe de resumen de actividad punto a punto en Skype para Business Server.'
+ms.openlocfilehash: 20eab96b870b0ce4bef0e516116cbc39d6a4c7e5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975728"
 ---
-# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server-2015"></a>Informe de resumen de actividad punto a punto en Skype Empresarial Server 2015
+# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Informe de resumen de actividad punto a punto en Skype para Business Server
  
-**Resumen:** Obtener información sobre el informe de resumen de la actividad de Peer-to-Peer en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre el informe de resumen de actividad punto a punto en Skype para Business Server.
   
-El Informe de resumen de actividad punto a punto proporciona una vista general de las sesiones de comunicación punto a punto. Una sesión de peer-to-peer normalmente implica a dos usuarios y no requiere el uso de la Skype para servicios de conferencia de Business Server. Por el contrario, una conferencia normalmente implica a más de dos usuarios y requiere el uso de Skype para servicios de conferencia de Business Server 2015. La actividad de la conferencia se notifica en el Informe de resumen de conferencia.
+El Informe de resumen de actividad punto a punto proporciona una vista general de las sesiones de comunicación punto a punto. Una sesión de punto a punto normalmente implica a sólo dos usuarios y no requiere el uso de la Skype para servicios de conferencia de Business Server. En comparación, una conferencia normalmente implica a más de dos usuarios y requiere el uso de Skype para servicios de conferencia de Business Server. La actividad de la conferencia se notifica en el Informe de resumen de conferencia.
   
 Con el Informe de resumen de actividad punto a punto le será más fácil responder a preguntas como la siguiente:
   
 - ¿Cuántos mensajes instantáneos de punto a punto envían habitualmente mis usuarios en un día normal?
     
-- ¿Ninguno de Mis usuarios son realmente aprovechando el Skype para capacidades de transferencia archivo y uso compartido de aplicaciones de Business Server?
+- ¿Alguno de Mis usuarios realmente a aprovechar el Skype para las capacidades de transferencia de archivos y uso compartido de aplicaciones Business Server?
     
 - Los usuarios se han estado quejando de que en determinados momentos del día, parece que la red va más lenta. ¿Cuántos minutos se dedican a las sesiones de audio o vídeo en esos períodos de tiempo?
     
 ## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>Obtener acceso al Informe de resumen de actividad punto a punto
 
-Obtenga acceso al Informe de resumen de actividad punto a punto desde la página inicial de los informes de supervisión. Abra el [informe IM Peer-to-Peer de Skype para Business Server 2015](im-report.md) haciendo clic en cualquiera de las siguientes métricas:
+Obtenga acceso al Informe de resumen de actividad punto a punto desde la página inicial de los informes de supervisión. Abra el [informe de mensajería instantánea de punto a punto en Skype para Business Server](im-report.md) haciendo clic en cualquiera de las métricas siguientes:
   
 - Total de sesiones de mensajería instantánea de punto a punto
     
@@ -58,7 +58,7 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
   
 En la siguiente tabla se enumeran los filtros que puede utilizar con el Informe de resumen de actividad punto a punto.
   
-**Filtros de informe resumen de actividad de Peer-to-Peer**
+**Filtros del Informe de resumen de actividad punto a punto**
 
 |**Nombre.**|**Descripción**|
 |:-----|:-----|
@@ -70,9 +70,9 @@ En la siguiente tabla se enumeran los filtros que puede utilizar con el Informe 
 
 En la tabla siguiente se muestra la información que recoge el Informe de resumen de actividad punto a punto.
   
-**Parámetros de informe de resumen de actividad de Peer-to-Peer**
+**Métricas del Informe de resumen de actividad punto a punto**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Cada hora** <br/> **Cada día** <br/> **Cada semana** <br/> **Cada mes** <br/> |No  <br/> |Indica el intervalo temporal que ha seleccionado en la barra de herramientas para filtros. Cuando corresponda, podrá hacer clic en un intervalo temporal determinado para ver información detallada para dicho intervalo. Por ejemplo, si está usando el intervalo de Cada día y hace clic en 17/07/2015, verá un desglose por horas de la actividad de registro del usuario correspondiente para esa fecha.  <br/> |
 |**Total de sesiones punto a punto** <br/> |No  <br/> |Cantidad total de sesiones punto a punto realizadas, independientemente del tipo de sesión.  <br/> |

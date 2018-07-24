@@ -1,9 +1,9 @@
 ---
-title: Registrar configuración Expander para Lync Server 2010
+title: Expansor de configuración de registrador de Lync Server para 2010
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,25 +11,26 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17dcd75c-bd9a-407e-af9b-c61cb1201c07
-description: 'Modificar las opciones de resiliencia y configurar las siguientes propiedades:'
-ms.openlocfilehash: 88a2d75ff6f0225328a0f27743e0129950a5ca91
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Editar la configuración de resistencia y configure las siguientes propiedades:'
+ms.openlocfilehash: 64e65fc7123132813ddc51b86301ae3d9c89e22a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21007036"
 ---
-# <a name="registrar-settings-expander-for-lync-server-for-2010"></a>Registrar configuración Expander para Lync Server 2010
+# <a name="registrar-settings-expander-for-lync-server-for-2010"></a>Expansor de configuración de registrador de Lync Server para 2010
  
-Modificar las opciones de **resiliencia** y configurar las siguientes propiedades:
+Editar la configuración de **resistencia** y configure las siguientes propiedades:
   
-- Seleccione **grupo de registrador auxiliar asociada** de la lista.
+- Seleccione **grupo de registrador de copia de seguridad asociado** en la lista.
     
-    Opcionalmente, active la casilla de verificación **automático failover y failback para voz** .
+    De forma opcional, active la casilla de verificación **conmutación automática por error y conmutación por recuperación de Voice** .
     
-    Configurar el **intervalo de detección del error de voz (s)** y el **intervalo de recuperación tras error de voz (s)**. De forma predeterminada, los intervalos son 120 segundos para la detección de fallos de voz y 240 segundos para la conmutación por recuperación de voz.
+    Configurar el **intervalo de detección de error de voz (s)** y el **intervalo de la conmutación por recuperación de Voice (seg.)**. De forma predeterminada, los intervalos son 120 para la detección de error de voz y 240 segundos para la conmutación por recuperación de Voice.
     
     > [!CAUTION]
-    > El número de segundos que defina para los intervalos de failover y failback debe probarse cuidadosamente para asegurarse de que la resistencia funciona como se esperaba. Establecer un intervalo bajo (es decir, menos de 120 segundos) o la conmutación por error y establecer demasiado estrechamente podrán provocar la conmutación no funciona según lo previsto y real. 
+    > El número de segundos que se definen para los intervalos de conmutación por error y conmutación por recuperación se debería probar detenidamente para asegurarse de que la resistencia funciona según lo previsto. Si se establece el intervalo en baja (es decir, menos de 120 segundos) o la conmutación por error y la conmutación por recuperación establecer demasiado estrechamente pueden ocasionar que la conmutación por error real y la conmutación por recuperación no funciona según lo previsto. 
   
  **Aceptar** Se aceptan y confirman los cambios en el cuadro de diálogo.
   
