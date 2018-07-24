@@ -1,66 +1,65 @@
 ---
-title: Agregar o quitar un servidor front-end en Skype Empresarial Server 2015
+title: Agregar o quitar un servidor Front-End en Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 7/12/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Resumen: Obtenga información sobre cómo agregar o quitar servidores Front-End en Skype para Business Server.'
-ms.openlocfilehash: 80b0dab56d3adfb08856348b7ec749ef2e91079f
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 07f23f3dfb913a353a72ac855915d4001ed02f24
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569009"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018786"
 ---
-# <a name="add-or-remove-a-front-end-server-in-skype-for-business-server-2015"></a><span data-ttu-id="ebc97-103">Agregar o quitar un servidor front-end en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="ebc97-103">Add or remove a Front End Server in Skype for Business Server 2015</span></span>
+# <a name="add-or-remove-a-front-end-server-in-skype-for-business-server"></a><span data-ttu-id="f56ec-103">Agregar o quitar un servidor Front-End en Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="f56ec-103">Add or remove a Front End Server in Skype for Business Server</span></span>
  
-<span data-ttu-id="ebc97-104">**Resumen:** Obtenga información sobre cómo agregar o quitar servidores Front-End en Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="ebc97-104">**Summary:** Learn how to add or remove Front End Servers in Skype for Business Server.</span></span>
+<span data-ttu-id="f56ec-104">**Resumen:** Obtenga información sobre cómo agregar o quitar servidores Front-End en Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="f56ec-104">**Summary:** Learn how to add or remove Front End Servers in Skype for Business Server.</span></span>
   
-<span data-ttu-id="ebc97-105">Al agregar un servidor Front-End a un grupo de servidores, o quitar un servidor Front-End de un grupo de servidores, debe reiniciar el grupo de servidores.</span><span class="sxs-lookup"><span data-stu-id="ebc97-105">When you add a Front End Server to a pool, or remove a Front End Server from a pool, you then need to restart the pool.</span></span> 
+<span data-ttu-id="f56ec-105">Al agregar un servidor Front-End a un grupo de servidores, o quitar un servidor Front-End de un grupo de servidores, debe reiniciar el grupo de servidores.</span><span class="sxs-lookup"><span data-stu-id="f56ec-105">When you add a Front End Server to a pool, or remove a Front End Server from a pool, you then need to restart the pool.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="ebc97-p101">Cuando agregue o quite un servidor de un grupo en su topología y después publique la topología actualizada, todos los servidores del grupo se reiniciarán al mismo tiempo. Mientras se reinician los servidores, el grupo está sin conexión, lo que interrumpirá el servicio para aquellos usuarios que estén conectados a dicho grupo. Para evitar cualquier interrupción de servicio para los usuarios, planifique que la publicación de la topología con el nuevo servidor del grupo se lleve a cabo durante el horario no comercial.</span><span class="sxs-lookup"><span data-stu-id="ebc97-p101">When you add or remove a server to the pool in your topology and then publish the updated topology, it will cause all of the servers in the pool to restart at the same time. While the servers are restarting the pool is offline, which will interrupt service for your users connected to that pool. To prevent any interruption of service to users, plan to publish the topology with the new server in the pool during non-business hours.</span></span> 
+> <span data-ttu-id="f56ec-p101">Cuando agregue o quite un servidor de un grupo en su topología y después publique la topología actualizada, todos los servidores del grupo se reiniciarán al mismo tiempo. Mientras se reinician los servidores, el grupo está sin conexión, lo que interrumpirá el servicio para aquellos usuarios que estén conectados a dicho grupo. Para evitar cualquier interrupción de servicio para los usuarios, planifique que la publicación de la topología con el nuevo servidor del grupo se lleve a cabo durante el horario no comercial.</span><span class="sxs-lookup"><span data-stu-id="f56ec-p101">When you add or remove a server to the pool in your topology and then publish the updated topology, it will cause all of the servers in the pool to restart at the same time. While the servers are restarting the pool is offline, which will interrupt service for your users connected to that pool. To prevent any interruption of service to users, plan to publish the topology with the new server in the pool during non-business hours.</span></span> 
   
-<span data-ttu-id="ebc97-109">Puede usar el siguiente procedimiento al agregar o quitar un servidor Front-End.</span><span class="sxs-lookup"><span data-stu-id="ebc97-109">You can use the following procedure when adding or removing a Front End Server.</span></span>
+<span data-ttu-id="f56ec-109">Puede usar el siguiente procedimiento al agregar o quitar un servidor Front-End.</span><span class="sxs-lookup"><span data-stu-id="f56ec-109">You can use the following procedure when adding or removing a Front End Server.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="ebc97-110">Si agrega nuevos servidores al grupo, actualice los nuevos servidores del grupo para que estén en el mismo nivel de actualización acumulativa que los servidores existentes del grupo.</span><span class="sxs-lookup"><span data-stu-id="ebc97-110">If you're adding new servers to the pool, update your new pool servers to be at the same Cumulative Update level as the existing servers in the Pool.</span></span> 
+> <span data-ttu-id="f56ec-110">Si agrega nuevos servidores al grupo, actualice los nuevos servidores del grupo para que estén en el mismo nivel de actualización acumulativa que los servidores existentes del grupo.</span><span class="sxs-lookup"><span data-stu-id="f56ec-110">If you're adding new servers to the pool, update your new pool servers to be at the same Cumulative Update level as the existing servers in the Pool.</span></span> 
   
-### <a name="to-add-or-remove-front-end-servers"></a><span data-ttu-id="ebc97-111">Para agregar o quitar servidores Front-End</span><span class="sxs-lookup"><span data-stu-id="ebc97-111">To add or remove Front End Servers</span></span>
+### <a name="to-add-or-remove-front-end-servers"></a><span data-ttu-id="f56ec-111">Para agregar o quitar servidores Front-End</span><span class="sxs-lookup"><span data-stu-id="f56ec-111">To add or remove Front End Servers</span></span>
 
-1. <span data-ttu-id="ebc97-112">Si va a quitar los servidores Front-End, en primer lugar detenga nuevas conexiones a esos servidores.</span><span class="sxs-lookup"><span data-stu-id="ebc97-112">If you are removing any Front End Servers, first stop new connections to those servers.</span></span> <span data-ttu-id="ebc97-113">Para ello, puede usar el siguiente cmdlet:</span><span class="sxs-lookup"><span data-stu-id="ebc97-113">To do so, you can use the following cmdlet:</span></span>
+1. <span data-ttu-id="f56ec-112">Si va a quitar los servidores Front-End, en primer lugar detenga nuevas conexiones a esos servidores.</span><span class="sxs-lookup"><span data-stu-id="f56ec-112">If you are removing any Front End Servers, first stop new connections to those servers.</span></span> <span data-ttu-id="f56ec-113">Para ello, puede usar el siguiente cmdlet:</span><span class="sxs-lookup"><span data-stu-id="f56ec-113">To do so, you can use the following cmdlet:</span></span>
     
    ```
    Stop-CsWindowsService -Graceful
    ```
 
-2. <span data-ttu-id="ebc97-114">Abra el generador de topologías y agregar o quitar los servidores necesarios.</span><span class="sxs-lookup"><span data-stu-id="ebc97-114">Open Topology Builder, and add or remove the necessary servers.</span></span> 
+2. <span data-ttu-id="f56ec-114">Abra el generador de topologías y agregar o quitar los servidores necesarios.</span><span class="sxs-lookup"><span data-stu-id="f56ec-114">Open Topology Builder, and add or remove the necessary servers.</span></span> 
     
-3. <span data-ttu-id="ebc97-115">Publique la topología.</span><span class="sxs-lookup"><span data-stu-id="ebc97-115">Publish the topology.</span></span>
+3. <span data-ttu-id="f56ec-115">Publique la topología.</span><span class="sxs-lookup"><span data-stu-id="f56ec-115">Publish the topology.</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="ebc97-p103">Cuando agregue o quite un servidor de un grupo en su topología y después publique la topología actualizada, todos los servidores del grupo se reiniciarán al mismo tiempo. Mientras se reinician los servidores, el grupo está sin conexión, lo que interrumpirá el servicio para aquellos usuarios que estén conectados a dicho grupo. Para evitar cualquier interrupción de servicio para los usuarios, planifique que la publicación de la topología con el nuevo servidor del grupo se lleve a cabo durante el horario no comercial.</span><span class="sxs-lookup"><span data-stu-id="ebc97-p103">When you add or remove a server to the pool in your topology and then publish the updated topology, it will cause all of the servers in the pool to restart at the same time. While the servers are restarting the pool is offline, which will interrupt service for your users connected to that pool. To prevent any interruption of service to users, plan to publish the topology with the new server in the pool during non-business hours.</span></span> 
+    > <span data-ttu-id="f56ec-p103">Cuando agregue o quite un servidor de un grupo en su topología y después publique la topología actualizada, todos los servidores del grupo se reiniciarán al mismo tiempo. Mientras se reinician los servidores, el grupo está sin conexión, lo que interrumpirá el servicio para aquellos usuarios que estén conectados a dicho grupo. Para evitar cualquier interrupción de servicio para los usuarios, planifique que la publicación de la topología con el nuevo servidor del grupo se lleve a cabo durante el horario no comercial.</span><span class="sxs-lookup"><span data-stu-id="f56ec-p103">When you add or remove a server to the pool in your topology and then publish the updated topology, it will cause all of the servers in the pool to restart at the same time. While the servers are restarting the pool is offline, which will interrupt service for your users connected to that pool. To prevent any interruption of service to users, plan to publish the topology with the new server in the pool during non-business hours.</span></span> 
   
-4. <span data-ttu-id="ebc97-119">Si ha cambiado el número de servidores en el grupo de servidores Front-End en cualquiera de las siguientes maneras, a continuación, restablecer el grupo de servidores con escribiendo el siguiente cmdlet: Reset-CsPoolRegistrarState - ResetType FullReset - PoolFqdn</span><span class="sxs-lookup"><span data-stu-id="ebc97-119">If you have changed the number of servers in your Front End pool in any of the following ways, then reset the pool with by typing the following cmdlet: Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn</span></span> 
+4. <span data-ttu-id="f56ec-119">Si ha cambiado el número de servidores en el grupo de servidores Front-End en cualquiera de las siguientes maneras, a continuación, restablecer el grupo de servidores con escribiendo el siguiente cmdlet: Reset-CsPoolRegistrarState - ResetType FullReset - PoolFqdn</span><span class="sxs-lookup"><span data-stu-id="f56ec-119">If you have changed the number of servers in your Front End pool in any of the following ways, then reset the pool with by typing the following cmdlet: Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn</span></span> 
     
    ```
     Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn  <PoolFQDN>
    ```
 
-     - <span data-ttu-id="ebc97-120">De 2 a ninguno</span><span class="sxs-lookup"><span data-stu-id="ebc97-120">2 to any</span></span>
+     - <span data-ttu-id="f56ec-120">De 2 a ninguno</span><span class="sxs-lookup"><span data-stu-id="f56ec-120">2 to any</span></span>
     
-     - <span data-ttu-id="ebc97-121">De ninguno a 2</span><span class="sxs-lookup"><span data-stu-id="ebc97-121">Any to 2</span></span>
+     - <span data-ttu-id="f56ec-121">De ninguno a 2</span><span class="sxs-lookup"><span data-stu-id="f56ec-121">Any to 2</span></span>
     
-     - <span data-ttu-id="ebc97-122">De 3 a ninguno</span><span class="sxs-lookup"><span data-stu-id="ebc97-122">3 to any</span></span>
+     - <span data-ttu-id="f56ec-122">De 3 a ninguno</span><span class="sxs-lookup"><span data-stu-id="f56ec-122">3 to any</span></span>
     
-     - <span data-ttu-id="ebc97-123">De ninguno a 3</span><span class="sxs-lookup"><span data-stu-id="ebc97-123">Any to 3</span></span>
+     - <span data-ttu-id="f56ec-123">De ninguno a 3</span><span class="sxs-lookup"><span data-stu-id="f56ec-123">Any to 3</span></span>
     
-5. <span data-ttu-id="ebc97-124">Reinicie el grupo al escribir el siguiente cmdlet</span><span class="sxs-lookup"><span data-stu-id="ebc97-124">Restart the pool by typing the following cmdlet</span></span>
+5. <span data-ttu-id="f56ec-124">Reinicie el grupo al escribir el siguiente cmdlet</span><span class="sxs-lookup"><span data-stu-id="f56ec-124">Restart the pool by typing the following cmdlet</span></span>
     
    ```
    Start-CsPool

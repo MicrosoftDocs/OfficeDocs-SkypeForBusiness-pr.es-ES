@@ -3,7 +3,7 @@ title: SQL Server Reporting Services (Introducción)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,17 +11,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
-description: Cada grupo de servidores Front-End y dispositivo de sucursal que sobreviven sólo pueden tener una que supervisión de servidor asociado a él. Cuando el seguimiento está habilitado para el sitio, el servidor de supervisión proporciona detalles de llamadas (CDR) de grabación y recopilación de datos de calidad de la experiencia (QoE) y reporting.
-ms.openlocfilehash: 9512b894c19d0305a73a4e2bfeb2d1ade56ad8b0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Cada grupo de servidores Front-End y aplicación de sucursal con funciones de supervivencia sólo pueden tener un que servidor de supervisión asociado con ella. Cuando está habilitada la supervisión para el sitio, el servidor de supervisión proporciona detalles de llamadas (CDR) y creación de informes y recopilación de datos de calidad de la experiencia (QoE).
+ms.openlocfilehash: 791277e218f070dbe9c679a0dfaa744034cae25b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018515"
 ---
-# <a name="sql-server-reporting-services-intro"></a><span data-ttu-id="2c8f6-104">SQL Server Reporting Services (Introducción)</span><span class="sxs-lookup"><span data-stu-id="2c8f6-104">SQL Server Reporting Services (Intro)</span></span>
+# <a name="sql-server-reporting-services-intro"></a><span data-ttu-id="00935-104">SQL Server Reporting Services (Introducción)</span><span class="sxs-lookup"><span data-stu-id="00935-104">SQL Server Reporting Services (Intro)</span></span>
  
-<span data-ttu-id="2c8f6-105">Cada grupo de servidores Front-End y dispositivo de sucursal que sobreviven sólo pueden tener una que supervisión de servidor asociado a él.</span><span class="sxs-lookup"><span data-stu-id="2c8f6-105">Each Front End pool and Survivable Branch Appliance can have only one Monitoring Server associated with it.</span></span> <span data-ttu-id="2c8f6-106">Cuando el seguimiento está habilitado para el sitio, el servidor de supervisión proporciona detalles de llamadas (CDR) de grabación y recopilación de datos de calidad de la experiencia (QoE) y reporting.</span><span class="sxs-lookup"><span data-stu-id="2c8f6-106">When monitoring is enabled for the site, Monitoring Server provides call detail recording (CDR) and Quality of Experience (QoE) data collection and reporting.</span></span>
+<span data-ttu-id="00935-105">Cada grupo de servidores Front-End y aplicación de sucursal con funciones de supervivencia sólo pueden tener un que servidor de supervisión asociado con ella.</span><span class="sxs-lookup"><span data-stu-id="00935-105">Each Front End pool and Survivable Branch Appliance can have only one Monitoring Server associated with it.</span></span> <span data-ttu-id="00935-106">Cuando está habilitada la supervisión para el sitio, el servidor de supervisión proporciona detalles de llamadas (CDR) y creación de informes y recopilación de datos de calidad de la experiencia (QoE).</span><span class="sxs-lookup"><span data-stu-id="00935-106">When monitoring is enabled for the site, Monitoring Server provides call detail recording (CDR) and Quality of Experience (QoE) data collection and reporting.</span></span>
   
-<span data-ttu-id="2c8f6-107">Todos los grupos en un sitio y los grupos de múltiples sitios centrales pueden utilizar el mismo servidor de supervisión, si el uso no supere la capacidad del servidor de supervisión.</span><span class="sxs-lookup"><span data-stu-id="2c8f6-107">All pools at a site and the pools of multiple central sites can use the same Monitoring Server, if usage does not exceed the capacity of the Monitoring Server.</span></span> <span data-ttu-id="2c8f6-108">Para obtener más información acerca de cómo diseñar una topología que permiten la supervisión, consulte [asociar un almacén de supervisión con una agrupación de Front-End en Skype para Business Server 2015](../../deploy/deploy-monitoring/associate-a-monitoring-store.md) en la documentación de implementación.</span><span class="sxs-lookup"><span data-stu-id="2c8f6-108">For details about designing a topology to support monitoring, see [Associate a monitoring store with a Front End pool in Skype for Business Server 2015](../../deploy/deploy-monitoring/associate-a-monitoring-store.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="00935-107">Todos los grupos de servidores de un sitio y los grupos de servidores de varios sitios centrales pueden usar el mismo servidor de supervisión, uso no sobrepase la capacidad del servidor de supervisión.</span><span class="sxs-lookup"><span data-stu-id="00935-107">All pools at a site and the pools of multiple central sites can use the same Monitoring Server, if usage does not exceed the capacity of the Monitoring Server.</span></span> <span data-ttu-id="00935-108">Para obtener información detallada acerca del diseño de una topología para admitir la supervisión, consulte [asociar un almacén de supervisión con un grupo de servidores Front-End en Skype para Business Server 2015](../../deploy/deploy-monitoring/associate-a-monitoring-store.md) en la documentación de implementación.</span><span class="sxs-lookup"><span data-stu-id="00935-108">For details about designing a topology to support monitoring, see [Associate a monitoring store with a Front End pool in Skype for Business Server 2015](../../deploy/deploy-monitoring/associate-a-monitoring-store.md) in the Deployment documentation.</span></span>
   
 

@@ -1,9 +1,9 @@
 ---
-title: Estado de enrutamiento de guardar los cambios de voz para la configuración de enrutamiento de voz
+title: Estado de la distribución de confirmación de cambios de voz para la configuración del enrutamiento de voz
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,17 +11,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e5086fb-3c3b-432a-9eab-a9b12cb79d76
-description: Si no se han completado los cambios, revise los mensajes en este cuadro de diálogo, cambie la configuración de enrutamiento de voz y vuelva a intentarlo.
-ms.openlocfilehash: c0fadb26a9671d876a7995154a2459959f5e9a0b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Si no se han completado los cambios, revise los mensajes de este cuadro de diálogo, cambie la configuración de enrutamiento de voz y vuelva a intentarlo.
+ms.openlocfilehash: d2854eb849858680a0f079053eaff3c5fd6eef2b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20990325"
 ---
-# <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a><span data-ttu-id="a15a9-103">Enrutamiento de voz: Estado de guardar los cambios de configuración de enrutamiento de voz</span><span class="sxs-lookup"><span data-stu-id="a15a9-103">Voice Routing: Status of Commit Changes for Voice Routing Configuration</span></span>
+# <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a><span data-ttu-id="4a70e-103">Enrutamiento de voz: Estado de confirmación de cambios de configuración del enrutamiento de voz</span><span class="sxs-lookup"><span data-stu-id="4a70e-103">Voice Routing: Status of Commit Changes for Voice Routing Configuration</span></span>
  
-<span data-ttu-id="a15a9-104">Si no se han completado los cambios, revise los mensajes en este cuadro de diálogo, cambie la configuración de enrutamiento de voz y vuelva a intentarlo.</span><span class="sxs-lookup"><span data-stu-id="a15a9-104">If the changes were not completed, review the messages in this dialog box, change your voice routing configuration, and try again.</span></span>
+<span data-ttu-id="4a70e-104">Si no se han completado los cambios, revise los mensajes de este cuadro de diálogo, cambie la configuración de enrutamiento de voz y vuelva a intentarlo.</span><span class="sxs-lookup"><span data-stu-id="4a70e-104">If the changes were not completed, review the messages in this dialog box, change your voice routing configuration, and try again.</span></span>
   
-<span data-ttu-id="a15a9-105">Para obtener más información acerca de los distintos procedimientos que se pueden realizar utilizando el Skype para Business Server Control Panel, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="a15a9-105">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="4a70e-105">Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="4a70e-105">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 
