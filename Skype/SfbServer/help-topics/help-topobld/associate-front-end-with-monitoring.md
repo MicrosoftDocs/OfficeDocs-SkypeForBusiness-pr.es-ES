@@ -1,9 +1,9 @@
 ---
-title: Asociar la supervisión de Front-End
+title: Asociar Front-End con supervisión
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,17 +11,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ea4474a-7453-49a9-ba38-2c7dc4337b05
-description: Cada grupo de servidores Front-End y dispositivo de sucursal que sobreviven sólo pueden tener una que supervisión de servidor asociado a él. Cuando el seguimiento está habilitado para el sitio, el servidor de supervisión proporciona detalles de llamadas (CDR) de grabación y recopilación de datos de calidad de la experiencia (QoE) y reporting.
-ms.openlocfilehash: d122a4a880191a4aaa7c5e9cc824679c1d4371c4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Cada grupo de servidores Front-End y aplicación de sucursal con funciones de supervivencia sólo pueden tener un que servidor de supervisión asociado con ella. Cuando está habilitada la supervisión para el sitio, el servidor de supervisión proporciona detalles de llamadas (CDR) y creación de informes y recopilación de datos de calidad de la experiencia (QoE).
+ms.openlocfilehash: 10b4afcbf91d333e898e15785283caeab62d3bd5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014629"
 ---
-# <a name="associate-front-end-with-monitoring"></a>Asociar la supervisión de Front-End
+# <a name="associate-front-end-with-monitoring"></a>Asociar Front-End con supervisión
  
-Cada grupo de servidores Front-End y dispositivo de sucursal que sobreviven sólo pueden tener una que supervisión de servidor asociado a él. Cuando el seguimiento está habilitado para el sitio, el servidor de supervisión proporciona detalles de llamadas (CDR) de grabación y recopilación de datos de calidad de la experiencia (QoE) y reporting.
+Cada grupo de servidores Front-End y aplicación de sucursal con funciones de supervivencia sólo pueden tener un que servidor de supervisión asociado con ella. Cuando está habilitada la supervisión para el sitio, el servidor de supervisión proporciona detalles de llamadas (CDR) y creación de informes y recopilación de datos de calidad de la experiencia (QoE).
   
-Todos los grupos en un sitio y los grupos de múltiples sitios centrales pueden utilizar el mismo servidor de supervisión, si el uso no supere la capacidad del servidor de supervisión. 
+Todos los grupos de servidores de un sitio y los grupos de servidores de varios sitios centrales pueden usar el mismo servidor de supervisión, uso no sobrepase la capacidad del servidor de supervisión. 
   
 

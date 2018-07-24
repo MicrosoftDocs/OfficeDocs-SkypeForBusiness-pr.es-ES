@@ -1,9 +1,9 @@
 ---
-title: Registrar configuración Expander
+title: Expansor de configuración de registrador
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,28 +11,29 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
-description: Resistencia proporciona alta disponibilidad y recuperación ante desastres para el grupo de registro. Al proporcionar una copia de seguridad Registrar en caso de que el registrador principal, la copia de seguridad registrador puede asumir el registrador fallido, permitiendo a los usuarios iniciar sesión y comunicarse. Los usuarios pueden experimentar potencialmente funcionalidad reducida, dependiendo de qué sistemas han fracasado con el registrador principal.
-ms.openlocfilehash: 9d8460f0a883dfabc55153744ba4f3f886b34898
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Resistencia proporciona una alta disponibilidad y recuperación ante desastres para el grupo de registrador. Al proporcionar un registrador de reserva en caso de que el registrador principal, la copia de seguridad puede adoptar el registrador para el registrador con errores, lo que permite a los usuarios iniciar sesión y comunicarse. Los usuarios pueden experimentar potencialmente funcionalidad reducida, dependiendo de lo que han producido un error de sistemas con el registrador principal.
+ms.openlocfilehash: 9aa72170b157045f8adf28bc2be08b115ae40c5b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015714"
 ---
-# <a name="registrar-settings-expander"></a>Registrar configuración Expander
+# <a name="registrar-settings-expander"></a>Expansor de configuración de registrador
  
-Resistencia proporciona alta disponibilidad y recuperación ante desastres para el grupo de registro. Al proporcionar una copia de seguridad Registrar en caso de que el registrador principal, la copia de seguridad registrador puede asumir el registrador fallido, permitiendo a los usuarios iniciar sesión y comunicarse. Los usuarios pueden experimentar potencialmente funcionalidad reducida, dependiendo de qué sistemas han fracasado con el registrador principal.
+Resistencia proporciona una alta disponibilidad y recuperación ante desastres para el grupo de registrador. Al proporcionar un registrador de reserva en caso de que el registrador principal, la copia de seguridad puede adoptar el registrador para el registrador con errores, lo que permite a los usuarios iniciar sesión y comunicarse. Los usuarios pueden experimentar potencialmente funcionalidad reducida, dependiendo de lo que han producido un error de sistemas con el registrador principal.
   
-En la sección de **resistencia** del cuadro de diálogo **Editar propiedades** para su dispositivo de sucursal que sobreviven o un servidor de sucursal que sobreviven, puede cambiar los siguientes valores:
+En la sección **resistencia** del cuadro de diálogo **Editar propiedades** para su aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia, puede cambiar la configuración siguiente:
   
-- **Servicio de usuario asociados y grupo de registrador auxiliar** En la lista desplegable, seleccione el grupo de servidores Front-End de Enterprise Edition o Standard Edition servidor Front-End que va a actuar como el registrador de la copia de seguridad para el dispositivo de sucursal que sobreviven o el servidor de sucursal que sobreviven.
+- **Servicio de usuario asociado y grupo de registrador de copia de seguridad** En la lista desplegable, seleccione el grupo de servidores Front-End de Enterprise Edition o Standard Edition servidor Front-End que va a actuar como el registrador de reserva para la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia.
     
-- **Habilitar la conmutación por error y conmutación por recuperación** Seleccione esta opción para permitir la detección automática de un error al Registrar y la determinación automática que el registrador principal es la copia de seguridad y está listo para reanudar el proceso de Registrar.
+- **Habilitar la conmutación por error y conmutación por recuperación** Seleccione esta opción para permitir la detección automática de un error de registrador y de la determinación automática que el registrador principal es la copia de seguridad y listo para reanudar el proceso de registrador.
     
-- **Intervalo de detección del error (seg.)** Escriba el número de segundos que deben transcurrir antes de que se determine que el principal registrador ha fallado. El valor predeterminado es de 120 segundos. Este campo es obligatorio si se selecciona **Permitir Failover y Failback**.
+- **Intervalo de detección de errores (seg.)** Escriba el número de segundos que debe transcurrir antes de que se ha determinado que registrador ha fallado la principal. El valor predeterminado es 120 segundos. Este campo es obligatorio si selecciona **Habilitar la conmutación por error y conmutación por recuperación**.
     
-- **Intervalo de detección reserva (s)** Escriba el número de segundos que deben transcurrir antes de que se determine que el registrador principal se copia. El valor predeterminado es 240 segundos. Este campo es obligatorio si se selecciona **Permitir Failover y Fallback**.
+- **Intervalo de detección de reserva (seg.)** Escriba el número de segundos que debe transcurrir antes de que se determina que se copia el registrador principal. El valor predeterminado es 240 segundos. Este campo es obligatorio si selecciona **Habilitar la conmutación por error y reserva**.
     
 > [!IMPORTANT]
-> Cuando defina el intervalo de detección del error y el intervalo de detección reserva, ser cuidado de no introducir un intervalo que hará que la conmutación por error y reserva que se produzca si el registrador no responde durante un breve período de tiempo. Es posible que el registrador principal puede no responder durante cortos períodos de tiempo según la carga de servidores o el grupo. 
+> Al definir el intervalo de detección de error y el intervalo de detección de reserva, ser cuidado de no especifique un intervalo que hará que la conmutación por error y de reserva que se produzca si se produce un error en el registrador responder durante un breve período de tiempo. Es posible que el registrador principal no puede responder durante breves períodos de tiempo en función de la carga del grupo de servidores o servidores. 
   
 

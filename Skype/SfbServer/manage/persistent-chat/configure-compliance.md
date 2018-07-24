@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Resumen: Obtenga información sobre cómo configurar el servicio de cumplimiento de servidor de Chat persistente en Skype para Business Server 2015.'
-ms.openlocfilehash: 99c09408fbc404edd7ccd6c3844f59dca77a35f0
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: e41afe6b9d6d36a73d818af7fc297e7b20006dcf
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568629"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026619"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurar el servicio de cumplimiento para el servidor de chat persistente en Skype Empresarial Server 2015
  
@@ -36,6 +36,9 @@ El cumplimiento del chat persistente permite a los administradores mantener un a
 - Descargue un archivo
     
 Según sea necesario, esta información se puede recuperar de la base de datos de SQL de cumplimiento. 
+
+> [!NOTE]
+> Chat persistente está disponible en Skype para Business Server 2015, pero ya no se admite en Skype para Business Server 2019. La misma funcionalidad está disponible en los equipos. Para obtener más información, vea [viaje de Skype para la empresa a los equipos de Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Si necesita usar chat en grupo, las opciones son para migrar los usuarios que requieren esta funcionalidad a los equipos, o para continuar usando Skype para Business Server 2015. 
   
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Configurar el servicio de cumplimiento con Windows PowerShell
 
@@ -130,7 +133,7 @@ En la tabla siguiente se describen los atributos de mensaje Type, Content e ID.
   
 **Atributos del elemento Messages**
 
-|**Atributo**|**Descripción**|**Necesario/opcional**|
+|**Atributo**|**Descripción**|**Opcional/Obligatorio**|
 |:-----|:-----|:-----|
 |Type  <br/> |Especifica el tipo de mensaje. Los tipos de mensajes se describen en la tabla Tipos de mensajes de los elementos de mensaje.  <br/> |Obligatorio  <br/> |
 |Content  <br/> |Contiene el contenido del mensaje. Aquellos mensajes que presenten el tipo Join o Part no usan este atributo.  <br/> |Opcional  <br/> |
@@ -138,9 +141,9 @@ En la tabla siguiente se describen los atributos de mensaje Type, Content e ID.
    
 Cada elemento Sender contiene cinco atributos: user name, ID, email, internal y URI. Estos atributos se describen en la siguiente tabla.
   
-**Atributos del elemento sender**
+**Atributos del elemento Sender**
 
-|**Atributo**|**Descripción**|**Necesario/opcional**|
+|**Atributo**|**Descripción**|**Opcional/Obligatorio**|
 |:-----|:-----|:-----|
 |Username  <br/> |El nombre del remitente.  <br/> |Opcional  <br/> |
 |ID  <br/> |Identificador único de. la dirección del remitente  <br/> |Obligatorio  <br/> |

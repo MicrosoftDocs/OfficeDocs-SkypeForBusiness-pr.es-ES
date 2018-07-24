@@ -3,18 +3,19 @@ title: Requisitos de hardware y software para el servidor de chat persistente en
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
+ms.date: 7/19/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: 'Resumen: Lea este tema para obtener más información acerca de los requisitos de hardware y software para el servidor de Chat persistente en Skype para Business Server 2015.'
-ms.openlocfilehash: 4daf53219937a4ffcfee0e51d80cffb7f1626cf5
-ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
+ms.openlocfilehash: 16a04616a1ec15b4cfffc17cd3a3d9bc271b0dde
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2018
-ms.locfileid: "20363933"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21027006"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Requisitos de hardware y software para el servidor de chat persistente en Skype Empresarial Server 2015
  
@@ -35,6 +36,9 @@ Antes de implementar servidores de Chat persistente, debe asegurarse de que se c
 - Software Message Queue. Usada por el servicio de servidor de Chat persistente y cumplimiento de Chat persistente, si se ha implementado.
     
 Las secciones siguientes describen los requisitos específicos para el servidor de Chat persistente y la base de datos que almacena los datos de Chat persistente.
+
+> [!NOTE] 
+> Chat persistente está disponible en Skype para Business Server 2015, pero ya no se admite en Skype para Business Server 2019. La misma funcionalidad está disponible en los equipos. Para obtener más información, vea [viaje de Skype para la empresa a los equipos de Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Si necesita usar chat en grupo, las opciones son para migrar los usuarios que requieren esta funcionalidad a los equipos, o para continuar usando Skype para Business Server 2015. 
   
 ## <a name="front-end-server-requirements"></a>Requisitos del servidor front-end
 

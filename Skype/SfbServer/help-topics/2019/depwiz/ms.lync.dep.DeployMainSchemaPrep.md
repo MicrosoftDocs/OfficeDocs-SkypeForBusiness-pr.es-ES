@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
-description: Para preparar el esquema de los servicios de dominio de Active Directory, ejecute el paso Preparar el esquema en el Skype para el Asistente para la implementación de servidor de negocio. Haga clic en ejecutar para comenzar la preparación del esquema. El paso Preparar el esquema lee los archivos de definición de esquema suministrado en el directorio de archivos de /archivos de programa/Microsoft Lync Server 2013/implementación o instalación en el sistema que se está ejecutando el Asistente para la implementación. Estos archivos también están disponibles en los medios de instalación en el directorio de soporte técnico o con el esquema. El paso Preparar esquema ampliará el esquema e informará sobre el estado del proceso. Además, avisará cuando el proceso haya finalizado. En la pantalla de resumen se podrán ver los registros del proceso. Examine los registros para asegurarse de que la preparación se haya completado correctamente.
-ms.openlocfilehash: 7aea3a6f99182ba164d27e95ca2f34296d45c831
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Para preparar el esquema de los servicios de dominio de Active Directory, ejecute el paso Preparar el esquema en el Skype para el Asistente para la implementación de servidor de negocio. Haga clic en Ejecutar para comenzar la preparación del esquema.
+ms.openlocfilehash: adc0ad796b608671816d50a93f75dc89f2a4a13b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987714"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020136"
 ---
 # <a name="prepare-schema"></a>Preparar esquema
  

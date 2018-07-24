@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1af294a0-5aa1-40a4-b460-231dd4b2f3dc
-description: En la configuración de dominio SIP en la página nombres alternativos del sujeto (SAN), debe seleccionar la casilla de verificación para su dominio principal del protocolo de inicio de sesión (SIP) y todos los demás dominios SIP si su implementación e infraestructura cumple los criterios que aparecen.
-ms.openlocfilehash: 3d4bda17cf80ac8ee82ff86fca037203f83e4c60
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: En la página sobre configuración del dominio SIP en nombres alternativos de sujeto, debe seleccionar la casilla del dominio del protocolo de inicio de sesión (SIP) principal y cualquier otro dominio SIP si la infraestructura y la implementación reúnen los criterios enumerados.
+ms.openlocfilehash: 9cc86cf7f1bbd2ad2276e6554841a69a366d4274
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988246"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020115"
 ---
 # <a name="certificate-request-sip-domains"></a>Solicitud de certificado (dominios SIP)
  

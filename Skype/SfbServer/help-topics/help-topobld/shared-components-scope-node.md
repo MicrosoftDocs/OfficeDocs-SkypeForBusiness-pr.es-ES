@@ -3,7 +3,7 @@ title: Nodo de ámbito de componentes compartidos
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,27 +11,28 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
-description: Haga clic con componentes compartidos en el árbol de jerarquía de generador de topología para crear nuevos componentes compartidos o para acceder a las opciones de nivel de topología.
-ms.openlocfilehash: aab7c14a4135b6e4cda88872098bff0a8eeb0566
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Botón secundario haga clic en componentes compartidos en el árbol de la jerarquía de Topology Builder para crear nuevos componentes compartidos o para tener acceso a las opciones del nivel topología.
+ms.openlocfilehash: 5fe8e8e51a8a831174ea2ffc67f7ce4db86f4c2b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014243"
 ---
 # <a name="shared-components-scope-node"></a>Nodo de ámbito de componentes compartidos
  
-Haga clic con **Componentes compartidos** en el árbol de jerarquía de generador de topología para crear nuevos componentes compartidos o para acceder a las opciones de nivel de topología.
+Botón secundario haga clic en **Componentes compartidos** en el árbol de la jerarquía de Topology Builder para crear nuevos componentes compartidos o para tener acceso a las opciones del nivel topología.
   
 ![Nodo de ámbito de componentes compartidos](../../media/Shared_Components_Scope_Node.jpg)
   
-Seleccione **nuevo** para crear un nuevo almacén de archivos, una nueva puerta de enlace IP/PSTN, un nuevo servidor de aplicaciones Web de Office, un nuevo almacén de SQL Server o un tronco nuevo.
+Seleccione **nuevo** para crear un nuevo almacén de archivos, una nueva puerta de enlace IP/RTC, un servidor de Office Web Apps nuevo, un nuevo almacén de SQL Server o un nuevo tronco.
   
 > [!NOTE]
-> Para cada una de estas opciones, vea los temas de ayuda. 
+> Vea los temas de ayuda para cada una de estas opciones. 
   
 ![Nodo de ámbito de componentes compartidos](../../media/Shared_Components_Scope_NodeB.jpg)
   
-Seleccione la **topología** que haga clic en Opciones para abrir un nuevo documento de topología. Abrir un documento existente de topología, descargar la topología actual del almacén de Administración Central, guardar una copia del documento de topología actual, publicar el documento de la topología actual, instalar la base de datos para crear las configuraciones de base de datos configurada actualmente Combina Office Communications Server 2007 R2 en la implementación actual, o para quitar la implementación.
+Seleccione la **topología** que hacer clic en Opciones para abrir un nuevo documento de topología. Abra un documento de topología existente, descargar topología actual desde el almacén de Administración Central, guardar una copia del documento de topología actual, publicar el documento actual de la topología, instalar base de datos para crear las configuraciones de la base de datos configurado actualmente, Combinar Office Communications Server 2007 R2 en la implementación actual, o para quitar implementación.
   
 ![Nodo de ámbito de componentes compartidos C](../../media/Shared_Components_Scope_NodeC.jpg)
   

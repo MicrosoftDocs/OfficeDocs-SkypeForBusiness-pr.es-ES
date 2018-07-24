@@ -10,63 +10,64 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
-description: 'Resumen: Instalar y configurar los nodos de observador para Skype para transacciones sintéticas Business Server.'
-ms.openlocfilehash: 2ba6c6e0ac201d9721d281c87665fe9bf9c0407c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Instale y configure los nodos de monitor para Skype para las transacciones sintéticas Business Server.'
+ms.openlocfilehash: 4e7b0b8c1874a2491cc34d26a8ef6870c412b760
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015641"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Instalar y configurar nodos de monitor
  
-**Resumen:** Instalar y configurar los nodos de observador de Skype para transacciones sintéticas Business Server.
+**Resumen:** Instalar y configurar los nodos de monitor para Skype para las transacciones sintéticas Business Server.
   
-Nodos de observador son equipos que ejecutan periódicamente Skype para transacciones sintéticas Business Server. Transacciones sintéticas son cmdlets de Windows PowerShell que compruebe que los escenarios clave de usuario, como la capacidad para iniciar sesión en o para intercambiar mensajes instantáneos, funcionan como se esperaba. Para Skype para Business Server 2015, System Center Operations Manager puede ejecutar las transacciones sintéticas que se muestra en la tabla siguiente, que incluye tres tipos de transacciones sintéticas:
+Nodos de monitor son equipos que ejecutan periódicamente Skype para las transacciones sintéticas Business Server. Las transacciones sintéticas son los cmdlets de Windows PowerShell que compruebe que los escenarios de usuario clave, como la capacidad para iniciar sesión o para intercambiar mensajes instantáneos, funcionan según lo previsto. Para Skype para Business Server 2015, System Center Operations Manager puede ejecutar las transacciones sintéticas que se muestra en la tabla siguiente, que incluye tres tipos de transacción:
   
-- **Predeterminado** Transacciones sintéticas que un nodo Monitor se ejecuta de forma predeterminada. Cuando se crea un nuevo nodo de monitor, puede especificar qué sintético transacciones se ejecutará en ese nodo. (Que es el propósito del parámetro de pruebas utilizado por el cmdlet New-CsWatcherNodeConfiguration). Si no utiliza el parámetro de pruebas cuando se crea el nodo supervisora, se ejecutará automáticamente todas las transacciones sintéticas predeterminado y no se ejecutará ninguna de las transacciones sintéticas Non-default. Por ejemplo, esto significa que el nodo Monitor debe configurarse para ejecutar la prueba de CsAddressBookService de prueba, pero no se configurará para ejecutar la prueba de CsExumConnectivity de prueba.
+- **Valor predeterminado** Transacciones sintéticas que un nodo de monitor se ejecuta de forma predeterminada. Cuando se crea un nuevo nodo de monitor, puede especificar qué sintéticas transacciones se ejecutará en ese nodo. (Que es el propósito de los parámetros de prueba que usa el cmdlet New-CsWatcherNodeConfiguration). Si no usa el parámetro de pruebas cuando se crea el nodo de monitor, se ejecutará automáticamente todas las transacciones sintéticas de forma predeterminada y no se ejecutará ninguna de las transacciones sintéticas Non-default. Por ejemplo, esto significa que el nodo de monitor se configurarán para ejecutar la prueba Test-CsAddressBookService, pero no se configurarán para ejecutar la prueba Test-CsExumConnectivity.
     
-- **No predeterminado** Pruebas de nodos de observador no se ejecutan de forma predeterminada. (Para obtener más información, consulte la descripción del tipo de forma predeterminada). Sin embargo, el nodo Monitor puede habilitarse para ejecutar cualquiera de las transacciones sintéticas Non-default. Esto se puede hacer cuando se crea el nodo de monitor (mediante el cmdlet New-CsWatcherNodeConfiguration) o en cualquier momento después de crear dicho nodo. Tenga en cuenta que muchas de las transacciones sintéticas que no son predeterminadas requieren pasos de configuración adicionales. Para obtener más información sobre estos pasos, consulte las instrucciones de configuración especiales para Las transacciones sintéticas. Para obtener más detalles sobre estos pasos, consulte [Las instrucciones de instalación especiales para transacciones sintéticas ](test-users-and-settings.md#special_synthetictrans).
+- **No predeterminado** Pruebas de nodos de monitor no se ejecute de forma predeterminada. (Para obtener información detallada, vea la descripción del tipo de forma predeterminada). Sin embargo, se puede habilitar el nodo de monitor para ejecutar cualquiera de las transacciones sintéticas Non-default. Esto se puede hacer cuando se crea el nodo de monitor (mediante el cmdlet New-CsWatcherNodeConfiguration) o en cualquier momento después de crear dicho nodo. Tenga en cuenta que muchas de las transacciones sintéticas que no son predeterminadas requieren pasos de configuración adicionales. Para obtener más información sobre estos pasos, consulte las instrucciones de configuración especiales para Las transacciones sintéticas. Para obtener más detalles acerca de estos pasos, consulte [Las instrucciones de configuración especiales para transacciones sintéticas ](test-users-and-settings.md#special_synthetictrans).
     
-- **Extendido** Un tipo especial de transacciones sintéticas Non-default. A diferencia de otras transacciones sintéticas, pruebas extendidas pueden ejecutar varias veces durante cada paso. Esto es útil cuando se comprueba el comportamiento, como para un grupo de múltiples rutas de voz de red (conmutada PSTN) de telefónica pública conmutada. Puede configurar esto agregando varias instancias de una prueba extensa a un nodo de monitor.
+- **Extendido** Un tipo especial de transacciones sintéticas Non-default. A diferencia de otras transacciones sintéticas, Extended pruebas se pueden ejecutar varias veces durante cada paso. Esto es útil cuando se comprueba el comportamiento, como varias rutas de voz de (RTC) de la red telefónica conmutada pública para un grupo de servidores. Puede configurar esto agregando varias instancias de una prueba extendida a un nodo de monitor.
     
-Para obtener más información sobre el proceso para agregar otras transacciones sintéticas a un nodo de monitor, consulte [Configure a Watcher Node to Run Synthetic Transactions](watcher-nodes.md#enable_synthetic_trans). También puede utilizar Skype para negocios de Shell de administración de servidor para quitar transacciones sintéticas desde un nodo Monitor.
+Para obtener más información sobre el proceso para agregar otras transacciones sintéticas a un nodo de monitor, consulte [Configure a Watcher Node to Run Synthetic Transactions](watcher-nodes.md#enable_synthetic_trans). También puede usar Skype para Business Server Management Shell para quitar las transacciones sintéticas de un nodo de monitor.
   
 Las transacciones sintéticas disponibles para los nodos de monitor son las siguientes:
   
-|**Cmdlet nombre (prueba)**|**Descripción**|
+|**Nombre del cmdlet (nombre de la prueba)**|**Descripción**|
 |:-----|:-----|
-|Test-CsAddressBookService (ABS)  <br/> |Confirma que los usuarios son capaces de buscar los usuarios que no están en su lista de contactos.  <br/> |
-|Test-CsAddressBookWebQuery (ABWQ)  <br/> |Confirma que los usuarios son capaces de buscar los usuarios que no están en su lista de contactos a través de HTTP.  <br/> |
+|Test-CsAddressBookService (ABS)  <br/> |Confirma que los usuarios pueden buscar los usuarios que no están en su lista de contactos.  <br/> |
+|Test-CsAddressBookWebQuery (ABWQ)  <br/> |Confirma que los usuarios pueden buscar los usuarios que no están en su lista de contactos a través de HTTP.  <br/> |
 |Test-CsAVConference (AvConference)  <br/> |Confirma que los usuarios pueden crear conferencias de audio/vídeo y participar en ellas.  <br/> |
 |Test-CsGroupIM (conferencia de mensajería instantánea)  <br/> |Confirma que los usuarios pueden enviar mensajes instantáneos durante las conferencias y participar en conversaciones de mensajes instantáneos con tres o más personas.  <br/> |
 |Test-CsIM (P2P IM)  <br/> |Confirma que los usuarios pueden enviar mensajes instantáneos punto a punto.  <br/> |
 |Test-CsP2PAV (P2PAV)  <br/> |Confirma que los usuarios pueden realizar llamadas de audio de punto a punto (solo señalización).  <br/> |
-|Test-CsPresence (Presence)  <br/> |Confirma que los usuarios son capaces de ver la presencia de otros usuarios.  <br/> |
-|Test-CsRegistration (Registration)  <br/> |Confirma que los usuarios sean capaz de iniciar sesión en Skype para el negocio.  <br/> |
+|Test-CsPresence (Presence)  <br/> |Confirma que los usuarios pueden ver la presencia de los demás usuarios.  <br/> |
+|Test-CsRegistration (Registration)  <br/> |Confirma que los usuarios pueden iniciar sesión en Skype para la empresa.  <br/> |
 |Test-CsPstnPeerToPeerCall (RTC)  <br/> |Confirma que los usuarios pueden hacer y recibir llamadas con gente ajena a la empresa (números de RTC).  <br/> |
 |Test-CsASConference (ASConference)  <br/> |Confirma que los usuarios pueden crear conferencias de uso compartido de aplicaciones y participar en ellas.  <br/> |
 |Test-CsAVEdgeConnectivity (AVEdgeConnectivity)  <br/> |Confirma que los servidores perimetrales A/V pueden aceptar conexiones para las llamadas de punto a punto y las llamadas de conferencia.  <br/> |
 |Test-CsDataConference (DataConference)  <br/> |Confirma que los usuarios pueden participar en una conferencia de colaboración de datos (una reunión en línea que engloba actividades como pizarras y sondeos).  <br/> |
 |Test-CsDialinConferencing (DialinConferencing)  <br/> |Confirma que los usuarios pueden marcar números de teléfono para participar en conferencias.  <br/> |
 |Test-CsDialinConferencing (DialinConferencing)  <br/> |Confirma que los usuarios pueden marcar números de teléfono para participar en conferencias.  <br/> |
-|Test-CsExumConnectivity (ExumConnectivity)  <br/> |Confirma que un usuario puede conectarse a Exchange Unified Messaging (UM).  <br/> |
+|Test-CsExumConnectivity (ExumConnectivity)  <br/> |Confirma que un usuario puede conectarse a Exchange mensajería unificada (UM).  <br/> |
 |Test-CsGroupIM - TestJoinLauncher (JoinLauncher)  <br/> |Confirma que los usuarios pueden crear reuniones programadas y unirse a ellas (a través de un vínculo de dirección web).  <br/> |
 |Test-CsMCXP2PIM (MCXP2PIM)  <br/> |Confirma que los usuarios de dispositivos móviles pueden registrarse y enviar mensajes instantáneos.  <br/> |
-|Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |Confirma que servidor de interoperabilidad vídeo está activo y puede controlar las conexiones entrantes a través de un vídeo troncal SIP.  <br/> |
+|Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |Confirma que el servidor de interoperabilidad vídeo es de seguridad y puede controlar las conexiones entrantes a través de un tronco SIP vídeo.  <br/> **Nota:** Compatibilidad con MCX para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. |
 |Test-CsPersistentChatMessage (PersistentChatMessage)  <br/> |Confirma que los usuarios pueden intercambiar mensajes mediante el servicio de chat persistente.  <br/> |
 |Test-CsUcwaConference (UcwaConference)  <br/> |Confirma que los usuarios pueden unirse a conferencias a través de la web.  <br/> |
-|Test-CsUnifiedContactStore (UnifiedContactStore)  <br/> |Confirma que se puede acceder a los contactos de un usuario a través del almacén de contactos unificados. El almacén de contactos unificado proporciona una manera para que los usuarios mantener un único conjunto de contactos que puede tener acceso mediante Skype para Business Server 2015, mensajería de Outlook y el cliente de colaboración y Outlook Web Access.  <br/> |
-|Test-CsXmppIM (XmppIM)  <br/> |Confirma que se pueden enviar mensajes instantáneos por la puerta de enlace XMPP (protocolo extensible de mensajería y presencia).  <br/> |
-   
-No es necesario instalar nodos de observador para usar System Center Operations Manager. Si no instala estos nodos, puede aún obtener alertas en tiempo real de Skype para los componentes de servidor de negocios 2015 siempre que se produzca un problema. (El componente y el módulo de administración de usuario no utiliza nodos de observador.) Sin embargo, los nodos de observador son necesarios si desea supervisar los escenarios end-to-end con el paquete de administración de supervisión activa.
+|Test-CsUnifiedContactStore (UnifiedContactStore)  <br/> |Confirma que se puede acceder a los contactos de un usuario a través del almacén de contactos unificados. El almacén de contactos unificados proporciona una manera para que los usuarios mantener un único conjunto de contactos a los que se puede tener acceso mediante el uso de Skype para Business Server 2015, mensajería de Outlook y el cliente de colaboración, y Outlook Web Access.  <br/> |
+|Test-CsXmppIM (XmppIM)  <br/> |Confirma que se pueden enviar mensajes instantáneos por la puerta de enlace XMPP (protocolo extensible de mensajería y presencia).  <br/> Las puertas de enlace XMPP y los servidores proxy están disponibles en Skype para Business Server 2015, pero ya no se admiten en Skype para Business Server 2019.  |
+
+No es necesario instalar nodos de monitor para usar System Center Operations Manager. Si no instala estos nodos, puede seguir obtener alertas en tiempo real de Skype para los componentes de Business Server 2015 siempre que se produce un problema. (El componente y el módulo de administración de usuario no utiliza nodos de monitor.) Sin embargo, los nodos de monitor son necesarios si desea supervisar los escenarios de extremo a otro mediante el paquete de administración de supervisión activa.
   
 > [!NOTE]
-> Los administradores pueden ejecutar transacciones sintéticas de forma manual, sin usar o instalar Operations Manager. Dependiendo del tamaño de su Skype para la implementación de servidor de negocios, transacciones sintéticas pueden utilizar una gran cantidad de tiempo de procesador y memoria del equipo. Por este motivo, recomendamos usar un equipo dedicado como nodo de monitor. Por ejemplo, no debe configurar un Skype para Business Server servidor Front-End para que actúe como un nodo Monitor. Nodos de observador deben cumplir los mismos requisitos de hardware básico como cualquier otro equipo en su Skype para la topología de servidores de empresa. 
+> Los administradores pueden ejecutar transacciones sintéticas de forma manual, sin usar o instalar Operations Manager. Según el tamaño de su Skype para la implementación de servidor empresarial, las transacciones sintéticas pueden usar una gran cantidad de tiempo de procesador y memoria del equipo. Por este motivo, recomendamos usar un equipo dedicado como nodo de monitor. Por ejemplo, no debe configurar un Skype para profesionales Front-End Server para que actúe como un nodo de monitor. Nodos de monitor deben cumplir los mismos requisitos básicos de hardware como cualquier otro equipo en su Skype de topología de servidores de negocio. 
   
 > [!NOTE]
-> Un nodo Monitor de Lync Server 2013 heredado no puede ser ubicado en el mismo equipo que un Skype para nodo de Business Server 2015 watcher porque los archivos de sistema principales para Lync Server 2013 y Skype para Business Server 2015 no puede instalarse en el mismo equipo. Sin embargo, Skype para Business Server 2015 nodos de observador puede supervisar simultáneamente Skype para Business Server 2015 y Lync Server 2013. Las transacciones sintéticas predeterminadas son compatibles con ambas versiones de producto. 
+> Un nodo de Monitor de Lync Server 2013 heredado no se pueden combinar en el mismo equipo como un Skype para el nodo de monitor Business Server 2015 debido a que los archivos de sistema principales para Lync Server 2013 y Skype para Business Server 2015 no se puede instalar en el mismo equipo. Sin embargo, Skype para nodos de monitor Business Server 2015 simultáneamente puede supervisar Skype para Business Server 2015 y Lync Server 2013. Las transacciones sintéticas predeterminadas son compatibles con ambas versiones de producto. 
   
-Nodos de observador de Lync Server 2013 pueden implementarse dentro o fuera de la empresa para ayudar a comprobar:
+Nodos de Monitor de Lync Server 2013 se pueden implementar dentro o fuera de una empresa para ayudar a comprobar:
   
 - La conectividad con los grupos de servidores de usuarios de la empresa.
     
@@ -80,11 +81,11 @@ Para ayudar a simplificar la administración, existen distintas opciones de aute
   
 Si desea configurar un equipo para que actúe como un nodo de monitor, primero debe completar los siguientes requisitos previos: 
   
-- Instalar a System Center Operations Manager e importar el Skype para paquetes de administración de servidor de negocios 2015. En primer lugar también debe comprobar que el equipo de nodo Monitor cumple todos los requisitos previos para instalar Skype para Business Server 2015.
+- Instalación de System Center Operations Manager e importar el Skype para los paquetes de administración empresarial Server 2015. En primer lugar también debe comprobar que el equipo de nodo de monitor cumple todos los requisitos previos para la instalación de Skype para Business Server 2015.
     
 - Instale los elementos siguientes en el equipo que actúa como nodo de monitor:
     
-  - La versión completa de.NET Framework 4.5
+  - La versión completa de .NET Framework 4.5
     
   - Windows Identity Foundation
     
@@ -92,9 +93,9 @@ Si desea configurar un equipo para que actúe como un nodo de monitor, primero d
     
 Una vez que se cumplan todos los requisitos previos, puede proceder a configurar el nodo de monitor siguiendo siga estos pasos:
   
-1. Instale el Skype para Business Server 2015 archivos de núcleo en el equipo de nodo Monitor.
+1. Instale el Skype para archivos de Business Server 2015 principales en el equipo de nodo de monitor.
     
-2. Instalar a agente de System Center Operations Manager en el equipo de nodo Monitor.
+2. Instalar al agente de System Center Operations Manager en el equipo de nodo de monitor.
     
 3. Ejecute el archivo Watchernode.msi.
     
@@ -102,24 +103,24 @@ Una vez que se cumplan todos los requisitos previos, puede proceder a configurar
     
 ## <a name="install-the-skype-for-business-server-2015-core-files-and-the-rtclocal-database"></a>Instale los archivos principales de Skype Empresarial Server 2015 y la base de datos RTCLocal
 
-Para instalar el Skype para Business Server 2015 archivos de núcleo en un equipo, complete el procedimiento siguiente. La base de datos RTCLocal se instalará automáticamente al instalar los archivos principales. Tenga en cuenta que no es necesario instalar SQL Server en los nodos de observador. SQL Server Express se instalará automáticamente.
+Para instalar el Skype para los archivos de núcleo de Business Server 2015 en un equipo, realice el procedimiento siguiente. La base de datos RTCLocal se instalará automáticamente al instalar los archivos principales. Tenga en cuenta que no es necesario instalar a SQL Server en los nodos de monitor. SQL Server Express se instalará automáticamente.
   
-Para instalar el Skype para los archivos de núcleo de Business Server 2015 y la base de datos de RTCLocal:
+Para instalar el Skype para los archivos principales de Business Server 2015 y la base de datos RTCLocal:
   
 1. En el equipo que actúa como nodo de monitor, haga clic en Inicio, Todos los programas y Accesorios, haga clic con el botón secundario en Símbolo del sistema y, finalmente, haga clic en Ejecutar como administrador.
     
-2. En la ventana de la consola, escriba el comando siguiente y presione ENTRAR. No olvide introducir la ruta de acceso apropiada a su Skype para archivos de instalación de Business Server: D:\Setup.exe /BootstrapLocalMgmtTo comprobar que el núcleo Skype para los componentes de Business Server está instalado correctamente, haga clic en **Inicio**, seleccione **Todos los programas**, Haga clic en **Skype para Business Server 2015**y, a continuación, haga clic en **Skype para el Shell de administración de servidor empresarial**. En Skype para negocios de Shell de administración de servidor, escriba el siguiente comando de Windows PowerShell y presione ENTRAR:
+2. En la ventana de la consola, escriba el comando siguiente y presione ENTRAR. Asegúrese de escribir la ruta de acceso apropiado para su Skype para los archivos del programa de instalación de Business Server: D:\Setup.exe /BootstrapLocalMgmtTo Compruebe que el principal de Skype para los componentes de Business Server se instaló correctamente, haga clic en **Inicio**, haga clic en **Todos los programas**, Haga clic en **Skype para Business Server 2015**y, a continuación, haga clic en **Skype para Shell de administración de servidor empresarial**. En Skype para Shell de administración de servidor empresarial, escriba el siguiente comando de Windows PowerShell y presione ENTRAR:
   
 ```
 Get-CsWatcherNodeConfiguration
 ```
 
 > [!NOTE]
-> La primera vez que ejecute este comando, no se devolverá ningún dato porque todavía no ha configurado los equipos de nodo de monitor. Si el comando se ejecuta sin errores, se puede suponer que el Skype para el programa de instalación de Business Server se completó correctamente. 
+> La primera vez que ejecute este comando, no se devolverá ningún dato porque todavía no ha configurado los equipos de nodo de monitor. Si el comando se ejecuta sin devolver un error, se puede asumir que la Skype para el programa de instalación de Business Server se completó correctamente. 
   
 Si el equipo de nodo de monitor se encuentra dentro del perímetro de su red, ejecute el comando siguiente para comprobar la instalación de Skype Empresarial Server 2015:
   
-Get CsPinPolicyYou aparecerá información similar a ésta, dependiendo del número de directivas PIN configurado para su uso en la organización:
+Get-CsPinPolicyYou recibirá información similar a la siguiente, dependiendo del número de directivas de PIN configuradas para su uso en la organización:
   
 Identidad: Global
   
@@ -127,7 +128,7 @@ Descripción:
   
 MinPasswordLength: 5
   
-PINHistoryCount: 0
+Fijar: 0
   
 AllowCommonPatterns: False
   
@@ -139,40 +140,40 @@ Si aparece información sobre las directivas de PIN, ello indica que los compone
   
 ## <a name="install-the-operation-manager-agent-files-on-a-watcher-node"></a>Instalar los archivos del agente Operations Manager en un nodo de monitor
 
-Similar a Skype para el programa de instalación de Business Server por informar alertas de componentes, un Skype para nodo de watcher Business Server 2015 requiere que se instalen los archivos del agente de System Center Operations Manager. Esto permite las transacciones sintéticas para ejecutarse y alertas a ser informadas para el servidor de administración raíz de sistema Center Operations Manager.
+Al igual que Skype para el programa de instalación de Business Server para informes de alertas de componentes, un Skype para el nodo de monitor Business Server 2015 requiere que se instalen los archivos del agente de System Center Operations Manager. Esto permite que las transacciones sintéticas que se ejecutará y alertas a ser informadas para el servidor de administración de System Center Operations Manager raíz.
   
-Para instalar los archivos del agente, siga los procedimientos descritos en [Configurar el Skype para equipos Business Server que se va a supervisar](configure-computers-to-monitor.md).
+Para instalar los archivos del agente, siga los procedimientos que aparecen en [Configure el Skype para los equipos de servidor empresarial que se van a supervisar](configure-computers-to-monitor.md).
   
 ## <a name="configure-a-watcher-node-to-run-synthetic-transactions"></a>Configurar de un nodo de monitor para ejecutar transacciones sintéticas
 <a name="enable_synthetic_trans"> </a>
 
-Después de han instalado los archivos del agente de System Center Operations Manager, debe configurar el propio nodo Monitor. La configuración del nodo de monitor varía en función de si está dentro de la red perimetral o fuera de dicha red. 
+Una vez instalados los archivos del agente System Center Operations Manager, debe configurar el propio nodo de monitor. La configuración del nodo de monitor varía en función de si está dentro de la red perimetral o fuera de dicha red. 
   
-Al configurar un nodo de monitor, también debe elegir el tipo de método de autenticación que se va a usar en ese nodo. Skype para el año 2015 de Business Server le permite elegir uno de dos métodos de autenticación: Trusted Server o credenciales de autenticación. La siguiente tabla muestra las diferencias entre estos dos métodos:
+Al configurar un nodo de monitor, también debe elegir el tipo de método de autenticación que se va a usar en ese nodo. Skype para Business Server 2015 le permite elegir uno de los dos métodos de autenticación: servidor de confianza o credenciales de autenticación. La siguiente tabla muestra las diferencias entre estos dos métodos:
   
-||**Descripción**|**Ubicaciones compatibles**|
+||**Descripción**|**Ubicaciones admitidas**|
 |:-----|:-----|:-----|
-|TrustedServer  <br/> |Utiliza un certificado para suplantar a un servidor interno y omitir los desafíos de autenticación.  <br/> Es útil para los administradores que prefieren administrar un certificado individual, en lugar de muchas contraseñas de usuario en cada nodo del monitor.  <br/> |Dentro de la empresa.  <br/> Con este método, el nodo de monitor debe estar en el mismo dominio que los grupos de servidores que se están supervisando. Si el nodo de monitor y los grupos de servidores están en dominios diferentes, use la autenticación de credenciales.  <br/> |
-|Negotiate  <br/> |Almacena nombres de usuario y las contraseñas de forma segura en el Administrador de credenciales de Windows en cada nodo del monitor.  <br/> Este modo necesita más administración de contraseñas, pero es la única opción para los nodos de monitor ubicados fuera de la empresa. Estos nodos de monitor no se pueden tratar como un extremo de confianza para la autenticación.  <br/> |Fuera de la empresa.  <br/> Dentro de la empresa.  <br/> |
+|TrustedServer  <br/> |Usa un certificado para representar a un servidor interno y evitar problemas de autenticación.  <br/> Es útil para los administradores que prefieran administrar un solo certificado en vez de varias contraseñas de usuario en cada nodo de monitor.  <br/> |Dentro de la empresa.  <br/> Con este método, el nodo de monitor debe estar en el mismo dominio que los grupos de servidores que se están supervisando. Si el nodo de monitor y los grupos de servidores están en dominios diferentes, use la autenticación de credenciales.  <br/> |
+|Negotiate  <br/> |Almacena los nombres de usuario y las contraseñas con seguridad en Windows Credential Manager en cada nodo de monitor.  <br/> Este modo necesita más administración de contraseñas, pero es la única opción para los nodos de monitor ubicados fuera de la empresa. Estos nodos de monitor no se pueden tratar como un extremo de confianza para la autenticación.  <br/> |Fuera de la empresa.  <br/> Dentro de la empresa.  <br/> |
    
 ## <a name="configure-a-watcher-node-to-use-trusted-server-authentication"></a>Configurar un nodo de monitor para usar la autenticación con servidores de confianza
 <a name="enable_synthetic_trans"> </a>
 
 Si el equipo del nodo de monitor se encuentra dentro de la red perimetral, con la autenticación de servidor de confianza puede reducir considerablemente las tareas de administración para mantener un único certificado, en lugar de varias contraseñas de cuentas de usuario.
   
-Para configurar autenticación de servidor de confianza, primero debe crear un grupo de aplicaciones de confianza para alojar el equipo que actúa como nodo de monitor. Una vez creado el grupo de aplicaciones de confianza, a continuación, debe configurar transacciones sintéticas en ese nodo supervisora para ejecutarse como aplicaciones de confianza.
+Para configurar autenticación de servidor de confianza, primero debe crear un grupo de aplicaciones de confianza para alojar el equipo que actúa como nodo de monitor. Una vez que haya creado el grupo de aplicaciones de confianza, a continuación, debe configurar las transacciones sintéticas en ese nodo de monitor para que se ejecute como las aplicaciones de confianza.
   
 > [!NOTE]
-> Una aplicación de confianza es una aplicación que se proporciona el estado de confianza para ejecutarse como parte de Skype para Business Server 2015, pero que no esté integrada en el producto. Estado de confianza significa que la aplicación no será desafiada para la autenticación cada vez que se ejecuta.
+> Una aplicación de confianza es una aplicación que se asignó el estado de confianza para ejecutarse como parte de Skype con Business Server 2015, pero no es una parte integrada del producto. El estado de confianza significa que no se desafiará a la aplicación cada vez que se ejecute la autenticación.
   
-Para crear un grupo de aplicaciones de confianza, abra el Skype para el Shell de administración de servidor empresarial y ejecutar un comando similar a éste:
+Para crear un grupo de servidores de aplicaciones de confianza, abra el Skype para Shell de administración de servidor empresarial y ejecute un comando similar al siguiente:
   
 ```
 New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar atl-cs-001.litwareinc.com -ThrottleAsServer $True -TreatAsAuthenticated $True -OutboundOnly $False -RequiresReplication $True -ComputerFqdn atl-watcher-001.litwareinc.com -Site Redmond
 ```
 
 > [!NOTE]
-> Para obtener más información acerca de los parámetros en el comando anterior, escriba lo siguiente desde el Skype para el indicador de Shell de administración de servidor de negocios: 
+> Para obtener información detallada acerca de los parámetros en el comando anterior, escriba lo siguiente desde el Skype para el símbolo del sistema del Shell de administración de servidor empresarial: 
   
 ```
 Get-Help New-CsTrustedApplicationPool -Full | more
@@ -192,7 +193,7 @@ Enable-CsTopology
 
 Después de ejecutar Enable-CsTopology, reinicie el equipo.
   
-Para comprobar que se ha creado la nueva aplicación de confianza, escriba lo siguiente en el Skype para el indicador de Shell de administración de servidor de negocios:
+Para comprobar que se ha creado la nueva aplicación de confianza, escriba lo siguiente en el Skype para el símbolo del sistema del Shell de administración de servidor empresarial:
   
 ```
 Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:application:STWatcherNode"
@@ -201,13 +202,13 @@ Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:applicati
 ## <a name="configure-a-default-certificate-on-the-watcher-node"></a>Configurar un certificado predeterminado en el nodo de monitor
 <a name="enable_synthetic_trans"> </a>
 
-Cada nodo de monitor que utiliza autenticación TrustedServer debe tener un certificado de predeterminado asignado mediante el Skype para Business Server Deployment wizard. 
+Cada nodo de monitor que usa la autenticación TrustedServer debe tener un certificado predeterminado asignado mediante la Skype para el Asistente para la implementación de servidor empresarial. 
   
 Para asignar un certificado predeterminado:
   
-1. Haga clic en Inicio, seleccione todos los programas, haga clic en Skype para Business Server 2015 y, a continuación, haga clic en Skype para el Asistente para implementación de Business Server. 
+1. Haga clic en Inicio, haga clic en todos los programas, haga clic en Skype para Business Server 2015 y, a continuación, haga clic en Skype para el Asistente para la implementación de servidor de negocio. 
     
-2. En Skype para el Asistente para implementación de Business Server, haga clic en instalar o actualizar Skype para el sistema de servidor de Business y, a continuación, haga clic en ejecutar bajo el encabezado de la solicitud, instale o asigne el certificado. 
+2. En Skype para el Asistente para la implementación de Business Server, haga clic en instalar o actualizar Skype para Business Server System y, a continuación, haga clic en ejecutar en el encabezado de la solicitud, instalar o asignar el certificado. 
     
 > [!NOTE]
 > Si el botón Ejecutar está deshabilitado, puede que primero necesite hacer clic en Ejecutar en Instalar el almacén de configuración local. 
@@ -221,11 +222,11 @@ Siga uno de estos pasos:
 ## <a name="install-and-configure-a-watcher-node"></a>Para instalar y configurar un nodo de monitor
 <a name="enable_synthetic_trans"> </a>
 
-Después de haber reiniciado el equipo del nodo de monitor y haber configurado un certificado, debe ejecutar el archivo Watchernode.msi. (Debe ejecutar Watchernode.msi en cualquier equipo donde se instalan los archivos del agente Operations Manager y el Skype para los componentes de núcleo de Business Server 2015.) 
+Después de haber reiniciado el equipo del nodo de monitor y haber configurado un certificado, debe ejecutar el archivo Watchernode.msi. (Debe ejecutar Watchernode.msi en cualquier equipo donde se instalan los archivos del agente Operations Manager y la Skype para los componentes principales de Business Server 2015.) 
   
 Para instalar y configurar un nodo de monitor:
   
-1. Abra el Skype de Shell de administración de servidor empresarial haciendo clic en Inicio, en todos los programas, haciendo clic en Skype para Business Server 2015 y, a continuación, haciendo clic en Skype para el Shell de administración de servidor de Business. 
+1. Abra el Skype para Shell de administración de servidor empresarial haciendo clic en Inicio, haciendo clic en todos los programas, haciendo clic en Skype para Business Server 2015, y, a continuación, haciendo clic en Skype para Shell de administración de servidor empresarial. 
     
 2. En el shell de administración, escriba el siguiente comando y, a continuación, presione ENTRAR (asegúrese de especificar la ruta de acceso real a su copia de Watchernode.msi):
     

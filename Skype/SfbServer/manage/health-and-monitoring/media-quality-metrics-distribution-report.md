@@ -1,28 +1,28 @@
 ---
-title: Informe de distribución de las métricas de calidad de los medios en Skype Empresarial Server 2015
+title: El informe calidad de medios métricas distribución en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
-description: 'Resumen: Conozca la calidad métricas distribución informe sobre los soportes de Skype para Business Server 2015.'
-ms.openlocfilehash: 8883a15e4d78ee0eb5fad298fcbdddea6aedb5a3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Información sobre el informe calidad de medios métricas distribución en Skype para Business Server.'
+ms.openlocfilehash: ef15807cdc0377d2548a83f8da56de9b6cf85e04
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014141"
 ---
-# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server-2015"></a>Informe de distribución de las métricas de calidad de los medios en Skype Empresarial Server 2015
+# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>El informe calidad de medios métricas distribución en Skype para Business Server 
  
-**Resumen:** Obtener información sobre la calidad métricas distribución informe sobre los soportes de Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre el informe calidad de medios métricas distribución en Skype para Business Server.
   
 El Informe de distribución de métricas de calidad de medios permite ver un gráfico que muestra los valores de distribución de una métrica de calidad de experiencia como la vibración o la pérdida de paquetes. Por ejemplo, supongamos que los usuarios realizan un total de 10 llamadas telefónicas. Estas 10 llamadas telefónicas tienen los siguientes tiempos de ida y vuelta:
   
-|**Número de llamada**|**Tiempo de ida y vuelta (milisegundos)**|
+|**Número de llamada**|**Tiempo de recorrido de ida y vuelta (milisegundos)**|
 |:-----|:-----|
 |1  <br/> |50  <br/> |
 |2  <br/> |50  <br/> |
@@ -45,7 +45,7 @@ Con el informe de distribución de métricas de calidad de medios le será más 
 
 Los filtros se emplean para recuperar un conjunto de datos más específico o para ver los datos devueltos de diferentes formas. En la tabla siguiente, se muestran los filtros que se pueden utilizar en el informe de distribución de métricas de calidad de medios.
   
-**Filtros de informe de distribución de medios calidad métricas**
+**Filtros del informe de distribución de métricas de calidad de medios**
 
 |**Nombre.**|**Descripción**|
 |:-----|:-----|

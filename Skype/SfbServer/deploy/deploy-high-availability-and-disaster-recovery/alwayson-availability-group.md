@@ -1,9 +1,8 @@
 ---
-title: Implementar un grupo de disponibilidad siempre en un servidor Back-End de Skype para Business Server 2015
+title: Implementar un grupo de disponibilidad siempre en un servidor Back-End de Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,14 +10,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Implementar (instalar) un siempre en grupo de disponibilidad en su Skype para Business Server implementación.
-ms.openlocfilehash: 7a277421c13243ba7096a794b59ed93218644f22
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 93d27fc86393a28f4c0e546d034cbf9819ecce87
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569508"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026735"
 ---
-# <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server-2015"></a>Implementar un grupo de disponibilidad siempre en un servidor Back-End de Skype para Business Server 2015
+# <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Implementar un grupo de disponibilidad siempre en un servidor Back-End de Skype para Business Server
  
 Implementar (instalar) una siempre en disponibilidad grupo (AG) en su Skype para Business Server implementación.
   
@@ -122,13 +121,13 @@ Cómo implementar un AG depende de si se implementa en un nuevo grupo de servido
     
    - En la página**Resumen** , compruebe todas las opciones y haga clic en Finalizar.
     
-7. Usar el generador de topología para crear el grupo de servidores Front-End, como se explica en [crear y publicar la nueva topología de Skype para Business Server 2015](../../deploy/install/create-and-publish-new-topology.md). Cuando lo hace, especifique el AG como el almacén de SQL para el grupo de servidores.
+7. Usar el generador de topología para crear el grupo de servidores Front-End, como se explica en [crear y publicar la nueva topología de Skype para Business Server](../../deploy/install/create-and-publish-new-topology.md). Cuando lo hace, especifique el AG como el almacén de SQL para el grupo de servidores.
     
 8. Después de que el grupo de servidores y el AG se implementan, realizar algunos pasos finales para asegurarse de que los inicios de sesión SQL se encuentran en cada una de las réplicas en el grupo de disponibilidad AlwaysOn. 
     
    - Abra el generador, seleccione **Descargar topología de la implementación existente**y haga clic en **Aceptar**.
     
-   - Expanda Skype Empresarial Server, expanda la topología y expanda **Almacenes de SQL Server**. Haga clic en el almacén de SQL del nuevo grupo de disponibilidad AlwaysOn y haga clic en ** Editar propiedades **.
+   - Expanda Skype Empresarial Server, expanda la topología y expanda **Almacenes de SQL Server**. Haga clic en el almacén de SQL del nuevo grupo de disponibilidad AlwaysOn y haga clic en **Editar propiedades**.
     
     - En la parte inferior de la página, en el cuadro **FQDN de SQL Server** , cambie el valor para el FQDN del agente de escucha de la AG.
     
@@ -418,7 +417,7 @@ Cómo implementar un AG depende de si se implementa en un nuevo grupo de servido
     
     - Abra el generador, seleccione **Descargar topología de la implementación existente**y haga clic en **Aceptar**.
     
-    - Expanda Skype Empresarial Server, expanda la topología y expanda **Almacenes de SQL Server**. Haga clic en el almacén de SQL de la nueva AG y haga clic en ** Editar propiedades **.
+    - Expanda Skype Empresarial Server, expanda la topología y expanda **Almacenes de SQL Server**. Haga clic en el almacén de SQL de la nueva AG y haga clic en **Editar propiedades**.
     
     - En la parte inferior de la página, en el cuadro **FQDN de SQL Server** , cambie el valor para el FQDN del agente de escucha de la AG.
     

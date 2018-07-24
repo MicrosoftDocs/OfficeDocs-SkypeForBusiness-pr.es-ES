@@ -11,17 +11,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
-description: Skype para Business Server admite la integración con Exchange mensajería unificada (UM) de la combinación de mensajería de voz y mensajería de correo electrónico en una sola infraestructura de mensajería.
-ms.openlocfilehash: 37eb1dff810d227c96711d931b3576ea4e3c84fa
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+description: Skype para Business Server 2015 admite la integración con Exchange mensajería unificada (UM) de la combinación de mensajería de voz y mensajería de correo electrónico en una sola infraestructura de mensajería.
+ms.openlocfilehash: 5a3402a3b6c161f2934c3fd42c5402f7d8008ff0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19971646"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013640"
 ---
-# <a name="exchange-unified-messaging-settings-planning-tool"></a>Configuración (herramienta de planeación) de la mensajería unificada de Exchange
+# <a name="exchange-unified-messaging-settings-planning-tool-in-skype-for-business-2015"></a>Configuración de mensajería unificada (herramienta de planeación) en Skype para 2015 empresarial de Exchange
+
+> [!NOTE]
+> Mensajería unificada de Exchange como conocidos anteriormente ya no está disponible en Exchange 2019, pero puede seguir usando el sistema telefónico a los mensajes de correo de voz de registro y, a continuación, deje la grabación en el buzón de Exchange del usuario. Para obtener más información, vea [servicio de planeación de correo de voz en la nube](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) .
  
-Skype para Business Server admite la integración con Exchange mensajería unificada (UM) de la combinación de mensajería de voz y mensajería de correo electrónico en una sola infraestructura de mensajería.
+Skype para Business Server 2015 admite la integración con Exchange mensajería unificada (UM) de la combinación de mensajería de voz y mensajería de correo electrónico en una sola infraestructura de mensajería.
   
 Para obtener detalles, consulte:
   
