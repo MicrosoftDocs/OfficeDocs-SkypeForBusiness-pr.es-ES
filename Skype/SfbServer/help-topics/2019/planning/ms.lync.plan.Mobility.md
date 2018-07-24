@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
 description: La característica de movilidad de Skype para Business Server admite Skype para la funcionalidad empresarial en dispositivos móviles.
-ms.openlocfilehash: 48c8b889562bd840e71894fb21e6128e67615c19
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 02fc39f6bd33eb202eeb45b54ae732ab23397db0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964754"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20991620"
 ---
 # <a name="mobility-planning-tool"></a>Movilidad (herramienta de planeación)
  
 La característica de movilidad de Skype para Business Server admite Skype para la funcionalidad empresarial en dispositivos móviles.
   
-Funcionalidad de movilidad es la misma que en Lync Server 2013. Para obtener más información acerca de cómo preparar el entorno para la movilidad, consulte [Planning for mobility en Lync Server 2013](https://technet.microsoft.com/en-us/library/hh689981%28v=ocs.15%29.aspx).
+Funcionalidad de movilidad es la misma en Skype para Business Server como en Lync Server 2013. Para obtener más información acerca de cómo preparar el entorno para la movilidad, consulte [Planning for mobility en Lync Server 2013](https://technet.microsoft.com/en-us/library/hh689981%28v=ocs.15%29.aspx).
   
 

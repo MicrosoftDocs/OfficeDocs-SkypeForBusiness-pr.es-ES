@@ -1,28 +1,28 @@
 ---
-title: Informe del resumen de calidad de medios en Skype Empresarial Server 2015
+title: Calidad de medios informe resumen en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 6/29/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
-description: 'Resumen: Conozca el informe resumen de calidad de los medios de comunicación en Skype para Business Server 2015.'
-ms.openlocfilehash: 3691995cfc826bc4fb214800a36a6d51177a9cd3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Información sobre el informe resumen de calidad de medios en Skype para Business Server.'
+ms.openlocfilehash: 42c6b36a9e5164f62a003dd1a3fb2f2709b3a6e1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004566"
 ---
-# <a name="media-quality-summary-report-in-skype-for-business-server-2015"></a>Informe del resumen de calidad de medios en Skype Empresarial Server 2015
+# <a name="media-quality-summary-report-in-skype-for-business-server"></a>Calidad de medios informe resumen en Skype para Business Server
  
-**Resumen:** Obtener información sobre el informe resumen de calidad de los medios de comunicación en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre el informe resumen de calidad de medios en Skype para Business Server.
   
 El Informe de resumen de calidad de medios es, quizás, la mejor opción para analizar la calidad de las llamadas en su organización: este informe proporciona métricas de llamadas de calidad de la experiencia (QoE) detalladas y desglosadas en las siguientes categorías:
   
-- Llamadas de punto a punto UC (como un Skype para negocio tenga Skype para llamada de negocio)
+- Llamadas de punto a punto de UC (por ejemplo, un Skype para la empresa a Skype para llamada de negocio)
     
 - Sesiones de conferencia de UC
     
@@ -36,15 +36,15 @@ El Informe de resumen de calidad de medios es, quizás, la mejor opción para an
     
 - Otros tipos de llamada
     
-Al abrir el informe por primera vez, se ve la información de resumen de cada una de estas categorías. Sin abandonar el informe, puede expandir cada categoría mirar subcategorías como llamadas realizadas desde Office Communicator 2007 R2 a Skype para el negocio. A su vez, puede profundizar en esas subcategorías para ver detalles sobre cada llamada realizada dentro de esa subcategoría.
+Al abrir el informe por primera vez, se ve la información de resumen de cada una de estas categorías. Sin salir del informe, puede expandir cada categoría que se busca en subcategorías, como las llamadas realizadas desde Office Communicator 2007 R2 a Skype para la empresa. A su vez, puede profundizar en esas subcategorías para ver detalles sobre cada llamada realizada dentro de esa subcategoría.
   
-En Skype para Business Server 2015 aún más el informe de resumen de calidad del medio divide los datos en tres tipos de llamada: llamadas audio, vídeo y llamadas de compartir aplicaciones. Cada tipo de llamada tiene su propia sección en el informe y su propio conjunto personalizado de métricas de llamada.
+En Skype para Business Server aún más el informe de resumen de calidad de medios divide los datos en tres tipos de llamada: las llamadas de audio, las llamadas de vídeo y uso compartido de las llamadas de aplicaciones. Cada tipo de llamada tiene su propia sección en el informe y su propio conjunto personalizado de métricas de llamada.
   
 El Informe de resumen de calidad de medios también permite aplicar filtros para poder comparar la calidad de las llamadas: llamadas por cable frente a inalámbricas, llamadas internas frente a externas y llamadas de VPN frente a llamadas distintas de VPN.
   
 ## <a name="accessing-the-media-quality-summary-report"></a>Acceso al Informe de resumen de calidad de medios
 
-Al Informe de resumen de calidad de medios se obtiene acceso desde la página principal de Informes de supervisión. Puede desglosar el [Informe de lista de llamar en Skype para Business Server 2015](call-list-report-0.md) haciendo clic en cualquiera de las siguientes métricas:
+Al Informe de resumen de calidad de medios se obtiene acceso desde la página principal de Informes de supervisión. Puede navegar hasta el [Informe de lista de llamadas en Skype para Business Server](call-list-report-0.md) haciendo clic en cualquiera de las métricas siguientes:
   
 - Volumen de llamadas
     
@@ -72,7 +72,7 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
   
 En la tabla siguiente se muestran los filtros que se pueden utilizar en el informe de resumen de calidad de los medios.
   
-**Filtros de informe de resumen de calidad Media**
+**Filtros del informe de resumen de calidad de los medios**
 
 |**Nombre.**|**Descripción**|
 |:-----|:-----|
@@ -86,9 +86,9 @@ En la tabla siguiente se muestran los filtros que se pueden utilizar en el infor
 
 En la tabla siguiente se muestra la información que recoge el informe de resumen de calidad de los medios.
   
-**Métricas de informe de resumen de calidad Media: Resumen de llamada de Audio**
+**Métricas del Informe de resumen de calidad de medios: resumen de llamadas de audio**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Tipo de llamada/tipo de extremo** <br/> |No  <br/> | Cuando se hace clic en este elemento, el informe muestra información detallada sobre las llamadas de ese tipo. Los tipos de llamadas son: <br/>  Llamadas de punto a punto de UC <br/>  Sesiones de conferencia de UC <br/>  Sesiones de conferencia de RTC <br/>  Llamadas RTC: desvío de medios <br/>  Llamadas RTC (sin desvío): sección de UC <br/>  Llamadas RTC (sin desvío): sección de puerta de enlace <br/>  Otros tipos de llamada <br/> |
 |**Volumen de llamadas** <br/> |No  <br/> |Cantidad total de llamadas por tipo.  <br/> |
@@ -104,9 +104,9 @@ En la tabla siguiente se muestra la información que recoge el informe de resume
 |**Tasa de recuperación de muestras extendidas** <br/> |No  <br/> |Tasa media de muestras de audio extendidas respecto a la cantidad total de muestras. El audio extendido es el audio que se expande para ayudar a mantener el nivel de calidad de la llamada cuando se detecta la pérdida de paquetes en la red. Los valores elevados indican un grado igualmente elevado de extensión de las muestras a causa de las vibraciones, y dan lugar a un audio robótico o distorsionado.  <br/> |
 |**Tasa de recuperación de muestras comprimidas** <br/> |No  <br/> |Tasa media de muestras de audio comprimidas respecto a la cantidad total de muestras. El audio comprimido es el audio que se comprime para ayudar a mantener el nivel de calidad de la llamada cuando se detecta la pérdida de paquetes en la red. Los valores altos indican un elevado grado de compresión de las muestras a causa de las vibraciones y las consecuencias son un audio acelerado o distorsionado.  <br/> |
    
-**Métricas de informe de resumen de calidad Media: Resumen de videollamada**
+**Métricas del Informe de resumen de calidad de medios: resumen de videollamadas**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Tipo de llamada/tipo de extremo** <br/> |No  <br/> | Cuando se hace clic en este elemento, el informe muestra información detallada sobre las llamadas de ese tipo. Los tipos de llamadas son: <br/>  Llamadas de punto a punto de UC <br/>  Sesiones de conferencia de UC <br/>  Sesiones de conferencia de RTC <br/>  Llamadas RTC: desvío de medios <br/>  Llamadas RTC (sin desvío): sección de UC <br/>  Llamadas RTC (sin desvío): sección de puerta de enlace <br/>  Otros tipos de llamada <br/> |
 |**Volumen de llamadas** <br/> |No  <br/> |Cantidad total de llamadas por tipo.  <br/> |
@@ -117,15 +117,15 @@ En la tabla siguiente se muestra la información que recoge el informe de resume
 |**Velocidad de bits media (Kbits/s)** <br/> |No  <br/> |Velocidad de bits de vídeo media (en kilobits por segundo).  <br/> |
 |**% de velocidad de bits baja** <br/> |No  <br/> |Porcentaje de la llamada con una velocidad de bits baja.  <br/> |
 |**Pérdida de paquetes de salida** <br/> |No  <br/> |Pérdida de paquetes del Protocolo de transporte en tiempo real (RTP) correspondiente a los paquetes salientes (se habla de pérdida de paquetes cuando los paquetes RTP, un protocolo que se usa para transmitir audio y vídeo a través de Internet, no llegan a su destino). Una tasa alta de pérdida se suele deber a la congestión, la falta de ancho de banda, la congestión o las interferencias en una conexión inalámbrica o la sobrecarga de un servidor de medios. Generalmente, la pérdida de paquetes da lugar a la pérdida o la distorsión del audio.  <br/> |
-|**% fotogramas congelados** <br/> |No  <br/> |Porcentaje de tramas "inmovilizadas". En un fotograma congelado, el vídeo detiene su avance mientras que la parte de audio de la llamada continúa.  <br/> |
+|**% fotogramas congelados** <br/> |No  <br/> |Porcentaje de marcos "inmovilizados". En un fotograma congelado, el vídeo detiene su avance mientras que la parte de audio de la llamada continúa.  <br/> |
 |**Velocidad de fotogramas media de salida** <br/> |No  <br/> |Velocidad de fotogramas media para las transmisiones de salida durante la llamada.  <br/> |
 |**Velocidad de fotogramas media de entrada** <br/> |No  <br/> |Velocidad de fotogramas media para las transmisiones de entrada durante la llamada.  <br/> |
 |**% de velocidad de fotogramas baja de entrada** <br/> |No  <br/> |Porcentaje de la llamada con una velocidad de bits baja para el vídeo de entrada.  <br/> |
 |**% de estado del cliente** <br/> ||Indica el estado relativo del dispositivo cliente durante la llamada.  <br/> |
    
-**Métricas de informe de resumen de calidad Media: Aplicación llamada resumen de compartir**
+**Métricas del Informe de resumen de calidad de medios: resumen de llamadas de uso compartido de aplicaciones**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Tipo de llamada/tipo de extremo** <br/> |No  <br/> | Cuando se hace clic en este elemento, el informe muestra información detallada sobre las llamadas de ese tipo. Los tipos de llamadas son: <br/>  Llamadas de punto a punto de UC <br/>  Sesiones de conferencia de UC <br/>  Sesiones de conferencia de RTC <br/>  Llamadas RTC: desvío de medios <br/>  Llamadas RTC (sin desvío): sección de UC <br/>  Llamadas RTC (sin desvío): sección de puerta de enlace <br/>  Otros tipos de llamada <br/> |
 |**Volumen de llamadas** <br/> |No  <br/> |Cantidad total de llamadas por tipo.  <br/> |

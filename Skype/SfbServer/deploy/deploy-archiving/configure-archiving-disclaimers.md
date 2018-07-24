@@ -1,36 +1,36 @@
 ---
-title: Configurar la declinación de responsabilidades del archivado para los usuarios externos en Skype Empresarial Server 2015
+title: Configuración de declinación de responsabilidades de archivado para los usuarios externos en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
-description: 'Resumen: Leer este tema para aprender a configurar una renuncia de archivado para Skype para Business Server 2015.'
-ms.openlocfilehash: 3790160024010084c69df7d9865f17622fca4f0d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Lea este tema para obtener información sobre cómo configurar una renuncia de archivado para Skype para Business Server.'
+ms.openlocfilehash: cb49135f80c1711e7e71d16b448e51d308f7ebea
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978672"
 ---
-# <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server-2015"></a>Configurar la declinación de responsabilidades del archivado para los usuarios externos en Skype Empresarial Server 2015
+# <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Configuración de declinación de responsabilidades de archivado para los usuarios externos en Skype para Business Server
  
-**Resumen:** Lea este tema para aprender a configurar una renuncia de archivado para Skype para Business Server 2015.
+**Resumen:** Lea este tema para obtener información sobre cómo configurar una renuncia de archivado para Skype para Business Server.
   
-Si su organización se comunica con socios externos, necesita informarles que las comunicaciones con ellos se archivan. Cuando se implementa un servidor perimetral y habilitar la federación para su organización, le pregunta si desea enviar automáticamente una archiving renuncia a socios externos. 
+Si su organización se comunica con socios externos, necesita informarles que las comunicaciones con ellos se archivan. Al implementar un servidor perimetral y habilitar la federación para su organización, se le pregunte si desea enviar automáticamente una renuncia de archivado a socios externos. 
   
-Si necesita cambiar esta configuración, puede utilizar el Skype para el Panel de Control de servidor de negocios o el cmdlet de Windows PowerShell **Set-CsAccessEdgeConfiguration** . Los cmdlets se puede ejecutar desde el Skype para el shell de administración de Business Server o desde una sesión remota de Windows PowerShell.
+Si necesita cambiar esta configuración, puede usar el Skype para el Panel de Control de servidor empresarial o el cmdlet **Set-CsAccessEdgeConfiguration** de Windows PowerShell. Cmdlets de se puede ejecutar desde la Skype para shell de administración de Business Server o desde una sesión remota de Windows PowerShell.
   
-Para permitir que los usuarios externos colaborar con los usuarios de su Skype para la implementación de Business Server, también debe configurar al menos una directiva de acceso externo para admitir el acceso de usuarios externos. Para obtener más información, vea a administrar socios federados de XMPP para su organización. Para más detalles sobre el control de acceso para dominios federados específicos, consulte Controlar el acceso por medio de los dominios federados individuales.
+Para permitir que los usuarios externos colaborar con los usuarios de su Skype para la implementación de Business Server, también debe configurar al menos una directiva de acceso externo para admitir el acceso de usuarios externos. Para obtener más información, vea a Manage XMPP Federated Partners for Your Organization. Para más detalles sobre el control de acceso para dominios federados específicos, consulte Controlar el acceso por medio de los dominios federados individuales.
   
 ## <a name="enable-or-disable-archiving-disclaimer-using-the-control-panel"></a>Habilitar o deshabilitar la renuncia de archivado mediante el Panel de control
 
 1. Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de Admin para abrir el Skype para Panel de Control de servidor empresarial. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial. 
     
 3. En la barra de navegación izquierda, haga clic en **Federación y acceso externo** y, luego, en **Configuración perimetral de acceso**.
     

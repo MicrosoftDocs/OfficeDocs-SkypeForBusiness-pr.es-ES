@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
-description: La página ejecución de comandos muestra el estado de los comandos que se va a recuperar el certificado pendiente. Cuando se complete la tarea, el archivo de registro de recuperar certificados pendientes está disponible. Haga clic en Ver registro para revisar el procesamiento y el estado de finalización de tarea. Haga clic en siguiente para continuar.
-ms.openlocfilehash: 5846ea840c7caccddb428b00f7d5c33e570667dd
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: La página ejecución de comandos muestra el estado de los comandos que se va a recuperar el certificado pendiente. Cuando se complete la tarea, el archivo de registro de recuperar certificados pendientes está disponible. Haga clic en Ver registro para revisar el procesamiento y el estado de finalización de tarea. Haga clic en Siguiente para continuar.
+ms.openlocfilehash: 63da48b442c0b82e3c9f729ff5a6931803208437
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19996971"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988113"
 ---
 # <a name="pending-certificate-invoke"></a>Certificado pendiente (invocar)
  

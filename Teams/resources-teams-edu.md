@@ -6,18 +6,18 @@ manager: serdars
 ms.date: 06/18/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ninadara
+ms.reviewer: ''
 description: Lista de los equipos recursos útiles para los administradores de TI en el ámbito educativo.
 localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf9d7ce2e4f1e7ca69eecc1da579eeb5d3823135
-ms.sourcegitcommit: 5ccd7b9dad04ac8c1fd7e39e859a9cd1583b6c16
+ms.openlocfilehash: b411722b94e7a540fe5af4dc8b098ad935876c00
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19952717"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995990"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Recursos de Microsoft Teams para los administradores de educación
 ==============================================

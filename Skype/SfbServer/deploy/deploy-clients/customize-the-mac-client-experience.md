@@ -3,18 +3,18 @@ title: Personalizar la experiencia del cliente de Mac en Skype Empresarial
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 10/31/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: En este artículo se describen las preferencias de cliente y los valores predeterminados disponibles para el cliente de Skype Empresarial en Mac, y cómo se editan desde fuera de la aplicación.
-ms.openlocfilehash: 8c779ad35d82b42bc8e162599265f6a25f7a65c3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 37ea82cc87e58303ab412c7adbd427dd11c74f89
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014643"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personalizar la experiencia del cliente de Mac en Skype Empresarial
  
@@ -22,18 +22,18 @@ En este artículo se describen las preferencias de cliente y los valores predete
   
 ## <a name="skype-for-business-on-mac-client-preference-settings"></a>Configuración de las preferencias del cliente de Skype Empresarial en Mac
 
-Ciertas características y comportamientos que están disponibles para Skype para el negocio en los clientes de Mac se determinan mediante la configuración de las preferencias del cliente. El Skype para el negocio en las preferencias de Mac se encuentran en un archivo ubicado en equipos Mac que tiene instalado el Skype para Business client en la siguiente ruta: 
+Ciertas características y comportamientos que están disponibles para Skype para la empresa en los clientes de Mac se determinan mediante la configuración de las preferencias en el cliente. El Skype para la empresa en las preferencias de Mac se encuentran en un archivo ubicado en equipos Mac que ha instalado la Skype para cliente de negocio que se encuentra en la ruta de acceso siguiente: 
   
  **~/Library/Containers/com.Microsoft.SkypeForBusiness/Data/Library/Preferences/com.Microsoft.SkypeForBusiness.plist**
   
-Para establecer estas preferencias, llegar a un mensaje de terminal en Mac del cliente y como sea necesario escribir comandos de clave valores predeterminados escritura com.microsoft.SkypeForBusiness utilizando las teclas de preferencia que se describe en la tabla siguiente.
+Para establecer estas preferencias, llegar a un mensaje de terminal en Mac del cliente y como sea necesario especifique valores predeterminados escritura com.microsoft.SkypeForBusiness clave comandos mediante las claves de preferencia que se describen en la siguiente tabla.
   
-**Claves de preferencia del cliente**
+**Claves de preferencia de cliente**
 
 
 |**Clave**|**Tipo**|**Valor**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-|AutoDetectAutoDicoveryURLs  <br/> |Booleano  <br/> |0 = configuración manual del servidor  <br/> 1 = detección automática de servidores (predeterminado)  <br/> |Especificar cómo Skype para empresas identifica el transporte y el servidor que se utilizará durante el inicio de sesión. Si habilita esta configuración de directiva, debe especificar **internalAutoDiscoveryURL** y **externalAutoDiscoveryURL**. <br/> |
+|AutoDetectAutoDicoveryURLs  <br/> |Booleano  <br/> |0 = configuración manual del servidor  <br/> 1 = detección automática de servidores (predeterminado)  <br/> |Especifique cómo Skype para la empresa identifica el transporte y el servidor que desea usar durante el inicio de sesión. Si habilita esta configuración de directiva, debe especificar **internalAutoDiscoveryURL** y **externalAutoDiscoveryURL**. <br/> |
 |internalAutoDiscoveryURL  <br/> |Cadena  <br/> |URL de detección automática completa  <br/> |URL de detección automática interna  <br/> |
 |externalAutoDiscoveryURL  <br/> |Cadena  <br/> |URL de detección automática completa  <br/> |URL de detección automática externa  <br/> |
 |httpProxyDomain  <br/> |Cadena  <br/> ||Dominio de proxy HTTP  <br/> |
@@ -42,21 +42,20 @@ Para establecer estas preferencias, llegar a un mensaje de terminal en Mac del c
 |trustedDomainList  <br/> |Matriz  <br/> ||Lista de dominios de confianza para redireccionamientos HTTP.  <br/> |
 |autoAcceptTimeout  <br/> |Número  <br/> |300 (predeterminado)  <br/> |Tiempo de espera de aceptación automática para usuarios sin historial de conversaciones del servidor.  <br/> |
 |warnWhenUnknownLocationForE911  <br/> |Booleano  <br/> |0 = Deshabilitado  <br/> 1 = Habilitado  <br/> |Advierte al usuario cuando se marca un número de emergencia desde una ubicación desconocida.  <br/> |
-|sipAddress  <br/> |Cadena  <br/> ||La dirección SIP (correo electrónico) se utiliza para iniciar sesión en Skype para el negocio.  <br/> |
-|nombre de usuario  <br/> |Cadena  <br/> ||UPN (UserName) que se utiliza para iniciar sesión en Skype para el negocio.  <br/> |
-|userNameInAdvancedOnly  <br/> |Booleano  <br/> |0 = Mostrar el campo de nombre de usuario en la pantalla de inicio de sesión principal y en el cuadro de diálogo Propiedades avanzadas  <br/> 1 = mostrar el campo de nombre de usuario sólo en el cuadro de diálogo Propiedades avanzadas (predeterminado)  <br/> |Especificar dónde se muestra el campo nombre de usuario durante el inicio de sesión.  <br/> |
+|sipAddress  <br/> |Cadena  <br/> ||La dirección SIP (correo electrónico) se usa para el inicio de sesión de Skype para la empresa.  <br/> |
+|nombre de usuario  <br/> |Cadena  <br/> ||UPN (nombre de usuario) que se usa para el inicio de sesión de Skype para la empresa.  <br/> |
+|userNameInAdvancedOnly  <br/> |Booleano  <br/> |0 = Mostrar el campo nombre de usuario en la pantalla de inicio de sesión principal y en el cuadro de diálogo Propiedades avanzadas  <br/> 1 = mostrar el campo nombre de usuario sólo en el cuadro de diálogo Propiedades avanzadas (valor predeterminado)  <br/> |Especificar dónde se muestra el campo nombre de usuario durante el inicio de sesión.  <br/> |
    
 ### <a name="usage-examples"></a>Ejemplos de uso
 
-Para agregar un solo dominio (Contoso.com) a la lista de dominios de confianza utilizaría la clave trustedDomainList como se muestra:
+Para agregar un solo dominio (Contoso.com) a la lista de dominios de confianza usaría la clave trustedDomainList tal como se muestra:
   
-trustedDomainList de com.microsoft.SkypeForBusiness de escritura de valores predeterminados-matriz-agregar "Contoso.com"
+valores predeterminados de escribir com.microsoft.SkypeForBusiness trustedDomainList-matriz-agregar "Contoso.com"
   
 Para agregar varios dominios a la lista de dominios de confianza, usaría la clave trustedDomainList del siguiente modo:
   
-trustedDomainList de com.microsoft.SkypeForBusiness de escritura de valores predeterminados-matriz-agregar "abc.com" "test.org" "sfb.com"
+valores predeterminados de escribir com.microsoft.SkypeForBusiness trustedDomainList-matriz-agregar "sfb.com" "abc.com" "test.org"
   
-Orientación sobre el uso del comando valores predeterminados se puede encontrar en la [biblioteca de referencia de Apple](https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/defaults.1.mdl). Aunque esta página es antigua y ya no se actualiza, la información que contiene sobre el comando de valores predeterminados no ha cambiado y sigue siendo aplicable.
   
 ### <a name="sample-unedited-settings"></a>Configuración sin editar de muestra
 

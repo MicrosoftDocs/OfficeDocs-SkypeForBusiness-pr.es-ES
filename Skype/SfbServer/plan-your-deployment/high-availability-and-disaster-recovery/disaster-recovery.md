@@ -1,9 +1,8 @@
 ---
-title: Recuperación ante desastres del grupo de servidores front-end en Skype Empresarial Server 2015
+title: Front-recuperación de desastres de grupo de servidores de final en Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -11,18 +10,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: Para la recuperación ante desastres, Skype para Business Server ofrece el emparejamiento con conmutación por error en caso de funcionar un grupo de servidores del grupo de servidores.
-ms.openlocfilehash: 77d0f681b8fc4b88837ed46d1afc6bb415f46932
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 4f7be2c41155c25984a3a4892fdabe982384756a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505037"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20979894"
 ---
-# <a name="front-end-pool-disaster-recovery-in-skype-for-business-server-2015"></a>Recuperación ante desastres del grupo de servidores front-end en Skype Empresarial Server 2015
+# <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Front-recuperación de desastres de grupo de servidores de final en Skype para Business Server
  
 Para la recuperación ante desastres, Skype para Business Server ofrece el emparejamiento con conmutación por error en caso de funcionar un grupo de servidores del grupo de servidores.
   
-Para el más sólidas opciones recuperación ante desastres en Skype para Business Server, implemente pares de grupos de servidores Front-End entre dos sitios geográficamente dispersos. Cada sitio tiene un grupo de servidores front-end que se empareja con un grupo de servidores front-end correspondiente en otro sitio. Ambos sitios se encuentran activos, y el servicio de copia de seguridad proporciona la replicación de datos en tiempo real a fin de mantener los grupos sincronizados. Si desea implementar el emparejamiento de grupo de servidores Front-End, consulte [Deploy emparejada grupos de Front-End para la recuperación ante desastres en Skype para Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) .
+Para el más sólidas opciones recuperación ante desastres en Skype para Business Server, implemente pares de grupos de servidores Front-End entre dos sitios geográficamente dispersos. Cada sitio tiene un grupo de servidores front-end que se empareja con un grupo de servidores front-end correspondiente en otro sitio. Ambos sitios se encuentran activos, y el servicio de copia de seguridad proporciona la replicación de datos en tiempo real a fin de mantener los grupos sincronizados. Si desea implementar el emparejamiento de grupo de servidores Front-End, consulte [Deploy emparejada grupos de Front-End para la recuperación ante desastres en Skype para Business Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) .
   
 ![Muestra grupos de servidores front-end en dos sitios distintos, emparejados entre sí](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
   
@@ -30,9 +29,9 @@ Si el grupo de un sitio falla, puedes realizar la conmutación por error de los 
   
 Dos centros de datos que incluyan grupos de servidores front-end emparejados entre sí pueden encontrarse a cualquier distancia. Recomendamos que emparejes dos centros de datos en la misma región del mundo y con vínculos de alta velocidad entre sí. 
   
-Tener dos centros de datos en regiones del mundo, es posible, pero podría provocar la pérdida de datos mayor si no hay un desastre, debido a la latencia de replicación de datos.
+Tener dos centros de datos en regiones del mundo distintas es posible, pero podría provocar una pérdida de datos mayor debido a la latencia de la replicación de datos si ocurre un desastre.
   
-Al planear que grupos de servidores a par, debe tener en cuenta que se admiten sólo los emparejamientos siguientes:
+Al planificar qué grupos de servidores vas a emparejar, necesitas tener en cuenta que solo se admiten los emparejamientos siguientes:
   
 - Los grupos de servidores de Enterprise Edition se pueden emparejar solo con otros grupos de servidores de Enterprise Edition. De manera similar, los grupos de servidores de Standard Edition solo se pueden emparejar con otros grupos de servidores de Standard Edition.
     
@@ -46,7 +45,7 @@ Ni el generador de topologías ni la validación de topología prohibirán el em
 
 Además de proporcionar la capacidad de recuperación ante desastres, dos grupos de servidores emparejados sirven como registradores de copia de seguridad entre sí. Cada grupo de servidores puede ser la copia de seguridad para un solo otros servidores Front-End.
   
-Aunque las relaciones de copia de seguridad entre dos grupos de servidores Front-End deben ser 1:1 y simétricas, cada grupo de servidores Front-End aún también puede ser el registrador de copia de seguridad de cualquier número de aplicaciones de sucursal con funciones de supervivencia.
+Aunque las relaciones de copia de seguridad entre dos grupos de servidores front-end necesitan ser 1:1 y simétricas, cada grupo de servidores front-end puede continuar siendo el registrador de copia de seguridad para cualquier cantidad de aplicaciones de sucursal con funciones de supervivencia.
   
 Ten en cuenta que Skype Empresarial no amplía el soporte de la recuperación ante desastres a usuarios alojados en una aplicación de sucursal con funciones de supervivencia. Si un grupo de servidores front-end que sirve como copia de seguridad de una aplicación de sucursal con funciones de supervivencia deja de estar disponible, los usuarios que hayan iniciado sesión en dicha aplicación de sucursal con funciones de supervivencia entrarán al modo de resistencia, incluso después de que los usuarios alojados en el grupo de servidores front-end hayan conmutado por error al grupo de servidores front-end de copia de seguridad.
   
@@ -66,11 +65,11 @@ Si emparejas el grupo que hospeda al almacén de administración central, se con
   
 ![Muestra dos grupos de servidores front-end, uno con el almacén de CMS activo y el otro con el almacén de CMS de copia de seguridad pasiva](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
   
-Durante una conmutación por error que implica el grupo de servidores que hospeda el almacén de Administración Central, deberá conmutar el almacén de Administración Central antes de que producirá un error en el grupo de servidores Front-End.
+Durante la conmutación por error de un grupo que incluye el grupo que hospeda el almacén de administración central, necesitas llevar a cabo la conmutación por error del almacén de administración central antes de hacerlo para el grupo de servidores front-end.
   
 Después de que se repara el desastre, no es necesario llevar a cabo la conmutación por recuperación del almacén de administración central. El almacén de administración central puede permanecer en el grupo en el que se lo colocó en la conmutación por error.
   
-Los objetivos de ingeniería para conmutación por error de almacén de Administración Central son 5 minutos para el objetivo de tiempo de recuperación (RTO) y 5 minutos para la recuperación de punto de recuperación (RPO).
+Los objetivos de ingeniería para la conmutación por error del almacén de administración central son 5 minutos para el de tiempo de recuperación (RTO) y 5 minutos para el de punto de recuperación (RPO).
   
 ## <a name="front-end-pool-pairing-data-security"></a>Seguridad de datos en el emparejamiento de grupos de servidores front-end
 
@@ -90,13 +89,13 @@ No se implica que es la única solución ni se implica que es la solución prefe
   
 Otra posible solución consiste en usar IPsec solamente para que proteger los datos enviados por el propio servicio de copia de seguridad sea más fácil. Si eliges este método, necesitarás configurar las reglas IPsec del protocolo SMB para los siguientes servidores, donde los grupos A y B son dos grupos de servidores front-end emparejados.
   
-- El servicio de SMB (TCP/445) de cada servidor Front-End del grupo de servidores A para el almacén de archivos utilizados por el grupo de servidores B.
+- El servicio SMB (TCP/445) de cada servidor front-end del grupo A al almacén de archivos que usa el grupo B.
     
-- El servicio de SMB (TCP/445) de cada servidor Front-End del grupo de servidores B para el almacén de archivos utilizada por el grupo A.
+- El servicio SMB (TCP/445) de cada servidor front-end del grupo B al almacén de archivos que usa el grupo A.
     
 > [!CAUTION]
 >  IPsec no está pensado para reemplazar la seguridad de la aplicación, como SSL/TLS. Una ventaja de utilizar IPsec es que puede ofrecer seguridad de tráfico de red para las aplicaciones existentes sin necesidad de cambiarlas. Las empresas que desean proteger sólo el transporte entre los dos centros de datos deben consultar sus respectivos proveedores de hardware de red acerca de las formas para configurar las conexiones WAN seguras mediante el uso de equipamiento del proveedor.
   
 ## <a name="see-also"></a>Vea también
 
-[Implementación de grupos de servidores Front-End emparejados para la recuperación ante desastres en Skype para Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)
+[Implementación de grupos de servidores Front-End emparejados para la recuperación ante desastres en Skype para Business Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)

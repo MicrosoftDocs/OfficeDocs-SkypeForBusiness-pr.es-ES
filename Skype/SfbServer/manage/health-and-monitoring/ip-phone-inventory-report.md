@@ -1,25 +1,24 @@
 ---
-title: Informe de inventario de teléfono IP en Skype Empresarial Server 2015
+title: Informe de inventario de teléfono IP en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
-description: 'Resumen: Información sobre el informe de inventario de teléfono IP en Skype para Business Server 2015.'
-ms.openlocfilehash: fd68e94f9d4c30aafb86302d8211b52909f737db
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Información sobre el informe de inventario de teléfono IP en Skype para Business Server.'
+ms.openlocfilehash: bbcbe74fe95d719bee2b8c660d110854088b1150
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569557"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21017981"
 ---
-# <a name="ip-phone-inventory-report-in-skype-for-business-server-2015"></a>Informe de inventario de teléfono IP en Skype Empresarial Server 2015
+# <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>Informe de inventario de teléfono IP en Skype para Business Server
  
-**Resumen:** Obtenga información sobre el informe de inventario de teléfono IP en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre el informe de inventario de teléfono IP en Skype para Business Server.
   
 El informe de inventario de teléfono IP ofrece información sobre los teléfonos IP que la organización usa actualmente. El informe proporciona una lista detallada de los teléfonos IP que realmente se usaron durante el período de informes especificado. Entre otros datos, este informe permite que los administradores conozcan si aún hay teléfonos antiguos obsoletos en uso que se necesiten reemplazar. También puede advertir a los administradores sobre la presencia de teléfonos costosos que casi no se usan en la organización. Ese tipo de información puede resultar valiosa en el momento de comprar teléfonos nuevos o de redistribuir los teléfonos existentes. (Por ejemplo, se le puede pedir a un usuario que rara vez usa su costoso teléfono que lo intercambie con un usuario que usa el suyo con mucha más frecuencia).
   
@@ -111,7 +110,7 @@ En la tabla siguiente se muestra la información proporcionada en el informe de 
   
 **Métricas del informe de inventario de teléfono IP**
 
-|**Nombre.**|**¿Puede ordenar por este elemento?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Fabricante** <br/> |Sí  <br/> |Nombre de la empresa que fabricó el teléfono IP.  <br/> |
 |**Versión de hardware** <br/> |Sí  <br/> |Número de versión del teléfono IP.  <br/> |

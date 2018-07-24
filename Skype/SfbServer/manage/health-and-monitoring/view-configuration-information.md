@@ -1,29 +1,28 @@
 ---
-title: Visualizar la información de configuración de CDR en Skype Empresarial Server 2015
+title: Información de configuración de CDR de vista en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
-description: 'Resumen: Obtenga información sobre cómo usar el registro de detalles de llamadas (CDR) de Skype para Business Server 2015.'
-ms.openlocfilehash: cd143db6ebc0c4e284763ccf4beb9c545fa24ff5
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Obtenga información sobre cómo usar el registro de detalles de llamadas (CDR) de Skype para Business Server.'
+ms.openlocfilehash: 6abdd508cdb8ecbd89054596b024e27376c70a38
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569445"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20979416"
 ---
-# <a name="view-cdr-configuration-information-in-skype-for-business-server-2015"></a>Visualizar la información de configuración de CDR en Skype Empresarial Server 2015
+# <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>Información de configuración de CDR de vista en Skype para Business Server
  
-**Resumen:** Obtenga información sobre cómo usar el registro de detalles de llamadas (CDR) de Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo usar el registro de detalles de llamadas (CDR) de Skype para Business Server.
   
 El registro detallado de llamadas (CDR) permite realizar un seguimiento del uso de aspectos como las sesiones de mensajería instantánea de punto a punto, llamadas telefónicas de voz sobre IP (VoIP) y llamadas de conferencia. Estos datos de uso contienen información sobre quién llamó a quién, cuándo se realizó la llamada y su duración.
   
-Al instalar Skype para Business Server 2015, un único, se crea la colección global de opciones de configuración de CDR para usted. Los administradores también tienen la opción de crear colecciones de configuración personalizadas que se pueden aplicar a sitios individuales. Puede ver las opciones de configuración de CDR en uso en la organización mediante Skype para el Panel de Control de servidor empresarial o el cmdlet [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/get-cscdrconfiguration?view=skype-ps) .
+Al instalar Skype para Business Server, una única colección global de opciones de configuración de CDR se crea para usted. Los administradores también tienen la opción de crear colecciones de configuración personalizadas que se pueden aplicar a sitios individuales. Puede ver las opciones de configuración de CDR en uso en la organización mediante Skype para el Panel de Control de servidor empresarial o el cmdlet [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/get-cscdrconfiguration?view=skype-ps) .
   
 ### <a name="to-view-cdr-configuration-information-by-using-skype-for-business-server-control-panel"></a>Para ver la información de configuración de CDR mediante el uso de Skype para el Panel de Control de servidor empresarial
 

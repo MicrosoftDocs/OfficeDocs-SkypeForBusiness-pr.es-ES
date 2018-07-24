@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 'Para editar la configuración de una aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia, le presentamos las secciones siguientes:'
-ms.openlocfilehash: eb82254746ea74e06dcd51231712d4694fa8aa9c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 194324a845442041b8dd2bc11274b100ba145276
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991603"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989090"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Expansor de configuración general de aplicación de sucursal
  
@@ -28,7 +28,6 @@ Para editar la configuración de una aplicación de sucursal con funciones de su
     
 - Configuración del servidor de mediación
     
-## 
 
 Para una aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia, se presentan con lo siguiente:
   
@@ -70,7 +69,6 @@ Definir las puertas de enlace de RTC que están asociados con el servidor de med
   
 Si tiene más de una puerta de enlace asociada con un servidor de mediación, la primera puerta de enlace asociada será la puerta de enlace predeterminada. Si tiene que elegir otra puerta de enlace como predeterminada, seleccione la que quiera y, luego, haga clic en **Establecer como predeterminado**.
   
-### 
 
 Para obtener información detallada sobre cómo definir y configurar las opciones de la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia, consulte [Soluciones de resistencia de sitios de sucursal](http://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx).
   

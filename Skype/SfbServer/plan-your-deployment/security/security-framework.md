@@ -1,29 +1,29 @@
 ---
-title: Marco de seguridad para Skype Empresarial Server 2015
+title: Marco de seguridad de Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 7/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
-description: Esta sección proporciona una visión general de los elementos fundamentales que forman el marco de seguridad de Skype para Business Server 2015. Comprender cómo funcionan juntos estos elementos es esencial para tomar decisiones acerca de cómo proteger su particular Skype para la implementación de Business Server 2015.
-ms.openlocfilehash: c29941a3e903b6318db2de0453589b5017e6f51b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: En esta sección se proporciona una visión general de los elementos fundamentales que constituyen el marco de seguridad de Skype para Business Server. Descripción de cómo funcionan conjuntamente estos elementos es fundamental para tomar decisiones fundamentadas sobre cómo asegurar su Skype determinado para la implementación de Business Server.
+ms.openlocfilehash: 487b3ea7f57c1a008327be2b9b31664a160e8425
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983619"
 ---
-# <a name="security-framework-for-skype-for-business-server-2015"></a>Marco de seguridad para Skype Empresarial Server 2015
+# <a name="security-framework-for-skype-for-business-server"></a>Marco de seguridad de Skype para Business Server
  
-Esta sección proporciona una visión general de los elementos fundamentales que forman el marco de seguridad de Skype para Business Server 2015. Comprender cómo funcionan juntos estos elementos es esencial para tomar decisiones acerca de cómo proteger su particular Skype para la implementación de Business Server 2015.
+En esta sección se proporciona una visión general de los elementos fundamentales que constituyen el marco de seguridad de Skype para Business Server. Descripción de cómo funcionan conjuntamente estos elementos es fundamental para tomar decisiones fundamentadas sobre cómo asegurar su Skype determinado para la implementación de Business Server.
   
 Dichos elementos son los siguientes:
   
-- Los servicios de dominio de Active Directory (AD DS) proporciona un único repositorio de back-end de confianza para las cuentas de usuario y recursos de la red.
+- Los servicios de dominio de Active Directory (AD DS) proporciona un único repositorio back-end de confianza para las cuentas de usuario y recursos de red.
     
 - El control de acceso basado en roles (RBAC) le permite delegar tareas administrativas y mantener, al mismo tiempo, altos estándares de seguridad.
     
@@ -33,26 +33,26 @@ Dichos elementos son los siguientes:
     
 - Para la autenticación del usuario se usan los protocolos estándar de la industria, siempre que sea posible.
     
-- Windows PowerShell proporciona características de seguridad que están habilitadas de forma predeterminada para que los usuarios no pueden ejecutar fácilmente o sin darse cuenta las secuencias de comandos.
+- Windows PowerShell proporciona características de seguridad que están habilitadas de forma predeterminada para que los usuarios no pueden ejecutar fácilmente o sin darse cuenta secuencias de comandos.
     
-Estos elementos fundamentales de seguridad trabajan juntos para definir la confianza de los usuarios, servidores, conexiones y operaciones para ayudar a garantizar una base segura de Skype para Business Server 2015.
+Estos elementos de seguridad fundamentales funcionan conjuntamente para definir los usuarios de confianza, los servidores, las conexiones y operaciones para ayudar a garantizar una base segura para Skype para Business Server.
   
 ## <a name="in-this-section"></a>En esta sección
 
-En los temas de esta sección describen cómo funciona cada uno de estos elementos fundamentales para mejorar la seguridad de su Skype para infraestructura de servidores empresariales.
+En los temas de esta sección se describen cómo funciona cada uno de estos elementos fundamentales para mejorar la seguridad de su Skype para infraestructura de Business Server.
   
-- [Servicios de dominio de Active Directory para Skype para Business Server 2015](active-directory-domain-services.md)
+- [Servicios de dominio de Active Directory para Skype para Business Server](active-directory-domain-services.md)
     
-- [Control de acceso basado en roles (RBAC) de Skype para Business Server 2015](role-based-access-control-rbac.md)
+- [Control de acceso basado en roles (RBAC) para Skype para Business Server](role-based-access-control-rbac.md)
     
-- [Infraestructura de claves públicas para Skype para Business Server 2015](public-key-infrastructure-for-skype.md)
+- [Infraestructura de clave pública de Skype para Business Server](public-key-infrastructure-for-skype.md)
     
-- [TLS y MTLS para Skype para Business Server 2015](tls-and-mtls.md)
+- [TLS y MTLS para Skype para Business Server](tls-and-mtls.md)
     
-- [Cifrado de Skype para Business Server 2015](encryption.md)
+- [Cifrado de Skype para Business Server](encryption.md)
     
-- [Autenticación de cliente y usuario de Skype para Business Server 2015](user-and-client-authentication.md)
+- [Autenticación de usuario y el cliente para Skype para Business Server](user-and-client-authentication.md)
     
-- [Windows PowerShell y Skype para herramientas de administración de servidor de negocios 2015](management-tools.md)
+- [Windows PowerShell y Skype para herramientas de administración de Business Server](management-tools.md)
     
 

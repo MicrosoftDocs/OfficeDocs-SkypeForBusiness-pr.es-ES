@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Resumen: Información sobre el proceso de implementación para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.'
-ms.openlocfilehash: 0d096ba8c2303ca952100a8142b356944b775dcc
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 860792fc39deed592f0d4369018cf85dd7de4a74
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569190"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988989"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server-2015"></a>Implementar el panel de calidad de llamada para Skype para Business Server 2015
  
@@ -48,11 +48,11 @@ Instalación del portal crea una base de datos de repositorio que almacena la as
 |Conceder acceso de usuario.  <br/> |Para administrar la autorización de usuario en el Portal, se recomienda utilizar la autorización de dirección URL, que se introdujo en IIS 7.0. Para obtener más información, vea [Autorización de dirección URL de descripción IIS 7.0](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).  <br/> |Usuario de dominio que es miembro del grupo de administradores locales.  <br/> |Administrar el acceso de usuario para la sección de Portal en la documentación de implementación.  <br/> |
 |Opcional: Proporcionar información de asignación de subred.  <br/> |Rellenar la red y las tablas de asignación de creación en la base de datos QoE Archive.  <br/> |Una cuenta con acceso de escritura a la base de datos de archivo de QoE.  <br/> |Sección "Proporcionar información de subred" en la documentación del usuario.  <br/> |
    
-## 
+
 
 La implementación de panel de calidad de llamadas implica la configuración de la infraestructura e instalar el software. El siguiente procedimiento describe el proceso.
   
-### <a name="deployment-steps"></a>Pasos de implementación
+## <a name="deployment-steps"></a>Pasos de implementación
 
 1. Copie la CallQualityDashboard.msi en el equipo donde se tiene que instalar el componente de base de datos de archivo de CQD (Esto es el equipo que tiene instalado SQL Server). 
     
@@ -168,7 +168,7 @@ El siguiente paso es configurar el panel de la CQD. Después de que los usuarios
 > [!IMPORTANT]
 > Es importante sólo cambiar esta configuración para la aplicación de CQD y no para las dos aplicaciones de API: QoEDataService y QoERepositoryService. 
   
-### <a name="configuring-file-access-for-the-cqd-dashboard"></a>Configurar el acceso de archivo para el CQD (panel)
+## <a name="configuring-file-access-for-the-cqd-dashboard"></a>Configurar el acceso de archivo para el CQD (panel)
 
 1. Abra el Editor de configuración de CQD.
     
@@ -214,7 +214,7 @@ Para habilitar SSL/TLS en IIS y obligar a los usuarios para conectarse a través
     
 2. Para obtener instrucciones acerca de cómo habilitar TLS en las conexiones de SQL Server, vea [cómo habilitar el cifrado SSL para una instancia de SQL Server mediante el uso de Microsoft Management Console ](https://support.microsoft.com/en-us/kb/316898/).
     
-### <a name="cube-sync-fails"></a>Error de sincronización de cubo
+## <a name="cube-sync-fails"></a>Error de sincronización de cubo
 
 QoEMetrics puede contener algunos registros no válidos en función de los relojes de usuario final. Si el tiempo sesgado es mayor que 60 años, se producirá un error en la importación de cubo.
   

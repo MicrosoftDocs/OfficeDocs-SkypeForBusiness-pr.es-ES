@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
-description: " En este tema se tratan las consideraciones de planificación para usar Operations Management Suite para administrar los dispositivos de Sistemas de salas de Skype v2 en su implementación de Skype Empresarial Server 2015."
-ms.openlocfilehash: d69916854b4d737b4d1e52bdf45a5ee453d48e55
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+description: En este artículo se describe las consideraciones de planeación para el uso conjunto de aplicaciones de administración de operaciones para administrar dispositivos de v2 de sistemas de salón de Skype en su Skype para la implementación de Business Server.
+ms.openlocfilehash: 3e39075ab16c8cd8d8c688043bf7fa370af1f5b0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504638"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20984760"
 ---
 # <a name="plan-skype-room-systems-v2-management-with-oms"></a>Planificar la administración de Sistemas de salas de Skype v2 con OMS
  
-  En este tema se tratan las consideraciones de planificación para usar Operations Management Suite para administrar los dispositivos de Sistemas de salas de Skype v2 en su implementación de Skype Empresarial Server 2015.
+ En este artículo se describe las consideraciones de planeación para el uso conjunto de aplicaciones de administración de operaciones para administrar dispositivos de v2 de sistemas de salón de Skype en su Skype para la implementación de Business Server.
   
 [Conjunto de aplicaciones de administración de operaciones](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-overview) (OMS) es una colección de servicios de administración que se diseñaron en la nube desde el principio. En lugar de implementar y administrar los recursos locales, los componentes OMS totalmente se hospedan en Azure. Configuración es mínima, y puede ser funcionamiento literalmente en cuestión de minutos. Con algunas tareas de personalización, puede ayudar a en la administración de sistemas de conferencia de sistemas de salón de Skype v2 al proporcionar notificaciones en tiempo real del estado del sistema o errores para sistemas de las salas individuales y potencialmente puede escalar a la administración de miles de sistemas de salón de Skype salas de conferencias v2.
   
@@ -61,6 +61,6 @@ Durante el uso de OMS para administrar los dispositivos de conferencia de sistem
     
 ## <a name="see-also"></a>Vea también
 
-[Implementar la administración de sistemas de salón de Skype v2 con OMS](../../deploy/deploy-clients/with-oms.md)
+[Implementar la administración de Sistemas de salas de Skype v2 con OMS](../../deploy/deploy-clients/with-oms.md)
   
-[Administrar dispositivos de sistemas de salón de Skype v2 con OMS](../../manage/skype-room-systems-v2/oms.md)
+[Administración de los dispositivos de Sistemas de salas de Skype v2 con OMS](../../manage/skype-room-systems-v2/oms.md)

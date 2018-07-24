@@ -1,24 +1,24 @@
 ---
-title: Informe de detalles de sesiones punto a punto en Skype Empresarial Server 2015
+title: Informe de detalles de sesión de punto a punto en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
-description: 'Resumen: Conozca el informe de detalle de sesión Peer-to-Peer de Skype para Business Server 2015.'
-ms.openlocfilehash: 454a31449ceff109ac81bd266f1ef7c21f7c0afd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Información sobre el informe de detalles de sesión de punto a punto en Skype para Business Server.'
+ms.openlocfilehash: 6ac6a26c52fcc0eaca4890631b1d91f338930421
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000729"
 ---
-# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server-2015"></a>Informe de detalles de sesiones punto a punto en Skype Empresarial Server 2015
+# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Informe de detalles de sesión de punto a punto en Skype para Business Server
  
-**Resumen:** Obtener información sobre el informe de detalle de sesión Peer-to-Peer de Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre el informe de detalles de sesión de punto a punto en Skype para Business Server.
   
 El informe de detalles de sesiones punto a punto devuelve información detallada sobre una sesión punto a punto. Por ejemplo, si selecciona una sesión de mensajería instantánea, el informe reflejará la cantidad de mensajes enviados por cada usuario durante la sesión.
   
@@ -34,7 +34,7 @@ Se puede obtener acceso al informe de detalles de sesiones punto a punto desde c
     
 - Informe de lista de errores 
     
-Desde el informe de detalle de la sesión de Peer-to-Peer puede tener acceso el [Informe de diagnóstico en Skype para el año 2015 de Server Business](diagnostic-report.md) pulsando la métrica del informe de diagnóstico (detalles). También se puede obtener acceso al informe de errores principales haciendo clic en cualquiera de estas dos métricas:
+Desde el informe de detalles de la sesión de punto a punto, puede acceder al [Informe de diagnóstico en Skype para Business Server](diagnostic-report.md) haciendo clic en la métrica informe de diagnóstico (detalles). También se puede obtener acceso al informe de errores principales haciendo clic en cualquiera de estas dos métricas:
   
 - Respuesta
     
@@ -56,7 +56,7 @@ Ninguno. El informe de detalles de sesiones punto a punto no se puede filtrar.
 
 En la siguiente tabla se recoge la información que el informe de detalles de sesiones punto a punto proporciona sobre cada sesión.
   
-**Métricas de la información de sesión**
+**Métricas de información de la sesión**
 
 |**Nombre.**|**Descripción**|
 |:-----|:-----|
@@ -83,9 +83,9 @@ En la siguiente tabla se recoge la información que el informe de detalles de se
 
 En la siguiente tabla se recoge la información que el informe de detalles de sesiones punto a punto proporciona sobre cada modalidad de sesión.
   
-**Métricas de las modalidades**
+**Métricas de modalidades**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Modalidades** <br/> |No  <br/> |Modalidades usadas en la sesión (por ejemplo, mensajería instantánea o transferencia de archivos).  <br/> |
 |**Mensajes del remitente** <br/> |No  <br/> |Cantidad de mensajes que envió el usuario que inició la sesión.  <br/> |
@@ -95,9 +95,9 @@ En la siguiente tabla se recoge la información que el informe de detalles de se
 
 En la siguiente tabla se recoge la información que el informe de detalles de sesiones punto a punto proporciona sobre cada informe de diagnóstico.
   
-**Métricas para informes de diagnóstico**
+**Métricas de informes de diagnóstico**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Detalle** <br/> |No  <br/> |Cuando se hace clic en este elemento, el informe muestra el informe de diagnóstico correspondiente a la sesión.  <br/> |
 |**Hora del informe** <br/> |No  <br/> |Fecha y hora en que se registró el informe.  <br/> |

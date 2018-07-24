@@ -3,22 +3,23 @@ title: Detalles de la tabla del servidor de chat persistente
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
-description: Los temas siguientes detallan las columnas en cada una de las tablas de esquema de base de datos persistente de charla.
-ms.openlocfilehash: a7dc2f9cc545627630286d6166adf47fbb8c4c57
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: En los temas siguientes se detallan las columnas de cada una de las tablas de esquema de base de datos de Chat persistente.
+ms.openlocfilehash: 016974ff261cd862b888158f729e4baaff504366
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992801"
 ---
 # <a name="persistent-chat-server-table-details"></a>Detalles de la tabla del servidor de chat persistente
  
-Los temas siguientes detallan las columnas en cada una de las tablas de esquema de base de datos persistente de charla.
+En los temas siguientes se detallan las columnas de cada una de las tablas de esquema de base de datos de Chat persistente.
   
 ## <a name="in-this-section"></a>En esta sección
 
@@ -26,7 +27,7 @@ Los temas siguientes detallan las columnas en cada una de las tablas de esquema 
     
 - [tblPrincipalMemberDifference](tblprincipalmemberdifference.md)
     
-- [tblADUpdates](tbladupdates.md)
+- [Tbladupdate](tbladupdates.md)
     
 - [tblPrincipalMembers](tblprincipalmembers.md)
     
@@ -44,9 +45,9 @@ Los temas siguientes detallan las columnas en cada una de las tablas de esquema 
     
 - [tblRoleType](tblroletype.md)
     
-- [tblScopePrincipal](tblscopeprincipal.md)
+- [tabla tblScopePrincipal](tblscopeprincipal.md)
     
-- [tblPrincipalRole](tblprincipalrole.md)
+- [tabla PrincipalRole](tblprincipalrole.md)
     
 - [tblSiopWhiteList](tblsiopwhitelist.md)
     
@@ -66,7 +67,7 @@ Los temas siguientes detallan las columnas en cada una de las tablas de esquema 
     
 - [tblFileToken](tblfiletoken.md)
     
-- [tblServerIdentity](tblserveridentity.md)
+- [la tabla tblServerIdentity](tblserveridentity.md)
     
 - [tblAdminLock](tbladminlock.md)
     

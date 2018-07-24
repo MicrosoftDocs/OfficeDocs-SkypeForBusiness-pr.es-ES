@@ -1,24 +1,24 @@
 ---
-title: Subinforme de resumen de conferencia en Skype Empresarial Server 2015
+title: Subinforme de resumen de conferencia en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
-description: 'Resumen: Conozca el subinforme Resumen de conferencia en Skype para Business Server 2015.'
-ms.openlocfilehash: 39c71ebfa5798d861a9b8afd8865486dba033c1d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Conozca el subinforme de resumen de conferencia en Skype para Business Server.'
+ms.openlocfilehash: 1a35d772e368fe9755d0b7640d6a69f1ec46d4ff
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997732"
 ---
-# <a name="conference-summary-subreport-in-skype-for-business-server-2015"></a>Subinforme de resumen de conferencia en Skype Empresarial Server 2015
+# <a name="conference-summary-subreport-in-skype-for-business-server"></a>Subinforme de resumen de conferencia en Skype para Business Server
  
-**Resumen:** Conozca el subinforme Resumen de conferencia en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre el subinforme de resumen de conferencia en Skype para Business Server.
   
 El Subinforme de resumen de conferencia proporciona información general de sesiones de conferencia fallidas. Estas sesiones fallidas se dividen además por tipo de sesión: sesiones de foco y sesiones MCU.
   
@@ -26,7 +26,7 @@ El Subinforme de resumen de conferencia proporciona información general de sesi
 
 Los filtros se emplean para recuperar un conjunto de datos más específico o para ver los datos devueltos de diferentes formas. En la tabla siguiente, se muestran los filtros que se pueden utilizar en el Subinforme de resumen de conferencia.
   
-**Filtros de informe secundario de resumen de conferencia**
+**Filtros del Subinforme de resumen de conferencia**
 
 |**Nombre.**|**Descripción**|
 |:-----|:-----|
@@ -38,9 +38,9 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
 
 La siguiente tabla contiene la información que recoge el Subinforme de resumen de conferencia.
   
-**Métricas de informe secundario de resumen de conferencia**
+**Métricas del Subinforme de resumen de conferencia**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Total de conferencias** <br/> |No  <br/> |Cantidad total de conferencias que ha tenido lugar.  <br/> |
 |**Total de sesiones de conferencias** <br/> |No  <br/> |Cantidad total de sesiones de conferencia. Una única conferencia puede tener varias sesiones; por ejemplo, una conferencia podría incluir tanto una sesión de foco como una sesión MCU.  <br/> |

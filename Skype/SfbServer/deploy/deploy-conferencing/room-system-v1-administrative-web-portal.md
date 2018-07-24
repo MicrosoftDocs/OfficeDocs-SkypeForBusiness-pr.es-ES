@@ -1,25 +1,24 @@
 ---
-title: Implementar el portal web administrativo de SRS v1 en Skype Empresarial Server 2015
+title: Implementar SRS v1 administrativas Web Portal en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/3/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
-description: El Skype para sistemas de negocio Server 2015 Skype salón v1 (v1 SRS, anteriormente conocido como sistema de sala de Lync) administrativas Portal Web es un portal web que las organizaciones pueden usar para mantener las salas de conferencias de sistemas de salón de Skype. Los administradores pueden usar el Portal Web del SRS v1 administrativas para supervisar el estado del dispositivo, por ejemplo mediante la supervisión de dispositivos de audio y vídeo. Con este portal, los administradores también pueden recopilar información de diagnóstico de forma remota para supervisar el estado de las salas de conferencias.
-ms.openlocfilehash: 84f9d84861980f970fb496f957c712a1d7dfead4
-ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
+description: El Skype para sistemas de negocio Server Skype salón v1 (v1 SRS, anteriormente conocido como sistema de sala de Lync) administrativas Portal Web es un portal web que las organizaciones pueden usar para mantener las salas de conferencias de sistemas de salón de Skype. Los administradores pueden usar el Portal Web del SRS v1 administrativas para supervisar el estado del dispositivo, por ejemplo mediante la supervisión de dispositivos de audio y vídeo. Con este portal, los administradores también pueden recopilar información de diagnóstico de forma remota para supervisar el estado de las salas de conferencias.
+ms.openlocfilehash: f9f11674bdc40a5a93b9d2e40c9a02a12fe30214
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20088535"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013366"
 ---
-# <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server-2015"></a>Implementar el portal web administrativo de SRS v1 en Skype Empresarial Server 2015
+# <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Implementar SRS v1 administrativas Web Portal en Skype para Business Server
  
-El Skype para sistemas de negocio Server 2015 Skype salón v1 (v1 SRS, anteriormente conocido como sistema de sala de Lync) administrativas Portal Web es un portal web que las organizaciones pueden usar para mantener las salas de conferencias de sistemas de salón de Skype. Los administradores pueden usar el Portal Web del SRS v1 administrativas para supervisar el estado del dispositivo, por ejemplo mediante la supervisión de dispositivos de audio y vídeo. Con este portal, los administradores también pueden recopilar información de diagnóstico de forma remota para supervisar el estado de las salas de conferencias.
+El Skype para sistemas de negocio Server Skype salón v1 (v1 SRS, anteriormente conocido como sistema de sala de Lync) administrativas Portal Web es un portal web que las organizaciones pueden usar para mantener las salas de conferencias de sistemas de salón de Skype. Los administradores pueden usar el Portal Web del SRS v1 administrativas para supervisar el estado del dispositivo, por ejemplo mediante la supervisión de dispositivos de audio y vídeo. Con este portal, los administradores también pueden recopilar información de diagnóstico de forma remota para supervisar el estado de las salas de conferencias.
   
 Para usar esta característica, el Portal Web del SRS v1 administrativas debe estar implementado en cada Skype para Business Server Front-End Server. Esta guía proporciona instrucciones para administradores sobre cómo instalar y configurar el portal web administrativo de SRS. Está destinado a los administradores que tienen conocimiento de Skype para la administración de Business Server y que tienen derechos de usuario de administrador para modificar la Skype de topología de servidores de negocio.
   

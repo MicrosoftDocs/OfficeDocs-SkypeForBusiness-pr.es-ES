@@ -1,31 +1,30 @@
 ---
-title: Informe de lista de errores en Skype Empresarial Server 2015
+title: Informe de lista de errores en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: 'Resumen: Información sobre el informe de lista de errores en Skype para Business Server 2015.'
-ms.openlocfilehash: 7cb146569958908e79700e725d473bc246295c9d
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Información sobre el informe de lista de errores en Skype para Business Server.'
+ms.openlocfilehash: 3d40d7d73b6a4cb63e3885736a9a32f8b64ed989
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569323"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992636"
 ---
-# <a name="failure-list-report-in-skype-for-business-server-2015"></a>Informe de lista de errores en Skype Empresarial Server 2015
+# <a name="failure-list-report-in-skype-for-business-server"></a>Informe de lista de errores en Skype para Business Server 
  
-**Resumen:** Obtenga información sobre el informe de lista de errores en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre el informe de lista de errores en Skype para Business Server.
   
 El informe de lista de errores proporciona información sobre los usuarios que participaron de una sesión punto a punto o de conferencia con errores. Esta información incluye el URI del usuario que experimentó el problema, además del código de respuesta SIP y el identificador de diagnóstico asociado al error.
   
 ## <a name="accessing-the-failure-list-report"></a>Obtener acceso al informe de lista de errores
 
-El informe de lista de errores se tiene acceso haciendo clic en cualquiera de las siguientes métricas en el [Informe de distribución de errores en Skype para Business Server 2015](failure-distribution-report.md):
+El informe de lista de errores se tiene acceso haciendo clic en cualquiera de las siguientes métricas en el [Informe de distribución de errores en Skype para Business Server](failure-distribution-report.md):
   
 - Principales motivos del diagnóstico (sesiones)
     
@@ -43,7 +42,7 @@ El informe de lista de errores se tiene acceso haciendo clic en cualquiera de la
     
 - Principales agentes de remitente (sesiones)
     
-Desde el informe de lista de errores, puede acceder al [informe de detalles de la sesión de punto a punto en Skype para Business Server 2015](peer-to-peer-session-detail-report.md) haciendo clic en la métrica de todos los detalles de la sesión de una sesión de punto a punto. También puede tener acceso al informe de detalles de conferencia si hace clic en la métrica Conferencia para una conferencia.
+Desde el informe de lista de errores, puede acceder al [informe de detalles de la sesión de punto a punto en Skype para Business Server](peer-to-peer-session-detail-report.md) haciendo clic en la métrica de todos los detalles de la sesión de una sesión de punto a punto. También puede tener acceso al informe de detalles de conferencia si hace clic en la métrica Conferencia para una conferencia.
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>Aprovechar al máximo el informe de lista de errores
 
@@ -99,7 +98,7 @@ En la siguiente tabla se detalla la información proporcionada en el informe de 
   
 **Métricas del informe de lista de errores**
 
-|**Nombre.**|**¿Puede ordenar por este elemento?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Hora de notificación** <br/> |No  <br/> |Fecha y hora en que se registró el informe.  <br/> |
 |**Solicitud** <br/> |No  <br/> |Tipo de solicitud SIP que presentó errores. Por ejemplo, INVITE o BYE.  <br/> |

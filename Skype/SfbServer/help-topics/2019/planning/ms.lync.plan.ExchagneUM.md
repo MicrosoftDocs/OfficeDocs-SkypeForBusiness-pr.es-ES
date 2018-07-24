@@ -11,17 +11,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
-description: Skype para Business Server admite la integración con Exchange mensajería unificada (UM) de la combinación de mensajería de voz y mensajería de correo electrónico en una sola infraestructura de mensajería.
-ms.openlocfilehash: 8cecd30382306aa3a57ae275ac57e4feb2a4a121
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+description: Skype para Business Server 2015 admite la integración con Exchange mensajería unificada (UM) de la combinación de mensajería de voz y mensajería de correo electrónico en una sola infraestructura de mensajería.
+ms.openlocfilehash: ab1ee6c6ce811f728b05a04544611ffa638daf8e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19965860"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981392"
 ---
-# <a name="exchange-unified-messaging-planning-tool"></a>(Herramienta planeación) mensajería unificada de Exchange
+# <a name="exchange-unified-messaging-planning-tool-in-skype-for-business-2015"></a>Mensajería (herramienta de planeación) en Skype para 2015 empresarial unificada de Exchange
  
-Skype para Business Server admite la integración con Exchange mensajería unificada (UM) de la combinación de mensajería de voz y mensajería de correo electrónico en una sola infraestructura de mensajería.
+> [!NOTE]
+> Mensajería unificada de Exchange como conocidos anteriormente ya no está disponible en Exchange 2019, pero puede seguir usando el sistema telefónico a los mensajes de correo de voz de registro y, a continuación, deje la grabación en el buzón de Exchange del usuario. Para obtener más información, vea [servicio de planeación de correo de voz en la nube](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) .
+
+Skype para Business Server 2015 admite la integración con Exchange mensajería unificada (UM) de la combinación de mensajería de voz y mensajería de correo electrónico en una sola infraestructura de mensajería.
   
 Para obtener detalles, consulte:
   

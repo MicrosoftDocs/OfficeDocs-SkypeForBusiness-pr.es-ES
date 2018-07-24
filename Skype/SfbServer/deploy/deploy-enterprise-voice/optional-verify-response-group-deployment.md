@@ -1,39 +1,39 @@
 ---
-title: (Opcional) Comprobar la implementación del grupo de respuesta en Skype Empresarial 2015
+title: (Opcional) Implementación de grupo de respuesta Verify en Skype para la empresa
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
-description: Comprobar el éxito de la implementación de grupo de respuesta, en Skype para Telefonía IP empresarial de Business Server.
-ms.openlocfilehash: 28139349ffa2d3aa6b4315728e6a291d9932d9f9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Comprobar el éxito de la implementación de grupo de respuesta, en Skype para Business Server Enterprise Voice.
+ms.openlocfilehash: f92181f63606ff3c4322fdefb814e9682c79b0cc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002701"
 ---
-# <a name="optional-verify-response-group-deployment-in-skype-for-business-2015"></a>(Opcional) Comprobar la implementación del grupo de respuesta en Skype Empresarial 2015
+# <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(Opcional) Implementación de grupo de respuesta Verify en Skype para la empresa
  
-Comprobar el éxito de la implementación de grupo de respuesta, en Skype para Telefonía IP empresarial de Business Server.
+Comprobar el éxito de la implementación de grupo de respuesta, en Skype para Business Server Enterprise Voice.
   
-Después de configurar el grupo de respuesta, debe comprobar la configuración para asegurarse de que los grupos de respuesta funcionan como se espera. Compruebe, como mínimo, los siguientes escenarios con los tipos de usuarios que se muestran a continuación:
+Después de configurar el grupo de respuesta, debe comprobar la configuración para asegurarse de que los grupos de respuesta funcionan según lo previsto. Compruebe, como mínimo, los siguientes escenarios con los tipos de usuarios que se muestran a continuación:
   
  **Usuarios**
   
-- Un usuario que está alojado en Skype para empresas
+- Un usuario alojado en Skype para la empresa
     
 - Un usuario externo que usa la red telefónica conmutada (RTC)
     
-- Un agente que se aloja en Skype para empresas
+- Un agente que está hospedado en Skype para la empresa
     
  **Scenarios**
   
-- El Skype para usuarios de empresa llama el grupo de respuesta.
+- El Skype para usuarios de empresa llama al grupo de respuesta.
     
 - El usuario externo llama al grupo de respuesta.
     

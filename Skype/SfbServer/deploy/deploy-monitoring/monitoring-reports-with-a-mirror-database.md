@@ -1,28 +1,28 @@
 ---
-title: Asocie los informes de supervisión con una base de datos reflejada en Skype para Business Server 2015
+title: Asocie los informes de supervisión con una base de datos reflejada en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
-description: 'Resumen: Conozca cómo asociar informes de supervisión con una base de datos reflejada utilizada Skype para Business Server 2015.'
-ms.openlocfilehash: 246f16fd54133e2a6cf1e26a8126d0ec546bd686
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información sobre cómo asociar los informes de supervisión con una base de datos reflejada usado por Skype para Business Server.'
+ms.openlocfilehash: e5d9072c2315a2d82f2f41559167a488747fa205
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000774"
 ---
-# <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server-2015"></a>Asocie los informes de supervisión con una base de datos reflejada en Skype para Business Server 2015
+# <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Asocie los informes de supervisión con una base de datos reflejada en Skype para Business Server 
  
-**Resumen:** Aprenda a asociar informes de supervisión con una base de datos reflejada utilizada Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo asociar los informes de supervisión con una base de datos reflejada usado por Skype para Business Server.
   
 ## <a name="monitor-reports-with-a-mirror-database"></a>Supervisar los informes con una base de datos reflejada
 
-Si configura una base de datos reflejada para supervisar su base de datos, la reflejada asumirá el puesto de la base de datos principal cuando se produzca una conmutación por error. Sin embargo, si utiliza Skype para informes de supervisión de servidor de negocios y se produce una conmutación por error, es posible que los informes de supervisión no se conecta a la base de datos reflejada. Esto se debe a que, al instalar los informes de supervisión, solo se ha especificado la ubicación de la base de datos principal y no la de la base de datos reflejada.
+Si configura una base de datos reflejada para supervisar su base de datos, la reflejada asumirá el puesto de la base de datos principal cuando se produzca una conmutación por error. Sin embargo, si utiliza Skype para informes de supervisión del servidor de negocio y se produce una conmutación por error, es posible que los informes de supervisión no se conectan a la base de datos reflejada. Esto se debe a que, al instalar los informes de supervisión, solo se ha especificado la ubicación de la base de datos principal y no la de la base de datos reflejada.
   
 Para que los informes de supervisión pasen automáticamente a la base datos reflejada en caso de conmutación por error, necesita agregar la base de datos reflejada como "socio de conmutación por error" a las dos bases de datos que utilizan informes de supervisión (una base datos para los datos del registro detallado de llamadas y otra para los datos de Calidad de la experiencia). Tenga presente que este paso se ha de realizar después de haber instalado los informes de supervisión. Puede agregar información de socio de conmutación por error manualmente editando los valores de la cadena de conexión que utilizan las dos bases de datos. Para ello, realice el procedimiento siguiente:
   
@@ -40,7 +40,7 @@ Para que los informes de supervisión pasen automáticamente a la base datos ref
     
     **http://atl-sql-001.litwareinc.com/Reports_archinst**
     
-2. Cuando haya obtenido acceso a la página de inicio de Reporting Services, haga clic en **ServerReports** y en **Reports_Content**. Que le llevará a la página **Reports_Content** para el Skype para informes de supervisión de servidor de empresa.
+2. Cuando haya obtenido acceso a la página de inicio de Reporting Services, haga clic en **ServerReports** y en **Reports_Content**. Que le llevará a la página **Reports_Content** para la Skype para informes de supervisión del servidor de negocio.
     
 3. En la página **Reports_Content**, haga clic en el origen de datos **CDRDB**.
     
@@ -66,9 +66,6 @@ Para que los informes de supervisión pasen automáticamente a la base datos ref
     
 ## <a name="see-also"></a>Vea también
 
-#### 
-
-[Instalar la supervisión de informes en Skype para Business Server 2015](install-monitoring-reports.md)
+[Instalación de informes de supervisión en Skype para Business Server](install-monitoring-reports.md)
   
-[Supervisar los informes en Skype para Business Server 2015](../../manage/health-and-monitoring/monitoring-reports.md)
-
+[Uso de informes de supervisión en Skype para Business Server](../../manage/health-and-monitoring/monitoring-reports.md)

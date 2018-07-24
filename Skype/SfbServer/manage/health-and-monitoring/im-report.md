@@ -1,30 +1,30 @@
 ---
-title: Informe de mensajería instantánea punto a punto en Skype Empresarial Server 2015
+title: Informe de mensajería instantánea de punto a punto en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
-description: 'Resumen: Conozca el informe IM Peer-to-Peer en Skype para Business Server 2015.'
-ms.openlocfilehash: 0b7fc3d60aebc22e6c4c53e2e8c38fea12b0a6c0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Información sobre el informe de mensajería instantánea de punto a punto en Skype para Business Server.'
+ms.openlocfilehash: e7e65e11d6a8710c4a37fc3afe0a983d5ce9b14d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968617"
 ---
-# <a name="peer-to-peer-im-report-in-skype-for-business-server-2015"></a>Informe de mensajería instantánea punto a punto en Skype Empresarial Server 2015
+# <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Informe de mensajería instantánea de punto a punto en Skype para Business Server
  
-**Resumen:** Obtener información sobre el informe IM Peer-to-Peer en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre el informe de mensajería instantánea de punto a punto en Skype para Business Server.
   
 El informe de mensajería instantánea punto a punto ofrece información de tendencias sobre las sesiones de mensajería instantánea (MI) punto a punto, desglosadas por grupo de servidores y por tipo de autenticación. El informe puede mostrar la cantidad total de sesiones mantenidas durante el período de tiempo especificado (por ejemplo, día a día u hora a hora) o bien, puede mostrar la cantidad total de mensajes instantáneos enviados durante ese período de tiempo.
   
 ## <a name="accessing-the-peer-to-peer-im-report"></a>Obtener acceso al informe de mensajería instantánea de punto a punto
 
-Puede tener acceso el informe IM Peer-to-Peer sólo, abra el [informe resumen de la actividad de Peer-to-Peer de Skype para Business Server 2015](peer-to-peer-activity-summary-report.md) y haciendo clic en cualquiera de las siguientes métricas:
+Puede obtener acceso el informe de mensajería instantánea de punto a punto sólo por abrir el [informe de resumen de actividad punto a punto en Skype para Business Server](peer-to-peer-activity-summary-report.md) y, a continuación, haciendo clic en cualquiera de las métricas siguientes:
   
 - Total de sesiones de mensajería instantánea de punto a punto
     
@@ -38,7 +38,7 @@ De manera predeterminada, el informe de mensajería instantánea de punto a punt
 
 Los filtros se emplean para recuperar un conjunto de datos más específico o para ver los datos devueltos de diferentes formas. En la tabla siguiente, se muestran los filtros que se pueden utilizar en el informe de mensajería instantánea punto a punto.
   
-**Filtros de informe Peer-to-Peer IM**
+**Filtros del informe de mensajería instantánea punto a punto**
 
 |**Nombre.**|**Descripción**|
 |:-----|:-----|
@@ -51,11 +51,11 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
 
 En la tabla siguiente, se muestra la información proporcionada en el informe de mensajería instantánea punto a punto.
   
-**Métricas para la sesión de mensajería instantánea, Peer-to-Peer por grupo**
+**Métricas para la mensajería instantánea punto a punto por grupo**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
-|**Grupo de servidores** <br/> |No  <br/> |Nombre del grupo del registrador o servidor perimetral.  <br/> |
+|**Grupo de servidores** <br/> |No  <br/> |Nombre del grupo de registrador o servidor perimetral.  <br/> |
 |**Fecha y hora** <br/> |No  <br/> |Fecha y hora en las que tuvo lugar la sesión.  <br/> |
 |**Total** <br/> |No  <br/> |Cantidad total de sesiones o recuento total de mensajes.  <br/> |
    
@@ -63,9 +63,9 @@ En la tabla siguiente, se muestra la información proporcionada en el informe de
 
 En la tabla siguiente, se muestra la información proporcionada en el informe de mensajería instantánea punto a punto para cada tipo de autenticación utilizado por los participantes de una sesión punto a punto.
   
-**Métricas para la sesión de mensajería instantánea, Peer-to-Peer por tipo de autenticación**
+**Métricas para la mensajería instantánea punto a punto por tipo de autenticación**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Tipo de autenticación** <br/> |No  <br/> | Tipo de autenticación utilizado por los participantes de la sesión. Los valores suelen ser los siguientes: <br/>  Enterprise <br/>  Federated <br/>  PIC <br/> |
 |**Fecha y hora** <br/> |No  <br/> |Fecha y hora en las que tuvo lugar la sesión.  <br/> |

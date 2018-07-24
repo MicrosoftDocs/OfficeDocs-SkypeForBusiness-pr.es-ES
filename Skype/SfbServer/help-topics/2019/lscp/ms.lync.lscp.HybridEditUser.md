@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 57930738-0d43-4e2f-aaa1-bb0801e9ed32
+ROBOTS: NOINDEX, NOFOLLOW
 description: Utilice el asistente Editar usuarios para modificar las cuentas de usuario en la implementación. Para obtener más información, vea Use el Asistente para la administración híbrida.
-ms.openlocfilehash: 8ec062fbb1edd09ebafc047470788826ef824ec4
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 767ae68c5fd8776744ae29950da546a36201122b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997048"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998724"
 ---
 # <a name="hybrid-wizard-edit-users"></a>Asistente híbrido: Editar usuarios
  

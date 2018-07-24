@@ -3,7 +3,6 @@ title: Seleccionar un servicio
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,43 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
-description: Use el seleccionar un cuadro de diálogo servicio para buscar servicios disponibles en su entorno. Para usar un servicio existente, haga clic en un servicio en la lista y, a continuación, haga clic en Aceptar.
-ms.openlocfilehash: 04f70c8ba98d9f153998014cfa9fb4869b137bad
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ROBOTS: NOINDEX, NOFOLLOW
+description: Use el cuadro de diálogo Seleccionar un servicio para buscar los servicios disponibles en su entorno. Para usar un servicio existente, haga clic en un servicio de la lista y, a continuación, en Aceptar.
+ms.openlocfilehash: 73a1dee42639c20e6a16d9b269f3509e8ddecfee
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20049124"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016608"
 ---
 # <a name="select-a-service"></a>Seleccionar un servicio
- 
-Use el cuadro de diálogo **Seleccionar un servicio** para buscar los servicios disponibles en su entorno. Para usar un servicio existente, haga clic en un servicio de la lista y, a continuación, en **Aceptar**. 
-  
- 
-  
-## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 
-En la página **Seleccionar un servicio** puede realizar las siguientes tareas:
-  
-- [Configuración de categorías](http://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
-    
-- [Configurar complementos para salones](http://technet.microsoft.com/library/4eeaf19e-8369-4f6f-af65-a283cf7daa1c.aspx)
-    
-- [Configure las opciones del servidor de Chat en grupo global o de grupo de servidores de Chat en grupo](http://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
-    
- 
-  
-## <a name="to-configure-categories-for-chat-rooms"></a>Para configurar categorías para salones de chat
-
-En **Seleccionar un servicio**, seleccione el servicio correspondiente al grupo de servidores de Chat persistente en el que debe crearse la categoría. El servicio es el servidor de Chat persistente pertenece el grupo de servidores que el Chat persistente (cliente) se utiliza para identificar que la categoría del grupo de servidores. Una categoría puede pertenecer al grupo de un solo servidor de Chat persistente y no se mueve a otro equipo o compartida con otro grupo de servidores. 
-  
-## <a name="to-configure-add-ins-for-chat-rooms"></a>Para configurar complementos para salones de chat
-
-En **Seleccionar un servicio**, seleccione el servicio correspondiente al grupo de servidores de Chat persistente que necesita para crear el complemento. Los complementos no se pueden mover de un grupo a otro ni compartir entre diferentes grupos.
-  
-## <a name="to-configure-persistent-chat-options-for-a-specific-persistent-chat-server-pool"></a>Para configurar las opciones de Chat persistente para un grupo específico de servidor de Chat persistente
-
-En **Seleccionar un servicio**, seleccione el servicio asociado con el grupo de servidores de Chat persistente que desea configurar.
-  
-Para obtener información detallada sobre las características de servidor de Chat persistente y funciones, consulte [Información general de Persistent Chat Server](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) en la documentación de planeación. Para obtener información detallada sobre cómo trabajar con las configuraciones de servidor de Chat persistente, consulte [Configuring Persistent Chat Server](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) en la documentación de implementación y [administración de Lync Server 2013, Persistent Chat Server](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) en la documentación sobre operaciones.
+> [!NOTE] 
+> Chat persistente está disponible en Skype para Business Server 2015, pero ya no se admite en Skype para Business Server 2019. La misma funcionalidad está disponible en los equipos. Para obtener más información, consulte [actualización de Skype para la empresa a los equipos de Microsoft](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Si necesita usar chat en grupo, las opciones son migrar los usuarios que requieren esta funcionalidad a los equipos o continuar usando Skype para Business Server 2015.
 

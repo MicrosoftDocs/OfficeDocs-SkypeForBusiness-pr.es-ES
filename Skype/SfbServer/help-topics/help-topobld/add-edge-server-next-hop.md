@@ -1,9 +1,9 @@
 ---
-title: Agregar servidor de borde próximo salto
+title: Agregar próximo salto del servidor perimetral
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,17 +11,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
-description: El siguiente salto para el grupo del borde es un grupo de servidores Front-End (que puede ser un grupo de servidores Enterprise o un servidor Standard Edition), o bien, si su implementación incluye un Director, el siguiente salto es el Director.
-ms.openlocfilehash: b0e749db8ac368bbf79fcca00c60d3e23c6601a9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: El próximo salto para el grupo de servidores perimetrales es un grupo de servidores Front-End (que puede ser un grupo de servidores Enterprise o un servidor Standard Edition), o bien, si su implementación incluye un Director, el próximo salto es el Director.
+ms.openlocfilehash: 74fc11500241d1cb26a950adca8a05f55300f67d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996618"
 ---
-# <a name="add-edge-server-next-hop"></a>Agregar servidor de borde próximo salto
+# <a name="add-edge-server-next-hop"></a>Agregar próximo salto del servidor perimetral
  
-El siguiente salto para el grupo del borde es un grupo de servidores Front-End (que puede ser un grupo de servidores Enterprise o un servidor Standard Edition), o bien, si su implementación incluye un Director, el siguiente salto es el Director.
+El próximo salto para el grupo de servidores perimetrales es un grupo de servidores Front-End (que puede ser un grupo de servidores Enterprise o un servidor Standard Edition), o bien, si su implementación incluye un Director, el próximo salto es el Director.
   
-La compatibilidad para el acceso de usuarios externos se puede agregar al implementar la topología inicial o más adelante. Para obtener más información sobre cómo agregar servidores de borde a una topología existente, vea [Definir su topología de borde](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) en la documentación de implementación de servidor de borde.
+La compatibilidad para el acceso de usuarios externos se puede agregar al implementar la topología inicial o más adelante. Para obtener información detallada sobre la adición de servidores perimetrales a una topología existente, consulte [Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) en la documentación de implementación del servidor perimetral.
   
 

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
+ROBOTS: NOINDEX, NOFOLLOW
 description: En el cuadro de diálogo Editar directiva de movilidad, puede editar los detalles de una directiva de movilidad.
-ms.openlocfilehash: 6e7c8f1b043219fbc7cb098f15c006e907d1822d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 5f0a38dc4cd5a9d61412aeabbf333af587afae01
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969592"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987708"
 ---
 # <a name="edit-client-mobility-policy"></a>Editar directiva de movilidad de cliente
  
@@ -26,7 +27,6 @@ En el cuadro de diálogo **Editar directiva de movilidad** , puede editar los de
 
 En las siguientes listas se describen los menús, comandos, campos y propiedades de la página.
   
-### 
 
 - **Confirmar** Haga clic aquí para guardar los cambios en la configuración de directiva.
     

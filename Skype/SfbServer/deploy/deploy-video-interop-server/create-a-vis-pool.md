@@ -1,30 +1,29 @@
 ---
-title: Crear un grupo de VIS en Skype Empresarial Server 2015
+title: Crear un grupo de servidores con respecto de Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
-description: 'Resumen: Cree un grupo de servidores de interoperabilidad de vídeo en Skype para Business Server 2015 mediante el generador de topología.'
-ms.openlocfilehash: c66889530bbcc8753e8003667e6ea26589cd5daf
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Resumen: Cree un grupo de servidores de interoperabilidad de vídeo en Skype para Business Server mediante el generador de topología.'
+ms.openlocfilehash: f284163bc52f4e62c3ec5b1c7966f3c663ee09f7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501705"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978819"
 ---
-# <a name="create-a-vis-pool-in-skype-for-business-server-2015"></a>Crear un grupo de VIS en Skype Empresarial Server 2015
+# <a name="create-a-vis-pool-in-skype-for-business-server"></a>Crear un grupo de servidores con respecto de Skype para Business Server
  
-**Resumen:** Crear un grupo de servidores de interoperabilidad de vídeo en Skype para Business Server 2015 mediante el generador de topología.
+**Resumen:** Crear un grupo de servidores de interoperabilidad de vídeo en Skype para Business Server mediante el generador de topología.
   
 ### <a name="create-a-vis-or-vis-pool-using-topology-builder"></a>Crear un VIS o un grupo de VIS con el Generador de topologías
 
-1. Abra el Generador de topologías en el servidor front-end. En el panel izquierdo del generador de topología, haga clic en ** los grupos de servidores de servidor de interoperabilidad de vídeo ** y elija **Nuevo grupo de servidores de interoperabilidad de vídeo**. 
+1. Abra el Generador de topologías en el servidor front-end. En el panel izquierdo del generador de topología, haga clic con el botón secundario en **Grupos de servidores de interoperabilidad de vídeo** y elija **Nuevo grupo de servidores de interoperabilidad de vídeo**. 
     
 2. De este modo, se abrirá un asistente para **Crear un grupo de servidores de interoperabilidad de vídeo**. Proporcionar el FQDN del grupo de servidores para el nuevo servidor de interoperabilidad de vídeo y seleccione **este grupo de servidores tiene un servidor** o **este grupo de servidores tiene varios servidores** en función de sus requisitos, a continuación, haga clic en **siguiente**.
     
@@ -42,7 +41,7 @@ ms.locfileid: "19501705"
     
 5. Defina un puerto TCP o TLS.
     
-    Seleccione el servidor de interoperabilidad de vídeo recién agregado en el panel izquierdo del generador de topología, botón secundario haga clic en él y elija **Editar propiedades**. Habilite o actualice el puerto TCP o TLS (lo que corresponda en su caso) y seleccione **Aceptar**. Aunque TLS se agrega de forma predeterminada, solo TCP es el que se ha comprobado completamente con CUCM.
+    Seleccione el servidor de interoperabilidad de vídeo recién agregado en el panel izquierdo del generador de topología, botón secundario haga clic en él y elija **Editar propiedades**. Habilite o actualice el puerto TCP o TLS (lo que corresponda en su caso) y seleccione **Aceptar**. Aunque de forma predeterminada se agrega TLS, TCP sólo se ha comprobado exhaustivamente con Cisco Unified Communications Manager (CallManager o CUCM).
     
 6. Agregue una puerta de enlace de vídeo. Para ello, expanda Componentes compartidos, haga clic con el botón secundario en **Puertas de enlace de vídeo** y, luego, seleccione **Nueva puerta de enlace de vídeo**.
     
@@ -65,8 +64,8 @@ ms.locfileid: "19501705"
 Todas las tareas realizadas con el Generador de topologías tendrían que finalizar aquí. Continúe con la instalación del software en el nuevo servidor o en los nuevos servidores VIS.
 ## <a name="see-also"></a>Vea también
 
-[Implementar el rol de servidor de respecto de Skype para Business Server 2015](deploy-the-vis-server-role.md)
+[Implementar el rol de servidor de respecto de Skype para Business Server](deploy-the-vis-server-role.md)
 
-[Planeación de servidor de interoperabilidad vídeo en Skype para Business Server 2015](../../plan-your-deployment/video-interop-server.md)
+[Planeación de servidor de interoperabilidad vídeo en Skype para Business Server](../../plan-your-deployment/video-interop-server.md)
   
-[Crear y publicar la nueva topología de Skype para Business Server 2015](../../deploy/install/create-and-publish-new-topology.md)
+[Crear y publicar una nueva topología en Skype Empresarial Server 2015](../../deploy/install/create-and-publish-new-topology.md)

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Utilice las configuraciones de archivado para controlar las opciones para su Skype para la implementación de servidor empresarial, incluidas la habilitación y deshabilitación de las siguientes opciones de archivado:'
-ms.openlocfilehash: 3bac88f44fea669c0eb1219046067f1e348c413c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: d8e7adec0918cf13104857957442f1f0a5f4ff3d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973216"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004263"
 ---
 # <a name="archiving-configuration"></a>Configuración de archivado
  
@@ -64,5 +65,5 @@ La página **Configuración de archivado** muestra cada directiva de archivado c
     
 - **Actualizar** Puede actualizar la página de **Configuración de archivado** para comprobar el estado de las opciones de todas las configuraciones de archivado.
     
-Para obtener información detallada acerca de la característica de archivado y capacidades, que incluye la integración de Exchange, vea [Planear el archivado en Skype para Business Server 2015](../../../plan-your-deployment/archiving/archiving.md), [implementar el archivado de Skype para Business Server 2015](../../../deploy/deploy-archiving/deploy-archiving.md)y [administrar el archivado en Skype para 2015 empresariales de servidor](../../../manage/archiving/archiving.md).
+Para obtener información detallada acerca de la característica de archivado y capacidades, que incluye la integración de Exchange, consulte [Plan para el archivado en Skype para Business Server](../../../plan-your-deployment/archiving/archiving.md), [implementar el archivado de Skype para Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)y [administrar el archivado en Skype para la empresa Servidor](../../../manage/archiving/archiving.md).
 

@@ -1,35 +1,34 @@
 ---
-title: Realizar copia intermedia de certificados AV y OAuth en Skype Empresarial Server 2015 usando -Roll en Set-CsCertificate
+title: Fase certificados AV y OAuth en Skype para Business Server utilizando - Roll en Set-CsCertificate
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
-description: 'Resumen: Fase AV OAuth certificados y de Skype para Business Server 2015.'
-ms.openlocfilehash: 8d13a2e647861fadcc89c0a95442a79fe45c6124
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Resumen: Fase AV OAuth certificados y de Skype para Business Server.'
+ms.openlocfilehash: 3f616d7e67cf256cbf2a53ea86b3f051d959d4f5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504918"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996426"
 ---
-# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-2015-using--roll-in-set-cscertificate"></a>Realizar copia intermedia de certificados AV y OAuth en Skype Empresarial Server 2015 usando -Roll en Set-CsCertificate
+# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Fase certificados AV y OAuth en Skype para Business Server utilizando - Roll en Set-CsCertificate
  
-**Resumen:** Fase AV y OAuth certificados para Skype para Business Server 2015.
+**Resumen:** Fase AV y OAuth certificados para Skype para Business Server.
   
-Audio y vídeo (A / V) communications es un componente clave de Skype para Business Server 2015. Características como la conferencia de uso compartido y audio y vídeo de la aplicación se basan en los certificados asignados a los / servicio perimetral A/v, específicamente el A / servicio de autenticación de V.
+Audio y vídeo (A / V) communications es un componente clave de Skype para Business Server. Características como la conferencia de uso compartido y audio y vídeo de la aplicación se basan en los certificados asignados a los / servicio perimetral A/v, específicamente el A / servicio de autenticación de V.
   
 > [!IMPORTANT]
 > Esta nueva característica está diseñada para trabajar en lugar de A / servicio perimetral A/v y el certificado OAuthTokenIssuer. Otros tipos de certificados se pueden aprovisionar junto con el / servicio perimetral A/v y OAuth tipo de certificado, pero no se beneficiarán del comportamiento de coexistencia que el / será el certificado del servicio perimetral A/v.
   
-El Skype para cmdlets de PowerShell de Shell de administración de servidor empresarial que se usan para administrar Skype para Business Server 2015 certificados hace referencia al servicio perimetral A/v como el tipo de certificado AudioVideoAuthentication y el certificado OAuthServer como typeOAuthTokenIssuer. Para el resto de este tema y para identificar de forma exclusiva los certificados, se utilizará el nombre para el mismo tipo de identificador, AudioVideoAuthentication andOAuthTokenIssuer.
+El Skype para cmdlets de PowerShell de Shell de administración de servidor empresarial que se usan para administrar Skype para certificados de servidor empresarial hace referencia al servicio perimetral A/v como el tipo de certificado AudioVideoAuthentication y el certificado OAuthServer como typeOAuthTokenIssuer. Para el resto de este tema y para identificar de forma exclusiva los certificados, se utilizará el nombre para el mismo tipo de identificador, AudioVideoAuthentication andOAuthTokenIssuer.
   
-El servicio de autenticación A/V es responsable de emitir tokens que usan los clientes y otros consumidores de A/V. Los tokens se generan a partir de atributos del certificado y, cuando el certificado expira, se produce la pérdida de conexión y es necesario volver a unirse con un nuevo token generado por el nuevo certificado. Una nueva característica de Skype para Business Server 2015 va a solucionar este problema - la posibilidad de organizar un nuevo certificado antes de la antigua uno a expirar y permitir que ambos certificados continuar funcionando durante un período de tiempo. Esta característica usa funcionalidad actualizada en el Skype Set-CsCertificate para cmdlet del Shell de administración de servidor empresarial. El nuevo parámetro-Roll, con el parámetro existente - EffectiveDate, colocará el nuevo certificado AudioVideoAuthentication en el almacén de certificados. El certificado AudioVideoAuthentication más antiguo permanecerá todavía para validar con él los tokens emitidos. A partir de la implementación del nuevo certificado AudioVideoAuthentication, se producirá la siguiente serie de eventos:
+El servicio de autenticación A/V es responsable de emitir tokens que usan los clientes y otros consumidores de A/V. Los tokens se generan a partir de atributos del certificado y, cuando el certificado expira, se produce la pérdida de conexión y es necesario volver a unirse con un nuevo token generado por el nuevo certificado. Una nueva característica de Skype para Business Server va a solucionar este problema - la posibilidad de organizar un nuevo certificado antes de la antigua uno a expirar y permitir que ambos certificados continuar funcionando durante un período de tiempo. Esta característica usa funcionalidad actualizada en el Skype Set-CsCertificate para cmdlet del Shell de administración de servidor empresarial. El nuevo parámetro-Roll, con el parámetro existente - EffectiveDate, colocará el nuevo certificado AudioVideoAuthentication en el almacén de certificados. El certificado AudioVideoAuthentication más antiguo permanecerá todavía para validar con él los tokens emitidos. A partir de la implementación del nuevo certificado AudioVideoAuthentication, se producirá la siguiente serie de eventos:
   
 > [!TIP]
 > Usa el Skype para cmdlets de Shell de administración de servidor empresarial para la administración de certificados, puede solicitar certificados independientes y distintos para cada propósito en el servidor perimetral. Usar al Asistente para certificados en el Skype para el Asistente para la implementación de servidor de Business le ayuda a crear certificados, pero normalmente es del tipo **predeterminado** qué parejas todos los certificados se usa para el servidor perimetral en un solo certificado. La práctica recomendada si va a usar la característica de certificado en secuencia es desvincular el certificado AudioVideoAuthentication de los demás fines de certificado. Puede aprovisionar y crear un acopia intermedia de un certificado del tipo predeterminado, pero solo la parte de AudioVideoAuthentication del certificado combinado se beneficiará de ello. Un usuario utilizado (por ejemplo) en una conversación de mensajería cuando expire el certificado instantánea tendrá que cerrar la sesión y volver a iniciarla para realizar el uso del nuevo certificado asociado con el servicio de servidor perimetral de acceso. Se producirá un comportamiento similar para un usuario que participa en una conferencia Web con el servicio de servidor perimetral de conferencia Web. El certificado OAuthTokenIssuer es un tipo específico que se comparte en todos los servidores. Puede crear y administrar el certificado en un solo lugar y se almacena el certificado en el almacén de Administración Central para todos los demás servidores.
@@ -131,7 +130,7 @@ Remove-CsCertificate -Type OAuthTokenIssuer -Previous
 
 ## <a name="see-also"></a>Vea también
 
-[Administrar la autenticación de servidor a servidor (OAuth) y las aplicaciones asociadas en Skype para Business Server 2015](server-to-server-and-partner-applications.md)
+[Administrar la autenticación de servidor a servidor (OAuth) y las aplicaciones asociadas en Skype para Business Server](server-to-server-and-partner-applications.md)
 
 [Set-CsCertificate](https://docs.microsoft.com/powershell/module/skype/set-cscertificate?view=skype-ps)
   

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: Introducción a la administración de sistemas de salón de Skype v2.
-ms.openlocfilehash: 5e6fe310051d5fc48875a878e64868a8a5672346
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 81ad0e43f68127e3a178434ebdd8ac8a43c94adc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2018
-ms.locfileid: "19136340"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014906"
 ---
 # <a name="management-overview"></a>Introducción a la administración 
 
@@ -40,7 +40,7 @@ Información sobre el estado de la aplicación de v2 de Skype salón sistemas y 
 |:-----|:-----|
 |HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (dword) 1  <br/> |Permite v2 de sistemas de salón de Skype iniciar copia de seguridad  <br/> |
 |Administración de energía -\> en AC, desactivar pantalla después de 10 minutos  <br/> Administración de energía -\> en AC, nunca colocar del sistema al modo de suspensión  <br/> |Permite v2 de sistemas de salón de Skype para desactivar muestra adjunto y reactivar automáticamente  <br/> |
-|net accounts /maxpwage:unlimited  <br/> O medios alternativos para deshabilitar la opción de caducidad de la contraseña en la cuenta local. Si esto no se realiza, la cuenta de Skype no podrá iniciar sesión indicando que la contraseña ha caducado. Tenga en cuenta que esto afectará todas las cuentas locales de la máquina y, por consiguiente, si no se configura esto, la cuenta administrativa del cuadro eventualmente también caducará.  <br/> |Permite que la cuenta de Skype siempre inicie sesión  <br/> |
+|net accounts /maxpwage:unlimited  <br/> O medios alternativos para deshabilitar la opción de caducidad de la contraseña en la cuenta local. Si esto no se realiza, la cuenta de Skype no podrá iniciar sesión indicando que la contraseña ha caducado. Tenga en cuenta que esto afectará todas las cuentas locales de la máquina y, por consiguiente, si no se configura esto, la cuenta administrativa del cuadro eventualmente también caducará.   <br/> |Permite que la cuenta de Skype siempre inicie sesión  <br/> |
    
 Transferencia de archivos mediante directivas de grupo se describe en [configurar un elemento de archivo](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx).
   
@@ -75,14 +75,14 @@ Se recomienda que configure alertas del conjunto de aplicaciones de administraci
 
 Para obtener más información sobre el modo de administración y solución de problemas, vea [administrar sistemas de salón de Skype v2](room-systems-v2-operations.md#admin-mode-and-device-management). 
 
-### <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Vea también
 
 [Ayuda de la versión 2 de sistemas de salón de Skype](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Planeación de la sala de Skype v2 de sistemas](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan para Sistemas de salas de Skype v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 
-[Implementación de salón de Skype v2 de sistemas](../../deploy/deploy-clients/room-systems-v2.md)
+[Implementar Sistemas de salas de Skype v2](../../deploy/deploy-clients/room-systems-v2.md)
 
-[Configurar una consola de v2 de sistemas de salón de Skype](../../deploy/deploy-clients/console.md)
+[Configurar una consola de Sistemas de salas de Skype v2](../../deploy/deploy-clients/console.md)
 
-[Administrar una configuración de la consola de sistemas de salón de Skype v2 de forma remota con un archivo de configuración XML](xml-config-file.md)
+[Administrar la configuración de una consola de Sistemas de salas de Skype v2 de forma remota con un archivo XML de configuración](xml-config-file.md)

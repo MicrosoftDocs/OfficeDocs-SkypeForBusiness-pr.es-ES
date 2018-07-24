@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d0e9b4d0-7110-4a29-b5e5-0e116ea6fa9c
+ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: a0359969b959fbd9efdd09fb853f8fa0db3ef041
-ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
+ms.openlocfilehash: cebe1f88e453e1aa05a6a3ce86b915594703ef8c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20088486"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20979737"
 ---
 # <a name="call-detail-recording-create-new-or-edit-existing"></a>Detalles de las llamadas: Crear nuevos o editar los existentes
  

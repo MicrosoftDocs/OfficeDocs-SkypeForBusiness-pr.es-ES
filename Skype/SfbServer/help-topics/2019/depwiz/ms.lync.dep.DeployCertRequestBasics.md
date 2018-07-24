@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
+ROBOTS: NOINDEX, NOFOLLOW
 description: La página nombre y configuración de seguridad proporciona un cuadro de texto para definir un nombre descriptivo, una lista desplegable para la longitud en bits del par de claves público y privado y una casilla de verificación que le permite marcar la clave privada del certificado como exportable.
-ms.openlocfilehash: 9b8e306c9fa7611622e293185dcf08ff97d3e876
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 474111f6f732353c80ceea88da3e9cebda1caae3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991988"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996469"
 ---
 # <a name="certificate-request-basic"></a>Solicitud de certificado (básica)
  

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Skype para la herramienta de planeación de Business Server
-ms.openlocfilehash: a5c482dadf2ffd39e8927e1924e50117dd13e1c8
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: ea3c9375a1a28f5c36ad464fa7c71338383fe7bc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974032"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983122"
 ---
 # <a name="feature-overview-planning-tool"></a>Introducción a la característica (herramienta de planeación)
  
@@ -60,6 +60,9 @@ Los elementos restantes se rellenaron con las respuestas proporcionadas a las pr
 - **Chat persistente**
     
     El chat persistente permite que varios usuarios participen en conversaciones en las que publican y obtienen acceso a contenido de temas específicos, incluidos texto, vínculos y archivos. Aunque los usuarios se pueden comunicar en tiempo real durante una sesión, el contenido de cada sesión es persistente, lo que significa que sigue disponible después de que finaliza la sesión.
+
+    > [!NOTE] 
+    > Chat persistente está disponible en Skype para Business Server 2015, pero ya no se admite en Skype para Business Server 2019. La misma funcionalidad está disponible en los equipos. Para obtener más información, consulte [actualización de Skype para la empresa a los equipos de Microsoft](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Si necesita usar chat en grupo, las opciones son migrar los usuarios que requieren esta funcionalidad a los equipos o continuar usando Skype para Business Server 2015.
     
 ### <a name="users"></a>Usuarios
 
@@ -75,7 +78,7 @@ Los elementos restantes se rellenaron con las respuestas proporcionadas a las pr
     
 - **Federación con proveedores de servicios basados en XMPP**
     
-    Skype para Business Server presenta un proxy XMPP totalmente integrado (implementado en los servidores perimetrales) y una puerta de enlace XMPP implementado en los servidores Front-End. Puede implementar agregar y configurar al proxy XMPP y puerta de enlace XMPP permitirá su Skype para los usuarios de Business Server permite agregar contactos de presencia y socios basados en XMPP para la mensajería instantánea (IM).
+    Skype para Business Server 2015 introdujo un proxy XMPP totalmente integrado (implementado en los servidores perimetrales) y una puerta de enlace XMPP implementado en los servidores Front-End. Puede implementar agregar y configurar al proxy XMPP y puerta de enlace XMPP permitirá su Skype para los usuarios de Business Server permite agregar contactos de presencia y socios basados en XMPP para la mensajería instantánea (IM).
     
 - **Movilidad**
     
@@ -84,6 +87,9 @@ Los elementos restantes se rellenaron con las respuestas proporcionadas a las pr
 - **Buzón de correo de W15 Exchange**
     
     Skype para Business Server permite que los mensajes de correo de voz almacenados en Exchange mensajería unificada (UM); los mensajes de correo de voz, a continuación, se mostrará como mensajes de correo electrónico en las bandejas de entrada de los usuarios.
+
+    > [!NOTE]
+    > Mensajería unificada de Exchange como conocidos anteriormente ya no está disponible en Exchange 2019, pero puede seguir usando el sistema telefónico a los mensajes de correo de voz de registro y, a continuación, deje la grabación en el buzón de Exchange del usuario. Para obtener más información, vea [servicio de planeación de correo de voz en la nube](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) .
     
 ### <a name="voice"></a>Voz
 
@@ -95,7 +101,10 @@ Los elementos restantes se rellenaron con las respuestas proporcionadas a las pr
     
 - **Mensajería unificada de Exchange**
     
-    Correo de voz de mensajería unificada de Exchange (UM) combina y correo electrónico en una sola infraestructura de mensajería. Skype para Business Server mensajería unificada de Exchange usa para proporcionar el contestador automático, acceso de suscriptor, notificación de llamadas y servicios de operador automático. Si utiliza estos servicios, debe integrar la mensajería unificada de Exchange y Skype para Business Server en una topología de Active Directory compartida.
+    Correo de voz de mensajería unificada de Exchange (UM) combina y correo electrónico en una sola infraestructura de mensajería. Skype para Business Server 2015 mensajería unificada de Exchange usa para proporcionar el contestador automático, acceso de suscriptor, notificación de llamadas y servicios de operador automático. Si utiliza estos servicios, debe integrar la mensajería unificada de Exchange y Skype para Business Server en una topología de Active Directory compartida.
+
+    > [!NOTE]
+    > Mensajería unificada de Exchange como conocidos anteriormente ya no está disponible en Exchange 2019, pero puede seguir usando el sistema telefónico a los mensajes de correo de voz de registro y, a continuación, deje la grabación en el buzón de Exchange del usuario. Para obtener más información, vea [servicio de planeación de correo de voz en la nube](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) .
     
 ### <a name="additional-deployment-options"></a>Opciones de implementación adicionales
 

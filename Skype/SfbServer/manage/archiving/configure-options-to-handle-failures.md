@@ -1,26 +1,26 @@
 ---
-title: Configurar las opciones de archivado para gestionar las fallas en Skype Empresarial Server 2015
+title: Configurar las opciones de archivado para controlar los errores en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
-description: 'Resumen: Conozca cómo bloquear sesiones de mensajería instantánea y conferencias en el caso de un Skype Error 2015 de servidor empresariales que impedirían que el archiving.'
-ms.openlocfilehash: 4ad6b8eb496555751aab31949aa3e710749e0262
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información sobre cómo bloquear sesiones de mensajería instantánea y conferencias en el caso de un Skype para errores del servidor de negocio que podrían impedir el archivado.'
+ms.openlocfilehash: 952ee82ca3be045fc0407a6ce2f61fdaead12030
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998717"
 ---
-# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server-2015"></a>Configurar las opciones de archivado para gestionar las fallas en Skype Empresarial Server 2015
+# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Configurar las opciones de archivado para controlar los errores en Skype para Business Server
 
-**Resumen:** Obtenga información sobre cómo bloquear sesiones de mensajería instantánea y conferencias en el caso de un Skype Error 2015 de servidor empresariales que impedirían que el archiving.
+**Resumen:** Obtenga información sobre cómo bloquear sesiones de mensajería instantánea y conferencias en el caso de un Skype para errores del servidor de negocio que podrían impedir el archivado.
   
-Si el archivado es un requisito para su organización, puede bloquear sesiones de mensajería instantánea y conferencias en caso de un Skype error Business Server que podrían impedir el archivado. A veces se denomina modo crítico. Por ejemplo, si existe un problema con un servicio de almacenamiento, la mensajería instantánea se bloquearía para los usuarios cuyas comunicaciones están habilitadas para el archivado. Tanto la mensajería instantánea como las conferencias se recuperan automáticamente después de que se corrijan los errores. 
+Si el archivado es un requisito para su organización, puede bloquear las sesiones de mensajería instantánea y conferencias en el caso de un Skype para errores del servidor de negocio que podrían impedir el archivado. A veces se denomina modo crítico. Por ejemplo, si existe un problema con un servicio de almacenamiento, la mensajería instantánea se bloquearía para los usuarios cuyas comunicaciones están habilitadas para el archivado. Tanto la mensajería instantánea como las conferencias se recuperan automáticamente después de que se corrijan los errores. 
   
 ## <a name="configure-critical-mode-by-using-the-control-panel"></a>Configurar el modo crítico con el Panel de control
 
@@ -28,7 +28,7 @@ Para especificar si las sesiones de comunicación se tienen que permitir en caso
   
 1. Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna. 
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de Admin para abrir el Skype para Panel de Control de servidor empresarial. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial. 
     
 3. En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Configuración de archivado**.
     
@@ -40,7 +40,7 @@ Para especificar si las sesiones de comunicación se tienen que permitir en caso
     
 ## <a name="configure-critical-mode-by-using-windows-powershell"></a>Configurar el modo crítico con Windows PowerShell
 
-También puede especificar si se deben permitir las sesiones de comunicación en caso de errores que podrían impedir el archivado mediante el cmdlet **Set-CsArchivingConfiguration** con el parámetro BlockOnArchiveFailure.
+También puede especificar si se deben permitir las sesiones de comunicación en caso de un fallo que podría impedir el archivado mediante el cmdlet **Set-CsArchivingConfiguration** con el parámetro BlockOnArchiveFailure.
   
 Por ejemplo, el siguiente comando deshabilita la comunicación en el caso de un error de archivado:
   

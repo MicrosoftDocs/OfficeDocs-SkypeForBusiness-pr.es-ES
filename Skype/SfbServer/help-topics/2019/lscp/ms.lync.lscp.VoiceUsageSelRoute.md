@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
+ROBOTS: NOINDEX, NOFOLLOW
 description: Use el cuadro de diálogo Seleccionar rutas para buscar rutas de voz existentes que se pueden usar.
-ms.openlocfilehash: a0db47ee2ce3ad80d151c6ed25bb21f82a766d54
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 487ff06b8cccc68dc918eaee95dc3f419f320537
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20044224"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983157"
 ---
 # <a name="select-routes"></a>Seleccionar rutas
  

@@ -1,5 +1,5 @@
 ---
-title: Aquí es lo que obtiene con el sistema telefónico en Office 365
+title: Esto es lo que conseguirá con Sistema telefónico en Office 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: e2ba535de48e11e503280b8bd65fbe78611dc47d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4d3ec5d9d490a7ad0064611d36b788da69b726e2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975447"
 ---
-# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Aquí es lo que obtiene con el sistema telefónico en Office 365
+# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Esto es lo que conseguirá con Sistema telefónico en Office 365
 
 Un PBX es un sistema telefónico dentro de una empresa. El sistema de teléfono en el complemento de Office 365 proporciona capacidades de PBX, pero sin la costoso y complejo de equipos. 
   
@@ -77,7 +78,7 @@ Vea estos artículos para planear y configurar el sistema telefónico en su nego
   
 - [Configurar planes de llamada](../what-are-calling-plans-in-office-365/set-up-calling-plans.md): este artículo contiene instrucciones paso a paso para configurar la aplicación con sus números de teléfono o para transferir los números de teléfono existente a Skype para la empresa.
     
-- [Planear el sistema telefónico en la solución de Office 365 (PBX en la nube)](https://go.microsoft.com/fwlink/?LinkId=708645): TechNet este artículo dispone de todas las opciones de implementación. También tiene información acerca de cómo planificar una solución completamente basada en la nube. 
+- [Planear el sistema telefónico en la solución de Office 365 (PBX en la nube)](https://go.microsoft.com/fwlink/?LinkId=708645): en este artículo se dispone de todas las opciones de implementación. También tiene información acerca de cómo planificar una solución completamente basada en la nube. 
     
 - [Skype para profesionales y los equipos de Microsoft complemento licencias](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md): Obtenga información sobre las licencias que necesitará comprar para obtener el sistema telefónico en Office 365.
     

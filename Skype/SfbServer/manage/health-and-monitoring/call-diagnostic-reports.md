@@ -1,41 +1,41 @@
 ---
-title: Informes de diagnósticos de llamadas en Skype Empresarial Server 2015
+title: Llamar a informes de diagnóstico en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8d362dd9-a119-4601-a3b4-3e7ed0aaa92e
-description: 'Resumen: Conozca la multiusuario llamar a informes de diagnóstico utilizados en Skype para Business Server 2015.'
-ms.openlocfilehash: 0d3d7ad0968e427e70e2e2947e81b3def5856029
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Conozca la multiusuario llamar a informes de diagnóstico usadas en Skype para Business Server.'
+ms.openlocfilehash: 26350a48c5b7073af9af6fe5589d6a56a2b5b60e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004492"
 ---
-# <a name="call-diagnostic-reports-in-skype-for-business-server-2015"></a>Informes de diagnósticos de llamadas en Skype Empresarial Server 2015
+# <a name="call-diagnostic-reports-in-skype-for-business-server"></a>Llamar a informes de diagnóstico en Skype para Business Server
  
-**Resumen:** Conozca el multiusuario llamar a informes de diagnóstico utilizados en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre la multiusuario llamar a informes de diagnóstico usadas en Skype para Business Server.
   
 Los informes de diagnósticos de llamadas contienen información resumida y datos de diagnóstico sobre las sesiones punto a punto y de conferencia en las que se ha producido un error.
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Llamar al informe resumen de diagnóstico en Skype para Business Server 2015](summary-report.md) Proporciona un resumen general de sesiones fallidas de peer-to-peer y sesiones de la conferencia. Sesiones de Peer-to-peer son sesiones que involucran a sólo dos participantes. Sesiones de conferencias implican a tres o más participantes.
+- [Llamar al informe de resumen de diagnóstico en Skype para Business Server](summary-report.md) Proporciona un resumen general de las sesiones de punto a punto con errores y las sesiones de conferencia. Las sesiones de punto a punto son las sesiones que implican a solo dos participantes. Las sesiones de conferencia relacionadas con tres o más participantes.
     
-- [Informe de diagnóstico de la actividad de Peer-to-Peer en Skype para Business Server 2015](peer-to-peer-activity-diagnostic-report.md) Proporciona una visión general de la tendencia de sesiones fallidas de peer-to-peer. En una sesión punto a punto solo participan dos personas.
+- [Informe de diagnóstico de actividad punto a punto en Skype para Business Server](peer-to-peer-activity-diagnostic-report.md) Proporciona una visión general de tendencias de sesiones de punto a punto con errores. En una sesión punto a punto solo participan dos personas.
     
-- [Informe de diagnóstico de conferencia en Skype para Business Server 2015](conference-diagnostic-report.md) Proporciona una visión general de tendencias de errores de conferencias y vistas de tendencia para cada modalidad de conferencia. En las sesiones de conferencia participan como mínimo tres personas.
+- [Informe de diagnósticos de conferencia en Skype para Business Server](conference-diagnostic-report.md) Proporciona una visión general de tendencias de las sesiones de conferencia con errores y vistas de tendencias para cada modalidad de conferencia. En las sesiones de conferencia participan como mínimo tres personas.
     
-- [Informan de errores Top en Skype para Business Server 2015](top-failures-report.md) Proporciona una lista de los errores más frecuentes y su evolución en el tiempo.
+- [Informe de errores principales en Skype para Business Server](top-failures-report.md) Proporciona una lista de los errores más frecuentes y sus tendencias a través del tiempo.
     
-- [Informe de distribución falla en Skype para Business Server 2015](failure-distribution-report.md) Proporciona un análisis de sesiones fallidas.
+- [Informe de distribución de errores en Skype para Business Server](failure-distribution-report.md) Proporciona un análisis de las sesiones con errores.
     
-- [Informe lista de fallo en Skype para Business Server 2015](failure-list-report.md) Proporciona información detallada acerca de los participantes individuales que participan en una conferencia error.
+- [Informe de lista de errores en Skype para Business Server](failure-list-report.md) Proporciona información detallada acerca de los participantes individuales en una conferencia con errores.
     
-- [Informe de diagnóstico en Skype para Business Server 2015](diagnostic-report.md) Proporciona información diagnóstico y solución de problemas (incluidos los encabezados diagnóstico y códigos de respuesta SIP e IDs) para la sesiones fallidas.
+- [Informe de diagnóstico en Skype para Business Server](diagnostic-report.md) Proporciona información de diagnóstico y solución de problemas (incluidos los códigos de respuesta SIP y los identificadores y encabezados de diagnóstico) para las sesiones con errores.
     
 

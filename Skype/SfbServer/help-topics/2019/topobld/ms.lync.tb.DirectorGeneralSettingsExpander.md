@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 description: 'Para editar la configuración de un Director existente, le presentamos las secciones siguientes:'
-ms.openlocfilehash: 47eddf9761c9751960f887c173521587c4e6c54a
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: fb42d87140b3a4db2cef0bb70a976d1b9242bbf8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19971344"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003416"
 ---
 # <a name="director-general-settings-expander"></a>Expansor de configuración General del director
  
@@ -26,9 +26,8 @@ Para editar la configuración de un Director existente, le presentamos las secci
     
 - Servicios web
     
-## 
 
-### <a name="general-settings"></a>Configuración general
+## <a name="general-settings"></a>Configuración general
 
 Nombre de dominio completo (FQDN) del grupo de servidores Director. Edite el FQDN del servidor para cambiar el valor correspondiente. Necesita haber un registro host (A) de DNS que coincida con el nuevo valor.
   
@@ -41,7 +40,7 @@ Supervisión del almacén de SQL Server.
 > [!IMPORTANT]
 > Antes de publicar la nueva topología que se ha definido, el servidor especificado necesitará existir y estar incorporado en el dominio. Si ha creado un nuevo recurso compartido de archivos, el recurso compartido de archivos debe crearse en el servidor que designe. 
   
-### <a name="web-services"></a>Servicios web
+## <a name="web-services"></a>Servicios web
 
 Para editar o especificar opciones adicionales para los servicios Web en el grupo de directores, modificar o especificar la configuración en los servicios Web internos y los servicios Web externos.
   
@@ -50,7 +49,7 @@ Para **servicios web de interno** puede especificar lo siguiente:
 > [!CAUTION]
 > Si tiene más de un grupo de servidores Front-End o servidor Front-End los servicios Web externos FQDN debe ser único. Por ejemplo, si define el FQDN de un servidor Front-End de servicios Web externos como **pool01.contoso.com**, no puede usar **pool01.contoso.com** para otro grupo de servidores Front-End o servidor Front-End. Si va a implementar también los directores, la externa FQDN definido para cualquier Director de los servicios Web o debe ser único de cualquier otro grupo de directores Director o Director del grupo de servidores, así como cualquier otro grupo de servidores Front-End o un servidor Front-End. Si decide reemplazar los servicios web internos con un FQDN autodefinido, cada FQDN debe ser único de cualquier otro grupo de servidores Front-End, Director o un grupo de directores.
   
-Si selecciona invalidar FQDN, puede especificar un FQDN diferente para la identidad de los servicios Web internos en el grupo de servidores. De forma predeterminada, el valor es el nombre del grupo actual, tal como se define para el grupo de directores.
+Si selecciona FQDN de reemplazo, puede especificar un nombre de dominio completo distinto para la identidad de Servicios web internos en el grupo de servidores. De forma predeterminada, el valor es el nombre del grupo actual, tal como se define para el grupo de directores.
   
 Puede especificar los puertos de escucha y publicados para HTTP y HTTPS que requiere la implementación. La configuración predeterminada del puerto 80 para HTTP y el puerto 443 para HTTPS es la configuración más comunes y normalmente no es necesario que cambiarse a menos que tengan requisitos específicos dentro de la organización y el diseño de la infraestructura.
   

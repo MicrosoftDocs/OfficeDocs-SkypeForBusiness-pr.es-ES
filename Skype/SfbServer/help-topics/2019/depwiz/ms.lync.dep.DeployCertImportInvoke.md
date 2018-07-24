@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1c248faa-2023-48b2-8cac-9a28045b72c3
+ROBOTS: NOINDEX, NOFOLLOW
 description: En la página ejecución de comandos, revise la información de resumen para el certificado importado. En la lista desplegable, seleccione el archivo de registro de certificado de importación. Asegúrese de que el archivo de registro de importar certificado está visible en la lista desplegable. Haga clic en Ver registro para revisar los detalles de la importación del certificado. Cuando haya terminado de revisar el resumen y el archivo de registro, haga clic en Finalizar.
-ms.openlocfilehash: 9823a19d98cf60702e37e0a6125dc0f80cad59b9
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 51617b3cb88c379138525ae8621b2e705d0d00bf
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973492"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004087"
 ---
 # <a name="import-certificate-invoke"></a>Importar certificado (invocar)
  

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Antes de empezar a diseñar y planear su Skype para infraestructura de Business Server 2015 mediante el uso de la Skype para la herramienta de planeación de Business Server 2015, primero debe instalar la herramienta de planeación. La herramienta de planeación no necesita implementarse en una estación de trabajo o servidor que forma parte de la infraestructura o el dominio donde va a instalar Skype para Business Server 2015. El archivo Léame que acompaña a la herramienta de planeación detalla información importante sobre la instalación y uso de la herramienta. Se ha duplicado aquí una parte de la información del archivo Léame para mayor claridad.
-ms.openlocfilehash: e71d08c6378984e23e0994d7dda6d57f0e44abc2
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 462964672f0fe9aaf426bd196357ffb8eca05e9d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504834"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002853"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Instalar la Herramienta de planeación en Skype Empresarial Server 2015
  
@@ -47,9 +47,9 @@ Además, la herramienta de planeación requiere Microsoft .NET Framework 4.5.
   
 Después de que se cumplen los requisitos de preinstalación, a continuación, puede instalar la herramienta de planeación.
   
-## 
 
-### <a name="to-install-the-planning-tool"></a>Para instalar la Herramienta de planeación
+
+## <a name="to-install-the-planning-tool"></a>Para instalar la Herramienta de planeación
 
 1. Inicie sesión en el equipo local como miembro del grupo Administradores.
     
@@ -108,4 +108,4 @@ La exportación del diseño a Microsoft Visio genera un diagrama para su uso en 
 ## <a name="see-also"></a>Vea también
 <a name="Optional_Software"> </a>
 
-[Instalación de la herramienta de planeación](http://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)
+[Instalar la herramienta de planeación](http://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)

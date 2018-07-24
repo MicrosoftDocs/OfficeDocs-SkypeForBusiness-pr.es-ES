@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 'Dispone de las siguientes secciones para editar la configuración de un grupo de servidores front-end o un servidor Standard Edition:'
-ms.openlocfilehash: d992854753cf3b6c11481c0b3725d0e5bb30329b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 6ec94dffe46bf29b7665ef362f8084a8fd2a4948
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973076"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988914"
 ---
 # <a name="front-end-general-settings-expander"></a>Expansor de configuración general front-end
  
@@ -133,7 +133,7 @@ En el caso de un servidor Standard Edition, puede configurar las opciones genera
 
 Puede definir la siguiente configuración general:
   
-- ** FQDN **. El valor del nombre de dominio completo no se puede modificar. Para cambiar el nombre de dominio completo asociado con un servidor Standard Edition, necesita quitar y redefinir dicho servidor.
+- **FQDN**. El valor del nombre de dominio completo no se puede modificar. Para cambiar el nombre de dominio completo asociado con un servidor Standard Edition, necesita quitar y redefinir dicho servidor.
     
 - Seleccione **Usar todas las direcciones IP configuradas** o **Limitar el uso del servicio a las direcciones IP seleccionadas**. Si decide limitar el servicio a determinadas direcciones IP definidas, necesitará definir la dirección IP principal que el servidor usará para todas las comunicaciones, excepto RTC. Para RTC hay que definir una dirección IP aparte. También puede seleccionar **Habilitar IPv6** para habilitar IPv6 para este servidor.
     

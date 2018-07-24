@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: En este artículo se describe la administración remota de la configuración predeterminada utilizada por un dispositivo de v2 de sistemas de salón de Skype, incluyen la aplicación de un tema personalizado.
-ms.openlocfilehash: 939b0ce13aac70a9a80b1cae246a9491b4c098de
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 9310683d3dbe274721f2bdcd583492b63a10d821
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569162"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015602"
 ---
 # <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>Administrar la configuración de una consola de Sistemas de salas de Skype v2 de forma remota con un archivo XML de configuración
  
@@ -67,7 +67,7 @@ Si el archivo XML está mal formado (es decir, que un valor de variable es del t
   
 **Elementos XML**
  
-|**Elemento**|**Tipo de**|**Nivel de**|**Uso**|
+|**Elemento**|**Tipo**|**Nivel**|**Uso**|
 |:-----|:-----|:-----|:-----|
 |\<SkypeSettings\>  <br/> |Contenedor de todos los elementos.  <br/> ||Obligatorio.  <br/> |
 | \<AutoScreenShare\> <br/> |Valor booleano & #x 2777; <br/> |Primera & #x 2776; <br/> | Si se cumple, se habilita el uso compartido de pantalla automático. <br/> |
@@ -105,7 +105,7 @@ Si el archivo XML está mal formado (es decir, que un valor de variable es del t
   
 ## <a name="manage-console-settings-using-an-xml-configuration-file"></a>Administrar la configuración de la consola con un archivo XML de configuración
 
-En el inicio, si una consola de v2 de sistemas de salón de Skype busca un archivo XML denominado SkypeSettings.xml en la ubicación ** C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, se aplicarán las opciones de configuración que se indican en el archivo XML, a continuación, elimine el archivo XML.
+En el inicio, si una consola de v2 de sistemas de salón de Skype busca un archivo XML denominado SkypeSettings.xml en la ubicación **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, se aplicará las opciones de configuración indicada por el archivo XML, a continuación, elimine el archivo XML.
   
 Dependiendo de cuántos dispositivos de sistemas de salón de Skype v2 tiene su empresa y la forma que elija Administrar para configurarlos, hay varias maneras para colocar el archivo de configuración XML. Una vez que el archivo se inserte en la consola, reinícielo para procesar los cambios en la configuración. El archivo XML de configuración se eliminará una vez que se procese correctamente. Los métodos de administración sugeridos para dispositivos de sistemas de salón de Skype v2 se tratan en:
   
@@ -127,6 +127,6 @@ El archivo XML de configuración se debe actualizar al iniciarse el dispositivo 
 ## <a name="see-also"></a>Vea también
 <a name="Themes"> </a>
 
-[Administración de salón de Skype v2 de sistemas](skype-room-systems-v2.md)
+[Administrar Sistemas de salas de Skype v2](skype-room-systems-v2.md)
 
 [Configurar un elemento de archivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)

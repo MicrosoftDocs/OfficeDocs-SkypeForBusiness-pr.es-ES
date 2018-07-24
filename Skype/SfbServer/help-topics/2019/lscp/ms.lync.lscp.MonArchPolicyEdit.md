@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Use las directivas de archivado para controlar el archivado de comunicaciones internas y externas en su implementación para los usuarios que están hospedados en Skype para Business Server. Las directivas de archivado incluyen la directiva global y, de forma opcional, una o varias directivas de usuario y de sitio:'
-ms.openlocfilehash: c8061d5b92656e473e628f95e0fe410df248f7ce
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 9bb8057cd7d3d6b82e55a6045713f0183b3d3b01
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987812"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000800"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>Directiva de archivado: Crear nueva o editar existente
  
@@ -46,5 +47,5 @@ Especifique las siguientes opciones para configurar los ajustes de una nueva dir
     
 - **Archivar comunicaciones externas** Seleccione esta casilla para habilitar el archivado de comunicaciones que incluyan los usuarios externos, como los usuarios remotos, (incluidos los usuarios anónimos y configuración de mensajería instantánea pública) y los socios federados. Esta opción no está habilitada de forma predeterminada en ninguna directiva.
     
-Para obtener información detallada acerca de la característica de archivado y capacidades, que incluye la integración de Exchange, vea [Planear el archivado en Skype para Business Server 2015](../../../plan-your-deployment/archiving/archiving.md), [implementar el archivado de Skype para Business Server 2015](../../../deploy/deploy-archiving/deploy-archiving.md)y [administrar el archivado en Skype para 2015 empresariales de servidor](../../../manage/archiving/archiving.md).
+Para obtener información detallada acerca de la característica de archivado y capacidades, que incluye la integración de Exchange, consulte [Plan para el archivado en Skype para Business Server](../../../plan-your-deployment/archiving/archiving.md), [implementar el archivado de Skype para Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)y [administrar el archivado en Skype para la empresa Servidor](../../../manage/archiving/archiving.md).
 

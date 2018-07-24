@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 description: 'Para editar las propiedades de un / grupo de servidores de servidor de conferencia A/v que ya haya definido, haga lo siguiente:'
-ms.openlocfilehash: 2882617450373b3e6ec0c22af6f59a1c432a4042
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 1d9222b895d9df025519c2e7ad01f37757f2ed68
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19975198"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20991497"
 ---
 # <a name="av-mcu-settings-expander"></a>Expansor de configuración MCU AV
  
@@ -33,7 +33,6 @@ Para asociar un grupo de servidor de conferencia A/v, seleccione el grupo de ser
 > [!NOTE]
 > Si no hay grupos de servidores Front-End se muestran en la **Seleccione los grupos de servidores Front-End para asociar con este o grupo de servidores de conferencia A/v** panel, o bien ha combinado el / servidor de conferencia A/v con el grupo de servidores Front-End, o no se ha seleccionado para agregar una conferencia en las características de ** y funcionalidad** sección de las propiedades de grupo de servidores Front-End.
   
-## 
 
 Cuando haya terminado, haga clic en **Aceptar** para completar la edición de la configuración de grupo de servidor de conferencia A/v. Haga clic en **Cancelar** para descartar los cambios.
   

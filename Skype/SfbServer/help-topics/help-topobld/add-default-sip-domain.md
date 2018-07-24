@@ -1,9 +1,9 @@
 ---
-title: Agregar dominio Sip de forma predeterminada
+title: Agregar dominio Sip predeterminado
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,15 +11,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9dd496e-d43b-42e4-9e70-a70abb79cdc3
-description: Especificar el dominio principal del protocolo de inicio de sesión (SIP) que desea que su implementación para admitir. El dominio SIP principal puede ser el mismo, o diferente de su dominio de servicios de dominio de Active Directory. Por ejemplo, el dominio de Active Directory podría ser fabrikam.net y puede especificar su dominio SIP principal para que sea contoso.net.
-ms.openlocfilehash: 29f200d0e007d6d83912d088b8845edc2dffd988
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Especificar el dominio principal del protocolo de inicio de sesión (SIP) que desea que su implementación para admitir. El dominio SIP principal puede ser el mismo, o distinto de su dominio de los servicios de dominio de Active Directory. Por ejemplo, su dominio de Active Directory podría ser fabrikam.net, y podría especificar su dominio SIP principal para que sea contoso.net.
+ms.openlocfilehash: 452e243b0cde5d905bfed9587c0d83d7d5723472
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988800"
 ---
-# <a name="add-default-sip-domain"></a>Agregar dominio Sip de forma predeterminada
+# <a name="add-default-sip-domain"></a>Agregar dominio Sip predeterminado
  
-Especificar el dominio principal del protocolo de inicio de sesión (SIP) que desea que su implementación para admitir. El dominio SIP principal puede ser el mismo, o diferente de su dominio de servicios de dominio de Active Directory. Por ejemplo, el dominio de Active Directory podría ser fabrikam.net y puede especificar su dominio SIP principal para que sea contoso.net.
+Especificar el dominio principal del protocolo de inicio de sesión (SIP) que desea que su implementación para admitir. El dominio SIP principal puede ser el mismo, o distinto de su dominio de los servicios de dominio de Active Directory. Por ejemplo, su dominio de Active Directory podría ser fabrikam.net, y podría especificar su dominio SIP principal para que sea contoso.net.
   
 

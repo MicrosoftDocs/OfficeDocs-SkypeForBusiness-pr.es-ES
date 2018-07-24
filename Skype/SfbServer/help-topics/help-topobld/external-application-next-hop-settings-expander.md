@@ -1,9 +1,9 @@
 ---
-title: Aplicación externa siguiente salto configuración Expander
+title: Expansor de configuración de aplicación externa próximo salto
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,15 +11,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: be7857e4-9a75-4de5-91b0-bcb241930a0c
-description: Puede especificar el servidor del próximo salto del grupo de aplicaciones de confianza servidor seleccionando el servidor Front End un servidor Standard Edition o Enterprise Edition Front-End grupo definido en la lista desplegable. Un Director o Director de grupo no es una selección válida para un salto siguiente del servidor de aplicaciones de confianza, y no aparecerá en la lista. Haga clic en Aceptar para aceptar y guardar los cambios. Haga clic en Cancelar para descartar los cambios y salir de la página de propiedades.
-ms.openlocfilehash: c46120c67d9e0dcf94bf59aec32dcd29ceb84bc6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Puede especificar el servidor del próximo salto del grupo de servidores de aplicaciones de confianza mediante la selección de la definido grupo de servidores Front-End de Enterprise Edition o Standard Edition front-end de la lista desplegable. Un Director o el Director de grupo de servidores no es una selección válida para una aplicación de confianza de próximo salto del servidor, y no aparecerá en la lista. Haga clic en Aceptar para guardar los cambios. Haga clic en Cancelar para descartar los cambios y salir de la página de propiedades.
+ms.openlocfilehash: d4ce264a6109966ef98e3d19a897ecc4b89d9963
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993275"
 ---
-# <a name="external-application-next-hop-settings-expander"></a>Aplicación externa siguiente salto configuración Expander
+# <a name="external-application-next-hop-settings-expander"></a>Expansor de configuración de aplicación externa próximo salto
  
-Puede especificar el servidor del próximo salto del grupo de aplicaciones de confianza servidor seleccionando el servidor Front End un servidor Standard Edition o Enterprise Edition Front-End grupo definido en la lista desplegable. Un Director o Director de grupo no es una selección válida para un salto siguiente del servidor de aplicaciones de confianza, y no aparecerá en la lista. Haga clic en **Aceptar** para aceptar y guardar los cambios. Haga clic en **Cancelar** para descartar los cambios y salir de la página de propiedades.
+Puede especificar el servidor del próximo salto del grupo de servidores de aplicaciones de confianza mediante la selección de la definido grupo de servidores Front-End de Enterprise Edition o Standard Edition front-end de la lista desplegable. Un Director o el Director de grupo de servidores no es una selección válida para una aplicación de confianza de próximo salto del servidor, y no aparecerá en la lista. Haga clic en **Aceptar** para guardar los cambios. Haga clic en **Cancelar** para descartar los cambios y salir de la página de propiedades.
   
 

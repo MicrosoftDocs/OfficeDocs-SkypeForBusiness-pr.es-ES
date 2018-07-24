@@ -1,32 +1,31 @@
 ---
-title: Administrar la autenticación en dos fases en Skype Empresarial Server 2015
+title: Administrar la autenticación de dos factores en Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
-description: 'Resumen: Administrar la autenticación de dos factores en Skype para Business Server 2015.'
-ms.openlocfilehash: c72e998b7e12993f328aa4e331c67d5b660e94aa
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Resumen: Administrar la autenticación de dos factores en Skype para Business Server.'
+ms.openlocfilehash: f6ea9eb228a0c36df3c1ab9318f766a68a370cad
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504519"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002860"
 ---
-# <a name="manage-two-factor-authentication-in-skype-for-business-server-2015"></a>Administrar la autenticación en dos fases en Skype Empresarial Server 2015
+# <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Administrar la autenticación de dos factores en Skype para Business Server
  
-**Resumen:** Administrar la autenticación de dos factores en Skype para Business Server 2015.
+**Resumen:** Administrar la autenticación de dos factores en Skype para Business Server.
   
 La autenticación en dos fases proporciona seguridad mejorada al exigir a los usuarios que proporcionen dos formas de autenticación o identificación, específicamente una combinación de nombre de usuario/contraseña y un token o certificado. Esto es también conocida como "algo que tiene, algo que sabe." 
   
 Un ejemplo típico de autenticación en dos fases con un certificado es el uso de tarjetas inteligentes. Una tarjeta inteligente contiene un certificado asociado con la cuenta del usuario y se puede validar con información de certificado y usuario almacenada en un servidor. Al comparar la información del usuario (nombre de usuario y contraseña) con el certificado proporcionado, el servidor valida las credenciales y autentica al usuario.
   
-Tenga en cuenta a los siguientes asuntos al configurar un Skype para entorno empresarial Server 2015 para admitir la autenticación en dos fases.
+Tenga en cuenta a los siguientes asuntos al configurar un Skype para entorno Business Server para admitir la autenticación en dos fases.
   
 ## <a name="client-support"></a>Compatibilidad con clientes
 
@@ -34,7 +33,7 @@ Las actualizaciones acumulativas para Lync Server 2013: julio de 2013 el Skype p
   
 ## <a name="topology-requirements"></a>Requisitos de topología
 
-Los clientes se recomienda encarecidamente implementar la autenticación en dos fases mediante Skype dedicada para Business Server 2015 con borde, el Director y grupos de usuario. Para habilitar la autenticación pasiva para los usuarios, se necesitan deshabilitar los demás métodos de autenticación para otros roles y servicios, incluidos los siguientes:
+Los clientes se recomienda encarecidamente implementar la autenticación en dos fases mediante Skype dedicada para Business Server con borde, el Director y grupos de usuario. Para habilitar la autenticación pasiva para los usuarios, se necesitan deshabilitar los demás métodos de autenticación para otros roles y servicios, incluidos los siguientes:
   
 |**Tipo de configuración**|**Tipo de servicio**|**Función de servidor**|**Tipo de autenticación para deshabilitar**|
 |:-----|:-----|:-----|:-----|
@@ -57,7 +56,7 @@ Los clientes que han implementado la autenticación en dos fases para Microsoft 
 
 Skype para los usuarios de negocio que están configurados para aprovechar la característica de almacén de contactos unificados encontrará que sus contactos ya no están disponibles después de iniciar sesión con autenticación de dos factores.
   
-Debe usar el cmdlet **Invoke-CsUcsRollback** para quitar los contactos existentes de usuario desde el almacén de contactos unificados y almacenar en Skype para Business Server 2015 antes de habilitar la autenticación en dos fases.
+Debe usar el cmdlet **Invoke-CsUcsRollback** para quitar los contactos existentes de usuario desde el almacén de contactos unificados y almacenar en Skype para Business Server antes de habilitar la autenticación en dos fases.
   
 ## <a name="skill-search"></a>Búsqueda de aptitudes
 
@@ -73,7 +72,7 @@ Los usuarios deben usar la opción **Eliminar mi información de inicio de sesi�
   
 ### <a name="disablentcredentials"></a>DisableNTCredentials
 
-Con el método de autenticación NTLM o Kerberos, las credenciales de Windows del usuario se usan automáticamente para la autenticación. En una típica Skype para la implementación empresarial Server 2015 que Kerberos o NTLM está habilitada para la autenticación, los usuarios no deben tener que escribir sus credenciales cada vez que inician sesión en.
+Con el método de autenticación NTLM o Kerberos, las credenciales de Windows del usuario se usan automáticamente para la autenticación. En una típica Skype para la implementación de Business Server donde está habilitado Kerberos o NTLM para la autenticación, los usuarios no deben tener que escribir sus credenciales cada vez que inician sesión en.
   
 Si se les solicitan de manera no intencionada las credenciales a los usuarios antes de que se les pida especificar su PIN, la clave del Registro **DisableNTCredentials** puede configurarse de manera no intencionada en los equipos cliente, posiblemente a través de la directiva de grupo.
   
@@ -109,6 +108,5 @@ En estos temas no se trata la configuración de un Proxy de AD FS o el Proxy inv
   
 ## <a name="see-also"></a>Vea también
 
-[Configuración de autenticación de dos factores en Skype para Business Server 2015](configure.md)
+[Configuración de autenticación de dos factores en Skype para Business Server](configure.md)
   
-[Configuración de autenticación de dos factores en Skype para Business Server 2015](configure.md)

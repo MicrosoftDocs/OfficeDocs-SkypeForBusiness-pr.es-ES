@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
+ROBOTS: NOINDEX, NOFOLLOW
 description: Para comenzar la instalación de la base de datos que contendrá la copia local de sólo lectura del almacén de Administración Central, seleccione uno de recuperar la configuración definida publicada mediante Topology Builder desde la Central ya instalado y configurado Almacén de administración, o leer la configuración definida de otro medio. Para un equipo que se encuentra en la red interna de la organización, seleccione recuperar la configuración automáticamente en el almacén de Administración Central.
-ms.openlocfilehash: 4a061ddec04e2b80412b8e60badb8600633093d9
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 87d2620b6b4b9eb36ee96e7f9b693016620d3a49
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19980005"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003148"
 ---
 # <a name="install-local-configuration-store-invoke-configure"></a>Invocar el almacén de configuración de instalación Local (configurar)
  

@@ -1,25 +1,24 @@
 ---
-title: Ver directivas de conferencia en Skype Empresarial Server 2015
+title: Ver directivas de conferencia en Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
-description: 'Resumen: Obtenga información sobre cómo ver las directivas de conferencia en Skype para Business Server 2015.'
-ms.openlocfilehash: 5a0e99506d5c9fb7bc8799abcb15e4bb4224a3bc
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Obtenga información sobre cómo ver las directivas de conferencia en Skype para Business Server.'
+ms.openlocfilehash: 161b9f172af935b105e01bda88c1c3dbef2e3a9f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568671"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992339"
 ---
-# <a name="view-conferencing-policies-in-skype-for-business-server-2015"></a>Ver directivas de conferencia en Skype Empresarial Server 2015
+# <a name="view-conferencing-policies-in-skype-for-business-server"></a>Ver directivas de conferencia en Skype para Business Server
  
-**Resumen:** Obtenga información sobre cómo ver las directivas de conferencia en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo ver las directivas de conferencia en Skype para Business Server.
   
 Puede ver las directivas de conferencia mediante el uso de Skype para el Panel de Control de servidor empresarial o mediante el uso de Skype para Shell de administración de servidor empresarial.
   
@@ -37,7 +36,7 @@ Puede ver las directivas de conferencia mediante el uso de Skype para el Panel d
     
     **Editar directiva de conferencia - \<directiva\> ** se abre mostrando la configuración para la directiva seleccionada.
     
-    Para obtener información detallada acerca de cómo configurar la configuración, vea [crear directivas de conferencia en Skype para Business Server 2015](create-policies.md).
+    Para obtener información detallada acerca de cómo configurar la configuración, vea [crear directivas de conferencia en Skype para Business Server](create-policies.md).
     
 ## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Ver directivas de conferencia mediante el uso de Skype para Shell de administración de servidor empresarial
 

@@ -1,9 +1,8 @@
 ---
-title: Experiencia del usuario durante la conmutación por error del grupo de servidores en Skype Empresarial Server 2015
+title: Experiencia del usuario durante error de grupo de servidores en Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -11,19 +10,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 description: Obtenga información sobre lo que los usuarios experimentan cuando un grupo de servidores Front-End conmuta por error o se produce un error durante la recuperación ante desastres en Skype para Business Server.
-ms.openlocfilehash: 4aaa4c044e1bae50124897a6d4c36e03b2a0c58e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 741eb40d0bf4ee615d68d05ab6b9543b6f65474b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001192"
 ---
-# <a name="user-experience-during-pool-failure-in-skype-for-business-server-2015"></a>Experiencia del usuario durante la conmutación por error del grupo de servidores en Skype Empresarial Server 2015
+# <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Experiencia del usuario durante error de grupo de servidores en Skype para Business Server
  
 Obtenga información sobre lo que los usuarios experimentan cuando un grupo de servidores Front-End conmuta por error o se produce un error durante la recuperación ante desastres en Skype para Business Server.
   
-Si se produce una conmutación por error en un grupo, se obliga a todos los usuarios del grupo afectado a cerrar sesión y, luego, a iniciar sesión en el grupo de copia de seguridad. Durante un período breve los usuarios que inicien sesión en el grupo de copia de seguridad pueden encontrarse en modo de resistencia. En el modo de resistencia, los usuarios son incapaces de realizar tareas que provocan un cambio persistente en Skype para Business Server, como agregar un contacto. Una vez finalizada la conmutación por error, todos los usuarios pueden utilizar todos los servicios del grupo de copia de seguridad.
+Si se produce una conmutación por error en un grupo, se obliga a todos los usuarios del grupo afectado a cerrar sesión y, luego, a iniciar sesión en el grupo de copia de seguridad. Durante un período breve los usuarios que inicien sesión en el grupo de copia de seguridad pueden encontrarse en modo de resistencia. En modo de resistencia, los usuarios son lleven a cabo las tareas que hará que un cambio persistente en Skype para Business Server, como agregar un contacto. Una vez finalizada la conmutación por error, todos los usuarios pueden utilizar todos los servicios del grupo de copia de seguridad.
   
-Se interrumpen las llamadas, reuniones o conversaciones que tiene un usuario cuando se produce un error en el grupo, y el usuario debe restablecer esas sesiones después de la conmutación por error para continuar.
+Cuando se produce un error en el grupo, se interrumpen todas las llamadas, las reuniones y las conversaciones, y el usuario debe volver a establecer estas sesiones tras la conmutación por error.
   
 No se vuelven a ubicar los usuarios durante la conmutación por error o la conmutación por recuperación. Los usuarios que están hospedados en un grupo donde se produce un error se hospedarán temporalmente en el grupo de copia de seguridad. Cuando se restaura el grupo principal, el administrador puede llevar a cabo la conmutación por recuperación de esos usuarios para que vuelven a hospedarse en su grupo original.
   
@@ -39,11 +39,11 @@ La conmutación por recuperación de un grupo puede ocurrir cuando un usuario af
   
 Las siguientes tablas muestran más detalles sobre cómo un usuario se ve afectado durante y después de la conmutación por recuperación y también cómo los usuarios de otros grupos ven e interactúan con un usuario en un grupo que está en proceso de conmutación por recuperación. 
   
-El usuario afectado el término hace referencia a cualquier usuario que haya conmutado por error del grupo doméstico y esté atendido por el grupo de copia de seguridad. Un usuario originalmente hospedado en el grupo de copia de seguridad no es un usuario afectado.
+El término usuario afectado hace referencia a cualquier usuario que sufrió una conmutación por error en el grupo principal y está hospedado ahora en el grupo de copia de seguridad. Un usuario originalmente hospedado en el grupo de copia de seguridad no es un usuario afectado.
   
-**Experiencia de usuario para un usuario afectado en un grupo de conmutación por recuperación**
+**Experiencia de un usuario afectado en un grupo de conmutación por recuperación**
 
-|**Estado del usuario o tarea**|**Durante el failback.**|**Después de la terminación de la conmutación por recuperación**|
+|**Tarea o estado del usuario**|**Durante la conmutación por recuperación**|**Una vez finalizada la conmutación por recuperación**|
 |:-----|:-----|:-----|
 |Estado del usuario que ya ha iniciado sesión  <br/> |El usuario permanece en su sesión y sigue conectado al grupo de copia de seguridad. En algún momento, se cerrará la sesión del usuario y volverá a la sesión en el grupo principal original, en el modo de resistencia.  <br/> |El usuario continúa en su sesión y se coloca en modo normal.  <br/> |
 |Inicio de sesión de un nuevo usuario  <br/> |El usuario puede iniciar sesión en el grupo principal en el modo de resistencia.  <br/> |El usuario puede iniciar sesión en el grupo principal original en modo normal.  <br/> |
@@ -54,9 +54,9 @@ El usuario afectado el término hace referencia a cualquier usuario que haya con
 |Disponibilidad del servicio de la libreta de direcciones y la lista de contactos  <br/> |No disponible  <br/> |Disponible  <br/> |
 |Todas las sesiones punto a punto y las modalidades  <br/> |Disponible  <br/> |Disponible  <br/> |
    
-**Experiencia de usuario para un usuario alojados en un grupo que se ven afectado durante la conmutación por recuperación de otro grupo**
+**Experiencia de un usuario hospedado en un grupo de servidores no afectado durante la conmutación por recuperación de otro grupo**
 
-|**Tareas de usuario**|**Durante el failback.**|**Después de la terminación de la conmutación por recuperación**|
+|**Tarea de usuario**|**Durante la conmutación por recuperación**|**Una vez finalizada la conmutación por recuperación**|
 |:-----|:-----|:-----|
 |Visualización de la presencia del usuario afectado  <br/> |Muestra el último estado de presencia establecido por el usuario afectado.  <br/> |En funcionamiento. Los usuarios no afectados verán las actualizaciones realizadas por los usuarios afectados.  <br/> |
 |Conferencias en curso organizadas por un usuario afectado  <br/> |Se terminan todas las modalidades de conferencia.  <br/> |Ahora funcionan todas las modalidades. Cada participante tiene que hacer clic para volver a unirse a la conferencia.  <br/> |

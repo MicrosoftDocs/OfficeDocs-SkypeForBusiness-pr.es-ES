@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: Skype para las conferencias web de Business Server incluye la colaboración en documentos, uso compartido de aplicaciones y uso compartido de escritorio.
-ms.openlocfilehash: 9f375f280ec43d90bcab7ded65e0ce0c08562a0d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 2e4e2c019d121efda80b68531a919216c54a5701
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19989086"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002527"
 ---
 # <a name="web-conferencing-planning-tool"></a>Conferencias Web (herramienta de planeación)
  
@@ -28,12 +28,12 @@ Skype para las conferencias web de Business Server incluye la colaboración en d
   
 Para obtener información sobre la planeación de la habilitación de las conferencias web en la organización, consulte los siguientes temas: 
   
-- [Planeación de conferencia en Skype para Business Server 2015](../../../plan-your-deployment/conferencing/conferencing.md)
+- [Planeación de conferencia en Skype para Business Server](../../../plan-your-deployment/conferencing/conferencing.md)
     
-- [Requisitos de hardware y software para conferencias en Skype para Business Server 2015](../../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
+- [Requisitos de hardware y software para conferencias en Skype para Business Server](../../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
     
-- [Planeación de conferencias en Skype para Business Server 2015](../../../plan-your-deployment/conferencing/dial-in-conferencing.md)
+- [Planeación de conferencias en Skype para Business Server](../../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     
-- [Planeación de reuniones grandes en Skype para Business Server 2015](../../../plan-your-deployment/conferencing/large-meetings.md)
+- [Planeación de reuniones grandes en Skype para Business Server](../../../plan-your-deployment/conferencing/large-meetings.md)
     
 

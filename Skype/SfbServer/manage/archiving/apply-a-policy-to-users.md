@@ -1,30 +1,29 @@
 ---
-title: Aplicar una directiva de archivado a los usuarios de Skype Empresarial Server 2015
+title: Aplicar una directiva de archivado para los usuarios de Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
-description: 'Resumen: Obtenga información sobre cómo asignar una directiva de archivado para los usuarios de Skype para Business Server 2015.'
-ms.openlocfilehash: 0a9b19f6b02daae09f71b1f9933c90bfc86c5e23
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Obtenga información sobre cómo asignar una directiva de archivado para los usuarios de Skype para Business Server.'
+ms.openlocfilehash: bc54c25a710e4e1cca44fb7311a47101f31ef7df
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569389"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985619"
 ---
-# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server-2015"></a>Aplicar una directiva de archivado a los usuarios de Skype Empresarial Server 2015
+# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Aplicar una directiva de archivado para los usuarios de Skype para Business Server
 
-**Resumen:** Obtenga información sobre cómo asignar una directiva de archivado para los usuarios de Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo asignar una directiva de archivado para los usuarios de Skype para Business Server.
   
-Si ha creado uno o más directivas de usuario para el archivado para los usuarios alojados en Skype para Business Server 2015, puede implementar la compatibilidad con el archivado para usuarios específicos mediante la aplicación de las directivas apropiadas para los usuarios o grupos de usuarios. Por ejemplo, si crea una directiva para admitir el archivado de comunicaciones internas, se puede aplicar al menos un usuario o grupo de usuarios que admita el archivado de Skype del usuario para las comunicaciones empresariales Server 2015.
+Si ha creado uno o más directivas de usuario para el archivado para los usuarios alojados en Skype para Business Server, puede implementar la compatibilidad con el archivado para usuarios específicos mediante la aplicación de las directivas apropiadas para los usuarios o grupos de usuarios. Por ejemplo, si crea una directiva para admitir el archivado de comunicaciones internas, puede aplicar al menos un usuario o grupo de usuarios que admita el archivado de Skype del usuario para las comunicaciones de servidor empresarial.
   
 > [!NOTE]
-> Si se habilita la integración de Microsoft Exchange para la implementación, el control de las directivas de retención de Exchange local si el archivado está habilitado para los usuarios que están ubicados en Exchange y disponer sus buzones en suspensión en contexto. Para obtener información detallada, vea [Planear el archivado en Skype para Business Server 2015](../../plan-your-deployment/archiving/archiving.md) y [Configure la integración con el almacenamiento de Exchange de Skype para Business Server 2015](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> Si se habilita la integración de Microsoft Exchange para la implementación, el control de las directivas de retención de Exchange local si el archivado está habilitado para los usuarios que están ubicados en Exchange y disponer sus buzones en suspensión en contexto. Para obtener información detallada, vea [Planear el archivado en Skype para Business Server](../../plan-your-deployment/archiving/archiving.md) y [Configure la integración con el almacenamiento de Exchange de Skype para Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="apply-a-user-policy-by-using-the-control-panel"></a>Aplicar una directiva de usuario con el Panel de control
 

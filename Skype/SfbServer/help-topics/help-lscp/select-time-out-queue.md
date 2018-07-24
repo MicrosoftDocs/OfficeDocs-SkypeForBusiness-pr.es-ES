@@ -1,9 +1,9 @@
 ---
-title: Seleccione la cola de espera
+title: Seleccione la cola de tiempo de espera
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,19 +11,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3ced887e-a8f2-4c77-9093-cdf0afc4cb97
-description: Utilice el un cuadro de diálogo de la cola de espera para seleccionar una cola donde las llamadas se reenvían al tiempo de espera.
-ms.openlocfilehash: 7ff07061ce20bc3499348ae52034e74b0954a6f2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Use el seleccionar un cuadro de diálogo de la cola de tiempo de espera para seleccionar una cola que las llamadas se reenvíen cuando se agote el tiempo.
+ms.openlocfilehash: b3b064ae37a755d3b52e3fc6aa7db505aae30a24
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997877"
 ---
-# <a name="select-time-out-queue"></a>Seleccione la cola de espera
+# <a name="select-time-out-queue"></a>Seleccione la cola de tiempo de espera
  
-Utilice el cuadro de diálogo **Seleccione una cola de espera** para seleccionar una cola donde las llamadas se reenvían al tiempo de espera.
+Use el cuadro de diálogo **Seleccionar una cola de tiempo de espera** para seleccionar una cola que las llamadas se reenvíen cuando se agote el tiempo.
   
-En el cuadro Buscar, escriba todo o parte del nombre de la cola que desea utilizar. Para devolver todas las colas disponibles, deje vacío el cuadro de búsqueda y haga clic en el icono de búsqueda.
+En el cuadro Buscar, escriba todo o parte del nombre de la cola que desea usar. Para devolver todas las colas disponibles, deje vacío el cuadro de búsqueda y haga clic en el icono de búsqueda.
   
-En la lista de colas devuelta por la búsqueda, seleccione la cola que desea utilizar para las llamadas agotado.
+En la lista de colas devueltas por la búsqueda, seleccione la cola que desea usar para las llamadas ha superado el tiempo de espera.
   
 

@@ -1,9 +1,9 @@
 ---
-title: Quitar certificado (Invoke)
+title: Quitar certificado (invocar)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,15 +11,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c62bc3e5-3f34-46cf-91a5-85f84d8f455e
-description: La página ejecutar comandos proporciona detalles para quitar el certificado. Revise la información de resumen de la eliminación del certificado. Asegúrese de que el archivo de registro de certificado quitar está visible en la lista desplegable y, a continuación, haga clic en Ver registro para revisar los detalles de la eliminación del certificado. Cuando haya terminado de revisar el resumen y el archivo de registro, haga clic en Finalizar.
-ms.openlocfilehash: 9afd1c856a6d0c903b6c390806c0f41040eda8fe
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: La página ejecución de comandos proporciona información detallada para quitar el certificado. Revise la información de resumen de la eliminación del certificado. Asegúrese de que el archivo de registro de quitar certificado está visible en la lista desplegable y, a continuación, haga clic en Ver registro para revisar los detalles de la eliminación del certificado. Cuando haya terminado de revisar el resumen y el archivo de registro, haga clic en Finalizar.
+ms.openlocfilehash: 0aa084e7411a7bbdc7e95f5a6602ef3010da0fe5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980051"
 ---
-# <a name="remove-certificate-invoke"></a>Quitar certificado (Invoke)
+# <a name="remove-certificate-invoke"></a>Quitar certificado (invocar)
  
-La página **Ejecutar comandos** proporciona detalles para quitar el certificado. Revise la información de resumen de la eliminación del certificado. Asegúrese de que el archivo de registro de certificado quitar está visible en la lista desplegable y, a continuación, haga clic en **Ver registro** para revisar los detalles de la eliminación del certificado. Cuando haya terminado de revisar el resumen y el archivo de registro, haga clic en **Finalizar**.
+La página **Ejecución de comandos** proporciona información detallada para quitar el certificado. Revise la información de resumen de la eliminación del certificado. Asegúrese de que el archivo de registro de quitar certificado está visible en la lista desplegable y, a continuación, haga clic en **Ver registro** para revisar los detalles de la eliminación del certificado. Cuando haya terminado de revisar el resumen y el archivo de registro, haga clic en **Finalizar**.
   
 

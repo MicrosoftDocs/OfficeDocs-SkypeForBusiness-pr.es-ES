@@ -1,26 +1,25 @@
 ---
-title: Configurar el servidor de interoperabilidad de vídeo en Skype Empresarial Server 2015
+title: Configurar el servidor de interoperabilidad vídeo en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
-description: 'Resumen: Configure el rol de servidor de interoperabilidad de vídeo (VISIBLES) de Skype para Business Server 2015.'
-ms.openlocfilehash: 783900004d4f3ed9b060e7f237a62dfc5cf124f1
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Resumen: Configure el rol de servidor de interoperabilidad de vídeo (VISIBLES) de Skype para Business Server.'
+ms.openlocfilehash: 68931d9523fba92211295805e2f041869bc3e774
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501934"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20982534"
 ---
-# <a name="configure-the-video-interop-server-in-skype-for-business-server-2015"></a>Configurar el servidor de interoperabilidad de vídeo en Skype Empresarial Server 2015
+# <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Configurar el servidor de interoperabilidad vídeo en Skype para Business Server
  
-**Resumen:** Configuración de la función de servidor de interoperabilidad de vídeo (VISIBLES) en Skype para Business Server 2015.
+**Resumen:** Configuración de la función de servidor de interoperabilidad de vídeo (VISIBLES) en Skype para Business Server.
   
  Configure las opciones que se asociará el frente con vídeo troncos con Windows PowerShell. Una configuración de tronco de vídeo de ámbito global se crea una vez que se instala el servicio de VIS. Esta configuración de tronco de vídeo se aplica a todos los troncos que no cuentan con una configuración de tronco de vídeo con un ámbito más específico. Tenga en cuenta que la configuración de tronco de vídeo es una colección de configuraciones que se aplica a los troncos de vídeo.
   
@@ -32,7 +31,7 @@ Se crea un plan de marcado con ámbito global por Skype para la implementación 
   
 ### <a name="configure-the-vis-using-windows-powershell"></a>Configurar el respecto al uso de Windows PowerShell
 
-1. Crear una nueva configuración de tronco vídeo (una colección de opciones) para usar en el tronco entre el frente y CUCM, mediante el siguiente cmdlet de Windows PowerShell:
+1. Crear una nueva configuración de tronco vídeo (una colección de opciones) para usar en el tronco entre el frente y Cisco Unified Communications Manager (CallManager o CUCM), mediante el siguiente cmdlet de Windows PowerShell:
     
    ```
    New-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls $true(or $false)
@@ -72,7 +71,7 @@ El comando **Remove-CsVoiceNormalizationRule** es necesario para reemplazar una 
 Para una llamada de vídeo de tronco SIP desde una puerta de enlace vídeo cuyo identificador URI de solicitud contiene un número que no sean E.164, leerá el nombre del plan de marcado asociado con el tronco asociado respecto e incluirá el nombre del plan de marcado en el elemento de contexto de teléfono de la dirección URI de solicitud en la invitación a ese VI S envía a Front-End. La aplicación de conversión en el front-end extrae las reglas de normalización asociadas con el plan de marcado y las aplica al URI de solicitud.
 ## <a name="trunk-configuration-options"></a>Opciones de configuración del tronco
 
-Los cmdlets de Windows PowerShell para la configuración del tronco de vídeo que se ha mencionado anteriormente son nuevos en el Skype para Business Server 2015. La configuración asociada a la configuración del tronco vídeo requiere una explicación breve.
+Los cmdlets de Windows PowerShell para la configuración del tronco de vídeo que se ha mencionado anteriormente eran nuevos en Skype para Business Server 2015. La configuración asociada a la configuración del tronco vídeo requiere una explicación breve.
   
  **GatewaySendsRtcpForActiveCalls** Este parámetro determina si RTCP se envían los paquetes desde el VTC a la luz visible para las llamadas activas. En este contexto, una llamada activa es una llamada en la que se permite el flujo de medios como mínimo en una dirección. Si GatewaySendsRtcpForActiveCalls se establece en True, VIS puede finalizar una llamada si no recibe paquetes RTCP durante un período superior a los 30 segundos. El valor predeterminado es **True**.
   
@@ -86,4 +85,4 @@ Los cmdlets de Windows PowerShell para la configuración del tronco de vídeo qu
   
 ## <a name="see-also"></a>Vea también
 
-[Configurar CUCM para la interoperación con Skype para Business Server 2015](configure-cucm-for-interoperation.md)
+[Configurar CUCM para la interoperación con Skype para Business Server](configure-cucm-for-interoperation.md)

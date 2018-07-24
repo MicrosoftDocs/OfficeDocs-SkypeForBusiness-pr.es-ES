@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
+ROBOTS: NOINDEX, NOFOLLOW
 description: Una directiva de versión de cliente está compuesta de un conjunto de reglas de versión de cliente. Estas reglas definen las acciones que se necesitan realizar cuando los usuarios intentan iniciar sesión con clientes y versiones de clientes específicos.
-ms.openlocfilehash: 8f2e969b2724ed1239f7531bd4be03552be9039b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: cd89e0bd5bf6781ea8381563e592d57a3e68434a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991504"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988737"
 ---
 # <a name="client-version-rule"></a>Regla de versiones de cliente
  

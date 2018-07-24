@@ -1,26 +1,25 @@
 ---
-title: Asignar una directiva de PIN por usuario en Skype Empresarial Server 2015
+title: Asignar una directiva de PIN por usuario en Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
-description: 'Resumen: Fase AV OAuth certificados y de Skype para Business Server 2015.'
-ms.openlocfilehash: 6eba19d67f2b2b04c98ed993fa02ca0c2052f28a
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Fase AV OAuth certificados y de Skype para Business Server.'
+ms.openlocfilehash: fc7444aae0dfea0f22500f524490aea470c83903
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569515"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005956"
 ---
-# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server-2015"></a>Asignar una directiva de PIN por usuario en Skype Empresarial Server 2015
+# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Asignar una directiva de PIN por usuario en Skype para Business Server
 
-**Resumen:** Fase AV y OAuth certificados para Skype para Business Server 2015.
+**Resumen:** Fase AV y OAuth certificados para Skype para Business Server.
   
 La directiva de conferencia de acceso telefónico identificación personal (PIN) de número es uno de los parámetros individuales de una cuenta de usuario que se pueden configurar en el Skype para el Panel de Control de servidor empresarial.
   
@@ -67,7 +66,7 @@ Tras crear al menos una directiva de PIN por usuario, emplee los procedimientos 
     > [!NOTE]
     > Debido a que hay varias directivas que se pueden configurar mediante el cuadro de diálogo **Asignar directivas** , ** \<mantener tal como está\> ** está seleccionada de manera predeterminada para todas las directivas en el cuadro de diálogo. Para seguir usando la directiva asignada anteriormente al usuario, no efectúe cambios en esta configuración.
   
-   - Permitir Skype para Business Server 2015 elija automáticamente la directiva de nivel global o, si está definida, la directiva de nivel de sitio.
+   - Permitir Skype para Business Server elija automáticamente la directiva de nivel global o, si está definida, la directiva de nivel de sitio.
     
    - Haga clic en el nombre de una directiva de PIN por usuario que haya definido anteriormente en la página **Directiva de PIN**.
     
@@ -108,4 +107,4 @@ Para obtener información detallada, vea [Grant-CsPinPolicy](https://docs.micros
   
 ## <a name="see-also"></a>Vea también
 
-[Crear una nueva directiva PIN en Skype para Business Server 2015](create-a-new-pin-policy.md)
+[Crear una nueva directiva PIN en Skype para Business Server](create-a-new-pin-policy.md)

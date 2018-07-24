@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e08a6a2d-1f88-4a84-b6e5-b84dcded4a86
+ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: db325d9cb15155a343e2780ec6e8584996d25670
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: bdb46b68355f1880e6530b5823675f139252d923
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20044308"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998584"
 ---
 # <a name="associate-a-subnet-add-new-or-edit-existing"></a>Asociar una subred: agregar nuevos o editar los existentes
  

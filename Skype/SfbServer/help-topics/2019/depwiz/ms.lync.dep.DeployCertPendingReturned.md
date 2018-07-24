@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
+ROBOTS: NOINDEX, NOFOLLOW
 description: La página de estado de la solicitud de certificado en línea, devuelve el estado actual del certificado. Si el certificado todavía está en un estado pendiente de aprobación con el Administrador de la entidad de certificación, que es, si no tiene todavía se ha aprobado, el estado se indicará que aún se está procesando el certificado.
-ms.openlocfilehash: c9da805ffad04368cddc8daf7a9f04e5765ed574
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 1ef9a3366016c55ba32d5d870cd93111b5af6f3f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19990747"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20990446"
 ---
 # <a name="pending-certificate-returned"></a>Certificado pendiente (devuelto)
  

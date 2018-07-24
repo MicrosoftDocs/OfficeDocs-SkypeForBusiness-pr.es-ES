@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: be480209-e0f4-4c2a-9f95-b0345ee01135
+ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: d17644fb9105ffb484215989f46d845408e1e7a2
-ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
+ms.openlocfilehash: ba9cd40219b4d82cd2c0202cb3bfb1541298cb55
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20088514"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004450"
 ---
 # <a name="registrar-security-settings-create-new-or-edit-existing"></a>Configuración de seguridad del registrador: Crear nuevos o editar los existentes
  

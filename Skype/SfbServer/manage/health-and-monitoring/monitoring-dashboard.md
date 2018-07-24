@@ -1,34 +1,34 @@
 ---
-title: Uso del panel de supervisión en Skype Empresarial Server 2015
+title: Usar el panel de supervisión en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
-description: 'Resumen: Conozca el panel de supervisión en Skype para Business Server 2015.'
-ms.openlocfilehash: d2297d0dddfd9d49d36c181e578bd02915994a49
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información sobre el panel de supervisión en Skype para Business Server.'
+ms.openlocfilehash: a3896f7ed80ec058c2ed2476e98ce61f85e78229
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969392"
 ---
-# <a name="using-the-monitoring-dashboard-in-skype-for-business-server-2015"></a>Uso del panel de supervisión en Skype Empresarial Server 2015
+# <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Usar el panel de supervisión en Skype para Business Server
  
-**Resumen:** Obtenga información sobre el panel de supervisión en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre el panel de supervisión en Skype para Business Server.
   
-El tablero de mandos de supervisión proporciona a los administradores una visión rápida de su Skype para uso del sistema de salud y sistema Business Server 2015. El tablero de mandos está diseñado para mostrar una vista agregada de métricas clave del sistema y hacerlo bien mostrando:
+El panel de supervisión ofrece a los administradores con un breve resumen de su Skype para uso de sistema y mantenimiento del sistema de Business Server. El panel está diseñado para mostrar una vista agregada de métricas clave del sistema y lo mostrando cualquiera:
   
-- Los totales del día en curso. Tenga en cuenta que los valores que aparecen para el día en curso representan los datos registrados desde medianoche hasta la hora en curso (basada en la hora local del servidor de informes). Esto quiere decir que normalmente verá datos de parte de un día y no de un período de 24 horas. Por ejemplo, si la hora local del servidor es de 8:00 A.M., vea digno de ocho horas de datos porque hay ocho horas entre la medianoche y la hora actual de 8:00 AM.
+- Los totales del día en curso. Tenga en cuenta que los valores que aparecen para el día en curso representan los datos registrados desde medianoche hasta la hora en curso (basada en la hora local del servidor de informes). Esto quiere decir que normalmente verá datos de parte de un día y no de un período de 24 horas. Por ejemplo, si la hora local del servidor es de 8:00 A.M., verá el valor de ocho horas laborales de datos porque hay ocho horas entre la medianoche y la hora actual de 8:00 AM.
     
 - Los totales de la semana y las tendencias de los totales en las últimas seis semanas.
     
 - Los totales del mes y las tendencias de los totales en los últimos seis meses (solo para el uso del sistema).
     
-Tenga en cuenta que puede utilizar el cmdlet [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) para devolver la dirección URL utilizada para tener acceso a Skype para informes de supervisión de 2015 Business Server:
+Tenga en cuenta que puede usar el cmdlet [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) para devolver la dirección URL utilizada para obtener acceso a Skype para los informes de supervisión del servidor empresarial:
   
 ```
 Get-CsReportingConfiguration
@@ -154,7 +154,7 @@ Tal como hemos indicado, se muestran los totales predeterminados de la semana en
 Los valores que aparecen en las columnas **Esta semana**, **Este mes** u **Hoy** le vinculan a información más detallada sobre el elemento. Tenga en cuenta que el nombre de la columna y los valores que aparecen en ella cambiarán a menudo en función de la métrica elegida y en función de si ha seleccionado vista semanal o vista mensual. Por ejemplo, si hace clic en los totales que aparecen en la métrica **Inicios de sesión de usuario únicos**, verá el **Informe de registro de usuario** del período de tiempo especificado. Puede volver al panel de supervisión en cualquier momento, haciendo clic en **Panel**.
   
 > [!TIP]
-> También puede tener acceso a la página de inicio de informes de supervisión del servidor haciendo clic en el vínculo **informes** en la esquina superior derecha del panel.
+> También puede tener acceso a la página principal de informes del servidor de supervisión, haga clic en el vínculo de **informes** en la esquina superior derecha del panel.
   
 La columna **Tendencia** muestra un gráfico de línea sencilla con los totales de las últimas seis semanas (o, en función de la métrica y del intervalo de tiempo, los últimos seis días o seis meses). Estos gráficos de línea sencilla muestran un punto de datos sin etiquetar por cada período de tiempo (por ejemplo, un punto de datos sin etiquetar por cada una de las seis últimas semanas). Ahora bien, puede recuperar los valores reales de estos gráficos manteniendo el puntero del mouse sobre el gráfico. En dicho caso, la información sobre herramientas muestra los valores máximo y mínimo del gráfico.
   
@@ -176,7 +176,7 @@ El panel de supervisión proporciona varias formas de exportar la vista del pane
     
 - Archivo de Word
     
-Para exportar la vista de panel actual (y sus valores), haga clic en la opción de exportación deseada. Skype para Business Server 2015 genera un informe en el formato especificado y, a continuación, se le dará la opción de abrir dicho informe o guardarlo. Tenga en cuenta que, de forma predeterminada, Skype para Business Server el informe **Panel de supervisión** de los títulos y guarda en la carpeta de descargas. Para darle al informe otro nombre o guardarlo en otra carpeta, haga clic en la flecha situada al lado del botón **Guardar** y después haga clic en **Guardar como**. Si le parece bien el nombre **Panel de supervisión** y está de acuerdo en guardar el informe en la carpeta Descargas, solo tiene que hacer clic en el botón **Guardar**.
+Para exportar la vista de panel actual (y sus valores), haga clic en la opción de exportación deseada. Skype para Business Server genera un informe en el formato especificado y, a continuación, le ofrecerá la opción de abrir dicho informe o guardarlo. Tenga en cuenta que, de forma predeterminada, Skype para Business Server el informe de **Panel de supervisión** de los títulos y se guarda en la carpeta de descargas. Para darle al informe otro nombre o guardarlo en otra carpeta, haga clic en la flecha situada al lado del botón **Guardar** y después haga clic en **Guardar como**. Si le parece bien el nombre **Panel de supervisión** y está de acuerdo en guardar el informe en la carpeta Descargas, solo tiene que hacer clic en el botón **Guardar**.
   
 Es posible que, cuando intente exportar datos del panel, aparezca el cuadro de diálogo **Alerta de seguridad** junto con el mensaje "La configuración actual no permite descargar este archivo". Si ocurre esto, haga lo siguiente:
   
@@ -184,7 +184,7 @@ Es posible que, cuando intente exportar datos del panel, aparezca el cuadro de d
     
 - En el cuadro de diálogo **Opciones de Internet**, en la pestaña **Seguridad**, haga clic en **Sitios de confianza** y después en **Sitios**.
     
-- En el cuadro de diálogo **sitios de confianza** , haga clic en **Agregar** para agregar el Skype para el año 2015 de servidor empresarial que ejecuta Skype para informes de servidor empresariales a las colecciones de sitios Web de confianza.
+- En el cuadro de diálogo **sitios de confianza** , haga clic en **Agregar** para agregar el Skype para Business Server que se está ejecutando Skype para los informes del servidor empresarial que las colecciones de sitios Web de confianza.
     
 - Haga clic en **Cerrar** y, luego, en **Aceptar**.
     

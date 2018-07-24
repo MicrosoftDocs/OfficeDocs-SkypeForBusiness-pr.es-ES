@@ -1,9 +1,9 @@
 ---
-title: Solicitud de certificado (Intro)
+title: Solicitud de certificado (Introducción)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,13 +12,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1d0844b-168e-4474-a432-ce83925a4fe1
 description: Para continuar con el proceso de solicitud de certificado, haga clic en siguiente. Para salir del proceso sin cambios en el sistema, haga clic en Cancelar.
-ms.openlocfilehash: ae68c8703b875964898d1ee6e0636ac4cce5da29
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4b573acdf7c869a8017cfddeb01c281aa4f13003
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001707"
 ---
-# <a name="certificate-request-intro"></a>Solicitud de certificado (Intro)
+# <a name="certificate-request-intro"></a>Solicitud de certificado (Introducción)
  
 Para continuar con el proceso de solicitud de certificado, haga clic en **siguiente**. Para salir del proceso sin cambios en el sistema, haga clic en **Cancelar**.
   

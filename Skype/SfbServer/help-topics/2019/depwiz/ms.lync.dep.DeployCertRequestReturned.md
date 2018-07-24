@@ -10,17 +10,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
-description: 'La página de estado de solicitud de certificado en línea presenta información importante que da como resultado de la creación correcta y la emisión de la solicitud de certificado en línea. Esta página proporciona la huella digital del certificado que identifica de forma exclusiva el certificado. De forma predeterminada, se selecciona la casilla de verificación asignar este certificado a Skype para usos de certificados de servidor empresarial. Si hace clic en Finalizar, el certificado se asignará automáticamente a Lync Server 2013 para los fines que ha definido en los pasos de creación de la solicitud de certificado. De forma predeterminada, con el fin de que se asignará el certificado es:'
-ms.openlocfilehash: 74ee0fba06add0d069473bc5b6b580c1b1d5810a
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'La página de estado de solicitud de certificado en línea presenta información importante que da como resultado de la creación correcta y la emisión de la solicitud de certificado en línea. Esta página proporciona la huella digital del certificado que identifica de forma exclusiva el certificado. De forma predeterminada, se selecciona la casilla de verificación asignar este certificado a Skype para usos de certificados de servidor empresarial. Si hace clic en Finalizar, el certificado se asignará automáticamente a Skype para Business Server con el fin de que ha definido en los pasos de creación de la solicitud de certificado. De forma predeterminada, con el fin de que se asignará el certificado es:'
+ms.openlocfilehash: 2de8bae390ed8406883f5c6cd74709990c6c450b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976600"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983759"
 ---
 # <a name="certificate-request-returned"></a>Solicitud de certificado (devuelto)
  
-La página de **Estado de solicitud de certificado en línea** presenta información importante que da como resultado de la creación correcta y la emisión de la solicitud de certificado en línea. Esta página proporciona la huella digital del certificado que identifica de forma exclusiva el certificado. De forma predeterminada, se selecciona la casilla de verificación **asignar este certificado a Skype para usos de certificados de servidor empresarial** . Si hace clic en **Finalizar**, el certificado se asignará automáticamente a Lync Server 2013 para los fines que ha definido en los pasos de creación de la solicitud de certificado. De forma predeterminada, con el fin de que se asignará el certificado es:
+La página de **Estado de solicitud de certificado en línea** presenta información importante que da como resultado de la creación correcta y la emisión de la solicitud de certificado en línea. Esta página proporciona la huella digital del certificado que identifica de forma exclusiva el certificado. De forma predeterminada, se selecciona la casilla de verificación **asignar este certificado a Skype para usos de certificados de servidor empresarial** . Si hace clic en **Finalizar**, el certificado se asignará automáticamente a Skype para Business Server con el fin de que ha definido en los pasos de creación de la solicitud de certificado. De forma predeterminada, con el fin de que se asignará el certificado es:
   
 - Servidor predeterminado para Mutual Transport capa de seguridad (MTLS) - conexiones a clientes y otros servidores
     

@@ -1,33 +1,32 @@
 ---
-title: Valorar mi llamada en Skype Empresarial Server 2015
+title: Tasa de mi llamada de Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/13/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
-description: 'Resumen: Obtenga información sobre la característica de tasa mi llamada de Skype para Business Server 2015.'
-ms.openlocfilehash: 54e751731e305767eecb755f274de667949379f2
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Obtenga información sobre la característica de tasa mi llamada de Skype para Business Server.'
+ms.openlocfilehash: 737d6a71f6880139d558d601a14d8f76c61d80f2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569800"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989066"
 ---
-# <a name="rate-my-call-in-skype-for-business-server-2015"></a>Valorar mi llamada en Skype Empresarial Server 2015
+# <a name="rate-my-call-in-skype-for-business-server"></a>Tasa de mi llamada de Skype para Business Server
  
-**Resumen:** Obtenga información acerca de la característica de tasa mi llamada de Skype para Business Server 2015.
+**Resumen:** Obtenga información acerca de la característica de tasa mi llamada de Skype para Business Server.
   
-Tasa de Mis llamadas es una característica nueva de Skype para 2015 de negocios y clientes de 2016 en Windows que proporciona una forma de obtener comentarios de los usuarios finales de las empresas.
+Tasa de Mis llamadas era una nueva característica de Skype para 2015 de negocios y clientes de 2016 en Windows que proporciona una forma de obtener comentarios de los usuarios finales de las empresas.
   
 La ventana de tasa mi llamada ofrece un sistema de clasificación "estrella" y tokens predefinidos para llamadas de audio y vídeo. Además, los administradores pueden habilitar un campo personalizado proporcionar comentarios.
   
 Actualmente, los datos recopilados de Valorar mi llamada no se incluyen en ningún informe de supervisión existente, aunque dispone de un informe de supervisión independiente. Se recopilan datos en tablas SQL que se pueden tener acceso mediante la ejecución de consultas SQL.
   
-## <a name="rate-my-call-prerequisites"></a>Tasa de Mis llamada de los requisitos previos
+## <a name="rate-my-call-prerequisites"></a>Requisitos previos de Valorar mi llamada
 
 Antes de que los usuarios de su Skype para la implementación de Business Server pueden tener acceso a funcionalidad tasa Mis llamadas, se debe implementar y configurar el siguiente conjunto de componentes:
   
@@ -41,7 +40,7 @@ Antes de que los usuarios de su Skype para la implementación de Business Server
     
 - Le recomendamos que implemente el Panel de calidad de llamadas (CQD).
     
-## <a name="configure-rate-my-call"></a>Configuración de tasa de mi llamada
+## <a name="configure-rate-my-call"></a>Configurar Valorar mi llamada
 
 La característica tasa mi llamada está habilitada de forma predeterminada en la directiva de cliente con la siguiente configuración:
   
@@ -55,7 +54,7 @@ No hay ninguna acción necesaria para habilitar la característica base, sin emb
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
 ```
 
-## <a name="accessing-rate-my-call-data"></a>Tasa de acceso a Mis datos de llamada
+## <a name="accessing-rate-my-call-data"></a>Obtener acceso a los datos de Valorar mi llamada
 
 Se recopilan datos de los usuarios de dos tablas de la base de datos de supervisión.
   
@@ -63,7 +62,7 @@ Se recopilan datos de los usuarios de dos tablas de la base de datos de supervis
   
  **[QoeMetrics]. [dbo]. [CallQualityFeedbackTokenDef]** -Esta tabla contiene las definiciones de símbolo (token).
   
-Las definiciones de símbolo (token) se codifican como se indica a continuación:
+Las definiciones de tokens se codifican del siguiente modo:
   
 |||
 |:-----|:-----|
@@ -110,7 +109,7 @@ Las definiciones de símbolo (token) se codifican como se indica a continuación
   
 Datos de tablas que se pueden llamar mediante el uso de un **seleccione \* de [Table.Name]** consulta o mediante el uso de Microsoft SQL Server Management Studio.
   
-Se pueden usar las siguientes consultas SQL:
+Se pueden utilizar las siguientes consultas SQL:
   
  **Audio**
   

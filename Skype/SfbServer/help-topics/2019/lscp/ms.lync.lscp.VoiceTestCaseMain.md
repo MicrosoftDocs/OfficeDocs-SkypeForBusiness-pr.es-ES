@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
+ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 7b57c7665f223270c770fd9547f26d8e334daab0
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: cd87cd5000bbc280bc6fe5b633b7ff4065b94a67
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20043951"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988182"
 ---
 # <a name="test-voice-routing-test-cases"></a>Enrutamiento de voz de prueba: casos de prueba
  

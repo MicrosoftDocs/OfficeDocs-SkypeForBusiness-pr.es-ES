@@ -3,34 +3,31 @@ title: Plan para la integración de Skype Empresarial y Exchange
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
-description: 'Resumen: Revise este tema para obtener información acerca de cómo integrar Skype para profesionales de 2015 servidor con Exchange Server 2016 o Exchange Server 2013.'
-ms.openlocfilehash: 2534cd1d2b3bd02998beb2034c704259b6b14c49
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Resumen: Revise este tema para obtener información acerca de cómo integrar Skype para Business Server con Exchange Server 2016 o Exchange Server 2013.'
+ms.openlocfilehash: 0fc7975e35d84cf6fda75addacee9ffbb8f25b52
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505121"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013240"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Plan para la integración de Skype Empresarial y Exchange
  
-**Resumen:** Revise este tema para obtener información acerca de cómo integrar Skype para profesionales de 2015 servidor con Exchange Server 2016 o Exchange Server 2013.
+**Resumen:** Revise este tema para obtener información acerca de cómo integrar Skype para Business Server con Exchange Server 2016 o Exchange Server 2013.
   
-Antes de que se puede integrar Skype para Business Server 2015 y Exchange Server, debe asegurarse de que Exchange Server y Skype para Business Server 2015 están completamente instalados y arriba y que se está ejecutando. 
+Antes de que se puede integrar Skype para Business Server y Exchange Server, debe asegurarse de que Exchange Server y Skype para Business Server son totalmente instalado y arriba y en ejecución. 
   
 Para obtener información detallada sobre la instalación de Exchange Server, consulte la documentación de Exchange Server planeación e implementación para su versión de Exchange. 
+   
+Después de que los servidores estén en funcionamiento, debe asignar los certificados de autenticación de servidor a servidor a ambos Skype para Business Server y Exchange Server; Estos certificados permiten Skype para Business Server y Exchange Server para intercambiar información y para comunicarse entre sí. Al instalar Exchange Server, se crea un certificado autofirmado con el nombre de certificado de autenticación de servidor de Microsoft Exchange para usted. Este certificado, que se puede encontrar en el almacén de certificados del equipo local, se debe usar para la autenticación de servidor a servidor en el servidor de Exchange. Para obtener información detallada sobre la asignación de certificados en Exchange Server, vea [Configurar el flujo de correo y acceso de cliente](https://go.microsoft.com/fwlink/p/?LinkId=268540).
   
-Para obtener información detallada acerca de cómo instalar Skype para Business Server 2015, vea [Implementar Skype para Business Server 2015](../../deploy/deploy.md).
-  
-Después de que los servidores estén en funcionamiento, debe asignar certificados de autenticación de servidor a servidor a ambos Skype para Business Server 2015 y Exchange Server; Estos certificados permiten Skype para Business Server 2015 y Exchange Server para intercambiar información y para comunicarse entre sí. Al instalar Exchange Server, se crea un certificado autofirmado con el nombre de certificado de autenticación de servidor de Microsoft Exchange para usted. Este certificado, que se puede encontrar en el almacén de certificados del equipo local, se debe usar para la autenticación de servidor a servidor en el servidor de Exchange. Para obtener información detallada sobre la asignación de certificados en Exchange Server, vea [Configurar el flujo de correo y acceso de cliente](https://go.microsoft.com/fwlink/p/?LinkId=268540).
-  
-Para Skype para Business Server 2015 puede usar un Skype existente para el certificado de servidor empresarial como su certificado de autenticación de servidor a servidor; Por ejemplo, también se puede utilizar su certificado predeterminado como el certificado OAuthTokenIssuer. Skype para Business Server 2015 le permite usar cualquier certificado de servidor Web como el certificado de autenticación de servidor a servidor, siempre que:
+Para Skype para Business Server puede utilizar un Skype existente para el certificado de servidor empresarial como su certificado de autenticación de servidor a servidor; Por ejemplo, también se puede utilizar su certificado predeterminado como el certificado OAuthTokenIssuer. Skype para Business Server le permite usar cualquier certificado de servidor Web como el certificado de autenticación de servidor a servidor, siempre que:
   
 - El certificado incluya el nombre del dominio SIP en el campo Asunto.
     
@@ -38,7 +35,7 @@ Para Skype para Business Server 2015 puede usar un Skype existente para el certi
     
 - El certificado tenga una longitud de al menos 2048 bits.
     
-Para obtener información detallada sobre los certificados de autenticación de servidor a servidor para Skype para Business Server 2015, vea [asignar un certificado de autenticación de servidor a servidor a Skype para Business Server 2015](../../manage/authentication/assign-a-server-to-server-certificate.md).
+Para obtener información detallada sobre los certificados de autenticación de servidor a servidor para Skype para Business Server, consulte [asignar un certificado de autenticación de servidor a servidor a Skype para Business Server](../../manage/authentication/assign-a-server-to-server-certificate.md).
   
 Después de que se han asignado los certificados, a continuación, debe configurar el servicio de detección automática en Exchange Server. En Exchange Server, el servicio Detección automática configura los perfiles de usuario y proporciona acceso a los servicios de Exchange cuando los usuarios inician sesión en el sistema. Los usuarios presentan el servicio Detección automática con su dirección de correo electrónico y la contraseña; a su vez, los servicios de proporcionan al usuario con información como:
   
@@ -50,7 +47,7 @@ Después de que se han asignado los certificados, a continuación, debe configur
     
 - Configuración del servidor Outlook en cualquier lugar.
     
-El servicio Detección automática debe configurarse antes de que se puede integrar Skype para Business Server 2015 y Exchange Server. Puede comprobar si se ha configurado el servicio Detección automática ejecutando el siguiente comando desde el Shell de administración de Exchange Server y comprobar el valor de la propiedad AutoDiscoverServiceInternalUri:
+El servicio Detección automática debe configurarse antes de que se puede integrar Skype para Business Server y Exchange Server. Puede comprobar si se ha configurado el servicio Detección automática ejecutando el siguiente comando desde el Shell de administración de Exchange Server y comprobar el valor de la propiedad AutoDiscoverServiceInternalUri:
   
 ```
 Get-ClientAccessServer | Select-Object Name, AutoDiscoverServiceInternalUri | Format-List
@@ -64,9 +61,9 @@ Puede asignar el URI de detección automática ejecutando un comando similar al 
 Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri "https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml"
 ```
 
-Para obtener información detallada sobre el servicio de detección automática, vea la [Descripción del servicio de detección automática](https://go.microsoft.com/fwlink/p/?LinkId=268542).
+Para obtener información detallada sobre el servicio de detección automática, vea [Servicio de detección automática](https://go.microsoft.com/fwlink/p/?LinkId=268542).
   
-Después de que se ha configurado el servicio Detección automática, a continuación, debe modificar el Skype para opciones de configuración de OAuth de servidor empresarial; Esto garantiza que ese Skype para Business Server sabe dónde encontrar el servicio Detección automática. Para modificar las opciones de configuración de OAuth en Skype para Business Server 2015, ejecute el siguiente comando desde dentro de la Skype para Shell de administración de servidor empresarial. Cuando se ejecuta este comando, asegúrese de que se especifique el URI para el servicio de detección automática que se ejecutan en el servidor de Exchange y que use **autodiscover.svc** para que apunte a la ubicación del servicio en lugar de **autodiscover.xml** (que apunta al archivo XML usada por el servicio):
+Después de que se ha configurado el servicio Detección automática, a continuación, debe modificar el Skype para opciones de configuración de OAuth de servidor empresarial; Esto garantiza que ese Skype para Business Server sabe dónde encontrar el servicio Detección automática. Para modificar las opciones de configuración de OAuth en Skype para Business Server, ejecute el siguiente comando desde dentro de la Skype para Shell de administración de servidor empresarial. Cuando se ejecuta este comando, asegúrese de que se especifique el URI para el servicio de detección automática que se ejecutan en el servidor de Exchange y que use **autodiscover.svc** para que apunte a la ubicación del servicio en lugar de **autodiscover.xml** (que apunta al archivo XML usada por el servicio):
   
 ```
 Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 
@@ -83,14 +80,14 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
   
 Además de configurar el servicio Detección automática, también debe crear un registro DNS para el servicio que apunta al servidor de Exchange. Por ejemplo, si el servicio de detección automática se encuentra en autodiscover.litwareinc.com necesitará crear un registro DNS para autodiscover.litwareinc.com que se resuelve en el nombre de dominio completo de su servidor de Exchange (por ejemplo, ATL-exchange-001.litwareinc.com).
   
-Si va a integrar Skype para Business Server con Exchange Online, los pasos siguientes se encuentran en [Configurar la integración entre local Skype para Business Server 2015 y Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md), en caso contrario, vea [integrar Skype para Business Server 2015 con Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
+Si va a integrar Skype para Business Server con Exchange Online, los pasos siguientes se encuentran en [Configurar la integración entre local Skype para Business Server y Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md), en caso contrario, vea [integrar Skype para Business Server con Exchange Servidor](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
   
 ## <a name="feature-support"></a>Compatibilidad con la característica
 <a name="feature_support"> </a>
 
 En la siguiente tabla se detalla las características admitidas en diversas combinaciones de online o local para Exchange y Skype para la empresa.
   
-||**2013/Exchange 2016/2010 (local) + Skype para Business Server 2015 (local)**|**Exchange Online + Skype para Business Server 2015 (local)**|**Exchange 2010 (local) + Skype para profesionales en línea**|**Exchange 2016/2013(on premises) + Skype para profesionales en línea**|**Exchange Online + Skype para la empresa en línea**|
+||**2013/Exchange 2016/2010 (local) + Skype para Business Server (local)**|**Exchange Online + Skype para Business Server (local)**|**Exchange 2010 (local) + Skype para profesionales en línea**|**Exchange 2016/2013(on premises) + Skype para profesionales en línea**|**Exchange Online + Skype para la empresa en línea**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Presencia en Outlook  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
 |Responder a través de MI, llamadas RTC, llamadas de Skype o videollamadas desde un correo electrónico de Outlook  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
@@ -113,12 +110,12 @@ En la siguiente tabla se detalla las características admitidas en diversas comb
 ## <a name="see-also"></a>Vea también
 <a name="feature_support"> </a>
 
-[Configurar la integración entre local Skype para Business Server 2015 y Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md)
+[Configurar la integración entre local Skype para Business Server y Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md)
   
-[Configurar OAuth entre Skype para profesionales Online y Exchange local](../../deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises.md)
+[Configurar OAuth entre Skype Empresarial Online y Exchange local](../../deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises.md)
 
-[Integrar Skype para Business Server 2015 con Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)
+[Integrar Skype para Business Server con Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)
   
 [Cómo integrar Exchange Server 2013 con Lync Server 2013, Skype para profesionales en línea o una implementación híbrida de Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=746494)
   
-[Configuración de las aplicaciones asociadas en Skype para Business Server 2015 y Microsoft Exchange Server](https://go.microsoft.com/fwlink/p/?LinkId=746495)
+[Configuración de las aplicaciones asociadas en Skype para Business Server y Microsoft Exchange Server](../../deploy/integrate-with-exchange-server/configure-partner-applications.md)

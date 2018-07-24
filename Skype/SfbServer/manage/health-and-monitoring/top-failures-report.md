@@ -1,40 +1,40 @@
 ---
-title: Informe de errores principales en Skype Empresarial Server 2015
+title: Informe de errores principales en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
-description: 'Resumen: Conozca el informe de errores Top en Skype para Business Server 2015.'
-ms.openlocfilehash: 3eb536fdeaa606c16c78954401bc43e91dd520d9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Información sobre el informe de errores principales en Skype para Business Server.'
+ms.openlocfilehash: 7050c156d78ed7b4c254976cf4fd2027f3a677d0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002161"
 ---
-# <a name="top-failures-report-in-skype-for-business-server-2015"></a>Informe de errores principales en Skype Empresarial Server 2015
+# <a name="top-failures-report-in-skype-for-business-server"></a>Informe de errores principales en Skype para Business Server
  
-**Resumen:** Obtener información sobre el informe de errores Top en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre el informe de errores principales en Skype para Business Server.
   
 El Informe de errores principales proporciona una presentación de los errores más frecuentes y las tendencias en el tiempo. Los errores se basan en una combinación de las dos métricas siguientes:
   
 - **Id. de diagnóstico**. Identificador único (en forma de un encabezado de ms-diagnostics) que se adjunta a un mensaje SIP. Los Id. de diagnóstico proporcionan información útil para la solución de problemas relacionados con la llamada.
     
-- **Código de respuesta**. Los códigos de respuesta se usan en las sesiones de comunicación SIP para responder a solicitudes SIP. Por ejemplo, supongamos que Ken envía la solicitud INVITE a Pilar Ackerman (es decir, supongamos que Ken Myer llama Pilar Ackerman). Si Pilar responde, su teléfono le enviará el código de respuesta 200 (OK), indicando al teléfono de Ken que Pilar ha respondido. El informe de errores de la parte superior sólo incluye los códigos de respuesta que se envían en respuesta a un error de llamada; Skype para Business Server no realizar un seguimiento de todos los códigos de respuesta expedidos en el transcurso de una llamada.
+- **Código de respuesta**. Los códigos de respuesta se usan en las sesiones de comunicación SIP para responder a solicitudes SIP. Por ejemplo, supongamos que Ken envía la solicitud INVITE a Pilar Ackerman (es decir, supongamos que Ken Myer llama Pilar Ackerman). Si Pilar responde, su teléfono le enviará el código de respuesta 200 (OK), indicando al teléfono de Ken que Pilar ha respondido. El informe de errores más sólo incluye los códigos de respuesta que se han enviado en respuesta a un error de llamada; Skype para Business Server no realizar un seguimiento de todos los códigos de respuesta emitidos durante el transcurso de una llamada.
     
 No solo se proporciona información de la cantidad total de sesiones donde se produjo un error, sino también de la cantidad total de usuarios a los que afectó el error.
   
 ## <a name="accessing-the-top-failures-report"></a>Acceso al Informe de errores principales
 
-Desde la página Informes supervisión se obtiene acceso al Informe de errores principales. Al hacer clic en la métrica de sesiones notificado le llevará al [Informe de distribución falla en Skype para Business Server 2015](failure-distribution-report.md).
+Desde la página Informes supervisión se obtiene acceso al Informe de errores principales. Al hacer clic en la métrica de sesiones notificado le llevará al [Informe de distribución de errores en Skype para Business Server](failure-distribution-report.md).
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>Hacer el mejor uso del Informe de errores principales
 
-El Informe de errores principales es inusual en un sentido: le permite filtrar a la vez hasta 5 Id. de diagnóstico. (Normalmente sólo puede filtrar en un elemento - como la dirección SIP de un usuario - cada vez.) Para filtrar por varios identificadores diagnóstico, simplemente escriba cada identificador en el cuadro diagnóstico IDs, separando los identificadores con comas. (Si desea, puede dejar un espacio en blanco detrás de cada coma.) Por ejemplo:
+El Informe de errores principales es inusual en un sentido: le permite filtrar a la vez hasta 5 Id. de diagnóstico. (Normalmente sólo puede filtrar en un elemento - como la dirección SIP de un usuario - a la vez.) Para filtrar en varios identificadores de diagnósticos, simplemente escriba cada identificador en el cuadro de los identificadores de diagnóstico, separando los identificadores con comas. (Si desea, puede dejar un espacio en blanco después de cada coma). Por ejemplo:
   
 1011, 2412, 1033, 52116, 1008
   
@@ -50,7 +50,7 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
   
 La siguiente tabla muestra los filtros que puede utilizar con el informe de errores más comunes.
   
-**Filtros de informe de errores Top**
+**Filtros del informe de errores más comunes**
 
 |**Nombre.**|**Descripción**|
 |:-----|:-----|
@@ -67,9 +67,9 @@ La siguiente tabla muestra los filtros que puede utilizar con el informe de erro
 
 En la tabla siguiente se muestra la información que recoge el informe de errores más comunes.
   
-**Métricas de informe de errores Top**
+**Métricas del informe de errores más comunes**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Clasificación** <br/> |Sí  <br/> |Clasificación relativa basada en la cantidad de sesiones de las que se informa.  <br/> |
 |**Sesiones notificadas** <br/> |Sí  <br/> |Cantidad total de sesiones con error basadas en el Id. de diagnóstico y en el código de respuesta SIP.  <br/> |

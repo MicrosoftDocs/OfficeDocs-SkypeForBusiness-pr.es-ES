@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
+ROBOTS: NOINDEX, NOFOLLOW
 description: Directiva de conferencia define las características y capacidades que los usuarios tendrán a su disposición durante una conferencia (también conocida como una reunión).
-ms.openlocfilehash: d44411bc3d38587e71491e68acc447e855b85955
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 2f05eb5141c817dc186a2002d752d17a20abd917
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974897"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980692"
 ---
 # <a name="conferencing-policy"></a>Directiva de conferencia
  

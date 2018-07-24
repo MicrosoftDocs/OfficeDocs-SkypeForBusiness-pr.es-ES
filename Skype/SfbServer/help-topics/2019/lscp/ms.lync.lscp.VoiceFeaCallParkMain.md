@@ -10,19 +10,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
+ROBOTS: NOINDEX, NOFOLLOW
 description: Cuando una llamada está estacionada, se transfiere a un número temporal donde se mantiene la llamada hasta que alguien las recupera o se agota el tiempo. Debe configurar una tabla con los intervalos de números de extensión que desea reservar para llamadas estacionadas. Estas extensiones tienen que ser extensiones virtuales (es decir, extensiones que no tengan ningún usuario ni teléfono asignado). Cada grupo de servidores que se ejecuta la aplicación de estacionamiento de llamadas puede tener uno o más rangos de extensiones. Estos intervalos tienen que ser únicos en el nivel global en toda la implementación.
-ms.openlocfilehash: 03c435b5fa67fc5a9ee8f1d89f1e68c2d7cb7073
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: c3b87225c4cd9fa4c0736ba6ab1ba86ab3405162
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19966056"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019613"
 ---
 # <a name="call-park"></a>Estacionamiento de llamadas
  
 Cuando una llamada está estacionada, se transfiere a un número temporal donde se mantiene la llamada hasta que alguien las recupera o se agota el tiempo. Debe configurar una tabla con los intervalos de números de extensión que desea reservar para llamadas estacionadas. Estas extensiones tienen que ser extensiones virtuales (es decir, extensiones que no tengan ningún usuario ni teléfono asignado). Cada grupo de servidores que se ejecuta la aplicación de estacionamiento de llamadas puede tener uno o más rangos de extensiones. Estos intervalos tienen que ser únicos en el nivel global en toda la implementación.
   
-El ** estacionamiento de llamada ** página muestra una lista de todos los intervalos números estacionamiento de llamadas que se definen para su organización.
+La página **Estacionamiento de llamadas** muestra una lista de todos los intervalos números estacionamiento de llamadas que se definen para su organización.
   
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 

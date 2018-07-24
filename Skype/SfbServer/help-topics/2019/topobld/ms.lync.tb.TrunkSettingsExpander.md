@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: 'Para editar o modificar la configuración de un tronco SIP, efectúe las acciones siguientes:'
-ms.openlocfilehash: cfb8626d0aa7933444269c93ab69992c6a43185a
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 4f8f6e2f0851b00f9e7702391ce051a42dd686c3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19989870"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985836"
 ---
 # <a name="trunk-settings-expander"></a>Expansor de configuración de tronco
  
@@ -33,7 +33,7 @@ Para editar o modificar la configuración de un tronco SIP, efectúe las accion
  **Servidor de mediación asociado**: seleccione un servidor de mediación existente de la implementación para asociarlo con el tronco SIP.
   
 > [!NOTE]
-> Únicamente el tronco raíz puede asociarse con un Lync Server 2010 o el servidor de mediación de Lync Server 2013. 
+> Únicamente el tronco raíz puede asociarse con un servidor de mediación. 
   
  **Puerto del servidor de mediación asociado**: un valor obligatorio, esto se establece en el valor que el servidor de mediación está configurado para escuchar en.
   

@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 description: El servidor de Office Web Apps proporciona servicios similares a los de un presentador que carga un documento para usarlo en una reunión, pero habilita otras características que las versiones anteriores no habilitaban.
-ms.openlocfilehash: ea7df7254dc17b3db0107df9d92ba69d8c51b128
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: af10702b84021caa5d2e9a7c874e3dcaad2f54ff
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19970664"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985812"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Página Asociar front-end con servidor de Office Web Apps
  
 El servidor de Office Web Apps proporciona servicios similares a los de un presentador que carga un documento para usarlo en una reunión, pero habilita otras características que las versiones anteriores no habilitaban.
   
-Seleccione un servidor de Office Web Apps para su implementación si ha elegido la conferencia como una de las opciones de la característica para su Skype para la configuración de Business Server 2015.
+Seleccione un servidor de Office Web Apps para su implementación si ha elegido la conferencia como una de las opciones de la característica para su Skype para la configuración del servidor de negocio.
   
 Las opciones que se incluyen en este cuadro de diálogo son:
   

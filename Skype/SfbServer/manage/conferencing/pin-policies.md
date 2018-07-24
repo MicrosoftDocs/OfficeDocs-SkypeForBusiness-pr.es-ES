@@ -1,25 +1,24 @@
 ---
-title: Administración de directivas PIN para conferencias en Skype para Business Server 2015
+title: Administración de directivas PIN para conferencias en Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
-description: 'Resumen: Obtenga información sobre cómo administrar las directivas de PIN para conferencias de acceso telefónico en Skype para Business Server 2015.'
-ms.openlocfilehash: ee6a303a59ef6bc17ca3bd3300a701505cf9042b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Obtenga información sobre cómo administrar las directivas de PIN para conferencias de acceso telefónico en Skype para Business Server.'
+ms.openlocfilehash: 0fd6d8a3ebfaeee0c6b4b3757a7b58b8d3882d71
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569054"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013417"
 ---
-# <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server-2015"></a>Administración de directivas PIN para conferencias en Skype para Business Server 2015
+# <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Administración de directivas PIN para conferencias en Skype para Business Server
  
-**Resumen:** Obtenga información sobre cómo administrar las directivas de PIN para conferencias de acceso telefónico en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo administrar las directivas de PIN para conferencias de acceso telefónico en Skype para Business Server.
   
 Skype para los usuarios de Business Server que tienen credenciales de servicios de dominio de Active Directory (AD DS) en su organización puede participar en conferencias de acceso telefónico como los usuarios autenticados mediante el uso de un número de identificación personal (PIN). La directiva de PIN define las reglas de funcionamiento de los PIN de conferencias de acceso telefónico local.
   
@@ -35,7 +34,7 @@ Puede ver información acerca de las directivas de PIN mediante Skype para el Pa
   
 ### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-control-panel"></a>Ver información sobre las directivas de PIN mediante el uso de Skype para el Panel de Control de servidor empresarial
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server 2015.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server .
     
 2.  Abra Skype para el Panel de Control de servidor empresarial.
     
@@ -59,7 +58,7 @@ Puede modificar la directiva de PIN global mediante el uso de Skype para el Pane
   
 ### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>Modificar la conferencia de marcado global directiva de PIN mediante Skype para el Panel de Control de servidor empresarial
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server 2015.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server .
     
 2.  Abra Skype para el Panel de Control de servidor empresarial.
     
@@ -104,7 +103,7 @@ Puede crear un usuario o directiva de PIN del sitio mediante el uso de Skype par
   
 ### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Crear un usuario o directiva de PIN del sitio mediante el uso de Skype para el Panel de Control de servidor empresarial
 
-1. Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server 2015.
+1. Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server .
     
 2.  Abra Skype para el Panel de Control de servidor empresarial.
     
@@ -155,7 +154,7 @@ Puede modificar un usuario o directiva de PIN del sitio mediante el uso de Skype
   
 ### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Modificar un usuario o directiva de PIN del sitio mediante el uso de Skype para el Panel de Control de servidor empresarial
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server 2015.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server .
     
 2.  Abra Skype para el Panel de Control de servidor empresarial.
     
@@ -185,7 +184,7 @@ Puede eliminar un usuario o directiva de PIN del sitio mediante el uso de Skype 
   
 ### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Eliminar un usuario o directiva de PIN del sitio mediante el uso de Skype para el Panel de Control de servidor empresarial
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server 2015.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server .
     
 2.  Abra Skype para el Panel de Control de servidor empresarial.
     

@@ -10,35 +10,39 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
-description: 'Resumen: Revise este tema cuando planee integrar Skype para Business Server 2015 con Exchange 2013.'
-ms.openlocfilehash: 6ab3ab1e7cad9f09c6713ea0fbfbc7b7e1a9cc2e
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Resumen: Revise este tema cuando planee integrar Skype para Business Server con Exchange 2013 o 2016.'
+ms.openlocfilehash: cc389d46e0ae7514b9990e5770e6494d07417e6d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505114"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983458"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planear la integración de la mensajería unificada de Exchange en Skype Empresarial
  
-**Resumen:** Revise este tema cuando planee integrar Skype para Business Server 2015 con Exchange 2013.
+**Resumen:** Revise este tema cuando planee integrar Skype para Business Server con Exchange 2013 o 2016.
   
-Skype para Business Server 2015 admite la integración con Exchange mensajería unificada (UM) de la combinación de mensajería de voz y mensajería de correo electrónico en una sola infraestructura de mensajería. En Exchange, la mensajería unificada de Exchange (UM) es uno de varios roles de servidor de Exchange que se pueden instalar y configurar. 
+Skype para Business Server admite la integración con Exchange mensajería unificada (UM) de la combinación de mensajería de voz y mensajería de correo electrónico en una sola infraestructura de mensajería. En Exchange, la mensajería unificada de Exchange (UM) es uno de varios roles de servidor de Exchange que se pueden instalar y configurar. 
   
-En Microsoft Exchange Server 2013, mensajería unificada de Exchange se ejecuta como un servicio en un servidor de buzones de Exchange. Skype para las implementaciones empresariales Server 2015 Enterprise Voice, mensajería unificada combina mensajería de voz y correo electrónico de mensajería en un único almacén que pueden tener acceso los usuarios de un equipo o un teléfono (Outlook Voice Access). Mensajería unificada y Skype para Business Server 2015 funcionan conjuntamente para proporcionar el contestador automático, Outlook Voice Access y servicios de operador automático para los usuarios de Enterprise Voice.
+En Microsoft Exchange Server 2013 y 2016, mensajería unificada de Exchange se ejecuta como un servicio en un servidor de buzones de Exchange. Skype para las implementaciones empresariales Server Enterprise Voice, mensajería unificada combina mensajería de voz y correo electrónico de mensajería en un único almacén que pueden tener acceso los usuarios de un equipo o un teléfono (Outlook Voice Access). Mensajería unificada y Skype para Business Server funcionan conjuntamente para proporcionar el contestador automático, Outlook Voice Access y servicios de operador automático para los usuarios de Enterprise Voice.
+
+> [!NOTE]
+> Mensajería unificada de Exchange sigue estando disponible en Skype para Business Server 2019 al integrar Skype para la empresa 2019 con Exchange 2013 o 2016 de Exchange. Debido a los cambios en la compatibilidad en Exchange 2019, integración de mensajería unificada de Exchange se está desaprovisionamiento emphasised en favor de las características de correo de voz en la nube y operador automático de la nube.  Para obtener más información, vea [servicio de planeación de correo de voz en la nube](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) y [planeación de Skype para Business Server y la migración de Exchange Server](../../../SfBServer2019/hybrid/plan-um-migration.md) .
   
-Para obtener más información acerca de los cambios de arquitectura en Microsoft Exchange Server 2013, vea [Cambios de arquitectura de voz](https://go.microsoft.com/fwlink/p/?LinkId=266730) en la documentación de Microsoft Exchange Server 2013.
-  
+ 
 Para que estas características sean compatibles con una implementación local de mensajería unificada de Exchange, debe ejecutar uno de estos procedimientos:
   
-- Microsoft Exchange Server 2010 o el último service pack
-    
+- Microsoft Exchange Server 2010 o el último service pack (Skype para Business Server solo 2015)
 - Microsoft Exchange Server 2013
-    
--  Microsoft Exchange Server 2016
-    
-## <a name="features-of-integrated-unified-messaging-and-skype-for-business-server-2015"></a>Características de la mensajería unificada integrada y Skype Empresarial Server 2015
+- Microsoft Exchange Server 2016
+- Microsoft Exchange Server 2019 (Skype para Business Server 2019 sólo)
 
-Skype para Business Server 2015, Enterprise Voice usa la infraestructura de mensajería unificada de Exchange (UM) para proporcionar el contestador automático, notificación de llamada, acceso de voz (incluido el correo de voz) y servicios de operador automático.
+> [!NOTE]
+> Mensajería unificada de Exchange como conocidos anteriormente ya no está disponible en Skype para Business Server 2019, que usa el sistema telefónico para registrar los mensajes de correo de voz y, a continuación, deje la grabación en el buzón de Exchange del usuario. Para obtener más información, vea [servicio de planeación de correo de voz en la nube](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) .
+    
+## <a name="features-of-integrated-unified-messaging-and-skype-for-business-server"></a>Características de mensajería unificada integrada y Skype para Business Server
+
+Skype para Business Server, Enterprise Voice usa la infraestructura de mensajería unificada de Exchange (UM) para proporcionar el contestador automático, notificación de llamada, acceso de voz (incluido el correo de voz) y servicios de operador automático.
   
 - **Contestador automático**: el contestador automático recibe mensajes de voz en nombre de los usuarios que no están disponibles o cuyas llamadas no se responden. Permite reproducir un saludo personal, grabar un mensaje y enviar el mensaje a la cola para su entrega en el buzón del usuario, que se almacena en el servidor de buzones de correo de Exchange.
     
@@ -51,50 +55,50 @@ Skype para Business Server 2015, Enterprise Voice usa la infraestructura de mens
 - **Servicios de fax** Mensajería unificada de Exchange incluye características de fax, que permiten a los usuarios recibir faxes entrantes en sus buzones de Exchange. Para obtener información detallada, vea [Mensajería unificada](https://go.microsoft.com/fwlink/p/?linkId=135652) en la documentación de Microsoft Exchange Server.
     
     > [!NOTE]
-    > Los servicios de fax proporcionados por el servidor de mensajería unificada de Exchange no están disponibles en Skype para las implementaciones de Business Server que se integran con Microsoft Exchange Server 2010, Exchange 2010 con el último service pack o Exchange 2013. 
+    > Los servicios de fax proporcionados por el servidor de mensajería unificada de Exchange no están disponibles en Skype para las implementaciones de Business Server que se integran con Microsoft Exchange Server 2010, Exchange 2010 con el último service pack, Exchange 2013 o 2016 de Exchange. 
   
-## <a name="components-and-topologies-for-on-premises-unified-messaging-in-skype-for-business-server-2015"></a>Componentes y topologías para mensajería unificada local en Skype Empresarial Server 2015
+## <a name="components-and-topologies-for-on-premises-unified-messaging-in-skype-for-business-server"></a>Componentes y topologías para local mensajería unificada en Skype para Business Server
 
 ### <a name="exchange-server-components"></a>Componentes de Exchange Server
 
-Para proporcionar las características de mensajería unificada de Exchange y servicios que se describen en [las características de integrado de mensajería unificada y Lync Server 2013](http://technet.microsoft.com/library/094f549d-fccc-43ab-9f39-6ddd18130915.aspx) a los usuarios de Enterprise Voice en su organización, debe implementar un servidor de buzones de Microsoft Exchange y el servidor de acceso de cliente, que hospeda los buzones de usuario y proporciona una única ubicación de almacenamiento para correo electrónico y correo de voz. Mensajería unificada de Exchange se ejecuta como un servicio en servidores de buzón de Exchange y de acceso de cliente.
+Para proporcionar las características de mensajería unificada de Exchange y servicios que se describen en [las características de mensajería unificada y Skype para Business Server integrados](#features-of-integrated-unified-messaging-and-skype-for-business-server) a los usuarios de Enterprise Voice en su organización, debe implementar un servidor de buzones de Microsoft Exchange y el acceso de cliente servidor que hospeda los buzones de usuario y proporciona una única ubicación de almacenamiento para correo electrónico y correo de voz. Mensajería unificada de Exchange se ejecuta como un servicio en servidores de buzón de Exchange y de acceso de cliente.
   
-Para obtener información detallada acerca de los componentes de mensajería unificada de Exchange en Microsoft Exchange Server 2010, vea [Implementación local mensajería unificada de Exchange para proporcionar correo de voz de vista previa de Lync Server 2013](http://technet.microsoft.com/library/9673bd73-a3a3-425d-870f-04d801c6d0d5.aspx) en la documentación de implementación.
+Para obtener información detallada acerca de los componentes de mensajería unificada de Exchange en Microsoft Exchange Server 2010, vea [Implementación local mensajería unificada de Exchange para proporcionar correo de voz de Lync Server 2013 Preview](http://technet.microsoft.com/library/9673bd73-a3a3-425d-870f-04d801c6d0d5.aspx) .
   
 ### <a name="supported-topologies"></a>Topologías admitidas
 
-Puede implementar Skype para Business Server 2015 y Exchange mensajería unificada (UM) en el mismo bosque o varios bosques. Si la implementación abarca varios bosques, debe realizar los pasos de integración de Exchange para cada bosque de mensajería unificada de Exchange. Además, debe configurar cada bosque de Microsoft Exchange para que confíe en el Skype para Business Server 2015 bosque y el Skype para Business Server 2015 bosque para que confíe en cada bosque de mensajería unificada de Exchange. Además de esta relación de confianza de bosque, la configuración de mensajería unificada de Exchange para todos los usuarios debe establecerse en los objetos de usuario en el Skype para Business Server 2015 bosque. 
+Puede implementar Skype para Business Server y Exchange mensajería unificada (UM) en el mismo bosque o varios bosques. Si la implementación abarca varios bosques, debe realizar los pasos de integración de Exchange para cada bosque de mensajería unificada de Exchange. Además, debe configurar cada bosque de Microsoft Exchange para que confíe en el Skype para bosque Business Server y la Skype para bosque Business Server para que confíe en cada bosque de mensajería unificada de Exchange. Además de esta relación de confianza de bosque, la configuración de mensajería unificada de Exchange para todos los usuarios debe establecerse en los objetos de usuario en el Skype para bosque Business Server. 
   
-Skype para Business Server 2015 admite las siguientes topologías para la integración de mensajería unificada de Exchange:
+Skype para Business Server admite las siguientes topologías para la integración de mensajería unificada de Exchange:
   
 - Bosque único
     
-- Dominio único (es decir, un único bosque con un único dominio). Skype para Business Server 2015, Microsoft Exchange y los usuarios residen en el mismo dominio.
+- Dominio único (es decir, un único bosque con un único dominio). Skype para Business Server, Microsoft Exchange y los usuarios residen en el mismo dominio.
     
-- Varios dominios (es decir, un dominio raíz con uno o más dominios secundarios). Skype para Business Server 2015 y los servidores de Microsoft Exchange se implementan en diferentes dominios desde el dominio donde se crean los usuarios. Servidores de mensajería unificada de Exchange pueden implementarse en diferentes dominios desde el Skype para grupo de negocio Server 2015 apoyan.
+- Varios dominios (es decir, un dominio raíz con uno o más dominios secundarios). Skype para Business Server y los servidores de Microsoft Exchange se implementan en diferentes dominios desde el dominio donde se crean los usuarios. Servidores de mensajería unificada de Exchange pueden implementarse en diferentes dominios desde el Skype para grupo de servidores de negocio que admiten.
     
-- Varios bosques (es decir, un bosque de recursos). Skype para Business Server 2015 se implementa en un solo bosque y, a continuación, se distribuyen a los usuarios en varios bosques. Atributos de los usuarios para mensajería unificada de Exchange deben replicarse a través de a la Skype para Business Server 2015 bosque.
+- Varios bosques (es decir, un bosque de recursos). Skype para Business Server se implementa en un solo bosque y, a continuación, se distribuyen a los usuarios en varios bosques. Atributos de los usuarios para mensajería unificada de Exchange deben replicarse a través de a la Skype para bosque Business Server.
     
     > [!NOTE]
-    > Exchange se puede implementar en varios bosques. Cada organización de Exchange puede proporcionar mensajería unificada de Exchange a sus usuarios, o mensajería unificada de Exchange puede implementarse en el mismo bosque que Skype para Business Server 2015. 
+    > Exchange se puede implementar en varios bosques. Cada organización de Exchange puede proporcionar mensajería unificada de Exchange a sus usuarios, o mensajería unificada de Exchange puede implementarse en el mismo bosque que Skype para Business Server. 
   
-## <a name="guidelines-for-integrating-on-premises-unified-messaging-and-skype-for-business-server-2015"></a>Instrucciones para la integración de Mensajería unificada local y Skype Empresarial Server 2015
+## <a name="guidelines-for-integrating-on-premises-unified-messaging-and-skype-for-business-server"></a>Instrucciones para la integración local mensajería unificada y Skype para Business Server
 
 Los siguientes procedimientos recomendados e instrucciones debe tenerse en cuenta cuando implemente Telefonía IP empresarial:
   
 > [!IMPORTANT]
 > Mensajería unificada de Exchange (UM) es compatible con IPv6 sólo si también está usando UCMA 4. 
   
-- Implementar un Skype para Business Server 2015 Standard Edition o un grupo de servidores Front-End. Para obtener información detallada acerca de la instalación, vea [Implementar Skype para Business Server 2015](../../deploy/deploy.md) en la documentación de implementación.
+- Implementar un Skype para Business Server Standard Edition o un grupo de servidores Front-End. 
     
 - Colabore con los administradores de Exchange para confirmar las tareas que realizará cada uno y así garantizar una integración correcta y homogénea.
     
 - Implementar las funciones de servidor de buzón de Exchange en cada bosque de mensajería unificada de Exchange (UM) donde desea permitir a que los usuarios de mensajería unificada de Exchange. Para obtener información detallada acerca de cómo instalar roles de servidor de Exchange, consulte la documentación de Microsoft Exchange Server 2013.
     
     > [!IMPORTANT]
-    > Cuando se instala mensajería unificada de Exchange (UM), está configurado para usar un certificado autofirmado. El certificado autofirmado no habilita Skype para Business Server 2015 y mensajería unificada de Exchange confíen entre sí, que es la razón por la que es necesario solicitar un certificado independiente de una entidad de certificación que ambos servidores de confianza. 
+    > Cuando se instala mensajería unificada de Exchange (UM), está configurado para usar un certificado autofirmado. El certificado autofirmado no habilita Skype para Business Server y mensajería unificada de Exchange confíen entre sí, que es la razón por la que es necesario solicitar un certificado independiente de una entidad de certificación que ambos servidores de confianza. 
   
-- Si Skype para Business Server 2015 y mensajería unificada de Exchange se instala en bosques diferentes, configure cada bosque de Exchange para que confíe en el Skype para Business Server 2015 bosque y el Skype para Business Server 2015 bosque para que confíe en cada bosque de Exchange. También, establecer la configuración mensajería unificada de Exchange de los usuarios en los objetos de usuario en el Skype para el bosque de Business Server 2015, normalmente mediante una secuencia de comandos o una herramienta de entre bosques, como Identity Lifecycle Manager (ILM).
+- Si Skype para Business Server y la mensajería unificada de Exchange se instala en bosques distintos, configure cada bosque de Exchange para que confíe en el Skype para bosque Business Server y la Skype para bosque Business Server para que confíe en cada bosque de Exchange. También, establecer la configuración mensajería unificada de Exchange de los usuarios en los objetos de usuario en el Skype para el bosque de Business Server, normalmente mediante una secuencia de comandos o una herramienta de entre bosques, como Identity Lifecycle Manager (ILM).
     
 - Si es necesario, instale la Consola de administración de Exchange de modo que administre los servidores de mensajería unificada.
     
@@ -105,11 +109,11 @@ Los siguientes procedimientos recomendados e instrucciones debe tenerse en cuent
 ### <a name="deploying-redundant-exchange-um-servers"></a>Implementación de servidores redundantes de mensajería unificada de Exchange
 
 > [!IMPORTANT]
-> Se recomienda que implemente un mínimo de dos servidores en la mensajería unificada de Exchange services se está ejecutando para cada plan de marcado de Exchange UM URI del SIP que configura para la organización. Además de ofrecer más capacidad, implementar servidores redundantes también proporciona una alta disponibilidad. En el caso de un error del servidor, se puede configurar Skype para Business Server 2015 para conmutar por error a otro servidor. 
+> Se recomienda que implemente un mínimo de dos servidores en la mensajería unificada de Exchange services se está ejecutando para cada plan de marcado de Exchange UM URI del SIP que configura para la organización. Además de ofrecer más capacidad, implementar servidores redundantes también proporciona una alta disponibilidad. En el caso de un error del servidor, Skype para Business Server puede configurarse para conmutar por error a otro servidor. 
   
 Los siguientes ejemplos de configuraciones ofrecen resistencia a la mensajería unificada de Exchange.
   
-**Ejemplo 1: Resistencia de mensajería unificada de Exchange**
+**Ejemplo 1: Resistencia de la mensajería unificada de Exchange**
 
 ![Diagrama de resistencia de Mensajería unificada de Exchange](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
   
@@ -118,13 +122,13 @@ En el Ejemplo 1, los servidores de mensajería unificada de Exchange 1 y 2 está
 > [!NOTE]
 > Por ejemplo 1, debe asignar también uno de los siguientes certificados en cada servidor de mensajería unificada de Exchange: usar un certificado con un carácter comodín en el nombre alternativo de sujeto (SAN) o coloque el nombre de dominio completo (FQDN) de cada uno de los cuatro servidores mensajería unificada de Exchange en el SAN. 
   
-**Ejemplo 2: Resistencia de mensajería unificada de Exchange**
+**Ejemplo 2: Resistencia de la mensajería unificada de Exchange**
 
 ![Diagrama de resistencia de Mensajería unificada de Exchange](../../media/4ad101c3-f318-4fc0-b4da-c05f2e92a943.png)
   
 En el Ejemplo 2, en condiciones normales de funcionamiento, los servidores de mensajería unificada de Exchange 1 y 2 están habilitados en el centro de datos de Tukwila, y los servidores de mensajería unificada de Exchange 3 y 4 están habilitados en el centro de datos de Dublín. Los cuatro servidores están incluidos en el plan de marcado URI del SIP de los usuarios de Tukwila; sin embargo, los servidores 3 y 4 están deshabilitados. En el caso de que se produzca una interrupción de la mensajería unificada de Exchange en Tukwila, por ejemplo, los servidores 1 y 2 de mensajería unificada de Exchange deben deshabilitarse y los servidores 3 y 4 de mensajería unificada de Exchange deben habilitarse para que el tráfico de mensajería unificada de Exchange de Tukwila se enrute a los servidores de Dublín.
   
-Para obtener información detallada acerca de cómo habilitar o deshabilitar la mensajería unificada en Exchange 2013, consulte [Integrate Exchange 2013 UM con Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=265372). La información proporcionada se aplica igualmente a Skype para Business Server 2015.
+Para obtener información detallada acerca de cómo habilitar o deshabilitar la mensajería unificada en Exchange 2013, consulte [Integrate Exchange 2013 UM con Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=265372). La información proporcionada se aplica igualmente a Skype para Business Server.
   
 Para obtener información detallada acerca de cómo habilitar o deshabilitar la mensajería unificada en Microsoft Exchange Server 2010, consulte:
   
@@ -132,6 +136,11 @@ Para obtener información detallada acerca de cómo habilitar o deshabilitar la 
     
 - [Deshabilitar la mensajería unificada en Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204416)
     
+### <a name="exchange-server-2019"></a>Exchange Server 2019
+
+Mensajería unificada de Exchange ya no está presente en Exchange 2019, si dispone de Exchange 2019 y desea que necesita usar el servicio de correo de voz en la nube que se describen en el [servicio de correo de voz de la nube de planeación de](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md)una funcionalidad equivalente.
+
+
 ## <a name="see-also"></a>Vea también
 
-[Introducción al proceso de implementación para la integración de mensajería unificada y locales Skype para la empresa](deployment-overview.md)
+[Información general sobre el proceso de implementación para integrar la mensajería unificada local y Skype Empresarial](deployment-overview.md)

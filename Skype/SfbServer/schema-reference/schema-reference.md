@@ -1,31 +1,32 @@
 ---
-title: Referencia de esquemas para Skype para Business Server 2015
+title: Referencia del esquema de Skype para Business Server 2015
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 565e3675-a30a-4962-9e12-738ba8c0a19a
-ms.openlocfilehash: 492fd4467c1ccd50f4e80c668fa0103c5a2855cd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a91ec8b3cf11ed1891b7e3896566e9db33d4645e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992777"
 ---
-# <a name="schema-reference-for-skype-for-business-server-2015"></a>Referencia de esquemas para Skype para Business Server 2015
+# <a name="schema-reference-for-skype-for-business-server-2015"></a>Referencia del esquema de Skype para Business Server 2015
  
 
 ## <a name="in-this-section"></a>En esta sección
 
-- [Detalle de llamadas registro de esquema de base de datos (CDR) en Skype para Business Server 2015](call-detail-recording-cdr-database-schema/call-detail-recording-cdr-database-schema.md)
+- [Detalles de llamadas (CDR) esquema de base de datos en Skype para Business Server 2015](call-detail-recording-cdr-database-schema/call-detail-recording-cdr-database-schema.md)
     
-- [Calidad de esquema de base de datos de experiencia (QoE)](quality-of-experience-qoe-database-schema/quality-of-experience-qoe-database-schema.md)
+- [Esquema de la base de datos de calidad de la experiencia (QoE)](quality-of-experience-qoe-database-schema/quality-of-experience-qoe-database-schema.md)
     
-- [Esquema de base de datos persistente de charla](persistent-chat-database-schema/persistent-chat-database-schema.md)
+- [Esquema de la base de datos de chat persistente](persistent-chat-database-schema/persistent-chat-database-schema.md)
     
-- [Atributos, clases y extensiones de esquema de active Directory](active-directory-schema-extensions-classes-and-attributes/active-directory-schema-extensions-classes-and-attributes.md)
+- [Extensiones de esquema de active Directory, clases y atributos](active-directory-schema-extensions-classes-and-attributes/active-directory-schema-extensions-classes-and-attributes.md)
     
 

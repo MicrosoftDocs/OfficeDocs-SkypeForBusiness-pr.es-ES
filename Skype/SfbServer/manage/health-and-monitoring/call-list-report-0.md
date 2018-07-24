@@ -1,26 +1,26 @@
 ---
-title: Informe de lista de llamadas en Skype Empresarial Server 2015
+title: Informe de lista de llamadas en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
-description: 'Resumen: Conozca el informe de lista de llamar utilizado en Skype para Business Server 2015.'
-ms.openlocfilehash: 8e26f5e9dbe3b72cb07333dae7a10cc2d4bcb80d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Información sobre el informe de lista de llamadas usadas en Skype para Business Server.'
+ms.openlocfilehash: af9c729adf17fd0df24a76bd13f48501b0f2eba1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968357"
 ---
-# <a name="call-list-report-in-skype-for-business-server-2015"></a>Informe de lista de llamadas en Skype Empresarial Server 2015
+# <a name="call-list-report-in-skype-for-business-server"></a>Informe de lista de llamadas en Skype para Business Server
  
-**Resumen:** Obtener información sobre el informe de lista de llamar utilizado en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre el informe de lista de llamadas usadas en Skype para Business Server.
   
-El informe de lista de llamadas proporciona métricas relativas a la calidad de la experiencia para las llamadas individuales realizadas y recibidas en su organización. Tenga en cuenta que las métricas reales que se incluyan dependerán de cómo obtenga acceso al informe de lista de llamadas. Por ejemplo, si abre el informe desde el [Dispositivo informe en Skype para Business Server 2015](device-report.md), verá métricas como el siguiente, métricas que también aparecen en el informe del dispositivo:
+El informe de lista de llamadas proporciona métricas relativas a la calidad de la experiencia para las llamadas individuales realizadas y recibidas en su organización. Tenga en cuenta que las métricas reales que se incluyan dependerán de cómo obtenga acceso al informe de lista de llamadas. Por ejemplo, si el informe se abre desde el [Informe de dispositivos en Skype para Business Server](device-report.md), verá las métricas como el siguiente, las métricas que también se notifican en el informe de dispositivos:
   
 - Micrófono del autor de la llamada
     
@@ -32,7 +32,7 @@ El informe de lista de llamadas proporciona métricas relativas a la calidad de 
     
 - Relación de tiempo de conmutación de voz 
     
-Sin embargo, si abre el informe de lista de llamar desde el [Informe de ubicación en Skype para Business Server 2015](location-report.md), no podrá ver ninguna de esas métricas; en su lugar, verá métricas como estos:
+Sin embargo, si abre el informe de lista de llamadas desde el [Informe de ubicación en Skype para Business Server](location-report.md), no verá ninguna de estas métricas; en su lugar, verá las siguientes:
   
 - Recorrido de ida y vuelta (ms)
     
@@ -48,15 +48,15 @@ Esas son las métricas incluidas en el informe de ubicaciones. No obstante, siem
 
 El informe de lista de llamadas es accesible desde cualquiera de los siguientes informes:
   
-- El [Informe de ubicación en Skype para Business Server 2015](location-report.md) (haciendo clic en el volumen de llamada o llamadas pobres porcentaje métrica)
+- El [Informe de ubicación en Skype para Business Server](location-report.md) (haciendo clic en la métrica de porcentaje de llamadas deficientes o volumen de llamadas)
     
-- El [Informe del dispositivo en Skype para Business Server 2015](device-report.md) (haciendo clic en el volumen de llamada o llamadas pobres porcentaje métrica)
+- El [Informe de dispositivos en Skype para Business Server](device-report.md) (haciendo clic en la métrica de porcentaje de llamadas deficientes o volumen de llamadas)
     
-- El [Informe de resumen de calidad Media en Skype para Business Server 2015](summary.md) (haciendo clic en el volumen de llamada o llamadas pobres porcentaje métrica)
+- El [Informe de resumen de calidad de medios en Skype para Business Server](summary.md) (haciendo clic en la métrica de porcentaje de llamadas deficientes o volumen de llamadas)
     
-- El [Informe de rendimiento del servidor en Skype para Business Server 2015](server-performance.md) (haciendo clic en el volumen de llamada o llamadas pobres porcentaje métrica)
+- El [Informe de rendimiento del servidor en Skype para Business Server](server-performance.md) (haciendo clic en la métrica de porcentaje de llamadas deficientes o volumen de llamadas)
     
-Desde el informe de lista de llamar puede tener acceso el [Informe detallado de llamar en Skype para Business Server 2015](call-detail-report.md) pulsando la métrica de detalle.
+Desde el informe de lista de llamadas, puede acceder al [Informe de detalles de llamadas en Skype para Business Server](call-detail-report.md) haciendo clic en la métrica detalles.
   
 ## <a name="making-the-best-use-of-the-call-list-report"></a>Optimización del uso del informe de lista de llamadas
 
@@ -70,9 +70,9 @@ Ninguno. No se puede filtrar el informe de lista de llamadas.
 
 En la siguiente tabla se detalla la información facilitada en el informe de lista de llamadas para cada llamada.
   
-**Llamar a lista informe métricas**
+**Métricas del informe de lista de llamadas**
 
-|**Nombre.**|**¿Puede ordenar por este artículo?**|**Descripción**|
+|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Detalles** <br/> |No  <br/> |Al hacer clic en este elemento, el informe muestra información adicional sobre la llamada.  <br/> |
 |**Autor de llamada** <br/> |Sí  <br/> |Dirección SIP de la persona que inició la llamada.  <br/> |

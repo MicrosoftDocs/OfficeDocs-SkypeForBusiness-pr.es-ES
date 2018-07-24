@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 499b6966-25f4-4b90-a225-d6be48ddab19
+ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 939e4be50e17622aa526ec11c4acd193f17b75cf
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: f046400bb37384216005fb08e650fab50a878f7b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20046427"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983486"
 ---
 # <a name="trunk-configuration"></a>Configuración de tronco
  

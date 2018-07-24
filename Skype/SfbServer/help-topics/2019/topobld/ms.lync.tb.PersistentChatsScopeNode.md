@@ -3,7 +3,6 @@ title: Crear nodo de ámbito de servidores de chat persistente
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,29 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 description: 'Botón secundario haga clic en el grupo de Chat persistente en el generador de topología para realizar lo siguiente:'
-ms.openlocfilehash: 9109199dd1569d7d197d50c32725bc9f23cd1226
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: a979709407af2ea2072786da3b8f24b32bef7e61
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002951"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>Crear nodo de ámbito de servidores de chat persistente
- 
-Botón secundario haga clic en el **Grupo de Chat persistente** en el generador de topología para realizar lo siguiente:
-  
-- **Nuevo grupo de Chat persistente**: inicia el Asistente de **Definir nuevo grupo de Chat persistente** que se utiliza para definir un nuevo servidor de Chat persistente o grupo de servidores.
-    
-Además de la opción Nuevo grupo de chat persistente, puede realizar las tareas generales siguientes:
-  
-- **Topología**. Esta opción permite definir una topología nueva, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores de Lyn Server o quitar la implementación.
-    
-- **Ayuda**. Esta opción permite tener acceso a la Ayuda del nodo activo.
-    
-## <a name="see-also"></a>Vea también
 
-#### 
-
-[Planeación de servidor de Chat persistente en Skype para Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
-  
-[Agregar servidor de Chat persistente a su Skype para topología empresarial Server 2015](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-
+> [!NOTE] 
+> Chat persistente está disponible en Skype para Business Server 2015, pero ya no se admite en Skype para Business Server 2019. La misma funcionalidad está disponible en los equipos. Para obtener más información, consulte [actualización de Skype para la empresa a los equipos de Microsoft](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Si necesita usar chat en grupo, las opciones son migrar los usuarios que requieren esta funcionalidad a los equipos o continuar usando Skype para Business Server 2015.

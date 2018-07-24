@@ -1,44 +1,43 @@
 ---
-title: Implementar clientes web descargables en Skype Empresarial Server 2015
+title: Implementar a los clientes que se pueden descargar de Web en Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/6/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Resumen: Implementar la Skype para la aplicación empresarial de Web y aplicación de las reuniones de Skype se utiliza con Skype para la empresa.'
-ms.openlocfilehash: 9dcb528a43ca80135cda30505739cde11e499d8c
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 216d1a3bc82c3845a8302847c3488dd9f495fa74
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569543"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995844"
 ---
-# <a name="deploy-web-downloadable-clients-in-skype-for-business-server-2015"></a>Implementar clientes web descargables en Skype Empresarial Server 2015
+# <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Implementar a los clientes que se pueden descargar de Web en Skype para Business Server
  
-**Resumen:** Implementar el Skype para la aplicación empresarial de Web y aplicación de las reuniones de Skype se utiliza con Skype para la empresa.
+**Resumen:** Implemente el Skype para profesionales de 2015 Web App y aplicación de las reuniones de Skype se utiliza con Skype para Business Server 2015.
   
-Skype para la aplicación empresarial de Web es un cliente de web de Internet Information Services (IIS) que está instalado en el servidor que ejecuta Skype para Business Server 2015 y se ha implementado un valor predeterminado a petición a los usuarios de reunión que ya no tienen la Skype para clientes empresariales. Estos usuarios de reuniones son más frecuentes que los casos de usuarios que no se conectan desde fuera de la red. Cada vez que un usuario hace clic en una dirección URL de la reunión, pero no tiene el Skype para Business client instalado, se presenta al usuario con la opción para unirse a la reunión mediante el uso de la versión más reciente de Skype para la aplicación empresarial de Web.
+Skype para la aplicación empresarial de Web es un cliente de web de Internet Information Services (IIS) que está instalado en el servidor que ejecuta Skype para Business Server 2015 y de forma predeterminada se implementa a petición a los usuarios de reunión que ya no tienen la Skype para clientes empresariales. Estos usuarios de reuniones son más frecuentes que los casos de usuarios que no se conectan desde fuera de la red. Cada vez que un usuario hace clic en una dirección URL de la reunión, pero no tiene el Skype para Business client instalado, se presenta al usuario con la opción para unirse a la reunión mediante el uso de la versión más reciente de Skype para la aplicación empresarial de Web o aplicación de las reuniones de Skype.
   
 Las características de la voz, vídeo y uso compartida en Skype para la aplicación empresarial de Web requieren un control ActiveX de Microsoft que se usa como un complemento en el explorador del usuario. Puede instalar el control ActiveX de antemano o permitir a los usuarios que lo instale cuando se le solicite, lo que ocurre la primera vez que usa Skype para la aplicación empresarial de Web o la primera vez que tienen acceso a una característica que requiere el control ActiveX.
   
 > [!NOTE]
-> En Skype para implementaciones de servidor perimetral de Business Server 2015, un proxy inverso de HTTPS en la red perimetral se requiere para Skype para acceso de cliente de la aplicación Web de negocio. También debe publicar direcciones URL sencillas. Para obtener más información, vea [Setting Up Servers de Proxy inverso](http://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) "y" [Planning for Simple URLs](http://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx). 
+> En Skype para implementaciones de servidor perimetral de Business Server 2015, un proxy inverso de HTTPS en la red perimetral se requiere para Skype para acceso de cliente de la aplicación Web de negocio. También debe publicar direcciones URL sencillas. Para obtener más información, vea [Setting Up Servers de Proxy inverso](http://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) y [los requisitos de DNS para direcciones URL simples en Skype para Business Server](../../plan-your-deployment/network-requirements/simple-urls.md). 
   
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Habilitar la autenticación multifactor para Skype para la aplicación empresarial de Web
 <a name="MFA"> </a>
 
-El Skype para la versión de Business Server 2015 de Skype para la aplicación empresarial de Web es compatible con la autenticación multifactor. Además de nombre de usuario y contraseña, puede requerir que los métodos de autenticación adicionales, como tarjetas inteligentes o PIN, para autenticar a los usuarios que se unan a las redes externas cuando inician sesión Skype para reuniones de negocios. Puede habilitar la autenticación multifactor mediante la implementación de servidor de federación de servicios de federación de Active Directory (AD FS) y la habilitación de autenticación pasiva en Skype para Business Server 2015. Después de configurar AD FS, los usuarios externos que intenten unirse a Skype para reuniones de negocios se presentan con una página Web de autenticación multifactor de AD FS que contiene el nombre de usuario y contraseña desafiar junto con los métodos de autenticación adicionales ha configurado.
+El Skype para la aplicación empresarial de Web y aplicación de las reuniones de Skype admiten la autenticación multifactor. Además de nombre de usuario y contraseña, puede requerir que los métodos de autenticación adicionales, como tarjetas inteligentes o PIN, para autenticar a los usuarios que se unan a las redes externas cuando inician sesión Skype para reuniones de negocios. Puede habilitar la autenticación multifactor mediante la implementación de servidor de federación de servicios de federación de Active Directory (AD FS) y la habilitación de autenticación pasiva en Skype para Business Server. Después de configurar AD FS, los usuarios externos que intenten unirse a Skype para reuniones de negocios se presentan con una página Web de autenticación multifactor de AD FS que contiene el nombre de usuario y contraseña desafiar junto con los métodos de autenticación adicionales ha configurado.
   
 > [!IMPORTANT]
 > A continuación, se incluyen algunas consideraciones importantes para planear la configuración de AD FS para la autenticación multifactor: 
   
 - La autenticación multifactor de AD FS funciona si el usuario que participa en la reunión y el organizador están en la misma organización o si ambos provienen de una organización federada de AD FS. La autenticación multifactor de AD FS no funciona para usuarios federados de Lync porque la infraestructura web de Lync Server no lo admite en este momento.
     
-- Si usa equilibradores de carga de hardware, habilite la persistencia de cookies en los equilibradores de carga para que todas las solicitudes de la Skype para clientes empresariales Web App se controlan mediante el mismo servidor de Front-End.
+- Si usa equilibradores de carga de hardware, habilite la persistencia de cookies en los equilibradores de carga para que todas las solicitudes de la Skype para clientes empresariales Web App o aplicación de las reuniones se controlan mediante el mismo servidor de Front-End.
     
 - Al establecer una relación de confianza entre Skype para servidores Business Server y AD FS, asigne una token vida que es suficiente para abarcar la longitud máxima de su Skype para reuniones de negocios. Por lo general, una duración de token de 240 minutos es suficiente.
     
@@ -75,7 +74,7 @@ El Skype para la versión de Business Server 2015 de Skype para la aplicación e
 
 La característica BranchCache de Windows 7 y Windows Server 2008 R2 puede interferir con Skype para los componentes web de negocio Web App. Para evitar problemas de Skype para usuarios de la aplicación Web de negocio, asegúrese de que no está habilitada la característica BranchCache. 
   
-Para obtener información detallada acerca de cómo deshabilitar BranchCache, vea la Guía de implementación de BranchCache, que está disponible en formato de Word en Microsoft Download Center en [http://go.microsoft.com/fwlink/p/?LinkId=268788](http://go.microsoft.com/fwlink/p/?LinkId=268788) y en formato HTML en la biblioteca Windows Server 2008 R2 técnica en [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?LinkId=268789).
+Para obtener información detallada acerca de cómo deshabilitar BranchCache, vea la [Guía de implementación de BranchCache](https://docs.microsoft.com/en-us/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
   
 ## <a name="verifying-skype-for-business-web-app-deployment"></a>Comprobación de Skype para la implementación de aplicaciones Web de empresa
 <a name="MFA"> </a>
@@ -114,10 +113,10 @@ Si se produce un error en la instalación del complemento en un equipo que ejecu
     
 5. Vuelva a unirse a la reunión.
     
-## <a name="enable-skype-meetings-app-to-replace-skype-for-business-web-app-optional"></a>Habilitar la aplicación Reuniones de Skype para reemplazar la aplicación web de Skype Empresarial (opcional)
+## <a name="enable-skype-meetings-app-to-replace-skype-for-business-web-app-optional-skype-for-business-server-2015-only"></a>Habilitar la aplicación de las reuniones de Skype reemplazar Skype para la aplicación empresarial de Web (opcional, Skype para Business Server solo 2015)
 <a name="SMA_Enable"> </a>
 
-Este procedimiento es opcional. Si no se utiliza, los usuarios externos seguirán unirse a reuniones con Skype para la aplicación empresarial de Web. 
+Este procedimiento es opcional y se aplica a Skype para Business Server 2015 CU5 y versiones posteriores. Si no se utiliza, los usuarios externos seguirán unirse a reuniones con Skype para la aplicación empresarial de Web. 
   
 ### <a name="enable-simplified-meeting-join-and-skype-meetings-app"></a>Habilitar el método simplificado para unirse a las reuniones y la aplicación Reuniones de Skype
 
@@ -133,7 +132,7 @@ Este procedimiento es opcional. Si no se utiliza, los usuarios externos seguirá
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    Información que se envía a Microsoft es en cumplimiento estricto con [Skype para prácticas de recopilación de datos de negocio](https://support.office.com/en-us/article/Skype-for-Business-data-collection-practices-c17e8ea6-b83b-4345-9401-47a6c8b13aad?ui=en-US&amp;rs=en-US&amp;ad=US).
+    Información que se envía a Microsoft es en cumplimiento estricto con [Skype para prácticas de recopilación de datos de negocio](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices).
     
 3. Establecer el tiempo de espera antes de retroceso a la Skype hospedado localmente para la experiencia de la aplicación Web de negocio si CDN no está disponible. El valor predeterminado es 6 segundos. En caso de que fuese 0, no habría tiempo de espera.
     
@@ -145,10 +144,8 @@ Este procedimiento es opcional. Si no se utiliza, los usuarios externos seguirá
 <a name="SMA_Enable"> </a>
 
 [Planeación de los clientes de las reuniones (Web App y aplicación de las reuniones)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
-  
-[Planeación de los clientes de las reuniones (Web App y aplicación de las reuniones)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
 
-[Configuración de la página unirse a la reunión](http://technet.microsoft.com/library/45880423-47f4-49af-b825-cbd8e3fc1046.aspx)
+[Configuración de la reunión de la página de participación en Skype para Business Server](../../manage/conferencing/meeting-join-page.md)
   
 [Declaración de privacidad de Microsoft Online Services](https://www.microsoft.com/en-us/privacystatement/OnlineServices/Default.aspx)
   

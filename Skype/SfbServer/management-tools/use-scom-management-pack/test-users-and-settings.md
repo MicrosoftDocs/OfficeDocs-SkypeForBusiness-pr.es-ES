@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: 'Resumen: Configure cuentas de usuario de prueba y configuración de nodo de Monitor de Skype para las transacciones sintéticas Business Server.'
-ms.openlocfilehash: ee5330f10dd97e8ecc8a3e3e30962e6e8a69555b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 3881fc1878ed3b248aa3109b79a3e384ec4a5fb7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569878"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989891"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Configurar los usuarios y las opciones de configuración de la prueba del nodo de monitor
  
@@ -31,9 +31,9 @@ Después de configurar el equipo que funcionará como nodo de monitor, debe hace
 ## <a name="configure-test-user-accounts"></a>Configurar cuentas de usuario de prueba
 <a name="testuser"> </a>
 
-Cuentas de prueba no es necesario representar personas reales, pero deben ser cuentas de Active Directory válidas. Además, estas cuentas deben estar habilitadas para Skype para Business Server 2015, deben tener direcciones SIP válidas y que se debe habilitar para que Enterprise Voice (usar la transacción sintética Test-CsPstnPeerToPeerCall). 
+Cuentas de prueba no es necesario representar personas reales, pero deben ser cuentas de Active Directory válidas. Además, estas cuentas deben estar habilitadas para Skype para Business Server, deben tener direcciones SIP válidas y que se debe habilitar para que Enterprise Voice (usar la transacción sintética Test-CsPstnPeerToPeerCall). 
   
-Si está usando el método de autenticación TrustedServer, solamente debe asegurarse de que estas cuentas existen y configurarlas como se ha indicado. Debe asignar al menos tres usuarios de prueba para cada grupo que desee probar. Si está utilizando el método de autenticación Negotiate, también debe usar el cmdlet Set-CsTestUserCredential y el Skype para Shell de administración de servidor empresarial para habilitar estas cuentas para trabajar con las transacciones sintéticas de prueba. Hacer esto mediante la ejecución de un comando similar al siguiente (estos comandos se suponen que se han creado las tres cuentas de usuario de Active Directory y que estas cuentas estén habilitadas para Skype para Business Server 2015):
+Si está usando el método de autenticación TrustedServer, solamente debe asegurarse de que estas cuentas existen y configurarlas como se ha indicado. Debe asignar al menos tres usuarios de prueba para cada grupo que desee probar. Si está utilizando el método de autenticación Negotiate, también debe usar el cmdlet Set-CsTestUserCredential y el Skype para Shell de administración de servidor empresarial para habilitar estas cuentas para trabajar con las transacciones sintéticas de prueba. Hacer esto mediante la ejecución de un comando similar al siguiente (estos comandos se suponen que se han creado las tres cuentas de usuario de Active Directory y que estas cuentas estén habilitadas para Skype para Business Server):
   
 ```
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
@@ -84,7 +84,7 @@ $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:wa
 > [!NOTE]
 > Tenga en cuenta que los resultados de este comando se deben almacenar en una variable. En este ejemplo, se trata de una variable denominada $pstnTest. 
   
-En este momento, puede usar el cmdlet **New-CsWatcherNodeConfiguration** para asociar el tipo de prueba (almacenado en la variable $pstnTest) a un grupo de servidores Skype Empresarial Server 2015. Por ejemplo, en el siguiente comando se crea una nueva configuración de nodo de monitor para el grupo atl-cs-001.litwareinc.com, y se agregan los tres usuarios de prueba que se crearon anteriormente y también el tipo de prueba RTC:
+A continuación, puede usar el cmdlet **New-CsWatcherNodeConfiguration** para asociar el tipo de prueba (almacenado en la variable $pstnTest) a un Skype para grupo de servidores empresariales. Por ejemplo, en el siguiente comando se crea una nueva configuración de nodo de monitor para el grupo atl-cs-001.litwareinc.com, y se agregan los tres usuarios de prueba que se crearon anteriormente y también el tipo de prueba RTC:
   
 ```
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
@@ -128,7 +128,7 @@ Los siguientes componentes no se probarán de manera predeterminada:
     
 - JoinLauncher
     
-- MCXP2PIM (mensajería instantánea para dispositivos móviles)
+- MCXP2PIM (mensajería instantánea de dispositivo móvil heredado)
     
 - P2PVideoInteropServerSipTrunkAV
     
@@ -244,7 +244,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabl
 Remove-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com"
 ```
 
-Con este comando se elimina toda la configuración de nodo de monitor del equipo en cuestión, lo que evita que se ejecuten transacciones sintéticas automáticamente. No obstante, este comando no desinstala los archivos de agente de System Center ni los archivos de sistema de Skype Empresarial Server.
+Con este comando se elimina toda la configuración de nodo de monitor del equipo en cuestión, lo que evita que se ejecuten transacciones sintéticas automáticamente. Sin embargo, el comando no desinstala el Skype para los archivos del sistema de Business Server o los archivos del agente System Center.
   
 Cuando realizan pruebas, los nodos de monitor usan de forma predeterminada las direcciones URL externas de una organización, aunque se pueden configurar para que usen las direcciones URL internas. Esto permite que los administradores comprueben el acceso a la dirección URL de los usuarios de dentro de la red perimetral. Para configurar un nodo de monitor para que use direcciones URL internas en lugar de externas, establezca la propiedad UseInternalWebURls en True ($True):
   
@@ -326,7 +326,7 @@ Para ejecutar esta transacción sintética, se debe configurar lo siguiente:
     
 ### <a name="unified-contact-store-synthetic-transaction"></a>Transacción sintética de almacén de contactos unificados
 
-La transacciones sintética de almacén de contactos unificados comprueba la capacidad de Skype Empresarial Server 2015 para recuperar contactos en nombre de un usuario de Exchange.
+La transacción sintética de almacén de contactos unificados comprueba la capacidad de Skype para Business Server recuperar los contactos en nombre de un usuario de Exchange.
   
 Para ejecutar esta transacción, se deben cumplir las siguientes condiciones:
   
@@ -358,7 +358,10 @@ Para habilitar la transacción sintética XMPP, se debe incluir un parámetro Xm
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
 ```
 
-En este ejemplo, es necesario que haya una regla de Skype Empresarial Server 2015 para enrutar los mensajes de litwareinc.com a una puerta de enlace XMPP.
+En este ejemplo, un Skype para regla Business Server tendrá que existen para enrutar los mensajes de litwareinc.com a una puerta de enlace XMPP.
+
+> [!NOTE]
+> Las puertas de enlace XMPP y los servidores proxy están disponibles en Skype para Business Server 2015, pero ya no se admiten en Skype para Business Server 2019. Para obtener más información, vea [la federación XMPP migrar](../../../SfBServer2019/migration/migrating-xmpp-federation.md) . 
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Transacción sintética de Video Interop Server (VIS)
 
@@ -438,4 +441,4 @@ Puede ver estos archivos con Windows Internet Explorer, Microsoft Visual Studio 
 Transacciones sintéticas que se ejecute desde dentro de System Center Operations Manager generará automáticamente estos archivos de registro de errores. Estos registros no se generarán si se produce un error en la ejecución antes de que Skype Empresarial Server PowerShell pueda cargar y ejecutar la transacción sintética. 
   
 > [!IMPORTANT]
-> De forma predeterminada, Skype para Business Server 2015 guarda los archivos de registro en una carpeta que no se comparte. Para hacer que estos registros fácilmente accesible, deben compartir esta carpeta. Por ejemplo: \\atl-watcher-001.litwareinc.com\WatcherNode. 
+> De forma predeterminada, Skype para Business Server guarda los archivos de registro en una carpeta que no se comparte. Para hacer que estos registros fácilmente accesible, deben compartir esta carpeta. Por ejemplo: \\atl-watcher-001.litwareinc.com\WatcherNode. 

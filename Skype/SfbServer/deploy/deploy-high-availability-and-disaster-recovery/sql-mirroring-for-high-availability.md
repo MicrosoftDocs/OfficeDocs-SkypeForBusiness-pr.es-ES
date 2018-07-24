@@ -3,21 +3,20 @@ title: Implementar un reflejo de SQL para alta disponibilidad de servidores back
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 'Para poder implementar la creación de reflejo de SQL, los servidores deben ejecutar como mínimo SQL Server 2008 R2. Esta versión debe ejecutarse en todos los servidores implicados: principal, reflejo y testigo. Para obtener información detallada, vea acumulativa 9 de paquete de actualización para SQL Server 2008 Service Pack 1.'
-ms.openlocfilehash: 9edbda5d793fed48d31625c3e0d53ab2f9e6d349
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: a0baf639b050d323a29eb347c14b38505f059ef2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569141"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016209"
 ---
-# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Implementar un reflejo de SQL para alta disponibilidad de servidores back-end en Skype Empresarial Server 2015
+# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Implementar la creación de reflejos de SQL para el servidor Back-End una alta disponibilidad en Skype para Business server 2015
  
 
 Para poder implementar la creación de reflejo de SQL, los servidores deben ejecutar como mínimo SQL Server 2008 R2. Esta versión debe ejecutarse en todos los servidores implicados: principal, reflejo y testigo. Para obtener información detallada, vea [9 para SQL Server 2008 Service Pack 1 del paquete de actualización acumulativa ](http://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
@@ -121,11 +120,11 @@ Debe tener en cuenta lo siguiente al configurar la creación de reflejos de SQL:
     
   - [La base de datos de la creación de reflejos extremo (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=247347)
     
-## <a name="using-skype-for-business-server-management-shell-cmdlets-to-set-up-sql-mirroring"></a>Uso de Skype para Cmdlets del Shell de administración de Business Server para configurar la creación de reflejos de SQL
+## <a name="using-skype-for-business-server-2015-management-shell-cmdlets-to-set-up-sql-mirroring"></a>Uso de Skype para Cmdlets de Shell de administración de servidor 2015 empresarial al conjunto de la creación de reflejos de SQL
 
 La forma más sencilla de configurar la creación de reflejos es mediante el generador de topología, pero también puede hacerlo mediante los cmdlets.
   
-1. Abra un Skype para la ventana de Shell de administración de servidor empresarial y ejecute el siguiente cmdlet:
+1. Abra un Skype para la ventana de Shell de administración de Business Server 2015 y ejecute el siguiente cmdlet:
     
    ```
    Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose 

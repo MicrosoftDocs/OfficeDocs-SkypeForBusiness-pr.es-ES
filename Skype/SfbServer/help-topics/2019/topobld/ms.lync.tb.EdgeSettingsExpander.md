@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 'Dispone de las siguientes secciones para editar la configuración de un servidor perimetral o un grupo de servidores perimetrales existente:'
-ms.openlocfilehash: 642e71aed428326140dd72646426f833c8d760b7
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 601350dc96da80e04bccb975572b7655dc3c3e52
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964586"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987694"
 ---
 # <a name="edge-settings-expander"></a>Expansor de configuración perimetral
  
@@ -28,23 +28,22 @@ Dispone de las siguientes secciones para editar la configuración de un servidor
     
 - Configuración del servidor perimetral
     
-## 
 
-### <a name="general-settings"></a>Configuración general
+## <a name="general-settings"></a>Configuración general
 
 Nombre de dominio completo (FQDN) de grupo interno del grupo de servidores perimetrales. Edite el FQDN del grupo de servidores para cambiar este parámetro.
   
-Seleccione la casilla de verificación **Habilitar la federación para este grupo de servidores perimetrales (puerto 5061)** si va a establecer una federación con Lync Server 2013, socio de confianza de Microsoft Lync Server 2010 o Microsoft Office Communications Server 2007 R2.
+Seleccione la casilla de verificación **Habilitar la federación para este grupo de servidores perimetrales (puerto 5061)** si va a configurar la federación con un socio de confianza Lync Server 2013, Microsoft Lync Server 2010 o Microsoft Office Communications Server 2007 R2.
   
 Seleccione **Habilitar la federación XMPP para este grupo de servidores perimetrales** para habilitar la federación XMPP.
   
 Indique el número de puerto del **Puerto interno de replicación de configuración (HTTPS)**.
   
-### <a name="next-hop-selection-settings"></a>Configuración de la selección de próximo salto
+## <a name="next-hop-selection-settings"></a>Configuración de la selección de próximo salto
 
 Para definir o modificar el **Grupo de servidores del próximo salto** que van a usar los servidores perimetrales para comunicarse con la infraestructura interna, seleccione un director, un grupo de directores, un servidor front-end o un grupo de servidores front-end de la lista desplegable. Sólo los directores o servidores front-end que se han configurado en el generador de topología aparecerán para la selección.
   
-### <a name="edge-server-configuration"></a>Configuración del servidor perimetral
+## <a name="edge-server-configuration"></a>Configuración del servidor perimetral
 
 Para modificar o especificar los parámetros de **Configuración externa** de los servidores perimetrales, antes necesitará determinar si va a usar direcciones IP diferentes para el acceso SIP, la conferencia web y el servicio de audio/vídeo.
   
@@ -60,7 +59,7 @@ Si decide que la organización va a usar una sola dirección IP y un solo nombre
 > [!IMPORTANT]
 > Si efectúa cambios en cualquiera de estas opciones, incluido el uso de FQDN y direcciones IP o puertos diferentes, necesita actualizar todos los demás servicios que dependan de los valores configurados inicialmente. 
   
-### 
+## <a name="see-also"></a>Vea también 
 
 Para obtener información detallada sobre cómo definir y configurar las opciones de los Servicios perimetrales, consulte [Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
   

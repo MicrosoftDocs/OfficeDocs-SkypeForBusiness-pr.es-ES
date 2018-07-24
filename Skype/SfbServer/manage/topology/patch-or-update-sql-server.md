@@ -1,37 +1,37 @@
 ---
-title: Revisiones o actualizaciones a un SQL Server en un grupo de disponibilidad AlwaysOn en Skype para Business Server 2015
+title: Una revisión o actualización de un servidor SQL Server en un grupo de disponibilidad AlwaysOn en Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 9/11/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7298254b-bc33-450e-846a-2612f6dc7006
-description: 'Resumen: Conozca los pasos adicionales necesarios después de la revisión se o actualizar a un nuevo servidor que forma parte de un grupo de disponibilidad AlwaysOn en Skype para Business Server.'
-ms.openlocfilehash: 8f5c9131e59ccedd7f590f696fe53aa6c18c7d22
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información acerca de los pasos adicionales necesarios después de la revisión, o actualizar un servidor Back-End que forma parte de un grupo de disponibilidad AlwaysOn en Skype para Business Server.'
+ms.openlocfilehash: 7227bdc61e7accbdd6f6e760e1a33d9a2b76eb30
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20982989"
 ---
-# <a name="patch-or-update-a-sql-server-in-an-alwayson-availability-group-in-skype-for-business-server-2015"></a>Revisiones o actualizaciones a un SQL Server en un grupo de disponibilidad AlwaysOn en Skype para Business Server 2015
+# <a name="patch-or-update-a-sql-server-in-an-alwayson-availability-group-in-skype-for-business-server"></a>Una revisión o actualización de un servidor SQL Server en un grupo de disponibilidad AlwaysOn en Skype para Business Server
  
-**Resumen:** Obtenga información sobre los pasos adicionales necesarios después de revisar o actualizar un nuevo servidor que forma parte de un grupo de disponibilidad AlwaysOn en Skype para Business Server.
+**Resumen:** Obtenga información acerca de los pasos adicionales necesarios después de una revisión o actualización de un servidor Back-End que forma parte de un grupo de disponibilidad AlwaysOn en Skype para Business Server.
   
-Después de la revisión de un nuevo servidor que forma parte de un grupo de disponibilidad AlwaysOn, debe volver a publicar la topología.
+Después de la aplicación de revisiones de un servidor Back-End que forma parte de un grupo de disponibilidad AlwaysOn, debe volver a publicar la topología.
   
-### <a name="patching-or-updating-a-sql-server-that-is-part-of-an-alwayson-availability-group"></a>Revisión o actualización de un SQL Server que forma parte de un grupo de disponibilidad AlwaysOn
+### <a name="patching-or-updating-a-sql-server-that-is-part-of-an-alwayson-availability-group"></a>Aplicar las revisiones o actualizar un servidor SQL Server que forma parte de un grupo de disponibilidad AlwaysOn
 
 1. Instalar la actualización en su Skype para Business server o servidores.
     
-2. Ejecute el siguiente comando de PowerShell en su Skype para el Shell de administración de negocios (iniciado la sesión con una cuenta que sea adecuadamente tiene permiso para aplicar los cambios a las bases de datos SQL AlwaysOn) como sigue:
+2. Ejecute el siguiente comando de PowerShell en su Skype para Shell de administración de negocio (iniciado la sesión con una cuenta que sea adecuadamente con permisos únicos para aplicar los cambios a las bases de datos de AlwaysOn de SQL) como sigue:
     
     ```
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn [sqlpool.contoso.com] -Verbose
     ```
 
-    Donde [sqlpool.contoso.com] se reemplaza por el nombre de dominio completo (FQDN) de su grupo de disponibilidad AlwaysOn.
+    Donde [sqlpool.contoso.com] se sustituye por el nombre de dominio completo (FQDN) de su grupo de disponibilidad AlwaysOn.
     
 

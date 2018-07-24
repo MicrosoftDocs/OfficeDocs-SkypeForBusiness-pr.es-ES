@@ -1,32 +1,32 @@
 ---
-title: Crear directivas de conferencia en Skype Empresarial Server 2015
+title: Crear directivas de conferencia en Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
-description: 'Resumen: Conozca cómo crear directivas de conferencia en Skype para Business Server 2015.'
-ms.openlocfilehash: 301474d57998d5c9a794a978c4ec8877b1e53bc7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información sobre cómo crear directivas de conferencia en Skype para Business Server.'
+ms.openlocfilehash: 3c71962e42e083ada13b14bdecbefafbbc44f72b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996604"
 ---
-# <a name="create-conferencing-policies-in-skype-for-business-server-2015"></a>Crear directivas de conferencia en Skype Empresarial Server 2015
+# <a name="create-conferencing-policies-in-skype-for-business-server"></a>Crear directivas de conferencia en Skype para Business Server
  
-**Resumen:** Obtenga información sobre cómo crear directivas de conferencia en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo crear directivas de conferencia en Skype para Business Server.
   
-Puede crear directivas de conferencia utilizando Skype para Panel de Control de servidor empresarial o mediante Skype para el Shell de administración de servidor empresarial.
+Puede crear directivas de conferencia mediante el uso de Skype para el Panel de Control de servidor empresarial o mediante el uso de Skype para Shell de administración de servidor empresarial.
   
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Crear directivas de conferencias mediante Skype para Business Server Control Panel
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Crear directivas de conferencia mediante el uso de Skype para el Panel de Control de servidor empresarial
 
 1. Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
     
-2.  Abre Skype para Panel de Control del servidor de empresa.
+2.  Abra Skype para el Panel de Control de servidor empresarial.
     
 3. En la barra de navegación izquierda, haga clic en **Conferencia** y después en **Directiva de conferencia**.
     
@@ -43,7 +43,7 @@ Puede crear directivas de conferencia utilizando Skype para Panel de Control de 
     
 6. En **Directiva de organizadores**, en **Tamaño máximo de la reunión**, escriba el número máximo de usuarios que desea que participen en una reunión. De manera predeterminada, el tamaño máximo de la reunión se establece en 250.
     
-7. Para impedir que los usuarios inviten a usuarios anónimos a las reuniones, desactive la casilla **Permitir a los participantes invitar a usuarios anónimos**. Los usuarios anónimos son los usuarios que no tienen credenciales en servicios de dominio de directorio activo de la organización y que, por lo tanto, no se autentican. De manera predeterminada, los participantes pueden invitar a usuarios anónimos a las reuniones.
+7. Para impedir que los usuarios inviten a usuarios anónimos a las reuniones, desactive la casilla **Permitir a los participantes invitar a usuarios anónimos**. Los usuarios anónimos son usuarios que no tienen credenciales en los servicios de dominio de Active Directory de su organización y que, por lo tanto, no se autentican. De manera predeterminada, los participantes pueden invitar a usuarios anónimos a las reuniones.
     
 8. En **Grabación**, lleve a cabo uno de los siguientes procedimientos:
     
@@ -113,16 +113,16 @@ Puede crear directivas de conferencia utilizando Skype para Panel de Control de 
     
 21. Haga clic en **Confirmar**.
     
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Crear directivas de conferencias mediante Skype para el Shell de administración de servidor empresarial
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Crear directivas de conferencia mediante el uso de Skype para Shell de administración de servidor empresarial
 
 Para crear directivas de conferencia, use el cmdlet **New-CsConferencingPolicy**.
   
-En el ejemplo siguiente se crea una nueva directiva de conferencia con el SalesConferencingPolicy de identidad. Esta directiva usará todos los valores predeterminados de una directiva de conferencia, excepto uno: MaxMeetingSize. En este ejemplo, el tamaño máximo para una reunión se establecerá en 50, en lugar del valor predeterminado 250:
+En el ejemplo siguiente se crea una nueva directiva de conferencias con Identity SalesConferencingPolicy. Esta directiva usará todos los valores predeterminados de una directiva de conferencia, excepto uno: MaxMeetingSize. En este ejemplo, el tamaño máximo para una reunión se establecerá en 50, en lugar del valor predeterminado 250:
   
 ```
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 
-Para obtener más información, incluida una descripción de la sintaxis completa y lista de parámetros, consulte [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).
+Para obtener más información, incluida una descripción de la sintaxis completa y una lista de parámetros, vea [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).
   
 

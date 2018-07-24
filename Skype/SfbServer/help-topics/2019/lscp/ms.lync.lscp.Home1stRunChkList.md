@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
+ROBOTS: NOINDEX, NOFOLLOW
 description: Bienvenido a la Skype para el Panel de Control de servidor empresarial, la interfaz de usuario basada en web para la administración y la administración de Skype para Business Server. Puede usar el Panel de control para acometer los tipos de tareas administrativas que se realizaban usando Microsoft Management Console en versiones anteriores.
-ms.openlocfilehash: 6dabfb48568d7b0eeff5148c4c35dc1a9ceec255
-ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
+ms.openlocfilehash: 543edca48ad12c5047e2a68004aaa5a9ec7f5178
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20088464"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968526"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Lista de comprobación de la primera ejecución del Panel de control de Skype Empresarial Server
  
@@ -38,6 +39,6 @@ Se recomienda encarecidamente que revise las tareas que se hace referencia en es
 |Si ha implementado o desea implementar Telefonía IP empresarial, configure una conexión de enlace troncal SIP para habilitar la conectividad con la red telefónica conmutada (RTC).  <br/> |**Enrutamiento de voz** <br/> |[Configuración de troncos y reglas de conversión](http://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx) <br/> |
 |Si ha implementado Telefonía IP empresarial, compruebe la configuración de enrutamiento de Telefonía IP empresarial.  <br/> |**Enrutamiento de voz** <br/> |[Probar enrutamiento de voz](http://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx) <br/> |
 |Si ha implementado el servidor de archivado, compruebe que la configuración y las directivas de archivado cumplen los requisitos de conformidad de la organización.  <br/> |**Supervisión y archivado** <br/> |[Administración de archivado](http://technet.microsoft.com/library/48c6cc8c-c2c1-4534-9a8a-fd5eb738076a.aspx) <br/> |
-|Si ha implementado el servidor de supervisión, mire los informes del servidor de supervisión para ver la información de uso y diagnóstico.  <br/> |**Principal** <br/> |[Administrar el mantenimiento y la supervisión en Skype Empresarial Server 2015](../../../manage/health-and-monitoring/health-and-monitoring.md) <br/> |
+|Si ha implementado el servidor de supervisión, mire los informes del servidor de supervisión para ver la información de uso y diagnóstico.  <br/> |**Principal** <br/> |[Administrar el estado y supervisión de Skype para Business Server](../../../manage/health-and-monitoring/health-and-monitoring.md) <br/> |
    
 

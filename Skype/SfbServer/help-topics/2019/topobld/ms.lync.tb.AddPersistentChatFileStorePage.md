@@ -3,7 +3,6 @@ title: Agregar almacén de archivos de chat persistente
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,36 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1068706-ff61-4a98-8e51-4202111d936a
 description: Debe especificar el recurso compartido de archivos que se debe usar como almacén de archivos para el servidor Standard Edition o el grupo de servidores front-end Enterprise Edition. Para ello, use un recurso compartido de archivos ya creado o especifique uno nuevo indicando el nombre de dominio completo del servidor de archivos donde debe ubicarse el recurso compartido de archivos y un nombre de carpeta para dicho recurso.
-ms.openlocfilehash: 989e11adfd7059c94067dd8360527d86759ae81c
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 7dfef13fe52fb4cdc1960d80158d0daeb6a8046f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993505"
 ---
 # <a name="add-persistent-chat-file-store"></a>Agregar almacén de archivos de chat persistente
- 
-Debe especificar el recurso compartido de archivos que se debe usar como almacén de archivos para el servidor Standard Edition o el grupo de servidores front-end Enterprise Edition. Para ello, use un recurso compartido de archivos ya creado o especifique uno nuevo indicando el nombre de dominio completo del servidor de archivos donde debe ubicarse el recurso compartido de archivos y un nombre de carpeta para dicho recurso.
-  
-> [!IMPORTANT]
-> El recurso compartido de archivos de Skype para Business Server no se puede ubicar en Enterprise Edition Front-End Server, pero puede estar ubicada en un servidor Standard Edition. 
-  
-> [!IMPORTANT]
-> El recurso compartido de archivos se puede definir en el Generador de topologías antes de crearlo; sin embargo, el recurso compartido de archivos se debe crear en la ubicación indicada antes de publicar la topología 
-  
-> [!IMPORTANT]
-> Al agregar un servidor de Chat persistente o servidor de Chat persistente debe poder configurar el archivo de grupo de servidores a la topología, Topology Builder almacenar y configurar el control de acceso discrecional (DACL) se enumeran en el recurso compartido de archivos que se usará para el almacén de archivos. Esto implica que, al ejecutar el Generador de topologías para publicar la nueva topología, debe haber iniciado sesión en una cuenta que tenga todos los permisos de control (lectura/escritura/modificación) respecto al recurso compartido de archivos. 
-  
-## <a name="see-also"></a>Vea también
 
-#### 
-
-[Planeación de servidor de Chat persistente en Skype para Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
-  
-[Agregar servidor de Chat persistente a su Skype para topología empresarial Server 2015](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-  
-[Requisitos de hardware y software para el servidor de Chat persistente en Skype para Business Server 2015](../../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
-  
-[Requisitos de servidor de Skype para Business Server 2015](../../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
-  
-[Conceptos básicos de la topología de Skype para Business Server 2015](../../../plan-your-deployment/topology-basics/topology-basics.md)
-
+> [!NOTE] 
+> Chat persistente está disponible en Skype para Business Server 2015, pero ya no se admite en Skype para Business Server 2019. La misma funcionalidad está disponible en los equipos. Para obtener más información, consulte [actualización de Skype para la empresa a los equipos de Microsoft](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Si necesita usar chat en grupo, las opciones son migrar los usuarios que requieren esta funcionalidad a los equipos o continuar usando Skype para Business Server 2015.

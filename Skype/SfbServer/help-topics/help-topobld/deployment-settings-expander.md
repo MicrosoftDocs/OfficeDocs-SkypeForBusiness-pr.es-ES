@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 'Puede editar las propiedades de una implementación existente con las secciones siguientes:'
-ms.openlocfilehash: 79355ac9017ddb2e073a053d7b2aed1c60278fe7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d5bf68df276cf7c5136bf694d7592e09b1357571
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20991606"
 ---
 # <a name="deployment-settings-expander"></a>Expansor de configuración de implementación
  
@@ -69,10 +70,10 @@ El servidor de administración central se puede cambiar de un grupo de servidore
 > [!IMPORTANT]
 > Cuando haya definido, publicado e implementado el Almacén de administración central de la infraestructura, ya no podrá cambiarlo de ubicación sin recolocarlo en otro front-end mediante un proceso externo. 
   
-Para obtener más información acerca de cómo mover el almacén de Administración Central, consulte [CsManagementServer de movimiento](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) en la referencia de cmdlet de Windows PowerShell.
+Para obtener información detallada acerca de cómo mover el almacén de Administración Central, vea [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) en la referencia del cmdlet de Windows PowerShell.
   
-## 
+## <a name="see-also"></a>Vea también
 
-Para obtener más información sobre cómo definir y configurar estas opciones, consulte [definición y configuración de la topología](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
+Para obtener información detallada sobre cómo definir y configurar estas opciones, vea [definición y configuración de la topología](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
   
 

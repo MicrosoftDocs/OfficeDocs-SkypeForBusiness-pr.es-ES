@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: Para editar las propiedades de un servidor de aplicaciones de confianza que ya se ha definido, siga estas instrucciones.
-ms.openlocfilehash: f6acc3f31e294cab08b688327c7cc9b8f25bea3b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: b01e48a3d2a003295956df981c4b571a7494be34
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987287"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993102"
 ---
 # <a name="external-application-general-settings-expander"></a>Expansor de configuración General de aplicación externa
  
@@ -38,7 +38,6 @@ Si necesita tener la replicación de datos de configuración para este grupo de 
 
 Puede especificar el servidor del próximo salto del grupo de servidores de aplicaciones de confianza mediante la selección de la definido grupo de servidores Front-End de Enterprise Edition o Standard Edition front-end de la lista desplegable. Un Director o el Director de grupo de servidores no es una selección válida para una aplicación de confianza próximo salto del servidor y no aparecerán en la lista.
   
-## 
 
 Haga clic en **Aceptar** para guardar los cambios. Haga clic en **Cancelar** para descartar los cambios y salir de la página de propiedades.
   

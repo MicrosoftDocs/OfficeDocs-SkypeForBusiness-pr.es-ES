@@ -1,25 +1,25 @@
 ---
-title: Estimar el tráfico y el uso de la voz de Skype para Business Server 2015
+title: Estimar el tráfico y el uso de voz de Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 10/22/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 621b08fb-f894-4d91-ac38-e443401b098b
-description: Puede utilizar la métrica siguiente para estimar el tráfico de usuarios en cada sitio y el número de puertos que son necesarios para admitir ese tráfico.
-ms.openlocfilehash: dffcfdf7dcf70162b2a9c9ce65ab56b9025a4db0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Puede usar la siguiente métrica para calcular el tráfico de usuario en cada sitio y el número de puertos que se requieren para admitir dicho tráfico.
+ms.openlocfilehash: ec4079608bedc19e9cba2e6c1e872d770e6bce46
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980467"
 ---
-# <a name="estimating-voice-usage-and-traffic-for-skype-for-business-server-2015"></a>Estimar el tráfico y el uso de la voz de Skype para Business Server 2015
+# <a name="estimating-voice-usage-and-traffic-for-skype-for-business-server"></a>Estimar el tráfico y el uso de voz de Skype para Business Server
  
-Puede utilizar la métrica siguiente para estimar el tráfico de usuarios en cada sitio y el número de puertos que son necesarios para admitir ese tráfico.
+Puede usar la siguiente métrica para calcular el tráfico de usuario en cada sitio y el número de puertos que se requieren para admitir dicho tráfico.
   
 > Para **Tráfico reducido** (una llamada de RTC por usuario y hora), calcule 15 usuarios por puerto.
     
@@ -27,7 +27,7 @@ Puede utilizar la métrica siguiente para estimar el tráfico de usuarios en cad
     
 > Para **Tráfico denso** (3 llamadas o más de RTC por usuario y hora), calcule 5 usuarios por puerto.
     
-El número de puertos a su vez determina el número de servidores de mediación y puertas de enlace que serán necesarios. Las puertas de enlace de (RTC) de la red telefónica pública conmutada que la mayoría de las organizaciones consideran la implementación de intervalo de tamaño de 2 puertos a puertos como máximo 960. (Hay puertas de enlace aún mayores, pero se utilizan principalmente por proveedores de servicios de telefonía).
+El número de puertos a su vez determina el número de servidores de mediación y puertas de enlace que serán necesarios. Las puertas de enlace de (RTC) de la red telefónica conmutada pública que la mayoría de las organizaciones consideran la implementación de intervalo de tamaño de 2 puertos para los puertos de 960 como máximo. (Hay puertas de enlace incluso más grandes, pero las usan principalmente por proveedores de servicios de telefonía.)
   
 Por ejemplo, una organización con 10 000 usuarios y un tráfico medio necesitará 1000 puertos. La cantidad de puertas de enlace necesarias equivaldría a la cantidad total de puertos necesarios determinada por la capacidad total de las puertas de enlace.
   
