@@ -11,13 +11,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
+ROBOTS: NOINDEX, NOFOLLOW
 description: Para obtener información detallada sobre la resistencia de sitios de sucursal, vea Planear resistencia de voz del sitio de sucursal.
-ms.openlocfilehash: 22bb0b3ba064df61fa3f0fee55d567a431c35db7
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: dccd366dc5e2bb330098e783bcbdaee6d68e7a59
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974372"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21082674"
 ---
 # <a name="branch-sites-planning-tool"></a>Sitios de sucursal (herramienta de planeación)
  

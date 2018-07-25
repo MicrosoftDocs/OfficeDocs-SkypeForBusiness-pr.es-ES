@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
-description: En el generador de topología, se pueden realizar las tareas relacionadas con un servidor de archivado individuales, bien el servidor de archivado en el árbol de consola, al hacer clic en acción en la barra de herramientas, o haciendo clic en una tarea en el panel de acciones y, a continuación, haciendo clic en el siguiente archivado Opción de servidor.
-ms.openlocfilehash: a42a215a3a8af193c68c12bdf953948d449d3536
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: En el Generador de topologías puede ejecutar tareas relacionadas con un determinado servidor de archivado. Para ello, haga clic con el botón secundario en Servidor de archivado en el árbol de consola, haga clic en Acción en la barra de herramientas o haga clic en una tarea del panel Acciones y, luego, haga clic en la siguiente opción de servidor de archivado.
+ms.openlocfilehash: 881ccca58456f227f868a2a0e288b2c0a139583d
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19967575"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21082646"
 ---
 # <a name="archiving-servers-scope-node"></a>Nodo de ámbito de servidores de archivado
  

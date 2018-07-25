@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Troncos con el botón secundario en el generador de topología para llevar a cabo lo siguiente:'
-ms.openlocfilehash: 01d5e4eb137807e25962a4f5cccd2eb0e044a910
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: c30e7eebcbedfca43e42b23f4e496fc866542039
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19975837"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21082569"
 ---
 # <a name="trunks-scope-node"></a>Nodo de ámbito de troncos
  

@@ -11,13 +11,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
+ROBOTS: NOINDEX, NOFOLLOW
 description: Skype para la herramienta de planeación de Business Server
-ms.openlocfilehash: ea3c9375a1a28f5c36ad464fa7c71338383fe7bc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 22f14c0d31eaed5a6518263b15a9962e4bd136d0
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983122"
+ms.locfileid: "21082611"
 ---
 # <a name="feature-overview-planning-tool"></a>Introducción a la característica (herramienta de planeación)
  

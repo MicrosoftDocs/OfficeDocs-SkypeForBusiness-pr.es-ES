@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Configurar opciones para el servidor de Chat persistente o grupo de servidores de Chat persistente mediante la definición de las siguientes propiedades:'
-ms.openlocfilehash: 7463748fe8b9cb37821a6443c3d736e2fea9d091
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: eb0420ef4423410c77d5d047d037e0c0e33b2ab5
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "21001788"
+ms.locfileid: "21082667"
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>Definir propiedades y opciones para grupo de servidores de chat persistente
 

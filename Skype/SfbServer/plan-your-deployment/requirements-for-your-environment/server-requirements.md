@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Resumen: prepare los servidores de Skype Empresarial Server 2015 con este tema. Hardware, sistemas operativos, bases de datos, software, todos los requisitos del sistema y recomendaciones están aquí para ayudar a garantizar una instalación e implementación correcta de la granja de servidores.'
-ms.openlocfilehash: dfcde40c8084279dca39e830a84ad6e9631530dd
-ms.sourcegitcommit: 98c0d578f5ebbe884a5965ccaba131ee4dd84185
+ms.openlocfilehash: c0ff92de1c822a49fe94deec9a21f100ed291d35
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/05/2018
-ms.locfileid: "19046023"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967455"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Requisitos del servidor para Skype Empresarial Server 2015
  
@@ -98,7 +98,29 @@ Si no ve la edición de SQL Server que desea usar que se muestra aquí, no se pu
   
 > [!NOTE]
 > También va a necesitar instalar SQL Server Reporting Services para el rol de servidor de supervisión, pero debe saber que esto no se va a ser compatibles con SQL siempre en hasta post-RTM. 
+
+### <a name="microsoft-exchange-storage"></a>Almacenamiento de información de Microsoft Exchange
+Los archivos del contenido de reuniones, como las presentaciones de PowerPoint, se archivan como datos adjuntos. Si desea almacenar Skype para archivar datos de negocio con datos de cumplimiento de normas de Exchange, debe usar Exchange para la implementación de Exchange y asegúrese de que el tamaño máximo de almacenamiento admite el almacenamiento de los archivos de contenido de la reunión. Debe implementar Exchange antes de implementar y habilitar el archivado mediante la opción de integración de Microsoft Exchange. 
+    
+    If you choose to use Exchange storage, you do not need to deploy separate SQL Server databases for archiving, unless you have Skype for Business users who are not homed on your Exchange servers. If you deploy archiving using the Microsoft Exchange integration option, Skype for Business archive data is stored with Exchange compliance data only for the users who are homed on your Exchange servers. 
   
+## <a name="hardware-and-software-requirements-for-archiving-in-skype-for-business-server-2015"></a>Requisitos de hardware y software para el archivado en Skype Empresarial Server 2015
+  
+El archivado no es una función de servidor definido, no es necesario instalar un servidor independiente para el archivado. Unificadas agentes de recopilación de datos se instala y se activan automáticamente en cada grupo de servidores Front-End de Enterprise Edition y cada servidor Standard Edition. Necesitará habilitar y publicar la topología de archivado por medio del Generador de topologías.
+    
+El archivado usa el Skype para almacenamiento de archivos de Business Server para el almacenamiento temporal de la reunión de los archivos de contenido, por lo que debe configurar un almacén de archivos independiente para el archivado.
+    
+Microsoft Message Queue Server no es necesario.
+    
+Es preciso configurar la infraestructura para el almacenamiento del archivado. Esto incluye la elección puede ser Exchange o archivado almacenamiento mediante SQL Server.   Skype para requisitos de infraestructura de Business Server archivado son los mismos que para la implementación de Skype para Business Server. Para obtener información detallada, vea [requisitos para su Skype para el entorno empresarial](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). 
+  
+> [!NOTE]
+> Para admitir usuarios que no están hospedados en servidores de Exchange, o si no desea usar la opción de integración de Microsoft Exchange, debe implementar el almacén de archivado con una base de datos de SQL Server de 64 bits. 
+    
+Debe configurar las plataformas de SQL Server antes de implementar y habilitar el archivado. Si la cuenta que se usará para publicar la topología tiene los derechos y permisos de administrador apropiados, puede crear la base de datos de archivado (LcsLog) al publicar la topología. También puede crear la base de datos más adelante, incluida como parte del procedimiento de instalación. Para obtener más información acerca de SQL Server, consulte la [documentación de SQL Server](https://go.microsoft.com/fwlink/p/?linkID=129045).
+    
+El aumento en la carga del archivado puede ser considerable. Por lo tanto, debe asegurarse de que es adecuado para los servidores Front-End de archivado está habilitado en el espacio en disco.
+
 ### <a name="sql-mirroring-sql-clustering-and-sql-always-on"></a>SQL Mirroring, SQL Clustering y SQL Always On
 
 Puede usar la creación de reflejos de SQL o agrupación en clústeres de SQL con Skype para Business Server 2015, que es compatible. Reflejo de SQL configurar a través de la Skype para Business Server Topology Builder. Si usted es la intención sobre la configuración de agrupación en clústeres de SQL, que se realiza en SQL Server.
@@ -129,8 +151,11 @@ Dieciséis nodos:
 Si necesita leer hasta obtener más información sobre la creación de reflejo de SQL, tenemos una alta disponibilidad de servidor Back-End en Skype para tema Business Server 2015. Configurar la agrupación en clústeres de SQL Server para Skype para Business Server 2015 tiene los pasos para que está preparada para clústeres. También existen aún más vínculos en de conmutación por error de SQL, para [2014](https://technet.microsoft.com/en-us/library/hh231721.aspx), [2012](https://technet.microsoft.com/en-us/library/hh231721%28v=sql.110%29.aspx)y [2008](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx).
   
 > [!NOTE]
-> Una novedad de esta versión es la compatibilidad con SQL Always On. Es compatible y puede leer más información acerca de él en el tema de [servidor Back-End de alta disponibilidad en Skype para Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md) .
-  
+> La compatibilidad de SQL siempre en es nuevo a la versión 2015. Es compatible y puede leer más información acerca de él en el tema de [servidor Back-End de alta disponibilidad en Skype para Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md) .
+
+> [!NOTE]
+> La creación de reflejos de SQL está disponible en Skype para Business Server 2015, pero ya no se admite en Skype para Business Server 2019. Los métodos de agrupación en clústeres de conmutación por error de grupos de disponibilidad AlwaysOn, instancias de clúster de conmutación por error (FCI) AlwaysOn y SQL son preferidos con Skype para Business Server 2019.  
+
 ## <a name="software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment"></a>Software que debe instalarse antes de una implementación de Skype Empresarial Server 2015
 <a name="Software"> </a>
 
@@ -141,7 +166,7 @@ Hay algunas cosas que va a necesitar instalar o configurar para cualquier servid
 |**Software/Rol**|**Detalles**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |Todos los Skype para servidores Business Server necesita Windows PowerShell 3.0 instalado.  <br/> • Si está realizando la instalación en Windows Server 2012 R2 o Windows Server 2012, está establecido, porque ya existe.  <br/> • Si está realizando una actualización en Windows Server 2008 R2, puede descargar [Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595) para obtenerlo. <br/> **Sugerencia:** Una vez que tenga la correcta PowerShell en allí, confirme que es la versión de compilación 6.2.9200.0 o posterior yendo a la PowerShell preguntar y escriba `$PSVersionTable`. De este modo debería aparecer la información que necesita.  <br/> |
-|Microsoft .NET Framework  <br/> |Los servicios de WCF es una **característica** que no se ha instalado como una característica de Windows, en **Administrador del servidor**, ninguna descarga sea necesaria. <br/> • Necesita para asegurarse de que, al instalar esta característica, o si ya está instalado y se está revisando en él, que la opción de **Activación HTTP** es también comprueba e instalada, de este modo: <br/> ![Captura de pantalla que muestra la opción de activación de HTTP en las características de .NET Framework 4.5. ](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)No se preocupe si obtener un elemento emergente adicional que indica que deban instalarse para que la activación HTTP a instalarse algunas otras cosas. Que es normal, haga clic en Aceptar y continúe. Si no se obtienen emergente, a continuación, se supone esas cosas ya están instaladas y vamos.  <br/> Normalmente, se instala Microsoft .NET Framework cuando se instaló Windows Server 2012 R2 o Windows Server 2016. Skype para Business Server funciona con las siguientes versiones de Microsoft .NET Framework:  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6. x  <br/> • 4.7 de .NET (por Skype para Business Server CU 5 o versiones posteriores)  <br/>  De forma predeterminada en el equipo de Windows Server 2008 R2 es probable que se va a instalar .NET framework 3.5 (definitivamente Compruebe que antes de actualizar), pero en realidad no se convertirá en los servidores de Windows Server 2012 o Windows Server 2012 R2 (para nuevas instalaciones). Para agregar en, necesitará tener acceso a su medio o la unidad de instalación (el lugar que se ha instalado el servidor de Windows desde o dónde están ahora los archivos de instalación). Siga adelante e instálelo como una característica desde el Administrador de servidores y seleccione el medio de instalación (concretamente, la carpeta **\sources\sxs**) cuando se le pida. Continúe y complete la instalación. <br/> |
+|Microsoft .NET Framework  <br/> |Los servicios de WCF es una **característica** que no se ha instalado como una característica de Windows, en **Administrador del servidor**, ninguna descarga sea necesaria. <br/> • Necesita para asegurarse de que, al instalar esta característica, o si ya está instalado y se está revisando en él, que la opción de **Activación HTTP** es también comprueba e instalada, de este modo: <br/> ![Captura de pantalla que muestra la opción de activación de HTTP en las características de .NET Framework 4.5. ](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)No se preocupe si obtener un elemento emergente adicional que indica que deban instalarse para que la activación HTTP a instalarse algunas otras cosas. Que es normal, haga clic en Aceptar y continúe. Si no se obtienen emergente, a continuación, se supone esas cosas ya están instaladas y vamos.  <br/> Normalmente, se instala Microsoft .NET Framework cuando se instaló Windows Server 2012 R2 o Windows Server 2016. Skype para Business Server funciona con las siguientes versiones de Microsoft .NET Framework:  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6. x  <br/> • .NET 4.7.1 y superior (para Skype para Business Server CU 5 o versiones posteriores)  <br/>  De forma predeterminada en el equipo de Windows Server 2008 R2 es probable que se va a instalar .NET framework 3.5 (definitivamente Compruebe que antes de actualizar), pero en realidad no se convertirá en los servidores de Windows Server 2012 o Windows Server 2012 R2 (para nuevas instalaciones). Para agregar en, necesitará tener acceso a su medio o la unidad de instalación (el lugar que se ha instalado el servidor de Windows desde o dónde están ahora los archivos de instalación). Siga adelante e instálelo como una característica desde el Administrador de servidores y seleccione el medio de instalación (concretamente, la carpeta **\sources\sxs**) cuando se le pida. Continúe y complete la instalación. <br/> |
 |Media Foundation  <br/> |Para Windows Server 2016, Windows Server 2012 y Windows Server 2012 R2 el tiempo de ejecución de formato de Windows Media se instala con Microsoft Media Foundation.  <br/> Usada para conferencias de todos los servidores de servidores Front-End y Standard Edition requieren Windows Media Format Runtime ejecutar los archivos de Windows Media Audio (.wma) que las aplicaciones de estacionamiento de llamadas, el anuncio y el grupo de respuesta reproducción para música y anuncios.  <br/> |
 |Windows Identity Foundation  <br/> |Es necesario Windows Identity Foundation 3.5 para admitir escenarios de autenticación de servidor a servidor para Skype para Business Server 2015.  <br/> • Para Windows Server 2012 y Windows Server 2012 R2, no es necesario descargar nada. Abra el **Administrador de servidores** y vaya a **Asistente para agregar roles y características**. **Windows Identity Foundation 3.5** aparece en la sección **Características**. Si está activado, se puede proceder. Si es así, seleccione la opción y haga clic en Siguiente para que aparezca el botón **Instalar**. <br/> |
 |Herramientas de administración remota del servidor  <br/> |Herramientas de administración de roles: herramientas AD DS y AD LDS  <br/> |
