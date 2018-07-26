@@ -6,15 +6,16 @@ manager: serdars
 ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
-ms.reviwer: laal
+ms.reviewer: laal
 description: Administre las funcionalidades y las características de acceso de invitado de Microsoft Teams a través de cuatro niveles de autorización distintos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe399bb7b28f834575aeff344ff3fc4cca1b5dae
-ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.openlocfilehash: 0d31bb8eafdaa6a04fe34f8433e8484ec447e7c1
+ms.sourcegitcommit: 2ce680aba13d1d781019b766a04e4e7d46d4f72c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21136310"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar el acceso de invitado en Microsoft Teams
 ===========================================
@@ -36,27 +37,27 @@ Estos niveles de autorización distintos proporcionan la flexibilidad necesaria 
 ![Diagrama de las dependencias de autorización para el acceso de invitado.](media/teams_dependencies_image1.png)
 
 
-##<a name="azure-active-directory"></a>Azure Active Directory
+## <a name="azure-active-directory"></a>Azure Active Directory
 
 Con la colaboración negocio a negocio (B2B) de Azure AD, el envío de invitaciones a posibles usuarios invitados no está restringido a los administradores de inquilinos. En su lugar, puede usar directivas para delegar el envío de invitaciones a los usuarios que tengan roles que les permitan hacerlo.
 
-La configuración de las invitaciones se aplica a nivel de inquilino y controla la experiencia de invitado a nivel de directorio, inquilino y aplicación. Como mínimo para admitir a invitados, **pueden invitar miembros** debe establecer en **Sí**.
+La configuración de las invitaciones se aplica a nivel de inquilino y controla la experiencia de invitado a nivel de directorio, inquilino y aplicación. Como mínimo para admitir a los invitados, **pueden invitar los miembros** se debe establecer en **Sí**.
 
 
 ![Captura de pantalla de la configuración de usuario en el portal de Azure Active Directory.](media/teams_dependencies_image2.png)
 
-AD Azure incluye las siguientes opciones para configurar usuarios externos:
-- **Los permisos de usuario de invitado están limitados**: **Sí** significa que los invitados no tiene permiso para determinadas tareas de directorio, como enumerar los usuarios, grupos u otros recursos de directorio. Además, los invitados no se puede asignar funciones administrativas en su directorio. **No** significa que los invitados tiene el mismo acceso a los datos de directorio que los usuarios normales tienen en su directorio.
-- **Pueden invitar administradores y usuarios de la función de autor de la invitación invitado**: **Sí** significa que administradores y usuarios de la función "Autor de la invitación invitado" podrá invitar a personas a los inquilinos. **No** significa que administradores y los usuarios no pueden invitar a personas a los inquilinos.
-- **Pueden invitar los miembros**: **Yes** significa que los miembros no es administrador del directorio pueden invitar a invitados a colaborar en recursos protegidos por el anuncio de Azure, como sitios de SharePoint o recursos de Azure. **No** significa que sólo los administradores pueden invitar a invitados a su directorio.
-- **Pueden invitar los invitados**: **Sí** significa que los invitados en el directorio pueden ellos mismos invitar a otro invitado a colaborar en recursos protegidos por el anuncio de Azure, como sitios de SharePoint o recursos de Azure. **No** significa que los invitados no puede invitar a otros invitados para colaborar con su organización.
+Azure AD incluye las siguientes opciones para configurar los usuarios externos:
+- **Los permisos de usuario de invitado están limitados**: **Sí** significa que los invitados no tiene permiso para determinadas tareas de Active directory, como enumerar los usuarios, grupos u otros recursos de Active directory. Además, los invitados no se pueden asignar a las funciones administrativas en el directorio. **No** significa que los invitados tiene el mismo acceso a los datos de Active directory que tienen los usuarios regulares en el directorio.
+- **Pueden invitar los administradores y usuarios de la función de autor de la invitación de invitado**: **Sí** significa que los administradores y usuarios de la función "Autor de la invitación invitado" podrán invitar a personas para el inquilino. **No** significa que los administradores y los usuarios no pueden invitar a los invitados en el inquilino.
+- **Pueden invitar los miembros**: **Sí** significa que los miembros sin permisos de administrador del directorio de pueden invitar a los invitados puedan colaborar en recursos protegidos mediante la implementación de AD Azure, como sitios de SharePoint o los recursos de Azure. **No** significa que sólo los administradores pueden invitar a invitados a su directorio.
+- **Pueden invitar los invitados**: **Sí** significa que los invitados en el directorio pueden ellos mismos invitar a otro invitado a colaborar en recursos protegidos mediante la implementación de AD Azure, como sitios de SharePoint o los recursos de Azure. **No** significa que los invitados no puede invitar a otros invitados para colaborar con su organización.
  
 
 
 > [!NOTE]
-> También puede administrar los dominios se pueden invitar a los inquilinos como invitados. Consulte [Permitir o bloquear el acceso de invitado a los grupos de Office 365](https://technet.microsoft.com/library/a86bb46f-0e5b-43a3-b6ef-7394f344a8da). 
+> También puede administrar qué dominios se pueden invitar a su inquilino como invitados. Vea [Permitir o bloquear el acceso de invitado a los grupos de Office 365](https://technet.microsoft.com/library/a86bb46f-0e5b-43a3-b6ef-7394f344a8da). 
 
-##<a name="microsoft-teams"></a>Microsoft Teams
+## <a name="microsoft-teams"></a>Microsoft Teams
 En Microsoft Teams, puede controlar si la experiencia de invitado está habilitada o deshabilitada en su organización. La configuración está deshabilitada de forma predeterminada y se aplica en el nivel de inquilino para Microsoft Teams solo.
 
 
@@ -64,7 +65,7 @@ En Microsoft Teams, puede controlar si la experiencia de invitado está habilita
 Puede administrar la configuración del acceso de invitado de Microsoft Teams desde el Centro de administración de Office 365. Si desea más información, consulte [Activar o desactivar el acceso de invitado para Microsoft Teams](set-up-guests.md). 
 
 
-##<a name="office-365-groups"></a>Grupos de Office 365
+## <a name="office-365-groups"></a>Grupos de Office 365
 
 Desde Grupos de Office 365, puede controlar la adición de usuarios invitados y el acceso de invitado a todos los grupos de Office 365 y Microsoft Teams en su organización.
 
@@ -90,7 +91,7 @@ Desde Grupos de Office 365, puede controlar la adición de usuarios invitados y 
 La configuración anterior se aplica a nivel de inquilino y controla la experiencia de invitado en Grupos de Office 365 y Microsoft Teams.
 
 
-##<a name="sharepoint-online-and-onedrive-for-business"></a>SharePoint Online y OneDrive para la Empresa
+## <a name="sharepoint-online-and-onedrive-for-business"></a>SharePoint Online y OneDrive para la Empresa
 
 Microsoft Teams depende de SharePoint Online y OneDrive para la Empresa para almacenar archivos y documentos de canales y conversaciones de chat.  
   

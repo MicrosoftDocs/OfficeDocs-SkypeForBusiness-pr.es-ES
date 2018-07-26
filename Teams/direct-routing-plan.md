@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Lea este tema para obtener información sobre cómo enrutamiento directo de Microsoft teléfono del sistema le permite conectar un compatibles, proporcionado por el cliente sesión controlador de borde (SBC) para el sistema telefónico de Microsoft.
-ms.openlocfilehash: f38748988268fdb2d515cf8a09550f4826b47c70
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 4aa222a98a0c95dd49b40172543aa1f5482a964f
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084626"
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21148520"
 ---
 # <a name="plan-direct-routing"></a>Planeación de enrutamiento directo
 
@@ -76,7 +76,6 @@ Las direcciones IP de servidor de seguridad y los puertos de medios de Microsoft
 
 Los usuarios de enrutamiento directo deben tener las siguientes licencias asignadas en Office 365: 
 
-- Skype Empresarial Online (plan 2) 
 - Sistema telefónico de Microsoft 
 - Microsoft Teams 
 - Conferencia de Audio de Microsoft 

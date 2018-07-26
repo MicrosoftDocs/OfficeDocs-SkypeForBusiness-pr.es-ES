@@ -1,5 +1,5 @@
 ---
-title: ¿Cuáles son los planes de marcado?
+title: ¿Qué son los planes de marcado?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre qué tipo de acceso telefónico al llamar a planes (planes de marcado de llamar a RTC) están disponibles con Office 365 y cómo elegir uno para la organización.  '
-ms.openlocfilehash: 5df6b2e9f9e5ccb83d6320cbd43f78ef4fc44424
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 27e65cb0651171f7e0a5d0262db0072b4d620851
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933169"
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21145297"
 ---
-# <a name="what-are-dial-plans"></a>¿Cuáles son los planes de marcado?
+# <a name="what-are-dial-plans"></a>¿Qué son los planes de marcado?
 
 [] Un plan de marcado es un conjunto determinado de reglas de normalización que traducen los números de teléfono marcados por un usuario individual a un formato alternativo (generalmente E.164) para fines de autorización y enrutamiento de llamada.
   
@@ -127,7 +127,7 @@ La siguiente tabla muestra reglas de normalización de muestra que se escriben c
 |7digitcallingRedmond  <br/> |Traduce números de 7 dígitos a números locales de Redmond.  <br/> |^ (\\d.{7}) $  <br/> |+1425$1  <br/> |5550100 se traduce a +14255550100  <br/>|
 |RedmondOperator  <br/> |Traduce 0 a Operador de Redmond.  <br/> |^0$  <br/> |+14255550100  <br/> |0 se traduce a +14255550100  <br/> |
 |RedmondSitePrefix  <br/> |Traduce números con un prefijo de red (6) y el código de sitio de Redmond (222).  <br/> |^ 6222 (\\d.{4}) $  <br/> |+1425555$1  <br/> |62220100 se traduce a +14255550100  <br/> |
-|5digitRange  <br/> |Traduce extensiones de 5 dígitos a partir del rango de dígitos entre 3 y 7 inclusive.  <br/> |^ ([3-7]\\d.{4}) $  <br/> |+142570$1  <br/> |54567 se traduce a +14255554567  <br/> |
+|5digitRange  <br/> |Traduce extensiones de 5 dígitos a partir del rango de dígitos entre 3 y 7 inclusive.  <br/> |^ ([3-7]\\d.{4}) $  <br/> |+ 142555$ 1 <br/> |54567 se traduce a +14255554567  <br/> |
 |PrefixAdded  <br/> |Añade un prefijo de país delante de un número de 9 dígitos con restricciones en el primer y el tercer dígito.  <br/> |^ ([2-9]\\d.\\d. [2-9]\\d.{6}) $  <br/> |1$1  <br/> |4255554567 se traduce a 14255554567  <br/> |
 |No traducción  <br/> |Coinciden 5 dígitos pero no hay traducción.  <br/> |^ (\\d.{5}) $  <br/> |$1  <br/> |34567 se traduce a 34567  <br/> |
    
