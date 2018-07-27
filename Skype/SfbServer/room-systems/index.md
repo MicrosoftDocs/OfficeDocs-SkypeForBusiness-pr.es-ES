@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Las consideraciones de planeación relevantes para la implementación de sistemas de salón de Skype v2 y cómo implementar y administrar el sistema.
-ms.openlocfilehash: d52f44c302b9f99389b45c1f8e74bef6ef362447
-ms.sourcegitcommit: 3356670f2849306ce329899509d2104fe0404939
+ms.openlocfilehash: 02dcbb2ccdd1b7737dff25475fa8f623d5cff926
+ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19949796"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21249232"
 ---
 <h2>Sala de Skype sistemas v2 & #x 2013; <br>la próxima generación de sistemas de las salas de Skype </h2>
 <ul class="panelContent cardsW cols cols2">
@@ -78,7 +78,7 @@ ms.locfileid: "19949796"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Implementar</h3>
+                        <h3>Implementar </h3>
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@ ms.locfileid: "19949796"
 </ul>
 
 > [!NOTE]
-> Sistemas de salón de Skype v2 está destinado para su uso con Skype Business Server 2015 o Skype para profesionales en línea. Soporte técnico de Microsoft Teams es muy próximamente. <br><br>No se espera plataformas anteriores al igual que Lync Server 2013 para trabajar con sistemas de salas de Skype v2. 
+> Sistemas de salón de Skype v2 está pensada para su uso con Skype para Business Server 2019, Skype Business Server 2015, Microsoft Teams o Skype para profesionales en línea.  <br><br>No se espera plataformas anteriores al igual que Lync Server 2013 para trabajar con sistemas de salas de Skype v2. 
 
 Estos artículos están diseñados para las personas que la obligación de planeación, implementación y administración de estos dispositivos y no para los usuarios del sistema. Los usuarios estarán más interesados en los sistemas de salón de Skype v2 [Ayuda en pantalla](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
 
