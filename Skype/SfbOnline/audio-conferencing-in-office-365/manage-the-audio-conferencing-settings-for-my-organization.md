@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Vea los pasos para asignar un identificador de conferencia y licencia de conferencia de acceso telefónico a un usuario y muchas otras opciones de conferencia de acceso telefónico. '
-ms.openlocfilehash: 26d80b71344227aeaec7089e2bb9f9a9dfe32ad2
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: f3ab0f2d1ac32de5744dc4ac994e8030a1540ba4
+ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703672"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "21642479"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization"></a>Administrar la configuración de la conferencia de acceso telefónico local en mi organización
 
@@ -55,7 +55,7 @@ ms.locfileid: "19703672"
 > [!NOTE]
 > Después de asignar la licencia, puede que Microsoft no aparezca en el menú desplegable como un proveedor de servicios de conferencia de acceso telefónico local. Si esto ocurre, cierre la sesión del centro de administración de Office 365 o presione CTRL + F5 para actualizar la ventana del explorador. 
   
-## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Habilitar o deshabilitar los correos electrónicos enviados a los usuarios de conferencia de audio
+## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Enable or disable emails sent to audio conferencing users
 
 ![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
 
@@ -86,12 +86,12 @@ ms.locfileid: "19703672"
 - Usar Windows PowerShell 
     
   ```
-  Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $true|$false
+  Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
     También puede usar Windows PowerShell y ejecutar:
     
-## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>Cambiar la información de contacto de la dirección del remitente en los mensajes de correo electrónico enviados a los usuarios
+## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>Change the sender's contact information in email messages sent to users
 
 Cambiar la información de contacto de los remitentes de mensajes de correo electrónico enviados a los usuarios
   
@@ -166,7 +166,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
   
 Vea [Restablecer el PIN de conferencia de Audio](reset-the-audio-conferencing-pin.md).
   
-## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Enviar un correo electrónico con información de conferencia de Audio a un usuario
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Send an email with Audio Conferencing information to a user
 
 ![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
 
@@ -343,7 +343,7 @@ El PIN solo puede tener de 4 a 12 dígitos. El valor predeterminado es 5.
     
 También puede establecer el idioma principal y los idiomas secundarios compatibles al seleccionar Microsoft como proveedor de conferencias de acceso telefónico local. El orden que seleccione en las listas desplegables será el orden de los idiomas que se presentará a los autores de las llamadas.
   
-## <a name="see-audio-conferencing-dial-in-numbers"></a>Vea los números de acceso telefónico de conferencias de audio
+## <a name="see-audio-conferencing-dial-in-numbers"></a>See audio conferencing dial-in numbers
 
 ![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
 
