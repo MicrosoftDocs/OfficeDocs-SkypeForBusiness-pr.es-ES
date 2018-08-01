@@ -134,15 +134,21 @@
 <!-- ============================================================ -->
 # Seguridad y cumplimiento
 ## [Información general de seguridad y cumplimiento en Microsoft Teams](security-compliance-overview.md)
-## [Prácticas de recopilación de datos de Skype Empresarial y Teams](/SkypeForBusiness/legal-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Realizar una investigación de exhibición de documentos electrónicos en Microsoft Teams](ediscovery-investigation.md)
 ## [Modelos de identidad y autenticación en Microsoft Teams](identify-models-authentication.md)
 ## [Poner a un usuario o un equipo de Microsoft Teams en retención legal](legal-hold.md)
 ## [Buscar eventos en el registro de auditoría en Microsoft Teams](audit-log-events.md)
 ## [Usar la búsqueda de contenido en Microsoft Teams](content-search.md)
+## [Declaración de accesibilidad de conformidad en Francia para Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
+##  [Soluciones de accesibilidad para Skype para profesionales en línea y Microsoft Teams](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [Código de prácticas en el Reino Unido.](/SkypeForBusiness/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [Compatible con control de código para el Reino Unido.](/SkypeForBusiness/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [Período gratuito para realizar llamadas](/SkypeForBusiness/legal-and-regulatory/?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Prácticas de recopilación de datos](/SkypeForBusiness/legal-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [Etiquetas de llamada de emergencia](/SkypeForBusiness/legal-and-regulatory/emergency-calling-lables?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [Términos y condiciones de las llamadas de emergencias](/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
 <!-- ============================================================ -->
-
-
 <!-- ============================================================ -->
 # Interoperabilidad con Office 365
 ## [Migración e interoperabilidad con Skype para la empresa](migration-interop-guidance-for-teams-with-skype.md)
