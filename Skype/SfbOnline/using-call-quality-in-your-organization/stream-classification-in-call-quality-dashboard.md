@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Descubra cómo se clasifica la calidad de la transmisión en el panel de calidad de llamadas para Microsoft Teams y Skype for Business Online.
-ms.openlocfilehash: 6cd19fb1f163f6e7a9e11598b03f539b5fc1a02d
-ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
+ms.openlocfilehash: a77ca0605589c99b88ba3287bf8febcc7514cbd1
+ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20327082"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "21645312"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Clasificación de la transmisión en el panel de calidad de llamadas
 
@@ -38,10 +38,10 @@ Una transmisión de audio se marca como mala si se cumplen una o más de las con
 
 |**Métrica**|**Condición**|**Explicación**|
 |:-----|:-----|:-----|
-|Media de la degradación del audio|>1,0|Media de degradación de la puntuación de opinión media de la red en la transmisión. Representa en qué medida la vibración y la pérdida de red han afectado a la calidad del audio recibido.|
-|Tiempo de ida y vuelta|>500|Tiempo medio de ida y vuelta en la propagación de red, que se calcula en milisegundos como se especifica en el RFC3550.|
+|Media de la degradación del audio|>1,0|Media de degradación de la puntuación de opinión media de la red en la transmisión. Representa qué cantidad de vibración y pérdida de red ha influido en la calidad del audio recibido.|
+|Tiempo de ida y vuelta|>500|Tiempo medio de ida y vuelta en la propagación de red que se calcula como se especifica en RFC3550 en milisegundos.|
 |Tasa de pérdida de paquetes|>0,1|Porcentaje medio de pérdida de paquetes en la transmisión.|
-|Fluctuación|>30|Fluctuación media producida en la transmisión en milisegundos.|
+|Fluctuación|>30|Vibración media producida en la transmisión en milisegundos.|
 |Índice medio de muestras ocultas|> 0,07|Índice medio entre el número de tramas de audio con muestras ocultas generadas por la recuperación paquetes perdidos y el número total de tramas de audio.|
 
 ### <a name="video-classifier"></a>Clasificador de vídeo
@@ -72,7 +72,7 @@ Una transmisión de uso compartido de aplicaciones se marca como mala si se cump
 |:-----|:-----|:-----|
 |Porcentaje total de bloques perdidos|> 36|Porcentaje de ventanas que se descartan en lugar de enviarse a un equipo remoto (por ejemplo, del MCU a un visor). Las ventanas descartadas (o perdidas) se pueden deber a restricciones en el ancho de banda entre el cliente y el servidor.|
 |Latencia media de proceso de bloques de RDP AppSharing|> 400|Latencia media en milisegundos en el procesamiento de ventanas en la pila de RDP del servidor de conferencias.|
-|Media unidireccional relativa a AppSharing|> 1,75|Retraso medio unidireccional relativo entre los puntos de conexión para transmisiones de uso compartido de aplicaciones (en milisegundos).|
+|Media unidireccional relativa a AppSharing|> 1,75|Retraso medio unidireccional relativo entre los puntos de conexión para transmisiones de uso compartido de aplicaciones (en segundos).|
 
 ## <a name="unclassified-streams"></a>Transmisiones sin clasificar
 
