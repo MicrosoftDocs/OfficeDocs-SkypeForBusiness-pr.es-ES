@@ -1,1 +1,1 @@
-<span data-ttu-id="601a1-101">Esta es una característica en versión preliminar o anticipada.</span><span class="sxs-lookup"><span data-stu-id="601a1-101">This is a preview or early release feature.</span></span>
+<span data-ttu-id="3a536-101">Esta es una característica en versión preliminar o anticipada.</span><span class="sxs-lookup"><span data-stu-id="3a536-101">This is a preview or early release feature.</span></span>
