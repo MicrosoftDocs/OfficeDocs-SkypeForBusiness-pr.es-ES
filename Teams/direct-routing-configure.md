@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Obtenga información sobre cómo configurar el enrutamiento directo de Microsoft teléfono del sistema.
-ms.openlocfilehash: c73141e4f77816d5e090a1cf0208eb66a1e29811
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 112381db7d4d2bc160917b41c7e8e437ef737bcf
+ms.sourcegitcommit: d619e44d685e2109b995ffd67ff4b98e5647c8ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084628"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21762946"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -530,47 +530,8 @@ Antes de que un usuario puede ver la ficha llamadas en Microsoft Teams, tiene qu
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-the-users"></a>Establecer Teams Microsoft como cliente llamado preferido para los usuarios
 
-Enrutamiento directo enrutarán las llamadas únicamente a Microsoft Teams, por lo que necesita para asegurarse de que Microsoft Teams es el cliente llamado preferido para los usuarios. Esto se controla mediante el TeamsCallingPolicy y el TeamsInteropPolicy. 
+Enrutamiento directo sólo enrutar las llamadas a y desde los usuarios si usan equipos Cleint. Si su organización sólo usa los equipos cleint, "Equipos sólo" modo en la directiva de actualización se recomienda establecer. Si la organización usa Skype para Business Server o Skype para profesionales en línea, revise el siguiente documento [viaje de actualización y coexistencia de comprenda el funcionamiento de Skype para profesionales y los equipos](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype) y seleccione la opción adecuada. 
 
-1. En primer lugar, use el siguiente cmdlet en una sesión remota de PowerShell en el Skype para el centro de administración de negocio en línea para ver qué directivas se ha asignado el usuario. 
-
-  ```
-  Get-CsOnlineUser -identity <User Name> | fl *teams*
-  ```
- 
-2. A continuación, revise las instancias de directiva diferente. 
-
-  ```
-  Get-CsTeamsCallingPolicy
-  ``` 
- y 
-
-  ```
-  Get-CsTeamsInteropPolicy
-  ``` 
-
-Antes de que los usuarios de Microsoft Teams pueden usar el servicio, existen pasos adicionales que debe seguir para aplicar la directiva de llamada y permitir que las llamadas.
-
-### <a name="teams-calling-policy"></a>Equipos de directiva de llamada
-
-Necesario para asegurarse de que el usuario tiene un TeamsCallingPolicy con AllowCalling = True. Esta directiva puede ser en el inquilino de la directiva Global o una directiva específica que se concede al usuario. Si necesita conceder a un usuario una directiva específica, puede usar el cmdlet:
-
-```
-Grant-CsTeamsCallingPolicy -PolicyName <policy> -Identity <User Name>
-```
-
-### <a name="teams-interop-policy"></a>Directiva de interoperabilidad de los equipos
-
-Asegúrese de que el usuario tiene el cliente llamado preferido para establecer en Microsoft Teams. Esto puede realizarse de dos maneras:
-
-- El usuario define al cliente preferido de la llamada en el cliente de Microsoft Teams.
-- El usuario le ha asignado una directiva que establece al cliente preferido de la llamada.
-
-Para asignar una directiva que establece Microsoft Teams como el cliente llamado preferido, asegúrese de que se concede al usuario una directiva con CallingDefaultClient = equipos. A continuación se muestra un ejemplo cmdlet:
-
-```
-Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingTeamsChatTeams -Identity “<User Name>”
-```
 
 ## <a name="see-also"></a>Vea también
 

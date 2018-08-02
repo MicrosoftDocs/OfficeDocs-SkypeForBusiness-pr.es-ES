@@ -3,7 +3,7 @@ title: Publicar aplicaciones en el catálogo de aplicaciones del inquilino de eq
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/13/2018
+ms.date: 08/02/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: prem
@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11db7dec3122de3eb783152483a1575cf92dc585
-ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
+ms.openlocfilehash: 655a9da3670a7894e581cd2e6adebd02ef22706b
+ms.sourcegitcommit: d619e44d685e2109b995ffd67ff4b98e5647c8ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2018
-ms.locfileid: "20363908"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21762938"
 ---
 <a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Publicar aplicaciones en el catálogo de aplicaciones del inquilino de equipos de Microsoft
 =======================================================
@@ -32,7 +32,7 @@ Puede publicar aplicaciones en el catálogo de aplicaciones del inquilino de equ
 
 ### <a name="get-a-teams-app-package"></a>Obtener un paquete de la aplicación de los equipos
 
-Se crea un paquete de aplicación de los equipos mediante el uso de [Los equipos de aplicación Studio](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/get-started-app-studio). Una vez que el paquete de la aplicación, puede agregarlo al catálogo de aplicaciones de empresa. Si bien todos los usuarios en el inquilino pueden ver el catálogo de aplicaciones, sólo los administradores tienen la capacidad de administrar.
+Se crea un paquete de aplicación de los equipos mediante el uso de [Los equipos de aplicación Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Una vez que el paquete de la aplicación, puede agregarlo al catálogo de aplicaciones de empresa. Mientras todos los usuarios en el inquilino puede ver el catálogo de aplicaciones, actualmente sólo global los administradores tienen la capacidad para publicar y administrarlo. (Al final, los administradores de los equipos podrán hacerlo así como.)
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>Vaya al catálogo de aplicaciones de inquilinos
 
