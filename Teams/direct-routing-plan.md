@@ -4,17 +4,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Lea este tema para obtener información sobre cómo enrutamiento directo de Microsoft teléfono del sistema le permite conectar un compatibles, proporcionado por el cliente sesión controlador de borde (SBC) para el sistema telefónico de Microsoft.
-ms.openlocfilehash: 4aa222a98a0c95dd49b40172543aa1f5482a964f
-ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
+ms.openlocfilehash: 66929e86e6e049ee1dd5c839bfcc4adcc3edf35f
+ms.sourcegitcommit: 9e112a00c9766af8bd30bc13980201d23d1928d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21148520"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21752566"
 ---
 # <a name="plan-direct-routing"></a>Planeación de enrutamiento directo
 
@@ -107,8 +108,10 @@ La siguiente tabla muestran ejemplos de nombres DNS registrados para el inquilin
 |**Nombre DNS**|**Se puede usar para el FQDN de SBC**|**Ejemplos de nombres FQDN**|
 |:--- |:--- |:--- |
 contoso.com|Sí|**Nombres válidos:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>Europe.contoso.com|
-|contoso.onmicrosoft.com|No|**Nombre no válido:**<br/>sbc1.Europe.contoso.com (requiere registrar europe.contoso.com de nombre de dominio en "Dominios" en primer lugar)
-|
+|contoso.onmicrosoft.com|No|<br/>Uso de *. onmicrosoft.com dominios no es compatible con nombres SBC
+
+Si desea usar un nuevo nombre de dominio. Por ejemplo, el inquilino tiene contoso.com como un nombre de domin registrado en el inquilino. Desea usar sbc1.sip.contoso.com. Antes de que puede emparejar un SBC con nombre sbc1.sip.contoso.com debe registrar sip.contoso.com de nombre de dominio en "Dominios" en el inquilino. Si trata de emparejamiento un sbc1.sip.contoso.com SBC recibirá un error "No puede utilizar el dominio"sbc1.sip.contoso.com"como no se configuró para este inquilino."
+Una vez había agregado el nombre de dominio debe crear un usuario con el UPN user@sip.contoso.com y assing un lisence "Equipos". Puede tardar hasta 24 horas para aprovisionar totalmente el nombre de dominio después de que se hayan agregado a "Dominios" del inquilino, un usuario con el nuevo nombre creado y un lisence asignados al usuario. 
 
 Es posible que una empresa puede tener varios espacios de direcciones SIP en un inquilino. Por ejemplo, una empresa podría tener contoso.com como un espacio de direcciones SIP y fabrikam.com como segundo espacio de direcciones SIP. Algunos usuarios tienen direcciones user@contoso.com y algunos usuarios tienen direcciones user@fabrikam.com. 
 
@@ -212,7 +215,7 @@ Los siguientes proveedores están en el proceso de estar certificadas:
 - [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
 - Cinta de opciones (anteriormente Sonus):
    - [Serie de SBC perimetral](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
-   - [SBC Core Series TBD](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
+   - [SBC Core Series](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
 - ThinkTel: ThinkTel no se vende el SBCs a las empresas, pero su SBC es estar certificada.  
  
 ## <a name="see-also"></a>Vea también
