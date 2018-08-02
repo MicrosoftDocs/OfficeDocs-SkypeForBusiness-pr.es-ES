@@ -1,5 +1,5 @@
 ---
-title: Crear una cola de llamadas de sistema telefónico
+title: Crear una cola de llamadas de Sistema telefónico
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 18988c7d6f913b85d11bc465c336dfd265fa34a0
-ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
+ms.openlocfilehash: 9b86bec84846dff36e509488eb34f0415fe8cd95
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "19649586"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21708354"
 ---
-# <a name="create-a-phone-system-call-queue"></a>Crear una cola de llamadas de sistema telefónico
+# <a name="create-a-phone-system-call-queue"></a>Crear una cola de llamadas de Sistema telefónico
 
 Llamada de teléfono del sistema colas incluyen el saludo que se usa cuando alguien llama a un número de teléfono para su organización, la capacidad de poner automáticamente las llamadas en espera y la capacidad de búsqueda para el siguiente agente de llamada disponibles controlar la llamada mientras las personas que llamada se escuchan música en espera. Puede crear una o varias colas de llamadas para su organización.
   
@@ -90,6 +90,14 @@ Para comenzar a utilizar colas de llamadas, es importante recordar algunas cosas
   - iPhone Skype para Business Client (versión 6.16.0 y posterior)
     
   - iPad Skype para Business Client (versión 6.16.0 y posterior)
+
+  - Cliente de Microsoft Windows de los equipos (versiones de 32 y 64 bits)
+
+  - Cliente de Mac de los equipos de Microsoft
+
+  - Aplicación de Microsoft Teams iPhone
+
+  - Los equipos de Microsoft para Android
     
 ## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Paso 2: obtener o transferir números de servicio de pago o gratuitos
 

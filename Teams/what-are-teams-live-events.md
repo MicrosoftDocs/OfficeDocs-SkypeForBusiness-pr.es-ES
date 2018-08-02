@@ -9,12 +9,12 @@ ms.reviwer: tonysmit
 description: Obtenga información sobre cómo Live eventos permiten a los usuarios difundir vídeo y contenido a grandes audiencias en línea en Microsoft Teams, Yammer y Microsoft Stream.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8050f105202063a0404de281100deaeca29584d
-ms.sourcegitcommit: d802b3091f9dccc851093eed0e2acbc34d1e9d9b
+ms.openlocfilehash: 4017e059f202a89451b9aad419fd007bb4758765
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "21653688"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21711073"
 ---
 # <a name="what-are-teams-live-events"></a>¿Cuáles son los equipos de eventos en directo?
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
@@ -147,7 +147,7 @@ Puede usar los eventos de los equipos live en varias regiones. La información s
 ### <a name="set-up-your-network-for-live-events-in-microsoft-teams"></a>Configurar la red para eventos en directo en Microsoft Teams
 Los eventos de live de inicio rápido requieren para [Preparar la red de su organización para que los equipos de Microsoft](https://docs.microsoft.com/en-us/microsoftteams/prepare-network).  
 
-Eventos en directo para la Guía de inicio rápido y codificador externo 
+Eventos en directo para la Guía de inicio rápido y codificador externo, vaya a [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges) para obtener una lista detallada y actualizada de la direcciones URL, direcciones IP, puertos y protocolos que deben configurarse correctamente para los equipos y la secuencia. Microsoft está mejorando continuamente el servicio Office 365 y agregar la nueva funcionalidad, lo que significa que los puertos requeridos, las direcciones URL, y pueden cambiar las direcciones IP a través del tiempo. Se recomienda que se suscriba a través de RSS para recibir notificaciones cuando esta información se actualiza o se ha cambiado.
 
 ### <a name="set-up-ecdn-provider-for-live-events-in-microsoft-teams"></a>Configurar el proveedor eCDN para eventos en directo en Microsoft Teams 
 Reproducción de vídeos de evento en directo usa adaptable velocidad de bits de transmisión por secuencias (ABR) pero es una secuencia de unidifusión, lo que significa que cada visor obtiene su propia secuencia de vídeo de internet. Para eventos en directo o los vídeos que se envía al gran parte de su organización, podría ser una cantidad considerable de ancho de banda de internet que consume los visores.  Para las organizaciones que desean reducir este tráfico de internet para eventos en directo, eventos en directo soluciones se integran con de Microsoft de confianza definen de socios de entrega de vídeo que ofrecen software redes (SDNs) o redes de entrega de contenido empresarial (eCDNs). Estos SDN eCDN plataformas permiten a las organizaciones a optimizar el ancho de banda de red sin sacrificar usuario final experiencias de visualización. Nuestros socios pueden ayudar a permitir una distribución de vídeo más escalable y eficaz a través de la red de la empresa.
