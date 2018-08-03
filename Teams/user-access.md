@@ -12,12 +12,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a10056c201ad5adb1192f599106c533571507ef
-ms.sourcegitcommit: 046cc4a880f3b6b5f912278483cf28fa25619b6e
+ms.openlocfilehash: a7d30f5516ba0b44bc5ff854fcc9f5482fdf24c2
+ms.sourcegitcommit: c12afd4dd5509a4552b2999430953273d36db039
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "21597548"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21779514"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gestionar acceso de los usuarios a Microsoft Teams
 =====================================
@@ -31,7 +31,7 @@ Actualmente, no hay ninguna opción de directiva para activar los equipos o un s
 > [!NOTE]
 >Microsoft recomienda activar en los equipos de todos los usuarios de una compañía para que los equipos se pueden formar ecológicamente para proyectos y otras iniciativas dinámicos. Incluso si se decide piloto, puede ser útil para mantener los equipos habilitados para todos los usuarios, pero sólo communications para el grupo piloto de usuarios de destino.
 
-## <a name="manage-directly-through-the-office-365-admin-center"></a>Administrar directamente a través del centro de administración de Office 365
+## <a name="manage-teams-through-the-office-365-admin-center"></a>Administrar los equipos a través del centro de administración de Office 365
 
 Licencias de nivel de usuario de los equipos se administran directamente a través de las interfaces de administración de usuario de Office 365 admin center. Un administrador puede asignar licencias a los nuevos usuarios cuando se crean nuevas cuentas de usuario o a los usuarios con cuentas existentes. El administrador debe tener privilegios de administrador Global de Office 365 o administrador de usuario para administrar las licencias de Microsoft Teams.
 
@@ -66,19 +66,6 @@ Para deshabilitar los equipos de todos los usuarios con una licencia de activo p
 |![Icono de Punto de decisión.](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Punto de decisión         |<ul><li>¿Qué es la planeación de la organización de la incorporación de los equipos en toda la organización?  (Piloto o abrir)</li></ul>         |
 |![Icono de Siguientes pasos.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Siguientes pasos         |<ul><li>Si realiza la adopción a través de Piloto, decida si desea hacerlo a través de licencias o comunicación dirigida.</li><li>Dependiendo de la toma de decisiones, realice los pasos para asegurarse de que sólo los usuarios que tienen acceso los equipos (si es necesario) la prueba piloto.</li><li>Las instrucciones para que los usuarios que va a (o no) de documentos tienen acceso a los equipos.</li></ul>         |
 
-## <a name="manage-via-office-sku-level-switch"></a>Administrar a través de conmutador de nivel de Sku de Office
+## <a name="manage-teams-at-the-office-365-tenant-level"></a>Administrar los equipos en el nivel de inquilino de Office 365
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
-1.  Inicie sesión en el [Centro de administración de Office 365](https://go.microsoft.com/fwlink/?linkid=854614) con una cuenta que tenga privilegios de administrador global.
-
-2.  Vaya a **Configuración** > **Servicios y complementos**.
-
-    ![Captura de pantalla de la sección Configuración del Centro de administración de Office 365 con Servicios y complementos seleccionado. ](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image1.png)
-
-3.  En la página Servicios y complementos, haga clic en **Microsoft Teams**.
-
-    ![Captura de pantalla de la página Servicios y complementos con Microsoft Teams seleccionado.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
-
-4.  Para activar Teams para la organización, use el selector de licencias, seleccione cada licencia, después establezca el botón de alternancia en **Activado** y finalmente haga clic en **Guardar**.
-
-    ![Captura de pantalla de la página de configuración de Microsoft Teams donde se ve el botón de alternancia establecido en Activado para habilitar Microsoft Teams.](media/Services-and-addins-control-Microsoft-Teams.PNG)
