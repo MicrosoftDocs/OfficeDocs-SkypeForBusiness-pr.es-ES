@@ -10,18 +10,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: En este artículo se resume los requisitos para la compatibilidad con sistemas de salas de Skype v2.
-ms.openlocfilehash: 405b7cd6fefd7fb6fbd6168957bbc2b41a83bea8
-ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
+ms.openlocfilehash: c6267f24771954c31cfc4c75f8fff7b1aa8b9b66
+ms.sourcegitcommit: 1f345f13c8edf04efb0a8dd02d6c11f793ba201a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "20509538"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22111849"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Requisitos de Sistemas de salas de Skype v2
  
 En este artículo se resume los requisitos para la compatibilidad con sistemas de salas de Skype v2. 
   
 La implementación incluirá la creación de cuentas como se describe en [implementar sistemas de salón de Skype v2](../../deploy/deploy-clients/room-systems-v2.md) y configurar una consola de reunión tal como se describe en [Configurar una consola de v2 de sistemas de salón de Skype](../../deploy/deploy-clients/console.md). También es posible que necesita hacer referencia a [Skype para Business licensing del complemento](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).
+
+> [!NOTE]
+> Sistemas de salón de Skype v2 está pensada para su uso con Skype para Business Server 2019, Skype Business Server 2015, Microsoft Teams o Skype para profesionales en línea.  <br><br>No se espera plataformas anteriores al igual que Lync Server 2013 para trabajar con sistemas de salas de Skype v2. 
   
 ## <a name="hardware-requirements"></a>Requisitos de hardware
 
@@ -34,13 +37,13 @@ Sistemas de salón de Skype v2 puede escalar a tamaños de sala diferente a trav
 **Tabletas compatibles**
 |Tablet PC|Procesador|MEMORIA RAM|Disco|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 4    |I5 principales  |4GB  |128GB  |
-|Surface Pro 4    |I5 principales  |8GB  |256GB  |    
+|Surface Pro 4       |I5 principales  |4GB  |128GB  |
+|Surface Pro 4       |I5 principales  |8GB  |256GB  |    
 |Surface Pro (2017)  |I5 principales  |4GB  |128GB  |
 |Surface Pro (2017)  |I5 principales  |8GB  |256GB  |
 |Surface Pro (2017)  |Core i7  |8GB  |128GB  |
-|Surface Pro (2017)  |Core i7  |16GB  |512GB  |
-|Surface Pro (2017) |Core i7  |16GB  |1TB  |
+|Surface Pro (2017)  |Core i7  |16GB |512GB  |
+|Surface Pro (2017)  |Core i7  |16GB |1TB    |
    
 > [!NOTE]
 > No se admiten los procesadores de núcleo M3.
@@ -62,7 +65,7 @@ Sistemas de salón de Skype v2 puede escalar a tamaños de sala diferente a trav
 
  
 **Certificado de las versiones de firmware para periféricos USB de audio y vídeos**
-|**Periféricos v2 de sistemas de salón de Skype**|**Versión de firmware certificada para sistemas de salón de Skype v2**|
+|Periféricos v2 de sistemas de salón de Skype|Versión de firmware certificada para sistemas de salón de Skype v2|
 |:-----|:-----|
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
 |[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |Audio - 1.0.172  <br/> Vídeo - 1.0.156  <br/> |
