@@ -10,12 +10,12 @@ ms.reviewer: laal
 description: Vea un breve resumen sobre cómo se invita a un invitado a que se una a un equipo en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa6efbf95d0f68b6871aa0693a6e6bf1062b9f84
-ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
+ms.openlocfilehash: 8d8853e9b383d90ca2b030edd6f6a9f896a6bed7
+ms.sourcegitcommit: 4660539cf0a6f7fde5de0a68bc4866089962ce80
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2018
-ms.locfileid: "20211055"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22100136"
 ---
 <a name="how-a-guest-joins-a-team"></a>Cómo se une un invitado a un equipo
 ========================
@@ -33,7 +33,7 @@ El propietario de un equipo en Microsoft Teams puede agregar y administrar invit
 
 A continuación se muestra cómo un invitado se puede convertir en miembro de un equipo:
 
-- **Paso 1** El propietario de un equipo o un administrador de Office 365 [agrega un invitado a un equipo](https://support.office.com/article/adds-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_addingguests).
+- **Paso 1** El propietario de un equipo o un administrador de Office 365 [agrega un invitado a un equipo](https://support.office.com/en-us/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
     
   
 - **Paso 2** El propietario del equipo o el administrador de Office 365 puede administrar las funcionalidades de un invitado en la medida que sea necesario. Por ejemplo, puede permitir que un invitado agregue o elimine canales o que deshabilite el acceso a los archivos.
