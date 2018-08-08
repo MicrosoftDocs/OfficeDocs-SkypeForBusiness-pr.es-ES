@@ -1,9 +1,8 @@
 ---
-title: Configurar escape de buzón de voz en Skype Empresarial 2015
+title: Configurar escape de correo de voz de Skype para la empresa
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,39 +12,40 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
-description: 'Resumen: Obtenga información sobre cómo configurar escape de correo de voz de Skype para Business Server 2015 mediante el Skype para Shell de administración de servidor empresarial.'
-ms.openlocfilehash: 2f8cf7549fd91c8153803a42f5dfb3b78a311e56
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Obtenga información sobre cómo configurar escape de correo de voz de Skype para Business Server mediante el Skype para Shell de administración de servidor empresarial.'
+ms.openlocfilehash: 3e8686690634b9571cae963b8ca91d73a6758e26
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568293"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985139"
 ---
-# <a name="configure-voice-mail-escape-in-skype-for-business-2015"></a><span data-ttu-id="cce57-103">Configurar escape de buzón de voz en Skype Empresarial 2015</span><span class="sxs-lookup"><span data-stu-id="cce57-103">Configure voice mail escape in Skype for Business 2015</span></span>
+# <a name="configure-voice-mail-escape-in-skype-for-business"></a><span data-ttu-id="42481-103">Configurar escape de correo de voz de Skype para la empresa</span><span class="sxs-lookup"><span data-stu-id="42481-103">Configure voice mail escape in Skype for Business</span></span>
  
-<span data-ttu-id="cce57-104">**Resumen:** Obtenga información sobre cómo configurar escape de correo de voz de Skype para Business Server 2015 mediante el Skype para Shell de administración de servidor empresarial.</span><span class="sxs-lookup"><span data-stu-id="cce57-104">**Summary:** Learn how to configure voice mail escape in Skype for Business Server 2015 by using the Skype for Business Server Management Shell.</span></span>
+<span data-ttu-id="42481-104">**Resumen:** Obtenga información sobre cómo configurar escape de correo de voz de Skype para Business Server mediante el Skype para Shell de administración de servidor empresarial.</span><span class="sxs-lookup"><span data-stu-id="42481-104">**Summary:** Learn how to configure voice mail escape in Skype for Business Server by using the Skype for Business Server Management Shell.</span></span>
   
-<span data-ttu-id="cce57-105">Cuando un usuario configura las llamadas simultáneas a un teléfono móvil, un autor de la llamada normalmente se enrutan al correo de voz personal del usuario si el teléfono móvil está desactivado, fuera de la energía de la batería o fuera del intervalo.</span><span class="sxs-lookup"><span data-stu-id="cce57-105">When a user configures simultaneous ringing to a mobile phone, a caller will typically be routed to the user's personal voice mail if the mobile phone is turned off, out of battery power, or out of range.</span></span> <span data-ttu-id="cce57-106">Con Skype para Business Server, los usuarios pueden optar por hacer relacionados con el negocio llamadas enrutadas a su sistema de correo de voz corporativo.</span><span class="sxs-lookup"><span data-stu-id="cce57-106">With Skype for Business Server , users can opt to have business-related calls routed to their corporate voice mail system.</span></span> <span data-ttu-id="cce57-107">Específicamente, puede configurarse un temporizador, y si la llamada se ha atendido por correo de voz del proveedor dentro del intervalo de tiempo definido, Skype para Business Server se desconectará del sistema de correo de voz del proveedor (y correo de voz personal del usuario), mientras el usuario los extremos restantes en el sistema corporativo continuarán llamar a.</span><span class="sxs-lookup"><span data-stu-id="cce57-107">Specifically, a timer can be configured, and if the call is answered by the carrier's voice mail within the range of time defined, Skype for Business Server will disconnect from the carrier's voice mail system (and the user's personal voice mail), while the user's remaining endpoints in the corporate system continue to ring.</span></span> <span data-ttu-id="cce57-108">De este modo, el autor de la llamada se enruta automáticamente al correo de voz corporativa del usuario.</span><span class="sxs-lookup"><span data-stu-id="cce57-108">This way, the caller is automatically routed to the user's corporate voice mail.</span></span>
+<span data-ttu-id="42481-105">Cuando un usuario configura las llamadas simultáneas a un teléfono móvil, un autor de la llamada normalmente se enrutan al correo de voz personal del usuario si el teléfono móvil está desactivado, fuera de la energía de la batería o fuera del intervalo.</span><span class="sxs-lookup"><span data-stu-id="42481-105">When a user configures simultaneous ringing to a mobile phone, a caller will typically be routed to the user's personal voice mail if the mobile phone is turned off, out of battery power, or out of range.</span></span> <span data-ttu-id="42481-106">Con Skype para Business Server, los usuarios pueden optar por hacer relacionados con el negocio llamadas enrutadas a su sistema de correo de voz corporativo.</span><span class="sxs-lookup"><span data-stu-id="42481-106">With Skype for Business Server , users can opt to have business-related calls routed to their corporate voice mail system.</span></span> <span data-ttu-id="42481-107">Específicamente, puede configurarse un temporizador, y si la llamada se ha atendido por correo de voz del proveedor dentro del intervalo de tiempo definido, Skype para Business Server se desconectará del sistema de correo de voz del proveedor (y correo de voz personal del usuario), mientras el usuario los extremos restantes en el sistema corporativo continuarán llamar a.</span><span class="sxs-lookup"><span data-stu-id="42481-107">Specifically, a timer can be configured, and if the call is answered by the carrier's voice mail within the range of time defined, Skype for Business Server will disconnect from the carrier's voice mail system (and the user's personal voice mail), while the user's remaining endpoints in the corporate system continue to ring.</span></span> <span data-ttu-id="42481-108">De este modo, el autor de la llamada se enruta automáticamente al correo de voz corporativa del usuario.</span><span class="sxs-lookup"><span data-stu-id="42481-108">This way, the caller is automatically routed to the user's corporate voice mail.</span></span>
   
-<span data-ttu-id="cce57-109">Esta configuración se realiza mediante la Skype para cmdlet del Shell de administración de servidor empresarial, **Set-CsVoicePolicy**, en el nivel de directiva de voz, con los siguientes parámetros.</span><span class="sxs-lookup"><span data-stu-id="cce57-109">This configuration is performed using the Skype for Business Server Management Shell cmdlet, **Set-CsVoicePolicy**, at the voice policy level, with the following parameters.</span></span>
+<span data-ttu-id="42481-109">Esta configuración se realiza mediante la Skype para cmdlet del Shell de administración de servidor empresarial, **Set-CsVoicePolicy**, en el nivel de directiva de voz, con los siguientes parámetros.</span><span class="sxs-lookup"><span data-stu-id="42481-109">This configuration is performed using the Skype for Business Server Management Shell cmdlet, **Set-CsVoicePolicy**, at the voice policy level, with the following parameters.</span></span>
   
-### <a name="to-configure-voice-mail-escape"></a><span data-ttu-id="cce57-110">Para configurar el escape de correo de voz</span><span class="sxs-lookup"><span data-stu-id="cce57-110">To configure voice mail escape</span></span>
+### <a name="to-configure-voice-mail-escape"></a><span data-ttu-id="42481-110">Para configurar el escape de correo de voz</span><span class="sxs-lookup"><span data-stu-id="42481-110">To configure voice mail escape</span></span>
 
-1. <span data-ttu-id="cce57-111">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="cce57-111">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="42481-111">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="42481-111">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="cce57-112">Especifique los siguientes parámetros en **Set-CsVoicePolicy**:</span><span class="sxs-lookup"><span data-stu-id="cce57-112">Specify the following parameters to **Set-CsVoicePolicy**:</span></span>
+2. <span data-ttu-id="42481-112">Especifique los siguientes parámetros en **Set-CsVoicePolicy**:</span><span class="sxs-lookup"><span data-stu-id="42481-112">Specify the following parameters to **Set-CsVoicePolicy**:</span></span>
     
-   - <span data-ttu-id="cce57-113">**EnableVoicemailEscapeTimer**: habilita o deshabilita el temporizador de escape.</span><span class="sxs-lookup"><span data-stu-id="cce57-113">**EnableVoicemailEscapeTimer** - Enables or disables the escape timer.</span></span>
+   - <span data-ttu-id="42481-113">**EnableVoicemailEscapeTimer**: habilita o deshabilita el temporizador de escape.</span><span class="sxs-lookup"><span data-stu-id="42481-113">**EnableVoicemailEscapeTimer** - Enables or disables the escape timer.</span></span>
     
-   - <span data-ttu-id="cce57-p102">**PSTNVoicemailEscapeTimer**: especifica el valor de tiempo de espera en milisegundos. El valor predeterminado es 1500 milisegundos y puede variar de 0 a 8000 milisegundos.</span><span class="sxs-lookup"><span data-stu-id="cce57-p102">**PSTNVoicemailEscapeTimer** - Specifies the timeout value in milliseconds. The default value is 1500 milliseconds, and the value can range from 0 milliseconds to 8000 milliseconds.</span></span>
+   - <span data-ttu-id="42481-p102">**PSTNVoicemailEscapeTimer**: especifica el valor de tiempo de espera en milisegundos. El valor predeterminado es 1500 milisegundos y puede variar de 0 a 8000 milisegundos.</span><span class="sxs-lookup"><span data-stu-id="42481-p102">**PSTNVoicemailEscapeTimer** - Specifies the timeout value in milliseconds. The default value is 1500 milliseconds, and the value can range from 0 milliseconds to 8000 milliseconds.</span></span>
     
-## <a name="example"></a><span data-ttu-id="cce57-116">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="cce57-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="42481-116">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="42481-116">Example</span></span>
 
 ```
 Set-CsVoicePolicy UserVoicePolicy -EnableVoiceMailEscapeTimer $true - PSTNVoicemailEscapeTimer 2000
 Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -PSTNVoicemailEscapeTimer 1500
 ```
 
-## <a name="see-also"></a><span data-ttu-id="cce57-117">Vea también</span><span class="sxs-lookup"><span data-stu-id="cce57-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="42481-117">Vea también</span><span class="sxs-lookup"><span data-stu-id="42481-117">See also</span></span>
 
-[<span data-ttu-id="cce57-118">Configuración de directivas de voz y registros de uso de RTC para autorizar privilegios y características de llamada</span><span class="sxs-lookup"><span data-stu-id="cce57-118">Configuring Voice Policies and PSTN Usage Records to Authorize Calling Features and Privileges</span></span>](http://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
+[<span data-ttu-id="42481-118">Configuración de directivas de voz y registros de uso de RTC para autorizar privilegios y características de llamada</span><span class="sxs-lookup"><span data-stu-id="42481-118">Configuring Voice Policies and PSTN Usage Records to Authorize Calling Features and Privileges</span></span>](http://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
+

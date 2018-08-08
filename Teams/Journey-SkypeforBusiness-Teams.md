@@ -1,53 +1,59 @@
 ---
-title: Recorrido desde Skype Empresarial a Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Skype para la empresa a la actualización de Microsoft Teams
+author: dearbeen
+ms.author: dearbeen
 manager: serdars
-ms.date: 03/02/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: MyAdvisor, dearbeen
-description: Una presentación de todo lo que necesita saber sobre el recorrido a Microsoft Teams desde Skype Empresarial Online.
+ms.reviewer: dearbeen
+description: Usar un marco de trabajo de éxito comprobado para viaje por la actualización de la organización de Skype para la empresa a los equipos
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4341be17cd224e01cc6024d6bf871a6823cdad2
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 1cb5d785df33059fa26c4a081b3ebef70540d65b
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21145287"
 ---
-<a name="journey-from-skype-for-business-to-microsoft-teams"></a><span data-ttu-id="52495-103">Recorrido desde Skype Empresarial a Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="52495-103">Journey from Skype for Business to Microsoft Teams</span></span>
-==================================================
-
-<span data-ttu-id="52495-104">Como parte de [la visión de optimización de las comunicaciones ](https://aka.ms/intelligentcommunicationsblog) que Microsoft tiene para suministrar mejores experiencias de reuniones y llamadas, incorporamos las funcionalidades de Skype Empresarial en Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="52495-104">As part of the Microsoft [intelligent communications vision](https://aka.ms/intelligentcommunicationsblog) to deliver smarter calling and meeting experiences, we’re building Skype for Business capabilities into Teams.</span></span> <span data-ttu-id="52495-105">Este proceso será progresivo, y culminará con la adopción de Microsoft Teams como la única experiencia de cliente.</span><span class="sxs-lookup"><span data-stu-id="52495-105">This will happen over time, and ultimately Teams will become the single client experience.</span></span> <span data-ttu-id="52495-106">Como cliente valorado de Skype Empresarial, Microsoft le ayuda a recorrer cada uno de los pasos del recorrido hasta Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="52495-106">As a valued Skype for Business customer, Microsoft is here to support you every step of the way on your journey to Teams.</span></span> <span data-ttu-id="52495-107">Sabemos que se necesita un cierto tiempo para adaptarse a los cambios, de modo que le animamos a que comience a explorar Microsoft Teams ahora mismo y descubra todo lo que puede aportar a su organización, a la vez que sigue usando Skype Empresarial.</span><span class="sxs-lookup"><span data-stu-id="52495-107">We understand that change takes time, so we invite you to begin exploring Teams today to understand the value it can offer to your organization, while you continue to run Skype for Business.</span></span> 
-
-<span data-ttu-id="52495-108">Visite el [plan de producto de Microsoft Teams](https://aka.ms/TeamsRoadmap) para estar al día de las próximas novedades de la herramienta y para poder decidir cuál es el mejor momento para que su organización empiece a usar Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="52495-108">Visit the [Teams product roadmap](https://aka.ms/TeamsRoadmap) to stay on top of what’s coming next in Teams and decide the best time for your organization to move to Teams.</span></span>
-
-<span data-ttu-id="52495-109">Otra buena manera de mantenerse al corriente de las noticias acerca del recorrido de Skype Empresarial a Teams es el [De Skype Empresarial a Microsoft Teams: mapa de ruta de las opciones](https://aka.ms/skype2teamsroadmap), un PDF descargable (disponible solo en inglés, por el momento) en el que se recogen las expectativas que tiene Microsoft actualmente en torno a qué opciones de Skype Empresarial estarán disponibles en Teams.</span><span class="sxs-lookup"><span data-stu-id="52495-109">Another great way to stay on top of news about the journey from Skype for Business to Teams is the [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) - a downloadable PDF (in English only, at least for now) that gives Microsoft's current expectations about Skype for Business capabilities coming to Teams.</span></span>
-
-<span data-ttu-id="52495-110">Para que los resultados sean los mejores posibles, le recomendamos que siga las directrices para conseguir:</span><span class="sxs-lookup"><span data-stu-id="52495-110">For best results, we recommend that you follow this guidance in order:</span></span>
+# <a name="skype-for-business-to-microsoft-teams-upgrade"></a><span data-ttu-id="16474-103">Skype para la empresa a la actualización de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="16474-103">Skype for Business to Microsoft Teams upgrade</span></span>
 
 
-[<span data-ttu-id="52495-111">1 - Optimizar su entorno actual de Skype Empresarial para Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="52495-111">1 - Optimize your current Skype for Business environment for Teams</span></span>](prepare-teams.md)
+<span data-ttu-id="16474-104">Compatibilidad con la visión de Microsoft communications inteligente, Microsoft Teams es el concentrador central para trabajo en equipo, reunir chat, las reuniones, llamada, colaboración, integración de aplicaciones y almacenamiento de archivos.</span><span class="sxs-lookup"><span data-stu-id="16474-104">Supporting Microsoft’s intelligent communications vision, Microsoft Teams is the central hub for teamwork, bringing together chat, meetings, calling, collaboration, app integration, and file storage.</span></span> <span data-ttu-id="16474-105">Como un Skype existente para cliente comercial, se le invita a actualizar a Microsoft Teams, para disfrutar de este conjunto de aplicaciones completo de las capacidades de comunicación y colaboración en una experiencia de cliente único.</span><span class="sxs-lookup"><span data-stu-id="16474-105">As an existing Skype for Business customer, you’re invited to upgrade to Microsoft Teams, to experience this full suite of communication and collaboration capabilities in a single client experience.</span></span>
 
-[<span data-ttu-id="52495-112">2. Crear un proyecto piloto de Microsoft Teams junto a Skype Empresarial</span><span class="sxs-lookup"><span data-stu-id="52495-112">2 - Pilot Teams alongside Skype for Business</span></span>](pilot-essentials.md)
+<span data-ttu-id="16474-106">Su viaje por la actualización puede tardar algún tiempo y estamos aquí para admitir cada paso de la forma.</span><span class="sxs-lookup"><span data-stu-id="16474-106">Your upgrade journey might take some time, and we’re here to support you every step of the way.</span></span> <span data-ttu-id="16474-107">Si está acaba de empezar con los equipos, ya está usando los equipos junto con Skype para la empresa, o listo para actualizar, trabajamos para incorporar el nivel correcto de instrucciones para la organización y animamos a realizar los siguientes pasos para empezar a darse cuenta de que el los equipos de valor pueden ofrecer a su organización.</span><span class="sxs-lookup"><span data-stu-id="16474-107">Whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade, we’re working hard to bring you the right level of guidance for your organization and encourage you to take the next steps to begin realizing the value Teams can offer your organization.</span></span>
 
-[<span data-ttu-id="52495-113">3 - actualizar viaje y coexistencia de Skype para empresas y equipos</span><span class="sxs-lookup"><span data-stu-id="52495-113">3 - Upgrade journey and coexistence of Skype for Business and Teams</span></span>](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+<span data-ttu-id="16474-108">Ver esta [información general](https://aka.ms/UpgradeOverview) para obtener una introducción a la Skype para la empresa para viaje de actualización de los equipos, incluidos conceptos básicos, framework y las rutas de actualización.</span><span class="sxs-lookup"><span data-stu-id="16474-108">View this [overview](https://aka.ms/UpgradeOverview) for an introduction to the Skype for Business to Teams upgrade journey, including core concepts, framework, and upgrade paths.</span></span>
 
-[<span data-ttu-id="52495-114">4 - Generar valor a través de la adopción de usuarios</span><span class="sxs-lookup"><span data-stu-id="52495-114">4 - Drive value through user adoption</span></span>](continue-journey.md)
+## <a name="upgrade-journey-framework"></a><span data-ttu-id="16474-109">Marco de trabajo de actualización de viaje</span><span class="sxs-lookup"><span data-stu-id="16474-109">Upgrade journey framework</span></span>
+
+<span data-ttu-id="16474-110">Para ayudar a las conjeturas su viaje por la actualización, hemos utilizado un marco de trabajo de éxito comprobado para que manejan el cambio, incorporación de instrucciones, sugerencias y recursos a lo largo.</span><span class="sxs-lookup"><span data-stu-id="16474-110">To help take the guesswork out of your upgrade journey, we’ve employed a proven success framework for driving change, incorporating guidance, tips, and resources throughout.</span></span> <span data-ttu-id="16474-111">Cada paso se basa en la anterior y para obtener resultados óptimos, se recomienda que siga los pasos en orden.</span><span class="sxs-lookup"><span data-stu-id="16474-111">Each step builds on the previous one and for optimal results, we recommend following the steps in order.</span></span>
+
+<span data-ttu-id="16474-112">Tal y como se muestra a continuación, una actualización se realiza correctamente comienza por reunir el equipo de derecho en la región de los participantes del proyecto y, a continuación, mover a la definición del proyecto donde se solidificado el ámbito, las metas y escala de tiempo.</span><span class="sxs-lookup"><span data-stu-id="16474-112">As illustrated below, a successful upgrade begins by bringing the right team together in the Project Stakeholder stage and then moving to Project Definition where the scope, goals, and timeline are solidified.</span></span> <span data-ttu-id="16474-113">Esto ayuda a crear una base sólida para su viaje por la actualización.</span><span class="sxs-lookup"><span data-stu-id="16474-113">This helps create a solid foundation for your upgrade journey.</span></span> <span data-ttu-id="16474-114">Desde allí, es fundamental para preparar para ambos la preparación técnica _y_ preparación del usuario etapas antes de pasar a la implementación y la implementación.</span><span class="sxs-lookup"><span data-stu-id="16474-114">From there, it’s critical to prepare for both the Technical Readiness _and_ User Readiness stages before moving on to Deployment and Implementation.</span></span> <span data-ttu-id="16474-115">Planeación de un proyecto piloto validar preparación antes de una amplia implantación.</span><span class="sxs-lookup"><span data-stu-id="16474-115">Plan for a pilot to validate readiness before a broad rollout.</span></span> <span data-ttu-id="16474-116">Para el máximo beneficio durante la etapa de excelencia operativa, establecer un plan que supervisa para la calidad y acelera la adopción de usuario.</span><span class="sxs-lookup"><span data-stu-id="16474-116">For maximum benefit during the Operational Excellence stage, establish a plan that monitors for quality and accelerates user adoption.</span></span>
+
+> [!Tip]
+> <span data-ttu-id="16474-117">Para ayudarle a navegar por su viaje por la actualización, busque este gráfico en páginas relacionadas para identificar dónde se encuentre en el proceso.</span><span class="sxs-lookup"><span data-stu-id="16474-117">To help you navigate through your upgrade journey, look for this graphic on related pages to identify where you are in the process.</span></span> <span data-ttu-id="16474-118">![Asegúrese de que el proyecto está configurado para el éxito con el equipo del proyecto derecho. Definir el ámbito del proyecto, las metas y escala de tiempo. Confirmar la preparación de técnico y de usuario. Ejecutar el plan de implantación. Mantener momentum para maximizar los resultados.] (media/upgrade-banner-main.png "Asegúrese de que el proyecto está configurado para el éxito con el equipo del proyecto derecho. Definir el ámbito del proyecto, las metas y escala de tiempo. Confirmar la preparación de técnico y de usuario. Ejecutar el plan de implantación. Mantener momentum para maximizar los resultados.")</span><span class="sxs-lookup"><span data-stu-id="16474-118">![Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.](media/upgrade-banner-main.png "Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.")</span></span>
+
+## <a name="to-get-started"></a><span data-ttu-id="16474-119">Para empezar a...</span><span class="sxs-lookup"><span data-stu-id="16474-119">To get started...</span></span>
+
+<span data-ttu-id="16474-120">Sabemos que los clientes no proceden única.</span><span class="sxs-lookup"><span data-stu-id="16474-120">We understand that customers don’t come one-size-fits-all.</span></span> <span data-ttu-id="16474-121">Para una mayor flexibilidad, hemos organizado el marco de trabajo en dos rutas de acceso: actualización básica y actualizar Pro.</span><span class="sxs-lookup"><span data-stu-id="16474-121">For added flexibility, we’ve organized the framework into two paths: Upgrade Basic and Upgrade Pro.</span></span> <span data-ttu-id="16474-122">Elija el viaje que mejor se adapte a las necesidades de su organización.</span><span class="sxs-lookup"><span data-stu-id="16474-122">Choose the journey that best meets your organization’s needs.</span></span>
+
+<span data-ttu-id="16474-123">Seleccione una de las siguientes opciones o explore ambos para determinar la ruta óptima para usted.</span><span class="sxs-lookup"><span data-stu-id="16474-123">Select one of the options below or explore both to determine the optimal path for you.</span></span> <span data-ttu-id="16474-124">Obtener más información que van a visitar en línea con el tiempo, por lo que comprobar hacia atrás, según la organización continúa su viaje a los equipos.</span><span class="sxs-lookup"><span data-stu-id="16474-124">More information will be coming online over time, so check back as your organization continues its journey to Teams.</span></span> <span data-ttu-id="16474-125">Para ayudar a comprender mejor la ruta de actualización y qué orientación adicional puede resultar útil, dedique un momento a <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u" target="_blank">compartir sus comentarios</a>.</span><span class="sxs-lookup"><span data-stu-id="16474-125">To help us better understand your upgrade path and what additional guidance might be helpful, take a moment to <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u" target="_blank">share your feedback</a>.</span></span>
 
 
- 
-### <a name="see-also"></a><span data-ttu-id="52495-115">Vea también</span><span class="sxs-lookup"><span data-stu-id="52495-115">See also</span></span>
-[<span data-ttu-id="52495-116">Tutorial: Recorrido desde Skype Empresarial a Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="52495-116">Tutorial: Journey from Skype for Business to Teams</span></span>](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-
-[<span data-ttu-id="52495-117">Preguntas frecuentes: Skype Empresarial y Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="52495-117">FAQ - Skype for Business & Teams vision</span></span>](FAQ-journey.md)
-
-[<span data-ttu-id="52495-118">Guía básica de equipos de Microsoft</span><span class="sxs-lookup"><span data-stu-id="52495-118">Microsoft Teams Roadmap</span></span>](https://aka.ms/teamsroadmap)
-
-[<span data-ttu-id="52495-119">De Skype Empresarial a Microsoft Teams: mapa de ruta de las opciones</span><span class="sxs-lookup"><span data-stu-id="52495-119">Skype for Business to Microsoft Teams: Capabilities Roadmap</span></span>](https://aka.ms/skype2teamsroadmap)
-
+<div class="mx-tableFixed">
+<table>
+<tbody>
+<tr><td><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/upgrade-basic"><img src="media/upgrade-to-teams-upgrade-basic-icon.png" alt="Designed for smaller organizations or those with simple deployments of Skype for Business (IM only or IM plus basic meeting functionality), the Upgrade Basic checklist steps you through activities designed to quickly move your entire organization to Teams."></a></td>
+<td>
+<a href="https://docs.microsoft.com/en-us/MicrosoftTeams/upgrade-pro"><img src="media/upgrade-to-teams-upgrade-pro-icon.png" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better accommodate the unique attributes of an organization."></a></td></tr>
+</tbody></table>
+</div>
 
 
-
+> [!IMPORTANT]
+> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
