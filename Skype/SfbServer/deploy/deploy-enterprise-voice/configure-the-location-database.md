@@ -1,9 +1,8 @@
 ---
-title: Configurar la base de datos de ubicaciones en Skype Empresarial Server 2015
+title: Configuración de la base de datos de ubicación en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,32 +13,32 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Configurar, rellenar y publicar la base de datos de ubicación de E9-1-1 en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: f07eafbbbfcbb62c7176e35faba48e0d1281ce39
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: bbeb695cea58feae073e5579eacbe3558d632735
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568334"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018878"
 ---
-# <a name="configure-the-location-database-in-skype-for-business-server-2015"></a>Configurar la base de datos de ubicaciones en Skype Empresarial Server 2015
+# <a name="configure-the-location-database-in-skype-for-business-server"></a>Configuración de la base de datos de ubicación en Skype para Business Server
  
 Configurar, rellenar y publicar la base de datos de ubicación de E9-1-1 en Skype para Business Server Enterprise Voice. 
   
 Para habilitar clientes de modo que detecten automáticamente su ubicación dentro de una red, primero tiene que configurar la base de datos de ubicaciones. 
   
-Para configurar la base de datos de ubicación, realice las siguientes tareas:
+Para configurar la base de datos de ubicaciones, deberá realizar las siguientes tareas:
   
 - Llene la base de datos con una búsqueda de elementos de red a las ubicaciones. Si utiliza una puerta de enlace de número de identificación de ubicación de emergencia (ELIN), debe incluir los ELIN en la \<CompanyName\> campo.
     
     Si no rellena la base de datos de ubicaciones y el valor de **Ubicación obligatoria** de la directiva de ubicación se define en **Sí** o **Declinación de responsabilidades**, el cliente indicará al usuario que especifique una ubicación manualmente.
     
-- Validar las direcciones con la Guía de calles maestra (MSAG) mantenida por el proveedor de servicios E9-1-1.
+- Valide las direcciones comparándolas con la Guía de calles maestra (MSAG) mantenida por el proveedor de servicios E9-1-1.
     
 - Publique la base de datos actualizada.
     
 ## <a name="populate-the-location-database"></a>Rellenar la base de datos de ubicación
 
-Para localizar automáticamente los clientes dentro de una red, primero debe rellenar la base de datos de ubicación con un diagrama de cables de red, que se asigna los elementos de la red a postal (es decir, calle) direcciones. Para definir el diagrama de cableado, puede usar subredes, puntos de acceso inalámbrico, conmutadores y puertos.
+Para buscar clientes en una red de manera automática, primero es preciso rellenar la base de datos de ubicaciones con un diagrama de cableado de red, que asigna elementos de red a direcciones postales. Para definir el diagrama de cableado, puede usar subredes, puntos de acceso inalámbrico, conmutadores y puertos.
   
 Puede agregar direcciones a la base de datos de ubicaciones una a una, pero también puede incorporar varias de ellas a la vez mediante un archivo .csv con los formatos de columna que se describen en la tabla siguiente.
   

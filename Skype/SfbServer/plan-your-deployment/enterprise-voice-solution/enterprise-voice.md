@@ -1,9 +1,8 @@
 ---
-title: Planear la Telefonía IP empresarial en Skype Empresarial Server 2015
+title: Planeación de Enterprise Voice en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: Enterprise Voice planeación conceptos básicos en Skype Business Server, incluidos los sitios, áreas, vínculos de red entre sitios y estimar el tráfico de uso de voz.
-ms.openlocfilehash: f1bd8f2f8514f34390cd085bd1407894e9788620
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 413887b29a45ccdf022a4fb4c847cb0b504bb4b1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977944"
 ---
-# <a name="plan-for-enterprise-voice-in-skype-for-business-server-2015"></a>Planear la Telefonía IP empresarial en Skype Empresarial Server 2015
+# <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Planeación de Enterprise Voice en Skype para Business Server
  
 Enterprise Voice planeación conceptos básicos en Skype Business Server, incluidos los sitios, áreas, vínculos de red entre sitios y estimar el tráfico de uso de voz.
   
@@ -54,24 +54,24 @@ Por ejemplo, una organización con 10 000 usuarios y un tráfico medio necesitar
 
 Consulte las siguientes secciones para obtener más información acerca de cómo planear la implementación de Enterprise Voice.
   
-- [Componentes necesarios para Enterprise Voice en Skype para Business Server 2015](components-required-for-enterprise-voice.md)
+- [Componentes necesarios para Enterprise Voice en Skype para Business Server](components-required-for-enterprise-voice.md)
     
-- [Plan para la conectividad de RTC en Skype para Business Server 2015](pstn-connectivity-0.md)
+- [Plan para la conectividad de RTC en Skype para Business Server](pstn-connectivity-0.md)
     
-- [Configuración de red para las características avanzadas de Enterprise Voice en Skype para Business Server 2015](network-settings-for-advanced-features.md)
+- [Configuración de red para las características avanzadas de Enterprise Voice en Skype para Business Server](network-settings-for-advanced-features.md)
     
-- [Planeación de control de admisión de llamadas en Skype para Business Server 2015](call-admission-control.md)
+- [Planeación de control de admisión de llamadas en Skype para Business Server](call-admission-control.md)
     
-- [Planeación de servicios de emergencia en Skype para Business Server 2015](emergency-services.md)
+- [Planeación de servicios de emergencia en Skype para Business Server](emergency-services.md)
     
-- [Planeación de desvío de medios en Skype para profesionales de 2015](media-bypass.md)
+- [Planear el desvío de medios en Skype para la empresa](media-bypass.md)
     
-- [Planeación de líneas de teléfono privadas con Skype para profesionales de 2015](private-telephone-lines.md)
+- [Planeación de líneas de teléfono privadas con Skype para la empresa](private-telephone-lines.md)
     
-- [Planeación de enrutamiento basado en ubicación de Skype para profesionales de 2015](location-based-routing.md)
+- [Plan para basados en ubicación enrutamiento en Skype para la empresa](location-based-routing.md)
     
-- [Planeación de características de administración de llamadas de Skype para profesionales de 2015](call-management-features.md)
+- [Planeación de características de administración de llamadas de Skype para la empresa](call-management-features.md)
     
-- [Plan para la resistencia de Enterprise Voice en Skype para Business Server 2015](enterprise-voice-resiliency.md)
+- [Plan para la resistencia de Enterprise Voice en Skype para Business Server](enterprise-voice-resiliency.md)
     
 

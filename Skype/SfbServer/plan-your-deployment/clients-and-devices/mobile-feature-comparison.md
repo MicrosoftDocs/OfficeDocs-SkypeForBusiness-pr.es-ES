@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
-description: 'Resumen: Revise la compatibilidad con la característica para el cliente móvil durante la planeación de Skype para Business Server 2015.'
-ms.openlocfilehash: b4e7e0bd186a3622c8f6fdf671799efdd8ab792d
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Resumen: Revise la compatibilidad con la característica para el cliente móvil durante la planeación de Skype para Business Server.'
+ms.openlocfilehash: f773062744afeb97ddcd4f5e92b37ac534f05828
+ms.sourcegitcommit: 3d7b62f24db33f9685d8dc08561394c434705a88
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504302"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21223809"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Comparación de características de cliente móvil de Skype para la empresa
  
-**Resumen:** Revise la compatibilidad con la característica para el cliente móvil durante la planeación de Skype para Business Server 2015.
+**Resumen:** Revise la compatibilidad con la característica para el cliente móvil durante la planeación de Skype para Business Server.
   
 En este artículo se comparan las características y la funcionalidad entre Skype para clientes móviles de negocio y la Skype para el cliente de escritorio de negocio en las siguientes categorías:
   
@@ -47,13 +47,16 @@ En este artículo se comparan las características y la funcionalidad entre Skyp
     
 -  Autenticación moderna
     
-En las tablas siguientes se enumeran las características que están disponibles para Skype para los usuarios de negocio en una implementación local de Skype para Business Server 2015. Las mismas características también están disponibles para Skype para los usuarios en línea de negocio y de Microsoft Office 365, a menos que se indique lo contrario en las notas al pie de tabla.
+En las tablas siguientes se enumeran las características que están disponibles para Skype para los usuarios de negocio en una implementación local de Skype para Business Server. Las mismas características también están disponibles para Skype para los usuarios en línea de negocio y de Microsoft Office 365, a menos que se indique lo contrario en las notas al pie de tabla.
   
 > [!NOTE]
 > Para obtener ayuda en pantalla y recursos para los usuarios finales, vea [Detectar Skype para la empresa](https://go.microsoft.com/fwlink/p/?LinkId=528686). 
   
 > [!NOTE]
 > Para comparar las características disponibles en otro Skype para clientes empresariales, vea [comparación de características de cliente de escritorio de Skype para la empresa](desktop-feature-comparison.md). 
+
+> [!NOTE]
+> Compatibilidad con MCX (servicio de movilidad) para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Todos los Skype actual para los clientes móviles de negocio ya usa la API de Web de comunicaciones unificadas (UCWA) para admitir la mensajería instantánea (IM), presencia y contactos. Los usuarios con los clientes heredados con MCX necesitará actualizar a un cliente actual.
   
 ## <a name="sign-in-push-notifications-and-general-features"></a>Inicio de sesión, notificaciones de inserción y características generales
 
@@ -97,7 +100,7 @@ En dispositivos iOS, Skype para la empresa cierra la sesión automáticamente de
 ## <a name="contacts-and-contact-groups-support"></a>Compatibilidad con contactos y grupos de contactos
 
 
- | Característica/función  | Skype para el cliente de escritorio empresarial Lync 2013  | Windows Phone  | iOS  | Android |
+ | Característica/función  | Skype para el cliente de escritorio empresarial  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Ver lista de contactos  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Ver grupos de contactos  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
@@ -192,7 +195,7 @@ En dispositivos iOS, Skype para la empresa cierra la sesión automáticamente de
 |Obtener acceso a correo de voz  <br/> |& #x 2714;|& #x 2714;|& #x 2714;||
 |Usar el teclado en Skype para la empresa  <br/> |& #x 2714; & #x 2776; |& #x 2714;|& #x 2714;||
    
- & #x 2776;  Disponible para Skype para los usuarios empresariales Online o Office 365 E5, y los usuarios alojados en Skype para Business Server 2015 o Lync 2013 con Enterprise Voice está habilitado.
+ & #x 2776;  Disponible para Skype para los usuarios empresariales Online o Office 365 E5, y los usuarios alojados en Skype para Business Server o Lync Server 2013 con Enterprise Voice está habilitado.
   
  & #x 2777;  Para Skype para los usuarios empresariales Online y Office 365, esta característica es compatible con los socios de Microsoft.
   

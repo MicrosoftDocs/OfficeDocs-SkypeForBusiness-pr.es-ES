@@ -1,9 +1,8 @@
 ---
-title: Implementar Sistemas de salas de Skype v2 con Skype Empresarial Server 2015
+title: Implementación de salón de Skype v2 de sistemas con Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/18/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,15 +11,15 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
-description: Lea este tema para obtener información acerca de cómo implementar sistemas de salón de Skype v2 con Skype para Business Server 2015.
-ms.openlocfilehash: da5d0319e3dd582d6f446471424814ece3a9d178
-ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
+description: Lea este tema para obtener información acerca de cómo implementar sistemas de salón de Skype v2 con Skype para Business Server.
+ms.openlocfilehash: a1d46012979cd908a00113c4573133da63e844ba
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19887830"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20976831"
 ---
-# <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a>Implementar Sistemas de salas de Skype v2 con Skype Empresarial Server 2015
+# <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>Implementación de salón de Skype v2 de sistemas con Skype para Business Server
   
 En este tema se explica cómo agregar una cuenta de dispositivo para sistemas de salón de Skype v2 cuando tiene una implementación de bosque único, local.
   
@@ -28,9 +27,9 @@ Si tiene un solo bosque, implementación de local con Exchange 2013 SP1 o poster
 
 La forma más sencilla de configurar las cuentas de usuario es configurarlas mediante Windows PowerShell remoto. Microsoft proporciona [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), una secuencia de comandos que le ayudarán a crear nuevas cuentas de usuario o validar cuentas de recursos existentes que tienen con el fin de ayudarle a convertirlas en cuentas de usuario de v2 de Skype salón sistemas compatibles. Si lo prefiere, puede seguir los pasos siguientes para configurar las cuentas que se va a usar el dispositivo v2 de sistemas de salón de Skype.
   
-## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a>Implementar Sistemas de salas de Skype v2 con Skype Empresarial Server 2015
+## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>Implementación de salón de Skype v2 de sistemas con Skype para Business Server
 
-Antes de implementar sistemas de salón de Skype v2 con Skype Business Server 2015, asegúrese de que cumplen los requisitos. Para obtener más información, vea [requisitos de sistemas de salón de Skype v2](../../plan-your-deployment/clients-and-devices/requirements.md).
+Antes de implementar sistemas de salón de Skype v2 con Skype Business Server, debe asegurarse de que cumplen los requisitos. Para obtener más información, vea [requisitos de sistemas de salón de Skype v2](../../plan-your-deployment/clients-and-devices/requirements.md).
   
 Antes de comenzar a implementar sistemas de salón de Skype v2, asegúrese de que tiene los permisos adecuados para ejecutar los cmdlets de asociados.
   
@@ -48,7 +47,7 @@ Antes de comenzar a implementar sistemas de salón de Skype v2, asegúrese de qu
  
    ```
 
-   Tenga en cuenta que $strExchangeServer es el nombre de dominio completo (FQDN) del servidor de Exchange, y $strLyncFQDN es el FQDN de su Skype para la implementación empresarial Server 2015.
+   Tenga en cuenta que $strExchangeServer es el nombre de dominio completo (FQDN) del servidor de Exchange, y $strLyncFQDN es el FQDN de su Skype para la implementación de Business Server.
     
 2. Después de establecer una sesión, podrá crear un nuevo buzón y habilitar como un RoomMailboxAccount o cambiar la configuración de un buzón de sala existente. Esto le permitirá la cuenta autenticar a los sistemas de salón de Skype v2.
     
@@ -86,7 +85,7 @@ Antes de comenzar a implementar sistemas de salón de Skype v2, asegúrese de qu
    Set-AdUser $acctUpn -Enabled $true
    ```
 
-6. Habilitar la cuenta del dispositivo con Skype para Business Server 2015 mediante la habilitación de la cuenta de Active Directory v2 de sistemas de salón de Skype en un Skype para el grupo de servidores de Business Server 2015:
+6. Habilitar la cuenta del dispositivo con Skype para Business Server mediante la habilitación de la cuenta de Active Directory v2 sistemas de salón de Skype en un Skype para grupo de servidores de negocio:
     
    ```
    Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com 
@@ -106,7 +105,7 @@ Antes de comenzar a implementar sistemas de salón de Skype v2, asegúrese de qu
 
    De nuevo, tendrá que reemplazar el controlador de dominio y los números de teléfono que se han proporcionado como ejemplo con su propia información. El valor de parámetro $true no se modifica.
     
-## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-2015-on-premises"></a>Ejemplo: sala cuenta el programa de instalación de Exchange y de Skype para Business Server 2015 local
+## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>Ejemplo: sala cuenta el programa de instalación de Exchange y de Skype para Business Server local
 
 ```
 New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force) 
@@ -126,10 +125,10 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 
 [Configurar cuentas para sistemas de salón de Skype v2](room-systems-v2-configure-accounts.md)
 
-[Planeación de la sala de Skype v2 de sistemas](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan para Sistemas de salas de Skype v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Implementación de salón de Skype v2 de sistemas](room-systems-v2.md)
+[Implementar Sistemas de salas de Skype v2](room-systems-v2.md)
   
-[Configurar una consola de v2 de sistemas de salón de Skype](console.md)
+[Configurar una consola de Sistemas de salas de Skype v2](console.md)
   
-[Administración de salón de Skype v2 de sistemas](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Administrar Sistemas de salas de Skype v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

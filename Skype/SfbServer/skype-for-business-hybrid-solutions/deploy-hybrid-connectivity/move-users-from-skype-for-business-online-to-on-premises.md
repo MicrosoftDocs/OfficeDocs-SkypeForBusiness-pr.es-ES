@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 description: 'Resumen: Obtenga información sobre cómo mover las cuentas de usuario de en línea para localmente en Skype para Business Server.'
-ms.openlocfilehash: 7e0400a0a77a50253e6932c8255c64eb58574229
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 098dc36e6551839d599042993b156073197753ec
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569480"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025684"
 ---
 # <a name="move-users-from-skype-for-business-online-to-on-premises"></a>Mover usuarios de Skype para empresarial en línea para local
  
@@ -70,9 +70,7 @@ Antes de empezar a mover usuarios en línea a su entorno local, compruebe que se
   Import-PSSession $CSSession -AllowClobber
   ```
 
-    Para obtener más información acerca de cómo establecer una sesión remota de PowerShell con Skype para profesionales en línea, consulte [Connecting to Lync Online por Using Windows PowerShell](http://technet.microsoft.com/library/6167dad9-9628-4fdb-bed1-bdb3f7108e64.aspx).
-    
-    Para obtener más información acerca del uso de la Skype para el módulo de PowerShell de conector en línea de negocio, vea [Using Windows PowerShell para administrar Lync Online](http://technet.microsoft.com/library/9ef2d853-10fb-4e02-a552-dcf6818d7153.aspx).
+    Para obtener más información acerca del uso de PowerShell con Skype para profesionales en línea, vea [Configurar el equipo de Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 - El inquilino online debe configurarse para un espacio de direcciones SIP compartido. Para ello, inicie primero una sesión remota de Powershell con Skype para profesionales en línea. Luego, ejecute el cmdlet siguiente:
     
@@ -101,7 +99,7 @@ Una vez que haya terminado de estos pasos, puede migrar las cuentas de usuario t
 
 2. Confirme que en los servidores perimetrales local, tiene la cadena de certificados que permite la conexión a Skype para en línea de negocio, tal como se muestra en la siguiente tabla. Puede descargar esta cadena aquí: [https://corp.sts.microsoft.com/Onboard/ADFS_Onboarding_Pack/corp_sts_certs.zip](https://corp.sts.microsoft.com/Onboard/ADFS_Onboarding_Pack/corp_sts_certs.zip).
     
-|**Certificado**|**Almacén de certificados**|
+|**Certificado**|**Almacén de certificado**|
 |:-----|:-----|
 |Baltimore CyberTrust Root  <br/> |CA raíz de confianza  <br/> |
 |Microsoft Internet Authority (nuevo certificado CA)  <br/> |CA intermedia  <br/> |
@@ -131,9 +129,9 @@ Una vez que haya terminado de estos pasos, puede migrar las cuentas de usuario t
     
   - Actualice el registro A **lyncdiscover.contoso.com** para que apunte al FQDN del servidor proxy inverso local.
     
-  - Actualización de la ** *_sip* . _tls.contoso.com** SRV se registre para resolver a la dirección IP o la dirección VIP pública del servicio de servidor perimetral de acceso de Lync local.
+  - Actualización de la ** *_sip* . _tls.contoso.com** registro SRV para resolver en la dirección IP o la dirección VIP pública del servicio de servidor perimetral de acceso de Lync local.
     
-  - Actualización de la ** *_sipfederationtls* . SRV _tcp.contoso.com** registrar para resolver a la dirección IP o la dirección VIP pública del servicio de servidor perimetral de acceso de Skype para Business Server 2015 local.
+  - Actualización de la ** *_sipfederationtls* . _tcp.contoso.com** registro SRV para resolver en la dirección IP o la dirección VIP pública del servicio de servidor perimetral de acceso de Skype para Business Server 2015 local.
     
   - Si su organización utiliza divididas de DNS (a veces denominado "split-brain DNS"), asegúrese de que se dirigen a los usuarios resolución de nombres a través de la zona DNS interna para el grupo de servidores Front-End.
     
@@ -189,7 +187,7 @@ Una vez que haya terminado de estos pasos, puede migrar las cuentas de usuario t
   Get-CsUser | fl DisplayName,HostingProvider,SipAddress,Enabled
   ```
 
-|**Atributo de Active Directory**|**Nombre de atributo**|**Valor correcto para el usuario en línea**|**Valor correcto para los usuarios locales**|
+|**Atributo de Active Directory**|**Nombre del atributo**|**Valor correcto para el usuario en línea**|**Valor correcto para los usuarios locales**|
 |:-----|:-----|:-----|:-----|
 |msRTCSIP-DeploymentLocator  <br/> |HostingProvider  <br/> |sipfed.Online.Lync.com  <br/> |SRV:  <br/> |
 |msRTCSIP-PrimaryUserAddress  <br/> |Dirección SIP  <br/> |SIP:username@contoso.com  <br/> |SIP:username@contoso.com  <br/> |

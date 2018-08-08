@@ -1,9 +1,8 @@
 ---
-title: Habilitar usuarios para E9-1-1 en Skype Empresarial Server 2015
+title: Habilitar a usuarios para E9-1-1 en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,17 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3cc64f5b-492e-4c47-9713-3c376f2aad02
 description: Decisiones necesarias para la directiva de ubicación para una implementación de E9-1-1 en Skype para Business Server Enterprise Voice, incluido qué usuarios para habilitar y cómo admitir usuarios móviles.
-ms.openlocfilehash: 72a2a290a846ec39b13f51a16ea231249ea11b9b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: c5dbbc7904313ffc1706615f2aec506032e20074
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997197"
 ---
-# <a name="enable-users-for-e9-1-1-in-skype-for-business-server-2015"></a>Habilitar usuarios para E9-1-1 en Skype Empresarial Server 2015
+# <a name="enable-users-for-e9-1-1-in-skype-for-business-server"></a>Habilitar a usuarios para E9-1-1 en Skype para Business Server
  
 Decisiones necesarias para la directiva de ubicación para una implementación de E9-1-1 en Skype para Business Server Enterprise Voice, incluido qué usuarios para habilitar y cómo admitir usuarios móviles.
   
-Durante el registro de cliente, Skype para Business Server usa una directiva de ubicación para configurar las propiedades de E9-1-1 para los usuarios habilitados para Enterprise Voice. Esta directiva contiene la configuración que define cómo se implementa E9-1-1. Por ejemplo, la directiva de ubicación contiene información como la emergencia cadena de marcado y, si un usuario es necesario escribir manualmente una ubicación si el servicio de información de ubicación no automáticamente proporcionar uno. Para ver una definición completa de una directiva de ubicación, vea [Planear las directivas de ubicación para Skype para Business Server 2015](location-policies.md).
+Durante el registro de cliente, Skype para Business Server usa una directiva de ubicación para configurar las propiedades de E9-1-1 para los usuarios habilitados para Enterprise Voice. Esta directiva contiene la configuración que define cómo se implementa E9-1-1. Por ejemplo, la directiva de ubicación contiene información como la emergencia cadena de marcado y, si un usuario es necesario escribir manualmente una ubicación si el servicio de información de ubicación no automáticamente proporcionar uno. Para ver una definición completa de una directiva de ubicación, vea [Planear las directivas de ubicación para Skype para Business Server](location-policies.md).
   
 Skype para Business Server puede asignar una directiva de ubicación a los clientes en función de la subred, o a los usuarios en función de un global por sitio o directiva por usuario. Para ayudarte a decidir cómo habilitarás los usuarios, necesitas responder primero las siguientes preguntas.
   
@@ -38,6 +38,6 @@ Skype para Business Server puede asignar una directiva de ubicación a los clien
     
  **Cuando los clientes se desplazan fuera de la red o se encuentran en una subred no definida en la red, ¿tienen los clientes que seguir habilitados en E9-1-1?**
   
-> Si los usuarios tienen asignada una global, de sitio, o directiva de ubicación por usuario, pueden ser necesarios para especificar manualmente una ubicación en el cliente si el cliente no se encuentra dentro de una subred definida o se ha encontrado ninguna ubicación mediante el servicio de información de ubicación. Para obtener más información, consulte [definir la experiencia del usuario para adquirir manualmente una ubicación en Skype para Business Server 2015](manually-acquiring-a-location.md).
+> Si los usuarios tienen asignada una global, de sitio, o directiva de ubicación por usuario, pueden ser necesarios para especificar manualmente una ubicación en el cliente si el cliente no se encuentra dentro de una subred definida o se ha encontrado ninguna ubicación mediante el servicio de información de ubicación. Para obtener más información, consulte [definir la experiencia del usuario para adquirir manualmente una ubicación en Skype para Business Server](manually-acquiring-a-location.md).
     
 

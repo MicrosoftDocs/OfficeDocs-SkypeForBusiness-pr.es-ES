@@ -1,29 +1,31 @@
 ---
-title: Plantillas de correo electrónico del adopción usuario para Microsoft Teams o Skype para implementaciones empresariales
+title: Plantillas de correo electrónico del adopción usuario para Microsoft Teams o Skype para implementaciones de negocio
 author: dearbeen
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Utilizar plantillas para enviar correos electrónicos a los usuarios cuando implemente capacidades de voz de nube en equipos o Skype para el negocio.
+description: Usar plantillas para enviar mensajes de correo electrónico a los usuarios cuando implemente las funciones de voz de la nube en los equipos o Skype para la empresa.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e3ba28ef4e2e8eca93a7c1b8b11d25ea898f39b
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 22ef253084427e4eb5a61505726a3dccf5f4fbb5
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694829"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Facilitar la adopción de usuario de su nuevo sistema de teléfono en línea
 
-Un teléfono puede ser una línea de vida de un usuario. Cambiar de un sistema de teléfono tradicional a un teléfono en línea sistema representa un importante cambiar del modo en que trabajan los usuarios, puede afectar negativamente a la productividad. Dedicar tiempo a informar, guía y usuarios a través de este cambio pueden ayudar a garantizar una experiencia de usuario positiva y maximizar su retorno de la inversión.
+Un teléfono puede ser una línea de vida de un usuario. Cambiar de un sistema telefónico tradicional a un teléfono en línea del sistema representa un importante cambiar de la manera en que los usuarios trabajan, puede afectar negativamente a la productividad. Dedicar tiempo a informar a guía y soporte técnico a los usuarios a través de este cambio pueden ayudar a garantizar una experiencia de usuario positivo y maximizar el retorno de la inversión.
 
-Este artículo contiene plantillas de correo electrónico personalizable para ayudar a informar a los usuarios acerca de su nuevo sistema de teléfono. Personalizar y enviar los mensajes adecuados para alinearse con la implementación de voz específico. Hemos utilizado entre corchetes para indicar las secciones de personalización fácil, pero se recomienda que agregue una organización específica de mensajería para hacer el anuncio más relevante para los usuarios. Si es aplicable para la implementación, reemplace todas las referencias a los "Equipos" con "Skype para el negocio".
+Este artículo contiene las plantillas de correo electrónico personalizable para ayudar a informar a los usuarios acerca de su nuevo sistema de teléfono. Personalizar y enviar los correos electrónicos adecuados para alinear con la implementación de voz específico. Hemos utilizado entre corchetes para indicar las secciones para la personalización fácil, pero se recomienda que agregue específicos de la organización de mensajería para hacer que el anuncio más relevantes para los usuarios. Si es aplicable para la implementación, reemplace todas las referencias a "Equipos" por "Skype para la empresa".
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a>Número 1 correo electrónico: enviar tres semanas antes de su lanzamiento
+## <a name="email-number-1-send-three-weeks-before-launch"></a>Número 1 de correo electrónico: enviar tres semanas antes del lanzamiento
 
 Línea de asunto:
 
@@ -88,7 +90,7 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a>Número 2 correo electrónico: enviar una semana antes de su lanzamiento
+## <a name="email-number-2-send-one-week-before-launch"></a>Número 2 de correo electrónico: enviar una semana antes del lanzamiento
 
 Línea de asunto:
 
@@ -132,7 +134,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a>Correo electrónico número 3: enviar el día del lanzamiento
+## <a name="email-number-3-send-on-launch-day"></a>Correo electrónico número 3: enviar día del lanzamiento
 
 Línea de asunto:
 
@@ -169,7 +171,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a>Número 4 correo electrónico: enviar dos semanas después del lanzamiento
+## <a name="email-number-4-send-two-weeks-after-launch"></a>Número 4 de correo electrónico: enviar dos semanas después del lanzamiento
 
 Línea de asunto:
 

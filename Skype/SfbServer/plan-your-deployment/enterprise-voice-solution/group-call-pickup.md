@@ -1,9 +1,8 @@
 ---
-title: Planificar la atención de llamadas grupales en Skype Empresarial 2015
+title: Plan de respuesta de llamadas en grupo en Skype para la empresa
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: Planeación de recogida de llamadas de grupo en Skype para Business Server Enterprise Voice, que permite a los usuarios atender las llamadas originalmente destinadas a otras personas.
-ms.openlocfilehash: 6a2fde93d6fcbfa4e2b382f3512d65a8d986a8ba
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 17c3d453fa54ea72c02c022d33b0b2f1c61e8b0b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016201"
 ---
-# <a name="plan-for-group-call-pickup-in-skype-for-business-2015"></a>Planificar la atención de llamadas grupales en Skype Empresarial 2015
+# <a name="plan-for-group-call-pickup-in-skype-for-business"></a>Plan de respuesta de llamadas en grupo en Skype para la empresa
  
 Planeación de recogida de llamadas de grupo en Skype para Business Server Enterprise Voice, que permite a los usuarios atender las llamadas originalmente destinadas a otras personas.
   

@@ -1,9 +1,8 @@
 ---
-title: Componentes necesarios de la Telefonía IP empresarial en Skype Empresarial Server 2015
+title: Componentes necesarios para Enterprise Voice en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,23 +13,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ee219976-c39a-4b2f-988d-886c339700f7
 description: Un resumen de los componentes de Enterprise Voice de Skype para Business Server.
-ms.openlocfilehash: 4f28b0dc42b9a64cae7883490a7e9f5e09dd8d80
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 800a12b2d83703f188fff04452cf865757d5cad9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20970482"
 ---
-# <a name="components-required-for-enterprise-voice-in-skype-for-business-server-2015"></a>Componentes necesarios de la Telefonía IP empresarial en Skype Empresarial Server 2015
+# <a name="components-required-for-enterprise-voice-in-skype-for-business-server"></a>Componentes necesarios para Enterprise Voice en Skype para Business Server
  
 Un resumen de los componentes de Enterprise Voice de Skype para Business Server.
   
 Para implementar Enterprise Voice, se requieren los siguientes componentes en su topología. 
   
-- Uno o varios servidores de mediación, que traduce señalización y, en algunas configuraciones, medios entre su Skype interno para Business Server, la infraestructura de Enterprise Voice y una puerta de enlace de telefónica conmutada (RTC) o un protocolo de inicio de sesión Tronco (SIP). Los servidores de mediación son el componente más importante en la implementación de Enterprise Voice. Para obtener más información, vea [componentes de servidor de mediación en Skype para Business Server 2015](mediation-server.md).
+- Uno o varios servidores de mediación, que traduce señalización y, en algunas configuraciones, medios entre su Skype interno para Business Server, la infraestructura de Enterprise Voice y una puerta de enlace de telefónica conmutada (RTC) o un protocolo de inicio de sesión Tronco (SIP). Los servidores de mediación son el componente más importante en la implementación de Enterprise Voice. Para obtener más información, vea [componentes de servidor de mediación en Skype para Business Server](mediation-server.md).
     
     Los servidores de mediación se pueden combinar con los servidores Front-End o instalados como servidores independientes.
     
-- Componentes de conectividad con RTC, que pueden incluir troncos SIP o puertas de enlace RTC. Para obtener más información, vea [componentes de conectividad de RTC en Skype para Business Server 2015](pstn-connectivity.md).
+- Componentes de conectividad con RTC, que pueden incluir troncos SIP o puertas de enlace RTC. Para obtener más información, vea [componentes de conectividad de RTC en Skype para Business Server](pstn-connectivity.md).
     
 - Los servidores perimetrales, lo que permite que el uso de las características de Enterprise Voice por los usuarios cuando se encuentran fuera del firewall de la organización. 
     
@@ -38,6 +38,6 @@ Para implementar Enterprise Voice, se requieren los siguientes componentes en su
     
     El servicio de autenticación A/V se combina con el servicio perimetral A/V y le proporciona servicios de autenticación. Los usuarios externos que intenten conectarse al servicio perimetral A/V necesitarán un token de autenticación proporcionado por el servicio de autenticación A/V para que sus llamadas se acepten.
     
-- Además, algunos componentes de Enterprise Voice se ejecutan en servidores Front-End. Para obtener información detallada acerca de estos componentes, vea [componentes de Front-End Server VoIP para Skype para Business Server 2015](front-end-server-voip.md)
+- Además, algunos componentes de Enterprise Voice se ejecutan en servidores Front-End. Para obtener información detallada acerca de estos componentes, vea [componentes de Front-End Server VoIP para Skype para Business Server](front-end-server-voip.md)
     
 

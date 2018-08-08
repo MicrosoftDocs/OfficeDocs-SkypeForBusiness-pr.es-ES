@@ -1,9 +1,8 @@
 ---
-title: Crear o modificar una ruta de voz en Skype Empresarial 2015
+title: Crear o modificar una ruta de voz de Skype para la empresa
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
-description: 'Resumen: Obtenga información sobre cómo crear o modificar una ruta de voz de Skype para Business Server 2015 mediante el Skype para el Panel de Control de servidor empresarial.'
-ms.openlocfilehash: 7c1bd9e118d95e89111225e49d2e07e921d8f33c
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Resumen: Obtenga información sobre cómo crear o modificar una ruta de voz de Skype para Business Server mediante el Skype para el Panel de Control de servidor empresarial.'
+ms.openlocfilehash: 3704e973e392337700effc0d4c3278656f706d73
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500936"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013206"
 ---
-# <a name="create-or-modify-a-voice-route-in-skype-for-business-2015"></a>Crear o modificar una ruta de voz en Skype Empresarial 2015
+# <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Crear o modificar una ruta de voz de Skype para la empresa
  
-**Resumen:** Obtenga información sobre cómo crear o modificar una ruta de voz de Skype para Business Server 2015 mediante el uso de la Skype para el Panel de Control de servidor empresarial.
+**Resumen:** Obtenga información sobre cómo crear o modificar una ruta de voz de Skype para Business Server mediante el uso de la Skype para el Panel de Control de servidor empresarial.
   
 ### <a name="to-create-a-voice-route-by-using-the-skype-for-business-server-control-panel"></a>Para crear una ruta de voz mediante el Skype para el Panel de Control de servidor empresarial
 
@@ -58,7 +57,7 @@ ms.locfileid: "19500936"
 11. Para asociar uno o más registros de uso de la red de telefonía conmutada (RTC) con la ruta de voz, haga clic en **Seleccionar** y elija un registro en la lista de registros de uso de RTC que se hayan definido para la implementación de Telefonía IP empresarial.
     
     > [!NOTE]
-    > Para ver las propiedades de cada uno de los registros de uso de RTC disponibles, vea [los registros de uso de RTC de vista en Skype para profesionales de 2015](view-pstn-usage-records.md). > Para crear o editar registros de uso de RTC, consulte [crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para profesionales de 2015](voice-policy-and-pstn-usage-records.md)
+    > Para ver las propiedades de cada uno de los registros de uso de RTC disponibles, vea [los registros de uso de RTC de vista en Skype para la empresa](view-pstn-usage-records.md). > Para crear o editar registros de uso de RTC, consulte [crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para la empresa](voice-policy-and-pstn-usage-records.md)
   
 12. Organice los registros de uso de RTC para lograr un rendimiento óptimo. Para cambiar la posición de un registro en la lista, resalte el nombre de registro y haga clic en arriba o flecha abajo.
     
@@ -70,7 +69,7 @@ ms.locfileid: "19500936"
 14. Haga clic en **Aceptar** para guardar la ruta de voz.
     
     > [!IMPORTANT]
-    > Al crear una ruta de voz, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, consulte [Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para profesionales de 2015](voice-route-config-changes.md). 
+    > Al crear una ruta de voz, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, consulte [Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para la empresa](voice-route-config-changes.md). 
   
 ### <a name="to-modify-a-voice-route"></a>Para modificar una ruta de voz
 
@@ -105,7 +104,7 @@ ms.locfileid: "19500936"
 9. Para asociar uno o varios usos de RTC con la ruta de voz, haga clic en **Seleccionar** y elija un registro de la lista de registros de uso de RTC que se han definido para la implementación de Enterprise Voice.
     
     > [!NOTE]
-    > Para ver las propiedades de cada uno de los registros de uso de RTC disponibles, vea [los registros de uso de RTC de vista en Skype para profesionales de 2015](view-pstn-usage-records.md). > Para crear o editar registros de uso de RTC, consulte [crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para profesionales de 2015](voice-policy-and-pstn-usage-records.md). 
+    > Para ver las propiedades de cada uno de los registros de uso de RTC disponibles, vea [los registros de uso de RTC de vista en Skype para la empresa](view-pstn-usage-records.md). > Para crear o editar registros de uso de RTC, consulte [crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para la empresa](voice-policy-and-pstn-usage-records.md). 
   
 10. Organice los registros de uso de RTC para lograr un rendimiento óptimo. Para cambiar la posición de un registro en la lista, resalte el nombre de registro y haga clic en arriba o flecha abajo.
     
@@ -119,12 +118,13 @@ ms.locfileid: "19500936"
 13. En la página **Ruta**, haga clic en **Confirmar** y, a continuación, en **Confirmar todo**. 
     
     > [!NOTE]
-    > Al crear o modificar una ruta de voz, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, consulte [publicar los cambios en la configuración de enrutamiento de voz en Skype para profesionales de 2015 pendientes](voice-route-config-changes.md) en la documentación sobre operaciones.
+    > Al crear o modificar una ruta de voz, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, consulte [Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para la empresa](voice-route-config-changes.md) en la documentación sobre operaciones.
   
 ## <a name="see-also"></a>Vea también
 
-[Ver registros de uso de RTC de Skype para profesionales de 2015](view-pstn-usage-records.md)
+[Ver registros de uso de RTC de Skype para la empresa](view-pstn-usage-records.md)
   
-[Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para profesionales de 2015](voice-policy-and-pstn-usage-records.md)
+[Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para la empresa](voice-policy-and-pstn-usage-records.md)
   
-[Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para profesionales de 2015](voice-route-config-changes.md)
+[Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para la empresa](voice-route-config-changes.md)
+

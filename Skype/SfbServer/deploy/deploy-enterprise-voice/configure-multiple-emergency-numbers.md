@@ -1,9 +1,8 @@
 ---
-title: Configurar varios números de emergencia en Skype Empresarial 2015
+title: Configurar varios números de emergencias en Skype para la empresa
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 4/21/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,19 +11,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
-description: Lea este tema para obtener información sobre cómo configurar varios números de emergencia en Skype Empresarial Server 2015.
-ms.openlocfilehash: 176233639a6ca935165e4640471377cc012db103
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: Lea este tema para aprender a configurar varios números de emergencias en Skype para Business Server.
+ms.openlocfilehash: 01dc72e2d165ff3c4076aa4180768ca941607b93
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568238"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985426"
 ---
-# <a name="configure-multiple-emergency-numbers-in-skype-for-business-2015"></a>Configurar varios números de emergencia en Skype Empresarial 2015
+# <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>Configurar varios números de emergencias en Skype para la empresa
  
-Lea este tema para obtener información sobre cómo configurar varios números de emergencia en Skype Empresarial Server 2015.
+Lea este tema para aprender a configurar varios números de emergencias en Skype para Business Server.
   
-Skype para Business Server ahora admite varios números de emergencias para un cliente. Varios números de emergencia es una característica nueva que se introdujo en el de 2016 junio actualización acumulativa. Antes de configurar su entorno para que admita varios números de emergencias, asegúrese de leer [planeación para varios números de emergencias en Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md).
+Skype para Business Server ahora admite varios números de emergencias para un cliente. Varios números de emergencia es una característica nueva que se introdujo en el de 2016 junio actualización acumulativa. Antes de configurar su entorno para que admita varios números de emergencias, asegúrese de leer [planeación para varios números de emergencias en Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md).
   
 > [!NOTE]
 > Si aún no ha actualizado a la noviembre de 2016 actualización acumulativa, vea [actualizaciones de Skype para Business Server 2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015). Con la noviembre de 2016 actualización acumulativa, el número de números de emergencia de soporte aumenta comprendido entre 5 a 100. 

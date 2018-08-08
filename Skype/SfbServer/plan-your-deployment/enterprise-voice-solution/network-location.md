@@ -1,9 +1,8 @@
 ---
-title: Definir los elementos de red que se usan para determinar la ubicación en Skype Empresarial Server 2015
+title: Definir los elementos de red que se utiliza para determinar la ubicación de Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: Decisiones necesarias para planear qué componentes de red que va a usar para asignar los autores de llamadas a las ubicaciones para la implementación de E9-1-1 en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: ddf769a6389b7affcabacd936dba6e560d4a887c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2ccbb6ece628748fca0e5e8e679eb4511db37c6e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004457"
 ---
-# <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server-2015"></a>Definir los elementos de red que se usan para determinar la ubicación en Skype Empresarial Server 2015
+# <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>Definir los elementos de red que se utiliza para determinar la ubicación de Skype para Business Server
  
 Decisiones necesarias para planear qué componentes de red que va a usar para asignar los autores de llamadas a las ubicaciones para la implementación de E9-1-1 en Skype para Business Server Enterprise Voice.
   

@@ -3,7 +3,6 @@ title: Planificar IPv6 en Skype Empresarial
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
-description: 'Resumen: Implementar IPv6 antes de instalar Skype para Business Server 2015.'
-ms.openlocfilehash: 20a1e711d5a9a3a195d9b89328b3c2903d13988c
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Resumen: Implementar IPv6 antes de instalar Skype para Business Server.'
+ms.openlocfilehash: 6bd33522492edb68ba3e0a6873e81afee59216d8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504225"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968141"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Planificar IPv6 en Skype Empresarial
  
-**Resumen:** Implementar IPv6 antes de instalar Skype para Business Server 2015.
+**Resumen:** Implementar IPv6 antes de instalar Skype para Business Server.
   
 Skype para Business Server incluye compatibilidad con IP versión 6 (IPv6) direcciones, junto con el soporte técnico continuado de IP versión 4 (IPv4) direcciones. 
 
@@ -60,7 +59,7 @@ En las secciones siguientes se describen la compatibilidad entre estas tres conf
 ### <a name="client-registration"></a>Registro de clientes
 <a name="client"> </a>
 
-|**Red de extremo de cliente**|**Red de servidor**|
+|**Red de extremo de cliente**|**Red del servidor**|
 |:-----|:-----|
 |IPv4  <br/> |IPv4  <br/> |
 |IPv4  <br/> |Pila dual  <br/> |
@@ -88,7 +87,7 @@ Las comunicaciones de punto a punto incluyen audio, audio y vídeo, uso comparti
 
 Las conferencias incluyen audio y vídeo, uso compartido de aplicaciones y aplicaciones de colaboración de datos (pizarra y uso compartido de archivos).
   
-|**Red de extremo de cliente**|**Red de servidor**|
+|**Red de extremo de cliente**|**Red del servidor**|
 |:-----|:-----|
 |IPv4  <br/> |IPv4  <br/> |
 |IPv4  <br/> |Pila dual  <br/> |
@@ -103,7 +102,7 @@ Las conferencias incluyen audio y vídeo, uso compartido de aplicaciones y aplic
 
 Skype para Business Server no admite el desvío de medios para las llamadas de telefónica conmutada (RTC) de la red si el tráfico a través de una interfaz de IPv6. Si se requiere la omisión de medios, recomendamos que la puerta de enlace RTC se configure con IPv4. 
   
-|**Interfaz principal 1**|**Interfaz de RTC (en el servidor de mediación)**|**Configuración de puerta de enlace de RTC**|
+|**Interfaz principal 1**|**Interfaz RTC (en el servidor de mediación)**|**Configuración de la puerta de enlace RTC**|
 |:-----|:-----|:-----|
 |IPv4  <br/> |Pila dual  <br/> |IPv4  <br/> |
 |Pila dual  <br/> |Pila dual  <br/> |IPv4  <br/> |
@@ -129,7 +128,7 @@ Las comunicaciones de punto a punto con usuarios remotos incluyen mensajería in
 
 En la siguiente tabla se muestra la matriz de compatibilidad entre el grupo de servidor Front-End y el grupo de servidores perimetrales interno.
   
-**Grupo de servidores Front-End y matriz de (perímetro interno) del grupo de servidores perimetrales**
+**Matriz del grupo de servidores front-end y del grupo de servidores perimetrales (perímetro interno)**
 
 ||**Grupo de servidores perimetrales: IPv4** <br/> |**Grupo de servidores perimetrales: pila dual** <br/> |**Grupo de servidores perimetrales: IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
@@ -141,7 +140,7 @@ En la siguiente tabla se muestra la matriz de compatibilidad entre el grupo de s
   
 La tabla siguiente es una matriz de combinaciones admitidas de las interfaces perimetrales interna y externa.
   
-**Matriz (perímetro externo) del grupo de servidores de grupo de servidores perimetrales (perímetro interno) y borde**
+**Matriz del grupo de servidores perimetrales (perímetro interno) y del grupo de servidores perimetrales (perímetro externo)**
 
 ||**Grupo de servidores perimetrales (perímetro externo): IPv4** <br/> |**Grupo de servidores perimetrales (perímetro externo): pila dual** <br/> |**Grupo de servidores perimetrales (perímetro externo): IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
@@ -204,7 +203,7 @@ Se admiten los siguientes escenarios durante la migración y coexistencia:
 ## <a name="see-also"></a>Vea también
 <a name="migration"> </a>
 
-[Configurar tipos de direcciones IP en Skype para la empresa](ip-address-types.md)
+[Configurar tipos de dirección IP en Skype Empresarial](ip-address-types.md)
 
 [Arquitectura de direccionamiento de IP versión 6](https://tools.ietf.org/html/rfc4291)
   

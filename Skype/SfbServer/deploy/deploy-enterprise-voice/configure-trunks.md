@@ -1,9 +1,8 @@
 ---
-title: Configurar troncos en Skype Empresarial Server 2015
+title: Configuración de troncos en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
-description: 'Resumen: Obtenga información sobre cómo configurar un tronco entre un servidor de mediación y a los compañeros para Enterprise Voice en Skype para Business Server 2015.'
-ms.openlocfilehash: 4944cac2b06d837facf0cf014fb3a4fd32343305
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumen: Obtenga información sobre cómo configurar un tronco entre un servidor de mediación y a los compañeros para Enterprise Voice en Skype para Business Server.'
+ms.openlocfilehash: 7d40201cbf2305f464f66ead66ae3a8e7126ca03
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992395"
 ---
-# <a name="configure-trunks-in-skype-for-business-server-2015"></a>Configurar troncos en Skype Empresarial Server 2015
+# <a name="configure-trunks-in-skype-for-business-server"></a>Configuración de troncos en Skype para Business Server
  
-**Resumen:** Obtenga información sobre cómo configurar un tronco entre un servidor de mediación y a los compañeros para Enterprise Voice en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo configurar un tronco entre un servidor de mediación y a los compañeros para Enterprise Voice en Skype para Business Server.
   
 Como parte de la implementación de Enterprise Voice, puede configurar un tronco entre un servidor de mediación y uno o varios de los siguientes elementos del mismo nivel para proporcionar conectividad de telefónica conmutada (RTC) de la red de clientes de Enterprise Voice y dispositivos en su organización:
   
@@ -32,7 +32,7 @@ Como parte de la implementación de Enterprise Voice, puede configurar un tronco
     
 - Central de conmutación (PBX)
     
-Para obtener más información, consulte [Plan para la conectividad de RTC en Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
+Para obtener más información, consulte [Plan para la conectividad de RTC en Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
   
 Skype para la funcionalidad de Business Server admite varias asociaciones entre los servidores de mediación y puertas de enlace. Estas asociaciones se realizan mediante la definición de un tronco, que es una asociación lógica entre un grupo de servidores de mediación y una telefónica conmutada (RTC) de red puerta de enlace, controlador de borde de sesión (SBC) o IP-PBX. Use el generador de topología para asociar las puertas de enlace con los servidores de mediación (es decir, troncos).
   

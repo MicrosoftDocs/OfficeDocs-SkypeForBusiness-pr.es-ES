@@ -1,5 +1,5 @@
 ---
-title: Comparación de características de cliente de escritorio de Skype para la empresa
+title: Comparación de características de cliente de escritorio de Skype para Business Server 2015
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -14,19 +14,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumen: Skype para Business Server 2015 o Skype para los administradores en línea de negocio puede usar estas tablas para comprender qué características son compatibles con los clientes que.'
-ms.openlocfilehash: 867586ffd901baf4bc0c9dfe7fe880811cf4042d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2a65dcf1825bac80cc002962ce589e851ea2d3b3
+ms.sourcegitcommit: 3d7b62f24db33f9685d8dc08561394c434705a88
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21223927"
 ---
-# <a name="desktop-client-feature-comparison-for-skype-for-business"></a>Comparación de características de cliente de escritorio de Skype para la empresa
+# <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparación de características de cliente de escritorio de Skype para Business Server 2015
  
 **Resumen:** Skype para Business Server 2015 o Skype para los administradores de negocios en línea puede usar estas tablas para comprender qué características son compatibles con los clientes que.
   
  Antes de implementar o actualizar a Skype para la empresa, compruebe que los clientes que ya están en uso en la organización. Use las tablas siguientes para comprender el impacto de compatibilidad con la característica en esos clientes. Esto puede ayudarle a comunicar los cambios a los usuarios, decidir el ritmo del proceso de lanzamiento y conocer en profundidad las ventajas que tiene actualizar al cliente más reciente.
   
 Algunas de las características disponibles con Skype para Business Server 2015 no están disponibles en Skype para profesionales en línea, vea [limitaciones de cuenta de usuario en línea o híbrida](desktop-feature-comparison.md#Online-Hybrid) para obtener detalles específicos. Skype para los administradores en línea de negocio que desee hacer referencia a [Skype para la descripción de servicio en línea de negocio](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) para obtener información sobre los diferentes planes disponibles para ellos.
+
+Consulte la [comparación de características de cliente de escritorio de Skype para 2019 empresarial](../../../SfBServer2019/plan/feature-comparison.md) para cliente de soporte en Skype para Business Server 2019.
   
 Las siguientes tablas muestran las características que están disponibles con cada cliente que funciona con Skype para Business Server 2015 o Skype para profesionales en línea. También es posible que desee hacer referencia a la [comparación de características de cliente móvil de Skype para la empresa](mobile-feature-comparison.md) para Smartphone y tableta comparaciones de características de cliente. La licencia de acceso de cliente o la licencia de suscripción de usuario que adquiera su organización también influirá en qué características están disponibles para sus usuarios. La decisión de implementar el cliente completo o el básico en los usuarios depende de la licencia o el plan que su organización decida comprar. Consulte la [Guía de licencias](https://products.office.com/en-us/skype-for-business/it-pros) para obtener más detalles.
   
@@ -92,9 +95,9 @@ En esta tabla se presentan las características relacionadas con la compatibilid
 |Registrar las conversaciones de mensajería instantánea en Outlook  <br/> |& #x 2714;|& #x 2714; si está activado el historial de conversación del lado servidor  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||Se guardan en Communicator para Mac  <br/> |Se guardan en Skype Empresarial Mac  <br/> |
 |Usar las plantillas de conversación preparadas  <br/> |||||& #x 2714;|& #x 2714;||||
 |Revisar la ortografía  <br/> |& #x 2714;|& #x 2714;||& #x 2714;|||||& #x 2714;|
-|Búsqueda de aptitudes (con integración de SharePoint Server)  <br/> (Son necesarios para la búsqueda de aptitudes local Skype para Business Server y local SharePoint 2013).  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||||
+|Búsqueda de aptitudes (con integración con SharePoint Server)   <br/> (Son necesarios para la búsqueda de aptitudes local Skype para Business Server y local SharePoint 2013).  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||||
 |Integración de sistemas de chat en grupo o chat persistente  <br/> (no disponible para Skype para profesionales en línea)  <br/> |& #x 2714;||& #x 2714;|||||||
-|Pasar de un salón de Chat persistente a un Skype para la reunión de negocios con un solo clic  <br/> (no disponible para Skype para profesionales en línea)  <br/> |& #x 2714;||& #x 2714;|||||||
+|Escalar un salón de chat persistente a una reunión de Skype Empresarial con un solo clic   <br/> (no disponible para Skype para profesionales en línea)  <br/> |& #x 2714;||& #x 2714;|||||||
 |Imágenes entre líneas del remitente y el destinatario en la ventana de mensajería instantánea  <br/> |& #x 2714;||& #x 2714;|& #x 2714;||||||
 |Enviar mensajes de lápiz  <br/> ||||& #x 2714;||||||
 |Recibir mensajes de lápiz  <br/> |& #x 2714;||& #x 2714;|& #x 2714;||||||
@@ -222,6 +225,7 @@ Autenticación moderna también requiere una topología que se describen en [Sky
 |Autenticación moderna  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|||||||
 |Autenticación multifactor  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|||||||
 |Autenticación basada en certificados  <br/> |& #x 2714; (sólo dispositivo unido a un dominio)  <br/> |& #x 2714;|& #x 2714; (sólo dispositivo unido a un dominio)  <br/> |||||||
+|Autenticación Kerberos  <br/> |& #x 2714;||& #x 2714;|||||||
    
 ## <a name="archiving-compliance-and-logging-support"></a>Compatibilidad con archivado, cumplimiento y registro
 <a name="BKMK_Archiving"> </a>
@@ -282,5 +286,6 @@ Las cuentas de usuario pueden existir en línea o en local, y esto puede influir
 ## <a name="see-also"></a>Vea también
 <a name="Types"> </a>
 
-[Plan para clientes y dispositivos](clients-and-devices.md)
+[Planificar los clientes y los dispositivos](clients-and-devices.md)
 
+[Actualizaciones más recientes para las versiones de Skype para la empresa que usan Windows Installer (MSI)](../../sfb-client-updates.md)

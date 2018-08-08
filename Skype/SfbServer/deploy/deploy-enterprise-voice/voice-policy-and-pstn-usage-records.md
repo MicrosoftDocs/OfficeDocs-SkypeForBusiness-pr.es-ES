@@ -1,9 +1,8 @@
 ---
-title: Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype Empresarial 2015
+title: Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para la empresa
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,19 +13,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Resumen: Crear o modificar directivas de voz y configurar registros de uso de RTC mediante la Skype para el Panel de Control de servidor empresarial.'
-ms.openlocfilehash: 69904c28d8121cd8416b547e17fcad866260a319
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 04cfca012490174bfefaa39c4456041ee294385c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501052"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965474"
 ---
-# <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business-2015"></a>Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype Empresarial 2015
+# <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para la empresa
  
 **Resumen:** Crear o modificar directivas de voz y configurar registros de uso de RTC mediante la Skype para el Panel de Control de servidor empresarial.
   
 > [!NOTE]
-> Cada directiva de voz debe tener al menos un registro de uso de RTC asociado. Para ver una lista de todos los registros de uso de RTC disponibles en su implementación de Enterprise Voice y ver sus propiedades, vea [los registros de uso de RTC de vista en Skype para profesionales de 2015](view-pstn-usage-records.md). 
+> Cada directiva de voz debe tener al menos un registro de uso de RTC asociado. Para ver una lista de todos los registros de uso de RTC disponibles en su implementación de Enterprise Voice y ver sus propiedades, vea [los registros de uso de RTC de vista en Skype para la empresa](view-pstn-usage-records.md). 
   
 ### <a name="to-create-a-voice-policy"></a>Para crear una directiva de voz
 
@@ -98,7 +97,7 @@ ms.locfileid: "19501052"
     
    - Para quitar una ruta del registro de uso de RTC, resalte la ruta y después haga clic en **Quitar**.
     
-   - Para definir una nueva ruta y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener información detallada, vea [crear o modificar una ruta de voz de Skype para profesionales de 2015](create-or-modify-a-voice-route.md).
+   - Para definir una nueva ruta y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener información detallada, vea [crear o modificar una ruta de voz de Skype para la empresa](create-or-modify-a-voice-route.md).
     
    - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**. 
     
@@ -114,7 +113,7 @@ ms.locfileid: "19501052"
     
    - Para quitar una ruta de este registro de uso de RTC, resalte la ruta y después haga clic en **Quitar**.
     
-   - Para definir una nueva ruta y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener información detallada, vea [crear o modificar una ruta de voz de Skype para profesionales de 2015](create-or-modify-a-voice-route.md).
+   - Para definir una nueva ruta y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener información detallada, vea [crear o modificar una ruta de voz de Skype para la empresa](create-or-modify-a-voice-route.md).
     
    - Para editar una ruta que ya está asociada a este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**. 
     
@@ -152,7 +151,7 @@ ms.locfileid: "19501052"
     
    - Para quitar una ruta del registro de uso de RTC, resalte la ruta y haga clic en **Quitar**.
     
-   - Para definir una nueva ruta y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener información detallada, vea [crear o modificar una ruta de voz de Skype para profesionales de 2015](create-or-modify-a-voice-route.md).
+   - Para definir una nueva ruta y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener información detallada, vea [crear o modificar una ruta de voz de Skype para la empresa](create-or-modify-a-voice-route.md).
     
    - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**. 
     
@@ -168,7 +167,7 @@ ms.locfileid: "19501052"
     
    - Para quitar una ruta de este registro de uso de RTC, resalte la ruta y haga clic en **Quitar**.
     
-   - Para definir una nueva ruta y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener información detallada, vea [crear o modificar una ruta de voz de Skype para profesionales de 2015](create-or-modify-a-voice-route.md).
+   - Para definir una nueva ruta y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener información detallada, vea [crear o modificar una ruta de voz de Skype para la empresa](create-or-modify-a-voice-route.md).
     
    - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**. 
     
@@ -181,9 +180,9 @@ ms.locfileid: "19501052"
 12. En la página **Directiva de voz**, haga clic en **Confirmar** y después en **Confirmar todo**. 
     
     > [!NOTE]
-    > Siempre que cree o modifique una directiva de voz, ejecute el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, consulte [publicar los cambios en la configuración de enrutamiento de voz en Skype para profesionales de 2015 pendientes](voice-route-config-changes.md) en la documentación sobre operaciones.
+    > Siempre que cree o modifique una directiva de voz, ejecute el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, consulte [Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para la empresa](voice-route-config-changes.md) en la documentación sobre operaciones.
   
-13. (Opcional) Correo de voz Escape detecta que una llamada se respondió inmediatamente por correo de voz de teléfono móvil del usuario y desconecta de la llamada al correo de voz de teléfono móvil. Esto permite la llamada pasar a llamar en el usuario de otros extremos dar al usuario la oportunidad de responder a la llamada. Para obtener información detallada acerca de cómo configurar una directiva de correo de voz, vea [Configure escape de correo de voz en Skype para profesionales de 2015](configure-voice-mail-escape.md).
+13. (Opcional) Correo de voz Escape detecta que una llamada se respondió inmediatamente por correo de voz de teléfono móvil del usuario y desconecta de la llamada al correo de voz de teléfono móvil. Esto permite la llamada pasar a llamar en el usuario de otros extremos dar al usuario la oportunidad de responder a la llamada. Para obtener información detallada acerca de cómo configurar una directiva de correo de voz, vea [Configure escape de correo de voz de Skype para la empresa](configure-voice-mail-escape.md).
     
 ### <a name="to-modify-a-voice-policy"></a>Para modificar una directiva de voz
 
@@ -247,7 +246,7 @@ ms.locfileid: "19501052"
     
    - Para quitar una ruta del registro de uso de RTC, resalte la ruta y haga clic en **Quitar**.
     
-   - Para definir una nueva ruta y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener información detallada, vea [crear o modificar una ruta de voz de Skype para profesionales de 2015](create-or-modify-a-voice-route.md).
+   - Para definir una nueva ruta y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener información detallada, vea [crear o modificar una ruta de voz de Skype para la empresa](create-or-modify-a-voice-route.md).
     
    - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**. 
     
@@ -263,7 +262,7 @@ ms.locfileid: "19501052"
     
    - Para quitar una ruta de este registro de uso de RTC, resalte la ruta y haga clic en **Quitar**.
     
-   - Para definir una nueva ruta y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener información detallada, vea [crear o modificar una ruta de voz de Skype para profesionales de 2015](create-or-modify-a-voice-route.md).
+   - Para definir una nueva ruta y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener información detallada, vea [crear o modificar una ruta de voz de Skype para la empresa](create-or-modify-a-voice-route.md).
     
    - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**. 
     
@@ -301,7 +300,7 @@ ms.locfileid: "19501052"
     
    - Para quitar una ruta del registro de uso de RTC, resalte la ruta y haga clic en **Quitar**.
     
-   - Para definir una nueva ruta y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener información detallada, vea [crear o modificar una ruta de voz de Skype para profesionales de 2015](create-or-modify-a-voice-route.md).
+   - Para definir una nueva ruta y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener información detallada, vea [crear o modificar una ruta de voz de Skype para la empresa](create-or-modify-a-voice-route.md).
     
    - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**. Para obtener información detallada, vea [modificar una ruta de voz](http://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
     
@@ -317,7 +316,7 @@ ms.locfileid: "19501052"
     
      - Para quitar una ruta de este registro de uso de RTC, resalte la ruta y haga clic en **Quitar**.
     
-     - Para definir una nueva ruta y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener información detallada, vea [crear o modificar una ruta de voz de Skype para profesionales de 2015](create-or-modify-a-voice-route.md).
+     - Para definir una nueva ruta y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener información detallada, vea [crear o modificar una ruta de voz de Skype para la empresa](create-or-modify-a-voice-route.md).
     
      - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**. Para obtener información detallada, vea [modificar una ruta de voz](http://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
     
@@ -330,16 +329,17 @@ ms.locfileid: "19501052"
 11. En la página **Directiva de voz**, haga clic en **Confirmar** y después en **Confirmar todo**. 
     
     > [!NOTE]
-    > Al crear o modifica runa directiva de voz, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, consulte [publicar los cambios en la configuración de enrutamiento de voz en Skype para profesionales de 2015 pendientes](voice-route-config-changes.md) en la documentación sobre operaciones.
+    > Al crear o modifica runa directiva de voz, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, consulte [Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para la empresa](voice-route-config-changes.md) en la documentación sobre operaciones.
   
-12. (Opcional) Correo de voz Escape detecta que una llamada se respondió inmediatamente por correo de voz de teléfono móvil del usuario y desconecta de la llamada al correo de voz de teléfono móvil. Esto permite la llamada pasar a llamar en el usuario de otros extremos dar al usuario la oportunidad de responder a la llamada. Para obtener información detallada sobre cómo configurar una directiva de correo de voz, vea [Configure escape de correo de voz en Skype para profesionales de 2015](configure-voice-mail-escape.md).
+12. (Opcional) Correo de voz Escape detecta que una llamada se respondió inmediatamente por correo de voz de teléfono móvil del usuario y desconecta de la llamada al correo de voz de teléfono móvil. Esto permite la llamada pasar a llamar en el usuario de otros extremos dar al usuario la oportunidad de responder a la llamada. Para obtener información detallada sobre cómo configurar una directiva de correo de voz, vea [Configure escape de correo de voz de Skype para la empresa](configure-voice-mail-escape.md).
     
 ## <a name="see-also"></a>Vea también
 
-[Ver registros de uso de RTC de Skype para profesionales de 2015](view-pstn-usage-records.md)
+[Ver registros de uso de RTC de Skype para la empresa](view-pstn-usage-records.md)
   
-[Crear o modificar una ruta de voz de Skype para profesionales de 2015](create-or-modify-a-voice-route.md)
+[Crear o modificar una ruta de voz de Skype para la empresa](create-or-modify-a-voice-route.md)
   
-[Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para profesionales de 2015](voice-route-config-changes.md)
+[Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para la empresa](voice-route-config-changes.md)
   
-[Configurar escape de correo de voz de Skype para profesionales de 2015](configure-voice-mail-escape.md)
+[Configurar escape de correo de voz de Skype para la empresa](configure-voice-mail-escape.md)
+

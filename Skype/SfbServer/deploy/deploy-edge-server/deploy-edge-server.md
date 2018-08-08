@@ -1,9 +1,8 @@
 ---
-title: Implementar el servidor perimetral en Skype Empresarial Server 2015
+title: Implemente el servidor perimetral en Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,37 +11,38 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
-description: 'Resumen: Obtenga información sobre cómo implementar un servidor perimetral o un grupo de servidores perimetrales en su Skype para entorno empresarial Server 2015.'
-ms.openlocfilehash: 571d8001b70f8b4f03d96042683da1bfae7fdd2d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumen: Obtenga información sobre cómo implementar un servidor perimetral o un grupo de servidores perimetrales en su Skype para el entorno de servidor empresarial.'
+ms.openlocfilehash: cf379e9586b093c6aa5b09121edbc90990417de6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015165"
 ---
-# <a name="deploy-edge-server-in-skype-for-business-server-2015"></a>Implementar el servidor perimetral en Skype Empresarial Server 2015
+# <a name="deploy-edge-server-in-skype-for-business-server"></a>Implemente el servidor perimetral en Skype para Business Server
  
-**Resumen:** Obtenga información sobre cómo implementar un servidor perimetral o un grupo de servidores perimetrales en su Skype para entorno empresarial Server 2015.
+**Resumen:** Obtenga información sobre cómo implementar un servidor perimetral o un grupo de servidores perimetrales en su Skype para el entorno de servidor empresarial.
   
-¿Razones para implementar un servidor perimetral o un grupo de servidores perimetrales en su Skype para Business Server 2015 entorno? Es necesario si necesita que usuarios externos que no hayan iniciado sesión en la red interna de las organizaciones puedan interactuar con los usuarios internos. Estos usuarios externos podrían ser usuarios remotos anónimos y autenticados, socios federados u otros clientes móviles.
+¿Razones para implementar un servidor perimetral o un grupo de servidores perimetrales en su Skype para el entorno de servidor empresarial? Es necesario si necesita que usuarios externos que no hayan iniciado sesión en la red interna de las organizaciones puedan interactuar con los usuarios internos. Estos usuarios externos podrían ser usuarios remotos anónimos y autenticados, socios federados u otros clientes móviles.
   
-## <a name="deployment-checklist-for-the-edge-for-skype-for-business-server-2015"></a>Lista de comprobación de implementación para el borde de Skype para Business Server 2015
+## <a name="deployment-checklist-for-the-edge-for-skype-for-business-server"></a>Lista de comprobación de implementación para el borde de Skype para Business Server
 
-Como se mencionó anteriormente, un lote se coloca en una implementación de servidor perimetral de Skype para Business Server 2015. Esta lista de comprobación le ofrece una visión general de las tareas que necesitará para hacer y vínculos a los pasos más detallados.
+Como se mencionó anteriormente, un lote se coloca en una implementación de servidor perimetral de Skype para Business Server. Esta lista de comprobación le ofrece una visión general de las tareas que necesitará para hacer y vínculos a los pasos más detallados.
   
-Esperamos que ha comenzado a en la sección de [planeación para las implementaciones de servidor perimetral de Skype para Business Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) . Si no es así, muchas de las cosas a las que nos referimos se detallan allí. La sección de implementación contiene solo los procedimientos, por lo que si desea conocer la lógica que impera en estos pasos, la planificación es el lugar en el que empezar.
+Esperamos que ha comenzado a en la sección de [planeación para las implementaciones de servidor perimetral de Skype para Business Server](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) . Si no es así, muchas de las cosas a las que nos referimos se detallan allí. La sección de implementación contiene solo los procedimientos, por lo que si desea conocer la lógica que impera en estos pasos, la planificación es el lugar en el que empezar.
   
-Esta documentación también se presupone que también ha realizado la implementación básica de Skype para Business Server 2015. Pueden realizar esa implementación en paralelo con el borde, pero debe seguir estos pasos en primer lugar y, a continuación, podrá realizar los cambios de topología para el borde que se documentan aquí.
+Esta documentación también da por supuesto que ha hecho también la implementación básica de Skype para Business Server. Pueden realizar esa implementación en paralelo con el borde, pero debe seguir estos pasos en primer lugar y, a continuación, podrá realizar los cambios de topología para el borde que se documentan aquí.
   
 Estos son los pasos de alto nivel que tendrá que seguir y los lugares en los que encontrará estos pasos:
   
-- [Requisitos de sistema del servidor perimetral en Skype para Business Server 2015](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
+- [Requisitos del sistema del servidor de bordes en Skype para Business Server](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
     
-- [Medio ambiente requisitos del servidor perimetral en Skype para Business Server 2015](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)
+- [Borde de requisitos de entorno de servidor en Skype para Business Server](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)
     
-- [Creación de la topología perimetral para Skype para Business Server 2015](create-your-edge-topology.md)
+- [Creación de la topología perimetral para Skype para Business Server](create-your-edge-topology.md)
     
-- [Implemente servidores perimetrales en Skype para Business Server 2015](deploy-edge-servers.md)
+- [Implemente servidores perimetrales en Skype para Business Server](deploy-edge-servers.md)
     
-- [Validar la implementación perimetral en Skype para Business Server 2015](validate-edge-deployment.md)
+- [Validar la implementación perimetral en Skype para Business Server](validate-edge-deployment.md)
     
 

@@ -1,9 +1,8 @@
 ---
-title: Crear directivas de ubicación en Skype Empresarial Server 2015
+title: Crear directivas de ubicación en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,29 +13,29 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: Lea este tema para aprender a configurar las directivas de ubicación de servicio de emergencia (E9-1-1) de Skype mejorado en Business Server Enterprise Voice.
-ms.openlocfilehash: 6687e5ac8d414ef9db49c2fccdde9dceedb93889
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 525c0a1a7a22a31e129c50ebebd68483a31cb87c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568300"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987267"
 ---
-# <a name="create-location-policies-in-skype-for-business-server-2015"></a>Crear directivas de ubicación en Skype Empresarial Server 2015
+# <a name="create-location-policies-in-skype-for-business-server"></a>Crear directivas de ubicación en Skype para Business Server
  
 Lea este tema para aprender a configurar las directivas de ubicación de servicio de emergencia (E9-1-1) de Skype mejorado en Business Server Enterprise Voice. 
   
-Skype para Business Server usa una directiva de ubicación para habilitar Skype para clientes empresariales para E9-1-1 durante el registro de cliente. Una directiva de ubicación contiene la configuración que define cómo se implementará E9-1-1. Para obtener más información, vea [Planear las directivas de ubicación para Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/location-policies.md).
+Skype para Business Server usa una directiva de ubicación para habilitar Skype para clientes empresariales para E9-1-1 durante el registro de cliente. Una directiva de ubicación contiene la configuración que define cómo se implementará E9-1-1. Para obtener más información, vea [Planear las directivas de ubicación para Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md).
   
 Definir las directivas de ubicación mediante el Skype para el Panel de Control o mediante el cmdlet [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) .
   
 > [!NOTE]
-> Skype para Business Server ahora admite la configuración de varios números de emergencias para un cliente. Si desea configurar varios números de emergencias, debe seguir la información de [planeación para varios números de emergencias en Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md) y [configurar varios números de emergencias en Skype para profesionales de 2015](configure-multiple-emergency-numbers.md). 
+> Skype para Business Server ahora admite la configuración de varios números de emergencias para un cliente. Si desea configurar varios números de emergencias, debe seguir la información de [planeación para varios números de emergencias en Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md) y [configurar varios números de emergencias en Skype para la empresa](configure-multiple-emergency-numbers.md). 
   
 La directiva de ubicación global puede editarse y crear otras directivas de ubicación con etiqueta. Un cliente obtiene una directiva global si no se ubica en una subred que tenga asociada una directiva de ubicación o, bien, si el cliente no tiene asignada directamente una directiva de ubicación. Las directivas con etiquetas se asignan a subredes o usuarios.   
   
 Para crear una directiva de ubicación, debe usar una cuenta que pertenezca al grupo RTCUniversalServerAdmins, o bien que tenga el rol administrativo CsVoiceAdministrator o derechos y permisos de administrador equivalentes.
   
-Para obtener más información, vea [Planear las directivas de ubicación para Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/location-policies.md). Los cmdlets de este procedimiento usan una directiva de ubicación definida mediante los siguientes valores. Para obtener una descripción completa de los parámetros de cmdlet y los valores, vea [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps).
+Para obtener más información, vea [Planear las directivas de ubicación para Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md). Los cmdlets de este procedimiento usan una directiva de ubicación definida mediante los siguientes valores. Para obtener una descripción completa de los parámetros de cmdlet y los valores, vea [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps).
   
 |**Elemento**|**Valor**|
 |:-----|:-----|

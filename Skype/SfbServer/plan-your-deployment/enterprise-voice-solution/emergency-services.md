@@ -1,9 +1,8 @@
 ---
-title: Planeación de servicios de emergencia en Skype para Business Server 2015
+title: Planeación de servicios de emergencia en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,23 +13,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: Obtenga información acerca de los servicios Enhanced 9-1-1 (E9-1-1) en Skype para Business Server Enterprise Voice, incluidas la adquisición de ubicación y enrutamiento de llamadas.
-ms.openlocfilehash: 7a4c03da5a7e138e68495c3bacd473f9ea073178
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f32a8dcc818795b47aa955c95084c1bc3d224236
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967314"
 ---
-# <a name="plan-for-emergency-services-in-skype-for-business-server-2015"></a>Planeación de servicios de emergencia en Skype para Business Server 2015
+# <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Planeación de servicios de emergencia en Skype para Business Server
  
 Obtenga información acerca de los servicios Enhanced 9-1-1 (E9-1-1) en Skype para Business Server Enterprise Voice, incluidas la adquisición de ubicación y enrutamiento de llamadas.
   
 Skype para Business Server es compatible con los servicios Enhanced 9-1-1 (E9-1-1) dentro de Estados Unidos como parte de una implementación de Enterprise Voice. E9-1-1 es una característica de envío de emergencia que asocia una llamada 9-1-1 con una ubicación de respuesta de emergencia (ERL) que consta de direcciones de la ciudad (es decir, postal) y otra información de ubicación más específica, como los números de planta, para las llamadas de edificios de oficinas y otras instalaciones multiempresa. Con el uso de la ERL proporcionada, un Punto de respuesta de seguridad pública (PSAP) puede enviar inmediatamente los servicios de emergencia a la persona que realiza la llamada en apuros con un riesgo menor de dirigir accidentalmente los servicios de emergencias a una ubicación incorrecta o ambigua.
   
 > [!NOTE]
-> Skype para Business Server ahora admite la configuración de varios números de emergencias para un cliente. Para obtener más información, consulte [Plan para varios números de emergencias en Skype para Business Server 2015](multiple-emergency-numbers.md). 
+> Skype para Business Server ahora admite la configuración de varios números de emergencias para un cliente. Para obtener más información, consulte [Plan para varios números de emergencias en Skype para Business Server](multiple-emergency-numbers.md). 
   
 > [!NOTE]
-> Skype para Business Server tiene tres características avanzadas de Enterprise Voice: desvío de medios, servicios de emergencia (E9-1-1) y el control de admisión de llamadas. Para obtener información general de la planeación de información que es común a todos los tres de estas características, vea [configuración de red para las características avanzadas de Enterprise Voice en Skype para Business Server 2015](network-settings-for-advanced-features.md). 
+> Skype para Business Server tiene tres características avanzadas de Enterprise Voice: desvío de medios, servicios de emergencia (E9-1-1) y el control de admisión de llamadas. Para obtener información general de la planeación de información que es común a todos los tres de estas características, vea [configuración de red para las características avanzadas de Enterprise Voice en Skype para Business Server](network-settings-for-advanced-features.md). 
   
 Skype para Business Server es compatible con Enhanced 9-1-1 (E9-1-1) de llamada de Skype para clientes empresariales y dispositivos de Lync Phone Edition. Al configurar Skype para Business Server para las llamadas E9-1-1, emergencias realizadas desde Skype para la empresa o Lync Phone Edition incluyen información de ubicación de respuesta de emergencia (ERL) desde la base de datos de servicio de información de ubicación. Las ERL se componen de direcciones civiles (es decir, postales) e información adicional que ayuda a identificar con mayor precisión una ubicación en edificios de oficinas y otras instalaciones con varios inquilinos. Cuando un usuario realiza una llamada de emergencia, Skype para Business Server enruta la llamada audio, junto con la información de ubicación y la devolución de llamada, a través de un servidor de mediación para un proveedor de servicios E9-1-1. Desde aquí se facilita la ubicación del autor de la llamada junto con una clave de consulta de servicios de emergencia (ESQK) que permite al PSAP buscar la ERL de esta persona. 
   
@@ -65,7 +65,7 @@ Desde una Skype para perspectiva de Business Server, el proceso de E9-1-1 puede 
     
 En esta sección se describe cómo funcionan estas fases.
   
-Si va a configurar la infraestructura para detectar automáticamente la ubicación del cliente, primero necesita decidir qué elementos de red usará para asignar los autores de las llamadas a las ubicaciones. Para obtener información detallada acerca de las opciones posibles, consulte [definir los elementos de red que se usan para determinar la ubicación de Skype para Business Server 2015](network-location.md). 
+Si va a configurar la infraestructura para detectar automáticamente la ubicación del cliente, primero necesita decidir qué elementos de red usará para asignar los autores de las llamadas a las ubicaciones. Para obtener información detallada acerca de las opciones posibles, consulte [definir los elementos de red que se usan para determinar la ubicación de Skype para Business Server](network-location.md). 
   
 ## <a name="acquiring-a-location"></a>Adquirir una ubicación
 
@@ -113,9 +113,9 @@ Cuando se realiza una llamada de emergencia desde un Skype compatible para el cl
     
 ## <a name="routing-e9-1-1-calls-by-using-an-elin-gateway"></a>Enrutamiento de llamadas E9-1-1 mediante una puerta de enlace ELIN
 
-Algunos asociados del Programa de interoperabilidad abierto de comunicaciones unificadas proporcionan puertas de enlace de número de identificación de ubicación de emergencia (ELIN), que constituyen una alternativa a las conexiones troncales SIP con un proveedor de servicio E9-1-1 cualificado. Las puertas de enlace ELIN admiten la conectividad ISDN o de contabilización de mensajes automática y centralizada (CAMA) con servicios E9-1-1 basados en la red telefónica conmutada (RTC). Para obtener información detallada acerca de los socios que ofrecen las puertas de enlace ELIN y vínculos a la documentación, vea [infraestructura compatibles con Microsoft Lync](https://go.microsoft.com/fwlink/p/?LinkId=248425) e [Infraestructura de telefonía de Skype para la empresa](https://technet.microsoft.com/en-us/office/dn947483). 
+Algunos asociados del Programa de interoperabilidad abierto de comunicaciones unificadas proporcionan puertas de enlace de número de identificación de ubicación de emergencia (ELIN), que constituyen una alternativa a las conexiones troncales SIP con un proveedor de servicio E9-1-1 cualificado. Las puertas de enlace ELIN admiten la conectividad ISDN o de contabilización de mensajes automática y centralizada (CAMA) con servicios E9-1-1 basados en la red telefónica conmutada (RTC). Para obtener información detallada acerca de los socios que ofrecen las puertas de enlace ELIN y vínculos a la documentación, vea [infraestructura compatibles con Microsoft Lync](https://go.microsoft.com/fwlink/p/?LinkId=248425) e [Infraestructura de telefonía de Skype para la empresa](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
   
-Al igual que las conexiones troncales SIP con los proveedores de servicios E9-1-1, las puertas de enlace ELIN también ofrecen los medios necesarios para enrutar una llamada de emergencia al punto de respuesta de seguridad pública (PSAP) más adecuado para el autor de la llamada, pero estas puertas de enlace usan un número ELIN para identificar la ubicación. Definir Elin para cada ubicación de respuesta de emergencia (ERL) de la organización (para obtener información detallada, vea [Administrar ubicaciones para puertas de enlace ELIN en Skype para Business Server 2015](elin-gateways.md)). 
+Al igual que las conexiones troncales SIP con los proveedores de servicios E9-1-1, las puertas de enlace ELIN también ofrecen los medios necesarios para enrutar una llamada de emergencia al punto de respuesta de seguridad pública (PSAP) más adecuado para el autor de la llamada, pero estas puertas de enlace usan un número ELIN para identificar la ubicación. Definir Elin para cada ubicación de respuesta de emergencia (ERL) de la organización (para obtener información detallada, vea [Administrar ubicaciones para puertas de enlace ELIN en Skype para Business Server](elin-gateways.md)). 
   
 Cuando se utiliza una puerta de enlace ELIN para las llamadas de emergencia, utilice el mismo Skype para infraestructura de Business Server E9-1-1 que usaría para una conexión troncal SIP. Es decir, la base de datos de servicio de información de ubicación proporciona la ubicación a la Skype para clientes empresariales, y habilita la característica de la directiva de ubicación y define el enrutamiento. Con una puerta de enlace ELIN, sin embargo, es necesario agregar los Elin a la base de datos de servicio de información de ubicación y tener su operador de RTC cargarlos en la base de datos de identificación de ubicación automática (ALI).
   

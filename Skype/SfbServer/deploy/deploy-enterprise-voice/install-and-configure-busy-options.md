@@ -3,7 +3,6 @@ title: Instalar y configurar Opciones de disponibilidad para Skype Empresarial S
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 7/6/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,17 +11,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
-description: Lea acerca de cómo instalar y configurar las opciones de disponibilidad en Skype para Business Server 2015.
-ms.openlocfilehash: d9348077c5779984879d3ac9f0d68bf68fd0c561
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: Lea acerca de cómo instalar y configurar las opciones de disponibilidad en Skype para Business Server.
+ms.openlocfilehash: 9bf647c1a1ccc5cbcad44b6a32e7763014d31547
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568217"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003897"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Instalar y configurar Opciones de disponibilidad para Skype Empresarial Server
  
-Lea acerca de cómo instalar y configurar las opciones de disponibilidad en Skype para Business Server 2015.
+Lea acerca de cómo instalar y configurar las opciones de disponibilidad en Skype para Business Server.
   
 Opciones de disponibilidad es una nueva directiva de voz introducida en la actualización acumulativa de julio de 2016 que permite configurar el tratamiento dado a las llamadas entrantes cuando un usuario ya está al teléfono o en una conferencia, o tiene una llamada en espera. Las llamadas nuevas o entrantes pueden rechazarse con una señal de línea ocupada o desviarse al correo de voz. 
   
@@ -106,6 +105,7 @@ Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
 ```
 
 En el siguiente ejemplo, el comando configura Opciones de disponibilidad para la usuaria "Chrystal Velasquez". En esta configuración, se enviarán al correo de voz las nuevas llamadas entrantes de "Chrystal Velasquez" cuando ya esté al teléfono:
+
   
 ```
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy 

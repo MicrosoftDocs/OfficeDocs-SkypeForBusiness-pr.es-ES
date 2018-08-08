@@ -1,9 +1,8 @@
 ---
-title: Crear vínculos de regiones de red en Skype Empresarial Server 2015
+title: Crear vínculos de región de red en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,20 +13,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: Crear o modificar vínculos de región de red, que se usan por el control de admisión de llamadas de Enterprise Voice en Skype para Business Server.
-ms.openlocfilehash: d1f8814c60a99ecd76fe87993549e8dba733e52c
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: f184e18da816bae693fd209a97704681240538e7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500678"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965432"
 ---
-# <a name="create-network-region-links-in-skype-for-business-server-2015"></a>Crear vínculos de regiones de red en Skype Empresarial Server 2015
+# <a name="create-network-region-links-in-skype-for-business-server"></a>Crear vínculos de región de red en Skype para Business Server
  
 Crear o modificar vínculos de región de red, que se usan por el control de admisión de llamadas de Enterprise Voice en Skype para Business Server. 
   
-Las regiones de una red se vinculan mediante conexiones de red WAN físicas. Un vínculo de región de red crea un vínculo entre dos regiones configuradas para el Control de admisión de llamadas (CAC) y establece las limitaciones de ancho de banda en el tráfico de audio y vídeo entre estas regiones.
+Las regiones de una red se vinculan mediante conexiones de red WAN físicas. Un vínculo de región de red crea un vínculo entre dos regiones configuradas para el control de admisión de llamadas (CAC) y establece los límites de ancho de banda en el tráfico de audio y vídeo entre estas regiones.
   
-La topología de ejemplo tiene un vínculo entre las regiones de Norteamérica y APAC, y uno entre las regiones de EMEA y APAC. Cada uno de estos vínculos de región de está limitada por el ancho de banda de WAN, tal como se describe en la tabla de información de ancho de banda del vínculo de región en [ejemplo: recopilación de requisitos de control de admisión de llamadas en Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
+La topología de ejemplo tiene un vínculo entre las regiones de Norteamérica y APAC, y uno entre las regiones de EMEA y APAC. Cada uno de estos vínculos de región de está limitada por el ancho de banda de WAN, tal como se describe en la tabla de información de ancho de banda del vínculo de región en [ejemplo: recopilación de requisitos de control de admisión de llamadas en Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
   
 ### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>Para crear vínculos de región de red mediante el uso de Skype para Shell de administración de servidor empresarial
 

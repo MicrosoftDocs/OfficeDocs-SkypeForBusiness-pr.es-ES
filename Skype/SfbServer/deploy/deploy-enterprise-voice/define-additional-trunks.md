@@ -1,9 +1,8 @@
 ---
-title: Definir troncos adicionales en el Generador de topologías en Skype Empresarial Server 2015
+title: Definición de troncos adicionales en el generador de Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,23 +12,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
-description: 'Resumen: Obtenga información sobre cómo definir un tronco adicional entre un servidor de mediación y una puerta de enlace, del mismo nivel en el generador de Skype para Business Server 2015.'
-ms.openlocfilehash: e76555d0f03b884ad3f3c91c5ca4ad5d687711a2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumen: Obtenga información sobre cómo definir un tronco adicional entre un servidor de mediación y una puerta de enlace, del mismo nivel en el generador de Skype para Business Server.'
+ms.openlocfilehash: 65ed4bb850c88c873b61090cbc34a133cb9d95e8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20979744"
 ---
-# <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server-2015"></a>Definir troncos adicionales en el Generador de topologías en Skype Empresarial Server 2015
+# <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>Definición de troncos adicionales en el generador de Skype para Business Server
  
-**Resumen:** Obtenga información sobre cómo definir un tronco adicional entre un servidor de mediación y una puerta de enlace, del mismo nivel en el generador de Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo definir un tronco adicional entre un servidor de mediación y una puerta de enlace, del mismo nivel en el generador de Skype para Business Server.
   
 Siga estos pasos para definir un tronco adicional a la que se puede asociar a un par con un servidor de mediación. Un par proporciona a los usuarios habilitados para Enterprise Voice con conectividad a la red telefónica pública conmutada (RTC). Un par puede ser una puerta de enlace RTC, un IP-PBX o un controlador de borde de sesión (SBC) para un proveedor de servicios de telefonía por Internet (ITSP).
   
 Un tronco es una conexión lógica entre un servidor de mediación y una puerta de enlace.
   
 > [!NOTE]
-> En este tema se da por supuesto que tienen el programa de instalación de una puerta de enlace RTC y tronco raíz con al menos un independientes o combinados servidor de mediación o grupo de servidores tal como se describe en [definir una puerta de enlace en el generador de Skype para Business Server 2015](define-a-gateway.md) en la documentación de implementación.
+> En este tema se da por supuesto que tienen el programa de instalación de una puerta de enlace RTC y tronco raíz con al menos un independientes o combinados servidor de mediación o grupo de servidores tal como se describe en [definir una puerta de enlace en el generador de Skype para Business Server](define-a-gateway.md) en la documentación de implementación.
   
 ### <a name="to-define-an-additional-trunk-between-a-mediation-server-and-a-gateway-peer"></a>Para definir un tronco adicional entre un servidor de mediación y un par de puerta de enlace
 

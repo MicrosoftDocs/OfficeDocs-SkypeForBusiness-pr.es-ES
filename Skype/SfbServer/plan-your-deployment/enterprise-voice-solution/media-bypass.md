@@ -1,9 +1,8 @@
 ---
-title: Planificar la omisión de medios en Skype Empresarial 2015
+title: Planear el desvío de medios en Skype para la empresa
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: Las decisiones necesarias para la planeación para los medios de omisión de Skype Business Server Enterprise Voice. Incluye interoperación con el control de admisión de llamadas (CAC).
-ms.openlocfilehash: c02dd1fcae6db59972a991ef76b55f7d0cbdce9e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a6e7cd2a37af67415962a4f0a2e0c390160f66f3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020860"
 ---
-# <a name="plan-for-media-bypass-in-skype-for-business-2015"></a>Planificar la omisión de medios en Skype Empresarial 2015
+# <a name="plan-for-media-bypass-in-skype-for-business"></a>Planear el desvío de medios en Skype para la empresa
  
 Las decisiones necesarias para la planeación para los medios de omisión de Skype Business Server Enterprise Voice. Incluye interoperación con el control de admisión de llamadas (CAC).
   
@@ -34,7 +34,7 @@ Al evitar al procesamiento de medios en el servidor de mediación, el desvío de
   
 La siguiente figura muestra las rutas de señalización y los medios básicos en las topologías con omisión de medios y sin ella.
   
-**Desvío de medios y las rutas de señalización con y sin medios**
+**Rutas de señalización y medios con omisión de medios y sin ella**
 
 ![Aplicación de la conexión de desvío de medios del control de admisión de llamadas de voz](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
   

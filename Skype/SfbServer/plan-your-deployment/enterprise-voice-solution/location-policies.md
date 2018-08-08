@@ -1,9 +1,8 @@
 ---
-title: Planificar directivas de ubicación para Skype Empresarial Server 2015
+title: Planeación de las directivas de ubicación de Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,20 +13,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: Lea este tema para aprender a planear las directivas de ubicación para una implementación de servicios de emergencia mejorado (E9-1-1) en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 013eeea9858910c6ef94c928f92c42a742908355
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: cbc4bdbf552c3839cef0701dcf3e47e4603a270e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971170"
 ---
-# <a name="plan-location-policies-for-skype-for-business-server-2015"></a>Planificar directivas de ubicación para Skype Empresarial Server 2015
+# <a name="plan-location-policies-for-skype-for-business-server"></a>Planeación de las directivas de ubicación de Skype para Business Server
  
 Lea este tema para aprender a planear las directivas de ubicación para una implementación de servicios de emergencia mejorado (E9-1-1) en Skype para Business Server Enterprise Voice. 
   
 > [!NOTE]
-> Skype para Business Server ahora admite la configuración de varios números de emergencias para un cliente. Si desea configurar varios números de emergencias, debe seguir la información de [planeación para varios números de emergencias en Skype para Business Server 2015](multiple-emergency-numbers.md) y [configurar varios números de emergencias en Skype para profesionales de 2015](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md). 
+> Skype para Business Server ahora admite la configuración de varios números de emergencias para un cliente. Si desea configurar varios números de emergencias, debe seguir la información de [planeación para varios números de emergencias en Skype para Business Server](multiple-emergency-numbers.md) y [configurar varios números de emergencias en Skype para la empresa](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md). 
   
-Crear directivas de ubicación mediante el Skype para el Panel de Control o mediante el cmdlet [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) . Para obtener más información, vea [crear directivas de ubicación en Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/create-location-policies.md).
+Crear directivas de ubicación mediante el Skype para el Panel de Control o mediante el cmdlet [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) . Para obtener más información, vea [crear directivas de ubicación en Skype para Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md).
   
 Cada directiva de ubicación contiene la información siguiente:
   
@@ -37,7 +37,7 @@ Si este valor se habilita, se habilita también al cliente para los servicios de
   
  **Ubicación**
   
-Esta configuración se usa sólo cuando está habilitado para **Habilitar Enhanced 9-1-1** .
+Esta configuración se usa únicamente cuando **Habilitar 9-1-1 mejorado** está habilitada. 
   
 Puede configurar **Ubicación** para definir el comportamiento del cliente de la siguiente manera:   
   

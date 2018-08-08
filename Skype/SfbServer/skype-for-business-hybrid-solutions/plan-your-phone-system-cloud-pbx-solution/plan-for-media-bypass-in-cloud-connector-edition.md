@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Lea este tema para revisar las consideraciones de planificación a la hora de implementar la omisión de medios con la versión 2.0 de Cloud Connector Edition y las versiones posteriores. Para obtener información sobre la implementación de medios desvío, consulte Deploy medios de desvío en la nube conector Edition.
-ms.openlocfilehash: 0cf79a256030635ccab92653f8f7b40b5ba0b555
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 70c7f8721386c3ef0270e7ef938624a70184b942
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504568"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967139"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Plan para la omisión de medios en Cloud Connector Edition
  
@@ -36,7 +36,7 @@ Si bien la señalización toma la misma ruta con o sin omisión de medios, el fl
   
 Por ejemplo, en la siguiente topología: que omitir la no emplean medios — un Skype para cliente empresarial realiza una llamada de RTC para un número externo, las señales SIP va a Office 365 y Office 365, a continuación, dirige el tráfico de señalización según la voz para el usuario final Directiva. Para los usuarios de conector en la nube, la directiva de voz dirige el tráfico de señalización para el servidor perimetral de conector de nube, que, a continuación, se distribuye el tráfico de señalización a un controlador de borde de sesión (SBC) de RTC o puerta de enlace a través del servidor de mediación de conector en la nube. Se transmite desde el Skype para clientes empresariales al servidor de mediación de conector en la nube y, a continuación, al SBC o puerta de enlace, tal como se muestra en el siguiente diagrama:
   
-**Desvío de medios y las rutas de señalización sin medios**
+**Rutas de señalización y medios sin omisión de medios**
 
 ![señalización sin omisión de medios](../../media/5cd7e3bf-2565-4bd9-ad5a-f03e13c01060.png)
   
@@ -44,7 +44,7 @@ Una llamada entrante RTC utiliza la misma ruta de señalización en la direcció
   
 En la siguiente topología: que omitir la emplean medios — señalización toma la misma ruta de acceso, pero se transmite directamente entre el Skype para clientes empresariales y la SBC o puerta de enlace, tal como se muestra en el siguiente diagrama:
   
-**Desvío de medios y las rutas de señalización con medios**
+**Rutas de señalización y medios con omisión de medios**
 
 ![señalización con omisión de medios](../../media/60400c38-4921-4964-89f2-5e53b68fb497.png)
   
@@ -52,7 +52,7 @@ En la siguiente topología: que omitir la emplean medios — señalización toma
 
 Desvío de medios también es útil cuando desea proporcionar servicios de telefonía para varios sitios con un solo dispositivo de conector en la nube. Debido a que el conector en la nube no podrá enrutar llamadas basadas en los números de origen o de destino, mayoría de las empresas implementar una puerta de enlace detrás de conector en la nube o SBC para tomar decisiones de enrutamiento. La omisión de medios en este escenario elimina el salto entre el cliente y el SBC central o la puerta de enlace, como se muestra en el siguiente diagrama:
   
-**Aplicación de múltiples sitios**
+**Aplicación de varios sitios**
 
 ![Ejemplo de Cloud Connector multisitio](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
   
@@ -79,7 +79,7 @@ Con la primera versión de desvío de medios, el cliente compatible sólo es el 
   
 Para obtener más información acerca de los canales de versión, vea [información general de los canales de actualización para Office 365 ProPlus](https://support.office.com/en-us/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US).
   
-Para la versión actual de los clientes en distintos canales, vea [Actualizar versiones de canal de cliente de Office 365](https://technet.microsoft.com/en-us/office/mt465751.aspx). 
+Para la versión actual de los clientes en distintos canales, vea [Release información para las actualizaciones de Office 365 ProPlus](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus). 
   
 ## <a name="cloud-connector-capacity-considerations-with-media-bypass"></a>Consideraciones sobre la capacidad de Cloud Connector con la omisión de medios
 

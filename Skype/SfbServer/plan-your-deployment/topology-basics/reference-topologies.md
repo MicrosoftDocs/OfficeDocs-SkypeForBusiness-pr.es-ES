@@ -1,9 +1,8 @@
 ---
-title: Topologías de referencia para Skype Empresarial Server 2015
+title: Topologías de referencia de Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Topologías de referencia de Skype para Business Server, incluidos diagramas y decisiones que debe tomar grandes y medianas y las organizaciones pequeñas.
-ms.openlocfilehash: 006f83b51eed18e008badc00fba88e4d4c3d436a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 284fd37a6f9d65bae5e5e90695db851e66af6cfc
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21710837"
 ---
-# <a name="reference-topologies-for-skype-for-business-server-2015"></a>Topologías de referencia para Skype Empresarial Server 2015
+# <a name="reference-topologies-for-skype-for-business-server"></a>Topologías de referencia de Skype para Business Server
  
 Topologías de referencia de Skype para Business Server, incluidos diagramas y decisiones que debe tomar grandes y medianas y las organizaciones pequeñas.
   
@@ -36,7 +36,7 @@ La topología de referencia para pequeñas organizaciones muestra cómo se puede
 
 ![Diagrama de la topología de referencia con tres servidores implementados](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology1.jpg)
   
-- **Par de servidores Standard Edition implementados** Esta organización tiene 4000 usuarios en su sitio central. Ha implementado dos servidores Standard Edition y emparejado para habilitar la alta disponibilidad y recuperación ante desastres. Cada a los usuarios de servidor donde se hospedan 2.000, pero la información acerca de todos los usuarios se sincroniza entre los dos servidores. Si uno falla, un administrador puede conmutar por error los usuarios a ser procesadas por el servidor, con un mínimo de interrupción para los usuarios. Para obtener más información acerca de la alta disponibilidad y funciones de recuperación ante desastres en Skype para Business Server, consulte [Plan de alta disponibilidad y recuperación ante desastres en Skype para Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+- **Par de servidores Standard Edition implementados** Esta organización tiene 4000 usuarios en su sitio central. Ha implementado dos servidores Standard Edition y emparejado para habilitar la alta disponibilidad y recuperación ante desastres. Cada a los usuarios de servidor donde se hospedan 2.000, pero la información acerca de todos los usuarios se sincroniza entre los dos servidores. Si uno falla, un administrador puede conmutar por error los usuarios a ser procesadas por el servidor, con un mínimo de interrupción para los usuarios. Para obtener más información acerca de la alta disponibilidad y funciones de recuperación ante desastres en Skype para Business Server, consulte [Plan de alta disponibilidad y recuperación ante desastres en Skype para Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
     
 - **Recomendamos la implementación de un servidor perimetral.** Aunque no es necesaria la implementación de un servidor perimetral para la mensajería instantánea (MI), la presencia y la conferencia, recomendamos efectuarla incluso en el caso de implementaciones pequeñas. Puede maximizar su Skype para inversión Business Server mediante la implementación de un servidor perimetral para proporcionar servicio a los usuarios actualmente fuera de los servidores de seguridad de la organización. Entre las ventajas se incluye las siguientes:
     
@@ -48,7 +48,7 @@ La topología de referencia para pequeñas organizaciones muestra cómo se puede
     
   - Los usuarios pueden intercambiar mensajes instantáneos con usuarios de algunos servicios de mensajería instantánea (MI) pública.
     
-- **Supervivencia de sitios de sucursal.** Esta organización se está ejecutando un programa piloto de la característica de Enterprise Voice de Skype para Business Server. Algunos usuarios usa Skype para Business Server como su solución de voz único. Algunos de estos usuarios pilotos de Enterprise Voice se encuentran en el sitio de sucursal. El sitio de sucursal no tiene un vínculo de confiable de área extensa (WAN) de red para el sitio central, por lo que una aplicación de sucursal con funciones de supervivencia se implementa no existe. Gracias a esta implementación, si el vínculo WAN deja de funcionar, los usuarios del sitio de sucursal podrán seguir realizando y recibiendo llamadas (llamadas dentro de la organización y llamadas RTC), disponer de la función del correo de voz y comunicarse por medio de la mensajería instantánea (MI) entre dos participantes. Los usuarios también pueden autenticarse cuando el vínculo WAN no está disponible. Para obtener más información, consulte [Plan para la resistencia de Enterprise Voice en Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
+- **Supervivencia de sitios de sucursal.** Esta organización se está ejecutando un programa piloto de la característica de Enterprise Voice de Skype para Business Server. Algunos usuarios usa Skype para Business Server como su solución de voz único. Algunos de estos usuarios pilotos de Enterprise Voice se encuentran en el sitio de sucursal. El sitio de sucursal no tiene un vínculo de confiable de área extensa (WAN) de red para el sitio central, por lo que una aplicación de sucursal con funciones de supervivencia se implementa no existe. Gracias a esta implementación, si el vínculo WAN deja de funcionar, los usuarios del sitio de sucursal podrán seguir realizando y recibiendo llamadas (llamadas dentro de la organización y llamadas RTC), disponer de la función del correo de voz y comunicarse por medio de la mensajería instantánea (MI) entre dos participantes. Los usuarios también pueden autenticarse cuando el vínculo WAN no está disponible. Para obtener más información, consulte [Plan para la resistencia de Enterprise Voice en Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
     
 - **Implementación de mensajería unificada de Exchange.** Esta topología de referencia incluye un servidor de mensajería unificada de Exchange (UM), que se ejecuta Microsoft Exchange Server, no Skype para Business Server.
     
@@ -76,7 +76,7 @@ La topología de referencia con alta disponibilidad y un único centro de datos 
     
 - **Servidor perimetral de alta disponibilidad** En este ejemplo de organización con 20.000 usuarios, sería suficiente para obtener un rendimiento un solo servidor perimetral. Pero, se ha implementado un grupo de dos servidores perimetrales para proporcionar alta disponibilidad.
     
-- **Opciones de implementación de sitios de sucursal.** La organización en esta topología tiene implementado como su solución de voz de Enterprise Voice. Sitio de sucursal 1 no tiene un vínculo de resistente de área extensa (WAN) para el sitio central, por lo que tiene una aplicación de sucursal con funciones de supervivencia implementa para mantener que Skype muchas de las características de Business Server en caso de que el vínculo WAN al sitio central deja de funcionar. Pero, el sitio de sucursal 2 tiene un vínculo WAN resistente, por lo que solo se necesita una puerta de enlace de la red telefónica conmutada (RTC). La puerta de enlace RTC implementada allí permite la omisión de medios, por lo que no se necesita ningún servidor de mediación en el sitio de sucursal 2. Para obtener más información, consulte [Plan para la resistencia de Enterprise Voice en Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
+- **Opciones de implementación de sitios de sucursal.** La organización en esta topología tiene implementado como su solución de voz de Enterprise Voice. Sitio de sucursal 1 no tiene un vínculo de resistente de área extensa (WAN) para el sitio central, por lo que tiene una aplicación de sucursal con funciones de supervivencia implementa para mantener que Skype muchas de las características de Business Server en caso de que el vínculo WAN al sitio central deja de funcionar. Pero, el sitio de sucursal 2 tiene un vínculo WAN resistente, por lo que solo se necesita una puerta de enlace de la red telefónica conmutada (RTC). La puerta de enlace RTC implementada allí permite la omisión de medios, por lo que no se necesita ningún servidor de mediación en el sitio de sucursal 2. Para obtener más información, consulte [Plan para la resistencia de Enterprise Voice en Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
     
 - **Equilibrio de carga de DNS.** El grupo de servidores front-end y el grupo de servidores perimetrales tienen implementado el equilibrio de carga de DNS para el tráfico SIP. Este equilibrio elimina la necesidad de equilibradores de carga de hardware para los servidores perimetrales y reduce notablemente la instalación y el mantenimiento de los equilibradores de carga de hardware de otros grupos de servidores, ya que estos equilibradores solo se necesitan para tráfico HTTP. Para obtener más información, vea (.. /.. / plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
     
@@ -96,25 +96,25 @@ Además de la alta disponibilidad proporcionada por los grupos de servidores Fro
   
 Esta topología se muestra en varios diagramas con información general seguida de vistas detalladas de los sitios centrales.
   
-**Centros de información general de la topología de referencia para grandes organizaciones con varios datos**
+**Información general de la topología de referencia para organizaciones de gran tamaño con varios centros de datos**
 
 ![Topología de referencia para varios centros de datos](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-1-new.jpg)
   
-**Topología de referencia para organizaciones de gran tamaño: vista detallada del sitio Central A**
+**Topología de referencia para organizaciones de gran tamaño: Vista detallada del Sitio central A**
 
 ![Topología 3-2](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-2.jpg)
   
-**Topología de referencia para organizaciones de gran tamaño: vista detallada del sitio Central B**
+**Topología de referencia para organizaciones de gran tamaño: Vista detallada del Sitio central B**
 
 ![Topología 3-3](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-3.jpg)
   
-**Topología de referencia para organizaciones de gran tamaño: vista detallada del sitio Central C**
+**Topología de referencia para organizaciones de gran tamaño: Vista detallada del Sitio central C**
 
 ![Topología 3-4](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-4.jpg)
   
-- **Grupos de servidores Front-End están emparejados para habilitar la recuperación ante desastres.** Los grupos de servidores Front-End en el sitio A y el sitio B están emparejados con cada una de las demás, para proporcionar compatibilidad con la recuperación ante desastres. Si se produce un error en el grupo de servidores en un sitio, el administrador puede conmutar por los usuarios de ese sitio al grupo de servidores Front-End emparejado en el sitio, con un mínimo de interrupción del servicio para los usuarios. Cada uno de estos dos grupos de servidores front-end tiene seis servidores, suficiente para 40 000 usuarios en ambos grupos en caso de la conmutación por error. Para obtener más información, consulte [Plan de alta disponibilidad y recuperación ante desastres en Skype para Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
+- **Grupos de servidores Front-End están emparejados para habilitar la recuperación ante desastres.** Los grupos de servidores Front-End en el sitio A y el sitio B están emparejados con cada una de las demás, para proporcionar compatibilidad con la recuperación ante desastres. Si se produce un error en el grupo de servidores en un sitio, el administrador puede conmutar por los usuarios de ese sitio al grupo de servidores Front-End emparejado en el sitio, con un mínimo de interrupción del servicio para los usuarios. Cada uno de estos dos grupos de servidores front-end tiene seis servidores, suficiente para 40 000 usuarios en ambos grupos en caso de la conmutación por error. Para obtener más información, consulte [Plan de alta disponibilidad y recuperación ante desastres en Skype para Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
     
-- **Se reflejan los servidores Back-End** Para proporcionar más alta disponibilidad para las características de usuario básica, la organización ha implementado un par reflejado de servidores Back-End para cada grupo de servidores Front-End. Ésta es una topología opcional y puede optar por implementar un único servidor Back-End en su lugar. SQL clustering y los grupos de disponibilidad AlwaysOn también son compatibles. Para obtener más información, vea [servidor Back-End de alta disponibilidad en Skype para Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
+- **Se reflejan los servidores Back-End** Para proporcionar más alta disponibilidad para las características de usuario básica, la organización ha implementado un par reflejado de servidores Back-End para cada grupo de servidores Front-End. Ésta es una topología opcional y puede optar por implementar un único servidor Back-End en su lugar. SQL clustering y los grupos de disponibilidad AlwaysOn también son compatibles. Para obtener más información, vea [servidor Back-End de alta disponibilidad en Skype para Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
     
 - **Uso de un servidor Standard Edition en un sitio de sucursal.** Esta organización considera C de sitio como un sitio de sucursal porque tiene sólo 600 empleados. Sin embargo, los usuarios no existe tengan muchas / conferencias de A/v entre sí. Si se implementó en Skype para Business Server como un sitio de sucursal, los medios para estas conferencias tendría que ejecutar a través de la red de área extensa (WAN) a y desde un sitio central que tiene un servidor Front-End implementados. Para evitar esta carga de ancho de banda posibles, ha instalado a un par de servidores Standard Edition en este sitio, que se va a hospedar estas conferencias. Y ya que se instalan los servidores Standard Edition allí, Skype para Business Server según la definición de lo considera un sitio central y se trata como tal en el generador de topología y la herramienta de planeación.
     
@@ -124,15 +124,18 @@ Esta topología se muestra en varios diagramas con información general seguida 
     
 - **Supervisión y archivado** Esta organización ha implementado supervisión y archivado. Si se implementa la supervisión o el archivado, se ejecutarán en todos los servidores front-end. Las bases de datos de estas características pueden combinarse con la base de datos back-end, o bien ubicarse en un servidor aparte. Esta organización ha ubicado dichas bases de datos en un servidor aparte de los servidores back-end, en el sitio central B. Las bases de datos de esta ubicación reciben datos de supervisión y archivado desde los servidores front-end de todos los sitios.
     
-- **Opciones de implementación en sitios de sucursal.** Esta organización tiene en realidad más de 50 sitios de sucursal y, en los diagramas detallados, solo se muestran dos de ellos. Sitio de sucursal 1 no tiene una WAN resistente vínculo al sitio central, por lo que tienen aplicaciones de sucursal con funciones de supervivencia implementa para proporcionar el servicio de teléfono en caso de que el vínculo WAN al sitio central deja de funcionar. Pero, el sitio de sucursal 2 sí tiene un vínculo WAN resistente, de modo que solo necesita una puerta de enlace de la red telefónica conmutada (RTC). La puerta de enlace RTC implementada en este caso admite la omisión de medios, por lo que en el sitio de sucursal 2 no es necesario ningún servidor de mediación. Para obtener información detallada acerca de cómo decidir qué se va a instalar en un sitio de sucursal, consulte [Plan para la resistencia de Enterprise Voice en Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
+- **Opciones de implementación en sitios de sucursal.** Esta organización tiene en realidad más de 50 sitios de sucursal y, en los diagramas detallados, solo se muestran dos de ellos. Sitio de sucursal 1 no tiene una WAN resistente vínculo al sitio central, por lo que tienen aplicaciones de sucursal con funciones de supervivencia implementa para proporcionar el servicio de teléfono en caso de que el vínculo WAN al sitio central deja de funcionar. Pero, el sitio de sucursal 2 sí tiene un vínculo WAN resistente, de modo que solo necesita una puerta de enlace de la red telefónica conmutada (RTC). La puerta de enlace RTC implementada en este caso admite la omisión de medios, por lo que en el sitio de sucursal 2 no es necesario ningún servidor de mediación. Para obtener información detallada acerca de cómo decidir qué se va a instalar en un sitio de sucursal, consulte [Plan para la resistencia de Enterprise Voice en Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
     
 - **Enlace troncal SIP y el servidor de mediación.** Tenga en cuenta que en el sitio Central B, el servidor de mediación no se combina con el servidor front-end. Esto es debido a que el servidor de mediación independiente se recomienda para sitios que usan el enlace troncal SIP. En la mayoría de los demás casos, se recomienda que instalar el servidor de mediación con el servidor Front-End. Para obtener información detallada acerca de las topologías de servidor de mediación, vea [componentes y topologías de servidor de mediación](http://technet.microsoft.com/library/71397168-36c3-4d21-b8ef-db6a751634ee.aspx) en la documentación de planeación.
     
 - **Chat persistente implementado.** Esta organización ha implementado los servidores necesarios para habilitar el chat persistente. Ha implementado varios servidores front-end de chat persistente para, por un lado, procesar la carga de la cantidad de usuarios del grupo de servidores y, por otro, ofrecer alta disponibilidad. También ha implementado el cumplimiento para el chat persistente y ha ubicado el almacén de chat persistente y el almacén de cumplimiento de chat persistente en servidores independientes. Estos almacenes pueden combinarse entre sí e incluso con el servidor back-end, pero esta organización ha optado por separarlos para ofrecer un mejor rendimiento.
+
+    > [!NOTE] 
+    > Chat persistente está disponible en Skype para Business Server 2015, pero ya no se admite en Skype para Business Server 2019. La misma funcionalidad está disponible en los equipos. Para obtener más información, vea [viaje de Skype para la empresa a los equipos de Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Si necesita usar chat en grupo, las opciones son para migrar los usuarios que requieren esta funcionalidad a los equipos, o para continuar usando Skype para Business Server 2015. 
     
 - **Equilibrio de carga de DNS.** El grupo de servidores front-end y el grupo de servidores perimetrales utilizan el equilibrio de carga de DNS. De esta manera, no son necesarios los equilibradores de carga de hardware para la interfaz interna de los servidores perimetrales y se reduce significativamente la cantidad de tiempo que necesaria para la instalación y el mantenimiento de los equilibradores de carga de hardware para el resto de los grupos de servidores, ya que los equilibradores de carga de hardware solo se necesitan para el tráfico HTTP. Para obtener más información, vea (.. /.. / plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
     
-- **Implementación de mensajería unificada de Exchange.** Skype para Business Server funciona con las implementaciones de bothon local de mensajería unificada de Exchange andhosted de mensajería unificada de Exchange (UM). Sitio central A incluye un servidor de mensajería unificada de Exchange (UM), que se ejecuta Microsoft Exchange Server, no Skype para Business Server. La funcionalidad de mensajería unificada de Exchange para Skype para Business Server se ejecuta en el grupo de servidores Front-End.
+- **Implementación de mensajería unificada de Exchange.** Skype para Business Server funciona con ambas implementaciones locales de Exchange mensajería unificada (MU) y mensajería unificada de Exchange hospedado. Sitio central A incluye un servidor de mensajería unificada de Exchange (UM), que se ejecuta Microsoft Exchange Server, no Skype para Business Server. La funcionalidad de mensajería unificada de Exchange para Skype para Business Server se ejecuta en el grupo de servidores Front-End.
     
     El sitio central B usa servicios de Exchange hospedados, de modo que las funciones del servidor de mensajería unificada de Exchange también están hospedadas. 
     

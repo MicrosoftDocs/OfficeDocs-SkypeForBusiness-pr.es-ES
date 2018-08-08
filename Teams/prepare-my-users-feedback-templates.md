@@ -1,66 +1,68 @@
 ---
-title: Encuestas de comentarios de usuario en Microsoft Teams o Skype para empresas
+title: Encuestas de comentarios del usuario en Microsoft Teams o Skype para la empresa
 author: dearbeen
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Recopilar comentarios de los usuarios para mejorar la implementación de voz de nube en Microsoft Teams o Skype para el negocio.
+description: Recopilar comentarios del usuario para mejorar la implementación de voz en la nube en Microsoft Teams o Skype para la empresa.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71ac2dd26b0b60293602aadb83284e0bf5c25739
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 92336183b6c96e789ce079119a1acc05ba3da4af
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695441"
 ---
 # <a name="user-feedback-surveys"></a>Encuestas de comentarios del usuario 
 
-Utilizar encuestas de retroalimentación para capturar conocimientos y experiencia de los usuarios después de su implementación. Preguntas deben obtener comentarios acerca de la receptividad de los usuarios a cambiar, la eficacia de los recursos de formación, cómo era el plan de soporte y experiencia de los usuarios. Evaluar las respuestas de la encuesta a medir los objetivos (específicos, mensurables, alcanzables, relevantes, plazos) SMART definidos durante el diseño del proyecto y determinar cualquier acción adicional necesaria.
+Usar encuestas de comentarios para capturar conocimientos y experiencia de los usuarios después de la implementación. Preguntas deberían obtener comentarios sobre receptiveness de los usuarios para cambiar, la eficacia de los recursos de aprendizaje, cómo listos era el plan de soporte técnico y experiencia general de los usuarios. Evaluar las respuestas de la encuesta a medir los objetivos de (específicos, cuantificables, puede obtener, relevantes, límite de tiempo) inteligentes que haya definido durante la planeación de proyectos y determinar ninguna acción adicional necesaria.
 
-Personalizar las siguientes preguntas y después transferirlas a una herramienta de investigación como SharePoint para facilitar su distribución y análisis.
+Personalizar las siguientes preguntas y, a continuación, transferirlas a una herramienta de encuesta como SharePoint para facilitar su distribución y análisis.
 
-Con el propósito de estas encuestas, *nuevo sistema telefónico* hace referencia a mediante funciones de llamada de Skype o de Teams de Microsoft para el negocio, además de dispositivos como un teléfono de media o teléfono móvil. Todas las referencias a Microsoft Teams de estas encuestas se aplican también a Skype para el negocio.
+Al llevar a cabo estas encuestas, *nuevo sistema telefónico* hace referencia al uso de características de llamada en Microsoft Teams o Skype para la empresa, además de los dispositivos como un teléfono de medios o un teléfono móvil. Todas las referencias a Microsoft Teams en estas encuestas también se aplican a Skype para la empresa.
 
-Indique su nivel de acuerdo con las instrucciones siguientes, lo que se refiere al uso de equipos como el teléfono. 
+Indique su grado de acuerdo con las instrucciones siguientes, lo que respecta al uso de los equipos como el teléfono. 
 
-|     &nbsp;                              | Totalmente de acuerdo | De acuerdo | Punto muerto | En desacuerdo | Totalmente en desacuerdo | N / o no utilizar |
+|     &nbsp;                              | Totalmente de acuerdo | Algo de acuerdo | Independiente del | Algo en desacuerdo | Totalmente en desacuerdo | N/a o no ha utilizado |
 |--------------------------------------------------------------------------------------------------------------------------|----------------------|--------------------|-------------|-----------------------|-------------------------|------------------------|
-| Fácilmente puedo hacer y recibir llamadas de teléfono con mi equipo.                                                             |                      |                    |             |                       |                         |                        |
-| Fácilmente puedo hacer y recibir llamadas de teléfono con mi nuevo teléfono de escritorio.                                              |                      |                    |             |                       |                         |                        |
-| Pude iniciar sesión fácilmente en mi nuevo teléfono de escritorio.                                                                              |                      |                    |             |                       |                         |                        |
-| Pude hacer y recibir llamadas en mi dispositivo móvil correctamente.                                                   |                      |                    |             |                       |                         |                        |
-| El nuevo sistema de teléfono satisface todas mis necesidades llamadas (transferencia, suspensión, correo de voz etc.)                                      |                      |                    |             |                       |                         |                        |
-| Veo que el valor de la integración de nuestro sistema telefónico con los equipos.                                                 |                      |                    |             |                       |                         |                        |
-| Usando equipos como mi teléfono facilita para mí realizar mi trabajo.                                          |                      |                    |             |                       |                         |                        |
-| Mi experiencia con equipos de audio es tan bueno o mejor que fue con nuestro sistema telefónico antiguo.                   |                      |                    |             |                       |                         |                        |
+| Fácilmente puedo realizar y recibir llamadas telefónicas mediante Mi PC.                                                             |                      |                    |             |                       |                         |                        |
+| Fácilmente puedo realizar y recibir llamadas telefónicas mediante mi teléfono de escritorio nuevo.                                              |                      |                    |             |                       |                         |                        |
+| Pude iniciar sesión fácilmente en mi teléfono de escritorio nuevo.                                                                              |                      |                    |             |                       |                         |                        |
+| Pude correctamente realizar y recibir llamadas en mi dispositivo móvil.                                                   |                      |                    |             |                       |                         |                        |
+| El nuevo sistema de teléfono cumple todas mis necesidades de llamadas (transferencia, suspensión, correo de voz y así sucesivamente)                                      |                      |                    |             |                       |                         |                        |
+| Se observa el valor de la integración de nuestro sistema telefónico con los equipos.                                                 |                      |                    |             |                       |                         |                        |
+| Uso de los equipos como mi teléfono facilita para mí realizar mi trabajo.                                          |                      |                    |             |                       |                         |                        |
+| Mi experiencia de audio con los equipos es buena como o mejor de lo que era con nuestro sistema telefónico antiguo.                   |                      |                    |             |                       |                         |                        |
 
-Si elige **en desacuerdo** o **totalmente en desacuerdo** por cualquiera de las afirmaciones anteriores, sírvase indicar. (Open text)
+Si opta por **algo en desacuerdo** o **totalmente en desacuerdo** para cualquiera de las instrucciones anteriores, explique. (Texto Abrir)
 
-Indique su nivel de acuerdo con las instrucciones siguientes, lo que se refiere a su experiencia de incorporación con el teléfono nuevo.  
+Indique su grado de acuerdo con las instrucciones siguientes, lo que respecta a su experiencia de incorporación con el nuevo número de teléfono.  
 
-|          &nbsp;                  | Totalmente de acuerdo | De acuerdo | Punto muerto | En desacuerdo | Totalmente en desacuerdo | N / o no utilizar |
+|          &nbsp;                  | Totalmente de acuerdo | Algo de acuerdo | Independiente del | Algo en desacuerdo | Totalmente en desacuerdo | N/a o no ha utilizado |
 |----|----------------------|--------------------|-------------|-----------------------|-------------------------|------------------------|
-| Mi organización ha proporcionado suficiente información (comunicación, llamados a la acción y recursos) para que pueda empezar a utilizar el nuevo sistema de teléfono. |                      |                    |             |                       |                         |                        |
-| Tenía recursos de formación adecuada para rápidamente incorporado al nuevo sistema de teléfono.                                                          |                      |                    |             |                       |                         |                        |
-| Nuestro servicio de asistencia podría responder a todas mis preguntas sobre el nuevo sistema de teléfono.                                                           |                      |                    |             |                       |                         |                        |
+| Mi organización ha proporcionado suficiente información (comunicación, recursos y las llamadas a la acción) para mí comenzar a usar el nuevo sistema de teléfono. |                      |                    |             |                       |                         |                        |
+| He tenido recursos de aprendizaje adecuados a rápidamente incorporado al nuevo sistema de teléfono.                                                          |                      |                    |             |                       |                         |                        |
+| Nuestro departamento de soporte técnico puede responder a todas mis preguntas sobre el nuevo sistema de teléfono.                                                           |                      |                    |             |                       |                         |                        |
 
-Si elige **en desacuerdo** o **totalmente en desacuerdo** por cualquiera de las afirmaciones anteriores, sírvase indicar. (Open text)
+Si opta por **algo en desacuerdo** o **totalmente en desacuerdo** para cualquiera de las instrucciones anteriores, explique. (Texto Abrir)
 
-¿Qué probabilidades hay de que recomienda el uso de equipos como un teléfono a un amigo o compañero? (0 = no es probable en absoluto... 10 = extremadamente probable)
-
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
-|--------|---|---|---|---|---|---|---|---|---|---|----|
-|&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
-
-¿Qué probabilidades hay que recomendar el dispositivo de teléfono a un amigo o compañero? (0 = no es probable en absoluto... 10 = extremadamente probable)  
+¿Con qué probabilidad hay de que recomienda el uso de los equipos como un teléfono a un amigo o compañero? (0 = no es probable en absoluto... 10 = extremadamente probable)
 
 | 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 
+¿Con qué probabilidad va a recomendar del dispositivo telefónico a un amigo o compañero? (0 = no es probable en absoluto... 10 = extremadamente probable)  
 
-Comparta sus comentarios adicionales sobre su experiencia de teléfono. (Open text)
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+|--------|---|---|---|---|---|---|---|---|---|---|----|
+|&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
+
+
+Por favor, compartir cualquier comentarios adicionales con respecto a su experiencia de teléfono. (Texto Abrir)

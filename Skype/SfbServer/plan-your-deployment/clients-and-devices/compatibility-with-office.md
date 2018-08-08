@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: Comprender las formas que se puede tener acceso a Skype para las características empresariales de Outlook y otras aplicaciones de Microsoft Office.
-ms.openlocfilehash: 49bfb52925855ad7fd5ce0564056cfd8c5039ef6
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 012821c511a05f18b97ac2b4d54218712ddd4bd1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503987"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967153"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype para la compatibilidad de negocio con aplicaciones de Office
  
@@ -28,27 +28,27 @@ En este tema se describe la compatibilidad de Skype para la empresa con distinta
   
 ## <a name="office-and-skype-for-business"></a>Office y Skype para la empresa
 
-En la siguiente tabla se describe la Skype para las características de negocio que son compatibles con las distintas versiones de Office una vez que Exchange se ha implementado e integrada tal como se describe en [Integrar Skype para profesionales de 2015 servidor con Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
+En la siguiente tabla se describe la Skype para las características de negocio que son compatibles con las distintas versiones de Office una vez que Exchange se ha implementado e integrada tal como se describe en [Integrar Skype para Business Server con Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
   
 **Skype para empresas y compatibilidad de Microsoft Office**
 
 |**Característica**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 y 2016**|**2016 de Office para Mac** & #x 2776; |
 |:-----|:-----|:-----|:-----|
-|**Características de Outlook** <br/> ||||
-|Personalizar invitaciones a reuniones de Outlook (agregar logotipo, URL de ayuda, declinación de responsabilidades, texto del pie de página)  <br/> |No  <br/> |Sí  <br/> |No  <br/> |
-|Configurar la opción de reunión para silenciar el audio y el vídeo de los asistentes de manera predeterminada  <br/> |No  <br/> |Sí  <br/> |No  <br/> |
-|Almacén de contactos unificados para la administración de las listas de contactos a través de Office y Skype para la empresa  <br/> |No  <br/> |Sí (requiere Exchange 2013 o posterior)  <br/> |Sí  <br/> |
-|Imágenes de perfil de alta resolución  <br/> |No  <br/> |Sí (requiere Exchange 2013 o posterior)  <br/> |Sí  <br/> |
-|Estado de presencia en el Microsoft Outlook, en, campos y Cc  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
-|Responder con mensajería instantánea o llamar desde el menú de disponibilidad  <br/> |Sí (desde la tarjeta de contacto)  <br/> |Sí (desde la tarjeta de contacto)  <br/> |Sí (desde la tarjeta de contacto)  <br/> |
-|Estado de presencia en una convocatoria de reunión en la pestaña Asistente para programación  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
-|Responder con mensajería instantánea o llamada desde la barra de herramientas o la cinta de opciones en un mensaje de correo electrónico recibido  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
-|**Otras aplicaciones de Office** <br/> ||||
-|Notas compartidas de OneNote  <br/> |No  <br/> |Sí  <br/> |No  <br/> |
-|Configuración integrada en el programa de configuración de Office  <br/> |No  <br/> |Sí  <br/> |No  <br/> |
-|Contenido de presentaciones de PowerPoint  <br/> |Sí  <br/> |Sí  <br/> (VBSS también disponible)  <br/> |Sí  <br/> |
-|Mensajería instantánea y presencia en los archivos de Microsoft Word y Microsoft Excel (etiquetas inteligentes habilitadas)  <br/> |Solo Microsoft Word  <br/> |Solo Microsoft Word  <br/> |No  <br/> |
-|Mensajería instantánea y presencia en los sitios de Microsoft SharePoint (debe instalarse Outlook)  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
+|**Características de Outlook** ||||
+|Personalizar invitaciones a reuniones de Outlook (agregar logotipo, URL de ayuda, declinación de responsabilidades, texto del pie de página)  |No  |Sí   |Sí|
+|Configurar la opción de reunión para silenciar el audio y el vídeo de los asistentes de manera predeterminada    |No    |Sí    |No    |
+|Almacén de contactos unificados para la administración de las listas de contactos a través de Office y Skype para la empresa    |No    |Sí (requiere Exchange 2013 o posterior)    |Sí    |
+|Imágenes de perfil de alta resolución    |No    |Sí (requiere Exchange 2013 o posterior)    |Sí    |
+|Estado de presencia en el Microsoft Outlook, en, campos y Cc    |Sí    |Sí    |Sí    |
+|Responder con mensajería instantánea o llamar desde el menú de disponibilidad    |Sí (desde la tarjeta de contacto)    |Sí (desde la tarjeta de contacto)    |Sí (desde la tarjeta de contacto)    |
+|Estado de presencia en una convocatoria de reunión en la pestaña Asistente para programación    |Sí    |Sí    |No    |
+|Responder con mensajería instantánea o llamada desde la barra de herramientas o la cinta de opciones en un mensaje de correo electrónico recibido    |Sí    |Sí    |Sí    |
+|**Otras aplicaciones de Office**   ||||
+|Notas compartidas de OneNote    |No    |Sí    |No    |
+|Configuración integrada en el programa de configuración de Office    |No    |Sí    |No    |
+|Contenido de presentaciones de PowerPoint    |Sí    |Sí (VBSS también está disponible)    |Sí    |
+|Mensajería instantánea y presencia en los archivos de Microsoft Word y Microsoft Excel (etiquetas inteligentes habilitadas)    |Solo Microsoft Word    |Solo Microsoft Word    |No    |
+|Mensajería instantánea y presencia en los sitios de Microsoft SharePoint (debe instalarse Outlook)    |Sí    |Sí    |No    |
    
 & #x 2776; -Se da por supuesto que ha instalado y se está ejecutando actualmente una Skype para la empresa en el cliente de Mac o el Lync 2011 para cliente de Mac.
   
@@ -60,9 +60,10 @@ En la siguiente tabla se describe Skype para soporte del negocio para las distin
 
 |**Versión de Exchange Server**|**Skype para soporte del negocio**|
 |:-----|:-----|
-|Exchange Server 2016  <br/> |Igual que la compatibilidad con Exchange Server 2013  <br/> |
-|Exchange Server 2013  <br/> |Igual que el soporte técnico de Exchange Server 2010, con la incorporación de  <br/>&bull;&nbsp;&nbsp;Almacén de contactos unificados  <br/>&bull;&nbsp;&nbsp;Imágenes de alta resolución  <br/>&bull;&nbsp;&nbsp;Integración de archivado  <br/> **Nota:** Para obtener información detallada, vea [Integrar Skype para profesionales de 2015 servidor con Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
-|Exchange Server 2010  <br/> |Las siguientes características solo están disponibles mediante EWS:  <br/>&bull;&nbsp;&nbsp;Leer o eliminar elementos en la carpeta Historial de conversaciones  <br/>&bull;&nbsp;&nbsp;Leer o eliminar elementos de correo de voz  <br/>&bull;&nbsp;&nbsp;Mostrar información de libre/ocupado extendida y el asunto de la reunión y la ubicación  <br/>&bull;&nbsp;&nbsp;Sincronización de contactos de Exchange  <br/> Las carpetas públicas son opcionales en Exchange Server 2010.  <br/> |
+|Exchange Server 2019 (Skype para Business Server 2019 sólo) |Igual que la compatibilidad con Exchange Server 2013    |
+|Exchange Server 2016    |Igual que la compatibilidad con Exchange Server 2013  <br/> |
+|Exchange Server 2013  <br/> |Igual que el soporte técnico de Exchange Server 2010, con la incorporación de  <br/>&bull;&nbsp;&nbsp;Almacén de contactos unificados  <br/>&bull;&nbsp;&nbsp;Imágenes de alta resolución  <br/>&bull;&nbsp;&nbsp;Integración de archivado  <br/> **Nota:** Para obtener información detallada, vea [Integrar Skype para Business Server con Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
+|Exchange Server 2010  <br/>(Skype para Business Server 2015 sólo) |Las siguientes características solo están disponibles mediante EWS:  <br/>&bull;&nbsp;&nbsp;Leer o eliminar elementos en la carpeta Historial de conversaciones  <br/>&bull;&nbsp;&nbsp;Leer o eliminar elementos de correo de voz  <br/>&bull;&nbsp;&nbsp;Mostrar información de libre/ocupado extendida y el asunto de la reunión y la ubicación  <br/>&bull;&nbsp;&nbsp;Sincronización de contactos de Exchange  <br/> Las carpetas públicas son opcionales en Exchange Server 2010.  <br/> |
    
 ## <a name="see-also"></a>Vea también
  
@@ -70,8 +71,3 @@ En la siguiente tabla se describe Skype para soporte del negocio para las distin
   
 [Planeación de los clientes de las reuniones (Web App y aplicación de las reuniones)](meetings-clients.md)
 
-[Interoperabilidad de clientes en Lync 2013](http://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)
-  
-[Requisitos del sistema cliente](http://technet.microsoft.com/library/38f3a465-dac1-4381-bc59-270a4ef07ced.aspx)
-  
-[Requisitos de aplicación de almacenamiento de Windows de Lync](http://technet.microsoft.com/library/5f2e0a40-8450-4f61-b6f6-913fc1906020.aspx)

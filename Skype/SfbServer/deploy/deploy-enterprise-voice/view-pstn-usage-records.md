@@ -1,9 +1,8 @@
 ---
-title: Ver registros de uso de la RTC en Skype Empresarial 2015
+title: Ver registros de uso de RTC de Skype para la empresa
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: 'Resumen: Obtenga información sobre cómo ver registros de uso de RTC mediante la Skype para el Panel de Control de servidor empresarial o el Skype para Shell de administración de servidor empresarial.'
-ms.openlocfilehash: 3d7682be31bdd8afc3a4700943789f555d3a3944
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: c5775f619c1da1e94ff6aad0b4794e686611ab92
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568224"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967146"
 ---
-# <a name="view-pstn-usage-records-in-skype-for-business-2015"></a>Ver registros de uso de la RTC en Skype Empresarial 2015
+# <a name="view-pstn-usage-records-in-skype-for-business"></a>Ver registros de uso de RTC de Skype para la empresa
  
 **Resumen:** Obtenga información sobre cómo ver registros de uso de RTC mediante la Skype para el Panel de Control de servidor empresarial o el Skype para Shell de administración de servidor empresarial.
   
@@ -55,4 +54,5 @@ Un registro de uso de una red de telefonía conmutada (RTC) especifica la clase 
 
 ## <a name="see-also"></a>Vea también
 
-[Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para profesionales de 2015](voice-policy-and-pstn-usage-records.md)
+[Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para la empresa](voice-policy-and-pstn-usage-records.md)
+

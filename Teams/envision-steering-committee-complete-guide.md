@@ -1,219 +1,221 @@
 ---
-title: Comité de dirección de la implementación de voz de nube de Microsoft Teams
+title: Comité de dirección de la implementación de voz en la nube de Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Identificar un grupo aplicable de los participantes clave y líderes de proyecto para identificar los objetivos de implementación, seguimiento y quitar los bloqueadores.
+description: Identificar un grupo de control de las partes interesadas clave y los jefes de proyecto para identificar los objetivos de implementación, realizar un seguimiento del progreso y quitar los bloqueadores de elementos.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30553d989a48fb008b6dc52c759150b2997ac01b
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: b4f3651ca59819ba732f5fe1e705201d4ee44757
+ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "20266132"
 ---
-# <a name="steering-committee"></a>Comité directivo
+# <a name="steering-committee"></a>Comité de dirección
 
-## <a name="steering-committee-overview"></a>Información general del Comité directivo
+## <a name="steering-committee-overview"></a>Información general del Comité de dirección
 
-Un Comité de dirección es un grupo que controla de los participantes clave y líderes de proyecto que se han juntos para guiar un proyecto o programa hacia sus resultados de negocio definidos. El Comité de dirección no es directamente responsable de *la* que entrega del proyecto, pero en su lugar *qué* que ofrece el proyecto para el negocio.
+Un Comité de dirección es un grupo de control de las partes interesadas clave y los jefes de proyecto que se han juntos para guiar un proyecto o programa hacia sus resultados empresariales definidas. El Comité de dirección no es directamente responsable de *la* que entrega del proyecto, pero en su lugar *¿qué* que ofrece el proyecto para el negocio.
 
-Cada proyecto requiere un acordado en la visión y la carta. Para ofrecer los resultados deseados del proyecto que debe definir claramente la visión, necesita supervisar y mantener. Esto es responsabilidad del Comité directivo: unidad decisiones, asesorar, proporcionar supervisión estratégica, para servir como defensores de la organización para las iniciativas del proyecto, y, cuando sea necesario: quitar los bloqueadores.
+Cada proyecto requiere una visión acordado en y carta. Para ofrecer los resultados deseados de la de los proyectos que debe definirse claramente la visión, necesita supervisar y mantener. Esto se convierte en la responsabilidad del Comité de gobierno: a las decisiones de unidad, de aviso, proporcionar supervisión estratégica, para que sirva como abogados a la organización para las iniciativas del proyecto, y, cuando sea necesario: quitar los bloqueadores de elementos.
 
-La organización debe poner pensamiento significativo en la constitución del Comité directivo. El Comité debe asegurarse de que el proyecto alcance los objetivos de negocio que ha definido para la conducción de cambio en toda la organización, satisfacer periódicamente para discutir el pulso actual del proyecto y ayudar a eliminar los obstáculos que se encuentran durante la viaje.
+Su organización debe colocar reflexión significativo en la formación del Comité de dirección. El Comité debe asegurarse de que el proyecto logra los objetivos de negocio que ha definido para que manejan el cambio en toda la organización, reunirse periódicamente para discutir los impulsos actual del proyecto y ayudar a eliminar los obstáculos que se producen durante la viaje.
 
 El Comité debe definir su carta para incluir algunos objetivos clave:
 
--   Mantener un sólido alineamiento entre el equipo del proyecto y el patrocinador ejecutivo o el liderazgo ejecutivo.
+-   Mantenga una alineación segura entre el equipo del proyecto y el patrocinador ejecutivo o Liderazgo ejecutivo.
 
--   Proporcionar información sobre el estado del proyecto para el patrocinador ejecutivo o Liderazgo ejecutivo.
+-   Proporcionar información sobre el estado del proyecto al patrocinador ejecutivo o Liderazgo ejecutivo.
 
--   Permitir que el patrocinador ejecutivo o equipo de liderazgo ejecutivo proporcionan la dirección y de entrada para el proyecto y asegurar que se alinea con apremiantes para objetivos de negocios, ajustando los planes del proyecto, resultados objetivos clave (OKRs) y otras actividades del proyecto.
+-   Permitir que el patrocinador ejecutivo o el equipo de liderazgo ejecutivo proporcionar la dirección y de entrada para el proyecto y asegúrese de que se alinea con apremiantes para los objetivos empresariales, mediante el ajuste de planes de proyecto, los resultados claves objetivos (OKRs) y otras actividades del proyecto.
 
-El Comité directivo se reúne en un intervalo periódico durante toda la duración de un proyecto para asegurar el alineamiento entre el liderazgo de la organización y el equipo del proyecto. Esta reunión crítica garantiza que la dirección del proyecto tiene soporte completo de liderazgo e incorpora los comentarios proporcionados por el liderazgo en el proyecto para conseguir el éxito. El Comité utiliza estas reuniones para conocer sobre el estado del proyecto así como:
+El Comité de dirección cumple en un intervalo periódico a lo largo de la duración de un proyecto para garantizar la alineación entre el liderazgo organizativo y el equipo del proyecto. Esta reunión crítica garantiza que la dirección del proyecto tiene compatibilidad total con del liderazgo e incorpora los comentarios proporcionados por los altos directivos en el proyecto para el éxito de la unidad. El Comité usa estas reuniones para Obtenga información sobre el estado del proyecto así como para:
 
--   Acuerdo sobre los resultados de negocios que se alinean en el caso de negocios y para asegurar que el proyecto se dirige hacia la entrega de estos resultados.
+-   Está de acuerdo en los resultados empresariales que se alinean en el caso de negocio, y garantizar el proyecto se dirige hacia la entrega de estos resultados.
 
--   Comprobar y aprobar el proyecto para la exactitud y el cumplimiento de la rentabilidad.
+-   Comprobar y aprobar el proyecto para el cumplimiento con el caso de negocio y precisión.
 
--   Revise y compruebe los cambios realizados en el caso de negocio que puedan afectar a los resultados definidos.
+-   Revise y compruebe los cambios realizados en el caso de negocio que puede afectar a los resultados empresariales definidos.
 
--   Tomar decisiones estratégicas sobre la priorización de entregas del proyecto y aprobar los resultados provisionales.
+-   Tomar decisiones estratégicas con respecto a la asignación de prioridades de entregas del proyecto y aprobar entregas provisionales.
 
--   Identificar, administrar y mitigar las brechas, riesgos y problemas donde se requiere del Comité influencia adicional.
+-   Identificar, administrar y mitigar huecos, riesgos y problemas, donde es necesario desde el Comité influencia adicional.
 
--   Obtener soporte desde el patrocinador ejecutivo o equipo de liderazgo ejecutivo para situaciones que requieren la elevación, dar prioridad y resolver cualquier conflicto entre unidades de negocio de los participantes. 
+-   Recopilar soporte desde el patrocinador ejecutivo o equipo de liderazgo ejecutivo para problemas que requieren escalación, asignar prioridades a los y resolver los conflictos entre unidades de negocio de los participantes. 
 
--   Proporcionar retroalimentación formal y recomendaciones Liderazgo ejecutivo, Consejo asesor del cambio u otros negocios y participantes de TI, según corresponda.
+-   Proporcionar comentarios formal y recomendaciones a Liderazgo ejecutivo, el Consejo consultor de cambios, u otros profesionales y las partes interesadas de TI, según corresponda.
 
-## <a name="identify-members-of-the-steering-committee"></a>Identificar a los miembros del Comité directivo
+## <a name="identify-members-of-the-steering-committee"></a>Identificar a los miembros del Comité de gobierno
 
-Un Comité sólo es tan eficaz como sus participantes son influyentes. El Comité directivo necesita mantener representación de negocios y decisiones técnicas, junto con cualquiera de los equipos de socios que contribuyen a la solución y liderazgo de equipos de proyecto principal.
+Un Comité sólo es tan eficaz como sus participantes son conocedor. El Comité de dirección se necesita mantener la representación de negocio y responsables de decisiones técnicas, junto con cualquiera de los equipos de socio que contribuyen a la solución y jefes de equipo del proyecto principal.
 
-Cada Comité directivo necesita un liderazgo sólido y funciones claramente definidas y responsabilidades. Para establecer expectativas realistas para el funcionamiento del Comité y la participación de sus miembros, debe documentar y acordar asignadas funciones y responsabilidades. Absolutamente debe tener un patrocinador ejecutivo con capacidad de respuesta y el liderazgo del negocio de este Comité para proporcionar influencia efectiva en toda la organización y garantizar una perspectiva diversa.
+Cada Comité directivo necesita liderazgo sólido y claramente funciones y responsabilidades definidas. Para establecer las expectativas realistas para rendimiento del Comité y la participación de sus miembros, debe documentar y acordar asignados roles y responsabilidades. Absolutamente debe tener un patrocinador ejecutivo con capacidad de respuesta y liderazgo de negocio en este Comité para proporcionar influencia eficaz en toda la organización y garantizar una perspectiva diverso.
 
 > [!NOTE]
-> Ajustar las funciones y responsabilidad basada en la organización y el diseño del equipo de proyecto. En organizaciones más pequeñas, estas funciones pueden superponerse.
+> Ajustar las funciones y responsabilidad en función de la organización y el diseño del equipo de proyecto. En organizaciones más pequeñas, pueden superponerse a estas funciones.
 
 | Título | Rol | Contacto | Email |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-----------|
-| Patrocinador ejecutivo | Defensor para el proyecto, asegúrese de que su dirección permanece en alineación con la visión de la organización. Servir como no puede acordar la máxima autoridad para tomar decisiones de la Comisión. | | |
-| Maker(s) de la toma de decisiones de negocio | Defensor para el proyecto, asegúrese de que su dirección permanece en alineación con la visión de la organización | | |
-| Arquitecto | Asegúrese de que las decisiones tecnológicas son factibles y alinean a los resultados del negocio acordados previamente. | | |
-| Equipo principal | Proporcionan información detallada acerca de un componente específico, técnico o no técnico (por ejemplo, administración de cambios y adopción) | | |
-| Experto en calidad | Ser responsable de poner en marcha medidas de calidad. | | |
-| Gerente de proyecto o programa | Asumir la responsabilidad de la presentación y la recopilación de comentarios para incorporar en el proyecto. | | |
-| Equipo de cuenta de socio | Proporcionar comentarios desde el punto de vista de su compañero desde una perspectiva más amplia, otras actividades de socio. | | |
-| Equipo de proyecto asociado | Proporcionar comentarios desde el punto de vista de su compañero con respecto a la entrega del proyecto | | |
+| Patrocinador ejecutivo | Promuevan para el proyecto, asegúrese de que su dirección permanece en alineación con la visión de la organización. Servir como ultimate autoridad para tomar decisiones el Comité no están de acuerdo en. | | |
+| Maker(s) de toma de decisiones empresariales | Promuevan para el proyecto, asegúrese de que su dirección permanece en alineación con la visión de la organización | | |
+| Arquitecto | Asegúrese de que las decisiones de tecnología son factibles y se alinean a acordado en los resultados empresariales. | | |
+| Equipo del proyecto principal | Proporciona información detallada sobre cualquier componente específico, técnica o no técnica (por ejemplo, administración de cambios y adopción) | | |
+| Experto en calidad | Ser responsable de poner en marcha métricas de calidad. | | |
+| Jefe de programa o proyecto | Asumir la responsabilidad de la presentación y la recopilación de comentarios para incorporar en el proyecto. | | |
+| Equipo de cuentas de asociados | Envíe comentarios desde el punto de vista del socio desde una perspectiva más amplia, otras actividades de socio. | | |
+| Equipo de proyecto de socio | Envíe comentarios desde el punto de vista del socio con respecto a la entrega del proyecto | | |
 
-## <a name="schedule-steering-committee-meetings"></a>Programar las reuniones del Comité directivo 
+## <a name="schedule-steering-committee-meetings"></a>Programar reuniones del Comité de dirección 
 
-Aunque cada organización y cada equipo de proyecto está estructurado de forma ligeramente distinta, la reunión del Comité directivo nunca debe ser la reunión diaria de otro proyecto. Tenga en cuenta los objetivos de la reunión del Comité directivo: es su oportunidad para mantener el proyecto al día mediante la recopilación de soporte y la dirección del Liderazgo ejecutivo o director ejecutivo. Asegúrese de que todo el mundo acude a esta reunión así hay directa de mensajería entre el equipo de proyecto completo y el patrocinador ejecutivo o Liderazgo ejecutivo y no hay ningún problemas de comunicación cuando se retransmite el mensaje.
+Aunque cada organización y cada equipo de proyecto está estructurado de forma ligeramente distinta, la reunión del Comité de dirección nunca debe convertirse en la reunión diaria de cualquier otro proyecto. Tenga en cuenta los objetivos de la reunión del Comité de dirección: es la oportunidad para mantener el proyecto en el camino mediante la recopilación de soporte técnico y la dirección desde el patrocinador ejecutivo o Liderazgo ejecutivo. Asegúrese de que todos los usuarios asiste a esta reunión por lo que no hay directa de mensajería entre el equipo de proyecto completo y patrocinador ejecutivo o Liderazgo ejecutivo y no hay ningún falta de comunicación cuando se retransmite el mensaje.
 
-Al programar un reunión del Comité, tomar en consideración el proyecto y la cadencia organizativa. Intente programar ya sea semanalmente o cada dos semanas, basándose en la preferencia los patrocinadores ejecutivos y el ritmo de su organización.
+Al programar un reunión del Comité, tenga en cuenta el proyecto y la marcha organizativa. Intente programar ya sea semanalmente o cada dos semanas, basándose en la preferencia de los patrocinadores ejecutivos y el ritmo de su organización.
 
 > [!TIP]
-> Si está utilizando un entorno de rápido movimiento, no pierda demasiado tiempo entre reuniones, que puede conducir a problemas que podrían haberse evitados cumpliendo con más frecuencia. Sin embargo, en un entorno de ritmo más lento, manteniendo una reunión cada semana puede conducir a la fatiga de la reunión, que podría disminuir la eficacia del Comité directivo. Utilice su experiencia y criterio para determinar la cadencia adecuada y recuerde siempre que se puede cambiar la programación. No se satisfacen simplemente en aras de la reunión.
+> Si está utilizando un entorno de rápida evolución, no permita que demasiado tiempo pasar entre las reuniones, que puede dar lugar a problemas que hayan podrían evitarse con las reuniones con más frecuencia. Sin embargo, en un entorno más lento paced, realizar una reunión de todas las semanas puede provocar fatiga de reunión, que puede reducir la eficacia del Comité de gobierno. Use su experiencia y la opinión de para determinar la cadencia adecuada y recuerde siempre que se puede cambiar la programación. No cumplen con para ilustrar la reunión.
 
-### <a name="prepare-for-the-meeting"></a>Preparar la reunión
+### <a name="prepare-for-the-meeting"></a>Prepararse para la reunión
 
-Para sacar el máximo partido del tiempo de todo el mundo, debe prepararse para la reunión. El equipo principal puede comenzar a preparar el material para la reunión del Comité. [Plantilla Comité directivo: vínculo a la plantilla de ejemplo PPT] Comité directivo de plantilla que puede utilizarse como punto de partida para la preparación.
+Para sacar el máximo partido de tiempo de todos los usuarios, debe prepararse para la reunión. Puede iniciar el equipo de núcleo preparar el material para la reunión del Comité de dirección. [Plantilla Comité de dirección – vínculo a la plantilla de ejemplo PPT] Comité directivo de plantilla se puede usar como punto de partida para la preparación del.
 
-Deben completar los siguientes activos e incluidos en la cubierta de la presentación para la reunión:
+Los siguientes activos deben ser completados e incluidos en las diapositivas de presentación de la reunión:
 
--   Seguimiento de elementos de acción previa Comité directivo
+-   Seguimiento de elementos de acción previa Comité de dirección
 
--   PowerPoint del Comité directivo, informe de estado de alto nivel del proyecto
+-   PowerPoint Comité de dirección, el informe de estado de alto nivel de proyecto
 
-    -   Examine el proyecto todo desde una revisión mensual, trimestral y anual – tipo.
+    -   Examine el proyecto Subir todo desde una revisión de tipo – mensual o trimestral o anual.
 
     -   Identificar los hitos clave:
 
-        -   Explique la importancia y el impacto de hitos (éstos se deben capturar en el registro de riesgos).
+        -   Explique la importancia y el impacto de los hitos (estos se deben capturar en el registro de riesgos).
 
-        -   Decida continuar o no para futuras migraciones basado en preparación, especialmente con los empresarios.
+        -   Decida en continuar o no para las migraciones futuras en función de la preparación, especialmente con los responsables de decisiones empresariales.
 
-    -   Destacar las fechas de ejecución de proyectos y actividades de gran impacto.
+    -   Destacar fechas de ejecución del proyecto y actividades de gran impacto.
 
-    -   Informe sobre el OKRs que se identificaron como importante al Comité; No olvide incluir uso, opinión de usuario, las métricas de calidad y confiabilidad.
+    -   Informar sobre el OKRs que se identificaron como importante del Comité; No olvide incluir el uso, la opinión de los clientes de usuario, las métricas de calidad y la confiabilidad.
 
--   Comité directivo de PowerPoint, el informe de estado semanal de proyecto
+-   Comité de PowerPoint, el informe de estado semanal de project
 
-    -   Contiene resaltado y menos ventajosos, temas clave y elementos de acción y pasos a seguir.
+    -   Contiene resaltado y relieve, problemas claves y elementos de acción y pasos siguientes.
 
-    -   Contiene detalles técnicos más centrado en los problemas del día a día y menos en el estado global del proyecto.
+    -   Contiene todos los detalles técnicos más centrado en los problemas del día a día y menos en estado global del proyecto.
 
--   Registro de problemas y riesgos registran [vínculo riesgo problemas Log (contenido Web)]
+-   Registro de problemas y [riesgos registrar](1-envision-define-my-success-cloud-voice.md#define-okrs-ksis-and-risks)
 
-    -   Compartir el estado de cualquier problema que se está realizando el seguimiento de la Comisión.
+    -   Compartir el estado de cualquier problema que está realizando un seguimiento el Comité.
 
-        -   Prepárese para proporcionar una actualización de todos los errores.
+        -   Esté preparado para proporcionar una actualización en todos los errores.
 
-    -   Identificar los elementos nuevos que podrían afectar el éxito de lograr los resultados del negocio.
+    -   Identificar los elementos nuevos que podrían afectar el éxito de lograr los resultados empresariales.
 
         -   Identificar su impacto en el proyecto.
 
         -   Identificar los individuos afectados o unidades de negocio.
 
-        -   Identificar los pasos a seguir y qué tipo de asistencia puede ser necesario que los miembros del Comité.
+        -   Identificar los pasos siguientes y tipo de asistencia puede requerirse de los miembros del Comité.
 
--   Resumen de calidad: utilizar informes desde el Campeón de calidad [enlace a la planificación para la gestión de servicio y calidad (contenido Web)]
+-   Introducción a la calidad: uso de informes desde el [Campeón de calidad](envision-planning-for-service-management-and-quality-complete-guide.md#the-quality-champion-role)
 
-    -   Estar preparado para explicar los resultados de los informes de calidad detalladas e incluyen recomendaciones para solucionar los problemas indicados.
+    -   Esté preparado para explicar los resultados de los informes de calidad exhaustivos e incluyen recomendaciones para corregir cualquier problema que se indique.
 
     -   Ajustar los informes de calidad de cada semana para centrarse en las siguientes áreas:
 
-        -   Tendencias de la calidad global de la organización
+        -   Tendencias de calidad total para la organización
 
-        -   Se dirige el estado de sitios problemáticos conocidos o sitios que experimentan problemas para mostrar la dirección del sitio y, idealmente, informar un resultado positivo en el trabajo de corrección
+        -   El estado de un problema conocido o sitios experimentando problemas, para mostrar la dirección del sitio se dirige y: lo ideal: notificar los resultados positivos de trabajo de corrección
 
-        -   El estado de calidad de sitios habilitados recientemente basándose en el progreso del proyecto
+        -   El estado de calidad de sitios habilitados recientemente según el progreso del proyecto
 
-A continuación, programar una llamada a prepararse para la reunión del Comité. Esta llamada debe incluir sólo los miembros del equipo que son importantes desde el equipo principal, esto podría incluir recursos de red, escritorio, operaciones o de otros equipos que tienen elementos que se abordarán durante la reunión del Comité. El equipo principal miembros nunca deberían ser desprevenido por cualquier material que se pretende cubrir durante la llamada del Comité directivo.
+A continuación, programar una llamada a prepararse para la reunión del Comité de dirección. Esta llamada debe incluir sólo los miembros del equipo que son críticos desde el equipo del proyecto principal, podría tratarse de recursos de redes, escritorio, operaciones u otros equipos que tienen los elementos que se tratará durante la reunión del Comité. Nunca deben ser miembros del equipo del proyecto principal que desactiva guard detecta cualquier material de que planeación para cubrir durante la llamada del Comité de dirección.
 
-Esta llamada preparatoria es una excelente manera de sincronizar antes de que se reúne el Comité directivo. También es el momento para garantizar que los elementos abiertos, desacuerdos o quejas entre el equipo del proyecto se ponga a la luz. Esto sirve para ayudar a fomentar una comunicación abierta y evitar que nadie se sorprenda desagradable durante la reunión.
+Esta llamada preparatoria es una excelente manera de sincronizar antes de la reunión directivo. También es el tiempo para asegurarse de que cualquier abrir elementos, desacuerdos o quejas entre el equipo del proyecto se ponga a la luz. Esto está diseñado para ayudar a facilitar la comunicación abierta e impedir que alguien se sorprendan desagradablemente durante la reunión.
 
-Revisar los informes de la semana con el equipo principal y socios a participantes y resolver cualquier duda o pregunta. Trabajar dentro del equipo para ajustar, agregar o quitar cualquier contenido basado en las discusiones o pedir aclaraciones adicionales desde el Comité directivo de acuerdo. Asignar a los miembros del equipo que presentarán cada sección, para ayudar a asegurar el flujo y continuidad.
+Revisar los informes de la semana con el equipo principal y las partes interesadas de socio y alguna duda o direcciones. Trabajar en el equipo para ajustar, agregar o quitar cualquier contenido basado en las discusiones o está de acuerdo con solicitar una explicación adicional desde el Comité de dirección. Asignar a los miembros del equipo que le presentará cada sección, para ayudar a garantizar la continuidad y flujo.
 
-### <a name="hold-the-meeting"></a>Celebrar la reunión 
+### <a name="hold-the-meeting"></a>Mantenga la reunión 
 
-La reunión propiamente dicha debe ser una continuación natural del trabajo de preparación que ha realizado el equipo principal. Recuerde que el objetivo de estas reuniones es fomentar un ambiente de comunicación y colaboración para lograr la visión del proyecto. Utilice las siguientes sugerencias para ayudar a asegurar el éxito de las reuniones:
+La reunión propiamente dicha debe ser una continuación natural del trabajo de preparación que ha realizado el equipo principal. Recuerde que es el objetivo de estas reuniones fomentar una atmósfera de comunicación y colaboración para lograr la visión del proyecto. Use las siguientes sugerencias para ayudar a garantizar el éxito de las reuniones:
 
-1.  Convoque la reunión para ser cara a cara. Identificar una sala de conferencias con una tabla que es lo suficientemente grande como para que todos puedan sentarse. Asegúrese de que la sala de reuniones tiene capacidades de vídeo. Aunque lo ideal sería tener todos en la sala, no siempre es posible, así que asegúrese de la reunión invitación incluye la sala de conferencias y la información de la reunión en línea con audio por lo menos, pero que, idealmente, audio, vídeo y uso compartido. Anime a todos los participantes remotos utilizar vídeo cuando se unan a la reunión.
+1.  Programar la reunión a ser cara a cara. Identificar una sala de conferencias con una tabla que es lo suficientemente grande para todos los usuarios sentarse. Asegúrese de que la sala de reuniones tiene capacidades de vídeo. Aunque lo ideal sería que todos los usuarios en la sala, no siempre es posible, por lo que asegúrese de la reunión incluye la invitación a la sala de conferencias y la información de la reunión en línea con al menos audio, pero lo ideal, audio, vídeo y uso compartido. Anime a todos los participantes remotos para usar vídeo cuando se unan a la reunión.
 
-2.  Intente mantener la agenda, aunque sin duda surgirá distracciones que deba solucionarse. Si es posible agregar estos elementos a una sección de "aparcamiento" y ocuparse de ellos más adelante (en función de su importancia). Si el tema es demasiado importante como para posponer, llegar a un acuerdo para continuar debatirlo, pero observa que necesitará mover algunos elementos de la agenda para futuras reuniones. De acuerdo a que se dedique algún tiempo (cinco a diez minutos) para tratar los elementos apremiantes que necesitan la atención inmediata del Comité.
+2.  Intente mantener a la agenda, aunque sin duda alguna surgirá distracciones que deben llevarse a cabo. Si es posible (según su importancia), agregue estos elementos a una sección de "aparcamiento" y solucionarlos más adelante. Si el tema es demasiado importante para posponer, obtener el contrato para continuar la discusión, pero observa que necesitará para mover algunos elementos de la agenda en las futuras reuniones. Está de acuerdo con dedique algún tiempo (cinco a diez minutos) para tratar los elementos al presionar que necesitan la atención inmediata del Comité.
 
-3.  Esté preparado para analizar los casos de soporte abiertos. Intente mantener el debate tan alto nivel como sea posible para esta reunión: número de entradas, tipos de entradas, principales elementos abiertos. Debe estar preparado para tratar todos los temas, aunque sean menores, comprender el impacto en el negocio y los efectos en el proyecto
+3.  Esté preparado para analizar los casos de soporte abiertos. Intente mantener la discusión como alto nivel como sea posible para esta reunión: número de vales, tipos de vales, abrir elementos principales. Debe estar preparado para resolver todos los problemas, incluso si son secundarias, comprender el impacto en el negocio y los efectos en el proyecto
 
-4.  Delegar una nota de Anotador. Es demasiado difícil tomar notas mientras que realiza la presentación o en medio de un debate. Asegúrese de que los detalles se documentan para las decisiones que se realizan en el Comité. Esté preparado para enviar estas decisiones y notas como parte de un correo electrónico de seguimiento.
+4.  Delegar una notas. Es muy difícil tomar notas mientras realiza la presentación o en medio de un debate caliente. Asegúrese de que se documentan detalles para las decisiones que se realizan en el Comité. Esté preparado para enviar estas decisiones y notas de salida como parte de un correo electrónico de seguimiento.
 
-5.  Siempre intentará promover las noticias positivas sobre comentarios de esfuerzo y usuario de trabajo de la gente (si está disponible). Dile y vender el artículo. Si comentarios son enteramente negativo, esté preparado para hablar de esto y explicar qué se está haciendo para solucionar los problemas de la experiencia negativa de los usuarios.
+5.  Siempre intenta promover las noticias positivas sobre los comentarios de usuario y esfuerzo de trabajo de otras personas (si está disponible). Cuéntenos y vender el artículo. Si los comentarios son totalmente negativo, esté preparado para ponerse en contacto y se explica lo que se hace para resolver los problemas de experiencia de usuario negativo.
 
-    a.  Aproveche la oportunidad para dar Felicidades a miembros individuales del equipo para el buen trabajo que realizan. Es importante reconocer cuándo se está llevando a cabo excelente trabajo duro por miembros del equipo, especialmente frente a su equipo de liderazgo.
+    a.  Aproveche la oportunidad de dar prestigio a los miembros del equipo individuales para el buen trabajo que realizan. Es importante reconocer cuando trabajo excelente, disco duro se está llevando a cabo por los miembros del equipo, especialmente delante de su equipo de liderazgo.
 
-6.  Guarde siempre el final de la reunión para acordar los próximos pasos e identificar el propietario de los elementos de acción acordadas durante la reunión.
+6.  Guarde siempre el final de la reunión para está de acuerdo en los pasos siguientes e identificar el propietario de los elementos de acción que se han acordado durante la reunión.
 
-7.  Enviar correo electrónico de seguimiento que incluye la presentación que creó de asistentes y anexar las notas que se tomaron. No olvide incluir cualquiera que no asistieron a.
+7.  Enviar correo electrónico de seguimiento que incluye la presentación que se ha creado de los asistentes y anexar las notas que se tomaron. No olvide incluir cualquier persona que no asistieron a.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Después de revisar la información general del Comité directivo, ahora es el momento de actuar. El equipo del proyecto debe comenzar su trabajo para implementar el Comité de dirección en la línea de tiempo del proyecto y preparar una cadencia de reunión del Comité directivo regular. Idealmente, el Comité estará formado antes de que el proyecto comienza y proporcionar orientación a lo largo de todas sus fases, pero si no puede ser el caso, forma el Comité para guiar al equipo de proyecto a un resultado exitoso.
+Después de revisar la información general del Comité de gobierno, ahora es el momento de actuar. El equipo del proyecto debe comenzar su trabajo para implementar el Comité de dirección en la escala de tiempo del proyecto y preparar una cadencia de reuniones regulares Comité de dirección. Idealmente, el Comité estará formado antes de que el proyecto comienza y se proporcionan instrucciones en todas las fases de sus pero si no puede ser el caso, el Comité para guiar el equipo del proyecto para un resultado satisfactorio de formulario.
 
-1.  Identificar los miembros del Comité directivo. Pregúntense:
+1.  Identificar a los miembros del Comité de gobierno. Pida a su propio:
 
-    -   ¿Tenemos la representación correcta del negocio y liderazgo?
+    -   ¿Tenemos la representación derecha del negocio y liderazgo?
 
-    -   ¿Son los miembros identificamos capaces de influir en sus unidades de negocio o del mismo nivel en otras unidades?
+    -   ¿Son los miembros que se identificaron capaz de influir en sus unidades de negocio o colegas de otras unidades?
 
-2.  Crear una comunicación para enviar a cada miembro del Comité directivo:
+2.  Cree una comunicación para enviar a cada miembro del Comité de gobierno:
 
-    -   Incluir la tabla roles.
+    -   Incluir en la tabla roles.
 
-    -   Vender la importancia de la Comisión.
+    -   Vender la importancia del Comité.
 
-3.  Configurar la primera reunión para discutir las funciones y responsabilidades, definir la carta de la Comisión y validar o definir la OKRs. También pueden incluir elementos de la agenda:
+3.  Configurar la primera reunión para discutir los roles y responsabilidades, definir la carta del Comité y validar o definir la OKRs. También pueden incluir los elementos de la agenda:
 
-    -   Describa la cadencia de reunión.
+    -   Se analiza la cadencia de reunión.
 
-    -   Validar que están impulsando la carta y OKRs hacia un resultado de negocio significativo.
+    -   Validar que tiende la carta y OKRs hacia un resultado del negocio significativa.
 
-    -   Compruebe que la estrategia está alineada con OKRs.
+    -   Compruebe que la estrategia consiste en alineación con OKRs.
 
-4.  Empezar a conducir la calidad en todas las conversaciones:
+4.  Iniciar impulsa la calidad de cada conversación:
 
-    -   Articular la importancia de contar con un experto de calidad.
+    -   Exprese la importancia de contar con un experto de calidad.
 
-    -   Identificar las personas o el equipo que asumirá la función de calidad experto.
+    -   Identifique las personas o el equipo que tomará en el rol de los pesos pesados calidad.
 
-Comité directivo éxito no sucede por suerte. Elección de los miembros de la derecha, con las mejores intenciones, puede todavía resultados deficiente. Para ayudar a impulsar el éxito del Comité directivo, debe asegurarse de que contar con lo siguiente:
+Comité de dirección éxito no ocurre por suerte. Elección de los miembros de la derecha, con lo mejor de intenciones, puede seguir resultados deficiente. Para ayudar a impulsar el éxito del Comité de dirección, debe asegurarse de que tiene lo siguiente:
 
--   Un acordado en la visión y ámbito del proyecto con resultados de negocio mensurables, bien definido que abogará el Comité.
+-   Un acordado en la visión y el ámbito del proyecto con resultados de negocio bien definidos, cuantificables que abogará el Comité.
 
--   Una agenda organizada que impulsa reuniones útiles.
+-   Una agenda bien organizada que impulsa intencionadas reuniones.
 
 -   Ambiente de comunicaciones abiertas.
 
-    -   Colaboración y comunicación abierta se faculta a la Comisión. Crear un entorno donde todas las voces y se respeten los dictámenes. Perspectivas únicas pueden tener mayor impacto.
+    -   Colaboración y comunicación abierta en el que se va a conceder al Comité. Crear un entorno donde se escuche todas las voces y se respeten opiniones. Perspectivas únicas pueden tener el mayor impacto.
 
-    -   Un entorno abierto puede habilitarse cuando actúa de liderazgo para promover la comunicación y la colaboración del miembro. Aquí tiene algunas instrucciones:
+    -   Un entorno abierto puede habilitarse cuando actúa de liderazgo para promover la comunicación y colaboración de miembro. Estas son algunas instrucciones:
 
-        -   Todos los miembros del Comité deben ser defensores fuertes para el cambio que se introduce en la organización.
+        -   Todos los miembros del Comité deben ser abogados seguros para el cambio que se vaya a introducir en la organización.
 
-        -   Mantener el tamaño de Comité limitado a aquellos que son absolutamente necesarios para proporcionar una imagen precisa y aquellos que pueden hacer o influir en las decisiones en todas las unidades de negocio. Descripción de la jerarquía de la organización y la línea directa de cada miembro de influencia será crucial cuando aparezcan los bloqueadores.
+        -   Mantener el tamaño de Comité limitado a aquellos que son absolutamente necesarios para proporcionar una imagen precisa y aquellos que puede realizar o influir en las decisiones a través de unidades de negocio. Descripción de la jerarquía de la organización y la línea directa de cada miembro de influencia será crucial cuando aparecen los bloqueadores de elementos.
 
-        -   Haga participar a los jefes de proyecto y jefes de equipo en las deliberaciones y debates del Comité. Esté preparado para invitar a los miembros del equipo adicional que aporta claridad a explicaciones más detalladas que puedan ser necesarios en áreas específicas.
+        -   Haga participar a los jefes de proyecto y jefes de equipo en discusiones de Comité y decisiones. Esté preparado para invitar a los miembros del equipo principal adicionales para incorporar mayor claridad a explicaciones más detalladas que podrían ser necesarios en áreas específicas.
 
-El ciclo de vida de la solución cambiará la función del Comité. Como la fase de incorporación de mover en la fase de valor de la unidad que pueden necesitar varios ajustes al Comité:
+El ciclo de vida de la solución se cambiará el rol del Comité. Como proceso de previsión e incorporación mover en la fase de valor de unidad que puedan ser necesarios varios ajustes al Comité:
 
--   Ajustar la cadencia de la reunión. Observe la dinámica de la organización y determinar si la reunión tiene que ocurrir con menos frecuencia. Como el cambio organizacional comienza a disminuir la frecuencia de comunicación de nivel superior probablemente disminuirá. Investigar cambiar la reunión a una cadencia de reuniones mensuales o trimestrales, si procede
+-   Ajustar la cadencia de la reunión. Examine la dinámica de la organización y determinar si la reunión se debe a que se produzca con menos frecuencia. Como el cambio organizativo comienza a dwindle es probable que disminuirá la frecuencia para la comunicación de nivel superior. Investigar el cambio de la reunión a una cadencia de reunión mensuales o trimestrales, si es necesario
 
--   Ajustar a los representantes en la reunión. Como la solución pasa a la fase de valor de la unidad es probable que el equipo principal se reasignarán a nuevos proyectos. Será necesario actualizar el equipo a la que está informando como soporte y operaciones se convertirán en los clientes potenciales en el estado de la solución.
+-   Ajustar a los representantes de la reunión. Como la solución se transfiere a la fase de valor de la unidad es probable que se va a reasignar el equipo del proyecto principal a los nuevos proyectos. Será necesario actualizar el equipo que informa de asistencia técnica y operaciones se convertirán en los clientes potenciales en el estado de la solución.
 
--   Definición e informes de OKRs operacionales. Indicadores de éxito y resultados clave cambiará el ciclo de vida de la solución. Los resultados de negocio deseados deben seguir controlarse y registrados. Continuar informar sobre la calidad y la fiabilidad de la solución de voz en el contexto de la conducción hacia el resultado del negocio. Métricas adicionales y clave de resultados, tales como la opinión de usuario, adopción de usuario y medidas de apoyo se convierten en los principales indicadores de éxito.
+-   Definición y generación de informes sobre OKRs operativas. Los resultados de la claves y los indicadores de éxito cambiará a través del ciclo de vida de la solución. Se realiza un seguimiento y notifica deberían seguir los resultados de negocio deseados. Continuar informar sobre la calidad y la confiabilidad de la solución de voz en el contexto de dirige hacia el resultado del negocio. Métricas adicionales y clave de resultados, como la opinión de los clientes de usuario, las métricas de soporte técnico y adopción de usuario se convertirán en los indicadores de éxito superiores.
 
--   Utilizar un mayor variedad de Comité directivo para cubrir las fases de valor de la unidad de múltiples soluciones. Busque oportunidades para utilizar de forma más eficaz el Comité directivo. Utilice el Comité para proporcionar orientación a través de una mayor esfera de soluciones.
+-   Use un amplio Comité de dirección más grande para cubrir las fases de varias soluciones del valor de la unidad. Busque oportunidades para utilizar el Comité de dirección de forma más eficaz. Use el Comité para proporcionar instrucciones a través de una esfera más grande de soluciones.

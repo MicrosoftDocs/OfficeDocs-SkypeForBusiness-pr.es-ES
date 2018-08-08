@@ -13,31 +13,31 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
-description: 'Resumen: Los profesionales de TI deben revisar los requisitos de soporte técnico para la Skype para la aplicación empresarial de Web y aplicación de las reuniones de Skype durante la planeación de Skype para Business Server 2015. En este artículo no está pensada para los usuarios de estas aplicaciones.'
-ms.openlocfilehash: 88006a758909f56f21724706bf9670077d603caa
-ms.sourcegitcommit: 1b4e93727f65b120068a74064b4144f0117f230c
+description: 'Resumen: Los profesionales de TI deben revisar los requisitos de soporte técnico para la Skype para la aplicación empresarial de Web y aplicación de las reuniones de Skype durante la planeación de Skype para Business Server. En este artículo no está pensada para los usuarios de estas aplicaciones.'
+ms.openlocfilehash: f0fbf6cfec073ba3fdd25bdd4cb87c458144d3b7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19691205"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009683"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planeación de los clientes de las reuniones (Web App y aplicación de las reuniones)
  
-**Resumen:** LOS profesionales de TI deben revisar los requisitos de soporte técnico para la Skype para la aplicación empresarial de Web y aplicación de las reuniones de Skype durante la planeación de Skype para Business Server 2015. En este artículo no está pensada para los usuarios de estas aplicaciones.
+**Resumen:** LOS profesionales de TI deben revisar los requisitos de soporte técnico para la Skype para la aplicación empresarial de Web y aplicación de las reuniones de Skype durante la planeación de Skype para Business Server. En este artículo no está pensada para los usuarios de estas aplicaciones.
   
 Una vez que haya implementado Skype para Business Server, los usuarios de su organización tendrán supuestamente el Skype para Business client instalado como parte del proceso de implementación. 
   
 Más adelante en, esos usuarios pueden crear reuniones e invitar a los usuarios de fuera de la organización, y los invitados a la reunión no pueden tener cualquier versión de la Skype para clientes empresariales. Cuando los usuarios haga clic en la dirección URL de la invitación a la reunión, se detectará la falta de un cliente y el invitado sin un Skype para Business client le pedirá que descargue e instale a un cliente ligero, reuniones, por lo que puedan unirse a la reunión.
   
 > [!NOTE]
-> El Skype para la aplicación empresarial de Web y aplicación de las reuniones de Skype sólo están disponibles cuando intenta iniciar sesión en una reunión sin tener un Skype para la empresa. Ayuda de usuario para estas aplicaciones se encuentra en [https://aka.ms/smahelp](https://aka.ms/smahelp). 
+> El Skype para la aplicación empresarial de Web y aplicación de las reuniones de Skype sólo están disponibles cuando intenta iniciar sesión en una reunión sin necesidad de Skype para la empresa. Ayuda de usuario para estas aplicaciones se encuentra en [https://aka.ms/smahelp](https://aka.ms/smahelp). 
   
 > [!NOTE]
 > Pre-no se puede instalar cualquiera el Skype para la aplicación empresarial de Web o aplicación de las reuniones de Skype, pero los usuarios de [Smartphone](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-1) y [tableta](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-2) podrán instalar a económicos clientes móviles que puedan usar para asistir a reuniones.
   
 De forma predeterminada, el servidor que hospeda la reunión dirige al usuario para descargar e instalar Skype para Business Web App para unirse a la reunión. El Skype para la aplicación empresarial de Web se almacena en el servidor Front-End y obtiene envían asistentes a la reunión. 
   
-A partir de Skype para Business Server CU5, aplicación de las reuniones de Skype está disponible como un sustituto de Skype para la aplicación empresarial de Web, pero que proporciona la aplicación de las reuniones de Skype requiere la configuración adicional que se describe en Habilitar aplicación de las reuniones de Skype para reemplazar Skype para [ Aplicación Web empresarial de (opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable). Si está habilitada la aplicación de las reuniones de Skype, los usuarios descargarán la versión más reciente de la aplicación desde el Office 365 entrega red contenido (CDN), en lugar de su Skype para Business server.
+Para Skype para Business Server 2015, aplicación de las reuniones de Skype está disponible como un reemplazo de Skype para el principio de la aplicación Web de negocio con CU5, pero que proporciona la aplicación de las reuniones de Skype requiere la configuración adicional que se describen en [Habilitar la aplicación de las reuniones de Skype para reemplazar Skype para Business Web App (opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Si está habilitada la aplicación de las reuniones de Skype, los usuarios descargarán la versión más reciente de la aplicación desde el Office 365 entrega red contenido (CDN), en lugar de su Skype para Business server. Para Skype para aplicaciones de negocio servidor 2019 Skype reuniones es la única opción.
   
 Aplicación de las reuniones de Skype ofrece una experiencia de explorador simplificada para la descarga e instalación de la aplicación y unirse a reuniones, incluida la participación de un solo clic a los usuarios de Internet Explorer. Aplicación de las reuniones de Skype también tiene muchas mejoras a través de theSkype para la aplicación empresarial de Web para confiabilidad y la experiencia de reunión. 
   
@@ -87,7 +87,7 @@ Los requisitos de hardware del equipo los determinan el sistema operativo y el e
 ## <a name="network-requirements"></a>Requisitos de red
 <a name="Network"> </a>
 
-Si un usuario de Skype para experiencias de aplicación empresarial de Web o aplicación de las reuniones de Skype problemas de conexión de la reunión, lo más probable es la que infraestructura de red de su organización no está configurada para la compatibilidad con Office 365 tal como se describe en [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US). Éste es el caso si la reunión se ha creado por un usuario de Skype para profesionales en línea o Skype para Business Server 2015. 
+Si un usuario de Skype para experiencias de aplicación empresarial de Web o aplicación de las reuniones de Skype problemas de conexión de la reunión, lo más probable es la que infraestructura de red de su organización no está configurada para la compatibilidad con Office 365 tal como se describe en [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US). Éste es el caso si la reunión se ha creado por un usuario de Skype para profesionales en línea o Skype para Business Server. 
   
 Si el usuario está en una red que no está definida como se describe, es posible que muchas de las características de aplicación o puede que no funcione y es posible que no puedan conectarse a la reunión en absoluto.
   
@@ -96,10 +96,10 @@ Si el usuario está en una red que no está definida como se describe, es posibl
 
 En esta tabla se compara las características de reuniones disponibles para los usuarios de Skype para clientes empresariales, Skype para la aplicación empresarial de Web, aplicación de las reuniones de Skype y Lync Web App. Lync Web App está en la lista para fines de comparación de características: un usuario sólo se debería descargar y usar Lync Web App si la reunión se hospeda en un servidor de Lync 2013.
 
-| Característica / función | Skype para cliente empresarial 2016 | Skype para la empresa en el cliente de Mac | Aplicación Reuniones de Skype | Aplicación web de Skype Empresarial | Lync Web App |
+| Característica / función | Skype para 2016 empresarial o cliente 2019 | Skype para la empresa en el cliente de Mac | Aplicación Reuniones de Skype | Aplicación web de Skype Empresarial | Lync Web App |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Agregar VoIP  <br/> |& #x 2714;|& #x 2714;|& #x 2714;(requires plug-in)  <br/> |& #x 2714;(requires plug-in)  <br/> |& #x 2714;(requires plug-in)  <br/> |
-|Agregar vídeo  <br/> |& #x 2714;|& #x 2714;|& #x 2714;(requires plug-in)  <br/> |& #x 2714;(requires plug-in)  <br/> |& #x 2714;(requires plug-in)  <br/> |
+|Agregar VoIP  <br/> |& #x 2714;|& #x 2714;|& #x 2714; (requiere un complemento)  <br/> |& #x 2714; (requiere un complemento)  <br/> |& #x 2714; (requiere un complemento)  <br/> |
+|Agregar vídeo  <br/> |& #x 2714;|& #x 2714;|& #x 2714; (requiere un complemento)  <br/> |& #x 2714; (requiere un complemento)  <br/> |& #x 2714; (requiere un complemento)  <br/> |
 |Cambiar el audio a un teléfono para los participantes autenticados  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Cambiar el audio a un teléfono para los participantes de invitado  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|||
 |Ver un vídeo entre varios participantes (vista de galería)  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
@@ -166,6 +166,6 @@ A partir de Skype para Business Server 2015 CU5, AES no es compatible con ASP.NE
 ## <a name="see-also"></a>Vea también
 <a name="BKMK_Conferencing"> </a>
 
-[Implementar a los clientes que se pueden descargar de Web en Skype para Business Server 2015](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
+[Implementar a los clientes que se pueden descargar de Web en Skype para Business Server](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
 [Plataformas admitidas para la aplicación de las reuniones de Skype](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)

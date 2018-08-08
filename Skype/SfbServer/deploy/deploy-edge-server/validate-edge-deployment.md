@@ -1,8 +1,7 @@
 ---
-title: Validar la implementación perimetral en Skype Empresarial Server 2015
+title: Validar la implementación perimetral en Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
-ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,22 +10,23 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
-description: 'Resumen: Obtenga información sobre cómo comprobar que la implementación de servidor perimetral o grupo de servidores perimetrales está funcionando en Skype para Business Server 2015.'
-ms.openlocfilehash: b8adc5e8d652607156d0136671b1f149fbfe27b4
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumen: Obtenga información sobre cómo comprobar que la implementación de servidor perimetral o grupo de servidores perimetrales está funcionando en Skype para Business Server.'
+ms.openlocfilehash: cb239e2777926796761dd91c1460e1147772a34a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015100"
 ---
-# <a name="validate-your-edge-deployment-in-skype-for-business-server-2015"></a>Validar la implementación perimetral en Skype Empresarial Server 2015
+# <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Validar la implementación perimetral en Skype para Business Server
  
-**Resumen:** Obtenga información sobre cómo comprobar que la implementación de servidor perimetral o grupo de servidores perimetrales está funcionando en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo comprobar que la implementación de servidor perimetral o grupo de servidores perimetrales está funcionando en Skype para Business Server.
   
-Una vez que haya implementado el servidor perimetral o grupo de servidores perimetrales, necesita saber si funciona correctamente. A continuación presentamos un par de cosas que pueden ayudar a con el entorno perimetral está conectado para confirmar a los servidores internos y los usuarios externos pueden conectarse a su Skype para entorno empresarial Server 2015 a través de su borde.
+Una vez que haya implementado el servidor perimetral o grupo de servidores perimetrales, necesita saber si funciona correctamente. A continuación presentamos un par de cosas que pueden ayudar a con el entorno perimetral está conectado para confirmar a los servidores internos y los usuarios externos pueden conectarse a su Skype para entorno Business Server a través de su borde.
   
 ## <a name="verify-connectivity-between-your-internal-servers-and-your-edge-servers"></a>Comprobar la conectividad entre los servidores internos y los servidores perimetrales
 
-Mientras se realiza la validación de conectividad automáticamente en el servidor perimetral o grupo de servidores perimetrales cuando se instalan los servidores perimetrales, puede confirmarlo aún usted mismo con Windows PowerShell. Ejecute el cmdlet Get-CsManagementStoreReplicationStatus en el servidor interno que tiene la Administración Central de almacenar o cualquier equipo del dominio unidas en qué Skype para componentes de núcleo de Business Server 2015 (OcsCore.msi) se instalan.
+Mientras se realiza la validación de conectividad automáticamente en el servidor perimetral o grupo de servidores perimetrales cuando se instalan los servidores perimetrales, puede confirmarlo aún usted mismo con Windows PowerShell. Ejecute el cmdlet Get-CsManagementStoreReplicationStatus en el servidor interno que tiene la Administración Central de almacenar o cualquier equipo del dominio unidas en qué Skype para los componentes principales de servidor empresarial (OcsCore.msi) se instalan.
   
 El resultado inicial de ejecutar este comando puede ofrecer un estado False, en lugar de True, para replicación. Si eso ocurre ejecute el cmdlet Invoke-CsManagementStoreReplication. Dele algo de tiempo para completar la replicación y después ejecute el cmdlet Get-CsManagementStoreReplicationStatus de nuevo.
   

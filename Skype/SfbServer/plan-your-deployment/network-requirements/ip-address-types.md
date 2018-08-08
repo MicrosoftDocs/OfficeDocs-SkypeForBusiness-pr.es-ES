@@ -3,7 +3,6 @@ title: Configurar tipos de dirección IP en Skype Empresarial
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 7/22/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
-description: 'Resumen: Revise las consideraciones de tipo de dirección IP a continuación antes de implementar Skype para Business Server 2015.'
-ms.openlocfilehash: adebab15a0c10310b25af30f6e933625df61dc3d
-ms.sourcegitcommit: a612ebe25e06c2cb090f776325712caf3cf3b943
+description: 'Resumen: Revise las consideraciones de tipo de dirección IP a continuación antes de implementar Skype para Business Server.'
+ms.openlocfilehash: 6d1e3a53e65bb3d1b3475dc19a7a2f9e1101195d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "19630150"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967167"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Configurar tipos de dirección IP en Skype Empresarial
  
-**Resumen:** Revise las consideraciones de tipo de dirección IP a continuación antes de implementar Skype para Business Server 2015.
+**Resumen:** Revise las consideraciones de tipo de dirección IP a continuación antes de implementar Skype para Business Server.
   
 Implementar tipos de direcciones IP mediante el uso de la configuración de la topología que configurar en el generador de topología. En esta sección se describe cómo implementar tipos de direcciones IP en servidores Front-End, servidores de mediación y servidores perimetrales.
   
@@ -37,7 +36,7 @@ Con el generador, realice los pasos del siguiente procedimiento para implementar
     
 2. En el cuadro de diálogo **Editar propiedades**, seleccione el tipo de dirección IP que desea configurar. Para establecer una configuración de doble pila, seleccione **Habilitar IPv4** y **Habilitar IPv6**, como se muestra en la figura siguiente.
     
-   **Editar el cuadro de diálogo de propiedades para el grupo de servidor Front-End**
+   **Cuadro de diálogo Editar propiedades para el grupo de servidores front-end**
 
   - **Usar todas las direcciones IP configuradas**. Seleccione esta opción si desea que se usen todas las direcciones IP definidas en el equipo. 
     
@@ -63,7 +62,7 @@ Con el generador, realice los pasos del siguiente procedimiento para implementar
     
 - En el cuadro de diálogo **Editar propiedades**, seleccione el tipo de dirección IP que desea configurar. Para establecer una configuración de doble pila, seleccione **Habilitar IPv4** y **Habilitar IPv6**, como se muestra en la figura siguiente.
     
-   **Editar el cuadro de diálogo de propiedades para el grupo de servidores de mediación**
+   **Cuadro de diálogo Editar propiedades para el grupo Servidor de mediación**
 
   - **Usar todas las direcciones IP configuradas**. Seleccione esta opción si desea que se usen todas las direcciones IP definidas en el equipo. 
     

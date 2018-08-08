@@ -1,9 +1,8 @@
 ---
-title: Implementar los servidores perimetrales en Skype Empresarial Server 2015
+title: Implemente servidores perimetrales en Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,18 +11,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
-description: 'Resumen: Obtenga información sobre cómo implementar servidores perimetrales en su Skype para entorno empresarial Server 2015.'
-ms.openlocfilehash: c7dfdfeef9eea4ffae0e113665b487da4856b83c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumen: Obtenga información sobre cómo implementar servidores perimetrales en su Skype para el entorno de servidor empresarial.'
+ms.openlocfilehash: fc4791918ef078bc43e73f8e404aad758531eb21
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003127"
 ---
-# <a name="deploy-edge-servers-in-skype-for-business-server-2015"></a>Implementar los servidores perimetrales en Skype Empresarial Server 2015
+# <a name="deploy-edge-servers-in-skype-for-business-server"></a>Implemente servidores perimetrales en Skype para Business Server
  
-**Resumen:** Obtenga información sobre cómo implementar servidores perimetrales en su Skype para entorno empresarial Server 2015.
+**Resumen:** Obtenga información sobre cómo implementar servidores perimetrales en su Skype para el entorno de servidor empresarial.
   
-Las secciones siguientes contienen los pasos que deben seguirse después de que se ha revisado la Skype para la documentación de Business Server 2015 de [planeación para las implementaciones de servidor perimetral de Skype para Business Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) . Los pasos de implementación son los siguientes:
+Las secciones siguientes contienen los pasos que deben seguirse después de que se ha revisado la Skype para la documentación de [planeación para las implementaciones de servidor perimetral de Skype para Business Server](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) un servidor de negocio. Los pasos de implementación son los siguientes:
   
 - Interfaces de red
     
@@ -48,11 +48,11 @@ Como se indicó en planeación, va ya sea a configurar la interfaz de red con DN
     
    a. Tres direcciones IP estáticas en la subred de la red perimetral externa y apunte la puerta de enlace predeterminada a la interfaz interna del firewall externo. Configure el adaptador DNS para apuntar a un par de servidores DNS perimetrales.
     
-   b. Una dirección IP estática en la subred de la red perimetral externa y apunte la puerta de enlace predeterminada a la interfaz interna del firewall externo. Configure el adaptador DNS para apuntar a un par de servidores DNS perimetrales. Esta configuración sólo es aceptable si ha configurado la topología para tienen valores no estándar en las asignaciones de puerto, que se describe en el artículo de [crear la topología perimetral de Skype para Business Server 2015](create-your-edge-topology.md) anteriormente.
+   b. Una dirección IP estática en la subred de la red perimetral externa y apunte la puerta de enlace predeterminada a la interfaz interna del firewall externo. Configure el adaptador DNS para apuntar a un par de servidores DNS perimetrales. Esta configuración sólo es aceptable si ha configurado la topología para tienen valores no estándar en las asignaciones de puerto, que se describe en el artículo de [crear la topología perimetral de Skype para Business Server](create-your-edge-topology.md) anteriormente.
     
 3. En la interfaz interna, configure una dirección IP estática en la subred de red de perímetro interno y no establece una puerta de enlace predeterminada. Configure el adaptador DNS para apuntar al menos a un servidor DNS, preferiblemente a un par de servidores DNS perimetrales.
     
-4. Cree rutas estáticas persistentes en la interfaz interna para todas las redes internas donde residen los clientes, Skype para Business Server 2015 y los servidores de mensajería unificada de Exchange (UM).
+4. Cree rutas estáticas persistentes en la interfaz interna para todas las redes internas donde residen los clientes, Skype para Business Server y los servidores de mensajería unificada de Exchange (UM).
     
 ### <a name="interface-configuration-without-dns-servers-in-the-perimeter-network"></a>Configuración de la interfaz sin servidores DNS en la red perimetral
 
@@ -65,17 +65,17 @@ Como se indicó en planeación, va ya sea a configurar la interfaz de red con DN
     
    a. Tres direcciones IP estáticas en la subred de la red perimetral externa. También necesitará configurar la puerta de enlace predeterminada en la interfaz externa, por ejemplo, define el enrutador a través de internet o el firewall externo como puerta de enlace predeterminada. Configure el adaptador DNS para apuntar a un servidor DNS externo, a poder ser, a un par de servidores DNS externos.
     
-   b. Una dirección IP estática en la subred de la red perimetral externa. También necesitará configurar la puerta de enlace predeterminada en la interfaz externa, por ejemplo, define el enrutador a través de internet o el firewall externo como puerta de enlace predeterminada. Configure el adaptador DNS para apuntar a un servidor DNS externo o, a poder ser, a un par de servidores DNS externos. Esta configuración sólo es aceptable si ha configurado la topología para tienen valores no estándar en las asignaciones de puerto, que se describe en el artículo de [crear la topología perimetral de Skype para Business Server 2015](create-your-edge-topology.md) anteriormente.
+   b. Una dirección IP estática en la subred de la red perimetral externa. También necesitará configurar la puerta de enlace predeterminada en la interfaz externa, por ejemplo, define el enrutador a través de internet o el firewall externo como puerta de enlace predeterminada. Configure el adaptador DNS para apuntar a un servidor DNS externo o, a poder ser, a un par de servidores DNS externos. Esta configuración sólo es aceptable si ha configurado la topología para tienen valores no estándar en las asignaciones de puerto, que se describe en el artículo de [crear la topología perimetral de Skype para Business Server](create-your-edge-topology.md) anteriormente.
     
 3. En la interfaz interna, configure una dirección IP estática en la subred de red de perímetro interno y no establece una puerta de enlace predeterminada. Deje también la configuración del adaptador DNS vacía.
     
-4. Cree rutas estáticas persistentes en la interfaz interna para todas las redes internas donde residen los clientes, Skype para Business Server 2015 y los servidores de mensajería unificada de Exchange (UM).
+4. Cree rutas estáticas persistentes en la interfaz interna para todas las redes internas donde residen los clientes, Skype para Business Server y los servidores de mensajería unificada de Exchange (UM).
     
 5. Edite el archivo HOST en cada servidor perimetral para contener un registro para el servidor del próximo salto o IP virtual (VIP). Este registro será el Director, servidor Standard Edition o grupo de servidores Front-End configurado como la dirección del servidor perimetral próximo salto en el generador de topología. Si usa equilibrio de carga DNS, incluya una línea para cada miembro de servidores del próximo salto.
     
 ## <a name="installation"></a>Instalación
 
-Para completar estos pasos correctamente, debe haber seguido los pasos descritos en el artículo de [crear la topología perimetral de Skype para Business Server 2015](create-your-edge-topology.md) .
+Para completar estos pasos correctamente, debe haber seguido los pasos descritos en el artículo de [crear la topología perimetral de Skype para Business Server](create-your-edge-topology.md) .
   
 1. Inicie sesión en el servidor que ha sido configurar para la función de servidor perimetral con una cuenta que se encuentra en el grupo de administradores locales.
     
@@ -95,7 +95,7 @@ Para completar estos pasos correctamente, debe haber seguido los pasos descritos
     
 9. Cuando el proceso **Ejecución de comandos** se complete, haga clic en **Finalizar**.
     
-10. En el Asistente para la implementación, haga clic en **paso 2. Instalar o quitar Skype para los componentes de servidor empresariales**. El Asistente para, a continuación, instalará el Skype para los componentes de servidor perimetral 2015 Business Server especificado en el archivo de configuración XML que se ha almacenado en el equipo local.
+10. En el Asistente para la implementación, haga clic en **paso 2. Instalar o quitar Skype para los componentes de servidor empresariales**. El Asistente para, a continuación, instalará el Skype para los componentes de servidor perimetral de negocio especificado en el archivo de configuración XML que se ha almacenado en el equipo local.
     
 11. Una vez que la instalación s completa, puede mover en los pasos descritos en la sección de **certificados** más adelante.
     
@@ -114,7 +114,7 @@ Los requisitos de certificado para el servidor perimetral pueden encontrarse en 
  
 #### <a name="nbspnbspnbsp-a-download-using-certsrv-web-site"></a>&nbsp;&nbsp;&nbsp;un. Descargar con el sitio web certsrv
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. Inicie sesión en un Skype para Business Server 2015 server en la red interna como un miembro del grupo de administradores locales.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. Inicie sesión en un Skype para Business Server en la red interna como un miembro del grupo de administradores locales.
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II. Abra copia de seguridad **Iniciar**y **ejecute** (o **Buscar** y **Ejecutar** ) y, a continuación, escriba lo siguiente:
     
@@ -188,7 +188,7 @@ Los requisitos de certificado para el servidor perimetral pueden encontrarse en 
     
 &nbsp;&nbsp;&nbsp;b. En la página **Solicitud de certificado**, asegúrese de que **Certificado de servidor perimetral interno** está seleccionado y haga clic en **Solicitud**.
     
-&nbsp;&nbsp;&nbsp;c. En la página **Solicitudes retrasadas o inmediatas**, elija **Enviar la solicitud inmediatamente a una entidad de certificación en línea** si tiene acceso a una desde su entorno perimetral, o **Preparar ahora la solicitud, pero enviarla más tarde** de lo contrario.
+&nbsp;&nbsp;&nbsp;c. En la página **solicitudes retrasadas o inmediatas** , elija **enviar la solicitud inmediatamente a una entidad de certificación en línea** si tiene acceso a uno desde su entorno perimetral o en **Preparar la petición ahora, pero enviarla más tarde** en caso contrario.
     
 &nbsp;&nbsp;&nbsp;d.. En la página **Archivo de solicitud de certificado**, escriba la ruta completa y el nombre de archivo de dónde se ha guardado el archivo (como c:\SkypeInternalEdgeCert.cer). Haga clic en **Siguiente**.
     
@@ -378,15 +378,15 @@ Los requisitos de certificado para el servidor perimetral pueden encontrarse en 
     
 &nbsp;&nbsp;&nbsp;g. Haga doble clic en **Certificados (equipo local)** para expandir los almacenes de certificados. **Haga doble clic en Personal** y después haga clic en **Certificados**.
     
-    > [!NOTE]
-    > You may be here, and you don't see any certificates in the Certificates Personal store for the local computer. You don't need to hunt around, if the key's not there, the imported certificate didn't have a private key associated with it. Try the request and import steps above one more time, and if you're sure you got all that right, talk to your CA administrator or provider. 
+   > [!NOTE]
+   > Es posible que aquí, y no puede ver todos los certificados en los certificados personales almacenar para el equipo local. No es necesario para extensiones alrededor, si la clave no existe, s importado certificado no tiene una clave privada asociada con él. Intente la solicitud de importación pasos anteriores una vez más y si está seguro de que tiene todo lo que derecho, hable con el Administrador de la entidad emisora de certificados o el proveedor. 
   
 &nbsp;&nbsp;&nbsp;h. En el **almacén de certificados personales** del equipo local, haga clic en el certificado que va a exportar. **Seleccione Todas las tareas** desde el menú resultante y luego haga clic en **Exportar**.
     
 &nbsp;&nbsp;&nbsp;. En el **Asistente para exportación de certificados**, haga clic en **siguiente**. Seleccione **Sí, exportar la clave privada**. Haga clic en **Siguiente**.
     
-    > [!NOTE]
-    > If **Yes, export the private key** isn't available, then the private key for this certificate wasn't marked for export before you got it. You need to request the certificate from the provider again, with the private key set to export, before doing this successfully.
+   > [!NOTE]
+   > Si no está disponible **en Sí, exportar la clave privada** , la clave privada para este certificado no está marcada para la exportación antes de que ha captado. Tiene que volver a solicitar el certificado del proveedor, con la clave privada establecida en exportar, antes de realizar esto correctamente.
   
 &nbsp;&nbsp;&nbsp;j. En el cuadro de diálogo Formatos de archivo de exportación, seleccione Intercambio de información personal: PKCS#12 (.PFX) y luego seleccione lo siguiente:
     
@@ -394,8 +394,8 @@ Los requisitos de certificado para el servidor perimetral pueden encontrarse en 
     
  &nbsp;&nbsp;&nbsp;II. Exportar todas las propiedades extendidas.
     
-    > [!NOTE]
-    > **NEVER** select **Delete the private key if the export is successful**. It'll mean you have to reimport the certificate and private key back to this Edge Server.
+   > [!NOTE]
+   > **NUNCA** seleccione **Eliminar la clave privada si la exportación es correcta**. Aquí significa que se debe volver a importar el certificado y la clave privada, volver a este servidor perimetral.
   
 &nbsp;&nbsp;&nbsp;k. Si desea asignar una contraseña para proteger la clave privada, puede escribir una contraseña para la clave privada. Vuelva a escribir la contraseña para confirmarla y después haga clic en **Siguiente**.
     
@@ -425,7 +425,7 @@ Los requisitos de certificado para el servidor perimetral pueden encontrarse en 
 &nbsp;&nbsp;&nbsp;g. Una vez que haya completado este procedimiento, es una realmente buena idea para abrir el complemento MMC de certificados en cada servidor, expanda **certificados (equipo Local)**, expanda **Personal**, haga clic en **certificados**y confirme que el perímetro interno el certificado aparece en el panel de detalles.
     
    > [!NOTE]
-    > También tendrá que configurar los certificados para el servidor de proxy inverso. Que se trata en los servidores de Proxy inverso del programa de instalación de Skype para tema Business Server 2015. 
+   > También tendrá que configurar los certificados para el servidor de proxy inverso. 
   
 ## <a name="starting-the-edge-servers"></a>Iniciar los servidores perimetrales
 
@@ -439,6 +439,6 @@ Una vez finalizada la instalación, debe iniciar los servicios en cada servidor 
     
 4. (Opcional) Aún en el **Paso 4: Iniciar servicios**, haga clic en **Estado de los servicios**.
     
-5.  En **MMC de servicios** en cada servidor, compruebe que se están ejecutando todos los Skype para servicios de Business Server 2015.
+5.  En **MMC de servicios** en cada servidor, compruebe que todas las Skype para servicios de Business Server se están ejecutando.
     
 

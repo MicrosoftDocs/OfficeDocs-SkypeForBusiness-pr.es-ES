@@ -1,9 +1,8 @@
 ---
-title: Diseñar y crear flujos de trabajo de grupo de respuesta en Skype Empresarial 2015
+title: Diseñar y crear flujos de trabajo de grupo de respuesta en Skype para la empresa
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Diseñar y crear flujos de trabajo de grupo de respuesta, en Skype para Business Server Enterprise Voice. Se cubren tanto los flujos de trabajo de grupo de extensiones como los flujos de trabajo interactivos.
-ms.openlocfilehash: a1fe613d006378f8908b038ed0f03449c06b3fdf
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: a4a0d436e4ed2387218825559bca2b383a95c8b4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501304"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006602"
 ---
-# <a name="designing-and-creating-response-group-workflows-in-skype-for-business-2015"></a>Diseñar y crear flujos de trabajo de grupo de respuesta en Skype Empresarial 2015
+# <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Diseñar y crear flujos de trabajo de grupo de respuesta en Skype para la empresa
  
 Diseñar y crear flujos de trabajo de grupo de respuesta, en Skype para Business Server Enterprise Voice. Se cubren tanto los flujos de trabajo de grupo de extensiones como los flujos de trabajo interactivos.
   
-Un flujo de trabajo define el comportamiento de una llamada desde el momento en que suena el teléfono hasta que alguien la atiende. El flujo de trabajo especifica la cola que desee utilizar para contener la llamada y el método de enrutamiento debe usar para que los flujos de trabajo de grupo de extensiones o las preguntas y respuestas que se usará para los flujos de trabajo de grupo de respuesta interactiva. 
+Un flujo de trabajo define el comportamiento de una llamada desde el momento en que suena el teléfono hasta que alguien la atiende. El flujo de trabajo especifica la cola que se va a usar para poner la llamada en espera e indica el método de enrutamiento que se va a usar en los flujos de trabajo de grupo de búsqueda o las preguntas y respuestas que se deben usar para los flujos de trabajo de grupo de respuesta interactivo 
   
 Un flujo de trabajo también define configuraciones como el mensaje de bienvenida, la música en espera, horario laboral y los días festivos.
   
@@ -122,7 +121,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
    - Para usar una programación predefinida de horario comercial, haga clic en **Usar una programación preestablecida** y después seleccione el horario que desea utilizar en la lista desplegable.
     
      > [!NOTE]
-     > Debe definir al menos una programación preestablecida previamente para poder seleccionar esta opción. Puede definir programaciones preestablecidas con el cmdlet **New-CSRgsHoursOfBusiness**. Para obtener información detallada, vea el [grupo de respuesta (opcional) definir el horario en Skype para profesionales de 2015](optional-define-response-group-business-hours.md). 
+     > Debe definir al menos una programación preestablecida previamente para poder seleccionar esta opción. Puede definir programaciones preestablecidas con el cmdlet **New-CSRgsHoursOfBusiness**. Para obtener información detallada, vea el [grupo de respuesta (opcional) definir el horario en Skype para la empresa](optional-define-response-group-business-hours.md). 
   
      > [!NOTE]
      > Cuando selecciona una programación preestablecida, **Día**, **Abrir** y **Cerrar** se rellenan automáticamente con los días y las horas en los que el grupo de respuesta se encuentra disponible.
@@ -161,7 +160,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 24. En **Paso 5 Especificar vacaciones**, haga clic en las casillas para uno o más conjuntos de vacaciones que definan los días en los que el grupo de respuesta no esté laboralmente disponible.
     
     > [!NOTE]
-    > Defina las vacaciones y los conjuntos de vacaciones antes de configurar el flujo de trabajo. Para ello, use los cmdlets **New-CsRgsHoliday** y **New-CsRgsHolidaySet**. Para obtener información detallada, vea el [grupo de respuesta (opcional) definir conjuntos de días festivos en Skype para profesionales de 2015](optional-define-response-group-holiday-sets.md). 
+    > Defina las vacaciones y los conjuntos de vacaciones antes de configurar el flujo de trabajo. Para ello, use los cmdlets **New-CsRgsHoliday** y **New-CsRgsHolidaySet**. Para obtener información detallada, vea [días festivos de grupo de respuesta de definir (opcional) se establecen en Skype para la empresa](optional-define-response-group-holiday-sets.md). 
   
 25. Si desea reproducir un mensaje durante las vacaciones, active la casilla **Reproducir un mensaje durante las vacaciones** y después especifique el mensaje que se va a reproducir con uno de los siguientes procedimientos:
     
@@ -242,7 +241,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
    ```
 
-6. Si desea definir horas laborables y vacaciones, debe crearlas antes de crear o modificar el flujo de trabajo. Para obtener información detallada, vea el [grupo de respuesta (opcional) definir el horario en Skype para 2015 de negocio](optional-define-response-group-business-hours.md) y [grupo de respuesta (opcional) definir conjuntos de días festivos en Skype para profesionales de 2015](optional-define-response-group-holiday-sets.md).
+6. Si desea definir horas laborables y vacaciones, debe crearlas antes de crear o modificar el flujo de trabajo. Para obtener información detallada, vea el [grupo de respuesta (opcional) definir el horario en Skype para la empresa](optional-define-response-group-business-hours.md) y [conjuntos de días festivos de grupo de respuesta (opcional) definir en Skype para la empresa](optional-define-response-group-holiday-sets.md).
     
 7. Si desea tener mensajes para las llamadas que se reciben fuera del horario laboral o en días festivos, use el cmdlet **New-CsRgsPrompt** para definir el símbolo del sistema y use el **New-CsRgsCallAction** para definir la acción que se realizará después el símbolo del sistema. Para obtener información detallada, vea [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps) y [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps).
     
@@ -452,7 +451,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
    - Para usar una programación predefinida de horario comercial, haga clic en **Usar una programación preestablecida** y después seleccione el horario que desea utilizar en la lista desplegable.
     
      > [!NOTE]
-     > Debe definir al menos una programación preestablecida previamente para poder seleccionar esta opción. Puede definir programaciones preestablecidas con el cmdlet **New-CSRgsHoursOfBusiness**. Para obtener información detallada, vea el [grupo de respuesta (opcional) definir el horario en Skype para profesionales de 2015](optional-define-response-group-business-hours.md). Cuando selecciona una programación preestablecida, **Día**, **Abrir** y **Cerrar** se rellenan automáticamente con los días y las horas en los que el grupo de respuesta se encuentra disponible.
+     > Debe definir al menos una programación preestablecida previamente para poder seleccionar esta opción. Puede definir programaciones preestablecidas con el cmdlet **New-CSRgsHoursOfBusiness**. Para obtener información detallada, vea el [grupo de respuesta (opcional) definir el horario en Skype para la empresa](optional-define-response-group-business-hours.md). Cuando selecciona una programación preestablecida, **Día**, **Abrir** y **Cerrar** se rellenan automáticamente con los días y las horas en los que el grupo de respuesta se encuentra disponible.
   
    - Para usar una programación personalizada que se aplique solo a este flujo de trabajo, haga clic en **Usar una programación personalizada**.
     
@@ -488,7 +487,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 24. En **Paso 5 Especificar vacaciones**, haga clic en las casillas para uno o más conjuntos de vacaciones que definan los días en los que el grupo de respuesta no esté laboralmente disponible.
     
     > [!NOTE]
-    > Defina las vacaciones y los conjuntos de vacaciones antes de configurar el flujo de trabajo. Para ello, use los cmdlets **New-CsRgsHoliday** y **New-CsRgsHolidaySet**. Para obtener información detallada, vea el [grupo de respuesta (opcional) definir conjuntos de días festivos en Skype para profesionales de 2015](optional-define-response-group-holiday-sets.md). 
+    > Defina las vacaciones y los conjuntos de vacaciones antes de configurar el flujo de trabajo. Para ello, use los cmdlets **New-CsRgsHoliday** y **New-CsRgsHolidaySet**. Para obtener información detallada, vea [días festivos de grupo de respuesta de definir (opcional) se establecen en Skype para la empresa](optional-define-response-group-holiday-sets.md). 
   
 25. Si desea reproducir un mensaje durante las vacaciones, active la casilla **Reproducir un mensaje durante las vacaciones** y después especifique el mensaje que se va a reproducir con uno de los siguientes procedimientos:
     
@@ -644,9 +643,9 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
   
 ## <a name="see-also"></a>Vea también
 
-[(Opcional) Días festivos de definir grupo de respuesta se establecen en Skype para profesionales de 2015](optional-define-response-group-holiday-sets.md)
+[(Opcional) Días festivos de definir grupo de respuesta se establecen en Skype para la empresa](optional-define-response-group-holiday-sets.md)
 
-[(Opcional) Grupo de respuesta de definir el horario en Skype para profesionales de 2015](optional-define-response-group-business-hours.md)
+[(Opcional) Grupo de respuesta de definir el horario en Skype para la empresa](optional-define-response-group-business-hours.md)
 
 [New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
   
@@ -655,3 +654,4 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
   
 [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
+

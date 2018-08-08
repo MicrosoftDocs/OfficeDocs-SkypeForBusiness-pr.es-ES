@@ -1,9 +1,8 @@
 ---
-title: Habilitar la respuesta de llamadas grupales para los usuarios y asignar un número de grupo en Skype Empresarial 2015
+title: Habilitar la recogida de llamadas de grupo para los usuarios y asignar a un número de grupo en Skype para la empresa
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 description: Permitir a los usuarios para su grupo de llamada recogida en Skype para Business Server Enterprise Voice y asignar a un número de grupo.
-ms.openlocfilehash: 11d62ea5aa29fc5fdd98fb9e1e5851dbc60a1547
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 5a4173a16a40557742a7cdbd47edb917f89b4737
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500522"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006523"
 ---
-# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business-2015"></a>Habilitar la respuesta de llamadas grupales para los usuarios y asignar un número de grupo en Skype Empresarial 2015
+# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>Habilitar la recogida de llamadas de grupo para los usuarios y asignar a un número de grupo en Skype para la empresa 
  
 Permitir a los usuarios para su grupo de llamada recogida en Skype para Business Server Enterprise Voice y asignar a un número de grupo.
   
@@ -49,3 +48,4 @@ Después de agregar números de llamada pickup grupo a la tabla de órbitas de e
 ## <a name="see-also"></a>Vea también
 
 [Recogida de deshabilitar grupo para los usuarios](http://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
+

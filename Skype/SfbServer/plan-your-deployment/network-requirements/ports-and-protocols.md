@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
-description: 'Resumen: Revise las consideraciones de uso del puerto antes de implementar Skype para Business Server 2015.'
-ms.openlocfilehash: 9f47cf2f04db02765f9693b1128fe1f9440b59e6
-ms.sourcegitcommit: a612ebe25e06c2cb090f776325712caf3cf3b943
+description: 'Resumen: Revise las consideraciones de uso del puerto antes de implementar Skype para Business Server.'
+ms.openlocfilehash: 4d6a6096ea4f98f41a66173058743ae7d134e997
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "19630157"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996896"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de protocolo y puerto para los servidores
  
-**Resumen:** Revise las consideraciones de uso del puerto antes de implementar Skype para Business Server 2015.
+**Resumen:** Revise las consideraciones de uso del puerto antes de implementar Skype para Business Server.
   
 Skype para Business Server requiere que estén abiertos determinados puertos en los firewalls internos y externos. Además, si se ha implementado el protocolo de seguridad de Internet (IPSec) en la organización, IPSec debe estar deshabilitado en el intervalo de puertos que se usa para la entrega de audio, vídeo y vídeo panorámico. 
   
@@ -47,7 +47,7 @@ En la tabla siguiente se enumeran los puertos que debe abrir en cada rol del ser
   
 **Puertos de servidor obligatorios (por rol de servidor)**
 
-|**Función de servidor**|**Nombre de servicio**|**Puerto**|**Protocolo**|**Notas**|
+|**Rol de servidor**|**Nombre de servicio**|**Puerto**|**Protocolo**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|
 |Todos los servidores  <br/> |Explorador SQL  <br/> |1434  <br/> |UDP  <br/> |Explorador SQL para la copia replicada local de la base de datos del Almacén de administración central.  <br/> |
 |Servidores front-end  <br/> |Skype para servicio Business Server front-end  <br/> |5060  <br/> |TCP  <br/> |Opcionalmente lo usan los servidores Standard Edition y front-end para rutas estáticas a servicios de confianza, como los servidores de control remoto de llamadas.  <br/> |
@@ -88,7 +88,7 @@ En la tabla siguiente se enumeran los puertos que debe abrir en cada rol del ser
 |Front-End los servidores en el que reside el almacén de Administración Central  <br/> | Skype para el servicio de agente de Replicador maestro de servidor empresarial <br/> |445  <br/> |TCP  <br/> |Se usa para enviar datos de configuración desde el almacén de Administración Central para los servidores que ejecutan Skype para Business Server.  <br/> |
 |Todos los servidores  <br/> |Explorador SQL  <br/> |1434  <br/> |UDP  <br/> |Explorador SQL para la copia replicada local de la Administración Central de almacenar datos en la instancia local de SQL Server  <br/> |
 |Todos los usuarios internos  <br/> |Varios  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |El intervalo de puertos de medios se usa para audioconferencias en todos los servidores internos. Utilizado por todos los servidores que terminar audio: servidores Front-End (para Skype para el servicio de operador de conferencia del servidor empresarial, Skype para servicio de anuncio de conferencia del servidor empresarial y Skype para el servicio de conferencia de Audio y vídeo de servidor empresarial), y Servidor de mediación.  <br/> |
-|Servidores de Office Web Apps  <br/> ||443  <br/> ||Usa Skype para Business Server 2015 para conectarse a Office Web Apps Server.  <br/> |
+|Servidores de Office Web Apps  <br/> ||443  <br/> ||Usa Skype para Business Server para conectarse a Office Web Apps Server.  <br/> |
 |Directores  <br/> |Skype para servicio Business Server front-end  <br/> |5060  <br/> |TCP  <br/> |Se usa opcionalmente para rutas estáticas a servicios de confianza, como los servidores de control remoto de llamadas.  <br/> |
 |Directores  <br/> |Skype para servicio Business Server front-end  <br/> |444  <br/> |HTTPS  <br/> TCP  <br/> |Comunicación entre servidores front-end y Director. Además, el certificado de cliente publicar (en servidores Front-End) o validar si ya se ha publicado el certificado de cliente.  <br/> |
 |Directores  <br/> |Skype para el servicio de compatibilidad de negocio servidor Web  <br/> |80  <br/> |TCP  <br/> |Se usa para la comunicación inicial desde los Directores a los FQDN de la granja de servidores web (direcciones URL que usan los componentes web de IIS). En condiciones normales, cambiará a tráfico HTTPS a través del puerto 443 y el tipo de protocolo TCP.  <br/> |
@@ -107,7 +107,7 @@ En la tabla siguiente se enumeran los puertos que debe abrir en cada rol del ser
   
 Para los grupos que solo usan equilibrio de carga de hardware (no equilibrio de carga de DNS), en la siguiente tabla se muestran los puertos que necesitan para abrir los equilibradores de carga de hardware.
   
-**Puertos del equilibrador de carga de hardware si usa sólo Hardware de equilibrio de carga**
+**Puertos del equilibrador de carga de hardware si solo usa equilibrio de carga de hardware**
 
 |**Equilibrador de carga**|**Puerto**|**Protocolo**|
 |:-----|:-----|:-----|
@@ -145,7 +145,7 @@ Los grupos de servidores front-end y de Directores que usan equilibrio de carga 
 |Equilibrador de carga del Director  <br/> |443  <br/> |HTTPS  <br/> |
 |Equilibrador de carga del Director  <br/> |4443  <br/> |HTTPS (desde proxy inverso)  <br/> |
    
-**Puertos de cliente requeridos**
+**Puertos de cliente necesarios**
 
 |**Componente**|**Puerto**|**Protocolo**|**Notas**|
 |:-----|:-----|:-----|:-----|
@@ -178,7 +178,7 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
   
 **Excepciones de IPsec recomendadas**
 
-|**Nombre de la regla**|**IP de origen**|**Destino IP**|**Protocolo**|**Puerto de origen**|**Puerto de destino**|**Requisito de autenticación**|
+|**Nombre de la regla**|**IP de origen**|**IP de destino**|**Protocolo**|**Puerto de origen**|**Puerto de destino**|**Requisito de autenticación**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Servidor perimetral A/V interno entrante  <br/> |Cualquiera  <br/> |Servidor perimetral A/V interno  <br/> |UDP y TCP  <br/> |Cualquiera  <br/> |Cualquiera  <br/> |No autenticar  <br/> |
 |Servidor perimetral A/V externo entrante  <br/> |Cualquiera  <br/> |Servidor perimetral A/V externo  <br/> |UDP y TCP  <br/> |Cualquiera  <br/> |Cualquiera  <br/> |No autenticar  <br/> |

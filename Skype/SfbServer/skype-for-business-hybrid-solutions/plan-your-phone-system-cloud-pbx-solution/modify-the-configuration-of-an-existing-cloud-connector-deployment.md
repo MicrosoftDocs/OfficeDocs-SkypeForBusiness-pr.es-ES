@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Siga los pasos descritos en este tema para modificar la configuración de un Skype existente de conector de nube de Business Edition 1.4.1 o implementación posterior.
-ms.openlocfilehash: 9e660744e05bfd0628c19b86110ad33443c58671
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 0a89c4a03d7cb316674490bc81768f27cd1a9c66
+ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569571"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "20176086"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modificar la configuración de una implementación de Cloud Connector existente
  
@@ -279,7 +279,7 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
 
 Para agregar un nuevo dominio SIP (o varios dominios SIP) a la implementación existente de conector en la nube, haga lo siguiente:
   
-1. Asegúrese de que haya completado los pasos para actualizar su dominio en Office 365 y tienen la capacidad de agregar registros DNS. Para obtener más información acerca de cómo configurar el dominio en Office 365, vea el vídeo [configurar su dominio en Office 365](https://support.office.com/en-us/article/Video-Set-up-your-domain-in-Office-365-703dfec1-882d-4e33-b647-937f731887b7?ui=en-US&amp;rs=en-US&amp;ad=US).
+1. Asegúrese de que haya completado los pasos para actualizar su dominio en Office 365 y tienen la capacidad de agregar registros DNS. Para obtener más información acerca de cómo configurar el dominio en Office 365, vea [Agregar un dominio a Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Actualizar el archivo de configuración del conector en la nube con el nuevo dominio SIP o dominios.
     
@@ -293,14 +293,14 @@ Para agregar un nuevo dominio SIP (o varios dominios SIP) a la implementación e
 
 5. 
     
-    Siga las instrucciones para [modificar la configuración de un único sitio](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_SIngleSite) o [modificar la configuración de varios sitios](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_MultipleSites).
+    Siga las instrucciones de [Modificar la configuración de un único sitio](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_SIngleSite) o [Modificar la configuración de varios sitios](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_MultipleSites).
     
 ## <a name="modify-the-primary-sip-domain"></a>Modificar el dominio SIP principal
 <a name="BKMK_UpdatePassword"> </a>
 
 Si necesita cambiar el dominio SIP principal en la implementación del conector de la nube, haga lo siguiente:
   
-1. Asegúrese de que haya completado los pasos para actualizar su dominio en Office 365 y tienen la capacidad de agregar registros DNS. Para obtener más información acerca de cómo configurar el dominio en Office 365, vea el vídeo [configurar su dominio en Office 365](https://support.office.com/en-us/article/Video-Set-up-your-domain-in-Office-365-703dfec1-882d-4e33-b647-937f731887b7?ui=en-US&amp;rs=en-US&amp;ad=US).
+1. Asegúrese de que haya completado los pasos para actualizar su dominio en Office 365 y tienen la capacidad de agregar registros DNS. Para obtener más información acerca de cómo configurar el dominio en Office 365, vea [Agregar un dominio a Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Actualice el archivo de configuración del conector en la nube con el nuevo dominio SIP.
     
@@ -322,7 +322,9 @@ Si necesita cambiar el dominio SIP principal en la implementación del conector 
 
 6. 
     
-    Quitar el registro de sitio para cada sitio ejecutando el siguiente cmdlet en Skype para PowerShell en línea de negocio:
+    Quite el registro de sitios para cada sitio mediante la ejecución del siguiente cmdlet en el PowerShell de Skype Empresarial Online :
+
+
     
   ```
   Remove-CsHybridPSTNSite

@@ -1,9 +1,8 @@
 ---
-title: Habilitar el control de admisión de llamadas en Skype Empresarial Server 2015
+title: Habilitar control de admisión de llamadas en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 description: Habilitar control de admisión de llamadas en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 86fdd52cb57849d55502190dcc39bbdd243ba6ae
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 1a9e719e6c008fcd8bf8c12612f8eea15447648e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500807"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009711"
 ---
-# <a name="enable-call-admission-control-in-skype-for-business-server-2015"></a>Habilitar el control de admisión de llamadas en Skype Empresarial Server 2015
+# <a name="enable-call-admission-control-in-skype-for-business-server"></a>Habilitar control de admisión de llamadas en Skype para Business Server
  
 Habilitar control de admisión de llamadas en Skype para Business Server Enterprise Voice. 
   

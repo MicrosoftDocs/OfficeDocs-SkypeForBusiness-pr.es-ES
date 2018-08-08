@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Obtenga información sobre cómo preparar su dispositivo conector en la nube para la implementación y usar con el sistema telefónico en Office 365 (en la nube PBX).
-ms.openlocfilehash: 130d593ba94eff9da163363a652bc389b713d1b0
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 54ee8394c9da5b00e6a9c9afa7d4a1f3419c2f41
+ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "20176093"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Preparar el dispositivo de Cloud Connector
  
@@ -117,9 +118,9 @@ En esta sección se describe cómo obtener los archivos de instalación de Skype
     Especifique la ruta de acceso completa al certificado externo, incluido el nombre del archivo. El certificado se puede almacenar localmente o en un recurso compartido de archivos. Si el certificado se almacena en una carpeta compartida, esta deberá crearse en el primer dispositivo de cada sitio y los demás dispositivos que pertenezcan al mismo sitio deben poder acceder a ella. Este cmdlet copia el certificado externo en el **directorio de dispositivos**.
     
     > [!IMPORTANT]
-    > **Si ha actualizado a la nube conector versión 1.4.2 o posterior**, asegúrese de que el certificado externo preparado contiene las claves privadas y la cadena de certificados completa incluido el certificado de entidad de certificación raíz y los certificados de entidad emisora de certificados intermedios. > **Si tiene Aún no se ha actualizado a la nube conector versión 1.4.2**, asegúrese de que el certificado externo preparado contiene las claves privadas. Este certificado externo lo debe emitir una entidad de certificación en la que Windows confíe de manera predeterminada.
+    > **Si ha actualizado a Cloud Connector versión 1.4.2 o posterior**, asegúrese de que el certificado externo preparado contenga claves privadas y la cadena de certificados completa, incluidos el certificado de CA raíz y los certificados de CA intermedios.  **Si aún NO ha actualizado a Cloud Connector versión 1.4.2**, asegúrese de que el certificado externo preparado contenga claves privadas. Este certificado externo lo debe emitir una entidad de certificación en la que Windows confíe de manera predeterminada.
   
-## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>Establecer la ruta de acceso para el certificado externo de SBC o puerta de enlace de RTC
+## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>Establecer la ruta de acceso del certificado de la puerta de enlace RTC/SBC
 
 Si va a utilizar TLS entre el servidor de mediación y la puerta de enlace RTC/SBC, ejecute el siguiente cmdlet para establecer la ruta de acceso, incluido el nombre de archivo, al certificado de la puerta de enlace. Por ejemplo: C:\certs\cce\sbc.contoso.com.cer. El certificado debe contener la CA raíz y la cadena intermedia del certificado asignado a la puerta de enlace:
   
@@ -157,14 +158,14 @@ Para actualizar el archivo, ejecute primero el siguiente cmdlet para obtener la 
 Export-CcConfigurationSampleFile
 ```
 
-La plantilla de muestra está almacenada en el **Directorio de aplicaciones**.
+La plantilla de muestra está almacenada en el **Directorio de aplicaciones**. 
   
-Después de actualizarlo con los valores de su entorno, guarde el archivo como CloudConnector.ini en el **Directorio de aplicaciones**. Puede ejecutar **Get-CcApplianceDirectory** para determinar la ruta de acceso al **Directorio del dispositivo**.
+Después de actualizarlo con los valores de su entorno, guarde el archivo como CloudConnector.ini en el **Directorio de aplicaciones**. Puede ejecutar **Get-CcApplianceDirectory** para determinar la ruta de acceso al **Directorio de aplicaciones**.
   
 Al actualizar el archivo .ini, tenga en cuenta lo siguiente:
   
 > [!NOTE]
-> No todos los valores del archivo .ini se tratan en esta sección, solo los que tengan una consideración especial. Para obtener una lista completa, vea la sección [parámetros de implementación Determine](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) del tema [Plan for Skype para Business Edition de conector en la nube](plan-skype-for-business-cloud-connector-edition.md) . > para obtener más información acerca de qué valores deben cambiarse para dispositivos adicionales o sitios nuevos, consulte [ Solo sitio con alta disponibilidad (HA) en comparación con las implementaciones de varios sitios](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) en el tema[implementar varios sitios de conector en la nube](deploy-multiple-sites-in-cloud-connector.md). 
+> No todos los valores del archivo .ini se tratan en esta sección, solo los que tengan una consideración especial. Para obtener una lista completa, vea la sección [parámetros de implementación Determine](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) del tema de [planeación de Skype para Business Edition de conector en la nube](plan-skype-for-business-cloud-connector-edition.md) . Para obtener más información acerca de los valores que se deben cambiar para los dispositivos adicionales o los sitios nuevos, consulte [Sitio único con HA comparado con implementaciones de varios sitios](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) en el tema [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
   
 - **SiteName:** El valor predeterminado es **Site1**. Debe actualizarlo antes de implementar Cloud Connector, porque al ejecutar **Register-CcAppliance** para registrar un dispositivo en un sitio nuevo o existente, el cmdlet usará **SiteName** para determinar qué sitio se debe registrar.
     
@@ -174,13 +175,14 @@ Al actualizar el archivo .ini, tenga en cuenta lo siguiente:
     
 - **HardwareType:** Si no establece o deje el valor en null, se usará el valor predeterminado de **Normal** . Utilice **Normal** si tiene previsto implementar la versión mayor del conector en la nube para admitir llamadas simultáneas 500 por máquina del host como se describe en [Plan for Skype para Business Edition de conector en la nube](plan-skype-for-business-cloud-connector-edition.md). Use **Minimum** para una versión más pequeña que admita 50 llamadas simultáneas.
     
-- **Modificadores virtuales de Internet/Corpnet de administración:**: agregar el nombre de los modificadores virtuales que haya creado. Para el modificador virtual de administración, deje el valor predeterminado. El script de implementación creará el conmutador virtual administración al principio de la implementación y eliminarlo cuando finalice la implementación.
+- **Conmutadores virtuales de Internet, red corporativa o administración:** Agregue el nombre de los conmutadores virtuales que haya creado. Para el conmutador virtual de administración, deje el valor predeterminado. El script de implementación creará el conmutador virtual de administración al comienzo de la implementación y lo eliminará cuando termine la implementación.
+
     
 - **ManagementIPPrefix:** ManagementIPPrefix en la sección de Red debe ser una subred diferente de otras IP internas. Por ejemplo, tal como muestra el valor predeterminado, ManagementIPPrefix es 192.168.213.0, mientras que AD IPAddress es 192.168.0.238.
     
     Los scripts de implementación crean un adaptador de red de administración en cada máquina virtual, asignan una IP de administración y lo conectan a un conmutador virtual de administración. Esto permite al servidor host conectarse a cada máquina virtual y administrarlas mediante esta red de administración. El conmutador virtual de administración se elimina cuando finaliza la administración.
     
-- **Configuraciones específicas de máquina virtual de base:** Configuración de esta sección se debe establecer para el cmdlet **Convert-CcIsoToVhdx** .
+- **Configuraciones específicas de la máquina virtual base:** La configuración de esta sección debe estar configurada para el cmdlet **Convert-CcIsoToVhdx**.
     
     Durante la preparación de la imagen de la máquina virtual base, esta se conectará al conmutador de red interno. Las siguiente configuración es fundamental para que la máquina virtual pueda acceder a Internet:
     
@@ -306,7 +308,7 @@ La cuenta CceService se crea durante la implementación de Skype Empresarial Clo
 
 Se requiere un inquilino de Office 365 con Skype para profesionales en línea y el sistema de teléfono en Office 365. Asegúrese de que el inquilino es y que esté configurado antes de intentar usar el conector de la nube.
   
-Algunos pasos del programa de instalación de Office 365 requieren que se use PowerShell remoto de inquilino (TRPS) para configurar al inquilino de Office 365. **Se debe instalar en el servidor host.** Puede descargar el Skype para módulo empresarial en línea para PowerShell desde:[Skype para Online de negocio, módulo de Windows PowerShell](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+Algunos pasos del programa de instalación de Office 365 requieren que se use PowerShell remoto de inquilino (TRPS) para configurar al inquilino de Office 365. **Se debe instalar en el servidor host.** Puede descargar el Skype para módulo empresarial en línea para PowerShell desde: [Skype para Online de negocio, módulo de Windows PowerShell](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
   
 Crear un Skype dedicada para la cuenta de administrador empresarial para la administración en línea de conector en la nube, por ejemplo CceOnlineManagmentAdministrator. Esta cuenta la usará la aplicación para agregar o quitar aplicaciones, habilitar o deshabilitar actualizaciones automáticas del sistema operativo, habilitar o deshabilitar actualizaciones automáticas de archivos binarios. Establezca la contraseña para que esta cuenta no expire nunca y no haya que cambiarla para el servicio cada vez que expire.
   

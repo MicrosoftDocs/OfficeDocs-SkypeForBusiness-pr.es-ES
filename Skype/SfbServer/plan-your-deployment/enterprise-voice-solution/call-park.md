@@ -1,9 +1,8 @@
 ---
-title: Planificar el estacionamiento de llamadas en Skype Empresarial Server 2015
+title: Plan para el estacionamiento de llamadas en Skype para la empresa
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: Planeación de estacionamiento de llamadas en Skype para Business Server Enterprise Voice, que permite que las llamadas de puesta en espera y la transferencia de llamadas a departamentos. Incluye el planeamiento de capacidad, llamadas admitidas y clientes admitidos.
-ms.openlocfilehash: 71166aa866f2242248dc090da19212a5e1122161
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a675100f8b40e1ab293c0240ea0acbe3beb7fa27
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988553"
 ---
-# <a name="plan-for-call-park-in-skype-for-business-2015"></a>Planificar el estacionamiento de llamadas en Skype Empresarial Server 2015
+# <a name="plan-for-call-park-in-skype-for-business"></a>Plan para el estacionamiento de llamadas en Skype para la empresa
  
 Planeación de estacionamiento de llamadas en Skype para Business Server Enterprise Voice, que permite que las llamadas de puesta en espera y la transferencia de llamadas a departamentos. Incluye el planeamiento de capacidad, llamadas admitidas y clientes admitidos.
   

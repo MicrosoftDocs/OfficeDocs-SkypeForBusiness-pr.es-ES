@@ -1,5 +1,5 @@
 ---
-title: "Preparar la red de la organización para Microsoft Teams"
+title: Preparar la red de la organización para Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,15 +7,17 @@ ms.date: 02/26/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: arachman
-description: "Sepa cómo preparar y administrar la red de Microsoft Teams. La información incluye los requisitos de red, los requisitos de ancho de banda y otras consideraciones."
+description: Sepa cómo preparar y administrar la red de Microsoft Teams. La información incluye los requisitos de red, los requisitos de ancho de banda y otras consideraciones.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e734014ff72c8b7eb6ba0e9f27cce7489ec3daf9
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 3fec119a29ea29d9d5c897395c82e27fdaed5e48
+ms.sourcegitcommit: 8c13d6279760749f60776a3c9e46118f029ae818
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 06/23/2018
+ms.locfileid: "20024201"
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams
 =================================================
@@ -35,7 +37,7 @@ Esto afecta la red de dos maneras: el tráfico fluirá entre los clientes de Mic
 
 Para obtener una experiencia óptima con los elementos multimedia en tiempo real dentro de Microsoft Teams, se deben cumplir los requisitos de red para Office 365. Para obtener más información, consulte [Calidad de medios y rendimiento de conectividad de la red en Skype Empresarial Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US).
 
-Los dos segmentos de red definitivos (cliente a Microsoft Edge y perímetro de cliente a Microsoft Edge) deben cumplir con los siguientes requisitos:
+Para los dos definen segmentos de red (cliente a Microsoft Edge) y borde de cliente a Microsoft Edge, tenga en cuenta las siguientes recomendaciones.
 
 
 |Valor  |Cliente a Microsoft Edge  |Perímetro de cliente a Microsoft Edge  |
@@ -57,22 +59,23 @@ Para probar los dos segmentos de red, puede usar la [herramienta de evaluación 
 
 Los cálculos de ancho de banda para Microsoft Teams son complejos por lo que, para ayudar con esta tarea, se creó una calculadora. Para acceder a la calculadora, vaya a [Network Planner en MyAdvisor](http://aka.ms/bwcalc/).
 
-El contenido que encontrará a continuación puede utilizarse como información complementaria; sin embargo, se recomienda que los clientes usen [Network Planner](https://aka.ms/bwcalc) para hacer un seguimiento de sus necesidades.
+<!--
+The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.
 
 > [!IMPORTANT]
->Si el ancho de banda requerido no está disponible, los elementos multimedia apilados dentro de Teams degradarán la calidad de la sesión de audio o vídeo para adaptarse al ancho de banda más bajo, lo que afectará la calidad de la llamada o reunión. El cliente de Teams intentará priorizar la calidad del audio sobre la calidad del vídeo. Por lo tanto, es sumamente importante tener disponible la cantidad de ancho de banda esperada.
+>If the required bandwidth is not available, the media stack inside Teams will degrade the quality of the audio/video session to accommodate for that lower amount of available bandwidth, impacting the quality of the call/meeting. The Teams client will attempt to prioritize the quality of audio over the quality of video. It is therefore extremely important to have the expected bandwidth available.
 
 
-|Actividad  |Descargar ancho de banda  |Cargar ancho de banda  |Flujo de tráfico |
+|Activity  |Download Bandwidth  |Upload Bandwidth  |Traffic Flow |
 |---------|---------|---------|---------|
-|**Llamada de audio de par a par**     |0,1 MB         |0,1 MB         |Cliente <> Cliente         |
-|**Videollamada de par a par (pantalla completa)**     |4 MB         |4Mb         |Cliente <> Cliente          |
-|**Compartir escritorio de par a par (resolución de 1920 x 1080)**     |4 MB         |4 MB         |Cliente <> Cliente          |
-|**Reunión de dos participantes**     |4 MB         |4 MB         |Cliente <> Office 365         |
-|**Reunión de tres participantes**     |8 MB         |6,5 MB         |Cliente <> Office 365           |
-|**Reunión de cuatro participantes**     |5,5 MB         |4 MB         |Cliente <> Office 365           |
-|**Reunión de cinco participantes o más**     |6 MB         |1,5 MB         |Cliente <> Office 365           |
-
+|**Peer to peer Audio Call**     |0.1 Mb         |0.1Mb         |Client <> Client         |
+|**Peer to peer Video Call (full screen)**     |4 Mb         |4Mb         |Client <> Client          |
+|**Peer to peer Desktop Sharing (1920*1080 resolution)**     |4 Mb         |4 Mb         |Client <> Client          |
+|**2 Participant Meeting**     |4 Mb         |4 Mb         |Client <> Office 365         |
+|**3 participant meeting**     |8 Mb         |6.5 Mb         |Client <> Office 365           |
+|**4 participant meeting**     |5.5 Mb         |4 Mb         |Client <> Office 365           |
+|**5 participant+ meeting**     |6 Mb         |1.5 Mb         |Client <> Office 365           |
+-->
 
 <a name="additional-network-considerations"></a>Otras consideraciones sobre la red
 ---------------

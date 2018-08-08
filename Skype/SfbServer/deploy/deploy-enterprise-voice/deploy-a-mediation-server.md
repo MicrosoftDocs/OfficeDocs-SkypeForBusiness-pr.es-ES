@@ -1,5 +1,5 @@
 ---
-title: Implementar un servidor de mediación en el Generador de topologías en Skype Empresarial Server 2015
+title: Implementar un servidor de mediación en el generador de Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,16 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
-description: 'Resumen: Obtenga información sobre cómo definir e implementar un servidor de mediación en el generador de Skype para Business Server 2015.'
-ms.openlocfilehash: 1923b75f36690cf6c4ab49cb69591032b188ace5
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumen: Obtenga información sobre cómo definir e implementar un servidor de mediación en el generador de Skype para Business Server.'
+ms.openlocfilehash: cc5990db7a1e8323205f6fbddbd937ad5ee75f19
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975333"
 ---
-# <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server-2015"></a>Implementar un servidor de mediación en el Generador de topologías en Skype Empresarial Server 2015
+# <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Implementar un servidor de mediación en el generador de Skype para Business Server
  
-**Resumen:** Obtenga información sobre cómo definir e implementar un servidor de mediación en el generador de Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo definir e implementar un servidor de mediación en el generador de Skype para Business Server.
   
 La carga de trabajo de Enterprise Voice, conferencias y aplicaciones avanzadas de Enterprise Voice (aplicación de grupo de respuesta, aplicación estacionamiento de llamadas, control de admisión de llamadas (CAC) y así sucesivamente), están disponibles en los grupos de servidores Front-End. En el servidor Front-End se incorpora la funcionalidad del servidor de mediación. No es necesario un servidor de mediación independiente independiente. 
   
@@ -79,7 +80,7 @@ Puede agregar el servidor de mediación como un rol instalado en un grupo de ser
    - Si desea implementar varios servidores de mediación en el grupo de servidores para proporcionar una alta disponibilidad, a continuación, seleccione **el grupo de servidores de varios equipos**.
     
     > [!NOTE]
-    > Debe implementar (.. /.. / plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) para admitir grupos de servidores de mediación que tienen varios servidores de mediación.
+    > Debe [implementar](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) para admitir grupos de servidores de mediación que tienen varios servidores de mediación.
   
    - Si desea implementar un solo servidor de mediación del grupo de servidores debido a que no requieran una alta disponibilidad, a continuación, seleccione **el grupo de servidores de un solo equipo**. Omita el paso siguiente.
     

@@ -1,9 +1,8 @@
 ---
-title: Administrar la configuración del grupo de respuesta de la aplicación en Skype Empresarial 2015
+title: Administración de la configuración de grupo de respuesta de nivel de la aplicación en Skype para la empresa
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: Administración de la configuración de grupo de respuesta de nivel de la aplicación, como la configuración de música en espera y devolución de llamada, en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 2133a85a9ae929a55e5edf0206932d3048dace34
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 1aa3234860193cac40e6ca8a39323013847606fb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500539"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012305"
 ---
-# <a name="managing-application-level-response-group-settings-in-skype-for-business-2015"></a>Administrar la configuración del grupo de respuesta de la aplicación en Skype Empresarial 2015
+# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Administración de la configuración de grupo de respuesta de nivel de la aplicación en Skype para la empresa
  
 Administración de la configuración de grupo de respuesta de nivel de la aplicación, como la configuración de música en espera y devolución de llamada, en Skype para Business Server Enterprise Voice.
   

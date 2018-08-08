@@ -1,9 +1,8 @@
 ---
-title: Exportar o importar un archivo de configuración de enrutamiento de voz en Skype Empresarial 2015
+title: Exportar o importar un archivo de configuración de ruta de voz de Skype para la empresa
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
-description: 'Resumen: Obtenga información sobre cómo exportar o importar un archivo de configuración de enrutamiento de voz de Skype para Business Server 2015 mediante el Skype para el Panel de Control de servidor empresarial.'
-ms.openlocfilehash: ba16e68ec3218a06d1baf21c238b14e3f566f630
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumen: Obtenga información sobre cómo exportar o importar un archivo de configuración de enrutamiento de voz de Skype para Business Server mediante el uso de la Skype para el Panel de Control de servidor empresarial.'
+ms.openlocfilehash: 462bcf471e4a43bfedf32b0d062731ea7cbd06f9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965411"
 ---
-# <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business-2015"></a>Exportar o importar un archivo de configuración de enrutamiento de voz en Skype Empresarial 2015
+# <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>Exportar o importar un archivo de configuración de ruta de voz de Skype para la empresa
  
-**Resumen:** Obtenga información sobre cómo exportar o importar un archivo de configuración de enrutamiento de voz de Skype para Business Server 2015 mediante el Skype para el Panel de Control de servidor empresarial.
+**Resumen:** Obtenga información sobre cómo exportar o importar un archivo de configuración de enrutamiento de voz de Skype para Business Server mediante el uso de la Skype para el Panel de Control de servidor empresarial.
   
 Si desea guardar la configuración del enrutamiento de voz sin publicarla, siga los pasos de este tema para guardar y recuperar una instantánea de la configuración del enrutamiento de voz. 
   
@@ -57,6 +57,6 @@ Si ha realizado los cambios no confirmados en la configuración de cualquier pá
 6. Haga clic en **Confirmar** y, a continuación, en **Confirmar todo**.
     
     > [!NOTE]
-    > Siempre que importe un archivo de configuración de voz, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, consulte [publicar los cambios en la configuración de enrutamiento de voz en Skype para profesionales de 2015 pendientes](voice-route-config-changes.md) en la documentación sobre operaciones.
+    > Siempre que importe un archivo de configuración de voz, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, consulte [Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para la empresa](voice-route-config-changes.md) en la documentación sobre operaciones.
   
 

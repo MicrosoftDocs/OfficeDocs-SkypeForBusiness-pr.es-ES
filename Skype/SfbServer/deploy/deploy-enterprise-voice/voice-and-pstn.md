@@ -1,9 +1,8 @@
 ---
-title: Configurar directivas de voz, registros de uso de RTC y rutas de voz en Skype Empresarial 2015
+title: Configurar directivas de voz, registros de uso de RTC y rutas de voz de Skype para la empresa
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
-description: 'Resumen: Obtenga información sobre cómo configurar las directivas de voz, registros de uso de RTC y rutas de voz de Skype para Business Server 2015.'
-ms.openlocfilehash: b0d5d9edaf94cb0c8041ef5ef679ad81b9c54edd
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumen: Obtenga información sobre cómo configurar las directivas de voz, registros de uso de RTC y rutas de voz de Skype para Business Server.'
+ms.openlocfilehash: 0292ae0f7f8579c4856059587ed75b172617fe72
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006509"
 ---
-# <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business-2015"></a>Configurar directivas de voz, registros de uso de RTC y rutas de voz en Skype Empresarial 2015
+# <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a>Configurar directivas de voz, registros de uso de RTC y rutas de voz de Skype para la empresa
  
-**Resumen:** Obtenga información sobre cómo configurar las directivas de voz, registros de uso de RTC y rutas de voz de Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo configurar las directivas de voz, registros de uso de RTC y rutas de voz de Skype para Business Server.
   
 Las directivas de voz, los registros de uso de RTC y las rutas de voz están totalmente relacionados. Para configurar las directivas de voz, debe seleccionar un grupo de características de llamada y luego asignar a la directiva un grupo de registros de uso de RTC, que especifican los derechos que se otorgarán a los usuarios o grupos a los que se les asigne la directiva de voz. A las rutas de voz también se les asignan registros de uso de RTC, que sirven para asociar las rutas con los usuarios autorizados para usarlas. Es decir, los usuarios solo pueden realizar llamadas que usan rutas para las que tienen registros de uso de RTC coincidentes.
   
@@ -35,16 +35,16 @@ Para consultar los pasos detallados que se deben seguir para realizar cada una d
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para profesionales de 2015](voice-policy-and-pstn-usage-records.md)
+- [Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para la empresa](voice-policy-and-pstn-usage-records.md)
     
-- [Configurar escape de correo de voz de Skype para profesionales de 2015](configure-voice-mail-escape.md)
+- [Configurar escape de correo de voz de Skype para la empresa](configure-voice-mail-escape.md)
     
-- [Ver registros de uso de RTC de Skype para profesionales de 2015](view-pstn-usage-records.md)
+- [Ver registros de uso de RTC de Skype para la empresa](view-pstn-usage-records.md)
     
-- [Crear o modificar una ruta de voz de Skype para profesionales de 2015](create-or-modify-a-voice-route.md)
+- [Crear o modificar una ruta de voz de Skype para la empresa](create-or-modify-a-voice-route.md)
     
-- [Exportar o importar un archivo de configuración de ruta de voz de Skype para profesionales de 2015](voice-route-configuration-import-export.md)
+- [Exportar o importar un archivo de configuración de ruta de voz de Skype para la empresa](voice-route-configuration-import-export.md)
     
-- [Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para profesionales de 2015](voice-route-config-changes.md)
+- [Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para la empresa](voice-route-config-changes.md)
     
 

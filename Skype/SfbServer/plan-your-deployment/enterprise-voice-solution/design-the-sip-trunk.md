@@ -1,9 +1,8 @@
 ---
-title: Diseñar el tronco SIP para E9-1-1 en Skype Empresarial Server 2015
+title: Diseñar el tronco SIP para E9-1-1 en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
 description: Planeación de las topologías de enlace troncal SIP para una implementación de E9-1-1 que usa los proveedores de enlace troncal SIP, en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: a04256bcad458b639777ec553289deb3c43ddd59
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 8a0264bc66be97a80b9ef1d14a020f438a8a89f5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974668"
 ---
-# <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server-2015"></a>Diseñar el tronco SIP para E9-1-1 en Skype Empresarial Server 2015
+# <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server"></a>Diseñar el tronco SIP para E9-1-1 en Skype para Business Server
  
 Planeación de las topologías de enlace troncal SIP para una implementación de E9-1-1 que usa los proveedores de enlace troncal SIP, en Skype para Business Server Enterprise Voice.
   
@@ -32,11 +32,11 @@ Hay dos formas de implementar un tronco SIP en un Skype para entorno Business Se
     
 - Use un controlador de borde de sesión (SBC) local para proporcionar un punto de demarcación segura entre los servidores de mediación y el tronco SIP servicios del proveedor.
     
-Si eliges el último método, asegúrate de que el modelo y la marca del SBC que elijas estén certificado y admitan el paso de datos de ubicación del objeto de localización del formato de datos de información de presencia (PIDF-LO) como parte de su SIP INVITE. De lo contrario, las llamadas llegarán al proveedor de los servicios de emergencia sin información de su ubicación. Para obtener información detallada acerca de SBCs certificadas, vea ["la infraestructura completa para Microsoft Lync"](https://go.microsoft.com/fwlink/p/?LinkId=248425) y ["telefonía infraestructura de Skype para profesionales"](https://technet.microsoft.com/en-us/office/dn947483).
+Si eliges el último método, asegúrate de que el modelo y la marca del SBC que elijas estén certificado y admitan el paso de datos de ubicación del objeto de localización del formato de datos de información de presencia (PIDF-LO) como parte de su SIP INVITE. De lo contrario, las llamadas llegarán al proveedor de los servicios de emergencia sin información de su ubicación. Para obtener información detallada acerca de SBCs certificadas, vea ["la infraestructura completa para Microsoft Lync"](https://go.microsoft.com/fwlink/p/?LinkId=248425) y ["telefonía infraestructura de Skype para profesionales"](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways). 
   
 Proveedores de servicios E9-1-1 de proporcionan acceso a un par de SBCs para conseguir redundancia. Debe tomar varias decisiones con respecto a la topología de servidor de mediación y la configuración de enrutamiento de llamadas. ¿Tratar ambas SBCs como igual del mismo nivel y usar el enrutamiento round-robin para las llamadas entre ellas, o se designa una SBC como principal y el otro como secundaria?
   
-Para obtener información detallada sobre la implementación de un tronco SIP en Skype para Business Server, consulte el [enlace troncal SIP en Skype para Business Server 2015](sip-trunking.md). Las siguientes preguntas te ayudarán a decidir cómo implementar los troncos SIP para E9-1-1.
+Para obtener información detallada sobre la implementación de un tronco SIP en Skype para Business Server, consulte el [enlace troncal SIP en Skype para Business Server](sip-trunking.md). Las siguientes preguntas te ayudarán a decidir cómo implementar los troncos SIP para E9-1-1.
   
  **¿Tendría que implementar el tronco SIP a través de una conexión alquilada dedicada o de una conexión a Internet compartida?**
   
@@ -48,7 +48,7 @@ Para obtener información detallada sobre la implementación de un tronco SIP en
     
  **¿Tendría que implementar un tronco SIP independiente para cada sucursal?**
   
-> Skype para Business Server proporciona varias estrategias para controlar la resistencia de voz en sucursales, incluidas: necesidad de redes de datos resistente, implementar un tronco SIP en cada sucursal o extraer las llamadas a la puerta de enlace local durante las interrupciones. Para obtener información detallada, vea [enlace troncal SIP en Skype para Business Server 2015](sip-trunking.md).
+> Skype para Business Server proporciona varias estrategias para controlar la resistencia de voz en sucursales, incluidas: necesidad de redes de datos resistente, implementar un tronco SIP en cada sucursal o extraer las llamadas a la puerta de enlace local durante las interrupciones. Para obtener información detallada, vea [enlace troncal SIP en Skype para Business Server](sip-trunking.md).
     
  **¿Está habilitado el servicio de control de admisión de llamadas (CAC)?**
   

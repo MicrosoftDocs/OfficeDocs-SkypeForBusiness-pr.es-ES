@@ -1,9 +1,8 @@
 ---
-title: Planificar la aplicación de grupo de respuesta en Skype Empresarial Server 2015
+title: Planeación de la aplicación de grupo de respuesta en Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Planeación de grupos de respuesta en Skype para Business Server Enterprise Voice, que le permite configurar el enrutamiento de llamadas a grupos de usuarios. Incluye requisitos para los archivos de audio.
-ms.openlocfilehash: 628126cfc3815dfabdf0e73c962e8dcff326b416
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4fbdfd1428d66865f3f704c4005935deefd370f2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20970187"
 ---
-# <a name="plan-for-the-response-group-application-in-skype-for-business-server-2015"></a>Planificar la aplicación de grupo de respuesta en Skype Empresarial Server 2015
+# <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Planeación de la aplicación de grupo de respuesta en Skype para Business Server
  
 Planeación de grupos de respuesta en Skype para Business Server Enterprise Voice, que le permite configurar el enrutamiento de llamadas a grupos de usuarios. Incluye requisitos para los archivos de audio.
   
@@ -58,9 +58,9 @@ Para dar cabida a la función de administrador, la aplicación de grupo de respu
    
 En la siguiente tabla se describe las acciones que los administradores del grupo de respuesta puede y no se puede realizar para los grupos de respuesta asignados a ellos.
   
-**Capacidades de director de grupo de respuesta**
+**Capacidades del director del grupo de respuesta**
 
-|**Puede configurar:**|**Puede crear, eliminar o configurar:**|**No se puede:**|
+|**Puede configurar:**|**Puede crear, eliminar o configurar:**|**No puede:**|
 |:-----|:-----|:-----|
 | Agentes <br/>  Mensajes de bienvenida <br/>  Nombre de grupo de respuesta <br/>  Descripción <br/>  Número para mostrar <br/>  Horario comercial <br/>  Música en espera <br/>  Estado (activo/inactivo) <br/>  Flujos de trabajo del grupo de extensiones o flujos de trabajo de la respuesta interactiva de voz (IVR) <br/> | Grupos de agentes <br/>  Colas <br/>  Conjuntos de vacaciones <br/> | Crear o eliminar ningún tipo de flujo de trabajo <br/>  Modificar la configuración principal de los grupos de respuesta, como el **URI de SIP**, el **número de teléfono** o el **tipo de flujo de trabajo**.  <br/> |
    
@@ -136,9 +136,9 @@ La herramienta de configuración de grupo de respuesta admite combinaciones de s
 > [!NOTE]
 > Se admiten las versiones de 32 y 64 bits de los sistemas operativos. Solamente se admiten las versiones de 32 bits de Internet Explorer. 
   
-**Los sistemas operativos y exploradores Web**
+**Sistemas operativos y exploradores web compatibles**
 
-|**Sistema operativo**|**Explorador Web**|
+|**Sistema operativo**|**Explorador web**|
 |:-----|:-----|
 |Windows Vista con Service Pack (SP) 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (modo nativo)  <br/> Internet Explorer 9 (modo nativo)  <br/> |
 |Windows 7  <br/> Windows 7 con Service Pack 1  <br/> |Internet Explorer 8 (modo nativo)  <br/> Internet Explorer 9 (modo nativo)  <br/> |
@@ -154,9 +154,9 @@ La consola del agente admite combinaciones de los sistemas operativos y los expl
 > [!NOTE]
 > Se admiten las versiones de 32 y 64 bits de los sistemas operativos. Solamente se admiten las versiones de 32 bits de Internet Explorer. 
   
-**Los sistemas operativos y exploradores Web**
+**Sistemas operativos y exploradores web compatibles**
 
-|**Sistema operativo**|**Explorador Web**|
+|**Sistema operativo**|**Explorador web**|
 |:-----|:-----|
 |Windows Vista con Service Pack (SP) 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (modo nativo)  <br/> Internet Explorer 9 (modo nativo)  <br/> |
 |Windows 7  <br/> Windows 7 con Service Pack 1  <br/> |Internet Explorer 8 (modo nativo)  <br/> Internet Explorer 9 (modo nativo)  <br/> Firefox 10.0  <br/> Chrome 18.0  <br/> |
@@ -202,7 +202,7 @@ En la siguiente tabla se describe el modelo de usuario de grupo de respuesta que
 > [!IMPORTANT]
 > Ten en cuenta que, para planificar la capacidad de la recuperación ante desastres, cada grupo de un grupo emparejado necesita poder gestionar las cargas de trabajo para todos los grupos de respuesta en ambos grupos. 
   
-**Modelo de usuario de grupo de respuesta**
+**Modelo de usuario del grupo de respuesta**
 
 |**Métrica**|**Por grupo de servidores Enterprise Edition <br/> (con 8 servidores Front-End)**|**Por servidor Standard Edition**|
 |:-----|:-----|:-----|

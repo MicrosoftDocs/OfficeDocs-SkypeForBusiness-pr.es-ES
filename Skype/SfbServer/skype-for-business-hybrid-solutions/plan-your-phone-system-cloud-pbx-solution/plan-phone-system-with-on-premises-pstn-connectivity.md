@@ -17,11 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Obtenga información acerca de las consideraciones de planeación para el sistema telefónico en Office 365 (en la nube PBX) con conectividad de RTC local.
-ms.openlocfilehash: 79d414e26b2fe260c6fe647c818911e77ce3bfaa
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b92a98e52f9ccf914a8100555fa683bb01d05d5b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001729"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planear el sistema telefónico en Office 365 con conectividad de RTC local en Skype para Business Server
  
@@ -55,7 +56,7 @@ Mediante la implementación del sistema de teléfono en Office 365 con conectivi
   
 Puede tener una característica personalizada o un complemento principal en su PBX heredado, como un centro de llamadas. Si la característica personalizada no está actualmente disponible en el sistema telefónico en Office 365, debe dejar aquellos usuarios que requieren esa característica personalizada local con el sistema PBX heredado y el puerto sólo los usuarios que no es necesario para tener acceso a la característica personalizada para el sistema telefónico en Office 365 con la conectividad de RTC local.
   
-Para obtener una lista de PBX heredadas que interoperar directamente con Skype para Business Server 2015 vea [Infraestructura completa para Microsoft Lync](https://technet.microsoft.com/en-us/office/dn788945.aspx). Si su PBX no está en esta lista, puede usar un controlador de borde de sesión para conectar su PBX con el sistema telefónico en Office 365 en Skype para profesionales en línea.
+Para obtener una lista de PBX heredadas que interoperar directamente con Skype para Business Server 2015 vea [Infraestructura completa para Microsoft Lync](https://docs.microsoft.com/en-us/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Si su PBX no está en esta lista, puede usar un controlador de borde de sesión para conectar su PBX con el sistema telefónico en Office 365 en Skype para profesionales en línea.
   
 ### <a name="network-considerations-for-quality-and-performance"></a>Consideraciones de red para calidad y rendimiento
 
@@ -76,7 +77,7 @@ Antes de poder configurar el sistema telefónico en Office 365 con conectividad 
   
  **Versiones de servidor local.** Las versiones de los servidores de la implementación local deben aparecer en la tabla siguiente para admitir el sistema telefónico en Office 365 con conectividad de RTC local.
   
-|**Función de servidor**|**Versiones compatibles\***|
+|**Rol de servidor**|**Versiones compatibles\***|
 |:-----|:-----|
 |Borde de federación\*\*  <br/> |Skype Empresarial Server 2015  <br/> |
 |Servidor del grupo interno de ruta de federación del próximo salto  <br/> |Skype Empresarial Server 2015, actualización acumulativa 6.0.9319.235 de marzo de 2016 o superior (front-end o Director)  <br/> |

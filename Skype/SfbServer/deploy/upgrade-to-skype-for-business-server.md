@@ -14,18 +14,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: 'Resumen: Obtenga información sobre cómo realizar una actualización de Lync Server 2013 Skype para Business Server 2015. Descargue una versión de prueba gratuita de Skype para Business Server 2015 desde el Evaluation de Microsoft center en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 36d692788e84c0e7f136d947d7c3b2709b490b9f
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 5fb00af65aa3aa63c32b9d54be03010747d4e83b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501080"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019889"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>Actualizar a Skype Empresarial Server 2015
  
 **Resumen:** Obtenga información sobre cómo actualizar de Lync Server 2013 a Skype para Business Server 2015. Descargue una versión de prueba gratuita de Skype para Business Server 2015 desde el [Centro de evaluación de Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 Use los procedimientos descritos en este documento para actualizar desde Lync Server 2013 a Skype para Business Server 2015 con el Skype para Business Server Topology Builder y la nueva característica de actualización en contexto. Si desea actualizar desde Office Communications Server 2007 R2 o de Lync Server 2010, vea [Planear la actualización a Skype para Business Server 2015](../plan-your-deployment/upgrade.md).
+
+> [!NOTE]
+> Las actualizaciones en contexto estaban disponibles en Skype para Business Server 2015, pero ya no se admiten en Skype para Business Server 2019. En paralelo se admite la coexistencia, consulte [migración de Skype para Business Server 2019](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md) para obtener más información.
   
 ## <a name="upgrade-from-lync-server-2013"></a>Actualización de Lync Server 2013
 
@@ -233,14 +236,14 @@ Si se produce un error en la actualización local, es posible que vea un mensaje
   
 Revise el mensaje completo que aparece en la parte inferior de la pantalla para solucionar el problema. Haga clic en **Ver registros** para obtener más información.
   
-Si la actualización en contexto se produce un error en la **comprobación de preparación de actualización** o ** instalar los requisitos previos que faltan **, asegúrese de que el servidor tiene todos los más recientes de Windows Server, Lync Server y las actualizaciones de SQL Server que se aplican, y todos los roles son la software requerido instalado. Para obtener una lista de lo que se requiere, vea [requisitos de servidor para Skype para Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) e [instalar los requisitos previos para Skype para Business Server 2015](install/install-prerequisites.md).
+Si la actualización en contexto se produce un error en la **comprobación de preparación de actualización** o **faltan requisitos previos de instalación**, asegúrese de que el servidor tiene todas las actualizaciones más recientes Windows Server, Lync Server y SQL Server aplicadas y todo el software requerido y roles son instalado. Para obtener una lista de lo que se requiere, vea [requisitos de servidor para Skype para Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) e [instalar los requisitos previos para Skype para Business Server 2015](install/install-prerequisites.md).
   
 ## <a name="see-also"></a>Vea también
 
-[Plan para actualizar a Skype para Business Server 2015](../plan-your-deployment/upgrade.md)
+[Planear la actualización a Skype Empresarial Server 2015](../plan-your-deployment/upgrade.md)
   
-[Requisitos de servidor de Skype para Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Requisitos del servidor para Skype Empresarial Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[Instalar los requisitos previos de Skype para Business Server 2015](install/install-prerequisites.md)
+[Instalar requisitos previos para Skype Empresarial Server 2015](install/install-prerequisites.md)
   
-[Instalar Skype para Business Server 2015](install/install.md)
+[Instalar Skype Empresarial Server 2015](install/install.md)

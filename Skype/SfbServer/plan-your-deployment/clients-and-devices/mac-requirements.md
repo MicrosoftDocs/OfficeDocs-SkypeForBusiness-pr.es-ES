@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Leer este tema para obtener más información acerca de hardware, software y los requisitos de infraestructura para la ejecución de Skype para la empresa en un MAC.
-ms.openlocfilehash: 9fd03dbc04937dc34145c97a3abd4fc561ae0270
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 72dfe6aa8479631a3bd3bf6be69e5a5ac2e10dff
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503959"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020656"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Skype para la empresa en los requisitos de cliente de Mac
  
@@ -28,10 +28,10 @@ El [Skype para la empresa en el cliente de Mac](https://products.office.com/en-u
   
 ## <a name="hardware-and-software-requirements-for-skype-for-business-on-the-mac"></a>Requisitos de hardware y software para Skype Empresarial para Mac
 
-El Skype para la empresa en el cliente de Mac requiere Mac OS X El capitán y superior y usa al menos 100MB de espacio en disco. Se admite el uso de todos los dispositivos de audio y vídeo integrados. Los dispositivos externos deben estar en la [lista de dispositivos compatibles para su uso con Lync](https://go.microsoft.com/fwlink/p/?LinkId=798223). 
+El Skype para la empresa en el cliente de Mac requiere Mac OS X El capitán y superior y usa al menos 100MB de espacio en disco. Se admite el uso de todos los dispositivos de audio y vídeo integrados. Los dispositivos externos deben estar en la [Skype para el catálogo de soluciones de negocio](https://partnersolutions.skypeforbusiness.com/solutionscatalog). 
   
 > [!NOTE]
-> Esta lista es una versión preliminar y pueden ser compatibles con Lync algunos dispositivos, pero no se admiten en Skype para la empresa en Mac. > Hacer referencia a los [requisitos del sistema](https://products.office.com/en-us/office-system-requirements) para el hardware mínimo necesario.
+> Esta lista es una versión preliminar y pueden ser compatibles con Lync algunos dispositivos, pero no se admiten en Skype para la empresa en Mac. Consulte los [requisitos del sistema](https://products.office.com/en-us/office-system-requirements) para el hardware mínimo necesario.
   
 ### <a name="legacy-mac-clients"></a>Clientes heredados de Mac
 
@@ -40,17 +40,19 @@ Skype para Business Server 2015 también admite a los siguientes clientes hereda
 - Microsoft Lync para Mac 2011 (consulte [Lync para Mac 2011 Deployment Guide](https://go.microsoft.com/fwlink/p/?LinkId=268786))
     
 - Microsoft Communicator para Mac 2011 (vea [Communicator para Mac 2011 Deployment Guide](https://go.microsoft.com/fwlink/p/?LinkId=268787))
-    
+ 
+Estos clientes no admiten por Skype para Business Server 2019.
+   
 ## <a name="infrastructure-requirements-for-skype-for-business-on-the-mac"></a>Requisitos de infraestructura de Skype Empresarial para Mac
 <a name="Infrastructure"> </a>
 
 El Skype para la empresa en el cliente de Mac aprovecha la plataforma de administración de comunicaciones unificadas (UCMP) así como la Unified Communications Web API (UCWA) que usan nuestros clientes de movilidad.
   
-El cliente tiene los mismos requisitos que nuestros clientes de movilidad en cuanto a que debe tener un Servidor perimetral de acceso y un proxy inverso implementados en una configuración compatible. Además, la cuenta debe estar habilitada para la movilidad.
+El cliente tiene los mismos requisitos que nuestros clientes de movilidad en cuanto a que debe tener un Servidor perimetral de acceso y un proxy inverso implementados en una configuración compatible. 
   
 ### <a name="authentication"></a>Autenticación
 
-El Skype para la empresa en el cliente de Mac es compatible con la autenticación NTLM. Además, el cliente es compatible con Microsoft Modern Authentication y Multi-Factor Authentication cuando se implementa y se habilita.
+El Skype para la empresa en el cliente de Mac es compatible con la autenticación basada en certificados, autenticación moderno de Microsoft y la autenticación multifactor cuando implementado y habilitado.
   
 > [!NOTE]
 > Debido a una limitación actual, las credenciales del usuario Exchange deben ser el mismo que sus Skype para las credenciales de negocio. 
@@ -74,7 +76,7 @@ Para obtener más información, consulte: [Implementación de movilidad en Lync 
 ## <a name="see-also"></a>Vea también
 <a name="Infrastructure"> </a>
 
-[Requisitos de DNS de Skype para Business Server 2015](../../plan-your-deployment/network-requirements/dns.md)
+[Requisitos de DNS de Skype para Business Server](../../plan-your-deployment/network-requirements/dns.md)
 
 [Preguntas más frecuentes](https://go.microsoft.com/fwlink/p/?LinkId=798227)
   

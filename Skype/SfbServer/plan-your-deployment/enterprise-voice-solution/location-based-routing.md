@@ -1,9 +1,8 @@
 ---
-title: Planificar el enrutamiento basado en ubicación en Skype Empresarial Server 2015
+title: Plan para basados en ubicación enrutamiento en Skype para la empresa
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/7/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: Planeación de basados en ubicación enrutamiento en Skype para Business Server Enterprise Voice, incluida la interacción con las llamadas simultáneas y la delegación y escenarios admitidos para enrutamiento basado en la ubicación.
-ms.openlocfilehash: 224bae32037ea474dc376e653db5b3d644c859ee
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 80f77db43b62629f31d1481fdd5653ba18d96d10
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967307"
 ---
-# <a name="plan-for-location-based-routing-in-skype-for-business-2015"></a>Planificar el enrutamiento basado en ubicación en Skype Empresarial Server 2015
+# <a name="plan-for-location-based-routing-in-skype-for-business"></a>Plan para basados en ubicación enrutamiento en Skype para la empresa
  
 Planeación de basados en ubicación enrutamiento en Skype para Business Server Enterprise Voice, incluida la interacción con las llamadas simultáneas y la delegación y escenarios admitidos para enrutamiento basado en la ubicación.
   
@@ -82,9 +82,9 @@ El enrutamiento basado en ubicación aplica las siguientes reglas generales al r
 
 El enrutamiento de llamadas salientes de los usuarios habilitados para enrutamiento basados en ubicación se ve afectado por la ubicación de red del extremo del usuario. En la siguiente tabla ilustra cómo basados en ubicación afecta a de enrutamiento el enrutamiento de llamadas salientes según la ubicación del extremo del autor de la llamada. 
   
-**Autor de la llamada colocar una llamada saliente a la RTC**
+**El autor de la llamada hace una llamada saliente a la RTC**
 
-||**Extremo de usuario que se encuentra en un sitio de red habilitado para enrutamiento basados en ubicación**|**Extremo de usuario que se encuentra en el sitio de red desconocido o no habilitado para enrutamiento basados en ubicación**|
+||**El extremo del usuario se encuentra en un sitio de red habilitado para el enrutamiento basado en ubicación**|**El extremo del usuario se encuentra en un sitio de red desconocido o no habilitado para el enrutamiento basado en ubicación**|
 |:-----|:-----|:-----|
 |Autorización de llamadas salientes  <br/> |Llamada está autorizada en función de la directiva de voz del usuario  <br/> |Llamada está autorizada en función de la directiva de voz del usuario  <br/> |
 |Enrutamiento de llamadas salientes  <br/> |Llamada se enruta según la directiva de enrutamiento de voz del sitio de red  <br/> |Llamada se enruta de acuerdo con la directiva de voz del usuario y sólo a través de troncos no habilitados para enrutamiento basados en ubicación (si está disponible)  <br/> |
@@ -97,7 +97,7 @@ La configuración de un usuario que está habilitado para enrutamiento basado en
   
 En la siguiente tabla ilustra cómo basados en ubicación enrutamiento afecta el enrutamiento de las llamadas entrantes según la ubicación del extremo del destinatario de la llamada. El sitio de red de la puerta de enlace RTC está habilitado para enrutamiento basado en la ubicación y enrutamiento basados en ubicación solo permite el enrutamiento de llamadas de RTC a los extremos dentro del mismo sitio de red.
   
-**Destinatario de la llamada recibir una llamada entrante desde la RTC**
+**El destinatario recibe una llamada entrante desde la RTC**
 
 ||**Extremo del destinatario de la llamada que se encuentra en el mismo sitio de red como puerta de enlace RTC**|**Extremo del destinatario de la llamada que no se encuentra en el mismo sitio de red como puerta de enlace RTC**|**Extremo del destinatario de la llamada que se encuentra en el sitio de red desconocido o no habilitado para enrutamiento basados en ubicación**|
 |:-----|:-----|:-----|:-----|
@@ -109,9 +109,9 @@ Cuando se trate de un extremo de RTC, la ubicación del extremo de la calle y el
   
 En la siguiente tabla ilustra el escenario de un Skype para usuarios de empresa en una llamada con un extremo de RTC y la Skype para usuarios de empresa transfiere la llamada a otro Skype para usuarios de empresa. Según la ubicación de sitio de red del extremo del cesionario, afecta al enrutamiento basados en ubicación hacia delante o el enrutamiento de la transferencia de llamadas.
   
-**Iniciar llamada de transferencia o reenviar**
+**Inicio de la transferencia o el desvío de la llamada**
 
-|**Usuario que inicia la llamada de transferencia o reenviar**|**Extremo de destino se encuentra en el mismo sitio de red como usuario que inicia la transferencia de llamada o reenviar**|**Extremo de destino se encuentra en el sitio de red diferentes como usuario que inicia la transferencia de llamada o reenviar**|**Extremo de destino en el sitio de red desconocido o sitio de red no está habilitado para enrutamiento basados en ubicación**|
+|**Usuario que inicia la transferencia o el desvío de la llamada**|**El extremo de destino está en el mismo sitio de red que el usuario que inicia la transferencia o el desvío de la llamada**|**El extremo de destino está en un sitio de red diferente del sitio del usuario que inicia la transferencia o el desvío de la llamada**|**Extremo de destino en el sitio de red desconocido o sitio de red no está habilitado para enrutamiento basados en ubicación**|
 |:-----|:-----|:-----|:-----|
 |Skype para usuarios de empresa  <br/> |Se permite el desvío o la transferencia de la llamada  <br/> |No se permite el desvío ni la transferencia de la llamada  <br/> |No se permite el desvío ni la transferencia de la llamada  <br/> |
    
@@ -119,9 +119,9 @@ Por ejemplo: un Skype para usuarios de empresa en una llamada con un extremo de 
   
 En la siguiente tabla ilustra el escenario de un Skype para usuarios de empresa en una llamada con otra Skype para usuarios de empresa y uno de los usuarios transfiere la llamada a un extremo de RTC. La tabla recoge los detalles de cómo el enrutamiento basado en ubicación afecta a la llamada en función de la ubicación del usuario al que se transfiere la llamada.
   
-**Transferencia de llamadas o reenviar al extremo de RTC**
+**Transferencia o desvío de la llamada al extremo de RTC**
 
-|**Destino de extremo de transferencia o reenvío de llamadas**|**Skype para los usuarios de negocio en el mismo sitio de red**|**Skype para los usuarios de negocio en sitios de red diferentes**|**Uno o ambos Skype para los usuarios de negocio en el sitio de red desconocido o no habilitado para enrutamiento basado en la ubicación de sitio de red**|
+|**Destino del extremo de la transferencia o el desvío de la llamada**|**Skype para los usuarios de negocio en el mismo sitio de red**|**Skype para los usuarios de negocio en sitios de red diferentes**|**Uno o ambos Skype para los usuarios de negocio en el sitio de red desconocido o no habilitado para enrutamiento basado en la ubicación de sitio de red**|
 |:-----|:-----|:-----|:-----|
 |Extremo de RTC  <br/> |Desviar llamadas o transferencia permitida por la directiva de enrutamiento de voz de sitio del usuario transferidos  <br/> |Desviar llamadas o transferencia permitida por la directiva de enrutamiento de voz de sitio del usuario transferidos  <br/> |Desviar llamadas o transferencia permitida por la directiva de voz del usuario transferidos sólo a través de troncos no habilitado para enrutamiento basados en ubicación  <br/> |
    
@@ -135,7 +135,7 @@ En la siguiente tabla se muestra un usuario con la configuración de llamadas si
   
 ****
 
-|**Llamada de RTC para**|**Que se encuentra en el mismo sitio de red como destinatario de la llamada**|**Que se encuentra en el sitio de red distinta que el destinatario de la llamada**|**Que se encuentra en el sitio de red desconocido o no habilitado para enrutamiento basados en ubicación**|
+|**Llamada RTC entrante para**|**Ubicado en el mismo sitio de red que el destinatario**|**Ubicado en un sitio de red distinto del sitio del destinatario**|**Que se encuentra en el sitio de red desconocido o no habilitado para enrutamiento basados en ubicación**|
 |:-----|:-----|:-----|:-----|
 |Skype para usuarios de empresa  <br/> |Llamadas simultáneas permitidas  <br/> |Llamadas simultáneas no permitidas  <br/> |Llamadas simultáneas no permitidas  <br/> |
    
@@ -143,7 +143,7 @@ En la siguiente tabla ilustra una llamada desde un Skype para usuarios de empres
   
 ****
 
-|**Destino de la llamada simultánea**|**Que se encuentra en el mismo sitio de red como destinatario de la llamada**|**Que se encuentra en el sitio de red distinta que el destinatario de la llamada**|**Que se encuentra en el sitio de red desconocido o no habilitado para enrutamiento basados en ubicación**|
+|**Destino de llamadas simultáneas**|**Ubicado en el mismo sitio de red que el destinatario**|**Ubicado en un sitio de red distinto del sitio del destinatario**|**Que se encuentra en el sitio de red desconocido o no habilitado para enrutamiento basados en ubicación**|
 |:-----|:-----|:-----|:-----|
 |Extremo de RTC  <br/> |Llamada simultánea permitida a través de la directiva de enrutamiento de voz de sitio del autor de la llamada  <br/> |Llamada simultánea permitida a través de la directiva de enrutamiento de voz de sitio del autor de la llamada  <br/> |Llamada simultánea permitida a través de la directiva de voz el autor de la llamada a troncos no habilitado para enrutamiento basados en ubicación  <br/> |
    
@@ -159,7 +159,7 @@ Con la actualización acumulativa 4, verá lo siguiente:
     
 En la siguiente tabla se recorren algunos de los escenarios posteriores a la actualización acumulativa 4: 
   
-|**Usuario de enrutamiento basada en ubicación**|**Otros fabricantes**|**Acción**|**Resultado**|
+|**Usuario de enrutamiento basada en ubicación**|**Terceros**|**Acción**|**Resultado**|
 |:-----|:-----|:-----|:-----|
 |Skype Empresarial para móviles  <br/> |RTC  <br/> |Skype para profesionales Mobile recibe una llamada entrante de RTC.  <br/> |La llamada se redirige a través de Vía trabajo (CvW) en lugar de VoIP.  <br/> |
 |Skype Empresarial para móviles  <br/> |RTC  <br/> |Skype para profesionales Mobile realiza una llamada de RTC saliente.  <br/> |La llamada se redirige a través de (CvW) en lugar de VoIP.  <br/> |
@@ -207,7 +207,7 @@ En la siguiente tabla identifica la combinación de funciones de servidor y las 
   
 ****
 
-|**Versión del grupo de servidores**|**Versión de servidor de mediación**|**Compatible**|
+|**Versión del grupo**|**Versión del servidor de mediación**|**Compatible**|
 |:-----|:-----|:-----|
 |Skype para la actualización acumulativa de Business Server o Lync Server 2013 de febrero de 2013  <br/> |Skype para la actualización acumulativa de Business Server o Lync Server 2013 de febrero de 2013  <br/> |sí  <br/> |
 |Skype para la actualización acumulativa de Business Server o Lync Server 2013 de febrero de 2013  <br/> |Lync Server 2013  <br/> |no  <br/> |

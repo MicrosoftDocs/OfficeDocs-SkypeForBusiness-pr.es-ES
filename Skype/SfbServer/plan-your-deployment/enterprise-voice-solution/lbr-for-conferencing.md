@@ -1,9 +1,8 @@
 ---
-title: Enrutamiento basado en ubicación para conferencias en Skype Empresarial Server 2015
+title: Enrutamiento para las conferencias en Skype para Business Server basados en ubicación
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 10/13/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planeación de basados en ubicación enrutamiento para las conferencias en Skype para Business Server Enterprise Voice, incluidas consultoría llame a transferencias.
-ms.openlocfilehash: 778f8156d2d4ab4cf6613975567a88e80c1e6b9c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0a7e31637736eb774373ed52c0a966651445b7f5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004478"
 ---
-# <a name="location-based-routing-for-conferencing-in-skype-for-business-server-2015"></a>Enrutamiento basado en ubicación para conferencias en Skype Empresarial Server 2015
+# <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Enrutamiento para las conferencias en Skype para Business Server basados en ubicación
  
 Planeación de basados en ubicación enrutamiento para las conferencias en Skype para Business Server Enterprise Voice, incluidas consultoría llame a transferencias.
   
@@ -47,7 +47,7 @@ El enrutamiento basado en la ubicación para la aplicación de conferencia impid
 En la siguiente tabla se resumen estas restricciones de enrutamiento basado en la ubicación de la conferencia. 
   
 | |
-|**Usuarios en una conferencia en cualquier momento dado**|**Usuarios puedos unirse a la conferencia**|**Usuarios no puedos unirse a la conferencia**|
+|**Usuario(s) en una conferencia en un momento determinado**|**Usuarios(s) con permiso para unirse a la conferencia**|**Usuarios(s) sin permiso para unirse a la conferencia**|
 |:-----|:-----|:-----|
 |Skype para usuarios de cliente de VoIP empresarial desde un sitio de red único  <br/> |Skype para el usuario de cliente de VoIP de negocio desde el mismo sitio de red  <br/> Skype para el usuario de cliente de VoIP empresarial desde un sitio de red diferentes  <br/> Skype para el usuario de cliente de VoIP empresarial desde un sitio de red desconocido  <br/> Skype federada para el usuario de cliente de VoIP de negocio  <br/> Usuario que se une desde un extremo de RTC  <br/> |Ninguno  <br/> |
 |Skype para usuarios de cliente de VoIP de negocio de un sitio de red desconocido  <br/> |Skype para el usuario de cliente de VoIP de negocio desde cualquier sitio  <br/> Skype para el usuario de cliente de VoIP empresarial desde un sitio desconocido  <br/> Skype federada para el usuario de cliente de VoIP de negocio  <br/> |Usuario que se une a través de un extremo de RTC  <br/> |
@@ -65,7 +65,7 @@ Las siguientes son características adicionales del enrutamiento basado en la ub
 > [!NOTE]
 > Con la actualización acumulativa 4 de Skype Empresarial, debe observarse el comportamiento en la siguiente tabla: 
   
-|**Usuario**|**Otros fabricantes**|**Acción**|**Resultado**|
+|**Usuario**|**Terceros**|**Acción**|**Resultado**|
 |:-----|:-----|:-----|:-----|
 |Skype Empresarial para móviles  <br/> |RTC  <br/> |Skype Empresarial para móviles está en una llamada RTC. Skype Empresarial para móviles luego escala la llamada a un operador automático de conferencia (CAA).  <br/> |La llamada se bloquea, con un mensaje de error apropiado.  <br/> |
 |Skype Empresarial para móviles  <br/> |Usuario federado o cliente de Skype Empresarial  <br/> |El cliente o el usuario federado está en una llamada VoIP a un Skype para enrutamiento de Business Mobile Location-Based usuario y cualquiera de las partes que se pasa a un CAA.  <br/> |La llamada de escalación se bloquea, con un mensaje de error apropiado.  <br/> |
@@ -74,7 +74,7 @@ Las siguientes son características adicionales del enrutamiento basado en la ub
 
 Además de aplicar el enrutamiento basado en la ubicación a Skype para reuniones de negocios, el enrutamiento basado en la ubicación para la aplicación de conferencia impone restricciones de enrutamiento basado en la ubicación en las transferencias de consultoría de llamada que egreso a extremos de RTC. Una transferencia con consulta llamada es una llamada establecida entre dos partes donde una de las partes transfiere la llamada a un nuevo usuario. Por ejemplo, un extremo de RTC llama a usuario (Skype para el destinatario de la llamada empresarial). El usuario A determina que el usuario RTC se reenviará a usuario B (Skype para usuarios de empresa). Lugares de usuario A que la llamada con el usuario de RTC en espera y el usuario de las llamadas B. usuario B acepta para hablar con el usuario de RTC. El usuario A transfiere la llamada en espera al usuario B.
   
-**Flujo de llamadas de transferencia de llamada de consultoría**
+**Flujo de llamadas de transferencia de llamada de consulta**
 
 ![Enrutamiento basado en ubicación para diagrama de conferencias](../../media/LocationBasedRoutingForConferencing.jpg)
   
@@ -87,7 +87,7 @@ Cuando un usuario habilitado para enrutamiento basados en ubicación inicia una 
 En la siguiente tabla se describe cómo basado en la ubicación de enrutamiento se aplican restricciones por el enrutamiento basado en la ubicación para aplicación de conferencia para las transferencias de consultoría de llamada. A pesar de que los extremos de PBX no están directamente asociados con un sitio de red, el tronco SIP al cual está conectado la PBX se puede asignar a un sitio de red. Por lo tanto, el extremo de PBX se puede asociar indirectamente con el sitio de red.
   
 
-|**Sitio de red de la parte de transferir llamada**|**Sitio de red de destino de la transferencia de llamadas**|**Comportamiento**|
+|**Sitio de red de la entidad de origen de la transferencia de la llamada**|**Sitio de red del destino de la transferencia de la llamada**|**Comportamiento**|
 |:-----|:-----|:-----|
 |Extremo de RTC  <br/> |Skype para usuarios de empresa en el mismo sitio de red (es decir, sitio 1)  <br/> |Se permitirá la transferencia de consulta  <br/> |
 |Extremo de RTC  <br/> |Skype para usuarios de empresa en sitios de red diferentes (es decir, el sitio 2)  <br/> |No se permitirá la transferencia de consulta  <br/> |
@@ -109,7 +109,7 @@ El enrutamiento basado en la ubicación para la aplicación de conferencia requi
 En la siguiente tabla identifica la combinación de funciones de servidor y las versiones que admiten enrutamiento basado en la ubicación.
   
 
-|**Versión de grupo de servidores front-end**|**Versión de servidor de mediación**|**Compatible**|
+|**Versión del grupo de servidores front-end**|**Versión del servidor de mediación**|**Compatible**|
 |:-----|:-----|:-----|
 |Skype para Business Server o Lync Server 2013 actualización acumulativa 2  <br/> |Skype para Business Server o Lync Server 2013 actualización acumulativa 2  <br/> |Sí  <br/> |
 |Actualización acumulativa 2 de Lync Server 2013  <br/> |Actualización acumulativa 1 de Lync Server 2013  <br/> |No  <br/> |

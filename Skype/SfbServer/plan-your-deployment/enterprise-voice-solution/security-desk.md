@@ -1,9 +1,8 @@
 ---
-title: Incluir el departamento de seguridad en Skype Empresarial Server 2015
+title: Incluir el departamento de seguridad en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
 description: Planear cómo incluir el departamento de seguridad de su organización en una implementación de E9-1-1, en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: adaa1096651c5e3f86d15af1b2409a8de03e6c9c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9363956a9b0f1cc598224b9d573677ff424c9e23
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989567"
 ---
-# <a name="include-the-security-desk-in-skype-for-business-server-2015"></a>Incluir el departamento de seguridad en Skype Empresarial Server 2015
+# <a name="include-the-security-desk-in-skype-for-business-server"></a>Incluir el departamento de seguridad en Skype para Business Server
  
 Planear cómo incluir el departamento de seguridad de su organización en una implementación de E9-1-1, en Skype para Business Server Enterprise Voice.
   

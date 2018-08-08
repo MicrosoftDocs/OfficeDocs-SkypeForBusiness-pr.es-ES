@@ -1,5 +1,5 @@
 ---
-title: Preparar Active Directory para Skype Empresarial Server 2015
+title: Preparar Active Directory para Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,28 +13,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
-description: 'Resumen: Obtenga información sobre cómo preparar el dominio de Active Directory para una instalación de Skype para Business Server 2015. Descargue una versión de prueba gratuita de Skype para Business Server 2015 desde el Evaluation de Microsoft center en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 97aa431627fd8e17734060b8447b0434cb8f1949
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Obtenga información sobre cómo preparar el dominio de Active Directory para una instalación de Skype para Business Server. Descargue una versión de prueba gratuita de Skype para Business Server desde el Evaluation de Microsoft center en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: 6f562a8a229f98deabce7956d5419f45e3022c12
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568392"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998598"
 ---
-# <a name="prepare-active-directory-for-skype-for-business-server-2015"></a>Preparar Active Directory para Skype Empresarial Server 2015
+# <a name="prepare-active-directory-for-skype-for-business-server"></a>Preparar Active Directory para Skype para Business Server
  
-**Resumen:** Obtenga información sobre cómo preparar el dominio de Active Directory para una instalación de Skype para Business Server 2015. Descargue una versión de prueba gratuita de Skype para Business Server 2015 desde el [Centro de evaluación de Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Resumen:** Obtenga información sobre cómo preparar el dominio de Active Directory para una instalación de Skype para Business Server. Descargue una versión de prueba gratuita de Skype para Business Server desde el [Centro de evaluación de Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
-Skype para Business Server trabaja estrechamente con Active Directory. Debe preparar el dominio de Active Directory para que funcione con Skype para Business Server. Este proceso se lleva a cabo en el Asistente para la implementación y se realiza sólo una vez para el dominio. Esto es debido a que el proceso crea grupos y modifica el dominio, y debe hacer que sólo una vez. Se pueden realizar los pasos del 1 al 5 en cualquier orden. Sin embargo, debe realizar los pasos 6, 7 y 8 en orden y después de los pasos del 1 al 5, tal como se indica en el diagrama. Preparación de Active Directory es el paso 4 de 8. Para obtener más información sobre la planeación de Active Directory, vea [requisitos de entorno para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md).
+Skype para Business Server trabaja estrechamente con Active Directory. Debe preparar el dominio de Active Directory para que funcione con Skype para Business Server. Este proceso se lleva a cabo en el Asistente para la implementación y se realiza sólo una vez para el dominio. Esto es debido a que el proceso crea grupos y modifica el dominio, y debe hacer que sólo una vez. Se pueden realizar los pasos del 1 al 5 en cualquier orden. Sin embargo, debe realizar los pasos 6, 7 y 8 en orden y después de los pasos del 1 al 5, tal como se indica en el diagrama. Preparación de Active Directory es el paso 4 de 8. Para obtener más información sobre la planeación de Active Directory, vea [requisitos de entorno para Skype para Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) o [requisitos de servidor para Skype para Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   
 ![diagrama de información general](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
   
 ## <a name="prepare-active-directory"></a>Preparar Active Directory
 
-Skype para Business Server 2015 está integrada estrechamente con los servicios de dominio de Active Directory (AD DS). Antes de Skype para Business Server 2015 puede instalarse por primera vez, es preciso preparar Active Directory. La sección del Asistente para la implementación titulada **Preparar Active Directory** prepara el entorno de Active Directory para su uso con Skype para Business Server.
+Skype para Business Server está integrada estrechamente con los servicios de dominio de Active Directory (AD DS). Antes de Skype para Business Server se puede instalar por primera vez, es preciso preparar Active Directory. La sección del Asistente para la implementación titulada **Preparar Active Directory** prepara el entorno de Active Directory para su uso con Skype para Business Server.
   
 > [!NOTE]
-> Skype para Business Server 2015 usa (AD DS) para realizar un seguimiento y comunicarse con todos los servidores en una topología. Cada servidor debe estar unido al dominio para que Skype para Business Server pueda funcionar correctamente. 
+> Skype para Business Server usa (AD DS) para realizar un seguimiento y comunicarse con todos los servidores en una topología. Cada servidor debe estar unido al dominio para que Skype para Business Server pueda funcionar correctamente. 
   
 > [!IMPORTANT]
 > Es necesario ejecutar el procedimiento de preparación de Active Directory solo una vez por cada dominio en la implementación. 
@@ -66,7 +66,7 @@ Vea los pasos del vídeo **Preparar Active Directory**:
     
     e. Haga clic en **Finalizar** y así cerrar el asistente para la preparación del esquema y regresar a los pasos para preparar Active Directory.
     
-5. **Paso 2: Comprobar la replicación de la partición de esquema**
+5. **Paso 2: Comprobar la replicación de la partición del esquema**
     
     a. Inicie sesión en el controlador de dominio para el dominio.
     
@@ -78,7 +78,7 @@ Vea los pasos del vídeo **Preparar Active Directory**:
     
     e. En el contenedor de esquema, busque **CN=ms-RTC-SIP-SchemaVersion**. Si este objeto existe y el valor del atributo **rangeUpper** es 1150 y el valor del atributo **rangeLower** es 3, el esquema se ha actualizado y replicado correctamente. Si este objeto no existe o si el valor de los atributos **rangeUpper** y **rangeLower** es distinto de lo que se ha especificado, el esquema no se ha modificado o no se ha replicado.
     
-6. **Paso 3: Preparar bosque actual**
+6. **Paso 3: Preparar el bosque actual**
     
     a. Haga clic en el menú desplegable debajo del título del paso 3 y revise la información sobre los requisitos previos para este paso.
     
@@ -148,7 +148,7 @@ Vea los pasos del vídeo **Preparar Active Directory**:
   
     c. Si el resultado es **LC_DOMAINSETTINGS_STATE_READY**, el dominio se ha replicado correctamente.
     
-10. **Paso 7: Agregar usuarios para proporcionar acceso administrativo a la Skype para el Panel de Control de servidor empresarial**
+10. **Paso 7: Agregar usuarios para otorgar acceso administrativo al Panel de control de Skype Empresarial Server**
     
     a. Inicie sesión como miembro del grupo Administradores del dominio o del grupo RTCUniversalServerAdmins.
     
@@ -161,7 +161,7 @@ Vea los pasos del vídeo **Preparar Active Directory**:
     e. En la pestaña **Miembros**, confirme que estén los usuarios o los grupos que haya seleccionado. Haga clic en **Aceptar**.
     
     > [!CAUTION]
-    > El Skype para el Panel de Control de servidor empresarial es una herramienta de control de acceso basado en roles. Pertenencia al grupo CsAdministrator proporciona a un usuario que está usando el Skype para control total del Panel de Control de servidor empresarial para todas las funciones de configuración disponibles. Hay otros roles disponibles diseñados para funciones específicas. Para obtener información detallada sobre las funciones disponibles, vea [requisitos de entorno para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). Tenga en cuenta que los usuarios no tienen a habilitarse para Skype para Business Server con el fin de hacerse miembros de los grupos de administración. 
+    > El Skype para el Panel de Control de servidor empresarial es una herramienta de control de acceso basado en roles. Pertenencia al grupo CsAdministrator proporciona a un usuario que está usando el Skype para control total del Panel de Control de servidor empresarial para todas las funciones de configuración disponibles. Hay otros roles disponibles diseñados para funciones específicas. Para obtener información detallada sobre las funciones disponibles, vea [requisitos de entorno para Skype para Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) o [requisitos de servidor para Skype para Business Server 2019](../../../SfBServer2019/plan/system-requirements.md). Tenga en cuenta que los usuarios no tienen a habilitarse para Skype para Business Server con el fin de hacerse miembros de los grupos de administración. 
   
     > [!CAUTION]
     > Para ayudar a mantener la seguridad y la integridad del control de acceso basado en roles, agregar usuarios a los grupos que definen qué rol realiza el usuario en administración de la Skype para la implementación de Business Server. 
@@ -175,4 +175,4 @@ Vea los pasos del vídeo **Preparar Active Directory**:
 
 ## <a name="see-also"></a>Vea también
  
-[Servicios de dominio de Active Directory para Skype para Business Server 2015](../../plan-your-deployment/security/active-directory-domain-services.md)
+[Servicios de dominio de Active Directory para Skype Empresarial Server 2015](../../plan-your-deployment/security/active-directory-domain-services.md)

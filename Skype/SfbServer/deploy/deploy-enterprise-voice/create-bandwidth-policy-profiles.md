@@ -1,9 +1,8 @@
 ---
-title: Crear perfiles de directivas de ancho de banda en Skype Empresarial Server 2015
+title: Crear perfiles de directivas de ancho de banda en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,20 +13,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: Crear o modificar directivas de ancho de banda, que se usan por el control de admisión de llamadas de Enterprise Voice en Skype para Business Server.
-ms.openlocfilehash: 51516e07a75cc4239d89310c9d33194a225b3a02
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: ddc74ad5327651225bb6f0e78f83d8248c290806
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500593"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986446"
 ---
-# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server-2015"></a>Crear perfiles de directivas de ancho de banda en Skype Empresarial Server 2015
+# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Crear perfiles de directivas de ancho de banda en Skype para Business Server 
  
 Crear o modificar directivas de ancho de banda, que se usan por el control de admisión de llamadas de Enterprise Voice en Skype para Business Server. 
   
-Las directivas de ancho de banda definen las limitaciones de uso de ancho de banda para modalidades de vídeo y de audio en tiempo real. Las directivas de ancho de banda son perfiles de directiva aplicada tobandwidth, que se pueden aplicar a varios sitios de red para el control de admisión de llamadas.
+Las directivas de ancho de banda definen limitaciones en el uso de ancho de banda para las modalidades de audio y vídeo en tiempo real. Las directivas de ancho de banda son perfiles de directiva aplicada tobandwidth, que se pueden aplicar a varios sitios de red para el control de admisión de llamadas.
   
-Para obtener instrucciones sobre los límites de ancho de banda de qué se debe definir en su implementación de CAC, consulte [Plan para el control de admisión de llamadas en Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+Para obtener instrucciones sobre los límites de ancho de banda de qué se debe definir en su implementación de CAC, consulte [Plan para el control de admisión de llamadas en Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 Las directivas de ejemplo creadas en el procedimiento siguiente definen límites para el tráfico de audio global, sesiones de audio individuales, el tráfico de vídeo global y sesiones de vídeo individuales. Por ejemplo, el perfil de directiva de ancho de banda 5Mb_Link define los límites siguientes: 
   

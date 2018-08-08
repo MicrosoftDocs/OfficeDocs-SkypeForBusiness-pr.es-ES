@@ -3,7 +3,6 @@ title: Requisitos del equilibrio de carga para Skype Empresarial
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
-description: 'Resumen: Revise la carga equilibrio consideraciones antes de implementar Skype para Business Server 2015.'
-ms.openlocfilehash: dee231f9c50e8ad71ead0ad6b31ad20e00da1b7a
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Revise el equilibrio consideraciones antes de implementar Skype para Business Server de carga.'
+ms.openlocfilehash: c1b9069d13111955e3957dc0bd199ac0a163fd1a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569494"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20976481"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Requisitos del equilibrio de carga para Skype Empresarial
  
-**Resumen:** Revise la carga equilibrio consideraciones antes de implementar Skype para Business Server 2015.
+**Resumen:** Revise el equilibrio consideraciones antes de implementar Skype para Business Server de carga.
   
 El equilibrio de carga distribuye el tráfico entre los servidores en un grupo de servidores. Si tiene grupos de servidores Front-End, grupos de servidores de mediación o grupos de servidores perimetrales, necesita implementar el equilibrio de carga para estos grupos de servidores.
   
@@ -60,7 +59,7 @@ El Skype para Business Server escalada consolidada perimetral topología está o
 > [!NOTE]
 > Retorno de servidor directo (DSR) NAT no es compatible con Skype para Business Server. 
   
-Para determinar si el equilibrador de carga de hardware admite las características necesarias requeridas por Skype para Business Server, vea [infraestructura de Skype para la empresa](https://technet.microsoft.com/en-us/office/dn947483).
+Para determinar si el equilibrador de carga de hardware admite las características necesarias requeridas por Skype para Business Server, vea [infraestructura de Skype para la empresa](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways). 
   
 ### <a name="hardware-load-balancer-requirements-for-edge-servers-running-the-av-edge-service"></a>Requisitos de equilibrador de carga de hardware para servidores perimetrales que ejecutan el servicio perimetral A/V
 
@@ -110,7 +109,7 @@ Si se implementan dispositivos móviles, es preciso que el equilibrador de carga
 > Los equilibradores de carga de hardware F5 tienen una característica llamada OneConnect que asegura que cada solicitud dentro de una conexión TCP tenga carga equilibrada individualmente. Si va a implementar dispositivos móviles, asegúrese de que su proveedor del equilibrador de carga de hardware admita la misma función. Las últimas aplicaciones móviles que utilizan Apple iOS requieren la versión 1.2 de la seguridad de la capa de transporte (TLS). Para ellos, F5 proporciona una configuración específica. 
   
 > [!CAUTION]
-> Para obtener información detallada en los equilibradores de carga de hardware de terceros, vea [infraestructura de Skype para la empresa](https://technet.microsoft.com/en-us/office/dn947483). 
+> Para obtener información detallada en los equilibradores de carga de hardware de terceros, vea [infraestructura de Skype para la empresa](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
   
 A continuación, se muestran los requisitos del equilibrador de carga de hardware para los servicios web del grupo de servidores front-end y de directores:
   

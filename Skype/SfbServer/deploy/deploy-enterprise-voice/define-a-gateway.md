@@ -1,9 +1,8 @@
 ---
-title: Definir una puerta de enlace en el Generador de topologías en Skype Empresarial Server 2015
+title: Definir una puerta de enlace en el generador de Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
-description: 'Resumen: Obtenga información sobre cómo definir una puerta de enlace RTC en el generador de Skype para Business Server 2015.'
-ms.openlocfilehash: ae8656d60d819a92a22db6e97f83ea847ee15765
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumen: Obtenga información sobre cómo definir una puerta de enlace RTC en el generador de Skype para Business Server.'
+ms.openlocfilehash: c83951c26a125c568535bfba7d487324a9b725d0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998556"
 ---
-# <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server-2015"></a>Definir una puerta de enlace en el Generador de topologías en Skype Empresarial Server 2015
+# <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>Definir una puerta de enlace en el generador de Skype para Business Server
  
-**Resumen:** Obtenga información sobre cómo definir una puerta de enlace RTC en el generador de Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo definir una puerta de enlace RTC en el generador de Skype para Business Server.
   
 Siga estos pasos para usar el generador de topología para definir a un par con el que se puede asociar un servidor de mediación para proporcionar conectividad a la red telefónica conmutada (RTC) para los usuarios habilitados para Enterprise Voice. Un elemento del mismo nivel para el servidor de mediación puede ser una puerta de enlace de RTC, un sistema IP-PBX o un controlador de borde de sesión (SBC) para un proveedor de servicio de telefonía de Internet (ITSP) al que se conecta mediante la configuración de un tronco SIP.
   
@@ -38,7 +38,7 @@ Siga estos pasos para usar el generador de topología para definir a un par con 
   
 4. Defina el modo de escucha (IPv4 o IPv6) de la dirección IP de la nueva puerta de enlace RTC y haga clic en **Siguiente**.
 
-5. Definir un tronco raíz para la puerta de enlace de RTC. Un tronco es una conexión lógica entre un servidor de mediación y una puerta de enlace de identificación única efectuada mediante tupla.
+5. Defina un tronco raíz para la nueva puerta de enlace RTC. Un tronco es una conexión lógica entre un servidor de mediación y una puerta de enlace de identificación única efectuada mediante tupla.
     
     {FQDN de servidor de mediación, puerto de escucha de servidor de mediación (TLS o TCP): puerta de enlace IP y FQDN, puerto de escucha de puerta de enlace}
     

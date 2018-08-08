@@ -1,9 +1,8 @@
 ---
-title: Conexiones SIP directas en Skype Empresarial Server 2015
+title: Conexiones SIP directas en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Se admiten conexiones SIP directas entre Skype para Business Server y las puertas de enlace RTC y IP-PBX en Enterprise Voice.
-ms.openlocfilehash: c9dca75a7b1c7ac8fa60bafc5b7a2c2fa7b51490
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0ac21bcd0df60a2b4cb9393e8cc2e047d4f9fdf7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006581"
 ---
-# <a name="direct-sip-connections-in-skype-for-business-server-2015"></a>Conexiones SIP directas en Skype Empresarial Server 2015
+# <a name="direct-sip-connections-in-skype-for-business-server"></a>Conexiones SIP directas en Skype para Business Server
  
 Se admiten conexiones SIP directas entre Skype para Business Server y las puertas de enlace RTC y IP-PBX en Enterprise Voice.
   
@@ -123,7 +123,7 @@ Aquí están las principales cuestiones a tener en cuenta. Tenga en cuenta que l
 
 Los servidores de mediación puede enrutar las llamadas a través de varias puertas de enlace, controladores de borde de sesión (SBCs) proporcionadas por proveedores de servicios de telefonía de Internet, o una combinación de ambas. Además, varios servidores de mediación en el grupo de servidores puede interactuar con varias puertas de enlace. La ruta lógica definida entre un servidor de mediación y la puerta de enlace se denomina un tronco. Cuando un usuario interno realiza una llamada de RTC, la lógica de enrutamiento saliente en el grupo de servidores Front-End elige qué tronco a enrutar a través de fuera de todas las combinaciones posibles que pueden estar disponibles para el enrutamiento de esa llamada concreta. Con equilibrio de carga DNS, si se produce un error en una llamada llegar a una puerta de enlace debido a un problema con un determinado servidor de mediación del grupo de servidores, la llamada se volverá a un servidor de mediación alternativo en el grupo de servidores. 
   
-Para obtener información detallada sobre la planeación de varias puertas de enlace, vea [tronco m: n en Skype para Business Server 2015](m-n-trunk.md).
+Para obtener información detallada sobre la planeación de varias puertas de enlace, vea [tronco m: n en Skype para Business Server](m-n-trunk.md).
   
 Para obtener más información sobre otras mejoras de enrutamiento saliente, consulte [Rutas de llamadas](http://technet.microsoft.com/library/a2ddf327-2ec4-407b-af0f-276f2b13eefd.aspx).
   

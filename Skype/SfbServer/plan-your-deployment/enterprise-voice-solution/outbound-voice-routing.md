@@ -1,9 +1,8 @@
 ---
-title: Planificar el enrutamiento de voz saliente en Skype Empresarial Server 2015
+title: Plan para el enrutamiento de voz salientes en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: Obtenga información acerca del enrutamiento de voz salientes en Skype para Business Server Enterprise Voice, incluida la configuración de enrutamiento de llamadas, planes de marcado, reglas de normalización, las directivas de voz, registros de uso de RTC y rutas de voz.
-ms.openlocfilehash: 35ba2a8991b35a22b6abcacc42f1323d167c0d4d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 1f399ff44eafdc1fc61fb5bab41b0d8949127e62
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21029192"
 ---
-# <a name="plan-for-outbound-voice-routing-in-skype-for-business-server-2015"></a>Planificar el enrutamiento de voz saliente en Skype Empresarial Server 2015
+# <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Plan para el enrutamiento de voz salientes en Skype para Business Server
  
 Obtenga información acerca del enrutamiento de voz salientes en Skype para Business Server Enterprise Voice, incluida la configuración de enrutamiento de llamadas, planes de marcado, reglas de normalización, las directivas de voz, registros de uso de RTC y rutas de voz.
   
@@ -81,7 +81,7 @@ Para planificar un plan de marcado, haz lo siguiente:
     
     Si su organización mantiene un único plan de marcado a través de varias ubicaciones, es posible que aún necesita crear un plan de marcado independiente para los usuarios de Enterprise Voice que va a migrar desde una central de conmutación (PBX) y que necesitan tener sus extensiones existentes que se conservan.
     
-- Decide si son necesarios los planes de marcado por usuario. Por ejemplo, si tiene usuarios en un sitio de sucursal que están registradas en el sitio central o si tiene usuarios que están registrados en una aplicación de sucursal con funciones de supervivencia, se puede tener en cuenta especial escenarios de marcado para dichos usuarios con por usuario planes de marcado y reglas de normalización . Para obtener información detallada, consulte [Plan para la resistencia de Enterprise Voice en Skype para Business Server 2015](enterprise-voice-resiliency.md).
+- Decide si son necesarios los planes de marcado por usuario. Por ejemplo, si tiene usuarios en un sitio de sucursal que están registradas en el sitio central o si tiene usuarios que están registrados en una aplicación de sucursal con funciones de supervivencia, se puede tener en cuenta especial escenarios de marcado para dichos usuarios con por usuario planes de marcado y reglas de normalización . Para obtener información detallada, consulte [Plan para la resistencia de Enterprise Voice en Skype para Business Server](enterprise-voice-resiliency.md).
     
 - Determina el ámbito del plan de marcado (como ya se ha explicado antes en este tema).
     
@@ -141,7 +141,7 @@ Para obtener información detallada sobre el uso de expresiones regulares de .NE
 
 La siguiente tabla muestra reglas de normalización de muestra que se escriben como expresiones regulares de .NET Framework. Las muestras son meramente ejemplos y no sirven como referencia prescriptiva para crear sus propias reglas de normalización.
   
-**Reglas de normalización 1.en tabla uso de expresiones regulares de .NET Framework**
+**Tabla 1. Reglas de normalización que usan expresiones regulares de .NET Framework**
 
 |**Nombre de la regla**|**Descripción**|**Patrón de números**|**Traducción**|**Ejemplo**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -159,7 +159,7 @@ La siguiente tabla muestra reglas de normalización de muestra que se escriben c
    
 En la tabla siguiente se muestra un plan de marcado de ejemplo para Redmond, Washington, Estados Unidos, basado en las reglas de normalización que se muestran en la tabla anterior.
   
-**Tabla 2. Plan de marcado de Redmond basado en reglas de normalización que se muestran en la tabla 1**
+**Tabla 2. Plan de marcado de Redmond basado en las reglas de normalización mostradas en la tabla 1**
 
 |**Redmond.forestFQDN**|
 |:-----|
@@ -197,7 +197,7 @@ Los pasos siguientes le ayudarán a planear las directivas de voz que necesitar�
     
 ### <a name="voice-policy-scope"></a>Ámbito de directiva de voz
 
-Ámbito de directiva de voz determina el nivel jerárquico en el que se puede aplicar la directiva. En Skype para Business Server, puede configurar las directivas de voz con los siguientes niveles de ámbito (que aparecen desde la más específica a la más general).
+El ámbito de directiva de voz determina el nivel jerárquico en el que se puede aplicar la directiva. En Skype para Business Server, puede configurar las directivas de voz con los siguientes niveles de ámbito (que aparecen desde la más específica a la más general).
   
 - La **directiva de voz de usuario** se puede asignar a usuarios, grupos u objetos de contacto individuales. Es la directiva de nivel más bajo. Las directivas de voz de usuario se pueden implementar para habilitar características para usuarios y grupos determinados en un sitio, pero no para otros en el mismo sitio. Por ejemplo, puedes deshabilitar las llamadas de larga distancia para algunos empleados. Con el fin de asignar una directiva de voz, un objeto de contacto se considera un usuario individual.
     

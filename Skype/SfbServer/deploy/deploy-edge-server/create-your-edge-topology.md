@@ -1,9 +1,8 @@
 ---
-title: Crear la topología perimetral para Skype Empresarial Server 2015
+title: Creación de la topología perimetral para Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/6/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,18 +11,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
-description: 'Resumen: Obtenga información sobre cómo crear, publicar y exportar la topología de servidor perimetral de Skype para Business Server 2015.'
-ms.openlocfilehash: 335713fdcc8c8a88fb31f180ab4553bd64497d9f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumen: Obtenga información sobre cómo crear, publicar y exportar la topología de servidor perimetral de Skype para Business Server.'
+ms.openlocfilehash: 2c938312e90c339044a45c654838ec5c587bbd7e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019180"
 ---
-# <a name="create-your-edge-topology-for-skype-for-business-server-2015"></a>Crear la topología perimetral para Skype Empresarial Server 2015
+# <a name="create-your-edge-topology-for-skype-for-business-server"></a>Creación de la topología perimetral para Skype para Business Server
  
-**Resumen:** Obtenga información sobre cómo crear, publicar y exportar la topología de servidor perimetral de Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo crear, publicar y exportar la topología de servidor perimetral de Skype para Business Server.
   
-Generador de topología es la herramienta que se debe usar para crear la topología de servidor perimetral, al igual que se usa para cualquier componente de la topología de Skype para Business Server 2015. Antes de seguir los pasos siguientes, necesita ha configurado al menos un grupo de servidores Front-End o un servidor Standard Edition.
+Generador de topología es la herramienta que se debe usar para crear la topología de servidor perimetral, al igual que se usa para cualquier componente de la topología de Skype para Business Server. Antes de seguir los pasos siguientes, necesita ha configurado al menos un grupo de servidores Front-End o un servidor Standard Edition.
   
 Se tratarán los siguientes temas en este artículo:
   
@@ -42,7 +42,7 @@ Se tratarán los siguientes temas en este artículo:
     
 ## <a name="build-your-edge-server-topology"></a>Crear la topología de servidor perimetral
 
-El primer paso de implementación está creando su Skype para la topología de servidor perimetral de Business Server 2015, que consta de uno de tres opciones:
+El primer paso de implementación está creando su Skype para la topología de servidor perimetral de Business Server, que se compone de uno de tres opciones:
   
 - Un solo servidor perimetral
     
@@ -54,9 +54,9 @@ Si no está seguro de qué necesita, siga estos pasos antes de empezar, es un bu
   
 ### <a name="defining-the-topology-for-a-single-edge-server"></a>Definición de la topología de un solo servidor perimetral
 
-1. Inicie sesión en su Skype para Business Server 2015 Standard Edition o un Skype para el grupo de servidores Front-End de Business Server 2015.
+1. Inicie sesión en su Skype para Business Server Standard Edition o un Skype para grupo de negocio de servidor Front-End.
     
-2. Una vez allí, abra **Skype para Business Server 2015 Topology Builder**.
+2. Una vez allí, abra **Skype para Business Server Topology Builder**.
     
 3. En el árbol de consola, expanda el sitio que va a implementar el servidor perimetral a.
     
@@ -68,7 +68,7 @@ Si no está seguro de qué necesita, siga estos pasos antes de empezar, es un bu
     
 7. En la pantalla **Seleccionar características**, puede elegir:
     
-   - Es posible que desea utilizar la misma dirección IP y FQDN para el servicio de acceso SIP, su Skype para el servicio de conferencia Web de Business Server 2015 y su / servicio perimetral A/v. Si es así, tiene que seleccionar la casilla **Usar un solo FQDN y una dirección IP** (y recuerde esto para el paso 9)
+   - Es posible que desea utilizar la misma dirección IP y FQDN para el servicio de acceso SIP, su Skype para el servicio de conferencia Web de Business Server y su / servicio perimetral A/v. Si es así, tiene que seleccionar la casilla **Usar un solo FQDN y una dirección IP** (y recuerde esto para el paso 9)
     
    - Si está pensando en habilitar la federación, seleccione la casilla **Habilitar la federación para este grupo de servidores perimetrales (puerto 5061)**.
     
@@ -108,17 +108,17 @@ Si no está seguro de qué necesita, siga estos pasos antes de empezar, es un bu
 14. En la pantalla **grupos asociar Front-End** , debe especificar uno o varios grupos de servidores internos, incluidos los grupos de servidores Front-End y servidores Standard Edition, para asociar con este servidor perimetral. Sólo tiene que elegir los nombres de los grupos de servidores internos que desea usar este servidor perimetral para comunicarse con usuarios externos admitidos. Haga clic en **Siguiente**.
     
     > [!NOTE]
-    > Algo a tener en cuenta aquí es, si los servidores de independientes o grupos de servidores internos utilizan ya un Skype diferente para el servidor perimetral de Business Server 2015, no pueden tener varias asociaciones. Si elige un grupo de servidores interno o un servidor independiente que se encuentra en esa situación, verá aparecer una advertencia de error que informa sobre el otro servidor perimetral, y puede decidir si desea continuar o no. Si sigue adelante con la nueva asociación, se detendrá la conexión con el otro servidor perimetral. 
+    > Algo a tener en cuenta aquí es, si los servidores de independientes o grupos de servidores internos utilizan ya un Skype diferente para el servidor perimetral de Business Server, no pueden tener varias asociaciones. Si elige un grupo de servidores interno o un servidor independiente que se encuentra en esa situación, verá aparecer una advertencia de error que informa sobre el otro servidor perimetral, y puede decidir si desea continuar o no. Si sigue adelante con la nueva asociación, se detendrá la conexión con el otro servidor perimetral. 
   
 15. Haga clic en **Finalizar** en la pantalla siguiente.
     
-16. Ahora podrá publicar esta tecnología actualizada y siga las instrucciones de [Implementar servidores perimetrales en Skype para Business Server 2015](deploy-edge-servers.md) para implementar en el servidor perimetral desde aquí.
+16. Ahora podrá publicar esta tecnología actualizada y siga las instrucciones de [Implementación de servidores perimetrales en Skype para Business Server](deploy-edge-servers.md) para implementar en el servidor perimetral desde aquí.
     
 ### <a name="defining-the-topology-for-a-dns-load-balanced-edge-server-pool"></a>Definición de la topología para un DNS con equilibrio de carga grupo de servidores perimetrales
 
-1. Inicie sesión en su Skype para Business Server 2015 Standard Edition o un Skype para profesionales de 2015 Front-End Server.
+1. Inicie sesión en su Skype para Business Server Standard Edition o un Skype para Business Server Front-End Server.
     
-2. Una vez allí, abra **Skype para Business Server 2015 Topology Builder**.
+2. Una vez allí, abra **Skype para Business Server Topology Builder**.
     
 3. En el árbol de consola, expanda el sitio que va a implementar el servidor perimetral a.
     
@@ -130,7 +130,7 @@ Si no está seguro de qué necesita, siga estos pasos antes de empezar, es un bu
     
 7. En la pantalla **Seleccionar características**, puede elegir:
     
-    - Es posible que desea utilizar la misma dirección IP y FQDN para el servicio de acceso SIP, su Skype para el servicio de conferencias Web de Business Server 2015 y su / servicio perimetral A/v. Si es así, tiene que seleccionar la casilla **Usar un solo FQDN y una dirección IP** (y recuerde esto para el paso 9)
+    - Desea usar la misma dirección IP y FQDN para su servicio de acceso SIP, su Skype Business Server Web servicio de conferencia y su / servicio perimetral A/v. Si es así, tiene que seleccionar la casilla **Usar un solo FQDN y una dirección IP** (y recuerde esto para el paso 9)
     
     - Si está pensando en habilitar la federación, seleccione la casilla **Habilitar la federación para este grupo de servidores perimetrales (puerto 5061)**.
     
@@ -176,17 +176,17 @@ Si no está seguro de qué necesita, siga estos pasos antes de empezar, es un bu
 17. En la pantalla **grupos asociar Front-End** , debe especificar uno o varios grupos de servidores internos, incluidos los grupos de servidores Front-End y los grupos de servidores Standard Edition, para asociar con este servidor perimetral. Sólo tiene que elegir los nombres de los grupos de servidores internos que desea usar este servidor perimetral para comunicarse con usuarios externos admitidos. Haga clic en **Siguiente**.
     
     > [!NOTE]
-    > Algo a tener en cuenta aquí es, si los servidores de independientes o grupos de servidores internos utilizan ya un Skype diferente para el servidor perimetral de Business Server 2015, no pueden tener varias asociaciones. Si elige un grupo de servidores interno o un servidor independiente que se encuentra en esa situación, verá aparecer una advertencia de error que informa sobre el otro servidor perimetral, y puede decidir si desea continuar o no. Si sigue adelante con la nueva asociación, se detendrá la conexión con el otro servidor perimetral. 
+    > Algo a tener en cuenta aquí es, si los servidores de independientes o grupos de servidores internos utilizan ya un Skype diferente para el servidor perimetral de Business Server, no pueden tener varias asociaciones. Si elige un grupo de servidores interno o un servidor independiente que se encuentra en esa situación, verá aparecer una advertencia de error que informa sobre el otro servidor perimetral, y puede decidir si desea continuar o no. Si sigue adelante con la nueva asociación, se detendrá la conexión con el otro servidor perimetral. 
   
 18. Haga clic en **Finalizar** en la pantalla siguiente.
     
-19. Ahora podrá publicar esta tecnología actualizada y siga las instrucciones de [Implementar servidores perimetrales en Skype para Business Server 2015](deploy-edge-servers.md) para implementar en el servidor perimetral desde aquí.
+19. Ahora podrá publicar esta tecnología actualizada y siga las instrucciones de [Implementación de servidores perimetrales en Skype para Business Server](deploy-edge-servers.md) para implementar en el servidor perimetral desde aquí.
     
 ### <a name="defining-the-topology-for-a-hardware-load-balanced-edge-server-pool"></a>Definición de la topología para una carga de hardware equilibrada con el grupo de servidores perimetrales
 
-1. Inicie sesión en su Skype para Business Server 2015 Standard Edition o un Skype para profesionales de 2015 Front-End Server.
+1. Inicie sesión en su Skype para Business Server Standard Edition o un Skype para Business Server Front-End Server.
     
-2. Una vez allí, abra **Skype para Business Server 2015 Topology Builder**.
+2. Una vez allí, abra **Skype para Business Server Topology Builder**.
     
 3. En el árbol de consola, expanda el sitio que va a implementar el servidor perimetral a.
     
@@ -198,7 +198,7 @@ Si no está seguro de qué necesita, siga estos pasos antes de empezar, es un bu
     
 7. En la pantalla **Seleccionar características**, puede elegir:
     
-   - Es posible que desea utilizar la misma dirección IP y FQDN para el servicio de acceso SIP, su Skype para el servicio de conferencias Web de Business Server 2015 y su / servicio perimetral A/v. Si es así, tiene que seleccionar la casilla **Usar un solo FQDN y una dirección IP** (y recuerde esto para el paso 9)
+   - Desea usar la misma dirección IP y FQDN para su servicio de acceso SIP, su Skype Business Server Web servicio de conferencia y su / servicio perimetral A/v. Si es así, tiene que seleccionar la casilla **Usar un solo FQDN y una dirección IP** (y recuerde esto para el paso 9)
     
    - Si está pensando en habilitar la federación, seleccione la casilla **Habilitar la federación para este grupo de servidores perimetrales (puerto 5061)**.
     
@@ -245,19 +245,19 @@ Si no está seguro de qué necesita, siga estos pasos antes de empezar, es un bu
 16. En la pantalla **grupos asociar Front-End** , debe especificar uno o varios grupos de servidores internos, incluidos los grupos de servidores Front-End y los grupos de servidores Standard Edition, para asociar con este servidor perimetral. Sólo tiene que elegir los nombres de los grupos de servidores internos que desea usar este servidor perimetral para comunicarse con usuarios externos admitidos. Haga clic en **Siguiente**.
     
     > [!NOTE]
-    > Algo a tener en cuenta aquí es, si los servidores de independientes o grupos de servidores internos utilizan ya un Skype diferente para el servidor perimetral de Business Server 2015, no pueden tener varias asociaciones. Si elige un grupo de servidores interno o un servidor independiente que se encuentra en esa situación, verá aparecer una advertencia de error que informa sobre el otro servidor perimetral, y puede decidir si desea continuar o no. Si sigue adelante con la nueva asociación, se detendrá la conexión con el otro servidor perimetral. 
+    > Algo a tener en cuenta aquí es, si los servidores de independientes o grupos de servidores internos utilizan ya un Skype diferente para el servidor perimetral de Business Server, no pueden tener varias asociaciones. Si elige un grupo de servidores interno o un servidor independiente que se encuentra en esa situación, verá aparecer una advertencia de error que informa sobre el otro servidor perimetral, y puede decidir si desea continuar o no. Si sigue adelante con la nueva asociación, se detendrá la conexión con el otro servidor perimetral. 
   
 17. Haga clic en **Finalizar** en la pantalla siguiente.
     
-18. Ahora podrá publicar esta tecnología actualizada y siga las instrucciones de [Implementar servidores perimetrales en Skype para Business Server 2015](deploy-edge-servers.md) para implementar en el servidor perimetral desde aquí.
+18. Ahora podrá publicar esta tecnología actualizada y siga las instrucciones de [Implementación de servidores perimetrales en Skype para Business Server](deploy-edge-servers.md) para implementar en el servidor perimetral desde aquí.
     
 ## <a name="publish-your-edge-server-topology"></a>Publicar la topología del servidor perimetral
 
-Una vez que haya finalizado los pasos anteriores, es el momento de publicar esta nueva topología, que también le permitirá exportar a su Skype para servidor perimetral de Business Server 2015 o grupo perimetral. Siga estos pasos:
+Una vez que haya finalizado los pasos anteriores, es el momento de publicar esta nueva topología, que también le permitirá exportar a su Skype para servidor perimetral de Business Server o grupo perimetral. Siga estos pasos:
   
 1. Inicie el **Generador de topologías** (si no se ha iniciado ya en el procedimiento anterior).
     
-2. En el **Generador de topologías**, en el árbol de consola, secundario **Skype para Business Server 2015** y, a continuación, haga clic en **Skype para Business Server Topology Builder**.
+2. En el **Generador de topologías**, en el árbol de consola, secundario **Skype para Business Server** y, a continuación, haga clic en **Skype para Business Server Topology Builder**.
     
 3. En la página **principal** del asistente, haga clic en **Siguiente**.
     
@@ -271,7 +271,7 @@ Una vez que haya finalizado los pasos anteriores, es el momento de publicar esta
     
 ## <a name="export-your-edge-server-topology"></a>Exportar la topología del servidor perimetral
 
-Para implementar correctamente, el Skype para el Asistente para la implementación de Business Server 2015 necesita tener acceso a los datos del almacén de Administración Central. Para los servidores internos de su dominio o bosque, por lo general, es un proceso sencillo. Los servidores perimetrales están fuera del dominio y, por lo que es necesario exportar manualmente el archivo de topología a la ubicación del servidor perimetral, normalmente en un medio físico. Esta exportación se realiza con PowerShell:
+Para implementar correctamente, el Skype para el Asistente para implementación de servidor empresarial necesita tener acceso a los datos del almacén de Administración Central. Para los servidores internos de su dominio o bosque, por lo general, es un proceso sencillo. Los servidores perimetrales están fuera del dominio y, por lo que es necesario exportar manualmente el archivo de topología a la ubicación del servidor perimetral, normalmente en un medio físico. Esta exportación se realiza con PowerShell:
   
 1. Inicie el **Skype para Shell de administración de servidor empresarial**.
     

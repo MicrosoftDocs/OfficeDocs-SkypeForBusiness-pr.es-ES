@@ -1,9 +1,8 @@
 ---
-title: Crear o modificar un intervalo de órbitas de estacionamiento de llamadas en Skype Empresarial 2015
+title: Creación o modificación de un intervalo de órbitas de estacionamiento de llamadas en Skype para la empresa
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Crear o modificar una tabla de intervalo de órbitas de estacionamiento de llamadas en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: a2f2495683c3a3d937cc675876ae918ef0558b5c
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: ccbde7291a97e834aade35fb62dc074064f9d58c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500963"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009735"
 ---
-# <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business-2015"></a>Crear o modificar un intervalo de órbitas de estacionamiento de llamadas en Skype Empresarial 2015
+# <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Creación o modificación de un intervalo de órbitas de estacionamiento de llamadas en Skype para la empresa
  
 Crear o modificar una tabla de intervalo de órbitas de estacionamiento de llamadas en Skype para Business Server Enterprise Voice.
   

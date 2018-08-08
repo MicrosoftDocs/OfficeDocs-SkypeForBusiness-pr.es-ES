@@ -1,5 +1,5 @@
 ---
-title: Planificar el servicio de control de admisión de llamadas en Skype Empresarial 2015
+title: Planeación de control de admisión de llamadas en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,13 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Obtenga información sobre el control de admisión de llamadas, lo que puede impedir que las llamadas procedentes de produciendo si poseen una calidad deficiente multimedia, en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 11a73cb6065802b700694d6c3ffd589d935659db
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d9af6094ae851d59775d9ce4b012ee06028901e6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988412"
 ---
-# <a name="plan-for-call-admission-control-in-skype-for-business-server-2015"></a>Planificar el servicio de control de admisión de llamadas en Skype Empresarial 2015
+# <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Planeación de control de admisión de llamadas en Skype para Business Server
  
 Obtenga información sobre el control de admisión de llamadas, lo que puede impedir que las llamadas procedentes de produciendo si poseen una calidad deficiente multimedia, en Skype para Business Server Enterprise Voice.
   
@@ -33,7 +34,7 @@ El servicio de control de admisión de llamadas (CAC) determina si hay suficient
 En esta sección se describen las funciones del servicio de control de admisión de llamadas y explica cómo planificar para CAC.
   
 > [!NOTE]
-> Skype para Business Server tiene tres características avanzadas de Enterprise Voice: admisión control de llamadas (CAC), servicios de emergencia (E9-1-1) y el desvío de medios. Para obtener información general de la planeación de información que es común a todos los tres de estas características, vea [configuración de red para las características avanzadas de Enterprise Voice en Skype para Business Server 2015](network-settings-for-advanced-features.md). 
+> Skype para Business Server tiene tres características avanzadas de Enterprise Voice: admisión control de llamadas (CAC), servicios de emergencia (E9-1-1) y el desvío de medios. Para obtener información general de la planeación de información que es común a todos los tres de estas características, vea [configuración de red para las características avanzadas de Enterprise Voice en Skype para Business Server](network-settings-for-advanced-features.md). 
   
 El diseño CAC en Skype para Business Server ofrece cuatro atributos principales:
   
@@ -82,17 +83,17 @@ Si tu empresa admite medios a través de VPN, asegúrate de que tanto la secuenc
   
 ### <a name="call-admission-control-of-outside-users"></a>Servicio de control de admisión de llamadas de usuarios externos
 
-No se exige el control más allá de los límites de la Skype para Business Server 2015 organización de admisión de llamadas. No se puede aplicar el CAC para el tráfico de medios recorrido de Internet, que no está administrado por Skype para Business Server 2015. Comprobaciones CAC se realizará en la parte de la llamada que fluye a través de la red de empresa si el extremo llamado pertenece a la organización y el servidor perimetral se ha agregado a la configuración de red, tal como se describe en el control de admisión de llamadas [ implementación: lista de comprobación de final de Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/final-checklist.md). Si el extremo destinatario de la llamada no pertenece a la organización, como un usuario federado o un usuario PIC, no se realizan comprobaciones de la directiva de ancho de banda y la llamada saliente ignorará cualquier restricción de CAC.
+Más allá de los límites de la Skype para organización Business Server no se aplica de control de admisión de llamadas. No se puede aplicar el CAC para el tráfico de medios recorrido de Internet, que no está administrado por Skype para Business Server. Comprobaciones CAC se realizará en la parte de la llamada que fluye a través de la red de empresa si el extremo llamado pertenece a la organización y el servidor perimetral se ha agregado a la configuración de red, tal como se describe en el control de admisión de llamadas [ implementación: lista de comprobación de final de Skype para Business Server](../../deploy/deploy-enterprise-voice/final-checklist.md). Si el extremo destinatario de la llamada no pertenece a la organización, como un usuario federado o un usuario PIC, no se realizan comprobaciones de la directiva de ancho de banda y la llamada saliente ignorará cualquier restricción de CAC.
   
 ### <a name="call-admission-control-of-pstn-connections"></a>Servicio de control de admisión de llamadas de conexiones RTC
 
-El control de admisión de llamadas es aplicable en el servidor de mediación, independientemente de si se conecta a un sistema IP/PBX, una puerta de enlace RTC o un tronco SIP. Dado que el servidor de mediación es un agente de usuario opuesta (B2BUA), termina multimedia. Tiene dos lados de la conexión: un lado que está conectado a Skype para Business Server y un lado de la puerta de enlace, que está conectado a puertas de enlace RTC, IP/PBX o troncos SIP. Para obtener información detallada acerca de las conexiones RTC, consulte [Plan para la conectividad de RTC en Skype para Business Server 2015](pstn-connectivity-0.md).
+El control de admisión de llamadas es aplicable en el servidor de mediación, independientemente de si se conecta a un sistema IP/PBX, una puerta de enlace RTC o un tronco SIP. Dado que el servidor de mediación es un agente de usuario opuesta (B2BUA), termina multimedia. Tiene dos lados de la conexión: un lado que está conectado a Skype para Business Server y un lado de la puerta de enlace, que está conectado a puertas de enlace RTC, IP/PBX o troncos SIP. Para obtener información detallada acerca de las conexiones de RTC, consulte [Plan para la conectividad de RTC en Skype para Business Server](pstn-connectivity-0.md).
   
-CAC se puede aplicar en ambos lados del servidor de mediación a menos que el desvío de medios está habilitado. Si está habilitado el desvío de medios, el tráfico de medios no atravesar el servidor de mediación, pero en su lugar fluye directamente entre el Skype para clientes empresariales y la puerta de enlace. En este caso, el CAC no es necesario. Para obtener información detallada, vea [Plan para los medios de desvío en Skype para profesionales de 2015](media-bypass.md).
+CAC se puede aplicar en ambos lados del servidor de mediación a menos que el desvío de medios está habilitado. Si está habilitado el desvío de medios, el tráfico de medios no atravesar el servidor de mediación, pero en su lugar fluye directamente entre el Skype para clientes empresariales y la puerta de enlace. En este caso, el CAC no es necesario. Para obtener información detallada, vea [Plan para los medios de desvío en Skype para la empresa](media-bypass.md).
   
 En la siguiente figura se muestra cómo se aplica el CAC a las conexiones RTC con la omisión de medios habilitada e inhabilitada.
   
-**Aplicación del control de admisión de llamadas en las conexiones a la RTC**
+**Cumplimiento del control de admisión de llamadas en conexiones al RTC**
 
 ![Aplicación de la conexión de desvío de medios del control de admisión de llamadas de voz](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
   
@@ -100,9 +101,9 @@ En la siguiente figura se muestra cómo se aplica el CAC a las conexiones RTC co
 
 La planificación del servicio de control de admisión de llamadas (CAC) requiere información detallada sobre la topología de red de la empresa. Para obtener ayuda para planificar las directivas del servicio de control de admisión de llamadas, siga estos pasos.
   
-1. Identifique los concentradores o redes troncales (denominados regiones de red) dentro de la red de la empresa.
+1. Identifica los concentradores o las redes troncales (denominados regiones de red) dentro de la red empresarial.
     
-2. Identifique las oficinas o ubicaciones (denominadas sitios de red) dentro de cada región de red.
+2. Identifica las oficinas o las ubicaciones (denominadas sitios de red) dentro de cada región de red.
     
 3. Determina la ruta de red entre cada par de regiones de red.
     
@@ -115,14 +116,14 @@ La planificación del servicio de control de admisión de llamadas (CAC) requier
     
 Para explicar estos conceptos, usaremos la topología de red de ejemplo que se muestra en la ilustración siguiente.
   
-**Ejemplo de topología para el control de admisión de llamadas**
+**Topología de ejemplo para el servicio de control de admisión de llamadas**
 
 ![Ejemplo de topología de red de Litware Inc.](../../media/Plan_CS_VoiceCAC_Litwarenetworktopo.jpg)
   
 > [!NOTE]
 > Todos los sitios de red están asociados a una región de red. Por ejemplo, Portland, Reno y Albuquerque están incluidos en la región Norteamérica. En esta figura, solo se muestran los vínculos WAN que tienen aplicadas directivas de CAC con límites de ancho de banda. Los sitios de red de Chicago, Nueva York y Detroit aparecen dentro del óvalo regional Norteamérica porque no tienen ancho de banda restringido y, por lo tanto, no precisan directivas de CAC. 
   
-Los componentes de esta topología de ejemplo se explican en las siguientes secciones. Para obtener más información acerca de cómo se ha planificado esta topología, incluidos los límites de ancho de banda, consulte [ejemplo: recopilación de requisitos de control de admisión de llamadas en Skype para Business Server 2015](example-gathering-requirements.md).
+Los componentes de esta topología de ejemplo se explican en las siguientes secciones. Para obtener más información acerca de cómo se ha planificado esta topología, incluidos los límites de ancho de banda, consulte [ejemplo: recopilación de requisitos de control de admisión de llamadas en Skype para Business Server](example-gathering-requirements.md).
   
 ### <a name="identify-network-regions"></a>Identificar regiones de red
 
@@ -165,7 +166,7 @@ Los vínculos de sitios se indican con las líneas que conectan Portland, Reno y
 
 Colabora con el equipo de operaciones de red para determinar la cantidad de ancho de banda WAN disponible para el tráfico de audio y vídeo en tiempo real a través de los vínculos WAN de la organización. Normalmente, las directivas de ancho de banda se aplican a vínculos WAN si el uso del ancho de banda está restringido; es decir, si se espera que sea mayor que el ancho de banda que se puede asignar para modalidades de audio y vídeo.
   
-Las directivas de ancho de banda del CAC definen el ancho de banda máximo que se puede reservar para modalidades de vídeo y de audio en tiempo real. Ya que CAC no limita el ancho de banda de otro tráfico, no puede evitar que el tráfico de otros datos, como una transferencia de archivos grande o un streaming de música, use todo el ancho de banda de la red.
+Las directivas de ancho de banda de CAC definen el ancho de banda máximo que se puede reservar para las modalidades de audio y vídeo en tiempo real. Ya que CAC no limita el ancho de banda de otro tráfico, no puede evitar que el tráfico de otros datos, como una transferencia de archivos grande o un streaming de música, use todo el ancho de banda de la red.
   
 Las directivas de ancho de banda del CAC pueden definir cualquiera de las siguientes opciones o todas ellas:
   
@@ -181,7 +182,7 @@ Las directivas de ancho de banda del CAC pueden definir cualquiera de las siguie
 > Todos los valores de ancho de banda CAC representan los límites de ancho de banda máximo *unidireccional* .
   
 > [!NOTE]
-> El Skype para las características de directiva de voz de servidor empresarial de proporcionar comprueba la capacidad de invalidar la directiva de ancho de banda para las llamadas entrantes para el usuario (no para las llamadas salientes realizadas por el usuario). Una vez establecida la sesión, se justificará detalladamente el consumo de ancho de banda. Esta configuración se tiene que usar con moderación. Para obtener información detallada, vea [crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para profesionales de 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) o [modificar una directiva de voz y configurar registros de uso de RTC](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx) en la documentación de implementación.
+> El Skype para las características de directiva de voz de servidor empresarial de proporcionar comprueba la capacidad de invalidar la directiva de ancho de banda para las llamadas entrantes para el usuario (no para las llamadas salientes realizadas por el usuario). Una vez establecida la sesión, se justificará detalladamente el consumo de ancho de banda. Esta configuración se tiene que usar con moderación. Para obtener información detallada, vea [crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para la empresa](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) o [modificar una directiva de voz y configurar registros de uso de RTC](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx) en la documentación de implementación.
   
 Para optimizar la utilización del ancho de banda por sesión, ten en cuenta el tipo de códecs de audio y vídeo que se van a usar. En concreto, evita una asignación insuficiente de ancho de banda a un códec que crees que se va a usar con frecuencia. Por el contrario, si deseas evitar que los medios usen un códec que precisa mayor ancho de banda, deberás establecer un ancho de banda máximo por sesión lo suficientemente bajo para disuadir su uso. En lo que respecta al audio, no todos los códecs están disponibles para todos los escenarios. Por ejemplo:
   

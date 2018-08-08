@@ -1,8 +1,7 @@
 ---
-title: Avanzada planeación DNS del servidor perimetral de Skype para Business Server 2015
+title: Avanzada planeación DNS del servidor perimetral de Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
-ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -12,18 +11,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
-description: 'Resumen: Revise los escenarios de Skype para opciones de implementación empresarial Server 2015. Si desea que un servidor único o prefiere un grupo de servidores con DNS o HLB, en este tema debe ayudar a.'
-ms.openlocfilehash: 52a083f0df806d719cba2b596ded1e016c838ea8
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumen: Revise los escenarios de Skype para opciones de implementación de Business Server. Si desea que un servidor único o prefiere un grupo de servidores con DNS o HLB, en este tema debe ayudar a.'
+ms.openlocfilehash: e692e6b4b86ef0f03d19e3c7d1fc0124cfb0db9d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987081"
 ---
-# <a name="advanced-edge-server-dns-planning-for-skype-for-business-server-2015"></a>Avanzada planeación DNS del servidor perimetral de Skype para Business Server 2015
+# <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Avanzada planeación DNS del servidor perimetral de Skype para Business Server
  
-**Resumen:** revise escenarios para las opciones de implementación de Skype Empresarial Server 2015. Tanto si desea un único servidor como si prefiere un grupo de servidores con DNS o HLB, este tema puede ayudarle.
+**Resumen:** Revise los escenarios de Skype para opciones de implementación de Business Server. Si desea que un servidor único o prefiere un grupo de servidores con DNS o HLB, en este tema debe ayudar a.
   
-En cuanto a la planeación de sistema de nombres de dominio (DNS) de Skype para Business Server 2015, hay una gran cantidad de factores que pueden reproducir en su decisión. Si la estructura del dominio de su organización ya está en el lugar correcto, puede ser una cuestión de revisar la manera en la que va a continuar. Comenzaremos con los temas que se encuentran a continuación:
+En cuanto a la planeación de sistema de nombres de dominio (DNS) de Skype para Business Server, hay una gran cantidad de factores que pueden reproducir en su decisión. Si la estructura del dominio de su organización ya está en el lugar correcto, puede ser una cuestión de revisar la manera en la que va a continuar. Comenzaremos con los temas que se encuentran a continuación:
   
 - [Walkthrough of Skype for Business clients locating services](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)
     
@@ -38,7 +38,7 @@ En cuanto a la planeación de sistema de nombres de dominio (DNS) de Skype para 
 ## <a name="walkthrough-of-skype-for-business-clients-locating-services"></a>Walkthrough of Skype for Business clients locating services
 <a name="WalkthroughOfSkype"> </a>
 
-Skype para clientes empresariales son similares a las versiones anteriores de clientes de Lync en cómo buscar y obtener acceso a servicios de Skype para Business Server 2015. Esta sección contiene información sobre el proceso de ubicación del servidor.
+Skype para clientes empresariales son similares a las versiones anteriores de clientes de Lync en cómo buscar y obtener acceso a servicios de Skype para Business Server. Esta sección contiene información sobre el proceso de ubicación del servidor.
   
 1. lyncdiscoverinternal. \<dominio\>
     
@@ -98,19 +98,19 @@ Aquí enumeramos los registros DNS para las zonas internas y externas, pero pued
     
 - Esta contoso.com interna contiene:
     
-  - Registros DNS A y AAAA (si está usando direccionamiento IPv6) para el grupo de servidores Front-End, grupo de directores o nombre de grupo de servidores de Director y todos los servidores internos de Skype para Business Server 2015 en la red de su organización.
+  - Registros DNS A y AAAA (si está usando direccionamiento IPv6) para el grupo de servidores Front-End, grupo de directores o nombre de grupo de servidores de Director y todos los servidores internos de Skype para Business Server en la red de su organización.
     
-  - Registros de DNS A y AAAA (si está usando direccionamiento IPv6) para la interfaz perimetral interna para cada Skype para servidor perimetral de Business Server 2015 en la red perimetral.
+  - Registros de DNS A y AAAA (si está usando direccionamiento IPv6) para la interfaz perimetral interna para cada Skype para servidor perimetral de Business Server en la red perimetral.
     
   - Registros DNS A y AAAA (si está usando direccionamiento IPv6) para la interfaz interna de cada servidor proxy inverso en la red perimetral (que es **opcional** para la administración de un proxy inverso).
     
-  - Registros DNS A y AAAA (si está usando direccionamiento IPv6) y SRV para Skype interno para la configuración automática de cliente de Business Server 2015 (que es **opcional** ).
+  - Registros DNS A y AAAA (si está usando direccionamiento IPv6) y SRV para Skype interno para la configuración automática de cliente de Business Server (que es **opcional** ).
     
-  - DNS A y AAAA (si está usando direccionamiento IPv6) o los registros CNAME para la detección automática de Skype para Business Server 2015 Web Services (que es **opcional** ).
+  - DNS A y AAAA (si está usando direccionamiento IPv6) o los registros CNAME para la detección automática de Skype para servicios Web de Business Server (que es **opcional** ).
     
-- Todos los su Skype para Business Server 2015 interfaces internas de borde en la red perimetral use esta zona DNS interna para la resolución de consultas a contoso.com.
+- Todos los su Skype para interfaces perimetrales internas de Business Server en la red perimetral use esta zona DNS interna para la resolución de consultas a contoso.com.
     
-- Todos los servidores que ejecutan Skype para Business Server 2015 y los clientes que ejecutan Skype para Business Server 2015 en la red corporativa, elija a los servidores DNS internos para la resolución de consultas a contoso.com o utilizan el archivo de Host en cada servidor perimetral y de lista A y AAAA si ( está usando direccionamiento IPv6) registros para el servidor del próximo salto (específicamente para el Director o la VIP del Director del grupo, Front End VIP de grupo de servidores o servidor Standard Edition).
+- Todos los servidores que ejecutan Skype para servir de negocio y los clientes que ejecutan Skype para Business Server en la red corporativa, elija a los servidores DNS internos para la resolución de consultas a contoso.com o utilizan el archivo de Host en cada servidor perimetral y de lista A y AAAA (si está utilizando Registros de direccionamiento IPv6) para el servidor del próximo salto (específicamente para el Director o la VIP del Director del grupo, Front End VIP de grupo de servidores o servidor Standard Edition).
     
 ### <a name="external-dns"></a>DNS externo
 
@@ -118,18 +118,18 @@ Aquí enumeramos los registros DNS para las zonas internas y externas, pero pued
     
 - Esta contoso.com externa contiene:
     
-  - DNS A y AAAA (si está usando direccionamiento IPv6) o CNAME de registros, para la detección automática de Skype para los servicios web de Business Server 2015. Es para usar con movilidad.
+  - DNS A y AAAA (si está usando direccionamiento IPv6) o CNAME de registros, para la detección automática de Skype para servicios web de servidor empresarial. Es para usar con movilidad.
     
-  - Registros SRV para la interfaz perimetral externa de cada Skype para servidor perimetral de Business Server 2015 o carga de hardware y A DNS y AAAA (si está usando direccionamiento IPv6) habían equilibrada a VIP (HLB) en la red perimetral.
+  - Registros SRV para la interfaz perimetral externa de cada Skype para servidor perimetral de Business Server o de carga de hardware y A DNS y AAAA (si está usando direccionamiento IPv6) habían equilibrada a VIP (HLB) en la red perimetral.
     
   - Registros SRV y A y AAAA (si está usando direccionamiento IPv6) de DNS para la interfaz externa del servidor proxy inverso o (VIP para un grupo de servidores de proxy inverso), en la red perimetral.
     
-  - Registros DNS A y AAAA (si está usando direccionamiento IPv6) y SRV para Skype para la configuración automática de cliente de Business Server 2015 (**opcional**).
+  - Registros DNS A y AAAA (si está usando direccionamiento IPv6) y SRV para Skype para la configuración automática de cliente de Business Server (**opcional**).
     
 ## <a name="automatic-configuration-without-split-brain-dns"></a>Configuración automática sin DNS de horizonte dividido
 <a name="NoSplitBrainDNS"> </a>
 
-Si no utiliza DNS de horizonte dividido, la configuración automática interna de los clientes que ejecutan Skype para la empresa no funcionará a menos que se está utilizando una de las soluciones alternativas que tenemos aquí. ¿Por qué no? Debido a que Skype para Business Server 2015 requiere URI de SIP del usuario para que coincida con el dominio del grupo de servidores Front-End designado para la configuración automática. Esto no ha cambiado desde las versiones anteriores de Lync Server.
+Si no utiliza DNS de horizonte dividido, la configuración automática interna de los clientes que ejecutan Skype para la empresa no funcionará a menos que se está utilizando una de las soluciones alternativas que tenemos aquí. ¿Por qué no? Debido a que Skype para Business Server requiere URI de SIP del usuario para que coincida con el dominio del grupo de servidores Front-End designado para la configuración automática. Esto no ha cambiado desde las versiones anteriores de Lync Server.
   
 Por lo tanto, si tiene dos dominios SIP en uso, necesitará estos registros SRV de DNS:
   
@@ -158,7 +158,7 @@ Por lo que ahora que sabemos todos los, si necesita requisito automática para s
   
 - **Correspondencia de zona interna**
     
-    Para crear una zona en el DNS interno que coincida con su zona DNS externa (por ejemplo, contoso.com) y, a continuación, crear A DNS (y AAAA si está usando direccionamiento IPv6), necesitará los registros que corresponden a la Skype para grupo de negocio Server 2015 utilizado para automático configuración.
+    Para crear una zona en el DNS interno que coincida con su zona DNS externa (por ejemplo, contoso.com) y, a continuación, crear A DNS (y AAAA si está usando direccionamiento IPv6), necesitará los registros que corresponden a la Skype para grupo de servidores de negocio usado para automático configuración.
     
     Por ejemplo, si tiene un usuario alojado en pool01.contoso.net, pero signos en Skype para profesionales como bob@contoso.com, crear una zona DNS interna llamada contoso.com y dentro de él que necesita para crear un A DNS (y AAAA si direccionamiento de IPv6 se usa) registro para pool01.contoso.com.
     
@@ -199,13 +199,13 @@ Por lo que ahora que sabemos todos los, si necesita requisito automática para s
 ## <a name="dns-disaster-recovery"></a>Recuperación ante desastres de DNS
 <a name="DNSDR"> </a>
 
-Para configurar DNS para redirigir Skype para el tráfico web de Business Server 2015 para la recuperación ante desastres (recuperación ante desastres) y los sitios de conmutación por error, debe usar un proveedor de DNS que es compatible con GeoDNS. Puede establecer sus registros DNS para admitir la recuperación ante desastres, para que las características que usan servicios web continuar incluso si un grupo completo de servidores Front-End deja de funcionar. Esta característica de DR es compatible con la detección automática, las reuniones y las direcciones URL sencillas de acceso telefónico local.
+Para configurar DNS para redirigir Skype para el tráfico web de Business Server para la recuperación ante desastres (recuperación ante desastres) y los sitios de conmutación por error, debe usar un proveedor de DNS que es compatible con GeoDNS. Puede establecer sus registros DNS para admitir la recuperación ante desastres, para que las características que usan servicios web continuar incluso si un grupo completo de servidores Front-End deja de funcionar. Esta característica de DR es compatible con la detección automática, las reuniones y las direcciones URL sencillas de acceso telefónico local.
   
 Puede definir y configurar registros A de host de DNS adicionales (AAAA si usa IPv6) para la resolución interna y externa de servicios web en su proveedor de GeoDNS. La siguiente información asume grupos emparejados, dispersos geográficamente y que el GeoDNS que admite su proveedor **tanto** tiene DNS round robin **como** está configurado para usar Pool1 como principal y conmutar por error a Pool2 en caso de cualquier pérdida de comunicación o error de alimentación.
   
 Todos los registros DNS en esta tabla son ejemplos.
   
-|**Registro de GeoDNS**|**Registros de grupo de servidores**|**Registros CNAME**|**Configuración de DNS (seleccione una opción)**|
+|**Registro de GeoDNS**|**Registros del grupo**|**CNAME records**|**Configuración de DNS (seleccione una opción)**|
 |:-----|:-----|:-----|:-----|
 |Reunirse int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Alias Meet.contoso.com a Pool1InternalWebFQDN.contoso.com  <br/> Alias Meet.contoso.com a Pool2InternalWebFQDN.contoso.com  <br/> |Round robin entre grupos  <br/> **O bien** <br/> Usa el primario, se conecta al secundario en caso de error  <br/> |
 |Reunirse ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Alias Meet.contoso.com a Pool1ExternalWebFQDN.contoso.com  <br/> Alias Meet.contoso.com a Pool2ExternalWebFQDN.contoso.com  <br/> |Round robin entre grupos  <br/> **O bien** <br/> Usa el primario, se conecta al secundario en caso de error  <br/> |
@@ -223,7 +223,7 @@ El equilibrio de carga de DNS suele implementarse en el nivel de la aplicación.
   
 Por ejemplo, si hay tres servidores Front-End en un grupo denominado pool01.contoso.com, lo que sucedería:
   
-- Los clientes que ejecutan Skype para la empresa de consulta DNS para pool01.contoso.com. La consulta devuelve tres direcciones IP y se almacena en caché como se indica a continuación (en cualquier orden):
+- Los clientes que ejecutan Skype para la empresa de consulta DNS para pool01.contoso.com. La consulta devuelve tres direcciones IP y las copia en caché tal como se muestra a continuación (en algún orden):
     
    |||
    |:-----|:-----|
@@ -235,7 +235,7 @@ Por ejemplo, si hay tres servidores Front-End en un grupo denominado pool01.cont
     
 - Si la conexión TCP se establece correctamente, el cliente negocia con el TLS para conectarse con el registrador principal en pool01.contoso.com.
     
-- Si el cliente intenta almacenado en caché todas las entradas sin una conexión correctamente, el usuario recibe una notificación de que ningún servidor que ejecute Skype para Business Server 2015 está disponibles en ese momento.
+- Si el cliente intenta almacenado en caché todas las entradas sin una conexión correctamente, el usuario recibe una notificación de que ningún servidor que ejecute Skype para Business Server está disponibles en ese momento.
     
 > [!NOTE]
 > El equilibrio de carga basado en DNS es distinto al round robin de DNS (DNS RR), que normalmente hace referencia al equilibrio de carga usando el DNS para darle un orden distinto de direcciones IP para los servidores del grupo de servidores. Por lo general, DNS RR habilita la distribución de carga, pero no le permitirá habilitar la conmutación por error. Por ejemplo, si la conexión con la dirección IP devuelta por la consulta de DNS A (o AAAA en un escenario IPv6) provoca un error, esa conexión dará error. Esto hace que el DNS RR sea menos fiable que el equilibrio de carga basado en DNS. Todavía puede usar el DNS RR en combinación con el equilibrio de carga basado en DNS si lo necesita. 

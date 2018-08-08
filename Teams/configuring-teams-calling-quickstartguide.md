@@ -1,21 +1,23 @@
 ---
-title: "Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams"
+title: 'Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams'
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 12/12/2017
+ms.date: 6/1/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor, lolaj
-description: "Guía de inicio rápido para configurar Planes de llamada en Microsoft Teams."
+description: Guía de inicio rápido para configurar Planes de llamada en Microsoft Teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a32b615905d39bf8b91688f461f804a28d5a52d
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 0ded826a87bbde3e95af3734eb310988db5d7aef
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694805"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams
 ==============================================================
@@ -34,19 +36,21 @@ Ahora, al agregar Planes de llamada (una función de Office 365 con tecnología 
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Requisitos previos para habilitar la ficha **Llamadas** en Microsoft Teams.
 Para habilitar la ficha **Llamadas** en Microsoft Teams y permitir que los usuarios hagan y reciban llamadas RTC, deberá preparar a los usuarios para que puedan utilizar Sistema telefónico y Planes de llamada. Para aprender a realizar esta configuración, lea [Configurar Planes de llamada](https://support.office.com/article/Set-up-Calling-Plans-57893158-1acd-44ac-acaf-19f58264a9e0).
 
-> [!IMPORTANT]
-> Antes de configurar Planes de llamada en Microsoft Teams, tenga en cuenta las siguientes limitaciones:
-> * **Voz híbrida no es compatible con Microsoft Teams**: actualmente no se admite Voz híbrida en Microsoft Teams. Los clientes de Voz híbrida no reciben notificación alguna para cambiar las directivas para recibir llamadas en Microsoft Teams, dado que esto provocaría interrupciones en el servicio.
-> * **Las llamadas federadas no son compatibles con Microsoft Teams**: actualmente no se admiten las llamadas federadas (llamadas entre inquilinos/compañías) en Microsoft Teams. Hasta que esta característica sea compatible con Microsoft Teams, las llamadas federadas se dirigirán siempre a Skype Empresarial sin importar su configuración de llamadas.
-
 ## <a name="teams-interop-policy-configuration"></a>Configuración de la directiva de interoperabilidad de Microsoft Teams
-Para que Microsoft Teams pueda empezar a recibir llamadas, tendrá que actualizar la directiva de interoperabilidad de Microsoft Teams utilizando una sesión de Windows PowerShell remota con los cmdlets [`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype) de Skype Empresarial para redirigir las llamadas a esta plataforma. Para obtener más información sobre la directiva de interoperabilidad de Microsoft Teams, consulte [Interoperabilidad entre Microsoft Teams y Skype Empresarial](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability).
+Para habilitar los equipos para empezar a recibir llamadas, que necesitará para actualizar la directiva de actualización de los equipos y la directiva de interoperabilidad de los equipos, uso de [los equipos de Microsoft & Skype para el centro de administración de negocio](https://aka.ms/teamsadmincenter) o mediante una sesión remota de Windows PowerShell con el Skype para la empresa [ `*-CsTeamsUpgradePolicy`y `*-CsTeamsInteropPolicy` ](https://docs.microsoft.com/powershell/module/skype) cmdlets, para redirigir las llamadas a los equipos.
+
+Para obtener más información acerca de la directiva de actualización de los equipos y la directiva de interoperabilidad de los equipos, vea [migración e instrucciones de interoperabilidad para las organizaciones que utilizan los equipos junto con Skype para la empresa](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype).
 
 > [!TIP]
-> Para buscar los cmdlets de PowerShell que necesita, escriba "CsTeamsInteropPolicy" en el cuadro **Filtrar** en la [documentación sobre los cmdlets de PowerShell para Skype Empresarial](https://docs.microsoft.com/powershell/module/skype).
+> Para buscar los cmdlets de PowerShell que necesita, escriba "CsTeamsUpgradePolicy" o "CsTeamsInteropPolicy" en el cuadro **filtro** en el [Skype para obtener documentación sobre el cmdlet de PowerShell de negocio](https://docs.microsoft.com/powershell/module/skype).
 
-### <a name="default-teams-interop-policy"></a>Directiva de interoperabilidad predeterminada de Microsoft Teams
+### <a name="default-teams-upgrade-and-interop-policies"></a>Valor predeterminado de los equipos de las directivas de actualización y la interoperabilidad
 Microsoft Teams tiene una configuración de directiva predeterminada diseñada para garantizar que no se interrumpan los flujos de trabajo empresariales existentes durante el proceso de implementación de Microsoft Teams. De forma predeterminada, VoIP, RTC y las llamadas federadas a los usuarios se seguirán dirigiendo a Skype Empresarial hasta que actualice la directiva para permitir las llamadas entrantes en Microsoft Teams. De este modo se garantiza que no se producirán interrupciones no deseadas en los servicios de voz cuando inicie el proyecto piloto de Microsoft Teams o comience la implementación.
+
+Directiva de actualización de forma predeterminada se mantiene en modo heredado que respeta la directiva de interoperabilidad de los equipos para determinar dónde están los chats y las llamadas deben enrutarse--los equipos de los equipos o Skype para la empresa.
+
+> [!NOTE]
+> Directiva de actualización de los comportamientos de los equipos y directiva de interoperabilidad de los equipos cambiarán pronto como se describe en la [migración e instrucciones de interoperabilidad para las organizaciones que utilizan los equipos junto con Skype para la empresa](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
 La directiva de interoperabilidad de Microsoft Teams tiene la siguiente configuración predeterminada:
 
@@ -62,69 +66,42 @@ Los comportamientos de la configuración predeterminada son los siguientes:
 > [!NOTE]
 > Los usuarios aprovisionados con licencias de Sistema telefónico y Planes de llamada para el uso con Skype Empresarial Online que tengan configurada la directiva de interoperabilidad global predeterminada de Microsoft Teams tendrán habilitada la ficha Llamadas en Microsoft Teams y podrán realizar llamadas RTC salientes desde la aplicación sin que un administrador tenga que realizar ninguna acción específica.
 
-#### <a name="how-to-configure-teams-to-use-the-default-policy"></a>Cómo configurar Microsoft Teams para usar la directiva predeterminada
-De forma predeterminada, la directiva de interoperabilidad global de Microsoft Teams se aplica a todos los usuarios del inquilino y está configurada con los ajustes predeterminados descritos anteriormente. Si por algún motivo ha establecido directivas diferentes para sus usuarios y desea revertir los ajustes a la configuración predeterminada, tendrá que aplicar la directiva de interoperabilidad global de Microsoft Teams a través de una sesión de Windows PowerShell remota para Skype Empresarial:
-
-    Grant-CsTeamsInteropPolicy -PolicyName Global -Identity user@contoso.com
-
-> [!WARNING]
-> Aunque es posible modificar los valores predeterminados de la directiva de interoperabilidad global de Microsoft Teams, recomendamos encarecidamente no hacerlo. 
-
 ## <a name="configuring-teams-to-receive-inbound-pstn-calls"></a>Configurar Microsoft Teams para recibir llamadas RTC entrantes
-Para recibir llamadas RTC entrantes en Microsoft Teams, deberá configurar Microsoft Teams como la aplicación de llamadas predeterminada aplicando la directiva de interoperabilidad de Microsoft Teams con el parámetro `CallingDefaultClient` establecido en Teams.
+Para recibir las llamadas RTC entrantes en los equipos, debe configurar los equipos como el valor predeterminado al llamar a la aplicación mediante la aplicación de directiva de actualización de los equipos con la directiva de interoperabilidad de los equipos correspondiente que establece `CallingDefaultClient` parámetro para los equipos.
 
 > [!IMPORTANT]
 > Recomendamos aplicar esta configuración a un conjunto inicial de usuarios para explorar las excitantes nuevas funcionalidades de llamada que ofrece Microsoft Teams antes de realizar cambios en un grupo más grande o en toda la organización.
 
-Puede utilizar la siguiente directiva de interoperabilidad preconfigurada de Microsoft Teams para dirigir las llamadas RTC entrantes a Microsoft Teams:
+Si elige seguir usando la directiva heredada de actualización de los equipos, use la siguiente directiva preconfigurada de interoperabilidad de los equipos para enrutar las llamadas RTC entrantes a los equipos:
 
     Identity                   : Tag:DisallowOverrideCallingTeamsChatTeams
     AllowEndUserClientOverride : False
     CallingDefaultClient       : Teams
     ChatDefaultClient          : Teams
 
+Si decide utilizar la directiva de actualización de los equipos actualizada, debe asignar el modo de TeamsOnly a los usuarios.
+
 Los comportamientos de la directiva anterior son los siguientes:
-* **Para los clientes existentes de Skype Empresarial**, esta directiva está diseñada para redirigir las llamadas entrantes a Microsoft Teams. Esto afecta tanto a las llamadas VoIP (desde Microsoft Teams y Skype Empresarial) como a las RTC. Las llamadas federadas se seguirán recibiendo en Skype Empresarial. 
-* **Para los clientes sin Skype Empresarial**, al aplicar esta directiva, las llamadas RTC se recibirán en Microsoft Teams. Actualmente las llamadas federadas **no se admiten** en Microsoft Teams.
+* **Para los clientes existentes de Skype Empresarial**, esta directiva está diseñada para redirigir las llamadas entrantes a Microsoft Teams. Esto afecta tanto a las llamadas VoIP (desde Microsoft Teams y Skype Empresarial) como a las RTC. 
+* **Para los clientes sin Skype Empresarial**, al aplicar esta directiva, las llamadas RTC se recibirán en Microsoft Teams.
 
 > [!WARNING]
 > Actualmente, cambiar `CallingDefaultClient` a Teams afectará también a las llamadas a teléfonos IP de Skype Empresarial. Las llamadas entrantes no se recibirán en los teléfonos y solo sonarán en los clientes de Microsoft Teams. Consulte [De Skype Empresarial a Microsoft Teams: mapa de ruta de las opciones](https://aka.ms/skype2teamsroadmap) para obtener información sobre compatibilidad con teléfonos SIP existentes.
 
-### <a name="how-to-configure-teams-to-receive-pstn-calls"></a>Cómo configurar Microsoft Teams para recibir llamadas RTC
-Aplique la directiva de interoperabilidad de Microsoft Teams del modo descrito con anterioridad a través de una sesión de Windows PowerShell remota para Skype Empresarial para redirigir las llamadas a Microsoft Teams:
+### <a name="how-to-configure-users-to-receive-pstn-calls-in-teams"></a>Cómo configurar usuarios para recibir RTC llama en los equipos
+Cuando se usa la directiva heredada de actualización de los equipos, aplicar la directiva de interoperabilidad de los equipos como se describió anteriormente a través de Skype para la sesión remota de Windows PowerShell de negocio para redirigir las llamadas a los equipos:
 
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
-## <a name="configuring-teams-to-allow-users-to-change-their-preferred-calling-experience"></a>Configurar Microsoft Teams para permitir que los usuarios cambien su experiencia de llamada preferida
-Para permitir que los usuarios tomen sus propias decisiones en cuanto a la experiencia de llamada preferida (recibir llamadas en Microsoft Teams o Skype Empresarial) debe crear una directiva de interoperabilidad de Microsoft Teams personalizada que habilite el parámetro `AllowEndUserClientOverride`.
+Si decide usar el modo de TeamsOnly, puede cambiar el modo de coexistencia del usuario a TeamsOnly a Microsoft Teams & Skype para el centro de administración de negocio, o a través de Skype para la sesión remota de Windows PowerShell de negocio para redirigir las llamadas a los equipos:
 
-A continuación se muestra un ejemplo de la directiva de interoperabilidad de Microsoft Teams para permitir que los usuarios elijan la experiencia de llamada preferida:
-
-    Identity                   : Tag:CustomPolicy
-    AllowEndUserClientOverride : True
-    CallingDefaultClient       : Default
-    ChatDefaultClient          : Default
-
-Una vez que se aplica esta directiva personalizada a los usuarios, la opción de cambiar la aplicación de llamada preferida estará disponible en el cliente de Microsoft Teams para que los usuarios realicen los cambios ellos mismos.
-
-![Opción de aplicación de llamadas preferida](media/Preferred_calling_application_option.png)
-
-> [!IMPORTANT]
-> Recomendamos aplicar esta configuración a un conjunto inicial de usuarios antes de realizar cambios en un grupo más grande o en toda la organización.
-
-### <a name="how-to-create-and-apply-the-custom-teams-interop-policy"></a>Cómo crear y aplicar la directiva de interoperabilidad personalizada de Microsoft Teams
-Para crear la directiva de interoperabilidad personalizada de Microsoft Teams del modo descrito con anterioridad a través de una sesión de Windows PowerShell remota para Skype Empresarial, realice lo siguiente:
-
-    New-CsTeamsInteropPolicy -Identity tag:CustomPolicy -AllowEndUserClientOverride:$True -CallingDefaultClient:Default -ChatDefaultClient:Default
-
-    Grant-CsTeamsInteropPolicy -PolicyName tag:CustomPolicy -Identity user@contoso.com
-
-
+    Grant-CsTeamsUpgradePolicy -PolicyName tag:UpgradeToTeams -Identity user@contoso.com
+    Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
 ## <a name="see-also"></a>Vea también
 [Configurar Planes de llamada](https://support.office.com/article/Set-up-Calling-Plans-57893158-1acd-44ac-acaf-19f58264a9e0)
 
-[Interoperabilidad entre Microsoft Teams y Skype Empresarial](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability)
+[Guía de interoperabilidad y migración para las organizaciones que utilizan los equipos junto con Skype para la empresa](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
 [Guía práctica para Sistema telefónico con planes de llamada en Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)
 

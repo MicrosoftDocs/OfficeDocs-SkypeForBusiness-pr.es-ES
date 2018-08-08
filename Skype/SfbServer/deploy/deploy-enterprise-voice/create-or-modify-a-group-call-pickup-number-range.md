@@ -1,9 +1,8 @@
 ---
-title: Crear o modificar un intervalo numérico de respuesta de llamadas grupales en Skype Empresarial 2015
+title: Creación o modificación de un intervalo de números de grupo llamada recogida en Skype para la empresa
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: Crear o modificar un intervalo de números de grupo llamada recogida en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: b0fd219fb415439712d73e0c5dad22ba3f92b4fa
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 15906402fe81047f02fc033ba7a051a4169a0f26
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500838"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002456"
 ---
-# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business-2015"></a>Crear o modificar un intervalo numérico de respuesta de llamadas grupales en Skype Empresarial 2015
+# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Creación o modificación de un intervalo de números de grupo llamada recogida en Skype para la empresa
  
 Crear o modificar un intervalo de números de grupo llamada recogida en Skype para Business Server Enterprise Voice.
   

@@ -1,8 +1,7 @@
 ---
-title: Escenarios del servidor perimetral en Skype Empresarial Server 2015
+title: Escenarios de servidor de bordes en Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -12,16 +11,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
-description: 'Resumen: Revise estos escenarios para ayudarle a planear la topología de servidor perimetral de Skype para Business Server 2015.'
-ms.openlocfilehash: 9afe23c626f2a266061c250740e52bc55dd2697d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumen: Revise estos escenarios para ayudarle a planear la topología de servidor perimetral de Skype para Business Server.'
+ms.openlocfilehash: e3e6a5c0c20a8c72725456f3c67834f84123b093
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009666"
 ---
-# <a name="edge-server-scenarios-in-skype-for-business-server-2015"></a>Escenarios del servidor perimetral en Skype Empresarial Server 2015
+# <a name="edge-server-scenarios-in-skype-for-business-server"></a>Escenarios de servidor de bordes en Skype para Business Server
  
-**Resumen:** Revise estos escenarios para ayudarle a planear la topología de servidor perimetral de Skype para Business Server 2015.
+**Resumen:** Revise estos escenarios para ayudarle a planear la topología de servidor perimetral de Skype para Business Server.
   
 Tenemos algunos diagramas de escenarios para ayudar a visualizar y decidir en qué Skype para la topología de servidor perimetral de Business Server que desee implementar. Una vez que haya seleccionado un buen candidato, puede leer los requisitos del entorno que tendrá que abordar. Lo siguiente se aplica a cualquiera de los escenarios, por lo que lo mencionamos primero.
   
@@ -31,7 +31,7 @@ Los diagramas muestran .com para la interfaz externa y .net para la interna, que
   
 No incluimos el Director (que es un componente opcional) en cualquiera de los diagramas, pero puede leer sobre que por separado (se menciona en otros temas de planeación).
   
-Como se indica anteriormente, hay datos de ejemplo de IPv6 en los diagramas. La mayor parte de la documentación de [planeación para las implementaciones de servidor perimetral de Skype para Business Server 2015](edge-server-deployments.md) se hará referencia a IPv4, pero sin duda son compatibles si va a usar IPv6. Tenga en cuenta que necesitará direcciones IPv6 en el espacio de direcciones asignadas y que tendrán que funcionar con el direccionamiento interno y el externo, al igual que con IP de IPv4. Puede, con Windows, recurrir a la característica de pila doble, que es una pila de red diferente y separada para IPv4 e IPv6. Esto permitirá, si lo necesita, asignar las direcciones IPv4 e IPv6 simultáneamente.
+Como se indica anteriormente, hay datos de ejemplo de IPv6 en los diagramas. La mayor parte de la documentación de [planeación para las implementaciones de servidor perimetral de Skype para Business Server](edge-server-deployments.md) hará referencia a IPv4, pero sin duda son compatibles si va a usar IPv6. Tenga en cuenta que necesitará direcciones IPv6 en el espacio de direcciones asignadas y que tendrán que funcionar con el direccionamiento interno y el externo, al igual que con IP de IPv4. Puede, con Windows, recurrir a la característica de pila doble, que es una pila de red diferente y separada para IPv4 e IPv6. Esto permitirá, si lo necesita, asignar las direcciones IPv4 e IPv6 simultáneamente.
   
 Hay dispositivos NAT que permiten para NAT64 (IPv6 a IPv4) y NAT66 (IPv6 a IPv6)), y esto es válido para su uso con Skype para Business Server.
   

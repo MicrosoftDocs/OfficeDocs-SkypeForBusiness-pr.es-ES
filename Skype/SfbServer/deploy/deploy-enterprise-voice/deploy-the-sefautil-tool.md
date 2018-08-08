@@ -1,9 +1,8 @@
 ---
-title: Implementar la herramienta SEFAUtil en Skype Empresarial 2015
+title: Implementar la herramienta SEFAUtil en Skype para la empresa
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Implementación de la herramienta de SEFAUtil de Skype para Business Server.
-ms.openlocfilehash: 4def73d0bca655569275f61d9ebfeafb4ab7e3d4
-ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
+ms.openlocfilehash: 55079f1727a6671a41e87582edd5810a4daa731f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2018
-ms.locfileid: "19117521"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001206"
 ---
-# <a name="deploy-the-sefautil-tool-in-skype-for-business-2015"></a>Implementar la herramienta SEFAUtil en Skype Empresarial 2015
+# <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Implementar la herramienta SEFAUtil en Skype para la empresa
  
 Implementación de la herramienta de SEFAUtil de Skype para Business Server.
   
@@ -33,7 +32,7 @@ Para implementar y administrar recogida de llamadas de grupo, debe usar el Skype
 Puede ejecutar la herramienta de SEFAUtil de cualquier grupo de servidores Front-End en su implementación. Para ejecutar la herramienta SEFAUtil debe ejecutar los pasos 1, 2 y 3 de la Skype para el Asistente para la implementación empresarial en el equipo de aplicación de confianza. SEFAUtil requiere estar presente en el almacén de configuración local, así como un certificado.
   
 > [!NOTE]
-> Para obtener más información acerca de cómo ejecutar SEFAUtil, vea el artículo del blog de Technet, "[cómo obtener SEFAutil ejecutando?](https://go.microsoft.com/fwlink/?LinkId=278940)". 
+> Para obtener más información acerca de cómo ejecutar SEFAUtil, vea el artículo del blog, "[cómo obtener SEFAutil ejecutando?](https://go.microsoft.com/fwlink/?LinkId=278940)". 
   
 ### <a name="to-deploy-sefautil"></a>Para implementar SEFAUtil
 

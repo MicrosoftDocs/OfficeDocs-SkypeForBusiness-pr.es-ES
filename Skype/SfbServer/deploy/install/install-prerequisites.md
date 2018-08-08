@@ -1,5 +1,5 @@
 ---
-title: Instalar requisitos previos para Skype Empresarial Server 2015
+title: Instalar los requisitos previos de Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,16 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
-description: 'Resumen: Obtenga información sobre los servidores y roles de servidor que debe configurar antes de instalar Skype para Business Server 2015. Descargue una versión de prueba gratuita de Skype para Business Server 2015 desde el Evaluation de Microsoft center en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: f37954b4eddffbcef08c270dc86234e3a56e7079
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+description: 'Resumen: Obtenga información sobre los servidores y roles de servidor que debe configurar antes de instalar Skype para Business Server. Descargue una versión de prueba gratuita de Skype para Business Server desde el Evaluation de Microsoft center en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: ffd286262686d1faf55591f88df75b0e0323acc2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972923"
 ---
-# <a name="install-prerequisites-for-skype-for-business-server-2015"></a>Instalar requisitos previos para Skype Empresarial Server 2015
+# <a name="install-prerequisites-for-skype-for-business-server"></a>Instalar los requisitos previos de Skype para Business Server
  
-**Resumen:** Obtenga información acerca de los servidores y roles de servidor que debe configurar antes de instalar Skype para Business Server 2015. Descargue una versión de prueba gratuita de Skype para Business Server 2015 desde el [Centro de evaluación de Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Resumen:** Obtenga información acerca de los servidores y roles de servidor que debe configurar antes de instalar Skype para Business Server. Descargue una versión de prueba gratuita de Skype para Business Server desde el [Centro de evaluación de Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 Instalación de requisitos previos se compone de la configuración de Windows Server mediante la instalación de las características y los roles necesarios en cada uno de los servidores de la topología. Los requisitos se basan en la función que se va a cumplir con el servidor en la topología. Se pueden realizar los pasos del 1 al 5 en cualquier orden. Sin embargo, debe realizar los pasos 6, 7 y 8 en orden y después de los pasos del 1 al 5, tal como se indica en el diagrama. Instalación de requisitos previos es el paso 1 de 8.
   
@@ -30,7 +31,7 @@ Instalación de requisitos previos se compone de la configuración de Windows Se
   
 ## <a name="setup-windows-server"></a>Configurar Windows Server
 
-Skype para Business Server 2015 requiere el sistema operativo Windows Server y un número de requisitos previos antes de que se puede instalar. Para obtener información detallada acerca de cómo planear los requisitos previos, vea [requisitos de servidor para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
+Skype para Business Server requiere el sistema operativo Windows Server y un número de requisitos previos antes de que se puede instalar. Para obtener información detallada acerca de cómo planear los requisitos previos, vea [requisitos de servidor para Skype para Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
   
 > [!TIP]
 > Este procedimiento utiliza Windows Server 2012 R2. Es posible que el procedimiento sea un poco diferente si usa una versión de Windows Server distinta. 
@@ -48,7 +49,7 @@ Vea los pasos del vídeo para **instalar los requisitos previos**:
 
 Puede instalar los roles necesarios y las características de con el administrador del servidor. 
     
-1. Instalar las características de software necesario como requisito previo que aparecen en los [requisitos de servidor para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). Debe ser el software necesario en el servidor que ejecutará Skype para Business Server 2015.
+1. Instalar las características de software necesario como requisito previo que aparecen en los [requisitos de servidor para Skype para Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). Debe ser el software necesario en el servidor que ejecutará Skype para Business Server.
     
     > [!CAUTION]
     > De forma predeterminada, Windows Server 2012 R2 no instala todos los archivos de origen de las características necesarias. Si el servidor no está conectado a Internet, necesitará insertar el disco de Windows Server 2012 R2 y seleccionar **Especifique una ruta de acceso de origen alternativa** para instalar las características necesarias. Los archivos de origen se encuentran en el directorio sources\sxs. Por ejemplo, si el disco de Windows Server 2012 R2 se encuentra en la unidad D, la ruta de acceso será `d:\sources\sxs`. Es importante que disponga de las últimas actualizaciones de Windows Update. Si no se encuentra conectado a Internet, necesitará instalar todas las actualizaciones relevantes de manera manual, así como también todos los requisitos previos de las actualizaciones necesarias. 
@@ -61,6 +62,6 @@ Puede instalar los roles necesarios y las características de con el administrad
 
 
 > [!IMPORTANT]
-> Los servidores que desempeñan roles distintos del de servidor front-end (como el rol de director, chat persistente o servidor perimetral) tienen sus propios requisitos previos. Para obtener información detallada sobre los requisitos previos exactos necesarios para cada tipo de servidor, vea [requisitos de servidor para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
+> Los servidores que desempeñan roles distintos del de servidor front-end (como el rol de director, chat persistente o servidor perimetral) tienen sus propios requisitos previos. Para obtener información detallada sobre los requisitos previos exactos necesarios para cada tipo de servidor, vea [requisitos de servidor para Skype para Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
   
 

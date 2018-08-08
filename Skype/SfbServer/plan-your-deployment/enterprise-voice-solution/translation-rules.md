@@ -1,9 +1,8 @@
 ---
-title: Reglas de conversión en Skype Empresarial Server 2015
+title: Reglas de conversión de Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: Obtenga información sobre las reglas de conversión y de marcado de normalización de cadenas en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: c72e3909fdc0e4485683382b84a5d737fa75b8fc
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4ef5f92b8c5ef91abeb5ce2b6ea1e4c0eebe7580
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973189"
 ---
-# <a name="translation-rules-in-skype-for-business-server-2015"></a>Reglas de conversión en Skype Empresarial Server 2015
+# <a name="translation-rules-in-skype-for-business-server"></a>Reglas de conversión de Skype para Business Server
  
 Obtenga información sobre las reglas de conversión y de marcado de normalización de cadenas en Skype para Business Server Enterprise Voice.
   
@@ -37,7 +37,7 @@ Los siguientes ejemplos de reglas de conversión muestran cómo se pueden desarr
   
 Para obtener información detallada acerca de cómo implementar reglas de conversión, consulte [Definición de reglas de conversión](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) en la documentación de implementación.
   
-|**Descripción**|**Dígitos iniciales**|**Longitud**|**Dígitos a quitar**|**Dígitos a agregar.**|**Coincidencia de patrón**|**Traducción**|**Ejemplo**|
+|**Descripción**|**Dígitos iniciales**|**Longitud**|**Dígitos que se van a quitar**|**Dígitos que se van a agregar**|**Patrón de comparación**|**Traducción**|**Ejemplo**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Marcado convencional de larga distancia de EE. UU.  <br/> (quite el '+')  <br/> |+ 1  <br/> |Exactamente 12  <br/> |1  <br/> |0  <br/> |^\+(1\d{10}) $  <br/> |$1  <br/> |+14255551010 se convierte en 14255551010  <br/> |
 |Marcado internacional de larga distancia de EE. UU.  <br/> (quite el '+' y agregue 011)  <br/> |+  <br/> |11 como mínimo  <br/> |1  <br/> |011  <br/> |^\+(\d{9}\d+)$  <br/> |011$1  <br/> |+441235551010 se convierte en 011441235551010  <br/> |

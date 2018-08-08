@@ -1,8 +1,7 @@
 ---
-title: Requisitos del sistema del servidor perimetral en Skype Empresarial Server 2015
+title: Requisitos del sistema del servidor de bordes en Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
-ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,13 +12,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Resumen: Obtenga información sobre los requisitos del sistema para el servidor perimetral en Skype para Business Server.'
-ms.openlocfilehash: aaf8e45c005ff6295e1c0927d6a29abade383bfb
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ede0f7f933f246496593519afa035f09ef402bfb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013141"
 ---
-# <a name="edge-server-system-requirements-in-skype-for-business-server-2015"></a>Requisitos del sistema del servidor perimetral en Skype Empresarial Server 2015
+# <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Requisitos del sistema del servidor de bordes en Skype para Business Server
  
 **Resumen:** Obtenga información sobre los requisitos del sistema para el servidor perimetral en Skype para Business Server.
   
@@ -60,6 +60,9 @@ Los usuarios externos autorizados pueden usar los servidores perimetrales para c
   
 > [!NOTE]
 > Los servidores perimetrales se implementan para proporcionar conexiones de Skype habilitado para los clientes empresariales y otros servidores perimetrales (en escenarios de federación). No se puede conectar desde otros tipos de cliente o servidor de punto final. El servidor de puerta de enlace XMPP puede permitir conexiones con socios XMPP configurados. Pero de nuevo, éstos son los únicos tipos de cliente y de federación que funcionarán. 
+
+> [!NOTE]
+> Las puertas de enlace XMPP y los servidores proxy están disponibles en Skype para Business Server 2015, pero ya no se admiten en Skype para Business Server 2019. Para obtener más información, vea [la federación XMPP migrar](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
   
 ### <a name="reverse-proxies"></a>Proxies inversos
 <a name="ReverseProxies"> </a>
@@ -84,7 +87,7 @@ Y para dispositivos móviles:
     
 - permite que las notificaciones de inserción de Office 365 a los dispositivos móviles.
     
-Nuestras recomendaciones actual de proxy inverso pueden encontrarse en la página de la [Infraestructura de telefonía de Skype para la empresa](https://technet.microsoft.com/en-us/office/dn947483) . Por lo que el proxy inverso:
+Nuestras recomendaciones actual de proxy inverso pueden encontrarse en la página de la [Infraestructura de telefonía de Skype para la empresa](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways) . Por lo que el proxy inverso:
   
 - necesita poder usar la seguridad de la capa de transporte (TLS) que se introdujo en su entorno a través de certificados públicos para conectarse a los servicios web externos publicados de:
     
@@ -131,7 +134,7 @@ El Director es un servidor interno de salto siguiente que recibe el tráfico SIP
 ### <a name="load-balancers"></a>Equilibradores de carga
 <a name="LoadBalancers"> </a>
 
-El Skype para la topología perimetral consolidada escalada de Business Server 2015 está optimizado para DNS equilibrio de carga para las implementaciones de nuevo, y se recomienda esto. Si necesita una alta disponibilidad, se recomienda usar un equilibrador de carga de hardware para una situación específica:
+El Skype para la topología perimetral consolidada escalada de Business Server está optimizado para DNS equilibrio de carga para las implementaciones de nuevo, y se recomienda esto. Si necesita una alta disponibilidad, se recomienda usar un equilibrador de carga de hardware para una situación específica:
   
 - Mensajería unificada de Exchange para los usuarios remotos con mensajería unificada de Exchange **anterior** a Exchange 2013.
     
@@ -139,7 +142,7 @@ El Skype para la topología perimetral consolidada escalada de Business Server 2
 > Es fundamental que tenga en cuenta que no puede mezclar equilibradores de carga. En su Skype para entorno Business Server deben usar todas las interfaces de DNS o HLB. 
   
 > [!NOTE]
-> Servidor directo devolver NAT (DSR) no se admite para Skype para Business Server 2015. 
+> Servidor directo devolver NAT (DSR) no se admite para Skype para Business Server. 
   
 #### <a name="hardware-load-balancer-requirements-for-edge-servers-edge-servers-running-the-av-edge-service"></a>requisitos de equilibrador de carga de hardware para servidores de borde de los servidores perimetrales que ejecuta el / servicio perimetral A/v
 
@@ -157,7 +160,7 @@ Para cualquier servidor perimetral que ejecuta el servicio perimetral A/v, estos
     
 #### <a name="hlb-requirements"></a>Requisitos de HLB
 
-Como con Lync Server 2013, Skype para Business Server 2015 no tiene una gran cantidad de requisitos de afinidad basada en cookies. Por lo que no es necesario utilizar un persistencia basada en cookies **a menos que** va a tener grupos de servidores Front-End o de Lync Server 2010 Front End Servers en su Skype para el entorno de servidor empresarial. Tienen afinidad basada en cookies en el método de configuración recomendado para Lync Server 2010.
+Skype para Business Server no tiene una gran cantidad de requisitos de afinidad basada en cookies. Por lo que no es necesario utilizar un persistencia basada en cookies **a menos que** (y se trata de Skype para servidor 2015-específicos de su negocio) que va a tener grupos de servidores Front-End o de Lync Server 2010 Front End Servers en su Skype para el entorno de servidor empresarial. Tienen afinidad basada en cookies en el método de configuración recomendado para Lync Server 2010.
   
 > [!NOTE]
 > Si decide activar la afinidad basada en cookies en su HLB, no habrá problemas, incluso si su entorno no la necesita. 
@@ -179,7 +182,7 @@ Para las implementaciones que **sí** necesitan la afinidad basada en cookies:
 - El hardware carga equilibrador cookie **debe** establecerse en cada respuesta HTTP para la que la solicitud HTTP entrante no tiene una cookie, independientemente de si una respuesta HTTP anterior en esa misma conexión TCP ha recibido una cookie. Si el equilibrador de carga de hardware optimiza insertar cookie para que sólo se produzca una vez por cada conexión TCP, esa optimización **no debe** usarse.
     
 > [!NOTE]
-> Es habitual que el de las configuraciones de HLB utilizar la afinidad de origen y 20 minutos TCP duración de la sesión, que es el adecuado para Skype para Business Server 2015 y sus clientes, porque se mantiene el estado de sesión a través de uso del cliente o la interacción de aplicaciones. 
+> Es habitual que el de las configuraciones de HLB utilizar la afinidad de origen y 20 minutos TCP duración de la sesión, que es el adecuado para Skype para Business Server y sus clientes, porque se mantiene el estado de sesión a través de uso del cliente o la interacción de aplicaciones. 
   
 Si se implementan dispositivos móviles, el HLB debe poder equilibrar la carga de una solicitud individual dentro de una sesión TCP (de hecho, debe poder equilibrar la carga de una solicitud individual basada en la dirección IP de destino).
   
@@ -188,7 +191,7 @@ Si se implementan dispositivos móviles, el HLB debe poder equilibrar la carga d
   
 Estos son los requisitos de HLB para el Director (opcional) y el grupo de servidores Front-End (obligatorio) servicios Web:
   
-- Para la VIP de servicios Web internos, establezca Source_addr persistencia (interno puerto 80, 443) en su HLB. Para Skype para Business Server 2015, persistencia Source_addr significa que varias conexiones procedentes de una sola dirección IP siempre se envían a un servidor, para mantener el estado de sesión.
+- Para la VIP de servicios Web internos, establezca Source_addr persistencia (interno puerto 80, 443) en su HLB. Para Skype para Business Server, persistencia Source_addr significa que varias conexiones procedentes de una sola dirección IP siempre se envían a un servidor, para mantener el estado de sesión.
     
 - Use un tiempo de espera de inactividad TCP de 1.800 segundos.
     
@@ -196,7 +199,7 @@ Estos son los requisitos de HLB para el Director (opcional) y el grupo de servid
     
 #### <a name="summary-of-hlb-affinity-requirements"></a>Resumen de los requisitos de afinidad del HLB
 
-|**Ubicación de cliente/usuario**|**Requisitos de afinidad del FQDN de servicios web externos**|**Requisitos de afinidad del FQSN de servicios web internos**|
+|**Ubicación de cliente/usuario**|**Requisitos de afinidad del FQDN de servicios web externos**|**Requisitos de afinidad del FQDN de servicios web internos**|
 |:-----|:-----|:-----|
 |Skype para la aplicación empresarial de Web (usuarios internos y externos)  <br/> Dispositivo móvil (usuarios internos y externos  <br/> |Sin afinidad  <br/> |Afinidad de direcciones de origen  <br/> |
 |Skype para la aplicación empresarial de Web (sólo para usuarios externos)  <br/> Dispositivo móvil (usuarios internos y externos  <br/> |Sin afinidad  <br/> |Afinidad de direcciones de origen  <br/> |
@@ -213,10 +216,10 @@ Definir la supervisión de puertos en los equilibradores de carga de hardware pa
    
 ## <a name="hardware-and-software-requirements"></a>Requisitos de hardware y software
 
-Hemos analizado los requisitos de hardware y software de servidor perimetral en nuestra documentación general de [los requisitos de servidor de Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) .
+Hemos analizado los requisitos de hardware y software de servidor perimetral en nuestra documentación general de [los requisitos de servidor de Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) y [requisitos del sistema para Skype para Business Server 2019](../../../SfBServer2019/plan/system-requirements.md) .
   
 ## <a name="collocation"></a>Colocación
 
-Hemos analizado colocación de servidor perimetral en nuestra documentación de [Conceptos básicos de la topología de Skype para Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md) .
+Hemos analizado colocación de servidor perimetral en nuestra documentación de [Conceptos básicos de la topología de Skype para Business Server](../../plan-your-deployment/topology-basics/topology-basics.md) .
   
 

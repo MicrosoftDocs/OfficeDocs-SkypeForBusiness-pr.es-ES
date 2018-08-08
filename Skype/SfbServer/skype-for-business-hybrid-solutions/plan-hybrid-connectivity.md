@@ -16,12 +16,13 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
-description: 'Resumen: Lea este tema para obtener información sobre cómo planear la conectividad híbrida entre Skype para Business Server y Skype para profesionales en línea. A la hora de implementar muchas soluciones híbridas de Skype Empresarial, el primer paso consiste en configurar la conectividad híbrida.'
-ms.openlocfilehash: d61bdd8ecf7ce35e1f80e5b69ede590d5d2c1cd1
-ms.sourcegitcommit: c8963d8a1de4197ddb72229b3c26460e9e0aae77
+description: 'Resumen: lea este tema para aprender a planificar la conectividad híbrida entre Skype Empresarial Server y Skype Empresarial Online.  A la hora de implementar muchas soluciones híbridas de Skype Empresarial, el primer paso consiste en configurar la conectividad híbrida.'
+ms.openlocfilehash: 2cd4c66ebd36542fa90cb8b8bcd0aa88da0d8df0
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21145368"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Planificar la conectividad híbrida entre Skype Empresarial Server y Skype Empresarial Online
  
@@ -35,29 +36,29 @@ Este tema incluye las secciones siguientes:
     
 - [Requisitos de infraestructura](plan-hybrid-connectivity.md#BKMK_Infrastructure)
     
-- [Compatibilidad con varios bosque](plan-hybrid-connectivity.md#BKMK_MultiForest)
+- [Compatibilidad de bosques múltiples](plan-hybrid-connectivity.md#BKMK_MultiForest)
     
 - [Coexistencia de Exchange](plan-hybrid-connectivity.md#BKMK_Exchange)
     
 - [Credenciales de administrador](plan-hybrid-connectivity.md#BKMK_Credentials)
     
-- [Skype para PowerShell en línea de negocio](plan-hybrid-connectivity.md#BKMK_PowerShell)
+- [PowerShell de Skype Empresarial Online](plan-hybrid-connectivity.md#BKMK_PowerShell)
     
-- [Skype para compatibilidad con clientes de negocio](plan-hybrid-connectivity.md#BKMK_ClientSupport)
+- [Compatibilidad de clientes de Skype Empresarial](plan-hybrid-connectivity.md#BKMK_ClientSupport)
     
-- [Requisitos de la topología](plan-hybrid-connectivity.md#BKMK_Topology)
+- [Requisitos de topología](plan-hybrid-connectivity.md#BKMK_Topology)
     
-- [Requisitos de federación se enumeran permitidos o bloqueados](plan-hybrid-connectivity.md#BKMK_Federation)
+- [Requisitos para las listas de permitidos/bloqueados de la federación](plan-hybrid-connectivity.md#BKMK_Federation)
     
 - [Configuración de DNS](plan-hybrid-connectivity.md#BKMK_DNS)
     
-- [Consideraciones de Firewall](plan-hybrid-connectivity.md#BKMK_Firewall)
+- [Consideraciones sobre el firewall](plan-hybrid-connectivity.md#BKMK_Firewall)
     
 - [Requisitos de puerto y protocolo](plan-hybrid-connectivity.md#BKMK_Ports)
     
-- [Datos y cuentas de usuario](plan-hybrid-connectivity.md#BKMK_UserAccounts)
+- [Cuentas de usuarios y datos](plan-hybrid-connectivity.md#BKMK_UserAccounts)
     
-- [Las características y las directivas de usuario](plan-hybrid-connectivity.md#BKMK_UserPolicies)
+- [Directivas de usuario y características](plan-hybrid-connectivity.md#BKMK_UserPolicies)
     
 Una vez que se ha leído en este tema y está preparado para implementar, consulte [Deploy híbrida conectividad entre Skype para Business Server y Skype para profesionales en línea](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). Los temas sobre la implementación proporcionan instrucciones detalladas sobre la configuración de la conectividad híbrida entre su implementación local y Skype Empresarial Online.
   
@@ -126,6 +127,9 @@ También puede configurar las implementaciones híbridas para la integración co
 Para implementar una conectividad híbrida entre Skype Empresarial Server y Skype Empresarial Online, debe configurar lo siguiente en su entorno:
   
 - Una única implementación local de Skype para Business Server o Lync Server que se haya implementado en una topología admitida. En este tema, vea [requisitos de la topología](plan-hybrid-connectivity.md#BKMK_Topology) .
+    
+    > [!NOTE]
+    > Todos los dominios SIP que existe en el entorno local también deben existir en su inquilino de Office 365 y viceversa. No puede tener algunos dominios SIP en línea sólo algunos dominios locales y en sólo. De lo contrario, presencia, mensajería instantánea y otras características no funcionarán correctamente.
     
 - Un inquilino de Microsoft Office 365 con Skype para profesionales Online habilitado. 
     
@@ -205,7 +209,7 @@ Hay algunas diferencias en las características compatibles con los clientes, as
     
 Antes de decidir donde desea que usuarios particulares en su organización, debe revisar la [comparación de características de cliente de escritorio de Skype para la empresa](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md) para determinar la compatibilidad de cliente para las distintas configuraciones de Skype para Business Server. Vea también:
   
-- [Plan para clientes y dispositivos](../plan-your-deployment/clients-and-devices/clients-and-devices.md)
+- [Planificar los clientes y los dispositivos](../plan-your-deployment/clients-and-devices/clients-and-devices.md)
     
 - [Comparación de características de cliente móvil de Skype para la empresa](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)
     
@@ -278,7 +282,9 @@ Además, debe asegurarse de que la resolución DNS que se describe en la siguien
 |Registros DNS A para el FQDN del servicio de conferencia web perimetral, por ejemplo, webcon.contoso.com que se resuelvan en direcciones IP externas de servidor perimetral de conferencia web  <br/> |Red corporativa interna conectado a los equipos de los usuarios  <br/> |Habilite los usuarios en línea para que puedan presentar y visualizar contenido en las reuniones hospedadas de forma local. El contenido incluye archivos de PowerPoint, pizarras, sondeos y notas compartidas.   <br/> |
    
 Según el modo en que DNS esté configurado en su organización, es probable que deba agregar estos registros a la zona DNS hospedada interna para que los dominios SIP correspondientes proporcionen una resolución DNS interna para estos registros.
-  
+
+[!NOTE] _sipfederationtls._tcp. \<sipdomain.com\> solución del registro SRV desde el servidor perimetral es necesario para la configuración híbrida. Si el servidor perimetral no se puede resolver estos registros, los usuarios locales no podrán ver el estado de presencia o comunicarse con usuarios en línea.
+
 ## <a name="firewall-considerations"></a>Consideraciones sobre el firewall
 <a name="BKMK_Firewall"> </a>
 
@@ -294,7 +300,7 @@ Para obtener más información, vea [las direcciones URL de Office 365 y los int
 Además de los requisitos de puerto para la comunicación interna, debe configurar también los puertos siguientes para permitir la conectividad híbrida:
   
 
-|**Protocolo**|**TCP o UDP**|**IP de origen**|**Destino IP**|**Puerto de origen**|**Puerto de destino**|**Notas**|
+|**Protocolo**|**TCP o UDP**|**IP de origen**|**IP de destino**|**Puerto de origen**|**Puerto de destino**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |SIP (MTLS)  <br/> |TCP  <br/> |Perímetro de acceso  <br/> |Office 365  <br/> |Cualquiera  <br/> |5061  <br/> |Señalización  <br/> |
 |SIP (MTLS)  <br/> |TCP  <br/> |Office 365  <br/> |Perímetro de acceso  <br/> |Cualquiera  <br/> |5061  <br/> |Señalización  <br/> |

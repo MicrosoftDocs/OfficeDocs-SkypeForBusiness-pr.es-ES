@@ -1,9 +1,8 @@
 ---
-title: Administrar ubicaciones para proveedores de servicio de enlaces troncales SIP en Skype Empresarial Server 2015
+title: Administración de ubicaciones para proveedores de servicios de tronco SIP en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: Las decisiones necesarias para la planeación de una base de datos de información de la ubicación, o una base de datos externa similar, para una implementación de E9-1-1 con los proveedores de enlace troncal SIP, en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 61aec2a537a9351c73c9e1e903685f686d500517
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 079e921debe9e5b61839795e61db199a018879aa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996777"
 ---
-# <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server-2015"></a>Administrar ubicaciones para proveedores de servicio de enlaces troncales SIP en Skype Empresarial Server 2015
+# <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Administración de ubicaciones para proveedores de servicios de tronco SIP en Skype para Business Server
  
 Las decisiones necesarias para la planeación de una base de datos de información de la ubicación, o una base de datos externa similar, para una implementación de E9-1-1 con los proveedores de enlace troncal SIP, en Skype para Business Server Enterprise Voice.
   
@@ -51,7 +51,7 @@ Con las siguientes preguntas te será fácil determinar cómo rellenar la base d
   
 Mediante el uso de la opción de servicio de información de ubicación secundaria para conectarse a una base de datos de terceros, puede agrupar y administrar ubicaciones mediante el uso de una plataforma sin conexión. La ventaja es que además de asociar las ubicaciones a identificadores de red, puedes asociar las ubicaciones a un usuario. Esto significa que el servicio de información de ubicación puede devolver varias direcciones, que se originan desde el servicio de información de ubicación secundaria a una Skype para clientes empresariales. Luego, el usuario podrá elegir la ubicación más adecuada. 
   
-Para integrar con el servicio de información de ubicación, la base de datos de terceros debe seguir el esquema de solicitud y respuesta de Lync Server ubicación. Para obtener información detallada, vea ["[MS-E911WS]: servicio Web para la especificación del protocolo E911 compatibilidad con"](https://go.microsoft.com/fwlink/p/?linkid=213819). Para obtener información detallada sobre la implementación de un servicio de información de ubicación secundaria, vea [Configure un servicio de información de ubicación secundario en Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) en la documentación de implementación.
+Para integrar con el servicio de información de ubicación, la base de datos de terceros debe seguir el esquema de solicitud y respuesta de Lync Server ubicación. Para obtener información detallada, vea ["[MS-E911WS]: servicio Web para la especificación del protocolo E911 compatibilidad con"](https://go.microsoft.com/fwlink/p/?linkid=213819). Para obtener información detallada sobre la implementación de un servicio de información de ubicación secundaria, vea [Configure un servicio de información de ubicación secundario en Skype para Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) en la documentación de implementación.
   
 Para obtener información detallada sobre cómo rellenar la base de datos de ubicación, vea [Configure la base de datos de la ubicación](http://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) en la documentación de implementación.
   

@@ -1,9 +1,8 @@
 ---
-title: Ejemplo de recopilación de requisitos de control de admisión de llamadas en Skype para Business Server 2015
+title: Ejemplo de recopilación de requisitos de control de admisión de llamadas en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,23 +13,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: Proporciona un ejemplo detallado de la planeación para el control de admisión de llamadas en Skype para Business Server Enterprise Voice, incluida la recopilación de información acerca de sitios, regiones y ancho de banda de la red.
-ms.openlocfilehash: 11cf309c47143411a10d32eacf0305ead3d01294
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 16cc5687a0cde959ae242427d3b325afff8ec9a9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968610"
 ---
-# <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server-2015"></a>Ejemplo: recopilación de los requisitos para el servicio de control de admisión de llamadas en Skype Empresarial Server 2015
+# <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Ejemplo: Requisitos de recopilación para llamar al control de admisión de Skype para Business Server
  
 Proporciona un ejemplo detallado de la planeación para el control de admisión de llamadas en Skype para Business Server Enterprise Voice, incluida la recopilación de información acerca de sitios, regiones y ancho de banda de la red.
   
 Este ejemplo muestra cómo planificar e implementar el servicio de control de admisión de llamadas (CAC). De forma general, esto consta de las siguientes actividades:
   
-1. Identificar todos los concentradores de red y redes troncales (llamados regiones de red).
+1. Identifica todos los concentradores de red y redes troncales (llamados regiones de red).
     
 2. Identificar el Skype para sitio central Business Server que administrará el CAC para cada región de red.
     
-3. Identificar y definir los sitios de red que están conectados a cada región de red.
+3. Identifica y define los sitios de red que están conectados a cada región de red.
     
 4. Para cada sitio de red cuya conexión a la red WAN está limitada por el ancho de banda, se describe la capacidad de ancho de banda de la conexión WAN y los límites de ancho de banda que al administrador de red ha establecido para Skype para el tráfico de medios Business Server, si procede. No necesitas incluir sitios cuya conexión a la red WAN no tiene ancho de banda restringido.
     
@@ -52,12 +52,12 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     
 2. Identificar el sitio central de cada región de red asociado. Un sitio central contiene al menos un servidor Front-End y el Skype para la implementación de Business Server que administrará el CAC para todo el tráfico de medios que pasa a través de la conexión WAN de la región de red.
     
-   **Una red de la empresa de ejemplo, se divide en tres regiones de red**
+   **Una red de empresa de ejemplo dividida en tres regiones de red**
 
      ![Ejemplo de topología de red con 3 regiones de red](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
   
     > [!NOTE]
-    > Una red de conmutación de etiquetas multiprotocolo (MPLS) necesita representarse como una región de red en la que cada ubicación geográfica tiene un sitio de red correspondiente. Para obtener información detallada, vea el tema "de[componentes y topologías para llamar al control de admisión de Skype para profesionales de 2015](components-and-topologies.md)" en la documentación de planeación. 
+    > Una red de conmutación de etiquetas multiprotocolo (MPLS) necesita representarse como una región de red en la que cada ubicación geográfica tiene un sitio de red correspondiente. Para obtener información detallada, vea [componentes y topologías para llamar al control de admisión de Skype para la empresa](components-and-topologies.md). 
   
     En el anterior ejemplo de topología de red, hay tres regiones de red, cada uno con un Skype para sitio central Business Server que administra el CAC. El sitio central adecuado para una región de red se elige por la proximidad geográfica. Como el tráfico de medios será mayor dentro de las regiones de red, la propiedad por proximidad geográfica lo hace independiente y seguirá siendo funcional aunque otros sitios centrales dejen de estar disponibles. 
     
@@ -102,7 +102,7 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
    |Reno  <br/> |Norteamérica  <br/> |
    |Portland  <br/> |Norteamérica  <br/> |
    
-   **CAC red región Norteamérica con tres sitios de red que no tienen restricciones de ancho de banda (Chicago, Nueva York y Detroit) y tres sitios de red que están restringidos por el ancho de banda de WAN (Portland, Reno y Albuquerque)**
+   **Región de red para CAC Norteamérica con tres sitios de red que no están restringidos por el ancho de banda (Chicago, Nueva York y Detroit) y tres sitios de red que están restringidos por el ancho de banda de WAN (Portland, Reno y Albuquerque)**
 
      ![Ejemplo de sitios de la red restringidos por el ancho de banda de la WAN](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
   
@@ -116,7 +116,7 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     
   - Límite de ancho de banda que deseas establecer para cada sesión individual de vídeo. El límite predeterminado de ancho de banda para CAC es de 700 kbps, pero el administrador puede modificarlo.
     
-    **Sitios de red con información de restricciones de ancho de banda WAN (ancho de banda en kbps)**
+    **Sitios de red con información de restricción de ancho de banda de WAN (ancho de banda en kbps)**
 
     |**Sitio de red**|**Región de red**|**Límite de ancho de banda**|**Límite de audio**|**Límite de sesión de audio**|**Límite de vídeo**|**Límite de sesión de vídeo**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -133,7 +133,7 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     > Cada subred de la red necesita estar asociada a un sitio de red, aunque el sitio de red no esté restringido por el ancho de banda. Esto es porque el servicio de control de admisión de llamadas usa la información de la subred para determinar el sitio de red en que está situado un extremo. Cuando se determinan las ubicaciones de ambas partes de la sesión, el servicio de control de admisión de llamadas puede determinar si existe suficiente ancho de banda para establecer una llamada. Cuando se establece una sesión a través de un vínculo que no tiene límites de ancho de banda, se genera una alerta. 
   
     > [!IMPORTANT]
-    > Si implementas servidores perimetrales de audio o vídeo, las direcciones IP públicas de cada servidor perimetral necesitan estar asociadas al sitio de red en el que se implementa el servidor perimetral. Cada dirección IP pública del servidor perimetral A/V necesita agregarse a las opciones de configuración de la red como subred con una máscara de subred de 32. Por ejemplo, si implementas servidores perimetrales A/V en Chicago, para cada dirección IP externa de los servidores, crea una subred con una máscara de subred de 32 y asocia el sitio de red Chicago a dichas subredes. Para obtener información detallada acerca de las direcciones IP públicas, vea [Planear los requisitos de red de Skype para profesionales de 2015](../../plan-your-deployment/network-requirements/network-requirements.md). 
+    > Si implementas servidores perimetrales de audio o vídeo, las direcciones IP públicas de cada servidor perimetral necesitan estar asociadas al sitio de red en el que se implementa el servidor perimetral. Cada dirección IP pública del servidor perimetral A/V necesita agregarse a las opciones de configuración de la red como subred con una máscara de subred de 32. Por ejemplo, si implementas servidores perimetrales A/V en Chicago, para cada dirección IP externa de los servidores, crea una subred con una máscara de subred de 32 y asocia el sitio de red Chicago a dichas subredes. Para obtener información detallada acerca de las direcciones IP públicas, vea [Planear los requisitos de red de Skype para la empresa](../../plan-your-deployment/network-requirements/network-requirements.md). 
   
     Aparecerá una alerta de indicador de estado clave (KHI), que especifica una lista de direcciones IP que están incluidas en la red, pero que no están asociadas a una subred; o bien, la subred que incluye las direcciones IP no está asociada a un sitio de red. Esta alerta no aparecerá más que una vez en un período de 8 horas. A continuación se ofrece la información sobre las alertas relevante y un ejemplo:
     
@@ -176,13 +176,13 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     
    - Límite de ancho de banda que deseas establecer para cada sesión individual de vídeo. El límite predeterminado de ancho de banda para CAC es de 700 kbps, pero el administrador puede modificarlo.
     
-   **Vínculos de región de red con los límites de ancho de banda asociados**
+   **Vínculos de región de red con límites de ancho de banda asociados**
 
      ![Ejemplo de limitaciones entre 3 regiones](../../media/Plan_CS_VoiceCAC_limitsbetween3regions.jpg)
   
-   **Información de ancho de banda del vínculo de región (ancho de banda en kbps)**
+   **Información de ancho de banda de vínculos de región (ancho de banda en kbps)**
 
-   |**Nombre del vínculo de región**|**Primera región**|**Segunda región**|**Límite de ancho de banda**|**Límite de audio**|**Límite de sesión de audio**|**Límite de vídeo**|**Límite de sesión de vídeo**|
+   |**Nombre del vínculo de región**|**First Region**|**Second Region**|**Límite de ancho de banda**|**Límite de audio**|**Límite de sesión de audio**|**Límite de vídeo**|**Límite de sesión de vídeo**|
    |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
    |NA-EMEA-LINK  <br/> |Norteamérica  <br/> |EMEA  <br/> |50.000  <br/> |20.000  <br/> |175  <br/> |14.000  <br/> |700  <br/> |
    |EMEA-APAC-LINK  <br/> |EMEA  <br/> |APAC  <br/> |25.000  <br/> |10.000  <br/> |175  <br/> |7.000  <br/> |700  <br/> |
@@ -194,13 +194,13 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
   
    **Rutas de región**
 
-   |**Nombre de ruta de región**|**Primera región**|**Segunda región**|**Vínculos de región**|
+   |**Nombre de la ruta de región**|**First Region**|**Second Region**|**Vínculos de región**|
    |:-----|:-----|:-----|:-----|
    |NA-EMEA-ROUTE  <br/> |Norteamérica  <br/> |EMEA  <br/> |NA-EMEA-LINK  <br/> |
    |EMEA-APAC-ROUTE  <br/> |EMEA  <br/> |APAC  <br/> |EMEA-APAC-LINK  <br/> |
    |NA-APAC-ROUTE  <br/> |Norteamérica  <br/> |APAC  <br/> |NA-EMEA-LINK, EMEA-APAC-LINK  <br/> |
    
-9. Para cada par de sitios de red que están conectados directamente por un solo vínculo (denominado vínculo entre sitios), determine lo siguiente:
+9. Para cada par de sitios de red que estén conectados directamente por un solo vínculo (denominado vínculo entre sitios), determina lo siguiente:
     
      - Límite general de ancho de banda que deseas establecer para todas las sesiones simultáneas de audio. Si una nueva sesión de audio hará que este límite que se supere, Skype para Business Server no permite la sesión iniciar.
     
@@ -210,11 +210,11 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     
      - Límite de ancho de banda que deseas establecer para cada sesión individual de vídeo. El límite predeterminado de ancho de banda para CAC es de 700 kbps, pero el administrador puede modificarlo.
     
-   **Región de red CAC Norteamérica con los límites de ancho de banda del vínculo entre sitios entre Reno y Albuquerque y las capacidades de ancho de banda**
+   **Región de red para CAC Norteamérica con indicación de las capacidades de ancho de banda y los límites de ancho de banda del vínculo entre sitios entre Reno y Albuquerque**
 
      ![Ejemplo de sitios de la red restringidos por el ancho de banda de la WAN](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
   
-   **Información de ancho de banda para un vínculo entre sitios entre dos sitios de red (ancho de banda en kbps)**
+   **Información de ancho de banda de un vínculo entre sitios entre dos sitios de red (ancho de banda en kbps)**
 
    |**Nombre del vínculo entre sitios**|**Primer sitio**|**Segundo sitio**|**Límite de ancho de banda**|**Límite de audio**|**Límite de sesión de audio**|**Límite de vídeo**|**Límite de sesión de vídeo**|
    |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|

@@ -1,9 +1,8 @@
 ---
-title: Configurar un tronco sin omisión de medios en Skype Empresarial Server 2015
+title: Configurar un tronco sin desvío de medios en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,19 +12,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
-description: 'Resumen: Configurar un tronco sin desvío de medios habilitado para Skype para Business Server 2015.'
-ms.openlocfilehash: 82b168da814da96555afe967d901f152d35718b3
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Resumen: Configurar un tronco sin desvío de medios habilitado para Skype para Business Server.'
+ms.openlocfilehash: ae33fd67c85401e9fe9ce366bec75d824f7c77b7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500980"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972523"
 ---
-# <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server-2015"></a>Configurar un tronco sin omisión de medios en Skype Empresarial Server 2015
+# <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Configurar un tronco sin desvío de medios en Skype para Business Server
  
-**Resumen:** Configurar un tronco sin desvío de medios habilitado para Skype para Business Server 2015.
+**Resumen:** Configurar un tronco sin desvío de medios habilitado para Skype para Business Server.
   
-Si desea configurar un tronco con la omisión de medios deshabilitada, siga estos pasos. Si desea configurar un tronco con desvío de medios habilitado, vea [Configure un tronco con medios desvío en Skype para Business Server 2015](configure-trunk-with-media-bypass.md).
+Si desea configurar un tronco con la omisión de medios deshabilitada, siga estos pasos. Si desea configurar un tronco con desvío de medios habilitado, vea [Configure un tronco con medios desvío en Skype para Business Server](configure-trunk-with-media-bypass.md).
   
 Tal como se describe a continuación, una configuración de tronco agrupa un conjunto de parámetros que se aplican a los troncos asignados a esta configuración de tronco. Una configuración de tronco puede tener ámbito global (se aplica a todos los troncos que no tienen sitios o configuración de grupo más específicos), ámbito de sitio o de grupo. La configuración del tronco de nivel de grupo se usa para adaptar una configuración de tronco específica a un único tronco.
   
@@ -83,7 +82,7 @@ Tal como se describe a continuación, una configuración de tronco agrupa un con
     
      - Para quitar una ruta del registro de uso de RTC, seleccione la ruta y haga clic en **Quitar**.
     
-     - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener información detallada, vea [crear o modificar una ruta de voz de Skype para profesionales de 2015](create-or-modify-a-voice-route.md).
+     - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener información detallada, vea [crear o modificar una ruta de voz de Skype para la empresa](create-or-modify-a-voice-route.md).
     
      - Para editar una ruta que esté asociada con este registro de uso de RTC, seleccione la ruta y haga clic en **Mostrar detalles**.
     
@@ -99,7 +98,7 @@ Tal como se describe a continuación, una configuración de tronco agrupa un con
     
      - Para quitar una ruta del registro de uso de RTC, seleccione la ruta y haga clic en **Quitar**.
     
-     - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener información detallada, vea [crear o modificar una ruta de voz de Skype para profesionales de 2015](create-or-modify-a-voice-route.md).
+     - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener información detallada, vea [crear o modificar una ruta de voz de Skype para la empresa](create-or-modify-a-voice-route.md).
     
      - Para editar una ruta que esté asociada con este registro de uso de RTC, seleccione la ruta y haga clic en **Mostrar detalles**.
     
@@ -125,7 +124,7 @@ Tal como se describe a continuación, una configuración de tronco agrupa un con
     
    - Para elegir una o varias reglas de una lista de todas las reglas de conversión que están disponibles en su implementación de Enterprise Voice, haga clic en **Seleccionar**. En **Seleccionar reglas de conversión**, haga clic en las reglas que desee asociar con el tronco y, a continuación, haga clic en **Aceptar**.
     
-   - Par definir una regla de conversión nueva y asociarla con el tronco, haga clic en **Nuevo**. Para obtener información detallada acerca de las reglas de conversión, vea [reglas de conversión de Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
+   - Par definir una regla de conversión nueva y asociarla con el tronco, haga clic en **Nuevo**. Para obtener información detallada acerca de las reglas de conversión, vea [reglas de conversión de Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
     
    - Para editar una regla de conversión que ya esté asociada al tronco, haga clic en el nombre de la regla y, a continuación, haga clic en  **Mostrar detalles**. 
     
@@ -140,7 +139,7 @@ Tal como se describe a continuación, una configuración de tronco agrupa un con
     
    - Para elegir una o varias reglas de una lista de todas las reglas de conversión que están disponibles en su implementación de Enterprise Voice, haga clic en **Seleccionar**. En **Seleccionar reglas de conversión**, haga clic en las reglas que desee asociar con el tronco y, a continuación, haga clic en **Aceptar**.
     
-  - Par definir una regla de conversión nueva y asociarla con el tronco, haga clic en **Nuevo**. Para obtener información detallada acerca de las reglas de conversión, vea [reglas de conversión de Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
+  - Par definir una regla de conversión nueva y asociarla con el tronco, haga clic en **Nuevo**. Para obtener información detallada acerca de las reglas de conversión, vea [reglas de conversión de Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
     
    - Para editar una regla de conversión que ya esté asociada al tronco, haga clic en el nombre de la regla y, a continuación, haga clic en  **Mostrar detalles**. 
     
@@ -161,10 +160,11 @@ Tal como se describe a continuación, una configuración de tronco agrupa un con
 18. En la página **Configuración del tronco**, haga clic en **Confirmar** y, a continuación, en **Confirmar todo**. 
     
     > [!NOTE]
-    > Al crear o modificar una configuración de tronco, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, consulte [publicar los cambios en la configuración de enrutamiento de voz en Skype para profesionales de 2015 pendientes](voice-route-config-changes.md) en la documentación sobre operaciones.
+    > Al crear o modificar una configuración de tronco, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, consulte [Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para la empresa](voice-route-config-changes.md) en la documentación sobre operaciones.
   
 ## <a name="see-also"></a>Vea también
 
-[Configurar un tronco con desvío de medios en Skype para Business Server 2015](configure-trunk-with-media-bypass.md)
+[Configurar un tronco con desvío de medios en Skype para Business Server](configure-trunk-with-media-bypass.md)
 
 [Definición de reglas de conversión](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
+

@@ -1,9 +1,8 @@
 ---
-title: Componentes y topologías para el servicio de control de admisión de llamadas en Skype Empresarial 2015
+title: Componentes y topologías para llamar al control de admisión de Skype para la empresa
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: Planear el servicio de control de admisión de llamadas (CAC) si tiene una red MPLS, un tronco SIP o una puerta de enlace RTC o PBX de terceros. Se aplica a Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: bedb1737827eb18d56c15c088756c4eec9bab8c2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d08d5ca63c02a2ddf12f3f53a5e4952a7a366a71
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977710"
 ---
-# <a name="components-and-topologies-for-call-admission-control-in-skype-for-business-2015"></a>Componentes y topologías para el servicio de control de admisión de llamadas en Skype Empresarial 2015
+# <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Componentes y topologías para llamar al control de admisión de Skype para la empresa
  
 Planear el servicio de control de admisión de llamadas (CAC) si tiene una red MPLS, un tronco SIP o una puerta de enlace RTC o PBX de terceros. Se aplica a Skype para Business Server Enterprise Voice.
   
@@ -57,7 +57,7 @@ Para configurar el CAC en un tronco SIP necesitarás realizar las siguientes tar
     > [!NOTE]
     > Para el ITSP, no funciona esta configuración de sitio de red. Los valores de la directiva de ancho de banda se aplican, en realidad, en el paso 2. 
   
-2. Crea un vínculo entre sitios para el tronco SIP, usando los valores de los parámetros correspondientes al sitio que creaste en el paso 1. Por ejemplo, usa el nombre del sitio de red de tu empresa como el valor del parámetro NetworkSiteID1 y el sitio de red de ITSP como el valor del parámetro NetworkSiteID2. Para obtener información detallada, vea [directivas entre sitios de red crear en Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) en la documentación de implementación y [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).
+2. Crea un vínculo entre sitios para el tronco SIP, usando los valores de los parámetros correspondientes al sitio que creaste en el paso 1. Por ejemplo, usa el nombre del sitio de red de tu empresa como el valor del parámetro NetworkSiteID1 y el sitio de red de ITSP como el valor del parámetro NetworkSiteID2. Para obtener información detallada, vea [directivas entre sitios de red crear en Skype para Business Server](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) en la documentación de implementación y [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).
     
 3. Obtener la dirección IP del controlador de borde de sesión (SCB) de punto de terminación de medios desde el protocolo. Agrega esa dirección IP con una máscara de subred de 32 al sitio de red que representa al ITSP. Para obtener información detallada, vea [asociar una subred a un sitio de red](http://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
     
@@ -69,7 +69,7 @@ En este tema se describe algunos ejemplos de cómo se puede implementar el contr
 
 CAC se puede implementar en la WAN vínculo de la interfaz de puerta de enlace del servidor de mediación a una puerta de enlace de terceros PBX o RTC.
   
-**Caso 1: CAC entre el servidor de mediación y una puerta de enlace de RTC**
+**Caso 1: servicio de control de admisión de llamadas entre el servidor de mediación y una puerta de enlace RTC**
 
 ![Caso 1: Control de admisión de llamadas (CAC) entre el servidor de mediación y la puerta de enlace RTC](../../media/CAC_gateways_1.jpg)
   
@@ -94,7 +94,7 @@ Esto funciona tanto para las llamadas RTC entrantes a un cliente en el sitio de 
 
 Esta configuración es similar a la del caso 1. En ambos casos la, el servidor de mediación sabe en qué dispositivo termina medios en el extremo opuesto del vínculo WAN y la dirección IP de la puerta de enlace RTC o PBX con punto de terminación de medios (MTP) está configurada en el servidor de mediación como el próximo salto.
   
-**Caso 2: CAC entre el servidor de mediación y una PBX de terceros con MTP**
+**Caso 2: servicio de control de admisión de llamadas entre el servidor de mediación y una PBX de terceros con MTP**
 
 ![Caso 2: Control de admisión de llamadas (CAC) entre el servidor de mediación y la PBX con MTP](../../media/CAC_gateways_2.jpg)
   
@@ -119,7 +119,7 @@ Esto funciona tanto para las llamadas RTC entrantes a un cliente en el sitio de 
 
 El caso 3 es ligeramente diferente a los dos primeros casos. Si no hay ningún MTP en el sistema PBX de terceros, para una sesión saliente solicitud a la PBX de terceros el servidor de mediación no sabe donde medios finalizará en el límite de PBX. En este caso, la comunicación se transmite directamente entre el servidor de mediación y el dispositivo de extremo de otro fabricante.
   
-**Caso 3: CAC entre el servidor de mediación y una PBX de terceros sin MTP**
+**Caso 3: servicio de control de admisión de llamadas entre el servidor de mediación y una PBX de terceros sin MTP**
 
 ![Caso 3: Control de admisión de llamadas (CAC) entre el servidor de mediación y la PBX sin MTP](../../media/CAC_gateways_3.jpg)
   

@@ -1,9 +1,8 @@
 ---
-title: Componente del servidor de mediación en Skype Empresarial Server 2015
+title: Componente de servidor de mediación en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: 'Obtenga información acerca de los servidores de mediación en Skype para Business Server, incluidos sus topologías admitidas y sus relaciones de troncos m: n, el desvío de medios y control de admisión de llamadas.'
-ms.openlocfilehash: 73166df66acac493717ce2c07e42e5429176a400
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 95feb3b419eacf77739dfed98d2eee70eb49dc06
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009196"
 ---
-# <a name="mediation-server-component-in-skype-for-business-server-2015"></a>Componente del servidor de mediación en Skype Empresarial Server 2015
+# <a name="mediation-server-component-in-skype-for-business-server"></a>Componente de servidor de mediación en Skype para Business Server
  
 Obtenga información acerca de los servidores de mediación en Skype para Business Server, incluidos sus topologías admitidas y sus relaciones de troncos m: n, el desvío de medios y control de admisión de llamadas.
   
@@ -52,7 +52,7 @@ Las funciones principales del servidor de mediación son los siguientes:
     
 La siguiente ilustración muestra los protocolos de señalización y los medios que se usan por el servidor de mediación al comunicarse con una puerta de enlace RTC básica y la infraestructura de Enterprise Voice.
   
-**Protocolos de señalización y medios utilizados por el servidor de mediación**
+**Señalización y protocolos multimedia que usa el servidor de mediación**
 
 ![Diagrama de protocolos de servidor de mediación](../../media/c3d39ba0-e323-4a58-8f07-4e80d3278af2.jpg)
   
@@ -85,13 +85,13 @@ El servicio de control de admisión de llamadas (CAC) administra el establecimie
   
 La omisión de medios y la reserva del ancho de banda se excluyen mutuamente. Si se usa la omisión de medios en una llamada, no se aplicará el servicio de control de admisión de llamadas en esa llamada. En este caso, se asume que no hay vínculos relacionados con la llamada que tengan restringido el ancho de banda. Si el control de admisión de llamadas se usa para una llamada concreta que implica al servidor de mediación, que la llamada no puede emplear el desvío de medios.
   
-Para obtener información detallada acerca de los medios de desvío o el control de admisión de llamadas, consulte [Plan para los medios de desvío en Skype para 2015 empresarial](media-bypass.md) o tiene [previsto para el control de admisión de llamadas en Skype para Business Server 2015](call-admission-control.md).
+Para obtener información detallada acerca de los medios de desvío o el control de admisión de llamadas, consulte [Plan para los medios de desvío en Skype para la empresa](media-bypass.md) o tiene [previsto para el control de admisión de llamadas en Skype para Business Server](call-admission-control.md).
   
 ## <a name="enhanced-9-1-1-e9-1-1-and-mediation-server"></a>9-1-1 mejorado (E9-1-1) y servidor de mediación
 
 El servidor de mediación tiene capacidades extendidas que puede interactuar correctamente con los proveedores de servicios Enhanced 9-1-1 (E9-1-1). No es necesario realizar ninguna configuración especial en el servidor de mediación. Las Extensiones SIP necesarias para la interacción de E9-1-1 son, de forma predeterminada, incluido en el protocolo SIP del servidor de mediación para sus interacciones con un par de puerta de enlace (puerta de enlace RTC, IP-PBX o la SBC de un proveedor de servicios de telefonía de Internet, incluido el servicio de E9-1-1 Proveedores de)
   
-Si el tronco SIP a un proveedor de servicios E9-1-1 puede terminar en un grupo de servidor de mediación existente o requiere servidores de mediación independiente depende de si la SBC E9-1-1 puede interactuar con un grupo de servidores de mediación. Para obtener información detallada, vea [tronco m: n en Skype para Business Server 2015](m-n-trunk.md).
+Si el tronco SIP a un proveedor de servicios E9-1-1 puede terminar en un grupo de servidor de mediación existente o requiere servidores de mediación independiente depende de si la SBC E9-1-1 puede interactuar con un grupo de servidores de mediación. Para obtener información detallada, vea [tronco m: n en Skype para Business Server](m-n-trunk.md).
   
 ## <a name="media-bypass-and-mediation-server"></a>Omisión de medios y servidor de mediación
 
@@ -117,13 +117,13 @@ Puede usar Microsoft Lync Server 2013, herramienta de planeación para evaluar s
   
 En la siguiente figura se muestra una topología sencilla que consta de dos sitios conectados a través de un vínculo WAN. Servidor de mediación se combina en un grupo de servidores Front-End en el sitio 1. Los servidores de mediación en el sitio 1 controla la puerta de enlace RTC en el sitio 1 y la puerta de enlace en el sitio 2. En esta topología, la omisión de medios se habilita de forma global para usar la información del sitio y de la región, y los troncos a cada una de las puertas de enlace RTC (GW1 y GW2) tienen la omisión habilitada.
   
-**Ejemplo de sitios conectados mediante una red WAN vínculo con un servidor de mediación en el sitio 1 y una puerta de enlace RTC en el sitio 2**
+**Ejemplo de sitios conectados por medio de un vínculo WAN con un servidor de mediación en el Sitio 1 y una puerta de enlace RTC en el Sitio 2**
 
 ![Puerta de enlace de WAN de topología de voz con servidor de mediación](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanGwy.jpg)
   
 En la siguiente figura muestra una topología simple donde el servidor de mediación se combina en grupo de servidores Front-End en el sitio 1 y tiene una conexión SIP directa a la IP-PBX en el sitio 1. En esta figura, el servidor de mediación también controla una puerta de enlace RTC en el sitio 2. Se supone que existen Skype para usuarios profesionales en los sitios 1 y 2. También se supone que el IP-PBX tiene un procesador de medios asociados que se debe recorrer por todos los medios que se originan de Skype para los extremos de negocio antes de que se está enviando a los extremos de medios controlados por el IP-PBX. En esta topología, la omisión de medios se habilita de forma global para usar la información del sitio y de la región, y los troncos a la puerta de enlace RTC y la PBX tienen la omisión de medios habilitada.
   
-**Ejemplo de sitios conectados mediante una red WAN vínculo con un servidor de mediación en el sitio 1 y un sistema PBX en el sitio 2**
+**Ejemplo de sitios conectados mediante un vínculo WAN con un servidor de mediación en el Sitio 1 y un sistema PBX en el Sitio 2**
 
 ![PBX de WAN del servidor de mediación de topología de voz](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanPbx.jpg)
   
@@ -160,7 +160,7 @@ Puede usar Microsoft Lync Server 2013, herramienta de planeación para evaluar s
 > [!NOTE]
 > La omisión de medios no interactuará con todas las puertas de enlace RTC, los sistemas IP-PBX y las SBC. Microsoft ha probado una serie de puertas de enlace RTC y SBC con socios certificados y ha realizado algunas pruebas con los IP-PBX de Cisco. Desvío de medios es compatible solo con productos y versiones que aparece al [Unified Communications Open Interoperability Program - Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=268730). 
   
-Si se requiere la resistencia de la sucursal, una aplicación de sucursal con funciones de supervivencia o una combinación de un servidor Front-End, un servidor de mediación y una puerta de enlace debe estar implementado en el sitio de sucursal. (La suposición de resistencia de la sucursal es que presencia y conferencia no son resistentes en el sitio). Para obtener orientación sobre planeación de voz de sitio de sucursal, consulte [Plan para la resistencia de Enterprise Voice en Skype para Business Server 2015](enterprise-voice-resiliency.md).
+Si se requiere la resistencia de la sucursal, una aplicación de sucursal con funciones de supervivencia o una combinación de un servidor Front-End, un servidor de mediación y una puerta de enlace debe estar implementado en el sitio de sucursal. (La suposición de resistencia de la sucursal es que presencia y conferencia no son resistentes en el sitio). Para obtener orientación sobre planeación de voz de sitio de sucursal, consulte [Plan para la resistencia de Enterprise Voice en Skype para Business Server](enterprise-voice-resiliency.md).
   
 Para las interacciones con un IP-PBX, si el IP-PBX no admite correctamente anticipado interacciones de medios con varios diálogos iniciales y las interacciones de RFC 3960, puede haber algunas palabras del saludo para las llamadas entrantes de la IP-PBX a Skype para el recorte de la primera Extremos de negocio. Este problema puede ser más grave si un servidor de mediación en un sitio central es enrutamiento de llamadas para un sistema IP-PBX donde finaliza la ruta en un sitio de sucursal, ya que se necesita más tiempo para señalización para llevar a cabo. Si experimenta este comportamiento, la implementación de un servidor de mediación en el sitio de sucursal es la única forma para reducir el recorte de la primera primeras palabras.
   

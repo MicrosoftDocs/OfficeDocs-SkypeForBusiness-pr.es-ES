@@ -1,9 +1,8 @@
 ---
-title: Crear directivas entre sitios de red en Skype Empresarial Server 2015
+title: Crear directivas entre sitios de red en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: Crear directivas entre sitios, que se usan por el control de admisión de llamadas de Enterprise Voice en Skype para Business Server de red.
-ms.openlocfilehash: 6dc1469950bfac46110953c0e354cd50f4f89688
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 49405bbaa1d761f1acc10c7506e44992cc03a153
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500722"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988525"
 ---
-# <a name="create-network-intersite-policies-in-skype-for-business-server-2015"></a>Crear directivas entre sitios de red en Skype Empresarial Server 2015
+# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Crear directivas entre sitios de red en Skype para Business Server
  
 Crear directivas entre sitios, que se usan por el control de admisión de llamadas de Enterprise Voice en Skype para Business Server de red. 
   
-Una directiva entre sitios de red define las limitaciones de ancho de banda entre sitios que tienen vínculos WAN entre ellas.
+Una directiva entre sitios de red define las limitaciones de ancho de banda entre sitios que tienen vínculos WAN entre ellos.
   
 > [!IMPORTANT]
 > Una directiva entre sitios de red es necesario *sólo* si hay un vínculo cruzado directo entre dos sitios de red.

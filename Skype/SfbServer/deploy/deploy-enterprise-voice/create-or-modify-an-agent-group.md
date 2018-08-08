@@ -1,9 +1,8 @@
 ---
-title: Crear o modificar un grupo de agentes en Skype Empresarial 2015
+title: Crear o modificar un grupo de agentes en Skype para la empresa
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Crear o modificar un grupo de agentes en el grupo de respuesta, en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 5555272fdcaa7b9a3576dc2b943eaeda064e3bb5
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: a6b57eca83c230c86e041eb6727d5b3696b689d1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568348"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018952"
 ---
-# <a name="create-or-modify-an-agent-group-in-skype-for-business-2015"></a>Crear o modificar un grupo de agentes en Skype Empresarial 2015
+# <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Crear o modificar un grupo de agentes en Skype para la empresa
  
 Crear o modificar un grupo de agentes en el grupo de respuesta, en Skype para Business Server Enterprise Voice.
   
@@ -29,7 +28,7 @@ Cuando se crea un grupo de agentes, se seleccionan los agentes que se asignan al
   
 Un agente que debe conectarse y desconectarse del grupo, que es distinto de firma en o fuera de Skype para la empresa, se llama a un agente formal. Los agentes formales deben iniciar sesión en el grupo para poder recibir llamadas enrutadas al grupo. Esto puede resultar útil para los agentes que atienden llamadas del grupo a media jornada. Los agentes formales conectarse y desconectarse de sus grupos haciendo clic en un elemento de menú en Skype para la empresa abrir el Explorador de Internet Windows Internet Explorer y mostrar una consola de página Web.
   
-Un agente que no inicia sesión en o fuera del grupo se denomina a un agente informal. Agentes informales se conectan automáticamente el grupo cuando inician sesión en Skype para la empresa, y no se pueden cerrar sesión en el grupo.
+Un agente que no inicia ni cierra sesión en el grupo recibe el nombre de  agente informal. Agentes informales se conectan automáticamente el grupo cuando inician sesión en Skype para la empresa, y no se pueden cerrar sesión en el grupo.
   
 Solo los usuarios locales pueden ser agentes. Si un agente se mueve de local a en línea, las llamadas de grupo de respuesta no se enrutarán a ese agente.
   

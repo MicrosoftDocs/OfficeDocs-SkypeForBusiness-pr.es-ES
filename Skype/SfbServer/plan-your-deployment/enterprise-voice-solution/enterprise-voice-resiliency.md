@@ -1,9 +1,8 @@
 ---
-title: Planificar la resistencia de la Telefonía IP en Skype Empresarial Server 2015
+title: Plan para la resistencia de Enterprise Voice en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Obtenga información sobre cómo admitir la resistencia de voz en Skype para Business Server Enterprise Voice, en sitios centrales y sitios de sucursal. Opciones de sitio de sucursal incluyen implementar aplicaciones de sucursal con funciones de supervivencia o servidores de sucursal con funciones de supervivencia.
-ms.openlocfilehash: f5497c31e407d5d03564ab7caf7a0b8c8d4e0914
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: fb3dadfc1dcb38508ec696e1f0c257638f6ec5a7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966653"
 ---
-# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server-2015"></a>Planificar la resistencia de la Telefonía IP en Skype Empresarial Server 2015
+# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Plan para la resistencia de Enterprise Voice en Skype para Business Server
  
 Obtenga información sobre cómo admitir la resistencia de voz en Skype para Business Server Enterprise Voice, en sitios centrales y sitios de sucursal. Opciones de sitio de sucursal incluyen implementar aplicaciones de sucursal con funciones de supervivencia o servidores de sucursal con funciones de supervivencia.
   
@@ -284,7 +284,7 @@ Para ayudar a garantizar que las llamadas entrantes a los usuarios del sitio de 
 > [!NOTE]
 > Para tener en cuenta para el consumo de recursos del sitio central por los usuarios de sitio de sucursal que se basan en el sitio central de presencia, conferencias o conmutación por error, se recomienda que tenga en cuenta de cada usuario del sitio de sucursal como si el usuario se ha registrado en el sitio central. Actualmente no hay ningún límite en el número de usuarios del sitio de sucursal, incluidos los usuarios registrados con una aplicación de sucursal con funciones de supervivencia. 
   
-También se recomienda que cree una directiva de voz y el plan de marcado de nivel de usuario y, a continuación, se asigna a los usuarios del sitio de sucursal. Para obtener información detallada, vea [crear o modificar un plan de marcado de Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md) y [crear la directiva de enrutamiento VoIP para usuarios de sucursal](http://technet.microsoft.com/library/10deca9f-f870-4a42-b25d-e4fc53108658.aspx) en la documentación de implementación.
+También se recomienda que cree una directiva de voz y el plan de marcado de nivel de usuario y, a continuación, se asigna a los usuarios del sitio de sucursal. Para obtener información detallada, vea [crear o modificar un plan de marcado de Skype para Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md) y [crear la directiva de enrutamiento VoIP para usuarios de sucursal](http://technet.microsoft.com/library/10deca9f-f870-4a42-b25d-e4fc53108658.aspx) en la documentación de implementación.
   
 #### <a name="routing-extension-numbers"></a>Números de extensión de enrutamiento
 

@@ -1,9 +1,8 @@
 ---
-title: Ver información sobre troncos SIP individuales en Skype Empresarial Server 2015
+title: Ver información sobre los troncos SIP individuales en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
-description: 'Resumen: Obtenga información sobre cómo ver información acerca de troncos SIP en Skype para Business Server 2015.'
-ms.openlocfilehash: fb9990ec4315ffd26f51adaee2414810a053a97f
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Obtenga información sobre cómo ver información acerca de troncos SIP en Skype para Business Server.'
+ms.openlocfilehash: 10f45def1727c083f89afcdba43fb9c1c4e7e45e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568245"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968701"
 ---
-# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server-2015"></a>Ver información sobre troncos SIP individuales en Skype Empresarial Server 2015
+# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Ver información sobre los troncos SIP individuales en Skype para Business Server
  
-**Resumen:** Obtenga información sobre cómo ver información acerca de troncos SIP en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo ver información acerca de troncos SIP en Skype para Business Server.
   
 Troncos SIP se utilizan para conectar Skype para Business Server voz a través de la red de teléfono IP con la red telefónica pública conmutada (RTC). En la versión anterior del producto, los enlaces troncales se usaban para enrutar las llamadas salientes de un servidor de mediación a una puerta de enlace RTC, y cada puerta de enlace estaba limitada a un único enlace troncal. Como resultado, la puerta de enlace RTC y el enlace troncal SIP eran básicamente idénticos. Para los administradores, eso significaba que podían ver información sobre un enlace troncal SIP individual al ver información sobre la puerta de enlace RTC asociada.
   

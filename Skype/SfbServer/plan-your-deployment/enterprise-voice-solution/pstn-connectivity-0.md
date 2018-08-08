@@ -1,9 +1,8 @@
 ---
-title: Planificar la conectividad con RTC en Skype Empresarial Server 2015
+title: Plan para la conectividad de RTC en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
 description: Plan para la conectividad de RTC en Enterprise Voice en Skype para Business Server.
-ms.openlocfilehash: 228391049988c2eb886c0cb4e7caccce6f55ff3b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ed8b4d29dd6d2fdfc3592fba4236f4a99b9ee05d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003874"
 ---
-# <a name="plan-for-pstn-connectivity-in-skype-for-business-server-2015"></a>Planificar la conectividad con RTC en Skype Empresarial Server 2015
+# <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>Plan para la conectividad de RTC en Skype para Business Server
  
 Plan para la conectividad de RTC en Enterprise Voice en Skype para Business Server.
   
@@ -38,14 +38,14 @@ Según cuál sea el tamaño, la cobertura geográfica y la infraestructura de vo
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Enlace troncal SIP en Skype para Business Server 2015](sip-trunking.md)
+- [Enlace troncal SIP en Skype para Business Server](sip-trunking.md)
     
-- [Conexiones SIP directas en Skype para Business Server 2015](direct-sip.md)
+- [Conexiones SIP directas en Skype para Business Server](direct-sip.md)
     
-- [Tronco m: n en Skype para Business Server 2015](m-n-trunk.md)
+- [Tronco m: n en Skype para Business Server](m-n-trunk.md)
     
-- [Reglas de conversión de Skype para Business Server 2015](translation-rules.md)
+- [Reglas de conversión de Skype para Business Server](translation-rules.md)
     
-- [Plan para el enrutamiento de voz salientes en Skype para Business Server 2015](outbound-voice-routing.md)
+- [Plan para el enrutamiento de voz salientes en Skype para Business Server](outbound-voice-routing.md)
     
 
