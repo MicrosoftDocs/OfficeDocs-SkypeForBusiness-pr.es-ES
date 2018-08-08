@@ -16,16 +16,16 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Puede habilitar la Skype para usuarios profesionales utilizar el Skype integrada para la herramienta de comentarios de aplicación empresarial para permitir que los usuarios notificar problemas y proporcionar comentarios directamente a Microsoft acerca de su experiencia.
-ms.openlocfilehash: 9e995a61337a8393b869161e143d76f1df5454ae
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 09ddaa9952ab5d536c6a95937ca71c4c056a15e0
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568357"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22135544"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Activar o desactivar los informes de comentarios de clientes de Skype Empresarial
 
-Puede habilitar la Skype para usuarios profesionales utilizar el Skype integrada para la herramienta de comentarios de aplicación empresarial para permitir que los usuarios notificar problemas y proporcionar comentarios directamente a Microsoft acerca de su experiencia. 
+Puede habilitar la Skype para los usuarios empresariales en línea usar la Skype integrada para la herramienta de comentarios de aplicación empresarial para permitir que los usuarios notificar problemas y proporcionar comentarios directamente a Microsoft acerca de su experiencia. 
   
 ![Skype for Business client reporting.](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
   

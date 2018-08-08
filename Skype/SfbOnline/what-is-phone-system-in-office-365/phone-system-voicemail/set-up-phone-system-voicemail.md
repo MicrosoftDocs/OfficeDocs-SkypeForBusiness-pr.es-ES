@@ -1,5 +1,5 @@
 ---
-title: Configurar el correo de voz del sistema de teléfono
+title: Configurar el correo de voz de Sistema telefónico
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up the phone system (Cloud PBX) voicemail for your Skype for Business users. '
-ms.openlocfilehash: 93dd33eefe587c548e346974cc86fe2608b392ec
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f5dcf6012dc9ac6659d35c29a31ee6a5ff40eec2
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22135534"
 ---
-# <a name="set-up-phone-system-voicemail"></a>Configurar el correo de voz del sistema de teléfono
+# <a name="set-up-phone-system-voicemail"></a>Configurar el correo de voz de Sistema telefónico
 
 En este artículo es para la [administración de Office 365](http://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) que desea configurar la característica de correo de voz de sistema telefónico para todos los usuarios en la empresa.
   
@@ -80,7 +81,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 
 ### <a name="turning-on-transcription-profanity-masking-for-your-organization"></a>La activación de enmascaramiento de contenido ofensivo transcripción para su organización
 
-Enmascaramiento de contenido ofensivo transcripción está deshabilitada de forma predeterminada para la organización. Si no hay un requisitos empresariales para habilitarlo, puede habilitar contenido ofensivo de transcripción de transparencias mediante el uso de [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx). Para ello, ejecute:
+Enmascaramiento de contenido ofensivo transcripción está deshabilitada de forma predeterminada para la organización. Si hay un requisito de negocio para habilitarlo, puede habilitar contenido ofensivo de transcripción de transparencias mediante el uso de [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx). Para ello, ejecute:
   
 ```
 Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
@@ -98,7 +99,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:am
 
 ### <a name="turning-on-transcription-profanity-masking-for-a-user"></a>La activación de enmascaramiento de contenido ofensivo transcripción para un usuario
 
-Para habilitar el enmascaramiento de contenido ofensivo transcripción para un usuario específico, puede asignar una directiva para habilitar el enmascaramiento de contenido ofensivo transcripción para un usuario específico mediante el cmdlet [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798309.aspx) .
+Para habilitar contenido ofensivo de transcripción de transparencias para un usuario específico, puede asignar una directiva para habilitar el contenido ofensivo de transcripción de transparencias para un usuario específico mediante el cmdlet [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798309.aspx) .
   
 Para habilitar contenido ofensivo de transcripción de transparencias para un único usuario, ejecute:
   

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Configuración de OAuth autenticación entre Exchange local y Skype para profesionales en línea permite la Skype para características empresariales y de integración de Exchange que se describen en compatibilidad con la característica.
-ms.openlocfilehash: ff7b45f3fcdbaaf752817d1705acb047a4c71f12
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: cb822dd183e913fd1b3258cc136572380592733f
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568904"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22138612"
 ---
 # <a name="configure-oauth-between-skype-for-business-online-and-exchange-on-premises"></a>Configurar OAuth entre Skype Empresarial Online y Exchange local
  
@@ -167,4 +167,8 @@ Compruebe que la configuración de OAuth es correcta verificando que algunas car
     
 4. Inicie la sesión de Outlook de este usuario y compruebe que la conversación está visible en la carpeta Historial de conversación de Outlook.
     
+Como alternativa, examine el tráfico. El tráfico en un protocolo de enlace de OAuth es realmente distintivo (y no el aspecto de la autenticación básica), especialmente alrededor de dominios, donde podrá comenzar a ver el tráfico de emisor que tiene este aspecto: 00000004-0000-0ff1-ce00-000000000000 @ (a veces con una / antes de el signo @), en los tokens que se pasan. No podrá ver un nombre de usuario o contraseña, que es el punto de OAuth. Pero se verá al emisor 'Office': en este caso '4' es Skype para empresas – y el dominio Kerberos de su suscripción.
 
+Si desea estar seguro de que ya está utilizando OAuth, asegúrese de que saber qué esperar y saber lo que el tráfico debe ser similar. Es así [aquí es qué esperar](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34), aquí es bastante estándar de [ejemplo de tráfico de OAuth en una aplicación de Microsoft](http://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf) (realmente útil para leer, aunque no utilice tokens de actualización) y hay extensiones de Fiddler que le permiten buscar en su OAuth JWT (JSON Token de Web). 
+
+Este es un [ejemplo de configuración de una copia de seguridad](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/), pero se puede usar cualquier herramienta de seguimiento de red que desee para llevar a cabo este proceso.

@@ -12,14 +12,17 @@ localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los números sin asignar son números de teléfono válidos en la organización, pero que no se han asignado a un usuario o teléfono. En la tabla de números sin asignar se identifica cómo desea que se traten las llamadas a números sin asignar.
-ms.openlocfilehash: 71b6fa44d088bb73a1253555d1e5c9601d889767
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 082c7e5ebccec1c2f74304bc5117ed99ef9b0da1
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21005171"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22138433"
 ---
 # <a name="unassigned-phone-number"></a>Número de teléfono sin asignar
+
+> [!NOTE]
+> Mensajería unificada de Exchange sigue estando disponible en Skype para Business Server 2019 al integrar Skype para la empresa 2019 con Exchange 2013 o 2016 de Exchange. Debido a los cambios en la compatibilidad en Exchange 2019, integración de mensajería unificada de Exchange se está desaprovisionamiento emphasised en favor de las características de correo de voz en la nube y operador automático de la nube.  
  
 Los números sin asignar son números de teléfono válidos en la organización, pero que no se han asignado a un usuario o teléfono. En la tabla de números sin asignar se identifica cómo desea que se traten las llamadas a números sin asignar.
   

@@ -12,16 +12,16 @@ localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Después de proporcionar la información necesaria para la implementación del servidor de supervisión informa a Microsoft SQL Server 2008 R2 o para servicios de informe de Microsoft SQL Server 2012, la página ejecutar comandos muestra un resumen de los comandos que se emiten para instalar el informes de SQL Server Reporting Services.
-ms.openlocfilehash: 25c47787144809397db51a5ac477e8db446788d1
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4d2eff38570e24a063558fe62c8db7c89bc03cf3
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21014148"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22138568"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services (invocar)
  
-Después de proporcionar la información necesaria para la implementación del servidor de supervisión informa a Microsoft SQL Server 2008 R2 o para servicios de informe de Microsoft SQL Server 2012, la página ejecutar comandos muestra un resumen de los comandos que se emiten para instalar el informes de SQL Server Reporting Services.
+Después de proporcionar la información necesaria para la implementación de los informes del servidor de supervisión a los servicios de informe de Microsoft SQL Server, los comandos de ejecución de la página muestra un resumen de los comandos que se emiten para instalar los informes en SQL Server Reporting Servicios.
   
 Examine el resumen de los comandos y tenga en cuenta los mensajes de error o advertencia que se muestran. Si se genera un archivo de registro, selecciónelo en la lista desplegable de la ventana de resumen; a continuación, haga clic en **Ver registro** para ver en pantalla el archivo de registro.
   
