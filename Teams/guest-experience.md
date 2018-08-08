@@ -1,5 +1,5 @@
 ---
-title: "Cómo es la experiencia de invitado"
+title: Cómo es la experiencia de invitado
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
@@ -7,15 +7,17 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
-description: "Obtenga más información sobre la funcionalidad de Microsoft Teams que está disponible para los usuarios invitados."
+description: Obtenga más información sobre la funcionalidad de Microsoft Teams que está disponible para los usuarios invitados.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 500d8b0aa1ed8f006fdbab2d67771c2d65ebaa53
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 9d30b7b554b07ccc29233210419f2a3129349a1e
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "19178885"
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 =================================
@@ -59,6 +61,8 @@ En la siguiente tabla se compara la funcionalidad de Microsoft Teams que está d
 |Compartir un archivo del canal  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
 |Compartir un archivo del chat  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Agregar aplicaciones (fichas, bots o conectores)  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Crear reuniones u obtener acceso a las programaciones  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Acceso OneDrive para el almacenamiento de negocio  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Crear directivas de acceso de invitados a equipos y canales para todos los inquilinos  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Invitar a un usuario que no pertenece al dominio de inquilino de Office 365 <br/>  *Los propietarios del equipo controlan este parámetro.*  <br/> <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Crear un equipo  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||

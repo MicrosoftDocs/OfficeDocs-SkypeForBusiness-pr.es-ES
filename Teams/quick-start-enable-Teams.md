@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, tonysmit
 description: Use esta guía como ayuda para planificar, implementar y adoptar Microsoft Teams en su organización.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce2ac8ff38f5f051a3e288efede53efa4dc0c6e5
-ms.sourcegitcommit: 70fc5217f588e10ab0edb400f329ea597efaab52
+ms.openlocfilehash: 28f286a04bf52e3d4cb4fd7ad48278843b5ed134
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "19001826"
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>Inicio rápido: Guía de planificación de Microsoft Teams
 ==========================================================
@@ -44,7 +46,7 @@ Vea este breve vídeo con sencillas instrucciones que se deben tener en cuenta a
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
-Si Teams de Microsoft no está habilitado en el inquilino de Office 365 y un Office 365 administrador siga las instrucciones en nuestro artículo [Administrar acceso de usuario a los equipos](user-access.md) para garantizar a los usuarios tengan acceso a la aplicación.
+Si Microsoft Teams no está habilitado en el inquilino de Office 365 y son un Office 365 administrador seguir las instrucciones que aparecen en nuestro artículo [administrar el acceso de usuarios a los equipos](user-access.md) para asegurarse de los usuarios tienen acceso a la aplicación.
 
 ## <a name="step-3-complete-technical-planning"></a>Paso 3: complete la planificación técnica
 

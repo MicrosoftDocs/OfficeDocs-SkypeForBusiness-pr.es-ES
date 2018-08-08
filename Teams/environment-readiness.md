@@ -1,26 +1,30 @@
 ---
-title: "Comprobación de la preparación del entorno para Microsoft Teams"
+title: Comprobación de la preparación del entorno para Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 5/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dansteve
-description: "Sepa lo que debe buscar cuando compruebe si el entorno está preparado para Microsoft Teams."
+description: Sepa lo que debe buscar cuando compruebe si el entorno está preparado para Microsoft Teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c94d6729f27a2f172b736805aae98d02f865c9b1
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 1121256cef2a719b9f6fccebac9a88fe9f5bea25
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "19136348"
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>Comprobación de la preparación del entorno para Microsoft Teams
 ===========================================
 
 La transición a la nube será diferente para cada organización y su estado actual podría influir en el futuro funcionamiento de Teams.
+
+Se recomienda encarecidamente [implementar la sincronización de datos de School](https://docs.microsoft.com/en-us/schooldatasync/) instituciones educativas antes de implementar Microsoft Teams. Sincronización de datos de escuela utiliza datos de lista de participantes de su escuela SIS para crear automáticamente las clases y los grupos para Microsoft Teams y otras aplicaciones.
 
 Para lograr una experiencia óptima con Teams, la organización debe implementar antes Exchange Online y SharePoint Online. Si no ha implementado estos servicios, o si tiene una configuración diferente, vea la información de estos vínculos para obtener ayuda:
 
@@ -33,5 +37,7 @@ Para lograr una experiencia óptima con Teams, la organización debe implementar
 -   Si su organización no tiene Exchange Online, vea [Interacción entre Exchange y Microsoft Teams](Exchange-Teams-interact.md).
 
 -   Si su organización no tiene SharePoint Online, vea [Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams](SharePoint-OneDrive-interact.md).
+
+- Si la organización es una institución de enseñanza y usar un sistema de información de estudiantes (SIS), que [implementar la sincronización de datos de escuela](https://docs.microsoft.com/en-us/schooldatasync/) antes de implementar Microsoft Teams.
 
                                                                                
