@@ -12,25 +12,14 @@ localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Configurar configuración de base de datos reflejada defina lo siguiente:'
-ms.openlocfilehash: 878df89da759de661729d1e248722cbe8e755085
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 6dedf85e90791062d97e5030f0521fe648dc48c8
+ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21064038"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22196053"
 ---
 # <a name="install-mirror-database-option-page"></a>Instalar página de opción de base de datos de reflejo
  
-Configurar **Configuración de base de datos reflejada** defina lo siguiente:
-  
-- Escriba la **ruta de acceso al archivo compartir** para definir la ubicación para los archivos de SQL Server de copia de seguridad de la base de datos que se está reflejando.
-    
-    > [!NOTE]
-    > La instancia principal de SQL Server (instancia predeterminada o una instancia con nombre) debe tener permisos de escritura para el recurso compartido de archivos que defina aquí. La instancia de SQL Server (instancia predeterminada o una instancia con nombre) reflejado debe tener permisos para el mismo recurso compartido de archivos de lectura. 
-  
- **Aceptar** Se aceptan y confirman los cambios en el cuadro de diálogo.
-  
- **Cancelar** Se descartan los cambios y se cierra el cuadro de diálogo.
-  
- **Ayuda** Abre esta pantalla de ayuda.
-  
+> [!NOTE]
+> La creación de reflejos de SQL está disponible en Skype para Business Server 2015, pero ya no se admite en Skype para Business Server 2019. Los métodos de agrupación en clústeres de conmutación por error de grupos de disponibilidad AlwaysOn, instancias de clúster de conmutación por error (FCI) AlwaysOn y SQL son preferidos con Skype para Business Server 2019.

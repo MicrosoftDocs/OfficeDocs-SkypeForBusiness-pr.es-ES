@@ -1,5 +1,5 @@
 ---
-title: Directivas de restricción de llamada saliente para las llamadas de RTC de conferencias de Audio y usuario
+title: Políticas de restricción de llamadas salientes para Audioconferencia y las llamadas RTC de usuario
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,20 +10,22 @@ ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Los administradores pueden controlar el tipo de audioconferencias llamadas de RTC de conferencia y el usuario final que pueden realizar los usuarios.
-ms.openlocfilehash: 0533a15d6c60720f37c859f110b30af617d95774
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: 473baddce6ddac5fa523f02477cd89f6a2c4f4a2
+ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703428"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22193017"
 ---
-# <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Directivas de restricción de llamada saliente para las llamadas de RTC de conferencias de Audio y usuario
+# <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restricción de llamadas salientes para Audioconferencia y las llamadas RTC de usuario
 
 Como administrador, puede usar los controles de llamada saliente para restringir el tipo de audioconferencias llamadas de RTC de conferencia y el usuario final que pueden realizar los usuarios de la organización. 
 

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dispone de las siguientes secciones para editar la configuración de un servidor perimetral o un grupo de servidores perimetrales existente:'
-ms.openlocfilehash: 4c93ec4ab23c60ddbad96c20d9ae717f0418ba0c
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 158f0970067b94eb4c8660342da949802d57ae6f
+ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061752"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22196035"
 ---
 # <a name="edge-settings-expander"></a>Expansor de configuración perimetral
  
@@ -34,9 +34,7 @@ Dispone de las siguientes secciones para editar la configuración de un servidor
 
 Nombre de dominio completo (FQDN) de grupo interno del grupo de servidores perimetrales. Edite el FQDN del grupo de servidores para cambiar este parámetro.
   
-Seleccione la casilla de verificación **Habilitar la federación para este grupo de servidores perimetrales (puerto 5061)** si va a configurar la federación con un socio de confianza Lync Server 2013, Microsoft Lync Server 2010 o Microsoft Office Communications Server 2007 R2.
-  
-Seleccione **Habilitar la federación XMPP para este grupo de servidores perimetrales** para habilitar la federación XMPP.
+Seleccione la casilla de verificación **Habilitar la federación para este grupo de servidores perimetrales (puerto 5061)** si va a configurar la federación con un Skype para server Business Server 2015.
   
 Indique el número de puerto del **Puerto interno de replicación de configuración (HTTPS)**.
   
