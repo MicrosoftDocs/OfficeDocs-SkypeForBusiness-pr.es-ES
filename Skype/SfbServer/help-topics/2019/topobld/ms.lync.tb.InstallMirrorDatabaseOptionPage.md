@@ -12,25 +12,14 @@ localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Configurar configuración de base de datos reflejada defina lo siguiente:'
-ms.openlocfilehash: 878df89da759de661729d1e248722cbe8e755085
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 6dedf85e90791062d97e5030f0521fe648dc48c8
+ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21064038"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22196053"
 ---
-# <a name="install-mirror-database-option-page"></a><span data-ttu-id="bae5b-103">Instalar página de opción de base de datos de reflejo</span><span class="sxs-lookup"><span data-stu-id="bae5b-103">Install Mirror Database Option Page</span></span>
+# <a name="install-mirror-database-option-page"></a><span data-ttu-id="269e4-103">Instalar página de opción de base de datos de reflejo</span><span class="sxs-lookup"><span data-stu-id="269e4-103">Install Mirror Database Option Page</span></span>
  
-<span data-ttu-id="bae5b-104">Configurar **Configuración de base de datos reflejada** defina lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="bae5b-104">You configure **Mirror Database Settings** by defining the following:</span></span>
-  
-- <span data-ttu-id="bae5b-105">Escriba la **ruta de acceso al archivo compartir** para definir la ubicación para los archivos de SQL Server de copia de seguridad de la base de datos que se está reflejando.</span><span class="sxs-lookup"><span data-stu-id="bae5b-105">Type the **Path to file share** to define the location for the backup SQL Server files for the database being mirrored.</span></span>
-    
-    > [!NOTE]
-    > <span data-ttu-id="bae5b-106">La instancia principal de SQL Server (instancia predeterminada o una instancia con nombre) debe tener permisos de escritura para el recurso compartido de archivos que defina aquí.</span><span class="sxs-lookup"><span data-stu-id="bae5b-106">The primary SQL Server instance (either named instance or default instance) must have write permissions to the file share you define here.</span></span> <span data-ttu-id="bae5b-107">La instancia de SQL Server (instancia predeterminada o una instancia con nombre) reflejado debe tener permisos para el mismo recurso compartido de archivos de lectura.</span><span class="sxs-lookup"><span data-stu-id="bae5b-107">The mirror SQL Server instance (either named instance or default instance) must have read permissions to the same file share.</span></span> 
-  
- <span data-ttu-id="bae5b-108">**Aceptar** Se aceptan y confirman los cambios en el cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="bae5b-108">**OK** Accepts and commits changes to the dialog.</span></span>
-  
- <span data-ttu-id="bae5b-109">**Cancelar** Se descartan los cambios y se cierra el cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="bae5b-109">**Cancel** Discards changes and closes the dialog.</span></span>
-  
- <span data-ttu-id="bae5b-110">**Ayuda** Abre esta pantalla de ayuda.</span><span class="sxs-lookup"><span data-stu-id="bae5b-110">**Help** Displays this help screen.</span></span>
-  
+> [!NOTE]
+> <span data-ttu-id="269e4-104">La creación de reflejos de SQL está disponible en Skype para Business Server 2015, pero ya no se admite en Skype para Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="269e4-104">SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="269e4-105">Los métodos de agrupación en clústeres de conmutación por error de grupos de disponibilidad AlwaysOn, instancias de clúster de conmutación por error (FCI) AlwaysOn y SQL son preferidos con Skype para Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="269e4-105">The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.</span></span>
