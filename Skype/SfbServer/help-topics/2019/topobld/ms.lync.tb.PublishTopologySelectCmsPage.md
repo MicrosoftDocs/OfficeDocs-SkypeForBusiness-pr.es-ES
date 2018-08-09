@@ -12,18 +12,19 @@ localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 ROBOTS: NOINDEX, NOFOLLOW
 description: Publicar la topología que se ha configurado mediante el generador de topología. Le pedirá que seleccione en la lista que el grupo de servidores Front-End o de servidor Front-End asumirá la función de mantener el almacén de Administración Central. Un solo grupo de servidores Front-End o de servidor Front-End puede contener esta función en cualquier momento dado.
-ms.openlocfilehash: 1f815bd49cecf84ca92f653d39915014a3a510db
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 5f5c25982194246490232966d5c7da3a48759a57
+ms.sourcegitcommit: 16421e244f866e13600765a41cca509202815819
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082660"
+ms.lasthandoff: 08/09/2018
+ms.locfileid: "22290283"
 ---
 # <a name="publish-topology-select-cms-page"></a>Publicar página CMS de selección de topología
  
 Publicar la topología que se ha configurado mediante el generador de topología. Le pedirá que seleccione en la lista que el grupo de servidores Front-End o de servidor Front-End asumirá la función de mantener el almacén de Administración Central. Un solo grupo de servidores Front-End o de servidor Front-End puede contener esta función en cualquier momento dado. 
   
-Para obtener más información sobre qué almacén de Administración Central es, consulte [mover el servidor de Administración Central de Lync Server 2010 a Lync Server 2013](http://technet.microsoft.com/library/30cc98f2-1916-4dbe-99d0-8df5368ed3ec.aspx).
+### <a name="about-the-central-management-server"></a>Acerca del servidor de Administración Central
+El servidor de Administración Central es un sistema de única réplica maestro o varios, donde se mantiene la copia de lectura y escritura de la base de datos por el servidor Front-End que contiene el servidor de Administración Central. Cada equipo en la topología, incluido el servidor Front-End que contiene el servidor de Administración Central, tiene una copia de solo lectura de los datos del almacén de Administración Central en la base de datos de SQL (denominado RTCLOCAL de forma predeterminada) instalado en el equipo durante el programa de instalación y implementación. La base de datos local recibe actualizaciones de réplica mediante el agente de Replicador de Lync Server réplica que se ejecuta como un servicio en todos los equipos. El nombre de la base de datos real en el servidor de Administración Central y la réplica local es XDS, que se compone de los archivos xds.mdf y xds.ldf. Un punto de control de servicio (SCP) en servicios de dominio de Active Directory al que hace referencia la ubicación de la base de datos maestra. Todas las herramientas que use el servidor de Administración Central para administrar y configurar Lync Server usa la SCP para encontrar el almacén de Administración Central.
   
 ## <a name="see-also"></a>Vea también
 
