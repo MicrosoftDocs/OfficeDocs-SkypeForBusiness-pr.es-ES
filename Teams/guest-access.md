@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
 description: Con el acceso de invitado en Microsoft Teams, los equipos de su organización pueden colaborar con personas que no pertenecen a la organización al concederles acceso a equipos y canales.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ac614aa35e3aa453a7522559e6fda8045404ae9
-ms.sourcegitcommit: 70fc5217f588e10ab0edb400f329ea597efaab52
+ms.openlocfilehash: 405f0138cfb368d70aec9195c493e8da604177d4
+ms.sourcegitcommit: c18710a46018fe4c1d0ceb99710f18bbc25aad54
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 08/10/2018
+ms.locfileid: "19179000"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acceso de invitado a Microsoft Teams
 ======================================
@@ -29,19 +31,20 @@ El acceso de invitado es una nueva opción de Microsoft Teams. Se trata de la un
 
 Con el acceso de invitado en Microsoft Teams, los equipos de su organización pueden colaborar con personas que no pertenecen a la organización al concederles acceso a equipos y canales. 
 
-Cualquier persona con una cuenta de correo electrónico empresariales o de clientes, como Outlook, Gmail u otros, puede participar como invitado en los equipos con acceso completo al equipo charlas, reuniones y archivos.
+Cualquier usuario con una cuenta de correo electrónico empresariales o de clientes, como Outlook, Gmail u otras personas, puede participar como invitado en los equipos con acceso total al equipo chats, reuniones y archivos.
 
 El acceso de invitado se incluye con todas las suscripciones de Office 365 Empresa Premium, Office 365 Enterprise y Office 365 Educación. No se necesita ninguna otra licencia de Office 365. El acceso de invitado es una configuración a nivel de inquilino de Microsoft Teams y se encuentra desactivada de forma predeterminada.
 
 
 
-Un invitado es un usuario que no es empleado, estudiante ni es un miembro de su organización. Tampoco tiene una cuenta profesional o educativa con su organización. Por ejemplo, los invitados pueden incluir socios, proveedores o consultores. Cualquier persona puede agregarse como invitado en Microsoft Teams. Esto significa que cualquiera que tenga un negocio (con una cuenta de Azure Active Directory) o la cuenta de correo electrónico de consumidor (con Outlook.com, Gmail.com u otros) puede participar como invitado en los equipos con acceso completo a los archivos, reuniones y charlas de equipos.
-Todos los invitados en equipos están cubiertos por la misma conformidad y auditoría de protección que el resto de Office 365 y pueden administrarse de forma segura dentro de Azure AD.
+Un invitado es un usuario que no es empleado, estudiante ni es un miembro de su organización. Tampoco tiene una cuenta profesional o educativa con su organización. Por ejemplo, los invitados pueden incluir socios, proveedores o consultores. Cualquier persona puede agregarse como invitado en Microsoft Teams. Esto significa que cualquier persona con una cuenta de correo electrónico de consumidor (con Outlook.com, Gmail.com u otras) o empresarial (con una cuenta de Azure Active Directory) puede participar como invitado en los equipos con acceso completo a los equipos chats, reuniones y archivos.
+Todos los invitados en los equipos están cubiertos por la misma cumplimiento y la auditoría protección como el resto de Office 365 y se pueden administrar de forma segura dentro de Azure AD.
 
-  
+> [!NOTE]
+> Los usuarios de su organización con planes de suscripción de Office 365 independiente sólo, como Exchange Online Plan 2, no pueden ser invitados como invitado a su organización ya que estos usuarios pertenecen a la misma organización considera que los equipos. Para que estos usuarios usar los equipos, se deben asignar con las suscripciones Premium de negocio de Office 365, Office 365 Enterprise y Office 365 educación.  
       
 
-Las organizaciones que utilizan Microsoft Teams pueden proporcionar acceso externo a sus socios para que accedan a equipos, documentos en canales, recursos, chats y aplicaciones, sin perder por ello el control total de sus datos corporativos. Todos los invitados en equipos están cubiertos por la misma conformidad y auditoría protección que el resto de Office 365 y los invitados pueden administrarse de forma segura dentro de Active Directory de Azure.  
+Las organizaciones que utilizan Microsoft Teams pueden proporcionar acceso externo a sus socios para que accedan a equipos, documentos en canales, recursos, chats y aplicaciones, sin perder por ello el control total de sus datos corporativos. Todos los invitados en los equipos están cubiertos por la misma cumplimiento y la auditoría protección como el resto de Office 365 y los invitados pueden administrarse de forma segura dentro de Azure Active Directory.  
 
 Microsoft Teams se basa en Grupos de Office 365 y proporciona a los grupos de Office 365 una nueva manera de acceder a sus activos compartidos. Microsoft Teams es la mejor solución para los miembros de grupos y equipos que chatean constantemente. Grupos de Office 365 es un servicio que proporciona suscripciones entre aplicaciones para un conjunto de activos de grupo compartidos, como un sitio de SharePoint o un panel de Power BI. De esta manera, los equipos pueden colaborar de forma efectiva y segura.
 
