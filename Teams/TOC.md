@@ -190,6 +190,7 @@
 ### [Tutorial: Reuniones en Teams](Tutorial-Meetings-in-Teams.yml)
 ### [Llamar desde una reunión para que otras personas puedan unirse](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Deshabilitar a los números gratuitos para usuarios específicos](/SkypeForBusiness/audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Correos electrónicos que se envían a los usuarios cuando cambia la configuración](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) 
 ### [Permitir que los usuarios registren su nombre cuando se unan a una reunión](/SkypeForBusiness/audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Activar o desactivar los anuncios de entrada y salida para las reuniones](/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Grabación de la reunión de los equipos en la nube](cloud-recording.md)
