@@ -39,6 +39,7 @@
 ## [Administrar las características de los equipos en la organización](enable-features-office-365.md)
 ### [Administrar los equipos durante la transición a la nueva Microsoft Teams & Skype para el centro de administración de negocio](manage-teams-skypeforbusiness-admin-center.md)
 ### [Asignar roles y permisos en Microsoft Teams](assign-roles-permissions.md)
+### [Publicar aplicaciones en el catálogo de aplicaciones de los equipos inquilino](tenant-apps-catalog-teams.md)
 ## [Autenticación moderna](sign-in-teams.md)
 ## [Comunicarse con los usuarios de los equipos de otras organizaciones](let-your-teams-users-communicate-with-other-people.md)
 ## [Guía de implementación de voz en la nube](cloud-voice-deployment.md)
