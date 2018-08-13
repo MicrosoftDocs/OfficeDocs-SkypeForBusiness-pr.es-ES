@@ -3,19 +3,18 @@ title: Actualizaciones más recientes de las versiones de Skype Empresarial que 
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 07/16/2018
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: skype-for-business-itpro
 localization_priority: Priority
 ms.collection: IT_Skype16
 description: Proporciona a los profesionales de TI vínculos a la información más reciente acerca de las actualizaciones para las versiones perpetuas de los clientes de Skype Empresarial 2016, Skype Empresarial 2015 y Lync 2013.
-ms.openlocfilehash: 14e6574e25521fdcfd89e78b4f39469fc40bd922
-ms.sourcegitcommit: 2ce680aba13d1d781019b766a04e4e7d46d4f72c
+ms.openlocfilehash: 38784d3de178078b2a679b16ac69caa9d22c7474
+ms.sourcegitcommit: 973cb74fca3fe50fbd38f80f5975b6f3d17e0b68
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21139278"
+ms.lasthandoff: 08/03/2018
+ms.locfileid: "21822545"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Actualizaciones más recientes de las versiones de Skype Empresarial que usan Windows Installer (MSI)
 
@@ -24,6 +23,7 @@ Use los vínculos de esta página para obtener más información y descargar las
 > [!NOTE] 
 > - La información de este artículo solo se aplica a las versiones perpetuas de Skype Empresarial que usan la tecnología de instalación de Windows Installer (MSI). Por ejemplo, la instalación de una versión con licencias por volumen de Skype Empresarial, como la versión de Skype Empresarial incluida en Office Professional Plus 2016.
 > - La información de este artículo no se aplica a las versiones de Office 365 de Skype Empresarial, como la que se incluye en Office 365 ProPlus.
+> - Para obtener las actualizaciones de clientes móviles más recientes, vaya a la tienda de aplicaciones de su cliente móvil (iTunes, Google Play o Microsoft Store) para ver los detalles e instalar las actualizaciones.
 > - Para descubrir qué versión de Skype Empresarial estás usando, consulta [¿Qué versión de Skype Empresarial tengo?](https://support.microsoft.com/en-us/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
 > - Para obtener más información acerca de la instalación de las actualizaciones de Office, consulta [Instalar actualizaciones de Office](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5). 
   
@@ -118,12 +118,6 @@ La compatibilidad de Skype Empresarial con Office 365 y el entorno local depende
 |Actualización de seguridad de Skype Empresarial 2015/Lync 2013|[KB 3085500](https://support.microsoft.com/kb/3085500) | Septiembre de 2015 |
 |Actualización de Skype Empresarial 2015/Lync 2013|[KB 3054791 ](https://support.microsoft.com/kb/3054791) | Junio de 2015 |
 
-
-### <a name="skype-for-business-mobile-client-updates"></a>Actualizaciones del cliente de Skype Empresarial para móviles
-
-|Nombre de paquete|Número de KB|Fecha de lanzamiento|
-|:---  |:---  |:---  |
-|Actualización de la aplicación de iOS de Skype Empresarial |[KB 3199076](https://support.microsoft.com/help/3199076)| Septiembre de 2016 |
 
 ### <a name="skype-for-business-on-mac-client-updates"></a>Actualizaciones del cliente de Skype Empresarial en Mac
 
@@ -240,16 +234,6 @@ Nombre de paquete|Número de KB|Fecha de lanzamiento|
 |Actualización de seguridad de Lync 2010 |[KB 3096735](https://support.microsoft.com/kb/3096735) | Noviembre de 2015|
 |Actualización de seguridad de Lync 2010 |[KB 3081087](https://support.microsoft.com/kb/3081087) | Septiembre de 2015|
 |Actualizaciones acumulativas de Lync 2010 |[KB 3072611](https://support.microsoft.com/kb/3072611) | Julio de 2015|
-
-
-### <a name="lync-mobile-platform-2010-client-updates"></a>Actualizaciones del cliente de la plataforma móvil de Lync 2010
-
-Nombre de paquete|Número de KB|Fecha de lanzamiento|
-|:--- |:--- |:--- |
-|Paquete de actualizaciones acumulativas de Lync 2010 para Android |[KB 2829325](https://support.microsoft.com/kb/2829325) | Junio de 2013 |
-|Paquete de actualizaciones acumulativas de Lync 2010 para Windows Phone |[KB 2804672](https://support.microsoft.com/kb/2804672) | Mayo de 2013 |
-|Paquete de actualizaciones acumulativas de Lync 2010 para iPhone |[KB 2804674](https://support.microsoft.com/kb/2804674) | Abril de 2013 |
-|Paquete de actualizaciones acumulativas de Lync 2010 para iPad |[KB 2804673](https://support.microsoft.com/kb/2804673) | Abril de 2013 |
 
 
 ### <a name="lync-2010-attendant-updates"></a>Actualizaciones de Lync 2010 Attendant
