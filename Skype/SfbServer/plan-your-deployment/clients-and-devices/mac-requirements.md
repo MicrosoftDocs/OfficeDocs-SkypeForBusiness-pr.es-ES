@@ -1,7 +1,7 @@
 ---
 title: Skype para la empresa en los requisitos de cliente de Mac
 ms.author: jambirk
-author: jambirk
+author: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Leer este tema para obtener más información acerca de hardware, software y los requisitos de infraestructura para la ejecución de Skype para la empresa en un MAC.
-ms.openlocfilehash: 72dfe6aa8479631a3bd3bf6be69e5a5ac2e10dff
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a6ed93f2cec7a88f0de4eafc6363a63d392de9ad
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21020656"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22391836"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Skype para la empresa en los requisitos de cliente de Mac
  

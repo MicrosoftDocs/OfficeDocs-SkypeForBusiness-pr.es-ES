@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Lea este tema para obtener información acerca de los pasos para implementar el desvío de medios con la nube conector Edition versión 2.0 y versiones posterior.
-ms.openlocfilehash: fc1ebe85ff3d26d66688173ea70c53c441d96e77
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 4d0400682702c528e9e1ccb324731378d8c09b2c
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570047"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246690"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Implementar el desvío de medios en la nube conector Edition
  
@@ -44,7 +44,8 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 
 Habilitar desvío de medios es un proceso de dos pasos. El cmdlet New-CsNetworkMedia no guardar inmediatamente la nueva configuración; sólo se crea la configuración en la memoria. El objeto creado por este cmdlet debe ser guardado en una variable y, a continuación, se asigna a la propiedad MediaBypassSettings de la configuración de red. Para obtener más información, vea [ejemplo: registros DNS del sitio web en entornos de varios sitios complejos de desvío de medios](deploy-media-bypass-in-cloud-connector.md#Example).
   
-La replicación entre los componentes en línea y local puede tardar hasta 24 horas, por lo que Microsoft recomienda que ejecutar los comandos necesarios antes de habilitar a los usuarios.
+La replicación entre los componentes locales y en línea puede tardar hasta 24 horas, por lo que Microsoft recomienda que ejecute los comandos necesarios antes de habilitar usuarios. 
+
   
 ## <a name="confirm-media-bypass-settings"></a>Confirmar la configuración de la omisión de medios
 
@@ -67,7 +68,8 @@ Para comprobar la configuración del cliente, desconectarse de la Skype para cli
   
 1. Abra %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog.  
     
-2. Buscar hybridconfigserviceinternalurl y confirme la dirección URL coincide con el que haya definido.
+2. Busque hybridconfigserviceinternalurl y confirme que la dirección URL coincida con la que ha definido.  
+
     
 ## <a name="change-media-bypass-parameters"></a>Cambiar los parámetros de la omisión de medios
 
@@ -179,8 +181,12 @@ Con la geolocalización basada en la administración del tráfico, los servidore
 4. Cree la directiva DNS que conecta las subredes del cliente con los ámbitos de zona apropiados para garantizar la resolución DNS que desea.
     
 En este punto, los clientes que hagan consultas de DNS desde la subred de Ámsterdam para hybridvoice.adatum.biz devolverán las direcciones 192.168.1.45, 192.168.1.46, 192.168.1.47 y 192.168.1.48, mientras que los clientes que hagan la misma consulta desde Seattle devolverán 10.10.1.8, 10.10.1.9 y 10.10.1.10.
+
+> [!NOTE]
+> Si el dispositivo CCE no parece que se puede obtener la configuración actualizada, compruebe si el dispositivo es capaz de ponerse en contacto con el inquilino a través de PowerShell remoto. Puede usar PowerShell remoto para comprobar el estado del dispositivo con Get-CsHybridPSTNAppliance o usar PowerShell en el host CCE para comprobar el estado con Get-CcApplianceStatus.
+
   
 ## <a name="see-also"></a>Vea también
 <a name="Example"> </a>
 
-[Planeación de desvío de medios en la nube conector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)
+[Plan para la omisión de medios en Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 description: 'Resumen: Obtenga información sobre cómo mover las cuentas de usuario de en línea para localmente en Skype para Business Server.'
-ms.openlocfilehash: 098dc36e6551839d599042993b156073197753ec
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a2d49033e499d9a52af04fcb9e23d8ed483859f5
+ms.sourcegitcommit: c18710a46018fe4c1d0ceb99710f18bbc25aad54
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21025684"
+ms.lasthandoff: 08/09/2018
+ms.locfileid: "22301445"
 ---
 # <a name="move-users-from-skype-for-business-online-to-on-premises"></a>Mover usuarios de Skype para empresarial en línea para local
  
@@ -191,7 +191,7 @@ Una vez que haya terminado de estos pasos, puede migrar las cuentas de usuario t
 |:-----|:-----|:-----|:-----|
 |msRTCSIP-DeploymentLocator  <br/> |HostingProvider  <br/> |sipfed.Online.Lync.com  <br/> |SRV:  <br/> |
 |msRTCSIP-PrimaryUserAddress  <br/> |Dirección SIP  <br/> |SIP:username@contoso.com  <br/> |SIP:username@contoso.com  <br/> |
-|sRTCSIP-UserEnabled  <br/> |Habilitado  <br/> |True  <br/> |True  <br/> |
+|msRTCSIP-UserEnabled  <br/> |Habilitado  <br/> |True  <br/> |True  <br/> |
    
 10. Todos los usuarios movidos tendrán que cerrar la sesión y volver a iniciar la sesión. Al hacerlo, tendrán que verificar sus listas de contactos y agregar contactos si es necesario.
     

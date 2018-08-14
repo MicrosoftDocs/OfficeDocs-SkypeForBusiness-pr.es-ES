@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Obtenga información sobre cómo configurar la integración de conector en la nube con el inquilino de Office 365.
-ms.openlocfilehash: 40cb3334fb3d45432ada1a63aae8368a60433ad0
-ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
+ms.openlocfilehash: d5ae0b70a22219ee0430908bd3b3752d6ebd6357
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "19649646"
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211154"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configurar la integración de Cloud Connector con el inquilino de Office 365
  
@@ -44,13 +44,13 @@ Si está usando TLS entre los servidores de mediación y las puertas de enlace, 
     
   - Modificar la plantilla de servidor Web existente para permitir a los usuarios autenticados inscribirse o crear una nueva plantilla de servidor Web para configurar otras propiedades y permiten a los usuarios autenticados inscribirse. Para obtener instrucciones detalladas, consulte [Plantillas de certificado](https://technet.microsoft.com/en-us/library/cc730705.aspx).
     
-  - Solicite un certificado con el complemento para certificados seleccionando la plantilla de servidor web que haya habilitado. Asegúrese de agregar Nombre común en Asunto y Nombre DNS en Nombre alternativo con el FQDN de la puerta de enlace, y confirme en Clave privada que Hacer exportable la clave privada esté seleccionada en las opciones de clave. Para obtener instrucciones detalladas, vea [Solicitar un certificado](https://technet.microsoft.com/en-us/library/cc730689.aspx).
+  - Solicite un certificado con el complemento para certificados seleccionando la plantilla de servidor web que haya habilitado. Asegúrese de agregar Nombre común en Asunto y Nombre DNS en Nombre alternativo con el FQDN de la puerta de enlace, y confirme en Clave privada que Hacer exportable la clave privada esté seleccionada en las opciones de clave. 
     
 4. Exporte el certificado SSL con clave privada y siga las instrucciones del proveedor de la puerta de enlace RTC para importarlo.
     
 ## <a name="update-the-domain-for-your-tenant"></a>Actualizar el dominio del inquilino
 
-Asegúrese de haber completado los pasos para actualizar el dominio en Office 365 y de tener la capacidad para agregar registros DNS. Para obtener más información acerca de cómo configurar el dominio en Office 365, vea [vídeo: configurar el dominio en Office 365](https://support.office.com/en-us/article/Video-Set-up-your-domain-in-Office-365-703dfec1-882d-4e33-b647-937f731887b7?ui=en-US&amp;rs=en-US&amp;ad=US).
+Asegúrese de haber completado los pasos para actualizar el dominio en Office 365 y de tener la capacidad para agregar registros DNS. Para obtener más información acerca de cómo configurar el dominio en Office 365, vea [Agregar un dominio a Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
   
 ## <a name="add-dns-records-in-office-365-for-your-edge"></a>Agregar registros DNS en Office 365 desde el perímetro
 
@@ -64,7 +64,7 @@ Agregue los siguientes registros DNS a su inquilino de Office 365. Para obtener 
   
 ## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-office-365"></a>Configuración de la conectividad híbrida entre Cloud Connector Edition y Office 365
 
-Para configurar la conectividad híbrida entre su Skype para la implementación de Business Edition de conector en la nube y el inquilino de Office 365, ejecute el siguiente cmdlet en una sesión remota de PowerShell. Para obtener información sobre cómo establecer una sesión remota de PowerShell, vea: [Uso de Windows PowerShell para administrar Skype para profesionales en línea](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
+Para configurar la conectividad híbrida entre su Skype para la implementación de Business Edition de conector en la nube y el inquilino de Office 365, ejecute el siguiente cmdlet en una sesión remota de PowerShell. Para obtener información sobre cómo establecer una sesión remota de PowerShell, consulte: [configurar un equipo de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
   
 El cmdlet establece los FQDN externos para el servidor perimetral de acceso. En el primero de los comandos, el \<FQDN perimetral de acceso externo\> debe ser el uno para el rol de servidor perimetral de acceso SIP. De forma predeterminada, debe ser ap.\<nombre de dominio\>.
   
@@ -90,7 +90,7 @@ Si está usando TLS entre los servidores de mediación y las puertas de enlace, 
     
   - Modifique la plantilla de servidor web existente para permitir a los usuarios autenticados que se inscriban o cree una nueva plantilla de servidor web para configurar otras propiedades y permitir a los usuarios autenticados que se inscriban. Para obtener instrucciones detalladas, consulte [Plantillas de certificado](https://technet.microsoft.com/library/cc730705.aspx).
     
-  - Solicite un certificado con el complemento para certificados seleccionando la plantilla de servidor web que haya habilitado. Asegúrese de agregar Nombre común en Asunto y Nombre DNS en Nombre alternativo con el FQDN de la puerta de enlace, y confirme en Clave privada que Hacer exportable la clave privada esté seleccionada en las opciones de clave. Para obtener instrucciones detalladas, vea [Solicitar un certificado](https://technet.microsoft.com/library/cc730689.aspx).
+  - Solicite un certificado con el complemento para certificados seleccionando la plantilla de servidor web que haya habilitado. Asegúrese de agregar Nombre común en Asunto y Nombre DNS en Nombre alternativo con el FQDN de la puerta de enlace, y confirme en Clave privada que Hacer exportable la clave privada esté seleccionada en las opciones de clave. 
     
 4. Exporte el certificado SSL con clave privada y siga las instrucciones del proveedor de la puerta de enlace RTC para importarlo.
     
@@ -102,7 +102,7 @@ Inicie sesión en el portal de administración de Office 365, agregue los usuari
   
 ## <a name="enable-users-for-phone-system-in-office-365-voice-and-voicemail-services"></a>Permitir a los usuarios para el sistema telefónico en servicios de voz y correo de voz de Office 365
 
-Después de agregar los usuarios a Office 365, habilitar sus cuentas para el sistema telefónico en servicios de voz de Office 365, incluido el correo de voz. Para habilitar estas funcionalidades, debe iniciar sesión en el inquilino de Office 365 con una cuenta que sea del rol de administrador global de Office 365 y debe poder ejecutar PowerShell remoto. Para obtener información sobre cómo establecer una sesión remota de PowerShell, vea: [Uso de Windows PowerShell para administrar Skype para profesionales en línea](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)
+Después de agregar los usuarios a Office 365, habilitar sus cuentas para el sistema telefónico en servicios de voz de Office 365, incluido el correo de voz. Para habilitar estas funcionalidades, debe iniciar sesión en el inquilino de Office 365 con una cuenta que sea del rol de administrador global de Office 365 y debe poder ejecutar PowerShell remoto. Para obtener información sobre cómo establecer una sesión remota de PowerShell, consulte: [configurar un equipo de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)
   
 - Asigne la directiva para el usuario y configuración voz número de teléfono profesional del usuario, que se especifica con el valor del parámetro **Identity** :
     
@@ -141,7 +141,7 @@ Para volver a habilitar internacional al llamar a cada usuario una vez se ha des
   
 ## <a name="assign-users-to-pstn-sites"></a>Asignar usuarios a sitios de RTC
 
-Use el PowerShell remoto del inquilino para asignar un sitio a los usuarios, aunque haya implementado solo un único sitio. Para obtener información sobre cómo establecer una sesión remota de PowerShell, vea: [Uso de Windows PowerShell para administrar Skype para profesionales en línea](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
+Use el PowerShell remoto del inquilino para asignar un sitio a los usuarios, aunque haya implementado solo un único sitio. Para obtener información sobre cómo establecer una sesión remota de PowerShell, consulte: [configurar un equipo de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
   
 ```
 # Set the site to users
@@ -166,7 +166,7 @@ Cuando una llamada de P2P se remite a una conferencia de RTC, la Skype para serv
     
     Usar el dominio SIP predeterminado del conector en la nube (el primer dominio SIP en el archivo. ini) como el dominio de usuario.
     
-    Asignar una licencia de Office 365 (como E5) a la cuenta que cree.
+    Tenga en cuenta que asignación de licencias sólo es necesario para la propagación de usuario en el Skype para el directorio en línea de negocio. Asignar una licencia de Office 365 (como E5) a la cuenta crear, permitir propagar los cambios de una hora, a continuación, quite la licencia de esta cuenta.
     
 2. Iniciar una sesión de PowerShell remota de inquilino con sus credenciales de administrador de inquilinos y, a continuación, ejecute el siguiente cmdlet para establecer el servidor de mediación y el FQDN del servidor perimetral a ese usuario de cuenta, reemplazar \<DisplayName\> con el nombre para mostrar del usuario para el cuenta que ha creado:
     

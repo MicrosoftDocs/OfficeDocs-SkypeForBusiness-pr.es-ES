@@ -1,7 +1,7 @@
 ---
 title: Comparación de características de cliente de escritorio de Skype para Business Server 2015
 ms.author: jambirk
-author: jambirk
+author: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumen: Skype para Business Server 2015 o Skype para los administradores en línea de negocio puede usar estas tablas para comprender qué características son compatibles con los clientes que.'
-ms.openlocfilehash: 2a65dcf1825bac80cc002962ce589e851ea2d3b3
-ms.sourcegitcommit: 3d7b62f24db33f9685d8dc08561394c434705a88
+ms.openlocfilehash: 73d25486544c4832b9fe30235128c8c3d4c5ae82
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21223927"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22391822"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparación de características de cliente de escritorio de Skype para Business Server 2015
  
@@ -102,6 +102,7 @@ En esta tabla se presentan las características relacionadas con la compatibilid
 |Enviar mensajes de lápiz  <br/> ||||& #x 2714;||||||
 |Recibir mensajes de lápiz  <br/> |& #x 2714;||& #x 2714;|& #x 2714;||||||
 |Establecer mensajes de mensajería instantánea como de importancia alta  <br/> |& #x 2714;||& #x 2714;|||||||
+|Transferir archivos en las conversaciones de mensajería instantánea de punto a punto<br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|||& #x 2714;|
    
 ## <a name="meetings-support"></a>Compatibilidad con reuniones
 <a name="BKMK_Conferencing"> </a>
@@ -288,4 +289,4 @@ Las cuentas de usuario pueden existir en línea o en local, y esto puede influir
 
 [Planificar los clientes y los dispositivos](clients-and-devices.md)
 
-[Actualizaciones más recientes para las versiones de Skype para la empresa que usan Windows Installer (MSI)](../../sfb-client-updates.md)
+[Actualizaciones más recientes de las versiones de Skype Empresarial que usan Windows Installer (MSI)](../../sfb-client-updates.md)

@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0b038686-ed36-4867-9653-14cc08c919cb
 description: Obtenga información acerca de cómo planear un Skype para implementación híbrida de negocio.
-ms.openlocfilehash: f77c58497b40551a23ce32ab66718999edcc360c
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 124286ea60b1bd032d9d736284a738c63aea2dc6
+ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "20176194"
 ---
 # <a name="skype-for-business-hybrid-solutions"></a>Skype para soluciones híbridas de negocio
  
@@ -207,22 +208,22 @@ Para obtener más información, consulte los recursos siguientes:
   
 - [Recursos de arquitectura de TI de nube de Microsoft](https://aka.ms/clouditarch)
     
-- [Identidad de nube de Microsoft para arquitectos](https://aka.ms/cloudidarch)
+- [Identidad de nube de Microsoft para arquitectos](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
     
 - [Preparación de la organización para Office 365 Enterprise](https://aka.ms/O365EntPrep)
     
 - [Planificar la conectividad híbrida entre Skype Empresarial Server y Skype Empresarial Online](plan-hybrid-connectivity.md)
     
-- [Implementa la conectividad híbrida entre Skype para Business Server y Skype para profesionales en línea](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
+- [Implementar conectividad híbrida entre Skype Empresarial Server y Skype Empresarial Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
     
 - [Sistema telefónico en soluciones de Office 365](plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md#BKMK_PBXOfferings)
     
-- [Planear la integración de Skype para empresas y Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
+- [Plan para la integración de Skype Empresarial y Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
     
 Si desea descargar una versión en póster de este tema, vaya a:
   
-- [Skype para modelos de arquitectura empresarial (pdf)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype for Business Architectural Models.pdf)
+- [Skype para modelos de arquitectura empresarial (pdf)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.pdf)
     
-- [Skype para modelos de negocio arquitectura (Visio)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype for Business Architectural Models.vsd)
+- [Skype para modelos de negocio arquitectura (Visio)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.vsd)
     
 

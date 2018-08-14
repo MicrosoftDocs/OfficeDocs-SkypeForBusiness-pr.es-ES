@@ -2,7 +2,7 @@
 title: Calidad de experiencia consulte la guía para los equipos de Microsoft
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
@@ -12,11 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c0a251887b6c71c113c4ec9a25a812d4b9f6b827
-ms.sourcegitcommit: 0d584174263c044c2ba12e32d2c924349226075c
+ms.openlocfilehash: 7579a87d2c59a47304d06fd05e11b37a97544a79
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694923"
 ---
 # <a name="quality-of-experience-review-guide"></a>Calidad de experiencia consulte la Guía
 
@@ -105,7 +106,7 @@ _Tabla 1 - medidas de evaluación de estado de destino principales_
 |               | Calidad para redes administradas | Confiabilidad para redes administradas |                      |
 |---------------|------------------------------|----------------------------------|----------------------|
 | Nombre de la métrica   | Relación entre % de llamadas de audioconferencias deficientes      | Configuración de la llamada % de errores            | Llamar a colocar % de errores |
-| Destino de ejemplo | \<% 3                         | \<% 1                             | \<% 4                 |
+| Destino de ejemplo | \<3%                         | \<% 1                             | \<% 4                 |
 
 Es importante discutir y definir los objetivos de la organización para cumplir los objetivos del negocio. Idealmente, debe identificar estos destinos antes de la implementación.
 
@@ -531,9 +532,9 @@ _Tabla 5: creación de la estructura de archivos_
 | Nombre de columna        | Tipo de datos | Ejemplo                   | Orientación    |
 |--------------------|-----------|---------------------------|-------------|
 | Red            | Cadena    | 192.168.1.0               |  Obligatorio    |
-| NetworkName        | Cadena    | Estados Unidos/Seattle/SEATTLE-mar-1 | Obligatorio\*  |
+| NetworkName        | Cadena    | Estados Unidos/Seattle/SEATTLE-mar-1 |  Obligatorio\*  |
 | NetworkRange       | Número    | 26                        |  Obligatorio    |
-| Nombredeedificio       | Cadena    | SEATTLE-MAR-1             | Obligatorio\*  |
+| Nombredeedificio       | Cadena    | SEATTLE-MAR-1             |  Obligatorio\*  |
 | OwnershipType      | Cadena    | Contoso                   | Opcional     |
 | BuildingType       | Cadena    | Terminación de TI            | Opcional     |
 | BuildingOfficeType | Cadena    | De ingeniería               | Opcional     |
@@ -1140,10 +1141,10 @@ _Tabla 11 - requisitos de rendimiento de red_
 |----------------------------------|------------------------------------|------------------------------------|
 | Latencia (unidireccional)                | \<50 ms                            | \<30 ms                            |
 | Latencia (RTT o tiempo de ida y vuelta) | \<100 ms                           | \<60 ms                            |
-| Ráfagas de pérdida de paquetes                | \<10% durante un intervalo de 200 ms   | \<% 1 durante cualquier intervalo de 200 ms    |
+| Pérdida de paquetes de ráfaga                | \<10% durante un intervalo de 200 ms   | \<% 1 durante cualquier intervalo de 200 ms    |
 | Pérdida de paquetes                      | \<% 1 durante cualquier intervalo de 15 segundos    | \<0,1% durante un intervalo de 15 segundos  |
-| Vibración de llegada entre granjas de paquetes      | \<30 ms durante un intervalo de 15 segundos | \<15 ms durante un intervalo de 15 segundos |
-| Reaprovisionamiento de paquetes                   | \<paquetes de salida de orden 0,05%       | \<paquetes de salida de orden 0,01%      |
+| Vibración entre llegadas de paquetes      | \<30 ms durante un intervalo de 15 segundos | \<15 ms durante un intervalo de 15 segundos |
+| Reordenamiento de paquetes                   | \<paquetes de salida de orden 0,05%       | \<paquetes de salida de orden 0,01%      |
 
 Para obtener más información, vea el artículo siguiente acerca del [rendimiento de red y de calidad de medios](https://aka.ms/performancerequirements) para los equipos y Skype para profesionales en línea.
 

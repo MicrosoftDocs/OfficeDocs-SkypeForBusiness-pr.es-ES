@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Lea este tema para obtener más información sobre cómo configurar cuentas para sistemas de salón de Skype v2 en Exchange e Skype para la empresa.
-ms.openlocfilehash: 8284795df5f3cc50db0a4089deb9755239e5876e
-ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
+ms.openlocfilehash: 8b0858d3d1ec5523ad95b74989a594a1cebc7848
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19887901"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967785"
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>Configurar cuentas para sistemas de salón de Skype v2
  
@@ -28,11 +28,11 @@ En este tema se explica cómo crear las cuentas usadas por v2 de sistemas de sal
   
 - Implementación en línea: entorno de su organización se implementa completamente en Office 365. Para obtener más información, vea [implementar sistemas de salón de Skype v2 con Office 365](with-office-365.md).
     
-- Implementación local: su organización tiene servidores que controla, donde se hospedan Active Directory, Exchange y Skype para Business Server 2015. Para obtener más información, vea [implementar sistemas de salón de Skype v2 con Skype para Business Server 2015](with-skype-for-business-server-2015.md)
+- Implementación local: su organización tiene servidores que controla, donde se hospedan Skype para Business Server, Exchange y Active Directory. Para obtener más información, vea [implementar sistemas de salón de Skype v2 con Skype para Business Server](with-skype-for-business-server-2015.md)
     
 - Las implementaciones híbridas: su organización tiene una mezcla de servicios, con algunas hospedado en local y algunas alojado en línea a través de Office 365. Con sistemas de salas de Skype v2, se admiten los siguientes escenarios híbrida: 
     
-  - Exchange Online con Skype para Business Server 2015 local. Para obtener más información, vea [implementar sistemas de salón de Skype v2 con Exchange Online (híbrido)](with-exchange-online.md).
+  - Exchange Online con Skype para Business Server local. Para obtener más información, vea [implementar sistemas de salón de Skype v2 con Exchange Online (híbrido)](with-exchange-online.md).
     
   - Exchange local con Skype para profesionales en línea. Para obtener más información, vea [implementar sistemas de salón de Skype v2 con Exchange local (híbrido)](with-exchange-on-premises.md).
     
@@ -62,7 +62,7 @@ Con una configuración adicional, es posible mediante el conjunto de aplicacione
 
 Estas propiedades representan la configuración mínima para una cuenta de usuario trabajar con sistemas de salas de Skype v2. Es posible que la cuenta de usuario requiera una mayor configuración.
   
-|**Propiedad**|**Propósito**|
+|**Propiedad**|**Finalidad**|
 |:-----|:-----|
 |Buzón de Exchange (Exchange 2013 SP1 o posterior, o Exchange Online)  <br/> |Habilitar la cuenta con un buzón de Exchange proporciona a la cuenta de usuario la capacidad para recibir y enviar correo y las convocatorias de reunión y para mostrar un calendario de reuniones en el dispositivo de v2 de sistemas de salón de Skype. El buzón de correo de sistemas de salón de Skype v2 debe ser un buzón de sala.  <br/> |
 |Skype para la empresa está habilitado  <br/> |Skype para la empresa debe estar habilitado para poder usar distintas características de conferencia, como las llamadas de vídeo, mensajería instantánea y uso compartido de pantalla. Skype para profesionales en línea y Skype para Business Server son compatibles.  <br/> |
@@ -72,19 +72,19 @@ Estas propiedades representan la configuración mínima para una cuenta de usuar
 
 Mientras que las propiedades para la configuración básica permitirá la cuenta de usuario se puede configurar en un entorno simple, es posible que su entorno tiene otras restricciones en las cuentas de Active directory que se deben cumplir en orden para sistemas de salón de Skype v2 usar de forma correcta el cuenta de usuario.
   
-|**Propiedad**|**Propósito**|
+|**Propiedad**|**Finalidad**|
 |:-----|:-----|
 |Autenticación basada en certificados  <br/> |Los certificados pueden ser necesarios para Exchange y Skype para Business Server. Para implementar certificados, puede cargarlos cuando haya iniciado sesión como administrador.  <br/> |
    
 La forma más sencilla de configurar las cuentas de usuario es configurarlas mediante Windows PowerShell remoto. Microsoft proporciona [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), una secuencia de comandos que le ayudarán a crear nuevas cuentas de usuario o validar cuentas de recursos existentes que tienen con el fin de ayudarle a convertirlas en cuentas de usuario de v2 de Skype salón sistemas compatibles.
   
-Si prefiere usar la interfaz de usuario de Office 365 a través de los cmdlets de Windows PowerShell, pueden realizar manualmente algunos pasos. Consulte [creación de una cuenta de dispositivo con Office 365](https://technet.microsoft.com/itpro/surface-hub/create-a-device-account-using-office-365).
+Si prefiere usar la interfaz de usuario de Office 365 a través de los cmdlets de Windows PowerShell, pueden realizar manualmente algunos pasos. Consulte [creación de una cuenta de dispositivo con Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
   
 ## <a name="see-also"></a>Vea también
 
-[Planeación de la sala de Skype v2 de sistemas](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan para Sistemas de salas de Skype v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Configurar una consola de v2 de sistemas de salón de Skype](console.md)
+[Configurar una consola de Sistemas de salas de Skype v2](console.md)
   
-[Administración de salón de Skype v2 de sistemas](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Administrar Sistemas de salas de Skype v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 

@@ -1,9 +1,8 @@
 ---
-title: Planificar varios números de emergencia en Skype Empresarial Server 2015
+title: Planeación de varios números de emergencias en Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
-description: Lea este tema para información sobre cómo planificar varios números de emergencia en Skype Empresarial Server 2015.
-ms.openlocfilehash: f70132e555b79e88ca09c54c0ce02544bf3d9bf8
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+description: Lea este tema para obtener información sobre cómo planear para varios números de emergencias en Skype Business Server.
+ms.openlocfilehash: 48b71f5f4810378ec05ae769de4ec57b9a840a79
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20979786"
 ---
-# <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server-2015"></a>Planificar varios números de emergencia en Skype Empresarial Server 2015
+# <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planeación de varios números de emergencias en Skype para Business Server
  
-Lea este tema para información sobre cómo planificar varios números de emergencia en Skype Empresarial Server 2015.
+Lea este tema para obtener información sobre cómo planear para varios números de emergencias en Skype Business Server.
   
 Skype para Business Server ahora admite la configuración de varios números de emergencias para un cliente. Varios números de emergencia es una característica nueva que se introdujo en el de 2016 junio actualización acumulativa. Mientras que en los EE. UU. hay un solo número de emergencia, el 911, muchos países disponen de varios. El Reino Unido, por ejemplo, admite 999, el número de emergencia específico para el Reino Unido y 112, el número de emergencia para la Unión Europea. 
   
@@ -32,7 +32,7 @@ Esta característica también es útil para los proveedores de servicios sanitar
 
 Las llamadas de emergencia se configuran mediante la creación de directivas de ubicación que definen la forma en que la llamada de emergencia se implementará. Usar la directiva de ubicación para definir qué número constituye una llamada de emergencia, por ejemplo, 911 en los Estados Unidos; 999 y 112 en el Reino Unido. La directiva de ubicación determina si a un usuario se le permite realizar una llamada de emergencia y, en tal caso, cual es el comportamiento de la llamada de emergencia. También puede definir si la seguridad corporativa se debe notificar automáticamente y cómo se debe enrutar la llamada.
   
-Para obtener más información sobre cómo definir y modificar una directiva de ubicación, vea [Planear las directivas de ubicación para Skype para Business Server 2015](location-policies.md) y [crear directivas de ubicación en Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/create-location-policies.md). En estos temas se describen los conceptos acerca de las directivas de ubicación; Sin embargo, debe seguir las instrucciones de [configuración de varios números de emergencias en Skype para profesionales de 2015](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) para configurar varios números de emergencias.
+Para obtener más información sobre cómo definir y modificar una directiva de ubicación, vea [Planear las directivas de ubicación para Skype para Business Server](location-policies.md) y [crear directivas de ubicación en Skype para Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md). En estos temas se describen los conceptos acerca de las directivas de ubicación; Sin embargo, debe seguir las instrucciones de [configuración de varios números de emergencias en Skype para la empresa](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) para configurar varios números de emergencias.
   
 Al planificar varios números de emergencia, tenga en cuenta lo siguiente:
   
@@ -66,15 +66,16 @@ Antes de configurar varios números de emergencia, tenga en cuenta lo siguiente:
     
 - Si los usuarios marcarán un número que coincide con la cadena de marcación, no se requiere ninguna máscara de marcado. Por ejemplo, si el número que un usuario marca es 911, la cadena de marcación es 911, y no se requiere de ninguna máscara. 
     
-Para obtener más información acerca de cómo configurar varios números de emergencias, consulte [Configurar números de emergencia varios de Skype para profesionales de 2015](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md).
+Para obtener más información acerca de cómo configurar varios números de emergencias, consulte [Configurar números de emergencia varios de Skype para la empresa](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md).
   
 La tabla siguiente muestra directivas de ubicación de ejemplo (para este ejemplo, no se muestran todos los atributos):
   
 
-|**Nombre de la directiva de ubicación**|**E911 habilitado**|**Cadena de marcado de emergencia**|**Máscara de acceso telefónico**|**Números de emergencia**|**Uso de RTC**|**Ubicación obligatoria**|
+|**Nombre de la directiva de ubicación**|**E911 habilitado**|**Cadena de marcado de emergencia**|**Máscara de marcado**|**Números de emergencia**|**Uso de RTC**|**Ubicación obligatoria**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Estados Unidos  <br/> |Sí  <br/> |911  <br/> | 112; 999 <br/> ||USEmergency  <br/> |Sí  <br/> |
-|Hospital de Estados Unidos  <br/> |Sí  <br/> |911  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |Sí  <br/> |
+|Hospital EE. UU. 
+  <br/> |Sí  <br/> |911  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |Sí  <br/> |
 |Londres  <br/> |Sí  <br/> |999  <br/> |144  <br/> |999-144  <br/> 112 911; 117; 118  <br/> |GBEmergency  <br/> |No  <br/> |
 |India  <br/> |Sí  <br/> |||100-911  <br/> 101  <br/> 102  <br/> |IndiaEmergency  <br/> |No  <br/> |
    
