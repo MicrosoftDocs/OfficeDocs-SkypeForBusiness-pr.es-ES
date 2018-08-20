@@ -1,20 +1,22 @@
 ---
-title: "Información general de una implementación de Microsoft Teams"
+title: Información general de una implementación de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Aprenda a realizar una implementación de Microsoft Teams."
+description: Aprenda a realizar una implementación de Microsoft Teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cbc30699f8a516c1355fd49d839fb0146fbe2413
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+ms.openlocfilehash: b3801a6216962425a103845d99184f6b50bf9dc9
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "19002889"
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Información general de una implementación de Microsoft Teams
 ========================================
