@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Obtenga información sobre lo que necesita para migrar a enrutamiento directo desde un Skype para profesionales en línea y perspectiva de la configuración de los equipos.
-ms.openlocfilehash: 04e8f141776dd3003352b3df888092960e23dcf6
-ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
+ms.openlocfilehash: 859ab19162f8cf16cc419f7f871fc0059e4566d6
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2018
-ms.locfileid: "20211147"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546600"
 ---
 # <a name="migrating-to-direct-routing"></a>Migración a enrutamiento directo
 
@@ -79,8 +79,8 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 
 Para obtener más información acerca de la migración desde el sistema telefónico con conectividad de RTC local en Skype para Business Server, consulte lo siguiente:
 
-- [Planeación](https://technet.microsoft.com/en-us/library/mt455212.aspx)
-- [Implementación de](https://technet.microsoft.com/en-us/library/mt634319.aspx) 
+- [Planeación](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+- [Implementación de](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
 
 Se recomienda que quite voz configurado previamente información de enrutamiento de la siguiente manera:
 
@@ -91,8 +91,8 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 
 Para obtener más información acerca de la migración desde el sistema telefónico con conectividad de RTC local a través del conector en la nube, consulte lo siguiente:
 
-- [Planeación](https://technet.microsoft.com/en-us/library/mt605227.aspx)  
-- [Implementación de](https://technet.microsoft.com/en-us/library/mt634319.aspx)
+- [Planeación](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
+- [Implementación de](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
 - [Configuración de usuario](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
 
 Se recomienda que quite voz configurado previamente información de enrutamiento de la siguiente manera:

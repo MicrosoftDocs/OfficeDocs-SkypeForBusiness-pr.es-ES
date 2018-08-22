@@ -4,12 +4,12 @@ hide_bc: true
 title: Guía práctica y documentación de Microsoft Teams
 description: Guía práctica y documentación de Microsoft Teams
 ms.topic: hub-page
-ms.openlocfilehash: 1d7b8162f79cfc51da611830e2bd9fae9e6d84a0
-ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
+ms.openlocfilehash: a9fa022e0d70655f916ab76988199fa6d06b648e
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20088340"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546354"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -129,6 +129,63 @@ ms.locfileid: "20088340"
                                                 <div class="cardText">
                                                     <h3>Formación y vídeos</h3>
                                                     <p>Consiga formación sobre Microsoft Teams, tanto para usted como para sus usuarios.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/microsoftteams/platform/overview">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt="a settings symbol with a code symbol" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Introducción a la plataforma de desarrollador de Microsoft Teams</h3>
+                                                    <p>Obtenga información sobre la plataforma para desarrolladores de Microsoft Teams y cómo le permite crear aplicaciones útiles y eficaces</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Community-400x140.svg" alt="a users symbol with a globe symbol" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Comunidad de Microsoft Teams tech</h3>
+                                                    <p>Únase a la Comunidad de tech equipos para formular preguntas &amp; Obtenga respuestas y leer el blog de equipos</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/powershell/module/teams/?view=teams-ps">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Powershell-400x140.svg" alt="a PowerShell logo on a book symbol" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>El cmdlet de PowerShell hace referencia a Teams</h3>
+                                                    <p>Obtener los módulos de PowerShell y los cmdlets de para los equipos</p>
                                                 </div>
                                             </div>
                                         </div>

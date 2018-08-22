@@ -9,18 +9,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Obtenga información sobre cómo configurar el enrutamiento directo de Microsoft teléfono del sistema.
-ms.openlocfilehash: 112381db7d4d2bc160917b41c7e8e437ef737bcf
-ms.sourcegitcommit: d619e44d685e2109b995ffd67ff4b98e5647c8ea
+ms.openlocfilehash: 664aae1a213859a6e4e73ec4c75ce39b6058788e
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21762946"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546529"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
 Si no lo ha hecho ya, lea [Planear el enrutamiento directo](direct-routing-plan.md) para los requisitos previos y para revisar otros pasos debe realizar antes de configurar la red del sistema de teléfono de Microsoft. 
 
-En este artículo se describe cómo configurar el enrutamiento directo de Microsoft teléfono del sistema. Detalla cómo emparejar un controlador de borde de sesión (SBC) admitidos para el enrutamiento directo y cómo configurar los usuarios de Microsoft Teams para usar el enrutamiento directo para conectarse a la red telefónica pública conmutada (RTC). Para completar los pasos que se explican en este artículo, los administradores necesitan un poco familiarizado con los cmdlets de PowerShell. Para obtener más información acerca del uso de PowerShell, vea [Configurar el equipo de Windows PowerShell](https://technet.microsoft.com/library/dn362831.aspx). 
+En este artículo se describe cómo configurar el enrutamiento directo de Microsoft teléfono del sistema. Detalla cómo emparejar un controlador de borde de sesión (SBC) admitidos para el enrutamiento directo y cómo configurar los usuarios de Microsoft Teams para usar el enrutamiento directo para conectarse a la red telefónica pública conmutada (RTC). Para completar los pasos que se explican en este artículo, los administradores necesitan un poco familiarizado con los cmdlets de PowerShell. Para obtener más información acerca del uso de PowerShell, vea [Configurar el equipo de Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
 
 Se recomienda que confirme que ya se ha configurado la SBC recomendada por su proveedor SBC: 
 
@@ -43,7 +43,7 @@ Los siguientes son los tres pasos de alto nivel para permitirle conectarse o emp
 
 ### <a name="connect-to--skype-for-business-online-by-using-powershell"></a>Conectarse a Skype para profesionales en línea mediante el uso de PowerShell 
 
-Puede usar una sesión de PowerShell conectado a los inquilinos para emparejar la SBC a la interfaz de enrutamiento directo. Para abrir una sesión de PowerShell, siga los pasos descritos en [Configurar el equipo de Windows PowerShell](https://technet.microsoft.com/library/dn362831.aspx). 
+Puede usar una sesión de PowerShell conectado a los inquilinos para emparejar la SBC a la interfaz de enrutamiento directo. Para abrir una sesión de PowerShell, siga los pasos descritos en [Configurar el equipo de Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
  
 Después de establecer una sesión remota de PowerShell, compruebe que puede ver los comandos para administrar la SBC. Para validar los comandos, escriba o copiar y pegar en las siguientes opciones en la sesión de PowerShell y presione ENTRAR: 
 

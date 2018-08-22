@@ -1,20 +1,21 @@
 ---
-title: "Recursos de soporte técnico para Microsoft Teams"
+title: Recursos de soporte técnico para Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: lolaj, ninadara
-description: "Una lista de recursos de soporte técnico para Microsoft Teams que le ayudarán a usarlo de manera más eficiente y efectiva."
+ms.reviewer: lolaj
+description: Una lista de recursos de soporte técnico para Microsoft Teams que le ayudarán a usarlo de manera más eficiente y efectiva.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c5239c2d6ff78843707fb135a35a82e10d788ad
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: af5c0d51b5958e815d933a125cb322c4799d79de
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546362"
 ---
 <a name="support-resources-for-microsoft-teams"></a>Recursos de soporte técnico para Microsoft Teams
 =====================================
@@ -35,7 +36,7 @@ ms.lasthandoff: 02/19/2018
 
 -   [Microsoft Teams Developer Preview](https://go.microsoft.com/fwlink/?linkid=854397)
 
--   [Problemas conocidos](https://support.office.com/article/Known-issues-for-Microsoft-Teams-04b35d1b-bdca-420a-991b-878da5157650)
+-   [Problemas conocidos](https://docs.microsoft.com/en-us/microsoftteams/known-issues)
 
 -   [Notas de la versión del cliente de Microsoft Teams](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
 

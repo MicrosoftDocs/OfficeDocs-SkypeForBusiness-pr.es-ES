@@ -3,19 +3,19 @@ title: Problemas conocidos de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 5/9/2018
+ms.date: 8/21/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: marcl, ninadara
+ms.reviewer: marcl
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7053bade0b01a35ba8e43607b182c9faec63879
-ms.sourcegitcommit: c12afd4dd5509a4552b2999430953273d36db039
+ms.openlocfilehash: 8ca61e36069262ddb2ea43dde300c169d6992ba8
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21779522"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546402"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
   
@@ -131,7 +131,7 @@ En este artículo se enumera los problemas conocidos de Microsoft Teams, por ár
 ## <a name="meetings"></a>Reuniones.
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|Los usuarios no pueden tener acceso a las reuniones o conectores pero tienen buzones de Exchange Online. <br/> |Cliente activamente bloquea EWS desde servicios dentro de Exchange Online, pero necesita tener MS Teams compatible con dentro de las directivas de EWS. <br/> |Para hacer que MS Teams compatible, debe agregar la siguiente cadena de agente de usuario para MS Teams dentro de la EWSAllowList: `*skypespaces*`, incluidos los asteriscos. El comando completo es:`set-organizationconfig -ewsallowlist *skypespaces*`<br/> Para obtener más información:https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx <br/> |30/5/17  <br/>|
+|Los usuarios no pueden tener acceso a las reuniones o conectores pero tienen buzones de Exchange Online. <br/> |Cliente activamente bloquea EWS desde servicios dentro de Exchange Online, pero necesita tener MS Teams compatible con dentro de las directivas de EWS. <br/> |Para hacer que MS Teams compatible, debe agregar la siguiente cadena de agente de usuario para MS Teams dentro de la EWSAllowList: `*skypespaces*`, incluidos los asteriscos. El comando completo es:`set-organizationconfig -ewsallowlist *skypespaces*`<br/> Para obtener más información:https://docs.microsoft.com/en-us/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps <br/> |30/5/17  <br/>|
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|

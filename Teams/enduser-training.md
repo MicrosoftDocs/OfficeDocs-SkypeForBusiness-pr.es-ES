@@ -6,16 +6,16 @@ manager: serdars
 ms.date: 03/19/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: lolaj, ninadara
+ms.reviewer: lolaj
 description: Recursos de formación que puede usar un administrador para implementar y adoptar correctamente Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b3842fb45e7537589746f69e7514691419eb27c
-ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
+ms.openlocfilehash: b2df911e814b02fe5b4d1796f075905fd73f2de3
+ms.sourcegitcommit: ddedcfe6efd4d8adec794a70c904468a45fbdeb4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21708327"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "22415654"
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Formación del usuario final para Microsoft Teams
 =====================================

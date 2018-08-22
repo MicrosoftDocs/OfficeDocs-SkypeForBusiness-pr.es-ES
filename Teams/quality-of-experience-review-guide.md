@@ -3,7 +3,7 @@ title: Calidad de experiencia consulte la guía para los equipos de Microsoft
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 04/12/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7579a87d2c59a47304d06fd05e11b37a97544a79
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: ff9834b5bb59b0dd37ba5ff6d4053cd7b5188499
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19694923"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546648"
 ---
 # <a name="quality-of-experience-review-guide"></a>Calidad de experiencia consulte la Guía
 
@@ -138,7 +138,7 @@ _Tabla 2 - métricas de servicio de llamadas deficientes_
 | Vibración \>30 ms                                   | Éste es el cambio promedio de retraso entre envíos sucesivos de paquetes. Los equipos y Skype para la empresa pueden adaptarse a algunos niveles de vibración a través de almacenamiento en búfer. Es sólo cuando la vibración supera el almacenamiento en búfer que un participante avisos de los efectos de vibración.                                                                                                                         | Los paquetes que llegan a diferentes velocidades provocarán voz de un altavoz se oye robótica.                                                                                       |
 | Tasa de pérdida de paquetes \>0,1 o 10%                    | A menudo se define como un porcentaje de paquetes que se pierden. Pérdida de paquetes afecta directamente a la calidad de audio: desde pequeñas, individual los paquetes perdidos que no tienen casi afectar a las pérdidas de ráfagas opuesta que causa el audio para recortar completamente.                                                                                                                               | Los paquetes se perdidos y que no llegan a su destino previsto provocarán diferencias en los medios, resultantes en palabras y sílabas perdidas y entrecortados vídeo y uso compartidos. |
 | Tiempo de ida y vuelta \>500 ms                         | Esto es el tiempo necesario para obtener un paquete IP de punto A punto b y volver al punto A. Este retraso de propagación de red está asociado a la distancia física entre los dos puntos y la velocidad de la luz e incluye una sobrecarga adicional realizada por los diversos dispositivos en la ruta de acceso de red.                                                                                  | Los paquetes tarda mucho tiempo para llegar a su destino causar un efecto transmisor-receptor portátil.                                                                                 |
-| Promedio de degradación de NMOS \> 1.0                  | Una o varias de estas métricas de red, aunque individualmente no estaban deficiente, juntos deberse a que la [Media de puntuación de opinión](https://technet.microsoft.com/library/bb894481(v=office.12).aspx) de red (NMOS) para colocar más de un punto. Esto no significa necesariamente la conexión de red es deficiente, pero se han producido suficiente problemas durante la llamada que se ha reducido la calidad. | Esto es una combinación de vibración, la pérdida de paquetes, y, en menor grado, aumenta el tiempo de ida y vuelta. El usuario puede haber una combinación de estos síntomas.          |
+| Promedio de degradación de NMOS \> 1.0                  | Una o varias de estas métricas de red, aunque individualmente no estaban deficiente, juntos deberse a que la [Media de puntuación de opinión](https://docs.microsoft.com/en-us/previous-versions/office/communications-server/bb894481(v=office.12)) de red (NMOS) para colocar más de un punto. Esto no significa necesariamente la conexión de red es deficiente, pero se han producido suficiente problemas durante la llamada que se ha reducido la calidad. | Esto es una combinación de vibración, la pérdida de paquetes, y, en menor grado, aumenta el tiempo de ida y vuelta. El usuario puede haber una combinación de estos síntomas.          |
 | Relación media de muestras ocultas \> 7% o 0,07 | Una o varias de estas métricas de red, aunque individualmente no estaban deficiente, causó el cliente para resolver problemas de los medios. Un ejemplo de audio oculto es una técnica que se utiliza para emparejar la abrupta transición que normalmente podría deberse a paquetes de red perdidos.                                                                                                                | Valores altos indican que se han aplicado niveles significativos de ocultación de pérdida y esperó audio distorsionado o pierden.                                                  |
 
 #### <a name="client-and-device-readiness"></a>Preparación de clientes y dispositivos
@@ -161,7 +161,7 @@ Se recomienda que no permita que sus versiones de cliente se dividen por más de
 No hay una estrategia de único puede afectar a la experiencia del usuario más que la estrategia de preparación del dispositivo. Mayoría de las organizaciones es feliz quitar los dispositivos innecesarios de los usuarios (por ejemplo, teléfonos de escritorio u otros dispositivos de audioconferencias dedicados) y, a menudo, esto es una justificación del negocio principales para cambiar a los equipos o Skype para la empresa. Sin embargo, esas organizaciones mismas dudan a veces para proporcionar dispositivos de sustitución, incluso si esos dispositivos son menos costosas. Equipos portátiles moderna y PCs, aunque dispongan de micrófono y altavoz, no están optimizados para voz de clase empresarial sobre IP (VoIP). A menudo esto crea una mala experiencia para todos los participantes, especialmente si el altavoz está en un entorno con mucho ruido. Programa de certificación de dispositivo de Microsoft se asegura de que, cuando un usuario participa en una llamada telefónica mediante el uso de cualquier dispositivo certificado para los equipos o Skype para la empresa, genera una experiencia que es superior de un dispositivo no certificados.
 
 Siempre se recomienda que los equipos y Skype para usuarios profesionales usar un certificado de auriculares con micrófono o altavoz cuando participa en una llamada de voz mediante el uso de un cliente de escritorio.
-Para obtener más información acerca de los dispositivos de certificación de Microsoft, revise este [artículo sobre teléfonos y dispositivos compatibles](https://technet.microsoft.com/office/dn788944.aspx). Use el [Informe de dispositivos](#devices-investigations), más adelante en esta guía, para obtener ayuda con la administración de los dispositivos. También puede usar los informes de ejemplo tasa Mis llamadas para mejorar aún más la estrategia de preparación del dispositivo.
+Para obtener más información acerca de los dispositivos de certificación de Microsoft, revise este [artículo sobre teléfonos y dispositivos compatibles](https://docs.microsoft.com/en-us/SkypeForBusiness/lync-cert/ip-phones). Use el [Informe de dispositivos](#devices-investigations), más adelante en esta guía, para obtener ayuda con la administración de los dispositivos. También puede usar los informes de ejemplo tasa Mis llamadas para mejorar aún más la estrategia de preparación del dispositivo.
 
 ### <a name="user-experience"></a>Experiencia de usuario
 
@@ -295,7 +295,7 @@ Requisitos de permisos
 
 #### <a name="skype-for-business-online-using-powershell"></a>Skype para profesionales Online mediante PowerShell
 
-1.  [Conectarse a Skype para la empresa en línea a través de PowerShell](https://technet.microsoft.com/library/dn362839(v=ocs.15).aspx).
+1.  [Conectarse a Skype para la empresa en línea a través de PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 2.  Ejecute el siguiente comando:  
     **.Tenantid (get-cstenant)**
@@ -477,7 +477,7 @@ _Tabla 4 - filtro de informe_
 
 ## <a name="import-the-cqd-templates"></a>Importar las plantillas CQD
 
-Esta guía consta de [dos plantillas de CQD curated](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true). Estas plantillas aceleran su uso de CQD y proporcionan una oportunidad de aprovechar rápidamente las capacidades del CQD para realizar un impacto en los equipos o Skype de los usuarios para que la experiencia empresarial. La plantilla de todas las redes, aunque optimizado para trabajar con un edificio se puede usar el archivo de datos, mientras se trabaja hacia la recopilación y la carga de información de creación en CQD, tal como se describe en la siguiente sección.
+Esta guía consta de [dos plantillas de CQD curated](https://aka.ms/qertemplates). Estas plantillas aceleran su uso de CQD y proporcionan una oportunidad de aprovechar rápidamente las capacidades del CQD para realizar un impacto en los equipos o Skype de los usuarios para que la experiencia empresarial. La plantilla de todas las redes, aunque optimizado para trabajar con un edificio se puede usar el archivo de datos, mientras se trabaja hacia la recopilación y la carga de información de creación en CQD, tal como se describe en la siguiente sección.
 
 **Para importar las plantillas (. CQDX) en CQD en línea**
 
@@ -1048,7 +1048,7 @@ Números de versión de Skype para profesionales de 2015 y 2016 pueden encontrar
 
 -   [Versiones de canal de actualización de cliente de Office 365](https://technet.microsoft.com/office/mt465751?f=255&MSPPError=-2147217396)
 
--   [Números de versión y de compilación de Office 365 ejecutar, haga clic en](https://support.office.com/article/Version-and-build-numbers-of-update-channel-releases-ae942449-1fca-4484-898b-a933ea23def7)
+-   [Números de versión y de compilación de Office 365 ejecutar, haga clic en](https://docs.microsoft.com/en-us/officeupdates/update-history-office365-proplus-by-date)
 
 -   [Skype para la empresa, descargas y actualizaciones](https://technet.microsoft.com/office/dn788954.aspx)
 
@@ -1154,7 +1154,7 @@ Para obtener más información, vea el artículo siguiente acerca del [rendimien
 
 ### <a name="building-data-file"></a>Archivo de datos de creación
 
--   [Activar y usar CQD en Skype para profesionales en línea](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-in-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)
+-   [Activar y usar CQD en Skype para profesionales en línea](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)
 
 <a name="CQD-training"></a>
 
@@ -1164,17 +1164,17 @@ Para obtener más información, vea el artículo siguiente acerca del [rendimien
 
 -   Guía de [Introducción a CQD](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Configuring%20Call%20Quality%20Dashboard%20to%20monitor%20your%20Skype%20for%20Business%20Online%20Environment) y taller.
 
--   [Guía en línea CQD dimensiones y medidas](https://support.office.com/article/Dimensions-and-measures-available-in-Call-Quality-Dashboard-in-Skype-for-Business-Online-e97aeeee-9e43-416f-b433-9cdd63d8874b)
+-   [Guía en línea CQD dimensiones y medidas](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard)
 
 ### <a name="call-analytics-training"></a>Aprendizaje de análisis de llamada
 
 -   [Introducción a la llamada de análisis](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)
 
--   [Configurar el análisis de llamadas de Skype Empresarial](https://support.office.com/article/Set-up-Skype-for-Business-Call-Analytics-FBF7247A-84AE-46CC-9204-2C45B1C734CD)
+-   [Configurar el análisis de llamadas de Skype Empresarial](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics)
 
--   [Análisis de llamada y el panel de calidad de llamada](https://support.office.com/article/What-s-the-difference-between-Call-Analytics-and-Call-Quality-Dashboard-4CD5FE35-8463-4996-A252-086CD3CA2D9A)
+-   [Análisis de llamada y el panel de calidad de llamada](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)
 
--   [Usar el análisis de llamadas para solucionar problemas de mala calidad de llamada en Skype Empresarial](https://support.office.com/article/Use-Call-Analytics-to-troubleshoot-poor-Skype-for-Business-call-quality-66945036-ae87-4c08-a0bb-984e50d6b009)
+-   [Usar el análisis de llamadas para solucionar problemas de mala calidad de llamada en Skype Empresarial](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)
 
 ### <a name="call-analytics-support"></a>Soporte de análisis de llamada
 
@@ -1190,6 +1190,6 @@ Para obtener más información, vea el artículo siguiente acerca del [rendimien
 
 -   [Paquete de contenido de adopción de Office 365](https://blogs.office.com/2017/05/22/announcing-the-public-preview-of-the-office-365-adoption-content-pack-in-powerbi/)
 
--   [Creación de informes en Skype Empresarial Online](https://support.office.com/article/Skype-for-Business-Online-reporting-4935cddf-fafa-442d-91a3-246af01f8373)
+-   [Creación de informes en Skype Empresarial Online](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-online-reporting/skype-for-business-online-reporting)
 
 -   [Teams Microsoft reporting](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/New-usage-reports-for-Microsoft-Teams/ba-p/132614)
