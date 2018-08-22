@@ -1,5 +1,5 @@
 ---
-title: Ver una lista de usuarios que están habilitados para conferencias de Audio
+title: Ver una lista de los usuarios que están habilitados para conferencias de Audio en Skype para profesionales en línea
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,34 +14,31 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within the Skype for Business admin center. '
-ms.openlocfilehash: d7a5c272968def249df22af25fd36d257f8c74a0
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: 441fb797fa3e1325fe5c63a2b1d6a86d876ebb5b
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703468"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490629"
 ---
-# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing"></a>Ver una lista de usuarios que están habilitados para conferencias de Audio
+# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Ver una lista de los usuarios que están habilitados para conferencias de Audio en Skype para profesionales en línea
 
-Después de haber habilitado Skype para los usuarios empresariales o Teams de Microsoft en su organización para conferencias de Audio, puede ver la lista de los usuarios que han sido habilitados. Cuando examine la lista, también verá para cada usuario en la lista el tipo de proveedor de conferencias de audio que están usando, el número de teléfono de acceso telefónico predeterminada para el usuario, y si su organización no está habilitada para los identificadores de conferencia dinámico, la conferencia estática identificadores para las reuniones de conferencia de audio que organizan.
+> [!NOTE]
+> Para obtener información acerca de los usuarios habilitados en Microsoft Teams, consulte [Ver una lista de los usuarios que están habilitados para conferencias de Audio en los equipos de Microsoft](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams).
+
+Después de haber habilitado Skype para usuarios profesionales de la organización para conferencias de Audio, puede ver la lista de los usuarios que han sido habilitados. Cuando examine la lista, también verá para cada usuario en la lista el tipo de proveedor de conferencias de audio que están usando, el número de teléfono de acceso telefónico predeterminada para el usuario, y si su organización no está habilitada para los identificadores de conferencia dinámico, la conferencia estática identificadores para las reuniones de conferencia de audio que organizan.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>Ver una lista de los usuarios
 
-![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
-
-- En el panel de navegación izquierdo, haga clic en **usuarios**.
-
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
-    
+   
 - En el panel de navegación izquierdo, vaya a la **conferencia de Audio** > **a los usuarios**.
 
 ## <a name="what-else-should-i-know"></a>¿Qué más debo saber?

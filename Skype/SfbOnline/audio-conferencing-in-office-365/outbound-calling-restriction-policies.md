@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Los administradores pueden controlar el tipo de audioconferencias llamadas de RTC de conferencia y el usuario final que pueden realizar los usuarios.
-ms.openlocfilehash: 473baddce6ddac5fa523f02477cd89f6a2c4f4a2
-ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
+ms.openlocfilehash: 6096816ef9fb98811ec3ebed5a56b90a90b58c29
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22193017"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490579"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restricción de llamadas salientes para Audioconferencia y las llamadas RTC de usuario
 
@@ -50,11 +50,11 @@ Controles de llamada saliente se pueden aplicar por usuario y proporcionan los s
 
 2. En la parte superior de la página, haga clic en **Editar**.
 
-3. Haga clic en el menú situado junto a **Puentes de conferencia**y, a continuación, haga clic en **Editar** en la lista desplegable.
+3. Junto a **Conferencias de Audio**, haga clic en **Editar**.
 
-4. En el panel de **proveedor de puente de conferencia** , bajo **restricciones de marcado-outs de reuniones de este usuario**, seleccione la opción de salida de la restricción que desee.
+4. En **permisos de acceso telefónico de salida de las reuniones**, seleccione la opción de salida de la restricción que desee.
 
-5. Haga clic en **Aplicar**. 
+5. Haga clic en **Guardar**. 
 
 ![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
 

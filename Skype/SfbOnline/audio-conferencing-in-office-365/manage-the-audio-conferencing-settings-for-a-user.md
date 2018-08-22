@@ -1,5 +1,5 @@
 ---
-title: Administrar la configuración de conferencia de Audio para un usuario
+title: Administrar la configuración de conferencia de Audio para un usuario en Skype para profesionales en línea
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,47 +14,25 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Como un administrador de Office 365, puede editar la configuración de conferencias de Audio, como el proveedor, pago predeterminado o número de teléfono gratuito, identificador de conferencia o PIN: para un usuario individual en la organización. Si desea editar la configuración de la organización, vea Administrar la conferencia de Audio configuración para mi organización.'
-ms.openlocfilehash: 064625919cab532c10cdadd16ad95e144d301419
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+description: 'Como un administrador de Office 365, puede editar el Skype para la configuración de conferencias de Audio en línea de negocio, como el proveedor, pago predeterminado o número de teléfono gratuito, identificador de conferencia o PIN, para un usuario individual en la organización. '
+ms.openlocfilehash: ed8038955174a19e7861c872e1a095644288e6c2
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703378"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490529"
 ---
-# <a name="manage-the-audio-conferencing-settings-for-a-user"></a>Administrar la configuración de conferencia de Audio para un usuario
+# <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Administrar la configuración de conferencia de Audio para un usuario en Skype para profesionales en línea
+
+> [!Note]
+> Si desea administrar la configuración de usuario en Microsoft Teams, consulte [Administrar la configuración de conferencia de Audio para un usuario en los equipos de Microsoft](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams).
 
 Como un administrador de Office 365, puede editar la configuración de conferencias de Audio, como el proveedor, pago predeterminado o número de teléfono gratuito, identificador de conferencia o PIN: para un usuario individual en la organización. Si desea editar la configuración de la organización, vea [Administrar la configuración de conferencia de Audio de mi organización](manage-the-audio-conferencing-settings-for-my-organization.md).
 
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
-![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
-
-1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
-
-2. En la parte superior de la página, haga clic en **Editar**.
-
-3. En las **Conferencias de Audio**, modifique cualquiera de las siguientes opciones:
-
-|**Configuración**|**Descripción**|
-|:-----|:-----|
-|**Audioconferencias**|Para activar la conferencia de audio o desactivada para el usuario, haga clic en **Editar** junto a **Conferencias de Audio**y, a continuación, en el panel de **Conferencia de Audio** , activar o desactivar el **conferencias de Audio** .|
-|**Enviar información de conferencia en el correo electrónico**  |Haga clic en este vínculo sólo si desea enviar un correo electrónico inmediatamente al usuario con su número de identificador y el teléfono de conferencia. (Este correo electrónico no incluye el PIN). Vea [Enviar un correo electrónico a un usuario con su información de conferencia de Audio](send-an-email-to-a-user-with-their-dial-in-information.md).  |
-|**Id. de conferencia**  |Haga clic en **Restablecer el identificador de conferencia** si necesita restablecer el identificador de conferencia para el usuario. Para obtener más información, consulte [Restablecer un identificador de conferencia para un usuario](reset-a-conference-id-for-a-user.md).  |
-|**PIN** |Haga clic en **Restablecer PIN** si necesita restablecer el PIN para el usuario. Para obtener más información, vea [Restablecer el PIN de conferencia de Audio](reset-the-audio-conferencing-pin.md). |
-|**Valor predeterminado de número de teléfono de pago de conferencia** (obligatorio) |Se trata de números que se establecen en el puente de conferencia de audio. Dar formato a los números tal como desea que aparezca en Skype para las convocatorias de reunión de Microsoft Teams y profesionales. Para cambiar el número de teléfono de pago predeterminado, haga clic en **Editar** junto a la **conferencia de Audio** y, en el el panel de **Conferencia de Audio** , seleccione un número en **número de teléfono de pago**. |
-|**Invitaciones de este usuario pueden incluir el número de teléfono gratuito**|Para cambiar esta configuración, haga clic en **Editar** junto a **Conferencias de Audio** y en el panel de **Conferencia de Audio** , activar o desactivar el **incluir los números gratuitos en convocatorias de reunión de este usuario** . |
-|**Permisos de acceso telefónico de salida**|Para cambiar esta configuración, haga clic en **Editar** junto a **Conferencias de Audio** y en el panel de **Conferencia de Audio** , elija una opción bajo el **permiso de acceso telefónico de salida de las reuniones**.|
-
-![Muestra la configuración de conferencia de Audio para un usuario](../images/sfbaudioconf-usersettings.png)
- 
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
  
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     

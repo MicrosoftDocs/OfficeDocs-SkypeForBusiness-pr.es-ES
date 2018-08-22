@@ -1,5 +1,5 @@
 ---
-title: Habilitar o deshabilitar el envío de los correos electrónicos al cambia su configuración
+title: Habilitar o deshabilitar el envío de los correos electrónicos cuando cambie la configuración de conferencias de Audio en Skype para profesionales en línea
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,22 +14,24 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: 9656dc25347661626397e4f95daee7bd5f460a6d
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: 4d52603fb0d2701cbebd58644cd002dbc94baf89
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703448"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490589"
 ---
-# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change"></a>Habilitar o deshabilitar el envío de correos electrónicos cuando cambie la configuración de conferencias de Audio
+# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Habilitar o deshabilitar el envío de los correos electrónicos cuando cambie la configuración de conferencias de Audio en Skype para profesionales en línea
 
-Cuando están habilitados para conferencias de Audio, se notificación automáticamente a los usuarios por correo electrónico. Puede haber ocasiones, sin embargo, cuando desea reducir el número de mensajes de correo electrónico que se envían a Skype para usuarios profesionales y Microsoft Teams. En estos casos, puede deshabilitar el envío de correo electrónico.
+> [!Note]
+> Si desea habilitar o deshabilitar el envío de correos electrónicos en Microsoft Teams, vea [Habilitar o deshabilitar el envío por correo electrónico cuando el cambio de configuración de la conferencia de Audio en los equipos de Microsoft](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams).
+
+Cuando están habilitados para conferencias de Audio, se notificación automáticamente a los usuarios por correo electrónico. Puede haber ocasiones, sin embargo, cuando desea reducir el número de mensajes de correo electrónico que se envían a Skype para los usuarios empresariales. En estos casos, puede deshabilitar el envío de correo electrónico.
   
 Si se deshabilitación el envío de los correos electrónicos, mensajes de correo electrónico de conferencia de Audio no se enviará a los usuarios, incluidos los correos electrónicos para cuando los usuarios se habilitan o deshabilitan para conferencias de audio, cuando se restablezca su NIP y cuando el identificador de conferencia y la conferencia predeterminado cambios del número de teléfono .
   
@@ -52,23 +54,13 @@ Este es un ejemplo del correo electrónico que se envía a los usuarios cuando e
   - Cuando se cambia el proveedor de conferencia de audio de un usuario de Microsoft a otro proveedor o **Ninguno**.
     
   - Cuando se cambia el proveedor de conferencia de audio de un usuario a Microsoft.
-    
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Habilitar o deshabilitar el correo electrónico no se envía a los usuarios
 
-Puede usar Microsoft Teams, el Skype para el centro de administración de negocio o Windows PowerShell para habilitar o deshabilitar el correo electrónico enviado a los usuarios.
+Habilitar o deshabilitar el envío de correos electrónicos a los usuarios de acceso telefónico local
 
-![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
-1. En el panel de navegación izquierdo, vaya a **las reuniones** > **Puentes de conferencia**. 
-
-2. En la parte superior de la página de **Puentes de conferencia** , haga clic en **configuración de puente**. 
-
-3. En el panel **configuración de puente** , habilitar o deshabilitar **Enviar automáticamente mensajes de correo electrónico a los usuarios si cambia su configuración de acceso telefónico**.
-
-4. Haga clic en **Guardar**.
-  
+ 
 ![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
     
 1. En el **Skype para el centro de administración de negocio**, en el panel de navegación izquierdo, haga clic en **conferencias de Audio**.

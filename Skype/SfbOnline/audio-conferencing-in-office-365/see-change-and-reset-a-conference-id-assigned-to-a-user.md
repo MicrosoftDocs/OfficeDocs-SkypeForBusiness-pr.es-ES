@@ -1,5 +1,5 @@
 ---
-title: Ver, modificar y restablecer un identificador de conferencia asignado a un usuario
+title: Ver, cambiar y restablecer un identificador de conferencia asignado a un usuario en Skype para profesionales en línea
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,22 +14,24 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: "Learn how to assign a conference ID to a user in Skype for Business and what the conference ID's parameters should be. "
-ms.openlocfilehash: eccbcd31add14026d2b5f3a57348ae5d6f1db2a5
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+description: 'Obtenga información sobre cómo asignar un identificador de conferencia a un usuario en Skype para profesionales en línea y cuál deben ser los parámetros de los identificadores de conferencia. '
+ms.openlocfilehash: 19a5af7a3a9a06e99556eda09f00566843551a34
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703408"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490639"
 ---
-# <a name="view-and-reset-a-conference-id-assigned-to-a-user"></a>Ver y restablecer un identificador de conferencia asignado a un usuario
+# <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Ver y restablecer un identificador de conferencia asignado a un usuario en Skype para profesionales en línea
 
-Un identificador de conferencia se asigna automáticamente a un Skype para usuario empresarial o Teams de Microsoft cuando se configuran para conferencias de Audio en Office 365 y usar Microsoft como el proveedor de conferencia de audio. El identificador de conferencia asignado se envía en la invitación a la reunión cuando la reunión está programada. Cada reunión que un usuario programa obtener asignará un identificador de conferencia único. 
+> [!Note]
+> Para obtener información acerca de la conferencia de usuario identificadores en Microsoft Teams, vea [Ver y restablecer un identificador de conferencia asignado a un usuario en Microsoft Teasms](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams).
+
+Un identificador de conferencia se asigna automáticamente a un Skype para usuarios de empresa cuando se configuran para conferencias de Audio en Office 365 y usar Microsoft como el proveedor de conferencia de audio. El identificador de conferencia asignado se envía en la invitación a la reunión cuando la reunión está programada. Cada reunión que un usuario programa obtener asignará un identificador de conferencia único. 
   
 Si bien crea automáticamente un identificador de conferencia y se asigna a un usuario, puede haber ocasiones cuando un usuario no desea usar este uno y que desea establecer para un cierto número, o cuando los usuarios no pueden recordar o que han perdido su identificador de conferencia. Puede usar el **Skype para el centro de administración de negocio** y Windows PowerShell para ver, cambiar y restablecer su identificador de conferencia.
   
@@ -41,26 +43,6 @@ Se enviará un correo electrónico al usuario con el identificador de conferenci
 ## <a name="view-and-reset-conference-ids"></a>Ver y restablecer los identificadores de conferencia
 
 ### <a name="to-view-the-conference-id"></a>Para ver el identificador de conferencia
-
-![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
-
-1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
-
-2. En la parte superior de la página, haga clic en **Editar**.
-
-3. En las **Conferencias de Audio**, mire en el **Identificador de conferencia**.
-
-    > [!TIP]
-    > Puede enviar toda la información de conferencia para el usuario en un correo electrónico que incluye el identificador de conferencia y los números de teléfono de audio, haga clic en el vínculo **Enviar información de conferencia en el correo electrónico** .
-  
-Puede usar Windows PowerShell para ver el identificador de conferencia para un usuario. Para ello, ejecute:
-    
-  ```
-  Get-CsOnlineDialInConferencingUser -Identity "Amos Marble"  
-  ```
-
-    See [Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 ) to learn more about the cmdlet.
-
 
 ![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
 
@@ -77,6 +59,8 @@ Puede ver su identificador de conferencia y enviar a los usuarios.
     > [!TIP]
     > Puede enviar toda la información de conferencia para el usuario en un correo electrónico que incluye el identificador de conferencia y los números de teléfono de audio, haga clic en el vínculo **Enviar información de conferencia a través de correo electrónico** después de seleccionar el usuario en la página **usuarios** .
 
+Vea **Enviar un correo electrónico a un usuario con su información de conferencias de Audio**.
+
 Puede usar Windows PowerShell para ver el identificador de conferencia para un usuario. Para ello, ejecute:
     
   ```
@@ -88,24 +72,8 @@ Puede usar Windows PowerShell para ver el identificador de conferencia para un u
   
 ### <a name="to-reset-the-conference-id"></a>Para restablecer el identificador de conferencia
 
-Puede restablecer un identificador de conferencia para un usuario si, por ejemplo, si olvida.
-  
-![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
-
-1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
-
-2. En la parte superior de la página, haga clic en **Editar**.
-
-3. En **Conferencias de Audio**, haga clic en **Restablecer el identificador de conferencia**.
-
-4. En la ventana **Restablecer Id. de conferencia** , haga clic en **Restablecer**. Una conferencia que se creará automáticamente el identificador y un correo electrónico enviado al usuario con el nuevo identificador de conferencia.
-    
-    Puede restablecer el identificador de conferencia para un usuario mediante el uso de Windows PowerShell. Para ello, ejecute:
-    
-  ```
-  Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ResetConferenceID 8271964
-  ```
-
+Puede restablecer un identificador de conferencia para un usuario si, por ejemplo, olvida.
+ 
 ![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
@@ -116,7 +84,9 @@ Puede restablecer un identificador de conferencia para un usuario si, por ejempl
     
 4. En la **Restablecer el identificador de conferencia?** ventana, haga clic en **Sí**. Una conferencia que se creará automáticamente el identificador y un correo electrónico enviado al usuario con el nuevo identificador de conferencia.
     
-    Puede restablecer el identificador de conferencia para un usuario mediante el uso de Windows PowerShell. Para ello, ejecute:
+Vea **Enviar un correo electrónico a un usuario con su información de conferencias de Audio**.
+
+Puede restablecer el identificador de conferencia para un usuario mediante el uso de Windows PowerShell. Para ello, ejecute:
     
   ```
   Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ResetConferenceID 8271964

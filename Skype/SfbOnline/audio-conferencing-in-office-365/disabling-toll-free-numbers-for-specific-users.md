@@ -1,5 +1,5 @@
 ---
-title: Deshabilitar a los números gratuitos para usuarios específicos
+title: Deshabilitar a los números gratuitos para Skype específico para los usuarios empresariales en línea
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -13,20 +13,22 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Los administradores pueden controlar cómo los organizadores pueden usar los números gratuitos para sus reuniones.
-ms.openlocfilehash: 4bee4449dd8e21ded52f40cc04832bd40b15c139
-ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
+ms.openlocfilehash: 1cd144af4f57b3c4ecb19de6c4aeea36f5d2baed
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22193048"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490549"
 ---
-# <a name="disabling-toll-free-numbers-for-specific-users"></a>Deshabilitar a los números gratuitos para usuarios específicos
+# <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Deshabilitar a los números gratuitos para Skype específico para los usuarios empresariales en línea
+
+> [!Note]
+> Para obtener información acerca de los números deshabilitar libre de herramienta para los usuarios de los equipos, vea [Deshabilitar los números gratuitos para usuarios de equipos específicos](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users).
 
 Si su organización tiene los números gratuitos en su Bridge Conferencing de Audio de Microsoft, puede permitir o impedir su uso en las reuniones de los organizadores específicos.  
 
@@ -43,24 +45,8 @@ Cuando se deshabilitan los números gratuitos para el organizador de una determi
 
  - Los participantes pueden continuar unirse a reuniones del organizador utilizando números de teléfono de pago. 
 
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Deshabilitar a los números gratuitos para usuarios específicos 
 
-![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
-
-1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
-
-2. En la parte superior de la página, haga clic en **Editar**.
-
-3. Haga clic en el menú situado junto a **Puentes de conferencia**y, a continuación, haga clic en **Editar** en la lista desplegable.
-
-4. En el panel de **proveedor de puente de conferencia** , desactive **Permitir utilizando los números gratuitos en el puente de conferencia de su organización para unirse a las reuniones de este usuario**. 
-
-5. Haga clic en **Aplicar.** 
-
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
 
 1. En el **Skype para el centro de administración de negocio**, en el panel de navegación izquierdo, vaya a la **conferencia de Audio** > **a los usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles. 
 

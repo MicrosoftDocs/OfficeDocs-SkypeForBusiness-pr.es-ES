@@ -1,5 +1,5 @@
 ---
-title: Ver una lista de números de conferencia de Audio
+title: Ver una lista de números de conferencia de Audio de Skype para profesionales en línea
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,29 +14,31 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Learn how to look up your dial-in conferencing numbers from within Skype for Business. '
-ms.openlocfilehash: 70602e252d7c31bff7d6181c0cd5a51353da2def
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+description: 'Obtenga información sobre cómo buscar los números de conferencia de acceso telefónico desde dentro de Skype para profesionales en línea. '
+ms.openlocfilehash: 84d6f4d1d1d1358a62ec8d0eb2334c92c416adea
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703662"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490599"
 ---
-# <a name="see-a-list-of-audio-conferencing-numbers"></a>Ver una lista de números de conferencia de Audio
+# <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Ver una lista de números de conferencia de Audio de Skype para profesionales en línea
 
-Cuando se establece una conferencia con Audio de Skype para los usuarios profesionales y Microsoft Teams, puede ver los números de teléfono que están a su disposición para conferencias de audio. Esta lista tendrá todos los números de teléfono de conferencia de audio que están disponibles para su organización.
+> [!NOTE]
+> Para obtener información acerca de los números de conferencias de Audio en Microsoft Teams, consulte [Ver una lista de números de conferencias de Audio en los equipos de Microsoft](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams).
+
+Cuando se establece una conferencia con Audio de Skype para los usuarios de negocios, puede ver los números de teléfono que están a su disposición para conferencias de audio. Esta lista tendrá todos los números de teléfono de conferencia de audio que están disponibles para su organización.
   
  **¿Busca los precios?** Vea [precios para conferencias de Audio](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
   
 > [!IMPORTANT]
-> **No hay un recurso que contiene una lista de todos los números de acceso telefónico para conferencias de Audio.** Si está buscando para ver si hay números de teléfono de acceso telefónico disponibles en su área o país o región, vaya a **Skype para el centro de administración de negocio** > **voz** > **Los números de teléfono**, haga clic en **Agregar**y, a continuación, haga clic en nuevo servicio de ** Los números de**. Use las listas de **País o región**, **Estado o región** y **Ciudad** para filtrar la búsqueda. Además, si busca los números de teléfono gratuito de servicio, seleccione **gratuito** desde la provincia o región **** lista.
+> **No existe un recurso que incluya un listado con todos los números de acceso telefónico local de Audioconferencia.** Si está buscando para ver si hay números de teléfono de acceso telefónico disponibles en su área o país o región, vaya a **Skype para el centro de administración de negocio** > **voz** > **Los números de teléfono**, haga clic en **Agregar**y, a continuación, haga clic en nuevo servicio de ** Los números de**. Use las listas de **País o región**, **Estado o región** y **Ciudad** para filtrar la búsqueda. Además, si busca los números de teléfono gratuito de servicio, seleccione **gratuito** desde la provincia o región **** lista.
   
-Si solo hay un número de teléfono disponible en su organización, todos los usuarios lo usarán como número predeterminado. Cuando varios números de teléfono están disponibles, puede seleccionar el número de teléfono predeterminado para cada usuario. Este número predeterminado se incluirá en Skype para las invitaciones a reuniones de negocios y Microsoft Teams.
+Si solo hay un número de teléfono disponible en su organización, todos los usuarios lo usarán como número predeterminado. Cuando varios números de teléfono están disponibles, puede seleccionar el número de teléfono predeterminado para cada usuario. Este número predeterminado se incluirá en Skype para las invitaciones a reuniones de negocio.
   
 Puede ver [el teléfono invita los números incluidos en](set-the-phone-numbers-included-on-invites.md) para cambiar el número de teléfono de acceso telefónico para un único usuario.
   
@@ -47,15 +49,6 @@ Puede ver [el teléfono invita los números incluidos en](set-the-phone-numbers-
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Para ver los números de teléfono de conferencia de audio
-
-![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
-
-1. En el panel de navegación izquierdo, vaya a **las reuniones** > **puentes de conferencia**. 
-2.  Ver los números de teléfono que están disponibles para conferencias de audio.
-
-- También puede ver la ubicación y el idioma principal que se utilizará en el operador automático de conferencia de audio.
-
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     

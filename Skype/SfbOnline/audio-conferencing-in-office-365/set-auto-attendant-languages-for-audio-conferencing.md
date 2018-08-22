@@ -1,5 +1,5 @@
 ---
-title: Establecer idiomas del operador automático para conferencias de Audio
+title: Establecer los idiomas de operador automático para conferencias de Audio en Skype para profesionales en línea
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,22 +14,24 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Vea cómo seleccionar los idiomas operador automático de conferencia de audio para un número de conferencia de audio.
-ms.openlocfilehash: 44c05f081115ddf50eefd8df97765b3cbd82ef56
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+description: Vea cómo seleccionar los idiomas operador automático de conferencia de audio para un número de conferencias de audio en Skype para profesionales en línea.
+ms.openlocfilehash: 026a09290c6e008493784c0d883220e03d13559f
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703772"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490519"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing"></a>Establecer idiomas del operador automático para conferencias de Audio
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Establecer los idiomas de operador automático para conferencias de Audio en Skype para profesionales en línea
 
-El operador automático de conferencia de Audio de Skype para empresas y Microsoft Teams puede saludar a los autores de llamadas de audioconferencias en un número de diferentes idiomas unirse a una reunión.
+> [!Note]
+> Para obtener información acerca de cómo establecer el idioma de operador automático en Microsoft Teams, vea [establecer idiomas de operador automático para conferencias de Audio en los equipos de Microsoft](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams).
+
+El operador automático de conferencia de Audio de Skype para la empresa puede saludar a los autores de llamadas de audioconferencias en un número de diferentes idiomas unirse a una reunión.
   
 Elegir un idioma principal y hasta cuatro idiomas secundarios. El idioma principal que ha configurado en primer lugar se va a usar y los idiomas secundarios utilizará el operador automático de forma que seleccione. 
   
@@ -40,21 +42,6 @@ Elegir un idioma principal y hasta cuatro idiomas secundarios. El idioma princip
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Configurar la conferencia de idiomas de operador automático
-
-![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
-
-1. En el panel de navegación izquierdo, vaya a **las reuniones** > **Puentes de conferencia**.
-
-2. Seleccione el número de teléfono de conferencia de audio de la lista y, en la parte superior de la página, haga clic en **Editar**.
-
-3. En el panel de la derecha, seleccione el idioma predeterminado que desee y los idiomas alternativos. 
- 
-    > [!NOTE]
-    > Se enumeran los predeterminados y los idiomas alternativos que se admiten. El orden en que los seleccione en las listas de será el orden de los idiomas que se presentan a los autores de llamadas. 
-
-4. Haga clic en **Aplicar**.
-
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **Uso de Skype para la empresa en línea**
 
 Debe ser un [administrador global de Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) o [Skype para administración empresarial](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) para llevar a cabo este paso.
     

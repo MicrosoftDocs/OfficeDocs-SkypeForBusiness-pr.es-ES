@@ -1,5 +1,5 @@
 ---
-title: Restablecer el PIN de conferencia de Audio
+title: Restablecer el PIN en Skype de conferencia de Audio para la empresa en línea
 mms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,39 +14,28 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Obtenga información acerca de cómo restablecerlos y lo que debe saber acerca de PIN. '
-ms.openlocfilehash: 85e890327da538016ffb874ee01be0e86959f47e
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+description: 'Obtenga información acerca de cómo restablecer en Skype para profesionales en línea y lo que debe saber acerca de PIN. '
+ms.openlocfilehash: 7e47f3e33dbb6811f5fabafc1ccd213f8e0bac11
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703762"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490609"
 ---
-# <a name="reset-the-audio-conferencing-pin"></a>Restablecer el PIN de conferencia de Audio
+# <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Restablecer el PIN en Skype de conferencia de Audio para la empresa en línea
 
-Un NIP es un código formado por los números que se crean para cada Skype para usuarios profesionales y Microsoft Teams está habilitado para conferencias de audio. PIN de conferencia de audio se usan por los organizadores de reuniones para identificar que son el organizador de la reunión y que puedan iniciar una reunión a través del teléfono. Si usan el Skype para aplicación empresarial o Microsoft Teams para iniciar la reunión, un PIN no es necesario. Si los usuarios olvidan su PIN y no pueden encontrar en el correo electrónico que se envió a ellos cuando se han habilitado para conferencias de audio, un administrador puede restablecer su NIP, o pueden restablecer su propios NIP.
+> [!Note]
+> Para obtener información acerca del restablecimiento de PIN de conferencia de Audio en Microsoft Teams, consulte [Restablecer el PIN de conferencia de Audio en los equipos de Microsoft](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams).
+
+Un NIP es un código formado por los números que se crean para cada Skype para usuarios de empresa que está habilitada para conferencias de audio. PIN de conferencia de audio se usan por los organizadores de reuniones para identificar que son el organizador de la reunión y que puedan iniciar una reunión a través del teléfono. Si usan el Skype para la aplicación empresarial para iniciar la reunión, un PIN no es necesario. Si los usuarios olvidan su PIN y no pueden encontrar en el correo electrónico que se envió a ellos cuando se han habilitado para conferencias de audio, un administrador puede restablecer su NIP, o pueden restablecer su propios NIP.
   
-Las reuniones se pueden iniciar cuando se une a un usuario autenticado mediante un Skype para aplicación empresarial o Microsoft Teams o cuando el organizador se une a con su PIN a través del teléfono. Cuando una reunión necesita un PIN para empezar, los usuarios que se unan a la reunión por teléfono se colocarán en la sala de espera y escucharán música en espera hasta que se inicie la reunión. Si el organizador de la reunión no necesita un PIN para iniciar la reunión por teléfono, a los autores de la llamada no se les pedirá un PIN cuando se unan a la reunión.
-
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+Las reuniones se pueden iniciar cuando se une a un usuario autenticado mediante la Skype para la aplicación empresarial o cuando se une el organizador con su PIN a través del teléfono. Cuando una reunión necesita un PIN para empezar, los usuarios que se unan a la reunión por teléfono se colocarán en la sala de espera y escucharán música en espera hasta que se inicie la reunión. Si el organizador de la reunión no necesita un PIN para iniciar la reunión por teléfono, a los autores de la llamada no se les pedirá un PIN cuando se unan a la reunión.
   
 ## <a name="reset-a-users-pin"></a>Restablecer un PIN de usuario
-
-![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
-
-1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
-
-2. En la parte superior de la página, haga clic en **Editar**.
-
-3. En las **Conferencias de Audio**, haga clic en **Restablecer PIN**.
-
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png)  **utilizando el Skype para el centro de administración de negocio**
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
@@ -60,13 +49,6 @@ Las reuniones se pueden iniciar cuando se une a un usuario autenticado mediante 
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
    
 ## <a name="have-a-user-reset-his-or-her-own-pin"></a>Tener un usuario restablezca el NIP de su propia
-
-![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
-
-1. Hacer que el usuario vaya a [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing).
-2. Haga clic en **Restablecer PIN**. 
-
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png)  **utilizando el Skype para el centro de administración de negocio**
 
 Un usuario puede restablecer un PIN mediante el uso de la opción de **Restablecimiento de PIN** en la página de **conferencia de acceso telefónico** . Puede tener acceso a esta página en una de estas tres maneras:
 
