@@ -1,48 +1,49 @@
 ---
-title: "Recursos de soporte técnico para Microsoft Teams"
+title: Recursos de soporte técnico para Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: lolaj, ninadara
-description: "Una lista de recursos de soporte técnico para Microsoft Teams que le ayudarán a usarlo de manera más eficiente y efectiva."
+ms.reviewer: lolaj
+description: Una lista de recursos de soporte técnico para Microsoft Teams que le ayudarán a usarlo de manera más eficiente y efectiva.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c5239c2d6ff78843707fb135a35a82e10d788ad
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: af5c0d51b5958e815d933a125cb322c4799d79de
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546362"
 ---
-<a name="support-resources-for-microsoft-teams"></a><span data-ttu-id="7b028-103">Recursos de soporte técnico para Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="7b028-103">Support resources for Microsoft Teams</span></span>
+<a name="support-resources-for-microsoft-teams"></a><span data-ttu-id="fb35b-103">Recursos de soporte técnico para Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="fb35b-103">Support resources for Microsoft Teams</span></span>
 =====================================
 
-## <a name="help-practical-guidance-and-tools"></a><span data-ttu-id="7b028-104">Ayuda, guía práctica y herramientas</span><span class="sxs-lookup"><span data-stu-id="7b028-104">Help, practical guidance, and tools</span></span>
+## <a name="help-practical-guidance-and-tools"></a><span data-ttu-id="fb35b-104">Ayuda, guía práctica y herramientas</span><span class="sxs-lookup"><span data-stu-id="fb35b-104">Help, practical guidance, and tools</span></span>
 
--   [<span data-ttu-id="7b028-105">Asesor de implementación de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="7b028-105">Microsoft Teams Deployment Advisor</span></span>](https://go.microsoft.com/fwlink/?linkid=843465)
+-   [<span data-ttu-id="fb35b-105">Asesor de implementación de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="fb35b-105">Microsoft Teams Deployment Advisor</span></span>](https://go.microsoft.com/fwlink/?linkid=843465)
 
--   [<span data-ttu-id="7b028-106">Ayuda de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="7b028-106">Microsoft Teams Help</span></span>](https://support.office.com/Teams)
+-   [<span data-ttu-id="fb35b-106">Ayuda de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="fb35b-106">Microsoft Teams Help</span></span>](https://support.office.com/Teams)
 
--   [<span data-ttu-id="7b028-107">Centro de aprendizaje de Office - Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="7b028-107">Office Training Center - Teams</span></span>](https://support.office.com/article/Microsoft-Teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+-   [<span data-ttu-id="fb35b-107">Centro de aprendizaje de Office - Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="fb35b-107">Office Training Center - Teams</span></span>](https://support.office.com/article/Microsoft-Teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 
--   [<span data-ttu-id="7b028-108">Kit para el éxito del cliente de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="7b028-108">Microsoft Teams Customer Success Kit</span></span>](https://go.microsoft.com/fwlink/?linkid=846006)
+-   [<span data-ttu-id="fb35b-108">Kit para el éxito del cliente de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="fb35b-108">Microsoft Teams Customer Success Kit</span></span>](https://go.microsoft.com/fwlink/?linkid=846006)
 
--   [<span data-ttu-id="7b028-109">Comunidad tecnológica de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="7b028-109">Microsoft Teams Tech Community</span></span>](https://go.microsoft.com/fwlink/p/?linkid=832751)
+-   [<span data-ttu-id="fb35b-109">Comunidad tecnológica de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="fb35b-109">Microsoft Teams Tech Community</span></span>](https://go.microsoft.com/fwlink/p/?linkid=832751)
 
--   [<span data-ttu-id="7b028-110">Canal de vídeo de YouTube para Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="7b028-110">Microsoft Teams YouTube video channel</span></span>](https://go.microsoft.com/fwlink/?linkid=854398)
+-   [<span data-ttu-id="fb35b-110">Canal de vídeo de YouTube para Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="fb35b-110">Microsoft Teams YouTube video channel</span></span>](https://go.microsoft.com/fwlink/?linkid=854398)
 
--   [<span data-ttu-id="7b028-111">Microsoft Teams Developer Preview</span><span class="sxs-lookup"><span data-stu-id="7b028-111">Microsoft Teams Developer Preview</span></span>](https://go.microsoft.com/fwlink/?linkid=854397)
+-   [<span data-ttu-id="fb35b-111">Microsoft Teams Developer Preview</span><span class="sxs-lookup"><span data-stu-id="fb35b-111">Microsoft Teams Developer Preview</span></span>](https://go.microsoft.com/fwlink/?linkid=854397)
 
--   [<span data-ttu-id="7b028-112">Problemas conocidos</span><span class="sxs-lookup"><span data-stu-id="7b028-112">Known Issues</span></span>](https://support.office.com/article/Known-issues-for-Microsoft-Teams-04b35d1b-bdca-420a-991b-878da5157650)
+-   [<span data-ttu-id="fb35b-112">Problemas conocidos</span><span class="sxs-lookup"><span data-stu-id="fb35b-112">Known Issues</span></span>](https://docs.microsoft.com/en-us/microsoftteams/known-issues)
 
--   [<span data-ttu-id="7b028-113">Notas de la versión del cliente de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="7b028-113">Teams client release notes</span></span>](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
+-   [<span data-ttu-id="fb35b-113">Notas de la versión del cliente de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="fb35b-113">Teams client release notes</span></span>](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
 
-## <a name="feedback-and-support-options"></a><span data-ttu-id="7b028-114">Comentarios y opciones de soporte técnico</span><span class="sxs-lookup"><span data-stu-id="7b028-114">Feedback and support options</span></span>
+## <a name="feedback-and-support-options"></a><span data-ttu-id="fb35b-114">Comentarios y opciones de soporte técnico</span><span class="sxs-lookup"><span data-stu-id="fb35b-114">Feedback and support options</span></span>
 
--   [<span data-ttu-id="7b028-115">Portal de comentarios de Microsoft Teams en UserVoice</span><span class="sxs-lookup"><span data-stu-id="7b028-115">Microsoft Teams feedback portal on UserVoice</span></span>](https://go.microsoft.com/fwlink/?linkid=854400)
+-   [<span data-ttu-id="fb35b-115">Portal de comentarios de Microsoft Teams en UserVoice</span><span class="sxs-lookup"><span data-stu-id="fb35b-115">Microsoft Teams feedback portal on UserVoice</span></span>](https://go.microsoft.com/fwlink/?linkid=854400)
 
--   [<span data-ttu-id="7b028-116">Comunidad tecnológica de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="7b028-116">Microsoft Teams Tech Community</span></span>](https://go.microsoft.com/fwlink/p/?linkid=832751)
+-   [<span data-ttu-id="fb35b-116">Comunidad tecnológica de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="fb35b-116">Microsoft Teams Tech Community</span></span>](https://go.microsoft.com/fwlink/p/?linkid=832751)
 
--   <span data-ttu-id="7b028-117">En el cliente de Microsoft Teams (ya sea de escritorio o web), seleccione **Comentarios** > **Compartir una idea**.</span><span class="sxs-lookup"><span data-stu-id="7b028-117">In the Microsoft Teams client (desktop or web app), select **Feedback** > **Share an idea**.</span></span>
+-   <span data-ttu-id="fb35b-117">En el cliente de Microsoft Teams (ya sea de escritorio o web), seleccione **Comentarios** > **Compartir una idea**.</span><span class="sxs-lookup"><span data-stu-id="fb35b-117">In the Microsoft Teams client (desktop or web app), select **Feedback** > **Share an idea**.</span></span>
