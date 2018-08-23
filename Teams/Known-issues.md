@@ -10,12 +10,12 @@ ms.reviewer: marcl
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ca61e36069262ddb2ea43dde300c169d6992ba8
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: 07cccce7a0c0b13a42c776bff8b5b0367792d7a2
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546402"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599371"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
   
@@ -43,6 +43,10 @@ En este artículo se enumera los problemas conocidos de Microsoft Teams, por ár
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |"Asignaciones" aplicación permanece visible cuando deshabilitado  <br/> |Cuando la aplicación "Asignaciones" está deshabilitada en el centro de administración, sigue apareciendo en el cliente de los equipos de los usuarios con licencia EDU. Si lo selecciona cuando deshabilitado devolverá un error que indica, "Doh! Se produjo algún error..."  <br/> |No hay ninguna solución.  <br/> |29/12/17  <br/> |
+
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|No se puede eliminar los conectores como propietario de un equipo  <br/> |Si se intenta eliminar un conector como un propietario, que en caso contrario, puede agregar un conector, mientras "Permitir miembros para crear, actualizar y quitar conectores" está deshabilitada se produce un error que indica que el usuario no tiene permiso para hacerlo. <br/> |Habilitar temporalmente "Permitir miembros crear, actualizar y quitar conectores" le permitirá el propietario para eliminar el conector.  <br/> |27/7/18  <br/> |
 
 ## <a name="authentication"></a>Autenticación
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|

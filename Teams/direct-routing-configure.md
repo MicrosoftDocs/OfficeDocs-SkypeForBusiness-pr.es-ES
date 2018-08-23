@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Obtenga información sobre cómo configurar el enrutamiento directo de Microsoft teléfono del sistema.
-ms.openlocfilehash: 664aae1a213859a6e4e73ec4c75ce39b6058788e
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: bad3709635ccca83a4093e5115e46352f5dcaaff
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546529"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599433"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -518,19 +518,10 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
 El resultado es que la directiva de voz que se aplican a las llamadas de John Woods se sin restricciones y va a seguir la lógica de enrutamiento de llamadas disponible para llamadas de Estados Unidos, Canadá e internacional.
 
-## <a name="enable-calling-for-microsoft-teams"></a>Habilitar las llamadas de los equipos de Microsoft
-
-Antes de que un usuario puede ver la ficha llamadas en Microsoft Teams, tiene que habilitar privada llamada para el inquilino en Microsoft Teams. Para hacer esto:
-
-1.  Iniciar sesión como administrador de inquilinos en el centro de administración de Office 365.
-2.  Vaya a la **configuración y los servicios y complementos** y seleccione **Los equipos de Microsoft**. 
-3.  Expanda **las llamadas y las reuniones** y compruebe que **Permitir privada llamada** se encuentra **en**.
-
-    ![Captura de pantalla que muestra permitir privada llamada activado.](media/ConfigDirectRouting-CallsandMeetingsDialog.png)
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-the-users"></a>Establecer Teams Microsoft como cliente llamado preferido para los usuarios
 
-Enrutamiento directo sólo enrutar las llamadas a y desde los usuarios si usan equipos Cleint. Si su organización sólo usa los equipos cleint, "Equipos sólo" modo en la directiva de actualización se recomienda establecer. Si la organización usa Skype para Business Server o Skype para profesionales en línea, revise el siguiente documento [viaje de actualización y coexistencia de comprenda el funcionamiento de Skype para profesionales y los equipos](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype) y seleccione la opción adecuada. 
+Enrutamiento directo sólo enrutar las llamadas a y desde los usuarios si usan equipos Cleint. Si su organización utiliza sólo cliente de los equipos, "Equipos sólo" modo en la directiva de actualización se recomienda establecer. Si la organización usa Skype para Business Server o Skype para profesionales en línea, revise el siguiente documento [viaje de actualización y coexistencia de comprenda el funcionamiento de Skype para profesionales y los equipos](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype) y seleccione la opción adecuada. 
 
 
 ## <a name="see-also"></a>Vea también

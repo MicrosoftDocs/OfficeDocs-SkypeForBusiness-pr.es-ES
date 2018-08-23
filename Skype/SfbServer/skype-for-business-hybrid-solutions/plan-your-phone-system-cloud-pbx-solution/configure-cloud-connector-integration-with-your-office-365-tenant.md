@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Obtenga información sobre cómo configurar la integración de conector en la nube con el inquilino de Office 365.
-ms.openlocfilehash: d5ae0b70a22219ee0430908bd3b3752d6ebd6357
-ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
+ms.openlocfilehash: 01a3eac7356846b7d3b153ff4e01c9b52c3744ce
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2018
-ms.locfileid: "20211154"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599417"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configurar la integración de Cloud Connector con el inquilino de Office 365
  
@@ -168,7 +168,13 @@ Cuando una llamada de P2P se remite a una conferencia de RTC, la Skype para serv
     
     Tenga en cuenta que asignación de licencias sólo es necesario para la propagación de usuario en el Skype para el directorio en línea de negocio. Asignar una licencia de Office 365 (como E5) a la cuenta crear, permitir propagar los cambios de una hora, a continuación, quite la licencia de esta cuenta.
     
-2. Iniciar una sesión de PowerShell remota de inquilino con sus credenciales de administrador de inquilinos y, a continuación, ejecute el siguiente cmdlet para establecer el servidor de mediación y el FQDN del servidor perimetral a ese usuario de cuenta, reemplazar \<DisplayName\> con el nombre para mostrar del usuario para el cuenta que ha creado:
+2. Inicie una sesión de PowerShell remota de inquilino Azure AD mediante su global o credenciales de administrador del usuario y, a continuación, ejecute el siguiente cmdlet para establecer el departamento para la cuenta de usuario de Azure AD configurado en el paso 1 para "HybridMediationServer":
+
+ ```
+  Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
+  ```
+
+3. Iniciar un inquilino Skype para profesionales sesión remota de PowerShell mediante su Skype para credenciales de administrador de inquilinos de negocio y, a continuación, ejecute el siguiente cmdlet para establecer el servidor de mediación y el FQDN del servidor perimetral a ese usuario de cuenta, reemplazar \<DisplayName\> con el nombre para mostrar del usuario para la cuenta que ha creado en el paso 1:
     
   ```
   Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
