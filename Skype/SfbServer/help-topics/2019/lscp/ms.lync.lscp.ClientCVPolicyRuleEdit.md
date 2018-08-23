@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 ROBOTS: NOINDEX, NOFOLLOW
 description: Una directiva de versión de cliente está compuesta de un conjunto de reglas de versión de cliente. Estas reglas definen las acciones que se necesitan realizar cuando los usuarios intentan iniciar sesión con clientes y versiones de clientes específicos.
-ms.openlocfilehash: cd89e0bd5bf6781ea8381563e592d57a3e68434a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ddebab20af21be8a6c3cbff558cec6d118dd60d0
+ms.sourcegitcommit: c85211a22921d02ffa9f300a4f8350ffbb90b38c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988737"
+ms.lasthandoff: 08/10/2018
+ms.locfileid: "22601916"
 ---
 # <a name="client-version-rule"></a>Regla de versiones de cliente
  
@@ -35,7 +35,7 @@ En las páginas **Nueva configuración de versión de cliente** o **Editar confi
 
 En las siguientes listas se describen los menús, comandos, campos y propiedades de la página.
   
-- **Agente de usuario** Puede seleccionar un tipo de cliente de la lista. En la siguiente tabla se recogen los códigos de agente de usuario.
+- **Agente de usuario** Puede seleccionar un tipo de cliente de la lista. En la siguiente tabla se recogen los códigos de agente de usuario. Esta lista incluye los tipos de cliente heredado, algunas de las cuales ya no son compatibles.  
     
 |**Nombre de cliente**|**Agente de usuario**|
 |:-----|:-----|

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este tema para obtener más información sobre la implementación de sistemas de salón de Skype v2 en las implementaciones de gran escala.
-ms.openlocfilehash: 7b4e1e9aa4caa8d88f2aa496495badc7401d6d90
-ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
+ms.openlocfilehash: 5ed6e041eb862c7bb50bde89ef172f9012ca8c2e
+ms.sourcegitcommit: 81c6775fdcf8726d2df83c421a85b7908f1f7412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20412321"
+ms.lasthandoff: 08/17/2018
+ms.locfileid: "22602000"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Implementación de sistemas de salón de Skype v2 mediante System Center Configuration Manager
 
@@ -116,7 +116,7 @@ Use las siguientes instrucciones para comprobar que se han configurado correctam
     2.  Seleccione **Aceptar** para agregar compatibilidad con la aplicación de HTML en la imagen de arranque.
 
 5.  *Opcional:* Para personalizar la experiencia de implementación, seleccione la ficha **personalización** .
-    -   Habilitar **comando admitir (sólo para pruebas)** si desea que tengan acceso a un símbolo del sistema durante la implementación. Cuando está habilitado, puede iniciar un símbolo del sistema mediante la selección F8 en cualquier momento durante la implementación.
+    -   Habilitar **comando admitir (sólo para pruebas)** si desea que tengan acceso a un símbolo del sistema durante la implementación. Cuando está habilitado, puede iniciar un símbolo del sistema mediante la selección **F8** en cualquier momento durante la implementación.
     -   También puede especificar una imagen de fondo personalizada que se mostrará durante la implementación. Para establecer una imagen, habilite **especificar el archivo de imagen de fondo personalizado (ruta de acceso UNC** y seleccione el fondo.
 
 6.  Cuando se le pida, seleccione **Sí** y distribuir la imagen de arranque actualizada a los puntos de distribución.
@@ -132,18 +132,19 @@ Administrador de configuración requiere un número de paquetes para implementar
 
 Necesario crear y configurar los siguientes paquetes y, a continuación, distribuirlas a los sistemas de sitio de Configuration Manager que se han asignado el rol de servidor del punto de distribución.
 
-| **Nombre del paquete**                     | **Tipo**               | **Descripción**                                                                        |
-|--------------------------------------|------------------------|----------------------------------------------------------------------------------------|
-| SRS v2 - SRS paquete de la aplicación     | Paquete de software       | Paquete para el kit de implementación de sistemas de salón de Skype v2                                   |
-| SRS v2 - paquete de Sysprep             | Paquete de software       | Paquete para el Unattended.xml personalizado configurar unidades de v2 de sistemas de salón de Skype         |
-| SRS v2 - Set-SRSComputerName paquete | Paquete de software       | Paquete de la aplicación HTML (HTA) asignar un nombre de equipo durante la implementación |
-| Las actualizaciones de SO SRS v2 - paquete          | Paquete de software       | Paquete de implementación de actualizaciones de sistema operativo obligatorio                                   |
-| SRS v2 - paquete de certificado raíz    | Paquete de software       | Paquete para implementar el certificado raíz (no es necesario para las unidades unido a un dominio)          |
-| SRS v2 - paquete de agente de OMS de Microsoft | Paquete de software       | Paquete para implementar y configurar al agente de conjunto de aplicaciones de administración de operaciones de Microsoft        |
-| SRS v2 - WinPE fondo paquete    | Paquete de software       | Paquete de la imagen de fondo personalizado usar con imágenes de arranque                        |
-| Windows 10 Enterprise                | Imagen de sistema operativo | Paquete para el archivo de instalación del sistema operativo (install.wim)                       |
-| Surface Pro                          | Paquete de controladores         | Paquete para los controladores de dispositivos y el firmware para Microsoft Surface Pro                  |
-| Surface Pro 4                        | Paquete de controladores         | Paquete para los controladores de dispositivos y el firmware de Microsoft Surface Pro 4                |
+| **Nombre del paquete**                     | **Tipo**               | **Descripción**                                                                           |
+|--------------------------------------|------------------------|-------------------------------------------------------------------------------------------|
+| SRS v2 - SRS paquete de la aplicación     | Paquete de software       | Paquete para el kit de implementación de sistemas de salón de Skype v2                                      |
+| SRS v2 - paquete de Sysprep             | Paquete de software       | Paquete para el Unattended.xml personalizado configurar unidades de v2 de sistemas de salón de Skype            |
+| SRS v2 - Set-SRSComputerName paquete | Paquete de software       | Paquete de la aplicación HTML (HTA) asignar un nombre de equipo durante la implementación    |
+| SRS v2 - configurar la instalación SRS         | Paquete de software       | Paquete para configurar la implementación de la aplicación de v2 de sistemas de salón de Skype                          |
+| Las actualizaciones de SO SRS v2 - paquete          | Paquete de software       | Paquete de implementación de actualizaciones de sistema operativo obligatorio                                      |
+| SRS v2 - paquete de certificado raíz    | Paquete de software       | Opcional: paquete para implementar el certificado raíz (no es necesario para las unidades unido a un dominio)  |
+| SRS v2 - paquete de agente de OMS de Microsoft | Paquete de software       | Opcional: paquete para implementar y configurar al agente de conjunto de aplicaciones de administración de operaciones de Microsoft|
+| SRS v2 - WinPE fondo paquete    | Paquete de software       | Paquete de la imagen de fondo personalizado usar con imágenes de arranque                           |
+| Windows 10 Enterprise                | Imagen de sistema operativo | Paquete para el archivo de instalación del sistema operativo (install.wim)                          |
+| Surface Pro                          | Paquete de controladores         | Paquete para los controladores de dispositivos y el firmware para Microsoft Surface Pro                     |
+| Surface Pro 4                        | Paquete de controladores         | Paquete para los controladores de dispositivos y el firmware de Microsoft Surface Pro 4                   |
 
 Para obtener más información, vea [paquetes y programas en System Center Configuration Manager](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs).
 
@@ -158,6 +159,7 @@ Cree la siguiente estructura de carpetas en el sitio de administración central 
 -   SRS v2 - paquete de certificado raíz
 -   SRS v2 - Set-SRSComputerName paquete
 -   SRS v2 - SRS paquete de la aplicación
+-   SRS v2 - configurar la instalación SRS
 -   SRS v2 - paquete de Sysprep
 -   Controladores
     -   Surface Pro
@@ -387,55 +389,13 @@ Crear este paquete para distribuir el certificado raíz para dispositivos que no
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <unattend xmlns="urn:schemas-microsoft-com:unattend">
-    <servicing>
-        <package action="configure">
-            <assemblyIdentity name="Microsoft-Windows-Foundation-Package" version="10.0.15063.0" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="" />
-            <selection name="Client-DeviceLockdown" state="true" />
-            <selection name="Client-EmbeddedLogon" state="true" />
-            <selection name="Client-EmbeddedBootExp" state="true" />
-            <selection name="Client-EmbeddedShellLauncher" state="true" />
-            <selection name="Client-KeyboardFilter" state="true" />
-            <selection name="Internet-Explorer-Optional-amd64" state="false" />
-            <selection name="MediaPlayback" state="false" />
-            <selection name="WindowsMediaPlayer" state="false" />
-            <selection name="Xps-Foundation-Xps-Viewer" state="false" />
-            <selection name="WorkFolders-Client" state="false" />
-            <selection name="SMB1Protocol" state="false" />
-            <selection name="SearchEngine-Client-Package" state="false" />
-            <selection name="Printing-Foundation-Features" state="false" />
-            <selection name="FaxServicesClientPackage" state="false" />
-            <selection name="Printing-Foundation-InternetPrinting-Client" state="false" />
-            <selection name="Printing-XPSServices-Features" state="false" />
-            <selection name="Printing-PrintToPDFServices-Features" state="false" />
-            <selection name="Microsoft-Hyper-V-Hypervisor" state="true" />
-            <selection name="Microsoft-Hyper-V-All" state="true" />
-            <selection name="Microsoft-Hyper-V" state="true" />
-        </package>
-    </servicing>
-    <settings pass="auditSystem">
-        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <AutoLogon>
-                <Enabled>true</Enabled>
-                <Username>Admin</Username>
-                <Password>
-                    <Value>cwBmAGIAUABhAHMAcwB3AG8AcgBkAA==</Value>
-                    <PlainText>false</PlainText>
-                </Password>
-            </AutoLogon>
-            <UserAccounts>
-                <LocalAccounts>
-                    <LocalAccount wcm:action="add">
-                        <Password>
-                            <Value>cwBmAGIAUABhAHMAcwB3AG8AcgBkAA==</Value>
-                            <PlainText>false</PlainText>
-                        </Password>
-                        <Name>Admin</Name>
-                        <Group>Administrators</Group>
-                        <DisplayName>Administrator</DisplayName>
-                        <Description>Administrator</Description>
-                    </LocalAccount>
-                </LocalAccounts>
-            </UserAccounts>
+    <settings pass="specialize">
+        <component name="Microsoft-Windows-Embedded-BootExp" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="NonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisableBootMenu>1</DisableBootMenu>
+            <DisplayDisabled>1</DisplayDisabled>
+        </component>
+        <component name="Microsoft-Windows-powercpl" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <PreferredPlan>8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c</PreferredPlan>
         </component>
     </settings>
     <settings pass="oobeSystem">
@@ -458,9 +418,23 @@ Crear este paquete para distribuir el certificado raíz para dispositivos que no
                     <PlainText>false</PlainText>
                 </Password>
             </AutoLogon>
+            <UserAccounts>
+                <LocalAccounts>
+                    <LocalAccount wcm:action="add">
+                        <Password>
+                            <Value>cwBmAGIAUABhAHMAcwB3AG8AcgBkAA==</Value>
+                            <PlainText>false</PlainText>
+                        </Password>
+                        <Name>Admin</Name>
+                        <Group>Administrators</Group>
+                        <DisplayName>Administrator</DisplayName>
+                        <Description>Administrator</Description>
+                    </LocalAccount>
+                </LocalAccounts>
+            </UserAccounts>
         </component>
     </settings>
-    <cpi:offlineImage cpi:source="wim://com-sccm01/_sources/capture/srscaptured.wim#SRSImage" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
+    <cpi:offlineImage cpi:source="wim:h:/install.wim#Windows 10 Enterprise" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
 </unattend>
 ```
 3.  En la consola de Configuration Manager, vaya a la **Biblioteca de Software** \> **Administración de aplicaciones** \> **paquetes**y, a continuación, seleccione **Crear paquete**.
@@ -496,11 +470,13 @@ Para obtener más información, vea [Administrar imágenes del sistema operativo
 
 Es compatible con sistemas de salas de Skype v2 Surface Pro y Surface Pro 4. Debe crear un paquete de controlador para cada modelo Surface Pro que tiene en su entorno.
 
+> [!IMPORTANT]
+> Los controladores deben ser compatibles con la compilación de Windows 10 Enterprise y la versión de kit de implementación de sistemas de salón de Skype v2. Para obtener más información, vea [descargar el firmware más reciente y los controladores para dispositivos superficiales](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices) y [Configurar una consola](console.md).
+
 1.  Descargue los controladores y el firmware más reciente.
     -   Para Surface Pro:<https://www.microsoft.com/download/details.aspx?id=55484>
     -   Para Surface Pro 4:<https://www.microsoft.com/download/details.aspx?id=49498>
-> [!IMPORTANT]
-> Los controladores deben ser compatibles con la compilación de Windows 10 Enterprise y la versión de kit de implementación de sistemas de salón de Skype v2. Para obtener más información, vea [descargar el firmware más reciente y los controladores para dispositivos superficiales](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices).
+
 2.  Extraiga el controlador descargado y firmware. Abra una ventana del símbolo del sistema y en el símbolo del sistema, escriba uno de los siguientes comandos:
     -   `msiexec /a C:\SurfacePro_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro"`
     -   `msiexec /a C:\SurfacePro4_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro 4"`
@@ -620,18 +596,19 @@ Puede descargar y fácilmente importar una secuencia de tareas de ejemplo y pers
 
     8.  **Configurar Windows y el Administrador de configuración**: este paso se implementa y se configura el cliente del Administrador de configuración. Actualizar este paso para especificar el paquete de cliente de Configuration Manager integradas.
 
-    9.  **Instalar el certificado de raíz**: en este paso se distribuye el certificado raíz para dispositivos que no pertenecen a un dominio y, por lo tanto, es opcional.
-        -   Quitar o deshabilitar este paso si no es necesario implementar un certificado raíz para las unidades de v2 de sistemas de salón de Skype.
-        -   Si es necesario realizar este paso, compruebe que esté seleccionado el **SRS v2: paquete de certificado raíz** .
+    9.  **Instalar el certificado de raíz**: en este paso se distribuye el certificado raíz para dispositivos que no pertenecen a un dominio y, por lo tanto, es opcional y está deshabilitado de forma predeterminada.
+        -   Habilitar este paso si es necesario implementar un certificado raíz para las unidades de v2 de sistemas de salón de Skype.
+        -   Si es necesario realizar este paso, compruebe están seleccionados el **SRS v2: paquete de certificado raíz** y **Deshabilitar 64-bit redirección del sistema de archivos** .
 
     10. **Instalar y configurar el agente de OMS**: este paso instala la versión de 64 bits del agente de conjunto de aplicaciones de administración de operaciones de Microsoft y configura el agente para conectarse a su área de trabajo de análisis de registro.
-        -   Deshabilitar este paso únicamente si va a utilizar algunas otras plataformas para supervisar el estado de las unidades de sistemas de salón de Skype v2.
+        -   Este paso está deshabilitado de forma predeterminada. Habilitar este paso únicamente si va a usar OMS para supervisar el estado de las unidades de sistemas de salón de Skype v2.
         -   Editar este paso y actualizar los parámetros de línea de comandos para especificar el **Identificador del área de trabajo** y la **Clave de área de trabajo**.
         -   Para obtener más información acerca de cómo obtener el identificador de las operaciones de administración de conjunto de aplicaciones de área de trabajo y la clave principal, vea [equipos Windows conectarse al servicio de registro de análisis de Azure](with-oms.md#configure-test-devices-for-operations-management-suite-setup) .
-        -   Compruebe que esté seleccionado el **SRS v2 – paquete de agente de OMS de Microsoft** .
+        -   Compruebe que están seleccionadas las **SRS v2 – paquete de agente de OMS de Microsoft** y **Deshabilitar 64-bit redirección del sistema de archivos** .
         -   Para obtener más información acerca de cómo supervisar el estado de la implementación de sistemas de salón de Skype v2, vea [administración de sistemas de planeación de las salas Skype v2 con OMS](../../plan-your-deployment/clients-and-devices/oms-management.md) y [administración de v2 de implementar sistemas de salón de Skype con OMS](with-oms.md#configure-test-devices-for-operations-management-suite-setup).
 
     11. **Los archivos de configuración de copia SRS v2**: este paso copia los archivos del programa de instalación y configuración necesarios desde el kit de implementación de sistemas de salón de Skype v2 a la unidad de disco duro local. Personalización no es necesaria para este paso.
+        -   Compruebe que están seleccionadas las **SRS v2 – paquete de aplicación SRS** y **Deshabilitar 64-bit redirección del sistema de archivos** .
 
     12. **Install-SRSv2--actualizaciones del sistema operativo**: este paso implementa las actualizaciones de sistema operativo obligatorio necesarias con la implementación de sistemas de salón de Skype v2. Siga este procedimiento:
         -   Compruebe la [consola de configurar un v2 de sistemas de salón de Skype](console.md) para ver qué actualizaciones son necesarias.
@@ -641,9 +618,19 @@ Puede descargar y fácilmente importar una secuencia de tareas de ejemplo y pers
 
     13. **Reiniciar el equipo**: en este paso se reinicia el equipo después de instalaron las actualizaciones del sistema operativo obligatorio. Personalización no es necesaria para este paso.
 
-    14. **Agregar usuario de Skype Local**: este paso crea la cuenta de Skype local se usa para iniciar sesión en Windows y para iniciar la aplicación de sistemas de salón de Skype v2 de automáticamente. Este paso no tiene ningún paquete de software asociado con él y, personalización no se requiere para él.
+    14. **Configurar componentes de Windows**: este paso configura las características requeridas de Windows. Personalización no es necesaria para este paso.
 
-    15. **Establecer de seguridad y configuración de aplicación de SRS**: este paso instala y configura la aplicación de sistemas de salón de Skype v2. Este paso utiliza los bits copiados localmente para instalar la aplicación y, por tanto, no tienen los paquetes de software asociados con él. Personalización no es necesaria para este paso.
+    15. **Reiniciar el equipo**: en este paso se reinicia el equipo después de que se configuran las características de Windows. Personalización no es necesaria para este paso.
+
+    16. **Agregar usuario de Skype Local**: este paso crea la cuenta de Skype local se usa para iniciar sesión en Windows y para iniciar la aplicación de sistemas de salón de Skype v2 de automáticamente. Este paso no tiene ningún paquete de software asociado con él y, personalización no se requiere para él.
+
+    17. **Establecer de seguridad y configuración de aplicación de SRS**: este paso configura los sistemas de la sala de Skype v2 instalación de la aplicación para el próximo inicio del sistema operativo.
+        -   Compruebe que están seleccionadas las **SRS v2 – Configurar paquete de instalación de SRS** y **Deshabilitar 64-bit redirección del sistema de archivos** .       
+
+> [!IMPORTANT]
+> Es muy importante que los pasos de la secuencia de tareas deben estar en el orden proporcionado. Modificación del orden de los pasos, o configurar pasos adicionales se puede dividir la implementación.
+> 
+> **Establecer de seguridad y configuración de aplicación de SRS** paso debe ser el último paso en la secuencia de tareas, en caso contrario, puede producirse un error de la implementación.
 
 ### <a name="create-deployment-for-the-task-sequence"></a>Creación de implementación para la secuencia de tareas
 
@@ -659,7 +646,9 @@ Puede descargar y fácilmente importar una secuencia de tareas de ejemplo y pers
 
 6.  Seleccione **sólo medios y PXE** en la lista **que esté disponible para los siguientes** y, a continuación, seleccione **siguiente**.
 > [!WARNING]
-> Es muy importante que **propósito** se establece en **disponible**. Asegúrese de que el **propósito** es **no** **requerido**. También asegúrese de que seleccione **sólo medios y PXE** en la **que esté disponible al siguiente**. Configuración de estos valores a otra cosa puede causar todos los equipos obtener la imagen de implementación de sistemas de salón de Skype al arrancar.
+> Es muy importante que **propósito** se establece en **disponible**. Asegúrese de que el **propósito** es **no** **requerido**. También asegúrese de que seleccione **sólo medios y PXE** en la **que esté disponible al siguiente**.
+>
+> Configuración de estos valores a otra cosa puede causar todos los equipos obtener la imagen de implementación de sistemas de salón de Skype al arrancar.
 7.  No especifique cualquier programación y seleccione **siguiente**.
 
 8.  No cambiar nada dentro de la sección de la **Experiencia del usuario** y seleccione **siguiente**.
@@ -731,9 +720,9 @@ El archivo SMSTS.log se almacena en uno de un número de rutas de acceso, según
 | Ejecución de secuencia de tareas completa                                                | % windir %\\System32\\MCC\\registros\\smsts.log           |
 
 > [!TIP]
-> Puede seleccionar F8 en cualquier momento durante la secuencia de tareas para abrir una consola de comandos y obtener acceso al archivo SMSTS.log.
+> Puede seleccionar **F8** en cualquier momento durante la secuencia de tareas para abrir una consola de comandos y, a continuación, obtenga acceso al archivo SMSTS.log.
 
-Para resolver problemas de inicio PXE, compruebe los dos archivos de registro en el servidor del Administrador de configuración que son específicos de acciones de PXE:
+Para solucionar problemas de inicio PXE, compruebe los dos archivos de registro en el servidor del Administrador de configuración que son específicos de acciones de PXE:
 
 -   **Pxecontrol.log**, que se encuentra en el directorio de los registros de instalación de administrador de configuración
 

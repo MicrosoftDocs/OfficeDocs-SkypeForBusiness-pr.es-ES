@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
-ms.openlocfilehash: bd99a4c3772836d6352228bfd90cecd592af557f
-ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
+ms.openlocfilehash: 20a378e9565a5ddea2e1951d3d26cf30878f62c9
+ms.sourcegitcommit: a9556a51f7f970fc05ab0acc9998401db3c1aa57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20412328"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "22601986"
 ---
 # <a name="release-notes"></a>Notas de la versión 
 
@@ -25,6 +25,10 @@ Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
 
 | Versión | Publicado en <br>Almacén de Microsoft | 
 | ---     | ---                              |
+| 4.0.8.0|  06/07/2018    |   
+| 3.1.115.0|  18/06/2018    |
+| 3.1.113.0|  13/06/2018    |   
+| 3.1.112.0|  05/06/2018    |   
 | 3.1.104.0|  16/04/2018    |            
 | 3.1.100.0|  16/03/2018    |            
 | 3.1.99.0 | 14/3/2018      |   
@@ -40,11 +44,28 @@ Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Sistemas de salón de Skype v2 característica introducción y su resolución
 
+### <a name="4080-07062018"></a>4.0.8.0 (07/06/2018)
+Se introdujeron en esta actualización: 
+- Esta actualización permite ambos Skype para profesionales *y* los equipos las reuniones soporte en dispositivos de sistemas de las salas.  Los equipos está desactivado de forma predeterminada una vez que se aplica la actualización.  Los administradores pueden permiten a los equipos localmente en configuración del dispositivo o a través de una inserción xml remoto.
+
+### <a name="311150-06182018"></a>3.1.115.0 (18/06/2018)
+Se introdujeron en esta actualización: 
+- Corrección de error de dirección observada en algunos sistemas durante el inicio de la aplicación.
+
+### <a name="311130-06132018"></a>3.1.113.0 (13/06/2018)
+Se introdujeron en esta actualización: 
+- Habilitación de Microsoft más flexible de cambios administración las actualizaciones de Windows.
+- Ningún cambio en la experiencia del usuario final.
+
+### <a name="311120-06052018"></a>3.1.112.0 (05/06/2018)
+Se introdujeron en esta actualización: 
+- Corrección de la capacidad de respuesta consola de dirección ingesta problemas observados en dispositivos basados en 2017 Surface Pro conectados a dos pantallas de la parte frontal de la sala y vídeo
+- Verificación automatizado para asegurarse de que el sistema está ejecutando aprovisionamiento más reciente de la secuencia de comandos.
+
 ### <a name="311040-04162018"></a>3.1.104.0 (16/04/2018)
 Se introdujeron en esta actualización: 
 - Corrección para mejorar OSK (teclado en pantalla) comportamiento en sistemas basados en la ventana de 10 versión 1709
 - Mejoras realizadas a prepararse para las actualizaciones futuras del sistema operativo
-
 
 ### <a name="311000-03162018"></a>3.1.100.0 (16/03/2018)
 Se introdujeron en esta actualización:  

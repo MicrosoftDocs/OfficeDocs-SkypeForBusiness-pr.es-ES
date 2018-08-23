@@ -1,7 +1,7 @@
 ---
 title: Compatibilidad con la versión
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 4/17/2018
 ms.audience: ITPro
@@ -9,11 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: En este artículo se describe la compatibilidad de ciclo de vida para sistemas de salón de Skype v2.
-ms.openlocfilehash: 596197a240d4cf44e8bcf0d0069f9cad5d5e6777
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 86f71f1ddd554c9a9d368cdb725367a368257453
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22601958"
 ---
 # <a name="version-support"></a>Compatibilidad con la versión
  
@@ -38,11 +39,8 @@ Todas las versiones se enumeran en las [notas de la versión v2 de sistemas de s
 <a name="See"> </a>  
 ## <a name="see-also"></a>Vea también
 
-
-#### 
 [Ayuda de la versión 2 de sistemas de salón de Skype](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Notas de la versión v2 sistemas de salón de Skype](srs2-release-note.md)
 
-[Planeación de la sala de Skype v2 de sistemas](skype-room-systems-v2-0.md)
-
+[Plan para Sistemas de salas de Skype v2](skype-room-systems-v2-0.md)

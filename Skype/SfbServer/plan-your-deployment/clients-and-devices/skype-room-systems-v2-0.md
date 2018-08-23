@@ -1,7 +1,7 @@
 ---
 title: Plan para Sistemas de salas de Skype v2
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: En este artículo se explica las consideraciones de planeación relevantes para la implementación de sistemas de salón de Skype v2, la próxima generación de sistemas de salón de Skype.
-ms.openlocfilehash: 89bcfb0e668526893b14dba5202a4e22fed2e8a8
-ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
+ms.openlocfilehash: b62e062eebfd9a79cf49b98fe6f477a0288f71d1
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2018
-ms.locfileid: "19856118"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22601951"
 ---
 # <a name="plan-skype-room-systems-v2"></a>Planeación de la sala de Skype v2 de sistemas 
 

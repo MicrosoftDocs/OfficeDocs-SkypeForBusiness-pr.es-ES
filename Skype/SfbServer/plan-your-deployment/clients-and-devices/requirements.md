@@ -1,7 +1,7 @@
 ---
 title: Requisitos de Sistemas de salas de Skype v2
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: En este artículo se resume los requisitos para la compatibilidad con sistemas de salas de Skype v2.
-ms.openlocfilehash: c6267f24771954c31cfc4c75f8fff7b1aa8b9b66
-ms.sourcegitcommit: 1f345f13c8edf04efb0a8dd02d6c11f793ba201a
+ms.openlocfilehash: 0cb0a2cc0508f3499c94971647a22a936fc0648d
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "22111849"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22601937"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Requisitos de Sistemas de salas de Skype v2
  

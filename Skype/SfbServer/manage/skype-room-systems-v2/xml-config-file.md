@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: En este artículo se describe la administración remota de la configuración predeterminada utilizada por un dispositivo de v2 de sistemas de salón de Skype, incluyen la aplicación de un tema personalizado.
-ms.openlocfilehash: 9e8ff661dfab6810d1072b86dddcb8621c63b8d0
-ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
+ms.openlocfilehash: 1d8891ab318cac6849b5b6701a8aac7b87185bd6
+ms.sourcegitcommit: 38f3757feb82aeff0c03d8a3f0dde77a4cdde2ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21711054"
+ms.lasthandoff: 08/17/2018
+ms.locfileid: "22602007"
 ---
 # <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>Administrar la configuración de una consola de Sistemas de salas de Skype v2 de forma remota con un archivo XML de configuración
  
@@ -37,9 +37,7 @@ En la tabla siguiente se explica los elementos que se muestra en este ejemplo Sk
              <DomainUsername>Seattle\RanierConf</DomainUsername>
              <Password>password</Password>
              <ConfigureDomain>domain1, domain2</ConfigureDomain>
-             <AutoRotatePassword>1</AutoRotatePassword>
   </UserAccount>    
-  <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
   <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
   <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
   <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled> 
@@ -70,37 +68,37 @@ Si el archivo XML está mal formado (es decir, que un valor de variable es del t
   
 **Elementos XML**
  
-|**Elemento**|**Tipo**|**Nivel**|**Uso**|
-|:-----|:-----|:-----|:-----|
-|\<SkypeSettings\>  <br/> |Contenedor de todos los elementos.  <br/> ||Obligatorio.  <br/> |
-| \<AutoScreenShare\> <br/> |Valor booleano & #x 2777; <br/> |Primera & #x 2776; <br/> | Si se cumple, se habilita el uso compartido de pantalla automático. <br/> |
-|\<HideMeetingName\>  <br/> |Valor booleano & #x 2777; <br/> |Primera & #x 2776; <br/> |Si se cumple, se ocultan los nombres de la reunión.  <br/> |
-|\<UserAccount\>  <br/> |Contenedor  <br/> |Primera & #x 2776; <br/> |Contenedor para parámetros de credenciales.  <br/> Normalmente, el inicio de sesión en la dirección, dirección de Exchange o dirección de correo electrónico es los mismos, como RanierConf<span></span>@contoso.com.  <br/> |
-|\<SkypeMeetingsEnabled\>  <br/> |Valor booleano & #x 2777; <br/> |Primera & #x 2776; <br/> |Está habilitada de forma predeterminada.  <br/> |
-|\<SkypeSignInAddress\>  <br/> |Cadena 3 <br/> ||El nombre de inicio de sesión para la cuenta del dispositivo de Skype Empresarial de la consola.  <br/> |
-|\<ExchangeAddress\>  <br/> |Cadena 3 <br/> ||El nombre de inicio de sesión para la cuenta del dispositivo de Exchange de la consola.  <br/> Si se omite ExchangeAddress, SkypeSignInAddress no se volverá a usar automáticamente.   <br/> |
-|\<Dominionombre_de_usuario\>  <br/> |Cadena & #x 2778; <br/> ||El dominio y el nombre de usuario del dispositivo de consola; por ejemplo, Seattle\RanierConf.  <br/> |
-|\<Contraseña\>  <br/> |Cadena 3 <br/> || El parámetro de contraseña es la misma contraseña que se utiliza para iniciar sesión con la cuenta del dispositivo de Skype Empresarial.  <br/> |
-| \<ConfigureDomain\> <br/> |Cadena & #x 2778; <br/> ||Puede enumerar varios dominios, separados por comas.  <br/> |
-|\<AutoRotatePassword\>  <br/> |Valor booleano & #x 2777; <br/> |||
-|\<TeamsMeetingsEnabled\>  <br/> |Valor booleano & #x 2777; <br/> |Primera & #x 2776; <br/> |Está deshabilitada de forma predeterminada.  <br/> El archivo XML se considera mal construida si ambos \<SkypeMeetingsEnabled\> y\<TeamsMeetingsEnabled\> están deshabilitadas, pero es aceptable tener ambas configuraciones habilitados al mismo tiempo.  <br/> |
-|\<IsTeamsDefaultClient > |Valor booleano & #x 2777; <br/> |Primera & #x 2776; <br/> |Está deshabilitada de forma predeterminada. <br/>|
-|\<BluetoothAdvertisementEnabled > |Valor booleano & #x 2777; <br/> |Primera & #x 2776; <br/> |Está habilitada de forma predeterminada. <br/>|
-|\<DualScreenMode\> <br/> |Valor booleano & #x 2777; <br/> |Primera & #x 2776; <br/> |Si es true, se habilita el modo de pantalla dual. De lo contrario, el dispositivo usará el modo de pantalla sencillo.  <br/> |
-|\<SendLogs\>  <br/> |Contenedor  <br/> |Primera & #x 2776; <br/> ||
-|\<EmailAddressForLogsAndFeedback\>  <br/> |Cadena & #x 2778; <br/> ||De esta forma se establece una dirección de correo electrónico opcional a la que se pueden enviar los registros cuando aparece la ventana "Enviar comentarios".   <br/> |
-|\<SendLogsAndFeedback\>  <br/> |Valor booleano & #x 2777; <br/> || Si se cumple, los registros se envían al administrador. Si no se cumple, solo se envían los comentarios al administrador (y no los registros). <br/> |
-| \<Dispositivos\> <br/> |Contenedor  <br/> |Primera & #x 2776; <br/> | Los nombres de los dispositivos de audio conectados en los elementos secundarios son los mismos valores que aparecen en la aplicación del Administrador de dispositivos. La configuración puede contener un dispositivo que no existe actualmente en el sistema, como un dispositivo de A/V que no está conectado en este momento a la consola. La configuración se retendrá´para el dispositivo respectivo. <br/> |
-|\<MicrophoneForCommunication\>  <br/> |Cadena 3 <br/> ||Establece el micrófono que se usará como dispositivo de grabación en una conferencia.  <br/> |
-|\<SpeakerForCommunication\>  <br/> |Cadena 3 <br/> ||El dispositivo que se va a usar como altavoz en la conferencia. Esta configuración se utiliza para establecer el dispositivo de altavoz que se utilizará para escuchar el audio en una llamada.  <br/> |
-|\<DefaultSpeaker\>  <br/> |Cadena 3 <br/> ||El dispositivo que se va a usar para reproducir el audio desde una fuente de transmisión por HDMI.   <br/> |
-| \<Creación de temas\> <br/> |Contenedor  <br/> |Primera & #x 2776; <br/> |Una de las características que se van a aplicar mediante un archivo XML es un tema personalizado para la organización. Podrá especificar un nombre de tema, la imagen de fondo y el color.  <br/> |
-|\<ThemeName\>  <br/> |Cadena & #x 2778; <br/> || Se usa para identificar el tema en el cliente. Las opciones de nombre de tema son la opción predeterminada, uno de los temas prestablecidos que se proporcionan o la opción personalizada. <br/>  Los nombres de tema personalizado siempre deben utilizar el nombre *personalizado* . La interfaz de usuario del cliente se puede establecer en la consola en Default (Predeterminado) o en una de las opciones prestablecidas, mientras que la aplicación de un tema personalizado la debe establecer de forma remota un administrador. <br/>  Los temas prestablecidos incluyen:  <br/>  Predeterminado <br/>  Ondas azules (Blue Wave) <br/>  Bosque digital (Digital Forest) <br/>  Atrapasueños (Dreamcatcher) <br/>  Limanada (Limeade) <br/>  Píxel perfecto (Pixel Perfect) <br/>  Mapa de ruta (Roadmap) <br/>  Atardecer (Sunset) <br/>  Para deshabilitar el tema actual, use "Sin tema" para el ThemeName. <br/> |
-|\<CustomThemeImageUrl\>  <br/> |Cadena & #x 2778; <br/> ||Es obligatorio si se usa un tema personalizado; de lo contrario, es opcional. Vea la sección de [Imágenes personalizadas de tema](xml-config-file.md#Themes) siguiente para obtener más detalles en la imagen de tema personalizado. <br/> |
-|\<CustomThemeColor\>  <br/> |Contenedor  <br/> ||Contenedor para la \<RedComponent\>, \<GreenComponent\>, y \<BlueComponent\> valores. Estos valores son obligatorios si se utiliza un tema personalizado.  <br/> |
-|\<RedComponent\>  <br/> |Byte (0-255)  <br/> ||Representa el componente de color rojo.  <br/> |
-|\<GreenComponent\>  <br/> |Byte (0-255)  <br/> ||Representa el componente de color verde.  <br/> |
-|\<BlueComponent\>  <br/> |Byte (0-255)  <br/> ||Representa el componente de color azul.  <br/> |
+|Elemento|Tipo|Nivel|Uso|
+|:--- |:--- |:--- |:--- |
+|\<SkypeSettings\>   |Contenedor de todos los elementos.   ||Obligatorio.   |
+| \<AutoScreenShare\>  |Valor booleano & #x 2777;  |Primera & #x 2776;  | Si se cumple, se habilita el uso compartido de pantalla automático.  |
+|\<HideMeetingName\>   |Valor booleano & #x 2777;  |Primera & #x 2776;  |Si se cumple, se ocultan los nombres de la reunión.   |
+|\<UserAccount\>   |Contenedor   |Primera & #x 2776;  |Contenedor para parámetros de credenciales.   Normalmente, el inicio de sesión en la dirección, dirección de Exchange o dirección de correo electrónico es los mismos, como RanierConf<span></span>@contoso.com.   |
+|\<SkypeMeetingsEnabled\>  |Valor booleano & #x 2777;  |Primera & #x 2776;  |Está habilitada de forma predeterminada.   |
+|\<SkypeSignInAddress\>   |Cadena & #x 2778;  ||El nombre de inicio de sesión para la cuenta del dispositivo de Skype Empresarial de la consola.   |
+|\<ExchangeAddress\>   |Cadena & #x 2778;  ||El nombre de inicio de sesión para la cuenta del dispositivo de Exchange de la consola.   Si se omite ExchangeAddress, SkypeSignInAddress no se volverá a usar automáticamente.    |
+|\<Dominionombre_de_usuario\>   |Cadena & #x 2778;  ||El dominio y el nombre de usuario del dispositivo de consola; por ejemplo, Seattle\RanierConf.   |
+|\<Contraseña\>   |Cadena 3  || El parámetro de contraseña es la misma contraseña que se utiliza para iniciar sesión con la cuenta del dispositivo de Skype Empresarial.   |
+| \<ConfigureDomain\>  |Cadena & #x 2778;  ||Puede enumerar varios dominios, separados por comas.   |
+|\<TeamsMeetingsEnabled\>   |Valor booleano & #x 2777;  |Primera & #x 2776;  |Está deshabilitada de forma predeterminada. <br/> <br/> El archivo XML se considera mal construida si ambos \<SkypeMeetingsEnabled\> y\<TeamsMeetingsEnabled\> están deshabilitadas, pero es aceptable tener ambas configuraciones habilitados al mismo tiempo.   |
+|\<IsTeamsDefaultClient > |Valor booleano & #x 2777;  |Primera & #x 2776;  |Está deshabilitada de forma predeterminada. |
+|\<BluetoothAdvertisementEnabled > |Valor booleano & #x 2777;  |Primera & #x 2776;  |Está habilitada de forma predeterminada. |
+|\<DualScreenMode\>  |Valor booleano & #x 2777;  |Primera & #x 2776;  |Si es true, se habilita el modo de pantalla dual. De lo contrario, el dispositivo usará el modo de pantalla sencillo.   |
+|\<SendLogs\>   |Contenedor   |Primera & #x 2776;  ||
+|\<EmailAddressForLogsAndFeedback\>   |Cadena & #x 2778;  ||De esta forma se establece una dirección de correo electrónico opcional a la que se pueden enviar los registros cuando aparece la ventana "Enviar comentarios".    |
+|\<SendLogsAndFeedback\>   |Valor booleano & #x 2777;  || Si se cumple, los registros se envían al administrador. Si no se cumple, solo se envían los comentarios al administrador (y no los registros).  |
+| \<Dispositivos\>  |Contenedor   |Primera & #x 2776;  | Los nombres de los dispositivos de audio conectados en los elementos secundarios son los mismos valores que aparecen en la aplicación del Administrador de dispositivos. La configuración puede contener un dispositivo que no existe actualmente en el sistema, como un dispositivo de A/V que no está conectado en este momento a la consola. La configuración se retendrá´para el dispositivo respectivo.  |
+|\<MicrophoneForCommunication\>   |Cadena & #x 2778;  ||Establece el micrófono que se usará como dispositivo de grabación en una conferencia.   |
+|\<SpeakerForCommunication\>   |Cadena & #x 2778;  ||El dispositivo que se va a usar como altavoz en la conferencia. Esta configuración se utiliza para establecer el dispositivo de altavoz que se utilizará para escuchar el audio en una llamada.   |
+|\<DefaultSpeaker\>   |Cadena & #x 2778;  ||El dispositivo que se va a usar para reproducir el audio desde una fuente de transmisión por HDMI.    |
+| \<Creación de temas\>  |Contenedor   |Primera & #x 2776;  |Una de las características que se van a aplicar mediante un archivo XML es un tema personalizado para la organización. Podrá especificar un nombre de tema, la imagen de fondo y el color.   |
+|\<ThemeName\>   |Cadena & #x 2778;  || Se usa para identificar el tema en el cliente. Las opciones de nombre de tema son la opción predeterminada, uno de los temas prestablecidos que se proporcionan o la opción personalizada. <br/>  Los nombres de tema personalizado siempre deben utilizar el nombre *personalizado* . La interfaz de usuario del cliente se puede establecer en la consola en Default (Predeterminado) o en una de las opciones prestablecidas, mientras que la aplicación de un tema personalizado la debe establecer de forma remota un administrador. <br/>  Los temas prestablecidos incluyen:  <br/>  Predeterminado <br/>  Ondas azules (Blue Wave) <br/>  Bosque digital (Digital Forest) <br/>  Atrapasueños (Dreamcatcher) <br/>  Limanada (Limeade) <br/>  Píxel perfecto (Pixel Perfect) <br/>  Mapa de ruta (Roadmap) <br/>  Atardecer (Sunset) <br/>  Para deshabilitar el tema actual, use "Sin tema" para el ThemeName.  |
+|\<CustomThemeImageUrl\>   |Cadena & #x 2778;  ||Es obligatorio si se usa un tema personalizado; de lo contrario, es opcional. Vea la sección de [Imágenes personalizadas de tema](xml-config-file.md#Themes) siguiente para obtener más detalles en la imagen de tema personalizado.  |
+|\<CustomThemeColor\>   |Contenedor   ||Contenedor para la \<RedComponent\>, \<GreenComponent\>, y \<BlueComponent\> valores. Estos valores son obligatorios si se utiliza un tema personalizado.   |
+|\<RedComponent\>   |Byte (0-255)   ||Representa el componente de color rojo.   |
+|\<GreenComponent\>   |Byte (0-255)   ||Representa el componente de color verde.   |
+|\<BlueComponent\>   |Byte (0-255)   ||Representa el componente de color azul.   |
+| | | |
    
 & #x 2776; Todos los elementos de primer nivel son opcionales. Si un elemento del primer nivel se omite, todos sus parámetros secundarios permanecerán igual en el dispositivo.
   
@@ -130,7 +128,7 @@ El archivo de imagen debe tener exactamente 3840 x 1080 píxeles y debe ser tene
 El archivo XML de configuración se debe actualizar al iniciarse el dispositivo para reconocer la imagen del tema. Una vez que el archivo XML nuevo se procese y se elimine, el archivo de gráficos del tema se eliminará del directorio.
   
 ## <a name="see-also"></a>Vea también
-<a name="Themes"> </a>
+
 
 [Administrar Sistemas de salas de Skype v2](skype-room-systems-v2.md)
 
