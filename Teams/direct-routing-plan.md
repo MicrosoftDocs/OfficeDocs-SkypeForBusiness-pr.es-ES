@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Lea este tema para obtener información sobre cómo enrutamiento directo de Microsoft teléfono del sistema le permite conectar un compatibles, proporcionado por el cliente sesión controlador de borde (SBC) para el sistema telefónico de Microsoft.
-ms.openlocfilehash: b6740951e65a2c917c95cce884f3c2a42ea004e7
-ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
+ms.openlocfilehash: 7abf23aeb74807597b337c66e769b0625d862d0f
+ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/23/2018
-ms.locfileid: "22599465"
+ms.locfileid: "22914123"
 ---
 # <a name="plan-direct-routing"></a>Planeación de enrutamiento directo
 
@@ -110,8 +110,8 @@ La siguiente tabla muestran ejemplos de nombres DNS registrados para el inquilin
 contoso.com|Sí|**Nombres válidos:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>Europe.contoso.com|
 |contoso.onmicrosoft.com|No|<br/>Uso de *. onmicrosoft.com dominios no es compatible con nombres SBC
 
-Si desea usar un nuevo nombre de dominio. Por ejemplo, el inquilino tiene contoso.com como un nombre de dominio registrado en el inquilino. Desea usar sbc1.sip.contoso.com. Antes de que puede emparejar un SBC con nombre sbc1.sip.contoso.com debe registrar sip.contoso.com de nombre de dominio en "Dominios" en el inquilino. Si trata de emparejamiento un sbc1.sip.contoso.com SBC recibirá un error "No se puede usar el dominio"sbc1.sip.contoso.com"como no se configuró para este inquilino."
-Una vez había agregado el nombre de dominio también debe crear un usuario con el UPN user@sip.contoso.com y asigna una licencia de "Equipos". Puede tardar hasta 24 horas para aprovisionar totalmente el nombre de dominio después de que se hayan agregado a "Dominios" del inquilino, un usuario con el nombre del nuevo creado y una licencia asignada al usuario. 
+Suponga que desea usar un nuevo nombre de dominio. Por ejemplo, el inquilino tiene contoso.com como un nombre de dominio registrado en el inquilino, y desea usar sbc1.sip.contoso.com. Antes de que puede emparejar un SBC con el nombre sbc1.sip.contoso.com, debe registrar la sip.contoso.com de nombre de dominio en "Dominios" en el inquilino. Si intenta el emparejamiento un SBC con sbc1.sip.contoso.com antes de registrar el nombre de dominio, recibirá el siguiente error: "No se puede usar el dominio"sbc1.sip.contoso.com"como no se configuró para este inquilino."
+Después de agregar el nombre de dominio, también debe crear un usuario con el UPN user@sip.contoso.com y asigna una licencia de "Equipos". Pueden tardar hasta 24 horas para totalmente aprovisionar el nombre de dominio después de se agrega a "Dominios" de su inquilino, se crea un usuario con un nombre nuevo, y se asigna una licencia para el usuario. 
 
 Es posible que una empresa puede tener varios espacios de direcciones SIP en un inquilino. Por ejemplo, una empresa podría tener contoso.com como un espacio de direcciones SIP y fabrikam.com como segundo espacio de direcciones SIP. Algunos usuarios tienen direcciones user@contoso.com y algunos usuarios tienen direcciones user@fabrikam.com. 
 

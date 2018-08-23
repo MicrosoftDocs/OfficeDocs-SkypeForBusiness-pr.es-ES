@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: En este artículo se describen las preferencias de cliente y los valores predeterminados disponibles para el cliente de Skype Empresarial en Mac, y cómo se editan desde fuera de la aplicación.
-ms.openlocfilehash: 37ea82cc87e58303ab412c7adbd427dd11c74f89
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ae7f3a5c63a77820aba24e93d820ae2eff9176ad
+ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21014643"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22912846"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personalizar la experiencia del cliente de Mac en Skype Empresarial
  
@@ -31,20 +31,20 @@ Para establecer estas preferencias, llegar a un mensaje de terminal en Mac del c
 **Claves de preferencia de cliente**
 
 
-|**Clave**|**Tipo**|**Valor**|**Descripción**|
+| Clave | Tipo | Valor | Descripción |
 |:-----|:-----|:-----|:-----|
-|AutoDetectAutoDicoveryURLs  <br/> |Booleano  <br/> |0 = configuración manual del servidor  <br/> 1 = detección automática de servidores (predeterminado)  <br/> |Especifique cómo Skype para la empresa identifica el transporte y el servidor que desea usar durante el inicio de sesión. Si habilita esta configuración de directiva, debe especificar **internalAutoDiscoveryURL** y **externalAutoDiscoveryURL**. <br/> |
-|internalAutoDiscoveryURL  <br/> |Cadena  <br/> |URL de detección automática completa  <br/> |URL de detección automática interna  <br/> |
-|externalAutoDiscoveryURL  <br/> |Cadena  <br/> |URL de detección automática completa  <br/> |URL de detección automática externa  <br/> |
-|httpProxyDomain  <br/> |Cadena  <br/> ||Dominio de proxy HTTP  <br/> |
-|httpProxyUserName  <br/> |Cadena  <br/> ||Nombre de usuario de proxy HTTP  <br/> |
-|httpProxyPassword  <br/> |Cadena  <br/> ||Contraseña de proxy HTTP  <br/> |
-|trustedDomainList  <br/> |Matriz  <br/> ||Lista de dominios de confianza para redireccionamientos HTTP.  <br/> |
-|autoAcceptTimeout  <br/> |Número  <br/> |300 (predeterminado)  <br/> |Tiempo de espera de aceptación automática para usuarios sin historial de conversaciones del servidor.  <br/> |
-|warnWhenUnknownLocationForE911  <br/> |Booleano  <br/> |0 = Deshabilitado  <br/> 1 = Habilitado  <br/> |Advierte al usuario cuando se marca un número de emergencia desde una ubicación desconocida.  <br/> |
-|sipAddress  <br/> |Cadena  <br/> ||La dirección SIP (correo electrónico) se usa para el inicio de sesión de Skype para la empresa.  <br/> |
-|nombre de usuario  <br/> |Cadena  <br/> ||UPN (nombre de usuario) que se usa para el inicio de sesión de Skype para la empresa.  <br/> |
-|userNameInAdvancedOnly  <br/> |Booleano  <br/> |0 = Mostrar el campo nombre de usuario en la pantalla de inicio de sesión principal y en el cuadro de diálogo Propiedades avanzadas  <br/> 1 = mostrar el campo nombre de usuario sólo en el cuadro de diálogo Propiedades avanzadas (valor predeterminado)  <br/> |Especificar dónde se muestra el campo nombre de usuario durante el inicio de sesión.  <br/> |
+|AutoDetectAutoDiscoveryURLs    |Booleano    |0 = configuración manual del servidor  <br/> 1 = detección automática de servidores (predeterminado)    |Especifique cómo Skype para la empresa identifica el transporte y el servidor que desea usar durante el inicio de sesión. Si habilita esta configuración de directiva, debe especificar **internalAutoDiscoveryURL** y **externalAutoDiscoveryURL**.   |
+|internalAutoDiscoveryURL    |Cadena    |URL de detección automática completa    |URL de detección automática interna    |
+|externalAutoDiscoveryURL    |Cadena    |URL de detección automática completa    |URL de detección automática externa    |
+|httpProxyDomain    |Cadena    ||Dominio de proxy HTTP    |
+|httpProxyUserName    |Cadena    ||Nombre de usuario de proxy HTTP    |
+|httpProxyPassword    |Cadena    ||Contraseña de proxy HTTP    |
+|trustedDomainList    |Matriz    ||Lista de dominios de confianza para redireccionamientos HTTP.    |
+|autoAcceptTimeout    |Número    |300 (predeterminado)    |Tiempo de espera de aceptación automática para usuarios sin historial de conversaciones del servidor.    |
+|warnWhenUnknownLocationForE911    |Booleano    |0 = Deshabilitado  <br/> 1 = Habilitado    |Advierte al usuario cuando se marca un número de emergencia desde una ubicación desconocida.    |
+|sipAddress    |Cadena    ||La dirección SIP (correo electrónico) se usa para el inicio de sesión de Skype para la empresa.    |
+|nombre de usuario    |Cadena    ||UPN (nombre de usuario) que se usa para el inicio de sesión de Skype para la empresa.    |
+|userNameInAdvancedOnly    |Booleano    |0 = Mostrar el campo nombre de usuario en la pantalla de inicio de sesión principal y en el cuadro de diálogo Propiedades avanzadas  <br/> 1 = mostrar el campo nombre de usuario sólo en el cuadro de diálogo Propiedades avanzadas (valor predeterminado)    |Especificar dónde se muestra el campo nombre de usuario durante el inicio de sesión.    |
    
 ### <a name="usage-examples"></a>Ejemplos de uso
 
@@ -55,7 +55,6 @@ valores predeterminados de escribir com.microsoft.SkypeForBusiness trustedDomain
 Para agregar varios dominios a la lista de dominios de confianza, usaría la clave trustedDomainList del siguiente modo:
   
 valores predeterminados de escribir com.microsoft.SkypeForBusiness trustedDomainList-matriz-agregar "sfb.com" "abc.com" "test.org"
-  
   
 ### <a name="sample-unedited-settings"></a>Configuración sin editar de muestra
 
@@ -109,7 +108,4 @@ Para que le sirva de referencia, a continuación se muestra una configuración d
     firstRun = 0;
     showEndCallDialog = 1;
 }
-
 ```
-
-

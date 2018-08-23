@@ -1,7 +1,7 @@
 ---
 title: Configurar el enrutamiento directo
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Obtenga información sobre cómo configurar el enrutamiento directo de Microsoft teléfono del sistema.
-ms.openlocfilehash: bad3709635ccca83a4093e5115e46352f5dcaaff
-ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
+ms.openlocfilehash: 44181b47f4edaca019bb51fd0819dd6c17360fae
+ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/23/2018
-ms.locfileid: "22599433"
+ms.locfileid: "22914755"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -519,9 +519,9 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 El resultado es que la directiva de voz que se aplican a las llamadas de John Woods se sin restricciones y va a seguir la lógica de enrutamiento de llamadas disponible para llamadas de Estados Unidos, Canadá e internacional.
 
 
-## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-the-users"></a>Establecer Teams Microsoft como cliente llamado preferido para los usuarios
+## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>Establecer Teams Microsoft como cliente llamado preferido para los usuarios
 
-Enrutamiento directo sólo enrutar las llamadas a y desde los usuarios si usan equipos Cleint. Si su organización utiliza sólo cliente de los equipos, "Equipos sólo" modo en la directiva de actualización se recomienda establecer. Si la organización usa Skype para Business Server o Skype para profesionales en línea, revise el siguiente documento [viaje de actualización y coexistencia de comprenda el funcionamiento de Skype para profesionales y los equipos](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype) y seleccione la opción adecuada. 
+Sólo enrutamiento directa enruta las llamadas a y desde los usuarios si utilizan al cliente de los equipos. Si su organización sólo usa los equipos, "Equipos sólo" modo en la directiva de actualización se recomienda establecer. Si su organización usa Skype para Business Server o Skype para profesionales en línea, consulte el siguiente artículo para obtener más información y seleccione la opción adecuada: [comprender la coexistencia y actualización de viaje para Skype para profesionales y los equipos](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
 
 ## <a name="see-also"></a>Vea también

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Resumen: Integrar Skype para Business Server y Outlook Web App.'
-ms.openlocfilehash: 206100ce74731b9ffa6b2987e4884b7589f6e2c8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5ad1f6bc898a29c2a5e0f326d3a5edc4d782bab2
+ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20995851"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22914099"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Configurar la integración entre local Skype para Business Server y Outlook Web App
  
@@ -53,7 +53,7 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 ```
 
 > [!NOTE]
-> Si utiliza Office 365 operado por 21Vianet en China, reemplace el valor del parámetro **ProxyFqdn** de este ejemplo ("exap.um.outlook.com") por el FQDN del servicio operado por 21Vianet: "exap.um.partner.outlook.cn".
+> Si utiliza Office 365 operado por 21Vianet en China, reemplace el valor del parámetro ProxyFqdn de este ejemplo ("exap.um.outlook.com") por el FQDN del servicio operado por 21Vianet: "exap.um.partner.outlook.cn". Si usa Office 365 GCC alta, reemplace el valor para el parámetro ProxyFqdn en este ejemplo ("exap.um.outlook.com") con el FQDN de GCC alta: "exap.um.office365.us".
   
 - **Identidad** especifica un identificador de valor de cadena único para el proveedor de hospedaje que va a crear (por ejemplo, "Exchange Online"). Los valores que contienen espacios deben aparecer en comillas dobles.
     
