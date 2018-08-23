@@ -1,1 +1,1 @@
-Actualizamos con frecuencia el modo en el que puede gestionar las características de Microsoft Teams, por lo que los pasos incluidos aquí pueden diferir ligeramente de los de Microsoft Teams y de los del centro de administración de Skype Empresarial.
+Actualizamos con frecuencia el modo en el que puede gestionar las características de Skype for Business Online, por lo que los pasos incluidos aquí pueden diferir ligeramente.
