@@ -11,12 +11,12 @@ localization_priority: Priority
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Busque y administre actualizaciones de Skype Empresarial Server 2015 y Lync 2013 desde un solo lugar. Use los vínculos de esta página para obtener más información sobre las actualizaciones y después descárguelas.
-ms.openlocfilehash: 2550fd9cdd734dbec38992ad03c96a7b7eb7d78d
-ms.sourcegitcommit: 2ce680aba13d1d781019b766a04e4e7d46d4f72c
+ms.openlocfilehash: c83e3994c47876e6064b58265848c64487e47b76
+ms.sourcegitcommit: 3915a89d072f0f801d5662286bea08839ed2a9e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21139271"
+ms.lasthandoff: 08/17/2018
+ms.locfileid: "22601909"
 ---
 # <a name="skype-for-business-updates"></a>Actualizaciones de Skype Empresarial
 
@@ -28,7 +28,7 @@ Para ver las actualizaciones más recientes de Skype Empresarial Online y Office
 
 |Nombre de paquete|Número de KB|Fecha de lanzamiento|
 |:--- |:--- |:--- |
-|Actualizaciones de Skype Empresarial Server 2015 |[KB 3061064](https://support.microsoft.com/kb/3061064) |Marzo de 2018  |
+|Actualizaciones de Skype Empresarial Server 2015 |[KB 3061064](https://support.microsoft.com/kb/3061064) |Julio de 2018  |
 |Actualización acumulativa de Skype Empresarial Server, aplicación web de Enterprise | [KB 4018462](https://support.microsoft.com/kb/4018462) |Mayo de 2017 |
 |Actualización acumulativa de Skype Empresarial Server, Servicio de directiva de ancho de banda | [KB 4012658](https://support.microsoft.com/kb/4012658) |Mayo de 2017 |
 |Actualización acumulativa de Skype Empresarial Server, Unified Communications Managed API 5.0 Runtime | [KB 4012657](https://support.microsoft.com/kb/4012657) |Mayo de 2017 |
