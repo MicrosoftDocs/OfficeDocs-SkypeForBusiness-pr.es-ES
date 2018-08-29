@@ -12,16 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e875ac6-8afb-45bc-bcaa-3c7451125fae
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 9d6818174b098210bf50093919488f8469ca32d8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 00f9a0b706a60e7743ab191d9067814987ecacf8
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23251632"
 ---
 # <a name="sip-federated-providers"></a>Proveedores de SIP federados
- 
+
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-  
-- [Administrar SIP federados proveedores para su organización](http://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
-    
+
+- [Administrar SIP federados proveedores para su organización](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
+
 

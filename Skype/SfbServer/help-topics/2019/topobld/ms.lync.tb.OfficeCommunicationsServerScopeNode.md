@@ -12,21 +12,21 @@ localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 ROBOTS: NOINDEX, NOFOLLOW
 description: Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco que se incluyen actúan como marcadores de posición.
-ms.openlocfilehash: ca751d23ee0263ebfefdf3e19c2d7229c7e6b65e
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: f2706abd440d55e30a0fb485fff5d7a95643bd34
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069268"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23255848"
 ---
 # <a name="office-communications-server-scope-node"></a>Nodo de ámbito de Office Communications Server
- 
+
 Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco que se incluyen actúan como marcadores de posición.
-  
+
 Haga clic en **Office Communications Server 2007 R2** para ampliar las secciones bajo el nodo o botón secundario haga clic en para tener acceso a las opciones de **topología** , o para tener acceso a esta página de **Ayuda** .
-  
+
 ## <a name="see-also"></a>Vea también
 
-[Combinar mediante el Asistente de combinación del generador de topología](http://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
-  
-[Compruebe la información de topología](http://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)
+[Combinar mediante el Asistente de combinación del generador de topología](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
+
+[Compruebe la información de topología](https://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)

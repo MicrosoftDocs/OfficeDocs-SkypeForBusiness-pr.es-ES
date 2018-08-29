@@ -18,29 +18,29 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: 2949f170aef6567d186adcd8414e39c7689537e2
-ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
+ms.openlocfilehash: 95194240a110a5372a6891c884e729b5a0cc7d43
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "21645214"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23245441"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>Dimensiones y medidas disponibles en el Panel de calidad de llamadas
 
 El panel de calidad de llamadas (CQD) para Microsoft Teams y Skype para profesionales en línea permite obtener entendimiento de la calidad de las llamadas realizadas mediante Microsoft Teams y Skype para servicios de negocios. En este tema se ofrece información detallada sobre las dimensiones y las medidas que se muestran en este panel. Para obtener más información sobre CQD y cómo habilitarlo, vea [activar y con el panel de calidad de llamadas para los equipos de Microsoft y Skype para profesionales en línea](turning-on-and-using-call-quality-dashboard.md).
-  
+
 ## <a name="first-and-second-endpoint-classification"></a>Clasificación de primer y segundo punto de conexión
 
 Muchas de las dimensiones y medidas del panel de calidad de llamadas se etiquetan como primeras o segundas. La siguiente lógica determina qué punto de conexión implicado en la transmisión o la llamada se etiqueta como primero:
-  
+
 - En primer lugar siempre será un extremo de servidor (MCU AV, el servidor de mediación, etc.) si un servidor está involucrado en la llamada de secuencia.
-    
+
 - Como segundo punto de conexión siempre se encuentra un punto de conexión de cliente a menos que la transmisión se dé entre dos puntos de conexión de servidor.
-    
+
 - Si ambos extremos son del mismo tipo, el orden para el que es el primero frente en segundo lugar se basa en orden interno de la categoría de agente de usuario. De este modo se asegura que el orden es coherente.
-    
+
 Por ejemplo, cada fila representa un par de agentes de usuario involucrados en una transmisión:
-  
+
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Categoría de agente de usuario del autor de la llamada** <br/> |**Categoría de agente de usuario del destinatario de la llamada** <br/> |**First Endpoint** <br/> |**Second Endpoint** <br/> |**First Is Caller** <br/> |
@@ -51,14 +51,14 @@ Por ejemplo, cada fila representa un par de agentes de usuario involucrados en u
 |Servidor de mediación  <br/> |MCU de audio y vídeo  <br/> |Servidor de mediación  <br/> |MCU de audio y vídeo  <br/> |VERDADERO  <br/> |
 |Componente opcional (cliente de Skype Empresarial)  <br/> |Teléfono como componente opcional (teléfono IP de Skype Empresarial)  <br/> |Componente opcional (cliente de Skype Empresarial)  <br/> |Teléfono como componente opcional (teléfono IP de Skype Empresarial)  <br/> |VERDADERO  <br/> |
 |Teléfono como componente opcional (teléfono IP de Skype Empresarial)  <br/> |Componente opcional (cliente de Skype Empresarial)  <br/> |Componente opcional (cliente de Skype Empresarial)  <br/> |Teléfono como componente opcional (teléfono IP de Skype Empresarial)  <br/> |FALSO  <br/> |
-   
+
 > [!NOTE]
 > Esa clasificación de primero y segundo no está relacionada con qué punto de conexión es el autor de la llamada o el destinatario de la llamada. La dimensión de "El primero es el autor de la llamada" se puede usar para ayudar a identificar qué punto de conexión era el autor o cuál era el destinatario de la llamada.
-  
+
 ## <a name="dimensions"></a>Dimensiones
 
 En la siguiente tabla se enumeran las dimensiones que están disponibles en este momento en el panel de calidad de llamadas:
-  
+
 |||||
 |:-----|:-----|:-----|:-----|
 |**Nombre de la dimensión** <br/> |**Tipo de datos/unidades** <br/> |**Descripción** <br/> |**Valores** <br/> |
@@ -321,17 +321,17 @@ En la siguiente tabla se enumeran las dimensiones que están disponibles en este
 |Inside Corp Pair  <br/> |Pareja enumerada  <br/> | La pareja muestra si los puntos de conexión estaban situados dentro o fuera de la red corporativa en función de la asignación de subred. Posibles valores: <br/>  Interno : Interno <br/>  Interno : Externo <br/>  Externo : Externo <br/> |**Valor de ejemplo:** Dentro de: dentro de  <br/> |
 |Scenario Pair  <br/> |Pareja enumerada  <br/> |La pareja muestra si los puntos de conexión estaban situados dentro o fuera de la red corporativa en función de la asignación de subred y los detalles de conexión de la red.  <br/> **Nota:** Los pares están separados por '--'.           |Los valores en blanco en la enumeración indican que no se conocía el tipo de conectividad de red para alguno de los puntos de conexión o para ninguno. <br/>**Valor de ejemplo:** Cliente-Inside--cliente-interior-wifi  <br/> |
 |Son los equipos  <br/> |Booleano  <br/> |True indica que el agente de usuario de la primera o segunda de la secuencia es un extremo de Microsoft Teams.  <br/> False indica que los agentes de usuario son Skype para los extremos de negocio.  |**Valor de ejemplo:** Es true  |
-   
+
 ### <a name="notes-on-dimension-data-typeunits"></a>Notas sobre las unidades y tipo de datos de las dimensiones:
 
 #### <a name="range"></a>Intervalo
 
 Las dimensiones que se proporcionan mediante intervalos o grupos de valores se muestran con el siguiente formato:
-  
+
  _\<cadena de criterio de ordenación\> [\<límite inferior inclusivo\> - \<límite superior exclusivo\>)_
-  
+
 Por ejemplo, la dimensión Duración (minutos) representa la duración de la llamada en segundos con el valor notificado como un intervalo de valores.
-  
+
 |||
 |:-----|:-----|
 |**Duration (Minutes)** <br/> |**Cómo se interpreta** <br/> |
@@ -340,22 +340,22 @@ Por ejemplo, la dimensión Duración (minutos) representa la duración de la lla
 |065: [2 - 3)  <br/> |2 minutos < = duración de la transmisión < 3 minutos  <br/> |
 |066: [3 - 4)  <br/> |3 minutos < = duración de la transmisión < 4 minutos  <br/> |
 |…  <br/> |…  <br/> |
-   
+
 La <cadena de criterio de ordenación> se utiliza para controlar el criterio de ordenación cuando se presentan los datos, y se puede usar para filtrar. Por ejemplo, un filtro en Duración (minutos) < "065" mostraría las transmisiones con una duración inferior a 2 minutos (hay que añadir el 0 al principio para que el filtro funcione correctamente).
-  
+
 > [!NOTE]
-> El valor real de la cadena del criterio de ordenación no es importante. 
-  
+> El valor real de la cadena del criterio de ordenación no es importante.
+
 #### <a name="enumeration-pair"></a>Pareja de enumeración
 
 Las dimensiones que se proporcionan mediante una enumeración se muestran con el siguiente formato:
-  
+
  _\<valor de enumeración de un extremo\> : \<valor de la enumeración desde el otro extremo\>_
-  
+
 El orden de los valores de la enumeración es siempre el mismo pero no refleja el orden del primer punto de conexión y el segundo.
-  
+
 Por ejemplo, la Pareja de detalles de conexión de red muestra los valores de detalles de conexión de red de los dos puntos de conexión:
-  
+
 |||
 |:-----|:-----|
 |**Network Connection Detail Pair** <br/> |**Cómo se interpreta** <br/> |
@@ -363,15 +363,15 @@ Por ejemplo, la Pareja de detalles de conexión de red muestra los valores de de
 |Cableada : Wi-Fi  <br/> |El primer punto de conexión ha usado una conexión Ethernet cableada y el segundo punto de conexión ha usado una conexión Wi-Fi, o bien el segundo punto de conexión ha usado una conexión Ethernet cableada y el primer punto de conexión ha usado una conexión Wi-Fi.  <br/> |
 |: Wi-Fi  <br/> |El primer punto de conexión ha usado una conexión Wi-Fi y no se conoce la conexión de red que ha usado el segundo punto de conexión, o bien el segundo punto de conexión ha usado una conexión Wi-Fi y no se conoce la conexión de red que ha usado el primer punto de conexión.  <br/> |
 |…  <br/> |…  <br/> |
-   
+
 #### <a name="blank-values"></a>Valores en blanco
 
 En la lista anterior se incluyen las posibles razones por las que una dimensión puede aparecer en blanco. Muchas dimensiones y medidas estarán en blanco si la dimensión del registro disponible en QoE no existe. Normalmente, esta situación se produce cuando la llamada no se establece correctamente.
-  
+
 ## <a name="measures"></a>Medidas
 
 En la siguiente tabla se enumeran las medidas que están disponibles en este momento en el panel de calidad de llamadas:
-  
+
 ||||
 |:-----|:-----|:-----|
 |**Nombre de la medida** <br/> |**Unidades** <br/> |**Descripción** <br/> |
@@ -425,10 +425,10 @@ En la siguiente tabla se enumeran las medidas que están disponibles en este mom
 |Second Feedback Token Audio Issue Count  <br/> |Número de transmisiones valoradas  <br/> |Número de transmisiones en las que el usuario ha indicado un problema en el audio mediante el segundo punto de conexión.  <br/> |
 |First Feedback Token Video Issue Count  <br/> |Número de transmisiones valoradas  <br/> |Número de secuencias donde usuario utilizando el primer extremo indica un problema con el vídeo.  <br/> |
 |Second Feedback Token Video Issue Count  <br/> |Número de transmisiones valoradas  <br/> |Número de secuencias donde usuario mediante el segundo extremo indica un problema con el vídeo.  <br/> |
-|Audio SLA Good Call Count  <br/> |Número de llamadas  <br/> |Número de llamadas de audio dentro del ámbito de la Skype para SLA de calidad de voz empresarial ([Las licencias por volumen para productos de Microsoft y servicios en línea](http://aka.ms/voicequalitysla)) clasificada como cumple los objetivos de rendimiento de red.  <br/> |
-|Audio SLA Poor Call Count  <br/> |Número de llamadas  <br/> |Número de llamadas de audio dentro del ámbito de la Skype para profesionales voz calidad SLA ([Las licencias por volumen para productos de Microsoft y servicios en línea](http://aka.ms/voicequalitysla)) clasificó como no cumple los objetivos de rendimiento de red.  <br/> |
-|Audio SLA Call Count  <br/> |Número de llamadas  <br/> |Número de llamadas de audio dentro del ámbito de la Skype para SLA de calidad de voz empresarial ([Las licencias por volumen para productos de Microsoft y servicios en línea](http://aka.ms/voicequalitysla)).  <br/> |
-|Audio SLA Good Call Percentage  <br/> |Porcentaje  <br/> |Porcentaje de llamadas de audio que se encuentran dentro del ámbito del contrato de nivel de servicio en cuanto a calidad de voz para Skype Empresarial ([Licencias por volumen para productos Microsoft y servicios en línea](http://aka.ms/voicequalitysla)) y que se han clasificado como que cumplen los objetivos de rendimiento de red.  <br/> |
+|Audio SLA Good Call Count  <br/> |Número de llamadas  <br/> |Número de llamadas de audio dentro del ámbito de la Skype para SLA de calidad de voz empresarial ([Las licencias por volumen para productos de Microsoft y servicios en línea](https://aka.ms/voicequalitysla)) clasificada como cumple los objetivos de rendimiento de red.  <br/> |
+|Audio SLA Poor Call Count  <br/> |Número de llamadas  <br/> |Número de llamadas de audio dentro del ámbito de la Skype para profesionales voz calidad SLA ([Las licencias por volumen para productos de Microsoft y servicios en línea](https://aka.ms/voicequalitysla)) clasificó como no cumple los objetivos de rendimiento de red.  <br/> |
+|Audio SLA Call Count  <br/> |Número de llamadas  <br/> |Número de llamadas de audio dentro del ámbito de la Skype para SLA de calidad de voz empresarial ([Las licencias por volumen para productos de Microsoft y servicios en línea](https://aka.ms/voicequalitysla)).  <br/> |
+|Audio SLA Good Call Percentage  <br/> |Porcentaje  <br/> |Porcentaje de llamadas de audio que se encuentran dentro del ámbito del contrato de nivel de servicio en cuanto a calidad de voz para Skype Empresarial ([Licencias por volumen para productos Microsoft y servicios en línea](https://aka.ms/voicequalitysla)) y que se han clasificado como que cumplen los objetivos de rendimiento de red.  <br/> |
 |Audio Good Call Stream Count  <br/> |Número de transmisiones  <br/> |Número de secuencias de audio donde ambas secuencias de audio en la llamada (tramo de llamada) no se clasifican como deficientes en función de las métricas de red que se muestra aquí: [Clasificación de secuencia en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md).  <br/> |
 |Audio Poor Call Stream Count  <br/> |Número de transmisiones  <br/> |Número de secuencias de audio donde al menos una secuencia de audio en la llamada (tramo de llamada) se clasificó como deficiente en función de las métricas de red que se muestra aquí: [Clasificación de secuencia en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md).  <br/> |
 |Audio Unclassified Call Stream Count  <br/> |Número de transmisiones  <br/> |Número de secuencias de audio donde ambas secuencias de audio en la llamada (tramo de llamada) no pudieran clasificarse debido a la falta de métricas de red.  <br/> |
@@ -496,13 +496,12 @@ En la siguiente tabla se enumeran las medidas que están disponibles en este mom
 |Firewall IP Blocked Media Failure Percentage  <br/> |Porcentaje  <br/> |Porcentaje de transmisiones que no han podido establecerse debido al bloqueo de acceso del equipo de red a los servidores de Skype Empresarial. Estos errores normalmente indican que un proxy, un firewall u otro dispositivo para la seguridad de las redes no está configurado correctamente y no permite el acceso a la dirección IP y los puertos que utiliza Skype Empresarial en Office 365.  <br/> |
 |Media Failed Due To Firewall DPI Stream Count  <br/> |Número de transmisiones  <br/> |Número de transmisiones que no han podido establecerse debido al bloqueo de acceso del equipo de red por una inspección de paquetes exhaustiva que no permite el tráfico de Skype Empresarial. Estos errores normalmente indican que un proxy, un firewall u otro dispositivo para la seguridad de las redes no está configurado correctamente y no permite el acceso a la dirección IP y los puertos que utiliza Skype Empresarial en Office 365.  <br/> |
 |Firewall DPI Media Failure Percentage  <br/> |Porcentaje  <br/> |Porcentaje de transmisiones que no han podido establecerse debido al bloqueo de acceso del equipo de red por una inspección de paquetes exhaustiva que no permite el tráfico de Skype Empresarial. Estos errores normalmente indican que un proxy, un firewall u otro dispositivo para la seguridad de las redes no está configurado correctamente y no permite el acceso a la dirección IP y los puertos que utiliza Skype Empresarial en Office 365.  <br/> |
-   
-## <a name="related-topics"></a>See also
+
+## <a name="related-topics"></a>Temas relacionados
 [Configurar el análisis de llamadas de Skype Empresarial](set-up-call-analytics.md)
 
 [Usar el análisis de llamadas para solucionar problemas de mala calidad de llamada en Skype Empresarial](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Análisis de llamada y el panel de calidad de llamada](Difference-between-call-analytics-and-call-quality-dashboard.md)
 
-  
- 
+

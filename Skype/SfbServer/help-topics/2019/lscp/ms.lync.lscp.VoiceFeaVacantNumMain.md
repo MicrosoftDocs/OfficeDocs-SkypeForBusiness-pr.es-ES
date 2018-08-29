@@ -12,75 +12,75 @@ localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los números sin asignar son números de teléfono válidos en la organización, pero que no se han asignado a un usuario o teléfono. En la tabla de números sin asignar se identifica cómo desea que se traten las llamadas a números sin asignar.
-ms.openlocfilehash: 082c7e5ebccec1c2f74304bc5117ed99ef9b0da1
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: 95c8b56f8957027e3715e49576fe2aa4f361c77d
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22138433"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23250769"
 ---
 # <a name="unassigned-phone-number"></a>Número de teléfono sin asignar
 
 > [!NOTE]
-> Mensajería unificada de Exchange sigue estando disponible en Skype para Business Server 2019 al integrar Skype para la empresa 2019 con Exchange 2013 o 2016 de Exchange. Debido a los cambios en la compatibilidad en Exchange 2019, integración de mensajería unificada de Exchange se está desaprovisionamiento emphasised en favor de las características de correo de voz en la nube y operador automático de la nube.  
- 
+> Mensajería unificada de Exchange sigue estando disponible en Skype para Business Server 2019 al integrar Skype para la empresa 2019 con Exchange 2013 o 2016 de Exchange. Debido a los cambios en la compatibilidad en Exchange 2019, integración de mensajería unificada de Exchange se está desaprovisionamiento emphasised en favor de las características de correo de voz en la nube y operador automático de la nube.
+
 Los números sin asignar son números de teléfono válidos en la organización, pero que no se han asignado a un usuario o teléfono. En la tabla de números sin asignar se identifica cómo desea que se traten las llamadas a números sin asignar.
-  
+
 La forma en que configure la tabla de números sin asignar depende de cómo desee usarla. Puede configurar la tabla con todas las extensiones válidas para la organización, con únicamente extensiones sin asignar, o bien con una combinación de ambos tipos de números. La tabla de números sin asignar puede incluir tanto números asignados como sin asignar, pero solamente se invoca cuando un autor de llamadas marca un número que no está asignado en ese momento. Si incluye todas las extensiones válidas en la tabla de números sin asignar, puede especificar la acción que va a tener lugar siempre que alguien abandone la organización, sin necesidad de volver a configurar la tabla. Si incluye extensiones sin asignar en la tabla, puede personalizar la acción que va a tener lugar respecto a números específicos. Por ejemplo, si cambia la extensión del departamento de soporte interno, puede incluir el número antiguo de este departamento en la tabla y asignarlo a un anuncio que comunique el número nuevo.
-  
+
 > [!IMPORTANT]
-> Antes de configurar la tabla de números sin asignar, tiene que haber definido uno o más anuncios o haber establecido un operador automático de mensajería unificada de Exchange. 
-  
+> Antes de configurar la tabla de números sin asignar, tiene que haber definido uno o más anuncios o haber establecido un operador automático de mensajería unificada de Exchange.
+
 La página **Número no asignado** muestra una lista de todos los intervalos de números sin asignar definidos en la organización.
-  
+
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 
 En la página **Número no asignado** puede realizar las siguientes tareas:
-  
+
 - Crear un intervalo de números sin asignar
-    
+
 - Cambiar un intervalo de números sin asignar existente
-    
+
 - Eliminar un intervalo de números sin asignar
-    
-- Cambiar el orden de los intervalos de números sin asignar para determinar qué acción necesita aplicarse primero a una llamada entrante que coincida con un número sin asignar. 
-    
+
+- Cambiar el orden de los intervalos de números sin asignar para determinar qué acción necesita aplicarse primero a una llamada entrante que coincida con un número sin asignar.
+
 ## <a name="ui-reference"></a>Referencia de interfaz de usuario
 
 En la siguiente lista se describen los comandos de la página.
-  
+
 - **Nuevo** Inicia un nuevo intervalo numérico sin asignar.
-    
+
 - **Editar** Se abre el intervalo numérico sin asignar seleccionado para su edición, selecciona todos los intervalos numéricos sin asignar de la lista o elimina el intervalo numérico sin asignar seleccionado.
-    
+
 - **Mover hacia arriba** Mueve el intervalo numérico sin asignar seleccionado copia de seguridad en la lista de modo que Skype para Business Server encuentra antes y aplica la acción especificada antes de aplicar las acciones especificadas para otros rangos de la lista.
-    
+
     > [!NOTE]
-    > Skype para Business Server busca en la tabla de números sin asignar de arriba a abajo y usa el primer rango que coincida con el número sin asignar. Por ejemplo, si tiene un intervalo que especifique una acción de último recurso, asegúrese de que ese intervalo se encuentra en último lugar en la lista. 
-  
+    > Skype para Business Server busca en la tabla de números sin asignar de arriba a abajo y usa el primer rango que coincida con el número sin asignar. Por ejemplo, si tiene un intervalo que especifique una acción de último recurso, asegúrese de que ese intervalo se encuentra en último lugar en la lista.
+
 - **Mover hacia abajo** Mueve el intervalo numérico sin asignar seleccionado hacia abajo en la lista.
-    
+
 - **Confirmar todos** Guarda todos los cambios realizados a intervalos numéricos sin asignar.
-    
+
     > [!IMPORTANT]
     > Este comando guarda todos los cambios realizados en las páginas **Nuevo número sin asignar** y **Editar número sin asignar**.
-  
+
 - **Actualizar** Actualiza la lista de intervalos numéricos sin asignar.
-    
+
 En la siguiente lista se describen los campos de la página.
-  
+
 - **Nombre** El nombre único que identifica el intervalo de números sin asignar.
-    
+
 - **Estado** Muestra qué intervalos numéricos se han guardado en la base de datos y cuáles no.
-    
+
 - **Intervalo de inicio** El número inicial del intervalo numérico sin asignar.
-    
+
 - **Intervalo de finalización** El número final del intervalo numérico sin asignar.
-    
+
 - **Destino** El identificador de servicio de la aplicación que hospeda la aplicación de anuncio que controlará las llamadas entrantes a este intervalo de números sin asignar.
-    
+
 - **Anuncio** El anuncio que se reproducirá para este intervalo de números sin asignar.
-    
-Para obtener información detallada sobre las capacidades y características de anuncio, consulte [Plan para la aplicación de anuncio en Skype para la empresa](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) en la documentación de planeación. Para obtener información detallada sobre cómo trabajar con intervalos numéricos sin asignar, vea [Configurar el enrutamiento de sin asignar números de teléfono](http://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) en la documentación sobre operaciones.
-  
+
+Para obtener información detallada sobre las capacidades y características de anuncio, consulte [Plan para la aplicación de anuncio en Skype para la empresa](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) en la documentación de planeación. Para obtener información detallada sobre cómo trabajar con intervalos numéricos sin asignar, vea [Configurar el enrutamiento de sin asignar números de teléfono](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) en la documentación sobre operaciones.
+
 

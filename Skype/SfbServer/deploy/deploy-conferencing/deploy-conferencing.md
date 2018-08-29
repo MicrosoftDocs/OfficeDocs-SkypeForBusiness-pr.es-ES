@@ -9,61 +9,61 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: 'Resumen: Lea este tema para obtener información sobre cómo implementar una conferencia en Skype para Business Server.'
-ms.openlocfilehash: b893a78ae5abb7c920c588cae948779cc3095c63
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e004afdc420bcd99679e20c29bf6ba7efc7f735f
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21010522"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23263826"
 ---
 # <a name="deploy-conferencing-in-skype-for-business-server"></a>Implementar una conferencia en Skype para Business Server
- 
+
 **Resumen:** Lea este tema para obtener información sobre cómo implementar una conferencia en Skype para Business Server.
-  
-Hay cuatro tipos de conferencia disponibles en Skype para Business Server: conferencia web, audio y vídeo (A / V) conferencia, conferencia de acceso telefónico y la conferencia de mensajes instantáneos (IM). Puede optar por activar todos los tipos de conferencia o por usar solo un tipo, según sus necesidades. 
-  
-Al implementar Skype para Business Server, automáticamente se implementan las funciones de conferencia de mensajería instantánea. Al crear y publicar una topología con el Generador de topologías, puede especificar si desea implementar las conferencias web, de A/V y de acceso telefónico local, tal como se describe en las siguientes listas de comprobación: 
-  
+
+Hay cuatro tipos de conferencia disponibles en Skype para Business Server: conferencia web, audio y vídeo (A / V) conferencia, conferencia de acceso telefónico y la conferencia de mensajes instantáneos (IM). Puede optar por activar todos los tipos de conferencia o por usar solo un tipo, según sus necesidades.
+
+Al implementar Skype para Business Server, automáticamente se implementan las funciones de conferencia de mensajería instantánea. Al crear y publicar una topología con el Generador de topologías, puede especificar si desea implementar las conferencias web, de A/V y de acceso telefónico local, tal como se describe en las siguientes listas de comprobación:
+
 - [Deployment checklist for web and audio/video conferencing](deploy-conferencing.md#BKMK_ChecklistWebConferencing)
-    
+
 - [Implementación del diagrama de flujo y lista de comprobación para las conferencias de acceso telefónico local](deploy-conferencing.md#BKMK_DialinConferencing)
-    
+
 Antes de implementar una conferencia, debe leer los siguientes temas de planeación:
-  
+
 - [Planeación de conferencia en Skype para Business Server](../../plan-your-deployment/conferencing/conferencing.md)
-    
+
 - [Requisitos de hardware y software para conferencias en Skype para Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
-    
+
 - [Planeación de la topología de las conferencias de Skype para Business Server](../../plan-your-deployment/conferencing/conferencing-topology.md)
-    
+
 - [Planeación de conferencias en Skype para Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
-    
+
 - [Planeación de reuniones grandes en Skype para Business Server](../../plan-your-deployment/conferencing/large-meetings.md)
-    
+
 ## <a name="deployment-checklist-for-web-and-audiovideo-conferencing"></a>Lista de comprobación de la implementación para conferencias web y de audio/vídeo
 <a name="BKMK_ChecklistWebConferencing"> </a>
 
-La siguiente tabla proporciona información general de los pasos necesarios para implementar conferencias web y de audio/vídeo en una topología existente. Se incluyen los vínculos a la planeación asociada y a la documentación sobre procedimientos. 
-  
+La siguiente tabla proporciona información general de los pasos necesarios para implementar conferencias web y de audio/vídeo en una topología existente. Se incluyen los vínculos a la planeación asociada y a la documentación sobre procedimientos.
+
 |**Fase**|**Pasos**|**Roles y pertenencias a grupos**|**Documentación**|
 |:-----|:-----|:-----|:-----|
 |**Instalar el hardware y software necesario** <br/> |Conferencia se ejecuta en servidores Front-End de un grupo de servidores Front-End y servidores Standard Edition. Vea los requisitos del servidor y del entorno para los servidores front-end.  <br/> Si se habilita la conferencia web, debe asegurarse de que Skype para Business Server puede comunicarse con Office Web Apps Server, que se usa para controlar el uso compartido y la representación de presentaciones de PowerPoint.  <br/> Para la conferencia web, también necesita especificar un recurso compartido de archivos para usar como el almacén de archivos.  <br/> ¿Desea permitir que los usuarios externos con clientes de Skype Empresarial se unan a conferencias? Si es así, necesita implementar servidores perimetrales.  <br/> |Usuario de dominio miembro del grupo Administradores locales  <br/> | [Requisitos de servidor de Skype para Business Server 2019](../../../SfBServer2019/plan/system-requirements.md) <br> [Requisitos del servidor para Skype Empresarial Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [Requisitos del entorno para Skype Empresarial Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/> [Requisitos de hardware y software para conferencias en Skype para Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md) <br/> [Configurar la integración con Office Web Apps Server en Skype para Business Server](office-web-app-server.md) <br/> [Crear un recurso compartido de archivos en Skype para Business Server](../../deploy/install/create-a-file-share.md) <br/> [Planificar las implementaciones del servidor perimetral en Skype Empresarial Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) <br/> [Implementar el servidor perimetral en Skype Empresarial Server 2015](../../deploy/deploy-edge-server/deploy-edge-server.md) <br/> |
 |**Crear la topología interna adecuada para admitir la conferencia** <br/> |Debe ejecutar el generador de topología para agregar una conferencia a la topología y, a continuación, publique la topología.  <br/> |Para definir una topología, una cuenta que sea miembro del grupo Usuarios locales  <br/> Para publicar la topología, una cuenta que sea miembro del grupo Administradores de dominio y grupo RTCUniversalServerAdmins y que tiene permisos de control total (lectura/escritura/modificar) en el recurso compartido de archivos que se usará para la Skype para almacén de archivos de Business Server (para que topología El generador puede configurar las DACL necesarias)  <br/> |[Crear y publicar la nueva topología de Skype para Business Server](../../deploy/install/create-and-publish-new-topology.md) <br/> |
 |**Configurar directivas de conferencia y opciones de configuración** <br/> |Usar Skype para Panel de Control de servidor empresarial o Skype para Shell de administración de servidor empresarial para configurar las directivas de conferencia y opciones de configuración.  <br/> |Grupo RTCUniversalServerAdmins (solo Windows PowerShell) o asignar a los usuarios al rol CSAdministrator  <br/> |[Administrar las directivas de conferencia en Skype para Business Server](../../manage/conferencing/conferencing-policies.md) <br/> [Administrar opciones de configuración en Skype para Business Server de la reunión](../../manage/conferencing/meeting-configuration-settings.md) <br/> [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps) <br/> [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps) <br/> [New-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> [Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> [Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |
-   
+
 ## <a name="deployment-flowchart-and-checklist-for-dial-in-conferencing"></a>Implementación del diagrama de flujo y lista de comprobación para las conferencias de acceso telefónico local
 <a name="BKMK_DialinConferencing"> </a>
 
  La conferencia de acceso telefónico local permite a los usuarios obtener acceso telefónico local desde la red telefónica conmutada (RTC) para unirse a una conferencia de audio y vídeo.
-  
-Algunos de los componentes necesarios para conferencias de acceso telefónico también se usan para Enterprise Voice. Por ejemplo, si está implementando la Telefonía IP empresarial, también necesita implementar un servidor de mediación y una puerta de enlace RTC, componentes que también son necesarios para las conferencias de acceso telefónico local. Cómo implemente la característica de conferencia de acceso telefónico local, por lo tanto, depende de si también está implementando una solución de Telefonía IP empresarial. 
-  
+
+Algunos de los componentes necesarios para conferencias de acceso telefónico también se usan para Enterprise Voice. Por ejemplo, si está implementando la Telefonía IP empresarial, también necesita implementar un servidor de mediación y una puerta de enlace RTC, componentes que también son necesarios para las conferencias de acceso telefónico local. Cómo implemente la característica de conferencia de acceso telefónico local, por lo tanto, depende de si también está implementando una solución de Telefonía IP empresarial.
+
 El diagrama de flujo de la conferencia de acceso telefónico local muestra los pasos que necesita seguir en función de si también está implementando una solución de Telefonía IP empresarial. La tabla que hay después del diagrama de flujo proporciona información general de los pasos necesarios y recomendados para la implementación de la conferencia de acceso telefónico local. También se incluyen vínculos a la planeación asociada y a la documentación sobre procedimientos. Para obtener más información acerca de cómo planear una solución completa de Enterprise Voice, vea [Planear la solución de Enterprise Voice en Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
-  
+
 **Diagrama de flujo de la implementación de conferencias de acceso telefónico local**
 
 ![Implementar el diagrama de flujo de la conferencia de acceso telefónico local](../../media/95d2f963-7705-4930-90bc-df6a71a700bf.png)
-  
+
 **Lista de comprobación de la implementación de conferencias de acceso telefónico local**
 
 |**Fase**|**Pasos**|**Roles y pertenencia a grupos**|**Documentación**|
@@ -78,9 +78,9 @@ El diagrama de flujo de la conferencia de acceso telefónico local muestra los p
 |**(Opcional) Comprobar o modificar los requisitos del número de identificación personal de los usuarios (PIN)** <br/> |Usar Skype para Panel de Control de servidor empresarial o Skype para Shell de administración de servidor empresarial para ver o modificar la **Directiva de PIN**de conferencia. Puede especificar la longitud mínima del PIN, el número máximo de intentos de inicio de sesión, la expiración del PIN y si es posible usar patrones comunes.  <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Administración de directivas PIN para conferencias en Skype para Business Server](../../manage/conferencing/pin-policies.md) <br/> [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps) <br/> [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps) <br/> |
 |**(Opcional) Modificar la asignación de teclas de comandos DTMF** <br/> |Use el cmdlet **Set-CsDialinConferencingDtmfConfiguration** para modificar las teclas usadas para comandos de tono de marcado de frecuencia múltiple (DTMF) que los participantes pueden usar para controlar la configuración de la conferencia (como activar y desactivar el audio o bloquear y desbloquear la conferencia). <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Administrar asignación de claves para comandos DTMF en Skype para Business Server](../../manage/conferencing/key-mapping-for-dtmf-commands.md) <br/> [Set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |
 |**(Opcional) Modificar el comportamiento de los anuncios al unirse y abandonar conferencias** <br/> |Use el cmdlet **Set-CsDialinConferencingConfiguration** para cambiar el funcionamiento de los anuncios cuando los participantes se unen a conferencias o las abandonan. <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Administrar unirse a conferencia y dejar anuncios en Skype para Business Server](../../manage/conferencing/join-and-leave-announcements.md) <br/> [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) <br/> |
-|**(Recomendado) Configurar directorios de conferencia** <br/> |Use el cmdlet **New-CsConferenceDirectory** para crear un directorio de conferencia para cada 999 usuarios del grupo. <br/> |RTCUniversalServerAdmins  <br/> |[(Recomendado) Crear directorios de conferencia](http://technet.microsoft.com/library/787f4c94-1c96-468a-a74d-e06b7bd4b8a3.aspx) <br/> [Nueva CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps) <br/> |
+|**(Recomendado) Configurar directorios de conferencia** <br/> |Use el cmdlet **New-CsConferenceDirectory** para crear un directorio de conferencia para cada 999 usuarios del grupo. <br/> |RTCUniversalServerAdmins  <br/> |[(Recomendado) Crear directorios de conferencia](https://technet.microsoft.com/library/787f4c94-1c96-468a-a74d-e06b7bd4b8a3.aspx) <br/> [Nueva CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps) <br/> |
 |**(Opcional) Comprobar la configuración de conferencia de acceso telefónico local** <br/> |Use el cmdlet **Get-CsDialinConferencingAccessNumber** para buscar planes de marcado que tengan una región de conferencia de acceso telefónico local que no sea usada por ningún número de acceso, así como números de acceso que no tengan asignada ninguna región. <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsViewOnlyAdministrator  <br/> CsHelpDesk  <br/> |[Configurar conferencias de acceso telefónico en Skype para Business Server](dial-in-conferencing.md) <br/> [Probar la conferencia de acceso telefónico en Skype para Business Server](../../manage/conferencing/tests.md) <br/> [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps) <br/> |
 |**(Opcional) Comprobar la conferencia de acceso telefónico local** <br/> |Use el cmdlet **Test-CsDialInConferencing** para comprobar si los números de acceso del grupo de servidores especificado funcionan correctamente. <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Probar la conferencia de acceso telefónico en Skype para Business Server](../../manage/conferencing/tests.md) <br/> [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |
 |**(Opcional) Dar la bienvenida a los usuarios a la conferencia de acceso telefónico local y definir el PIN inicial** <br/> |Use el script **Set-CsPinSendCAWelcomeMail** para definir los PIN iniciales de los usuarios y enviar un correo electrónico de bienvenida que contenga el PIN inicial y un vínculo a la página de configuración de conferencia de acceso telefónico. <br/> |RTCUniversalServerAdmins  <br/> |[Enviar correo electrónico de bienvenida para el marcado de los usuarios de Skype para Business Server](../../manage/conferencing/welcome-emails.md) <br/> |
-   
+
 

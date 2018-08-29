@@ -16,12 +16,12 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 4cb5a14f2bce0a9450788de178cff8e27cbc4e33
-  ms.sourcegitcommit: 1fde3af8f5c93c1328842990c7d14cbc0fbfdf97
+  ms.openlocfilehash: 698bb6a90d3ba6b64b3288b60d55eec2dac17453
+  ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 07/05/2018
-  ms.locfileid: "20201418"
+  ms.lasthandoff: 08/28/2018
+  ms.locfileid: "23253441"
 items:
 - durationInMinutes: 1
   content: >
@@ -49,7 +49,7 @@ items:
     -   Informes
 
 
-    Conferencias de audio agregan las características y funcionalidad a las reuniones en los equipos. Se recomienda que complete [las reuniones en los equipos de Microsoft](http://aka.ms/tr-meetings) antes de este tutorial.
+    Conferencias de audio agregan las características y funcionalidad a las reuniones en los equipos. Se recomienda que complete [las reuniones en los equipos de Microsoft](https://aka.ms/tr-meetings) antes de este tutorial.
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
@@ -98,7 +98,7 @@ items:
     ### <a name="next-steps"></a>Pasos siguientes
 
 
-    1.  Regístrese en [MyAdvisor](http://aka.ms/myadvisor) para obtener ayuda personalizada acerca de la implementación del servicio.
+    1.  Regístrese en [MyAdvisor](https://aka.ms/myadvisor) para obtener ayuda personalizada acerca de la implementación del servicio.
 
     2.  Empezar a usar conferencias de Audio en los equipos.
 
@@ -109,4 +109,4 @@ items:
         - Siga el [Blog de los equipos](https://aka.ms/teamsblog).
         - Leer la [Guía básica de los equipos](https://aka.ms/skype2teamsroadmap).
         - Obtenga información acerca de las características más recientes lanzamiento en las [Notas de la versión](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
-    5.  Descubra [más módulos de formación y tutoriales](http://aka.ms/Teamsacademy).
+    5.  Descubra [más módulos de formación y tutoriales](https://aka.ms/Teamsacademy).

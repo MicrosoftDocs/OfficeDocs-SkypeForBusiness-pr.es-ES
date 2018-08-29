@@ -3,7 +3,7 @@ title: Implementación de equipos de Microsoft para el concentrador de superfici
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/23/2018
+ms.date: 08/29/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7757f7d220ae58914a296e3dc3850179219b475
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 96eb92c45af065b5f09ab9312f79198377067c4a
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981582"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23246161"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Implementación de equipos de Microsoft para el concentrador de superficie
 ======================================
@@ -141,9 +141,6 @@ Una vez haya completado los pasos anteriores para habilitar los equipos de la cu
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Instalación de los equipos para exponer concentrador desde el almacén de Microsoft 
 
-> [!NOTE]
-> Para usar Microsoft Teams para concentrador de superficie (vista previa), el dispositivo debe ser inscritos en el programa de información confidencial de Windows. Para dejar el programa de información confidencial, debe restablecer el concentrador de superficie de uso de recuperación en la nube.<br> Para convertirse en un miembro del programa de información confidencial de Windows, se debe establecer el concentrador de superficie en telemetría completo antes de entrar en el programa de información confidencial de Windows. Debido a las normativas de GDPR, la configuración predeterminada de Windows telemetría recientemente cambiado de completa a básica en países de la UE. Debe comprobar la configuración antes de unirse al programa de información confidencial de Windows. Si se intenta participar en el programa de información confidencial de Windows cuando se establece en básico telemetry podría requerir un restablecimiento del concentrador de superficie de. Para validar la configuración de telemetría de Windows en un concentrador de superficie, elija **configuración** > **Privacy** > **comentarios y diagnósticos**y establecida en **completa**.
-
 Estas instrucciones son para la instalación de los equipos de concentrador de superficie de Microsoft Store. 
  
 1. Iniciar el almacén de Microsoft:<br>
@@ -201,5 +198,3 @@ Use lo siguiente para configurar la directiva de aplicación predeterminada llam
 
 Reinicie el dispositivo concentrador de superficie. Una vez reiniciado el dispositivo, debe ser capaz de iniciar la aplicación de los equipos desde la pantalla de inicio y unirse a una reunión desde el calendario.
 
-> [!NOTE]
-> Si no se admite su dispositivo o dispositivos de su organización parte del programa de información confidencial de Windows y se encuentra en países cubiertos por el Reglamento General de protección de datos (GDPR) (o ha cambiado manualmente la configuración de telemetría en básico), a continuación, debe volver a comprobar que se ha permitido telemetría completo antes de unirse a la información confidencial de programa. GDPR cambiar el comportamiento predeterminado de los dispositivos de concentradores de la superficie de la UE para establecer telemetría en básico.

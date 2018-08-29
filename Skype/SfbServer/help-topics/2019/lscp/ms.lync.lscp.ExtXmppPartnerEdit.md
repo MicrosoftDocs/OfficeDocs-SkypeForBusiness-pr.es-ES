@@ -12,21 +12,21 @@ localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 2ece0cfd3f9458da57248017bd557cdfa7acd848
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: 9f5f5b887f0da52276ddff80e55c280cc3f9ea23
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22138605"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23242106"
 ---
 # <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>Socios federados de XMPP: Crear nuevos o editar los existentes
 
 > [!NOTE]
 > Las puertas de enlace XMPP y los servidores proxy están disponibles en Skype para Business Server 2015, pero ya no se admiten en Skype para Business Server 2019. Para obtener más información, vea [la federación XMPP migrar](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
- 
+
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-  
-- [Crear o editar la configuración del socio XMPP](http://technet.microsoft.com/library/362dbe5e-8ee9-4aba-8c26-5907312b4a60.aspx)
-    
-- [Tabla de opciones de negociación para XMPP socios federados](http://technet.microsoft.com/library/ef773942-ef92-4f71-85a1-738dfebdfa00.aspx)
+
+- [Crear o editar la configuración del socio XMPP](https://technet.microsoft.com/library/362dbe5e-8ee9-4aba-8c26-5907312b4a60.aspx)
+
+- [Tabla de opciones de negociación para XMPP socios federados](https://technet.microsoft.com/library/ef773942-ef92-4f71-85a1-738dfebdfa00.aspx)
 

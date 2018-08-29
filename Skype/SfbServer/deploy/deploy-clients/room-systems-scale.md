@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este tema para obtener más información sobre la implementación de sistemas de salón de Skype v2 en las implementaciones de gran escala.
-ms.openlocfilehash: 5ed6e041eb862c7bb50bde89ef172f9012ca8c2e
-ms.sourcegitcommit: 81c6775fdcf8726d2df83c421a85b7908f1f7412
+ms.openlocfilehash: 3b34d584bf98326257964e30431f622a0be6dee2
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2018
-ms.locfileid: "22602000"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23247460"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Implementación de sistemas de salón de Skype v2 mediante System Center Configuration Manager
 
@@ -81,7 +81,7 @@ Use las siguientes instrucciones para comprobar que se han configurado correctam
 
 2.  Seleccione el servidor de punto de distribución que va a servir la implementación de sistemas de salón de Skype v2 y, a continuación, seleccione **Propiedades**.
 
-3.  Seleccione la ficha **PXE** y asegúrese de que estén habilitadas las siguientes opciones: 
+3.  Seleccione la ficha **PXE** y asegúrese de que estén habilitadas las siguientes opciones:
     -   Habilitar la compatibilidad con PXE para los clientes
     -   Permitir que este punto de distribución responder a las solicitudes de PXE entrantes
     -   Habilitar la compatibilidad con equipo desconocido
@@ -212,7 +212,7 @@ Cree la siguiente estructura de carpetas en el sitio de administración central 
       Wait-Process -name wusa
    }
 ```
-3.  Descargue los paquetes de actualización de Windows obligatorio en la misma carpeta.  
+3.  Descargue los paquetes de actualización de Windows obligatorio en la misma carpeta.
     > [!NOTE]
     > En el momento en que se publicó este artículo, sólo [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) era necesaria. Comprobar [Configure una consola de v2 de Skype salón de sistemas](console.md), para ver si se requiere cualquier otra actualización.
 
@@ -319,21 +319,21 @@ Crear este paquete para distribuir el certificado raíz para dispositivos que no
         strHTMLText = strHTMLText & "<br><br> Click Accept to use this as the computer name and continue deployment, or Change to set a new name."
         strHTMLText = strHTMLText & "<p><input type=""button"" value=""Accept"" name = ""Accept_Button"" onclick=""SetComputerName"" />"
         strHTMLText = strHTMLText & " <input type=""button"" value=""Change"" name = ""Change_Button"" onclick=""ChangeComputerName"" />"
-        TextArea2.innerHTML = strHTMLText   
+        TextArea2.innerHTML = strHTMLText
     End Sub
-    
+
     Sub SetComputerName()
         dim result
         result = MsgBox("Computer Name to be assigned: " & strNewComputerName &vbcrlf & "Are you sure you want to continue?", 36)
-        If (result = vbYes) then 
-            SET env = CreateObject("Microsoft.SMS.TSEnvironment") 
+        If (result = vbYes) then
+            SET env = CreateObject("Microsoft.SMS.TSEnvironment")
             env("OSDComputerName") = strNewComputerName
-            self.close  
+            self.close
         elseif (result = vbNo) then
             Window_OnLoad
         End If
     End Sub
-    
+
     Sub UpdateComputerName()
         strNewComputerName = newcomputername.value
         if len(trim(strNewComputerName)) = 0 then
@@ -342,26 +342,26 @@ Crear este paquete para distribuir el certificado raíz para dispositivos que no
         end if
         SetComputerName
     End Sub
-    
+
     Sub ChangeComputerName()
         TextArea2.innerHTML = "<p>Type the new computer name and click Accept:  <input type=""text"" name=""newcomputername"" value =" & strNewComputerName & " />"
         TextArea2.innerHTML = TextArea2.innerHTML & "<br><input type=""button"" value=""Update"" name = ""Update_Button"" onclick=""UpdateComputerName"" />"
     End Sub
-    
+
     Sub Window_OnLoad
         Set oTSProgressUI = CreateObject("Microsoft.SMS.TsProgressUI")
         oTSProgressUI.CloseProgressDialog
         GenerateComputerName
     End Sub
     </script>
-    
+
     <body>
     <span id = "TextArea1"></span>
     <span id = "TextArea2">
     </span>
     </body>
     </html>
-    
+
     ```
 3.  En la consola de Configuration Manager, vaya a la **Biblioteca de Software** \> **Administración de aplicaciones** \> **paquetes**y, a continuación, seleccione **Crear paquete**.
 
@@ -390,16 +390,16 @@ Crear este paquete para distribuir el certificado raíz para dispositivos que no
 <?xml version="1.0" encoding="utf-8"?>
 <unattend xmlns="urn:schemas-microsoft-com:unattend">
     <settings pass="specialize">
-        <component name="Microsoft-Windows-Embedded-BootExp" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="NonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <component name="Microsoft-Windows-Embedded-BootExp" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="NonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <DisableBootMenu>1</DisableBootMenu>
             <DisplayDisabled>1</DisplayDisabled>
         </component>
-        <component name="Microsoft-Windows-powercpl" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <component name="Microsoft-Windows-powercpl" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <PreferredPlan>8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c</PreferredPlan>
         </component>
     </settings>
     <settings pass="oobeSystem">
-        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <OOBE>
                 <HideEULAPage>true</HideEULAPage>
                 <HideLocalAccountScreen>true</HideLocalAccountScreen>
@@ -625,11 +625,11 @@ Puede descargar y fácilmente importar una secuencia de tareas de ejemplo y pers
     16. **Agregar usuario de Skype Local**: este paso crea la cuenta de Skype local se usa para iniciar sesión en Windows y para iniciar la aplicación de sistemas de salón de Skype v2 de automáticamente. Este paso no tiene ningún paquete de software asociado con él y, personalización no se requiere para él.
 
     17. **Establecer de seguridad y configuración de aplicación de SRS**: este paso configura los sistemas de la sala de Skype v2 instalación de la aplicación para el próximo inicio del sistema operativo.
-        -   Compruebe que están seleccionadas las **SRS v2 – Configurar paquete de instalación de SRS** y **Deshabilitar 64-bit redirección del sistema de archivos** .       
+        -   Compruebe que están seleccionadas las **SRS v2 – Configurar paquete de instalación de SRS** y **Deshabilitar 64-bit redirección del sistema de archivos** .
 
 > [!IMPORTANT]
 > Es muy importante que los pasos de la secuencia de tareas deben estar en el orden proporcionado. Modificación del orden de los pasos, o configurar pasos adicionales se puede dividir la implementación.
-> 
+>
 > **Establecer de seguridad y configuración de aplicación de SRS** paso debe ser el último paso en la secuencia de tareas, en caso contrario, puede producirse un error de la implementación.
 
 ### <a name="create-deployment-for-the-task-sequence"></a>Creación de implementación para la secuencia de tareas

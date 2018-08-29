@@ -11,24 +11,22 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
-description: Para generar el NIP del usuario, seleccione Generar automáticamente un PIN válido.
-ms.openlocfilehash: f09103a0a1300a32098547b896dc7872b1339c6b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Para generar el PIN del usuario, seleccione Generar automáticamente un PIN válido.
+ms.openlocfilehash: 7f1a78a1de16ab5689c63bb60afeb7c88479cc0c
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23255834"
 ---
 # <a name="set-pin"></a>Establecer PIN
- 
-Para generar el NIP del usuario, seleccione **generar automáticamente un PIN válido**. 
-  
-Para crear su propio PIN, seleccione **Escribir manualmente un PIN específico** y, a continuación, escriba un PIN en el cuadro de texto que cumpla con los requisitos de PIN especificados en su configuración de directiva de PIN. 
-  
-Para obtener más información acerca de los distintos procedimientos que se pueden realizar utilizando el Skype para Business Server Control Panel, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).
-  
+
+Para generar el PIN del usuario, seleccione **generar automáticamente un PIN válido**.
+
+Para crear su propio PIN, seleccione **Escribir manualmente un PIN específico** y, a continuación, escriba un PIN en el cuadro de texto que cumpla con los requisitos de PIN especificados en su configuración de directiva de PIN.
+
+Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).
+
 ## <a name="see-also"></a>Vea también
 
-#### 
-
-[NIP de los usuarios](http://technet.microsoft.com/library/806a813c-bdd4-49eb-9923-0dbb03968d8a.aspx)
-
+[PIN de usuario](https://technet.microsoft.com/library/806a813c-bdd4-49eb-9923-0dbb03968d8a.aspx)

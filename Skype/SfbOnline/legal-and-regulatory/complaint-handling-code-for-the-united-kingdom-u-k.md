@@ -1,5 +1,5 @@
 ---
-title: Reclamación código de control para el Reino Unido (Reino Unido)
+title: Código de administración de quejas para Reino Unido (UK)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,68 +19,69 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
-ms.openlocfilehash: 0d6a5a0f71dee2c218b8f4cd477fc8379ef69b4f
-ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
+ms.openlocfilehash: 1076ba06b558aafe9ffeaeb15de5cdf89c663b4a
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23247937"
 ---
-# <a name="complaint-handling-code-for-the-united-kingdom-uk"></a>Reclamación código de control para el Reino Unido (Reino Unido)
+# <a name="complaint-handling-code-for-the-united-kingdom-uk"></a>Código de administración de quejas para Reino Unido (UK)
 
 Este código se aplica a los clientes de pequeña empresa (las organizaciones con 10 empleados o menos) en el Reino Unido (Reino Unido) en relación con el servicio de planeación de llamada de Office 365 (el "servicio") con arreglo a las normativas de comunicaciones de Reino Unido. Los demás servicios de Skype Empresarial están regidos por su acuerdo de servicio con Microsoft y por otros términos aplicables en relación con el uso del servicio particular.
-  
+
 ## <a name="how-to-make-a-complaint"></a>Cómo presentar una queja
 
 La satisfacción de los clientes es una prioridad de Skype Empresarial. Sin embargo, en el caso de que no esté satisfecho con el servicio por algún motivo, puede presentar una queja por teléfono o en línea:
-  
+
 - Número de teléfono gratuito: 0800 032 6417
-    
-- En línea: Inicie sesión en el Centro de administración de Office 365 y envíe una solicitud de servicio seleccionando **Nueva solicitud de servicio** en **Soporte**. 
-    
+
+- En línea: Inicie sesión en el Centro de administración de Office 365 y envíe una solicitud de servicio seleccionando **Nueva solicitud de servicio** en **Soporte**.
+
 ## <a name="timelines"></a>Escalas de tiempo
 
 Si presenta una queja por teléfono durante horario comercial normal, podrá hablar en directo con un representante de Skype Empresarial
-  
+
 Si presenta una queja en línea, un representante de Skype Empresarial responderá a la queja en un máximo de dos (2) días laborables tras recibir la queja e intentará resolver el problema inmediatamente.
-  
+
 Si el representante de Skype Empresarial no puede resolver el problema inmediatamente, explicará con claridad los siguientes pasos que se deberán tomar para investigar el asunto. El representante proporcionará su información de contacto para que pueda contactarlo en caso de que tenga preguntas durante el transcurso de la investigación.
-  
-Skype Empresarial pretende resolver todas las quejas relacionadas con el Servicio en un plazo de siete (7) días laborables tras el recibo. 
-  
+
+Skype Empresarial pretende resolver todas las quejas relacionadas con el Servicio en un plazo de siete (7) días laborables tras el recibo.
+
 Si no está satisfecho con la manera en que se administra la reclamación relacionada con el servicio, puede pedir la Skype para el representante de la empresa controla la reclamación, por teléfono o correo electrónico pasar la reclamación al acuerdo con el contrato de servicio. Microsoft evaluará la queja en un plazo de siete (7) días desde su recibo.
-  
+
 ## <a name="alternative-dispute-resolution"></a>Resolución alternativa de disputas
 
-Si su queja relativa al Servicio no se resuelve después de ocho (8) semanas tras el envío o si recibe una carta nuestra indicando que hemos llegado a una decisión final, puede pasar la queja a los servicios del Ombudsman, que es un tercero aprobado por Ofcom para tratar las quejas relativas a servicios de comunicaciones. También le notificaremos por escrito acerca de la disponibilidad de dichos servicios de resoluciones de disputas alternativos. 
-  
-Los Servicios del Ombudsman son independientes de Microsoft y este toma decisiones imparciales según los aspectos concretos de la queja. Trasladar la queja a los Servicios del Ombudsman no supone ningún coste económico. 
-  
+Si su queja relativa al Servicio no se resuelve después de ocho (8) semanas tras el envío o si recibe una carta nuestra indicando que hemos llegado a una decisión final, puede pasar la queja a los servicios del Ombudsman, que es un tercero aprobado por Ofcom para tratar las quejas relativas a servicios de comunicaciones. También le notificaremos por escrito acerca de la disponibilidad de dichos servicios de resoluciones de disputas alternativos.
+
+Los Servicios del Ombudsman son independientes de Microsoft y este toma decisiones imparciales según los aspectos concretos de la queja. Trasladar la queja a los Servicios del Ombudsman no supone ningún coste económico.
+
 Todas las quejas se deben enviar a los Servicios del Ombudsman en un máximo de doce (12) meses desde la presentación de la queja con Skype Empresarial.
-  
-Los pasos para trasladar una queja a los Servicios del Ombudsman se encuentran en el [sitio web](http://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809) de los Servicios del Ombudsman .
-  
+
+Los pasos para trasladar una queja a los Servicios del Ombudsman se encuentran en el [sitio web](https://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809) de los Servicios del Ombudsman .
+
 Puede llegar a servicios de mediador rellenando un formulario de contacto en el sitio Web de los servicios del mediador o por teléfono, carta o correo electrónico:
-  
+
 - Formulario de contacto: [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
-    
+
 - Teléfono: 0330 440 1614
-    
+
     Fax: 0330 440 1615
-    
+
     Texto: 0330 440 1600
-    
+
 - Correo electrónico: [osenquiries@os-communications.org](mailto:osenquiries@os-communications.org)
-    
+
     Carta:
-    
+
     Ombudsman Services: Communications
-    
+
     PO Box 730
-    
+
     Warrington
-    
+
     WA4 6WU
-    
+
 
 ## <a name="related-topics"></a>Temas relacionados
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
