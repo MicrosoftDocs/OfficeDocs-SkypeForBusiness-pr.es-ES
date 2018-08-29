@@ -71,11 +71,19 @@
 <!-- ============================================================ -->
 # Administración
 ## [Calidad de experiencia consulte la Guía](quality-of-experience-review-guide.md)
-## Análisis de llamada
-### [Dimensiones y medidas disponibles en el Panel de calidad de llamadas](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Configurar el análisis de llamadas de Skype Empresarial](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Usar el análisis de llamadas para solucionar problemas de mala calidad de llamada en Skype Empresarial](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+<!--## Call analytics
+### [Dimensions and measures available in Call Quality Dashboard](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Set up Skype for Business Call Analytics](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Use Call Analytics to troubleshoot poor Skype for Business call quality](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Call Analytics and Call Quality Dashboard](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+-->
+## Calidad de la llamada Monitor y QoS
+### [QoS en Teams](QoS-in-Teams.md)
 ### [Análisis de llamada y el panel de calidad de llamada](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Dimensiones y medidas disponibles en el Panel de calidad de llamadas](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Configurar el análisis de llamadas](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Usar Análisis de llamadas para solucionar problemas de mala calidad de llamada](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Clasificación de la transmisión en el panel de calidad de llamadas](/SkypeForBusiness/using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 ## Solución de problemas y soporte
 ### [Problemas conocidos de Teams](Known-issues.md)
@@ -83,13 +91,7 @@
 ### [Solucionar problemas de conectividad con el cliente de Microsoft Teams](connectivity-issues.md)
 ### [Usar los archivos de registro para solucionar problemas en Teams](log-files.md)
 ### [Comprobar el estado del servicio para Microsoft Teams](service-health.md)
-## Supervisar la calidad de las llamadas y QoS
-### [QoS en Teams](QoS-in-Teams.md)
-### [Análisis de llamada y el panel de calidad de llamada](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Dimensiones y medidas disponibles en el Panel de calidad de llamadas](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Configurar el análisis de llamadas de Skype Empresarial](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Usar el análisis de llamadas para solucionar problemas de mala calidad de llamada en Skype Empresarial](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Clasificación de la transmisión en el panel de calidad de llamadas](/SkypeForBusiness/using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
 <!-- ============================================================ -->
 
 
@@ -150,7 +152,7 @@
 ##  [Período gratuito para realizar llamadas](/SkypeForBusiness/legal-and-regulatory/complimentary-dial-out-period?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Prácticas de recopilación de datos](/SkypeForBusiness/legal-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ##  [Etiquetas de llamada de emergencia](/SkypeForBusiness/legal-and-regulatory/emergency-calling-labels?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-##  [Términos y condiciones de las llamadas de emergencia](/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [Términos y condiciones de las llamadas de emergencias](/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 <!-- ============================================================ -->
 <!-- ============================================================ -->

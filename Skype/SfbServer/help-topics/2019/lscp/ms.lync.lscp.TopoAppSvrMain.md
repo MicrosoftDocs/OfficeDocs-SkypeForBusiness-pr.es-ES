@@ -12,29 +12,29 @@ localization_priority: Normal
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'La topología: Página de aplicación de servidor muestra las aplicaciones de servidor en su implementación.'
-ms.openlocfilehash: 4306964b827dd9d8b03e29a4805080548bd44c86
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8a8806ac83a0ccd8a16be05d0ac9961f55aa2c6e
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967915"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23242200"
 ---
-# <a name="topology-server-application"></a><span data-ttu-id="393f4-103">Topología: Aplicación de servidor de</span><span class="sxs-lookup"><span data-stu-id="393f4-103">Topology: Server Application</span></span>
- 
-<span data-ttu-id="393f4-104">La **topología**: página de **Aplicación de servidor** muestra las aplicaciones de servidor en su implementación.</span><span class="sxs-lookup"><span data-stu-id="393f4-104">The **Topology**: **Server Application** page displays the server applications in your deployment.</span></span>
-  
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="393f4-105">Tareas que puede realizar</span><span class="sxs-lookup"><span data-stu-id="393f4-105">Tasks you can perform</span></span>
+# <a name="topology-server-application"></a><span data-ttu-id="5e2e1-103">Topología: Aplicación de servidor de</span><span class="sxs-lookup"><span data-stu-id="5e2e1-103">Topology: Server Application</span></span>
 
-<span data-ttu-id="393f4-106">Puede realizar las siguientes tareas en la **topología**: página de **Aplicación de servidor** :</span><span class="sxs-lookup"><span data-stu-id="393f4-106">You can perform the following tasks on the **Topology**: **Server Application** page:</span></span>
-  
-- <span data-ttu-id="393f4-107">Ver las aplicaciones de servidor de la implementación</span><span class="sxs-lookup"><span data-stu-id="393f4-107">View the server applications in your deployment</span></span>
-    
-- <span data-ttu-id="393f4-108">Habilitar o deshabilitar una aplicación de servidor</span><span class="sxs-lookup"><span data-stu-id="393f4-108">Enable or disable a server application</span></span>
-    
-- <span data-ttu-id="393f4-109">Seleccione o anule la selección de una aplicación como crítica</span><span class="sxs-lookup"><span data-stu-id="393f4-109">Select or unselect an application as critical</span></span>
-    
-## <a name="see-also"></a><span data-ttu-id="393f4-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="393f4-110">See also</span></span>
+<span data-ttu-id="5e2e1-104">La **topología**: página de **Aplicación de servidor** muestra las aplicaciones de servidor en su implementación.</span><span class="sxs-lookup"><span data-stu-id="5e2e1-104">The **Topology**: **Server Application** page displays the server applications in your deployment.</span></span>
 
-[<span data-ttu-id="393f4-111">Habilitar o deshabilitar un SIP de Microsoft procesamiento de aplicación de servidor de idioma (MSPL)</span><span class="sxs-lookup"><span data-stu-id="393f4-111">Enable or Disable a Microsoft SIP Processing Language (MSPL) Server Application</span></span>](http://technet.microsoft.com/library/b20af38d-224a-4459-991d-0b7eabb3ca7c.aspx)
-  
-[<span data-ttu-id="393f4-112">Marcar un SIP de Microsoft aplicación idioma (MSPL) como crítica o no crítica de procesamiento</span><span class="sxs-lookup"><span data-stu-id="393f4-112">Mark a Microsoft SIP Processing Language (MSPL) Application as Critical or Not Critical</span></span>](http://technet.microsoft.com/library/df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1.aspx)
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="5e2e1-105">Tareas que puede realizar</span><span class="sxs-lookup"><span data-stu-id="5e2e1-105">Tasks you can perform</span></span>
+
+<span data-ttu-id="5e2e1-106">Puede realizar las siguientes tareas en la **topología**: página de **Aplicación de servidor** :</span><span class="sxs-lookup"><span data-stu-id="5e2e1-106">You can perform the following tasks on the **Topology**: **Server Application** page:</span></span>
+
+- <span data-ttu-id="5e2e1-107">Ver las aplicaciones de servidor de la implementación</span><span class="sxs-lookup"><span data-stu-id="5e2e1-107">View the server applications in your deployment</span></span>
+
+- <span data-ttu-id="5e2e1-108">Habilitar o deshabilitar una aplicación de servidor</span><span class="sxs-lookup"><span data-stu-id="5e2e1-108">Enable or disable a server application</span></span>
+
+- <span data-ttu-id="5e2e1-109">Seleccione o anule la selección de una aplicación como crítica</span><span class="sxs-lookup"><span data-stu-id="5e2e1-109">Select or unselect an application as critical</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="5e2e1-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="5e2e1-110">See also</span></span>
+
+[<span data-ttu-id="5e2e1-111">Habilitar o deshabilitar un SIP de Microsoft procesamiento de aplicación de servidor de idioma (MSPL)</span><span class="sxs-lookup"><span data-stu-id="5e2e1-111">Enable or Disable a Microsoft SIP Processing Language (MSPL) Server Application</span></span>](https://technet.microsoft.com/library/b20af38d-224a-4459-991d-0b7eabb3ca7c.aspx)
+
+[<span data-ttu-id="5e2e1-112">Marcar un SIP de Microsoft aplicación idioma (MSPL) como crítica o no crítica de procesamiento</span><span class="sxs-lookup"><span data-stu-id="5e2e1-112">Mark a Microsoft SIP Processing Language (MSPL) Application as Critical or Not Critical</span></span>](https://technet.microsoft.com/library/df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1.aspx)

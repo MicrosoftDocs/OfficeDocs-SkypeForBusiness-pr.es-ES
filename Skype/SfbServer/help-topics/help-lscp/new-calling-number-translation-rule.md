@@ -12,21 +12,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
 description: 'Puede usar la nueva configuración de tronco: nueva regla de conversión de número de llamada para crear una nueva regla de conversión. Para obtener información detallada sobre las reglas de traducción, consulte los siguientes temas:'
-ms.openlocfilehash: 3dc597d4c2c354ade2431411e1f67a0b6c3ef4de
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a1613c90b18e597664d98aec9230e17f0a936452
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21000018"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23241872"
 ---
-# <a name="new-calling-number-translation-rule"></a><span data-ttu-id="577a9-104">Nueva regla de conversión de números de llamada</span><span class="sxs-lookup"><span data-stu-id="577a9-104">New Calling Number Translation Rule</span></span>
- 
-<span data-ttu-id="577a9-105">Puede usar la **Nueva configuración de tronco**: **Nueva regla de conversión número de llamada** para crear una nueva regla de conversión.</span><span class="sxs-lookup"><span data-stu-id="577a9-105">You can use the **New Trunk Configuration**: **New Calling Number Translation Rule** to create a new translation rule.</span></span> <span data-ttu-id="577a9-106">Para obtener información detallada sobre las reglas de traducción, consulte los siguientes temas:</span><span class="sxs-lookup"><span data-stu-id="577a9-106">For details about translation rules, see the following topics:</span></span>
-  
-1. [<span data-ttu-id="577a9-107">Crear o modificar una regla de conversión para presentación del identificador del destinatario de la llamada en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="577a9-107">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
-    
-2. [<span data-ttu-id="577a9-108">Configuración del tronco y reglas de conversión</span><span class="sxs-lookup"><span data-stu-id="577a9-108">Trunk Configuration and Translation Rules</span></span>](http://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
-    
-3. [<span data-ttu-id="577a9-109">Definición de reglas de conversión</span><span class="sxs-lookup"><span data-stu-id="577a9-109">Defining Translation Rules</span></span>](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
-    
+# <a name="new-calling-number-translation-rule"></a><span data-ttu-id="90840-104">Nueva regla de conversión de números de llamada</span><span class="sxs-lookup"><span data-stu-id="90840-104">New Calling Number Translation Rule</span></span>
+
+<span data-ttu-id="90840-105">Puede usar la **Nueva configuración de tronco**: **Nueva regla de conversión número de llamada** para crear una nueva regla de conversión.</span><span class="sxs-lookup"><span data-stu-id="90840-105">You can use the **New Trunk Configuration**: **New Calling Number Translation Rule** to create a new translation rule.</span></span> <span data-ttu-id="90840-106">Para obtener información detallada sobre las reglas de traducción, consulte los siguientes temas:</span><span class="sxs-lookup"><span data-stu-id="90840-106">For details about translation rules, see the following topics:</span></span>
+
+1. [<span data-ttu-id="90840-107">Crear o modificar una regla de conversión para presentación del identificador del destinatario de la llamada en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="90840-107">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+
+2. [<span data-ttu-id="90840-108">Configuración del tronco y reglas de conversión</span><span class="sxs-lookup"><span data-stu-id="90840-108">Trunk Configuration and Translation Rules</span></span>](https://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
+
+3. [<span data-ttu-id="90840-109">Definición de reglas de conversión</span><span class="sxs-lookup"><span data-stu-id="90840-109">Defining Translation Rules</span></span>](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
+
 

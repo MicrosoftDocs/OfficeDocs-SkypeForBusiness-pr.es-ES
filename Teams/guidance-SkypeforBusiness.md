@@ -11,14 +11,14 @@ description: Guía para usar Skype Empresarial y Microsoft Teams en paralelo.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 robots: noindex
-redirect_url: http://docs.microsoft.com/microsoftteams/upgrade-and-coexistence-of-skypeforbusiness-and-teams
+redirect_url: https://docs.microsoft.com/microsoftteams/upgrade-and-coexistence-of-skypeforbusiness-and-teams
 redirect_document_id: true
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d38c392a40af2a084fb950ee9bc66689351b1e28
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
-ms.translationtype: MT
+ms.openlocfilehash: 7e0b196c86c19146ed0b53a0ff5a00cdecc18999
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "18998961"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23241519"
 ---

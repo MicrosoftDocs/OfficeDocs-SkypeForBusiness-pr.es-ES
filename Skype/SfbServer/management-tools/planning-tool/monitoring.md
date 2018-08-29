@@ -1,5 +1,5 @@
 ---
-title: Supervisión (herramienta de planificación)
+title: Supervisión (herramienta de planeación)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,17 +12,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
-description: En Skype para Business Server 2015, supervisión se utiliza para recopilar información sobre el uso y los datos acerca de las sesiones de comunicación que los usuarios participan en calidad de experiencia (QoE).
-ms.openlocfilehash: 73e51321dae183b2e413e11f1943c33f52a5cfba
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: En Skype para Business Server 2015, supervisión se usa para recopilar información sobre el uso y los datos de calidad de la experiencia (QoE) acerca de las sesiones de comunicación que los usuarios participan en.
+ms.openlocfilehash: 726e1dd39e5899d5589b931e25cff23ddf0912f8
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23256787"
 ---
-# <a name="monitoring-planning-tool"></a><span data-ttu-id="b8973-103">Supervisión (herramienta de planificación)</span><span class="sxs-lookup"><span data-stu-id="b8973-103">Monitoring (Planning Tool)</span></span>
- 
-<span data-ttu-id="b8973-104">En Skype para Business Server 2015, supervisión se utiliza para recopilar información sobre el uso y los datos acerca de las sesiones de comunicación que los usuarios participan en calidad de experiencia (QoE).</span><span class="sxs-lookup"><span data-stu-id="b8973-104">In Skype for Business Server 2015, monitoring is used to collect usage information and Quality of Experience (QoE) data about the communication sessions that your users are involved in.</span></span>
-  
-<span data-ttu-id="b8973-105">Para obtener más información acerca de cómo planear el servidor de supervisión, consulte [planificación de supervisión](http://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).</span><span class="sxs-lookup"><span data-stu-id="b8973-105">For more details about planning for Monitoring Server, see [Planning for Monitoring](http://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).</span></span>
-  
+# <a name="monitoring-planning-tool"></a><span data-ttu-id="5f1f8-103">Supervisión (herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="5f1f8-103">Monitoring (Planning Tool)</span></span>
+
+<span data-ttu-id="5f1f8-104">En Skype para Business Server 2015, supervisión se usa para recopilar información sobre el uso y los datos de calidad de la experiencia (QoE) acerca de las sesiones de comunicación que los usuarios participan en.</span><span class="sxs-lookup"><span data-stu-id="5f1f8-104">In Skype for Business Server 2015, monitoring is used to collect usage information and Quality of Experience (QoE) data about the communication sessions that your users are involved in.</span></span>
+
+<span data-ttu-id="5f1f8-105">Para obtener más información acerca de la planeación para el servidor de supervisión, consulte [Planning for supervisión](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).</span><span class="sxs-lookup"><span data-stu-id="5f1f8-105">For more details about planning for Monitoring Server, see [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).</span></span>
+
 
