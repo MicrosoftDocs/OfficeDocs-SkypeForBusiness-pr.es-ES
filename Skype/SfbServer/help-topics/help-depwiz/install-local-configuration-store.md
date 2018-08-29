@@ -11,26 +11,27 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
-description: Para comenzar la instalación de un nuevo Skype para servidor de funciones de servidor de negocios 2015, primero debe instalar al local de SQL Server que alojará el almacén de configuración local. El almacén de configuración local actuará como una réplica de sólo lectura de la Skype para el almacén de Administración Central de Business Server (CMS). Debe ser iniciado sesión en el servidor que está ejecutando el paso de almacenamiento de configuración Local de instalación como administrador local en el equipo y pertenencia la RTCUniversalServerAdmins o RTCUniversalGlobalReadOnlyGroup. Si la instalación se efectúa en un servidor perimetral, no hace falta ser miembro del grupo RTCUniversalServerAdmins ni del grupo RTCUniversalGlobalReadOnlyGroup. El documento de definición de generador de topología se leerán desde el documento de definición exportados en lugar de desde el almacén de Administración Central. Para exportar el documento de definición de generador de topología y ponerla a disposición de los servidores perimetrales, vea el tema exportar su topología y copiar a medios externos para la instalación de borde.
-ms.openlocfilehash: adce98e053b6959c3513885fc53f1616df1c1125
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Para comenzar la instalación de un nuevo Skype para servidor de funciones de Business Server 2015, primero debe instalar al servidor SQL Server local que se va a hospedar el almacén de configuración local. El almacén de configuración local van a actuar como una réplica de sólo lectura de la Skype para el almacén de Administración Central de servidor empresarial (CMS). Necesita iniciar sesión en el servidor que ejecute el paso Instalar almacén de configuración local como administrador local en el equipo, además de ser miembro del grupo RTCUniversalServerAdmins o del grupo RTCUniversalGlobalReadOnlyGroup. Si la instalación se efectúa en un servidor perimetral, no hace falta ser miembro del grupo RTCUniversalServerAdmins ni del grupo RTCUniversalGlobalReadOnlyGroup. El documento de definición de generador de topología se leerán desde el documento exportado definición en lugar de desde el almacén de Administración Central. Para exportar el documento de definición de generador de topologías y ponerlo a disposición de los servidores perimetrales, vea el tema exportar la topología y copiar a medios externos para la instalación perimetral.
+ms.openlocfilehash: e25e43fbcd1001460d7b001d914e1801558af4f1
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23253100"
 ---
 # <a name="install-local-configuration-store"></a>Instalar almacén de configuración local
- 
-Para comenzar la instalación de un nuevo Skype para servidor de funciones de servidor de negocios 2015, primero debe instalar al local de SQL Server que alojará el almacén de configuración local. El almacén de configuración local actuará como una réplica de sólo lectura de la Skype para el almacén de Administración Central de Business Server (CMS). Necesita iniciar sesión en el servidor que ejecute el paso **Instalar almacén de configuración local** como administrador local en el equipo, además de ser miembro del grupo RTCUniversalServerAdmins o del grupo RTCUniversalGlobalReadOnlyGroup. Si la instalación se efectúa en un servidor perimetral, no hace falta ser miembro del grupo RTCUniversalServerAdmins ni del grupo RTCUniversalGlobalReadOnlyGroup. El documento de definición de generador de topología se leerán desde el documento de definición exportados en lugar de desde el almacén de Administración Central. Para exportar el documento de definición de generador de topología y ponerla a disposición de los servidores perimetrales, vea el tema[exportar su topología y copiar a medios externos para la instalación de borde](http://technet.microsoft.com/library/def9f416-c519-4a72-b242-7d3057d9c1fd.aspx).
-  
+
+Para comenzar la instalación de un nuevo Skype para servidor de funciones de Business Server 2015, primero debe instalar al servidor SQL Server local que se va a hospedar el almacén de configuración local. El almacén de configuración local van a actuar como una réplica de sólo lectura de la Skype para el almacén de Administración Central de servidor empresarial (CMS). Necesita iniciar sesión en el servidor que ejecute el paso **Instalar almacén de configuración local** como administrador local en el equipo, además de ser miembro del grupo RTCUniversalServerAdmins o del grupo RTCUniversalGlobalReadOnlyGroup. Si la instalación se efectúa en un servidor perimetral, no hace falta ser miembro del grupo RTCUniversalServerAdmins ni del grupo RTCUniversalGlobalReadOnlyGroup. El documento de definición de generador de topología se leerán desde el documento exportado definición en lugar de desde el almacén de Administración Central. Para exportar el documento de definición de generador de topologías y ponerlo a disposición de los servidores perimetrales, vea el tema[exportar la topología y copiar a medios externos para la instalación perimetral](https://technet.microsoft.com/library/def9f416-c519-4a72-b242-7d3057d9c1fd.aspx).
+
 Para empezar la instalación:
-  
-1. En el Skype para página Business Server 2015, junto a **paso 1: almacenamiento de configuración Local de instalación**, haga clic en **Ejecutar**.
-    
+
+1. En el Skype para página Business Server 2015, junto a **paso 1: instalar almacén de configuración Local**, haga clic en **Ejecutar**.
+
 2. En la página **Configuración del servidor local**, compruebe que esté seleccionada la opción **Recuperar la configuración automáticamente del almacén de administración central** y haga clic en **Siguiente**.
-    
+
 3. Una vez completado el proceso de instalación de configuración del servidor local, haga clic en **Finalizar**.
-    
+
 > [!NOTE]
-> La instalación de los locales de SQL Server puede tardar algún tiempo. No verá las actualizaciones sobre el progreso en la pantalla Resumen de la instalación mientras se instala SQL Server. Si desea supervisar el progreso de la instalación, utilice el Administrador de tareas para ver el programa de instalación de SQL Server. 
-  
+> La instalación del servidor SQL local puede tardar un poco. No verá las actualizaciones en progreso en la pantalla de resumen de instalación mientras se instala SQL Server. Si desea supervisar el progreso de la instalación, use el Administrador de tareas para ver el programa de instalación de SQL Server.
+
 

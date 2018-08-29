@@ -12,50 +12,50 @@ localization_priority: Normal
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los ajustes de configuración de versión de cliente se usan para activar o desactivar el control de versiones de cliente. La configuración de la versión de cliente Global se instala con Skype para Business Server y se usa para habilitar o deshabilitar el control de la versión de cliente para la implementación de servidores completa. Si la configuración Global está habilitada, las directivas de versión de cliente que tenga activas tendrán efecto cuando los usuarios intenten iniciar sesión. Puede deshabilitar la configuración de versión de cliente Global si no desea que se produzca ningún control de versiones de cliente.
-ms.openlocfilehash: a5647926d8fca4548dd376da6218e6f9aac27d3c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6eacaddba90b123d04290640ebc8c0997e6904ce
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983773"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23263495"
 ---
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>Configuración de versiones de cliente: Crear nueva o editar existente
- 
-Los ajustes de configuración de versión de cliente se usan para activar o desactivar el control de versiones de cliente. La configuración de la versión de cliente Global se instala con Skype para Business Server y se usa para habilitar o deshabilitar el control de la versión de cliente para la implementación de servidores completa. Si la configuración Global está habilitada, las directivas de versión de cliente que tenga activas tendrán efecto cuando los usuarios intenten iniciar sesión. Puede deshabilitar la configuración de versión de cliente Global si no desea que se produzca ningún control de versiones de cliente. 
-  
+
+Los ajustes de configuración de versión de cliente se usan para activar o desactivar el control de versiones de cliente. La configuración de la versión de cliente Global se instala con Skype para Business Server y se usa para habilitar o deshabilitar el control de la versión de cliente para la implementación de servidores completa. Si la configuración Global está habilitada, las directivas de versión de cliente que tenga activas tendrán efecto cuando los usuarios intenten iniciar sesión. Puede deshabilitar la configuración de versión de cliente Global si no desea que se produzca ningún control de versiones de cliente.
+
 También puede crear configuraciones de versión de cliente específicas del sitio, lo que le permite habilitar o deshabilitar el control de versiones de cliente por sitio. Las configuraciones específicas del sitio prevalecen sobre la configuración Global.
-  
+
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 
 En las páginas **Nueva configuración de versión de cliente** o **Editar configuración de versión de cliente** puede realizar las siguientes tareas:
-  
+
 - Agregar o modificar el nombre de la configuración de versión de cliente.
-    
+
 - Habilitar o deshabilitar el control de versiones de cliente de forma global o para el sitio específico.
-    
+
 - Agregar o modificar la acción predeterminada para la configuración de versión de cliente.
-    
+
 ## <a name="ui-reference"></a>Referencia de interfaz de usuario
 
 En las siguientes listas se describen los menús, comandos, campos y propiedades de la página.
-  
+
 - **Ámbito** Identifica el ámbito (Global o sitio) de la configuración de la versión de cliente.
-    
+
 - **Nombre** Puede agregar o modificar el nombre de la configuración de la versión de cliente.
-    
+
 - **Habilitar control de versiones** Puede habilitar o deshabilitar el control de la versión de cliente globalmente o para el sitio, según el ámbito de la configuración.
-    
+
 - **Acción predeterminada** Puede seleccionar la acción predeterminada que se aplicará cuando un usuario intenta iniciar sesión con una aplicación de cliente para el que no hay ninguna directiva de versión de cliente específico. Tiene las siguientes opciones:
-    
+
   - **Permitir** Permite que el cliente inicie la sesión si la versión de cliente no coincide con ningún filtro de la lista de directivas de versión de cliente.
-    
+
   - **Bloque** Impide que el cliente de inicio de sesión si la versión de cliente no coincide con ningún filtro de la lista de directivas de versión de cliente.
-    
+
   - **Bloquear con dirección URL** Impide que el cliente de inicio de sesión si la versión de cliente no coincide con ningún filtro de la lista de directivas de versión de cliente e incluye un mensaje de error que contiene una dirección URL donde se puede descargar un cliente más reciente.
-    
+
   - **Permitir con dirección URL** Permite que el cliente inicie la sesión si la versión de cliente no coincide con ningún filtro de la lista de directivas de versión de cliente e incluye un mensaje de error que contiene una dirección URL donde se puede descargar un cliente más reciente.
-    
+
   - **Dirección URL** Si ha seleccionado **Bloquear con dirección URL** o **Permitir con dirección URL**, puede especificar la dirección URL de descarga de cliente para incluir en el mensaje de error.
-    
-Para obtener información detallada acerca de la interoperabilidad entre clientes y versiones de cliente, consulte [Interoperabilidad del cliente](http://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) en la documentación de planeación. Para obtener información detallada sobre cómo trabajar con las configuraciones de versión de cliente, vea [modificar la acción predeterminada para los clientes no admiten explícitamente o restringidos](http://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) en la documentación sobre operaciones.
+
+Para obtener información detallada acerca de la interoperabilidad entre clientes y versiones de cliente, consulte [Interoperabilidad del cliente](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) en la documentación de planeación. Para obtener información detallada sobre cómo trabajar con las configuraciones de versión de cliente, vea [modificar la acción predeterminada para los clientes no admiten explícitamente o restringidos](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) en la documentación sobre operaciones.
 

@@ -11,12 +11,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3801a6216962425a103845d99184f6b50bf9dc9
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: f9e15f792fe17cc0831a7253f4b4ddf7770cb5be
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "19002889"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23243662"
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Información general de una implementación de Microsoft Teams
 ========================================
@@ -57,6 +57,6 @@ Esta configuración tendría este aspecto en Microsoft Teams:
 |![Icono de Siguientes pasos.](media/Overview_of_a_Microsoft_Teams_deployment_image4.png)     |Siguientes pasos         |Documente cuáles serán los canales o equipos iniciales para el piloto de TI.         |
 
 
- 
 
-Para seguir estos puntos de decisión, descargue el cuestionario de planificación técnica en [Inicio rápido: Habilitar correctamente Microsoft Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).
+
+Para seguir estos puntos de decisión, descargue el cuestionario de planificación técnica en [Inicio rápido: Habilitar correctamente Microsoft Teams](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).

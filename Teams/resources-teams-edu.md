@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6eb38d1dc24094233bac94f75967bf8f1e42b93d
-ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
+ms.openlocfilehash: af9d574abb69068095c31a9aaac0270b3fc7e960
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21251887"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23248806"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Recursos de Microsoft Teams para los administradores de educación
 ==============================================
@@ -44,15 +44,15 @@ Crear mensajes de correo electrónico personalizado, Pósteres y prospectos con 
 
 ## <a name="call-to-action"></a>Llamada a la acción
 
-- Consulte nuestra [Demostración interactiva de Microsoft Teams](http://teamsdemo.office.com/) (se requieren 5 minutos para completarla)
+- Consulte nuestra [Demostración interactiva de Microsoft Teams](https://teamsdemo.office.com/) (se requieren 5 minutos para completarla)
 - Active Microsoft Teams en el [Centro de administración de Office 365](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (inicie sesión como administrador de Office 365)
 - Descargue los clientes de Microsoft Teams: [Descargue Microsoft Teams en todos sus dispositivos](https://teams.microsoft.com/downloads)
 - Obtenga más información sobre Office 365 para el ámbito educativo en el [Centro de ayuda de Educación](https://support.office.com/education)
-    
+
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - [Mapa de ruta de Microsoft Teams](https://aka.ms/teamsroadmap)
-- Manténgase al día con nuestro [blog de Tech Community](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog) 
+- Manténgase al día con nuestro [blog de Tech Community](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)
 - Blog de Matt Soseman "The Productive Cloud" sobre [compatibilidad de Microsoft Teams con PowerShell](https://blogs.technet.microsoft.com/skypehybridguy/2017/11/07/microsoft-teams-powershell-support/)
 - [Enviar una sugerencia](https://aka.ms/eduuservoice)
 - [Ponerse en contacto con el equipo de soporte técnico](https://aka.ms/o365portal)

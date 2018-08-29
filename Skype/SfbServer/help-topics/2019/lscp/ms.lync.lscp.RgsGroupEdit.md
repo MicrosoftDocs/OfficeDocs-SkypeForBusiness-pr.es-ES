@@ -12,62 +12,62 @@ localization_priority: Normal
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los grupos de agentes definen quién puede responder las llamadas a un grupo de respuesta (conocido como agentes) y la configuración que se aplica a todos los agentes del grupo.
-ms.openlocfilehash: 39a1ddb2520165a4060cb621f8948cad80f8b493
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e1f7deb40fb36dbd75e9aea37eb6af4b75090c44
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985061"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23262935"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>Grupos de respuesta: Crear nuevo o editar existente
- 
+
 Los grupos de agentes definen quién puede responder las llamadas a un grupo de respuesta (conocido como agentes) y la configuración que se aplica a todos los agentes del grupo.
-  
+
 ## <a name="ui-reference"></a>Referencia de interfaz de usuario
 
 En la siguiente lista se describen los campos de la página.
-  
+
 - **Nombre** Cada grupo de agentes requiere un nombre único. Use un nombre descriptivo que identifica la función del grupo. Por ejemplo, Help Desk.
-    
+
 - **Descripción** Este campo es opcional. Úselo para proporcionar detalles sobre el grupo.
-    
+
 - **Directiva de participación** Especifique el modo en que los agentes inician sesión en el grupo de respuesta:
-    
+
   - Seleccione **Informal** para especificar que los agentes en el grupo no necesitan iniciar ni cerrar sesión en el grupo. Los agentes informales se conectan de forma automática cuando inician sesión. El valor predeterminado es **Informal**.
-    
+
   - Seleccione **Formal** para especificar que los agentes en el grupo deben iniciar sesión y cerrar. Cuando se selecciona esta opción, los agentes, haga clic en un elemento de menú en el cliente para abrir un explorador y mostrar una consola de página web para iniciar y cerrar sesión.
-    
+
 - **Tiempo de alerta (segundos)** Especifique el número de segundos que hay que llamar a un agente antes de ofrecer la llamada al siguiente agente disponible. El valor tiene que ser de al menos 10 segundos e inferior a 180 segundos. El valor predeterminado es 20 segundos.
-    
+
 - **Método de enrutamiento** Seleccione el método para determinar el orden en que los agentes reciben llamadas:
-    
+
   - Seleccione **Máxima inactividad** para ofrecer una llamada nueva primero al agente que haya estado más tiempo inactivo (el que más tiempo ha estado **Disponible** o **Inactivo**).
-    
+
   - Seleccione **En paralelo** para ofrecer una nueva llamada a todos los agentes disponibles al mismo tiempo. La llamada se envía al primer agente que la acepte.
-    
+
   - Seleccione **Round robin** para ofrecer una llamada nueva a un agente cada vez.
-    
+
   - Seleccione **En serie** para ofrecer siempre una llamada nueva a los agentes en el orden en que aparecen en la lista **Agentes**.
-    
+
   - Seleccione el **operador** para ofrecer una nueva llamada a todos los agentes que han iniciado sesión y la aplicación de grupo de respuesta al mismo tiempo, independientemente de su presencia actual. Automáticos y los usuarios de cliente que se configuran como agentes pueden ver todas las llamadas que están en espera y pueden responder a las llamadas en espera en cualquier orden. La llamada se envía al primer agente que la acepta y el resto de operadores y usuarios dejará de verla.
-    
+
 - **Agentes** Seleccione los usuarios que van a ser agentes para el grupo de respuesta en una de las siguientes maneras:
-    
+
   - Seleccione **utilizar una lista de distribución de correo electrónico existente** para usar una lista de distribución de Exchange. Escriba el correo electrónico de la lista de distribución en **Dirección de la lista de distribución**.
-    
+
     > [!NOTE]
-    > Solo puede seleccionar una lista de distribución por grupo de agentes. Si la lista de distribución incluye listas de distribución anidadas, estas no se incluirán en el grupo de agentes. 
-  
+    > Solo puede seleccionar una lista de distribución por grupo de agentes. Si la lista de distribución incluye listas de distribución anidadas, estas no se incluirán en el grupo de agentes.
+
     > [!NOTE]
-    > El orden en que los agentes se muestran en la lista de distribución afecta al orden en que los agentes reciben llamadas para round robin y el enrutamiento en serie. 
-  
+    > El orden en que los agentes se muestran en la lista de distribución afecta al orden en que los agentes reciben llamadas para round robin y el enrutamiento en serie.
+
     > [!NOTE]
-    > Miembros ocultos o las listas ocultas pueden quedar visibles para los administradores de grupo de respuesta o los usuarios. Para obtener información detallada, vea [crear o modificar un grupo de agentes en Skype para la empresa](../../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md). 
-  
+    > Miembros ocultos o las listas ocultas pueden quedar visibles para los administradores de grupo de respuesta o los usuarios. Para obtener información detallada, vea [crear o modificar un grupo de agentes en Skype para la empresa](../../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md).
+
   - Seleccione **Definir un grupo de agentes personalizado** para seleccionar los usuarios que quiere asignar como agentes del grupo de respuesta. Haga clic en **Seleccionar** para agregar un agente a la lista y en **Quitar** para eliminar un agente seleccionado de la lista.
-    
+
     Las flechas arriba y abajo mueven un agente seleccionado hacia arriba y hacia abajo en la lista de agentes. El orden de los agentes afecta al orden en que los agentes reciben llamadas para round robin y el enrutamiento en serie.
-    
-Para obtener información detallada sobre las características de grupo de respuesta y funciones, consulte [Plan para la aplicación de grupo de respuesta en Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación de planeación. Para obtener información detallada sobre cómo trabajar con grupos de agentes, consulte [Administración de grupos de agentes](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) en la documentación sobre operaciones.
-  
+
+Para obtener información detallada sobre las características de grupo de respuesta y funciones, consulte [Plan para la aplicación de grupo de respuesta en Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación de planeación. Para obtener información detallada sobre cómo trabajar con grupos de agentes, consulte [Administración de grupos de agentes](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) en la documentación sobre operaciones.
+
 

@@ -11,33 +11,34 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
-description: Bienvenido a la Skype para Panel de Control de servidor empresarial, la interfaz de usuario basada en web para la administración y gestión de Skype para Business Server. Puede usar el Panel de control para acometer los tipos de tareas administrativas que se realizaban usando Microsoft Management Console en versiones anteriores.
-ms.openlocfilehash: ec8331e3f25b2042718c934871a46209d3aed6da
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Bienvenido a la Skype para el Panel de Control de servidor empresarial, la interfaz de usuario basada en web para la administración y la administración de Skype para Business Server. Puede usar el Panel de control para acometer los tipos de tareas administrativas que se realizaban usando Microsoft Management Console en versiones anteriores.
+ms.openlocfilehash: 56f3b330861b70042d1e30aba76ac33659a6675d
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23255119"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Lista de comprobación de la primera ejecución del Panel de control de Skype Empresarial Server
- 
-Bienvenido a la Skype para Panel de Control de servidor empresarial, la interfaz de usuario basada en web para la administración y gestión de Skype para Business Server. Puede usar el Panel de control para acometer los tipos de tareas administrativas que se realizaban usando Microsoft Management Console en versiones anteriores.
-  
-Hay una serie de tareas importantes que se recomiendan encarecidamente que realizar después de haber implantado Skype para Business Server. Algunas de estas tareas son pasos de configuración inicial que puede haber realizado ya durante la implementación, mientras que otras son ajustes o modificaciones de las configuraciones que se han definido durante la implementación o la configuración predeterminada. Otras tareas que se describen en este tema validan las configuraciones que ha realizado durante el proceso de implementación.
-  
+
+Bienvenido a la Skype para el Panel de Control de servidor empresarial, la interfaz de usuario basada en web para la administración y la administración de Skype para Business Server. Puede usar el Panel de control para acometer los tipos de tareas administrativas que se realizaban usando Microsoft Management Console en versiones anteriores.
+
+Hay un número de tareas importantes que se recomienda encarecidamente que realizar después de haber implementado Skype para Business Server. Algunas de estas tareas son pasos de configuración inicial que puede haber realizado ya durante la implementación, mientras que otras son ajustes o modificaciones de las configuraciones que se han definido durante la implementación o la configuración predeterminada. Otras tareas que se describen en este tema validan las configuraciones que ha realizado durante el proceso de implementación.
+
 > [!NOTE]
-> Antes de realizar las tareas en la tabla siguiente, asegúrese de que iniciar sesión con derechos de usuario correctos, permisos y rol, tal como se describe en la sección de "Funciones y alcance" del tema de [Control de acceso basado en funciones](http://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx) .
-  
+> Antes de llevar a cabo las tareas en la tabla siguiente, asegúrese de que iniciar sesión con derechos de usuario correctos, permisos y roles tal como se describe en la sección "Roles y ámbito" del tema [Role-Based Access Control](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx) .
+
 ## <a name="first-run-checklist"></a>Lista de comprobación de la primera ejecución
 
-Se recomienda encarecidamente que revise las tareas mencionadas en este tema y, a continuación, realice los procedimientos adecuados para la implementación de Lync Server en su organización.
-  
-|**Tarea**|**Grupo de paneles de control**|**Documentación**|
+Se recomienda encarecidamente que revise las tareas que se hace referencia en este tema y, a continuación, realice los procedimientos apropiados para la implementación de Lync Server en su organización.
+
+|**Tarea**|**Grupo del Panel de control**|**Documentación**|
 |:-----|:-----|:-----|
-|Comprobar que los servicios instalados en la topología se ejecutan como deben.  <br/> |**Topología** <br/> |[Ver detalles acerca de un servicio](http://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx) <br/> |
-|Habilitar a usuarios de Skype para Business Server. Si lo desea y, si la migración desde una versión anterior, mover usuarios a Skype para Business Server.  <br/> |**Usuarios** <br/> |[Administración de usuarios](http://technet.microsoft.com/library/8021087e-5084-4a39-9fef-ab9376c6d371.aspx) <br/> |
-|Si ha implementado o desea implementar Telefonía IP empresarial, configure una conexión de enlace troncal SIP para habilitar la conectividad con la red telefónica conmutada (RTC).  <br/> |**Enrutamiento de voz** <br/> |[Configuración de los troncos y las reglas de conversión](http://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx) <br/> |
-|Si ha implementado Telefonía IP empresarial, compruebe la configuración de enrutamiento de Telefonía IP empresarial.  <br/> |**Enrutamiento de voz** <br/> |[Probar el enrutamiento de voz](http://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx) <br/> |
-|Si ha implementado el servidor de archivado, compruebe que la configuración y las directivas de archivado cumplen los requisitos de conformidad de la organización.  <br/> |**Supervisión y archivado** <br/> |[Administración del Archiving](http://technet.microsoft.com/library/48c6cc8c-c2c1-4534-9a8a-fd5eb738076a.aspx) <br/> |
-|Si ha implementado el servidor de supervisión, mire los informes del servidor de supervisión para ver la información de uso y diagnóstico.  <br/> |**Principal** <br/> |[Administrar la salud y la supervisión en Skype para Business Server 2015](../../manage/health-and-monitoring/health-and-monitoring.md) <br/> |
-   
+|Comprobar que los servicios instalados en la topología se ejecutan como deben.  <br/> |**Topología** <br/> |[Ver detalles acerca de un servicio](https://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx) <br/> |
+|Permitir que los usuarios de Skype para Business Server. De forma opcional y, si la migración desde una versión anterior, mover los usuarios a Skype para Business Server.  <br/> |**Usuarios** <br/> |[Administración de usuarios](https://technet.microsoft.com/library/8021087e-5084-4a39-9fef-ab9376c6d371.aspx) <br/> |
+|Si ha implementado o desea implementar Telefonía IP empresarial, configure una conexión de enlace troncal SIP para habilitar la conectividad con la red telefónica conmutada (RTC).  <br/> |**Enrutamiento de voz** <br/> |[Configuración de troncos y reglas de conversión](https://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx) <br/> |
+|Si ha implementado Telefonía IP empresarial, compruebe la configuración de enrutamiento de Telefonía IP empresarial.  <br/> |**Enrutamiento de voz** <br/> |[Probar enrutamiento de voz](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx) <br/> |
+|Si ha implementado el servidor de archivado, compruebe que la configuración y las directivas de archivado cumplen los requisitos de conformidad de la organización.  <br/> |**Supervisión y archivado** <br/> |[Administración de archivado](https://technet.microsoft.com/library/48c6cc8c-c2c1-4534-9a8a-fd5eb738076a.aspx) <br/> |
+|Si ha implementado el servidor de supervisión, mire los informes del servidor de supervisión para ver la información de uso y diagnóstico.  <br/> |**Principal** <br/> |[Administrar el mantenimiento y la supervisión en Skype Empresarial Server 2015](../../manage/health-and-monitoring/health-and-monitoring.md) <br/> |
+
 

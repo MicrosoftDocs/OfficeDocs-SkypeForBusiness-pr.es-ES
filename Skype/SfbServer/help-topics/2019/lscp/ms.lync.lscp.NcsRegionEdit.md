@@ -12,18 +12,18 @@ localization_priority: Normal
 ms.assetid: 0277b988-e12e-4786-9001-9c212495cb89
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: a9d1a287a11a22b9baf77622a9d1aa3830ea4e44
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ed6fe76895dac012005f7ea9cba4dc5ac24efebc
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21027151"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23247545"
 ---
 # <a name="configure-a-network-region-create-new-or-edit-existing"></a>Configurar una región de red: crear nuevos o editar los existentes
- 
+
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-  
-- [Configuración de regiones de red](http://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
-    
- 
+
+- [Configuración de regiones de red](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
+
+
 

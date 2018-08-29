@@ -12,31 +12,31 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 description: 'Definir el tronco raíz para la dirección IP o red telefónica conmutada (RTC) debe configurar lo siguiente:'
-ms.openlocfilehash: 4bf43fd9db6a62d63bb140b41741b572158a48cd
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 228717866a96268bfca8717ab61cb4a51cbe3245
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965684"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23245296"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Definir el tronco raíz para una nueva dirección IP o puerta de enlace RTC
- 
+
 Definir el tronco raíz para la dirección IP o red telefónica conmutada (RTC) debe configurar lo siguiente:
-  
+
 - **Nombre del tronco**: defina el nombre de dominio completo asociado con el tronco
-    
+
 - **Puerto de escucha para puerta de enlace IP/RTC**: defina el puerto que escuchará este tronco
-    
+
 - **Protocolo de transporte SIP**: seleccione en la lista **TCP** o **TLS**, según los requisitos de tronco
-    
+
 - **Servidor de mediación asociado**: seleccione de la lista de servidores de mediación disponibles en su implementación
-    
+
 - **Puerto del servidor de mediación asociado**: defina el puerto que escucha el servidor de mediación seleccionado
-    
+
 ## <a name="see-also"></a>Vea también
 
 [Configurar un tronco con omisión de medios en Skype Empresarial Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
-  
+
 [Configurar un tronco sin omisión de medios en Skype Empresarial Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-[Soporte técnico de enlace troncal SIP](http://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
+[Soporte técnico de enlace troncal SIP](https://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)

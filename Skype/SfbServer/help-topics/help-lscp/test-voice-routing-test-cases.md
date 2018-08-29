@@ -12,24 +12,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: a33bbde008df9fd032b5ddb376537a423afdf98e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3452bddefd377fa090b03f255d23b261b2cf74b7
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973838"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23254203"
 ---
 # <a name="test-voice-routing-test-cases"></a>Enrutamiento de voz de prueba: casos de prueba
- 
+
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-  
-- [Crear un caso de prueba de enrutamiento de voz](http://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
-    
-- [Exportar casos de prueba de enrutamiento de voz](http://technet.microsoft.com/library/489ac472-1a35-4755-b390-48f7cdf31e94.aspx)
-    
-- [Importar casos de prueba de enrutamiento de voz](http://technet.microsoft.com/library/6546e24c-9ad2-428b-92b2-63948ed0f884.aspx)
-    
-- [Ejecutar casos de prueba de enrutamiento de voz](http://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
-    
+
+- [Crear un caso de prueba de enrutamiento de voz](https://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
+
+- [Exportar casos de prueba de enrutamiento de voz](https://technet.microsoft.com/library/489ac472-1a35-4755-b390-48f7cdf31e94.aspx)
+
+- [Importar casos de prueba de enrutamiento de voz](https://technet.microsoft.com/library/6546e24c-9ad2-428b-92b2-63948ed0f884.aspx)
+
+- [Ejecutar casos de prueba de enrutamiento de voz](https://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
+
 Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).
 

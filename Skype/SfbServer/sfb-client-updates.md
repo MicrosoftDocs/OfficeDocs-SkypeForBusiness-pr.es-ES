@@ -9,35 +9,35 @@ ms.prod: skype-for-business-itpro
 localization_priority: Priority
 ms.collection: IT_Skype16
 description: Proporciona a los profesionales de TI vínculos a la información más reciente acerca de las actualizaciones para las versiones perpetuas de los clientes de Skype Empresarial 2016, Skype Empresarial 2015 y Lync 2013.
-ms.openlocfilehash: 38784d3de178078b2a679b16ac69caa9d22c7474
-ms.sourcegitcommit: 973cb74fca3fe50fbd38f80f5975b6f3d17e0b68
+ms.openlocfilehash: cf87fbb903e7bff015f77881ede956a4c4999b07
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2018
-ms.locfileid: "21822545"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23247594"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Actualizaciones más recientes de las versiones de Skype Empresarial que usan Windows Installer (MSI)
 
 Use los vínculos de esta página para obtener más información y descargar las actualizaciones más recientes de las versiones perpetuas de los clientes de Skype Empresarial 2016, Skype Empresarial 2015 y Lync 2013.
-  
-> [!NOTE] 
+
+> [!NOTE]
 > - La información de este artículo solo se aplica a las versiones perpetuas de Skype Empresarial que usan la tecnología de instalación de Windows Installer (MSI). Por ejemplo, la instalación de una versión con licencias por volumen de Skype Empresarial, como la versión de Skype Empresarial incluida en Office Professional Plus 2016.
 > - La información de este artículo no se aplica a las versiones de Office 365 de Skype Empresarial, como la que se incluye en Office 365 ProPlus.
 > - Para obtener las actualizaciones de clientes móviles más recientes, vaya a la tienda de aplicaciones de su cliente móvil (iTunes, Google Play o Microsoft Store) para ver los detalles e instalar las actualizaciones.
 > - Para descubrir qué versión de Skype Empresarial estás usando, consulta [¿Qué versión de Skype Empresarial tengo?](https://support.microsoft.com/en-us/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
-> - Para obtener más información acerca de la instalación de las actualizaciones de Office, consulta [Instalar actualizaciones de Office](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5). 
-  
+> - Para obtener más información acerca de la instalación de las actualizaciones de Office, consulta [Instalar actualizaciones de Office](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5).
+
 La compatibilidad de Skype Empresarial con Office 365 y el entorno local depende de los requerimientos del sistema de tu implementación:
-  
+
 - Office 365 funciona con cualquier versión de Skype Empresarial que tenga soporte estándar, incluido en la última versión de Skype Empresarial 2016. Para las versiones anteriores de Skype Empresarial, solo las que tengan soporte extendido pueden seguir funcionando con Office 365, aunque tendrán una funcionalidad reducida. Para obtener más información, vea [Directiva del ciclo de vida de Microsoft](https://support.microsoft.com/lifecycle).
-    
+
 - Para las implementaciones locales de Skype Empresarial Server, siga los requerimientos del sistema de su versión de Skype Empresarial:
-    
+
   - [Requisitos para el entorno de Skype Empresarial Server](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)
-    
+
   - [Requerimientos del sistema de Lync Server 2013](https://technet.microsoft.com/en-us/library/jj205115(v=ocs.15).aspx)
-    
-  
+
+
 ## <a name="skype-for-business-2016-client-updates"></a>Actualizaciones del cliente de Skype Empresarial 2016
 |Nombre de paquete|Número de KB|Fecha de lanzamiento|
 |:---  |:---  |:---  |
@@ -107,7 +107,7 @@ La compatibilidad de Skype Empresarial con Office 365 y el entorno local depende
 |Actualización de seguridad de Skype Empresarial 2015/Lync 2013|[KB 3118348](https://support.microsoft.com/kb/3118348) | Octubre de 2016 |
 |Actualización de Skype Empresarial 2015/Lync 2013|[KB 3118281 ](https://support.microsoft.com/kb/3118281) | Septiembre de 2016 |
 |Actualización de seguridad de Skype Empresarial 2015/Lync 2013|[KB 3115431](https://support.microsoft.com/kb/3115431) | Agosto de 2016 |
-|Actualización de Skype Empresarial 2015/Lync 2013|[KB 3115261 ](http://support.microsoft.com/kb/3115261) | Julio de 2016 |
+|Actualización de Skype Empresarial 2015/Lync 2013|[KB 3115261 ](https://support.microsoft.com/kb/3115261) | Julio de 2016 |
 |Actualización de seguridad de Skype Empresarial 2015/Lync 2013|[KB 3114944](https://support.microsoft.com/kb/3114944) | Abril de 2016 |
 |Actualización de Skype Empresarial 2015/Lync 2013|[KB 3114831 ](https://support.microsoft.com/kb/3114831) | Marzo de 2016 |
 |Actualización de Skype Empresarial 2015/Lync 2013|[KB 3114732 ](https://support.microsoft.com/kb/3114732) | Febrero de 2016 |
@@ -129,7 +129,7 @@ La compatibilidad de Skype Empresarial con Office 365 y el entorno local depende
 
 
 * * *
-   
+
 ## <a name="lync-2013-client-updates"></a>Actualizaciones del cliente de Lync 2013
 
 Nombre de paquete|Número de KB|Fecha de lanzamiento|
