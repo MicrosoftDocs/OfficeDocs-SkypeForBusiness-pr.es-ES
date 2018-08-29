@@ -1,5 +1,5 @@
 ---
-title: Asistente híbrido iniciar sesión en Office 365
+title: Asistente de híbrida iniciar sesión en Office 365
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -15,21 +15,22 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
-description: Utilice el Skype para el Asistente para administración de negocio servidor híbrido para ayudarle a configurar su entorno para híbrido con Skype para los negocios en línea.
-ms.openlocfilehash: 3c1ab3ea2615469ae10f1d6a57fff2a1805a7e1c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Use el Skype para el Asistente para la capacidad de administración de negocio servidor híbrido que le ayudarán a configurar su entorno para la implementación híbrida con Skype para profesionales en línea.
+ms.openlocfilehash: ec2507b7efd25dba6e3b18eba3a14f35eb93fcc4
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23260373"
 ---
-# <a name="hybrid-wizard-sign-in-to-office-365"></a><span data-ttu-id="b1312-103">Asistente híbrido: Inicio de sesión en Office 365</span><span class="sxs-lookup"><span data-stu-id="b1312-103">Hybrid wizard: Sign in to Office 365</span></span>
- 
-<span data-ttu-id="b1312-104">Utilice el Skype para el Asistente para administración de negocio servidor híbrido para ayudarle a configurar su entorno para híbrido con Skype para los negocios en línea.</span><span class="sxs-lookup"><span data-stu-id="b1312-104">Use the Skype for Business Server Hybrid Manageability wizard to help you configure your environment for hybrid with Skype for Business Online.</span></span>
-  
-## <a name="sign-in-to-office-365"></a><span data-ttu-id="b1312-105">Iniciar sesión en Office 365</span><span class="sxs-lookup"><span data-stu-id="b1312-105">Sign in to Office 365</span></span>
+# <a name="hybrid-wizard-sign-in-to-office-365"></a><span data-ttu-id="8a8cd-103">Asistente híbrido: Inicio de sesión en Office 365</span><span class="sxs-lookup"><span data-stu-id="8a8cd-103">Hybrid wizard: Sign in to Office 365</span></span>
 
-<span data-ttu-id="b1312-p101">Escriba el nombre de usuario y contraseña de su inquilino de Office 365 para conectarse a su implementación local de Office 365. Deberá usar la cuenta de administración que creó para el dominio onmicrosoft al registrarse en Office 365 (por ejemplo, admin@contoso.onmicrosoft.com).</span><span class="sxs-lookup"><span data-stu-id="b1312-p101">Enter the user name and password for your Office 365 tenant to login and connect your on-premises deployment with your Office 365 tenant. You'll need to use the admin account that was created for the onmicrosoft domain when you signed up for Office 365, for example, admin@contoso.onmicrosoft.com.</span></span>
-  
-<span data-ttu-id="b1312-108">Para obtener más información acerca de cómo configurar el entorno para el híbrido, vea [información general de las implementaciones de híbrido](http://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).</span><span class="sxs-lookup"><span data-stu-id="b1312-108">For more information about how to configure your environment for hybrid, see [Overview of hybrid deployments](http://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).</span></span>
-  
+<span data-ttu-id="8a8cd-104">Use el Skype para el Asistente para la capacidad de administración de negocio servidor híbrido que le ayudarán a configurar su entorno para la implementación híbrida con Skype para profesionales en línea.</span><span class="sxs-lookup"><span data-stu-id="8a8cd-104">Use the Skype for Business Server Hybrid Manageability wizard to help you configure your environment for hybrid with Skype for Business Online.</span></span>
+
+## <a name="sign-in-to-office-365"></a><span data-ttu-id="8a8cd-105">Iniciar sesión en Office 365</span><span class="sxs-lookup"><span data-stu-id="8a8cd-105">Sign in to Office 365</span></span>
+
+<span data-ttu-id="8a8cd-p101">Escriba el nombre de usuario y contraseña de su inquilino de Office 365 para conectarse a su implementación local de Office 365. Deberá usar la cuenta de administración que creó para el dominio onmicrosoft al registrarse en Office 365 (por ejemplo, admin@contoso.onmicrosoft.com).</span><span class="sxs-lookup"><span data-stu-id="8a8cd-p101">Enter the user name and password for your Office 365 tenant to login and connect your on-premises deployment with your Office 365 tenant. You'll need to use the admin account that was created for the onmicrosoft domain when you signed up for Office 365, for example, admin@contoso.onmicrosoft.com.</span></span>
+
+<span data-ttu-id="8a8cd-108">Para obtener más información acerca de cómo configurar el entorno para la implementación híbrida, vea [información general de las implementaciones híbridas](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).</span><span class="sxs-lookup"><span data-stu-id="8a8cd-108">For more information about how to configure your environment for hybrid, see [Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).</span></span>
+
 

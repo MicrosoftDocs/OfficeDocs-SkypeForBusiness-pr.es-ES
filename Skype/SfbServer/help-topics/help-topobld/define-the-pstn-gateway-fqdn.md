@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 description: Especifique el nombre de dominio completo (FQDN) de la puerta de enlace de telefónica conmutada (RTC) que conectará los componentes de Enterprise Voice a una RTC o una central de conmutación (PBX).
-ms.openlocfilehash: 4ba646ad500ec27940108a8948e372343887513d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2f1c8eea8a8d3334d5c95e0b606799ad2f9c5f6b
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968006"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23257489"
 ---
-# <a name="define-the-pstn-gateway-fqdn"></a><span data-ttu-id="68f42-103">Definir el FQDN de la puerta de enlace de RTC</span><span class="sxs-lookup"><span data-stu-id="68f42-103">Define the PSTN Gateway FQDN</span></span>
- 
-<span data-ttu-id="68f42-104">Especifique el nombre de dominio completo (FQDN) de la puerta de enlace de telefónica conmutada (RTC) que conectará los componentes de Enterprise Voice a una RTC o una central de conmutación (PBX).</span><span class="sxs-lookup"><span data-stu-id="68f42-104">You specify the fully qualified domain name (FQDN) of the public switched telephone network (PSTN) gateway that will connect your Enterprise Voice components to a PSTN or private branch exchange (PBX).</span></span>
-  
-<span data-ttu-id="68f42-105">Para obtener información detallada, vea [componentes de conectividad de RTC en Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span><span class="sxs-lookup"><span data-stu-id="68f42-105">For details, see [PSTN connectivity components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span></span>
-  
-## <a name="see-also"></a><span data-ttu-id="68f42-106">Vea también</span><span class="sxs-lookup"><span data-stu-id="68f42-106">See also</span></span>
+# <a name="define-the-pstn-gateway-fqdn"></a><span data-ttu-id="4ecaf-103">Definir el FQDN de la puerta de enlace de RTC</span><span class="sxs-lookup"><span data-stu-id="4ecaf-103">Define the PSTN Gateway FQDN</span></span>
 
-[<span data-ttu-id="68f42-107">Opciones de implementación de puerta de enlace de RTC</span><span class="sxs-lookup"><span data-stu-id="68f42-107">PSTN Gateway Deployment Options</span></span>](http://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
+<span data-ttu-id="4ecaf-104">Especifique el nombre de dominio completo (FQDN) de la puerta de enlace de telefónica conmutada (RTC) que conectará los componentes de Enterprise Voice a una RTC o una central de conmutación (PBX).</span><span class="sxs-lookup"><span data-stu-id="4ecaf-104">You specify the fully qualified domain name (FQDN) of the public switched telephone network (PSTN) gateway that will connect your Enterprise Voice components to a PSTN or private branch exchange (PBX).</span></span>
+
+<span data-ttu-id="4ecaf-105">Para obtener información detallada, vea [componentes de conectividad de RTC en Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span><span class="sxs-lookup"><span data-stu-id="4ecaf-105">For details, see [PSTN connectivity components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="4ecaf-106">Vea también</span><span class="sxs-lookup"><span data-stu-id="4ecaf-106">See also</span></span>
+
+[<span data-ttu-id="4ecaf-107">Opciones de implementación de puerta de enlace de RTC</span><span class="sxs-lookup"><span data-stu-id="4ecaf-107">PSTN Gateway Deployment Options</span></span>](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)

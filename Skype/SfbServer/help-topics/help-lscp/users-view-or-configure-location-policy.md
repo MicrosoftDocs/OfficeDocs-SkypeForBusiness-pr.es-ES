@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 9af3182dbdbb3ead2e2a5473dcf50431f5ff2a59
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4911e4d9be63dadeb06ecd45f9dc3ee69e0d9a44
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997260"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23257307"
 ---
-# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="3842b-104">Usuarios: Ver o configurar Directiva de ubicación</span><span class="sxs-lookup"><span data-stu-id="3842b-104">Users: View or Configure Location Policy</span></span>
- 
-<span data-ttu-id="3842b-p102">¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="3842b-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="3842b-107">Asignar una directiva de ubicación a un usuario</span><span class="sxs-lookup"><span data-stu-id="3842b-107">Assign a Location Policy to a User</span></span>](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
-    
-<span data-ttu-id="3842b-108">Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="3842b-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="b1af7-104">Usuarios: Ver o configurar Directiva de ubicación</span><span class="sxs-lookup"><span data-stu-id="b1af7-104">Users: View or Configure Location Policy</span></span>
+
+<span data-ttu-id="b1af7-p102">¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="b1af7-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="b1af7-107">Asignar una directiva de ubicación a un usuario</span><span class="sxs-lookup"><span data-stu-id="b1af7-107">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+
+<span data-ttu-id="b1af7-108">Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="b1af7-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

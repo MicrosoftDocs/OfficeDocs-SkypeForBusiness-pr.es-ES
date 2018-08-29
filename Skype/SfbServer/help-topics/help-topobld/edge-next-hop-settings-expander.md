@@ -11,17 +11,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
-description: Para establecer o modificar el siguiente grupo de salto que los servidores perimetrales se utilizan para comunicarse con la infraestructura interna, seleccione un grupo de Director, grupo Director, servidor Front-End o servidor Front-End, en la lista. Sólo los directores o servidores frontales que se han configurado en el generador de topología aparecen en la lista.
-ms.openlocfilehash: 921bde80af4df307d2de50fe9b8f3fa7b27c8540
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Para definir o modificar el grupo de servidores del próximo salto que los servidores perimetrales van a usar para comunicarse con la infraestructura interna, seleccione un director, un grupo de directores, un servidor front-end o un grupo de servidores front-end de la lista. Sólo los directores o servidores Front-End que se han configurado en el generador de topología aparecen en la lista.
+ms.openlocfilehash: 50a8aed87bd58fb6036eab1c7276152515b0b037
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23245226"
 ---
-# <a name="edge-next-hop-settings-expander"></a><span data-ttu-id="a08a0-104">Expansor de configuración del próximo salto perimetral</span><span class="sxs-lookup"><span data-stu-id="a08a0-104">Edge Next Hop Settings Expander</span></span>
- 
-<span data-ttu-id="a08a0-105">Para definir o modificar el **grupo de servidores del próximo salto** que los servidores perimetrales van a usar para comunicarse con la infraestructura interna, seleccione un director, un grupo de directores, un servidor front-end o un grupo de servidores front-end de la lista.</span><span class="sxs-lookup"><span data-stu-id="a08a0-105">To set or modify the **Next hop pool** that the Edge Servers will use to communicate to the internal infrastructure, select a Director, Director pool, Front End Server, or Front End Server pool, from the list.</span></span> <span data-ttu-id="a08a0-106">Sólo los directores o servidores frontales que se han configurado en el generador de topología aparecen en la lista.</span><span class="sxs-lookup"><span data-stu-id="a08a0-106">Only Directors or Front End Servers that have been configured in Topology Builder appear in the list.</span></span>
-  
-<span data-ttu-id="a08a0-107">Para obtener más información sobre cómo definir y configurar las opciones de servicios de borde, consulte [Definir la topología de la periferia](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span><span class="sxs-lookup"><span data-stu-id="a08a0-107">For details about defining and configuring the settings for Edge services, see [Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span></span>
-  
+# <a name="edge-next-hop-settings-expander"></a><span data-ttu-id="d3bb7-104">Expansor de configuración del próximo salto perimetral</span><span class="sxs-lookup"><span data-stu-id="d3bb7-104">Edge Next Hop Settings Expander</span></span>
+
+<span data-ttu-id="d3bb7-105">Para definir o modificar el **grupo de servidores del próximo salto** que los servidores perimetrales van a usar para comunicarse con la infraestructura interna, seleccione un director, un grupo de directores, un servidor front-end o un grupo de servidores front-end de la lista.</span><span class="sxs-lookup"><span data-stu-id="d3bb7-105">To set or modify the **Next hop pool** that the Edge Servers will use to communicate to the internal infrastructure, select a Director, Director pool, Front End Server, or Front End Server pool, from the list.</span></span> <span data-ttu-id="d3bb7-106">Sólo los directores o servidores Front-End que se han configurado en el generador de topología aparecen en la lista.</span><span class="sxs-lookup"><span data-stu-id="d3bb7-106">Only Directors or Front End Servers that have been configured in Topology Builder appear in the list.</span></span>
+
+<span data-ttu-id="d3bb7-107">Para obtener información detallada sobre cómo definir y configurar las opciones de Servicios perimetrales, consulte [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span><span class="sxs-lookup"><span data-stu-id="d3bb7-107">For details about defining and configuring the settings for Edge services, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span></span>
+
 

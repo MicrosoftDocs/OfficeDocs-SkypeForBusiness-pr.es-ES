@@ -11,21 +11,22 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
-description: 'El cuadro de diálogo Seleccionar reglas de traducción de número llamada muestra las reglas de traducción configuradas para su implementación. Para obtener información detallada sobre las reglas de traducción, consulte los siguientes temas:'
-ms.openlocfilehash: f289d0f44224f4d60d30713aa395efb4ca792596
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'El cuadro de diálogo Seleccionar reglas de traducción de números de llamada muestra las reglas de traducción configuradas para su implementación. Para obtener información detallada sobre las reglas de traducción, consulte los siguientes temas:'
+ms.openlocfilehash: 1b35c089a4a9512a194f64b0289e54e6be3ef2e7
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23262445"
 ---
-# <a name="select-calling-number-rules-translation"></a><span data-ttu-id="49297-104">Seleccionar reglas de traducción de números de llamada</span><span class="sxs-lookup"><span data-stu-id="49297-104">Select Calling Number Rules Translation</span></span>
- 
-<span data-ttu-id="49297-p102">El cuadro de diálogo **Seleccionar reglas de traducción de números de llamada** muestra las reglas de traducción configuradas para su implementación. Para obtener información detallada sobre las reglas de traducción, consulte los siguientes temas:</span><span class="sxs-lookup"><span data-stu-id="49297-p102">The **Select Calling Number Translation Rules** dialog displays the translation rules configured for your deployment. For details about translation rules, see the following topics:</span></span>
-  
-1. [<span data-ttu-id="49297-107">Reglas de conversión en Skype para Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="49297-107">Translation rules in Skype for Business Server 2015</span></span>](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
-    
-2. [<span data-ttu-id="49297-108">La configuración de troncales y las reglas de conversión</span><span class="sxs-lookup"><span data-stu-id="49297-108">Trunk Configuration and Translation Rules</span></span>](http://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
-    
-3. [<span data-ttu-id="49297-109">Crear o modificar una regla de traducción para llamado presentación de ID en Skype para Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="49297-109">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
-    
+# <a name="select-calling-number-rules-translation"></a><span data-ttu-id="052a0-104">Seleccionar reglas de traducción de números de llamada</span><span class="sxs-lookup"><span data-stu-id="052a0-104">Select Calling Number Rules Translation</span></span>
+
+<span data-ttu-id="052a0-p102">El cuadro de diálogo **Seleccionar reglas de traducción de números de llamada** muestra las reglas de traducción configuradas para su implementación. Para obtener información detallada sobre las reglas de traducción, consulte los siguientes temas:</span><span class="sxs-lookup"><span data-stu-id="052a0-p102">The **Select Calling Number Translation Rules** dialog displays the translation rules configured for your deployment. For details about translation rules, see the following topics:</span></span>
+
+1. [<span data-ttu-id="052a0-107">Reglas de conversión en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="052a0-107">Translation rules in Skype for Business Server 2015</span></span>](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
+
+2. [<span data-ttu-id="052a0-108">Configuración del tronco y reglas de conversión</span><span class="sxs-lookup"><span data-stu-id="052a0-108">Trunk Configuration and Translation Rules</span></span>](https://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
+
+3. [<span data-ttu-id="052a0-109">Crear o modificar una regla de conversión para presentación del identificador del destinatario de la llamada en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="052a0-109">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+
 

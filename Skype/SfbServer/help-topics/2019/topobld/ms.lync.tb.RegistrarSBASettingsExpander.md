@@ -12,32 +12,32 @@ localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Editar la configuración de resistencia y configure las siguientes propiedades:'
-ms.openlocfilehash: 83ad2a3bff1e305d3d8559c6244313ebf05f173f
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: b4394ae2a7244ae818335bd7c4b21c6d8930f03d
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057205"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23260674"
 ---
-# <a name="registrar-sba-settings-expander"></a><span data-ttu-id="15d7b-103">Expansor de configuración SBA de registrador</span><span class="sxs-lookup"><span data-stu-id="15d7b-103">Registrar SBA Settings Expander</span></span>
- 
-<span data-ttu-id="15d7b-104">Editar la configuración de **resistencia** y configure las siguientes propiedades:</span><span class="sxs-lookup"><span data-stu-id="15d7b-104">You edit the settings for **Resiliency** and configure the following properties:</span></span>
-  
-- <span data-ttu-id="15d7b-105">Seleccione **servicio de usuario asociado y grupo de registrador de copia de seguridad** de la lista.</span><span class="sxs-lookup"><span data-stu-id="15d7b-105">Select **Associated User service and backup Registrar pool** from the list.</span></span>
-    
-    <span data-ttu-id="15d7b-106">De forma opcional, active la casilla de verificación **conmutación automática por error y conmutación por recuperación de Voice** .</span><span class="sxs-lookup"><span data-stu-id="15d7b-106">Optionally, select the **Automatic failover and failback for Voice** check box.</span></span>
-    
-    <span data-ttu-id="15d7b-107">Configurar el **intervalo de detección de error de voz (s)** y el **intervalo de la conmutación por recuperación de Voice (seg.)**.</span><span class="sxs-lookup"><span data-stu-id="15d7b-107">Configure the **Voice failure detection interval (sec)** and the **Voice failback interval (sec)**.</span></span> <span data-ttu-id="15d7b-108">De forma predeterminada, los intervalos son 120 para la detección de error de voz y 240 segundos para la conmutación por recuperación de Voice.</span><span class="sxs-lookup"><span data-stu-id="15d7b-108">By default, the intervals are 120 seconds for Voice failure detection and 240 seconds for Voice failback.</span></span>
-    
-    > [!CAUTION]
-    > <span data-ttu-id="15d7b-109">El número de segundos que se definen para los intervalos de conmutación por error y conmutación por recuperación se debería probar detenidamente para asegurarse de que la resistencia funciona según lo previsto.</span><span class="sxs-lookup"><span data-stu-id="15d7b-109">The number of seconds that you define for the failover and failback intervals should be carefully tested to ensure that the resiliency works as expected.</span></span> <span data-ttu-id="15d7b-110">Si se establece el intervalo en baja (es decir, menos de 120 segundos) o la conmutación por error y la conmutación por recuperación establecer demasiado estrechamente pueden ocasionar que la conmutación por error real y la conmutación por recuperación no funciona según lo previsto.</span><span class="sxs-lookup"><span data-stu-id="15d7b-110">Setting the interval to low (that is, less than 120 seconds) or the failover and failback set too closely may result in the actual failover and failback not working as expected.</span></span> 
-  
- <span data-ttu-id="15d7b-111">**Aceptar** Se aceptan y confirman los cambios en el cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="15d7b-111">**OK** Accepts and commits changes to the dialog.</span></span>
-  
- <span data-ttu-id="15d7b-112">**Cancelar** Se descartan los cambios y se cierra el cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="15d7b-112">**Cancel** Discards changes and closes the dialog.</span></span>
-  
- <span data-ttu-id="15d7b-113">**Ayuda** Abre esta pantalla de ayuda.</span><span class="sxs-lookup"><span data-stu-id="15d7b-113">**Help** Displays this help screen.</span></span>
-  
-## <a name="see-also"></a><span data-ttu-id="15d7b-114">Vea también</span><span class="sxs-lookup"><span data-stu-id="15d7b-114">See also</span></span>
+# <a name="registrar-sba-settings-expander"></a><span data-ttu-id="2e745-103">Expansor de configuración SBA de registrador</span><span class="sxs-lookup"><span data-stu-id="2e745-103">Registrar SBA Settings Expander</span></span>
 
-[<span data-ttu-id="15d7b-115">Planeación de resistencia de Enterprise Voice</span><span class="sxs-lookup"><span data-stu-id="15d7b-115">Planning for Enterprise Voice Resiliency</span></span>](http://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
+<span data-ttu-id="2e745-104">Editar la configuración de **resistencia** y configure las siguientes propiedades:</span><span class="sxs-lookup"><span data-stu-id="2e745-104">You edit the settings for **Resiliency** and configure the following properties:</span></span>
+
+- <span data-ttu-id="2e745-105">Seleccione **servicio de usuario asociado y grupo de registrador de copia de seguridad** de la lista.</span><span class="sxs-lookup"><span data-stu-id="2e745-105">Select **Associated User service and backup Registrar pool** from the list.</span></span>
+
+    <span data-ttu-id="2e745-106">De forma opcional, active la casilla de verificación **conmutación automática por error y conmutación por recuperación de Voice** .</span><span class="sxs-lookup"><span data-stu-id="2e745-106">Optionally, select the **Automatic failover and failback for Voice** check box.</span></span>
+
+    <span data-ttu-id="2e745-107">Configurar el **intervalo de detección de error de voz (s)** y el **intervalo de la conmutación por recuperación de Voice (seg.)**.</span><span class="sxs-lookup"><span data-stu-id="2e745-107">Configure the **Voice failure detection interval (sec)** and the **Voice failback interval (sec)**.</span></span> <span data-ttu-id="2e745-108">De forma predeterminada, los intervalos son 120 para la detección de error de voz y 240 segundos para la conmutación por recuperación de Voice.</span><span class="sxs-lookup"><span data-stu-id="2e745-108">By default, the intervals are 120 seconds for Voice failure detection and 240 seconds for Voice failback.</span></span>
+
+    > [!CAUTION]
+    > <span data-ttu-id="2e745-109">El número de segundos que se definen para los intervalos de conmutación por error y conmutación por recuperación se debería probar detenidamente para asegurarse de que la resistencia funciona según lo previsto.</span><span class="sxs-lookup"><span data-stu-id="2e745-109">The number of seconds that you define for the failover and failback intervals should be carefully tested to ensure that the resiliency works as expected.</span></span> <span data-ttu-id="2e745-110">Si se establece el intervalo en baja (es decir, menos de 120 segundos) o la conmutación por error y la conmutación por recuperación establecer demasiado estrechamente pueden ocasionar que la conmutación por error real y la conmutación por recuperación no funciona según lo previsto.</span><span class="sxs-lookup"><span data-stu-id="2e745-110">Setting the interval to low (that is, less than 120 seconds) or the failover and failback set too closely may result in the actual failover and failback not working as expected.</span></span>
+
+ <span data-ttu-id="2e745-111">**Aceptar** Se aceptan y confirman los cambios en el cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="2e745-111">**OK** Accepts and commits changes to the dialog.</span></span>
+
+ <span data-ttu-id="2e745-112">**Cancelar** Se descartan los cambios y se cierra el cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="2e745-112">**Cancel** Discards changes and closes the dialog.</span></span>
+
+ <span data-ttu-id="2e745-113">**Ayuda** Abre esta pantalla de ayuda.</span><span class="sxs-lookup"><span data-stu-id="2e745-113">**Help** Displays this help screen.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="2e745-114">Vea también</span><span class="sxs-lookup"><span data-stu-id="2e745-114">See also</span></span>
+
+[<span data-ttu-id="2e745-115">Planeación de resistencia de Enterprise Voice</span><span class="sxs-lookup"><span data-stu-id="2e745-115">Planning for Enterprise Voice Resiliency</span></span>](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
