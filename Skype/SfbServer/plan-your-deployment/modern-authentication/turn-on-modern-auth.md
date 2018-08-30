@@ -11,12 +11,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: En este artículo los cmdlets de esquemas que ofrecen a los administradores más control de métodos de autenticación usado interior y exterior, de una empresa. Los administradores pueden activar los métodos de autenticación o desactivada interna o externamente a su red.
-ms.openlocfilehash: d460632d810eace4a6b43665d1d8e3335e3eae3c
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: 2922d270f7a033a1523083ed15adefc5fb5f331d
+ms.sourcegitcommit: c9b68cbc8199d21a3fa4275db7a663695784afb3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546560"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23485809"
 ---
 # <a name="turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Desactivar los métodos de autenticación Legacy interna y externamente a su red.
 
@@ -59,7 +59,7 @@ __Escriba 1 Descripción:__ Es el valor predeterminado de __escenario cuando MA 
 
 __Descripción del tipo 2:__ Esta topología bloquea NTLM *externamente*, pero permite NTLM o Kerberos (para los clientes que no son compatibles con ADAL) para trabajar *internamente*. Si los clientes admiten ADAL usarán MA internamente.
 
-__Descripción del tipo 3:__ Esta topología requiere MA para todos los usuarios. Todos los clientes de ADAL capaz funcionarán en esta topología, y las contraseñas no se aprovechará.
+__Descripción del tipo 3:__ Esta topología requiere MA para todos los usuarios. Todos los clientes de ADAL capaz funcionarán en esta topología, y las contraseñas no se aprovechará si, por ejemplo, desactivar el uso de contraseñas con Certificate-based auth.
 
 __Descripción del tipo 4:__ Esta topología bloquea NTLM *externamente* y MA internamente. Permite que *todos los clientes* usar autenticación heredado métodos *internamente* (incluso clientes compatibles con ADAL).
 

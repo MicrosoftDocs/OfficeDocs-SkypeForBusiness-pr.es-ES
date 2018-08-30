@@ -69,6 +69,40 @@
 
 
 <!-- ============================================================ -->
+# [Actualización de Skype para la empresa a los equipos](Journey-SkypeforBusiness-Teams.md)
+## [Tutorial: Recorrido desde Skype Empresarial a Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [Actualizar básico](upgrade-basic.md)
+### [Encuestas y muestra mensajes de correo electrónico](upgrade-emails-surveys.md)
+## [Actualice Pro](upgrade-pro.md)
+## [Plan para su viaje por la actualización](upgrade-plan-journey.md)
+### [Dar de alta a las partes interesadas de project](upgrade-enlist-stakeholders.md)
+### [Definir el ámbito del proyecto](upgrade-define-project-scope.md)
+### [Descripción de interoperabilidad y coexistencia](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [Elija su viaje por la actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [Planeación de la calidad](upgrade-plan-for-quality.md)
+## [Preparar su entorno para los equipos](upgrade-prepare-environment.md)
+### [Preparar el personal de TI para los equipos](upgrade-prepare-IT-pros.md)
+### [Requisitos previos](upgrade-plan-journey-prerequisites.md)
+### [Evaluación del entorno](upgrade-plan-journey-evaluate-environment.md)
+### [Preparar la red](upgrade-prepare-environment-prepare-network.md)
+### [Preparar su servicio](upgrade-prepare-environment-prepare-service.md)
+## [Preparar la organización de los equipos](upgrade-prepare-organization.md)
+### [Evalúe la preparación de los cambios en la organización](upgrade-org-change-readiness.md)
+### [Preparar un plan de preparación del usuario](upgrade-user-readiness.md)
+## [Realice a un piloto de usuario](pilot-essentials.md)
+## [Realizar la actualización a los equipos](upgrade-to-teams.md)
+### [Actualización de Skype para la empresa en línea a los equipos](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+### [Actualización de Skype para entornos híbridos de negocio a los equipos](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
+### [Actualización de Skype para empresarial local a los equipos](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
+## [Valor de unidad a través de adopción de usuario](continue-journey.md)
+### [Usar el servicio](upgrade-operate-my-service.md)
+### [Calidad de Monitor](upgrade-monitor-quality.md)
+### [Mejorar el servicio](upgrade-enhance-my-service.md)
+## [Preguntas más frecuentes](FAQ-journey.md)
+
+<!-- ============================================================ -->
+
+<!-- ============================================================ -->
 # Administración
 ## [Calidad de experiencia consulte la Guía](quality-of-experience-review-guide.md)
 <!--## Call analytics
@@ -102,40 +136,6 @@
 ## [Vídeos: Audioconferencia en Microsoft Teams](audio-conferencing-videos.md)
 <!-- ============================================================ -->
 
-
-<!-- ============================================================ -->
-# [Actualización de Skype para la empresa a los equipos de Microsoft](Journey-SkypeforBusiness-Teams.md)
-## [Tutorial: Recorrido desde Skype Empresarial a Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-## [Actualizar básico](upgrade-basic.md)
-### [Encuestas y muestra mensajes de correo electrónico](upgrade-emails-surveys.md)
-## [Actualice Pro](upgrade-pro.md)
-## [Plan para su viaje por la actualización](upgrade-plan-journey.md)
-### [Dar de alta a las partes interesadas de project](upgrade-enlist-stakeholders.md)
-### [Definir el ámbito del proyecto](upgrade-define-project-scope.md)
-### [Descripción de interoperabilidad y coexistencia](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-#### [Elija su viaje por la actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [Planeación de la calidad](upgrade-plan-for-quality.md)
-## [Preparar su entorno para los equipos](upgrade-prepare-environment.md)
-### [Preparar el personal de TI para los equipos](upgrade-prepare-IT-pros.md)
-### [Requisitos previos](upgrade-plan-journey-prerequisites.md)
-### [Evaluación del entorno](upgrade-plan-journey-evaluate-environment.md)
-### [Preparar la red](upgrade-prepare-environment-prepare-network.md)
-### [Preparar su servicio](upgrade-prepare-environment-prepare-service.md)
-## [Preparar la organización de los equipos](upgrade-prepare-organization.md)
-### [Evalúe la preparación de los cambios en la organización](upgrade-org-change-readiness.md)
-### [Preparar un plan de preparación del usuario](upgrade-user-readiness.md)
-## [Realice a un piloto de usuario](pilot-essentials.md)
-## [Realizar la actualización a los equipos](upgrade-to-teams.md)
-### [Actualización de Skype para la empresa en línea a los equipos](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-### [Actualización de Skype para entornos híbridos de negocio a los equipos](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
-### [Actualización de Skype para empresarial local a los equipos](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
-## [Valor de unidad a través de adopción de usuario](continue-journey.md)
-### [Usar el servicio](upgrade-operate-my-service.md)
-### [Calidad de Monitor](upgrade-monitor-quality.md)
-### [Mejorar el servicio](upgrade-enhance-my-service.md)
-## [Preguntas más frecuentes](FAQ-journey.md)
-
-<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Seguridad y cumplimiento

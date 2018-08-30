@@ -9,11 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Lea este tema para obtener más información acerca de la administración de sistemas de salón de Skype v2, la próxima generación de sistemas de salón de Skype.
-ms.openlocfilehash: d8dfb5c04d73717e8f20352c6cb422498f5a9b34
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: ae5f8537db63aac74adbcdc8ec13cb7aaa44ad77
+ms.sourcegitcommit: c9b68cbc8199d21a3fa4275db7a663695784afb3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23485795"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Operaciones y mantenimiento de sistemas de salón de Skype v2 
  
@@ -56,7 +57,7 @@ Si v2 de sistemas de salón de Skype no se está ejecutando bien, realizar un re
 La tabla siguiente resume las operaciones remotas posibles y los métodos que se pueden utilizar para llevarlas a cabo.
   
 
-|**Grupo de trabajo**|**No asociado a un dominio**|**Asociado a un dominio**|
+|**Grupo de trabajo **|**No unido a dominio**|**Unido a dominio**|
 |:-----|:-----|:-----|
 |Reinicio  <br/> |Escritorio remoto  <br/> Powershell remoto  <br/> |Escritorio remoto (requiere una configuración adicional)  <br/> Powershell remoto (requiere una configuración adicional)  <br/> SCCM  <br/> |
 |Actualizar SO  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
@@ -72,9 +73,9 @@ En esta sección, se explica la configuración del sistema que depende de sistem
 
 |**Configuración**|**Permite**|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AdminAutoLogon = (dword) 1  <br/> |Permite v2 de sistemas de salón de Skype iniciar copia de seguridad  <br/> |
+|HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon AdminAutoLogon = 1 (REG_SZ)  <br/> |Permite v2 de sistemas de salón de Skype iniciar copia de seguridad  <br/> |
 |Administración de energía -\> en AC, desactivar pantalla después de 10 minutos  <br/> Administración de energía -\> en AC, nunca colocar del sistema al modo de suspensión  <br/> |Permite v2 de sistemas de salón de Skype para desactivar muestra adjunto y reactivar automáticamente  <br/> |
-|net accounts /maxpwage:unlimited  <br/> O medios alternativos para deshabilitar la opción de caducidad de la contraseña en la cuenta local. Si esto no se realiza, la cuenta de Skype no podrá iniciar sesión indicando que la contraseña ha caducado. Tenga en cuenta que esto afectará todas las cuentas locales de la máquina y, por consiguiente, si no se configura esto, la cuenta administrativa del cuadro eventualmente también caducará.  <br/> |Permite que la cuenta de Skype siempre inicie sesión  <br/> |
+|net accounts /maxpwage:unlimited  <br/> O medios alternativos para deshabilitar la opción de caducidad de la contraseña en la cuenta local. Si esto no se realiza, la cuenta de Skype no podrá iniciar sesión indicando que la contraseña ha caducado. Tenga en cuenta que esto afectará todas las cuentas locales de la máquina y, por consiguiente, si no se configura esto, la cuenta administrativa del cuadro eventualmente también caducará.   <br/> |Permite que la cuenta de Skype siempre inicie sesión  <br/> |
    
 Transferencia de archivos mediante directivas de grupo se describe en [configurar un elemento de archivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
   
