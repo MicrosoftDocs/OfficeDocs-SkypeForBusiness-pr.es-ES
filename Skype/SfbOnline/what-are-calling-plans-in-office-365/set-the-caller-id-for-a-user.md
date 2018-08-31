@@ -19,19 +19,19 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: El sistema telefónico en Office 365 proporciona un identificador de autor de la llamada predeterminada que es el número de teléfono asignado del usuario. Si lo desea, puede cambiar o bloquear el identificador de llamada (también denominado identificador de línea de llamada) para un usuario. Encontrará más información sobre cómo usar el identificador de autor de la llamada en su organización dirigiéndose a cómo se puede usar el identificador de autor de la llamada de la organización.
-ms.openlocfilehash: a48edfd6f0b6967f1f9c628b415f781b8c4832c7
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
-ms.translationtype: MT
+description: El Sistema telefónico en Office 365 proporciona un identificador de llamada predeterminado que es el número de teléfono asignado al usuario. Si lo desea, puede cambiar o bloquear el identificador de llamada (también denominado identificador de línea de llamada) de un usuario. Si desea más información sobre cómo usar los identificadores de llamadas en su organización, vaya a Cómo se puede usar la identificación de llamadas en su organización.
+ms.openlocfilehash: cf6f1aab6f865a87186b7acb793e5aa7829907aa
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500857"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780821"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Establecer el identificador de llamada de un usuario
-El sistema telefónico en Office 365 proporciona un identificador de autor de la llamada predeterminada que es el número de teléfono asignado del usuario. Si lo desea, puede cambiar o bloquear el identificador de llamada (también denominado identificador de línea de llamada) para un usuario. Encontrará más información sobre cómo usar el identificador de autor de la llamada en su organización yendo [cómo se puede usar el identificador de autor de la llamada de la organización](how-can-caller-id-be-used-in-your-organization.md).
+El Sistema telefónico en Office 365 proporciona un identificador de llamada predeterminado que es el número de teléfono asignado al usuario. Si lo desea, puede cambiar o bloquear el identificador de llamada (también denominado identificador de línea de llamada) de un usuario. Si desea más información sobre cómo usar los identificadores de llamadas en su organización, vaya [Cómo se puede usar la identificación de llamadas en su organización](how-can-caller-id-be-used-in-your-organization.md).
   
 > [!TIP]
-> No se puede bloquear las llamadas entrantes que están actualmente en Skype para profesionales en línea. 
+> Actualmente no se pueden bloquear las llamadas entrantes en Skype for Business Online. 
   
 Hay algunos ajustes que puede cambiar:
   
@@ -43,9 +43,9 @@ Hay algunos ajustes que puede cambiar:
     > [!NOTE]
     > Si desea usar el parámetro  _Service_, deberá especificar un número de servicio válido.
   
-- **Bloque de su identificador de autor de la llamada saliente** Puede bloquear el identificador de autor de la llamada saliente desde que se envían en las llamadas RTC salientes de un usuario. Al hacerlo, se bloqueará el número de teléfono para que no se muestre en el teléfono de la persona que llama.
+- **Bloquear el identificador de llamada saliente** Puede impedir que el identificador de llamada saliente se envíe en las llamadas RTC salientes de un usuario. Al hacerlo, se bloqueará el número de teléfono para que no se muestre en el teléfono de la persona a la que se llama.
     
-- **Bloque de su identificador de autor de la llamada entrante** Puede bloquear un usuario de recibir identificador de autor de la llamada en las llamadas entrantes de RTC.
+- **Bloquear el identificador de llamada entrante** Puede impedir que el usuario reciba el identificador de llamada en las llamadas RTC entrantes.
     
 > [!IMPORTANT]
 > Las llamadas de emergencia siempre envían el número de teléfono de los usuarios (identificador de llamada). 
@@ -57,7 +57,7 @@ Para obtener más información sobre esta configuración y cómo usarla, vaya [C
 ## <a name="set-your-caller-id-policy-settings"></a>Establecer la configuración de la directiva de identificador de llamada
 
 > [!NOTE]
-> Para todos los valores de identificador de autor de la llamada de Skype para profesionales en línea, debe usar Windows PowerShell y **no se puede usar** el **Skype para el centro de administración de negocio**. 
+> Para la configuración relativa al identificador de llamada en Skype for Business Online, debe usar Windows PowerShell y **no** el **Centro de administración de Skype for Business**. 
   
 ### <a name="verify-and-start-windows-powershell"></a>Verificar e iniciar Windows PowerShell
 
@@ -80,7 +80,7 @@ Para obtener más información sobre esta configuración y cómo usarla, vaya [C
 2. En la ventana **Windows PowerShell**, puede conectarse a su organización de Office 365 ejecutando:
     
     > [!NOTE]
-    > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.
+    > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype for Business Online.
 > 
   ```
 Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
@@ -98,54 +98,54 @@ Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modul
   Import-PSSession $session
   ```
 
-Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [Connecting to Skype para profesionales en línea mediante Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Si desea obtener más información sobre cómo iniciar Windows PowerShell, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [Conectarse a Skype for Business Online con Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
 ### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>Ver toda la configuración de directivas de identificador de llamada en su organización
 
-- Para ver todas las configuraciones de directiva del identificador de autor de la llamada en la organización, ejecute:
+- Para ver toda la configuración de directivas de identificador de llamada en su organización, ejecute:
 
   ```
   Get-CsCallingLineIdentity |fl
   ```
-Ver más detalles y ejemplos de [Get-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793856.aspx).
+Vea más ejemplos y detalles sobre [Get-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793856.aspx).
     
 ### <a name="create-a-new-caller-id-policy-for-your-organization"></a>Crear una nueva directiva de identificador de llamada en su organización
 
 
-- Para crear una nueva directiva de identificador de autor de la llamada que establece el identificador de autor de la llamada a anónimo, ejecute:
+- Para crear una nueva directiva de identificador de llamada que establezca el identificador de llamada en anónimo, ejecute:
     
   ```
   New-CsCallingLineIdentity  -Identity Anonymous -Description "Anonymous policy" -CallingIDSubstitute Anonymous -EnableUserOverride $false
   ```
   > [!NOTE]  
-  > En todos los casos, el campo "Número de servicio" no debe incluir un inicial "+".
+  > En todos los casos, el campo "Número de servicio" no debe incluir un "+" inicial.
 
-  Ver más detalles y ejemplos para [New-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793855.aspx).
+  Vea más ejemplos y detalles sobre [New-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793855.aspx).
     
-- Para aplicar la nueva directiva creó a Amos mármol, ejecute:
+- Para aplicar la nueva directiva a Amos Marble, ejecute:
     
   ```
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
   ```
-  Más información sobre el cmdlet [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx).
+  Vea más información sobre el cmdlet [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx).
     
-Si ya ha creado una directiva, puede usar el cmdlet [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx) para realizar cambios en la directiva existente y, a continuación, use el cmdlet [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) para aplicar la configuración a los usuarios.
+Si ya ha creado una directiva, puede usar el cmdlet [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx) para hacer cambios en la directiva existente y, a continuación, usar[Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) para aplicar la configuración a los usuarios.
   
 ### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>Ajustar la directiva para bloquear el identificador de llamada entrante
 
-- Para bloquear el identificador de autor de la llamada entrante, ejecute:
+- Para bloquear el identificador de llamada entrante, ejecute:
     
   ```
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
   ```
-  Ver más detalles y ejemplos para [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx).
+  Vea más ejemplos y detalles sobre [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx).
     
-- Para aplicar la configuración de la directiva creada a un usuario de la organización, ejecute:
+- Para aplicar la configuración de la nueva directiva a un usuario de su organización, ejecute:
     
   ```
   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"
   ```
-    Más información sobre el cmdlet [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx).
+    Vea más información sobre el cmdlet [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx).
     
 ### <a name="remove-a-caller-id-policy"></a>Quitar una directiva de identificación de llamadas
 
@@ -161,7 +161,7 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-- Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
+- Windows PowerShell se usa para administrar los usuarios y qué acciones estos pueden o no pueden realizar. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -175,18 +175,17 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
     
   - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>See also
-[Preguntas comunes sobre la transferencia de números de teléfono](transferring-phone-numbers-common-questions.md)
+  
+ ## <a name="related-topics"></a>Temas relacionados
+[Preguntas comunes sobre la transferencia de números de teléfono](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Diferentes tipos de números de teléfono que se usan para Planes de llamada](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Diferentes tipos de números de teléfono que se usan para Planes de llamada](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Administrar los números de teléfono para su organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Administrar los números de teléfono de su organización](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Obtener más información acerca de ID de la línea de llamada y llamar a nombre de entidad](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
+[Obtener más información acerca del identificador de línea de llamada y del nombre del usuario de llamada](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
 
-[Términos y condiciones de las llamadas de emergencias](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Términos y condiciones de las llamadas de emergencias](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-  
- 
  

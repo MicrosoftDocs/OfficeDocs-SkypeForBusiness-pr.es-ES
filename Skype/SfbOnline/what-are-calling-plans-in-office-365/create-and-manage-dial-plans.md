@@ -19,16 +19,17 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn how to create calling dial plans (PSTN Calling dial plans) in Office 365 and how to manage them. '
-ms.openlocfilehash: 5390765db0d70acb789c6dcf4a2fd4dc488e613e
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
-ms.translationtype: MT
+description: 'Obtenga información sobre cómo crear planes de marcado de llamada (planes de marcado de llamada RTC) en Office 365 y cómo administrarlos. '
+ms.openlocfilehash: a0bbe698e348461d9f8295035e02afcb537eb503
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779292"
 ---
 # <a name="create-and-manage-dial-plans"></a>Crear y administrar planes de marcado
 
-Después de que ha planeado los planes de marcado para su organización y descubrió todas las reglas de normalización que deben crearse para el enrutamiento de llamadas, debe usar Windows PowerShell para crear planes de marcado y realice los cambios de configuración.
+Tras planificar los planes de marcado para su organización y determinar todas las reglas de normalización que se deben crear para el enrutamiento de llamadas, tendrá que usar Windows PowerShell para crear los planes de marcado y realizar los cambios pertinentes en la configuración.
   
 > [!NOTE]
 > Los planes de marcado no se pueden crear y administrar en el centro de administración de Skype Empresarial. 
@@ -64,7 +65,7 @@ Si necesita más información, consulte [Conectarse a todos los servicios de Off
     Import-PSSession $session
   ```
 
-Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [Connecting to Skype para profesionales en línea mediante Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Si desea obtener más información sobre cómo iniciar Windows PowerShell, consulte [Conectar con todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [Conectar con Skype for Business Online con Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
 ## <a name="creating-and-managing-your-dial-plans"></a>Crear y administrar sus planes de marcado
 
@@ -150,7 +151,7 @@ $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity DP1 -NormalizationRules @{remove=$nr1}
 ```
 
-Ejecute lo siguiente cuando desea también se examinan las reglas de normalización existente, determinar la que desea eliminar y, a continuación, usar su índice para quitarlo. La matriz de reglas de normalización se inicia con el índice 0. Nos gustaría quitar la regla de normalización de 3 dígitos, por lo que es el índice 1.
+Ejecute lo siguiente cuando también desee examinar las reglas de normalización existentes, determinar cuál desea eliminar y después utilizar el índice para eliminarla. La matriz de reglas de normalización comienza con el índice 0. Nos gustaría eliminar la regla de normalización de tres dígitos, por lo que se trata del índice 1.
   
 ```
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
@@ -176,9 +177,9 @@ Ejecute esto para buscar todos los usuarios a los que se les ha garantizado el p
 Get-CsOnlineuser | where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-Ejecute estos para agregar el plan de marcado local existente denominado OPDP1 como un plan de marcado inquilino para su organización. Debe primero guardar el local plan a un archivo .xml de marcado y, a continuación, usarla para crear el nuevo plan de marcado de inquilinos.
+Ejecute estos para agregar el plan de marcado local existente denominado OPDP1 como un plan de marcado de inquilino para su organización. En primer lugar debe guardar el plan de marcado local como un archivo xml y, a continuación, usarlo para crear el nuevo plan de marcado de inquilino.
   
-Ejecute para guardar el plan de marcado local en el archivo .xml.
+Ejecute esto para guardar el plan de marcado local como el archivo xml.
   
 ```
 $DPName = "OPDP1"
@@ -202,11 +203,11 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-- Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
+- Windows PowerShell se utiliza para administrar los usuarios y qué estos pueden o no hacer. Con Windows PowerShell, puede administrar Office 365 y Skype for Business Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Motivos por los que necesita usar Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell ofrece numerosas ventajas de velocidad, sencillez y productividad con respecto al uso exclusivo del Centro de administración de Office 365, como por ejemplo a la hora de realizar cambios de configuración para varios usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
     
@@ -216,14 +217,14 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
     
   - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>See also
-[Preguntas comunes sobre la transferencia de números de teléfono](transferring-phone-numbers-common-questions.md)
+## <a name="related-topics"></a>Temas relacionados
+[Preguntas comunes sobre la transferencia de números de teléfono](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Diferentes tipos de números de teléfono que se usan para Planes de llamada](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Diferentes tipos de números de teléfono que se usan para Planes de llamada](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Administrar los números de teléfono para su organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Administrar los números de teléfono para su organización](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Términos y condiciones de las llamadas de emergencia](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
