@@ -1,5 +1,5 @@
 ---
-title: Informe de detalles de sesiones
+title: Informe de detalles de la sesión
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,20 +18,20 @@ ms.custom:
 - Reporting
 description: El nuevo panel Informes de Office 365 muestra la información general de actividad en los productos de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto.
 search.appverid: MET150
-ms.openlocfilehash: 63d0d049e7522d1e62f717c063eb92f658a5623f
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: ae892766be3b9bc18f37ae8b551678a738743325
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933179"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780859"
 ---
-# <a name="session-details-report"></a>Informe de detalles de sesiones
+# <a name="session-details-report"></a>Informe de detalles de la sesión
 
 [] El nuevo panel **Informes** de Office 365 muestra la información general de actividad en los productos de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto. Por ejemplo, puede usar el informe de **Skype para detalles de la sesión de negocio** para ver detalles acerca de las experiencias de llamada de usuario individual.
   
 Consulte [información general de informes](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para obtener más informes que están disponibles.
   
-Este informe, junto con los otro Skype para informes de negocios proporcionan detalles sobre actividad, incluidos los detalles de la sesión en toda la organización. Estos detalles son muy útiles cuando se investigar, planear y realizar otros profesionales las decisiones durante la para su organización y para la configuración de [comunicaciones créditos](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md).
+Este informe, junto con los otro Skype para informes de negocios proporcionan detalles sobre actividad, incluidos los detalles de la sesión en toda la organización. Estos detalles son muy útiles cuando se investigar, planear y realizar otros profesionales las decisiones durante la para su organización y para la configuración de [comunicaciones créditos](/microsoftteams/what-are-communications-credits).
   
 > [!NOTE]
 > Puede ver todos los informes de Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Office 365. 
@@ -117,7 +117,7 @@ Para cada sesión, hay una tabla sub con datos diferentes disponibles en funció
 
 - [Skype para informe de grupos de servidores minuto RTC de negocio](pstn-minute-pools-report.md) puede ver el número de minutos consumidos durante el mes actual dentro de la organización.
     
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 [Informes de actividades en el Centro de administración de Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
