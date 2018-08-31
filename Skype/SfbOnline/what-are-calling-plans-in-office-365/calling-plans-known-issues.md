@@ -1,5 +1,5 @@
 ---
-title: Problemas conocidos de los planes de llamada
+title: Problemas conocidos de Planes de llamada
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,33 +18,34 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn known issues with the calling plan for Office 365 (PSTN Calling) and what you can do about them. '
-ms.openlocfilehash: d201db80c2da09223d8e3b1935c383089f997382
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 6846fc2e5bd2e1293ca5185a642a813275921ea4
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779302"
 ---
-# <a name="calling-plans-known-issues"></a>Problemas conocidos de los planes de llamada
+# <a name="calling-plans-known-issues"></a>Problemas conocidos de Planes de llamada
 
-Planes de llamada Office 365 son una nueva característica que se encuentra en Skype para los negocios en línea. Los siguientes son problemas actuales que se realiza un seguimiento e investigar activamente. Se resolverán potencialmente cuando se actualiza la característica en las futuras revisiones de Office 365 y Skype para los negocios en línea.
+Planes de llamada en Office 365 son una característica nueva que se encuentran en Skype para profesionales en línea. Los siguientes son problemas actuales que se va a realizar un seguimiento y activamente investigarse. Se resolverán potencialmente cuando la característica se ha actualizado en futuras versiones de Office 365 y Skype para profesionales en línea.
   
-## <a name="calling-plans-known-issues"></a>Problemas conocidos de los planes de llamada
+## <a name="calling-plans-known-issues"></a>Problemas conocidos de Planes de llamada
 
 |**Problema conocido**|**Comentarios**|
 |:-----|:-----|
-|Transición de Tech Preview licencias para las licencias de producción para llamar a los planes no actualizan automáticamente la licencia.  <br/> |En primer lugar a adquirir las licencias nuevo para que estén preparados para asignarse a los usuarios. Quitar la licencia de promoción (Tech Preview) de un usuario y asignar **inmediatamente** las nuevas licencias de **Plan de llamadas nacionales** o **nacionales y Plan de llamadas internacionales** al usuario. <br/> Si va a quitar y agregar licencias para varios usuarios, es muy importante que quite las licencias de todos los usuarios que usen Windows PowerShell y que después asigne **INMEDIATAMENTE** las licencias de todos los usuarios que usen Windows PowerShell. Haciendo esto se asegurará de que no hay ninguna interrupción del servicio cuando se manejan grandes volúmenes de asignaciones de licencias de usuario. Para secuencias de comandos de PowerShell de ejemplo, vea [Asignar Skype para licencias de negocio y equipos de Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).  <br/> **Nota:** Si utiliza conectividad de RTC local para usuarios de híbrido, *sólo* necesitará asignar una licencia de **Sistema de teléfono** . **No** debe asignar también una Plan de llamadas de voz. Sin embargo, si va a habilitar llamando a planes de Office 365 para los usuarios que se encuentran en Office 365, debe asignar sigue un **Plan de llamadas nacionales** o una licencia **nacional y Plan de llamadas internacionales** para esos usuarios. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+|Transición de Tech Preview licencias para las licencias de producción para llamar a los planes no actualizan automáticamente la licencia.  <br/> |En primer lugar a adquirir las licencias nuevo para que estén preparados ser asignado a los usuarios. Quitar la licencia de promoción (Tech Preview) de un usuario y, a continuación, asignar **inmediatamente** las licencias de **Llamar a planear nacional** o **nacionales y llamar a planear internacional de** nuevo al usuario. <br/> Si va a quitar y agregar licencias para varios usuarios, es muy importante que quite las licencias de todos los usuarios que usen Windows PowerShell y que después asigne **INMEDIATAMENTE** las licencias de todos los usuarios que usen Windows PowerShell. De esta forma se asegurará de que no hay ninguna interrupción del servicio al manejar grandes volúmenes de las asignaciones de licencia de usuario. Para los scripts de PowerShell de ejemplo, vea [Asignar Skype para licencias de negocio y equipos de Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).  <br/> **Nota:** Si está utilizando la conectividad de RTC local para los usuarios de híbrida, *sólo* tiene que asignar una licencia de **Sistema telefónico** . **No** debe asignar también una planeación de la llamada de voz. Sin embargo, si va a habilitar una llamada a los planes en Office 365 para los usuarios que se encuentran en Office 365, debe asignar aún un **Nacionales llamar a planear** o una licencia **nacionales y llamar a planear internacional** para esos usuarios. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
 > [!NOTE]
-> Si necesita obtener más números de teléfono que esto, ponte [en contacto con soporte técnico para productos de empresa - Admin ayuda](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)         |
+> Si necesita obtener más números de teléfono que este, por favor, [póngase en contacto con soporte técnico para productos de negocio: Ayuda de administración](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)         |
    
 ## <a name="related-topics"></a>Temas relacionados
-[Preguntas comunes sobre la transferencia de números de teléfono](transferring-phone-numbers-common-questions.md)
+[Preguntas comunes sobre la transferencia de números de teléfono](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Diferentes tipos de números de teléfono que se usan para Planes de llamada](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Diferentes tipos de números de teléfono que se usan para Planes de llamada](/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Administrar los números de teléfono para su organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Administrar los números de teléfono para su organización](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
 
-[Términos y condiciones de las llamadas de emergencia](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

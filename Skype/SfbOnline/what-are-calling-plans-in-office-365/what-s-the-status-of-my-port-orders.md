@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 8f8d6bc1e2fc08e98c11b00bfda4e66c978c69a7
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b4a8c3c167c8830dfc240b4ce5000f96c5ccbb3f
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241937"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779029"
 ---
 # <a name="whats-the-status-of-my-port-orders"></a>¿Cuál es el estado de mis solicitudes de portabilidad?
 
@@ -42,19 +42,19 @@ En la siguiente tabla se enumera los Estados de orden de puerto, así como las a
 |**Error** <br/> |No  <br/> |Sí  <br/> |Sí  <br/> |Sí (en este momento, no se puede eliminar el orden de puerto si se ha producido un error. El orden de puerto debe volver a crearse o necesita para [admitir de contacto para productos de negocio: Ayuda de administración](https://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx).  <br/> |El operador de perder rechazó el orden.  <br/> |
 |**Completado** <br/> |Sí  <br/> |No  <br/> |No  <br/> |No  <br/> |Los números se han transferido correctamente.  <br/> |
 |**Cancelar** <br/> |No  <br/> |Sí  <br/> |No  <br/> |No  <br/> |El administrador ha cancelado el orden.  <br/> |
-
- **Para obtener instrucciones paso a paso, vea [transferir los números de teléfono para Office 365](transfer-phone-numbers-to-office-365.md).**
-
+   
+ **Para obtener instrucciones paso a paso, vea [transferir los números de teléfono para Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+ 
 > [!NOTE]
 > Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 
 ## <a name="related-topics"></a>Temas relacionados
-[Preguntas comunes sobre la transferencia de números de teléfono](transferring-phone-numbers-common-questions.md)
+[Preguntas comunes sobre la transferencia de números de teléfono](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Diferentes tipos de números de teléfono que se usan para Planes de llamada](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Diferentes tipos de números de teléfono que se usan para Planes de llamada](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Términos y condiciones de las llamadas de emergencia](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

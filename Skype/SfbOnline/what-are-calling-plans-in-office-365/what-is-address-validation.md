@@ -19,11 +19,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Descubra qué es la validación de direcciones, por qué es importante y de qué forma está relacionada con los servicios y las direcciones de emergencia. '
-ms.openlocfilehash: c82208dd08018c812451a6a26b5a9c6e5420410d
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: d5a64273ae29bac3b1f6e42212a0b50aa3dca9a5
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779119"
 ---
 # <a name="what-is-address-validation"></a>¿Qué es la validación de direcciones?
 
@@ -36,10 +37,11 @@ Para validar una dirección postal o civil es necesario comprobar que sea legít
 
   
 ## <a name="related-topics"></a>Temas relacionados
-[¿Qué son las direcciones, las ubicaciones de emergencia y el enrutamiento de llamadas?](what-are-emergency-locations-addresses-and-call-routing.md)
+[¿Qué son las direcciones, las ubicaciones de emergencia y el enrutamiento de llamadas?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
 
-[Administrar los números de teléfono para su organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-[Términos y condiciones de las llamadas de emergencia](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Administrar los números de teléfono para su organización](/microsoftteams/manage-phone-numbers-for-your-organization)
+
+[Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

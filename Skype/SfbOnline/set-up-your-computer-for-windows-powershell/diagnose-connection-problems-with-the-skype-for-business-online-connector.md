@@ -1,5 +1,5 @@
 ---
-title: Diagnosticar problemas de conexión con el Skype para Business Connector en línea
+title: Diagnosticar problemas de conexión con el conector de Skype Empresarial Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,13 +16,14 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Solución de problemas de creación de una sesión remota de PowerShell para conectarse a Skype para profesionales Online, incluidos Import-Module, shell simultánea, Live ID y errores de permiso.
-ms.openlocfilehash: 7daf8702d2e21ff83bc5d246aff61bfcdb945418
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
+ms.openlocfilehash: 60ed4be1d4c20426a645002f1b7a71f65f120774
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779099"
 ---
-# <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexión con el Skype para Business Connector en línea
+# <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexión con el conector de Skype Empresarial Online
 
 En este tema se proporciona información que le ayudarán a diagnosticar y resolver problemas que pueden surgir cuando se intenta crear una sesión remota de PowerShell de Microsoft que se conecta a Skype para profesionales en línea. Consulte las siguientes secciones:
   
@@ -141,7 +142,7 @@ Aunque cada administrador se puede tener como máximo tres conexiones simultáne
 
 - **Resolución**: es la única forma de resolver este problema cerrar una o varias de las conexiones de la anteriores. Cuando haya terminado con un Skype para la sesión en línea de negocio, se recomienda que use el cmdlet **Remove-PSSession** para terminar de esa sesión. Esto le ayudará a evitar que este problema.  
  
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 [Configurar el equipo para Skype para la administración en línea de negocio con Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

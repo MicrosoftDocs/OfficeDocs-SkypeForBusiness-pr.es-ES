@@ -19,33 +19,34 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoAuthorizingPerson
 ms.custom:
 - Calling Plans
-description: Obtenga información acerca de por qué necesita agregar a una persona autorizada que puede realizar cambios en la cuenta cuando se utiliza el Asistente para nuevo pedido de puerto número Local.
-ms.openlocfilehash: ecf625fa32b43205af4c4ca8551e85850ac7f4e5
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: Obtenga información sobre por qué necesita agregar a una persona autorizada que puede realizar cambios en la cuenta cuando se usa el Asistente para nuevo pedido de puerto número Local.
+ms.openlocfilehash: 13b6b96f7f4701f02715059b3edd0c8e1b2cf284
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779350"
 ---
 # <a name="authorized-person-on-the-account"></a>Persona autorizada en la cuenta
 
-En el Asistente para **Nuevo orden de puerto número Local** , debe escribir el nombre de la persona que está autorizado a realizar cambios en la cuenta con el proveedor de servicios o la portadora. El nombre no se utiliza para procesar la orden de puerto, pero se utiliza en el caso de un litigio, o si algo es incorrecto cuando se transfieren los números. Esta persona será la responsable de la carta de autorización (LOA) para una orden de puerto.
+En el Asistente para **Nuevo pedido de puerto número Local** , debe escribir el nombre de la persona que está autorizado para realizar cambios en la cuenta con el proveedor de servicios o un operador. El nombre no se usa para procesar el orden de puerto, pero se usa en el caso de un litigio, o si algo es incorrecta cuando se transfieren los números. Esta persona será responsable de la carta de autorización (LOA) para un pedido de puerto.
   
 > [!NOTE]
-> No puede tener el nombre completo, porque el cuadro está limitado a 15 caracteres (incluyendo espacios), no retrasar o cancelar el pedido de puerto. 
+> No debe tener el nombre completo, debido a que el cuadro está limitado a 15 caracteres (espacios incluidos), no retrasar o cancelar el orden de puerto. 
   
- **Para obtener instrucciones detalladas paso a paso, consulte [transferir números de teléfono para Office 365](transfer-phone-numbers-to-office-365.md).**
+ **Para obtener instrucciones paso a paso, vea [transferir los números de teléfono para Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
 > [!NOTE]
 > Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
   
 ## <a name="related-topics"></a>Temas relacionados
-[Preguntas comunes sobre la transferencia de números de teléfono](transferring-phone-numbers-common-questions.md)
+[Preguntas comunes sobre la transferencia de números de teléfono](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Diferentes tipos de números de teléfono que se usan para Planes de llamada](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Diferentes tipos de números de teléfono que se usan para Planes de llamada](/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Administrar los números de teléfono para su organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Administrar los números de teléfono para su organización](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Términos y condiciones de las llamadas de emergencia](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

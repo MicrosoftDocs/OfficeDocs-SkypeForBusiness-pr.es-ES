@@ -1,5 +1,5 @@
 ---
-title: ¿Qué debe hacer después de haber portado sobre sus números de teléfono?
+title: ¿Qué debe hacer después de que ha expuesto a través de sus números de teléfono?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,22 +19,23 @@ f1keywords:
 - ms.lync.lac.PortOrderFinish
 ms.custom:
 - Calling Plans
-description: Consulte lo que necesita hacer una vez que haya trasladado sus números de teléfono a Skype para el negocio.
-ms.openlocfilehash: acec8952f77402538f7eabae9330f7f031e70155
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: Vea lo que necesita hacer una vez que se han trasladado a sus números de teléfono a Skype para la empresa.
+ms.openlocfilehash: 9011ba858bf57c9bd1b425fffc19ac508f3f4f23
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779262"
 ---
-# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>¿Qué debe hacer después de haber portado sobre sus números de teléfono?
+# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>¿Qué debe hacer después de que ha expuesto a través de sus números de teléfono?
 
-Una vez que haya enviado su pedido de puerto, vamos a ponerse en contacto con su operador de telefonía y averiguar los detalles con ellos. Cuando se ha establecido la fecha de la transferencia final, le notificaremos por correo electrónico. Sin embargo, mientras se espera en la portadora para aceptar el pedido y crear las direcciones necesarias de emergencia utilizará con estos números.
+Después de que han enviado su orden de puerto, analizaremos póngase en contacto con su operador de telefonía y averiguar los detalles con ellos. Cuando se ha establecido la fecha de la transferencia final, se le notificará a través de correo electrónico. Sin embargo, mientras se espera en su operador de telefonía para aceptar el orden, seguir adelante y crear las direcciones de emergencias necesarias que se va a usar con estos números.
   
-- Más información acerca de la [¿qué ubicaciones de emergencia, direcciones y enrutamiento de llamadas?](what-are-emergency-locations-addresses-and-call-routing.md).
+- Obtener más información sobre [¿Cuáles son las ubicaciones de emergencia, direcciones y enrutamiento de llamadas?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
     
-- Puede [Agregar o quitar una emergencia la dirección de su organización](add-or-remove-an-emergency-address-for-your-organization.md) si necesita.
+- Puede [Agregar o quitar una emergencia de direcciones para su organización](add-or-remove-an-emergency-address-for-your-organization.md) si es necesario.
     
-- Si sus números de teléfono ya tienen una dirección de emergencia, [Agregar, cambiar o quitar una ubicación de emergencia para su organización](add-change-or-remove-an-emergency-location-for-your-organization.md).
+- Si los números de teléfono ya tienen una dirección de emergencia, [Agregar, cambiar o quitar una ubicación de emergencia para su organización](add-change-or-remove-an-emergency-location-for-your-organization.md).
     
 - [Asignar, cambiar o quitar un número de teléfono para un usuario](assign-change-or-remove-a-phone-number-for-a-user.md)
 
@@ -43,11 +44,11 @@ Una vez que haya enviado su pedido de puerto, vamos a ponerse en contacto con su
 
     
 ## <a name="related-topics"></a>Temas relacionados
-[Preguntas comunes sobre la transferencia de números de teléfono](transferring-phone-numbers-common-questions.md)
+[Preguntas comunes sobre la transferencia de números de teléfono](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Diferentes tipos de números de teléfono que se usan para Planes de llamada](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Diferentes tipos de números de teléfono que se usan para Planes de llamada](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Términos y condiciones de las llamadas de emergencia](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
