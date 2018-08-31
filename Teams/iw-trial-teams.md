@@ -2,8 +2,8 @@
 title: Administrar la oferta de prueba de la nube de Microsoft los equipos comerciales
 author: ChuckEdmonson
 ms.author: chucked
-manager: lolaj
-ms.date: 07/24/2018
+manager: serdars
+ms.date: 08/31/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -11,17 +11,20 @@ ms.service: msteams
 localization_priority: Normal
 description: Los usuarios de Office 365 que no tienen licencia para Microsoft Teams pueden iniciar una versión de prueba de 1 año de los equipos.
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 23d36f161b19af18ff379c2a929ea5b701b8cc6b
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 67463a7014f4060baadb8348f8d12347f0166d34
+ms.sourcegitcommit: a601dbd212ea483e4b7bfac27674d9d8e92e3a2a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21068926"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "23790918"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Administrar la oferta de prueba de la nube de Microsoft los equipos comerciales
 =======================================================
 
 Microsoft Teams es una gran herramienta de colaboración para su organización. Permite a las personas y los equipos se analizan, innovar y compartir ideas utilizando la potencia de Office 365. Microsoft los equipos comerciales en la nube prueba ofrece usuarios de Office 365 existentes en la organización que no tienen licencia para que Microsoft Teams iniciar una versión de prueba de 1 año del producto. Los administradores tienen la capacidad de activar o desactivar esta característica para los usuarios dentro de su inquilino.
+
+> [!NOTE]
+> Esta oferta aún no está públicamente disponible, pero se puede implantar durante el próximo mes.
 
 ## <a name="whats-in-the-offer"></a>¿Qué es en la oferta
 
