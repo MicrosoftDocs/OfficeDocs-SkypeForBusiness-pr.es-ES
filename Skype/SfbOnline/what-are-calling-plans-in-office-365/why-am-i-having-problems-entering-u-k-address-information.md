@@ -1,5 +1,5 @@
 ---
-title: ¿Por qué tengo problemas al entrar en el Reino Unido ¿información de la dirección?
+title: ¿Por qué estoy teniendo problemas cuando introduzco la información de dirección de Reino Unido?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,20 +19,21 @@ f1keywords:
 - ms.lync.lac.CivicAddressGBSyntaxError
 ms.custom:
 - Calling Plans
-description: Aquí están algunas de las razones por qué puede que tenga problemas para obtener su dirección o direcciones para validar correctamente en el Reino Unido (Reino Unido).
-ms.openlocfilehash: bb1a42f7607979e4a41ec96e9ce80b0b4b8a4dac
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: A continuación presentamos algunas de las razones por qué puede que tenga problemas para obtener la dirección o direcciones para validar correctamente en el Reino Unido (Reino Unido).
+ms.openlocfilehash: 3c0749f488ece74e6038786af79d47f1669151b1
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779452"
 ---
-# <a name="why-am-i-having-problems-entering-uk-address-information"></a>¿Por qué tengo problemas al entrar en el Reino Unido ¿información de la dirección?
+# <a name="why-am-i-having-problems-entering-uk-address-information"></a>¿Por qué estoy teniendo problemas cuando introduzco la información de dirección de Reino Unido?
 
-Aquí están algunas de las razones por qué puede que tenga problemas para obtener su dirección o direcciones para validar correctamente en el Reino Unido (Reino Unido).
+A continuación presentamos algunas de las razones por qué puede que tenga problemas para obtener la dirección o direcciones para validar correctamente en el Reino Unido (Reino Unido).
   
-## <a name="whats-wrong-with-the-company-name"></a>¿Qué es el problema con el nombre de la compañía?
+## <a name="whats-wrong-with-the-company-name"></a>¿Cuál es el problema con el nombre de la compañía?
 
-Si experimenta un problema al escribir el nombre de la compañía, recuerde:
+Si tiene un problema al escribir el nombre de la compañía, recuerde:
   
 - Puede tener letras, números y los siguientes caracteres especiales:, / - +. ' &amp; " _ 
     
@@ -43,65 +44,65 @@ Si experimenta un problema al escribir el nombre de la compañía, recuerde:
     
 - No puede comenzar con un carácter especial.
     
-## <a name="whats-wrong-with-the-house-number"></a>¿Qué es el problema con el número de la casa?
+## <a name="whats-wrong-with-the-house-number"></a>¿Cuál es el problema con el número de enrutamiento?
 
-Si experimenta un problema al introducir el número de la casa, recuerde:
+Si tiene un problema al escribir el número de enrutamiento, recuerde:
   
-- Puede tener letras, números y los siguientes caracteres especiales:: /]
+- Puede tener letras, números y los siguientes caracteres especiales:-/]
     
-- Debe empezar por un número.
+- Debe comenzar con un número.
     
-- Tiene que ser de 20 caracteres o menos.
+- Tiene que ser 20 caracteres o menos.
     
 - Puede tener una mayúscula o minúscula.
     
 ## <a name="whats-wrong-with-the-house-name"></a>¿Cuál es el problema con el nombre de la casa?
 
-Si experimenta un problema al escribir el nombre de la casa, recuerde:
+Si tiene un problema al escribir el nombre de la casa, recuerde:
   
-- Puede tener letras, números y los siguientes caracteres especiales:, / - +. ' &amp; " _
+- Este archivo puede tener letras, números y los siguientes caracteres especiales:, / - +. ' &amp; " _
     
-- Debe tener 50 caracteres o menos.
+- Tiene que ser 50 caracteres o menos.
     
 - No puede comenzar con un carácter especial.
     
 ## <a name="whats-wrong-with-the-street-name"></a>¿Cuál es el problema con el nombre de la calle?
 
-Si experimenta un problema al escribir el nombre de la calle, recuerde:
+Si tiene un problema al escribir el nombre de la calle, recuerde:
   
 - Puede tener letras, números y los siguientes caracteres especiales:, / - +. ' &amp; " _ 
     
-- Debe tener 50 caracteres o menos.
+- Tiene que ser 50 caracteres o menos.
     
 - No puede comenzar con un carácter especial. 
     
-## <a name="whats-wrong-with-the-city-or-town"></a>¿Qué es el problema con la ciudad o localidad?
+## <a name="whats-wrong-with-the-city-or-town"></a>¿Cuál es el problema con la ciudad o localidad?
 
-Si experimenta un problema al escribir el nombre de la ciudad o localidad, recuerde:
+Si tiene un problema al escribir el nombre de la ciudad o localidad, recuerde:
   
 - Puede tener letras, números y los siguientes caracteres especiales:, / - +. ' &amp; " _
     
-- Debe tener 50 caracteres o menos.
+- Tiene que ser 50 caracteres o menos.
     
 - No puede comenzar con un carácter especial. 
     
 ## <a name="whats-wrong-with-the-postal-code"></a>¿Cuál es el problema con el código postal?
 
-Si tienes algún problema al introducir el código postal, recuerde:
+Si tiene un problema al escribir el código postal, recuerde:
   
 - Sólo puede tener letras, números o espacios.
     
-- Debe tener 8 o menos letras, incluidos números y espacios.
+- Ha de tener letras 8 o menos, incluidos números y espacios.
     
-- **Recuerde que si está en el Reino Unido (Reino Unido)**, **debe** colocar el código postal en uno de los formatos siguientes, donde la letra A = caracteres A-z, el signo # = un número del 0 al 9 y el _ (subrayado) = un espacio en blanco. Éstos son algunos ejemplos:
+- **Recuerde que si se encuentra en el Reino Unido (Reino Unido)**, **debe** colocar el código postal en uno de los formatos siguientes, donde la letra A = carácter a Z, el signo # = un número comprendido entre 0-9 y el _ (subrayado) = un espacio en blanco. Estos son algunos ejemplos:
     
 |**Formato**|**Ejemplo**|
 |:-----|:-----|
 |AA #A_ #AA  <br/> |EC3B 2BD  <br/> |
-|UN A_ # #AA  <br/> |1AP E1W  <br/> |
-|UN #_ #AA  <br/> |F1 2AG  <br/> |
+|UN A_ # #AA  <br/> |E1W 1AP  <br/> |
+|UN _ # #AA  <br/> |F1 2AG  <br/> |
 |UN _ ## #AA  <br/> |C44 8HT  <br/> |
-|AA #_ #AA  <br/> |DR3 6HG  <br/> |
+|AA #_ #AA  <br/> |DR3 HG 6  <br/> |
 |AA ## _ #AA  <br/> |1 FN35  <br/> |
 
 > [!NOTE]
@@ -109,11 +110,11 @@ Si tienes algún problema al introducir el código postal, recuerde:
 
    
 ## <a name="related-topics"></a>Temas relacionados
-[Preguntas comunes sobre la transferencia de números de teléfono](transferring-phone-numbers-common-questions.md)
+[Preguntas comunes sobre la transferencia de números de teléfono](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Diferentes tipos de números de teléfono que se usan para Planes de llamada](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Diferentes tipos de números de teléfono que se usan para Planes de llamada](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Términos y condiciones de las llamadas de emergencia](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

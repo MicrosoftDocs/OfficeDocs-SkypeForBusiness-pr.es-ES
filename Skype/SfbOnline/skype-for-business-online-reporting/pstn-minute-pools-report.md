@@ -1,5 +1,5 @@
 ---
-title: Informe de grupos de servidores minuto de RTC
+title: Informe de grupos de minutos de RTC
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,14 +18,14 @@ ms.custom:
 - Reporting
 description: El nuevo Skype para el área de informes del centro de administración empresarial muestra realiza la llamada y audio conferencia actividad en la organización. Permite profundizar en los informes para proporciona una idea más granular acerca de las actividades de cada usuario. Por ejemplo, puede usar el Skype para informe de grupos de servidores minuto RTC de negocio para ver el número de minutos consumidos durante el mes actual dentro de la organización.
 search.appverid: MET150
-ms.openlocfilehash: 876455807887694f7e885038e7473634a40f5f21
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: a12597faf9f5669809cbf97a2ea8a054c65a8a0c
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933061"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779672"
 ---
-# <a name="pstn-minute-pools-report"></a>Informe de grupos de servidores minuto de RTC
+# <a name="pstn-minute-pools-report"></a>Informe de grupos de minutos de RTC
 
 >[!NOTE]
 >Este informe solo está disponible para obtener una vista previa de los clientes.
@@ -34,7 +34,7 @@ El nuevo Skype para el área de **informes** del centro de administración empre
   
 Revise la [información general de informes](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para obtener más informes que están disponibles.
   
-Este informe, junto con los otro Skype para los informes de negocio, proporciona detalles sobre la actividad en toda la organización. Estos detalles son muy útiles al investigar, planear y realizar otras decisiones empresariales para su organización y para la configuración de [Comunicaciones de créditos](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
+Este informe, junto con los otro Skype para los informes de negocio, proporciona detalles sobre la actividad en toda la organización. Estos detalles son muy útiles al investigar, planear y realizar otras decisiones empresariales para su organización y para la configuración de [Comunicaciones de créditos](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
 > Puede ver todos los informes de Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Office 365. 
@@ -92,7 +92,7 @@ Este es el aspecto del informe.
 
 - [Skype para el informe de detalles de sesiones de negocio](session-details-report.md) Puede ver detalles acerca de las experiencias de llamada de usuario individual.
     
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 [Informes de actividades en el Centro de administración de Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

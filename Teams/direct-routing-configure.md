@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Obtenga información sobre cómo configurar el enrutamiento directo de Microsoft teléfono del sistema.
-ms.openlocfilehash: 44181b47f4edaca019bb51fd0819dd6c17360fae
-ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
+ms.openlocfilehash: c84e8b28d6a13e3dca64a08a63aa516556357dde
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22914755"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779774"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -31,7 +31,7 @@ Puede configurar el sistema de teléfono de Microsoft y permiten a los usuarios 
 
 - [Empareje la SBC con un sistema de teléfono de Microsoft y validar el emparejamiento](#pair-the-sbc-to-direct-routing-service-of-phone-system)
 - [Habilitar a usuarios para el servicio de enrutamiento directo](#enable-users-for-direct-routing-service)
-- [Asegúrese de que Microsoft Teams es el cliente llamado preferido para los usuarios](#set-microsoft-teams-as-the-preferred-calling-client-for-the-users) 
+- [Asegúrese de que Microsoft Teams es el cliente llamado preferido para los usuarios](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
 
 ## <a name="pair-the-sbc-to-direct-routing-service-of-phone-system"></a>Empareje la SBC para dirigir el servicio de enrutamiento del sistema de teléfono 
 
@@ -517,7 +517,6 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 </pre>
 
 El resultado es que la directiva de voz que se aplican a las llamadas de John Woods se sin restricciones y va a seguir la lógica de enrutamiento de llamadas disponible para llamadas de Estados Unidos, Canadá e internacional.
-
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>Establecer Teams Microsoft como cliente llamado preferido para los usuarios
 
