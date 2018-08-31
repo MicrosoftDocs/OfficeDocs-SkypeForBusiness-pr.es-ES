@@ -12,12 +12,12 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-ms.openlocfilehash: 8df54547474376266cabad2f70be6877f12f246d
-ms.sourcegitcommit: 75f9d15ec5c6284191c28e783761619326b57d53
-ms.translationtype: HT
+ms.openlocfilehash: 453046594d649e6adff96bf28a54bd1c7112d821
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2018
-ms.locfileid: "19862904"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780969"
 ---
 # <a name="skype-for-business-online-admin"></a>Administración de Skype for Business Online
 
@@ -107,7 +107,7 @@ Aprenda a administrar Skype for Business Online para su organización.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Recorrido desde Skype for Business a Teams</h3>
+                        <h3>Recorrido desde Skype Empresarial a Teams</h3>
                     </div>
                 </div>
             </div>
@@ -133,7 +133,7 @@ Aprenda a administrar Skype for Business Online para su organización.
                     <div class="cardText">
                         <h3>Artículos</h3>
                         <p><a 
-                        href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">Configuración del sistema telefónico en su organización</a></p>
+                        href="/microsoftteams/setting-up-your-phone-system">Configuración del sistema telefónico en su organización</a></p>
                         <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">Integración de terceros con Audioconferencia</a></p>
                     </div>
                 </div>
@@ -150,9 +150,9 @@ Aprenda a administrar Skype for Business Online para su organización.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Nuevas funciones</h3>
-                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">Planes de llamadas en Canadá (disponibilidad general)</a></p>
-                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">Planes de llamadas en Australia (solo vista previa)</a></p>
+                        <h3>Nuevas características</h3>
+                        <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">Planes de llamadas en Canadá (disponibilidad general)</a></p>
+                        <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">Planes de llamadas en Australia (solo vista previa)</a></p>
                     </div>
                 </div>
             </div>
@@ -169,7 +169,7 @@ Aprenda a administrar Skype for Business Online para su organización.
                     </div>
                     <div class="cardText">
                         <h3>Actualizaciones importantes</h3>
-                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing">Configurar Audioconferencia</a></p>
+                        <p><a href="/microsoftteams/audio-conferencing-in-office-365">Configurar Audioconferencia</a></p>
                     </div>
                 </div>
             </div>
@@ -187,7 +187,7 @@ Aprenda a administrar Skype for Business Online para su organización.
                 <div class="card">
                     <div class="cardText">
                         <h3>Audioconferencia</h3>
-                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">Audioconferencia en Office 365</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">Administrar la configuración de Audioconferencia para mi organización</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">Preguntas comunes sobre Audioconferencia</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">Comparar los proveedores de servicios de audioconferencia</a></p><p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Consultar si Audioconferencia está disponible en su país o región</a></p>
+                        <p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Audioconferencia en Office 365</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">Administrar la configuración de Audioconferencia para mi organización</a></p><p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Preguntas comunes sobre Audioconferencia</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">Comparar los proveedores de servicios de audioconferencia</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Consultar si Audioconferencia está disponible en su país o región</a></p>
                     </div>
                 </div>
             </div>
@@ -211,7 +211,7 @@ Aprenda a administrar Skype for Business Online para su organización.
                 <div class="card">
                     <div class="cardText">
                         <h3>Licencias complementarias</h3>
-                        <p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing">Licencias complementarias de Skype Empresarial y Microsoft Teams</a></p><p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits">¿Qué son los Créditos de comunicaciones?</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing">Licencias complementarias de Skype Empresarial y Microsoft Teams</a></p><p><a href="/MicrosoftTeams/what-are-communications-credits">¿Qué son los Créditos de comunicaciones?</a></p>
                     </div>
                 </div>
             </div>
@@ -223,7 +223,7 @@ Aprenda a administrar Skype for Business Online para su organización.
                 <div class="card">
                     <div class="cardText">
                         <h3>Planes de llamadas</h3>
-                        <p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365">¿Qué son los Planes de llamada en Office 365?</a></p><p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans">Configurar Planes de llamada</a></p><p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Consultar si Planes de llamada está disponible en su país o región</a></p>
+                        <p><a href="/MicrosoftTeams/what-are-calling-plans-in-office-365">¿Qué son los Planes de llamada en Office 365?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">Configurar Planes de llamada</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Consultar si Planes de llamada está disponible en su país o región</a></p>
                     </div>
                 </div>
             </div>
@@ -235,7 +235,7 @@ Aprenda a administrar Skype for Business Online para su organización.
                 <div class="card">
                     <div class="cardText">
                         <h3>Sistema telefónico</h3>
-                        <p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/what-is-phone-system-in-office-365">¿Qué es Sistema telefónico en Office 365?</a></p><p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system">Esto es lo que conseguirá con Sistema telefónico en Office 365</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">¿Qué es Sistema telefónico en Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Esto es lo que conseguirá con Sistema telefónico en Office 365</a></p>
                </div>
                 </div>
             </div>
