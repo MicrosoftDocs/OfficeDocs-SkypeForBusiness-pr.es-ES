@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: En este artículo se resume los requisitos para la compatibilidad con sistemas de salas de Skype v2.
-ms.openlocfilehash: 0cb0a2cc0508f3499c94971647a22a936fc0648d
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: ce5b8343973fca50970132accd7833641ed9c5a1
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22601937"
+ms.lasthandoff: 09/01/2018
+ms.locfileid: "23797347"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Requisitos de Sistemas de salas de Skype v2
  
@@ -51,9 +51,9 @@ Sistemas de salón de Skype v2 puede escalar a tamaños de sala diferente a trav
 **Consolas compatibles**
 |Consola|Procesador|MEMORIA RAM|Disco|
 |:-----|:-----|:-----|:-----|
-|[Concentrador de Lenovo 500](https://www3.lenovo.com/us/en/hub500) |I5 principales  |8GB  |128GB  |  
+|[Lenovo ThinkSmart concentrador 500](https://www3.lenovo.com/us/en/hub500) |I5 principales  |8GB  |128GB  |  
 |[HP sector Elite para G2 de salas de reuniones](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |I5 principales  |8GB  |128GB  |  
-    
+
 - Una de las siguientes opciones de estación de acoplamiento para proteger una tableta a la reunión de la sala tabla. 
     
   - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
