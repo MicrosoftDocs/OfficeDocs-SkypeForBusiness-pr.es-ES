@@ -19,72 +19,73 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn to add, change, or remove an emergency location used by  Skype for Business on Public Switched Telephone Networks (PSTN) for your organization. '
-ms.openlocfilehash: 13ad6d0e7ed236809b0100ed3063938bd3cf4a03
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
-ms.translationtype: MT
+description: 'Aprenda a agregar, cambiar o quitar una ubicación de emergencia usada por Skype for Business en redes telefónicas conmutadas públicas (RTC) para su organización. '
+ms.openlocfilehash: 000d798002ce3ef8c313baa44542c1a755fa558b
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780905"
 ---
-# <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a><span data-ttu-id="2be07-103">Agregar, cambiar o quitar una ubicación de emergencia para su organización</span><span class="sxs-lookup"><span data-stu-id="2be07-103">Add, change, or remove an emergency location for your organization</span></span>
+# <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a><span data-ttu-id="42bb6-103">Agregar, cambiar o quitar una ubicación de emergencia para su organización</span><span class="sxs-lookup"><span data-stu-id="42bb6-103">Add, change, or remove an emergency location for your organization</span></span>
 
-<span data-ttu-id="2be07-104">Dependiendo del número de ubicaciones físicas en la organización, puede crear las ubicaciones de emergencia para los edificios, plantas y oficinas para crear una dirección de emergencia más específica.</span><span class="sxs-lookup"><span data-stu-id="2be07-104">Depending on the number of physical locations in your organization, you can create emergency locations for buildings, floors, and offices to create a more specific emergency address.</span></span> <span data-ttu-id="2be07-105">Vea [¿Cuáles son las ubicaciones de emergencia, direcciones y enrutamiento de llamadas?](what-are-emergency-locations-addresses-and-call-routing.md) para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="2be07-105">See [What are emergency locations, addresses and call routing?](what-are-emergency-locations-addresses-and-call-routing.md) for more information.</span></span> 
+<span data-ttu-id="42bb6-104">Dependiendo del número de ubicaciones físicas en la organización, puede crear las ubicaciones de emergencia para edificios, plantas y oficinas para crear una dirección de emergencia más específica.</span><span class="sxs-lookup"><span data-stu-id="42bb6-104">Depending on the number of physical locations in your organization, you can create emergency locations for buildings, floors, and offices to create a more specific emergency address.</span></span> <span data-ttu-id="42bb6-105">Vea [¿Cuáles son las ubicaciones de emergencia, direcciones y enrutamiento de llamadas?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="42bb6-105">See [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) for more information.</span></span> 
   
-<span data-ttu-id="2be07-106">Para obtener información sobre cómo obtener un Plan de llamada y el costo, vea [Skype para profesionales y los equipos de Microsoft complemento licencias](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span><span class="sxs-lookup"><span data-stu-id="2be07-106">To learn how to get a Calling Plan and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span></span>
+<span data-ttu-id="42bb6-106">Para obtener información sobre cómo obtener planes de llamadas y su coste, vea [Licencias de complementos de Skype for Business y Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span><span class="sxs-lookup"><span data-stu-id="42bb6-106">To learn how to get a Calling Plan and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span></span>
   
-## <a name="add-an-emergency-location-to-an-emergency-address"></a><span data-ttu-id="2be07-107">Agregar una ubicación de emergencia a una dirección de emergencia</span><span class="sxs-lookup"><span data-stu-id="2be07-107">Add an emergency location to an emergency address</span></span>
+## <a name="add-an-emergency-location-to-an-emergency-address"></a><span data-ttu-id="42bb6-107">Agregar una ubicación de emergencia a una dirección de emergencia</span><span class="sxs-lookup"><span data-stu-id="42bb6-107">Add an emergency location to an emergency address</span></span>
 
-1. <span data-ttu-id="2be07-108">Inicie sesión en Office 365 con su cuenta profesional o educativa.</span><span class="sxs-lookup"><span data-stu-id="2be07-108">Sign in to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="42bb6-108">Inicie sesión en Office 365 con su cuenta profesional o educativa.</span><span class="sxs-lookup"><span data-stu-id="42bb6-108">Sign in to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="2be07-109">Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.</span><span class="sxs-lookup"><span data-stu-id="2be07-109">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
+2. <span data-ttu-id="42bb6-109">Vaya al **centro de administración de Office 365** > **Skype for Business**.</span><span class="sxs-lookup"><span data-stu-id="42bb6-109">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
     
-3. <span data-ttu-id="2be07-110">En el panel de navegación izquierdo, vaya a **voz** > **ubicaciones de emergencia**y, a continuación, seleccione la dirección de emergencia que se desea agregar una ubicación para.</span><span class="sxs-lookup"><span data-stu-id="2be07-110">In the left navigation, go to **Voice** > **Emergency locations**, and then select the emergency address that you want to add a location for.</span></span>
+3. <span data-ttu-id="42bb6-110">En el panel de navegación izquierdo, vaya a VozUbicaciones de emergencia y seleccione la dirección de emergencia donde quiera agregar una ubicación.** **  >  ** **</span><span class="sxs-lookup"><span data-stu-id="42bb6-110">In the left navigation go to **Voice** > **Emergency locations** > select the emergency address that you want to add a location for.</span></span>
     
     > [!Important]
-    > <span data-ttu-id="2be07-111">Para que pueda ver la opción de **voz** en la izquierda en la Skype para el centro de administración de negocio, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia adicional para **El sistema de teléfono** o al menos una **licencia Enterprise E5**.</span><span class="sxs-lookup"><span data-stu-id="2be07-111">For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
+    > <span data-ttu-id="42bb6-111">Para poder ver la opción **Voz** en el panel de navegación izquierdo del Centro de administración de Skype for Business, primero tiene que adquirir como mínimo una **licencia de Enterprise E5**, una licencia de complemento de **sistema telefónico** o una licencia de complemento de **audioconferencia**.</span><span class="sxs-lookup"><span data-stu-id="42bb6-111">IMPORTANT: For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
     
-4. <span data-ttu-id="2be07-112">En el panel de acciones, junto a **las ubicaciones asociadas**, haga clic en **cambiar**.</span><span class="sxs-lookup"><span data-stu-id="2be07-112">In the Action pane, next to **Associated locations**, click **Change**.</span></span>
+4. <span data-ttu-id="42bb6-112">En el panel de acciones, al lado de **Ubicaciones asociadas**, haga clic en **Cambiar**.</span><span class="sxs-lookup"><span data-stu-id="42bb6-112">In the Action pane, under **Associated locations**, click **Change**.</span></span>
     
-5. <span data-ttu-id="2be07-113">En **las ubicaciones asociadas con**, haga clic en **Agregar nueva**, escriba otra ubicación asociado (por ejemplo, escriba "Building 64 planta 1") y, a continuación, haga clic en **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="2be07-113">In the **Locations associated with**, click **Add new**, enter another associated location (for example, enter "Building 64 Floor 1"), and then click **Submit**.</span></span>
+5. <span data-ttu-id="42bb6-113">En **Ubicaciones asociadas con**, haga clic en **Agregar nueva**, escriba otra ubicación asociada (por ejemplo, escriba "Edificio 64 Planta 1") y, a continuación, haga clic en **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="42bb6-113">In the **Locations associated with**, click **Add new**, enter another associated location (for example, enter "Building 64 Floor 1"), and then click **Submit**.</span></span>
     
-6. <span data-ttu-id="2be07-114">Haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="2be07-114">Click **Save**.</span></span>
+6. <span data-ttu-id="42bb6-114">Haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="42bb6-114">Click **Save**.</span></span>
     
-## <a name="change-an-emergency-location-for-an-emergency-address"></a><span data-ttu-id="2be07-115">Cambiar una ubicación de emergencia en una dirección de emergencia</span><span class="sxs-lookup"><span data-stu-id="2be07-115">Change an emergency location for an emergency address</span></span>
+## <a name="change-an-emergency-location-for-an-emergency-address"></a><span data-ttu-id="42bb6-115">Cambiar una ubicación de emergencia en una dirección de emergencia</span><span class="sxs-lookup"><span data-stu-id="42bb6-115">Change an emergency location for an emergency address</span></span>
 
-1. <span data-ttu-id="2be07-116">Inicie sesión en Office 365 con su cuenta profesional o educativa.</span><span class="sxs-lookup"><span data-stu-id="2be07-116">Sign in to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="42bb6-116">Inicie sesión en Office 365 con su cuenta profesional o educativa.</span><span class="sxs-lookup"><span data-stu-id="42bb6-116">Sign in to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="2be07-117">Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.</span><span class="sxs-lookup"><span data-stu-id="2be07-117">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
+2. <span data-ttu-id="42bb6-117">Vaya al **centro de administración de Office 365** > **Skype for Business**.</span><span class="sxs-lookup"><span data-stu-id="42bb6-117">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
     
-3. <span data-ttu-id="2be07-118">En el panel de navegación izquierdo, vaya a **voz** > **ubicaciones de emergencia**y, a continuación, seleccione la dirección de emergencia para la que desea cambiar una ubicación.</span><span class="sxs-lookup"><span data-stu-id="2be07-118">In the left navigation, go to **Voice** > **Emergency locations**, and then select the emergency address for which you want to change a location.</span></span>
+3. <span data-ttu-id="42bb6-118">En el panel de navegación izquierdo, vaya a **Voz** > **Ubicaciones de emergencia** y seleccione la dirección de emergencia donde quiere cambiar una ubicación.</span><span class="sxs-lookup"><span data-stu-id="42bb6-118">In the left navigation go to **Voice** > **Emergency locations** > select the emergency address that you want to add a location for.</span></span>
     
-4. <span data-ttu-id="2be07-119">En el panel de acciones, junto a **las ubicaciones asociadas**, haga clic en **cambiar**.</span><span class="sxs-lookup"><span data-stu-id="2be07-119">In the Action pane, next to **Associated locations**, click **Change**.</span></span>
+4. <span data-ttu-id="42bb6-119">En el panel de acciones, al lado de **Ubicaciones asociadas**, haga clic en **Cambiar**.</span><span class="sxs-lookup"><span data-stu-id="42bb6-119">In the Action pane, under **Associated locations**, click **Change**.</span></span>
     
-5. <span data-ttu-id="2be07-120">En **ubicaciones asociadas con**, haga clic en el vínculo para la ubicación en la lista, escriba los detalles de ubicación nuevo en **cambio había asociado detalles de ubicación**y, a continuación, haga clic en **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="2be07-120">Under **Locations associated with**, click the link for the location in the list, enter new location details in **Change associated location details**, and then click **Submit**.</span></span>
+5. <span data-ttu-id="42bb6-120">En **Ubicaciones asociadas con**, haga clic en el vínculo para la ubicación en la lista, escriba los detalles de ubicación nuevo en **Cambiar detalles de la ubicación asociada**y, a continuación, haga clic en **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="42bb6-120">Under **Locations associated with**, click the link for the location in the list, enter new location details in **Change associated location details**, and then click **Submit**.</span></span>
     
-6. <span data-ttu-id="2be07-121">Haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="2be07-121">Click **Save**.</span></span>
+6. <span data-ttu-id="42bb6-121">Haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="42bb6-121">Click **Save**.</span></span>
     
-## <a name="remove-an-emergency-location-from-an-emergency-address"></a><span data-ttu-id="2be07-122">Quitar una ubicación de emergencia de una dirección de emergencia</span><span class="sxs-lookup"><span data-stu-id="2be07-122">Remove an emergency location from an emergency address</span></span>
+## <a name="remove-an-emergency-location-from-an-emergency-address"></a><span data-ttu-id="42bb6-122">Quitar una ubicación de emergencia de una dirección de emergencia</span><span class="sxs-lookup"><span data-stu-id="42bb6-122">Remove an emergency location from an emergency address</span></span>
 
-1. <span data-ttu-id="2be07-123">Inicie sesión en Office 365 con su cuenta profesional o educativa.</span><span class="sxs-lookup"><span data-stu-id="2be07-123">Sign in to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="42bb6-123">Inicie sesión en Office 365 con su cuenta profesional o educativa.</span><span class="sxs-lookup"><span data-stu-id="42bb6-123">Sign in to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="2be07-124">Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.</span><span class="sxs-lookup"><span data-stu-id="2be07-124">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
+2. <span data-ttu-id="42bb6-124">Vaya al **centro de administración de Office 365** > **Skype for Business**.</span><span class="sxs-lookup"><span data-stu-id="42bb6-124">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
     
-3. <span data-ttu-id="2be07-125">En el panel de navegación izquierdo, vaya a **voz** > **ubicaciones de emergencia**y, a continuación, seleccione la dirección de emergencia que se desea quitar una ubicación para.</span><span class="sxs-lookup"><span data-stu-id="2be07-125">In the left navigation, go to **Voice** > **Emergency locations**, and then select the emergency address that you want to remove a location for.</span></span>
+3. <span data-ttu-id="42bb6-125">En el panel de navegación izquierdo, vaya a **Voz** > **Ubicaciones de emergencia** y seleccione la dirección de emergencia donde quiera quitar una ubicación.</span><span class="sxs-lookup"><span data-stu-id="42bb6-125">In the left navigation go to **Voice** > **Emergency locations** > select the emergency address that you want to add a location for.</span></span>
     
-4. <span data-ttu-id="2be07-126">En el panel de acciones, junto a **las ubicaciones asociadas**, haga clic en **cambiar**.</span><span class="sxs-lookup"><span data-stu-id="2be07-126">In the Action pane, next to **Associated locations**, click **Change**.</span></span>
+4. <span data-ttu-id="42bb6-126">En el panel de acciones, al lado de **Ubicaciones asociadas**, haga clic en **Cambiar**.</span><span class="sxs-lookup"><span data-stu-id="42bb6-126">In the Action pane, under **Associated locations**, click **Change**.</span></span>
     
-5. <span data-ttu-id="2be07-127">En **las ubicaciones asociadas con**, a continuación el vínculo para la ubicación, haga clic en **Quitar**.</span><span class="sxs-lookup"><span data-stu-id="2be07-127">Under **Locations associated with**, next the link for the location, click **Remove**.</span></span>
+5. <span data-ttu-id="42bb6-127">En **Ubicaciones asociadas con**, al lado del vínculo para la ubicación, haga clic en **Quitar**.</span><span class="sxs-lookup"><span data-stu-id="42bb6-127">Under **Locations associated with**, next the link for the location, click **Remove**.</span></span>
     
-6. <span data-ttu-id="2be07-128">Haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="2be07-128">Click **Save**.</span></span>
+6. <span data-ttu-id="42bb6-128">Haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="42bb6-128">Click **Save**.</span></span>
     
-## <a name="related-topics"></a><span data-ttu-id="2be07-129">See also</span><span class="sxs-lookup"><span data-stu-id="2be07-129">Related topics</span></span>
-[<span data-ttu-id="2be07-130">¿Qué es la validación de direcciones?</span><span class="sxs-lookup"><span data-stu-id="2be07-130">What is address validation?</span></span>](what-is-address-validation.md)
+## <a name="related-topics"></a><span data-ttu-id="42bb6-129">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="42bb6-129">Related topics</span></span>
+[<span data-ttu-id="42bb6-130">¿Qué es la validación de direcciones?</span><span class="sxs-lookup"><span data-stu-id="42bb6-130">What is address validation?</span></span>](what-is-address-validation.md)
 
-[<span data-ttu-id="2be07-131">Administrar los números de teléfono para su organización</span><span class="sxs-lookup"><span data-stu-id="2be07-131">Manage phone numbers for your organization</span></span>](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[<span data-ttu-id="42bb6-131">Administrar los números de teléfono para su organización</span><span class="sxs-lookup"><span data-stu-id="42bb6-131">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[<span data-ttu-id="2be07-132">Términos y condiciones de las llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="2be07-132">Emergency calling terms and conditions</span></span>](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="42bb6-132">Términos y condiciones de las llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="42bb6-132">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="2be07-133">[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="2be07-133">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="42bb6-133">[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="42bb6-133">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  
