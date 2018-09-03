@@ -19,33 +19,34 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn to add, change, or remove an emergency location used by  Skype for Business on Public Switched Telephone Networks (PSTN) for your organization. '
-ms.openlocfilehash: 13ad6d0e7ed236809b0100ed3063938bd3cf4a03
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
-ms.translationtype: MT
+description: 'Aprenda a agregar, cambiar o quitar una ubicación de emergencia usada por Skype for Business en redes telefónicas conmutadas públicas (RTC) para su organización. '
+ms.openlocfilehash: 000d798002ce3ef8c313baa44542c1a755fa558b
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780905"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Agregar, cambiar o quitar una ubicación de emergencia para su organización
 
-Dependiendo del número de ubicaciones físicas en la organización, puede crear las ubicaciones de emergencia para los edificios, plantas y oficinas para crear una dirección de emergencia más específica. Vea [¿Cuáles son las ubicaciones de emergencia, direcciones y enrutamiento de llamadas?](what-are-emergency-locations-addresses-and-call-routing.md) para obtener más información. 
+Dependiendo del número de ubicaciones físicas en la organización, puede crear las ubicaciones de emergencia para edificios, plantas y oficinas para crear una dirección de emergencia más específica. Vea [¿Cuáles son las ubicaciones de emergencia, direcciones y enrutamiento de llamadas?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) para obtener más información. 
   
-Para obtener información sobre cómo obtener un Plan de llamada y el costo, vea [Skype para profesionales y los equipos de Microsoft complemento licencias](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Para obtener información sobre cómo obtener planes de llamadas y su coste, vea [Licencias de complementos de Skype for Business y Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 ## <a name="add-an-emergency-location-to-an-emergency-address"></a>Agregar una ubicación de emergencia a una dirección de emergencia
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+2. Vaya al **centro de administración de Office 365** > **Skype for Business**.
     
-3. En el panel de navegación izquierdo, vaya a **voz** > **ubicaciones de emergencia**y, a continuación, seleccione la dirección de emergencia que se desea agregar una ubicación para.
+3. En el panel de navegación izquierdo, vaya a VozUbicaciones de emergencia y seleccione la dirección de emergencia donde quiera agregar una ubicación.** **  >  ** **
     
     > [!Important]
-    > Para que pueda ver la opción de **voz** en la izquierda en la Skype para el centro de administración de negocio, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia adicional para **El sistema de teléfono** o al menos una **licencia Enterprise E5**.
+    > Para poder ver la opción **Voz** en el panel de navegación izquierdo del Centro de administración de Skype for Business, primero tiene que adquirir como mínimo una **licencia de Enterprise E5**, una licencia de complemento de **sistema telefónico** o una licencia de complemento de **audioconferencia**.
     
-4. En el panel de acciones, junto a **las ubicaciones asociadas**, haga clic en **cambiar**.
+4. En el panel de acciones, al lado de **Ubicaciones asociadas**, haga clic en **Cambiar**.
     
-5. En **las ubicaciones asociadas con**, haga clic en **Agregar nueva**, escriba otra ubicación asociado (por ejemplo, escriba "Building 64 planta 1") y, a continuación, haga clic en **Enviar**.
+5. En **Ubicaciones asociadas con**, haga clic en **Agregar nueva**, escriba otra ubicación asociada (por ejemplo, escriba "Edificio 64 Planta 1") y, a continuación, haga clic en **Enviar**.
     
 6. Haga clic en **Guardar**.
     
@@ -53,13 +54,13 @@ Para obtener información sobre cómo obtener un Plan de llamada y el costo, vea
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+2. Vaya al **centro de administración de Office 365** > **Skype for Business**.
     
-3. En el panel de navegación izquierdo, vaya a **voz** > **ubicaciones de emergencia**y, a continuación, seleccione la dirección de emergencia para la que desea cambiar una ubicación.
+3. En el panel de navegación izquierdo, vaya a **Voz** > **Ubicaciones de emergencia** y seleccione la dirección de emergencia donde quiere cambiar una ubicación.
     
-4. En el panel de acciones, junto a **las ubicaciones asociadas**, haga clic en **cambiar**.
+4. En el panel de acciones, al lado de **Ubicaciones asociadas**, haga clic en **Cambiar**.
     
-5. En **ubicaciones asociadas con**, haga clic en el vínculo para la ubicación en la lista, escriba los detalles de ubicación nuevo en **cambio había asociado detalles de ubicación**y, a continuación, haga clic en **Enviar**.
+5. En **Ubicaciones asociadas con**, haga clic en el vínculo para la ubicación en la lista, escriba los detalles de ubicación nuevo en **Cambiar detalles de la ubicación asociada**y, a continuación, haga clic en **Enviar**.
     
 6. Haga clic en **Guardar**.
     
@@ -67,22 +68,22 @@ Para obtener información sobre cómo obtener un Plan de llamada y el costo, vea
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+2. Vaya al **centro de administración de Office 365** > **Skype for Business**.
     
-3. En el panel de navegación izquierdo, vaya a **voz** > **ubicaciones de emergencia**y, a continuación, seleccione la dirección de emergencia que se desea quitar una ubicación para.
+3. En el panel de navegación izquierdo, vaya a **Voz** > **Ubicaciones de emergencia** y seleccione la dirección de emergencia donde quiera quitar una ubicación.
     
-4. En el panel de acciones, junto a **las ubicaciones asociadas**, haga clic en **cambiar**.
+4. En el panel de acciones, al lado de **Ubicaciones asociadas**, haga clic en **Cambiar**.
     
-5. En **las ubicaciones asociadas con**, a continuación el vínculo para la ubicación, haga clic en **Quitar**.
+5. En **Ubicaciones asociadas con**, al lado del vínculo para la ubicación, haga clic en **Quitar**.
     
 6. Haga clic en **Guardar**.
     
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 [¿Qué es la validación de direcciones?](what-is-address-validation.md)
 
-[Administrar los números de teléfono para su organización](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Administrar los números de teléfono para su organización](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Términos y condiciones de las llamadas de emergencia](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
