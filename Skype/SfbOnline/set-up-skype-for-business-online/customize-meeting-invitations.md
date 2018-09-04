@@ -16,55 +16,58 @@ f1keywords:
 - ms.lync.lac.MeetingInvitation
 ms.custom:
 - Setup
-description: 'Personalizar invitaciones a reuniones Skype con logotipos gráficos, ayuda, direcciones URL legal y texto de pie de página. '
-ms.openlocfilehash: f6c5c65c1f12010a6ee6cc625748dfa0287a856a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 'Personalizar las invitaciones a reuniones de Skype con logotipos gráficos, ayuda y direcciones URL legales y texto de pie de página. '
+ms.openlocfilehash: 1f53ce183ebe62923948a33a7ac6b14f3c61f04a
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/04/2018
+ms.locfileid: "19500558"
 ---
 # <a name="customize-meeting-invitations"></a>Personalizar invitaciones a reuniones
 
-Como administrador, puede asegurarse de que todos los Skype para invitaciones a reuniones de negocios incluyen información útil puede ser que necesite los usuarios, como los vínculos a tu sitio Web de soporte y renuncia legal, el logotipo de su compañía y otro texto que desee incluir. 
+Como administrador, puede asegurarse de que todos los Skype para las invitaciones a reuniones de negocios incluyen información útil a los usuarios es posible que necesite, como vínculos a su sitio Web de soporte técnico y renuncia de responsabilidad legal, el logotipo de su compañía y otro texto que desee incluir. 
   
-## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Sugerencias para crear un logotipo para las invitaciones a reuniones
+## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Sugerencias para la creación de un logotipo para las invitaciones a reuniones
 <a name="__top"> </a>
 
 1. Crear una imagen que es no más de 188 píxeles de ancho por 30 píxeles de alto (es bastante pequeña).
     
-2. Guardar la imagen en formato JPG.
+2. Guarde la imagen en formato JPG.
     
-3. Guarde la imagen en una ubicación central que pueden tener acceso todas las personas de su empresa, como un recurso de red compartido OneDrive para la carpeta de trabajo, lista desplegable, etcetera.
+3. Almacenar la imagen en una ubicación central que pueden obtener acceso todas las personas de su empresa, por ejemplo, un recurso compartido de red, compartida OneDrive para la carpeta de trabajo, lista desplegable, etcetera.
     
-    Ahora puede agregar las invitaciones a reuniones. Consulte los pasos siguientes.
+    Ahora puede agregar las invitaciones a reuniones. Vea los siguientes pasos.
     
-## <a name="customize-your-meeting-invitations"></a>Personalizar las invitaciones de la reunión
+## <a name="customize-your-meeting-invitations"></a>Personalizar las invitaciones de reunión
 <a name="__top"> </a>
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Desde el centro de administración de Office 365, elija **administración centra** > **Skype para el negocio**.
+2. En el centro de administración de Office 365, elija **centros de administración** > **Skype para la empresa**.
     
-3. En Skype para el centro de administración de negocios, elija **las reuniones en línea**. 
+3. En Skype para el centro de administración de negocio, elija **las reuniones en línea**. 
     
 4. Complete los siguientes cuadros:
     
-    ![Aquí está lo que debe quedar al completar el formulario para personalizar las invitaciones de la reunión.](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
+    ![Aquí es el aspecto que podría tener al igual que cuando se complete el formulario para personalizar las invitaciones de reunión.](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
 
-   **Dirección URL del logotipo:** Escriba la dirección URL donde está almacenado su logotipo. ¡Recuerde que debe estar en formato JPG! 
+   **Dirección URL del logotipo:** Escriba la dirección URL donde está almacenado el logotipo. ¡Recuerde que debe estar en formato JPG! 
  
-   **Dirección URL de ayuda:** Si su organización tiene un sitio Web de soporte técnico que quieras que vayan a si tienen problemas, escriba la dirección URL aquí. 
+   **Dirección URL de ayuda:** Si su organización tiene un sitio Web de soporte técnico que desee personas para ir a si tienen problemas, escriba la dirección URL aquí. 
 
-   **Jurídica URL:** Si su organización tiene un sitio Web legal que quieras que vayan a si tienen problemas legales, escriba la dirección URL aquí.
+   **Dirección URL legal:** Si su organización tiene un sitio Web legal que desea que las personas para ir a si tienen problemas legales, escriba la dirección URL aquí.
     
-   **Texto de pie de página:** Escriba una nota de pie de sólo texto es las más adecuada para los usuarios.  
+   **Texto de pie de página:** Escriba una nota de al pie de sólo texto que va a ser apropiada para los usuarios.  
   
    
 5. Elija **Guardar**.
     
-6. Espere una hora o menos para que los cambios se llenan en todos los servicios de Office 365. A continuación, vaya a Outlook y programar una reunión de Skype para ver el aspecto de los cambios. 
+6. Tiempo de espera una hora o modo, para que los cambios se llenan en todos los servicios de Office 365. A continuación, vaya a Outlook y programar una reunión de Skype para ver el aspecto de los cambios. 
     
-    ![Aquí está el aspecto de una invitación personalizada y se sin el gráfico](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
+    ![Este es el aspecto de una invitación personalizada, se sin el gráfico](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
 ## <a name="related-topics"></a>Temas relacionados
 <a name="__top"> </a>

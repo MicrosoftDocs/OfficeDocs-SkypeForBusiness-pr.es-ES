@@ -16,23 +16,26 @@ f1keywords:
 - ms.lync.lac.OrgMobileNotification
 ms.custom:
 - Setup
-description: Aprenda a activar las notificaciones de teléfono móvil o desactivar para que los usuarios pueden recibir alertas de correo de voz entrante y perdida de mensajes instantáneos.
-ms.openlocfilehash: b20ba45cbc6958978a21ee0195ff9586000faef8
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Obtenga información sobre cómo activar las notificaciones de teléfono móvil o desactivar para que los usuarios pueden recibir alertas de correo de voz entrante y perdidas mensajes instantáneos.
+ms.openlocfilehash: 98e46cae258d6ca0d90e6e1cb96c3eeb724c31ee
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/04/2018
+ms.locfileid: "19500412"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Activar o desactivar las notificaciones del teléfono móvil
 
-Como **[asignar funciones de administración de Office 365 para el negocio](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** de su organización, puede elegir si su Skype para usuarios de negocios recibir alertas acerca de los mensajes instantáneos entrantes y perdidos cuando se encuentran en sus teléfonos móviles o tabletas.
+Como la **[asignación de roles de administrador en Office 365 para profesionales](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** de su organización, puede elegir si su Skype para usuarios profesionales recibir alertas acerca de los mensajes instantáneos entrantes y perdidas cuando se encuentran en sus teléfonos móviles o tabletas.
   
 En los teléfonos Android y Windows Phone, las notificaciones de Skype Empresarial aparecen en tiempo real. En los dispositivos Windows Phone, iPhone y iPad, sin embargo, se usan las notificaciones push para mostrar alertas siempre que el usuario no esté usando activamente Skype Empresarial en el teléfono o tableta.
   
 ## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>Desactive las notificaciones de inserción en todos los dispositivos Windows Phone o Apple de su organización
 <a name="__top"> </a>
 
-1. Iniciar sesión en Office 365.
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
+
+1. Inicie sesión en Office 365.
     
 2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
     
@@ -49,9 +52,9 @@ Tenga en cuenta:
 - Si desactiva las notificaciones de inserción, los usuarios no podrán volver a activarlas.
     
 > [!IMPORTANT]
->  Microsoft usa otras empresas que proporcionan notificaciones móviles para Skype Empresarial en tiempo real para usuarios de Windows Phone, iPhone y iPad. Consulte la [declaración de privacidad de Skype de Microsoft para los productos de la empresa](https://go.microsoft.com/fwlink/p/?linkid=247732). 
+>  Microsoft usa otras empresas que proporcionan notificaciones móviles para Skype Empresarial en tiempo real para usuarios de Windows Phone, iPhone y iPad. Consulte la [declaración de privacidad de Microsoft Skype para productos de negocio](https://go.microsoft.com/fwlink/p/?linkid=247732). 
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 
 [Configurar Skype Empresarial Online](set-up-skype-for-business-online.md)
 

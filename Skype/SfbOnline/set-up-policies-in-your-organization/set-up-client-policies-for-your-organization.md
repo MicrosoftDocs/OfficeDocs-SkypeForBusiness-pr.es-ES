@@ -1,5 +1,5 @@
 ---
-title: Configurar directivas de cliente para la organización
+title: Establecer directivas de cliente en su organización
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,22 +16,23 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Las directivas de cliente ayudan a determinar las funciones de Skype Empresarial Online que estarán disponibles para los usuarios. Por ejemplo, puede dar a algunos usuarios permiso para transferir archivos, pero no a otros.
-ms.openlocfilehash: 98bf7f0dba39e7fd56a0b6dd79600245eec4b7da
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 93dcef25119527bce25c1155dc7c8c05ac6fe78d
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/04/2018
+ms.locfileid: "19500639"
 ---
-# <a name="set-up-client-policies-for-your-organization"></a>Configurar directivas de cliente para la organización
+# <a name="set-up-client-policies-for-your-organization"></a>Establecer directivas de cliente en su organización
 
 [] Las directivas de cliente ayudan a determinar las funciones de Skype Empresarial Online que estarán disponibles para los usuarios. Por ejemplo, puede dar a algunos usuarios permiso para transferir archivos, pero no a otros.
   
-Configuración de la directiva de cliente puede configurarse en el momento en que se crea una directiva, o puede utilizar el cmdlet **Set-CsClientPolicy** para modificar la configuración de una directiva existente.
+Configuración de la directiva de cliente se puede configurar en el momento en que se crea una directiva, o puede usar el cmdlet **Set-CsClientPolicy** para modificar la configuración de una directiva existente.
   
 ## <a name="set-your-client-policies"></a>Establecer las directivas de cliente
 
 > [!NOTE]
-> Para todas las configuraciones de directiva de cliente de Skype para los negocios en línea, debe utilizar Windows PowerShell y **no se puede utilizar** el **Skype para el centro de administración de negocios**. 
+> Para toda la configuración de directiva de cliente en Skype para profesionales en línea, debe usar Windows PowerShell y **no se puede usar** el **Skype para el centro de administración de negocio**. 
   
 ### <a name="verify-and-start-windows-powershell"></a>Verificar e iniciar Windows PowerShell
 
@@ -63,11 +64,11 @@ Configuración de la directiva de cliente puede configurarse en el momento en qu
     Import-PSSession $session
   ```
 
-  Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar con todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [conectarse a Skype para los negocios en línea mediante el uso de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+  Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [Connecting to Skype para profesionales en línea mediante Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
-### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>Deshabilitar iconos gestuales y notificaciones de presencia e impedir que guarden de IMs
+### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>Deshabilitar los iconos gestuales y notificaciones de presencia e impedir que se guarden de mensajes instantáneos
 
-- Para crear una nueva directiva para estas configuraciones, ejecute:
+- Para crear una nueva directiva para estas opciones de configuración, ejecute:
     
 > 
   ```
@@ -76,20 +77,20 @@ Configuración de la directiva de cliente puede configurarse en el momento en qu
 
   Obtenga más información sobre el cmdlet [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
     
-- Para conceder a la nueva directiva creada para todos los usuarios de la organización, ejecute:
+- Para conceder a la nueva directiva que se ha creado para todos los usuarios de la organización, ejecute:
     
 > 
   ```
   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
   ```
 
-  Obtenga más información acerca del cmdlet [Grant CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
+  Obtenga más información sobre el cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
     
-Si ya ha creado una directiva, puede utilizar el cmdlet [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) para realizar cambios a la directiva existente y, a continuación, use el cmdlet de [Concesión CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) para aplicar la configuración a los usuarios.
+Si ya ha creado una directiva, puede usar el cmdlet [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) para realizar cambios en la directiva existente y, a continuación, use el cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) para aplicar la configuración a los usuarios.
   
 ### <a name="enable-urls-or-hyperlinks-to-be-clickable-in-ims"></a>Permitir que se pueda hacer clic en las URL y los hiperenlaces en MI
 
-- Para crear una nueva directiva para estas configuraciones, ejecute:
+- Para crear una nueva directiva para estas opciones de configuración, ejecute:
     
 > 
   ```
@@ -98,20 +99,20 @@ Si ya ha creado una directiva, puede utilizar el cmdlet [Set-CsClientPolicy](htt
 
   Obtenga más información sobre el cmdlet [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
     
-- Para conceder a la nueva directiva creada para todos los usuarios de la organización, ejecute:
+- Para conceder a la nueva directiva que se ha creado para todos los usuarios de la organización, ejecute:
     
 > 
   ```
   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
   ```
 
-  Obtenga más información acerca del cmdlet [Grant CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
+  Obtenga más información sobre el cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
     
-Si ya ha creado una directiva, puede utilizar el cmdlet [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) para realizar cambios a la directiva existente y, a continuación, use el cmdlet de [Concesión CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) para aplicar la configuración a los usuarios.
+Si ya ha creado una directiva, puede usar el cmdlet [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) para realizar cambios en la directiva existente y, a continuación, use el cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) para aplicar la configuración a los usuarios.
   
 ### <a name="prevent-showing-recent-contacts"></a>Impedir que se muestren los contactos recientes
 
-- Para crear una nueva directiva para estas configuraciones, ejecute:
+- Para crear una nueva directiva para estas opciones de configuración, ejecute:
 > 
   ```
   New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
@@ -119,19 +120,19 @@ Si ya ha creado una directiva, puede utilizar el cmdlet [Set-CsClientPolicy](htt
 
   Obtenga más información sobre el cmdlet [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
     
-- Para conceder a la nueva directiva que ha creado al Mármol Amos, ejecute:
+- Para conceder a la nueva directiva que creó para Amos mármol, ejecute:
 > 
   ```
   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
   ```
 
-  Obtenga más información acerca del cmdlet [Grant CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
+  Obtenga más información sobre el cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
     
-  Si ya ha creado una directiva, puede utilizar el cmdlet [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) para realizar cambios a la directiva existente y, a continuación, use el cmdlet de [Concesión CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) para aplicar la configuración a los usuarios.
+  Si ya ha creado una directiva, puede usar el cmdlet [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) para realizar cambios en la directiva existente y, a continuación, use el cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) para aplicar la configuración a los usuarios.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-- En relación con Windows PowerShell, todo se reduce a la administración de usuarios y de lo que pueden o no hacer los usuarios. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
+- Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -150,7 +151,7 @@ Si ya ha creado una directiva, puede utilizar el cmdlet [Set-CsClientPolicy](htt
 
 [Transferencias de archivos punto a punto de bloque](block-point-to-point-file-transfers.md)
 
-[Configurar directivas de la conferencia de la organización](set-up-conferencing-policies-for-your-organization.md)
+[Configurar las directivas de conferencia en la organización](set-up-conferencing-policies-for-your-organization.md)
 
   
  
