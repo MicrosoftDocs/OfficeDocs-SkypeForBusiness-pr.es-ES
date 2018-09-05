@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga información sobre las licencias de complementos, características y cómo comprar planes de Office 365 Empresa Premium. '
-ms.openlocfilehash: 35994c5b3c446bd581e9001ea1a74dd57a2426ad
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: ac7a09c99b72f643ad10516009154e65c51c1e48
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23251777"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779009"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Empresa Premium
 
@@ -40,7 +40,7 @@ Si dispone de [Office 365 Empresa Premium](https://products.office.com/en-us/bus
     Recomendamos empezar con la aplicación de Skype para ver si cumple sus necesidades. En caso contrario, valore la opción siguiente: actualizar su plan.
 
     > [!IMPORTANT]
-    > Debe establecer una marca de alternancia para permitir a sus empleados usar Skype Empresarial para buscar usuarios de Skype. Vea [Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).
+    > Debe establecer una marca de alternancia para permitir a sus empleados usar Skype for Business para buscar usuarios de Skype. Vea [Permitir que los usuarios de Skype for Business agreguen contactos de Skype](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).
 
 
 - **Opción 2. Actualice su plan y compre un sistema telefónico y un plan de llamadas nacional, o nacional e internacional**.
@@ -48,12 +48,12 @@ Si dispone de [Office 365 Empresa Premium](https://products.office.com/en-us/bus
     > [!Important]
     > Aunque el plan 2 de Skype Empresarial Online se incluye con la suscripción a Office Empresa Premium, **no se pueden agregar características de llamada de voz de la nube**. Por lo tanto, se recomienda que evalúe un plan Enterprise E5 (o Enterprise E3) para ver si es más rentable.
 
-1. [Cambie a otro plan de Office 365 para empresas](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Se recomienda evaluar un plan Enterprise E5 para ver si es más rentable.
+1. [Cambiar a otro plan de Office 365 para empresas](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Se recomienda evaluar un plan Enterprise E5 para ver si es más rentable.
 
 2. Compre el complemento del **sistema telefónico**.
-
-3. Compre un [plan de llamadas para Office 365](../../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md): solo puede comprar esto después de comprar el complemento del **sistema telefónico**.
-
+    
+3. Compre un [Plan de llamadas para Office 365](/MicrosoftTeams/calling-plans-for-office-365): solo puede comprar esto después de comprar el complemento **Sistema telefónico**.
+    
     Esta segunda opción es ideal para las empresas en que hay varias personas que realizan y reciben llamadas telefónicas externas.
 
 ## <a name="how-to-see-prices-and-buy"></a>Cómo ver precios y comprar
@@ -75,6 +75,6 @@ Si dispone de [Office 365 Empresa Premium](https://products.office.com/en-us/bus
 
 2. Vaya a Centro de administración de Office 365 > **Facturación** > **Suscripciones**.
 
-3. Elija **Complementos**. Ahora verá los precios de sistema telefónico y la opción de comprarlo.
+3. Elija **Complementos**. Ahora verá los precios de Sistema telefónico y la opción de comprarlo.
 
 4. Después de adquirir una licencia de **sistema telefónico**, verá la opción para adquirir un plan de llamadas y el precio.
