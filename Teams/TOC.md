@@ -105,25 +105,20 @@
 <!-- ============================================================ -->
 # Administración
 ## [Calidad de experiencia consulte la Guía](quality-of-experience-review-guide.md)
-## Análisis de llamada
+## Calidad de la llamada Monitor y QoS
+### [QoS en Teams](QoS-in-Teams.md)
+### [Análisis de llamada y el panel de calidad de llamada](difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [Dimensiones y medidas disponibles en el Panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Configurar el análisis de llamadas](set-up-call-analytics.md)
 ### [Usar Análisis de llamadas para solucionar problemas de mala calidad de llamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Análisis de llamada y el panel de calidad de llamada](difference-between-call-analytics-and-call-quality-dashboard.md)
-
+### [Clasificación de la transmisión en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md)
 ## Solución de problemas y soporte
 ### [Problemas conocidos de Teams](Known-issues.md)
 ### [Recursos de soporte técnico para Teams](support-resources.md)
 ### [Solucionar problemas de conectividad con el cliente de Microsoft Teams](connectivity-issues.md)
 ### [Usar los archivos de registro para solucionar problemas en Teams](log-files.md)
 ### [Comprobar el estado del servicio para Microsoft Teams](service-health.md)
-## Supervisar la calidad de las llamadas y QoS
-### [QoS en Teams](QoS-in-Teams.md)
-### [Análisis de llamada y el panel de calidad de llamada](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Dimensiones y medidas disponibles en el Panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [Configurar el análisis de llamadas de Skype Empresarial](set-up-call-analytics.md)
-### [Usar el análisis de llamadas para solucionar problemas de mala calidad de llamada en Skype Empresarial](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Clasificación de la transmisión en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md)
+
 <!-- ============================================================ -->
 
 
