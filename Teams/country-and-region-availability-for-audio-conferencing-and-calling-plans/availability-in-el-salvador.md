@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para El Salvador los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: fe85683493295c6e5d0152ba41bd52ae48694914
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 2c607b85f7d4a116a2a0b629a31b1ccc816ee2b3
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785753"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829261"
 ---
 # <a name="availability-in-el-salvador"></a>Disponibilidad en El Salvador
 
@@ -40,7 +40,7 @@ Aquí están disponibles para El Salvador los servicios de Office 365 para Skype
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |No  <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para:<br/><ul><li> San Salvador</ul> Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
-|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |No disponible  <br/> |
+|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Requiere créditos de comunicación  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
 

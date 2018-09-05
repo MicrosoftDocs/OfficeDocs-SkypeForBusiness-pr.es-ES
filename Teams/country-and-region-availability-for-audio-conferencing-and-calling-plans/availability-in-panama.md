@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Panamá los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 4cce8780ad8393d5a38bfbc0acfabc934c8188df
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 719f3bb0ffe1a26fbd7d991f7cc780f7dc83de8d
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785889"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829253"
 ---
 # <a name="availability-in-panama"></a>Disponibilidad de Panamá
 
@@ -40,7 +40,7 @@ Aquí están disponibles para Panamá los servicios de Office 365 para Skype par
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para:<br/><ul><li> Ciudad de Panamá</ul> Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
-|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |No disponible  <br/> |
+|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Requiere créditos de comunicación  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
 

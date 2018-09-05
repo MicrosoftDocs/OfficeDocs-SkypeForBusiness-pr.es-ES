@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Teams disponibles para Costa Rica.
-ms.openlocfilehash: a865070b8e549314f7325c4c8a7b37cc3843a880
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: df08aa02c97d362ca20d11e15252bf9a568a4db4
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783273"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829245"
 ---
 # <a name="availability-in-costa-rica"></a>Disponibilidad en Costa Rica
 
@@ -40,7 +40,7 @@ Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Te
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Los números de teléfono no están vinculados a una ciudad o ubicación específica.  <br/> Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
-|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |No disponible  <br/> |
+|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Requiere créditos de comunicación  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
 

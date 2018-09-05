@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96eb92c45af065b5f09ab9312f79198377067c4a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: aed0cc2b26fa55dcf47b2d90bbd974720c371663
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246161"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829269"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Implementación de equipos de Microsoft para el concentrador de superficie
 ======================================
@@ -157,7 +157,7 @@ Estas instrucciones son para la instalación de los equipos de concentrador de s
 Hay dos opciones para configurar la directiva de aplicación de llamadas y las reuniones de forma predeterminada: 
 
 - **Opción 1**: configurar a través de la clave USB. 
-- **Opción 2**: configurar a través de MDM como InTune.
+- **Opción 2**: configurar a través de MDM como Intune.
  
 ### <a name="option-1-configure-via-usb-key"></a>Opción 1: Configurar a través de la clave USB 
  
@@ -180,9 +180,11 @@ Los paquetes se pueden encontrar en esta [página de descarga](https://1drv.ms/f
 9. Reinicie el dispositivo concentrador de superficie. 
 10. Una vez reiniciado el dispositivo, debe ser capaz de iniciar la aplicación de los equipos desde la pantalla de inicio y unirse a una reunión desde el calendario. 
 
-### <a name="option-2-configure-via-mdm-such-as-intune"></a>Opción 2: Configurar a través de MDM como InTune 
+### <a name="option-2-configure-via-mdm-such-as-intune"></a>Opción 2: Configurar a través de MDM como Intune 
 
-Use lo siguiente para configurar la directiva de aplicación predeterminada llamadas y reuniones a través de InTune.
+Use lo siguiente para configurar la directiva de aplicación predeterminada llamadas y reuniones a través de Intune.
+
+.
 
 |Configuración   |Valor    |Descripción    |
 |----------|---------|---------|

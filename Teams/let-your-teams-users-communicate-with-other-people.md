@@ -12,12 +12,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Vea cómo configurar los equipos para permitir a los usuarios comunicarse con usuarios de otra organización.
-ms.openlocfilehash: a77ad4ad50c316e594ee9d3ee2c0e7b5accc0935
-ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
+ms.openlocfilehash: b8c3705b288abd81e85bd941ab019bb8e8e0e40e
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2018
-ms.locfileid: "19863400"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829117"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir que el chat de los usuarios de los equipos y comunicarse con los usuarios de otra organización de los equipos
 
@@ -27,7 +27,7 @@ Siga los pasos de este artículo cuando:
     
 - Las personas que desee en la organización para usar los equipos ponerse en contacto con las personas de empresas específicas fuera de la organización.
     
--Desea que cualquier persona en el mundo que usa los equipos que puedan buscar y ponerse en contacto con usted, utilizando su dirección de correo electrónico. Si los dos habilitación el acceso externo y permiten a cada uno de los otros dominios, esto funcionará. De lo contrario, deben asegurarse de que la configuración no esté bloqueando su dominio.
+- Cualquier persona que desee en el mundo que usa los equipos que puedan buscar y ponerse en contacto con usted, utilizando su dirección de correo electrónico. Si usted y otro usuario tanto habilitación el acceso externo y permitir que los demás dominios, esto funcionará. Si no funciona, el otro usuario, debe asegurarse de que su o su configuración no esté bloqueando su dominio.
 
 Siga estos pasos:
 
@@ -80,7 +80,7 @@ Tener la administración en que la organización siga estos pasos:
     
 4. En **dominios permitidos o bloqueados**, elija **+** y agregue el nombre del dominio que desea permitir. Asegúrese de que el administrador en la otra organización estos mismos pasos. Por ejemplo, en su lista de **dominios permitidos**, el otro administrador tendrá que especificar el dominio de la empresa de la que usted forma parte.
     
-### <a name="related-topics"></a>See also
+### <a name="related-topics"></a>Temas relacionados
 
 [Inicie sesión en los equipos](sign-in-teams.md)
 [recursos de aprendizaje para los equipos de usuario final](enduser-training.md)

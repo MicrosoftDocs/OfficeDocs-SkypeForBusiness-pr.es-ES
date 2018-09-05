@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Ecuador los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 505879080da0344ec215eb86bc33dda91a0e2743
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 2e134991a95173f7413be066724e858b7c87c685
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785737"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829341"
 ---
 # <a name="availability-in-ecuador"></a>Disponibilidad de Ecuador
 
@@ -40,7 +40,7 @@ Aquí están disponibles para Ecuador los servicios de Office 365 para Skype par
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |No  <br/> |
-|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |No disponible  <br/> |
+|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Requiere créditos de comunicación  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
 

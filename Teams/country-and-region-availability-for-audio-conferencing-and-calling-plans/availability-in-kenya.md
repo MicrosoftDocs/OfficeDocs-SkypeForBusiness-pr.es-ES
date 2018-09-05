@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Kenia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: ffa83c5fc5648e139173332584e0b290dbe83ab2
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 4c40d8f721f07b6ccf981cd3f29b52b63bcaaff2
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783209"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829389"
 ---
 # <a name="availability-in-kenya"></a>Disponibilidad en Kenia
 
@@ -40,7 +40,7 @@ Aquí están disponibles para Kenia los servicios de Office 365 para Skype para 
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |No  <br/> |
-|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |No disponible  <br/> |
+|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Requiere créditos de comunicación  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
 

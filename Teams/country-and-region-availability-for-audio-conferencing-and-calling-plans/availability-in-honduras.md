@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Honduras los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 069e663c4e2c3a80c7e14fab0e323ee7ecdee5c1
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 3f47c3348e9ef1c4eb98ce6e409b7ef5312b54ca
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783097"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829349"
 ---
 # <a name="availability-in-honduras"></a>Disponibilidad de Honduras
 
@@ -40,7 +40,7 @@ Aquí están disponibles para Honduras los servicios de Office 365 para Skype pa
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |No  <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |No  <br/> |
-|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |No disponible  <br/> |
+|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Requiere créditos de comunicación  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
 

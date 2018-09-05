@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre cómo los servicios de emergencia (911) difieren de servicios de telefonía tradicional y cómo realizar una llamada. '
-ms.openlocfilehash: 880f48625698be871e39c651e452afd228026716
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 9d9b3536ee5835cfdfadad82b71bb6a61f0a2361
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785465"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829125"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>Términos y condiciones de las llamadas de emergencias
 
@@ -32,7 +32,7 @@ ms.locfileid: "23785465"
 
 Llamar a los servicios de emergencia funciona de forma diferente con una llamada a los planes en Office 365 que en servicios de telefonía tradicional. Es importante que entienda estas diferencias y comunicarlas a todos los usuarios con una llamada a los planes en Office 365. Usted acepta y confirma que ha leído y comprender las diferencias de nuestros servicios de emergencia de llamada y este aviso se proporcionará a cada usuario con una llamada a los planes en Office 365.
   
-Las diferencias de nuestros servicios de emergencia al llamar a funciones incluyen los siguientes: (i) Skype para la empresa no puede conocer la ubicación real de un autor de la llamada que hace una llamada de los servicios de emergencia, lo que podría provocar la llamada se enruta a los servicios de emergencia incorrecto Centro de llamadas o los servicios de emergencia que se envía a una ubicación incorrecta; (ii) si el dispositivo del usuario no tiene electricidad, está experimentando un corte de alimentación o, por cualquier motivo, no en caso contrario, tiene acceso a Internet, el usuario no puede realizar una llamada de los servicios de emergencia a través de planes de llamada en Office 365; y (iii) aunque llamar a los planes en Office 365 puede usarse en cualquier parte del mundo donde una conexión a Internet está disponible, los usuarios no deben realizar una llamada de los servicios de emergencia desde una ubicación fuera de su país o región particular debido a que la llamada es probable que no se van a enrutar a el centro de llamadas adecuada en ese país o región.
+Las diferencias de nuestros servicios de emergencia al llamar a funciones incluyen los siguientes: (i) Skype para profesionales y los equipos no puede conocer la ubicación real de un autor de la llamada que hace una llamada de los servicios de emergencia, lo que podría provocar la llamada se enruta a la emergencia incorrecta Centro de llamadas de servicios o servicios de emergencia que se envía a una ubicación incorrecta; (ii) si el dispositivo del usuario no tiene electricidad, está experimentando un corte de alimentación o, por cualquier motivo, no en caso contrario, tiene acceso a Internet, el usuario no puede realizar una llamada de los servicios de emergencia a través de planes de llamada en Office 365; y (iii) aunque llamar a los planes en Office 365 puede usarse en cualquier parte del mundo donde una conexión a Internet está disponible, los usuarios no deben realizar una llamada de los servicios de emergencia desde una ubicación fuera de su país o región particular debido a que la llamada es probable que no se van a enrutar a el centro de llamadas adecuada en ese país o región.
   
 ## <a name="related-topics"></a>Temas relacionados
 [Preguntas comunes sobre la transferencia de números de teléfono](transferring-phone-numbers-common-questions.md)
@@ -41,7 +41,7 @@ Las diferencias de nuestros servicios de emergencia al llamar a funciones incluy
 
 [Administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Etiqueta de declinación de responsabilidades de emergencia llamada](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

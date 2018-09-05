@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Argentina los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: f1c121e27ce6e17dfd30c5d6220a3c240fa3b079
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6f1c4c047523de5e9a9ac6da9aadb669bb976a1e
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783929"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829357"
 ---
 # <a name="availability-in-argentina"></a>Disponibilidad de Argentina
 
@@ -40,7 +40,7 @@ Aquí están disponibles para Argentina los servicios de Office 365 para Skype p
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para:<br/><ul><li>Buenos Aires</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
-|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> | No disponible <br/> |
+|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> | Requiere créditos de comunicación <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
 

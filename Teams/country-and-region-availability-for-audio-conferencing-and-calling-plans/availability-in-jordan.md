@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Jordania los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 479bd629edf0761d4bee7b5e6ca9f43b3b18ee98
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: cae52abaf335a78412176da8ee97899e36b7fddd
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783337"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829309"
 ---
 # <a name="availability-in-jordan"></a>Disponibilidad de Jordania
 
@@ -40,7 +40,7 @@ Aquí están disponibles para Jordania los servicios de Office 365 para Skype pa
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |No  <br/> |
-|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |No disponible  <br/> |
+|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Requiere créditos de comunicación  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
 

@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Qatar los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: e3d6eff519170c68ad4265e5f4cfaed515a5a49f
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 11f3ed011a6fc61e78dc1e35d457d665eae49b9a
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783961"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829181"
 ---
 # <a name="availability-in-qatar"></a>Disponibilidad de Qatar
 
@@ -40,7 +40,7 @@ Aquí están disponibles para Qatar los servicios de Office 365 para Skype para 
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |No  <br/> |
-|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |No disponible  <br/> |
+|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Requiere créditos de comunicación  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
 

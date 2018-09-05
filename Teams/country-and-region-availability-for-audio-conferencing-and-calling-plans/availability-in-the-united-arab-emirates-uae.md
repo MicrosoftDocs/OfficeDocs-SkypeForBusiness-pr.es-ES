@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Emiratos Árabes Unidos los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: bd9f28ef033277eb399d4c3fe4d20af13050042c
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 36393f1107e19478a6e9c22787489cab69126a5a
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784025"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829293"
 ---
 # <a name="availability-in-the-united-arab-emirates-uae"></a>Disponibilidad de los Emiratos Árabes Unidos (EAU)
 
@@ -40,7 +40,7 @@ Aquí están disponibles para Emiratos Árabes Unidos los servicios de Office 36
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |No  <br/> |
-|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |No disponible  <br/> |
+|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Requiere créditos de comunicación  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
 

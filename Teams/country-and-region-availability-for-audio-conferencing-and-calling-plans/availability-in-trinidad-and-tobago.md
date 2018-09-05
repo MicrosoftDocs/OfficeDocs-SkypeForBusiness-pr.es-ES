@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Trinidad y Tobago los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 147efe757dda5855cf7a1646f60d72863c3d4c91
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: de167d9018ca6d1227ddf387adac31f6c5958845
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785617"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829213"
 ---
 # <a name="availability-in-trinidad-and-tobago"></a>Disponibilidad de Trinidad y Tobago
 
@@ -40,7 +40,7 @@ Aquí están disponibles para Trinidad y Tobago los servicios de Office 365 para
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |No  <br/> |
-|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |No disponible  <br/> |
+|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Requiere créditos de comunicación  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
 
