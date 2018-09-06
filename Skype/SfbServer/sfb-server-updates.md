@@ -11,14 +11,14 @@ localization_priority: Priority
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Busque y administre actualizaciones de Skype Empresarial Server 2015 y Lync 2013 desde un solo lugar. Use los vínculos de esta página para obtener más información sobre las actualizaciones y después descárguelas.
-ms.openlocfilehash: e3b1ae326494a14c502a7427d30f664646bfe373
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
-ms.translationtype: HT
+ms.openlocfilehash: 6260d4b648f09dddef2b52f8df8996ffe115a7fc
+ms.sourcegitcommit: c9b68cbc8199d21a3fa4275db7a663695784afb3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253058"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23485745"
 ---
-# <a name="skype-for-business-updates"></a>Actualizaciones de Skype Empresarial
+# <a name="skype-for-business-server-updates"></a>Actualizaciones de Skype Empresarial Server
 
 Busque y administre actualizaciones de [Skype Empresarial Server 2015](#skype-for-business-server-2015-update-history), [Lync 2013](#Lync-2013-update-history) y [Lync Server 2010](#lync-server-2010-update-history) desde un solo lugar. Use los vínculos de esta página para obtener más información sobre las actualizaciones y después descárguelas.
 
@@ -150,7 +150,6 @@ Nombre de paquete/vínculo|Fecha de lanzamiento|
 |:--- |:--- |
 |[Archivo de ayuda de documentación de Lync Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=35405)|Agosto de 2015 |
 
-
 * * *
 
 ## <a name="lync-server-2010-update-history"></a>Historial de actualizaciones de Lync Server 2010
@@ -228,10 +227,8 @@ Nombre de paquete/vínculo|Fecha de lanzamiento|
 
 Las actualizaciones de software incluyen actualizaciones, paquetes acumulativo de actualizaciones, Service Packs, paquetes de características, actualizaciones críticas, actualizaciones de seguridad o revisiones. Consulte [KB 824684](https://support.microsoft.com/kb/824684) para ver una descripción de la terminología estándar que se usa para describir las actualizaciones de software de Microsoft.
 
-
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Instalar Skype Empresarial Server 2015](https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/install/install)
 - [Actualizar a Skype Empresarial Server 2015](https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
-
-
+- [Actualizaciones más recientes de las versiones de Skype Empresarial que usan Windows Installer (MSI)](sfb-client-updates.md)

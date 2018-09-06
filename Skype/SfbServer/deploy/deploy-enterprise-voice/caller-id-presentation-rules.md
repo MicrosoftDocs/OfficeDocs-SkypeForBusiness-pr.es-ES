@@ -13,42 +13,42 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
 description: 'Resumen: Obtenga información sobre cómo configurar el identificador de autor de la llamada mediante el Skype para el Panel de Control de servidor empresarial.'
-ms.openlocfilehash: 2748677c00e74de4b26cd62494d90dc44c4b5a6a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 98f2f63584da6a52f4e43b2601073b552518d5b0
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21000158"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23255374"
 ---
 # <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>Crear o modificar una regla de conversión para la presentación del identificador de autor de la llamada de Skype para Business Server
- 
+
 **Resumen:** Obtenga información sobre cómo configurar el identificador de autor de la llamada mediante el Skype para el Panel de Control de servidor empresarial.
-  
+
 Con Skype para Business Server, número de teléfono del receptor (es decir, el número de teléfono denominado) se puede traducir del formato E.164 al formato de marcado local que requiera el _mismo nivel del tronco_ (es decir, la puerta de enlace asociada, (exchange) central de conmutación PBX), o un tronco SIP). Para ello, defina una o varias reglas de traslación para traducir la URI de la solicitud antes de redirigirla al tronco de mismo nivel.
-  
+
 Skype para Business Server también proporciona la opción de traducir también el número de teléfono de la persona que llama (es decir, el número de teléfono que el autor de la llamada está llamando desde) del formato E.164 a formato de marcado local requerido por el par de tronco. Por ejemplo, puede escribir una regla de conversión para quitar el prefijo +34 del principio de una cadena de llamada y sustituirlo por 0134.
-  
+
 ### <a name="to-configure-caller-id-by-using-skype-for-business-server-control-panel"></a>Para configurar el identificador de autor de la llamada mediante Skype para el Panel de Control de servidor empresarial
 
 1. Abra Skype para el Panel de Control de servidor empresarial.
-    
+
 2. En la barra de navegación izquierda, haga clic en **Enrutamiento de voz** y, a continuación, en **Configuración del tronco**.
-    
+
 3. En la página **Configuración de tronco**, haga doble clic en el tronco existente (por ejemplo, **Global**) para abrir el cuadro de diálogo **Editar configuración de tronco**.
-    
+
 4. Para configurar la presentación del identificador de llamada:
-    
+
    - Para elegir una o varias reglas de una lista de todas las reglas de conversión disponibles en su implementación de Enterprise Voice, haga clic en **Seleccionar**. En **Reglas de traducción de números de llamada**, haga clic en las reglas que quiera asociar al tronco y, después, haga clic en **Aceptar**.
-    
-   - Para definir una regla de conversión nueva y asociarla con el tronco, haga clic en **Nueva**. Para obtener información detallada sobre cómo definir una nueva regla, consulte [Definición de reglas de conversión](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) en la documentación de implementación.
-    
-   - Para editar una regla de conversión que ya esté asociada al tronco, haga clic en el nombre de la regla y, a continuación, haga clic en  **Mostrar detalles**. Para obtener más información, consulte [Definición de reglas de conversión](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) en la documentación de implementación.
-    
-   - Para copiar una regla de conversión existente con el fin de usarla como punto de partida en la definición de una regla nueva, haga clic en el nombre de la regla, en **Copiar** y, a continuación, en  **Pegar**. Para obtener información detallada, consulte [Defining Translation Rules](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx). 
-    
+
+   - Para definir una regla de conversión nueva y asociarla con el tronco, haga clic en **Nueva**. Para obtener información detallada sobre cómo definir una nueva regla, consulte [Definición de reglas de conversión](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) en la documentación de implementación.
+
+   - Para editar una regla de conversión que ya esté asociada al tronco, haga clic en el nombre de la regla y, a continuación, haga clic en  **Mostrar detalles**. Para obtener más información, consulte [Definición de reglas de conversión](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) en la documentación de implementación.
+
+   - Para copiar una regla de conversión existente con el fin de usarla como punto de partida en la definición de una regla nueva, haga clic en el nombre de la regla, en **Copiar** y, a continuación, en  **Pegar**. Para obtener información detallada, consulte [Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx).
+
    - Para quitar una regla de conversión del plan de marcado, resalte el nombre de la regla y haga clic en **Quitar**.
-    
+
     > [!CAUTION]
-    > No asocie reglas de conversión a un tronco si ha configurado reglas de conversión en la entidad del mismo nivel que el tronco asociado, ya que es posible que ambas reglas puedan entrar en conflicto. 
-  
+    > No asocie reglas de conversión a un tronco si ha configurado reglas de conversión en la entidad del mismo nivel que el tronco asociado, ya que es posible que ambas reglas puedan entrar en conflicto.
+
 

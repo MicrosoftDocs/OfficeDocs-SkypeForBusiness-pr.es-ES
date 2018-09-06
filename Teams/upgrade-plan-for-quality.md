@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0050834f55568a6a747d84e8efdffb3e898d226
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 6114120998425acdd443ab852b3f39fd2549b5ff
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398032"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779951"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica] (media/upgrade-banner-tech-readiness.png "Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica")
 
@@ -148,7 +148,7 @@ Las instrucciones proporcionadas en la Guía de revisión de calidad de experien
 
 Se recomienda encarecidamente que se nombra al Campeón de calidad desde el principio. Después de que se ha designado, debe comenzar a familiarizarse con el contenido de la Guía de revisión de la experiencia de calidad.
 
-La Guía de revisión de calidad de experiencia puede encontrarse [aquí](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true).
+La Guía de revisión de calidad de experiencia puede encontrarse [aquí](https://aka.ms/qerguide).
 
 ## <a name="plan-for-network-quality"></a>Planeación de la calidad de la red 
 
@@ -341,8 +341,8 @@ En esta tabla se incluye un resumen de las actividades de planeación con víncu
 | Área | Detalles | Referencias |
 |-----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Plan para la administración de servicio | Llevar a cabo un ejercicio de asignación de rol operativas <br/> Firma de equipos responsables <br/> Preparación de roles | [Guía de operaciones](1-drive-value-operate-my-service.md) |
-| | Sea propietaria Champion(s) de calidad <br/> Preparación de campeones de calidad| [Obtenga información sobre CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Consulte la Guía de experiencia calidad](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) |
-| | Instalar las plantillas de revisión de la experiencia de calidad <br/> Cargar un archivo de creación | [Plantillas de QERLite](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true) <br/> [Información de creación de carga](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
+| | Sea propietaria Champion(s) de calidad <br/> Preparación de campeones de calidad| [Obtenga información sobre CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Consulte la Guía de experiencia calidad](https://aka.ms/qerguide) |
+| | Instalar las plantillas de revisión de la experiencia de calidad <br/> Cargar un archivo de creación | [Plantillas de QERLite](https://aka.ms/qertemplates) <br/> [Información de creación de carga](turning-on-and-using-call-quality-dashboard.md)|
 | Planeación de la calidad de la red | Ejecute el organizador de la red | [Organizador de red](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
 | | Implementar QoS | [Calidad de servicio en los equipos de Microsoft](qos-in-teams.md) |
 | | Omita los servidores proxy | [Instrucciones de proxy](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |

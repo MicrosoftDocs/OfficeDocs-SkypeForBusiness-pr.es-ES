@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 082ad5913cfd95750eaac9f36b424b62610c0c26
-ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
+ms.openlocfilehash: 1d6b45c13cf387ff31044ea7d439a0a1e5081eca
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "20506647"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23247538"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa")
 
@@ -26,7 +26,7 @@ En este artículo forma parte de la fase de excelencia operativa de su viaje de 
 
 # <a name="drive-operational-excellence-with-microsoft-teams"></a>Unidad de excelencia operativa con Microsoft Teams
 
-Tecnología está dispuestos a un ritmo sin precedentes. Mantiene la actual y la habilitación de un entorno de trabajo moderno se ha convertido en un estándar de funcionan de las organizaciones. Medida se desdoblan Microsoft Teams, Microsoft 365 y visión de comunicación inteligente de Microsoft, disponer de un plan de funcionamiento de le ayudará a asegurarse de que su organización está configurada para el éxito a largo plazo. Un plan de funcionamiento óptimo incluye la supervisión de su entorno para el mantenimiento y la calidad, continuar momentum de usuario para optimizar la adopción y la planeación de la nueva funcionalidad que seguirá al conectarse a través del tiempo. 
+Tecnología está dispuestos a un ritmo sin precedentes. Mantiene la actual y la habilitación de un entorno de trabajo moderno se ha convertido en un estándar de funcionan de las organizaciones. Medida se desdoblan Microsoft Teams, Microsoft 365 y visión de comunicación inteligente de Microsoft, disponer de un plan de funcionamiento de le ayudará a asegurarse de que su organización está configurada para el éxito a largo plazo. Un plan de funcionamiento óptimo incluye la supervisión de su entorno para el mantenimiento y la calidad, continuar momentum de usuario para optimizar la adopción y la planeación de la nueva funcionalidad que seguirá al conectarse a través del tiempo.
 
 ## <a name="monitor-for-network-health-and-quality"></a>Monitor de estado de la red y calidad
 
@@ -42,7 +42,7 @@ Para obtener el máximo beneficio y los resultados empresariales con los equipos
 
 -   Selecciona Campeones del mismo nivel para ayudar a dé a conocer y anime a los usuarios.
 -   Comprobación de la [Guía de adopción de Office 365](https://go.microsoft.com/fwlink/?linkid=859045) para obtener sugerencias sobre el aumento del compromiso y promoviendo la adopción.
--   Aprovechamiento del [Kit de éxito de los equipos cliente](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) para mejorar el conocimiento del producto y compartir las mejores prácticas.
+-   Aprovechamiento del [Kit de éxito de los equipos cliente](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) para mejorar el conocimiento del producto y compartir las mejores prácticas.
 -   Implementación de una [estrategia de administración de cambio y adopción](http://www.successwithteams.com/) formal para ayudar a mantener el crecimiento de adopción.
 
 ## <a name="prepare-for-new-functionality"></a>Preparación para la nueva funcionalidad

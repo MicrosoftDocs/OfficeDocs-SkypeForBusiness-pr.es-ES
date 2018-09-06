@@ -12,23 +12,23 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: En este artículo se explica cómo implementar la administración de dispositivos de sistemas de salón de Skype v2 de manera integrada, end-to-end con el conjunto de aplicaciones de administración de operaciones de Microsoft.
-ms.openlocfilehash: 3e6c162619d42fcf181a3f3b279f6b89106d4a1c
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: 0d1cd51bb80a287078ca4d85bdaec721e78d24ff
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22391780"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23256353"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>Implementar la administración de Sistemas de salas de Skype v2 con OMS
- 
+
 En este artículo se describe cómo configurar e implementar administración integrada, end-to-end de dispositivos de sistemas de salón de Skype v2 mediante el uso conjunto de aplicaciones de administración de operaciones de Microsoft.
-  
+
 Puede configurar Microsoft Operations Management Suite para proporcionar básico telemetry y alertas que le ayudarán a administración Skype dispositivos de sala de la reunión. A medida que crezca la solución de administración, decide implementar datos adicionales y capacidades de administración para crear una vista más detallada de la disponibilidad de dispositivos y el rendimiento.
 
 Siguiendo esta guía, puede usar un panel similar al ejemplo siguiente para obtener el estado detallado de informes de disponibilidad de dispositivo, aplicación y mantenimiento de hardware y distribución de la versión de aplicación de sistemas de salón de Skype v2.
 
 ![Vista de OMS de ejemplo para SRS v2] (../../media/Deploy_OMS_1.png "Vista de OMS de ejemplo para SRS v2")
-  
+
 A un mayor nivel, debe realizar las siguientes tareas:
 
 
@@ -82,7 +82,7 @@ Implementar al agente de conjunto de aplicaciones de administración de operacio
 
 Después de que el agente de conjunto de aplicaciones de administración de operaciones se implementa en los dispositivos de prueba, compruebe que se recopilan los datos de registro de eventos necesarios por el análisis de registro.
 
-1.  Inicie sesión el [portal del conjunto de aplicaciones de administración de operaciones de Microsoft](http://aka.ms/omsportal).
+1.  Inicie sesión el [portal del conjunto de aplicaciones de administración de operaciones de Microsoft](https://aka.ms/omsportal).
 
 2.  Se enumeran los eventos generados por un dispositivo de v2 de sistemas de salón de Skype:
     1.  Vaya a la **Búsqueda de registro** y usar una consulta para recuperar los registros que va a tener el campo personalizado.
@@ -110,7 +110,7 @@ Usar campos personalizados para extraer datos específicos de los registros de e
 
 Para extraer los campos personalizados fuera de los registros de eventos capturados, siga estos pasos:
 
-1.  Inicie sesión el [portal del conjunto de aplicaciones de administración de operaciones de Microsoft](http://aka.ms/omsportal).
+1.  Inicie sesión el [portal del conjunto de aplicaciones de administración de operaciones de Microsoft](https://aka.ms/omsportal).
 
 2.  Se enumeran los eventos generados por un dispositivo de v2 de sistemas de salón de Skype:
     1.  Vaya a la **Búsqueda de registro** y usar una consulta para recuperar los registros que va a tener el campo personalizado.
@@ -130,8 +130,8 @@ Para extraer los campos personalizados fuera de los registros de eventos captura
 > Recuerde que todos los campos JSON y conjunto de aplicaciones de administración de operaciones distinguen mayúsculas de minúsculas.
 
 > Preste atención al estado de la casilla de verificación de suceso en la tabla siguiente. Asegúrese de que confirmar el estado de esta casilla de verificación para el conjunto de aplicaciones de administración de operaciones extraer correctamente los valores de campo personalizado.
-> 
-> ![Definición de campos personalizados] (../../media/Deploy_OMS_5.png "Definición de campos personalizados") 
+>
+> ![Definición de campos personalizados] (../../media/Deploy_OMS_5.png "Definición de campos personalizados")
 
 **Tabla 1**
 
@@ -170,8 +170,8 @@ Una vez que se recopilan los datos y se asignan los campos personalizados, puede
 
 Puede importar un panel de conjunto de aplicaciones de administración de operaciones e iniciar la supervisión de los dispositivos inmediatamente. Lleve a cabo los siguientes pasos para importar el panel:
 
-1.  Obtenga el archivo del panel de [SkypeRoomSystems_v2.omsview](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomSystems_v2.omsview) .
-2.  Inicie sesión el [portal del conjunto de aplicaciones de administración de operaciones de Microsoft](http://aka.ms/omsportal).
+1.  Obtenga el archivo del panel de [SkypeRoomSystems_v2.omsview](https://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomSystems_v2.omsview) .
+2.  Inicie sesión el [portal del conjunto de aplicaciones de administración de operaciones de Microsoft](https://aka.ms/omsportal).
 3.  Abra el **Diseñador de vistas**.
 4.  Seleccione **Importar**y, a continuación, seleccione el archivo **SkypeRoomSystems_v2.omsview** .
 5.  Seleccione **Guardar**.
@@ -349,13 +349,13 @@ La regla, a continuación, puede ejecutar automáticamente una o más acciones p
 Vea [las alertas de descripción en el análisis de registro](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts) para obtener más información acerca de las alertas en el conjunto de aplicaciones de administración de operaciones.
 
 > [!NOTE]
-> Los siguientes ejemplos envían alertas de correo electrónico cuando un dispositivo de v2 de sistemas de salón de Skype genera un hardware o un error de aplicación. 
+> Los siguientes ejemplos envían alertas de correo electrónico cuando un dispositivo de v2 de sistemas de salón de Skype genera un hardware o un error de aplicación.
 
 
 ### <a name="configure-an-email-alert-for-skype-room-systems-v2-hardware-issues"></a>Configurar una alerta de correo electrónico para problemas de hardware de sistemas de salón de Skype v2
 
 Configurar una regla de alerta que comprueba para dispositivos de v2 de Skype salón sistemas que han tenido problemas de hardware dentro de la última hora.
-1.  Inicie sesión el [portal del conjunto de aplicaciones de administración de operaciones de Microsoft](http://aka.ms/omsportal).
+1.  Inicie sesión el [portal del conjunto de aplicaciones de administración de operaciones de Microsoft](https://aka.ms/omsportal).
 
 2.  Seleccione la **búsqueda de registro**.
 
@@ -364,7 +364,7 @@ Configurar una regla de alerta que comprueba para dispositivos de v2 de Skype sa
     Event
     | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h)
     | summarize arg_max(TimeGenerated, *) by Computer
-    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF 
+    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF
     |sort by TimeGenerated desc
     ```
 
@@ -438,7 +438,7 @@ Si ya ha implementado los dispositivos de sistemas de salón de Skype v2 antes d
 
 1.  Crear una ruta de acceso de red compartida y conceder acceso de lectura al grupo de **Equipos del dominio** .
 
-2.  Descargue la versión de 64 bits de la operaciones de administración de conjunto de aplicaciones de agente para Windows desde<http://go.microsoft.com/fwlink/?LinkID=517476>
+2.  Descargue la versión de 64 bits de la operaciones de administración de conjunto de aplicaciones de agente para Windows desde<https://go.microsoft.com/fwlink/?LinkID=517476>
 
 3.  Extraiga el contenido del paquete del programa de instalación en el recurso compartido de red.
     1.  Abra una ventana del símbolo del sistema y, a continuación, ejecutar **MMASetup-AMD64.exe /c**
@@ -464,34 +464,34 @@ Si ya ha implementado los dispositivos de sistemas de salón de Skype v2 antes d
 
     ```
     # Install-OMSAgent.ps1
-    <# 
-    Date:        04/20/2018 
-    Script:      Install-OMSAgent.ps1 
+    <#
+    Date:        04/20/2018
+    Script:      Install-OMSAgent.ps1
     Version:     1.0
-    #> 
-    
+    #>
+
     # Set the parameters
     $WorkspaceId = "<your workspace id>"
     $WorkspaceKey = "<your workspace key>"
     $SetupPath = "\\Server\Share"
-    
+
     $SetupParameters = "/qn NOAPM=1 ADD_OPINSIGHTS_WORKSPACE=1 OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE=0 OPINSIGHTS_WORKSPACE_ID=$WorkspaceId OPINSIGHTS_WORKSPACE_KEY=$WorkspaceKey AcceptEndUserLicenseAgreement=1"
-    
+
     # $SetupParameters = $SetupParameters + " OPINSIGHTS_PROXY_URL=<Proxy server URL> OPINSIGHTS_PROXY_USERNAME=<Proxy server username> OPINSIGHTS_PROXY_PASSWORD=<Proxy server password>"
-    
+
     # Start PowerShell logging
-    Start-Transcript -Path C:\OMSAgentInstall.Log  
-    
+    Start-Transcript -Path C:\OMSAgentInstall.Log
+
     # Check if the Microsoft Monitoring Agent is installed
     $mma = New-Object -ComObject 'AgentConfigManager.MgmtSvcCfg'
-    
-    # Check if the Microsoft Monitoring agent is installed 
+
+    # Check if the Microsoft Monitoring agent is installed
     if (!$mma)
     {
         #Install agent
         Start-Process -FilePath "$SetupPath\Setup.exe" -ArgumentList $SetupParameters -ErrorAction Stop -Wait
     }
-    
+
     # Check if the agent has a valid configuration
     $CheckOMS = $mma.GetCloudWorkspace($WorkspaceId).AgentId
     if (!$CheckOMS)
@@ -499,12 +499,12 @@ Si ya ha implementado los dispositivos de sistemas de salón de Skype v2 antes d
         # Apply new configuration
         $mma.AddCloudWorkspace($WorkspaceId, $WorkspaceKey)
         $mma.ReloadConfiguration()
-    } 
-    
-    Stop-Transcript 
-    
+    }
+
+    Stop-Transcript
+
     ```
-    
+
 > [!NOTE]
 > Puede consultar el artículo de [administrar y mantener al agente de análisis de registro](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-manage) cuando es necesario volver a configurar a un agente, moverlo a un área de trabajo diferente, o modificar la configuración de proxy después de la instalación inicial.
 
@@ -521,5 +521,5 @@ Conjunto de aplicaciones de administración de operaciones proporciona solucione
 ## <a name="see-also"></a>Vea también
 
 [Planificar la administración de Sistemas de salas de Skype v2 con OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
-  
+
 [Administración de los dispositivos de Sistemas de salas de Skype v2 con OMS](../../manage/skype-room-systems-v2/oms.md)

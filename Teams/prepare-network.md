@@ -3,7 +3,7 @@ title: Preparar la red de la organización para Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 02/26/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: arachman
@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fec119a29ea29d9d5c897395c82e27fdaed5e48
-ms.sourcegitcommit: 8c13d6279760749f60776a3c9e46118f029ae818
+ms.openlocfilehash: 7d5d5d04a7e307119ad51eb12ac013ffa089cebf
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2018
-ms.locfileid: "20024201"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23246288"
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams
 =================================================
@@ -35,7 +35,7 @@ Esto afecta la red de dos maneras: el tráfico fluirá entre los clientes de Mic
 > [!IMPORTANT]
 > En este momento, las reuniones se pueden realizar con dispositivos móviles Android y iOS, pero no en Windows Phone.
 
-Para obtener una experiencia óptima con los elementos multimedia en tiempo real dentro de Microsoft Teams, se deben cumplir los requisitos de red para Office 365. Para obtener más información, consulte [Calidad de medios y rendimiento de conectividad de la red en Skype Empresarial Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US).
+Para obtener una experiencia óptima con los elementos multimedia en tiempo real dentro de Microsoft Teams, se deben cumplir los requisitos de red para Office 365. Para obtener más información, consulte [Calidad de medios y rendimiento de conectividad de la red en Skype Empresarial Online](https://docs.microsoft.com/en-us/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
 Para los dos definen segmentos de red (cliente a Microsoft Edge) y borde de cliente a Microsoft Edge, tenga en cuenta las siguientes recomendaciones.
 
@@ -57,7 +57,7 @@ Para probar los dos segmentos de red, puede usar la [herramienta de evaluación 
 <a name="bandwidth-requirements"></a>Requisitos de ancho de banda
 ----------
 
-Los cálculos de ancho de banda para Microsoft Teams son complejos por lo que, para ayudar con esta tarea, se creó una calculadora. Para acceder a la calculadora, vaya a [Network Planner en MyAdvisor](http://aka.ms/bwcalc/).
+Los cálculos de ancho de banda para Microsoft Teams son complejos por lo que, para ayudar con esta tarea, se creó una calculadora. Para acceder a la calculadora, vaya a [Network Planner en MyAdvisor](https://aka.ms/bwcalc/).
 
 <!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.

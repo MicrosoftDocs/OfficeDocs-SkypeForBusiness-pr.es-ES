@@ -3,21 +3,22 @@ title: Requisitos de hardware para la aplicación Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
+ms.date: 08/28/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
 localization_priority: Priority
-description: Obtenga información sobre los requisitos de hardware que se necesitan para instalar y ejecutar la aplicación de escritorio de Microsoft Teams.
+description: Obtenga información sobre los requisitos de hardware que se necesitan para instalar y ejecutar Microsoft Teams.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20c0e8b261dd6142a4b1b915ff259e634bfce122
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: ce2e9c065d170c0e535075668f8e67728f0429dc
+ms.sourcegitcommit: 309941f79f0f8dbcbce620fe90e9f73dd0bcfcbd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "19104930"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23289925"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Requisitos de hardware para la aplicación Microsoft Teams
 
@@ -48,7 +49,15 @@ ms.locfileid: "19104930"
 |Voz    |  Compatible con micrófono y altavoces, auriculares con micrófono o dispositivo equivalente       |
 |Las reuniones y llamadas de vídeo | Mejor experiencia con las llamadas de vídeo y reuniones en línea, se recomienda usar un equipo que tenga un procesador de 2,0 GHz y 4.0 GB de RAM (o superior).
 
-### <a name="related-topics"></a>See also
-[Obtener aplicaciones de los equipos](get-clients.md)
+## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>Requisitos de hardware para la aplicación en los equipos en los dispositivos móviles
 
-[Instalar la aplicación de Microsoft Teams con un archivo MSI](msi-deployment.md)
+Puede usar Microsoft Teams en estas plataformas móviles:
+
+- Android - requiere Android 4.4 o posterior
+
+- iOS - requiere iOS 10.0 o posterior. Compatible con iPhone, iPad y iPod touch.
+
+### <a name="related-topics"></a>Temas relacionados
+- [Obtener aplicaciones de los equipos](get-clients.md)
+- [Microsoft Teams en dispositivos móviles](https://support.office.com/en-us/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
+- [Instalar la aplicación de Microsoft Teams con un archivo MSI](msi-deployment.md)

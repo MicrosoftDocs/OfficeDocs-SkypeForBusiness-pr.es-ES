@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12a58e28fce68960fab2e2a91cdc4f2c3d6524ca
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: 477a68996e50c916923948fecbb1dc1e978450b9
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246509"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780914"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 
@@ -55,7 +55,7 @@ Cada tipo de plan de llamadas asigna un número determinado de minutos de llamad
 
 ## <a name="availability-of-calling-plans"></a>Disponibilidad de Planes de llamada
 
-Antes de planear la implementación de una llamada a los planes en los equipos, compruebe que el servicio planes de llamada está disponible en su zona mediante la revisión de [disponibilidad de país y región para las conferencias de Audio y planes de llamada](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+Antes de planear la implementación de una llamada a los planes en los equipos, compruebe que el servicio planes de llamada está disponible en su zona mediante la revisión de [disponibilidad de país y región para las conferencias de Audio y planes de llamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 > [!IMPORTANT]
 > Debido a restricciones legales, para llamar a los planes para que estén disponibles para las organizaciones multinacionales, se debe basar el contrato de suscripciones a Office 365 en un país o región donde está disponible el servicio de planes de llamada o donde puede ser el servicio de planes de llamada adquirir.
@@ -98,7 +98,7 @@ Para obtener más información acerca de las ubicaciones de emergencias en relac
 
 -   [¿Qué son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
 
--   [Términos y condiciones de las llamadas de emergencias](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
+-   [Términos y condiciones de las llamadas de emergencia](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
 
 <br>
 |         |         |         |
