@@ -16,12 +16,12 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: f6c5be006d2e76efcd58cc4e6a63b6a0bf357570
-  ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+  ms.openlocfilehash: a2ebb3628c2557fc41f44b12764e78c75698ed15
+  ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 08/28/2018
-  ms.locfileid: "23253536"
+  ms.lasthandoff: 09/06/2018
+  ms.locfileid: "23843888"
 items:
 - durationInMinutes: 1
   content: >
@@ -66,7 +66,7 @@ items:
     Para enviarnos comentarios sobre Microsoft Teams, como ideas para nuevas características, visite [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
 - title: Reuniones en Teams
   durationInMinutes: 16
-  content: "\nPara conocer las reuniones en Teams, vea lo siguiente:\n-   \"Realizar reuniones\" en [Reuniones y llamadas](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8) (el tiempo de lectura estimado es de 6 minutos)\n\n-   Vídeo de [Reunirse ahora](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf?ui=en-US&rs=en-US&ad=US) (1:45 minutos)\n\n-   Vídeo de [Reuniones programadas](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137?ui=en-US&rs=en-US&ad=US) (1:45 minutos)\n\n-   [9 sugerencias para una reunión con Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) para conocer, entre otras cosas, más sobre la sala de espera, cómo unirse a reuniones de forma anónima, etc. (el tiempo de lectura estimado es de 6 minutos)\n"
+  content: "\nPara conocer las reuniones en Teams, vea lo siguiente:\n-   \"Realizar reuniones\" en [Reuniones y llamadas](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8) (el tiempo de lectura estimado es de 6 minutos)\n\n-   Vídeo de [Reunirse ahora](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf) (1:45 minutos)\n\n-   Vídeo de [Reuniones programadas](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137) (1:45 minutos)\n\n-   [9 sugerencias para una reunión con Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) para conocer, entre otras cosas, más sobre la sala de espera, cómo unirse a reuniones de forma anónima, etc. (el tiempo de lectura estimado es de 6 minutos)\n"
 - title: 'Escenario: tipos de reuniones'
   durationInMinutes: 1
   content: "\nGarth trabaja para Contoso, una empresa con varias oficinas. Garth tiene que contactar normalmente con personas de otras oficinas remotas:\n\n-  Su equipo de proyecto se reúne una hora cada lunes. Como ya hay un canal dedicado para el proyecto en Microsoft Teams, Garth programa una \"Reunión de canal\" para esta sincronización que se realiza regularmente. Esto proporciona grandes ventajas para Garth y su equipo:\n   -   Se invita a todos los miembros del equipo automáticamente.\n   -   Los debates relacionados con la reunión que surjan antes, durante o después de la reunión forman parte de la discusión del canal.\n   -   Todos los miembros del equipo podrán ver la reunión y la discusión.\n-   Garth también tiene que sincronizarse con personas por separado, pero no quiere que el resto pueda ver estas reuniones. Por este motivo, Garth programa una \"reunión privada\".\n    Gracias a las reuniones privadas, Garth puede iniciar un chat antes de que se produzca la reunión. Esta experiencia previa a la reunión ayuda a que la reunión sea más eficaz, puesto que Garth puede compartir material con antelación o hablar sobre la agenda con los principales miembros de la reunión. El mismo chat está también disponible durante la reunión para capturar notas y se puede usar después para hacer un seguimiento.\n-   En ocasiones, el equipo mantiene discusiones muy animadas en el canal y Garth tiene que tomar una decisión rápida. Determina que, en lugar de que todos escriban, sería más efectivo realizar una videollamada para comunicarse. En esta situación, Garth programa una reunión ad-hoc seleccionando **Reunirse ahora** en la conversación actual.\n"

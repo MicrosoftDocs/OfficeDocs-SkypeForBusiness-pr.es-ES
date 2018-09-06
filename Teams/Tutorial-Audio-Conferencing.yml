@@ -16,12 +16,12 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 698bb6a90d3ba6b64b3288b60d55eec2dac17453
-  ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+  ms.openlocfilehash: aedc8c450c7d3aebfb4c73378e53859dae8d08f2
+  ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 08/28/2018
-  ms.locfileid: "23253441"
+  ms.lasthandoff: 09/06/2018
+  ms.locfileid: "23845664"
 items:
 - durationInMinutes: 1
   content: >
@@ -64,7 +64,7 @@ items:
     Para enviarnos comentarios sobre Microsoft Teams, como ideas para nuevas características, visite [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
 - title: Conferencias de audio en los equipos
   durationInMinutes: 12
-  content: "\nCon las conferencias de Audio, los participantes utilizar un teléfono normal para participar en las reuniones de los equipos, ya sea mediante el marcado a la reunión desde su teléfono o mediante la funcionalidad de llamada de salida desde dentro de la reunión. Revise los siguientes recursos para obtener más información acerca de las conferencias de Audio:\n-   [Características de conferencia de audio](https://products.office.com/skype-for-business/audio-conferencing#Features) (tiempo estimado lectura 1 minuto)\n-   [9 sugerencias de reunión con los equipos de Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (estimado de lectura de tiempo para \"\\#1 - unirse a una reunión a través de conferencias de Audio\" es 1 minuto; más información si leer el artículo completo)\n-   [Las preguntas más frecuentes de conferencias de audio](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (7 minutos de tiempo de lectura estimado)\n-   [Marcar desde una reunión, por lo que otras personas pueden unirse a ella](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (tiempo estimado lectura 2 minutos)\n"
+  content: "\nCon las conferencias de Audio, los participantes utilizar un teléfono normal para participar en las reuniones de los equipos, ya sea mediante el marcado a la reunión desde su teléfono o mediante la funcionalidad de llamada de salida desde dentro de la reunión. Revise los siguientes recursos para obtener más información acerca de las conferencias de Audio:\n-   [Características de conferencia de audio](https://products.office.com/skype-for-business/audio-conferencing#Features) (tiempo estimado lectura 1 minuto)\n-   [9 sugerencias de reunión con los equipos de Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (estimado de lectura de tiempo para \"\\#1 - unirse a una reunión a través de conferencias de Audio\" es 1 minuto; más información si leer el artículo completo)\n-   [Las preguntas más frecuentes de conferencias de audio](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (7 minutos de tiempo de lectura estimado)\n-   [Marcar desde una reunión, por lo que otras personas pueden unirse a ella](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (tiempo estimado lectura 2 minutos)\n"
 - title: 'Escenario: conferencias de Audio'
   durationInMinutes: 1
   content: "\nGarth funciona de Contoso, una compañía que tiene varias oficinas. Con frecuencia necesita Garth para conectarse con personas de otras ubicaciones de office y debido a que a menudo trabaja desde casa o sale de viaje, es un enorme ventilador de las reuniones de los equipos. Cuando Garth envía una invitación a la reunión, agrega automáticamente información para conferencias de Audio. Esto permite los siguientes escenarios:\n-   Alicia desea asistir a reuniones de Garth pero ella está de viaje y no tiene acceso a una red confiable. Por lo tanto, ella se une a la reunión mediante el uso de las coordenadas de marcado de la invitación a la reunión. Durante el proceso de marcado, utiliza su PIN para autenticar, por lo que es reconocida por el sistema como \"Alice\".\n-   Bob, que está actualmente en un hotel, se une a la reunión mediante el cliente de los equipos en su PC. Desafortunadamente, la calidad de audio a través de la conexión a internet en el hotel no es excelente, por lo que Bob llama a su propio número de teléfono de la reunión para unirse a través de la red telefónica conmutada (RTC).\n-   Si decide participantes en la reunión durante la llamada a la que desea agregar los usuarios en un número de teléfono diferente, sólo pueden marcar en el teléfono de número e incorporar otras personas en la reunión.\n-   Otros usuarios también pueden unirse desde el cliente de los equipos en su PC, Mac o dispositivo móvil.\n"

@@ -9,12 +9,12 @@ ms.reviwer: tonysmit
 description: Obtenga información sobre cómo Live eventos permiten a los usuarios difundir vídeo y contenido a grandes audiencias en línea en Microsoft Teams, Yammer y Microsoft Stream.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad798ae4b0fa1fc5d2430f418c43c716a1f2ed74
-ms.sourcegitcommit: bc125c655e76129b086f821011f63a983fb23e7b
+ms.openlocfilehash: 21f524d6156e13f5c27fe12da97dd287c9f2f3bc
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22554072"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23846624"
 ---
 # <a name="what-are-teams-live-events"></a>¿Cuáles son los equipos de eventos en directo?
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
@@ -47,8 +47,8 @@ Los eventos live en Microsoft 365 admite una gran variedad de escenarios de prod
 ### <a name="streaming-platform"></a>Plataforma de transmisión por secuencias
 La plataforma de transmisión por secuencias del evento en directo se compone de los cuatro elementos siguientes:
 
-- **Servicios de medios de Azure** [Servicios de medios de Azure](https://docs.microsoft.com/en-us/azure/media-services/previous/) proporciona servicios de transmisión por secuencias vídeo de calidad de difusión para llegar a más grandes audiencias en dispositivos móviles más populares de hoy.   Servicios de medios mejora la accesibilidad, la distribución y la escalabilidad y de manera fácil y rentable para transmitir contenido a su público local o en todo el mundo, al mismo tiempo que protege su contenido.
-- **Red de Azure entrega de contenido (CDN)**  Una vez que entre la secuencia, se entrega a través de la [Red de entrega de contenido (CDN) de Azure](https://docs.microsoft.com/en-us/azure/cdn/). Servicios de medios Azure proporciona CDN integrada para transmitir los extremos. Esto permite que las secuencias para que se vean en todo el mundo con ningún almacenamiento en búfer.
+- **Servicios de medios de Azure** [Servicios de medios de Azure](https://docs.microsoft.com/azure/media-services/previous/) proporciona servicios de transmisión por secuencias vídeo de calidad de difusión para llegar a más grandes audiencias en dispositivos móviles más populares de hoy.   Servicios de medios mejora la accesibilidad, la distribución y la escalabilidad y de manera fácil y rentable para transmitir contenido a su público local o en todo el mundo, al mismo tiempo que protege su contenido.
+- **Red de Azure entrega de contenido (CDN)**  Una vez que entre la secuencia, se entrega a través de la [Red de entrega de contenido (CDN) de Azure](https://docs.microsoft.com/azure/cdn/). Servicios de medios Azure proporciona CDN integrada para transmitir los extremos. Esto permite que las secuencias para que se vean en todo el mundo con ningún almacenamiento en búfer.
 - **Red de entrega de contenido empresarial (eCDN)**  El objetivo de la red eCDN es tomar el contenido de vídeo de internet y distribuir el contenido en toda la empresa sin afectar el rendimiento de la red. Puede usar uno de estos partners de eCDN para optimizar la red para eventos en directo mantenidos dentro de la organización:
     - Subárbol
     - Kollective
@@ -140,9 +140,9 @@ Puede usar los eventos de los equipos live en varias regiones en todo el mundo. 
 Cuando se configura para eventos en directo, hay varios pasos que debe seguir:
 
 ### <a name="step-1-set-up-your-network-for-live-events-in-microsoft-teams"></a>Paso 1: Configurar la red para eventos en directo en Microsoft Teams
-Los eventos de live de inicio rápido requieren para [Preparar la red de su organización para que los equipos de Microsoft](https://docs.microsoft.com/en-us/microsoftteams/prepare-network).  
+Los eventos de live de inicio rápido requieren para [Preparar la red de su organización para que los equipos de Microsoft](https://docs.microsoft.com/microsoftteams/prepare-network).  
 
-### <a name="step-2-get-and-assign-licenses"></a>Paso 2: Obtener y asignar licencias
+### <a name="step-2-get-and-assign-licenses"></a>Paso 2: obtener licencias y asignarlas
 Asegúrese de que tiene asignaciones de licencia correcta para [quién puede crear y programar eventos en directo?](#who-can-create-and-schedule-live-events) y [quién puede ver los eventos en directo?](#who-can-watch-live-events).
 
 ### <a name="step-3-enable-live-event-scheduling-for-users"></a>Paso 3: Habilitar el evento en directo de programación para los usuarios

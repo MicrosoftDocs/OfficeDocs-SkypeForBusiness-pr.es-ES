@@ -10,12 +10,12 @@ description: Los administradores pueden utilizar para configurar la aplicación 
 Set_Free_Tag: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82da9923c75ce905a4d0de43ffbd299626af4b3e
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: 686e53f3c272ab73e7934085df96cf710fecf667
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546568"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844840"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurar la aplicación de las reuniones de Skype para trabajar con los equipos
 ===================================================
@@ -41,5 +41,5 @@ Los usuarios que utilizan la aplicación de las reuniones de Skype con los equip
 
 Para obtener más información acerca de la aplicación de las reuniones de Skype, vea:
 
-- [¿Qué es la aplicación de las reuniones de Skype (Skype para la aplicación empresarial de Web)](https://support.office.microsoft.com/en-us/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5?ui=en-US&rs=en-US&ad=US)
-- [Requisitos de red mínimos de la aplicación Reuniones de Skype](https://technet.microsoft.com/en-us/library/mt845808.aspx)
+- [¿Qué es la aplicación de las reuniones de Skype (Skype para la aplicación empresarial de Web)](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
+- [Requisitos de red mínimos de la aplicación Reuniones de Skype](https://technet.microsoft.com/library/mt845808.aspx)

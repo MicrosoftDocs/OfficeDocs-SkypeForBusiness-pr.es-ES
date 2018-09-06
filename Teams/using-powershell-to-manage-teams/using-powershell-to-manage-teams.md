@@ -8,12 +8,12 @@ ms.service: msteams
 description: Aprenda a usar Windows PowerShell para administrar todas las características que se encuentran en Microsoft Teams de.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a83d6281352ca4ef6a5a8d57d3a27692c7288d6
-ms.sourcegitcommit: 41e325c5440e26cc39a3c8945020f597f8dfac96
+ms.openlocfilehash: 3c85f402f6ade08fa2bc5f31a02bf41cab0aad51
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22213375"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23845560"
 ---
 # <a name="using-powershell-to-manage-teams"></a>Uso de PowerShell para administrar los equipos
 
@@ -41,15 +41,15 @@ Además de un sistema operativo compatible, el equipo también debe ejecutar lo 
 
 
 ### <a name="step-2-install-powershell-30-or-higher"></a>Paso 2: Instalar PowerShell 3.0 o posterior
-[Use este tema para obtener ayuda](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-3-0) 
+[Use este tema para obtener ayuda](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-3-0) 
 
 ### <a name="step-3-download-and-install-the-teams-connector-module"></a>Paso 3: Descargar e instalar el módulo del conector de los equipos
-[Use este tema para obtener ayuda](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 
+[Use este tema para obtener ayuda](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 
 
 Este es el vínculo de descarga de Isabella:https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3
 
 ### <a name="step-4-connect-using-the-teams-connector-module"></a>Paso 4: Conectar con el módulo del conector de los equipos
-[Use este tema para obtener ayuda](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 
+[Use este tema para obtener ayuda](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 
 
-### <a name="related-topics"></a>See also
+### <a name="related-topics"></a>Temas relacionados
 - [Administrar las características de los equipos con PowerShell](manage-features-with-powershell.md)

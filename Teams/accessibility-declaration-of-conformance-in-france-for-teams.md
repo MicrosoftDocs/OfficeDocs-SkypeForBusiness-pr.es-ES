@@ -16,12 +16,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: "Microsoft Teams est l'outil de chat collaboratif automáticamente 365 qui intègre todas LECS personas, contenus et outils no votre équipe un preciso fluidez efectuarse plus impliquée et eficaz. "
-ms.openlocfilehash: 380b233b5246be518214d72771a7113ba733e54f
-ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
+ms.openlocfilehash: 148071fdea294893b4107cc31347d4e4b1dc8e2c
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "20518706"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23846920"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 declaración de conformidad en materia d. ' accessibilité
 
@@ -37,11 +37,11 @@ Versión du produit: 1.1.84.22103
 
 Web de sitio: [Los equipos de Microsoft](https://teams.microsoft.com/)
 
-Póngase en contacto con fluidez además de información: [Los equipos de soporte de Microsoft](https://support.office.com/en-us/teams)
+Póngase en contacto con fluidez además de información: [Los equipos de soporte de Microsoft](https://support.office.com/teams)
 
 Sitio web en materia d. ' accessibilité: [Accesibilidad de Microsoft](https://www.microsoft.com/accessibility/)
 
-Servicio de respuesta auxiliar preguntas d'utilisateurs en situación de desventaja: [eDAD](https://support.microsoft.com/en-us/answerdesk/accessibility)
+Servicio de respuesta auxiliar preguntas d'utilisateurs en situación de desventaja: [eDAD](https://support.microsoft.com/answerdesk/accessibility)
 
 Poner rapport de ce de obtener de ayuda sur, veuillez [correo electrónico de nous envoyer Naciones Unidas](mailto:edad@microsoft.com?subject=Conformance%20Statement).
 
@@ -202,6 +202,6 @@ Le presente documento no es pas la norme es-es 301 549 v 1.1.2 (2015-04) et ne d
 
 Le presente documento est hayan facilitado a título indicativo. MICROSOFT NE FACILITARÁ EFECTUARSE GARANTÍA, OU CONVIENEN TACITE, DANS EL PRESENTE DOCUMENTO.
 
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 
-[Soluciones de accesibilidad para Skype Empresarial Online en Francia](https://docs.microsoft.com/en-us/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france)
+[Soluciones de accesibilidad para Skype Empresarial Online en Francia](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france)

@@ -17,12 +17,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: Vea ¿qué problemas hay con caracteres especiales en los nombres de las directivas y qué puede hacer para solucionarlo.
-ms.openlocfilehash: 6aabd3c1d7e373c048ea1d1f723f83ad1108dbe0
-ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
+ms.openlocfilehash: b0ae1458e81bdb6ee527c954ab0f2faf3461e3cf
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "21645391"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844816"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>¿Cuáles son las restricciones de caracteres especiales en las directivas de los equipos?
 
@@ -39,7 +39,7 @@ Si tiene una directiva con caracteres especiales, debe editar la directiva de us
 
 
 **Paso 1: establecer una conexión remota con PowerShell.** 
- [Configurar el equipo de Windows PowerShell](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) si no lo ha hecho todavía.
+ [Configurar el equipo de Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) si no lo ha hecho todavía.
 ```
  Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
  $credential = Get-Credential
@@ -71,7 +71,7 @@ Ejecuta Esto creará una nueva directiva de pero necesita agregar la configuraci
  ```
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
-Vea, [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) para obtener más información sobre este cmdlet.
+Vea, [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) para obtener más información sobre este cmdlet.
 
 **Paso 5: eliminar la directiva anterior.**
 
@@ -79,7 +79,7 @@ Esta acción eliminará la directiva anterior con los caracteres especiales.
   ```
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
-Vea, [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) para obtener más información sobre este cmdlet.
+Vea, [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) para obtener más información sobre este cmdlet.
 
 Si este comando se ejecuta correctamente, haya terminado. Si el comando anterior devuelve un error, es debido a que la directiva anterior se asigna a los usuarios por lo que necesita ejecutar para quitar todos los usuarios asignados de la directiva:
 
@@ -94,7 +94,7 @@ Windows PowerShell se usa para administrar los usuarios y las acciones que puede
     
   - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making settings changes for many users at one time. Learn about these advantages in the following topics:
+- Windows PowerShell tiene muchas ventajas en velocidad, simplificidad y productividad respecto a utilizar únicamente el centro de administración de Office 365 como, por ejemplo, al realizar cambios de configuración para muchos usuarios en una única ubicación. Obtenga más información sobre estas ventajas en los temas siguientes:
     
   - [Introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -105,4 +105,4 @@ Windows PowerShell se usa para administrar los usuarios y las acciones que puede
     > [!NOTE]
     > El módulo de Windows PowerShell para Skype para profesionales en línea le permite crear una sesión remota de Windows PowerShell que se conecta a Skype para profesionales en línea y Microsoft Teams. Este módulo, que solo es compatible con equipos de 64 bits, se puede descargar desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-### <a name="related-topics"></a>See also
+### <a name="related-topics"></a>Temas relacionados
