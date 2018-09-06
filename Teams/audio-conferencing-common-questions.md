@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Las siguientes son algunas de las principales preguntas que recibimos de nuestros clientes que desean usar la conferencia de Audio.
-ms.openlocfilehash: 2ab4a7dc64cd08f2f7421f1ba6672892d879abd0
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 3b9c6e11f0f086191a9aae72e56edb1af31027c3
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784889"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848588"
 ---
 # <a name="audio-conferencing-common-questions"></a>Preguntas comunes sobre Audioconferencia
 
@@ -85,11 +85,11 @@ La duración máxima depende de quién está en la reunión y del tipo de autent
 
 Conferencias de audio permite a hasta 250 asistentes de teléfono.
   
-Para más información sobre los límites de las reuniones, vea [Límites de Skype Empresarial Online](https://technet.microsoft.com/en-us/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits).
+Para más información sobre los límites de las reuniones, vea [Límites de Skype Empresarial Online](https://technet.microsoft.com/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits).
   
 ## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>¿Por qué ha iniciado a los usuarios de recibir mensajes de correo electrónico con su información de conferencia de Audio?
 
-Se ha agregado una nueva característica que permite, el [Administrador](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), para enviar y actualizar información de conferencia de Audio y el PIN en el correo electrónico. Para obtener más información acerca de él, incluido cómo deshabilitarla, consulte [Habilitar o deshabilitar el envío por correo electrónico cuando el cambio de configuración de la conferencia de Audio en los equipos de Microsoft](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) o [Habilitar o deshabilitar el envío de los correos electrónicos al cambia configuración de conferencia de Audio en Skype para la empresa Online](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change).
+Se ha agregado una nueva característica que permite, el [Administrador](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), para enviar y actualizar información de conferencia de Audio y el PIN en el correo electrónico. Para obtener más información acerca de él, incluido cómo deshabilitarla, consulte [Habilitar o deshabilitar el envío por correo electrónico cuando el cambio de configuración de la conferencia de Audio en los equipos de Microsoft](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) o [Habilitar o deshabilitar el envío de los correos electrónicos al cambia configuración de conferencia de Audio en Skype para la empresa Online](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change).
   
 ## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server-2015"></a>¿Conferencias de Audio se pueden usar los usuarios que forman parte de una implementación local de Skype para Business Server 2015?
 
@@ -105,14 +105,14 @@ No hay compatibilidad con actualmente para los usuarios habilitados para que con
   
 ## <a name="can-a-user-get-operator-assistance-during-a-meeting"></a>¿Puede un usuario obtener asistencia del operador durante una reunión?
 
-No, un usuario no puede obtener asistencia ni soporte técnico del operador al pulsar *0 durante la reunión. Si hay problemas con las conferencias de Audio, un administrador de una organización puede ponerse en contacto con [soporte técnico de Microsoft para Office 365](https://support.office.com/en-us/article/Microsoft-support-for-Office-365-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+No, un usuario no puede obtener asistencia ni soporte técnico del operador al pulsar *0 durante la reunión. Si hay problemas con las conferencias de Audio, un administrador de una organización puede ponerse en contacto con [soporte técnico de Microsoft para Office 365](https://support.office.com/article/Microsoft-support-for-Office-365-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
   
 ## <a name="how-does-a-user-access-or-change-their-conference-id"></a>¿Cómo obtiene acceso un usuario a su id. de conferencia o lo cambia?
 
 Un Skype para usuario empresarial o Teams de Microsoft puede encontrar el identificador de conferencia que se asigna a ellos mediante la programación de una reunión en Outlook y Outlook en el web. Además, los usuarios pueden encontrar el identificador de conferencia en el correo electrónico que se van a enviar a ellos después de que se configuran.
   
 > [!NOTE]
-> Los usuarios no podrán restablecer su identificador de conferencia. Sólo se puede restablecer el identificador de conferencia por usted, el [Administrador](https://support.office.com/en-us/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504), para la organización. 
+> Los usuarios no podrán restablecer su identificador de conferencia. Sólo se puede restablecer el identificador de conferencia por usted, el [Administrador](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504), para la organización. 
   
 Estamos trabajando en una solución que permiten el acceso de usuarios y restablecer un identificador de conferencia sin ayuda de administrador de. la organización
   

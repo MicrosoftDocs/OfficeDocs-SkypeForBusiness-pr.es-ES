@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 36285914ac90517f54b50bb357a21822c5423f25
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: cc58842ce4b5ce942d3334e79af35e19664bd6c6
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242669"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848644"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de preparación del usuario] (media/upgrade-banner-user-readiness.png "Fases de la actualización viaje, con especial hincapié en la fase de preparación del usuario")
 
@@ -68,7 +68,7 @@ Use los siguientes Kits de inicio de conversación para llevar a cabo una evalua
 
 
 > [!Tip]
-> Dar de alta los primeros usuarios para las pruebas piloto además de servir como Campeones del mismo nivel. Campeones ayudan a clientes potenciales por ejemplo para mostrar cómo obtener valor de sus colegas y dé a conocer nueva tecnología. Para obtener más información acerca de cómo crear un programa de campeones formal, consulte la [Guía de adopción de Office](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf). Es posible que necesita sus rezagados convencer a más antes de que adopten una nueva tecnología. Si más de un 20 por ciento de la organización que entra en este cubo, dedicar más tiempo a comunicar el valor de mensajería e impartir adaptar recursos de aprendizaje. Además, compatibilidad de ellos mediante el cambio abriendo un bucle de comentarios para comprender mejor y sus hesitations de direcciones.
+> Dar de alta los primeros usuarios para las pruebas piloto además de servir como Campeones del mismo nivel. Campeones ayudan a clientes potenciales por ejemplo para mostrar cómo obtener valor de sus colegas y dé a conocer nueva tecnología. Para obtener más información acerca de cómo crear un programa de campeones formal, consulte la [Guía de adopción de Office](https://fto365dev.blob.core.windows.net/media/Default/DocResources/Office_365_Adoption_Guide.pdf). Es posible que necesita sus rezagados convencer a más antes de que adopten una nueva tecnología. Si más de un 20 por ciento de la organización que entra en este cubo, dedicar más tiempo a comunicar el valor de mensajería e impartir adaptar recursos de aprendizaje. Además, compatibilidad de ellos mediante el cambio abriendo un bucle de comentarios para comprender mejor y sus hesitations de direcciones.
 
 #### <a name="what-percentage-of-users-fall-into-each-competency"></a>¿Qué porcentaje de usuarios se dividen en cada competencia?
 

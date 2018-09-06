@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Lea este tema para obtener información sobre cómo enrutamiento directo de Microsoft teléfono del sistema le permite conectar un compatibles, proporcionado por el cliente sesión controlador de borde (SBC) para el sistema telefónico de Microsoft.
-ms.openlocfilehash: aa816f0e7da1745e3c8ced9f174b2f60eb2e38ce
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: 1749d5b26be6e3cc4c55bb9a90e47e637fc67230
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23835010"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848620"
 ---
 # <a name="plan-direct-routing"></a>Planeación de enrutamiento directo
 
@@ -37,9 +37,9 @@ Microsoft también ofrece soluciones de voz all-in-the-cloud, como la planeació
 - La organización requiere conexión a dispositivos analógicos de terceros, centros de llamadas y así sucesivamente. 
 - Su organización tiene un contrato existente con un operador de RTC.
 
-Enrutamiento directo también es compatible con los usuarios que tienen una licencia adicional para la planeación de una llamada a Microsoft. Para obtener más información, vea [Llamar a los planes en Office 365](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) y [licencias y otros requisitos](#licensing-and-other-requirements). 
+Enrutamiento directo también es compatible con los usuarios que tienen una licencia adicional para la planeación de una llamada a Microsoft. Para obtener más información, vea [Llamar a los planes en Office 365](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) y [licencias y otros requisitos](#licensing-and-other-requirements). 
 
-Con el enrutamiento directo, cuando los usuarios participan en una conferencia programada, el número telefónico es proporcionado por el servicio de conferencia de Audio de Microsoft, que requiere licencia adecuada.  Al marcar, el servicio de conferencia de Audio de Microsoft coloca la llamada mediante las funciones de llamadas en línea, lo cual requiere licencia adecuada. (Tenga en cuenta que hacer llamadas no se enrutan a través de enrutamiento directo.) Para obtener más información, vea [Las reuniones en línea con los equipos](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions). 
+Con el enrutamiento directo, cuando los usuarios participan en una conferencia programada, el número telefónico es proporcionado por el servicio de conferencia de Audio de Microsoft, que requiere licencia adecuada.  Al marcar, el servicio de conferencia de Audio de Microsoft coloca la llamada mediante las funciones de llamadas en línea, lo cual requiere licencia adecuada. (Tenga en cuenta que hacer llamadas no se enrutan a través de enrutamiento directo.) Para obtener más información, vea [Las reuniones en línea con los equipos](https://products.office.com/microsoft-teams/online-meeting-solutions). 
  
 Planear la implementación de enrutamiento directo es clave para una implementación correcta. En este artículo se describe la infraestructura y los requisitos de licencia y proporciona información sobre la conectividad SBC: 
 
@@ -62,15 +62,15 @@ En la siguiente tabla, se enumeran los requisitos de infraestructura para el SBC
 |Troncos de telefonía conectados a la SBC|Uno o más troncos de telefonía conectados a la SBC. En un extremo, el SBC se conecta al sistema de teléfono de Microsoft a través de enrutamiento directo. La SBC también puede conectarse a entidades de telefonía de terceros, como PBX, adaptadores de telefonía analógico y así sucesivamente. Cualquier opción de conectividad RTC conectado a la SBC funcionará. (Nota: para la configuración de los troncos RTC a SBC, hacer referencia a los proveedores SBC o proveedores de tronco.)|
 |Inquilino de Office 365|Inquilino de Office 365 que use para hospedar los usuarios de Microsoft Teams y la configuración y la conexión a la SBC.|
 |Registrador de usuario|Usuario debe estar alojado en Office 365.<br/>Si su compañía tiene un Skype local para un entorno empresarial o Lync con conectividad híbrida a Office 365, no se puede habilitar la voz en los equipos de un usuario alojado local.<br/><br/>Para comprobar al registrador de un usuario, use el siguiente Skype para el cmdlet de PowerShell en línea de negocio:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>El resultado del cmdlet debe mostrar:<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|Dominios|Uno o más dominios agregados a los inquilinos de Office 365.<br/><br/>**Nota:** No se puede usar el dominio predeterminado, *. onmicrosoft.com, que se crea automáticamente para el inquilino.<br/><br/>Para ver los dominios, puede usar el siguiente Skype para el cmdlet de PowerShell en línea de negocio:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Para obtener más información acerca de dominios y los inquilinos de Office 365, consulte [Preguntas más frecuentes de dominios](https://support.office.com/en-us/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
+|Dominios|Uno o más dominios agregados a los inquilinos de Office 365.<br/><br/>**Nota:** No se puede usar el dominio predeterminado, *. onmicrosoft.com, que se crea automáticamente para el inquilino.<br/><br/>Para ver los dominios, puede usar el siguiente Skype para el cmdlet de PowerShell en línea de negocio:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Para obtener más información acerca de dominios y los inquilinos de Office 365, consulte [Preguntas más frecuentes de dominios](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
 |Dirección IP pública para el SBC|Una dirección IP pública que puede usarse para conectarse a la SBC. En función del tipo de SBC, los SBC puede usar NAT.|
 |Nombre de dominio completo (FQDN) para el SBC|Un FQDN para el SBC, donde la parte del dominio del FQDN es uno de los dominios registrados en el inquilino de Office 365. Para obtener más información, vea [nombres de dominio SBC](#sbc-domain-names).|
 |Entrada DNS pública para el SBC |Una entrada DNS pública asignar el FQDN SBC a la dirección IP pública. |
 |Certificado de confianza pública para el SBC |Un certificado para el SBC que se usará para todas las comunicaciones con el enrutamiento directo. Para obtener más información, vea [pública certificado de confianza para el SBC](#public-trusted-certificate-for-the-sbc).|
 |Puntos de conexión para el enrutamiento directo |Los puntos de conexión para el enrutamiento directo son los FQDN de tres los siguientes:<br/><br/>`sip.pstnhub.microsoft.com`: FQDN global, debe intentar primero.<br/>`sip2.pstnhub.microsoft.com`: FQDN secundario, geográficamente se asigna a la segunda región de prioridad.<br/>`sip3.pstnhub.microsoft.com`– Terciario FQDN, geográficamente se asigna a la región de prioridad de terceros.<br/><br/>Para obtener información sobre los requisitos de configuración, vea [de señalización SIP: FQDN y los puertos de firewall](#sip-signaling-fqdns-and-firewall-ports).|
-|Las direcciones IP de servidor de seguridad y los puertos para los medios de enrutamiento directo |La SBC se comunica con los siguientes servicios en la nube:<br/><br/>Proxy, que controla la señalización SIP<br/>Procesador de medios, que controla los medios-excepto cuando es el desvío de medios en<br/><br/>Estos dos servicios tienen direcciones IP distintas en Microsoft Cloud, que se describen más adelante en este documento.<br/><br/>Para obtener más información, vea la [sección de equipos de Microsoft](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) en [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |
+|Las direcciones IP de servidor de seguridad y los puertos para los medios de enrutamiento directo |La SBC se comunica con los siguientes servicios en la nube:<br/><br/>Proxy, que controla la señalización SIP<br/>Procesador de medios, que controla los medios-excepto cuando es el desvío de medios en<br/><br/>Estos dos servicios tienen direcciones IP distintas en Microsoft Cloud, que se describen más adelante en este documento.<br/><br/>Para obtener más información, vea la [sección de equipos de Microsoft](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) en [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |
 |Medios de transporte perfil|RTP/TCP/SAVP <br/>RTP/UDP/SAVP|
-Las direcciones IP de servidor de seguridad y los puertos de medios de Microsoft Teams |Para obtener más información, vea [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |
+Las direcciones IP de servidor de seguridad y los puertos de medios de Microsoft Teams |Para obtener más información, vea [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>Concesión de licencias y otros requisitos 
@@ -95,9 +95,9 @@ Enrutamiento directo también es compatible con los usuarios que están autoriza
 
 Combinación de conectividad de planeación de la llamada y el enrutamiento directo para el mismo usuario es opcional, pero podría ser útil, por ejemplo, cuando el usuario está asignado a un Plan de llamar a Microsoft, pero desea enrutar algunas llamadas a través de SBC. Uno de los escenarios más comunes son las llamadas al PBX de terceros.  Con PBX de terceros, todas las llamadas, excepto a los teléfonos conectados a ese PBX, las llamadas se enrutan a través de una llamada a planeación de Microsoft; pero las llamadas a los teléfonos conectados a sistemas PBX de terceros que se vaya a la SBC, por lo tanto, permanecer dentro de la red de empresa y no a la RTC. 
 
-Para obtener más información acerca de las licencias del sistema de teléfono, vea [Opciones de planeación de Office 365](https://technet.microsoft.com/en-us/library/office-365-plan-options.aspx)y [obtener el máximo partido de Office con Office 365](https://products.office.com/en-us/compare-all-microsoft-office-products?tab=2) . 
+Para obtener más información acerca de las licencias del sistema de teléfono, vea [Opciones de planeación de Office 365](https://technet.microsoft.com/library/office-365-plan-options.aspx)y [obtener el máximo partido de Office con Office 365](https://products.office.com/compare-all-microsoft-office-products?tab=2) . 
 
-Para obtener más información acerca de las licencias del sistema de teléfono, vea [Skype para profesionales y los equipos de Microsoft complemento licencias](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing). 
+Para obtener más información acerca de las licencias del sistema de teléfono, vea [Skype para profesionales y los equipos de Microsoft complemento licencias](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing). 
 
 ## <a name="sbc-domain-names"></a>Nombres de dominio SBC
 
