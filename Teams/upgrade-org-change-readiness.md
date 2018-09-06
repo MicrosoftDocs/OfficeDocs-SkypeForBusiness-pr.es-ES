@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc6cc0f6b4208ddfe4975760a5e9d7874a7e5665
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 36285914ac90517f54b50bb357a21822c5423f25
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398048"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23242669"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de preparación del usuario] (media/upgrade-banner-user-readiness.png "Fases de la actualización viaje, con especial hincapié en la fase de preparación del usuario")
 
@@ -31,14 +31,14 @@ En este artículo forma parte de la fase de preparación de usuarios de su viaje
 
 # <a name="assess-organizational-change-readiness"></a>Evalúe la preparación de los cambios en la organización
 
-Después de proteger su equipo de proyecto y define su visión, el ámbito y los objetivos, es el siguiente paso en su viaje por la actualización para asegurarse de que la organización y los usuarios están listos para equipos: una actividad que completar en paralelo de garantizar la disponibilidad de la técnica. Para obtener el valor de los equipos, los usuarios deben usarlo realmente. Permitir a los equipos no garantiza que logre su objetivo.  Los usuarios tienen distintos casos de uso y diferentes estilos de aprendizaje y se adapten a la nueva tecnología a diferentes velocidades. La buena noticia es que administrar el cambio no es todo lo que complicado, pero tarda un esfuerzo reducido. Las discusiones guiadas que aparece a continuación están diseñadas para ayudarle a comprender la base de usuarios para que puede preparar el nivel adecuado de formación para facilitar y acelerar la adopción de usuario. Hay tres maneras de que debe mirar su base de usuarios: 
+Después de proteger su equipo de proyecto y define su visión, el ámbito y los objetivos, es el siguiente paso en su viaje por la actualización para asegurarse de que la organización y los usuarios están listos para equipos: una actividad que completar en paralelo de garantizar la disponibilidad de la técnica. Para obtener el valor de los equipos, los usuarios deben usarlo realmente. Permitir a los equipos no garantiza que logre su objetivo.  Los usuarios tienen distintos casos de uso y diferentes estilos de aprendizaje y se adapten a la nueva tecnología a diferentes velocidades. La buena noticia es que administrar el cambio no es todo lo que complicado, pero tarda un esfuerzo reducido. Las discusiones guiadas que aparece a continuación están diseñadas para ayudarle a comprender la base de usuarios para que puede preparar el nivel adecuado de formación para facilitar y acelerar la adopción de usuario. Hay tres maneras de que debe mirar su base de usuarios:
 
 -   **Organizativa cambiar preparación**: descripción de cómo rápidamente (o no) normalmente reaccionan a los usuarios para cambiar. Esta información le ayudará a informar a la cantidad de sensibilización, formación, y el valor de ventas es posible que deba hacer para estimular la adopción de usuario.
 -   **Casos de uso**: evaluación de la nueva tecnología de mejorar la productividad del usuario. Esta información realice el cambio relevantes para los usuarios en función de cómo funcionan.
 -   **Roles**: evaluar las personas o grupos que puede requerir atención personalizada. Esta información le permitirá a formativas y de destino para aquellos que esperan o necesitan más prestar atención (por ejemplo, los ejecutivos).
 
 > [!Note]
-> Puede adaptar las actividades de evaluación que se indican a continuación para cualquier iniciativa de cambio en la organización. Simplemente responda a las preguntas en función del ámbito del proyecto. En las explicaciones siguientes, "nueva solución" puede aplicar a una llamada a, conferencias de audio, o la actualización de Skype para la empresa a los equipos de audio. 
+> Puede adaptar las actividades de evaluación que se indican a continuación para cualquier iniciativa de cambio en la organización. Simplemente responda a las preguntas en función del ámbito del proyecto. En las explicaciones siguientes, "nueva solución" puede aplicar a una llamada a, conferencias de audio, o la actualización de Skype para la empresa a los equipos de audio.
 
 |    |     |
 |-----------|------------|
@@ -68,11 +68,11 @@ Use los siguientes Kits de inicio de conversación para llevar a cabo una evalua
 
 
 > [!Tip]
-> Dar de alta los primeros usuarios para las pruebas piloto además de servir como Campeones del mismo nivel. Campeones ayudan a clientes potenciales por ejemplo para mostrar cómo obtener valor de sus colegas y dé a conocer nueva tecnología. Para obtener más información acerca de cómo crear un programa de campeones formal, consulte la [Guía de adopción de Office](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf). Es posible que necesita sus rezagados convencer a más antes de que adopten una nueva tecnología. Si más de un 20 por ciento de la organización que entra en este cubo, dedicar más tiempo a comunicar el valor de mensajería e impartir adaptar recursos de aprendizaje. Además, compatibilidad de ellos mediante el cambio abriendo un bucle de comentarios para comprender mejor y sus hesitations de direcciones. 
+> Dar de alta los primeros usuarios para las pruebas piloto además de servir como Campeones del mismo nivel. Campeones ayudan a clientes potenciales por ejemplo para mostrar cómo obtener valor de sus colegas y dé a conocer nueva tecnología. Para obtener más información acerca de cómo crear un programa de campeones formal, consulte la [Guía de adopción de Office](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf). Es posible que necesita sus rezagados convencer a más antes de que adopten una nueva tecnología. Si más de un 20 por ciento de la organización que entra en este cubo, dedicar más tiempo a comunicar el valor de mensajería e impartir adaptar recursos de aprendizaje. Además, compatibilidad de ellos mediante el cambio abriendo un bucle de comentarios para comprender mejor y sus hesitations de direcciones.
 
 #### <a name="what-percentage-of-users-fall-into-each-competency"></a>¿Qué porcentaje de usuarios se dividen en cada competencia?
 
-<!-- 
+<!--
 | **Type of learner**                                                        | **%** |
 |----------------------------------------------------------------------------|-------|
 | *Self-motivated* learners seek out resources, learn by doing.                      |       |
@@ -84,7 +84,7 @@ Use los siguientes Kits de inicio de conversación para llevar a cabo una evalua
 | Este tipo de alumnos seek recursos, obtenga información sobre la forma de hacerlo. | Estos usuarios disfrutan de grupo y entrenamiento interactivo; se irán junto con sus compañeros. | Estos usuarios esperan que proporcionó asistencia o "guante blanco". |
 
 > [!Tip]
-> No todo el mundo aprende la misma manera. Para aquellos que son de hecho, elija los vídeos en línea y artículos de aprendizaje de Microsoft. Si un 20 por ciento o más son reproductores de equipo, dar de alta el equipo de recursos de aprendizaje o un socio para ofrecer aprendizaje interactivo (en persona o en línea). Normalmente, encontrará a los ejecutivos o dirigidas a roles en la categoría de explotación de mano. Esto es un grupo crítico que podría beneficiarse de las sesiones de aprendizaje personalizado, breve. Dar de alta los Campeones para ayudar a proporcionar recursos de aprendizaje a estos usuarios, para obtener una experiencia óptima. 
+> No todo el mundo aprende la misma manera. Para aquellos que son de hecho, elija los vídeos en línea y artículos de aprendizaje de Microsoft. Si un 20 por ciento o más son reproductores de equipo, dar de alta el equipo de recursos de aprendizaje o un socio para ofrecer aprendizaje interactivo (en persona o en línea). Normalmente, encontrará a los ejecutivos o dirigidas a roles en la categoría de explotación de mano. Esto es un grupo crítico que podría beneficiarse de las sesiones de aprendizaje personalizado, breve. Dar de alta los Campeones para ayudar a proporcionar recursos de aprendizaje a estos usuarios, para obtener una experiencia óptima.
 
 ## <a name="use-cases"></a>Casos de uso
 
@@ -127,14 +127,14 @@ En la siguiente tabla muestra un ejemplo de un caso de uso de destino.
 
 
 > [!Tip]
-> ¿Necesita ayuda para empezar? Visite la biblioteca de productividad: http://aka.ms/productivitylibrary.
+> ¿Necesita ayuda para empezar? Visite la biblioteca de productividad: https://aka.ms/productivitylibrary.
 
 ## <a name="personas"></a>Roles
 
-Este análisis de nivel de personas, comprensión de los roles de usuario y casos de uso. Poner el tiempo para comprender que los usuarios son y cómo funcionan, ayudaremos a asegurarse de que tienen lo que necesitan tener éxito que implementan el cambio. Esto puede incluir mensajería dirigido, aprendizaje o incluso dispositivos como los auriculares con micrófono y cámaras Web. Por ejemplo, un ejecutivo era de esperar formación espontánea mientras un representante de campo que viajan es posible que se benefician de un vídeo que pueden verla en su tiempo libre de capacitación. Además, el análisis del nivel de personas puede ayudar a identificar quién puede mover a los equipos hoy en comparación con la que es posible que se satisfacen mejor con esperar hasta más adelante. 
+Este análisis de nivel de personas, comprensión de los roles de usuario y casos de uso. Poner el tiempo para comprender que los usuarios son y cómo funcionan, ayudaremos a asegurarse de que tienen lo que necesitan tener éxito que implementan el cambio. Esto puede incluir mensajería dirigido, aprendizaje o incluso dispositivos como los auriculares con micrófono y cámaras Web. Por ejemplo, un ejecutivo era de esperar formación espontánea mientras un representante de campo que viajan es posible que se benefician de un vídeo que pueden verla en su tiempo libre de capacitación. Además, el análisis del nivel de personas puede ayudar a identificar quién puede mover a los equipos hoy en comparación con la que es posible que se satisfacen mejor con esperar hasta más adelante.
 
 Comience por la segmentación de la base de usuarios en grupos de la persona o grupo de edad (por ejemplo, los ejecutivos, "itinerantes", los trabajadores de la colaboración o la venta por menor). Para la administración, mantener su lista a no más de ocho grupos.
- 
+
 ### <a name="activity"></a>Actividad
 
 Identificar los perfiles de usuario de destino que requieren asistencia de preparación técnico o de usuario específica. Vea a continuación un ejemplo de valoración del rol de un perfil de ejecutivo.

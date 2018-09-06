@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 577ee414529223dbc435d8570a55adb6883fd8a2
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 3a4e1fed56742dbeb246b89d2a40e96ed3ccb683
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695625"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779989"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 
@@ -54,7 +54,7 @@ Los participantes de la reunión puede participar en las reuniones de los equipo
 
 ## <a name="availability-of-audio-conferencing"></a>Disponibilidad de Audioconferencia
 
-Antes de planear la implementación de conferencias de Audio en los equipos, debe revisar la disponibilidad del servicio de conferencia de Audio como se detalla en la [disponibilidad de país y región para las conferencias de Audio y planes de llamada](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+Antes de planear la implementación de conferencias de Audio en los equipos, debe revisar la disponibilidad del servicio de conferencia de Audio como se detalla en la [disponibilidad de país y región para las conferencias de Audio y planes de llamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 > [!IMPORTANT]
 > Debido a restricciones legales, para conferencias de Audio esté disponible para organizaciones multinacionales, el contrato de suscripciones a Office 365 debe ser proceden de países y regiones donde el servicio de conferencia de Audio no está disponible en el mercado.

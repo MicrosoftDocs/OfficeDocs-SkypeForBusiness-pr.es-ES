@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a89f3670d2dda14ae5d15647213aca5d1d5398af
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 3cf488377302fda32ff1c569c114818977ea10fc
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569918"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599363"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams 
 =========================================
@@ -37,7 +37,7 @@ En la siguiente tabla se ofrece información para usuarios con Exchange Online h
 |**Exchange Online**|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|
 |**Exchange Online Dedicated vNext**|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|
 |**Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)|Sí ([lista de permitidos](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|No|No|Sí|No|No|Sí|Sí|No|Sí (Exchange 2013 +)|No|Sí|Sí|
-|**Exchange local** (requiere sincronización con Azure AD)|Sí ([lista de permitidos](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|No|No|Sí|Sí (Exchange 2016 CU3 +)|No|Sí|Sí|No|Sí (Exchange 2013 +)|No|Sí|Sí|
+|**Exchange local** (requiere sincronización con Azure AD)|Sí ([lista de permitidos](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|No|No|Sí|Sí (Exchange 2016 CU3 +)|No|Sí|Sí|No|Sí (Exchange 2013 +)|No|No|Sí|
                                                             
 *\*Exchange 2016 CU3 y las versiones posteriores son compatibles*
 

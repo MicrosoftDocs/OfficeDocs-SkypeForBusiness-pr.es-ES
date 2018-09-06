@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lea este tema para obtener información acerca de cómo implementar sistemas de salón de Skype v2 con Office 365.
-ms.openlocfilehash: 442bfa306f611d9ba642d3b74d431cfda4c46770
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c623d689f876cfe36c7c8308a7f62526be217ec1
+ms.sourcegitcommit: a9556a51f7f970fc05ab0acc9998401db3c1aa57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21027355"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "22601972"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Implementar Sistemas de salas de Skype v2 con Office 365 
  
@@ -31,14 +31,16 @@ Antes de implementar sistemas de salón de Skype v2 con Office 365, asegúrese d
   
 Para habilitar Skype para la empresa, debe tener lo siguiente:
   
-- Skype para profesionales Online (Plan 2) o superior en su plan de Office 365. El plan debe admitir la funcionalidad de conferencias.
+- Skype para profesionales Online (Plan 2 o un plan de empresa) o superior en su plan de Office 365. El plan debe permitir que las capacidades de conferencia de acceso telefónico.
     
-- Si necesita Enterprise Voice (telefonía PSTN) con proveedores de servicios de telefonía para sistemas de salón de Skype v2 necesita Skype para profesionales en línea (planeación de 3).
+- Si necesita capacidades de marcado de una reunión, necesitará una conferencia de audio y la licencia del sistema telefónico.  Si necesita las capacidades de acceso telefónico de salida de una reunión, necesitará un nacionales o nacional e internacional de llamada Plan. 
     
 - Los usuarios de inquilinos deben tener los buzones de Exchange.
     
-- Su cuenta de Skype salón sistemas v2 requieren un Skype para profesionales Online (Plan 2) o Skype para licencia empresarial en línea (planeación de 3), pero no requiere una licencia de Exchange Online.
-    
+- Su cuenta de Skype salón sistemas v2 requieren en como mínimo un Skype para licencia empresarial Online (Plan 2), pero no requiere una licencia de Exchange Online.
+
+Para obtener información detallada en Skype para planes de negocios de en línea, vea la [Skype para la descripción de servicio en línea de negocio](https://technet.microsoft.com/library/jj822172.aspx).
+
 ### <a name="add-a-device-account"></a>Agregar una cuenta de dispositivo
 
 1. Iniciar una sesión remota de Windows PowerShell en un PC y conectarse a Exchange. Asegúrese de tener los permisos adecuados establecidos para ejecutar los cmdlets asociados. Estos son algunos ejemplos de cmdlets que puede utilizar y modificar en su entorno.
@@ -178,6 +180,11 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 > [!NOTE]
 > De esta manera, se agregan CloudPBX y PSTNCallingDomesticAndInternational. Además, deberá usar la interfaz de administración para asignar un número de teléfono. 
   
+## <a name="validate"></a>Validar
+
+Para la validación, debe usar cualquier Skype para clientes empresariales para iniciar sesión en la cuenta que creó.
+
+
 ## <a name="see-also"></a>Vea también
 
 [Configurar cuentas para sistemas de salón de Skype v2](room-systems-v2-configure-accounts.md)
