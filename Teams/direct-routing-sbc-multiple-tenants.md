@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Obtenga información sobre cómo configurar un controlador de borde de sesión (SBC) para servir a varios inquilinos.
-ms.openlocfilehash: 80176a97152050cbddfe4d8b1c189cde377a7c25
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 062c8e597b62757f3fb91773444bece7f047ac51
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084625"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835018"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -51,7 +51,7 @@ Los siguientes son los pasos de implementación técnica para configurar el esce
 Para obtener instrucciones detalladas acerca de cómo implementar y configurar SBCs para un escenario de hospedaje de SBC, hacer referencia a la documentación del proveedor SBC.
 
 - **AudioCodes:** [Notas de configuración de enrutamiento directo](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), la configuración de la SBC que hospeda el escenario descrito en "Connecting AudioCodes SBC a Microsoft Teams directa enrutamiento Hosting modelo configuración Nota". 
-- **La cinta de opciones:** Para escenarios de hospedaje de SBC, se admite solo la serie de núcleo. Consulte la [Guía de configuración de los equipos de Microsoft de la cinta de opciones SBC principales](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe).
+- **La cinta de opciones Communications:** Para escenarios de hospedaje de SBC, se admite solo la serie de núcleo. Consulte la [Guía de configuración de los equipos de Microsoft de la cinta de opciones Communications SBC principales](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe).
 
 > [!NOTE]
 > Por favor, preste atención a cómo configurar el encabezado "Contacto". El encabezado de contacto se usa para buscar al inquilino del cliente en el mensaje de invitación entrante. 

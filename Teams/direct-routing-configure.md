@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Obtenga información sobre cómo configurar el enrutamiento directo de Microsoft teléfono del sistema.
-ms.openlocfilehash: c84e8b28d6a13e3dca64a08a63aa516556357dde
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 455ae4bd419dd4e92152615adc42f879168e4f15
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779774"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835034"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -25,7 +25,7 @@ En este artículo se describe cómo configurar el enrutamiento directo de Micros
 Se recomienda que confirme que ya se ha configurado la SBC recomendada por su proveedor SBC: 
 
 - Documentación de implementación de AudioCodes 
-- Documentación de implementación de la cinta de opciones
+- Documentación de implementación de comunicaciones de la cinta de opciones
 
 Puede configurar el sistema de teléfono de Microsoft y permiten a los usuarios usar el enrutamiento directo, a continuación, configurar Microsoft Teams como el cliente preferido de la llamada al completar los procedimientos siguientes: 
 

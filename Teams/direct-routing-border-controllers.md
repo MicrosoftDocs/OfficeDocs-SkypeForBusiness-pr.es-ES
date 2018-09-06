@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Los socios de Microsoft con proveedores seleccionados de SBC certifica su SBC para trabajan con el enrutamiento directo.
-ms.openlocfilehash: 2ba827e734916b983c54f910b00af92fc8d74bdb
-ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
+ms.openlocfilehash: e17222932fd971278b3c97c2daffff9c531c21ec
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21148251"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23834994"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión de certificados para el enrutamiento directo
 
@@ -44,7 +44,7 @@ En la tabla siguiente se enumera los dispositivos certificados para el enrutamie
 |     |   Mediant 4000 SBC       |     & #10004;     |    Pendiente     |    7.20A.200.055      |
 |     |    Mediant 1000B SBC   |    & #10004;      |  Pendiente       |    7.20A.200.055   |
 |     |   Virtual Edition SBC    |   & #10004;   |Pendiente         |     7.20A.200.055     |
-|[Cinta de opciones](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110    |    & #10004;      |   Pendiente      |     V6.2     |
+|[Comunicaciones de la cinta de opciones](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110    |    & #10004;      |   Pendiente      |     V6.2     |
 |     |SBC 5210     |     & #10004;     |    Pendiente     |    V6.2      |
 |     | SBC 5400     |    & #10004;  |    Pendiente     |   V6.2    |
 |     |SBC 7000     |     & #10004;  |    Pendiente     |    V6.2      |
