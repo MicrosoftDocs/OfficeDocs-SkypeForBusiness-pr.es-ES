@@ -9,6 +9,7 @@ ms.assetid: d76a274d-a295-452e-b3cc-40082c65f513
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,34 +20,34 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Esto le ayudará a encontrar información acerca de cómo marcar los números de pago libre en cada país o región. Después de seleccionar el país o región, le llevará a una página específica de país que contiene detalles específicos, las restricciones y límites para la disponibilidad del servicio gratuito donde está disponible un servicio gratuito. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número de teléfono gratuito.
-ms.openlocfilehash: cc1b32153a2a5ec8fb0d774a555f6e012deec91e
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 4dd8d6456e1873afc57f474e5cd4b72fd751b2d0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23782969"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858452"
 ---
-# <a name="toll-free-dialing-restrictions-in-kenya"></a><span data-ttu-id="d3c48-105">Restricciones de marcado gratuito en Kenia</span><span class="sxs-lookup"><span data-stu-id="d3c48-105">Toll-free dialing restrictions in Kenya</span></span>
+# <a name="toll-free-dialing-restrictions-in-kenya"></a><span data-ttu-id="37ef4-105">Restricciones de marcado gratuito en Kenia</span><span class="sxs-lookup"><span data-stu-id="37ef4-105">Toll-free dialing restrictions in Kenya</span></span>
 
-<span data-ttu-id="d3c48-106">[Buscar otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información acerca de las limitaciones de marcado gratuito y restricciones.</span><span class="sxs-lookup"><span data-stu-id="d3c48-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="37ef4-106">[Buscar otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información acerca de las limitaciones de marcado gratuito y restricciones.</span><span class="sxs-lookup"><span data-stu-id="37ef4-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="d3c48-107">**Detalles**</span><span class="sxs-lookup"><span data-stu-id="d3c48-107">**Details**</span></span>|<span data-ttu-id="d3c48-108">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="d3c48-108">**Description**</span></span>|
+|<span data-ttu-id="37ef4-107">**Detalles**</span><span class="sxs-lookup"><span data-stu-id="37ef4-107">**Details**</span></span>|<span data-ttu-id="37ef4-108">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="37ef4-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="d3c48-109">¿Es gratuito de llamada disponibles?</span><span class="sxs-lookup"><span data-stu-id="d3c48-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="d3c48-110">Sí</span><span class="sxs-lookup"><span data-stu-id="d3c48-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="d3c48-111">Formatos de marcado</span><span class="sxs-lookup"><span data-stu-id="d3c48-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="d3c48-112">0 800 7XX XXX</span><span class="sxs-lookup"><span data-stu-id="d3c48-112">0 800 7XX XXX</span></span> <br/> |
-|<span data-ttu-id="d3c48-113">Código ISO de país o región</span><span class="sxs-lookup"><span data-stu-id="d3c48-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="d3c48-114">KE</span><span class="sxs-lookup"><span data-stu-id="d3c48-114">KE</span></span>  <br/> |
-|<span data-ttu-id="d3c48-115">Isla/territorio que abarque</span><span class="sxs-lookup"><span data-stu-id="d3c48-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="d3c48-116">No aplicable</span><span class="sxs-lookup"><span data-stu-id="d3c48-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="d3c48-117">Isla o territorio que no están cubierta</span><span class="sxs-lookup"><span data-stu-id="d3c48-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="d3c48-118">No aplicable</span><span class="sxs-lookup"><span data-stu-id="d3c48-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="d3c48-119">Disponibilidad de la línea con cable o fijo</span><span class="sxs-lookup"><span data-stu-id="d3c48-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="d3c48-p102">Parcial. Ver comentarios.</span><span class="sxs-lookup"><span data-stu-id="d3c48-p102">Partial. See comments.</span></span>  <br/> |
-|<span data-ttu-id="d3c48-122">Disponibilidad de red móvil</span><span class="sxs-lookup"><span data-stu-id="d3c48-122">Mobile network availability</span></span>  <br/> |<span data-ttu-id="d3c48-p103">Parcial. Ver comentarios.</span><span class="sxs-lookup"><span data-stu-id="d3c48-p103">Partial. See comments.</span></span>  <br/> |
-|<span data-ttu-id="d3c48-125">Comentarios, las restricciones y problemas de acceso</span><span class="sxs-lookup"><span data-stu-id="d3c48-125">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="d3c48-126">Rol fijo de acceso a la red: Safaricom y Airtel.</span><span class="sxs-lookup"><span data-stu-id="d3c48-126">Fixed network access: Safaricom and Airtel.</span></span> <span data-ttu-id="d3c48-127">Acceso a la red móvil: Safaricom, Airtel y naranja.</span><span class="sxs-lookup"><span data-stu-id="d3c48-127">Mobile network access: Safaricom, Airtel, and Orange.</span></span>  <br/> |
+|<span data-ttu-id="37ef4-109">¿Es gratuito de llamada disponibles?</span><span class="sxs-lookup"><span data-stu-id="37ef4-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="37ef4-110">Sí</span><span class="sxs-lookup"><span data-stu-id="37ef4-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="37ef4-111">Formatos de marcado</span><span class="sxs-lookup"><span data-stu-id="37ef4-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="37ef4-112">0 800 7XX XXX</span><span class="sxs-lookup"><span data-stu-id="37ef4-112">0 800 7XX XXX</span></span> <br/> |
+|<span data-ttu-id="37ef4-113">Código ISO de país o región</span><span class="sxs-lookup"><span data-stu-id="37ef4-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="37ef4-114">KE</span><span class="sxs-lookup"><span data-stu-id="37ef4-114">KE</span></span>  <br/> |
+|<span data-ttu-id="37ef4-115">Isla/territorio que abarque</span><span class="sxs-lookup"><span data-stu-id="37ef4-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="37ef4-116">No aplicable</span><span class="sxs-lookup"><span data-stu-id="37ef4-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="37ef4-117">Isla o territorio que no están cubierta</span><span class="sxs-lookup"><span data-stu-id="37ef4-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="37ef4-118">No aplicable</span><span class="sxs-lookup"><span data-stu-id="37ef4-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="37ef4-119">Disponibilidad de la línea con cable o fijo</span><span class="sxs-lookup"><span data-stu-id="37ef4-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="37ef4-p102">Parcial. Ver comentarios.</span><span class="sxs-lookup"><span data-stu-id="37ef4-p102">Partial. See comments.</span></span>  <br/> |
+|<span data-ttu-id="37ef4-122">Disponibilidad de red móvil</span><span class="sxs-lookup"><span data-stu-id="37ef4-122">Mobile network availability</span></span>  <br/> |<span data-ttu-id="37ef4-p103">Parcial. Ver comentarios.</span><span class="sxs-lookup"><span data-stu-id="37ef4-p103">Partial. See comments.</span></span>  <br/> |
+|<span data-ttu-id="37ef4-125">Comentarios, las restricciones y problemas de acceso</span><span class="sxs-lookup"><span data-stu-id="37ef4-125">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="37ef4-126">Rol fijo de acceso a la red: Safaricom y Airtel.</span><span class="sxs-lookup"><span data-stu-id="37ef4-126">Fixed network access: Safaricom and Airtel.</span></span> <span data-ttu-id="37ef4-127">Acceso a la red móvil: Safaricom, Airtel y naranja.</span><span class="sxs-lookup"><span data-stu-id="37ef4-127">Mobile network access: Safaricom, Airtel, and Orange.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="d3c48-128">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="d3c48-128">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="37ef4-128">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="37ef4-128">Related topics</span></span>
 
-[<span data-ttu-id="d3c48-129">Restricciones y limitaciones de marcado gratuito</span><span class="sxs-lookup"><span data-stu-id="d3c48-129">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="37ef4-129">Restricciones y limitaciones de marcado gratuito</span><span class="sxs-lookup"><span data-stu-id="37ef4-129">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="d3c48-130">Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="d3c48-130">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[<span data-ttu-id="37ef4-130">Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="37ef4-130">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
   
  

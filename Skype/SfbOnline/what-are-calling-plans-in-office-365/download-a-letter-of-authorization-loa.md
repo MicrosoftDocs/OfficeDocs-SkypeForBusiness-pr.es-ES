@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: c0ab5bc9-44f1-46dd-b401-828e4f10b7ac
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -23,9 +24,10 @@ description: La Carta de autorización (LOA) nos concede permiso para solicitar 
 robots: noindex
 redirect_url: https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization
 redirect_document_id: true
-ms.openlocfilehash: 642b25a531cd0510abfa3f777c5991c34a3cb9a1
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
-ms.translationtype: MT
+ms.openlocfilehash: eb1c0ce7a195feef40f4fca35c67729e827002ae
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863671"
 ---

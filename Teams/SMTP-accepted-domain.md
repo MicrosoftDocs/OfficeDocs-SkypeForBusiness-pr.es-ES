@@ -7,27 +7,28 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anprakas
+search.appverid: MET150
 description: Aprenda a agregar el dominio SMTP de los equipos de Microsoft como un dominio de remitente permitidos en Exchange Online para enviar notificaciones a los miembros del equipo.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d69e2890589169da126f237562d32a89d378edb
-ms.sourcegitcommit: 046cc4a880f3b6b5f912278483cf28fa25619b6e
+ms.openlocfilehash: 7f0b20f84484d4b0998a11653fe7f9d2bb1e9899
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "21597578"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861588"
 ---
-<a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a><span data-ttu-id="cd7fe-103">Agregar el dominio SMTP de los equipos de Microsoft como un dominio de remitente permitidos en Exchange Online</span><span class="sxs-lookup"><span data-stu-id="cd7fe-103">Add the Microsoft Teams SMTP domain as an allowed sender domain in Exchange Online</span></span> 
+<a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a><span data-ttu-id="f928a-103">Agregar el dominio SMTP de los equipos de Microsoft como un dominio de remitente permitidos en Exchange Online</span><span class="sxs-lookup"><span data-stu-id="f928a-103">Add the Microsoft Teams SMTP domain as an allowed sender domain in Exchange Online</span></span> 
 =============================================================================
 
-<span data-ttu-id="cd7fe-p101">Tanto si crea un grupo de Office 365 en la consola de administración o usa Outlook, debe usar Exchange Online para enviar notificaciones de un miembro del equipo que se agrega a un grupo. Estos mensajes se generan desde su inquilino, ya que representan el FQDN de su dominio SMTP predeterminado.</span><span class="sxs-lookup"><span data-stu-id="cd7fe-p101">Whether you create an Office 365 Group in the admin console or by using Outlook, Exchange Online is used to send notifications of a team member being added to a Group. These messages are generated from your tenant as they represent your default domain SMTP FQDN.</span></span>
+<span data-ttu-id="f928a-p101">Tanto si crea un grupo de Office 365 en la consola de administración o usa Outlook, debe usar Exchange Online para enviar notificaciones de un miembro del equipo que se agrega a un grupo. Estos mensajes se generan desde su inquilino, ya que representan el FQDN de su dominio SMTP predeterminado.</span><span class="sxs-lookup"><span data-stu-id="f928a-p101">Whether you create an Office 365 Group in the admin console or by using Outlook, Exchange Online is used to send notifications of a team member being added to a Group. These messages are generated from your tenant as they represent your default domain SMTP FQDN.</span></span>
 
 ![Captura de pantalla de un encabezado de mensaje de correo electrónico de Outlook de ejemplo donde se ve que se ha agregado un usuario a un grupo.](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image1.jpg)
 
-<span data-ttu-id="cd7fe-107">Los equipos usa Microsoft Exchange Online así como para enviar notificaciones a los miembros del equipo cuando se ha añadido.</span><span class="sxs-lookup"><span data-stu-id="cd7fe-107">Teams uses Microsoft Exchange Online as well to send notifications to team members when they’ve been added.</span></span> <span data-ttu-id="cd7fe-108">La diferencia está en el FQDN del mensaje SMTP del dominio es "@email.teams.microsoft.com" y se pudo detectar el filtrado de spam.</span><span class="sxs-lookup"><span data-stu-id="cd7fe-108">The difference being the domain FQDN of the SMTP message is “@email.teams.microsoft.com” and could be caught by spam filtering.</span></span>
+<span data-ttu-id="f928a-107">Los equipos usa Microsoft Exchange Online así como para enviar notificaciones a los miembros del equipo cuando se ha añadido.</span><span class="sxs-lookup"><span data-stu-id="f928a-107">Teams uses Microsoft Exchange Online as well to send notifications to team members when they’ve been added.</span></span> <span data-ttu-id="f928a-108">La diferencia está en el FQDN del mensaje SMTP del dominio es "@email.teams.microsoft.com" y se pudo detectar el filtrado de spam.</span><span class="sxs-lookup"><span data-stu-id="f928a-108">The difference being the domain FQDN of the SMTP message is “@email.teams.microsoft.com” and could be caught by spam filtering.</span></span>
 
 ![Captura de pantalla de un encabezado de mensaje de correo electrónico de Outlook de ejemplo donde se ve que se ha agregado un usuario a un grupo.](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image2.jpg)
 
-<span data-ttu-id="cd7fe-110">Para obtener mejores resultados y un funcionamiento ininterrumpido, considere la posibilidad de agregar el dominio SMTP de los equipos de Microsoft a la lista "permitido de dominios de remitente" en su configuración de correo no deseado de Exchange Online:</span><span class="sxs-lookup"><span data-stu-id="cd7fe-110">For best result and seamless operation, consider adding the Microsoft Teams SMTP domain to your “allowed sender domains” list in your Exchange Online spam configuration:</span></span>
+<span data-ttu-id="f928a-110">Para obtener mejores resultados y un funcionamiento ininterrumpido, considere la posibilidad de agregar el dominio SMTP de los equipos de Microsoft a la lista "permitido de dominios de remitente" en su configuración de correo no deseado de Exchange Online:</span><span class="sxs-lookup"><span data-stu-id="f928a-110">For best result and seamless operation, consider adding the Microsoft Teams SMTP domain to your “allowed sender domains” list in your Exchange Online spam configuration:</span></span>
 
 ![Captura de pantalla de la sección Permitir listas de las opciones de configuración de correo no deseado de Exchange Online.](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image3.png)
