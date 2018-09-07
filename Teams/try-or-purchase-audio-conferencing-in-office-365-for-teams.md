@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: d080bb8c-3465-47bb-ad2b-9428f1a3fd24
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Descubra cómo probar o comprar licencias de audioconferencia (conferencia RTC) para Office 365 con el fin de configurar llamadas de conferencia a las que la gente pueda acceder. '
-ms.openlocfilehash: 117af07a388eaab0fda5f70777a8bc0aea16210e
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 76c8b88bf4352cd0196f9ea25cef8361dda2a9b0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785649"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850928"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Probar o comprar conferencias de Audio en Office 365 para Microsoft Teams
 
@@ -33,7 +34,7 @@ En algunas ocasiones, en su organización se necesitará un teléfono para llama
 
 Sólo necesita configurar conferencias de audio para las personas que va a programar o potenciales de las reuniones. Los asistentes que se conectan por teléfono a la reunión no necesitan tener asignada ninguna licencia ni tener otra configuración.
 
-Para obtener información sobre precios, consulte [Precios de audioconferencias](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
+Para obtener información sobre precios, consulte [Precios de audioconferencias](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Paso 1: Comprar y asignar licencias de conferencias de Audio
 

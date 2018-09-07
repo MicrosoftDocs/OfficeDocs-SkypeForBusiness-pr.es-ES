@@ -8,15 +8,16 @@ ms.topic: article
 ms.service: msteams
 description: Aprenda cómo funcionan los grupos y las pertenencias a grupos de Office 365 con Microsoft Teams.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9d7c37a0aa53f45036388bdedfc5bdc87b1cc8a
-ms.sourcegitcommit: 5fb3957b658b48edf3d9878a9d53a4002b8f55d8
+ms.openlocfilehash: 9ef86beea194dde66e3ce5d7f54bde7a522dd605
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23520065"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850026"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 grupos y equipos de Microsoft
 =====================================
@@ -33,7 +34,7 @@ Cuando se crea un Team Microsoft, en el back-end, está creando un grupo de Offi
 > [!NOTE]
 > Eliminación de un grupo de Office 365 se remove que invita el buzón de alias de las conversaciones de Outlook/OWA persistentes y la reunión de los equipos y marca de SharePoint del sitio para su eliminación. Se tardan aproximadamente 20 minutos entre la eliminación de un equipo y su efecto en Outlook. Eliminación de un equipo desde el cliente de los equipos, se quitará inmediatamente la vista a todos los que son miembros del equipo. Quitar a miembros de un grupo de Office 365 que se haya habilitado en él la funcionalidad de los equipos, puede haber un retraso de aproximadamente dos horas antes de que el equipo se ha quitado de la vista en el cliente de los equipos para las personas afectados que se han eliminado.
 >
->Lea [este](https://support.office.com/en-us/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54) para obtener información acerca de la restauración de un grupo de Office 365 que eliminó.
+>Lea [este](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54) para obtener información acerca de la restauración de un grupo de Office 365 que eliminó.
 
 <a name="group-membership"></a>Pertenencia a grupos
 ----------------

@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Use esta guía para obtener más información acerca de los requisitos que son necesarios para entregar y mantener una implementación de Microsoft Teams de alta calidad.
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6114120998425acdd443ab852b3f39fd2549b5ff
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 58f99698f5168f428900095a813a8361955255e6
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779951"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854152"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica] (media/upgrade-banner-tech-readiness.png "Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica")
 
@@ -345,7 +346,7 @@ En esta tabla se incluye un resumen de las actividades de planeación con víncu
 | | Instalar las plantillas de revisión de la experiencia de calidad <br/> Cargar un archivo de creación | [Plantillas de QERLite](https://aka.ms/qertemplates) <br/> [Información de creación de carga](turning-on-and-using-call-quality-dashboard.md)|
 | Planeación de la calidad de la red | Ejecute el organizador de la red | [Organizador de red](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
 | | Implementar QoS | [Calidad de servicio en los equipos de Microsoft](qos-in-teams.md) |
-| | Omita los servidores proxy | [Instrucciones de proxy](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
+| | Omita los servidores proxy | [Instrucciones de proxy](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
 | | Implementar dividido túnel VPN | [Instrucciones de túnel dividido VPN](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
 | | Optimizar las redes Wi-Fi para multimedia en tiempo real  | Consulte a los proveedores de terceros |
 | | Implementar la salida de internet local | [Salida de Internet local](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |

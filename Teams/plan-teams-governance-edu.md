@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: rowille
 description: Respuestas a las preguntas más frecuentes de los administradores de grupos de Microsoft Education que usan los equipos.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4991990143b0292f83b5c71b8b2bf01a5d612184
-ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
+ms.openlocfilehash: f798d9bd18316f7a78c846e473a8a5dfbae0c6c6
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22599457"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860512"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Gobierno de Microsoft Education preguntas más frecuentes para los administradores
 

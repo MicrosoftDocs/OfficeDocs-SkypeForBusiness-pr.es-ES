@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: ab9f05a2-22cb-4692-a585-27f82d1b37c7
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre qué son automáticos de sistema telefónico (nube PBX) y cómo usarlas. '
-ms.openlocfilehash: 31a9a9c7a292014cac01909274b7d5de1b640655
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 63b07a38a416a6a4eb6cefdf563967c0f7475fb0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784785"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23852376"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>¿Qué son los operadores automáticos de Sistema telefónico?
 

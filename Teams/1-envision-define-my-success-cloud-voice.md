@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 06/07/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Medir los resultados de las conferencias de Audio, el sistema telefónico con planes de llamada o implementación de enrutamiento directo de teléfono del sistema y compruebe que ha conseguido los resultados que desea.
 MS.collection: Strat_MT_TeamsAdmin
 localization_priority: Priority
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b8ac93fe69a4d16289541a8b2a6e7982ed3902e
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 334e27626a5b842bce290696052352b055767053
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695665"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23866598"
 ---
 # <a name="define-my-success"></a>Definir mi éxito
 

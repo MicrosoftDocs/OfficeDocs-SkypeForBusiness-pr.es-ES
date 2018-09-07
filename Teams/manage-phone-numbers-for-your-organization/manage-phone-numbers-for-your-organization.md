@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -22,12 +23,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Cada país o región tiene sus propias instrucciones para conseguir números de teléfono para usuarios en Skype Empresarial Online y Microsoft Teams. Siga el vínculo al país o la región que corresponda de los que aparecen a continuación y consiga la información que necesita.
-ms.openlocfilehash: ef94cf9171db12c2eeb3650c592e1b626484a553
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 31d1b0b7d1a2719d4645addaa96aa8d82fd090fb
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785513"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858460"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Administrar los números de teléfono para su organización
 Hay tres modos de obtener números tanto de usuario como de servicio (de pago y gratuitos) para su organización.
@@ -79,7 +80,7 @@ Si aún necesita ayuda, por favor díganos qué podemos hacer por usted. En la s
 - Para comprobar si Planes de llamada está disponible en su país o región, consulte [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - Si necesita ayuda para decidir qué tipo de número de teléfono le conviene, lea [Diferentes tipos de números de teléfono que se usan para Planes de llamada](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 - Para ver información acerca de cómo conseguir números de teléfono de usuario en el centro de administración, consulte [Obtener números de teléfono para los usuarios](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
-- Para obtener ayuda para instalar los números de teléfono para su organización, [póngase en contacto con soporte técnico para productos de negocio: Ayuda de administración](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- Para obtener ayuda para instalar los números de teléfono para su organización, [póngase en contacto con soporte técnico para productos de negocio: Ayuda de administración](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
   
     
 ## <a name="related-topics"></a>Temas relacionados

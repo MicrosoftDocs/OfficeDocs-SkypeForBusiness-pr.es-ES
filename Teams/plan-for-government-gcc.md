@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: lehewe
 description: Instrucciones para los profesionales de TI a las implementaciones de Office 365 de unidad en las entidades que controlan datos sujetas a regulación gubernamental de EE.
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8091bb4e973d4e7376dd6d420578b10123051226
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: 708dda8e38d879d11589696cd901213a68b03cd8
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23835042"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23869384"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planeación de Microsoft 365 gobierno - implementaciones GCC
 
@@ -38,9 +39,9 @@ Además de disfrutar de las características y capacidades de Office 365, las or
 -   Acceso al contenido de la organización del cliente está restringido al personal de Microsoft protegido.
 -   Gobierno de Microsoft 365 - GCC cumple con certificaciones y acreditaciones que son necesarios para clientes del Sector público con nosotros.
 
-Puede encontrar más información sobre el gobierno de 365 Microsoft - GCC que ofrece para los clientes de gobierno de Estados Unidos en [que planes de gobierno de Office 365](https://products.office.com/en-us/government/compare-office-365-government-plans), incluidos [los requisitos de idoneidad](https://products.office.com/en-us/government/compare-office-365-government-plans#EligibilityRequirements).
+Puede encontrar más información sobre el gobierno de 365 Microsoft - GCC que ofrece para los clientes de gobierno de Estados Unidos en [que planes de gobierno de Office 365](https://products.office.com/government/compare-office-365-government-plans), incluidos [los requisitos de idoneidad](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
 
-La [Descripción del servicio de gobierno de Estados Unidos de Office 365](https://technet.microsoft.com/en-us/library/mt774581.aspx) describe las ventajas de la plataforma, que se centran en cumplimiento de requisitos dentro de los Estados Unidos.
+La [Descripción del servicio de gobierno de Estados Unidos de Office 365](https://technet.microsoft.com/library/mt774581.aspx) describe las ventajas de la plataforma, que se centran en cumplimiento de requisitos dentro de los Estados Unidos.
 
 > [!Tip]
 > Es posible que desee transferir las tablas de información en la descripción del servicio a un libro de Excel y agregue dos columnas: **pertinente para mi organización Y o N** y **satisfaga las necesidades de mi organización Y o N**. A continuación, puede revisar esta lista con sus compañeros para confirmar que este servicio satisface las necesidades de su organización.
@@ -84,7 +85,7 @@ Se recomienda que tenga tiempo para revisar detenidamente la [configuración de 
 
 ## <a name="step-4-apply-for-microsoft-365-government---gcc"></a>Paso 4. Aplicar para Microsoft 365 gobierno - GCC
 
-Tener decidido que este servicio es el adecuado para su organización, iniciar el proceso de la [aplicación para este servicio aquí](https://products.office.com/en-us/government/eligibility-validation).
+Tener decidido que este servicio es el adecuado para su organización, iniciar el proceso de la [aplicación para este servicio aquí](https://products.office.com/government/eligibility-validation).
 
 ## <a name="step-5-plan-for-governance"></a>Paso 5. Plan de gobierno
 

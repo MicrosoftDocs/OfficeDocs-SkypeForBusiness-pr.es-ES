@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Las tareas y actividades necesarias para la administración de servicio de los equipos, incluidos supervisar el estado del servicio y evaluar y garantizar la calidad de la red y uso.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 554ef6b3a974621567002dc91de8bd3d43cfbf35
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 2294ef8e983192e1b93cca0e815c54ef69e064db
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20396916"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856174"
 ---
 # <a name="operate-my-service"></a>Usar mi servicio
 
@@ -440,7 +441,7 @@ Incluso si ha seguido las instrucciones anteriores, los usuarios de su organizac
 | Actividad                 | Descripción                                                                                                                                                                                                                                                                                                                                                                     | Cadencia   | Equipo asignado |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Requisitos del extremo    | Asegúrese de que los equipos de extremo continúa para cumplir todos los requisitos de software para los equipos que aparecen en [obtener los clientes de equipos de Microsoft](get-clients.md).                                                                                                                                                                                       | Cada mes   |               |
-| Firewalls de extremo       | Mantener las exclusiones adecuadas en el firewall de extremo en función de la información de [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://aka.ms/o365ips). Su proveedor de terceros tendrá las instrucciones específicas sobre cómo mantener las exclusiones. Suscríbase a la [fuente RSS](https://support.office.com/en-us/o365ip/rss) para recibir automáticamente una notificación de cambios. | Según sea necesario |               |
+| Firewalls de extremo       | Mantener las exclusiones adecuadas en el firewall de extremo en función de la información de [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://aka.ms/o365ips). Su proveedor de terceros tendrá las instrucciones específicas sobre cómo mantener las exclusiones. Suscríbase a la [fuente RSS](https://support.office.com/o365ip/rss) para recibir automáticamente una notificación de cambios. | Según sea necesario |               |
 | Controladores de Wi-Fi            | Probar y actualizar los controladores de Wi-Fi en su PC. Validar los resultados mediante el uso de CQD ([Guía de revisión de calidad de experiencia](https://aka.ms/qerguide)).                                                                                                                                                                                                                                                                   | Según sea necesario |               |
 | Administración de extremo      | Mantener el catálogo de los extremos compatibles y dispositivos de interfaz (por ejemplo, auriculares con micrófono). Administrar contratos de proveedores, garantía, distribución, reemplazo y reparar las directivas.                                                                                                                                                                                                        | Cada mes   |               |
 | Solución de problemas de extremo | Solución de problemas de tareas puede incluir la comprobación de la conectividad, la lista de problemas conocidos, registro de recopilación, análisis y escalación a Microsoft Support o proveedores de terceros de consultoría.                                                                                                                                                                                               | Según sea necesario |               |

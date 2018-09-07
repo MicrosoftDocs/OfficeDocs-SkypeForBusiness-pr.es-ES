@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: rowille
 description: Guía para analizar el rendimiento de medios en tiempo real para Microsoft Teams utilizando el panel de calidad de llamadas (CQD).
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d3de3f704fc8c89325f671258a1005e850c2784
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: 6d0030e03df518fd1dbcf5b933573269656536de
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23835050"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867030"
 ---
 # <a name="quality-of-experience-review-guide"></a>Calidad de experiencia consulte la Guía
 

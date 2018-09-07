@@ -1,7 +1,7 @@
 ---
 title: Instalar Teams Microsoft con MSI
-author: ninadara
-ms.author: ninadara
+author: Lester-Hewett
+ms.author: lehewe
 manager: serdars
 ms.date: 03/21/2018
 ms.topic: article
@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: ''
 description: Los administradores pueden utilizar el MSI de los equipos de forma masiva implementar Microsoft Teams para seleccionar usuarios o equipos.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 655b028cb6f51538f4b65bbdb371c7b785f8763a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7176b990c41f2792f0955ac3ca2e937632a707d7
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20972902"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854144"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Instalar Teams Microsoft con MSI
 =================================

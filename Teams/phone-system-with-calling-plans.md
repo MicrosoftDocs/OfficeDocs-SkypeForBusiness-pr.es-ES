@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: MyAdvisor
 description: Guía práctica para planificar, implementar y administrar Sistema telefónico con Planes de llamada en Microsoft Teams mediante el marco Enfoque (planificar), Incorporación (entregar), Nuevos valores (operar).
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: c697da99ab2ca96794448dca93f45ae29efa103d
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
+ms.openlocfilehash: 2ce4d09113cc75381379fa6f9481eca2ae27c2ea
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779895"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853658"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Guía práctica para Sistema telefónico con planes de llamada en Microsoft Teams
 =========================================================================
@@ -27,7 +28,7 @@ Sistema telefónico es una funcionalidad de Office 365 que permite administrar e
 
 Planes de llamada de Office 365 es un servicio complementario para la función Sistema telefónico que se proporciona a través de Microsoft Teams y Skype Empresarial Online. Planes de llamada proporciona a los usuarios de su empresa un número de teléfono principal y les permite realizar llamadas fuera de la organización y recibirlas a través de la red telefónica conmutada (RTC).
 
-Para obtener más información, consulte [Esto es lo que conseguirá con Sistema telefónico en Office 365](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) y [¿Qué son los Planes de llamada en Office 365?](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
+Para obtener más información, consulte [Esto es lo que conseguirá con Sistema telefónico en Office 365](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) y [¿Qué son los Planes de llamada en Office 365?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
 
 En esta guía práctica se detallan el recorrido que sigue el cliente con FastTrack para Office 365 y las tres fases que lo conforman (Enfoque, Incorporación y Nuevos valores) para ayudarle a planificar, entregar y utilizar una implementación correcta de Sistema telefónico con Planes de llamada.
 
@@ -150,7 +151,7 @@ Para conseguir los OKR que se pretenden, es posible que tenga que definir una ar
 
 Todas las cuestiones relacionadas con la informática para usuarios finales, como la evaluación de la preparación de los ordenadores personales y los dispositivos móviles para admitir casos de uso empresariales para Sistema telefónico con Planes de llamada, desde los requisitos de hardware hasta los de software, se incluirán como parte del proceso de descubrimiento del entorno.
 
-Con el descubrimiento del entorno también se puede poner de manifiesto si existe la necesidad de [transferir números de teléfono a Microsoft](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365). De este modo, la organización podrá ajustar el plan de proyecto y preparar toda la información que necesite para la portabilidad de los números. Para realizar un descubrimiento del entorno, use el [cuestionario de descubrimiento](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_3).
+Con el descubrimiento del entorno también se puede poner de manifiesto si existe la necesidad de [transferir números de teléfono a Microsoft](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365). De este modo, la organización podrá ajustar el plan de proyecto y preparar toda la información que necesite para la portabilidad de los números. Para realizar un descubrimiento del entorno, use el [cuestionario de descubrimiento](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_3).
 
 En el descubrimiento del entorno se debe incluir la evaluación de preparación de la red para asegurarse de que esta puede soportar la implementación de Sistema telefónico con Planes de llamada.
 
@@ -263,8 +264,8 @@ Tras confirmar que su organización reúne los requisitos para poder usar el com
 
 Planes de llamada es un componente de la función Sistema telefónico en Office 365, por lo que debe tener habilitada una licencia de Sistema telefónico para usar Planes de llamada.
 
-La [licencia de Sistema telefónico](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) está disponible como parte de los planes de suscripción de Office 365 E5, o como complemento para los planes de suscripción de Office 365 E1 y E3.
-Hay dos tipos de [licencia de Planes de llamada](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365):
+La [licencia de Sistema telefónico](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) está disponible como parte de los planes de suscripción de Office 365 E5, o como complemento para los planes de suscripción de Office 365 E1 y E3.
+Hay dos tipos de [licencia de Planes de llamada](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365):
 
 -   Plan de llamada nacional
 -   Plan de llamada nacional e internacional
@@ -278,11 +279,11 @@ Normalmente no es necesario que todos los usuarios de una organización puedan r
 
 Para cada inquilino de Office 365, la cantidad combinada de minutos de llamada se agrupa por país o región, y por tipo de Plan de llamada. Cuando un inquilino llega al límite de minutos de llamada mensual, el servicio de Planes de llamada se suspende hasta finalizar el mes (a excepción de las llamadas de emergencia). Los servicios de Planes de llamada se reanudarán automáticamente el primer día del siguiente mes natural.
 
-Para que los usuarios puedan realizar llamadas salientes después de agotar los minutos de llamada sin que tengan que esperar al ciclo de facturación del mes siguiente, puede configurar Créditos de comunicaciones para su organización. Los [Créditos de comunicaciones](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) también permiten a los usuarios que tienen asignado un Plan de llamada nacional realizar llamadas internacionales que se facturarán por minuto.
+Para que los usuarios puedan realizar llamadas salientes después de agotar los minutos de llamada sin que tengan que esperar al ciclo de facturación del mes siguiente, puede configurar Créditos de comunicaciones para su organización. Los [Créditos de comunicaciones](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) también permiten a los usuarios que tienen asignado un Plan de llamada nacional realizar llamadas internacionales que se facturarán por minuto.
 
-La primera consideración que hay que tener en cuenta a la hora de implementar Créditos de comunicaciones es decidir la cantidad inicial de fondos que se deben adquirir. La cantidad de fondos que se recomienda se puede consultar en el artículo [Créditos de comunicaciones](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
+La primera consideración que hay que tener en cuenta a la hora de implementar Créditos de comunicaciones es decidir la cantidad inicial de fondos que se deben adquirir. La cantidad de fondos que se recomienda se puede consultar en el artículo [Créditos de comunicaciones](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
 
-En el artículo [Créditos de comunicaciones](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) también se incluye una recomendación para el umbral (la cantidad más baja de fondos), lo que le interesará especialmente si su organización decide utilizar la recarga automática. El importe de recarga automática se determina por el uso real. Con el paso del tiempo es recomendable supervisar el uso de Créditos de comunicaciones y ajustar la cantidad de recarga según sea necesario.
+En el artículo [Créditos de comunicaciones](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) también se incluye una recomendación para el umbral (la cantidad más baja de fondos), lo que le interesará especialmente si su organización decide utilizar la recarga automática. El importe de recarga automática se determina por el uso real. Con el paso del tiempo es recomendable supervisar el uso de Créditos de comunicaciones y ajustar la cantidad de recarga según sea necesario.
 
 El uso de Créditos de comunicaciones se puede controlar por usuario, lo que le permite asegurarse de que se ha asignado la funcionalidad a personas de la organización que tienen necesidades empresariales legítimas para usarla.
 
@@ -314,30 +315,30 @@ El uso de Créditos de comunicaciones se puede controlar por usuario, lo que le 
 
 ## <a name="phone-numbers-and-emergency-locations"></a>Números de teléfono y ubicaciones de emergencia
 
-Con Planes de llamada en Office 365, cada usuario de su organización debe tener un número de teléfono de marcado entrante directo (DID, del inglés "Direct Inward Dialing") único y su correspondiente [dirección de emergencia validada](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing).
+Con Planes de llamada en Office 365, cada usuario de su organización debe tener un número de teléfono de marcado entrante directo (DID, del inglés "Direct Inward Dialing") único y su correspondiente [dirección de emergencia validada](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing).
 
-Los números de teléfono se pueden conseguir [directamente a través de Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization), pero también es posible [transferir (portar) a Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365) los números que ya tenga.
+Los números de teléfono se pueden conseguir [directamente a través de Microsoft](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization), pero también es posible [transferir (portar) a Microsoft](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365) los números que ya tenga.
 
 > [!NOTE]
 > La complejidad que entraña la transferencia de los números de teléfono a Microsoft varía enormemente según cuáles sean los países y las regiones, los operadores, el número de circuitos involucrados y muchos otros factores. Para planificar la portabilidad de los números de teléfono, consulte los detalles recogidos en la [guía de portabilidad de números](https://go.microsoft.com/fwlink/?linkid=859011).
 
 Para obtener números de teléfono de Microsoft directamente, use una de estas opciones:
 
-- [Centro de administración de Skype Empresarial](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
+- [Centro de administración de Skype Empresarial](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
 - [Cmdlets a través de una sesión remota de Windows PowerShell](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-- [Envío de un formulario de solicitud de número de teléfono nuevo](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+- [Envío de un formulario de solicitud de número de teléfono nuevo](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
 
 El formulario de solicitud de números de teléfono nuevos es la mejor opción para la adquisición planificada de números de teléfono, porque le permite solicitar un bloque de números de teléfono consecutivos. La obtención de números de teléfono mediante el centro de administración de Skype Empresarial o una sesión remota de Windows PowerShell no está disponible en todos los países o regiones.
 
 Los dos primeros métodos (usar el centro de administración de Skype Empresarial o una sesión remota de Windows PowerShell) se pueden utilizar para una adquisición de números de teléfono instantánea y puntual, y cuando no se requieren bloques de números de teléfono consecutivos.
 
 > [!NOTE]
-> Existe un límite en la [cantidad de números de teléfono](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get) que se pueden adquirir a través de Microsoft, que se basa en el número de licencias de Plan de llamada suscritas en su organización. Para calcular los números de teléfono de usuario (suscriptor), la fórmula es (número de Plan de llamada nacional + licencias de Plan de llamada nacional e internacional) x 1,1 + 10. Por ejemplo, si tiene 50 usuarios con licencias de Plan de llamada, puede adquirir 65 números de teléfono ((50 x 1,1) + 10).
+> Existe un límite en la [cantidad de números de teléfono](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get) que se pueden adquirir a través de Microsoft, que se basa en el número de licencias de Plan de llamada suscritas en su organización. Para calcular los números de teléfono de usuario (suscriptor), la fórmula es (número de Plan de llamada nacional + licencias de Plan de llamada nacional e internacional) x 1,1 + 10. Por ejemplo, si tiene 50 usuarios con licencias de Plan de llamada, puede adquirir 65 números de teléfono ((50 x 1,1) + 10).
 
 Cuando configura números para Planes de llamada, es necesario asignar una dirección de emergencia a cada número de teléfono antes de realizar la asignación al usuario. Este paso es necesario para poder realizar llamadas de emergencia. La dirección de emergencia se debe validar para garantizar que se reconoce, que tiene el formato correcto y que la pueden usar los servicios de respuesta ante emergencias.
 
 > [!IMPORTANT]
-> Con el servicio de Planes de llamada, la función de Llamada a servicios de emergencia funciona de modo diferente que con los servicios de telefonía tradicionales. Es importante que comprenda estas diferencias e informe de ellas a todos los usuarios. Consulte [Términos y condiciones de las llamadas de emergencia](https://docs.microsoft.com/en-us/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions) para obtener más información.
+> Con el servicio de Planes de llamada, la función de Llamada a servicios de emergencia funciona de modo diferente que con los servicios de telefonía tradicionales. Es importante que comprenda estas diferencias e informe de ellas a todos los usuarios. Consulte [Términos y condiciones de las llamadas de emergencia](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions) para obtener más información.
 
 Además de las direcciones de emergencia validadas, se pueden definir ubicaciones de emergencia y asociarlas con direcciones de emergencia validadas para proporcionar una ubicación más precisa en una dirección. Una ubicación de emergencia es, normalmente, el número de edificio, la planta, la sección del edificio o el número de oficina donde se encuentra el usuario.
 
@@ -345,7 +346,7 @@ Además de las direcciones de emergencia validadas, se pueden definir ubicacione
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>Decida cómo se obtendrán los números de teléfono para las oficinas o ubicaciones de usuario que entran dentro de la implementación de Planes de llamada (obtenerlos de Microsoft o transferir números de teléfono existentes).</li><li>Si elige obtenerlos de Microsoft, decida el método para obtener los números de teléfono (envío de formulario o automatizado) para las oficinas o ubicaciones de usuario que entran dentro de la implementación de Planes de llamada.</li><li>Decida el nivel de detalle de la información sobre ubicación de emergencia que se recopilará para definir las oficinas o ubicaciones de usuario dentro de la implementación de Planes de llamada.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Siguientes pasos|<ul><li>Documente el plan maestro para la adquisición de números de teléfono y especifique cómo se obtendrán los números de teléfono para cada oficina o ubicación de usuario que entre dentro de la implementación de Planes de llamada.</li><li>Si corresponde, complete <a href="https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization">un formulario de solicitud de número de teléfono nuevo</a> por cada oficina o ubicación.</li><li>Si elige transferir números de teléfono existentes, revise la <a href="https://go.microsoft.com/fwlink/?linkid=859011">guía de portabilidad de números</a> para planificar y ajustar el tiempo de implementación de Planes de llamada de forma acorde.</li><li>Documente las ubicaciones y las direcciones emergencia detalladas para cada oficina o ubicación de usuario dentro de la implementación de Planes de llamada.</li></ul>
+|<img src="media/audio_conferencing_image9.png" />|Siguientes pasos|<ul><li>Documente el plan maestro para la adquisición de números de teléfono y especifique cómo se obtendrán los números de teléfono para cada oficina o ubicación de usuario que entre dentro de la implementación de Planes de llamada.</li><li>Si corresponde, complete <a href="https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization">un formulario de solicitud de número de teléfono nuevo</a> por cada oficina o ubicación.</li><li>Si elige transferir números de teléfono existentes, revise la <a href="https://go.microsoft.com/fwlink/?linkid=859011">guía de portabilidad de números</a> para planificar y ajustar el tiempo de implementación de Planes de llamada de forma acorde.</li><li>Documente las ubicaciones y las direcciones emergencia detalladas para cada oficina o ubicación de usuario dentro de la implementación de Planes de llamada.</li></ul>
 
 > [!TIP]
 > Los detalles sobre la adquisición de números de teléfono, los números de teléfono y los datos de las ubicaciones de emergencia se pueden documentar con la plantilla siguiente:
@@ -388,7 +389,7 @@ El correo de voz de Sistema telefónico cuenta con transcripción del correo de 
 
 ## <a name="calling-identity"></a>Identidad de llamada
 
-De forma predeterminada, todas las llamadas salientes usan el número de teléfono asignado como identidad de llamada (identificador de llamada). El destinatario de la llamada puede identificar rápidamente a la persona que llama y decidir si desea aceptar o rechazar la llamada. En algunos casos, existen requisitos empresariales legítimos para ocultar el identificador de llamada con el fin de proteger la identidad de la persona que llama usando en su lugar el número de la línea principal de la oficina (normalmente se trata de un número de servicio configurado para ser atendido con un [operador automático](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)) o bloqueando la presentación del identificador de llamada.
+De forma predeterminada, todas las llamadas salientes usan el número de teléfono asignado como identidad de llamada (identificador de llamada). El destinatario de la llamada puede identificar rápidamente a la persona que llama y decidir si desea aceptar o rechazar la llamada. En algunos casos, existen requisitos empresariales legítimos para ocultar el identificador de llamada con el fin de proteger la identidad de la persona que llama usando en su lugar el número de la línea principal de la oficina (normalmente se trata de un número de servicio configurado para ser atendido con un [operador automático](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)) o bloqueando la presentación del identificador de llamada.
 
 <br>
 |         |         |         |
@@ -409,7 +410,7 @@ De forma predeterminada, todas las llamadas salientes usan el número de teléfo
 
 ## <a name="dial-plans"></a>Planes de marcado
 
-Un [plan de marcado](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans) en la característica de Sistema telefónico de Office 365 es un conjunto de reglas de normalización con las que los números de teléfono que se marcan se traducen a un formato alternativo (normalmente, el formato [E.164](https://go.microsoft.com/fwlink/?linkid=859014)) para poder autorizar las llamadas y enrutarlas. 
+Un [plan de marcado](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans) en la característica de Sistema telefónico de Office 365 es un conjunto de reglas de normalización con las que los números de teléfono que se marcan se traducen a un formato alternativo (normalmente, el formato [E.164](https://go.microsoft.com/fwlink/?linkid=859014)) para poder autorizar las llamadas y enrutarlas. 
 
 Con un plan de marcado, los usuarios pueden marcar números de teléfono de la forma habitual, como, por ejemplo, omitiendo el código de área para las llamadas locales, omitiendo el prefijo internacional para las llamadas nacionales o incluso usando una marcación de dígitos breve cuando se realizan llamadas telefónicas.
 
@@ -421,7 +422,7 @@ Dentro de la característica de Sistema telefónico de Office 365, existen dos t
     -   **Plan de marcado de usuario de inquilino:** el plan se aplica únicamente a determinados usuarios.
 
 > [!NOTE]
-> Consulte [¿Qué son los planes de marcado?](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans) para obtener más información y ejemplos.
+> Consulte [¿Qué son los planes de marcado?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans) para obtener más información y ejemplos.
 
 El plan de marcado efectivo que se asigna a los usuarios es la combinación del plan de marcado de servicio (basado en la ubicación de uso de Office 365 del usuario) y el plan de marcado de inquilino (ya sea el de inquilino global o el de usuario de inquilino).
 
@@ -494,6 +495,6 @@ Nuevos valores ===========
 <br>
 ## <a name="see-also"></a>Vea también
 
-[Configurar Planes de llamada](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+[Configurar Planes de llamada](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
 [Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)

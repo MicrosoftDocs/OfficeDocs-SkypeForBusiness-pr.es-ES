@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 589bf5f5-490a-4215-8588-99bab7d33e31
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -21,12 +22,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn what emergency address, location, and emergency call routing are, and how to plan and assign them to your users. '
-ms.openlocfilehash: 469c31f7af2ef92bfa2f6a17939093a096e6d1d0
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 55a19854b3b95d7f8dfac711412041ee06a9d890
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783041"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853362"
 ---
 # <a name="what-are-emergency-locations-addresses-and-call-routing"></a>¿Qué son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?
 

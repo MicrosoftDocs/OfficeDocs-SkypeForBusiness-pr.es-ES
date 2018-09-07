@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 28cbf7d7-97f3-4a99-aa76-897022c14a24
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Las siguientes son preguntas más frecuentes sobre la transferencia de los números de teléfono a Skype para la empresa. Después de revisar las respuestas, deberá estar preparado para crear un orden de puerto y transferir los números de teléfono. Vea los números de teléfono de transferencia a Office 365 para obtener instrucciones.
-ms.openlocfilehash: 1153ee53efaf0b158c6c8c63dcd65cfa5f758007
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 17454e6f6ae57c96feeae6f4c3d23b1c6572bd62
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784369"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23869456"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Preguntas comunes sobre la transferencia de números de teléfono
 
@@ -167,7 +168,7 @@ A continuación se muestran los errores más comunes entre los clientes que han 
 Para transferir o *puerto a* números de teléfono de Skype para profesionales en línea a otro proveedor de servicios telefónicos o portadora, tendrá que establecer un PIN. Después de establecer el PIN, necesitará incluirlo en la solicitud a un número de teléfono fuera de puerto. Para ver cómo configurar el NIP, vea [establecer el PIN para transferir los números a un nuevo proveedor de servicios](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).
 
 > [!NOTE]
-> Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+> Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
   
 ## <a name="related-topics"></a>Temas relacionados

@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: rowille
 description: Siga el núcleo, las tareas pendientes y las actividades en esta lista de comprobación al configurar las cargas de trabajo de voz de la nube en los equipos.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 09532a192702de0724ec0132af4f680a0d7c4d32
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 323439969652a6845a7ed2da9c6057263e1233c8
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780418"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23868000"
 ---
 # <a name="configure-cloud-voice-workloads-in-microsoft-teams"></a>Configurar las cargas de trabajo de voz de la nube en Microsoft Teams
 

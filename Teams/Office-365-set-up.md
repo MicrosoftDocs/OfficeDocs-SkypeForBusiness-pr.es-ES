@@ -11,15 +11,16 @@ description: Obtenga información sobre cómo activar Microsoft Teams para la or
 localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef50582c9cda335465bf396637875b32c5164212
-ms.sourcegitcommit: 1f345f13c8edf04efb0a8dd02d6c11f793ba201a
+ms.openlocfilehash: a03d4d6c1d2d4f8cd5907af294d4891a60f8059f
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "22111737"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23859314"
 ---
 # <a name="enable-teams-in-your-organization"></a>Permiten a los equipos de la organización
 

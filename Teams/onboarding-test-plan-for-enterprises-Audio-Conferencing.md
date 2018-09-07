@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: rowille
 description: Validar que se cumplen las expectativas de su organización a través de las pruebas de conferencias de Audio en las características de los equipos, las funciones y facilidad de uso.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8295884d973dc873a7646be629bd639adba2156a
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: e60a434e352c0165ef71075307617c009555ff34
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779128"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862788"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>Definir y documentar la conferencia de Audio en el plan de pruebas de los equipos para empresas 
 ===============================================================================

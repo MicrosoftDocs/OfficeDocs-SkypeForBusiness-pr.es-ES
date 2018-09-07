@@ -10,14 +10,15 @@ ms.reviewer: ''
 description: Obtenga información sobre los límites, especificaciones y otros requisitos que se aplican a Microsoft Teams.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
+search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18db7bc405dcc06a14fccd1a7b3e81ee5f625d0f
-ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
+ms.openlocfilehash: 60f90a18378dc00da7dc218a85f072cecaa8b943
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21708335"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867800"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y las especificaciones de Microsoft Teams
 =============================================
@@ -62,7 +63,7 @@ Dado que los equipos se ejecuta en un back-end de SharePoint Online para uso com
 
 Cada ficha archivos en los equipos se ejecuta en un back-end de SharePoint Online, por lo que los límites de almacenamiento de información anteriores se aplican a cada canal dentro de un equipo.
 
-Para obtener más información, vea [los límites de SharePoint Online](https://support.office.com/en-us/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
+Para obtener más información, vea [los límites de SharePoint Online](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
 <a name="messaging"></a>Mensajes
 ---------

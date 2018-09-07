@@ -10,15 +10,16 @@ ms.reviewer: dearbeen
 description: Instrucciones para iniciar un piloto de Microsoft Teams para todas las respuestas que los equipos explorar pueden ofrecen a su organización mientras sigue usar Skype para la empresa
 localization_priority: Priority
 ms.custom: Teams-upgrade-guidance
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35ec24edb381f48992c2f558d1b7e68b1ffd6d74
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: b1a21c14182f0a4666eb5ae236cc9ac382a6bced
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20393930"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867920"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación] (media/upgrade-banner-deployment.png "Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación")
 

@@ -8,15 +8,16 @@ ms.service: msteams
 ms.reviewer: snigdhav
 description: Obtenga información acerca del uso de los equipos en un arrendamiento de Multi-ubican-enabled OneDrive de Office 365 y SharePoint Online.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f39a570804cd0dd0e2bd144b7d5c0137614c3fba
-ms.sourcegitcommit: 2b15226723c299fe94f1a012aa21222173fe3af8
+ms.openlocfilehash: 343b15cd29f3ac40002bf7fe2851faea93f36288
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "20192175"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860750"
 ---
 <a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Experimentan de los equipos en un arrendamiento de Multi-ubican-enabled OneDrive de Office 365 y SharePoint Online
 ===========================================

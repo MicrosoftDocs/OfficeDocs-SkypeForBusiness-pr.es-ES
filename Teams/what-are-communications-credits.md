@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 524dbea7-117f-493d-8005-6461f7f10059
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 5efdb56c3aecf4c0700c95f00daff64e9b2dcfec
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 8aa163b3f606320085e6af5770d02329f6120d94
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785121"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23852256"
 ---
 # <a name="what-are-communications-credits"></a>¿Qué son los Créditos de comunicaciones?
 
@@ -51,7 +52,7 @@ Créditos de comunicaciones son una forma cómoda de pago para los minutos de co
   
 ## <a name="what-are-the-communications-credits-rates"></a>¿Cuáles son las tasas de créditos de comunicaciones?
 
-Si se pregunta cómo cuáles son el costo de las llamadas para llamar a los planes, consulte planes de créditos Communications [tasas de llamada](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#Rates) .
+Si se pregunta cómo cuáles son el costo de las llamadas para llamar a los planes, consulte planes de créditos Communications [tasas de llamada](https://products.office.com/skype-for-business/pstn-calling-plans#Rates) .
   
 ## <a name="what-is-it"></a>¿Qué es?
 

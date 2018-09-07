@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -28,12 +29,12 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Obtenga información sobre cómo pagar créditos de comunicación (consumo de RTC) para Skype para servicios de negocios y vea los planes para mantener a los usuarios con acceso al sistema de teléfono continua. '
-ms.openlocfilehash: 3ac0bff5d5bd0b75e40bf18b41e9e3ceee2dc49c
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 281ac6033c5c748161d15a6a588353b2baeed433
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784017"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850912"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Agregar fondos y administrar Créditos de comunicaciones
 
@@ -87,7 +88,7 @@ Para ver una tabla con la licencia o licencias que necesitará para cada caracte
     
 - [Configurar planes de llamada](set-up-calling-plans.md) y [Planes de llamada de Office 365](calling-plans-for-office-365.md)
         
-- [Configurar el conector en la nube](https://technet.microsoft.com/en-us/library/mt605228.aspx) y [Descargue el conector en la nube](https://aka.ms/CloudConnectorInstaller)
+- [Configurar el conector en la nube](https://technet.microsoft.com/library/mt605228.aspx) y [Descargue el conector en la nube](https://aka.ms/CloudConnectorInstaller)
 
   
  

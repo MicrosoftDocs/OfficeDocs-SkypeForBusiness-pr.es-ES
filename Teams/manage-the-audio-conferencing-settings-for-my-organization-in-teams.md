@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: bc9bd328-c5b2-44e5-af15-e02bf00e1c81
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Consulte los pasos de Microsoft Teams para asignar un identificador de conferencia y licencia de conferencia de acceso telefónico a un usuario y muchas otras opciones de conferencia de acceso telefónico. '
-ms.openlocfilehash: 2e372c76cbbedeaa7558b4308366262e93cb5b91
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: b9b3198f5d66b36e986eeab72fdf5dd31521fb14
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780375"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23866838"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>Administrar la configuración de conferencia de Audio de mi organización en Microsoft Teams
 
@@ -69,11 +70,11 @@ Sería más fácil para que pueda ver toda la configuración de conferencia de a
     
 **Vea **Enviar un correo electrónico a un usuario con su información de conferencias de Audio**.**
   
-Vea la [referencia de PowerShell de los equipos de Microsoft](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) para obtener más información.
+Vea la [referencia de PowerShell de los equipos de Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
     
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>Change the sender's contact information in email messages sent to users
 
-Puede realizar cambios en el correo electrónico que se envía automáticamente a los usuarios, incluida la dirección de correo electrónico real y el nombre para mostrar de la información de contacto del remitente. De forma predeterminada, el remitente de los mensajes de correo electrónico es Office 365, pero puede cambiar la dirección de correo electrónico y Mostrar nombre con Windows PowerShell. Vea la [referencia de PowerShell de los equipos de Microsoft](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) para obtener más información.
+Puede realizar cambios en el correo electrónico que se envía automáticamente a los usuarios, incluida la dirección de correo electrónico real y el nombre para mostrar de la información de contacto del remitente. De forma predeterminada, el remitente de los mensajes de correo electrónico es Office 365, pero puede cambiar la dirección de correo electrónico y Mostrar nombre con Windows PowerShell. Vea la [referencia de PowerShell de los equipos de Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
   
 ## <a name="reset-the-meeting-conference-id"></a>Restablecer el id. de conferencia de reunión
 
@@ -215,7 +216,7 @@ Windows PowerShell se usa para administrar los usuarios y las acciones que puede
     
   - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Para obtener más información acerca de Windows PowerShell, vea la [referencia de PowerShell de los equipos de Microsoft](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) para obtener más información.
+Para obtener más información acerca de Windows PowerShell, vea la [referencia de PowerShell de los equipos de Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
   
     
 ## <a name="related-topics"></a>Temas relacionados

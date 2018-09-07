@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: El proyecto de actualización de ámbito por perfeccionamiento de su visión y objetivos.
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a471048aca4dddf785b08a6aa0f799cd18d526fc
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 3745901015ed12675aabe41a0e9c614982c12304
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398000"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23869968"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de definición del proyecto] (media/upgrade-banner-project-definition.png "Fases de la actualización viaje, con especial hincapié en la fase de definición del proyecto")
 

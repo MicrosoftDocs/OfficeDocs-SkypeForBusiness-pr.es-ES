@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 8de49037-905c-4757-a6e7-cf212173e7f3
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo se obtienen y se administran los números de teléfono en Francia para Skype Empresarial Online y Microsoft Teams.
-ms.openlocfilehash: 40973f96e9c1be7ff7a36c8f7c00b646cee02714
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 306bac1b12fa6aa95201c7f398fd905a7a6b63ca
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784985"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23868192"
 ---
 # <a name="phone-number-management-for-france"></a>Administración de números de teléfono para Francia
 

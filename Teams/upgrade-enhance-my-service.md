@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Con regularidad evaluar las oportunidades para mejorar el servicio de los equipos después de actualizar, supervisar la guía básica de los equipos para las mejoras de la característica interesante.
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efdbdd28759f42e1fcba5cb62f2c7a8a97f99bb0
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: c89894f0df37ea1e29cea65e091b7bd4f4670fc0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398096"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864458"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa")
 
@@ -31,7 +32,7 @@ En este artículo se proporciona una visión general de los requisitos para obte
 ## <a name="enhance-my-service-overview"></a>Mejorar la información general de mi servicio
 Después de que ha implementado correctamente los equipos en su organización y está usando el servicio con calidad y confiabilidad, el siguiente paso consiste en evaluar con regularidad si tiene cualquier oportunidades para mejorar los servicios. Esto es una parte de planeación, es decir, un moderno estándar para la administración de servicio de nube de la mejora continua del servicio. 
 
-Forma ideal para asegurarse de que siempre obtendrá el máximo partido de los servicios es supervisar las [guías públicas de los equipos](https://products.office.com/en-us/business/office-365-roadmap?filters=microsoft%20teams) de nuevas mejoras de características que podrían ser de interés para la organización. Si dispone de acceso al portal de administración de Office 365, recibirá actualizaciones regulares de nosotros acerca de las características nuevas y cambiantes a través de nuestro centro de mensajes. 
+Forma ideal para asegurarse de que siempre obtendrá el máximo partido de los servicios es supervisar las [guías públicas de los equipos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) de nuevas mejoras de características que podrían ser de interés para la organización. Si dispone de acceso al portal de administración de Office 365, recibirá actualizaciones regulares de nosotros acerca de las características nuevas y cambiantes a través de nuestro centro de mensajes. 
 
 Además, debido a que las organizaciones crecen y cambian, debe tomarse su tiempo para revisar y actualizar los casos de uso empresarial a intervalos regulares para asegurarse de que el servicio está configurado para satisfacer las necesidades de su organización actual.  Asegurarse de que obtiene los comentarios para el mundo real de los usuarios y campeones internos mediante el establecimiento de canales de comentarios en la organización. Se pueden conversaciones informales, meeetings regular, o a través de los equipos de un canal o Yammer de la Comunidad. 
 

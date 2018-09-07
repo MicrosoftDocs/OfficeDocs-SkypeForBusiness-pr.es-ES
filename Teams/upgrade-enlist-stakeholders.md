@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Dar de alta las partes interesadas para atender en el equipo del proyecto para la actualización.
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5730114749a76e32c1add2ed7f9de8e15933d3ff
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 8c4aa72a3d2c15ce71df9a018a6e51e05b9e8f25
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398128"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23866282"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la recopilación de su equipo de las partes interesadas del proyecto] (media/upgrade-banner-stakeholders.png "Fases de la actualización viaje, con especial hincapié en la recopilación de su equipo de las partes interesadas del proyecto")
 

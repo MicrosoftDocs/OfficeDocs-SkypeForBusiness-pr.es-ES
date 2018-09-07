@@ -8,16 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 description: Describe cómo utiliza la carga de trabajo de los equipos flujos de Office 365 en varias topologías.
-ms.openlocfilehash: 2374349f426de6fb25d25cc4ded7c6c8a776dd1d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 69b4deb078a0626c8a7cc4dce808825f2d038bac
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964544"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861820"
 ---
 # <a name="microsoft-teams-online-call-flows"></a>Flujos de llamadas de los equipos de Microsoft Online
 
@@ -50,7 +51,7 @@ Normalmente, una red de cliente tiene varias perímetros de red con servidores d
 
 ### <a name="connectivity-to-office-365"></a>Conectividad a Office 365
 
-Servicio de los equipos requiere [conectividad a Internet](https://support.office.com/en-us/article/connectivity-to-the-internet-64b420ef-0218-48f6-8a34-74bb27633b10). Los extremos IP intervalos de direcciones y direcciones URL de los equipos se enumeran en [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2). (Nota: requiere para abrir la conectividad con los puertos TCP 80 y 443 y puertos UDP 3478 3481 a.) Además, el servicio de los equipos tiene dependencia de Skype para servicios en línea de negocio, por lo tanto, se requiere para conectar este servicio también a Internet.
+Servicio de los equipos requiere [conectividad a Internet](https://support.office.com/article/connectivity-to-the-internet-64b420ef-0218-48f6-8a34-74bb27633b10). Los extremos IP intervalos de direcciones y direcciones URL de los equipos se enumeran en [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). (Nota: requiere para abrir la conectividad con los puertos TCP 80 y 443 y puertos UDP 3478 3481 a.) Además, el servicio de los equipos tiene dependencia de Skype para servicios en línea de negocio, por lo tanto, se requiere para conectar este servicio también a Internet.
 
 Conectividad de flujos de medios de los equipos se implementa mediante procedimientos estándar de IETF ICE (establecimiento interactivo de conectividad).
 

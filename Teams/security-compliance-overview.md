@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: anach
 description: Descripción general de las características de seguridad y cumplimiento de Microsoft Teams, que incluye auditoría y generación informes, búsqueda de contenido de cumplimiento, eDiscovery y mucho más.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7dbbee64837e9a00ec09e09d93342741bee3a7c7
-ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
+ms.openlocfilehash: 7a778288b32e9f8ce84e5ec037a531a8357e181c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "20265902"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850226"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================
@@ -34,11 +35,11 @@ También hemos agregado compatibilidad con la búsqueda en el registro de audito
 
 ## <a name="auditing-and-reporting"></a>Auditoría y generación de informes
 
-Búsqueda de registro de auditoría derecha en el centro de cumplimiento y seguridad de Office 365 se conecta y expone capacidades para establecer alertas o informar sobre eventos de auditoría haciendo que estén disponibles, exportar de carga de trabajo específica o evento genérico se establece para el uso de administración y de investigación, a través de un escala de tiempo de auditoría ilimitado. Todos los datos de registro de auditoría está disponibles para la configuración de alertas en el centro de cumplimiento y seguridad de Office 365, así como para filtrar y exportar para realizar un análisis. Consulte este [vínculo](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) para obtener más información acerca de cómo llevar a cabo una búsqueda de registro de auditoría para eventos de Microsoft Teams en el centro de seguridad de Office 365 y cumplimiento de normas. 
+Búsqueda de registro de auditoría derecha en el centro de cumplimiento y seguridad de Office 365 se conecta y expone capacidades para establecer alertas o informar sobre eventos de auditoría haciendo que estén disponibles, exportar de carga de trabajo específica o evento genérico se establece para el uso de administración y de investigación, a través de un escala de tiempo de auditoría ilimitado. Todos los datos de registro de auditoría está disponibles para la configuración de alertas en el centro de cumplimiento y seguridad de Office 365, así como para filtrar y exportar para realizar un análisis. Consulte este [vínculo](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) para obtener más información acerca de cómo llevar a cabo una búsqueda de registro de auditoría para eventos de Microsoft Teams en el centro de seguridad de Office 365 y cumplimiento de normas. 
 
 ## <a name="compliance-content-search"></a>Búsqueda de contenido de cumplimiento
 
-Búsqueda de contenido puede se usa para buscar todos los datos de los equipos a través de capacidades de filtrado de enriquecido y exportar a un contenedor específico para la compatibilidad con el cumplimiento de normas y litigios. Esto puede realizarse con o sin un caso de exhibición de documentos electrónicos. Esto permite que los administradores de cumplimiento recopilar datos de los equipos a través de todos los usuarios, revisar y exportar para continuar el procesamiento. Consulte este [vínculo](https://support.office.com/en-us/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4?ui=en-US&rs=en-US&ad=US#teamsandgroups) para obtener más información acerca de cómo realizar una búsqueda de contenido de cumplimiento de normas de contenido de Microsoft Teams en el centro de seguridad de Office 365 y Complianc. 
+Búsqueda de contenido puede se usa para buscar todos los datos de los equipos a través de capacidades de filtrado de enriquecido y exportar a un contenedor específico para la compatibilidad con el cumplimiento de normas y litigios. Esto puede realizarse con o sin un caso de exhibición de documentos electrónicos. Esto permite que los administradores de cumplimiento recopilar datos de los equipos a través de todos los usuarios, revisar y exportar para continuar el procesamiento. Consulte este [vínculo](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) para obtener más información acerca de cómo realizar una búsqueda de contenido de cumplimiento de normas de contenido de Microsoft Teams en el centro de seguridad de Office 365 y cumplimiento de normas. 
 
 Sugerencia: Puede usará el MicrosoftTeams kind para filtrar a través de a Microsoft Teams contenido únicamente, es decir, Chat y mensajes de canal, reuniones y llamadas. 
 
@@ -48,9 +49,9 @@ La exhibición de documentos electrónicos es el aspecto electrónico de identif
 
 Para obtener más información acerca de cómo llevar a cabo la exhibición de documentos electrónicos en el centro de seguridad y cumplimiento de normas y búsqueda de contenido de cumplimiento de normas de ejecución para el contenido de los equipos, vaya a los siguientes vínculos: 
 
-[eDiscovery](https://support.office.com/en-us/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e?ui=en-US&rs=en-US&ad=US) 
+[eDiscovery](https://support.office.com/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e) 
 
-[Búsqueda de contenido](https://support.office.com/en-us/article/search-for-content-in-office-365-df2d1e0f-b476-42c9-aade-4a260b24f193)
+[Búsqueda de contenido](https://support.office.com/article/search-for-content-in-office-365-df2d1e0f-b476-42c9-aade-4a260b24f193)
 
 Los clientes pueden aprovechar por sus requisitos de exhibición de documentos electrónicos en contexto o [avanzada exhibición de documentos electrónicos] (https://support.office.com/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4). La siguiente tabla muestra las diferencias entre estos dos métodos:
 
@@ -69,7 +70,7 @@ Los clientes pueden aprovechar por sus requisitos de exhibición de documentos e
 
 ## <a name="legal-hold"></a>Suspensión legal
 
-Durante un litigio, a menudo es necesario que todos los datos asociados con un usuario (custodia) o un equipo se conserva inalterados por lo que se puede usar como evidencia para el caso. Esto se logra mediante la colocación de un usuario (buzón de correo del usuario) o a un equipo con retención legal. Cuando cualquier equipo dentro de los equipos se pone en conservación local (subconjunto de la colección de sitio o buzón de correo a través de las consultas de destinadas o contenido filtrado) o juicio (colección completa de buzón de correo o sitio), la suspensión se coloca en el buzón de grupos. Esto garantiza que, incluso si los usuarios finales eliminar o editar los mensajes de canal que se ingestión en el buzón de correo de grupo, inmutables copias de que el contenido se conservan y disponibles en la búsqueda de eDisscovery. Las suspensiones legales suelen aplicarse en el contexto de un caso de eDiscovery. Consulte [este](https://support.office.com/en-us/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) artículo para conocer más información acerca de la conservación y las suspensiones en el centro de seguridad de Office 365 y cumplimiento de normas de ayuda. 
+Durante un litigio, a menudo es necesario que todos los datos asociados con un usuario (custodia) o un equipo se conserva inalterados por lo que se puede usar como evidencia para el caso. Esto se logra mediante la colocación de un usuario (buzón de correo del usuario) o a un equipo con retención legal. Cuando cualquier equipo dentro de los equipos se pone en conservación local (subconjunto de la colección de sitio o buzón de correo a través de las consultas de destinadas o contenido filtrado) o juicio (colección completa de buzón de correo o sitio), la suspensión se coloca en el buzón de grupos. Esto garantiza que, incluso si los usuarios finales eliminar o editar los mensajes de canal que se ingestión en el buzón de correo de grupo, inmutables copias de que el contenido se conservan y disponibles en la búsqueda de eDisscovery. Las suspensiones legales suelen aplicarse en el contexto de un caso de eDiscovery. Consulte [este](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) artículo para conocer más información acerca de la conservación y las suspensiones en el centro de seguridad de Office 365 y cumplimiento de normas de ayuda. 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>Arquitectura de protección de la información para los equipos de Microsoft. 
 
@@ -134,7 +135,7 @@ En el centro de seguridad y cumplimiento, al configurar una directiva de retenci
 
 ### <a name="can-we-include-teams-in-org-wide-policies"></a>¿Podemos incluir los equipos de directivas en toda la organización? 
 
-No, no actualmente. Debe crear directivas específicas para mensajes de chat y canal de los equipos con la fila de la ubicación de los equipos o los cmdlets de estos equipos: [New-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps) & [TeamsComplianceRetentionRule de nuevo](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps). Estos cmdlets tienen get y establecer así como las versiones.
+No, no actualmente. Debe crear directivas específicas para mensajes de chat y canal de los equipos con la fila de la ubicación de los equipos o los cmdlets de estos equipos: [New-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps) & [TeamsComplianceRetentionRule de nuevo](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps). Estos cmdlets tienen get y establecer así como las versiones.
 
 ### <a name="are-these-retention-policies-retroactive"></a>¿Son retroactivos estas directivas de retención? 
 
@@ -164,10 +165,10 @@ Absolutamente. Puede crear directivas de retención de los equipos con [segurida
 
 |Directiva|Regla|
 |---|---|
-|[Nueva TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps)| [Nueva TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)|
-|[Get-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancepolicy?view=exchange-ps)| [Get-TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancerule?view=exchange-ps)|
-|[Set-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancepolicy?view=exchange-ps)| [Set-TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancerule?view=exchange-ps)|
-|[Remove-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancepolicy?view=exchange-ps)| [Remove-TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancerule?view=exchange-ps)|
+|[Nueva TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps)| [Nueva TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)|
+|[Get-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancepolicy?view=exchange-ps)| [Get-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancerule?view=exchange-ps)|
+|[Set-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancepolicy?view=exchange-ps)| [Set-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancerule?view=exchange-ps)|
+|[Remove-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancepolicy?view=exchange-ps)| [Remove-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancerule?view=exchange-ps)|
 
 ### <a name="if-there-are-multiple-retention-policies-for-teams-with-varying-durations-which-one-wins"></a>¿Si hay varias directivas de retención para los equipos con distintas duraciones, cuál wins?
 
@@ -226,9 +227,11 @@ Búsqueda de contenido y exhibición de documentos electrónicos no requieren ac
 Los datos de Teams residen en la región geográfica asociada con su inquilino de Office 365. Actualmente, Microsoft Teams admite las regiones de América, EMEA y APAC. 
 
 > [!IMPORTANT]
-> En este momento, Teams ofrece residencia de datos en Reino Unido e Indica solo para los nuevos inquilinos. Un inquilino nuevo se define como cualquier inquilino que no ha tenido ningún usuario desde el inicio de sesión del inquilino en Teams. Los inquilinos existentes del Reino Unido y la India seguirán en las regiones de EMEA y APAC respectivamente hasta que se publique un plan de migración (que está previsto para 2018).
+> Los equipos actualmente ofrece residencia de datos en el Reino Unido, Canadá y India para sólo los inquilinos nuevo. Un inquilino nuevo se define como cualquier inquilino que no ha tenido ningún usuario desde el inicio de sesión del inquilino en Teams. Los inquilinos existentes desde el Reino Unido, Canadá y India seguirán permanecen en las regiones EMEA, América y APAC, respectivamente, hasta que un plan de migración se anuncia (previsto en CY2019).
 
-Si desea conocer más detalles sobre el inicio de la residencia de datos en India y Reino Unido, lea la publicación [Microsoft Teams launches India Data Residency, other geos coming soon](https://go.microsoft.com/fwlink/?linkid=867773) (Microsoft Teams iniciará la residencia de datos de India y otras zonas geográficas muy pronto) en el blog de Ansuman Acharya.
+Si desea conocer más detalles sobre el inicio de la residencia de datos en India y Reino Unido, lea la publicación [Microsoft Teams launches India Data Residency, other geos coming soon](https://go.microsoft.com/fwlink/?linkid=867773) (Microsoft Teams iniciará la residencia de datos de India y otras zonas geográficas muy pronto) en el blog de Ansuman Acharya. 
+
+Para obtener más información en residencia de datos de Canadá para los equipos, vea [Microsoft equipos inicia Canadá datos residencia, Australia y Japón próximamente](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178). 
 
 Para ver qué región aloja los datos de su inquilino, vaya al [Centro de administración de Office 365](https://portal.office.com/adminportal/home) > **Configuración** > **Perfil de organización**. Desplácese hasta **Data location** (Ubicación de datos). 
 
@@ -239,11 +242,11 @@ Para ver qué región aloja los datos de su inquilino, vaya al [Centro de admini
 
 Microsoft Teams depende en gran medida en Exchange Online, SharePoint Online y Skype para la empresa en línea para los escenarios de productividad de núcleo, al igual que las reuniones, calendarios, charlas interoperabilidad & uso compartido de archivos. Las directivas de acceso condicional que se han establecido para estas aplicaciones en la nube se aplican a Microsoft Teams cuando un usuario firma directamente en Microsoft Teams - en cualquier cliente. 
 
-Microsoft Teams se admite por separado como una aplicación de nube en las directivas de acceso condicional de Azure Active Directory. Las directivas de acceso condicional que se han establecido para la aplicación de nube de Microsoft Teams se aplican a Microsoft Teams cuando un usuario inicia sesión. Sin embargo, sin las directivas correctas en otras aplicaciones como Exchange Online y SharePoint Online los usuarios aún podrán tener acceso a esos recursos directamente. Para obtener más información acerca de cómo configurar una directiva de acceso condicional en el portal de azure, vaya aquí: ()https://docs.microsoft.com/en-us/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
+Microsoft Teams se admite por separado como una aplicación de nube en las directivas de acceso condicional de Azure Active Directory. Las directivas de acceso condicional que se han establecido para la aplicación de nube de Microsoft Teams se aplican a Microsoft Teams cuando un usuario inicia sesión. Sin embargo, sin las directivas correctas en otras aplicaciones como Exchange Online y SharePoint Online los usuarios aún podrán tener acceso a esos recursos directamente. Para obtener más información acerca de cómo configurar una directiva de acceso condicional en el portal de azure, vaya aquí: ()https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
 
 Los clientes de escritorio de Microsoft Teams para Windows y Mac admiten la autenticación moderna. Autenticación moderna aporta funcionalidad de inicio de sesión basado en la Azure Active Directory autenticación biblioteca (ADAL) para aplicaciones cliente de Microsoft Office a través de plataformas.
 
-Aplicación de escritorio de Microsoft Teams admite AppLocker.  Para obtener más información sobre los requisitos previos de AppLocker, consulte: requisitos para usar AppLocker (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/applocker/requirements-to-use-applocker).
+Aplicación de escritorio de Microsoft Teams admite AppLocker.  Para obtener más información sobre los requisitos previos de AppLocker, consulte: requisitos para usar AppLocker (https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/requirements-to-use-applocker).
 
 <a name="privacy-in-teams"></a>Privacidad en Teams
 --------------------------

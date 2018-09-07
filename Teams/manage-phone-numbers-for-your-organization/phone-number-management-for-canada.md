@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: none
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo se obtienen y se administran los números de teléfono en Canadá para Skype Empresarial Online y Microsoft Teams.
-ms.openlocfilehash: ec28cbdbc17770d846ffa75e18d77e2f444e6bc0
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: f3f60e8671275ea52b1a094827cca6c82d3704bf
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785961"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865396"
 ---
 # <a name="phone-number-management-for-canada"></a>Administración de números de teléfono para Canadá
 

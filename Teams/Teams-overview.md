@@ -9,17 +9,18 @@ ms.service: msteams
 ms.reviewer: ''
 description: Conozca Microsoft Teams, su infraestructura y cómo funciona con Office 365.
 localization_priority: Priority
+search.appverid: MET150
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86698a3bb7535a20b7fb1b6833062d118f2f9eae
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: dbee055a5d91c6e0e453f0f539cba823226c347e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967132"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867584"
 ---
 <a name="overview-of-microsoft-teams"></a>Introducción a Microsoft Teams
 ===========================
@@ -118,10 +119,4 @@ He aquí los casos de uso comunes para cada aplicación en Office 365. Para obte
 
 ## <a name="teams-client-release-noteshttpssupportofficecomarticlerelease-notes-for-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de"></a>[Notas de la versión del cliente de Microsoft Teams](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
 
-## <a name="what-happened-to-the-teams-admin-faq"></a>¿Qué ha pasado con las preguntas frecuentes del administrador de Microsoft Teams?
 
-Aunque las preguntas frecuentes del administrador de Microsoft Teams eran muy útiles cuando se publicó por primera vez Microsoft Teams, rápidamente se convirtieron en un "cajón desastre" donde era muy difícil encontrar algo. Por ese motivo hemos decidido deshacernos de las preguntas frecuentes y hemos incorporado la información más relevante en la documentación de Microsoft Teams que está leyendo en este momento. Aquí encontrará toda la información que estaba en las preguntas frecuentes, en su contexto correcto.
-
-Si está buscando algo que no puede encontrar aquí, Díganos acerca de él en la sección **comentarios** que aparece a continuación. Intentaremos responder a sus comentarios dentro de 24 horas.
-
-Por cierto, **sí que** hay una sección de preguntas frecuentes en el [recorrido desde Skype Empresarial a Microsoft Teams](FAQ-journey.md). 

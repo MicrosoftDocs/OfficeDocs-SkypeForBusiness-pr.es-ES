@@ -7,18 +7,19 @@ ms.date: 03/23/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: ''
 description: Instrucciones para iniciar sesión en Microsoft Teams mediante el uso de autenticación moderna.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c24625d44bc174a60275b6532001b5f7efc9efc
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: 5899d002ff6492f06b42f824e8799dfc30b9f42f
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "19003369"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849886"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Inicie sesión en los equipos de Microsoft
 ==========================
@@ -53,5 +54,5 @@ Para desconectarse de los equipos, los usuarios pueden haga clic en su imagen de
 
 Autenticación moderna está disponible para todas las organizaciones que usa los equipos, por lo que si los usuarios no pueden completar el proceso, puede haber algún problema con su dominio o cuenta de Office 365 Enterprise de su organización. 
 
-Para obtener más información, vea [¿por qué estoy teniendo problemas para iniciar sesión en Microsoft Teams?](https://support.office.com/en-US/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f).
+Para obtener más información, vea [¿por qué estoy teniendo problemas para iniciar sesión en Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f).
 

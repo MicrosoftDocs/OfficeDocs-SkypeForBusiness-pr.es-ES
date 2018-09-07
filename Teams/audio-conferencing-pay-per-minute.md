@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: d050c8c3-1cd2-45c8-8a6d-2e86e938f356
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: Además de la licencia de cada usuario estándar de conferencias de Audio, por volumen y licencias de las organizaciones también pueden elegir una oferta de pago por minuto para habilitar las capacidades de conferencia de Audio para sus organizaciones.
-ms.openlocfilehash: 16859697bad3ca9409c7973079b9b36ca3085576
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 251116ee5f362710c07a7a53ce4a11f53f3cd09c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783161"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855766"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconferencia con pago por minuto
 
@@ -49,7 +50,7 @@ Mientras que la oferta de licencia por usuario de conferencias de Audio incluye 
 - Llamadas salientes realizadas a números de teléfono externos desde dentro de una reunión de la organización.
     
 > [!NOTE]
-> Puede encontrar las tasas de acceso telefónico y de salida asociadas a estos tipos de llamadas al revisar la **Ver las tarifas de donde desea llamar sección** en una [Conferencia de Audio](https://products.office.com/en-us/skype-for-business/pstn-conferencing). 
+> Puede encontrar las tasas de acceso telefónico y de salida asociadas a estos tipos de llamadas al revisar la **Ver las tarifas de donde desea llamar sección** en una [Conferencia de Audio](https://products.office.com/skype-for-business/pstn-conferencing). 
   
 Pago por minuto requiere su organización tengan [Communications créditos](what-are-communications-credits.md) habilitado con una licencia asignada a cada usuario en orden para conferencias de Audio para que funcione. Si desea obtener más detalles, vea [Configurar Communications créditos para su organización](set-up-communications-credits-for-your-organization.md) o [Skype para profesionales y los equipos de Microsoft complemento licencias](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
   
@@ -59,11 +60,11 @@ Para habilitar la conferencia de Audio pago por minuto para los usuarios de su o
 
  **¿Busca los precios?** Vea [cómo ver los precios y comprar licencias adicionales](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing#bkmk_how) o uno de los siguientes:
   
-- [Precios de Audioconferencia](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
+- [Precios de Audioconferencia](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
     
-- [Precios de Sistema telefónico](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
+- [Precios de Sistema telefónico](https://products.office.com/skype-for-business/phone-system#Requirements)
     
-- [Precios de planes de llamadas](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
+- [Precios de planes de llamadas](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
     
 ## <a name="related-topics"></a>Temas relacionados
   

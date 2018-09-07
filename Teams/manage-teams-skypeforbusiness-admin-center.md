@@ -7,6 +7,7 @@ ms.date: 03/23/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
+search.appverid: MET150
 description: Entender cómo administrar todo el inquilino y configuración del usuario para los equipos durante la transición de los equipos de la experiencia en el centro de administración de Office 365 para el nuevo Microsoft Teams & Skype para el centro de administración de negocio.
 localization_priority: Priority
 ms.custom:
@@ -15,12 +16,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 5528ecfc3d47738e0f34b56f007e36d193d95da6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b81853b33f457dd8a69890774b4b7ff8902d8226
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968191"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864830"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-and-skype-for-business-admin-center"></a>Administrar los equipos durante la transición a la nueva Microsoft Teams y Skype para el centro de administración de negocio
 ======================================================
@@ -44,7 +45,7 @@ La nueva experiencia del centro de administración le proporcionará una experie
 A partir de mediados de marzo 2018, las siguientes capacidades estaban disponibles en el nuevo Microsoft Teams & Skype para el centro de administración de negocio: 
 
 - **Directiva de mensajería de equipos de Microsoft**: Crear directiva para la administración de nivel de usuario de la experiencia del cliente Microsoft Teams para escenarios de mensajería.
-- **Directiva de actualización de los equipos de Microsoft**: configuración de la experiencia de actualización e interoperabilidad entre Skype para la empresa y Microsoft Teams. Vea, https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype. 
+- **Directiva de actualización de los equipos de Microsoft**: configuración de la experiencia de actualización e interoperabilidad entre Skype para la empresa y Microsoft Teams. Vea, https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype. 
 - **Configuración de mensajería de invitado de los equipos de Microsoft**: controlar las capacidades de mensajería para las cuentas de invitado en Microsoft Teams. 
 - **Configuración de federación**: administrar la federación entre los inquilinos para Microsoft Teams y Skype para la empresa. 
 - **Administración de usuarios**: asignar directivas y configuración de cuentas de usuario. 

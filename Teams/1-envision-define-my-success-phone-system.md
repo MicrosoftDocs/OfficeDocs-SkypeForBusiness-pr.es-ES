@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Medir los resultados de su sistema de teléfono con una llamada a los planes de implementación y compruebe que ha conseguido los resultados que desea.
 localization_priority: Priority
@@ -13,12 +14,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
-ms.openlocfilehash: 2d342e9ea5a1209a87a7c896de439f2b39b3fd0e
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 07afb9e758a4c87edb69b02741b35106ec1b3778
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695553"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858078"
 ---
 # <a name="define-my-success"></a>Definir mi éxito
 

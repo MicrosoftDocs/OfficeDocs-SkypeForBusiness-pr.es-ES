@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -24,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Puede seleccionar un país o una región para comprobar si Audioconferencia, Sistema telefónico, Planes de llamada, Créditos de comunicaciones y los números gratuitos y de pago están disponibles o no.
-ms.openlocfilehash: dede3b8c1d3e844399973046d0569f8b3e3fca20
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6be4aa215277fb8e5a1d4186cdac17eed5ca3d1f
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785609"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853346"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Países y regiones donde Audioconferencia y Planes de llamada están disponibles
 
@@ -149,7 +150,7 @@ Con Audioconferencia, hay números gratuitos y de pago que pueden utilizar los u
 
 Para ver más información sobre Audioconferencia, consulte [Preguntas comunes sobre Audioconferencia](../audio-conferencing-common-questions.md)
 
-[Precios de Audioconferencia](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements) 
+[Precios de Audioconferencia](https://products.office.com/skype-for-business/audio-conferencing#Requirements) 
   
 #### <a name="using-the-call-me-feature-or-when-adding-other-people-to-a-meeting-so-they-can-join-it"></a>Al usar la característica Llamarme o al agregar otras personas a la reunión para que puedan unirse a ella
 En Audioconferencia, hay una característica llamada "*Llamarme*" que se puede usar para que otras personas se puedan unir a una reunión con acceso telefónico local. Use la lista desplegable anterior para buscar el país o la región y ver si esta característica está disponible.
@@ -164,7 +165,7 @@ Con Sistema telefónico, puede crear operadores automáticos y colas de llamada 
 
 Además de obtener números de teléfono para usuarios individuales de Office 365, también es posible buscar y adquirir números de teléfono de pago o gratuitos para servicios como Audioconferencia (para puentes de conferencia), operadores automáticos y colas de llamadas. Son los llamados números de servicio. Ver [los números de teléfono del servicio de introducción](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) para obtener números de teléfono. Pero, para sus usuarios, después de asignarles un Plan de llamadas, puede asignar un número de teléfono de usuario para que puedan hacer y recibir llamadas de teléfono. Para encontrar esos números de teléfono, vaya a la [Introducción de los números de teléfono para los usuarios](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users). También puede consultar [Asignar, cambiar o quitar un número de teléfono para un usuario](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user). 
 
-[Precios de Sistema telefónico](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
+[Precios de Sistema telefónico](https://products.office.com/skype-for-business/phone-system#Requirements)
 
 > [!NOTE]
 > La disponibilidad de números de teléfono de pago en algunas de estas ubicaciones puede variar en cualquier momento, según los niveles de inventario. 
