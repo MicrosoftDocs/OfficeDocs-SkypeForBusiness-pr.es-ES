@@ -6,14 +6,16 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Le recomendamos que compruebe que el servicio de Microsoft Teams se encuentra en buen estado, además de otros componentes de Office 365, como Exchange, SharePoint y OneDrive para la Empresa."
+search.appverid: MET150
+description: Le recomendamos que compruebe que el servicio de Microsoft Teams se encuentra en buen estado, además de otros componentes de Office 365, como Exchange, SharePoint y OneDrive para la Empresa.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6f3fb65770f86447a1463ec3ac054d22ffcbf6f
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 7c9a528187461fe513eb7aa5782696f80313bc5d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867608"
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>Comprobar el estado del servicio para Microsoft Teams
 ===========================================

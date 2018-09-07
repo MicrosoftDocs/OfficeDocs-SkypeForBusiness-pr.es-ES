@@ -6,17 +6,18 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 description: Aprenda a realizar una implementación de Microsoft Teams.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9e15f792fe17cc0831a7253f4b4ddf7770cb5be
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 53c036b2fbe091688836ab54ebe27c1c66faf52d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243662"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867776"
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Información general de una implementación de Microsoft Teams
 ========================================
