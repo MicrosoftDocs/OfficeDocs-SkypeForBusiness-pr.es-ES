@@ -9,6 +9,7 @@ ms.assetid: 4ace3c1d-c1b6-4f99-bc71-0d1757c8aba9
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Bielorrusia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 100510664d63053f8d155955dfbb3c865c1f7bdc
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 74a16de4c8ff9648669e0d3a02eda73680f6d610
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785409"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23868112"
 ---
 # <a name="availability-in-belarus"></a>Disponibilidad de Bielorrusia
 

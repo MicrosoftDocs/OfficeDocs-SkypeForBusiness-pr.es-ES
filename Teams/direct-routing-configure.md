@@ -7,14 +7,15 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: ''
 description: Obtenga información sobre cómo configurar el enrutamiento directo de Microsoft teléfono del sistema.
-ms.openlocfilehash: 23be9bae259767ffd4eb26d03a22f5449b4b9222
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: e3551cf245b14a69fc9fd3731848c2bf2c006cc8
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23845944"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23870048"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 

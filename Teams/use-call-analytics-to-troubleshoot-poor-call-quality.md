@@ -10,6 +10,7 @@ ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Use llamar análisis obtener información detallada sobre los dispositivos, redes y conectividad para solucionar los problemas de los usuarios con Skype para reuniones y llamadas de trabajo.
-ms.openlocfilehash: db1f0ed4ce79936a5355fe087220fe2802f61ce6
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 9142b8ecd5c2fe0d24bb91c51c4625f5bf559ee9
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783153"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23869984"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Usar Análisis de llamadas para solucionar problemas de mala calidad de llamada
 

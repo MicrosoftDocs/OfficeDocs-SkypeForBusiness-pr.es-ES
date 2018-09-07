@@ -8,15 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
 description: Los administradores pueden utilizar el MSI de los equipos (con SCCM) para dpeloy Microsoft Teams para seleccionar usuarios o equipos de forma masiva.
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0371a4f64c363723360b749a9e7b160b673eda0
-ms.sourcegitcommit: a9556a51f7f970fc05ab0acc9998401db3c1aa57
+ms.openlocfilehash: 10c1145a86a5cf2d246269dac49d85b53eb87274
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "22913414"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23869344"
 ---
 <a name="install-microsoft-teams-using-msi-with-sccm"></a>Instalar Teams Microsoft con MSI (con SCCM)
 ===========================================

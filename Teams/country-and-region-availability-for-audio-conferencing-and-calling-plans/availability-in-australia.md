@@ -9,6 +9,7 @@ ms.assetid: 98a819e4-6dd9-47ee-8c79-586aae727111
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Australia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: d5638260ea27ef33f6934734f7df2aa4639e0128
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 97a2e1b565a47f45787bc0d732f0ee622dc3ec7d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783113"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23868200"
 ---
 # <a name="availability-in-australia"></a>Disponibilidad en Australia
 

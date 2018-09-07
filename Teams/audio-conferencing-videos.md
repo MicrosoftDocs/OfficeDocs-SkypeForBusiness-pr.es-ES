@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: MyAdvisor
 description: Vídeos que presentan la Audioconferencia en Microsoft Teams al administrador de TI.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76b1dd3d6f9a36d64a18ecc0984e96609366e6b2
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
-ms.translationtype: MT
+ms.openlocfilehash: d8a12ad67fe527790ea8c490f70a8956673872cf
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "19002271"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867632"
 ---
 <a name="videos-audio-conferencing-in-microsoft-teams"></a>Vídeos: Audioconferencia en Microsoft Teams
 =============================================

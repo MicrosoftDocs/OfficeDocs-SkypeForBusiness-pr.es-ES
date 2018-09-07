@@ -1,5 +1,5 @@
 ---
-title: "Editar información del usuario invitado"
+title: Editar información del usuario invitado
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
@@ -7,14 +7,16 @@ ms.date: 10/23/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
-description: "Descubra cómo un administrador puede editar información sobre los usuarios invitados en el portal de Azure Active Directory."
+search.appverid: MET150
+description: Descubra cómo un administrador puede editar información sobre los usuarios invitados en el portal de Azure Active Directory.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2469e7d0502b93a38e23e5a61b4ff653d0ddc468
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 0a5e6aca616655d45e0d802d879dbe5fe903f8a7
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860350"
 ---
 <a name="edit-guest-user-information"></a>Editar información del usuario invitado
 ===========================
