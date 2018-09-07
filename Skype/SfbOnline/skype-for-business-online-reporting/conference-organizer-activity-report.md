@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 03a255d4-0e1d-4b24-b73d-7a62fae36254
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,13 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-search.appverid: MET150
-ms.openlocfilehash: 14d82764a177d1bc483bc1c3457546352a2b4f03
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 5e2d38c3576cd39769fd3b150ad905f37421e9bc
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933159"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854265"
 ---
 # <a name="conference-organizer-activity-report"></a>Informe de actividad del organizador de la conferencia
 
@@ -121,7 +121,7 @@ Si las directivas de la organización le impiden ver los informes en los que la 
 
 - [Skype para el informe de detalles de sesiones de negocio](session-details-report.md) Puede ver detalles acerca de las experiencias de llamada de usuario individual.
 
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 [Informes de actividades en el Centro de administración de Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

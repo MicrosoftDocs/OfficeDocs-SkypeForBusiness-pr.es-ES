@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 6310f07f-9d07-4cb1-bd6e-51ef6eb3c335
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
-ms.openlocfilehash: 81f15ee3d5cf2dda1664f3414ae11c0dea7b588e
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: a8bbf03ce36c2afcae8ec9105e36e02f2817e1fe
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779272"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856067"
 ---
 # <a name="manually-submit-a-custom-service-request"></a>Enviar manualmente una solicitud de servicio personalizado
 

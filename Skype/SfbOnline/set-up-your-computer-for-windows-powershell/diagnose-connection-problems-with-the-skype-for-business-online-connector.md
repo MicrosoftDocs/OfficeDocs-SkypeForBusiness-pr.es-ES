@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 866fadfd-16e2-4134-95db-c6aed7678416
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,12 +17,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Solución de problemas de creación de una sesión remota de PowerShell para conectarse a Skype para profesionales Online, incluidos Import-Module, shell simultánea, Live ID y errores de permiso.
-ms.openlocfilehash: 60ed4be1d4c20426a645002f1b7a71f65f120774
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 9eb3cfcaa037e29d2ea6a82f4f5e6ad1876f969a
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779099"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854715"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexión con el conector de Skype Empresarial Online
 

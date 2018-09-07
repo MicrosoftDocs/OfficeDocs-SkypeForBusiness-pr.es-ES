@@ -9,6 +9,7 @@ ms.assetid: a4921bd0-d6b4-4b98-b5c9-a2bb9c830d93
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Brunei los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 695c17b90520fc7bf63c06fc02931f466efc284f
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: bd81ed1994d4b281b44b1187755a1185836de675
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829197"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853402"
 ---
 # <a name="availability-in-brunei"></a>Disponibilidad de Brunei
 

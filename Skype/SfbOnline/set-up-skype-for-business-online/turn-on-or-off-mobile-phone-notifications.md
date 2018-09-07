@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 2de47013-4f09-493c-abc5-372f56ad69e3
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,12 +18,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: Obtenga información sobre cómo activar las notificaciones de teléfono móvil o desactivar para que los usuarios pueden recibir alertas de correo de voz entrante y perdidas mensajes instantáneos.
-ms.openlocfilehash: 98e46cae258d6ca0d90e6e1cb96c3eeb724c31ee
-ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
+ms.openlocfilehash: 6ec2dad1a6084db4c83061b06d056382f90787b8
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/04/2018
-ms.locfileid: "19500412"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854247"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Activar o desactivar las notificaciones del teléfono móvil
 

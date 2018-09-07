@@ -7,15 +7,16 @@ ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
+search.appverid: MET150
 description: Aprenda a recuperar datos de Microsoft Teams del registro de auditoría de Office 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2661b8018fd7bf2debed117794751266627fd4e
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 5e7b2f6332963b63ee92d0544f46ab769841e5d3
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23843792"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854120"
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 ==================================================

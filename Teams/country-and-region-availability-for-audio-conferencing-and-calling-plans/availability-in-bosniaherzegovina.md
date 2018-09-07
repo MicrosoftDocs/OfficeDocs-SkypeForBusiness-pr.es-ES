@@ -9,6 +9,7 @@ ms.assetid: 14066a15-acca-4d39-b862-d163ab824196
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Bosnia-Herzegovina los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 6c785a913b2fe8855e8e7d9d89b37c63fcd7c6d3
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: c1d8f6c71bae0db0ebd8ca0c7472df64887a7eee
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829277"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850936"
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>Disponibilidad en Bosnia-Herzegovina &amp; Bosnia-Herzegovina
 

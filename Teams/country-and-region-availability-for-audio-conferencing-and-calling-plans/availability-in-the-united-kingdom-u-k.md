@@ -9,6 +9,7 @@ ms.assetid: 523a955c-5185-4a53-9234-d8a71f57be85
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para el Reino Unido los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 1ea1c30994afb416f200ef35a207538e30876b48
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 24f7dcf62c8d61a159105e08f2cddb4e8a4e56af
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784185"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860480"
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>Disponibilidad en el Reino Unido (Reino Unido)
 

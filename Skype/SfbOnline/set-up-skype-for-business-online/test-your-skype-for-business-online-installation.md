@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 19873b1f-8f7e-4dd8-92f4-2ce11344ed5e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: ca8813392012fe0703e8c1bae51e1d6dfa96a76c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 50f313fcbc68fc28d0b1bc65482b6c14cb1d59b0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248707"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851697"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Probar la instalación de Skype Empresarial Online
 

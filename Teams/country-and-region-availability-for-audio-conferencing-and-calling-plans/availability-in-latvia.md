@@ -9,6 +9,7 @@ ms.assetid: 01085d53-64d7-40ea-ade2-c73a48766746
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Letonia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 3cd2a506f4245043d3e5c5554fa05a077353d4c2
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: f83f49fbedf3ca5b673e35955680f1b96bcaec74
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829157"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856326"
 ---
 # <a name="availability-in-latvia"></a>Disponibilidad en Letonia
 

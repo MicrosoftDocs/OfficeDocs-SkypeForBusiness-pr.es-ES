@@ -9,6 +9,7 @@ ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -18,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: ea34725f6cd59173d9979534a33e420911bd0f94
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 27f074526da7c63ecfdcfab912650e514c3717b3
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23786121"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867006"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>Dimensiones y medidas disponibles en el Panel de calidad de llamadas
 

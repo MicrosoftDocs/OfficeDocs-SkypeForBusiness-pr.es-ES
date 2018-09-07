@@ -1,5 +1,5 @@
 ---
-title: Informe de actividad de punto a punto
+title: Informe de actividad punto a punto
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: d3b2d569-4ee9-44b8-92bf-d518142f0713
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,15 +21,14 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-search.appverid: MET150
-ms.openlocfilehash: c5248baebf3e34b24427ecf192a1b1376c7afb4a
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 2ee918cb82ea42a321af9b91ac9a4526fa849a65
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933141"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860647"
 ---
-# <a name="peer-to-peer-activity-report"></a>Informe de actividad de punto a punto
+# <a name="peer-to-peer-activity-report"></a>Informe de actividad punto a punto
 
 [] El nuevo panel **Informes** de Office 365 muestra la información general de actividad en los productos de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto. Por ejemplo, puede usar el informe de **Skype para la actividad de punto a punto** para ver cuánto los usuarios utilizan mensajería instantánea, aplicación de audio, vídeo, uso compartido y la transferencia de archivos. 
 
@@ -117,7 +117,7 @@ Si las directivas de la organización le impiden ver los informes en los que la 
 
 - [Skype para el informe de detalles de sesiones de negocio](session-details-report.md) Puede ver detalles acerca de las experiencias de llamada de usuario individual.
     
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 [Informes de actividades en el Centro de administración de Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

@@ -1,5 +1,5 @@
 ---
-title: Informe de los usuarios bloqueados
+title: Informe de usuarios bloqueados
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 0ac844b2-1b08-4e5a-addf-03cde7af7a40
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,15 +18,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Este informe, junto con otro Skype para los informes de negocio, proporciona detalles sobre la actividad, incluyendo el uso de RTC en toda la organización. '
-search.appverid: MET150
-ms.openlocfilehash: 0b6bc07afb44b4bb2ba7e2b31f51443c93645655
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 508d41de4a8b67e1a266bead6f91445acd041a7e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933051"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860621"
 ---
-# <a name="users-blocked-report"></a>Informe de los usuarios bloqueados
+# <a name="users-blocked-report"></a>Informe de usuarios bloqueados
 
 El nuevo Skype para el panel de **informes** de negocio de muestra la información general de la actividad a través de la Skype para los productos de negocio de la organización. Permite que aumentar el detalle los informes de nivel de producto individuales a proporciona una idea más granular acerca de las actividades dentro de cada producto. Por ejemplo, puede usar el informe de **Skype para usuarios profesionales bloqueados** para ver los usuarios de la organización que se han bloqueado desde la realización de llamadas de RTC. Este informe, junto con otro Skype para los informes de negocio, proporciona detalles sobre la actividad, incluyendo el uso de RTC en toda la organización.
   
@@ -84,7 +84,7 @@ De esta forma se exportan los datos de todos los usuarios, a los que puede aplic
 
 - [Skype para el informe de detalles de sesiones de negocio](session-details-report.md) Puede ver detalles acerca de las experiencias de llamada de usuario individual.
    
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 [Informes de actividades en el Centro de administración de Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

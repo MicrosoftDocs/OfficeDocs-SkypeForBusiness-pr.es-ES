@@ -6,16 +6,17 @@ manager: serdars
 ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 description: Los administradores pueden utilizar para configurar la aplicación de las reuniones de Skype para trabajar con los equipos de la Microsoft Teams y el centro de administración de Skype
 Set_Free_Tag: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 686e53f3c272ab73e7934085df96cf710fecf667
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: d87433b57936534afad05d38cb42e64c798f74e4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23844840"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853410"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurar la aplicación de las reuniones de Skype para trabajar con los equipos
 ===================================================

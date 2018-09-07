@@ -8,16 +8,17 @@ ms.date: 01/22/2018
 layout: LandingPage
 ms.assetid: ''
 ms.service: skype-for-business-online-admin
+search.appverid: MET150
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-ms.openlocfilehash: 453046594d649e6adff96bf28a54bd1c7112d821
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 3ec47c32dec98f0e72c1f0274893dfcf2764dc5e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780969"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861003"
 ---
 # <a name="skype-for-business-online-admin"></a>Administración de Skype for Business Online
 

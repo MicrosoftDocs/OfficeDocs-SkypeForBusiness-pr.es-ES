@@ -6,22 +6,24 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: laal
 description: Conozca las herramientas que un administrador tiene a su disposición para agregar usuarios invitados nuevos a una organización, incluidos los clientes web y de escritorio de Microsoft Teams y el portal de colaboración B2B de Azure Active Directory.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e84c8f29416f94b78b287275cd473388931105ea
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: d97820a6cd5069c1e813ffbf83af20d393c084b5
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849840"
 ---
 <a name="add-a-guest-to-a-team"></a>Agregar un invitado a un equipo
 =====================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Cualquier persona con una cuenta de correo electrónico empresariales o de clientes, como Outlook, Gmail u otros, puede participar como invitado en los equipos.
+Cualquier usuario con una cuenta de correo electrónico empresariales o de clientes, como Outlook, Gmail u otras personas, puede participar como invitado en los equipos.
 
 
 Como administrador, puede agregar un usuario invitado nuevo a la organización de dos formas: 
@@ -34,7 +36,7 @@ Con la colaboración B2B de Azure Active Directory, las organizaciones pueden ex
 
 
 
-Los usuarios invitados que ya se hayan agregado a través de Azure Active Directory B2B grupos de Office 365 y SharePoint Online están preparados para ir. El administrador de Office 365 o el propietario de un equipo podrá agregar a esos invitados a sus respectivos equipos. Si un equipo ya está con un grupo de Office 365 y se agrega un invitado al grupo, el invitado tendrá acceso al equipo. Cuando se agrega un invitado a través del grupo de Office 365, el invitado no recibe ninguna invitación por correo electrónico, por lo que algún miembro del equipo tendrá que notificárselo.
+Los usuarios invitados que ya se ha agregado a través de Azure Active Directory B2B, grupos de Office 365 o SharePoint Online están listos para ir. El administrador de Office 365 o el propietario de un equipo podrá agregar a esos invitados a sus respectivos equipos. Si un equipo ya está con un grupo de Office 365 y se agrega un invitado al grupo, el invitado tendrá acceso al equipo. Cuando se agrega un invitado a través del grupo de Office 365, el invitado no recibe ninguna invitación por correo electrónico, por lo que algún miembro del equipo tendrá que notificárselo.
 
 > [!NOTE]
 > Los invitados están sujetos a los límites de servicio de [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) y [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019).

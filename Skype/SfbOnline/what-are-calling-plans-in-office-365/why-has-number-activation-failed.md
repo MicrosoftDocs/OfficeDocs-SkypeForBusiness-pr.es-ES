@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: c4e54d00-e096-474c-a457-56e785439ff6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: La validación de direcciones es una parte muy importante de la configuración de Planes de llamada en Office 365. Proporciona a un usuario de su organización una dirección para llamadas de emergencia que puedan usar los servicios de respuesta de emergencias.
-ms.openlocfilehash: d9b6a9821d9464ed323d0bca7dd1c09ac8ff806c
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 1748211718b1e25a6f5bfcdcd512e0e2d7d2c587
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779312"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864813"
 ---
 # <a name="why-has-number-activation-failed"></a>¿Por qué ha fallado la activación del número?
 La validación de direcciones es una parte muy importante de la configuración de Planes de llamada en Office 365. Si por algún motivo no se activa un número de teléfono a causa de la validación de direcciones, debe crear una solicitud de servicio. La forma que elija para hacerlo depende del tamaño de su organización.

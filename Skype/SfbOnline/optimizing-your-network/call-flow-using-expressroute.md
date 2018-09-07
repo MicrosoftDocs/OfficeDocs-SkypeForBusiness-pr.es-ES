@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 413acb29-ad83-4393-9402-51d88e7561ab
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Con este artículo tratamos de explicar el flujo de llamadas básico para Skype Empresarial Online y ExpressRoute, y darle algunos ejemplos detallados de flujos de llamada para que pueda entenderlo y planificarlo correctamente.
-ms.openlocfilehash: 8549104b4fe27afcdb157325ea5564298a886432
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2406badc671fec8ede36039ebf230115a5920e97
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253884"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861081"
 ---
 # <a name="call-flow-using-expressroute"></a>Flujo de llamadas con ExpressRoute
 

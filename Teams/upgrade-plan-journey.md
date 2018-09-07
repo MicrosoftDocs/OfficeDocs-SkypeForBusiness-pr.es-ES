@@ -1,26 +1,34 @@
 ---
-title: Actualización a los equipos de Microsoft
+title: Plan para su Skype para la empresa a la actualización de los equipos - Microsoft Teams
 author: dearbeen
-ms.author: MyAdvisor
+ms.author: dearbeen
 manager: serdars
-ms.date: 05/30/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: MARCADOR DE POSICIÓN
+description: Para planear la actualización selecciona a las partes interesadas en primer lugar y, a continuación, el ámbito del proyecto.
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
-robots: noindex
-redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams
-redirect_document_id: true
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 100ca887a15bdc961638c3da9b0fb1fe05e9eaf5
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: c138282ed7b65cd7efcdb31cb363110702233346
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695154"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867078"
 ---
-# <a name="plan-the-journey"></a>Planear el viaje
+![Asegúrese de que el proyecto está configurado para el éxito con el equipo del proyecto derecho. Definir el ámbito del proyecto, las metas y escala de tiempo. Confirmar la preparación de técnico y de usuario. Ejecutar el plan de implantación. Mantener momentum para maximizar los resultados.] (media/upgrade-banner-main.png "Comenzar su viaje por la actualización")
 
-MARCADOR DE POSICIÓN
+
+# <a name="plan-for-your-upgrade"></a>Planeación de la actualización
+
+Un entorno técnico correcto, adopción sostenida de usuario y la realización de los objetivos empresariales de todos los comienzan con una planificación adecuada. Un plan sólido le proporciona un marco de trabajo para el proyecto de actualización y se asegura de que todas las partes interesadas trabajando para lograr los objetivos de la misma. Tomando tiempo para definir el éxito correctamente, puede medir los resultados a medida que avance a través de la implementación y compruebe que está lograr los resultados que desea. Planear su viaje incluye:
+
+-   [Selecciona a los participantes en el proyecto](upgrade-enlist-stakeholders.md).
+-   [Definición del ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope).
+-   [Descripción de la coexistencia e interoperabilidad de Skype para profesionales y los equipos](https://aka.ms/SkypeToTeams-Coexist).
+

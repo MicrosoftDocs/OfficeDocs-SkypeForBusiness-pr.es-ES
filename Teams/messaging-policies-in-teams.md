@@ -11,15 +11,16 @@ ms.audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
+search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Obtenga información sobre las directivas de mensajería y cómo se pueden usar para controlar el chat de mensajería en los equipos.
-ms.openlocfilehash: 56aedc797fdc73ec93000ba5aced4f17de93aaa4
-ms.sourcegitcommit: b87168f58218a5a44e1f3371867401d44f6927e5
+ms.openlocfilehash: ef252f958f08c75d0fcfb8af0a06aadf776d3668
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22221810"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850920"
 ---
 # <a name="what-are-messaging-policies-in-teams"></a>¿Qué son mensajería directivas en los equipos?
 
@@ -38,5 +39,5 @@ Las directivas de mensajería se usan para controlar qué chat y canal de caract
 - **Pegatinas de uso en las conversaciones** Si desactiva esta, los usuarios pueden incluir pegatinas en las conversaciones de chat con otras personas.
 
 
-### <a name="related-topics"></a>See also
+### <a name="related-topics"></a>Temas relacionados
 [Directivas de reunión en los equipos](meeting-policies-in-teams.md)

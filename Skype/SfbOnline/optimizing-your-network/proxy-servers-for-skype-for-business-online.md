@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 7acaf2c2-35fa-490f-84cd-822e446e0fc7
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: En este artículo se ofrecen algunas indicaciones sobre cómo usar un servidor proxy con Skype Empresarial.
-ms.openlocfilehash: fcae4ec366845818d515a4d78c79ea77d038a4a5
-ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
+ms.openlocfilehash: 3d83e2f6d4eb2b88a52eb949217ac2f00c72acff
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2018
-ms.locfileid: "20211026"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850017"
 ---
 # <a name="proxy-servers-for-skype-for-business-online"></a>Servidores proxy para Skype Empresarial Online
 
@@ -55,7 +56,7 @@ Microsoft también recomienda:
     
 Si se siguen estas instrucciones, la posibilidad de sufrir problemas debería ser mínima.
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 
 [Optimizar la red para Skype Empresarial Online](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
 

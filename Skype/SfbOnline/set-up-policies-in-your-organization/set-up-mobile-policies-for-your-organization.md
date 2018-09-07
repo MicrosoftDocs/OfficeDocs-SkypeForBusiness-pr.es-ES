@@ -1,5 +1,5 @@
 ---
-title: Configurar directivas de dispositivos móviles para la organización
+title: Establecer directivas móviles en su organización
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: beea47b2-7b9a-4b28-92d0-af65d80cd00f
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,14 +17,14 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Puede configurar cómo los usuarios se conectan a Skype para profesionales en línea con el Skype para la aplicación empresarial en dispositivos móviles, como una característica que permite a los usuarios realizar y recibir llamadas telefónicas en su teléfono móvil mediante su número de teléfono de trabajo en lugar de su teléfono móvil NY Nú. Las directivas de movilidad también se pueden usar para requerir conexiones WiFi para hacer o recibir llamadas.
-ms.openlocfilehash: 4e52230ed6f3255b9dbe929086ada6a63cfd66ce
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 21d1b19a72686d618bf8fca484bf828e62ee3a37
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500585"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861531"
 ---
-# <a name="set-up-mobile-policies-for-your-organization"></a>Configurar directivas de dispositivos móviles para la organización
+# <a name="set-up-mobile-policies-for-your-organization"></a>Establecer directivas móviles en su organización
 
 Puede configurar cómo los usuarios se conectan a Skype para profesionales en línea con el Skype para la aplicación empresarial en dispositivos móviles, como una característica que permite a los usuarios realizar y recibir llamadas telefónicas en su teléfono móvil mediante su número de teléfono de trabajo en lugar de su teléfono móvil NY Nú. Las directivas de movilidad también se pueden usar para requerir conexiones WiFi para hacer o recibir llamadas.
   

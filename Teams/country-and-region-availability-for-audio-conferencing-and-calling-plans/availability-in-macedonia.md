@@ -9,6 +9,7 @@ ms.assetid: 26419a93-4216-448f-bf3a-f29778c62c84
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Macedonia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 374970604544b4a9da1e6606f5dbcebf1dfffb4e
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: 2fb259fa4ad669e6d442c7beb9a7aa727ac9b51a
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829189"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862966"
 ---
 # <a name="availability-in-macedonia"></a>Disponibilidad de Macedonia
 

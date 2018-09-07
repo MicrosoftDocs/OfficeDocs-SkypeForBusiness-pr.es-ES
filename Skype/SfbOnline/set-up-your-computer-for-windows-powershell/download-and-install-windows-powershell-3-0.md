@@ -1,5 +1,5 @@
 ---
-title: Descargue e instale Windows PowerShell 3.0
+title: Descargar e instalar Windows PowerShell 3.0
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: d739cd71-3c18-42ea-879f-b408bf53b1f4
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,14 +18,14 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Descargar, instalar y, a continuación, use Windows PowerShell 3.0 para crear una sesión remota de PowerShell que se conecta a Skype para profesionales en línea.
-ms.openlocfilehash: 9c2b0f02d9da7e44cdb5585314c13a6bafbe58c6
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 8470a095e516179d1d328f47c1fe10d5a9e00aa6
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568326"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862889"
 ---
-# <a name="download-and-install-windows-powershell-30"></a>Descargue e instale Windows PowerShell 3.0
+# <a name="download-and-install-windows-powershell-30"></a>Descargar e instalar Windows PowerShell 3.0
 
 Si está utilizando Windows 8.1, Windows 8, Windows Server 2012 R2 o Windows Server 2012, ya debe tener Windows PowerShell 3.0. Que es debido a que esta aplicación viene preinstalada con los sistemas operativos. 
   
@@ -147,7 +148,7 @@ Si la autenticación básica se ha establecido en true, a continuación, estará
   
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 [Configurar el equipo para Windows PowerShell](set-up-your-computer-for-windows-powershell.md) 
 
   

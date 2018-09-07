@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 8cbe2eb2-1194-4fd7-b1ee-9f9287c82424
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,13 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-search.appverid: MET150
-ms.openlocfilehash: c827ed5c853a1f3e474f5f115a0dd1ef1975b5f7
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: d13ca7f70880d7ad0f3c6376e167c6222682887d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933111"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855579"
 ---
 # <a name="activity-report"></a>Informe de actividad
 
@@ -119,7 +119,7 @@ También puede exportar los datos del informe a un archivo .csv de Excel haciend
 - [Skype para el informe de detalles de sesiones de negocio](session-details-report.md) Puede ver detalles acerca de las experiencias de llamada de usuario individual.
 
     
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 [Informes de actividades en el Centro de administración de Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

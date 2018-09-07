@@ -9,6 +9,7 @@ ms.assetid: b273afb4-94ef-4075-a24c-445c58ede933
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Jordania los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: cae52abaf335a78412176da8ee97899e36b7fddd
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: 6523c05740da67646dffc61ffe48671299d5b2fe
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829309"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861498"
 ---
 # <a name="availability-in-jordan"></a>Disponibilidad de Jordania
 

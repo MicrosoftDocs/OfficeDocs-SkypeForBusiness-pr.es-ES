@@ -6,15 +6,16 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 description: T-Bot es un bot con el que los usuarios pueden interactuar. Pueden preguntarle sobre el funcionamiento de Microsoft Teams y las respuestas que obtienen abarcan una amplia variedad de preguntas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1cdbe4366b84ac93236c8e9f3ca6f1eb8e3f6ba7
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 53267e88b690ed233bcec21dfa698c032187df70
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23843776"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849806"
 ---
 <a name="use-t-bot-to-help-users-with-microsoft-teams"></a>Usar T-Bot para ayudar a los usuarios con Microsoft Teams
 ============================================

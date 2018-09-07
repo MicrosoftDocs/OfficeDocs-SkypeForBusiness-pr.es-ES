@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: a226b0d4-6359-42b8-808d-4b8ab3736d3b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,12 +17,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Use el cmdlet Get-CsOnlineUser en Windows PowerShell para obtener información acerca de Skype la organización para usuarios profesionales en línea.
-ms.openlocfilehash: 96f4025b062e13086bcc878fd9166ced9325fbee
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: fb652b53ee082834dbc4775720774985a7d51af5
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250198"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855857"
 ---
 # <a name="manage-user-accounts-using-the-online-connector"></a>Administrar cuentas de usuario con el conector en línea
 

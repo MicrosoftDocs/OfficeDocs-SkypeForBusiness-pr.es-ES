@@ -9,6 +9,7 @@ ms.assetid: dda0070b-16ec-43ca-ac81-e390aea630d2
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Georgia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: c03f449637187a075710ad77c410c32e999a6666
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: a0331f0a3219364b237b5afcf23acacd21dd718c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829413"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850952"
 ---
 # <a name="availability-in-georgia"></a>Disponibilidad de Georgia
 

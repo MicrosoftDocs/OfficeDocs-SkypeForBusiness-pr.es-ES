@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 4935cddf-fafa-442d-91a3-246af01f8373
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,13 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-search.appverid: MET150
-ms.openlocfilehash: 54fa46f64989e796628d36f0af7d2f59b0c253d8
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 9339efa3dfe9f7984b23dd46ce0fac47dbe4b9ee
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933091"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865219"
 ---
 # <a name="skype-for-business-online-reporting"></a>Creación de informes en Skype Empresarial Online
 
@@ -57,7 +57,7 @@ En Office 365 y Skype para centros de administración empresarial, puede usar di
 |[Informe de grupos de servidores de Skype para minuto de RTC de negocio](pstn-minute-pools-report.md) <br/> | Capacidad es el plan de licencia/servicio utilizado para la llamada. <br/> Tipo de licencia <br/> Descripción de la capacidad <br/> Grupo de servidores de minuto de país  <br/> Minutos utilizados <br/> Total de minutos <br/> Por ciento de los minutos utilizados para el mes <br/> |
 |[Informe detallado de Skype para la sesión de negocio](session-details-report.md) <br/> | Alias de usuario <br/> Identificador de diálogo  <br/> Tipos de medios  <br/> Horas de inicio y finalización <br/> A y desde el URI <br/> Dirección URL de conferencia <br/> Número de teléfono <br/> |
  
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 [Informes de actividades en el Centro de administración de Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

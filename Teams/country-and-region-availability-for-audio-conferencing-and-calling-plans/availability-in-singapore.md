@@ -9,6 +9,7 @@ ms.assetid: 8791fdc3-ef3b-425f-a3a8-bb9c3651ce79
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Singapur los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: eb1b5bfd6bb7288d592e7f4784a22fb4d60ed8a7
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 427d5fc2d36b24bcff2fe89d661bb1daee9a5f6a
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784073"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856198"
 ---
 # <a name="availability-in-singapore"></a>Disponibilidad de Singapur
 

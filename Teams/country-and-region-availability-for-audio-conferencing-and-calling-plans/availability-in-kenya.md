@@ -9,6 +9,7 @@ ms.assetid: 4ec0cc20-1bcd-4596-a220-f7b363d95055
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Kenia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 4c40d8f721f07b6ccf981cd3f29b52b63bcaaff2
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: 43b4f75577befa1f08788b8c3d25f335bbed95be
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829389"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861946"
 ---
 # <a name="availability-in-kenya"></a>Disponibilidad en Kenia
 

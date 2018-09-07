@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 63bfb6a7-7e03-4f29-8ae2-d11b92caa14d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre lo que es su Skype para la empresa, número de teléfono de facturación y dónde debe acudir para obtener instrucciones paso a paso acerca de cómo transferir un número.
-ms.openlocfilehash: e73a8d003d3be6b14aaacc36fe0c9a8b3f4159b1
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 748ea9603cf0e3fef7dc19dc2a148025e33ab205
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780933"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849787"
 ---
 # <a name="what-is-my-billing-telephone-number"></a>¿Cuál es mi número de teléfono de facturación?
 

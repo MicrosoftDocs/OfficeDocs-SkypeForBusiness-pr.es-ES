@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 122cb43d-b57a-4b93-b902-a1a432e7de28
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,12 +18,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: "How to turn on recording for audio and video conferences, and learn what is and isn't included in recordings. "
-ms.openlocfilehash: eaf94874dc55dd333911b8bdfade085e137916a8
-ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
+ms.openlocfilehash: ddd560970b84333f14fcc039c4c1501874048c50
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/04/2018
-ms.locfileid: "19500531"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849905"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Permitir a los usuarios grabar sus conferencias de audio y vídeo
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 8e46e857-f046-4e87-a633-0d7fb88d66d5
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,11 +19,12 @@ f1keywords:
 ms.custom:
 - SMB
 description: Puede habilitar la difusión de reunión de Skype y realizar cambios en la configuración y las directivas para las reuniones.
-ms.openlocfilehash: 7cba3f66713d76e32da01d3dd318a6096dbed35c
-ms.sourcegitcommit: faea19005301c56a081b6e6157965becac76ec2f
+ms.openlocfilehash: 7145f246ff7b3b6edbcae84f2ca2f5bc381ea501
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851707"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Realizar cambios en la configuración de la difusión de reunión de Skype para su organización
 
@@ -38,7 +40,7 @@ Puede habilitar la difusión de reunión de Skype y realizar cambios en la confi
     
 - **Dirección URL para los asistentes de soporte de departamento de soporte técnico** Especifique un vínculo para los asistentes de difusión de reunión que se utilizará si necesitan ayuda conectar o asistir a una reunión de difusión.
     
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 
 [Configurar la red para Difusión de reunión de Skype](set-up-your-network-for-skype-meeting-broadcast.md)
 

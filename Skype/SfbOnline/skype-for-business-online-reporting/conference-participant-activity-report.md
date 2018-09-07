@@ -1,5 +1,5 @@
 ---
-title: Informe de actividad de participantes de conferencia
+title: Informe de actividad de los participantes de la conferencia
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: c3c89995-65dd-4715-9e38-bb244c742c6b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,15 +19,14 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-search.appverid: MET150
-ms.openlocfilehash: 76d41724223e55f10bbabf566719e2bd19e24411
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 844fdb83a1219a23b66a3f65bc1bde69475b3eb4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933121"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864583"
 ---
-# <a name="conference-participant-activity-report"></a>Informe de actividad de participantes de conferencia
+# <a name="conference-participant-activity-report"></a>Informe de actividad de los participantes de la conferencia
 
 Como un administrador de Office 365, el nuevo panel de **informes de** muestra datos sobre el uso de los productos de Office 365 dentro de la organización. Puede usar el informe de **Skype para la actividad de participantes de conferencia** para ver cuántas mensajería instantánea, audio y vídeo, compartir aplicaciones, Web y y conferencias de acceso telefónico de entrada/salida se va a participó en por los usuarios de su organización.
 
@@ -111,7 +111,7 @@ Si las directivas de la organización le impiden ver los informes en los que la 
 
 - [Skype para el informe de detalles de sesiones de negocio](session-details-report.md) Puede ver detalles acerca de las experiencias de llamada de usuario individual.
     
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 [Informes de actividades en el Centro de administración de Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: e62ac09f-dfdc-4306-8e06-31349a3b27f0
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,13 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: El nuevo panel Informes de Office 365 muestra la información general de actividad en los productos de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto.
-search.appverid: MET150
-ms.openlocfilehash: ae892766be3b9bc18f37ae8b551678a738743325
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 46a44a61777cdd4d52b9899429b4a17ffe6ad7cb
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780859"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851813"
 ---
 # <a name="session-details-report"></a>Informe de detalles de la sesión
 

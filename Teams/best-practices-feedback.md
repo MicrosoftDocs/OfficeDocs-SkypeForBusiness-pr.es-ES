@@ -8,15 +8,16 @@ ms.topic: article
 ms.service: msteams
 description: Conozca las prácticas recomendadas de los métodos de comentarios en Microsoft Teams para garantizar la mejor experiencia posible con el equipo.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 015eb9ea0e9e9fab0397a1f94749bcb7bf2c98c6
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
-ms.translationtype: MT
+ms.openlocfilehash: fb8044f56e3327116630347f639e9249eb537b93
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "18999088"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23866854"
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Prácticas recomendadas de los métodos de comentarios de los usuarios en Microsoft Teams
 ===========================================================

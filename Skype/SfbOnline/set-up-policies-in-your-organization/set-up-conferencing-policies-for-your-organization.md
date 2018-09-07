@@ -1,5 +1,5 @@
 ---
-title: Configurar las directivas de conferencia para su organización
+title: Establecer directivas de conferencia en su organización
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 9957722b-b542-49ad-8ec8-5569df7fb08b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -15,21 +16,21 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: '[] El servicio de conferencias es una parte importante de Skype Empresarial Online: mediante las conferencias, los grupos de usuarios pueden reunirse en línea para ver diapositivas y vídeo, compartir aplicaciones, cederse archivos, y colaborar y comunicarse de otros modos.'
-ms.openlocfilehash: 9e4c0bc5a90a97ae249b9308fd0ffc62a654a824
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'El servicio de conferencias es una parte importante de Skype Empresarial Online: mediante las conferencias, los grupos de usuarios pueden reunirse en línea para ver diapositivas y vídeo, compartir aplicaciones, cederse archivos, y colaborar y comunicarse de otros modos.'
+ms.openlocfilehash: c5db13adef479bdb3a8702a2782e2ccce19195d6
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500568"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861203"
 ---
-# <a name="set-up-conferencing-policies-for-your-organization"></a>Configurar las directivas de conferencia para su organización
+# <a name="set-up-conferencing-policies-for-your-organization"></a>Establecer directivas de conferencia en su organización
 
 [] El servicio de conferencias es una parte importante de Skype Empresarial Online: mediante las conferencias, los grupos de usuarios pueden reunirse en línea para ver diapositivas y vídeo, compartir aplicaciones, cederse archivos, y colaborar y comunicarse de otros modos.
   
-Es importante que mantenga el control sobre las conferencias y su configuración. En algunos casos puede ser necesario cierto grado de seguridad, pues, de forma predeterminada, todos los usuarios, incluidos los no autenticados, pueden participar en las reuniones, y guardar las diapositivas y documentos informativos que se distribuyan en ellas. Además, es posible que deban tenerse en cuenta aspectos legales. Por ejemplo, de forma predeterminada, los participantes de la reunión se permiten realizar anotaciones en contenido compartido; Sin embargo, estas anotaciones no se guardan cuando se archiva la reunión. Si su organización debe conservar un registro de toda la comunicación electrónica, es posible que prefiera desactivar las anotaciones. 
+Es importante para mantener el control sobre las conferencias y la configuración de la conferencia. En algunos casos, puede haber problemas de seguridad: de forma predeterminada, cualquier usuario, incluidos los usuarios no autenticados, puede participar en reuniones y guardar cualquiera de las diapositivas o documentos que se distribuyen durante las reuniones. Además, puede haber problemas legales ocasionales. Por ejemplo, de forma predeterminada, los participantes de la reunión se permiten realizar anotaciones en contenido compartido; Sin embargo, estas anotaciones no se guardan cuando se archiva la reunión. Si su organización se requiere para mantener un registro de todas las comunicaciones electrónicas, es posible que desee deshabilitar las anotaciones. 
   
-En Skype para profesionales en línea, las conferencias se administran mediante el uso de las directivas de conferencia. Las directivas de conferencia determinan las funcionalidades y características que se pueden usar en una conferencia y cubren todos los aspectos, desde si la conferencia puede incluir o no audio y vídeo IP, hasta el número máximo de personas que pueden asistir a una reunión. Las directivas de conferencia se pueden configurar para que tengan aplicación global o por usuario. Esto ofrece a los administradores una enorme flexibilidad a la hora de decidir qué características podrán usar qué usuarios.
+En Skype para profesionales en línea, las conferencias se administran mediante el uso de las directivas de conferencia. Las directivas de conferencia determinan las características y capacidades que se pueden usar en una conferencia, incluido todo el contenido de si la conferencia puede incluir IP audio y vídeo para el número máximo de personas que pueden asistir a una reunión. Las directivas de conferencia se pueden configurar en el ámbito global o en el ámbito por usuario. Esto proporciona a los administradores con una enorme flexibilidad en cuanto a decidir qué capacidades estarán disponibles para que los usuarios.
   
 Configuración de la directiva se puede configurar en el momento en que se crea una directiva, o puede usar el cmdlet **Set-CsConferencingPolicy** para modificar la configuración de una directiva existente.
   

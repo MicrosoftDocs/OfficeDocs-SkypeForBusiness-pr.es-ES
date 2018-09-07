@@ -13,15 +13,16 @@ metadata:
   ms.service: msteams
   ms.topic: tutorial
   localization_priority: Priority
+  search.appverid: MET150
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: aedc8c450c7d3aebfb4c73378e53859dae8d08f2
-  ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+  ms.openlocfilehash: 2634cabc31e7423a42b1991ccb18347e5be2eb15
+  ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 09/06/2018
-  ms.locfileid: "23845664"
+  ms.lasthandoff: 09/07/2018
+  ms.locfileid: "23857652"
 items:
 - durationInMinutes: 1
   content: >

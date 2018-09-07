@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 5c2e57c2-76c4-4a36-9d01-92cd15c5eb3e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. '
-ms.openlocfilehash: 0115beaffdf1ce7bb44764a47cf543f03ea35154
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 48f6e654c61772a865090b9f8fe38c77c430afc3
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780681"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849831"
 ---
 # <a name="your-port-order-was-accepted"></a>Se ha aceptado su solicitud de portabilidad
 

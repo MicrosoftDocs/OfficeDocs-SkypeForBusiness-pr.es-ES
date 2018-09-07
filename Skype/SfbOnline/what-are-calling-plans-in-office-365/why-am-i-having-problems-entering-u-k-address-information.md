@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: e2376646-f0d6-4d33-a8fd-68ecbd46fb7a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: A continuación presentamos algunas de las razones por qué puede que tenga problemas para obtener la dirección o direcciones para validar correctamente en el Reino Unido (Reino Unido).
-ms.openlocfilehash: 3c0749f488ece74e6038786af79d47f1669151b1
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 8e60b2e59a0a7a2dccf65688ba7331bec19c2c2d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779452"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862691"
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>¿Por qué estoy teniendo problemas cuando introduzco la información de dirección de Reino Unido?
 

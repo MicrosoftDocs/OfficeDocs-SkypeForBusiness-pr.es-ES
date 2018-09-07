@@ -9,6 +9,7 @@ ms.assetid: d1cbbed6-7398-4152-8836-1b06484d8bae
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Eslovaquia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 777374eed65b6202f1256d5c32ae80bac4798a00
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 5f3649f4a2508c5a3b10c1f6c29f9bfa7a70de9a
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785393"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860964"
 ---
 # <a name="availability-in-slovakia"></a>Disponibilidad en Eslovaquia
 

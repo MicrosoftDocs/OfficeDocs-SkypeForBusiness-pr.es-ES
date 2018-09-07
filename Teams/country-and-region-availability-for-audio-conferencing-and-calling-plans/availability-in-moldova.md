@@ -9,6 +9,7 @@ ms.assetid: f16965c2-645b-4cdf-8cf0-bf685917e425
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plansfor Business and Microsoft Teams available for Moldova."
-ms.openlocfilehash: f2bf4ccd20ae06c80970f1483549d76179051d3c
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: a0bee5db5ad701b32cb0101dc985f5e6c170bf62
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829301"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23866894"
 ---
 # <a name="availability-in-moldova"></a>Disponibilidad en Republica
 

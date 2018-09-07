@@ -1,5 +1,5 @@
 ---
-title: Administrar la mensajería unificada de Exchange y aloja el correo de voz
+title: Administrar la mensajería unificada de Exchange y el correo de voz hospedado
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 707198df-df85-4833-9c15-aa29b71f085c
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -15,29 +16,30 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: Usar PowerShell para administrar las capacidades de mensajería unificada de Exchange como Operador automático y acceso de suscriptor y correo de voz hospedado en Skype para los negocios en línea.
-ms.openlocfilehash: 33fe3c7a3c19916a8a70008f467035c832e5ecb3
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Uso de PowerShell para administrar las funciones de mensajería unificada de Exchange, como operador automático y acceso de suscriptor y correo de voz hospedado en Skype para profesionales en línea.
+ms.openlocfilehash: 10c1891272a81731c94e5f0f459bb91e532e8387
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849797"
 ---
-# <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>Administrar la mensajería unificada de Exchange y aloja el correo de voz
+# <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>Administrar la mensajería unificada de Exchange y el correo de voz hospedado
 
-Puede administrar la mensajería unificada de Exchange y alojado el correo de voz de Skype para los negocios en línea mediante un conjunto de cmdlets.
+Puede administrar la mensajería unificada de Exchange y hospedada de correo de voz de Skype para profesionales en línea mediante el uso de un conjunto de cmdlets.
   
-## <a name="manage-exchange-unified-messaging-and-hosted-voice-mail"></a>Administrar la mensajería unificada de Exchange y aloja el correo de voz
+## <a name="manage-exchange-unified-messaging-and-hosted-voice-mail"></a>Administrar la mensajería unificada de Exchange y hospedado de correo de voz
 
-Los cmdlets siguientes puede utilizarse para administrar Exchange Unified Messaging (UM) y alojada en las directivas de buzón de voz:
+Los cmdlets siguientes pueden usarse para administrar la mensajería unificada de Exchange (MU) y las directivas de correo de voz hospedado:
   
 |**Cmdlet**|**Descripción**|
 |:-----|:-----|
-|[Get-CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849628) <br/><br/> [Nueva CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849629) <br/> <br/>[Quitar CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849630) <br/> <br/>[Conjunto de CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849631) <br/> |Crea y administra objetos de contacto utilizados para los servicios de Operador automático y acceso de suscriptor, cuando la mensajería unificada de Exchange es un servicio hospedado.  <br/><br/> Skype para los negocios en línea funciona con mensajería unificada de Exchange para proporcionar varias capacidades relacionadas con la voz, incluyendo acceso de suscriptor y Operador automático. Operador automático proporciona una forma de llamadas a automáticamente se responden y se enruta a la persona correcta. Acceso de suscriptores permite a los usuarios conectarse a mensajería unificada de Exchange y recuperar la información de calendario, contactos, mensajes de voz y correo electrónico.  <br/><br/> Cuando la mensajería unificada de Exchange se proporciona como un servicio hospedado, objetos de contacto utilizados para los servicios de Operador automático y acceso de suscriptor deben crearse utilizando Microsoft PowerShell. Estos objetos se crean y se administran mediante los cmdlets de **CsExUmContact** . <br/> |
-|[Get-CSHostedVoicemailPolicy](https://go.microsoft.com/fwlink/p/?linkid=849633) <br/> <br/>[Concesión CSHostedVoicemailPolicy](https://go.microsoft.com/fwlink/p/?linkid=849602) <br/> |Administra las políticas de correo de voz hospedado utilizadas en la organización. Las políticas de correo de voz hospedado especifican cómo sin contestar las llamadas se enrutan al servicio de mensajería unificada de Exchange. Estas directivas afectan a sólo los usuarios que han sido habilitados para mensajería unificada de Exchange alojado en el correo de voz.  <br/><br/> Para comprobar si un usuario está habilitado para correo de voz hospedado, ejecute un comando similar al siguiente en el símbolo del sistema de PowerShell.  <br/> ' Get-CsOnlineUser-Identity "kenmyer@litwareinc.com" | Select-Object HostedVoiceMail'|
+|[Get-CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849628) <br/><br/> [New-CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849629) <br/> <br/>[Remove-CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849630) <br/> <br/>[Set-CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849631) <br/> |Crea y administra objetos de contacto que usa para los servicios de operador automático y acceso de suscriptor, cuando la mensajería unificada de Exchange es un servicio hospedado.  <br/><br/> Skype para profesionales Online funciona con mensajería unificada de Exchange para proporcionar varias capacidades relacionadas con la voz, incluido el acceso de suscriptor y operador automático. Operador automático proporciona una manera para llamadas a automáticamente se ha atendido y redirige a la persona correcta. Acceso de suscriptor permite a los usuarios para conectarse a la mensajería unificada de Exchange y recuperar información de calendario, contactos, los mensajes de voz y correo electrónico.  <br/><br/> Cuando la mensajería unificada de Exchange se proporciona como un servicio hospedado, usados para los servicios de acceso de suscriptor y operador automático de los objetos de contacto deben crearse mediante el uso de Microsoft PowerShell. Estos objetos se crean y administran mediante los cmdlets de **CsExUmContact** . <br/> |
+|[Get-CSHostedVoicemailPolicy](https://go.microsoft.com/fwlink/p/?linkid=849633) <br/> <br/>[GRANT-CSHostedVoicemailPolicy](https://go.microsoft.com/fwlink/p/?linkid=849602) <br/> |Administra las directivas de correo de voz hospedado utilizadas en la organización. Las directivas de correo de voz hospedado especifican las llamadas no respondidas cómo se enrutan al servicio de mensajería unificada de Exchange. Estas directivas afectan a sólo los usuarios que han sido habilitados para mensajería unificada de Exchange hospedado en el correo de voz.  <br/><br/> Para comprobar si un usuario está habilitado para correo de voz hospedado, ejecute un comando similar al siguiente desde el símbolo del sistema de PowerShell.  <br/> ' Get-CsOnlineUser-Identity "kenmyer@litwareinc.com" | Select-Object HostedVoiceMail'|
    
 
-## <a name="related-topics"></a>See also
-[Configurar el equipo de Skype para la administración de negocios en línea mediante Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+## <a name="related-topics"></a>Temas relacionados
+[Configurar el equipo para Skype para la administración en línea de negocio con Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   
  

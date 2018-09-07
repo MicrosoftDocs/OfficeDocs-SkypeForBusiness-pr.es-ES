@@ -1,5 +1,5 @@
 ---
-title: Bloquea las licencias de usuario para difundir presentación de reunión de Skype
+title: Licencias de usuario bloqueadas para Difusión de reunión de Skype
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: b898557c-547f-4055-9478-d17fb653285f
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,14 +18,14 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Desafortunadamente, hay algunas licencias de usuario que se bloquean cuando el usuario vaya a https://broadcast.skype.com y quiere usar Difundir presentación de reunión de Skype. Si un usuario ve este mensaje, tienen una de las licencias bloqueadas asignadas a ellos. Si aún desea usarlo, asígnele otra licencia de Office 365.
-ms.openlocfilehash: f7a7bb44a6de3cfaa5af282f855b0345f0a3ea76
-ms.sourcegitcommit: 2290f152ea13d87fb1fd70007fe19523184ce947
+ms.openlocfilehash: 68ea3a6632ce5c25c0c443edc8abc66a5c6f5bbe
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2018
-ms.locfileid: "19844603"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861409"
 ---
-# <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Bloquea las licencias de usuario para difundir presentación de reunión de Skype
+# <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Licencias de usuario bloqueadas para Difusión de reunión de Skype
 
 Desafortunadamente, hay algunas licencias de usuario que se bloquean cuando los usuarios que vayan a https://broadcast.skype.com y quiere usar Difundir presentación de reunión de Skype. Si un usuario ve este mensaje, tienen una de las licencias bloqueadas asignadas a ellos. Si aún desea usarlo, asígnele otra licencia de Office 365.
   

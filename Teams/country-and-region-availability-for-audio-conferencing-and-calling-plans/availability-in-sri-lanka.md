@@ -9,6 +9,7 @@ ms.assetid: 5e91dcb0-7c23-415b-9e0b-82115dc046da
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Sri Lanka los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: f53df43b5c8487bd6dec8828362ae51a16a1daa9
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: 93f22b4912836c344c5460e2c6bc339ad3e5b4f4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829429"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853506"
 ---
 # <a name="availability-in-sri-lanka"></a>Disponibilidad de Sri Lanka
 

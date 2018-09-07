@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: dce3356e-83a3-4718-88e7-59885bbaa911
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: 993bd5e818626d76dcf4cb5957cbbe0ffb6ca7be
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 3ed2aa64df068de58ca9651f369b868947a5129d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253999"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850121"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Solución de problemas con Skype Empresarial Online
 

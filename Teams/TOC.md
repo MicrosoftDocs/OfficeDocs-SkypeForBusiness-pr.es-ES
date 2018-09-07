@@ -65,6 +65,11 @@
 ### [Administrar la oferta de prueba de los equipos comerciales](iw-trial-teams.md)
 ### [Configurar Créditos de comunicaciones para su organización](set-up-communications-credits-for-your-organization.md)
 ### [¿Qué son los Créditos de comunicaciones?](what-are-communications-credits.md)
+## Dispositivos admitidos
+### [Teléfonos IP](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Dispositivos de audio y vídeo USB](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Soluciones y dispositivos para salas de reuniones](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
 <!-- ============================================================ -->
 
 
@@ -197,7 +202,7 @@
 ### [Usar el complemento para reunión de Microsoft Teams en Outlook](teams-add-in-for-outlook.md)
 ### [Configuración del servicio de migración de reuniones (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### Eventos en directo
-#### [¿Cuáles son los equipos de eventos en directo?](what-are-teams-live-events.md)
+#### [¿Cuáles son los equipos de eventos en directo?](teams-live-events/what-are-teams-live-events.md)
 
 
 

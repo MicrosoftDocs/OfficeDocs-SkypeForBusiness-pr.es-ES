@@ -9,6 +9,7 @@ ms.assetid: 456e4813-a235-43c2-beda-dd2276bdd108
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para (Irlanda) los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: b3f8c76590dddfe9b343f72a7d294601247896dc
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 64fd74166d639cb162af99f97455e2eeb0a8cd69
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783321"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850665"
 ---
 # <a name="availability-in-ireland"></a>Disponibilidad en Irlanda
 

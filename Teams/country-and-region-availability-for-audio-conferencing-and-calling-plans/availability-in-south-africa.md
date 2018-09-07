@@ -9,6 +9,7 @@ ms.assetid: 7619d889-19c8-48b8-8203-7c25db67a0ce
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Sudáfrica los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 84f559d3e7bb1778f35fe2cdad5dcf46a19ac967
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 19e9422235aaf5a0a8c681313b4df6b772d2452e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23782905"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861646"
 ---
 # <a name="availability-in-south-africa"></a>Disponibilidad de Sudáfrica
 

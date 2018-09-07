@@ -6,17 +6,18 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 description: Vídeos de formación donde se presenta Microsoft Teams y se explica a los administradores cómo se planifica, implementa y funciona Microsoft Teams.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eed2f652ae91c8f6c5296fc558d5008fb0e5e607
-ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
+ms.openlocfilehash: 42ac2b70b0ab0ba014decbef423ee82c6d45ddb2
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20409315"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849848"
 ---
 <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 ==================================

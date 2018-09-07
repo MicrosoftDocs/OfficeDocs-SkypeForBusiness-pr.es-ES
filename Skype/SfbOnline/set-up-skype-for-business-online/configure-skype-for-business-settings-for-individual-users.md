@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 77b26eac-8228-4161-ba9f-733b187bd836
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: f9b6db08c87e46326d6e9de7c82d6e1c89cffce0
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 1296ec96d194be80ae3c48a947a0398f0eefb4e3
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500823"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860333"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administradores: Configurar Skype Empresarial para usuarios individuales
 
@@ -66,7 +67,7 @@ Debe tener [permisos de administrador](https://support.office.com/en-us/article/
 |Registrar conversaciones y reuniones  <br/> |Elija lo que puede grabar esta persona.  <br/> Esta opción no está disponible con Skype para empresarial básica.  <br/> |
 |Para cumplir con las normativas, desactive las características no archivadas  <br/> | Elija esta opción si tiene la obligación legal de conservar la información almacenada por medios electrónicos. <br/>  Si selecciona esta opción, se desactiva las características que no se capturan cuando haya una [Conservación local](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx) configurado en el centro de administración de Exchange. Desactiva las siguientes características: <br/>  Transferencia de archivos por mensajería instantánea <br/>  Páginas de OneNote compartidas <br/>  Anotaciones de PowerPoint <br/> |
    
-Para configurar estas opciones de configuración de forma masiva, use PowerShell. Vea [las directivas de administración de Skype para profesionales en línea](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx).
+Para configurar estas opciones en masa, use PowerShell. Consulte [Administrar directivas en Skype Empresarial Online](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx).
   
 ## <a name="block-external-communications"></a>Bloquear comunicaciones externas
 <a name="__toc325019206"> </a>
@@ -83,7 +84,7 @@ Después de [Permitir que los usuarios de Skype Empresarial agreguen contactos d
     
 3. Haga clic en **Guardar**.
     
-Para configurar estas opciones de configuración de forma masiva, use PowerShell. Vea [administración de las comunicaciones en Skype para profesionales en línea con usuarios externos y las organizaciones](https://technet.microsoft.com/en-us/library/dn362813%28v=ocs.15%29.aspx).
+Para configurar estas opciones en masa, use PowerShell. Consulte [Administrar comunicaciones en Skype Empresarial Online con usuarios y organizaciones externos](https://technet.microsoft.com/en-us/library/dn362813%28v=ocs.15%29.aspx).
   
 ## <a name="edit-audio-conferencing-settings-for-one-user"></a>Editar configuración de conferencia de audio de un usuario
 <a name="__toc314837483"> </a>
@@ -95,8 +96,8 @@ Para configurar estas opciones de configuración de forma masiva, use PowerShell
 |**Configuración de Audioconferencia**|**Descripción**|
 |:-----|:-----|
 |**Nombre del proveedor** <br/> |Elija su proveedor de la lista.  <br/> |
-|**Número gratuito** (obligatorio) <br/> |Un ACP de terceros, estos números de teléfono son los que le proporcionó el proveedor de conferencia de audio. Si el usuario está utilizando Microsoft como proveedor de conferencias de audio, éstos serán los números que se establecen en el puente de conferencia de audio. Dar formato a los números tal como desea que aparezca en Skype para las convocatorias de reunión de Microsoft Teams y profesionales.  <br/> |
-|**Número gratuito** <br/> |Un ACP de terceros, estos números de teléfono son los que le proporcionó el proveedor de conferencia de audio. Si el usuario está utilizando Microsoft como proveedor de conferencias de audio, éstos serán los números que se establecen en el puente de conferencia de audio. Dar formato a los números tal como desea que aparezca en Skype para las convocatorias de reunión de Microsoft Teams y profesionales.  <br/> |
+|**Número gratuito** (obligatorio) <br/> |Un ACP de terceros, estos números de teléfono son los que le proporcionó el proveedor de conferencia de audio. Si el usuario utiliza Microsoft como proveedor de audioconferencia, estos serán los números establecidos en el puente de audioconferencia. Dar formato a los números tal como desea que aparezca en Skype para las convocatorias de reunión de Microsoft Teams y profesionales.  <br/> |
+|**Número gratuito** <br/> |Un ACP de terceros, estos números de teléfono son los que le proporcionó el proveedor de conferencia de audio. Si el usuario utiliza Microsoft como proveedor de audioconferencia, estos serán los números establecidos en el puente de audioconferencia. Dar formato a los números tal como desea que aparezca en Skype para las convocatorias de reunión de Microsoft Teams y profesionales.  <br/> |
 |**PIN y el identificador de conferencia** (obligatorio) <br/> |El participante PIN o conferencia código, utilizado para unirse a reuniones que son programadas por este usuario y se proporcionan desde un proveedor de conferencia de audio de terceros. Si el usuario está utilizando Microsoft como proveedor de conferencias de audio, esto no sea necesario.  <br/> |
    
 Para configurar estas opciones de configuración de forma masiva, use PowerShell. Vea [el teléfono los números incluidos en invitaciones](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md).
@@ -105,7 +106,7 @@ Para configurar estas opciones de configuración de forma masiva, use PowerShell
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
   
    
-## <a name="related-topics"></a>See also 
+## <a name="related-topics"></a>Temas relacionados 
 
 [Configurar Skype Empresarial Online](set-up-skype-for-business-online.md)
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: f651e82d-4237-4e3d-ad74-40fdf11fa8d1
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: b4a8c3c167c8830dfc240b4ce5000f96c5ccbb3f
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: d72fef77dd12008fe071b47fb44031a69974ccaa
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779029"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865229"
 ---
 # <a name="whats-the-status-of-my-port-orders"></a>¿Cuál es el estado de mis solicitudes de portabilidad?
 

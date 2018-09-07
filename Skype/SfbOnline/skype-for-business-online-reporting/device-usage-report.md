@@ -1,5 +1,5 @@
 ---
-title: Informe de uso del dispositivo
+title: Informe del uso de los dispositivos
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: b9019c36-034f-40c7-acb0-c2a0400b03c3
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,15 +19,14 @@ f1keywords:
 ms.custom:
 - Reporting
 description: El nuevo panel Informes de Office 365 muestra la información general de actividad en los productos de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto. Por ejemplo, puede usar el Skype para el informe de uso del dispositivo de empresa para ver los dispositivos, incluidos los sistemas operativos basados en Windows y dispositivos móviles, que tienen el Skype para la aplicación empresarial de instalan y están usando para la mensajería instantánea y reuniones. Comprobar los informes de actividad en el centro de administración de Office 365 para obtener más información.
-search.appverid: MET150
-ms.openlocfilehash: 722a1302f3c94737b520c3c8e23101cc04629a70
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 72d700f5e3c63fde3f4a17f6a652643695303a8d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933101"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863387"
 ---
-# <a name="device-usage-report"></a>Informe de uso del dispositivo
+# <a name="device-usage-report"></a>Informe del uso de los dispositivos
 
 [] El nuevo panel **Informes** de Office 365 muestra la información general de actividad en los productos de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto. Por ejemplo, puede usar el informe de **Skype para uso empresarial del dispositivo** para ver los dispositivos, incluidos los sistemas operativos basados en Windows y dispositivos móviles, que tienen el Skype para la aplicación empresarial de instalan y están usando para la mensajería instantánea y reuniones. 
 
@@ -108,7 +108,7 @@ Si las directivas de la organización le impiden ver los informes en los que la 
 
 - [Skype para el informe de detalles de sesiones de negocio](session-details-report.md) Puede ver detalles acerca de las experiencias de llamada de usuario individual.
     
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 [Informes de actividades en el Centro de administración de Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

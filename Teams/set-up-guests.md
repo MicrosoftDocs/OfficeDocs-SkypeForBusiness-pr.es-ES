@@ -7,16 +7,18 @@ ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rramesan
+search.appverid: MET150
 description: Active o desactive el acceso de invitado en Microsoft Teams.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddf9f3b2597300ca872a5ab4135538e9cc6cc5ed
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 00dbeb60d941742e0ee7b345b431093c0890c14c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23852014"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Activar o desactivar el acceso de invitado a Microsoft Teams
 ======================================

@@ -1,5 +1,5 @@
 ---
-title: ¿Por qué no puedo utilizar el Skype para el centro de administración de negocios en línea ahora mismo?
+title: ¿Por qué no puedo utilizar la Skype para el centro de administración de negocio en línea ahora mismo?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: c182d564-1674-4491-b1d9-3e0cb657d4cc
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,52 +18,53 @@ f1keywords:
 - ms.lync.lac.TenantInMigration
 ms.custom:
 - Setup
-description: 'Obtenga información acerca de lo que puede y no se puede utilizar en Skype para centro de administración de negocios y otras características cuando el servicio se está migrando a otro centro de datos de Microsoft. '
-ms.openlocfilehash: b591b5352ba0d676462fabbaac446ecc769e204a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 'Obtenga información sobre qué se puede y no se puede usar en Skype para el centro de administración de negocio y otras características cuando el servicio se está migrando a otro centro de datos de Microsoft. '
+ms.openlocfilehash: d0b67b7193d6bc56617807d3c14d1196ee66d76c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854203"
 ---
-# <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>¿Por qué no puedo utilizar el Skype para el centro de administración de negocios en línea ahora mismo?
+# <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>¿Por qué no puedo utilizar la Skype para el centro de administración de negocio en línea ahora mismo?
 
-Sabemos que es frustrante no puede realizar su trabajo, por lo que vamos a explicar lo que está sucediendo aquí y por qué va a ser vale la pena esperar. 
+Sabemos que es frustrante cuando no se puede realizar su trabajo, por lo que vamos a explicar lo que sucede aquí y por qué va a ser vale la pena la espera. 
   
-En primer lugar, aquí está la explicación técnica:
+En primer lugar, aquí es la explicación técnica:
   
-Nos estamos migrando su Skype para servicio de los negocios en línea (es decir, los usuarios y la configuración organizativa) a otro centro de datos de Microsoft que está más cerca de usted. Esto mejorará el servicio y reducir la latencia. 
+Vamos estamos migrar su Skype para el servicio en línea de negocio (lo que significa que los usuarios y las configuraciones de la organización) a otro centro de datos de Microsoft que está más cerca a usted. Esto mejorará el servicio y reducir la latencia. 
   
 Para obtener más información, vea [durante y después de la migración de datos]( https://go.microsoft.com/fwlink/?LinkId=526418).
   
-## <a name="ok-so-what-does-that-mean"></a>Bien, así que ¿qué significa eso?
+## <a name="ok-so-what-does-that-mean"></a>Aceptar, por lo tanto ¿qué significa eso?
 
 En primer lugar, vamos a desglosar algunos términos.
   
-- **Centro de datos** Se trata de la ubicación física donde se almacena la información de la organización de Office 365, como los archivos y mensajes de correo electrónico. Si desea profundizar en cuáles son los centros de datos de Office 365, consulte[este artículo](https://www.microsoft.com/online/legal/v2/?docid=25).
+- **Centro de datos** Esta es la ubicación física donde se almacena la información de la organización de Office 365, como los archivos y mensajes de correo electrónico. Si desea realmente profundizar para ¿cuáles son los centros de datos de Office 365, consulte[este artículo](https://www.microsoft.com/online/legal/v2/?docid=25).
     
-- **Migrar** Esto es prácticamente lo mismo que"." En este caso, significa que cambiamos de domicilio su Skype para usuarios de negocios en línea y configuración de un centro de datos a otro que está más cerca de usted para mejorar su servicio.
+- **Migrar** Esto es prácticamente lo mismo como "mover". En este caso, significa que se estamos mover su Skype para usuarios profesionales en línea y la configuración de un centro de datos a otro que esté más cerca de mejorar su servicio.
     
-- **Latencia** Esta es la cantidad de tiempo que se tarda en obtener acceso al centro de administración de Office 365, asegúrese de una configuración cambiar y, a continuación, guarde los cambios.
+- **Latencia** Esto es la cantidad de tiempo necesario para tener acceso al centro de administración de Office 365, asegúrese de una configuración de cambiar y, a continuación, guarde los cambios.
     
-- **Id. de correlación** Podría haber visto que esto aparece en el mensaje que vienes. Esta información es utilizada por ingenieros de soporte técnico de Microsoft para ayudarle a solucionar un error. Si ponerse en contacto con el soporte técnico de Microsoft, puede que se le pida para el identificador de correlación.
+- **Identificador de correlación** Es posible que ha visto esto que aparecen en el mensaje que acaba de procedencia. Esta información se usa por ingenieros de soporte técnico de Microsoft que le ayudarán a solucionar problemas de un error. Puede que se le pida si póngase en contacto con el soporte técnico de Microsoft, para el identificador de correlación.
     
-Así que ¿qué significa todo esto es estamos en proceso de moverse todos su Skype para usuarios de negocios en línea y configuración a otra ubicación que está más cerca de usted del servicio. El más próximo, mejor. La buena noticia es que después de este período corto de tiempo, su Skype para los negocios en línea servicio mejorará.
+Por lo que ¿qué significa todo esto se está en el proceso de mover todos los su Skype para usuarios profesionales en línea y configuración a otra ubicación que esté más cerca del servicio. Cuanto más se aproxime mejor. La buena noticia es que tras este breve período de tiempo, permita mejorar su Skype para servicios en línea de negocio.
   
-![Migración de servicios de Office 365](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
+![Migración de servicio en Office 365](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
   
-## <a name="what-skype-for-business-online-features-will-still-work"></a>¿Qué Skype para las características de los negocios en línea seguirá funcionando?
+## <a name="what-skype-for-business-online-features-will-still-work"></a>¿Qué Skype para las características en línea de negocio se siguen funcionando?
 
-Aunque no pueda tener acceso el Skype para el centro de administración de negocios en línea, el siguiente Skype para las características de los negocios en línea seguirá funcionando durante la migración:
+Aunque no podrá tener acceso a la Skype para el centro de administración de negocio en línea, el siguiente Skype para las características empresariales en línea seguirá funcionando durante la migración:
   
 - Reuniones en línea
     
 - Información de presencia
     
-## <a name="can-i-get-other-work-done"></a>¿Puedo conseguir otro trabajo realizado?
+## <a name="can-i-get-other-work-done"></a>¿Puedo obtener otro realizar su trabajo?
 
-Seguro. Mientras nos estamos migrando su Skype para servicio de los negocios en línea, todavía puede utilizar los otros centros de administrador en Office 365 (por ejemplo, los centros de admin Office 365 y Exchange). Sin embargo, junto con Skype para el centro de administración de negocios en línea, no podrá utilizar el Skype para los cmdlets de PowerShell remoto de negocios en línea durante la migración. 
+Seguro. Mientras que nos estamos migrando su Skype para servicios en línea de negocio, aún puede usar los otros centros de administración en Office 365 (por ejemplo, los centros de administración Office 365 y Exchange). Sin embargo, junto con Skype para el centro de administración de negocio en línea, no podrá usar el Skype para los cmdlets de PowerShell remoto en línea de negocio durante la migración. 
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 [Configurar Skype Empresarial Online](set-up-skype-for-business-online.md)
 
 [Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype](let-skype-for-business-users-add-skype-contacts.md)

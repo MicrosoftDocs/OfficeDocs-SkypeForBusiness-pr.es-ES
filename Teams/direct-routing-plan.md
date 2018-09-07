@@ -8,14 +8,15 @@ ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: ''
 description: Lea este tema para obtener información sobre cómo enrutamiento directo de Microsoft teléfono del sistema le permite conectar un compatibles, proporcionado por el cliente sesión controlador de borde (SBC) para el sistema telefónico de Microsoft.
-ms.openlocfilehash: 1749d5b26be6e3cc4c55bb9a90e47e637fc67230
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 0f2fceee07b3c742496be7e9fdf5c714d66f8bc1
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23848620"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861744"
 ---
 # <a name="plan-direct-routing"></a>Planeación de enrutamiento directo
 
@@ -68,9 +69,9 @@ En la siguiente tabla, se enumeran los requisitos de infraestructura para el SBC
 |Entrada DNS pública para el SBC |Una entrada DNS pública asignar el FQDN SBC a la dirección IP pública. |
 |Certificado de confianza pública para el SBC |Un certificado para el SBC que se usará para todas las comunicaciones con el enrutamiento directo. Para obtener más información, vea [pública certificado de confianza para el SBC](#public-trusted-certificate-for-the-sbc).|
 |Puntos de conexión para el enrutamiento directo |Los puntos de conexión para el enrutamiento directo son los FQDN de tres los siguientes:<br/><br/>`sip.pstnhub.microsoft.com`: FQDN global, debe intentar primero.<br/>`sip2.pstnhub.microsoft.com`: FQDN secundario, geográficamente se asigna a la segunda región de prioridad.<br/>`sip3.pstnhub.microsoft.com`– Terciario FQDN, geográficamente se asigna a la región de prioridad de terceros.<br/><br/>Para obtener información sobre los requisitos de configuración, vea [de señalización SIP: FQDN y los puertos de firewall](#sip-signaling-fqdns-and-firewall-ports).|
-|Las direcciones IP de servidor de seguridad y los puertos para los medios de enrutamiento directo |La SBC se comunica con los siguientes servicios en la nube:<br/><br/>Proxy, que controla la señalización SIP<br/>Procesador de medios, que controla los medios-excepto cuando es el desvío de medios en<br/><br/>Estos dos servicios tienen direcciones IP distintas en Microsoft Cloud, que se describen más adelante en este documento.<br/><br/>Para obtener más información, vea la [sección de equipos de Microsoft](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) en [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |
+|Las direcciones IP de servidor de seguridad y los puertos para los medios de enrutamiento directo |La SBC se comunica con los siguientes servicios en la nube:<br/><br/>Proxy, que controla la señalización SIP<br/>Procesador de medios, que controla los medios-excepto cuando es el desvío de medios en<br/><br/>Estos dos servicios tienen direcciones IP distintas en Microsoft Cloud, que se describen más adelante en este documento.<br/><br/>Para obtener más información, vea la [sección de equipos de Microsoft](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) en [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Medios de transporte perfil|RTP/TCP/SAVP <br/>RTP/UDP/SAVP|
-Las direcciones IP de servidor de seguridad y los puertos de medios de Microsoft Teams |Para obtener más información, vea [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |
+Las direcciones IP de servidor de seguridad y los puertos de medios de Microsoft Teams |Para obtener más información, vea [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>Concesión de licencias y otros requisitos 

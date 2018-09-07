@@ -9,6 +9,7 @@ ms.assetid: ''
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -18,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Configurar y usar el análisis de llamada para identificar y solucionar problemas de Skype para profesionales y Microsoft Teams problemas de calidad de llamada.
-ms.openlocfilehash: d2e4a603010f668fa0b9a2767b1580d4b9b71a47
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: dfb21c852142b0ba6ec90d5c216ace0eecbf8003
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784881"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861978"
 ---
 # <a name="set-up-call-analytics"></a>Configurar el análisis de llamadas
 

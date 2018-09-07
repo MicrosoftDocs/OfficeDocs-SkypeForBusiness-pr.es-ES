@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 7c477cc4-78e7-4a1f-ac3c-ac63151f9cf7
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Vea lo que se debe incluir como un número de cuenta en Skype para la empresa y donde puede encontrar. '
-ms.openlocfilehash: a0b9ba63f6c42a57d1d38dc217da61ab9b3d2c53
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: ef6cdc8a5eeebb3f64a41410062b045da08b066f
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780731"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863295"
 ---
 # <a name="what-should-i-put-in-for-the-account-number"></a>¿Qué debería poner para el número de cuenta?
 

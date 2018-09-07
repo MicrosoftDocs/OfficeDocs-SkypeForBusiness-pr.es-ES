@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 866fadfd-16e2-4134-95db-c6aed7678416
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,12 +17,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Solución de problemas de creación de una sesión remota de PowerShell para conectarse a Skype para profesionales Online, incluidos Import-Module, shell simultánea, Live ID y errores de permiso.
-ms.openlocfilehash: 296b6fc4c4b6f0ffbabb1dacf7f7ac4ad1f05f13
-ms.sourcegitcommit: 978d01431a1c6ac3f5a4390cb900491445e32c15
+ms.openlocfilehash: 516da269e41f7945238aa8b402793a65444bd932
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/04/2018
-ms.locfileid: "21855096"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851517"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexión con el conector de Skype Empresarial Online
 
@@ -142,7 +143,7 @@ Aunque cada administrador se puede tener como máximo tres conexiones simultáne
 
 - **Resolución**: es la única forma de resolver este problema cerrar una o varias de las conexiones de la anteriores. Cuando haya terminado con un Skype para la sesión en línea de negocio, se recomienda que use el cmdlet **Remove-PSSession** para terminar de esa sesión. Esto le ayudará a evitar que este problema.  
  
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 [Configurar el equipo para Skype para la administración en línea de negocio con Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

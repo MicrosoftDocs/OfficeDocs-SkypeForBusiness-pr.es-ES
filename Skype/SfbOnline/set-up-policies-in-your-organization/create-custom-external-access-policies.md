@@ -1,5 +1,5 @@
 ---
-title: Crear directivas de acceso externo personalizado
+title: Crear directivas personalizadas de acceso externo
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 89cbd278-5480-473c-8cd9-04e07e5f9e0b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,14 +17,14 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Skype para profesionales en línea le permite crear directivas de acceso externo adicionales. A diferencia de las directivas de cliente o las conferencias, donde puede tener varias combinaciones de, hay tres directivas de acceso externo predefinidos que pueden cubrir la mayor parte de los escenarios.
-ms.openlocfilehash: e166aa9af162fd6432c8932d5842ea0fd00a36b3
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: e0af31d015c69ebd91c28a229a20d3d2c6c926c4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568316"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850161"
 ---
-# <a name="create-custom-external-access-policies"></a>Crear directivas de acceso externo personalizado
+# <a name="create-custom-external-access-policies"></a>Crear directivas personalizadas de acceso externo
 
 Skype para profesionales en línea le permite crear directivas de acceso externo adicionales. A diferencia de las directivas de cliente o las conferencias, donde puede tener varias combinaciones de, hay tres directivas de acceso externo predefinidos que pueden cubrir la mayor parte de los escenarios. Estos son:
   
@@ -37,7 +38,7 @@ Le permiten directivas externas personalizadas crear otras directivas que no est
   
 Para realizar este trabajo, el usuario debe usar una versión compatible de 2016 Click-to-Run Skype para la aplicación empresarial que lo admite. La siguiente versión mínima de Skype para clientes empresariales 2016 Click-to-Run es necesaria:
   
-|**Tipo de**|**Fecha de lanzamiento**|**Versión**|**Versión**|
+|**Tipo**|**Fecha de lanzamiento**|**Versión**|**Versión**|
 |:-----|:-----|:-----|:-----|
 |Primera versión de canal actual  <br/> |17/11/2016  <br/> |16.0.7571.2006  <br/> |Versión 1611 (compilación 7571.2006)  <br/> |
 |Canal actual  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Versión 1611 (compilación 7571.2072)  <br/> |

@@ -9,6 +9,7 @@ ms.assetid: 5cde872f-9cd8-4a5d-9244-0dc9a7ae5651
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Malasia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: cd818c020e08f1b46d4045ca5beb741e6b20ce8c
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 69dd555d36d03af500ee65d6acfaf679f657e615
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23786009"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850788"
 ---
 # <a name="availability-in-malaysia"></a>Disponibilidad en Malasia
 

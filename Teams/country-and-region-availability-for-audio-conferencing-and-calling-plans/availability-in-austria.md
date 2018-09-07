@@ -9,6 +9,7 @@ ms.assetid: 298c6df7-0054-48cf-867c-082bdb695999
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Austria los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 1ddb0f5094a0501f3c595966af20698590f3bc2d
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: bfcb42b4e45cd70be666d18327afcaf030634898
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783281"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867014"
 ---
 # <a name="availability-in-austria"></a>Disponibilidad en Austria
 

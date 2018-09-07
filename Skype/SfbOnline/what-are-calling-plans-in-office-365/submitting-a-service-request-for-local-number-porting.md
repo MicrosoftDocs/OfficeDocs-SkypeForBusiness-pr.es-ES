@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 99e3b7e9-fd0e-48a8-88c9-3ec5561db68e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'If you have more than 999 phone numbers to transferred to Skype for Business, learn how to submit a port order service request to get them moved. '
-ms.openlocfilehash: 72b30cb4f7eb2345eae854eb3487fc7752fa4682
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: d876470b3d7be559700065259dee3bde18f661fb
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780831"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860951"
 ---
 # <a name="submitting-a-service-request-for-local-number-porting"></a>Enviar una solicitud de servicio para una portabilidad de número local
 

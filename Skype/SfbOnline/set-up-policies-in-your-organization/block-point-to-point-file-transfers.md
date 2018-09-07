@@ -1,5 +1,5 @@
 ---
-title: Transferencias de archivos punto a punto de bloque
+title: Bloquear las transferencias de archivos punto a punto
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 9adf9859-de5b-461e-92ea-b6ce4dd2f7c1
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,13 +17,14 @@ f1keywords: None
 ms.custom:
 - Setup
 description: En Skype para profesionales en línea, tiene la posibilidad de controlar a las transferencias de archivos punto a punto (P2P) como parte de la configuración de la directiva de conferencia existente. Sin embargo, esto permite o bloquea las transferencias realizadas para los usuarios si están transfiriendo archivos a un usuario que está dentro de la misma organización o a un usuario federado de otra organización de archivos. Siguiendo los pasos que aparece a continuación, puede bloquear a las transferencias de archivos P2P con las organizaciones federadas o socios.
-ms.openlocfilehash: 318f6e6b88f0be4c85f72aa7b59d6e3fec2bd781
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
+ms.openlocfilehash: 3ae7bce22a99858af36696e1fde41bb614f2c008
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858495"
 ---
-# <a name="block-point-to-point-file-transfers"></a>Transferencias de archivos punto a punto de bloque
+# <a name="block-point-to-point-file-transfers"></a>Bloquear las transferencias de archivos punto a punto
 
 En Skype para profesionales en línea, tiene la posibilidad de controlar a las transferencias de archivos punto a punto (P2P) como parte de la configuración de la directiva de conferencia existente. Sin embargo, esto permite o bloquea las transferencias realizadas para los usuarios si están transfiriendo archivos a un usuario que está dentro de la misma organización o a un usuario federado de otra organización de archivos. Siguiendo los pasos que aparece a continuación, puede bloquear a las transferencias de archivos P2P con las organizaciones federadas o socios.
   
@@ -38,7 +40,7 @@ Si un usuario federado fuera de su organización intenta enviar un archivo a un 
   
 Para realizar este trabajo, el usuario debe usar una versión compatible de un Skype de Click-to-Run 2016 para la aplicación empresarial que lo admite. La siguiente versión mínima de Skype para clientes empresariales 2016 Click-to-Run es necesaria:
   
-|**Tipo de**|**Fecha de lanzamiento**|**Versión**|**Versión**|
+|**Tipo**|**Fecha de lanzamiento**|**Versión**|**Versión**|
 |:-----|:-----|:-----|:-----|
 |Primera versión de canal actual  <br/> |17/11/2016  <br/> |16.0.7571.2006  <br/> |Versión 1611 (compilación 7571.2006)  <br/> |
 |Canal actual  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Versión 1611 (compilación 7571.2072)  <br/> |
