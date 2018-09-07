@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: fd41934d-f2eb-4a1b-89d8-32cb37702b33
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Obtenga información sobre cómo asignar licencias de Skype Empresarial para el Sistema telefónico, las Audioconferencias, los Planes de llamadas y los Créditos de Comunicaciones. '
-ms.openlocfilehash: fef4bea3971f2984e46de7a3592b1a157076c879
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: af2b7357c5dbe9e11b84ac87e0f72721d10a6a30
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780671"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856057"
 ---
 # <a name="assign-skype-for-business-and-microsoft-teams-licenses"></a>Asignar licencias de Skype for Business y Microsoft Teams
 
@@ -43,7 +44,7 @@ Lo que necesita saber antes de asignar las licencias de Audioconferencia, Sistem
 
 - **Latencia tras la asignación de licencias**: Debido a la latencia entre Office 365 y Skype Empresarial Online, es posible que se necesiten hasta 24 horas para que a un usuario se le asigne un Plan de llamadas después de que asignes una licencia. Si transcurridas 24 horas al usuario no se le ha asignado un Plan de llamadas, por favor [Póngase en contacto con el servicio de soporte técnico para los productos empresariales - Ayuda de administración](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
-- **Mensajes de error**: recibirá un mensaje de error si no ha adquirido el número de licencias correcto. Si necesita comprar más licencias de Plan de llamadas, seleccione **Comprar más**.
+- **Mensajes de error**: Recibirá un mensaje de error si no ha adquirido el número de licencias correcto. Si necesita comprar más licencias de Plan de llamadas, seleccione **Comprar más**.
     
 - **Siguientes pasos**: después de asignar licencias de Plan de llamadas a sus usuarios, tendrá que obtener los números de teléfono para su organización y asignarlos a los miembros de esta. Si desea consultar las instrucciones paso a paso, vea [Configurar Planes de llamadas](/microsoftteams/set-up-calling-plans).
     

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: cc22c49a-c644-4151-a2fc-a1474148f8ba
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,18 +21,18 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Vea cómo buscar números de teléfono que pueda asignar a los usuarios, por país/región, provincia/región o ciudad, y especificar la cantidad de números que necesita. '
-ms.openlocfilehash: 94eeed0921a769547d5047310bf224a9b90dd6f0
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 057eca4ba0f884fb1c81cb8ee8e45be6a19194bf
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779404"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850151"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Buscar números de teléfono para los usuarios
 
-Al configurar los usuarios de su organización para realizar y recibir llamadas telefónicas, es preciso usar el **Centro de administración de Skype for Business**y obtener, en primer lugar, números de teléfono que se puedan asignar a los usuarios. El número de teléfono que asigne a un usuario será un número de teléfono que haya elegido para la organización y se mostrará en la lista desplegable cuando edite las propiedades del usuario y haga clic en **Asignar**.
+Al configurar los usuarios de su organización para realizar y recibir llamadas telefónicas, es preciso usar el **Centro de administración de Skype for Business**y obtener, en primer lugar, números de teléfono que se puedan asignar a los usuarios. El número de teléfono que asigne a un usuario será un número de teléfono que haya elegido para la organización y se mostrará en la lista desplegable cuando edite las propiedades del usuario y haga clic en **Asignar número**.
   
-Pero antes de poder asignar números de teléfono a los usuarios, necesita usar la página **Números nuevos** para buscar los números que están disponibles en un área. Puede buscar por **País/región**, **Estado** o **Ciudad** y, a continuación, escribir los números de teléfono que necesite para los usuarios. 
+Pero antes de poder asignar números de teléfono a los usuarios, necesita usar la página **Números nuevos** para buscar los números que están disponibles en un área. Puede buscar por **País o región**, **Estado** o **Ciudad** y, a continuación, escribir los números de teléfono que necesite para los usuarios. 
   
 Si necesita ayuda con la introducción de los números de teléfono, puede ver [Administrar números de teléfono para su organización](/microsoftteams/manage-phone-numbers-for-your-organization) o [Ponerse en contacto con el soporte para productos de empresa: ayuda de administración](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
@@ -43,17 +44,17 @@ Si necesita ayuda con la introducción de los números de teléfono, puede ver [
   
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya al **Centro de administración de Office 365** > **Skype for Business**.
+2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
     
 3. En el panel de navegación izquierdo, vaya a **Voz** > **Números de teléfono**y, a continuación, haga clic en **Agregar nuevo número** > **Nuevos números de usuario**.
   
     > [!IMPORTANT]
-    > Para poder ver la opción **Voz** en el panel de navegación izquierdo del Centro de administración de Skype for Business, primero tiene que adquirir como mínimo una **licencia de Enterprise E5**, una licencia de complemento de **sistema telefónico** o una licencia de complemento de **audioconferencia**.  
+    > Para poder ver la opción **Voz** en el panel de navegación izquierdo del Centro de administración de Skype for Business, primero tiene que adquirir como mínimo una **licencia de Enterprise E5**, una licencia de complemento de **Sistema telefónico** o una licencia de complemento de **Audioconferencia**.  
     
     
 4. En la página **Agregar nuevos números de usuario**, haga clic en las listas**** de **País y Estado** para seleccionar el estado del que desea seleccionar números y, a continuación, seleccione el código de área de la ciudad de la lista **Ciudad**.
     
-5.  En **Cantidad**, escriba el número de números de teléfono que quiere para su organización y haga clic en **Agregar** para crear una reserva. Tiene 10 minutos para seleccionar los números de teléfono. Si tarda más de 10 minutos, se devolverán los números al grupo de números de teléfono.
+5.  En **Cantidad**, introduzca el número de números de teléfono que quiere para su organización y haga clic en **Agregar** para crear una reserva. Tiene 10 minutos para seleccionar los números de teléfono. Si tarda más de 10 minutos, se devolverán los números al grupo de números de teléfono.
     
     > [!NOTE]
     > Puede ver el número de números de teléfono, que se basa en el número de licencias, que aparecen junto a **Números de usuario totales que puede adquirir**. 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Aprenda a asignar, cambiar o quitar un número de teléfono de trabajo para sus usuarios de Skype for Business, de forma que los clientes y las empresas externas puedan llamar.
-ms.openlocfilehash: 8c80bf9da5471f1a7293a01ed9e2d56f6e1aa15b
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: a522e4fd6cbd41c34b2547ab6be0f7590de0a8b3
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780943"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860595"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Asignar, cambiar o quitar un número de teléfono para un usuario
 
@@ -55,7 +56,7 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
  
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Uso del centro de administración de Skype for Business**
  
-1. Inicie sesión en Office 365 con su cuenta de trabajo o escuela.
+1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
 2. Vaya al **Centro de administración de Office 365** > **Centros de administración** > **Skype for Business**.
     
@@ -87,7 +88,7 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
  
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Uso del centro de administración de Skype for Business**
  
-1. Inicie sesión en Office 365 con su cuenta de trabajo o escuela.
+1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
 2. Vaya al **Centro de administración de Office 365** > **Centros de administración** > **Skype for Business**.
     
@@ -111,7 +112,7 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
  
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Uso del centro de administración de Skype for Business**
  
-1. Inicie sesión en Office 365 con su cuenta de trabajo o escuela.
+1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
 2. Vaya al **Centro de administración de Office 365** > **Centros de administración** > **Skype for Business**.
     
@@ -127,11 +128,11 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
 ## <a name="related-topics"></a>Temas relacionados
 [¿Qué es la validación de direcciones?](what-is-address-validation.md)
 
-[Administrar los números de teléfono de su organización](/microsoftteams/manage-phone-numbers-for-your-organization)
+[Administrar los números de teléfono para su organización](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

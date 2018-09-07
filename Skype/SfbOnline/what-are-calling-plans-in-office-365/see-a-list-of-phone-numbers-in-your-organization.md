@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 93098bc5-df63-4a1f-8734-0b72a6280a69
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,27 +21,27 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo ver una lista de todos los números de teléfono de su organización, todos los números asignados a los usuarios y todos los números asignados a usuarios de voz desde el centro de administración de Skype for Business.
-ms.openlocfilehash: cb945b8456a9443b34390b6f83606ef5570ffdaf
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: ee90dbdecb292f4185a34212830bc216e0bc9ea4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779340"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854309"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Ver una lista de números de teléfono de su organización
 
-Hay distintos tipos de números de teléfono que puede asignar a usuarios o a otros servicios (números de servicio), como por ejemplo para audioconferencias en Office 365.
+Hay distintos tipos de números de teléfono que puede asignar a usuarios o a otros servicios (números de servicio), como por ejemplo para Audioconferencia en Office 365.
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>Para ver una lista de todos los números de teléfono de los que dispone para su organización
 
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Uso del centro de administración de Skype for Business**
 
 
-1. Inicie sesión en Office 365 con su cuenta de trabajo o escuela.
+1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
 2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
     
-3. En el **Centro de administración de Skype for Business**, en el panel de navegación de la izquierda, vaya a **Voz** > **Números de teléfono**.
+3. En el **Centro de administración de Skype Empresarial**, en el panel de navegación de la izquierda, vaya a **Voz** > **Números de teléfono**.
     
     > [!IMPORTANT]
     > Para poder ver la opción **Voz** en el panel de navegación izquierdo del Centro de administración de Skype for Business, primero tiene que adquirir como mínimo una **licencia de Enterprise E5**, una licencia complementaria de **Sistema telefónico** o una licencia complementaria de **Audioconferencia**.
@@ -105,7 +106,7 @@ Al configurar los usuarios de su organización para realizar y recibir llamadas 
     
   - **Usuarios activos** y si un usuario está alojado en línea o en las instalaciones.
     
-  - **Licencias pendientes** y si un usuario está en línea o en las instalaciones.
+  - **Licencias pendientes** y si un usuario está alojado en línea o en las instalaciones.
     
 ## <a name="related-topics"></a>Temas relacionados
 [Preguntas comunes sobre la transferencia de números de teléfono](/microsoftteams/transferring-phone-numbers-common-questions)
@@ -116,6 +117,6 @@ Al configurar los usuarios de su organización para realizar y recibir llamadas 
 
 [Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
  

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 5a0bd8ba-3334-46ee-becf-1025597737f6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: La identificación de llamadas se puede controlar en las llamadas de entrada y de salida de usuarios de Sistema telefónico mediante una directiva llamada CallingLineIdentity.
-ms.openlocfilehash: 04ee6f0bc074318f30d0257e7466d2d2ec7262aa
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 410712a8fd0a6f28b0bc2821daae8143b38ceb63
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23778999"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854229"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Cómo se puede usar la identificación de llamadas en su organización
 
@@ -54,7 +55,7 @@ Hay tres opciones disponibles para la identificación de llamadas RTC de salida:
     
 Sin embargo, no es posible asignar estos tipos de números de teléfono al identificador de llamadas de salida:
   
-- Los números de teléfono que se clasifican como  *usuario* en su inventario de números de teléfono de Planes de llamadas
+- Los números de teléfono que se clasifican como *usuario* en su inventario de números de teléfono de Planes de llamadas
     
 - Un número de teléfono de Skype for Business Server local
     
@@ -72,7 +73,7 @@ Sus usuarios finales pueden configurar su identificador de llamadas en **Anónim
 |Hacer clic y ejecutar  <br/> |Canal actual publicado el 6 de diciembre de 2016 - Versión 1611 (Compilación 7571.2072)  <br/> |Sí  <br/> |
 |Hacer clic y ejecutar  <br/> |Primera versión para el Canal diferido publicada el 22 de febrero de 2017 - Versión 1701 (Compilación 7766.2060)  <br/> |Sí  <br/> |
 |Hacer clic y ejecutar  <br/> |Canal diferido publicado el 13 de junio de 2017 - versión 1701 (compilación 7766.2092)  <br/> |Sí  <br/> |
-|MSI  <br/> |Skype Empresarial  <br/> |No  <br/> |
+|MSI  <br/> |Skype for Business  <br/> |No  <br/> |
 |Mac  <br/> |Skype Empresarial  <br/> |No  <br/> |
    
 ## <a name="inbound-caller-id"></a>Identificación de llamadas de entrada
@@ -90,7 +91,7 @@ Para establecer la identificación de llamadas de salida, consulte [Establecer e
 
 [Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  
