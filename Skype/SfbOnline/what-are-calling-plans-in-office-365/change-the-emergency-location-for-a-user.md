@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 2d5d3c87-af1e-487e-b86c-261f2e5a0661
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre cómo cambiar la ubicación de emergencia para los usuarios. Con un número ilimitado de ubicaciones, puede cambiar las ubicaciones de emergencia cuando los empleados cambien de plantas o edificios. '
-ms.openlocfilehash: 6f554a4233f6b3c60711281978212e1cbec35c10
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: e3805daa8248da44de84330ea5de694126e9e32c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779282"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863277"
 ---
 # <a name="change-the-emergency-location-for-a-user"></a>Cambiar la ubicación de emergencia de un usuario
 
@@ -37,7 +38,7 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya al **Centro de administración de Office 365** > **Skype for Business**.
+2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
     
 3. En el panel de navegación izquierdo, vaya a **Voz** > **Usuarios de voz**.
     
@@ -48,7 +49,7 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
     
 5. En el panel de acciones, en **Ubicación de emergencia**, haga clic en **Cambiar**.
     
-6. En la página **Asignar un número,** haga clic en **Cambiar ubicación**. 
+6. En la página **Asignar un número**, haga clic en **Cambiar ubicación**. 
     
 7. En **Cambiar dirección de emergencia a**, escriba el nombre de la ciudad en la casilla y haga clic en **Buscar**.
     

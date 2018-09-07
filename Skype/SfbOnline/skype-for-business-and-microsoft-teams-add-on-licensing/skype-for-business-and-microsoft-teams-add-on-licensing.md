@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: 3ed752b1-5983-43f9-bcfd-760619ab40a7
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -22,12 +23,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Aprenda sobre las licencias de complementos, las características que obtendrá con ellas, cómo comprarlas para su producto y cómo usar su operador de telefonía existente con ellos. Puede obtener información sobre precios y detalles de plan para Office 365, Créditos de comunicación y Planes de llamadas. '
-ms.openlocfilehash: 0e7d4cabb4768d55188aeb2c5afca5b09d400419
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: f010c45f4351f505c36522ab45ce22f2442eea40
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779642"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858345"
 ---
 # <a name="skype-for-business-and-microsoft-teams-add-on-licensing"></a>Licencias de complementos de Skype for Business y Microsoft Teams
 
@@ -62,7 +63,7 @@ En función de su plan, puede comprar licencias de complementos para las siguien
 |**Planes de llamadas** <br/> |Las llamadas a otro Skype for Business son gratuitas, pero si desea que los usuarios puedan llamar a los números de teléfono fuera de su negocio, obtenga un [Plan de llamadas](/MicrosoftTeams/calling-plans-for-office-365). Hay planes de llamadas nacionales y planes de llamadas nacionales e internacionales en Office 365.  <br/> Si quiere saber cuánto cuesta, vea [Requisitos para los planes de llamadas](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements).  <br/> |
 |**Sistema de salas de Skype v2** <br/> |No se trata de un complemento sino de una función que acerca el uso compartido de vídeos, audios y contenidos a las salas de conferencia. Vea [Sistemas de salas de Skype versión 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md).  <br/> |
 
-¿Necesita hablar con alguien acerca de los complementos opcionales? [Póngase en contacto con el soporte para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+¿Necesita hablar con alguien acerca de los complementos opcionales? [Póngase en contacto con el soporte de Office 365 para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 ## <a name="license-options-based-on-your-plan"></a>Opciones de licencia en función del plan
 

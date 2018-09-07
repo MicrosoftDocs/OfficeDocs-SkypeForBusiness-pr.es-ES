@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 91f2d947-45fc-4fab-bd8b-2e313531c477
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,14 +21,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre qué teléfonos funcionan con Skype for Business de Polycom, HP y Mitel, y las licencias necesarias. '
-ms.openlocfilehash: 92a91d97efabeaaebb074e41e41bc9a8812fa0c5
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 441effac4256ee01f713e10e592ea3402726d5f3
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780613"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863767"
 ---
-# <a name="getting-phones-for-skype-for-business-online"></a>Obtener teléfonos para Skype for Business Online
+# <a name="getting-phones-for-skype-for-business-online"></a>Obtener teléfonos con Skype for Business Online
 
 Skype for Business Online admite y es compatible con los teléfonos de escritorio, para los usuarios que deseen tener una experiencia de teléfono tradicional en lugar de usar la aplicación Skype for Business. En este tema se tratan los teléfonos y las versiones de firmware que son compatibles para su uso en Skype for Business Online y otra información que le ayudarán al configurar teléfonos en su organización.
   
@@ -35,7 +36,7 @@ Para obtener las actualizaciones más recientes y la información más actualiza
   
 ## <a name="supported-phones"></a>Teléfonos compatibles
 
-Para usuarios de Skype for Business Online, puede elegir entre los diversos modelos del conjunto de  *Teléfonos certificados para Skype for Business* y los teléfonos con Lync Phone Edition (LPE) que se enumeran en la categoría Skype for Business Online en el [Catálogo de dispositivos de Skype for Business](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
+Para usuarios de Skype for Business Online, puede elegir entre los diversos modelos del conjunto de *Teléfonos certificados para Skype for Business* y los teléfonos con Lync Phone Edition (LPE) que se enumeran en la categoría Skype for Business Online en el [Catálogo de dispositivos de Skype for Business](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
   
 Microsoft se asocia y trabaja en estrecha colaboración con Polycom, Yealink y AudioCodes para desarrollar y certificar una amplia variedad de dispositivos a través del Programa de teléfonos IP de socios (PIP) para el Sistema telefónico de Office 365 y Skype for Business Server.
   
@@ -120,7 +121,7 @@ Para obtener instrucciones detalladas, consulte [Implementación de teléfonos d
 
 [Esto es lo que conseguirá con Sistema telefónico en Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-[Países y regiones donde la Audioconferencia y los Planes de llamada están disponibles](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[Países y regiones donde Audioconferencia y Planes de llamada están disponibles](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
   
  

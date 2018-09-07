@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar el sistema telefónico para colas de llamadas de Office 365 (PBX en la nube) para que le proporcionen un saludo organizativo, música en espera y redireccionamiento de llamadas a los agentes de llamadas en las listas de distribución y grupos de seguridad. También puede establecer las opciones de tamaño máximo de cola, tiempo de espera y administración de llamadas. '
-ms.openlocfilehash: 5a3ace77542a86aea1dd77e1ddcf594f61abb738
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: bb9812eb880ce7451c2fd30f93fa080d6ec84c87
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780427"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854451"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Crear una cola de llamadas de Sistema telefónico
 
-Las colas de llamadas del sistema telefónico incluyen el saludo que se usa cuando alguien llama a un número de teléfono de su organización, la capacidad de poner llamadas en espera y la de localizar a un agente disponible para responder a la llamada mientras quien llama escucha una música durante la espera. Puede crear una o varias colas de llamadas para su organización.
+Las colas de llamadas del Sistema telefónico incluyen el saludo que se usa cuando alguien llama a un número de teléfono de su organización, la capacidad de poner llamadas en espera y la de localizar a un agente disponible para responder a la llamada mientras quien llama escucha una música durante la espera. Puede crear una o varias colas de llamadas para su organización.
   
 Las colas de llamadas del Sistema telefónico pueden proporcionar:
   
@@ -58,12 +59,12 @@ Todas las llamadas que se encuentren en espera en la cola se distribuirán usand
     
 ## <a name="step-1---getting-started"></a>Paso 1: tareas iniciales
 
-Para comenzar a utilizar colas de llamadas, es importante recordar lo siguiente:
+Para comenzar a utilizar colas de llamadas, es importante recordar algunas cosas:
   
 - Su organización debe tener (como mínimo) una licencia de **Sistema telefónico** Enterprise E3 plus o una licencia Enterprise E5. El número de licencias de usuario de **Sistema telefónico** que se asignan afecta a la cantidad de números de servicio que están disponibles para usarse para las colas de llamadas. La cantidad de colas de llamadas que puede tener depende del número de licencias de **Sistema telefónico** y **Audioconferencia** asignadas en la organización. Para obtener más información acerca de las licencias, consulte [aquí](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
     > [!NOTE]
-    > Para redirigir las llamadas a personas de la organización que están en línea, estas deben tener una licencia de **Sistema telefónico** y estar habilitadas para Enterprise Voice o tener Planes de llamadas de Office 365. Vea [Asignar licencias de Skype for Business y Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Para habilitar Enterprise Voice, puede utilizar Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > Para redirigir las llamadas a personas de la organización que están en línea, estas deben tener una licencia de **Sistema telefónico** y estar habilitadas para Enterprise Voice o tener Planes de llamadas de Office 365. Vea [Asignar licencias de Skype for Business y Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Para obtener más información acerca de planes de llamadas de Office 365, vea [¿Cuáles son los planes de llamadas en Office 365?](/microsoftteams/what-are-calling-plans-in-office-365) y [Planes de llamadas para Office 365](/microsoftteams/calling-plans-for-office-365).
     
@@ -81,7 +82,7 @@ Para comenzar a utilizar colas de llamadas, es importante recordar lo siguiente:
     
   - Cliente de escritorio de Lync 2013 (versiones de 32 y 64 bits)
     
-  - Todos los modelos de teléfono IP compatibles con Skype for Business Online. Consulte [Obtener teléfonos para Skype for Business Online](getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md).
+  - Todos los modelos de teléfonos IP compatibles con Skype for Business Online. Consulte [Obtener teléfonos con Skype for Business Online](getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md).
     
   - Cliente de Skype for Business para Mac (versión 16.8.196 y posteriores) 
     
@@ -99,7 +100,7 @@ Para comenzar a utilizar colas de llamadas, es importante recordar lo siguiente:
 
   - Aplicación Microsoft Teams para Android
     
-## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Paso 2: obtener o transferir números de teléfono de servicio de pago o gratuitos
+## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Paso 2: obtener o transferir números de servicio de pago o gratuitos
 
 Antes de crear o configurar una cola, tendrá que obtener sus números de servicio de pago o gratuitos, o transferir unos existentes. Después de obtener los números de teléfono de servicio de pago o gratuitos, se mostrarán en **Centro de administración de Skype for Business** > **Voz** > **Números de teléfono**, y el **Tipo de número** listado aparecerá como **Servicio - gratuito**. Para obtener sus números de servicio, consulte [Obtener números de teléfono de servicio para Skype for Business y Microsoft Teams](getting-service-phone-numbers.md) o, si desea transferir un número de servicio existente, consulte [Transferir números de teléfono a Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
   
@@ -117,20 +118,20 @@ En el **Centro de administración de Skype for Business**, haga clic en **Enruta
 ![Configurar una cola de llamadas.](../images/37ecc300-a108-4294-8463-fce570dfce72.png)
 ***
 ![Número 1](../images/sfbcallout1.png)<br/>
-**Nombre**: introduzca un nombre para mostrar descriptivo para la cola de llamadas. Este campo es obligatorio y puede tener hasta 64 caracteres, espacios incluidos. <br/> Este nombre se mostrará en la notificación de la llamada entrante.
+**Nombre** Introduzca un nombre para mostrar descriptivo para la cola de llamadas. Este campo es obligatorio y puede tener hasta 64 caracteres, espacios incluidos. <br/> Este nombre se mostrará en la notificación de la llamada entrante.
 ***
-![Número 2](../images/sfbcallout2.png)<br/>**Número de teléfono**: seleccione un número de teléfono de servicio de pago o gratuito para la cola de llamadas. Este paso es opcional. <br/> Si no se enumera ninguno, deberá obtener primero los números de servicio para poder crear esta cola de llamadas. Para obtener sus números de servicio, vea [Obtener números de teléfono de servicio para Skype for Business y Microsoft Teams](getting-service-phone-numbers.md)
+![Número 2](../images/sfbcallout2.png)<br/>**Número de teléfono** Seleccione un número de servicio de pago o gratuito para la cola de llamadas. Este paso es opcional. <br/> Si no se enumera ninguno, deberá obtener los números de servicio para poder crear esta cola de llamadas. Para obtener sus números de servicio, vea [Obtener números de teléfono de servicio para Skype for Business y Microsoft Teams](getting-service-phone-numbers.md)
 ***
-![Número 3](../images/sfbcallout3.png)<br/>**Dominio**: si está disponible, elija el dominio de Office 365 que desee usar. Esta opción solo está disponible si tiene más de un dominio en uso con Office 365. Si tiene más de uno, deberá elegir un nombre de dominio de la lista. <br/> Por ejemplo, puede tener un dominio como:  _contoso.com or redmond.contoso.com_.
+![Número 3](../images/sfbcallout3.png)<br/>**Dominio** Si está disponible, elija el dominio de Office 365 que desee usar. Esta opción solo está disponible si tiene más de un dominio en uso con Office 365. Si tiene más de uno, deberá elegir un nombre de dominio de la lista. <br/> Por ejemplo, puede tener un dominio como:  _contoso.com or redmond.contoso.com_.
    
 ### <a name="set-the-greeting-and-music-played-while-on-hold"></a>Establecer el mensaje de saludo y la música que se debe reproducir durante el tiempo en espera
 
 ![Configurar una cola de llamadas.](../images/1d395a93-7cab-4178-9295-12d5379e20de.png)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/>**Saludo** es opcional. Es el saludo que se reproduce para las personas que realizan una llamada al número de la cola de llamadas. <br/> Puede cargar un archivo de audio (en el formato .wav,  .mp3 o .wma).
+![Número 1](../images/sfbcallout1.png)<br/>**Saludo**: este campo es opcional. Es el saludo que se reproduce para las personas que realizan una llamada al número de la cola de llamadas. <br/> Puede cargar un archivo de audio (en el formato .wav, .mp3 o .wma).
 ***
-![Número 2](../images/sfbcallout2.png)<br/>**Música en espera**: puede utilizar la música en espera predeterminada que se suministra con la cola de llamadas o cargar un archivo de audio en el formato .wav, mp3 o .wma para utilizarlo como su música en espera personalizada. 
+![Número 2](../images/sfbcallout2.png)<br/>**Música en espera** Puede utilizar la música en espera predeterminada que se suministra con la cola de llamadas o cargar un archivo de audio en el formato .wav, mp3 o .wma para utilizarlo como su música en espera personalizada. 
    
 
 ### <a name="select-the-call-distribution-method"></a>Seleccionar método de distribución de llamadas
@@ -162,40 +163,40 @@ En el **Centro de administración de Skype for Business**, haga clic en **Enruta
   
 ***
 ![Número 1](../images/sfbcallout1.png)<br/><br/>Los agentes de llamadas (como máximo 50) pueden ser:
-*    Un usuario en línea con una licencia de **Sistema telefónico** y habilitado para Enterprise Voice o con un Plan de llamada. <br/><br/> **Nota:** Para redirigir las llamadas a personas de la organización que estén en línea, estas deben tener una licencia de **Sistema telefónico** y estar habilitadas para Enterprise Voice o tener Planes de llamadas. Vea [Asignar licencias de Skype for Business y Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Para habilitar Enterprise Voice, puede utilizar Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
+*    Un usuario en línea con una licencia de **Sistema telefónico** y habilitado para Enterprise Voice o con un Plan de llamada. <br/><br/> **Nota:** Para redirigir las llamadas a personas de la organización que estén en línea, estas deben tener una licencia de **Sistema telefónico** y estar habilitadas para Enterprise Voice o tener Planes de llamadas. Vea [Asignar licencias de Skype for Business y Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
 *    Usuarios en línea con una licencia de **Sistema telefónico** y un Plan de llamadas que se agregan a un grupo de Office 365, una lista de distribución habilitada para correo o un grupo de seguridad. El nuevo agente agregado a una lista de distribución o a un grupo de seguridad podría tardar hasta 30 minutos en recibir llamadas de una cola de llamadas. Un grupo de seguridad o lista de distribución que se acaba de crear puede tardar hasta 48 horas para que esté disponible para usarse con colas de llamadas. Los grupos de Office 365 que se acaban de crear están disponibles casi de forma inmediata. <br/> 
 
     > [!NOTE] 
-    > No se admiten usuarios alojados localmente que utilicen Lync Server 2010.           
+    > No se admiten los usuarios alojados localmente que utilicen Lync Server 2010.           
    
 ### <a name="set-the-maximum-queue-size-and-maximum-wait-time"></a>Establecer el tamaño máximo de cola y el tiempo de espera máximo
 
 ![Configurar una cola de llamadas.](../images/3f018734-16fe-458b-827d-71fc25155cde.png)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/><br/>**Número máximo de llamadas en la cola**: use esta opción para establecer el número máximo de llamadas que pueden esperar en la cola al mismo tiempo. El valor predeterminado es 50, pero puede oscilar entre 0 y 200. Cuando se alcanza este límite, la llamada se administrará de manera que se ha establecido en el ajuste **Cuando se alcanza el número máximo de llamadas** que aparece a continuación.
+![Número 1](../images/sfbcallout1.png)<br/><br/>**Número máximo de llamadas en la cola** Use esta opción para establecer el número máximo de llamadas que pueden esperar en la cola al mismo tiempo. El valor predeterminado es 50, pero puede oscilar entre 0 y 200. Cuando se alcanza este límite, la llamada se administrará de manera que se ha establecido en el ajuste **Cuando se alcanza el número máximo de llamadas** que aparece a continuación.
 ***
-![Número 2](../images/sfbcallout2.png)<br/><br/>**Cuando se alcanza el número máximo de llamadas**: cuando la cola de llamadas llegue al tamaño máximo (configurado con el ajuste **Número máximo de llamadas en la cola**) puede elegir lo que sucede a las nuevas llamadas entrantes.
-*    **Desconectar con una señal de línea ocupada**: la llamada se desconectará.
-*    **Reenviar esta llamada a**: si elige este ajuste, tendrá estas tres opciones:
-     *    **Persona de la empresa**: un usuario en línea con una licencia de **Sistema telefónico** y que esta habilitado para Enterprise Voice o que tiene un Plan de llamadas. Puede configurarlo para que se pueda desviar al autor de la llamada al correo de voz. Para hacerlo, seleccione una **Persona de la empresa** y configúrela para que las llamadas que reciba esta persona se desvíen directamente al correo de voz. <br/> <br/>Para obtener información acerca de las licencias necesarias para el correo de voz, vea [Configurar el correo de voz de Sistema telefónico](/microsoftteams/set-up-phone-system-voicemail). 
+![Número 2](../images/sfbcallout2.png)<br/><br/>**Cuando se alcanza el número máximo de llamadas** Cuando la cola de llamadas llegue al tamaño máximo (configurado con el ajuste **Número máximo de llamadas en la cola**) puede elegir lo que sucede a las nuevas llamadas entrantes.
+*    **Desconectar con una señal de línea ocupada** Se desconectará la llamada.
+*    **Reenviar esta llamada a** Si elige este ajuste, tiene tres opciones:
+     *    **Persona de la empresa** Un usuario en línea con una licencia de **Sistema telefónico** y que esta habilitado para Enterprise Voice o que tiene un Plan de llamadas. Puede establecer que el autor de la llamada se derive a un correo de voz. Para hacerlo, seleccione una **Persona de la empresa** y configúrela para que las llamadas que reciba esta persona se desvíen directamente al correo de voz. <br/> <br/>Para obtener información acerca de las licencias necesarias para el correo de voz, vea [Configurar el correo de voz de Sistema telefónico](/microsoftteams/set-up-phone-system-voicemail). 
      
         > [!Note]
-        > No se admiten usuarios alojados localmente que utilicen Lync Server 2010.<br/>
+        > No se admiten los usuarios alojados localmente que utilicen Lync Server 2010.<br/>
      
      *    **Cola de llamadas**: debe haber creado anteriormente otra cola de llamadas para poder seleccionarla.
      *    **Operador automático**: debe haber creado anteriormente un operador automático para poder seleccionarlo. Vea [Configurar un operador automático de Sistema telefónico](set-up-a-phone-system-auto-attendant.md).
 ***
-![Número 3](../images/sfbcallout3.png)<br/><br/>**Cuánto tiempo puede esperar una llamada en la cola**: también puede decidir cuánto tiempo puede ponerse en espera una llamada en la cola antes de redirigirla o desconectarla. Adónde se redirigirá depende de cómo configure el ajuste **Cuando una llamada agota el tiempo de espera**. Puede establecer un intervalo de entre 0 y 45 minutos. <br/><br/> El valor de tiempo de espera se puede establecer en segundos, en intervalos de 15 segundos. Esto permite manipular el flujo de llamadas con una granularidad más fina. Por ejemplo, podría especificar que todas las llamadas que un agente no responde en un plazo de 30 segundos vaya a un operador automático de búsqueda de Active Directory. 
+![Número 3](../images/sfbcallout3.png)<br/><br/>**Cuánto tiempo puede esperar una llamada en la cola** También puede decidir cuánto tiempo puede ponerse en espera una llamada en la cola antes de redirigirla o desconectarla. Adónde se redirigirá depende de cómo configure el ajuste **Cuando una llamada agota el tiempo de espera**. Puede establecer un intervalo de entre 0 y 45 minutos. <br/><br/> El valor de tiempo de espera se puede establecer en segundos, en intervalos de 15 segundos. Esto permite manipular el flujo de llamadas con una granularidad más fina. Por ejemplo, podría especificar que todas las llamadas que un agente no responde en un plazo de 30 segundos vaya a un operador automático de búsqueda de Active Directory. 
 
 ***
 ![Número 4](../images/sfbcallout4.png)<br/><br/>**Cuando una llamada agota el tiempo de espera**: puede elegir lo que sucede con las llamadas cuando alcanzan el límite establecido en el ajuste **Cuánto tiempo puede esperar una llamada en la cola**:
-*    **Desconectar**: la llamada se desconectará.
-*    **Reenviar esta llamada a**: si elige este ajuste, tendrá estas tres opciones:
-     *    **Persona de la empresa**: un usuario en línea con una licencia de **Sistema telefónico** y que esta habilitado para Enterprise Voice o que tiene un Plan de llamadas. Puede configurarlo para que se pueda desviar al autor de la llamada al correo de voz. Para hacerlo, seleccione una **Persona de la empresa** y configúrela para que las llamadas que reciba esta persona se desvíen directamente al correo de voz. </br><br/>  Para obtener información acerca de las licencias necesarias para el correo de voz, vea [Configurar el correo de voz de Sistema telefónico](/microsoftteams/set-up-phone-system-voicemail). 
+*    **Desconectar** La llamada se desconectará.
+*    **Reenviar esta llamada a** Si elige este ajuste, tiene tres opciones:
+     *    **Persona de la empresa** Un usuario en línea con una licencia de **Sistema telefónico** y que esta habilitado para Enterprise Voice o que tiene un Plan de llamadas. Puede establecer que el autor de la llamada se derive a un correo de voz. Para hacerlo, seleccione una **Persona de la empresa** y configúrela para que las llamadas que reciba esta persona se desvíen directamente al correo de voz. </br><br/>  Para obtener información acerca de las licencias necesarias para el correo de voz, vea [Configurar el correo de voz de Sistema telefónico](/microsoftteams/set-up-phone-system-voicemail). 
 
         > [!Note]
-        > No se admiten usuarios alojados localmente que utilicen Lync Server 2010.<br/>
+        > No se admiten los usuarios alojados localmente que utilicen Lync Server 2010.<br/>
 
      *    **Cola de llamadas**: debe haber creado anteriormente otra cola de llamadas para poder seleccionarla.
      *    **Operador automático**: debe haber creado anteriormente un operador automático para poder seleccionarlo. Vea [Configurar un operador automático de Sistema telefónico](set-up-a-phone-system-auto-attendant.md).
@@ -240,7 +241,7 @@ Estos son los cmdlets que necesita para administrar una cola de llamadas.
     
   - [Una introducción a Windows PowerShell y Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Motivos por los que necesita usar Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell ofrece numerosas ventajas de velocidad, sencillez y productividad con respecto al uso exclusivo del Centro de administración de Office 365, como por ejemplo a la hora de realizar cambios de configuración para varios usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
     
@@ -253,7 +254,7 @@ Estos son los cmdlets que necesita para administrar una cola de llamadas.
 ## <a name="related-topics"></a>Temas relacionados
 [Esto es lo que conseguirá con Sistema telefónico en Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](getting-service-phone-numbers.md)
+[Obtener números de teléfono de servicio para Skype for Business y Microsoft Teams](getting-service-phone-numbers.md)
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: f1defa5b-e49c-4d8c-a5f8-3f736201af5e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Para transferir o portar números de teléfono de Skype for Business Online a otro proveedor u operador de servicios telefónicos, debe establecer manualmente un PIN. Después de establecer el PIN, necesitará incluirlo en la solicitud para portar un número de teléfono.
-ms.openlocfilehash: 4dc60b489a6b382df5764f0c011f716f36a17cd8
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 144e3b0527b8557bbbb6a7f9c1b51ad2d61a0f1f
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779145"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851717"
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Establecer el PIN para transferir números a un nuevo proveedor de servicios
 
@@ -52,7 +53,7 @@ Esta es la información específica acerca de este PIN que debe conocer:
 
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Uso del centro de administración de Skype for Business**
 
-1. Inicie sesión en Office 365 con su cuenta de trabajo o escuela.
+1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
 2. Vaya al **Centro de administración de Office 365** > **Centros de administración** > **Skype for Business**.
     
@@ -63,7 +64,7 @@ Esta es la información específica acerca de este PIN que debe conocer:
 5. En el panel **Establecer o cambiar el PIN de portabilidad**, escriba el PIN y haga clic en **Guardar**.
 
 > [!NOTE]
-> Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+> Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
     
 ## <a name="related-topics"></a>Temas relacionados
 [Preguntas comunes sobre la transferencia de números de teléfono](/microsoftteams/transferring-phone-numbers-common-questions)

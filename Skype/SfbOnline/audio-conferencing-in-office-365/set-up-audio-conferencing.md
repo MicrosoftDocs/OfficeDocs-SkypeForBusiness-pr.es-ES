@@ -1,5 +1,5 @@
 ---
-title: Configurar audioconferencias de Skype for Business y Microsoft Teams
+title: Configurar conferencias de Audio de Skype for Business y Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: d01954f1-4f37-4cf5-a636-20039e5c59e9
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -22,14 +23,14 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Obtenga información sobre cómo configurar acceso telefónico o audioconferencias para las personas de su empresa que necesitan unirse a llamadas de conferencia utilizando un teléfono. '
-ms.openlocfilehash: 02c04afa0a1079a53123ee56094dc6ddc764038c
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 33e499719825a195484c6340bed09afeaa70f5ee
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780535"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850199"
 ---
-# <a name="set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams"></a>Configurar audioconferencias de Skype for Business y Microsoft Teams
+# <a name="set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams"></a>Configurar conferencias de Audio de Skype for Business y Microsoft Teams
 
 En algunas ocasiones, en su organización se necesitará un teléfono para llamar a una reunión. ¡Skype for Business y Microsoft Teams incluyen la característica de audioconferencia justo para ese tipo de situaciones! Una persona puede llamar a reuniones de Skype for Business o Microsoft Teams mediante un teléfono, en lugar de usando las aplicaciones de Skype for Business o Microsoft Teams en un dispositivo móvil o un PC. 
   

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 95a08f84-04e5-4f72-88a8-d6472a7c89d7
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,32 +21,32 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Obtenga información sobre qué países y regiones tienen números de conferencia de marcado, y cómo asignarlos automáticamente.
-ms.openlocfilehash: 9c48957090e0dcf302db2abda4a4c5becffec06f
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6d87a306f73cd698f6367c1c5d888b1f8fd14ff9
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780643"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858513"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Números de teléfono para Audioconferencia en Skype for Business Online
 
 > [!NOTE]
 > Para obtener información acerca de los números de teléfono en Microsoft Teams, vea [Números de teléfono para Audioconferencia en Microsoft Teams](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams).
 
- Al configurar **Audioconferencia** para Skype for Business, se asignan automáticamente números de teléfono de acceso telefónico a su organización. Para ver los números de teléfono que se han asignado a su puente de conferencia de acceso telefónico local, vaya al **Centro de administración de Skype Empresarial** > **Conferencia de acceso telefónico local** > **Puente de Microsoft**. Vea [Consultar una lista de números de Audioconferencia](see-a-list-of-audio-conferencing-numbers.md).
+Al configurar **Audioconferencia** para Skype for Business, se asignan automáticamente números de teléfono de acceso telefónico a su organización. Para ver los números de teléfono que se han asignado a su puente de conferencia de acceso telefónico local, vaya al **Centro de administración de Skype Empresarial** > **Conferencia de acceso telefónico local** > **Puente de Microsoft**. Vea [Consultar una lista de números de Audioconferencia](see-a-list-of-audio-conferencing-numbers.md).
   
 > [!NOTE]
-> No existe un recurso que incluya una lista de todos los números de acceso telefónico para Audioconferencia. Para averiguar si hay números de teléfono de acceso telefónico disponibles en su área o país/región, vaya a **Centro de administración de Skype for Business** > **Voz** > **Números de teléfono**, haga clic en **Agregar** y, a continuación, en **Nuevos números de servicio**. Use las listas de **País o región**, **Estado o región** y **Ciudad** para filtrar la búsqueda. Si busca números de servicio gratuitos, seleccione **Número gratuito** en la lista **Estado o región**.
+> No existe un recurso que incluya un listado con todos los números de acceso telefónico local de Audioconferencia. Para averiguar si hay números de teléfono de acceso telefónico disponibles en su área o país/región, vaya a **Centro de administración de Skype for Business** > **Voz** > **Números de teléfono**, haga clic en **Agregar** y, a continuación, en **Nuevos números de servicio**. Use las listas de **País o región**, **Estado o región** y **Ciudad** para filtrar la búsqueda. Si busca números de servicio gratuitos, seleccione **Número gratuito** en la lista **Estado o región**.
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Cobertura y precios de Audioconferencia
 
 Para obtener una lista completa de todos los países o regiones y ciudades donde Audioconferencia está disponible, vea [Disponibilidad de países y regiones de Audioconferencia y planes de llamada](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). Para obtener información sobre precios, consulte [Precios de Audioconferencia](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
   
-## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Números de teléfono de acceso telefónico en la invitación a una reunión
+## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Números de teléfono de acceso telefónico local en la invitación a la reunión
 
 Cuando un usuario de Skype for Business Online programa una reunión en la aplicación Outlook o en Outlook Web, en la invitación a la reunión se incluye el número predeterminado de la audioconferencia configurado para el usuario. Si quiere seleccionar un número predeterminado distinto para uno o más usuarios, puede cambiarlo en el **Centro de administración de Skype Empresarial** > **Conferencia de acceso telefónico local** > **Usuarios de acceso telefónico local**. Vea [Establecer los números de teléfono incluidos en las invitaciones](set-the-phone-numbers-included-on-invites.md).
   
-Para ver otros números de acceso telefónico, haga clic en el vínculo **Buscar un número local** en la invitación a la reunión.
+Para ver otros números de acceso telefónico local, haga clic en el vínculo **Buscar un número local** en la invitación a la reunión.
   
 ## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Números de teléfono de acceso telefónico establecidos en un puente de audioconferencia
 
@@ -75,11 +76,11 @@ Para ver una lista de los países o regiones en los que se asignan automáticame
 
 - Para ver la lista de los idiomas admitidos para audioconferencia, vea [Idiomas admitidos en Audioconferencia](/MicrosoftTeams/audio-conferencing-supported-languages).
     
-- Puede usar el cmdlet [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) para ver los números de teléfono dedicados para audioconferencia para su organización.
+- Puede usar el cmdlet [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) para ver los números de teléfono dedicados para conferencia de acceso telefónico local de su organización.
     
-- Puede usar el cmdlet [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) para ver los idiomas que se pueden establecer en un número de teléfono de acceso telefónico dedicado.
+- Puede usar el cmdlet [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) para ver los idiomas que se pueden establecer en un número de teléfono de acceso telefónico local dedicado.
     
-- Puede configurar hasta cuatro idiomas para cada número de teléfono de audioconferencia: uno principal y tres secundarios. Además, también puede establecer idiomas en un número de teléfono dedicado para audioconferencia.
+- Puede configurar hasta cuatro idiomas para cada número de teléfono de audioconferencia: uno principal y tres secundarios. Además, también puede establecer idiomas en un número de teléfono dedicado para conferencia de acceso telefónico local.
     
 - Para establecer el número de teléfono de acceso telefónico para un usuario, vea [Establecer los números de teléfono incluidos en las invitaciones](set-the-phone-numbers-included-on-invites.md).
     

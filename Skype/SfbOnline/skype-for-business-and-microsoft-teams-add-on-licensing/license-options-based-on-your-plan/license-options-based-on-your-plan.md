@@ -7,6 +7,7 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -17,12 +18,13 @@ appliesto:
 localization_priority: Priority
 f1keywords: None
 ms.custom: None
-description: Obtenga información sobre el correo de voz del sistema telefónico.
-ms.openlocfilehash: 120299cbb635fc8bed3734307763a65f344aa66b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
-ms.translationtype: MT
+description: Obtenga información sobre el correo de voz del Sistema telefónico.
+ms.openlocfilehash: 0cf6497dc109d63de6604f7ce6ed564b15558df2
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849933"
 ---
 # <a name="license-options-based-on-your-plan"></a>Opciones de licencia en función del plan
 

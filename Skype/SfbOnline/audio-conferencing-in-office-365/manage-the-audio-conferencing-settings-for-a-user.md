@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 0f39dc9d-eb60-4c5a-9ae3-e34a01834d9b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Como un administrador de Office 365, puede editar la configuración de Audioconferencia de Skype for Business Online, como por ejemplo el proveedor, el número gratuito o de pago predeterminado, el identificador de conferencia o el PIN, de un usuario individual en la organización. '
-ms.openlocfilehash: 11ab14b3ebba54e1af8125c2d2f6c2acbd0730b7
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 34034a74624419b9ac7b18b31b6878c589881e29
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779059"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23859595"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Administrar la configuración de Audioconferencia de un usuario en Skype for Business Online
 
@@ -34,7 +35,7 @@ ms.locfileid: "23779059"
 Como un administrador de Office 365, puede editar la configuración de Audioconferencia, como por ejemplo el proveedor, el número gratuito o de pago predeterminado, el identificador de conferencia o el PIN, de un usuario individual en la organización. Si desea editar la configuración de la organización, vea [Administrar la configuración de Audioconferencia de mi organización](manage-the-audio-conferencing-settings-for-my-organization.md).
 
  
-1. Inicie sesión en Office 365 con su cuenta de trabajo o escuela.
+1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
 2. Seleccione **Centros de administración** > **Skype for Business**.
     

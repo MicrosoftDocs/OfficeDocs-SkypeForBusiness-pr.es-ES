@@ -7,6 +7,7 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga información sobre las licencias de complementos, características y cómo comprar planes de Office 365 Empresa Premium. '
-ms.openlocfilehash: ac7a09c99b72f643ad10516009154e65c51c1e48
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 3c1c4fd8dc5cc680ce79a3c1c1e1c0208d00619a
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779009"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861565"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Empresa Premium
 
