@@ -1,28 +1,28 @@
 ---
 title: 'Ejemplo de Script de PowerShell: ofrece asistencia con la implementación de equipos de Microsoft para limpiar'
-author: ninadara
-ms.author: ninadara
+author: Lester-Hewett
+ms.author: lehewe
 manager: serdars
 ms.date: 03/21/2018
 ms.topic: article
 ms.service: msteams
 description: Use este script de PowerShell para limpiar Microsoft Teams en equipos de destino o para usuarios específicos.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e159c06a27151523e52db5bf7e0aa2eab33620a9
-ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
+ms.openlocfilehash: 9b95ca42e1f110b72d092ada65b2d672627fac4f
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21249195"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23887285"
 ---
-<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="23e65-103">Ejemplo de Script de PowerShell: implementación de Microsoft Teams limpiar</span><span class="sxs-lookup"><span data-stu-id="23e65-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
+<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="631be-103">Ejemplo de Script de PowerShell: implementación de Microsoft Teams limpiar</span><span class="sxs-lookup"><span data-stu-id="631be-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
 -------------------------------------------------------------------------
 
-<span data-ttu-id="23e65-104">Puede aprovechar esta secuencia de comandos de PowerShell para la limpieza de Microsoft Teams desde equipos de destino o los usuarios.</span><span class="sxs-lookup"><span data-stu-id="23e65-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="23e65-105">Se debe ejecutar para todos los usuarios en un equipo de destino.</span><span class="sxs-lookup"><span data-stu-id="23e65-105">It should be executed for every user on a targeted machine.</span></span> 
+<span data-ttu-id="631be-104">Puede aprovechar esta secuencia de comandos de PowerShell para la limpieza de Microsoft Teams desde equipos de destino o los usuarios.</span><span class="sxs-lookup"><span data-stu-id="631be-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="631be-105">Se debe ejecutar para todos los usuarios en un equipo de destino.</span><span class="sxs-lookup"><span data-stu-id="631be-105">It should be executed for every user on a targeted machine.</span></span> 
 
 
-## <a name="sample-script"></a><span data-ttu-id="23e65-106">Ejemplo de script</span><span class="sxs-lookup"><span data-stu-id="23e65-106">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="631be-106">Ejemplo de script</span><span class="sxs-lookup"><span data-stu-id="631be-106">Sample script</span></span>
 
 ````powershell
 <#
