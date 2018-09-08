@@ -6,33 +6,33 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: Crear o modificar vínculos de región de red, que se usan por el control de admisión de llamadas de Enterprise Voice en Skype para Business Server.
-ms.openlocfilehash: f184e18da816bae693fd209a97704681240538e7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fd74960ed2efe9e8e67c5682c5b30aac17c9b2b6
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965432"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886467"
 ---
-# <a name="create-network-region-links-in-skype-for-business-server"></a><span data-ttu-id="063cc-103">Crear vínculos de región de red en Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="063cc-103">Create network region links in Skype for Business Server</span></span>
+# <a name="create-network-region-links-in-skype-for-business-server"></a><span data-ttu-id="3060b-103">Crear vínculos de región de red en Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="3060b-103">Create network region links in Skype for Business Server</span></span>
  
-<span data-ttu-id="063cc-104">Crear o modificar vínculos de región de red, que se usan por el control de admisión de llamadas de Enterprise Voice en Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="063cc-104">Create or modify network region links, which are used by Enterprise Voice call admission control in Skype for Business Server.</span></span> 
+<span data-ttu-id="3060b-104">Crear o modificar vínculos de región de red, que se usan por el control de admisión de llamadas de Enterprise Voice en Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="3060b-104">Create or modify network region links, which are used by Enterprise Voice call admission control in Skype for Business Server.</span></span> 
   
-<span data-ttu-id="063cc-p101">Las regiones de una red se vinculan mediante conexiones de red WAN físicas. Un vínculo de región de red crea un vínculo entre dos regiones configuradas para el control de admisión de llamadas (CAC) y establece los límites de ancho de banda en el tráfico de audio y vídeo entre estas regiones.</span><span class="sxs-lookup"><span data-stu-id="063cc-p101">Regions within a network are linked through physical WAN connectivity. A network region link creates a link between two regions configured for Call Admission Control (CAC) and sets the bandwidth limitations on audio and video traffic between these regions.</span></span>
+<span data-ttu-id="3060b-p101">Las regiones de una red se vinculan mediante conexiones de red WAN físicas. Un vínculo de región de red crea un vínculo entre dos regiones configuradas para el control de admisión de llamadas (CAC) y establece los límites de ancho de banda en el tráfico de audio y vídeo entre estas regiones.</span><span class="sxs-lookup"><span data-stu-id="3060b-p101">Regions within a network are linked through physical WAN connectivity. A network region link creates a link between two regions configured for Call Admission Control (CAC) and sets the bandwidth limitations on audio and video traffic between these regions.</span></span>
   
-<span data-ttu-id="063cc-107">La topología de ejemplo tiene un vínculo entre las regiones de Norteamérica y APAC, y uno entre las regiones de EMEA y APAC.</span><span class="sxs-lookup"><span data-stu-id="063cc-107">The example topology has a link between the North America and APAC regions, and a link between the EMEA and APAC regions.</span></span> <span data-ttu-id="063cc-108">Cada uno de estos vínculos de región de está limitada por el ancho de banda de WAN, tal como se describe en la tabla de información de ancho de banda del vínculo de región en [ejemplo: recopilación de requisitos de control de admisión de llamadas en Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).</span><span class="sxs-lookup"><span data-stu-id="063cc-108">Each of these region links is constrained by WAN bandwidth, as described in Region Link Bandwidth Information table in [Example: Gathering requirements for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).</span></span>
+<span data-ttu-id="3060b-107">La topología de ejemplo tiene un vínculo entre las regiones de Norteamérica y APAC, y uno entre las regiones de EMEA y APAC.</span><span class="sxs-lookup"><span data-stu-id="3060b-107">The example topology has a link between the North America and APAC regions, and a link between the EMEA and APAC regions.</span></span> <span data-ttu-id="3060b-108">Cada uno de estos vínculos de región de está limitada por el ancho de banda de WAN, tal como se describe en la tabla de información de ancho de banda del vínculo de región en [ejemplo: recopilación de requisitos de control de admisión de llamadas en Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).</span><span class="sxs-lookup"><span data-stu-id="3060b-108">Each of these region links is constrained by WAN bandwidth, as described in Region Link Bandwidth Information table in [Example: Gathering requirements for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).</span></span>
   
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="063cc-109">Para crear vínculos de región de red mediante el uso de Skype para Shell de administración de servidor empresarial</span><span class="sxs-lookup"><span data-stu-id="063cc-109">To create network region links by using Skype for Business Server Management Shell</span></span>
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="3060b-109">Para crear vínculos de región de red mediante el uso de Skype para Shell de administración de servidor empresarial</span><span class="sxs-lookup"><span data-stu-id="3060b-109">To create network region links by using Skype for Business Server Management Shell</span></span>
 
-1. <span data-ttu-id="063cc-110">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="063cc-110">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="3060b-110">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="3060b-110">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="063cc-p103">Ejecute el cmdlet New-CsNetworkRegionLink para crear vínculos de región de red y aplicar los correspondientes perfiles de directiva de ancho de banda. Por ejemplo, ejecute lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="063cc-p103">Run the New-CsNetworkRegionLink cmdlet to create the region links and apply appropriate bandwidth policy profiles. For example, run:</span></span>
+2. <span data-ttu-id="3060b-p103">Ejecute el cmdlet New-CsNetworkRegionLink para crear vínculos de región de red y aplicar los correspondientes perfiles de directiva de ancho de banda. Por ejemplo, ejecute lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="3060b-p103">Run the New-CsNetworkRegionLink cmdlet to create the region links and apply appropriate bandwidth policy profiles. For example, run:</span></span>
     
    ```
    New-CsNetworkRegionLink -NetworkRegionLinkID NA-EMEA-LINK -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -BWPolicyProfileID 50Mb_Link
@@ -42,37 +42,37 @@ ms.locfileid: "20965432"
    New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
    ```
 
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="063cc-113">Para crear vínculos de región de red mediante el uso de Skype para el Panel de Control de servidor empresarial</span><span class="sxs-lookup"><span data-stu-id="063cc-113">To create network region links by using Skype for Business Server Control Panel</span></span>
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="3060b-113">Para crear vínculos de región de red mediante el uso de Skype para el Panel de Control de servidor empresarial</span><span class="sxs-lookup"><span data-stu-id="3060b-113">To create network region links by using Skype for Business Server Control Panel</span></span>
 
-1. <span data-ttu-id="063cc-114">Abra Skype para el Panel de Control de servidor empresarial.</span><span class="sxs-lookup"><span data-stu-id="063cc-114">Open Skype for Business Server Control Panel.</span></span>
+1. <span data-ttu-id="3060b-114">Abra Skype para el Panel de Control de servidor empresarial.</span><span class="sxs-lookup"><span data-stu-id="3060b-114">Open Skype for Business Server Control Panel.</span></span>
     
-2. <span data-ttu-id="063cc-115">En la barra de navegación izquierda, haga clic en **Configuración de red**.</span><span class="sxs-lookup"><span data-stu-id="063cc-115">In the left navigation bar, click **Network Configuration**.</span></span>
+2. <span data-ttu-id="3060b-115">En la barra de navegación izquierda, haga clic en **Configuración de red**.</span><span class="sxs-lookup"><span data-stu-id="3060b-115">In the left navigation bar, click **Network Configuration**.</span></span>
     
-3. <span data-ttu-id="063cc-116">Haga clic en el botón de navegación **Vínculo de región**.</span><span class="sxs-lookup"><span data-stu-id="063cc-116">Click the **Region Link** navigation button.</span></span>
+3. <span data-ttu-id="3060b-116">Haga clic en el botón de navegación **Vínculo de región**.</span><span class="sxs-lookup"><span data-stu-id="3060b-116">Click the **Region Link** navigation button.</span></span>
     
-4. <span data-ttu-id="063cc-117">Haga clic en **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="063cc-117">Click **New**.</span></span>
+4. <span data-ttu-id="3060b-117">Haga clic en **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="3060b-117">Click **New**.</span></span>
     
-5. <span data-ttu-id="063cc-118">En la página **Nuevo vínculo de región**, haga clic en **Nombre** y asigne un nombre al vínculo de región de red.</span><span class="sxs-lookup"><span data-stu-id="063cc-118">On the **New Region Link** page, click **Name** and then type a name for the network region link.</span></span>
+5. <span data-ttu-id="3060b-118">En la página **Nuevo vínculo de región**, haga clic en **Nombre** y asigne un nombre al vínculo de región de red.</span><span class="sxs-lookup"><span data-stu-id="3060b-118">On the **New Region Link** page, click **Name** and then type a name for the network region link.</span></span>
     
-6. <span data-ttu-id="063cc-119">Haga clic en **Región de red #1** y, en la lista, seleccione la región de red que desea vincular con Región de red #2.</span><span class="sxs-lookup"><span data-stu-id="063cc-119">Click **Network Region #1**, and then click the network region in the list that you want to link to Network Region #2.</span></span>
+6. <span data-ttu-id="3060b-119">Haga clic en **Región de red #1** y, en la lista, seleccione la región de red que desea vincular con Región de red #2.</span><span class="sxs-lookup"><span data-stu-id="3060b-119">Click **Network Region #1**, and then click the network region in the list that you want to link to Network Region #2.</span></span>
     
-7. <span data-ttu-id="063cc-120">Haga clic en **Región de red #2** y, en la lista, seleccione la región de red que desea vincular con Región de red #1.</span><span class="sxs-lookup"><span data-stu-id="063cc-120">Click **Network Region #2**, and then click a network region in the list that you want to link to Network Region #1.</span></span>
+7. <span data-ttu-id="3060b-120">Haga clic en **Región de red #2** y, en la lista, seleccione la región de red que desea vincular con Región de red #1.</span><span class="sxs-lookup"><span data-stu-id="3060b-120">Click **Network Region #2**, and then click a network region in the list that you want to link to Network Region #1.</span></span>
     
-8. <span data-ttu-id="063cc-121">También puede hacer clic en **Directiva de ancho de banda** y seleccionar el perfil de directiva de ancho de banda que desea aplicar al vínculo de región de red.</span><span class="sxs-lookup"><span data-stu-id="063cc-121">Optionally, click **Bandwidth policy**, and then select the bandwidth policy profile that you want to apply to the network region link.</span></span>
+8. <span data-ttu-id="3060b-121">También puede hacer clic en **Directiva de ancho de banda** y seleccionar el perfil de directiva de ancho de banda que desea aplicar al vínculo de región de red.</span><span class="sxs-lookup"><span data-stu-id="3060b-121">Optionally, click **Bandwidth policy**, and then select the bandwidth policy profile that you want to apply to the network region link.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="063cc-122">Aplique una directiva de ancho de banda únicamente si el vínculo de región de red tiene restricciones de ancho de banda y desea usar control de admisión de llamadas para controlar el tráfico de medios en ese vínculo.</span><span class="sxs-lookup"><span data-stu-id="063cc-122">Apply a bandwidth policy only if the network region link is bandwidth-constrained and you want to use CAC to control media traffic on that link.</span></span> 
+    > <span data-ttu-id="3060b-122">Aplique una directiva de ancho de banda únicamente si el vínculo de región de red tiene restricciones de ancho de banda y desea usar control de admisión de llamadas para controlar el tráfico de medios en ese vínculo.</span><span class="sxs-lookup"><span data-stu-id="3060b-122">Apply a bandwidth policy only if the network region link is bandwidth-constrained and you want to use CAC to control media traffic on that link.</span></span> 
   
-9. <span data-ttu-id="063cc-123">Haga clic en **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="063cc-123">Click **Commit**.</span></span>
+9. <span data-ttu-id="3060b-123">Haga clic en **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="3060b-123">Click **Commit**.</span></span>
     
-10. <span data-ttu-id="063cc-124">Para terminar de crear vínculos de región de red para la topología, repita los pasos del 4 al 9 con parámetros para otras regiones.</span><span class="sxs-lookup"><span data-stu-id="063cc-124">To finish creating network region links for your topology, repeat steps 4 through 9 with settings for other regions.</span></span>
+10. <span data-ttu-id="3060b-124">Para terminar de crear vínculos de región de red para la topología, repita los pasos del 4 al 9 con parámetros para otras regiones.</span><span class="sxs-lookup"><span data-stu-id="3060b-124">To finish creating network region links for your topology, repeat steps 4 through 9 with settings for other regions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="063cc-125">Vea también</span><span class="sxs-lookup"><span data-stu-id="063cc-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3060b-125">Vea también</span><span class="sxs-lookup"><span data-stu-id="3060b-125">See also</span></span>
 
-[<span data-ttu-id="063cc-126">Nueva CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="063cc-126">New-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
+[<span data-ttu-id="3060b-126">Nueva CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="3060b-126">New-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
   
-[<span data-ttu-id="063cc-127">Get-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="063cc-127">Get-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
+[<span data-ttu-id="3060b-127">Get-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="3060b-127">Get-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
   
-[<span data-ttu-id="063cc-128">Set-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="063cc-128">Set-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
+[<span data-ttu-id="3060b-128">Set-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="3060b-128">Set-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
   
-[<span data-ttu-id="063cc-129">Remove-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="063cc-129">Remove-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)
+[<span data-ttu-id="3060b-129">Remove-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="3060b-129">Remove-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)
