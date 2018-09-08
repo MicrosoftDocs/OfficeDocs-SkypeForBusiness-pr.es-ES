@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Detalles de Skype para profesionales y Microsoft Teams opciones de coexistencia y la interoperabilidad entre Skype para la empresa y los equipos.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdd1d6c59b522db4cb60446d094465fc58db9cb7
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 06e425f062c47f8fa05fa69e1354fee472804e90
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865650"
+ms.locfileid: "23887573"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de definición del proyecto] (media/upgrade-banner-project-definition.png "Fases de la actualización viaje, con especial hincapié en la fase de definición del proyecto")
 

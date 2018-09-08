@@ -8,19 +8,19 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: salilda
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar la traducción en línea de Microsoft Teams.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb7876d015fb736785fdaab99b1ed71b8e05b9dc
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 191fe1e5517fdce9aba6fd17e084c866df200e82
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855824"
+ms.locfileid: "23882911"
 ---
 <a name="use-inline-message-translation-in-microsoft-teams"></a>Usar la traducción de mensaje en línea en Microsoft Teams 
 =================================================

@@ -16,19 +16,19 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords:
 - ms.lync.lac.PortingNumbersOverview
 ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
-ms.openlocfilehash: bc2b723fb235efa6c87b0b4a58bb37bf1971808b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: ea964c3a9b53b238b45cfaebe22e3a884cd3af3d
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23857338"
+ms.locfileid: "23891935"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Transferir números de teléfono a Office 365
 

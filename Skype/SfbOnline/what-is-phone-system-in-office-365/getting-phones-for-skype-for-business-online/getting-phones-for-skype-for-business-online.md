@@ -16,31 +16,31 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre qué teléfonos funcionan con Skype for Business de Polycom, HP y Mitel, y las licencias necesarias. '
-ms.openlocfilehash: 441effac4256ee01f713e10e592ea3402726d5f3
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: d7b8b92d268ab6ba4cf0c5dd49eab15586c95ba3
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863767"
+ms.locfileid: "23890279"
 ---
-# <a name="getting-phones-for-skype-for-business-online"></a>Obtener teléfonos con Skype for Business Online
+# <a name="getting-phones-for-skype-for-business-online"></a>Obtener teléfonos con Skype Empresarial Online
 
-Skype for Business Online admite y es compatible con los teléfonos de escritorio, para los usuarios que deseen tener una experiencia de teléfono tradicional en lugar de usar la aplicación Skype for Business. En este tema se tratan los teléfonos y las versiones de firmware que son compatibles para su uso en Skype for Business Online y otra información que le ayudarán al configurar teléfonos en su organización.
+Skype para profesionales Online certifica y es compatible con los teléfonos de escritorio para los usuarios que desean tener una experiencia de teléfono tradicional, en lugar de usar el Skype para la aplicación empresarial. En este tema se tratan los teléfonos y las versiones de firmware que son compatibles para su uso en Skype para profesionales en línea y otra información que le ayudarán al configurar teléfonos en su organización.
   
-Para obtener las actualizaciones más recientes y la información más actualizada sobre los dispositivos admitidos, consulte el [Catálogo de dispositivos de Skype for Business](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
+Para obtener las actualizaciones más recientes y la mayoría de la información actualizada en dispositivos compatibles, vea el [Skype para el catálogo de dispositivo de negocio](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
   
 ## <a name="supported-phones"></a>Teléfonos compatibles
 
-Para usuarios de Skype for Business Online, puede elegir entre los diversos modelos del conjunto de *Teléfonos certificados para Skype for Business* y los teléfonos con Lync Phone Edition (LPE) que se enumeran en la categoría Skype for Business Online en el [Catálogo de dispositivos de Skype for Business](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
+Para Skype para usuarios profesionales en línea, puede elegir entre varios modelos de *certificado para Skype para teléfonos de negocio* y teléfonos que ejecutan Lync Phone Edition (LPE) enumeran en la Skype para categoría empresarial en línea en el [Skype para dispositivos de negocio Catálogo de](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
   
-Microsoft se asocia y trabaja en estrecha colaboración con Polycom, Yealink y AudioCodes para desarrollar y certificar una amplia variedad de dispositivos a través del Programa de teléfonos IP de socios (PIP) para el Sistema telefónico de Office 365 y Skype for Business Server.
+Microsoft es la asociación y trabajar estrechamente con Polycom, Yealink y AudioCodes para desarrollar y certifica una amplia variedad de dispositivos a través del programa socio de teléfono IP (puntos) para el sistema telefónico en Office 365 y Skype para Business Server.
   
-Al solicitar teléfonos nuevos para Skype for Business, es importante comprar dispositivos que tengan la *identificación de producto correcta*. Estas identificaciones de producto garantizan que los teléfonos que recibirá ya tendrán instalada la versión de Skype for Business Online adecuada.
+Al solicitar los nuevos teléfonos de Skype para la empresa, es importante comprar teléfonos con el *identificador de producto adecuado*. Estos identificadores del producto se asegurará de que los teléfonos que recibirá tienen el Skype para la versión completa en línea de negocio ya instalado.
   
 |||
 |:-----|:-----|
@@ -53,7 +53,7 @@ Para obtener más información sobre los teléfonos de Polycom, consulte [Soluci
   
 Para obtener más información sobre los teléfonos de Yealink, consulte [Teléfonos IP para Skype for Business](http://www.yealink.com/products_list_10.html#filter2).
   
-Para obtener más información sobre los teléfonos de AudioCodes, consulte [Teléfonos IP para Skype for Business](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
+Para obtener más detalles en los teléfonos AudioCodes, vea [Skype para teléfonos IP de negocio](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
   
 > [!NOTE]
 > Lync Phone Edition es compatible con Skype for Business Online, pero no con Microsoft Teams. El soporte estándar para la plataforma LPE finalizó el 10 de abril de 2014 y el soporte extendido continuará hasta el 11 de abril de 2023, coincidiendo con el ciclo de vida de soporte técnico del producto de Lync Server 2013. Consulte [Ciclo de vida de productos de Microsoft](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) para obtener detalles sobre el ciclo de vida de LPE. Los modelos LPE CAP no son compatibles con Skype for Business Online.
@@ -66,7 +66,7 @@ Esta es la versión de software mínima necesaria para que los teléfonos compat
   
 ||||
 |:-----|:-----|:-----|
-|**Tipo de teléfono** <br/> |**Firmware mínimo** <br/> |**Fecha de publicación** <br/> |
+|**Tipo de teléfono** <br/> |**Firmware mínimo** <br/> |**Fecha de lanzamiento** <br/> |
 |Optimizado (Lync Phone Edition)  <br/> |4.0.7577.4463  <br/> |Mayo de 2015  <br/> |
 |Polycom VVX Series certificado  <br/> |5.4.0A  <br/> |Diciembre de 2015  <br/> |
 |Yealink  <br/> |X.8.1.52  <br/> |Febrero de 2017  <br/> |
@@ -77,20 +77,20 @@ Los teléfonos Lync Phone Edition (LPE) que configure para su implementación lo
   
 ## <a name="required-licenses"></a>Licencias necesarias
 
-Skype for Business Online no necesita licencias adicionales de Microsoft, excepto las licencias de usuario. Para más información sobre las licencias de usuario necesarias, vea [Licencias de complementos de Skype for Business y Microsoft Teams](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Skype para profesionales Online no requiere ninguna licencia adicional de Microsoft que no sean las licencias de usuario. Para obtener más información acerca de las licencias de usuario necesarias, vea [Skype para profesionales y los equipos de Microsoft complemento licencias](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-Los modelos de licencias del fabricante puede variar entre el firmware SIP abierto y el certificado para Skype for Business. Si va a reutilizar un modelo certificado con un firmware SIP abierto, tendrá que verificar los requisitos de la licencia con el fabricante.
+Fabricante de los modelos de licencia puede variar entre open SIP y Skype para firmware de certificación empresarial. Si va a reutilizar un modelo certificado con un firmware SIP abierto, tendrá que verificar los requisitos de la licencia con el fabricante.
   
-## <a name="skype-for-business-online-connected-phones-feature-set"></a>Conjunto de características de los teléfonos conectados a Skype for Business Online
+## <a name="skype-for-business-online-connected-phones-feature-set"></a>Skype para conjunto de características de teléfonos empresariales en línea conectados
 
-Para ver una lista completa de las características y funciones de los dispositivos, consulte las guías de usuario de los fabricantes.
+Para funciones y características del dispositivo completa, compruebe las guías de usuario del fabricante.
   
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Característica** <br/> |**3PIP de Polycom** <br/> |**3PIP de Yealink** <br/> |**3PIP de AudioCodes** <br/> |**LPE** <br/> |
 |Inicio de sesión con las credenciales del usuario  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
 |Inicio de sesión con un equipo (emparejamiento), solo Windows  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
-|Inicio de sesión con (inicio de sesión web)  <br/>  <br/> **Nota:** compruebe la matriz de compatibilidad en la guía de implementación.           |Sí  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
+|Inicio de sesión con (inicio de sesión web)  <br/>  <br/> **Nota:** Comprobación de la matriz de compatibilidad en la Guía de implementación.           |Sí  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
 |Unirse a la reunión con un solo clic  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
 |Clic para marcar (emparejamiento)  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
 |Controles de reunión  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
@@ -99,10 +99,10 @@ Para ver una lista completa de las características y funciones de los dispositi
 |Actualización de dispositivo  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
 |Aprovisionamiento en banda  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
 |QoE  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
-|Carga de registros  <br/> <br/> **Nota:** actualmente los registros se cargan solo para el equipo de soporte técnico de Microsoft; el acceso a los registros del teléfono por parte del cliente todavía no está disponible.           |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
+|Carga de registros  <br/> <br/> **Nota:** Actualmente, todos los registros se cargan en el equipo de Microsoft Support solamente; acceso de cliente a los registros de teléfono aún no están disponibles.           |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
 |Autenticación moderna  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
 |Varios números de emergencia  <br/> |Sí  <br/> |No  <br/> |No  <br/> |Sí  <br/> |
-|Integración con el calendario de Exchange*  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> <br/> **Nota:** requiere tethering en el PC           |
+|Integración con el calendario de Exchange*  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> <br/> **Nota:** Requiere siempre de PC           |
 |Integración de presencia  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
 |Directorio corporativo  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
 |Delegación  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
@@ -114,10 +114,10 @@ Para ver una lista completa de las características y funciones de los dispositi
 > Ni el CX 600 ni ningún otro teléfono Aries admite la autenticación multifactor (MFA). Si fuerza la MFA, estos dispositivos no iniciarán sesión. Estos dispositivos solo deben utilizar el id. de organización para la autenticación.
  
 ## <a name="what-else-should-you-know"></a>¿Qué más tengo que saber?
-Para obtener instrucciones detalladas, consulte [Implementación de teléfonos de Skype for Business Online](deploying-skype-for-business-online-phones.md).
+Para obtener instrucciones detalladas, consulte [Implementación de teléfonos de Skype Empresarial Online](deploying-skype-for-business-online-phones.md).
 
 ## <a name="related-topics"></a>Temas relacionados
-[Obtener números de teléfono de servicio para Skype for Business y Microsoft Teams](../getting-service-phone-numbers.md)
+[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Esto es lo que conseguirá con Sistema telefónico en Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 

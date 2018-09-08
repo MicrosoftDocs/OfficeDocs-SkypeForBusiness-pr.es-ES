@@ -8,23 +8,24 @@ ms.topic: article
 ms.assetid: 6e12242c-55f7-4bf4-90d7-0f36c0326b8e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre los pasos para restablecer un usuario reunión de identificador de conferencia en Skype para profesionales en línea y get contiene vínculos a las herramientas de actualización y migración de la reunión. '
-ms.openlocfilehash: ac37d682d45b22eff61392ee05d7c369d67c3b67
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
+ms.openlocfilehash: d569dfb015db5cea79c57233ba455adfd90a3182
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490539"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23887549"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Restablecer un identificador de conferencia para un usuario en Skype para profesionales en línea
 
@@ -40,7 +41,7 @@ Un identificador de conferencia dinámico se incluye en la parte inferior de las
    
 1. En el **Skype para el centro de administración de negocio**, haga clic en **conferencias de Audio** > **a los usuarios**, seleccione un usuario y, a continuación, en el panel de acciones en el **Identificador de conferencia** , haga clic en **Restablecer**.
     
-2. En la **Restablecer el identificador de conferencia?** ventana, haga clic en **Sí**. Una conferencia que se creará automáticamente el identificador y un correo electrónico enviado al usuario con el nuevo identificador de conferencia. De forma predeterminada, se envían mensajes de correo electrónico a los usuarios, pero esto se puede desactivar.
+2. En la ventana **Restablecer Id. de conferencia?**, haga clic en **Sí**. Una conferencia que se creará automáticamente el identificador y un correo electrónico enviado al usuario con el nuevo identificador de conferencia. De forma predeterminada, se envían mensajes de correo electrónico a los usuarios, pero esto se puede desactivar.
     
 > [!NOTE]
 > Después de restablecer el Id. de conferencia, se enviará al usuario un correo electrónico con el nuevo Id. de conferencia. Este mensaje de correo electrónico se enviará a la dirección de correo electrónico principal, en muchos casos, su buzón de correo de Office 365. El correo electrónico contiene el nuevo Id. de conferencia, los números de teléfono de acceso telefónico local predeterminados y las instrucciones para usar la herramienta de actualización de reuniones de Skype Empresarial para actualizar las reuniones existentes. 
@@ -58,7 +59,7 @@ Un identificador de conferencia dinámico se incluye en la parte inferior de las
     
 - El identificador de conferencia para un usuario para conferencias de audio se puede ver en la parte inferior del panel de acciones en **conferencias de Audio** cuando se selecciona el usuario en la página **usuarios** .
     
-- After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. Los usuarios pueden utilizar Skype para la herramienta de reunión empresarial para actualizar sus reuniones existentes. Para ver cómo descargar, instalar y ejecutar la Skype para la herramienta de actualización de reunión empresarial, consulte:
+- After a new conference ID is created, the old conference ID can't be used by callers. Debe notificar a los usuarios para que reprogramen sus invitaciones de reunión existentes para asegurarse de que se agrega a las invitaciones el nuevo Id. de conferencia. Los usuarios pueden utilizar Skype para la herramienta de reunión empresarial para actualizar sus reuniones existentes. Para ver cómo descargar, instalar y ejecutar la Skype para la herramienta de actualización de reunión empresarial, consulte:
     
   - [Herramienta de actualización de reuniones para Skype y Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)
     

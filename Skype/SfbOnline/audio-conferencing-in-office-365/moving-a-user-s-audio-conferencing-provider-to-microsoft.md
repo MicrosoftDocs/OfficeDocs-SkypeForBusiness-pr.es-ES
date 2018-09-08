@@ -16,7 +16,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords:
 - ms.lync.lac.PSTNConferencingEnableUsers
 ms.custom:
@@ -25,10 +25,10 @@ description: 'Change your Skype for Business users from third-party audio confer
 robots: noindex
 redirect_url: https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider
 redirect_document_id: true
-ms.openlocfilehash: 2c307bdb47fe7e7cfb66c5bb03b537d2174e9f4d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 10c5c6e0180e7d57df42d6a96561e21510c7bc33
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860985"
+ms.locfileid: "23888013"
 ---

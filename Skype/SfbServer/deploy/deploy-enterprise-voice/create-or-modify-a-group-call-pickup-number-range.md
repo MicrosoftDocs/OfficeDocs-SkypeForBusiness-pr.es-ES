@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: Crear o modificar un intervalo de números de grupo llamada recogida en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 81353fff4e0ed2935ab620c12f3934bb18c582fb
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d73b3e72aa7cd5f733406c861d8a3357fe28fe45
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260044"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883956"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Creación o modificación de un intervalo de números de grupo llamada recogida en Skype para la empresa
 

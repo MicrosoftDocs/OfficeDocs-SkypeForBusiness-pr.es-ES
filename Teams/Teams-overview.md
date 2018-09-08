@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
 description: Conozca Microsoft Teams, su infraestructura y cómo funciona con Office 365.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbee055a5d91c6e0e453f0f539cba823226c347e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: bb291c8bd338fa88d5d9b5788413c5e687fc0864
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867584"
+ms.locfileid: "23883782"
 ---
 <a name="overview-of-microsoft-teams"></a>Introducción a Microsoft Teams
 ===========================

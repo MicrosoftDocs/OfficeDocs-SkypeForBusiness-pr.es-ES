@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
 description: 'Aprenda a configurar Skype Empresarial para usar otro idioma para el saludo del correo de voz predeterminado de su organización. '
-ms.openlocfilehash: 712f7ac65e3a473968632bb8dcc0569bd9471b0d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 1ab3b5cdb59af465cd299940ad7ccd98940181e3
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855672"
+ms.locfileid: "23887525"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Cambiar el idioma predeterminado en los saludos y los correos electrónicos
 

@@ -6,18 +6,18 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Lea este tema para obtener información acerca de cómo implementar sistemas de salón de Skype v2 con Exchange Online.
-ms.openlocfilehash: b413168d04123256472e6d01cb8cd1858619a714
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 51a1f4089dfb3453802e8d3241869c3c325c904c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974675"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883247"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>Implementar Sistemas de salas de Skype v2 con Exchange Online 
  

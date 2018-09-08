@@ -16,7 +16,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
@@ -24,10 +24,10 @@ description: ''
 robots: noindex
 redirect_url: https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider
 redirect_document_id: true
-ms.openlocfilehash: 399021cee30c28dff4544162848068356e506164
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: b8e356cfffd8da23e363454b3e390ebb09a5c52f
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849867"
+ms.locfileid: "23881893"
 ---

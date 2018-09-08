@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Proceso de implementación y los pasos para el grupo de respuesta en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 41fa65c451d72559e8187d79969023d165c0f70f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 290db10e0a306217462015c43d9abb68e18ccb8a
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242915"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23884185"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>Proceso de implementación de grupo de respuesta en Skype para la empresa
 

@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Cree un plan para estimular la adopción de usuario por definir los objetivos, comprender qué aceptación tiene el aspecto y proporcionar recursos de aprendizaje y soporte técnico.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0199919ca7c7861783489a3bc0c164970d5c2f0d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 59ac1e894d8622904aeceeb07d0c663ec7c825bd
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867952"
+ms.locfileid: "23887162"
 ---
 # <a name="prepare-my-users"></a>Preparación de Mis usuarios
 

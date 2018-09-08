@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre los pasos para restablecer un usuario reunión de identificador de conferencia en Microsoft Teams y get contiene vínculos a las herramientas de actualización y migración de la reunión. '
-ms.openlocfilehash: d60c1a76b4e800ef07e206df31206e6d0e0bda1a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 4e338e5ad00792a48e0a6c9e0791c0c5e4b759ac
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23868160"
+ms.locfileid: "23887855"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Restablecer un identificador de conferencia para un usuario en Microsoft Teams
 

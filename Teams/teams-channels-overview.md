@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 description: Obtenga información sobre los diferentes equipos, canales y aplicaciones disponibles para una gran variedad de requisitos, como los servicios financieros, la planificación de eventos, las ventas y mucho más.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51d26ef7315a45be790c409ddda06c87697c065e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 1b6c46a2ca5d68509a20b284d593d9edce080764
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855436"
+ms.locfileid: "23889641"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Información general de los equipos y canales en Microsoft Teams
 =================================================

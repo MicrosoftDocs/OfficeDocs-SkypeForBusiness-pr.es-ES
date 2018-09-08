@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: Control remoto de llamadas era una característica en versiones anteriores de Lync Server que habilita a los usuarios controlar sus teléfonos PBX con Lync Server. En Skype para Business Server, esta característica se ha reemplazado con llamar vía trabajo. En las versiones de cliente de Skype para Business Server 2015 y continuas de llamadas hacia delante remoto control ya no está disponible para configurar en el cliente y se ha quitado para su uso.
-ms.openlocfilehash: d2203840672bfc73cf478254b9d115fd0375c902
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2c17418f765ba7b542f5ce349ba486a4bbe278fe
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21014546"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23881821"
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business"></a>Plan para el control remoto de llamadas en Skype para la empresa
  

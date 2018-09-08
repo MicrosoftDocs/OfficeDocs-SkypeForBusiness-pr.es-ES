@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Cómo se realiza una detección medioambiental detallada al planear su viaje de Skype para la empresa a Microsoft Teams.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 700f92c357e99db970742577c5381510ff450c14
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 1fabfa08eb4e97e9be9cab261c538ead846a0356
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23870480"
+ms.locfileid: "23889323"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Detección del entorno para la implementación de Microsoft Teams
 ===================================================

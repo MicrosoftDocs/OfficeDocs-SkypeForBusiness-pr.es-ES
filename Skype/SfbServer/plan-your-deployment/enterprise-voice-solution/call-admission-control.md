@@ -7,19 +7,19 @@ ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Obtenga información sobre el control de admisión de llamadas, lo que puede impedir que las llamadas procedentes de produciendo si poseen una calidad deficiente multimedia, en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: da5616f7b23cf4da29ed813a5398db755d8e0777
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: db4b2f7a77885ff96a4b43b01aa2337996418217
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247155"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883854"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Planeación de control de admisión de llamadas en Skype para Business Server
 

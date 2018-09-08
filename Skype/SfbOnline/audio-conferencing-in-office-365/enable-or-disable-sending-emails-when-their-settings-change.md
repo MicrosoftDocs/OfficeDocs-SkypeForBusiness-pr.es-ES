@@ -8,23 +8,24 @@ ms.topic: article
 ms.assetid: 26ea19d3-e420-4fc1-baa3-2692d17e5e1d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: 4d52603fb0d2701cbebd58644cd002dbc94baf89
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
+ms.openlocfilehash: fc6a248974dba22c18cce00246b3b9312f294229
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490589"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883981"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Habilitar o deshabilitar el envío de los correos electrónicos cuando cambie la configuración de conferencias de Audio en Skype para profesionales en línea
 
@@ -65,9 +66,9 @@ Habilitar o deshabilitar el envío de correos electrónicos a los usuarios de ac
     
 1. En el **Skype para el centro de administración de negocio**, en el panel de navegación izquierdo, haga clic en **conferencias de Audio**.
     
-2. On the **Microsoft bridge settings** page, select or clear the **Automatically send emails to users if their audio conferencing settings change**.
+2. En la página **Configuración de puente de Microsoft**, seleccione o deseleccione **Enviar automáticamente correos electrónicos a los usuarios si la configuración de audioconferencia cambia**.
     
-3. Click **Save**.
+3. Haga clic en **Guardar**.
     
     > [!TIP]
     > También puede enviar correo electrónico a un usuario con la configuración de conferencias de audio, vaya a la **conferencia de Audio** > **a los usuarios**, seleccione el usuario y haga clic en **Enviar información de conferencia a través de correo electrónico**.  Si lo hace, se enviará un correo electrónico que incluye solo identificador de conferencia y el número de teléfono de conferencia, pero no el PIN.  Para obtener más información, vea [Enviar un correo electrónico a un usuario con su información de conferencia de Audio](send-an-email-to-a-user-with-their-dial-in-information.md) .
@@ -75,7 +76,7 @@ Habilitar o deshabilitar el envío de correos electrónicos a los usuarios de ac
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-Vea **Enviar un correo electrónico a un usuario con su información de conferencias de Audio**.
+**Vea **Enviar un correo electrónico a un usuario con su información de conferencias de Audio**.**
   
 - Ejecute el siguiente procedimiento para deshabilitar el envío de los correos electrónicos: 
     

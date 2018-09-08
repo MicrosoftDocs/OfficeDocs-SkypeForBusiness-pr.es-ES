@@ -8,23 +8,24 @@ ms.topic: article
 ms.assetid: f2c7b5ea-07b6-4b77-8023-bec9596fcc32
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre cómo activar o desactivar la entrada y salida de anuncios en una reunión de Skype for Business Online usando el centro de administración de Skype for Business. '
-ms.openlocfilehash: 874624c3d7cfb184f4206f61cf2a91a67eb2e2cd
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
-ms.translationtype: HT
+ms.openlocfilehash: b00c52d905fb031c7f0eaebc57f9fbb88549daa0
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779039"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23884064"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-skype-for-business-online"></a>Activar o desactivar la entrada y salida de anuncios para reuniones en Skype for Business Online
 
@@ -33,20 +34,20 @@ ms.locfileid: "23779039"
 
 Cuando establece una audioconferencia en Office 365, obtendrá un puente de audioconferencia. Un puente de conferencia puede contener uno o más números de teléfono que los usuarios utilizarán para llamar a una reunión de Skype for Business. 
   
-El puente de conferencia responde a una llamada de un usuario que llama a una reunión mediante un teléfono. El puente de conferencia responde el autor de la llamada con mensajes de voz de un operador automático de conferencia y, a continuación, dependiendo de la configuración, puede reproducir notificaciones, pedir a los autores de llamadas que graben su nombre y que configuren la seguridad de PIN. Se da un PIN a un organizador de Skype for Business, y este les permite iniciar una reunión si no pueden iniciar la reunión utilizando la aplicación de Skype for Business. Sin embargo, lo puede establecer para que no sea necesario un PIN para iniciar una reunión.
+El puente de conferencia responde a una llamada de un usuario que se llama a una reunión mediante un teléfono. El puente de conferencia responde el autor de la llamada con mensajes de voz de un operador automático de conferencia y, a continuación, dependiendo de la configuración, puede reproducir las notificaciones, pida a los autores de llamadas para registrar su nombre y configurar la seguridad de NIP. Se da un PIN a un organizador de Skype for Business, y este les permite iniciar una reunión si no pueden iniciar la reunión utilizando la aplicación de Skype for Business. Sin embargo, lo puede establecer para que no sea necesario un PIN para iniciar una reunión.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-meeting-join-options"></a>Configurar las opciones para unirse a una reunión
     
-1. En el **centro de administración de Skype for Business**, en la navegación izquierda, vaya a **Audioconferencia** > **Configuración de puente de Microsoft**.
+1. En el **centro de administración de Skype for Business**, en la navegación izquierda, vaya a **Audioconferencia** > **Configuración de puente de Microsof**.
     
-2. En **Experiencia de unirse a una reunión**, active o desactive **Habilitar las notificaciones de entrada o salida**. Esta opción está seleccionada de forma predeterminada. Si se desactiva, los usuarios que ya se han unido a la reunión no recibirá una notificación cuando alguien entre o salga de la reunión.
+2. En la **experiencia de unirse a la reunión**, active o desactive **Habilitar la entrada de la reunión y salir de notificaciones para activarse**. Esta opción está seleccionada de forma predeterminada. Si se desactiva, los usuarios que ya se han unido a la reunión no recibirá una notificación cuando alguien entra o sale de la reunión.
     
 3. En **Tipo de anuncio de entrada o salida**, seleccione **Nombres o números de teléfono** o **Tonos**.
     
-4. Active o desactive **Pedir a los autores de llamadas que graben su nombre antes de unirse a la reunión**.
+4. Active o desactive **los autores de llamadas Ask para registrar su nombre antes de unirse a la reunión**.
     
 5. Después de realizar los cambios, haga clic en **Guardar**.
     
@@ -61,7 +62,7 @@ El puente de conferencia responde a una llamada de un usuario que llama a una re
     
   - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell tiene muchas ventajas en velocidad, simplificidad y productividad respecto a utilizar únicamente el centro de administración de Office 365, como, por ejemplo, al realizar cambios de configuración para muchos usuarios en una única ubicación. Más información sobre estas ventajas en los temas siguientes: 
+- Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad sobre solo usa el centro de administración de Office 365, como cuando desea realizar cambios en la configuración de muchos usuarios al mismo tiempo. Más información sobre estas ventajas en los temas siguientes: 
     
   - [Introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -72,6 +73,6 @@ El puente de conferencia responde a una llamada de un usuario que llama a una re
     > [!NOTE]
     > El módulo Windows PowerShell para Skype Empresarial Online le permite crear una sesión de Windows PowerShell remota que se conecta con Skype Empresarial Online. Este módulo, que solo es compatible con equipos de 64 bits, se puede descargar desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-topics"></a>See also
 
-[Preguntas comunes sobre audioconferencias](/MicrosoftTeams/audio-conferencing-common-questions)
+[Preguntas comunes sobre Audioconferencia](/MicrosoftTeams/audio-conferencing-common-questions)

@@ -16,23 +16,23 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: La identificación de llamadas se puede controlar en las llamadas de entrada y de salida de usuarios de Sistema telefónico mediante una directiva llamada CallingLineIdentity.
-ms.openlocfilehash: 410712a8fd0a6f28b0bc2821daae8143b38ceb63
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+description: Identificador de autor de la llamada se puede controlar mediante el uso de una directiva denominada CallingLineIdentity para las llamadas entrantes y salientes para los usuarios del sistema telefónico.
+ms.openlocfilehash: c2a508e89f9fbf279e048fcdccca1ac1b0534305
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854229"
+ms.locfileid: "23883568"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Cómo se puede usar la identificación de llamadas en su organización
 
-La identificación de llamadas se puede controlar en las llamadas de entrada y de salida de usuarios de Sistema telefónico mediante una directiva llamada CallingLineIdentity.
+Identificador de autor de la llamada se puede controlar mediante el uso de una directiva denominada CallingLineIdentity para las llamadas entrantes y salientes para los usuarios del sistema telefónico.
   
-La funcionalidad de identificación de llamadas está disponible para todos los usuarios de Sistema telefónico independientemente de la conectividad con RTC:
+La funcionalidad de identificador de autor de la llamada está disponible para todos los usuarios del sistema telefónico independientemente de la conectividad de RTC:
   
 - Conectividad con RTC en línea
     
@@ -47,7 +47,7 @@ La funcionalidad de identificación de llamadas está disponible para todos los 
 
 Hay tres opciones disponibles para la identificación de llamadas RTC de salida:
   
-- El número de teléfono asignado al usuario: es la opción predeterminada.
+- El número de teléfono asignado al usuario, que es el valor predeterminado.
     
 - Un número de teléfono que está clasificado como un *servicio* y un número *gratuito* en el inventario de números de teléfono de Planes de llamadas de Office 365. Normalmente, se asigna a una cola de llamadas o de operador automático organizativos.
     
@@ -55,9 +55,9 @@ Hay tres opciones disponibles para la identificación de llamadas RTC de salida:
     
 Sin embargo, no es posible asignar estos tipos de números de teléfono al identificador de llamadas de salida:
   
-- Los números de teléfono que se clasifican como *usuario* en su inventario de números de teléfono de Planes de llamadas
+- Los números de teléfono que se clasifican como un *usuario* en su teléfono de planes de llamar al número de inventario
     
-- Un número de teléfono de Skype for Business Server local
+- Un número de teléfono de Skype Empresarial Server local.
     
 Para establecer la identificación de llamadas de salida, consulte [Establecer el identificador de llamada de un usuario](set-the-caller-id-for-a-user.md).
   
@@ -65,7 +65,7 @@ Para establecer la identificación de llamadas de salida, consulte [Establecer e
 
 El atributo EnableUserOverride permite a uno o varios usuarios cambiar su configuración de identificación de llamadas a **Anónimo**. Esto solo se aplica cuando una directiva de CallingLineIdentity se configura con un parámetro CallingIDSubstitute de LineURI o Substitute. El valor predeterminado de EnableUserOverride es False.
   
-Sus usuarios finales pueden configurar su identificador de llamadas en **Anónimo** mediante la pestaña **Configuración del desvío de llamadas** en el cliente de escritorio de Skype for Business.
+Los usuarios finales puede establecer su identificador de autor de la llamada a **anónimo** mediante el uso de la ficha **Llamada configuración hacia delante** en el Skype para el cliente de escritorio empresarial.
   
 ||||
 |:-----|:-----|:-----|
@@ -78,7 +78,7 @@ Sus usuarios finales pueden configurar su identificador de llamadas en **Anónim
    
 ## <a name="inbound-caller-id"></a>Identificación de llamadas de entrada
 
-El atributo BlockIncomingCallerID permite bloquear la identificación de llamadas en las llamadas RTC de entrada. Puede configurar este atributo, pero no está disponible para sus usuarios finales en la página de configuración de usuarios. En este momento está solo disponible con la conectividad con RTC en línea.
+El atributo BlockIncomingCallerID permite bloquear la identificación de llamadas en las llamadas RTC de entrada. Puede establecer este atributo, pero no está disponible para los usuarios finales en la página de configuración de usuario. En este momento está solo disponible con la conectividad con RTC en línea.
   
 Para establecer la identificación de llamadas de salida, consulte [Establecer el identificador de llamada de un usuario](set-the-caller-id-for-a-user.md).
   

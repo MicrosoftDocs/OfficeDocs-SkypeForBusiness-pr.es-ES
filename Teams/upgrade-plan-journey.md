@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Para planear la actualización selecciona a las partes interesadas en primer lugar y, a continuación, el ámbito del proyecto.
-localization_priority: Priority
+localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c138282ed7b65cd7efcdb31cb363110702233346
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 07c592f8f3ef6e1021805766189e9c1cd522e8ab
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867078"
+ms.locfileid: "23883232"
 ---
 ![Asegúrese de que el proyecto está configurado para el éxito con el equipo del proyecto derecho. Definir el ámbito del proyecto, las metas y escala de tiempo. Confirmar la preparación de técnico y de usuario. Ejecutar el plan de implantación. Mantener momentum para maximizar los resultados.] (media/upgrade-banner-main.png "Comenzar su viaje por la actualización")
 

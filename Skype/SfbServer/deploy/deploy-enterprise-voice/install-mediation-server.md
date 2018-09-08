@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 description: 'Resumen: Obtenga información sobre cómo instalar los archivos para el servidor de mediación en Skype para Business Server.'
-ms.openlocfilehash: b3314e5443a7aa881fa849fd3e3b5b639f72664e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6cc10053c6ffc3667e8280a8aad4cb1ef300d490
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002484"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883544"
 ---
 # <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>Instalar los archivos para el servidor de mediación en Skype para Business Server
  

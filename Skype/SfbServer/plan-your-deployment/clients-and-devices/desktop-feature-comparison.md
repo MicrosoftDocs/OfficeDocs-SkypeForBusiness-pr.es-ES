@@ -7,19 +7,19 @@ ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumen: Skype para Business Server 2015 o Skype para los administradores en línea de negocio puede usar estas tablas para comprender qué características son compatibles con los clientes que.'
-ms.openlocfilehash: beb118d39ea2fa98025c5038436810d90a5472ea
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: ef7deb58db0ad6ece008a63c76cd03feb3a17feb
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263896"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23882298"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparación de características de cliente de escritorio de Skype para Business Server 2015
  

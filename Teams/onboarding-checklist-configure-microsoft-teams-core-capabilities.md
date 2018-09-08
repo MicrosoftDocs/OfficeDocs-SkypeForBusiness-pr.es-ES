@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Siga el núcleo, las tareas pendientes y las actividades en esta lista de comprobación al configurar los equipos.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e6dfc4f5820175a932cebdf200e215b45edeb6e9
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 0e55f5dc22cc806fc97249d1e6a3875439620201
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850112"
+ms.locfileid: "23882126"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>Configurar la funcionalidad básica de Microsoft Teams
 

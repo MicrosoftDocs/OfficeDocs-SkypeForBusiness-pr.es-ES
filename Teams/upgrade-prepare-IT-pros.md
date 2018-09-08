@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Preparar el personal de TI de su organización para implementar y admitir Microsoft Teams.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75dd948b7cc04a41a4d4d814c756897c1c9e4f66
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: af308c8160815e4804bc5253d0a8427ea17d49dc
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23868520"
+ms.locfileid: "23889732"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica] (media/upgrade-banner-tech-readiness.png "Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica")
 

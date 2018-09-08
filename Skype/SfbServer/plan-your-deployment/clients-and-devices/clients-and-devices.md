@@ -7,19 +7,19 @@ ms.date: 2/20/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Resumen: Revisión de las aplicaciones y los clientes admitidos para Skype para la empresa.'
-ms.openlocfilehash: 8742446d98136e280c6c5bafc3fc611a3c461ae3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5b2d40a783f556bd1fb25a2da7237e77c2b6af9d
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261234"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23882189"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planificar los clientes y los dispositivos
 

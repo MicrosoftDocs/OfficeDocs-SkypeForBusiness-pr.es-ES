@@ -7,7 +7,7 @@ ms.date: 12/8/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0d16ec3a-28f0-4483-96e7-8e68f30398fa
 description: 'Resumen: lea este tema para aprender a implementar la conectividad híbrida entre Skype Empresarial Server y Skype Empresarial Online.'
-ms.openlocfilehash: d2f2792f46f50b8b4889a4659993bb4fa22dcbc0
-ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
+ms.openlocfilehash: 1e42b0c582f186b785db691e66b9ee88aa6d6a74
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21708342"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886199"
 ---
 # <a name="deploy-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Implementar conectividad híbrida entre Skype Empresarial Server y Skype Empresarial Online
  

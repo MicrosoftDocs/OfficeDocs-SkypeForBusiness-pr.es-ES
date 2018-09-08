@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Find the dial-in conferencing language for each country or region and the culture ID assigned (en-US, da-DK, de-DE, etc)
-ms.openlocfilehash: 94fafc0a6cee2707fd603ddeb145d783ec6fa573
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: f4152d8979dc1ff9b52c6b18f6be38be4155b729
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23871017"
+ms.locfileid: "23889967"
 ---
 # <a name="audio-conferencing-supported-languages"></a>Idiomas admitidos en las conferencias de acceso telefónico local
 

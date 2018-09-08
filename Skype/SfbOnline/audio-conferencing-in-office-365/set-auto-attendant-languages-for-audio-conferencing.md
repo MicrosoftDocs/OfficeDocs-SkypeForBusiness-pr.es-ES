@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Vea cómo seleccionar los idiomas operador automático de audio conferencia para un número de audioconferencia en Skype for Business Online.
-ms.openlocfilehash: 70313648f04b05e622ddb34e871ff1b303ac02a7
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: f7b7357d38941ba8d7e1f586f32daa8e02b29012
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23864989"
+ms.locfileid: "23882213"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Establecer los idiomas de operador automático para audioconferencias en Skype for Business Online
 
@@ -34,10 +34,10 @@ ms.locfileid: "23864989"
 
 El operador automático de audioconferencias de Skype for Business puede saludar a los autores de llamadas de audioconferencias en un número de diferentes idiomas cuando se unan a una reunión.
   
-Elija un idioma principal y hasta cuatro idiomas secundarios. El idioma principal que configure se usará en primer lugar y los idiomas secundarios se usarán por el operador automático en el orden que seleccione. 
+Elija un idioma principal y hasta cuatro idiomas secundarios. El idioma principal que ha configurado en primer lugar se va a usar y los idiomas secundarios utilizará el operador automático de forma que seleccione. 
   
 > [!NOTE]
->  Puede configurar los idiomas en solo los números de teléfono de acceso nacional de audio.
+>  Puede configurar los idiomas en sólo los números de teléfono de acceso nacional de audio.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -48,12 +48,12 @@ Debe ser un [administrador global de Office 365](https://support.office.com/arti
     
 1. En el **centro de administración de Skype for Business**, en la navegación izquierda, vaya a **Audioconferencia** y a continuación haga clic en **Puente de Microsoft**.
     
-2. Seleccione el número de teléfono de audioconferencia de la lista y, en el panel de acciones, haga clic en **Establecer idiomas**. 
+2. Seleccione el número de teléfono de conferencia de audio de la lista y, en el panel de acciones, haga clic en **conjunto de idiomas**. 
     
-3. En la página **Establecer idiomas**, haga clic en **Idioma principal** para ver la lista completa de idiomas disponibles. Si lo necesita, haga clic en cada una de las listas de **Idiomas secundarios** para seleccionar idiomas secundarios.
+3. En la página **conjunto de idiomas** , haga clic en la lista **idioma principal** para ver la lista completa de idiomas disponibles. Si necesita, haga clic en cada una de las listas de **idiomas secundarios** para seleccionar idioma secundario.
     
     > [!NOTE]
-    > Se enumeran el idioma principal y los secundarios que son compatibles. El orden en que los seleccione en las listas será el orden de los idiomas presentados a los autores de llamadas. 
+    > Se enumeran el idioma principal y los secundarios que son compatibles. El orden en que los seleccione en las listas de será el orden de los idiomas que se presentan a los autores de llamadas. 
   
 4. Haga clic en **Guardar**.
     
@@ -67,9 +67,9 @@ Debe ser un [administrador global de Office 365](https://support.office.com/arti
     
 ## <a name="want-to-use-windows-powershell"></a>¿Desea usar Windows PowerShell?
 
-Para automatizar este paso, puede usar los cmdlets [Set-CsOnlineDialInConferencingServiceNumber ](https://go.microsoft.com/fwlink/?LinkId=617689) y [Get-CsOnlineDialInConferencingLanguagesSupported ](https://go.microsoft.com/fwlink/?LinkId=617684).
+Para automatizar este paso, puede usar los cmdlets [Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) y [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) .
   
-Para obtener más información, consulte [Usar Windows PowerShell para realizar tareas de administración comunes de Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+Para obtener más información, vea [Uso de Windows PowerShell para hacer Skype comunes para las tareas de administración en línea de negocio](https://go.microsoft.com/fwlink/?LinkId=525038)
   
 ## <a name="related-topics"></a>Temas relacionados
 

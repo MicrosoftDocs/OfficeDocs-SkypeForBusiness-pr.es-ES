@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: turgayo
 description: Use esta guía para obtener más información acerca de los requisitos previos y las dependencias del entorno para implementar los equipos de la organización
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9db3bcc8e9171670288d0e5b14e120a9dd3692f0
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7b798ae43d7a47543c78ca38a696a2368413539d
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851058"
+ms.locfileid: "23887510"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica] (media/upgrade-banner-tech-readiness.png "Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica")
 

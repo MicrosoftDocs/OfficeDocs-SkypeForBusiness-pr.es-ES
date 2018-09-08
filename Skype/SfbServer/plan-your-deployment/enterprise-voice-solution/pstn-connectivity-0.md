@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
 description: Plan para la conectividad de RTC en Enterprise Voice en Skype para Business Server.
-ms.openlocfilehash: ed8b4d29dd6d2fdfc3592fba4236f4a99b9ee05d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0c84cc1c683f55ab003164f845071c071c620adc
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003874"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23881828"
 ---
 # <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>Plan para la conectividad de RTC en Skype para Business Server
  

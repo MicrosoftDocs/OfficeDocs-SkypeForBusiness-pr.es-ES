@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
 description: Implementar E9-1-1 en Skype para Business Server Enterprise Voice. Incluye los requisitos previos y una lista de comprobación del proceso de implementación.
-ms.openlocfilehash: 1ae67f58a4a5afb6eff9ea9eaee2e456469f0e25
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2b449139e6cc7e98bba59a60f9139cb774da458c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21018966"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23888029"
 ---
 # <a name="deploy-emergency-services-in-skype-for-business-server"></a>Implementación de servicios de emergencia en Skype para Business Server
  

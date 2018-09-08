@@ -9,16 +9,16 @@ ms.service: msteams
 ms.reviewer: MyAdvisor, lolaj
 search.appverid: MET150
 description: Guía de inicio rápido para configurar Planes de llamada en Microsoft Teams.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eea3c6ed4084648877fd31b84bb9cdea26986565
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 86a4862a547df6f50d0831616a42824d9f8c3287
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23856102"
+ms.locfileid: "23882101"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams
 ==============================================================

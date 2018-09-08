@@ -8,7 +8,7 @@ ms.topic: article
 audience: Admin
 ms.service: msteams
 ms.reviewer: ''
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 description: Conozca las distintas licencias de Office 365, cuáles permiten a los usuarios usar Microsoft Teams y cómo habilitarlas o deshabilitarlas.
 ms.custom:
@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4133f239c2b8f710d76d11360bb3d837037b0d5
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 14498eef72af9f72e67ae51e3e40717ef6ce4709
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854104"
+ms.locfileid: "23884056"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Licencias de Office 365 para Microsoft Teams
 ========================================

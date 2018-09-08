@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 99307b623a6be15a7b1f535a01765132c96ad02f
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 1e4f48caff52cf648e075d9c4c4972076e124c00
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858476"
+ms.locfileid: "23891696"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de comunicaciones para su organización
 

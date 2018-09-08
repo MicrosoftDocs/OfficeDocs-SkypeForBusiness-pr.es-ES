@@ -7,7 +7,7 @@ ms.date: 12/3/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
@@ -16,11 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3a8176fc-47ee-4809-ba2f-d8b8090c1cf3
 description: Antes de mover realmente el usuario a Office 365, primero debe confirmar que se sincronizan en la nube y asígneles una licencia. Para hacerlo, use el Centro de administración de Office 365.
-ms.openlocfilehash: 71f989f1b6151f227aa10f0a334654b9733cbf1a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2c25b869dd8f69d608954bca68fdf7e25647d402
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23887862"
 ---
 # <a name="synchronize-users-to-the-cloud-and-assign-licenses"></a>Sincronizar usuarios en la nube y asignar licencias
  

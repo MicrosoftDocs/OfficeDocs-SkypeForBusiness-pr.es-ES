@@ -1,20 +1,20 @@
 ---
 title: 'Ejemplo de script de PowerShell: Crear un equipo que abarque toda la empresa en Microsoft Teams'
-author: ninadara
-ms.author: ninadara
+author: Lester-Hewett
+ms.author: lehewe
 manager: serdars
 ms.date: 02/07/2018
 ms.topic: article
 ms.service: msteams
 description: Use este script de PowerShell para crear un equipo público que abarque toda la empresa en Teams.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 26933c97aaa5d16c28a771e3d45c31174b807c07
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: 6c4c1acf659e391320f1fa713be0e8d6c9e09853
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "18999162"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23884099"
 ---
 <a name="powershell-script-sample---create-a-company-wide-team-in-microsoft-teams"></a>Ejemplo de script de PowerShell: Crear un equipo que abarque toda la empresa en Microsoft Teams
 -------------------------------------------------------------------------

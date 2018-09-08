@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: Planeación de recogida de llamadas de grupo en Skype para Business Server Enterprise Voice, que permite a los usuarios atender las llamadas originalmente destinadas a otras personas.
-ms.openlocfilehash: 17c3d453fa54ea72c02c022d33b0b2f1c61e8b0b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 561dc483194b497e06007dfcecfcd43fb62c678a
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21016201"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23882093"
 ---
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>Plan de respuesta de llamadas en grupo en Skype para la empresa
  

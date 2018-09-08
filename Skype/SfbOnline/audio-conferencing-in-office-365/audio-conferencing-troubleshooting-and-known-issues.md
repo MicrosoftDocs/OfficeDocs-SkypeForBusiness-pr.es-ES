@@ -1,5 +1,5 @@
 ---
-title: Problemas conocidos y solución de problemas de conferencia audio
+title: Solución de problemas y problemas conocidos de Audioconferencia
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 72979911-5319-4de2-a275-4dd9a0f44fe6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -15,18 +16,19 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtener una lista de problemas conocidos al usar Microsoft como su proveedor de conferencia de acceso telefónico, el estado y algunas soluciones alternativas. '
-ms.openlocfilehash: fb22149d2aca537f491c0c8d475059ec9f6bc506
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e5c6144081eb68426d3be53efb0ac9e9acbf41bd
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23887465"
 ---
-# <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Problemas conocidos y solución de problemas de conferencia audio
+# <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Solución de problemas y problemas conocidos de Audioconferencia
 
  **Este artículo está dirigido Skype para los usuarios profesionales y Microsoft Teams utilizando Microsoft como su proveedor de conferencias de audio. No se aplica a los clientes que están usando un proveedor de servicios de audioconferencia (ACP).**
   
@@ -57,6 +59,6 @@ Por ahora, use esta clase como una referencia para solucionar posibles problemas
 |Las llamadas de conferencia de audio podrían tardar hasta 24 horas para mostrar en los informes de uso.  <br/> |Ya estamos deseando para realizar mejoras en esta área en servicio futuras actualizaciones.  <br/> |No hay ninguna solución.  <br/> |30/8/2017  <br/> |
 |Cuando un autor de la llamada se conecta a un puente de conferencia después de la reunión ha sido bloqueada por un Skype para usuarios de empresa, no hay una notificación en el Skype para la aplicación de negocio que dice que el usuario está esperando en la sala de espera.  <br/> |Esto se ha hecho deliberadamente, pero hemos recibido los comentarios para agregar esta función en actualizaciones futuras del servicio.  <br/> |No hay ninguna solución.  <br/> |30/8/2017  <br/> |
    
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 
 [Probar o comprar Audioconferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

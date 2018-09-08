@@ -8,23 +8,24 @@ ms.topic: article
 ms.assetid: bd0cd155-4c6d-424d-a2c9-af7974a2d34c
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within the Skype for Business admin center. '
-ms.openlocfilehash: 441fb797fa3e1325fe5c63a2b1d6a86d876ebb5b
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
+ms.openlocfilehash: 722f9e411e1781529ea68f6995a2109f58d39cb0
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490629"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23881999"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Ver una lista de los usuarios que están habilitados para conferencias de Audio en Skype para profesionales en línea
 
@@ -75,7 +76,7 @@ Después de haber habilitado Skype para usuarios profesionales de la organizaci�
 
 - Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
-  - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Una introducción a Windows PowerShell y Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
