@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Obtenga información sobre cómo admitir la resistencia de voz en Skype para Business Server Enterprise Voice, en sitios centrales y sitios de sucursal. Opciones de sitio de sucursal incluyen implementar aplicaciones de sucursal con funciones de supervivencia o servidores de sucursal con funciones de supervivencia.
-ms.openlocfilehash: b20666cc6a36260142fae0488983c7fefcec699a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 76b56d7e7d00ecd6d542be3f936af6f2e834974d
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263868"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23882306"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Plan para la resistencia de Enterprise Voice en Skype para Business Server
 

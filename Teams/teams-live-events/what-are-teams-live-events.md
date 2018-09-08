@@ -6,15 +6,16 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: tonysmit
+search.appverid: MET150
 description: Obtenga información sobre cómo Live eventos permiten a los usuarios difundir vídeo y contenido a grandes audiencias en línea en Microsoft Teams, Yammer y Microsoft Stream.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfdee5d1cf43c358d2b6a36aad66c38d3e9d8ec9
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3fb22c259e97e27aa45d4874bc95aef7962c6024
+ms.sourcegitcommit: 53089c4c9bdf219f02eae2827432a4f40eaa9cd5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23870596"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23893711"
 ---
 # <a name="what-are-teams-live-events"></a>¿Cuáles son los equipos de eventos en directo?
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -45,15 +46,19 @@ Los eventos live en Microsoft 365 admite una gran variedad de escenarios de prod
 - **Producción de codificador externo**: codificadores externos permiten a los usuarios producir sus eventos en directo directamente desde un codificador basada en software con la [Secuencia de Microsoft](https://stream.microsoft.com)o un hardware externo. Esta opción es mejor si ya dispone de equipamiento de calidad studio (por ejemplo, mezcladores de medios) qué compatibilidad con transmisión por secuencias a un servicio de protocolo de mensajería en tiempo real (RTMP). Este tipo de producción se utiliza normalmente en los eventos de gran escala, como salas de ciudad ejecutivos – donde la difusión de una única secuencia de un mezclador de medios a la audiencia. 
 
 ### <a name="streaming-platform"></a>Plataforma de transmisión por secuencias
-La plataforma de transmisión por secuencias del evento en directo se compone de los cuatro elementos siguientes:
+La plataforma de transmisión por secuencias del evento en directo se compone de las siguientes partes:
 
 - **Servicios de medios de Azure** [Servicios de medios de Azure](https://docs.microsoft.com/azure/media-services/previous/) proporciona servicios de transmisión por secuencias vídeo de calidad de difusión para llegar a más grandes audiencias en dispositivos móviles más populares de hoy.   Servicios de medios mejora la accesibilidad, la distribución y la escalabilidad y de manera fácil y rentable para transmitir contenido a su público local o en todo el mundo, al mismo tiempo que protege su contenido.
 - **Red de Azure entrega de contenido (CDN)**  Una vez que entre la secuencia, se entrega a través de la [Red de entrega de contenido (CDN) de Azure](https://docs.microsoft.com/azure/cdn/). Servicios de medios Azure proporciona CDN integrada para transmitir los extremos. Esto permite que las secuencias para que se vean en todo el mundo con ningún almacenamiento en búfer.
-- **Red de entrega de contenido empresarial (eCDN)**  El objetivo de la red eCDN es tomar el contenido de vídeo de internet y distribuir el contenido en toda la empresa sin afectar el rendimiento de la red. Puede usar uno de estos partners de eCDN para optimizar la red para eventos en directo mantenidos dentro de la organización:
+
+### <a name="enterprise-content-delivery-network-ecdn"></a>Red de entrega de contenido empresarial (eCDN)
+El objetivo de la red eCDN es tomar el contenido de vídeo de internet y distribuir el contenido en toda la empresa sin afectar el rendimiento de la red. Puede usar uno de estos partners de eCDN para optimizar la red para eventos en directo mantenidos dentro de la organización:
     - Subárbol
     - Kollective
     - Pendiente
-- **Experiencia de ATTENDEE**  La experiencia del asistente es el aspecto más importante de eventos en directo y es muy importante que los asistentes pueden participar en el evento en directo sin necesidad de los problemas. La experiencia del asistente usa el Reproductor multimedia de Azure y funciona a través de escritorio, explorador y mobile (iOS, Android). Office 365 proporciona Yammer y los equipos como dos concentradores de colaboración y el Asistente live experiencia se integra en estas herramientas de colaboración. También se pueden tener acceso a los eventos de live codificador externo basado por los asistentes de las [Herramientas administrativas](#administrative-tools).
+
+### <a name="attendee-experience"></a>Experiencia del Asistente 
+La experiencia del asistente es el aspecto más importante de eventos en directo y es muy importante que los asistentes pueden participar en el evento en directo sin necesidad de los problemas. La experiencia del asistente usa el Reproductor multimedia de Azure y funciona a través de escritorio, explorador y mobile (iOS, Android). Office 365 proporciona Yammer y los equipos como dos concentradores de colaboración y el Asistente live experiencia se integra en estas herramientas de colaboración. 
 
 ## <a name="planning-for-live-events"></a>Planeación de eventos en directo
 Al planear los equipos eventos en directo para incluir grandes reuniones de su organizaiton, hay varios factores que debe tener en cuenta antes de empezar a establecerla Subir todo. 
@@ -350,7 +355,7 @@ Los clientes pueden usar las siguientes herramientas para administrar una varied
 
 ### <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 Cuando se trata de Windows PowerShell, que toda la información sobre administración de usuarios y qué usuarios pueden o no pueden para hacer. Con Windows PowerShell, puede administrar Office 365 y Skype para profesionales Online mediante un único punto de administración que puede simplificar su trabajo diario cuando haya varias tareas para hacer. Para empezar con Windows PowerShell, vea estos temas:
- - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+ - [Una introducción a Windows PowerShell y Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
  - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
 
 Windows PowerShell ofrece numerosas ventajas de velocidad, sencillez y productividad con respecto al uso exclusivo del Centro de administración de Office 365, como por ejemplo a la hora de realizar cambios de configuración para varios usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:

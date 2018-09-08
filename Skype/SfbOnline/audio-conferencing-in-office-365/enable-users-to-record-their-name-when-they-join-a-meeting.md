@@ -1,5 +1,5 @@
 ---
-title: Habilitar a los usuarios para registrar su nombre cuando se unan a una reunión en Skype for Business Online
+title: Habilitar a los usuarios registrar su nombre cuando se unan a una reunión en Skype para profesionales en línea
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,19 +15,19 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Obtenga información sobre cómo habilitar o deshabilitar si los usuarios pueden registrar sus nombres al unirse a una reunión en Skype for Business Online.
-ms.openlocfilehash: 6022d7ebf0e653bc43373cb00faabc207f91562a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+description: Obtenga información sobre cómo habilitar o deshabilitar si los usuarios pueden registrar sus nombres unirse a una reunión en Skype para profesionales en línea.
+ms.openlocfilehash: 0e330d5efdd7325a8db48aa679d6ecbb9264c345
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850045"
+ms.locfileid: "23884725"
 ---
-# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Habilitar a los usuarios para registrar su nombre cuando se unan a una reunión en Skype for Business Online
+# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Habilitar a los usuarios registrar su nombre cuando se unan a una reunión en Skype para profesionales en línea
 
 > [!Note]
 > Si desea permitir a los usuarios registren sus nombres en Teams, consulte [Habilitar a los usuarios para registrar su nombre cuando se unen a una reunión en Microsoft Teams](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams).
@@ -72,6 +72,6 @@ El puente de conferencia responde a la llamada de un usuario que llama a una reu
     > [!NOTE]
     > El módulo Windows PowerShell para Skype Empresarial Online le permite crear una sesión de Windows PowerShell remota que se conecta con Skype Empresarial Online. Este módulo, que solo es compatible con equipos de 64 bits, se puede descargar desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-topics"></a>See also
 
 [Probar o comprar Audioconferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

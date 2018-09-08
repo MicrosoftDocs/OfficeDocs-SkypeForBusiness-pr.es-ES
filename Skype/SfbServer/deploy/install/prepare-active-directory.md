@@ -7,19 +7,19 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 'Resumen: Obtenga información sobre cómo preparar el dominio de Active Directory para una instalación de Skype para Business Server. Descargue una versión de prueba gratuita de Skype para Business Server desde el Evaluation de Microsoft center en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 6f562a8a229f98deabce7956d5419f45e3022c12
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 278a46ab7f39f3274905741fb40212869c043e9e
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998598"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23884007"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Preparar Active Directory para Skype para Business Server
  

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 7af17c94-5f8f-4452-ae1d-01f495b4dc94
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -15,21 +16,21 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre cómo crear planes de marcado de llamada (planes de marcado de llamada RTC) en Office 365 y cómo administrarlos. '
-ms.openlocfilehash: a0bbe698e348461d9f8295035e02afcb537eb503
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
-ms.translationtype: HT
+ms.openlocfilehash: 8f096a62104a8128243ea657c61f436ab5f25def
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779292"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23881968"
 ---
 # <a name="create-and-manage-dial-plans"></a>Crear y administrar planes de marcado
 
-Tras planificar los planes de marcado para su organización y determinar todas las reglas de normalización que se deben crear para el enrutamiento de llamadas, tendrá que usar Windows PowerShell para crear los planes de marcado y realizar los cambios pertinentes en la configuración.
+Después de que ha planeado los planes de marcado para su organización y descubrió todas las reglas de normalización que deben crearse para el enrutamiento de llamadas, debe usar Windows PowerShell para crear planes de marcado y realice los cambios de configuración.
   
 > [!NOTE]
 > Los planes de marcado no se pueden crear y administrar en el centro de administración de Skype Empresarial. 
@@ -65,7 +66,7 @@ Si necesita más información, consulte [Conectarse a todos los servicios de Off
     Import-PSSession $session
   ```
 
-Si desea obtener más información sobre cómo iniciar Windows PowerShell, consulte [Conectar con todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [Conectar con Skype for Business Online con Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [Connecting to Skype para profesionales en línea mediante Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
 ## <a name="creating-and-managing-your-dial-plans"></a>Crear y administrar sus planes de marcado
 
@@ -151,7 +152,7 @@ $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity DP1 -NormalizationRules @{remove=$nr1}
 ```
 
-Ejecute lo siguiente cuando también desee examinar las reglas de normalización existentes, determinar cuál desea eliminar y después utilizar el índice para eliminarla. La matriz de reglas de normalización comienza con el índice 0. Nos gustaría eliminar la regla de normalización de tres dígitos, por lo que se trata del índice 1.
+Ejecute lo siguiente cuando desea también se examinan las reglas de normalización existente, determinar la que desea eliminar y, a continuación, usar su índice para quitarlo. La matriz de reglas de normalización comienza con el índice 0. Nos gustaría eliminar la regla de normalización de tres dígitos, por lo que se trata del índice 1.
   
 ```
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
@@ -177,9 +178,9 @@ Ejecute esto para buscar todos los usuarios a los que se les ha garantizado el p
 Get-CsOnlineuser | where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-Ejecute estos para agregar el plan de marcado local existente denominado OPDP1 como un plan de marcado de inquilino para su organización. En primer lugar debe guardar el plan de marcado local como un archivo xml y, a continuación, usarlo para crear el nuevo plan de marcado de inquilino.
+Ejecute estos para agregar el plan de marcado local existente denominado OPDP1 como un plan de marcado inquilino para su organización. Debe primero guardar el local plan a un archivo .xml de marcado y, a continuación, usarla para crear el nuevo plan de marcado de inquilinos.
   
-Ejecute esto para guardar el plan de marcado local como el archivo xml.
+Ejecute para guardar el plan de marcado local en el archivo .xml.
   
 ```
 $DPName = "OPDP1"
@@ -203,11 +204,11 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-- Windows PowerShell se utiliza para administrar los usuarios y qué estos pueden o no hacer. Con Windows PowerShell, puede administrar Office 365 y Skype for Business Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
+- Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Motivos por los que necesita usar Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell ofrece numerosas ventajas de velocidad, sencillez y productividad con respecto al uso exclusivo del Centro de administración de Office 365, como por ejemplo a la hora de realizar cambios de configuración para varios usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
     

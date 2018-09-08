@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: e21b74ab9b9214588f5cca45c78d16bc51f40b41
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: fcd8bf89ce6aee5d4b76f669445e2f78f994b54c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855882"
+ms.locfileid: "23887747"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Esto es lo que conseguirá con Sistema telefónico en Office 365
 

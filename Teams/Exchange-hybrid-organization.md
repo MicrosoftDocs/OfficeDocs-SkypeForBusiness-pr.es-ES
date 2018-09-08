@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: crowe
 description: Aprenda a configurar una organización híbrida de Exchange para usarla con Microsoft Teams.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 046b7ab0381391b16a306d36322086882c03f18a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 02d09e235872644355481f52be8764799ad32871
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849822"
+ms.locfileid: "23881944"
 ---
 <a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a>Configurar una organización híbrida de Exchange para usarla con Microsoft Teams
 ======================================================================

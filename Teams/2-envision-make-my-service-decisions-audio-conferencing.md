@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Obtenga información sobre las reuniones, las licencias y la disponibilidad, configurar las opciones de puente de conferencia, adquirir o transferir los números de teléfono, elija inquilino planes de marcado.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e17632977816261b99e4c2ae22a70c8961a040e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: da156ea46486d1b6eddffce61cfb655aecf90d1e
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854056"
+ms.locfileid: "23889649"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 

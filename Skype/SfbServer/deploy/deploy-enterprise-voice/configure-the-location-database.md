@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Configurar, rellenar y publicar la base de datos de ubicación de E9-1-1 en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: bbeb695cea58feae073e5579eacbe3558d632735
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e57f9ba299abad613df2f4c54ae9ecbbea748f9a
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21018878"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885502"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>Configuración de la base de datos de ubicación en Skype para Business Server
  

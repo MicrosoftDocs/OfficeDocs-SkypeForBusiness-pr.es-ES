@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Modificar la configuración de estacionamiento de llamadas en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 518cefda9cd6186c8362dea83bb80acb046d441d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7ad0f5aec779392bdf79122a5c66ac2461f825e1
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21019520"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23884796"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business"></a>Configuración del estacionamiento de llamadas en Skype para la empresa
  

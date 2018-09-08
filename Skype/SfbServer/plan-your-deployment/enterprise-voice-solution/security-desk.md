@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
 description: Planear cómo incluir el departamento de seguridad de su organización en una implementación de E9-1-1, en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 9363956a9b0f1cc598224b9d573677ff424c9e23
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 96c7342737b755338cd8456f26e7b3aa4b82884f
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989567"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23881843"
 ---
 # <a name="include-the-security-desk-in-skype-for-business-server"></a>Incluir el departamento de seguridad en Skype para Business Server
  

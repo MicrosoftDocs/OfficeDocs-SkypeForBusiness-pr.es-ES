@@ -16,7 +16,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
@@ -24,10 +24,10 @@ description: La Carta de autorización (LOA) nos concede permiso para solicitar 
 robots: noindex
 redirect_url: https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization
 redirect_document_id: true
-ms.openlocfilehash: eb1c0ce7a195feef40f4fca35c67729e827002ae
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 9b88089f5a7676c3366c697787488a1cc80556db
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863671"
+ms.locfileid: "23881866"
 ---

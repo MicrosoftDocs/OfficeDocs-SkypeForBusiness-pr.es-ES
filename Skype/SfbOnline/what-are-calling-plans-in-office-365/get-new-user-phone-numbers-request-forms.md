@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: c0295253-32cc-44ad-99bf-d4737a91a4aa
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -15,7 +16,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: ms.lync.lac.GetNewNumbers
 ms.custom:
 - Calling Plans
@@ -23,9 +24,10 @@ description: En ocasiones, también en función de su país o región, no podrá
 robots: noindex
 redirect_url: https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization
 redirect_document_id: true
-ms.openlocfilehash: 6168fd7160f2345568d344d30de7da0f5e4b76e1
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0c8e614b1e290bb5ed4de5b688f861efca701cfd
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885081"
 ---

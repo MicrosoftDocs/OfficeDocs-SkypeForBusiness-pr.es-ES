@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
 description: Información general sobre las características de administración de llamadas admitidos de Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 1428c41d84a6b92a4c4e467cc3c6d621dd864a41
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: f568f17b3c1131901a85cc55573489ed32ea2a95
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247232"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23891486"
 ---
 # <a name="plan-for-call-management-features-in-skype-for-business"></a>Planeación de características de administración de llamadas de Skype para la empresa
 

@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: Personalizar el estacionamiento de música en espera en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: e0d1f49a1385eb185f7abb12edb467abb221a411
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 261c3dac0926ca15240eb3c8a345d1a70fecdfb4
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21001255"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885118"
 ---
 # <a name="customize-call-park-music-on-hold-inskype-for-business"></a>Personaliza la música de estacionamiento de llamadas en espera inSkype para la empresa
  

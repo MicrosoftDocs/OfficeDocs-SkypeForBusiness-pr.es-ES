@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -13,17 +14,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Los administradores pueden controlar el tipo de audioconferencias llamadas de RTC de conferencia y el usuario final que pueden realizar los usuarios.
-ms.openlocfilehash: 6096816ef9fb98811ec3ebed5a56b90a90b58c29
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
+ms.openlocfilehash: ed61dc5c131dd38d59820f3ccda9682dcf7fd886
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490579"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23882016"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restricción de llamadas salientes para Audioconferencia y las llamadas RTC de usuario
 

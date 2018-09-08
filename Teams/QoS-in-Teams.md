@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Prepare la red de su organización para la calidad de servicio (QoS) en Microsoft Teams.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b469c54f12e84e5f342b10a186893f16e229d04
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 640f567033b75a6d068721c0c59ef4d2a1b5f11a
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861286"
+ms.locfileid: "23882277"
 ---
 # <a name="quality-of-service-qos-in-microsoft-teams"></a>Calidad de servicio (QoS) en Microsoft Teams
 

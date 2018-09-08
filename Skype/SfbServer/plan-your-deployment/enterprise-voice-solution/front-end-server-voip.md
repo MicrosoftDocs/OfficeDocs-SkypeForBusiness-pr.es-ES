@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: Obtenga información sobre los componentes de Enterprise Voice que se encuentran en servidores Front-End en Skype para Business Server, incluido el servicio de traducción automática y diversos componentes de enrutamiento.
-ms.openlocfilehash: 66907df9daf8be35466140d2064048a11b181ba5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5b99ea77d31f1697b0809c4089c801b2df729a29
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256247"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23888900"
 ---
 # <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Componentes de Front-End Server VoIP para Skype para Business Server
 

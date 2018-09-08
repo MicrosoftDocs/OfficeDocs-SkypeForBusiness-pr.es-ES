@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: Obtenga información acerca de los servicios Enhanced 9-1-1 (E9-1-1) en Skype para Business Server Enterprise Voice, incluidas la adquisición de ubicación y enrutamiento de llamadas.
-ms.openlocfilehash: 1e71b232a9c13a223192afd76066b6afc72721d4
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 19c660152903c1091612060bfd808bea5a116d2f
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245331"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23884395"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Planeación de servicios de emergencia en Skype para Business Server
 

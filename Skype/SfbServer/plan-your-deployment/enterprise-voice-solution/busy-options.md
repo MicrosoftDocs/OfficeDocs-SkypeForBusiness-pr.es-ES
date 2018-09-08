@@ -6,18 +6,18 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: Lea acerca de la característica de opciones de disponibilidad de Skype para Business Server.
-ms.openlocfilehash: 42e970defa9535a8ae51ec52b0f9033009e58258
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7b71cad7eebaf2d375098abfa0891cdf6b494fe9
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974119"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23884789"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>Plan para Opciones de disponibilidad para Skype Empresarial Server
  

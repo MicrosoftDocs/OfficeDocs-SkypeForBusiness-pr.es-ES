@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: Obtenga información sobre el enlace troncal SIP y puertas de enlace RTC para Enterprise Voice en Skype para Business Server.
-ms.openlocfilehash: 69b010d7f4e444214581ebc1b84babadbf14e68f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d770e47917d8fc1d56e6a74d896938151ac00895
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998521"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23887994"
 ---
 # <a name="pstn-connectivity-components-in-skype-for-business-server"></a>Componentes de conectividad de RTC en Skype para Business Server
  

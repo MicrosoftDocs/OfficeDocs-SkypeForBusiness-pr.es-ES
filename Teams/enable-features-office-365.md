@@ -9,18 +9,18 @@ ms.service: msteams
 ms.reviewer: ritikag
 search.appverid: MET150
 description: Obtenga información sobre cómo activar o desactivar las aplicaciones de Microsoft Teams en su organización de Office 365, incluidas las fichas, conectores, bots o cualquier combinación de los tres.
-localization_priority: Priority
+localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9be3c44f441238033c383dc5e42240207f3095c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 86fa8178b52c621c664afc49edd4f8d2c81c1fea
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867704"
+ms.locfileid: "23882056"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Administrar las características de Microsoft Teams en su organización de Office 365
 

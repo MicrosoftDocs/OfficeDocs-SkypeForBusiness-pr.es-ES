@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
 description: Proceso de implementación y los pasos para el estacionamiento de llamadas en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 76046b8dbd39ecf9b17675ec8b3c1270a6c70122
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 20e50c024da9483da71fde610c0094404786b130
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988314"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23888326"
 ---
 # <a name="deployment-process-for-call-park-in-skype-for-business"></a>Proceso de implementación de estacionamiento de llamadas en Skype para la empresa
  
