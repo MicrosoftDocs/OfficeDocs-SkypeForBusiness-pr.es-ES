@@ -8,18 +8,18 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: chenle
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 description: Obtenga información sobre cómo utilizar los informes de actividad para ver cómo los usuarios de su organización usa Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9c4c811505d8f5642fe4c0b79b511624a3b07b6
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: beb9e21924ca2811ef9f7e4b302fe66451076917
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860282"
+ms.locfileid: "23883169"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Uso de informes de actividad para Microsoft Teams 
 ========================================

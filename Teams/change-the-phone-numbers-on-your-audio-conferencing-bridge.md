@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Cuando comprar licencias de conferencias de Audio, Microsoft hospeda el puente de conferencia de audio para su organización. El puente de conferencia de audio proporciona los números de teléfono de acceso telefónico desde diferentes ubicaciones para que los participantes y los organizadores de reuniones utilizar para unirse a Skype para reuniones profesionales o Teams de Microsoft mediante un teléfono.
-ms.openlocfilehash: 3de53df00f364a4aad6efe416a83e5389cc0b8ef
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 32376134a6faa6944c6a4bb3e36a92cf3407ebce
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23852086"
+ms.locfileid: "23892497"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Cambiar los números de teléfono de su puente de Audioconferencia
 
@@ -219,7 +219,7 @@ Para ahorrar tiempo mediante la automatización de este proceso, puede usar el [
 
 Con Windows PowerShell puede administrar los usuarios y lo que pueden o no pueden hacer. Windows PowerShell puede ayudarle a administrar Office 365 y Skype para profesionales Online mediante un único punto de administración que puede simplificar su trabajo diario, especialmente cuando tiene varias tareas para hacer. Para empezar con Windows PowerShell, vea estos temas:
 
-  - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Una introducción a Windows PowerShell y Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
 
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
 

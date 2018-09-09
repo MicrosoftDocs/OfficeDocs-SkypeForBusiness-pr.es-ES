@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 description: Proceso de implementación y los pasos para la aplicación de anuncio en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 6aabc5090d233b991e1fd89ef61f364a6b1c5666
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5adaea25903968935cbaa00639546926781c004c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968916"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23888074"
 ---
 # <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>Proceso de implementación de la aplicación de anuncio en Skype para Business Server
  

@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 'Resumen: Obtenga información sobre las opciones para la planeación de una solución de comunicaciones de voz y unificada en Skype para Business Server.'
-ms.openlocfilehash: 5043646f122aec8f7ba80b8b584b6e77f18a9062
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 23bd0663be3a5e8a2dfc98c83bccacf9a5b1b793
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988560"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885042"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planear la solución de Enterprise Voice en Skype para Business Server
  

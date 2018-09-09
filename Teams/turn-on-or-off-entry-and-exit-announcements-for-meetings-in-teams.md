@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre cómo activar la entrada y salir de anuncios activado o desactivado en una reunión de Microsoft Teams. '
-ms.openlocfilehash: 44b3c88b9e4284c7606d57661022dbe21d236147
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 94a091590ff00d2c78278e8ad559b61b1e732130
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851010"
+ms.locfileid: "23884632"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Activar o desactivar la entrada y salir de anuncios para reuniones en Microsoft Teams
 

@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Planeación de grupos de respuesta en Skype para Business Server Enterprise Voice, que le permite configurar el enrutamiento de llamadas a grupos de usuarios. Incluye requisitos para los archivos de audio.
-ms.openlocfilehash: 148d349b6754cc32cb3a2a2159a16485ab09cb2e
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: a5dcf77d2c5c87bf2f3bfa3156795b050591eee5
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243188"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885588"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Planeación de la aplicación de grupo de respuesta en Skype para Business Server
 

@@ -9,15 +9,15 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: lehewe
 description: Obtenga información sobre lo que están solicitando datos y permisos de aplicaciones de la organización.
-localization_priority: Priority
+localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f35620c1778bbe12f7d98f1a326e47a58804680b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: eb8a6b6785e3cc4bcbf65bceeb51bf650b63a830
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23870176"
+ms.locfileid: "23883069"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Consideraciones y los permisos de aplicaciones de Microsoft Teams
 

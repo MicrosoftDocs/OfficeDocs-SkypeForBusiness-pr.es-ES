@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Las siguientes son algunas de las principales preguntas que recibimos de nuestros clientes que desean usar la conferencia de Audio.
-ms.openlocfilehash: 73ee9321f72b8b51f4f2ebd867a78210ba1ff935
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: ea2d0e294fbb5ee4b82dc7c50980f9a47ef352ba
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851250"
+ms.locfileid: "23889897"
 ---
 # <a name="audio-conferencing-common-questions"></a>Preguntas comunes sobre Audioconferencia
 

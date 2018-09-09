@@ -14,17 +14,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre lo que puede aportar sistema telefónico. '
-ms.openlocfilehash: 4282ce54bfeed1109f19dd1eb7064fc64375efb8
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: bd0dc1af2e775eb4b62c77666bb9d010ecd4fe87
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23853386"
+ms.locfileid: "23883077"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>¿Qué es Sistema telefónico en Office 365?
 

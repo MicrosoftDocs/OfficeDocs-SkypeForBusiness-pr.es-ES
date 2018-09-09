@@ -5,19 +5,19 @@ author: microsoftheidi
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Resumen: Revise los escenarios de Skype para opciones de implementación de Business Server. Si desea que un servidor único o prefiere un grupo de servidores con DNS o HLB, en este tema debe ayudar a.'
-ms.openlocfilehash: 89850bd7fdcc025b014dc1e1e38b77c4e6ddac9d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 524245db9415637f1f8b986648003b35ab653245
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002294"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23882244"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Avanzada planeación DNS del servidor perimetral de Skype para Business Server
  

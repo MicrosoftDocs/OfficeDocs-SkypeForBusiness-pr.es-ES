@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: Planeación de la aplicación de anuncio en Skype para Business Server Enterprise Voice, que configura qué hacer con las llamadas telefónicas a los números de teléfono sin asignar en sus organizaciones. Incluye requisitos para los archivos de audio.
-ms.openlocfilehash: 14f544602bb72c92433730640e0ac99f553cace5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2642dc13653f18520371b31c9e5ff41bc6a479d3
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260030"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23882108"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>Planeación de la aplicación de anuncio en Skype para la empresa
 

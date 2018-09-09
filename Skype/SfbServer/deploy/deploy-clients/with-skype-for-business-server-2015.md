@@ -6,18 +6,18 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: Lea este tema para obtener información acerca de cómo implementar sistemas de salón de Skype v2 con Skype para Business Server.
-ms.openlocfilehash: a1d46012979cd908a00113c4573133da63e844ba
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: db4551e91d808161d52e73033df8234001f21de3
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20976831"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883949"
 ---
 # <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>Implementación de salón de Skype v2 de sistemas con Skype para Business Server
   

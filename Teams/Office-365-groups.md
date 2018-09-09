@@ -7,17 +7,17 @@ ms.date: 08/29/2018
 ms.topic: article
 ms.service: msteams
 description: Aprenda cómo funcionan los grupos y las pertenencias a grupos de Office 365 con Microsoft Teams.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ef86beea194dde66e3ce5d7f54bde7a522dd605
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 8e2fcb69ce4bcba3905b52874d52d97ab9015cbc
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850026"
+ms.locfileid: "23883691"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 grupos y equipos de Microsoft
 =====================================

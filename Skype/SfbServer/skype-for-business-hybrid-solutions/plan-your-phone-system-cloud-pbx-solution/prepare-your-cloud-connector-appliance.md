@@ -7,18 +7,18 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Obtenga información sobre cómo preparar su dispositivo conector en la nube para la implementación y usar con el sistema telefónico en Office 365 (en la nube PBX).
-ms.openlocfilehash: 54ee8394c9da5b00e6a9c9afa7d4a1f3419c2f41
-ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
+ms.openlocfilehash: a528dae7ffbc6576aeaac06bae9fef1be5c1959d
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "20176093"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23890573"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Preparar el dispositivo de Cloud Connector
  

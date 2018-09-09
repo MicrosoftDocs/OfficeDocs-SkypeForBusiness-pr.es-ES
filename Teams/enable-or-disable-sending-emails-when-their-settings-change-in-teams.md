@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre cómo habilitar o deshabilitar Skype de envío de mensajes de correo electrónico a los usuarios cuando cambie la configuración como pin o los cambios de número de conferencia de forma predeterminada en Microsoft Teams. '
-ms.openlocfilehash: 5d18d039c379bb56a861ba6f6a36d23f301150b4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: a59553f26ee39e042fa28d9e58e7f5ae2aae21be
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861894"
+ms.locfileid: "23892505"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Habilitar o deshabilitar el envío de los correos electrónicos al cambia configuración de conferencia de Audio en Microsoft Teams
 

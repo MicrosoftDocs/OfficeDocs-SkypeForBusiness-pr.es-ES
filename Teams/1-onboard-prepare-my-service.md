@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Usar listas de comprobación de incorporación a preparar Office 365 para los equipos y configurar la funcionalidad básica de los equipos, redes y en la nube cargas de trabajo de voz.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e115ac93a63fb007787a4324c56793c996723c64
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7bf138a4d79fc6fd3533de381a538c88b646db55
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850208"
+ms.locfileid: "23882230"
 ---
 # <a name="prepare-my-service"></a>Preparar mi servicio
 

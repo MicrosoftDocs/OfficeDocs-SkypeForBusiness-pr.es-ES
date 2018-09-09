@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, tonysmit
 description: Use esta guía como ayuda para planificar, implementar y adoptar Microsoft Teams en su organización.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fbebf57b4da07f25d9687c27acd70e5cfd25930e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 56033a3efc5e163ddd67f6f45bff590204c03783
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855000"
+ms.locfileid: "23882086"
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>Inicio rápido: Guía de planificación de Microsoft Teams
 ==========================================================

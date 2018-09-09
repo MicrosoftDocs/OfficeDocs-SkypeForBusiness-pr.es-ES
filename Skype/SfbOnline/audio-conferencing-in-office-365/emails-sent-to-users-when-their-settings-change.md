@@ -8,23 +8,24 @@ ms.topic: article
 ms.assetid: 1b46da6d-f93a-4cc0-9ae8-af765935b007
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información acerca de qué información se envía automáticamente a los usuarios por correo electrónico al cambia su configuración de conferencia de acceso telefónico en Skype para profesionales en línea. '
-ms.openlocfilehash: cfa3e86be0d282e335b20a094e60835df3471358
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
+ms.openlocfilehash: 2ffe61d165b7cbfe6f91af9b819f892f88433724
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490509"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23890430"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Correos electrónicos enviados a los usuarios al cambia su configuración en Skype para profesionales en línea
 
@@ -112,7 +113,7 @@ De forma predeterminada, los correos electrónicos se enviarán a los usuarios, 
  
 ![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png)  **utilizando el Skype para el centro de administración de negocio**
     
-1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
+1. En el **centro de administración de Skype for Business**, en la navegación izquierda, vaya a **Audioconferencia** > **Configuración de puente de Microsof**.
     
 2. En la página **configuración de puente de Microsoft** , active o desactive **Enviar automáticamente mensajes de correo electrónico a los usuarios si cambia su configuración de conferencias de audio**. 
     
@@ -121,7 +122,7 @@ De forma predeterminada, los correos electrónicos se enviarán a los usuarios, 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
-Vea **Enviar un correo electrónico a un usuario con su información de conferencias de Audio**.
+**Vea **Enviar un correo electrónico a un usuario con su información de conferencias de Audio**.**
   
 1. Ejecute las acciones siguientes para deshabilitar el envío de todos los correos electrónicos a sus usuarios:
     
@@ -135,7 +136,7 @@ Si quiere cambiar la información de la dirección de correo electrónico, tendr
 
 - Para más información sobre habilitar y deshabilitar el envío de correos electrónicos de forma automática a sus usuarios, vea [Habilitar o deshabilitar el envío de correos electrónicos cuando cambie la configuración de conferencias de Audio](enable-or-disable-sending-emails-when-their-settings-change.md).
     
-- En ocasiones, los usuarios pierden su información de audio y necesita poder enviarles toda su información de audio a ellos. Puede hacerlo mediante el Skype para centro de administración de negocio y hacer clic en **Enviar información de conferencia a través de correo electrónico** en las propiedades de conferencia de audio para un usuario. See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md). Sin embargo, esta información no incluye el PIN de conferencia de audio.
+- En ocasiones, los usuarios pierden su información de audio y necesita poder enviarles toda su información de audio a ellos. Puede hacerlo mediante el Skype para centro de administración de negocio y hacer clic en **Enviar información de conferencia a través de correo electrónico** en las propiedades de conferencia de audio para un usuario. Vea [Enviar un correo electrónico a un usuario con su información de Audioconferencia](send-an-email-to-a-user-with-their-dial-in-information.md). Sin embargo, esta información no incluye el PIN de conferencia de audio.
     
     Este es un ejemplo del correo electrónico que se les enviará:
     

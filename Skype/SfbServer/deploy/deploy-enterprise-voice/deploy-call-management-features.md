@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: Implementación de características de administración de llamadas de Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: a63f53970b25c9148c65c95890df14e77feb0008
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 14a5ab8165c3012798da39f5f78120dcb93e62c8
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21025662"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885752"
 ---
 # <a name="deploy-call-management-features-in-skype-for-business"></a>Implementar las características de administración de llamadas de Skype para la empresa
  

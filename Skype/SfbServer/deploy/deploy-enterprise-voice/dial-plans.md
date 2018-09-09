@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 'Resumen: Obtenga información sobre cómo crear o modificar un plan de marcado mediante el Skype para el Panel de Control de servidor empresarial.'
-ms.openlocfilehash: b14d03447ed533a9695e4573a2f6a87c7e72ad53
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 8c4a8013268c878390fdcea08dc79e094d8fa4dd
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243764"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23884260"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>Crear o modificar un plan de marcado de Skype para Business Server
 

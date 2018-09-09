@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lehewe
 description: Instrucciones para los profesionales de TI a las implementaciones de Office 365 de unidad en las entidades que controlan datos sujetas a regulación gubernamental de EE.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 708dda8e38d879d11589696cd901213a68b03cd8
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 430b6c6de5468442f7a290b07b28eb59d276e00c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23869384"
+ms.locfileid: "23885775"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planeación de Microsoft 365 gobierno - implementaciones GCC
 

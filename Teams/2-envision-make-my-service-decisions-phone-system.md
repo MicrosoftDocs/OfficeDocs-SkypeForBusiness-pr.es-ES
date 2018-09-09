@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Elija desde planes de llamada y licencias, configurar las ubicaciones de emergencia y características, como el identificador de correo de voz y el autor de la llamada, adquirir o transferir los números de teléfono.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90cdd9efb2d4b80f9ad8c9ef9bb38dd2adf8bbcd
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 2eb201c72c66f39478c5ade6b9400e819f2fe932
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860000"
+ms.locfileid: "23887365"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 

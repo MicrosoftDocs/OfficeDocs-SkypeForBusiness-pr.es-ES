@@ -8,19 +8,19 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: vichau, majafry
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a usar los distintos clientes disponibles para Microsoft Teams, que incluyen web, escritorio (Windows y Mac) y móvil (Android, iOS y Windows Phone).
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e2885245b5501c65b04d319e78b29738694f4cf
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: bbadb9324942cdb354570673a0fd923c9e04bdbd
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23856920"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23891332"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
 ===========================

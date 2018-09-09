@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
 description: Implementar características avanzadas de Enterprise Voice en Skype para Business Server.
-ms.openlocfilehash: ca9d25ec79c6eb86fca8055b5ae00748cf9c3468
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d92e12b51dce783048f81dac3facf31c027a8528
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20999439"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23891028"
 ---
 # <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Implementación de características avanzadas de Enterprise Voice en Skype para Business Server
  

@@ -6,18 +6,18 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este artículo para obtener más información sobre la implementación de sistemas de salón de Skype v2.
-ms.openlocfilehash: 08d7444eea06eae3de2970b368eb1201828c8a07
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2aac9e0701372fd6f0fdfd9035dca21fbaef1c9f
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21019459"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23890960"
 ---
 # <a name="deployment-overview"></a>Introducción general a la implementación
 

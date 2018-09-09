@@ -7,7 +7,7 @@ ms.date: 1/12/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a10bd1d5-c003-46db-9f57-7d55d3fa08da
 description: 'Resumen: Obtenga información sobre cómo configurar la interoperabilidad entre su implementación local y Skype para profesionales en línea.'
-ms.openlocfilehash: 6a48e3cc579fd3827cc95f7f36d0c637d540ed56
-ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
+ms.openlocfilehash: 7367a1fa7bf7eb305a8b72582e488cfd6ba6fa1c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "20176122"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23884123"
 ---
 # <a name="configure-federation-with-skype-for-business-online"></a>Configurar la federación con Skype Empresarial Online
  

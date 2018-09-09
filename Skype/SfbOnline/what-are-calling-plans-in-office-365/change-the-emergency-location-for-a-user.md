@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre cómo cambiar la ubicación de emergencia para los usuarios. Con un número ilimitado de ubicaciones, puede cambiar las ubicaciones de emergencia cuando los empleados cambien de plantas o edificios. '
-ms.openlocfilehash: e3805daa8248da44de84330ea5de694126e9e32c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: e8536647bedf0cdb212ca334193659a104e0e1e3
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863277"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23891178"
 ---
 # <a name="change-the-emergency-location-for-a-user"></a>Cambiar la ubicación de emergencia de un usuario
 
@@ -38,20 +38,20 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+2. Inicie sesión en Office 365 con su cuenta profesional o educativa.**** > ****
     
-3. En el panel de navegación izquierdo, vaya a **Voz** > **Usuarios de voz**.
+3. En el panel de navegación izquierdo, vaya a **voz** > **a los usuarios de voz**.
     
     > [!IMPORTANT]
-    > Para poder ver la opción **Voz** en el panel de navegación izquierdo del Centro de administración de Skype for Business, primero tiene que adquirir como mínimo una **licencia de Enterprise E5**, una licencia de complemento de **sistema telefónico** o una licencia de complemento de **audioconferencia**.
+    > Para que pueda ver la opción de **voz** en la izquierda en la Skype para el centro de administración de negocio, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia adicional para **El sistema de teléfono** o al menos una **licencia Enterprise E5**.
     
-4. En la página **Usuarios de voz**, busque y seleccione el usuario cuya ubicación de emergencia quiere cambiar.
+4. En la página **usuarios de voz** , busque y seleccione el usuario que desea cambiar la ubicación de emergencia.
     
 5. En el panel de acciones, en **Ubicación de emergencia**, haga clic en **Cambiar**.
     
 6. En la página **Asignar un número**, haga clic en **Cambiar ubicación**. 
     
-7. En **Cambiar dirección de emergencia a**, escriba el nombre de la ciudad en la casilla y haga clic en **Buscar**.
+7. En **Cambiar dirección de emergencia a**, escriba el nombre de la ciudad en el cuadro y haga clic en **Buscar**.
     
 8. Seleccione la ubicación de emergencia en la lista y, a continuación, haga clic en **Guardar**.
     

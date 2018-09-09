@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Información sobre regiones de red, sitios de red y subredes IP. Todos estos deben configurarse para implementar el Plan de desvío de medios en Skype para la empresa, Plan para llamar el control de admisión de Skype para Business Server), o un Plan de servicios de emergencia en Skype para Business Server en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: a58598bedb7919d97d78cc5a43cc0e807118612e
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 6dad93aa2d5ef235b07f2189329f94d94b1a3d02
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263777"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885660"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Configuración de red para las características avanzadas de Enterprise Voice en Skype para Business Server
 

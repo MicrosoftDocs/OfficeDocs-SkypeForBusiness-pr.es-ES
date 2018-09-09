@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: Crear directivas entre sitios, que se usan por el control de admisión de llamadas de Enterprise Voice en Skype para Business Server de red.
-ms.openlocfilehash: 49405bbaa1d761f1acc10c7506e44992cc03a153
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: cc07db85ec27a5ebd84b3604017048515ef2fcee
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988525"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23890136"
 ---
 # <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Crear directivas entre sitios de red en Skype para Business Server
  

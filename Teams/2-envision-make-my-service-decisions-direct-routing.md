@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Obtenga información sobre el enrutamiento directo, administración de licencias, y las decisiones que deben realizarse.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf52071419b3ee9bb606649d6fa50870e23879cc
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 02a9bc4f6f29107f4bda6f8353d63064de2fd7b9
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23869464"
+ms.locfileid: "23884581"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 

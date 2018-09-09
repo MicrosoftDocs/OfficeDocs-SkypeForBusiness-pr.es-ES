@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 description: Además de la licencia de cada usuario estándar de conferencias de Audio, por volumen y licencias de las organizaciones también pueden elegir una oferta de pago por minuto para habilitar las capacidades de conferencia de Audio para sus organizaciones.
-ms.openlocfilehash: 251116ee5f362710c07a7a53ce4a11f53f3cd09c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e4d2679de8ca6239e8a63dcac6a17fac6bc19fab
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855766"
+ms.locfileid: "23887724"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconferencia con pago por minuto
 

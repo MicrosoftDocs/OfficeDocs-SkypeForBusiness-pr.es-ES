@@ -7,6 +7,7 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -14,18 +15,18 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga información sobre licencias adicionales y las características para GOV, EDU y planes de la organización sin fines de lucro. '
-ms.openlocfilehash: bf1678efce8f6e08398147db7bb88c771da75bbb
-ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
+ms.openlocfilehash: c69307833becfc6f9adc3ade2eeed962ceefcedb
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/04/2018
-ms.locfileid: "19493986"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883927"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>Organizaciones sin fines de lucro, GOV y EDU
 

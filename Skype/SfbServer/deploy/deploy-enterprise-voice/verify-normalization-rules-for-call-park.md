@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: deaa170f-041e-45cb-8eab-f02931ab541e
 description: Obtenga información acerca de las reglas de normalización para el estacionamiento de llamadas en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: e45e438f0abf4527f84f51a8be81606b024d4685
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d98cd7b71d60081f254bb1de004f83de73b3f423
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983528"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23888147"
 ---
 # <a name="verify-normalization-rules-for-call-park-in-skype-for-business"></a>Compruebe las reglas de normalización para el estacionamiento de llamadas en Skype para la empresa
  

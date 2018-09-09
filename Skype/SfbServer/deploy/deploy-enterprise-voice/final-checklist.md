@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 description: Lista de comprobación final para la implementación de Control de admisión de llamadas (CAC) en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: e5791aa6f3b32e423f36021314bec930fa7f74e5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 841a3a8d124a50142cd3644dd6f001e6019af9f3
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21025677"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885479"
 ---
 # <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>Implementación de control de admisión de llamadas: lista de comprobación de final de Skype para Business Server
  

@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Resumen: Elija la topología de Skype para Business Server. Obtenga información sobre la combinación de servidor de Skype para Business Server.'
-ms.openlocfilehash: 0f16f56f4d7599a37e7c4e260d310dff46e0b018
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5d2589d6ba7878ea69c8860ad99f182912e471dd
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260821"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886168"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Conceptos básicos de la topología de Skype para Business Server
 

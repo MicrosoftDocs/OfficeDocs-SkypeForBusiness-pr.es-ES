@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: Para transferir o portar números de teléfono de Skype for Business Online a otro proveedor u operador de servicios telefónicos, debe establecer manualmente un PIN. Después de establecer el PIN, necesitará incluirlo en la solicitud para portar un número de teléfono.
-ms.openlocfilehash: 144e3b0527b8557bbbb6a7f9c1b51ad2d61a0f1f
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: ef688c6aa7aabd1880513994236cb62353eab665
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851717"
+ms.locfileid: "23890112"
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Establecer el PIN para transferir números a un nuevo proveedor de servicios
 
@@ -51,20 +51,20 @@ Esta es la información específica acerca de este PIN que debe conocer:
     
 ## <a name="set-up-your-pin"></a>Configurar el PIN
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Uso del centro de administración de Skype for Business**
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya al **Centro de administración de Office 365** > **Centros de administración** > **Skype for Business**.
+2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **Skype para la empresa**.
     
-3. En el panel de navegación izquierdo, elija **Voz** > **Solicitud de portabilidad**.
+3. En el panel de navegación izquierdo, elija **voz** > **pedidos de puerto**.
     
 4. Haga clic en **Configurar y administrar el PIN** que se usa para la transferencia o portabilidad de números a otro operador de servicios.
     
 5. En el panel **Establecer o cambiar el PIN de portabilidad**, escriba el PIN y haga clic en **Guardar**.
 
 > [!NOTE]
-> Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+> Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
     
 ## <a name="related-topics"></a>Temas relacionados
 [Preguntas comunes sobre la transferencia de números de teléfono](/microsoftteams/transferring-phone-numbers-common-questions)

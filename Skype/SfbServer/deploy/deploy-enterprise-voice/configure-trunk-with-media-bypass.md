@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 'Resumen: Configurar un tronco con desvío de medios habilitado para Skype para Business Server. Esto le permitirá minimizar el número de servidores de mediación, suponiendo que el proveedor de troncos SIP lo admite.'
-ms.openlocfilehash: b02725ed702b74c11aeee8b9aaa64a41d6e4fb5d
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 8fc6ed21af9bb78240c338e25538cfb0519d49d5
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261549"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23890588"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>Configurar un tronco con desvío de medios en Skype para Business Server
 

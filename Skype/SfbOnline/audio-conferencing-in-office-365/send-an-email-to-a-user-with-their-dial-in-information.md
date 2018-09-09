@@ -8,23 +8,24 @@ ms.topic: article
 ms.assetid: 7440d3e2-1b49-4258-bd2c-79e9072f8c8d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Enviar un correo electrónico con su información de conferencia de audio de los usuarios en Skype para profesionales en línea.
-ms.openlocfilehash: 1b692597f574739c8412a9ec0c6866687e169beb
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
+ms.openlocfilehash: cd6c40594c32faa2f8f7d7dc3737b61cb5d2cd82
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490649"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23890605"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Enviar un correo electrónico a un usuario con su información de conferencia de Audio en Skype para profesionales en línea
 
@@ -59,7 +60,7 @@ Este es un ejemplo del correo electrónico que se envía:
     
 3. Haga clic en **usuarios**y, a continuación, seleccione el usuario.
     
-4. En el panel de acciones, haga clic en **Enviar información de conferencia por correo electrónico**.
+4. Haga clic en **Usuarios de acceso telefónico local** y seleccione el usuario para el que quiera restablecer el PIN.
     
 > [!TIP]
 > También puede enviar correo electrónico al usuario con la configuración de conferencias de audio mediante la edición de las propiedades del usuario y, a continuación, haciendo clic en **conferencias de Audio** > **Enviar información de conferencia a través de correo electrónico**. 

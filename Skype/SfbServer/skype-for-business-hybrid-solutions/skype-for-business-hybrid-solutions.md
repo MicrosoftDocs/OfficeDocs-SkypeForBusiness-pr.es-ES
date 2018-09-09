@@ -7,18 +7,18 @@ ms.date: 9/25/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0b038686-ed36-4867-9653-14cc08c919cb
 description: Obtenga información acerca de cómo planear un Skype para implementación híbrida de negocio.
-ms.openlocfilehash: 124286ea60b1bd032d9d736284a738c63aea2dc6
-ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
+ms.openlocfilehash: af15627feaf3dca84f78e657bf71055a7a68f4c0
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "20176194"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23891236"
 ---
 # <a name="skype-for-business-hybrid-solutions"></a>Skype para soluciones híbridas de negocio
  

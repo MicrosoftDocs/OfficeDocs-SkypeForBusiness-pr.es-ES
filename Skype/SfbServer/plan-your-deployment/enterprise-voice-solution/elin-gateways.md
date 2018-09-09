@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Las decisiones necesarias para la planeación de una base de datos de información de la ubicación, o una base de datos externa similar, para una implementación de E9-1-1 con puertas de enlace ELIN, en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 09397c84e69ee9df2c40bd1783c8f57a58aa21d4
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 622593285ef4b1643f19d54f6c7d2f5c1e956c84
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23252922"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885667"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Administración de ubicaciones para puertas de enlace ELIN en Skype para Business Server
 

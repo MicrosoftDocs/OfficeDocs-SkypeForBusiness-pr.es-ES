@@ -7,7 +7,7 @@ ms.date: 2/12/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6a523c86-2eac-4fa4-973a-4406872c9a7d
 description: 'Resumen: Obtenga información sobre cómo migrar la configuración de usuario y mover los usuarios a Skype para profesionales en línea.'
-ms.openlocfilehash: 0731a5307523e875d2f58ca33ecfcfbd62b0c768
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 6d5e8d70fdc98e09f2e4d2858327db356b9a891c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250542"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886443"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>Mover usuarios de local a Skype Empresarial Online
 

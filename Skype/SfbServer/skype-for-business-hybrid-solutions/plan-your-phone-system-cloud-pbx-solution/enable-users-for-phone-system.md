@@ -7,7 +7,7 @@ ms.date: 1/27/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
@@ -16,11 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3cc3db88-0210-4804-b54e-ba4af1234884
 description: En este tema se describe cómo habilitar a los usuarios para el sistema telefónico en Office 365 con conectividad de RTC local. Antes de seguir los pasos descritos en este tema, debe leer los siguientes:.
-ms.openlocfilehash: b7b5327e8345135033c8df22d9884f3195b049a3
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 7427bf33c275d55b99c240aaf192d180c2d63945
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23887405"
 ---
 # <a name="enable-users-for-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Habilitar a usuarios para el sistema telefónico en Office 365 con conectividad de RTC local en Skype para Business Server
  

@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: 'Resumen: Obtenga información sobre cómo implementar Enterprise Voice para Skype para Business Server en un sitio central.'
-ms.openlocfilehash: 85abf6cc99224fc2a36eb37cd5e9441073ce6165
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 57b74d7e77eb8aca89400930fc38a5e92abdde5a
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241439"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886520"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>Implementación de Enterprise Voice en Skype para Business Server
 

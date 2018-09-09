@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: 'Obtenga información acerca de los servidores de mediación en Skype para Business Server, incluidos sus topologías admitidas y sus relaciones de troncos m: n, el desvío de medios y control de admisión de llamadas.'
-ms.openlocfilehash: 95feb3b419eacf77739dfed98d2eee70eb49dc06
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3f8b1e9fa1c1026c89fb67456e33ee0758140ee7
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21009196"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23882284"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>Componente de servidor de mediación en Skype para Business Server
  

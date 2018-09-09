@@ -7,19 +7,19 @@ ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: 'Resumen: Explore estos vínculos para obtener información sobre cómo instalar y configurar Skype para Business Server 2015 y actualización de versiones anteriores de Lync Server.'
-ms.openlocfilehash: 768b2dd4ca4503ff056be596ca7971d71c3089bc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8560bd52877866f861c8c98dbf22926902a0ce1e
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965418"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23890990"
 ---
 # <a name="deploy-skype-for-business-server-2015"></a>Implementar Skype Empresarial Server 2015
  
@@ -43,10 +43,10 @@ Los siguientes artículos acerca de cómo instalar y configurar Skype para Busin
   
 ||**Contenido**|**Descripción**|
 |:-----|:-----|:-----|
-|![Icono de documentación](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Requisitos para el entorno de Skype Empresarial Server 2015](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) <br/> |Obtenga información sobre el servidor y los requisitos de entorno para Skype para Business Server.  <br/> |
+|![Icono de documentación](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Requisitos para el entorno de Skype Empresarial Server](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) <br/> |Obtenga información sobre el servidor y los requisitos de entorno para Skype para Business Server.  <br/> |
 |![Icono de documentación](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Conceptos básicos de topología de Skype Empresarial Server 2015](../plan-your-deployment/topology-basics/topology-basics.md) <br/> |Obtenga información sobre las opciones de topología y escenarios de combinación de servidor de Skype para Business Server.  <br/> |
 |![Icono de procedimiento numérico](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Instalar Skype Empresarial Server 2015](install/install.md) <br/> |Obtenga información sobre cómo instalar Skype para Business Server en varias topologías, en entornos físicos y virtuales.  <br/> |
-|![Icono de procedimiento numérico](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Actualizar a Skype Empresarial Server 2015](upgrade-to-skype-for-business-server.md) <br/> |Obtenga información sobre cómo actualizar desde versiones anteriores de Lync Server.  <br/> |
+|![Icono de procedimiento numérico](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Actualización de Skype para Business Server 2015](upgrade-to-skype-for-business-server.md) <br/> |Obtenga información sobre cómo actualizar desde versiones anteriores de Lync Server.  <br/> |
 |![Icono de procedimiento numérico](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Configurar la experiencia del cliente con Skype Empresarial](deploy-clients/configure-the-client-experience.md) <br/> |Obtenga más información sobre cómo configurar la experiencia del cliente.  <br/> |
 |![Icono de procedimiento numérico](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Implementar conectividad híbrida entre Skype Empresarial Server y Skype Empresarial Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md) <br/> |Obtenga información sobre cómo configurar los requisitos previos para una implementación híbrida y, a continuación, configurar la implementación para administrar los usuarios entre Skype para Business Server local y Skype para profesionales en línea.  <br/> |
 |![Icono de procedimiento numérico](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Implementar el servidor perimetral en Skype Empresarial Server 2015](deploy-edge-server/deploy-edge-server.md) <br/> |Si los usuarios de la organización comunican con usuarios externos que no están registrados en la red interna, desea implementar el servidor perimetral.  <br/> |

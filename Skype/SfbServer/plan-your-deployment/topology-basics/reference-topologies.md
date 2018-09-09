@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Topologías de referencia de Skype para Business Server, incluidos diagramas y decisiones que debe tomar grandes y medianas y las organizaciones pequeñas.
-ms.openlocfilehash: 3ce8515a89c0f21fee4bb36c633862b2c90ac102
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 0e59b1461b30435f77726e38bd5599cac0922c9f
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261087"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23887622"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Topologías de referencia de Skype para Business Server
 

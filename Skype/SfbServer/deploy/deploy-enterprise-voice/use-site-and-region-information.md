@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: Configurar el desvío de medios que se usará para sólo ciertos sitios y regiones en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 081be80d969c2503abc7e2de4e9865b6057a363b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: cb3d29a57fa3ff9719ae26197106005667921ade
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20995982"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23888675"
 ---
 # <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Configurar la configuración global de desvío de medios en Skype para Business Server usar la información de sitio y región
  

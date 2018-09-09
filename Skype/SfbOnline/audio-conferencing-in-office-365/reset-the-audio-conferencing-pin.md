@@ -8,23 +8,24 @@ ms.topic: article
 ms.assetid: 67866a47-89c1-4593-8766-3a68777e2be6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información acerca de cómo restablecer en Skype para profesionales en línea y lo que debe saber acerca de PIN. '
-ms.openlocfilehash: 7e47f3e33dbb6811f5fabafc1ccd213f8e0bac11
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
+ms.openlocfilehash: 257f59f59d4fc86c91aa5496fe3db42573269065
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490609"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23882142"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Restablecer el PIN en Skype de conferencia de Audio para la empresa en línea
 
@@ -43,7 +44,7 @@ Las reuniones se pueden iniciar cuando se une a un usuario autenticado mediante 
     
 3. Haga clic en **usuarios**, seleccione el usuario que desea restablecer el PIN para.
     
-4. In the Action pane, under **PIN**, click **Reset**.
+4. En el panel Acción, en **PIN**, haga clic en **Restablecer**.
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -90,7 +91,7 @@ Un usuario puede restablecer un PIN mediante el uso de la opción de **Restablec
     
   - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making settings changes for many users at one time. Learn about these advantages in the following topics:
+- Windows PowerShell tiene muchas ventajas en velocidad, simplificidad y productividad respecto a utilizar únicamente el centro de administración de Office 365 como, por ejemplo, al realizar cambios de configuración para muchos usuarios en una única ubicación. Obtenga más información sobre estas ventajas en los temas siguientes:
     
   - [Introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

@@ -7,7 +7,7 @@ ms.date: 2/13/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Resumen: Conozca Skype para la integración de Business Server 2015 con Exchange y SharePoint.'
-ms.openlocfilehash: 5599ebcb4e4b9209f0f36ff767b8d261fbffba60
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: f90e6c4724905edafdf0b8c6d3aec5f50d7a3996
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243259"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886236"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Integración con Exchange y SharePoint
 

@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo se obtienen y se administran los números de teléfono en Irlanda para Skype Empresarial Online y Microsoft Teams.
-ms.openlocfilehash: 871f6c0b651930c15989342f0dba811baaeb7681
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 18a9c7a8d5b91895d559a35ed46e685c5599e037
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23853394"
+ms.locfileid: "23890160"
 ---
 # <a name="phone-number-management-for-ireland"></a>Administración de números de teléfono para Irlanda
 

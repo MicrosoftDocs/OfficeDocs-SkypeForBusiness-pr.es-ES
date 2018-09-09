@@ -9,17 +9,17 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Medir los resultados de la implementación de conferencias de Audio y compruebe que ha conseguido los resultados que desea.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
-ms.openlocfilehash: df0d1742e66d7daa9cd4197dcfbf6a12a0ea872b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 62f2e1e31f8c58e728001b1a4b86d95f3f3e4383
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858996"
+ms.locfileid: "23884221"
 ---
 # <a name="define-my-success"></a>Definir mi éxito
 

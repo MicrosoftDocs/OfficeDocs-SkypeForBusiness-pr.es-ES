@@ -14,17 +14,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Los administradores pueden controlar cómo los organizadores pueden usar los números gratuitos para sus reuniones.
-ms.openlocfilehash: 6b441d8c136375628243d77280b6a32768b0a590
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: b438ee16135485a79458869858c52dd35bafa560
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860725"
+ms.locfileid: "23885175"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Deshabilitar los números gratuitos para usuarios específicos de Skype for Business Online
 
@@ -49,11 +49,11 @@ Cuando se deshabilitan los números gratuitos para un organizador determinado:
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Deshabilitar los números gratuitos para usuarios específicos 
 
 
-1. En el **Centro de administración de Skype for Business**, en la navegación izquierda, vaya a **Audioconferencia** > **Usuarios**, y luego seleccione el usuario de la lista de usuarios disponibles. 
+1. En el **Skype para el centro de administración de negocio**, en el panel de navegación izquierdo, vaya a la **conferencia de Audio** > **a los usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles. 
 
 2. En el panel de acciones, haga clic en **Editar**. 
 
-3. Desactive **Permitir el uso de números gratuitos para unirse a las reuniones de este usuario**. 
+3. Desactive **Permitir el uso de los números gratuitos para unirse a las reuniones de este usuario**. 
  
 4. Haga clic en **Guardar**. 
  

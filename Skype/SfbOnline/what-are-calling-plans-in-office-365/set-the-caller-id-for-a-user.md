@@ -16,20 +16,20 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: El Sistema telefónico en Office 365 proporciona un identificador de llamada predeterminado que es el número de teléfono asignado al usuario. Si lo desea, puede cambiar o bloquear el identificador de llamada (también denominado identificador de línea de llamada) de un usuario. Si desea más información sobre cómo usar los identificadores de llamadas en su organización, vaya Cómo se puede usar la identificación de llamadas en su organización.
-ms.openlocfilehash: cb32a7dcc38dcdd7fbaa5bf414d711953d237deb
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+description: El Sistema telefónico en Office 365 proporciona un identificador de llamada predeterminado que es el número de teléfono asignado al usuario. Si lo desea, puede cambiar o bloquear el identificador de llamada (también denominado identificador de línea de llamada) para un usuario. Encontrará más información sobre cómo usar el identificador de autor de la llamada en su organización dirigiéndose a cómo se puede usar el identificador de autor de la llamada de la organización.
+ms.openlocfilehash: 9aae40de23807ff37490f72652e66845482639ec
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858659"
+ms.locfileid: "23882253"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Establecer el identificador de llamada de un usuario
-El Sistema telefónico en Office 365 proporciona un identificador de llamada predeterminado que es el número de teléfono asignado al usuario. Si lo desea, puede cambiar o bloquear el identificador de llamada (también denominado identificador de línea de llamada) de un usuario. Si desea más información sobre cómo usar los identificadores de llamadas en su organización, vaya [Cómo se puede usar la identificación de llamadas en su organización](how-can-caller-id-be-used-in-your-organization.md).
+El Sistema telefónico en Office 365 proporciona un identificador de llamada predeterminado que es el número de teléfono asignado al usuario. Si lo desea, puede cambiar o bloquear el identificador de llamada (también denominado identificador de línea de llamada) para un usuario. Encontrará más información sobre cómo usar el identificador de autor de la llamada en su organización yendo [cómo se puede usar el identificador de autor de la llamada de la organización](how-can-caller-id-be-used-in-your-organization.md).
   
 > [!TIP]
 > Actualmente no se pueden bloquear las llamadas entrantes en Skype for Business Online. 
@@ -44,9 +44,9 @@ Hay algunos ajustes que puede cambiar:
     > [!NOTE]
     > Si desea usar el parámetro  _Service_, deberá especificar un número de servicio válido.
   
-- **Bloquear el identificador de llamada saliente** Puede impedir que el identificador de llamada saliente se envíe en las llamadas RTC salientes de un usuario. Al hacerlo, se bloqueará el número de teléfono para que no se muestre en el teléfono de la persona que llama.
+- **Bloque de su identificador de autor de la llamada saliente** Puede bloquear el identificador de autor de la llamada saliente desde que se envían en las llamadas RTC salientes de un usuario. Al hacerlo, se bloqueará el número de teléfono para que no se muestre en el teléfono de la persona que llama.
     
-- **Bloquear el identificador de llamada entrante** Puede impedir que el usuario reciba el identificador de llamada en las llamadas RTC entrantes.
+- **Bloque de su identificador de autor de la llamada entrante** Puede bloquear un usuario de recibir identificador de autor de la llamada en las llamadas entrantes de RTC.
     
 > [!IMPORTANT]
 > Las llamadas de emergencia siempre envían el número de teléfono de los usuarios (identificador de llamada). 
@@ -58,7 +58,7 @@ Para obtener más información sobre esta configuración y cómo usarla, vaya [C
 ## <a name="set-your-caller-id-policy-settings"></a>Establecer la configuración de la directiva de identificador de llamada
 
 > [!NOTE]
-> Para la configuración relativa al identificador de llamada en Skype for Business Online, debe usar Windows PowerShell y **no** el **Centro de administración de Skype for Business**. 
+> Para todos los valores de identificador de autor de la llamada de Skype para profesionales en línea, debe usar Windows PowerShell y **no se puede usar** el **Skype para el centro de administración de negocio**. 
   
 ### <a name="verify-and-start-windows-powershell"></a>Verificar e iniciar Windows PowerShell
 
@@ -99,21 +99,21 @@ Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modul
   Import-PSSession $session
   ```
 
-Si desea obtener más información sobre cómo iniciar Windows PowerShell, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [Conectarse a Skype for Business Online con Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [Connecting to Skype para profesionales en línea mediante Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
 ### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>Ver toda la configuración de directivas de identificador de llamada en su organización
 
-- Para ver toda la configuración de directivas de identificador de llamada en su organización, ejecute:
+- Para ver todas las configuraciones de directiva del identificador de autor de la llamada en la organización, ejecute:
 
   ```
   Get-CsCallingLineIdentity |fl
   ```
-Vea más ejemplos y detalles sobre [Get-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793856.aspx).
+Ver más detalles y ejemplos de [Get-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793856.aspx).
     
 ### <a name="create-a-new-caller-id-policy-for-your-organization"></a>Crear una nueva directiva de identificador de llamada en su organización
 
 
-- Para crear una nueva directiva de identificador de llamada que establezca el identificador de llamada en anónimo, ejecute:
+- Para crear una nueva directiva de identificador de autor de la llamada que establece el identificador de autor de la llamada a anónimo, ejecute:
     
   ```
   New-CsCallingLineIdentity  -Identity Anonymous -Description "Anonymous policy" -CallingIDSubstitute Anonymous -EnableUserOverride $false
@@ -121,27 +121,27 @@ Vea más ejemplos y detalles sobre [Get-CsCallingLineIdentity](https://technet.m
   > [!NOTE]  
   > En todos los casos, el campo "Número de servicio" no debe incluir un "+" inicial.
 
-  Vea más ejemplos y detalles sobre [New-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793855.aspx).
+  Ver más detalles y ejemplos para [New-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793855.aspx).
     
-- Para aplicar la nueva directiva a Amos Marble, ejecute:
+- Para aplicar la nueva directiva creó a Amos mármol, ejecute:
     
   ```
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
   ```
   Más información sobre el cmdlet [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx).
     
-Si ya ha creado una directiva, puede usar el cmdlet [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx) para hacer cambios en la directiva existente y, a continuación, usar[Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) para aplicar la configuración a los usuarios.
+Si ya ha creado una directiva, puede usar el cmdlet [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx) para realizar cambios en la directiva existente y, a continuación, use el cmdlet [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) para aplicar la configuración a los usuarios.
   
 ### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>Ajustar la directiva para bloquear el identificador de llamada entrante
 
-- Para bloquear el identificador de llamada entrante, ejecute:
+- Para bloquear el identificador de autor de la llamada entrante, ejecute:
     
   ```
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
   ```
-  Vea más ejemplos y detalles sobre [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx).
+  Ver más detalles y ejemplos para [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx).
     
-- Para aplicar la configuración de la nueva directiva a un usuario de su organización, ejecute:
+- Para aplicar la configuración de la directiva creada a un usuario de la organización, ejecute:
     
   ```
   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"
