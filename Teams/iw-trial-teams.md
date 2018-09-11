@@ -3,7 +3,7 @@ title: Administrar la oferta de prueba de la nube de Microsoft los equipos comer
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 08/31/2018
+ms.date: 09/11/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -12,12 +12,12 @@ search.appverid: MET150
 localization_priority: Normal
 description: Los usuarios de Office 365 que no tienen licencia para Microsoft Teams pueden iniciar una versión de prueba de 1 año de los equipos.
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 10977a95d5ff86d72964270a2c6daa7d9764448e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7fba776f109b8785b72000af4981d64015f3054c
+ms.sourcegitcommit: 1f5786a82ad535652da22e755e9c1d3063e5425f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858824"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23935819"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Administrar la oferta de prueba de la nube de Microsoft los equipos comerciales
 =======================================================
@@ -40,6 +40,8 @@ Los planes de servicio incluidos en esta oferta son:
 - Quiosco de SharePoint Online
 - Influir hora de elegir
 - Yammer Enterprise
+
+La oferta se puede asignar a un máximo de 500.000 usuarios por inquilino. La licencia de prueba asignan 2GB de almacenamiento de SharePoint Online para cada usuario de prueba.
 
 ## <a name="who-is-eligible"></a>¿Quiénes son elegibles
 
