@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype para obtener información de planeación y configuración de Business Server para vídeo compartida basado en pantalla (VbSS)
-ms.openlocfilehash: 8f76fbe0879cc9abd452d8b1e0064627c215b20e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a658453af5f71d7bb8103411ed16c534e3004a03
+ms.sourcegitcommit: aa3258aeb5aa1296c4bb251a9d258b8896457b7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968329"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23935478"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Vídeo según el uso compartido de la pantalla de Skype para Business Server 
  
@@ -120,7 +120,7 @@ Hay situaciones donde uso compartido de pantalla va a realizar la transición a 
 - Si la cuenta está alojada en un entorno en el que ASMCU no cumple con la compilación mínima admitida por VbSS.
 - Si una persona que usa una versión anterior de la Skype para clientes empresariales se une a la sesión, por ejemplo cualquier persona con cualquier versión de cliente de Windows que es menor que 16.0.6330.1000, Skype para dispositivos del sistema empresarial salón o Skype para aplicaciones empresariales de Mobile. 
 - Si un usuario está compartiendo desde el Skype para la aplicación empresarial de Web.
-- Si alguien usa Skype para Businesson Mac y no está hospedado en Skype para profesionales en línea.
+- Si alguien usa Skype para la empresa en Mac y no está hospedado en Skype para profesionales en línea.
 - Si alguien inicia cualquier programa o Windows uso compartido.
 - Si alguien inicia la grabación de la sesión.
 - Si alguien invoca al control de pantalla remota durante la sesión.
