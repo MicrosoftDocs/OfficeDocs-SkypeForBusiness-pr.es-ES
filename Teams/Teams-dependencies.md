@@ -12,10 +12,10 @@ description: Administre las funcionalidades y las características de acceso de 
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a646ba320681b6e92ec35b6cf62f14ecff0a54dd
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: aa3258aeb5aa1296c4bb251a9d258b8896457b7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
+ms.lasthandoff: 09/11/2018
 ms.locfileid: "23860446"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar el acceso de invitado en Microsoft Teams
