@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2655e96ceccbfdc0a915af370820a913471a3a4
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f4c3f795df06735c735ac29b6f46c6c8d8e9d46c
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891453"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937869"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams 
 =========================================
@@ -37,8 +37,8 @@ En la siguiente tabla se ofrece información para usuarios con Exchange Online h
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|
 |**Exchange Online Dedicated vNext**|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|
-|**Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)|Sí ([lista de permitidos](https://support.office.com/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c))|No|No|Sí|No|No|Sí|Sí|No|Sí (Exchange 2013 +)|No|Sí|Sí|
-|**Exchange local** (requiere sincronización con Azure AD)|Sí ([lista de permitidos](https://support.office.com/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c))|No|No|Sí|Sí (Exchange 2016 CU3 +)|No|Sí|Sí|No|Sí (Exchange 2013 +)|No|No|Sí|
+|**Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)|Sí ([lista de permitidos](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|No|No|Sí|No|No|Sí|Sí|No|No|No|Sí|Sí|
+|**Exchange local** (requiere sincronización con Azure AD)|Sí ([lista de permitidos](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|No|No|Sí|Sí (Exchange 2016 CU3 +)|No|Sí|Sí|No|No|No|No|Sí|
                                                             
 *\*Exchange 2016 CU3 y las versiones posteriores son compatibles*
 

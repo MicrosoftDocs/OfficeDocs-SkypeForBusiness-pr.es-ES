@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: 27f074526da7c63ecfdcfab912650e514c3717b3
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 0f23fc6ca106530f64e9854150d922b8a32da7d2
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867006"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937838"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>Dimensiones y medidas disponibles en el Panel de calidad de llamadas
 
@@ -112,18 +112,18 @@ En la siguiente tabla se enumeran las dimensiones que están disponibles en este
 |Duration 60 seconds or more  <br/> |Booleano  <br/> |Verdadero si la transmisión tuvo una duración de 60 segundos o más; de lo contrario, es falso.  |**Valor de ejemplo:** es true  <br/> |
 |Duration (Seconds)  <br/> |Intervalo (segundos)  <br/> |Duración de la transmisión en segundos. Los valores se agrupan en intervalos. |  **Valor de ejemplo:** 062: [1 -2)  <br/> |
 |Duration (Minutes)  <br/> |Intervalo (minutos)  <br/> |Duración de la transmisión en minutos. Los valores se agrupan en intervalos. |  **Valor de ejemplo:** 065: [3-4)  <br/> |
-|Fecha  <br/> |Cadena  <br/> |Fecha en que la secuencia finalizada.  |**Valor de ejemplo:** 2018-06-01  <br/> |
-|Year  <br/> |Entero  <br/> |Año de la parte final de la secuencia.  | **Valor de ejemplo:** 2018  <br/> |
-|Month  <br/> |Entero  <br/> |Mes de la parte final de la secuencia.  | **Valor de ejemplo:** 2  <br/> |
-|Day  <br/> |Entero  <br/> |Día de la parte final de la secuencia.  |**Valor de ejemplo:** 1  <br/> |
-|Hour  <br/> |Entero  <br/> |Hora de la parte final de la secuencia.  | **Valor de ejemplo:** 1  <br/> |
-|Minute  <br/> |Entero  <br/> |Minuto de la parte final de la secuencia.  | **Valor de ejemplo:** 30  <br/> |
-|Second  <br/> |Entero  <br/> |En segundo lugar de la parte final de la secuencia.  |**Valor de ejemplo:** 12  <br/> |
-|Day Of Year  <br/> |Entero  <br/> |Día del año de la parte final de la secuencia.  | **Valor de ejemplo:** 32  <br/> |
-|Day Of Week  <br/> |Cadena  <br/> |Día de la semana de la parte final de la secuencia.  | **Valor de ejemplo:** Miércoles  <br/> |
-|Day Number Of Week  <br/> |Entero  <br/> |Número de día de la semana de la parte final de la secuencia.  | **Valor de ejemplo:** 3  <br/> |
-|Month Year  <br/> |Cadena  <br/> |Mes y año de la parte final de la secuencia.  |**Valor de ejemplo:** 2017-02  <br/> |
-|Full Month  <br/> |Fecha y hora  <br/> |Mes completo de la parte final de la secuencia.  | **Valor de ejemplo:** 2017-02-01 T00:00:00  <br/> |
+|Fecha  <br/> |Cadena  <br/> |Fecha en que la secuencia finalizada. Los valores se muestran en la zona horaria UTC.  |**Valor de ejemplo:** 2018-06-01  <br/> |
+|Year  <br/> |Entero  <br/> |Año de la parte final de la secuencia. Los valores se muestran en la zona horaria UTC.  | **Valor de ejemplo:** 2018  <br/> |
+|Month  <br/> |Entero  <br/> |Mes de la parte final de la secuencia. Los valores se muestran en la zona horaria UTC.  | **Valor de ejemplo:** 2  <br/> |
+|Day  <br/> |Entero  <br/> |Día de la parte final de la secuencia. Los valores se muestran en la zona horaria UTC.  |**Valor de ejemplo:** 1  <br/> |
+|Hour  <br/> |Entero  <br/> |Hora de la parte final de la secuencia. Los valores se muestran en la zona horaria UTC.  | **Valor de ejemplo:** 1  <br/> |
+|Minute  <br/> |Entero  <br/> |Minuto de la parte final de la secuencia. Los valores se muestran en la zona horaria UTC.  | **Valor de ejemplo:** 30  <br/> |
+|Second  <br/> |Entero  <br/> |En segundo lugar de la parte final de la secuencia. Los valores se muestran en la zona horaria UTC.  |**Valor de ejemplo:** 12  <br/> |
+|Day Of Year  <br/> |Entero  <br/> |Día del año de la parte final de la secuencia. Los valores se muestran en la zona horaria UTC.  | **Valor de ejemplo:** 32  <br/> |
+|Day Of Week  <br/> |Cadena  <br/> |Día de la semana de la parte final de la secuencia. Los valores se muestran en la zona horaria UTC.  | **Valor de ejemplo:** Miércoles  <br/> |
+|Day Number Of Week  <br/> |Entero  <br/> |Número de día de la semana de la parte final de la secuencia. Los valores se muestran en la zona horaria UTC.  | **Valor de ejemplo:** 3  <br/> |
+|Month Year  <br/> |Cadena  <br/> |Mes y año de la parte final de la secuencia. Los valores se muestran en la zona horaria UTC.  |**Valor de ejemplo:** 2017-02  <br/> |
+|Full Month  <br/> |Fecha y hora  <br/> |Mes completo de la parte final de la secuencia. Los valores se muestran en la zona horaria UTC.  | **Valor de ejemplo:** 2017-02-01T00:00:00  <br/> |
 |First Domain  <br/> |Cadena  <br/> |Dominio del usuario que utiliza el primer punto de conexión. Si el primer punto de conexión es un servidor de conferencia, es el dominio del organizador de la reunión. También podría ser el dominio de las cuentas de servicio que se han utilizado en este escenario.  <br/> |**Valor de ejemplo:** contoso.com  <br/> |
 |Second Domain  <br/> |Cadena  <br/> |Dominio del usuario que utiliza el segundo punto de conexión. Si el segundo punto de conexión es un servidor de conferencia, es el dominio del organizador de la reunión. También podría ser el dominio de las cuentas de servicio que se han utilizado en este escenario.  | **Valor de ejemplo:** contoso.com  <br/> |
 |First User Agent Category  <br/> |Cadena  <br/> |Categoría del agente de usuario del primer punto de conexión.  <br/> |Los valores en blanco indican que un agente de usuario no tiene en este momento una asignación, como un agente de usuario de terceros.  <br/>  **Valor de ejemplo:** OC  <br/> |
@@ -198,15 +198,15 @@ En la siguiente tabla se enumeran las dimensiones que están disponibles en este
 |Second DNS Suffix  <br/> |Cadena  <br/> |Sufijo DNS asociado al adaptador de red que ha notificado el segundo punto de conexión. Tenga en cuenta que este valor se puede notificar para cualquier tipo de adaptador de red.  <br/> |Los valores en blanco indican que el punto de conexión no ha notificado este valor.  <br/>  **Valor de ejemplo:** corp.contoso.com  <br/> |
 |First Wifi Band  <br/> |Cadena  <br/> |La banda Wi-Fi que ha notificado haber usado el primer punto de conexión.  <br/> |Los valores en blanco indican que el punto de conexión no ha calculado el valor o que no lo ha notificado. <br/>  **Valor de ejemplo:** 5,0 Ghz  <br/> |
 |Second Wifi Band  <br/> |Cadena  <br/> |La banda Wi-Fi que ha notificado haber usado el segundo punto de conexión.  <br/> |Los valores en blanco indican que el punto de conexión no ha calculado el valor o que no lo ha notificado.   <br/> **Valor de ejemplo:** 5,0 Ghz  <br/> |
-|First Wifi Signal Strength  <br/> |Cadena  <br/> |Intensidad de la señal Wi-Fi en porcentaje [0-99] que ha notificado el primer punto de conexión.  <br/> |Los valores en blanco indican que el punto de conexión no ha calculado el valor o que no lo ha notificado.  <br/> **Valor de ejemplo:** 081: [90-100)  <br/> |
-|Second Wifi Signal Strength  <br/> |Cadena  <br/> |Intensidad de la señal Wi-Fi en porcentaje [0-99] que ha notificado el segundo punto de conexión.  <br/> |Los valores en blanco indican que el punto de conexión no ha calculado el valor o que no lo ha notificado.  <br/> **Valor de ejemplo:** 081: [90-100)  <br/> |
+|First Wifi Signal Strength  <br/> |Cadena  <br/> |WiFi intensidad de la señal en porcentaje [0-100] notificado por el extremo de la primera.  <br/> |Los valores en blanco indican que el punto de conexión no ha calculado el valor o que no lo ha notificado.  <br/> **Valor de ejemplo:** 081: [90-100)  <br/> |
+|Second Wifi Signal Strength  <br/> |Cadena  <br/> |WiFi intensidad de la señal en porcentaje [0-100] notificado por segundo extremo.  <br/> |Los valores en blanco indican que el punto de conexión no ha calculado el valor o que no lo ha notificado.  <br/> **Valor de ejemplo:** 081: [90-100)  <br/> |
 |First Wifi Battery Charge  <br/> |Intervalo (porcentaje)  <br/> |La carga estimada de batería que queda en porcentaje [0-99] que ha notificado el primer punto de conexión. Los valores se agrupan en intervalos. El 0 indica que el dispositivo estaba enchufado.  <br/> |Los valores en blanco indican que no se ha usado una conexión Wi-Fi o que no se ha notificado el valor de la carga. <br/>   **Valor de ejemplo:** 081: [90-100)  <br/> |
 |Second Wifi Battery Charge  <br/> |Intervalo (porcentaje)  <br/> |La carga estimada de batería que queda en porcentaje [0-99] que ha notificado el segundo punto de conexión. Los valores se agrupan en intervalos. El 0 indica que el dispositivo estaba enchufado.  <br/> |Los valores en blanco indican que no se ha usado una conexión Wi-Fi o que no se ha notificado el valor de la carga.  <br/>  **Valor de ejemplo:** 081: [90-100)  <br/> |
 |Audio Degradation Avg  <br/> |Intervalo (puntuación de opinión media 0-5)  <br/> |Media de degradación de la puntuación de opinión media de la red en la transmisión. Representa qué cantidad de vibración y pérdida de red ha influido en la calidad del audio recibido. Los valores se agrupan en intervalos.  <br/> |Los valores en blanco indican que el punto de conexión que ha recibido la transmisión no ha notificado ninguna degradación MOS de red o que no se trataba de una secuencia de audio.   <br/> **Valor de ejemplo:** 015: [0.01-0.02)  <br/> |
 |Jitter  <br/> |Intervalo (milisegundos)  <br/> |Vibración media producida en la transmisión en milisegundos. Los valores se agrupan en intervalos.  <br/> |Los valores en blanco indican que el punto de conexión que ha recibido la transmisión no ha notificado ningún dato de vibración.  <br/> **Valor de ejemplo:** 065: [2-3)  <br/> |
 |Jitter Max  <br/> |Intervalo (milisegundos)  <br/> |Vibración máxima producida en la transmisión en milisegundos. Los valores se agrupan en intervalos.  <br/> |Los valores en blanco indican que el punto de conexión que ha recibido la transmisión no ha notificado ningún dato de vibración.   <br/> **Valor de ejemplo:** 065: [2-3)  <br/> |
-|Packet Loss Rate  <br/> |Intervalo (porcentaje)  <br/> |Porcentaje medio de pérdida de paquetes en la transmisión. Los valores se agrupan en intervalos.  <br/> |Los valores en blanco indican que el punto de conexión que ha recibido la transmisión no ha notificado ningún dato de pérdida de paquetes.  <br/>  **Valor de ejemplo:** 050: [1.8-1.9)  <br/> |
-|Packet Loss Rate Max  <br/> |Intervalo (porcentaje)  <br/> |Porcentaje máximo de pérdida de paquetes en la transmisión. Los valores se agrupan en intervalos.  <br/> |Los valores en blanco indican que el punto de conexión que ha recibido la transmisión no ha notificado ningún dato de pérdida de paquetes.   <br/> **Valor de ejemplo:** 041: [0.95-1)  <br/> |
+|Packet Loss Rate  <br/> |Intervalo (relación)  <br/> |Porcentaje medio de pérdida de paquetes en la transmisión. Los valores se agrupan en intervalos. 0,1 indica la pérdida de un 10%.  <br/> |Los valores en blanco indican que el punto de conexión que ha recibido la transmisión no ha notificado ningún dato de pérdida de paquetes.  <br/>  **Valor de ejemplo:** 015: [0.01-0.02)  <br/> |
+|Packet Loss Rate Max  <br/> |Intervalo (relación)  <br/> |Porcentaje máximo de pérdida de paquetes en la transmisión. Los valores se agrupan en intervalos. 0,1 indica la pérdida de un 10%.  <br/> |Los valores en blanco indican que el punto de conexión que ha recibido la transmisión no ha notificado ningún dato de pérdida de paquetes.   <br/> **Valor de ejemplo:** 023: [0.09-0.1)  <br/> |
 |Overall Avg Network MOS  <br/> |Intervalo (MOS)  <br/> |Media de MOS de red en la transmisión. Los valores se agrupan en intervalos.  <br/> |Los valores en blanco indican que el punto de conexión que ha recibido la transmisión no ha notificado ninguna degradación MOS de red o que no se trataba de una secuencia de audio.   <br/> **Valor de ejemplo:** 076: [4.4-4.5)  <br/> |
 |Ratio Concealed Samples Avg  <br/> |Intervalo (relación)  <br/> |Relación del número de tramas de audio entre muestras generadas por la ocultación de pérdidas de paquetes y el número total de tramas de audio. Los valores se agrupan en intervalos. 0,1 indica que el 10% de las tramas contenía muestras ocultas.  <br/> |Los valores en blanco indican que el receptor de la transmisión no ha notificado este valor o que no se trataba de una secuencia de audio.   <br/> **Valor de ejemplo:** 015: [0.01-0.02)  <br/> |
 |Ratio Stretched Samples Avg  <br/> |Intervalo (relación)  <br/> |Relación entre el número de tramas de audio con muestras que se han extendido para compensar la vibración o la pérdida y el número total de tramas de audio. Los valores se agrupan en intervalos. 0,1 indica que el 10% de las tramas de audio contenía muestras extendidas.  <br/> |Los valores en blanco indican que el receptor de la transmisión no ha notificado este valor o que no se trataba de una secuencia de audio.  <br/>  **Valor de ejemplo:** 017: [0.03-0.04)  <br/> |
@@ -471,8 +471,8 @@ En la siguiente tabla se enumeran las medidas que están disponibles en este mom
 |Avg Audio Degradation  <br/> |Puntuación de opinión media (0-5)  <br/> |Promedio de degradación de la puntuación de opinión media de red durante las transmisiones. Representa qué cantidad de vibración y pérdida de red ha influido en la calidad del audio recibido.  <br/> |
 |Avg Jitter  <br/> |Milisegundos  <br/> |Vibración de red media durante las transmisiones en milisegundos.  <br/> |
 |Avg Jitter Max  <br/> |Milisegundos  <br/> |Valor máximo de la vibración de red durante las transmisiones en milisegundos.  <br/> |
-|Avg Packet Loss Rate  <br/> |Porcentaje  <br/> |Porcentaje medio de paquetes perdidos que se calcula con intervalos de cinco segundos durante las transmisiones.  <br/> |
-|Avg Packet Loss Rate Max  <br/> |Porcentaje  <br/> |Promedio del porcentaje máximo de paquetes perdidos durante intervalos de 5 segundos durante las transmisiones.  <br/> |
+|Avg Packet Loss Rate  <br/> |Relación  <br/> |Porcentaje medio de paquetes perdidos que se calcula con intervalos de cinco segundos durante las transmisiones. 0,1 indica la pérdida de un 10%.  <br/> |
+|Avg Packet Loss Rate Max  <br/> |Relación  <br/> |Promedio del porcentaje máximo de paquetes perdidos durante intervalos de 5 segundos durante las transmisiones. 0,1 indica la pérdida de un 10%.  <br/> |
 |Avg Overall Avg Network MOS  <br/> |Puntuación de opinión media (0-5)  <br/> |Promedio o puntuación de opinión media de red media durante las transmisiones. Representa la calidad media prevista del factoring de audio recibido en la pérdida de red, la vibración y el códec.  <br/> |
 |Avg Ratio Concealed Samples  <br/> |Relación  <br/> |Promedio de relación media entre el número de tramas de audio con muestras generadas por la ocultación de pérdidas de paquetes y el número total de tramas de audio durante las transmisiones. 0,1 indica que el 10% de tramas contenían muestras ocultas.  <br/> |
 |Avg Ratio Stretched Samples  <br/> |Relación  <br/> |Promedio de relación media entre el número de tramas de audio con muestras que se han extendido para compensar la vibración o la pérdida y el número total de tramas de audio durante las transmisiones. 0,1 indica que el 10% de tramas contenían muestras extendidas.  <br/> |

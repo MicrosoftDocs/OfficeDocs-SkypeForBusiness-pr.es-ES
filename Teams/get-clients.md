@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bbadb9324942cdb354570673a0fd923c9e04bdbd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 134d6d310762bc43d578085fd3f1031112307ee9
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891332"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937886"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
 ===========================
@@ -48,11 +48,15 @@ La instalación de Microsoft Teams para Windows proporciona a instaladores que s
 > [!NOTE]
 > La arquitectura (32 bits frente a 64 bits) de Microsoft Teams es independiente de la arquitectura de Windows y Office que está instalado.
 
-El cliente de Windows se implementa en la carpeta AppData ubicada en el perfil del usuario. La implementación en el perfil local del usuario permite instalar el cliente sin que se requieran derechos elevados. El cliente de Windows se instala en las siguientes ubicaciones:
+El cliente de Windows se implementa en la carpeta AppData que se encuentra en el perfil del usuario. Implementar en el perfil del usuario local permite que el cliente esté instalado sin necesidad de derechos con privilegios elevados. El cliente de Windows aprovecha las siguientes ubicaciones:
 
-- %appdata%\\local\\Microsoft\\Teams
+- % LocalAppData %\\Microsoft\\los equipos
 
-- %appdata%\\roaming\\Microsoft\\Teams
+- % LocalAppData %\\Microsoft\\TeamsMeetingsAddin
+
+- % AppData %\\Microsoft\\los equipos
+
+- % LocalAppData %\\SquirrelTemp
 
 Cuando los usuarios inician una llamada mediante el cliente de Microsoft Teams por primera vez, es posible que observe el una advertencia con la configuración de firewall de Windows que se pregunta a los usuarios permitir la comunicación. Los usuarios que se le indique para omitir este mensaje debido a que funcione la llamada, incluso cuando se descarta la advertencia.
 

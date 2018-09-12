@@ -3,22 +3,22 @@ title: Información general de seguridad y cumplimiento en Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/02/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
-description: Descripción general de las características de seguridad y cumplimiento de Microsoft Teams, que incluye auditoría y generación informes, búsqueda de contenido de cumplimiento, eDiscovery y mucho más.
+description: Una descripción general de las características de seguridad y cumplimiento de Microsoft Teams, incluyendo auditoría y creación de informes, búsqueda de contenido de cumplimiento de normas, exhibición de documentos electrónicos y mucho más.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a2cf9a0b34be89b493b75473fb89efee6943977
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: fc686b520c9bd765539ff5fd9f636bc876583a41
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887043"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937901"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================
@@ -224,14 +224,16 @@ Búsqueda de contenido y exhibición de documentos electrónicos no requieren ac
 <a name="location-of-data-in-teams"></a>Ubicación de los datos en Teams
 -------------------------
 
-Los datos de Teams residen en la región geográfica asociada con su inquilino de Office 365. Actualmente, Microsoft Teams admite las regiones de América, EMEA y APAC. 
+Los datos de Teams residen en la región geográfica asociada con su inquilino de Office 365. Actualmente, los equipos admite las regiones Australia, Canadá, India, Japón, Reino Unido, América, APAC y EMEA. 
 
 > [!IMPORTANT]
-> Los equipos actualmente ofrece residencia de datos en el Reino Unido, Canadá y India para sólo los inquilinos nuevo. Un inquilino nuevo se define como cualquier inquilino que no ha tenido ningún usuario desde el inicio de sesión del inquilino en Teams. Los inquilinos existentes desde el Reino Unido, Canadá y India seguirán permanecen en las regiones EMEA, América y APAC, respectivamente, hasta que un plan de migración se anuncia (previsto en CY2019).
+> Los equipos actualmente ofrece residencia de datos en Australia, Canadá, India, Japón y Reino Unido para sólo los inquilinos nuevo. Un inquilino nuevo se define como cualquier inquilino que no ha tenido ningún usuario desde el inicio de sesión del inquilino en Teams. Los inquilinos existentes de Australia, India y Japón seguirán tienen sus datos de los equipos almacenados en el área de APAC. Los inquilinos existentes en Canadá y Reino Unido tendrá sus datos almacenados en América y EMEA región, respectivamente.
 
-Si desea conocer más detalles sobre el inicio de la residencia de datos en India y Reino Unido, lea la publicación [Microsoft Teams launches India Data Residency, other geos coming soon](https://go.microsoft.com/fwlink/?linkid=867773) (Microsoft Teams iniciará la residencia de datos de India y otras zonas geográficas muy pronto) en el blog de Ansuman Acharya. 
+Si desea conocer más detalles sobre el inicio de la residencia de datos en India y Reino Unido, lea la publicación [Microsoft Teams launches India Data Residency, other geos coming soon](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827) (Microsoft Teams iniciará la residencia de datos de India y otras zonas geográficas muy pronto) en el blog de Ansuman Acharya. 
 
-Para obtener más información en residencia de datos de Canadá para los equipos, vea [Microsoft equipos inicia Canadá datos residencia, Australia y Japón próximamente](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178). 
+Para obtener más información en residencia de datos de Canadá para los equipos, lea la entrada de blog de Varun Sagar, [residencia de datos de Microsoft los equipos inicia Canadá, Australia y Japón próximamente](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178). 
+
+Para obtener más información sobre el lanzamiento de Australia y Japón residencia de datos para los equipos, Leer entrada de blog de Varun Sagar, [Microsoft equipos inicia Australia y Japón datos residencia ](https://go.microsoft.com/fwlink/?linkid=867773). 
 
 Para ver qué región aloja los datos de su inquilino, vaya al [Centro de administración de Office 365](https://portal.office.com/adminportal/home) > **Configuración** > **Perfil de organización**. Desplácese hasta **Data location** (Ubicación de datos). 
 
@@ -240,9 +242,9 @@ Para ver qué región aloja los datos de su inquilino, vaya al [Centro de admini
 <a name="how-do-conditional-access-policies-work-for-teams"></a>¿Cómo funcionan las directivas de acceso condicional para los equipos?
 -------------------------
 
-Microsoft Teams depende en gran medida en Exchange Online, SharePoint Online y Skype para la empresa en línea para los escenarios de productividad de núcleo, al igual que las reuniones, calendarios, charlas interoperabilidad & uso compartido de archivos. Las directivas de acceso condicional que se han establecido para estas aplicaciones en la nube se aplican a Microsoft Teams cuando un usuario firma directamente en Microsoft Teams - en cualquier cliente. 
+Microsoft Teams depende en gran medida en Exchange Online, SharePoint Online y Skype para empresarial en línea para los escenarios de productividad de núcleo, al igual que las reuniones, calendarios, chats interoperabilidad y uso compartido de archivos. Las directivas de acceso condicional que se han establecido para estas aplicaciones en la nube se aplican a Microsoft Teams cuando un usuario directamente inicia sesión en Microsoft Teams - en cualquier cliente. 
 
-Microsoft Teams se admite por separado como una aplicación de nube en las directivas de acceso condicional de Azure Active Directory. Las directivas de acceso condicional que se han establecido para la aplicación de nube de Microsoft Teams se aplican a Microsoft Teams cuando un usuario inicia sesión. Sin embargo, sin las directivas correctas en otras aplicaciones como Exchange Online y SharePoint Online los usuarios aún podrán tener acceso a esos recursos directamente. Para obtener más información acerca de cómo configurar una directiva de acceso condicional en el portal de azure, vaya aquí: ()https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
+Microsoft Teams se admite por separado como una aplicación de nube en las directivas de acceso condicional de Azure Active Directory. Las directivas de acceso condicional que se han establecido para la aplicación de nube de Microsoft Teams se aplican a Microsoft Teams cuando un usuario inicia sesión. Sin embargo, sin las directivas correctas en otras aplicaciones como Exchange Online y SharePoint Online, los usuarios aún podrán tener acceso a esos recursos directamente. Para obtener más información acerca de cómo configurar una directiva de acceso condicional en el portal de azure, vaya a: ()https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
 
 Los clientes de escritorio de Microsoft Teams para Windows y Mac admiten la autenticación moderna. Autenticación moderna aporta funcionalidad de inicio de sesión basado en la Azure Active Directory autenticación biblioteca (ADAL) para aplicaciones cliente de Microsoft Office a través de plataformas.
 

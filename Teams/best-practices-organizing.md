@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73ae62ea6cf521e9f45b4de05c4dc62f408827e3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a885a79ce7e0a54a58108ce9b2fcda1c54f31616
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884039"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937857"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Prácticas recomendadas para organizar equipos en Microsoft Teams
 ======================================================
@@ -42,7 +42,7 @@ Obtener más información sobre cómo [funcionan en los equipos](https://support
 <a name="channel-best-practices"></a>Procedimientos recomendados de canal
 ----------------------
 
-Nuestras prácticas recomendadas consiste en crear los equipos con un conjunto de miembros y más canales mayor.  Para mantener una experiencia de usuario de alta calidad es útil minimizar el número de equipos que requieren la participación de una persona.  Canales dentro de un equipo deben considerarse como temas o secuencias de trabajo que ayuda al equipo de organizar su trabajo para ofrecer en sus objetivos de combinación.  No hay ningún número específico de canales que se debe crear.  Cada equipo debe diseñar canales en función de su trabajo, las prioridades y estilo.  Las organizaciones más grandes es posible que desee crear equipos como "plantillas" para estandarizar la información que se capturan sobre tipos específicos de trabajo.  Esto es útil para la administración de clientes estratégica, aula managmeent, escenarios de atención médica, administración de notificación, administración de incidentes y otros sceanrios correspondiente a un sector específico.   
+Nuestras prácticas recomendadas consiste en crear los equipos con un conjunto de miembros y más canales mayor.  Para mantener una experiencia de usuario de alta calidad es útil minimizar el número de equipos que requieren la participación de una persona.  Canales dentro de un equipo deben considerarse como temas o secuencias de trabajo que ayuda al equipo de organizar su trabajo para ofrecer en sus objetivos de combinación.  No hay ningún número específico de canales que se debe crear.  Cada equipo debe diseñar canales en función de su trabajo, las prioridades y estilo.  Las organizaciones más grandes es posible que desee crear equipos como "plantillas" para estandarizar la información que se capturan sobre tipos específicos de trabajo.  Esto es útil para la administración de los clientes estratégicos, administración de aulas, escenarios de atención médica, administración de notificación, administración de incidentes y otros escenarios adecuados a un sector específico.   
 
 Se crea el **canal General** para usted al crear el equipo de forma predeterminada. Hay muchos fines útiles a este canal:
 

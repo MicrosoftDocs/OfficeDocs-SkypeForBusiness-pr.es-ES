@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo se obtienen y se administran los números de teléfono en Estados Unidos (y Puerto Rico) para Skype Empresarial Online y Microsoft Teams.
-ms.openlocfilehash: 25070ff377489994101b82b9b34c74c82989c546
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: bb1599a3127ffb7a07ec6001a5b2b78831ae320f
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883053"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23938011"
 ---
 # <a name="phone-number-management-for-the-us"></a>Administración de números de teléfono para EE. UU.
 
@@ -42,7 +42,7 @@ Para obtener más información, consulte [Administrar los números de teléfono 
 |Tiene que cambiar de un número de usuario a un número de servicio.  <br/> |[Envíenos](mailto:ptn@microsoft.com) su PIN y la lista de números de usuario que quiere convertir en números de servicio. Para configurar un PIN, haga clic [aquí](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
 |Tiene que transferir números desde una organización de Office 365 a otra.  <br/> |[Envíenos](mailto:ptn@microsoft.com) la lista de números de teléfono de usuario (suscriptor) que quiere transferir junto con el PIN de la organización de origen desde la que quiere transferir los números. Para configurar un PIN, haga clic [aquí](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
    
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-topics"></a>Temas relacionados 
 
 [Diferentes tipos de números de teléfono que se usan para Planes de llamada](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
