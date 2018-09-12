@@ -10,12 +10,12 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: ''
 description: Microsoft se asocia con proveedores SBC seleccionados para certificar que sus SBC pueden usarse con el Enrutamiento directo.
-ms.openlocfilehash: 3fd72cf49af1e865bc1354e3c2bba73796c30ea1
-ms.sourcegitcommit: b3304459b4ac19d0782982d8e975202decfac4d5
+ms.openlocfilehash: 46cd628071e144f6cfc93b04f3376cd4f1de949f
+ms.sourcegitcommit: 6a2466a3bf4cc2390a9be40dea0736174ef180e2
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/12/2018
-ms.locfileid: "23949252"
+ms.locfileid: "23957193"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el Enrutamiento directo
 
@@ -52,6 +52,6 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 |     | SBC SWe  |   &#10004;    |    Pendiente     |    V6.2      |
 |     |SBC 1000   |     &#10004;   |     Pendiente    |    V7.0.2   |&#10004; 
 |     | SBC 2000    |     &#10004;   |    Pendiente     |    V7.0.2      |
-|     | SBC SWeLite     |&#10004; | Pendiente | V7.0.4
+|     | SBC sueco Lite     |&#10004; | Pendiente | V7.0.4
 |[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)     |    SBC Think 365      |  &#10004;       |    Pendiente     |   V1.4       |
 |     |         |         |         |         |
