@@ -3,7 +3,7 @@ title: Planeación de gobierno de 365 de Microsoft - implementaciones GCC - Micr
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
-ms.date: 07/26/2018
+ms.date: 09/14/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lehewe
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 430b6c6de5468442f7a290b07b28eb59d276e00c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 34c13d9094512a52c334acf2b660b11b6579c886
+ms.sourcegitcommit: 63c391ce9144ba5b296050ac189f77f5cea78707
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885775"
+ms.lasthandoff: 09/14/2018
+ms.locfileid: "23973689"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planeación de Microsoft 365 gobierno - implementaciones GCC
 
@@ -66,8 +66,7 @@ Para dar cabida a los requisitos de nuestros clientes de nube de gobierno, exist
 | Un canal de correo electrónico             | La arquitectura de la característica actual no es compatible con los planes de gobierno. |
 | Presencia unificada            | Estamos trabajo acabado para nuestros clientes empresariales primero para que esta característica importante. Estará disponible para los clientes de gobierno en el futuro. |
 | Chat interoperabilidad entre los equipos & SfB a los usuarios            | Interoperabilidad es dependiente en el servicio de presencia unificada (UPS) y no puede funcionar hasta los inquilinos de los equipos de GCC están habilitados para SAI (UPS). |
-
-| Notificaciones por correo electrónico | La arquitectura de la característica actual no es compatible con los planes de gobierno de Estados Unidos. Trabajo está en curso para permitir esta característica esté disponible para los clientes de plan de gobierno de Estados Unidos en el futuro. |
+| Notificaciones de correo electrónico         | La arquitectura de la característica actual no es compatible con los planes de gobierno de Estados Unidos. Trabajo está en curso para permitir esta característica esté disponible para los clientes de plan de gobierno de Estados Unidos en el futuro. |
 
 
 |    |     |
