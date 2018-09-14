@@ -1,0 +1,1 @@
+Actualizamos con frecuencia los métodos que se siguen para administrar las características de Microsoft Teams, por lo que los pasos que se incluyen aquí pueden diferir ligeramente.
