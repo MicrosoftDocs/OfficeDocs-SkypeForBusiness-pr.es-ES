@@ -2,6 +2,7 @@
 title: Administrar la configuración de una consola de Sistemas de salas de Skype v2 de forma remota con un archivo XML de configuración
 ms.author: jambirk
 author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 1/31/2018
 ms.audience: ITPro
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: En este artículo se describe la administración remota de la configuración predeterminada utilizada por un dispositivo de v2 de sistemas de salón de Skype, incluyen la aplicación de un tema personalizado.
-ms.openlocfilehash: 1d8891ab318cac6849b5b6701a8aac7b87185bd6
-ms.sourcegitcommit: 38f3757feb82aeff0c03d8a3f0dde77a4cdde2ae
+ms.openlocfilehash: 55a2dc3de11c4fbe8540740a52fe29a377264545
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2018
-ms.locfileid: "22602007"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965978"
 ---
 # <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>Administrar la configuración de una consola de Sistemas de salas de Skype v2 de forma remota con un archivo XML de configuración
  

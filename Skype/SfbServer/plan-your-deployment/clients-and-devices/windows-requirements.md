@@ -1,7 +1,8 @@
 ---
 title: Los requisitos de cliente de Windows y la compatibilidad de software
 ms.author: jambirk
-author: PhillipGarding
+author: jambirk
+ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 'Resumen: Revise los requisitos de soporte técnico de cliente de Windows durante la planeación de Skype para Business Server.'
-ms.openlocfilehash: 5eda349b18930506e1ff6167804a11ca29c7190a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: fec7996bccddf68fdeb59b8f9e0a185d5c5f18c7
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890983"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965637"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Los requisitos de cliente de Windows y la compatibilidad de software
  

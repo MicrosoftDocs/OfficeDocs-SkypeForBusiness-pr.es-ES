@@ -1,7 +1,8 @@
 ---
 title: Compatibilidad con la versión
 ms.author: jambirk
-author: davgroom
+author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 4/17/2018
 ms.audience: ITPro
@@ -9,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: En este artículo se describe la compatibilidad de ciclo de vida para sistemas de salón de Skype v2.
-ms.openlocfilehash: 86f71f1ddd554c9a9d368cdb725367a368257453
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: c1a7daf7d107fc7ad05bdcc6a0fe9c1d113630e9
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22601958"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965936"
 ---
 # <a name="version-support"></a>Compatibilidad con la versión
  

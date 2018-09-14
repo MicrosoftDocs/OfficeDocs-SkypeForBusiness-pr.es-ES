@@ -12,12 +12,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42ac2b70b0ab0ba014decbef423ee82c6d45ddb2
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 50e9bf67a920b36ade9eabf037bd4a0a551e7ad6
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849848"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965652"
 ---
 <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 ==================================
@@ -36,12 +36,12 @@ Descubra Microsoft Teams y fomente su uso en su organización. Vuelva a visitar 
 | [Tutorial: Comprender las llamadas en Microsoft Teams](tutorial-calling-in-teams.yml)  |  Este documento de formación presenta las funcionalidades de llamada de Microsoft Teams, que se basan en la función Sistema telefónico en Office 365. Incluye una explicación de la planificación técnica necesaria para implementar Sistema telefónico, cómo configurarlo y cómo supervisar el uso y la calidad de las llamadas en la implementación.  |
 | [Vídeos de Audioconferencia](audio-conferencing-videos.md) |Vídeos que presentan la Audioconferencia en Microsoft Teams al administrador de TI.  |
 | [Tutorial: Reuniones en Teams](tutorial-meetings-in-teams.yml) | Este curso presenta las reuniones en los equipos. En ella se tratan las capacidades de la reunión, además de los requisitos y las consideraciones de planeación. |
-| Implementar y usar Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
-| Directo de enrutamiento para los equipos de Microsoft (vista previa)   | <iframe width="350" height="200" src="https://www.youtube.com/embed/dVkc5Bs926Q" frameborder="0" allowfullscreen></iframe>   |
-| Información especializada sobre el acceso de invitado <br>Un café en la sesión de Cloud con Laith Al y Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
-| e-Discovery en Microsoft Teams <br> Un café en la sesión de Cloud con Ansuman Acharya y Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
-| Microsoft Teams: introducción detallada para usar, habilitar y administrar la experiencia <br> Sesión de Microsoft Mechanics con Dan Stevenson y Jeremy Chapman |  <iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |
-| Administrar la experiencia de aplicaciones en Microsoft Teams <br> Un café en la sesión de Cloud con Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
+| Implementar y usar Microsoft Teams   | <iframe width="320" height="240" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
+| Directo de enrutamiento para los equipos de Microsoft (vista previa)   | <iframe width="320" height="240" src="https://www.youtube.com/embed/dVkc5Bs926Q" frameborder="0" allowfullscreen></iframe>   |
+| Información especializada sobre el acceso de invitado <br>Un café en la sesión de Cloud con Laith Al y Karuana Gatimu  | <iframe width="320" height="240" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
+| e-Discovery en Microsoft Teams <br> Un café en la sesión de Cloud con Ansuman Acharya y Karuana Gatimu  | <iframe width="320" height="240" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
+| Microsoft Teams: introducción detallada para usar, habilitar y administrar la experiencia <br> Sesión de Microsoft Mechanics con Dan Stevenson y Jeremy Chapman |  <iframe width="320" height="240" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |
+| Administrar la experiencia de aplicaciones en Microsoft Teams <br> Un café en la sesión de Cloud con Karuana Gatimu  | <iframe width="320" height="240" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
 
 
 

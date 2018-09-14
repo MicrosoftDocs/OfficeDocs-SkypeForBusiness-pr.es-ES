@@ -1,5 +1,5 @@
 ---
-title: Administrar los equipos durante la transición a la nueva Microsoft Teams y Skype para el centro de administración de negocio
+title: Administrar los equipos durante la transición a la nueva Microsoft Teams & Skype para el centro de administración de negocio
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,14 +16,14 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 1e334e4978ea645527273a79f49ed097038fcb36
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: dddb73e5b616fead421d1b610eff6229b4191d06
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885439"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965702"
 ---
-<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-and-skype-for-business-admin-center"></a>Administrar los equipos durante la transición a la nueva Microsoft Teams y Skype para el centro de administración de negocio
+<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Administrar los equipos durante la transición a la nueva Microsoft Teams & Skype para el centro de administración de negocio
 ======================================================
 
 El nuevo Centro de administración de Microsoft Teams y Skype Empresarial estará disponible muy pronto. 
@@ -41,6 +41,7 @@ La nueva experiencia del centro de administración le proporcionará una experie
 
 ![Captura de pantalla de los equipos de Microsoft & Skype para el centro de administración de negocio.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
+## <a name="settings-migrated-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>La configuración de migrar a la nueva Microsoft Teams & Skype para el centro de administración de negocio
 
 A partir de mediados de marzo 2018, las siguientes capacidades estaban disponibles en el nuevo Microsoft Teams & Skype para el centro de administración de negocio: 
 
@@ -49,15 +50,9 @@ A partir de mediados de marzo 2018, las siguientes capacidades estaban disponibl
 - **Configuración de mensajería de invitado de los equipos de Microsoft**: controlar las capacidades de mensajería para las cuentas de invitado en Microsoft Teams. 
 - **Configuración de federación**: administrar la federación entre los inquilinos para Microsoft Teams y Skype para la empresa. 
 - **Administración de usuarios**: asignar directivas y configuración de cuentas de usuario. 
-- **Conferencias de audio**: configurar números de acceso telefónico y de Skype para empresas y Microsoft Teams. 
+- **Conferencias de audio**: configurar números de acceso telefónico y de Skype para empresas y Microsoft Teams.  
 
- 
-
-## <a name="settings-migrated-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>La configuración de migrar a la nueva Microsoft Teams & Skype para el centro de administración de negocio
-
-La configuración existente para General, integración correo electrónico, almacenamiento en la nube personalizados, las llamadas y las reuniones y mensajería en Microsoft Teams (consulte la imagen siguiente) se van a migrar a la nueva Microsoft Teams & Skype para el centro de administración empresarial (también conocido como el nuevo portal de administración) en los próximos meses. 
-
-
+Además, la configuración existente para General, integración correo electrónico, almacenamiento en la nube personalizados, las llamadas y las reuniones y mensajería en Microsoft Teams ahora se han migrado a la nueva Microsoft Teams & Skype para el centro de administración empresarial (también conocido como el nuevo administrador Portal). 
 
 > [!NOTE]
 >Podrá continuar usar el panel de grupos en el centro de administración de Office 365 para la configuración relacionada con **los equipos y los canales**. Configuración de **aplicaciones** permanecerá en el área de los equipos del centro de administración de Office 365 y se van a migrar más adelante. 
@@ -66,11 +61,9 @@ La configuración existente para General, integración correo electrónico, alma
 
 Con respecto a los valores disponibles en **configuración de tipo de licencia de usuario /**, básicamente proporciona una forma de configurar grupos de usuarios de forma diferente. Ahora, con el nuevo portal de administración, es posible en cada usuario. 
 
-
 La configuración del tipo de licencia se van a migrar. Si actualmente usa la opción de **Activar equipos de Microsoft activado o desactivado para todos los usuarios de este tipo** para controlar el acceso a los equipos de los usuarios a través de SKU, se mantendrá la configuración actual. Sin embargo, no podrá modificar esta configuración en el nuevo portal de administración. En su lugar, podrá asignar las licencias adecuadas a los usuarios en el inquilino a través del centro de administración de Office 365. Para obtener más información, vea [administrar el acceso de usuarios a los equipos de Microsoft](user-access.md). 
 
-En la siguiente tabla identifica las secciones de la experiencia actual de los equipos que se van a migrar y se muestra la relación entre la configuración actual y las directivas en el nuevo portal de administración.
-
+En la siguiente tabla identifica las secciones de la experiencia actual de los equipos que se han migrado y se muestran la relación entre la configuración actual y las directivas en el nuevo portal de administración.
 
 |Sección de los equipos en el centro de administración de Office 365  |Nombre de la configuración (nivel de inquilino)  |Microsoft Teams & Skype para directiva de centro de administración de negocio   |Nivel: Usuario o inquilino   |
 |---------|---------|---------|---------|
@@ -102,10 +95,7 @@ En la siguiente tabla identifica las secciones de la experiencia actual de los e
 |Mensajes     |Permite a los usuarios a conversaciones en privado         |TeamsMessagingPolicy         |Usuario         |
 
 
-
 ## <a name="manage-settings-during-the-migration"></a>Administración de la configuración durante la migración
-
-Se va a migrar la configuración de los equipos en las secciones de la siguiente secuencia: mensajería, las reuniones, las llamadas y, por último, en las secciones dentro de la directiva de configuración de TeamsClient (General, integración de correo electrónico y el almacenamiento de nube personalizado).   
 
 Puede continuar modificar la configuración en el centro de administración de Office 365 y el Skype para el centro de administración de negocio hasta que se complete para el inquilino de migración para una sección. 
 

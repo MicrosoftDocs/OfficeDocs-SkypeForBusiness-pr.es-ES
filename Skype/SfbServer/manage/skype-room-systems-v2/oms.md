@@ -2,6 +2,7 @@
 title: Administración de los dispositivos de Sistemas de salas de Skype v2 con OMS
 ms.author: jambirk
 author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 5/19/2017
 ms.audience: ITPro
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 description: 'En este artículo se comenta cómo se administran los dispositivos de Sistemas de salas de Skype v2 de una forma integrada y descentralizada mediante Microsoft Operations Management Suite. '
-ms.openlocfilehash: b77f7216593d30c843eb49fd8879a83b5b0025c8
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 5c472995c4948ce83587ec130724ddf3bdb5c75f
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504239"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965922"
 ---
 # <a name="manage-skype-room-systems-v2-devices-with-oms"></a>Administración de los dispositivos de Sistemas de salas de Skype v2 con OMS
  
@@ -43,6 +44,6 @@ Si conoce estas descripciones de eventos, le servirán como alertas para saber r
 ## <a name="see-also"></a>Vea también
 <a name="Telemetry"></a>
 
-[Planeación de la administración de sistemas de salón de Skype v2 con OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
+[Planificar la administración de Sistemas de salas de Skype v2 con OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
   
-[Implementar la administración de sistemas de salón de Skype v2 con OMS](../../deploy/deploy-clients/with-oms.md)
+[Implementar la administración de Sistemas de salas de Skype v2 con OMS](../../deploy/deploy-clients/with-oms.md)
