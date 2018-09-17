@@ -1,5 +1,5 @@
 ---
-title: Activar o desactivar la entrada y salir de anuncios para reuniones en Microsoft Teams
+title: Activar o desactivar los anuncios de entrada y salida para las reuniones en Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,34 +19,34 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Obtenga información sobre cómo activar la entrada y salir de anuncios activado o desactivado en una reunión de Microsoft Teams. '
+description: 'Aprenda cómo se activan o se desactivan los anuncios de entrada y salida en una reunión de Microsoft Teams. '
 ms.openlocfilehash: 94a091590ff00d2c78278e8ad559b61b1e732130
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23884632"
 ---
-# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Activar o desactivar la entrada y salir de anuncios para reuniones en Microsoft Teams
+# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Activar o desactivar los anuncios de entrada y salida para las reuniones en Microsoft Teams
 
-Cuando establece una audioconferencia en Office 365, obtendrá un puente de audioconferencia. Un puente de conferencia puede contener uno o más números de teléfono que los usuarios utilizarán para llamar a en una reunión de Microsoft Teams. 
+Cuando vaya a configurar una audioconferencia en Office 365, recibirá un puente de audioconferencia. Un puente de conferencia puede contener uno o varios números de teléfono que los contactos usarán para llamar a una reunión de Microsoft Teams. 
   
-El puente de conferencia responde a una llamada de un usuario que se llama a una reunión mediante un teléfono. El puente de conferencia responde el autor de la llamada con mensajes de voz de un operador automático de conferencia y, a continuación, dependiendo de la configuración, puede reproducir las notificaciones, pida a los autores de llamadas para registrar su nombre y configurar la seguridad de NIP. Se concede un PIN al organizador de una reunión de Microsoft Teams, y les permite iniciar una reunión si no pueden iniciar la reunión mediante la aplicación de Microsoft Teams. Sin embargo, lo puede establecer para que no sea necesario un PIN para iniciar una reunión.
+El puente de conferencia responderá a las llamadas de los usuarios que llamen a una reunión con un teléfono. El puente de conferencia responde a la persona que llama con avisos de voz de un operador automático de conferencia y, luego, según cuál sea su configuración, puede reproducir notificaciones, solicitar a los autores de las llamadas que registren sus nombres y configurar la seguridad del PIN. El PIN se ofrece al organizador de la reunión de Microsoft Teams para que pueda iniciar una reunión si no puede hacerlo con la aplicación de Microsoft Teams. Sin embargo, puede configurarlo para que no se solicite al iniciar una reunión.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-meeting-join-options"></a>Configurar las opciones para unirse a una reunión
 
-1. En el panel de navegación izquierdo, vaya a **las reuniones** > **Puentes de conferencia**. 
+1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**. 
 
-2. En la parte superior de la página de **Puentes de conferencia** , haga clic en **Configuración de puente**. 
+2. En la parte superior de la página **Puentes de conferencia**, haga clic en **Configuración de puente**. 
 
-3. En el panel **configuración de puente** , habilitar o deshabilitar la **entrada de la reunión y salir de las notificaciones**. Esta opción está seleccionada de forma predeterminada. Si se desactiva, los usuarios que ya se han unido a la reunión no recibirá una notificación cuando alguien entra o sale de la reunión.
+3. En el panel **Configuración de puente**, habilite o deshabilite **Notificaciones de entrada y salida de la reunión**. Esta es la opción seleccionada de forma predeterminada, pero, si la desactiva, los usuarios que ya se hayan unido a la reunión no recibirán ninguna notificación cuando alguien entre en la reunión o la abandone.
     
-4. En **Tipo de anuncio de entrada o salida**, seleccione **Nombres o números de teléfono** o **Tonos**.
+4. En **Tipo de anuncios de entrada/salida**, seleccione **Nombres o números de teléfono** o **Tonos**.
     
-5. Si opta por **nombres o números de teléfono**, habilitar o deshabilitar **los autores de llamadas Ask para registrar su nombre antes de unirse a la reunión**.
+5. Si ha elegido **Nombres o números de teléfono**, habilite o deshabilite **Pida a los autores de llamadas que registren su nombre antes de unirse a la reunión**.
     
 6. Haga clic en **Guardar**.
 
@@ -58,7 +58,7 @@ Windows PowerShell se usa para administrar los usuarios y las acciones que puede
     
   - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Para obtener más información acerca de Windows PowerShell, vea la [referencia de PowerShell de los equipos de Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
+Para obtener más información sobre Windows PowerShell, consulte la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
   
 ## <a name="related-topics"></a>Temas relacionados
 
