@@ -11,7 +11,7 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 ms.openlocfilehash: 6c4c1acf659e391320f1fa713be0e8d6c9e09853
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23884099"
