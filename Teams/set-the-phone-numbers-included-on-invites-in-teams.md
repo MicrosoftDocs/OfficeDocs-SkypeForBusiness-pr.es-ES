@@ -1,5 +1,5 @@
 ---
-title: Establecer el teléfono los números incluidos en invitaciones en los equipos de Microsoft
+title: Establecer los números de teléfono incluidos en las invitaciones en Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,47 +19,47 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Obtener los pasos para crear un número de teléfono predeterminado para los autores de llamadas para unirse a una reunión de los equipos de Microsoft. '
+description: 'Vea los pasos que hay que seguir para crear un número de teléfono predeterminado con el que los autores de llamada puedan unirse a una reunión de Microsoft Teams. '
 ms.openlocfilehash: eddab0762b679dba08dd9981d6ae61a1403ebf47
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23882963"
 ---
-# <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Establecer el teléfono los números incluidos en invitaciones en Microsoft Teams
+# <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Establecer los números de teléfono incluidos en las invitaciones en Microsoft Teams
 
-Conferencias de audio en Office 365 permiten a los usuarios de la organización crear reuniones de Microsoft Teams y, a continuación, permitir a los usuarios para conectarse a las reuniones utilizando un teléfono. En Office 365, tendrá la opción de utilizar un puente de conferencia de audio de Microsoft o un puente de conferencia de audio de terceros que está hospedado en un proveedor de conferencias de audio aprobadas (ACP).
+Con Audioconferencia de Office 365, los usuarios de su organización pueden crear reuniones de Microsoft Teams y permitir que los usuarios accedan por teléfono a la reunión con un teléfono. En Office 365, tiene la opción de usar un puente de audioconferencia de Microsoft o usar un puente de audioconferencia de terceros que esté hospedado por un proveedor de servicios de audioconferencia (ACP) aprobado.
   
-Un puente de conferencia le proporciona un conjunto de números de teléfono de acceso telefónico para su organización. Todos ellos se pueden usar para unirse a las reuniones que ha creado un organizador de la reunión, pero puede seleccionar cuáles se incluirá en sus invitaciones de reunión.
+Un puente de conferencia ofrece un conjunto de números de teléfono de acceso telefónico local para su organización. Todos ellos se pueden usar para unirse a las reuniones que cree un organizador de reuniones, pero puede seleccionar cuáles se incluirán en las invitaciones.
   
 > [!NOTE]
-> Puede haber un máximo de un teléfono de pago y un número de teléfono gratuito en la invitación a la reunión para un organizador de la reunión, pero también hay un vínculo que se encuentra en la parte inferior de cada invitación a la reunión que se abre la lista completa de todos los números de teléfono de acceso telefónico que se pueden usar para unirse a una reunión. 
+> En la invitación para un organizador de reuniones, puede haber un máximo de un número de teléfono de pago y uno gratuito, aunque también habrá un vínculo situado en la parte inferior de cada invitación con el que se abre una lista de números de teléfono de acceso telefónico local que se pueden usar para unirse a una reunión. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Establecer o cambiar el número de teléfono de conferencia de audio predeterminada para un usuario o el organizador de la reunión
+## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Establecer o cambiar el número de teléfono de audioconferencia predeterminado para un usuario o un organizar de reunión
 
-1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
+1. En el panel de navegación izquierdo, haga clic en **Usuarios** y seleccione el usuario en la lista de usuarios disponibles.
 
-    ![Selección de los usuarios en el Microsoft Teams y Skype para el centro de administración de negocio de muestra](media/teamsselectusers.png)
+    ![Muestra la selección de Usuarios en el Centro de administración de Skype Empresarial y Microsoft Teams](media/teamsselectusers.png)
 
 2. En la parte superior de la página, haga clic en **Editar**.
 
-    ![Haga clic en Editar en los equipos de Microsoft y Skype para el centro de administración de negocio](media/teamsedituser.png)
+    ![Haga clic en Editar en el Centro de administración de Skype Empresarial y Microsoft Teams](media/teamsedituser.png)
 
-3. Junto a **Conferencias de Audio**, haga clic en **Editar**. 
+3. Junto a **Audioconferencia**, haga clic en **Editar**. 
     
-    ![Haga clic en Editar junto a la conferencia de Audio](media/teamseditaudioconf.png)
+    ![Haga clic en Editar junto a Audioconferencia](media/teamseditaudioconf.png)
 
-4. Use los campos de **número de teléfono de pago** o **número de teléfono gratuito** para escribir los números para el usuario.
+4. Use los campos **Número de pago** o **Número gratuito** para introducir los números para el usuario.
 
 
 > [!IMPORTANT]
-> Cuando se cambia la configuración de conferencia de audio de un usuario, las reuniones de Microsoft Teams periódicas y futuras deben actualiza y se envía a los asistentes. 
+> Cuando se cambia la configuración de audioconferencias de un usuario, también se tienen que actualizar las reuniones periódicas y futuras de Microsoft Teams y enviarlas a los asistentes. 
 
-## <a name="want-to-use-windows-powershell"></a>¿Desea usar Windows PowerShell?
+## <a name="want-to-use-windows-powershell"></a>¿Quiere usar Windows PowerShell?
 
 Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 con un único punto de administración que puede simplificar el trabajo diario cuando tenga que realizar varias tareas. Para empezar a usar Windows PowerShell, vea estos temas:
     
@@ -67,7 +67,7 @@ Windows PowerShell se usa para administrar los usuarios y las acciones que puede
     
   - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Para obtener más información acerca de Windows PowerShell, vea la [referencia de PowerShell de los equipos de Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información. 
+Para obtener más información sobre Windows PowerShell, consulte la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps). 
   
     
 ## <a name="related-topics"></a>Temas relacionados

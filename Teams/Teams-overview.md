@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: bb291c8bd338fa88d5d9b5788413c5e687fc0864
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23883782"
@@ -32,7 +32,7 @@ Microsoft Teams une todas las características de Office 365 para brindar un ver
 
 De forma predeterminada, Microsoft Teams aprovecha las identidades almacenadas en Azure Active Directory (Azure AD) y se integra con otros servicios de Office 365 para crear un sitio de SharePoint Online y una casilla de correo grupal de Exchange Online para cada equipo creado.
 
-Cualquier usuario con una cuenta de correo electrónico empresariales o de clientes, como Outlook, Gmail u otras personas, puede participar como invitado en los equipos. Todos los invitados en los equipos están cubiertos por la misma cumplimiento y la auditoría protección como el resto de Office 365 y los invitados pueden administrarse de forma segura dentro de Azure AD. Los administradores pueden centralmente administrar cómo participan invitados dentro de su entorno de Office 365 y fácilmente ver, agregar o revocar el acceso de invitado al inquilino de host.
+Todo contacto que tenga una cuenta de correo electrónico empresarial o de consumidor (como Outlook.com o Gmail.com) puede participar como invitado en Teams. Todos los invitados de Teams están protegidos con el mismo cumplimiento de normativas y auditorías que el resto de Office 365, y se pueden administrar de forma segura dentro de Azure AD. Los administradores pueden gestionar de forma centralizada la forma en la que los invitados participan dentro del entorno de Office 365, así como ver, agregar o revocar con facilidad el acceso de invitado al inquilino host.
 
 Teams proporciona una función de chat persistente, llamadas y reuniones, fácil acceso a otros componentes de Office 365 y una sólida historia de extensibilidad.  Todo ello crea un centro ideal para trabajar en equipo que se adecúa tanto a grandes empresas como pequeñas organizaciones y todos los que estén en medio.  
 
@@ -45,12 +45,12 @@ Microsoft Teams está construido a partir de tecnologías de Microsoft existente
 
 De manera predeterminada, un equipo creado en Microsoft Teams creará un grupo de Office 365, un sitio de SharePoint Online (completo con una biblioteca de documentos) y un buzón de Exchange Online para el grupo, que Microsoft Teams utilizará para almacenar información, como invitaciones a reuniones. Un equipo puede crearse a partir de grupos de Office 365 existentes, lo que permite que la pertenencia a grupos existente y el contenido almacenado en SharePoint Online y Exchange Online se traslade a Microsoft Teams.
 
-Para complementar la capacidad de los equipos, como un panel de chat persistente donde conversaciones informales y en tiempo real tienen lugar, los equipos también proporciona una llamada y la experiencia que se basa en la siguiente generación basada en la nube infraestructura que también se usa en Skype y Skype para la reunión Empresarial. Estas inversiones en tecnología incluyen servicios de nube basados en Azure para el procesamiento y la señalización de medios, códec de vídeo H.264, códecs de audio SILK y Opus, resiliencia de red, telemetría y diagnósticos de la calidad.
+Para complementar la funcionalidad de Teams como panel de chat persistente donde se llevan a cabo conversaciones informales en tiempo real, Teams también brinda una experiencia de reuniones y llamadas integrada en la infraestructura de próxima generación basada en la nube que también utilizan Skype y Skype Empresarial. Estas inversiones en tecnología incluyen servicios de nube basados en Azure para el procesamiento y la señalización de medios, códec de vídeo H.264, códecs de audio SILK y Opus, resiliencia de red, telemetría y diagnósticos de la calidad.
 
 Los grupos de Office 365 aprovechan las identidades almacenadas en Azure Active Directory (Azure AD) y, de esta manera, todas las funcionalidades de autenticación y autorización en Azure AD, como admisión de autenticación multifactor (MFA), están disponibles para su uso en Microsoft Teams.
 
 > [!NOTE]
-> En función de los comentarios del cliente, nuevo Office 365 grupos generados como resultado de la creación de un equipo en Microsoft Teams se ya no se mostrarán en Outlook de forma predeterminada. Para los clientes que desean continuar con el comportamiento existente de mostrar estos grupos en Outlook, se proporcionará un cmdlet de PowerShell en línea de Exchange que puede habilitar el grupo para la experiencia de Outlook. Grupos creado a través de Outlook y, a continuación, más adelante habilitado para los equipos seguirán mostrar en Outlook y en los equipos. Esta actualización va a gradualmente roll out a través de Outlook y los equipos en los próximos meses.
+> En función de los comentarios de los clientes, los nuevos grupos de Office 365 que se generaron como resultado de la creación de un equipo en Microsoft Teams dejarán de aparecer en Outlook de forma predeterminada. Para los clientes que quieren seguir con el comportamiento existente por el que se muestran estos grupos en Outlook, se proporcionará un cmdlet PowerShell de Exchange Online con el que se habilita el grupo para la experiencia de Outlook. Los grupos que se crean a través de Outlook y que después se habilitan para Teams se seguirán mostrando tanto en Outlook como en Teams. Esta actualización se implantará gradualmente en Outlook y Teams en los próximos meses.
 
 
 <a name="microsoft-teams-and-office-365"></a>Microsoft Teams y Office 365
@@ -76,7 +76,7 @@ He aquí los casos de uso comunes para cada aplicación en Office 365. Para obte
 
 -   Ayuda a los equipos a iterar rápidamente en un proyecto, a la vez que comparten archivos y colaboran en entregas compartidas.
 
--   Permite a los usuarios para conectarse a una amplia variedad de herramientas en su área de trabajo (por ejemplo, el organizador, Power BI, depósito, etcetera).
+-   Permite a los usuarios conectar una amplia gama de herramientas en su espacio de trabajo (como Planner, Power BI, GitHub, etc.).
 
 ![Icono de Microsoft Outlook.](media/Overview_of_Microsoft_Teams_image2.png)
 
@@ -117,6 +117,6 @@ He aquí los casos de uso comunes para cada aplicación en Office 365. Para obte
 
 ## <a name="teams-known-issuesknown-issuesmd"></a>[Problemas conocidos de Microsoft Teams](Known-issues.md)
 
-## <a name="teams-client-release-noteshttpssupportofficecomarticlerelease-notes-for-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de"></a>[Notas de la versión del cliente de Microsoft Teams](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
+## <a name="teams-client-release-noteshttpssupportofficecomarticlerelease-notes-for-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de"></a>[Notas de la versión del cliente de Teams](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
 
 

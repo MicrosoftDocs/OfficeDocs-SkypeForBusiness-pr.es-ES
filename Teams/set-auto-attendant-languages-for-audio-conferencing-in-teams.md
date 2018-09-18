@@ -1,5 +1,5 @@
 ---
-title: Establecer los idiomas de operador automático para conferencias de Audio en Microsoft Teams
+title: Establecer los idiomas del operador automático para Audioconferencia en Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,40 +15,40 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Vea cómo seleccionar los idiomas operador automático de conferencia de audio para un número de conferencias de audio en Microsoft Teams.
-ms.openlocfilehash: 4be8da4bf65d189c2bfba5ceb8dd6cc7a1cbee53
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: MT
+description: Vea cómo se seleccionan los idiomas del operador automático de audioconferencias para un número de audioconferencia en Microsoft Teams.
+ms.openlocfilehash: 73498e348b45b0fa2d9996344b569a92320a06b6
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23853378"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23893021"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Establecer los idiomas de operador automático para conferencias de Audio en Microsoft Teams
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Establecer los idiomas del operador automático para Audioconferencia en Microsoft Teams
 
-El operador automático de conferencia de Audio para Microsoft Teams puede saludar a los autores de llamadas de audioconferencias en un número de diferentes idiomas unirse a una reunión.
+El operador automático de audioconferencias para Microsoft Teams puede saludar en diferentes idiomas a los que realizan una llamada de audio cuando se unen a una reunión.
   
-Elija un idioma principal y hasta cuatro idiomas secundarios. El idioma principal que ha configurado en primer lugar se va a usar y los idiomas secundarios utilizará el operador automático de forma que seleccione. 
+Elija un idioma principal y hasta cuatro idiomas secundarios. El operador automático usará el idioma principal que configure en primer lugar y los idiomas secundarios, en el orden que seleccione. 
   
 > [!NOTE]
->  Puede configurar los idiomas en sólo los números de teléfono de acceso nacional de audio.
+>  Puede configurar los idiomas solo en números de acceso telefónico nacionales.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="set-the-conferencing-auto-attendant-languages"></a>Configurar la conferencia de idiomas de operador automático
+## <a name="set-the-conferencing-auto-attendant-languages"></a>Establecer los idiomas del operador automático de conferencia
 
-1. En el panel de navegación izquierdo, vaya a **las reuniones** > **Puentes de conferencia**.
+1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**.
 
-2. Seleccione el número de teléfono de conferencia de audio de la lista y, en la parte superior de la página, haga clic en **Editar**.
+2. Seleccione el número de teléfono de audioconferencia en la lista y, en la parte superior de la página, haga clic en **Editar**.
 
-3. En el panel de la derecha, seleccione el idioma predeterminado que desee y los idiomas alternativos. 
+3. En el panel de la derecha, seleccione el idioma predeterminado que desee y los alternativos. 
  
     > [!NOTE]
-    > Se enumeran los predeterminados y los idiomas alternativos que se admiten. El orden en que los seleccione en las listas de será el orden de los idiomas que se presentan a los autores de llamadas. 
+    > En la lista se mostrarán los idiomas principal y alternativos que se admiten. Los idiomas se presentarán a los autores de llamadas en el mismo orden en el que los seleccione en la lista. 
 
 4. Haga clic en **Guardar**.
 
@@ -61,9 +61,9 @@ Elija un idioma principal y hasta cuatro idiomas secundarios. El idioma principa
     
 - Para ver una lista de países o regiones en la que está disponible la audioconferencia en Office 365 con Microsoft como proveedor, vea [Números de teléfono para audioconferencias](phone-numbers-for-audio-conferencing-in-teams.md).
     
-## <a name="want-to-use-windows-powershell"></a>¿Desea usar Windows PowerShell?
+## <a name="want-to-use-windows-powershell"></a>¿Quiere usar Windows PowerShell?
 
-Vea la [referencia de PowerShell de los equipos de Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
+Vea la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
   
 ## <a name="related-topics"></a>Temas relacionados
 

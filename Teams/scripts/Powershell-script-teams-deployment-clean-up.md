@@ -1,25 +1,25 @@
 ---
-title: 'Ejemplo de Script de PowerShell: ofrece asistencia con la implementación de equipos de Microsoft para limpiar'
+title: 'Ejemplo de script de PowerShell: asistencia con la limpieza de implementaciones de Microsoft Teams'
 author: Lester-Hewett
 ms.author: lehewe
 manager: serdars
 ms.date: 03/21/2018
 ms.topic: article
 ms.service: msteams
-description: Use este script de PowerShell para limpiar Microsoft Teams en equipos de destino o para usuarios específicos.
+description: Use este script de PowerShell para limpiar Microsoft Teams en máquinas de destino o usuarios específicos.
 localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 ms.openlocfilehash: 9b95ca42e1f110b72d092ada65b2d672627fac4f
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23887285"
 ---
-<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a>Ejemplo de Script de PowerShell: implementación de Microsoft Teams limpiar
+<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a>Ejemplo de script de PowerShell: limpieza de implementaciones de Microsoft Teams
 -------------------------------------------------------------------------
 
-Puede aprovechar esta secuencia de comandos de PowerShell para la limpieza de Microsoft Teams desde equipos de destino o los usuarios. Se debe ejecutar para todos los usuarios en un equipo de destino. 
+Este script de PowerShell se puede utilizar para la limpieza de Microsoft Teams en usuarios o máquinas de destino. Se debe ejecutar para cada usuario de una máquina de destino. 
 
 
 ## <a name="sample-script"></a>Ejemplo de script

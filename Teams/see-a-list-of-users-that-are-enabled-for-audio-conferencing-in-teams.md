@@ -1,5 +1,5 @@
 ---
-title: Ver una lista de los usuarios que están habilitados para conferencias de Audio en Microsoft Teams
+title: Consultar una lista de usuarios que se han habilitado para Audioconferencia en Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,36 +19,36 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Obtenga información sobre cómo ver una lista de los usuarios de la organización que están habilitados para las conferencias de acceso telefónico desde dentro de Microsoft Teams. '
+description: 'Descubra cómo se puede ver una lista de usuarios de su organización que estén habilitados para la conferencia de acceso telefónico local desde Microsoft Teams. '
 ms.openlocfilehash: 9bbdd5fd8536554c942db19c8c9f5ac41789c461
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23884450"
 ---
-# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Ver una lista de los usuarios que están habilitados para conferencias de Audio en Microsoft Teams
+# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Consultar una lista de usuarios que se han habilitado para Audioconferencia en Microsoft Teams
 
-Después de haber habilitado a los usuarios de Microsoft Teams en su organización para conferencias de Audio, puede ver la lista de los usuarios que han sido habilitados. Cuando examine la lista, también verá para cada usuario en la lista el tipo de proveedor de conferencias de audio que están usando, el número de teléfono de acceso telefónico predeterminada para el usuario, y si su organización no está habilitada para los identificadores de conferencia dinámico, la conferencia estática identificadores para las reuniones de conferencia de audio que organizan.
+Después de habilitar a los usuarios de Microsoft Teams de su organización para las audioconferencias, puede ver la lista de esos usuarios habilitados. En la lista también verá el tipo de proveedor de servicios de audioconferencia que está usando cada usuario incluido, así como su número de teléfono de acceso telefónico predeterminado y, si la organización no está habilitada para los Id de conferencia dinámicos, los Id. de conferencia estáticos de las reuniones de audioconferencia que organicen.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>Ver una lista de los usuarios
 
-- En el panel de navegación izquierdo, haga clic en **usuarios**.
+- En el panel de navegación izquierdo, haga clic en **Usuarios**.
 
 
 ## <a name="what-else-should-i-know"></a>¿Qué más debo saber?
 
-- Al ver la lista de usuarios que están habilitadas, puede seleccionar un usuario de la lista para modificar la configuración de conferencia de audio para ese usuario.
+- Cuando vea la lista de usuarios que están habilitados, puede seleccionar un usuario de la lista para editar la configuración de audioconferencia para ese usuario.
     
-- Cuando se selecciona un único usuario que está configurado para usar Microsoft como proveedor de conferencias de audio, puede ver el número de teléfono predeterminado y si la organización está habilitada para los identificadores de conferencia dinámico y puede restablecer el identificador de conferencia para las reuniones que el Organiza el usuario.
+- Cuando se selecciona un solo usuario que está configurado para usar Microsoft como proveedor de servicios de audioconferencia, puede ver el número de teléfono predeterminado y, si la organización está habilitada para los Id de conferencia dinámicos, puede restablecer el id. de conferencia para las reuniones que organice el usuario.
     
-- Cuando se selecciona un único usuario al que está configurado para usar un proveedor de conferencia de audio de terceros, puede ver el nombre del proveedor de conferencias de audio, el número de teléfono de pago y el número de teléfono gratuito (si se configuran).
+- Cuando se selecciona un solo usuario que está configurado para usar un proveedor de servicios de audioconferencia de terceros, puede ver el nombre del proveedor de servicios de audioconferencia, el número de teléfono de pago y el número de teléfono gratuito (si se han configurado).
     
    
-- Puede usar el botón Buscar para buscar un usuario individual en la lista.
+- Puede usar el botón de búsqueda para encontrar un usuario concreto en la lista.
     
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
@@ -59,7 +59,7 @@ Windows PowerShell se usa para administrar los usuarios y las acciones que puede
     
   - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Para obtener más información acerca de Windows PowerShell, vea la [referencia de PowerShell de los equipos de Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
+Para obtener más información sobre Windows PowerShell, consulte la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
     
 ## <a name="related-topics"></a>Temas relacionados
 

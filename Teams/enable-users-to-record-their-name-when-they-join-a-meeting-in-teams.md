@@ -1,5 +1,5 @@
 ---
-title: Habilitar a los usuarios registrar su nombre cuando se unan a una reunión en Microsoft Teams
+title: Habilitar que los usuarios registren su nombre cuando se unan a una reunión en Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,19 +15,19 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Obtenga información sobre cómo habilitar o deshabilitar si los usuarios pueden registrar sus nombres unirse a una reunión en Microsoft Teams.
-ms.openlocfilehash: 55aa14f53e71bb13c7219e3730cf91388b566047
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: MT
+description: Vea cómo puede habilitar o deshabilitar a los usuarios para que registren su nombre cuando se unan a una reunión en Microsoft Teams
+ms.openlocfilehash: c09cd9b5fd0a8934c61a37212de53d750f7deac7
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850796"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23893005"
 ---
-# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Habilitar a los usuarios registrar su nombre cuando se unan a una reunión en Microsoft Teams
+# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Habilitar que los usuarios registren su nombre cuando se unan a una reunión en Microsoft Teams
 
 [] Al configurar las conferencias de acceso telefónico local en Skype Empresarial Online, recibirá números de teléfono y lo que se denomina un puente de audioconferencia o de conferencia de acceso telefónico local. Un puente de conferencia puede contener uno o más números de teléfono que pueden ser un número de teléfono dedicado o compartido.
   
@@ -36,13 +36,13 @@ El puente de conferencia responde a la llamada de un usuario que llama a una reu
   
 ## <a name="set-whether-callers-should-record-their-name"></a>Establecer si los autores de las llamadas tienen que grabar sus nombres
 
-1. En el panel de navegación izquierdo, vaya a **las reuniones** > **Puentes de conferencia**. 
+1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**. 
 
-2. En la parte superior de la página de **Puentes de conferencia** , haga clic en **configuración de puente**. 
+2. En la parte superior de la página **Puentes de conferencia**, haga clic en **Configuración de puente**. 
 
-3. Habilitar o deshabilitar la **entrada de la reunión y salir de las notificaciones**.
+3. Habilite o deshabilite **Notificaciones de entrada y salida de la reunión**.
 
-4. Si habilita las notificaciones, elija **nombres o números de teléfono** en **tipo de anuncio de entrada o salida**y, a continuación, activar **formular a los autores de llamadas para registrar su nombre antes de unirse a una reunión.**
+4. Si habilita las notificaciones, seleccione **Nombres o números de teléfono** en **Tipo de anuncios de entrada/salida** y después active **Pida a los autores de llamadas que registren su nombre antes de unirse a la reunión**.
 
 6. Haga clic en **Guardar**.
     
@@ -57,7 +57,7 @@ Windows PowerShell se usa para administrar los usuarios y las acciones que puede
     
   - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Para obtener más información acerca de Windows PowerShell, vea la [referencia de PowerShell de los equipos de Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
+Para obtener más información sobre Windows PowerShell, consulte la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
   
 ## <a name="related-topics"></a>Temas relacionados
 

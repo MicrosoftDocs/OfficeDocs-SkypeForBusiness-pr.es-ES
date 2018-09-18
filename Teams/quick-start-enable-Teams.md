@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 56033a3efc5e163ddd67f6f45bff590204c03783
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23882086"
@@ -47,7 +47,7 @@ Vea este breve vídeo con sencillas instrucciones que se deben tener en cuenta a
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
-Si Microsoft Teams no está habilitado en el inquilino de Office 365 y son un Office 365 administrador seguir las instrucciones que aparecen en nuestro artículo [administrar el acceso de usuarios a los equipos](user-access.md) para asegurarse de los usuarios tienen acceso a la aplicación.
+Si Microsoft Teams no está habilitado en su inquilino de Office 365 y es un administrador de Office 365, siga las instrucciones que aparecen en nuestro artículo [Administrar el acceso de los usuarios a Teams](user-access.md) para garantizar que los usuarios tengan acceso a la aplicación.
 
 ## <a name="step-3-complete-technical-planning"></a>Paso 3: complete la planificación técnica
 

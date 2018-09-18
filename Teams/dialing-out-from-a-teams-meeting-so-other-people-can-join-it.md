@@ -1,5 +1,5 @@
 ---
-title: Marcar desde una reunión de Microsoft Teams por lo que otras personas pueden unirse a ella
+title: Llamar desde una reunión de Microsoft Teams para que otras personas puedan unirse
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,41 +15,41 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Obtenga información sobre lo que necesita y cómo los organizadores de reuniones pueden llamar a otras personas con los equipos.
-ms.openlocfilehash: b4e0fc6d2f6f15e53a3802b2676f1859a992b696
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: MT
+description: Aprenda todo lo que necesita y cómo los organizadores de reuniones pueden llamar a otras personas con Teams.
+ms.openlocfilehash: 498f03e5ff42c3c99b6e151c05e1c6174054db46
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860528"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23892997"
 ---
-# <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Marcar desde una reunión de Microsoft Teams por lo que otras personas pueden unirse a ella
+# <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Llamar desde una reunión de Microsoft Teams para que otras personas puedan unirse
 
-Como organizador de la reunión, puede marcar con la aplicación de los equipos para permitir que otras personas a unirse a la reunión misma mediante su teléfono. Aunque no es necesario, cuando llama a alguien se recomienda que llame al número completo, incluido el código de región o país. Para llamar al trabajo:
+Como organizador de la reunión, puede llamar con la aplicación de Teams para que otras personas se unan a la misma reunión con su teléfono. Aunque no es necesario, cuando llama a alguien, se recomienda que marque el número completo, incluido el código de región o país. Para llamar al trabajo:
   
-- Puede de salida sólo si se une a una reunión mediante los equipos.
+- Puede llamar solo si se une a una reunión con Teams.
     
-- Como organizador de la reunión, está habilitado para las conferencias de acceso telefónico local.
+- Como organizador de la reunión, se le ha habilitado para las audioconferencias.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
- **Paso 1:** En la reunión, use las **personas agregar** ![botón de agregar personas](media/add-people-button.png) opción Marcar un número de teléfono.
+ **Paso 1:** En la reunión, use la opción **Agregar personas** ![botón Agregar personas](media/add-people-button.png) para llamar a un número de teléfono.
   
   
- **Paso 2:** Escriba el número de teléfono completo, incluido el código de país o región en el cuadro **Invitar a alguien o marcar un número** .
+ **Paso 2:** Escriba el número de teléfono completo incluyendo el código del país o la región en el cuadro **Invite a alguien o marque un número**.
   
-![Invitar a alguien o un cuadro de número de marcado](media/invite-someone-box.png)
+![Cuadro Invite a alguien o marque un número](media/invite-someone-box.png)
   
-## <a name="supported-countries-and-regions"></a>Países y regiones admitidas
+## <a name="supported-countries-and-regions"></a>Países y regiones compatibles
 
-Dial-out is only available to some countries/regions. Para obtener una lista completa, vea [disponibilidad de país y región para las conferencias de Audio y planes de llamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+La aceptación de llamadas solo está disponible en algunos países o regiones. Para ver una lista completa, consulte [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
-## <a name="want-to-know-more-about-audio-conferencing"></a>¿Desea saber más sobre las conferencias de acceso telefónico local?
+## <a name="want-to-know-more-about-audio-conferencing"></a>¿Quiere saber más sobre la audioconferencia?
 
 [Probar o comprar Audioconferencia en Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
     
