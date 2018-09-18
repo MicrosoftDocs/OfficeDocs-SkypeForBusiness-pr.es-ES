@@ -3,6 +3,7 @@ title: Comunicarse con los usuarios de los equipos de otra organización.
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
+ms.date: 09/12/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -13,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Vea cómo configurar los equipos para permitir a los usuarios comunicarse con usuarios de otra organización.
-ms.openlocfilehash: da76d75ba44215b11b68550fa06d1fab87f19e56
-ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
+ms.openlocfilehash: d7423109d4fba01ca85c1602bfcf92190b539abf
+ms.sourcegitcommit: 116d17befc17503968e00e45be338834aa2185b2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23937830"
+ms.lasthandoff: 09/18/2018
+ms.locfileid: "23998630"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir que el chat de los usuarios de los equipos y comunicarse con los usuarios de otra organización de los equipos
 
@@ -30,9 +31,11 @@ Siga los pasos de este artículo cuando:
     
 - Cualquier persona que desee en el mundo que usa los equipos que puedan buscar y ponerse en contacto con usted, utilizando su dirección de correo electrónico. Si usted y otro usuario tanto habilitación el acceso externo y permitir que los demás dominios, esto funcionará. Si no funciona, el otro usuario, debe asegurarse de que su o su configuración no esté bloqueando su dominio.
 
-Siga estos pasos:
+Esto le permitirá a los usuarios buscar, llamar y enviar mensajes instantáneos, así como configurar reuniones con usted. Si desea que los usuarios externos tengan acceso a los equipos y los canales, acceso de invitado podría ser una mejor manera para ir. Siga los pasos descritos en este artículo y asegúrese de que al [activar el acceso de invitado](set-up-guests.md) para que los usuarios puedan comunicarse.
 
 ## <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir que el chat de los usuarios de los equipos y comunicarse con los usuarios de otra organización de los equipos
+
+Siga estos pasos.
 
 ### <a name="step-1---make-sure-to-set-up-the-ports-and-urls-that-are-needed"></a>Paso 1: asegúrese de configurar los puertos y direcciones URL que son necesarios.
 
