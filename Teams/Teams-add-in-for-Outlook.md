@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2012322b4707d4f581e4a1ff3798674b976963a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 65ad125380a60116592a68eeac466c46d7daa723
+ms.sourcegitcommit: 2a1766158b21f0387cd8e4a00aab2dcde4059fbb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892645"
+ms.lasthandoff: 09/18/2018
+ms.locfileid: "23998995"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -71,6 +71,7 @@ El complemento para reunión de Microsoft Teams sigue en proceso de desarrollo p
 
 Si no se puede obtener la reunión de los equipos de complemento para Outlook instalar, intente estos pasos para solucionar problemas.
 
+- Asegúrese de que se han aplicado todas las actualizaciones disponibles para el cliente de escritorio de Outlook 
 - Reinicie al cliente de escritorio de los equipos.
 - Cierre la sesión y, a continuación, iniciar una sesión en el cliente de escritorio de los equipos.
 - Reinicie al cliente de escritorio de Outlook. (Asegúrese de que Outlook no se está ejecutando en modo de administrador.)

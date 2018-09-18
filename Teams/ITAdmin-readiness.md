@@ -12,12 +12,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e22b00b8e6e4d4d6c1eb5b53d8f1762e602bdd37
-ms.sourcegitcommit: 866c33e2e3e41a06bf240b3d86e60e9fa35f22f7
+ms.openlocfilehash: 04f8951422737ebe0b8371797f57c734632f8843
+ms.sourcegitcommit: 2a1766158b21f0387cd8e4a00aab2dcde4059fbb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2018
-ms.locfileid: "23968508"
+ms.lasthandoff: 09/18/2018
+ms.locfileid: "23998987"
 ---
 <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 ==================================
@@ -36,9 +36,9 @@ Descubra Microsoft Teams y fomente su uso en su organización. Vuelva a visitar 
 | [Tutorial: Comprender las llamadas en Microsoft Teams](tutorial-calling-in-teams.yml)  |  Este documento de formación presenta las funcionalidades de llamada de Microsoft Teams, que se basan en la función Sistema telefónico en Office 365. Incluye una explicación de la planificación técnica necesaria para implementar Sistema telefónico, cómo configurarlo y cómo supervisar el uso y la calidad de las llamadas en la implementación.  |
 | [Vídeos de Audioconferencia](audio-conferencing-videos.md) |Vídeos que presentan la Audioconferencia en Microsoft Teams al administrador de TI.  |
 | [Tutorial: Reuniones en Teams](tutorial-meetings-in-teams.yml) | Este curso presenta las reuniones en los equipos. En ella se tratan las capacidades de la reunión, además de los requisitos y las consideraciones de planeación. |
-| Fundamentos de los equipos de Microsoft para profesionales de TI  |<iframe width="320" height="240" src="https://www.youtube.com/embed/xJBvJTDiQqg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>| 
+| Fundamentos de los equipos de Microsoft para profesionales de TI  |<iframe width="320" height="240" src="https://www.youtube.com/embed/xJBvJTDiQqg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>|
 | Implementar y usar Microsoft Teams   | <iframe width="320" height="240" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
-| Cliente de escritorio de Windows   | <iframe width="320" height="240" src="https://www.youtube.com/embed/zp1_wGzq1ic?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> | 
+| Cliente de escritorio de Windows   | <iframe width="320" height="240" src="https://www.youtube.com/embed/zp1_wGzq1ic?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> |
 | Directo de enrutamiento para los equipos de Microsoft (vista previa)   | <iframe width="320" height="240" src="https://www.youtube.com/embed/dVkc5Bs926Q" frameborder="0" allowfullscreen></iframe>   |
 | Información especializada sobre el acceso de invitado <br>Un café en la sesión de Cloud con Laith Al y Karuana Gatimu  | <iframe width="320" height="240" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
 | e-Discovery en Microsoft Teams <br> Un café en la sesión de Cloud con Ansuman Acharya y Karuana Gatimu  | <iframe width="320" height="240" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |

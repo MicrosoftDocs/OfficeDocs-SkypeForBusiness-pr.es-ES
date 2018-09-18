@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1028f599b3b5cacf23fa920b85c42cf8a5bd4673
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: bfd2c7efd606a143fffca25c7379f2a29bf505da
+ms.sourcegitcommit: 2a1766158b21f0387cd8e4a00aab2dcde4059fbb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884238"
+ms.lasthandoff: 09/18/2018
+ms.locfileid: "23999027"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Guía de interoperabilidad y migración para las organizaciones que utilizan los equipos junto con Skype para la empresa
 
@@ -63,15 +63,14 @@ Para tener en cuenta para la introducción de modos de coexistencia y la retirad
 
 5.  Interoperabilidad entre los equipos y Skype para usuarios profesionales sólo es posible *Si el usuario de los equipos está hospedado en línea en Skype para la empresa*. El Skype para usuario empresarial puede estar alojado ya sea local (y requiere la configuración de Skype para entornos híbridos de negocio) o en línea. Los usuarios que están hospedados en Skype para empresarial local pueden usar los equipos en modo de islas (definido más adelante en este documento), pero que no se pueden usar los equipos a la interoperabilidad o federar con otros usuarios que utilizan Skype para la empresa.  
 
-6.  Para actualizar un usuario a los equipos (es decir, conceder TeamsUpgradePolicy con el modo = TeamsOnly), el usuario debe estar alojado en línea en Skype para la empresa. Este proceso es necesario para garantizar la interoperabilidad, la federación y la administración completa del usuario de los equipos. Para actualizar los usuarios que se encuentran ubicados en local, use `Move-CsUser` desde el local herramientas admin al primer movimiento al usuario Skype para profesionales en línea. A continuación, conceder TeamsUpgradePolicy y TeamsInteropPolicy para el usuario en línea o usar Portal moderno para asignar el modo de TeamsOnly.
+6.  Para actualizar un usuario a los equipos (es decir, conceder TeamsUpgradePolicy con el modo = TeamsOnly), el usuario debe estar alojado en línea en Skype para la empresa. Este proceso es necesario para garantizar la interoperabilidad, la federación y la administración completa del usuario de los equipos. Para actualizar los usuarios que se encuentran ubicados en local, use `Move-CsUser` desde el local herramientas admin al primer movimiento al usuario Skype para profesionales en línea. A continuación, conceder TeamsUpgradePolicy y TeamsInteropPolicy para el usuario en línea o usar Portal moderno para asignar el modo de TeamsOnly. Una vez CU8 para Skype para incluye Business Server 2015, atención al cliente puede usar simplemente el nuevo `-MoveToTeams` cambiar en `Move-CsUser` que combina estos 2 pasos en 1.
 
 7.  Las directivas de núcleo para la administración de actualización y la interoperabilidad son TeamsUpgradePolicy y TeamsInteropPolicy.  Sin embargo, TeamsInteropPolicy es en el proceso que se retira y toda la funcionalidad de será reemplazada por TeamsUpgradePolicy. Hasta que se complete la transición, los clientes deben establecer TeamsUpgradePolicy y TeamsInteropPolicy coherentemente (como se describe [posterior](#important) en este documento) para garantizar el funcionamiento correcto, o usar el nuevo Portal moderno, que hace esto automáticamente.
 
 8.  Para usar las características del sistema de teléfono de los equipos, los usuarios deben ser en modo de TeamsOnly (es decir, alojados en Skype para profesionales en línea y actualizar a los equipos), y se debe configurar para Microsoft teléfono del sistema enrutamiento directo (que le permite usar el sistema telefónico con su propios SIP troncos y SBC) o disponer de un Plan de llamada de 365 de Office. Enrutamiento directo está [disponible para el público](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) a partir del 28 de junio de 2018.  
 
-9.  Programación de reuniones de los equipos con las conferencias de Audio (marcado o llamada de salida a través de RTC) actualmente sólo está disponible para los usuarios que están hospedados en Skype para profesionales en línea. Soporte técnico para los usuarios de los equipos con un Skype local para la cuenta de empresa es planeado.
+9.  Programación de reuniones de los equipos con las conferencias de Audio (marcado o llamada de salida a través de RTC) actualmente sólo está disponible para los usuarios que están hospedados en Skype para profesionales en línea. Soporte técnico para los usuarios de los equipos con un Skype local para la cuenta de empresa está en puntee dos veces en.
 
-10. El enrutamiento de mensajes para las organizaciones que aún no se ha habilitado para el servicio de presencia unificada (UPS) no respeta TeamsInteropPolicy (ChatDefaultClient) o TeamsUpgradePolicy (modo). Implantación de SAI (UPS) finaliza a través de las próximas semanas, se respetan TeamsInteropPolicy o TeamsUpgradePolicy. TeamsUpgradePolicy finalmente sólo tendrá en cuenta.
 
 ## <a name="coexistence-modes"></a>Modos de coexistencia
 
@@ -165,7 +164,7 @@ Use la siguiente sintaxis de cmdlet, donde $policy es uno de los valores anterio
 
 ## <a name="federation-considerations"></a>Consideraciones sobre la federación
 
-Federación desde los equipos a otro usuario usar Skype para la empresa requiere que el usuario de los equipos se hospedado en línea en Skype para la empresa. La federación es en piloto y progresivamente se encuentre disponible. Si la organización requiere la federación, no se debería actualizar hasta que la compatibilidad de federación está en su lugar. Finalmente, los equipos de los usuarios alojados en Skype para empresarial local podrán federar con otros usuarios de los equipos.
+Federación desde los equipos a otro usuario usar Skype para la empresa requiere que el usuario de los equipos se hospedado en línea en Skype para la empresa. Finalmente, los equipos de los usuarios alojados en Skype para empresarial local podrán federar con otros usuarios de los equipos.
 
 Una vez habilitada la compatibilidad con la federación, TeamsUpgradePolicy (junto con TeamsInteropPolicy durante la transición) regula el enrutamiento de llamadas y chats federados entrantes. Para facilitar la otras organizaciones iniciar comunicaciones federadas con los usuarios de su organización, se recomienda elegir un modo que enruta específicamente cualquiera a Skype empresarial o los equipos, en lugar de islas.
 </br>
@@ -267,10 +266,6 @@ En función de seguro comentarios de clientes TAP y otros primeros usuarios, Mic
 |**ESTADO**|Ahora, puntee en clientes ver tres modos en el UX. Admin Tal y como se admiten para cambiar #1 territorios, modos adicionales estarán disponibles. Modo de SfBOnly actualmente impide que los usuarios el uso de los equipos, pero lo hará en el futuro. |
 |||
 
-## <a name="known-issues"></a>Problemas conocidos
-
-- Al crear nuevas conversaciones en los equipos, chats no respetan aún TeamsUpgradePolicy o TeamsInteropPolicy del usuario de destino. Se prevé una corrección.
-- Al crear nuevas conversaciones en Skype para la empresa, chats no aún respetan TeamsUpgradePolicy o TeamsInteropPolicy si la organización todavía no está habilitada para la interoperabilidad de mensajería y SAI (UPS).
 
 ## <a name="related-topics"></a>Temas relacionados
 
