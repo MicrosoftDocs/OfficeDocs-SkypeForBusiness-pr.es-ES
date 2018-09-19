@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4c3f795df06735c735ac29b6f46c6c8d8e9d46c
-ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
+ms.openlocfilehash: a422cb18cf6105ead7f0a76096a6cb5a755a1906
+ms.sourcegitcommit: 8537814aabddd7e7a6d1148c8c71ea14ae0c499a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23937869"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24009048"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams 
 =========================================
@@ -35,12 +35,14 @@ En la siguiente tabla se ofrece información para usuarios con Exchange Online h
 
 | El buzón del usuario se hospeda en: | eDiscovery| Suspensión legal | Retención| Equipo y canal mgmt |Crear y ver reuniones| Modificar la imagen de perfil de usuario | Historial de llamadas | Administrar contactos | Obtener acceso a los contactos de Outlook | Correo de voz |Agregar y configurar conectores|Agregar y configurar fichas|Agregar y configurar bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|
-|**Exchange Online Dedicated vNext**|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|
-|**Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)|Sí ([lista de permitidos](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|No|No|Sí|No|No|Sí|Sí|No|No|No|Sí|Sí|
-|**Exchange local** (requiere sincronización con Azure AD)|Sí ([lista de permitidos](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|No|No|Sí|Sí (Exchange 2016 CU3 +)|No|Sí|Sí|No|No|No|No|Sí|
+|**Exchange Online**|Sí<sup>2</sup>|Sí<sup>2</sup>|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|
+|**Exchange Online Dedicated vNext**|Sí<sup>2</sup>|Sí<sup>2</sup>|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|
+|**Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)|Sí ([lista de permitidos](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))<sup>2</sup>|Sí,<sup>2, 3</sup>|No|Sí|No|No|Sí|Sí|No|No|No|Sí|Sí|
+|**Exchange local** (requiere sincronización con Azure AD)|Sí ([lista de permitidos](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))<sup>2</sup>|Sí,<sup>2, 3</sup>|No|Sí|Sí (Exchange 2016 CU3 +)|No|Sí|Sí|No|No|No|No|Sí|
                                                             
-*\*Exchange 2016 CU3 y las versiones posteriores son compatibles*
+<sup>1</sup> CU3 de 2016 admite exchange y por encima de  
+<sup>2</sup> de exhibición de documentos electrónicos y retención Legal para el cumplimiento de mensajes del canal es compatible con todas las opciones de hospedaje.  
+<sup>3</sup> mensajes de chat privado de los equipos aún de no admiten la suspensión Legal para esta opción de hospedaje.
 
 Información adicional:
 
@@ -55,6 +57,8 @@ Información adicional:
 -   Es necesario habilitar a los usuarios para que puedan crear grupos de Office 365 y así poder crear equipos en Microsoft Teams.
 
 -   En Microsoft Teams, las características de seguridad y cumplimiento (como la exhibición de documentos electrónicos, la búsqueda de contenido, el archivo y la retención legal) funcionan mejor en los entornos de Exchange Online y SharePoint Online. Para las conversaciones del canal, se crea un diario con los mensajes en el buzón del grupo en Exchange Online, y así están disponibles para la exhibición de documentos electrónicos. Si SharePoint Online y OneDrive para la Empresa (usando una cuenta profesional o educativa) están habilitados en toda la organización y para los usuarios, estas características de cumplimiento están disponibles también para todos los archivos de Teams.
+
+-   Para Exchange local (implementación híbrida), debe configurar OAuth tal como se describe en [Configurar OAuth autenticación entre organizaciones de Exchange y Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx). 
 
 > [!NOTE]
 > Por el momento, si su organización tiene ciertas normativas por las que se tienen que poder detectar todas las discusiones de las reuniones, debe deshabilitar las reuniones privadas si el organizador tiene un buzón de correo local de Exchange.
