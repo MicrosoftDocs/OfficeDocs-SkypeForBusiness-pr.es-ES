@@ -11,12 +11,12 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4085a0da14c1b3ee298247acd28f5a7bccf2ee53
-ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
+ms.openlocfilehash: 8177d7b4fa6768163c225a385229a356b49e1425
+ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23937893"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "23999215"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -47,6 +47,17 @@ En este artículo se enumera los problemas conocidos de Microsoft Teams, por ár
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |No se puede eliminar los conectores como propietario de un equipo  <br/> |Si se intenta eliminar un conector como un propietario, que en caso contrario, puede agregar un conector, mientras "Permitir miembros para crear, actualizar y quitar conectores" está deshabilitada se produce un error que indica que el usuario no tiene permiso para hacerlo. <br/> |Habilitar temporalmente "Permitir miembros crear, actualizar y quitar conectores" le permitirá el propietario para eliminar el conector.  <br/> |27/7/18  <br/> |
+
+## <a name="audio-conferencing"></a>Audioconferencia
+|**Problema**|**Comportamiento/síntomas**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|Los autores de llamadas de RTC con el mismo "número de de" se muestran con el mismo usuario en la lista de participantes de la reunión.  <br/> |Cuando varios autores de llamadas de RTC unirse a una reunión, y sus identificadores de autor de la llamada se enmascaran como un solo número, se mostrará como un único autor de la llamada en la lista de reuniones.  <br/> |No hay ninguna solución.  <br/> |25/9/2017  <br/> |
+|Panel de información de la reunión no está visible forma intermitente.  <br/> |Panel de información de la reunión no se puede mostrar en el cliente de los equipos cuando los usuarios están intentando buscar para números de teléfono de puente de conferencia o identificador de conferencia.  <br/> |Examine los detalles de la reunión o el calendario de Outlook para ver los números de teléfono de puente de conferencia o identificador de conferencia.  <br/> |25/9/2017  <br/> |
+|Invitaciones de reunión de Outlook, complemento mostrar caracteres de elementos no utilizados en las coordenadas de RTC para configuraciones regionales de EE.  <br/> |Al programar reuniones privadas mediante Outlook, complemento para Microsoft Teams en un equipo con configuraciones regionales que no sean-US, las coordenadas de RTC pueden contener caracteres de elementos no utilizados.  <br/> |No hay ninguna solución.  <br/> |25/9/2017  <br/> |
+|En el marcado de las necesidades de uso de 5 dígitos o más.  <br/> |Los usuarios que intentan marcar un número de una reunión necesitan escribir 5 o más dígitos, aunque la regla de normalización del plan de marcado está disponible para normalizar el marcado de dígitos breve al formato E.164.  <br/> |Marcar un número, escriba el número DID completo o el formato de número local en lugar de número de extensión interna.  <br/> |25/9/2017  <br/> |
+|Salida control no está visible forma intermitente.  <br/> |Salida control no estén visible en el panel de información de reunión.  <br/> |No hay ninguna solución.  <br/> |25/9/2017  <br/> |
+|Identificador de conferencia estática no se admite para las reuniones de Microsoft Teams.  <br/> |Si el administrador reemplaza la configuración predeterminada de identificador de conferencia dinámico al identificador de conferencia estática, esta configuración no surtirán efecto para las reuniones de Microsoft Teams. Vea [uso de conferencias de Audio identificadores dinámicos en su organización](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |No hay ninguna solución.  <br/> |25/9/2017  <br/> |
+|Las coordenadas de la reunión de RTC no están disponibles para Skype local para usuarios de empresas  <br/> |Si el usuario es un Skype para usuarios de empresa local, asignado con Skype para profesionales en línea, conferencias de Audio y las licencias de los equipos, todas las reuniones programadas con los equipos no incluirá las coordenadas de la reunión de RTC. <br/> |No hay ninguna solución.  <br/> |1/2/2018  <br/> |
 
 ## <a name="authentication"></a>Autenticación
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|

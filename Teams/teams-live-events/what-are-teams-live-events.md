@@ -10,12 +10,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo Live eventos permiten a los usuarios difundir vídeo y contenido a grandes audiencias en línea en Microsoft Teams, Yammer y Microsoft Stream.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fb22c259e97e27aa45d4874bc95aef7962c6024
-ms.sourcegitcommit: 53089c4c9bdf219f02eae2827432a4f40eaa9cd5
+ms.openlocfilehash: b99bd690bf504645d2967dbab31c3f58fc50fd92
+ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23893711"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "23999247"
 ---
 # <a name="what-are-teams-live-events"></a>¿Cuáles son los equipos de eventos en directo?
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -67,7 +67,7 @@ Al planear los equipos eventos en directo para incluir grandes reuniones de su o
 Los siguientes requisitos previos son necesarios para el usuario programar un evento en directo los equipos.
 
 Estas son las licencias que se deben asignar:  
-- Una licencia de Office 365 Enterprise E3 o E5. 
+- Una licencia de Office 365 Enterprise E1, E3 o E5 o una licencia de Office 365 A3 o A5. 
 - Un Microsoft Teams, Skype para la empresa y la licencia de Microsoft Stream.
 
 Es importante saber que se requiere una licencia de Office 365 para participar en un evento en directo como un usuario autenticado, pero esto depende del método de producción usado:

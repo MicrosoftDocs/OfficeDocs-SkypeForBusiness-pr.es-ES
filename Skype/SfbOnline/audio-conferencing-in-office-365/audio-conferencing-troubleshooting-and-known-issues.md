@@ -15,42 +15,27 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtener una lista de problemas conocidos al usar Microsoft como su proveedor de conferencia de acceso telefónico, el estado y algunas soluciones alternativas. '
-ms.openlocfilehash: e5c6144081eb68426d3be53efb0ac9e9acbf41bd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 997cc5007df35b307cb714b891bc60764bd4a645
+ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887465"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "23999178"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Solución de problemas y problemas conocidos de Audioconferencia
 
- **Este artículo está dirigido Skype para los usuarios profesionales y Microsoft Teams utilizando Microsoft como su proveedor de conferencias de audio. No se aplica a los clientes que están usando un proveedor de servicios de audioconferencia (ACP).**
+ **En este artículo está dirigido Skype para los usuarios empresariales mediante Microsoft como su proveedor de conferencias de audio. No se aplica a los clientes que están usando un proveedor de servicios de audioconferencia (ACP).**
   
 ## <a name="troubleshooting-and-known-issues"></a>Solución de problemas y problemas conocidos
 
 Conferencias de audio que usa Microsoft como el proveedor de conferencias de audio tiene problemas actuales que se realiza un seguimiento son activamente investigarse y se resolverán potencialmente cuando la característica se actualiza en futuras versiones de Office 365.
   
-Por ahora, use esta clase como una referencia para solucionar posibles problemas con la introducción de conferencias de Audio configurado y trabajo para las personas que usan el Skype para las aplicaciones de negocio o Teams de Microsoft en su organización.
-  
-### <a name="microsoft-teams-app"></a>Aplicación de los equipos de Microsoft
-
-|**Problema**|**Comportamiento/síntomas**|**Solución conocida**|**Fecha de descubrimiento**|
-|:-----|:-----|:-----|:-----|
-|Los autores de llamadas de RTC con el mismo "número de de" se muestran con el mismo usuario en la lista de participantes de la reunión.  <br/> |Cuando varios autores de llamadas de RTC unirse a una reunión, y sus identificadores de autor de la llamada se enmascaran como un solo número, se mostrará como un único autor de la llamada en la lista de reuniones.  <br/> |No hay ninguna solución.  <br/> |25/9/2017  <br/> |
-|Panel de información de la reunión no está visible forma intermitente.  <br/> |Panel de información de la reunión no se puede mostrar en el cliente de los equipos cuando los usuarios están intentando buscar para números de teléfono de puente de conferencia o identificador de conferencia.  <br/> |Examine los detalles de la reunión o el calendario de Outlook para ver los números de teléfono de puente de conferencia o identificador de conferencia.  <br/> |25/9/2017  <br/> |
-|Invitaciones de reunión de Outlook, complemento mostrar caracteres de elementos no utilizados en las coordenadas de RTC para configuraciones regionales de EE.  <br/> |Al programar reuniones privadas mediante Outlook, complemento para Microsoft Teams en un equipo con configuraciones regionales que no sean-US, las coordenadas de RTC pueden contener caracteres de elementos no utilizados.  <br/> |No hay ninguna solución.  <br/> |25/9/2017  <br/> |
-|En el marcado de las necesidades de uso de 5 dígitos o más.  <br/> |Los usuarios que intentan marcar un número de una reunión necesitan escribir 5 o más dígitos, aunque la regla de normalización del plan de marcado está disponible para normalizar el marcado de dígitos breve al formato E.164.  <br/> |Marcar un número, escriba el número DID completo o el formato de número local en lugar de número de extensión interna.  <br/> |25/9/2017  <br/> |
-|Salida control no está visible forma intermitente.  <br/> |Salida control no estén visible en el panel de información de reunión.  <br/> |No hay ninguna solución.  <br/> |25/9/2017  <br/> |
-|Identificador de conferencia estática no se admite para las reuniones de Microsoft Teams.  <br/> |Si el administrador reemplaza la configuración predeterminada de identificador de conferencia dinámico al identificador de conferencia estática, esta configuración no surtirán efecto para las reuniones de Microsoft Teams. Vea [uso de conferencias de Audio identificadores dinámicos en su organización](using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |No hay ninguna solución.  <br/> |25/9/2017  <br/> |
-|Las coordenadas de la reunión de RTC no están disponibles para Skype local para usuarios de empresas  <br/> |Si el usuario es un Skype para usuarios de empresa local, asignado con Skype para profesionales en línea, conferencias de Audio y las licencias de los equipos, todas las reuniones programadas con los equipos no incluirá las coordenadas de la reunión de RTC. <br/> |No hay ninguna solución.  <br/> |1/2/2018  <br/> |
-   
-### <a name="skype-for-business-app"></a>Skype para la aplicación empresarial
+Por ahora, use esta clase como una referencia para solucionar posibles problemas con la introducción de conferencias de Audio configurado y trabajo para las personas con Skype para la empresa en su organización.
 
 |**Problema**|**Comportamiento/síntomas**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|

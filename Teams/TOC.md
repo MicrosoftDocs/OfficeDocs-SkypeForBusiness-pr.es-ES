@@ -192,7 +192,7 @@
 ## Reuniones.
 ### [Tutorial: Reuniones en Teams](Tutorial-Meetings-in-Teams.yml)
 ### [Llamar desde una reunión para que otras personas puedan unirse](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
-### [Deshabilitar a los números gratuitos para usuarios específicos](disabling-toll-free-numbers-for-specific-teams-users.md)
+### [Deshabilitar los números gratuitos para usuarios específicos](disabling-toll-free-numbers-for-specific-teams-users.md)
 ### [Correos electrónicos que se envían a los usuarios cuando cambia la configuración](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ### [Habilitar o deshabilitar el envío de correos electrónicos cuando cambie la configuración de Audioconferencia](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 ### [Permitir que los usuarios registren su nombre cuando se unan a una reunión](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
@@ -328,7 +328,6 @@
 #### [Preguntas comunes sobre Audioconferencia](audio-conferencing-common-questions.md)
 #### [Audioconferencia con pago por minuto](audio-conferencing-pay-per-minute.md)
 #### [Idiomas compatibles con Audioconferencia](audio-conferencing-supported-languages.md)
-#### [Solución de problemas y problemas conocidos de Audioconferencia](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Cambiar la configuración de un puente de Audioconferencia](change-the-settings-for-an-audio-conferencing-bridge.md)
 #### [Cambiar los números de teléfono de su puente de Audioconferencia](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 #### [Llamar desde una reunión para que otras personas puedan unirse](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
@@ -473,7 +472,7 @@
 #### [Supervisar y solucionar problemas de enrutamiento directo](direct-routing-monitor-and-troubleshoot.md)
 #### [Cuentas de usuario en un entorno híbrido con conectividad RTC](direct-routing-user-accounts-in-a-hybrid-environment.md)
 #### [Configurar un controlador de borde de sesión para varios inquilinos](direct-routing-sbc-multiple-tenants.md)
-#### [Lista de controladores de borde de sesión de certificados para el enrutamiento directo](direct-routing-border-controllers.md)
+#### [Lista de controladores de borde de sesión certificados para el Enrutamiento directo](direct-routing-border-controllers.md)
 ### [Flujos de llamadas de los equipos de Microsoft Online](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 
