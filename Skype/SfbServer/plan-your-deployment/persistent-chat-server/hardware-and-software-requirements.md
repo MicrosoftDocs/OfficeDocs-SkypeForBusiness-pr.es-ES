@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: 'Resumen: Lea este tema para obtener más información acerca de los requisitos de hardware y software para el servidor de Chat persistente en Skype para Business Server 2015.'
-ms.openlocfilehash: 16a04616a1ec15b4cfffc17cd3a3d9bc271b0dde
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 487ee3beac288bc3573d640afa18aa790774b9c3
+ms.sourcegitcommit: a9bf4de79c84d239488455575322188a03535f71
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21027006"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24013533"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Requisitos de hardware y software para el servidor de chat persistente en Skype Empresarial Server 2015
  
@@ -63,6 +63,8 @@ Persistent Chat Server requiere el software de base de datos de SQL Server para 
 Para preparar una plataforma de servidor de base de datos, asegúrese de que cada equipo cumpla los requisitos de hardware y, luego, instale el software que se necesita como requisito previo. La plataforma de servidor para los servidores de base de datos de Chat persistente requiere el mismo hardware que el Skype para servidor de base de datos back-end de Business Server 2015. Para obtener información detallada, vea [requisitos de servidor para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
   
 Confirma que una de las siguientes aplicaciones de software está instalada en el servidor de bases de datos:
+
+- 2016 de Microsoft SQL Server con Service Pack 1 y se debe ejecutar con Skype para Business Server actualización acumulativa 7 o versiones posteriores. Es recomendable que ejecuta SQL Server 2016 con el último service pack. Para obtener información detallada acerca de cómo instalar Microsoft SQL Server 2016, vea [instalar SQL Server 2016](https://docs.microsoft.com/pt-pt/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016).
 
 - Microsoft SQL Server 2014 y se debe ejecutar con Skype para Business Server acumulativa actualización 6 o versiones posteriores. Es recomendable que ejecuta SQL Server 2014 con el último service pack. Para obtener información detallada acerca de cómo instalar Microsoft SQL Server 2014, vea [instalar SQL Server 2014](https://docs.microsoft.com/pt-pt/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014).
 

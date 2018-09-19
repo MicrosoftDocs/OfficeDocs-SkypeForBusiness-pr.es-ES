@@ -8,17 +8,18 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
+ms.collection: Teams_ITAdmin_PracticalGuidance
 description: Las tareas y actividades necesarias para la administración de servicio de los equipos, incluidos supervisar el estado del servicio y evaluar y garantizar la calidad de la red y uso.
 localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4ad66e072b68a27848c3504f9b968b03bde1d4e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 4a3ff11ecf2a4c3ce6aba581adb0d50e7188b351
+ms.sourcegitcommit: a9bf4de79c84d239488455575322188a03535f71
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882329"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24013518"
 ---
 # <a name="operate-my-service"></a>Usar mi servicio
 
