@@ -1,0 +1,64 @@
+---
+title: Usar las funciones de administración de Microsoft Teams para administrar los equipos
+author: LolaJacobsen
+ms.author: lolaj
+manager: serdars
+ms.date: 09/19/2018
+ms.topic: article
+ms.service: msteams
+description: Aprenda a usar las funciones administrativas diferentes para administrar los equipos.
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 279fed07554589fda4d302b893e5136815963399
+ms.sourcegitcommit: ab4476127222d9f0aa9ee503132ff9bdabcaf9bc
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24025285"
+---
+# <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Usar las funciones de administración de Microsoft Teams para administrar los equipos
+
+Con Azure Active Directory (AD Azure), puede designar a los administradores que necesitan distintos niveles de acceso para la administración de Microsoft Teams. Los administradores pueden administrar la carga de trabajo completa de los equipos, o puede haber delegar permisos, para solucionar problemas de llamar a problemas de calidad o administración de telefonía de su organización necesita. 
+
+## <a name="teams-roles-and-capabilities"></a>Roles de los equipos y funciones
+
+Hay cuatro roles de administrador de equipos disponibles: Administrador de servicio de los equipos, el Administrador de comunicaciones de los equipos, especialista en soporte técnico de comunicaciones de los equipos y comunicaciones de los equipos ingeniero de soporte técnico. Revise la tabla siguiente para comprender lo que puede hacer cada rol y la administración de las herramientas que pueden usar en los equipos y Skype para el centro de administración de negocio y PowerShell.
+
+<!-- add Global admin role? -->
+
+| Rol | Puede realizar estas tareas | Puede obtener acceso a las siguientes herramientas |
+|----- | ------------------ | ------------------------------ |
+| Administrador de servicio de los equipos | Administrar el servicio de Microsoft Teams y administrar y crear grupos de Office 365 (tenga en cuenta que los permisos para administrar grupos de Office 365 surgirá en octubre de 2018) | Todo el contenido en el Microsoft Teams & Skype para el centro de administración de negocios y controles asociados de PowerShell, incluidos:<br><br> Administrar reuniones, incluida la conferencia, las configuraciones y directivas de puentes<sup>1,3</sup> de la reunión<br><br> Administrar voz, incluida la llamada a las directivas y número de inventario y asignación<sup>1</sup> de teléfono<br><br> Administración de mensajería, incluidas la mensajería de directivas<sup>1,3</sup><br><br> Administrar toda la configuración de toda la organización, incluida la federación, actualización de los equipos y los equipos cliente configuración<sup>1,3</sup><br><br> Administrar los equipos de la organización y sus valores asociados, incluyendo pertenencia (procedentes de octubre de 2018) <sup>23</sup><br><br> Ver la página de perfil de usuario y solucionar los problemas de calidad de llamada de usuario utilizando de conjunto de herramientas de solución de problemas avanzada<sup>3</sup> |
+| Administrador de comunicaciones de los equipos | Administración de llamadas y las características de las reuniones dentro del servicio Microsoft Teams | Administrar reuniones, incluida la conferencia, las configuraciones y directivas de puentes<sup>1,3</sup> de la reunión<br><br> Administrar voz, incluida la llamada a las directivas y número de inventario y asignación<sup>1</sup> de teléfono<br><br> Ver la página de perfil de usuario y solucionar los problemas de calidad de llamada de usuario utilizando de conjunto de herramientas de solución de problemas avanzada<sup>1,3</sup> |
+| Ingeniero de soporte técnico de los equipos Communications | Solucionar problemas de las comunicaciones dentro de los equipos mediante el uso de herramientas **Avanzadas** . | Acceso a la página de perfil de usuario para solucionar problemas de las llamadas en llamar análisis. Puede ver la información de registro de llamadas completa. <sup>3</sup> |
+| Especialista en soporte técnico de comunicaciones de los equipos | Solucionar problemas de las comunicaciones dentro de los equipos mediante el uso de herramientas **básicas** .| Acceso a la página de perfil de usuario para solucionar problemas de las llamadas en llamar análisis. Sólo se puede ver la información de usuario para el usuario específico que se está buscando. <sup>3</sup>
+
+<sup>1</sup> [PowerShell - Skype para módulo empresarial](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
+<sup>2</sup> [PowerShell - módulo de equipos de Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
+<sup>3</sup> [Skype para el centro de administración de negocio y los equipos de Microsoft](https://docs.microsoft.com/en-us/microsoftteams/manage-teams-skypeforbusiness-admin-center)
+<!-- <sup>4</sup> Azure Active Directory Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
+<sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
+-->
+Para obtener más información acerca de las herramientas de administración disponibles para administrar Microsoft Teams, vea [Administración de equipos de Microsoft](https://docs.microsoft.com/en-us/microsoftteams/manage-teams-skypeforbusiness-admin-center).
+
+## <a name="assign-users-to-each-role"></a>Asignar a usuarios a cada función
+
+Puede asignar a usuarios a estos roles en Azure Active Directory. Para obtener información sobre cómo asignar funciones administrativas a un usuario en Active Directory de Azure, vea [asignar a un usuario a los roles de administrador de Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
+
+## <a name="cmdlets-available-for-each-role"></a>Cmdlets disponibles para cada función
+
+La mayoría de las herramientas de PowerShell para estos roles de administrador live en el Skype para el módulo de PowerShell de negocio, y es importante tener en cuenta que algunos de los cmdlets que estos roles de administrador tienen acceso al control comparten de configuración que también se aprovecha de Skype para profesionales en línea. Para ver la lista completa de los cmdlets disponibles actualmente para un rol determinado en el Skype para el módulo de PowerShell de negocio de, siga estos pasos:
+
+1. Asignar dicha función a un usuario (y asegúrese de que el usuario no tiene otras funciones).
+2. Conectarse a la Skype para el módulo de PowerShell de negocio:<br>
+   a. $session = nuevo csonlinesession<br>
+   b. Import-pssession $session<br>
+   c. Use **Get-módulo** para identificar el nombre de la sesión importado (será un nombre generado de forma aleatoria).<br>
+3. Uso **Get-Command - módulo** <*nombre desde arriba*> para identificar todos los cmdlets disponibles
+
+### <a name="related-topics"></a>Temas relacionados
+
+- [Información general de PowerShell de equipos de Microsoft](teams-powershell-overview.md)
+- [Los equipos de Microsoft PowerShell](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps)
+- [Asignar propietarios de equipo y miembros en Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/assign-roles-permissions)
+
