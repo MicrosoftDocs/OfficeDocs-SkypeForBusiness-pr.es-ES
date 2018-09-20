@@ -1,9 +1,9 @@
 ---
-title: Asignar roles y permisos en Microsoft Teams
+title: Asignar propietarios de equipo y miembros en Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 08/27/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dansteve
@@ -13,20 +13,20 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da4bae93a35775141c246145e1375e73963ec120
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a2fd9f611d616f368973ced432e886bf4ba9d8f5
+ms.sourcegitcommit: ab4476127222d9f0aa9ee503132ff9bdabcaf9bc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892701"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24021813"
 ---
-<a name="assign-roles-and-permissions-in-microsoft-teams"></a>Asignar roles y permisos en Microsoft Teams
-===============================================
+<a name="assign-team-owners-and-members-in-microsoft-teams"></a>Asignar propietarios de equipo y miembros en Microsoft Teams
+=================================================
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Dentro de Microsoft Teams hay dos roles: **Propietario** y **Miembro**. De forma predeterminada, el usuario que crea un equipo tiene el estado Propietario. Si se crea un equipo a partir de un grupo de Office 365 existente, los permisos se heredan.
+En Microsoft Teams existen dos roles de usuario: **propietario** y **miembros**. De forma predeterminada, un usuario que crea un nuevo equipo se concede el estado de propietario. Si se crea un equipo de un grupo de 365 existente de Office, los permisos se heredan.
 
 En la tabla siguiente se muestra la diferencia entre un propietario y un miembro:
 
@@ -43,7 +43,7 @@ En la tabla siguiente se muestra la diferencia entre un propietario y un miembro
 |**Agregar fichas**      |Sí         |Sí*         |
 |**Agregar conectores**      |Sí         |Sí*         |
 |**Agregar bots**      |Sí         |Sí*         |
-\* Un propietario puede desactivar estos elementos a nivel de equipo, en cuyo caso, los miembros no tendrían acceso a ellos.
+\*Estos elementos se pueden desactivar un propietario en un nivel de equipo, en cuyo caso los miembros no tienen acceso a ellos.
 
 \*\*Tras agregar un miembro a un equipo, un propietario también puede promover un miembro al estado Propietario. También es posible que un propietario disminuya su propio estado a Miembro.
 

@@ -8,13 +8,15 @@ ms.reviewer: ritikag
 ms.service: msteams
 description: Use este script de PowerShell para crear una directiva de mensajería en los equipos y asignar a los usuarios de su organización.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 399cc6cf20554cd8ab23e6d75b66b2d6251e46de
-ms.sourcegitcommit: 31918f51e8220950af6437a16d8beeb637fba2b4
+MS.collection: Teams_ITAdmin_Help
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 108272636925daadfb361c1e79ff14b9c04f514a
+ms.sourcegitcommit: ab4476127222d9f0aa9ee503132ff9bdabcaf9bc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23961902"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24021861"
 ---
 <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Ejemplo de script de PowerShell: crear y asignar una directiva de mensajería
 -------------------------------------------------------------------------
