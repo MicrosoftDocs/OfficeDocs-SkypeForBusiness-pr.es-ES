@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Configurar y usar el análisis de llamada para identificar y solucionar problemas de Skype para profesionales y Microsoft Teams problemas de calidad de llamada.
-ms.openlocfilehash: dfb21c852142b0ba6ec90d5c216ace0eecbf8003
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: de2484dac64623ed3f37c544877d48187f5ca5f9
+ms.sourcegitcommit: 63a560c05b4fa3bda3abc31ef5dffe60e61e4d67
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861978"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24961007"
 ---
 # <a name="set-up-call-analytics"></a>Configurar el análisis de llamadas
 
@@ -71,11 +71,11 @@ Los agentes del departamento de soporte técnico de nivel 1 controlan problemas 
     > [!NOTE]
     > Si se encuentra en los **equipos de Microsoft y Skype para el centro de administración de negocio**, en el panel de navegación izquierdo, haga clic en **portal heredado**.
   
-3. En el **Análisis de llamadas (vista previa)**, haga clic en **permisos**.
+3. Seleccione **Herramientas** > **Skype para llamar a los análisis empresarial (vista previa)** > de**configuración**y, a continuación, haga clic en **permisos**.
     
 4. Agregue los grupos de seguridad de Office 365 a los cuadros de **nivel 1** y **nivel 2** . Puede agregar varios grupos a cada rol.
     
-     ![Captura de pantalla muestra la página permisos para llamar a análisis con las opciones de permisos de nivel 1 y nivel 2.](media/ed5b6b05-b407-4363-8cf0-a6e79027f64b.png)
+     ![Captura de pantalla muestra la página permisos para llamar a análisis con las opciones de permisos de nivel 1 y nivel 2.](media/setup-call-analytics-image1.png)
   
  Obtienen los usuarios con cualquiera de estos niveles de permisos para llamar a análisis a través de la dirección URL dedicada *https://adminportal.services.skypeforbusiness.com*.
   

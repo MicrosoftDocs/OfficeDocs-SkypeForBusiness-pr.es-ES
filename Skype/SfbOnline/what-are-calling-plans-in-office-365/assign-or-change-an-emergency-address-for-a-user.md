@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Aprenda cómo configurar una dirección de emergencia y un número de teléfono para cada uno de los usuarios que funcione con la red telefónica pública conmutada (RTC).
-ms.openlocfilehash: 053e0d13109f66b4e714b69f0bc5650e20acdb69
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 56552002c589b776935be973700cff822a9f4857
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885815"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958165"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>Asignar o cambiar la dirección de emergencia de un usuario
 
@@ -65,7 +65,7 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
 
 [Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

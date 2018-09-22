@@ -20,12 +20,12 @@ f1keywords: ms.lync.lac.PortOrderNumbers
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre cómo configurar los números de teléfono cuando instalarlas en Skype para la empresa. '
-ms.openlocfilehash: a5a3b0d5586e050a79c1aeb43967ad0d3e4bdf98
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 8d214ea7cf21ea713de28763f36b9995160fb395
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23857321"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958145"
 ---
 # <a name="how-should-i-enter-the-phone-numbers"></a>¿Cómo tengo que introducir los números de teléfono?
 
@@ -97,7 +97,7 @@ Al convertir los números de teléfono, debe escribir en el formato correcto.
 
 [Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

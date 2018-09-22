@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: La validación de direcciones es una parte muy importante de la configuración de Planes de llamada en Office 365. Proporciona a un usuario de su organización una dirección para llamadas de emergencia que puedan usar los servicios de respuesta de emergencias.
-ms.openlocfilehash: 1748211718b1e25a6f5bfcdcd512e0e2d7d2c587
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: a0fd715820591943ac11da31761144df3d0427b0
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23864813"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958405"
 ---
 # <a name="why-has-number-activation-failed"></a>¿Por qué ha fallado la activación del número?
 La validación de direcciones es una parte muy importante de la configuración de Planes de llamada en Office 365. Si por algún motivo no se activa un número de teléfono a causa de la validación de direcciones, debe crear una solicitud de servicio. La forma que elija para hacerlo depende del tamaño de su organización.
@@ -105,6 +105,6 @@ La validación de direcciones es una parte muy importante de la configuración d
 
 [Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
  

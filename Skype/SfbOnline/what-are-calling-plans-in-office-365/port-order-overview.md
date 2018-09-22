@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Vea un rápido resumen sobre cómo se transfieren los números de teléfono con un proveedor de servicios a Skype Empresarial. '
-ms.openlocfilehash: c963291dd92aee45758affb6cdec5975d9402478
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 9ef870abbab8760a09db667a481d7f3f53708423
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849969"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958365"
 ---
 # <a name="port-order-overview"></a>Introducción a las solicitudes de portabilidad
 
@@ -48,7 +48,7 @@ Después de realizar la portabilidad de los números de teléfono a Skype Empres
 
 [Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

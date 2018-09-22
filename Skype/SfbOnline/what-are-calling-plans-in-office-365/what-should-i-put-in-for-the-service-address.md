@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre qué es la dirección del servicio, cómo difiere de la dirección de facturación y donde puede encontrar. '
-ms.openlocfilehash: ea5c1c0c7c4e56a21ad28f4ac1a45e742e0736cd
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: dfdbb46dcbba6707ae746b004f5d97cdb20c5776
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849767"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958295"
 ---
 # <a name="what-should-i-put-in-for-the-service-address"></a>¿Qué debería poner para la dirección de servicio?
 
@@ -45,7 +45,7 @@ La dirección del servicio es diferente de la dirección de facturación o de em
 
 [Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

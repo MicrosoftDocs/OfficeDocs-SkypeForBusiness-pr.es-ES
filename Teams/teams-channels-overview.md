@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b6c46a2ca5d68509a20b284d593d9edce080764
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 43b8a50322167ff9e5673ee62c0d53c226be632b
+ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889641"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "24967378"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Información general de los equipos y canales en Microsoft Teams
 =================================================
@@ -53,7 +53,7 @@ Dedique cinco minutos a escuchar los procedimientos que se recomiendan para orga
 
 **Configuración del equipo**: Los propietarios de equipo pueden administrar la configuración de todo el equipo directamente en Microsoft Teams. En la configuración se incluye la capacidad de agregar una imagen del equipo, establecer permisos en todos los miembros del equipo para crear canales, agregar fichas y conectores, @mencionar a todo el equipo o el canal, y usar archivos GIF, adhesivos y memes. 
 
-Si es administrador de Microsoft Teams en Office 365, tiene acceso a la configuración de todo el sistema en el Centro de administración. Esta configuración puede influir en las opciones y la configuración predeterminada que los propietarios ven en la configuración del equipo. Por ejemplo, puede habilitar un canal predeterminado, "General", para los anuncios, los debates y los recursos de todo el equipo, que aparecerá en todos los equipos.
+Si es un administrador de Microsoft Teams en Office 365, tener acceso a la configuración de todo el sistema en los equipos & Skype para el centro de administración de negocio. Esta configuración puede influir en las opciones y la configuración predeterminada que los propietarios ven en la configuración del equipo. Por ejemplo, puede habilitar un canal predeterminado, "General", para los anuncios, los debates y los recursos de todo el equipo, que aparecerá en todos los equipos.
 
 De manera predeterminada, todos los usuarios tienen permisos para crear un equipo en Microsoft Teams (para modificarlo, consulte [Asignar roles y permisos en Microsoft Teams](assign-roles-permissions.md)). Los usuarios de un grupo de Office 365 existente también pueden mejorarlos con las funciones de Teams.
 

@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft recopila datos de error, el uso y el recuento para comprender cómo se utiliza Skype para la empresa y donde los usuarios tienen problemas. Los datos se usan para planear mejoras en los productos.
-ms.openlocfilehash: ec6e3cafd3df2509764b69dc5809781fc94ab882
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: eecd4594d7b0f6ccc61505ed24b023f0c01a53e5
+ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850971"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "24967476"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype para profesionales y Microsoft Teams prácticas de recopilación de datos
 
@@ -99,7 +99,7 @@ Datos de informes de error también puede contener información de identificaci�
 
 Informes de errores requieren dos cosas:
 
-- La configuración de directiva de grupo de DisableAutomaticSendTracing se establece en False en el servidor o en el centro de administración de inquilinos (es decir, el estado predeterminado). Para obtener más información, vea [Configurar directivas de arranque cliente en Skype para Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) .
+- La configuración de directiva de grupo de DisableAutomaticSendTracing está establecida en False en el servidor o en el centro de administración de inquilinos (es decir, el estado predeterminado). Para obtener más información, vea [Configurar directivas de arranque cliente en Skype para Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) .
     
 - Los usuarios finales individualmente participar en de la ficha General (haga clic en el icono del engranaje ![icono de engranaje](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) y, a continuación, se abre el cuadro de diálogo **Opciones** con la ficha **General** que se muestra) en el Skype para clientes empresariales.
     

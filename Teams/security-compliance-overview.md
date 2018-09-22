@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc686b520c9bd765539ff5fd9f636bc876583a41
-ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
+ms.openlocfilehash: 331e4d600c26123079315a77d5d99f17496c12a9
+ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23937901"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "24967434"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================
@@ -31,15 +31,15 @@ Los servicios en las categorías de cumplimiento C y D que tienen compromisos de
 
 Los equipos también se aplica a todo el equipo y toda la organización autenticación en dos fases, inicio de sesión único a través de Active Directory y el cifrado de datos en tránsito y en reposo. Los archivos se almacenan en SharePoint y se realizan mediante el cifrado de SharePoint. Las notas se almacenan en OneNote y se realizan mediante el cifrado de OneNote. Los datos de OneNote se almacenan en el sitio de SharePoint del equipo. También se puede usar la ficha sitio Wiki para tomar notas y su contenido también se almacena en el sitio de SharePoint del equipo.
 
-También hemos agregado compatibilidad con la búsqueda en el registro de auditoría, eDiscovery y la suspensión legal para los canales, los chats y los archivos, así como la administración de aplicaciones móviles con Microsoft Intune. Vaya al centro de seguridad de Office 365 y cumplimiento para administrar esta configuración. 
+También hemos agregado compatibilidad con la búsqueda en el registro de auditoría, eDiscovery y la suspensión legal para los canales, los chats y los archivos, así como la administración de aplicaciones móviles con Microsoft Intune. Vaya a la seguridad de Office 365 & Centro de cumplimiento para administrar esta configuración. 
 
 ## <a name="auditing-and-reporting"></a>Auditoría y generación de informes
 
-Búsqueda de registro de auditoría derecha en el centro de cumplimiento y seguridad de Office 365 se conecta y expone capacidades para establecer alertas o informar sobre eventos de auditoría haciendo que estén disponibles, exportar de carga de trabajo específica o evento genérico se establece para el uso de administración y de investigación, a través de un escala de tiempo de auditoría ilimitado. Todos los datos de registro de auditoría está disponibles para la configuración de alertas en el centro de cumplimiento y seguridad de Office 365, así como para filtrar y exportar para realizar un análisis. Consulte este [vínculo](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) para obtener más información acerca de cómo llevar a cabo una búsqueda de registro de auditoría para eventos de Microsoft Teams en el centro de seguridad de Office 365 y cumplimiento de normas. 
+Búsqueda de registro de auditoría derecha en el centro de cumplimiento y seguridad de Office 365 se conecta y expone capacidades para establecer alertas o informar sobre eventos de auditoría haciendo que estén disponibles, exportar de carga de trabajo específica o evento genérico se establece para el uso de administración y de investigación, a través de un escala de tiempo de auditoría ilimitado. Todos los datos de registro de auditoría está disponibles para la configuración de alertas en el centro de cumplimiento y seguridad de Office 365, así como para filtrar y exportar para realizar un análisis. Consulte este [vínculo](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) para obtener más información acerca de cómo llevar a cabo una búsqueda de registro de auditoría para eventos de Microsoft Teams en el centro de cumplimiento y seguridad de Office 365. 
 
 ## <a name="compliance-content-search"></a>Búsqueda de contenido de cumplimiento
 
-Búsqueda de contenido puede se usa para buscar todos los datos de los equipos a través de capacidades de filtrado de enriquecido y exportar a un contenedor específico para la compatibilidad con el cumplimiento de normas y litigios. Esto puede realizarse con o sin un caso de exhibición de documentos electrónicos. Esto permite que los administradores de cumplimiento recopilar datos de los equipos a través de todos los usuarios, revisar y exportar para continuar el procesamiento. Consulte este [vínculo](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) para obtener más información acerca de cómo realizar una búsqueda de contenido de cumplimiento de normas de contenido de Microsoft Teams en el centro de seguridad de Office 365 y cumplimiento de normas. 
+Búsqueda de contenido puede se usa para buscar todos los datos de los equipos a través de capacidades de filtrado de enriquecido y exportar a un contenedor específico para la compatibilidad con el cumplimiento de normas y litigios. Esto puede realizarse con o sin un caso de exhibición de documentos electrónicos. Esto permite que los administradores de cumplimiento recopilar datos de los equipos a través de todos los usuarios, revisar y exportar para continuar el procesamiento. Consulte este [vínculo](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) para obtener más información acerca de cómo realizar una búsqueda de contenido de cumplimiento de normas de contenido de Microsoft Teams en el centro de cumplimiento y seguridad de Office 365. 
 
 Sugerencia: Puede usará el MicrosoftTeams kind para filtrar a través de a Microsoft Teams contenido únicamente, es decir, Chat y mensajes de canal, reuniones y llamadas. 
 
@@ -47,7 +47,7 @@ Sugerencia: Puede usará el MicrosoftTeams kind para filtrar a través de a Micr
 
 La exhibición de documentos electrónicos es el aspecto electrónico de identificación, recolección y producción de información almacenada por medios electrónicos (ESI) en respuesta a una solicitud para la producción en una demanda legal o una investigación. Capacidades incluyen la administración de casos, conservación, búsqueda, análisis y exportación de datos de los equipos. Esto incluye los resúmenes de chat, mensajería y archivos, reuniones y llamadas. Para las reuniones de los equipos y las llamadas, un resumen de los eventos que se realizaron en la reunión y la llamada se crean y está disponible en la exhibición de documentos electrónicos. 
 
-Para obtener más información acerca de cómo llevar a cabo la exhibición de documentos electrónicos en el centro de seguridad y cumplimiento de normas y búsqueda de contenido de cumplimiento de normas de ejecución para el contenido de los equipos, vaya a los siguientes vínculos: 
+Para obtener más información acerca de cómo realizar la exhibición de documentos electrónicos en el centro de cumplimiento y seguridad y ejecute la búsqueda de contenido de cumplimiento para el contenido de los equipos, vaya a los siguientes vínculos: 
 
 [eDiscovery](https://support.office.com/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e) 
 
@@ -70,7 +70,7 @@ Los clientes pueden aprovechar por sus requisitos de exhibición de documentos e
 
 ## <a name="legal-hold"></a>Suspensión legal
 
-Durante un litigio, a menudo es necesario que todos los datos asociados con un usuario (custodia) o un equipo se conserva inalterados por lo que se puede usar como evidencia para el caso. Esto se logra mediante la colocación de un usuario (buzón de correo del usuario) o a un equipo con retención legal. Cuando cualquier equipo dentro de los equipos se pone en conservación local (subconjunto de la colección de sitio o buzón de correo a través de las consultas de destinadas o contenido filtrado) o juicio (colección completa de buzón de correo o sitio), la suspensión se coloca en el buzón de grupos. Esto garantiza que, incluso si los usuarios finales eliminar o editar los mensajes de canal que se ingestión en el buzón de correo de grupo, inmutables copias de que el contenido se conservan y disponibles en la búsqueda de eDisscovery. Las suspensiones legales suelen aplicarse en el contexto de un caso de eDiscovery. Consulte [este](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) artículo para conocer más información acerca de la conservación y las suspensiones en el centro de seguridad de Office 365 y cumplimiento de normas de ayuda. 
+Durante un litigio, a menudo es necesario que todos los datos asociados con un usuario (custodia) o un equipo se conserva inalterados por lo que se puede usar como evidencia para el caso. Esto se logra mediante la colocación de un usuario (buzón de correo del usuario) o a un equipo con retención legal. Cuando cualquier equipo dentro de los equipos se pone en conservación local (subconjunto de la colección de sitio o buzón de correo a través de las consultas de destinadas o contenido filtrado) o juicio (colección completa de buzón de correo o sitio), la suspensión se coloca en el buzón de grupos. Esto garantiza que, incluso si los usuarios finales eliminar o editar los mensajes de canal que se ingestión en el buzón de correo de grupo, inmutables copias de que el contenido se conservan y disponibles en la búsqueda de eDisscovery. Las suspensiones legales suelen aplicarse en el contexto de un caso de eDiscovery. Consulte [este](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) artículo para conocer más información acerca de la conservación y las suspensiones en el centro de cumplimiento y seguridad de Office 365 de ayuda. 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>Arquitectura de protección de la información para los equipos de Microsoft. 
 
@@ -87,9 +87,9 @@ En la siguiente figura se indica el flujo de ingesta de las reuniones de los equ
 
 ## <a name="retention-policies"></a>Directivas de retención
 
-Las conversaciones de los equipos son persistentes y retenidas para siempre de forma predeterminada. Con la introducción de las directivas de retención, los administradores pueden configurar las directivas de retención (conservación y eliminación) en el centro de seguridad y cumplimiento de mensajes de chat y canal de los equipos. Esto ayuda a las organizaciones retener datos para el cumplimiento (es decir, la directiva de conservación) durante un período específico o deshacerse de datos (es decir, la directiva de eliminación) si se considera una responsabilidad después de un período específico. Las directivas de retención de los equipos Asegúrese de que al eliminar datos, se elimina de todas las ubicaciones de almacenamiento de datos permanente en el servicio de los equipos. 
+Las conversaciones de los equipos son persistentes y retenidas para siempre de forma predeterminada. Con la introducción de las directivas de retención, los administradores pueden configurar las directivas de retención (conservación y eliminación) en el centro de cumplimiento y seguridad para mensajes de chat y canal de los equipos. Esto ayuda a las organizaciones retener datos para el cumplimiento (es decir, la directiva de conservación) durante un período específico o deshacerse de datos (es decir, la directiva de eliminación) si se considera una responsabilidad después de un período específico. Las directivas de retención de los equipos Asegúrese de que al eliminar datos, se elimina de todas las ubicaciones de almacenamiento de datos permanente en el servicio de los equipos. 
 
-Para administrar las directivas de retención de los equipos works usar los cmdlets y la configuración en el centro de seguridad de Office 365 y cumplimiento en **Datos gobierno** > **retención**.
+Para administrar las directivas de retención de los equipos, use los cmdlets en el centro de cumplimiento en **Datos de gobierno**y seguridad de Office 365 y configuración > **retención**.
 
 Son compatibles con las directivas de retención de los equipos: 
     
@@ -102,7 +102,7 @@ Aún no admiten las directivas de retención de los equipos:
 - Las directivas de retención avanzadas no se aplican a conversaciones en los equipos y ubicaciones de mensajes de canal de los equipos
 - Duración de menos de 30 días
 
-Los administradores pueden configurar las directivas de retención independiente para chats privadas de los equipos (1:1 o 1: muchas chats) y los mensajes del canal de los equipos. En muchos casos, las organizaciones, tenga en cuenta los datos de chat privado como más de un pasivo que no son mensajes de canal, que suelen ser más conversaciones relacionados con el proyecto. Configurar estas directivas en el centro de seguridad y cumplimiento, el **Gobierno de datos** > **retención**. Activar **los mensajes del canal de los equipos** y **los equipos de chat** y, a continuación, defina las directivas de retención para estas ubicaciones (también se muestra en el diagrama siguiente). 
+Los administradores pueden configurar las directivas de retención independiente para chats privadas de los equipos (1:1 o 1: muchas chats) y los mensajes del canal de los equipos. En muchos casos, las organizaciones, tenga en cuenta los datos de chat privado como más de un pasivo que no son mensajes de canal, que suelen ser más conversaciones relacionados con el proyecto. Configurar estas directivas en la seguridad & el centro de cumplimiento, el **Gobierno de datos** > **retención**. Activar **los mensajes del canal de los equipos** y **los equipos de chat** y, a continuación, defina las directivas de retención para estas ubicaciones (también se muestra en el diagrama siguiente). 
 
 Cuando se activa en **los equipos de los mensajes del canal**, puede especificar los equipos a los que se aplicará esta directiva. Por ejemplo, para equipos de X, Y y Z, el administrador puede establecer las directivas de eliminación para 1 año (seleccionando esos equipos de forma individual) y aplicar una directiva de eliminación de 3 años para el resto de los equipos. 
 
@@ -129,7 +129,7 @@ Para obtener información detallada acerca de cómo configurar las directivas de
 
 ### <a name="what-types-of-policies-can-i-setup-in-retention-policies-and-how-do-they-work"></a>¿Qué tipos de directivas puedo configurar en las directivas de retención y cómo funcionan?
 
-En el centro de seguridad y cumplimiento, al configurar una directiva de retención, para los equipos o para cualquier otra carga de trabajo, puede configurar dos tipos principales de directivas: 
+En el centro de cumplimiento y seguridad, cuando se configura una directiva de retención, para los equipos o para cualquier otra carga de trabajo, puede configurar dos tipos principales de directivas: 
 - Conservación: Estas directivas Asegúrese de que los datos se conserven durante un período determinado de tiempo, independientemente de lo que sucede en las herramientas de usuario final. Garantizan que los datos se conservan por motivos de cumplimiento de normas y expira disponibles en la exhibición de documentos electrónicos hasta este momento. Después de que expire el tiempo, la directiva puede indicar si no hace nada o eliminar los datos. En los equipos, si crea una directiva de conservación durante siete años, incluso si los usuarios finales eliminar sus mensajes de los equipos, estos mensajes se conservan aún para exhibición de documentos electrónicos durante siete años.
 - Eliminación: Estas directivas Asegúrese de que los datos no están un pasivo para la organización. Después de la duración especificada, los datos se eliminan de todo el almacenamiento relevante en los equipos. 
 
@@ -159,9 +159,9 @@ Nota: Lanzamiento de la característica de directivas de retención para los equ
 
 Sí, Skype para profesionales en línea y chats de interoperabilidad de los equipos funcionan del mismo modo. Una vez que el Skype para chat en línea de negocio entra en los equipos, se convierte en un mensaje en un subproceso de chat de los equipos y obtiene ingestión en el buzón apropiado. Por lo que el mismo flujo de works – directivas de eliminación de los equipos eliminará estos mensajes desde el subproceso de los equipos. Sin embargo, si el historial de conversaciones está activado para Skype para profesionales en línea y desde el Skype para cliente empresarial en línea los que se guardan en un buzón de correo, estos datos de chat no está controlados por una directiva de retención de los equipos.
 
-### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>¿Puede hacer a través de los cmdlets de centro de seguridad y cumplimiento? ¿Qué debo usar? 
+### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>¿Puede hacer a través de los cmdlets de seguridad & Centro de cumplimiento? ¿Qué debo usar? 
 
-Absolutamente. Puede crear directivas de retención de los equipos con [seguridad y cumplimiento del centro de los cmdlets de Powershell]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps). Recuerde que estos no son los cmdlets de Exchange Online. Estos son los cmdlets que hemos creado para los equipos. Siguen nomenclatura existente y el estilo de los cmdlets de retención disponibles actualmente en el centro de seguridad y cumplimiento.
+Absolutamente. Puede crear directivas de retención de los equipos con [cmdlets de Powershell de centro de cumplimiento y seguridad]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps). Recuerde que estos no son los cmdlets de Exchange Online. Estos son los cmdlets que hemos creado para los equipos. Siguen nomenclatura existente y el estilo de los cmdlets de retención disponibles actualmente en el centro de cumplimiento y seguridad.
 
 |Directiva|Regla|
 |---|---|
@@ -217,7 +217,7 @@ En lo que se refiere a las funciones de protección de información, las suscrip
 |![Icono de Punto de decisión.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Puntos de decisión         |¿Su organización tiene las licencias necesarias para cumplir con los requisitos empresariales de seguridad y cumplimiento?         |
 |![Icono de Siguientes pasos.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Pasos siguientes         |Revise la licencia actual de la organización y confirme que cumple con todos los requisitos de negocio de cumplimiento y seguridad.         |
 
-Antes de habilitar alguna de estas características, asegúrese de que tiene acceso al Centro de seguridad y cumplimiento en el Centro de administración de Office 365. De manera predeterminada, los administradores de inquilinos tienen acceso.
+Antes de habilitar cualquiera de estas características, asegúrese de que tener acceso a la seguridad y el centro de cumplimiento en el centro de administración de Office 365. De manera predeterminada, los administradores de inquilinos tienen acceso.
 
 Búsqueda de contenido y exhibición de documentos electrónicos no requieren activación en el centro de cumplimiento y seguridad.
 
@@ -235,9 +235,9 @@ Para obtener más información en residencia de datos de Canadá para los equipo
 
 Para obtener más información sobre el lanzamiento de Australia y Japón residencia de datos para los equipos, Leer entrada de blog de Varun Sagar, [Microsoft equipos inicia Australia y Japón datos residencia ](https://go.microsoft.com/fwlink/?linkid=867773). 
 
-Para ver qué región aloja los datos de su inquilino, vaya al [Centro de administración de Office 365](https://portal.office.com/adminportal/home) > **Configuración** > **Perfil de organización**. Desplácese hasta **Data location** (Ubicación de datos). 
+Para ver qué región contiene datos para el inquilino, vaya al [Centro de administración de Office 365](https://portal.office.com/adminportal/home) > **configuración de** > **el perfil de organización**. Desplácese hasta **Data location** (Ubicación de datos). 
 
-![Captura de pantalla de la tabla de la ubicación de datos, incluido Teams, en el Centro de administración de Office 365.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+![Captura de pantalla de la tabla de la ubicación de datos, incluidos los equipos, en el centro de administración de Office 365.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
 <a name="how-do-conditional-access-policies-work-for-teams"></a>¿Cómo funcionan las directivas de acceso condicional para los equipos?
 -------------------------

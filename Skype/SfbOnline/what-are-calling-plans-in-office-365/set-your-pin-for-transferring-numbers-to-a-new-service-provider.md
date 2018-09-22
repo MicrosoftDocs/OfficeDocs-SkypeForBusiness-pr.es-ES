@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Para transferir o portar números de teléfono de Skype for Business Online a otro proveedor u operador de servicios telefónicos, debe establecer manualmente un PIN. Después de establecer el PIN, necesitará incluirlo en la solicitud para portar un número de teléfono.
-ms.openlocfilehash: ef688c6aa7aabd1880513994236cb62353eab665
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f30c26d366d6ad431683ba5b80641a9796c2730c
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890112"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958255"
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Establecer el PIN para transferir números a un nuevo proveedor de servicios
 
@@ -75,7 +75,7 @@ Esta es la información específica acerca de este PIN que debe conocer:
 
 [Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

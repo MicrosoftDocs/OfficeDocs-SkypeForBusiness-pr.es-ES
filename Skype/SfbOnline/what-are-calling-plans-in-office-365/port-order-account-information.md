@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre qué información de cuenta que necesitará cuando se trabaja con un asistente nuevo pedido de puerto número Local. '
-ms.openlocfilehash: b89667ade7bbbce2d75580f4f4a9b44a015b4dd2
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 404bef2ad18728de90ac0a296c213e841719984b
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855941"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958315"
 ---
 # <a name="port-order-account-information"></a>Información de cuenta para la portabilidad
 
@@ -82,7 +82,7 @@ Para realizar el envío de la orden de puerto fácil y evitar errores, asegúres
 
 [Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

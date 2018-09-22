@@ -3,7 +3,7 @@ title: Preparación para implementar el servicio de voz en la nube de Microsoft 
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 06/07/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bf138a4d79fc6fd3533de381a538c88b646db55
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b3191280621e9e8339bf1716e5eafd274170fd6b
+ms.sourcegitcommit: 43bb1c1355193809c4f297d3dcb535c8b8d5d527
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882230"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24062013"
 ---
 # <a name="prepare-my-service"></a>Preparar mi servicio
 
@@ -50,7 +50,7 @@ Aunque se recomienda que siga las listas de comprobación en orden, la secuencia
 Cuando se haya de incorporación a los usuarios en una base por sitio, se recomienda que use la [Guía de habilitación de sitio para voz (Guía)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) como una guía adicional a estas listas de comprobación.
 
 >[!NOTE]
->La mayoría de las opciones de configuración es comunes entre los equipos y Skype para profesionales en línea. Usar Office 365 Skype para el centro de administración empresarial para configurar esas opciones de configuración.
+>La mayoría de las opciones de configuración es comunes entre los equipos y Skype para profesionales en línea. Use el centro de administración de Office 365 y los equipos & Skype para el centro de administración de negocio para configurar esas opciones de configuración.
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul><li>¿Quién será responsable de supervisar la finalización de las listas de comprobación de incorporación?</li></ul></td></tr>
