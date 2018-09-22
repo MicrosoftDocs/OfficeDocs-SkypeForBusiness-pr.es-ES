@@ -1,42 +1,232 @@
 ---
 title: Formación del usuario final para Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
-ms.date: 03/19/2018
-ms.topic: article
+layout: LandingPage
+ms.date: 09/21/2018
+ms.topic: landing-page
 ms.service: msteams
-ms.reviewer: lolaj
 search.appverid: MET150
-description: Recursos de formación que puede usar un administrador para implementar y adoptar correctamente Microsoft Teams.
+description: Vídeos de aprendizaje, tutoriales y otros recursos para los usuarios de su organización a aprender y usar los equipos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47de3143800eb5be0a8bae686c9563381ab57d90
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 1e1151d5b7ef371cf3b63b0a060dab6707bedd7a
+ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867536"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "24967370"
 ---
-<a name="end-user-training-for-microsoft-teams"></a><span data-ttu-id="62bc7-103">Formación del usuario final para Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="62bc7-103">End user training for Microsoft Teams</span></span>
-=====================================
+# <a name="end-user-training-for-microsoft-teams"></a>Formación del usuario final para Microsoft Teams
 
-<span data-ttu-id="62bc7-104">Use estos recursos de formación para que su organización pueda sacar el máximo provecho de Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="62bc7-104">Use these training resources to help your organization get value from Microsoft Teams.</span></span> 
+Use estos recursos de aprendizaje para ayudar a los usuarios de su organización a obtener el máximo partido de los equipos. 
 
-|  |  |
-|---------|---------|
-| [<span data-ttu-id="62bc7-105">Aprendizaje de vídeo de los equipos</span><span class="sxs-lookup"><span data-stu-id="62bc7-105">Teams video training</span></span>](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | <span data-ttu-id="62bc7-106">Recursos de aprendizaje ayudar a los usuarios a obtener el máximo partido de los equipos</span><span class="sxs-lookup"><span data-stu-id="62bc7-106">Training to help your users get the most out of Teams</span></span> |
-| [<span data-ttu-id="62bc7-107">Ayuda de los equipos</span><span class="sxs-lookup"><span data-stu-id="62bc7-107">Teams Help</span></span>](https://support.office.com/teams) | <span data-ttu-id="62bc7-108">Documentación de producto para el usuario final de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="62bc7-108">Teams end user product documentation</span></span> |
-| [<span data-ttu-id="62bc7-109">Bienvenida a Teams</span><span class="sxs-lookup"><span data-stu-id="62bc7-109">Welcome to Teams</span></span>](https://support.office.com/article/Welcome-to-Microsoft-Teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)  |  <span data-ttu-id="62bc7-110">Una guía que le ayudarán a obtener copia de seguridad y ejecutarse rápidamente a los equipos, el área de trabajo centrado en el chat en Office 365</span><span class="sxs-lookup"><span data-stu-id="62bc7-110">A guide to help you get up and running quickly with Teams, the chat-centered workspace in Office 365</span></span> |
-| [<span data-ttu-id="62bc7-111">Cambiar a los equipos de Skype para la empresa</span><span class="sxs-lookup"><span data-stu-id="62bc7-111">Switch to Teams from Skype for Business</span></span>](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)  |  <span data-ttu-id="62bc7-112">Vea cómo usar las características familiares y obtenga información sobre las nuevas características</span><span class="sxs-lookup"><span data-stu-id="62bc7-112">See how to use familar features, and learn about new features</span></span> |
-| [<span data-ttu-id="62bc7-113">Trucos y sugerencias de los equipos</span><span class="sxs-lookup"><span data-stu-id="62bc7-113">Teams tips & tricks</span></span>](https://support.office.com/office-training-center/Teams-tips) |  |
-| [<span data-ttu-id="62bc7-114">¿Qué son los equipos?</span><span class="sxs-lookup"><span data-stu-id="62bc7-114">What is Teams? </span></span>](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) | <span data-ttu-id="62bc7-115">Breve introducción a Microsoft Teams, su centro de trabajo en equipo</span><span class="sxs-lookup"><span data-stu-id="62bc7-115">Short introduction to Teams, your hub for teamwork</span></span>  |
-| [<span data-ttu-id="62bc7-116">Canal de Microsoft Teams en YouTube</span><span class="sxs-lookup"><span data-stu-id="62bc7-116">Microsoft Teams channel on YouTube</span></span>](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
-| [<span data-ttu-id="62bc7-117">Canal "Coffee in the Cloud" en YouTube</span><span class="sxs-lookup"><span data-stu-id="62bc7-117">Coffee in the Cloud channel on YouTube</span></span>](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |<span data-ttu-id="62bc7-118">Práctica sobre procedimientos, procedimientos y vídeos de revisión de característica - ver con el contenido.</span><span class="sxs-lookup"><span data-stu-id="62bc7-118">How-to, best practice and feature review videos - view with content.</span></span>  |
-| [<span data-ttu-id="62bc7-119">Café en el podcast en la nube en iTunes</span><span class="sxs-lookup"><span data-stu-id="62bc7-119">Coffee in the Cloud podcast on iTunes</span></span>](https://itunes.apple.com/us/podcast/coffee-in-the-cloud/id1417729403?mt=2) |<span data-ttu-id="62bc7-120">Práctica de procedimientos, procedimientos y ver los episodios de característica revisión podcast - escuchar sobre la marcha.</span><span class="sxs-lookup"><span data-stu-id="62bc7-120">How-to, best practice and feature review podcast episodes - listen on the go.</span></span>  |
-| <span data-ttu-id="62bc7-121">Introducción a Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="62bc7-121">Introduction to Microsoft Teams</span></span>   | <iframe width="350" height="200" src="https://www.youtube.com/embed/GPmjfqnvuG4" frameborder="0" allowfullscreen></iframe>   |
-| <span data-ttu-id="62bc7-122">Introducción a los equipos de Microsoft para el ámbito educativo</span><span class="sxs-lookup"><span data-stu-id="62bc7-122">Introduction to Microsoft Teams for Education</span></span>  | <iframe width="350" height="200" src="https://youtube.com/embed/xz4Jn_OtdUI" frameborder="0" allowfullscreen></iframe>   |
+<ul class="panelContent cardsFTitle">
+    <li>
+        <a href="https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-blue.svg" alt="megaphone" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Bienvenido a los equipos!<br>
+Vea este vídeo corto de presentación de los equipos</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+  <li>
+        <a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="get started" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                    <h3>Siga esta guía de inicio rápido para poner en funcionamiento rápidamente en los equipos</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li> <li>
+        <a href="https://support.office.com/teams">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/help.svg" alt="Help" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Obtener ayuda y procedimientos de documentación en el centro de Ayuda de los equipos</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li> 
+   <li>
+        <a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-blue.svg" alt="education tutorial" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Equipos de inspección vídeos de aprendizaje</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+ <li>
+        <a href="https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/video-play.svg" alt="video play" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Desproteger el canal de los equipos en YouTube</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
 
-<span data-ttu-id="62bc7-123">| 5 minutos para configurar los equipos de gran, canales y fichas |</span><span class="sxs-lookup"><span data-stu-id="62bc7-123">| 5 Minutes to Setting up Great Teams, Channels and Tabs   |</span></span> <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   <span data-ttu-id="62bc7-124">| | Colaborar a grandes rasgos - agregar invitados a su equipo de Microsoft |</span><span class="sxs-lookup"><span data-stu-id="62bc7-124">| | Collaborate Broadly - Adding Guests to your Microsoft Team  |</span></span> <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   <span data-ttu-id="62bc7-125">| | Acelerar su colaboración - mediante la barra de comandos en los equipos de Microsoft |</span><span class="sxs-lookup"><span data-stu-id="62bc7-125">| | Speed Your Collaboration - Using the Command Bar in Microsoft Teams  |</span></span> <iframe width="350" height="200" src="https://www.youtube.com/embed/wYrRCRphrp0" frameborder="0" allowfullscreen></iframe>   |
+    
+</ul>
+****************
+
+<h2>Recursos de aprendizaje destacados</h2>
+<ul class="panelContent cardsW">
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Cambiar a los equipos de Skype para la empresa</h3>
+                         <p>[Artículo: Cambiar a los equipos de Skype para la empresa](https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Configurar los equipos</h3>
+                         <p>[Vídeo: Obtener el equipo de funcionamiento](https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b)</p>
+                         <p>[Vídeo: Ir a guía para los propietarios de equipo](https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547)</p>
+                         <p>[Vídeo: Organizar la lista de los equipos](https://support.office.com/article/organize-your-teams-list-741bf760-39fc-4807-ad8b-92558273f542)</p>
+                         <p>[Vídeo: Instrucciones para la configuración de los equipos, los canales y fichas](https://www.youtube.com/watch?v=hjJWtoaRJeE)</p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li> <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Equipos y canales</h3>
+                         <p>[Vídeo: Información general de los equipos y canales](https://support.office.com/article/video-overview-of-teams-and-channels-c3d63c10-77d5-4204-a566-53ddcf723b46)</p>
+                         <p>[Vídeo: Canales de favorito y seguir](https://support.office.com/article/favorite-and-follow-channels-3f76dffd-78a8-49ca-b8de-28671cb444ba)</p>
+                         <p>[Vídeo: Trabajar en canales](https://support.office.com/article/video-work-in-channels-99d33aaa-0743-47c6-a476-eb0a24abcb7e)</p>
+                         <p>[Vídeo: Sugerencia: enviar correo electrónico a un canal](https://support.office.com/article/tip-send-email-to-a-channel-2c17dbae-acdf-4209-a761-b463bdaaa4ca)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+<li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Entradas de & mensajes</h3>
+                         <p>[Vídeo: Crear y dar formato a una entrada de blog](https://support.office.com/article/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885)</p>
+                         <p>[Vídeo: Obtener atención con @mentions](https://support.office.com/en-us/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b)</p>
+                         <p>[Vídeo: Guardar una entrada de blog o un mensaje](https://support.office.com/article/save-a-post-or-a-message-3f63e7d0-0011-47fa-99c0-98af60a71357)</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Las reuniones, las llamadas y chats</h3>
+                       <p>[Vídeo: Iniciar chats y realizar llamadas](https://support.office.com/article/video-start-chats-and-make-calls-a864b052-5e4b-4ccf-b046-2e26f40e21b5)</p>
+                       <p>[Vídeo: Crear reuniones instantáneas con Reunirse ahora](https://support.office.com/article/video-create-instant-meetings-with-meet-now-26e06837-853d-4df1-a729-06bf700d4ecf)</p>
+                       <p>[Vídeo: Administrar reuniones](https://support.office.com/article/video-manage-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+       <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Herramientas y aplicaciones</h3>
+                        <p>[Vídeo: Agregar herramientas con fichas](https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3)</p>
+                         <p>[Vídeo: Convertir un archivo en una ficha](https://support.office.com/article/tip-turn-a-file-into-a-tab-8c490008-3fb1-41b4-8152-6266b4474b05)</p>
+                        <p>[Vídeo: Utilizar el cuadro de comando](https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b)</p>
+                        <p>[Vídeo: Información general de la barra de comandos](https://www.youtube.com/watch?v=wYrRCRphrp0)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+<li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Fuente de actividades</h3>
+                         <p>[Vídeo: Filtrar su fuente de actividades](https://support.office.com/article/filter-your-activity-feed-02b9ece4-6086-4daa-b4c0-627beeacbf08)</p>
+                         <p>[Vídeo: Administración de la configuración de notificación](https://support.office.com/article/manage-notification-settings-348672f7-9ed0-4b96-86ed-d6fdcecb4096)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Trucos y sugerencias de los equipos</h3>
+                        <p>[Artículo: Sugerencias y trucos de los equipos](https://support.office.com/office-training-center/Teams-tips)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+      </ul>
 
 
