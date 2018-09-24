@@ -12,15 +12,18 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e2fcb69ce4bcba3905b52874d52d97ab9015cbc
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 386dc9ba6552f4b8cb8110b3351e8073e76a6113
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883691"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975111"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 grupos y equipos de Microsoft
 =====================================
+
+> [!Tip]
+> Vea la sesión siguiente para obtener información sobre cómo los equipos interactúa con Azure Active Directory (AAD), grupos de Office 365, Exchange, SHarePoint y OneDrive para la empresa: [Fundamentos de los equipos de Microsoft](https://aka.ms/teams-foundations)
 
 Grupos de Office 365 es el servicio de pertenencia entre aplicaciones de Office 365. En el nivel básico, un grupo de Office 365 es un objeto de Azure Active Directory con una lista de miembros y un acoplamiento flexible para cargas de trabajo relacionados, incluidos un sitio de grupo de SharePoint, el grupo de Yammer, comparte recursos de buzón de correo de Exchange, organizador, PowerBI y OneNote. Puede agregar o quitar personas al grupo como lo haría con cualquier otro objeto de seguridad basadas en grupos de Active Directory.
 

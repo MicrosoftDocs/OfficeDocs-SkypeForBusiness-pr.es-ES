@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfd6eead5c62865d2c0c00f8719f2e6ec188ff9c
-ms.sourcegitcommit: 43bb1c1355193809c4f297d3dcb535c8b8d5d527
+ms.openlocfilehash: 9caef93f2303458d20c2d7e2142579edaae69748
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24062005"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975119"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
 ===========================
@@ -29,6 +29,9 @@ Microsoft Teams tiene los clientes disponibles para escritorio web (Windows y Ma
 
 <a name="desktop-client"></a>Cliente de escritorio
 --------------
+
+> [!Tip]
+> Vea la sesión para conocer las ventajas del escritorio de Windows de cliente, cómo planear para él y cómo implementarlo siguiente: [Los equipos cliente de escritorio de Windows](https://aka.ms/teams-clients)
 
 El cliente de escritorio de Microsoft Teams es una aplicación independiente y actualmente no forma parte de Office 365 ProPlus. Los equipos está disponible para Windows (7 +), versiones de 32 bits y 64 bits y Mac OS (10.10 +). En Windows, los equipos requiere .NET Framework 4.5 o posterior; el programa de instalación de los equipos ofrecerá a instalarlo automáticamente si no lo tiene. 
 

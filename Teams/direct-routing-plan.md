@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: ''
 description: Lea este tema para obtener información sobre cómo enrutamiento directo de Microsoft teléfono del sistema le permite conectar un compatibles, proporcionado por el cliente sesión controlador de borde (SBC) para el sistema telefónico de Microsoft.
-ms.openlocfilehash: 0f2fceee07b3c742496be7e9fdf5c714d66f8bc1
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 91d188f63a0645d0df81817dd98dbd3ef54418a9
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861744"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975205"
 ---
 # <a name="plan-direct-routing"></a>Planeación de enrutamiento directo
 
@@ -136,7 +136,8 @@ El certificado debe ser generado por una de las siguientes entidades de certific
 - Baltimore CyberTrust Root
 - Buypass
 - Cybertrust
-- Entidad de certificación principal pública de clase 3 
+- Entidad de certificación principal pública de clase 3
+- Entidad de certificación raíz de seguro de comodo
 - Marco alemán Telekom 
 - DigiCert de entidad de certificación raíz Global 
 - Entrust
