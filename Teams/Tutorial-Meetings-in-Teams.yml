@@ -14,15 +14,17 @@ metadata:
   ms.topic: tutorial
   localization_priority: Normal
   search.appverid: MET150
-  ms.collection: Strat_MT_TeamsAdmin
+  ms.collection:
+  - Teams_ITAdmin_PracticalGuidance
+  - Teams_ITAdmin_Training
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: d033c315f57f49864e5e2ca23ea7cb55af6459c6
-  ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+  ms.openlocfilehash: 2ca442050168107e2b2b205d3c0c297ba1450a4a
+  ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 09/08/2018
-  ms.locfileid: "23892409"
+  ms.lasthandoff: 09/25/2018
+  ms.locfileid: "25012436"
 items:
 - durationInMinutes: 1
   content: >

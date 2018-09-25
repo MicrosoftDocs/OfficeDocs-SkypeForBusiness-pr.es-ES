@@ -7,8 +7,12 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 2ee5f7a1-8067-4e5e-961e-3b5f22155cdf
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -22,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Noruega los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: a6cd876a7a5ae10b9e521c2d4a16064cd9d3f2ba
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: edabd7303358ef1a769a4e47d5a2011d93f56555
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23859452"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017024"
 ---
 # <a name="availability-in-norway"></a>Disponibilidad en Noruega
 

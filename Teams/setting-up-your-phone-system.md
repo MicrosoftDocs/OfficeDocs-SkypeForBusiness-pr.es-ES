@@ -6,9 +6,12 @@ manager: serdars
 ms.reviewer: makolomi
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -20,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar el sistema telefónico (PBX en la nube) para su organización. '
-ms.openlocfilehash: 54ac25bb3c2ec88a35bc8e017f7a3eb2e55edc1e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 92d575a3219bcf2a99c48040b77b0eaa2463b25a
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883240"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017690"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Configuración del sistema telefónico en su organización
 

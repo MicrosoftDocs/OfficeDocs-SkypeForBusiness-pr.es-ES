@@ -7,9 +7,12 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 3dc773b9-95e0-4448-b2f1-887c54022429
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -22,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: "Learn what Office 365 Callings Plans (PSTN calling) are, what regions it's available in, and where to go for step by step instructions on how to set it up. "
-ms.openlocfilehash: 240a709c838beaa221be3235f05f92f65faaa1ee
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 032527a0d2244d0121329220a9ef45491ec19017
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890024"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013598"
 ---
 # <a name="what-are-calling-plans-in-office-365"></a>¿Qué son los Planes de llamada en Office 365?
 

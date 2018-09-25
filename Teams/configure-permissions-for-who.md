@@ -8,15 +8,15 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 description: Guía práctica para implementar características de voz en la nube en Microsoft Teams.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+Set_Free_Tag: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc8fe9a21cdfa4d1df0bf3f11631d103a13fe94b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 20b556395c655d5052c328416d0f5ea64aee71ec
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860218"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015840"
 ---
 <a name="configure-permissions-for-who"></a>Configurar los permisos de Quién
 =============================

@@ -7,16 +7,17 @@ layout: landingpage
 ms.date: 09/21/2018
 ms.topic: landing page
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Training
 search.appverid: MET150
 description: Vídeos de aprendizaje, tutoriales y otros recursos para los administradores acerca de cómo planear, implementación y ejecutan Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3ee2ac75015f26317f85d6cf4ecf79e71496f0b
-ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
+ms.openlocfilehash: 687560f613a9537948c8aa56937bc7fb5dd814a1
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24975095"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015160"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 

@@ -13,15 +13,15 @@ localization_priority: Normal
 search.appverid: MET150
 ms.custom:
 - Devices
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5a55dba95ee57738a708db1167288cc6bd210fc6
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 72c420697b015d3af9cfe6fb9dd96757f1542e80
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858468"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016312"
 ---
 <a name="run-microsoft-teams-in-a-virtual-environment"></a>Ejecute Microsoft Teams en un entorno virtual
 ============================================

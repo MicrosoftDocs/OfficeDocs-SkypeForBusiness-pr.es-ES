@@ -9,16 +9,16 @@ ms.service: msteams
 ms.reviewer: ''
 description: Obtenga información sobre los límites, especificaciones y otros requisitos que se aplican a Microsoft Teams.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8712a40e61fbef9971637a2abdddb0fe401fca02
-ms.sourcegitcommit: 1f5786a82ad535652da22e755e9c1d3063e5425f
+ms.openlocfilehash: faa31d1a225c19b511e074eedbb5702eb1432a50
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23935795"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014832"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y las especificaciones de Microsoft Teams
 =============================================

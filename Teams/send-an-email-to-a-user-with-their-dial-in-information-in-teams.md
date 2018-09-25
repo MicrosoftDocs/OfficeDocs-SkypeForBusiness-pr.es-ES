@@ -7,9 +7,9 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 7440d3e2-1b49-4258-bd2c-79e9072f8c8d
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Envíe a sus usuarios un correo electrónico con la información de sus audioconferencias en Microsoft Teams.
-ms.openlocfilehash: 85e219481884bb08a2574809b6170c232abccf83
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 9ebd650e487b4ef3108d50ecce31eea0a936b176
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892095"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25012324"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Enviar un correo electrónico a un usuario con su información de audioconferencia en Microsoft Teams
 
-A veces, puede que los usuarios de Microsoft Teams necesiten que les envíe su información sobre la audioconferencia. Para ello, haga clic en **Enviar información de conferencia por correo electrónico** en las propiedades de un usuario. Cuando se envíe este correo electrónico, este contendrá toda la información de la audioconferencia, incluido lo siguiente:
+En ocasiones, los usuarios de Microsoft Teams necesite enviarles su información de conferencia de Audio. Puede hacerlo haciendo clic en **Enviar información de conferencia a través de correo electrónico** en las propiedades de un usuario. Al enviar este correo electrónico, contendrá toda la información de conferencia de audio, incluidos:
   
 - El número de teléfono de la conferencia o el número de teléfono de acceso telefónico local del usuario
     
@@ -68,7 +68,7 @@ A continuación se muestra un ejemplo del correo electrónico que se envía:
     
   - Cuando el proveedor de servicios de audioconferencia de un usuario se cambia a Microsoft.
     
-- De manera predeterminada, el remitente de los mensajes de correo electrónico será de Office 365, pero puede cambiar la dirección de correo electrónico y el nombre para mostrar con Windows PowerShell. Vea la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
+- De forma predeterminada, será el remitente de los mensajes de correo electrónico de Office 365, pero puede cambiar la dirección de correo electrónico y nombre para mostrar mediante el uso de Windows PowerShell. Vea la [referencia de PowerShell de los equipos de Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 

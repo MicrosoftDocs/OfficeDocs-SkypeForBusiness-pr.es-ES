@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: bd0cd155-4c6d-424d-a2c9-af7974a2d34c
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Descubra cómo se puede ver una lista de usuarios de su organización que estén habilitados para la conferencia de acceso telefónico local desde Microsoft Teams. '
-ms.openlocfilehash: 9bbdd5fd8536554c942db19c8c9f5ac41789c461
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: e82d0d265e89c5b717ff25ea7c58ec240b38bea0
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884450"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014038"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Consultar una lista de usuarios que se han habilitado para Audioconferencia en Microsoft Teams
 
-Después de habilitar a los usuarios de Microsoft Teams de su organización para las audioconferencias, puede ver la lista de esos usuarios habilitados. En la lista también verá el tipo de proveedor de servicios de audioconferencia que está usando cada usuario incluido, así como su número de teléfono de acceso telefónico predeterminado y, si la organización no está habilitada para los Id de conferencia dinámicos, los Id. de conferencia estáticos de las reuniones de audioconferencia que organicen.
+Después de haber habilitado a los usuarios de Microsoft Teams en su organización para conferencias de Audio, puede ver la lista de los usuarios que han sido habilitados. Cuando examine la lista, también verá para cada usuario en la lista el tipo de proveedor de conferencias de audio que están usando, el número de teléfono de acceso telefónico predeterminada para el usuario, y si su organización no está habilitada para los identificadores de conferencia dinámico, la conferencia estática identificadores para las reuniones de conferencia de audio que organizan.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

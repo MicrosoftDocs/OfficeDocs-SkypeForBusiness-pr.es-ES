@@ -10,15 +10,15 @@ ms.reviewer: rowille
 description: Validar que se cumplen las expectativas de su organización a través de las pruebas del sistema de teléfono en las características de los equipos, las funciones y facilidad de uso.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc9ab85d285042cbb4080edefaa6d5775b406c63
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 24629cee495bafe9e80845c52cc44207fb393038
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23887342"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017146"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Defina y documente el sistema de teléfono con planes de llamada en el plan de pruebas de los equipos para empresas 
 ============================================================================================

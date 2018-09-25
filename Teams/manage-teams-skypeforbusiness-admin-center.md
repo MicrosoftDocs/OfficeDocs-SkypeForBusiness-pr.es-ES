@@ -5,23 +5,25 @@ ms.author: lolaj
 manager: serdars
 ms.date: 03/23/2018
 ms.topic: article
-ms.service: msteams
+ms.service:
+- msteams
+- skype-for-business-online
 ms.reviewer: ''
 search.appverid: MET150
 description: Entender cómo administrar todo el inquilino y configuración del usuario para los equipos durante la transición de los equipos de la experiencia en el centro de administración de Office 365 para el nuevo Microsoft Teams & Skype para el centro de administración de negocio.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: dddb73e5b616fead421d1b610eff6229b4191d06
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: e54dfb0bc62e94e0a870aefc192851ce7b8a53fe
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965702"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013902"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Administrar los equipos durante la transición a la nueva Microsoft Teams & Skype para el centro de administración de negocio
 ======================================================
@@ -76,7 +78,7 @@ En la siguiente tabla identifica las secciones de la experiencia actual de los e
 |Almacenamiento en nube personalizado     |Lista desplegable        |TeamsClientConfiguration         |Inquilino         |
 |Almacenamiento en nube personalizado     |Unidad de Google        |TeamsClientConfiguration         |Inquilino         |
 |Almacenamiento en nube personalizado     |ShareFile        |TeamsClientConfiguration         |Inquilino         |
-|Configuración por tipo de licencia de usuario o     |Activar Microsoft Teams activado o desactivado para todos los usuarios          |En desuso. Use el centro de administración de Office 365 para asignar licencias.        |         |
+|Configuración por tipo de licencia de usuario o     |Activar Microsoft Teams activado o desactivado para todos los usuarios          |Quedará obsoleto. Use el centro de administración de Office 365 para asignar licencias.  Habilitación o deshabilitación de invitado se moverán a TeamsClientConfiguration - AllowGuestUser      |         |
 |Equipos y canales     |         |Redirecciones a Azure grupo Administración de Active Directory (igual que la experiencia actual).              |Usuario         |
 |Equipos y canales     |         |Redirige a la administración de grupo de AAD (igual que la experiencia actual).             |Usuario          |
 |Las llamadas y las reuniones     |Permitir la programación de reuniones privadas         |TeamsMeetingPolicy         |Usuario          |

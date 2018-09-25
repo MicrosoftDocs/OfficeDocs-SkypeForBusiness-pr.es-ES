@@ -10,15 +10,15 @@ ms.reviewer: laal
 search.appverid: MET150
 description: Obtenga más información sobre la funcionalidad de Microsoft Teams que está disponible para los usuarios invitados.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 614821916bb271418fb13b4a41907f0b844d66fe
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 921617c2f9a4a1bcc9f38030bdcea0d72c7f54aa
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892717"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016520"
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 =================================

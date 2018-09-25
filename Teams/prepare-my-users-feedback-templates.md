@@ -10,15 +10,15 @@ ms.reviewer: rowille
 description: Recopilar comentarios del usuario para mejorar la implementación de voz en la nube en Microsoft Teams o Skype para la empresa.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 535ecf10b044ef93fa3d1c582c48db13f7aea895
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d3c315588365d023f61a12aa0e2ecf8068a4aaf7
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891423"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015768"
 ---
 # <a name="user-feedback-surveys"></a>Encuestas de comentarios del usuario 
 

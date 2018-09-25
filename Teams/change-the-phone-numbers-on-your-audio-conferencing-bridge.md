@@ -7,9 +7,12 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 6403f6d1-c05a-44ab-a6e0-558000e246f4
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -21,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Cuando comprar licencias de conferencias de Audio, Microsoft hospeda el puente de conferencia de audio para su organización. El puente de conferencia de audio proporciona los números de teléfono de acceso telefónico desde diferentes ubicaciones para que los participantes y los organizadores de reuniones utilizar para unirse a Skype para reuniones profesionales o Teams de Microsoft mediante un teléfono.
-ms.openlocfilehash: 32376134a6faa6944c6a4bb3e36a92cf3407ebce
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5cd9a925ecf7dd24d900ebcbd30de3a30ec7a97d
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23892497"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016752"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Cambiar los números de teléfono de su puente de Audioconferencia
 
@@ -46,7 +49,7 @@ Además de los números de teléfono ya está asignados a su puente de conferenc
 
 1. Inicie sesión en Office 365 con su cuenta profesional.
 
-2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **Skype para la empresa** > **voz** > **los números de teléfono**.
+2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **equipos & Skype** > **portal heredado** > **voz** > **los números de teléfono**.
 
 3. Seleccione el número de teléfono de la lista y, en el panel de acciones, haga clic en **asignar**.
 
@@ -65,7 +68,7 @@ Cuando se programa una reunión, los números de teléfono que se incluyen en la
   
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
 
-2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **Skype para la empresa** > **conferencias de Audio** > **a los usuarios** y seleccione los usuarios en la lista.
+2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **equipos & Skype** > **portal heredado** > **conferencias de Audio** > **a los usuarios** y seleccione los usuarios en la lista.
 
 3. Haga clic en **Editar** en el panel de acciones.
 
@@ -129,7 +132,7 @@ Para obtener más información sobre el servicio de migración de reuniones, con
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
 
-2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **Skype para la empresa** > **voz** > **los números de teléfono**.
+2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **equipos & Skype** > **portal heredado** > **voz** > **los números de teléfono**.
 
 3. Seleccione el número de teléfono de la lista y, en el panel de acciones, haga clic en **Cancelar asignación**.
 

@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 67866a47-89c1-4593-8766-3a68777e2be6
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,18 +20,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Descubra qué debe saber sobre los PIN y cómo se restablecen en Microsoft Teams. '
-ms.openlocfilehash: 9c63df504150dce7ba1d46329fc86a27c75ced8d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: b88ab6ee2cd498a38026e1fe2bfde04344514901
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892957"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014254"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Restablecer el PIN de Audioconferencia en Microsoft Teams
 
-Un PIN es un código formado por números que se crea para cada usuario de Microsoft Teams que está habilitado para audioconferencias. El PIN de audioconferencia lo usa el organizador de la reunión para identificarse como tal y poder iniciar una por teléfono. Si la reunión se inicia con la aplicación de Microsoft Teams, no se necesitará el PIN. Si un usuario olvida su PIN y no lo puede encontrar en el correo electrónico que se le envió cuando se le habilitó para audioconferencias, el administrador podrá restablecer su PIN o podrá hacerlo el mismo usuario.
+Un NIP es un código formado por los números que se crean para cada usuario de Microsoft Teams habilitados para conferencias de audio. PIN de conferencia de audio se usan por los organizadores de reuniones para identificar que son el organizador de la reunión y que puedan iniciar una reunión a través del teléfono. Si la aplicación de Microsoft Teams que utilizan para iniciar la reunión, un PIN no es necesario. Si los usuarios olvidan su PIN y no pueden encontrar en el correo electrónico que se envió a ellos cuando se han habilitado para conferencias de audio, un administrador puede restablecer su NIP, o pueden restablecer su propios NIP.
   
-Las reuniones se pueden iniciar cuando un usuario autenticado se une con la aplicación de Microsoft Teams o cuando el organizador se une con su código PIN por teléfono. Cuando una reunión necesita un PIN para empezar, los usuarios que se unan a la reunión por teléfono se colocarán en la sala de espera y escucharán música en espera hasta que se inicie la reunión. Si el organizador de la reunión no necesita un PIN para iniciar la reunión por teléfono, a los autores de la llamada no se les pedirá un PIN cuando se unan a la reunión.
+Las reuniones se pueden iniciar cuando se une a un usuario autenticado mediante la aplicación de Microsoft Teams o cuando se une el organizador con su PIN a través del teléfono. Cuando una reunión necesita un PIN para empezar, los usuarios que se unan a la reunión por teléfono se colocarán en la sala de espera y escucharán música en espera hasta que se inicie la reunión. Si el organizador de la reunión no necesita un PIN para iniciar la reunión por teléfono, a los autores de la llamada no se les pedirá un PIN cuando se unan a la reunión.
 
 ## <a name="reset-a-users-pin"></a>Restablecer el PIN de un usuario
 
@@ -52,19 +52,19 @@ Las reuniones se pueden iniciar cuando un usuario autenticado se une con la apli
 
 ## <a name="what-else-should-you-know-about-pins"></a>¿Qué más tiene que saber sobre los códigos PIN?
 
-- Por motivos de seguridad, cuando se restablece el PIN, solo se muestra a un administrador una vez. Una vez que el administrador ha restablecido el PIN, este aparecerá como ***********.
+- Por motivos de seguridad, el PIN solo se muestra a un administrador una vez, cuando se restablece el PIN. Después de restablece el PIN por un administrador, el NIP se mostrará como ***.
     
-- El envío automático de correos electrónicos a los usuarios está habilitado de manera predeterminada, de manera que los usuarios recibirán un correo electrónico con su PIN cuando estén habilitados para audioconferencias o cuando se restablezca el PIN. No obstante, si ha deshabilitado el envío automático de correos electrónicos, no se enviará el correo electrónico por el restablecimiento de PIN al usuario y habrá que enviarle esta información manualmente.
+- Enviar automáticamente mensajes de correo electrónico a los usuarios está habilitado de forma predeterminada, y los usuarios recibirán un correo electrónico con su NIP cuando están habilitados para conferencias de audio o cuando se restablece el NIP. Pero si ha deshabilitado automáticamente enviar mensajes de correo electrónico, no se enviará un correo electrónico de restablecimiento PIN a un usuario y tendrá que enviar manualmente la información de PIN para el usuario.
     
 - Cuando se inicia una reunión, todos los usuarios de la sala de espera se unirán automáticamente. Por ejemplo, si los dos participantes intentan unirse a una reunión antes de que se haya iniciado, se enviarán a la sala de espera y escucharán música en espera y, cuando el organizador de la reunión se una con su PIN a través del teléfono, la reunión se iniciará y los participantes de la sala de espera se unirán a la reunión.
     
 - La configuración predeterminada no permite que se inicie una reunión con autores de llamada anónimos.
     
-- Al habilitar a un usuario para audioconferencias, de manera predeterminada se le envían correos electrónicos con información sobre la conferencia y con su PIN. Es necesario que el usuario tenga un buzón de Office 365 ya que, cuando se restablece un PIN, se enviará un nuevo PIN al usuario por correo electrónico a la dirección SMTP principal (alias) que se haya configurado para el usuario.
+- Cuando se habilita un usuario para conferencias de audio, de forma predeterminada se envían mensajes de correo electrónico que incluyen información de conferencia y su PIN. El usuario debe tener un buzón de Office 365, porque cuando se restablece un NIP, un nuevo NIP se van a enviar al usuario por correo electrónico a su dirección SMTP principal (alias) que se establece para el usuario.
     
-- Al configurar audioconferencias, establecerá los dígitos necesarios para los códigos PIN en su organización. Los PIN pueden tener de 4 a 12 dígitos (el valor predeterminado es 5). Si cambia la configuración de longitud del PIN, la configuración solo se aplicará en los códigos PIN nuevos que se generen, pero no se aplicará en la configuración de PIN de los usuarios existentes que tengan habilitada la audioconferencia. Vea [Establecer la longitud del PIN para reuniones de Audioconferencia](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md)
+- Cuando se establece una conferencia con audio, establezca los dígitos que se requieren para el PIN en la organización. Los PIN pueden tener de 4 a 12 dígitos (el valor predeterminado es 5). Si cambia la configuración de longitud PIN, la configuración se aplica solo a los PIN generados recientemente y no se aplica a la configuración de PIN para los usuarios existentes que están habilitados para conferencias de audio. Vea [establecer la longitud del eje para las reuniones de conferencia de Audio](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md).
     
-- De manera predeterminada, el correo electrónico se establecerá en la dirección SMTP principal de Office 365 del usuario, aunque también se puede enviar un correo electrónico a una dirección que no sea de Office 365, como una dirección de Hotmail o MSN. La dirección de correo electrónico predeterminada se puede reemplazar con Windows PowerShell. Esto resulta muy útil si los usuarios no tienen un buzón de Exchange en Office 365.
+- El correo electrónico de forma predeterminada se establecerá en la dirección SMTP principal de Office 365 del usuario. Puede enviar un correo electrónico a una dirección que no sean Office 365, como Hotmail o la dirección de correo electrónico MSN. Puede invalidar la dirección de correo electrónico predeterminada mediante el uso de Windows PowerShell. Esto es útil si los usuarios no tienen un buzón de Exchange en Office 365.
 
     
 

@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 0f39dc9d-eb60-4c5a-9ae3-e34a01834d9b
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,35 +20,36 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Como administrador de Office 365, puede editar la configuración de Audioconferencia de Microsoft Teams (como el proveedor, el número gratuito o de pago predeterminado, el Id. de conferencia o el PIN) para una persona de su organización. '
-ms.openlocfilehash: 303e07da6e9e3e30f0ad570d5562a47264de3333
-ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
+ms.openlocfilehash: 11042cc385e2ad1f0635a459e4be34b2dafcd3bd
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24975190"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013878"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Administrar la configuración de Audioconferencia para un usuario en Microsoft Teams
 
 Como un administrador de Office 365, puede editar la configuración de Audioconferencia, como por ejemplo el proveedor, el número gratuito o de pago predeterminado, el identificador de conferencia o el PIN, de un usuario individual en la organización. Si desea editar la configuración de la organización, vea [Administrar la configuración de conferencia de Audio de mi organización](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
+En los equipos de Microsoft & Skype para el centro de administración de negocio
 
-1. En el panel de navegación izquierdo, haga clic en **Usuarios** y seleccione el usuario en la lista de usuarios disponibles.
+1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
 2. En la parte superior de la página, haga clic en **Editar**.
 
-3. En **Audioconferencia**, modifique alguna de las siguientes opciones:
+3. En las **Conferencias de Audio**, modifique cualquiera de las siguientes opciones:
 
-|**Opción**|**Descripción**|
+|**Configuración**|**Descripción**|
 |:-----|:-----|
-|**Audioconferencia**|Para activar o desactivar las audioconferencias para el usuario, haga clic en **Editar** junto a **Audioconferencia** y después, en el panel **Audioconferencia**, active o desactive **Audioconferencia**.|
-|**Enviar la información de conferencia por correo electrónico**  |Haga clic en este vínculo solo si desea enviar inmediatamente un correo electrónico al usuario con su número de teléfono e Id. de conferencia. (Este correo electrónico no incluye el PIN). Vea [Enviar un correo electrónico a un usuario con su información de Audioconferencia](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).  |
+|**Audioconferencias**|Para activar la conferencia de audio o desactivada para el usuario, haga clic en **Editar** junto a **Conferencias de Audio**y, a continuación, en el panel de **Conferencia de Audio** , activar o desactivar el **conferencias de Audio** .|
+|**Enviar información de conferencia en el correo electrónico**  |Haga clic en este vínculo solo si desea enviar inmediatamente un correo electrónico al usuario con su número de teléfono e Id. de conferencia. (Este correo electrónico no incluye el PIN). Vea [Enviar un correo electrónico a un usuario con su información de Audioconferencia](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).  |
 |**Id. de conferencia**  |Haga clic en **Restablecer el identificador de conferencia** si necesita restablecer el identificador de conferencia para el usuario. Para obtener más información, consulte [Restablecer un Id. de conferencia para un usuario](reset-a-conference-id-for-a-user-in-teams.md).  |
 |**PIN** |Haga clic en **Restablecer PIN** si necesita restablecer el PIN para el usuario. Para obtener más información, vea [Restablecer el PIN de Audioconferencia](reset-the-audio-conferencing-pin-in-teams.md). |
-|**Número de teléfono de pago predeterminado para las conferencias** (obligatorio) |Se trata de números que se establecen en el puente de conferencia de audio. Dar formato a los números tal como desea que aparezca en Skype para las convocatorias de reunión de Microsoft Teams y profesionales. Para cambiar el número de teléfono de pago predeterminado, haga clic en **Editar** junto a **Conferencias de Audio** y en el panel de **Conferencia de Audio** , seleccione un número en **número de teléfono de pago**. |
-|**Las invitaciones de este usuario pueden incluir un número de teléfono gratuito**|Para cambiar esta configuración, haga clic en **Editar** junto a **Audioconferencia** y, en el panel **Audioconferencia**, active o desactive **Incluir números de teléfono gratuitos en las convocatorias de reunión de este usuario**. |
-|**Permisos de aceptación de llamada**|Para cambiar esta configuración, haga clic en **Editar** junto a **Audioconferencia** y, en el panel **Audioconferencia**, elija una opción en **Permiso de acceso por aceptación de llamada de reuniones**.|
+|**Valor predeterminado de número de teléfono de pago de conferencia** (obligatorio) |Se trata de números que se establecen en el puente de conferencia de audio. Dar formato a los números tal como desea que aparezca en Skype para las convocatorias de reunión de Microsoft Teams y profesionales. Para cambiar el número de teléfono de pago predeterminado, haga clic en **Editar** junto a **Conferencias de Audio** y en el panel de **Conferencia de Audio** , seleccione un número en **número de teléfono de pago**. |
+|**Invitaciones de este usuario pueden incluir el número de teléfono gratuito**|Para cambiar esta configuración, haga clic en **Editar** junto a **Conferencias de Audio** y en el panel de **Conferencia de Audio** , activar o desactivar el **incluir los números gratuitos en convocatorias de reunión de este usuario** . |
+|**Permisos de acceso telefónico de salida**|Para cambiar esta configuración, haga clic en **Editar** junto a **Conferencias de Audio** y en el panel de **Conferencia de Audio** , elija una opción bajo el **permiso de acceso telefónico de salida de las reuniones**.|
 
-![Muestra la configuración de Audioconferencia para un usuario](media/sfbaudioconf-usersettings.png)
+![Muestra la configuración de conferencia de Audio para un usuario](media/sfbaudioconf-usersettings.png)
  
 
 > [!Note]

@@ -7,9 +7,12 @@ ms.reviewer: wasseemh
 ms.topic: article
 ms.assetid: 4a57e3d0-8b08-494f-a195-b44afa9cbc0d
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -21,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Descubra cuáles son los idiomas que puede configurar en Skype Empresarial para los mensajes predeterminados del sistema. '
-ms.openlocfilehash: d9ce631673eda8577417bbe0be4a3a3eb60e3524
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 77500d8a84dada5f2a5005c214fded7eddb3186e
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887495"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013276"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Idiomas para los mensajes y los saludos de los correos de voz
 

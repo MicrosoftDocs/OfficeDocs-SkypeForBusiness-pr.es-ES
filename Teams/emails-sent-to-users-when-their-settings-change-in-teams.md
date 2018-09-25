@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 1b46da6d-f93a-4cc0-9ae8-af765935b007
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,25 +20,25 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Vea qué información se envía por correo electrónico automáticamente a los usuarios cuando cambia su configuración de las conferencias de acceso telefónico local en Microsoft Teams. '
-ms.openlocfilehash: f351f7a1107c3f52ddc2c9f60b7cd79feb31388c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: b1bd7764f7780267d9f2a98a3203f49d2c0e938e
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890065"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016168"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Correos electrónicos que se envían a los usuarios cuando cambia la configuración en Microsoft Teams
 
 Los correos electrónicos se enviarán automáticamente a los usuarios que estén [habilitados para Audioconferencia](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) con Microsoft como proveedor de servicios de audioconferencia.
   
-De manera predeterminada, hay cuatro tipos de correos electrónicos que se enviarán a los usuarios habilitados para Audioconferencia. Sin embargo, si quiere limitar el número de correos electrónicos que se envían a los usuarios, puede desactivar esta función. Audioconferencia en Office 365 enviará un correo electrónico a los usuarios en las siguientes circunstancias:
+De forma predeterminada, hay cuatro tipos de correo electrónico que se van a enviar a los usuarios que están habilitados para conferencias de Audio. Pero, si quiere limitar el número de correos electrónicos que se envían a los usuarios, puede desactivarlo. Conferencias de audio en Office 365 va a enviar correo electrónico a los usuarios de correo electrónico cuando:
   
 - **Se les asigna una licencia de Audioconferencia o cuando está cambiando el proveedor de servicios de audioconferencia a Microsoft.**
     
-     Este correo electrónico incluye el Id. de conferencia, el número de teléfono de conferencia predeterminado para las reuniones, el PIN del usuario para audioconferencias, así como las instrucciones y el vínculo para usar la herramienta de actualización de reuniones de Skype Empresarial Online que se utiliza para actualizar reuniones existentes del usuario. Consulte [Asignar licencias de Skype Empresarial y Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) o [Asignar a Microsoft como proveedor de servicios de audioconferencia](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
+     Este correo electrónico incluye el identificador de conferencia, el número de teléfono de conferencia de forma predeterminada para las reuniones, la conferencia de audio PIN para el usuario y las instrucciones y el vínculo que se usará el Skype para Online Meeting actualizar herramienta empresarial que se utiliza para actualizar las reuniones existentes para la usuario. Vea [Asignar Skype para licencias de negocio y equipos de Microsoft](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) o [Microsoft asignar como el proveedor de conferencia de audio](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
     
     > [!NOTE]
-    > Si en su organización se han habilitado los identificadores de conferencia dinámicos, todas las reuniones que se programen de un usuario tendrán identificadores de conferencia únicos. Puede configurar [identificadores dinámicos de Audioconferencia en su organización](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user). 
+    > Si en su organización se han habilitado los identificadores de conferencia dinámicos, todas las reuniones que se programen de un usuario tendrán identificadores de conferencia únicos. Puede configurar [los identificadores dinámicos de conferencias de Audio en su organización](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user). 
   
     A continuación tiene un ejemplo de este correo electrónico:
     
@@ -48,7 +48,7 @@ De manera predeterminada, hay cuatro tipos de correos electrónicos que se envia
     
 - **El Id. de conferencia o el número de teléfono de conferencia predeterminado de un usuario cambia.**
     
-    Este correo electrónico contiene el Id. de conferencia, el número de teléfono de conferencia predeterminado, y las instrucciones y el vínculo para usar la herramienta de actualización de reuniones de Skype Empresarial Online que se usa para actualizar reuniones existentes para el usuario. Sin embargo, en este correo electrónico no se incluye el PIN de audioconferencia del usuario. Vea [Restablecer un Id. de conferencia para un usuario](reset-a-conference-id-for-a-user-in-teams.md).
+    Este correo electrónico contiene el identificador de conferencia, número de teléfono de conferencia de forma predeterminada y las instrucciones y vínculos para usar el Skype para Online Meeting actualizar herramienta empresarial que se utiliza para actualizar las reuniones existentes para el usuario. Pero este correo electrónico no incluye los PIN de conferencia de audio del usuario. See [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams.md).
   
     A continuación tiene un ejemplo de este correo electrónico:
     
@@ -56,7 +56,7 @@ De manera predeterminada, hay cuatro tipos de correos electrónicos que se envia
   
 - **El PIN de audioconferencia de un usuario se ha restablecido.**
     
-    Este correo electrónico contiene el PIN de audioconferencia del organizador, el Id. de conferencia existente y el número de teléfono de la conferencia predeterminado para el usuario. Vea [Restablecer el PIN de Audioconferencia](reset-the-audio-conferencing-pin-in-teams.md).
+    Este mensaje contiene el PIN de conferencia de audio del organizador, el identificador de conferencia existente y número de teléfono de conferencia predeterminado para el usuario. Vea [Restablecer el PIN de conferencia de Audio](reset-the-audio-conferencing-pin-in-teams.md).
     
   
     A continuación tiene un ejemplo de este correo electrónico:
@@ -65,7 +65,7 @@ De manera predeterminada, hay cuatro tipos de correos electrónicos que se envia
   
 - **Cuando se quita la licencia de un usuario o cuando el proveedor de servicios de audioconferencia cambia de Microsoft a otro proveedor o a Ninguno.**
     
-    Esto se produce cuando la licencia de **Audioconferencia** se quita de un usuario o cuando el proveedor de servicios de audioconferencia de un usuario cambia de Microsoft a un proveedor de servicios de audioconferencia de terceros, o bien cuando se establece el proveedor en **Ninguno**. Este correo electrónico contiene las instrucciones e información para que el usuario pueda usar la herramienta de actualización de reuniones de Skype Empresarial Online para quitar información específica de las audioconferencias, como el número de teléfono o el Id. de conferencia predeterminados.
+    Esto sucede cuando se quita la licencia de **Conferencias de Audio** de un usuario o cuando se cambia el proveedor de conferencia de audio de un usuario de Microsoft a un proveedor de conferencia de audio de terceros o al establecer el proveedor en **Ninguno**. Este correo electrónico contiene las instrucciones y la información del usuario usar el Skype para la herramienta de actualización de reunión en línea de negocio para quitar la información específica de conferencias de audio, como el ID predeterminado conferencia teléfono número o conferencia.
     
     Consulte [Asignar o cancelar licencias para Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
     
@@ -78,11 +78,11 @@ De manera predeterminada, hay cuatro tipos de correos electrónicos que se envia
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Realizar cambios en los mensajes de correo electrónico que se les envían
 
-Puede realizar cambios en el correo electrónico que se envía de forma automática a los usuarios, incluidos la dirección de correo electrónico y el nombre para mostrar que se incluye en la información de contacto del *remitente*. De manera predeterminada, el remitente de los mensajes será de Office 365, pero puede cambiar la dirección de correo electrónico y el nombre para mostrar con Windows PowerShell. Vea la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
+Puede realizar cambios en el correo electrónico que se envía automáticamente a los usuarios incluidos en la dirección de correo electrónico y el nombre para mostrar que se incluye en la información *de* contacto. De forma predeterminada, será el remitente de los mensajes de correo electrónico de Office 365, pero puede cambiar la dirección de correo electrónico y Mostrar nombre con Windows PowerShell. Vea la [referencia de PowerShell de los equipos de Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
   
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>¿Qué sucede si no desea que se les envíen correos electrónicos?
 
-Cuando se deshabilita el envío de correos electrónicos a los usuarios, estos no se enviarán en ningún momento, ni tan siquiera cuando se asigne una licencia a un usuario. En este caso, no se enviaría al usuario el Id. de conferencia, el número de teléfono de conferencia predeterminado ni, lo más importante, el PIN de audioconferencia. Cuando esto suceda, debe informar al usuario mediante un correo electrónico por separado o llamándole.
+Cuando se deshabilitación el envío de correos electrónicos a los usuarios, no se enviará el correo electrónico incluso cuando un usuario obtiene asigna una licencia. En este caso, el identificador de conferencia, predeterminado el número de teléfono de conferencia y, lo que es más importante, su PIN de conferencia de audio no se enviará al usuario. Cuando esto sucede, debe indicar al usuario mediante el envío de un correo electrónico independiente o mediante una llamada a ellos.
   
 De manera predeterminada, los correos electrónicos se envían a los usuarios, pero, si quiere evitar que reciban correos electrónicos para el uso de audioconferencias, puede usar Microsoft Teams o Windows PowerShell. 
 

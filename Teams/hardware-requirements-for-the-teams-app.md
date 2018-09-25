@@ -7,6 +7,7 @@ ms.date: 08/28/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre los requisitos de hardware que se necesitan para instalar y ejecutar Microsoft Teams.
@@ -14,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 566a3d29ed9238fb236c1a334c22d51c70b9430e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f0b3375ae5ad1caf3a8aacd9ff6b02236d7e85d6
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884153"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015072"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Requisitos de hardware para la aplicación Microsoft Teams
 

@@ -7,8 +7,12 @@ ms.reviewer: mikedav, jastark
 ms.topic: article
 ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -21,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Este tema contiene todos los países o regiones que los usuarios pueden realizar llamadas salientes a si tienen un Plan de llamada.
-ms.openlocfilehash: d1e8168a97b58b098ef7231c8f11cca928d31ebe
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 1b9e088c33fde71fa07ec405c088ad179708cb6e
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23857238"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014616"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Los usuarios pueden hacer llamadas salientes a estos países y regiones
 

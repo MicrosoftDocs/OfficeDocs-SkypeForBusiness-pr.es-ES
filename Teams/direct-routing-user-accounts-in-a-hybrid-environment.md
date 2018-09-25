@@ -5,17 +5,22 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
+ms.service:
+- msteams
+- skype-for-business-online
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: ''
+ms.collection: Teams_ITAdmin_Help
+appliesto:
+- Microsoft Teams
 description: Obtenga información sobre diferentes combinaciones de creación de usuarios y qué combinaciones son compatibles o no compatibles.
-ms.openlocfilehash: 8690d294755ed75b1c79a2c1fa61a4df196bc070
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: aa2d5b7b98b4a683f7f79ee9fb9b76e04a40263b
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851314"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014214"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Cuentas de usuario en un entorno híbrido con conectividad RTC
 
@@ -25,7 +30,7 @@ En este artículo se aplica a entornos tienen todas las opciones siguientes:
  
 - Skype para Business Server 2015 o Lync Server 2013 
 - Un inquilino de Office 365 
-- Conectividad híbrida configurada entre el Skype para Business Server y Skype para inquilino empresarial en línea o equipos 
+- Conectividad híbrida configurada entre el Skype para Business Server y Skype para inquilino de negocio en línea o Teams de Microsoft 
 - Usuarios que están habilitados para realizar y recibir llamadas de red pública de telefónica conmutada (RTC) a y desde el cliente
 
  

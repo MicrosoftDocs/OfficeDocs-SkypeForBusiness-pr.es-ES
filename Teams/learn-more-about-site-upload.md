@@ -9,17 +9,18 @@ ms.service: msteams
 ms.reviewer: ''
 localization_priority: Normal
 search.appverid: MET150
+ms.collection: Teams_ITAdmin_Help
 description: Obtenga información sobre cómo se carga a un sitio.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d1f66c9787cb64a3026f3783b3f5de884f86a1d
-ms.sourcegitcommit: a9bf4de79c84d239488455575322188a03535f71
+ms.openlocfilehash: c9f9c093e7a80a7f4f3165f58cd6dc34f532ab7e
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "24013526"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017418"
 ---
 <a name="adding-and-updating-locations-data"></a>Agregar y actualizar datos de ubicaciones
 ============================
@@ -35,7 +36,7 @@ Los datos de ubicaciones que proporciona están una estructura de datos única: 
 3. Haga clic en **cargar**. 
 
 
-Puede descargar una plantilla de ejemplo [aquí](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.tsv?raw=true).
+Puede descargar una plantilla de ejemplo [aquí](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true).
 
 Puede usar el siguiente ejemplo para ayudar a crear el archivo de datos. 
 

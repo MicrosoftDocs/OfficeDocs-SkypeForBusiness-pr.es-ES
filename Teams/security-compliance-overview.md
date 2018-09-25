@@ -10,15 +10,15 @@ ms.reviewer: anach
 description: Una descripción general de las características de seguridad y cumplimiento de Microsoft Teams, incluyendo auditoría y creación de informes, búsqueda de contenido de cumplimiento de normas, exhibición de documentos electrónicos y mucho más.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ef01893872f1bd53fa420f4b2dc77abb21461c9
-ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
+ms.openlocfilehash: 8521816fe8aaa74c45028d962d024ab4bfd1b467
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25002377"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013990"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================

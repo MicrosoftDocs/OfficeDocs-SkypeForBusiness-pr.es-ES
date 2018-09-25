@@ -11,15 +11,15 @@ description: Plan de acción de diez paso acelerado de actualización de Skype p
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea1e371ae10991c5a8d5d9121da9f78fb44af430
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7ba3471b2a51a4629d316a4507a08cd02e30022a
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883216"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015648"
 ---
 <a name="about-upgrade-basic"></a>
 # <a name="upgrade-basic"></a>Actualizar básico 
@@ -151,7 +151,7 @@ Los usuarios están ocupados con sus responsabilidades diarias. Recordar a ellos
 
 *(Actualización día)*
 
-Hoy es el día de que la organización actualiza oficialmente a los equipos como la solución de comunicación y colaboración. En el portal de administración de Office 365, activar el modificador actualización estableciendo el modo de coexistencia en **Los equipos sólo**. Los usuarios recibirán una notificación en su Skype para cliente de negocio que se ha actualizado a los equipos.
+Hoy es el día de que la organización actualiza oficialmente a los equipos como la solución de comunicación y colaboración. En los equipos & Skype para el centro de administración de negocio, activar el modificador actualización estableciendo el modo de coexistencia en **Los equipos sólo**. (En el centro de administración, vaya a **configuración de toda la organización** > **Actualización de los equipos**.) Los usuarios recibirán una notificación en su Skype para cliente de negocio que se ha actualizado a los equipos.
 
 Se recomienda que después de que todos los usuarios se han actualizado, envíe un correo electrónico le les da la bienvenida a los equipos.
 

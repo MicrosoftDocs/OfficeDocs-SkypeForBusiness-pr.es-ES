@@ -11,15 +11,15 @@ description: Instrucciones para los profesionales de TI a las implementaciones d
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34c13d9094512a52c334acf2b660b11b6579c886
-ms.sourcegitcommit: 63c391ce9144ba5b296050ac189f77f5cea78707
+ms.openlocfilehash: 410edd32855c85d2efa5a631cb893c1a5307a5e6
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2018
-ms.locfileid: "23973689"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015128"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planeación de Microsoft 365 gobierno - implementaciones GCC
 

@@ -6,9 +6,12 @@ manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- -msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -20,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Puede descargar estas etiquetas para llamada de emergencia cuando usa planes de llamada en Office 365.
-ms.openlocfilehash: 07e23e28e5de9038470be2a63d38221c62e14eb7
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 546d5611027b142b5c7876640da7e49e91085ff1
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23866366"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014608"
 ---
 # <a name="emergency-calling-labels"></a>Etiquetas de llamadas de emergencia
 

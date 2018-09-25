@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 26d73dda-ab26-4af4-8aec-d17f3479ae50
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,18 +20,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Vea cómo se seleccionan los idiomas del operador automático de audioconferencias para un número de audioconferencia en Microsoft Teams.
-ms.openlocfilehash: 73498e348b45b0fa2d9996344b569a92320a06b6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: b9613b5e64bad0428975a6acd3b11db16a42c680
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23893021"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017956"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Establecer los idiomas del operador automático para Audioconferencia en Microsoft Teams
 
 El operador automático de audioconferencias para Microsoft Teams puede saludar en diferentes idiomas a los que realizan una llamada de audio cuando se unen a una reunión.
   
-Elija un idioma principal y hasta cuatro idiomas secundarios. El operador automático usará el idioma principal que configure en primer lugar y los idiomas secundarios, en el orden que seleccione. 
+Elija un idioma principal y hasta cuatro idiomas secundarios. El idioma principal que ha configurado en primer lugar se va a usar y los idiomas secundarios utilizará el operador automático de forma que seleccione. 
   
 > [!NOTE]
 >  Puede configurar los idiomas solo en números de acceso telefónico nacionales.
@@ -48,7 +48,7 @@ Elija un idioma principal y hasta cuatro idiomas secundarios. El operador autom�
 3. En el panel de la derecha, seleccione el idioma predeterminado que desee y los alternativos. 
  
     > [!NOTE]
-    > En la lista se mostrarán los idiomas principal y alternativos que se admiten. Los idiomas se presentarán a los autores de llamadas en el mismo orden en el que los seleccione en la lista. 
+    > Se enumeran los predeterminados y los idiomas alternativos que se admiten. El orden en que los seleccione en las listas de será el orden de los idiomas que se presentan a los autores de llamadas. 
 
 4. Haga clic en **Guardar**.
 

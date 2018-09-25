@@ -5,17 +5,18 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: Guía práctica para implementar características de voz en la nube en Microsoft Teams.
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14b7003ca1ccecd0574e9c7e06de5cd81d85547e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 41cb6fdc7d27b90939be540d04b73fdc1f052818
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851178"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014182"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de la reunión de los equipos en la nube
 
@@ -36,7 +37,7 @@ Para que reuniones del usuario de los equipos que se registre, Microsoft Stream 
 - Usuario ha aceptado a las directrices de la compañía, si establecido por el administrador
 - El usuario tiene suficiente espacio de almacenamiento en Microsoft Stream para grabaciones que se guarde
 - El usuario tiene TeamsMeetingPolicy AllowCloudRecording configuración establecida en true
-- El usuario tiene TeamsMeetingPolicy.AllowTranscription configuración establecida en true, por lo que el usuario puede elegir si desea transcribir automáticamente las grabaciones
+- El usuario tiene TeamsMeetingPolicy AllowTranscription configuración establecida en true, por lo que el usuario puede elegir si desea transcribir automáticamente las grabaciones
 - Usuario no es un anónimo, invitado o usuario federado en la reunión
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Configurar la grabación de la reunión los equipos en la nube para los usuarios de su organización

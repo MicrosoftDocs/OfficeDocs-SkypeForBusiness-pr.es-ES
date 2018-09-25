@@ -5,8 +5,12 @@ author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
 ms.topic: article
-ms.service: msteams
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- msteams
+- skype-for-business-online
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Skype for Business
@@ -17,12 +21,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: "Microsoft Teams est l'outil de chat collaboratif automáticamente 365 qui intègre todas LECS personas, contenus et outils no votre équipe un preciso fluidez efectuarse plus impliquée et eficaz. "
-ms.openlocfilehash: e2e7580b46a7505d741ce5531320e519827ec2ca
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 740bb149a5bf69942887c488c20a449a05a538a7
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855722"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013404"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 declaración de conformidad en materia d. ' accessibilité
 

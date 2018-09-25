@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 2d6b4ed4-e12b-4691-8405-fae720d69425
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,20 +20,20 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Aprenda a buscar números de conferencia de acceso telefónico local desde Skype Empresarial. '
-ms.openlocfilehash: 2690d446b181ed3fe634c805f93c2aa09396dffe
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 0b7ddc14fd87d62dd276c5b8c76a67572ed484a1
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887420"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017330"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Consultar una lista de números de Audioconferencia en Microsoft Teams
 
-Cuando configure Audioconferencia para Microsoft Teams, verá los números de teléfono que hay disponibles para la audioconferencia. En la lista se incluirán todos los números de teléfono para audioconferencias que estén disponibles para su organización.
+Cuando se establece una conferencia de Audio para los usuarios de Microsoft Teams, puede ver los números de teléfono que están a su disposición para conferencias de audio. Esta lista tendrá todos los números de teléfono de conferencia de audio que están disponibles para su organización.
   
- **¿Busca los precios?** Consulte [Precios de Audioconferencia](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+ **¿Busca los precios?** Vea [precios para conferencias de Audio](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
   
-Si solo hay un número de teléfono disponible en su organización, todos los usuarios lo usarán como número predeterminado. Cuando haya varios números de teléfono disponibles, puede seleccionar el número de teléfono predeterminado para cada usuario. Este número predeterminado se incluirá en las invitaciones a las reuniones de Microsoft Teams.
+Si solo hay un número de teléfono disponible en su organización, todos los usuarios lo usarán como número predeterminado. Cuando varios números de teléfono están disponibles, puede seleccionar el número de teléfono predeterminado para cada usuario. Este número predeterminado se incluirá en las invitaciones a reuniones de Microsoft Teams.
   
 Puede consultar [Establecer los números de teléfono que se incluyen en las invitaciones](set-the-phone-numbers-included-on-invites-in-teams.md) si prefiere cambiar el número de teléfono de acceso telefónico local para un usuario.
   

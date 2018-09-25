@@ -6,17 +6,18 @@ manager: serdars
 ms.date: 09/12/2018
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: anach
 search.appverid: MET150
 description: Conozca los pasos que debe seguir cuando necesite realizar una investigación de eDiscovery, como por ejemplo, cuando debe entregar toda la información almacenada electrónicamente para procedimientos legales.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5d5da1ea0fc098a951e65cbb31acd5c7a54974c
-ms.sourcegitcommit: 6a2466a3bf4cc2390a9be40dea0736174ef180e2
+ms.openlocfilehash: a903e67417cfb24f388c2d194f5f5136f1224cdd
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "23957169"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25011908"
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 ============================

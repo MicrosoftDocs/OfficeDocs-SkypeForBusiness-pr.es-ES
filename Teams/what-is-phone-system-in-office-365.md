@@ -5,9 +5,12 @@ author: tonysmit
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -19,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre lo que puede aportar sistema telefónico. '
-ms.openlocfilehash: bd0dc1af2e775eb4b62c77666bb9d010ecd4fe87
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ec9dc331d83a94563851958f5b3bc85f6c264070
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883077"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016608"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>¿Qué es Sistema telefónico en Office 365?
 

@@ -10,15 +10,15 @@ ms.reviewer: rowille
 description: Identificar un grupo de control de las partes interesadas clave y los jefes de proyecto para identificar los objetivos de implementación, realizar un seguimiento del progreso y quitar los bloqueadores de elementos.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d625ba8ff991db39bc4ea6ec347a8d031c456d9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ecbefe68b00e8388298ee6eb64ddbdc55ad0eeb9
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889532"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014486"
 ---
 # <a name="steering-committee"></a>Comité de dirección
 

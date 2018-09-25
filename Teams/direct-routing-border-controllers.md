@@ -5,17 +5,22 @@ author: jambirk
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
+ms.service:
+- msteams
+- skype-for-business-online
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: ''
+ms.collection: Teams_ITAdmin_Help
+appliesto:
+- Microsoft Teams
 description: Microsoft se asocia con proveedores SBC seleccionados para certificar que sus SBC pueden usarse con el Enrutamiento directo.
-ms.openlocfilehash: 46cd628071e144f6cfc93b04f3376cd4f1de949f
-ms.sourcegitcommit: 6a2466a3bf4cc2390a9be40dea0736174ef180e2
+ms.openlocfilehash: 65b36e9b09b77c2752b1bc8dd25af8de9070b541
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "23957193"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014406"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el Enrutamiento directo
 

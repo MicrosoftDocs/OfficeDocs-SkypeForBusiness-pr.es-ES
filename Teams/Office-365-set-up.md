@@ -12,15 +12,15 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec1f08752a2de4c16d946a383ea9343d4b0b4034
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b662015e6f3665676194c7edf3616ffcf577e435
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892653"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014222"
 ---
 # <a name="enable-teams-in-your-organization"></a>Permiten a los equipos de la organización
 

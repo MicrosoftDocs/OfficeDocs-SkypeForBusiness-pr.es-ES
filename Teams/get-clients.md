@@ -7,6 +7,7 @@ ms.date: 07/05/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: vichau, majafry
 localization_priority: Normal
 search.appverid: MET150
@@ -15,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9caef93f2303458d20c2d7e2142579edaae69748
-ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
+ms.openlocfilehash: 70d75e623bae7881d44c145f518ab5d02c3f38d0
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24975119"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014552"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
 ===========================

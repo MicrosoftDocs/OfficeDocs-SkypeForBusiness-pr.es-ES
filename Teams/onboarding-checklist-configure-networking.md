@@ -10,15 +10,15 @@ ms.reviewer: rowille
 description: Siga el núcleo, las tareas pendientes y las actividades en esta lista de comprobación al configurar la red para los equipos.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cb584104bff9c7dca7f87d4944e054a8621db7f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 68ebb697cdd8469b8a9c373b4c90bb970b5c7ce5
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882151"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016320"
 ---
 # <a name="configure-networking"></a>Configuración de redes
 

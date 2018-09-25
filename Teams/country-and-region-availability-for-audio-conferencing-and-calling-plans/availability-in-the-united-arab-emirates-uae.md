@@ -7,8 +7,12 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 0e62e15f-e84a-42c3-87cb-adeb6dcfd761
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -22,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Emiratos Árabes Unidos los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 259bd3b66e26cbf350fefc28323a8901e0e227f9
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: b751ef78238a0e979c693a24e361ac52640af83f
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23856342"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013822"
 ---
 # <a name="availability-in-the-united-arab-emirates-uae"></a>Disponibilidad de los Emiratos Árabes Unidos (EAU)
 

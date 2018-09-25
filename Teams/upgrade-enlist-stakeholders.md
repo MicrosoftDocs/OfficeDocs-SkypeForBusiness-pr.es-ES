@@ -11,15 +11,15 @@ description: Dar de alta las partes interesadas para atender en el equipo del pr
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe32df433159512d4e24d2bde7c2db76db23c32a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 89de20a88ab128dbef994150a9767ba45e4064a5
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883284"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013036"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la recopilación de su equipo de las partes interesadas del proyecto] (media/upgrade-banner-stakeholders.png "Fases de la actualización viaje, con especial hincapié en la recopilación de su equipo de las partes interesadas del proyecto")
 
@@ -54,7 +54,7 @@ Opcionalmente, puede crear un Comité de dirección. A veces grandes o más comp
 | Responsable de redes                    | Proporciona información sobre el diseño de la red y la ejecución                             | 
 | Responsable de seguridad                   | Proporciona información sobre el diseño de seguridad, el proceso y la implementación             | 
 | Responsable de las comunicaciones sincrónicas | Posee presencia herramientas como chat, las reuniones y llamar a                       | 
-| Colaboración asincrónica Led  | Posee asincrónica herramientas como SharePoint, OneDrive etc.               | 
+| Jefe de colaboración asincrónica  | Posee asincrónica herramientas como SharePoint, OneDrive etc.               | 
 | Responsable de telefonía                  | Proporciona conocimientos en telefonía diseño e implementación                      | 
 | Propietario del servicio o Campeón de calidad | Propietario de la operación de seguridad de todos los equipos, incluida la calidad de la experiencia del usuario | 
 | Jefe de dispositivos y de escritorio        | Proporciona información para los clientes, dispositivos y aplicaciones de escritorio                          | 

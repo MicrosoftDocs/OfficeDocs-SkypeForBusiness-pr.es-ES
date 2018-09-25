@@ -11,15 +11,15 @@ description: Use esta guía si está en una organización grande o muy ha person
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff25edcfc24df1040aa7d23606e62d4beccb08dd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e3faa5874071f7587f94cf4f1719b877a9aed1d4
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891509"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013670"
 ---
 # <a name="upgrade-pro"></a>Actualice Pro
 
@@ -113,5 +113,5 @@ Curso: Mantener momentum y el mantenimiento operativa de la implementación de l
 > Nuestro contenido de actualización Pro evoluciona continuamente. No olvide Eche un vistazo a las instrucciones más reciente y leer el [blog de los equipos](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
 
 > [!Important]
-> Si es administrador en el inquilino de Office 365, es posible que inicie vean las opciones de actualización en el cmdlet de PowerShell o el centro de administración de equipos. Tener la opción de actualización no significa necesariamente que su organización está preparada para que este cambio. Para una experiencia de usuario óptima, confirme que los equipos cumple los requisitos de colaboración y comunicación, validar que está lista para equipos de soporte técnico e implementar el plan de preparación del usuario antes de actualizar a los usuarios a los equipos de la red.
+> Si es administrador en el inquilino de Office 365, es posible que inicie vean las opciones de actualización en su cmdlet de PowerShell o equipos & Skype para el centro de administración de negocio. Tener la opción de actualización no significa necesariamente que su organización está preparada para que este cambio. Para una experiencia de usuario óptima, confirme que los equipos cumple los requisitos de colaboración y comunicación, validar que está lista para equipos de soporte técnico e implementar el plan de preparación del usuario antes de actualizar a los usuarios a los equipos de la red.
  

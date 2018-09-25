@@ -11,15 +11,15 @@ search.appverid: MET150
 ms.reviewer: ''
 description: Instrucciones para iniciar sesión en Microsoft Teams mediante el uso de autenticación moderna.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e44b05bd0daed8867247512d38f22b764351127d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e7e0f77ee5a98a8c4f28798709dcbc063424ec03
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882033"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25011892"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Inicie sesión en los equipos de Microsoft
 ==========================

@@ -6,17 +6,18 @@ manager: serdars
 ms.date: 8/21/2018
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: marcl
 search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8177d7b4fa6768163c225a385229a356b49e1425
-ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
+ms.openlocfilehash: 00ff17cc8fb28f0279f1356937465668dc6b7afe
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "23999215"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015488"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -82,7 +83,7 @@ En este artículo se enumera los problemas conocidos de Microsoft Teams, por ár
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|No se puede guardar la imagen de perfil.  <br/> |Los usuarios no pueden guardar su imagen de perfil cuando el buzón de Exchange está hospedado (alojado) localmente.  <br/> |No hay ninguna solución.  <br/> |28/02/2017  <br/> |
+|No se puede guardar la imagen de perfil.  <br/> |Los usuarios no pueden guardar sus imágenes de perfil cuando el buzón de Exchange está hospedado (asignado) local en Exchange 2016 CU2 o inferior.  <br/> |No hay ninguna solución.  <br/> |28/02/2017  <br/> |
 
 ## <a name="browser"></a>Explorador
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
@@ -112,9 +113,6 @@ En este artículo se enumera los problemas conocidos de Microsoft Teams, por ár
 |:-----|:-----|:-----|:-----|
 |Menciones @ para mensaje eliminado enviar notificación con vínculo de canal  <br/> |Hay una limitación conocida de notificación cuando esté en-que se mencionan en un mensaje que se elimina; se desplazará la notificación de la fuente para el canal, pero no para un mensaje específico. <br/> | Por diseño <br/> | 28/3/17  <br/>|
 
-|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
-|:-----|:-----|:-----|:-----|
-|Los usuarios locales de Skype Empresarial no reciben mis mensajes.  <br/> |Los mensajes no se completarán cuando los usuarios de Microsoft Teams intenten enviar un mensaje a otra persona que esté usando Skype Empresarial local.  <br/> | Se admite la interoperabilidad entre Microsoft Teams y los usuarios que están alojados en Skype Empresarial Online. Los usuarios de Microsoft Teams pueden enviar chats entre dos personas a usuarios que no pertenezcan a Microsoft Teams con Skype Empresarial Online. <br/> No se admite la interoperabilidad entre Microsoft Teams y los usuarios que están alojados en Skype Empresarial local. Los usuarios de Microsoft Teams no pueden enviar chats entre dos personas a usuarios que no pertenezcan a Microsoft Teams con Skype Empresarial local.  <br/> |02/11/2016  <br/> |
 
 ## <a name="client"></a>Cliente
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
@@ -152,9 +150,6 @@ En este artículo se enumera los problemas conocidos de Microsoft Teams, por ár
 |:-----|:-----|:-----|:-----|
 |Se necesita Skype Empresarial para algunas reuniones.  <br/> |Para su comodidad, su calendario de citas se muestra en Microsoft Teams. Para entrar en una reunión, solo tiene que hacer clic en el botón **Unirse**. <br/> Mientras trabajamos para seguir desarrollando esta área, si esta reunión se programó con Skype Empresarial, cuando haga clic en **Unirse**, Microsoft Teams iniciará su cliente de Skype Empresarial para que pueda terminar de entrar en la reunión. Las reuniones que se programaron en Microsoft Teams se iniciarán directamente en este producto.  <br/> En el futuro, simplificaremos esta experiencia.  <br/> |Haga clic en **Unirse**. Microsoft Teams decidirá de manera inteligente si es necesario Skype Empresarial para que un usuario se una a la reunión en función de la dirección URL que se ha incluido en la descripción de la reunión.  <br/> |13/03/2017  <br/> |
 
-|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
-|:-----|:-----|:-----|:-----|
-|Falta **reuniones**ser detectado con detección automática de Exchange. <br/> Microsoft Teams aún no admite los buzones de correo en Exchange alojados en el icono en la barra de la barra de navegación izquierda <br/> |El icono de **las reuniones** en la barra de la aplicación está actualmente solo habilitado para los usuarios cuyo buzón de correo está en varios inquilinos de Office 365 y un menor número dedicado a los usuarios cuya ubicación de buzón de correo puede - local y seleccione dedicado de Exchange. Estamos investigando esta situación, pero aún no hay una fecha estimada para esta funcionalidad.  <br/> |No hay ninguna solución.  <br/> |13/03/2017  <br/>|
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
@@ -162,7 +157,7 @@ En este artículo se enumera los problemas conocidos de Microsoft Teams, por ár
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|Las reuniones no están disponibles.  <br/> |El icono y la funcionalidad de las reuniones no están disponibles cuando el buzón de Exchange está hospedado (alojado) localmente.  <br/> |Actualice a la actualización acumulada 3 de Exchange 2016 o posterior para la implementación local.  <br/> |28/02/2017  <br/> |
+|Las reuniones no están disponibles.  <br/> |La funcionalidad de la reunión no está disponible cuando el buzón de Exchange esté hospedado (asignado) local en la versión menor que Exchange 2016 CU3.  <br/> |Actualice a la actualización acumulada 3 de Exchange 2016 o posterior para la implementación local.  <br/> |28/02/2017  <br/> |
 
 ## <a name="mobile"></a>Móvil
 

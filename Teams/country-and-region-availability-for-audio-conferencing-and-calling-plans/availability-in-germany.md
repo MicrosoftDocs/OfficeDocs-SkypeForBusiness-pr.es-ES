@@ -7,8 +7,12 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 6ea5bf5b-77a5-4045-b45e-ded2f7c10a6e
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -22,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Alemania los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: b27456905b64c0c2dacea83846e9afe2a4125f0f
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 5e011f0418803e64c0ee20e1ef307735f0aa9526
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854460"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017104"
 ---
 # <a name="availability-in-germany"></a>Disponibilidad en Alemania
 
