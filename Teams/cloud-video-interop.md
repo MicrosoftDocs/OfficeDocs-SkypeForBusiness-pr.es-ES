@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3ff5cd20c490e69f2c18487f8aaf42905870597
-ms.sourcegitcommit: 2d76fad92b6d6c5d1bd223a717fd6c534ecaa5be
+ms.openlocfilehash: 07f546db5acb8afa0dc457122a2462b9d0affea3
+ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/24/2018
-ms.locfileid: "24974426"
+ms.locfileid: "25002434"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidad de vídeo en la nube para los equipos de Microsoft
 
@@ -32,7 +32,7 @@ Los siguientes socios tienen soluciones de interoperabilidad de vídeo para Micr
 
 |Socio|Solución de socio|Disponibilidad|
 |----|---|----|
-|![Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect para Office 365</a> |Ahora disponibles|
+|![Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Servicio de RealConnect de Polycom</a> |Ahora disponibles|
 |![Pexip infinito](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Infinito Pexip para los equipos de Microsoft</a> | 19 de octubre de 2018|
 |![Puerta de enlace de blueJeans](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Puerta de enlace de blueJeans para los equipos de Microsoft</a> | 31 de octubre de 2018|
 

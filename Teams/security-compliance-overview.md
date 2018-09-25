@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 331e4d600c26123079315a77d5d99f17496c12a9
-ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
+ms.openlocfilehash: 0ef01893872f1bd53fa420f4b2dc77abb21461c9
+ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "24967434"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "25002377"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================
@@ -84,115 +84,6 @@ En la siguiente figura se indica el flujo de ingesta de las reuniones de los equ
 
 > [!IMPORTANT]
 > Puede haber un retraso de 24 horas para descubrir el contenido de los equipos de hasta.
-
-## <a name="retention-policies"></a>Directivas de retención
-
-Las conversaciones de los equipos son persistentes y retenidas para siempre de forma predeterminada. Con la introducción de las directivas de retención, los administradores pueden configurar las directivas de retención (conservación y eliminación) en el centro de cumplimiento y seguridad para mensajes de chat y canal de los equipos. Esto ayuda a las organizaciones retener datos para el cumplimiento (es decir, la directiva de conservación) durante un período específico o deshacerse de datos (es decir, la directiva de eliminación) si se considera una responsabilidad después de un período específico. Las directivas de retención de los equipos Asegúrese de que al eliminar datos, se elimina de todas las ubicaciones de almacenamiento de datos permanente en el servicio de los equipos. 
-
-Para administrar las directivas de retención de los equipos, use los cmdlets en el centro de cumplimiento en **Datos de gobierno**y seguridad de Office 365 y configuración > **retención**.
-
-Son compatibles con las directivas de retención de los equipos: 
-    
-- Conservación: Conservar los datos de los equipos por una duración especificada y, a continuación, no haga nada
-- Conservación y, a continuación, eliminar: conservar los datos de los equipos por una duración especificada y, a continuación, eliminar
-- Eliminación: Eliminar datos de los equipos tras una duración especificada
-
-Aún no admiten las directivas de retención de los equipos:
-
-- Las directivas de retención avanzadas no se aplican a conversaciones en los equipos y ubicaciones de mensajes de canal de los equipos
-- Duración de menos de 30 días
-
-Los administradores pueden configurar las directivas de retención independiente para chats privadas de los equipos (1:1 o 1: muchas chats) y los mensajes del canal de los equipos. En muchos casos, las organizaciones, tenga en cuenta los datos de chat privado como más de un pasivo que no son mensajes de canal, que suelen ser más conversaciones relacionados con el proyecto. Configurar estas directivas en la seguridad & el centro de cumplimiento, el **Gobierno de datos** > **retención**. Activar **los mensajes del canal de los equipos** y **los equipos de chat** y, a continuación, defina las directivas de retención para estas ubicaciones (también se muestra en el diagrama siguiente). 
-
-Cuando se activa en **los equipos de los mensajes del canal**, puede especificar los equipos a los que se aplicará esta directiva. Por ejemplo, para equipos de X, Y y Z, el administrador puede establecer las directivas de eliminación para 1 año (seleccionando esos equipos de forma individual) y aplicar una directiva de eliminación de 3 años para el resto de los equipos. 
-
-Puede hacer lo mismo para **los equipos de chat** mediante la selección de usuarios específicos y aplicar las directivas de retención único. 
-
-![Diagrama del flujo de trabajo de los datos de Teams en Exchange y SharePoint.](media/Retention-Policies.png)
-
-
-> [!IMPORTANT]
-> Las ubicaciones de mensaje de canal de los equipos y las ubicaciones de los equipos charlas dirección sólo las conversaciones de los equipos almacenadas en los buzones de Exchange Online (buzones de usuario y de grupo). Los mensajes se eliminan de todas las ubicaciones de almacenamiento de información relevante, es decir, los buzones de correo, sustrato y servicio de chat. 
-> 
-> Para administrar las directivas de retención para los archivos de los equipos, que se almacenan en OneDrive para profesionales y SharePoint, use sus directivas de retención.
-
-
-
-
-Por diseño, se configuran las directivas de eliminación para los archivos de los equipos a través de SharePoint Online y OneDrive para las ubicaciones de negocio. Como resultado, es posible que una directiva pudo eliminar un archivo al que hace referencia en un mensaje de chat o canal de los equipos antes de que se eliminan los mensajes. En este caso, el archivo aún se mostrará en el mensaje de los equipos, pero si hace clic en el archivo, obtendrá un error de "Archivo no encontrado" (también puede suceder en ausencia de una directiva, si alguien elimina manualmente un archivo de SharePoint Online o OneDrive para la empresa).
-
-
-Para obtener información detallada acerca de cómo configurar las directivas de retención para Office 365, lea [información general de las directivas de retención](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423).
- 
-
-## <a name="retention-policies-faq"></a>Preguntas más frecuentes sobre las políticas de retención
-
-### <a name="what-types-of-policies-can-i-setup-in-retention-policies-and-how-do-they-work"></a>¿Qué tipos de directivas puedo configurar en las directivas de retención y cómo funcionan?
-
-En el centro de cumplimiento y seguridad, cuando se configura una directiva de retención, para los equipos o para cualquier otra carga de trabajo, puede configurar dos tipos principales de directivas: 
-- Conservación: Estas directivas Asegúrese de que los datos se conserven durante un período determinado de tiempo, independientemente de lo que sucede en las herramientas de usuario final. Garantizan que los datos se conservan por motivos de cumplimiento de normas y expira disponibles en la exhibición de documentos electrónicos hasta este momento. Después de que expire el tiempo, la directiva puede indicar si no hace nada o eliminar los datos. En los equipos, si crea una directiva de conservación durante siete años, incluso si los usuarios finales eliminar sus mensajes de los equipos, estos mensajes se conservan aún para exhibición de documentos electrónicos durante siete años.
-- Eliminación: Estas directivas Asegúrese de que los datos no están un pasivo para la organización. Después de la duración especificada, los datos se eliminan de todo el almacenamiento relevante en los equipos. 
-
-### <a name="can-we-include-teams-in-org-wide-policies"></a>¿Podemos incluir los equipos de directivas en toda la organización? 
-
-No, no actualmente. Debe crear directivas específicas para mensajes de chat y canal de los equipos con la fila de la ubicación de los equipos o los cmdlets de estos equipos: [New-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps) & [TeamsComplianceRetentionRule de nuevo](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps). Estos cmdlets tienen get y establecer así como las versiones.
-
-### <a name="are-these-retention-policies-retroactive"></a>¿Son retroactivos estas directivas de retención? 
-
-Sí, son. Si crea una directiva de retención para eliminar los datos de más de 60 días, eliminará los datos de los equipos creados hace más de 60 días. 
-
-### <a name="what-is-the-default-retention-policy"></a>¿Qué es la directiva de retención predeterminada? 
-
-De forma predeterminada, se conservan una eternidad chat, canal y datos de los archivos de los equipos. Un usuario puede eliminar algo, pero en ausencia de las directivas de retención, los datos de los equipos, siempre se archivan en buzones de Exchange online (de usuario y de grupo) y permanece en su ubicación de exhibición de documentos electrónicos. 
-
-### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>¿Puedo destinados a conjuntos de usuarios o equipos en una directiva? 
-
-Sí, hacer. En el Asistente para la creación de directivas, en el paso de ubicaciones, puede incluir o excluir (de**los equipos de los mensajes del canal**) a equipos o usuarios (**chat de equipos**) y crear directivas de destino para su organización. 
-
-### <a name="what-is-the-main-difference-between-using-the-group-mailbox-location-row-and-teams-channel-messages-location-row-in-retention-policies"></a>¿Qué es la principal diferencia entre el uso de la fila de ubicación de buzón de correo de grupo y la fila de ubicación de los mensajes de canal de los equipos en las directivas de retención? 
-
-Si usa el buzón de correo de grupo y las filas de ubicación de buzón de correo de usuario para Exchange Online, se eliminarán los datos de los equipos de los buzones de correo especificados. Sin embargo, esto quita sólo datos desde el buzón de correo. No elimina otros datos de los equipos, como el servicio de charlas. Se recomienda que utilice las directivas de retención de los equipos para administrar correctamente todos los datos de los equipos. Una directiva de retención de los equipos quita los datos de los equipos de todas las ubicaciones, los buzones de correo, Chat servicio de almacenamiento, los clientes de los equipos. 
-
-Nota: Lanzamiento de la característica de directivas de retención para los equipos se asegura de que las directivas de los equipos sólo eliminación elementos de los equipos almacenados dentro de las ubicaciones de buzón de correo de Exchange (usuario o grupo). El programa de instalación de otra directivas de buzones de correo no puede afectar a los elementos de los equipos. Era true en el pasado, pero se ha corregido con el lanzamiento de la función de las directivas de retención. 
-
-### <a name="what-happens-to-skype-for-business-online-and-teams-interop-chats--are-they-affected-by-retention-policies"></a>¿Qué sucede con Skype para chats de interoperabilidad en línea de negocio y equipos – ¿están afectadas por las directivas de retención?
-
-Sí, Skype para profesionales en línea y chats de interoperabilidad de los equipos funcionan del mismo modo. Una vez que el Skype para chat en línea de negocio entra en los equipos, se convierte en un mensaje en un subproceso de chat de los equipos y obtiene ingestión en el buzón apropiado. Por lo que el mismo flujo de works – directivas de eliminación de los equipos eliminará estos mensajes desde el subproceso de los equipos. Sin embargo, si el historial de conversaciones está activado para Skype para profesionales en línea y desde el Skype para cliente empresarial en línea los que se guardan en un buzón de correo, estos datos de chat no está controlados por una directiva de retención de los equipos.
-
-### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>¿Puede hacer a través de los cmdlets de seguridad & Centro de cumplimiento? ¿Qué debo usar? 
-
-Absolutamente. Puede crear directivas de retención de los equipos con [cmdlets de Powershell de centro de cumplimiento y seguridad]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps). Recuerde que estos no son los cmdlets de Exchange Online. Estos son los cmdlets que hemos creado para los equipos. Siguen nomenclatura existente y el estilo de los cmdlets de retención disponibles actualmente en el centro de cumplimiento y seguridad.
-
-|Directiva|Regla|
-|---|---|
-|[Nueva TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps)| [Nueva TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)|
-|[Get-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancepolicy?view=exchange-ps)| [Get-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancerule?view=exchange-ps)|
-|[Set-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancepolicy?view=exchange-ps)| [Set-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancerule?view=exchange-ps)|
-|[Remove-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancepolicy?view=exchange-ps)| [Remove-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancerule?view=exchange-ps)|
-
-### <a name="if-there-are-multiple-retention-policies-for-teams-with-varying-durations-which-one-wins"></a>¿Si hay varias directivas de retención para los equipos con distintas duraciones, cuál wins?
-
-Se siguen los [principios de las políticas de retención](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423)y se recomienda que haga lo demasiado. La respuesta breve es: 
--   Conservación siempre wins a través de eliminación
--   Período de conservación más larga siempre wins
--   Inclusión explícita wins a través de inclusión implícita en términos de ubicaciones
--   Más cortas wins período de eliminación
-
-
-
-## <a name="retention-policies-known-issues"></a>Problemas conocidos de las directivas de retención
-
-1. Bajo Elija los equipos en la fila de ubicación de los mensajes de canal de los equipos, es posible que vea Office 365 grupos que están no también los equipos. Esto se solucionará en el futuro.
-
-1. En Elegir usuarios en la fila de la ubicación de los equipos de Chat, es posible que vea invitados y los usuarios de buzones que no sean. Las directivas de retención no están pensadas para establecerse para invitados, y estamos trabajando para quitar estos elementos de la lista. 
-
-1. Asistente de ciclo de vida de Exchange (ELC) se ejecuta a diario, pero tiene un SLA de 7 días. Como resultado, es posible que, si tiene una directiva de retención de los equipos para eliminar los elementos de más de 60 días, pueden conservar estos elementos de 67 días. Esto no es una situación nueva - sigue el modelo de Exchange. Por supuesto, en la mayoría de los casos, no hay ningún retraso.
-
-
-| | | |
-|---------|---------|---------|
-|![Icono de Punto de decisión.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Puntos de decisión         |¿Qué características de seguridad y cumplimiento requiere su organización? ¿Su organización tiene las licencias necesarias para cumplir con los requisitos empresariales de seguridad y cumplimiento?         |
-|![Icono de Siguientes pasos.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Pasos siguientes         |Documentar las características de seguridad y cumplimiento de normas necesarias.         |
 
 <a name="licensing"></a>Licencias
 ---------------

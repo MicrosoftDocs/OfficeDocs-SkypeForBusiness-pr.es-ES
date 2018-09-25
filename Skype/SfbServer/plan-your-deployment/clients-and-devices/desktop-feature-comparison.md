@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumen: Skype para Business Server 2015 o Skype para los administradores en línea de negocio puede usar estas tablas para comprender qué características son compatibles con los clientes que.'
-ms.openlocfilehash: cb0955dcb695b0431e73b1f575087b06ec3b0449
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 1dc94b9cb6b723d344994babe655921045b2acb0
+ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965737"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "25002392"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparación de características de cliente de escritorio de Skype para Business Server 2015
  
@@ -111,7 +111,8 @@ En esta tabla se presentan las características relacionadas con la compatibilid
 En esta tabla se presentan las características relacionadas con la compatibilidad con reuniones.
   
 > [!NOTE]
->  Skype para las características de reunión de negocio no están disponibles en Skype para profesionales en línea independientes Plan 1.
+>  Skype para las características de reunión de negocio no están disponibles en Skype para profesionales en línea independientes Plan 1.  Plan 1 se está [retirado](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement
+).
 
 En sesiones de Skype a Skype, los usuarios del plan 1 de Skype Empresarial Online pueden participar en el uso compartido del escritorio y de aplicaciones si les invita un usuario que tiene acceso a las características de uso compartido.   
 Para obtener información detallada, vea el [Skype para la descripción de servicio en línea de negocio](https://technet.microsoft.com/library/jj822172.aspx). 
