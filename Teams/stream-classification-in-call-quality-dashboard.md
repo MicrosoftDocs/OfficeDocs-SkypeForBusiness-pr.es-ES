@@ -6,8 +6,12 @@ manager: serdars
 ms.reviewer: gageames
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Teams_ITAdmin_Help
+- Adm_Skype4B_Online
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -18,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Descubra cómo se clasifica la calidad de la transmisión en el panel de calidad de llamadas para Microsoft Teams y Skype for Business Online.
-ms.openlocfilehash: fc5028fbf8955b4988b29121474e775478175fd1
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 47658f0ce2b2860ce4dc7275c90b962f4e17968f
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23871025"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25018794"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Clasificación de la transmisión en el panel de calidad de llamadas
 

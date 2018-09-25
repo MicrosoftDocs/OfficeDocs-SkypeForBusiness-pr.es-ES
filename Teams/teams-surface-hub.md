@@ -3,7 +3,7 @@ title: Implementación de equipos de Microsoft para el concentrador de superfici
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,129 +16,17 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93cc0195f5b8ed0ccbf89315b44fda62d91b60cb
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 62eb0e6fbae734a83fd96f89203db0547938e9d3
+ms.sourcegitcommit: 7f721d89559831de2cf1495feb0fc57b22b77d78
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013638"
+ms.locfileid: "25018589"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Implementación de equipos de Microsoft para el concentrador de superficie
 ======================================
 
 Antes de implementar Microsoft Teams Microsoft Surface concentrador, asegúrese de que haya cumplido con el hardware, sistema operativo y otros requisitos. Para obtener más información, consulte la [Guía de administración de Microsoft Surface concentrador](https://docs.microsoft.com/surface-hub/).
-
-## <a name="set-up-user-accounts"></a>Configurar las cuentas de usuario
- 
-Para configurar las cuentas de usuario que se pueden usar con los equipos de superficie de concentradores, crear la cuenta del dispositivo, como lo haría para compatibilidad con Skype para la empresa. La cuenta del dispositivo debe tener la autenticación multifactor deshabilitada (para permitir el inicio de sesión automático) para los siguientes servicios dependientes de los equipos en Office 365:  
-- Exchange 
-- SharePoint 
-- Aplicaciones de Office 
-
-## <a name="add-a-device-account"></a>Agregar una cuenta de dispositivo 
-
-1\. Iniciar una sesión remota de Windows PowerShell en un PC y conectarse a Exchange. Asegúrese de que tiene los permisos correctos establecer ejecutar los cmdlets asociados. Estos son algunos ejemplos de cmdlets que puede utilizar y modificar en su entorno.
-
-```
-Set-ExecutionPolicy Unrestricted
-$org='contoso.com'
-$cred=Get-Credential $admin@$org
-$sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ 
--Credential $cred -Authentication Basic -AllowRedirection
-Import-PSSession $sess
-```
-
-2\. Después de establecer una sesión, deberá crear un nuevo buzón de correo y habilitarlo como RoomMailboxAccount o bien, cambiar la configuración de un buzón de correo existente. Esto le permitirá la cuenta autenticar a los equipos.
-
-Si va a cambiar un buzón de recursos existente:
-
-```
-Set-Mailbox -Identity 'TEAMS01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-```
-
-Si va a crear un buzón de recursos nuevo:
-
-```
-New-Mailbox -MicrosoftOnlineServicesID TEAMS01@contoso.com -Alias TEAMS01 
--Name "Teams-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword
- (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-```
-
-3\. Para mejorar la experiencia de la reunión, es necesario configurar diversas propiedades de Exchange en la cuenta del dispositivo. Si desea ver qué propiedades hay que configurar, consulte la sección sobre propiedades de Exchange.
-
-```
-Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false
- -DeleteSubject $false -RemovePrivateProperty $false
-Set-CalendarProcessing -Identity $acctUpn -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
-```
-
-4\. Tendrá que conectarse a Azure Active Directory para aplicar algunas de las configuraciones de la cuenta. Para conectarse a Azure AD, ejecute el siguiente cmdlet:
-
-```
-Connect-MsolService -Credential $cred
-```
-
-5\. 	Si no desea que expire la contraseña, ejecute el cmdlet Set-MsolUser con la opción PasswordNeverExpires como sigue:   
-
-```
-Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
-```
-
-También puede configurar un número de teléfono para la sala de la siguiente manera:
-
-```
-Set-MsolUser -UniversalPrincipalName <upn> -PhoneNumber <phone number>
-```
-
-6\. La cuenta del dispositivo debe tener una licencia válida de Office 365 o Exchange y Skype para la empresa no funcionará. Si dispone de la licencia, debe asignar una ubicación de uso para su cuenta de dispositivo: Esto determina qué SKU de las licencias están disponibles para su cuenta. Puede usar Get-MsolAccountSku para recuperar una lista de SKU disponibles para el inquilino de Office 365, como se indica a continuación:
- 
-```
-Get-MsolAccountSku
-```
-
-A continuación, puede agregar una licencia mediante el cmdlet Set-MsolUserLicense. En este caso, $strLicense es el código de SKU que ve (por ejemplo, contoso:STANDARDPACK).
-
-```
-Set-MsolUser -UserPrincipalName $acctUpn -UsageLocation "US"
-Get-MsolAccountSku
-Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
-```
-
-7\. A continuación, tiene que habilitar la cuenta del dispositivo con los equipos de superficie de concentrador. Asegúrese de que su entorno cumple los requisitos definidos en la [Guía de administración de Microsoft Surface concentrador](https://docs.microsoft.com/surface-hub/).
-
-Iniciar una sesión remota de Windows PowerShell de manera (asegúrese de instalar Skype para componentes de PowerShell en línea de negocio):
-
-```
-Import-Module LyncOnlineConnector
-$cssess=New-CsOnlineSession -Credential $cred  
-Import-PSSession $cssess -AllowClobber
-```
-
-A continuación, habilitar sus equipos para la cuenta de concentrador de superficie ejecutando el siguiente cmdlet:
-
-```
-Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
-```
-
-Obtener la información de RegistrarPool de la nueva cuenta de usuario que se va al programa de instalación, tal como se muestra en este ejemplo:
-
-```
-Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
-```
-
-> [!NOTE]
-> No se pueden crear nuevas cuentas de usuario en el mismo grupo de registrador como cuentas de usuario existentes en el inquilino. El comando anterior se evitará que los errores en el programa de instalación de cuenta debido a esta situación. 
-
-Una vez haya completado los pasos anteriores para habilitar los equipos de la cuenta de concentrador de superficie, debe asignar una licencia para el dispositivo de v2 de concentrador de superficie. Uso del portal administrativo de Office 365, asignar los equipos de una licencia de concentrador de superficie para el dispositivo.
-
-### <a name="assign-a-license-to-the-account"></a>Asignar una licencia a la cuenta
-
-1. Inicie sesión como administrador de inquilinos, abra el centro de administración de Office 365 y haga clic en la aplicación de administración.
-2. Haga clic en **usuarios y grupos**y, a continuación, haga clic en **Agregar usuarios, restablecer contraseñas y mucho más**.
-3. Seleccione los equipos de cuenta de superficie concentrador y, a continuación, haga clic en o puntee en el icono de lápiz, que significa que editar.
-4. Haga clic en la opción de **licencias** .
-5. En la sección **asignación de licencias** , es necesario seleccionar el plan, dependiendo de su licencia.
-6. Haga clic en **Guardar** para completar la tarea.
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Instalación de los equipos para exponer concentrador desde el almacén de Microsoft 
 
@@ -183,7 +71,7 @@ Los paquetes se pueden encontrar en esta [página de descarga](https://1drv.ms/f
 
 ### <a name="option-2-configure-via-mdm-such-as-intune"></a>Opción 2: Configurar a través de MDM como Intune 
 
-Use lo siguiente para configurar la directiva de aplicación predeterminada llamadas y reuniones a través de Intune.
+Use lo siguiente para configurar la directiva de aplicación predeterminada llamadas y reuniones a través de Intune. Vea también el blog, [implementar los equipos de Microsoft para aplicación de concentrador de superficie con Intune](https://blogs.technet.microsoft.com/y0av/2018/07/16/97/).
 
 |Configuración   |Valor    |Descripción    |
 |----------|---------|---------|
@@ -199,5 +87,3 @@ Use lo siguiente para configurar la directiva de aplicación predeterminada llam
 
 Reinicie el dispositivo concentrador de superficie. Una vez reiniciado el dispositivo, debe ser capaz de iniciar la aplicación de los equipos desde la pantalla de inicio y unirse a una reunión desde el calendario.
 
-> [!NOTE]
-> Si no se admite su dispositivo o dispositivos de su organización parte del programa de información confidencial de Windows y se encuentra en países cubiertos por el Reglamento General de protección de datos (GDPR) (o ha cambiado manualmente la configuración de telemetría en básico), a continuación, debe volver a comprobar que se ha permitido telemetría completo antes de unirse a la información confidencial de programa. GDPR cambiar el comportamiento predeterminado de los dispositivos de concentradores de la superficie de la UE para establecer telemetría en básico.
