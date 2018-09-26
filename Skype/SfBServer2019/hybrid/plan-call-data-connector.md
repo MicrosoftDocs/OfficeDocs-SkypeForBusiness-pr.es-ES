@@ -1,0 +1,105 @@
+---
+title: Planeación de conector de datos de llamada
+ms.author: crowe
+author: CarolynRowe
+manager: serdars
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection: ''
+description: Información general del uso de Skype para herramientas de telemetría de negocio en línea para supervisar una implementación local en un escenario híbrido.
+ms.openlocfilehash: 2c491a217f02af77a25f362697e6f89aceb9470c
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "25030703"
+---
+# <a name="plan-call-data-connector"></a><span data-ttu-id="8dbbe-103">Planeación de conector de datos de llamada</span><span class="sxs-lookup"><span data-stu-id="8dbbe-103">Plan Call Data Connector</span></span>
+
+[!INCLUDE [disclaimer](../disclaimer.md)]
+
+## <a name="overview"></a><span data-ttu-id="8dbbe-104">Información general</span><span class="sxs-lookup"><span data-stu-id="8dbbe-104">Overview</span></span>
+<span data-ttu-id="8dbbe-105">Este tema describe las ventajas, las consideraciones de planeación y requisitos para la implementación de Skype para el conector de datos de llamadas de Business Server.</span><span class="sxs-lookup"><span data-stu-id="8dbbe-105">This topic describes benefits, planning considerations, and requirements for implementing Skype for Business Server Call Data Connector.</span></span> <span data-ttu-id="8dbbe-106">Para obtener más información acerca de cómo configurar el conector de datos de llamadas, vea [Configuración de conector de datos de llamada](configure-call-data-connector.md).</span><span class="sxs-lookup"><span data-stu-id="8dbbe-106">For more information on configuring Call Data Connector, see [Configure Call Data Connector](configure-call-data-connector.md).</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="8dbbe-107">En la versión preliminar pública, panel de análisis de llamadas sólo está disponible.</span><span class="sxs-lookup"><span data-stu-id="8dbbe-107">At public preview release, only Call Analytics dashboard is available.</span></span>
+
+<span data-ttu-id="8dbbe-108">Conector de datos de llamada simplifica en gran medida la llamada de supervisión en un entorno híbrido debido a que ya no necesita usar distintos conjuntos de herramientas en línea y local para supervisar todos los de la calidad de las llamadas a los usuarios.</span><span class="sxs-lookup"><span data-stu-id="8dbbe-108">Call Data Connector greatly simplifies call monitoring in a hybrid environment because you no longer need to use different sets of on-premises and online tools to monitor all of your users call quality.</span></span> <span data-ttu-id="8dbbe-109">Si los usuarios están hospedados en local o en línea, puede elegir ver la calidad de las llamadas para toda la organización en línea.</span><span class="sxs-lookup"><span data-stu-id="8dbbe-109">Whether your users are homed on premises or online, you can choose to view call quality for your entire organization online.</span></span>
+
+<span data-ttu-id="8dbbe-110">Con el conector de datos de llamadas, puede realizar las siguientes tareas mediante el uso de un único conjunto de herramientas:</span><span class="sxs-lookup"><span data-stu-id="8dbbe-110">With Call Data Connector, you can perform the following tasks by using a single toolset:</span></span>
+
+- <span data-ttu-id="8dbbe-111">Supervisar la experiencia del usuario a través de Microsoft Teams, Skype para profesionales en línea y Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="8dbbe-111">Monitor your user experience across Microsoft Teams, Skype for Business Online, and Skype for Business Server.</span></span>
+
+- <span data-ttu-id="8dbbe-112">Ver y solucionar los problemas a través de la red.</span><span class="sxs-lookup"><span data-stu-id="8dbbe-112">View and troubleshoot problems across your network.</span></span>
+
+- <span data-ttu-id="8dbbe-113">Asignación de roles de departamento de soporte técnico y administrador para análisis de llamadas, por lo que puede ofrecer a los trabajadores del departamento de soporte técnico ver y solucionar problemas de sus áreas de responsabilidad.</span><span class="sxs-lookup"><span data-stu-id="8dbbe-113">Assign helpdesk and administrator roles for Call Analytics, so that you can empower helpdesk workers to view and troubleshoot their areas of responsibility.</span></span> 
+
+<span data-ttu-id="8dbbe-114">Con el conector de datos de llamadas, la Skype para Business Server inserta datos de la llamada al servicio de nube para que puede aprovechar la Skype para herramientas de análisis de llamadas en línea en Business (CA) y el panel de calidad de llamadas (CQD), tal como se muestra en el siguiente diagrama:</span><span class="sxs-lookup"><span data-stu-id="8dbbe-114">With Call Data Connector, the Skype for Business Server pushes call data to the cloud service so that you can leverage the Skype for Business Online Call Analytics (CA) and Call Quality Dashboard (CQD) tools, as shown in the following diagram:</span></span>
+
+![Correo de voz de SfB en la nube](../../sfbserver2019/media/call-data-connector-plan-1.png)
+
+<span data-ttu-id="8dbbe-116">El servidor inserta la calidad de la experiencia (QoE) y datos de registro de detalles de llamadas (CDR) para el servicio en línea.</span><span class="sxs-lookup"><span data-stu-id="8dbbe-116">The server pushes both Quality of Experience (QoE) and Call Detail Recording (CDR) data to the online service.</span></span>
+
+<span data-ttu-id="8dbbe-117">Las herramientas CQD y análisis de llamadas permiten supervisar la calidad de las llamadas y solucionar problemas de conexión con Microsoft Teams y Skype para servicios de negocios de la siguiente manera:</span><span class="sxs-lookup"><span data-stu-id="8dbbe-117">The Call Analytics and CQD tools enable you to monitor the quality of calls and troubleshoot connection problems with Microsoft Teams and Skype for Business services as follows:</span></span>
+
+- <span data-ttu-id="8dbbe-118">Llamar a enfoques de análisis acerca de problemas de calidad de llamadas específicas.</span><span class="sxs-lookup"><span data-stu-id="8dbbe-118">Call Analytics focuses on quality problems with specific calls.</span></span> <span data-ttu-id="8dbbe-119">Muestra información detallada sobre las reuniones para cada usuario y las llamadas en un Skype para la cuenta de empresa.</span><span class="sxs-lookup"><span data-stu-id="8dbbe-119">It shows detailed information about calls and meetings for each user in a Skype for Business account.</span></span>  <span data-ttu-id="8dbbe-120">Con el análisis de llamadas, puede asignar permisos a un operador de departamento de soporte técnico que, a continuación, se puede supervisar las llamadas sin tener acceso al resto de la Skype para el centro de administración de negocio.</span><span class="sxs-lookup"><span data-stu-id="8dbbe-120">With Call Analytics, you can assign permissions to a helpdesk operator who can then monitor calls without having access to the rest of the Skype for Business Admin center.</span></span>
+
+- <span data-ttu-id="8dbbe-121">Panel de calidad de llamada se centra en el rendimiento de la red y problemas en toda la organización.</span><span class="sxs-lookup"><span data-stu-id="8dbbe-121">Call Quality Dashboard focuses on network performance and issues across an organization.</span></span> <span data-ttu-id="8dbbe-122">Skype para los administradores de negocios e ingenieros de red use esta herramienta para solucionar problemas y optimizar el rendimiento de la red.</span><span class="sxs-lookup"><span data-stu-id="8dbbe-122">Skype for Business administrators and network engineers use this tool to troubleshoot and optimize network performance.</span></span>
+
+<span data-ttu-id="8dbbe-123">Para obtener más información, vea [análisis de llamadas y panel de calidad de llamadas](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).</span><span class="sxs-lookup"><span data-stu-id="8dbbe-123">For more information, see [Call Analytics and Call Quality Dashboard](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).</span></span>
+
+<span data-ttu-id="8dbbe-124">Por supuesto, es posible que desee mantener algunos datos de calidad de llamada local.</span><span class="sxs-lookup"><span data-stu-id="8dbbe-124">Of course, you might want to keep some call quality data on premises.</span></span> <span data-ttu-id="8dbbe-125">Esto puede suceder, por ejemplo, si está utilizando una solución de terceros con los flujos de trabajo e informes personalizados.</span><span class="sxs-lookup"><span data-stu-id="8dbbe-125">This might be the case, for example, if you are using a third-party solution with customized reports and workflows.</span></span>  <span data-ttu-id="8dbbe-126">Conector de datos de llamada permite configurar el envío de datos para el servicio en línea mientras se mantiene también una copia de los datos en el servidor local, tal como se muestra en el siguiente diagrama:</span><span class="sxs-lookup"><span data-stu-id="8dbbe-126">Call Data Connector allows you to configure sending data to the online service while also keeping a copy of the data on your on-premises server, as shown in the following diagram:</span></span>
+
+![Correo de voz de SfB en la nube](../../sfbserver2019/media/call-data-connector-plan-2.png)
+
+
+## <a name="requirements"></a><span data-ttu-id="8dbbe-128">Requisitos</span><span class="sxs-lookup"><span data-stu-id="8dbbe-128">Requirements</span></span>
+
+<span data-ttu-id="8dbbe-129">Los siguientes requisitos se suponen que ya dispone de Skype para Business Server implementado en una topología admitida.</span><span class="sxs-lookup"><span data-stu-id="8dbbe-129">The following requirements assume that you already have Skype for Business Server deployed in a supported topology.</span></span>  <span data-ttu-id="8dbbe-130">Para obtener más información sobre la implementación de Skype para Business Server y las topologías admitidas, vea [Conceptos básicos de la topología](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics).</span><span class="sxs-lookup"><span data-stu-id="8dbbe-130">For more information about deploying Skype for Business Server and supported topologies, see [Topology Basics](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics).</span></span>
+
+- <span data-ttu-id="8dbbe-131">Conectividad híbrida.</span><span class="sxs-lookup"><span data-stu-id="8dbbe-131">Hybrid connectivity.</span></span> <span data-ttu-id="8dbbe-132">Si ya dispone de Skype para Business Server implementado y que desea habilitar el conector de datos de llamadas, debe asegurarse de que dispone de conectividad híbrida configurar entre los entornos en línea y local.</span><span class="sxs-lookup"><span data-stu-id="8dbbe-132">If you already have Skype for Business Server deployed and you want to enable Call Data Connector, you must ensure that you have hybrid connectivity set up between your on-premises and online environments.</span></span> <span data-ttu-id="8dbbe-133">En ocasiones, esto se denomina una configuración de dominio dividido.</span><span class="sxs-lookup"><span data-stu-id="8dbbe-133">This is sometimes called a split domain configuration.</span></span> 
+
+   <span data-ttu-id="8dbbe-134">Para obtener más información, vea [Planear la conectividad híbrida entre Skype para Business Server y Office 365](plan-hybrid-connectivity.md) y [Configure la conectividad híbrida entre Skype para Business Server y Office 365](configure-hybrid-connectivity.md).</span><span class="sxs-lookup"><span data-stu-id="8dbbe-134">For more information, see [Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md).</span></span>
+
+- <span data-ttu-id="8dbbe-135">Para configurar el conector de datos de llamadas, debe autenticarse en el inquilino de Office 365 y asegúrese de que tiene las siguientes funciones habilitadas:</span><span class="sxs-lookup"><span data-stu-id="8dbbe-135">To configure Call Data Connector, you must authenticate to your Office 365 tenant and ensure that you have the following roles enabled:</span></span>
+
+   - <span data-ttu-id="8dbbe-136">Skype para el administrador del servidor de negocio</span><span class="sxs-lookup"><span data-stu-id="8dbbe-136">Skype for Business Server Administrator</span></span> 
+   - <span data-ttu-id="8dbbe-137">Administrador Global de Office 365</span><span class="sxs-lookup"><span data-stu-id="8dbbe-137">Office 365 Global Administrator</span></span> 
+
+- <span data-ttu-id="8dbbe-138">Si no lo ha hecho ya, activar en el panel de calidad de llamada tal como se describe en [activar y con el panel de calidad de llamadas para los equipos de Microsoft y Skype para profesionales en línea](/microsoftteams/turning-on-and-using-call-quality-dashboard).</span><span class="sxs-lookup"><span data-stu-id="8dbbe-138">If you have not already done so, turn on Call Quality Dashboard as described in [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](/microsoftteams/turning-on-and-using-call-quality-dashboard).</span></span>
+
+## <a name="comparison-of-on-premises-and-online-call-quality-dashboard-cqd-reports"></a><span data-ttu-id="8dbbe-139">Informes de comparación de local y panel de calidad de llamadas en línea (CQD)</span><span class="sxs-lookup"><span data-stu-id="8dbbe-139">Comparison of on-premises and online Call Quality Dashboard (CQD) reports</span></span>
+
+| <span data-ttu-id="8dbbe-140">Informes de característica</span><span class="sxs-lookup"><span data-stu-id="8dbbe-140">Feature reports</span></span> | <span data-ttu-id="8dbbe-141">Skype Empresarial Online</span><span class="sxs-lookup"><span data-stu-id="8dbbe-141">Skype for Business Online</span></span> | <span data-ttu-id="8dbbe-142">Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="8dbbe-142">Skype for Business Server</span></span>   |
+|:---------------------------|:---------------------|:---------------------|:------------------|
+| <span data-ttu-id="8dbbe-143">Métrica de uso compartido de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="8dbbe-143">Application sharing metric</span></span> |<span data-ttu-id="8dbbe-144">Sí</span><span class="sxs-lookup"><span data-stu-id="8dbbe-144">Yes</span></span> | <span data-ttu-id="8dbbe-145">Limitado</span><span class="sxs-lookup"><span data-stu-id="8dbbe-145">Limited</span></span> |
+| <span data-ttu-id="8dbbe-146">Información de creación de cliente</span><span class="sxs-lookup"><span data-stu-id="8dbbe-146">Customer building information</span></span>| <span data-ttu-id="8dbbe-147">Sí</span><span class="sxs-lookup"><span data-stu-id="8dbbe-147">Yes</span></span> | <span data-ttu-id="8dbbe-148">Sí</span><span class="sxs-lookup"><span data-stu-id="8dbbe-148">Yes</span></span> |
+| <span data-ttu-id="8dbbe-149">Análisis en profundidad</span><span class="sxs-lookup"><span data-stu-id="8dbbe-149">Drill-down analytics</span></span> | <span data-ttu-id="8dbbe-150">Sí</span><span class="sxs-lookup"><span data-stu-id="8dbbe-150">Yes</span></span> | <span data-ttu-id="8dbbe-151">No</span><span class="sxs-lookup"><span data-stu-id="8dbbe-151">No</span></span> |
+| <span data-ttu-id="8dbbe-152">Métricas de confiabilidad de medios</span><span class="sxs-lookup"><span data-stu-id="8dbbe-152">Media reliability metrics</span></span> | <span data-ttu-id="8dbbe-153">Sí</span><span class="sxs-lookup"><span data-stu-id="8dbbe-153">Yes</span></span> | <span data-ttu-id="8dbbe-154">Limitado</span><span class="sxs-lookup"><span data-stu-id="8dbbe-154">Limited</span></span> |
+| <span data-ttu-id="8dbbe-155">Informes de fábrica</span><span class="sxs-lookup"><span data-stu-id="8dbbe-155">Out-of-the-box reports</span></span> | <span data-ttu-id="8dbbe-156">Sí</span><span class="sxs-lookup"><span data-stu-id="8dbbe-156">Yes</span></span> | <span data-ttu-id="8dbbe-157">Sí</span><span class="sxs-lookup"><span data-stu-id="8dbbe-157">Yes</span></span> |
+| <span data-ttu-id="8dbbe-158">Información general sobre informes</span><span class="sxs-lookup"><span data-stu-id="8dbbe-158">Overview reports</span></span> | <span data-ttu-id="8dbbe-159">Sí</span><span class="sxs-lookup"><span data-stu-id="8dbbe-159">Yes</span></span> | <span data-ttu-id="8dbbe-160">No</span><span class="sxs-lookup"><span data-stu-id="8dbbe-160">No</span></span> |
+| <span data-ttu-id="8dbbe-161">Por informes de usuario</span><span class="sxs-lookup"><span data-stu-id="8dbbe-161">Per user reports</span></span> | <span data-ttu-id="8dbbe-162">Sí</span><span class="sxs-lookup"><span data-stu-id="8dbbe-162">Yes</span></span> | <span data-ttu-id="8dbbe-163">Sí</span><span class="sxs-lookup"><span data-stu-id="8dbbe-163">Yes</span></span> |
+| <span data-ttu-id="8dbbe-164">Personalización del conjunto de informes</span><span class="sxs-lookup"><span data-stu-id="8dbbe-164">Report set customization</span></span> <br> <span data-ttu-id="8dbbe-165">(agregar, eliminar, modificar informes)</span><span class="sxs-lookup"><span data-stu-id="8dbbe-165">(add, delete, modify reports)</span></span> | <span data-ttu-id="8dbbe-166">Sí</span><span class="sxs-lookup"><span data-stu-id="8dbbe-166">Yes</span></span> | <span data-ttu-id="8dbbe-167">Sí</span><span class="sxs-lookup"><span data-stu-id="8dbbe-167">Yes</span></span> |
+| <span data-ttu-id="8dbbe-168">Uso compartido de las métricas de pantalla basados en vídeo</span><span class="sxs-lookup"><span data-stu-id="8dbbe-168">Video-based screen sharing metrics</span></span> | <span data-ttu-id="8dbbe-169">Sí</span><span class="sxs-lookup"><span data-stu-id="8dbbe-169">Yes</span></span> | <span data-ttu-id="8dbbe-170">No</span><span class="sxs-lookup"><span data-stu-id="8dbbe-170">No</span></span> |
+| <span data-ttu-id="8dbbe-171">API de datos para el acceso mediante programación</span><span class="sxs-lookup"><span data-stu-id="8dbbe-171">Data APIs for programmatic access</span></span> <br> <span data-ttu-id="8dbbe-172">a CQD</span><span class="sxs-lookup"><span data-stu-id="8dbbe-172">to CQD</span></span> | <span data-ttu-id="8dbbe-173">No</span><span class="sxs-lookup"><span data-stu-id="8dbbe-173">No</span></span> | <span data-ttu-id="8dbbe-174">Sí</span><span class="sxs-lookup"><span data-stu-id="8dbbe-174">Yes</span></span> |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
