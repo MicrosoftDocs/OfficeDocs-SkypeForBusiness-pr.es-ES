@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Conozca cuáles son los pasos que hay que seguir para restablecer el Id. de conferencia de reunión de un usuario en Microsoft Teams, y obtenga los vínculos para las herramientas de migración y actualización de reuniones. '
-ms.openlocfilehash: 8cc418b050b254930a74db8b0894dc14ccc090e5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: bed015c92e197c1ee2dc1b48e495eee98445e3f0
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014134"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019047"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Restablecer un Id. de conferencia para un usuario en Microsoft Teams
 
@@ -38,11 +38,13 @@ Un identificador de conferencia dinámico se incluye en la parte inferior de las
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>Restablecer el Id. de conferencia para un usuario
 
-1. En el panel de navegación izquierdo, haga clic en **Usuarios** y seleccione el usuario en la lista de usuarios disponibles.
+![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) Uso del equipos de Microsoft y Skype para centro de administración de negocio
 
-2. En la parte superior de la página, haga clic en **Editar**.
+1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
-3. En **Audioconferencia**, haga clic en **Restablecer Id. de conferencia**.
+2. Haga clic en **Editar**.
+
+3. En las **Conferencias de Audio** , haga clic en **Restablecer el identificador de conferencia**.
 
 2. En la ventana **Restablecer Id. de conferencia** , haga clic en **Restablecer**. Una conferencia que se creará automáticamente el identificador y un correo electrónico enviado al usuario con el nuevo identificador de conferencia. De forma predeterminada, se envían mensajes de correo electrónico a los usuarios, pero esto se puede desactivar.   
 
@@ -57,9 +59,9 @@ Un identificador de conferencia dinámico se incluye en la parte inferior de las
 
 - Puede enviar toda la información de conferencia para el usuario en un correo electrónico que incluye el identificador de conferencia y los números de teléfono de acceso telefónico, haga clic en **Enviar información de conferencia en el correo electrónico** para el usuario en la sección de **Conferencias de Audio** . No envía el PIN.
     
-- El Id. de conferencia contendrá siete dígitos y su longitud no se puede modificar.
+- Un identificador de conferencia va a contener 7 dígitos, y no se puede cambiar su longitud.
     
-- Una vez que se haya restablecido, podrá ver el Id. de conferencia nuevo en la lista de **Id. de conferencia**.
+- Una vez que se ha restablecido el nuevo id. de conferencia, podrá verlo en **Id. de conferencia**.
     
 - After a new conference ID is created, the old conference ID can't be used by callers. Debe notificar a los usuarios para que reprogramen sus invitaciones de reunión existentes para asegurarse de que se agrega a las invitaciones el nuevo Id. de conferencia. 
 
@@ -75,4 +77,4 @@ Para obtener más información sobre Windows PowerShell, consulte la [referencia
     
 ## <a name="related-topics"></a>Temas relacionados
 
-[Restablecer el PIN de Audioconferencia](reset-the-audio-conferencing-pin-in-teams.md)
+[Restablecer el PIN de conferencia de Audio](reset-the-audio-conferencing-pin-in-teams.md)

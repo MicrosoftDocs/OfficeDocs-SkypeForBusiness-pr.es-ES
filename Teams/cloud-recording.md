@@ -11,12 +11,12 @@ description: Guía práctica para implementar características de voz en la nube
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41cb6fdc7d27b90939be540d04b73fdc1f052818
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 068ddc726a366f5ee34b23dca0f76699d4c76afc
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014182"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019079"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de la reunión de los equipos en la nube
 
@@ -62,7 +62,7 @@ Si un administrador de Microsoft Stream tiene que [Configurar la directiva de em
 
 Use la opción AllowCloudRecording en TeamsMeetingPolicy en los equipos de PowerShell para controlar si se permiten las reuniones de un usuario que se registre o no. Encontrará más información acerca de cómo administrar TeamsMeetingPolicy con Office 365 PowerShell [aquí](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
-Tenga en cuenta que el organizador de la reunión y el iniciador de grabación deben tener los permisos de grabación para grabar la reunión. A menos que haya asignado una directiva personalizada a los usuarios, los usuarios obtendrán una directiva Global, que tiene la grabación habilitado de forma predeterminada.
+Tenga en cuenta que el organizador de la reunión y el iniciador de grabación deben tener los permisos de grabación para grabar la reunión. A menos que haya asignado una directiva personalizada a los usuarios, los usuarios obtendrán una directiva Global, que tiene AllowTranscription deshabilitado de forma predeterminada.
 
 Para que un usuario se retrocede a la directiva Global, use el siguiente cmdlet para quitar una asignación de directiva específica de un usuario:
 

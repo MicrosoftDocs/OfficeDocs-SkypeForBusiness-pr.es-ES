@@ -11,12 +11,12 @@ search.appverid: MET150
 description: Conozca los registros de depuración, medios y escritorio generados por Microsoft Teams, dónde se encuentran y cómo pueden ser útiles para resolver problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0f06e291694a9a5c22d1188802ef1dabe55af7d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 95d28bac036476c417ccbe7929a23ab9fb37f3a8
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016584"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25018903"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Usar los archivos de registro para solucionar problemas en Microsoft Teams
 =================================================
@@ -48,7 +48,7 @@ Para ver una lista completa de los sistemas operativos y los exploradores compat
 <a name="debug-logs"></a>Registros de depuración
 ---------------------------
 
-Estos son los registros más comunes y se necesitan para todos los casos de soporte técnico de Microsoft. Los registros de depuración los generan los clientes de escritorio de Windows y Mac, así como los clientes basados en exploradores. Los registros están basados en texto y se leen de arriba abajo. Pueden leerse con cualquier editor de textos y los nuevos registros se crean cuando se inicia sesión en el cliente.
+Estos son los registros más comunes y son necesarios para todos los casos de soporte técnico de Microsoft. Depurar los registros producidos por los clientes de escritorio de Windows y Mac, así como los clientes basado en el explorador. Los registros son texto basados y copia de seguridad que se leen de la parte inferior. Puede leer con cualquier editor de texto en función y se crean los registros de nuevo al iniciar sesión en el cliente.
 
 Los registros de depuración muestran los siguientes flujos de datos:
 

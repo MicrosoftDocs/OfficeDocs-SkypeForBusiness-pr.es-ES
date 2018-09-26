@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Vea cómo puede habilitar o deshabilitar a los usuarios para que registren su nombre cuando se unan a una reunión en Microsoft Teams
-ms.openlocfilehash: 8583ca92de2544946eb898d128e423b6df62cb24
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: cb29fccf8e1997b4c7a82900e3fa6600c603a9a9
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012940"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019063"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Habilitar que los usuarios registren su nombre cuando se unan a una reunión en Microsoft Teams
 
@@ -36,13 +36,15 @@ El puente de conferencia responde a la llamada de un usuario que llama a una reu
   
 ## <a name="set-whether-callers-should-record-their-name"></a>Establecer si los autores de las llamadas tienen que grabar sus nombres
 
-1. En el Microsoft Teams & Skype para el centro de administración de negocio, en el panel de navegación izquierdo, vaya a **las reuniones** > **Puentes de conferencia**. 
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) Uso del equipos de Microsoft y Skype para centro de administración de negocio
 
-2. En la parte superior de la página **Puentes de conferencia**, haga clic en **Configuración de puente**. 
+1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**. 
 
-3. Habilite o deshabilite **Notificaciones de entrada y salida de la reunión**.
+2. En la parte superior de la página de **Puentes de conferencia** , haga clic en **configuración de puente**. 
 
-4. Si habilita las notificaciones, seleccione **Nombres o números de teléfono** en **Tipo de anuncios de entrada/salida** y después active **Pida a los autores de llamadas que registren su nombre antes de unirse a la reunión**.
+3. Habilitar o deshabilitar la **entrada de la reunión y salir de las notificaciones**.
+
+4. Si habilita las notificaciones, elija **nombres o números de teléfono** en **tipo de anuncio de entrada o salida**y, a continuación, activar **formular a los autores de llamadas para registrar su nombre antes de unirse a una reunión.**
 
 6. Haga clic en **Guardar**.
     

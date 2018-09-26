@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Vea los pasos que hay que seguir en Microsoft Teams para asignar una licencia de conferencia de acceso telefónico local y un Id. de conferencia a un usuario y muchas otras opciones de la conferencia de acceso telefónico local. '
-ms.openlocfilehash: 40a6dd3e545e913a134ae7bac80b5ec3085dc96a
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 1cf3240a2b6cf286e14a8180346f8db0ed755a46
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015336"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019097"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>Administrar la configuración de Audioconferencia para mi organización en Microsoft Teams
 
@@ -78,13 +78,13 @@ Puede realizar cambios en el correo electrónico que se envía automáticamente 
   
 ## <a name="reset-the-meeting-conference-id"></a>Restablecer el Id. de conferencia de reunión
 
-1. En el panel de navegación izquierdo, haga clic en **Usuarios** y seleccione el usuario en la lista de usuarios disponibles.
+![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
 
-2. En la parte superior de la página, haga clic en **Editar**.
+1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
-3. En **Audioconferencia**, haga clic en **Restablecer Id. de conferencia**.  
+2. En **Audioconferencia**, haga clic en **Restablecer Id. de conferencia**.  
 
-4. En la **Restablecer el identificador de conferencia?** ventana, haga clic en **Restablecer**. Se creará automáticamente un identificador de conferencia y un correo electrónico enviado al usuario con el nuevo identificador de conferencia si está habilitado el envío de correo electrónico a los usuarios. Está habilitada de forma predeterminada.
+3. En la **Restablecer el identificador de conferencia?** ventana, haga clic en **Restablecer**. Se creará automáticamente un identificador de conferencia y un correo electrónico enviado al usuario con el nuevo identificador de conferencia si está habilitado el envío de correo electrónico a los usuarios. Está habilitada de forma predeterminada.
 
 Vea [Restablecer un Id. de conferencia para un usuario](reset-a-conference-id-for-a-user-in-teams.md).
   
@@ -92,103 +92,105 @@ Vea [Restablecer un Id. de conferencia para un usuario](reset-a-conference-id-fo
 
 Se asignará un id. de conferencia único a cada reunión que programe un usuario. Si bien crea automáticamente un identificador de conferencia y se asigna a un usuario, puede haber ocasiones cuando un usuario no desea utilizar este y que desea establecer para un cierto número, o los usuarios no pueden recordar o han perdido su identificador de conferencia. 
 
-1. En el panel de navegación izquierdo, haga clic en **Usuarios** y seleccione el usuario en la lista de usuarios disponibles.
+![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
 
-2. En la parte superior de la página, haga clic en **Editar**.
+1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
-3. En **Audioconferencia**, haga clic en **Restablecer PIN** y, a continuación, haga clic en **Restablecer**. 
+2. En **Audioconferencia**, haga clic en **Restablecer PIN** y, a continuación, haga clic en **Restablecer**. 
   
-    
 Los usuarios recibirán un correo electrónico con su PIN cuando se habiliten para la audioconferencia o cuando se restablezca el PIN. Pero si ha deshabilitado automáticamente el envío de correos electrónicos, no se enviará un correo electrónico de restablecimiento de PIN y deberá enviar manualmente el PIN al usuario. El PIN solo se mostrará una vez tras su restablecimiento. Una vez que se muestre inmediatamente después de su restablecimiento, el PIN dejará de mostrarse en las propiedades del usuario; en su lugar, se mostrará *****. 
   
 Vea [Restablecer el PIN de Audioconferencia](reset-the-audio-conferencing-pin-in-teams.md).
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Enviar un correo electrónico con la información de audioconferencia a un usuario
 
-1. En el panel de navegación izquierdo, haga clic en **Usuarios** y seleccione el usuario en la lista de usuarios disponibles.
+![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
 
-2. En la parte superior de la página, haga clic en **Editar**.
+1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
-3. En **Audioconferencia**, haga clic en **Enviar información de conferencia por correo electrónico**. 
+2. En **Audioconferencia**, haga clic en **Enviar información de conferencia por correo electrónico**. 
 
     > [!NOTE]
     > Cuando hace esto, el PIN de audioconferencia no se envía al usuario. 
 
-  
 Consulte [Enviar un correo electrónico a un usuario con su información de audioconferencia](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
   
-## <a name="setting-the-phone-numbers-included-on-invites"></a>Establecer los números de teléfono incluidos en las invitaciones
+## <a name="set-the-phone-numbers-included-on-invites"></a>Establecer los números de teléfono incluidos en las invitaciones
 
-1. En el panel de navegación izquierdo, haga clic en **Usuarios** y seleccione el usuario en la lista de usuarios disponibles.
+![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
 
-2. Junto a **Audioconferencia**, haga clic en **Editar**.
+1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
+
+2. Junto a **Conferencias de Audio**, haga clic en **Editar**.
  
-3. En el panel **Audioconferencia**, puede establecer el **Número de pago** y, si está permitido, el **Número gratuito**.
+3. En el panel de **Conferencia de Audio** , puede establecer el **número de teléfono de pago** y, si se permite, el **número de teléfono gratuito**.
 
 4. Haga clic en **Guardar**.
     
-Consulte [Establecer los números de teléfono incluidos en las invitaciones](set-the-phone-numbers-included-on-invites-in-teams.md).
+Vea [el teléfono los números incluidos en invitaciones](set-the-phone-numbers-included-on-invites-in-teams.md).
   
   
-## <a name="choosing-audio-conferencing-bridge-settings"></a>Elegir la configuración del puente de audioconferencia
+## <a name="choose-audio-conferencing-bridge-settings"></a>Elija Configuración de puente de conferencia de audio
 
-**Establecer la experiencia de reunión cuando los autores de llamada se unen a una reunión**
+Configuración del puente de audioconferencia o de conferencia de acceso telefónico local
 
+![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
 
 1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**. 
 
-2. En la parte superior de la página **Puentes de conferencia**, haga clic en **Configuración de puente**. 
+2. En la parte superior de la página de **Puentes de conferencia** , haga clic en **configuración de puente**. 
 
 3. En el panel **Configuración de puente**, habilite o deshabilite **Notificaciones de entrada y salida de la reunión**.
 
     Esto está habilitado de forma predeterminada. Si deshabilita esta opción, no se le notificará a los usuarios que ya se han unido a la reunión de forma predeterminada cuando alguien entra o sale de la reunión.
 
-4. En **Tipo de anuncios de entrada/salida**, elija **Tonos** o **Nombres o números de teléfono**. 
+4. En **tipo de anuncio de entrada o salida**, elija **tonos** o **nombres o números de teléfono**. 
 
-    Si elige **Nombres o números de teléfono**, también puede elegir si prefiere habilitar o deshabilitar **Pida a los autores de llamadas que registren su nombre antes de unirse a la reunión**. 
+    Si elige **los nombres o números de teléfono**, también puede elegir habilitar o deshabilitar **los autores de llamadas Ask para registrar su nombre antes de unirse a la reunión**. 
 
 5. Haga clic en **Guardar**.
 
     
-El PIN solo puede tener de 4 a 12 dígitos. El valor predeterminado es 5.
+Después de realizar los cambios, haga clic en [Guardar](change-the-settings-for-an-audio-conferencing-bridge.md).
   
- **Configurar la longitud del PIN para las reuniones**
+ **Vea **Cambiar la configuración de un puente de conferencias de acceso telefónico local de Microsoft**.**
 
 1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**. 
 
-2. En la parte superior de la página **Puentes de conferencia**, haga clic en **Configuración de puente**. 
+2. En la parte superior de la página de **Puentes de conferencia** , haga clic en **configuración de puente**. 
 
-3. En **Seguridad**, introduzca el número de dígitos que quiere para el PIN en la lista **Longitud del PIN** y después haga clic en **Guardar**.
+3. En el panel **configuración de puente** , escriba el número de dígitos que desee para el PIN en la lista de **longitud PIN** y, a continuación, haga clic en **Guardar**.
 
-    El PIN debe ser un valor entre 4 y 12 dígitos. El valor predeterminado es 5.
+    El PIN debe tener entre 4 y 12 dígitos. El valor predeterminado es 5.
 
     
 El PIN solo puede tener de 4 a 12 dígitos. El valor predeterminado es 5.[](change-the-settings-for-an-audio-conferencing-bridge.md)
   
- **Habilitar o deshabilitar que el correo electrónico se envíe a los usuarios de audioconferencias**
-
+ **Vea **Cambiar la configuración de un puente de conferencias de acceso telefónico local de Microsoft**.**
 
 1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**. 
 
-2. En la parte superior de la página **Puentes de conferencia**, haga clic en **Configuración de puente**. 
+2. En la parte superior de la página de **Puentes de conferencia** , haga clic en **configuración de puente**. 
 
-3. En el panel **Configuración de puente**, habilite o deshabilite **Enviar automáticamente mensajes de correo electrónico a los usuarios si cambia su configuración de audioconferencia**.
+3. En el panel **configuración de puente** , habilitar o deshabilitar **Enviar automáticamente mensajes de correo electrónico a los usuarios si cambia su configuración de conferencias de audio**.
 
 4. Haga clic en **Guardar**. 
  
-    También puede enviar un correo electrónico al usuario con la configuración de la audioconferencia. Para ello, tiene que ir a las propiedades de la audioconferencia para el usuario y hacer clic en **Enviar la información de conferencia por correo electrónico**.
+    También puede enviar correo electrónico al usuario con la configuración de conferencias de audio, vaya a las propiedades del usuario conferencias de audio y haciendo clic en **Enviar información de conferencia en el correo electrónico**.
     
     Si hace esto, se enviará un correo electrónico que incluye solo el Id. de conferencia y el número de teléfono de conferencia, pero no se incluirá el PIN.
 
-Consulte [Enviar un correo electrónico a un usuario con su información de audioconferencia](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
+Si hace esto, se enviará un correo electrónico que solo contenga el id. de la conferencia y el número de teléfono de la conferencia, pero no se incluirá el PIN.
     
-## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Ver y establecer los idiomas principales (predeterminados) y secundarios (alternativos) en un puente de audioconferencia
+## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Vea y establezca la primaria (valor predeterminado) y los idiomas (alternativos) secundarios en un puente de conferencia de audio
+
+![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
 
 1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**. 
 
 2. Seleccione un número de teléfono de la lista y haga clic en **Editar**.
 
-3. Elija los idiomas que quiere en **Idioma predeterminado** y en **Idiomas alternativos (opcionales)**.
+3. Elija los idiomas que desee en **idioma predeterminado** e **idiomas alternativos (opcionales)**.
 
 4. Haga clic en **Guardar**.
 
@@ -197,6 +199,7 @@ También puede establecer el idioma principal y los idiomas secundarios compatib
   
 ## <a name="see-audio-conferencing-dial-in-numbers"></a>See audio conferencing dial-in numbers
 
+![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
 
 1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**. 
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Descubra cómo se puede ver una lista de usuarios de su organización que estén habilitados para la conferencia de acceso telefónico local desde Microsoft Teams. '
-ms.openlocfilehash: e82d0d265e89c5b717ff25ea7c58ec240b38bea0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a05aa000b2289499c030ac564a5f09eeefdd865a
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014038"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019123"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Consultar una lista de usuarios que se han habilitado para Audioconferencia en Microsoft Teams
 
@@ -36,7 +36,7 @@ Después de haber habilitado a los usuarios de Microsoft Teams en su organizaci�
   
 ## <a name="viewing-a-list-of-users"></a>Ver una lista de los usuarios
 
-- En el panel de navegación izquierdo, haga clic en **Usuarios**.
+- En el Microsoft Teams & Skype para el centro de administración de negocio, en el panel de navegación izquierdo, haga clic en **usuarios**.
 
 
 ## <a name="what-else-should-i-know"></a>¿Qué más debo saber?

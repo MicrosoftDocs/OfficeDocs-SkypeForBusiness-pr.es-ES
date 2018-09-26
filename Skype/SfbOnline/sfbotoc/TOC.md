@@ -235,7 +235,8 @@
 ### [Configuración del sistema telefónico en su organización](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [¿Qué son los operadores automáticos de Sistema telefónico?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Configurar un operador automático de Sistema telefónico](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
-#### [Ejemplo de implementación - operadores automáticos](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
+#### [Ejemplo de pequeña empresa - configurar un operador automático](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
+
 
 ## [Configurar la red para Difusión de reunión de Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
 ### [Licencias de usuario bloqueadas para Difusión de reunión de Skype](../set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)
