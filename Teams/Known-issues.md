@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00ff17cc8fb28f0279f1356937465668dc6b7afe
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d2b6a411e3dd4f2d7f337e6823cc41d98e508423
+ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015488"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25090213"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -213,6 +213,10 @@ En este artículo se enumera los problemas conocidos de Microsoft Teams, por ár
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |Los equipos de la integración de organizador con organizador en línea <br/> |Cubos de tareas en el organizador no se muestran en la experiencia en línea del organizador.  <br/> |No hay ninguna solución. <br/> |28/02/2017  <br/>|
+
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|Ficha de la página de SharePoint representa una pantalla en blanco<br/> |SharePoint Online dominios de cortesía actualmente no son compatibles. La experiencia del usuario es una pantalla en blanco cuando attemting para agregar una SharePoint ficha de página. <br/> |No hay ninguna solución. <br/> |20/8/18  <br/>|
 
 ## <a name="teams"></a>Microsoft Teams
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|

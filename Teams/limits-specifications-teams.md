@@ -6,19 +6,19 @@ manager: serdars
 ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ''
+ms.reviewer: karuanag
 description: Obtenga información sobre los límites, especificaciones y otros requisitos que se aplican a Microsoft Teams.
 localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: faa31d1a225c19b511e074eedbb5702eb1432a50
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: af408506195878a4c213044e6c2223ae75bb815b
+ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014832"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25090189"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y las especificaciones de Microsoft Teams
 =============================================
@@ -32,7 +32,7 @@ En este artículo se describe algunos de los límites, especificaciones y otros 
 |-----------|---------------|
 |Número de equipos, que puede crear un usuario | Sujeto a un límite de 250 objeto & sup1;         |
 |Número de miembros de un equipo | 2.500       |
-|Número de equipos, que puede crear un administrador global        | Ilimitado   |
+|Número de equipos, que puede crear un administrador global        | 500.000   |
 |Número de equipos que puede tener un inquilino de Office 365    | 500.000     |
 |Número de canales por equipo    | 200         |
 

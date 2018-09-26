@@ -17,6 +17,7 @@
 ## [Límites y las especificaciones de los equipos](limits-specifications-teams.md)
 ## [Planificar grupos de Office 365 al crear equipos en Microsoft Teams](plan-office-365-groups.md)
 ## [Herramientas para ayudar con el lanzamiento de Microsoft Teams](rollout-tools.md)
+## [Plan para la administración del ciclo de vida en los equipos](plan-teams-lifecycle.md)
 ## [Plan de gobierno en los equipos](plan-teams-governance.md)
 ## [Planeación de Microsoft 365 gobierno - implementaciones GCC](plan-for-government-gcc.md)
 ## Estimular la adopción
