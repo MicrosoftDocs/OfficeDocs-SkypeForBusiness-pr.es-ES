@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07f546db5acb8afa0dc457122a2462b9d0affea3
-ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
+ms.openlocfilehash: 8741a76ccfbc9ef16cbf9c4298bacace25ac36ad
+ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25002434"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25040775"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidad de vídeo en la nube para los equipos de Microsoft
 
@@ -49,7 +49,9 @@ Nuestros socios han desarrollado soluciones de puerta de enlace para conectar di
 **Preparado para las empresas**
 
 - Vídeo de alta definición (1080p) y contenido (VBSS)
-- Compatibilidad con H.323 y SIP dispositivos para salas de reunión-Exchange de los equipos nativo programación: diseño de la puerta de enlace en lugar de VMR
+- Compatibilidad con H.323 y SIP dispositivos para salas de reuniones
+- Programación de los equipos de Exchange o nativo
+- Diseño de la puerta de enlace en lugar de VMR
 
 **Escala para la nube**
 
@@ -86,7 +88,7 @@ En el siguiente diagrama se describe la arquitectura de alto nivel de una soluci
 
 ## <a name="business-workflow-scenarios"></a>Escenarios de flujo de trabajo de negocio
 
-- **Skype para Business Server -> equipos de Microsoft:** Su organización tiene dispositivos de otros fabricantes y mover de Skype para Business en prem server a Microsoft Teams  
+- **Skype para Business Server -> equipos de Microsoft:** Su organización tiene dispositivos de otros fabricantes y mover de Skype para Business en prem server a Microsoft Teams.  
 - **Skype para la empresa en línea -> Microsoft Teams:** La organización está migrando a Microsoft Teams de Skype para profesionales en línea.
 - **Cisco UC -> equipos de Microsoft:** Su organización está pasando de Cisco a Microsoft Teams, pero no está listo para reemplazar los dispositivos Cisco.
 - **Sistemas mixtos -> equipos de Microsoft:** Su organización tiene varios sistemas en el entorno paralelo (Cisco, BroadSoft, SfB Server, SfBO).

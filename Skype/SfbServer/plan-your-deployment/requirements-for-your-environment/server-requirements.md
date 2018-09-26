@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Resumen: prepare los servidores de Skype Empresarial Server 2015 con este tema. Hardware, sistemas operativos, bases de datos, software, todos los requisitos del sistema y recomendaciones están aquí para ayudar a garantizar una instalación e implementación correcta de la granja de servidores.'
-ms.openlocfilehash: 3971dba6474e8ffa5fcb3b84f82f8e80729627f6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 4e6bbe71a75097e9b1a3a34752d9d1cd46d59307
+ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883833"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25040744"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Requisitos del servidor para Skype Empresarial Server 2015
  
@@ -90,9 +90,9 @@ Al instalar Skype para 2015 Business Server Standard Edition, tendrá 2014 de SQ
 Skype para Business Server 2015 Enterprise Edition es un poco más complicado, pero la lista admitida es inferior a (todo lo que es la edición de 64 bits, observará, por favor, no use las ediciones de 32 bits):
   
 ||||
-|:-----|:-----|:-----|
-|Microsoft SQL Server 2014 Enterprise (edición de 64 bits) y se debe ejecutar con actualización acumulativa 6 o posterior ([Descargue la actualización acumulativa 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Enterprise (edición de 64 bits) y se recomienda la ejecución con el último service pack.  <br/> |Microsoft SQL Server 2008 R2 Enterprise (edición de 64 bits) y se recomienda la ejecución con el último service pack.  <br/> |
-|Microsoft SQL Server 2014 Standard (edición de 64 bits) y se debe ejecutar con actualización acumulativa 6 o posterior ([Descargue la actualización acumulativa 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Standard (edición de 64 bits) y se recomienda la ejecución con el último service pack.  <br/> |Microsoft SQL Server 2008 R2 Standard (edición de 64 bits) y se recomienda la ejecución con el último service pack  <br/> |
+|:-----|:-----|:-----|:-----|
+|Microsoft SQL Server 2016 Enterprise (edición de 64 bits) con Service Pack 1 o posterior y se debe ejecutar con Skype para profesionales actualización acumulativa 7 o posterior ([Descargar Skype para la actualización acumulativa de negocio](https://support.microsoft.com/en-us/help/3061064)).  <br/> |Microsoft SQL Server 2014 Enterprise (edición de 64 bits) y se debe ejecutar con actualización acumulativa 6 o posterior ([Descargue la actualización acumulativa 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Enterprise (edición de 64 bits) y se recomienda la ejecución con el último service pack.  <br/> |Microsoft SQL Server 2008 R2 Enterprise (edición de 64 bits) y se recomienda la ejecución con el último service pack.  <br/> |
+|Microsoft SQL Server 2016 Standard (edición de 64 bits) con Service Pack 1 o posterior y se debe ejecutar con Skype para profesionales actualización acumulativa 7 o posterior ([Descargar Skype para la actualización acumulativa de negocio](https://support.microsoft.com/en-us/help/3061064)).  <br/> |Microsoft SQL Server 2014 Standard (edición de 64 bits) y se debe ejecutar con actualización acumulativa 6 o posterior ([Descargue la actualización acumulativa 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Standard (edición de 64 bits) y se recomienda la ejecución con el último service pack.  <br/> |Microsoft SQL Server 2008 R2 Standard (edición de 64 bits) y se recomienda la ejecución con el último service pack  <br/> |
    
 Si no ve la edición de SQL Server que desea usar que se muestra aquí, no se puede usar.
   
@@ -131,6 +131,8 @@ Puede usar lo siguiente para el clúster de conmutación por error:
   
 Dos nodos:
   
+- Microsoft SQL Server 2016 Standard (edición de 64 bits) con Service Pack 1 o posterior. Se recomienda que se ejecuten con el último service pack.
+
 - Microsoft SQL Server 2014 Standard (edición de 64 bits) y se recomienda la ejecución con el último service pack.
     
 -  Microsoft SQL Server 2012 Standard (edición de 64 bits) y se recomienda la ejecución con el último service pack.
@@ -138,6 +140,8 @@ Dos nodos:
 - Microsoft SQL Server 2008 R2 Standard (edición de 64 bits) y se recomienda la ejecución con el último service pack.
     
 Dieciséis nodos:
+
+- Microsoft SQL Server 2016 Enterprise (edición de 64 bits) con Service Pack 1 o posterior. Se recomienda que se ejecuten con el último service pack.
   
 - Microsoft SQL Server 2014 Enterprise (edición de 64 bits) y se recomienda la ejecución con el último service pack.
     
