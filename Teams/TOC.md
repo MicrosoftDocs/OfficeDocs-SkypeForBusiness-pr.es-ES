@@ -474,7 +474,7 @@
 #### [Idiomas para los mensajes y los saludos de los correos de voz](languages-for-voicemail-greetings-and-messages.md)
 #### [Establecer la identificación de llamadas de un usuario](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Configurar un operador automático de Sistema telefónico](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Ejemplo de implementación - operadores automáticos](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Ejemplo de pequeña empresa - configurar un operador automático](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Configurar el correo de voz de Sistema telefónico](set-up-phone-system-voicemail.md)
 #### [¿Qué son los operadores automáticos de Sistema telefónico?](what-are-phone-system-auto-attendants.md)
 #### [Responder a operador automático y las llamadas de cola de llamadas directamente desde los equipos](answer-auto-attendant-and-call-queue-calls.md)
