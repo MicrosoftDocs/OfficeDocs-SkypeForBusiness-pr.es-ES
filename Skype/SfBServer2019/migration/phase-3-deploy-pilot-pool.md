@@ -1,0 +1,37 @@
+---
+title: Fase 3 implementar Skype para Business Server 2019 el grupo piloto
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.audience: ITPro
+ms.topic: get-started-article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: f12b1517-fb56-4ded-8323-57aa9fc9ea48
+description: En esta sección se describe los pasos necesarios para implementar un grupo piloto de Skype para Business Server 2019. La implementación de Skype para Business Server 2019 requiere el uso de Topology Builder para definir la topología y los componentes que desea implementar, preparar su entorno para la implementación de la Skype para los componentes de Business Server 2019, publicar su topología diseño en el primer servidor Front-End y, a continuación, instalar y configurar Skype para Business Server 2019 software para los componentes para la implementación. Cuando complete, su Skype para la implementación del grupo piloto de Business Server 2019 coexiste con un grupo de servidores heredado existente.
+ms.openlocfilehash: 7bf7c705d909e156fe29b42920451412d3db9454
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "25027378"
+---
+# <a name="phase-3-deploy-skype-for-business-server-2019-pilot-pool"></a>Fase 3: Implementar Skype para Business Server 2019 el grupo piloto
+
+En esta sección se describe los pasos necesarios para implementar un grupo piloto de Skype para Business Server 2019. La implementación de Skype para Business Server 2019 requiere el uso de Topology Builder para definir la topología y los componentes que desea implementar, preparar su entorno para la implementación de la Skype para los componentes de Business Server 2019, publicar su topología diseño en el primer servidor Front-End y, a continuación, instalar y configurar Skype para Business Server 2019 software para los componentes para la implementación. Cuando complete, su Skype para la implementación del grupo piloto de Business Server 2019 coexiste con un grupo de servidores heredado existente.
+  
+## <a name="in-this-section"></a>En esta sección
+
+- [Preparar Active Directory para Skype para Business Server](prepare-active-directory.md)
+    
+- [Descargar una topología desde una implementación existente](download-topology-from-existing-deployment.md)
+    
+- [Implementación de Skype para el grupo piloto de Business Server 2019](deploy-pilot-pool.md)
+    
+- [Comprobar la coexistencia de grupo piloto con grupo heredado](verify-pilot-pool-coexistence-with-legacy-pool.md)
+    
+- [Conectar el grupo piloto a servidores perimetrales heredados](connect-pilot-pool-to-legacy-edge-servers.md)
+    
+- [Configurar certificados y directivas de acceso por puerta de enlace XMPP](configure-xmpp-gateway-access-policies-and-certificates.md)
+    
+
