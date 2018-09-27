@@ -8,12 +8,12 @@ ms.topic: hub-page
 ms.author: dearbeen
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: ed79bef2980c505c6e23a92c12af576ec5f31e3e
-ms.sourcegitcommit: 7f721d89559831de2cf1495feb0fc57b22b77d78
+ms.openlocfilehash: 5f721ccc993e31ae0040df7ea841ef13e86dae26
+ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25019341"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25090229"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -41,7 +41,7 @@ ms.locfileid: "25019341"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>#ThisIsTeams - demostración diaria de Microsoft Teams</h3>
+                                                    <h3>#ThisIsTeams - información general de Microsoft Teams</h3>
                                                     <p>¿Qué es Microsoft Teams? Únase a nosotros para esta orientación de 30 minutos descubrir las novedades de los equipos y cómo puede trabajar para usted.</p>
                                                 </div>
                                             </div>
@@ -61,7 +61,7 @@ ms.locfileid: "25019341"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Introducción a los equipos</h3>
-                                                    <p>Desde charlar y reuniones al uso de los equipos y los canales, los usuarios se dejarán este sesiones con la base para utilizar los equipos con confianza.</p>
+                                                    <p>Desde charlar y reuniones al uso de los equipos y los canales, los usuarios dejarán esta sesión con la base para utilizar los equipos con confianza.</p>
                                                 </div>
                                             </div>
                                         </div>
