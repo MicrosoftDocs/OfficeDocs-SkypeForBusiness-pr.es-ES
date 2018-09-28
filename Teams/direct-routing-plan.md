@@ -227,7 +227,7 @@ Los dispositivos que se han validado aparecen como certificado para el enrutamie
 
 Los siguientes proveedores están en el proceso de estar certificadas:
 - [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
-- Comunicaciones de la cinta de opciones (anteriormente Sonus):
+- Ribbon Communications (anteriormente Sonus):
    - [Serie de SBC perimetral](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
    - [SBC Core Series](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
 - ThinkTel: ThinkTel no se vende el SBCs a las empresas, pero su SBC es estar certificada.  
