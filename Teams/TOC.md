@@ -187,7 +187,7 @@
 ### [Información general de los equipos y canales en Microsoft Teams](teams-channels-overview.md)
 ### [Asignar propietarios de equipo y miembros en Microsoft Teams](assign-roles-permissions.md)
 ### [Prácticas recomendadas para organizar equipos en Microsoft Teams](best-practices-organizing.md)
-### [Tutorial: Crear un equipo que abarque toda la empresa con PowerShell](company-wide-team-creation-powershell.yml)
+### [Crear un equipo de toda la organización en los equipos](create-an-org-wide-team.md)
 ## [Acceso de invitado](guest-access.md)
 ### [Cómo se une un invitado a un equipo](guest-joins.md)
 ### [Cómo es la experiencia de invitado](guest-experience.md)
