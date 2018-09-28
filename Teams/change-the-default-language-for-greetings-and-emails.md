@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Aprenda a configurar Skype Empresarial para usar otro idioma para el saludo del correo de voz predeterminado de su organización. '
-ms.openlocfilehash: b1937434fd63c16155916e349d15617bb36d9369
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b88fa5692d0a4a87968a5998f58b144aa31bcb9b
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016416"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347388"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Cambiar el idioma predeterminado en los saludos y los correos electrónicos
 
@@ -52,9 +52,9 @@ Si es [administrador global de Office 365](https://support.office.com/article/da
 
 1. Iniciar sesión con su cuenta de [administrador global de Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) en[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
     
-2. En el Centro de administración, elija **Configuración** > **Perfil de organización**. 
+2. En el centro de administración de Office 365, elija **configuración de** > **el perfil de organización**. 
     
-     ![Elija Configuración y, a continuación, Perfil de organización.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
+     ![Choose Settings and then choose Organization profile.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
 3. Elija **Edit**.
     

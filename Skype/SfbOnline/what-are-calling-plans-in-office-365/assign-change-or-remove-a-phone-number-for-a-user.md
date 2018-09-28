@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Aprenda a asignar, cambiar o quitar un número de teléfono de trabajo para sus usuarios de Skype for Business, de forma que los clientes y las empresas externas puedan llamar.
-ms.openlocfilehash: 17cb05a4d9982981e65b5919a868979fca1a1aa2
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 57ffe302c784ff441d124017035c8031c1c737c1
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958125"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347035"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Asignar, cambiar o quitar un número de teléfono de un usuario
 
@@ -58,7 +58,7 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
  
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **Skype para la empresa**.
+2. Vaya a **los equipos de Microsoft y Skype para el centro de administración de negocio** > **portal heredado**.
     
 3. En el panel de navegación izquierdo, haga clic en **voz** > **a los usuarios de voz**.
    > [!NOTE]
@@ -90,7 +90,7 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
  
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **Skype para la empresa**.
+2. Vaya a **los equipos de Microsoft y Skype para el centro de administración de negocio** > **portal heredado**.
     
 3. En el panel de navegación izquierdo, haga clic en **voz** > **a los usuarios de voz**.
     
@@ -114,7 +114,7 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
  
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **Skype para la empresa**.
+2. Vaya a **los equipos de Microsoft y Skype para el centro de administración de negocio** > **portal heredado**.
     
 3. En el panel de navegación izquierdo, haga clic en **voz** > **a los usuarios de voz**.
     

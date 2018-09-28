@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Aprenda cómo configurar una dirección de emergencia y un número de teléfono para cada uno de los usuarios que funcione con la red telefónica pública conmutada (RTC).
-ms.openlocfilehash: 56552002c589b776935be973700cff822a9f4857
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 10b22db9e50c1913124d021bff1cc7c285c1f52c
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958165"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347036"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>Asignar o cambiar la dirección de emergencia de un usuario
 
@@ -38,7 +38,7 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+2. Vaya a **los equipos de Microsoft y Skype para el centro de administración de negocio** > **portal heredado**.
     
 3. En el panel de navegación izquierdo vaya a **voz**, a continuación, haga clic en **usuarios de voz**.
     

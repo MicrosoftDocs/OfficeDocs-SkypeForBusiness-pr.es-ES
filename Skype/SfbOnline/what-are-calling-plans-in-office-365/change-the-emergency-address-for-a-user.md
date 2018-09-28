@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Consulte los pasos sobre cómo cambiar la dirección de emergencia de un usuario para que funcione con la red telefónica conmutada pública (RTC) en Estados Unidos y Europa. '
-ms.openlocfilehash: 31162e24471cb4e9259678f779143900fa61ac08
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: e27ea228972ceead0838cff481a0db983c503b02
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958355"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347105"
 ---
 # <a name="change-the-emergency-address-for-a-user"></a>Cambiar la dirección de emergencia de un usuario
 
@@ -40,7 +40,7 @@ Para conseguir información sobre cómo obtener Planes de llamadas en Office 365
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Inicie sesión en Office 365 con su cuenta profesional o educativa.**** > ****
+2. Vaya a **los equipos de Microsoft y Skype para el centro de administración de negocio** > **portal heredado**.
     
 3. En el panel de navegación izquierdo, vaya a **voz** > **a los usuarios de voz**.
     

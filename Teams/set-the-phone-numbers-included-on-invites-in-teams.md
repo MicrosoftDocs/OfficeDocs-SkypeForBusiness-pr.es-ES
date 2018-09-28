@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtener los pasos para crear un número de teléfono predeterminado para los autores de llamadas para unirse a una reunión de Microsoft Teams. '
-ms.openlocfilehash: f62a6e63181c474d19f403d6c81f858177bd8cd0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 859bf6f4a99f95c67123385c99061b1546eaa60c
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016200"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347580"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Establecer los números de teléfono incluidos en las invitaciones en Microsoft Teams
 
@@ -41,25 +41,27 @@ Un puente de conferencia le proporciona un conjunto de números de teléfono de 
   
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Establecer o cambiar el número de teléfono de audioconferencia predeterminado para un usuario o un organizar de reunión
 
-1. En el panel de navegación izquierdo, haga clic en **Usuarios** y seleccione el usuario en la lista de usuarios disponibles.
+![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) Uso del equipos de Microsoft y Skype para centro de administración de negocio
 
-    ![Muestra la selección de Usuarios en el Centro de administración de Skype Empresarial y Microsoft Teams](media/teamsselectusers.png)
+1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
+
+    ![Selección de los usuarios en el Microsoft Teams y Skype para el centro de administración de negocio de muestra](media/teamsselectusers.png)
 
 2. En la parte superior de la página, haga clic en **Editar**.
 
-    ![Haga clic en Editar en el Centro de administración de Skype Empresarial y Microsoft Teams](media/teamsedituser.png)
+    ![Haga clic en Editar en los equipos de Microsoft y Skype para el centro de administración de negocio](media/teamsedituser.png)
 
-3. Junto a **Audioconferencia**, haga clic en **Editar**. 
+3. Junto a **Conferencias de Audio**, haga clic en **Editar**. 
     
-    ![Haga clic en Editar junto a Audioconferencia](media/teamseditaudioconf.png)
+    ![Haga clic en Editar junto a la conferencia de Audio](media/teamseditaudioconf.png)
 
-4. Use los campos **Número de pago** o **Número gratuito** para introducir los números para el usuario.
+4. Use los campos de **número de teléfono de pago** o **número de teléfono gratuito** para escribir los números para el usuario.
 
 
 > [!IMPORTANT]
-> Cuando se cambia la configuración de audioconferencias de un usuario, también se tienen que actualizar las reuniones periódicas y futuras de Microsoft Teams y enviarlas a los asistentes. 
+> Cuando se cambia la configuración de conferencia de audio de un usuario, las reuniones de Microsoft Teams periódicas y futuras deben actualiza y se envía a los asistentes. 
 
-## <a name="want-to-use-windows-powershell"></a>¿Quiere usar Windows PowerShell?
+## <a name="want-to-use-windows-powershell"></a>¿Desea usar Windows PowerShell?
 
 Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 con un único punto de administración que puede simplificar el trabajo diario cuando tenga que realizar varias tareas. Para empezar a usar Windows PowerShell, vea estos temas:
     

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Aprenda a buscar números de conferencia de acceso telefónico local desde Skype Empresarial. '
-ms.openlocfilehash: de92f552a873cf51a0cc8487d08cacca387e3e7a
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: e2a3684e7f2c0264e36a6e30ce2df4adf2537895
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019039"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347380"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Consultar una lista de números de Audioconferencia en Microsoft Teams
 
@@ -45,10 +45,12 @@ Puede consultar [Establecer los números de teléfono que se incluyen en las inv
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Para ver los números de teléfono para audioconferencias
 
-1. En el Microsoft Teams & Skype para el centro de administración de negocio, en el panel de navegación izquierdo, vaya a **las reuniones** > **puentes de conferencia**. 
-2.  Verá los números de teléfono que están disponibles para las audioconferencias,
+![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) Uso del equipos de Microsoft y Skype para centro de administración de negocio
 
-- así como la ubicación y el idioma principal que usará el operador automático de audioconferencias.
+1. En el panel de navegación izquierdo, vaya a **las reuniones** > **puentes de conferencia**. 
+2. Ver los números de teléfono que están disponibles para conferencias de audio.
+
+- También puede ver la ubicación y el idioma principal que se utilizará en el operador automático de conferencia de audio.
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 

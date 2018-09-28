@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Descubra qué debe saber sobre los PIN y cómo se restablecen en Microsoft Teams. '
-ms.openlocfilehash: f331298915cea6240baeb2f6f6086ec8b9ade675
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: 292cc1c042816236fed35b536dd529b49e902203
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019071"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347501"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Restablecer el PIN de Audioconferencia en Microsoft Teams
 
@@ -35,18 +35,22 @@ Las reuniones se pueden iniciar cuando se une a un usuario autenticado mediante 
 
 ## <a name="reset-a-users-pin"></a>Restablecer el PIN de un usuario
 
-1. En el Microsoft Teams & Skype para el centro de administración de negocio, en el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
+![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) Uso del equipos de Microsoft y Skype para centro de administración de negocio
 
-2. En las **Conferencias de Audio**, haga clic en **Restablecer PIN**.
+1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
-3. Haga clic en **Restablecer**.
+2. Haga clic en **Editar**.
+
+3. En las **Conferencias de Audio**, haga clic en **Restablecer PIN**.
+
+4. Haga clic en **Restablecer**.
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
    
-## <a name="have-a-user-reset-his-or-her-own-pin"></a>Pedir a un usuario que restablezca su propio PIN
+## <a name="have-a-user-reset-his-or-her-own-pin"></a>Tener un usuario restablezca el NIP de su propia
 
-1. Indique al usuario que vaya a [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing).
+1. Hacer que el usuario vaya a [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing).
 2. Haga clic en **Restablecer PIN**. 
 
 
@@ -58,7 +62,7 @@ Las reuniones se pueden iniciar cuando se une a un usuario autenticado mediante 
     
 - Cuando se inicia una reunión, todos los usuarios de la sala de espera se unirán automáticamente. Por ejemplo, si los dos participantes intentan unirse a una reunión antes de que se haya iniciado, se enviarán a la sala de espera y escucharán música en espera y, cuando el organizador de la reunión se una con su PIN a través del teléfono, la reunión se iniciará y los participantes de la sala de espera se unirán a la reunión.
     
-- La configuración predeterminada no permite que se inicie una reunión con autores de llamada anónimos.
+- El valor predeterminado es no permitir que una reunión sea iniciado por los autores de llamadas anónimas.
     
 - Cuando se habilita un usuario para conferencias de audio, de forma predeterminada se envían mensajes de correo electrónico que incluyen información de conferencia y su PIN. El usuario debe tener un buzón de Office 365, porque cuando se restablece un NIP, un nuevo NIP se van a enviar al usuario por correo electrónico a su dirección SMTP principal (alias) que se establece para el usuario.
     

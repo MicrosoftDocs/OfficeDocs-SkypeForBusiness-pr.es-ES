@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Resumen: Preparar e implementar deshabilitar TLS 1.0 y 1.1 en sus entornos.'
-ms.openlocfilehash: 2de709e420ebf1fe4f88a7f44902fa2dc80f976b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e1e345da45c60637a8c6cf20061f8b0274a1474d
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21022094"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347459"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Deshabilitar TLS 1.0/1.1 en Skype para Business Server 2015
 
@@ -61,7 +61,7 @@ Microsoft ha publicado notas del producto en TLS disponibles [aquí](https://clo
 #### <a name="devices"></a>Dispositivos
 
 - El sistema de sala de Lync (también conocido como SRSv1)
-- Sistema de sala de Skype (también conocido como 'SRSv2' o Rigel)
+- Sistemas de salón de Skype v2 (también conocido como SRSv2)
 - Surface Hub
 - en función de 2015 dispositivo de sucursal con funciones de supervivencia (SBA) o servidor de sucursal con funciones de supervivencia (SBS)
 

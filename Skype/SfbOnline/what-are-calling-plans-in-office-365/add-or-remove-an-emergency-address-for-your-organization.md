@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Aprenda cómo agregar una dirección de emergencia a su cuenta de Skype for Business. '
-ms.openlocfilehash: 06cd8202198b49efbf2c478e233865a681d2ce34
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: a4edcfa5673ac20c571bfae4d26f41facb9f0c80
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958185"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347065"
 ---
 # <a name="add-or-remove-an-emergency-address-for-your-organization"></a>Agregar o quitar una dirección de emergencia para su organización
 
@@ -40,7 +40,7 @@ Para obtener información sobre cómo obtener planes de llamadas y su coste, vea
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Inicie sesión en Office 365 con su cuenta profesional o educativa.**** > ****
+2. Vaya a **los equipos de Microsoft y Skype para el centro de administración de negocio** > **portal heredado**.
     
 3. En el panel de navegación izquierdo, vaya a VozUbicaciones de emergenciay, a continuación, haga clic en el botón Agregar nueva dirección.** **  >  ** ** ** **
     
@@ -62,9 +62,9 @@ Para obtener información sobre cómo obtener planes de llamadas y su coste, vea
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Inicie sesión en Office 365 con su cuenta profesional o educativa.**** > ****
+2. Vaya a **los equipos de Microsoft y Skype para el centro de administración de negocio** > **portal heredado**.
     
-3. En el panel de navegación izquierdo, vaya a **voz** > **ubicación de emergencia**, seleccione la dirección que desea eliminar y, en el panel de acciones, haga clic en **Eliminar**.
+3. En el panel de navegación izquierdo, vaya a **voz** > **ubicaciones de emergencia**, seleccione la dirección que desea eliminar y, en el panel de acciones, haga clic en **Eliminar**.
     
     > [!IMPORTANT]
     > Para que pueda ver la opción de **voz** en la izquierda en la Skype para el centro de administración de negocio, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia adicional para **El sistema de teléfono** o al menos una **licencia Enterprise E5**.

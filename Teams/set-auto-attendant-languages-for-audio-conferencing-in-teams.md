@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Vea cómo se seleccionan los idiomas del operador automático de audioconferencias para un número de audioconferencia en Microsoft Teams.
-ms.openlocfilehash: b9613b5e64bad0428975a6acd3b11db16a42c680
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a9586e7d6741d49342a34a694c2a5def7406946c
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017956"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347493"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Establecer los idiomas del operador automático para Audioconferencia en Microsoft Teams
 
@@ -41,11 +41,13 @@ Elija un idioma principal y hasta cuatro idiomas secundarios. El idioma principa
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Establecer los idiomas del operador automático de conferencia
 
+![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) Uso del equipos de Microsoft y Skype para centro de administración de negocio
+
 1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**.
 
-2. Seleccione el número de teléfono de audioconferencia en la lista y, en la parte superior de la página, haga clic en **Editar**.
+2. Seleccione el número de teléfono de conferencia de audio de la lista y, en la parte superior de la página, haga clic en **Editar**.
 
-3. En el panel de la derecha, seleccione el idioma predeterminado que desee y los alternativos. 
+3. En el panel de la derecha, seleccione el idioma predeterminado que desee y los idiomas alternativos. 
  
     > [!NOTE]
     > Se enumeran los predeterminados y los idiomas alternativos que se admiten. El orden en que los seleccione en las listas de será el orden de los idiomas que se presentan a los autores de llamadas. 
@@ -61,9 +63,9 @@ Elija un idioma principal y hasta cuatro idiomas secundarios. El idioma principa
     
 - Para ver una lista de países o regiones en la que está disponible la audioconferencia en Office 365 con Microsoft como proveedor, vea [Números de teléfono para audioconferencias](phone-numbers-for-audio-conferencing-in-teams.md).
     
-## <a name="want-to-use-windows-powershell"></a>¿Quiere usar Windows PowerShell?
+## <a name="want-to-use-windows-powershell"></a>¿Desea usar Windows PowerShell?
 
-Vea la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
+Vea la [referencia de PowerShell de los equipos de Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
   
 ## <a name="related-topics"></a>Temas relacionados
 

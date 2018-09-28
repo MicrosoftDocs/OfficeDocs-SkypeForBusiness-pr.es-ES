@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Conozca cuáles son los parámetros de longitud y los requisitos de un PIN, y vea cómo se configura la duración de las reuniones en Microsoft Teams.
-ms.openlocfilehash: db7c62920dc7440cc8356dd3f5275dd551cdfd78
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 8e0be3a904f4172aa0f92c1632ad37992a36ab5f
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014920"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347485"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>Cambiar la longitud del PIN para las reuniones de Audioconferencia en Microsoft Teams
 
@@ -38,18 +38,20 @@ El puente de conferencia de audio responde a una llamada para las personas que l
   
 ## <a name="setting-the-pin-length"></a>Configurar la longitud del PIN
 
+![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) Uso del equipos de Microsoft y Skype para centro de administración de negocio
+
 1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**. 
 
 2. En la parte superior de la página **Puentes de conferencia**, haga clic en **Configuración de puente**. 
 
-3. En el panel **Configuración de puente**, en **Longitud del PIN**, seleccione el número de dígitos que quiere que tenga el PIN.
+3. En el panel **configuración de puente** , en **longitud PIN**, seleccione el número de dígitos que desee para el PIN.
 
 4. Haga clic en **Guardar**.
 
 > [!NOTE]
 > Un PIN no es lo mismo que un identificador de conferencia. Los autores de llamada usan los identificadores de conferencia al unirse a la reunión. Se utilizan para identificar la reunión. El PIN se usa para autenticar un autor de llamada como organizador de la reunión. 
 
-## <a name="want-to-know-more-about-pin-settings"></a>¿Quiere saber más sobre la configuración del PIN?
+## <a name="want-to-know-more-about-pin-settings"></a>¿Desea saber más acerca de la configuración de NIP?
 
 - PIN pueden contener de 4 a 12 dígitos; el valor predeterminado es 5. En la creación de un PIN solo pueden usarse números. Por lo tanto, no pueden usarse letras ni caracteres especiales.
     

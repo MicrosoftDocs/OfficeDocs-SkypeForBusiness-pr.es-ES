@@ -24,12 +24,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Los clientes pueden usar el Plan de llamadas de Office 365 y el servicio de Audioconferencia de Office 365 según lo permitido en el contrato de licencia de volumen del Cliente y en los Términos de Uso de Servicios RTC de Skype Empresarial Online.
-ms.openlocfilehash: 9e807e5bca0ed17d798a7fd71b9c8db76e146750
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9f3db1ee225633bc4a1d4084dc674d6253e49276
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017514"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347396"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período gratuito para la realización de llamadas de Audioconferencia
 
@@ -39,7 +39,7 @@ Los clientes pueden usar el Plan de llamadas de Office 365 y el servicio de Audi
   
 ### <a name="complimentary-dial-out-period"></a>Período gratuito para realizar llamadas
 
-Como ventaja adicional para los clientes que adoptan nuestro servicio de Audioconferencia de Office 365, Microsoft ofrece ventajas adicionales relacionadas con la realización de llamadas desde reuniones organizadas por usuarios que tienen asignada una licencia de Audioconferencia de Office 365 hasta el 30 de junio de 2018. Para el período a través del 30 de junio de 2018, es posible que pueden asistir a las reuniones organizadas por los usuarios con licencia de los usuarios, en función de los permisos concedidos por el organizador de la reunión, para realizar llamadas de salida desde dentro de la reunión a los números de teléfono en los siguientes 44 países:
+Como beneficio adicional a los clientes que adopten nuestro servicio de conferencia de Audio de Office 365, Microsoft proporciona ventajas adicionales relacionados con marcar un número de las reuniones organizadas por los usuarios asignados a una licencia de conferencia de Audio de Office 365 a través del 30 de junio de 2018. Para el período a través del 30 de junio de 2018, es posible que pueden asistir a las reuniones organizadas por los usuarios con licencia de los usuarios, en función de los permisos concedidos por el organizador de la reunión, para realizar llamadas de salida desde dentro de la reunión a los números de teléfono en los siguientes 44 países:
   
 |    |
 |-----|

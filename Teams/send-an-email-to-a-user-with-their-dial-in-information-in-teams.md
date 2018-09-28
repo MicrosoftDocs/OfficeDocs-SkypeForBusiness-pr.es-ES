@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Envíe a sus usuarios un correo electrónico con la información de sus audioconferencias en Microsoft Teams.
-ms.openlocfilehash: 9ebd650e487b4ef3108d50ecce31eea0a936b176
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 3b1cb1eb4fcf654a4ab3d3cb227416b0cf700817
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012324"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347467"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Enviar un correo electrónico a un usuario con su información de audioconferencia en Microsoft Teams
 
@@ -45,28 +45,30 @@ A continuación se muestra un ejemplo del correo electrónico que se envía:
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Enviar un correo electrónico con la información de audioconferencia a un usuario
 
-1. En el panel de navegación izquierdo, haga clic en **Usuarios** y seleccione el usuario en la lista de usuarios disponibles.
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) Uso del equipos de Microsoft y Skype para centro de administración de negocio
+
+1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
 2. En la parte superior de la página, haga clic en **Editar**.
 
-3. En **Audioconferencia**, haga clic en **Enviar información de conferencia por correo electrónico**.
+3. En **Conferencias de Audio**, haga clic en **Enviar información de conferencia en el correo electrónico**.
 
 
-## <a name="what-else-should-you-know-about-this-email"></a>¿Qué más tiene que saber sobre este correo electrónico?
+## <a name="what-else-should-you-know-about-this-email"></a>¿Qué más debe saber sobre este correo electrónico?
 
-- Existen diversos correos electrónicos que se envían a los usuarios de su organización una vez que se han habilitado para la audioconferencia:
+- Hay varios correos electrónicos que se envían a los usuarios de su organización después de que están habilitados para conferencias de audio:
     
-  - Cuando se les asigna una licencia de **Audioconferencia**.
+  - Cuando se asigna una licencia de **Conferencias de Audio** a ellos.
     
-  - Al restablecer de forma manual el PIN de audioconferencia del usuario.
+  - Al restablecer manualmente PIN de conferencia de audio del usuario.
     
-  - Al restablecer de forma manual el Id. de conferencia del usuario.
+  - Al restablecer de forma manual el id. de conferencia del usuario.
     
-  - Cuando se elimina una licencia de **Audioconferencia** para el usuario.
+  - Cuando se quita una licencia de **Conferencias de Audio** de ellas.
     
-  - Cuando el proveedor de servicios de audioconferencia de un usuario se cambia de Microsoft a otro usuario o a **Ninguno**.
+  - Cuando se cambia el proveedor de conferencia de audio para un usuario de Microsoft a otro proveedor o **Ninguno**.
     
-  - Cuando el proveedor de servicios de audioconferencia de un usuario se cambia a Microsoft.
+  - Cuando se cambia el proveedor de conferencia de audio para un usuario a Microsoft.
     
 - De forma predeterminada, será el remitente de los mensajes de correo electrónico de Office 365, pero puede cambiar la dirección de correo electrónico y nombre para mostrar mediante el uso de Windows PowerShell. Vea la [referencia de PowerShell de los equipos de Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
   

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Aprenda a agregar, cambiar o quitar una ubicación de emergencia usada por Skype for Business en redes telefónicas conmutadas públicas (RTC) para su organización. '
-ms.openlocfilehash: 862d62af8db8275e304c1522ae19a80d9ebcfec4
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 43a8ac0759fd8dc949953fe22cb73c00a96f4314
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958275"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347060"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Agregar, cambiar o quitar una ubicación de emergencia para su organización
 
@@ -38,7 +38,7 @@ Para obtener información sobre cómo obtener planes de llamadas y su coste, vea
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Inicie sesión en Office 365 con su cuenta profesional o educativa.**** > ****
+2. Vaya a **los equipos de Microsoft y Skype para el centro de administración de negocio** > **portal heredado**.
     
 3. En el panel de navegación izquierdo, vaya a **voz** > **ubicaciones de emergencia**y, a continuación, seleccione la dirección de emergencia que se desea agregar una ubicación para.
     
@@ -55,7 +55,7 @@ Para obtener información sobre cómo obtener planes de llamadas y su coste, vea
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Inicie sesión en Office 365 con su cuenta profesional o educativa.**** > ****
+2. Vaya a **los equipos de Microsoft y Skype para el centro de administración de negocio** > **portal heredado**.
     
 3. En el panel de navegación izquierdo, vaya a **voz** > **ubicaciones de emergencia**y, a continuación, seleccione la dirección de emergencia para la que desea cambiar una ubicación.
     
@@ -69,13 +69,13 @@ Para obtener información sobre cómo obtener planes de llamadas y su coste, vea
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Inicie sesión en Office 365 con su cuenta profesional o educativa.**** > ****
+2. Vaya a **los equipos de Microsoft y Skype para el centro de administración de negocio** > **portal heredado**.
     
 3. En el panel de navegación izquierdo, vaya a **voz** > **ubicaciones de emergencia**y, a continuación, seleccione la dirección de emergencia que se desea quitar una ubicación para.
     
 4. En el panel de acciones, junto a **las ubicaciones asociadas**, haga clic en **cambiar**.
     
-5. En **Ubicaciones asociadas con**, al lado del vínculo para la ubicación, haga clic en **Quitar**.
+5. En **ubicaciones asociadas con**, al lado del vínculo para la ubicación, haga clic en **Quitar**.
     
 6. Haga clic en **Guardar**.
     

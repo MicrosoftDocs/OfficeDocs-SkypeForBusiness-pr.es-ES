@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Descubra cómo probar o comprar licencias de audioconferencia (conferencia RTC) para Office 365 con el fin de configurar llamadas de conferencia a las que la gente pueda acceder. '
-ms.openlocfilehash: 1538781a2704ae65922d57f8ac556fd3e57d7fe4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: efe5ab7189a5012b27b12838844325240b5891f5
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014302"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347556"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Probar o comprar conferencias de Audio en Office 365 para Microsoft Teams
 
@@ -38,7 +38,7 @@ Para obtener información sobre precios, consulte [Precios de audioconferencias]
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Paso 1: Comprar y asignar licencias de conferencias de Audio
 
-Debe ser un [sobre Office 365 roles de administrador](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) para llevar a cabo estos pasos.
+Debe ser un [administrador global o administrador de facturación](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) para llevar a cabo estos pasos.
 
 ### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>Para comprar y asignar licencias de usuario de audioconferencia:
 

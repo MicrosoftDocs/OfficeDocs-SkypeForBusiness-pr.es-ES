@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Vea cómo buscar números de teléfono que pueda asignar a los usuarios, por país/región, provincia/región o ciudad, y especificar la cantidad de números que necesita. '
-ms.openlocfilehash: d57ccfbea0020ab3ddacd894ffa6f277798bb042
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 0edf61b52869eff4a52e7b109085e02d4b380742
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958105"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347075"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Buscar números de teléfono para los usuarios
 
@@ -44,7 +44,7 @@ Si necesita ayuda con la introducción de los números de teléfono, puede ver [
   
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Inicie sesión en Office 365 con su cuenta profesional o educativa.**** > ****
+2. Vaya a **los equipos de Microsoft y Skype para el centro de administración de negocio** > **portal heredado**.
     
 3. En el panel de navegación izquierdo, vaya a **voz** > **los números de teléfono**y, a continuación, haga clic en **Agregar nuevo número** > **nuevos números de usuario**.
   
@@ -59,9 +59,9 @@ Si necesita ayuda con la introducción de los números de teléfono, puede ver [
     > [!NOTE]
     > Puede ver el número de números de teléfono, que se basa en el número de licencias, que aparecen junto a **Números de usuario totales que puede adquirir**. 
   
-6. Puede hacer clic en **Mostrar números** para ver la lista completa de números de teléfono. Esto resulta útil si no desea seleccionar un número de teléfono concreto de la lista.
+6. Puede hacer clic en **Mostrar números** para ver la lista completa de números de teléfono. Esto resulta útil si no desea para seleccionar un número de teléfono específico en la lista.
     
-7. Seleccione los números de teléfono que desee y, a continuación, haga clic en **los números de adquisición**.
+7. Seleccione los números de teléfono que desee y haga clic en **Adquirir números**.
     
     > [!IMPORTANT]
     > Puede comprar una cantidad de números de teléfono superior a las licencias que tenga. Para determinar cuántos números de teléfono puede comprar, sume un 10 % al número de licencias que tenga y, después, sume 10 licencias. Por ejemplo, si tiene 100 licencias de **Llamar a planear nacionales** o **Llamar a planear internacional** , puede reservar 120 números de teléfono, suponiendo que aún no ha adquirido algunos números de teléfono para aquellos 100 usuarios. Para obtener más información, consulte [cuántos números de teléfono puede obtener?](/microsoftteams/how-many-phone-numbers-can-you-get)

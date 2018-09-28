@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre cómo cambiar la ubicación de emergencia para los usuarios. Con un número ilimitado de ubicaciones, puede cambiar las ubicaciones de emergencia cuando los empleados cambien de plantas o edificios. '
-ms.openlocfilehash: caf201bf71d15518ffbfbf473a904da2d1d03aa4
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 7ebec7ca6a2180702eec9e24b3165eb501d4a097
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958215"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347115"
 ---
 # <a name="change-the-emergency-location-for-a-user"></a>Cambiar la ubicación de emergencia de un usuario
 
@@ -38,7 +38,7 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Inicie sesión en Office 365 con su cuenta profesional o educativa.**** > ****
+2. Vaya a **los equipos de Microsoft y Skype para el centro de administración de negocio** > **portal heredado**.
     
 3. En el panel de navegación izquierdo, vaya a **voz** > **a los usuarios de voz**.
     
