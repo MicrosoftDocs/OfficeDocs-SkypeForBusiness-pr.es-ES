@@ -8,16 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Ofrezca a los usuarios una experiencia de gran calidad en Teams al administrar el estado de los servicios, las redes y los puntos de conexión, y definir los roles operativos y de experto en calidad.
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Normal
+search.appverid: MET150
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 584268a3b1b36f11518ed10e04b995b2d84b9bc1
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 29b17157178f8e7565fd6f484d6d95262c76ce05
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20396882"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015584"
 ---
 # <a name="plan-for-service-management-and-quality"></a>Plan para la calidad y la administración de servicios
 
@@ -141,7 +142,7 @@ Las instrucciones que se ofrecen en la Guía de revisión de la experiencia de c
 
 Se recomienda que designe al experto en calidad lo antes posible y, una vez lo haya hecho, esta persona deberá comenzar a familiarizarse con el contenido de la Guía de revisión de la experiencia de calidad.
 
-Puede encontrar esta guía [aquí](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true).
+Puede encontrar esta guía [aquí](https://aka.ms/qerguide).
 
 ## <a name="plan-for-network-quality"></a>Plan para la calidad de las redes 
 
@@ -334,11 +335,11 @@ En esta tabla se incluye un resumen de las actividades de planificación con ví
 | Área | Detalles | Referencias |
 |-----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Plan para la administración de servicios | Realizar un ejercicio de asignación de roles operativos <br/> Validación de equipos designados <br/> Preparación de roles | [Guía de operaciones](1-drive-value-operate-my-service.md) |
-| | Nombrar expertos en calidad <br/> Preparación de expertos en calidad| [Información sobre el Panel de calidad de llamadas](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Guía de revisión de la experiencia de calidad](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) |
-| | Instalar las plantillas de revisión de la experiencia de calidad <br/> Cargar un archivo de compilación | [Plantillas QERLite](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true) <br/> [Cargar información de compilación](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
+| | Nombrar expertos en calidad <br/> Preparación de expertos en calidad| [Información sobre el Panel de calidad de llamadas](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Guía de revisión de la experiencia de calidad](https://aka.ms/qerguide) |
+| | Instalar las plantillas de revisión de la experiencia de calidad <br/> Cargar un archivo de compilación | [Plantillas QERLite](https://aka.ms/qertemplates) <br/> [Cargar información de compilación](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
 | Plan para la calidad de las redes | Ejecutar el planificador de red | [Planificador de red](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
 | | Implementar QoS | [Calidad de servicio (QoS) en Microsoft Teams](qos-in-teams.md) |
-| | Omitir servidores proxy | [Instrucciones del proxy](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
+| | Omitir servidores proxy | [Instrucciones del proxy](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
 | | Implementar VPN de túnel dividido | [Guía de túnel dividido de VPN](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
 | | Optimizar redes Wi-Fi para medios en tiempo real  | Consultar proveedores de terceros |
 | | Implementar salida local de Internet | [Salida local de Internet](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |

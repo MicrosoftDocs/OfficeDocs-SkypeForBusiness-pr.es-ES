@@ -1,2 +1,2 @@
 > [!NOTE]
-> ¿No ve esta característica en el cliente de Microsoft Teams aún? Actualmente se van a implantar y es posible que no estén disponible en su organización todavía. Vea la [Guía básica de los equipos](http://aka.ms/TeamsRoadmap) de noticias sobre próximas versiones en los equipos. 
+> ¿Aún no ve esta característica en su cliente de Microsoft Teams? Se está implantando en este momento y podría no estar disponible todavía en su organización. Consulte el [mapa de ruta de Teams](https://aka.ms/TeamsRoadmap) para ver las noticias sobre las próximas versiones de Teams.
