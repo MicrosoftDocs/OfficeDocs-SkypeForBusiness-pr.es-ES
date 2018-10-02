@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a59134e48d71f9704054d01fecccff385e45e7e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: da85bde3b0f868165fed869b8147e4408344ebc0
+ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015376"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358904"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Preguntas frecuentes: recorrido desde Skype Empresarial a Microsoft Teams
 
@@ -35,7 +35,7 @@ Como los usuarios están trabajando en equipos más, vemos la oportunidad de for
 
 ### <a name="is-there-a-firm-deadline-by-which-customers-need-to-move-from-skype-for-business-online-to-teams"></a>¿Existe un plazo concreto para que los clientes pasen de Skype Empresarial Online a Microsoft Teams?
 
-Hemos realizado nuestra guía básica para los equipos disponibles para que pueden evaluar las capacidades de los equipos con respecto a sus necesidades y planear su traspaso a los equipos de los clientes. Los clientes pueden decidir cuáles son los tiempos que más le convienen para cambiar a Microsoft Teams. Un buen método para permanecer en la parte superior noticias sobre el viaje de Skype para empresas para los equipos es el [Skype para Busineses a la guía básica de las capacidades de los equipos de Microsoft](https://aka.ms/skype2teamsroadmap): puede descargarse el PDF (en solo en inglés, al menos por ahora) que proporciona a las expectativas actuales de Microsoft acerca de Skype para capacidades de negocio que incide en los equipos.
+Hemos realizado nuestra guía básica para los equipos disponibles para que pueden evaluar las capacidades de los equipos con respecto a sus necesidades y planear su traspaso a los equipos de los clientes. Los clientes pueden decidir cuáles son los tiempos que más le convienen para cambiar a Microsoft Teams. Un buen método para permanecer en la parte superior noticias sobre el viaje de Skype para empresas para los equipos es el [Skype para la empresa a la guía básica de las capacidades de los equipos de Microsoft](https://aka.ms/skype2teamsroadmap): puede descargarse el PDF (en solo en inglés, al menos por ahora) que proporciona a las expectativas actuales de Microsoft acerca de Skype para capacidades de negocio que incide en los equipos.
 
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>¿Qué futuro le espera a Skype Empresarial Server?
 

@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70591f040508453832943c65122f0fa0b07ef35b
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 3abecace4a15a85e4a0f8b895b44cd799b3c794f
+ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014664"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358896"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Información general de los equipos y canales en Microsoft Teams
 =================================================
@@ -36,13 +36,7 @@ Los equipos están diseñados para reunir grupos de personas que trabajan juntos
 
     -   Los canales de equipo son lugares en los que todos los miembros del equipo pueden tener conversaciones abiertamente. Los chats privados solo son visibles para los participantes del chat.
 
-    -   Los canales son mucho más útiles cuando se amplían con aplicaciones que incluyen fichas, conectores y bots que aumentan su valor para los miembros del equipo.
-    
-Dedique cinco minutos a escuchar los procedimientos que se recomiendan para organizar equipos, canales y fichas en este vídeo:
-
-|  |  |
-|---------|---------|
-| 5 minutos para configurar equipos, canales y fichas   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   | 
+    -   Los canales son más valiosos cuando extendido con aplicaciones que incluyen pestañas, conectores y bots que aumente su valor a los miembros del equipo.
 
 <a name="membership-roles-and-settings"></a>Configuración, Roles y pertenencia
 ------------------------------
@@ -52,6 +46,9 @@ Dedique cinco minutos a escuchar los procedimientos que se recomiendan para orga
 **Roles de equipo**: Hay dos roles principales en Microsoft Teams: un propietario de equipo, que es la persona que crea el equipo, y los miembros del equipo, que son las personas a las que se invita a unirse al equipo. Los propietarios de equipo pueden convertir en copropietario a cualquier miembro del equipo cuando le inviten o en cualquier otro momento después de haberse unido al equipo. Al tener varios propietarios de equipo, puede compartir las responsabilidades en la administración de las configuraciones y la pertenencia al equipo, incluidas las invitaciones.   
 
 **Configuración del equipo**: Los propietarios de equipo pueden administrar la configuración de todo el equipo directamente en Microsoft Teams. En la configuración se incluye la capacidad de agregar una imagen del equipo, establecer permisos en todos los miembros del equipo para crear canales, agregar fichas y conectores, @mencionar a todo el equipo o el canal, y usar archivos GIF, adhesivos y memes. 
+
+Tardar tres minutos para desproteger este ir a la guía vídeo para los propietarios de equipo: 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Si es un administrador de Microsoft Teams en Office 365, tener acceso a la configuración de todo el sistema en los equipos & Skype para el centro de administración de negocio. Esta configuración puede influir en las opciones y la configuración predeterminada que los propietarios ven en la configuración del equipo. Por ejemplo, puede habilitar un canal predeterminado, "General", para los anuncios, los debates y los recursos de todo el equipo, que aparecerá en todos los equipos.
 
