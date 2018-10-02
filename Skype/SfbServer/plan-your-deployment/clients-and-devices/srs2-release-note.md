@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
-ms.openlocfilehash: e44a9ecc943bd20b451458fd1c469eee4d5cd2ea
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 7a84cd715be9d76caa9b8ce624aae1c7fbe84f35
+ms.sourcegitcommit: 38efc00dfadc98cebd362877a1239d852f804f06
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965915"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25353216"
 ---
 # <a name="release-notes"></a>Notas de la versión 
 
@@ -26,13 +26,15 @@ Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
 
 | Versión | Publicado en <br>Almacén de Microsoft | 
 | ---     | ---                              |
+| 4.0.19.0|  31/08/2018    |   
+| 4.0.18.0|  27/08/2018    |   
 | 4.0.8.0|  06/07/2018    |   
 | 3.1.115.0|  18/06/2018    |
 | 3.1.113.0|  13/06/2018    |   
 | 3.1.112.0|  05/06/2018    |   
 | 3.1.104.0|  16/04/2018    |            
 | 3.1.100.0|  16/03/2018    |            
-| 3.1.99.0 | 14/3/2018      |   
+| 3.1.99.0 | 14/3/2018      |  
 | 3.1.98.0    | 8/3/2018    |   
 |  3.0.16.0    |  27/11/2017   |
 | 3.0.15.0 | 3/10/2017  |            
@@ -44,6 +46,18 @@ Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Sistemas de salón de Skype v2 característica introducción y su resolución
+
+### <a name="40190-8312018"></a>4.0.19.0 (31/8/2018)
+Se introdujeron en esta actualización: 
+- Revisión para la aplicación de Crestron no iniciar que suelen estar accesibles al presionar el botón de la aplicación en los dispositivos Crestron SR. SRSv2 aplicación debe reiniciarse después de la instalación de 4.0.19.0 
+
+### <a name="40180-08272018"></a>4.0.18.0 (27/08/2018)
+Se introdujeron en esta actualización: 
+- Mejoras en la característica "Un problema de informes" en el modo de los equipos (equivalente de "Enviar comentarios" en Skype para el modo de negocio)
+- Habilitar capacidad para reserva desde los equipos de Skype para el modo empresarial para las llamadas SIP
+- Mejoras de accesibilidad (Narrador, Ampliador)
+- Reiniciar automáticamente la aplicación cuando sea necesario después de que se han aplicado los cambios de aprovisionamiento de XML
+- Revisiones de varias
 
 ### <a name="4080-07062018"></a>4.0.8.0 (07/06/2018)
 Se introdujeron en esta actualización: 

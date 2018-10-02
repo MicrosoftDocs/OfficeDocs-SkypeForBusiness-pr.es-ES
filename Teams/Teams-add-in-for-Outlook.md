@@ -4,7 +4,7 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 audience: Admin
-ms.date: 07/16/2018
+ms.date: 10/02/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c50fff8a204e00755857ede74e97fd728b032a73
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 6acb497937ad7548f8ffc745d12b0ddd813b3e46
+ms.sourcegitcommit: 38efc00dfadc98cebd362877a1239d852f804f06
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016944"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25353194"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -31,6 +31,9 @@ ms.locfileid: "25016944"
 El complemento para reunión de Microsoft Teams se instala automáticamente para los usuarios que tienen instalado Microsoft Teams y Office 2013 o 2016 en su equipo Windows. Los usuarios verán el complemento para reunión de Microsoft Teams en la cinta del Calendario de Outlook. 
 
 ![Captura de pantalla del complemento de Microsoft Teams en la cinta de Outlook.](media/Teams-add-in-for-Outlook.png)
+
+> [!NOTE]
+> Los usuarios de Windows 7 deben instalar la [actualización para Universal en tiempo de ejecución de C en Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) para el complemento de reunión de los equipos para que funcione.
 
 Si los usuarios no pueden ver el complemento de Microsoft Teams, pídales que cierren Outlook y Microsoft Teams, y que luego reinicien en primer lugar el cliente de Microsoft Teams y luego el de Outlook, específicamente en ese orden.
 
