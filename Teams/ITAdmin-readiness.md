@@ -3,26 +3,24 @@ title: Formación de administradores para Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-layout: landingpage
+layout: LandingPage
 ms.date: 09/21/2018
-ms.topic: landing page
+ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 search.appverid: MET150
 description: Vídeos de aprendizaje, tutoriales y otros recursos para los administradores acerca de cómo planear, implementación y ejecutan Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d864ba1741dd90cd0e69dd53e23ad81302e9329
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: a8715e4f7fb624c745c8fbb76591386e568a038f
+ms.sourcegitcommit: 02ff91505a2f185bb3c1059a1b26ee31bb272438
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347046"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25359457"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener información acerca de los equipos y uso de la unidad en la organización. Visite esta página con frecuencia para contenido nuevo. 
 
