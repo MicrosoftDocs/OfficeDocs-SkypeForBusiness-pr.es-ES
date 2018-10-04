@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: Lea este tema para obtener información sobre cómo implementar Sistema de salas de Skype en un entorno local de un único bosque.
-ms.openlocfilehash: 8c931aca8505aa4d41175dbf5e1a138b668323d0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a0c3f76d94e54c616068303a08e4e4254f5f8347
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967908"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375304"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Implementaciones locales de bosque único de Sistema de salas de Skype
  
@@ -30,17 +30,17 @@ Para usar una cuenta de buzón de recursos (por ejemplo, LRS-01), siga los sigui
   
 1. Ejecute el siguiente comando de PowerShell de administración de Exchange:
     
-  ```
-  Set-Mailbox -Name 'LRS-01' -Alias 'LRS01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-  ```
+   ```
+   Set-Mailbox -Name 'LRS-01' -Alias 'LRS01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   ```
 
 2. Si planea crear un nuevo buzón para una organización de Exchange local de un solo bosque, ejecute el siguiente comando:
     
-  ```
-  New-Mailbox -UserPrincipalName LRS01@contoso.com -Alias LRS01 -Name "LRS-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-  ```
+   ```
+   New-Mailbox -UserPrincipalName LRS01@contoso.com -Alias LRS01 -Name "LRS-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   ```
 
-  En el ejemplo anterior se crea una cuenta de usuario habilitada en Active Directory y un buzón de sala para una sala de conferencia en una organización de Exchange local. El parámetro RoomMailboxPassword especifica la contraseña para la cuenta de usuario.
+   En el ejemplo anterior se crea una cuenta de usuario habilitada en Active Directory y un buzón de sala para una sala de conferencia en una organización de Exchange local. El parámetro RoomMailboxPassword especifica la contraseña para la cuenta de usuario.
     
 3. Configure la cuenta para resolver automáticamente conflictos aceptando o rechazando reuniones. Skype sala de conferencias de dispongan del sistema de salón de cuentas de Exchange pueden administrarse por personas, pero tenga en cuenta que hasta que la persona acepta una reunión no aparecerá en el calendario de la pantalla principal del sistema de salas de Skype.
     

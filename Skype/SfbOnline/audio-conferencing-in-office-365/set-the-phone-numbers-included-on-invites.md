@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: cb808cb8271cfb32174106e2692793aa41a64d50
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c78a3fb140431dd46b3850e1d01e7fb29fb29210
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882117"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372824"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Establecer el teléfono los números incluidos en invitaciones en Skype para profesionales en línea
 
@@ -57,11 +57,11 @@ Un puente de conferencia le proporciona un conjunto de números de teléfono de 
   
 4. Elija los usuarios que desea editar:
     
-  - Para seleccionar un único usuario, seleccione el nombre del usuario.
+   - Para seleccionar un único usuario, seleccione el nombre del usuario.
     
-  - Para seleccionar todos los usuarios en la página, active la casilla situada junto al **nombre para mostrar** en la parte superior de la lista.
+   - Para seleccionar todos los usuarios en la página, active la casilla situada junto al **nombre para mostrar** en la parte superior de la lista.
     
-  - Para seleccionar varios usuarios, active la casilla situada junto a cada nombre de usuario.
+   - Para seleccionar varios usuarios, active la casilla situada junto a cada nombre de usuario.
     
 5. En el panel derecho, elija **Editar**.
     
@@ -71,12 +71,12 @@ Un puente de conferencia le proporciona un conjunto de números de teléfono de 
     
 7. En la página de **Propiedades** , en la lista **nombre del proveedor** , seleccione el proveedor para el usuario. Dependiendo del proveedor, complete los siguientes cuadros.
     
-  - **Microsoft es el proveedor**: el **número de teléfono de pago predeterminado** y **número de teléfono gratuito predeterminada** listas para seleccionar los números de forma predeterminada para el usuario.
+   - **Microsoft es el proveedor**: el **número de teléfono de pago predeterminado** y **número de teléfono gratuito predeterminada** listas para seleccionar los números de forma predeterminada para el usuario.
     
-    > [!NOTE]
-    > Debe asignarse al menos un número de teléfono gratuito para el puente de conferencia antes de que se puede establecer como el número de teléfono gratuito predeterminado de un usuario. Para obtener un número de teléfono gratuito, vea [números de teléfono de servicio de obtención de Skype para la empresa](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
+     > [!NOTE]
+     > Debe asignarse al menos un número de teléfono gratuito para el puente de conferencia antes de que se puede establecer como el número de teléfono gratuito predeterminado de un usuario. Para obtener un número de teléfono gratuito, vea [números de teléfono de servicio de obtención de Skype para la empresa](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
   
-  - **Un tercero es el proveedor**: Use los campos de **número de teléfono de pago** y **número de teléfono gratuito** para escribir los números para el usuario.
+   - **Un tercero es el proveedor**: Use los campos de **número de teléfono de pago** y **número de teléfono gratuito** para escribir los números para el usuario.
 
 
 ## <a name="reset-audio-conferencing-phone-numbers"></a>Restablecer los números de teléfono de conferencia de audio
@@ -130,7 +130,7 @@ De forma predeterminada, cuando se cambia la configuración de conferencia de un
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
-## <a name="want-to-learn-more-about-windows-powershell"></a>¿Desea obtener más información acerca de Windows PowerShell?
+  ## <a name="want-to-learn-more-about-windows-powershell"></a>¿Desea obtener más información acerca de Windows PowerShell?
 - En relación con Windows PowerShell, todo se reduce a la administración de usuarios y de lo que pueden o no hacer los usuarios. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)

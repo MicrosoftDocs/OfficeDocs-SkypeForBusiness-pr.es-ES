@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: 'Resumen: Obtenga información sobre el panel de supervisión en Skype para Business Server.'
-ms.openlocfilehash: a3896f7ed80ec058c2ed2476e98ce61f85e78229
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e12c9faed684121def2e1a4b175f2f7a9fcb534e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969392"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375276"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Usar el panel de supervisión en Skype para Business Server
  
@@ -42,7 +42,7 @@ Normalmente, el panel de supervisión muestra los datos de la semana de las mét
   
 - Inicios de sesión de usuario únicos
     
- **Punto a punto**
+  **Punto a punto**
   
 - Total de sesiones
     
@@ -58,7 +58,7 @@ Normalmente, el panel de supervisión muestra los datos de la semana de las mét
     
 - Media de minutos de sesiones de audio
     
- **Una conferencia**
+  **Una conferencia**
   
 - Total de conferencias
     
@@ -92,7 +92,7 @@ Además de las métricas de uso del sistema, las métricas siguientes muestran e
     
 - Organizadores de conferencias con errores de llamadas
     
- **Usuarios con llamadas de calidad deficiente**
+  **Usuarios con llamadas de calidad deficiente**
   
 - Total de usuarios con llamadas de mala calidad
     

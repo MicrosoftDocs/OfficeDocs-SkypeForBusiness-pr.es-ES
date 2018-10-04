@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Después de quitar un servidor de supervisión, puede quitar las bases de datos de SQL Server que hospedan los datos del servidor. Use los procedimientos siguientes para quitar las definiciones de generador de topología y, a continuación, quitar los archivos de registro y base de datos desde el servidor de base de datos.
-ms.openlocfilehash: 1dc18d520afd67156443ddc2fc22dc838a2aa139
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 85999f1bbb3fc443edcab9d1f1354f26187c6a75
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027980"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373360"
 ---
 # <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>Quitar la base de datos de SQL Server para un servidor de supervisión
 
@@ -35,9 +35,9 @@ Después de quitar un servidor de supervisión, puede quitar las bases de datos 
     
 3. En la línea de comandos, escriba:
     
-  ```
-  Uninstall-CsDataBase -DatabaseType Monitoring -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
-  ```
+   ```
+   Uninstall-CsDataBase -DatabaseType Monitoring -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
+   ```
 
     Donde _ \<FQDN\> _ es el nombre de dominio completo (FQDN) del servidor de base de datos, y _ \<instancia\> _ , la instancia de base de datos con nombre opcional. 
     

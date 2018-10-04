@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Se admiten conexiones SIP directas entre Skype para Business Server y las puertas de enlace RTC y IP-PBX en Enterprise Voice.
-ms.openlocfilehash: a8af9b5a2809e175d861d3781c91ff1610c32db7
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 041009c5299f441e1b0e1a05c2af1e855f13f2b8
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889686"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374584"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Conexiones SIP directas en Skype para Business Server
 
@@ -117,7 +117,7 @@ Aquí están las principales cuestiones a tener en cuenta. Tenga en cuenta que l
 
 - ¿Dónde deben colocarse las puertas de enlace? La respuesta depende en parte de la topología y en parte de la distribución geográfica de su organización.
 
- También debería considerar la puerta de enlace opciones de topología (para obtener información detallada, vea topologías de puerta de enlace más adelante en este tema).
+  También debería considerar la puerta de enlace opciones de topología (para obtener información detallada, vea topologías de puerta de enlace más adelante en este tema).
 
 #### <a name="mn-trunk-support"></a>Compatibilidad con troncos M:N
 

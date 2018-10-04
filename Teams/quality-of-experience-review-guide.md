@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 264e3ae4573531cebf8723294f42ee66453bfa73
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: fa50607a01888f776c480b33af52fccd67a1b7b5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013814"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373178"
 ---
 # <a name="quality-of-experience-review-guide"></a>Calidad de experiencia consulte la Guía
 
@@ -134,14 +134,14 @@ _Tabla 2 - medidas de evaluación de estado de destino principales_
 <tr>
 <th rowspan="2" colspan="2" valign="center">Tipo de red</th><th rowspan="1">Objetivos de calidad</th><th colspan="2">Objetivos de confiabilidad</th></tr>
 <tr><th>Tasa de audio Stream deficiente</th><th>Porcentaje de errores de instalación</th><th>Porcentaje de errores de entrega</th></tr>
-<tr><td rowspan="2">**All**</td><td>Interno</td><td>% de 2.0</td><td>0,5%</td><td>% de 2.0</td></tr>
+<tr><td rowspan="2"><strong>All</strong></td><td>Interno</td><td>% de 2.0</td><td>0,5%</td><td>% de 2.0</td></tr>
 <tr><td>General</td><td>% de 3.0</td><td>1.0%</td><td>% de 3.0</td></tr>
-<tr><td rowspan="5">**Conferencia**</td><td>Interno</td><td>% de 2.0</td><td>0,5%</td><td>% de 2.0</td></tr>
+<tr><td rowspan="5"><strong>Conferencia</strong></td><td>Interno</td><td>% de 2.0</td><td>0,5%</td><td>% de 2.0</td></tr>
 <tr><td>Con cable interno</td><td>1.0%</td><td>0,5%</td><td>1.0%</td></tr>
 <tr><td>Wi-Fi 5 GHz interno</td><td>1.0%</td><td>0,5%</td><td>1.0%</td></tr>
 <tr><td>Wi-Fi 2,4 GHz interno</td><td>% de 4.0</td><td>0,5%</td><td>% de 2.0</td></tr>
 <tr><td>General</td><td>% de 2.0</td><td>0,5%</td><td>% de 3.0</td></tr>
-<tr><td rowspan="4">**P2P**</td><td>Interno</td><td>% de 2.0</td><td>0,5%</td><td>% de 2.0</td></tr>
+<tr><td rowspan="4"><strong>P2P</strong></td><td>Interno</td><td>% de 2.0</td><td>0,5%</td><td>% de 2.0</td></tr>
 <tr><td>Con cable, Wi-Fi 5 GHz interno</td><td>1.0%</td><td>0,5%</td><td>1.0%</td></tr>
 <tr><td>Con cable, Wi-Fi 5 GHz general</td><td>% de 2.0</td><td>1.0%</td><td>1.0%</td></tr>
 <tr><td>General</td><td>% de 2.0</td><td>1.0%</td><td>% de 3.0</td></tr>
@@ -314,15 +314,15 @@ Algunos informes CQD requieren que incluir un filtro para el identificador del i
 
 #### <a name="azure-powershell"></a>PowerShell de Azure
 
-1.  [Instalar el módulo de administración de servicio de Microsoft Azure PowerShell](https://docs.microsoft.com/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0).
+1. [Instalar el módulo de administración de servicio de Microsoft Azure PowerShell](https://docs.microsoft.com/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0).
 
-2.  Abra una ventana de comandos de Windows Azure PowerShell y ejecute el siguiente script, escribir las credenciales de Office 365 cuando se le solicite: 
+2. Abra una ventana de comandos de Windows Azure PowerShell y ejecute el siguiente script, escribir las credenciales de Office 365 cuando se le solicite: 
 
-  ```
-  Login-AzureRmAccount
-  ```
+   ```
+   Login-AzureRmAccount
+   ```
 
-3.  El identificador de inquilino aparece en el resultado.
+3. El identificador de inquilino aparece en el resultado.
 
 #### <a name="skype-for-business-online-admin-center"></a>Skype para el centro de administración en línea de negocio
 
@@ -336,15 +336,15 @@ Algunos informes CQD requieren que incluir un filtro para el identificador del i
 
 #### <a name="skype-for-business-online-using-powershell"></a>Skype para profesionales Online mediante PowerShell
 
-1.  [Configurar el equipo de Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+1. [Configurar el equipo de Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
-2.  Ejecute el siguiente comando:
+2. Ejecute el siguiente comando:
 
-  ```
-  (Get-cstenant).tenantid
-  ```
+   ```
+   (Get-cstenant).tenantid
+   ```
 
-3.  El identificador de inquilino se muestra como un GUID.
+3. El identificador de inquilino se muestra como un GUID.
 
 ### <a name="teams-vs-skype-for-business"></a>Los equipos frente a Skype para la empresa
 
@@ -580,22 +580,22 @@ Esta guía consta de [dos plantillas de CQD curated](https://aka.ms/qertemplates
 
 **Para importar las plantillas (. CQDX) en CQD en línea**
 
-1.  Vaya a <https://cqd.lync.com>.
+1. Vaya a <https://cqd.lync.com>.
 
-2.  Realice la autenticación mediante el uso de las credenciales administrativas de Office 365.
+2. Realice la autenticación mediante el uso de las credenciales administrativas de Office 365.
 
-  > [!NOTE]
-  > Debe tener Office 365 administrador Global, Skype para Administrador empresarial o rol de lectores de informes tener acceso a CQD. 
+   > [!NOTE]
+   > Debe tener Office 365 administrador Global, Skype para Administrador empresarial o rol de lectores de informes tener acceso a CQD. 
 
-3.  Seleccione el menú de **Informes de resumen** en la parte superior de la página y, a continuación, elija **Informes detallados**.
+3. Seleccione el menú de **Informes de resumen** en la parte superior de la página y, a continuación, elija **Informes detallados**.
 
-4.  En el panel Resumen, seleccione **Importar**. Vaya a la ubicación de guardado de CQDX, seleccione la plantilla CQDX y, a continuación, seleccione **Abrir**.
+4. En el panel Resumen, seleccione **Importar**. Vaya a la ubicación de guardado de CQDX, seleccione la plantilla CQDX y, a continuación, seleccione **Abrir**.
 
-5.  Después de carga la plantilla, como una ventana emergente mostrará el mensaje "importación de informe fue correcta". Seleccione **Aceptar.**
+5. Después de carga la plantilla, como una ventana emergente mostrará el mensaje "importación de informe fue correcta". Seleccione **Aceptar.**
 
-  ![Notificación de que la plantilla se ha importado correctamente] (media/qerguide-image-importmessage.png "Notificación de que la plantilla se ha importado correctamente")
+   ![Notificación de que la plantilla se ha importado correctamente] (media/qerguide-image-importmessage.png "Notificación de que la plantilla se ha importado correctamente")
 
-6.  Repita los pasos 4 y 5 para la segunda plantilla CQD.
+6. Repita los pasos 4 y 5 para la segunda plantilla CQD.
 
 > [!NOTE]
 > Las plantillas CQD se importan por usuario. Si necesitan usar el informe de usuarios adicionales, debe iniciar sesión en e importar las plantillas a su instancia CQD. 
@@ -677,13 +677,13 @@ A continuación presentamos algunas cosas que se deben considerar antes de imple
 
 La calidad de los datos de la experiencia (QoE) que los clientes de envían a Office 365, que es donde se proceden de datos CQD: incluye una marca VPN. CQD verá lo siguiente como las dimensiones de la VPN de primera y segunda VPN. Sin embargo, esta marca se basa en proveedores de VPN informar a Windows de que el adaptador de red VPN registrado es un adaptador de acceso remoto. No todos los proveedores de VPN registran correctamente los adaptadores de acceso remoto. Por este motivo, es posible que no pueda utilizar los filtros de consulta integrados de VPN. Existen dos enfoques para adaptación a subredes VPN en la creación del archivo de información:
 
--   Definir un **Nombre de red** mediante el texto "VPN" en este campo para subredes VPN.
+- Definir un **Nombre de red** mediante el texto "VPN" en este campo para subredes VPN.
 
   ![Informe CQD que define cómo crear una subred VPN](media/qerguide-image-vpnnetworkname.png)
 
   _La figura 12 - VPN mediante el nombre de red_
 
--   Para definir un **Nombre del edificio** , con el texto "VPN" en este campo para subredes VPN.
+- Para definir un **Nombre del edificio** , con el texto "VPN" en este campo para subredes VPN.
 
   ![Informe CQD que define cómo crear una definición de creación que consta de una subred VPN.](media/qerguide-image-vpnbuildingname.png)
 
@@ -700,31 +700,31 @@ La calidad de los datos de la experiencia (QoE) que los clientes de envían a Of
 
 El panel de informes de resumen de CQD incluye una página **Inquilino la carga de datos** , puede tener acceso seleccionando la etiqueta de vínculo **Inquilino la carga de datos** en la esquina superior derecha (busque el icono del engranaje). Esta página se usa para los administradores para cargar su propia información, como la asignación de dirección IP y la información geográfica, asignación de cada punto de acceso inalámbrico y su dirección MAC y así sucesivamente.
 
-1.  Vaya a CQD Online buscando en <https://cqd.lync.com>.
+1. Vaya a CQD Online buscando en <https://cqd.lync.com>.
 
-2.  Seleccione el icono del engranaje en la esquina superior derecha y elija el **Inquilino al cargar los datos** desde la página **Informes de resumen** .
+2. Seleccione el icono del engranaje en la esquina superior derecha y elija el **Inquilino al cargar los datos** desde la página **Informes de resumen** .
 
-  ![Cuadro de diálogo que aparece mientras se está cargando datos](media/qerguide-image-tenantdataupload.png)
+   ![Cuadro de diálogo que aparece mientras se está cargando datos](media/qerguide-image-tenantdataupload.png)
 
-  _La figura 14 - menú cargar datos de inquilinos_
+   _La figura 14 - menú cargar datos de inquilinos_
 
-3.  Como alternativa, si se trata de la primera vez que visita CQD, se solicitará a cargar los datos de creación. Puede seleccionar **Cargar ahora** para navegar rápidamente a la página de **Carga de datos de inquilinos** .
+3. Como alternativa, si se trata de la primera vez que visita CQD, se solicitará a cargar los datos de creación. Puede seleccionar **Cargar ahora** para navegar rápidamente a la página de **Carga de datos de inquilinos** .
 
-  ![Pancarta que notifica a un usuario para cargar datos de creación](media/qerguide-image-buildingdatauploadbanner.png)
+   ![Pancarta que notifica a un usuario para cargar datos de creación](media/qerguide-image-buildingdatauploadbanner.png)
 
-  _Figura 15: creación de pancarta de carga de datos_
+   _Figura 15: creación de pancarta de carga de datos_
 
-4.  En la página de **Carga de datos de inquilinos** , seleccione **Examinar** para elegir un archivo de datos.
+4. En la página de **Carga de datos de inquilinos** , seleccione **Examinar** para elegir un archivo de datos.
 
-5.  Después de seleccionar un archivo de datos, especifique la **fecha de inicio** y, opcionalmente, especifique una fecha de finalización.
+5. Después de seleccionar un archivo de datos, especifique la **fecha de inicio** y, opcionalmente, especifique una fecha de finalización.
 
-6.  Después de seleccionar la **fecha de inicio**, seleccione la opción **cargar** para cargar el archivo en CQD. <br><br>Antes de que se carga el archivo, se valida. Si se produce un error de validación, se muestra un mensaje de error que solicita que se corrija el archivo. La siguiente ilustración muestra un error que se producen cuando el número de columnas en el archivo de datos es incorrecto.
+6. Después de seleccionar la **fecha de inicio**, seleccione la opción **cargar** para cargar el archivo en CQD. <br><br>Antes de que se carga el archivo, se valida. Si se produce un error de validación, se muestra un mensaje de error que solicita que se corrija el archivo. La siguiente ilustración muestra un error que se producen cuando el número de columnas en el archivo de datos es incorrecto.
 
-  ![Ejemplo de un cuadro de diálogo que muestra un mensaje de error al importar los datos de creación](media/qerguide-image-buildingdatauploaderror.png)
+   ![Ejemplo de un cuadro de diálogo que muestra un mensaje de error al importar los datos de creación](media/qerguide-image-buildingdatauploaderror.png)
  
-  _La figura 16 - error de carga de datos de creación_
+   _La figura 16 - error de carga de datos de creación_
 
-7.  Si no se producen errores durante la validación, la carga de archivos se realizará correctamente. A continuación, puede ver el archivo de datos que se cargan en la tabla **Mis cargas** , que muestra la lista completa de todos los archivos que se cargan para el inquilino actual en la parte inferior de la página.
+7. Si no se producen errores durante la validación, la carga de archivos se realizará correctamente. A continuación, puede ver el archivo de datos que se cargan en la tabla **Mis cargas** , que muestra la lista completa de todos los archivos que se cargan para el inquilino actual en la parte inferior de la página.
 
 > [!NOTE]
 > Puede tardar hasta cuatro horas para finalizar el procesamiento del archivo de creación. <br><br> Si ya se ha cargado un archivo de creación y necesita para agregar subredes que es posible que se han cumplido o excluidos, modifique el archivo original mediante la adición de las nuevas subredes, quite el archivo actual y volver a cargar el archivo recién editado. Puede haber creación activo sólo un archivo de datos en CQD. 
@@ -898,11 +898,11 @@ Ahora cuando comience la corrección, puede Centrar los esfuerzos de un determin
 
 _Tabla 8: pasos siguientes para llamada de corrección de error del programa de instalación_
 
-| Corrección           | Orientación     |
-|-----------------------|--------------|
-| Configurar servidores | Trabajar con el equipo de red y comprobar la configuración de servidores frente a [la lista de direcciones IP de Office 365](https://aka.ms/o365ips).<br><br>Compruebe que las [subredes de medios](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) y puertos se encuentran en las reglas de firewall. <br><br>Compruebe que se abren los puertos necesarios (enumerados a continuación) en el servidor de seguridad. UDP debe tener prioridad debido a que TCP se considera un protocolo de la conmutación por recuperación para el audio, vídeo, y el uso compartido de pantalla basados en vídeo y su uso afectará a la calidad de la llamada. Compartir aplicaciones de RDP heredado sólo utilice TCP.<br><ul><li>**TCP:** el puerto 443</li><li>**UDP:** puertos 3478 – 3481</li><ul> |
-| Comprobar                | Usar la [Herramienta de evaluación de red de Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) para comprobar la conectividad de la creación afectado o subred mediante el uso de la función de comprobación de conectividad.    |
 
+|      Corrección      |                                                                                                                                                                                                                                                                                                                                                                   Orientación                                                                                                                                                                                                                                                                                                                                                                   |
+|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Configurar servidores | Trabajar con el equipo de red y comprobar la configuración de servidores frente a [la lista de direcciones IP de Office 365](https://aka.ms/o365ips).<br><br>Compruebe que las [subredes de medios](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) y puertos se encuentran en las reglas de firewall. <br><br>Compruebe que se abren los puertos necesarios (enumerados a continuación) en el servidor de seguridad. UDP debe tener prioridad debido a que TCP se considera un protocolo de la conmutación por recuperación para el audio, vídeo, y el uso compartido de pantalla basados en vídeo y su uso afectará a la calidad de la llamada. Compartir aplicaciones de RDP heredado sólo utilice TCP.<br><ul><li>**TCP:** el puerto 443</li><li>**UDP:** puertos 3478 – 3481</li><ul> |
+|        Comprobar         |                                                                                                                                                                                                                                                                 Usar la [Herramienta de evaluación de red de Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) para comprobar la conectividad de la creación afectado o subred mediante el uso de la función de comprobación de conectividad.                                                                                                                                                                                                                                                                  |
 
 ### <a name="drop-failures"></a>Errores de entrega
 

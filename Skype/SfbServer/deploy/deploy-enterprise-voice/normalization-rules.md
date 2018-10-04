@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 description: 'Resumen: Obtenga información sobre cómo definir, crear y modificar una regla de normalización en Skype para Business Server.'
-ms.openlocfilehash: ef796d1484ec3848d7c6488127009f97ccc565ee
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ff43185da86693c230b6b238222e0fcd922a411c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882158"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375290"
 ---
 # <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>Crear o modificar una regla de normalización en Skype para la empresa
 
@@ -46,9 +46,9 @@ Definir, crear y modificar reglas de normalización en Skype para Business Serve
 
    - **Dígitos a agregar.** (Opcional) Especificar los dígitos que se agrega a los números marcados que desea que coincida el patrón.
 
-    Los valores que introduzca en estos campos se reflejarán en **Patrón con el que coincidir** y **Regla de conversión**. Por ejemplo, si deja Tipo7 vacía, **dígitos de inicio** en el campo de **longitud** y seleccione **exactamente**y especificar 0 en **dígitos para quitar**, la expresión regular resultante en el **modelo de coincidencia** es:
+     Los valores que introduzca en estos campos se reflejarán en **Patrón con el que coincidir** y **Regla de conversión**. Por ejemplo, si deja Tipo7 vacía, **dígitos de inicio** en el campo de **longitud** y seleccione **exactamente**y especificar 0 en **dígitos para quitar**, la expresión regular resultante en el **modelo de coincidencia** es:
 
-    ^(\d{7})$
+     ^(\d{7})$
 
 6. En **Regla de conversión**, especifique un patrón para el formato de los números de teléfono E.164 convertidos como se indica a continuación:
 
@@ -56,7 +56,7 @@ Definir, crear y modificar reglas de normalización en Skype para Business Serve
 
    - (Opcional) Escriba un valor en el campo **dígitos a agregar** para especificar los dígitos para ser antepone del número convertido (por ejemplo, + 1425).
 
-    Por ejemplo, si el **modelo de coincidencia** contiene ^(\d{7})$ como el patrón para los números marcados con y contiene la **regla de conversión** + 1425$ 1 como el patrón para E.164 números de teléfono, la regla 5550100 en + 14255550100.
+     Por ejemplo, si el **modelo de coincidencia** contiene ^(\d{7})$ como el patrón para los números marcados con y contiene la **regla de conversión** + 1425$ 1 como el patrón para E.164 números de teléfono, la regla 5550100 en + 14255550100.
 
 7. (Opcional) Si la regla de normalización da un número de teléfono interno de la organización, seleccione **Extensión interna**.
 
@@ -93,7 +93,7 @@ comando **Confirmar todo** para publicar el cambio de configuración. Para obten
 
    - En **Regla de conversión**, especifique un patrón para el formato de los números de teléfono E.164 convertidos.
 
-    Por ejemplo, si escribe ^(\d{7})$ en **este patrón de coincidencia** y + 1425$ 1 en **regla de conversión**, la regla 5550100 en + 14255550100.
+     Por ejemplo, si escribe ^(\d{7})$ en **este patrón de coincidencia** y + 1425$ 1 en **regla de conversión**, la regla 5550100 en + 14255550100.
 
 7. (Opcional) Si la regla de normalización da un número de teléfono interno de la organización, seleccione **Extensión interna**.
 

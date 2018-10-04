@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: 'Resumen: Lea este tema para obtener información sobre cómo configurar la integración entre Office Web Apps Server y Skype para Business Server para habilitar las presentaciones de PowerPoint para las conferencias web.'
-ms.openlocfilehash: 558ba648cab4dfd2667251ea96bc83d313746f10
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6c7c19f7634c7b0266364d372b573d3d060d5a97
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997317"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375247"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Configurar la integración con Office Web Apps Server en Skype para Business Server
  
@@ -33,7 +33,7 @@ Una vez que se ha instalado correctamente Office Web Apps Server y la granja de 
 
 Realice lo siguiente para agregar Office Web Apps Server a su topología:
   
-1.  Abra Skype para Business Server Topology Builder.
+1. Abra Skype para Business Server Topology Builder.
     
 2. En el cuadro de diálogo **Generador de topologías**, seleccione **Descargar topología de la implementación existente** y después haga clic en **Aceptar**.
     
@@ -45,9 +45,9 @@ Realice lo siguiente para agregar Office Web Apps Server a su topología:
     
 6. En el cuadro de diálogo **Definir nuevo Office Web Apps Server**, escriba el nombre de dominio completo (FQDN) del equipo de Office Web Apps Server en el cuadro **FQDN de Office Web Apps Server**; al hacerlo, la dirección URL de descubrimiento de Office Web Apps Server deberá aparecer automáticamente en el cuadro **Dirección URL de descubrimiento de Office Web Apps Server**.
     
-  - Si Office Web Apps Server está instalada localmente y en la misma zona de red como Skype para Business Server, a continuación, la opción de **que Office Web Apps Server se implementa en una red externa (es decir, perimetral/Internet)** no se debe seleccionar.
+   - Si Office Web Apps Server está instalada localmente y en la misma zona de red como Skype para Business Server, a continuación, la opción de **que Office Web Apps Server se implementa en una red externa (es decir, perimetral/Internet)** no se debe seleccionar.
     
-  - Si Office Web Apps Server está implementado fuera del firewall interno, seleccione la opción **Office Web Apps Server se implementa en una red externa (esto es, perimetral/Internet)**.
+   - Si Office Web Apps Server está implementado fuera del firewall interno, seleccione la opción **Office Web Apps Server se implementa en una red externa (esto es, perimetral/Internet)**.
     
 7. Haga clic en **Aceptar** en el cuadro de diálogo **Definir nuevo servidor de Office Web Apps** y, después, haga clic en **Aceptar** en el cuadro de diálogo **Editar propiedades**. La dirección URL de detección de Office Online aparecerá como una de las asociaciones del grupo de servidores.
     
@@ -85,7 +85,7 @@ Si ha configurado el acceso de usuarios externos, también verá algo parecido a
   
  **Página de presentador externo de Office Web Apps Server: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp; incrustar**
   
- **Página de asistente interno de Office Web Apps Server: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp; incrustar = true&amp;**
+ **Página de asistente interno de Office Web Apps Server: <https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp>;**
   
 Si ve un evento LS datos MCU con el identificador de evento de 41033 lo que significa que la detección de Office Web Apps Server que ha generado un error. En ese caso, Skype para Business Server intentará tantas veces como sea necesario para detectar recién configurado Office Web Apps Server. Si el proceso de detección se produce un error repetidamente debe quitar Office Web Apps Server de su documento de topología, publicar la topología actualizada y, a continuación, intente agregar Office Web Apps Server vuelve a la topología después de que se han solucionado los problemas de conectividad.
   

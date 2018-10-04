@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 'Resumen: Lea este tema para obtener información sobre cómo configurar conferencias de acceso telefónico en Skype para Business Server.'
-ms.openlocfilehash: a0ac408fbdf221d565f17c2d714d7aa1765d5097
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3c4460761fadd1dee523eb15949da8fc1bf69f14
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20982009"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372405"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Configurar conferencias de acceso telefónico en Skype para Business Server
  
@@ -137,7 +137,7 @@ Antes de poder crear números de acceso telefónico local, necesita planear las 
 
 1. Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
     
-2.  Abra Skype para el Panel de Control de servidor empresarial.
+2. Abra Skype para el Panel de Control de servidor empresarial.
     
 3. En la barra de navegación de la izquierda, haga clic en **Conferencia** y después en **Número de acceso telefónico local**.
     
@@ -147,8 +147,8 @@ Antes de poder crear números de acceso telefónico local, necesita planear las 
     
    - Haga clic en uno de los números de acceso telefónico local de la lista, haga clic en **Editar** y después haga clic en **Mostrar detalles**.
     
-    > [!NOTE]
-    > Usar el campo de búsqueda para buscar el contenido de una columna de la lista de números de acceso telefónico no siempre permite obtener los resultados esperados. En lugar de eso, ordene la lista por la columna que le interese para identificar el número de acceso telefónico que desea ver o modificar. 
+     > [!NOTE]
+     > Usar el campo de búsqueda para buscar el contenido de una columna de la lista de números de acceso telefónico no siempre permite obtener los resultados esperados. En lugar de eso, ordene la lista por la columna que le interese para identificar el número de acceso telefónico que desea ver o modificar. 
   
 5. En **Número para mostrar**, escriba el número de teléfono que los usuarios de teléfono de la red telefónica conmutada (RTC) marcan para unirse a una conferencia. Este número se muestra en las invitaciones a reuniones y en la página web Configuración de la conferencia de acceso telefónico local.
     
@@ -163,8 +163,8 @@ Antes de poder crear números de acceso telefónico local, necesita planear las 
     
    - En el cuadro de texto, escriba un URI del SIP único para este número de acceso a conferencias de acceso telefónico local. Este URI del SIP se muestra en varias ubicaciones, incluidos, pero sin limitarse, para llamar a los mensajes de notificación y las versiones anteriores de clientes de Lync.
     
-    > [!NOTE]
-    > El mismo URI del SIP no puede volver a usarse por otro número de acceso telefónico a conferencias. El URI del SIP no puede modificarse una vez creado el número de acceso. El único modo de cambiar el URI del SIP es eliminar y volver a crear el número de acceso. 
+     > [!NOTE]
+     > El mismo URI del SIP no puede volver a usarse por otro número de acceso telefónico a conferencias. El URI del SIP no puede modificarse una vez creado el número de acceso. El único modo de cambiar el URI del SIP es eliminar y volver a crear el número de acceso. 
   
    - En el cuadro de lista desplegable, haga clic en el dominio de la aplicación de operador de conferencia que admite el número de acceso telefónico.
     

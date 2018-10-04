@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40ed3d2cef71077dcc098ab42c5ecf3518d3c5fc
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9aeeab6f84b222500829282d29ac06ec73d42ecc
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015824"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373339"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams 
 =========================================
@@ -65,9 +65,9 @@ Información adicional:
 
 > [!NOTE]
 > Por el momento, si su organización tiene ciertas normativas por las que se tienen que poder detectar todas las discusiones de las reuniones, debe deshabilitar las reuniones privadas si el organizador tiene un buzón de correo local de Exchange.
-
+> 
 > [!IMPORTANT]
-  Los usuarios que participan en las conversaciones que forman parte de la lista de Chat en Microsoft Teams deben tener un buzón de Exchange Online (basada en la nube) para un administrador buscar las conversaciones de chat. Eso es porque las conversaciones que forman parte de la lista de Chat se almacenan en los buzones de correo basados en la nube de los participantes de chat. Si un participante de chat no tiene un buzón de Exchange Online, el administrador no podrá buscar o colocar una suspensión en las conversaciones de chat. Por ejemplo, en una implementación híbrida de Exchange, los usuarios con buzones locales es posible que puedan participar en las conversaciones que forman parte de la lista de Chat en Microsoft Teams. Sin embargo, en este caso, el contenido de estas conversaciones no es que admite búsquedo y no se puede colocar en espera, debido a que los usuarios no dispongan de buzones de correo basados en la nube. Para obtener más información acerca de las búsquedas de contenido y Microsoft Teams, vea [ejecutar una búsqueda de contenido en el centro de cumplimiento y seguridad de Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
-
+>   Los usuarios que participan en las conversaciones que forman parte de la lista de Chat en Microsoft Teams deben tener un buzón de Exchange Online (basada en la nube) para un administrador buscar las conversaciones de chat. Eso es porque las conversaciones que forman parte de la lista de Chat se almacenan en los buzones de correo basados en la nube de los participantes de chat. Si un participante de chat no tiene un buzón de Exchange Online, el administrador no podrá buscar o colocar una suspensión en las conversaciones de chat. Por ejemplo, en una implementación híbrida de Exchange, los usuarios con buzones locales es posible que puedan participar en las conversaciones que forman parte de la lista de Chat en Microsoft Teams. Sin embargo, en este caso, el contenido de estas conversaciones no es que admite búsquedo y no se puede colocar en espera, debido a que los usuarios no dispongan de buzones de correo basados en la nube. Para obtener más información acerca de las búsquedas de contenido y Microsoft Teams, vea [ejecutar una búsqueda de contenido en el centro de cumplimiento y seguridad de Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
+> 
 > [!TIP]
-  Para obtener información acerca de cómo usar Azure Connect de AD para sincronizar con Azure Active Directory, vea [*integración de sus identidades local con Azure Active Directory*](https://go.microsoft.com/fwlink/?linkid=854600).
+>   Para obtener información acerca de cómo usar Azure Connect de AD para sincronizar con Azure Active Directory, vea [*integración de sus identidades local con Azure Active Directory*](https://go.microsoft.com/fwlink/?linkid=854600).

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: c1fff6e0eb1e3057ba958676422a7673c45d0544
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 6feffbff265aaf114844d2125717aecdc36921ff
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260576"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375123"
 ---
 # <a name="pin-policy"></a>Directiva de PIN
 
@@ -30,7 +30,7 @@ ms.locfileid: "23260576"
 
 - [Eliminar una directiva de PIN en Skype para Business Server](../../../manage/authentication/delete-a-pin-policy.md)
 
- **Trabajo con la directiva de PIN para conferencias de acceso telefónico** Esta directiva PIN permite a los usuarios que tienen credenciales de servicios de dominio de Active Directory en la organización para unirse a conferencias de acceso telefónico como los usuarios autenticados introduciendo un PIN.
+  **Trabajo con la directiva de PIN para conferencias de acceso telefónico** Esta directiva PIN permite a los usuarios que tienen credenciales de servicios de dominio de Active Directory en la organización para unirse a conferencias de acceso telefónico como los usuarios autenticados introduciendo un PIN.
 - [Crear o modificar la configuración de PIN de conferencia de acceso telefónico para un sitio o grupo de usuarios](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
 
 - [Modificar la configuración de PIN de conferencia de acceso telefónico predeterminada](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)

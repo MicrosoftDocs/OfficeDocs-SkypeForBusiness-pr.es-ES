@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0b3375ae5ad1caf3a8aacd9ff6b02236d7e85d6
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b30ca95bb3ff5a01d5e8d991dda8e696148ab85c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015072"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372322"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Requisitos de hardware para la aplicación Microsoft Teams
 
@@ -40,6 +40,7 @@ ms.locfileid: "25015072"
 |Las reuniones y llamadas de vídeo | Mejor experiencia con las llamadas de vídeo y reuniones en línea, se recomienda usar un equipo que tenga un procesador de 2,0 GHz y 4.0 GB de RAM (o superior).
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Requisitos de hardware para la aplicación de escritorio de los equipos en Mac
+
 |**Componente**|**Requisito**  |
 |---------|---------|
 |Procesador    | Como mínimo el procesador Intel Core 2 Duo o superior |

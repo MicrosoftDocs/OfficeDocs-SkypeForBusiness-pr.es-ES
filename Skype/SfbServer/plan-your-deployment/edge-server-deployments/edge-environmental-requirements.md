@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Resumen: Obtenga información sobre los requisitos del entorno de servidor perimetral en Skype para Business Server.'
-ms.openlocfilehash: 8b384b91c90997b5008f79f44de42fe9bf35876e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 30bab83832d92fa77742bdaba39757f25e496c36
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891051"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373439"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Borde de requisitos de entorno de servidor en Skype para Business Server
  
@@ -223,23 +223,23 @@ Se trata de los registros DNS que se va a necesitar para un servidor perimetral 
     
   - Nodo 2
     
-     - IP públicas:
+    - IP públicas:
     
-       - Servidor perimetral de acceso: 131.107.155.11 (Esto es el principal, con la puerta de enlace predeterminada establecida en el enrutador público, ej: 131.107.155.1)
+      - Servidor perimetral de acceso: 131.107.155.11 (Esto es el principal, con la puerta de enlace predeterminada establecida en el enrutador público, ej: 131.107.155.1)
     
-       - Servidor perimetral de conferencia Web: 131.107.155.21 (secundario)
+      - Servidor perimetral de conferencia Web: 131.107.155.21 (secundario)
     
-       - A / perimetral A/v: 131.107.155.31 (secundario)
+      - A / perimetral A/v: 131.107.155.31 (secundario)
     
       Conferencia Web y direcciones IP públicas de servidor perimetral A/v son las direcciones IP adicionales (secundarias) en la sección Opciones avanzada de las propiedades del protocolo de Internet versión 4 (TCP/IPv4) y protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área Local en Windows Server.
     
   - IP privadas:
     
-      - Servidor perimetral de acceso: 10.45.16.11 (Esto es el principal, con la puerta de enlace predeterminada establecida en el enrutador, ej: 10.45.16.1)
+    - Servidor perimetral de acceso: 10.45.16.11 (Esto es el principal, con la puerta de enlace predeterminada establecida en el enrutador, ej: 10.45.16.1)
     
-      - Servidor perimetral de conferencia Web: 10.45.16.21 (secundario)
+    - Servidor perimetral de conferencia Web: 10.45.16.21 (secundario)
     
-      - A / perimetral A/v: 10.45.16.31 (secundario)
+    - A / perimetral A/v: 10.45.16.31 (secundario)
     
       Conferencia Web y direcciones IP públicas de servidor perimetral A/v son las direcciones IP adicionales (secundarias) en la sección Opciones avanzada de las propiedades del protocolo de Internet versión 4 (TCP/IPv4) y protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área Local en Windows Server.
     

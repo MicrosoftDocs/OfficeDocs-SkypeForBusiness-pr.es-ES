@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Después de migrar a Skype para Business Server 2019, debe mover el servidor de Administración Central para la Skype para profesionales de 2019 Front-End Server o grupo de servidores, para poder quitar el servidor heredado.
-ms.openlocfilehash: 805b5c506fdda11bdc24144a0622e674e8ef281b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6a358b11d7d319d5dafbb82f4391cdc3d0ae1562
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030528"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373446"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>Mover el servidor de Administración Central heredado a Skype para Business Server 2019
 
@@ -35,9 +35,9 @@ Use los procedimientos de esta sección para preparar el Skype para servidores F
     
 3. Para crear el nuevo almacén de Administración Central en el Skype para base de datos de Business Server 2019 SQL Server, en el Skype para Shell de administración de servidor empresarial, escriba:
     
-  ```
-  Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
-  ```
+   ```
+   Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
+   ```
 
 4. Confirme que el estado del servicio de **Skype para Business Server front-end** es **iniciado**.
     
@@ -56,9 +56,9 @@ Use los procedimientos de esta sección para preparar el Skype para servidores F
   
 5. Para crear el nuevo almacén de Administración Central en el Skype para profesionales 2019 servidor Standard Edition Server Front-End, en la Skype para Shell de administración de servidor empresarial, escriba: 
     
-  ```
-  Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
-  ```
+   ```
+   Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
+   ```
 
 6. Confirme que el estado del servicio de **Skype para Business Server front-end** es **iniciado**.
     
@@ -70,18 +70,18 @@ Use los procedimientos de esta sección para preparar el Skype para servidores F
     
 3. En Skype para Shell de administración de servidor empresarial, escriba: 
     
-  ```
-  Enable-CsTopology
-  ```
+   ```
+   Enable-CsTopology
+   ```
 
     > [!CAUTION]
     > Si `Enable-CsTopology` no es correcta, resolver el problema que impide que el comando completar antes de continuar. Si **Enable-CsTopology** no se realiza correctamente, el movimiento se producirá un error y puede dejar la topología en un estado donde no hay ningún almacén de Administración Central. 
   
 4. En el Skype para grupo de negocio 2019 Front-End Server o Front-End, de la Skype para Shell de administración de servidor empresarial, escriba: 
     
-  ```
-  Move-CsManagementServer
-  ```
+   ```
+   Move-CsManagementServer
+   ```
 
 5. Skype para Shell de administración de servidor empresarial muestra los servidores, almacenes de archivos, los almacenes de base de datos y los puntos de conexión de servicio de estado actual y el estado propuesto. Lea detenidamente la información y confirmar que esta es la prevista origen y destino. Escriba **Y** para continuar, o **N** para detener el movimiento. 
     
@@ -99,9 +99,9 @@ Use los procedimientos de esta sección para preparar el Skype para servidores F
     
 12. Para confirmar que la replicación con la nueva Administración Central se está produciendo almacén, en la Skype para Shell de administración de servidor empresarial, escriba: 
     
-  ```
-  Get-CsManagementStoreReplicationStatus
-  ```
+    ```
+    Get-CsManagementStoreReplicationStatus
+    ```
 
     > [!NOTE]
     > La replicación puede tardar algún tiempo en actualizar todas las réplicas. 
@@ -117,15 +117,15 @@ Use los procedimientos de esta sección para preparar el Skype para servidores F
   
 3. Para quitar los archivos de base de datos del almacén de Administración Central de la instalación heredada servidor de Administración Central, escriba:
     
-  ```
-  Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
-  ```
+   ```
+   Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
+   ```
 
     Por ejemplo:
     
-  ```
-  Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
-  ```
+   ```
+   Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
+   ```
 
     Donde la _ \<FQDN de SQL Server\> _ es puede ser el heredado instalar servidor Back-End en una implementación de Enterprise Edition o el FQDN del servidor Standard Edition. 
     

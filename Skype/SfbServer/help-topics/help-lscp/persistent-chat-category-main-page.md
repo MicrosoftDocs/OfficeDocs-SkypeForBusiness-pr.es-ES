@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b71c6e6f-681c-4230-954d-3e95ab64ca00
 description: Puede usar la sección Categoría de la página Chat persistente para configurar categorías. Una categoría de salón de Chat en grupo es una estructura lógica para la organización de los salones de chat. Una categoría define un conjunto predeterminado de listas de control de acceso (ACL) para controlar los usuarios y grupos de usuarios que se pueden crear o unir a salones de chat. Puede usar zonas de protección de datos confidenciales de imposición de categorías entre distintas subdivisiones en sus organizaciones.
-ms.openlocfilehash: 91065ede137d83fcebd4f3ac0948a39163852ccd
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3fdc450ee913e20885e8582bff4ba0dbdcc70867
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21001241"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371939"
 ---
 # <a name="persistent-chat-category-main-page"></a>Página principal de categoría de chat persistente
  
@@ -53,25 +53,25 @@ En la página **Categoría** puede realizar las siguientes tareas:
     
 6. En **Nueva categoría**, haga lo siguiente:
     
-1. En **Nombre**, especifique un nombre para la nueva categoría de salón.
+7. En **Nombre**, especifique un nombre para la nueva categoría de salón.
     
-2. En **Descripción**, proporcione una descripción detallada sobre la categoría del salón (por ejemplo, una categoría de salón para Contoso).
+8. En **Descripción**, proporcione una descripción detallada sobre la categoría del salón (por ejemplo, una categoría de salón para Contoso).
     
-3. Para controlar si las invitaciones se pueden habilitar para salones de chat que pertenecen a esta categoría, active o desactive la casilla **Habilitar invitaciones**. Si está activada, los salones de esta categoría puedan tener invitaciones activas o inactivas y, si está desactivada, el salón de esta categoría no puede tener invitaciones. Si una sala tiene invitaciones en, cuando se agrega un nuevo miembro a un salón, navegará Obtiene una notificación de la nueva sala en su cliente de Chat persistente.
+9. Para controlar si las invitaciones se pueden habilitar para salones de chat que pertenecen a esta categoría, active o desactive la casilla **Habilitar invitaciones**. Si está activada, los salones de esta categoría puedan tener invitaciones activas o inactivas y, si está desactivada, el salón de esta categoría no puede tener invitaciones. Si una sala tiene invitaciones en, cuando se agrega un nuevo miembro a un salón, navegará Obtiene una notificación de la nueva sala en su cliente de Chat persistente.
     
-4. Para controlar las cargas de archivos en salones de chat que pertenecen a esta categoría, active o desactive la casilla **Habilitar carga de archivo**. Si está activada, los salones de esta categoría pueden habilitar o deshabilitar las cargas de archivos y, si no está activada, los salones de esta categoría no pueden tener cargas de archivos.
+10. Para controlar las cargas de archivos en salones de chat que pertenecen a esta categoría, active o desactive la casilla **Habilitar carga de archivo**. Si está activada, los salones de esta categoría pueden habilitar o deshabilitar las cargas de archivos y, si no está activada, los salones de esta categoría no pueden tener cargas de archivos.
     
-5. Para controlar el historial de chat, active o desactive la casilla de verificación **Habilitar el historial de chat** . Si está activada, los salones de chat serán persistentes; en caso contrario, los mensajes de chats no persisten. Si el cumplimiento está habilitado, los chats del salón se guardarán en consecuencia, pero los usuarios no podrán tener acceso a los mensajes antiguos. Esta opción se puede usar para salones designados para colaboraciones en tiempo real, ad hoc que no es necesario que se va a conservar el historial de chat.
+11. Para controlar el historial de chat, active o desactive la casilla de verificación **Habilitar el historial de chat** . Si está activada, los salones de chat serán persistentes; en caso contrario, los mensajes de chats no persisten. Si el cumplimiento está habilitado, los chats del salón se guardarán en consecuencia, pero los usuarios no podrán tener acceso a los mensajes antiguos. Esta opción se puede usar para salones designados para colaboraciones en tiempo real, ad hoc que no es necesario que se va a conservar el historial de chat.
     
-7. En **Editar categoría**, haga lo siguiente:
+12. En **Editar categoría**, haga lo siguiente:
     
-  - En **pertenencia**, en la sección **miembros permitidos** , agregue o quite usuarios y otras entidades de seguridad de los servicios de dominio de Active Directory (usuarios, grupos de distribución, unidades organizativas y así sucesivamente) que se permiten que se agregará como miembros de los salones de chat que pertenecen a la categoría. Las entidades de seguridad permitidas por una categoría pueden buscar los salones de la categoría (a menos que el salón esté oculto, en cuyo caso solo los miembros del salón podrán encontrarlo en el directorio).
+    - En **pertenencia**, en la sección **miembros permitidos** , agregue o quite usuarios y otras entidades de seguridad de los servicios de dominio de Active Directory (usuarios, grupos de distribución, unidades organizativas y así sucesivamente) que se permiten que se agregará como miembros de los salones de chat que pertenecen a la categoría. Las entidades de seguridad permitidas por una categoría pueden buscar los salones de la categoría (a menos que el salón esté oculto, en cuyo caso solo los miembros del salón podrán encontrarlo en el directorio).
     
-  - En **pertenencia**, en la sección **miembros denegados** , agregue o quite usuarios y otras entidades de seguridad de Active Directory asociados con miembros denegados del salón.
+    - En **pertenencia**, en la sección **miembros denegados** , agregue o quite usuarios y otras entidades de seguridad de Active Directory asociados con miembros denegados del salón.
     
-  - En **pertenencia**, en la sección **los creadores** , agregue o quite usuarios y otras entidades de seguridad de Active Directory asociados con los creadores de la categoría. Un creador es un usuario que tiene permisos para crear salones de chat y asignar administradores y miembros de los salones de chat.
+    - En **pertenencia**, en la sección **los creadores** , agregue o quite usuarios y otras entidades de seguridad de Active Directory asociados con los creadores de la categoría. Un creador es un usuario que tiene permisos para crear salones de chat y asignar administradores y miembros de los salones de chat.
     
-8. Haga clic en **Confirmar**.
+13. Haga clic en **Confirmar**.
     
 ## <a name="see-also"></a>Vea también
 

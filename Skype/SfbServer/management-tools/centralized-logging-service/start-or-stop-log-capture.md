@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Resumen: Obtenga información sobre cómo iniciar o detener una sesión de captura del registro de servicio de registro centralizado en Skype para Business Server 2015.'
-ms.openlocfilehash: dee3a9cd1b5feaf241795de6595f755b3f321409
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: c0b65fddcb5036cf41866ce79d82ae0bc49a79e3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570160"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373767"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Iniciar o detener la captura de registros de CLS en Skype Empresarial Server 2015
  
@@ -36,15 +36,15 @@ El servicio de registro centralizado proporciona dos formas para emitir comandos
     
 2. Iniciar un escenario de registro con el servicio de registro centralizado escribiendo lo siguiente:
     
-  ```
-  Start-CsClsLogging -Scenario <name of scenario>
-  ```
+   ```
+   Start-CsClsLogging -Scenario <name of scenario>
+   ```
 
     Por ejemplo, para iniciar el escenario **AlwaysOn**, escriba:
     
-  ```
-  Start-CsClsLogging -Scenario AlwaysOn
-  ```
+   ```
+   Start-CsClsLogging -Scenario AlwaysOn
+   ```
 
     > [!NOTE]
     > El escenario AlwaysOn no tiene duración predeterminada. En este escenario se ejecutará hasta que lo detenga explícitamente con el cmdlet **Stop-CsClsLogging** . Para obtener información detallada, vea [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps). Para el resto de los escenarios, la duración predeterminada es de 4 horas. 
@@ -58,9 +58,9 @@ El servicio de registro centralizado proporciona dos formas para emitir comandos
   
 4. Para iniciar otro escenario, use el cmdlet **Start-CsClsLogging** con el nombre del escenario adicional para que se ejecute como se muestra a continuación (por ejemplo, el escenario de **autenticación**):
     
-  ```
-  Start-CsClsLogging -Scenario Authentication
-  ```
+   ```
+   Start-CsClsLogging -Scenario Authentication
+   ```
 
     > [!IMPORTANT]
     > Puede tener un total de hasta dos escenarios en ejecución a la vez en un mismo equipo. Si el comando tiene un ámbito global, todos los equipos de su implementación ejecutarán el escenario o los escenarios. Para iniciar un tercer escenario, es preciso detener el registro en el equipo, en el grupo, en el sitio o en el ámbito global en el que desee ejecutar el nuevo escenario. En caso de que haya iniciado un ámbito global, detenga el registro de uno o ambos escenarios en uno o varios de los equipos o grupos. 
@@ -71,11 +71,11 @@ El servicio de registro centralizado proporciona dos formas para emitir comandos
     
 2. Puede utilizar parámetros adicionales para administrar los comandos de registro. Puede usar - duración que se va a ajustar el período de tiempo para el escenario para que se ejecute. También puede definir - equipos, una lista de nombres de dominio de equipo completo (FQDN) separadas por comas, o - grupos de servidores, una coma separados por la lista de nombres de dominio completos de los grupos de servidores que desee que ejecute el inicio de sesión.
     
-    Iniciar una sesión de registro para el escenario UserReplicator en el grupo de servidores "pool01.contoso.net". Defina también la duración de la sesión de registro en 8 horas. Para ello, escriba lo siguiente:
+    Inicie una sesión de registro para el escenario UserReplicator en el grupo "pool01.contoso.net". Defina también la duración de la sesión de registro en 8 horas. Para ello, escriba lo siguiente:
     
-  ```
-  Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
-  ```
+   ```
+   Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
+   ```
 
     La correcta ejecución de este escenario devuelve un resultado similar al siguiente:
     
@@ -111,26 +111,26 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. Consultar el servicio de registro centralizado para averiguar qué escenarios se están ejecutando escribiendo lo siguiente:
     
-  ```
-  Show-CsClsLogging
-  ```
+   ```
+   Show-CsClsLogging
+   ```
 
-  ![Consola Windows PowerShell después de llamar Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
+   ![Consola Windows PowerShell después de llamar Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
-  El resultado de Show-CsClsLogging es un resumen de los escenarios que se están ejecutando y en qué ámbito se están ejecutando. Para obtener información detallada, vea [Mostrar-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps).
+   El resultado de Show-CsClsLogging es un resumen de los escenarios que se están ejecutando y en qué ámbito se están ejecutando. Para obtener información detallada, vea [Mostrar-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps).
     
 3. Para detener una sesión de registro actualmente en ejecución con un escenario específico, escriba:
     
-  ```
-  Stop-CsClsLogging -Scenario <scenario name> -Computers <comma separated list of fully qualified computer names> -Pools <comma separated list of fully qualified pool names>
-  ```
-  Por ejemplo:
+   ```
+   Stop-CsClsLogging -Scenario <scenario name> -Computers <comma separated list of fully qualified computer names> -Pools <comma separated list of fully qualified pool names>
+   ```
+   Por ejemplo:
     
-  ```
-  Stop-CsClsLogging -Scenario UserReplicator -Pools pool01.contoso.net
-  ```
+   ```
+   Stop-CsClsLogging -Scenario UserReplicator -Pools pool01.contoso.net
+   ```
 
-  Este comando detendrá el registro con el escenario de UserReplicatior en pool01.contoso.net.
+   Este comando detendrá el registro con el escenario de UserReplicatior en pool01.contoso.net.
     
     > [!NOTE]
     > No se eliminan los registros creados durante esta sesión de registro con el escenario de UserReplicator. El registro todavía está disponible para que ejecute las búsquedas con el comando Search-CsClsLogging. Para obtener información detallada, vea [Search-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps). 
@@ -139,4 +139,4 @@ Al actuar como el comando complementario para Start-CsClsLogging, el cmdlet Stop
 ## <a name="see-also"></a>Vea también
 <a name="stop"> </a>
 
-[Servicio de registro centralizado en Skype para profesionales de 2015](centralized-logging-service.md)
+[Servicio de registro centralizado en Skype Empresarial 2015](centralized-logging-service.md)

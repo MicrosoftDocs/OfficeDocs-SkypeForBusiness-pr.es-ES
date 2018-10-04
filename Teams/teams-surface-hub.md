@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62eb0e6fbae734a83fd96f89203db0547938e9d3
-ms.sourcegitcommit: 7f721d89559831de2cf1495feb0fc57b22b77d78
+ms.openlocfilehash: aca03693a7abea6e26f175cc49f0142894749160
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25018589"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372184"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Implementación de equipos de Microsoft para el concentrador de superficie
 ======================================
@@ -65,7 +65,7 @@ Los paquetes se pueden encontrar en esta [página de descarga](https://1drv.ms/f
 5. Haga clic en **Agregar o quitar un paquete de aprovisionamiento**. 
 6. Haga clic en **Agregar paquete**.
 7. Seleccione la opción de **Medios extraíble** en el menú desplegable. 
-8. Agregar el paquete apropiado de **TeamsRTMMode*.ppkg** que anteriormente se ha copiado a la clave USB. 
+8. Agregar el paquete apropiado de <strong>TeamsRTMMode*.ppkg</strong> que anteriormente se ha copiado a la clave USB. 
 9. Reinicie el dispositivo concentrador de superficie. 
 10. Una vez reiniciado el dispositivo, debe ser capaz de iniciar la aplicación de los equipos desde la pantalla de inicio y unirse a una reunión desde el calendario. 
 

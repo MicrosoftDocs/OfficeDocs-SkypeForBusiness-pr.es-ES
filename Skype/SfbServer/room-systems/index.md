@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Las consideraciones de planeación relevantes para la implementación de sistemas de salón de Skype v2 y cómo implementar y administrar el sistema.
-ms.openlocfilehash: 02dcbb2ccdd1b7737dff25475fa8f623d5cff926
-ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
+ms.openlocfilehash: 49fb892e6621c3bd601425fc2ccee84313b4444c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21249232"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374812"
 ---
 <h2>Sala de Skype sistemas v2 & #x 2013; <br>la próxima generación de sistemas de las salas de Skype </h2>
 <ul class="panelContent cardsW cols cols2">
@@ -25,7 +25,7 @@ ms.locfileid: "21249232"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>Espacios de reunión de transformación comprendido entre áreas pequeñas unirse y salas de conferencias de gran tamaño con un enriquecido, colaboración Skype para que la experiencia empresarial que es fácil de usar, implementar y administrar. </p>
+                        <p>Espacios de reunión de transformación comprendido entre áreas unirse pequeñas y grandes salas de conferencia con un Skype enriquecido, colaboración para que la experiencia empresarial & #39; s fáciles de usar, implementar y administrar. </p>
                         <p>Iniciar reuniones en el tiempo con un solo toque join, a continuación, al instante de project a la presentación en la sala y el recurso compartido a los participantes remotos. </p>
                         <p>Seleccione el sistema derecho y periféricos de sonido de vídeo en uno de nuestros socios: Logitech, Crestron, Polycom, Lenovo y HP.</p>
                         <p></p>

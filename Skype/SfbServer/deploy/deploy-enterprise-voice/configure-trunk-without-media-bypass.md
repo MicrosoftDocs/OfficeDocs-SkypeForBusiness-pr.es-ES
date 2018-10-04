@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 'Resumen: Configurar un tronco sin desvío de medios habilitado para Skype para Business Server.'
-ms.openlocfilehash: fa912286dd89acaa75781d8175f6820444adc6ea
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0efd8452a6e4f227ad05cc667a48d3881f7238c9
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884178"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373205"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Configurar un tronco sin desvío de medios en Skype para Business Server
 
@@ -44,8 +44,8 @@ Tal como se describe a continuación, una configuración de tronco agrupa un con
 
    - **Tronco de grupo de servidores**: elija el nombre del tronco al que se aplica esta configuración de tronco en  **Seleccionar un servicio** y haga clic en **Aceptar**. Este tronco puede ser el tronco raíz o cualquier troncos adicionales definidas en el generador de topología. Tenga en cuenta que si ya se ha creado una configuración para un tronco específico, dicho tronco no aparecerá en **Seleccionar un servicio**.
 
-    > [!NOTE]
-    > Una vez seleccionado el ámbito de la configuración del tronco, no se podrá cambiar. > El campo **nombre** está rellenado previamente con el nombre de sitio de la configuración del tronco o servicio asociado y no se puede cambiar.
+     > [!NOTE]
+     > Una vez seleccionado el ámbito de la configuración del tronco, no se podrá cambiar. > El campo **nombre** está rellenado previamente con el nombre de sitio de la configuración del tronco o servicio asociado y no se puede cambiar.
 
 4. Seleccione una de las opciones de **Nivel admitido de cifrado** siguientes:
 
@@ -55,7 +55,7 @@ Tal como se describe a continuación, una configuración de tronco agrupa un con
 
    - **No admitido**: el proveedor de servicios o el fabricante de los equipos no admite el cifrado de SRTP y, por tanto, no se podrá usar.
 
-5.  Asegúrese de que esté desactivada la casilla **Habilitar omisión de medios**.
+5. Asegúrese de que esté desactivada la casilla **Habilitar omisión de medios**.
 
 6. Active la casilla **Procesamiento de medios centralizado** si existe un punto de finalización de medios bien conocido (por ejemplo, una puerta de enlace de red telefónica conmutada [RTC] donde la finalización de medios tenga la misma IP que la finalización de señalización). Si el tronco no tiene un punto de terminación de medios bien conocido, desactive esta casilla.
 
@@ -90,9 +90,9 @@ Tal como se describe a continuación, una configuración de tronco agrupa un con
 
    - Para editar un registro de uso de RTC ya asociado a esta configuración de tronco:
 
-    a. Seleccione el registro de uso de RTC que desee editar y haga clic en **Mostrar detalles**.
+     a. Seleccione el registro de uso de RTC que desee editar y haga clic en **Mostrar detalles**.
 
-    b. Use uno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
+     b. Use uno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
 
      - Para seleccionar una o varias rutas de la lista de todas las rutas disponibles en su implementación de Enterprise Voice, haga clic en **Seleccionar**. Resalte las rutas que desea asociar a este registro de uso de RTC y, a continuación, haga clic en **Aceptar**.
 
@@ -102,7 +102,7 @@ Tal como se describe a continuación, una configuración de tronco agrupa un con
 
      - Para editar una ruta que esté asociada con este registro de uso de RTC, seleccione la ruta y haga clic en **Mostrar detalles**.
 
-    c. Haga clic en **Aceptar**.
+     c. Haga clic en **Aceptar**.
 
      > [!IMPORTANT]
      > Es importante asociar los registros de uso de RTC según el mismo nivel de servidor de mediación que está asociado el tronco que se está configurando. Si el par de servidor de mediación es una puerta de enlace RTC o un controlador de borde de sesión (SBC), se recomienda encarecidamente que la configuración del tronco no está asociada a un registro de uso de RTC que enruta a un destino de RTC o cualquier otros sistemas indirectos conectado a través de Skype para Business Server.
@@ -122,33 +122,33 @@ Tal como se describe a continuación, una configuración de tronco agrupa un con
 
 14. (Opcional) Asocie y configure las **Reglas de traducción de números de llamada** para el tronco. Estas reglas de conversión se aplican al número desde donde se realizó la llamada (para las llamadas salientes).
 
-   - Para elegir una o varias reglas de una lista de todas las reglas de conversión que están disponibles en su implementación de Enterprise Voice, haga clic en **Seleccionar**. En **Seleccionar reglas de conversión**, haga clic en las reglas que desee asociar con el tronco y, a continuación, haga clic en **Aceptar**.
+    - Para elegir una o varias reglas de una lista de todas las reglas de conversión que están disponibles en su implementación de Enterprise Voice, haga clic en **Seleccionar**. En **Seleccionar reglas de conversión**, haga clic en las reglas que desee asociar con el tronco y, a continuación, haga clic en **Aceptar**.
 
-   - Par definir una regla de conversión nueva y asociarla con el tronco, haga clic en **Nuevo**. Para obtener información detallada acerca de las reglas de conversión, vea [reglas de conversión de Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
+    - Par definir una regla de conversión nueva y asociarla con el tronco, haga clic en **Nuevo**. Para obtener información detallada acerca de las reglas de conversión, vea [reglas de conversión de Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
 
-   - Para editar una regla de conversión que ya esté asociada al tronco, haga clic en el nombre de la regla y, a continuación, haga clic en  **Mostrar detalles**.
+    - Para editar una regla de conversión que ya esté asociada al tronco, haga clic en el nombre de la regla y, a continuación, haga clic en  **Mostrar detalles**.
 
-   - Para copiar una regla de conversión existente con el fin de usarla como punto de partida en la definición de una regla nueva, haga clic en el nombre de la regla, en **Copiar** y, a continuación, en  **Pegar**.
+    - Para copiar una regla de conversión existente con el fin de usarla como punto de partida en la definición de una regla nueva, haga clic en el nombre de la regla, en **Copiar** y, a continuación, en  **Pegar**.
 
-   - Para quitar una regla de conversión del plan de marcado, resalte el nombre de la regla y haga clic en **Quitar**.
+    - Para quitar una regla de conversión del plan de marcado, resalte el nombre de la regla y haga clic en **Quitar**.
 
-     > [!CAUTION]
-     > No asocie reglas de conversión a un tronco si ha configurado reglas de conversión en la entidad del mismo nivel que el tronco asociado, ya que es posible que ambas reglas puedan entrar en conflicto.
+      > [!CAUTION]
+      > No asocie reglas de conversión a un tronco si ha configurado reglas de conversión en la entidad del mismo nivel que el tronco asociado, ya que es posible que ambas reglas puedan entrar en conflicto.
 
 15. (Opcional) Asocie y configure **Reglas de traducción de números llamados** para el tronco. Estas reglas de conversión se aplican al número llamado en una llamada saliente.
 
-   - Para elegir una o varias reglas de una lista de todas las reglas de conversión que están disponibles en su implementación de Enterprise Voice, haga clic en **Seleccionar**. En **Seleccionar reglas de conversión**, haga clic en las reglas que desee asociar con el tronco y, a continuación, haga clic en **Aceptar**.
+    - Para elegir una o varias reglas de una lista de todas las reglas de conversión que están disponibles en su implementación de Enterprise Voice, haga clic en **Seleccionar**. En **Seleccionar reglas de conversión**, haga clic en las reglas que desee asociar con el tronco y, a continuación, haga clic en **Aceptar**.
 
-  - Par definir una regla de conversión nueva y asociarla con el tronco, haga clic en **Nuevo**. Para obtener información detallada acerca de las reglas de conversión, vea [reglas de conversión de Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
+    - Par definir una regla de conversión nueva y asociarla con el tronco, haga clic en **Nuevo**. Para obtener información detallada acerca de las reglas de conversión, vea [reglas de conversión de Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
 
-   - Para editar una regla de conversión que ya esté asociada al tronco, haga clic en el nombre de la regla y, a continuación, haga clic en  **Mostrar detalles**.
+    - Para editar una regla de conversión que ya esté asociada al tronco, haga clic en el nombre de la regla y, a continuación, haga clic en  **Mostrar detalles**.
 
-   - Para copiar una regla de conversión existente con el fin de usarla como punto de partida en la definición de una regla nueva, haga clic en el nombre de la regla, en **Copiar** y, a continuación, en  **Pegar**.
+    - Para copiar una regla de conversión existente con el fin de usarla como punto de partida en la definición de una regla nueva, haga clic en el nombre de la regla, en **Copiar** y, a continuación, en  **Pegar**.
 
-   - Para quitar una regla de conversión del plan de marcado, resalte el nombre de la regla y haga clic en **Quitar**.
+    - Para quitar una regla de conversión del plan de marcado, resalte el nombre de la regla y haga clic en **Quitar**.
 
-     > [!CAUTION]
-     > No asocie reglas de conversión a un tronco si ha configurado reglas de conversión en la entidad del mismo nivel que el tronco asociado, ya que es posible que ambas reglas pudieran entrar en conflicto.
+      > [!CAUTION]
+      > No asocie reglas de conversión a un tronco si ha configurado reglas de conversión en la entidad del mismo nivel que el tronco asociado, ya que es posible que ambas reglas pudieran entrar en conflicto.
 
 16. Asegúrese de que las reglas de conversión del tronco se organizan en el orden correcto. Para cambiar la posición de una regla en la lista, resalte el nombre de la regla y, a continuación, haga clic en arriba o flecha abajo.
 

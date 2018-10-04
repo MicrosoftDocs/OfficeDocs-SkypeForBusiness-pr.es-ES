@@ -14,11 +14,11 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f7fd7e9078558c0b64b4acc448b28e4312f1eec8
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013662"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375055"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Facilitar la adopción de usuario de su nuevo sistema de teléfono en línea
 

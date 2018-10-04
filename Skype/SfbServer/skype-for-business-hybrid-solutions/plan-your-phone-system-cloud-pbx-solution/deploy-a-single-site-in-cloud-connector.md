@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Obtenga información sobre la implementación de un único sitio de RTC en la nube conector Edition.
-ms.openlocfilehash: 5acd4dbb6a6d46e8d20bbec800bcce174ea87873
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 389829373d857d587a1fd904932f13a7a321deec
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885602"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375007"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Implementar un solo sitio en Cloud Connector
  
@@ -55,21 +55,21 @@ Puede ampliar un sitio existente de conector en la nube para admitir alta dispon
     
 2. Ejecute el siguiente cmdlet solo en un servidor host recién agregado para actualizar la información de topología en la configuración de inquilino de Office 365. Si desea agregar varios dispositivos al mismo tiempo, ejecute el cmdlet en cada uno de los hosts recién agregados, uno por uno:
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 3. Actualice la topología en los dispositivos existentes ejecutando el siguiente cmdlet en cada servidor host. Solo ejecute el cmdlet en los dispositivos existentes.
     
-  ```
-  Publish-CcAppliance
-  ```
+   ```
+   Publish-CcAppliance
+   ```
 
 4. Ejecute el siguiente cmdlet solo en servidores host recién agregados. No ejecute este cmdlet en el dispositivo existente. Si desea agregar varios dispositivos al mismo tiempo, ejecute el cmdlet en cada uno de los hosts recién agregados, uno por uno.
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 > [!NOTE]
 > Si el directorio de sitios se ha establecido en la ruta de acceso a una carpeta local, tiene que definir un recurso compartido de archivos para esta carpeta y usar una ruta de acceso UNC para el directorio de sitios en el nuevo dispositivo. Puede dejar el directorio de sitios del primer dispositivo con la ruta de acceso local o modificarla para usar la ruta de acceso UNC para el recurso compartido en la misma carpeta. Si modifica la ubicación del directorio de sitios del recurso compartido, tendrá que desinstalar y volver a instalar después los dispositivos que se hayan instalado previamente. > Importante: La contraseña de la cuenta CceService y la cuenta de CABackupFile debe ser el mismo en todos los dispositivos que se implementan en el sitio, por lo que pueden tener acceso a los dispositivos el recurso compartido de directorio de sitios y el archivo de copia de seguridad cifrado de entidad emisora de certificados en el directorio de sitios. 
@@ -80,14 +80,14 @@ Si desea quitar una aplicación de un sitio existente:
   
 1. Ejecute el siguiente cmdlet solo en los servidores host que desee quitar del sitio para actualizar la información de topología en la configuración de inquilino de Office 365.
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 2. Ejecute el siguiente cmdlet solo en los servidores host de los que desee quitar todas las máquinas virtuales del dispositivo.
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 

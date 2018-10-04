@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: 'Resumen: Lea este tema para obtener más información acerca de las características de conferencia y funcionalidades en Skype para Business Server.'
-ms.openlocfilehash: b9c28c2a4f4f45bb9b79413269ebecd5a7f83464
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d1ac78876df97d2420c0951c9c2e1a9a41e451ce
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002874"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375800"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>Planeación de conferencia en Skype para Business Server
  
@@ -72,7 +72,7 @@ Las conferencias de audio y vídeo permiten el uso de audio y vídeo en la reuni
     
 - **Adición de un usuario mediante marcación.** Los moderadores y asistentes a los que se ha concedido permiso, puede agregar números RTC a las conferencias y hacer que la conferencia de salida a dichos números.
     
- Skype para Business Server proporciona varias características que los usuarios pueden usar para configurar la videoconferencia experimentan para el usuario, incluidas las siguientes:
+  Skype para Business Server proporciona varias características que los usuarios pueden usar para configurar la videoconferencia experimentan para el usuario, incluidas las siguientes:
   
 - **Vista de galería.** En las videoconferencias con más de dos personas, los usuarios se ven entre sí automáticamente. Si la conferencia tiene más de cinco participantes, el vídeo de los participantes más activos se muestra en la fila superior y solo se muestra la foto de los demás participantes. De forma predeterminada, el vídeo entre varias partes está activado.
     

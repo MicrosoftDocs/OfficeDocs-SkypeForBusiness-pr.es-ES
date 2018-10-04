@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: Lea este tema para obtener información sobre cómo implementar el sistema de sala de Skype en un entorno híbrido.
-ms.openlocfilehash: ce57178a03a466b76edfbafdcc467d9458028845
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4e73b182f7e957f6f8a45e2ba0ccaa113a96411f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997296"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375283"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Implementaciones híbridas del Sistema de salas de Skype
  
@@ -28,9 +28,9 @@ Con fines ilustrativos, usamos LyncSample.com para el dominio local y LyncSample
   
 1. Crear un buzón de recursos en el centro de administración de Exchange (LyncSample.ccsctp.net) mediante la conexión a la consola de administración de Exchange Online tal como se describe en el aprovisionamiento en línea de Exchange.
     
-  ```
-  New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
-  ```
+   ```
+   New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
+   ```
 
     Puede comprobar la conectividad OWA mediante lrstest5@LyncSample.ccsctp.net para iniciar sesión.
     
@@ -44,8 +44,8 @@ Con fines ilustrativos, usamos LyncSample.com para el dominio local y LyncSample
     
     Después de crear el buzón, puede usar Set-CalendarProcessing en el Shell de administración de Exchange Online para configurarlo. Consulte los pasos 3 a 6 de Implementaciones locales de un solo bosque para obtener más detalles.
     
-    > [!NOTE]
-    > Si tiene un entorno híbrido con Exchange Server y Exchange Online, vaya a la consola de administración de Exchange y Enable-RemoteMailbox lrstest5@LyncSample.com - RemoteRoutingAddress lrstest5@LyncSample.mail.ccsctp.net-salón. A continuación, active la sincronización de directorios. 
+   > [!NOTE]
+   > Si tiene un entorno híbrido con Exchange Server y Exchange Online, vaya a la consola de administración de Exchange y Enable-RemoteMailbox lrstest5@LyncSample.com - RemoteRoutingAddress lrstest5@LyncSample.mail.ccsctp.net-salón. A continuación, active la sincronización de directorios. 
   
     Si desea alojar el buzón del sistema de salas de Skype en Exchange Online, estos pasos de Shell de administración de Exchange no son necesarios y puede continuar con el paso 6.
     

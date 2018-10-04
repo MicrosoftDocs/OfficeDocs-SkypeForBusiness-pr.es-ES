@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Diseñar y crear flujos de trabajo de grupo de respuesta, en Skype para Business Server Enterprise Voice. Se cubren tanto los flujos de trabajo de grupo de extensiones como los flujos de trabajo interactivos.
-ms.openlocfilehash: 3f653e7f4489a5125b7132354dade6740bc30981
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c141c5e933a54bc0d6234093441d1b66331713d9
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882351"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372276"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Diseñar y crear flujos de trabajo de grupo de respuesta en Skype para la empresa
 
@@ -101,12 +101,12 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 
 17. Si desea definir un mensaje de bienvenida, en el **Paso 3 Configurar un mensaje de bienvenida**, active la casilla **Reproducir un mensaje de bienvenida** y luego lleve a cabo uno de estos procedimientos:
 
-   - Para escribir el mensaje de bienvenida como texto que se convertirá en voz para el autor de la llamada, haga clic en **Usar texto a voz** y después escriba el mensaje de bienvenida en el cuadro de texto.
+    - Para escribir el mensaje de bienvenida como texto que se convertirá en voz para el autor de la llamada, haga clic en **Usar texto a voz** y después escriba el mensaje de bienvenida en el cuadro de texto.
 
     > [!NOTE]
     > No incluya etiquetas HTML en el texto que especifique. Si incluye etiquetas HTML, recibirá un mensaje de error.
 
-   - Para usar una grabación de un archivo de audio de Windows Media (.wma) o WAVE (.wav) para el mensaje de bienvenida, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo de audio y luego haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
+    - Para usar una grabación de un archivo de audio de Windows Media (.wma) o WAVE (.wav) para el mensaje de bienvenida, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo de audio y luego haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
 
     > [!NOTE]
     > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo compatibles, vea [Requisitos técnicos para grupos de respuesta](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
@@ -118,15 +118,15 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 
 19. Para seleccionar el tipo de programación de horario comercial que quiere usar, siga uno de los procedimientos siguientes:
 
-   - Para usar una programación predefinida de horario comercial, haga clic en **Usar una programación preestablecida** y después seleccione el horario que desea utilizar en la lista desplegable.
+    - Para usar una programación predefinida de horario comercial, haga clic en **Usar una programación preestablecida** y después seleccione el horario que desea utilizar en la lista desplegable.
 
-     > [!NOTE]
-     > Debe definir al menos una programación preestablecida previamente para poder seleccionar esta opción. Puede definir programaciones preestablecidas con el cmdlet **New-CSRgsHoursOfBusiness**. Para obtener información detallada, vea el [grupo de respuesta (opcional) definir el horario en Skype para la empresa](optional-define-response-group-business-hours.md).
+      > [!NOTE]
+      > Debe definir al menos una programación preestablecida previamente para poder seleccionar esta opción. Puede definir programaciones preestablecidas con el cmdlet **New-CSRgsHoursOfBusiness**. Para obtener información detallada, vea el [grupo de respuesta (opcional) definir el horario en Skype para la empresa](optional-define-response-group-business-hours.md).
 
-     > [!NOTE]
-     > Cuando selecciona una programación preestablecida, **Día**, **Abrir** y **Cerrar** se rellenan automáticamente con los días y las horas en los que el grupo de respuesta se encuentra disponible.
+      > [!NOTE]
+      > Cuando selecciona una programación preestablecida, **Día**, **Abrir** y **Cerrar** se rellenan automáticamente con los días y las horas en los que el grupo de respuesta se encuentra disponible.
 
-   - Para usar una programación personalizada que se aplique solo a este flujo de trabajo, haga clic en **Usar una programación personalizada**.
+    - Para usar una programación personalizada que se aplique solo a este flujo de trabajo, haga clic en **Usar una programación personalizada**.
 
 20. Si está creando una programación personalizada para este flujo de trabajo, haga clic en las casillas correspondientes a los días de la semana durante los que se encuentra disponible el grupo de respuesta.
 
@@ -137,25 +137,25 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 
 22. Si desea reproducir un mensaje cuando la oficina no esté abierta, active la casilla **Reproducir un mensaje cuando el grupo de respuesta esté fuera del horario comercial** y después especifique el mensaje que se va a reproducir siguiendo uno de los procedimientos siguientes:
 
-   - Para escribir el mensaje como texto que se convertirá en voz para el autor de la llamada, haga clic en **Usar texto a voz** y después escriba el mensaje de bienvenida en el cuadro de texto.
+    - Para escribir el mensaje como texto que se convertirá en voz para el autor de la llamada, haga clic en **Usar texto a voz** y después escriba el mensaje de bienvenida en el cuadro de texto.
 
-     > [!NOTE]
-     > No incluya etiquetas HTML en el texto que especifique. Si incluye etiquetas HTML, recibirá un mensaje de error.
+      > [!NOTE]
+      > No incluya etiquetas HTML en el texto que especifique. Si incluye etiquetas HTML, recibirá un mensaje de error.
 
-   - Para usar una grabación en un archivo de audio para el mensaje, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea usar y después haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
+    - Para usar una grabación en un archivo de audio para el mensaje, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea usar y después haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
 
-     > [!NOTE]
-     > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo de audio compatibles, vea [Requisitos técnicos para grupos de respuesta](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > [!NOTE]
+      > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo de audio compatibles, vea [Requisitos técnicos para grupos de respuesta](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 23. Especifique cómo abordar las llamadas tras la reproducción del mensaje (si se ha configurado uno):
 
-   - Para desconectar la llamada, haga clic en **Desconectar llamada**.
+    - Para desconectar la llamada, haga clic en **Desconectar llamada**.
 
-   - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y escriba la dirección de correo de voz. El formato de la dirección de correo de voz es _ \<nombre de usuario\>_@ _\<domainName\> _ (por ejemplo, bob@contoso.com).
+    - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y escriba la dirección de correo de voz. El formato de la dirección de correo de voz es * \<nombre de usuario\>*@ *\<domainName\> * (por ejemplo, bob@contoso.com).
 
-   - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI del SIP** y escriba la dirección de usuario. El formato de la dirección del usuario es _ \<nombre de usuario\>_@ _\<domainName\>_.
+    - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI del SIP** y escriba la dirección de usuario. El formato de la dirección del usuario es _ \<nombre de usuario\>_@ _\<domainName\>_.
 
-   - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato del número de teléfono es _ \<número\>_@ _\<domainName\> _ (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
+    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato del número de teléfono es * \<número\>*@ *\<domainName\> * (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
 
 24. En **Paso 5 Especificar vacaciones**, haga clic en las casillas para uno o más conjuntos de vacaciones que definan los días en los que el grupo de respuesta no esté laboralmente disponible.
 
@@ -164,36 +164,36 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 
 25. Si desea reproducir un mensaje durante las vacaciones, active la casilla **Reproducir un mensaje durante las vacaciones** y después especifique el mensaje que se va a reproducir con uno de los siguientes procedimientos:
 
-  - Para escribir el mensaje como texto que se convertirá en voz para el autor de la llamada, haga clic en **Usar texto a voz** y después escriba el mensaje de bienvenida en el cuadro de texto.
+    - Para escribir el mensaje como texto que se convertirá en voz para el autor de la llamada, haga clic en **Usar texto a voz** y después escriba el mensaje de bienvenida en el cuadro de texto.
 
     > [!NOTE]
     > No incluya etiquetas HTML en el texto que especifique. Si incluye etiquetas HTML, recibirá un mensaje de error.
 
-   - Para usar una grabación en un archivo de audio para el mensaje, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea usar y después haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
+    - Para usar una grabación en un archivo de audio para el mensaje, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea usar y después haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
 
-     > [!NOTE]
-     > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo de audio compatibles, vea [Requisitos técnicos para grupos de respuesta](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > [!NOTE]
+      > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo de audio compatibles, vea [Requisitos técnicos para grupos de respuesta](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 26. Especifique cómo abordar las llamadas tras la reproducción del mensaje (si se ha configurado uno):
 
-   - Para desconectar la llamada, haga clic en **Desconectar llamada**.
+    - Para desconectar la llamada, haga clic en **Desconectar llamada**.
 
-   - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y escriba la dirección de correo de voz. El formato de la dirección de correo de voz es _ \<nombre de usuario\>_@ _\<domainName\> _ (por ejemplo, bob@contoso.com).
+    - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y escriba la dirección de correo de voz. El formato de la dirección de correo de voz es * \<nombre de usuario\>*@ *\<domainName\> * (por ejemplo, bob@contoso.com).
 
-   - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI del SIP** y escriba la dirección de usuario. El formato de la dirección del usuario es _ \<nombre de usuario\>_@ _\<domainName\>_.
+    - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI del SIP** y escriba la dirección de usuario. El formato de la dirección del usuario es _ \<nombre de usuario\>_@ _\<domainName\>_.
 
-   - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato del número de teléfono es _ \<número\>_@ _\<domainName\> _ (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
+    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato del número de teléfono es * \<número\>*@ *\<domainName\> * (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
 
 27. En el **Paso 6 Configurar una cola**, en **Seleccione la cola que recibirá las llamadas**, seleccione la cola donde desea que los autores de las llamadas se mantengan en espera hasta que un agente esté disponible.
 
 28. En el **Paso 7 Configurar música en espera**, elija la música que desea que escuchen los autores de las llamadas mientras esperan a un agente; para ello lleve a cabo uno de procedimientos siguientes:
 
-   - Para usar la grabación habitual de música en espera, haga clic en **Usar predeterminado**.
+    - Para usar la grabación habitual de música en espera, haga clic en **Usar predeterminado**.
 
-   - Para usar una grabación de un archivo de audio para la música en espera, haga clic en **Seleccionar un archivo de música**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **un archivo de música**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea usar y después haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
+    - Para usar una grabación de un archivo de audio para la música en espera, haga clic en **Seleccionar un archivo de música**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **un archivo de música**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea usar y después haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
 
-     > [!NOTE]
-     > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo de audio compatibles, vea [Requisitos técnicos para grupos de respuesta](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > [!NOTE]
+      > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo de audio compatibles, vea [Requisitos técnicos para grupos de respuesta](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 29. Haga clic en **Implementar**.
 
@@ -448,12 +448,12 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 
 19. Para seleccionar el tipo de programación de horario comercial que quiere usar, siga uno de los procedimientos siguientes:
 
-   - Para usar una programación predefinida de horario comercial, haga clic en **Usar una programación preestablecida** y después seleccione el horario que desea utilizar en la lista desplegable.
+    - Para usar una programación predefinida de horario comercial, haga clic en **Usar una programación preestablecida** y después seleccione el horario que desea utilizar en la lista desplegable.
 
-     > [!NOTE]
-     > Debe definir al menos una programación preestablecida previamente para poder seleccionar esta opción. Puede definir programaciones preestablecidas con el cmdlet **New-CSRgsHoursOfBusiness**. Para obtener información detallada, vea el [grupo de respuesta (opcional) definir el horario en Skype para la empresa](optional-define-response-group-business-hours.md). Cuando selecciona una programación preestablecida, **Día**, **Abrir** y **Cerrar** se rellenan automáticamente con los días y las horas en los que el grupo de respuesta se encuentra disponible.
+      > [!NOTE]
+      > Debe definir al menos una programación preestablecida previamente para poder seleccionar esta opción. Puede definir programaciones preestablecidas con el cmdlet **New-CSRgsHoursOfBusiness**. Para obtener información detallada, vea el [grupo de respuesta (opcional) definir el horario en Skype para la empresa](optional-define-response-group-business-hours.md). Cuando selecciona una programación preestablecida, **Día**, **Abrir** y **Cerrar** se rellenan automáticamente con los días y las horas en los que el grupo de respuesta se encuentra disponible.
 
-   - Para usar una programación personalizada que se aplique solo a este flujo de trabajo, haga clic en **Usar una programación personalizada**.
+    - Para usar una programación personalizada que se aplique solo a este flujo de trabajo, haga clic en **Usar una programación personalizada**.
 
 20. Si está creando una programación personalizada para este flujo de trabajo, haga clic en las casillas correspondientes a los días de la semana durante los que se encuentra disponible el grupo de respuesta.
 
@@ -466,8 +466,8 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 
     - Para escribir el mensaje como texto que se convertirá en voz para el autor de la llamada, haga clic en **Usar texto a voz** y después escriba el mensaje de bienvenida en el cuadro de texto.
 
-     > [!NOTE]
-     > No incluya etiquetas HTML en el texto que especifique. Si incluye etiquetas HTML, recibirá un mensaje de error.
+      > [!NOTE]
+      > No incluya etiquetas HTML en el texto que especifique. Si incluye etiquetas HTML, recibirá un mensaje de error.
 
     - Para usar una grabación en un archivo de audio para el mensaje, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea usar y después haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
 
@@ -476,13 +476,13 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 
 23. Especifique cómo abordar las llamadas tras la reproducción del mensaje (si se ha configurado uno):
 
-     - Para desconectar la llamada, haga clic en **Desconectar llamada**.
+    - Para desconectar la llamada, haga clic en **Desconectar llamada**.
 
-     - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y escriba la dirección de correo de voz. El formato de la dirección de correo de voz es _ \<nombre de usuario\>_@ _\<domainname\> _ (por ejemplo, bob@contoso.com).
+    - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y escriba la dirección de correo de voz. El formato de la dirección de correo de voz es * \<nombre de usuario\>*@ *\<domainname\> * (por ejemplo, bob@contoso.com).
 
-     - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI del SIP** y escriba la dirección de usuario. El formato de la dirección del usuario es _ \<nombre de usuario\>_@ _\<domainname\>_.
+    - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI del SIP** y escriba la dirección de usuario. El formato de la dirección del usuario es _ \<nombre de usuario\>_@ _\<domainname\>_.
 
-     - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato del número de teléfono es _ \<número\>_@ _\<domainname\> _ (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
+    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato del número de teléfono es * \<número\>*@ *\<domainname\> * (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
 
 24. En **Paso 5 Especificar vacaciones**, haga clic en las casillas para uno o más conjuntos de vacaciones que definan los días en los que el grupo de respuesta no esté laboralmente disponible.
 
@@ -491,25 +491,25 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 
 25. Si desea reproducir un mensaje durante las vacaciones, active la casilla **Reproducir un mensaje durante las vacaciones** y después especifique el mensaje que se va a reproducir con uno de los siguientes procedimientos:
 
-   - Para escribir el mensaje como texto que se convertirá en voz para el autor de la llamada, haga clic en **Usar texto a voz** y después escriba el mensaje de bienvenida en el cuadro de texto.
+    - Para escribir el mensaje como texto que se convertirá en voz para el autor de la llamada, haga clic en **Usar texto a voz** y después escriba el mensaje de bienvenida en el cuadro de texto.
 
-     > [!NOTE]
-     > No incluya etiquetas HTML en el texto que especifique. Si incluye etiquetas HTML, recibirá un mensaje de error.
+      > [!NOTE]
+      > No incluya etiquetas HTML en el texto que especifique. Si incluye etiquetas HTML, recibirá un mensaje de error.
 
-   - Para usar una grabación en un archivo de audio para el mensaje, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea usar y después haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
+    - Para usar una grabación en un archivo de audio para el mensaje, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea usar y después haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
 
-     > [!NOTE]
-     > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo de audio compatibles, vea [Requisitos técnicos para grupos de respuesta](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > [!NOTE]
+      > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo de audio compatibles, vea [Requisitos técnicos para grupos de respuesta](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 26. Especifique cómo abordar las llamadas tras la reproducción del mensaje (si se ha configurado uno):
 
     - Para desconectar la llamada, haga clic en **Desconectar llamada**.
 
-    - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y escriba la dirección de correo de voz. El formato de la dirección de correo de voz es _ \<nombre de usuario\>_@ _\<domainname\> _ (por ejemplo, bob@contoso.com).
+    - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y escriba la dirección de correo de voz. El formato de la dirección de correo de voz es * \<nombre de usuario\>*@ *\<domainname\> * (por ejemplo, bob@contoso.com).
 
     - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI del SIP** y escriba la dirección de usuario. El formato de la dirección del usuario es _ \<nombre de usuario\>_@ _\<domainname\>_.
 
-    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato del número de teléfono es _ \<número\>_@ _\<domainname\> _ (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
+    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato del número de teléfono es * \<número\>*@ *\<domainname\> * (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
 
 27. En **Paso 6 Configurar música en espera**, elija lo que desea que escuchen los autores de las llamadas mientras esperan a un agente con uno de los procedimientos siguientes:
 
@@ -530,10 +530,10 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     > [!NOTE]
     > El motor de conversión de texto a voz traduce el símbolo "#" como la palabra "número". Si necesita hacer referencia a la tecla #, debe usar el nombre de tecla, en lugar de el símbolo, en el mensaje de asistencia por voz. Por ejemplo, "Para hablar con el departamento de ventas, presione la tecla almohadilla".
 
-   - Para usar un archivo de audio pregrabado que contiene la pregunta, haga clic en **Seleccionar una grabación** y en el vínculo **una grabación** para cargar el archivo. En la nueva ventana de explorador, haga clic en **Examinar**, seleccione el archivo de audio y haga clic en **Abrir**. Haga clic en **cargar** para cargar el archivo y, a continuación, opcionalmente, puede escribir la pregunta en el cuadro de texto (Esto permite que la pregunta y la respuesta del autor, se transfieran al agente encargado de responder).
+    - Para usar un archivo de audio pregrabado que contiene la pregunta, haga clic en **Seleccionar una grabación** y en el vínculo **una grabación** para cargar el archivo. En la nueva ventana de explorador, haga clic en **Examinar**, seleccione el archivo de audio y haga clic en **Abrir**. Haga clic en **cargar** para cargar el archivo y, a continuación, opcionalmente, puede escribir la pregunta en el cuadro de texto (Esto permite que la pregunta y la respuesta del autor, se transfieran al agente encargado de responder).
 
-     > [!NOTE]
-     > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo compatibles, vea [Requisitos técnicos para grupos de respuesta](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > [!NOTE]
+      > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo compatibles, vea [Requisitos técnicos para grupos de respuesta](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 29. En **Respuesta 1**, especifique la primera respuesta posible a la pregunta con este procedimiento:
 

@@ -9,28 +9,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
-description: 'Resumen: Cómo utilizar la herramienta Calculadora de capacidad.'
-ms.openlocfilehash: 5d94dab15b104703efc76b227e6e9dd1286f9955
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: cómo usar la herramienta de calculadora de capacidad.'
+ms.openlocfilehash: 6ce37865035b22a91841e98c1f3a75d6da0cb8d2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374913"
 ---
 # <a name="skype-for-business-server-2015-capacity-planning-calculator"></a>Calculadora de planeamiento de capacidad de Skype Empresarial Server 2015
  
 **Resumen:** cómo usar la herramienta de calculadora de capacidad.
   
-[Skype para Business Server 2015 capacidad calculadora](https://www.microsoft.com/en-us/download/details.aspx?id=51196) aumenta el [Skype para la herramienta de planificación de negocios 2015](https://www.microsoft.com/en-us/download/details.aspx?id=50357) y la documentación en [planear su Skype para la implementación de Business Server 2015](https://technet.microsoft.com/en-us/library/dn951427). Use la calculadora después de que haya revisado la guía y haya creado una topología recomendada mediante el uso de la Herramienta de planeación.
+[Skype para Calculadora de capacidad de Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=51196) aumenta la [Skype para la herramienta de planeación de 2015 empresarial](https://www.microsoft.com/en-us/download/details.aspx?id=50357) y la documentación de [planeación para su Skype para la implementación empresarial Server 2015](https://technet.microsoft.com/en-us/library/dn951427). Use la calculadora después de que haya revisado la guía y haya creado una topología recomendada mediante el uso de la Herramienta de planeación.
   
-El Skype para Business Server 2015 capacidad calculadora le ayuda a usted determinar requisitos del servidor en función del número de usuarios y las herramientas de comunicación que utiliza su organización. Tras determinar el perfil de usuario y las funciones que desea habilitar para los usuarios, use la calculadora para determinar el número de servidores, la memoria y el ancho que necesitará. Esta versión de la calculadora no ofrece instrucciones sobre los requisitos de I/O de disco.
+El Skype para ayuda a la calculadora de capacidad de Business Server 2015 se determinar los requisitos de servidor en función del número de usuarios y las herramientas de comunicación que usa la organización. Tras determinar el perfil de usuario y las funciones que desea habilitar para los usuarios, use la calculadora para determinar el número de servidores, la memoria y el ancho que necesitará. Esta versión de la calculadora no ofrece instrucciones sobre los requisitos de I/O de disco.
   
 Para sacar el máximo partido de la calculadora necesitará información precisa y detallada sobre el perfil de usuario específico. Por ejemplo, datos como el porcentaje de usuarios habilitados para voz, la media de llamadas por usuario por hora, la duración de las llamadas y el porcentaje de usuarios simultáneos en las conferencias pueden suponer una gran diferencia en cuanto a requisitos de servidor. La precisión de las recomendaciones de la calculadora dependerá de la precisión de la información que se le suministre.
   
-Una vez que se ha utilizado la herramienta de planeación y la calculadora de planeamiento de capacidad, debe simular la carga propuesta y planificada para garantizar que se suministrará adecuadamente Skype para Business Server 2015. Para realizar pruebas bajo una carga simulada de esfuerzo, utilice el [Skype para Business Server 2015 Stress y la herramienta de rendimiento](https://www.microsoft.com/en-us/download/details.aspx?id=50367) documentado en [Skype para Business Server 2015 Stress y la herramienta de rendimiento](https://technet.microsoft.com/en-us/library/mt631400.aspx).
+Una vez que ha usado la herramienta de planeación y la calculadora de capacidad de planeación, debe simular la carga propuesta y planeada para asegurarse de que se va a aprovisionar adecuadamente Skype para Business Server 2015. Para realizar pruebas en una carga simulada de esfuerzo, use el [Skype para Business Server 2015 Stress and Performance Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50367) documentadas en [Skype para Business Server 2015 Stress and Performance Tool](https://technet.microsoft.com/en-us/library/mt631400.aspx).
   
 ## <a name="using-the-capacity-calculator"></a>Uso de la calculadora de capacidad
 
-La calculadora es una hoja de cálculo de Microsoft Excel. Las celdas que escribe se colorean de naranja. Valores predeterminados se especifican en las celdas (por ejemplo, 80.000 usuarios en un grupo con doce servidores frontales), pero debe cambiar estos valores para que coincida con las necesidades de su organización. 
+La calculadora es una hoja de cálculo de Microsoft Excel. Las celdas que escribe se colorean de naranja. Los valores predeterminados se escriben en las celdas (por ejemplo, 80.000 usuarios en un grupo de servidores con doce servidores Front-End), pero debe cambiar estos valores para que coincida con las necesidades de su organización. 
   
 El modelo de uso contiene las secciones siguientes. Para calcular los requisitos de capacidad, escriba los datos tal y como se describen a partir de la parte superior de la hoja y siguiendo hacia abajo fila por fila: 
   
@@ -40,7 +41,7 @@ El modelo de uso contiene las secciones siguientes. Para calcular los requisitos
     
 - **El número medio de contactos de la Lista de contactos** es el número de contactos que deberá usar para validar los requisitos del sistema. Este número es fijo y no debería modificarse.
     
- **Telefonía IP empresarial**
+  **Telefonía IP empresarial**
   
 - En **Usuarios habilitados para Telefonía IP empresarial**, escriba el porcentaje de los usuarios que se han habilitado para este tipo de telefonía. El valor predeterminado es el 60 %. 
     
@@ -48,11 +49,11 @@ El modelo de uso contiene las secciones siguientes. Para calcular los requisitos
     
 - En **Porcentaje de llamadas que usan el desvío de medios**, escriba el porcentaje de llamadas realizadas por sus usuarios que desviarán el Servidor de mediación. El valor predeterminado es del 65 % pero podría ser más bajo si se encuentran repartidos geográficamente o si tiene un porcentaje más grande de usuarios que trabajan desde casa.
     
-- **Porcentaje de usuarios de voz implicados en las llamadas PSTN de UC**, escriba el porcentaje de llamadas de su organización que son llamadas de teléfono PSTN de comunicaciones unificadas. El valor predeterminado es el 60 %.
+- En el **porcentaje de usuarios de voz que participan en llamadas UC-RTC**, escriba el porcentaje de llamadas de la organización que son llamadas de teléfono UC-RTC. El valor predeterminado es el 60 %.
     
 - **Porcentaje de usuarios de voz en llamadas de UC a UC** muestra el porcentaje de usuarios habilitados para Telefonía IP empresarial que solo podrán realizar llamadas de UC a UC. Este número se calcula en función del dato que se ha especificado en **Porcentaje de usuarios de voz en llamadas de UC a RTC**. 
     
- **Conferencias **
+  **Conferencias **
   
 - En **Porcentaje de usuarios en conferencias simultáneas**, escriba el porcentaje de usuarios que participarán en conferencias de forma simultánea. El valor predeterminado es el 5 %. 
     
@@ -66,15 +67,15 @@ El modelo de uso contiene las secciones siguientes. Para calcular los requisitos
     
   - Si el 20 % de las conferencias incluirán también vídeos en vista múltiple, active la casilla **Incluye vista múltiple**.
     
-  - Si el 50% de la conferencia de voz incluirá también el uso compartido de aplicaciones, active la casilla de verificación **incluido el uso compartido de aplicaciones** .
+  - Si el 50% de las conferencias de voz también se incluye el uso compartido de aplicaciones, seleccione la casilla de verificación **incluido el uso compartido de aplicaciones** .
     
   - Si el 20 % de las conferencias de voz incluirán también cargas de datos, como las presentaciones de PowerPoint, active la casilla **Incluye conferencia web**.
     
- **Movilidad**
+  **Movilidad**
   
-- En **porcentaje de los usuarios habilitados para la movilidad**, escriba el porcentaje de los usuarios que se habilitará para conectarse a Skype para Business Server mediante dispositivos móviles. El valor predeterminado es el 40 %. 
+- En **porcentaje de los usuarios habilitados para movilidad**, escriba el porcentaje de los usuarios que se habilitará para conectarse a Skype para Business Server mediante dispositivos móviles. El valor predeterminado es el 40 %. 
     
-Cuando se especifique toda la información necesaria, la calculadora de capacidad calculará los requisitos. Las celdas en amarillas mostrar valores calculados para la CPU, la memoria y los requisitos de ancho de banda basados en pruebas realizadas en Skype para los laboratorios de rendimiento Business Server. Las cifras se ofrecen a título orientativo (no se han comprobado y validado todas las variaciones individuales posibles). Se han calculado los valores siguientes: 
+Cuando se especifique toda la información necesaria, la calculadora de capacidad calculará los requisitos. Las celdas en amarillas, muestran valores calculados de CPU, memoria y requisitos de ancho de banda en función de pruebas realizadas en Skype para laboratorios de rendimiento de Business Server. Las cifras se ofrecen a título orientativo (no se han comprobado y validado todas las variaciones individuales posibles). Se han calculado los valores siguientes: 
   
 - **Front-end CPU**: porcentaje de uso de la CPU si la carga completa se estaba controlando mediante un servidor front-end de las mismas especificaciones que el servidor que se usó en las pruebas (consulte la descripción al final de este artículo).
     

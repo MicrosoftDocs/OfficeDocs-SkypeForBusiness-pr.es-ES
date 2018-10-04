@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: 'Resumen: Obtenga información sobre cómo administrar Persistent Chat Server salones de chat de Skype para Business Server 2015.'
-ms.openlocfilehash: 25d13b8b44e16d476191fdae337eb72d73e77dbc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1c197be847d2a1359a3e6203df718cc34f1d9e41
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973778"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372152"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Administrar salones de chat en el servidor de chat persistente en Skype Empresarial Server 2015
  
@@ -76,7 +76,7 @@ Además de los parámetros anteriores, el cmdlet **Set-CsPersistentChatRoom** pe
     
 - Presenters. Permite asignar moderadores a un salón de chat auditorio. 
     
- Para obtener información detallada sobre la sintaxis, incluidos todos los parámetros, vea [Skype para Shell de administración de Business Server 2015](../management-shell.md).
+  Para obtener información detallada sobre la sintaxis, incluidos todos los parámetros, vea [Skype para Shell de administración de Business Server 2015](../management-shell.md).
   
 ## <a name="create-a-new-room"></a>Crear un salón
 

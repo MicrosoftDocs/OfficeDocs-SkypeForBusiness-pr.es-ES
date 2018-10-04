@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga los pasos que necesarios para cambiar la configuración de un puente de conferencia que se usa para solicitar los autores de llamadas y recopilar los nombres y los PIN para los organizadores de reuniones cuando no utilizan Skype para las aplicaciones empresariales o Teams de Microsoft. '
-ms.openlocfilehash: 3a1f73d4840aa59fcc217d1f04b9bff09fc0e7c7
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4c9a932a8ae084466756d2af5f72874d274aea2e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017112"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371623"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Cambiar la configuración de un puente de Audioconferencia
 
@@ -50,15 +50,15 @@ El puente de conferencia responde a una llamada y solicita el autor de la llamad
 2. En la parte superior de la página de **puentes de conferencia** , haga clic en **configuración de puente**. 
 
 3. En el panel **configuración de puente** , seleccione: 
-  - **Entrada de la reunión y salir de las notificaciones** Si desactiva esta opción, no se le notificará a los usuarios que ya se han unido a la reunión cuando alguien entra o sale de la reunión.
+   - **Entrada de la reunión y salir de las notificaciones** Si desactiva esta opción, no se le notificará a los usuarios que ya se han unido a la reunión cuando alguien entra o sale de la reunión.
     
-    Al activar **las notificaciones de entrada y salida de la reunión**, puede seleccionar estas opciones:
+     Al activar **las notificaciones de entrada y salida de la reunión**, puede seleccionar estas opciones:
     
-  - **Los nombres o números de teléfono** Cuando los usuarios conectan a una reunión, su número de teléfono se reproducirá cuando se unan a él.
+   - **Los nombres o números de teléfono** Cuando los usuarios conectan a una reunión, su número de teléfono se reproducirá cuando se unan a él.
     
-  - **Tonos** Cuando los usuarios conectan a una reunión, un tono de audio se reproducirá cuando se unan a él.
+   - **Tonos** Cuando los usuarios conectan a una reunión, un tono de audio se reproducirá cuando se unan a él.
       
-  - **Autores de llamadas ASK para registrar su nombre antes de unirse a la reunión** Si desactiva esta opción, los autores de llamadas no se le pida para registrar su nombre antes de unirse a una reunión.
+   - **Autores de llamadas ASK para registrar su nombre antes de unirse a la reunión** Si desactiva esta opción, los autores de llamadas no se le pida para registrar su nombre antes de unirse a una reunión.
 
 4. Para establecer la longitud PIN para las reuniones, seleccione el número de dígitos que desee para el PIN en la lista de **longitud PIN** .
 
@@ -76,9 +76,9 @@ El puente de conferencia responde a una llamada y solicita el autor de la llamad
     
 2. En la página de **configuración de puente de Microsoft** , en la **experiencia de unirse a la reunión**, seleccione:
     
-  - **Habilitar la entrada de la reunión y salir de las notificaciones para ser activado** Está seleccionada de manera predeterminada. Si desactiva la casilla de verificación, no se le notificará a los usuarios que ya se han unido a la reunión cuando alguien entra o sale de la reunión.
+   - **Habilitar la entrada de la reunión y salir de las notificaciones para ser activado** Está seleccionada de manera predeterminada. Si desactiva la casilla de verificación, no se le notificará a los usuarios que ya se han unido a la reunión cuando alguien entra o sale de la reunión.
     
-  - Cuando se selecciona **Habilitar la entrada de la reunión y salir de las notificaciones para ser activado**, puede seleccionar estas opciones en la lista **tipo de anuncio de entrada o salida** :
+   - Cuando se selecciona **Habilitar la entrada de la reunión y salir de las notificaciones para ser activado**, puede seleccionar estas opciones en la lista **tipo de anuncio de entrada o salida** :
     
    - **Los nombres o números de teléfono** Cuando los usuarios conectan a una reunión, su número de teléfono se reproducirá cuando se unan a él.
     

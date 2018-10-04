@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66b86ef8789f959de9887cc1f0b3c7c1e2e8ffa3
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a00bf784b283f1f2d948e82d90ce54b0a67a6439
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015576"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373317"
 ---
 # <a name="evaluate-my-environment"></a>Evaluar mi entorno
 
@@ -43,8 +43,8 @@ Detección del entorno también puede descubrir si necesita a [números de telé
 Sabiendo esto ayudará a su organización ajustar su plan de proyecto según corresponda y preparar la información necesaria para el traslado de número. Puede usar la [detección del entorno para la implantación de los equipos de Microsoft](environmental-discovery-for-microsoft-teams-rollout.md) desde MyAdvisor para realizar el descubrimiento del entorno.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul><li>¿Quién será responsable de completar una evaluación del entorno?</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Documente los resultados de la evaluación del entorno.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>¿Quién será responsable de completar una evaluación del entorno?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Documente los resultados de la evaluación del entorno.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -60,8 +60,8 @@ Implementación pone una nueva tecnología en manos de un usuario, pero sólo se
 Use las siguientes consideraciones para evaluar la preparación de su organización para la administración de usuario de cambio de dirección.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul><li>¿Ha tenido éxito anterior con la adopción de usuario de software o servicios?</li><li>¿Puede realizar un seguimiento de los empleo de uso?</li><li>¿Tiene los recursos necesarios para diseñar y administrar un inicial&mdash;y curso&mdash;campaña de adopción (sensibilización, aprendizaje y soporte técnico)?</li><li>¿Tiene un equipo de administración de la adopción o modificación de usuario dedicada, o puede invertir en dichos recursos para garantizar los resultados empresariales?</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Si respondió "Sí" todo lo anterior, identificar a los participantes de administración de cambio de usuario derecho y empezar la planeación de la preparación de usuario.</li><li>Si respondió "no" a algunas o todas las opciones anteriores, considere la posibilidad de contratar recursos externos para ayudar a impulsar la administración de cambios y actividades relacionadas con la adopción de la organización.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>¿Ha tenido éxito anterior con la adopción de usuario de software o servicios?</li><li>¿Puede realizar un seguimiento de los empleo de uso?</li><li>¿Tiene los recursos necesarios para diseñar y administrar un inicial&mdash;y curso&mdash;campaña de adopción (sensibilización, aprendizaje y soporte técnico)?</li><li>¿Tiene un equipo de administración de la adopción o modificación de usuario dedicada, o puede invertir en dichos recursos para garantizar los resultados empresariales?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Si respondió &quot;Sí&quot; a todo lo anterior, identificar a los participantes de administración de cambio de usuario derecho y empezar la planeación de la preparación de usuario.</li><li>Si respondió &quot;no&quot; a todos o algunos de los anteriores, considere la posibilidad de atractivo fuera de recursos para ayudar a impulsar la administración de cambios y actividades relacionadas con la adopción de la organización.</li></ol></td></tr>
 </table>
 
 
@@ -216,8 +216,8 @@ Para obtener más información, vea [Calidad de servicio en los equipos de Micro
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul><li>¿Quién será responsable de completar las evaluaciones de red adecuada en todos los segmentos de red y ubicaciones de la organización?</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Puede realizar una evaluación de red detallada para ayudar a garantizar que la red está preparada para la implementación de Microsoft Teams. Para obtener más información, vea [Evaluación de preparación de la red](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness).</li><li>Realizar la corrección de red en función de los resultados de la evaluación de disponibilidad de red para cada segmento de red.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>¿Quién será responsable de completar las evaluaciones de red adecuada en todos los segmentos de red y ubicaciones de la organización?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Puede realizar una evaluación de red detallada para ayudar a garantizar que la red está preparada para la implementación de Microsoft Teams. Para obtener más información, vea <a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">Evaluación de preparación de la red</a>.</li><li>Realizar la corrección de red en función de los resultados de la evaluación de disponibilidad de red para cada segmento de red.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

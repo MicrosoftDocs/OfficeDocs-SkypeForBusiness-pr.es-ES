@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45d74a26b65f788e914587b521a5bb14ea606567
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 021f69644701fb68a8122219b3f98bc4fd2f390d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012308"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372614"
 ---
 # <a name="deploy-my-service"></a>Implementar el servicio de mi
 
@@ -73,23 +73,23 @@ La [Guía de habilitación de sitio para voz (Guía)](https://github.com/Microso
 
 Independientemente del tamaño y complejidad de la ubicación, habilitar cada sitio, es preciso que planee las tareas y actividades lo bastante pronto — y ejecutarlos en orden óptimo: antes, durante y después de la implantación real del servicio. Se recomienda que siga estos pasos como planear y ejecutar su propio viaje a voz de Microsoft Teams.
 
-1.  Descargue la [Guía de habilitación de sitio para voz (Guía)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) para los equipos de Microsoft Voice.
+1. Descargue la [Guía de habilitación de sitio para voz (Guía)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) para los equipos de Microsoft Voice.
 
-2.  Crear una copia independiente de la guía para cada sitio.
+2. Crear una copia independiente de la guía para cada sitio.
 
-3.  En la ficha de la hoja denominada **Guía para {SiteName código}**, reemplace **{SiteName-código}** con el nombre del sitio relevante o el código de sitio.
+3. En la ficha de la hoja denominada **Guía para {SiteName código}**, reemplace **{SiteName-código}** con el nombre del sitio relevante o el código de sitio.
 
-4.  Escriba **el nombre del sitio, código de sitio**e la **fecha de inicio planeada**, tal y como se muestra a continuación. Éste es un paso crítico, debido a que se ajusta a las fechas límite recomendadas para todas las actividades en la guía.
+4. Escriba **el nombre del sitio, código de sitio**e la **fecha de inicio planeada**, tal y como se muestra a continuación. Éste es un paso crítico, debido a que se ajusta a las fechas límite recomendadas para todas las actividades en la guía.
 
-    ![Ejemplo con nombre del sitio de Nueva York, el código del sitio NY01 y la fecha de inicio planeada de 20-Mar-18] (media/deploy-my-service-image2.png "Ejemplo con nombre del sitio de Nueva York, el código del sitio NY01 y la fecha de inicio planeada de 20-Mar-18")
+   ![Ejemplo con nombre del sitio de Nueva York, el código del sitio NY01 y la fecha de inicio planeada de 20-Mar-18] (media/deploy-my-service-image2.png "Ejemplo con nombre del sitio de Nueva York, el código del sitio NY01 y la fecha de inicio planeada de 20-Mar-18")
 
-5.  Revise cada actividad, realice las acciones necesarias y actualizar el estado a medida que vaya a través de la escala de tiempo. Estado está representado gráficamente, tal como se describe a continuación:
-    <ul>
-    <li>![Marca de verificación verde](media/deploy-my-service-image3.png) **Sí o no es aplicable (verde):** se ha completado la actividad, o no es aplicable para este sitio, y no es necesaria ninguna otra acción.</li>
-    <li>![Signo de exclamación amarillo](media/deploy-my-service-image4.png) **la actividad no se completó aún (amarillo):** la actividad no ha finalizado todavía y debe actualizarse a sí o No en su programación.</li>
-    <li>![X roja](media/deploy-my-service-image5.png) **sin (rojo):** la actividad no se puede completar debido a un problema y debe llevarse a la reunión de estado del proyecto.</li></ul>
+5. Revise cada actividad, realice las acciones necesarias y actualizar el estado a medida que vaya a través de la escala de tiempo. Estado está representado gráficamente, tal como se describe a continuación:
+   <ul>
+   <li>![Marca de verificación verde](media/deploy-my-service-image3.png) <strong>Sí o no es aplicable (verde):</strong> se ha completado la actividad, o no es aplicable para este sitio, y no es necesaria ninguna otra acción.</li>
+   <li>![Signo de exclamación amarillo](media/deploy-my-service-image4.png) <strong>la actividad no se completó aún (amarillo):</strong> la actividad no ha finalizado todavía y debe actualizarse a sí o No en su programación.</li>
+   <li>![X roja](media/deploy-my-service-image5.png) <strong>sin (rojo):</strong> la actividad no se puede completar debido a un problema y debe llevarse a la reunión de estado del proyecto.</li></ul>
 
-6.  El estado es resumido dentro de cada sección, y el encabezado de sección tiene el formato con uno de estos indicadores de estado. **Estado semanal** también se actualiza automáticamente.
+6. El estado es resumido dentro de cada sección, y el encabezado de sección tiene el formato con uno de estos indicadores de estado. **Estado semanal** también se actualiza automáticamente.
 
 ![Captura de pantalla de la semanal estado resúmenes en la guía] (media/deploy-my-service-image6.png "Captura de pantalla de la semanal estado resúmenes en la guía")
 
@@ -101,8 +101,8 @@ Independientemente del tamaño y complejidad de la ubicación, habilitar cada si
 Preste atención a las actividades que pueden tardar más tiempo del planeado para, como número de trasladar y las actividades de compras. Estas actividades pueden afectar negativamente a la escala de tiempo de implementación del sitio. Asegúrese de revisar y actualizar la lista de actividades y la escala de tiempo asociado semanalmente y presentarlos en [las reuniones del Comité de dirección](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) para asegurarse de que tener en cuenta el estado de cada sitio y cualquier desviación del plan de implementación de las partes interesadas.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul><li>Decidir si es necesaria para la implementación de la Guía de habilitación de sitio.</li><li>Decidir quién será responsable de la personalización de la Guía de habilitación de sitio para Microsoft Teams para cada sitio que se va a implementar.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>[Descargar la Guía de habilitación de sitio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true).</li><li>Personalizar la Guía de habilitación de sitio para el primer sitio.</li><li>Repita según sea necesario para los sitios adicionales.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>Decidir si es necesaria para la implementación de la Guía de habilitación de sitio.</li><li>Decidir quién será responsable de la personalización de la Guía de habilitación de sitio para Microsoft Teams para cada sitio que se va a implementar.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Descargar la Guía de habilitación de sitio</a>.</li><li>Personalizar la Guía de habilitación de sitio para el primer sitio.</li><li>Repita según sea necesario para los sitios adicionales.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

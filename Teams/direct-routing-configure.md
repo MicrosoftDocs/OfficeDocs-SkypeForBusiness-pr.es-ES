@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Obtenga información sobre cómo configurar el enrutamiento directo de Microsoft teléfono del sistema.
-ms.openlocfilehash: be420b43ed1b826865bbe8b6f0a0c3e314fc1201
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 7e587c92e979c7985ccbd9f05bbb5ae1115d176a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013742"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374653"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -456,31 +456,31 @@ En la siguiente tabla se resume denominación de uso de enrutamiento directiva "
 Los pasos para crear el uso de RTC "Internacional", "Internacional", de la ruta de voz "Sin restricciones," Directiva de enrutamiento de voz y, a continuación, se asigna al usuario "John Woods" son los siguientes.
 
 
-1.  En primer lugar, cree el uso de RTC "Internacional". En una sesión remota de PowerShell en Skype para profesionales en línea, escriba:
+1. En primer lugar, cree el uso de RTC "Internacional". En una sesión remota de PowerShell en Skype para profesionales en línea, escriba:
 
-  ```
-  Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="International"}
-  ```
+   ```
+   Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="International"}
+   ```
 
-2.  A continuación, cree la nueva ruta de voz "Internacional".
+2. A continuación, cree la nueva ruta de voz "Internacional".
 
-  ```
-  New-CsOnlineVoiceRoute -Identity "International" -NumberPattern "\d+" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
-  ```
-  Que devuelve:
+   ```
+   New-CsOnlineVoiceRoute -Identity "International" -NumberPattern "\d+" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
+   ```
+   Que devuelve:
 
-  <pre>
-  Identity                  : International 
-  Priority                      : 5
-  Description                   : 
-  NumberPattern                 : \d+
-  OnlinePstnUsages          : {International}    
-  OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
-  Name                            : International
-  SupressCallerId           :
-  AlternateCallerId         :
-</pre>
-3.  A continuación, no cree una directiva de enrutamiento de voz "restricciones". El uso de RTC "Redmond 1" y "Redmond" volver a usar en esta directiva de enrutamiento de voz para conservar un tratamiento especial para las llamadas al número "XX XX de XXX +1 425" y "XX XX de XXX +1 206" como llamadas locales o local.
+   <pre>
+   Identity                  : International 
+   Priority                      : 5
+   Description                   : 
+   NumberPattern                 : \d+
+   OnlinePstnUsages          : {International}    
+   OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
+   Name                            : International
+   SupressCallerId           :
+   AlternateCallerId         :
+   </pre>
+3. A continuación, no cree una directiva de enrutamiento de voz "restricciones". El uso de RTC "Redmond 1" y "Redmond" volver a usar en esta directiva de enrutamiento de voz para conservar un tratamiento especial para las llamadas al número "XX XX de XXX +1 425" y "XX XX de XXX +1 206" como llamadas locales o local.
 
 ```
 New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”
@@ -503,18 +503,18 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
    RouteType        : BYOT
   </pre>
 
-4.  Asignar la directiva de enrutamiento de voz para el usuario "John Woods" mediante el siguiente comando.
+4. Asignar la directiva de enrutamiento de voz para el usuario "John Woods" mediante el siguiente comando.
 
-  ```
-  Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
-  ```
+   ```
+   Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
+   ```
 
-  A continuación, compruebe la asignación mediante el comando:   
+   A continuación, compruebe la asignación mediante el comando:   
 
-  ```
-  Get CsOnlineUser “John Woods” | Select OnlineVoiceRoutingPolicy
-  ```
-  Que devuelve:
+   ```
+   Get CsOnlineUser “John Woods” | Select OnlineVoiceRoutingPolicy
+   ```
+   Que devuelve:
 
 <pre>
     OnlineVoiceRoutingPolicy

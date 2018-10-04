@@ -14,12 +14,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e6ed0f5a93f2ba3ea46c88bbdf0fa93ebb843f9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: fc88190df03ed7087013c196ac32279c88c58801
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016880"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372543"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación] (media/upgrade-banner-deployment.png "Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación")
 
@@ -101,11 +101,11 @@ Una vez finalizada la prueba piloto, es el momento para recopilar todas las encu
 
 Si los resultados indican:
 
--   **Se han logrado los objetivos pilotos (por ejemplo, la satisfacción del usuario y la calidad de la red)**, deberá estar preparado para continuar con la siguiente fase de su implantación. Función de los objetivos del proyecto, podría ser una de las siguientes:
-   -   Ampliación de la prueba piloto a los participantes adicionales
-   -   [Permitir a los equipos junto con Skype para la empresa (modo de**Islas** ) para algunos o todos los de su organización](https://aka.ms/SkypeToTeams-SetCoexistence)
-   -   [Actualización de los usuarios de Skype para la empresa a los equipos (**equipos sólo** modo) para algunos o todos los de su organización](https://aka.ms/SkypeToTeams-SetCoexistence)
--   **La prueba piloto no lograr los resultados que desea (por ejemplo, la satisfacción de los usuarios y la calidad de la red)**, tardar para realizar los ajustes adecuados para su plan y revisar la prueba piloto.
+- **Se han logrado los objetivos pilotos (por ejemplo, la satisfacción del usuario y la calidad de la red)**, deberá estar preparado para continuar con la siguiente fase de su implantación. Función de los objetivos del proyecto, podría ser una de las siguientes:
+  -   Ampliación de la prueba piloto a los participantes adicionales
+  -   [Permitir a los equipos junto con Skype para la empresa (modo de**Islas** ) para algunos o todos los de su organización](https://aka.ms/SkypeToTeams-SetCoexistence)
+  -   [Actualización de los usuarios de Skype para la empresa a los equipos (**equipos sólo** modo) para algunos o todos los de su organización](https://aka.ms/SkypeToTeams-SetCoexistence)
+- **La prueba piloto no lograr los resultados que desea (por ejemplo, la satisfacción de los usuarios y la calidad de la red)**, tardar para realizar los ajustes adecuados para su plan y revisar la prueba piloto.
 
 > [!Tip]
 > Dar de alta a los participantes pilotos como Campeones del mismo nivel para ayudar a dé a conocer e incorporados nuevos usuarios para los equipos. Campeones del mismo nivel pueden estar relacionado con fácilmente a otros usuarios, uso compartido de sus propias experiencias y conocimientos y ofrece instrucciones y soporte técnico de sus compañeros. Obtenga más información acerca de [Campeones](https://go.microsoft.com/fwlink/?linkid=859068) y cómo se puede usar dentro de su propio implantación. 

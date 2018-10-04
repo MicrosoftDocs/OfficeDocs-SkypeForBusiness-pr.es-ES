@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: 'Resumen: Obtenga información sobre cómo crear una nueva directiva de archivado para Skype para Business Server.'
-ms.openlocfilehash: e900bd9ac73a6e192eba7a506d713a56a69e794d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 70c955d78e6c7b259732d50c47c53e8b3bedf97c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20970361"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374412"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Crear una nueva directiva de archivado en Skype para Business Server
 
@@ -46,7 +46,7 @@ Para crear una directiva de archivado con el Panel de control:
     
    - Para controlar el archivado de comunicaciones con usuarios internos, active o desactive la casilla **Archivar comunicaciones internas**.
     
-  - Para controlar el archivado de comunicaciones externas, active o desactive la casilla **Archivar comunicaciones externas**.
+   - Para controlar el archivado de comunicaciones externas, active o desactive la casilla **Archivar comunicaciones externas**.
     
 6. Haga clic en **Confirmar**.
     

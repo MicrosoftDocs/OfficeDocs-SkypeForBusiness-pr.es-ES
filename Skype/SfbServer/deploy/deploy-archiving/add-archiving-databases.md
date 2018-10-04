@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: 'Resumen: Lea este tema para obtener información sobre cómo agregar bases de datos de archivado a su Skype para la implementación de Business Server.'
-ms.openlocfilehash: 1b6aef3d1b00a6736206cd3cf4c0061f0e720ad6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c2e92b1da9dd5e9827b362bf4979ffba075c4402
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969127"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372954"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Agregar bases de datos de archivado a una implementación existente de Skype para Business Server
  
@@ -63,19 +63,19 @@ Es preciso incorporar el archivado a la topología para poder configurar la impl
     
    - Para especificar un nuevo almacén de SQL Server para la creación de reflejos, haga clic en **nuevo**y, a continuación, en el cuadro de diálogo **Definir nuevo almacén de SQL Server** , realice una de las siguientes opciones:
     
-    a. En **FQDN de SQL Server**, especifique el FQDN del servidor SQL en el que desea crear el nuevo almacén de SQL Server.
+     a. En **FQDN de SQL Server**, especifique el FQDN del servidor SQL en el que desea crear el nuevo almacén de SQL Server.
     
-    b. Haga clic en **Instancia predeterminada** para usar la instancia predeterminada o, para especificar una instancia distinta, haga clic en **Instancia con nombre** y especifique la instancia que desee usar.
+     b. Haga clic en **Instancia predeterminada** para usar la instancia predeterminada o, para especificar una instancia distinta, haga clic en **Instancia con nombre** y especifique la instancia que desee usar.
     
-    c. Si la instancia de SQL Server especificada está en una relación de la creación de reflejo, active la casilla de verificación **esta instancia de SQL está en relación de reflejo** y, a continuación, en **número de puerto de reflejo**, especifique el número de puerto.
+     c. Si la instancia de SQL Server especificada está en una relación de la creación de reflejo, active la casilla de verificación **esta instancia de SQL está en relación de reflejo** y, a continuación, en **número de puerto de reflejo**, especifique el número de puerto.
     
    - Si habilita la creación de reflejos de SQL Server y desea incluir un testigo (independiente, tercera instancia de SQL Server que puede detectar el estado de las instancias de SQL Server y el servidor reflejado principales) la creación de reflejos de SQL Server, seleccione la **testigo de reflejo de utilizar SQL Server para habilitar automática conmutación por error** casilla de verificación y, a continuación, realice uno de los siguientes:
     
-    a. En **FQDN de SQL Server**, especifique el FQDN del servidor en el que desea crear el nuevo testigo de reflejo de SQL Server.
+     a. En **FQDN de SQL Server**, especifique el FQDN del servidor en el que desea crear el nuevo testigo de reflejo de SQL Server.
     
-    b. Haga clic en **Instancia predeterminada** para usar la instancia predeterminada o, para especificar una instancia distinta, haga clic en **Instancia con nombre** y especifique la instancia que desee usar para el testigo de reflejo.
+     b. Haga clic en **Instancia predeterminada** para usar la instancia predeterminada o, para especificar una instancia distinta, haga clic en **Instancia con nombre** y especifique la instancia que desee usar para el testigo de reflejo.
     
-    c. Si la instancia de SQL Server especificada está en una relación de la creación de reflejo, active la casilla de verificación **esta instancia de SQL está en relación de reflejo** y, a continuación, en **número de puerto de reflejo**, especifique el número de puerto.
+     c. Si la instancia de SQL Server especificada está en una relación de la creación de reflejo, active la casilla de verificación **esta instancia de SQL está en relación de reflejo** y, a continuación, en **número de puerto de reflejo**, especifique el número de puerto.
     
 10. Para guardar la configuración, haga clic en **Aceptar**.
     

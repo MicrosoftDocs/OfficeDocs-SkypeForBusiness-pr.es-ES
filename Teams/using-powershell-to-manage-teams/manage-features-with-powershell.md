@@ -10,12 +10,12 @@ search.appverid: MET150
 description: Aprenda a usar Windows PowerShell para administrar todas las características que se encuentran en Microsoft Teams de.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51c3bf4f2f1ad7e2d391617d37051e1b09610a5c
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: eccd04023324256e40d9e06315fcd80081ffe565
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015848"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371353"
 ---
 # <a name="using-powershell-to-manage-teams"></a>Uso de PowerShell para administrar los equipos
 Debería prever esto como un tema de referencia que se configuraría según la característica. A continuación, cada conjunto de características tendría todos los cmdlets que figuran en la tabla con vínculos al tema de Ayuda de Get.
@@ -23,6 +23,7 @@ Debería prever esto como un tema de referencia que se configuraría según la c
 # <a name="managing-teams-features-using-powershell"></a>Administrar las características de los equipos mediante PowerShell
 
 ## <a name="admin-roles"></a>Roles de administrador
+
 |Rol |Ejemplo |Vínculo de Ayuda del cmdlet  |
 |---------|---------|---------|
 |Administrador global     |         |         |
@@ -33,6 +34,7 @@ Debería prever esto como un tema de referencia que se configuraría según la c
 Vincular a doc de Isabella
 
 ## <a name="audio-conferencing"></a>Conferencias de audio
+
 |Nombre de cmdlet |Descripción |Vínculo de Ayuda del cmdlet  |
 |---------|---------|---------|
 |Nombre de cmdlet   |    Qué hace  |    Vínculo al cmdlet Get-Help PS     |

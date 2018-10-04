@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Resumen: Obtenga información sobre los requisitos del sistema para el servidor perimetral en Skype para Business Server.'
-ms.openlocfilehash: 3e5bdd5ad47004f7908a8bd39cb122d1f03ce96f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 05adb2fb0a4224699cf4465932eba1e7a85761e5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886972"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374874"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Requisitos del sistema del servidor de bordes en Skype para Business Server
  
@@ -99,7 +99,7 @@ Nuestras recomendaciones actual de proxy inverso pueden encontrarse en la págin
     
 - debe poder publicar externamente un sitio web hospedado de forma interna con su nombre de dominio completo (FQDN).
     
-- tiene que poder publicar todo el contenido del sitio web hospedado. De forma predeterminada, puede usar el ** / ** directiva, que es reconocido por la mayoría de los servidores web a Media "Publicar todo el contenido en el servidor web". También puede modificar la directiva, por ejemplo, **/Uwca/\***, lo que significa "publica todo el contenido en el directorio virtual de Ucwa".
+- tiene que poder publicar todo el contenido del sitio web hospedado. De forma predeterminada, puede usar el ** / *** directiva, que es reconocido por la mayoría de los servidores web a Media "Publicar todo el contenido en el servidor web". También puede modificar la directiva, por ejemplo, ** /Uwca/\\***, lo que significa "publica todo el contenido en el directorio virtual de Ucwa".
     
 - debe requerir conexiones TLS con los clientes que soliciten contenido desde su sitio web publicado.
     

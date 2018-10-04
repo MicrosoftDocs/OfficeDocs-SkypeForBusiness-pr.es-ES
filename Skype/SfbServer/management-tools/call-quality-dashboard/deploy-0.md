@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Resumen: Información sobre el proceso de implementación para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.'
-ms.openlocfilehash: 860792fc39deed592f0d4369018cf85dd7de4a74
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 31e1dc8d5508c7d3d31de0ec3af0b9c8c06a6c40
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988989"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372644"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server-2015"></a>Implementar el panel de calidad de llamada para Skype para Business Server 2015
  
@@ -78,15 +78,15 @@ La implementación de panel de calidad de llamadas implica la configuración de 
     
    - **Usar varias particiones:** El valor predeterminado se establece en "Partición varios", lo cual requiere la edición de inteligencia empresarial o Enterprise edition de SQL Server. Para Standard edition, seleccione la opción de "Única partición". Tenga en cuenta que el rendimiento de procesamiento del cubo puede verse afectado si se usa una única partición.
     
-    > [!NOTE]
-    > No se puede cambiar la selección para la opción de usar varias particiones una vez finalizada la instalación. Para cambiarlo, el cubo que se necesita la característica a la primera desinstalado y, a continuación, volver a instalar mediante la opción "Cambiar" en el Panel de Control. 
+     > [!NOTE]
+     > No se puede cambiar la selección para la opción de usar varias particiones una vez finalizada la instalación. Para cambiarlo, el cubo que se necesita la característica a la primera desinstalado y, a continuación, volver a instalar mediante la opción "Cambiar" en el Panel de Control. 
   
    - **Crear particiones de directorio de archivo:** Ruta de acceso donde se deben colocar las particiones de la base de datos de archivo de QoE. Esto debe estar en una unidad independiente (HDD3 en la configuración de hardware recomendada) de la unidad de sistema operativo y la unidad de archivos de registro de base de datos SQL. Tenga en cuenta que dado que los nombres de archivo se corrigen en la instalación, para evitar posibles conflictos, se recomienda que se utiliza un directorio en blanco con ningún archivo.
     
    - **Usuario de trabajo del Agente SQL - nombre de usuario &amp; contraseña:** Nombre de cuenta de servicio de dominio y la contraseña (enmascarado) que se usará para ejecutar el paso de "Datos de archivo QoE" del trabajo de agente SQL Server (que se ejecutará el procedimiento almacenado para recuperar datos la base de datos de métricas de calidad de la experiencia en la base de datos de archivo, por lo que esta cuenta debe tener acceso de lectura a la base de datos de métricas de QoE,  como se indica en la sección cuentas. Esta cuenta también debe tener un inicio de sesión en la instancia de SQL Server de QoE archivo).
     
-    > [!NOTE]
-    > La cuenta que se está ejecutando la instancia de SQL Server, como NT SERVICE\MSSQLSERVER, debe tener acceso a los directorios indicadas anteriormente para que la instalación se realice correctamente. Para obtener información detallada, vea [Configurar permisos de sistema de archivos para obtener acceso al motor de base de datos](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
+     > [!NOTE]
+     > La cuenta que se está ejecutando la instancia de SQL Server, como NT SERVICE\MSSQLSERVER, debe tener acceso a los directorios indicadas anteriormente para que la instalación se realice correctamente. Para obtener información detallada, vea [Configurar permisos de sistema de archivos para obtener acceso al motor de base de datos](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
   
 7. Tras hacer clic en siguiente, el programa de instalación llevará a cabo comprobaciones de requisitos previos e informe si se producen problemas. Cuando comprobaciones de todas las de requisitos previos paso, el programa de instalación se vaya a la página de configuración de cubo. 
     
@@ -101,13 +101,13 @@ La implementación de panel de calidad de llamadas implica la configuración de 
     
    - **Cubos de Analysis Server:** Nombre de instancia de SQL Server Analysis Services para donde es el cubo que se creará. Esto puede ser un equipo diferente, pero el usuario que instala tiene que ser un miembro de los administradores del servidor de la instancia de SQL Server Analysis Services de destino.
     
-    > [!NOTE]
-    >  Para obtener más información acerca de cómo configurar permisos de administrador del servidor de Analysis Services, vea [Conceder permisos de administrador del servidor (Analysis Services)](https://msdn.microsoft.com/en-us/library/ms174561.aspx)
+     > [!NOTE]
+     >  Para obtener más información acerca de cómo configurar permisos de administrador del servidor de Analysis Services, vea [Conceder permisos de administrador del servidor (Analysis Services)](https://msdn.microsoft.com/en-us/library/ms174561.aspx)
   
    - **Usar varias particiones:** El valor predeterminado se establece en "Partición varios", lo cual requiere la edición de inteligencia empresarial o Enterprise edition de SQL Server. Para Standard edition, seleccione la opción de "Única partición". Tenga en cuenta que el rendimiento de procesamiento del cubo puede verse afectado si se usa una única partición.
     
-    > [!NOTE]
-    >  No se puede cambiar la selección para la opción de usar varias particiones una vez finalizada la instalación. Para cambiarlo, el cubo que se necesita la característica a la primera desinstalado y, a continuación, volver a instalar mediante la opción "Cambiar" en el Panel de Control.
+     > [!NOTE]
+     >  No se puede cambiar la selección para la opción de usar varias particiones una vez finalizada la instalación. Para cambiarlo, el cubo que se necesita la característica a la primera desinstalado y, a continuación, volver a instalar mediante la opción "Cambiar" en el Panel de Control.
   
    - **Usuario - nombre de usuario de cubos &amp; contraseña:** Nombre de cuenta de servicio de dominio y contraseña (enmascarado) que se activará el procesamiento del cubo. Si el componente de archiving QoE se ha seleccionado para la instalación, este campo se rellenará previamente con el valor proporcionado en la página Configuración de archivo para el usuario de trabajo del Agente SQL, pero se recomienda especificar una cuenta de servicio de dominio diferente para que el programa de instalación puede conceder el privilegios necesarios a ella.
     
@@ -259,7 +259,7 @@ Ejemplos
     
 - Ubicación de participación
     
- **Sintaxis SQL de ejemplo**
+  **Sintaxis SQL de ejemplo**
   
 ```
 INSERT INTO
@@ -290,7 +290,7 @@ Ejemplos
     
 - Subsidiaria concedida
     
- **Sintaxis SQL de ejemplo**
+  **Sintaxis SQL de ejemplo**
   
 ```
 INSERT INTO
@@ -320,7 +320,7 @@ Ejemplos
     
 - LABORATORIO
     
- **Sintaxis SQL de ejemplo**
+  **Sintaxis SQL de ejemplo**
   
 ```
 INSERT INTO [dbo].[CqdNetworkName] 

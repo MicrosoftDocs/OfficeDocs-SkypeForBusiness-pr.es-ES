@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Resumen: Revise las consideraciones de componente de red a continuación antes de implementar Skype para Business Server.'
-ms.openlocfilehash: 3b052977d605c923a333097ad073ad59d7d6a586
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ad0e3b48a320997ddce0559e388d5cfdcab861d1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886364"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375085"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
@@ -77,6 +77,7 @@ Para las redes empresariales donde la seguridad de protocolo Internet (IPsec) (v
 En la siguiente tabla se detalla la configuración de las excepciones de IPsec recomendadas.
 
 **Excepciones de IPsec recomendadas**
+
 |Nombre de regla |IP de origen |IP de destino |Protocolo |Puerto de origen |Puerto de destino |Requisito de autenticación |
 |:--- |:--- |:--- |:--- |:---|:---|:--- |
 |Servidor perimetral A/V interno entrante|Cualquiera  |Servidor perimetral A/V interno|UDP y TCP|Cualquiera |Cualquiera |No autenticar|

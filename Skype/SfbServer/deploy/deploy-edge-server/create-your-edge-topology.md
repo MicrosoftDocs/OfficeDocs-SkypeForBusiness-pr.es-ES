@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: 'Resumen: Obtenga información sobre cómo crear, publicar y exportar la topología de servidor perimetral de Skype para Business Server.'
-ms.openlocfilehash: 772a37437af902513d7245a1e8bd18a565fca5e9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b01f0c107207d79f62a092acc2e287e632969234
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883918"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372776"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>Creación de la topología perimetral para Skype para Business Server
  
@@ -144,7 +144,7 @@ Si no está seguro de qué necesita, siga estos pasos antes de empezar, es un bu
     
    - Habilitar IPv6 en la interfaz externa
     
-    Estos son bastante fácil de entender, si está utilizando las direcciones IPv4 o IPv6, y va a aplicar esas direcciones en el servidor perimetral interna o externamente (que necesitará para tener en cuenta para el paso 11). También tiene la opción de configuración de su servidor perimetral o grupo de servidores perimetrales para usar una dirección de traducción (NAT) de dirección de red para la dirección IP externa. Para ello, puede seleccionar la casilla **La dirección IP externa de este grupo de servidores perimetrales se traduce con NAT**. Haga clic en **Siguiente** cuando esté listo.
+     Estos son bastante fácil de entender, si está utilizando las direcciones IPv4 o IPv6, y va a aplicar esas direcciones en el servidor perimetral interna o externamente (que necesitará para tener en cuenta para el paso 11). También tiene la opción de configuración de su servidor perimetral o grupo de servidores perimetrales para usar una dirección de traducción (NAT) de dirección de red para la dirección IP externa. Para ello, puede seleccionar la casilla **La dirección IP externa de este grupo de servidores perimetrales se traduce con NAT**. Haga clic en **Siguiente** cuando esté listo.
     
 9. En la pantalla FQDN externos, las opciones dependen de la selección que hizo en el paso 7.
     
@@ -212,10 +212,10 @@ Si no está seguro de qué necesita, siga estos pasos antes de empezar, es un bu
     
    - Habilitar IPv6 en la interfaz externa
     
-    Estos son bastante fácil de entender, si está utilizando las direcciones IPv4 o IPv6, y va a aplicar esas direcciones en el servidor perimetral interna o externamente (que necesitará para tener en cuenta para el paso 11).
+     Estos son bastante fácil de entender, si está utilizando las direcciones IPv4 o IPv6, y va a aplicar esas direcciones en el servidor perimetral interna o externamente (que necesitará para tener en cuenta para el paso 11).
     
-    > [!NOTE]
-    > A diferencia de las otras dos opciones de topologías, cuando se utiliza un equilibrador de carga de hardware, **No debe** seleccionar la opción **NAT traduce la dirección IP externa del grupo de servidores perimetrales**. **No es compatible**.
+     > [!NOTE]
+     > A diferencia de las otras dos opciones de topologías, cuando se utiliza un equilibrador de carga de hardware, **No debe** seleccionar la opción **NAT traduce la dirección IP externa del grupo de servidores perimetrales**. **No es compatible**.
   
 9. En la pantalla FQDN externos, las opciones dependen de la selección que hizo en el paso 7.
     

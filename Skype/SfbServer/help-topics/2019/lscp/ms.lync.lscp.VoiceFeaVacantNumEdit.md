@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los números sin asignar son números de teléfono válidos en la organización, pero que no se han asignado a un usuario o teléfono. En la tabla de números sin asignar se identifica cómo desea que se traten las llamadas a números sin asignar.
-ms.openlocfilehash: 6df9574bb6d999e4800c727f6cbabe0aa68818e9
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: f4428a0f3ec5e1da5267c23f9064815206262893
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244198"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373846"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Número de teléfono sin asignar: Crear nuevos o editar los existentes
 
@@ -51,7 +51,7 @@ En la siguiente lista se describen los campos de la página.
 
   - **Anuncio** Seleccione el anuncio se reproducirá para este intervalo de números sin asignar.
 
--  Si ha seleccionado **Mensajería unificada de Exchange** para **el servicio de anuncio**:
+- Si ha seleccionado **Mensajería unificada de Exchange** para **el servicio de anuncio**:
 
   - **Número de teléfono del operador automático** Seleccione el número de teléfono para el operador de Exchange UM automático.
 

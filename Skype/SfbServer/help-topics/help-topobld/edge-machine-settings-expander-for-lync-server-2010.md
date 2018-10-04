@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 'Para editar las propiedades de los equipos de servidor perimetral como un único servidor perimetral o como equipos miembros de un grupo de servidores perimetrales, configurar opciones de configuración de dirección IP y de nombre de servidor:'
-ms.openlocfilehash: ca1e53809c4f59a7b050d5cb2ae47906aa39f82f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 10709088aee9d1b5ec247804122520afa3b29dee
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21001372"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373388"
 ---
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Expansor de configuración de equipo perimetral para Lync Server 2010
  
@@ -41,10 +41,10 @@ Para editar las propiedades de los equipos de servidor perimetral como un único
     > [!IMPORTANT]
     > La propiedad de configuración de **dirección IPv4 habilitada para NAT** sólo estará disponible para edición si opta por proporcionar la traducción de direcciones de red (NAT) en lugar de A / servicio perimetral A/v
   
- **Aceptar** Se aceptan y confirman los cambios en el cuadro de diálogo.
+  **Aceptar** Se aceptan y confirman los cambios en el cuadro de diálogo.
   
- **Cancelar** Se descartan los cambios y se cierra el cuadro de diálogo.
+  **Cancelar** Se descartan los cambios y se cierra el cuadro de diálogo.
   
- **Ayuda** Abre esta pantalla de ayuda.
+  **Ayuda** Abre esta pantalla de ayuda.
   
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Resumen: Obtenga información sobre cómo configurar extensiones de servidor de Chat persistente para salones de chat de Skype para Business Server 2015.'
-ms.openlocfilehash: f96f000c4ac3a78f6ca3ba4972f295e45128ce50
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4fe6c5fa15118949bd559ddb280ddf56fe41b360
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967736"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372702"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Configurar complementos para los salones de chat persistente en Skype Empresarial Server 2015
  
@@ -46,9 +46,9 @@ Para configurar complementos para los salones de chat con el Panel de control:
     
 6. Haga lo siguiente en **Complemento nuevo**:
     
-  - En **Nombre**, especifique un nombre para el nuevo complemento.
+   - En **Nombre**, especifique un nombre para el nuevo complemento.
     
-  - En **URL**, especifique la dirección URL que se asociará al complemento. Las direcciones URL se limitan a protocolos http y https.
+   - En **URL**, especifique la dirección URL que se asociará al complemento. Las direcciones URL se limitan a protocolos http y https.
     
 7. Haga clic en **Confirmar**.
     

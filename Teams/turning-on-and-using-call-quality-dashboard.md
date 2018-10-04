@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Vea cómo activar y usar el Skype para profesionales Online panel calidad de llamadas y obtener informes de resumen de calidad de las llamadas. '
-ms.openlocfilehash: bf7540d7c83fb8a3f7507fb4a8fcbcd8e820e2e2
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 008fbeca5ae9b81d74e9a38f60c12a6fc1f919cc
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017892"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373811"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activar y con el panel de calidad de llamadas para Microsoft Teams y Skype para profesionales en línea
 
@@ -186,11 +186,11 @@ El panel de informes de resumen de CQD incluye una página **Inquilino la carga 
     
 2. Después de seleccionar el tipo de datos de archivo, haga clic en **Examinar** para elegir un archivo de datos.
     
-  - El archivo de datos debe ser un .tsv (valores separados por comas) o un archivo .csv (valores separados por comas). Si usa un archivo .csv, cualquier campo que contiene una coma debe ir entre comillas o tener la coma que se ha quitado. Por ejemplo, si el nombre del edificio es Nueva York, NY, en el archivo .csv debe escribirse como "Nueva York, NY".
+   - El archivo de datos debe ser un .tsv (valores separados por comas) o un archivo .csv (valores separados por comas). Si usa un archivo .csv, cualquier campo que contiene una coma debe ir entre comillas o tener la coma que se ha quitado. Por ejemplo, si el nombre del edificio es Nueva York, NY, en el archivo .csv debe escribirse como "Nueva York, NY".
     
-  - El archivo de datos debe ser no más de 50MB en tamaño.
+   - El archivo de datos debe ser no más de 50MB en tamaño.
     
-  - Para cada archivo de datos, cada columna en el archivo debe coincidir con un tipo de datos predefinidos, que se trata más adelante en este tema.
+   - Para cada archivo de datos, cada columna en el archivo debe coincidir con un tipo de datos predefinidos, que se trata más adelante en este tema.
     
 3. Después de seleccionar un archivo de datos, especifique la **fecha de inicio** y, opcionalmente, **Especifique una fecha de finalización**.
     

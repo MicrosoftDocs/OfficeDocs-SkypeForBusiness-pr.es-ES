@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: Enterprise Voice planeación conceptos básicos en Skype Business Server, incluidos los sitios, áreas, vínculos de red entre sitios y estimar el tráfico de uso de voz.
-ms.openlocfilehash: 3c5cad1b37b4f3bfe3fe73cad1d185b0116a68a0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: afff1ccffbc6e967f3b18b0746d29db9085fe82c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885340"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373709"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Planeación de Enterprise Voice en Skype para Business Server
  
@@ -41,9 +41,9 @@ También debe tener en cuenta el uso de ancho de banda que se esperaba en los v�
 El Microsoft Lync Server 2013, herramienta de planeación utiliza la métrica siguiente para calcular el tráfico de usuario en cada sitio y el número de puertos que se requieren para admitir dicho tráfico.
   
 > Para **Tráfico reducido** (una llamada de RTC por usuario y hora), calcule 15 usuarios por puerto.
-    
+> 
 > Para **Tráfico medio** (2 llamadas de RTC por usuario y hora), calcule 10 usuarios por puerto.
-    
+> 
 > Para **Tráfico denso** (3 llamadas o más de RTC por usuario y hora), calcule 5 usuarios por puerto.
     
 El número de puertos a su vez determina el número de servidores de mediación y puertas de enlace que serán necesarios. Las puertas de enlace de (RTC) de la red telefónica conmutada pública que la mayoría de las organizaciones consideran la implementación de intervalo de tamaño de 2 puertos para los puertos de 960 como máximo. (Hay puertas de enlace incluso más grandes, pero las usan principalmente por proveedores de servicios de telefonía.)

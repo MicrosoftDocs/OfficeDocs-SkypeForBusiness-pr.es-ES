@@ -1,5 +1,5 @@
 ---
-title: Aprovisionamiento de la topología para ejecutar la carga en situaciones de estrés y rendimiento
+title: Aprovisionamiento de la topología para ejecutar la carga en escenarios de esfuerzo y rendimiento
 ms.author: heidip
 author: microsoftheidi
 ms.date: 12/17/2015
@@ -9,45 +9,46 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
-description: Skype para cambios de topología de servidor de negocios 2015 o provisioning para permitir a los usuarios ejecutar correctamente la herramienta de carga y rendimiento.
-ms.openlocfilehash: 825dd56a7f2cb343eddd8cbed7e811cdc5154b9c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Skype para aprovisionamiento o cambios en la topología empresarial Server 2015 para permitir a los usuarios ejecutar correctamente la herramienta de esfuerzo y rendimiento.
+ms.openlocfilehash: 6ff08a3b99f4dc1f05b56c2a1fa86733ccf4f852
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373781"
 ---
-# <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>Aprovisionamiento de la topología para ejecutar la carga en situaciones de estrés y rendimiento
+# <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>Aprovisionamiento de la topología para ejecutar la carga en escenarios de esfuerzo y rendimiento
  
-Skype para cambios de topología de servidor de negocios 2015 o provisioning para permitir a los usuarios ejecutar correctamente la herramienta de carga y rendimiento.
+Skype para aprovisionamiento o cambios en la topología empresarial Server 2015 para permitir a los usuarios ejecutar correctamente la herramienta de esfuerzo y rendimiento.
   
-Dependiendo de la configuración existente y la configuración de la implementación de Skype para Business Server 2015, puede que necesite realizar algunos cambios en su entorno. La siguiente es una lista de los cambios:
+Dependiendo de la configuración existente y la configuración para la implementación de Skype para Business Server 2015, es posible que necesite realizar algunos cambios en el entorno. La siguiente es una lista de los cambios:
   
-1. Establecer la directiva de ejecución de Windows PowerShell en Irrestricto. Si no estás seguro de lo que es establecido en la actualidad, puede abrir el Skype para el Shell de administración de servidor de Business y ejecute este comando:
+1. Establecer la directiva de ejecución de Windows PowerShell para Unrestricted. Si no está seguro de qué es establecer en la actualidad, puede abrir el Skype para Shell de administración de servidor empresarial y ejecute este comando:
     
-  ```
-  Get-ExecutionPolicy
-  ```
+   ```
+   Get-ExecutionPolicy
+   ```
 
-  Si no se devuelve el valor Unrestricted, necesitará ejecutar este a continuación:
+   Si no se devuelve el valor Unrestricted, necesita ejecutar este a continuación:
     
-  ```
-  Set-ExecutionPolicy -Unrestricted
-  ```
+   ```
+   Set-ExecutionPolicy -Unrestricted
+   ```
 
-2. Para configurar eficazmente Skype para Business Server, necesitará:
+2. Para configurar de forma eficaz Skype para Business Server, necesitará:
     
-    - Estar familiarizado con su Skype para Business Server 2015 topología (por ejemplo, nombres de equipo, las instancias de servicio, los nombres de sitio y directivas).
+    - Estar familiarizado con su Skype para topología empresarial Server 2015 (por ejemplo, los nombres de equipo, instancias de servicio, los nombres de sitios y las directivas).
     
-    - Asignar algunos de los usuarios que se crean a grupos, como grupo de respuesta de captura de grupos (por ejemplo, URI de SIP).
+    - Asignar algunos de los usuarios que se crean a grupos, como grupo de respuesta (por ejemplo, los URI de SIP) de grupos de extensiones.
     
-3. Para ejecutar un script desde la línea de comandos, puede utilizar:
+3. Para ejecutar una secuencia de comandos desde la línea de comandos, puede usar:
     
-  ```
-  PowerShell.exe -file <path to the file>
-  ```
+   ```
+   PowerShell.exe -file <path to the file>
+   ```
 
-4. Normalmente, una vez ejecutado un script de este paquete, los seguimientos resultantes se guardará en un archivo en la misma ruta de acceso desde donde se ejecutó la secuencia de comandos. Hay también un formato de nombre \<scriptname\>$h$m$s.txt. Así que si ejecutó el ArchivingPolicy.ps1 a las 12:15 P.M., obtendrá un archivo de registro denominado ArchivingPolicy121500.txt.
+4. Normalmente, una vez ejecutado una secuencia de comandos de este paquete, los seguimientos resultantes se almacenará en la misma ruta de acceso desde donde se ejecutó la secuencia de comandos en un archivo. No hay un formato de nomenclatura así, \<NombreDeSecuenciaDeComandos\>$h$m$s.txt. Por lo que si ejecutó el ArchivingPolicy.ps1 a las 12:15 P.M., obtendrá un archivo de registro denominado ArchivingPolicy121500.txt.
     
-5. Mientras que la configuración del servidor le hemos proporcionado en estos ejemplos, incumbe a usted para modificar su configuración y restaurar o hacerla girar después de que haya terminado de ejecutar las pruebas de carga.
+5. Mientras Adjuntamos estos ejemplos para la configuración del servidor, es le para modificar la configuración y para restaurar o deshaga el después de que haya terminado de ejecutar las pruebas de carga.
     
 

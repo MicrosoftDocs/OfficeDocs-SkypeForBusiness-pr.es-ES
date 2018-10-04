@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1e75d352-12cf-4548-9301-5d4c0e1c8f46
 description: La implementación de servidor de Chat persistente puede hospedar muchos salones de Chat persistente simultáneas. Los salones de chat pueden estar organizados jerárquicamente en un conjunto de categorías en el servidor. Cada salón de chat pertenece a una categoría y hereda parte de la configuración de dicha categoría. Esta organización crea una estructura útil para identificar conversaciones según el fin del negocio y, asimismo, facilita la delegación y simplificación de la administración.
-ms.openlocfilehash: 8f406d53193e64bdd7406e7eed931ab8a3f2a684
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4233ef995ebf14631d454c6e605806ff63757f58
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20987778"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372042"
 ---
 # <a name="persistent-chat-configuration-main-page"></a>Página principal de configuración de chat persistente
  
@@ -71,20 +71,20 @@ Puede realizar las siguientes tareas en la página de **Configuración de Chat p
     
 6. En **Nueva configuración de chat persistente**, haga lo siguiente:
     
-  - En **Nombre**, especifique un nombre para los nuevos parámetros de configuración. El nombre de sitio ya existe de forma predeterminada.
+   - En **Nombre**, especifique un nombre para los nuevos parámetros de configuración. El nombre de sitio ya existe de forma predeterminada.
     
-  - En **Historial de chat predeterminado**, defina la cantidad de mensajes de chat que se procesará para cada salón tras la primera solicitud. De forma predeterminada, la cantidad es 30. Esta es la configuración global y los administradores pueden deshabilitar el historial de chat por categoría.
+   - En **Historial de chat predeterminado**, defina la cantidad de mensajes de chat que se procesará para cada salón tras la primera solicitud. De forma predeterminada, la cantidad es 30. Esta es la configuración global y los administradores pueden deshabilitar el historial de chat por categoría.
     
-    > [!IMPORTANT]
-    > Servidor de Chat persistente almacenará en memoria caché estos mensajes en la memoria, por lo que si se aumenta este número, más mensajes se almacenarán en caché. El acceso al contenido del historial siempre se encuentra disponible a través de la búsqueda. La cantidad predeterminada solo indica la cantidad máxima de mensajes que ve inicialmente cuando se conecta a un salón de chat. 
+     > [!IMPORTANT]
+     > Servidor de Chat persistente almacenará en memoria caché estos mensajes en la memoria, por lo que si se aumenta este número, más mensajes se almacenarán en caché. El acceso al contenido del historial siempre se encuentra disponible a través de la búsqueda. La cantidad predeterminada solo indica la cantidad máxima de mensajes que ve inicialmente cuando se conecta a un salón de chat. 
   
-  - En **Tamaño máximo de archivo (KB)**, seleccione el tamaño máximo de archivo de cada historial de chat. De forma predeterminada, el tamaño es 20 MB (20 000 KB). Este es el tamaño máximo de archivo que puede cargarse en cualquier salón de chat del sistema (en el que las cargas de archivos estén habilitadas por la configuración de la **Categoría** correspondiente).
+   - En **Tamaño máximo de archivo (KB)**, seleccione el tamaño máximo de archivo de cada historial de chat. De forma predeterminada, el tamaño es 20 MB (20 000 KB). Este es el tamaño máximo de archivo que puede cargarse en cualquier salón de chat del sistema (en el que las cargas de archivos estén habilitadas por la configuración de la **Categoría** correspondiente).
     
-  - En **Límite de actualización de participantes**, seleccione el límite de actualizaciones de participantes. Persistent Chat Server envía información de la lista de participantes (que está conectado a un salón de chat) a todos los participantes hasta que el número de usuarios conectados alcance este número. De forma predeterminada, dicha cantidad es 75. Este límite indica el número máximo de participantes en una sala determinada más allá del cual Persistent Chat Server deja de enviar actualizaciones de la lista de participantes a los clientes conectados sobre quién está presente en la sala.
+   - En **Límite de actualización de participantes**, seleccione el límite de actualizaciones de participantes. Persistent Chat Server envía información de la lista de participantes (que está conectado a un salón de chat) a todos los participantes hasta que el número de usuarios conectados alcance este número. De forma predeterminada, dicha cantidad es 75. Este límite indica el número máximo de participantes en una sala determinada más allá del cual Persistent Chat Server deja de enviar actualizaciones de la lista de participantes a los clientes conectados sobre quién está presente en la sala.
     
-  - (Opcional). En **dirección URL de administración de sala**, seleccione la dirección URL de administración de sala. Esta es la dirección URL para una administración de salón personalizada basada en web. Si no es necesario personalizar la administración de sala y simplemente utilizar la configuración predeterminada, deje esta opción en blanco. Una vez que se haya definido la dirección URL, se aplica a la dirección URL de administración del salón tanto interna como externa.
+   - (Opcional). En **dirección URL de administración de sala**, seleccione la dirección URL de administración de sala. Esta es la dirección URL para una administración de salón personalizada basada en web. Si no es necesario personalizar la administración de sala y simplemente utilizar la configuración predeterminada, deje esta opción en blanco. Una vez que se haya definido la dirección URL, se aplica a la dirección URL de administración del salón tanto interna como externa.
     
-    Si desea personalizar su experiencia de creación de sala e incluir el flujo de trabajo de negocio específicos, puede crear una solución de administración de salón personalizado mediante el uso de la persistente Chat Server Software Development Kit (SDK), que lo hospede en algún lugar y ponga aquí la dirección URL. Esta dirección URL se envía al cliente, de modo que, cuando un usuario intente ver o crear un salón, será dirigido a su solución personalizada de administración de salones.
+     Si desea personalizar su experiencia de creación de sala e incluir el flujo de trabajo de negocio específicos, puede crear una solución de administración de salón personalizado mediante el uso de la persistente Chat Server Software Development Kit (SDK), que lo hospede en algún lugar y ponga aquí la dirección URL. Esta dirección URL se envía al cliente, de modo que, cuando un usuario intente ver o crear un salón, será dirigido a su solución personalizada de administración de salones.
     
 7. Haga clic en **Confirmar**.
     
@@ -102,20 +102,20 @@ Puede realizar las siguientes tareas en la página de **Configuración de Chat p
     
 6. En **Nueva configuración de chat persistente**, haga lo siguiente:
     
-  - En **Nombre**, especifique un nombre para la nueva configuración. El nombre del grupo de servidores del sitio ya existe de forma predeterminada.
+   - En **Nombre**, especifique un nombre para la nueva configuración. El nombre del grupo de servidores del sitio ya existe de forma predeterminada.
     
-  - En **Historial de chat predeterminado**, defina la cantidad de mensajes de chat que se procesará para cada salón tras la primera solicitud. De forma predeterminada, la cantidad es 30. Esta es la configuración global y los administradores pueden deshabilitar el historial de chat por categoría.
+   - En **Historial de chat predeterminado**, defina la cantidad de mensajes de chat que se procesará para cada salón tras la primera solicitud. De forma predeterminada, la cantidad es 30. Esta es la configuración global y los administradores pueden deshabilitar el historial de chat por categoría.
     
-    > [!IMPORTANT]
-    > Servidor de Chat persistente almacenará en memoria caché estos mensajes en la memoria, por lo que si se aumenta este número, más mensajes se almacenarán en caché. El acceso al contenido del historial siempre se encuentra disponible a través de la búsqueda. La cantidad predeterminada solo indica la cantidad máxima de mensajes que ve inicialmente cuando se conecta a un salón de chat. 
+     > [!IMPORTANT]
+     > Servidor de Chat persistente almacenará en memoria caché estos mensajes en la memoria, por lo que si se aumenta este número, más mensajes se almacenarán en caché. El acceso al contenido del historial siempre se encuentra disponible a través de la búsqueda. La cantidad predeterminada solo indica la cantidad máxima de mensajes que ve inicialmente cuando se conecta a un salón de chat. 
   
-  - En **Tamaño máximo de archivo (KB)**, seleccione el tamaño máximo de archivo de cada historial de chat. De forma predeterminada, el tamaño es 20 MB (20 000 KB). Este es el tamaño máximo de archivo que puede cargarse en cualquier salón de chat del sistema (en el que las cargas de archivos estén habilitadas por la configuración de la **Categoría** correspondiente).
+   - En **Tamaño máximo de archivo (KB)**, seleccione el tamaño máximo de archivo de cada historial de chat. De forma predeterminada, el tamaño es 20 MB (20 000 KB). Este es el tamaño máximo de archivo que puede cargarse en cualquier salón de chat del sistema (en el que las cargas de archivos estén habilitadas por la configuración de la **Categoría** correspondiente).
     
-  - En **Límite de actualización de participantes**, seleccione el límite de actualizaciones de participantes. Persistent Chat Server envía información de la lista de participantes (que está conectado a un salón de chat) a todos los participantes hasta que el número de usuarios conectados alcance este número. De forma predeterminada, dicha cantidad es 75. Este límite indica el número máximo de participantes en una sala determinada más allá del cual Persistent Chat Server deja de enviar actualizaciones de la lista de participantes a los clientes conectados sobre quién está presente en la sala.
+   - En **Límite de actualización de participantes**, seleccione el límite de actualizaciones de participantes. Persistent Chat Server envía información de la lista de participantes (que está conectado a un salón de chat) a todos los participantes hasta que el número de usuarios conectados alcance este número. De forma predeterminada, dicha cantidad es 75. Este límite indica el número máximo de participantes en una sala determinada más allá del cual Persistent Chat Server deja de enviar actualizaciones de la lista de participantes a los clientes conectados sobre quién está presente en la sala.
     
-  - En **Dirección URL de administración del salón**, seleccione la dirección URL de administración del salón. Se trata de la dirección URL para una implementación de administración de salones basada en web. Si no es necesario personalizar la administración de sala y simplemente utilizar la configuración predeterminada, deje esta opción en blanco.
+   - En **Dirección URL de administración del salón**, seleccione la dirección URL de administración del salón. Se trata de la dirección URL para una implementación de administración de salones basada en web. Si no es necesario personalizar la administración de sala y simplemente utilizar la configuración predeterminada, deje esta opción en blanco.
     
-    Si desea personalizar su experiencia de creación de sala e incluir el flujo de trabajo de negocio específicos, puede crear una solución de administración de salón personalizado mediante el uso de la persistente Chat Server Software Development Kit (SDK), que lo hospede en algún lugar y ponga aquí la dirección URL. Esta dirección URL se envía al cliente, de modo que, cuando un usuario intente ver o crear un salón, será dirigido a su solución personalizada de administración de salones.
+     Si desea personalizar su experiencia de creación de sala e incluir el flujo de trabajo de negocio específicos, puede crear una solución de administración de salón personalizado mediante el uso de la persistente Chat Server Software Development Kit (SDK), que lo hospede en algún lugar y ponga aquí la dirección URL. Esta dirección URL se envía al cliente, de modo que, cuando un usuario intente ver o crear un salón, será dirigido a su solución personalizada de administración de salones.
     
 7. Haga clic en **Confirmar**.
     

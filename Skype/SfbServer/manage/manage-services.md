@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: Este artículo describe cómo administrar los servicios que se ejecutan en un Skype de topología de servidores de negocio.
-ms.openlocfilehash: 0bf12ed7719be7804b2cb4d69e29a7d0a058e142
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7f95023416bd1b851bc5a3d3ce6185e3362ec098
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20977006"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372449"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>Administrar los servicios de Skype para Business Server
 
@@ -103,9 +103,9 @@ Puede usar Skype para el Panel de Control de servidor empresarial para iniciar o
 
 1. Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server . Puede determinar si se le ha asignado el CsServerAdministrator o un rol RBAC CsAdministrator mediante la ejecución de un comando similar al siguiente:
     
-  ```
-  Get-CsAdminRoleAssignment -Identity "kenmyer"
-  ```
+   ```
+   Get-CsAdminRoleAssignment -Identity "kenmyer"
+   ```
 
 2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial. 
 3. En la barra de navegación izquierda, haga clic en **topología** y, a continuación, haga clic en **estado**.

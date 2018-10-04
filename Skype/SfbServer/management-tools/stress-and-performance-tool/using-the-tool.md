@@ -1,5 +1,5 @@
 ---
-title: Using the Skype for Business Server 2015 Stress and Performance Tool
+title: Uso de la Skype para Business Server 2015 herramienta de esfuerzo y rendimiento
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/13/2018
@@ -9,169 +9,170 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
-description: To run the Skype for Business Server 2015 Stress and Performance Tool, you'll need to be able to manage both users, contacts and user profiles, configure the tool for running, and then review the output or results that are produced by the tool.
-ms.openlocfilehash: 5f73ef6733c2f09cdf3e06bc8a6495c743d8b423
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Para ejecutar la Skype para Business Server 2015 herramienta de esfuerzo y rendimiento, aquí necesite que puedan administrar usuarios, contactos y perfiles de usuario, configurar la herramienta para la ejecución y, a continuación, revise los resultados o los resultados producidos por la herramienta.
+ms.openlocfilehash: 829bedbd2a042234e67285045ac67cff30064936
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375442"
 ---
-# <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Using the Skype for Business Server 2015 Stress and Performance Tool
+# <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Uso de la Skype para Business Server 2015 herramienta de esfuerzo y rendimiento
  
-To run the Skype for Business Server 2015 Stress and Performance Tool, you'll need to be able to manage both users, contacts and user profiles, configure the tool for running, and then review the output or results that are produced by the tool.
+Para ejecutar la Skype para Business Server 2015 herramienta de esfuerzo y rendimiento, aquí necesite que puedan administrar usuarios, contactos y perfiles de usuario, configurar la herramienta para la ejecución y, a continuación, revise los resultados o los resultados producidos por la herramienta.
   
-There are four areas involved with running the Skype for Business Server 2015 Stress and Performance Tool (the executable is LyncPerfTool.exe):
+Hay cuatro áreas relacionadas con la que se ejecuta el Skype para Business Server 2015 herramienta de esfuerzo y rendimiento (el archivo ejecutable es LyncPerfTool.exe):
   
-- [Create Users and Contacts](using-the-tool.md#BKMK_CreateUsersAndContacts)
+- [Crear usuarios y contactos](using-the-tool.md#BKMK_CreateUsersAndContacts)
     
-- [Configure User Profile](using-the-tool.md#BKMK_UserProfile)
+- [Configurar perfiles de usuario](using-the-tool.md#BKMK_UserProfile)
     
-- [Run LyncPerfTool](using-the-tool.md#BKMK_RunTool)
+- [Ejecute LyncPerfTool](using-the-tool.md#BKMK_RunTool)
     
-- [Interpreting the Results](using-the-tool.md#BKMK_Interpret)
+- [Interpretar los resultados](using-the-tool.md#BKMK_Interpret)
     
-## <a name="create-users-and-contacts"></a>Create Users and Contacts
+## <a name="create-users-and-contacts"></a>Crear usuarios y contactos
 <a name="BKMK_CreateUsersAndContacts"> </a>
 
-You need to use the Skype for Business Server 2015 (SB 2015) User Provisioning Tool (UserProvisioningTool.exe) to create users and contacts for your stress and performance testing.
+Debe usar la Skype para la herramienta de aprovisionamiento de usuario Business Server 2015 (2015 de byte único) (UserProvisioningTool.exe) para crear usuarios y contactos de su esfuerzo y las pruebas de rendimiento.
   
-This is a list of helpful terms that might be useful as you read through the topics:
+Ésta es una lista de términos útiles que pueden ser útiles al leer a través de los temas:
   
-- **Organizational Unit** - The Active Directory Domain Services (AD DS) organizational unit (OU).
+- **Unidad organizativa** - unidad organizativa de los servicios de dominio de Active Directory (AD DS) activo (OU).
     
-- **Federated / Cross Pool** - Users who can communicate with users from other Instant Messaging (IM) services.
+- **Federados / entre el grupo de servidores** - los usuarios que pueden comunicarse con usuarios de otros servicios de mensajería instantánea (mi).
     
-- **Distribution Lists** - Or DLs. These are objects in AD DS that contain a list of AD DS users. They're used to facilitate communications across groups of people.
+- **Las listas de distribución** - o listas de distribución. Estos son objetos en AD DS que contenga una lista de usuarios de AD DS. Los utilizan para facilitar la comunicación entre los grupos de personas.
     
-- **Location Info Service** - The Skype for Business Server 2015 service that, when it's enabled and configured per phone, allows for the retrieval of physical location for Enhanced 911 (E911) services.
+- **Servicio de información de ubicación** : Skype el servicio de Business Server 2015 que, cuando ha habilitado y configurado por teléfono, permite la recuperación de ubicación física para los servicios Enhanced 911 (E911).
     
-- **U.S. Phone Numbers** - Phone numbers assigned to user in addition to the SIP URI that's used for routing inbound and outbound calls in Reverse Number Lookup (RNL).
+- **Los números de teléfono de Estados Unidos** , los números de teléfono asignados al usuario además el URI del SIP que se usa para enrutar las llamadas entrantes y salientes en búsqueda de número inversa (RNL).
     
-### <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>Create Users and Contacts by using UserProvisioningTool.exe
+### <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>Crear usuarios y contactos mediante el uso de UserProvisioningTool.exe
 
 > [!NOTE]
-> Before you even begin, be absolutely sure you're logged in as a member of the Domain Admins security group to run this tool. You need to do this, because you're going to be creating Active Directory users. 
+> Antes de comenzar, asegúrese de absolutamente que ha iniciado sesión como miembro del grupo de seguridad Administradores de dominio para ejecutar esta herramienta. Debe hacer esto, debido a que se va a crear usuarios de Active Directory. 
   
-You have to use the Skype for Business Server User Provisioning Tool to create users and contacts for load simulation.
+Se debe usar la Skype para la herramienta de aprovisionamiento de usuario empresarial Server para crear usuarios y contactos de simulación de carga.
   
-The **Skype for Business Server User Provisioning Tool** is installed with the **Skype for Business Server Stress and Performance Tool** package. Be sure that the package installer (CapacityPlanningTool.msi) has been run on the Front End Server or the Standard Edition server you intend to test.
+El **Skype para la herramienta de aprovisionamiento de usuario Business Server** se instala con el paquete de **Skype para Business Server Stress and Performance Tool** . Asegúrese de que se ha ejecutado el instalador del paquete (CapacityPlanningTool.msi) en el servidor Front-End o el servidor Standard Edition que desea probar.
   
-You can start the Skype for Business Server User Provisioning Tool by running the file UserProvisioningTool.exe (located at %InstalledDirectory%LyncStressAndPerfTool\LyncStress) on the Front End Server or on the Standard Edition server.
+Puede iniciar el Skype para la herramienta de aprovisionamiento de usuario empresarial Server ejecutando el archivo UserProvisioningTool.exe (que se encuentra en % InstalledDirectory%LyncStressAndPerfTool\LyncStress) en el servidor Front-End o en el servidor Standard Edition.
   
 > [!IMPORTANT]
-> When you create a large number of users (for example, 10,000 or more), run the UserProvisioningTool.exe. You'll need to do this because the tool will be creating and configuring  *new*  AD users.
+> Cuando se crea un gran número de usuarios (por ejemplo, 10.000 o más), ejecute el UserProvisioningTool.exe. Debe hacerlo porque la herramienta se puede crear y configurar usuarios *nuevo* AD.
   
-When the User Provisioning Tool opens, click Configuration and select the Load Configuration. 
+Cuando se abre la herramienta de aprovisionamiento de usuario, haga clic en configuración y seleccione la configuración de carga. 
   
-To begin configuring users and contacts, load the default file included with the package, called "SampleData.xml". This will prepopulate fields with sample data that you'll need to change to make it relevant for your deployment.
+Para empezar a configurar los usuarios y contactos, cargar el archivo predeterminado incluido con el paquete, llamado "SampleData.xml". Esto va a rellenar automáticamente los campos con datos de ejemplo que necesita cambiar para que sea relevante para la implementación.
   
-If you have a preconfigured XML file that already contains your customized settings, you can load that file instead. Fill in the fields in the User Provisioning Tool, as described in the sections below.
+Si tiene un archivo XML preconfigurado que ya contiene la configuración personalizada, se puede cargar ese archivo en su lugar. Rellene los campos en la herramienta de aprovisionamiento de usuario, tal como se describe en las secciones siguientes.
   
-### <a name="to-configure-server-options"></a>To configure server options:
+### <a name="to-configure-server-options"></a>Para configurar las opciones de servidor:
 
-1. In the **Front End Pool FQDN** field, type the fully qualified domain name (FQDN) of the Standard Edition server, or the Front End pool where you want to host the users.
+1. En el campo **FQDN de grupo de servidores Front-End** , escriba el nombre de dominio completo (FQDN) del servidor Standard Edition o el grupo de servidores Front-End donde desea hospedar los usuarios.
     
-2. In the **User Name Prefix** field, type a prefix that you want to use to bust your user names for testing purposes (such as "TestUser").
+2. En el campo **Prefijo de nombre de usuario** , escriba el prefijo que se desea usar para bust los nombres de usuario para realizar pruebas (por ejemplo, "usuario de prueba").
     
-3. In the **Password** field, type a password that will be used across all the test user accounts.
+3. En el campo **contraseña** , escriba una contraseña que se va a usar en todas las cuentas de usuario de prueba.
     
-4. In the **Account Domain** field, type the domain name of your current AD domain (the one in which you want to create your test users).
+4. En el campo de la **Cuenta de dominio** , escriba el nombre de dominio de su dominio de Active Directory actual (el uno en el que desea crear los usuarios de prueba).
     
-5. In the **Organizational Unit** field, type the name of the AD domain where you want to create these test users. (If the OU doesn't already exist, it'll be created for you).
+5. En el campo **Unidad organizativa** , escriba el nombre de dominio de Active Directory donde desea crear estos usuarios de prueba. (Si ya no existe la unidad organizativa, éste podrá ser creado).
     
-6. In the **Phone Area Code** field, type the three-digit area code to be used across all test user accounts. Make certain that the area code you chose doesn't conflict with other users' area codes in AD.
+6. En el campo **código de área de teléfono** , escriba el código de área de tres dígitos que se usará en todas las cuentas de usuario de prueba. Asegúrese de que el código de área elegida no entre en conflicto con los códigos de área de los demás usuarios en AD.
     
-7. Click to select the **Voice Enabled** check box, if you want to enable the test users for Enterprise Voice.
+7. Haga clic para seleccionar la casilla de verificación **Habilitado para voz** , si desea habilitar a los usuarios de prueba para Enterprise Voice.
     
-8. In the **Number of Users** field, give the total number of test users you want to create.
+8. En el campo **Número de usuarios** , asigne el número total de usuarios de prueba que desea crear.
     
-9. In the **Start Index** field, give the starting number that'll be used as a suffix to the user name prefix (for example, the prefix is "TestUser", and the first name will end in "0" in the example below.)
+9. En el campo **Índice iniciar** , asigne el número inicial que se van a utilizar como un sufijo para el prefijo de nombre de usuario (por ejemplo, el prefijo es "Usuario de prueba" y finalizará el primer nombre en "0" en el ejemplo siguiente).
     
      ![Herramienta de aprovisionamiento de usuarios donde se muestra la ficha Creación de usuario.](../../media/591d8280-8979-4a8c-83bc-af126e87bf29.png)
   
-#### <a name="create-users-button"></a>Create Users button
+#### <a name="create-users-button"></a>Crear el botón de los usuarios
 
-When you click on the **Create Users** button, the input parameters you've entered are validated. If there are any validation errors, you'll be prompted to fix them. Or, if all the values are correct, users will start appearing in AD (in whichever OU you specified). You'll see a progress bar at the bottom of the tool as it runs. Don't close the application while the progress bar is active.
+Al hacer clic en el botón **Crear usuarios** , se validan los parámetros de entrada que ha especificado. Si hay errores de validación, se le pedirá a corregirlos. O bien, si todos los valores son correctos, los usuarios se iniciarán aparezca en AD (en cualquier unidad organizativa que especificó). Verá una barra de progreso en la parte inferior de la herramienta se ejecuta. No cierre la aplicación mientras está activa la barra de progreso.
   
-User creation takes time, so please plan accordingly. This process can take anywhere from several minutes for a few users, to a few hours for a large number of users.
+Creación de usuario tarda, así pues, el plan de según corresponda. Este proceso puede tardar desde varios minutos para unos pocos usuarios, unas cuantas horas para un gran número de usuarios.
   
-If you don't have access to the AD Domain Controller in your test environment, you can still validate user creation by logging in as one of the users in the range of users you specified to create. Remember to use the prefix, and the suffix, along with the @sipDomain as the username. Here is an example:  *TestUser20@contoso.net*  .
+Si no tiene acceso al controlador de dominio de Active Directory en su entorno de prueba, todavía puede validar la creación del usuario al iniciar sesión como uno de los usuarios en el intervalo de usuarios especificado para crear. Recuerde que debe usar el prefijo y el sufijo, junto con el @sipDomain como el nombre de usuario. Este es un ejemplo: <em>TestUser20@contoso.net</em> .
   
 > [!NOTE]
-> If the users already exist, clicking the Create Users button will update them with any configuration changes. 
+> Si los usuarios ya existen, al hacer clic en el botón Crear usuarios actualizará con los cambios de configuración. 
   
-#### <a name="delete-users-button"></a>Delete Users button
+#### <a name="delete-users-button"></a>Eliminar botón usuarios
 
-When you click on the **Delete Users** button, the tab's input parameters will be validated. If there are validation errors, you'll be prompted to fix them, and if the input values are correct, the specified test users will be disabled and deleted from Active Directory. Again, a progress bar will appear on the bottom of this tab, and you shouldn't close the application while the progress bar is active.
+Al hacer clic en el botón **Eliminar usuarios** , se validará los parámetros de entrada de la ficha. Si hay errores de validación, se le pedirá corregirlos, y si los valores de entrada son correctos, los usuarios de prueba especificado se deshabilita y se eliminará de Active Directory. Una vez más, aparecerá una barra de progreso en la parte inferior de esta ficha y no debe cerrar la aplicación mientras está activa la barra de progreso.
   
 > [!NOTE]
-> Only U.S.-formatted phone numbers are supported. Phone numbers are always assigned to users, and all users created by UserProvisioningTool.exe are enabled for Enterprise Voice by default. Any scenarios that use the phone number, such as Conferencing Auto Attendant or UC-PSTN calls, use this phone number to properly route calls. For this reason,  *every user*  must have a *unique phone number*  .
+> Se admiten sólo los números de teléfono con formato de Estados Unidos. Los números de teléfono siempre se asignan a los usuarios y todos los usuarios creados por UserProvisioningTool.exe están habilitados para Enterprise Voice de forma predeterminada. Los escenarios que usan el número de teléfono, como operador automático de conferencia o llamadas de UC-RTC, use este número de teléfono para enrutar las llamadas correctamente. Por este motivo, *cada usuario* debe tener un *número de teléfono único* .
   
 > [!NOTE]
-> **If you have to create users twice, the command will fail unless you use a different area code, or if the previous users have been disabled by using the Disable-CsUser cmdlet.**
+> **Si tiene que crear dos veces a los usuarios, se producirá un error en el comando a menos que utilice un código de área diferente, o si se han deshabilitado los usuarios anteriores mediante el cmdlet Disable-CsUser.**
   
 > [!IMPORTANT]
-> Before you create contacts, you first need to complete user replication (which is done from the Users tab). 
+> Antes de crear contactos, primero debe completar la replicación de usuarios (que se realiza desde la ficha de los usuarios). 
   
 > [!IMPORTANT]
-> If you've just created your users, you'll need to wait until Skype for Business Server replication completes and populates the user accounts in the database. **If the users haven't finished replicating, you'll see an error.** You'll know when users have finished replicating if the Skype for Business Server 2015 Front End service has started, or by successfully running the Get-CsUser cmdlet on the last user of the total number you specified.
+> Si se acaba de crear los usuarios, debe esperar hasta que Skype para la replicación del servidor empresarial completa y rellena las cuentas de usuario en la base de datos. **Si los usuarios no ha terminado de replicar, verá un error.** Sabrá cuando los usuarios hayan terminado de replicar si se ha iniciado la Skype para el servicio Front-End de Business Server 2015, o mediante la ejecución del cmdlet Get-CsUser de correctamente en el último usuario del número total especificado.
   
-#### <a name="contacts-creation-tab"></a>Contacts Creation tab
+#### <a name="contacts-creation-tab"></a>Ficha de creación de contactos
 
-This tab lets you give users' contacts details for your testing.
+Esta ficha permite proporcionar detalles de los contactos de los usuarios para las pruebas.
   
 ![Herramienta Aprovisionamiento de usuarios donde se muestra la pestaña Creación de contenido.](../../media/dfb7fdf1-fb97-4e8e-8608-c4995f95dd5b.png)
   
-### <a name="to-configure-users-contacts-do-the-following"></a>To configure users' contacts, do the following:
+### <a name="to-configure-users-contacts-do-the-following"></a>Para configurar los contactos de los usuarios, haga lo siguiente:
 
-1. In the **Average Contacts per User** field, enter the average number of contacts to populate in contact lists for each user.
+1. En el campo **Contactos promedio por usuario** , escriba el número promedio de contactos para rellenar en las listas de contactos para cada usuario.
     
-2. Select the **Fixed** check box if you want to create an equal number of contacts for every user. If you want to vary the number of contacts created for users, clear that check box.
+2. Seleccione la casilla de verificación **fijo** si desea crear un número igual de contactos para todos los usuarios. Si desea variar el número de contactos creados para los usuarios, desactive dicha casilla de verificación.
     
-3. In the **Average Contact Groups per User** field, enter the number of contact groups per user. This number needs to be smaller than **Average Contacts per User**.
+3. En el campo **Promedio grupos de contactos por usuario** , escriba el número de grupos de contactos por usuario. Este número debe ser menor que el **Promedio de contactos por usuario**.
     
-4. In the **Federated / Cross Pool Contacts Percentage** field, give a number between 0 and 100. This percentage of contacts will be created with the federated users.
+4. En el campo **federados / cruce el porcentaje de los contactos del grupo de servidores** , asigne un número entre 0 y 100. Este porcentaje de contactos se creará con los usuarios federados.
     
-5. In the **Federated / Cross Pool User Prefix** field, give the username for federated users that will be added to the contact lists of local users.
+5. En el campo **federados / cruce prefijo de usuario del grupo de servidores** , asigne el nombre de usuario para los usuarios federados que se agregará a las listas de contactos de los usuarios locales.
     
-6. In the **Federated / Cross Pool User SIP Domain** field, give the SIP Domain Name of the federated users.
+6. En el campo **federados / cruce el dominio SIP de usuario de grupo de servidores** , asigne el nombre de dominio SIP de los usuarios federados.
     
-7. In **User Creation** tab make sure the information is correct. Your contacts will be created from values on the User Creation tab.
+7. En la ficha de **Creación de usuario** Asegúrese de que la información es correcta. Los contactos se crearán de valores en la ficha de creación de usuario.
     
-8. Click **Create Contacts** to begin the contact creation. This process can take several minutes. After it completes, a dialog box will appear with the message, "Operation Completed Successfully." You can validate the contacts that were created by logging on as a user that was created from the User Creation tab.
+8. Haga clic en **Crear contactos** para comenzar la creación de contactos. Este proceso puede tardar varios minutos. Una vez completada, aparecerá un cuadro de diálogo con el mensaje "operación se realizó correctamente." Puede validar los contactos a los que se crearon mediante inicio de sesión como un usuario que se creó desde la ficha de creación de usuario.
     
 > [!NOTE]
-> After the contacts are created, this tool will restart all the Front End Servers in the target pool. It may take longer (up to 2 hours) for the Front End Servers to start, depending on how many contacts were created by this operation. 
+> Después de crean los contactos, esta herramienta reiniciará todos los servidores Front-End del grupo de servidores de destino. Puede tardar más tiempo (hasta 2 horas) para los servidores Front-End iniciar, según la cantidad de contactos se crearon por esta operación. 
   
-#### <a name="distribution-list"></a>Distribution List
+#### <a name="distribution-list"></a>Lista de distribución
 
-The Skype for Business Server 2015 Stress and Performance Tool can simulate the Distribution List (DL) expansion feature in the Skype for Business 2015 client. You can skip this step if you don't intend to enable DL expansion in the User Provisioning tool.
+El Skype para Business Server 2015 herramienta de esfuerzo y rendimiento puede simular la característica de expansión de lista de distribución (DL) de la Skype para cliente empresarial 2015. Puede omitir este paso si no desea habilitar la expansión de DL en la herramienta de aprovisionamiento de los usuarios.
   
 ![Herramienta Aprovisionamiento de usuarios donde se muestra la ficha Creación de lista de distribución.](../../media/4b689306-70c4-4569-9842-15c73f038eb6.png)
   
-The Distribution List tab allows you to create DLs that the Stress and Performance Tool will use for Distribution List Expansion feature. Before creating DLs, Skype for Business Server 2015 needs to be deployed, including having run ForestPrep. If this isn't done, the DL attributes will not exist in the AD schema, so the tool won't be able to create DLs.
+La ficha lista de distribución permite crear listas de distribución que va a usar la herramienta de rendimiento y esfuerzo para la característica de expansión de lista de distribución. Antes de crear listas de distribución, Skype para Business Server 2015 debe implementarse, incluida la necesidad de ejecutar ForestPrep. Si no se ha hecho esto, los atributos de la lista de distribución no existe en el esquema de Active Directory, por lo que la herramienta no podrá crear listas de distribución.
   
-### <a name="to-configure-distribution-lists"></a>To configure Distribution Lists:
+### <a name="to-configure-distribution-lists"></a>Para configurar las listas de distribución:
 
-1. In the **Number of Distribution Lists** field, give the total number of DLs you want to create (The recommendation here is that you start with a value that is double the number of users you have.).
+1. En el campo **Número de listas de distribución** , asigne el número total de listas de distribución que desea crear (aquí la recomendación es que comience con un valor que es el doble del número de usuarios tiene.).
     
-2. In the **Distribution List Prefix** field, enter a prefix that all the DLs you create will have, for example *testDL*  . That means, at 100 DLs, your DL names will look like: testDL0, testDL1, up to testDL99.
+2. En el campo **Prefijo de la lista de distribución** , introduzca un prefijo que se va a tener todas las listas de distribución se crea, por ejemplo *testDL* . Esto significa que, en 100 listas de distribución, los nombres de DL tendrá el siguiente aspecto: testDL0, testDL1, hasta testDL99.
     
-3. In the **Minimum Members in a Dist. List** field, enter the minimum number of users to put in each DL.
+3. En el campo **Mínimo miembros en una lista de distribución** , escriba el número mínimo de usuarios para poner en cada lista de distribución.
     
-4. In the **Maximum Members in a Dist. List** field, enter the maximum number of users to add in each DL.
+4. En el campo **Número máximo de miembros en una lista de distribución** , escriba el número máximo de usuarios para agregar en cada lista de distribución.
     
-#### <a name="create-distribution-lists-button"></a>Create Distribution Lists button
+#### <a name="create-distribution-lists-button"></a>Crear listas de distribución de botón
 
-When you click the Create Distribution Lists button, the tool queries Active Directory to see if distribution lists matching the prefix and numbers already exist. The tool creates any DLs that don't already exist. When adding members to these newly created Distribution Lists, it'll choose the users from the range specified on the User Creation tab.
+Al hacer clic en el botón Crear listas de distribución, la herramienta consulta Active Directory para ver si las listas de distribución que coincidan con que el prefijo y los números ya existen. La herramienta crea las listas de distribución que aún no existen. Al agregar miembros a estas recién creado las listas de distribución, elegir los usuarios desde el intervalo especificado en la ficha de creación de usuario.
   
-#### <a name="location-info-service-config-tab"></a>Location Info Service Config tab
+#### <a name="location-info-service-config-tab"></a>Ficha de configuración del servicio de información de ubicación
 
-The Skype for Business Server 2015 Stress and Performance Tool can also generate dummy configuration files for the Location Information Service. Note that the Location Information Service typically doesn't have significant performance impact on the servers. 
+El Skype para Business Server 2015 herramienta de esfuerzo y rendimiento también puede generar los archivos de configuración ficticio para el servicio de información de ubicación. Tenga en cuenta que el servicio de información de ubicación normalmente no tiene impacto significativas del rendimiento en los servidores. 
   
 ![Herramienta Aprovisionamiento de usuarios donde se muestra la pestaña Configuración del servicio de información de ubicaciones.](../../media/227662a2-e0c3-4e34-ab54-5f1459344f30.png)
   
-Si decide probar esta función, rellene los valores en el formulario y haga clic en el botón Generar archivos de configuración de LIS, que va a crear. Se llaman archivos CSV:
+Si decide probar esta característica, rellene los valores en el formulario y haga clic en el botón Generar archivos de configuración de LIS, que va a crear. Llaman a los archivos CSV:
   
 - LIS_Subnet.csv
     
@@ -181,7 +182,7 @@ Si decide probar esta función, rellene los valores en el formulario y haga clic
     
 - LIS_WAP.csv
     
-To import these files into the LIS database use these PowerShell cmdlets:
+Para importar estos archivos en la base de datos LIS usan estos cmdlets de PowerShell:
   
 - Set-CsLisSubnet
     
@@ -191,188 +192,188 @@ To import these files into the LIS database use these PowerShell cmdlets:
     
 - Set-CsWirelessAccessPoint
     
-## <a name="configure-user-profile"></a>Configure User Profile
+## <a name="configure-user-profile"></a>Configurar perfiles de usuario
 <a name="BKMK_UserProfile"> </a>
 
-After your users are created (via the User Creation Tool) you can configure user profiles with the Skype for Business Server 2015 Load Configuration tool (UserProfileGenerator.exe).
+Después de que se crean los usuarios (a través de la herramienta de creación de usuario) puede configurar los perfiles de usuario con el Skype para la herramienta de configuración de carga de Business Server 2015 (UserProfileGenerator.exe).
   
-### <a name="running-the-skype-for-business-server-2015-load-configuration-tool"></a>Running the Skype for Business Server 2015 Load Configuration tool
+### <a name="running-the-skype-for-business-server-2015-load-configuration-tool"></a>Ejecuta la Skype para la herramienta de configuración de carga de Business Server 2015
 
-Start the Load Configuration tool (UserProfileGenerator.exe) and fill in the tabs. This tool creates a directory for each of the client computers that you'll need to run your simulations. Each client directory comes with a script to start the Skype for Business Server 2015 Stress and Performance tool (LyncPerfTool.exe). The sections below will give examples of how to fill in the fields on each tab of the Skype for Business Server 2015 Load Configuration tool.
+Iniciar la herramienta de configuración de carga (UserProfileGenerator.exe) y rellene las fichas. Esta herramienta crea un directorio para cada uno de los clientes de equipos que necesita ejecutar sus simulaciones. Cada directorio de cliente incluye una secuencia de comandos para iniciar el Skype para Business Server 2015 herramienta de esfuerzo y rendimiento (LyncPerfTool.exe). En las secciones siguientes proporciona ejemplos de cómo rellenar los campos de cada ficha de la Skype para la herramienta de configuración de carga de Business Server 2015.
   
 > [!IMPORTANT]
-> The user-specific values used in the Load Configuration tool (UserProfileGenerator.exe) must match the values specified in the Skype for Business Server 2015 User Creation Tool (UserProvisioningTool.exe) for the pool. 
+> Los valores específicos del usuario utilizados en la herramienta de configuración de carga (UserProfileGenerator.exe) deben coincidir con los valores especificados en el Skype para la herramienta de creación de Business Server 2015 usuario (UserProvisioningTool.exe) para el grupo de servidores. 
   
-#### <a name="common-configuration-tab"></a>Ficha Configuración común
+#### <a name="common-configuration-tab"></a>Ficha de configuración común
 
-The **Common Configuration** tab of the Load Configuration Tool is shown below. Fill in the fields of the Common Configuration tab, as described in the following steps.
+A continuación se muestra la ficha de **Configuración común** de la herramienta de configuración de carga. Rellene los campos de la ficha de configuración común, tal como se describe en los pasos siguientes.
   
 ![Pestaña Aprovisionamiento de usuarios donde se muestra la pestaña Configuración común.](../../media/c25df343-3550-47fb-88e0-29194338fee2.png)
   
-1. In the **Number of Available Machines** field, type the number of computers you want to use to run the Stress and Performance tool (LyncPerfTool.exe). We recommend that you have one computer for every 4500 users you'll be simulating, but that number may vary if you reduce the load level, or use only a subset of the tool's available features (Load levels are set on the General Scenarios tab).
+1. En el campo **Número de máquinas disponibles** , escriba el número de equipos que desea usar para ejecutar la herramienta de esfuerzo y rendimiento (LyncPerfTool.exe). Se recomienda que tiene un equipo para cada 4500 usuarios que aquí se simulando, pero ese número puede variar si reducir el nivel de carga, o usar sólo un subconjunto de características disponibles de la herramienta (en la ficha General escenarios se establecen los niveles de carga).
     
-2. In the **Prefix for User Names** field, enter a prefix for the user name field of all users. To log in the Uniform Resource Identifier (URI) will be: *UserPrefix[User Start Index…(Number Of Users-1)]@User Domain*  , for example, myUser009@Contoso.com.
+2. En el campo **prefijo para los nombres de usuario** , escriba un prefijo para el campo de nombre de usuario de todos los usuarios. Para iniciar sesión en el identificador uniforme de recursos (URI) será: *UserPrefix [usuario iniciar Index... (Número de usuarios-1)] @User dominio* , por ejemplo, myUser009@Contoso.com.
     
-3. In the **Password for All Users** field, enter the password used during creation of the users. If you leave this field empty the username will be set as the password.
+3. En el campo **contraseña para todos los usuarios** , escriba la contraseña que se utiliza durante la creación de los usuarios. Si deja este campo en blanco se establecerá el nombre de usuario como la contraseña.
     
-4. In the **User Start Index** field, enter the index of the first user to be configured. You can configure different ranges for different types or levels of load, but you must run the Load Configuration tool (UserProfileGenerator.exe) once per the range you want to configure.
+4. En el campo de **Índice de inicio del usuario** , escriba el índice del primer usuario que desea configurar. Puede configurar intervalos diferentes para distintos tipos o niveles de carga, pero debe ejecutar la herramienta de configuración de carga (UserProfileGenerator.exe) una vez por el intervalo que desee configurar.
     
-5. In the **Number of Users** field, enter the total number of users you're going to configure.
+5. En el campo **Número de usuarios** , escriba el número total de usuarios que va a configurar.
     
-6. In the **User Domain** field, enter the domain used for the SIP URI. This is used to construct the SIP URI of each user to log on to the Skype for Business Server 2015 Front End Server or Standard Edition server, and may be different from the Account Domain.
+6. En el campo **Dominio de usuario** , escriba el dominio del URI del SIP. Esto se utiliza para construir el URI del SIP de cada usuario para iniciar sesión en el Skype para profesionales de 2015 Front-End Server o servidor Standard Edition y puede ser diferente de la cuenta de dominio.
     
-7. In the **Account Domain** field, enter the AD DS domain logon.
+7. En el campo de la **Cuenta de dominio** , escriba el inicio de sesión de dominio de AD DS.
     
-8. In the **MPOP Percentage** (Multiple Point of Presence percentage) field, give a value for the percentage of users that are logged on from multiple machines or devices, for example 10 percent.
+8. En el campo **Porcentaje de MPOP** (porcentaje de varios puntos de presencia), proporcionar un valor para el porcentaje de usuarios que han iniciado sesión desde varios equipos o dispositivos, por ejemplo un 10 por ciento.
     
-9. Enter the maximum number of concurrent endpoints in the **Sign in Per Second (per Instance)** field. This is the maximum number of log ins for your users, and the recommendation is a rate of less than/equal to 2 per second (<=2).
+9. Escriba el número máximo de usuarios simultáneos extremos en el campo **iniciar sesión por la segunda (por cada instancia)** . Esto es el máximo número de inicios de sesión para los usuarios y la recomendación es una velocidad menor que o igual a 2 por segundo (< = 2).
     
-10. In the **Access Proxy or Pool FQDN** field, enter the fully qualified domain name (FQDN) of the server you want the clients to connect to. If the users are logging on externally, you'll need to type the access proxy. Si los usuarios son internos, asigne el FQDN de su servidor de grupo de servidores Enterprise o Standard Edition.
+10. En el campo **servidor Proxy de acceso o el FQDN del grupo de servidores** , escriba el nombre de dominio completo (FQDN) del servidor que desea que los clientes para conectarse a. Si los usuarios inician sesión en externamente, debe escribir al proxy de acceso. Si los usuarios son internos, proporcione el FQDN de su grupo de servidores Enterprise o servidor Standard Edition.
     
-11. En el campo **puerto** , especifique el puerto que desea que los usuarios utilicen para SIP (el valor predeterminado es 5061).
+11. En el campo **puerto** , especifique el puerto que desea que los usuarios que se usará para SIP (el valor predeterminado es 5061).
     
-12. For the **External Network Server Settings** field, give the Access Proxy or Pool FQDN and, again, the **Port**. These settings are used only for External endpoints load simulation.
+12. Para el campo de la **Configuración del servidor de red externo** , proporcione el Proxy de acceso o FQDN del grupo de servidores y, de nuevo, el **puerto**. Estas opciones se usan únicamente para simulación de carga de extremos externos.
     
-#### <a name="general-scenarios-tab"></a>Ficha de casos generales
+#### <a name="general-scenarios-tab"></a>Ficha General escenarios
 
 ![Herramienta de configuración de carga donde se muestra la ficha Escenarios generales.](../../media/45792e57-4322-4c20-956f-fe480b0de1a7.png)
   
-You can configure the load levels and parameters for each of the general scenarios offered by determining what you want to run or leave disabled. Here are your general options:
+Puede configurar los parámetros y los niveles de carga para cada uno de los escenarios generales que ofrece mediante la determinación de qué desea ejecutar o deje deshabilitado. Estas son las opciones generales:
   
 > [!NOTE]
-> Valores de nivel de carga para todos los campos excepto los servicios de información Local están **desactivado**, **bajo**, **medio**, **alto**o **personalizado**. If you select any setting but Disabled, then configurations are generated for each client. Resultados de alta en la carga máxima compatible en el servidor; medio es el 60% de la carga elevada; bajo es del 30%. 
+> Valores de nivel de carga para todos los campos excepto los servicios locales de información están **deshabilitados**, **baja**, **Media**, **alta**o **personalizada**. Si selecciona cualquier opción pero deshabilitados, las configuraciones se generan para cada cliente. Resultados de alta en la carga máxima admitido en el servidor; medio es 60% de carga alta; bajo es 30%. 
   
-- **Mensajería instantánea:** Esto incluye peer-to-peer y conferencias; elegir el valor apropiado para el nivel de carga.
+- **Mensajería instantánea:** Esto incluye punto a punto y conferencias; Elija el valor apropiado para el nivel de carga.
     
-- **Audio Conferencing -** Choose a load level for audio conferencing *only*  . Llamadas de punto a punto se abordarse más adelante en la sección **Escenarios de voz** . Abra la ficha **Opciones avanzadas** para habilitar MultiView.
+- **Conferencias de audio-** Elija un nivel de carga para conferencias de audio *únicamente* . Las llamadas de punto a punto se va a abordar un poco más adelante en la sección de **Escenarios de voz** . Abra la ficha **Opciones avanzadas** para habilitar MultiView.
     
-- **Uso compartido de aplicaciones:** Elija un nivel de carga para el uso compartido de aplicaciones.
+- **Uso compartido de aplicaciones-** Elija un nivel de carga para uso compartido de aplicaciones.
     
-- **Data Collaboration -** Choose a load level for data collaboration, which includes data conferencing.
+- **Colaboración de datos:** Elija un nivel de carga para colaboración de datos, que incluye la conferencia de datos.
     
-- **Distribution List Expansion -** Click the **Advanced** button and fill in the field with the same values configured on the DL tab of the User Creation Tool (UserProvisioningTool.exe). Elija un nivel de carga.
+- **Expansión de la lista de distribución:** Haga clic en el botón **Opciones avanzadas** y rellena el campo con los mismos valores que se configura en la ficha lista de distribución de la herramienta de creación de usuario (UserProvisioningTool.exe). Elija un nivel de carga.
     
-- **Consulta de Web de libreta de direcciones-** Esto es el servicio de búsqueda de la libreta de direcciones en lugar de la descarga del archivo de libreta de direcciones. If you want to enable this for address book file downloads, click the **Advanced** button and set **EnableABSDownload** to True. Proporcionar un valor para el nivel de carga.
+- **Consulta Web de libreta de direcciones-** Esto es el servicio de búsqueda de la libreta de direcciones, en lugar de la descarga de archivos de la libreta de direcciones. Si desea habilitar esta opción para descargas de archivo de la libreta de direcciones, haga clic en el botón **Opciones avanzadas** y establecer **EnableABSDownload** en True. Proporcione un valor para el nivel de carga.
     
-- **Servicio de grupo de respuesta-** Haga clic en el botón **Opciones avanzadas** y especifique a las direcciones URI de los grupos de respuesta que ya creó cuando aprovisiona agentes de Servicio de grupo de respuesta. You must choose at least one response group. Para utilizar más, separar los grupos de respuesta con punto y coma. Actualización **RGSUriSuffixStartIndex** y **RGSUriSuffixEndIndex** a los valores reales. Elija un nivel de carga.
+- **Servicio de grupo de respuesta:** Haga clic en el botón **Opciones avanzadas** y especifique al URI de los grupos de respuesta que ya creó al aprovisionar los agentes del servicio de grupo de respuesta. Debe elegir al menos un grupo de respuesta. Para usar más información, separe los grupos de respuesta con punto y coma. Actualice **RGSUriSuffixStartIndex** y **RGSUriSuffixEndIndex** a los valores reales. Elija un nivel de carga.
     
 - **Servicios de información de ubicación:** Seleccione un nivel de carga de habilitado o deshabilitado.
     
 > [!NOTE]
-> Cada uno de los escenarios tiene un botón avanzadas que se encuentra junto a la base de datos y un conjunto de casillas de verificación que permiten variaciones en el valor predeterminado. 
+> Cada uno de los escenarios tiene un botón avanzadas que se encuentra junto a la base de datos y un conjunto de casillas de verificación que les permiten a las variaciones en el valor predeterminado. 
   
-- Elegir *Ad-hoc* permitirá la herramienta generar la simulación de conferencias que se crearán a lo largo de la hora.
+- Elección de *Ad-hoc* le permitirá la herramienta generar la simulación de conferencias que se crearán a lo largo de la hora.
     
-- Si selecciona *Conf grande* significa que se simulará un gran escenario de conferencia.
+- Si selecciona *Conf grande* significa que se deben simular en un escenario de conferencia grande.
     
 -  *Externo* , indica a la herramienta para simular también los usuarios externos.
     
-Estos botones y casillas de verificación son valores adicionales específicos para cada escenario y se cambia el comportamiento de la herramienta de rendimiento y esfuerzo y hacen posible la personalización.
+Estas casillas de verificación y los botones son valores adicionales específicos para cada escenario y va a cambiar el comportamiento de la herramienta de rendimiento y esfuerzo y permiten la personalización.
   
-Para cada escenario en la ficha General escenarios (excepto para los servicios de información de ubicación), si el valor del nivel de carga es **personalizada**, a continuación, la velocidad de la conversación se calculará utilizando el campo correspondiente en el cuadro de diálogo Opciones avanzadas. El nombre de campo puede diferir, dependiendo del escenario, pero indicará la descripción del campo: *Nota: este número se utilizará sólo si se selecciona personalizado en el menú desplegable* .
+Para cada escenario en la ficha General escenarios (excepto por los servicios de información de ubicación), si el valor de nivel de carga es **personalizada**, a continuación, la tasa de conversación se calcularán utilizando el campo correspondiente en el cuadro de diálogo Opciones avanzadas. El nombre de campo puede diferir, dependiendo del escenario, pero la descripción del campo se de estado: *Nota: este número solo se usará si se selecciona personalizado en el menú desplegable* .
   
-Los valores **alto**, **medio**y **bajo**, modificará los índices de conversación por modalidad en consonancia con el modelo de usuario es un equilibrio de todos los escenarios. Si hay una necesidad de cambiar el nivel de carga por modalidad debido a una diferencia en el uso esperado, utilice una velocidad de conversación personalizado.
+Los valores de **alta**, **Media**y **baja**, modificará las tasas de conversación por modalidad en línea con el modelo de usuario que es un equilibrio de todos los escenarios. Si no hay necesidad de cambiar el nivel de carga por modalidad debido a una diferencia en uso esperado, utilice una velocidad de conversación personalizada.
   
 #### <a name="voice-scenarios-tab"></a>Ficha de escenarios de voz
 
-Se trata de la ficha de configuración de todos los escenarios relacionados con la voz.
+Ésta es la ficha para la configuración de todos los escenarios de relacionadas con la voz.
   
 ![Herramienta de configuración de carga, ficha Escenarios de voz.](../../media/042e406f-5156-4095-a4eb-6298f24bb51f.png)
   
 Las opciones son:
   
-- **VoIP:** Haga clic en el botón **Opciones avanzadas** y agregue valores para los campos de PhoneAreaCode y LocationProfile (dial plan). También le dará un valor de nivel de carga. Si elige un nivel de carga para VoIP o UC/puerta de enlace PSTN habilitada, a continuación, una red telefónica pública conmutada (PSTN) para comunicaciones unificadas (UC) se generará el archivo de configuración para simular llamadas externas.
+- **VoIP-** Haga clic en el botón **Opciones avanzadas** y agregue los valores de los campos de PhoneAreaCode y LocationProfile (plan de marcado). También deberá dar a un valor para el nivel de carga. Si elige un nivel de carga para VoIP o UC o puerta de enlace RTC habilitada, a continuación, una red telefónica pública conmutada (RTC) para las comunicaciones unificadas (UC) se generará el archivo de configuración para simular las llamadas externas.
     
-- **Puerta de enlace PSTN/UC-** Debe elegir un valor de nivel de carga, y cuando elija algo distinto deshabilitado, también tienes que proporcionar un valor para el código de área PSTN haciendo clic en el botón **Avanzadas** . Haga clic en **Agregar** en el servidor de mediación y PSTN. Asegúrese de que tiene una ruta configurada para el código de área.
+- **Puerta de enlace de RTC/UC-** Debe elegir un valor de nivel de carga, y al elegir algo distinto de deshabilitado, también tiene que proporciona un valor para el código de área de RTC haciendo clic en el botón **Avanzadas** . Haga clic en **Agregar** en el servidor de mediación y la RTC. Asegúrese de que tiene una ruta configurada para el código de área.
     
     > [!TIP]
-    > Puede utilizar ambos el Skype para el Panel de Control del negocio o Skype para el Shell de administración de negocios para verificar la configuración de ruta de voz. 
+    > Puede usar cualquiera el Skype para el Panel de Control o Skype para el Shell de administración empresarial para comprobar la configuración de ruta de voz. 
   
-- **Operador de conferencia:** Proporcione un valor para el nivel de carga. Cualquier valor distinto de deshabilitado habilitará el campo de **Número de teléfono** . Escriba el número de teléfono del Operador automático que desea utilizar. Haga clic en **Avanzadas** y proporcionar un valor para el campo **LocationProfile** .
+- **Operador de conferencia:** Proporcionar un valor para el nivel de carga. Cualquier valor distinto de deshabilitado habilitará el campo **Número de teléfono** . Escriba el número de teléfono del operador automático que desea usar. Haga clic en **Avanzadas** y proporcionar un valor para el campo **LocationProfile** .
     
-- **Llame al servicio de estacionamiento:** A continuación, proporcionar un nivel de carga.
+- **Llame al servicio de estacionamiento-** En este caso, proporcionar un nivel de carga.
     
-- **Servidor de mediación y PSTN-** Cada servidor de mediación que desea usar necesita su propio simulador PSTN. Una vez que haya determinado qué cliente va a utilizar para el simulador, configuración de su servidor de mediación para enrutar llama a ese equipo en el simulador PSTN configurado. Haga clic en el botón **Agregar** para configurar un valor para el servidor de mediación.
+- **Servidor de mediación y RTC-** Cada servidor de mediación que desea usar necesita su propio simulador de RTC. Una vez que haya determinado de cliente que va a usar para el simulador, configuración de su servidor de mediación para enrutar llamadas a ese equipo en el simulador de RTC configurado. Haga clic en el botón **Agregar** para configurar un valor para el servidor de mediación.
     
     > [!NOTE]
-    > Cada escenario tiene un botón avanzadas que se encuentra junto a ella. Cuadros de diálogo avanzados contienen valores específicos para cada escenario que modifican el comportamiento de la herramienta de rendimiento y esfuerzo y permiten la personalización. > Para cada escenario en la ficha de escenarios de la voz, si el valor del nivel de carga es **personalizada**, a continuación, la velocidad de la conversación se calculará utilizando el campo correspondiente en el cuadro de diálogo Opciones avanzadas. El nombre de campo puede diferir, dependiendo del escenario, pero indicará la descripción del campo: *Nota: este número se utilizará sólo si se selecciona personalizado en el menú desplegable* .
+    > Cada escenario tiene un botón avanzadas que se encuentra junto a ella. Cuadros de diálogo Opciones avanzadas contienen la configuración específica de cada escenario que cambia el comportamiento de la herramienta de rendimiento y esfuerzo y permiten la personalización. > Para cada escenario en la ficha de escenarios de voz, si el valor de nivel de carga es **personalizada**, a continuación, la tasa de conversación se calcularán mediante el campo correspondiente en el cuadro de diálogo Opciones avanzadas. El nombre de campo puede diferir, dependiendo del escenario, pero la descripción del campo se de estado: *Nota: este número solo se usará si se selecciona personalizado en el menú desplegable* .
   
-#### <a name="web-app-tab"></a>Ficha de la aplicación Web
+#### <a name="web-app-tab"></a>Ficha de aplicación Web
 
 ![Herramienta de configuración de carga, ficha Aplicación web.](../../media/505b54ef-8140-4dec-a43e-08091f592b34.png)
   
-Web de la aplicación admite escenarios de conferencia a través del servidor de la API de Web de comunicaciones unificadas (UCWA) que se instala en un servidor Front-End. Utilice la ficha de la aplicación Web para configurar todos los escenarios relacionados con la aplicación de web. Las opciones son:
+Aplicación Web es compatible con escenarios de conferencia a través del servidor de la API de Web de comunicaciones unificadas (UCWA) que se instala en un servidor Front-End. Utilice la ficha de la aplicación Web para configurar todos los escenarios de relacionadas con la aplicación web. Las opciones son:
   
-- **Opciones a generales de la aplicación Web:** Haga clic en el botón **Configuración adicional** y establezca la **ReachTargetServerUrl** al grupo del directorio virtual IP (VIP) del grupo de servidores Front-End VIP.
+- **Configuración de aplicación Web de general-** Haga clic en el botón de **Opciones adicionales** y establecer el **ReachTargetServerUrl** a la IP virtual del grupo de Active Directory (VIP) del grupo de servidores Front-End VIP.
     
-- **Uso compartido de aplicaciones:** Seleccione un valor para el nivel de carga.
+- **Uso compartido de aplicaciones-** Seleccione un valor para el nivel de carga.
     
-- **Colaboración de datos-** Seleccione un valor para el nivel de carga.
+- **Colaboración de datos:** Seleccione un valor para el nivel de carga.
     
 - **Mensajería instantánea:** Seleccione un valor para el nivel de carga.
     
 - **Conferencias de voz-** Seleccione un valor para el nivel de carga.
     
 > [!NOTE]
-> Cada uno de los escenarios tiene un botón de **Opciones avanzadas** situado junto a él. Cuadros de diálogo avanzados contienen valores específicos para cada escenario que permite cambiar el comportamiento de la herramienta de rendimiento y esfuerzo personalización. > para cada uno de los escenarios de la aplicación Web, si el nivel de carga es **personalizada**, a continuación, el valor especificado en el ** ConversationsPerHour** campo se utiliza en lugar del predeterminado.
+> Cada uno de los escenarios tiene un botón de **Opciones avanzadas** que se encuentra junto a ella. Cuadros de diálogo avanzados contienen valores específicos para cada escenario que se va a cambiar el comportamiento de la herramienta de rendimiento y esfuerzo y habilitar personalización. > para cada uno de los escenarios de aplicación Web, si el nivel de carga es **personalizada**, a continuación, el valor especificado en el ** ConversationsPerHour** campo se usa en lugar del predeterminado.
   
 #### <a name="mobility-tab"></a>Ficha de movilidad
 
-Utilice esta ficha para configurar todas las situaciones relacionadas con la movilidad.
+Use esta ficha para configurar todos los escenarios relacionados con la movilidad.
   
 ![Herramienta de configuración de carga, pestaña Movilidad.](../../media/30af39c2-50ea-476a-8a56-ce2ddf08517e.png)
   
-Las opciones son:
+Las opciones aquí son:
   
-- **Configuración general de movilidad:** Haga clic en **Configuración adicional** y establece el campo UcwaTargetServerUrl en la IP virtual (VIP) grupo de directores o el grupo de servidores Front-End VIP.
+- **Configuración de movilidad general:** Haga clic en **Configuración adicional** y establezca el campo UcwaTargetServerUrl en la IP virtual (VIP) del grupo de Director o el grupo de servidores Front-End VIP.
     
-- **Presencia y mensajería instantánea de P2P/Audio-** Seleccione un valor para el nivel de carga permitir la simulación de movilidad.
+- **Presencia y mensajería instantánea de P2P/Audio-** Seleccione un valor para el nivel de carga habilitar la simulación de movilidad.
     
 > [!NOTE]
-> Cada uno de los escenarios tiene un botón de **Opciones avanzadas** situado junto a él. Cuadros de diálogo avanzados contienen valores específicos para cada escenario que permite cambiar el comportamiento de la herramienta de rendimiento y esfuerzo personalización. > para cada uno de los escenarios de movilidad, si el nivel de carga es **personalizada**, a continuación, el valor especificado en el ** ConversationsPerHour** campo se utiliza en lugar del predeterminado.
+> Cada uno de los escenarios tiene un botón de **Opciones avanzadas** que se encuentra junto a ella. Cuadros de diálogo avanzados contienen valores específicos para cada escenario que se va a cambiar el comportamiento de la herramienta de rendimiento y esfuerzo y habilitar personalización. > para cada uno de los escenarios de movilidad, si el nivel de carga es **personalizada**, a continuación, el valor especificado en el ** ConversationsPerHour** campo se usa en lugar del predeterminado.
   
 #### <a name="summary-tab"></a>Ficha Resumen
 
-La ficha Resumen indica qué usuarios para cada uno de los escenarios.
+La ficha Resumen indica los usuarios que se debe usar para cada uno de los escenarios.
   
 ![Herramienta de configuración de carga, ficha Resumen.](../../media/436fb3f2-d73e-402d-bc6e-e8a6740819d2.png)
   
-La ficha Resumen indica qué usuarios para cada uno de los escenarios. 
+La ficha Resumen indica los usuarios que se debe usar para cada uno de los escenarios. 
   
-Es posible configurar manualmente los intervalos numéricos de usuario seleccionando la casilla de verificación **Habilitar generación de rango de usuario personalizado** y, a continuación, haga doble clic en el escenario en la tabla que tiene el rango de usuario que desea personalizar.
+Es posible configurar manualmente los intervalos de números de usuario mediante la selección de la casilla de verificación **Habilitar la generación de intervalo de usuario personalizada** y, a continuación, haga doble clic en el escenario en la tabla que tiene el intervalo de usuario que desea personalizar.
   
-Comprobar **(RunClient.bat) agregar signo de retraso al iniciar** para incluir retrasos en los archivos por lotes generado que corresponda a la velocidad de inicio de sesión. Esto es útil para evitar sobrecarga en el servidor al iniciar sesión en un gran número de usuarios.
+Comprobar **(RunClient.bat) agregar inicio de sesión de retraso al iniciar** para incluir los retrasos en los archivos por lotes generado para que se corresponda con la tasa de inicio de sesión. Esto es útil para evitar la sobrecarga del servidor al iniciar sesión en un gran número de usuarios.
   
 Haga clic en **Generar archivos** y seleccione la carpeta donde desea generar la configuración. Cuando los archivos se han creado correctamente, aparecerá un cuadro de diálogo.
   
 ![Cuadro de mensaje “Archivos de configuración de carga generados correctamente”. Haga clic en Aceptar.](../../media/c3c1d4a0-cb44-4837-8124-03354f5d9d8c.png)
   
-## <a name="run-lyncperftool"></a>Ejecutar LyncPerfTool
+## <a name="run-lyncperftool"></a>Ejecute LyncPerfTool
 <a name="BKMK_RunTool"> </a>
 
-Debe crear los usuarios, contactos y escenarios antes de ejecutar el Skype para Business Server 2015 herramienta Stress and Performance (LyncPerfTool.exe). Para obtener más información acerca de cómo utilizar las herramientas para realizar estas acciones, consulte [crear usuarios y contactos](using-the-tool.md#BKMK_CreateUsersAndContacts) y [Configurar el perfil de usuario](using-the-tool.md#BKMK_UserProfile) anteriormente en este artículo. Ejecutar estas herramientas también generará un archivo que se ejecutará con los parámetros necesarios que se incluye con la herramienta de rendimiento y esfuerzo como parte de un archivo por lotes.
+Debe crear los usuarios, contactos y escenarios antes de ejecutar el Skype para Business Server 2015 herramienta de esfuerzo y rendimiento (LyncPerfTool.exe). Para obtener información detallada sobre el uso de las herramientas para realizar estas acciones, vea [crear usuarios y contactos](using-the-tool.md#BKMK_CreateUsersAndContacts) y [Configurar perfiles de usuario](using-the-tool.md#BKMK_UserProfile) anteriormente en este artículo. Ejecución de estas herramientas también generará un archivo que se ejecutará con los parámetros necesarios que se incluye con la herramienta de esfuerzo y rendimiento como parte de un archivo por lotes.
   
-### <a name="running-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Ejecuta el Skype para herramientas de 2015 de Business Server Stress and Performance
+### <a name="running-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Ejecuta la Skype para herramienta Business Server 2015 Stress and Performance
 
-La herramienta de configuración de carga (UserProfileGenerator.exe) crea un archivo por lotes que le permite ejecutar la herramienta de carga y rendimiento (LyncPerfTool.exe) mediante el registro de contadores de rendimiento y carga el archivo de configuración XML. El archivo por lotes ejecuta una instancia de LyncPerfTool.exe por el archivo de configuración. Para ejecutar el archivo por lotes siga estos pasos:
+La herramienta de configuración de carga (UserProfileGenerator.exe) crea un archivo por lotes que le permite ejecutar la herramienta de esfuerzo y rendimiento (LyncPerfTool.exe) mediante el registro de contadores de rendimiento y carga el archivo de configuración XML. El archivo por lotes ejecuta una instancia de LyncPerfTool.exe por el archivo de configuración. Para ejecutar el archivo por lotes siga estos pasos:
   
-### <a name="run-the-stress-and-performance-test"></a>Ejecutar la prueba de esfuerzo y rendimiento
+### <a name="run-the-stress-and-performance-test"></a>Ejecute la prueba de esfuerzo y rendimiento
 
-1. Copie la carpeta con los archivos dentro y carpetas de configuración al directorio que se LyncPerfTool.exe en cada equipo cliente. (Por ejemplo, si ha generado los archivos de configuración en la carpeta denominada 1.28_13.16.16, copie esa carpeta a la carpeta con LyncPerfTool.exe en él. Hacer esto en cada cliente).
+1. Copie la carpeta con los archivos dentro de las carpetas de configuración en el directorio que tiene LyncPerfTool.exe en cada equipo cliente. (Por ejemplo, si genera los archivos de configuración en la carpeta denominada 1.28_13.16.16, copie esa carpeta a la carpeta con LyncPerfTool.exe en ella. Hacer esto en cada cliente.)
     
-2. Desplácese a la carpeta de cliente y ejecute la secuencia de comandos de proceso por lotes **RunClient** . Haga doble clic en el archivo por lotes en el Explorador de Windows y se ejecutará todos los archivos de configuración para ese cliente. También puede ejecutar la secuencia de comandos desde una carpeta de cliente utilizando la sintaxis siguiente:
+2. Navegue a la carpeta de cliente y ejecute la secuencia de comandos de proceso por lotes **RunClient** . Haga doble clic en el archivo por lotes en el Explorador de Windows y se ejecutará todos los archivos de configuración para que el cliente. También puede ejecutar el script desde una carpeta de cliente mediante el uso de la sintaxis siguiente:
     
-  ```
-  RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
-  ```
+   ```
+   RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
+   ```
 
-Para ejecutar la herramienta de carga y rendimiento directamente, abra un símbolo del sistema y escriba el comando siguiente en la línea de comandos (y al hacerlo por primera vez, asegúrese de registrar los contadores de rendimiento `regsvr32 /i /n /s LyncPerfToolPerf.dll`, como se muestra en la nota más adelante en este tema):
+Para ejecutar la herramienta de esfuerzo y rendimiento directamente, abra un símbolo del sistema y escriba el comando siguiente en la línea de comandos (y al hacerlo por primera vez, asegúrese de registrar los contadores de rendimiento `regsvr32 /i /n /s LyncPerfToolPerf.dll`, como se muestra en la nota más adelante en este tema):
   
 ```
 LyncPerfTool.exe /file:IM_client0.xml
 ```
 
-Para que la herramienta muestre los valores en el archivo de configuración, se incluyen los `/displayfile` parámetro en el comando anterior, por lo que TI tiene el siguiente aspecto:
+Para que la herramienta mostrar los valores en el archivo de configuración, incluir la `/displayfile` parámetro en el comando anterior, por lo que TI tiene este aspecto:
   
 ```
 LyncPerfTool.exe /file:IM_client0.xml /displayfile
@@ -381,35 +382,35 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
 Al *final* del proceso, presione CTRL+c.
   
 > [!NOTE]
-> Antes de ejecutar la herramienta de carga y rendimiento directamente, debe registrar los contadores de rendimiento mediante el siguiente comando:`regsvr32 /i /n /s LyncPerfToolPerf.dll`
+> Antes de ejecutar la herramienta de esfuerzo y rendimiento directamente, debe registrar los contadores de rendimiento mediante el siguiente comando:`regsvr32 /i /n /s LyncPerfToolPerf.dll`
   
 > [!NOTE]
-> Cada instancia de la herramienta de rendimiento y esfuerzo que inicia comenzará inmediatamente la firma en los usuarios, normalmente a una velocidad de un usuario por segundo. 
+> Cada instancia de la herramienta de esfuerzo y rendimiento que inicie comenzará inmediatamente a iniciar la sesión de los usuarios, normalmente en una tasa de un usuario por segundo. 
   
-El usuario inicio de sesión de velocidad máxima para el grupo es de aproximadamente 12 por segundo. Esto significa que no debe iniciar instancias de más de 12 LyncPerfTool.exe al mismo tiempo mientras los usuarios aún están firmando. Mil usuarios tardará unos 20 minutos para firmar completamente uno por segundo.
+La velocidad de inicio de sesión del usuario de máxima para el grupo de servidores es aproximadamente 12 por segundo. Esto significa que no debe iniciar instancias de más de 12 LyncPerfTool.exe al mismo tiempo mientras los usuarios aún son iniciar sesión. Los usuarios a miles de ellas tardarán aproximadamente 20 minutos para totalmente suscribirse a uno por segundo.
   
 ## <a name="interpreting-the-results"></a>Interpretar los resultados
 <a name="BKMK_Interpret"> </a>
 
-El Skype para Business Server 2015 Stress y la herramienta de rendimiento tiene muchos contadores que pueden ayudarle a comprender lo que está haciendo el cliente y, si está encontrando problemas.
+El Skype para Business Server 2015 herramienta de esfuerzo y rendimiento tiene muchos contadores que le ayudarán a comprender lo que está haciendo el cliente y, si se produzcan problemas.
   
 ### <a name="client-counters"></a>Contadores de cliente
 
-Cada instancia de LyncPerfTool.exe ejecución tiene una instancia independiente de los contadores. Cada instancia se denominará por su identificador de proceso. Si los clientes están sobrecargados pueden producirse otros problemas. Para evitar estos problemas:
+Cada instancia de LyncPerfTool.exe que ejecuta tiene una instancia independiente de los contadores. Cada instancia se denomina por su identificador de proceso. Si los clientes están sobrecargados pueden producirse otros problemas. Para evitar estos problemas:
   
-- Supervisar el uso de CPU y memoria en los equipos cliente. Si la CPU está constantemente por encima de 90%, reducir el número de usuarios.
+- Supervisar el uso de CPU y memoria en los equipos cliente. Si es siempre por encima del 90 por ciento de la CPU, reducir el número de usuarios.
     
-- Cuando el consumo de memoria es alto, puede tener problemas si el archivo de la página comienza a quedarse sin espacio. Compruebe que la carga de transacciones no está alcanzando el límite en el equipo. Si está ejecutando en límites de memoria, considere aumentar el tamaño del archivo de paginación o reducir el número de usuarios.
+- Cuando el consumo de memoria es alto, es posible que ejecute en problemas si el archivo de página comienza a quedarse sin espacio. Compruebe que la carga de transacciones no está alcanzando el límite en el equipo. Si se ejecuta en los límites de memoria tenga en cuenta el aumento del tamaño de archivo de página o reducir el número de usuarios.
     
-Presentamos una lista de contadores de rendimiento clave:
+Aquí tiene una lista de contadores de rendimiento clave:
   
 **Información general**
 
 |**Contador de rendimiento**|**Descripción**|
 |:-----|:-----|
-|Tiempo transcurrido en minutos  <br/> |Tiempo desde que se inició el proceso.  <br/> |
-|Extremos activos  <br/> |Número de extremos conectados actualmente al servidor.  <br/> |
-|Inicios de sesión fallidos  <br/> |Número total de errores de inicio de sesión de extremo.  <br/> |
+|Tiempo empleado en minutos  <br/> |Tiempo empleado en desde que se inició el proceso.  <br/> |
+|Extremos de activos  <br/> |Número de extremos que actualmente está conectado al servidor.  <br/> |
+|Inicios de sesión con errores  <br/> |Número total de errores de inicio de sesión de extremo.  <br/> |
 |Intentos de inicio de sesión  <br/> |Número total de intentos de inicio de sesión de extremo.  <br/> |
 |Extremos desconectados  <br/> |Número total de extremos que se han desconectado.  <br/> |
    
@@ -417,103 +418,103 @@ Presentamos una lista de contadores de rendimiento clave:
 
 |**Contador de rendimiento**|**Descripción**|
 |:-----|:-----|
-|Llamadas SetPresence  <br/> |Número total de presencia cambiar intentos. Para diferentes tipos de cambios de presencia, ver el contador de rendimiento de llamadas SetPresence (tipo de presencia).  <br/> |
-|NNN respuestas para SetPresence  <br/> |Número total de códigos de respuesta nnn recibidos desde el servidor.  <br/> |
+|Llamadas de SetPresence  <br/> |Número total de presencia cambie intentos. Para distintos tipos de cambios de presencia, vea el contador de rendimiento de las llamadas de SetPresence (tipo de presencia).  <br/> |
+|Respuestas en NNN SetPresence  <br/> |Número total de los códigos de respuesta nnn recibido desde el servidor.  <br/> |
 |Llamadas de GetPresence  <br/> |Número total de intentos de solicitud de presencia de get.  <br/> |
-|NNN respuestas de GetPresence  <br/> |Número total de códigos de respuesta nnn recibidos desde el servidor.  <br/> |
+|Respuestas en NNN GetPresence  <br/> |Número total de los códigos de respuesta nnn recibido desde el servidor.  <br/> |
    
-**Información del servicio de libreta de direcciones**
+**Información de servicio de la libreta de direcciones**
 
 |**Contador de rendimiento**|**Descripción**|
 |:-----|:-----|
-|Descargas de archivos ABS completo/Delta intentadas  <br/> |Número total de full o delta solicitudes de descarga de archivo ha intentado.  <br/> |
-|Archivo ABS completo/Delta descarga correcta  <br/> |Número total de full o delta solicitudes de descarga de archivo ha intentado.  <br/> |
-|Consulta Web de libreta de direcciones los contadores relacionados con el servicio  <br/> |Archivo de libreta de direcciones descargar contadores relacionados.  <br/> |
-|ABS WS llamadas ha intentado  <br/> |Número total de solicitudes de servicio de consulta Web de libreta de direcciones ha intentado.  <br/> |
-|ABS WS llamadas correctamente  <br/> |Número total de solicitudes de servicio de consulta Web de libreta de direcciones que devolvió un código de respuesta correcta.  <br/> |
-|Error en las llamadas WS ABS  <br/> |Número total de solicitudes de servicio de consulta Web de libreta de direcciones que ha devuelto un código de respuesta de error.  <br/> |
+|Descargas de archivos ABS completo/Delta intentadas  <br/> |Número total de completa o delta solicitudes de descarga de archivos ha intentado.  <br/> |
+|Descargas de archivo ABS completo/Delta con resultados  <br/> |Número total de completa o delta solicitudes de descarga de archivos ha intentado.  <br/> |
+|Consulta Web de libreta de direcciones contadores relacionados con el servicio  <br/> |Archivo de la libreta de direcciones descargar contadores relacionados.  <br/> |
+|Llamadas de WS ABS intentado  <br/> |Número total de solicitudes de servicio de consulta Web de libreta de direcciones ha intentado.  <br/> |
+|Llamadas de WS ABS se ha realizado correctamente  <br/> |Número total de solicitudes de servicio de consulta Web de libreta de direcciones que devuelven un código de respuesta es correcta.  <br/> |
+|Error en las llamadas de WS de ABS  <br/> |Número total de solicitudes de servicio de consulta Web de libreta de direcciones que ha devuelto un código de respuesta de error.  <br/> |
    
 > [!NOTE]
-> Esta categoría incluye contadores para supervisar las descargas de archivos de libreta de direcciones (ABS) de servicio y las solicitudes de servicio de consulta Web de libreta de direcciones. 
+> Esta categoría incluye contadores para supervisar las descargas de archivos de la libreta de direcciones (ABS) de servicio y las solicitudes de servicio de consulta Web de libreta de direcciones. 
   
 **Información de distribución (DL) de la lista**
 
 |**Contador de rendimiento**|**Descripción**|
 |:-----|:-----|
-|Llamadas ha intentado  <br/> |Número total de solicitudes de servicio de web en expansión (DLX) de distribución lista ha intentado.  <br/> |
-|Llamadas se realizó correctamente  <br/> |Número total de solicitudes de servicio web DLX devolvió un código de respuesta correcta.  <br/> |
-|Error en las llamadas  <br/> |Número total de solicitudes de servicio web DLX devolvió un código de respuesta de error.  <br/> |
+|Ha tratado de las llamadas  <br/> |Número total de solicitudes de servicio de web en expansión (DLX) de distribución lista ha intentado.  <br/> |
+|Llamadas se ha realizado correctamente  <br/> |Número total de solicitudes de servicio web DLX que devuelven un código de respuesta es correcta.  <br/> |
+|Llamadas no se pudo  <br/> |Número total de solicitudes de servicio web DLX que devuelven un código de respuesta de error.  <br/> |
    
 
   
 > [!NOTE]
-> Los contadores de rendimiento enumeran a continuación de números de informe para todos los voz sobre IP (VoIP) llamadas, incluidas las llamadas al servidor de mediación, A / aplicación V Conferencing Server, borde, respuesta grupo de servidores y de Operador automático de conferencia, cuando están habilitados estos escenarios. 
+> Los contadores de rendimiento que aparecen debajo de los números de informe de voz todos los a través de las llamadas IP (VoIP), incluidas las llamadas al servidor de mediación, A / aplicación V Conferencing Server, perimetral Server, grupo de respuesta y operador automático de conferencia, cuando están habilitados estos escenarios. 
   
-**Información básica de VoIP**
+**Información de VoIP Basic**
 
 |**Contador de rendimiento**|**Descripción**|
 |:-----|:-----|
-|Llamadas activas  <br/> |Número total de voz entrantes/salientes llamadas continua actualmente.  <br/> |
-|Termina las llamadas  <br/> |Número total de llamadas de voz entrantes/salientes ya finalizado.  <br/> |
+|Llamadas activas  <br/> |Número total de voz entrantes o salientes llamadas curso actualmente.  <br/> |
+|Llamadas terminadas  <br/> |Número total de llamadas de voz entrantes o salientes ya finalizado.  <br/> |
 |Llamadas rechazadas  <br/> |Número total de llamadas de voz entrantes rechazadas.  <br/> |
-|Llamadas entrantes o salientes que se ha intentado  <br/> |Número total de llamadas de voz entrantes/salientes ha intentado.  <br/> |
-|Llamadas entrantes o salientes establecidas  <br/> |Número total de llamadas de voz entrantes/salientes establecidas.  <br/> |
-|Llamadas recibidas NNN  <br/> |Número total de códigos de respuesta nnn recibidos desde el servidor.  <br/> |
-|Tasa de Pass de VoIP (%)  <br/> |Total de llamadas de llamadas de establecido/Total ha intentado.  <br/> |
+|Ha tratado de las llamadas entrantes o salientes  <br/> |Número total de llamadas de voz entrantes o salientes intentado.  <br/> |
+|Establecidas las llamadas entrantes o salientes  <br/> |Número total de llamadas de voz entrantes o salientes establecido.  <br/> |
+|Las llamadas recibidas NNN  <br/> |Número total de los códigos de respuesta nnn recibido desde el servidor.  <br/> |
+|Tasa de Pass VoIP (%)  <br/> |Total de llamadas de llamadas de establecido/Total ha intentado.  <br/> |
    
-**Información de llamadas de servicio de grupo de respuesta**
+**Servicio de grupo de respuesta de información de llamadas**
 
 |**Contador de rendimiento**|**Descripción**|
 |:-----|:-----|
-|Llamadas activas  <br/> |Número total de llamadas activas para la aplicación de grupo de respuesta.  <br/> |
-|Llamadas ha intentado  <br/> |Número total de llamadas ha intentado.  <br/> |
+|Llamadas activas  <br/> |Número total de llamadas activas a la aplicación de grupo de respuesta.  <br/> |
+|Ha tratado de las llamadas  <br/> |Número total de llamadas que se ha tratado.  <br/> |
    
 **Información de la llamada (IM) de mensajería instantánea**
 
 |**Contador de rendimiento**|**Descripción**|
 |:-----|:-----|
-|Llamadas activas  <br/> |Número total de llamadas de mensajería instantáneas entrante y saliente continuadas.  <br/> |
-|Termina las llamadas  <br/> |Número total de llamadas de mensajería instantáneas entrante y saliente ya finalizado.  <br/> |
-|Llamadas recibidas NNN  <br/> |Número total de códigos de respuesta nnn recibidos desde el servidor.  <br/> |
+|Llamadas activas  <br/> |Número total de llamadas de mensajería instantáneas entrantes o salientes continuadas.  <br/> |
+|Llamadas terminadas  <br/> |Número total de llamadas de mensajería instantáneas entrantes o salientes ya finalizado.  <br/> |
+|Las llamadas recibidas NNN  <br/> |Número total de los códigos de respuesta nnn recibido desde el servidor.  <br/> |
 |Mensajes Instantáneos recibidos/enviados  <br/> |Número total de mensajes recibidos o enviados para todas las sesiones.  <br/> |
-|Llamadas entrantes o salientes que se ha intentado  <br/> |Número total de llamadas entrantes/salientes instantáneas mensajería llamadas ha intentado.  <br/> |
-|Llamadas entrantes o salientes establecidas  <br/> |Número total de llamadas de mensajes instantáneos entrantes o salientes establecidas.  <br/> |
+|Ha tratado de las llamadas entrantes o salientes  <br/> |Número total de entrantes o salientes instantáneas mensajería llamadas ha intentado.  <br/> |
+|Establecidas las llamadas entrantes o salientes  <br/> |Número total de llamadas de mensajes instantáneos entrantes o salientes establecido.  <br/> |
    
-**Información de llamada de compartir aplicación**
+**Información de llamada de una aplicación de uso compartido**
 
 |**Contador de rendimiento**|**Descripción**|
 |:-----|:-----|
-|Llamadas activas  <br/> |Número total de compartir llamadas de aplicación continuo entrantes o salientes.  <br/> |
-|Termina las llamadas  <br/> |Número total de solicitud entrantes o salientes compartir llamadas ya finalizado.  <br/> |
-|Llamadas recibidas NNN  <br/> |Número total de códigos de respuesta nnn recibidos desde el servidor.  <br/> |
-|Llamadas entrantes o salientes que se ha intentado  <br/> |Número total de solicitud entrantes o salientes compartir llamadas ha intentado.  <br/> |
-|Llamadas entrantes o salientes establecidas  <br/> |Número total de solicitud entrantes o salientes compartir llamadas establecidas.  <br/> |
+|Llamadas activas  <br/> |Número total de llamadas de uso compartido de aplicación continuada entrantes o salientes.  <br/> |
+|Llamadas terminadas  <br/> |Número total de aplicación entrantes o salientes de las llamadas de uso compartido ya finalizado.  <br/> |
+|Las llamadas recibidas NNN  <br/> |Número total de los códigos de respuesta nnn recibido desde el servidor.  <br/> |
+|Ha tratado de las llamadas entrantes o salientes  <br/> |Número total de uso compartido ha tratado de las llamadas de aplicaciones entrantes o salientes.  <br/> |
+|Establecidas las llamadas entrantes o salientes  <br/> |Número total de llamadas establecidas el uso compartido de aplicación entrantes o salientes.  <br/> |
    
-**Información de llamada de CAA**
+**Información de llamada CAA**
 
 |**Contador de rendimiento**|**Descripción**|
 |:-----|:-----|
-|Llamadas activas  <br/> |Número total de llamadas entrantes/salientes de red telefónica pública conmutada (PSTN) llamadas continua actualmente.  <br/> |
-|Termina las llamadas  <br/> |Número total de llamadas entrantes o salientes de PSTN ya finalizado.  <br/> |
-|Llamadas entrantes o salientes que se ha intentado  <br/> |Número total de llamadas PSTN entrantes o salientes ha intentado.  <br/> |
-|Llamadas entrantes o salientes establecidas  <br/> |Número total de llamadas PSTN entrantes o salientes establecidas.  <br/> |
+|Llamadas activas  <br/> |Número total de entrantes o salientes de red telefónica conmutada (RTC) llamadas curso actualmente.  <br/> |
+|Llamadas terminadas  <br/> |Número total de llamadas entrantes o salientes de RTC ya finalizado.  <br/> |
+|Ha tratado de las llamadas entrantes o salientes  <br/> |Número total de las llamadas RTC entrantes o salientes intentado.  <br/> |
+|Establecidas las llamadas entrantes o salientes  <br/> |Número total de las llamadas RTC entrantes o salientes establecido.  <br/> |
    
-**Información sobre la conferencia**
+**Información de conferencia**
 
 |**Contador de rendimiento**|**Descripción**|
 |:-----|:-----|
-|Conferencias de mensajería instantáneas activas  <br/> |Número total de curso conferencias de mensajería instantáneas.  <br/> |
-|Conferencias de Audio y vídeo activas  <br/> |Número total de audio y vídeo continuo (A / V) conferencias.  <br/> |
-|Aplicación activa compartir conferencias  <br/> |Número total de compartir conferencias continuada de la aplicación.  <br/> |
-|Número de participantes  <br/> |Número total de participantes conectados actualmente a las conferencias.  <br/> |
-|Error de programación de conferencias  <br/> |Número total de errores al intentar programar una conferencia.  <br/> |
+|Conferencias de mensajería instantáneas activas  <br/> |Número total de conferencias mensajería instantáneas en curso.  <br/> |
+|Conferencias de Audio y vídeo activas  <br/> |Número total de audio y vídeo continuada (A / V) las conferencias.  <br/> |
+|Conferencias de uso compartido de aplicación activa  <br/> |Número total de conferencias de uso compartido continuo de las aplicaciones.  <br/> |
+|Número de participantes  <br/> |Número total de participantes conectado actualmente a las conferencias.  <br/> |
+|Error de programación de conferencia  <br/> |Número total de errores al intentar programar una conferencia.  <br/> |
 |Unirse a conferencia error  <br/> |Número total de errores al intentar conectarse a una conferencia.  <br/> |
    
 **Contadores de cliente UCWA**
 
 |**Contador de rendimiento**|**Descripción**|
 |:-----|:-----|
-|Número total de IMMCU une correcta  <br/> |Número total de conferencias de mensajería instantáneas se unió.  <br/> |
-|Número total de DMCU une correcta  <br/> |Número total de A / conferencias unido.  <br/> |
+|Número total de IMMCU se une a correcta  <br/> |Número total de conferencias de mensajería instantáneas se unió a.  <br/> |
+|Número total de DMCU se une a correcta  <br/> |Número total de A / unido las conferencias de audio.  <br/> |
    
 

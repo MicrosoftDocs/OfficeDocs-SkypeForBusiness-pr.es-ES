@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 'Resumen: Lea este tema para obtener información sobre cómo asignar una directiva de voz para los usuarios que usan el sistema telefónico en Office 365 con conectividad de RTC local.'
-ms.openlocfilehash: 6acc7188cbb76c101890591a822ac03a686a8246
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 12e74a6ea4a0adf652cc4e9477d20f91b4e13732
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886065"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372412"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Asignar una directiva de enrutamiento de voz
  
@@ -50,15 +50,15 @@ Antes de utilizar una directiva de enrutamiento de voz global para el sistema te
     
 3. Agregar los registros de uso de RTC a la directiva:
     
-  ```
-  Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
-  ```
+   ```
+   Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
+   ```
 
     Por ejemplo:
     
-  ```
-  Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
-  ```
+   ```
+   Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
+   ```
 
 ## <a name="creating-a-new-voice-routing-policy"></a>Crear una directiva de enrutamiento de voz
 
@@ -70,15 +70,15 @@ Antes de utilizar una directiva de enrutamiento de voz global para el sistema te
     
 3. Crea una directiva de enrutamiento de voz:
     
-  ```
-  New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
-  ```
+   ```
+   New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
+   ```
 
     Por ejemplo:
     
-  ```
-  New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
-  ```
+   ```
+   New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
+   ```
 
 En este ejemplo se crea una directiva de enrutamiento de voz llamada HybridVoice, que tiene asociados dos usos de RTC.
   
@@ -94,15 +94,15 @@ Siga estos pasos para asignar la directiva a un usuario, independientemente de s
     
 3. Asignar una directiva de voz existente a un usuario:
     
-  ```
-  Grant-CsVoiceRoutingPolicy -Identity <UserIdParameter> -PolicyName <String>
-  ```
+   ```
+   Grant-CsVoiceRoutingPolicy -Identity <UserIdParameter> -PolicyName <String>
+   ```
 
     Por ejemplo:
     
-  ```
-  Grant-CsVoiceRoutingPolicy -Identity "Bob Kelly" -PolicyName HybridVoice
-  ```
+   ```
+   Grant-CsVoiceRoutingPolicy -Identity "Bob Kelly" -PolicyName HybridVoice
+   ```
 
 En este ejemplo, se asigna el usuario con el nombre para mostrar Guillermo Rodarte a la directiva de voz creada anteriormente con el nombre HybridVoice.
   

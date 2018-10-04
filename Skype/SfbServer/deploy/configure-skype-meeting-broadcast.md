@@ -14,12 +14,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 'Resumen: Obtenga información sobre los pasos que necesarios para llevar a cabo para configurar Difundir presentación de reunión de Skype para su Skype local para la implementación híbrida de Business Server.'
-ms.openlocfilehash: 55b7c5c1e97c2e059ead73384ae2914b07d47c4b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: bae25dae268dd5ad3b3ab7862feb1156df850953
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21004696"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371397"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configurar la implementación local para la difusión de reunión de Skype
  
@@ -68,13 +68,13 @@ A continuación, deberá agregar dominios federados SIP a la lista de dominios p
     
 3. Para el **Nombre de dominio (o FQDN):**, especifique el dominio, repitiendo este procedimiento para cada uno de los siguientes dominios:
     
-  - noammeetings.Lync.com
+   - noammeetings.Lync.com
     
-  - emeameetings.Lync.com
+   - emeameetings.Lync.com
     
-  - apacmeetings.Lync.com
+   - apacmeetings.Lync.com
     
-  - Resources.Lync.com
+   - Resources.Lync.com
     
 También puede configurar el acceso externo para los dominios federados SIP mediante la ejecución de los siguientes cmdlets en el Skype para Shell de administración de servidor empresarial:
   

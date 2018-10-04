@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: 'Resumen: Obtenga información sobre cómo administrar la asignación de teclas de comandos de multifrecuencia de tono dual (DTMF) en Skype para Business Server.'
-ms.openlocfilehash: 629db0c94b71b9cbf54ebf2c6f6a5074b4b611fa
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c745a621704c677ffb36acb4667021e9734ca398
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20992685"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374881"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Administrar asignación de claves para comandos DTMF en Skype para Business Server
  
@@ -34,19 +34,19 @@ Cuando se crea una configuración de DTMF para sitios, la configuración de siti
     
 3. Para ver la configuración de DTMF usada para conferencias de acceso telefónico local, ejecute el siguiente comando en el símbolo del sistema:
     
-  ```
-  Get-CsDialinConferencingDtmfConfiguration
-  ```
+   ```
+   Get-CsDialinConferencingDtmfConfiguration
+   ```
 
 4. Para modificar la configuración de DTMF usada para conferencias de acceso telefónico local, ejecute el cmdlet siguiente y especifique la tecla que se necesita presionar para cada una de las opciones que desea cambiar:
     
-  ```
-  Set-CsDialinConferencingDtmfConfiguration [-Identity <global or site collection to be changed>]
-[-AdmitAll <default key is 8>] [-AudienceMuteCommand <default key is 4>]
-[-CommandCharacter <* (default) | #>] [-EnableDisableAnnouncementsCommand <default key is 9>]
-[-HelpCommand <default key is 1>] [-LockUnlockConferenceCommand <default key is 7>]
-[-MuteUnmuteCommand <default key is 6>] [-PrivateRollCallCommand <default key is 3>]
-  ```
+   ```
+   Set-CsDialinConferencingDtmfConfiguration [-Identity <global or site collection to be changed>]
+   [-AdmitAll <default key is 8>] [-AudienceMuteCommand <default key is 4>]
+   [-CommandCharacter <* (default) | #>] [-EnableDisableAnnouncementsCommand <default key is 9>]
+   [-HelpCommand <default key is 1>] [-LockUnlockConferenceCommand <default key is 7>]
+   [-MuteUnmuteCommand <default key is 6>] [-PrivateRollCallCommand <default key is 3>]
+   ```
 
 5. (Opcional) Para crear conjuntos de comandos DTMF adicionales para sitios específicos, use el cmdlet **New-CsDialinConferencingDtmfConfiguration** con una identidad de sitio.
     

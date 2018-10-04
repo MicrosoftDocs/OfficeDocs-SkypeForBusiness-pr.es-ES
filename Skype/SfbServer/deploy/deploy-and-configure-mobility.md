@@ -8,12 +8,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: En este artículo le guiará a través de los pasos para configurar un Skype existente para la instalación de Business Server para usar el servicio de movilidad, lo que permite a los dispositivos móviles que puedan aprovechar las ventajas de Skype para las características de movilidad de servidor empresarial.
-ms.openlocfilehash: c8d30f11fed3b6c45f06b7e21f0038bee0274df4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2afd462638eb6ed97f6efb694aa74994f2d59727
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003141"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375449"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Implementación y configuración de movilidad de Skype para Business Server  
  
@@ -34,7 +34,7 @@ Después de reconsiderar el artículo [planeación de movilidad de Skype para Bu
 Todas las secciones siguientes contienen pasos que dan por sentado que ha leído el tema sobre planificación. Si algo le resulta confuso, consulte la información contenida en dicho tema.
 
 > [!NOTE]
-> Compatibilidad con MCX para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Los usuarios deben actualizar a un cliente actual.
+> Compatibilidad con MCX (servicio de movilidad) para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Todos los Skype actual para los clientes móviles de negocio ya usa la API de Web de comunicaciones unificadas (UCWA) para admitir la mensajería instantánea (IM), presencia y contactos. Los usuarios con los clientes heredados con MCX necesitará actualizar a un cliente actual.
   
 ## <a name="create-dns-records"></a>Crear registros DNS
 <a name="CreateDNSRec"> </a>
@@ -247,7 +247,7 @@ Si tiene alguna pregunta sobre la planeación alrededor de certificados, nos hem
     
    - Si ya está asignado, el lyncdiscover. \<sipdomain\> y lyncdiscoverinternal. \<sipdomain\> registros.
     
-    Necesitará comprobar varios certificados si tiene más de uno asignado (consulte la nota anterior).
+     Necesitará comprobar varios certificados si tiene más de uno asignado (consulte la nota anterior).
     
 8. Por lo tanto, si se encuentra lyncdiscover. \<sipdomain\> y lyncdiscoverinternal. \<sipdomain\> registros, ha elegido ya configurado. Puede cerrar MMC.
     
@@ -307,7 +307,7 @@ Debemos considerar dos aspectos:
     
    - Va a necesitar publicar una ruta de acceso para **Publicación interna**y escriba el FQDN para los servicios Web externos en el equilibrador de carga de su Front-End del grupo de servidores (o el FQDN del equilibrador de carga del grupo de servidores del Director si tiene uno), un ejemplo sería sfb_ pool01.contoso.local.
     
-   - Debe escribir ** / ** como la ruta de acceso para su publicación, pero también debe **Reenviar el encabezado de host original**.
+   - Debe escribir ** / *** como la ruta de acceso para su publicación, pero también debe **Reenviar el encabezado de host original**.
     
    - Habrá una opción para la información o los detalles del **nombre externo o público**. Aquí es donde podrá introducir lo siguiente:
     
@@ -315,7 +315,7 @@ Debemos considerar dos aspectos:
     
    - Para el **nombre**, debe escribir **lyncdiscover.** <sipdomain>(Esto es la dirección URL del servicio Detección automática externo). Ahora, si está creando una regla para la URL de servicios Web externos en el grupo de servidores Front-End, debe escribir el FQDN para los servicios Web externos en el grupo de servidores Front-End (por ejemplo, lyncwebextpool01.contoso.com).
     
-   - Habrá una opción de **ruta de acceso** y necesita escribir ** / ** aquí.
+   - Habrá una opción de **ruta de acceso** y necesita escribir ** / *** aquí.
     
    - Tendrá que seleccionar un **agente de escucha SSL** con el certificado público actualizado.
     
@@ -353,7 +353,7 @@ Debemos considerar dos aspectos:
     
    - Va a necesitar publicar una ruta de acceso para **Publicación interna**y escriba el FQDN de la **dirección VIP** del equilibrador de carga de su Front-End del grupo de servidores, un ejemplo sería sfb_pool01.contoso.local.
     
-   - Debe escribir ** / ** como la ruta de acceso para su publicación, pero también debe **Reenviar el encabezado de host original**.
+   - Debe escribir ** / *** como la ruta de acceso para su publicación, pero también debe **Reenviar el encabezado de host original**.
     
    - Habrá una opción para la información o los detalles del **nombre externo o público**. Aquí es donde podrá introducir lo siguiente:
     
@@ -361,7 +361,7 @@ Debemos considerar dos aspectos:
     
    - Para el **nombre**, debe escribir **lyncdiscover.** <sipdomain>(Esto es la dirección URL del servicio Detección automática externo).
     
-   - Habrá una opción de **ruta de acceso** y necesita escribir ** / ** aquí.
+   - Habrá una opción de **ruta de acceso** y necesita escribir ** / *** aquí.
     
    - Debe seleccionar una escucha de web, o permitir que el proxy inverso crear uno.
     
@@ -390,15 +390,15 @@ Para permitir que los clientes móviles descubran dónde se encuentra un usuario
     
 2. Ejecute el siguiente procedimiento para obtener el valor del atributo **ProxyFQDN** para su Skype para entorno Business Server:
     
-  ```
-  Get-CsHostingProvider
-  ```
+   ```
+   Get-CsHostingProvider
+   ```
 
 3. A continuación, todavía desde la ventana del shell, ejecute:
     
-  ```
-  Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
-  ```
+   ```
+   Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
+   ```
 
     Donde [identity] se sustituye por el nombre de dominio del espacio de direcciones SIP compartido.
     
@@ -410,7 +410,7 @@ Una vez haya implementado Skype para el servicio de movilidad de Business Server
 Para los clientes de Lync Server 2010 en Skype para Business Server 2015, debe ejecutar **Test-CsMcxP2PIM** para probar. Los usuarios de Lync Server 2010 aún se tienen que ser usuarios reales o usuarios de prueba predefinidos y necesitará sus credenciales de contraseña.
 
 > [!NOTE]
-> Compatibilidad con MCX para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Los usuarios deben actualizar a un cliente actual.
+> Compatibilidad con MCX (servicio de movilidad) para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Todos los Skype actual para los clientes móviles de negocio ya usa la API de Web de comunicaciones unificadas (UCWA) para admitir la mensajería instantánea (IM), presencia y contactos. Los usuarios con los clientes heredados con MCX necesitará actualizar a un cliente actual.
   
 ### <a name="test-conferencing-for-skype-for-business-and-lync-2013-mobile-clients"></a>Probar las conferencias para clientes móviles de Lync 2013 y Skype Empresarial
 
@@ -437,7 +437,7 @@ Para los clientes de Lync Server 2010 en Skype para Business Server 2015, debe e
 ### <a name="test-conferencing-for-lync-2010-mobile-clients"></a>Probar las conferencias para clientes móviles de Lync 2010
 
 > [!NOTE]
-> Compatibilidad con MCX para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Los usuarios deben actualizar a un cliente actual.
+> Compatibilidad con MCX (servicio de movilidad) para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Todos los Skype actual para los clientes móviles de negocio ya usa la API de Web de comunicaciones unificadas (UCWA) para admitir la mensajería instantánea (IM), presencia y contactos. Los usuarios con los clientes heredados con MCX necesitará actualizar a un cliente actual.
 
 1. Inicie sesión como miembro del rol **CsAdministrator** en cualquier equipo que tenga instalado **Skype para Shell de administración de servidor empresarial** y **Ocscore** .
     
@@ -451,13 +451,13 @@ Para los clientes de Lync Server 2010 en Skype para Business Server 2015, debe e
 
    También es posible establecer las credenciales en un script y pasarlas al cmdlet de prueba. Tenemos un ejemplo de ello a continuación.
     
-  ```
-  $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
-  $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
-  $tuc1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
-  $tuc2 = New-Object Management.Automation.PSCredential("contoso\UserName2", $passwd2)
-  Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
-  ```
+   ```
+   $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
+   $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
+   $tuc1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
+   $tuc2 = New-Object Management.Automation.PSCredential("contoso\UserName2", $passwd2)
+   Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
+   ```
 
 Para revisar los procedimientos de comando aún más, para poder desproteger [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) y [Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/test-csmcxp2pim?view=skype-ps).
   

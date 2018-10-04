@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
 description: 'Resumen: Obtenga información sobre cómo cambiar las opciones de base de datos archivado de Skype para Business Server.'
-ms.openlocfilehash: af1cc1e6398652efac5be20114dac6bf228ef892
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 40cb0d6a3e0a55ad5221c55105355a7838835d30
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21010081"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371970"
 ---
 # <a name="change-archiving-database-options-in-skype-for-business-server"></a>Cambiar las opciones de base de datos de archivado en Skype para Business Server
 
@@ -47,35 +47,35 @@ Para realizar cualquiera de estos cambios, debe ejecutar el generador de topolog
     
 7. En **Archivado**, haga lo siguiente:
     
-  - Para cambiar a otro almacén de SQL Server existente, en **Almacén SQL Server de archivado**, en el cuadro de desplegable, haga lo siguiente:
+   - Para cambiar a otro almacén de SQL Server existente, en **Almacén SQL Server de archivado**, en el cuadro de desplegable, haga lo siguiente:
     
-  - Para usar un almacén de SQL Server existente, en el cuadro de lista desplegable, haga clic en el nombre del almacén de SQL Server que desee usar.
+   - Para usar un almacén de SQL Server existente, en el cuadro de lista desplegable, haga clic en el nombre del almacén de SQL Server que desee usar.
     
-  - Para especificar un nuevo almacén de SQL Server, haga clic en **Nuevo** y, en el cuadro de diálogo **Definir un nuevo almacén de SQL Server**, haga lo siguiente:
+   - Para especificar un nuevo almacén de SQL Server, haga clic en **Nuevo** y, en el cuadro de diálogo **Definir un nuevo almacén de SQL Server**, haga lo siguiente:
     
-    - Para usar un almacén de SQL Server existente, en el cuadro de lista desplegable, haga clic en el nombre del almacén de SQL Server que desee usar.
+     - Para usar un almacén de SQL Server existente, en el cuadro de lista desplegable, haga clic en el nombre del almacén de SQL Server que desee usar.
     
-    - Para especificar un nuevo almacén de SQL Server, haga clic en **nuevo**y, a continuación, en el cuadro de diálogo **Definir nuevo almacén de SQL Server** , realice lo siguiente:
+     - Para especificar un nuevo almacén de SQL Server, haga clic en **nuevo**y, a continuación, en el cuadro de diálogo **Definir nuevo almacén de SQL Server** , realice lo siguiente:
     
-      - En **FQDN de SQL Server**, especifique el FQDN del servidor en el que desea crear el nuevo almacén de SQL Server.
+       - En **FQDN de SQL Server**, especifique el FQDN del servidor en el que desea crear el nuevo almacén de SQL Server.
     
-      - Haga clic en **Instancia predeterminada** para usar la instancia predeterminada o, para especificar una instancia distinta, haga clic en **Instancia con nombre** y especifique la instancia que desee usar.
+       - Haga clic en **Instancia predeterminada** para usar la instancia predeterminada o, para especificar una instancia distinta, haga clic en **Instancia con nombre** y especifique la instancia que desee usar.
     
-      - Si la instancia de SQL Server especificada está en una relación de la creación de reflejo, active la casilla de verificación **esta instancia de SQL está en relación de reflejo** y, a continuación, en **número de puerto de reflejo**, especifique el número de puerto.
+       - Si la instancia de SQL Server especificada está en una relación de la creación de reflejo, active la casilla de verificación **esta instancia de SQL está en relación de reflejo** y, a continuación, en **número de puerto de reflejo**, especifique el número de puerto.
     
-  - Para agregar un almacén de SQL Server para la creación de reflejos o para cambiar a un almacén de SQL Server existente diferente para la creación de reflejos del almacén de SQL Server, seleccione **Permitir creación de reflejos del almacén de SQL Server** y, luego, haga lo siguiente:
+   - Para agregar un almacén de SQL Server para la creación de reflejos o para cambiar a un almacén de SQL Server existente diferente para la creación de reflejos del almacén de SQL Server, seleccione **Permitir creación de reflejos del almacén de SQL Server** y, luego, haga lo siguiente:
     
-    - Para usar un almacén de SQL Server existente para la creación de reflejos, en el cuadro de lista desplegable de **reflejo del almacén de SQL Server de archivado** , haga clic en el nombre del almacén de SQL Server que desea usar para la creación de reflejo.
+     - Para usar un almacén de SQL Server existente para la creación de reflejos, en el cuadro de lista desplegable de **reflejo del almacén de SQL Server de archivado** , haga clic en el nombre del almacén de SQL Server que desea usar para la creación de reflejo.
     
-    - Para especificar un nuevo almacén de SQL Server para la creación de reflejos, haga clic en **nuevo**y, a continuación, en el cuadro de diálogo **Definir nuevo almacén de SQL Server** , realice una de las siguientes opciones:
+     - Para especificar un nuevo almacén de SQL Server para la creación de reflejos, haga clic en **nuevo**y, a continuación, en el cuadro de diálogo **Definir nuevo almacén de SQL Server** , realice una de las siguientes opciones:
     
-      a. En **FQDN de SQL Server**, especifique el FQDN del servidor SQL en el que desea crear el nuevo almacén de SQL Server.
+       a. En **FQDN de SQL Server**, especifique el FQDN del servidor SQL en el que desea crear el nuevo almacén de SQL Server.
     
-      b. Haga clic en **Instancia predeterminada** para usar la instancia predeterminada o, para especificar una instancia distinta, haga clic en **Instancia con nombre** y especifique la instancia que desee usar.
+       b. Haga clic en **Instancia predeterminada** para usar la instancia predeterminada o, para especificar una instancia distinta, haga clic en **Instancia con nombre** y especifique la instancia que desee usar.
     
-      c. Si la instancia de SQL Server especificada está en una relación de la creación de reflejo, active la casilla de verificación **esta instancia de SQL está en relación de reflejo** y, a continuación, en **número de puerto de reflejo**, especifique el número de puerto.
+       c. Si la instancia de SQL Server especificada está en una relación de la creación de reflejo, active la casilla de verificación **esta instancia de SQL está en relación de reflejo** y, a continuación, en **número de puerto de reflejo**, especifique el número de puerto.
     
-  - Si habilita la creación de reflejos de SQL Server y desea agregar o cambiar un testigo (independiente, tercera instancia de SQL Server que puede detectar el estado de las instancias de servidor principal y reflejada de SQL Server principales) la creación de reflejos de SQL Server, seleccione el testigo de reflejo de utilizar SQL Server **a habilitar la conmutación por error automática** casilla de verificación y, a continuación, realice uno de los siguientes:
+   - Si habilita la creación de reflejos de SQL Server y desea agregar o cambiar un testigo (independiente, tercera instancia de SQL Server que puede detectar el estado de las instancias de servidor principal y reflejada de SQL Server principales) la creación de reflejos de SQL Server, seleccione el testigo de reflejo de utilizar SQL Server **a habilitar la conmutación por error automática** casilla de verificación y, a continuación, realice uno de los siguientes:
     
       a. En **FQDN de SQL Server**, especifique el FQDN del servidor en el que desea crear el nuevo testigo de reflejo de SQL Server.
     
@@ -83,10 +83,10 @@ Para realizar cualquiera de estos cambios, debe ejecutar el generador de topolog
     
       c. Si la instancia de SQL Server especificada está en una relación de la creación de reflejo, active la casilla de verificación **esta instancia de SQL está en relación de reflejo** y, a continuación, en **número de puerto de reflejo**, especifique el número de puerto.
     
-  - Para cambiar a la integración de Microsoft Exchange para almacenar datos de archivado y los archivos en los servidores de Exchange (si todos los usuarios de su implementación están hospedados en los servidores de Exchange), elimine toda la información de las bases de datos de archivado.
+   - Para cambiar a la integración de Microsoft Exchange para almacenar datos de archivado y los archivos en los servidores de Exchange (si todos los usuarios de su implementación están hospedados en los servidores de Exchange), elimine toda la información de las bases de datos de archivado.
     
-    > [!IMPORTANT]
-    > Si tiene cualquier Skype para los usuarios de negocio que no están hospedados en servidores de Exchange, no elimine la información del almacén de SQL Server. 
+     > [!IMPORTANT]
+     > Si tiene cualquier Skype para los usuarios de negocio que no están hospedados en servidores de Exchange, no elimine la información del almacén de SQL Server. 
   
 8. Para guardar la configuración, haga clic en **Aceptar**.
     

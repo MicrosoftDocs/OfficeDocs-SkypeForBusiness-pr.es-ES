@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee65362d6215faac0575425d0c7a6f0dfbc0b67b
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 2bca4d2bb757f8fdcece40f82ad0ddce54c1d246
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017932"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375569"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa")
 
@@ -45,8 +45,8 @@ Las tareas y actividades de esta guía se agrupan en ocho categorías como se mu
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul><li>Decidir cómo se implementarán las operaciones para los equipos.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Revise a la Guía de operaciones en su totalidad.</li><li>Implementar una estrategia de operaciones que se alinea con los objetivos de la organización para ofrecer la calidad y la fiabilidad de cargas de trabajo de los equipos.</li><li>Revise a la Guía de revisión de calidad de experiencia.</li><li> Implementar una estrategia de operaciones para llevar a cabo con regularidad revisiones de calidad de experiencia para asegurarse de que la implementación de los equipos está funcionando a su capacidad máxima.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>Decidir cómo se implementarán las operaciones para los equipos.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Revise a la Guía de operaciones en su totalidad.</li><li>Implementar una estrategia de operaciones que se alinea con los objetivos de la organización para ofrecer la calidad y la fiabilidad de cargas de trabajo de los equipos.</li><li>Revise a la Guía de revisión de calidad de experiencia.</li><li> Implementar una estrategia de operaciones para llevar a cabo con regularidad revisiones de calidad de experiencia para asegurarse de que la implementación de los equipos está funcionando a su capacidad máxima.</li></ul></td></tr>
 </table>
 
 
@@ -65,7 +65,7 @@ Asegúrese de que cada equipo responsable tiene una buena comprensión de las ac
 Una vez un contrato, deben iniciar los equipos correspondientes que controle sus roles.
 
 <table>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td>
 <td><ul><li>Use este documento para facilitar el ejercicio de la asignación de rol operativas.</li><li>Cumplir con los equipos de soporte técnico respectivos para asignar nombres a cada elemento de la lista de actividades necesarias.</li><li>Obtener la aceptación o cierre la sesión en los roles asignados.</li><li>Asegúrese de que los equipos correspondientes tengan la formación adecuada, preparación y recursos para llevar a cabo las actividades necesarias de ellos.</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Dependencias de servicio de los equipos
@@ -184,17 +184,21 @@ Ahora que se ha de tener en cuenta próximos cambios en el servicio de los equip
 #### <a name="feature-cloud-recording-release-date-january-2018"></a>Característica: En la nube grabación (fecha de publicación: enero de 2018)
 
 **Pista general**
+
 | Preparación de cambio | Estado   | Los pasos de notas y siguiente | Owner |
 |----|----|----|-----|
 | Revisión legal   | Completado     | Esta característica es un requisito previo para el equipo de recursos de aprendizaje de incorporación. | Equipo del proyecto  |
 
 **Administración de cambios técnicos**
-| Preparación de cambio | Estado   | Los pasos de notas y siguiente | Owner |
-|----|----|----|-----|
-| Cambios de TI necesarios          | Sí                  | Administrador necesita habilitar grabación identificados sólo para los usuarios.      | Equipo de soporte técnico           |
-| Preparación técnica completa | Sí                  |                                                                 | Equipo de soporte técnico  
-         |
+
+|       Preparación de cambio       | Estado |                      Los pasos de notas y siguiente                      |    Owner     |
+|------------------------------|--------|------------------------------------------------------------|--------------|
+|     Cambios de TI necesarios      |  Sí   | Administrador necesita habilitar grabación identificados sólo para los usuarios. | Equipo de soporte técnico |
+| Preparación técnica completa |  Sí   |                                                            | Equipo de soporte técnico |
+|                              |        |                                                            |              |
+
 **Administración de cambio de usuario** 
+
 | Preparación de cambio | Estado   | Los pasos de notas y siguiente | Owner |
 |----|----|----|-----|
 | Impacto de usuario                  | Bajo                  |                                                                 |                        |
@@ -203,6 +207,7 @@ Ahora que se ha de tener en cuenta próximos cambios en el servicio de los equip
 | Recursos de aprendizaje listo               | Sí                  | Recursos de aprendizaje aprovechará vídeo de Microsoft existente.                | Equipo de formación          |
 
 **Seguimiento de estado**
+
 | Preparación de cambio | Estado   | Los pasos de notas y siguiente | Owner |
 |----|----|----|-----|
 | Estado de publicación               | en curso          | Revisión pendiente por el patrocinador ejecutivo.               | Equipo de administración de cambios |

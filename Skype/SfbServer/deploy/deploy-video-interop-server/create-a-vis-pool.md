@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: 'Resumen: Cree un grupo de servidores de interoperabilidad de vídeo en Skype para Business Server mediante el generador de topología.'
-ms.openlocfilehash: f284163bc52f4e62c3ec5b1c7966f3c663ee09f7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 65771e72250ad1d5e9625bdd6cc1a8d47b5dabe2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978819"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373461"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>Crear un grupo de servidores con respecto de Skype para Business Server
  
@@ -33,7 +33,7 @@ ms.locfileid: "20978819"
     
    - En la siguiente página, en el elemento **Definir los equipos de este grupo de servidores**, escriba el **FQDN de equipo** de cada servidor del grupo en el campo de texto y, luego, haga clic en **Agregar**. Repita este paso para agregar otro servidor de interoperabilidad de vídeo al grupo de servidores. Cuando haya definido todos los equipos en el grupo, presione **Siguiente**.
     
-    Si desea implementar un solo servidor de interoperabilidad de vídeo en el grupo de servidores debido a que no requieran una alta disponibilidad, a continuación, seleccione **este grupo de servidores tiene un servidor** y haga clic en **siguiente**.
+     Si desea implementar un solo servidor de interoperabilidad de vídeo en el grupo de servidores debido a que no requieran una alta disponibilidad, a continuación, seleccione **este grupo de servidores tiene un servidor** y haga clic en **siguiente**.
     
 3. Seleccione el grupo de servidores del próximo salto/FE de la lista desplegable y presione **Siguiente**.
     

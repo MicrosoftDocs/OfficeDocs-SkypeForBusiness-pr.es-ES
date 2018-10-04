@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 'Resumen: Obtenga información sobre cómo dar la bienvenida a los usuarios a la conferencia de acceso telefónico en Skype para Business Server.'
-ms.openlocfilehash: f21d130f84b248b2911d691dbcf80f2563ee60fb
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 90c56fd97d9eb51c96c1a0cb149f732a31a70743
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008683"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373716"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Enviar correo electrónico de bienvenida para el marcado de los usuarios de Skype para Business Server
  
@@ -38,18 +38,18 @@ Puede crear un script que ejecute repetidamente el script **Set-CsPinSendCAWelco
     
 3. Ejecute los siguientes comandos en símbolo del sistema:
     
-  ```
-  Set-CsPinSendCAWelcomeMail -UserUri <user identifier>
--From <email address of sender> [-Subject <subject for email message>]
-[-UserEmailAddress <destination email address>]
-[-Cc <email address of recipients who receive copy of email>]
-[-Bcc <email address of recipients who receive blind copies>]
-[-TemplatePath <path for email template>]
-[-SmtpServer] <SMTP server name>]
-[-BodyAsPlainText] [-UseSsl]
-[-Pin <new numeric PIN>] [-Force] `
-[-Credential <SMTP server credentials used to send email with the specified From address>]
-  ```
+   ```
+   Set-CsPinSendCAWelcomeMail -UserUri <user identifier>
+   -From <email address of sender> [-Subject <subject for email message>]
+   [-UserEmailAddress <destination email address>]
+   [-Cc <email address of recipients who receive copy of email>]
+   [-Bcc <email address of recipients who receive blind copies>]
+   [-TemplatePath <path for email template>]
+   [-SmtpServer] <SMTP server name>]
+   [-BodyAsPlainText] [-UseSsl]
+   [-Pin <new numeric PIN>] [-Force] `
+   [-Credential <SMTP server credentials used to send email with the specified From address>]
+   ```
 
 **SmtpServer** De forma predeterminada, la secuencia de comandos utiliza el valor de la variable entorno reservadas **$PSEmailServer** para este parámetro. Si no se establece la variable **$PSEmailServer** , debe especificar este parámetro.
     
