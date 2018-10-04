@@ -4,12 +4,12 @@ hide_bc: true
 title: Guía práctica y documentación de Microsoft Teams
 description: Guía práctica y documentación de Microsoft Teams
 ms.topic: hub-page
-ms.openlocfilehash: 6f4ba9227e383039968e9fa84321c9ec0628d7f5
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 60f174ab661537e398292ac222ceae839e373fac
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23843784"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372391"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -109,7 +109,7 @@ ms.locfileid: "23843784"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Seguridad y cumplimiento</h3>
-                                                    <p>Teams está integrado en la nube de Office 365, lo que significa que incluye la seguridad y el cumplimiento empresarial que necesita.</p>
+                                                    <p>Los equipos se basa en la nube de Office 365, lo que significa las características de la seguridad de nivel empresarial &amp; cumplimiento de normas que necesita</p>
                                                 </div>
                                             </div>
                                         </div>

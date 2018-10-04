@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Vídeos de aprendizaje, tutoriales y otros recursos para los administradores acerca de cómo planear, implementación y ejecutan Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8715e4f7fb624c745c8fbb76591386e568a038f
-ms.sourcegitcommit: 02ff91505a2f185bb3c1059a1b26ee31bb272438
+ms.openlocfilehash: a2750f99e47517e0b1e516b89673106b44f0c96c
+ms.sourcegitcommit: 0cb35fd6e93939f2252d0729c7c08bac50e6cd6b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25359457"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25402080"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 
@@ -129,7 +129,7 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
                 <div class="card">
                     <div class="cardText">
                         <h3>Recorrido desde Skype Empresarial a Teams</h3>
-                         <p>[Tutorial: Recorrido desde Skype Empresarial a Microsoft Teams](tutorial-journey-skypeforbusiness-to-teams.yml)</p>
+                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Recorrido desde Skype Empresarial a Microsoft Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -139,7 +139,8 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Arquitectura</h3><p>[Vídeo: Fundamentos - los componentes principales de los equipos](http://aka.ms/teams-foundations)</p>
+                        <h3>Arquitectura</h3>
+                        <p><a href="http://aka.ms/teams-foundations">Vídeo: Fundamentos - los componentes principales de los equipos</a></p>
                     </div>
                 </div>
             </div>
@@ -150,8 +151,8 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
                 <div class="card">
                     <div class="cardText">
                         <h3>Planear e implementar</h3>
-                         <p>[Inicio rápido: Guía de planificación de Microsoft Teams](quick-start-enable-teams.md)</p>
-                         <p>[Vídeo: Cliente de escritorio de Windows de los equipos](http://aka.ms/teams-clients)</p>
+                         <p><a href="quick-start-enable-teams.md">Inicio rápido: Guía de planificación de Microsoft Teams</a></p>
+                         <p><a href="http://aka.ms/teams-clients">Vídeo: Cliente de escritorio de Windows de los equipos</a></p>
                     </div>
                 </div>
             </div>
@@ -162,7 +163,7 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
                 <div class="card">
                     <div class="cardText">
                         <h3>Microsoft Teams para el ámbito educativo</h3>
-                        <p>[Inicio rápido: los equipos para los administradores de educación](teams-quick-start-edu.yml)</p>
+                        <p><a href="teams-quick-start-edu.yml">Inicio rápido: los equipos para los administradores de educación</a></p>
                     </div>
                 </div>
             </div>
@@ -174,9 +175,9 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
                 <div class="card">
                     <div class="cardText">
                         <h3>Equipos y canales</h3>
-                         <p>[Vídeo: Obtener el equipo de funcionamiento](https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b)</p>
-                         <p>[Vídeo: Ir a guía para los propietarios de equipo](https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547")</p>
-                         <p>[Artículo: Crear un equipo de toda la organización en los equipos](create-an-org-wide-team.md)</a></p>
+                         <p><a href="https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b">Vídeo: Obtener el equipo de funcionamiento</a></p>
+                         <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">Vídeo: Ir a guía para los propietarios de equipo</a></p>
+                         <p><a href="create-an-org-wide-team.md">Artículo: Crear un equipo de toda la organización en los equipos</a></p>
                     </div>
                 </div>
             </div>
@@ -187,7 +188,7 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
                 <div class="card">
                     <div class="cardText">
                         <h3>Seguridad y cumplimiento</h3>
-                       <p>[Vídeo: Descripción de la exhibición de documentos electrónicos en los equipos](https://www.youtube.com/watch?v=OF65_p_07cE)</p>
+                       <p><a href="https://www.youtube.com/watch?v=OF65_p_07cE">Vídeo: Descripción de la exhibición de documentos electrónicos en los equipos</a></p>
                     </div>
                 </div>
             </div>
@@ -199,7 +200,7 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
                 <div class="card">
                     <div class="cardText">
                         <h3>Reuniones.</h3>
-                        <p>[Tutorial: Reuniones en Teams](tutorial-meetings-in-teams.yml)</a></p>
+                        <p><a href="tutorial-meetings-in-teams.yml">Tutorial: Reuniones en Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -210,9 +211,9 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
                 <div class="card">
                     <div class="cardText">
                         <h3>Herramientas y aplicaciones</h3>
-                        <p>[Vídeo: Agregar herramientas con fichas](https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3)</p>
-                        <p>[Vídeo: Utilizar el cuadro de comando](https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b)</p>
-                        <p>[Vídeo: Información general de la barra de comandos](https://www.youtube.com/watch?v=wYrRCRphrp0)</p>
+                        <p><a href="https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3">Vídeo: Agregar herramientas con fichas</a></p>
+                        <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">Vídeo: Utilizar el cuadro de comando</a></p>
+                        <p><a href="https://www.youtube.com/watch?v=wYrRCRphrp0">Vídeo: Información general de la barra de comandos</a></p>
                     </div>
                 </div>
             </div>
@@ -224,10 +225,10 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
                 <div class="card">
                     <div class="cardText">
                         <h3>Audioconferencia</h3>
-                         <p>[Tutorial: Conferencias de Audio en los equipos](tutorial-audio-conferencing.yml)</p>
-                         <p>[Vídeo: Introducción a la conferencia de Audio](https://www.youtube.com/watch?v=AGPvaW4Vg0o)</p>
-                         <p>[Vídeo: Planeación de conferencias de Audio](https://www.youtube.com/watch?v=AWbuvcWcYIc)</p>
-                         <p>[Vídeo: Número trasladar para conferencias de Audio](https://www.youtube.com/watch?v=5k0C21KAsns)</p>
+                         <p><a href="tutorial-audio-conferencing.yml">Tutorial: Conferencias de Audio en los equipos</a></p>
+                         <p><a href="https://www.youtube.com/watch?v=AGPvaW4Vg0o">Vídeo: Introducción a la conferencia de Audio</a></p>
+                         <p><a href="https://www.youtube.com/watch?v=AWbuvcWcYIc">Vídeo: Planeación de conferencias de Audio</a></p>
+                         <p><a href="https://www.youtube.com/watch?v=5k0C21KAsns">Vídeo: Número trasladar para conferencias de Audio</a></p>
                     </div>
                 </div>
             </div>
@@ -238,8 +239,8 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
                 <div class="card">
                     <div class="cardText">
                         <h3>Planes de llamadas</h3>
-                         <p>[Inicio rápido: configuración de planes de llamada en los equipos](configuring-teams-calling-quickstartguide.md)</p>
-                         <p>[Tutorial: Comprender las llamadas en Microsoft Teams](tutorial-calling-in-teams.yml)</p>
+                         <p><a href="configuring-teams-calling-quickstartguide.md">Inicio rápido: configuración de planes de llamada en los equipos</a></p>
+                         <p><a href="tutorial-calling-in-teams.yml">Tutorial: Comprender las llamadas en Microsoft Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -250,7 +251,7 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
                 <div class="card">
                     <div class="cardText">
                         <h3>Enrutamiento directo</h3>
-                        <p>[Vídeo: Directo de enrutamiento para los equipos - Preview](https://www.youtube.com/watch?v=dVkc5Bs926Q)</p>
+                        <p><a href="https://www.youtube.com/watch?v=dVkc5Bs926Q">Vídeo: Directo de enrutamiento para los equipos - Preview</a></p>
                     </div>
                 </div>
             </div>
