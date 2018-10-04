@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: Puede decidir usar grupos de servidores front-end para proporcionar protección de recuperación ante desastres emparejados, pero hacerlo no es un requisito.
-ms.openlocfilehash: 72083b2ec249a83c06cd8ccebe683f29d15709e0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7bbb15c635b8a0b9c90d80309e49721cfe778155
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026484"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371275"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Implementación de grupos de servidores Front-End emparejados para la recuperación ante desastres en Skype para Business Server
  
@@ -58,23 +58,23 @@ Puede implementar fácilmente la topología de grupos de Front-End emparejados c
 
 10. Haga que los datos de conferencia y usuarios de ambos grupos de servidores se sincronicen entre sí, con los siguientes cmdlets:
     
-   ```
-   Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
-   ```
+    ```
+    Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
+    ```
 
-   ```
-   Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
-   ```
+    ```
+    Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
+    ```
 
-   La sincronización de datos podría llevar unos minutos. Puede utilizar los siguientes cmdlets para ver el estado. Asegúrese de que el estado de ambas direcciones sea parejo
+    La sincronización de datos podría llevar unos minutos. Puede utilizar los siguientes cmdlets para ver el estado. Asegúrese de que el estado de ambas direcciones sea parejo
     
-   ```
-   Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
-   ```
+    ```
+    Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
+    ```
 
-   ```
-   Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
-   ```
+    ```
+    Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
+    ```
 
 > [!NOTE]
 > La opción de **conmutación por error automática y la conmutación por recuperación para voz** y los intervalos de tiempo asociado en el generador de topología se aplican sólo a las características de resistencia de voz que se introdujeron en Lync Server. La selección de esta opción no implica que la conmutación por error de grupos de servidores tratada en este documento sea automática. La conmutación por error y la conmutación por recuperación de los grupos de servidores siempre requieren que un administrador invoque manualmente los cmdlets de conmutación por error y de conmutación por recuperación, respectivamente.

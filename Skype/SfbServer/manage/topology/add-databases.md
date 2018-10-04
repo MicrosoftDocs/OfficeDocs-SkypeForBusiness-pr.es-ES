@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
 description: 'Resumen: Obtenga información sobre cómo agregar más Skype para bases de datos de Business Server a un grupo de disponibilidad AlwaysOn existente de Skype para Business Server.'
-ms.openlocfilehash: f055466788494f10575b7bd3710705a138c456b2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e5217ba16234ea96f205d8ee89b6d31ac6b2df6c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20976327"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372063"
 ---
 # <a name="add-databases-to-an-alwayson-availability-group-in-skype-for-business-server"></a>Agregar las bases de datos a un grupo de disponibilidad AlwaysOn en Skype para Business Server
  
@@ -26,11 +26,11 @@ ms.locfileid: "20976327"
     
 2. En el generador de topología, establezca el FQDN del grupo de disponibilidad AlwaysOn de SQL Server en el FQDN del nodo principal de ese grupo.
     
-  - Abra el generador, seleccione **Descargar topología de la implementación existente**y haga clic en **Aceptar**.
+   - Abra el generador, seleccione **Descargar topología de la implementación existente**y haga clic en **Aceptar**.
     
-  - Expanda Skype Empresarial Server, expanda la topología y expanda **Almacenes de SQL Server**. Haga clic en el almacén de SQL del nuevo grupo de disponibilidad AlwaysOn y haga clic en **Editar propiedades**.
+   - Expanda Skype Empresarial Server, expanda la topología y expanda **Almacenes de SQL Server**. Haga clic en el almacén de SQL del nuevo grupo de disponibilidad AlwaysOn y haga clic en **Editar propiedades**.
     
-  - En la parte inferior de la página, en el cuadro **FQDN de SQL Server** , escriba el FQDN del nodo principal del grupo de disponibilidad AlwaysOn.
+   - En la parte inferior de la página, en el cuadro **FQDN de SQL Server** , escriba el FQDN del nodo principal del grupo de disponibilidad AlwaysOn.
     
 3. Publique la topología. En el menú **Acción** haga clic en **Topología** y luego en **Publicar**. Después, en la página de confirmación haga clic en **Siguiente**.
     

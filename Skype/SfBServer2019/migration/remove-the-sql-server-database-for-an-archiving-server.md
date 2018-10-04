@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Después de quitar un servidor de archivado, puede quitar las bases de datos de SQL Server que hospedan los datos del grupo de servidores. Use los procedimientos siguientes para quitar las definiciones de generador de topología y, a continuación, quitar los archivos de registro y base de datos desde el servidor de base de datos.
-ms.openlocfilehash: c82f718cf86de653f6c1340d38e21e96cbaa150d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b7c1fe6591564a690ea1da55fb65eb1071661d63
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027966"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370804"
 ---
 # <a name="remove-the-sql-server-database-for-an-archiving-server"></a>Quitar la base de datos de SQL Server para un servidor de archivado
 
@@ -35,9 +35,9 @@ Después de quitar un servidor de archivado, puede quitar las bases de datos de 
     
 3. En la línea de comandos, escriba:
     
-  ```
-  Uninstall-CsDataBase -DatabaseType Archiving -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
-  ```
+   ```
+   Uninstall-CsDataBase -DatabaseType Archiving -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
+   ```
 
     Donde _ \<FQDN\> _ es el nombre de dominio completo (FQDN) del servidor de base de datos, y _ \<instancia\> _ es la instancia con nombre de la base de datos (es decir, si se ha definido uno). 
     

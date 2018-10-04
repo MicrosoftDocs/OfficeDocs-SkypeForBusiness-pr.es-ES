@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 960ab8a3-352d-4b18-bc01-55b35f30ca0d
 description: En las secciones siguientes se proporcionan instrucciones acerca de cómo configurar un entorno que tiene varios bosques en un modelo de bosque de usuario o recurso para proporcionar funcionalidad empresarial en un escenario híbrido de Skype.
-ms.openlocfilehash: 90f8722780ee6db99a739c62e6100c81a385a265
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 772b93aab0d8adf08345870ac97a8e1487e240e2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887035"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370927"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Configurar un entorno de varios bosque para entornos híbridos Skype para la empresa
  
@@ -70,7 +70,7 @@ El [elegido el atributo de vínculo de la cuenta](https://azure.microsoft.com/en
   
 No sincronizar el UPN entre los bosques. Durante las pruebas, detectamos que era necesario un UPN único para cada bosque de usuarios, ya que no se puede usar el mismo UPN en varios bosques. Como resultado, se nos presentaron dos posibilidades: sincronizar el UPN o no sincronizarlo. 
   
--  Si el UPN único de cada bosque de usuarios no se sincroniza con el objeto deshabilitado asociado en el bosque de recursos, el inicio de sesión único no podría usarse, como mínimo, durante el intento de inicio de sesión inicial (siempre que el usuario seleccione la opción para guardar la contraseña). En el cliente de Skype Empresarial, se da por supuesto que los valores de SIP/UPN son los mismos. Como la dirección SIP en este escenario es usuario@empresa.com, pero el UPN del objeto habilitado en el bosque de usuarios es en realidad usuario@contoso.empresa.com, el intento de inicio de sesión inicial produciría errores y al usuario se le solicitarían las credenciales. Después de especificar el UPN correcto/real, la solicitud de autenticación se completaría en los controladores de dominio del bosque de usuarios y el inicio de sesión se realizaría correctamente.
+- Si el UPN único de cada bosque de usuarios no se sincroniza con el objeto deshabilitado asociado en el bosque de recursos, el inicio de sesión único no podría usarse, como mínimo, durante el intento de inicio de sesión inicial (siempre que el usuario seleccione la opción para guardar la contraseña). En el cliente de Skype Empresarial, se da por supuesto que los valores de SIP/UPN son los mismos. Como la dirección SIP en este escenario es usuario@empresa.com, pero el UPN del objeto habilitado en el bosque de usuarios es en realidad usuario@contoso.empresa.com, el intento de inicio de sesión inicial produciría errores y al usuario se le solicitarían las credenciales. Después de especificar el UPN correcto/real, la solicitud de autenticación se completaría en los controladores de dominio del bosque de usuarios y el inicio de sesión se realizaría correctamente.
     
 - Si el UPN único de cada bosque de usuarios se sincroniza con el objeto deshabilitado asociado en el bosque de recursos, la autenticación de AD FS produciría errores. La regla de coincidencia encontraría el UPN en el objeto del bosque de recursos, que estaba deshabilitado y no se pudo usar para la autenticación. 
     

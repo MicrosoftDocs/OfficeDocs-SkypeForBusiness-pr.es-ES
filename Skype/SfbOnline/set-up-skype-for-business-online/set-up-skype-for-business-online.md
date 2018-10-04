@@ -22,12 +22,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: 'Aprenda a configurar su dominio, los usuarios, mensajería instantánea y presencia para su organización para instalar Skype para la empresa. También vea cómo configurar conferencias de audio, sistema telefónico y llamar a los planes y difusión de reunión de Skype. '
-ms.openlocfilehash: b4db326212b472539a483a406a7c940f0802978d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: af472553cea8a79f2fe9d918f7924f8884e834b5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23864493"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374479"
 ---
 # <a name="set-up-skype-for-business-online"></a>Configurar Skype Empresarial Online
 
@@ -54,7 +54,7 @@ Para obtener más información, vea [Planear el programa de instalación de Offi
 
 Skype Empresarial Online forma parte del conjunto de servicios de Office 365. Para configurar Skype Empresarial Online debe iniciar sesión en Office 365. A continuación se explica cómo debe hacerlo:
 
-1. Busque su Id. de usuario de Office 365 (por ejemplo,  *rob@fourthcoffee.com*  ). Lo podrá encontrar en un correo electrónico que le envió el equipo de Microsoft Online Services con el Id. de usuario de Office 365 que creó cuando compró Skype Empresarial Online. El correo tiene un aspecto similar a este:
+1. Busque su Id. de usuario de Office 365 (por ejemplo,  <em>rob@fourthcoffee.com</em>  ). Lo podrá encontrar en un correo electrónico que le envió el equipo de Microsoft Online Services con el Id. de usuario de Office 365 que creó cuando compró Skype Empresarial Online. El correo tiene un aspecto similar a este:
 
     ![Un ejemplo del correo electrónico de bienvenida que recibió al suscribirse a Skype Empresarial Online. Contiene su Id. de usuario de Office 365.](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
@@ -80,11 +80,11 @@ La mensajería instantánea (MI) y la presencia ([Controlar el acceso a la infor
 
 1. **Elegir con quién más quiere que se puedan comunicar los usuarios de Skype Empresarial:**
 
-  - [Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial](allow-users-to-contact-external-skype-for-business-users.md) Es necesario configurar los sistemas en su empresa *y*  en la empresa externa.
+   - [Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial](allow-users-to-contact-external-skype-for-business-users.md) Es necesario configurar los sistemas en su empresa *y*  en la empresa externa.
 
-    **IMPORTANTE**: Si tiene dos dominios en su empresa, como rob@contosowest.com e ina@contosoeast.com, debe seguir este paso para que todos los usuarios puedan comunicarse entre ellos.
+     **IMPORTANTE**: Si tiene dos dominios en su empresa, como rob@contosowest.com e ina@contosoeast.com, debe seguir este paso para que todos los usuarios puedan comunicarse entre ellos.
 
-  - [Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype](let-skype-for-business-users-add-skype-contacts.md) externos a la empresa
+   - [Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype](let-skype-for-business-users-add-skype-contacts.md) externos a la empresa
 
 2. **Elegir quién podrá ver si los compañeros de trabajo están conectados:** la característica de presencia muestra quién está conectado y cuál es su disponibilidad (por ejemplo, disponible, ocupado, ausente o presentando).
 
@@ -92,9 +92,9 @@ La mensajería instantánea (MI) y la presencia ([Controlar el acceso a la infor
 
     Puede elegir la configuración predeterminada para todos los usuarios de su empresa:
 
-  - Mostrar automáticamente la presencia en línea de un usuario a todos los usuarios de la organización
+   - Mostrar automáticamente la presencia en línea de un usuario a todos los usuarios de la organización
 
-  - Mostrar la presencia en línea de un usuario solo a sus contactos
+   - Mostrar la presencia en línea de un usuario solo a sus contactos
 
 Para obtener instrucciones, consulte [Configurar la presencia en Skype Empresarial Online](configure-presence-in-skype-for-business-online.md).
 

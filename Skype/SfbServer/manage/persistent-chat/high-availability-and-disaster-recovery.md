@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 'Resumen: Obtenga información sobre cómo administrar el servidor de Chat persistente alta disponibilidad y recuperación ante desastres en Skype para Business Server 2015.'
-ms.openlocfilehash: 3c3da985f8d68f257257909fbc06e93868233468
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 477897362a01ae3ac6097c50eaed8f9ece31f49d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008226"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371637"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Administrar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente en Skype Empresarial Server 2015
  
@@ -48,15 +48,15 @@ Para llevar a cabo la conmutación por error del servidor de chat persistente:
   
 1. Quitar trasvase de registros de la base de datos Persistent Chat Server copia de seguridad del trasvase de registros.
     
-  - Con SQL Server Management Studio, conéctese a la instancia de base de datos donde se encuentra la base de datos de CGM de copia de seguridad del servidor de Chat persistente.
+   - Con SQL Server Management Studio, conéctese a la instancia de base de datos donde se encuentra la base de datos de CGM de copia de seguridad del servidor de Chat persistente.
     
-  - Abra una ventana de consulta en la base de datos principal.
+   - Abra una ventana de consulta en la base de datos principal.
     
-  - Utilice el siguiente comando para colocar el trasvase de registros:
+   - Utilice el siguiente comando para colocar el trasvase de registros:
     
-  ```
-  exec sp_delete_log_shipping_secondary_database mgc
-  ```
+   ```
+   exec sp_delete_log_shipping_secondary_database mgc
+   ```
 
 2. Copie cualquier archivo de copia de seguridad no copiado desde el recurso compartido de copia de seguridad a la carpeta de destino de copias del servidor de copias de seguridad.
     
@@ -64,15 +64,15 @@ Para llevar a cabo la conmutación por error del servidor de chat persistente:
     
 4. Publique en línea la base de datos mgc de copia de seguridad. Utilizando la ventana de consultas que se abre en el paso 1b, realice lo siguiente:
     
-  - Finalice todas las conexiones a la base de datos mgc, si existe alguna:
+   - Finalice todas las conexiones a la base de datos mgc, si existe alguna:
     
-  - **exec sp_who2** identifica las conexiones a la base de datos mgc.
+   - **exec sp_who2** identifica las conexiones a la base de datos mgc.
     
-  - **kill \<spid\> ** para finalizar estas conexiones.
+   - **kill \<spid\> ** para finalizar estas conexiones.
     
-  - Publique en línea la base de datos:
+   - Publique en línea la base de datos:
     
-  - **Restaurar la base de datos mgc con la recuperación**.
+   - **Restaurar la base de datos mgc con la recuperación**.
     
 5. En Skype para Shell de administración de servidor empresarial, use el comando **Set-CsPersistentChatState-Identity "service: atl-cs-001.litwareinc.com" - PoolState FailedOver** para conmutar por error a la base de datos de copia de seguridad de CGM. No olvide sustituir el nombre de dominio completo del grupo de chat persistente por atl-cs-001.litwareinc.com.
     

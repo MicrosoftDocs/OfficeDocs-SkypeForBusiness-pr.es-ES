@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: 'Resumen: Obtenga información sobre cómo administrar unirse a conferencia y dejar anuncios en Skype para Business Server.'
-ms.openlocfilehash: 84c9b5f9457d16570e58b119329d6b8fcefa4205
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 33c20319142608f38451a547687bc1bc9eae47d1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008494"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371591"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Administrar unirse a conferencia y dejar anuncios en Skype para Business Server
  
@@ -39,20 +39,20 @@ Puede configurar estas opciones en el ámbito global o en el ámbito del sitio. 
     
 3. Ejecute los siguientes comandos en símbolo del sistema:
     
-  ```
-  Get-CsDialinConferencingConfiguration
-  ```
+   ```
+   Get-CsDialinConferencingConfiguration
+   ```
 
 Este cmdlet recupera información acerca de si los participantes deben grabar su nombre al unirse a una conferencia y cómo Skype para Business Server responde cuando los participantes unirse o abandonar una conferencia de acceso telefónico.
     
 4. Ejecute los siguientes comandos en símbolo del sistema:
     
-  ```
-  Set-CsDialinConferencingConfiguration -Identity <identity of dial-in conferencing settings to be modified>
-[-EnableNameRecording <$true | $false>]
-[-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
-[-EntryExitAnnouncementsType <UseNames | ToneOnly]
-  ```
+   ```
+   Set-CsDialinConferencingConfiguration -Identity <identity of dial-in conferencing settings to be modified>
+   [-EnableNameRecording <$true | $false>]
+   [-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
+   [-EntryExitAnnouncementsType <UseNames | ToneOnly]
+   ```
 
 En este ejemplo, las opciones están configuradas en el ámbito del sitio de Redmond. Los anuncios están activados, pero no se pide a los participantes que digan su nombre cuando se unen a una conferencia. Suena un tono cuando los participantes se unen a una conferencia o la abandonan:
   

@@ -10,16 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
-description: 'Resumen: Aprender a utilizar el registrador del servicio de registro centralizado (CLS) en Skype para Business Server 2015.'
-ms.openlocfilehash: 24b4d873694088b371a4db203c0081f7e9a8f493
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Obtenga información sobre cómo usar el servicio de registro centralizado (CLS) registrador de Skype para Business Server 2015.'
+ms.openlocfilehash: b9a42c671f90d00434a94a27830753d58afb9e0b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372131"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>Registrador de CLS para Skype Empresarial Server 2015
  
-**Resumen:** Aprenda a utilizar el registrador del servicio de registro centralizado (CLS) en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo usar el servicio de registro centralizado (CLS) registrador de Skype para Business Server 2015.
   
 CLS Logger es una herramienta que ayuda en la administración de los registros que genera el servicio de registro centralizado.
   
@@ -35,7 +36,7 @@ A fin de utilizar CLS Logger correctamente, es preciso asegurarse de lo siguient
 
 Use el siguiente comando para comprobar el estado de registro:
   
-1. En la ficha "Escenarios de Start/Stop", seleccione un agrupamiento de grupos o equipos en la vista de árbol de topología.
+1. En la ficha "Iniciar/detener escenarios", seleccione una agrupación de los grupos de servidores o de equipos en la vista de árbol de la topología.
     
 2. Haga clic en el botón Estado de registro.
     
@@ -45,7 +46,7 @@ Use el siguiente comando para comprobar el estado de registro:
 
 Para iniciar un escenario existente:
   
-1. En la ficha "Escenarios de Start/Stop", seleccione un escenario existente en el menú desplegable de escenarios.
+1. En la ficha "Iniciar/detener escenarios", seleccione un escenario existente desde el menú desplegable de escenarios.
     
 2. Seleccione una agrupación de equipos o grupos de servidores en la vista del árbol de la topología.
     
@@ -59,7 +60,7 @@ Para iniciar un escenario existente:
 
 Para detener un escenario existente:
   
-1. En la ficha "Escenarios de Start/Stop", seleccione un escenario existente en el menú desplegable de escenarios.
+1. En la ficha "Iniciar/detener escenarios", seleccione un escenario existente desde el menú desplegable de escenarios.
     
 2. Seleccione una agrupación de equipos o grupos de servidores en la vista del árbol de la topología.
     
@@ -71,45 +72,45 @@ Para detener un escenario existente:
   
 ## <a name="search-for-logs"></a>Buscar registros
 
-Para buscar registros, seleccione la ficha "Registros de CLS de búsqueda" y haga clic en el botón "Buscar registros" después de rellenar los campos que se muestran como se describe a continuación:
+Con el fin de buscar los registros, seleccione la ficha "Registros de CLS de búsqueda" y haga clic en el botón "Registros de búsqueda" después de rellenar los campos que se muestran tal y como se describe a continuación:
   
 > **Carpeta de archivos de registros** La carpeta para guardar los resultados de la búsqueda de registros. (Necesaria)
-    
+> 
 > **Nivel de registro** Esto determina el nivel más bajo que se mostrará en los resultados; por ejemplo, si selecciona Advertencia, solo se mostrarán los errores irrecuperables, los errores y las advertencias. El nivel predeterminado es Depuración.
-    
+> 
 > **Grupos** Los grupos de equipos en los que se realizará la búsqueda de registros. Estos son nodos primarios de la vista de árbol. (Necesarios)
-    
+> 
 > **Equipos** Los equipos individuales en los que se realizará la búsqueda de registros. Estos son nodos secundarios de la vista de árbol. (Necesarios)
-    
+> 
 > **Hora de inicio** El período de tiempo en el que CLS consultará los registros. (Necesaria)
-    
+> 
 > **Hora de finalización** El período de tiempo en el que CLS detendrá la consulta de registros. (Necesaria)
-    
+> 
 > **Componentes** Se utilizan para seleccionar qué componentes agregar a la consulta. (Opcional)
-    
+> 
 > **Id. de llamada** El id. de llamada de todos los diálogos SIP que se utilizará como filtro. Tenga en cuenta que este campo utiliza resultados exactos. (Opcional)
-    
+> 
 > **Id. de conferencia** El id. de conferencia de todas las conferencias que se utilizará como filtro. Tenga en cuenta que este campo utiliza resultados exactos. (Opcional)
-    
+> 
 > **Dirección IP** La dirección IP que se utilizará como filtro. Tenga en cuenta que este campo utiliza resultados exactos. (Opcional)
-    
+> 
 > **Id. de correlación** Realiza un seguimiento de las instrucciones lógicamente vinculadas en conjunto por este id. (Opcional)
-    
+> 
 > **Número de teléfono** Filtra por número de teléfono. (Opcional)
-    
+> 
 > **URI de SIP** Filtra por URI de SIP. (Opcional)
-    
+> 
 > **El contenido del mensaje SIP contiene** Filtra por el contenido de los mensajes SIP; se realizarán búsquedas en las subcadenas del campo. (Opcional)
-    
+> 
 > **Cualquier resultado** Las búsquedas usan un conector lógico O si se selecciona. Todos los parámetros se establecen de forma predeterminada en Coincidencia exacta.
-    
+> 
 > **Omitir registros de red** Si se selecciona, se omiten todos los registros de red de la búsqueda.
     
 ![Registros de búsqueda del registrador de CLS](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
   
 ## <a name="create-a-scenario"></a>Crear un escenario
 
-1. En la ficha **Modificar escenarios** , haga clic en el botón **Crear escenario** .
+1. En la ficha **Editar escenarios** , haga clic en el botón **Crear escenario** .
     
     > [!NOTE]
     > Crear un escenario clonará la configuración del escenario que esté seleccionado en ese momento. Si hace clic en **Borrar los ajustes** antes de crear un escenario empezará sin elementos ni marcas seleccionados.

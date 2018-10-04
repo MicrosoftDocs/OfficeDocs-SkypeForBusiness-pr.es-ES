@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo ver una lista de todos los números de teléfono en su organización, todos los números que se asigna a los usuarios y todos los números que se asignan a los usuarios de voz desde el Skype para el centro de administración de negocio.
-ms.openlocfilehash: c257991c0b867cb42b5b56af0e5595257260b25a
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: a6ab8115e1b336f2ccc77548fdfe501852efbda7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347085"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370703"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Ver una lista de números de teléfono de su organización
 
@@ -50,17 +50,17 @@ Hay distintos tipos de números de teléfono que puede asignar a usuarios o a ot
     
 5. Puede usar la lista desplegable para filtrar la vista por:
     
-  - **Todos** los números de teléfono, incluidos los números de teléfono de servicios.
+   - **Todos** los números de teléfono, incluidos los números de teléfono de servicios.
     
-  - Un teléfono **intervalo de números** que ha configurado.
+   - Un teléfono **intervalo de números** que ha configurado.
     
-  - Números de teléfono que están **asignados al usuario**.
+   - Números de teléfono que están **asignados al usuario**.
     
-  - Números de teléfono que **asignada a la conferencia** para conferencias de acceso telefónico.
+   - Números de teléfono que **asignada a la conferencia** para conferencias de acceso telefónico.
     
-  - Números de teléfono que están **sin asignar**.
+   - Números de teléfono que están **sin asignar**.
     
-  - La **ubicación** de los números de teléfono.
+   - La **ubicación** de los números de teléfono.
     
 ## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>Para ver todos los números de teléfono asignados a los usuarios
 
@@ -78,13 +78,13 @@ Cuando configure usuarios, es posible que solo quiera ver la lista de los númer
     > [!IMPORTANT]
     > Para que pueda ver la opción de **voz** en la izquierda en la Skype para el centro de administración de negocio, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia adicional para **El sistema de teléfono** o al menos una **licencia Enterprise E5**.
     
-4. Puede filtrar la vista para números de teléfono que se asignan a los usuarios o los números de teléfono que se pueden asignar a un usuario. Puede filtrar por:
+4. You can filter your view for phone numbers that are assigned to users or phone numbers that you can assign to a user. You can filter by:
     
-  - **Todos** los números de teléfono, incluidos los números de teléfono de servicios.
+   - **Todos** los números de teléfono, incluidos los números de teléfono de servicios.
     
-  - **Número asignado** al usuario.
+   - **Número asignado** al usuario.
     
-  - **Ningún número asignado** al usuario.
+   - **Ningún número asignado** al usuario.
     
 ## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>Para ver los números de teléfono asignados a los usuarios de voz
 
@@ -102,11 +102,11 @@ Al configurar los usuarios de su organización para realizar y recibir llamadas 
     > [!IMPORTANT]
     > Para que pueda ver la opción de **voz** en la izquierda en la Skype para el centro de administración de negocio, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia adicional para **El sistema de teléfono** o al menos una **licencia Enterprise E5**.
     
-4. Puede usar la lista desplegable para filtrar la vista para los usuarios activos, si el usuario está en línea o local, o el estado y el tipo de licencia para un usuario. Puede filtrar por:
+4. You can use the drop-down list to filter your view for active users, whether the user is Online or on-premises, or the state and type of licensing for a user. You can filter by:
     
-  - **Usuarios activos** y si un usuario está alojado en línea o en las instalaciones.
+   - **Usuarios activos** y si un usuario está alojado en línea o en las instalaciones.
     
-  - **Licencias pendientes** y si un usuario está alojado en línea o en las instalaciones.
+   - **Licencias pendientes** y si un usuario está alojado en línea o en las instalaciones.
     
 ## <a name="related-topics"></a>Temas relacionados
 [Preguntas comunes sobre la transferencia de números de teléfono](/microsoftteams/transferring-phone-numbers-common-questions)

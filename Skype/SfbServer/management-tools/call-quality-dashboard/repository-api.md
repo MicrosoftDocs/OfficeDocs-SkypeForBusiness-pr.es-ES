@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: 'Resumen: Obtenga información sobre la API del depósito para el panel de calidad de llamada. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.'
-ms.openlocfilehash: 67378b6b0e927f45605a1ca0f7cdddffafac3022
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7881766de0daf05c85c7dfe8bb85a0ef1344c7c9
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989097"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374726"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>API del depósito para el panel de calidad de llamada (CQD) en Skype para Business Server 2015
  
@@ -46,7 +46,7 @@ Panel de calidad de llamada usa la API de repositorio para administrar la inform
     
 - **Configuración de usuario** - describe un comportamiento de aplicación opcional para el usuario.
     
- **Recursos de origen cruzado (CORS) soporte para la API del depósito de uso compartido**
+  **Recursos de origen cruzado (CORS) soporte para la API del depósito de uso compartido**
   
 API del depósito es compatible con el uso compartido de recursos de origen cruzado (CORS). CORS es una característica HTTP que permite a una aplicación web que se ejecuta en un dominio tener acceso a recursos en otro dominio. Los exploradores Web implementan una restricción de seguridad que se conoce como directiva del mismo origen de [Directiva del mismo origen](https://www.w3.org/Security/wiki/Same_Origin_Policy) que impide que una página web de llamar a las API en un dominio diferente. CORS proporciona una forma segura para permitir que un dominio (el dominio de origen) para llamar a las API en otro dominio. Vea la [especificación de CORS](https://www.w3.org/TR/cors/) para obtener información detallada en CORS.
   

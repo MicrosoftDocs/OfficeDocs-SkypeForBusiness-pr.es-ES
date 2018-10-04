@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 'Resumen: Obtenga información sobre cómo definir una regla de conversión mediante la compilación una herramienta de la regla de conversión de Skype para Business Server.'
-ms.openlocfilehash: 1d1d8fff6c4ab114c2c12d71ec52017d5c491bef
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c50b16f2753569b1a47b37f6615ef0e7f6d26cae
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886264"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370833"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Crear o modificar una regla de conversión para llamado presentación del identificador de Skype para Business Server
 
@@ -46,19 +46,19 @@ Siga estos pasos si desea definir una regla de conversión especificando un conj
 
    - **Dígitos que se van a agregar**: (opcional) especifique los dígitos que se van a agregar a los números convertidos. Por ejemplo, escriba 011 si desea que se agregue 011 a los números convertidos cuando se aplique la regla.
 
-    Los valores que especifique en estos campos se reflejarán en los campos **Patrón con el que hacer coincidir** y **Regla de conversión**. Por ejemplo, si especifica los valores de ejemplo precedentes, la expresión regular resultante en el campo **Patrón con el que hacer coincidir** es:
+     Los valores que especifique en estos campos se reflejarán en los campos **Patrón con el que hacer coincidir** y **Regla de conversión**. Por ejemplo, si especifica los valores de ejemplo precedentes, la expresión regular resultante en el campo **Patrón con el que hacer coincidir** es:
 
-    ^\+(\d{9}\d+)$
+     ^\+(\d{9}\d+)$
 
-    El campo **Regla de conversión** especifica un patrón para el formato de los números convertidos. Este patrón tiene dos partes:
+     El campo **Regla de conversión** especifica un patrón para el formato de los números convertidos. Este patrón tiene dos partes:
 
    - Un valor (por ejemplo, $1) que representa el número de dígitos en el patrón con el que hacer coincidir.
 
    - (Opcional) Un valor que puede agregar si lo especifica en el campo **Dígitos a agregar**.
 
-    Al usar los valores del ejemplo anterior, aparecerá 011$1 en el campo **Regla de conversión**.
+     Al usar los valores del ejemplo anterior, aparecerá 011$1 en el campo **Regla de conversión**.
 
-    Cuando la regla de conversión se aplique, +441235551010 se convertirá en 011441235551010.
+     Cuando la regla de conversión se aplique, +441235551010 se convertirá en 011441235551010.
 
 6. Haga clic en **Aceptar** para guardar la regla de conversión.
 
@@ -87,7 +87,7 @@ Siga estos pasos si desea definir una regla de conversión especificando un conj
 
    - En **Regla de conversión**, especifique un patrón para el formato de los números convertidos.
 
-    Por ejemplo, si especifica ^\+(\d{9}\d+)$ en **este patrón de coincidencia** and011$ 1 en **regla de conversión**, la regla convertirá + 441235551010 a 011441235551010.
+     Por ejemplo, si especifica ^\+(\d{9}\d+)$ en **este patrón de coincidencia** and011$ 1 en **regla de conversión**, la regla convertirá + 441235551010 a 011441235551010.
 
 7. Haga clic en **Aceptar** para guardar la regla de conversión.
 

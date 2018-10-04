@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
 description: 'Resumen: Obtenga información sobre cómo configurar el identificador de autor de la llamada mediante el Skype para el Panel de Control de servidor empresarial.'
-ms.openlocfilehash: 69c8ba7307b0e641812b9638059ae3ddb92c5ab9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 69d5a1d8f04900933b5de4ebd795961d8b450ca7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885767"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373590"
 ---
 # <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>Crear o modificar una regla de conversión para la presentación del identificador de autor de la llamada de Skype para Business Server
 
@@ -48,7 +48,7 @@ Skype para Business Server también proporciona la opción de traducir también 
 
    - Para quitar una regla de conversión del plan de marcado, resalte el nombre de la regla y haga clic en **Quitar**.
 
-    > [!CAUTION]
-    > No asocie reglas de conversión a un tronco si ha configurado reglas de conversión en la entidad del mismo nivel que el tronco asociado, ya que es posible que ambas reglas puedan entrar en conflicto.
+     > [!CAUTION]
+     > No asocie reglas de conversión a un tronco si ha configurado reglas de conversión en la entidad del mismo nivel que el tronco asociado, ya que es posible que ambas reglas puedan entrar en conflicto.
 
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Vea los pasos que hay que seguir en Microsoft Teams para asignar una licencia de conferencia de acceso telefónico local y un Id. de conferencia a un usuario y muchas otras opciones de la conferencia de acceso telefónico local. '
-ms.openlocfilehash: 1cf3240a2b6cf286e14a8180346f8db0ed755a46
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: b63650833c7c844de11ecb833288b6568604f919
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019097"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375866"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>Administrar la configuración de Audioconferencia para mi organización en Microsoft Teams
 
@@ -37,7 +37,7 @@ Puede que le resulte más sencillo ver todas las opciones de audioconferencias p
 ## <a name="assign-an-audio-conferencing-license"></a>Asignar una licencia de Audioconferencia
 
 > [!NOTE]
-> No se puede asignar licencias de uso de los equipos. You must use the Office 365 admin center. See [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). 
+> No es posible asignar licencias con Teams. Hay que usar el Centro de administración de Office 365. See [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). 
   
  **Para asignar una licencia a un usuario**
   
@@ -74,7 +74,7 @@ Vea la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.co
     
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>Cambiar la información de contacto del remitente en los mensajes de correo electrónico que se envían a los usuarios
 
-Puede realizar cambios en el correo electrónico que se envía automáticamente a los usuarios, incluida la dirección de correo electrónico real y el nombre para mostrar de la información de contacto del remitente. De forma predeterminada, el remitente de los mensajes de correo electrónico es Office 365, pero puede cambiar la dirección de correo electrónico y Mostrar nombre con Windows PowerShell. Vea la [referencia de PowerShell de los equipos de Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
+Puede realizar cambios en el correo electrónico que se envía de forma automática a los usuarios, incluidos la dirección de correo electrónico real y el nombre para mostrar de la información de contacto del remitente. De manera predeterminada, el remitente de los mensajes será Office 365, pero puede cambiar la dirección de correo electrónico y el nombre para mostrar con Windows PowerShell. Vea la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
   
 ## <a name="reset-the-meeting-conference-id"></a>Restablecer el Id. de conferencia de reunión
 
@@ -84,13 +84,13 @@ Puede realizar cambios en el correo electrónico que se envía automáticamente 
 
 2. En **Audioconferencia**, haga clic en **Restablecer Id. de conferencia**.  
 
-3. En la **Restablecer el identificador de conferencia?** ventana, haga clic en **Restablecer**. Se creará automáticamente un identificador de conferencia y un correo electrónico enviado al usuario con el nuevo identificador de conferencia si está habilitado el envío de correo electrónico a los usuarios. Está habilitada de forma predeterminada.
+3. En la ventana **¿desea restablecer el id. de conferencia?**, haga clic en **Restablecer**. El Id. de conferencia se creará automáticamente y se enviará un correo electrónico al usuario con el Id. de conferencia nuevo siempre que el envío de correos electrónicos a los usuarios esté habilitado. Está habilitado de forma predeterminada.
 
 Vea [Restablecer un Id. de conferencia para un usuario](reset-a-conference-id-for-a-user-in-teams.md).
   
 ## <a name="reset-a-conference-organizers-pin"></a>Restablecer el PIN de un organizador de conferencia
 
-Se asignará un id. de conferencia único a cada reunión que programe un usuario. Si bien crea automáticamente un identificador de conferencia y se asigna a un usuario, puede haber ocasiones cuando un usuario no desea utilizar este y que desea establecer para un cierto número, o los usuarios no pueden recordar o han perdido su identificador de conferencia. 
+Se asignará un id. de conferencia único a cada reunión que programe un usuario. Aunque el Id. de conferencia se crea y se asigna automáticamente a un usuario, puede suceder que un usuario no quiera usar este Id. y quiera configurar un número concreto, o que los usuarios no lo recuerden o lo hayan perdido. 
 
 ![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
 
@@ -205,9 +205,9 @@ También puede establecer el idioma principal y los idiomas secundarios compatib
 
 2. Seleccione un número de teléfono de la lista y haga clic en **Editar**. Here you can:
     
-  - View the phone numbers that are set by Office 365 to be used for Audio Conferencing. 
+   - View the phone numbers that are set by Office 365 to be used for Audio Conferencing. 
     
-  - Ver la ubicación y el idioma principal, que se utilizará en el operador automático de conferencia de Audio.
+   - Ver la ubicación y el idioma principal, que se utilizará en el operador automático de conferencia de Audio.
 
   
 Vea [una lista de números de conferencias de Audio](see-a-list-of-audio-conferencing-numbers-in-teams.md).

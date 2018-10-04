@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: 'Resumen: Obtenga información sobre cómo buscar y leer los registros de captura del servicio de registro centralizado en Skype para Business Server 2015.'
-ms.openlocfilehash: 4016aeaac5b693ceef620dad66031254f208bfbf
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9429ef0f2c14552c615e4d7f81c497ea9bb546f3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969021"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372222"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Buscar registros de captura creados por el servicio de registro centralizado en Skype Empresarial Server 2015
  
@@ -56,9 +56,9 @@ El resto de este tema se centra en cómo definir una búsqueda para optimizar la
     
 2. Asegúrese de que el escenario AlwaysOn se encuentra en ejecución en la implementación en el ámbito global y, luego, escriba lo siguiente en un símbolo del sistema:
     
-  ```
-  Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
-  ```
+   ```
+   Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
+   ```
 
 > [!NOTE]
 > De manera predeterminada, Search-CsClsLogging envía los resultados de la búsqueda a la consola. Si desea guardar los resultados de búsqueda en un archivo, use - OutputFilePath _ \<ruta de acceso de archivo completa de cadena\>_. Para definir el parámetro - OutputFilePath, proporcione una ruta de acceso y un nombre de archivo como parte del parámetro en un formato de cadena entre comillas (por ejemplo; C:\LogFiles\SearchOutput.txt). En este ejemplo, es preciso asegurarse de que exista el directorio C:\LogFiles y de que tenga los permisos de lectura y escritura (permiso NTFS de modificación) de archivos de la carpeta. El resultado se anexa y no se sobrescribe. Si necesita archivos independientes, defina un nombre de archivo diferente para cada búsqueda. 
@@ -73,9 +73,9 @@ Por ejemplo:
 
 1. Para limitar la búsqueda a un equipo o grupo de servidores concreto, utilice el - parámetro equipos con el equipo definido por un nombre completo del equipo, entre comillas y separados por una coma, como se indica a continuación:
     
-  ```
-  Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
-  ```
+   ```
+   Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
+   ```
 
 Por ejemplo:
     
@@ -85,25 +85,25 @@ Por ejemplo:
 
 2. Para buscar en más de un equipo, escriba varios nombres de equipos entre comillas y separados por comas, como, por ejemplo, de la siguiente manera:
     
-  ```
-  Search-CsClsLogging -Computers "fe01.contoso.net", "fe02.contoso.net", "fe03.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Computers "fe01.contoso.net", "fe02.contoso.net", "fe03.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
+   ```
 
 3. Si necesita buscar un grupo entero en lugar de un único equipo, cambiar el equipos parámetro - a - grupos de servidores, quitar el nombre del equipo y reemplazar con el grupo de servidores o grupos de servidores en comillas separados por comas.
     
     Por ejemplo:
     
-  ```
-  Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 4. Al usar los comandos de búsqueda, los grupos de servidores pueden ser cualquier grupo de servidores de la implementación, como los grupos de servidores Front-End, grupos de servidores perimetrales, grupos de servidores de Chat persistente u otros que se definen como un grupo de servidores en su implementación.
     
     Por ejemplo:
     
-  ```
-  Search-CsClsLogging -Pools "pool01.contoso.net", "pchatpool01.contoso.net", "intedgepool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Pools "pool01.contoso.net", "pchatpool01.contoso.net", "intedgepool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 ### <a name="to-run-a-search-by-using-time-parameters"></a>Para ejecutar una búsqueda utilizando los parámetros de hora
 
@@ -113,9 +113,9 @@ Por ejemplo:
     
     Por ejemplo, mediante el uso de - StartTime y EndTime - para definir un intervalo de fecha y hora, puede definir una búsqueda entre las 8 A.M. y las 9 AM en 20/11/2012 en el grupo de servidores. Puede definir la ruta de salida para que escriba los resultados en un archivo llamado c:\logfile.txt de la manera siguiente:
     
-  ```
-  Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 > [!NOTE]
 > La cadena de fecha y hora que especifique puede ser "fecha hora" u "hora fecha". "El comando analizar la cadena y usar los valores apropiados para la fecha y hora y su configuración regional y de referencia cultural en el equipo que está ejecutando el cmdlet desde. 
@@ -142,9 +142,9 @@ Por ejemplo:
     
 2. Para ejecutar un comando a fin de recopilar seguimientos de determinados componentes, escriba lo siguiente:
     
-  ```
-  Search-CsClsLogging -Components <components to search on> -OutputFilePath <fully qualified path to output logs>
-  ```
+   ```
+   Search-CsClsLogging -Components <components to search on> -OutputFilePath <fully qualified path to output logs>
+   ```
 
 Por ejemplo:
     
@@ -156,21 +156,21 @@ La búsqueda resultante devuelve todas las entradas de registro que tengan compo
     
 3. Para limitar la búsqueda con los mismos componentes a sólo el grupo de servidores de Front-End llamado pool01.contoso.net, escriba:
     
-  ```
-  Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 4. La lógica de búsqueda predeterminada para los comandos con varios parámetros es utilizar el conector lógico O con cada uno de los parámetros definidos. Puede cambiar este comportamiento especificando el parámetro **- MatchAll** . Para ello, escriba lo siguiente:
     
-  ```
-  Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 5. Si sus escenarios están definidos para que se ejecuten constantemente, como AlwaysOn, o ha definido un escenario de larga ejecución, los registros podrían salir de la máquina local y pasar al recurso compartido de archivos. Define el recurso compartido de archivos utilizando el parámetro CacheFileNetworkFolder, al utilizar New-CsClsConfiguration para crear una nueva configuración o al modificar una configuración existente con Set-CsClsConfiguration. Si no desea que la búsqueda incluya el recurso compartido de archivos en la colección de registros que se buscará, utilice el parámetro SkipNetworkLogs de la siguiente manera:
     
-  ```
-  Search-CsClsLogging -Components "SIPStack","S4","UserServices" -StartTime "11/1/2012 00:00:01 AM" -EndTime "11/20/2012 2:45:00 PM" -SkipNetworkLogs -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Components "SIPStack","S4","UserServices" -StartTime "11/1/2012 00:00:01 AM" -EndTime "11/20/2012 2:45:00 PM" -SkipNetworkLogs -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 ## <a name="read-capture-logs-from-the-centralized-logging-service"></a>Leer los registros de captura desde el servicio de registro centralizado
 

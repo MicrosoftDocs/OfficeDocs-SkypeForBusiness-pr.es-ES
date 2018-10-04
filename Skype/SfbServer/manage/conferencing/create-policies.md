@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 'Resumen: Obtenga información sobre cómo crear directivas de conferencia en Skype para Business Server.'
-ms.openlocfilehash: 3c71962e42e083ada13b14bdecbefafbbc44f72b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4a481d8853fdb8f022da3539c5ebeb49c3b49402
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20996604"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372290"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Crear directivas de conferencia en Skype para Business Server
  
@@ -26,7 +26,7 @@ Puede crear directivas de conferencia mediante el uso de Skype para el Panel de 
 
 1. Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
     
-2.  Abra Skype para el Panel de Control de servidor empresarial.
+2. Abra Skype para el Panel de Control de servidor empresarial.
     
 3. En la barra de navegación izquierda, haga clic en **Conferencia** y después en **Directiva de conferencia**.
     
@@ -36,8 +36,8 @@ Puede crear directivas de conferencia mediante el uso de Skype para el Panel de 
     
    - Para crear una directiva de nivel de sitio, haga clic en **Directiva de sitio**. En el campo de búsqueda **Seleccionar un sitio**, escriba todo o parte del nombre del sitio para el que desea crear una directiva. En la lista de sitios, haga clic en el sitio que desee y después en **Aceptar**.
     
-    > [!NOTE]
-    > El nombre del sitio pasa a ser el nombre de la directiva de conferencia y no se puede cambiar. 
+     > [!NOTE]
+     > El nombre del sitio pasa a ser el nombre de la directiva de conferencia y no se puede cambiar. 
   
 5. En **Descripción**, escriba una descripción para la directiva.
     

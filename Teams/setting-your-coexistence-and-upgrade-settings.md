@@ -13,12 +13,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a83382ff46e5a698e3755f2c1d2d859dddd65f0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 0b89d75f07ecfac6e37f33c27a9272187b0794a6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013204"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371509"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Establecer las opciones de actualización y coexistencia
 
@@ -57,13 +57,13 @@ Asignada un nivel de usuario de configuración tiene prioridad sobre la configur
 
 1. En el panel de navegación izquierdo, vaya a **los usuarios**y, a continuación, seleccione el usuario en la lista. 
 2. En la ficha de **cuenta** para el usuario, en **los equipos de actualización**, haga clic en **Editar**.
-- Puede establecer el **modo de coexistencia**. Elegir entre las siguientes opciones:
-    - **Configuración de toda la organización uso** - Utilice esta opción si desea que el usuario para utilizar la configuración de la configuración de **toda la organización** . 
-    - **Islas** : Utilice esta opción si desea que el usuario para poder utilizar ambos Skype para profesionales y los equipos. 
-    - **Skype para la empresa sólo** - Utilice esta opción si desea que el usuario pueda utilizar Skype para la empresa. 
-    - Sólo los equipos de **los equipos sólo** - Utilice esta opción si desea que el usuario pueda utilizar. El usuario aún podrá unirse a Skype para reuniones de negocios.
-3. Si selecciona un **modo de coexistencia** distinto al **uso Org toda la configuración**, tiene la opción de habilitar las notificaciones en Skype del usuario para la aplicación empresarial de actualización a los equipos próximamente. Puede habilitar esta notificación para el usuario al activar la opción **Notificar la Skype para usuarios de empresa** .
-4. Después de realizar los cambios, haga clic en **Guardar** .
+3. Puede establecer el **modo de coexistencia**. Elegir entre las siguientes opciones:
+     - **Configuración de toda la organización uso** - Utilice esta opción si desea que el usuario para utilizar la configuración de la configuración de **toda la organización** . 
+     - **Islas** : Utilice esta opción si desea que el usuario para poder utilizar ambos Skype para profesionales y los equipos. 
+     - **Skype para la empresa sólo** - Utilice esta opción si desea que el usuario pueda utilizar Skype para la empresa. 
+     - Sólo los equipos de **los equipos sólo** - Utilice esta opción si desea que el usuario pueda utilizar. El usuario aún podrá unirse a Skype para reuniones de negocios.
+4. Si selecciona un **modo de coexistencia** distinto al **uso Org toda la configuración**, tiene la opción de habilitar las notificaciones en Skype del usuario para la aplicación empresarial de actualización a los equipos próximamente. Puede habilitar esta notificación para el usuario al activar la opción **Notificar la Skype para usuarios de empresa** .
+5. Después de realizar los cambios, haga clic en **Guardar** .
 
 ### <a name="related-topics"></a>Temas relacionados
 [Planear el viaje](upgrade-plan-journey.md)

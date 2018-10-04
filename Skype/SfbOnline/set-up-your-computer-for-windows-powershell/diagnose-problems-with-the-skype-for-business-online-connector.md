@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Solución de problemas de creación de una sesión remota de PowerShell para conectarse a Skype para profesionales Online, incluidos Import-Module, shell simultánea, Live ID y errores de permiso.
-ms.openlocfilehash: 516da269e41f7945238aa8b402793a65444bd932
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 651afa58513819eb57914bfa1cd92bc38a46298f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851517"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372908"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexión con el conector de Skype Empresarial Online
 
@@ -51,7 +51,7 @@ En este tema se proporciona información que le ayudarán a diagnosticar y resol
 
 La directiva de ejecución de PowerShell ayuda a determinar qué archivos de configuración se pueden cargar en la consola de PowerShell y que secuencias de comandos de un usuario pueden ejecutar desde esa consola. Como mínimo, el Skype para el módulo del conector en línea de negocio no se puede importar a menos que se ha establecido la directiva de ejecución en RemoteSigned. Si no es así, recibirá el siguiente mensaje de error al intentar importar el módulo:
   
-- **Error**: *Import-Module: archivo C:\\archivos de programa\\archivos comunes\\Microsoft Lync Server 2013\\módulos\\LyncOnlineConnector\\LyncOnlineConnectorStartup.psm1 no se puede cargar porque en ejecución las secuencias de comandos está deshabilitada en este sistema. Para obtener más información, vea about_Execution_Policies en https://go.microsoft.com/fwlink/?LinkID=135170.*
+- **Error**: <em>Import-Module: archivo C:\\archivos de programa\\archivos comunes\\Microsoft Lync Server 2013\\módulos\\LyncOnlineConnector\\LyncOnlineConnectorStartup.psm1 no se puede cargar porque en ejecución las secuencias de comandos está deshabilitada en este sistema. Para obtener más información, vea about_Execution_Policies en https://go.microsoft.com/fwlink/?LinkID=135170.</em>
 
 - **Resolución** Para resolver este problema, inicie PowerShell como administrador y, a continuación, ejecute el siguiente comando:
     ```

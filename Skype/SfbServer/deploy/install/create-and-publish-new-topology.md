@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 'Resumen: Obtenga información sobre cómo crear, publicar y comprobar una nueva topología de antes de instalar Skype para Business Server. Descargue una versión de prueba gratuita de Skype para Business Server desde el Evaluation de Microsoft center en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: e6013003f9ff6b4e3f39a500df9e489292264599
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c2879b2323ffe85624c852d70028ab2388b4feb7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885035"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371337"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>Crear y publicar la nueva topología de Skype para Business Server
  
@@ -101,7 +101,7 @@ Puede usar Skype para Business Server Topology Builder para diseñar, definir, c
     
    - Seleccione los roles que necesita instalar y, luego, configure el hardware para hospedar los roles seleccionados.
     
-    Para el escenario dos, tiene una implementación existente y la infraestructura está preparada para nuevos roles, o bien necesita asociar roles existentes con un nuevo servidor front-end.
+     Para el escenario dos, tiene una implementación existente y la infraestructura está preparada para nuevos roles, o bien necesita asociar roles existentes con un nuevo servidor front-end.
     
    - En este caso, seleccionará los roles que pretenda implementar o asociar con el nuevo servidor front-end. En cualquier caso, continuará con la definición de los roles, la configuración de cualquier hardware necesario y procederá con la instalación.
     
@@ -117,10 +117,10 @@ Puede usar Skype para Business Server Topology Builder para diseñar, definir, c
     
    - Para utilizar la creación de reflejo de SQL, seleccione **Habilitar creación de reflejo del almacén de SQL Server** y seleccione una instancia existente (o bien cree una).
 
-    > [!NOTE]
-    > La creación de reflejos de SQL está disponible en Skype para Business Server 2015, pero ya no se admite en Skype para Business Server 2019. Los métodos de agrupación en clústeres de conmutación por error de grupos de disponibilidad AlwaysOn, instancias de clúster de conmutación por error (FCI) AlwaysOn y SQL son preferidos con Skype para Business Server 2019.
+     > [!NOTE]
+     > La creación de reflejos de SQL está disponible en Skype para Business Server 2015, pero ya no se admite en Skype para Business Server 2019. Los métodos de agrupación en clústeres de conmutación por error de grupos de disponibilidad AlwaysOn, instancias de clúster de conmutación por error (FCI) AlwaysOn y SQL son preferidos con Skype para Business Server 2019.
     
-    En este ejemplo, escribimos el **FQDN de SQL Server**, configuramos las opciones de alta disponibilidad pertinentes y hacemos clic en **Aceptar**, como se indica en la figura.
+     En este ejemplo, escribimos el **FQDN de SQL Server**, configuramos las opciones de alta disponibilidad pertinentes y hacemos clic en **Aceptar**, como se indica en la figura.
     
      ![Crea un almacén de servidor SQL.](../../media/12822cf9-8608-43c0-94ce-2ca8b3a0ffd5.png)
   
@@ -132,10 +132,10 @@ Puede usar Skype para Business Server Topology Builder para diseñar, definir, c
     
    - Para definir un nuevo recurso compartido de archivos, seleccione **Definir un nuevo recurso compartido de archivos** en el cuadro **FQDN del servidor de archivos**, escriba el FQDN del servidor de archivos existente donde se ubicará el recurso compartido de archivos y, luego, escriba un nombre para el recurso compartido de archivos en el cuadro **Recurso compartido de archivos**.
     
-    En este ejemplo, haremos clic en **Definir un nuevo almacén de archivos**, escribimos el **FQDN del servidor de archivos**, el **recurso compartido de archivos** y, luego, hacemos clic en **Siguiente**.
+     En este ejemplo, haremos clic en **Definir un nuevo almacén de archivos**, escribimos el **FQDN del servidor de archivos**, el **recurso compartido de archivos** y, luego, hacemos clic en **Siguiente**.
     
-    > [!NOTE]
-    > Se puede instalar el recurso compartido de archivos de Skype para Business Server pero no se recomienda por motivos de rendimiento. Tenga en cuenta en este ejemplo, se ha encontrado el recurso compartido de archivos en un único servidor dedicado que van a actuar como recurso compartido de archivos. Sin embargo, se recomiendan los otros sistemas de recurso compartido de archivo más sólidas, como DFS con Windows Server 2012 R2. Para obtener información detallada acerca de los sistemas de recurso compartido de archivo compatibles, vea [requisitos para su Skype para el entorno empresarial](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). Para obtener más información acerca de cómo crear el recurso compartido de archivos, vea [crear un recurso compartido de archivos en Skype para Business Server](create-a-file-share.md). Puede definir el recurso compartido de archivos sin tener se ha creado el recurso compartido de archivos. Debe crear el recurso compartido de archivos en la ubicación que defina antes de publicar la topología. 
+     > [!NOTE]
+     > Se puede instalar el recurso compartido de archivos de Skype para Business Server pero no se recomienda por motivos de rendimiento. Tenga en cuenta en este ejemplo, se ha encontrado el recurso compartido de archivos en un único servidor dedicado que van a actuar como recurso compartido de archivos. Sin embargo, se recomiendan los otros sistemas de recurso compartido de archivo más sólidas, como DFS con Windows Server 2012 R2. Para obtener información detallada acerca de los sistemas de recurso compartido de archivo compatibles, vea [requisitos para su Skype para el entorno empresarial](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). Para obtener más información acerca de cómo crear el recurso compartido de archivos, vea [crear un recurso compartido de archivos en Skype para Business Server](create-a-file-share.md). Puede definir el recurso compartido de archivos sin tener se ha creado el recurso compartido de archivos. Debe crear el recurso compartido de archivos en la ubicación que defina antes de publicar la topología. 
   
 10. En la página Especificar la dirección URL de los servicios web, necesita decidir si es preciso reemplazar la dirección URL base del grupo de servidores de servicios web internos. El motivo de este reemplazo está relacionado con el equilibrio de carga. En el tráfico SIP básico se puede usar un equilibrio de carga de DNS sencillo. Pero, el tráfico de red HTTP/S de los servicios web necesita el uso de una solución de equilibrio de carga de hardware o software compatible. Para equilibradores de carga compatibles, vea [infraestructura de Skype para la empresa](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways). En este ejemplo, usamos el equilibrio de carga de DNS para el tráfico SIP y una solución de equilibrio de carga de software compatible. Como vamos a dividir el tráfico de este modo, tendremos que reemplazar el FQDN del grupo de servicios web internos. Opcionalmente, si tuviéramos un equilibrador de carga de primer nivel y enviáramos todo el tráfico a través de él en vez de usar el equilibrio de carga de DNS para el tráfico SIP, no sería necesario reemplazar la dirección URL de los servicios web. 
     
@@ -151,7 +151,7 @@ Puede usar Skype para Business Server Topology Builder para diseñar, definir, c
   
     - También puede escribir la dirección URL base externa en **URL base externa**. En tal caso, escribiríamos una dirección URL base externa de forma que se distinguiera de los nombres de dominio internos. Por ejemplo, el dominio interno es contoso.local, pero el nombre de dominio externo es contoso.com. La dirección URL se definiría con el nombre de dominio contoso.com porque necesita resolverse desde el DNS público. También es importante en el caso de un proxy inverso. El nombre de dominio de la dirección URL base externa sería el mismo que el nombre de dominio del FQDN del servidor proxy inverso. El acceso HTTP al grupo de servidores front-end es necesario para la presencia y la mensajería instantánea en los clientes móviles.
     
-     ![Sobrescriba los servicios web.](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
+      ![Sobrescriba los servicios web.](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
   
 11. Si seleccionó **Conferencias** en la página **Seleccionar características**, tendrá que seleccionar un servidor de Office Web Apps. Haga clic en **Nuevo** para iniciar el cuadro de diálogo.
     

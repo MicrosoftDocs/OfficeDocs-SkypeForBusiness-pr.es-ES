@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Lea este tema para revisar las consideraciones de planificación a la hora de implementar la omisión de medios con la versión 2.0 de Cloud Connector Edition y las versiones posteriores. Para obtener información sobre la implementación de medios desvío, consulte Deploy medios de desvío en la nube conector Edition.
-ms.openlocfilehash: da6432f20690162a8de2a9d63438a4c4a5bf162b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a3cfaea8d963efa4f7774b8b589fcd0ecc61d3bc
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886139"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371004"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Plan para la omisión de medios en Cloud Connector Edition
  
@@ -64,7 +64,7 @@ Desvío de medios también es útil cuando desea proporcionar servicios de telef
     
 4. La puerta de enlace central en Ámsterdam toma las decisiones de enrutamiento apropiadas y, a continuación, envía el tráfico a una SBC o puerta de enlace en Zurich, mientras los flujos de medios directamente entre el Skype para clientes empresariales y SBC o puerta de enlace en Ámsterdam.
     
- Este enfoque permite atender a más usuarios por una implementación de conector en la nube donde está centralizada conector en la nube. Aunque el conector de la nube se ha eliminado de la ruta de acceso de medios, en un escenario de múltiples sitios centralizado medios es posible que aún atravesar la WAN dos veces, según sea necesario fluya a través de la puerta de enlace o SBC centralizado.
+   Este enfoque permite atender a más usuarios por una implementación de conector en la nube donde está centralizada conector en la nube. Aunque el conector de la nube se ha eliminado de la ruta de acceso de medios, en un escenario de múltiples sitios centralizado medios es posible que aún atravesar la WAN dos veces, según sea necesario fluya a través de la puerta de enlace o SBC centralizado.
   
 Si un cliente está fuera de la red corporativa, realizar una llamada saliente, el tráfico de medios fluye a través de los servidores perimetrales y de mediación del vínculo del conector en la nube y WAN entre Zurich y Ámsterdam, tal como se muestra en el siguiente diagrama:
   

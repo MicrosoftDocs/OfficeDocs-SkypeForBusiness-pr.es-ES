@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Para editar las propiedades del grupo de servidores Front-End o de servidor Front-End, edición o configurar los siguientes atributos. La página de configuración se divide en las secciones siguientes:'
-ms.openlocfilehash: 85aa22c5a2cb7820ff1828c850f0440653f5b9f5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 3af82a83afe27ce06a3c41f881154c2850cad521
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256318"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374205"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expansor de configuración General Front-End de Lync Server 2010
 
@@ -54,13 +54,13 @@ Para editar las propiedades del grupo de servidores Front-End o de servidor Fron
 
 - Seleccione el **asociar grupo de servidores perimetrales (para componentes multimedia** casilla de verificación para habilitar un servidor perimetral para este grupo de servidores Front-End o de servidor Front-End. Después de seleccionar la casilla de verificación, seleccione un servidor perimetral existente o un grupo de servidores de la lista o haga clic en **nuevo** para crear las definiciones de un nuevo servidor perimetral o grupo de servidores.
 
- **Resistencia**
+  **Resistencia**
 
 - Seleccione la casilla de verificación **grupo de registrador de copia de seguridad asociado** a en la lista Seleccione un grupo de servidores Front-End o de servidor Front-End que será el registrador de copia de seguridad (es decir, al servidor Front-End o Front-End al grupo designado como un registrador secundario en caso de que la principal se produce un error)
 
 - Si ha seleccionado grupo de registrador de copia de seguridad de asociado y ha elegido a un registrador de reserva, puede seleccionar la casilla de verificación para **conmutación por error automática y la conmutación por recuperación de Voice**. Ahora puede definir propiedades numéricas para **detección interno voz de conmutación por error (s)** y un **intervalo de la conmutación por recuperación de Voice (seg.)**. Para obtener información detallada, consulte [Planning for Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
 
- **Servicios Web**
+  **Servicios Web**
 
 - Para configurar **los servicios web internos**, puede definir **puertos de escucha** para **HTTP** y **HTTPS**. De forma predeterminada, estos son el puerto TCP 80 y el puerto TCP 443, respectivamente. También se pueden configurar los **puertos publicados** para **HTTP** y **HTTPS**. De forma predeterminada, estos son el puerto TCP 80 y el puerto TCP 443, respectivamente. En función de la configuración de servicios web internos y el uso de equilibradores de carga (equilibradores de carga de hardware y equilibrio de carga DNS), ajuste los valores de puerto para definir el proceso de escucha y los puertos publicados.
 
@@ -72,7 +72,7 @@ Para editar las propiedades del grupo de servidores Front-End o de servidor Fron
     > [!IMPORTANT]
     > Servicios web externos y escucha definido y puertos publicados son para los dispositivos y los clientes externos. Los dispositivos y los clientes externos usen los servicios web externos de escucha y publicado puertos, normalmente definidos por el proxy inverso junto con el nombre de dominio completo de servicios web externos definido (FQDN). La relación de los servicios web externos FQDN y las direcciones URL sencillas definen las direcciones de (dirección URL) del localizador uniforme de recursos que va a usar los clientes externos para tener acceso a los servicios disponibles para los usuarios externos y dispositivos. Para obtener más detalles sobre las direcciones URL sencillas, consulte [Planning for Simple URLs](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx).
 
- **Servidor de mediación**
+  **Servidor de mediación**
 
 - Para configurar las propiedades del **Servidor de mediación** para un servidor de mediación combinado (es decir, un servidor de mediación implementados en el grupo de servidores Front-End o de servidor Front-End), seleccione el **servidor de mediación combinado habilitado**.
 

@@ -11,20 +11,21 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
-description: 'Para editar propiedades de dispositivo de sucursal que sobreviven o servidor de sucursal que sobreviven, en General, configure:'
-ms.openlocfilehash: 9e698854e78837e213ac080ab02098f72e72fec5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Para editar las propiedades de la aplicación de sucursal con funciones de supervivencia o servidor de sucursal con funciones de supervivencia, en General, para configurar:'
+ms.openlocfilehash: c61260fda0c6a49e90ecce02674df721001af4f7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374606"
 ---
 # <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a>Expansor de configuración general de aplicación de sucursal para Lync Server 2010
  
-Para editar propiedades de dispositivo de sucursal que sobreviven o servidor de sucursal que sobreviven, en **General**, configure:
+Para editar las propiedades de la aplicación de sucursal con funciones de supervivencia o servidor de sucursal con funciones de supervivencia, en **General**, para configurar:
   
-- **FQDN**: escriba el nombre de dominio completo del servidor de sucursal que sobreviven o dispositivo de sucursal que sobreviven.
+- **FQDN**: escriba el nombre de dominio completo de la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia.
     
-    **Utilice todas las direcciones IP** utiliza las direcciones IP configuradas en el dispositivo de sucursal que sobreviven o un servidor de sucursal que sobreviven a todos los efectos.
+    **Utilice todas las direcciones IP configuradas** usa las direcciones IP configuradas en la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia para todos los propósitos.
     
     **Limitar el uso del servicio a las direcciones IP seleccionadas**: configure la dirección distinta que define el servidor y la dirección IP que necesita usarse para RTC.
     
@@ -32,22 +33,22 @@ Para editar propiedades de dispositivo de sucursal que sobreviven o servidor de 
     
     **Dirección IP de RTC**: dirección IP asociada con las funciones de red telefónica conmutada (RTC).
     
-- Configurar **asociaciones** para asegurarse de que otro servidor funciones se configuran y asociadas al dispositivo de sucursal que sobreviven o servidor de la sucursal que sobreviven.
+- Configurar **asociaciones** para asegurarse de que otro servidor roles se configurada y asociados con la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia.
     
-    **Asociar el servidor de archivado** Seleccione de la lista el servidor de archivado que desee asociar al dispositivo de sucursal que sobreviven o un servidor de sucursal que sobreviven
+    **Asociar el servidor de archivado** Seleccione en la lista el servidor de archivado que desea asociar con la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia
     
-    Haga clic en **nuevo** si no ha creado el servidor de archivado que desee asociar a este dispositivo de sucursal que sobreviven o un servidor de sucursal que sobreviven
+    Haga clic en **nuevo** si no ha creado el servidor de archivado que desea asociar con esta aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia
     
-    **Asociar el servidor de supervisión** Seleccione en la lista del servidor de supervisión que desea asociar con el dispositivo de sucursal que sobreviven o un servidor de sucursal que sobreviven
+    **Asociar el servidor de supervisión** Seleccione en la lista el servidor de supervisión que desea asociar con la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia
     
-    Haga clic en **nuevo** si no ha creado el servidor de supervisión que desea asociar a este dispositivo de sucursal que sobreviven o un servidor de sucursal que sobreviven
+    Haga clic en **nuevo** si no ha creado el servidor de supervisión que desea asociar con esta aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia
     
-    **Piscina de borde asociar (para componentes de medios)** Seleccione de la lista el servidor perimetral o un grupo de servidores de borde que desee asociar al dispositivo de sucursal que sobreviven o un servidor de sucursal que sobreviven
+    **Grupo de servidores perimetrales asociados (para componentes multimedia)** Seleccione en la lista el servidor perimetral o grupo de servidores perimetrales que desea asociar con la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia
     
- **Aceptar** Se aceptan y confirman los cambios en el cuadro de diálogo.
+  **Aceptar** Se aceptan y confirman los cambios en el cuadro de diálogo.
   
- **Cancelar** Se descartan los cambios y se cierra el cuadro de diálogo.
+  **Cancelar** Se descartan los cambios y se cierra el cuadro de diálogo.
   
- **Ayuda** Abre esta pantalla de ayuda.
+  **Ayuda** Abre esta pantalla de ayuda.
   
 

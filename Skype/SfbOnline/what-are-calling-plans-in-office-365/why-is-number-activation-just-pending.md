@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: La validación de direcciones es una parte muy importante de la configuración de Planes de llamada en Office 365. Proporciona a un usuario de su organización una dirección para llamadas de emergencia que puedan usar los servicios de respuesta de emergencias.
-ms.openlocfilehash: c5409c2049e7f56a2625805e033b192cbaa080f9
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 9e59b7372b0d998ea4a453d5e1b96c3ab9c4e98f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958385"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370723"
 ---
 # <a name="why-is-number-activation-just-pending"></a>¿Por qué la activación del número está pendiente?
 
@@ -51,13 +51,13 @@ La validación de direcciones es una parte muy importante de la configuración d
     
 5. En la página **Identify the issue** (Identificar el problema), seleccione y escriba lo siguiente:
     
-  - **Característica:** seleccione **Domestic Calling Plan** (Plan de llamadas nacionales) o **Domestic and International Plan** (Plan nacional e internacional).
+   - **Característica:** seleccione **Domestic Calling Plan** (Plan de llamadas nacionales) o **Domestic and International Plan** (Plan nacional e internacional).
     
-  - **Symptom** (Síntoma): introduzca **Llamadas de emergencia**.
+   - **Symptom** (Síntoma): introduzca **Llamadas de emergencia**.
     
-  - **Issue summary** (Resumen del problema): introduzca **Address validation** (Validación de direcciones).
+   - **Issue summary** (Resumen del problema): introduzca **Address validation** (Validación de direcciones).
     
-  - **Issue details** (Detalles del problema): introduzca los detalles relacionados con la dirección que quiere validar, como:
+   - **Issue details** (Detalles del problema): introduzca los detalles relacionados con la dirección que quiere validar, como:
     
       - Número de calle
     
@@ -67,8 +67,8 @@ La validación de direcciones es una parte muy importante de la configuración d
     
       - País o región
     
-    > [!IMPORTANT]
-    > **Ponga el país o la región en el que ofrecemos Planes de llamada en Office 365 para los que esté intentando validar una dirección de emergencia cuando vaya a asignar el número de teléfono.**
+     > [!IMPORTANT]
+     > **Ponga el país o la región en el que ofrecemos Planes de llamada en Office 365 para los que esté intentando validar una dirección de emergencia cuando vaya a asignar el número de teléfono.**
   
       - Código postal
     
@@ -76,19 +76,19 @@ La validación de direcciones es una parte muy importante de la configuración d
     
 7. En la página **Add details** (Agregar detalles), seleccione y escriba lo siguiente:
     
-  - **Is your service unavailable?** (¿El servicio no está disponible?) Seleccione **No**.
+   - **Is your service unavailable?** (¿El servicio no está disponible?) Seleccione **No**.
     
-  - **How many users are affected?** (¿Cuántos usuarios se ven afectados?) Seleccione **Some users** (Algunos usuarios).
+   - **How many users are affected?** (¿Cuántos usuarios se ven afectados?) Seleccione **Some users** (Algunos usuarios).
     
-  - **Enter an email address of someone affected by this issue** (Escriba la dirección de correo electrónico de algún usuario afectado por este problema) o déjelo en blanco.
+   - **Enter an email address of someone affected by this issue** (Escriba la dirección de correo electrónico de algún usuario afectado por este problema) o déjelo en blanco.
     
-  - **Select Domain(s) you want to list** (Seleccionar el dominio o dominios que desea agregar a la lista)
+   - **Select Domain(s) you want to list** (Seleccionar el dominio o dominios que desea agregar a la lista)
     
-  - **Attach a file** (Adjuntar un archivo) si tiene que validar varias direcciones.
+   - **Attach a file** (Adjuntar un archivo) si tiene que validar varias direcciones.
     
-  - Haga clic en **Siguiente**.
+   - Haga clic en **Siguiente**.
     
-  - Escriba su número de teléfono de contacto.
+   - Escriba su número de teléfono de contacto.
     
 8. Revise la información y, a continuación, haga clic en **Submit request** (Enviar solicitud).
     

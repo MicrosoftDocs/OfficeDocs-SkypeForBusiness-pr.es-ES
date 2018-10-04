@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Antes de que los miembros de su organización puedan usar Difusión de reunión de Skype, usted deberá habilitarla. Para llevar a cabo este paso, tiene que saber cómo usar Windows PowerShell. Si no tiene experiencia con Windows PowerShell, analice contratar un socio de Microsoft para que lleve a cabo este paso por usted.
-ms.openlocfilehash: ba30af3285f7e66f46e771f66132c89d7513852d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 699b82af07b263331ee5508326bf3e7ed015848e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850055"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370867"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Habilitar la Difusión de reunión de Skype
 
@@ -44,39 +44,39 @@ ms.locfileid: "23850055"
 
 1. Compruebe que está ejecutando la versión 3.0 o superior de Windows PowerShell.
     
-1. Para comprobar que ejecuta la versión 3.0 o superior: **menú Inicio** > **Windows PowerShell**.
+2. Para comprobar que ejecuta la versión 3.0 o superior: **menú Inicio** > **Windows PowerShell**.
     
-2. Para comprobar la versión, escriba  _Get-Host_ en la ventana **Windows PowerShell**.
+3. Para comprobar la versión, escriba  _Get-Host_ en la ventana **Windows PowerShell**.
     
-3. Si no tiene la versión 3.0 o superior, deberá descargar e instalar las actualizaciones de Windows PowerShell. Vea [Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845) para descargar y actualizar Windows PowerShell a la versión 4.0. Reinicie el equipo cuando se le solicite.
+4. Si no tiene la versión 3.0 o superior, deberá descargar e instalar las actualizaciones de Windows PowerShell. Vea [Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845) para descargar y actualizar Windows PowerShell a la versión 4.0. Reinicie el equipo cuando se le solicite.
     
-4. También necesitará instalar el módulo Windows PowerShell para Skype Empresarial Online que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype Empresarial Online. Este módulo, que solo se admite en equipos de 64 bits, puede descargarse desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=294688). Reinicie el equipo cuando se le solicite.
+5. También necesitará instalar el módulo Windows PowerShell para Skype Empresarial Online que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype Empresarial Online. Este módulo, que solo se admite en equipos de 64 bits, puede descargarse desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=294688). Reinicie el equipo cuando se le solicite.
     
-2. En el **Menú Inicio**, elija **Windows PowerShell**.
+6. En el **Menú Inicio**, elija **Windows PowerShell**.
     
-3. En la ventana de **Windows PowerShell** y conéctese a su organización de Office 365 ejecutando el siguiente comando:
+7. En la ventana de **Windows PowerShell** y conéctese a su organización de Office 365 ejecutando el siguiente comando:
     
-  ```
-  $Credential = get-credential
-  $O365Session = New-CsOnlineSession -Credential $credential
-  Import-PSSession $O365Session
-  ```
+   ```
+   $Credential = get-credential
+   $O365Session = New-CsOnlineSession -Credential $credential
+   Import-PSSession $O365Session
+   ```
 
-4. Confirme la configuración actual de Difusión de reunión de Skype ejecutando el siguiente comando:
+8. Confirme la configuración actual de Difusión de reunión de Skype ejecutando el siguiente comando:
     
-  ```
-  Get-CsBroadcastMeetingConfiguration
-  ```
+   ```
+   Get-CsBroadcastMeetingConfiguration
+   ```
 
     Compruebe que el parámetro  _EnableBroadcastMeeting_ está establecido como `False`.
     
      ![Habilitar cmdlet de organización en una Difusión de reunión de Skype.](../images/44abe30d-d3df-4ca9-9761-603a7ff78723.png)
   
-5. Habilite la Difusión de reunión de Skype para su organización ejecutando el siguiente comando:
+9. Habilite la Difusión de reunión de Skype para su organización ejecutando el siguiente comando:
     
-  ```
-  Set-CsBroadcastMeetingConfiguration -EnableBroadcastMeeting $True
-  ```
+   ```
+   Set-CsBroadcastMeetingConfiguration -EnableBroadcastMeeting $True
+   ```
 
     Puede confirmar que la opción está habilitada volviendo a ejecutar  `Get-CsBroadcastMeetingConfiguration`.
     
@@ -85,7 +85,7 @@ ms.locfileid: "23850055"
     > [!TIP]
     > Después de realizar el cambio, es posible que tarde hasta una hora en surtir efecto en el portal de Difusión de reunión de Skype. 
   
-6. Los usuarios ahora pueden realizar reuniones de difusión con otros usuarios de su empresa. Para que puedan empezar, pídales que lean [¿Qué es una Difusión de reunión de Skype?](https://support.office.com/en-us/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)
+10. Los usuarios ahora pueden realizar reuniones de difusión con otros usuarios de su empresa. Para que puedan empezar, pídales que lean [¿Qué es una Difusión de reunión de Skype?](https://support.office.com/en-us/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)
     
 ## <a name="configure-your-network-to-broadcast-meetings-with-external-attendees"></a>Configurar su red para difundir reuniones con asistentes externos
 

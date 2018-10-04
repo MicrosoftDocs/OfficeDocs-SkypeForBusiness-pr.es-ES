@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: En este artículo se explica los preparativos de infraestructura para la implementación de sistemas de salón de Skype v2.
-ms.openlocfilehash: 8b31889d70dae54736648905204b721127b668f1
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 24ad623b81df5735c9034d8526e6b028e82dfb83
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965985"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371885"
 ---
 # <a name="prepare-your-environment"></a>Preparar el entorno
 
@@ -26,24 +26,24 @@ Esta sección contiene información general sobre los pasos necesarios para prep
     
 2. Asegúrese de que las conexiones de red y de Internet funcionen correctamente en el dispositivo que se va a utilizar.  
     
-  - Debe ser capaz de recibir una dirección IP mediante DHCP (Nota: Skype salón sistemas v2 no se pueden configurar con una dirección IP estática en el primer inicio de unidad)
+   - Debe ser capaz de recibir una dirección IP mediante DHCP (Nota: Skype salón sistemas v2 no se pueden configurar con una dirección IP estática en el primer inicio de unidad)
     
-  - Debe tener estos puertos abiertos (además de abrir los puertos normales para los medios de Skype Empresarial):
+   - Debe tener estos puertos abiertos (además de abrir los puertos normales para los medios de Skype Empresarial):
     
-  - HTTPS: 443
+   - HTTPS: 443
     
-  - HTTP: 80
+   - HTTP: 80
     
-  - Si su red se ejecuta mediante un proxy, necesitará también la dirección del proxy o la información de script.
+   - Si su red se ejecuta mediante un proxy, necesitará también la dirección del proxy o la información de script.
     
-    > [!NOTE]
-    > Sistemas de salón de Skype v2 no es compatible con entrada HDCP, que se ha observado para provocar problemas con HDMI ingesta funcionalidad (vídeo, audio). Tenga cuidado para asegurarse de que los conmutadores conectados a sistemas de salón de Skype v2 tienen opciones HDCP desactivadas. 
+     > [!NOTE]
+     > Sistemas de salón de Skype v2 no es compatible con entrada HDCP, que se ha observado para provocar problemas con HDMI ingesta funcionalidad (vídeo, audio). Tenga cuidado para asegurarse de que los conmutadores conectados a sistemas de salón de Skype v2 tienen opciones HDCP desactivadas. 
   
 3. Para poder mejorar su experiencia, Microsoft recopila información. Para recopilar información, necesitamos que estos sitios figuren en la lista de permitidos:
     
-  - Extremo de cliente de telemetría:https://vortex.data.microsoft.com/
+   - Extremo de cliente de telemetría:https://vortex.data.microsoft.com/
     
-  - Extremo de la configuración de telemetría:https://settings.data.microsoft.com/
+   - Extremo de la configuración de telemetría:https://settings.data.microsoft.com/
     
 ### <a name="create-and-test-a-device-account"></a>Crear y probar una cuenta de dispositivo
 

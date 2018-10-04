@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Learn about the Skype Meeting Broadcast feature of Skype for Business Online that enables you to schedule, produce, and broadcast meetings or events to large online audiences up to 10,000 attendees.
-ms.openlocfilehash: e1f10ad5036e2866cc480491e98bd2dd7396895a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7c22b4b0911935ffd90d10e65d2fff0d71018910
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862219"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374558"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Configurar la red para Difusión de reunión de Skype
 
@@ -37,7 +37,7 @@ Para omitir este paso y en su lugar agregar otra empresa para la federación, po
 
 Utilice **uno** de los métodos siguientes para configurar los dominios permitidos:
 
-###
+## #
 
  **Método 1: Usar el centro de administración de Office 365**
 
@@ -45,17 +45,17 @@ Utilice **uno** de los métodos siguientes para configurar los dominios permitid
 
 2. En la página de **uso compartido externo** , en **excepciones de dominio**, seleccione **todos los dominios están bloqueados, excepto**y especifique los siguientes dominios separados con una coma (,):
 
-  - noammeetings.Lync.com
+   - noammeetings.Lync.com
 
-  - emeameetings.Lync.com
+   - emeameetings.Lync.com
 
-  - apacmeetings.Lync.com
+   - apacmeetings.Lync.com
 
-  - Resources.Lync.com
+   - Resources.Lync.com
 
 3. Haga clic en **Guardar**.
 
-###
+## #
 
  **Método 2: Uso de Windows PowerShell**
 

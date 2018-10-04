@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Resumen: Explore estos vínculos para obtener información sobre cómo implementar Skype para Business Server 2019.'
-ms.openlocfilehash: 0597aa1ac93e943bf20556ecec8047416eacef99
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1ae2c6cb758a2cc7e948e7e20a2ce8527553f7c5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029877"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374198"
 ---
 # <a name="skype-for-business-server-2019"></a>Skype para Business Server 2019
 
@@ -205,9 +205,11 @@ ms.locfileid: "25029877"
 -->
 
 ### <a name="featured-articles"></a>Artículos destacados
-| | | |
-|:--- |:--- |:--- |
-|**Antes de empezar** <br>[Requisitos del sistema](plan/system-requirements.md) <br>[Requisitos de red](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) |**Instalación ** <br>[Instalar Skype Empresarial Server](../SfbServer/deploy/install/install.md) <br> [Migrar a Skype para 2019 empresarial](migration/migration-to-skype-for-business-server-2019.md)|**Telefonía IP empresarial**<br>[Planificar](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Implementar](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)|
-|**Nuevas características**<br>[Novedades](whats-new.md)  |**Soluciones híbridas**<br>[Planeación de la conectividad híbrida](hybrid/plan-hybrid-connectivity.md)<br> [Planeación de servicio de correo de voz en la nube](hybrid/plan-cloud-voicemail.md)<br>[Planeación de conector de datos de llamada](hybrid/plan-call-data-connector.md)  |  |
-| | | |
+
+|                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Antes de empezar** <br>[Requisitos del sistema](plan/system-requirements.md) <br>[Requisitos de red](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **Instalación ** <br>[Instalar Skype Empresarial Server](../SfbServer/deploy/install/install.md) <br> [Migrar a Skype para 2019 empresarial](migration/migration-to-skype-for-business-server-2019.md)                             | **Telefonía IP empresarial**<br>[Planificar](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Implementar](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
+| **Nuevas características**<br>[Novedades](whats-new.md)                                                                                                                                         | **Soluciones híbridas**<br>[Planeación de la conectividad híbrida](hybrid/plan-hybrid-connectivity.md)<br> [Planeación de servicio de correo de voz en la nube](hybrid/plan-cloud-voicemail.md)<br>[Planeación de conector de datos de llamada](hybrid/plan-call-data-connector.md) |                                                                                                                                                                                                     |
+|                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
+
 * * *   

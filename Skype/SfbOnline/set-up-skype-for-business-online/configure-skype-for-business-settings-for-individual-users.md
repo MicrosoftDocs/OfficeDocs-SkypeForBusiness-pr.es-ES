@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: 1296ec96d194be80ae3c48a947a0398f0eefb4e3
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: f99c99fc291a2df71a3e47448e3cc8fcf01e371f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860333"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370919"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administradores: Configurar Skype Empresarial para usuarios individuales
 
@@ -78,9 +78,9 @@ Después de [Permitir que los usuarios de Skype Empresarial agreguen contactos d
     
 2. Elija **Comunicaciones externas** y después desactive las opciones correspondientes:
     
-  - **Usuarios externos de Skype Empresarial**: desactive esta casilla si no desea que el usuario pueda comunicarse con los usuarios de Skype Empresarial en dominios federados.
+   - **Usuarios externos de Skype Empresarial**: desactive esta casilla si no desea que el usuario pueda comunicarse con los usuarios de Skype Empresarial en dominios federados.
     
-  - **Usuarios externos de Skype**: desactive esta casilla si no desea que el usuario pueda comunicarse con personas que usan la aplicación gratuita Skype.
+   - **Usuarios externos de Skype**: desactive esta casilla si no desea que el usuario pueda comunicarse con personas que usan la aplicación gratuita Skype.
     
 3. Haga clic en **Guardar**.
     

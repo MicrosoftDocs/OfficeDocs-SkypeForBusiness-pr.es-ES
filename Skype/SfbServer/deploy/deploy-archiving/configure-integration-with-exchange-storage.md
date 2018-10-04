@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
 description: 'Resumen: Lea este tema para obtener información sobre cómo configurar la integración con el almacenamiento de Exchange en Skype para Business Server.'
-ms.openlocfilehash: 5f987ef0c2c47960a71c94a3b5a692062e787ed6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 35ef648a1076283f63752221a807da21bf4208ca
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988335"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370623"
 ---
 # <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>Configurar la integración con el almacenamiento de Exchange de Skype para Business Server
  
@@ -32,9 +32,9 @@ Si utiliza la integración de Microsoft Exchange para todos los usuarios de la i
     
 4. Haga clic en el nombre de la configuración global, de sitio o de grupo adecuada en la lista de configuraciones de archivado; haga clic en **Editar**, en **Mostrar detalles** y, luego, haga lo siguiente:
     
-  - Para habilitar la integración con el almacenamiento de Exchange, active la casilla de verificación de la **integración de Microsoft Exchange** .
+   - Para habilitar la integración con el almacenamiento de Exchange, active la casilla de verificación de la **integración de Microsoft Exchange** .
     
-  - Para deshabilitar la integración con el almacenamiento de Exchange, desactive la casilla de verificación de la **integración de Microsoft Exchange** .
+   - Para deshabilitar la integración con el almacenamiento de Exchange, desactive la casilla de verificación de la **integración de Microsoft Exchange** .
     
 5. Haga clic en **Confirmar**.
     

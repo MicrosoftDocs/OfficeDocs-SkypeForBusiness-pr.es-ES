@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Vea Skype para ver los pasos en línea de negocio para asignar un identificador de conferencia y licencia de conferencia de acceso telefónico a un usuario y muchas otras opciones de conferencia de acceso telefónico. '
-ms.openlocfilehash: 7e420ef2c434807bf9e78cc1c61f808db745f3bc
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: ed5d2cb2115c47ba84dd91ebc45561aa93e4c023
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25018928"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375335"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Administrar la configuración de Audioconferencia de mi organización en Skype for Business Online
 
@@ -38,7 +38,7 @@ Sería más fácil para que pueda ver toda la configuración de conferencias de 
 ## <a name="assign-an-audio-conferencing-license"></a>Asignar una licencia de conferencia de acceso telefónico local
 
 > [!NOTE]
-> You can't assign licenses using the **Skype for Business admin center**. You must use the Office 365 admin center. Consulte [Asignar licencias de Skype Empresarial](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+> You can't assign licenses using the **Skype for Business admin center**. You must use the Office 365 admin center. See [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
  Para asignar una licencia a un usuario
 
@@ -47,11 +47,11 @@ Sería más fácil para que pueda ver toda la configuración de conferencias de 
 2. En la navegación izquierda del **Centro de administración de Office 365**, vaya a **Usuarios** > **Usuarios activos** y a continuación seleccione el usuario o los usuarios en la lista de usuarios disponibles.
 
     > [!NOTE]
-    > Si va a asignar licencias a un máximo de 20 usuarios al mismo tiempo, puede usar el menú desplegable **Seleccionar una vista** y, luego, elegir una de las opciones o crear su propia vista. Luego, haga clic en **Editar**, haga clic dos veces en **Siguiente**, seleccione la licencia y haga clic en **Enviar**. También puede asignar licencias a varios usuarios con Windows PowerShell. Para obtener instrucciones y secuencias de comandos de PowerShell de ejemplo, vea [Asignar Skype para licencias de negocio](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+    > If you are assigning licenses to up to 20 users at the same time, you can use the **Select a view** drop-down then choose one of the options or create your own view. Then click **Edit**, **Next** twice then select the license and click **Submit**. You can also assign licenses to multiple users by using Windows Powershell. For instructions and sample PowerShell scripts, see [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
 3. En el panel de acciones, en **Licencia asignada**, haga clic en **Editar**.
 
-4. En la página **Asignar licencia**, active **Conferencias RTC de Skype Empresarial** y haga clic en **Guardar**. Para obtener más información acerca de las licencias, vea [Skype para Business licensing del complemento](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+4. On the **Product Licenses** page, turn on **Audio Conferencing** and then click **Save**. For more on licensing, see [Skype for Business add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
 > [!NOTE]
 > Después de asignar la licencia, puede que Microsoft no aparezca en el menú desplegable como un proveedor de servicios de conferencia de acceso telefónico local. Si esto ocurre, cierre la sesión del centro de administración de Office 365 o presione CTRL + F5 para actualizar la ventana del explorador.
@@ -118,13 +118,13 @@ Vea los [mensajes de correo electrónico que se envían automáticamente a los u
 4. En la ventana **¿Restablecer Id. de conferencia?**, haga clic en **Sí**. Se creará automáticamente un Id. de conferencia y se enviará un correo electrónico al usuario con el nuevo Id. de conferencia si está habilitado el envío de correo electrónico a los usuarios. De manera predeterminada está habilitado.
 
     > [!IMPORTANT]
-    >  After a new conference ID is created, the old conference ID can't be used by callers. Debe notificar a los usuarios para que reprogramen sus invitaciones de reunión existentes para asegurarse de que se agrega a las invitaciones el nuevo Id. de conferencia. The users can use the Skype for Business Meeting Migration Tool to update their existing meetings. Para ver cómo descargar, instalar y ejecutar la Skype para la herramienta de actualización de reunión empresarial, consulte: [Herramienta de actualización de la reunión de Skype para empresas y Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype para Online de negocio, herramienta de migración de reunión (64 bits)](https://go.microsoft.com/fwlink/?LinkID=626047)y [Skype para en línea de negocio, reunión Herramienta de migración (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
+    >  After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use the Skype for Business Meeting Migration Tool to update their existing meetings. To see how to download, install, and run the Skype for Business Meeting Update Tool, see: [Meeting Update Tool for Skype for Business and Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype for Business Online, Meeting Migration Tool (64-bit)](https://go.microsoft.com/fwlink/?LinkID=626047), and  [Skype for Business Online, Meeting Migration Tool (32-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
 
 Vea [Restablecer un id. de conferencia para un usuario](reset-a-conference-id-for-a-user.md).
 
 ## <a name="reset-a-conference-organizers-pin"></a>Restablecer el PIN del organizador de una conferencia
 
-Se asignará un id. de conferencia único a cada reunión que programe un usuario. Si bien crea automáticamente un identificador de conferencia y se asigna a un usuario, puede haber ocasiones cuando un usuario no desea utilizar este y que desea establecer para un cierto número, o los usuarios no pueden recordar o han perdido su identificador de conferencia. You can use the Skype for Business admin center and Windows PowerShell to view, change, and reset their conference ID.
+Each meeting that a user schedules will get assigned a unique conference ID. Although a conference ID will be automatically created and assigned to a user, there may be times when a user doesn't want to use this one and you want to set it to a certain number, or your users can't remember or have lost their conference ID. You can use the Skype for Business admin center and Windows PowerShell to view, change, and reset their conference ID.
 
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
@@ -182,11 +182,11 @@ Configuración del puente de audioconferencia o de conferencia de acceso telefó
 
 4. En **Experiencia de participación en reuniones**, seleccione las acciones siguientes:
 
-  - En **Experiencia de entrada a la reunión**, seleccione las acciones siguientes:
+   - En **Experiencia de entrada a la reunión**, seleccione las acciones siguientes:
 
-    Esto se puede establecer según la reunión por reunión cuando un usuario se une a una reunión mediante un Skype para la aplicación empresarial y modifican la configuración de **anunciar cuando las personas o la abandonan** en el menú de **Opciones** de reunión de Skype de la reunión.
+     Esto se puede establecer según la reunión por reunión cuando un usuario se une a una reunión mediante un Skype para la aplicación empresarial y modifican la configuración de **anunciar cuando las personas o la abandonan** en el menú de **Opciones** de reunión de Skype de la reunión.
 
-  - Esta opción se puede configurar de manera específica en cada reunión cuando un usuario se une a una reunión con el cliente de Skype for Business y modifica la opción **Anunciar cuando entra o sale gente** en el menú Opciones de reunión de Skype de la reunión.
+   - Esta opción se puede configurar de manera específica en cada reunión cuando un usuario se une a una reunión con el cliente de Skype for Business y modifica la opción **Anunciar cuando entra o sale gente** en el menú Opciones de reunión de Skype de la reunión.
 
 5. **Solicitar a los autores de la llamada que registren su nombre antes de unirse a la reunión**. Esta opción está seleccionada de forma predeterminada. Si la desactiva, no se solicitará a las personas que llamen que registren su nombre antes de unirse a una reunión.
     
@@ -245,11 +245,11 @@ También puede establecer el idioma principal y los idiomas secundarios compatib
 
 3. En el **centro de administración de Skype for Business**, en la navegación izquierda, vaya a **Audioconferencia** > **Puente de Microsoft**. Aquí puede:
 
-  - Vea los números de teléfono que ha establecido Office 365 para utilizar para Audioconferencia.
+   - Vea los números de teléfono que ha establecido Office 365 para utilizar para Audioconferencia.
 
-  - Puede ver los números de teléfono que Office 365 establece para usarse con las conferencias de acceso telefónico local.
+   - Puede ver los números de teléfono que Office 365 establece para usarse con las conferencias de acceso telefónico local.
 
-  - También puede ver la ubicación y el idioma principal y los idiomas secundarios que usará el operador automático de las conferencias de acceso telefónico local.
+   - También puede ver la ubicación y el idioma principal y los idiomas secundarios que usará el operador automático de las conferencias de acceso telefónico local.
 
 Puede seleccionar el número de teléfono predeterminado de conferencia de acceso telefónico local que se asignará a los usuarios cuando estos se habiliten para la conferencia de acceso telefónico local. No obstante, si cambia el número de teléfono predeterminado del puente de conferencia de acceso telefónico local, el número de teléfono predeterminado de los usuarios existentes no cambiará.**** > ****
 
@@ -267,7 +267,7 @@ See [See a list of users that are enabled for Audio Conferencing](see-a-list-of-
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 
-Hay varias opciones de configuración que puede administrar en el nivel de organización mediante Windows PowerShell. Esto facilita la aplicación de la configuración a todos los usuarios.
+There are several settings that you can manage at the organization level using Windows PowerShell. This makes it easy to apply settings to all of your users.
 
 Existen varias opciones que puede configurar en el nivel de la organización con Windows PowerShell. Esto facilita la configuración de estas opciones y las aplica a todos los usuarios. Estas son las opciones de configuración de nivel de organización:
 
@@ -313,7 +313,7 @@ A continuación presentamos la configuración de nivel de la organización:
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromDisplayName
   ```
 
- ## <a name="want-to-know-more-about-windows-powershell"></a>Desea saber más acerca de Windows PowerShell
+  ## <a name="want-to-know-more-about-windows-powershell"></a>Desea saber más acerca de Windows PowerShell
 - Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 con un único punto de administración que puede simplificar el trabajo diario cuando tenga que realizar varias tareas. Para empezar a usar Windows PowerShell, vea estos temas:
 
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)

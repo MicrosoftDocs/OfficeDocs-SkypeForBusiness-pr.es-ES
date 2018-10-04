@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: Obtenga información acerca de cómo actualizar su implementación de edición de conector en la nube.
-ms.openlocfilehash: b727f3cb7feea7f080f2e75278294e855c65b197
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c0946cf26181df81327412c2dc0efc227b5a5586
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887540"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370630"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Actualizar a una versión nueva de Cloud Connector
  
@@ -76,27 +76,27 @@ Si solo hay una aplicación en el sitio que desea actualizar, realice lo siguien
     
 4. Inicie una consola de PowerShell como administrador y ejecute el siguiente cmdlet para registrar el dispositivo actual:
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 5. Ejecute el siguiente cmdlet para registrar la última versión:
     
-  ```
-  Start-CcDownload
-  ```
+   ```
+   Start-CcDownload
+   ```
 
 6. Ejecute el siguiente cmdlet para iniciar la instalación:  
     
-  ```
-  Install-CcAppliance -Upgrade
-  ```
+   ```
+   Install-CcAppliance -Upgrade
+   ```
 
 7. Ejecute el siguiente cmdlet para activar la nueva implementación y desactivar la versión anterior:
     
-  ```
-  Switch-CcVersion
-  ```
+   ```
+   Switch-CcVersion
+   ```
 
 Si hay más de un dispositivo en el sitio, siga los pasos anteriores para actualizar cada dispositivo de uno en uno.
   

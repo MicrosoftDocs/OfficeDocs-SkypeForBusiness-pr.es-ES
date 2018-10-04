@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7d3eb2d1ec03be336db51841987b5dc84f9f74f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 16a10f73614626a422bf6b869d08c4019982d0d2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013982"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375896"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Guía de interoperabilidad y migración para las organizaciones que utilizan los equipos junto con Skype para la empresa
 
@@ -25,11 +25,7 @@ En abril de 2018, Microsoft aclarar su orientación para migrar a los equipos de
 
 Anunciado como previamente, se retira TeamsInteropPolicy. Su funcionalidad se ha consolidado en TeamsUpgradePolicy. Interoperabilidad y migración se administran mediante "el modo coexistencia" según lo determinado por TeamsUpgradePolicy. Selección del modo de usuario regula ambos enrutamiento de llamadas entrantes y chats y si el usuario programa las reuniones en los equipos o Skype para la empresa.  Muy pronto, junto con las próxima TeamsAppPermissionsPolicy, modo también regirá en el cliente que el usuario puede iniciar charlas y las llamadas. 
 
-Ya no es necesario configurar TeamsInteropPolicy. No se admite a menos que TeamsUpgradePolicy tenga modo = heredado.  Ahora que ha finalizado la compatibilidad con TeamsUpgradePolicy, los clientes deben actualizar sus configuraciones para usar un modo que no sea heredada.
-
-
-</br>
-
+Ya no es necesario configurar TeamsInteropPolicy. No se admite a menos que TeamsUpgradePolicy tenga modo = heredado.  Ahora que ha finalizado la compatibilidad con TeamsUpgradePolicy, los clientes deben actualizar sus configuraciones para usar un modo que no sea heredada. Concesión de instancias de TeamsUpgradePolicy con el modo = heredado ahora se bloquea de forma predeterminada.
 
 ## <a name="fundamental-concepts"></a>Conceptos fundamentales
 
@@ -48,7 +44,7 @@ Ya no es necesario configurar TeamsInteropPolicy. No se admite a menos que Teams
 
 6.  Para actualizar un usuario a los equipos (es decir, conceder TeamsUpgradePolicy con el modo = TeamsOnly), el usuario debe estar alojado en línea en Skype para la empresa. Este proceso es necesario para garantizar la interoperabilidad, la federación y la administración completa del usuario de los equipos. Para actualizar los usuarios que se encuentran ubicados en local, use `Move-CsUser` desde el local herramientas admin al primer movimiento al usuario Skype para profesionales en línea. A continuación, conceder TeamsUpgradePolicy y TeamsInteropPolicy para el usuario en línea o usar Portal moderno para asignar el modo de TeamsOnly. Una vez CU8 para Skype para incluye Business Server 2015, atención al cliente puede usar simplemente el nuevo `-MoveToTeams` cambiar en `Move-CsUser` que combina estos 2 pasos en 1.
 
-7.  La directiva de núcleo para la administración de actualización y la interoperabilidad es TeamsUpgradePolicy. TeamsInteropPolicy ya no se utiliza excepto cuando se utiliza el modo TeamsUpgradePolicy = heredados y los clientes que usen el modo = heredado debe actualizar su configuración de TeamsUpgradePolicy para usar un modo diferente.  
+7.  La directiva de núcleo para la administración de actualización y la interoperabilidad es TeamsUpgradePolicy. TeamsInteropPolicy ya no se utiliza excepto cuando se utiliza el modo TeamsUpgradePolicy = heredados y los clientes que usen el modo = heredado debe actualizar su configuración de TeamsUpgradePolicy para usar un modo diferente.  Modo de concesión = heredado ahora se bloquea de forma predeterminada, aunque los administradores pueden reemplazar este nombre utilizando `-Force` por el momento. Finalmente, el `-Force` modificador será conceder y se ha quitado el modo = heredado no será posible. 
 
 8.  Para usar el sistema telefónico de los equipos de las características, los usuarios deben ser en modo de TeamsOnly (es decir, alojados en Skype para profesionales en línea y actualizar a los equipos) y se debe configurar para el sistema telefónico de Microsoft [Enrutamiento directo](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) (lo que permite usar el sistema telefónico con su propietario de troncos SIP y SBC) o disponer de un Plan de llamada de 365 de Office.   
 
@@ -66,6 +62,7 @@ Para simplificar la administración y aumentar la satisfacción del usuario fina
 Los modos de planeada se enumeran a continuación. SfBWithTeamsCollab y SfBWithTeamsCollabAndMeetings le permitirá uso mixto de ambos clientes, pero con ninguna funcionalidad superpuesta. Modo de islas permite el uso de ambos clientes, pero con funcionalidad de superpuestas. Por ejemplo, en el modo de islas, un usuario puede iniciar una charla en ambos Skype para empresariales o de los equipos, pero en SfBWithTeamsCollab, solo puede chat de Skype para la empresa. Tenga en cuenta que no todos los modos aún están completamente disponibles.  
 </br>
 </br>
+
 |Modo|Comportamiento de enrutamiento|Programación de reuniones|Experiencia del cliente|
 |---|---|---|---|
 |Islas|VOIP entrante llama y charlas land en el mismo cliente como autor<sup>1</sup>|Ambos|Los usuarios finales puede iniciar las llamadas y chats desde cualquier cliente y puede programar reuniones desde cualquier cliente.|
@@ -73,7 +70,7 @@ Los modos de planeada se enumeran a continuación. SfBWithTeamsCollab y SfBWithT
 |SfBWithTeamsCollab<sup>2</sup>|Charlas y las llamadas entrantes se enrutan a Skype para la empresa|Skype para la empresa solo|Los usuarios finales pueden iniciar llamadas y conversaciones de Skype para la empresa sólo y sólo programar Skype para reuniones de negocios. También pueden utilizar canales en los equipos. (AÚN NO SE APLICAN)|
 |SfBWithTeamsCollabAndMeetings<sup>3</sup>|Charlas y las llamadas entrantes se enrutan a Skype para la empresa|Sólo los equipos|Los usuarios finales pueden iniciar llamadas y conversaciones de Skype para la empresa únicamente y sólo programación reuniones de los equipos. También pueden utilizar canales en los equipos. (AÚN NO SE APLICAN)|
 |TeamsOnly|Charlas y las llamadas entrantes se enrutan a los equipos|Sólo los equipos|Los usuarios finales pueden iniciar llamadas y chats sólo desde los equipos. Skype para la empresa sólo está disponible para participar en reuniones.|
-|Heredado|El enrutamiento se basa en TeamsInteropPolicy|Ningún impacto|Ningún impacto. Esto era un modo temporal que facilita la transición de TeamsInteropPolicy a TeamsUpgradePolicy. TeamsUpgradePolicy es totalmente compatible, por lo que el cliente debe actualizar sus configuraciones para los modos que no sean heredados. |
+|Heredado|El enrutamiento se basa en TeamsInteropPolicy|Ningún impacto|Ningún impacto. Esto era un modo temporal que facilita la transición de TeamsInteropPolicy a TeamsUpgradePolicy. TeamsUpgradePolicy es totalmente compatible, por lo que los clientes no deben usar este modo ya y deben actualizar sus configuraciones para los modos que no sean heredados. |
 |||||
 
 **Notas:**
@@ -89,6 +86,7 @@ Los modos de planeada se enumeran a continuación. SfBWithTeamsCollab y SfBWithT
 TeamsUpgradePolicy expone tres propiedades. Las propiedades principales son modo y NotifySfbUsers. Acción es un parámetro heredado y es totalmente redundante con la combinación de modo y NotifySfbUsers.
 </br>
 </br>
+
 |Parámetro|Tipo|Valores permitidos</br>(valor predeterminado en cursiva)|Descripción|
 |---|---|---|---|
 |Modo|Enum|*Islas*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>Heredado|Indica el modo en que se debe ejecutar en el cliente. Si el modo = Legacy, componentes de consumo de esta directiva se revertirán a teniendo en cuenta y TeamsInteropPolicy. TeamsUpgradePolicy ahora es totalmente compatible y los clientes deben actualizar sus modos de uso de las configuraciones que no sean heredados.|
@@ -99,6 +97,7 @@ TeamsUpgradePolicy expone tres propiedades. Las propiedades principales son modo
 Los equipos proporciona todas las instancias pertinentes de TeamsUpgradePolicy a través de directivas integradas, como de solo lectura. Por lo tanto, sólo obtener y Grant cmdlets están disponibles. Las instancias de integrada se enumeran a continuación.
 </br>
 </br>
+
 |Identity |Modo|NotifySfbUsers|Acción|Comentarios|
 |---|---|---|---|---|
 |Islas|Islas|Falso|Ninguna||
@@ -125,9 +124,9 @@ Estas instancias de directiva pueden concederse a usuarios individuales o en tod
 
 Como se describió anteriormente, TeamsInteropPolicy ha sido reemplazada por TeamsUpgradePolicy. Se han actualizado todos los componentes que anteriormente garantizada TeamsInteropPolicy para respetar TeamsUpgradePolicy en su lugar. 
 
-Microsoft introdujo anteriormente para facilitar la transición de TeamsInteropPolicy a TeamsUpgradePolicy, modo heredado en el modo de "Heredado", los componentes de enrutamiento que entiende TeamsUpgradePolicy sería volver a TeamsInteropPolicy. Enrutamiento ahora es totalmente compatible con TeamsUpgradePolicy y no es necesario usar el modo heredado. Los clientes deben actualizar su configuración de TeamsUpgradePolicy no esté en modo heredado.
+Microsoft introdujo anteriormente para facilitar la transición de TeamsInteropPolicy a TeamsUpgradePolicy, modo heredado en el modo de "Heredado", los componentes de enrutamiento que entiende TeamsUpgradePolicy sería volver a TeamsInteropPolicy. Enrutamiento ahora es totalmente compatible con TeamsUpgradePolicy y no es necesario usar el modo heredado. Los clientes que usen el modo heredado deben actualizar su configuración de TeamsUpgradePolicy utilizar uno de los otros modos. 
 
-Los clientes que usen el modo heredado deben actualizar sus configuraciones para utilizar uno de los otros modos. Los clientes que usen aún modo heredado un recordatorio para que sólo las tres instancias específicas de TeamsInteropPolicy enumerados a continuación son compatibles. En cada caso, el valor de CallingDefaultClient coincide con el valor de ChatDefaultClient y AllowEndUserClientOverride siempre es false. 
+Los clientes que usen aún modo heredado un recordatorio para que sólo las tres instancias específicas de TeamsInteropPolicy enumerados a continuación son compatibles. En cada caso, el valor de CallingDefaultClient coincide con el valor de ChatDefaultClient y AllowEndUserClientOverride siempre es false. 
 </br>
 </br>
 **Admite instancias de TeamsInteropPolicy cuando se usa el modo TeamsUpgradePolicy = heredado**
@@ -152,6 +151,8 @@ TeamsUpgradePolicy controla el enrutamiento de llamadas y chats federados entran
 |Microsoft Teams|TeamsOnly |
 |||
 
+Cuando los destinatarios están en modo de islas, charlas y llamadas de tierra de usuarios federados en SfB.
+
 ## <a name="completing-the-transition-to-mode-management"></a>Completar la transición a la administración de modo
 
 Más adelante en este año, planes de Microsoft introducir un nuevo tipo de directiva, TeamsAppPermissionsPolicy, para controlar qué partes de cliente de los equipos están habilitadas (por ejemplo, mensajería instantánea, las reuniones, Chat, canales). Cuando se convierte en la nueva directiva para habilitar o deshabilitar las cargas de trabajo en los equipos disponible, TeamsUpgradePolicy se actualizará para que cuando un administrador intenta conceder una instancia de TeamsUpgradePolicy a un usuario, primero se comprueba para asegurarse de que TeamsAppPolicy está correctamente configurado para el modo deseado. En caso contrario, se producirá un error de la concesión con un error que explica cómo en primer lugar se debe establecer la directiva de otra. 
@@ -163,8 +164,9 @@ Hasta que TeamsAppPolicy pasa a estar disponible, TeamsUpgradePolicy esencialmen
 Los clientes usando modo heredado deben hacer lo siguiente:
 
 1. Asegúrese de que los usuarios con TeamsInteropPolicy se asignan solo uno de estos tres instancias integradas, qué CallingDefaultClient = ChatDefaultClient y para qué AllowEndUserClientOverride = false. Estas instancias son:
-</br>
-</br>
+   </br>
+   </br>
+
    |Identity |AllowEndUserClientOverride |CallingDefaultClient|ChatDefaultClient|
    |---|---|---|---|
    |`DisallowOverrideCallingDefaultChatDefault`|Falso|Predeterminado|Predeterminado|
@@ -180,8 +182,9 @@ Los clientes usando modo heredado deben hacer lo siguiente:
     ***Las organizaciones que no se actualizan a una de estas instancias finalmente tendrán sus usuarios que se actualiza automáticamente a una de estas instancias. Se obviamente preferir que los clientes hacen esto, por lo que puede elegir lo que es mejor para sus usuarios.***
 
 2. Si personaliza la directiva global integrada, deshacer esta operación. La directiva global debe tener los siguientes valores:
-</br>
-</br>
+   </br>
+   </br>
+
     |Parámetro|Valor|
     |---|---|
     |`AllowEndUserClientOverride`|Falso|

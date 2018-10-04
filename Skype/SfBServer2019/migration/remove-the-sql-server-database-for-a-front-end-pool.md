@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Después de quitar un grupo de servidores Front-End o volver a configurar el grupo de servidores para usar una base de datos diferente, puede quitar las bases de datos de SQL Server que hospedan los datos del grupo de servidores. Use los procedimientos siguientes para quitar las definiciones de generador de topología y, a continuación, quitar los archivos de registro y base de datos desde el servidor de base de datos.
-ms.openlocfilehash: 65fd0367051e32aa081fa13859632504e1331669
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 35c9429fc16aef886945f8b0adcd5894ce40b834
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028610"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373129"
 ---
 # <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>Quitar la base de datos de SQL Server para un grupo de servidores Front-End
 
@@ -35,17 +35,17 @@ Después de quitar un grupo de servidores Front-End o volver a configurar el gru
     
 3. Para quitar la base de datos para el almacén de usuario del grupo, escriba:
     
-  ```
-  Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
-  ```
+   ```
+   Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
+   ```
 
     Donde _ \<FQDN\> _ es el nombre de dominio completo (FQDN) del servidor de base de datos, y _ \<instancia\> _ es la instancia con nombre de la base de datos (es decir, si se ha definido uno). 
     
 4. Para quitar la base de datos para el almacén de aplicación de grupo de servidores, escriba:
     
-  ```
-  Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
-  ```
+   ```
+   Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
+   ```
 
     Donde _ \<FQDN\> _ es el FQDN del servidor de base de datos, y _ \<instancia\> _ es la instancia con nombre de la base de datos (es decir, si se ha definido uno). 
     

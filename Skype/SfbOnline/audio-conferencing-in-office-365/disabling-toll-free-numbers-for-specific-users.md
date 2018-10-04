@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Los administradores pueden controlar cómo los organizadores pueden usar los números gratuitos para sus reuniones.
-ms.openlocfilehash: b438ee16135485a79458869858c52dd35bafa560
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 316497b6b4569ffef4419b6ed2ce6994c604d16a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885175"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370615"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Deshabilitar los números gratuitos para usuarios específicos de Skype for Business Online
 
@@ -33,7 +33,7 @@ ms.locfileid: "23885175"
 
 Si su organización tiene números gratuitos en su puente de Audioconferencia de Microsoft, puede permitir o impedir su uso en las reuniones de organizadores específicos.  
 
-De forma predeterminada, todos los usuarios de su organización están habilitados para el uso de los números gratuitos, lo que significa que dichos números, si están disponible, se pueden usar por los participantes para unirse a sus reuniones. Si no es el comportamiento deseado para algunos usuarios de su organización, puede restringir a usuarios específicos el uso de dichos números en sus reuniones a través de un control de habilitación de los números gratuitos. 
+By default, all users in your organization are enabled for using toll-free numbers, meaning that those numbers, if available, can be used by participants to join their meetings. If this is not the desired behavior for some users in your organization, you can restrict specific users from using those numbers in their meetings via a toll-free number enablement control. 
 
 Cuando se deshabilitan los números gratuitos para un organizador determinado: 
  - Ya no se incluirá un número de teléfono gratuito en sus invitaciones a reuniones. 
@@ -62,6 +62,6 @@ Cuando se deshabilitan los números gratuitos para un organizador determinado:
  
 **Uso de PowerShell**  
 
-Puede usar el parámetro AllowTollFreeDialIn del cmdlet Set-CsOnlineDialInConferencingUser para habilitar o deshabilitar este control. Por ejemplo: 
+You can use the AllowTollFreeDialIn parameter of the Set-CsOnlineDialInConferencingUser cmdlet to enable or disable this control. For example: 
 
- - Set-CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false
+- Set-CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false

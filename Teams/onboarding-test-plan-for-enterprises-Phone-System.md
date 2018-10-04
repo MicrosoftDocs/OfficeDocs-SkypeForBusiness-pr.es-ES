@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24629cee495bafe9e80845c52cc44207fb393038
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 442054ab5ea307dec078a175a28d0a1eece16453
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017146"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371420"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Defina y documente el sistema de teléfono con planes de llamada en el plan de pruebas de los equipos para empresas 
 ============================================================================================
@@ -38,7 +38,7 @@ Mientras se prepara para evaluar el sistema telefónico con una llamada a los pl
 #### <a name="teams-testing-support-stakeholder-matrix"></a>Equipos de prueba de la matriz de compatibilidad de los participantes
 
 > [!TIP]
-
+> 
 > A continuación se incluye un ejemplo de una plantilla de pruebas compatibilidad con los participantes que puede usar en qué necesita para admitir la fase de pruebas de las partes interesadas del documento.
 
 | Rol                          | Descripción de la función                                                                                                                                                                          | Recurso asignado, información de contacto y ubicación |
@@ -64,8 +64,8 @@ Mientras se prepara para evaluar el sistema telefónico con una llamada a los pl
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul><li>Decidir qué funciones de los participantes y soporte técnico de pruebas requieren para probar el sistema telefónico con una llamada a los planes de características en el entorno.</li><li>Decidir qué recursos asignará para las funciones de los participantes y soporte técnico de pruebas que ha identificado.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Las funciones de los participantes y soporte técnico de pruebas requeridas en la matriz de los participantes de admitir las pruebas de documentos.</li><li>Información de contacto del documento y detalles de ubicación para cada recurso de lista en la matriz de los participantes de compatibilidad con las pruebas.
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>Decidir qué funciones de los participantes y soporte técnico de pruebas requieren para probar el sistema telefónico con una llamada a los planes de características en el entorno.</li><li>Decidir qué recursos asignará para las funciones de los participantes y soporte técnico de pruebas que ha identificado.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Las funciones de los participantes y soporte técnico de pruebas requeridas en la matriz de los participantes de admitir las pruebas de documentos.</li><li>Información de contacto del documento y detalles de ubicación para cada recurso de lista en la matriz de los participantes de compatibilidad con las pruebas.
 </table>
 
 
@@ -111,8 +111,8 @@ Ahora que se han definido el sistema telefónico con las características y plan
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul><li> Decidir qué sistema de teléfono con planes de llamar a las características de categoría va a implementar en su entorno.</li><li>Identificar su sistema de teléfono del usuario con planes de llamar a los requisitos de funcionalidad dados su Skype actual para el entorno de implementación empresarial, Exchange y SharePoint.</li><li>Decidir qué experiencia de interoperabilidad de los equipos que va a implementar.</li><li>Revise la guía pública más reciente de los equipos y decida si las capacidades de carga de trabajo actual cumplen la escala de tiempo de implementación.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>El sistema telefónico con planes de llamar a las características de categorías necesarios para admitir el sistema telefónico con una llamada a los planes de implementación de documento.</li><li>Documento del sistema de teléfono del usuario con planes de llamar a funciones y requisitos de interoperabilidad dados su Skype actual para el entorno de implementación empresarial, Exchange y SharePoint.</li><li>Si la guía pública más reciente de los equipos que representa el sistema telefónico con planes de llamar a funciones cumple los requisitos de control de tiempo de la implementación y las necesidades empresariales de documentos.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li> Decidir qué sistema de teléfono con planes de llamar a las características de categoría va a implementar en su entorno.</li><li>Identificar su sistema de teléfono del usuario con planes de llamar a los requisitos de funcionalidad dados su Skype actual para el entorno de implementación empresarial, Exchange y SharePoint.</li><li>Decidir qué experiencia de interoperabilidad de los equipos que va a implementar.</li><li>Revise la guía pública más reciente de los equipos y decida si las capacidades de carga de trabajo actual cumplen la escala de tiempo de implementación.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>El sistema telefónico con planes de llamar a las características de categorías necesarios para admitir el sistema telefónico con una llamada a los planes de implementación de documento.</li><li>Documento del sistema de teléfono del usuario con planes de llamar a funciones y requisitos de interoperabilidad dados su Skype actual para el entorno de implementación empresarial, Exchange y SharePoint.</li><li>Si la guía pública más reciente de los equipos que representa el sistema telefónico con planes de llamar a funciones cumple los requisitos de control de tiempo de la implementación y las necesidades empresariales de documentos.</li></ul></td></tr>
 </table>
 
 <a name="define-and-document-your-phone-system-with-calling-plans-test-plan"></a>Defina y documente el sistema telefónico con planes de llamar al plan de pruebas
@@ -165,8 +165,8 @@ El ámbito para evaluar correctamente el sistema telefónico con una llamada a l
 | <ul><li>Ancho de banda de organizador de planeación (a través de MyAdvisor) de la red<li></li>Validación de conectividad y rendimiento de la red (a través de Skype para la herramienta de evaluación de red empresarial)<li></li>Calidad de la validación de servicio (QoS)<li></li>Validación de división túnel de acceso remoto</li></ul>|<ul><li>Características de PBX<li></li>RTC de llamada (nacional e internacional)<li></li> Realizar y recibir llamadas de RTC<li></li>Correo de voz de Azure<li></li>E911<li></li>Plan de marcado de inquilinos<li></li>Enmascaramiento de identificador de autor de la llamada de inquilinos <li></li>Características de control de llamada avanzadas (por ejemplo, de transferencia de llamadas simultáneas)</li></ul> |<ul><li>Asignación de licencias</li><li>Número de suscriptor trasladar a Office 365</li><li>Sistema de teléfono con una llamada a los planes de informes</li><li>Calidad de llamada de creación de informes (CQD)</li></ul> |
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul><li>Decidir el sistema telefónico con una llamada a planes de pruebas de ámbito mediante la identificación de las características que se deben evaluar por área de foco.</li><li>Decidir adicionales metas y objetivos para la evaluación.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Documente el sistema de teléfono con una llamada a los planes de características que se deben evaluar por área de foco.</li><li>Documentar objetivos adicionales y los objetivos para la evaluación.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>Decidir el sistema telefónico con una llamada a planes de pruebas de ámbito mediante la identificación de las características que se deben evaluar por área de foco.</li><li>Decidir adicionales metas y objetivos para la evaluación.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Documente el sistema de teléfono con una llamada a los planes de características que se deben evaluar por área de foco.</li><li>Documentar objetivos adicionales y los objetivos para la evaluación.</li></ul></td></tr>
 </table>
 
 ### <a name="define-and-document-phone-system-with-calling-plans-test-cases"></a>Defina y documente el sistema telefónico con planes de llamar a casos de prueba
@@ -208,8 +208,8 @@ Sistema telefónico al llamar a los planes de validación
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul><li>Decidir qué sistema de teléfono con la administración de los planes de llamada y se evaluará las características de usuario.</li><li>Decidir qué entorno de prueba es necesario para admitir la ejecución del caso de prueba.</li><li>Decidir los pasos necesarios para la evaluación del caso de prueba.</li><li>Decidir los recursos necesarios para la correcta ejecución de la prueba.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Documentar los casos de prueba que se deben evaluar, basado en la plantilla de caso de prueba proporcionada.</li><li>Incluir la plantilla completa como parte del plan de pruebas global.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>Decidir qué sistema de teléfono con la administración de los planes de llamada y se evaluará las características de usuario.</li><li>Decidir qué entorno de prueba es necesario para admitir la ejecución del caso de prueba.</li><li>Decidir los pasos necesarios para la evaluación del caso de prueba.</li><li>Decidir los recursos necesarios para la correcta ejecución de la prueba.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Documentar los casos de prueba que se deben evaluar, basado en la plantilla de caso de prueba proporcionada.</li><li>Incluir la plantilla completa como parte del plan de pruebas global.</li></ul></td></tr>
 </table>
 
 
@@ -238,8 +238,8 @@ En un nivel alto, estos recursos normalmente constan de:
 | Asistencia técnica       | Jefe de soporte técnico de prueba de administrador técnico de prueba de pruebas | TBD                  |
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul><li>Decidir los tipos de recursos (personas, tecnología y soporte técnico) que necesitará para admitir la fase de pruebas.</li><li>Decidir los recursos específicos necesarios para los tipos de recursos que ha identificado.</li><li>Decidir si debe proporcionar aún más detalles para describir los tipos de recursos que necesita.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Documente los tipos de recursos (personas, tecnología y soporte técnico) que necesitará para admitir la fase de pruebas.</li><li>Los recursos específicos necesarios para los tipos de recurso que ha identificado del documento.</li><li>Si decide que es necesario, documente cualquier más detalles sobre los tipos de recursos que necesita para admitir la fase de pruebas.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>Decidir los tipos de recursos (personas, tecnología y soporte técnico) que necesitará para admitir la fase de pruebas.</li><li>Decidir los recursos específicos necesarios para los tipos de recursos que ha identificado.</li><li>Decidir si debe proporcionar aún más detalles para describir los tipos de recursos que necesita.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Documente los tipos de recursos (personas, tecnología y soporte técnico) que necesitará para admitir la fase de pruebas.</li><li>Los recursos específicos necesarios para los tipos de recurso que ha identificado del documento.</li><li>Si decide que es necesario, documente cualquier más detalles sobre los tipos de recursos que necesita para admitir la fase de pruebas.</li></ul></td></tr>
 </table>
 
 
@@ -276,8 +276,8 @@ En un nivel alto, normalmente se compone de:
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul><li>Decidir la actividad de escala de tiempo, hito y las tareas que necesita para realizar un seguimiento.</li><li>Decidir qué recursos que necesitará para asignar.</li><li>Decidir la fecha en que espera realizarse.</li><li>Identificar el propietario de la entrega.</li><li>Decidir cuánto tiempo se tardará en completar la actividad, un hito o una tarea.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>La escala de tiempo prueba de documentos mediante el uso de la plantilla que se proporciona e incluyen:<ul><li>Actividad de escala de tiempo, hito y las tareas que debe realizar un seguimiento.</li><li>Recursos que se deben asignar.</li><li>Fecha de finalización prevista.</li><li>Propietario de la entrega.</li><li>Tiempo necesario para completar la actividad, un hito o una tarea.</li></ul></li><li>Incluir la plantilla completa como parte del plan de pruebas global.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>Decidir la actividad de escala de tiempo, hito y las tareas que necesita para realizar un seguimiento.</li><li>Decidir qué recursos que necesitará para asignar.</li><li>Decidir la fecha en que espera realizarse.</li><li>Identificar el propietario de la entrega.</li><li>Decidir cuánto tiempo se tardará en completar la actividad, un hito o una tarea.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>La escala de tiempo prueba de documentos mediante el uso de la plantilla que se proporciona e incluyen:<ul><li>Actividad de escala de tiempo, hito y las tareas que debe realizar un seguimiento.</li><li>Recursos que se deben asignar.</li><li>Fecha de finalización prevista.</li><li>Propietario de la entrega.</li><li>Tiempo necesario para completar la actividad, un hito o una tarea.</li></ul></li><li>Incluir la plantilla completa como parte del plan de pruebas global.</li></ul></td></tr>
 </table>
 
 
@@ -327,8 +327,8 @@ Esto resaltará impacto potencial que podría obstaculizar o incluso por detener
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul><li>Decidir qué niveles de gravedad de criterios defecto asignará para admitir el trabajo de las pruebas.</li><li>Decidir qué prueba defecto informes criterios que aquí documentos si surgen problemas durante las pruebas.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Documentar el defecto prueba informes criterios necesarios en la plantilla que se proporciona.</li><li>Incluir la plantilla completa como parte del plan de pruebas global.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>Decidir qué niveles de gravedad de criterios defecto asignará para admitir el trabajo de las pruebas.</li><li>Decidir qué prueba defecto informes criterios que aquí documentos si surgen problemas durante las pruebas.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Documentar el defecto prueba informes criterios necesarios en la plantilla que se proporciona.</li><li>Incluir la plantilla completa como parte del plan de pruebas global.</li></ul></td></tr>
 </table>
 
 
@@ -347,8 +347,8 @@ Como parte del proceso de ejecución de plan de prueba general, debe definir los
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul><li>Decida los criterios de suspensión que deben cumplirse si se identifican problemas con las pruebas.</li><li>Decidir en criterios de salida que se deben cumplir para obtener pruebas aceptación cierre la sesión y admitir la salida de la fase de pruebas después de todo pruebas actividades están completas.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Documente los criterios de suspensión y la salida de prueba necesarios en las plantillas de prueba y de salida proporcionadas.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>Decida los criterios de suspensión que deben cumplirse si se identifican problemas con las pruebas.</li><li>Decidir en criterios de salida que se deben cumplir para obtener pruebas aceptación cierre la sesión y admitir la salida de la fase de pruebas después de todo pruebas actividades están completas.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Documente los criterios de suspensión y la salida de prueba necesarios en las plantillas de prueba y de salida proporcionadas.</li></ul></td></tr>
 </table>
 
 
@@ -394,8 +394,8 @@ Normalmente, un plan de informe y corrección de defecto incluye lo siguiente:
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul><li>Decidir y está de acuerdo en las prioridades de defecto para admitir su plan de pruebas.</li><li>Decidir el punto de escalación para cada área de defecto.</li><li>Decidir el defecto escalación y el plan de evaluación de errores que se deben seguir, en función de prioridad.</li><li>Decidir el defecto de informes y clasificación del plan de comunicación para escalación.</li><li>Decidir la cadencia de reunión de revisión de evaluación de errores de defecto.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Las prioridades acordadas en defecto de documentos.</li><li>El punto de escalación para cada área de foco posibles del documento.</li><li>Documentar el plan de escalación y evaluación de errores de defecto según criterios acordado en.</li><li>Documente su defecto las directrices de informe.</li><li>Programar la serie de reuniones de evaluación de errores de defecto.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>Decidir y está de acuerdo en las prioridades de defecto para admitir su plan de pruebas.</li><li>Decidir el punto de escalación para cada área de defecto.</li><li>Decidir el defecto escalación y el plan de evaluación de errores que se deben seguir, en función de prioridad.</li><li>Decidir el defecto de informes y clasificación del plan de comunicación para escalación.</li><li>Decidir la cadencia de reunión de revisión de evaluación de errores de defecto.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Las prioridades acordadas en defecto de documentos.</li><li>El punto de escalación para cada área de foco posibles del documento.</li><li>Documentar el plan de escalación y evaluación de errores de defecto según criterios acordado en.</li><li>Documente su defecto las directrices de informe.</li><li>Programar la serie de reuniones de evaluación de errores de defecto.</li></ul></td></tr>
 </table>
 
 
@@ -429,8 +429,8 @@ En un nivel alto, estos incluyen normalmente, pero no están limitados a:
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul><li>Decidir qué entregas deben crearse y capturan como resultado de cada fase de pruebas. Para cada entrega, decide cuál será su:<ul><li>Formato</li><li>Owner</li><li>Revisor</li><li>Aprobador</li></ul></li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Un plan entrega creación y la entrega matriz de pruebas del documento.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>Decidir qué entregas deben crearse y capturan como resultado de cada fase de pruebas. Para cada entrega, decide cuál será su:<ul><li>Formato</li><li>Owner</li><li>Revisor</li><li>Aprobador</li></ul></li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Un plan entrega creación y la entrega matriz de pruebas del documento.</li></ul></td></tr>
 </table>
 
 
@@ -459,8 +459,8 @@ Para ayudar a determinar la cantidad de ancho de banda y el nivel de optimizaci�
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Puntos de decisión</td><td><ul><li>Decidir qué sitios de red están en el ámbito para la implementación de los equipos de servicios.</li><li>Decidir los roles necesarios para modalidades de los equipos en el ámbito.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Complete el organizador de la red (a través de MyAdvisor) para la lista de sitios que están en el ámbito.</li><li>Validación del organizador de la red de documentos da como resultado la plantilla de resultados de plan de prueba proporcionada.</li><li>Validar que el ExpressRoute (si procede), internet y ancho de banda de WAN que se ha calculado para sitios de ámbito se alinea a los valores de ancho de banda que están asignados actualmente.</li><li>Para los sitios que no tengan el ancho de banda adecuado, ejecutar planes de escalación y corrección para resolver los problemas de ancho de banda.</li><li>Establecer una red de supervisión de soluciones para sitios de ámbito para supervisar el uso de ancho de banda y QoS para segmentos WAN, internet y ExpressRoute (si procede).</li><li>Programar una reunión del Comité de dirección para revisar los resultados del organizador de la red.</li><li>Presentar los resultados en el Comité de dirección para identificar las áreas que requieren la corrección de planeación de ancho de banda.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Puntos de decisión</td><td><ul><li>Decidir qué sitios de red están en el ámbito para la implementación de los equipos de servicios.</li><li>Decidir los roles necesarios para modalidades de los equipos en el ámbito.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Complete el organizador de la red (a través de MyAdvisor) para la lista de sitios que están en el ámbito.</li><li>Validación del organizador de la red de documentos da como resultado la plantilla de resultados de plan de prueba proporcionada.</li><li>Validar que el ExpressRoute (si procede), internet y ancho de banda de WAN que se ha calculado para sitios de ámbito se alinea a los valores de ancho de banda que están asignados actualmente.</li><li>Para los sitios que no tengan el ancho de banda adecuado, ejecutar planes de escalación y corrección para resolver los problemas de ancho de banda.</li><li>Establecer una red de supervisión de soluciones para sitios de ámbito para supervisar el uso de ancho de banda y QoS para segmentos WAN, internet y ExpressRoute (si procede).</li><li>Programar una reunión del Comité de dirección para revisar los resultados del organizador de la red.</li><li>Presentar los resultados en el Comité de dirección para identificar las áreas que requieren la corrección de planeación de ancho de banda.</li></ul></td></tr>
 </table>
 
 
@@ -473,8 +473,8 @@ Para obtener instrucciones adicionales sobre cómo configurar, implementar y val
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Puntos de decisión</td><td><ul><li>Decida en la configuración de QoS que se va a implementar.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Configuración de QoS.</li><li>Ejecutar QoS validación tal como se describe en los pasos que se indican a través de la "validar a través de GPO" y "validar a través del analizador de mensajes" en las secciones anteriores.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Puntos de decisión</td><td><ul><li>Decida en la configuración de QoS que se va a implementar.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Configuración de QoS.</li><li>Ejecutar QoS validación tal como se describe en los pasos que se indican a través de la "validar a través de GPO" y "validar a través del analizador de mensajes" en las secciones anteriores.</li></ul></td></tr>
 </table>
 
 
@@ -495,10 +495,9 @@ Una vez completada pruebas mediante el uso de directiva de grupo para los sitios
 <table>
 <tr><th colspan="2">Aspectos destacados de pruebas </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Prueba de relieve  </th></tr>  
-<tr><td>**Problema**: TBD</td><td>**Corrección:** TBD</td></tr>
+<tr><th colspan="2">Prueba de relieve  </th></tr><br/><tr><td><strong>Problema</strong>: TBD</td><td><strong>Corrección:</strong> TBD</td></tr>
 <tr><th colspan="2">Bloqueadores de elementos identificados </td></tr>
-<tr><td>**Bloqueador de elementos**: TBD</td><td>**Corrección**: TBD</td></tr>
+<tr><td><strong>Bloqueador de elementos</strong>: TBD</td><td><strong>Corrección</strong>: TBD</td></tr>
 </table>
 
 
@@ -508,8 +507,8 @@ Una vez completada pruebas mediante el uso de directiva de grupo para los sitios
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Puntos de decisión</td><td><ul><li>Evaluar los resultados de prueba de QoS para asegurarse de que los equipos que el tráfico de medios en tiempo real se está correctamente marcado y prioriza.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Resultados de pruebas de QoS de documento en la plantilla de resultados de plan de prueba proporcionada.</li><li>Ejecutar planes de escalación y corrección para resolver los problemas que QoS no estar correctamente configurado o no laborable como se espera para admitir el tráfico de medios de los equipos.</li></ul></td></tr><li>Programar una reunión del Comité de dirección para revisar el resumen de resultados de prueba.</li><li>Presente resumen resultados de las pruebas para el Comité de dirección para identificar las áreas que requieren corrección.</li>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Puntos de decisión</td><td><ul><li>Evaluar los resultados de prueba de QoS para asegurarse de que los equipos que el tráfico de medios en tiempo real se está correctamente marcado y prioriza.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Resultados de pruebas de QoS de documento en la plantilla de resultados de plan de prueba proporcionada.</li><li>Ejecutar planes de escalación y corrección para resolver los problemas que QoS no estar correctamente configurado o no laborable como se espera para admitir el tráfico de medios de los equipos.</li></ul></td></tr><li>Programar una reunión del Comité de dirección para revisar el resumen de resultados de prueba.</li><li>Presente resumen resultados de las pruebas para el Comité de dirección para identificar las áreas que requieren corrección.</li>
 </table>
 
 
@@ -529,8 +528,8 @@ Para obtener instrucciones adicionales sobre cómo configurar y validar la prepa
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Puntos de decisión</td><td><ul><li>Decidir la configuración de túnel de división para implementar.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Implementar la configuración de túnel de división.</li><li>Probar y validar la configuración de túnel de división.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Puntos de decisión</td><td><ul><li>Decidir la configuración de túnel de división para implementar.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Implementar la configuración de túnel de división.</li><li>Probar y validar la configuración de túnel de división.</li></ul></td></tr>
 </table>
 
 
@@ -550,10 +549,9 @@ Una vez completada la configuración de túnel de división prueba para sitios d
 <table>
 <tr><th colspan="2">Aspectos destacados de pruebas </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Prueba de relieve  </th></tr>  
-<tr><td>**Problema**: TBD</td><td>**Corrección:** TBD</td></tr>
+<tr><th colspan="2">Prueba de relieve  </th></tr><br/><tr><td><strong>Problema</strong>: TBD</td><td><strong>Corrección:</strong> TBD</td></tr>
 <tr><th colspan="2">Bloqueadores de elementos identificados </td></tr>
-<tr><td>**Bloqueador de elementos**: TBD</td><td>**Corrección**: TBD</td></tr>
+<tr><td><strong>Bloqueador de elementos</strong>: TBD</td><td><strong>Corrección</strong>: TBD</td></tr>
 </table>
 
 
@@ -562,8 +560,8 @@ Una vez completada la configuración de túnel de división prueba para sitios d
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Puntos de decisión</td><td><ul><li>Evaluar los resultados de las pruebas de división túnel para asegurarse de que el tráfico en tiempo real de los equipos se excluye de la solución de acceso remoto.</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Documentar los resultados de pruebas de conectividad de túnel de división en la plantilla de resultados de plan de prueba proporcionado.</li><li>Ejecutar planes de escalación y corrección para resolver los problemas donde enrutamiento correcto es posible que no existe para admitir la media de los equipos dentro de una configuración de túnel de división.</li><li>Programar una reunión del Comité de dirección para revisar el resumen de resultados de prueba.</li><li>Presente resumen resultados de las pruebas para el Comité de dirección para identificar las áreas que requieren corrección.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Puntos de decisión</td><td><ul><li>Evaluar los resultados de las pruebas de división túnel para asegurarse de que el tráfico en tiempo real de los equipos se excluye de la solución de acceso remoto.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Documentar los resultados de pruebas de conectividad de túnel de división en la plantilla de resultados de plan de prueba proporcionado.</li><li>Ejecutar planes de escalación y corrección para resolver los problemas donde enrutamiento correcto es posible que no existe para admitir la media de los equipos dentro de una configuración de túnel de división.</li><li>Programar una reunión del Comité de dirección para revisar el resumen de resultados de prueba.</li><li>Presente resumen resultados de las pruebas para el Comité de dirección para identificar las áreas que requieren corrección.</li></ul></td></tr>
 </table>
 
 
@@ -580,8 +578,8 @@ Para obtener instrucciones adicionales sobre cómo confirmar y evaluación de la
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Puntos de decisión</td><td><ul><li>Decidir la evaluación de la red y el perfil de pruebas de conectividad para sitios de ámbito.</li><li>Decidir los requisitos de archivo de configuración de evaluación de red para los sitios en el ámbito.</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Configurar requisitos de archivos de configuración de evaluación de red para los sitios en el ámbito.</li><li>Ejecutar la validación de rendimiento y la conectividad de la red para los sitios en el ámbito.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Puntos de decisión</td><td><ul><li>Decidir la evaluación de la red y el perfil de pruebas de conectividad para sitios de ámbito.</li><li>Decidir los requisitos de archivo de configuración de evaluación de red para los sitios en el ámbito.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Configurar requisitos de archivos de configuración de evaluación de red para los sitios en el ámbito.</li><li>Ejecutar la validación de rendimiento y la conectividad de la red para los sitios en el ámbito.</li></ul></td></tr>
 </table>
 
 
@@ -616,22 +614,22 @@ Una vez haya completado todas las pruebas de rendimiento para los sitios en el �
 <tr><th colspan="2">Aspectos destacados de pruebas </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
 <tr><th colspan="2">Prueba de relieve  </th></tr> 
-<tr><td>**Problema**: latencia alta</td><td>**Corrección:** Investigar el enrutamiento de paquetes e implementar la ruta ideal.</td></tr>
-<tr><td>**Problema**: double la latencia no es el tiempo de ida y vuelta</td><td>**Corrección:** Investigue un posible problema de configuración del firewall o enrutador. Investigar las rutas de tráfico.</td></tr>
-<tr><td>**Problema**: alta pérdida de paquetes </td><td>**Corrección:** A través del organizador de la red, compruebe que se ha asignado suficiente ancho de banda. </td></tr>
-<tr><td>**Problema**: vibración alta </td><td> **Corrección:** Investigue si se usan los valores de punto (DSCP) de código de servicios diferenciados correcta. </td></tr>
-<tr><td>**Problema**: alta pérdida de paquetes </td><td>**Corrección:** Investigue la pérdida de paquetes. </td></tr>
-<tr><td>**Problema**: reaprovisionamiento de paquetes alta </td><td>**Corrección:** Investigar el ancho de banda y la cola de enrutador. </td></tr>
+<tr><td><strong>Problema</strong>: latencia alta</td><td><strong>Corrección:</strong> Investigar el enrutamiento de paquetes e implementar la ruta ideal.</td></tr>
+<tr><td><strong>Problema</strong>: ida y vuelta no es de tiempo & #39; t doble la latencia</td><td><strong>Corrección:</strong> Investigue un posible problema de configuración del firewall o enrutador. Investigar las rutas de tráfico.</td></tr>
+<tr><td><strong>Problema</strong>: alta pérdida de paquetes </td><td><strong>Corrección:</strong> A través del organizador de la red, compruebe que se ha asignado suficiente ancho de banda. </td></tr>
+<tr><td><strong>Problema</strong>: vibración alta </td><td> <strong>Corrección:</strong> Investigue si se usan los valores de punto (DSCP) de código de servicios diferenciados correcta. </td></tr>
+<tr><td><strong>Problema</strong>: alta pérdida de paquetes </td><td><strong>Corrección:</strong> Investigue la pérdida de paquetes. </td></tr>
+<tr><td><strong>Problema</strong>: reaprovisionamiento de paquetes alta </td><td><strong>Corrección:</strong> Investigar el ancho de banda y la cola de enrutador. </td></tr>
 <tr><th colspan="2">Bloqueadores de elementos identificados </td></tr>
-<tr><td>**Bloqueador de elementos**: TBD</td><td>**Corrección**: TBD</td></tr>
+<tr><td><strong>Bloqueador de elementos</strong>: TBD</td><td><strong>Corrección</strong>: TBD</td></tr>
 </table>
 
- 
+
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Puntos de decisión</td><td><ul><li>Evaluación de la evaluación de la red y los resultados para asegurarse de que cumple con los requisitos descritos en el [rendimiento de conectividad de red y calidad Media](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) para el segmento de borde y segmentos de cliente de pruebas de conectividad.</li><li>¿Se evalúa las capacidades de red para la compatibilidad con multimedia en tiempo real para todos los sitios en el ámbito?</li><li> ¿Si no ha evaluado correctamente la red o sabe que no se admite la multimedia en tiempo real, se deshabilitará vídeo y capacidades de uso compartido de pantalla para reducir la red un impacto y mejoran la experiencia de los equipos de los usuarios?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Rendimiento de la red y los resultados de pruebas de conectividad de documentos.</li><li>Ejecutar planes de escalación y corrección para resolver los problemas con los sitios donde no hay suficiente ancho de banda, o no se cumplen los requisitos de rendimiento y la conectividad de red.</li><li>Programar una reunión del Comité de dirección para revisar el resumen de resultados de prueba.</li><li>Presente resumen resultados de las pruebas para el Comité de dirección para identificar las áreas que requieren corrección.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Puntos de decisión</td><td><ul><li>Evaluación de la evaluación de la red y los resultados para asegurarse de que cumple con los requisitos descritos en el <a href="https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance" data-raw-source="[Media quality and network connectivity performance](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)">rendimiento de conectividad de red y calidad Media</a> para el segmento de borde y segmentos de cliente de pruebas de conectividad.</li><li>¿Se evalúa las capacidades de red para la compatibilidad con multimedia en tiempo real para todos los sitios en el ámbito?</li><li> ¿Si no ha evaluado correctamente la red o sabe que no se admite la multimedia en tiempo real, se deshabilitará vídeo y capacidades de uso compartido de pantalla para reducir la red un impacto y mejoran la experiencia de los equipos de los usuarios?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Rendimiento de la red y los resultados de pruebas de conectividad de documentos.</li><li>Ejecutar planes de escalación y corrección para resolver los problemas con los sitios donde no hay suficiente ancho de banda, o no se cumplen los requisitos de rendimiento y la conectividad de red.</li><li>Programar una reunión del Comité de dirección para revisar el resumen de resultados de prueba.</li><li>Presente resumen resultados de las pruebas para el Comité de dirección para identificar las áreas que requieren corrección.</li></ul></td></tr>
 </table>
 
 
@@ -656,7 +654,7 @@ Normalmente, puede encontrar la información que necesitará en la lista más re
 
 > [!TIP]
 >   Puede trasladar o números de teléfono de transferencia dentro de todos los países o regiones; admiten actualmente Sin embargo, la forma de enviar una solicitud de orden de puerto podría variar según el país o región donde se proceden de los números de teléfono. Para obtener la lista más reciente de países o regiones admitidas actualmente, vea [países y la disponibilidad de la región para las conferencias de Audio y planes de llamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
-
+> 
 >   Para obtener información adicional acerca de cómo transferir los números de teléfono al sistema de teléfono con planes de llamada — junto con las restricciones de posibles — vea [transferir los números de teléfono a Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365) y [Marcar gratuito restricciones dentro de Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.).
 
 #### <a name="step-3"></a>Paso 3
@@ -702,8 +700,8 @@ En un número externo de RTC, realice una llamada al número de suscriptor trasl
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Puntos de decisión</td><td><ul><li>Decidir qué números de suscriptor nacionales que necesitará para el puerto, por país o región.</li><li>Decidir qué plantilla LOA que va a utilizar.</li><li>Determinar si su operador de telefonía actual (perder portadora) permite la fragmentación de número de teléfono (es decir, permite parcial puerto pedidos).</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Recopilar la información necesaria y preparar la LOAs.</li><li>Descargar y completar las plantillas LOA que necesita.</li><li>Enviar una solicitud de traslado número de suscriptor.</li><li>Ejecutar pruebas de validación para los números de puertos asignando el sistema telefónico con planes de llamar al servicio de acceso telefónico y confirme que funcionan, tal como se describe en los pasos 6 y 7 anteriormente en esta sección.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Puntos de decisión</td><td><ul><li>Decidir qué números de suscriptor nacionales que necesitará para el puerto, por país o región.</li><li>Decidir qué plantilla LOA que va a utilizar.</li><li>Determinar si su operador de telefonía actual (perder portadora) permite la fragmentación de número de teléfono (es decir, permite parcial puerto pedidos).</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Recopilar la información necesaria y preparar la LOAs.</li><li>Descargar y completar las plantillas LOA que necesita.</li><li>Enviar una solicitud de traslado número de suscriptor.</li><li>Ejecutar pruebas de validación para los números de puertos asignando el sistema telefónico con planes de llamar al servicio de acceso telefónico y confirme que funcionan, tal como se describe en los pasos 6 y 7 anteriormente en esta sección.</li></ul></td></tr>
 </table>
 
 
@@ -723,10 +721,9 @@ Una vez que haya completado todas las pruebas de número de suscriptor, cree un 
 <table>
 <tr><th colspan="2">Aspectos destacados de pruebas </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Prueba de relieve  </th></tr>  
-<tr><td>**Problema**: TBD</td><td>**Corrección:** TBD</td></tr>
+<tr><th colspan="2">Prueba de relieve  </th></tr><br/><tr><td><strong>Problema</strong>: TBD</td><td><strong>Corrección:</strong> TBD</td></tr>
 <tr><th colspan="2">Bloqueadores de elementos identificados </td></tr>
-<tr><td>**Bloqueador de elementos**: TBD</td><td>**Corrección**: TBD</td></tr>
+<tr><td><strong>Bloqueador de elementos</strong>: TBD</td><td><strong>Corrección</strong>: TBD</td></tr>
 </table>
 
 
@@ -735,8 +732,8 @@ Una vez que haya completado todas las pruebas de número de suscriptor, cree un 
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Puntos de decisión</td><td><ul><li>Evaluar si los números de suscriptor enviados para la migración trasladados correctamente para el sistema telefónico con planes de llamar al servicio..</li><li>Evalúe si podían asignar al número de puertos de servicio para el sistema telefónico con una llamada a los planes de servicio.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Su número de trasladar los resultados de pruebas de documentos.</li><li>Ejecutar planes de escalación y corrección para resolver los problemas que ha experimentado con el proceso de traslado número, si hay alguno.</li><li>Programar una reunión del Comité de dirección para revisar el resumen de resultados de prueba.</li><li>Presentar los resultados de resumen de pruebas para el Comité de dirección para identificar las áreas que requieren corrección.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Puntos de decisión</td><td><ul><li>Evaluar si los números de suscriptor enviados para la migración trasladados correctamente para el sistema telefónico con planes de llamar al servicio..</li><li>Evalúe si podían asignar al número de puertos de servicio para el sistema telefónico con una llamada a los planes de servicio.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Su número de trasladar los resultados de pruebas de documentos.</li><li>Ejecutar planes de escalación y corrección para resolver los problemas que ha experimentado con el proceso de traslado número, si hay alguno.</li><li>Programar una reunión del Comité de dirección para revisar el resumen de resultados de prueba.</li><li>Presentar los resultados de resumen de pruebas para el Comité de dirección para identificar las áreas que requieren corrección.</li></ul></td></tr>
 </table>
 
 
@@ -782,8 +779,8 @@ Tal y como se evalúan casos de prueba para los equipos administrativos y caract
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Puntos de decisión</td><td><ul><li>Evaluar el estado de aprobación o error de casos de prueba de alto nivel por sitio para el sistema telefónico con una llamada a los planes de características en el ámbito.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Documente los resultados de estado de caso de prueba para todos los casos de prueba completados en el ámbito.</li><li>Programar una reunión del Comité de dirección para revisar el resumen de resultados de prueba.</li><li>Presentar los resultados de estado de caso de prueba para el Comité de dirección para identificar las áreas que requieren corrección.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Puntos de decisión</td><td><ul><li>Evaluar el estado de aprobación o error de casos de prueba de alto nivel por sitio para el sistema telefónico con una llamada a los planes de características en el ámbito.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Documente los resultados de estado de caso de prueba para todos los casos de prueba completados en el ámbito.</li><li>Programar una reunión del Comité de dirección para revisar el resumen de resultados de prueba.</li><li>Presentar los resultados de estado de caso de prueba para el Comité de dirección para identificar las áreas que requieren corrección.</li></ul></td></tr>
 </table>
 
 
@@ -804,10 +801,9 @@ Después de todos los casos de prueba de compatibilidad con el sistema telefóni
 <table>
 <tr><th colspan="2">Aspectos destacados de pruebas </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Prueba de relieve  </th></tr>  
-<tr><td>**Problema**: TBD</td><td>**Corrección:** TBD</td></tr>
+<tr><th colspan="2">Prueba de relieve  </th></tr><br/><tr><td><strong>Problema</strong>: TBD</td><td><strong>Corrección:</strong> TBD</td></tr>
 <tr><th colspan="2">Bloqueadores de elementos identificados </td></tr>
-<tr><td>**Bloqueador de elementos**: TBD</td><td>**Corrección**: TBD</td></tr>
+<tr><td><strong>Bloqueador de elementos</strong>: TBD</td><td><strong>Corrección</strong>: TBD</td></tr>
 </table>
 
 
@@ -817,8 +813,8 @@ Después de todos los casos de prueba de compatibilidad con el sistema telefóni
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Puntos de decisión</td><td><ul><li>Evaluar los resultados de prueba de alto nivel resumen por sitio para el sistema telefónico con una llamada a los planes de características en el ámbito.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>El informe de resumen de caso de prueba del documento después de que se hayan completado todos los resultados de caso de prueba.</li><li>Programar una reunión del Comité de dirección para revisar el resumen de resultados de prueba.</li><li>Presente resumen resultados de las pruebas para el Comité de dirección para identificar las áreas que requieren corrección.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Puntos de decisión</td><td><ul><li>Evaluar los resultados de prueba de alto nivel resumen por sitio para el sistema telefónico con una llamada a los planes de características en el ámbito.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>El informe de resumen de caso de prueba del documento después de que se hayan completado todos los resultados de caso de prueba.</li><li>Programar una reunión del Comité de dirección para revisar el resumen de resultados de prueba.</li><li>Presente resumen resultados de las pruebas para el Comité de dirección para identificar las áreas que requieren corrección.</li></ul></td></tr>
 </table>
 
 
@@ -851,6 +847,6 @@ Después de todo se hayan completado las actividades de pruebas y los defectos c
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Puntos de decisión</td><td><ul><li>Decidir el resumen de estado de prueba.</li><li>Identificar relieve y temas destacados de pruebas.</li><li>Identificar lecciones aprendidas.</li><li>Decidir qué corrección permanecen acciones, si hay alguno.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Resultados de resumen de la prueba de documento para incluir:<ul><li>Resumen de estado</li><li>Información destacada/relieve</li><li>Lecciones aprendidas</li></ul></li><li>Programar una reunión final Comité de dirección para revisar los resultados de pruebas.</li><li>Presente resultados de resumen de prueba durante un Comité de dirección de revisión para obtener la último inicio de sesión para salir de la fase de pruebas.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Puntos de decisión</td><td><ul><li>Decidir el resumen de estado de prueba.</li><li>Identificar relieve y temas destacados de pruebas.</li><li>Identificar lecciones aprendidas.</li><li>Decidir qué corrección permanecen acciones, si hay alguno.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Resultados de resumen de la prueba de documento para incluir:<ul><li>Resumen de estado</li><li>Información destacada/relieve</li><li>Lecciones aprendidas</li></ul></li><li>Programar una reunión final Comité de dirección para revisar los resultados de pruebas.</li><li>Presente resultados de resumen de prueba durante un Comité de dirección de revisión para obtener la último inicio de sesión para salir de la fase de pruebas.</li></ul></td></tr>
 </table>

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 'Resumen: Obtenga información sobre cómo definir e implementar un servidor de mediación en el generador de Skype para Business Server.'
-ms.openlocfilehash: fd83ecb44726f151dea83c19b9745446653ca33b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5e4221230fbaf993b5bf3d2b647e6d7e6e7ada51
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883727"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371924"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Implementar un servidor de mediación en el generador de Skype para Business Server
  
@@ -79,8 +79,8 @@ Puede agregar el servidor de mediación como un rol instalado en un grupo de ser
     
    - Si desea implementar varios servidores de mediación en el grupo de servidores para proporcionar una alta disponibilidad, a continuación, seleccione **el grupo de servidores de varios equipos**.
     
-    > [!NOTE]
-    > Debe [implementar](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) para admitir grupos de servidores de mediación que tienen varios servidores de mediación.
+     > [!NOTE]
+     > Debe [implementar](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) para admitir grupos de servidores de mediación que tienen varios servidores de mediación.
   
    - Si desea implementar un solo servidor de mediación del grupo de servidores debido a que no requieran una alta disponibilidad, a continuación, seleccione **el grupo de servidores de un solo equipo**. Omita el paso siguiente.
     

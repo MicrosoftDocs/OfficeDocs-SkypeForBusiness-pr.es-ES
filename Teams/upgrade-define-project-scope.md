@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccfd6da7af2905485a6c8deb7a2dd1ae433b8da3
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9830605dad592a147c22a60d1c7c275cbf969a64
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017940"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375222"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de definición del proyecto] (media/upgrade-banner-project-definition.png "Fases de la actualización viaje, con especial hincapié en la fase de definición del proyecto")
 
@@ -68,13 +68,13 @@ Su visión sólo puede llevarse a cabo a través del tiempo, a través de varias
 
 Los objetivos de definición los resultados que desee y permite medir el éxito del proyecto. Objetivos pueden definirse como _objetivos y los resultados de la claves_ (OKRs) y las medidas de éxito de un proyecto pueden definirse como _indicadores clave para el éxito_ (KSIs). Es esencial que obtener una completa participación de las partes interesadas del proyecto en la definición OKRs y KSIs, para ayudar a garantizar que sienten de propiedad y alineación estas medidas de éxito a tareas del proyecto definido. Objetivos deben incluir una combinación de técnica y centrados en el usuario correcto. 
 
--   **OKRs** contienen los objetivos establecidos al principio del proyecto y los resultados claves medir en una cadencia definido (por ejemplo, mensuales o trimestrales). Revisando los resultados de la claves, puede asegurarse de las entregas del proyecto se encuentran en la programación, o identifican y mitigan los problemas para obtener el proyecto en el camino. OKRs normalmente se clasifican como "alcanzado" o "no alcanzado".
--    **KSIs** medir el éxito de los resultados de la claves y la calidad y complementar la naturaleza binaria de OKRs por la que se detalla los resultados de una buena o incorrectos. Al definir KSIs, se recomienda que use "específicos, cuantificables, puede asignables, realistas, relacionados con el tiempo" criterios (SMART):
-    -   Específica: un área específica de mejora de destino
-    -   Cuantificar cuantificables: o Sugerir al menos un indicador de progreso
-    -   Puede asignar: especificar quién llevará a cabo
-    -   Realistas: estado ¿qué resultados de forma realista pueden lograr, al indicar recursos disponibles
-    -   Relacionados con el tiempo: especificar cuándo se pueden lograr los resultados
+- **OKRs** contienen los objetivos establecidos al principio del proyecto y los resultados claves medir en una cadencia definido (por ejemplo, mensuales o trimestrales). Revisando los resultados de la claves, puede asegurarse de las entregas del proyecto se encuentran en la programación, o identifican y mitigan los problemas para obtener el proyecto en el camino. OKRs normalmente se clasifican como "alcanzado" o "no alcanzado".
+- **KSIs** medir el éxito de los resultados de la claves y la calidad y complementar la naturaleza binaria de OKRs por la que se detalla los resultados de una buena o incorrectos. Al definir KSIs, se recomienda que use "específicos, cuantificables, puede asignables, realistas, relacionados con el tiempo" criterios (SMART):
+  -   Específica: un área específica de mejora de destino
+  -   Cuantificar cuantificables: o Sugerir al menos un indicador de progreso
+  -   Puede asignar: especificar quién llevará a cabo
+  -   Realistas: estado ¿qué resultados de forma realista pueden lograr, al indicar recursos disponibles
+  -   Relacionados con el tiempo: especificar cuándo se pueden lograr los resultados
 
 En la siguiente tabla se muestra ejemplos de OKRs y KSIs para las fases iniciales de un Skype para la empresa a los equipos de proyecto de actualización.
 

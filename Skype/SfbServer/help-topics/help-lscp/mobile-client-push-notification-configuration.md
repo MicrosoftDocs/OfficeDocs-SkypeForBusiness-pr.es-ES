@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 description: Para configurar las notificaciones de inserción de Microsoft y las notificaciones de inserción de Apple, debe crear una directiva para definir los tipos de notificaciones de inserción que requieren.
-ms.openlocfilehash: 1e3c132fe030bd238fbb01af6fa53a1fce2657d7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4b0da70e5d66f31ed1c912efcdd7a13660c396f7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975945"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371479"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>Cliente móvil: Configuración de notificación de inserción
  
@@ -34,14 +34,14 @@ Hay dos selecciones están disponibles para la creación de directivas y de edic
     
 2. **Editar**: seleccione una directiva y haga clic en Editar para seleccionar una acción de una lista desplegable. Sólo puede editar sitios que ya ha creado o editar la directiva Global:
     
-  - **Mostrar detalles …**: muestra información acerca de la directiva seleccionada actualmente. Podrá realizar cambios en la directiva existente.
+   - **Mostrar detalles …**: muestra información acerca de la directiva seleccionada actualmente. Podrá realizar cambios en la directiva existente.
     
-  - **Seleccionar todo**: si tiene un número de directivas y necesita seleccionar todas las directivas, haga clic en Seleccionar todo
+   - **Seleccionar todo**: si tiene un número de directivas y necesita seleccionar todas las directivas, haga clic en Seleccionar todo
     
-  - **Eliminar**: se quita la directiva seleccionada. En **Seleccionar todo** y **Eliminar** quitará todas las directivas
+   - **Eliminar**: se quita la directiva seleccionada. En **Seleccionar todo** y **Eliminar** quitará todas las directivas
     
-    > [!NOTE]
-    > No se puede eliminar la directiva **Global** predeterminada. Si intenta eliminarlo, se le notificará que se ha devuelto la directiva Global para los valores predeterminados (es decir, se borran todas las opciones), pero no se puede quitar la directiva.
+     > [!NOTE]
+     > No se puede eliminar la directiva **Global** predeterminada. Si intenta eliminarlo, se le notificará que se ha devuelto la directiva Global para los valores predeterminados (es decir, se borran todas las opciones), pero no se puede quitar la directiva.
   
 Crear una nueva directiva o editar una directiva existente está asociado a dos acciones:
   

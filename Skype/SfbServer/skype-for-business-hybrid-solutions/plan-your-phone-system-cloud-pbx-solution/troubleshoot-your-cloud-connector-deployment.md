@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Solución de problemas de la implementación de nube conector Edition.
-ms.openlocfilehash: 5d34cc78c7afa9a0d4e459e87d885c82b437bae0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5dbb046680824f2af72688844914db0096e2ded1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882291"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371316"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Solución de problemas con la implementación de Cloud Connector
  
@@ -122,17 +122,17 @@ A continuación se muestran soluciones para problemas habituales:
     
 1. En el servidor host, inicie una consola de PowerShell como administrador y después ejecute lo siguiente:
     
-  ```
-  Enter-CcUpdate
-  ```
+   ```
+   Enter-CcUpdate
+   ```
 
 2. Compruebe si existen actualizaciones e instale las que estén disponibles.
     
 3. En la consola de PowerShell, ejecute el siguiente cmdlet:
     
-  ```
-  Exit-CcUpdate
-  ```
+   ```
+   Exit-CcUpdate
+   ```
 
 - 
     
@@ -177,11 +177,11 @@ A continuación se muestran soluciones para problemas habituales:
   ```
 
     
--    **Problema: El cmdlet Get-CcRunningVersion devuelve un valor vacío si no hay un dispositivo implementado que se ejecutan en el host.**
+- **Problema: El cmdlet Get-CcRunningVersion devuelve un valor vacío si no hay un dispositivo implementado que se ejecutan en el host.**
     
-    **Resolución:** esto puede producirse cuando se actualiza de 1.3.4 o 1.3.8 a 1.4.1. Después de instalar la versión 1.4.1 con .msi, debe ejecutar `Register-CcAppliance` antes de ejecutar cualquier otro cmdlet. `Register-CcAppliance` migrará el archivo module.ini de %perfilusuario%\CloudConnector a %ProgramData%\CloudConnector. Si no se hizo esto, se creará un nuevo module.ini en la carpeta %ProgramData%\CloudConnector y se reemplazará la información de la versión de copia de seguridad/en ejecución para 1.3.4 o 1.3.8.
+  **Resolución:** esto puede producirse cuando se actualiza de 1.3.4 o 1.3.8 a 1.4.1. Después de instalar la versión 1.4.1 con .msi, debe ejecutar `Register-CcAppliance` antes de ejecutar cualquier otro cmdlet. `Register-CcAppliance` migrará el archivo module.ini de %perfilusuario%\CloudConnector a %ProgramData%\CloudConnector. Si no se hizo esto, se creará un nuevo module.ini en la carpeta %ProgramData%\CloudConnector y se reemplazará la información de la versión de copia de seguridad/en ejecución para 1.3.4 o 1.3.8.
     
-    Compare los archivos module.ini files en la carpeta %perfilusuario%\CloudConnector y %ProgramData%\CloudConnector. Si hay diferencias, elimine el archivo module.ini en %ProgramData%\CloudConnector y volver a ejecutar `Register-CcAppliance`. También puede modificar el archivo manualmente a la ejecución correcta y la versión de copia de seguridad.
+  Compare los archivos module.ini files en la carpeta %perfilusuario%\CloudConnector y %ProgramData%\CloudConnector. Si hay diferencias, elimine el archivo module.ini en %ProgramData%\CloudConnector y volver a ejecutar `Register-CcAppliance`. También puede modificar el archivo manualmente a la ejecución correcta y la versión de copia de seguridad.
     
 - **Problema: Después de ejecutar el cmdlet CcVersion de modificador para cambiar a una versión anterior que es diferente de la versión actual de secuencia de comandos, no hay ninguna compatibilidad de alta disponibilidad para esta versión anterior.**
     
@@ -230,37 +230,37 @@ A continuación se muestran soluciones para problemas habituales:
     
     Microsoft recomienda que realice estos pasos durante las horas que no sean de máximo uso.
     
-  - En el primer dispositivo, ejecute el cmdlet Remove-CcCertificationAuthorityFile para limpiar la entidad de certificación en los archivos de copia de seguridad la \<SiteRoot\> Active directory.
+   - En el primer dispositivo, ejecute el cmdlet Remove-CcCertificationAuthorityFile para limpiar la entidad de certificación en los archivos de copia de seguridad la \<SiteRoot\> Active directory.
     
-  - Ejecute el cmdlet de entrar CcUpdate para purgar servicios y coloque cada dispositivo en el modo de mantenimiento.
+   - Ejecute el cmdlet de entrar CcUpdate para purgar servicios y coloque cada dispositivo en el modo de mantenimiento.
     
-  - Ejecute los siguientes cmdlets para restablecer y crear nuevos certificados de la entidad de certificación y todos los certificados internos del servidor:
+   - Ejecute los siguientes cmdlets para restablecer y crear nuevos certificados de la entidad de certificación y todos los certificados internos del servidor:
     
-    Para las versiones en la nube conector antes de 2.0:
+     Para las versiones en la nube conector antes de 2.0:
     
-    ```
-    Reset-CcCACertificate
-    Renew-CcServerCertificate
-    Remove-CcLegacyServerCertificate 
-    ```
+     ```
+     Reset-CcCACertificate
+     Renew-CcServerCertificate
+     Remove-CcLegacyServerCertificate 
+     ```
 
-    O bien, para la versión de conector en la nube 2.0 y versiones posterior:
+     O bien, para la versión de conector en la nube 2.0 y versiones posterior:
     
-    ```
-    Reset-CcCACertificate
-    Update-CcServerCertificate
-    Remove-CcLegacyServerCertificate 
-    ```
+     ```
+     Reset-CcCACertificate
+     Update-CcServerCertificate
+     Remove-CcLegacyServerCertificate 
+     ```
 
-  - En el primer dispositivo, ejecute el siguiente cmdlet para realizar una copia de seguridad de los archivos de la entidad emisora de certificados para la \<SiteRoot\> carpeta. Más adelante, en todos los otros dispositivos en el mismo sitio, el cmdlet Reset-CcCACertificate consumirá automáticamente los archivos de copia de seguridad de la entidad emisora de certificados y dispositivos, usarán el mismo certificado raíz.
+   - En el primer dispositivo, ejecute el siguiente cmdlet para realizar una copia de seguridad de los archivos de la entidad emisora de certificados para la \<SiteRoot\> carpeta. Más adelante, en todos los otros dispositivos en el mismo sitio, el cmdlet Reset-CcCACertificate consumirá automáticamente los archivos de copia de seguridad de la entidad emisora de certificados y dispositivos, usarán el mismo certificado raíz.
     
-    ```
-    Backup-CcCertificationAuthority
-    ```
+     ```
+     Backup-CcCertificationAuthority
+     ```
 
-  - Ejecute el cmdlet de Exit CcUpdate para iniciar servicios y salir del modo de mantenimiento. 
+   - Ejecute el cmdlet de Exit CcUpdate para iniciar servicios y salir del modo de mantenimiento. 
     
-  - Si se utiliza TLS entre la puerta de enlace y el servidor de mediación, ejecute el cmdlet Export-CcRootCertificate desde cualquier dispositivo en el sitio y, a continuación, instale el certificado exportado a las puertas de enlace RTC. 
+   - Si se utiliza TLS entre la puerta de enlace y el servidor de mediación, ejecute el cmdlet Export-CcRootCertificate desde cualquier dispositivo en el sitio y, a continuación, instale el certificado exportado a las puertas de enlace RTC. 
     
 - **Problema: Recibe el mensaje de error siguiente en el registro de servicio de administración del conector en la nube, "C:\Program Files\Skype para profesionales en la nube conector Edition\ManagementService\CceManagementService.log": CceService Error: 0: excepción inesperada cuando informar del estado a online: System.Management.Automation.CmdletInvocationException: error de inicio de sesión para el usuario \<Global Administrador de inquilinos\>. Cree un nuevo objeto de credencial, asegurándose de que se han utilizado el nombre de usuario correcto y la contraseña. ---\>**
     
@@ -276,43 +276,43 @@ A continuación se muestran soluciones para problemas habituales:
     
     **Si ejecuta la versión 1.4.2 de Cloud Connector,** vuelva a generar todas las contraseñas de Cloud Connector mediante estos pasos:
     
-    1. Reinicie el servidor host.
+  1. Reinicie el servidor host.
     
-    2. Elimine el archivo siguiente: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ".
+  2. Elimine el archivo siguiente: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ".
     
-    3. Iniciar una consola de PowerShell como administrador y, a continuación, ejecute "Register-CcAppliance-Local" para volver a escribir las contraseñas que sigue a la descripción. Escriba las mismas contraseñas que ha especificado antes de la implementación del conector en la nube.
+  3. Iniciar una consola de PowerShell como administrador y, a continuación, ejecute "Register-CcAppliance-Local" para volver a escribir las contraseñas que sigue a la descripción. Escriba las mismas contraseñas que ha especificado antes de la implementación del conector en la nube.
     
-    **Si está ejecutando en la nube conector versión 2.0 o posterior,** vuelva a generar todas las contraseñas de conector en la nube, siga estos pasos:
+     **Si está ejecutando en la nube conector versión 2.0 o posterior,** vuelva a generar todas las contraseñas de conector en la nube, siga estos pasos:
     
-    1. Reinicie el servidor host.
+  4. Reinicie el servidor host.
     
-    2. Elimine el archivo siguiente: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ".
+  5. Elimine el archivo siguiente: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ".
     
-    3. Iniciar una consola de PowerShell como administrador y, a continuación, ejecute "Register-CcAppliance-Local" para volver a escribir las contraseñas que sigue a la descripción. 
+  6. Iniciar una consola de PowerShell como administrador y, a continuación, ejecute "Register-CcAppliance-Local" para volver a escribir las contraseñas que sigue a la descripción. 
     
-    Si el archivo de contraseñas almacenadas en caché se generó con la versión 1.4.2 de Cloud Connector, use la contraseña de VMAdmin para la contraseña de CceService cuando se le solicite. Introduzca la misma contraseña que usó antes para la implementación de Cloud Connector de todas las otras cuentas.
+     Si el archivo de contraseñas almacenadas en caché se generó con la versión 1.4.2 de Cloud Connector, use la contraseña de VMAdmin para la contraseña de CceService cuando se le solicite. Introduzca la misma contraseña que usó antes para la implementación de Cloud Connector de todas las otras cuentas.
     
-    Si el archivo de contraseñas almacenadas en caché se generó con la versión 1.4.2 de Cloud Connector y las contraseñas de DomainAdmin y VMAdmin son diferentes, debe realizar los siguientes pasos:
+     Si el archivo de contraseñas almacenadas en caché se generó con la versión 1.4.2 de Cloud Connector y las contraseñas de DomainAdmin y VMAdmin son diferentes, debe realizar los siguientes pasos:
     
-    1. Ejecute Set-CcCredential -AccountType DomainAdmin como sigue:
+  7. Ejecute Set-CcCredential -AccountType DomainAdmin como sigue:
     
-    2. Cuando se soliciten las credenciales de cuenta anteriores, introduzca las credenciales que ha utilizado para la contraseña de CceService.
+  8. Cuando se soliciten las credenciales de cuenta anteriores, introduzca las credenciales que ha utilizado para la contraseña de CceService.
     
-    3. Cuando se soliciten las credenciales de cuenta nuevas, introduzca la contraseña para la contraseña de DomainAdmin que usó antes.
+  9. Cuando se soliciten las credenciales de cuenta nuevas, introduzca la contraseña para la contraseña de DomainAdmin que usó antes.
     
-    Si se ha generado el archivo de contraseña almacenada en caché con el conector de nube versión 2.0 o posterior, de forma predeterminada, VmAdmin y Administrador de dominio usan la misma contraseña como CceService. Si cambia la contraseña del administrador del dominio y VMAdmin, debe realizar los siguientes pasos:
+     Si se ha generado el archivo de contraseña almacenada en caché con el conector de nube versión 2.0 o posterior, de forma predeterminada, VmAdmin y Administrador de dominio usan la misma contraseña como CceService. Si cambia la contraseña del administrador del dominio y VMAdmin, debe realizar los siguientes pasos:
     
-    1. Ejecute Set-CcCredential -AccountType DomainAdmin como sigue:
+  10. Ejecute Set-CcCredential -AccountType DomainAdmin como sigue:
     
-        1. Cuando se soliciten las credenciales de cuenta anteriores, introduzca las credenciales que ha utilizado para la contraseña de CceService.
+       1. Cuando se soliciten las credenciales de cuenta anteriores, introduzca las credenciales que ha utilizado para la contraseña de CceService.
     
-        2. Cuando se soliciten las credenciales de cuenta nuevas, introduzca la contraseña para la contraseña de DomainAdmin que usó antes.
+       2. Cuando se soliciten las credenciales de cuenta nuevas, introduzca la contraseña para la contraseña de DomainAdmin que usó antes.
     
-    2. Ejecute Set-CcCredential -AccountType VmAdmin como sigue:
+  11. Ejecute Set-CcCredential -AccountType VmAdmin como sigue:
     
-        1. Cuando se soliciten las credenciales de cuenta anteriores, introduzca las credenciales que ha utilizado para la contraseña de CceService.
+       1. Cuando se soliciten las credenciales de cuenta anteriores, introduzca las credenciales que ha utilizado para la contraseña de CceService.
     
-        2. Cuando se soliciten las credenciales de cuenta nuevas, introduzca la contraseña para la contraseña de VmAdmin que usó antes.  
+       2. Cuando se soliciten las credenciales de cuenta nuevas, introduzca la contraseña para la contraseña de VmAdmin que usó antes.  
     
 - **Problema: Con la nube conector versión 2.1 y versiones posterior, cuando se ejecuta registrar CcAppliance u otros cmdlets en el dispositivo, recibirá un mensaje de error como: "para cada objeto: la propiedad 'Comunes' no se encuentra en este objeto. Compruebe que existe la propiedad. En C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 char: 14 "**
     
@@ -344,23 +344,40 @@ A continuación se muestran soluciones para problemas habituales:
   Set-CsCceApplianceDeploymentStatus -Identity <Appliance Identity GUID> -Action Deploy -Status Finished
   ```
 
--  **Problema: debe comprobar si existen actualizaciones de Windows e instalarlas manualmente en el servidor host o las máquinas virtuales.**
+- **Problema: debe comprobar si existen actualizaciones de Windows e instalarlas manualmente en el servidor host o las máquinas virtuales.**
     
-    **Resolución:** recomendamos que aproveche las actualizaciones automatizadas del sistema operativo proporcionada por Skype Empresarial Cloud Connector Edition. Después de que se registre un dispositivo para administración en línea y se habilite la actualización automática del sistema operativo, el servidor host y las máquinas virtuales automáticamente comprobarán si existen actualizaciones de Windows y las instalarán de acuerdo con la configuración de la ventana de la hora de actualización del sistema operativo.
+   **Resolución:** recomendamos que aproveche las actualizaciones automatizadas del sistema operativo proporcionada por Skype Empresarial Cloud Connector Edition. Después de que se registre un dispositivo para administración en línea y se habilite la actualización automática del sistema operativo, el servidor host y las máquinas virtuales automáticamente comprobarán si existen actualizaciones de Windows y las instalarán de acuerdo con la configuración de la ventana de la hora de actualización del sistema operativo.
     
-    Si tiene que comprobar si existen actualizaciones de Windows e instalarlas manualmente, siga los pasos provistos en esta sección que se apliquen a su tipo de implementación. Debe planificar y actualizar tanto el servidor host como las máquinas virtuales que estén ejecutándose en él al mismo tiempo a fin de minimizar el tiempo de inactividad necesario para las actualizaciones.
+   Si tiene que comprobar si existen actualizaciones de Windows e instalarlas manualmente, siga los pasos provistos en esta sección que se apliquen a su tipo de implementación. Debe planificar y actualizar tanto el servidor host como las máquinas virtuales que estén ejecutándose en él al mismo tiempo a fin de minimizar el tiempo de inactividad necesario para las actualizaciones.
     
-    Si lo prefiere, puede usar un servidor de Windows Server Update Services (WSUS) para proporcionar actualizaciones para los servidores de Cloud Connector. Solo tiene que configurar la actualización de Windows para que **no** se instale automáticamente.
+   Si lo prefiere, puede usar un servidor de Windows Server Update Services (WSUS) para proporcionar actualizaciones para los servidores de Cloud Connector. Solo tiene que configurar la actualización de Windows para que **no** se instale automáticamente.
     
-    Para obtener información sobre cómo actualizar manualmente su implementación de Cloud Connector, consulte la siguiente sección.
+   Para obtener información sobre cómo actualizar manualmente su implementación de Cloud Connector, consulte la siguiente sección.
     
--   **Problema: Al conector de la nube se actualiza a una nueva compilación, cmdlets de conector en la nube no se actualizan.** En ocasiones, esto ocurre si una ventana de PowerShell se deja abierta cuando se produzca la actualización automática.
+- **Problema: Al conector de la nube se actualiza a una nueva compilación, cmdlets de conector en la nube no se actualizan.** En ocasiones, esto ocurre si una ventana de PowerShell se deja abierta cuando se produzca la actualización automática.
     
-    **Resolución:** Para cargar los cmdlets actualizados, puede hacer lo siguiente:
+  **Resolución:** Para cargar los cmdlets actualizados, puede hacer lo siguiente:
     
-     - Cierre de PowerShell en el dispositivo de conector en la nube y, a continuación, vuelva a abrir PowerShell.
+   - Cierre de PowerShell en el dispositivo de conector en la nube y, a continuación, vuelva a abrir PowerShell.
     
      - O bien, puede ejecutar Import-Module CloudConnector-Force. 
+ 
+-   **Problema: "el término 'Stop-CsWindowsService' no se reconoce como el nombre de un cmdlet, función, archivo de secuencia de comandos o programa ejecutable." error al intentar ejecutar el cmdlet CcUpdate de ENTRAR.**
+
+    **Resolución:** Elimine el archivo de HOME\AppData\Local\Microsoft\Windows\PowerShell\ModuleAnalysisCache $.
+PowerShell crea este archivo como una memoria caché de los cmdlets de los módulos que se encuentre por lo que no es necesario que volver a analizar cada vez como de todos los módulos que puedan hacer cosas realmente lento. Probablemente, hubo algunos daños en el archivo que proporcionan resultados engañosos para PowerShell cuando estaba leyendo de la memoria caché.
+
+-   **Problema: "Import-Module CloudConnector" genera error "Import-Module: el módulo especificado"CloudConnector"no se cargó porque se encontró ningún archivo de módulo válido en cualquier directorio module"**
+
+    **Solución:**
+    - Validar que en realidad el módulo CloudConnector existe en c:\Program Files\WindowsPowerShell\Modules
+    
+    - Después de validar ese módulo CloudConnector existe en esta ubicación, se puede cambiar la variable de entorno PSModulePath almacenar la ruta de acceso a las ubicaciones de los módulos:
+    
+     a. Cambio temporal: inicio Powershell como administrador y ejecute el comando siguiente: $env: PSModulePath = $env: PSModulePath + "; C:\Program Files\WindowsPowerShell\Modules\"
+        
+     b. Para cambiar persistente, inicie PowerShell como administrador y ejecutar los siguientes comandos, uno a uno: $CurrentValue = [Environment]:: GetEnvironmentVariable("PSModulePath", "Machine") SetEnvironmentVariable("PSModulePath", $CurrentValue + "; C:\Program Files\WindowsPowerShell\Modules","Equipo")
+
     
 ## <a name="install-windows-updates-manually"></a>Instalar manualmente las actualizaciones de Windows
 
@@ -376,9 +393,9 @@ Para comprobar manualmente si existen actualizaciones, conecte cada servidor hos
     
 2. Quite la instancia de HA con el siguiente cmdlet:
     
-  ```
-  Enter-CcUpdate
-  ```
+   ```
+   Enter-CcUpdate
+   ```
 
 3. 
     
@@ -386,9 +403,9 @@ Para comprobar manualmente si existen actualizaciones, conecte cada servidor hos
     
 4. Vuelva a configurar la instancia en HA con el siguiente cmdlet:
     
-  ```
-  Exit-CcUpdate
-  ```
+   ```
+   Exit-CcUpdate
+   ```
 
 Para implementaciones de varios sitios, siga los pasos destinados a un único sitio para cada sitio de la implementación aplicando las actualizaciones de a uno por vez.
   

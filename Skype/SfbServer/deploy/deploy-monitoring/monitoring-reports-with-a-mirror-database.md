@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 'Resumen: Obtenga información sobre cómo asociar los informes de supervisión con una base de datos reflejada usado por Skype para Business Server.'
-ms.openlocfilehash: e5d9072c2315a2d82f2f41559167a488747fa205
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fdca07874192a772a99145bf3ca2042995bb7aee
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21000774"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374368"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Asocie los informes de supervisión con una base de datos reflejada en Skype para Business Server 
  
@@ -36,9 +36,9 @@ Para que los informes de supervisión pasen automáticamente a la base datos ref
     
    - El nombre de la instancia de la base de datos en la que están instalados los informes de supervisión (por ejemplo, **archinst**).
     
-    Por ejemplo, si se ha instalado SQL Server Reporting Services en el equipo atl-sql-001.litwareinc.com y los informes de supervisión utilizan la instancia de base de datos archinst, la dirección URL de la página de inicio será:
+     Por ejemplo, si se ha instalado SQL Server Reporting Services en el equipo atl-sql-001.litwareinc.com y los informes de supervisión utilizan la instancia de base de datos archinst, la dirección URL de la página de inicio será:
     
-    **http://atl-sql-001.litwareinc.com/Reports_archinst**
+     **http://atl-sql-001.litwareinc.com/Reports_archinst**
     
 2. Cuando haya obtenido acceso a la página de inicio de Reporting Services, haga clic en **ServerReports** y en **Reports_Content**. Que le llevará a la página **Reports_Content** para la Skype para informes de supervisión del servidor de negocio.
     

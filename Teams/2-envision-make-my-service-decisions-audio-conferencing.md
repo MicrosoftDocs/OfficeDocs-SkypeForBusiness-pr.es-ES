@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7269c38957df9d43295f6568a2369c34e94da93
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 8877819704b438d26f981fb6816c56eb23ef9521
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013076"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371345"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 
@@ -63,6 +63,7 @@ Antes de planear la implementación de conferencias de Audio en los equipos, deb
 Después de confirmar que la organización tiene derecho a obtener el servicio de conferencia de Audio, compilar la lista de ubicaciones de usuario o las oficinas donde implementará el servicio de conferencia de Audio, basada en la lista de disponibles países y regiones.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>Decida qué oficinas o ubicaciones de usuario implementarán el servicio de Audioconferencia.</li></ul>|
@@ -70,13 +71,14 @@ Después de confirmar que la organización tiene derecho a obtener el servicio d
 
 > [!TIP]
 > A continuación es un ejemplo de una plantilla de lista de habilitación de sitio de conferencia de Audio:
->|Oficina   |Ubicación |Servicio de conferencia RTC  |
->|---------|---------|---------|
->|One Epping Road|Australia|Audioconferencia|
->|100 Cyberport Road|RAE de Hong Kong|Conferencia RTC antigua|
->|One Marina Boulevard|Singapur|Audioconferencia|
->|32 London Bridge Street|Reino Unido|Audioconferencia|
->|39 quai du Président Roosevelt|Francia|Audioconferencia|
+> 
+> |Oficina   |Ubicación |Servicio de conferencia RTC  |
+> |---------|---------|---------|
+> |One Epping Road|Australia|Audioconferencia|
+> |100 Cyberport Road|RAE de Hong Kong|Conferencia RTC antigua|
+> |One Marina Boulevard|Singapur|Audioconferencia|
+> |32 London Bridge Street|Reino Unido|Audioconferencia|
+> |39 quai du Président Roosevelt|Francia|Audioconferencia|
 
 <!--ENDOFSECTION-->
 
@@ -98,6 +100,7 @@ La primera consideración al implementar Communications créditos consiste en de
 Encontrará más información acerca de las comunicaciones créditos [aquí](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>Si su organización aún no ha adquirido la conferencia de Audio necesarios licencias, decidir si las licencias de conferencias de Audio adquirirá pasando de suscripciones de Office 365 existentes o mediante la adquisición de licencias de complemento de conferencias de Audio.</li><li>Decidir si son necesarios para la implementación de conferencias de Audio créditos Communications. En tal caso, decida la cantidad inicial de fondos que se va a comprar. Cuando sea necesario, decida la cantidad para el umbral y la cantidad de autorecarga.</li></ul>|
@@ -105,29 +108,26 @@ Encontrará más información acerca de las comunicaciones créditos [aquí](htt
 
 > [!TIP]
 > Puede documentar la lista de asignación de licencia para los usuarios de conferencia de Audio mediante el siguiente ejemplo.
->|Usuario  |Oficina  |Licencia de Office 365  |
->|---------|---------|---------|
->|Adele Vance|One Epping Road|Office 365 E5|
->|Alex Wilber|One Epping Road|Office 365 E3, complemento de Audioconferencia|
->|Ben Walters|One Epping Road|Office 365 E3, complemento de Audioconferencia|
->|Christie Cline|One Marina Boulevard|Office 365 E3, complemento de Audioconferencia|
->|Debra Berger|One Marina Boulevard|Office 365 E5|
->|Lee Gu|One Marina Boulevard|Office 365 E5|
->|Emily Braun|32 London Bridge Street|Office 365 E5|
->|Lidia Holloway|32 London Bridge Street|Office 365 E5|
->|Louis Lahr|32 London Bridge Street|Office 365 E5|
->|Marcel Beauchamp|39 quai du Président Roosevelt|Office 365 E3, complemento de Audioconferencia|
->|Rachelle Cormier|39 quai du Président Roosevelt|Office 365 E5|
->|Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, complemento de Audioconferencia|
+> 
+> |Usuario  |Oficina  |Licencia de Office 365  |
+> |---------|---------|---------|
+> |Adele Vance|One Epping Road|Office 365 E5|
+> |Alex Wilber|One Epping Road|Office 365 E3, complemento de Audioconferencia|
+> |Ben Walters|One Epping Road|Office 365 E3, complemento de Audioconferencia|
+> |Christie Cline|One Marina Boulevard|Office 365 E3, complemento de Audioconferencia|
+> |Debra Berger|One Marina Boulevard|Office 365 E5|
+> |Lee Gu|One Marina Boulevard|Office 365 E5|
+> |Emily Braun|32 London Bridge Street|Office 365 E5|
+> |Lidia Holloway|32 London Bridge Street|Office 365 E5|
+> |Louis Lahr|32 London Bridge Street|Office 365 E5|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Office 365 E3, complemento de Audioconferencia|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Office 365 E5|
+> |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, complemento de Audioconferencia|
 
 <br>
-> [!TIP]
-> Los números de planificación de Créditos de comunicaciones se pueden documentar del modo siguiente:
->|         |         |
->|---------|---------|
->|Cantidad inicial|1000 $|
->|Cantidad de umbral|400 $|
->|Cantidad de recarga automática|Por añadir|
+&gt; [!TIP]
+&gt;Se puede documentar su créditos Communications planeación números como los siguientes: &gt;|         |         | &gt;|---------|---------|
+&gt;| Cantidad inicial | 1.000$ | &gt;| Cantidad de desencadenador | $ 400 | &gt;| Cantidad de Auto-recarga | TBA |
 
 <!--ENDOFSECTION-->
 
@@ -149,7 +149,7 @@ El servicio de Audioconferencia en Office 365 incluye:
 Si debe transferir números de teléfono de puente de conferencia existente para el servicio de conferencia de Audio, suponiendo que cumplen los requisitos específicos de país, puede transferir estos números de teléfono de puente de conferencia existente a Microsoft.
 
 > [!NOTE]
-La complejidad de la transferencia de los números de teléfono a Microsoft en gran medida varía en función de país o región, compañía, número de circuitos implicados y muchos otros factores determinantes. Trabajar con su proveedor actual para investigar ¿durante cuánto tiempo se trata llevaría a cabo para ayudar a garantizar que iniciar el proceso de tiempo suficiente para satisfacer las escalas de tiempo.
+> La complejidad de la transferencia de los números de teléfono a Microsoft en gran medida varía en función de país o región, compañía, número de circuitos implicados y muchos otros factores determinantes. Trabajar con su proveedor actual para investigar ¿durante cuánto tiempo se trata llevaría a cabo para ayudar a garantizar que iniciar el proceso de tiempo suficiente para satisfacer las escalas de tiempo.
 
 Para obtener más información acerca de los números de teléfono de puente de conferencia, revise los siguientes artículos:
 
@@ -162,6 +162,7 @@ Para obtener más información acerca de los números de teléfono de puente de 
 -   [Transferir números de teléfono a Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>Decidir si la organización necesita números de teléfono de puente de conferencia dedicada.</li><li>Decidir cómo se obtendrán los números de teléfono de puente de conferencia dedicada para oficinas o ubicaciones de usuario en el ámbito de la implementación de conferencias de Audio (que es, obtener de Microsoft o transferencia de números de teléfono existentes).</li><li>Si decide obtenerlas de Microsoft, decidir el método a usar (del formulario de envío o automatizada) para las ubicaciones de usuario o las oficinas en el ámbito de la implementación de conferencias de Audio.</li><li>Decidir las preferencias de idioma para configurar para cada número de teléfono de puente de conferencia dedicada.</li><li>Decidir el número de teléfono de puente de conferencia de inquilino de forma predeterminada.</li></ul>|
@@ -171,12 +172,13 @@ A continuación es un ejemplo de una plantilla que puede utilizar para capturar 
 
 > [!TIP]
 > A continuación se muestra un ejemplo de una plantilla para capturar los detalles de los puentes de conferencia:
->|Oficina   |Adquisición de número de puente y tipo de puente |Número de puente  |Idioma de puente|
->|---------|---------|---------|---------|
->|One Epping Road|Adquirir nuevo, dedicado|Por añadir|Inglés (Australia)|
->|One Marina Boulevard|Adquirir nuevo, compartido|Por añadir|Inglés (Estados Unidos), chino (simplificado, RPC)|
->|32 London Bridge Street|Puerto existente, dedicado|+44 20 7946 0001|Inglés (Reino Unido)|
->|39 quai du Président Roosevelt|Adquirir nuevo, dedicado|Por añadir|Francés (Francia), inglés (Reino Unido)|
+> 
+> |Oficina   |Adquisición de número de puente y tipo de puente |Número de puente  |Idioma de puente|
+> |---------|---------|---------|---------|
+> |One Epping Road|Adquirir nuevo, dedicado|Por añadir|Inglés (Australia)|
+> |One Marina Boulevard|Adquirir nuevo, compartido|Por añadir|Inglés (Estados Unidos), chino (simplificado, RPC)|
+> |32 London Bridge Street|Puerto existente, dedicado|+44 20 7946 0001|Inglés (Reino Unido)|
+> |39 quai du Président Roosevelt|Adquirir nuevo, dedicado|Por añadir|Francés (Francia), inglés (Reino Unido)|
 
 <!--ENDOFSECTION-->
 
@@ -212,6 +214,7 @@ También puede aplicar configuraciones adicionales para cada usuario controlar e
 Con estos controles, puede decidir si los organizadores de reuniones pueden proporcionar números de teléfono de puente de conferencia gratuito para las reuniones organizadas por ellos, y si los participantes pueden marcar un número de las reuniones que organizan. El nivel de control de acceso telefónico de salida abarca desde completamente evitar llamadas salientes, para que sólo permite hacer llamadas a números nacionales, para lo que permite hacer llamadas a números nacionales e internacionales.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>Decidir si la organización requiere las notificaciones de entrada y salida, y, si lo hace, el tipo de notificación que se va a implementar (tonos, nombre grabado o número de teléfono).</li><li>Decidir la longitud de PIN de conferencia de Audio que cumpla los requisitos de seguridad de la organización.</li><li>Decidir si su organización desea tomar el control de las comunicaciones de usuario relacionados con el servicio de conferencia de Audio.</li><li>Decida qué números de teléfono para puentes de conferencia se asignarán a cada organizador de reuniones.</li><li>Decidir si es necesario usar números de teléfono de puente de conferencia gratuito para sus reuniones algunos los organizadores de reuniones.</li><li>Decidir si algunos los organizadores de reuniones es necesario permitir que los autores de llamadas sin autenticar iniciar una reunión.</li><li>Decidir si algunos los organizadores de reuniones necesitan desconexión de conferencias esté controlado.</li></ul>|
@@ -219,31 +222,20 @@ Con estos controles, puede decidir si los organizadores de reuniones pueden prop
 
 > [!TIP]
 > Como en el ejemplo siguiente se puede documentar la configuración de puente de conferencia.
->|         |         |
->|---------|---------|
->|Habilitar las notificaciones de entrada y salidas de las reuniones|Habilitado|
->|Tipo de anuncio de entrada/salida|Tonos|
->|Pedir a los autores de llamada que graben su nombre antes de unirse a la reunión|Deshabilitado|
->|Longitud de PIN|5|
->|Enviar correos automáticamente a los usuarios si cambia su configuración de acceso telefónico|Deshabilitado|
+> 
+> |         |         |
+> |---------|---------|
+> |Habilitar las notificaciones de entrada y salidas de las reuniones|Habilitado|
+> |Tipo de anuncio de entrada/salida|Tonos|
+> |Pedir a los autores de llamada que graben su nombre antes de unirse a la reunión|Deshabilitado|
+> |Longitud de PIN|5|
+> |Enviar correos automáticamente a los usuarios si cambia su configuración de acceso telefónico|Deshabilitado|
 
 <br>
-> [!TIP]
-> Puede documentar la lista de asignación de configuración de puente de conferencia para los usuarios de conferencia de Audio mediante el siguiente ejemplo.
->|Usuario  |Oficina  |Número de pago predeterminado  |Número gratuito predeterminado  |Permitir número gratuito  |Los autores de llamadas sin autenticar no pasan por la sala de espera  |Llamadas desde la conferencia  |
->|---------|---------|---------|---------|---------|---------|---------|
->|Adele Vance|One Epping Road|Por añadir|Por añadir|Sí|Habilitado|Internacionales y nacionales|
->|Alex Wilber|One Epping Road|Por añadir|Por añadir|No|Deshabilitado|No se permiten|
->|Ben Walters|One Epping Road|Por añadir|Por añadir|No|Deshabilitado|No se permiten|
->|Christie Cline|One Marina Boulevard|Por añadir|Por añadir|Sí|Deshabilitado|Nacionales|
->|Debra Berger|One Marina Boulevard|Por añadir|Por añadir|Sí|Habilitado|Nacionales|
->|Lee Gu|One Marina Boulevard|Por añadir|Por añadir|Sí|Habilitado|Nacionales|
->|Emily Braun|32 London Bridge Street|+44 20 7946 0001|Por añadir|Sí|Habilitado|No se permiten|
->|Lidia Holloway|32 London Bridge Street|+44 20 7946 0001|Por añadir|Sí|Deshabilitado|No se permiten|
->|Louis Lahr|32 London Bridge Street|+44 20 7946 0001|Por añadir|Sí|Deshabilitado|No se permiten|
->|Marcel Beauchamp|39 quai du Président Roosevelt|Por añadir|Por añadir|No|Deshabilitado|Nacionales|
->|Rachelle Cormier|39 quai du Président Roosevelt|Por añadir|Por añadir|Sí|Habilitado|Internacionales y nacionales|
->|Isabell Potvin|39 quai du Président Roosevelt|Por añadir|Por añadir|No|Deshabilitado|Nacionales|
+&gt; [!TIP]
+&gt;Puede documentar la lista de asignación de configuración de puente de conferencia para los usuarios de conferencia de Audio mediante el siguiente ejemplo.
+&gt;| Usuario | Office | Número de teléfono de pago predeterminado | Valor predeterminado de número de teléfono gratuito | Permitir gratuito | Sala de espera el desvío de llamadas sin autenticar | Para hacer llamadas de conferencia | &gt;|---------|---------|---------|---------|---------|---------|---------|
+&gt;| Adele Saavedra | Un viaje de Epping | TBA | TBA | Sí | Habilitado | Internacionales y nacionales | &gt;| Alex Wilber | Un viaje de Epping | TBA | TBA | No | Deshabilitado | No se permiten | &gt;| Ben Walters | Un viaje de Epping | TBA | TBA | No | Deshabilitado | No se permiten | &gt;| Cristina chazar | Uno Marina Boulevard | TBA | TBA | Sí | Deshabilitado | Nacionales | &gt;| Debra Berger | Uno Marina Boulevard | TBA | TBA | Sí | Habilitado | Nacionales | &gt;| Lee Gu | Uno Marina Boulevard | TBA | TBA | Sí | Habilitado | Nacionales | &gt;| Emily Braun | calle de puente de Londres 32 | + 44 20 7946 0001 | TBA | Sí | Habilitado | No se permiten | &gt;| lidia Holloway | calle de puente de Londres 32 | + 44 20 7946 0001 | TBA | Sí | Deshabilitado | No se permiten | &gt;| Louis Lahr | calle de puente de Londres 32 | + 44 20 7946 0001 | TBA | Sí | Deshabilitado | No se permiten | &gt;| Marcel Beauchamp | 39 quai du presidente Roosevelt | TBA | TBA | No | Deshabilitado | Nacionales | &gt;| Rachelle Cormier | 39 quai du presidente Roosevelt | TBA | TBA | Sí | Habilitado | Internacionales y nacionales | &gt;| Isabell Potvin | 39 quai du presidente Roosevelt | TBA | TBA | No | Deshabilitado | Nacionales |
 
 <!--ENDOFSECTION-->
 
@@ -270,6 +262,7 @@ En cuanto a los números de servicio, debe planear cuidadosamente la implementac
 Para obtener más información acerca de la cantidad total de números de teléfono que puede obtener, vea [cuántos números de teléfono puede obtener?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>Decidir las ubicaciones de usuario o las oficinas de donde se obtendrán los nuevos números de teléfono de Microsoft.</li><li>Decidir el tipo de números de teléfono se obtienen de Microsoft.</li></ul>|
@@ -292,6 +285,7 @@ Portabilidad del número de teléfono es un tema complejo y requiere planeación
 -   [Preguntas comunes sobre la transferencia de números de teléfono](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>Decidir las ubicaciones de usuario o las oficinas donde los números de teléfono existentes se transferirá a Microsoft.</li><li>Decidir el tipo de números de teléfono que se transfieran a Microsoft.</li></ul>|
@@ -323,6 +317,7 @@ El plan de marcado efectivos asignado a los usuarios es la combinación del plan
 Para obtener más información acerca de los planes de marcado, consulte [¿Cuáles son los planes de marcado?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>Decidir si la organización requiere planes de marcado personalizado (requisitos empresariales, los requisitos de adopción y así sucesivamente).</li><li>En caso de necesitarlos, decida qué ámbito del plan de marcado de inquilino (inquilino global o usuario de inquilino) se ajusta a los requisitos de los planes de marcado personalizados.</li><li>Si procede, decidir los planes de marcado de inquilinos que va a crear para admitir oficinas o ubicaciones de usuario en el ámbito de la implementación de voz en la nube.</li><li>Si procede, decidir qué usuarios requieren un plan de marcado personalizado y el plan de marcado de inquilinos que se asignará para cada usuario.</li></ul>|
@@ -330,36 +325,24 @@ Para obtener más información acerca de los planes de marcado, consulte [¿Cuá
 
 > [!TIP]
 > Si es aplicable a su proyecto, puede usar la plantilla siguiente para documentar las configuraciones de plan de marcado de inquilinos.
->|Nombre de plan de marcado de inquilino<br>_Descripción_  |Nombre de reglas de normalización<br>_Descripción_  |Patrón<br>Traducción<br>IsInternalExtension  |
->|---------|---------|---------|
->|**AU-NSW-NorthRyde-OER**<br>_Plan de marcado de One Epping Road North Ryde, NSW, AU_|**AU-NSW-NorthRyde-OER-Internal**<br>_Número interno (x7000 - x7999) para oficina de One Epping Road, North Ryde, NSW, Australia_|^(7\d{3})$<br>+6125550$1<br>True|
->||**AU-NSW-Local**<br>_Normalización de número local para NSW, Australia_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
->||**AU-TollFree**<br>_Normalización de número gratuito para Australia_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
->||**AU-Service**<br>_Normalización de número de servicio para Australia_|^ (000\|1 [0125] \d{1,8}) $<br>1 $<br>False|
->|**SG-Singapore-OMB**<br>_Plan de marcado de OMB Singapore, SG_|**SG-OMB-Internal**<br>_Número interno (x8000 â €"x 8999) para office OMB, Singapur_|^(8\d{3})$<br>+656888$1<br>True|
->||**SG-TollFree**<br>_Normalización de número gratuito para Singapur_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
->||**SG-Service**<br>_Normalización de número de servicio para Singapur_|^ (1\d{3,4}\|9\d{2}) $<br>1 $<br>False|
->|**FR-Paris-Issy-39qdPR**<br>_Plan de marcado de 39 quai du Président Roosevelt Issy-les-Moulineaux, Francia_|**FR-39qdPR-Internal**<br>_Número interno (x7000 â €"x 7999) para 39 quai du presidente Roosevelt office, Issy-les-Moulineaux, Francia_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_Normalización de número gratuito para Francia_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
->||**FR-Service**<br>_Normalización de número de servicio para Francia_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>1 $<br>False|
+> 
+> |Nombre de plan de marcado de inquilino<br>_Descripción_  |Nombre de reglas de normalización<br>_Descripción_  |Patrón<br>Traducción<br>IsInternalExtension  |
+> |---------|---------|---------|
+> |**AU-NSW-NorthRyde-OER**<br>_Plan de marcado de One Epping Road North Ryde, NSW, AU_|**AU-NSW-NorthRyde-OER-Internal**<br>_Número interno (x7000 - x7999) para oficina de One Epping Road, North Ryde, NSW, Australia_|^(7\d{3})$<br>+6125550$1<br>True|
+> ||**AU-NSW-Local**<br>_Normalización de número local para NSW, Australia_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
+> ||**AU-TollFree**<br>_Normalización de número gratuito para Australia_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
+> ||**AU-Service**<br>_Normalización de número de servicio para Australia_|^ (000\|1 [0125] \d{1,8}) $<br>1 $<br>False|
+> |**SG-Singapore-OMB**<br>_Plan de marcado de OMB Singapore, SG_|**SG-OMB-Internal**<br>_Número interno (x8000 â €"x 8999) para office OMB, Singapur_|^(8\d{3})$<br>+656888$1<br>True|
+> ||**SG-TollFree**<br>_Normalización de número gratuito para Singapur_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
+> ||**SG-Service**<br>_Normalización de número de servicio para Singapur_|^ (1\d{3,4}\|9\d{2}) $<br>1 $<br>False|
+> |**FR-Paris-Issy-39qdPR**<br>_Plan de marcado de 39 quai du Président Roosevelt Issy-les-Moulineaux, Francia_|**FR-39qdPR-Internal**<br>_Número interno (x7000 â €"x 7999) para 39 quai du presidente Roosevelt office, Issy-les-Moulineaux, Francia_|^(7\d{3})$<br>+3319999$1<br>True|
+> ||**FR-TollFree**<br>_Normalización de número gratuito para Francia_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
+> ||**FR-Service**<br>_Normalización de número de servicio para Francia_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>1 $<br>False|
 
 <br>
-> [!TIP]
-> La plantilla de ejemplo siguiente se puede utilizar para documentar las asignaciones de planes de marcado de su proyecto:
->|Usuario  |Oficina  |Tipo de plan de marcado  |Nombre de plan de marcado  |
->|---------|---------|---------|---------|
->|Adele Vance|One Epping Road|Plan de marcado de inquilino|AU-NSW-NorthRyde-OER|
->|Alex Wilber|One Epping Road|Plan de marcado de inquilino|AU-NSW-NorthRyde-OER|
->|Ben Walters|One Epping Road|Plan de marcado de inquilino|AU-NSW-NorthRyde-OER|
->|Christie Cline|One Marina Boulevard|Plan de marcado de inquilino|SG-Singapore-OMB|
->|Debra Berger|One Marina Boulevard|Plan de marcado de inquilino|SG-Singapore-OMB|
->|Lee Gu|One Marina Boulevard|Plan de marcado de inquilino|SG-Singapore-OMB|
->|Emily Braun|32 London Bridge Street|Plan de marcado de servicio|N/D|
->|Lidia Holloway|32 London Bridge Street|Plan de marcado de servicio|N/D|
->|Louis Lahr|32 London Bridge Street|Plan de marcado de servicio|N/D|
->|Marcel Beauchamp|39 quai du Président Roosevelt|Plan de marcado de inquilino|FR-Paris-Issy-30qdPR|
->|Rachelle Cormier|39 quai du Président Roosevelt|Plan de marcado de inquilino|FR-Paris-Issy-30qdPR|
->|Isabell Potvin|39 quai du Président Roosevelt|Plan de marcado de inquilino|FR-Paris-Issy-30qdPR|
+&gt; [!TIP]
+&gt;La plantilla de ejemplo que aparece a continuación se puede sacar provecho a las asignaciones del plan de marcado de documento para admitir el proyecto: &gt;| Usuario | Office | Tipo de Plan de marcado | Nombre del Plan de marcado | &gt;|---------|---------|---------|---------|
+&gt;| Adele Saavedra | Un viaje de Epping | Plan de marcado de inquilino | AU-NSW-NorthRyde-OER | &gt;| Alex Wilber | Un viaje de Epping | Plan de marcado de inquilino | AU-NSW-NorthRyde-OER | &gt;| Ben Walters | Un viaje de Epping | Plan de marcado de inquilino | AU-NSW-NorthRyde-OER | &gt;| Cristina chazar | Uno Marina Boulevard | Plan de marcado de inquilino | Administrativos-Singapur-OMB | &gt;| Debra Berger | Uno Marina Boulevard | Plan de marcado de inquilino | Administrativos-Singapur-OMB | &gt;| Lee Gu | Uno Marina Boulevard | Plan de marcado de inquilino | Administrativos-Singapur-OMB | &gt;| Emily Braun | calle de puente de Londres 32 | Plan de marcado de servicio | N/A | &gt;| lidia Holloway | calle de puente de Londres 32 | Plan de marcado de servicio | N/A | &gt;| Louis Lahr | calle de puente de Londres 32 | Plan de marcado de servicio | N/A | &gt;| Marcel Beauchamp | 39 quai du presidente Roosevelt | Plan de marcado de inquilino | FR-París-Issy-30qdPR | &gt;| Rachelle Cormier | 39 quai du presidente Roosevelt | Plan de marcado de inquilino | FR-París-Issy-30qdPR | &gt;| Isabell Potvin | 39 quai du presidente Roosevelt | Plan de marcado de inquilino | FR-París-Issy-30qdPR |
 
 <!--ENDOFSECTION-->
 

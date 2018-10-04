@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82063cc595694c2bf60c3f6af6ab550f647c05cd
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 1d79b6e0423ddb94b29a9d82ea1e6d6d1f173cf3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015328"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374445"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 
@@ -51,6 +51,7 @@ Después de confirmar que su organización puede obtener la característica del 
 
 > [!TIP]
 > A continuación es un ejemplo de una lista de habilitación enrutamiento directo del sitio.
+> 
 > | **Oficina**                     | **Ubicación**   | **Servicio del sistema de teléfono** |
 > |--------------------------------|----------------|--------------------------|
 > | One Epping Road                | Australia      | Servicio de RTC antiguo |
@@ -67,17 +68,18 @@ Sistema telefónico requiere que cada usuario en su organización tiene un únic
 
 > [!NOTE]
 > Con el enrutamiento directo, los usuarios pueden seguir utilizando sus propios números de teléfono, proporcionadas por el proveedor de servicio RTC.
-
+> 
 > [!TIP]
 > Puede usar la siguiente plantilla para documentar los detalles de los números de teléfono.
->|Usuario |Número de teléfono |
->|-----|-------------|
->|Emily Braun | + 44 23 4567 8901 |
->|Lidia Holloway | + 44 23 4567 89112 |
->|Louis Lahr | + 44 23 4567 8921 |
->|Marcel Beauchamp | Por añadir |
->|Rachelle Cormier | Por añadir |
->|Isabell Potvin | Por añadir |
+> 
+> |Usuario |Número de teléfono |
+> |-----|-------------|
+> |Emily Braun | + 44 23 4567 8901 |
+> |Lidia Holloway | + 44 23 4567 89112 |
+> |Louis Lahr | + 44 23 4567 8921 |
+> |Marcel Beauchamp | Por añadir |
+> |Rachelle Cormier | Por añadir |
+> |Isabell Potvin | Por añadir |
 
 <!--ENDOFSECTION-->
 
@@ -96,6 +98,7 @@ Para obtener más información acerca de correo de voz en una implementación de
 
 > [!TIP]
 > Detalles de correo de voz del sistema de teléfono para la implementación de planes de llamada se pueden documentar como se muestra en la siguiente tabla.
+> 
 > | **Usuario**         | **Buzón de Exchange** | **¿Habilitar correo de voz?** | **Transcripción de correo de voz** | **Enmascaramiento de contenido ofensivo de transcripción de correo de voz** |
 > |------------------|----------------------|-----------------------|-----------------------------|-----------------------------------------------|
 > | Emily Braun      | En línea               | Sí                   | Habilitado                     | Habilitado                                       |
@@ -104,7 +107,7 @@ Para obtener más información acerca de correo de voz en una implementación de
 > | Marcel Beauchamp | Local          | Sí                   | Deshabilitado                    | N/D                                           |
 > | Rachelle Cormier | En línea               | Sí                   | Deshabilitado                    | N/D                                           |
 > | Isabell Potvin   | Local          | Sí                   | Deshabilitado                    | N/D                                           |
-
+> 
 > [!NOTE]
 > Para usar los equipos y correo de voz, los usuarios deben tener los buzones de Exchange. Para obtener más información, vea [cómo Exchange y los equipos de Microsoft para interactuar](https://docs.microsoft.com/microsoftteams/exchange-teams-interact) .
 
@@ -201,6 +204,7 @@ Para obtener más información, consulte [de señalización SIP: FQDN y los puer
 
 > [!TIP]
 > Utilice la siguiente plantilla en los detalles SBC para la implementación de enrutamiento directo del documento.
+> 
 > | **Nombre DNS de SBC (FQDN)** | **SBC marca y modelo** | **Certificado** | **Ubicación**  | **Dirección IP** | **Puerto de señalización SIP** | **¿NAT?** | **Sesiones simultáneas de Max** | **¿Desvío de medios habilitado?** |
 > |-------------------------|------------------------|-----------------|---------------|----------------|------------------------|----------|-----------------------------|---------------------------|
 > | SBC Europe.contoso.com | TBD | \*. contoso.com | Ámsterdam | TBD | TBD | Sí | TBD | No |
@@ -240,13 +244,14 @@ Puede configurar las rutas de voz con el enrutamiento directo para coexistir con
 
 > [!TIP]
 > Usar la siguiente plantilla para documentar las directivas de voz para la implementación de enrutamiento directo.
+> 
 > | **Uso de RTC** | **Ruta de voz** | **Patrón de números** | **Prioridad** | **SBC** | **Descripción** |
 > |----------------|-----------------|----------------------------|--------------|-----------------------------------|-----------------------------------------------------------------------------------------|
 > | NOSOTROS solo | "Redmond 1" | \^\\+ 1 (425\|206) (\\d.{7})\$ | 1 | sbc1.contoso.com sbc2.contoso.com | Ruta activa para números de llamada +1 425 XXX XX XX o +1 206 XXX XX XX |
 > | NOSOTROS solo | "Redmond 2" | \^\\+ 1 (425\|206) (\\d.{7})\$ | 2 | sbc3.contoso.com sbc4.contoso.com | Ruta de reserva para los números llamados +1 425 XXX XX XX o +1 206 XXX XX XX |
 > | NOSOTROS solo | "Otros + 1" | \^\\+ 1 (\\d.{10})\$ | 3 | sbc5.contoso.com sbc6.contoso.com | Enrutar para números de llamada + 1 XXX XXX XX XX (excepto +1 425 XXX XX XX o +1 206 XXX XX XX) |
 > | International | International | \\d + | 4 | sbc2.contoso.com sbc5.contoso.com | Ruta para cualquier patrón de número |
-
+> 
 > [!IMPORTANT]
 > Los usos de RTC en las directivas de enrutamiento de voz se aplican en orden, y si se encuentra una coincidencia en el primer uso, nunca se evalúan otros usos.
 

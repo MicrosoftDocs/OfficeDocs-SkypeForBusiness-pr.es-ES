@@ -24,28 +24,28 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Esto le ayudará a encontrar información acerca de cómo marcar los números de pago libre en cada país o región. Después de seleccionar el país o región, le llevará a una página específica de país que contiene detalles específicos, las restricciones y límites para la disponibilidad del servicio gratuito donde está disponible un servicio gratuito. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número de teléfono gratuito.
-ms.openlocfilehash: 4838a98deba5c80a4c2f65456db920a78e6c4029
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 171ba2476bc17fcd06f0bc4cc62766c4a2d0d243
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014912"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371213"
 ---
 # <a name="toll-free-dialing-restrictions-in-vietnam"></a>Restricciones de marcado gratuito de Vietnam
 
 [Buscar otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información acerca de las limitaciones de marcado gratuito y restricciones.
 
 
-|**Detalles**|**Descripción**|
-|:-----|:-----|
-|¿Es gratuito de llamada disponibles?  <br/> |Sí  <br/> |
-|Formatos de marcado  <br/> | 120-11-3XX <br/>  122-XXX-XX <br/>  1800 XXXX: formato ya no está disponible <br/> |
-|Código ISO de país o región  <br/> |VN  <br/> |
-|Isla/territorio que abarque  <br/> |No aplicable  <br/> |
-|Isla o territorio que no están cubierta  <br/> |No aplicable  <br/> |
-|Disponibilidad de la línea con cable o fijo  <br/> |Parcial. Ver comentarios.  <br/> |
-|Disponibilidad de red móvil  <br/> |Parcial. Ver comentarios.  <br/> |
-|Comentarios, las restricciones y problemas de acceso  <br/> |El formato de número XX XXX 120 trabajarán desde internacional de telecomunicaciones de Vietnam (VTI) y redes móviles y fijas de VNPT (Vietnam Post y telecomunicaciones). <br/>   <br/>**Nota:** Mobifone &amp; Vinaphone forman parte de VNPT. The number format 122 XXX XX network coverage: Viettel (fixed and mobile). Según el Ministerio Vietnam de telecomunicaciones, la duración máxima de llamada permitido es 2 horas.  |   |
+| **Detalles**                                      | **Descripción**                                                                                                                                                                                                                                                                                                                                                                                           |
+|:-------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ¿Es gratuito de llamada disponibles?  <br/>           | Sí  <br/>                                                                                                                                                                                                                                                                                                                                                                                                |
+| Formatos de marcado  <br/>                         | 120-11-3XX <br/>  122-XXX-XX <br/>  1800 XXXX: formato ya no está disponible <br/>                                                                                                                                                                                                                                                                                                                            |
+| Código ISO de país o región  <br/>                   | VN  <br/>                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Isla/territorio que abarque  <br/>                  | No aplicable  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
+| Isla o territorio que no están cubierta  <br/>              | No aplicable  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
+| Disponibilidad de la línea con cable o fijo  <br/>             | Parcial. Ver comentarios.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
+| Disponibilidad de red móvil  <br/>               | Parcial. Ver comentarios.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
+| Comentarios, las restricciones y problemas de acceso  <br/> | El formato de número XX XXX 120 trabajarán desde internacional de telecomunicaciones de Vietnam (VTI) y redes móviles y fijas de VNPT (Vietnam Post y telecomunicaciones). <br/>   <br/>**Nota:** Mobifone &amp; Vinaphone forman parte de VNPT. The number format 122 XXX XX network coverage: Viettel (fixed and mobile). Según el Ministerio Vietnam de telecomunicaciones, la duración máxima de llamada permitido es 2 horas. |
    
 ## <a name="related-topics"></a>Temas relacionados
 

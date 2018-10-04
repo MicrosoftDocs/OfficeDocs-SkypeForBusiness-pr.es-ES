@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Descubra cómo probar o comprar licencias de audioconferencia (conferencia RTC) para Office 365 con el fin de configurar llamadas de conferencia a las que la gente pueda acceder. '
-ms.openlocfilehash: efe5ab7189a5012b27b12838844325240b5891f5
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 8a5484aee9e8a5a9b8a3e1a0c0cf3e3f264b17d1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347556"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371978"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Probar o comprar conferencias de Audio en Office 365 para Microsoft Teams
 
@@ -46,9 +46,9 @@ Debe ser un [administrador global o administrador de facturación](https://suppo
     
 2. Obtenga sus licencias de **Audioconferencia**. Si quiere:
 
-  - **Pruébelo** antes de comprarlo: puede suscribirse a una versión de prueba gratuita de Office 365 Enterprise E5 que incluye audioconferencia. Vea la [versión de prueba de Office 365 Enterprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
+   - **Pruébelo** antes de comprarlo: puede suscribirse a una versión de prueba gratuita de Office 365 Enterprise E5 que incluye audioconferencia. Vea la [versión de prueba de Office 365 Enterprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-  - **Cómprelo**, vea [Skype para profesionales y los equipos de Microsoft complemento licencias](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+   - **Cómprelo**, vea [Skype para profesionales y los equipos de Microsoft complemento licencias](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
 
 3. [Asignar o cancelar licencia para Office 365 para empresas](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) que haya comprado a las personas de su organización que vayan a programar o coordinar reuniones.
 

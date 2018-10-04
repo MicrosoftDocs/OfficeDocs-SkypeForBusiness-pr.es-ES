@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: 'Resumen: Información sobre el nuevo Skype para la empresa y los pasos que puede realizar para preparar su entorno y a los usuarios para la actualización, si está utilizando de Skype para profesionales en línea, Skype para Business Server 2015, Skype para Business Server 2015, Lync Server 2013, o Lync Server 2010.'
-ms.openlocfilehash: b5bfd0c48cb1e850fdaa88a991772306430a0b9f
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 99a1be886c257c58f007b42ee549b31a2340721a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965680"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371176"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planear la Skype para la experiencia del cliente empresarial 2015 para los usuarios
  
@@ -80,9 +80,9 @@ Siga los pasos de esta sección si desea configurar la experiencia de cliente Sk
     
 - **Lync Server 2010** - debe ejecutar el de febrero de 2015 actualización acumulativa (4.0.7577.710) para Lync Server 2010 o una actualización posterior. Para obtener información, vea [actualizaciones de Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532771).
     
- **Paso 2:** A continuación, utilice una directiva de cliente para establecer la experiencia del cliente de Skype con el Skype para clientes empresariales. Hay **3 opciones** para usar una directiva de cliente para establecer la experiencia de cliente.
+  **Paso 2:** A continuación, utilice una directiva de cliente para establecer la experiencia del cliente de Skype con el Skype para clientes empresariales. Hay **3 opciones** para usar una directiva de cliente para establecer la experiencia de cliente.
   
- **Opción 1:** Establecer la experiencia de cliente Skype con una directiva global. Tenga en cuenta que la directiva global se aplica a todos los usuarios de su implementación, pero las directivas de nivel de usuario y de sitio tienen prioridad sobre la directiva global:
+  **Opción 1:** Establecer la experiencia de cliente Skype con una directiva global. Tenga en cuenta que la directiva global se aplica a todos los usuarios de su implementación, pero las directivas de nivel de usuario y de sitio tienen prioridad sobre la directiva global:
   
 ```
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $True

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Crear o modificar una tabla de intervalo de órbitas de estacionamiento de llamadas en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 8c9ff275e384148fb6e40f96bd26e7273809f25a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6892c48c95b7c5e84242a1456855e869a70e532b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883883"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370694"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Creación o modificación de un intervalo de órbitas de estacionamiento de llamadas en Skype para la empresa
 
@@ -46,12 +46,12 @@ Use los siguientes procedimientos para crear o modificar un intervalo de órbita
 
 4. En la página **Estacionamiento de llamadas**, siga uno de estos procedimientos:
 
-  - Para crear un nuevo intervalo de órbitas, haga clic en **Nuevo**. En **Nombre**, escriba un nombre identificativo para este intervalo de números.
+   - Para crear un nuevo intervalo de órbitas, haga clic en **Nuevo**. En **Nombre**, escriba un nombre identificativo para este intervalo de números.
 
-    > [!NOTE]
-    > Una vez que haya confirmado el intervalo de órbitas para la base de datos, no podrá cambiar este nombre.
+     > [!NOTE]
+     > Una vez que haya confirmado el intervalo de órbitas para la base de datos, no podrá cambiar este nombre.
 
-  - Para modificar un intervalo de órbitas existente, escriba todo o parte del nombre del intervalo de órbitas en el campo de búsqueda. En la lista de órbitas resultante, haga clic en la órbita que desee, seleccione **Editar** y, a continuación, haga clic en **Mostrar detalles**.
+   - Para modificar un intervalo de órbitas existente, escriba todo o parte del nombre del intervalo de órbitas en el campo de búsqueda. En la lista de órbitas resultante, haga clic en la órbita que desee, seleccione **Editar** y, a continuación, haga clic en **Mostrar detalles**.
 
 5. En el primer campo **Intervalo numérico**, escriba el número inicial del intervalo de extensiones para esta órbita de estacionamiento de llamadas y, en el segundo campo **Intervalo numérico**, escriba el número final del intervalo. Tenga en cuenta:
 

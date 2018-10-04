@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: En Skype para profesionales en línea, tiene la posibilidad de controlar a las transferencias de archivos punto a punto (P2P) como parte de la configuración de la directiva de conferencia existente. Sin embargo, esto permite o bloquea las transferencias realizadas para los usuarios si están transfiriendo archivos a un usuario que está dentro de la misma organización o a un usuario federado de otra organización de archivos. Siguiendo los pasos que aparece a continuación, puede bloquear a las transferencias de archivos P2P con las organizaciones federadas o socios.
-ms.openlocfilehash: 3ae7bce22a99858af36696e1fde41bb614f2c008
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 6ca79b45c4e068ae6999db24cf6a0dd54e9e3aa6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858495"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372107"
 ---
 # <a name="block-point-to-point-file-transfers"></a>Bloquear las transferencias de archivos punto a punto
 
@@ -72,14 +72,14 @@ Para realizar este trabajo, el usuario debe usar una versión compatible de un S
     > [!NOTE]
     > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.
 
-  ```      
+   ```      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
-  ```
+   ```
 
-  Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [Connecting to Skype para profesionales en línea mediante Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+   Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [Connecting to Skype para profesionales en línea mediante Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
 ## <a name="disable-p2p-file-transfers-for-your-organization"></a>Deshabilitar a las transferencias de archivos P2P para su organización
 
@@ -95,19 +95,19 @@ Para permitir a transferencias de P2P para dentro de sus organización pero bloq
 
 Se puede aplicar a un usuario mediante la creación de una nueva directiva y conceder a ese usuario. Para ello, ejecute: 
 > 
-  ```
-  New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
-  ```
+>   ```
+>   New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
+>   ```
 > 
-  ```
-  Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity amosm@contoso.com
-  ```
+>   ```
+>   Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity amosm@contoso.com
+>   ```
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
 - Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
-  - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Una introducción a Windows PowerShell y Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     

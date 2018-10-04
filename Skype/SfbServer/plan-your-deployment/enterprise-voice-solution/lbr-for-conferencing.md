@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planeación de basados en ubicación enrutamiento para las conferencias en Skype para Business Server Enterprise Voice, incluidas consultoría llame a transferencias.
-ms.openlocfilehash: 97ceaeb4f7e6e24cdffe3f1fd8c737de2e429e17
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d786f8def8cf88e29bbac2a908163a5a92d61d47
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888363"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373245"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Enrutamiento para las conferencias en Skype para Business Server basados en ubicación
 
@@ -47,6 +47,7 @@ El enrutamiento basado en la ubicación para la aplicación de conferencia impid
 En la siguiente tabla se resumen estas restricciones de enrutamiento basado en la ubicación de la conferencia.
 
 | |
+
 |**Usuario(s) en una conferencia en un momento determinado**|**Usuarios(s) con permiso para unirse a la conferencia**|**Usuarios(s) sin permiso para unirse a la conferencia**|
 |:-----|:-----|:-----|
 |Skype para usuarios de cliente de VoIP empresarial desde un sitio de red único  <br/> |Skype para el usuario de cliente de VoIP de negocio desde el mismo sitio de red  <br/> Skype para el usuario de cliente de VoIP empresarial desde un sitio de red diferentes  <br/> Skype para el usuario de cliente de VoIP empresarial desde un sitio de red desconocido  <br/> Skype federada para el usuario de cliente de VoIP de negocio  <br/> Usuario que se une desde un extremo de RTC  <br/> |Ninguno  <br/> |
@@ -141,7 +142,7 @@ Por ejemplo, si la aplicación de "UdcAgent" tiene un valor de prioridad de "2",
 
 Después de encontrar el valor de prioridad correcta para el enrutamiento basado en la ubicación para la aplicación de conferencia, escriba el siguiente cmdlet para cada servidor Standard Edition o grupo de servidores front-end que los usuarios de casas habilitados para enrutamiento basados en ubicación:
 
-New-CsServerApplication-identidad Service: Registrar:<Pool FQDN>/LBRouting-prioridad <Application Priority> -habilitado $true-crítico $true - Uri https://www.microsoft.com/LCS/LBRoutingFor ejemplo:
+New-CsServerApplication-identidad Service: Registrar:<Pool FQDN>/LBRouting-prioridad <Application Priority> -habilitado $true-crítico $true - Uri <https://www.microsoft.com/LCS/LBRoutingFor> ejemplo:
 
 New-CsServerApplication-Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting Identity-prioridad 3 - $true habilitado-crítico $true - Uri https://www.microsoft.com/LCS/LBRoutingAfter con este cmdlet, reinicie todos los servidores Front-End en los servidores Standard Edition o el grupo de servidores donde el Se ha habilitado el enrutamiento basado en la ubicación para la aplicación de conferencia.
 

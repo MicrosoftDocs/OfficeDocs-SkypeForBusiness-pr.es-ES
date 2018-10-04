@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Resumen: Crear o modificar directivas de voz y configurar registros de uso de RTC mediante la Skype para el Panel de Control de servidor empresarial.'
-ms.openlocfilehash: c1fb142718008bd2a53582a3952bd9b0b9477ca6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 53414afd6fcf3ee365caad9a168c88f101e8788b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888244"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371713"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para la empresa
 
@@ -50,8 +50,8 @@ ms.locfileid: "23888244"
 
    - **Escape de correo de voz** evita que las llamadas se enrute inmediatamente al sistema de correo de voz de teléfono móvil del usuario cuando las llamadas simultáneas se configura y el teléfono está desactivado, fuera de la batería o fuera del intervalo.
 
-    > [!NOTE]
-    > Esta característica sólo es configurable a través de la Skype para Shell de administración de servidor empresarial
+     > [!NOTE]
+     > Esta característica sólo es configurable a través de la Skype para Shell de administración de servidor empresarial
 
    - **Desvío de llamadas** permite que los usuarios desvíen llamadas a otros teléfonos y dispositivos de cliente. Skype para Business Server proporciona una gama mucho más amplia de opciones de configuración de desvío de llamadas. Por ejemplo, si una organización no desea que las llamadas entrantes se desvíen externamente a la RTC, un administrador puede aplicar una directiva de voz especial para implementar esta restricción. Esta opción está habilitada de forma predeterminada.
 
@@ -69,8 +69,8 @@ ms.locfileid: "23888244"
 
    - El **reemplazo de directiva de ancho de banda** permite a los administradores cambiar las decisiones de la directiva del servicio de control de admisión de llamadas para un usuario en concreto. Esta opción está deshabilitada de forma predeterminada.
 
-    > [!NOTE]
-    > La directiva se reemplazará solo para las llamadas entrantes que reciba el usuario, y no para las llamadas salientes que realice el usuario. Una vez establecida la sesión, se justificará detalladamente el consumo de ancho de banda. Esta configuración se debe usar con moderación, y recomendamos evitarla para tomar las decisiones correctas en el control de admisión de llamadas.
+     > [!NOTE]
+     > La directiva se reemplazará solo para las llamadas entrantes que reciba el usuario, y no para las llamadas salientes que realice el usuario. Una vez establecida la sesión, se justificará detalladamente el consumo de ancho de banda. Esta configuración se debe usar con moderación, y recomendamos evitarla para tomar las decisiones correctas en el control de admisión de llamadas.
 
    - El **seguimiento de llamadas malintencionadas** permite a los usuarios informar sobre llamadas malintencionadas (como amenazas) usando la interfaz de usuario del cliente, y hace que la llamada quede señalada en los registros de detalles de llamadas (CDR). Está deshabilitada de forma predeterminada.
 
@@ -84,14 +84,14 @@ ms.locfileid: "23888244"
 
    - Para definir un nuevo registro de uso de RTC y asociarlo a esta directiva de voz:
 
-    a. Haga clic en **Nuevo**.
+     a. Haga clic en **Nuevo**.
 
-    b. En el campo **Nombre**, escriba un nombre descriptivo único para el registro. Por ejemplo, es posible que desee crear un namedRedmond de registro de uso de RTC para empleados de jornada completa que se encuentra en Redmond y otro namedRedmondTemps para los empleados temporales.
+     b. En el campo **Nombre**, escriba un nombre descriptivo único para el registro. Por ejemplo, es posible que desee crear un namedRedmond de registro de uso de RTC para empleados de jornada completa que se encuentra en Redmond y otro namedRedmondTemps para los empleados temporales.
 
-    > [!NOTE]
-    > El nombre del registro de uso de RTC debe ser único dentro de la implementación de la Telefonía IP empresarial. Una vez guardado el registro, no se puede editar el campo **Nombre**.
+     > [!NOTE]
+     > El nombre del registro de uso de RTC debe ser único dentro de la implementación de la Telefonía IP empresarial. Una vez guardado el registro, no se puede editar el campo **Nombre**.
 
-    c. Use alguno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
+     c. Use alguno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
 
    - Para elegir una o más rutas de la lista de todas las rutas disponibles en la implementación de Telefonía IP empresarial, haga clic en **Seleccionar**, seleccione las rutas que desea asociar a este registro de uso de RTC y después haga clic en **Aceptar**.
 
@@ -101,13 +101,13 @@ ms.locfileid: "23888244"
 
    - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**.
 
-    d. Haga clic en **Aceptar**.
+     d. Haga clic en **Aceptar**.
 
    - Para editar un registro de uso de RTC que ya esté asociado a esta directiva de voz, haga lo siguiente:
 
-    a. Resalte el registro de uso de RTC que desea editar y haga clic en **Mostrar detalles**.
+     a. Resalte el registro de uso de RTC que desea editar y haga clic en **Mostrar detalles**.
 
-    b. Use alguno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
+     b. Use alguno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
 
    - Para elegir una o más rutas de la lista de todas las rutas disponibles en la implementación de Telefonía IP empresarial, haga clic en **Seleccionar**, seleccione las rutas que desea asociar a este registro de uso de RTC y después haga clic en **Aceptar**.
 
@@ -117,7 +117,7 @@ ms.locfileid: "23888244"
 
    - Para editar una ruta que ya está asociada a este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**.
 
-    c. Haga clic en **Aceptar**.
+     c. Haga clic en **Aceptar**.
 
 8. Organice los registros de uso de RTC para lograr un rendimiento óptimo. Para cambiar la posición de un registro en la lista, resalte el nombre de registro y haga clic en arriba o flecha abajo.
 
@@ -138,14 +138,14 @@ ms.locfileid: "23888244"
 
    - Para definir un registro de uso de RTC nuevo y asociarlo a esta directiva de desvío de llamadas y de llamadas simultáneas, haga lo siguiente:
 
-    a. Haga clic en **Nuevo**.
+     a. Haga clic en **Nuevo**.
 
-    b. En el campo **Nombre**, escriba un nombre descriptivo único para el registro.
+     b. En el campo **Nombre**, escriba un nombre descriptivo único para el registro.
 
-    > [!NOTE]
-    > El nombre del registro de uso de RTC debe ser único dentro de la implementación de la Telefonía IP empresarial. Una vez guardado el registro, no se puede editar el campo **Nombre**.
+     > [!NOTE]
+     > El nombre del registro de uso de RTC debe ser único dentro de la implementación de la Telefonía IP empresarial. Una vez guardado el registro, no se puede editar el campo **Nombre**.
 
-    c. Use alguno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
+     c. Use alguno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
 
    - Para elegir una o más rutas de la lista de todas las rutas disponibles en la implementación de Telefonía IP empresarial, haga clic en **Seleccionar**, seleccione las rutas que desea asociar a este registro de uso de RTC y después haga clic en **Aceptar**.
 
@@ -155,13 +155,13 @@ ms.locfileid: "23888244"
 
    - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**.
 
-    d. Haga clic en **Aceptar**.
+     d. Haga clic en **Aceptar**.
 
    - Para editar un registro de uso de RTC que ya esté asociado a esta directiva de voz, haga lo siguiente:
 
-    a. Resalte el registro de uso de RTC que desee editar y haga clic en **Mostrar detalles**.
+     a. Resalte el registro de uso de RTC que desee editar y haga clic en **Mostrar detalles**.
 
-    b. Use alguno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
+     b. Use alguno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
 
    - Para elegir una o más rutas de la lista de todas las rutas disponibles en la implementación de Telefonía IP empresarial, haga clic en **Seleccionar**, seleccione las rutas que desea asociar a este registro de uso de RTC y después haga clic en **Aceptar**.
 
@@ -171,7 +171,7 @@ ms.locfileid: "23888244"
 
    - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**.
 
-    c. Haga clic en **Aceptar**.
+     c. Haga clic en **Aceptar**.
 
 10. (Opcional) Especifique un número para probar la directiva de voz y haga clic en **Ir**. Los resultados de la prueba se muestran en **Número convertido para probar**.
 
@@ -201,8 +201,8 @@ ms.locfileid: "23888244"
 
    - **Escape de correo de voz** evita que las llamadas se enrute inmediatamente al sistema de correo de voz de teléfono móvil del usuario cuando las llamadas simultáneas se configura y el teléfono está desactivado, fuera de la batería o fuera del intervalo.
 
-    > [!NOTE]
-    > Esta característica sólo es configurable a través de la Skype para Shell de administración de servidor empresarial
+     > [!NOTE]
+     > Esta característica sólo es configurable a través de la Skype para Shell de administración de servidor empresarial
 
    - **Desvío de llamadas** permite que los usuarios desvíen llamadas a otros teléfonos y dispositivos de cliente. Skype para Business Server proporciona una gama mucho más amplia de opciones de configuración de desvío de llamadas. Por ejemplo, si una organización no desea que las llamadas entrantes se desvíen externamente a la RTC, un administrador puede aplicar una directiva de voz especial para implementar esta restricción. Esta opción está habilitada de forma predeterminada.
 
@@ -233,14 +233,14 @@ ms.locfileid: "23888244"
 
    - Para definir un nuevo registro de uso de RTC y asociarlo a esta directiva de voz:
 
-    a. Haga clic en **Nuevo**.
+     a. Haga clic en **Nuevo**.
 
-    b. En el campo **Nombre**, escriba un nombre descriptivo único para el registro. Por ejemplo, es posible que desee crear un namedRedmond de registro de uso de RTC para empleados de jornada completa que se encuentra en Redmond y otro namedRedmondTemps de registro para los empleados temporales.
+     b. En el campo **Nombre**, escriba un nombre descriptivo único para el registro. Por ejemplo, es posible que desee crear un namedRedmond de registro de uso de RTC para empleados de jornada completa que se encuentra en Redmond y otro namedRedmondTemps de registro para los empleados temporales.
 
-    > [!NOTE]
-    > El nombre del registro de uso de RTC debe ser único dentro de la implementación de la Telefonía IP empresarial. Una vez guardado el registro, no se puede editar el campo **Nombre**.
+     > [!NOTE]
+     > El nombre del registro de uso de RTC debe ser único dentro de la implementación de la Telefonía IP empresarial. Una vez guardado el registro, no se puede editar el campo **Nombre**.
 
-    c. Use alguno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
+     c. Use alguno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
 
    - Para elegir una o más rutas de la lista de todas las rutas disponibles en la implementación de Telefonía IP empresarial, haga clic en **Seleccionar**, seleccione las rutas que desea asociar a este registro de uso de RTC y después haga clic en **Aceptar**.
 
@@ -250,13 +250,13 @@ ms.locfileid: "23888244"
 
    - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**.
 
-    d. Haga clic en **Aceptar**.
+     d. Haga clic en **Aceptar**.
 
    - Para editar un registro de uso de RTC que ya esté asociado a esta directiva de voz, haga lo siguiente:
 
-    a. Resalte el registro de uso de RTC que desee editar y haga clic en   **Mostrar detalles**.
+     a. Resalte el registro de uso de RTC que desee editar y haga clic en   **Mostrar detalles**.
 
-    b. Use alguno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
+     b. Use alguno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
 
    - Para elegir una o más rutas de la lista de todas las rutas disponibles en la implementación de Telefonía IP empresarial, haga clic en **Seleccionar**, seleccione las rutas que desea asociar a este registro de uso de RTC y después haga clic en **Aceptar**.
 
@@ -266,7 +266,7 @@ ms.locfileid: "23888244"
 
    - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**.
 
-    c. Haga clic en **Aceptar**.
+     c. Haga clic en **Aceptar**.
 
 7. Organice los registros de uso de RTC para lograr un rendimiento óptimo. Para cambiar la posición de un registro en la lista, resalte el nombre de registro y haga clic en arriba o flecha abajo.
 
@@ -287,14 +287,14 @@ ms.locfileid: "23888244"
 
    - Para definir un registro de uso de RTC nuevo y asociarlo a esta directiva de desvío de llamadas y de llamadas simultáneas, haga lo siguiente:
 
-    a. Haga clic en **Nuevo**.
+     a. Haga clic en **Nuevo**.
 
-    b. En el campo **Nombre**, escriba un nombre descriptivo único para el registro.
+     b. En el campo **Nombre**, escriba un nombre descriptivo único para el registro.
 
-    > [!NOTE]
-    > El nombre del registro de uso de RTC debe ser único dentro de la implementación de la Telefonía IP empresarial. Una vez guardado el registro, no se puede editar el campo **Nombre**.
+     > [!NOTE]
+     > El nombre del registro de uso de RTC debe ser único dentro de la implementación de la Telefonía IP empresarial. Una vez guardado el registro, no se puede editar el campo **Nombre**.
 
-    c. Use alguno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
+     c. Use alguno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
 
    - Para elegir una o más rutas de la lista de todas las rutas disponibles en la implementación de Telefonía IP empresarial, haga clic en **Seleccionar**, seleccione las rutas que desea asociar a este registro de uso de RTC y después haga clic en **Aceptar**.
 
@@ -304,7 +304,7 @@ ms.locfileid: "23888244"
 
    - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**. Para obtener información detallada, vea [modificar una ruta de voz](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
 
-    d. Haga clic en **Aceptar**.
+     d. Haga clic en **Aceptar**.
 
    - Para editar un registro de uso de RTC que ya esté asociado a esta directiva de voz, haga lo siguiente:
 

@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8521816fe8aaa74c45028d962d024ab4bfd1b467
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d6e25d8e4d28a40bed33483d3ebdd6b5499f9ec1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013990"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372025"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================
@@ -90,15 +90,17 @@ En la siguiente figura se indica el flujo de ingesta de las reuniones de los equ
 
 En lo que se refiere a las funciones de protección de información, las suscripciones de Office 365 y las licencias autónomas asociadas determinarán el conjunto de características disponible.
 
-|Funcionalidad de protección de información   |Office 365 Business Essentials   |Office 365 Business Premium   |Office 365 Enterprise E1   |Office 365 Enterprise E3/E4   |Office 365 Enterprise E5   |
-|---|---|---|---|---|---|
-|Archivo|-  |-   |-   |Sí   |Sí   |
-|eDiscovery local|-   |-   |-   |Sí   |Sí   |
-|eDiscovery avanzado|-   |-   |-   |-   |Sí   |
-|Suspensión legal|-   |-   |-   |Sí   |Sí   |
-|Búsqueda de contenido de cumplimiento|- |- |- |Sí |Sí |
-|Auditoría y generación de informes|Sí |Sí |Sí |Sí |Sí |
-|Acceso condicional* |Sí |Sí |Sí |Sí |Sí |
+
+| Funcionalidad de protección de información | Office 365 Business Essentials | Office 365 Business Premium | Office 365 Enterprise E1 | Office 365 Enterprise E3/E4 | Office 365 Enterprise E5 |
+|-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
+|              Archivo              |               -                |              -              |            -             |             Sí             |           Sí            |
+|        eDiscovery local        |               -                |              -              |            -             |             Sí             |           Sí            |
+|        eDiscovery avanzado        |               -                |              -              |            -             |              -              |           Sí            |
+|            Suspensión legal             |               -                |              -              |            -             |             Sí             |           Sí            |
+|     Búsqueda de contenido de cumplimiento     |               -                |              -              |            -             |             Sí             |           Sí            |
+|      Auditoría y generación de informes       |              Sí               |             Sí             |           Sí            |             Sí             |           Sí            |
+|       Acceso condicional\*        |              Sí               |             Sí             |           Sí            |             Sí             |           Sí            |
+
 > [!NOTE]
 > \*El acceso condicional requiere licencias adicionales
 

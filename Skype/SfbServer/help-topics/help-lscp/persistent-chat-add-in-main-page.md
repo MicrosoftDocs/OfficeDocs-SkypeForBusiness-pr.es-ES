@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
 description: Puede usar la sección de la página de Chat persistente para asociar las direcciones URL a salones de Chat persistente. Estas direcciones URL aparecen en el cliente, en el salón de chat, en el panel de extensibilidad de la conversación. Un administrador necesita agregar complementos a la lista de complementos registrados, y los administradores/creadores del salón de chat necesitan asociar los salones a uno de los complementos registrados para que los clientes puedan ver esta actualización en su cliente.
-ms.openlocfilehash: 2efac9a17082c3aadb1f26a24f30e711ce976abc
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: a7a0ded39539a85c146912da8f7cf2815b6292a2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23251245"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371530"
 ---
 # <a name="persistent-chat-add-in-main-page"></a>Página principal de complemento de chat persistente
 
@@ -51,9 +51,9 @@ En las siguientes listas se describen los menús, comandos, campos y propiedades
 
 6. Haga lo siguiente en **Complemento nuevo**:
 
-  - En **Nombre**, especifique un nombre para el nuevo complemento.
+   - En **Nombre**, especifique un nombre para el nuevo complemento.
 
-  - En **URL**, especifique la dirección URL que se va a asociar al complemento. Las direcciones URL se limitan a protocolos http y https.
+   - En **URL**, especifique la dirección URL que se va a asociar al complemento. Las direcciones URL se limitan a protocolos http y https.
 
 7. Haga clic en **Confirmar**.
 

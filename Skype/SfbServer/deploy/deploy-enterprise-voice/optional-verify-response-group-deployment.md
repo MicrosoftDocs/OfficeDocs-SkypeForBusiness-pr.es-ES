@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: Comprobar el éxito de la implementación de grupo de respuesta, en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: f92181f63606ff3c4322fdefb814e9682c79b0cc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4832b64d6bf4d26dd9d4cba10e46ef78b3f3b396
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002701"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374819"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(Opcional) Implementación de grupo de respuesta Verify en Skype para la empresa
  
@@ -31,7 +31,7 @@ Después de configurar el grupo de respuesta, debe comprobar la configuración p
     
 - Un agente que está hospedado en Skype para la empresa
     
- **Scenarios**
+  **Scenarios**
   
 - El Skype para usuarios de empresa llama al grupo de respuesta.
     

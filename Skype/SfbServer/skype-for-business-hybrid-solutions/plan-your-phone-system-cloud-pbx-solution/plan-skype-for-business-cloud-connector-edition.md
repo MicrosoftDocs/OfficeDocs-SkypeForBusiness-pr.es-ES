@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Obtenga información sobre Skype Empresarial Cloud Connector Edition, un conjunto de máquinas virtuales (VM) empaquetadas que implementa la conectividad RTC local con el Sistema telefónico de Office 365 (PBX en la nube).
-ms.openlocfilehash: 58b84f083f77dde134dc0b2d7bab7fe60dcac5ea
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b98ba65555e8e94c743a87299b920f9ffd5efbfb
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883622"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372527"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Plan para Skype Empresarial Cloud Connector Edition
 
@@ -573,7 +573,7 @@ Necesitará agregar sip.sipdomain.com para todos los dominios SIP y el nombre de
   acessedgepoolnameforsite1.sipdomain1.com
   ```
 
-- **Opción 2.** Si le gustaría usar un único certificado comodín en todos los servidores de grupo de servidores perimetrales implementar, a continuación, puede utilizar una entrada de SAN de comodín de \*. sipdomain.com en lugar del nombre de grupo de servidores perimetrales en el certificado. El nombre del firmante puede ser el nombre de grupo perimetral de acceso de cualquiera de los grupos de servidores perimetrales que ya haya implementado:
+- <strong>Opción 2.</strong> Si le gustaría usar un único certificado comodín en todos los servidores de grupo de servidores perimetrales implementar, a continuación, puede utilizar una entrada de SAN de comodín de \*. sipdomain.com en lugar del nombre de grupo de servidores perimetrales en el certificado. El nombre del firmante puede ser el nombre de grupo perimetral de acceso de cualquiera de los grupos de servidores perimetrales que ya haya implementado:
 
   ```
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,

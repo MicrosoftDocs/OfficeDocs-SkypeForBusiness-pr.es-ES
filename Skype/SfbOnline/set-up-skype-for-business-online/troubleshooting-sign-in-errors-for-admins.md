@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Obtenga información sobre las causas habituales de Skype para errores de inicio de sesión en línea de negocio y de trabajo a través de solucionar estos problemas. '
-ms.openlocfilehash: 63bcd69fa4db2266647960c119c198797c154f75
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: df34252281bebe429a85fb1a778b6d28023eb9d4
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850217"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371153"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Solución de problemas de Skype para errores de inicio de sesión empresarial en línea para los administradores
 
@@ -32,23 +32,23 @@ Para solucionar problemas de Skype para errores de inicio de sesión de negocio 
 <a name="top"> </a>
 
 > [Verificación de las causas habituales de Skype para errores de inicio de sesión de negocio en línea](troubleshooting-sign-in-errors-for-admins.md#toc323194094)
-
+> 
 > [Siga los pasos de la solución para un error específico (solo Enterprise)](troubleshooting-sign-in-errors-for-admins.md#toc325626440)
-
+> 
 > [Agregar una entrada de firewall para msoidsvc.exe el servidor proxy](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall)
-
+> 
 > [Actualización de la configuración de DNS](troubleshooting-sign-in-errors-for-admins.md#update-dns-service)
-
+> 
 > [Instalar un certificado SSL de terceros en el servidor de ADFS](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and)
-
+> 
 > [Actualizar las credenciales de seguridad](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials)
-
+> 
 > [Modificar las claves del registro de TrustModelData](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry)
-
+> 
 > [Actualizar la configuración de usuario en Active Directory](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)
-
+> 
 > [Use el Support Microsoft Guía de solución de problemas](troubleshooting-sign-in-errors-for-admins.md#toc325626447)
-
+> 
 > [Recopilar más información y busca ayuda adicional](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)
 
 ## <a name="check-for-common-causes-of-skype-for-business-online-sign-in-errors"></a>Verificación de las causas habituales de Skype para errores de inicio de sesión de negocio en línea
@@ -56,16 +56,17 @@ Para solucionar problemas de Skype para errores de inicio de sesión de negocio 
 
 Problemas de inicio de sesión de mayoría pueden realizarse a un número reducido de las causas y muchas de ellas son fáciles de corregir. En la tabla siguiente se enumera algunas de las causas comunes de errores de inicio de sesión y algunos pasos que usted o los usuarios pueden realizar para resolverlos conflictos.
 
-|**Causa posible**|**Resolución**|
-|:-----|:-----|
-|Durante el inicio de sesión, aparece un cuadro de diálogo que contiene la frase siguiente: **no se puede comprobar que el servidor es de confianza para la dirección de inicio de sesión. Conectar de todos modos?** <br/> |Compruebe que el nombre de dominio en el cuadro de diálogo es un servidor de confianza en su organización, por ejemplo, **domainName.contoso.com**. Pida al usuario que Active la casilla de verificación **Confiar siempre en este servidor** y, a continuación, haga clic en **Conectar**. <br/> Los clientes de empresa pueden impedir que este mensaje aparezca cuando un usuario inicia sesión por primera vez mediante la modificación del registro de Windows en el equipo de cada usuario. Para obtener información detallada, vea [Modificar TrustModelData registry keys](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry).<br/> |
-|Dirección de inicio de sesión escrita incorrectamente, nombre de usuario o contraseña  <br/> | Confirme que el nombre de inicio de sesión del usuario y la contraseña son correctos. <br/>  Compruebe que el nombre del usuario de inicio de sesión tiene el formato siguiente: **bobk@contoso.com**. Esto puede ser diferente del formato que use para iniciar sesión red de su organización.  <br/>  Pida al usuario que intente iniciar sesión de nuevo. <br/> |
-|Contraseña olvidado  <br/> |Restablecer la contraseña del usuario y notificar a él o ella de la nueva contraseña temporal.  <br/> |
-|No tiene licencia para usar Skype para profesionales en línea  <br/> |Confirme que el usuario está registrado como un Skype para usuarios profesionales en línea. En caso contrario, registre el usuario y, a continuación, pídale al iniciar sesión de nuevo.  <br/> |
-|Versión incorrecta de Skype para profesionales Online instalado  <br/> |Este problema se suele estar asociado a un mensaje de error que contenga la frase siguiente: **el servicio de autenticación puede ser incompatible con esta versión del programa**.  <br/> Pida al usuario que la desinstalación y reinstalación de Skype para profesionales en línea desde el Portal de Office 365.  <br/> |
-|Cómo adquirir un certificado personal que es necesario para iniciar sesión en el problema  <br/> |Si ha cambiado recientemente la dirección de inicio de sesión del usuario, que es posible que necesitan eliminar datos de inicio de sesión en caché. Pida a los usuarios a cerrar la sesión, haga clic en eliminar mi información de inicio de sesión de vínculo en la pantalla de inicio de sesión y, a continuación, vuelva a intentarlo.  <br/> |
-|Configurar un nombre de dominio personalizado, y es posible que los cambios no hayan terminado de propagarse a través del sistema.  <br/> |En primer lugar, asegúrese de que se modificaron los registros del servicio de nombres de dominio (DNS) para reflejar el cambio.  <br/> Si ya ha realizado los cambios DNS necesarios, de aviso al usuario que intente iniciar la sesión más adelante. Los cambios DNS pueden tardar hasta 72 horas para que se reflejen en todo el sistema.  <br/> |
-|Sistema de reloj sincronizados con el reloj del servidor  <br/> |Asegúrese de que el controlador de dominio de red está sincronizando con un origen de hora externo confiable. Para obtener información detallada, vea el artículo 816042 de Microsoft Knowledge Base [cómo configurar un servidor horario autorizado en Windows Server](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042).<br/> |
+
+| **Causa posible**                                                                                                                                                    | **Resolución**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Durante el inicio de sesión, aparece un cuadro de diálogo que contiene la frase siguiente: **no se puede comprobar que el servidor es de confianza para la dirección de inicio de sesión. Conectar de todos modos?** <br/> | Compruebe que el nombre de dominio en el cuadro de diálogo es un servidor de confianza en su organización, por ejemplo, **domainName.contoso.com**. Pida al usuario que Active la casilla de verificación **Confiar siempre en este servidor** y, a continuación, haga clic en **Conectar**. <br/> Los clientes de empresa pueden impedir que este mensaje aparezca cuando un usuario inicia sesión por primera vez mediante la modificación del registro de Windows en el equipo de cada usuario. Para obtener información detallada, vea [Modificar TrustModelData registry keys](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry).<br/> |
+| Dirección de inicio de sesión escrita incorrectamente, nombre de usuario o contraseña  <br/>                                                                                                               | Confirme que el nombre de inicio de sesión del usuario y la contraseña son correctos. <br/>  Compruebe que el nombre del usuario de inicio de sesión tiene el formato siguiente: <strong>bobk@contoso.com</strong>. Esto puede ser diferente del formato que use para iniciar sesión red de su organización.  <br/>  Pida al usuario que intente iniciar sesión de nuevo. <br/>                                                                                                                                                                                                                             |
+| Contraseña olvidado  <br/>                                                                                                                                             | Restablecer la contraseña del usuario y notificar a él o ella de la nueva contraseña temporal.  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| No tiene licencia para usar Skype para profesionales en línea  <br/>                                                                                                                  | Confirme que el usuario está registrado como un Skype para usuarios profesionales en línea. En caso contrario, registre el usuario y, a continuación, pídale al iniciar sesión de nuevo.  <br/>                                                                                                                                                                                                                                                                                                                                                                                           |
+| Versión incorrecta de Skype para profesionales Online instalado  <br/>                                                                                                           | Este problema se suele estar asociado a un mensaje de error que contenga la frase siguiente: **el servicio de autenticación puede ser incompatible con esta versión del programa**.  <br/> Pida al usuario que la desinstalación y reinstalación de Skype para profesionales en línea desde el Portal de Office 365.  <br/>                                                                                                                                                                                                                                                    |
+| Cómo adquirir un certificado personal que es necesario para iniciar sesión en el problema  <br/>                                                                                           | Si ha cambiado recientemente la dirección de inicio de sesión del usuario, que es posible que necesitan eliminar datos de inicio de sesión en caché. Pida a los usuarios a cerrar la sesión, haga clic en eliminar mi información de inicio de sesión de vínculo en la pantalla de inicio de sesión y, a continuación, vuelva a intentarlo.  <br/>                                                                                                                                                                                                                                                                                                                                |
+| Configurar un nombre de dominio personalizado, y es posible que los cambios no hayan terminado de propagarse a través del sistema.  <br/>                                                         | En primer lugar, asegúrese de que se modificaron los registros del servicio de nombres de dominio (DNS) para reflejar el cambio.  <br/> Si ya ha realizado los cambios DNS necesarios, de aviso al usuario que intente iniciar la sesión más adelante. Los cambios DNS pueden tardar hasta 72 horas para que se reflejen en todo el sistema.  <br/>                                                                                                                                                                                                                                                        |
+| Sistema de reloj sincronizados con el reloj del servidor  <br/>                                                                                                                     | Asegúrese de que el controlador de dominio de red está sincronizando con un origen de hora externo confiable. Para obtener información detallada, vea el artículo 816042 de Microsoft Knowledge Base [cómo configurar un servidor horario autorizado en Windows Server](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042).<br/>                                                                                                                                                                                                                                          |
 
 Para solucionar problemas de Skype para errores de inicio de sesión de negocio en línea, inicie mediante la eliminación de las causas más comunes de inicio de sesión de dificultad. Si es necesario, a continuación, puede seguir pasos en función del tipo de error de resolución específica. Si el usuario aún no se puede iniciar sesión, recopilar información adicional y, a continuación, busca ayuda adicional.
 

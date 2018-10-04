@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17dcd75c-bd9a-407e-af9b-c61cb1201c07
 description: 'Editar la configuración de resistencia y configure las siguientes propiedades:'
-ms.openlocfilehash: 64e65fc7123132813ddc51b86301ae3d9c89e22a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5d6fffdadeb96ed72caf9478cbcaefe754d8e24c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21007036"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374058"
 ---
 # <a name="registrar-settings-expander-for-lync-server-for-2010"></a>Expansor de configuración de registrador de Lync Server para 2010
  
@@ -32,10 +32,10 @@ Editar la configuración de **resistencia** y configure las siguientes propiedad
     > [!CAUTION]
     > El número de segundos que se definen para los intervalos de conmutación por error y conmutación por recuperación se debería probar detenidamente para asegurarse de que la resistencia funciona según lo previsto. Si se establece el intervalo en baja (es decir, menos de 120 segundos) o la conmutación por error y la conmutación por recuperación establecer demasiado estrechamente pueden ocasionar que la conmutación por error real y la conmutación por recuperación no funciona según lo previsto. 
   
- **Aceptar** Se aceptan y confirman los cambios en el cuadro de diálogo.
+  **Aceptar** Se aceptan y confirman los cambios en el cuadro de diálogo.
   
- **Cancelar** Se descartan los cambios y se cierra el cuadro de diálogo.
+  **Cancelar** Se descartan los cambios y se cierra el cuadro de diálogo.
   
- **Ayuda** Abre esta pantalla de ayuda.
+  **Ayuda** Abre esta pantalla de ayuda.
   
 

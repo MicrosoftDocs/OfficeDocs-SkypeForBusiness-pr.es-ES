@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Lea este tema para obtener más información acerca de la administración de sistemas de salón de Skype v2, la próxima generación de sistemas de salón de Skype.
-ms.openlocfilehash: 52e02ff1f87d06088636b2f44706ec03c62675f3
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 5dcfcf13b22e7ad110b675d5d202f1ad53d32687
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965894"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373650"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Operaciones y mantenimiento de sistemas de salón de Skype v2 
  
@@ -234,9 +234,9 @@ La consola ahora es nuevo en el modo de funcionamiento normal. El siguiente proc
     
 4. Cuando haya terminado, reinicie el equipo.
     
- La consola se reinicia en su modo de funcionamiento normal, que ejecuta la aplicación de sistemas de salón de Skype v2. Puede quitar el teclado, si estaba asociado para que pueda llevar a cabo este procedimiento.
-## <a name="troubleshooting-tips"></a>Sugerencias para la solución de problemas
-<a name="TS"> </a>
+   La consola se reinicia en su modo de funcionamiento normal, que ejecuta la aplicación de sistemas de salón de Skype v2. Puede quitar el teclado, si estaba asociado para que pueda llevar a cabo este procedimiento.
+   ## <a name="troubleshooting-tips"></a>Sugerencias para la solución de problemas
+   <a name="TS"> </a>
 
 - No es posible que aparezcan las invitaciones a reuniones cuando se envían a través de los límites del dominio (por ejemplo, entre las dos compañías). En estos casos, los administradores de TI deben decidir si desea permitir que los usuarios externos programar una reunión.
     

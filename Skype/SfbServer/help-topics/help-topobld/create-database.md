@@ -11,28 +11,29 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
-description: El generador de topología proporciona una forma para instalar las bases de datos en un almacén de SQL Server. Al instalar las bases de datos mediante el generador de topología, la aplicación lee la información de la topología y, a continuación, instala las bases de datos necesarios en el equipo de SQL Server especificado o el clúster de SQL Server. Se trata del único tipo de instalación de bases de datos disponible mediante el Generador de topologías. Si necesita instalar una base de datos específica en un equipo específico, o si debe instalar una base de datos colocada, debe utilizar el cmdlet Install-CsDatabase e interfaz de línea de comandos de Windows PowerShell en su lugar.
-ms.openlocfilehash: 9bee333e0b56a6eeb8f4363e6657be2fabfa1ace
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Generador de topología proporciona una forma de instalar las bases de datos en un almacén de SQL Server. Al instalar las bases de datos mediante el uso de Topology Builder, la aplicación lee información de la topología y, a continuación, instala las bases de datos necesarios en el equipo de SQL Server especificado o el clúster de SQL Server. Se trata del único tipo de instalación de bases de datos disponible mediante el Generador de topologías. Si es necesario instalar una base de datos específica en un equipo específico, o si se debe instalar una base de datos combinada, debe usar el cmdlet Install-CsDatabase e interfaz de línea de comandos de Windows PowerShell en su lugar.
+ms.openlocfilehash: 77937f48aa243a98545d4cadca10e55d6b01dfc8
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375597"
 ---
 # <a name="create-database"></a>Crear base de datos
  
-El generador de topología proporciona una forma para instalar las bases de datos en un almacén de SQL Server. Al instalar las bases de datos mediante el generador de topología, la aplicación lee la información de la topología y, a continuación, instala las bases de datos necesarios en el equipo de SQL Server especificado o el clúster de SQL Server. Se trata del único tipo de instalación de bases de datos disponible mediante el Generador de topologías. Si necesita instalar una base de datos específica en un equipo específico, o si debe instalar una base de datos colocada, debe utilizar el cmdlet [Install-CsDatabase](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps) e interfaz de línea de comandos de Windows PowerShell en su lugar.
+Generador de topología proporciona una forma de instalar las bases de datos en un almacén de SQL Server. Al instalar las bases de datos mediante el uso de Topology Builder, la aplicación lee información de la topología y, a continuación, instala las bases de datos necesarios en el equipo de SQL Server especificado o el clúster de SQL Server. Se trata del único tipo de instalación de bases de datos disponible mediante el Generador de topologías. Si es necesario instalar una base de datos específica en un equipo específico, o si se debe instalar una base de datos combinada, debe usar el cmdlet [Install-CsDatabase](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps) e interfaz de línea de comandos de Windows PowerShell en su lugar.
   
 ### <a name="creating-a-database"></a>Creación de una base de datos
 
-1. Haga clic en el Skype para Business Server 2015 nodo y, a continuación, haga clic en **Instalar la base de datos**.
+1. Haga clic en el Skype para Business Server 2015 nodo y, a continuación, haga clic en **Instalar base de datos**.
     
-2. En el cuadro de diálogo **Instalar bases de datos** , en la página **Crear base de datos** , seleccione el nombre de dominio completo (FQDN) del almacén de SQL Server donde deben crearse las nuevas bases de datos.
+2. En el cuadro de diálogo **Instalar bases de datos** , en la página **Crear base de datos** , seleccione el nombre de dominio completo (FQDN) del almacén de SQL Server donde están las nuevas bases de datos que se creará.
     
 3. Haga clic en **Opciones avanzadas**. En el cuadro de diálogo **Seleccionar la ubicación de los archivos de base de datos**, seleccione una de las siguientes opciones:
     
-  - **Ubicar automáticamente los archivos de base de datos**. Si selecciona esta opción, el Generador de topologías usa un algoritmo integrado para elegir la ubicación de almacenamiento de los registros de bases de datos y los archivos de datos.
+   - **Ubicar automáticamente los archivos de base de datos**. Si selecciona esta opción, el Generador de topologías usa un algoritmo integrado para elegir la ubicación de almacenamiento de los registros de bases de datos y los archivos de datos.
     
-  - **Valores predeterminados de instancia de SQL Server de uso**. Si selecciona esta opción, no se utiliza el algoritmo integrado para elegir las ubicaciones de almacenamiento para los archivos de datos y registros de base de datos. En su lugar, los archivos de registro y datos se almacenan en las ubicaciones especificadas por la ruta de acceso de valores predeterminados de SQL Server (estas rutas deben configurarse en avanzada por un administrador de SQL Server). Archivos de datos se almacenarán en la ubicación predeterminada del archivo de datos de SQL Server, mientras que los archivos de registro se almacenará en la ubicación predeterminada del archivo de registro de SQL Server.
+   - **Valores predeterminados de instancia de utilizar SQL Server**. Si selecciona esta opción, no se usa el algoritmo integrado para elegir las ubicaciones de almacenamiento para los registros de la base de datos y archivos de datos. En su lugar, los archivos de registro y datos se almacenan en las ubicaciones especificadas por la ruta de acceso de valores predeterminados de SQL Server (estas rutas de acceso deben estar configurados en avanzada por un administrador de SQL Server). Los archivos de datos se almacenará en la ubicación predeterminada del archivo de datos de SQL Server, mientras que los archivos de registro se almacenará en la ubicación predeterminada del archivo de registro de SQL Server.
     
 4. Haga clic en **Aceptar**.
     

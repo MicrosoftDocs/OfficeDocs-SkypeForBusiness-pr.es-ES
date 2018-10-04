@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: 'Resumen: Lea este tema para obtener información sobre cómo agregar servidores de Chat persistente a su Skype para topología empresarial Server 2015.'
-ms.openlocfilehash: 9d6845b7239056ec18be780060ba6ef96756f743
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ff2486db39546e88c4a75e27875a84a2c3b939ae
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973013"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371985"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Agregar servidor de Chat persistente a su Skype para topología empresarial Server 2015
  
@@ -71,8 +71,8 @@ Para implementar varios grupos de servidores de Chat persistente, repita el mism
     
    - Puede seleccionar **Instancia predeterminada** para utilizar la instancia predeterminada, o bien, para especificar una instancia diferente, seleccione **Instancia con nombre** y, luego, especifique la instancia que desee utilizar.
     
-    > [!NOTE]
-    > Para obtener información detallada sobre cómo configurar las bases de datos de copia de seguridad de SQL Server para la recuperación ante desastres, vea [Configure una alta disponibilidad y recuperación ante desastres para servidor de Chat persistente en Skype para Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
+     > [!NOTE]
+     > Para obtener información detallada sobre cómo configurar las bases de datos de copia de seguridad de SQL Server para la recuperación ante desastres, vea [Configure una alta disponibilidad y recuperación ante desastres para servidor de Chat persistente en Skype para Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
   
 9. Definir el almacén de cumplimiento de normas de SQL Server si habilitó cumplimiento.
     
@@ -87,8 +87,8 @@ Para implementar varios grupos de servidores de Chat persistente, repita el mism
     
     - En **Recurso compartido de archivos**, especifique el almacén de archivos que desee utilizar.
     
-     > [!IMPORTANT]
-     > Puede definir el almacén de archivos en el generador de topología antes de crear el almacén de archivos, pero debe crear el almacén de archivos en la ubicación definida que definir antes de publicar la topología. Si el almacén de archivos aún no existe, no se podrá publicar la topología. 
+      > [!IMPORTANT]
+      > Puede definir el almacén de archivos en el generador de topología antes de crear el almacén de archivos, pero debe crear el almacén de archivos en la ubicación definida que definir antes de publicar la topología. Si el almacén de archivos aún no existe, no se podrá publicar la topología. 
   
 11. Seleccione el grupo de servidor Front-End que se usará como próximo salto para este grupo de servidores de servidor de Chat persistente. Este es el grupo de servidor Front-End que podrá enrutar las solicitudes de servidor de Chat persistente a este grupo de servidores.
     

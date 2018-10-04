@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Este artículo describe las ventajas, las consideraciones de planeación y requisitos para implementar el servicio de correo de voz de Microsoft en la nube. Para obtener información acerca de cómo configurar el correo de voz en la nube, vea Configuración de correo de voz en la nube.
-ms.openlocfilehash: e307ddcb5159e51ebe26e6a5bee10f9b2ee716e9
-ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
+ms.openlocfilehash: 8f7c2e394aa7d3f5a04961088202d1d9055eef9e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "25030626"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370637"
 ---
 # <a name="plan-cloud-voicemail-service"></a>Planeación de servicio de correo de voz en la nube
 
@@ -81,7 +81,7 @@ Además de los requisitos anteriores, la debajo de los requisitos de debe estar 
 
 -  Si tiene una implementación sólo local--que es, sólo Exchange y Skype para la empresa local servidores--pero desea aprovechar las ventajas del correo de voz en la nube, necesita la licencia ON PREM. 
 
-##<a name="migration-and-interoperability"></a>Migración e interoperabilidad
+## <a name="migration-and-interoperability"></a>Migración e interoperabilidad
 
 Si planea implementar Skype para Business Server 2019 o 2019 de Exchange Server, debe planear la migración con cuidado para garantizar la continuidad del servicio de mensajería de voz. Tenga en cuenta lo siguiente:
 

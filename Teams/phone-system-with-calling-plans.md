@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: e4c86bb7d918a30b0abe185d67b717904702bc93
-ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
+ms.openlocfilehash: cbe14840f53d01c491159bfb3e44fe837d047558
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25352301"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371376"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Guía práctica para Sistema telefónico con planes de llamada en Microsoft Teams
 =========================================================================
@@ -63,12 +63,13 @@ Los casos de uso empresariales se aportan con la intención de documentar los re
 
 > [!TIP]
 > A continuación se muestra un ejemplo de caso de uso de negocio completado:
->|         |
->|---------|
->|**Descripción del proceso de negocio actual**<p>La configuración estándar de las áreas de trabajo de la oficina de Contoso incluye un teléfono de escritorio en cada mesa. A cada empleado se le proporcionará un número de teléfono de marcado entrante directo (DID). Los teléfonos de escritorio van conectados a un sistema PBX y a RTC mediante un tronco de protocolo de inicio de sesión (SIP). Los empleados solo pueden realizar y recibir llamadas telefónicas en sus teléfonos de escritorio asignados.|
->|**Retos que se deben conseguir con el proceso de negocio actual definido**<p>El análisis de uso de los teléfonos de escritorio muestra que solo el 10% de los teléfonos de escritorio se usan activamente, mientras que el resto están configurados para desviar llamadas a teléfonos móviles o están configurados para llamar simultáneamente a teléfonos móviles. El mantenimiento del sistema PBX existente y de los teléfonos de escritorio asociados contribuye al 20% del coste de servicio de telefonía.|
->|**De qué manera la tecnología puede ayudar a alcanzar estos retos**<p>El sistema telefónico con planes de llamada permitirá que el PC personal del usuario final pueda recibir y realizar llamadas telefónicas en la red de datos aprovechando la aplicación nativa de Microsoft Teams, eliminando así la necesidad de desplegar y mantener teléfonos de escritorio. Esto da la oportunidad de desmantelar el sistema PBX existente, ya que el servicio telefónico se puede ofrecer mediante la nube a través de la red sin tener que depender del sistema telefónico tradicional.|
->|**Propósitos y medición de los resultados de negocio**<p>Eliminar los requisitos para mantener y desmantelar el PBX heredado existente y los teléfonos de escritorio proporcionarán una reducción del 20% del gasto de servicios de telefonía mensual. El sistema telefónico con planes de llamada simplificará las áreas de trabajo de la oficina, de modo que Contoso podrá ampliar sus operaciones estableciendo nuevas oficinas con un mínimo coste de telefonía inicial.|
+> 
+> |         |
+> |---------|
+> |**Descripción del proceso de negocio actual**<p>La configuración estándar de las áreas de trabajo de la oficina de Contoso incluye un teléfono de escritorio en cada mesa. A cada empleado se le proporcionará un número de teléfono de marcado entrante directo (DID). Los teléfonos de escritorio van conectados a un sistema PBX y a RTC mediante un tronco de protocolo de inicio de sesión (SIP). Los empleados solo pueden realizar y recibir llamadas telefónicas en sus teléfonos de escritorio asignados.|
+> |**Retos que se deben conseguir con el proceso de negocio actual definido**<p>El análisis de uso de los teléfonos de escritorio muestra que solo el 10% de los teléfonos de escritorio se usan activamente, mientras que el resto están configurados para desviar llamadas a teléfonos móviles o están configurados para llamar simultáneamente a teléfonos móviles. El mantenimiento del sistema PBX existente y de los teléfonos de escritorio asociados contribuye al 20% del coste de servicio de telefonía.|
+> |**De qué manera la tecnología puede ayudar a alcanzar estos retos**<p>El sistema telefónico con planes de llamada permitirá que el PC personal del usuario final pueda recibir y realizar llamadas telefónicas en la red de datos aprovechando la aplicación nativa de Microsoft Teams, eliminando así la necesidad de desplegar y mantener teléfonos de escritorio. Esto da la oportunidad de desmantelar el sistema PBX existente, ya que el servicio telefónico se puede ofrecer mediante la nube a través de la red sin tener que depender del sistema telefónico tradicional.|
+> |**Propósitos y medición de los resultados de negocio**<p>Eliminar los requisitos para mantener y desmantelar el PBX heredado existente y los teléfonos de escritorio proporcionarán una reducción del 20% del gasto de servicios de telefonía mensual. El sistema telefónico con planes de llamada simplificará las áreas de trabajo de la oficina, de modo que Contoso podrá ampliar sus operaciones estableciendo nuevas oficinas con un mínimo coste de telefonía inicial.|
 
 Durante la fase de Enfoque, además de definir los casos de uso de su empresa, deberá aclarar los siguientes elementos:
 - Ámbito organizativo
@@ -81,24 +82,25 @@ Los casos de uso empresariales que se definieron en el paso anterior incluirán 
 
 > [!TIP]
 > A continuación se muestra un ejemplo de plantilla de matriz de participantes que puede usar para documentar los participantes del proyecto:
->|Rol  |Descripción  |Nombre, información de contacto, ubicación  |
->|---------|---------|---------|
->|Patrocinador ejecutivo de proyecto|<ul><li>La autoridad y responsable últimos del proyecto y de la consecución de los objetivos del proyecto.</li><li>Ayuda a resolver problemas que haya remitido el responsable de proyecto.</li><li>Promueve la comunicación sobre los objetivos del proyecto dentro de la empresa.</li><li>Responsable de tomar decisiones clave de estrategia.</li><li>Responsable de garantizar la disponibilidad de los recursos y el presupuesto necesarios.</li><li>Encargado de realizar revisiones empresariales trimestrales (QBR).</li><li>Obtiene el consenso y el respaldo del esfuerzo de la campaña de sensibilización.</li><li>Debe actuar como patrocinador de proyecto para el lanzamiento del programa.</li></ul>|Por añadir|
->|Responsable de proyecto|<ul><li>Administración y liderazgo en el equipo de proyecto.</li><li>Se coordina con los socios y los equipos de trabajo que están involucrados en el proyecto.</li><li>Responsable de crear y administrar planes de proyecto para alcanzar los principales resultados para el trimestre.</li><li>Se encarga de solucionar problemas procedentes de diversas funciones.</li><li>Mantiene informado de forma regular a los patrocinadores del proyecto.</li><li>Se ocupa de la incorporación de aspectos de adopción en el plan de proyecto general.</li><li>Se encarga de realizar revisiones operativas y empresariales mensuales (MBR), como contribución a las revisiones empresariales trimestrales.</li></ul>|Por añadir|
->|Arquitecto/responsable de colaboración|<ul><li>Responsable de que los ejecutivos de la empresa lleven a cabo la estrategia de colaboración.</li><li>Debe analizar y elegir los productos de colaboración para que la empresa cumpla los objetivos de negocio.</li><li>Es responsable de diseñar las operaciones para los productos de colaboración.</li><li>Define el modelo de operación y soporte.</li><li>Debe contribuir a las revisiones empresariales mensuales y trimestrales.</li><ul>|Por añadir|
->|Consultor|<ul><li>Es responsable de los servicios de configuración.</li><li>Contribuye a la arquitectura general de soluciones.</li></ul>|Por añadir|
->|Jefe de proyecto|<ul><li>Se encarga de desarrollar y mantener el plan de proyecto.</li><li>Se encarga de que las entregas de proyecto se realicen en línea con el plan y el presupuesto del proyecto.</li><li>Registra y administra los problemas que surgen en el proyecto, incluidas las remisiones a escalas superiores.</li><li>Lleva a cabo llamadas de control semanales.</li><li>Es el encargado de relacionarse y mantener informados a los patrocinadores ejecutivos del proyecto.</li><li>Trabaja con el arquitecto para definir el enfoque de administración de cambios y los planes de comunicación.</li></ul>|Por añadir|
->|Especialista en adopción/administración de cambios|<ul><li>Aporta su punto de vista en la fase de descubrimiento sobre los procesos de adopción y formación.</li><li>Participa en los talleres de estrategia de adopción.</li><li>Se encarga de desarrollar la estrategia de adopción y es responsable de ella.</li><li>Se encarga de desarrollar y llevar a cabo el plan de comunicación.</li><li>Es responsable de proporcionar formación a los usuarios finales.</li><li>Recopila comentarios y realiza encuestas.</li></ul>|Por añadir|
->|Responsable de redes|<ul><li>Aporta su punto de vista en la fase de descubrimiento sobre el diseño de redes.</li><li>Participa en la planificación durante el taller de Enfoque.</li><li>Coordina el trabajo del equipo de redes durante la ejecución del proyecto.</li></ul>|Por añadir|
->|Responsable de seguridad|<ul><li>Aporta su punto de vista en la fase de descubrimiento sobre los procesos y el diseño de la seguridad.</li><li>Participa en la planificación durante el taller de Enfoque.</li><li>Coordina el trabajo del equipo de seguridad durante la ejecución del proyecto.</li></ul>|Por añadir|
->|Responsable de telefonía|<ul><li>Aporta su punto de vista en la fase de descubrimiento sobre el diseño de la telefonía.</li><li>Participa en la planificación durante el taller de enfoque.</li><li>Coordina el trabajo del equipo de telefonía durante la ejecución del proyecto.</li></ul>|Por añadir|
->|Responsable de escritorio|<ul><li>Aporta su punto de vista en la fase de descubrimiento sobre los clientes y el proceso de actualización.</li><li>Participa en la planificación durante el taller de enfoque.</li><li>Coordina el trabajo del equipo de escritorio durante la ejecución del proyecto.</li></ul>|Por añadir|
->|Responsable del servicio de asistencia y soporte técnico|<ul><li>Aporta su punto de vista en la fase de descubrimiento sobre el modelo operativo y de soporte.</li><li>Participa en la planificación durante el taller de enfoque.</li><li>Participa en la planificación del modelo de soporte.</li><li>Coordina el trabajo de los recursos y los equipos de soporte técnico durante la ejecución del proyecto.</li></ul>|Por añadir|
->|Representantes de la unidad de negocio|<ul><li>Contribuyen en la creación de los materiales y guías de adopción basados en el usuario final.</li><li>Contribuyen en la creación de casos de uso de negocio y los revisan.</li></ul>|Por añadir|
->|Responsable de implementación|<ul><li>Garantiza que se cumplan los requisitos previos de implementación.</li><li>Involucra a los recursos del cliente para que se impliquen en la preparación y la implementación de las actividades de las primeras fases.</li><li>Participa en reuniones para revisar, preparar e implementar el estado.</li></ul>|Por añadir|
->|Administradores de TI|<ul><li>Los profesionales de TI se encargan de ayudar en la planificación y ejecución de pruebas.</li></ul>|Por añadir|
->|Propietario del servicio|<ul><li>Es responsable de que el servicio de Sistema telefónico con Planes de llamada funcione de forma continua.</li><li>Propietario del servicio de Sistema telefónico con Planes de llamada</li></ul>|Por añadir|
->|Expertos en calidad|<ul><li>Genera calidad, fiabilidad y recopila opiniones de los usuarios.</li><li>Identifica las tendencias en la calidad y propicia la corrección de los problemas con los equipos correspondientes.</li><li>Mantiene informada a la directiva a través del comité directivo.</li><li>Informa sobre la calidad, la fiabilidad y las opiniones de los usuarios a través de Valorar mi llamada y Net Promoter Score.</li></ul>|Por añadir|
+> 
+> |                 Rol                  |                                                                                                                                                                                                                                                                Descripción                                                                                                                                                                                                                                                                 | Nombre, información de contacto, ubicación |
+> |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
+> |       Patrocinador ejecutivo de proyecto       | <ul><li>La autoridad y responsable últimos del proyecto y de la consecución de los objetivos del proyecto.</li><li>Ayuda a resolver problemas que haya remitido el responsable de proyecto.</li><li>Promueve la comunicación sobre los objetivos del proyecto dentro de la empresa.</li><li>Responsable de tomar decisiones clave de estrategia.</li><li>Responsable de garantizar la disponibilidad de los recursos y el presupuesto necesarios.</li><li>Encargado de realizar revisiones empresariales trimestrales (QBR).</li><li>Obtiene el consenso y el respaldo del esfuerzo de la campaña de sensibilización.</li><li>Debe actuar como patrocinador de proyecto para el lanzamiento del programa.</li></ul> |                 Por añadir                 |
+> |             Responsable de proyecto              |                   <ul><li>Administración y liderazgo en el equipo de proyecto.</li><li>Se coordina con los socios y los equipos de trabajo que están involucrados en el proyecto.</li><li>Responsable de crear y administrar planes de proyecto para alcanzar los principales resultados para el trimestre.</li><li>Se encarga de solucionar problemas procedentes de diversas funciones.</li><li>Mantiene informado de forma regular a los patrocinadores del proyecto.</li><li>Se ocupa de la incorporación de aspectos de adopción en el plan de proyecto general.</li><li>Se encarga de realizar revisiones operativas y empresariales mensuales (MBR), como contribución a las revisiones empresariales trimestrales.</li></ul>                   |                 Por añadir                 |
+> |     Arquitecto/responsable de colaboración      |                                                                       <ul><li>Responsable de que los ejecutivos de la empresa lleven a cabo la estrategia de colaboración.</li><li>Debe analizar y elegir los productos de colaboración para que la empresa cumpla los objetivos de negocio.</li><li>Es responsable de diseñar las operaciones para los productos de colaboración.</li><li>Define el modelo de operación y soporte.</li><li>Debe contribuir a las revisiones empresariales mensuales y trimestrales.</li><ul>                                                                        |                 Por añadir                 |
+> |              Consultor               |                                                                                                                                                                                                               <ul><li>Es responsable de los servicios de configuración.</li><li>Contribuye a la arquitectura general de soluciones.</li></ul>                                                                                                                                                                                                                |                 Por añadir                 |
+> |            Jefe de proyecto            |                                                      <ul><li>Se encarga de desarrollar y mantener el plan de proyecto.</li><li>Se encarga de que las entregas de proyecto se realicen en línea con el plan y el presupuesto del proyecto.</li><li>Registra y administra los problemas que surgen en el proyecto, incluidas las remisiones a escalas superiores.</li><li>Lleva a cabo llamadas de control semanales.</li><li>Es el encargado de relacionarse y mantener informados a los patrocinadores ejecutivos del proyecto.</li><li>Trabaja con el arquitecto para definir el enfoque de administración de cambios y los planes de comunicación.</li></ul>                                                       |                 Por añadir                 |
+> | Especialista en adopción/administración de cambios |                                                                                       <ul><li>Aporta su punto de vista en la fase de descubrimiento sobre los procesos de adopción y formación.</li><li>Participa en los talleres de estrategia de adopción.</li><li>Se encarga de desarrollar la estrategia de adopción y es responsable de ella.</li><li>Se encarga de desarrollar y llevar a cabo el plan de comunicación.</li><li>Es responsable de proporcionar formación a los usuarios finales.</li><li>Recopila comentarios y realiza encuestas.</li></ul>                                                                                        |                 Por añadir                 |
+> |             Responsable de redes              |                                                                                                                                                              <ul><li>Aporta su punto de vista en la fase de descubrimiento sobre el diseño de redes.</li><li>Participa en la planificación durante el taller de Enfoque.</li><li>Coordina el trabajo del equipo de redes durante la ejecución del proyecto.</li></ul>                                                                                                                                                               |                 Por añadir                 |
+> |             Responsable de seguridad             |                                                                                                                                                        <ul><li>Aporta su punto de vista en la fase de descubrimiento sobre los procesos y el diseño de la seguridad.</li><li>Participa en la planificación durante el taller de Enfoque.</li><li>Coordina el trabajo del equipo de seguridad durante la ejecución del proyecto.</li></ul>                                                                                                                                                        |                 Por añadir                 |
+> |            Responsable de telefonía             |                                                                                                                                                              <ul><li>Aporta su punto de vista en la fase de descubrimiento sobre el diseño de la telefonía.</li><li>Participa en la planificación durante el taller de enfoque.</li><li>Coordina el trabajo del equipo de telefonía durante la ejecución del proyecto.</li></ul>                                                                                                                                                              |                 Por añadir                 |
+> |             Responsable de escritorio              |                                                                                                                                                          <ul><li>Aporta su punto de vista en la fase de descubrimiento sobre los clientes y el proceso de actualización.</li><li>Participa en la planificación durante el taller de enfoque.</li><li>Coordina el trabajo del equipo de escritorio durante la ejecución del proyecto.</li></ul>                                                                                                                                                          |                 Por añadir                 |
+> |        Responsable del servicio de asistencia y soporte técnico         |                                                                                                                          <ul><li>Aporta su punto de vista en la fase de descubrimiento sobre el modelo operativo y de soporte.</li><li>Participa en la planificación durante el taller de enfoque.</li><li>Participa en la planificación del modelo de soporte.</li><li>Coordina el trabajo de los recursos y los equipos de soporte técnico durante la ejecución del proyecto.</li></ul>                                                                                                                          |                 Por añadir                 |
+> |     Representantes de la unidad de negocio     |                                                                                                                                                                                                      <ul><li>Contribuyen en la creación de los materiales y guías de adopción basados en el usuario final.</li><li>Contribuyen en la creación de casos de uso de negocio y los revisan.</li></ul>                                                                                                                                                                                                      |                 Por añadir                 |
+> |            Responsable de implementación            |                                                                                                                                                           <ul><li>Garantiza que se cumplan los requisitos previos de implementación.</li><li>Involucra a los recursos del cliente para que se impliquen en la preparación y la implementación de las actividades de las primeras fases.</li><li>Participa en reuniones para revisar, preparar e implementar el estado.</li></ul>                                                                                                                                                            |                 Por añadir                 |
+> |               Administradores de TI               |                                                                                                                                                                                                                           <ul><li>Los profesionales de TI se encargan de ayudar en la planificación y ejecución de pruebas.</li></ul>                                                                                                                                                                                                                            |                 Por añadir                 |
+> |             Propietario del servicio             |                                                                                                                                                                                     <ul><li>Es responsable de que el servicio de Sistema telefónico con Planes de llamada funcione de forma continua.</li><li>Propietario del servicio de Sistema telefónico con Planes de llamada</li></ul>                                                                                                                                                                                      |                 Por añadir                 |
+> |           Expertos en calidad           |                                                                                                      <ul><li>Genera calidad, fiabilidad y recopila opiniones de los usuarios.</li><li>Identifica las tendencias en la calidad y propicia la corrección de los problemas con los equipos correspondientes.</li><li>Mantiene informada a la directiva a través del comité directivo.</li><li>Informa sobre la calidad, la fiabilidad y las opiniones de los usuarios a través de Valorar mi llamada y Net Promoter Score.</li></ul>                                                                                                       |                 Por añadir                 |
 
 <a name="define-objectives-and-key-results-key-success-indicators-and-risks"></a>Definir objetivos y resultados principales, indicadores de éxito principales y riesgos
 --------------------------------------------------------------------
@@ -111,37 +113,40 @@ Los OKR contendrán una lista de los objetivos que se establecieron al inicio de
 
 > [!TIP]
 > A continuación puede consultar un ejemplo de OKR relevantes para la implementación de Sistema telefónico con Planes de llamada:
-><br>
->
->**Visión: aumentar la productividad maximizando las inversiones de Office 365**
->|Objetivos  |Resultados principales  |Acciones que realizar  |
->|---------|---------|---------|
->|Implementar Sistema telefónico con Planes de llamada en las sucursales europeas a finales del año fiscal 2018|T3 2018: implementar Sistema telefónico con Planes de llamada en la oficina de Londres|Enfoque<ul><li>Crear el plan de éxito</li><li>Crear un plan técnico de implementación muy detallado</li></ul><p>Incorporación<ul><li>Ejecutar el plan de éxito</li><li>Ejecutar el plan técnico de implementación</li></ul>|
->|Retirar el sistema PBX antiguo de la oficina de Londres a finales del año fiscal 2018|T4 2018: retirar el sistema PBX antiguo de la oficina de Londres|Nuevos valores<ul><li>Potenciar la participación del usuario e impulsar la adopción</li><li>Administrar y prepararse para el cambio</li><li>Medir, compartir el éxito e iterar</li>|
+> <br>
+> 
+> **Visión: aumentar la productividad maximizando las inversiones de Office 365**
+> 
+> |Objetivos  |Resultados principales  |Acciones que realizar  |
+> |---------|---------|---------|
+> |Implementar Sistema telefónico con Planes de llamada en las sucursales europeas a finales del año fiscal 2018|T3 2018: implementar Sistema telefónico con Planes de llamada en la oficina de Londres|Enfoque<ul><li>Crear el plan de éxito</li><li>Crear un plan técnico de implementación muy detallado</li></ul><p>Incorporación<ul><li>Ejecutar el plan de éxito</li><li>Ejecutar el plan técnico de implementación</li></ul>|
+> |Retirar el sistema PBX antiguo de la oficina de Londres a finales del año fiscal 2018|T4 2018: retirar el sistema PBX antiguo de la oficina de Londres|Nuevos valores<ul><li>Potenciar la participación del usuario e impulsar la adopción</li><li>Administrar y prepararse para el cambio</li><li>Medir, compartir el éxito e iterar</li>|
 
 Los KSI miden la calidad y el éxito de los resultados principales, y complementan la naturaleza binaria de los OKR (conseguidos o no conseguidos) al detallar los buenos o los malos resultados. Para definir los KSI, recomendamos aplicar criterios SMART o criterios "específicos, medibles, atribuibles, realistas y temporales".
 
 > [!TIP]
 > A continuación se muestra un ejemplo de KSI relevantes para este proyecto:
->|Tipo  |Cuestiones y criterios sobre el KSI  |Cómo se miden  |Criterios de éxito  |Medidos  |Responsable  |
->|---------|---------|---------|---------|---------|---------|
->|Uso/adopción|La calidad de las llamadas es igual o mejor que en la solución anterior|Encuesta|El 80 % de los usuarios está de acuerdo o muy de acuerdo|Tras la habilitación y trimestralmente|Equipo de tecnología de la información|
->|Uso/adopción|El proceso de comunicación fue más sencillo gracias a Microsoft Teams|Encuesta|El 80 % de los usuarios está de acuerdo o muy de acuerdo|Tras la habilitación y trimestralmente|Equipo de administración de cambios|
->|Uso/adopción|Los usuarios utilizan la solución activamente|Informes de Office 365, panel de calidad de llamadas|El 80 % de los usuarios son usuarios activos diarios|A diario|Equipo de administración de cambios|
->|Uso/calidad|El porcentaje de llamadas/conferencias de mala calidad debe ser mínimo|Panel de calidad de llamadas|Menos del 5 % de llamadas de mala calidad al mes|A diario|Equipo de tecnología de la información|
->|Uso/soporte|Sé cómo conseguir soporte técnico|Encuesta|El 90% de los usuarios está de acuerdo o muy de acuerdo|Tras la habilitación y trimestralmente|Equipo de administración de cambios|
->|Uso/soporte|Estoy satisfecho con la calidad del soporte técnico|Encuesta|El 80 % de los usuarios está de acuerdo o muy de acuerdo|Tras cada incidente|Equipo de tecnología de la información|
->|Financiero|Reducción del gasto mensual en servicios de telefonía|Sistema financiero|Cumplir el ROI definido|Basado en ROI|Equipo de administración de cambios|
+> 
+> |Tipo  |Cuestiones y criterios sobre el KSI  |Cómo se miden  |Criterios de éxito  |Medidos  |Responsable  |
+> |---------|---------|---------|---------|---------|---------|
+> |Uso/adopción|La calidad de las llamadas es igual o mejor que en la solución anterior|Encuesta|El 80 % de los usuarios está de acuerdo o muy de acuerdo|Tras la habilitación y trimestralmente|Equipo de tecnología de la información|
+> |Uso/adopción|El proceso de comunicación fue más sencillo gracias a Microsoft Teams|Encuesta|El 80 % de los usuarios está de acuerdo o muy de acuerdo|Tras la habilitación y trimestralmente|Equipo de administración de cambios|
+> |Uso/adopción|Los usuarios utilizan la solución activamente|Informes de Office 365, panel de calidad de llamadas|El 80 % de los usuarios son usuarios activos diarios|A diario|Equipo de administración de cambios|
+> |Uso/calidad|El porcentaje de llamadas/conferencias de mala calidad debe ser mínimo|Panel de calidad de llamadas|Menos del 5 % de llamadas de mala calidad al mes|A diario|Equipo de tecnología de la información|
+> |Uso/soporte|Sé cómo conseguir soporte técnico|Encuesta|El 90% de los usuarios está de acuerdo o muy de acuerdo|Tras la habilitación y trimestralmente|Equipo de administración de cambios|
+> |Uso/soporte|Estoy satisfecho con la calidad del soporte técnico|Encuesta|El 80 % de los usuarios está de acuerdo o muy de acuerdo|Tras cada incidente|Equipo de tecnología de la información|
+> |Financiero|Reducción del gasto mensual en servicios de telefonía|Sistema financiero|Cumplir el ROI definido|Basado en ROI|Equipo de administración de cambios|
 
 Como parte de este ejercicio, hay que identificar los riesgos del negocio y definir un plan de mitigación para cada uno de los riesgos que se identifiquen. Registre esta información en un plan de riesgos.
 
 > [!TIP]
 > El plan de riesgos puede documentarse del modo que se muestra en el siguiente ejemplo:
->|Riesgo  |Probabilidad  |Impacto  |General  |Plan de mitigación  |
->|---------|---------|---------|---------|---------|
->|Con la próxima fusión se sumarán hasta 1000 personas|Alta|Alta|Alta|<ul><li>Para las empresas fusionadas, OKR independiente con proceso propio (Enfoque, Incorporación, Nuevos valores).</li><li>No se deben incluir en los OKR existentes.</li></ul>|
->|La portabilidad de los números de teléfono retrasará la finalización del proyecto.|Alta|Alta|Alta|<ul><li>Se debe preparar con antelación toda la información para la portabilidad de los números de teléfono (registro de servicios al cliente, detalles de facturación, carta de autorización).</li><li>La escala de tiempo del proyecto se debe ajustar para incluir el tiempo que se tarda en realizar la portabilidad de los números de teléfono.</li><li>Se deben usar números de teléfono temporales con manipulación del identificador de llamada.</li></ul>|
->|Se ha planificado rediseñar las redes|Alta|Mediana|Mediana|<ul><li>Antes de implementar Microsoft Teams como plataforma de colaboración y comunicaciones moderna, evalúe la preparación de la red en los sitios que se incluyen en el ámbito del proyecto.</li></ul>|
+> 
+> |Riesgo  |Probabilidad  |Impacto  |General  |Plan de mitigación  |
+> |---------|---------|---------|---------|---------|
+> |Con la próxima fusión se sumarán hasta 1000 personas|Alta|Alta|Alta|<ul><li>Para las empresas fusionadas, OKR independiente con proceso propio (Enfoque, Incorporación, Nuevos valores).</li><li>No se deben incluir en los OKR existentes.</li></ul>|
+> |La portabilidad de los números de teléfono retrasará la finalización del proyecto.|Alta|Alta|Alta|<ul><li>Se debe preparar con antelación toda la información para la portabilidad de los números de teléfono (registro de servicios al cliente, detalles de facturación, carta de autorización).</li><li>La escala de tiempo del proyecto se debe ajustar para incluir el tiempo que se tarda en realizar la portabilidad de los números de teléfono.</li><li>Se deben usar números de teléfono temporales con manipulación del identificador de llamada.</li></ul>|
+> |Se ha planificado rediseñar las redes|Alta|Mediana|Mediana|<ul><li>Antes de implementar Microsoft Teams como plataforma de colaboración y comunicaciones moderna, evalúe la preparación de la red en los sitios que se incluyen en el ámbito del proyecto.</li></ul>|
 
 <a name="assess-environment-and-evaluate-adoption-readiness"></a>Evaluar el entorno y la preparación que se tiene para la adopción
 --------------------------------------------------
@@ -176,17 +181,18 @@ Planificar las operaciones e identificar a los equipos que utilizarán el servic
 
 > [!TIP]
 > A continuación se muestra un ejemplo de una plantilla para documentar el resultado del ejercicio de asignación de roles operativos que ha realizado como parte del proyecto:
->|Rol operativo  |Descripción  |Equipo  |Datos de contacto  |
->|---------|---------|---------|---------|
->|Propietario del servicio|Propietario del servicio, interactuar con las divisiones de la empresa, estrategia|Por añadir|Por añadir|
->|Operaciones de Sistema telefónico con Planes de llamada|Operaciones diarias, transferencia/adición/cambio de cuentas de dispositivos y usuarios, supervisión|Por añadir|Por añadir|
->|Administrador de inquilinos|Cambiar la configuración de todos los inquilinos, habilitar nuevas características|Por añadir|Por añadir|
->|Servicio de asistencia|Interactuar con usuarios finales que necesitan soporte|Por añadir|Por añadir|
->|Operaciones de red|Cubre LAN, WAN, Wi-Fi y acceso a Internet|Por añadir|Por añadir|
->|Equipo de cliente y puntos de conexión|Administrar implementaciones de escritorio|Por añadir|Por añadir|
->|Operaciones de identidad|Administrar infraestructura de identidad (AD, ADFS, Azure AD)|Por añadir|Por añadir|
->|Adopción/administración de cambios|Administrar el reconocimiento, la formación y la adopción de la solución|Por añadir|Por añadir|
->|Operaciones de Exchange|Administra el entorno de Exchange|Por añadir|Por añadir|
+> 
+> |Rol operativo  |Descripción  |Equipo  |Datos de contacto  |
+> |---------|---------|---------|---------|
+> |Propietario del servicio|Propietario del servicio, interactuar con las divisiones de la empresa, estrategia|Por añadir|Por añadir|
+> |Operaciones de Sistema telefónico con Planes de llamada|Operaciones diarias, transferencia/adición/cambio de cuentas de dispositivos y usuarios, supervisión|Por añadir|Por añadir|
+> |Administrador de inquilinos|Cambiar la configuración de todos los inquilinos, habilitar nuevas características|Por añadir|Por añadir|
+> |Servicio de asistencia|Interactuar con usuarios finales que necesitan soporte|Por añadir|Por añadir|
+> |Operaciones de red|Cubre LAN, WAN, Wi-Fi y acceso a Internet|Por añadir|Por añadir|
+> |Equipo de cliente y puntos de conexión|Administrar implementaciones de escritorio|Por añadir|Por añadir|
+> |Operaciones de identidad|Administrar infraestructura de identidad (AD, ADFS, Azure AD)|Por añadir|Por añadir|
+> |Adopción/administración de cambios|Administrar el reconocimiento, la formación y la adopción de la solución|Por añadir|Por añadir|
+> |Operaciones de Exchange|Administra el entorno de Exchange|Por añadir|Por añadir|
 
 Para que se pueda llevar a cabo de una forma más detallada la asignación de roles operativos, incluidas las tareas asociadas a cada rol operativo, el [libro de trabajo para la asignación de roles operativos](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16) puede ser muy útil para capturar los detalles que determinarán con claridad cuáles son los roles y las responsabilidades que se aplicarán en el servicio de Sistema telefónico con Planes de llamada.
 
@@ -243,6 +249,7 @@ Para averiguar dónde está disponible el servicio de Planes de llamada, consult
 Tras confirmar que su organización reúne los requisitos para poder usar el complemento Planes de llamada, recopile la lista de ubicaciones de usuario u oficinas en las que se implementará el servicio de Planes de llamada según la lista de países y regiones disponibles.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>Decida en qué oficinas o ubicaciones de usuario se implementará el servicio de Planes de llamada.</li></ul>|
@@ -250,13 +257,14 @@ Tras confirmar que su organización reúne los requisitos para poder usar el com
 
 > [!TIP]
 > A continuación se muestra un ejemplo de una plantilla de la lista de habilitación del sitio de Sistema telefónico con Planes de llamada:
->|Oficina   |Ubicación |Servicio de Sistema telefónico  |
->|---------|---------|---------|
->|One Epping Road|Australia|Servicio de RTC antiguo|
->|100 Cyberport Road|RAE de Hong Kong|Servicio de RTC antiguo|
->|One Marina Boulevard|Singapur|Servicio de RTC antiguo|
->|32 London Bridge Street|Reino Unido|Sistema telefónico con Planes de llamada|
->|39 quai du Président Roosevelt|Francia|Sistema telefónico con Planes de llamada|
+> 
+> |Oficina   |Ubicación |Servicio de Sistema telefónico  |
+> |---------|---------|---------|
+> |One Epping Road|Australia|Servicio de RTC antiguo|
+> |100 Cyberport Road|RAE de Hong Kong|Servicio de RTC antiguo|
+> |One Marina Boulevard|Singapur|Servicio de RTC antiguo|
+> |32 London Bridge Street|Reino Unido|Sistema telefónico con Planes de llamada|
+> |39 quai du Président Roosevelt|Francia|Sistema telefónico con Planes de llamada|
 
 ## <a name="licensing-for-calling-plans"></a>Licencias de Planes de llamada
 
@@ -286,6 +294,7 @@ En el artículo [Créditos de comunicaciones](https://docs.microsoft.com/SkypeFo
 El uso de Créditos de comunicaciones se puede controlar por usuario, lo que le permite asegurarse de que se ha asignado la funcionalidad a personas de la organización que tienen necesidades empresariales legítimas para usarla.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>Si su organización aún no ha adquirido las licencias de Sistema telefónico que necesita, decida si estas licencias se van a adquirir incrementando las suscripciones existentes de Office 365 o comprando complementos de Sistema telefónico.</li><li>Decida qué usuarios necesitan un Plan de llamada nacional y cuáles necesitan un Plan de llamada nacional e internacional.</li><li>Decida si los Créditos de comunicaciones son necesarios para la implementación de Planes de llamada. En tal caso, decida la cantidad inicial de fondos que se va a comprar. Cuando sea necesario, decida la cantidad para el umbral y la cantidad de autorecarga.</li><li>Decida qué usuarios necesitan usar una licencia de Créditos de comunicaciones.</li></ul>|
@@ -293,23 +302,20 @@ El uso de Créditos de comunicaciones se puede controlar por usuario, lo que le 
 
 > [!TIP]
 > Puede documentar la lista de asignación de licencias a usuarios de Sistema telefónico con Planes de llamada con el ejemplo siguiente:
->|Usuario  |Oficina  |Licencia de Office 365  |Créditos de comunicaciones  |
->|---------|---------|---------|---------|
->|Emily Braun|32 London Bridge Street|Office 365 E5, Plan de llamada nacional e internacional|Habilitado|
->|Lidia Holloway|32 London Bridge Street|Office 365 E5, Plan de llamada nacional|Deshabilitado|
->|Pradeep Gupta|32 London Bridge Street|Office 365 E5, Plan de llamada nacional|Habilitado|
->|Marcel Beauchamp|39 quai du Président Roosevelt|Office 365 E3, complemento Sistema telefónico, Plan de llamada nacional|Deshabilitado|
->|Rachelle Cormier|39 quai du Président Roosevelt|Office 365 E5, Plan de llamada nacional e internacional|Habilitado|
->|Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, complemento Sistema telefónico, Plan de llamada nacional|Deshabilitado|
+> 
+> |Usuario  |Oficina  |Licencia de Office 365  |Créditos de comunicaciones  |
+> |---------|---------|---------|---------|
+> |Emily Braun|32 London Bridge Street|Office 365 E5, Plan de llamada nacional e internacional|Habilitado|
+> |Lidia Holloway|32 London Bridge Street|Office 365 E5, Plan de llamada nacional|Deshabilitado|
+> |Pradeep Gupta|32 London Bridge Street|Office 365 E5, Plan de llamada nacional|Habilitado|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Office 365 E3, complemento Sistema telefónico, Plan de llamada nacional|Deshabilitado|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Office 365 E5, Plan de llamada nacional e internacional|Habilitado|
+> |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, complemento Sistema telefónico, Plan de llamada nacional|Deshabilitado|
 
 <br>
-> [!TIP]
-> Los números de planificación de Créditos de comunicaciones se pueden documentar del modo siguiente:
->|         |         |
->|---------|---------|
->|Cantidad inicial|1000 $|
->|Cantidad de umbral|400 $|
->|Cantidad de recarga automática|Por añadir|
+&gt; [!TIP]
+&gt;Se puede documentar su créditos Communications planeación números como los siguientes: &gt;|         |         | &gt;|---------|---------|
+&gt;| Cantidad inicial | 1.000$ | &gt;| Cantidad de desencadenador | $ 400 | &gt;| Cantidad de Auto-recarga | TBA |
 
 ## <a name="phone-numbers-and-emergency-locations"></a>Números de teléfono y ubicaciones de emergencia
 
@@ -324,7 +330,7 @@ Para obtener números de teléfono de Microsoft directamente, use una de estas o
 
 - [Centro de administración de Skype Empresarial](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
 - [Cmdlets a través de una sesión remota de Windows PowerShell](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-- [Envíe un formulario de solicitud de número de teléfono nuevo](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+- [Envío de un formulario de solicitud de número de teléfono nuevo](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
 
 El formulario de solicitud de números de teléfono nuevos es la mejor opción para la adquisición planificada de números de teléfono, porque le permite solicitar un bloque de números de teléfono consecutivos. La obtención de números de teléfono mediante el centro de administración de Skype Empresarial o una sesión remota de Windows PowerShell no está disponible en todos los países o regiones.
 
@@ -341,6 +347,7 @@ Cuando configura números para Planes de llamada, es necesario asignar una direc
 Además de las direcciones de emergencia validadas, se pueden definir ubicaciones de emergencia y asociarlas con direcciones de emergencia validadas para proporcionar una ubicación más precisa en una dirección. Una ubicación de emergencia es, normalmente, el número de edificio, la planta, la sección del edificio o el número de oficina donde se encuentra el usuario.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>Decida cómo se obtendrán los números de teléfono para las oficinas o ubicaciones de usuario que entran dentro de la implementación de Planes de llamada (obtenerlos de Microsoft o transferir números de teléfono existentes).</li><li>Si elige obtenerlos de Microsoft, decida el método para obtener los números de teléfono (envío de formulario o automatizado) para las oficinas o ubicaciones de usuario que entran dentro de la implementación de Planes de llamada.</li><li>Decida el nivel de detalle de la información sobre ubicación de emergencia que se recopilará para definir las oficinas o ubicaciones de usuario dentro de la implementación de Planes de llamada.</li></ul>|
@@ -348,14 +355,15 @@ Además de las direcciones de emergencia validadas, se pueden definir ubicacione
 
 > [!TIP]
 > Los detalles sobre la adquisición de números de teléfono, los números de teléfono y los datos de las ubicaciones de emergencia se pueden documentar con la plantilla siguiente:
->|Usuario  |Ubicación y dirección de emergencia  |Adquisición de número de teléfono  |Número de teléfono  |
->|---------|---------|---------|---------|
->|Emily Braun|1034/32 London Bridge Street, Londres, SE1, Reino Unido|Puerto existente|+44 20 7946 0034|
->|Lidia Holloway|1023/32 London Bridge Street, Londres, SE1, Reino Unido|Puerto existente|+44 20 7946 0065|
->|Pradeep Gupta|1023/32 London Bridge Street, Londres, SE1, Reino Unido|Puerto existente|+44 20 7946 0023|
->|Marcel Beauchamp|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, Francia|Adquirir nuevo|Por añadir|
->|Rachelle Cormier|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, Francia|Adquirir nuevo|Por añadir|
->|Isabell Potvin|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, Francia|Adquirir nuevo|Por añadir|
+> 
+> |Usuario  |Ubicación y dirección de emergencia  |Adquisición de número de teléfono  |Número de teléfono  |
+> |---------|---------|---------|---------|
+> |Emily Braun|1034/32 London Bridge Street, Londres, SE1, Reino Unido|Puerto existente|+44 20 7946 0034|
+> |Lidia Holloway|1023/32 London Bridge Street, Londres, SE1, Reino Unido|Puerto existente|+44 20 7946 0065|
+> |Pradeep Gupta|1023/32 London Bridge Street, Londres, SE1, Reino Unido|Puerto existente|+44 20 7946 0023|
+> |Marcel Beauchamp|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, Francia|Adquirir nuevo|Por añadir|
+> |Rachelle Cormier|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, Francia|Adquirir nuevo|Por añadir|
+> |Isabell Potvin|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, Francia|Adquirir nuevo|Por añadir|
 
 ## <a name="voicemail"></a>Correo de voz
 
@@ -369,6 +377,7 @@ El correo de voz de Sistema telefónico cuenta con transcripción del correo de 
 > Se ha implementado un mecanismo de reserva para que el correo de Sistema telefónico pueda reenviar mensajes mediante SMTP, lo que implica que los usuarios con un buzón de un sistema de correo electrónico de terceros podrán recibir sus mensajes de correo de voz. Sin embargo, no se ofrecen garantías sobre la actividad del servicio ni la disponibilidad de otras funciones del correo de voz, como el cambio del saludo y otros ajustes de configuración.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>Decida si habilitará el correo de voz de Sistema telefónico para la implementación de Planes de llamada.</li><li>Si se usa Exchange local y la implementación existente no cumple los requisitos de compatibilidad del correo de voz de Sistema telefónico, elija una de las opciones disponibles (actualizar y realizar la configuración para lograr la compatibilidad con el correo de voz de Sistema telefónico, migrar a Exchange Online o utilizar el mecanismo de reserva).</li><li>Decida si la transcripción del correo de voz estará activada o desactivada en toda la organización, o para usuarios específicos.</li></ul>|
@@ -376,20 +385,22 @@ El correo de voz de Sistema telefónico cuenta con transcripción del correo de 
 
 > [!TIP]
 > Los detalles sobre el correo de voz de Sistema telefónico para la implementación de Sistema telefónico con Planes de llamada se pueden documentar del siguiente modo:
->|Usuario  |Buzón de Exchange  |Habilitar el correo de voz  |Transcripción de correo de voz  |
->|---------|---------|---------|---------|
->|Emily Braun|En línea|Sí|Habilitado|
->|Lidia Holloway|En línea|Sí|Habilitado|
->|Pradeep Gupta|Local|Sí|Habilitado|
->|Marcel Beauchamp|Local|Sí|Deshabilitado|
->|Rachelle Cormier|En línea|Sí|Deshabilitado|
->|Isabell Potvin|Local|Sí|Deshabilitado|
+> 
+> |Usuario  |Buzón de Exchange  |Habilitar el correo de voz  |Transcripción de correo de voz  |
+> |---------|---------|---------|---------|
+> |Emily Braun|En línea|Sí|Habilitado|
+> |Lidia Holloway|En línea|Sí|Habilitado|
+> |Pradeep Gupta|Local|Sí|Habilitado|
+> |Marcel Beauchamp|Local|Sí|Deshabilitado|
+> |Rachelle Cormier|En línea|Sí|Deshabilitado|
+> |Isabell Potvin|Local|Sí|Deshabilitado|
 
 ## <a name="calling-identity"></a>Identidad de llamada
 
 De forma predeterminada, todas las llamadas salientes usan el número de teléfono asignado como identidad de llamada (identificador de llamada). El destinatario de la llamada puede identificar rápidamente a la persona que llama y decidir si desea aceptar o rechazar la llamada. En algunos casos, existen requisitos empresariales legítimos para ocultar el identificador de llamada con el fin de proteger la identidad de la persona que llama usando en su lugar el número de la línea principal de la oficina (normalmente se trata de un número de servicio configurado para ser atendido con un [operador automático](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)) o bloqueando la presentación del identificador de llamada.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>Decida si la manipulación del identificador de llamada es necesaria para la implementación de Planes de llamada.</li><li>Si corresponde, decida qué tipos de manipulación del identificador de llamada se implementarán (enmascaramiento con un número de servicio o anonimia).</li><li>Si corresponde, decida qué usuarios requieren la manipulación del identificador de llamada y el tipo de manipulación que se asignará a cada usuario.</li></ul>|
@@ -397,14 +408,15 @@ De forma predeterminada, todas las llamadas salientes usan el número de teléfo
 
 > [!TIP]
 > A continuación se muestra un ejemplo de una plantilla de documentación de los detalles sobre el enmascaramiento del identificador de llamada:
->|Usuario  |Habilitar el enmascaramiento del identificador de llamada en llamadas salientes  |Tipo de enmascaramiento del identificador de llamada  |Permitir la invalidación por parte del usuario  | Habilitar el enmascaramiento del identificador de llamada en llamadas entrantes  |
->|---------|---------|---------|---------|---------|
->|Emily Braun|No|N/D|Sí|No|
->|Lidia Holloway|Sí|Número de servicio (OrgAA, +44 20 7946 0000)|No|Sí|
->|Pradeep Gupta|No|N/D|Sí|No|
->|Marcel Beauchamp|Sí|Número de servicio (OrgAA, TBA)|No|Sí|
->|Rachelle Cormier|Sí|Anonimizar|Sí|No|
->|Isabell Potvin|Sí|Número de servicio (OrgAA, TBA)|No|Sí|
+> 
+> |Usuario  |Habilitar el enmascaramiento del identificador de llamada en llamadas salientes  |Tipo de enmascaramiento del identificador de llamada  |Permitir la invalidación por parte del usuario  | Habilitar el enmascaramiento del identificador de llamada en llamadas entrantes  |
+> |---------|---------|---------|---------|---------|
+> |Emily Braun|No|N/D|Sí|No|
+> |Lidia Holloway|Sí|Número de servicio (OrgAA, +44 20 7946 0000)|No|Sí|
+> |Pradeep Gupta|No|N/D|Sí|No|
+> |Marcel Beauchamp|Sí|Número de servicio (OrgAA, TBA)|No|Sí|
+> |Rachelle Cormier|Sí|Anonimizar|Sí|No|
+> |Isabell Potvin|Sí|Número de servicio (OrgAA, TBA)|No|Sí|
 
 ## <a name="dial-plans"></a>Planes de marcado
 
@@ -429,6 +441,7 @@ El plan de marcado efectivo que se asigna a los usuarios es la combinación del 
 Hay un máximo de 25 reglas de normalización en cada plan de marcado de inquilino y, por lo tanto, hay que evitar duplicar las reglas de normalización que ya están disponibles como parte del plan de marcado de servicio.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>Decida si su organización necesita planes de marcado personalizados (requisitos empresariales, requisitos de adopción, etc.).</li><li>En caso de necesitarlos, decida qué ámbito del plan de marcado de inquilino (inquilino global o usuario de inquilino) se ajusta a los requisitos de los planes de marcado personalizados.</li><li>En caso necesario, decida los planes de marcado de inquilino que se van a crear como soporte para las oficinas o ubicaciones de usuario en las que se va a implementar Planes de llamada.</li><li>En caso necesario, decida qué usuario necesita un plan de marcado personalizado y qué plan de marcado de inquilino se va a asignar a cada usuario.</li></ul>|
@@ -436,23 +449,17 @@ Hay un máximo de 25 reglas de normalización en cada plan de marcado de inquili
 
 > [!TIP]
 > Si es aplicable a su proyecto, puede usar la siguiente plantilla para documentar las configuraciones de planes de marcado de inquilino:
->|Nombre de plan de marcado de inquilino<br>Descripción  |Nombre de reglas de normalización<br>_Descripción_  |Patrón<br>Traducción<br>IsInternalExtension  |
->|---------|---------|---------|
->|**FR-Paris-Issy-39qdPR**<br>_Plan de marcado de 39 quai du Président Roosevelt Issy-les-Moulineaux, Francia_|**FR-39qdPR-Internal**<br>_Número interno (x7000 – x7999) para 39 quai du Président Roosevelt office, Issy-les-Moulineaux, Francia_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_Normalización de número gratuito para Francia_|^0?(80\d{7})\d*$<br>+33$1<br>False|
->||**FR-Service**<br>_Normalización de número de servicio para Francia_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>1 $<br>False|
+> 
+> |Nombre de plan de marcado de inquilino<br>Descripción  |Nombre de reglas de normalización<br>_Descripción_  |Patrón<br>Traducción<br>IsInternalExtension  |
+> |---------|---------|---------|
+> |**FR-Paris-Issy-39qdPR**<br>_Plan de marcado de 39 quai du Président Roosevelt Issy-les-Moulineaux, Francia_|**FR-39qdPR-Internal**<br>_Número interno (x7000 – x7999) para 39 quai du Président Roosevelt office, Issy-les-Moulineaux, Francia_|^(7\d{3})$<br>+3319999$1<br>True|
+> ||**FR-TollFree**<br>_Normalización de número gratuito para Francia_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
+> ||**FR-Service**<br>_Normalización de número de servicio para Francia_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>1 $<br>False|
 
 <br>
-> [!TIP]
-> La plantilla de ejemplo siguiente se puede utilizar para documentar las asignaciones de planes de marcado de su proyecto:
->|Usuario  |Oficina  |Tipo de plan de marcado  |Nombre de plan de marcado  |
->|---------|---------|---------|---------|
->|Emily Braun|32 London Bridge Street|Plan de marcado de servicio|N/D|
->|Lidia Holloway|32 London Bridge Street|Plan de marcado de servicio|N/D|
->|Pradeep Gupta|32 London Bridge Street|Plan de marcado de servicio|N/D|
->|Marcel Beauchamp|39 quai du Président Roosevelt|Plan de marcado de inquilino|FR-Paris-Issy-39qdPR|
->|Rachelle Cormier|39 quai du Président Roosevelt|Plan de marcado de inquilino|FR-Paris-Issy-39qdPR|
->|Isabell Potvin|39 quai du Président Roosevelt|Plan de marcado de inquilino|FR-Paris-Issy-39qdPR|
+&gt; [!TIP]
+&gt;La plantilla de ejemplo que aparece a continuación se puede sacar provecho a las asignaciones del plan de marcado de documento para admitir el proyecto: &gt;| Usuario | Office | Tipo de Plan de marcado | Nombre del Plan de marcado | &gt;|---------|---------|---------|---------|
+&gt;| Emily Braun | calle de puente de Londres 32 | Plan de marcado de servicio | N/A | &gt;| lidia Holloway | calle de puente de Londres 32 | Plan de marcado de servicio | N/A | &gt;| Pradeep Gupta | calle de puente de Londres 32 | Plan de marcado de servicio | N/A | &gt;| Marcel Beauchamp | 39 quai du presidente Roosevelt | Plan de marcado de inquilino | FR-París-Issy-39qdPR | &gt;| Rachelle Cormier | 39 quai du presidente Roosevelt | Plan de marcado de inquilino | FR-París-Issy-39qdPR | &gt;| Isabell Potvin | 39 quai du presidente Roosevelt | Plan de marcado de inquilino | FR-París-Issy-39qdPR |
 
 ## <a name="document-technical-implementation-plan"></a>Documentar el plan técnico de implementación
 
