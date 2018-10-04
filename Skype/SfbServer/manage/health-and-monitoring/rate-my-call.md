@@ -9,47 +9,47 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: 'Resumen: Obtenga información sobre la característica de tasa mi llamada de Skype para Business Server.'
-ms.openlocfilehash: 737d6a71f6880139d558d601a14d8f76c61d80f2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3e4e2f63c9d61bacab73838933ef89130714f6f0
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989066"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373476"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Tasa de mi llamada de Skype para Business Server
- 
+
 **Resumen:** Obtenga información acerca de la característica de tasa mi llamada de Skype para Business Server.
-  
+
 Tasa de Mis llamadas era una nueva característica de Skype para 2015 de negocios y clientes de 2016 en Windows que proporciona una forma de obtener comentarios de los usuarios finales de las empresas.
-  
+
 La ventana de tasa mi llamada ofrece un sistema de clasificación "estrella" y tokens predefinidos para llamadas de audio y vídeo. Además, los administradores pueden habilitar un campo personalizado proporcionar comentarios.
-  
+
 Actualmente, los datos recopilados de Valorar mi llamada no se incluyen en ningún informe de supervisión existente, aunque dispone de un informe de supervisión independiente. Se recopilan datos en tablas SQL que se pueden tener acceso mediante la ejecución de consultas SQL.
-  
+
 ## <a name="rate-my-call-prerequisites"></a>Requisitos previos de Valorar mi llamada
 
 Antes de que los usuarios de su Skype para la implementación de Business Server pueden tener acceso a funcionalidad tasa Mis llamadas, se debe implementar y configurar el siguiente conjunto de componentes:
-  
+
 -  Debe tener Skype para Business Server instalado (versión 9160 o posterior).
-    
+
 - Hacer que los usuarios instalar y actualizar a la versión más reciente de Skype para la empresa y pídales también debe usar el Skype para la interfaz de usuario de negocio.
-    
+
 - Los usuarios deben estar alojados en el Skype para grupo de negocio de servidor Front-End.
-    
+
 - Debe tener un Skype para base de datos supervisión Business Server implementado y asociado a su Skype para grupos de servidores de negocio.
-    
+
 - Le recomendamos que implemente el Panel de calidad de llamadas (CQD).
-    
+
 ## <a name="configure-rate-my-call"></a>Configurar Valorar mi llamada
 
 La característica tasa mi llamada está habilitada de forma predeterminada en la directiva de cliente con la siguiente configuración:
-  
+
 - Tasa de mi llamada para mostrar porcentaje - 10%
-    
+
 - Tasa de mi llamada permitir personalizada los comentarios del usuario - deshabilitado
-    
+
 No hay ninguna acción necesaria para habilitar la característica base, sin embargo, pero si desea que los comentarios personalizado debe habilitarlo por separado. El siguiente cmdlet de Windows PowerShell es un ejemplo de habilitar comentarios del usuario final personalizado y cambiar el intervalo de un 10% al 80%.
-  
+
 ```
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
 ```
@@ -57,13 +57,13 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 ## <a name="accessing-rate-my-call-data"></a>Obtener acceso a los datos de Valorar mi llamada
 
 Se recopilan datos de los usuarios de dos tablas de la base de datos de supervisión.
-  
+
  **[QoeMetrics]. [dbo]. [CallQualityFeedbackToken]** -Esta tabla contiene los resultados de sondeo token por los usuarios finales.
-  
+
  **[QoeMetrics]. [dbo]. [CallQualityFeedbackTokenDef]** -Esta tabla contiene las definiciones de símbolo (token).
-  
+
 Las definiciones de tokens se codifican del siguiente modo:
-  
+
 |||
 |:-----|:-----|
 |1  <br/> |DistortedSpeech  <br/> |
@@ -104,15 +104,15 @@ Las definiciones de tokens se codifican del siguiente modo:
 |408  <br/> |SS_Other  <br/> |
 |501  <br/> |Reliabilty_Join  <br/> |
 |502  <br/> |Reliabilty_Invite  <br/> |
-   
+
  **[QoeMetrics]. [dbo]. [CallQualityFeedback]** Esta tabla contiene los resultados de sondeo de comentarios de voto y atención al cliente "Estrella" si se habilita.
-  
+
 Datos de tablas que se pueden llamar mediante el uso de un **seleccione \* de [Table.Name]** consulta o mediante el uso de Microsoft SQL Server Management Studio.
-  
+
 Se pueden utilizar las siguientes consultas SQL:
-  
+
  **Audio**
-  
+
 ```
 SELECT
         s.ConferenceDateTime
@@ -146,11 +146,10 @@ SELECT
             (CallerCqfToken.TokenId < 20 or (CallerCqfToken.TokenId > 100 and CallerCqfToken.TokenId < 200)) -- only look at Audio related feedback
         INNER JOIN [User] AS Caller WITH (NOLOCK) ON
             Caller.UserKey = CallerCqf.FromURI
- 
 ```
 
  **Vídeo**
-  
+
 ```
 SELECT
         s.ConferenceDateTime
@@ -189,7 +188,7 @@ SELECT
 ## <a name="updating-token-definitions"></a>Actualización de definiciones de símbolo (token)
 
 El último Skype para clientes empresariales notificar nuevo token problema identificadores (\> 100) que pueden no estar presentes en la sección [QoeMetrics]. [dbo]. Tabla [CallQualityFeedbackTokenDef]. Para actualizar la tabla de base de datos con las últimas definiciones de símbolo (token), el comando debajo de SQL se puede ejecutar en la base de datos de supervisión con Microsoft SQL Server Management Studio. Este comando reemplazará todas las entradas en la sección [QoeMetrics]. [dbo]. Tabla [CallQualityFeedbackTokenDef].
-  
+
 ```
 DELETE FROM [CallQualityFeedbackTokenDef];
 INSERT INTO [CallQualityFeedbackTokenDef] (TokenId, TokenDescription) VALUES
@@ -231,7 +230,6 @@ INSERT INTO [CallQualityFeedbackTokenDef] (TokenId, TokenDescription) VALUES
     (408, N'SS_Other'),
     (501, N'Reliabilty_Join'),
     (502, N'Reliabilty_Invite');
-
 ```
 
 

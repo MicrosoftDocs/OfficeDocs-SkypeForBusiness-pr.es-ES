@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para agregar un nuevo servidor a un grupo de servidores existente, donde el grupo de servidores es uno de los siguientes:'
-ms.openlocfilehash: 57f791910ea81a552c58d94c865938c3c1f82e61
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: b138dc46f8259620e1e3a34bb86a83d243e9c825
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21064888"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373986"
 ---
 # <a name="add-server"></a>Agregar servidor
  
@@ -45,13 +45,13 @@ Cada uno de los nuevos servidores de grupo de servidores tiene requisitos difere
     
 - Seleccione **Habilitar IPv6** para habilitar IPv6 para este servidor.
     
- **Servidor de director**
+  **Servidor de director**
   
 - El FQDN del nuevo servidor tal como se define en DNS.
     
 - Seleccione **usar todas las direcciones IP**, lo que significa que se utilizará cualquier dirección IP que se haya definido en el equipo. Como alternativa, seleccione **limitar el uso del servicio a las direcciones IP seleccionadas** y escriba una dirección IP específica en el nuevo servidor. La dirección IP que ha escrito es la única dirección IP que se va a responder para los servicios hospedados.
     
- **Servidor de mediación**
+  **Servidor de mediación**
   
 - El FQDN del nuevo servidor tal como se define en DNS.
     
@@ -60,13 +60,13 @@ Cada uno de los nuevos servidores de grupo de servidores tiene requisitos difere
     > [!NOTE]
     > Para el servidor de mediación, la dirección IP especificada para la dirección IP principal y la dirección IP de PSTN es el mismo de forma predeterminada. Las direcciones IP se pueden definir por separado si está usando interfaces de red dedicada o separe las direcciones IP en la misma interfaz de red. Si dispone de interfaces de red de dos, uno para la conexión de red local y otro para la conexión de RTC, debe asignar direcciones IP diferentes. 
   
- **Servidor de conferencia de audio y vídeo**
+  **Servidor de conferencia de audio y vídeo**
   
 - El FQDN del nuevo servidor tal como se define en DNS.
     
 - Seleccione **usar todas las direcciones IP**, lo que significa que se puede usar cualquier dirección IP que se haya definido en el equipo. Como alternativa, puede seleccionar **limitar el uso del servicio a las direcciones IP seleccionadas** y escriba una dirección específica en el nuevo servidor. La dirección IP que ha escrito es la única dirección IP que se va a responder para los servicios hospedados.
     
- **Servidor de aplicaciones de confianza**
+  **Servidor de aplicaciones de confianza**
   
 - El FQDN del nuevo servidor tal como se define en DNS.
     

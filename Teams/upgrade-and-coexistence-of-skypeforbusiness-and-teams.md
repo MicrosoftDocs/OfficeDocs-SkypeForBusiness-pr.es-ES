@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 836ebb663c4d3062b2cce942228d35aa6c227d07
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: c680dccb697030cf0dbf7dcb75a4b26daf1ce6d3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016456"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374174"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación] (media/upgrade-banner-deployment.png "Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación")
 
@@ -85,8 +85,8 @@ Los equipos se implementa en la organización en el modo de **Islas** de evaluac
 
 Con el tiempo, se pueden actualizar grupos de usuarios al modo de **sólo los equipos** , seguido por el resto de la organización. Finalmente, estará lista para retirar Skype para la empresa y usar sólo los equipos de comunicaciones y colaboración, toda la organización o, si los requisitos empresariales exigen que se conserven Skype para la empresa para un grupo específico: la mayoría de los usuarios en el organización puede usar únicamente los equipos. <br><br>
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul> ¿Qué viaje por la actualización es adecuado para los requisitos empresariales de su organización?<br><br></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Siguiente paso</td><td><ul> Identificación de su modelo de implementación actual, escenarios de casos de uso y consideraciones clave para su organización le informará el viaje a los equipos que es más adecuado para su organización.<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul> ¿Qué viaje por la actualización es adecuado para su organización & #39; los requisitos de negocio de s?<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Siguiente paso</td><td><ul> Identificación de su modelo de implementación actual, escenarios de casos de uso y consideraciones clave para su organización le informará el viaje a los equipos que es más adecuado para su organización.<br><br></ul></td></tr>
 </table>
 
 ## <a name="upgrade-scenarios"></a>Escenarios de actualización
@@ -100,8 +100,8 @@ En función de la actualización viajes descritos anteriormente en este artícul
 |Skype para Business Server (local) |Inquilino de Office 365 con Azure Connect de AD y Exchange Online<br><br> Skype para la empresa y SharePoint están instalados en servidores locales|Característica de voz de empresa completa set (Skype para Business Server 2015) actualmente en uso<br><br> Centro de contacto implementado<br><br> Las reuniones se llevan a cabo con los usuarios federados internos y externos, uso de VoIP y conferencia de acceso telefónico<br><br> Mensajería con usuarios internos y externos|Implementar SharePoint en línea<br><br> Configuración de Skype para entornos híbridos de negocio (dominio dividido)<br><br>**Guía básica de mensajería**: característica de federación lanzará Q2 de 2018<br><br> **Guía básica de reuniones**: federados participación en la reunión, característica de la sala de espera de RTC lanzará Q2 de 2018<br><br> **Guía básica de llamada**: característica lanzará T4 de 2018 y en adelante<br><br>Bloques de creación:<ul><li>Modo de <b>Islas</b> (prueba piloto)</li><li>Modo de <b>Skype para la empresa con sólo la colaboración de equipos</b></li><li>Modo de <b>Skype para la empresa con la colaboración de los equipos y las reuniones</b></li><li>Modo de <b>sólo los equipos</b> y el modo de <b>Skype para la empresa solo</b></li></ul><br>Investigue la actualización a Skype para Business Server 2019|
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul> ¿Qué escenario de actualización es aplicable a su organización?<br><br></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul> Decidir la escala de tiempo de viaje de actualización de la organización en función de mensajería, las reuniones y llamar a los requisitos empresariales.<br><br> Decidir el trabajo adicional necesario para completar su viaje por la actualización.<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul> ¿Qué escenario de actualización es aplicable a su organización?<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul> Decidir la escala de tiempo de la organización & #39; viaje por la actualización de s basado en mensajería, reuniones y llamar a los requisitos empresariales.<br><br> Decidir el trabajo adicional necesario para completar su viaje por la actualización.<br><br></ul></td></tr>
 </table>
 
 Una vez que se ha elegido el viaje de actualización mejor para su organización, [realizar la actualización a los equipos](https://aka.ms/SkypeToTeams-Upgrade).

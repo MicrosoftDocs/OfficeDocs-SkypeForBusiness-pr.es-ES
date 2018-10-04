@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: f82788d34e492b6dd3fe54c60168b8d83b3c09e2
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d97c95ed3fd4d398a4422645ab1e1491e1df6e3c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25018012"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375240"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de comunicaciones para su organización
 
@@ -67,18 +67,18 @@ Para obtener más información, vea [Skype para profesionales y los equipos de M
     
 4. En la página de suscripción de **Créditos Communications** , rellene la información y, a continuación, haga clic en **siguiente**:
     
-  - **Agregar fondos** Escriba la cantidad que se desea agregar a su cuenta. Si no habilita auto-recarga, una vez que se agota estos fondos, se interrumpirá la llamada capacidades que están habilitadas utilizando créditos Communications (por ejemplo, un servicio gratuito entrante). Para evitar tener que reabastecer manualmente su saldo Communications créditos cada vez que su saldo llega a 0 (cero), se recomienda que habilitar la característica auto-recarga.
+   - **Agregar fondos** Escriba la cantidad que se desea agregar a su cuenta. Si no habilita auto-recarga, una vez que se agota estos fondos, se interrumpirá la llamada capacidades que están habilitadas utilizando créditos Communications (por ejemplo, un servicio gratuito entrante). Para evitar tener que reabastecer manualmente su saldo Communications créditos cada vez que su saldo llega a 0 (cero), se recomienda que habilitar la característica auto-recarga.
     
-  - **Recarga automática** Si habilita la recarga automática, ls cuenta se rellenará automáticamente cuando el saldo esté por debajo del umbral que establezca.
+   - **Recarga automática** Si habilita la recarga automática, ls cuenta se rellenará automáticamente cuando el saldo esté por debajo del umbral que establezca.
     
-    Se recomienda que utilice la opción **automático recarga** para evitar cualquier interrupción del servicio debe su saldo Communications créditos llegar a 0 (cero). Se le enviará un correo electrónico cuando se realizan con éxito en las transacciones de recarga, cuando las transacciones de recarga producirá un error (por ejemplo, una tarjeta de crédito caducada) y cuando su saldo Communications créditos llega a 0 (cero).
+     Se recomienda que utilice la opción **automático recarga** para evitar cualquier interrupción del servicio debe su saldo Communications créditos llegar a 0 (cero). Se le enviará un correo electrónico cuando se realizan con éxito en las transacciones de recarga, cuando las transacciones de recarga producirá un error (por ejemplo, una tarjeta de crédito caducada) y cuando su saldo Communications créditos llega a 0 (cero).
     
-  - **Recargar el importe** Escriba la cantidad en el cuadro **recargue con la** que desee agregar a su cuenta una vez que alcanza la cantidad de desencadenador que aparece a continuación.
+   - **Recargar el importe** Escriba la cantidad en el cuadro **recargue con la** que desee agregar a su cuenta una vez que alcanza la cantidad de desencadenador que aparece a continuación.
     
-  - **Cantidad de desencadenador** Escriba la cantidad en **cuando el saldo cae por debajo de** cuadro que se va a usar para ' *desencadenador* ' la recarga automático. Una vez que su saldo cae por debajo de esta cantidad, la cantidad de recarga se agregará automáticamente a su cuenta.
+   - **Cantidad de desencadenador** Escriba la cantidad en **cuando el saldo cae por debajo de** cuadro que se va a usar para ' *desencadenador* ' la recarga automático. Una vez que su saldo cae por debajo de esta cantidad, la cantidad de recarga se agregará automáticamente a su cuenta.
 
       > [!NOTE]
-    > Fondos se aplicará sólo a créditos Communications en Microsoft publicado tasas cuando se usan los servicios. Los fondos que no se usen en 12 meses desde la fecha de compra se perderán. 
+     > Fondos se aplicará sólo a créditos Communications en Microsoft publicado tasas cuando se usan los servicios. Los fondos que no se usen en 12 meses desde la fecha de compra se perderán. 
     
 5. Escriba la información de pago y haga clic en **Realizar pedido**.
     >[!IMPORTANT]

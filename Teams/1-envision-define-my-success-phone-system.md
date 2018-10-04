@@ -13,12 +13,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
-ms.openlocfilehash: 0817b661d79a6adc5d3c85635dce579a841f1b49
-ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
+ms.openlocfilehash: 4dd22442cec0a2171a9833b043af415b02b78d99
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965510"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374336"
 ---
 # <a name="define-my-success"></a>Definir mi éxito
 
@@ -46,12 +46,13 @@ Casos de uso de negocio están diseñados para definir y documentar los resultad
 
 > [!TIP]
 > A continuación se muestra un ejemplo de caso de uso de negocio completado:
->|         |
->|---------|
->|**Descripción del proceso de negocio actual**<br>La configuración estándar de las áreas de trabajo de la oficina de Contoso incluye un teléfono de escritorio en cada mesa. Cada empleado se han concedido un entrante directa marcando el número de teléfono (DID). Los teléfonos de escritorio están conectados a un sistema PBX y conectados a la RTC a través de un tronco de protocolo (SIP) de inicio de sesión. Los empleados solo pueden realizar y recibir llamadas telefónicas en sus teléfonos de escritorio asignados.|
->|**Retos que se deben conseguir con el proceso de negocio actual definido**<br>Análisis de uso de los teléfonos de escritorio se muestra que sólo un 10% de los teléfonos de escritorio se usa activamente, con el resto configurado, ya sea para transferir las llamadas a los teléfonos móviles o simultáneamente a los teléfonos móviles. Mantener el sistema PBX existente y teléfonos de escritorio asociados contribuye al 20% del coste de servicio de telefonía mensual de Contoso.|
->|**De qué manera la tecnología puede ayudar a alcanzar estos retos**<br>Sistema telefónico con planes de llamada le permitirá equipo de personal de un usuario recibir y realizar llamadas de teléfono a través de la red de datos mediante el aprovechamiento de la aplicación Microsoft Teams nativa. Esto elimina la necesidad de desplegar y mantener los teléfonos de escritorio y abre la oportunidad para dar de baja el sistema PBX existente, debido a que el servicio de teléfono se puede entregar a través de la nube a través de la red sin dependencia en un sistema telefónico tradicional.|
->|**Propósitos y medición de los resultados de negocio**<br>Eliminación de los requisitos de mantenimiento y retirar PBX heredado y teléfonos de escritorio ofrecerán una reducción del 20% en telefonía mensual los gastos de servicio. El sistema telefónico con planes de llamada simplificará las áreas de trabajo de la oficina, de modo que Contoso podrá ampliar sus operaciones estableciendo nuevas oficinas con un mínimo coste de telefonía inicial.|
+> 
+> |         |
+> |---------|
+> |**Descripción del proceso de negocio actual**<br>La configuración estándar de las áreas de trabajo de la oficina de Contoso incluye un teléfono de escritorio en cada mesa. Cada empleado se han concedido un entrante directa marcando el número de teléfono (DID). Los teléfonos de escritorio están conectados a un sistema PBX y conectados a la RTC a través de un tronco de protocolo (SIP) de inicio de sesión. Los empleados solo pueden realizar y recibir llamadas telefónicas en sus teléfonos de escritorio asignados.|
+> |**Retos que se deben conseguir con el proceso de negocio actual definido**<br>Análisis de uso de los teléfonos de escritorio se muestra que sólo un 10% de los teléfonos de escritorio se usa activamente, con el resto configurado, ya sea para transferir las llamadas a los teléfonos móviles o simultáneamente a los teléfonos móviles. Mantener el sistema PBX existente y teléfonos de escritorio asociados contribuye al 20% del coste de servicio de telefonía mensual de Contoso.|
+> |**De qué manera la tecnología puede ayudar a alcanzar estos retos**<br>Sistema telefónico con planes de llamada le permitirá equipo de personal de un usuario recibir y realizar llamadas de teléfono a través de la red de datos mediante el aprovechamiento de la aplicación Microsoft Teams nativa. Esto elimina la necesidad de desplegar y mantener los teléfonos de escritorio y abre la oportunidad para dar de baja el sistema PBX existente, debido a que el servicio de teléfono se puede entregar a través de la nube a través de la red sin dependencia en un sistema telefónico tradicional.|
+> |**Propósitos y medición de los resultados de negocio**<br>Eliminación de los requisitos de mantenimiento y retirar PBX heredado y teléfonos de escritorio ofrecerán una reducción del 20% en telefonía mensual los gastos de servicio. El sistema telefónico con planes de llamada simplificará las áreas de trabajo de la oficina, de modo que Contoso podrá ampliar sus operaciones estableciendo nuevas oficinas con un mínimo coste de telefonía inicial.|
 
 Además de definir su negocio use casos, para establecer los límites del proyecto debe tener como objetivo para que resulte más claro de unidad alrededor de:
 
@@ -62,6 +63,7 @@ Además de definir su negocio use casos, para establecer los límites del proyec
 -   **Escala de tiempo del proyecto:** La escala de tiempo específico que se ejecutará el proyecto.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>¿Cuáles son todos los casos de uso de la empresa para el sistema telefónico con una llamada a planes puede identificar en su organización?</li></ul>|
@@ -75,26 +77,28 @@ Los casos de uso empresarial definidos en el paso anterior incluyen un ámbito d
 
 > [!TIP]
 > A continuación se muestra un ejemplo de plantilla de matriz de participantes que puede usar para documentar los participantes del proyecto:
->|Rol  |Descripción  |Nombre, información de contacto, ubicación  |
->|---------|---------|---------|
->|Patrocinador ejecutivo de proyecto|<ul><li>Tome máxima autoridad y responsabilidad para el proyecto y la entrega en objetivos del proyecto.</li><li>Ayudar a resolver problemas comunicados por el jefe de proyecto.</li><li>Patrocinador comunicación dentro de la empresa acerca de los objetivos del proyecto.</li><li>Tomar decisiones estratégicas claves.</li><li>Asegurar la disponibilidad de recursos necesarios y el presupuesto.</li><li>Trimestral dirijan las revisiones de negocio (QBRs).</li><li>Unidad de comprar y soporte técnico de los esfuerzos de campaña de sensibilización.</li><li>Actuar como el patrocinador del proyecto a la implantación de programa.</li></ul>|Por añadir|
->|Responsable de proyecto|<ul><li>Administrar y conducir el equipo del proyecto.</li><li>Coordinar los socios y los equipos de trabajo ocupados en el proyecto.</li><li>Ser responsable de crear y planes de proyecto de administración para satisfacer los resultados de la claves trimestrales.</li><li>Resolver problemas de funciones cruzadas.</li><li>Proporcionan actualizaciones regulares patrocinadores del proyecto.</li><li>Incorporar el plan del proyecto de seguridad de todos los aspectos de adopción.</li><li>Potenciales mensual empresarial y las revisiones operativas (MBR), contribuir a QBRs.</li></ul>|Por añadir|
->|Arquitecto/responsable de colaboración|<ul><li>Ejecutar la estrategia de colaboración definida por los ejecutivos de la empresa.</li><li>Analizar y elija productos de colaboración que cumplan los objetivos del negocio para la empresa.</li><li>Diseño de operaciones para productos de colaboración.</li><li>Defina la operación y compatibilidad con los modelos.</li><li>Contribuir a revisiones de negocios mensual y trimestral.</li></ul>|Por añadir|
->|Consultor|<ul><li>Ser responsable de los servicios de configuración</li><li>Contribuir a la arquitectura general de la solución.</li></ul>|Por añadir|
->|Jefe de proyecto|<ul><li>Desarrollar y mantener el plan del proyecto.</li><li>Administración de entregas del proyecto en línea con el plan del proyecto y el presupuesto.</li><li>Registrar y administrar los problemas del proyecto, incluidas las extensiones.</li><li>Realizar llamadas de diaria semanales.</li><li>Póngase en contacto con y proporcionan actualizaciones para patrocinadores ejecutivos del proyecto.</li><li>Trabajar con el arquitecto para definir los planes de comunicación y enfoque de administración de cambio.</li></ul>|Por añadir|
->|Especialista en adopción/administración de cambios|<ul><li>Proporcionar información durante la fase de detección en los procesos de aprendizaje y adopción.</li><li>Participar en el taller de estrategia de adopción.</li><li>Desarrollar y asumir la responsabilidad de la estrategia de adopción.</li><li>Desarrollar y ejecutar el plan de comunicación.</li><li>Ofrecer cursos a los usuarios.</li><li>Recopilar comentarios y realizar encuestas.</li></ul>|Por añadir|
->|Responsable de redes|<ul><li>Proporcionar información durante la fase de detección en diseño de la red.</li><li>Participar en el diseño durante el taller de fase de previsión.</li><li>Coordinar el trabajo del equipo de red durante la ejecución del proyecto.</li></ul>|Por añadir|
->|Responsable de seguridad|<ul><li>Proporcionar información durante la fase de detección a los procesos y diseño de seguridad.</li><li>Participar en el diseño durante el taller de fase de previsión.</li><li>Coordinar el trabajo del equipo de seguridad durante la ejecución del proyecto.</li></ul>|Por añadir|
->|Responsable de telefonía|<ul><li>Proporcionar información durante la fase de detección en diseño de la telefonía.</li><li>Participar en el diseño durante el taller de fase de previsión.</li><li>Coordinar el trabajo del equipo de telefonía durante la ejecución del proyecto.</li></ul>|Por añadir|
->|Responsable de escritorio|<ul><li>Proporcionar información durante la fase de detección en los clientes y el proceso de actualización.</li><li>Participar en el diseño durante el taller de previsión.</li><li>Coordinar el trabajo del equipo de escritorio durante la ejecución del proyecto.</li></ul>|Por añadir|
->|Responsable del servicio de asistencia y soporte técnico|<ul><li>Proporcionar información durante la fase de detección en operativas y modelos de soporte técnico.</li><li>Participar en el diseño durante el taller de fase de previsión.</li><li>Participar en el diseño de modelo de soporte técnico.</li><li>Coordinar el trabajo de equipos de soporte técnico y recursos durante la ejecución del proyecto.</li></ul>|Por añadir|
->|Representantes de la unidad de negocio|<ul><li>Contribuir a guías de adopción basadas en usuarios y materiales.</li><li>Contribuir a y revise los casos de uso de negocio.</li></ul>|Por añadir|
->|Responsable de implementación|<ul><li>Asegúrese de que se cumplen los requisitos previos de implementación.</li><li>Integrarse recursos participarán en las actividades de fase incorporado.</li><li>Participar en reuniones para revisar y preparar informes sobre el estado de implementación.</li></ul>|Por añadir|
->|Administradores de TI|<ul><li>Ayudar con la planeación de pruebas y la ejecución. Esta función es para los profesionales de TI.</li></ul>|Por añadir|
->|Propietario del servicio|<ul><li>Ser responsable de la operación del sistema de teléfono con una llamada a los planes de servicio, Subir todo.</li><li>Propietario del sistema de teléfono con una llamada a los planes de servicio.</li></ul>|Por añadir|
->|Expertos en calidad|<ul><li>Unidad comentarios de calidad, la confiabilidad y el usuario.</li><li>Identificar las tendencias de calidad y unidad corrección con los equipos respectivos.</li><li>Notificar a través del Comité de gobierno a los altos directivos.</li><li>Informe sobre la calidad, la confiabilidad y el usuario opinión de los clientes a través de tasa de Mis llamadas y Net puntuación promotor.</li></ul>|Por añadir|
+> 
+> |Rol  |Descripción  |Nombre, información de contacto, ubicación  |
+> |---------|---------|---------|
+> |Patrocinador ejecutivo de proyecto|<ul><li>Tome máxima autoridad y responsabilidad para el proyecto y la entrega en objetivos del proyecto.</li><li>Ayudar a resolver problemas comunicados por el jefe de proyecto.</li><li>Patrocinador comunicación dentro de la empresa acerca de los objetivos del proyecto.</li><li>Tomar decisiones estratégicas claves.</li><li>Asegurar la disponibilidad de recursos necesarios y el presupuesto.</li><li>Trimestral dirijan las revisiones de negocio (QBRs).</li><li>Unidad de comprar y soporte técnico de los esfuerzos de campaña de sensibilización.</li><li>Actuar como el patrocinador del proyecto a la implantación de programa.</li></ul>|Por añadir|
+> |Responsable de proyecto|<ul><li>Administrar y conducir el equipo del proyecto.</li><li>Coordinar los socios y los equipos de trabajo ocupados en el proyecto.</li><li>Ser responsable de crear y planes de proyecto de administración para satisfacer los resultados de la claves trimestrales.</li><li>Resolver problemas de funciones cruzadas.</li><li>Proporcionan actualizaciones regulares patrocinadores del proyecto.</li><li>Incorporar el plan del proyecto de seguridad de todos los aspectos de adopción.</li><li>Potenciales mensual empresarial y las revisiones operativas (MBR), contribuir a QBRs.</li></ul>|Por añadir|
+> |Arquitecto/responsable de colaboración|<ul><li>Ejecutar la estrategia de colaboración definida por los ejecutivos de la empresa.</li><li>Analizar y elija productos de colaboración que cumplan los objetivos del negocio para la empresa.</li><li>Diseño de operaciones para productos de colaboración.</li><li>Defina la operación y compatibilidad con los modelos.</li><li>Contribuir a revisiones de negocios mensual y trimestral.</li></ul>|Por añadir|
+> |Consultor|<ul><li>Ser responsable de los servicios de configuración</li><li>Contribuir a la arquitectura general de la solución.</li></ul>|Por añadir|
+> |Jefe de proyecto|<ul><li>Desarrollar y mantener el plan del proyecto.</li><li>Administración de entregas del proyecto en línea con el plan del proyecto y el presupuesto.</li><li>Registrar y administrar los problemas del proyecto, incluidas las extensiones.</li><li>Realizar llamadas de diaria semanales.</li><li>Póngase en contacto con y proporcionan actualizaciones para patrocinadores ejecutivos del proyecto.</li><li>Trabajar con el arquitecto para definir los planes de comunicación y enfoque de administración de cambio.</li></ul>|Por añadir|
+> |Especialista en adopción/administración de cambios|<ul><li>Proporcionar información durante la fase de detección en los procesos de aprendizaje y adopción.</li><li>Participar en el taller de estrategia de adopción.</li><li>Desarrollar y asumir la responsabilidad de la estrategia de adopción.</li><li>Desarrollar y ejecutar el plan de comunicación.</li><li>Ofrecer cursos a los usuarios.</li><li>Recopilar comentarios y realizar encuestas.</li></ul>|Por añadir|
+> |Responsable de redes|<ul><li>Proporcionar información durante la fase de detección en diseño de la red.</li><li>Participar en el diseño durante el taller de fase de previsión.</li><li>Coordinar el trabajo del equipo de red durante la ejecución del proyecto.</li></ul>|Por añadir|
+> |Responsable de seguridad|<ul><li>Proporcionar información durante la fase de detección a los procesos y diseño de seguridad.</li><li>Participar en el diseño durante el taller de fase de previsión.</li><li>Coordinar el trabajo del equipo de seguridad durante la ejecución del proyecto.</li></ul>|Por añadir|
+> |Responsable de telefonía|<ul><li>Proporcionar información durante la fase de detección en diseño de la telefonía.</li><li>Participar en el diseño durante el taller de fase de previsión.</li><li>Coordinar el trabajo del equipo de telefonía durante la ejecución del proyecto.</li></ul>|Por añadir|
+> |Responsable de escritorio|<ul><li>Proporcionar información durante la fase de detección en los clientes y el proceso de actualización.</li><li>Participar en el diseño durante el taller de previsión.</li><li>Coordinar el trabajo del equipo de escritorio durante la ejecución del proyecto.</li></ul>|Por añadir|
+> |Responsable del servicio de asistencia y soporte técnico|<ul><li>Proporcionar información durante la fase de detección en operativas y modelos de soporte técnico.</li><li>Participar en el diseño durante el taller de fase de previsión.</li><li>Participar en el diseño de modelo de soporte técnico.</li><li>Coordinar el trabajo de equipos de soporte técnico y recursos durante la ejecución del proyecto.</li></ul>|Por añadir|
+> |Representantes de la unidad de negocio|<ul><li>Contribuir a guías de adopción basadas en usuarios y materiales.</li><li>Contribuir a y revise los casos de uso de negocio.</li></ul>|Por añadir|
+> |Responsable de implementación|<ul><li>Asegúrese de que se cumplen los requisitos previos de implementación.</li><li>Integrarse recursos participarán en las actividades de fase incorporado.</li><li>Participar en reuniones para revisar y preparar informes sobre el estado de implementación.</li></ul>|Por añadir|
+> |Administradores de TI|<ul><li>Ayudar con la planeación de pruebas y la ejecución. Esta función es para los profesionales de TI.</li></ul>|Por añadir|
+> |Propietario del servicio|<ul><li>Ser responsable de la operación del sistema de teléfono con una llamada a los planes de servicio, Subir todo.</li><li>Propietario del sistema de teléfono con una llamada a los planes de servicio.</li></ul>|Por añadir|
+> |Expertos en calidad|<ul><li>Unidad comentarios de calidad, la confiabilidad y el usuario.</li><li>Identificar las tendencias de calidad y unidad corrección con los equipos respectivos.</li><li>Notificar a través del Comité de gobierno a los altos directivos.</li><li>Informe sobre la calidad, la confiabilidad y el usuario opinión de los clientes a través de tasa de Mis llamadas y Net puntuación promotor.</li></ul>|Por añadir|
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>¿Quién va a rellenar cada función de los participantes clave para su organización?</li></ul>|
@@ -112,13 +116,14 @@ OKRs contienen los objetivos establecidos en el principio del proyecto y definir
 
 > [!TIP]
 > A continuación puede consultar un ejemplo de OKR relevantes para la implementación de Sistema telefónico con Planes de llamada:
-><br>
->
->**Visión: aumentar la productividad maximizando las inversiones de Office 365**
->|Objetivos  |Resultados principales  |Acciones que realizar  |
->|---------|---------|---------|
->|Implementar Sistema telefónico con Planes de llamada en las sucursales europeas a finales del año fiscal 2018|T3 2018: implementar Sistema telefónico con Planes de llamada en la oficina de Londres|Enfoque<ul><li>Crear el plan de éxito</li><li>Crear un plan técnico de implementación muy detallado</li></ul><p>Incorporación<ul><li>Ejecutar el plan de éxito</li><li>Ejecutar el plan técnico de implementación</li></ul>|
->|Retirar el sistema PBX antiguo de la oficina de Londres a finales del año fiscal 2018|T4 2018: retirar el sistema PBX antiguo de la oficina de Londres|Nuevos valores<ul><li>Potenciar la participación del usuario e impulsar la adopción</li><li>Administrar y prepararse para el cambio</li><li>Medir, compartir el éxito e iterar</li>|
+> <br>
+> 
+> **Visión: aumentar la productividad maximizando las inversiones de Office 365**
+> 
+> |Objetivos  |Resultados principales  |Acciones que realizar  |
+> |---------|---------|---------|
+> |Implementar Sistema telefónico con Planes de llamada en las sucursales europeas a finales del año fiscal 2018|T3 2018: implementar Sistema telefónico con Planes de llamada en la oficina de Londres|Enfoque<ul><li>Crear el plan de éxito</li><li>Crear un plan técnico de implementación muy detallado</li></ul><p>Incorporación<ul><li>Ejecutar el plan de éxito</li><li>Ejecutar el plan técnico de implementación</li></ul>|
+> |Retirar el sistema PBX antiguo de la oficina de Londres a finales del año fiscal 2018|T4 2018: retirar el sistema PBX antiguo de la oficina de Londres|Nuevos valores<ul><li>Potenciar la participación del usuario e impulsar la adopción</li><li>Administrar y prepararse para el cambio</li><li>Medir, compartir el éxito e iterar</li>|
 
 KSIs medir el éxito de los resultados de la claves y de calidad y complementar la naturaleza binaria de OKRs (logra o no logra) por la que se detalla los resultados de una buena o incorrectos.
 
@@ -136,30 +141,33 @@ Al definir KSIs, se recomienda que use "específicos, cuantificables, puede asig
 
 > [!TIP]
 > A continuación se muestra un ejemplo de KSI relevantes para este proyecto:
->|Tipo  |Cuestiones y criterios sobre el KSI  |Cómo se miden  |Criterios de éxito  |Medidos  |Responsable  |
->|---------|---------|---------|---------|---------|---------|
->|Uso/adopción|La calidad de las llamadas es igual o mejor que en la solución anterior|Encuesta|El 80 % de los usuarios está de acuerdo o muy de acuerdo|Tras la habilitación y trimestralmente|Equipo de tecnología de la información|
->|Uso/adopción|El proceso de comunicación fue más sencillo gracias a Microsoft Teams|Encuesta|El 80 % de los usuarios está de acuerdo o muy de acuerdo|Tras la habilitación y trimestralmente|Equipo de administración de cambios|
->|Uso/adopción|Los usuarios utilizan la solución activamente|Informes de Office 365, panel de calidad de llamadas|El 80 % de los usuarios son usuarios activos diarios|A diario|Equipo de administración de cambios|
->|Uso/calidad|El porcentaje de llamadas/conferencias de mala calidad debe ser mínimo|Panel de calidad de llamadas|Menos del 5 % de llamadas de mala calidad al mes|A diario|Equipo de tecnología de la información|
->|Uso/soporte|Sé cómo conseguir soporte técnico|Encuesta|El 90% de los usuarios está de acuerdo o muy de acuerdo|Tras la habilitación y trimestralmente|Equipo de administración de cambios|
->|Uso/soporte|Estoy satisfecho con la calidad del soporte técnico|Encuesta|El 80 % de los usuarios está de acuerdo o muy de acuerdo|Tras cada incidente|Equipo de tecnología de la información|
->|Financiero|Reducción de los minutos de conferencias antiguas|Sistema financiero|Cumplir el ROI definido|Basado en ROI|Equipo de administración de cambios|
+> 
+> |Tipo  |Cuestiones y criterios sobre el KSI  |Cómo se miden  |Criterios de éxito  |Medidos  |Responsable  |
+> |---------|---------|---------|---------|---------|---------|
+> |Uso/adopción|La calidad de las llamadas es igual o mejor que en la solución anterior|Encuesta|El 80 % de los usuarios está de acuerdo o muy de acuerdo|Tras la habilitación y trimestralmente|Equipo de tecnología de la información|
+> |Uso/adopción|El proceso de comunicación fue más sencillo gracias a Microsoft Teams|Encuesta|El 80 % de los usuarios está de acuerdo o muy de acuerdo|Tras la habilitación y trimestralmente|Equipo de administración de cambios|
+> |Uso/adopción|Los usuarios utilizan la solución activamente|Informes de Office 365, panel de calidad de llamadas|El 80 % de los usuarios son usuarios activos diarios|A diario|Equipo de administración de cambios|
+> |Uso/calidad|El porcentaje de llamadas/conferencias de mala calidad debe ser mínimo|Panel de calidad de llamadas|Menos del 5 % de llamadas de mala calidad al mes|A diario|Equipo de tecnología de la información|
+> |Uso/soporte|Sé cómo conseguir soporte técnico|Encuesta|El 90% de los usuarios está de acuerdo o muy de acuerdo|Tras la habilitación y trimestralmente|Equipo de administración de cambios|
+> |Uso/soporte|Estoy satisfecho con la calidad del soporte técnico|Encuesta|El 80 % de los usuarios está de acuerdo o muy de acuerdo|Tras cada incidente|Equipo de tecnología de la información|
+> |Financiero|Reducción de los minutos de conferencias antiguas|Sistema financiero|Cumplir el ROI definido|Basado en ROI|Equipo de administración de cambios|
 
 Como parte de este ejercicio, hay que identificar los riesgos del negocio y definir un plan de mitigación para cada uno de los riesgos que se identifiquen. Capturar esta información en un registro de riesgos.
 
 > [!TIP]
 > Como en el ejemplo siguiente, se puede documentar el registro de riesgos:
->|Riesgo  |Probabilidad  |Impacto  |General  |Plan de mitigación  |
->|---------|---------|---------|---------|---------|
->|Con la próxima fusión se sumarán hasta 1000 personas|Alta|Alto|Alto|<ul><li>Para las empresas combinadas, cree un OKR independiente que se aplica a sus propios fases del proyecto (previsión, incorporado, el valor de unidad)</li><li>No incluir estos OKRs en OKRs existentes</li></ul>|
->|La portabilidad de los números de teléfono retrasará la finalización del proyecto.|Alta|Alto|Alto|<ul><li>Preparar toda la información necesaria para admitir el número de teléfono al trasladar antelación (registro de servicio de atención al cliente, detalles, carta de autorización de facturación)</li><li>Ajustar la escala de tiempo del proyecto para dar cabida al tiempo de procesamiento de la ejecución de traslado número de teléfono</li><li>Se deben usar números de teléfono temporales con manipulación del identificador de llamada.</li></ul>|
->|Se ha planificado rediseñar las redes|Alta|Medio|Medio|<ul><li>Antes de implementar los equipos como plataforma de colaboración y comunicaciones modernas, realizar una evaluación de disponibilidad de red para los sitios en el ámbito del proyecto</li></ul>|
+> 
+> |Riesgo  |Probabilidad  |Impacto  |General  |Plan de mitigación  |
+> |---------|---------|---------|---------|---------|
+> |Con la próxima fusión se sumarán hasta 1000 personas|Alta|Alto|Alto|<ul><li>Para las empresas combinadas, cree un OKR independiente que se aplica a sus propios fases del proyecto (previsión, incorporado, el valor de unidad)</li><li>No incluir estos OKRs en OKRs existentes</li></ul>|
+> |La portabilidad de los números de teléfono retrasará la finalización del proyecto.|Alta|Alto|Alto|<ul><li>Preparar toda la información necesaria para admitir el número de teléfono al trasladar antelación (registro de servicio de atención al cliente, detalles, carta de autorización de facturación)</li><li>Ajustar la escala de tiempo del proyecto para dar cabida al tiempo de procesamiento de la ejecución de traslado número de teléfono</li><li>Se deben usar números de teléfono temporales con manipulación del identificador de llamada.</li></ul>|
+> |Se ha planificado rediseñar las redes|Alta|Medio|Medio|<ul><li>Antes de implementar los equipos como plataforma de colaboración y comunicaciones modernas, realizar una evaluación de disponibilidad de red para los sitios en el ámbito del proyecto</li></ul>|
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>¿Cuáles son los OKRs y KSIs de su organización?</li><li>¿Qué riesgos ¿ha identificado relevantes para la implementación de conferencias de Audio en su organización? ¿Cuáles son los planes de mitigación de los riesgos identificados?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>¿Cuáles son la organización & #39; s OKRs y KSIs?</li><li>¿Qué riesgos ¿ha identificado relevantes para la implementación de conferencias de Audio en su organización? ¿Cuáles son los planes de mitigación de los riesgos identificados?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Pasos siguientes|<ul><li>Documente la OKRs, KSIs y establecer el registro de riesgos.</li></ul>|
 
 <!--ENDOFSECTION-->
@@ -197,6 +205,7 @@ El Comité de dirección cumple en un intervalo periódico a lo largo de la dura
 -   Proporcionar comentarios formal y recomendaciones a Liderazgo ejecutivo, el Consejo consultor de cambios, u otros profesionales y las partes interesadas de TI, según corresponda.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>Decidir si un Comité de dirección es necesario para la organización.</li></ul>|

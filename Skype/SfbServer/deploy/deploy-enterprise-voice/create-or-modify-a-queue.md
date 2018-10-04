@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Crear o modificar una cola de grupo de respuesta, en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: cdddb57c3f0e06e851f39cba4b6f8322a28fd3fa
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a77940bae3dd720594619ebffc1858dae2a161ba
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888154"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374518"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Crear o modificar una cola en Skype para la empresa
  
@@ -57,8 +57,8 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
     
    - Para cambiar el orden en el que se buscan los agentes, en la lista de grupos de agentes, haga clic en un grupo y en la flecha arriba o abajo.
     
-    > [!NOTE]
-    > Cuando el servidor busca un agente disponible en la cola, usa el orden de grupo. Es decir, busca primero en el primer grupo de la lista, después en el segundo grupo y así sucesivamente. 
+     > [!NOTE]
+     > Cuando el servidor busca un agente disponible en la cola, usa el orden de grupo. Es decir, busca primero en el primer grupo de la lista, después en el segundo grupo y así sucesivamente. 
   
 8. Para especificar un período máximo de tiempo de espera para el autor de una llamada antes de que un agente responda, active la casilla **Habilitar tiempo de espera de cola** y haga lo siguiente:
     
@@ -66,15 +66,15 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
     
     b. En **Acción de llamada**, seleccione la acción que debe producirse cuando se agote el tiempo de espera de una llamada:
     
-     - Para desconectar la llamada una vez transcurrido el tiempo de espera, haga clic en **Desconectar**.
+   - Para desconectar la llamada una vez transcurrido el tiempo de espera, haga clic en **Desconectar**.
     
-     - Para reenviar la llamada al correo de voz, haga clic en **desviar a correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una dirección de correo de voz con el formato sip: _ \<nombre de usuario\>_@ _\<domainname\> _ (para ejemplo, sip:bob@contoso.com).
+   - Para reenviar la llamada al correo de voz, haga clic en **desviar a correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una dirección de correo de voz con el formato sip: * \<nombre de usuario\>*@ *\<domainname\> * (para ejemplo, sip:bob@contoso.com).
     
-     - Para reenviar la llamada a otro número de teléfono, haga clic en **desviar a número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba el número de teléfono en el formato sip: _ \<número\>_@ _\<domainname\>_ (por ejemplo, sip:+14255550121@contoso.com).
+   - Para reenviar la llamada a otro número de teléfono, haga clic en **desviar a número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba el número de teléfono en el formato sip: * \<número\>*@ *\<domainname\>* (por ejemplo, sip:+14255550121@contoso.com).
     
-     - Para reenviar la llamada a otro usuario, haga clic en **Reenviar a dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el URI del usuario en el formato sip: _ \<nombre de usuario\>_@ _\<domainname\>_.
+   - Para reenviar la llamada a otro usuario, haga clic en **Reenviar a dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el URI del usuario en el formato sip: _ \<nombre de usuario\>_@ _\<domainname\>_.
     
-     - Para reenviar la llamada a otra cola, haga clic en **Desviar a otra cola** y busque la cola que desea usar.
+   - Para reenviar la llamada a otra cola, haga clic en **Desviar a otra cola** y busque la cola que desea usar.
     
 9. Para especificar el número máximo de llamadas que se pueden incluir en una cola, active la casilla **Habilitar desbordamiento de cola** y haga lo siguiente:
     
@@ -84,15 +84,15 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
     
     c. En **Acción de llamada**, seleccione la acción que debe producirse cuando se alcance el umbral de desbordamiento conforme a lo siguiente:
     
-     - Para desconectar la llamada una vez transcurrido el tiempo de espera, haga clic en **Desconectar**.
+   - Para desconectar la llamada una vez transcurrido el tiempo de espera, haga clic en **Desconectar**.
     
-     - Para reenviar la llamada al correo de voz, haga clic en **desviar a correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una dirección de correo de voz con el formato sip: _ \<nombre de usuario\>_@ _\<domainname\> _ (para ejemplo, sip:bob@contoso.com).
+   - Para reenviar la llamada al correo de voz, haga clic en **desviar a correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una dirección de correo de voz con el formato sip: * \<nombre de usuario\>*@ *\<domainname\> * (para ejemplo, sip:bob@contoso.com).
     
-     - Para reenviar la llamada a otro número de teléfono, haga clic en **desviar a número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba el número de teléfono en el formato sip: _ \<número\>_@ _\<domainname\>_ (por ejemplo, sip:+14255550121@contoso.com).
+   - Para reenviar la llamada a otro número de teléfono, haga clic en **desviar a número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba el número de teléfono en el formato sip: * \<número\>*@ *\<domainname\>* (por ejemplo, sip:+14255550121@contoso.com).
     
-     - Para reenviar la llamada a otro usuario, haga clic en **Reenviar a dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el URI del usuario en el formato sip: _ \<nombre de usuario\>_@ _\<domainname\>_.
+   - Para reenviar la llamada a otro usuario, haga clic en **Reenviar a dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el URI del usuario en el formato sip: _ \<nombre de usuario\>_@ _\<domainname\>_.
     
-     - Para reenviar la llamada a otra cola, haga clic en **Desviar a otra cola** y busque la cola que desea usar.
+   - Para reenviar la llamada a otra cola, haga clic en **Desviar a otra cola** y busque la cola que desea usar.
     
 10. Haga clic en **Confirmar**.
     
@@ -137,24 +137,24 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
 
 5. Cree el aviso que debe reproducirse cuando se alcance el umbral de desbordamiento de la cola y guárdelo en una variable. En la línea de comandos, ejecute:
     
-  ```
-  $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
-  ```
+   ```
+   $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
+   ```
 
    Por ejemplo:
     
-  ```
-  $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
-  ```
+   ```
+   $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
+   ```
 
       > [!NOTE]
       > Para usar un archivo de audio para el símbolo del sistema, use el cmdlet **Import-CsRgsAudioFile** . Para obtener información detallada, vea [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 6. Defina la acción que debe realizarse cuando se alcance el umbral de desbordamiento de la cola y guárdela en una variable. En la línea de comandos ejecute:
     
-  ```
-  $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
-  ```
+   ```
+   $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
+   ```
 
     > [!NOTE]
     > Para obtener información detallada acerca de las posibles acciones y su sintaxis, consulte [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
@@ -194,9 +194,9 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
 
 10. Confirme que la cola se ha creado. Ejecute:
     
-   ```
-   Get-CsRgsQueue -Name "Help Desk"
-   ```
+    ```
+    Get-CsRgsQueue -Name "Help Desk"
+    ```
 
 ## <a name="see-also"></a>Vea también
 

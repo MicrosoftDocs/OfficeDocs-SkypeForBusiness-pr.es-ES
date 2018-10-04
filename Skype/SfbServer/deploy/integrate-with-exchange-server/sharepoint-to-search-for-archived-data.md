@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: 'Resumen: Configure SharePoint Server para buscar datos archivados por el servidor de Exchange y Skype para Business Server.'
-ms.openlocfilehash: efd3fc67faacba503736968786988aaf01f45073
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0663874985063f4cf051aec69792ea0bdb32bb26
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971802"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373324"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>Configurar SharePoint Server para buscar datos archivados de Skype Empresarial
  
@@ -125,7 +125,7 @@ Por último, cree un nuevo caso de exhibición de documentos electrónicos y un 
     
 4. Cuando aparezca la página de conjunto de exhibición de documentos electrónicos, haga clic en **nuevo elemento** dentro de **Identidad y Preservar: conjuntos de detección**.
     
-5. En la página de nuevo: conjunto de detección, escriba el alias de correo electrónico del usuario en el cuadro de **nombre de conjunto de detección**. Escriba **exhibición de documentos electrónicos Lync\* ** en el **filtro de** cuadro y, a continuación, haga clic en **Agregar &amp; administrar orígenes de**.
+5. En la página de nuevo: conjunto de detección, escriba el alias de correo electrónico del usuario en el cuadro de **nombre de conjunto de detección**. Escriba **exhibición de documentos electrónicos Lync\\*** en el **filtro de** cuadro y, a continuación, haga clic en **Agregar &amp; administrar orígenes de**.
     
 6. En el complemento &amp; administrar orígenes de página, escriba el alias de correo electrónico del usuario en el primer cuadro de texto en **los buzones de correo**. Haga clic en el icono de buzón de marca que se encuentra junto al libro de texto para comprobar que SharePoint se puede conectar al buzón especificado.
     

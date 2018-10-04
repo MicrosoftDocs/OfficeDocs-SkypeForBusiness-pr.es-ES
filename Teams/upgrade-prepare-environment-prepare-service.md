@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b877ecac39c98d6dd77fc3617c2cf7bd4da332eb
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 7858737dc69f076ca059aca9de5437cb3cb88e52
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015232"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374599"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica] (media/upgrade-banner-tech-readiness.png "Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica")
 
@@ -60,8 +60,8 @@ Cuando se haya de incorporación a los usuarios en una base por sitio, se recomi
 >La mayoría de las opciones de configuración es comunes entre los equipos y Skype para profesionales en línea. Use el Microsoft Teams & Skype para el centro de administración de negocio para configurar esas opciones de configuración.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul><li>¿Quién será responsable de supervisar la finalización de las listas de comprobación de incorporación?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Descargar las listas de comprobación de incorporación.</li><li>Funciona a través de los elementos de lista de comprobación de incorporación paso a paso de acuerdo con el plan de implementación de la organización.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>¿Quién será responsable de supervisar la finalización de las listas de comprobación de incorporación?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Descargar las listas de comprobación de incorporación.</li><li>Funciona a través de los elementos de lista de comprobación de incorporación paso a paso de acuerdo con el plan de implementación de la organización.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

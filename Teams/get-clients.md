@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70d75e623bae7881d44c145f518ab5d02c3f38d0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a24f4ba3c9470827c8a73bf8ac234cf7ae8467e8
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014552"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372791"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
 ===========================
@@ -106,7 +106,7 @@ El cliente web realiza la detección de versión de explorador al conectarse a [
 <a name="mobile-clients"></a>Clientes móviles
 --------------
 
-Las aplicaciones móviles de Microsoft Teams están disponibles para Android, iOS y Windows Phone, y están pensadas para que los usuarios que no están en un lugar fijo participen en conversaciones basadas en chat y para permitir las llamadas de audio de par a par. Para las aplicaciones móviles, vaya a la tienda móvil correspondiente: Google Play, App Store de Apple o Microsoft Store.
+Las aplicaciones móviles de Microsoft Teams están disponibles para Android y iOS y están diseñadas para usuarios de en vaya que participan en conversaciones de chat y permitir que las llamadas de audio de punto a punto. Para las aplicaciones móviles, vaya a los almacenes móviles relevantes Google reproducir y Apple App Store. Se ha retirado la aplicación de Windows Phone 20 de julio de 2018 consulte [aquí](https://support.microsoft.com/en-us/help/4230833/windows-phone-app-for-microsoft-teams-is-retiring) para obtener más información.
 
 Las siguientes son las plataformas móviles admitidas para Microsoft Teams:
 

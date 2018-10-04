@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: Un usuario de confianza es aquel cuyas credenciales se han autenticado por un servidor de confianza en Skype para Business Server. Este servidor suele ser un servidor Standard Edition, Director o servidor Front-End de Enterprise Edition. Skype para Business Server se basa en los servicios de dominio de Active Directory como el repositorio back-end confianza único de credenciales de usuario.
-ms.openlocfilehash: c16e70641d2ce6e25b932904e9371f7ddf03bdd8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9616774bf721863503c2ebd9145c6860f7068ef3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21010649"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375485"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>Autenticación de usuario y el cliente para Skype para Business Server
  
@@ -57,5 +57,5 @@ Otros valores admitidos son:
     
 - HMACSHA512
     
- Los valores de MD5, 3DES y AES son ya no se permite, tal como se administraban una vez en ASP.NET 4. [Mejoras criptográficas en ASP.NET 4.5, pt 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) tiene información más detallada.
+  Los valores de MD5, 3DES y AES son ya no se permite, tal como se administraban una vez en ASP.NET 4. [Mejoras criptográficas en ASP.NET 4.5, pt 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) tiene información más detallada.
   

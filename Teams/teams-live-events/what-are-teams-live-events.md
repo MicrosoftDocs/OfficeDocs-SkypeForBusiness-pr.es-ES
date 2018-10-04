@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo live eventos permiten a los usuarios difundir vídeo y contenido a grandes audiencias en línea en Microsoft Teams, Yammer y Microsoft Stream.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1dff1d7166451868a6d6d906b668a918fc011336
-ms.sourcegitcommit: 6447a3aa060452c8d6879524cd6a56aecf33b152
+ms.openlocfilehash: db8f9223c74b29f7fd2bfa27b63419abcb4219c5
+ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25354015"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25405251"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Cuáles son Teams Microsoft live eventos?
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -50,7 +50,7 @@ Los eventos live en Microsoft 365 admite una gran variedad de escenarios de prod
 
 - **Producción de inicio rápido**: el método de producción de inicio rápido permite a los usuarios producir sus eventos en directo con reuniones de los equipos. Esta opción es mejor y más rápida opción si desea usar los dispositivos de audio y vídeos conectado a su PC o invita a los moderadores remotos por participar en el evento. Esta opción permite a los usuarios usar sus cámaras web fácilmente y compartir su pantalla como entrada en el evento. 
 
-! [Eventos en los equipos directo] (.. /Media/Teams-Live-Events-Quick-Start.png "captura de pantalla que muestra un evento en directo que se genera utilizando el rápido inicio método producción] (.. /Media/Teams-Live-Events-Quick-Start.png "Captura de pantalla que muestra un evento en directo que se genera utilizando el método de producción de inicio rápido")
+![Los equipos de eventos en directo] (../media/teams-live-events-quick-start.png "Captura de pantalla que muestra un evento en directo que se genera utilizando el rápido inicia el método de producción")
 
 - **Producción de codificador externo**: codificadores externos permiten a los usuarios producir sus eventos en directo directamente desde un codificador basada en software con la [Secuencia de Microsoft](https://stream.microsoft.com)o un hardware externo. Esta opción es mejor si ya dispone de equipamiento de calidad studio (por ejemplo, mezcladores de medios) qué compatibilidad con transmisión por secuencias a un servicio de protocolo de mensajería en tiempo real (RTMP). Este tipo de producción se utiliza normalmente en los eventos de gran escala, como salas de ciudad ejecutivos – donde la difusión de una única secuencia de un mezclador de medios a la audiencia. 
 
@@ -64,9 +64,9 @@ La plataforma de transmisión por secuencias del evento en directo se compone de
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Red de entrega de contenido empresarial (eCDN)
 El objetivo de la red eCDN es tomar el contenido de vídeo de internet y distribuir el contenido en toda la empresa sin afectar el rendimiento de la red. Puede usar uno de estos partners de eCDN para optimizar la red para eventos en directo mantenidos dentro de la organización:
-    - [Subárbol](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
-    - [Kollective](http://www.kollective.com)
-    - [Pendiente](http://www.ramp.com)
+- [Subárbol](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
+- [Kollective](http://www.kollective.com)
+- [Pendiente](http://www.ramp.com)
 
 ### <a name="attendee-experience"></a>Experiencia del Asistente 
 La experiencia del asistente es el aspecto más importante de eventos en directo y es muy importante que los asistentes pueden participar en el evento en directo sin necesidad de los problemas. La experiencia del asistente usa el Reproductor multimedia de Azure y funciona a través de escritorio, explorador y mobile (iOS, Android). Office 365 proporciona Yammer y los equipos como dos concentradores de colaboración y el Asistente live experiencia se integra en estas herramientas de colaboración. 

@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
-ms.openlocfilehash: af4f7621f9b5a70bc9b8a7ce87e50a6e6791ea63
-ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
+ms.openlocfilehash: ddcc4da301d491d763baf736053fd8eaeaee1b87
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25358982"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375509"
 ---
 # <a name="release-notes"></a>Notas de la versión 
 
@@ -161,7 +161,7 @@ Se introdujeron en esta actualización:
 - Invite a las personas desde su directorio, donde podrá consultar su disponibilidad en ese mismo momento o a través de una llamada de teléfono.
 - Es compatible con los servicios de conferencias RTC y llamadas RTC de Skype Empresarial como sustitución del teléfono de conferencias independiente de su sala.
     
- **Transforme cualquier sala de reuniones**
+  **Transforme cualquier sala de reuniones**
   
 - Una aplicación de reuniones de Skype dedicada y optimizada para el controlador táctil situado en el centro de la mesa y las pantallas frontales de gran tamaño.
 - Permite aprovechar las inversiones que ya ha realizado en pantallas frontales o proyectores.
@@ -169,7 +169,7 @@ Se introdujeron en esta actualización:
 - Los dispositivos de audio y vídeo certificados de Skype Empresarial están disponibles para diversos tamaños de salas.
 - Transmisión por cable integrada para compartir el escritorio del proyecto con la sala y con la reunión de Skype.
     
- **Fácil de implementar, sencillo de administrar.**
+  **Fácil de implementar, sencillo de administrar.**
   
 - Un dispositivo que está encendido en todo momento y que activará automáticamente las pantallas cuando detecte que hay alguna persona en la sala.
 - Sencilla implementación y actualización de la aplicación de reuniones de Skype para UWP (Plataforma universal de Windows).

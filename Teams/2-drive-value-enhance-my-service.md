@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60575e2b9a1398bf5eba6dfec5aa883e4478f648
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 96af6eb707c8f104a7810e924323d9f32996f8f1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014600"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374298"
 ---
 # <a name="enhance-my-service"></a>Mejorar mi servicio
 
@@ -35,8 +35,8 @@ Cuando vea las oportunidades para mejorar su servicio, tomarse el tiempo para ha
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul><li>Decidir quién va a supervisar guías públicas y otros anuncios de servicio para las nuevas características o servicios que su organización puede beneficiarse.</li><li>Decide cuál será la cadencia en el que se va a informar de las nuevas características o servicios a las partes interesadas claves, a través de su Comité de dirección.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Implementar una estrategia para mantenerse al día con los servicios para obtener el máximo valor para su organización.</li><li>Mejoras en la unidad de servicio a través de un ciclo de vida completo del proyecto para asegurarse de que han determina correctamente el impacto que tienen en la implementación.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>Decidir quién va a supervisar guías públicas y otros anuncios de servicio para las nuevas características o servicios que su organización puede beneficiarse.</li><li>Decide cuál será la cadencia en el que se va a informar de las nuevas características o servicios a las partes interesadas claves, a través de su Comité de dirección.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Implementar una estrategia para mantenerse al día con los servicios para obtener el máximo valor para su organización.</li><li>Mejoras en la unidad de servicio a través de un ciclo de vida completo del proyecto para asegurarse de que han determina correctamente el impacto que tienen en la implementación.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

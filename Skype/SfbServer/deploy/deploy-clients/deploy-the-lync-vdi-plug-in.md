@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: En este tema se describe los procedimientos de implementación para el uso de Skype para la empresa mientras se conecta a un escritorio virtual remoto.
-ms.openlocfilehash: d939d2b269d6488de1df09e3f8aff08e2b83458e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 08f676632e11c4bf95beee9b97be03703978a4a6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20986106"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373347"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Implementación del complemento Lync VDI con Skype para Business Server
  
@@ -50,11 +50,11 @@ Para preparar la conexión a Escritorio remoto para el complemento de VDI Lync, 
     
 4. Haga clic en la pestaña **Recursos locales**. En **Audio remoto**, haga clic en **Configuración** y haga lo siguiente:
     
-  - En **Reproducción de audio remoto**, seleccione **Reproducir en este equipo**.
+   - En **Reproducción de audio remoto**, seleccione **Reproducir en este equipo**.
     
-  - En **Grabación de audio remoto**, seleccione **No grabar**.
+   - En **Grabación de audio remoto**, seleccione **No grabar**.
     
-  - Haga clic en **Aceptar**.
+   - Haga clic en **Aceptar**.
     
 5. Haga clic en la pestaña **Experiencia**. En **Rendimiento**, desactive la casilla **Almacenamiento en caché persistente de mapas de bits**.
     

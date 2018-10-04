@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: En esta sección se describe la configuración global y objetos y los grupos universales de servicio y administración que se crean mediante el paso de preparación del bosque.
-ms.openlocfilehash: 9ceece01d6f5184eb58f0906dd61540c2dcf2084
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 6c031bf06310c6aba2ee18f532e95438bd495936
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244340"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373538"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Cambios realizados por la preparación del bosque en Skype para Business Server
 
@@ -111,13 +111,14 @@ La preparación del bosque crea entradas ACE privadas y públicas. Crea entradas
 
 **Entradas ACE públicas creadas por la preparación del bosque**
 
-|**ACE**|**RTCUniversalGlobalReadOnlyGroup**|
-|:-----|:-----|
-|Dominio de raíz de lectura del contenedor del sistema (no heredado)**\*** <br/> |X  <br/> |
-|Contenedor DisplaySpecifiers de Read Configuration (no heredado)  <br/> |X  <br/> |
+
+| **ACE**                                                                 | **RTCUniversalGlobalReadOnlyGroup** |
+|:------------------------------------------------------------------------|:------------------------------------|
+| Dominio de raíz de lectura del contenedor del sistema (no heredado)**\\**\* <br/>        | X  <br/>                            |
+| Contenedor DisplaySpecifiers de Read Configuration (no heredado)  <br/> | X  <br/>                            |
 
 > [!NOTE]
-> **\*** Las ACE que no se heredan no conceden acceso a objetos secundarios de estos contenedores. Las ACE que se heredan conceden permisos a objetos secundarios de estos contenedores.
+> <strong>\\</strong>* Las entradas ACE que no se heredan no conceden acceso a objetos secundarios de estos contenedores. Las ACE que se heredan conceden permisos a objetos secundarios de estos contenedores.
 
 En el contenedor Configuration, bajo el contexto de nomenclatura de configuración, la preparación del bosque realiza las tareas siguientes:
 

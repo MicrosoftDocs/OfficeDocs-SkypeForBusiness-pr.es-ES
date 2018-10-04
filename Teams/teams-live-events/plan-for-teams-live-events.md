@@ -10,17 +10,17 @@ search.appverid: MET150
 description: Obtenga información sobre los factores a tener en cuenta antes de configurar los eventos en directo en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06d433b75cd0f29f328d23cb6e110d4406123a74
-ms.sourcegitcommit: 6447a3aa060452c8d6879524cd6a56aecf33b152
+ms.openlocfilehash: 4ebee93a6a4e238e988e1e4ffcb796252d61eeb1
+ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25354375"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25405259"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planeación de eventos en directo en Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
-Al planear los equipos eventos en directo para incluir grandes reuniones de su organizaiton, hay varios factores que debe tener en cuenta antes de empezar a establecerla Subir todo. 
+Al planear los equipos eventos en directo para incluir grandes reuniones de la organización, hay varios factores que debe tener en cuenta antes de empezar a establecerla Subir todo. 
 
 ## <a name="who-can-create-and-schedule-live-events"></a>¿Quién puede crear y programar eventos en directo? 
 Los siguientes requisitos previos son necesarios para el usuario programar un evento en directo los equipos.

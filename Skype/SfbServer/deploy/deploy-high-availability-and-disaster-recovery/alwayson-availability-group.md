@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Implementar (instalar) un siempre en grupo de disponibilidad en su Skype para Business Server implementación.
-ms.openlocfilehash: 93d27fc86393a28f4c0e546d034cbf9819ecce87
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: eaf0c935f246cfdd00aa0707475442c88dc89b8a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026735"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374375"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Implementar un grupo de disponibilidad siempre en un servidor Back-End de Skype para Business Server
  
@@ -57,7 +57,7 @@ Cómo implementar un AG depende de si se implementa en un nuevo grupo de servido
     
    - En el cuadro**Resumen** , compruebe los errores que el Asistente para informes. Luego haga clic en **Finalizar** para completar la validación.
     
-    Puede que el asistente le informe de varias advertencias, especialmente si no usa el almacenamiento compartido. No tiene que usar el almacenamiento compartido, pero si ve cualquier mensaje de **Error**, debe corregir estos problemas antes de continuar.
+     Puede que el asistente le informe de varias advertencias, especialmente si no usa el almacenamiento compartido. No tiene que usar el almacenamiento compartido, pero si ve cualquier mensaje de **Error**, debe corregir estos problemas antes de continuar.
     
 3. Crear el clúster de conmutación por error de Windows Server (WSFC).
     
@@ -101,7 +101,7 @@ Cómo implementar un AG depende de si se implementa en un nuevo grupo de servido
     
    - En la página Seleccionar bases de datos, seleccione las bases de datos que desea incluir en el grupo de disponibilidad AlwaysOn. Then click **Next**.
     
-    No incluya el **ReportServer**, **ReportServerTempDB**o bases de datos de Chat persistente en el grupo de disponibilidad AlwaysOn, como no se admiten en este escenario. Puede incluir todos los demás Skype para bases de datos de Business Server en el grupo de disponibilidad AlwaysOn.
+     No incluya el **ReportServer**, **ReportServerTempDB**o bases de datos de Chat persistente en el grupo de disponibilidad AlwaysOn, como no se admiten en este escenario. Puede incluir todos los demás Skype para bases de datos de Business Server en el grupo de disponibilidad AlwaysOn.
     
    - En la página **Especificar réplicas**, haga clic en la pestaña **Réplicas**. Después haga clic en el botón **Agregar réplicas** y conéctese a las otras instancias de SQL a las que se unió como nodos del clúster de conmutación por error de Windows Server.
     
@@ -115,7 +115,7 @@ Cómo implementar un AG depende de si se implementa en un nuevo grupo de servido
     
    - En la página **Seleccione sincronización inicial de datos**, seleccione Completo y especifique una carpeta que sea accesible para las réplicas y para la que la cuenta del servicio de SQL Server usada por ambas réplicas tenga permisos de escritura. Después haga clic en **Siguiente**.
     
-    Este recurso compartido de archivos se usará temporalmente al inicializar las bases de datos. Si trabaja con bases de datos grandes, le recomendamos que las inicialice manualmente en caso de que el ancho de banda de red no admita el tamaño de las copias de seguridad de la base de datos.
+     Este recurso compartido de archivos se usará temporalmente al inicializar las bases de datos. Si trabaja con bases de datos grandes, le recomendamos que las inicialice manualmente en caso de que el ancho de banda de red no admita el tamaño de las copias de seguridad de la base de datos.
     
    - En la página Validación, compruebe que todas las comprobaciones de validación se realizan correctamente y luego haga clic en **Siguiente**.
     
@@ -129,7 +129,7 @@ Cómo implementar un AG depende de si se implementa en un nuevo grupo de servido
     
    - Expanda Skype Empresarial Server, expanda la topología y expanda **Almacenes de SQL Server**. Haga clic en el almacén de SQL del nuevo grupo de disponibilidad AlwaysOn y haga clic en **Editar propiedades**.
     
-    - En la parte inferior de la página, en el cuadro **FQDN de SQL Server** , cambie el valor para el FQDN del agente de escucha de la AG.
+     - En la parte inferior de la página, en el cuadro **FQDN de SQL Server** , cambie el valor para el FQDN del agente de escucha de la AG.
     
    - Publique la topología. En el menú **Acción**, haga clic en **Topología** y después en **Publicar**. A continuación, en la página de confirmación, haga clic en **Siguiente**. Espere unos minutos hasta que la nueva topología se replique.
     
@@ -197,7 +197,7 @@ Cómo implementar un AG depende de si se implementa en un nuevo grupo de servido
     
    - En el cuadro**Resumen** , compruebe los errores que el Asistente para informes. Luego haga clic en **Finalizar** para completar la validación.
     
-    Puede que el asistente le informe de varias advertencias, especialmente si no usa el almacenamiento compartido. No tiene que usar el almacenamiento compartido, pero si ve cualquier mensaje de **Error**, debe corregir estos problemas antes de continuar.
+     Puede que el asistente le informe de varias advertencias, especialmente si no usa el almacenamiento compartido. No tiene que usar el almacenamiento compartido, pero si ve cualquier mensaje de **Error**, debe corregir estos problemas antes de continuar.
     
 7. Crear el clúster de conmutación por error de Windows Server.
     
@@ -249,7 +249,7 @@ Cómo implementar un AG depende de si se implementa en un nuevo grupo de servido
     
     - Haga clic en la pestaña **Extremos** y compruebe que el **Número de puerto** está establecido en 5022.
     
-     - Haga clic en la ficha **Escucha** y seleccione la opción **Crear una escucha de grupo de disponibilidad**. En esta opción, escriba un nombre para el receptor y establezca el **Puerto** en 1433 (no se admiten otros puertos para esta opción).
+      - Haga clic en la ficha **Escucha** y seleccione la opción **Crear una escucha de grupo de disponibilidad**. En esta opción, escriba un nombre para el receptor y establezca el **Puerto** en 1433 (no se admiten otros puertos para esta opción).
     
     - Haga clic en **Agregar** y después en el cuadro **Dirección IPv4**, proporcione su dirección IP virtual preferida y luego haga clic en **Aceptar**.
     
@@ -329,7 +329,7 @@ Cómo implementar un AG depende de si se implementa en un nuevo grupo de servido
     
    - En el cuadro**Resumen** , compruebe los errores que el Asistente para informes. Luego haga clic en **Finalizar** para completar la validación.
     
-    Puede que el asistente le informe de varias advertencias, especialmente si no usa el almacenamiento compartido. No tiene que usar el almacenamiento compartido, pero si ve cualquier mensaje de **Error**, debe corregir estos problemas antes de continuar.
+     Puede que el asistente le informe de varias advertencias, especialmente si no usa el almacenamiento compartido. No tiene que usar el almacenamiento compartido, pero si ve cualquier mensaje de **Error**, debe corregir estos problemas antes de continuar.
     
 3. Crear el clúster de conmutación por error de Windows Server (WSFC).
     
@@ -373,7 +373,7 @@ Cómo implementar un AG depende de si se implementa en un nuevo grupo de servido
     
    - En la página Seleccionar bases de datos, seleccione las bases de datos que desea incluir en el AG. Then click **Next**.
     
-    No incluir la **ReportServer**, **ReportServerTempDB**o bases de datos de Chat persistente en el AG, como no se admiten en este escenario. Puede incluir todos los demás Skype para bases de datos de Business Server en el AG.
+     No incluir la **ReportServer**, **ReportServerTempDB**o bases de datos de Chat persistente en el AG, como no se admiten en este escenario. Puede incluir todos los demás Skype para bases de datos de Business Server en el AG.
     
    - En la página **Especificar réplicas** , haga clic en la ficha **réplicas** . A continuación, haga clic en el botón **Agregar réplicas** y conectarse a las instancias SQL que se ha unido a como nodos de la WSFC.
     
@@ -387,9 +387,9 @@ Cómo implementar un AG depende de si se implementa en un nuevo grupo de servido
     
    - En la página **Seleccione sincronización inicial de datos**, seleccione Completo y especifique una carpeta que sea accesible para las réplicas y para la que la cuenta del servicio de SQL Server usada por ambas réplicas tenga permisos de escritura. Después haga clic en **Siguiente**.
     
-    Este recurso compartido de archivos se usará temporalmente al inicializar las bases de datos. Si trabaja con bases de datos grandes, le recomendamos que las inicialice manualmente en caso de que el ancho de banda de red no admita el tamaño de las copias de seguridad de la base de datos.
+     Este recurso compartido de archivos se usará temporalmente al inicializar las bases de datos. Si trabaja con bases de datos grandes, le recomendamos que las inicialice manualmente en caso de que el ancho de banda de red no admita el tamaño de las copias de seguridad de la base de datos.
     
-    - En la página Validación, compruebe que todas las comprobaciones de validación se realizan correctamente y luego haga clic en **Siguiente**.
+     - En la página Validación, compruebe que todas las comprobaciones de validación se realizan correctamente y luego haga clic en **Siguiente**.
     
    - En la página **Resumen**, compruebe todas las opciones de configuración y haga clic en Finalizar.
     
@@ -427,8 +427,8 @@ Cómo implementar un AG depende de si se implementa en un nuevo grupo de servido
     
     - Abra Skype para Shell de administración de servidor empresarial y escriba el siguiente cmdlet para crear los inicios de sesión SQL en esta réplica:
     
-     ```
-     Install-CsDatabase -Update
-     ```
+      ```
+      Install-CsDatabase -Update
+      ```
 
-     - Repita los dos pasos anteriores (conmutar por error el grupo a una réplica secundaria, a continuación, usar `Install-CsDatabase -Update`) para cada réplica en el grupo.
+      - Repita los dos pasos anteriores (conmutar por error el grupo a una réplica secundaria, a continuación, usar `Install-CsDatabase -Update`) para cada réplica en el grupo.

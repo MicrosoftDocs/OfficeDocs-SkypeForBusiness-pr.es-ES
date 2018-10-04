@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f302ddca1470d0e35a6b983ae52afa08f2533c8
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5ed741eff5ff095107693a2c94bb8438c60e7c9f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016248"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374383"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de preparación del usuario] (media/upgrade-banner-user-readiness.png "Fases de la actualización viaje, con especial hincapié en la fase de preparación del usuario")
 
@@ -63,6 +63,7 @@ Use los siguientes Kits de inicio de conversación para llevar a cabo una evalua
 | *Informed users* accept the solution as soon as its value is demonstrated.    |       |
 | *Laggards* reject the solution, even when pushed into change. |       |
 -->
+
 | Primeros usuarios  | Usuarios informados  | Rezagados |
 |-----------------|-----------------|----------|
 | Estos usuarios solicitan la solución para que esté disponible. | Estos usuarios aceptan la solución tan pronto como se muestra su valor. | Estos usuarios rechazar la solución, incluso cuando se insertan en cambiar. |
@@ -80,6 +81,7 @@ Use los siguientes Kits de inicio de conversación para llevar a cabo una evalua
 | *Team-players* enjoy group and interactive training; they’ll go along with coworkers. |       |
 | *Hand-holding* seekers expect “white glove” or one-on-one assistance.      |       |
 -->
+
 | Self-motivó  | Reproductores de equipo  | Solicitantes de explotación de mano |
 |-----------------|-----------------|----------|
 | Este tipo de alumnos seek recursos, obtenga información sobre la forma de hacerlo. | Estos usuarios disfrutan de grupo y entrenamiento interactivo; se irán junto con sus compañeros. | Estos usuarios esperan que proporcionó asistencia o "guante blanco". |
@@ -109,10 +111,10 @@ En la siguiente tabla muestra ejemplos de casos de uso universal para trabajo en
 
 <table>
 <tbody>
-<tr><th width="10%">**Caso de uso**</th><th width="30%">**Características**</th><th width="30%">**Desafíos**</th><th width="30%">**Con los equipos**</th></tr>
-<tr><td>**Productividad personal**</td><td><ul><li>Diaria "para hacer" lista</li><li>Dependencia en otros para realizar su trabajo</li></ul></td><td><ul><li>Se pierden los correos electrónicos y los datos adjuntos</li><li>Las llamadas se desvíen al correo de voz</li><li>Compañeros están sin conexión</li><li>Las copias locales se acumulan en el escritorio</li></ul></td><td><ul><li>Enviar en línea y sin conexión mensajes, lo que aliviará tener que realizar un seguimiento de personas hacia abajo</li><li>Conversaciones persistentes con datos adjuntos de archivo reducen la necesidad de buscar en varios lugares o administrar varias versiones</li></ul></td></tr>
-<tr><td>**Reuniones.**</td><td><ul><li>Llamadas de conferencia o reuniones en línea</li><li>Asistentes internos o externos</li><li>Participantes de office o remoto</li></ul></td><td><ul><li>Poca o ninguna contexto proporcionado antes de las reuniones </li><li>Los participantes remotos se sienten izquierdos detrás</li><li>Falta de conexión visual</li><li>Representa un gran reto para ponerse al día si se omitió la reunión</li><li>Se pierde la posteriores a la reunión momentum</li></ul></td><td><ul><li>Crear momentum antes de la reunión con conversación y uso compartido de contenido</li><li>Unirse a través de dispositivos</li><li>Conectarse con vídeo y uso compartido de aplicaciones, aseguran la alineación</li><li>Grabar las reuniones para absent asistentes</li><li>Capturar notas, acciones (& #64; menciones) para la responsabilidad y el seguimiento fácil</li></ul> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; _Todo dentro de una interfaz!_</td></tr>
-<tr><td>**Proyectos de grupo**</td><td><ul><li>Trabajo del proyecto con varios participantes</li><li>Información y uso compartido de documentos</li><li>Uso de varias aplicaciones</li></ul> </td><td><ul><li>Desconectar a causa de las conversaciones de pasillo con el grupo más grande</li><li>Frustraciones acerca de la ubicación de doc y el control de versiones</li><li>Confusión acerca de responsabilidad</li></ul> </td><td><ul><li>Incluir todas las conversaciones de equipo/canal, tiende a transparencia</li><li>Vincular a documentos relevantes; anclar los críticos para asegurarse de visibilidad</li><li>Optimizar el control de versiones de doc</li><li>Obtener acceso a Office y las aplicaciones de terceros, realizar un concentrador es true para el trabajo en equipo</li></ul> </td></tr>
+<tr><th width="10%"><strong>Caso de uso</strong></th><th width="30%"><strong>Características</strong></th><th width="30%"><strong>Desafíos</strong></th><th width="30%"><strong>Con los equipos</strong></th></tr>
+<tr><td><strong>Productividad personal</strong></td><td><ul><li>Diaria "para hacer" lista</li><li>Dependencia en otros para realizar su trabajo</li></ul></td><td><ul><li>Se pierden los correos electrónicos y los datos adjuntos</li><li>Las llamadas se desvíen al correo de voz</li><li>Compañeros están sin conexión</li><li>Las copias locales se acumulan en el escritorio</li></ul></td><td><ul><li>Enviar en línea y sin conexión mensajes, lo que aliviará tener que realizar un seguimiento de personas hacia abajo</li><li>Conversaciones persistentes con datos adjuntos de archivo reducen la necesidad de buscar en varios lugares o administrar varias versiones</li></ul></td></tr>
+<tr><td><strong>Reuniones.</strong></td><td><ul><li>Llamadas de conferencia o reuniones en línea</li><li>Asistentes internos o externos</li><li>Participantes de office o remoto</li></ul></td><td><ul><li>Poca o ninguna contexto proporcionado antes de las reuniones </li><li>Los participantes remotos se sienten izquierdos detrás</li><li>Falta de conexión visual</li><li>Representa un gran reto para ponerse al día si se omitió la reunión</li><li>Se pierde la posteriores a la reunión momentum</li></ul></td><td><ul><li>Crear momentum antes de la reunión con conversación y uso compartido de contenido</li><li>Unirse a través de dispositivos</li><li>Conectarse con vídeo y uso compartido de aplicaciones, aseguran la alineación</li><li>Grabar las reuniones para absent asistentes</li><li>Capturar notas, acciones (& #64; menciones) para la responsabilidad y el seguimiento fácil</li></ul> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <em>Todo dentro de una interfaz!</em></td></tr>
+<tr><td><strong>Proyectos de grupo</strong></td><td><ul><li>Trabajo del proyecto con varios participantes</li><li>Información y uso compartido de documentos</li><li>Uso de varias aplicaciones</li></ul> </td><td><ul><li>Desconectar a causa de las conversaciones de pasillo con el grupo más grande</li><li>Frustraciones acerca de la ubicación de doc y el control de versiones</li><li>Confusión acerca de responsabilidad</li></ul> </td><td><ul><li>Incluir todas las conversaciones de equipo/canal, tiende a transparencia</li><li>Vincular a documentos relevantes; anclar los críticos para asegurarse de visibilidad</li><li>Optimizar el control de versiones de doc</li><li>Obtener acceso a Office y las aplicaciones de terceros, realizar un concentrador es true para el trabajo en equipo</li></ul> </td></tr>
 </tbody>
 </table>
 

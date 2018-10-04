@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84bbd899-4ce1-4b3b-9bdb-a08cefb626d3
 description: Definir las propiedades de los almacenes de SQL Server para el nuevo grupo de servidores Front-End que va a configurar.
-ms.openlocfilehash: 95b5f33e400947b6e1990179f9838d6418a2bece
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d0d8207d45425e84d20f62bc19adadc7337684ff
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006918"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375837"
 ---
 # <a name="add-front-end-sql-store-page-for-lync-server-2010"></a>Agregar página de almacén de Sql de Front-End de Lync Server 2010
  
@@ -36,12 +36,12 @@ Configuración que se puede configurar:
     
     La **instancia predeterminada** está seleccionada inicialmente. Si lo prefiere definir una instancia, seleccione **instancia con nombre** y escriba el nombre de la instancia que se debe crear.
     
- **Atrás**: vuelve al cuadro de diálogo anterior
+  **Atrás**: vuelve al cuadro de diálogo anterior
   
- **Siguiente**: permite confirmar los cambios y se mueve al siguiente cuadro de diálogo de paso
+  **Siguiente**: permite confirmar los cambios y se mueve al siguiente cuadro de diálogo de paso
   
- **Cancelar**: descarta los cambios y cancela la configuración
+  **Cancelar**: descarta los cambios y cancela la configuración
   
- **Ayuda**: muestra información, como por ejemplo en este tema de ayuda
+  **Ayuda**: muestra información, como por ejemplo en este tema de ayuda
   
 

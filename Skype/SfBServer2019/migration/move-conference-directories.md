@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Antes de retirar un grupo de servidores debe realizar el procedimiento siguiente para cada directorio de conferencia en su grupo heredado.
-ms.openlocfilehash: 18cbada5833a5160fc1eb81560c56bc9fcff3e2a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b7526d8c3c032bf8b1f9052dce7da7e8a87b66b5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028015"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372808"
 ---
 # <a name="move-conference-directories"></a>Mover directorios de conferencia
 
@@ -25,35 +25,35 @@ Antes de retirar un grupo de servidores, debe realizar el procedimiento siguient
     
 2. Para obtener la identidad de los directorios de conferencia de la organización, ejecute el siguiente comando:
     
-  ```
-  Get-CsConferenceDirectory
-  ```
+   ```
+   Get-CsConferenceDirectory
+   ```
 
     El comando anterior devuelve todos los directorios de conferencia en su organización. Por ese motivo, es posible que desee limitar los resultados al grupo de servidores fuera de servicio. Por ejemplo, si quita el grupo de servidores con el pool01.contoso.net de dominio completo (FQDN) del nombre, use este comando para limitar los datos devueltos a directorios de conferencia desde ese grupo de servidores:
     
-  ```
-  Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
-  ```
+   ```
+   Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
+   ```
 
     Ese comando devuelve sólo los directorios de conferencia donde la propiedad ServiceID contiene el FQDN pool01.contoso.net.
     
 3. Para mover directorios de conferencia, ejecute el siguiente comando para cada directorio de conferencia en el grupo de servidores:
     
-  ```
-  Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
-  ```
+   ```
+   Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
+   ```
 
     Por ejemplo, para mover el directorio de conferencia 3, use este comando, especificando un Skype para el grupo de servidores de Business Server 2019 como el TargetPool:
     
-  ```
-  Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
-  ```
+   ```
+   Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
+   ```
 
     Si desea mover todos los directorios de conferencia en un grupo de servidores, use un comando similar al siguiente:
     
-  ```
-  Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
-  ```
+   ```
+   Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
+   ```
 
 Descargar [Microsoft desinstalar heredado y quitar Roles de servidor](https://go.microsoft.com/fwlink/p/?linkId=246227) para instrucciones paso a paso integrales en retirar grupos heredados.
   

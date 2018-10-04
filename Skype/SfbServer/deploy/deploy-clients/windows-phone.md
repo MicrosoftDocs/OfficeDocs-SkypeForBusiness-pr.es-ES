@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: 'Resumen: Obtenga información sobre cómo instalar y probar Skype para la empresa en su Windows Phone.'
-ms.openlocfilehash: 90e8b99532e51399f9f76e5e12d60a3eeab84481
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0e135441a711655e42c37d0a9bd7ff4870da1d0d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978050"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372933"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Skype Empresarial Server 2015: instalar y probar Skype Empresarial para Windows Phone
  
@@ -46,12 +46,12 @@ Antes de dirigir a los usuarios de la organización para descargar la aplicació
     
 5. Puntee en **siguiente** y revise la notificación y la configuración de acceso de la libreta de teléfonos:
     
-  - **Notificaciones de inserción** Cuando reciba una llamada o un nuevo mensaje instantáneo, recibirá una alerta. Normalmente **Activado** (recomendado).
+   - **Notificaciones de inserción** Cuando reciba una llamada o un nuevo mensaje instantáneo, recibirá una alerta. Normalmente **Activado** (recomendado).
     
-    > [!IMPORTANT]
-    > Si activa esta opción desactivada, que no se le notifique de mensajes instantáneos, las llamadas u otro Skype para alertas de negocio para Windows Phone a menos que la aplicación está activa. 
+     > [!IMPORTANT]
+     > Si activa esta opción desactivada, que no se le notifique de mensajes instantáneos, las llamadas u otro Skype para alertas de negocio para Windows Phone a menos que la aplicación está activa. 
   
-  - **Permitir el acceso de libreta de teléfonos** Buscar contactos en el teléfono móvil al buscar contactos en Skype para profesionales de Windows Phone.
+   - **Permitir el acceso de libreta de teléfonos** Buscar contactos en el teléfono móvil al buscar contactos en Skype para profesionales de Windows Phone.
     
 6. Puntee en **siguiente** para comenzar a usar Skype para profesionales de Windows Phone.
     

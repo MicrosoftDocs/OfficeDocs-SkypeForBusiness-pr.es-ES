@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para editar las propiedades de un servidor de aplicaciones de confianza que ya se ha definido, siga estas instrucciones.
-ms.openlocfilehash: ab11480cf7772be8e85463866359da7ea6f2b27e
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 73010b40bd5c06c1e59d9b2fee0e4fde3d247732
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069571"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374549"
 ---
 # <a name="external-application-general-settings-expander"></a>Expansor de configuración General de aplicación externa
  
@@ -26,7 +26,7 @@ Para editar las propiedades de un servidor de aplicaciones de confianza que ya s
 Hay dos secciones que se pueden modificar:
   
 > Configuración general
-    
+> 
 > Configuración del próximo salto
     
 ## <a name="general-settings"></a>Configuración general

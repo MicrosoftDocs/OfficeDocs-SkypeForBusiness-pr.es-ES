@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 ROBOTS: NOINDEX, NOFOLLOW
 description: Las notificaciones de inserción y el centro de enrutamiento de notificaciones de inserción (PNCH) son dos partes esenciales de la característica de movilidad. La notificación de inserción es el proceso por el cual un mensaje se envía al PNCH. El mensaje se mantiene allí hasta que puede enviarse al cliente móvil o hasta que el tiempo de espera se agota.
-ms.openlocfilehash: 7954b3230f2f20ee1d7a8043fd2f7232d99352a7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 36a18e31aaa9e98b10f3085874e46784b684b386
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966225"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374670"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Cliente móvil: Crear o editar configuración de notificaciones de inserción
  
@@ -35,9 +35,9 @@ Haga lo siguiente para habilitar las notificaciones de inserción:
   
 2. Seleccione qué servicios de notificación de inserción desea habilitar activando la casilla correspondiente:
     
-  - **Notificación de inserción de habilitar Microsoft** habilitará la notificación de inserción a la de PNCH basada en la nube para Windows Phone con la Skype para la aplicación empresarial
+   - **Notificación de inserción de habilitar Microsoft** habilitará la notificación de inserción a la de PNCH basada en la nube para Windows Phone con la Skype para la aplicación empresarial
     
-  - **Notificación de inserción de Apple habilitar** habilitará la notificación de inserción para PNCH de Apple para dispositivos que ejecutan iOS de Apple (por ejemplo, iPhone, iPad) y usan el Skype para la aplicación empresarial
+   - **Notificación de inserción de Apple habilitar** habilitará la notificación de inserción para PNCH de Apple para dispositivos que ejecutan iOS de Apple (por ejemplo, iPhone, iPad) y usan el Skype para la aplicación empresarial
     
 3. Una vez editada la directiva, haga clic en **Confirmar** para guardar los cambios. Si prefiere eliminar los cambios realizados, seleccione **Cancelar**. No se guardará ningún cambio en la directiva.
     

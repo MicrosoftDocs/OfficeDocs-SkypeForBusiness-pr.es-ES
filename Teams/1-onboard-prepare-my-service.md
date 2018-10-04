@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e09816666e17f657b67f8b28aa36efa3ef95e60f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 335d5baac6f13d899b8d6f9875a419d86da1b6af
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013566"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374320"
 ---
 # <a name="prepare-my-service"></a>Preparar mi servicio
 
@@ -53,8 +53,8 @@ Cuando se haya de incorporación a los usuarios en una base por sitio, se recomi
 >La mayoría de las opciones de configuración es comunes entre los equipos y Skype para profesionales en línea. Use el centro de administración de Office 365 y los equipos & Skype para el centro de administración de negocio para configurar esas opciones de configuración.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul><li>¿Quién será responsable de supervisar la finalización de las listas de comprobación de incorporación?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Descargar las listas de comprobación de incorporación.</li><li>Funciona a través de los elementos de lista de comprobación de incorporación paso a paso de acuerdo con el plan de implementación de la organización.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>¿Quién será responsable de supervisar la finalización de las listas de comprobación de incorporación?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Descargar las listas de comprobación de incorporación.</li><li>Funciona a través de los elementos de lista de comprobación de incorporación paso a paso de acuerdo con el plan de implementación de la organización.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -180,8 +180,8 @@ Después de que se han configurado el entorno del usuario y el servicio, el últ
 -   Requisitos de cumplimiento de normas de enrutamiento directos se han identificado y configurado.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Puntos de decisión</td><td><ul><li>Decidir qué capacidades de la característica de conferencia de Audio que se van a implementar (Decisión del servicio).</li><li>Identificar los requisitos de la funcionalidad de usuario para conferencias de Audio.</li><li>Identificar los requisitos de configuración de servicios para conferencias de Audio.</li><br><li>Decidir si el enrutamiento directo o planes de llamada se implementarán y configurados.<li>Decidir qué capacidades de las funciones del sistema de teléfono que se va a implementar (Decisión del servicio).</li><li>Identificar los requisitos de la funcionalidad de usuario para enrutamiento directa o planes de llamada.</li><li>Identificar requisitos de configuración de servicio para enrutamiento directa o planes de llamada.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Pasos siguientes</td><td><ul><li>Desarrollar y documentar el enfoque del plan de pruebas.</li><li>Preparar el entorno de servicio y los usuarios en el ámbito de las características de conferencia de Audio.</li><li>Preparar su entorno de servicio y los usuarios en el ámbito de las características de enrutamiento directa o planes de llamada.</li><li>Ejecutar pruebas de validación para las características de conferencia de Audio que desea habilitar.</li><li>Ejecutar pruebas de validación para las características de enrutamiento directa o planes de llamada que se va a habilitar.</li><li>Para cualquier probar errores, confirme que la configuración es correcta, revise los artículos de la Comunidad, y, si es necesario: elevar un caso de soporte técnico.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>Decidir qué capacidades de la característica de conferencia de Audio que se van a implementar (Decisión del servicio).</li><li>Identificar los requisitos de la funcionalidad de usuario para conferencias de Audio.</li><li>Identificar los requisitos de configuración de servicios para conferencias de Audio.</li><br><li>Decidir si el enrutamiento directo o planes de llamada se implementarán y configurados.<li>Decidir qué capacidades de las funciones del sistema de teléfono que se va a implementar (Decisión del servicio).</li><li>Identificar los requisitos de la funcionalidad de usuario para enrutamiento directa o planes de llamada.</li><li>Identificar requisitos de configuración de servicio para enrutamiento directa o planes de llamada.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Desarrollar y documentar el enfoque del plan de pruebas.</li><li>Preparar el entorno de servicio y los usuarios en el ámbito de las características de conferencia de Audio.</li><li>Preparar su entorno de servicio y los usuarios en el ámbito de las características de enrutamiento directa o planes de llamada.</li><li>Ejecutar pruebas de validación para las características de conferencia de Audio que desea habilitar.</li><li>Ejecutar pruebas de validación para las características de enrutamiento directa o planes de llamada que se va a habilitar.</li><li>Para cualquier probar errores, confirme que la configuración es correcta, revise los artículos de la Comunidad, y, si es necesario: elevar un caso de soporte técnico.</li></ul></td></tr>
 </table>
 
 

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instrucciones para configurar el conector de datos de llamadas, que permite la telemetría de Skype para empresarial local para verse mediante Skype para herramientas profesionales en línea.
-ms.openlocfilehash: 38e74e76e09d03036419f16807841a67fdf3433a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7c64ff1cfb7c300c575fb1b4512c590d1ddb867d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030577"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373302"
 ---
 # <a name="configure-call-data-connector"></a>Configurar el conector de datos de llamada
 
@@ -99,7 +99,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 ```
 
 Además de la configuración global, opciones de configuración del conector de datos de llamadas pueden asignarse al ámbito del sitio. Esto proporciona mayor flexibilidad de administración, lo que respecta a la supervisión. Por ejemplo, un administrador puede habilitar el reenvío de llamadas de conector de datos para el sitio de Redmond, pero deshabilitar el reenvío de llamadas conector de datos para el sitio de Dublin, tal como se muestra en el ejemplo siguiente:
-  
+
 ```
 Set-CsCloudCallDataConnectorConfiguration -Identity "site:Redmond" -EnableCallDataConnector $True
 ```
@@ -111,6 +111,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDat
 Las opciones configuradas en el ámbito del sitio tienen precedencia sobre las opciones configuradas en el ámbito global. Por ejemplo, suponga que el desvío de llamadas de conector de datos está habilitado en el ámbito global, pero está deshabilitado en el ámbito del sitio (para el sitio de Redmond). Esto significa que información de QoE y registro de detalles de llamadas no se desviarán para los usuarios en el sitio de Redmond. Sin embargo, los usuarios en otros sitios (es decir, los usuarios administrados por la configuración global en lugar de la configuración del sitio Redmond) tendrán sus detalles de las llamadas y la información de QoE reenviado.
 
 Los valores para la configuración usada con más frecuencia utilizado por el conector de datos de llamadas se muestran en la tabla siguiente:  
+
 |Propiedad|Descripción|Valor predeterminado|
 |:-----|:-----|:-----|
 |EnableCallDataConnector  <br/> |Indica si está habilitado el conector de datos de llamada. Si es True, los registros de supervisión se desviarán a la supervisión en línea.  <br/> |$False  <br/> |
@@ -121,7 +122,7 @@ Los valores para la configuración usada con más frecuencia utilizado por el co
 Deshabilitar el conector de datos de llamadas no desasociar al almacén de supervisión desde el grupo de servidores Front-End, ni desinstalar o en caso contrario, afectan a la base de datos de supervisión de back-end. Cuando se deshabilita el conector de datos de llamadas, detenga Skype para Business Server de carga de datos de la llamada a la nube. 
 
 Deshabilitar el conector de datos de llamadas usando el cmdlet Set-CsCloudCallDataConnectorConfiguration desde dentro de la Skype para shell de administración de Business Server. Por ejemplo, el siguiente comando deshabilita el conector de datos de llamadas en el ámbito global estableciendo la propiedad EnableCallDataConnector en $False:
-  
+
 ```
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $False
 ```
@@ -140,7 +141,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 ## <a name="for-more-information"></a>Más información
 
 Para obtener más información sobre los cmdlets, puede usar el comando Get-Help desde el Skype para Shell de administración de servidor empresarial. Por ejemplo:
-  
+
 Get-Help Get-CsCloudCallDataConnector | más
 
 Get-Help Set-CsCloudCallDataConnector | más

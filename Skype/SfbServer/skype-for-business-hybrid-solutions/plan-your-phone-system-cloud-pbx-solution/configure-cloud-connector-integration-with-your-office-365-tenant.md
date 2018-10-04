@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Obtenga información sobre cómo configurar la integración de conector en la nube con el inquilino de Office 365.
-ms.openlocfilehash: 6971858b4e31fb7f98a98f5c80b9bb983a11802a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 01e5135a4b0ac6de391140bc6fc0d80bcc00e2ce
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886175"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375772"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configurar la integración de Cloud Connector con el inquilino de Office 365
  
@@ -42,9 +42,9 @@ Si está usando TLS entre los servidores de mediación y las puertas de enlace, 
     
 3. Importe el certificado de la CA raíz para aquel que fuera emitido para su puerta de enlace en los servidores de mediación. Si tiene que obtener un certificado SSL para la puerta de enlace, puede hacerlo usando el servicio de entidad de certificación que se esté ejecutando en el equipo de Active Directory de Cloud Connector de la siguiente manera:
     
-  - Modificar la plantilla de servidor Web existente para permitir a los usuarios autenticados inscribirse o crear una nueva plantilla de servidor Web para configurar otras propiedades y permiten a los usuarios autenticados inscribirse. Para obtener instrucciones detalladas, consulte [Plantillas de certificado](https://technet.microsoft.com/en-us/library/cc730705.aspx).
+   - Modificar la plantilla de servidor Web existente para permitir a los usuarios autenticados inscribirse o crear una nueva plantilla de servidor Web para configurar otras propiedades y permiten a los usuarios autenticados inscribirse. Para obtener instrucciones detalladas, consulte [Plantillas de certificado](https://technet.microsoft.com/en-us/library/cc730705.aspx).
     
-  - Solicite un certificado con el complemento para certificados seleccionando la plantilla de servidor web que haya habilitado. Asegúrese de agregar Nombre común en Asunto y Nombre DNS en Nombre alternativo con el FQDN de la puerta de enlace, y confirme en Clave privada que Hacer exportable la clave privada esté seleccionada en las opciones de clave. 
+   - Solicite un certificado con el complemento para certificados seleccionando la plantilla de servidor web que haya habilitado. Asegúrese de agregar Nombre común en Asunto y Nombre DNS en Nombre alternativo con el FQDN de la puerta de enlace, y confirme en Clave privada que Hacer exportable la clave privada esté seleccionada en las opciones de clave. 
     
 4. Exporte el certificado SSL con clave privada y siga las instrucciones del proveedor de la puerta de enlace RTC para importarlo.
     
@@ -88,9 +88,9 @@ Si está usando TLS entre los servidores de mediación y las puertas de enlace, 
     
 3. Importe el certificado de la CA raíz para aquel que fuera emitido para su puerta de enlace en los servidores de mediación. Si tiene que obtener un certificado SSL para la puerta de enlace, puede hacerlo usando el servicio de entidad de certificación que se esté ejecutando en el equipo de Active Directory de Cloud Connector de la siguiente manera:
     
-  - Modifique la plantilla de servidor web existente para permitir a los usuarios autenticados que se inscriban o cree una nueva plantilla de servidor web para configurar otras propiedades y permitir a los usuarios autenticados que se inscriban. Para obtener instrucciones detalladas, consulte [Plantillas de certificado](https://technet.microsoft.com/library/cc730705.aspx).
+   - Modifique la plantilla de servidor web existente para permitir a los usuarios autenticados que se inscriban o cree una nueva plantilla de servidor web para configurar otras propiedades y permitir a los usuarios autenticados que se inscriban. Para obtener instrucciones detalladas, consulte [Plantillas de certificado](https://technet.microsoft.com/library/cc730705.aspx).
     
-  - Solicite un certificado con el complemento para certificados seleccionando la plantilla de servidor web que haya habilitado. Asegúrese de agregar Nombre común en Asunto y Nombre DNS en Nombre alternativo con el FQDN de la puerta de enlace, y confirme en Clave privada que Hacer exportable la clave privada esté seleccionada en las opciones de clave. 
+   - Solicite un certificado con el complemento para certificados seleccionando la plantilla de servidor web que haya habilitado. Asegúrese de agregar Nombre común en Asunto y Nombre DNS en Nombre alternativo con el FQDN de la puerta de enlace, y confirme en Clave privada que Hacer exportable la clave privada esté seleccionada en las opciones de clave. 
     
 4. Exporte el certificado SSL con clave privada y siga las instrucciones del proveedor de la puerta de enlace RTC para importarlo.
     
@@ -170,15 +170,15 @@ Cuando una llamada de P2P se remite a una conferencia de RTC, la Skype para serv
     
 2. Inicie una sesión de PowerShell remota de inquilino Azure AD mediante su global o credenciales de administrador del usuario y, a continuación, ejecute el siguiente cmdlet para establecer el departamento para la cuenta de usuario de Azure AD configurado en el paso 1 para "HybridMediationServer":
 
- ```
-  Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
-  ```
+   ```
+   Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
+   ```
 
 3. Iniciar un inquilino Skype para profesionales sesión remota de PowerShell mediante su Skype para credenciales de administrador de inquilinos de negocio y, a continuación, ejecute el siguiente cmdlet para establecer el servidor de mediación y el FQDN del servidor perimetral a ese usuario de cuenta, reemplazar \<DisplayName\> con el nombre para mostrar del usuario para la cuenta que ha creado en el paso 1:
     
-  ```
-  Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
-  ```
+   ```
+   Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
+   ```
 
     Para Identity, use el nombre para mostrar de la cuenta de usuario de Office 365 que haya creado para este servidor de mediación.
     
@@ -186,6 +186,6 @@ Cuando una llamada de P2P se remite a una conferencia de RTC, la Skype para serv
     
     Para *EdgeServerExternalFQDN* , use el FQDN externo definido para el servidor Proxy de acceso de servidor perimetral. Si existen varios sitios RTC de Cloud Connector, elija el FQDN del proxy de acceso de servidor perimetral asignado al sitio donde se encuentra el servidor de mediación.
     
-3. Si hay varios servidores de mediación de Cloud Connector (varios sitios, HA), repita los pasos anteriores para cada uno de ellos.
+4. Si hay varios servidores de mediación de Cloud Connector (varios sitios, HA), repita los pasos anteriores para cada uno de ellos.
     
 

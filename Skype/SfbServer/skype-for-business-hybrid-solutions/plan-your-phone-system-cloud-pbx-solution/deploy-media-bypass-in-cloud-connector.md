@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Lea este tema para obtener información acerca de los pasos para implementar el desvío de medios con la nube conector Edition versión 2.0 y versiones posterior.
-ms.openlocfilehash: ec6647c5d95701ea18a6d403132d50ae8e8ad8dc
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 841a243b236219fc70c99264249567f2eee63081
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890645"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375502"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Implementar el desvío de medios en la nube conector Edition
  
@@ -150,33 +150,33 @@ Con la geolocalización basada en la administración del tráfico, los servidore
     
     Ámsterdam
     
-  - Tipo A
+   - Tipo A
     
-  - Nombre: hybridvoice en la zona DNS adatum.biz
+   - Nombre: hybridvoice en la zona DNS adatum.biz
     
-  - Destino: 192.168.1.45
+   - Destino: 192.168.1.45
     
-    Cree registros adicionales para los servidores de mediación adicionales
+     Cree registros adicionales para los servidores de mediación adicionales
     
-  - 192.168.1.46
+   - 192.168.1.46
     
-  - 192.168.1.47
+   - 192.168.1.47
     
-  - 192.168.1.48
+   - 192.168.1.48
     
-    Seattle
+     Seattle
     
-  - Tipo A
+   - Tipo A
     
-  - Nombre: hybridvoice en la zona DNS adatum.biz
+   - Nombre: hybridvoice en la zona DNS adatum.biz
     
-  - Destino: 10.10.1.8
+   - Destino: 10.10.1.8
     
-    Cree registros adicionales para los servidores de mediación adicionales
+     Cree registros adicionales para los servidores de mediación adicionales
     
-  - 10.10.1.9
+   - 10.10.1.9
     
-  - 10.10.1.10
+   - 10.10.1.10
     
 4. Cree la directiva DNS que conecta las subredes del cliente con los ámbitos de zona apropiados para garantizar la resolución DNS que desea.
     

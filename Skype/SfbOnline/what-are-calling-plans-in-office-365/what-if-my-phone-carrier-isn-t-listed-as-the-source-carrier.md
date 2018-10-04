@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre qué hacer si su operador de telefonía no aparece en Skype para la empresa. '
-ms.openlocfilehash: 79c493d6af5e8d56ecd430842bdf808514e749ff
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 638d222231ca0f092684ebde2fab74cc034af70c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958345"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372834"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>¿Qué sucede si mi operador de telefonía no está incluido como operador de origen?
 
@@ -36,7 +36,7 @@ Un ejemplo:
   
 - Si se trasladar número de Skype para la empresa como su operador de telefonía, es posible que vea que Level 3 enumerados.
     
- **Para obtener instrucciones paso a paso, vea [transferir los números de teléfono para Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+  **Para obtener instrucciones paso a paso, vea [transferir los números de teléfono para Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
     > [!NOTE]
     > Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

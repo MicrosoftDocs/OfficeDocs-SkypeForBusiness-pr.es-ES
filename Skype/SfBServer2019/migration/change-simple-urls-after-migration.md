@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype para Business Server es compatible con las direcciones URL sencillas.
-ms.openlocfilehash: a67e9a8ef46b7809fdc8ce8b4eaadc2ca4720966
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 71935aab09de1598b355d2a7b27dfa02fd169216
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028834"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374993"
 ---
 # <a name="change-simple-urls-after-migration"></a>Direcciones URL sencillas de cambio después de la migración
 
@@ -41,8 +41,8 @@ Después de migrar a Skype para Business Server, debe tener en cuenta cómo afec
     
 2. Seleccione **Direcciones URL simples** en el panel izquierdo, a continuación, debajo de cuadro de **dirección URL de acceso administrativo** , escriba la dirección URL sencilla que desee para el acceso administrativo a Skype para el Panel de Control de servidor empresarial y, a continuación, haga clic en **Aceptar**.
     
-    > [!TIP]
-    > Recomendamos usar la dirección URL más simple posible como dirección URL sencilla de administración. La opción más sencilla es https://admin. _ \<dominio\>_. 
+   > [!TIP]
+   > Recomendamos usar la dirección URL más simple posible como dirección URL sencilla de administración. La opción más sencilla es https://admin. <em> \<dominio\></em>. 
   
 ## <a name="see-also"></a>Vea también
 

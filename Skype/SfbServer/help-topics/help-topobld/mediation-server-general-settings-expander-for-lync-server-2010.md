@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: 'Para editar las propiedades de los servidores de mediación en este cuadro de diálogo. En el lado izquierdo es un conjunto de vínculos rápidos para pasar a la configuración para la configuración General, la configuración de próximo salto y la configuración de puerta de enlace de RTC. En cada sección son las siguientes opciones:'
-ms.openlocfilehash: 262cdcbbbf4c4cfcf35a01de91c88c6511da3360
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: bc26a6b92746e2cf1453d9ee789500011469527f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260478"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375974"
 ---
 # <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Expansor de configuración General del servidor de mediación para Lync Server 2010
 
@@ -29,13 +29,13 @@ Para editar las propiedades de los servidores de mediación en este cuadro de di
 
 - **Asociaciones**: Active la casilla de verificación de **grupo de servidores perimetrales asociados (para componentes multimedia)** y seleccione un servidor perimetral o grupo de servidores perimetrales para el servidor de mediación para usarlo como la ruta de acceso de medios para el acceso externo.
 
- **Próximo salto**:
+  **Próximo salto**:
 
 - **Selección de próximo salto**: seleccione en la lista el grupo de servidores Front-End o de servidor Front-End para usarlo como la ruta de acceso para el servidor de mediación que se usará para comunicarse con su implementación.
 
- **Puerta de enlace RTC**:
+  **Puerta de enlace RTC**:
 
- **Puerta de enlace RTC del servidor de mediación**:
+  **Puerta de enlace RTC del servidor de mediación**:
 
 - **Puertos de escucha**: definir los puertos de escucha en el servidor de mediación. Puede definir un puerto para la seguridad de la capa de transporte o de **TLS** o **TCP**, o protocolo de control de transporte. Para el puerto de entrada para TCP para que esté disponible, debe seleccionar la casilla de verificación para **Habilitar el puerto TCP**.
 

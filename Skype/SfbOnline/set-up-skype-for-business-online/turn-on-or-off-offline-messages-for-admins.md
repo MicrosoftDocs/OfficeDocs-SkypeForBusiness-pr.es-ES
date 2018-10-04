@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 653bde65bb5ba0fa7bc736de0e01979cf55ed63b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 6722f68da55ef9a9db7783727aaf010cd5df39ed
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860917"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374183"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>Activar o desactivar los mensajes sin conexión para administradores
 
@@ -40,7 +40,7 @@ Para obtener más información, vea [uso sin conexión de mensajería en Skype p
 
 ## <a name="to-get-you-started"></a>Para empezar
 
-###
+## #
 
  **Comprobar que está ejecutando Windows PowerShell versión 3.0 o superior**
 
@@ -54,7 +54,7 @@ Para obtener más información, vea [uso sin conexión de mensajería en Skype p
 
 Si necesita más información, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
 
-###
+## #
 
  **Iniciar una sesión de Windows PowerShell**
 

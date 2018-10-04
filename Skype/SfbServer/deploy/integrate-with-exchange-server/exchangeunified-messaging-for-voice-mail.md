@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Resumen: Configurar la mensajería unificada de Exchange Server para Skype Business Server para correo de voz.'
-ms.openlocfilehash: 21664f50b657324b4e70e86da83a4abbe1c14239
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 09ff81c170713f1dd3235f3968d586afc80929fd
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979314"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375814"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Configurar la mensajería unificada de Exchange Server para el correo de voz de Skype Empresarial Server
  
@@ -109,8 +109,8 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 Para configurar Exchange mensajería unificada (UM) para que funcione con Enterprise Voice, debe realizar las siguientes tareas:
 
 - Configurar certificados en el servidor que ejecuta Servicios de mensajería unificada de Exchange (UM)
-> [!NOTE]
-> Agregue todos los servidores de buzones de correo y acceso de cliente a todos los planes de marcado de mensajería unificada URI de SIP. Si no, el enrutamiento de llamadas salientes no funciona como se esperaba. 
+  > [!NOTE]
+  > Agregue todos los servidores de buzones de correo y acceso de cliente a todos los planes de marcado de mensajería unificada URI de SIP. Si no, el enrutamiento de llamadas salientes no funciona como se esperaba. 
 - Crear uno o varios URI de SIP de mensajería unificada de planes de marcado, junto con los números de teléfono de acceso de suscriptor, según sea necesario y, a continuación, crear los planes de marcado de L correspondientes.
 
 - Use el script exchucutil.ps1 para:
@@ -128,8 +128,8 @@ Antes de empezar, en la documentación de esta sección se da por supuesto que h
 También tenga en cuenta lo siguiente:
 - Si la mensajería unificada de Exchange se instala en varios bosques, los pasos de integración de Exchange Server deben realizarse para cada bosque de mensajería unificada. Además, cada bosque de mensajería unificada debe configurarse para que confíe en el bosque en el que se implementa Skype para Business Server y el bosque en whichSkype para Business Server se implementa debe configurarse para que confíe en cada bosque de mensajería unificada.
 - Los pasos de integración se realizan en los roles de servidor de Exchange donde se ejecutan servicios de mensajería unificada y en el servidor que ejecuta Skype para Business Server. Debe realizar los pasos de integración de mensajería unificada de Exchange Server antes de realizar los pasos de integración de Lync Server 2013.
-> [!NOTE]
-> Para ver qué pasos de integración se realizan en qué servidores y mediante qué roles de administrador, vea [información general del proceso de implementación para la integración de mensajería unificada y locales Skype para la empresa](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md). 
+  > [!NOTE]
+  > Para ver qué pasos de integración se realizan en qué servidores y mediante qué roles de administrador, vea [información general del proceso de implementación para la integración de mensajería unificada y locales Skype para la empresa](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md). 
 
 Las herramientas siguientes deben estar disponibles en cada servidor que ejecuta mensajería unificada de Exchange:
 - Shell de administración de Exchange
@@ -151,8 +151,8 @@ Cuando se está integra Microsoft Skype para Business Server con Exchange mensaj
 
 - Crea un grupo de extensiones de mensajería unificada para cada puerta de enlace IP de mensajería unificada. El identificador piloto de cada grupo de búsqueda especifica el plan de marcado de mensajería unificada URI de SIP utilizado por el Skype de grupo empresarial servidor Front-End o un servidor Standard Edition que está asociado con la puerta de enlace IP de mensajería unificada.
 - Concede a Skype de permiso de Business Server para leer los planes, operadores automáticos, las puertas de enlace IP de mensajería unificada de marcado de Active Directory contenedor objetos de mensajería unificada, como la mensajería unificada y grupos de extensiones de mensajería unificada.
-> [!IMPORTANT]
-> Cada bosque de mensajería unificada debe configurarse para que confíe en el bosque en el que se implementa Skype para Business Server y el bosque en el que se implementa Skype para Business Server 2013 debe configurarse para que confíe en cada bosque de mensajería unificada. Si la mensajería unificada de Exchange se instala en varios bosques, los pasos de integración de Exchange Server deben realizarse para cada bosque de mensajería unificada o tendrá que especificar el Skype para dominio Business Server. Por ejemplo, ExchUcUtil.ps1 – bosque: < lync dominio-controlador fqdn >. 
+  > [!IMPORTANT]
+  > Cada bosque de mensajería unificada debe configurarse para que confíe en el bosque en el que se implementa Skype para Business Server y el bosque en el que se implementa Skype para Business Server 2013 debe configurarse para que confíe en cada bosque de mensajería unificada. Si la mensajería unificada de Exchange se instala en varios bosques, los pasos de integración de Exchange Server deben realizarse para cada bosque de mensajería unificada o tendrá que especificar el Skype para dominio Business Server. Por ejemplo, ExchUcUtil.ps1 – bosque: < lync dominio-controlador fqdn >. 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>Usar el Shell para ejecutar el script ExchUcUtil.ps1
 
@@ -191,8 +191,8 @@ El servidor de Exchange debe configurarse con un certificado de servidor para po
 1. En el servidor que ejecuta mensajería unificada de Exchange, haga clic en **Inicio**, haga clic en **Ejecutar**, tipo **http://\<nombre de su servidor de entidad de certificación emitir > / certsrv**y, a continuación, haga clic en **Aceptar**.
 2. En Seleccione una tarea, haga clic en **Descargar certificado de CA, cadena de certificados o CRL**.
 3. En **Descargar certificado de CA, cadena de certificados o CRL**, seleccione el **Método de codificación en Base 64**y, a continuación, haga clic en**Descargar certificado de CA**.
-> [!NOTE]
-> También puede especificar la codificación de reglas de codificación distintivo (DER) en este paso. Si selecciona la codificación DER, el tipo de archivo en el siguiente paso de este procedimiento y en el paso 10 de **para instalar la entidad de certificación certificado** es. p7b en lugar de CER. 
+   > [!NOTE]
+   > También puede especificar la codificación de reglas de codificación distintivo (DER) en este paso. Si selecciona la codificación DER, el tipo de archivo en el siguiente paso de este procedimiento y en el paso 10 de **para instalar la entidad de certificación certificado** es. p7b en lugar de CER. 
 4. En el cuadro de diálogo **Descarga de archivos** , haga clic en **Guardar**y, a continuación, guarde el archivo en el disco duro en el servidor. (El archivo tendrá una .cer o una extensión de archivo. p7b, según la codificación que haya seleccionado en el paso anterior.)
 
 **Para instalar el certificado de entidad emisora de certificados:**

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 'Resumen: Obtenga información sobre cómo recuperar, actualizar y crear opciones de configuración para el servicio de registro centralizado en Skype para Business Server 2015.'
-ms.openlocfilehash: 163ac9607e3b690aac2f069c38e967692721d819
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 62902a25e50043f2e03eda907f4ba572249b1a60
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253121"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375604"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Administrar las opciones de configuración del servicio de registro centralizado en Skype Empresarial Server 2015
 
@@ -66,9 +66,9 @@ Los ámbitos de sitio y Global se definen en los cmdlets **New -**, **Set -** y 
 
 2. Escriba lo siguiente en el símbolo de la línea de comandos:
 
-  ```
-  Get-CsClsConfiguration
-  ```
+   ```
+   Get-CsClsConfiguration
+   ```
 
 Use los cmdlets **New-CsClsConfiguration** y **Set-CsClsConfiguration** para crear una nueva configuración o para actualizar una configuración existente. Cuando se ejecuta **Get-CsClsConfiguration**, muestra información similar a la siguiente pantalla, donde la implementación tiene actualmente la configuración Global de forma predeterminada, pero no las configuraciones de sitios definidas:
 
@@ -80,9 +80,9 @@ Use los cmdlets **New-CsClsConfiguration** y **Set-CsClsConfiguration** para cre
 
 2. Escriba lo siguiente en el símbolo de la línea de comandos:
 
-  ```
-  Get-CsClsConfiguration -LocalStore
-  ```
+   ```
+   Get-CsClsConfiguration -LocalStore
+   ```
 
 Cuando se use en el primer ejemplo donde **Get-CsClsConfiguration** no se especifica ningún parámetro, las referencias de comando el almacén de Administración Central para los datos. Si se especifica el parámetro - LocalStore, el comando hace referencia a la LocalStore de equipo en lugar del almacén de Administración Central.
 ### <a name="to-retrieve-a-listing-of-scenarios-currently-defined"></a>Para recuperar la lista de los escenarios actualmente definidos
@@ -91,15 +91,15 @@ Cuando se use en el primer ejemplo donde **Get-CsClsConfiguration** no se especi
 
 2. Escriba lo siguiente en el símbolo de la línea de comandos:
 
-  ```
-  Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
-  ```
+   ```
+   Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
+   ```
 
     Por ejemplo, para recuperar los escenarios definidos en el ámbito global:
 
-  ```
-  Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
-  ```
+   ```
+   Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
+   ```
 
 El cmdlet **Get-CsClsConfiguration** siempre muestra los escenarios que forman parte de la configuración de un ámbito determinado. En la mayoría de los casos, no se muestran todos los escenarios y están truncados. El comando usado aquí enumera todos los escenarios e información parcial sobre los proveedores, la configuración y las marcas que se utilizan.
 ### <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Para actualizar un ámbito global para el servicio de registro centralizado mediante el uso de Windows PowerShell
@@ -108,15 +108,15 @@ El cmdlet **Get-CsClsConfiguration** siempre muestra los escenarios que forman p
 
 2. Escriba lo siguiente en el símbolo de la línea de comandos:
 
-  ```
-  Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
-  ```
+   ```
+   Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
+   ```
 
-  Por ejemplo:
+   Por ejemplo:
 
-  ```
-  Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
-  ```
+   ```
+   Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
+   ```
 
 El comando indica a CLSAgent en cada equipo y grupo de la implementación que establezca el tamaño del valor de sustitución en el archivo de seguimiento en 40 megabytes. El comando afectará a los equipos y grupos de todos los sitios, y establecerá el valor de sustitución del registro de seguimiento configurado en 40 megabytes.
 ### <a name="to-update-a-site-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Para actualizar un ámbito de sitio para el servicio de registro centralizado mediante Windows PowerShell
@@ -125,15 +125,15 @@ El comando indica a CLSAgent en cada equipo y grupo de la implementación que es
 
 2. Escriba lo siguiente en el símbolo de la línea de comandos:
 
-  ```
-  Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes>
-  ```
+   ```
+   Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes>
+   ```
 
-  Por ejemplo:
+   Por ejemplo:
 
-  ```
-  Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40
-  ```
+   ```
+   Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40
+   ```
 
 > [!NOTE]
 > Como se indica en el ejemplo, la ubicación predeterminada de los archivos de registro es %TEMP%\Tracing. Pero, como es CLSAgent quien realmente escribe en el archivo y CLSAgent se ejecuta como un servicio de red, la variable %TEMP% se expande a %WINDIR%\ServiceProfiles\NetworkService\AppData\Local.
@@ -145,9 +145,9 @@ El comando indica a CLSAgent en cada equipo y grupo del sitio Redmond que establ
 
 2. Escriba lo siguiente en el símbolo de la línea de comandos:
 
-  ```
-  New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
-  ```
+   ```
+   New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
+   ```
 
     > [!NOTE]
     > New-CsClsConfiguration proporciona acceso a una gran cantidad de opciones de configuración opcionales. Para obtener información detallada acerca de las opciones de configuración, vea [Get-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps) y [Descripción centralizada de registro de la configuración del servicio](https://technet.microsoft.com/library/3c34e600-0b91-43dc-b4cc-90b6a70ee12e.aspx).
@@ -165,9 +165,9 @@ Debe planear cuidadosamente la creación de nuevas configuraciones y cómo defin
 
 2. Escriba lo siguiente en el símbolo de la línea de comandos:
 
-  ```
-  Remove-CsClsConfiguration -Identity <scope and name>
-  ```
+   ```
+   Remove-CsClsConfiguration -Identity <scope and name>
+   ```
 
 Por ejemplo, para quitar una configuración del servicio de registro centralizado que creó para aumentar el tiempo de conversión de archivo de registro, aumente el tamaño de archivo de registro de conversión y establezca la ubicación de memoria caché del archivo de registro en un recurso compartido de red de la siguiente manera:
 

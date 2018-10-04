@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Si necesitará quitar el servidor de archivos que actualmente está actuando como el almacén de archivos para su Skype para la implementación de Business Server, o si necesita realizar otros cambios que harían que el archivo actual almacén no está disponible, primero debe crear un nuevo recurso compartido. Después deberá realizar los siguientes pasos:'
-ms.openlocfilehash: de76c0cbb3a6516ebd3769ba44733be5aa4485e6
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5051e7ef9c0008fb3b98f7e4b7c67a06a5465d1e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245883"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375925"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Almacén de archivos de movimiento de datos a un nuevo almacén de archivos en Skype para Business Server
 
@@ -35,7 +35,7 @@ Si necesitará quitar el servidor de archivos que actualmente está actuando com
 
 1. Inicie sesión como miembro del grupo RTCUniversersalServerAdmins o CsServerAdministrator del grupo donde se instalan los Skype para Business Server, las herramientas administrativas en un equipo.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.
 
 3. En la barra de navegación izquierda, haga clic en **Topología ** y, a continuación, en **Estado **. 
 
@@ -47,41 +47,41 @@ Si necesitará quitar el servidor de archivos que actualmente está actuando com
 
 7. Seleccione un servidor o un grupo que use el almacén de archivos y realice lo siguiente:
 
-1. Haga clic con el botón derecho en el servidor o en el grupo y, a continuación, haga clic en **Editar propiedades**. 
+8. Haga clic con el botón derecho en el servidor o en el grupo y, a continuación, haga clic en **Editar propiedades**. 
 
-2. En **Editar propiedades** > **Asociaciones** > **Almacén de archivos**, haga clic en **Nuevo**.
+9. En **Editar propiedades** > **Asociaciones** > **Almacén de archivos**, haga clic en **Nuevo**.
 
-3. En **Definir nuevo almacén de archivos**, en **FQDN del servidor de archivos**, escriba el nombre de dominio completo (FQDN) del servidor de archivos. En **Recurso compartido de archivos**, escriba el nombre de la carpeta del nuevo recurso compartido de archivos y después haga clic en **Aceptar**.
+10. En **Definir nuevo almacén de archivos**, en **FQDN del servidor de archivos**, escriba el nombre de dominio completo (FQDN) del servidor de archivos. En **Recurso compartido de archivos**, escriba el nombre de la carpeta del nuevo recurso compartido de archivos y después haga clic en **Aceptar**.
 
-    > [!IMPORTANT]
-    > En este paso se define un nuevo almacén de archivos para su uso en el generador de topología. Debe definirlo solo una vez, no en cada servidor. Antes de publicar la topología, deberá crear el recurso compartido de archivos definido en el servidor de archivos definido. Para obtener más información, consulte [definir el almacén de archivos para el Front-End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
+     > [!IMPORTANT]
+     > En este paso se define un nuevo almacén de archivos para su uso en el generador de topología. Debe definirlo solo una vez, no en cada servidor. Antes de publicar la topología, deberá crear el recurso compartido de archivos definido en el servidor de archivos definido. Para obtener más información, consulte [definir el almacén de archivos para el Front-End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
 
-8. Por cada servidor o grupo que use el almacén de archivos, realice lo siguiente:
+11. Por cada servidor o grupo que use el almacén de archivos, realice lo siguiente:
 
-1. Haga clic con el botón derecho en el servidor o en el grupo y, a continuación, haga clic en **Editar propiedades**.
+12. Haga clic con el botón derecho en el servidor o en el grupo y, a continuación, haga clic en **Editar propiedades**.
 
-2. En **Editar propiedades** > **Asociaciones** > **Almacén de archivos**, seleccione el nuevo recurso compartido de archivos y haga clic en **Aceptar**.
+13. En **Editar propiedades** > **Asociaciones** > **Almacén de archivos**, seleccione el nuevo recurso compartido de archivos y haga clic en **Aceptar**.
 
-9. Publique la topología, compruebe el estado de replicación y, a continuación, ejecute el Skype para el Asistente para la implementación de Business Server según sea necesario. Para obtener información detallada, vea [Procedimientos comunes para Removing Lync Servers and Components](https://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx).
+14. Publique la topología, compruebe el estado de replicación y, a continuación, ejecute el Skype para el Asistente para la implementación de Business Server según sea necesario. Para obtener información detallada, vea [Procedimientos comunes para Removing Lync Servers and Components](https://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx).
 
-10. Inicie un símbolo del sistema: haga clic en **Inicio**, haga clic en **Ejecutar**y, a continuación, escriba cmd.exe.
+15. Inicie un símbolo del sistema: haga clic en **Inicio**, haga clic en **Ejecutar**y, a continuación, escriba cmd.exe.
 
-11. En la línea de comandos, escriba:
+16. En la línea de comandos, escriba:
 
-  ```
-  Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
-  ```
+    ```
+    Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
+    ```
 
     > [!TIP]
     > El conmutador /S copia los archivos, directorios y subdirectorios. El conmutador /XF omite los archivos con el nombre Meeting.Active. Las versiones actuales de robocopy.exe con el conmutador /MT dispara considerablemente la velocidad de copiado, debido a que usa varios subprocesos. Para el modificador /LOG, use un nombre de archivo de registro y la ruta de acceso de Active directory en forma de C:\Logfiles\log.txt. Este conmutador crea un archivo de registro de operaciones en la ubicación designada.
 
-12. Cuando la copia de datos se complete, en el Panel de Control de Lync Server, haga clic en **topología**y, a continuación, haga clic en **estado**.
+17. Cuando la copia de datos se complete, en el Panel de Control de Lync Server, haga clic en **topología**y, a continuación, haga clic en **estado**.
 
-13. Por cada servidor o grupo donde haya detenido los servicios, seleccione el servidor o el grupo, haga clic en **Acción** y después en **Iniciar todos los servicios**.
+18. Por cada servidor o grupo donde haya detenido los servicios, seleccione el servidor o el grupo, haga clic en **Acción** y después en **Iniciar todos los servicios**.
 
-14. Quite el antiguo almacén de archivos de la topología y, a continuación, publique la topología. Para obtener información detallada, vea [quitar un almacén de archivos](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx).
+19. Quite el antiguo almacén de archivos de la topología y, a continuación, publique la topología. Para obtener información detallada, vea [quitar un almacén de archivos](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx).
 
-15. (Opcional) Inicie sesión como miembro del grupo Administradores local o del grupo Administradores del dominio en el equipo que contenía el almacén de archivos que acaba de eliminar y quite el directorio y el recurso compartido de archivos anteriores.
+20. (Opcional) Inicie sesión como miembro del grupo Administradores local o del grupo Administradores del dominio en el equipo que contenía el almacén de archivos que acaba de eliminar y quite el directorio y el recurso compartido de archivos anteriores.
 
 ## <a name="see-also"></a>Vea también
 

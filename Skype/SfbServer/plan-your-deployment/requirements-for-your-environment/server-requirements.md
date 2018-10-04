@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Resumen: prepare los servidores de Skype Empresarial Server 2015 con este tema. Hardware, sistemas operativos, bases de datos, software, todos los requisitos del sistema y recomendaciones están aquí para ayudar a garantizar una instalación e implementación correcta de la granja de servidores.'
-ms.openlocfilehash: 4e6bbe71a75097e9b1a3a34752d9d1cd46d59307
-ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
+ms.openlocfilehash: 5f64bbf4e455896de143991be455c3c122b4911c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25040744"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374755"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Requisitos del servidor para Skype Empresarial Server 2015
  
@@ -97,7 +97,7 @@ Skype para Business Server 2015 Enterprise Edition es un poco más complicado, p
 Si no ve la edición de SQL Server que desea usar que se muestra aquí, no se puede usar.
   
 > [!NOTE]
-> También va a necesitar instalar SQL Server Reporting Services para el rol de servidor de supervisión, pero debe saber que esto no se va a ser compatibles con SQL siempre en hasta post-RTM. 
+> También va a necesitar instalar SQL Server Reporting Services para el rol de servidor de supervisión.
 
 ### <a name="microsoft-exchange-storage"></a>Almacenamiento de información de Microsoft Exchange
 Los archivos del contenido de reuniones, como las presentaciones de PowerPoint, se archivan como datos adjuntos. Si desea almacenar Skype para archivar datos de negocio con datos de cumplimiento de normas de Exchange, debe usar Exchange para la implementación de Exchange y asegúrese de que el tamaño máximo de almacenamiento admite el almacenamiento de los archivos de contenido de la reunión. Debe implementar Exchange antes de implementar y habilitar el archivado mediante la opción de integración de Microsoft Exchange. 

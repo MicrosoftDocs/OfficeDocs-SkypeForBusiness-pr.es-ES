@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Resumen: Conozca las cosas que debe tener en cuenta al planear una actualización a Skype para Business Server 2015. Descargue una versión de prueba gratuita de Skype para Business Server 2015 desde el Evaluation de Microsoft center en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 437c54513865ceb28f717f50b4619a735720c98b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: dd62ee7b8b7721b8ace7c3e49dd69df60d3229f7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882743"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375137"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Planear la actualización a Skype Empresarial Server 2015
  
@@ -138,13 +138,13 @@ Este método consiste en mover a los usuarios a otro grupo antes de comenzar la 
     
 5. Instalar nuevos requisitos previos necesarios para Skype para el servidor empresarial.
     
-6.  Inicie la actualización local en cada uno de los servidores front-end.
+6. Inicie la actualización local en cada uno de los servidores front-end.
     
 7. Cuando se complete la actualización, reinicie todos los servicios.
     
-  - En el caso del grupo front-end, reinicie los servicios con el comando Start-CsPool.
+   - En el caso del grupo front-end, reinicie los servicios con el comando Start-CsPool.
     
-  - Para los servidores de los demás grupos, use Start-CSWindowsService.
+   - Para los servidores de los demás grupos, use Start-CSWindowsService.
     
 > [!NOTE]
 >  Si no quiere actualizar las bases de datos existentes de archivado y supervisión, elimine esta dependencia antes de actualizar la topología. Si quiere crear nuevas bases de datos de archivado y supervisión, durante la actualización puede crear un nuevo almacén SQL y asociarlo al grupo. Puede encontrar los pasos sobre cómo hacerlo en el tema,[actualizar a Skype para Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md). > Actualización en contexto no admite alta disponibilidad o recuperación ante desastres para Skype para Business Server. Para evitar la interrupción de los servicios de los usuarios, utilice el [método Move Users (sin tiempo de inactividad de usuario)](upgrade.md#bkmk_MoveUsersMethod) a la actualización. > durante el proceso de actualización de la réplica de xds se coloca en la carpeta compartida local en la unidad de disco con más espacio libre. Si el disco se desconecta posteriormente, pueden producirse problemas (por ejemplo, servicios que no se inicien).

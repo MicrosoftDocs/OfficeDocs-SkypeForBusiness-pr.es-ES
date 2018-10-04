@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para editar las propiedades de una base de datos de SQL Server, debe cambiar la instancia de base de datos de SQL Server. No puede usar el cuadro de diálogo Editar propiedades para realizar tareas tales como mover la base de datos del servidor de archivado de un equipo a otro. Además, no puede usar el cuadro de diálogo Editar propiedades para cambiar la instancia de SQL Server que hospeda el almacén de Administración Central.
-ms.openlocfilehash: aaab5adde793a585d632c3e246f0023c92f244b0
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 3079f29a82f26dac42badcb8efb2945710b1f97d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21066510"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373926"
 ---
 # <a name="sql-store-settings-expander"></a>Expansor de configuración de almacén de SQL
  
@@ -33,9 +33,9 @@ Para cambiar la instancia de SQL Server que se usa en cualquier base de datos qu
     
 2. En el cuadro de diálogo **Editar propiedades** , siga uno de estos procedimientos:
     
-  - Para usar la instancia de SQL Server predeterminada, seleccione **Instancia predeterminada** y, a continuación, haga clic en **Aceptar**.
+   - Para usar la instancia de SQL Server predeterminada, seleccione **Instancia predeterminada** y, a continuación, haga clic en **Aceptar**.
     
-  - Para usar una instancia con nombre de la base de datos, seleccione **Instancia con nombre**, escriba el nombre de instancia en el cuadro de texto y, a continuación, haga clic en **Aceptar**. Debe escribir el nombre de instancia (por ejemplo, ArchivingInstance) y no la ruta completa de SQL Server.
+   - Para usar una instancia con nombre de la base de datos, seleccione **Instancia con nombre**, escriba el nombre de instancia en el cuadro de texto y, a continuación, haga clic en **Aceptar**. Debe escribir el nombre de instancia (por ejemplo, ArchivingInstance) y no la ruta completa de SQL Server.
     
 Cuando se trabaja en el cuadro de diálogo **Editar propiedades** , Topology Builder no comprobará que la instancia de base de datos que ha escrito es una instancia válida. Por ejemplo, si se sin darse cuenta typeArchivingInstanec como el nombre de instancia y, a continuación, haga clic en **Aceptar**, Topology Builder aceptará esa instancia no válida. Antes de poder publicar esta topología, debe corregir este error: si no se encuentra una instancia de SQL Server, Topology Builder no crear esa instancia para usted.
   

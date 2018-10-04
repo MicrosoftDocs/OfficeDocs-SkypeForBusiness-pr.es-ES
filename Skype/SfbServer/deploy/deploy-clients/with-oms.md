@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: En este artículo se explica cómo implementar la administración de dispositivos de sistemas de salón de Skype v2 de manera integrada, end-to-end con el conjunto de aplicaciones de administración de operaciones de Microsoft.
-ms.openlocfilehash: 5ef935f30bfdb5036c87fe24d9456af1b52925e5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6a521f572cc8dc0b55a358d8519109aa087fea35
+ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371383"
+ms.locfileid: "25405186"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>Implementar la administración de Sistemas de salas de Skype v2 con OMS
 
@@ -170,7 +170,7 @@ Una vez que se recopilan los datos y se asignan los campos personalizados, puede
 
 Puede importar un panel de conjunto de aplicaciones de administración de operaciones e iniciar la supervisión de los dispositivos inmediatamente. Lleve a cabo los siguientes pasos para importar el panel:
 
-1.  Obtenga el archivo del panel de [SkypeRoomSystems_v2.omsview](https://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomSystems_v2.omsview) .
+1.  Obtenga el archivo del panel de [SkypeRoomSystems_v2.omsview](https://go.microsoft.com/fwlink/?linkid=835675) .
 2.  Inicie sesión el [portal del conjunto de aplicaciones de administración de operaciones de Microsoft](https://aka.ms/omsportal).
 3.  Abra el **Diseñador de vistas**.
 4.  Seleccione **Importar**y, a continuación, seleccione el archivo **SkypeRoomSystems_v2.omsview** .

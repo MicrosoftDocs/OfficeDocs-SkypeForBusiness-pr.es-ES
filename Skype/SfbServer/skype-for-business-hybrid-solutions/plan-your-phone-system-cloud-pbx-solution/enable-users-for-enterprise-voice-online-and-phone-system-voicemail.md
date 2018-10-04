@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Obtenga información sobre cómo habilitar sistema telefónico en servicios de voz de Office 365 para su Skype para los usuarios empresariales.
-ms.openlocfilehash: ef1e7b98ad4a6080d07dc4abca717aef49a725ed
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ec0e37c0597f81001075f144dd38b58acfbb1159
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887907"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372673"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Habilitar a usuarios para Enterprise Voice en línea y el sistema de teléfono en el correo de voz de Office 365
  
@@ -41,15 +41,15 @@ Para habilitar a un usuario para el sistema telefónico en Office 365 voz y corr
     
 3. Escriba lo siguiente y presione Entrar:
     
-  ```
-  Import-Module skypeonlineconnector
-  ```
+   ```
+   Import-Module skypeonlineconnector
+   ```
 
 4. Escriba lo siguiente y presione Entrar:
     
-  ```
-  $cred = Get-Credential
-  ```
+   ```
+   $cred = Get-Credential
+   ```
 
     Después de presionar ENTRAR, verá el cuadro de diálogo Credenciales de Windows PowerShell.
     
@@ -57,29 +57,29 @@ Para habilitar a un usuario para el sistema telefónico en Office 365 voz y corr
     
 6. En la ventana de la PowerShell, escriba lo siguiente y presione Entrar:
     
-  ```
-  $Session = New-CsOnlineSession -Credential $cred -Verbose
-  ```
+   ```
+   $Session = New-CsOnlineSession -Credential $cred -Verbose
+   ```
 
 7. Escriba el siguiente cmdlet para importar la sesión:
     
-  ```
-  Import-PSSession $Session -AllowClobber
-  ```
+   ```
+   Import-PSSession $Session -AllowClobber
+   ```
 
     Al ejecutar PowerShell en un Skype para Business Server, el local Skype para cmdlets empresarial ya están cargados cuando abra PowerShell. Debe especificar el parámetro - AllowClobber para permitir que los cmdlets en línea sobrescribir los cmdlets local con el mismo nombre.
     
 8. Use el cmdlet Set-CsUser para asignar las propiedades $EnterpriseVoiceEnabled y $HostedVoiceMail a su usuario del siguiente modo:
     
-  ```
-  Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-  ```
+   ```
+   Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+   ```
 
     Por ejemplo:
     
-  ```
-  Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-  ```
+   ```
+   Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+   ```
 
     > [!NOTE]
     > También puede especificar un usuario por su dirección SIP, nombre principal de usuario (UPN), nombre de dominio y nombre de usuario (dominio\nombre de usuario), y nombre para mostrar en Active Directory ("Guillermo Rodarte"). 

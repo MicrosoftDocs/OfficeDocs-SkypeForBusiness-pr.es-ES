@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f7a1464159bf613800756eb8568510c3749939e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4a2ad3c2416e64334dddda6c09d3e8eed2be3763
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017186"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374253"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de comprobación de acceso de invitado a los equipos
 ==========================================
@@ -86,7 +86,7 @@ Para obtener instrucciones detalladas acerca de cómo configurar estas opciones,
 ► Como mínimo para admitir a los invitados, **pueden invitar los miembros** se debe establecer en **Sí**.
 
 > > [!NOTE]
-> Si establece **pueden invitar los miembros** en **No** y habilitar el acceso de invitado en grupos de Office 365 y Microsoft Teams, los administradores pueden controlar las invitaciones de invitado a su directorio. Después de que los invitados se encuentran en el directorio, puede agregarse a los equipos de los miembros sin permisos de administrador (propietarios de equipo).
+> > Si establece **pueden invitar los miembros** en **No** y habilitar el acceso de invitado en grupos de Office 365 y Microsoft Teams, los administradores pueden controlar las invitaciones de invitado a su directorio. Después de que los invitados se encuentran en el directorio, puede agregarse a los equipos de los miembros sin permisos de administrador (propietarios de equipo).
 
 
 Para obtener más información, consulte [Autorizar el acceso de invitado en Microsoft Teams](Teams-dependencies.md).

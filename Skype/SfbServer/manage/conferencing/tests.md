@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 'Resumen: Obtenga información sobre cómo probar la conferencia de acceso telefónico en Skype para Business Server.'
-ms.openlocfilehash: 258c860a0a808b40384a766bc5151e671789a03c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e86e2c136edd8520f12944768e327e0870106f6e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966415"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372842"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Probar la conferencia de acceso telefónico en Skype para Business Server
  
@@ -30,9 +30,9 @@ Como comprobación final de la configuración de las conferencias de acceso tele
     
 3. Ejecute los siguientes comandos en símbolo del sistema:
     
-  ```
-  Get-CsDialinConferencingAccessNumber -EmptyRegion
-  ```
+   ```
+   Get-CsDialinConferencingAccessNumber -EmptyRegion
+   ```
 
     Este cmdlet devuelve todos los planes de marcado que tienen una región de conferencia de acceso telefónico local que no es usada por ningún número de acceso.
     
@@ -46,9 +46,9 @@ Para obtener más información, vea [Get-CsDialInConferencingAccessNumber](https
     
 3. Ejecute los siguientes comandos en símbolo del sistema:
     
-  ```
-  Get-CsDialinConferencingAccessNumber -Region NULL
-  ```
+   ```
+   Get-CsDialinConferencingAccessNumber -Region NULL
+   ```
 
     Este cmdlet devuelve todos los números de acceso de conferencia de acceso telefónico local que no están asociados a ninguna región.
     
@@ -70,12 +70,12 @@ Para comprobar que la página web Configuración de la conferencia de acceso tel
     
 3. Ejecute los siguientes comandos en símbolo del sistema:
     
-  ```
-  $credentials = Get-Credential
+   ```
+   $credentials = Get-Credential
    User name:  testuser1@contoso.com
    Password:  ********
-Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
-  ```
+   Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
+   ```
 
     El informe resultante indica si hay errores, junto con la información de diagnóstico específica. -Verbose marca proporciona más información detallan sobre el acceso de cuántas se han encontrado números y detalles acerca de ellos.
     

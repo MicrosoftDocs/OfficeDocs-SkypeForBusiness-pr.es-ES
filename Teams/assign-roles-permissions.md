@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d5b3f52caf7de455d2b579a3360d17e18602450
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 523530647834fa2c54d18d983f25733bbe25d1be
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014294"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372652"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Asignar propietarios de equipo y miembros en Microsoft Teams
 =================================================
@@ -30,19 +30,21 @@ En Microsoft Teams existen dos roles de usuario: **propietario** y **miembros**.
 
 En la tabla siguiente se muestra la diferencia entre un propietario y un miembro:
 
-|  |Propietario de equipo  |Miembro de equipo  |
-|---------|---------|---------|
-|**Crear equipo**     |Sí        |No         |
-|**Abandonar equipo**     |Sí         |Sí         |
-|**Editar nombre o descripción del equipo**      |Sí         |No         |
-|**Eliminar equipo**      |Sí         |No         |
-|**Agregar canal**      |Sí         |Sí*         |
-|**Editar nombre o descripción del canal**      |Sí         |Sí*         |
-|**Eliminar canal**      |Sí         |Sí*         |
-|**Agregar miembros**      |Sí         |No         |
-|**Agregar fichas**      |Sí         |Sí*         |
-|**Agregar conectores**      |Sí         |Sí*         |
-|**Agregar bots**      |Sí         |Sí*         |
+
+|                                   | Propietario de equipo | Miembro de equipo |
+|-----------------------------------|------------|-------------|
+|          **Crear equipo**          |    Sí     |     No      |
+|          **Abandonar equipo**           |    Sí     |     Sí     |
+|  **Editar nombre o descripción del equipo**   |    Sí     |     No      |
+|          **Eliminar equipo**          |    Sí     |     No      |
+|          **Agregar canal**          |    Sí     |    Sí\*    |
+| **Editar nombre o descripción del canal** |    Sí     |    Sí\*    |
+|        **Eliminar canal**         |    Sí     |    Sí\*    |
+|          **Agregar miembros**          |  Sí\*\*   |     No      |
+|           **Agregar fichas**            |    Sí     |    Sí\*    |
+|        **Agregar conectores**         |    Sí     |    Sí\*    |
+|           **Agregar bots**            |    Sí     |    Sí\*    |
+
 \*Estos elementos se pueden desactivar un propietario en un nivel de equipo, en cuyo caso los miembros no tienen acceso a ellos.
 
 \*\*Tras agregar un miembro a un equipo, un propietario también puede promover un miembro al estado Propietario. También es posible que un propietario disminuya su propio estado a Miembro.

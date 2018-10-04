@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Obtenga información sobre cómo admitir la resistencia de voz en Skype para Business Server Enterprise Voice, en sitios centrales y sitios de sucursal. Opciones de sitio de sucursal incluyen implementar aplicaciones de sucursal con funciones de supervivencia o servidores de sucursal con funciones de supervivencia.
-ms.openlocfilehash: 76b56d7e7d00ecd6d542be3f936af6f2e834974d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b93e93e32baf67b71c2a1eb842455973ee619f80
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882306"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374762"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Plan para la resistencia de Enterprise Voice en Skype para Business Server
 
@@ -378,12 +378,13 @@ Para obtener información detallada, vea [requisitos de servidor para Skype para
 
 **Tabla 2. Rutas**
 
-|**Nombre de ruta**|**Patrón de números**|**Uso de teléfono**|**Tronco**|**Puerta de enlace**|
-|:-----|:-----|:-----|:-----|:-----|
-|Ruta Local de Redmond  <br/> |^\+1 (425|206|253)(\d{7})$  <br/> |Local  <br/> RedmondLocal  <br/> |Trunk1  <br/> Trunk2  <br/> |Red-GW1  <br/> Red-GW2  <br/> |
-|Ruta Local de Dallas  <br/> |^\+1 (972|214|469)(\d{7})$  <br/> |Local  <br/> |Trunk3  <br/> |Dallas-GW1  <br/> |
-|Ruta universal  <br/> |^\+?(\d\*)$  <br/> |GlobalPSTNHopoff  <br/> |Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> |Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
-|Ruta de usuarios de Dallas  <br/> |^\+?(\d\*)$  <br/> |DallasUsers  <br/> |Trunk3  <br/> |Dallas-GW1  <br/> |
+
+| **Nombre de ruta**             | **Patrón de números** | **Uso de teléfono**         | **Tronco**                                 | **Puerta de enlace**                                     |
+|:---------------------------|:-------------------|:------------------------|:------------------------------------------|:------------------------------------------------|
+| Ruta Local de Redmond  <br/> | ^\+1 (425           | 206                     | 253)(\d{7})$  <br/>                       | Local  <br/> RedmondLocal  <br/>                |
+| Ruta Local de Dallas  <br/>  | ^\+1 (972           | 214                     | 469)(\d{7})$  <br/>                       | Local  <br/>                                    |
+| Ruta universal  <br/>     | ^\+?(\d\*)$  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
+| Ruta de usuarios de Dallas  <br/>  | ^\+?(\d\*)$  <br/> | DallasUsers  <br/>      | Trunk3  <br/>                             | Dallas-GW1  <br/>                               |
 
 En la tabla 1, se agrega un uso telefónico GlobalPSTNHopoff después del uso de la directiva de llamada de Dallas telefónico DallasUsers. Esto permite que las llamadas con la directiva de llamada de Dallas usen las rutas que se configuran para el uso de teléfono GlobalPSTNHopoff si una ruta para el uso telefónico DallasUsers no está disponible.
 
