@@ -6,14 +6,15 @@ description: Regístrese para obtener impartidos por clases conocer todos los eq
 author: dearbeen
 ms.topic: hub-page
 ms.author: dearbeen
+ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: bcd6cb0fa2f251d015b0fe909ca0dfcd89442380
-ms.sourcegitcommit: 02ff91505a2f185bb3c1059a1b26ee31bb272438
+ms.openlocfilehash: d6eeea78106e13cafee5096be04d344ad216c65a
+ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25359481"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25429441"
 ---
 <div id="main" class="v2">
     <div class="container">
