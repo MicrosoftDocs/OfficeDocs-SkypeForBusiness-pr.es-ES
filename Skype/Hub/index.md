@@ -1,18 +1,18 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Skype Empresarial
-description: Skype Empresarial
-ms.openlocfilehash: 1962f30a1a6ea4f6822c369c95dd1d72758e8e6d
-ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
+title: Skype for Business
+description: Skype for Business
+ms.openlocfilehash: da72536d6c9f0238b301f0fbf3bbd14abc372c46
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20299390"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373883"
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Skype Empresarial</h1>
+        <h1>Skype for Business</h1>
         <ul class="pivots">
             <li>
                 <a href="#home"></a>
@@ -57,8 +57,7 @@ ms.locfileid: "20299390"
                                         </div>
                                     </div>
                                 </a>
-                            </li>                            
-                            <li>
+                            </li><br/>                            <li>
                                 <a href="/SkypeForBusiness/skype-for-business-server-2015">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -133,8 +132,7 @@ ms.locfileid: "20299390"
                                         </div>
                                     </div>
                                 </a>
-                            </li>                            
-                            <li>
+                            </li><br/>                            <li>
                                 <a href="/SkypeForBusiness/room-systems/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -152,8 +150,7 @@ ms.locfileid: "20299390"
                                         </div>
                                     </div>
                                 </a>
-                            </li>                            
-                            <li>
+                            </li><br/>                            <li>
                                 <a href="/SkypeForBusiness/certification/overview">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -171,8 +168,7 @@ ms.locfileid: "20299390"
                                         </div>
                                     </div>
                                 </a>
-                            </li>                            
-                            <li>
+                            </li><br/>                            <li>
                                 <a href="https://support.office.com/skype-for-business">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -190,8 +186,7 @@ ms.locfileid: "20299390"
                                         </div>
                                     </div>
                                 </a>
-                            </li>                            
-                        </ul>
+                            </li><br/>                        </ul>
                     </li>
                 </ul>
             </li>
