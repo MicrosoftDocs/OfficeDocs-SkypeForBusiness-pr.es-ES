@@ -14,11 +14,11 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a751834c978c205316c1fd383f571d67d349f0b2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371728"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25436576"
 ---
 # <a name="prepare-my-users"></a>Preparación de Mis usuarios
 

@@ -14,11 +14,11 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d3c315588365d023f61a12aa0e2ecf8068a4aaf7
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015768"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25436615"
 ---
 # <a name="user-feedback-surveys"></a>Encuestas de comentarios del usuario 
 
