@@ -9,6 +9,7 @@
 
 ## Soluciones híbridas
 ### [Planeación de la conectividad híbrida](../hybrid/plan-hybrid-connectivity.md)
+### [Planeación de Skype para migración Business Server y Exchange Server](../hybrid/plan-um-migration.md)
 ### [Configurar conectividad híbrida](../hybrid/configure-hybrid-connectivity.md)
 #### [Configuración de Skype para entornos híbridos de negocio](../hybrid/configure-federation-with-skype-for-business-online.md)
 #### [Configurar la federación para un proveedor de servicios de audioconferencia](../hybrid/configure-federation-for-an-audio-conferencing-provider.md) 
@@ -19,7 +20,6 @@
 ### Correo de voz en la nube
 #### [Planeación de correo de voz en la nube](../hybrid/plan-cloud-voicemail.md)
 #### [Configurar el correo de voz en la nube](../hybrid/configure-cloud-voicemail.md)
-#### [Planeación de Skype para migración Business Server y Exchange Server](../hybrid/plan-um-migration.md)
 ### Conector de datos de llamada
 #### [Planeación de conector de datos de llamada](../hybrid/plan-call-data-connector.md)
 #### [Configurar el conector de datos de llamada](../hybrid/configure-call-data-connector.md)
