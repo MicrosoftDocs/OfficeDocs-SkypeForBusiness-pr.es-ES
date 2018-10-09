@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Lea este tema para obtener información sobre cómo migrar el sistema de salas de Lync dispositivos para utilizar el software de sistema de salas de Skype v2.
-ms.openlocfilehash: c87081ccd40765b10929a0d2762d834ce6a1b2ab
-ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
+ms.openlocfilehash: d97083b40c3a2baf926ecd61a5c9792ded6eddd5
+ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25429455"
+ms.lasthandoff: 10/08/2018
+ms.locfileid: "25450521"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Migrar dispositivos de Lync salón del sistema (LRS) al sistema de salas de Skype v2 
 Dispositivos de Lync salón del sistema (LRS) con el software del sistema de sala de Skype versión 1 (v1 SRS) llegará a [fin de soporte en el 9 de octubre de 2018](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018). Esto significa que el software de sistemas de salón de Skype v1 no obtendrá las actualizaciones de producto o revisiones después de esta fecha. Se aconseja a los clientes de dispositivos del sistema de salas de Lync mediante el sistema de salas de Skype v1 software para actualizar sus dispositivos al sistema de sala de Skype versión 2 (v2 SRS).
 
 Software Skype salón del sistema versión 2 (v2 SRS) funciona con Microsoft Teams además de Skype para servicios de Business Server y en línea para las reuniones y llamar al método en todos los dispositivos de v2 admitidas SRS.
 
-Los dispositivos existente **puede** continuar trabajando después del final del sistema de salas de Skype v1 software admiten hasta que este software visita un error de software que necesita Microsoft para liberar una solución, o que tenga un caso donde se usa un protocolo de comunicación existente por sistema de sala de Skype software de v1 cambia o ya no se admite. Uno de estos cambios conocido es el tipo de proyectos de TLS 1.0 / 1.1 en Microsoft Office 365. Encontrará más información acerca de la [Preparación para TLS 1.0/1.1 desaprobación](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608).  
+Los dispositivos existente **puede** seguir funcionan después de que el final del software de sistema de salas de Skype v1 admitir. Este software llegará finalmente a un error de software que necesita Microsoft para liberar una solución, o que tenga un caso donde un protocolo de comunicación existente utilizado por los cambios en el software del sistema de salas de Skype v1 o ya no se admite. Uno de estos cambios conocido es el tipo de proyectos de TLS 1.0 / 1.1 en Microsoft Office 365. Encontrará más información acerca de la [Preparación para TLS 1.0/1.1 desaprobación](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608).  
 
 ## <a name="which-devices-are-affected"></a>¿Los dispositivos que se ven afectados?
 Ésta es la lista de los dispositivos que se ven afectados por este cambio:
@@ -72,3 +72,6 @@ Se recomienda que planear actualizar los dispositivos de sistema de salas de Lyn
 
 > [!NOTE]
 > Funcionalidad táctil y Pizarra no se admite todavía en el sistema de salas de Skype v2. Compatibilidad con táctil y Pizarra se encuentra en el registro de sistema de salas de Skype v2 y se agregará en CY2019 H1.
+
+> [!NOTE]
+> Software Skype salón del sistema V2 actualmente no admite protocolo TLS 1.2. Compatibilidad con TLS 1.2 es que se está trabajando en y se completará antes de TLS 0/1/1.1 desaprobación. Upgradging de los clientes a SRS v2 no verán ningún impacto de degradación de TLS 1.0/1.1 en los dispositivos de sala con la versión más reciente de SRS v2 app.
