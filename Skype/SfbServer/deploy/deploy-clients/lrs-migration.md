@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Lea este tema para obtener información sobre cómo migrar el sistema de salas de Lync dispositivos para utilizar el software de sistema de salas de Skype v2.
-ms.openlocfilehash: d97083b40c3a2baf926ecd61a5c9792ded6eddd5
-ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
+ms.openlocfilehash: b6c11e101ab3984f934dab1a9e06d80df3ce5e4f
+ms.sourcegitcommit: 80e1983fd631b8ad63c902375f1128faa957e374
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/08/2018
-ms.locfileid: "25450521"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25450651"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Migrar dispositivos de Lync salón del sistema (LRS) al sistema de salas de Skype v2 
 Dispositivos de Lync salón del sistema (LRS) con el software del sistema de sala de Skype versión 1 (v1 SRS) llegará a [fin de soporte en el 9 de octubre de 2018](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018). Esto significa que el software de sistemas de salón de Skype v1 no obtendrá las actualizaciones de producto o revisiones después de esta fecha. Se aconseja a los clientes de dispositivos del sistema de salas de Lync mediante el sistema de salas de Skype v1 software para actualizar sus dispositivos al sistema de sala de Skype versión 2 (v2 SRS).
@@ -26,7 +26,7 @@ Los dispositivos existente **puede** seguir funcionan después de que el final d
 
 ## <a name="which-devices-are-affected"></a>¿Los dispositivos que se ven afectados?
 Ésta es la lista de los dispositivos que se ven afectados por este cambio:
-- [Sistemas inteligentes de salón](https://smartkapp.com/products/smart-room-systems)
+- [Sistemas inteligentes de salón](https://support.smarttech.com/en/hardware/room-systems-skype)
 - [Crestron RL2](https://www.crestron.com/en-US/Products/Featured-Solutions/Crestron-RL-2)
 - [Polycom CX8000](http://www.polycom.com/products-services/products-for-microsoft/skype-for-business/cx8000.html)
 - RL Crestron
