@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b62b3e27cf0aa10ea6719cb1f27980ee83f4421
-ms.sourcegitcommit: c4254b6119bbce274f895e20d30cb3c513d5a2de
+ms.openlocfilehash: 3e9cddc12a5ef4de6dfb42a714b83e29b6fb4f5f
+ms.sourcegitcommit: dba62f1cb6058e73a1a4c75f3473119a04a1b9e3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25455974"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "25456894"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Uso Microsoft Teams con ámbito de búsqueda en el directorio
 
@@ -28,7 +28,7 @@ Búsqueda en el directorio con ámbito Microsoft Teams permite a las organizacio
 
 Microsoft Teams permite a las organizaciones a proporcionar vistas personalizadas del directorio a sus usuarios. Microsoft Teams usa [directivas de la libreta de direcciones de Exchange](https://docs.microsoft.com/en-us/Exchange/email-addresses-and-address-books/address-book-policies/address-book-policies?view=exchserver-2019) para admitir estas vistas personalizadas. Una vez que las directivas están habilitadas, se limita los resultados devueltos por las búsquedas para otros usuarios (por ejemplo, para iniciar una charla o para agregar a miembros a un equipo) según las directivas configuradas. Los usuarios no podrán buscar o detectar y unirse a nuevos equipos fuera de estas directivas. 
 
-## <a name="when-should-you-use-scroped-directory-searches"></a>¿Cuándo se debe utilizar las búsquedas de directorio de scroped?
+## <a name="when-should-you-use-scoped-directory-searches"></a>¿Cuándo se debe utilizar las búsquedas de directorio con ámbito?
 
 Escenarios que se benefician de las búsquedas de directorio con ámbito son similares a los escenarios de directiva de la libreta de direcciones. Por ejemplo, es posible que desee usar la búsqueda en el directorio con ámbito en las situaciones siguientes:
 
