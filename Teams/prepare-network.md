@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40250062b5439726fa1a0d7f886ba99e71a2060a
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 919c598b02724de2f21fce52cb5f362c8faea34b
+ms.sourcegitcommit: dba62f1cb6058e73a1a4c75f3473119a04a1b9e3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014510"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "25456870"
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams
 =================================================
@@ -58,7 +58,10 @@ Para probar los dos segmentos de red, puede usar la [herramienta de evaluación 
 <a name="bandwidth-requirements"></a>Requisitos de ancho de banda
 ----------
 
-Los cálculos de ancho de banda para Microsoft Teams son complejos por lo que, para ayudar con esta tarea, se creó una calculadora. Para acceder a la calculadora, vaya a [Network Planner en MyAdvisor](https://aka.ms/bwcalc/).
+Los cálculos de ancho de banda para Microsoft Teams son complejos por lo que, para ayudar con esta tarea, se creó una calculadora. Para acceder a la calculadora, vaya al [planificador de red en MyAdvisor](https://aka.ms/bwcalc/).
+
+> [!NOTE]
+> Mejora el control de ancho de banda de los equipos en Skype para profesionales en línea: para una alta calidad de llamada o reunión experiencia (con audio, vídeo y uso compartido), los equipos requiere sólo 1,2 Mbps. También puede escalar más allá de super alta calidad si no hay suficiente ancho de banda disponible. Cuando una solicitud de los equipos encuentra una condición de ancho de banda bajo, los equipos pueden reajustar rápidamente el uso de ancho de banda para adaptarse al ancho de banda disponible.
 
 <!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.

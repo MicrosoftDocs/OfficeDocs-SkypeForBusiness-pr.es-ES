@@ -3,7 +3,7 @@ title: Dimensiones y medidas disponibles en el Panel de calidad de llamadas
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney
+ms.reviewer: siunies
 ms.topic: article
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
@@ -23,16 +23,19 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: dec3548ab1f34e70d6e30aca2397791cfaa16674
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8708151be58e386650458ed882a24c1f6e4e628a
+ms.sourcegitcommit: dba62f1cb6058e73a1a4c75f3473119a04a1b9e3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375025"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "25456910"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>Dimensiones y medidas disponibles en el Panel de calidad de llamadas
 
 El panel de calidad de llamadas (CQD) para Microsoft Teams y Skype para profesionales en línea permite obtener entendimiento de la calidad de las llamadas realizadas mediante Microsoft Teams y Skype para servicios de negocios. En este tema se ofrece información detallada sobre las dimensiones y las medidas que se muestran en este panel. Para obtener más información sobre CQD y cómo habilitarlo, vea [activar y con el panel de calidad de llamadas para los equipos de Microsoft y Skype para profesionales en línea](turning-on-and-using-call-quality-dashboard.md).
+
+> [!NOTE]
+> Mejora el control de ancho de banda de los equipos en Skype para profesionales en línea: para una alta calidad de llamada o reunión experiencia (con audio, vídeo y uso compartido), los equipos requiere sólo 1,2 Mbps. También puede escalar más allá de super alta calidad si no hay suficiente ancho de banda disponible. Cuando una solicitud de los equipos encuentra una condición de ancho de banda bajo, los equipos pueden reajustar rápidamente el uso de ancho de banda para adaptarse al ancho de banda disponible.
 
 ## <a name="first-and-second-endpoint-classification"></a>Clasificación de primer y segundo punto de conexión
 
