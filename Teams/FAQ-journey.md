@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da85bde3b0f868165fed869b8147e4408344ebc0
-ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
+ms.openlocfilehash: bda29fd1b193253deb573d554f7f354258dabc7a
+ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25358904"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25495540"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Preguntas frecuentes: recorrido desde Skype Empresarial a Microsoft Teams
 
@@ -55,7 +55,9 @@ Le proporcionamos el conjunto de claves de Skype para capacidades de negocio en 
 
 ### <a name="will-you-continue-to-invest-in-improving-skype-for-business-in-office-365"></a>¿Seguirá invirtiendo en mejorar Skype Empresarial para Office 365?
 
-Nuestra idea de aunar las comunicaciones inteligentes y la colaboración se centra en Microsoft Teams. Se va a continuar admitir la Skype para servicio empresariales y de cliente en Office 365. Por el momento, no existe ningún plan para eliminar Skype Empresarial de las suscripciones de Office 365. Nuestra intención es seguir prestando soporte a los clientes de Skype Empresarial para que puedan acceder a los servicios en línea y al servidor local. En este momento no hay ninguna fecha de fin de soporte.
+Nuestra idea de aunar las comunicaciones inteligentes y la colaboración se centra en Microsoft Teams. Se va a continuar admitir la Skype para servicio empresariales y de cliente en Office 365. Nuestra intención es seguir prestando soporte a los clientes de Skype Empresarial para que puedan acceder a los servicios en línea y al servidor local. En este momento no hay ninguna fecha de fin de soporte.
+
+Iniciar el 1 de octubre de 2018 nuevos clientes de Office 365 con 500 puestos o menos serán onboarded a los equipos y no tendrán acceso a Skype para profesionales en línea. Los inquilinos que ya está usando Skype para profesionales en línea podrá continuar al hacerlo es así (incluido el aprovisionamiento de nuevos usuarios) hasta que se complete su transición a los equipos. Para obtener más información, vea [Microsoft equipos ahora el cliente principal para las reuniones y llamar en Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling). 
 
 ### <a name="what-do-you-recommend-for-customers-who-are-currently-in-the-process-of-deployingor-planning-to-deployskype-for-business-in-office-365"></a>¿Qué es aconsejable para los clientes que están actualmente en el proceso de implementación: o planear la implementación: Skype para la empresa en Office 365?
 

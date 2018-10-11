@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ffcab1a80f17bc4adc929f7e5efe63ef5ab6918
-ms.sourcegitcommit: c4254b6119bbce274f895e20d30cb3c513d5a2de
+ms.openlocfilehash: dd12b4e5f054d3410f1e62e7ed09476ffac6754b
+ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25454030"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25495609"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Guía de interoperabilidad y migración para las organizaciones que utilizan los equipos junto con Skype para la empresa
 
@@ -66,7 +66,7 @@ Los modos de planeada se enumeran a continuación. SfBWithTeamsCollab y SfBWithT
 
 |Modo|Comportamiento de enrutamiento|Programación de reuniones|Experiencia del cliente|
 |---|---|---|---|
-|Islas|VOIP entrante llama y charlas land en el mismo cliente como autor, excepto si el destinatario está asociado y el modo de las islas, en cuyo caso que se encuentran en SfB.<sup>1</sup>|Ambos|Los usuarios finales puede iniciar las llamadas y chats desde cualquier cliente y puede programar reuniones desde cualquier cliente.|
+|Islas|VOIP entrante llama y charlas land en el mismo cliente como autor, excepto si el destinatario está asociado y en modo de islas, en cuyo caso en que se encuentran en SfB.<sup>1</sup>|Ambos|Los usuarios finales puede iniciar las llamadas y chats desde cualquier cliente y puede programar reuniones desde cualquier cliente.|
 |SfBOnly|Charlas y las llamadas entrantes se enrutan a Skype para la empresa|Skype para la empresa solo|Los usuarios finales pueden iniciar llamadas y conversaciones de Skype para la empresa sólo y sólo programar Skype para reuniones de negocios. (AÚN NO SE APLICAN)|
 |SfBWithTeamsCollab<sup>2</sup>|Charlas y las llamadas entrantes se enrutan a Skype para la empresa|Skype para la empresa solo|Los usuarios finales pueden iniciar llamadas y conversaciones de Skype para la empresa sólo y sólo programar Skype para reuniones de negocios. También pueden utilizar canales en los equipos. (AÚN NO SE APLICAN)|
 |SfBWithTeamsCollabAndMeetings<sup>2</sup>|Charlas y las llamadas entrantes se enrutan a Skype para la empresa|Sólo los equipos|Los usuarios finales pueden iniciar llamadas y conversaciones de Skype para la empresa únicamente y sólo programación reuniones de los equipos. También pueden utilizar canales en los equipos. (AÚN NO SE APLICAN)|
@@ -147,7 +147,7 @@ Use la siguiente sintaxis de cmdlet, donde $policy es uno de los valores anterio
 
 Federación desde los equipos a otro usuario usar Skype para la empresa requiere que el usuario de los equipos se hospedado en línea en Skype para la empresa. Finalmente, los equipos de los usuarios alojados en Skype para empresarial local podrán federar con otros usuarios de los equipos.
 
-TeamsUpgradePolicy controla el enrutamiento de llamadas y chats federados entrantes. Comportamiento de enrutamiento federada es el mismo que scnearios mismo arrendatario, excepto en el modo de islas.  Cuando los destinatarios se encuentran en modo de islas: 
+TeamsUpgradePolicy controla el enrutamiento de llamadas y chats federados entrantes. Comportamiento de enrutamiento federada es el mismo que el mismo arrendatario escenarios, *excepto en el modo de islas*.  Cuando los destinatarios se encuentran en modo de islas: 
 - Si el destinatario está en un *inquilino federada*, land charlas y las llamadas iniciadas desde los equipos en SfB.
 - Si el destinatario está en el *mismo arrendatario*, land charlas y las llamadas iniciadas desde los equipos en los equipos.
 - Charlas y las llamadas iniciadas desde SfB siempre land en SfB.

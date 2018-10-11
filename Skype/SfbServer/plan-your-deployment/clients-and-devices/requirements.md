@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: En este artículo se resume los requisitos para la compatibilidad con sistemas de salas de Skype v2.
-ms.openlocfilehash: 857b48d0dc7a14243a1bc246cff9c7b06e1e0da6
-ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
+ms.openlocfilehash: fcf108de8ac6d344061b4c95dcbe7438dc034d3b
+ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25429462"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25495616"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Requisitos de Sistemas de salas de Skype v2
 
@@ -42,10 +42,8 @@ Sistemas de salón de Skype v2 puede escalar a tamaños de sala diferente a trav
 |Surface Pro 4       |I5 principales  |4GB  |128GB  |
 |Surface Pro 4       |I5 principales  |8GB  |256GB  |    
 |Surface Pro (2017)  |I5 principales  |4GB  |128GB  |
+|Surface Pro (2017)  |I5 principales  |8GB  |128GB  |
 |Surface Pro (2017)  |I5 principales  |8GB  |256GB  |
-|Surface Pro (2017)  |Core i7  |8GB  |128GB  |
-|Surface Pro (2017)  |Core i7  |16GB |512GB  |
-|Surface Pro (2017)  |Core i7  |16GB |1TB    |
 
 > [!NOTE]
 > No se admiten los procesadores de núcleo M3.
