@@ -1,37 +1,28 @@
 ---
 title: Activar o desactivar el acceso de invitado a Microsoft Teams
 author: LaithAlShamri
-ms.author: laal
+ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 10/11/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
-ms.reviewer: rramesan
+ms.reviewer: sbhatta
 search.appverid: MET150
 description: Active o desactive el acceso de invitado en Microsoft Teams.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcb907a1a84dce1e1fcf550333b8b1dd788f23fa
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3ab67b3fa9ad58c1aa3e8fdd254e3b3515743b4c
+ms.sourcegitcommit: 9dd5d8fe6888f0c7d2df1e40fdd8b4c80512f8f9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370756"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25498124"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Activar o desactivar el acceso de invitado a Microsoft Teams
 ======================================
-
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
-
-
-
-  
-
-
 
 Como administrador de Office 365, debe habilitar la característica de invitado antes de que usted o los usuarios de su organización (específicamente, los propietarios de los equipos) puedan agregar a invitados. 
 
@@ -41,33 +32,61 @@ La configuración de invitado se establece en Azure Active Directory. Los cambio
 > [!IMPORTANT]
 > Para habilitar la experiencia completa de la característica de acceso de invitado, es muy importante que conozca bien la dependencia de autorización principal entre Microsoft Teams, Azure Active Directory y Office 365. Para obtener más información, consulte [Autorizar el acceso de invitado en Microsoft Teams](Teams-dependencies.md).
 
-1. Inicie sesión con su cuenta de administrador global de Office 365 en [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
-    
-  
-2. En el menú de navegación, elija **Configuración** y luego **Servicios y complementos**.
-    
-     ![Inicie sesión en Office 365, acceda al Centro de administración de Office 365, seleccione Configuración y, a continuación, elija Servicios y complementos.](media/99e676d4-5b48-4525-9556-547031fa37d9.png)
-  
+## <a name="configure-guest-access-in-the-teams--skype-for-business-admin-center"></a>Configurar el acceso de invitado en los equipos & Skype para centro de administración de negocio
+
+1.  Inicie sesión en los equipos de & Skype para el centro de administración de negocio.
+
+2.  Seleccione **configuración de toda la organización** > **acceso de invitado**.
+
+3. Configurar el conmutador de alternancia de **Permitir el acceso de invitado en los equipos de Microsoft** **activado**.
+
+    ![Permitir modificador de acceso de Invitado activado ](media/set-up-guests-image1.png)
+
+4.  Establecer el alterna para **llamar a**, **reuniones**y **mensajería** a **activado** o **desactivado**, según el acceso que desea permitir.
+
+5.  Haga clic en **Guardar**.
+
+## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>Uso de PowerShell para activar o desactivar el acceso de invitado
+
+1.  Descargar el Skype para el módulo de PowerShell en línea de negocio dehttps://www.microsoft.com/en-us/download/details.aspx?id=39366
  
+2.  Conectar una sesión de PowerShell para la Skype de extremo de negocio en línea.
 
-  
-3. Seleccione **Microsoft Teams**.
-    
-     ![La captura de pantalla muestra la opción del complemento de Microsoft Teams, como se selecciona en el Centro de administración de Office 365.](media/17ac5608-d212-4fa8-ae3a-e78c62003968.png)
-  
-  
-4. En **Select the user/license type you want to configure** (Seleccione el tipo de usuario/licencia que desea configurar), seleccione **Invitado**.
-   
-    ![La captura de pantalla del complemento de Microsoft Teams muestra la licencia de invitado seleccionada y la opción de Microsoft Teams establecida en Activado.](media/92aabda5-431c-4fdd-803e-5ab49290f4f7.png)
-      
+    ```
+    Import-Module SkypeOnlineConnector
+    $Cred = Get-Credential
+    $CSSession = New-CsOnlineSession -Credential $Cred
+    Import-PSSession -Session $CSSession
+    ```
+3.  Compruebe la configuración y si `AllowGuestUser` es `$False`, use el cmdlet [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) para establecer en `$True`.
 
-  
-  
-5. Pulse o haga clic en el botón de alternancia que hay junto a **Turn Microsoft Teams on or off for all users of this type** (Activar o desactivar Microsoft Teams para todos los usuarios de este tipo), cambie a **Activado** para activar Microsoft Teams y el acceso de invitado para su organización y, por último, seleccione **Guardar**. 
+    ```
+    Get-CsTeamsClientConfiguration
+
+    Identity                         : Global
+    AllowEmailIntoChannel            : True
+    RestrictedSenderList             :
+    AllowDropBox                     : True
+    AllowBox                         : True
+    AllowGoogleDrive                 : True
+    AllowShareFile                   : True
+    AllowOrganizationTab             : True
+    AllowSkypeBusinessInterop        : True
+    AllowTBotProactiveMessaging      : False
+    ContentPin                       : RequiredOutsideScheduleMeeting
+    AllowResourceAccountSendMessage  : True
+    ResourceAccountContentAccess     : NoAccess
+    AllowGuestUser                   : True
+    AllowScopedPeopleSearchandAccess : False
     
-   Consulte los siguientes vídeos para obtener más detalles sobre el acceso de invitados:  
+    Set-CsTeamsClientConfiguration -AllowGuestUser $True -Identity Global
+    ```
+Ahora puede tener los usuarios invitados en los equipos de la organización.
+
+## <a name="more-information"></a>Más información
+
+Vea el siguiente vídeo para obtener más detalles sobre el acceso de invitado.
 
 |  |  |
 |---------|---------|
-| Habilitar el acceso de invitado en Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/g21Hcqdl5tI" frameborder="0" allowfullscreen></iframe>   |
- | Agregar invitados en Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
+| Agregar invitados en Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
