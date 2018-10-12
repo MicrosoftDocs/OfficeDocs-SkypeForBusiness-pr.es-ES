@@ -129,7 +129,7 @@
 ### [Problemas conocidos de Planes de llamada](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [Cambiar la dirección de emergencia de un usuario](../what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md)
 ### [Cambiar la ubicación de emergencia de un usuario](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
-### [Crear y administrar planes de marcado](../what-are-calling-plans-in-office-365/create-and-manage-dial-plans.md)
+### [Crear y administrar planes de marcado](/microsoftteams/create-and-manage-dial-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Diferentes tipos de números de teléfono que se usan para Planes de llamada](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Conseguir números de teléfono para sus usuarios](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)
 ### [Cómo se consiguen Planes de llamada para Office 365](/microsoftteams/what-are-calling-plans-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
