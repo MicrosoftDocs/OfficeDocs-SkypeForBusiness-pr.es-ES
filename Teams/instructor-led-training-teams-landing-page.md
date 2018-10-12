@@ -9,12 +9,12 @@ ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: d6eeea78106e13cafee5096be04d344ad216c65a
-ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
+ms.openlocfilehash: 281a864091714c1614b86b7f4f45ea48245d8108
+ms.sourcegitcommit: 45b3e3387bb1e605453c52b68d0bf5b1b79d33f5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25429441"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25501490"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -43,7 +43,7 @@ ms.locfileid: "25429441"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>#ThisIsTeams - información general de Microsoft Teams</h3>
-                                                    <p>¿Qué es Microsoft Teams? Únase a nosotros para esta orientación de 30 minutos descubrir las novedades de los equipos y cómo puede trabajar para usted.</p>
+                                                    <p>¿Qué es Microsoft Teams? Únase a nosotros para esta orientación de 30 minutos descubrir las novedades de los equipos y cómo puede trabajar para usted. (Audiencia: todos los)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -62,7 +62,7 @@ ms.locfileid: "25429441"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Introducción a los equipos</h3>
-                                                    <p>Desde charlar y reuniones al uso de los equipos y los canales, los usuarios dejarán esta sesión con la base para utilizar los equipos con confianza.</p>
+                                                    <p>Desde charlar y reuniones al uso de los equipos y los canales, los usuarios dejarán esta sesión con la base para utilizar los equipos con confianza. (Audiencia: los usuarios finales)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -81,7 +81,7 @@ ms.locfileid: "25429441"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Administración de la actualización de Skype para la empresa a los equipos</h3>
-                                                <p>Entendimiento de planeación e implementación de una actualización correcta de Skype para la empresa a los equipos de ganancia. </p>
+                                                <p>Implementar una actualización correcta de Skype para la empresa a los equipos y de planificar (audiencia: profesionales de TI, administradores de cambio de adopción)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -100,7 +100,7 @@ ms.locfileid: "25429441"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Cambiar de Skype para la empresa a los equipos: Guía de usuario final</h3>
-                                                    <p>Obtenga lo que necesita iniciar rápidamente charlar, reuniones y llamar a en los equipos durante la transición de Skype para la empresa a los equipos.</p>
+                                                    <p>Obtenga lo que necesita comenzar a usar los equipos durante la transición de Skype para la empresa a los equipos rápidamente. (Audiencia: los usuarios finales)</p>
                                             </div>
                                         </div>
                                     </div>

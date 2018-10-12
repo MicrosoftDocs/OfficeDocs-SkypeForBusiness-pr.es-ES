@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lea este tema para obtener información acerca de cómo implementar sistemas de salón de Skype v2 con Office 365.
-ms.openlocfilehash: 3114b3f663cc4a439ace8d5f0338b182a8b38a3b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6c59ff1aa7f32998efb5f7693d4e46b417b3fd84
+ms.sourcegitcommit: 45b3e3387bb1e605453c52b68d0bf5b1b79d33f5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374955"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25501497"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Implementar Sistemas de salas de Skype v2 con Office 365 
 
@@ -37,7 +37,7 @@ Para habilitar Skype para la empresa, debe tener lo siguiente:
 
 - Los usuarios de inquilinos deben tener los buzones de Exchange.
 
-- Su cuenta de Skype salón sistemas v2 requieren en como mínimo un Skype para licencia empresarial Online (Plan 2), pero no requiere una licencia de Exchange Online.
+- Su cuenta de Skype salón sistemas v2 requieren en como mínimo un Skype para licencia empresarial Online (Plan 2), pero no requiere una licencia de Exchange Online. Para obtener información detallada, vea [sistemas de salón de Skype v2 licencia](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) .
 
 Para obtener información detallada en Skype para planes de negocios de en línea, vea la [Skype para la descripción de servicio en línea de negocio](https://technet.microsoft.com/library/jj822172.aspx).
 
