@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42b5827e6690817f62c0146800f9e38992666cf2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d8b1497a864a1dbd271af81363151275ffe7de1e
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372559"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502235"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -28,6 +28,10 @@ En este artículo se enumera los problemas conocidos de Microsoft Teams, por ár
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |Los registros de auditoría pueden informar de un nombre de usuario incorrecto como iniciador cuando alguien se ha quitado de un equipo  <br/> |Equipo de los equipos es un grupo moderno en AAD. Cuando que agrega o quitar un miembro a través de la interfaz de usuario de los equipos, el flujo sabe exactamente el usuario que inició el cambio, y el registro de auditoría refleja la información correcta. Sin embargo, si un usuario de un miembro a través de AAD de agrega o quita, el cambio se sincroniza con el back-end de los equipos sin que indica que los equipos que inició la acción. Microsoft Teams recoge el primer propietario del equipo como el iniciador, que finalmente se refleja en así como el registro de auditoría.    <br/> |  <br/> |11/5/18  <br/> |
+
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|Directiva EAF en el Kit de herramientas de la experiencia de mitigación mejorado (EMET) incorrectamente puede identificar las optimizaciones de espacio aislado de cromo como amenazas. <br/> |Hay un problema con espacio aislado de cromo en las que la directiva de exportación de dirección tabla acceso filtrado (EAF) en el Kit de herramientas de la experiencia de mitigación mejorado (EMET) incorrectamente puede identificar las optimizaciones de espacio aislado de cromo como amenazas. Esto impide que las fichas en la vista web de los equipos de representación correctamente. <br/> | Desactivar EAF cromo. Puede leer más información sobre el problema [instrucciones de mitigaciones EMET](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) <br/> |11/10/18 <br/> |
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|

@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre qué tipo de acceso telefónico al llamar a planes (planes de marcado de llamar a RTC) están disponibles con Office 365 y cómo elegir uno para la organización.  '
-ms.openlocfilehash: d9503655c6f836f0dc50d63133acddd6bc7474b4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 28e0b3d282cba17061f0573b5bd9efe7e27de786
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371821"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502361"
 ---
 # <a name="what-are-dial-plans"></a>¿Qué son los planes de marcado?
 
@@ -37,7 +37,7 @@ ms.locfileid: "25371821"
 
 Un plan de marcado consta de una o varias reglas de normalización que definen cómo se traducen los números de teléfono expresados en diversos formatos a un formato alternativo. La misma cadena de marcado se puede interpretar y traducir de forma diferente en los planes de marcado diferentes, por lo que según el plan de marcado se asigna a un usuario determinado, el mismo marcado número puede traducir y se enrutan de forma distinta.
 
-Vea [crear y administrar planes de marcado](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) para crear y administrar planes de marcado de inquilinos.
+Vea [crear y administrar planes de marcado](create-and-manage-dial-plans.md) para crear y administrar planes de marcado de inquilinos.
 
 ## <a name="tenant-dial-plan-scope"></a>Alcance de un plan de marcado inquilino
 
@@ -59,7 +59,7 @@ Los siguientes son los posibles planes de marcado efectivos:
 
  **Usuario inquilino - país de servicio** Si un plan de marcado de usuario inquilino está definido y asignado a un usuario, el usuario aprovisionado recibirá un plan de marcado eficaz formado por el plan de marcado de usuario inquilino combinado y el plan de marcado de país de servicio asociado a su ubicación de uso de Office 365.
 
-Vea [crear y administrar planes de marcado](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) para crear el inquilino de planes de marcado.
+Vea [crear y administrar planes de marcado](create-and-manage-dial-plans.md) para crear el inquilino de planes de marcado.
 
 ## <a name="planning-for-tenant-dial-plans"></a>Diseño de planes de marcado de inquilino
 
@@ -97,7 +97,7 @@ Puede especificar un prefijo de acceso externo de hasta 4 caracteres (#, * y 0-9
 > [!NOTE]
 > Si especifica un prefijo de acceso externo, no es necesario crear una regla de normalización adicional para incorporar el prefijo. 
 
-Vea [crear y administrar planes de marcado](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) para crear el inquilino de planes de marcado.
+Vea [crear y administrar planes de marcado](create-and-manage-dial-plans.md) para crear el inquilino de planes de marcado.
 
 ## <a name="normalization-rules"></a>Reglas de normalización
 
@@ -115,7 +115,7 @@ Las reglas de normalización utilizan expresiones regulares de .NET Framework pa
 
 Para obtener información detallada sobre el uso de expresiones regulares de .NET Framework, vea [Expresiones regulares de .NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927).
 
-Vea [crear y administrar planes de marcado](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) para crear y administrar de normalización reglas para el inquilino de planes de marcado.
+Vea [crear y administrar planes de marcado](create-and-manage-dial-plans.md) para crear y administrar de normalización reglas para el inquilino de planes de marcado.
 
 ### <a name="sample-normalization-rules"></a>Reglas de normalización de muestra
 
@@ -152,7 +152,7 @@ La siguiente tabla muestra reglas de normalización de muestra que se escriben c
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Crear y administrar planes de marcado](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)
+[Crear y administrar planes de marcado](create-and-manage-dial-plans.md)
 
 [Preguntas comunes sobre la transferencia de números de teléfono](transferring-phone-numbers-common-questions.md)
 

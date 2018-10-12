@@ -28,12 +28,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Puede seleccionar un país o una región para comprobar si Audioconferencia, Sistema telefónico, Planes de llamada, Créditos de comunicaciones y los números gratuitos y de pago están disponibles o no.
-ms.openlocfilehash: bc39b239128ffacea5c4d58d1055f57d5088fb11
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d669e6a64efe3d31b7259a3c7f7eabd447d95a65
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372488"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502369"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Países y regiones donde Audioconferencia y Planes de llamada están disponibles
 
@@ -144,7 +144,7 @@ Una vez que compruebe si uno de los servicios de Skype Empresarial o Microsoft T
 
 ### <a name="audio-conferencing"></a>Audioconferencia
 
-En algunas ocasiones, en su organización se necesitará un teléfono para llamar a una reunión. Skype Empresarial y Microsoft Teams incluye la característica de Audioconferencia para este tipo de situaciones. Las personas pueden llamar a las reuniones con un teléfono en lugar de hacerlo con las aplicaciones de Skype Empresarial y Microsoft Teams en un dispositivo móvil o PC. Después de decidir que desea el servicio de Audioconferencia para su organización, deberá comprar una licencia de **Audioconferencia** para cada miembro de la organización que vaya a programar u hospedar reuniones con audio.
+En algunas ocasiones, en su organización se necesitará un teléfono para llamar a una reunión. Skype Empresarial y Microsoft Teams incluye la característica de Audioconferencia para este tipo de situaciones. Las personas pueden llamar a las reuniones con un teléfono en lugar de hacerlo con las aplicaciones de Skype Empresarial y Microsoft Teams en un dispositivo móvil o PC. Después de haber decidido conferencias de Audio que desee para su organización, debe comprar una licencia de **Conferencias de Audio** para cada persona de la organización que se va a programar una reunión de audio por host.
   
 Con Audioconferencia, hay números gratuitos y de pago que pueden utilizar los usuarios para acceder a las reuniones por teléfono. Los números de pago de los siguientes países o regiones se asignan automáticamente a las organizaciones como números de audioconferencia compartidos cuando este servicio está habilitado. Se pueden asignar a su organización números gratuitos y de pago dedicados de otras ciudades.
 

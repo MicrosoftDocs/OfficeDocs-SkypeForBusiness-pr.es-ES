@@ -15,22 +15,24 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1dbfddf2f9cfba12943b8b2e18326de1877e1de3
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b8d517ce7f2fb614a22c45fcf63d59a7d46b606f
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25018826"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502337"
 ---
 <a name="manage-teams-in-the-microsoft-teams--skype-for-business-admin-center"></a>Administrar los equipos de Microsoft Teams & Skype para el centro de administración de negocio
 ==========================================
+
+[!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
 
 ## <a name="overview"></a>Información general
 
 Como un administrador de TI, es posible que necesite vista o actualización de los equipos de su organización ha configurado para la colaboración o necesite para llevar a cabo las acciones de corrección, como la asignación de propietarios de los equipos sin dueño. Puede administrar los equipos que se usan en la organización a través del módulo de PowerShell de los equipos de Microsoft y el Microsoft Teams & Skype para el centro de administración de negocio. Para las capacidades de administración completa con estos dos conjuntos de herramientas, debe asegurarse de que se le asigna uno de los siguientes roles:
 
 - Administrador global
-- Administrador de servicio de los equipos
+- Administrador de servicios de Teams
 
 Encontrará más información acerca de las funciones de administración en Microsoft Teams [aquí](using-admin-roles.md), y pueden leer más información acerca de cómo usar los cmdlets de PowerShell para la administración de equipos en la [referencia del cmdlet de equipos de Microsoft](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps).  
 
