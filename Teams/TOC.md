@@ -3,6 +3,7 @@
 
 ## [Información general sobre Microsoft Teams](Teams-overview.md)
 ## [Herramientas y talleres: planificar, entregar y usar Microsoft Teams](planning-workshop-practical-guide.md)
+## [Obtener ayuda en Microsoft Teams](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
 
 
