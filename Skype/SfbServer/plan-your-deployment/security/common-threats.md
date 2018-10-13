@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Dado que Skype para Business Server es un sistema de comunicaciones empresariales, debe tener en cuenta de ataques de seguridad comunes que pueden afectar a su infraestructura y comunicaciones.
-ms.openlocfilehash: 5609fda3fd3d58a5e5ed5df34c1c5e39e7843e85
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 594bde9b01a61586364034ba026db91aea49ef88
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373067"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25546786"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Amenazas de seguridad comunes en la informática moderna
  
@@ -48,21 +48,25 @@ El ataque por denegación de servicio se produce cuando el atacante impide que l
     
 ## <a name="eavesdropping-sniffing-snooping"></a>Interceptación (rastreo o espionaje)
 
-La interceptación se produce cuando un atacante obtiene acceso a la ruta de datos en una red y puede supervisar y leer el tráfico. También es calledsniffing orsnooping. Si el tráfico se produce como texto sin formato, el atacante puede leerlo cuando obtiene acceso a la ruta. Un ejemplo es un ataque que se realiza al controlar un enrutador de la ruta de acceso a los datos. 
+La interceptación se produce cuando un atacante obtiene acceso a la ruta de datos en una red y puede supervisar y leer el tráfico. Este tipo de ataque también se denomina rastreo o espionaje. Si el tráfico se produce como texto sin formato, el atacante puede leerlo cuando obtiene acceso a la ruta. Un ejemplo es un ataque que se realiza al controlar un enrutador de la ruta de acceso a los datos. 
   
 La recomendación predeterminada y la configuración para el tráfico dentro de Skype para Business Server consiste en usar mutual TLS (MTLS) entre servidores de confianza y TLS de cliente a servidor. Esta medida de protección haría extremadamente difícil o imposible de realizar un ataque en el período en que tiene lugar conversación concreta. TLS autentica a todos los participantes y cifra todo el tráfico. Esto no impide la interceptación, pero el atacante no puede leer el tráfico a menos se interrumpa el cifrado.
   
 El protocolo NAT transversal con relé (TURN) no impone el cifrado del tráfico, y la información que envía está protegida por la integridad del mensaje. Si bien este protocolo está abierto a la interceptación, la información que envía (es decir, direcciones IP y puerto) se puede extraer directamente examinando simplemente las direcciones de origen y de destino de los paquetes. El servicio perimetral A/V se asegura de que los datos son válidos comprobando la integridad del mensaje mediante la clave derivada de algunos elementos, como una contraseña TURN, la cual no se envía nunca en texto no cifrado. Si se utiliza Protocolo en tiempo real seguro (SRTP), también se cifra el tráfico de medios.
   
-## <a name="identity-spoofing-ip-address-spoofing"></a>Suplantación de identidad (suplantación de dirección IP)
+## <a name="identity-spoofing-ip-address-and-caller-id-spoofing"></a>Suplantación de identidad (dirección IP y el autor de la llamada suplantación de Id de)
 
-La suplantación de identidad (spoofing) se produce cuando el atacante identifica y usa una dirección IP de una red, un equipo o un componente de red sin tener autorización para ello. En este tipo de ataque, el atacante actúa como si fuese la entidad que hubiera identificado la dirección IP en un caso normal. Dentro del contexto de Skype para Business Server, esta situación puede producirse únicamente si un administrador ha realizado estas dos de las siguientes opciones:
+Suplantación de identidad se produce cuando el atacante determina y utiliza un número de teléfono de un usuario válido (identificador de autor de la llamada) o una dirección IP de una red, un equipo o un componente de red sin tener autorización para ello. Un ataque permite que el atacante puede actuar como si fuese la entidad identificada normalmente por el número de teléfono (identificador de autor de la llamada) o la dirección IP.
+
+Dentro del contexto de Skype para Business Server, suplantación de direcciones IP entra en juego sólo si un administrador ha realizado estas dos de las siguientes opciones:
   
 - Ha configurado conexiones compatibles únicamente con el Protocolo de control de transmisión (TCP) (lo cual no se recomienda porque las comunicaciones TCP no están cifradas).
     
 - Ha marcado las direcciones IP de esas conexiones como hosts de confianza.
     
 Este es un problema menor para las conexiones TLS (Seguridad de la capa de transporte), puesto que TLS autentica todas las partes y cifra todo el tráfico. El uso de TLS evita que un atacante suplante las direcciones IP en una conexión concreta (por ejemplo, conexiones Mutual TLS). Pero un atacante aún podría suplantar la dirección del servidor DNS que usa Skype para Business Server. Sin embargo, debido a que la autenticación en Skype para la empresa se realiza con certificados, un atacante no tiene un certificado válido necesario para la suplantación de una de las partes en la comunicación.
+
+Por otro lado, la suplantación de identidad de identificador de autor de la llamada puede producirse cuando se ha establecido un tronco SIP entre un proveedor, puerta de enlace RTC u otro sistema PBX y Skype para Business Server. En estos casos, Skype para Business Server no ofrece ninguna protección para evitar la suplantación de id de autor de la llamada. Esto significa que un Skype para usuarios de empresa puede recibir una llamada desde el tronco SIP con un identificador de autor de la llamada falsificada mostrar el número de teléfono del otro Skype para usuarios de empresa. En el lado del proveedor, se debe aplicar la protección a esta puerta de enlace RTC o PBX.
   
 ## <a name="man-in-the-middle-attack"></a>Ataque de tipo "Man in the middle"
 

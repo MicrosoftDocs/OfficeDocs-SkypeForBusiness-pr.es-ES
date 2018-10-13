@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8b1497a864a1dbd271af81363151275ffe7de1e
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+ms.openlocfilehash: ca30bce0c5a0b96ba4ebf25d71e838aa88e4a602
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/12/2018
-ms.locfileid: "25502235"
+ms.locfileid: "25546756"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -71,7 +71,7 @@ En este artículo se enumera los problemas conocidos de Microsoft Teams, por ár
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|Cuando intenta unirse a Teams desde Internet Explorer o Edge, el programa lo intenta constantemente o se bloquea y no consigue iniciar sesión.   <br/> | Su organización utiliza los sitios de confianza de Internet Explorer y la aplicación basada en web de Teams no logra iniciar sesión correctamente porque los sitios de confianza de Teams no están permitidos. <br/>|Haga los siguientes cambios en la configuración de IE, ya sea con los derechos de administrador o con un objeto de directiva de grupo:<br/><ol><li>En **Opciones de Internet** &gt; **Privacy** &gt; **Avanzadas**, Aceptar las cookies y de terceros y la casilla de verificación para **Permitir siempre las cookies de sesión**.</li><li>Haga clic en **Opciones de Internet** &gt; **Sitios de confianza** &gt; de **sitios**y agregar todos los elementos siguientes:<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>NOTA</b>: Valide y permita siempre todas las direcciones URL de confianza de Teams y los requisitos del siguiente documento: [URL de Office 365 e intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).   <br/> |01/11/2017  <br/> |
+|Cuando intenta unirse a Teams desde Internet Explorer o Edge, el programa lo intenta constantemente o se bloquea y no consigue iniciar sesión.   <br/> | Su organización utiliza los sitios de confianza de Internet Explorer y la aplicación basada en web de Teams no logra iniciar sesión correctamente porque los sitios de confianza de Teams no están permitidos. <br/>|Realice los siguientes cambios a la configuración de Internet Explorer o desde el Panel de Control, ya sea con derechos de administrador o un objeto de directiva de grupo:<br/><ol><li>En **Opciones de Internet** &gt; **Privacy** &gt; **Avanzadas**, Aceptar las cookies y de terceros y la casilla de verificación para **Permitir siempre las cookies de sesión**.</li><li>Haga clic en **Opciones de Internet** &gt; **seguridad** &gt; **Sitios de confianza** &gt; de **sitios**y agregar todos los elementos siguientes:<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>NOTA</b>: Valide y permita siempre todas las direcciones URL de confianza de Teams y los requisitos del siguiente documento: [URL de Office 365 e intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).   <br/> |01/11/2017  <br/> |
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|

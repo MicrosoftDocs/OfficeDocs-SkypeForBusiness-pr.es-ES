@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a2ad3c2416e64334dddda6c09d3e8eed2be3763
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 58dd3bb4e0f870cfcfff0f1297acdab7a82eb4a9
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374253"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25546688"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de comprobación de acceso de invitado a los equipos
 ==========================================
@@ -30,11 +30,9 @@ Use esta lista de comprobación que le ayudarán a habilitar y configurar la car
 
 ## <a name="--enable-guest-access-at-the-tenant-level"></a>Acceso como invitado □ habilitar en el nivel de inquilino
 
-Como mínimo, debe activar Microsoft Teams para todos los usuarios del tipo de licencia **invitado**. Para obtener instrucciones detalladas, vea [Activar o desactivar el acceso de invitado a los equipos de Microsoft](set-up-guests.md).
+Vaya a los equipos de & Skype para el centro de administración empresarial, a través de https://admin.teams.microsoft.com. A continuación, seleccione 'Configuración de toda la organización' y Active la ficha 'Acceso como invitado' por último, dentro de esta ficha, seleccione 'Permitir acceso como invitado en Microsoft Teams' a habilitado. 
 
-![Captura de pantalla muestra un ejemplo de un control de alternancia de la configuración de los equipos](media/guest-access-checklist-TeamsSettings1.png)
-
-
+## <a name="need-a-new-screenshot-for-new-admin-center-enablement"></a>Necesita una captura de pantalla nuevo para la habilitación de centro de administración nuevo. 
 
 ## <a name="-enable-specific-settings-for-channels"></a>□ Habilitar opciones específicas de canales 
 En la aplicación de los equipos, en el nivel de equipo individual, configurar permisos de invitado para que los invitados pueden crear, actualizar y eliminar canales. Además de los administradores, los propietarios de equipo pueden configurar esta opción.
