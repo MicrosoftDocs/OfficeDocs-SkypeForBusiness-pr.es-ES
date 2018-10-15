@@ -1,18 +1,18 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Skype for Business
+title: Skype Empresarial
 description: Skype for Business
-ms.openlocfilehash: da72536d6c9f0238b301f0fbf3bbd14abc372c46
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: cbb9765c358047b628be45759e2002cdc5a46f02
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373883"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25546669"
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Skype for Business</h1>
+        <h1>Skype Empresarial</h1>
         <ul class="pivots">
             <li>
                 <a href="#home"></a>
@@ -180,7 +180,7 @@ ms.locfileid: "25373883"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Usuarios finales</h3>
-                                                    <p>Encuentre ayuda, formación y soporte técnico para usuarios de Skype Empresarial en support.office.com.</p>
+                                                    <p>Encuentre ayuda, formación y soporte técnico para usuarios de Skype for Business en <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>.</p>
                                                 </div>
                                             </div>
                                         </div>
