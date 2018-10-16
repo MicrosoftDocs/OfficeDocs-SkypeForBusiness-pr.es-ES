@@ -25,16 +25,16 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Este tema contiene todos los países o regiones que los usuarios pueden realizar llamadas salientes a si tienen un Plan de llamada.
-ms.openlocfilehash: 1b9e088c33fde71fa07ec405c088ad179708cb6e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 987379350d2605702d0e9e080f6a7a3a6d3a0383
+ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014616"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "25576579"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Los usuarios pueden hacer llamadas salientes a estos países y regiones
 
-### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-a-domestic-or-domestic-and-international-calling-plan-license"></a>Vea lo que los usuarios de países o regiones pueden realizar llamadas salientes a si el usuario tiene un nacional o nacionales y licencia de llamar a planear internacional
+### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>Vea lo que los usuarios de países o regiones pueden realizar llamadas salientes a si el usuario tiene la licencia nacionales y llamar a planear internacional
 
 |**A - D**| **E - H**|**I - L**|**M - O**|**P - S**|**T - Z**|
 ---|---|---|---|---|---|

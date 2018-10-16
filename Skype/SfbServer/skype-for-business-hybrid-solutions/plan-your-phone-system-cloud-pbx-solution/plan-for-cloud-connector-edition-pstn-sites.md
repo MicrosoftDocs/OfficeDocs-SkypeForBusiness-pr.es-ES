@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: Lea este tema para aprender a planear los sitios en la nube conector Edition RTC para garantizar el enrutamiento de llamadas rentable y eficiente.
-ms.openlocfilehash: 2f3c624dce8fa406724e54a405b72939951c849e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: fa224bd4fa3dc1d0be5db8104e414f9a78d01b30
+ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890398"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "25576522"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>Plan de sitios de RTC con Cloud Connector Edition
  
@@ -64,9 +64,9 @@ En el ejemplo siguiente se muestra cómo agrupar los troncos de acceso a sitios 
     
   -  Portland (código de área 503)
     
-Como el usuario A en Redmond y el usuario B en Bellevue están en la periferia, uno al lado del otro y dentro del mismo código de área (425), el operador A debe tener la capacidad de tomar una llamada de emergencia del usuario A en Redmond en el tronco de Bellevue.   
+Debido a que el usuario A en Redmond (centro de datos A) y el usuario B en Bellevue (centro de datos B) están en suburbios uno junto a otro y en el mismo código de área (425), un operador debería poder realizar una llamada de emergencia desde usuario A Redmond en el tronco en Bellevue. 
   
-Por consiguiente, los usuarios A y B y los troncos de conector en la nube para Bellevue y Redmond, es probable que pueden en el mismo sitio de RTC tal como se muestra en el siguiente diagrama. Las llamadas de emergencia de los usuarios en una oficina pueden ser redirigidas a los troncos en la otra. Sin embargo, debe, compruebe con su operador de telefonía que esto funcionará.
+Por consiguiente, los usuarios A y B y los troncos de conector en la nube para Bellevue y Redmond, es probable que pueden en el mismo sitio de RTC de conector en la nube tal como se muestra en el siguiente diagrama. Las llamadas de emergencia de los usuarios en una oficina pueden ser redirigidas a los troncos en la otra. Sin embargo, debe, compruebe con su operador de telefonía que esto funcionará.
   
 ![Cómo configurar sitios PSTN](../../media/2659caa7-9c18-4d4f-9c7a-61d0e6a07dc3.png)
   

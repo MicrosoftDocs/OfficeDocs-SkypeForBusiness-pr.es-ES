@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca30bce0c5a0b96ba4ebf25d71e838aa88e4a602
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: 93a3174085f6e42eed1496415122c89b550e61a6
+ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546756"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "25576556"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -117,6 +117,10 @@ En este artículo se enumera los problemas conocidos de Microsoft Teams, por ár
 |:-----|:-----|:-----|:-----|
 |Cambio de nombre de un canal en Microsoft Teams no cambiar el nombre de la carpeta correspondiente en SharePoint Online  <br/> |Si se cambia el nombre de un canal en Microsoft Teams, no cambia la carpeta en la biblioteca de documentos de SharePoint Online correspondiente al equipo para que coincidan con. El nombre de carpeta de SharePoint Online correcto se muestra en la parte superior de la ficha archivos de canal cuyo nombre ha cambiado.  <br/> |No hay ninguna solución.  <br/> |13/03/2017  <br/> |
 
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|Vista previa de la dirección URL no puede mostrar para todos los de la dirección URL  <br/> |Algunos URL no puede mostrar una vista previa.  Esto depende de la dirección URL original tener la capacidad de mostrar una vista previa. <br/> |No hay ninguna solución. <br/> |9/1/18 <br/> |
+
 ## <a name="chat"></a>Chat
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
@@ -172,6 +176,10 @@ En este artículo se enumera los problemas conocidos de Microsoft Teams, por ár
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |Las reuniones no están disponibles.  <br/> |La funcionalidad de la reunión no está disponible cuando el buzón de Exchange esté hospedado (asignado) local en la versión menor que Exchange 2016 CU3.  <br/> |Actualice a la actualización acumulada 3 de Exchange 2016 o posterior para la implementación local.  <br/> |28/02/2017  <br/> |
+
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|No hay audio al uso compartido de contenido durante una reunión de difusión  <br/> |Cuando no se puede compartir contenido durante una reunión de difusión, audio desde el contenido compartido (vínculo de youtube o un archivo de vídeo guardado) escuchar por los participantes.  <br/> |Ninguno como esto es así por diseño.  Actualmente, los equipos no admite el uso compartido de contenido de audio  <br/> |9/10/18  <br/> |
 
 ## <a name="mobile"></a>Móvil
 
