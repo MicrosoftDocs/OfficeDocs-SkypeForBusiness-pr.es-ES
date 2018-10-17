@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Dado que Skype para Business Server es un sistema de comunicaciones empresariales, debe tener en cuenta de ataques de seguridad comunes que pueden afectar a su infraestructura y comunicaciones.
-ms.openlocfilehash: 594bde9b01a61586364034ba026db91aea49ef88
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: 354e537a7e927ed6825b5909107c80fe59e04996
+ms.sourcegitcommit: f2b89fea199e7a1d2a3c90c153c94b0a35965e6f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546786"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25599214"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Amenazas de seguridad comunes en la informática moderna
  
@@ -66,7 +66,7 @@ Dentro del contexto de Skype para Business Server, suplantación de direcciones 
     
 Este es un problema menor para las conexiones TLS (Seguridad de la capa de transporte), puesto que TLS autentica todas las partes y cifra todo el tráfico. El uso de TLS evita que un atacante suplante las direcciones IP en una conexión concreta (por ejemplo, conexiones Mutual TLS). Pero un atacante aún podría suplantar la dirección del servidor DNS que usa Skype para Business Server. Sin embargo, debido a que la autenticación en Skype para la empresa se realiza con certificados, un atacante no tiene un certificado válido necesario para la suplantación de una de las partes en la comunicación.
 
-Por otro lado, la suplantación de identidad de identificador de autor de la llamada puede producirse cuando se ha establecido un tronco SIP entre un proveedor, puerta de enlace RTC u otro sistema PBX y Skype para Business Server. En estos casos, Skype para Business Server no ofrece ninguna protección para evitar la suplantación de id de autor de la llamada. Esto significa que un Skype para usuarios de empresa puede recibir una llamada desde el tronco SIP con un identificador de autor de la llamada falsificada mostrar el número de teléfono del otro Skype para usuarios de empresa. En el lado del proveedor, se debe aplicar la protección a esta puerta de enlace RTC o PBX.
+Por otro lado, la suplantación de identidad de identificador de autor de la llamada puede producirse cuando se ha establecido un tronco SIP entre un proveedor, puerta de enlace RTC u otro sistema PBX y Skype para Business Server. En estos casos, Skype para Business Server no ofrece ninguna protección para evitar la suplantación de id de autor de la llamada. Esto significa que un Skype para usuarios de empresa puede recibir una llamada desde el tronco SIP con un identificador de autor de la llamada falsificada mostrar el número de teléfono o nombre para mostrar (si se aplica la búsqueda inversa de números) de otro Skype para usuarios de empresa. En el lado del proveedor, se debe aplicar la protección a esta puerta de enlace RTC o PBX.
   
 ## <a name="man-in-the-middle-attack"></a>Ataque de tipo "Man in the middle"
 
