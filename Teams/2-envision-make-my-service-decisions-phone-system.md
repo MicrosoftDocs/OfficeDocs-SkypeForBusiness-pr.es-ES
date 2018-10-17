@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccf53509b01341b482c5a687dfa3dcee66a928dc
-ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
+ms.openlocfilehash: 1bf0d5514f4202029acabe44268e8e7e7d671f60
+ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/17/2018
-ms.locfileid: "25593706"
+ms.locfileid: "25597849"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 
@@ -269,8 +269,10 @@ Para obtener más información acerca de las comunicaciones créditos, revise [�
 > |Isabell Potvin |39 quai du Président Roosevelt |Plan de llamada nacional |Deshabilitado |
 
 <br>
+
 > [!TIP]
 > Los créditos Communications planeación números se puede documentar como en el ejemplo siguiente.
+>
 > |         |         |
 > |---------|---------|
 > |Cantidad inicial|1000 $|
@@ -380,6 +382,7 @@ Para obtener más información acerca de los planes de marcado, consulte [¿Cuá
 > ||**FR-Service**<br>_Normalización de número de servicio para Francia_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>1 $<br>False|
 
 <br>
+
 > [!TIP]
 > La plantilla de ejemplo siguiente se puede utilizar para documentar las asignaciones de planes de marcado de su proyecto:
 >

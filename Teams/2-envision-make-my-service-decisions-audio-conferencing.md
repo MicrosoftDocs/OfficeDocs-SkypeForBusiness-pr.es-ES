@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b50baa8ddb7e29c4484adea7d9d0f0c6cab957dd
-ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
+ms.openlocfilehash: 81dca894a378c5331c34b5840108e63536c8ac37
+ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/17/2018
-ms.locfileid: "25593722"
+ms.locfileid: "25597841"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 
@@ -128,6 +128,7 @@ Encontrará más información acerca de las comunicaciones créditos [aquí](htt
 
 > [!TIP]
 > Los números de planificación de Créditos de comunicaciones se pueden documentar del modo siguiente:
+>
 > |         |         |
 > |---------|---------|
 > |Cantidad inicial|1000 $|
@@ -237,6 +238,7 @@ Con estos controles, puede decidir si los organizadores de reuniones pueden prop
 > |Enviar correos automáticamente a los usuarios si cambia su configuración de acceso telefónico|Deshabilitado|
 
 <br>
+
 > [!TIP]
 > Puede documentar la lista de asignación de configuración de puente de conferencia para los usuarios de conferencia de Audio mediante el siguiente ejemplo.
 >
