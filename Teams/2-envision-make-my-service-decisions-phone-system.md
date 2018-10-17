@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f73c61b1c02f9560e3419d8993d998fa8f0ba9d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ccf53509b01341b482c5a687dfa3dcee66a928dc
+ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374798"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25593706"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 
@@ -269,10 +269,13 @@ Para obtener más información acerca de las comunicaciones créditos, revise [�
 > |Isabell Potvin |39 quai du Président Roosevelt |Plan de llamada nacional |Deshabilitado |
 
 <br>
-&gt; [!TIP]
-&gt;Los créditos Communications planeación números se puede documentar como en el ejemplo siguiente.
-&gt;|         |         | &gt;|---------|---------|
-&gt;| Cantidad inicial | 1.000$ | &gt;| Cantidad de desencadenador | $ 400 | &gt;| Cantidad de Auto-recarga | TBA |
+> [!TIP]
+> Los créditos Communications planeación números se puede documentar como en el ejemplo siguiente.
+> |         |         |
+> |---------|---------|
+> |Cantidad inicial|1000 $|
+> |Cantidad de umbral|400 $|
+> |Cantidad de recarga automática|Por añadir|
 
 <!--ENDOFSECTION-->
 
@@ -377,9 +380,23 @@ Para obtener más información acerca de los planes de marcado, consulte [¿Cuá
 > ||**FR-Service**<br>_Normalización de número de servicio para Francia_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>1 $<br>False|
 
 <br>
-&gt; [!TIP]
-&gt;La plantilla de ejemplo que aparece a continuación se puede sacar provecho a las asignaciones del plan de marcado de documento para admitir el proyecto: &gt;| Usuario | Office | Tipo de Plan de marcado | Nombre del Plan de marcado | &gt;|---------|---------|---------|---------|
-&gt;| Adele Saavedra | Un viaje de Epping | Plan de marcado de inquilino | AU-NSW-NorthRyde-OER | &gt;| Alex Wilber | Un viaje de Epping | Plan de marcado de inquilino | AU-NSW-NorthRyde-OER | &gt;| Ben Walters | Un viaje de Epping | Plan de marcado de inquilino | AU-NSW-NorthRyde-OER | &gt;| Cristina chazar | Uno Marina Boulevard | Plan de marcado de inquilino | Administrativos-Singapur-OMB | &gt;| Debra Berger | Uno Marina Boulevard | Plan de marcado de inquilino | Administrativos-Singapur-OMB | &gt;| Lee Gu | Uno Marina Boulevard | Plan de marcado de inquilino | Administrativos-Singapur-OMB | &gt;| Emily Braun | calle de puente de Londres 32 | Plan de marcado de servicio | N/A | &gt;| lidia Holloway | calle de puente de Londres 32 | Plan de marcado de servicio | N/A | &gt;| Louis Lahr | calle de puente de Londres 32 | Plan de marcado de servicio | N/A | &gt;| Marcel Beauchamp | 39 quai du presidente Roosevelt | Plan de marcado de inquilino | FR-París-Issy-30qdPR | &gt;| Rachelle Cormier | 39 quai du presidente Roosevelt | Plan de marcado de inquilino | FR-París-Issy-30qdPR | &gt;| Isabell Potvin | 39 quai du presidente Roosevelt | Plan de marcado de inquilino | FR-París-Issy-30qdPR |
+> [!TIP]
+> La plantilla de ejemplo siguiente se puede utilizar para documentar las asignaciones de planes de marcado de su proyecto:
+>
+> |Usuario  |Oficina  |Tipo de plan de marcado  |Nombre de plan de marcado  |
+> |---------|---------|---------|---------|
+> |Adele Vance|One Epping Road|Plan de marcado de inquilino|AU-NSW-NorthRyde-OER|
+> |Alex Wilber|One Epping Road|Plan de marcado de inquilino|AU-NSW-NorthRyde-OER|
+> |Ben Walters|One Epping Road|Plan de marcado de inquilino|AU-NSW-NorthRyde-OER|
+> |Christie Cline|One Marina Boulevard|Plan de marcado de inquilino|SG-Singapore-OMB|
+> |Debra Berger|One Marina Boulevard|Plan de marcado de inquilino|SG-Singapore-OMB|
+> |Lee Gu|One Marina Boulevard|Plan de marcado de inquilino|SG-Singapore-OMB|
+> |Emily Braun|32 London Bridge Street|Plan de marcado de servicio|N/D|
+> |Lidia Holloway|32 London Bridge Street|Plan de marcado de servicio|N/D|
+> |Louis Lahr|32 London Bridge Street|Plan de marcado de servicio|N/D|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Plan de marcado de inquilino|FR-Paris-Issy-30qdPR|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Plan de marcado de inquilino|FR-Paris-Issy-30qdPR|
+> |Isabell Potvin|39 quai du Président Roosevelt|Plan de marcado de inquilino|FR-Paris-Issy-30qdPR|
 
 <!--ENDOFSECTION-->
 

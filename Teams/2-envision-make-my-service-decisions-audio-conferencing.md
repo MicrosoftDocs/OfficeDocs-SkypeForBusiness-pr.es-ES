@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8877819704b438d26f981fb6816c56eb23ef9521
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b50baa8ddb7e29c4484adea7d9d0f0c6cab957dd
+ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371345"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25593722"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 
@@ -125,10 +125,15 @@ Encontrará más información acerca de las comunicaciones créditos [aquí](htt
 > |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, complemento de Audioconferencia|
 
 <br>
-&gt; [!TIP]
-&gt;Se puede documentar su créditos Communications planeación números como los siguientes: &gt;|         |         | &gt;|---------|---------|
-&gt;| Cantidad inicial | 1.000$ | &gt;| Cantidad de desencadenador | $ 400 | &gt;| Cantidad de Auto-recarga | TBA |
 
+> [!TIP]
+> Los números de planificación de Créditos de comunicaciones se pueden documentar del modo siguiente:
+> |         |         |
+> |---------|---------|
+> |Cantidad inicial|1000 $|
+> |Cantidad de umbral|400 $|
+> |Cantidad de recarga automática|Por añadir|
+> 
 <!--ENDOFSECTION-->
 
 ## <a name="conference-bridge-phone-numbers"></a>Números de teléfono para puentes de conferencia
@@ -232,10 +237,23 @@ Con estos controles, puede decidir si los organizadores de reuniones pueden prop
 > |Enviar correos automáticamente a los usuarios si cambia su configuración de acceso telefónico|Deshabilitado|
 
 <br>
-&gt; [!TIP]
-&gt;Puede documentar la lista de asignación de configuración de puente de conferencia para los usuarios de conferencia de Audio mediante el siguiente ejemplo.
-&gt;| Usuario | Office | Número de teléfono de pago predeterminado | Valor predeterminado de número de teléfono gratuito | Permitir gratuito | Sala de espera el desvío de llamadas sin autenticar | Para hacer llamadas de conferencia | &gt;|---------|---------|---------|---------|---------|---------|---------|
-&gt;| Adele Saavedra | Un viaje de Epping | TBA | TBA | Sí | Habilitado | Internacionales y nacionales | &gt;| Alex Wilber | Un viaje de Epping | TBA | TBA | No | Deshabilitado | No se permiten | &gt;| Ben Walters | Un viaje de Epping | TBA | TBA | No | Deshabilitado | No se permiten | &gt;| Cristina chazar | Uno Marina Boulevard | TBA | TBA | Sí | Deshabilitado | Nacionales | &gt;| Debra Berger | Uno Marina Boulevard | TBA | TBA | Sí | Habilitado | Nacionales | &gt;| Lee Gu | Uno Marina Boulevard | TBA | TBA | Sí | Habilitado | Nacionales | &gt;| Emily Braun | calle de puente de Londres 32 | + 44 20 7946 0001 | TBA | Sí | Habilitado | No se permiten | &gt;| lidia Holloway | calle de puente de Londres 32 | + 44 20 7946 0001 | TBA | Sí | Deshabilitado | No se permiten | &gt;| Louis Lahr | calle de puente de Londres 32 | + 44 20 7946 0001 | TBA | Sí | Deshabilitado | No se permiten | &gt;| Marcel Beauchamp | 39 quai du presidente Roosevelt | TBA | TBA | No | Deshabilitado | Nacionales | &gt;| Rachelle Cormier | 39 quai du presidente Roosevelt | TBA | TBA | Sí | Habilitado | Internacionales y nacionales | &gt;| Isabell Potvin | 39 quai du presidente Roosevelt | TBA | TBA | No | Deshabilitado | Nacionales |
+> [!TIP]
+> Puede documentar la lista de asignación de configuración de puente de conferencia para los usuarios de conferencia de Audio mediante el siguiente ejemplo.
+>
+> |Usuario  |Oficina  |Número de pago predeterminado  |Número gratuito predeterminado  |Permitir número gratuito  |Los autores de llamadas sin autenticar no pasan por la sala de espera  |Llamadas desde la conferencia  |
+> |---------|---------|---------|---------|---------|---------|---------|
+> |Adele Vance|One Epping Road|Por añadir|Por añadir|Sí|Habilitado|Internacionales y nacionales|
+> |Alex Wilber|One Epping Road|Por añadir|Por añadir|No|Deshabilitado|No se permiten|
+> |Ben Walters|One Epping Road|Por añadir|Por añadir|No|Deshabilitado|No se permiten|
+> |Christie Cline|One Marina Boulevard|Por añadir|Por añadir|Sí|Deshabilitado|Nacionales|
+> |Debra Berger|One Marina Boulevard|Por añadir|Por añadir|Sí|Habilitado|Nacionales|
+> |Lee Gu|One Marina Boulevard|Por añadir|Por añadir|Sí|Habilitado|Nacionales|
+> |Emily Braun|32 London Bridge Street|+44 20 7946 0001|Por añadir|Sí|Habilitado|No se permiten|
+> |Lidia Holloway|32 London Bridge Street|+44 20 7946 0001|Por añadir|Sí|Deshabilitado|No se permiten|
+> |Louis Lahr|32 London Bridge Street|+44 20 7946 0001|Por añadir|Sí|Deshabilitado|No se permiten|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Por añadir|Por añadir|No|Deshabilitado|Nacionales|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Por añadir|Por añadir|Sí|Habilitado|Internacionales y nacionales|
+> |Isabell Potvin|39 quai du Président Roosevelt|Por añadir|Por añadir|No|Deshabilitado|Nacionales|
 
 <!--ENDOFSECTION-->
 
@@ -340,9 +358,23 @@ Para obtener más información acerca de los planes de marcado, consulte [¿Cuá
 > ||**FR-Service**<br>_Normalización de número de servicio para Francia_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>1 $<br>False|
 
 <br>
-&gt; [!TIP]
-&gt;La plantilla de ejemplo que aparece a continuación se puede sacar provecho a las asignaciones del plan de marcado de documento para admitir el proyecto: &gt;| Usuario | Office | Tipo de Plan de marcado | Nombre del Plan de marcado | &gt;|---------|---------|---------|---------|
-&gt;| Adele Saavedra | Un viaje de Epping | Plan de marcado de inquilino | AU-NSW-NorthRyde-OER | &gt;| Alex Wilber | Un viaje de Epping | Plan de marcado de inquilino | AU-NSW-NorthRyde-OER | &gt;| Ben Walters | Un viaje de Epping | Plan de marcado de inquilino | AU-NSW-NorthRyde-OER | &gt;| Cristina chazar | Uno Marina Boulevard | Plan de marcado de inquilino | Administrativos-Singapur-OMB | &gt;| Debra Berger | Uno Marina Boulevard | Plan de marcado de inquilino | Administrativos-Singapur-OMB | &gt;| Lee Gu | Uno Marina Boulevard | Plan de marcado de inquilino | Administrativos-Singapur-OMB | &gt;| Emily Braun | calle de puente de Londres 32 | Plan de marcado de servicio | N/A | &gt;| lidia Holloway | calle de puente de Londres 32 | Plan de marcado de servicio | N/A | &gt;| Louis Lahr | calle de puente de Londres 32 | Plan de marcado de servicio | N/A | &gt;| Marcel Beauchamp | 39 quai du presidente Roosevelt | Plan de marcado de inquilino | FR-París-Issy-30qdPR | &gt;| Rachelle Cormier | 39 quai du presidente Roosevelt | Plan de marcado de inquilino | FR-París-Issy-30qdPR | &gt;| Isabell Potvin | 39 quai du presidente Roosevelt | Plan de marcado de inquilino | FR-París-Issy-30qdPR |
+> [!TIP]
+> La plantilla de ejemplo siguiente se puede utilizar para documentar las asignaciones de planes de marcado de su proyecto:
+>
+> |Usuario  |Oficina  |Tipo de plan de marcado  |Nombre de plan de marcado  |
+> |---------|---------|---------|---------|
+> |Adele Vance|One Epping Road|Plan de marcado de inquilino|AU-NSW-NorthRyde-OER|
+> |Alex Wilber|One Epping Road|Plan de marcado de inquilino|AU-NSW-NorthRyde-OER|
+> |Ben Walters|One Epping Road|Plan de marcado de inquilino|AU-NSW-NorthRyde-OER|
+> |Christie Cline|One Marina Boulevard|Plan de marcado de inquilino|SG-Singapore-OMB|
+> |Debra Berger|One Marina Boulevard|Plan de marcado de inquilino|SG-Singapore-OMB|
+> |Lee Gu|One Marina Boulevard|Plan de marcado de inquilino|SG-Singapore-OMB|
+> |Emily Braun|32 London Bridge Street|Plan de marcado de servicio|N/D|
+> |Lidia Holloway|32 London Bridge Street|Plan de marcado de servicio|N/D|
+> |Louis Lahr|32 London Bridge Street|Plan de marcado de servicio|N/D|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Plan de marcado de inquilino|FR-Paris-Issy-30qdPR|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Plan de marcado de inquilino|FR-Paris-Issy-30qdPR|
+> |Isabell Potvin|39 quai du Président Roosevelt|Plan de marcado de inquilino|FR-Paris-Issy-30qdPR|
 
 <!--ENDOFSECTION-->
 

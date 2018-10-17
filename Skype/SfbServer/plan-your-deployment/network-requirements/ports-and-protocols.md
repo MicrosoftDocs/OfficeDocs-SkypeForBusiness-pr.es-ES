@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Resumen: Revise las consideraciones de uso del puerto antes de implementar Skype para Business Server.'
-ms.openlocfilehash: 4355bc35e5e8ddcf881e322c39661389f78dce1a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6587bcfa9721362067d70bfc2e15549fa2a8e326
+ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884996"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25593698"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de protocolo y puerto para los servidores
  
@@ -31,7 +31,7 @@ Aunque esto puede parecer complicado bit en primer lugar, el trabajo para planea
   
 También puede encontrar la información en estas tablas en forma de diagrama revisando el póster de cargas de trabajo de protocolo vinculado fuera el artículo [Technical diagrams de Skype para Business Server 2015](../../technical-diagrams.md) .
 > [!NOTE]
-> - Skype para los usuarios en línea de negocio debe hacer referencia a [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). 
+> - Si se está implementando Skype para profesionales en línea (O365) hacen referencia a [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Entornos híbridos deberá hacer referencia a este tema y también los [requisitos de puerto y protocolo](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md#port-and-protocol-requirements)híbrida.
 > - Se puede tener los servidores de seguridad de hardware o software, no requieren modelos específicos o versiones. Lo que importa es qué puertos están en la lista blanca, por lo que el servidor de seguridad no poner en peligro el funcionamiento de Skype para Business Server.
   
 ## <a name="port-and-protocol-details"></a>Detalles de protocolo y puerto

@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: cbe14840f53d01c491159bfb3e44fe837d047558
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dce3118f79723bd6838579a9cda722dd4dc7bb90
+ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371376"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25593730"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Guía práctica para Sistema telefónico con planes de llamada en Microsoft Teams
 =========================================================================
@@ -313,9 +313,14 @@ El uso de Créditos de comunicaciones se puede controlar por usuario, lo que le 
 > |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, complemento Sistema telefónico, Plan de llamada nacional|Deshabilitado|
 
 <br>
-&gt; [!TIP]
-&gt;Se puede documentar su créditos Communications planeación números como los siguientes: &gt;|         |         | &gt;|---------|---------|
-&gt;| Cantidad inicial | 1.000$ | &gt;| Cantidad de desencadenador | $ 400 | &gt;| Cantidad de Auto-recarga | TBA |
+
+> [!TIP]
+> Los números de planificación de Créditos de comunicaciones se pueden documentar del modo siguiente:
+> |         |         |
+> |---------|---------|
+> |Cantidad inicial|1000 $|
+> |Cantidad de umbral|400 $|
+> |Cantidad de recarga automática|Por añadir|
 
 ## <a name="phone-numbers-and-emergency-locations"></a>Números de teléfono y ubicaciones de emergencia
 
@@ -330,7 +335,7 @@ Para obtener números de teléfono de Microsoft directamente, use una de estas o
 
 - [Centro de administración de Skype Empresarial](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
 - [Cmdlets a través de una sesión remota de Windows PowerShell](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-- [Envío de un formulario de solicitud de número de teléfono nuevo](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+- [Envíe un formulario de solicitud de número de teléfono nuevo](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
 
 El formulario de solicitud de números de teléfono nuevos es la mejor opción para la adquisición planificada de números de teléfono, porque le permite solicitar un bloque de números de teléfono consecutivos. La obtención de números de teléfono mediante el centro de administración de Skype Empresarial o una sesión remota de Windows PowerShell no está disponible en todos los países o regiones.
 
@@ -453,13 +458,21 @@ Hay un máximo de 25 reglas de normalización en cada plan de marcado de inquili
 > |Nombre de plan de marcado de inquilino<br>Descripción  |Nombre de reglas de normalización<br>_Descripción_  |Patrón<br>Traducción<br>IsInternalExtension  |
 > |---------|---------|---------|
 > |**FR-Paris-Issy-39qdPR**<br>_Plan de marcado de 39 quai du Président Roosevelt Issy-les-Moulineaux, Francia_|**FR-39qdPR-Internal**<br>_Número interno (x7000 – x7999) para 39 quai du Président Roosevelt office, Issy-les-Moulineaux, Francia_|^(7\d{3})$<br>+3319999$1<br>True|
-> ||**FR-TollFree**<br>_Normalización de número gratuito para Francia_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
-> ||**FR-Service**<br>_Normalización de número de servicio para Francia_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>1 $<br>False|
+> ||**FR-TollFree**<br>_Normalización de número gratuito para Francia_|^0?(80\d{7})\d*$<br>+33$1<br>False|
+> ||**FR-Service**<br>_Normalización de número de servicio para Francia_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>1 $<br>False|
 
 <br>
-&gt; [!TIP]
-&gt;La plantilla de ejemplo que aparece a continuación se puede sacar provecho a las asignaciones del plan de marcado de documento para admitir el proyecto: &gt;| Usuario | Office | Tipo de Plan de marcado | Nombre del Plan de marcado | &gt;|---------|---------|---------|---------|
-&gt;| Emily Braun | calle de puente de Londres 32 | Plan de marcado de servicio | N/A | &gt;| lidia Holloway | calle de puente de Londres 32 | Plan de marcado de servicio | N/A | &gt;| Pradeep Gupta | calle de puente de Londres 32 | Plan de marcado de servicio | N/A | &gt;| Marcel Beauchamp | 39 quai du presidente Roosevelt | Plan de marcado de inquilino | FR-París-Issy-39qdPR | &gt;| Rachelle Cormier | 39 quai du presidente Roosevelt | Plan de marcado de inquilino | FR-París-Issy-39qdPR | &gt;| Isabell Potvin | 39 quai du presidente Roosevelt | Plan de marcado de inquilino | FR-París-Issy-39qdPR |
+
+> [!TIP]
+> La plantilla de ejemplo siguiente se puede utilizar para documentar las asignaciones de planes de marcado de su proyecto:
+> |Usuario  |Oficina  |Tipo de plan de marcado  |Nombre de plan de marcado  |
+> |---------|---------|---------|---------|
+> |Emily Braun|32 London Bridge Street|Plan de marcado de servicio|N/D|
+> |Lidia Holloway|32 London Bridge Street|Plan de marcado de servicio|N/D|
+> |Pradeep Gupta|32 London Bridge Street|Plan de marcado de servicio|N/D|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Plan de marcado de inquilino|FR-Paris-Issy-39qdPR|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Plan de marcado de inquilino|FR-Paris-Issy-39qdPR|
+> |Isabell Potvin|39 quai du Président Roosevelt|Plan de marcado de inquilino|FR-Paris-Issy-39qdPR|
 
 ## <a name="document-technical-implementation-plan"></a>Documentar el plan técnico de implementación
 
