@@ -3,7 +3,7 @@ title: Activar o desactivar el acceso de invitado a Microsoft Teams
 author: LaithAlShamri
 ms.author: lolaj
 manager: serdars
-ms.date: 10/11/2018
+ms.date: 10/18/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ab67b3fa9ad58c1aa3e8fdd254e3b3515743b4c
-ms.sourcegitcommit: 9dd5d8fe6888f0c7d2df1e40fdd8b4c80512f8f9
+ms.openlocfilehash: 532886659d88707d8cd63c7c268dc9929f937b1c
+ms.sourcegitcommit: 4f93bad9696db15de86c98a55398537c476e55d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25498124"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "25633754"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Activar o desactivar el acceso de invitado a Microsoft Teams
 ======================================
@@ -42,7 +42,26 @@ La configuración de invitado se establece en Azure Active Directory. Los cambio
 
     ![Permitir modificador de acceso de Invitado activado ](media/set-up-guests-image1.png)
 
-4.  Establecer el alterna para **llamar a**, **reuniones**y **mensajería** a **activado** o **desactivado**, según el acceso que desea permitir.
+4.  Establecer el alterna en **mensajería** , **reunión**y **llamada**a **activado** o **desactivado**, dependiendo de las capacidades que desea permitir para los usuarios invitados.
+
+    - **Realizar llamadas privadas** – activar esta opción **en** para permitir que los invitados realizar llamadas de punto a punto.
+    - **Permitir IP vídeo** - activar esta opción **en** para permitir que los invitados a usar vídeo en sus llamadas y las reuniones.
+    - **Modo de uso compartido de pantalla** : esta configuración controla la disponibilidad de pantalla de uso compartido para los usuarios invitados. 
+       - Habilite esta configuración a **deshabilitado** para quitar la capacidad de los invitados a compartir sus pantallas en los equipos. 
+       - Habilite esta configuración a **única aplicación** para permitir el uso compartido de aplicaciones individuales. 
+       - Habilite esta configuración a **pantalla completa** para permitir el uso compartido de pantalla completa.
+    - **Permitir Reunirse ahora** – activar esta opción **en** para permitir que los invitados a usar la característica Reunirse ahora en Microsoft Teams.
+    - **Editar los mensajes enviados** : activar esta opción **en** para permitir que los invitados editar los mensajes envió anteriormente.
+    - **Los invitados pueden eliminar los mensajes enviados** : activar esta opción **en** para permitir que los invitados eliminar los mensajes envió anteriormente.
+    - **Chat** – activar esta opción **en** para dar invitados de la capacidad de usar chat en los equipos.
+    - **Use Giphys en las conversaciones** – activar esta opción **en** para permitir que los invitados a usar Giphys en las conversaciones. Giphy es una base de datos en línea y el motor de búsqueda que permite a los usuarios buscar y compartir los archivos GIF animados. Cada Giphy se le asigna una clasificación de contenido.
+    - **Clasificación de contenido Giphy** – seleccionar una clasificación de la lista desplegable:
+       - **Permitir todo el contenido** - invitados podrán insertar todos los Giphys en los chats, independientemente de la clasificación del contenido.
+       - **Moderado** - invitados podrán insertar Giphys en los chats, pero se limitará moderadamente de contenido para adultos.
+       - **Strict** – invitados podrán insertar Giphys en los chats, pero se limitará estrictamente de inserción de contenido para adultos.
+    - **Use Memes en las conversaciones** - activar esta opción **en** para permitir que los invitados a usar Memes en las conversaciones.
+    - **Usar pegatinas en conversaciones** – activar esta opción **en** para permitir que los invitados a usar pegatinas en conversaciones. 
+
 
 5.  Haga clic en **Guardar**.
 
