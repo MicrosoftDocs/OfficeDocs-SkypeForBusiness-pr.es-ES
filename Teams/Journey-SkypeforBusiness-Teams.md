@@ -1,5 +1,5 @@
 ---
-title: Skype para la empresa a la actualización de Microsoft Teams
+title: Actualización de Skype Empresarial a Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -7,7 +7,7 @@ ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Usar un marco de trabajo de éxito comprobado para viaje por la actualización de la organización de Skype para la empresa a los equipos
+description: Use un marco cuyo éxito ya se ha demostrado para realizar la transición de actualización de Skype Empresarial a Teams en su organización
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -16,34 +16,34 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 59e1723e388ef58c48650a916d73d2ac09b13d00
 ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/25/2018
 ms.locfileid: "25012076"
 ---
-# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Skype para la empresa a la actualización de Microsoft Teams
+# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Actualización de Skype Empresarial a Microsoft Teams
 
 
-Compatibilidad con la visión de Microsoft communications inteligente, Microsoft Teams es el concentrador central para trabajo en equipo, reunir chat, las reuniones, llamada, colaboración, integración de aplicaciones y almacenamiento de archivos. Como un Skype existente para cliente comercial, se le invita a actualizar a Microsoft Teams, para disfrutar de este conjunto de aplicaciones completo de las capacidades de comunicación y colaboración en una experiencia de cliente único.
+Como respaldo a la línea de la visión de comunicaciones inteligentes de Microsoft, Microsoft Teams es el centro de trabajo en equipo donde se aúnan aspectos como chat, reuniones, llamadas, colaboración, integración de aplicaciones y almacenamiento de archivos. Como cliente actual de Skype Empresarial, se le invita a actualizar a Microsoft Teams para poder disfrutar del conjunto completo de funcionalidades de comunicación y colaboración en un único cliente.
 
-Su viaje por la actualización puede tardar algún tiempo y estamos aquí para admitir cada paso de la forma. Si está acaba de empezar con los equipos, ya está usando los equipos junto con Skype para la empresa, o listo para actualizar, trabajamos para incorporar el nivel correcto de instrucciones para la organización y animamos a realizar los siguientes pasos para empezar a darse cuenta de que el los equipos de valor pueden ofrecer a su organización.
+El proceso de actualización puede llevar un tiempo durante el cual contará con nuestro respaldo para asistirle en cada una de las fases de esta transición. Tanto si es la primera vez que va a usar Teams como si ya lo está usando junto con Skype Empresarial o si está listo para realizar la actualización, nos estamos esforzando en ofrecer el nivel adecuado de instrucciones que requiere su organización y le animamos a continuar con los siguientes pasos donde comenzará a reconocer el valor que puede ofrecer Teams a su organización.
 
-Ver esta [información general](https://aka.ms/UpgradeOverview) para obtener una introducción a la Skype para la empresa para viaje de actualización de los equipos, incluidos conceptos básicos, framework y las rutas de actualización.
+Vea esta [descripción](https://aka.ms/UpgradeOverview); en ella encontrará una introducción al proceso de transición para actualizar de Skype Empresarial a Teams, incluidos los conceptos principales, el marco y los métodos de actualización.
 
-## <a name="upgrade-journey-framework"></a>Marco de trabajo de actualización de viaje
+## <a name="upgrade-journey-framework"></a>Marco para la transición de actualización
 
-Para ayudar a las conjeturas su viaje por la actualización, hemos utilizado un marco de trabajo de éxito comprobado para que manejan el cambio, incorporación de instrucciones, sugerencias y recursos a lo largo. Cada paso se basa en la anterior y para obtener resultados óptimos, se recomienda que siga los pasos en orden.
+Para eliminar los aspectos aleatorios de su proceso de actualización, hemos empleado un marco de éxito demostrado que le ayudará a realizar el cambio, donde se incorporan instrucciones, sugerencias y recursos para todo el proceso. Cada paso se construye sobre el anterior con el fin de obtener los resultados óptimos, por lo que se recomienda ir recorriendo los pasos en el orden dispuesto.
 
-Tal y como se muestra a continuación, una actualización se realiza correctamente comienza por reunir el equipo de derecho en la región de los participantes del proyecto y, a continuación, mover a la definición del proyecto donde se solidificado el ámbito, las metas y escala de tiempo. Esto ayuda a crear una base sólida para su viaje por la actualización. Desde allí, es fundamental para preparar para ambos la preparación técnica _y_ preparación del usuario etapas antes de pasar a la implementación y la implementación. Planeación de un proyecto piloto validar preparación antes de una amplia implantación. Para el máximo beneficio durante la etapa de excelencia operativa, establecer un plan que supervisa para la calidad y acelera la adopción de usuario.
+Como se muestra a continuación, para que la actualización se realice correctamente hay que comenzar por reunir el equipo adecuado en la etapa de partes relevantes del proyecto y, a continuación, pasar a la fase de definición del proyecto, donde se consolidan el ámbito, los objetivos y el cronograma. De este modo se crea una base sólida sobre la que construir el proceso de actualización. A partir de este punto, es muy importante pasar por las etapas de preparación técnica _y_ la preparación del usuario antes de ir a la implementación. Planifique un proyecto piloto que valide su nivel de preparación antes de comenzar con el despliegue a mayor escala. Para obtener el máximo beneficio posible durante la etapa de excelencia operativa, establezca un plan que supervise la calidad y acelere la adopción de los usuarios.
 
 > [!Tip]
-> Para ayudarle a navegar por su viaje por la actualización, busque este gráfico en páginas relacionadas para identificar dónde se encuentre en el proceso. ![Asegúrese de que el proyecto está configurado para el éxito con el equipo del proyecto derecho. Definir el ámbito del proyecto, las metas y escala de tiempo. Confirmar la preparación de técnico y de usuario. Ejecutar el plan de implantación. Mantener momentum para maximizar los resultados.] (media/upgrade-banner-main.png "Asegúrese de que el proyecto está configurado para el éxito con el equipo del proyecto derecho. Definir el ámbito del proyecto, las metas y escala de tiempo. Confirmar la preparación de técnico y de usuario. Ejecutar el plan de implantación. Mantener momentum para maximizar los resultados.")
+> Para ayudarle a ir avanzando por esta transición de actualización, revise este gráfico donde se muestran las páginas relacionadas que le ayudarán a identificar en qué fase del proceso se encuentra. ![Asegúrese de que el proyecto está bien configurado con el equipo de proyecto adecuado. Defina el ámbito del proyecto, los objetivos y la cronología. Confirme la preparación técnica y de los usuarios. Lleve a cabo el plan de lanzamiento. Mantenga el impulso para maximizar los resultados.](media/upgrade-banner-main.png "Asegúrese de que el proyecto está bien configurado con el equipo de proyecto adecuado. Defina el ámbito del proyecto, los objetivos y la cronología. Confirme la preparación técnica y de los usuarios. Lleve a cabo el plan de lanzamiento. Mantenga el impulso para maximizar los resultados.")
 
-## <a name="to-get-started"></a>Para empezar a...
+## <a name="to-get-started"></a>Para empezar...
 
-Sabemos que los clientes no proceden única. Para una mayor flexibilidad, hemos organizado el marco de trabajo en dos rutas de acceso: actualización básica y actualizar Pro. Elija el viaje que mejor se adapte a las necesidades de su organización.
+Sabemos que los clientes no son todos iguales. Para una mayor flexibilidad, hemos organizado dos métodos: actualización básica y actualización profesional. Elija el método que mejor se adapte a las necesidades de su organización.
 
-Seleccione una de las siguientes opciones o explore ambos para determinar la ruta óptima para usted. Obtener más información que van a visitar en línea con el tiempo, por lo que comprobar hacia atrás, según la organización continúa su viaje a los equipos. Para ayudar a comprender mejor la ruta de actualización y qué orientación adicional puede resultar útil, dedique un momento a <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u" target="_blank">compartir sus comentarios</a>.
+Seleccione una de las opciones siguientes o analice ambas para determinar cuál es la mejor en su caso. Se irá ofreciendo más información en línea, por lo le sugerimos que siga comprobándola conforme su organización avance en esta transición a Teams. Para ayudarnos a conocer su método de actualización y qué instrucciones adicionales podrían serle útiles, dedique unos minutos a <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u" target="_blank">compartir su opinión con nosotros</a>.
 
 
 <div class="mx-tableFixed">
