@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Los administradores pueden controlar la forma en la que los organizadores pueden usar los números gratuitos para sus reuniones.
-ms.openlocfilehash: 158a4b31b0aaf65414af0d2119b3b6931a1f74ac
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: cc179ff20d3bd523952ce57a79553025092532a9
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014696"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678341"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>Deshabilitar los números gratuitos para usuarios específicos de Teams
 
@@ -45,15 +45,15 @@ Cuando se deshabilitan los números gratuitos para un organizador determinado:
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Deshabilitar los números gratuitos para usuarios específicos 
 
-1. En el panel de navegación izquierdo, haga clic en **Usuarios** y seleccione el usuario en la lista de usuarios disponibles.
+Desde los **equipos de Microsoft & Skype para el centro de administración de negocio**:
 
-2. En la parte superior de la página, haga clic en **Editar**.
+1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
-3. Junto a **Audioconferencia**, haga clic en **Editar**.
+2. Junto a **Audioconferencia**, haga clic en **Editar**.
 
-4. Desactive **Incluir números de teléfono gratuitos en las convocatorias de reunión de este usuario**. 
+3. **Incluir los números gratuitos en convocatorias de reunión de este usuario** se establece en **Off**. 
 
-5. Haga clic en **Guardar**. 
+4. Haga clic en **Guardar**. 
 
  
 > [!Note]

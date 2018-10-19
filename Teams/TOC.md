@@ -168,7 +168,7 @@
 ##  [Planes de llamada en Office 365 - tratamiento de Reclamación de código para el Reino Unido.](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ## [Prácticas de recopilación de datos](data-collection-practices.md)
 ##  [Etiquetas de llamada de emergencia](emergency-calling-labels.md)
-##  [Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)
+##  [Términos y condiciones de las llamadas de emergencias](emergency-calling-terms-and-conditions.md)
 
 <!-- ============================================================ -->
 
@@ -181,6 +181,7 @@
 ### [Asignar propietarios de equipo y miembros en Microsoft Teams](assign-roles-permissions.md)
 ### [Prácticas recomendadas para organizar equipos en Microsoft Teams](best-practices-organizing.md)
 ### [Crear un equipo de toda la organización en los equipos](create-an-org-wide-team.md)
+### [Información general de pertenencia dinámica para los equipos](dynamic-memberships.md)
 ## [Acceso de invitado](guest-access.md)
 ### [Cómo se une un invitado a un equipo](guest-joins.md)
 ### [Cómo es la experiencia de invitado](guest-experience.md)

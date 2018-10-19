@@ -24,16 +24,16 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft recopila datos de error, el uso y el recuento para comprender cómo se utiliza Skype para la empresa y donde los usuarios tienen problemas. Los datos se usan para planear mejoras en los productos.
-ms.openlocfilehash: 198c78b2c6b484d3d68c7d001de4d0db12658a2c
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: df56d2321a2f3c2d7f4159e3f1b782254cf1a64b
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012844"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678381"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype para profesionales y Microsoft Teams prácticas de recopilación de datos
 
-Skype para Business Server 2015, Skype para profesionales en línea, junto con Skype para las aplicaciones empresariales y Microsoft Teams recopilar datos para ayudar a Microsoft a comprender cómo se utilizan estos productos y qué tipos de errores, como errores de inicio de sesión, se han producido. Esta información nos ayuda a comprender los patrones de uso, planeación de las nuevas características y solucionar problemas y las áreas con problemas.
+Skype para Business Server y Skype para profesionales en línea, junto con Skype para las aplicaciones empresariales y de Microsoft Teams, recopilar datos para ayudar a Microsoft a comprender cómo se utilizan estos productos y qué tipos de errores, como errores de inicio de sesión, se han producido. Esta información nos ayuda a comprender los patrones de uso, planeación de las nuevas características y solucionar problemas y las áreas con problemas.
 
 Mientras que algunos datos de uso se recopilan automáticamente, sólo se puedan recopilar otros datos cuando el usuario o el administrador decide lo permiten. Recolección de datos entra en estas tres categorías:
 
@@ -78,7 +78,7 @@ Los datos de uso pueden contener información que identifique a su organización
 
 Datos de uso no contienen ninguna información que identifica a los usuarios.
 
-Recolección de datos está activado de forma predeterminada, pero local Administradores pueden desactivarla utilizando la configuración de directiva de grupo DisableAutomaticSendTracing en Skype para Business Server 2015. Desactivar esta configuración afecta a todos los usuarios de la organización. Para obtener más información, vea [Configurar directivas de arranque cliente en Skype para Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) .
+Recolección de datos está activado de forma predeterminada, pero local Administradores pueden desactivarla utilizando la configuración de directiva de grupo DisableAutomaticSendTracing en Skype para Business Server. Desactivar esta configuración afecta a todos los usuarios de la organización. Para obtener más información, vea [Configurar directivas de arranque de cliente](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies) .
 
 Los usuarios finales no se puede activar o desactivar la recolección de datos.
 
@@ -103,7 +103,7 @@ Datos de informes de error también puede contener información de identificaci�
 
 Informes de errores requieren dos cosas:
 
-- La configuración de directiva de grupo de DisableAutomaticSendTracing está establecida en False en el servidor o en el centro de administración de inquilinos (es decir, el estado predeterminado). Para obtener más información, vea [Configurar directivas de arranque cliente en Skype para Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) .
+- La configuración de directiva de grupo de DisableAutomaticSendTracing está establecida en False en el servidor o en el centro de administración de inquilinos (es decir, el estado predeterminado). Para obtener más información, vea [Configurar directivas de arranque de cliente](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies) .
     
 - Los usuarios finales individualmente participar en de la ficha General (haga clic en el icono del engranaje ![icono de engranaje](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) y, a continuación, se abre el cuadro de diálogo **Opciones** con la ficha **General** que se muestra) en el Skype para clientes empresariales.
     

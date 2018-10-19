@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre qué tipo de acceso telefónico al llamar a planes (planes de marcado de llamar a RTC) están disponibles con Office 365 y cómo elegir uno para la organización.  '
-ms.openlocfilehash: 28e0b3d282cba17061f0573b5bd9efe7e27de786
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+ms.openlocfilehash: a823e3665229eeb1292c4f027bda7d7e8eff79a9
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25502361"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678429"
 ---
 # <a name="what-are-dial-plans"></a>¿Qué son los planes de marcado?
 
@@ -41,7 +41,7 @@ Vea [crear y administrar planes de marcado](create-and-manage-dial-plans.md) par
 
 ## <a name="tenant-dial-plan-scope"></a>Alcance de un plan de marcado inquilino
 
-El alcance de un plan de marcado determina el nivel jerárquico en el que se puede aplicar. Los ámbitos son diferentes que en un Skype para Business Server 2015 implementación local. Los clientes obtienen el plan de marcado adecuado a través de la configuración de abastecimiento provista automáticamente cuando los usuarios se registran en Skype Empresarial Online. Como administrador, usted puede gestionar y asignar niveles de alcance del plan de marcado con PowerShell remoto.
+El alcance de un plan de marcado determina el nivel jerárquico en el que se puede aplicar. Los ámbitos son diferentes de en un Skype para la implementación de Business Server local. Los clientes obtienen el plan de marcado adecuado a través de la configuración de abastecimiento provista automáticamente cuando los usuarios se registran en Skype Empresarial Online. Como administrador, usted puede gestionar y asignar niveles de alcance del plan de marcado con PowerShell remoto.
 
 En Skype para profesionales en línea, hay dos tipos de planes de marcado - servicio de ámbito e inquilino (que es para su organización) con ámbito. Un plan de marcado con ámbito de servicio se define para cada país o región donde está disponible el sistema de teléfono de Office 365. Cada usuario se asigna automáticamente el plan de marcado de país de servicio que coincida con la ubicación de uso de Office 365 asignados al usuario. No se puede cambiar el plan de marcado de país de servicio, pero puede crear planes de marcado con ámbito de inquilino, que aumentan el plan de marcado de país de servicio. Como los clientes se aprovisionan, obtienen un "plan de marcado eficaz", que es una combinación del plan de marcado de país de servicio y el plan de marcado del inquilino con ámbito de forma adecuada. Por lo tanto, no es necesario definir todas las reglas de normalización de los planes de marcado de inquilino ya que es posible que existan en el plan de marcado del país de servicio.
 
@@ -126,14 +126,14 @@ La siguiente tabla muestra reglas de normalización de muestra que se escriben c
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Nombre de la regla** <br/> |**Descripción** <br/> |**Patrón de números** <br/> |**Traducción** <br/> |**Ejemplo** <br/> |
-|4digitExtension  <br/> |Traduce extensiones de 4 dígitos.  <br/> |^ (\\d.{4}) $  <br/> |+1425555$1  <br/> |0100 se traduce a +14255550100  <br/> |
-|5digitExtension  <br/> |Traduce extensiones de 5 dígitos.  <br/> |^ 5 (\\d.{4}) $  <br/> |+1425555$1  <br/> |50100 se traduce a +14255550100  <br/> |
-|7digitcallingRedmond  <br/> |Traduce números de 7 dígitos a números locales de Redmond.  <br/> |^ (\\d.{7}) $  <br/> |+1425$1  <br/> |5550100 se traduce a +14255550100  <br/>|
+|4digitExtension  <br/> |Traduce extensiones de 4 dígitos.  <br/> |^(\\d{4})$  <br/> |+1425555$1  <br/> |0100 se traduce a +14255550100  <br/> |
+|5digitExtension  <br/> |Traduce extensiones de 5 dígitos.  <br/> |^5(\\d{4})$  <br/> |+1425555$1  <br/> |50100 se traduce a +14255550100  <br/> |
+|7digitcallingRedmond  <br/> |Traduce números de 7 dígitos a números locales de Redmond.  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |5550100 se traduce a +14255550100  <br/>|
 |RedmondOperator  <br/> |Traduce 0 a Operador de Redmond.  <br/> |^0$  <br/> |+14255550100  <br/> |0 se traduce a +14255550100  <br/> |
-|RedmondSitePrefix  <br/> |Traduce números con un prefijo de red (6) y el código de sitio de Redmond (222).  <br/> |^ 6222 (\\d.{4}) $  <br/> |+1425555$1  <br/> |62220100 se traduce a +14255550100  <br/> |
-|5digitRange  <br/> |Traduce extensiones de 5 dígitos a partir del rango de dígitos entre 3 y 7 inclusive.  <br/> |^ ([3-7]\\d.{4}) $  <br/> |+ 142555$ 1 <br/> |54567 se traduce a +14255554567  <br/> |
-|PrefixAdded  <br/> |Añade un prefijo de país delante de un número de 9 dígitos con restricciones en el primer y el tercer dígito.  <br/> |^ ([2-9]\\d.\\d. [2-9]\\d.{6}) $  <br/> |1$1  <br/> |4255554567 se traduce a 14255554567  <br/> |
-|No traducción  <br/> |Coinciden 5 dígitos pero no hay traducción.  <br/> |^ (\\d.{5}) $  <br/> |$1  <br/> |34567 se traduce a 34567  <br/> |
+|RedmondSitePrefix  <br/> |Traduce números con un prefijo de red (6) y el código de sitio de Redmond (222).  <br/> |^6222(\\d{4})$  <br/> |+1425555$1  <br/> |62220100 se traduce a +14255550100  <br/> |
+|5digitRange  <br/> |Traduce extensiones de 5 dígitos a partir del rango de dígitos entre 3 y 7 inclusive.  <br/> |^([3-7]\\d{4})$  <br/> |+ 142555$ 1 <br/> |54567 se traduce a +14255554567  <br/> |
+|PrefixAdded  <br/> |Añade un prefijo de país delante de un número de 9 dígitos con restricciones en el primer y el tercer dígito.  <br/> |^([2-9]\\d\\d[2-9]\\d{6})$  <br/> |1$1  <br/> |4255554567 se traduce a 14255554567  <br/> |
+|No traducción  <br/> |Coinciden 5 dígitos pero no hay traducción.  <br/> |^(\\d{5})$  <br/> |$1  <br/> |34567 se traduce a 34567  <br/> |
 
  **Plan de marcado de Redmond basado en las reglas de normalización que se describen anteriormente.**
 

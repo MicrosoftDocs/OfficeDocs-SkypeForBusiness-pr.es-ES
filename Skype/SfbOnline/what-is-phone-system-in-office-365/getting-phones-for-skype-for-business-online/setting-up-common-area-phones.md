@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Obtenga información sobre los pasos de implementación para obtener el firmware correcto, actualizarlo si es necesario, asignar licencias y configurar las opciones de teléfonos de área común.
-ms.openlocfilehash: d741b2ea76b8824ed36252d1d53e3f66e0118401
-ms.sourcegitcommit: cba568455949deab3c47777cb6504b4ed889bdbd
+ms.openlocfilehash: b92cef4234823c53faf6193d2e9e90fe3e5b60f0
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2018
-ms.locfileid: "25552442"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678170"
 ---
 # <a name="set-up-common-area-phones"></a>Configurar teléfonos de área común
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -137,12 +137,12 @@ El teléfono o teléfonos que posea deben tener activado el **Modo de teléfono 
 
 
 > [!NOTE]
-> El sitio de aprovisionamiento de CAP indica que restablecerá la contraseña de la cuenta CAP a una contraseña aleatoria. Tenga en cuenta que la cuenta a la que hace referencia el CAP es la cuenta de Azure Active Directory (AAD). Solo si creó la cuenta en AAD el proceso es directo. Si ha sincronizado un Active Directory local con AAD, asegúrese de tomar nota de las credenciales que está utilizando, las cuales las cambiará el aprovisionamiento de CAP.
+> El sitio de aprovisionamiento de CAP indica que restablecerá la contraseña de la cuenta CAP a una contraseña aleatoria. Tenga en cuenta que la cuenta a la que hace referencia el CAP es la cuenta de Azure Active Directory (AAD). Solo si creó la cuenta en AAD el proceso es directo. Aprovisionamiento de CAP se producirá un error si se han sincronizado una local en Active Directory para AAD y usar un IDP de terceros o de ADFS. En este caso, debe usar una cuenta de Active Directory sólo (por ejemplo, una cuenta con el dominio **onmicrosoft.com** ) Office 365 y Azure CAP el aprovisionamiento para que funcione.
 
 
 ### <a name="related-topics"></a>Temas relacionados
 
-- Obtenga más información sobre teléfonos disponibles en [Implementar teléfonos de Skype Empresarial Online](deploying-skype-for-business-online-phones.md).
-- [Obtener teléfonos con Skype Empresarial Online](getting-phones-for-skype-for-business-online.md)
+- Vea más información sobre teléfonos disponibles en [Implementar teléfonos de Skype for Business Online](deploying-skype-for-business-online-phones.md).
+- [Obtener teléfonos para Skype Empresarial Online](getting-phones-for-skype-for-business-online.md)
 
 

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Información general del uso de Skype para herramientas de telemetría de negocio en línea para supervisar una implementación local en un escenario híbrido.
-ms.openlocfilehash: 2c491a217f02af77a25f362697e6f89aceb9470c
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 523ec9905243eaf6f2a4eb26e3757fb431f21489
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "25030703"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678136"
 ---
 # <a name="plan-call-data-connector"></a>Planeación de conector de datos de llamada
 
@@ -57,18 +57,23 @@ Por supuesto, es posible que desee mantener algunos datos de calidad de llamada 
 
 ## <a name="requirements"></a>Requisitos
 
-Los siguientes requisitos se suponen que ya dispone de Skype para Business Server implementado en una topología admitida.  Para obtener más información sobre la implementación de Skype para Business Server y las topologías admitidas, vea [Conceptos básicos de la topología](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics).
+Los siguientes requisitos se suponen que ya dispone de Skype para Business Server implementado en una topología admitida.  Para obtener más información sobre la implementación de Skype para Business Server y las topologías admitidas, vea [Conceptos básicos de la topología](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics). Para configurar el conector de datos de llamadas, debe:
 
-- Conectividad híbrida. Si ya dispone de Skype para Business Server implementado y que desea habilitar el conector de datos de llamadas, debe asegurarse de que dispone de conectividad híbrida configurar entre los entornos en línea y local. En ocasiones, esto se denomina una configuración de dominio dividido. 
+- Habilitar la conectividad híbrida. Si ya dispone de Skype para Business Server implementado y que desea habilitar el conector de datos de llamadas, debe asegurarse de que dispone de conectividad híbrida configurar entre los entornos en línea y local. En ocasiones, esto se denomina una configuración de dominio dividido. 
 
    Para obtener más información, vea [Planear la conectividad híbrida entre Skype para Business Server y Office 365](plan-hybrid-connectivity.md) y [Configure la conectividad híbrida entre Skype para Business Server y Office 365](configure-hybrid-connectivity.md).
 
-- Para configurar el conector de datos de llamadas, debe autenticarse en el inquilino de Office 365 y asegúrese de que tiene las siguientes funciones habilitadas:
+-  Autenticar a su inquilino Office 365 y asegúrese de que tiene las siguientes funciones habilitadas:
 
    - Skype para el administrador del servidor de negocio 
    - Administrador Global de Office 365 
 
 - Si no lo ha hecho ya, activar en el panel de calidad de llamada tal como se describe en [activar y con el panel de calidad de llamadas para los equipos de Microsoft y Skype para profesionales en línea](/microsoftteams/turning-on-and-using-call-quality-dashboard).
+ 
+- Habilitar el grupo de servidores front-end de supervisión, con bases de datos LCSCdr y QoEMetrics locales. Sin esto, llame al conector de datos no tiene datos de métricas para que funcione con. 
+ 
+> [!IMPORTANT]
+> Conector de datos de llamada no funcionará si no está habilitada la supervisión en el grupo de servidores front-end.
 
 ## <a name="comparison-of-on-premises-and-online-call-quality-dashboard-cqd-reports"></a>Informes de comparación de local y panel de calidad de llamadas en línea (CQD)
 
@@ -84,22 +89,4 @@ Los siguientes requisitos se suponen que ya dispone de Skype para Business Serve
 | Personalización del conjunto de informes <br> (agregar, eliminar, modificar informes) | Sí | Sí |
 | Uso compartido de las métricas de pantalla basados en vídeo | Sí | No |
 | API de datos para el acceso mediante programación <br> a CQD | No | Sí |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+||||

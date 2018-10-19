@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instrucciones para configurar el conector de datos de llamadas, que permite la telemetría de Skype para empresarial local para verse mediante Skype para herramientas profesionales en línea.
-ms.openlocfilehash: 7c64ff1cfb7c300c575fb1b4512c590d1ddb867d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5379b13d9b9962154a8b525109218dcf330336e4
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373302"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678152"
 ---
 # <a name="configure-call-data-connector"></a>Configurar el conector de datos de llamada
 
@@ -27,10 +27,12 @@ En este artículo se describe cómo configurar el conector de datos de llamadas-
 
 Para obtener más información acerca de las ventajas de conector de datos de llamadas y los requisitos previos, como los requisitos de las funciones y la configuración de conectividad híbrida, consulte [Planeación de conector de datos de llamada](plan-call-data-connector.md).
 
-## <a name="enable-monitoring"></a>Habilitar la supervisión 
+## <a name="enable-monitoring"></a>Habilitar la supervisión
+ 
+Debe configurar el registro de datos de llamadas (CDR) y recopilación de datos de calidad de la experiencia (QoE) en el front-end del grupo de servidores de supervisión, con bases de datos LCSCdr y QoEMetrics locales; de lo contrario, el análisis de llamadas y paneles de calidad de llamadas no obtienen datos para que funcione con. Antes Configure conector de datos de llamada, siga los pasos proporcionados en [Deploy supervisión en Skype para Business Server](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) para configurar tanto CDR y QoE, así como supervisión básica.
 
-Debe configurar el registro de datos de llamadas (CDR) y recopilación de datos de calidad de la experiencia (QoE); de lo contrario, el análisis de llamadas y paneles de calidad de llamadas no obtienen información para mostrar. Antes Configure conector de datos de llamada, siga los pasos proporcionados en [Deploy supervisión en Skype para Business Server](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) para configurar CDR y QoE.
-
+> [!IMPORTANT]
+> Conector de datos de llamada no funcionará si no está habilitada la supervisión en el grupo de servidores front-end.
 
 ## <a name="enable-call-data-connector"></a>Habilitar conector de datos de llamada
 
@@ -138,7 +140,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
  Después de llamar al conector de datos está habilitado, puede ver los datos de llamada local en el panel de análisis de llamadas, tal como se describe en el [Análisis de uso de llamadas para solucionar problemas de calidad deficiente](https://docs.microsoft.com/en-us/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality).
 
 
-## <a name="for-more-information"></a>Más información
+## <a name="for-more-information"></a>Para más información
 
 Para obtener más información sobre los cmdlets, puede usar el comando Get-Help desde el Skype para Shell de administración de servidor empresarial. Por ejemplo:
 

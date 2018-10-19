@@ -3,7 +3,7 @@ title: Consideraciones y permisos de las aplicaciones de Microsoft Teams
 author: Lester-Hewett
 ms.author: lehewe
 manager: serdars
-ms.date: 08/20/2018
+ms.date: 10/18/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_PracticalGuidance
@@ -13,12 +13,12 @@ description: Vea qué datos y permisos están solicitando las aplicaciones de su
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3ea7aaa57f6784487d662174554ec0086a87346
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: da1c22852f12bad79413d8b1f57d129be4e0ffcd
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375751"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678405"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Consideraciones y permisos de las aplicaciones de Microsoft Teams
 
@@ -75,18 +75,18 @@ Los permisos que se indican a continuación en mayúscula (por ejemplo, RECEIVE_
 <tfoot>
 <tr><td align="right"><sup>1</sup></td><td colspan="3">Algunos bots solo envían mensajes (POST_MESSAGE_USER). Se & #39; re denominado &quot;sólo de notificación&quot; bots, pero el término no & #39; t hacer referencia a un componente de qué está permitido o no permitido hacer, significa que el no bot & #39; t desea exponer una experiencia familiar. Los equipos utiliza este campo para deshabilitar la funcionalidad de la interfaz de usuario que normalmente se habilitados; el bot & #39; t restringidos en lo que se & #39; s pueda hacer en comparación con bots que exponen una experiencia familiar.</td></tr>
 <tr><td align="right"><sup>2</sup></td><td colspan="3">En este momento en Developer Preview.</td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3">En este momento en Developer Preview. Se rige por la propiedad booleana <code>supportsFiles</code> en el objeto del bot del archivo manifest.json para la aplicación.</td>
+<tr><td align="right"><sup>3</sup></td><td colspan="3">Regirá la <code>supportsFiles</code> propiedad booleana en el objeto de componente en el archivo manifest.json para la aplicación.</td>
 </tr>
 </tfoot>
 </table>
 
 > [!Note]
-> <ul><li>Si un bot tiene su propio inicio de sesión, existe una segunda experiencia de consentimiento (distinta) la primera vez que el usuario inicia sesión.</li><li>En este momento, los permisos de Azure AD asociados con algunas de las funcionalidades dentro de la aplicación de Teams (bot, ficha, conector o extensión de mensajería) son completamente independientes de los permisos de Teams que se enumeran aquí.</li></ul>
+> <ul><li>Si un componente tiene su propio inicio de sesión, hay un segundo — diferentes: consentimiento experiencia la primera vez que el usuario inicia sesión.</li><li>Actualmente, los permisos de Azure AD asociados con cualquiera de las funciones dentro de una aplicación de los equipos (bot, ficha, conector o extensión de mensajería) son completamente independientes de los permisos de los equipos que se muestran aquí.</li></ul>
 
 
 ## <a name="tabs"></a>Fichas
 
-Una ficha es un sitio web que se ejecuta dentro de Teams.
+Una pestaña es un sitio Web que se ejecuta dentro de los equipos.
 
 <table>
   <tr>
@@ -96,14 +96,14 @@ Una ficha es un sitio web que se ejecuta dentro de Teams.
   </tr>
   <tr>
     <td valign="top">SEND_AND_RECEIVE_WEB_DATA</td>
-    <td valign="top">Ninguno (por ahora).</td>
-    <td valign="top"><ul><li>El perfil de riesgo de una ficha es prácticamente el mismo que el de ese mismo sitio web cuando se ejecuta en una ficha de navegador. </li><li>Una ficha también obtiene el contexto en el que se & #39; s que se ejecuta, incluidos el nombre de inicio de sesión y el UPN del usuario actual, el identificador del objeto de AD de Azure para el usuario actual, el identificador de grupo de Office 365 (equipo) en el que reside, el identificador de inquilino y la configuración regional actual del usuario. Sin embargo asignar estos identificadores para un usuario & #39; información s, la ficha tendría que hacer que el usuario inicie sesión en Azure AD.</li></ul></td>
+    <td valign="top">Ninguno (actualmente).</td>
+    <td valign="top"><ul><li>El perfil de riesgo de una ficha es casi idéntico al mismo sitio Web que se ejecuta en una ficha de explorador. </li><li>Una ficha también obtiene el contexto en el que se & #39; s que se ejecuta, incluidos el nombre de inicio de sesión y el UPN del usuario actual, el identificador del objeto de AD de Azure para el usuario actual, el identificador de grupo de Office 365 (equipo) en el que reside, el identificador de inquilino y la configuración regional actual del usuario. Sin embargo asignar estos identificadores para un usuario & #39; información s, la ficha tendría que hacer que el usuario inicie sesión en Azure AD.</li></ul></td>
   </tr>
   </table>
 
 ## <a name="connectors"></a>Conectores
 
-Un conector publica mensajes en un canal cuando se producen eventos en un sistema externo.
+Un conector de entradas de mensajes en un canal cuando se producen eventos en un sistema externo.
 
   <table>
   <tr>
@@ -113,18 +113,18 @@ Un conector publica mensajes en un canal cuando se producen eventos en un sistem
   </tr>
   <tr>
     <td valign="top">POST_MESSAGE_CHANNEL</td>
-    <td valign="top">REPLYTO_CONNECTOR_MESSAGE. Determinados conectores admiten <em>mensajes que permiten ejecutar acciones</em>, de manera que los usuarios pueden publicar respuestas dirigidas en el mensaje del conector; por ejemplo, agregar una respuesta a un problema de GitHub o agregar una fecha a una tarjeta de Trello.</td>
-    <td valign="top"><ul><li>El sistema que entradas de conector mensajes & #39; t saber con quién se & #39; s exponer un elemento en o que recibe los mensajes: no se revela ninguna información acerca del destinatario. (Microsoft es el destinatario real, no el inquilino; Microsoft hace realmente la publicación en el canal).</li><li>Ningún dato abandona la red corporativa cuando los mensajes del conector se publican en un canal.</li><li>Los conectores que admiten los mensajes que se pueden procesar (permiso REPLYTO_CONNECTOR_MESSAGE) también don & #39; t vea IP dirección y extraerá la información; Esta información se envía a Microsoft y, a continuación, se enruta a los extremos HTTP que se registraron anteriormente con Microsoft en el portal de conectores.</li><li>Cada vez que se configura un conector para un canal, se crea una URL exclusiva para esa instancia del conector. Si se elimina esa instancia del conector, la dirección URL ya no se podrá usar.</li><li>Conector mensajes can & #39; t contienen datos adjuntos del archivo.</li><li>La dirección URL de la instancia del conector se debe tratar como secreta/confidencial: cualquier persona que tenga esa URL puede hacer publicaciones en ella, como una dirección de correo electrónico. Por lo tanto, no existe & #39; s algunos riesgos de correo no deseado o vínculos a sitios de suplantación de identidad o malware. Si esto sucede, los propietarios de los equipos pueden eliminar la instancia del conector.</li><li>Si el servicio que envía los mensajes del conector estuviera en peligro y comenzara a enviar vínculos a spam/suplantación de identidad/malware, un administrador de inquilino podría evitar que se crearan nuevas instancias del conector y que Microsoft lo bloqueara de forma central.</li></ul></td>
+    <td valign="top">REPLYTO_CONNECTOR_MESSAGE. Ciertos conectores admiten <em>los mensajes que se pueden procesar</em>, que permiten a los usuarios registrar respuestas de destinadas en el mensaje de conector, por ejemplo agregando una respuesta a un problema de depósito o una fecha en una tarjeta de Trello.</td>
+    <td valign="top"><ul><li>El sistema que entradas de conector mensajes & #39; t saber con quién se & #39; s exponer un elemento en o que recibe los mensajes: no se revela ninguna información acerca del destinatario. (Microsoft es el destinatario real, no el inquilino; Microsoft lo hace la entrada real en el canal.)</li><li>No hay datos salen de la red corporativa cuando se registran los mensajes de conector en un canal.</li><li>Los conectores que admiten los mensajes que se pueden procesar (permiso REPLYTO_CONNECTOR_MESSAGE) también don & #39; t vea IP dirección y extraerá la información; Esta información se envía a Microsoft y, a continuación, se enruta a los extremos HTTP que se registraron anteriormente con Microsoft en el portal de conectores.</li><li>Cada vez que un conector está configurado para un canal, se crea una dirección URL única para esa instancia del conector. Si esa instancia del conector se elimina, ya no se puede usar la dirección URL.</li><li>Conector mensajes can & #39; t contienen datos adjuntos del archivo.</li><li>La instancia del conector dirección URL debe tratarse como secreto/confidencial: cualquier persona que tiene que puede registrar la dirección URL a él, como una dirección de correo electrónico. Por lo tanto, no existe & #39; s algunos riesgos de correo no deseado o vínculos a sitios de suplantación de identidad o malware. Si estaban a que se produzca, los propietarios de equipo pueden eliminar la instancia del conector.</li><li>Si el servicio que envía los mensajes de conector fueron a convertirse en riesgo y empezar a enviar vínculos de correo electrónico no deseado y suplantación de identidad y malware, un administrador de inquilinos puede impedir nuevas instancias de conector que se está creando y puede bloquear Microsoft centralmente.</li></ul></td>
   </tr>
 </table>
 
 > [!Note]
-> Por ahora, no es posible saber qué conectores admiten mensajes que permiten realizar acciones (permiso REPLYTO_CONNECTOR_MESSAGE).
+> No es actualmente posible saber qué conectores admiten los mensajes que se pueden procesar (permiso REPLYTO_CONNECTOR_MESSAGE).
 
 
-## <a name="outgoing-webhooks"></a>Webhooks salientes
+## <a name="outgoing-webhooks"></a>Webhooks saliente
 
-Los _webhooks salientes_ los crean los propietarios de equipo o los miembros del equipo sobre la marcha si el inquilino tiene habilitada la instalación de prueba. No son funcionalidades de las aplicaciones de Teams; esta información se incluye para ser precisos.
+_Webhooks saliente_ se crean sobre la marcha por los propietarios del equipo o los miembros del equipo si sideloading está habilitada para un inquilino. No son las capacidades de las aplicaciones de los equipos; Esta información se incluye para más precisión.
 
 <table>
   <tr>
@@ -133,8 +133,8 @@ Los _webhooks salientes_ los crean los propietarios de equipo o los miembros del
     <th width="50%">Consideraciones</th>
   </tr>
     <tr>
-    <td valign="top">RECEIVE_MESSAGE, REPLYTO_MESSAGE. Puede recibir mensajes de los usuarios y responder.</td>
+    <td valign="top">RECEIVE_MESSAGE, REPLYTO_MESSAGE. Puede recibir mensajes de los usuarios y responder a ellos.</td>
     <td valign="top">Ninguno</td>
-    <td valign="top"><ul><li>Los webhooks salientes son muy parecidos a los bots pero con menos privilegios. Se tienen que mencionar de manera explícita, al igual que los bots.</li><li>Cuando se registra un webhook saliente, se genera un <em>secreto</em>, que permite al webhook saliente verificar que el remitente sea Microsoft Teams frente a un atacante malintencionado. Este secreto debe seguir siendo un secreto; cualquiera que tenga acceso a él puede suplantar a Microsoft Teams. Si el secreto está en peligro, el webhook saliente se puede eliminar y volver a crear, y se generará un secreto nuevo.</li><li>Aunque se & #39; s posibles crear una webhook saliente que no & #39; t validar el secreto, no se recomienda.</li><li>Distinto de recibir y responder a mensajes, saliente webhooks can & #39; t hacer mucho: can & #39; t proactivamente enviar mensajes, pueden & #39; t enviar o recibir archivos, pueden & #39; t hacer nada más que puede hacer es bots recepción y responder a mensajes.</li></ul></td>
+    <td valign="top"><ul><li>Webhooks salientes son similares a bots pero tiene menos privilegios. Debe ser explícitamente se ha mencionado, al igual que de bots.</li><li>Cuando se registra un webhook saliente, se genera un <em>secreto</em> , lo que permite el webhook saliente comprobar que el remitente es Microsoft Teams en contraposición a un atacante malintencionado. Este secreto debe permanecer un secreto; Microsoft Teams puede suplantar a cualquier persona que tiene acceso a ella. Si el secreto se ve comprometido, puede eliminarse y vuelve a crear la webhook saliente, y se generará un nuevo secreto.</li><li>Aunque se & #39; s posibles crear una webhook saliente que no & #39; t validar el secreto, no se recomienda.</li><li>Distinto de recibir y responder a mensajes, saliente webhooks can & #39; t hacer mucho: can & #39; t proactivamente enviar mensajes, pueden & #39; t enviar o recibir archivos, pueden & #39; t hacer nada más que puede hacer es bots recepción y responder a mensajes.</li></ul></td>
   </tr>
 </table>
