@@ -4,17 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: Lea este tema para obtener más información acerca de cómo implementar el sistema de sala de Skype en un entorno que tiene varias versiones de Skype para Business Server y Lync Server.
-ms.openlocfilehash: 24015d85ef82b3a175564f92504d7c0ca46e9d54
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fef5e3e0a64fd1d533a53586b470584421a165ea
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20982751"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699724"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Consideraciones acerca de la migración del Sistema de salas de Skype
  
@@ -22,7 +23,7 @@ Lea este tema para obtener más información acerca de cómo implementar el sist
   
 ## <a name="migration-considerations"></a>Consideraciones acerca de la migración
 
-En esta sección se proporciona instrucciones si va a implementar el sistema de sala de Skype en un entorno de grupo de varios servidores que incluya las diferentes versiones de Skype para Business Server, Lync Server u Office Communications Server 2007 R2. 
+En esta sección se proporciona instrucciones si va a implementar el sistema de sala de Skype en un entorno de grupo de varios servidores que incluya las diferentes versiones de Skype para Business Server o Lync Server. 
   
 El componente Replicador de usuario (UR) de Lync Server obtiene objetos de usuario de Active Directory y los coloca en la base de datos de SQL Server del back-end de Lync Server. Sólo el Replicador de usuarios en Lync Server 2013 está al tanto de objetos del sistema de salas de Skype. En anteriores versiones de Lync Server y Office Communications, el replicador de usuario no detecta los atributos de Active Directory que designan los objetos LRS y, por consiguiente, no los reconoce. 
   

@@ -4,20 +4,21 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: Lea este tema para obtener información sobre cómo implementar el sistema de sala de Skype en un entorno híbrido.
-ms.openlocfilehash: 4e73b182f7e957f6f8a45e2ba0ccaa113a96411f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 40cbcd7cd95b6a5dc7542f913fe7599bedc7eb85
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375283"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699675"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Implementaciones híbridas del Sistema de salas de Skype
- 
+
 Lea este tema para obtener información sobre cómo implementar el sistema de sala de Skype en un entorno híbrido.
   
 ## <a name="hybrid-deployments"></a>Implementaciones híbridas

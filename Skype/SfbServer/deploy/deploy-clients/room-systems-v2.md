@@ -4,6 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este artículo para obtener más información sobre la implementación de sistemas de salón de Skype v2.
-ms.openlocfilehash: 2aac9e0701372fd6f0fdfd9035dca21fbaef1c9f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: dac4929338ded6fdb3b7af1dadfb3b1ce5675b97
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890960"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699633"
 ---
 # <a name="deployment-overview"></a>Introducción general a la implementación
 
@@ -118,7 +119,7 @@ Planeación de configuración e implementación trata las siguientes áreas clav
 -   Instalación de software de dispositivo
 -   Implementación de dispositivos
 -   Aplicación de sistemas de salón de Skype v2 y configuración de dispositivo periférico
--   Las pruebas
+-    Pruebas
 -   Administración de activos
 
 ### <a name="account-provisioning"></a>Aprovisionamiento de cuentas 
@@ -193,7 +194,7 @@ Puede usar [PowerShell remoto](../../manage/skype-room-systems-v2/room-systems-v
 | ![](../../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decidir si aquí configurar cada sistema v2 de Skype salón sistemas manualmente o usar un archivo XML central (una por dispositivo v2 de sistemas de salón de Skype).</li></ul>| 
 | ![](../../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Definir el enfoque de administración remota.</li></ul>| 
 
-### <a name="testing"></a>Las pruebas
+### <a name="testing"></a> Pruebas
 
 Después de que se ha implementado el sistema de sistemas de salón de Skype v2, debe ponerlo a prueba. Compruebe que funcionan las funciones que aparecen en la [Ayuda de v2 de Skype salón de sistemas](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) en el dispositivo implementado. Se recomienda encarecidamente que el equipo de implementación Compruebe que está iniciando la v2 de sistemas de salón de Skype al conjunto de aplicaciones de administración de operaciones de Microsoft (si se utiliza). También es importante que realice un número de llamadas de prueba y las reuniones para comprobar la calidad. Para obtener más información, consulte esta [lista de comprobación de implementación útiles](console.md#skype-room-systems-v2-deployment-checklist). 
 

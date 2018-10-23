@@ -3,18 +3,19 @@ title: Directiva de conferencias para las cuentas del Sistema de salas de Skype
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.reviewer: davgroom
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Lea este tema para obtener información acerca de cómo asignar directivas de conferencias para cuentas del Sistema de salas de Skype.
-ms.openlocfilehash: a9eb05c8e29a3db216bc74e5e016c2c6a8413a33
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a56bf9f6b8ba70a4f9ec1f28e84dfa67b1e71aa9
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973426"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699576"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Directiva de conferencias para las cuentas del Sistema de salas de Skype
  
@@ -35,7 +36,7 @@ La directiva de conferencia asignada a la cuenta del sistema de salas de Skype d
 |AllowUserToScheduleMeetingsWithAppSharing  <br/> |TRUE  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
 |AllowNonEnterpriseVoiceUsersToDialOut  <br/> |FALSE  <br/> |Depende de si la cuenta es Enterprise Voice (EV) habilitado (vea las cuentas del sistema de salas de habilitar Skype para Skype para sección empresarial)  <br/> |
 |AllowAnonymousUsersToDialOut  <br/> |FALSE  <br/> |Depende de si la cuenta está habilitada para telefonía IP empresarial (EV)  <br/> |
-|Opción AllowAnonymousParticipantsInMeetings  <br/> |TRUE  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
+|AllowAnonymousParticipantsInMeetings  <br/> |TRUE  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
 |AllowExternalUsersToSaveContent  <br/> |TRUE  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
 |AllowExternalUserControl  <br/> |FALSE  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
 |AllowExternalUsersToRecordMeeting  <br/> |FALSE  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |

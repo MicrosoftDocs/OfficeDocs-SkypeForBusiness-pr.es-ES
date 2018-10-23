@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3abecace4a15a85e4a0f8b895b44cd799b3c794f
-ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
+ms.openlocfilehash: b02fd487b7a5ef6ab7422791487a1c9cb3fa5795
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25358896"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699313"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Información general de los equipos y canales en Microsoft Teams
 =================================================
@@ -41,9 +41,11 @@ Los equipos están diseñados para reunir grupos de personas que trabajan juntos
 <a name="membership-roles-and-settings"></a>Configuración, Roles y pertenencia
 ------------------------------
 
-**Pertenencia a equipos**: Cuando Microsoft Teams se activa para toda la organización, los propietarios de equipo designados tienen la capacidad de invitar a cualquier empleado con el que trabajen para que se una al equipo. Con Microsoft Teams, los propietarios de equipo pueden agregar con facilidad personas de la organización por su nombre. En función de cuál sea la configuración de su organización, podrá agregar a sus equipos los invitados que sean miembros del equipo, pero que no pertenezcan a la organización. Vea [Acceso de invitado a Microsoft Teams](guest-access.md) para obtener más información. Los propietarios de equipo también pueden crear un equipo basado en un grupo de Office 365 existente. Los cambios que se realicen en el grupo se sincronizarán con Microsoft Teams automáticamente. Al crear un equipo basado en un grupo existente de Office 365, no solo se simplifica el proceso para invitar y administrar miembros, sino que también se sincronizan los archivos de grupo dentro de Microsoft Teams.
+**Pertenencia a equipos**: Cuando Microsoft Teams se activa para toda la organización, los propietarios de equipo designados tienen la capacidad de invitar a cualquier empleado con el que trabajen para que se una al equipo. Con Microsoft Teams, los propietarios de equipo pueden agregar con facilidad personas de la organización por su nombre. En función de cuál sea la configuración de su organización, podrá agregar a sus equipos los invitados que sean miembros del equipo, pero que no pertenezcan a la organización. Vea [Acceso de invitado a Microsoft Teams](guest-access.md) para obtener más información. 
 
-**Roles de equipo**: Hay dos roles principales en Microsoft Teams: un propietario de equipo, que es la persona que crea el equipo, y los miembros del equipo, que son las personas a las que se invita a unirse al equipo. Los propietarios de equipo pueden convertir en copropietario a cualquier miembro del equipo cuando le inviten o en cualquier otro momento después de haberse unido al equipo. Al tener varios propietarios de equipo, puede compartir las responsabilidades en la administración de las configuraciones y la pertenencia al equipo, incluidas las invitaciones.   
+Los propietarios de equipo también pueden crear un equipo basado en un grupo de Office 365 existente. Los cambios que se realicen en el grupo se sincronizarán con Microsoft Teams automáticamente. Al crear un equipo basado en un grupo existente de Office 365, no solo se simplifica el proceso para invitar y administrar miembros, sino que también se sincronizan los archivos de grupo dentro de Microsoft Teams.
+
+**Roles de equipo**: Hay dos roles principales en Microsoft Teams: un propietario de equipo, que es la persona que crea el equipo, y los miembros del equipo, que son las personas a las que se invita a unirse al equipo. Los propietarios de equipo pueden convertir en copropietario a cualquier miembro del equipo cuando le inviten o en cualquier otro momento después de haberse unido al equipo. Al tener varios propietarios de equipo, puede compartir las responsabilidades en la administración de las configuraciones y la pertenencia al equipo, incluidas las invitaciones.
 
 **Configuración del equipo**: Los propietarios de equipo pueden administrar la configuración de todo el equipo directamente en Microsoft Teams. En la configuración se incluye la capacidad de agregar una imagen del equipo, establecer permisos en todos los miembros del equipo para crear canales, agregar fichas y conectores, @mencionar a todo el equipo o el canal, y usar archivos GIF, adhesivos y memes. 
 

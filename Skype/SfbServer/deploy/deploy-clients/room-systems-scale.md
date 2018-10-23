@@ -5,18 +5,19 @@ author: Turgayo
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
+ms.reviewer: Turgayo
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este tema para obtener más información sobre la implementación de sistemas de salón de Skype v2 en las implementaciones de gran escala.
-ms.openlocfilehash: c84517ba5ceb7eea582b379c8cabe5014dde43d5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 536530fa7836389d8c621f7c81287bfb564f024d
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372755"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699554"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Implementación de sistemas de salón de Skype v2 mediante System Center Configuration Manager
 
@@ -680,7 +681,7 @@ Una vez completada la secuencias de tareas de System Center Configuration Manage
 
     5.  Seleccione **configuración de inicio**.
 
-    6.  Realice una de las acciones siguientes:
+    6.  Siga uno de estos pasos:
 
         -   Seleccione **inicio PXE**y arrástrelo a la parte superior de la lista. Como alternativa, puede pasar izquierda en el adaptador de red para iniciar inmediatamente el dispositivo. Esto no afecta al orden de arranque.
         -   Seleccione la unidad flash USB que contiene el medio de arranque.

@@ -3,18 +3,19 @@ title: Personalizar la experiencia del cliente de Mac en Skype Empresarial
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.reviewer: PhillipGarding
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: En este artículo se describen las preferencias de cliente y los valores predeterminados disponibles para el cliente de Skype Empresarial en Mac, y cómo se editan desde fuera de la aplicación.
-ms.openlocfilehash: ae7f3a5c63a77820aba24e93d820ae2eff9176ad
-ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
+ms.openlocfilehash: dd2f9b1d69e24f17cf76f33896804e5f50cd0ad3
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22912846"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699298"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personalizar la experiencia del cliente de Mac en Skype Empresarial
  
@@ -24,7 +25,7 @@ En este artículo se describen las preferencias de cliente y los valores predete
 
 Ciertas características y comportamientos que están disponibles para Skype para la empresa en los clientes de Mac se determinan mediante la configuración de las preferencias en el cliente. El Skype para la empresa en las preferencias de Mac se encuentran en un archivo ubicado en equipos Mac que ha instalado la Skype para cliente de negocio que se encuentra en la ruta de acceso siguiente: 
   
- **~/Library/Containers/com.Microsoft.SkypeForBusiness/Data/Library/Preferences/com.Microsoft.SkypeForBusiness.plist**
+ **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
 Para establecer estas preferencias, llegar a un mensaje de terminal en Mac del cliente y como sea necesario especifique valores predeterminados escritura com.microsoft.SkypeForBusiness clave comandos mediante las claves de preferencia que se describen en la siguiente tabla.
   
@@ -43,7 +44,7 @@ Para establecer estas preferencias, llegar a un mensaje de terminal en Mac del c
 |autoAcceptTimeout    |Número    |300 (predeterminado)    |Tiempo de espera de aceptación automática para usuarios sin historial de conversaciones del servidor.    |
 |warnWhenUnknownLocationForE911    |Booleano    |0 = Deshabilitado  <br/> 1 = Habilitado    |Advierte al usuario cuando se marca un número de emergencia desde una ubicación desconocida.    |
 |sipAddress    |Cadena    ||La dirección SIP (correo electrónico) se usa para el inicio de sesión de Skype para la empresa.    |
-|nombre de usuario    |Cadena    ||UPN (nombre de usuario) que se usa para el inicio de sesión de Skype para la empresa.    |
+|userName    |Cadena    ||UPN (nombre de usuario) que se usa para el inicio de sesión de Skype para la empresa.    |
 |userNameInAdvancedOnly    |Booleano    |0 = Mostrar el campo nombre de usuario en la pantalla de inicio de sesión principal y en el cuadro de diálogo Propiedades avanzadas  <br/> 1 = mostrar el campo nombre de usuario sólo en el cuadro de diálogo Propiedades avanzadas (valor predeterminado)    |Especificar dónde se muestra el campo nombre de usuario durante el inicio de sesión.    |
    
 ### <a name="usage-examples"></a>Ejemplos de uso
