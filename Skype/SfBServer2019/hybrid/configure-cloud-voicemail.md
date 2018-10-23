@@ -10,17 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instrucciones de implementación de voz basados en la nube para los usuarios alojados en Skype para Business Server.
-ms.openlocfilehash: 9cc990cbaecfea74b269809d9e31588d61eee93c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 80f154a7fa8e34b7912ebf5762e5d0390e21fd22
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027819"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696187"
 ---
 # <a name="configure-cloud-voicemail-service"></a>Configurar el servicio de correo de voz en la nube
-
-
-[!INCLUDE [disclaimer](../disclaimer.md)]
 
 ## <a name="overview"></a>Información general 
 En este artículo se describe cómo configurar el servicio de correo de voz de Microsoft en la nube para su Skype para los usuarios empresariales locales.  

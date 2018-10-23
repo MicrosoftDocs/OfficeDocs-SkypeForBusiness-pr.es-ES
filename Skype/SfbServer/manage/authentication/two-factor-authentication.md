@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 'Resumen: Administrar la autenticación de dos factores en Skype para Business Server.'
-ms.openlocfilehash: f6ea9eb228a0c36df3c1ab9318f766a68a370cad
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a9ebeaa5f8f012d66fb62357e8378010d0a74865
+ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002860"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25692743"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Administrar la autenticación de dos factores en Skype para Business Server
  
@@ -37,8 +37,8 @@ Los clientes se recomienda encarecidamente implementar la autenticación en dos 
   
 |**Tipo de configuración**|**Tipo de servicio**|**Función de servidor**|**Tipo de autenticación para deshabilitar**|
 |:-----|:-----|:-----|:-----|
-|Servicio web  <br/> |Servidor Web  <br/> |Director  <br/> |Kerberos, NTLM y certificado  <br/> |
-|Servicio web  <br/> |Servidor Web  <br/> |Front-end  <br/> |Kerberos, NTLM y certificado  <br/> |
+|Servicio web  <br/> |WebServer  <br/> |Director  <br/> |Kerberos, NTLM y certificado  <br/> |
+|Servicio web  <br/> |WebServer  <br/> |Front-end  <br/> |Kerberos, NTLM y certificado  <br/> |
 |Proxy  <br/> |EdgeServer  <br/> |Perimetral  <br/> |Kerberos y NTLM  <br/> |
 |Proxy  <br/> |Registrador  <br/> |Front-end  <br/> |Kerberos y NTLM  <br/> |
    
@@ -100,7 +100,7 @@ La configuración del registro de **SavePassword** debe deshabilitarse cuando Sk
 
 AD FS 2.0 proporciona una característica que se conoce como detección de reproducción de tokens, con la cual varias solicitudes de tokens que usan el mismo token se pueden detectar y descartar. Cuando esta característica está habilitada, la detección de reproducción de tokens protege la integridad de las solicitudes de autenticación en el perfil pasivo de la federación WS y el perfil de SAML WebSSO asegurándose de que el mismo token nunca se use más de una vez.
   
-Esta característica necesita habilitarse en situaciones donde la seguridad es extremadamente preocupante como cuando se usan quioscos. Para obtener más información acerca de la detección de reproducción de tokens, vea [Procedimientos recomendados para proteger planeación e implementación de AD FS 2.0](https://go.microsoft.com/fwlink/p/?LinkId=309215).
+Esta característica necesita habilitarse en situaciones donde la seguridad es extremadamente preocupante como cuando se usan quioscos. Para más información sobre la detección de reproducción de tokens, vea [Procedimientos recomendados para planear e implementar AD FS 2.0 de forma segura](https://go.microsoft.com/fwlink/p/?LinkId=309215).
   
 ## <a name="external-user-access"></a>Acceso de usuarios externos
 
@@ -108,5 +108,5 @@ En estos temas no se trata la configuración de un Proxy de AD FS o el Proxy inv
   
 ## <a name="see-also"></a>Vea también
 
-[Configuración de autenticación de dos factores en Skype para Business Server](configure.md)
+[Configuración de autenticación de dos factores en Skype para Business Server](configure-two-factor.md)
   

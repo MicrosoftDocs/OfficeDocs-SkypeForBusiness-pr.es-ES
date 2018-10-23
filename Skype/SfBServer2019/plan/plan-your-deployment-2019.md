@@ -14,19 +14,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Resumen: Explore estos vínculos a información sobre cómo desarrollar conceptuales, lógicos y físicos diseños para configurar Skype para las características, servidores y topologías de Business Server 2019.'
-ms.openlocfilehash: e7f104de66782d2aafd5947fbc3bca7badfd17c1
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 85b8dc6b4326a565e40331d4ba89cbed1d4edb59
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "25030780"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696194"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>Plan para su Skype para la implementación empresarial Server 2019
  
 **Resumen:** Explore estos vínculos a información sobre cómo desarrollar conceptuales, lógicos y físicos diseños para configurar Skype para las características, servidores y topologías de Business Server 2019.
   
-[!INCLUDE [disclaimer](../disclaimer.md)]
-
 Skype para Business Server ofrece mensajería instantánea (IM), presencia, conferencias, vídeo y soluciones de telefonía que pueden satisfacer los requisitos de colaboración de la empresa. Este tema proporciona vínculos a información acerca de cómo planear un Skype correcta para la implementación de Business Server. 
   
 Los autores de los artículos los actualizan de forma continua a medida que se encuentra disponible nueva información y que los usuarios proporcionan comentarios. Esta página se actualiza con frecuencia, de modo que compruébela con regularidad.
@@ -60,6 +58,6 @@ Los recursos siguientes sobre cómo planear Skype para Business Server están di
   
 ||**Contenido**|**Descripción**|
 |:--- |:--- |:--- |
-|![Icono de DMC](https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg)|[Skype para Business Server para profesionales de TI](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |Visite los centros de recursos y docs.microsoft.com para acceso a vídeos, sitios de la Comunidad, documentación, descargas y más.    |
-|![Icono de contenido de desarrollador](https://docs.microsoft.com/en-us/office/media/icons/developer-blue.svg)|[Plataforma de desarrollador de Skype](https://go.microsoft.com/fwlink/?LinkId=619775)   |Busque recursos para desarrolladores Skype para Business Server, incluidos los SDK, aprendizaje y ejemplos de código.    |
+|![Icono de DMC](https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg)|[Skype Empresarial Server para profesionales de TI](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |Visite los centros de recursos y docs.microsoft.com para acceso a vídeos, sitios de la Comunidad, documentación, descargas y más.    |
+|![Icono de contenido de desarrollador](https://docs.microsoft.com/en-us/office/media/icons/developer-blue.svg)|[Plataforma para desarrolladores de Skype](https://go.microsoft.com/fwlink/?LinkId=619775)   |Busque recursos para desarrolladores Skype para Business Server, incluidos los SDK, aprendizaje y ejemplos de código.    |
 |![Icono de noticias, blogs, etc.](https://docs.microsoft.com/en-us/office/media/icons/blog-site-blue.svg)|[Adopción y administración de cambios](https://go.microsoft.com/fwlink/p/?LinkId=532796) [Blogs de Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) [Blog técnico de Office 365](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) [Blog del equipo de Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818)            |Manténgase informado con las noticias de los equipos que crean y documento Skype para Business Server.    |

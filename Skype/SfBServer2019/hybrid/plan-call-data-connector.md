@@ -9,16 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Información general del uso de Skype para herramientas de telemetría de negocio en línea para supervisar una implementación local en un escenario híbrido.
-ms.openlocfilehash: 523ec9905243eaf6f2a4eb26e3757fb431f21489
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: e9039d3865e3baf5740f4f7489b1a7cfec6dea98
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678136"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696215"
 ---
 # <a name="plan-call-data-connector"></a>Planeación de conector de datos de llamada
-
-[!INCLUDE [disclaimer](../disclaimer.md)]
 
 ## <a name="overview"></a>Información general
 Este tema describe las ventajas, las consideraciones de planeación y requisitos para la implementación de Skype para el conector de datos de llamadas de Business Server. Para obtener más información acerca de cómo configurar el conector de datos de llamadas, vea [Configuración de conector de datos de llamada](configure-call-data-connector.md).

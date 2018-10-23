@@ -1,5 +1,5 @@
 ---
-title: Calculadora de planeamiento de capacidad de Skype Empresarial Server 2015
+title: Skype para Calculadora de planeación de la capacidad de servidor empresarial
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/1/2018
@@ -10,24 +10,29 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: 'Resumen: cómo usar la herramienta de calculadora de capacidad.'
-ms.openlocfilehash: 6ce37865035b22a91841e98c1f3a75d6da0cb8d2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: bb17bc7b024900627318dd64b41249c21ff8488b
+ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374913"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25692771"
 ---
-# <a name="skype-for-business-server-2015-capacity-planning-calculator"></a>Calculadora de planeamiento de capacidad de Skype Empresarial Server 2015
+# <a name="skype-for-business-server-capacity-planning-calculator"></a>Skype para Calculadora de planeación de la capacidad de servidor empresarial
  
 **Resumen:** cómo usar la herramienta de calculadora de capacidad.
+
+> [!NOTE]
+> En este artículo se hace referencia a Skype para descargas de Business Server 2015, pero se aplica al:
+> - Skype para Business Server 2019.
+> - Skype para Business Server 2015.
   
-[Skype para Calculadora de capacidad de Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=51196) aumenta la [Skype para la herramienta de planeación de 2015 empresarial](https://www.microsoft.com/en-us/download/details.aspx?id=50357) y la documentación de [planeación para su Skype para la implementación empresarial Server 2015](https://technet.microsoft.com/en-us/library/dn951427). Use la calculadora después de que haya revisado la guía y haya creado una topología recomendada mediante el uso de la Herramienta de planeación.
+[Skype para Calculadora de capacidad de Business Server](https://www.microsoft.com/en-us/download/details.aspx?id=51196) aumenta la [Skype para la herramienta de planeación de negocio](https://www.microsoft.com/en-us/download/details.aspx?id=50357) y la documentación de [planeación para su Skype para la implementación de Business Server](https://technet.microsoft.com/en-us/library/dn951427). Use la calculadora después de que haya revisado la guía y haya creado una topología recomendada mediante el uso de la Herramienta de planeación.
   
-El Skype para ayuda a la calculadora de capacidad de Business Server 2015 se determinar los requisitos de servidor en función del número de usuarios y las herramientas de comunicación que usa la organización. Tras determinar el perfil de usuario y las funciones que desea habilitar para los usuarios, use la calculadora para determinar el número de servidores, la memoria y el ancho que necesitará. Esta versión de la calculadora no ofrece instrucciones sobre los requisitos de I/O de disco.
+El Skype para ayuda a la calculadora de capacidad de servidor empresarial se determinar los requisitos de servidor en función del número de usuarios y las herramientas de comunicación que usa la organización. Tras determinar el perfil de usuario y las funciones que desea habilitar para los usuarios, use la calculadora para determinar el número de servidores, la memoria y el ancho que necesitará. Esta versión de la calculadora no ofrece instrucciones sobre los requisitos de I/O de disco.
   
 Para sacar el máximo partido de la calculadora necesitará información precisa y detallada sobre el perfil de usuario específico. Por ejemplo, datos como el porcentaje de usuarios habilitados para voz, la media de llamadas por usuario por hora, la duración de las llamadas y el porcentaje de usuarios simultáneos en las conferencias pueden suponer una gran diferencia en cuanto a requisitos de servidor. La precisión de las recomendaciones de la calculadora dependerá de la precisión de la información que se le suministre.
   
-Una vez que ha usado la herramienta de planeación y la calculadora de capacidad de planeación, debe simular la carga propuesta y planeada para asegurarse de que se va a aprovisionar adecuadamente Skype para Business Server 2015. Para realizar pruebas en una carga simulada de esfuerzo, use el [Skype para Business Server 2015 Stress and Performance Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50367) documentadas en [Skype para Business Server 2015 Stress and Performance Tool](https://technet.microsoft.com/en-us/library/mt631400.aspx).
+Una vez que ha usado la herramienta de planeación y la calculadora de capacidad de planeación, debe simular la carga propuesta y planeada para asegurarse de que se va a aprovisionar adecuadamente Skype para Business Server. Para realizar pruebas en una carga simulada de esfuerzo, use el [Skype para Business Server Stress and Performance Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50367) documentadas en [Skype para Business Server Stress and Performance Tool](https://technet.microsoft.com/en-us/library/mt631400.aspx).
   
 ## <a name="using-the-capacity-calculator"></a>Uso de la calculadora de capacidad
 
@@ -85,7 +90,7 @@ Cuando se especifique toda la información necesaria, la calculadora de capacida
     
 Las celdas verdes contienen recomendaciones para el modelo de uso que se ha especificado. 
   
-- **Número total de servidores front-end**: número de servidores físicos necesarios basados en servidores dedicados que ejecutan Skype Empresarial Server 2015 con procesador dual, 6 núcleos y 2260 megaciclos.
+- **Total servidores Front-End**: el número de servidores físicos requeridos se basa en servidores dedicados que ejecuten Skype para Business Server con procesador dual, seis núcleos, megaciclos 2,260.
     
     Tenga en cuenta que se recomienda habilitar el hyperthreading ya que se ha demostrado que mejora el rendimiento de los servidores compatibles con audio o vídeo.
     

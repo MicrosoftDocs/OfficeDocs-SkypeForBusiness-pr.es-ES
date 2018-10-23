@@ -3,10 +3,10 @@ title: Administrar la oferta de prueba de la nube de Microsoft los equipos comer
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 09/10/2018
+ms.date: 10/23/2018
 ms.topic: article
 audience: Admin
-ms.reviewer: alchen
+ms.reviewer: annikae
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
@@ -14,20 +14,17 @@ description: Los usuarios de Office 365 que no tienen licencia para Microsoft Te
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6de25e5fe4bf844841c66f7bf797e0edb5f8844e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 891e87c69e6cd998a715ded901de15e6b7cd267e
+ms.sourcegitcommit: f9485c9b89d94da7aaed1fab94254c794b407164
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017916"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25697465"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Administrar la oferta de prueba de la nube de Microsoft los equipos comerciales
 =======================================================
 
-Microsoft Teams es una gran herramienta de colaboración para su organización. Permite a las personas y los equipos se analizan, innovar y compartir ideas utilizando la potencia de Office 365. Microsoft los equipos comerciales en la nube prueba ofrece usuarios de Office 365 existentes en la organización que no tienen licencia para que Microsoft Teams iniciar una versión de prueba de 1 año del producto. Los administradores tienen la capacidad de activar o desactivar esta característica para los usuarios dentro de su inquilino.
-
-> [!NOTE]
-> Esta oferta aún no está públicamente disponible, pero se puede implantar durante el próximo mes.
+Microsoft Teams es una gran herramienta de colaboración para su organización. Permite a las personas y los equipos se analizan, innovar y compartir ideas utilizando la potencia de Office 365. Microsoft los equipos comerciales en la nube prueba ofrece usuarios de Office 365 existentes en la organización que no tienen licencia para que Microsoft Teams iniciar una versión de prueba de 1 año del producto. Los administradores tienen la capacidad de activar o desactivar esta característica para los usuarios dentro de su organización.
 
 ## <a name="whats-in-the-offer"></a>¿Qué es en la oferta
 
@@ -43,20 +40,20 @@ Los planes de servicio incluidos en esta oferta son:
 - Influir hora de elegir
 - Yammer Enterprise
 
-La oferta se puede asignar a un máximo de 500.000 usuarios por inquilino. La licencia de prueba asignan 2GB de almacenamiento de SharePoint Online para cada usuario de prueba.
+La oferta se puede asignar a un máximo de 500.000 usuarios por la organización. La licencia de prueba asignan 2 GB de almacenamiento de SharePoint Online para cada usuario de prueba.
 
 ## <a name="who-is-eligible"></a>¿Quiénes son elegibles
 
 Los usuarios que no tienen una licencia de Office 365 que incluye los equipos pueden iniciar la oferta de prueba de Microsoft los equipos comerciales en la nube. Por ejemplo, si un usuario tiene Office 365 Business Premium (que incluye los equipos) y el plan de servicio de los equipos está deshabilitado, no son aptos para la versión de evaluación.
 
-Además, el inquilino no es aptos para la prueba if: 
+Además, la organización no es aptos para la prueba if: 
 - Usted es un cliente de socio de distribución
 - Usted es un cliente de socio revendedor
 - Usted es un cliente GCC, GOV o edu.
 
-Además, si el inquilino es no válido para la oferta de prueba Microsoft los equipos de comercial en la nube, no verá el modificador **permiten a los usuarios instalar los servicios y aplicaciones de prueba** .
+Además, si su organización es no válida para la oferta de prueba Microsoft los equipos de comercial en la nube, no verá el modificador **permiten a los usuarios instalar los servicios y aplicaciones de prueba** .
 
-En el nivel de inquilino, los equipos como un servicio debe habilitarse (en el centro de administración de equipos). Para obtener más información, vea [características de administración de equipos de Microsoft en su organización de Office 365](enable-features-office-365.md). Además, deben estar habilitados para registrarse y obtener aplicaciones y versiones de evaluación (en el centro de administración de Office 365). Para obtener más información, vea [Manage la versión de prueba](#manage-the-trial) más adelante en este artículo.
+En el nivel de organización, los equipos como un servicio debe habilitarse (en el centro de administración de equipos). Para obtener más información, vea [características de administración de equipos de Microsoft en su organización de Office 365](enable-features-office-365.md). Además, deben estar habilitados para registrarse y obtener aplicaciones y versiones de evaluación (en el centro de administración de Office 365). Para obtener más información, vea [Manage la versión de prueba](#manage-the-trial) más adelante en este artículo.
 
 ## <a name="how-users-sign-up-for-the-trial"></a>Cómo los usuarios suscribirse a la versión de evaluación
 
@@ -72,7 +69,7 @@ La primera persona que se registró para la versión de prueba es el "propietari
 
 ## <a name="manage-the-trial"></a>Administración de la versión de evaluación
 
-Los administradores pueden deshabilitar la capacidad de los usuarios finales para aplicaciones de prueba y servicios dentro de su inquilino de notificación. Actualmente, la versión de evaluación de los equipos es la prueba sólo en esta categoría, pero esto es posible que se aplica a otros programas similares en el futuro. 
+Los administradores pueden deshabilitar la capacidad de los usuarios finales para aplicaciones de prueba y servicios dentro de su organización de notificación. Actualmente, la versión de evaluación de los equipos es la prueba sólo en esta categoría, pero esto es posible que se aplica a otros programas similares en el futuro. 
 
 1\. Desde el [Centro de administración de Office 365](https://portal.office.com/adminportal/home), vaya a **Servicios & complementos** > **usuario que son propiedad de aplicaciones y servicios**.
 
@@ -82,7 +79,7 @@ Los administradores pueden deshabilitar la capacidad de los usuarios finales par
 
 ![Captura de pantalla del usuario que pertenecen a la página de aplicaciones y servicios en el centro de administración de Office 365.](media/iw-trial-enable-2.png)
 
-3\. Puede desactivar los equipos para el inquilino yendo al portal de administración de equipos. Cuando esta opción está deshabilitada, los usuarios no se pueden reclamar que ofrecen los equipos de prueba.
+3\. Puede desactivar los equipos para su organización, vaya al portal de administración de equipos. Cuando esta opción está deshabilitada, los usuarios no se pueden reclamar que ofrecen los equipos de prueba.
 
 4\. Si ha deshabilitado el plan de servicio de los equipos para un usuario individual que tiene una licencia de aplicaciones, el usuario no es aptos para una licencia de prueba de notificación.
 
