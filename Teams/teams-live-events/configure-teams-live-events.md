@@ -1,96 +1,85 @@
 ---
-title: Configuración de eventos en directo en Microsoft Teams
+title: Configurar las opciones de evento en directo en Microsoft Teams
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
+ms.date: 10/23/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: tonysmit
+ms.reviewer: sonua
 search.appverid: MET150
-description: Obtenga información sobre cómo configurar las opciones de evento en directo en Microsoft Teams, incluida la configuración de visibilidad de attendee y las opciones de grabación.
+localization_priority: Normal
+MS.collection: Teams_ITAdmin_Help
+description: Obtenga información sobre cómo administrar la configuración para eventos en directo los equipos que se encuentran en la organización.
+f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcd9bc02257d67f1af959d2158042ea73545a25e
-ms.sourcegitcommit: 6447a3aa060452c8d6879524cd6a56aecf33b152
+ms.openlocfilehash: b8e12b6b85b61bb8c6312054be07dc37365c62c0
+ms.sourcegitcommit: 2e9761a3b195d31080bff3c9cc17a18adcd5350e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25354359"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25748152"
 ---
-# <a name="configure-live-events-in-microsoft-teams"></a>Configuración de eventos en directo en Microsoft Teams
+# <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar las opciones de evento en directo en Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
-## <a name="set-up-event-support-link"></a>Configurar el vínculo de soporte técnico (evento)
-Esto es el vínculo que se mostrará a los asistentes de evento en directo. 
+Usar la configuración de eventos en directo de los equipos para establecer la configuración para eventos en directo que se conservan en la organización. Puede configurar una dirección URL de soporte y configurar un proveedor de distribución de vídeo de otro fabricante. Esta configuración se aplica a todos los eventos en directo que se crean en la organización. 
 
-En Windows PowerShell, ejecute lo siguiente:
+Puede administrar fácilmente esta configuración en el Microsoft Teams & Skype para el centro de administración de negocio. En el panel de navegación izquierdo, vaya a **las reuniones** > **configuración de eventos en directo**. 
+
+![settings.png Live (evento)] (../media/teams-live-events-settings.png "Captura de pantalla de los equipos live configuración de eventos que se puede configurar en los equipos de Microsoft & Skype para el centro de administración de negocio") 
+
+## <a name="set-up-event-support-url"></a>Configurar la dirección URL de soporte (evento)
+
+Esta dirección URL se muestra a los asistentes del evento de live. Agregue la dirección URL de soporte para la organización para dar a los asistentes una forma de ponerse en contacto con el soporte técnico durante un evento en directo.
+
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams--skype-for-business-admin-center"></a>![los equipos-logotipo-30x30.png](../media/teams-logo-30x30.png) Uso de la Microsoft Teams & Skype para el centro de administración de negocio
+
+1. En el panel de navegación izquierdo, vaya a **las reuniones** > **configuración de evento en directo**.
+2. En **Dirección URL de soporte**, escriba la dirección URL de soporte técnico de su organización. 
+
+    ![Configuración de la dirección URL de soporte para live eventos en los equipos de Microsoft & Skype para el centro de administración de negocio] (../media/teams-live-events-settings-supporturl.png "Captura de pantalla de admite la dirección URL de configuración para los equipos de eventos en directo")
+
+### <a name="using-windows-powershell"></a>Usar Windows PowerShell
+Ejecute lo siguiente:
 ```
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}” 
 ```
-## <a name="configure-attendee-visibility-options"></a>Configurar las opciones de visibilidad de attendee
-Esto permite que los organizadores de evento live crear eventos con visibilidad de attendee adecuado.
+Para obtener más información, vea [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
+## <a name="configure-a-third-party-video-distribution-provider"></a>Configuración de un proveedor de distribución de vídeo de otro fabricante 
 
-|**Valores**  |**Comportamiento**  |
-|---------|---------|
-|Todos     |El usuario tiene una opción para crear eventos en directo con la visibilidad de attendee siguientes: Public, todos los usuarios de la compañía y personas específicas. |
-|EveryoneInCompany     |El usuario tiene una opción para crear eventos en directo con la visibilidad de attendee siguientes: todas las personas de la compañía y personas específicas. El usuario no puede crear eventos en directo que pueden ser atendidos por los usuarios anónimos.|
-|InvitedUsers |El usuario sólo puede crear eventos en directo que se limitan a personas específicas, tal como se especificó por el organizador del evento. El usuario no puede crear eventos en directo con público y todas las personas de la autenticación de la compañía. |
+Si adquirió y configurar una solución de software definido network (SDN) o una solución de red (eCDN) de entrega de contenido empresarial a través de un socio de entrega de vídeo de Microsoft, configure el proveedor de eventos en directo en los equipos. 
 
-Use la opción BroadcastAttendeeVisibility en TeamsMeetingBroadcastPolicy en PowerShell para controlar si los usuarios pueden programar la difusión de presentaciones eventos que se pueden ver los asistentes anónimo. 
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams--skype-for-business-admin-center"></a>![los equipos-logotipo-30x30.png](../media/teams-logo-30x30.png) Uso de la Microsoft Teams & Skype para el centro de administración de negocio
 
-A menos que haya asignado una directiva personalizada a los usuarios, los usuarios obtendrán una directiva Global, que tiene un valor predeterminado establecido en EveryoneInCompany. 
- 
-En Windows PowerShell, ejecute lo siguiente para permitir a los usuarios crear eventos anónimos en la directiva global:
+1. En el panel de navegación izquierdo, vaya a **las reuniones** > **configuración de evento en directo**.
+2. En **proveedores de distribución de vídeo de terceros**, complete lo siguiente: 
+
+    ![Configuración del proveedor de distribución de vídeo de terceros en los equipos de Microsoft & Skype para el centro de administración de negocio] (../media/teams-live-events-settings-distribution-provider.png "Captura de pantalla de la configuración del proveedor de distribución de vídeo de otro fabricante para eventos en directo")
+
+    - **Usar un proveedor de distribución de terceros** Desactivar esta sesión en habilitar el proveedor de distribución de vídeo de otro fabricante.
+    - **Nombre del proveedor de SDN** Elija el proveedor que está utilizando.
+    - **Clave de licencia de proveedor** Escriba el identificador de licencia que obtuvo de su contacto de proveedor.
+    - **Dirección URL de la plantilla de API de SDN** Escriba la dirección URL de plantilla de API que obtuvo de su contacto de proveedor.
+
+### <a name="using-windows-powershell"></a>Usar Windows PowerShell
+Obtener el token de licencia de identificador o API y la plantilla de la API de su contacto de proveedor y, a continuación, ejecute uno de los siguientes, según el proveedor que está utilizando:
+
+**Subárbol** 
 ```
-Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility Everyone  
+Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
 ```
-## <a name="configure-recording-options"></a>Configurar las opciones de grabación
+**Kollective** 
+```
+Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
+```
+Para obtener más información, vea [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
+
 > [!NOTE]
-> Esta opción es aplicable a los eventos que usan solo el método de producción de inicio rápido.
+> Si va a crear eventos en directo que usar codificadores externos, también necesitará [configurar su proveedor eCDN con la secuencia de Microsoft](https://docs.microsoft.com/stream/network-caching). 
 
-Esto permite a los administradores para controlar si siempre se registran los eventos en directo, nunca se registró, o si el organizador del evento puede optar por registrar el evento o no.  
-
-|**Valores**  |**Comportamiento**  |
-|---------|---------|
-|Siempre están habilitadas |Siempre se registran los eventos live organizados por este usuario. El usuario no tiene una opción para invalidar. Si se registra el evento en directo, los miembros del equipo de evento pueden descargar la grabación después del evento, y los asistentes pueden verla el evento después de que el evento es a través de. |
-|AlwaysDisabled |Nunca se registran los eventos live organizados por este usuario. El usuario no tiene una opción para invalidar. Si se registra el evento en directo, no se crea ninguna grabación para los miembros del equipo (evento), y los asistentes no pueden inspeccionar el evento después de que se encuentra sobre. |
-|UserOverride |Usuario puede decidir si se registra el evento en directo para que se puede crear un archivo de grabación para los miembros del equipo (evento), y los asistentes pueden verla el evento después de que el evento es a través de. |
-
-Use la opción *BroadcastRecordingMode* en **TeamsMeetingBroadcastPolicy** en PowerShell para controlar las opciones de los eventos de live creados por el organizador del evento live de grabación.
-
-En Windows PowerShell, ejecute el siguiente cmdlet para actualizar el modo de grabación en la directiva global:
-```
-Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
-```
-## <a name="configure-real-time-transcription-and-translation-in-teams-live-events-coming-soon"></a>Configurar la transcripción en tiempo real y traducción en eventos en los equipos directo (próximamente)
-> [!NOTE]
-> Esta opción es aplicable a los eventos que usan solo el método de producción de inicio rápido.
-
-Esto permite que los organizadores de evento en directo activar la traducción de los asistentes del evento en directo y títulos en tiempo real. 
-
-Use la opción *AllowBroadcastTranscription* en **TeamsMeetingBroadcastPolicy** en PowerShell para controlar si los asistentes del evento en directo podrá vea transcripción y traducción. Encontrará más información acerca de cómo administrar **TeamsMeetingBroadcastPolicy** con Office 365 PowerShell aquí.  
-
-A menos que haya asignado una directiva personalizada a los usuarios, los usuarios obtendrán una directiva Global, que tiene la transcripción y traducción deshabilitado de forma predeterminada.
-
-En Windows PowerShell, ejecute el siguiente cmdlet para activar la transcripción y traducción en para los asistentes de eventos en la directiva global:
-```
-Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
-```
-## <a name="administrative-tools"></a>Herramientas administrativas 
-Aunque Microsoft directamente controla todos los centros de datos en línea de Office 365 y es responsable de rendimiento general del sistema, puede controlar sólo una parte de los elementos que se combinan para proporcionar la experiencia de total para los usuarios de Office 365. Las organizaciones a sí mismos son responsables de las conexiones de red en los centros de datos, la red del cliente área extensa (WAN), y redes de área local del cliente (LAN). Además, están a cargo de los dispositivos de usuario y su configuración.También son responsables del mantenimiento de la licencia necesaria por usuario para cualquier característica que desee, incluidos, pero sin limitarse a, la capacidad para administrar estas características, para siempre y cuando el usuario necesita tener acceso a la característica.
-
-Los clientes pueden usar las siguientes herramientas para administrar una variedad de tareas relacionadas de eventos en directo de los equipos.
-- [Centro de administración de Microsoft Office 365](https://technet.microsoft.com/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_Office365admincenterl)
-- [Microsoft Teams y Skype para el centro de administración de negocio en línea](https://technet.microsoft.com/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_ExchangeAdministrationCenter)
-- [Centro de administración de Microsoft Stream](https://stream.microsoft.com)
-- [Windows PowerShell remoto](https://technet.microsoft.com/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_RemoteWindowsPowerShell)
-
-## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
-Cuando se trata de Windows PowerShell, que toda la información sobre administración de usuarios y qué usuarios pueden o no pueden para hacer. Con Windows PowerShell, puede administrar Office 365 y Skype para profesionales Online mediante un único punto de administración que puede simplificar su trabajo diario cuando haya varias tareas para hacer. Para empezar con Windows PowerShell, vea estos temas:
- - [Una introducción a Windows PowerShell y Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
- - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
-
-Windows PowerShell ofrece numerosas ventajas de velocidad, sencillez y productividad con respecto al uso exclusivo del Centro de administración de Office 365, como por ejemplo a la hora de realizar cambios de configuración para varios usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
- - [Mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
- - [Usar Windows PowerShell para administrar Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525453)
- - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+### <a name="related-topics"></a>Temas relacionados
+- [¿Cuáles son los equipos de eventos en directo?](what-are-teams-live-events.md)
+- [Plan para los equipos eventos en directo](plan-for-teams-live-events.md)
+- [Configurar para los equipos de eventos en directo](set-up-for-teams-live-events.md)
