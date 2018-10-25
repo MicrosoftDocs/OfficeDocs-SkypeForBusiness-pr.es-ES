@@ -348,7 +348,7 @@
 #### [Habilitar o deshabilitar el envío de correos electrónicos cuando cambie la configuración de Audioconferencia](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [Permitir que los usuarios registren su nombre cuando se unan a una reunión](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 #### [Administrar la configuración de Audioconferencia para un usuario](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
-#### [Administrar la configuración de Audioconferencia para mi organización](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+#### [Administrar la configuración de conferencia de Audio para la organización](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 #### [Números de teléfono para Audioconferencia](phone-numbers-for-audio-conferencing-in-teams.md)
 #### [Políticas de restricción de llamadas salientes para Audioconferencia y las llamadas RTC de usuario](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Restablecer un Id. de conferencia para un usuario](reset-a-conference-id-for-a-user-in-teams.md)

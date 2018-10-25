@@ -1,5 +1,5 @@
 ---
-title: Administrar la configuración de Audioconferencia para mi organización en Microsoft Teams
+title: Administrar la configuración de conferencia de Audio para su organización en Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Vea los pasos que hay que seguir en Microsoft Teams para asignar una licencia de conferencia de acceso telefónico local y un Id. de conferencia a un usuario y muchas otras opciones de la conferencia de acceso telefónico local. '
-ms.openlocfilehash: b63650833c7c844de11ecb833288b6568604f919
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 327f9f9f9511e914d87b41f35f932df5aebd15c0
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375866"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784866"
 ---
-# <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>Administrar la configuración de Audioconferencia para mi organización en Microsoft Teams
+# <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Administrar la configuración de conferencia de Audio para su organización en Microsoft Teams
 
 Puede que le resulte más sencillo ver todas las opciones de audioconferencias para Microsoft Teams en un mismo lugar. 
 
@@ -132,7 +132,7 @@ Vea [el teléfono los números incluidos en invitaciones](set-the-phone-numbers-
   
 ## <a name="choose-audio-conferencing-bridge-settings"></a>Elija Configuración de puente de conferencia de audio
 
-Configuración del puente de audioconferencia o de conferencia de acceso telefónico local
+**Set the meeting experience when callers join a meeting**
 
 ![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
 
@@ -180,7 +180,7 @@ El PIN solo puede tener de 4 a 12 dígitos. El valor predeterminado es 5.[](chan
     
     Si hace esto, se enviará un correo electrónico que incluye solo el Id. de conferencia y el número de teléfono de conferencia, pero no se incluirá el PIN.
 
-Si hace esto, se enviará un correo electrónico que solo contenga el id. de la conferencia y el número de teléfono de la conferencia, pero no se incluirá el PIN.
+See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
     
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Vea y establezca la primaria (valor predeterminado) y los idiomas (alternativos) secundarios en un puente de conferencia de audio
 
@@ -205,7 +205,7 @@ También puede establecer el idioma principal y los idiomas secundarios compatib
 
 2. Seleccione un número de teléfono de la lista y haga clic en **Editar**. Here you can:
     
-   - View the phone numbers that are set by Office 365 to be used for Audio Conferencing. 
+   - Vea los números de teléfono que ha establecido Office 365 para utilizar para Audioconferencia. 
     
    - Ver la ubicación y el idioma principal, que se utilizará en el operador automático de conferencia de Audio.
 

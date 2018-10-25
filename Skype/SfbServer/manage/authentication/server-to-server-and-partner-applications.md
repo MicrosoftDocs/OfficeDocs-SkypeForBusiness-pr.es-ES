@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 description: 'Resumen: Administrar aplicaciones de OAuth y socio de Skype para Business Server.'
-ms.openlocfilehash: 80ce003d02dff9d88125699117d4de469ed53901
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6b7701ff91f323b13a97613f57f7228da18d9773
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20994674"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784873"
 ---
 # <a name="manage-server-to-server-authentication-oauth-and-partner-applications-in-skype-for-business-server"></a>Administrar la autenticación de servidor a servidor (OAuth) y las aplicaciones asociadas en Skype para Business Server
  
@@ -23,7 +23,7 @@ ms.locfileid: "20994674"
   
 Skype para Business Server debe ser capaz de forma segura y sin ningún problema, comunicarse con otras aplicaciones y productos de servidor. Por ejemplo, puede configurar Skype para Business Server por lo ponerse en contacto con datos o datos de archivado se almacena en Microsoft Exchange Server 2013; Sin embargo, esto sólo es posible si Skype para Business Server y Exchange es capaces de forma segura comunicarse entre sí. Del mismo modo, puede programar una Skype para conferencia de Business Server desde dentro de Office Web Apps Server; una vez más, esto sólo es posible si confían en los dos servidores (SharePoint y Skype para Business Server) entre sí. Aunque es posible usar un mecanismo de autenticación para la comunicación entre Skype para Business Server y Exchange, pero un mecanismo independiente para Skype para la comunicación de Business Server y SharePoint, un enfoque mejor y más eficiente consiste en usar un método estándar para todos los de autorización y autenticación de servidor a servidor.
   
-Mediante una sola, el método estándar para la autenticación de servidor a servidor es el enfoque tomado por Skype para Business Server. A partir de la 2013 versión, Skype para Business Server (así como otros productos de Microsoft Server, incluido Exchange 2013 y SharePoint Server) admiten el protocolo OAuth (Open Authorization) para la autorización y autenticación de servidor a servidor. Con OAuth, un protocolo de autorización estándar utilizado por un número de sitios Web principales, las credenciales de usuario y contraseñas no se pasan de un equipo a otro. En su lugar, autenticación y autorización se basa en el intercambio de tokens de seguridad; Estos tokens conceden acceso a un conjunto específico de recursos para un período de tiempo específico.
+Mediante una sola, el método estándar para la autenticación de servidor a servidor es el enfoque tomado por Skype para Business Server. Introducción a los servidores de Office 2013 versión, Skype para Business Server (así como otros productos de Microsoft Server, incluido Exchange Server y SharePoint Server) admite el protocolo OAuth (Open Authorization) para la autenticación de servidor a servidor y autorización. Con OAuth, un protocolo de autorización estándar utilizado por un número de sitios Web principales, las credenciales de usuario y contraseñas no se pasan de un equipo a otro. En su lugar, autenticación y autorización se basa en el intercambio de tokens de seguridad; Estos tokens conceden acceso a un conjunto específico de recursos para un período de tiempo específico.
   
 Normalmente, la autenticación de OAuth implica tres partes: un servidor único de autorización y los dos dominios que necesitan comunicarse entre sí. (Se puede hacer autenticación de servidor a servidor sin usar un servidor de autorización, un proceso que se tratarán más adelante en este documento.) Los tokens de seguridad emitidos por el servidor de autorización (también conocido como un servidor token de seguridad) a los dos dominios que necesitan comunicarse; Estos tokens comprobación que las comunicaciones que se originan desde un territorio deben ser de confianza por el otro dominio. Por ejemplo, el servidor de autorización podría emitir tokens que comprobación que los usuarios de un Skype específico para el dominio Kerberos de Business Server tienen acceso a un dominio Kerberos de Exchange especificado y viceversa.
   

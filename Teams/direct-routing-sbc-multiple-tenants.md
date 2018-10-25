@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Obtenga información sobre cómo configurar un controlador de borde de sesión (SBC) para servir a varios inquilinos.
-ms.openlocfilehash: 292a3e675455d112fdade04018e670b9a5f9c38f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 7b085661e659e7836c5e463b24c9cc0a6f071aaa
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013428"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784819"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -127,7 +127,7 @@ Para obtener más información acerca de los roles de administrador y cómo asig
 
 ### <a name="activate-the-domain-name"></a>Activar el nombre de dominio
 
-Una vez que haya registrado un nombre de dominio, debe activar mediante la adición de al menos un usuario y asignar una dirección SIP con la parte FQDN de la dirección SIP que coincida con el dominio base creado.
+Después de que se ha registrado un nombre de dominio, es necesario activar mediante la adición de al menos un E1, E3, o con una licencia de E5 usuario y la asignación de una dirección SIP con la parte FQDN del SIP de direcciones que coincida con el dominio base creado. 
 
 *Revise [obtener ayuda con los dominios de Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obtener más información acerca de cómo agregar los usuarios en los inquilinos de Office 365.*
 
