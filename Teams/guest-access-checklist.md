@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9bd95dc0d928a049adad06b43b9f6cacaf2c65d1
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: e335210a3d7b209984cee5319dd1e7e3b1bd24e4
+ms.sourcegitcommit: 0c360c68d7841e85b89e3d92baff80c42d685e81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25692642"
+ms.lasthandoff: 10/26/2018
+ms.locfileid: "25797322"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de comprobación de acceso de invitado a los equipos
 ==========================================
@@ -61,7 +61,7 @@ Recuerde los siguientes puntos:
 
       ![Captura de pantalla muestra un ejemplo de un control de alternancia AAD configuración. ](media/guest-access-checklist-AADSettings1.png)
 
-    Como mínimo para admitir a los invitados, **pueden invitar los miembros** se debe establecer en **Sí**. 
+    Para admitir a invitados, **pueden invitar los miembros** se debe establecer en **Sí**. 
    
 > [!NOTE] 
 > Si establece **pueden invitar los miembros** en **No** y, a continuación, habilitar el acceso de invitado en grupos de Office 365 y Microsoft Teams, los administradores pueden controlar las invitaciones de invitado a su directorio. Después de que los invitados se encuentran en el directorio, puede agregarse a los equipos de los miembros sin permisos de administrador que son propietarios del equipo.
