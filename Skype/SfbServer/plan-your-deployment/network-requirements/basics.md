@@ -9,16 +9,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 tiene software integrada que puede proporcionar servicios DNS, por lo que es posible que desee revisar la documentación disponible, como la Guía de escenario de directiva de DNS. Puede elegir una solución de terceros si lo prefiere.
-ms.openlocfilehash: 545b196320ae3b4297d9944ff29c105eb1ce219b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 297dc905a308806aec9228a9514f8e1bd65a245b
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981082"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839058"
 ---
 # <a name="dns-basics"></a>Conceptos básicos DNS
  
-Windows Server 2016 tiene software integrada que puede proporcionar servicios DNS, por lo que es posible que desee revisar la documentación disponible, como la [Guía de escenario de directiva de DNS](https://docs.microsoft.com/en-us/windows-server/networking/dns/deploy/dns-policy-scenario-guide). Puede elegir una solución de terceros si lo prefiere.
+Windows Server 2016 tiene software integrada que puede proporcionar servicios DNS, por lo que es posible que desee revisar la documentación disponible, como la [Guía de escenario de directiva de DNS](https://docs.microsoft.com/windows-server/networking/dns/deploy/dns-policy-scenario-guide). Puede elegir una solución de terceros si lo prefiere.
   
 Se recomienda como práctica recomendada de dedicar un servidor específico en su implementación para proporcionar DNS. Se podría potencialmente establecido en uno de los servidores dedicados a uno de los Skype para funciones de servidor empresarial, pero si ese servidor también formaba parte de un grupo de servidores y obtuvo de baja por accidente Skype para profesionales sería mal funcionamiento hasta que se restablezca servicios DNS.
   
@@ -27,7 +27,7 @@ Se recomienda como práctica recomendada de dedicar un servidor específico en s
 Cada asignación de un nombre a una dirección IP (y que podría ser una dirección IPv4 o IPv6) se almacena en un registro DNS en el servidor DNS. El nombre se describe en el informe de DNS específicamente como un FQDN, un nombre de dominio completo. Mientras *contoso.com* es un nombre de dominio válido, es una abreviatura de * \*. contoso.com* , por lo que es ambiguo y, posiblemente, podría hacer referencia a cualquier servidor en el dominio. Un ejemplo de un FQDN que hace referencia a un único servidor en su dominio podría ser **meeting01.contoso.com**.
   
 > [!IMPORTANT]
-> De manera predeterminada, el nombre de equipo de un equipo que no está unido a un dominio es un nombre de host, en lugar de un nombre de dominio completo (FQDN). Generador de topología usa nombres de dominio completos, no los nombres de host. Así pues, necesita configurar un sufijo de DNS en el nombre del equipo para poder implementarlo como servidor perimetral no incorporado a un dominio. **Use solo caracteres estándar** (incluidos A-z, a-z, 0-9 y guiones) al asignar los FQDN para los servidores que ejecutan Skype para Business Server. No utilice caracteres Unicode ni guiones bajos. Por lo general, los DNS externos y las entidades de certificación (CA) públicas no admiten caracteres que no sean estándares en un FQDN (es decir, cuando el FQDN se necesita asignar al nombre de sujeto en el certificado).
+> De manera predeterminada, el nombre de equipo de un equipo que no está unido a un dominio es un nombre de host, en lugar de un nombre de dominio completo (FQDN). Generador de topología usa nombres de dominio completos, no los nombres de host. Por lo tanto, debe configurar un sufijo DNS en el nombre del equipo para implementarse como servidor perimetral que no está unido a un dominio. **Use solo caracteres estándar** (incluidos A-z, a-z, 0-9 y guiones) al asignar los FQDN para los servidores que ejecutan Skype para Business Server. No utilice caracteres Unicode ni de subrayado. Los caracteres no estándar en una dirección URL o un FQDN a menudo no son compatibles con DNS externas y CA públicas (es decir, cuando el FQDN debe asignarse al SN en el certificado).
   
 Además de una dirección IP, el FQDN se pudo asignar a una **dirección VIP** : una dirección IP virtual. Una VIP es una dirección IP que no se corresponde con una interfaz de red físico real. Una dirección VIP a menudo apunta a un grupo de servidores que realizan una función de servidor, o a un par de servidores configurados para redundancia y tolerancia a errores.
   

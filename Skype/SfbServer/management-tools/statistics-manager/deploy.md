@@ -11,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Resumen: Lea este tema para obtener información sobre cómo implementar las estadísticas de administrador para Skype para Business Server 2015.'
-ms.openlocfilehash: 75a8af0794431a0f74233ad0c6a422b3827c7656
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 28ee68cc8770660587cb7d22d2ddd68c754a4fca
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371144"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838581"
 ---
-# <a name="deploy-statistics-manager-for-skype-for-business-server-2015"></a>Implementar el administrador de estadísticas para Skype Empresarial Server 2015
+# <a name="deploy-statistics-manager-for-skype-for-business-server-2015"></a>Deploy Statistics Manager for Skype for Business Server 2015
  
 **Resumen:** Lea este tema para obtener información sobre cómo implementar las estadísticas de administrador para Skype para Business Server 2015.
   
@@ -68,7 +68,7 @@ Para preparar el equipo host, debe instalar el sistema de almacenamiento en cach
     
     Sin firmar instaladores se pueden descargar desde[https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
-    Si es necesario, los archivos binarios firmados están disponibles a través de los jefes de paquete populares: [Nuget](https://www.nuget.org/packages/Redis-64/) y [Choclatey](https://chocolatey.org/packages/redis-64).
+    Si lo necesita, hay binarios firmados disponibles a través de gestores de paquetes populares: [Nuget](https://www.nuget.org/packages/Redis-64/) y [Choclatey](https://chocolatey.org/packages/redis-64).
     
    - Ejecute el msi proporcionado y siga las instrucciones.
     
@@ -212,7 +212,7 @@ El comando siguiente le permite ver todas las opciones:
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
-Para ver la información de servidores que ha importado, ejecute el siguiente script:  
+Para ver la información de servidor actualmente importado, ejecute el siguiente script: 
   
 ```
 .\Get-StatsManServerInfo.ps1
@@ -299,12 +299,12 @@ Microsoft recomienda encarecidamente usar un certificado firmado por una autorid
 
 Para obtener más información, consulte lo siguiente:
   
-- [Planeación para el Administrador de estadísticas de Skype para Business Server 2015](plan.md)
+- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
     
-- [Actualizar el administrador de estadísticas para Skype Empresarial Server 2015](upgrade.md)
+- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
     
-- [Solucionar problemas del administrador de estadísticas para Skype Empresarial Server 2015](troubleshoot.md)
+- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
     
-- [Skype para Business Server Manager de estadísticas de blog](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Blog del administrador de estadísticas de Skype Empresarial Server](https://blogs.technet.microsoft.com/skypestatsman/)
     
 

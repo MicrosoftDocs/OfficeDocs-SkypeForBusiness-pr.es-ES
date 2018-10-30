@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Consideraciones de planeación para implementar la conectividad de híbrida entre Skype para Business Server y Skype para profesionales en línea o los equipos.
-ms.openlocfilehash: 34df2639ed57376549b2a8bde2e4b0e071d08957
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 17a54b4d7509684f5a74fd45549e3e0f9852a6c1
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696236"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838790"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Planeación de la conectividad híbrida entre Skype para Business Server y Office 365
 
@@ -76,7 +76,7 @@ Para implementar la conectividad híbrida entre su entorno local y los servicios
 
 - Skype para herramientas administrativas de Business Server. (Si está utilizando Lync Server 2013 o Lync Server 2010, puede usar las herramientas administrativas de Lync Server 2013. Para más información, consulte [Lync Server 2013 híbrido](https://go.microsoft.com/fwlink/p/?LinkId=617360)).
 
-- Azure Active Directory Connect para sincronizar su directorio local con Office 365. Para obtener más información, vea [Azure Connect AD: permisos y cuentas de](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
+- Azure Active Directory Connect para sincronizar su directorio local con Office 365. Para obtener más información, vea [Azure Connect AD: permisos y cuentas de](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 
     Para admitir el inicio de sesión único con Office 365 y que los usuarios puedan usar las mismas credenciales para iniciar sesión que se usan en local, puede usar las características de sincronizar contraseñas de Azure Active Directory (AAD) Connect. También puede usar los Servicios de federación de Active Directory (AD FS) para el inicio de sesión único con Office 365. 
 
@@ -110,7 +110,7 @@ Ahora, los administradores tienen la capacidad de usar Windows PowerShell para a
 
 Hay algunas diferencias en las características compatibles con los clientes, así como en las disponibles en entornos locales y en línea. Los clientes siguientes son compatibles con Skype para profesionales en línea en una implementación híbrida:
 
-- Skype Empresarial
+- Skype for Business
 
 - Lync 2013
 
@@ -240,7 +240,7 @@ En una implementación híbrida, cualquier usuario que desea particular en líne
 Al sincronizar las cuentas de usuario entre su implementación local y el inquilino en línea con AAD conectarse, debe sincronizar las cuentas de AD para todos los Skype para los usuarios empresariales o de Lync en su organización, incluso si los usuarios no se mueven a en línea. Si no sincroniza todos los usuarios, puede que la comunicación entre los usuarios locales y en línea de su organización no funcione como es de esperar.
 
 > [!IMPORTANT]
-> Administración de todos los usuarios, incluidos usuario se mueve entre local y Skype para en línea de negocio, deben realizarse con la última versión instalada de las herramientas administrativas. Las herramientas administrativas de deben instalarse en un servidor independiente que se conectan acceso a la implementación existente de local y a Internet. El cmdlet para mover usuarios desde su implementación local a Skype para Online de negocio, [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser?view=skype-ps), se debe ejecutar desde las herramientas administrativas de conectado a su implementación local. Para obtener más información sobre cómo mover usuarios, consulte [mover usuarios de local a Skype para profesionales en línea](move-users-from-on-premises-to-skype-for-business-online.md).
+> Administración de todos los usuarios, incluidos usuario se mueve entre local y Skype para en línea de negocio, deben realizarse con la última versión instalada de las herramientas administrativas. Las herramientas administrativas de deben instalarse en un servidor independiente que se conectan acceso a la implementación existente de local y a Internet. El cmdlet para mover usuarios desde su implementación local a Skype para Online de negocio, [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser?view=skype-ps), se debe ejecutar desde las herramientas administrativas de conectado a su implementación local. Para obtener más información sobre cómo mover usuarios, consulte [mover usuarios de local a Skype para profesionales en línea](move-users-from-on-premises-to-skype-for-business-online.md).
 
 También debe tener en cuenta los siguientes problemas relacionados con el usuario al planear una implementación híbrida:
 

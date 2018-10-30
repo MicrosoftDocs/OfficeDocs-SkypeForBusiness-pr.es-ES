@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Obtenga información acerca de las consideraciones de planeación para el sistema telefónico en Office 365 (en la nube PBX) con conectividad de RTC local.
-ms.openlocfilehash: 4096dde95c4cee2871e968f4e6b91d60682e73d5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 4614b3fdc62d8a51323ee7c9f261bec3d6cea6c3
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374143"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839454"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planear el sistema telefónico en Office 365 con conectividad de RTC local en Skype para Business Server
 
@@ -49,14 +49,14 @@ En la nube PBX con conectividad de RTC local no ofrece el mismo conjunto como un
 
 > [!CAUTION]
 > Los dispositivos de Lync Phone Edition TIENEN que estar actualizados con el firmware mínimo necesario en su entorno local ANTES de migrar a Skype Empresarial Online.
-Si transfiere los usuarios del entorno local al entorno en línea antes de actualizar el firmware, los usuarios no se podrán conectar con sus teléfonos. Para corregir este problema, es necesario volver a transferir los usuarios al entorno local para actualizar los teléfonos con el firmware mínimo. NO INTENTE ACTUALIZAR AL FIRMWARE MÍNIMO O REALIZAR UN RESTABLECIMIENTO COMPLETO DEL TELÉFONO ANTES DE VOLVER A TRANSFERIR EL USUARIO AL ENTORNO LOCAL.
-Si se realiza un restablecimiento completo cuando el dispositivo no tiene instalado el firmware mínimo, se implementará la autenticación con PIN, que no es compatible con Skype Empresarial Online. Para obtener más información, consulte [Introducción teléfonos de Skype para profesionales en línea](https://support.office.com/en-us/article/Getting-phones-for-Skype-for-Business-Online-91f2d947-45fc-4fab-bd8b-2e313531c477?ui=en-US&amp;rs=en-US&amp;ad=US).
+Si transfiere los usuarios desde un entorno local a un entorno en línea antes de actualizar el firmware, los usuarios no se podrán conectar con sus teléfonos. Para corregir este problema, es necesario volver a transferir los usuarios al entorno local para actualizar sus teléfonos con el firmware mínimo. NO INTENTE ACTUALIZAR AL FIRMWARE MÍNIMO O REALIZAR UN RESTABLECIMIENTO COMPLETO DEL TELÉFONO ANTES DE VOLVER A TRANSFERIR AL USUARIO A SU ENTORNO LOCAL.
+Si se realiza un restablecimiento completo mientras el dispositivo no tiene instalado el firmware mínimo, se usará de forma predeterminada la autenticación con PIN, que no es compatible con Skype Empresarial Online. Para obtener más información, consulte [Introducción teléfonos de Skype para profesionales en línea](https://support.office.com/en-us/article/Getting-phones-for-Skype-for-Business-Online-91f2d947-45fc-4fab-bd8b-2e313531c477?ui=en-US&amp;rs=en-US&amp;ad=US).
 
-Mediante la implementación del sistema de teléfono en Office 365 con conectividad de RTC local, puede mover los usuarios a la nube a través de Skype para profesionales en línea a su propio ritmo, conservando su conectividad de RTC local. Si tiene un PBX, seguirá usándolo para proporcionar conectividad con RTC a los usuarios que transfirió a la nube. Una vez que un usuario se mueve a Skype para profesionales en línea y el sistema de teléfono en Office 365, dejará de funcionar su teléfono PBX heredado, pero su número de teléfono redirigirá a cualquiera de los Skype para clientes empresariales de PC o teléfonos inteligentes, así como Skype para teléfono de escritorio compatibles con el negocio s. Una vez que los puertos, sistema telefónico en Office 365 a los usuarios y los usuarios de PBX heredados puede llamar mutuamente normalmente así como realizar y recibir llamadas de RTC mediante su número de teléfono normal.
+Mediante la implementación del sistema de teléfono en Office 365 con conectividad de RTC local, puede mover los usuarios a la nube a través de Skype para profesionales en línea a su propio ritmo, conservando su conectividad de RTC local. Si tiene un PBX, seguirá usándolo para proporcionar conectividad RTC a los usuarios que transfirió a la nube. Una vez que un usuario se mueve a Skype para profesionales en línea y el sistema de teléfono en Office 365, dejará de funcionar su teléfono PBX heredado, pero su número de teléfono redirigirá a cualquiera de los Skype para clientes empresariales de PC o teléfonos inteligentes, así como Skype para teléfono de escritorio compatibles con el negocio s. Una vez que los puertos, sistema telefónico en Office 365 a los usuarios y los usuarios de PBX heredados puede llamar mutuamente normalmente así como realizar y recibir llamadas de RTC mediante su número de teléfono normal.
 
 Puede tener una característica personalizada o un complemento principal en su PBX heredado, como un centro de llamadas. Si la característica personalizada no está actualmente disponible en el sistema telefónico en Office 365, debe dejar aquellos usuarios que requieren esa característica personalizada local con el sistema PBX heredado y el puerto sólo los usuarios que no es necesario para tener acceso a la característica personalizada para el sistema telefónico en Office 365 con la conectividad de RTC local.
 
-Para obtener una lista de PBX heredadas que interoperar directamente con Skype para Business Server 2015 vea [Infraestructura completa para Microsoft Lync](https://docs.microsoft.com/en-us/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Si su PBX no está en esta lista, puede usar un controlador de borde de sesión para conectar su PBX con el sistema telefónico en Office 365 en Skype para profesionales en línea.
+Para obtener una lista de PBX heredadas que interoperar directamente con Skype para Business Server 2015 vea [Infraestructura completa para Microsoft Lync](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Si su PBX no está en esta lista, puede usar un controlador de borde de sesión para conectar su PBX con el sistema telefónico en Office 365 en Skype para profesionales en línea.
 
 ### <a name="network-considerations-for-quality-and-performance"></a>Consideraciones de red para calidad y rendimiento
 
@@ -81,7 +81,7 @@ Antes de poder configurar el sistema telefónico en Office 365 con conectividad 
 | **Rol de servidor**                                       | **Versiones compatibles\\**\*                                                                                         |
 |:------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
 | Borde de federación\*\*  <br/>                            | Skype Empresarial Server 2015  <br/>                                                                              |
-| Servidor del grupo interno de ruta de federación del próximo salto  <br/> | Skype Empresarial Server 2015, actualización acumulativa 6.0.9319.235 de marzo de 2016 o superior (front-end o Director)  <br/> |
+| Servidor del grupo interno de ruta de federación del próximo salto  <br/> | Skype Empresarial Server 2015, actualización acumulativa 6.0.9319.235 de marzo de 2016 o superior (front-end o Director)   <br/> |
 | Servidor de usuario front-end  <br/>                          | Skype Empresarial Server 2015  <br/> Lync Server 2013  <br/>                                                      |
 | Servidor perimetral  <br/>                                    | Skype Empresarial Server 2015  <br/>                                                                              |
 | Servidor de mediación  <br/>                               | Skype Empresarial Server 2015  <br/> Lync Server 2013  <br/>                                                      |
@@ -100,7 +100,7 @@ Además debe asegurarse de lo siguiente:
 
     Si está utilizando Lync Server 2013, consulte [Planning for Enterprise Voice en Lync Server 2013](https://technet.microsoft.com/library/gg413081%28v=ocs.15%29.aspx) y la [Implementación de Enterprise Voice en Lync Server 2013](https://technet.microsoft.com/EN-US/library/gg412876%28v=ocs.15%29.aspx).
 
-- **Sincronización de Active Directory** Debe configurar la sincronización de Active Directory con Azure Connect de AD. Para obtener más información, vea [administración de Azure AD conectar](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-whats-next/).
+- **Sincronización de Active Directory** Debe configurar la sincronización de Active Directory con Azure Connect de AD. Para obtener más información, vea [administración de Azure AD conectar](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/).
 
     > [!NOTE]
     > La versión de AAD Connect que use tiene que ser la versión 1.0.9125.0 o posterior. Si usa una versión anterior de las herramientas de AAD Connect o DirSync, actualice a la versión compatible. Puede actualizar la instalación actual y mantener las reglas personalizadas que haya definido en su entorno. 

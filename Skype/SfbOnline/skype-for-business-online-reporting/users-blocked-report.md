@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Este informe, junto con otro Skype para los informes de negocio, proporciona detalles sobre la actividad, incluyendo el uso de RTC en toda la organización. '
-ms.openlocfilehash: 508d41de4a8b67e1a266bead6f91445acd041a7e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 789f881aff2f80603ac440250bc769d6c7b989c0
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860621"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838489"
 ---
 # <a name="users-blocked-report"></a>Informe de usuarios bloqueados
 
@@ -74,7 +74,7 @@ De esta forma se exportan los datos de todos los usuarios, a los que puede aplic
     
 - [Skype para informe de actividad de organizador de conferencia empresarial](conference-organizer-activity-report.md) Puede ver cuánto los usuarios están organizar conferencias que utilizan mensajería instantánea, audio y vídeo, compartir aplicaciones, Web, dial-in/out - 3rd fabricantes y dial-in/out - Microsoft.
     
-- [Skype para informe de actividad de participantes de conferencia empresarial](conference-participant-activity-report.md) Puede ver cuántos de mensajería instantánea, audio y vídeo, compartir aplicaciones, Web y y conferencias de conferencia de acceso telefónico de entrada/salida se va a participó en.
+- [Skype para informe de actividad de participantes de conferencia empresarial](conference-participant-activity-report.md) Puede ver cuántos de mensajería instantánea, audio y vídeo, uso compartido de aplicaciones, Web y conferencias de conferencia de acceso telefónico de entrada/salida se va a participó en.
     
 - [Skype para informe de actividad de punto a punto de negocio](peer-to-peer-activity-report.md) Puede ver cuánto los usuarios utilizan mensajería instantánea, audio y vídeo, uso compartido de aplicaciones y transferencia de archivos.
     

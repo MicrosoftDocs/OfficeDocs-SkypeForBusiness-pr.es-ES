@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Vídeos de aprendizaje, tutoriales y otros recursos para los administradores acerca de cómo planear, implementación y ejecutan Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bce73966b8aa15717e3c96e91f703059428127b
-ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
+ms.openlocfilehash: 4036e6b740b059dc1075afe4b7ad3da7b9277c88
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405163"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838516"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 
@@ -32,7 +32,7 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -50,7 +50,7 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/flag-blue.svg" alt="Flag" />
+                            <img src="https://docs.microsoft.com/office/media/icons/flag-blue.svg" alt="Flag" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -68,7 +68,7 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Users people" />
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users people" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -86,7 +86,7 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/video-play.svg" alt="video play" />
+                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="video play" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -104,7 +104,7 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/success.svg" alt="success" />
+                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="success" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -129,7 +129,7 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Recorrido desde Skype Empresarial a Teams</h3>
+                        <h3>Recorrido desde Skype Empresarial a Microsoft Teams</h3>
                          <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Recorrido desde Skype Empresarial a Microsoft Teams</a></p>
                     </div>
                 </div>

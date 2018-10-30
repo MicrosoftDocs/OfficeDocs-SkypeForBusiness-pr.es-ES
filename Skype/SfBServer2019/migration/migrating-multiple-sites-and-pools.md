@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Skype para Business Server 2019 es compatible con las implementaciones de varios sitios y grupo de varios servidores. El proceso de migración de varios grupos de servidores a Skype para Business Server 2019 requiere las siguientes consideraciones:'
-ms.openlocfilehash: 9716df65acfde26c41001bbc252b746ea1bd5241
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 74c622c1cde4a01c51749c6942c898e11e1551f9
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028750"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839166"
 ---
 # <a name="migrating-multiple-sites-and-pools"></a>Migración de varios sitios y grupos de servidores
 
@@ -31,6 +31,6 @@ Skype para Business Server 2019 es compatible con las implementaciones de varios
     
 6. Después de comprobar que el grupo heredado está vacío, a continuación, puede desactivar el grupo de servidores. 
     
-    Para obtener información detallada acerca de cómo desactivar los servidores y el grupo de servidores heredado heredado, vea [fase 8: retirar grupos heredados](phase-8-decommission-legacy-pools.md).
+    Para obtener información detallada acerca de cómo desactivar los servidores y el grupo de servidores heredado, vea [fase 8: retirar grupos heredados](phase-8-decommission-legacy-pools.md).
     
 

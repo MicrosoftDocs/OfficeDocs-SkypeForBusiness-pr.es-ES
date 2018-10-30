@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 'Resumen: Obtenga información sobre cómo migrar la configuración de usuario y mover los usuarios a los equipos.'
-ms.openlocfilehash: 78f0c49fa2179b4a0aa95a993476c21fb679f489
-ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
+ms.openlocfilehash: 76baa9cdc87535e68cc0bff4e9397a91d1090439
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25436568"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838720"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Mover usuarios de local a los equipos
 
@@ -79,7 +79,7 @@ Si los usuarios local tienen voz local, tiene dos opciones:
 -  **Migrar los usuarios con funciones de telefonía.** Los usuarios pueden realizar y recibir llamadas con el cliente de los equipos.  Puede elegir llamar a planeación de Microsoft o enrutamiento directo para conectarse a los servicios de telefonía para los equipos.  
 
     -  Llamar a planeación de Microsoft proporciona una solución de voz totalmente la en nube. Para obtener más información acerca de una llamada a planeación de Microsoft, consulte (vínculo próximamente). 
-    -  Enrutamiento directo le permite usar prácticamente cualquier tronco RTC y se puede configurar la interoperabilidad entre equipos de telefonía que pertenecen al cliente y el sistema de teléfono de Microsoft.  Para obtener más información, vea [Planear el enrutamiento directo](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-plan) y [Configurar el enrutamiento directo](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-configure).
+    -  Enrutamiento directo le permite usar prácticamente cualquier tronco RTC y se puede configurar la interoperabilidad entre equipos de telefonía que pertenecen al cliente y el sistema de teléfono de Microsoft.  Para obtener más información, vea [Planear el enrutamiento directo](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan) y [Configurar el enrutamiento directo](https://docs.microsoft.com/MicrosoftTeams/direct-routing-configure).
 
 -  **Migrar los usuarios sin funciones de telefonía.** Si migra a los usuarios sin mantener funciones de telefonía, asegúrese de que los usuarios tienen licencias adecuadas en la nube. 
 

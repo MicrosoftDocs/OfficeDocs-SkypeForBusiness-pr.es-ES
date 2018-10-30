@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: Planeación de la implementación de movilidad de Skype para Business Server.
-ms.openlocfilehash: 660f5013cd2e41ea08fdd2567fb9d51f58c1b8c6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 22d5b8bdeb6a82a202740af4919756daac47010a
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003010"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839384"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>Planeación de movilidad de Skype para Business Server
  
@@ -50,7 +50,7 @@ La característica de movilidad de Skype para Business Server es capaz de admiti
 Todo esto es posible gracias a la API web de comunicaciones unificadas (UCWA). UCWA se presentó en Lync Server 2013, y todavía está en uso para Skype para Business Server. No hay una funcionalidad adicional para la comunicación con los clientes de Lync 2010, y es el servicio de movilidad (MCX). Estos son los servicios de cortesía, lo que permite para Lync Server 2010 y clientes de 2013, así como Skype para clientes empresariales, para tener acceso a Skype para las implementaciones de Business Server correctamente.
   
 > [!NOTE]
-> Compatibilidad con MCX para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Los usuarios deben actualizar a un cliente actual. 
+> Compatibilidad con MCX (servicio de movilidad) para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Todos los Skype actual para los clientes móviles de negocio ya usa la API de Web de comunicaciones unificadas (UCWA) para admitir la mensajería instantánea (IM), presencia y contactos. Los usuarios con los clientes heredados con MCX necesitará actualizar a un cliente actual.
   
 Es importante tener en cuenta que mientras todas estas características están disponibles una vez que se ha implementado la movilidad, es posible que funcionan un poco diferente en algunos dispositivos. Tenemos un sitio Web que se describe qué características funcionan en qué dispositivos, en [comparación de características de cliente móvil de Skype para la empresa](clients-and-devices/mobile-feature-comparison.md). También tenemos algunos excelente dispositivo y la información del sistema operativo en la [planificación para los clientes y dispositivos](clients-and-devices/clients-and-devices.md).
   
@@ -96,7 +96,7 @@ Hay cuatro servicios que conforman la movilidad de Skype para Business Server:
     Admite Skype para la funcionalidad del servidor empresarial, como mensajería instantánea, presencia y contactos, en dispositivos móviles. El servicio de movilidad se instala en cada servidor Front-End de cada grupo de servidores que se va a admitir Skype para la funcionalidad del servidor de negocio en dispositivos móviles. Al instalar Skype para Business Server 2015 se crea un nuevo directorio virtual (Mcx) en ambos sitios internos y externos en los servidores Front-End.
     
     > [!NOTE]
-    > Compatibilidad con MCX para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Los usuarios deben actualizar a un cliente actual.
+    > Compatibilidad con MCX (servicio de movilidad) para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Todos los Skype actual para los clientes móviles de negocio ya usa la API de Web de comunicaciones unificadas (UCWA) para admitir la mensajería instantánea (IM), presencia y contactos. Los usuarios con los clientes heredados con MCX necesitará actualizar a un cliente actual.
   
 - **Servicio Detección automática**
     
@@ -197,7 +197,7 @@ Si utiliza una topología de Skype para Business Server que incluye un HLB para 
   
 Si piensa admitir Skype para clientes móviles de negocio sólo a través de su red Wi-Fi interna, debe configurar a la VIP de servicios Web interno de origen tal como se describe para VIP de servicios Web externos. En esta situación, debe usar source_addr (o TCP) afinidad para la VIP de servicios Web internos en el HLB.
   
-Para obtener información detallada sobre estos temas, revise la documentación de [Equilibrio de carga de los requisitos de Skype para la empresa](network-requirements/load-balancing.md) .
+Para obtener información sobre esta cuestión, consulte el tema [Load balancing requirements for Skype for Business](network-requirements/load-balancing.md).
   
 ### <a name="reverse-proxy-requirements"></a>Requisitos de proxy inverso
 
@@ -233,15 +233,15 @@ Las notificaciones de inserción se utilizan para las aplicaciones móviles comp
   
 ### <a name="do-you-want-all-your-users-accessing-all-mobility-features-or-do-you-want-to-specify-the-users-who-can-access-these-features-instead"></a>¿Desea que todos los usuarios obtener acceso a todas las características de movilidad o desea especificar los usuarios que pueden tener acceso a estas características en su lugar?
 
-Tenemos una tabla para ayudar a con algunas de las características que están disponibles para todos los usuarios y, si está configurados que manera o no por valor predeterminado. Para obtener una lista completa, consulte [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+Tenemos una tabla para ayudar a con algunas de las características que están disponibles para todos los usuarios y, si está configurados que manera o no por valor predeterminado. Para obtener una lista completa, consulte [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
   
 > [!NOTE]
 > Los ámbitos para todas estas características son Global/Sitio/Usuario. 
   
 |**Característica**|**Nombre del parámetro**|**Descripción**|**Valor predeterminado**|
 |:-----|:-----|:-----|:-----|
-|Permitir movilidad  <br/> |Enablemobility configurada  <br/> |Controla a los usuarios que disponen de Skype para clientes móviles de negocio instalado en un ámbito determinado. Si la directiva está definida en falso, los usuarios no podrán iniciar sesión con su cliente.  <br/> |True  <br/> |
-|Voz externa  <br/> |Enableoutsidevoice configurada  <br/> |Habilita la capacidad de un usuario para usar Vía trabajo, que permite a los usuarios enviar y recibir llamadas utilizando su número de teléfono del trabajo en lugar de su número de teléfono móvil. Si está definida en falso, los usuarios no podrán realizar o recibir llamadas en su teléfono móvil cuando utilicen su número de teléfono del trabajo.  <br/> |True  <br/> |
+|Permitir movilidad  <br/> |EnableMobility  <br/> |Controla a los usuarios que disponen de Skype para clientes móviles de negocio instalado en un ámbito determinado. Si la directiva está definida en falso, los usuarios no podrán iniciar sesión con su cliente.  <br/> |True  <br/> |
+|Voz externa  <br/> |EnableOutsideVoice  <br/> |Habilita la capacidad de un usuario para usar Vía trabajo, que permite a los usuarios enviar y recibir llamadas utilizando su número de teléfono del trabajo en lugar de su número de teléfono móvil. Si está definida en falso, los usuarios no podrán realizar o recibir llamadas en su teléfono móvil cuando utilicen su número de teléfono del trabajo.  <br/> |True  <br/> |
 |Permitir Audio y vídeo IP  <br/> |EnableIPAudioVideo  <br/> |Si se define en el valor predeterminado, permite a un usuario utilizar VoIP para realizar o recibir llamadas de teléfono o videollamadas en su dispositivo móvil. Si se define en falso, los usuarios no podrán utilizar su dispositivo móvil para dichos fines.  <br/> |True  <br/> |
 |Requerir Wi-Fi para audio IP  <br/> |RequireWiFiForIPAudio  <br/> |Define si un cliente necesitará realizar y recibir llamadas de VoIP con una red WiFi en lugar de con una red de datos de telefonía móvil. Si se define en verdadero, los usuarios solo podrán realizar y recibir llamadas de VoIP cuando estén conectados a una red WiFi.  <br/> |Falso  <br/> |
 |Requerir Wi-Fi para vídeo IP  <br/> |RequireWiFiForIPVideo  <br/> |Define si un cliente necesitará realizar y recibir videollamadas con una red WiFi en lugar de con una red de datos de telefonía móvil. Si se define en verdadero, los usuarios solo podrán realizar y recibir llamadas de VoIP cuando estén conectados a una red WiFi.  <br/> |Falso  <br/> |

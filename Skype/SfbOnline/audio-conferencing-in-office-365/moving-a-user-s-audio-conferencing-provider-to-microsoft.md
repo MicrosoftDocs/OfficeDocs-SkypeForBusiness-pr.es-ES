@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 description: 'Change your Skype for Business users from third-party audio conferencing providers (ACP) to a Microsoft dial-in conferencing provider. '
 robots: noindex
-redirect_url: https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider
+redirect_url: https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider
 redirect_document_id: true
-ms.openlocfilehash: 10c5c6e0180e7d57df42d6a96561e21510c7bc33
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 14e853b542b075b4a12418dff02c956d194d3004
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888013"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838471"
 ---

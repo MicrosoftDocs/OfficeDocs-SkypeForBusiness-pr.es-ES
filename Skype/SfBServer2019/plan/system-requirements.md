@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Resumen: Prepare su Skype Business Server 2019 servidores y la infraestructura de dominio con este tema. Hardware, sistema operativo, las bases de datos, software, todos los requisitos del sistema y recomendaciones, junto con el certificado de DNS, recurso compartido de archivos e información de Active Directory, están aquí ayudar a garantizar una instalación correcta y la implementación de la granja de servidores.'
-ms.openlocfilehash: e8a5b29bb555df6ae3920d521dd21ca8bbe38d7f
-ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
+ms.openlocfilehash: 39de1f756d5fdd278ea497d1273e474e030bb448
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25784705"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838631"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Requisitos del sistema para Skype para Business Server 2019
  
@@ -347,7 +347,7 @@ En esta topología, hay uno o más bosques de usuarios y Skype para Business Ser
   
 Con este escenario, hay varios bosques locales, con una topología de bosque de recursos. Hay una relación de total confianza entre los bosques de Active Directory. La herramienta Azure Active Directory Connect se utiliza para sincronizar cuentas entre los bosques de usuarios locales y Office 365.
   
- La organización también tiene Office 365 y usa [Azure Active Directory Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect) para sincronizar sus cuentas locales con Office 365. Los usuarios habilitados para Skype para la empresa están habilitados a través de Office 365 y Skype para profesionales en línea. Skype para Business Server no está instalados en servidores locales.
+ La organización también tiene Office 365 y usa [Azure Active Directory Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) para sincronizar sus cuentas locales con Office 365. Los usuarios habilitados para Skype para la empresa están habilitados a través de Office 365 y Skype para profesionales en línea. Skype para Business Server no está instalados en servidores locales.
   
 Autenticación de inicio de sesión único es proporcionada por una granja de servidores de servicios de federación de Active Directory que se encuentra en el bosque de usuarios.
   

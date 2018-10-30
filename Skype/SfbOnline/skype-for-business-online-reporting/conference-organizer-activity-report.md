@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: ac3c65a19d80e5218e121c1cf582753e5f5eecc5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 871af1f9ec06f24b7c2ef6248c1d48b859bb4563
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372595"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838558"
 ---
 # <a name="conference-organizer-activity-report"></a>Informe de actividad del organizador de la conferencia
 
@@ -109,7 +109,7 @@ Si las directivas de la organización le impiden ver los informes en los que la 
     
 - [Skype para el informe de uso del dispositivo de empresa](device-usage-report.md) Puede para ver los dispositivos incluidos los sistemas operativos basados en Windows y dispositivos móviles que tienen el Skype para la aplicación empresarial de instalan y están usando para la mensajería instantánea y reuniones.
     
-- [Skype para informe de actividad de participantes de conferencia empresarial](conference-participant-activity-report.md) Puede ver cuántos de mensajería instantánea, audio y vídeo, compartir aplicaciones, Web y y conferencias de conferencia de acceso telefónico de entrada/salida se va a participó en.
+- [Skype para informe de actividad de participantes de conferencia empresarial](conference-participant-activity-report.md) Puede ver cuántos de mensajería instantánea, audio y vídeo, uso compartido de aplicaciones, Web y conferencias de conferencia de acceso telefónico de entrada/salida se va a participó en.
     
 - [Skype para informe de actividad de punto a punto de negocio](peer-to-peer-activity-report.md) Puede ver la cantidad de los usuarios están usando aplicaciones de mensajería instantánea, audio y vídeo, uso compartido y la transferencia de archivos.
     

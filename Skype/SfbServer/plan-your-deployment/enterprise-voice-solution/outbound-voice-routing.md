@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: Obtenga información acerca del enrutamiento de voz salientes en Skype para Business Server Enterprise Voice, incluida la configuración de enrutamiento de llamadas, planes de marcado, reglas de normalización, las directivas de voz, registros de uso de RTC y rutas de voz.
-ms.openlocfilehash: 60a1041bee0f235a232c7516dd9e0122ea7b7b65
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8b7ef6c4e07bd7618645606c777b257e1d32691f
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883658"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838819"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Plan para el enrutamiento de voz salientes en Skype para Business Server
  
@@ -44,7 +44,7 @@ Las reglas de normalización definen la forma en que los números de teléfono e
   
 ### <a name="dial-plan-scope"></a>Ámbito del plan de marcado
 
-El alcance de un plan de marcado determina el nivel jerárquico en el que se puede aplicar. En Skype para Business Server, un usuario puede asignar un plan de marcado por usuario específico. Si no se asigna un plan de marcado del usuario, se aplica el plan de marcado de grupo de servidores Front-End. Si no hay ningún plan de marcado de grupo de servidores de grupo de servidores Front-End, se aplica el plan de marcado de sitio. Por último, si no hay otro plan de marcado aplicable al usuario, se aplica el plan de marcado global.
+El alcance de un plan de marcado determina el nivel jerárquico en el que se puede aplicar. En Skype para Business Server, un usuario puede asignar un plan de marcado por usuario específico. Si no se asigna un plan de marcado del usuario, se aplica el plan de marcado de grupo de servidores Front-End. Si no hay ningún plan de marcado de grupo de servidores Front-End, se aplica el plan de marcado de sitio. Por último, si no hay otro plan de marcado aplicable al usuario, se aplica el plan de marcado global.
   
 Los clientes obtienen los niveles de ámbito del plan de marcado a través de la configuración de aprovisionamiento en banda que se proporciona cuando los usuarios inician sesión en Skype para la empresa. Como administrador, puede administrar y asignar niveles de ámbito del plan de marcado mediante Skype para el Panel de Control de servidor empresarial.
   
@@ -81,7 +81,7 @@ Para planificar un plan de marcado, haz lo siguiente:
     
     Si su organización mantiene un único plan de marcado a través de varias ubicaciones, es posible que aún necesita crear un plan de marcado independiente para los usuarios de Enterprise Voice que va a migrar desde una central de conmutación (PBX) y que necesitan tener sus extensiones existentes que se conservan.
     
-- Decide si son necesarios los planes de marcado por usuario. Por ejemplo, si tiene usuarios en un sitio de sucursal que están registradas en el sitio central o si tiene usuarios que están registrados en una aplicación de sucursal con funciones de supervivencia, se puede tener en cuenta especial escenarios de marcado para dichos usuarios con por usuario planes de marcado y reglas de normalización . Para obtener información detallada, consulte [Plan para la resistencia de Enterprise Voice en Skype para Business Server](enterprise-voice-resiliency.md).
+- Decide si son necesarios los planes de marcado por usuario. Por ejemplo, si tiene usuarios en un sitio de sucursal que están registradas en el sitio central o si tiene usuarios que están registrados en una aplicación de sucursal con funciones de supervivencia, se puede tener en cuenta especial escenarios de marcado para dichos usuarios con por usuario planes de marcado y reglas de normalización . Para obtener más detalles, mira [Plan for Enterprise Voice resiliency in Skype for Business Server](enterprise-voice-resiliency.md).
     
 - Determina el ámbito del plan de marcado (como ya se ha explicado antes en este tema).
     
@@ -228,9 +228,9 @@ Puedes habilitar o deshabilitar las siguientes características de llamada para 
     
 - El **reemplazo de directiva de ancho de banda** permite a los administradores cambiar las decisiones de la directiva del servicio de control de admisión de llamadas para un usuario en concreto. Está deshabilitado de forma predeterminada.
     
-- **El seguimiento de llamadas malintencionadas** permite a los usuarios informar las llamadas malintencionadas mediante el uso de la Skype para clientes empresariales y, a continuación, marcas esas llamadas en los registros de detalles de llamadas. Está deshabilitada de forma predeterminada.
+- **El seguimiento de llamadas malintencionadas** permite a los usuarios informar las llamadas malintencionadas mediante el uso de la Skype para clientes empresariales y, a continuación, marcas esas llamadas en los registros de detalles de llamadas. Está deshabilitado de forma predeterminada.
     
-- **Correo de voz escape** evita que las llamadas se enrute inmediatamente al sistema de correo de voz de teléfono móvil del usuario cuando las llamadas simultáneas se configura y el teléfono está desactivado, fuera de la batería o fuera del intervalo y se basa en un valor de temporizador. Esta configuración habilita y deshabilita el temporizador, y establece su valor. Se puede configurar sólo mediante la Skype para Shell de administración de servidor empresarial. Está deshabilitada de forma predeterminada.
+- **Correo de voz escape** evita que las llamadas se enrute inmediatamente al sistema de correo de voz de teléfono móvil del usuario cuando las llamadas simultáneas se configura y el teléfono está desactivado, fuera de la batería o fuera del intervalo y se basa en un valor de temporizador. Esta configuración habilita y deshabilita el temporizador, y establece su valor. Se puede configurar sólo mediante la Skype para Shell de administración de servidor empresarial. Está deshabilitado de forma predeterminada.
     
 - **Usos de RTC de llamadas simultáneos y desvío de llamadas** permite a los administradores especificar el mismo uso de RTC, como la directiva de voz para el desvío de llamadas y llamadas simultáneas, restringir el desvío de llamadas y las llamadas simultáneas a Skype interno para Usuarios de empresa, o especifique un uso de RTC personalizado que es distinto del uso de RTC de la directiva de voz. La opción predeterminada es usar el mismo uso de RTC que la directiva de voz para el desvío de llamadas y las llamadas simultáneas.
     

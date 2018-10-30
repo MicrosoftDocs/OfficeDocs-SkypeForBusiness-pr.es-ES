@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: El nuevo panel Informes de Office 365 muestra la información general de actividad en los productos de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto. Por ejemplo, puede usar el Skype para el informe de uso del dispositivo de empresa para ver los dispositivos, incluidos los sistemas operativos basados en Windows y dispositivos móviles, que tienen el Skype para la aplicación empresarial de instalan y están usando para la mensajería instantánea y reuniones. Comprobar los informes de actividad en el centro de administración de Office 365 para obtener más información.
-ms.openlocfilehash: 72d700f5e3c63fde3f4a17f6a652643695303a8d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3d5561bfe0f2a2c5b6900c7cf6a1e92d63741992
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863387"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838684"
 ---
 # <a name="device-usage-report"></a>Informe del uso de los dispositivos
 
@@ -67,7 +67,7 @@ Cada informe tiene la fecha del momento en que se generó. Normalmente, los info
 ***
 ![Número 4](../images/sfbcallout4.png)<br/>Usar los datos de gráfico interactivo en el gráfico de barras **distribución** para comprender el uso para ver el número de usuarios con los dispositivos de únicos en la organización. Mostrará el número total de **Windows**, **Teléfono Android**, **Windows Phone**, **iPhone**y los usuarios de **iPad** con un dispositivo que se usa. 
 ***
-![Número 5](../images/sfbcallout5.png)<br/>Puede filtrar las series que aparecen en el gráfico haciendo clic en un elemento de la leyenda. Por ejemplo, en el gráfico de **los usuarios** , haga clic en o puntee en **Windows**, **Windows Phone**, **Teléfono Android**, **iPhone**o **iPad** para ver sólo la información relacionada con cada uno de ellos. Si se cambia esta selección, no se cambia la información en la tabla de cuadrícula. 
+![Número 5](../images/sfbcallout5.png)<br/>Puede filtrar las series que aparecen en el gráfico haciendo clic en un elemento de la leyenda. Por ejemplo, en el gráfico de **los usuarios** , haga clic en o puntee en **Windows**, **Windows Phone**, **Teléfono Android**, **iPhone**o **iPad** para ver sólo la información relacionada con cada uno de ellos. Cambiar esta selección no cambia la información en la tabla de cuadrícula. 
 ***
 ![Número 6](../images/sfbcallout6.png)<br/>Cada gráfico tiene un eje X (horizontal) y un eje Y (vertical).
 *    En el gráfico de **los usuarios** , el eje Y es el número total de usuarios conectados a un dispositivo que tiene el Skype para la aplicación empresarial de instalado.
@@ -96,7 +96,7 @@ Si las directivas de la organización le impiden ver los informes en los que la 
     
 - [Skype para informe de actividad de organizador de conferencia empresarial](conference-organizer-activity-report.md) Puede ver cuánto los usuarios están organizar conferencias que utilizan mensajería instantánea, audio y vídeo, compartir aplicaciones, Web, dial-in/out - 3rd fabricantes y dial-in/out - Microsoft.
     
-- [Skype para informe de actividad de participantes de conferencia empresarial](conference-participant-activity-report.md) Puede ver cuántos de mensajería instantánea, audio y vídeo, compartir aplicaciones, Web y y conferencias de conferencia de acceso telefónico de entrada/salida se va a participó en.
+- [Skype para informe de actividad de participantes de conferencia empresarial](conference-participant-activity-report.md) Puede ver cuántos de mensajería instantánea, audio y vídeo, uso compartido de aplicaciones, Web y conferencias de conferencia de acceso telefónico de entrada/salida se va a participó en.
     
 - [Skype para informe de actividad de punto a punto de negocio](peer-to-peer-activity-report.md) Puede ver cuánto los usuarios utilizan mensajería instantánea, audio y vídeo, uso compartido de aplicaciones y transferencia de archivos.
     

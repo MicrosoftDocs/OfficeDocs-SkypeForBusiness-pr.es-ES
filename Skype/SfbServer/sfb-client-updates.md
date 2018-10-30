@@ -4,24 +4,25 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: mwa
 ms.topic: reference
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Proporciona a los profesionales de TI vínculos a la información más reciente acerca de las actualizaciones para las versiones perpetuas de los clientes de Skype Empresarial 2016, Skype Empresarial 2015 y Lync 2013.
-ms.openlocfilehash: 69ff89c856204577c46f27c568f3b6d9cf5613b2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 522161d38c3e7a0b5cb46e9ce098e48478173a68
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374166"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839272"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Actualizaciones más recientes de las versiones de Skype Empresarial que usan Windows Installer (MSI)
 
 Use los vínculos de esta página para obtener más información y descargar las actualizaciones más recientes de las versiones perpetuas de los clientes de Skype Empresarial 2016, Skype Empresarial 2015 y Lync 2013.
 
 > [!NOTE]
-> - The information in this article only applies to perpetual versions of Skype for Business that use the Windows Installer (MSI) installation technology. For example, if you installed a volume licensed version of Skype for Business, such as Skype for Business included with Office Professional Plus 2016.
+> - La información de este artículo solo se aplica a las versiones perpetuas de Skype Empresarial que usan la tecnología de instalación de Windows Installer (MSI). Por ejemplo, la instalación de una versión con licencias por volumen de Skype Empresarial, como la versión de Skype Empresarial incluida en Office Professional Plus 2016.
 > - La información de este artículo no se aplica a las versiones de Office 365 de Skype Empresarial, como la que se incluye en Office 365 ProPlus.
 > - Para obtener las actualizaciones de clientes móviles más recientes, vaya a la tienda de aplicaciones de su cliente móvil (iTunes, Google Play o Microsoft Store) para ver los detalles e instalar las actualizaciones.
 > - Para descubrir qué versión de Skype Empresarial estás usando, consulta [¿Qué versión de Skype Empresarial tengo?](https://support.microsoft.com/en-us/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
@@ -29,11 +30,11 @@ Use los vínculos de esta página para obtener más información y descargar las
 
 La compatibilidad de Skype Empresarial con Office 365 y el entorno local depende de los requerimientos del sistema de tu implementación:
 
-- Office 365 works with any version of Skype for Business that is in mainstream support, which includes the latest version of Skype for Business 2016. For previous versions of Skype for Business, only those that have extended support may continue to work with Office 365, although with reduced functionality. For more information, see [Microsoft Lifecycle Policy](https://support.microsoft.com/lifecycle).
+- Office 365 funciona con cualquier versión de Skype Empresarial que tenga soporte estándar, incluido en la última versión de Skype Empresarial 2016. Para las versiones anteriores de Skype Empresarial, solo las que tengan soporte extendido pueden seguir funcionando con Office 365, aunque tendrán una funcionalidad reducida. Para obtener más información, vea [Directiva del ciclo de vida de Microsoft](https://support.microsoft.com/lifecycle).
 
 - Para las implementaciones locales de Skype Empresarial Server, siga los requerimientos del sistema de su versión de Skype Empresarial:
 
-  - [Requisitos para el entorno de Skype Empresarial Server](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)
+  - [Requisitos para el entorno de Skype Empresarial Server](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)
 
   - [Requerimientos del sistema de Lync Server 2013](https://technet.microsoft.com/en-us/library/jj205115(v=ocs.15).aspx)
 
