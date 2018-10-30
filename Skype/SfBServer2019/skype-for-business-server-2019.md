@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Resumen: Explore estos vínculos para obtener información sobre cómo implementar Skype para Business Server 2019.'
-ms.openlocfilehash: 932d23521b6406e930da4c9b90b0c892307faabd
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 1467f27a0560a27f386e7368fdf654831a65c0a6
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696201"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838756"
 ---
 # <a name="skype-for-business-server-2019"></a>Skype para Business Server 2019
 
@@ -28,7 +28,7 @@ ms.locfileid: "25696201"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-blue.svg" alt="Plan" />
+                            <img src="https://docs.microsoft.com/office/media/icons/tasks-blue.svg" alt="Plan" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -46,7 +46,7 @@ ms.locfileid: "25696201"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/hybrid-blue.svg" alt="Chat" />
+                            <img src="https://docs.microsoft.com/office/media/icons/hybrid-blue.svg" alt="Chat" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -64,7 +64,7 @@ ms.locfileid: "25696201"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-blue.svg" alt="User account" />
+                            <img src="https://docs.microsoft.com/office/media/icons/deploy-blue.svg" alt="User account" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -84,7 +84,7 @@ ms.locfileid: "25696201"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/upload-blue.svg" alt="Plan" />
+                            <img src="https://docs.microsoft.com/office/media/icons/upload-blue.svg" alt="Plan" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -102,7 +102,7 @@ ms.locfileid: "25696201"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/list-123-blue.svg" alt="Chat" />
+                            <img src="https://docs.microsoft.com/office/media/icons/list-123-blue.svg" alt="Chat" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -120,7 +120,7 @@ ms.locfileid: "25696201"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/download-blue.svg" alt="User account" />
+                            <img src="https://docs.microsoft.com/office/media/icons/download-blue.svg" alt="User account" />
                         </div>
                     </div>
                     <div class="cardText">

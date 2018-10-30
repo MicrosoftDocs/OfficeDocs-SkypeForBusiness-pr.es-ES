@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 description: ''
 robots: noindex
-redirect_url: https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider
+redirect_url: https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider
 redirect_document_id: true
-ms.openlocfilehash: b8e356cfffd8da23e363454b3e390ebb09a5c52f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: dcb025f0954f5e1a871f7364c0aa32397df733eb
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881893"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838461"
 ---
