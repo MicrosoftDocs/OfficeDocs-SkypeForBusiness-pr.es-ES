@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo enrutamiento directo de Microsoft teléfono del sistema le permite conectar un compatibles, proporcionado por el cliente sesión controlador de borde (SBC) para el sistema telefónico de Microsoft.
-ms.openlocfilehash: c0aa89e8e1900aefd069b132e8e082aa477e2786
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: d9b1cf0f819639aebd1250bd37f4fc85d5555fc4
+ms.sourcegitcommit: a54864c3fcd1b8d240d0f7f2ccf68f8cba566e47
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839482"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "25849409"
 ---
 # <a name="plan-direct-routing"></a>Planeación de enrutamiento directo
 
@@ -221,16 +221,12 @@ El intervalo de puertos de los procesadores de medios se muestra en la siguiente
 
 ## <a name="supported-session-border-controllers-sbcs"></a>Admite controladores de borde de sesión (SBCs)
 
-Microsoft sólo admite la SBC certificada para emparejar con el enrutamiento directo. Debido a que Enterprise Voice es crítico para la empresa, Microsoft ejecuta pruebas intensivas con el seleccionado SBCs y funciona con los proveedores SBC para asegurarse de los dos sistemas es compatible. 
+Microsoft sólo admite SBCs certificadas para emparejar con el enrutamiento directo. Debido a que Enterprise Voice es fundamental para los negocios, Microsoft ejecuta pruebas intensivas con el seleccionado SBCs y funciona con los proveedores SBC para asegurarse de los dos sistemas es compatible. 
 
-Los dispositivos que se han validado aparecen como certificado para el enrutamiento directo de los equipos. Se garantizan que los dispositivos certificados para que funcione en todos los escenarios. También es un proceso de soporte conjunto entre Microsoft y los proveedores SBC establecidos.  
+Los dispositivos que se han validado aparecen como certificado para el enrutamiento directo de los equipos. Se garantizan que los dispositivos certificados para que funcione en todos los escenarios. 
 
-Los siguientes proveedores están en el proceso de estar certificadas:
-- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
-- Comunicaciones de la cinta de opciones (anteriormente Sonus):
-   - [Serie de SBC perimetral](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
-   - [SBC Core Series](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
-- ThinkTel: ThinkTel no se vende el SBCs a las empresas, pero su SBC es estar certificada.  
+Para obtener más información acerca de SBCs compatibles, vea la [lista de controladores de borde de sesión de certificados para el enrutamiento directo](direct-routing-border-controllers.md).
+
  
 ## <a name="see-also"></a>Vea también
 
