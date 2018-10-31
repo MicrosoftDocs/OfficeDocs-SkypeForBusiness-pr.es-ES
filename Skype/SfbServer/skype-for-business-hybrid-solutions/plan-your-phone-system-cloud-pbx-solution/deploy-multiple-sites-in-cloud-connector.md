@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Obtenga información sobre la implementación de varios sitios de RTC en la nube conector Edition.
-ms.openlocfilehash: b6d4c489136f038a5d4dbe7188958ef60e4a5aed
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 388915d0ab22dc50378d84a82c01291cfd7c99eb
+ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889716"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25851493"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Implementar varios sitios en Cloud Connector
  
@@ -48,7 +48,7 @@ ExternalMRIPs=192.168.1.4
 ExternalMRPublicIPs=23.99.115.35
 ```
 
-Sitio RTC 2
+Sitio de RTC 2
   
 ```
 [Common]
@@ -78,17 +78,18 @@ En la siguiente tabla se muestran las diferencias entre un sitio único compatib
   
 |**Categoría**|**Elemento**|**Sitio único con HA**|**Varios sitios**|
 |:-----|:-----|:-----|:-----|
+|Configuración  <br/> |Nombre de Host del dispositivo <br/> |**Diferentes** en todos los dispositivos. <br/> |**Diferentes** en todos los sitios de RTC. <br/> |
 |Configuración  <br/> |Carpeta compartida  <br/> |Requiere la **misma** carpeta compartida a través de dispositivos <br/> |Requiere una carpeta compartida **distinta** en cada dispositivo. <br/> |
 |Configuración  <br/> |VirtualMachineDomain  <br/> |Requiere el **mismo** dominio en todos los dispositivos. <br/> |Requiere el **mismo** dominio en todos los sitios de RTC. <br/> |
-|Configurar  <br/> |SIPDomains  <br/> |Orden y nombres de dominio deben ser el **mismo** a través de dispositivos <br/> |Orden y nombres de dominio deben ser el **mismo** en todos los sitios de RTC <br/> |
-|Configurar  <br/> |Nombre del sitio  <br/> |Un nombre del sitio **igual** en todos los dispositivos. <br/> |Un nombre del sitio **diferente** en todos los sitios de RTC. <br/> |
-|Configurar  <br/> |Nombres de servidores  <br/> |**Diferentes** en todos los dispositivos. <br/> |**Diferentes** en todos los sitios de RTC. <br/> |
-|Configurar  <br/> |FQDN del grupo interno  <br/> |**Iguales** en todos los dispositivos. <br/> |**Iguales** en todos los sitios de RTC. <br/> |
-|Configurar  <br/> |IP internas  <br/> |**Diferentes** en todos los dispositivos. <br/> |**Diferentes** en todos los sitios de RTC. <br/> |
-|Configurar  <br/> |FQDN externo  <br/> |**Igual** en todos los dispositivos. <br/> |**Diferente** en todos los sitios de RTC. <br/> |
-|Configurar  <br/> |IP externas  <br/> |**Diferentes** en todos los dispositivos. <br/> |**Diferentes** en todos los sitios de RTC. <br/> |
-|Configurar  <br/> |Configuración de la puerta de enlace RTC  <br/> |**Igual** en todos los dispositivos. <br/> |**Diferente** en todos los sitios de RTC. <br/> |
-|Configurar  <br/> |Registro DNS  <br/> |Agregar registros con el **mismo** FQDN externos de acceso y direcciones IP **diferentes** <br/> |Agregar registros con **diferentes** FQDN de acceso externo y **diferentes** direcciones IP <br/> |
+|Configuración  <br/> |SIPDomains  <br/> |Orden y nombres de dominio deben ser el **mismo** a través de dispositivos <br/> |Orden y nombres de dominio deben ser el **mismo** en todos los sitios de RTC <br/> |
+|Configuración  <br/> |Nombre del sitio  <br/> |Un nombre del sitio **igual** en todos los dispositivos. <br/> |Un nombre del sitio **diferente** en todos los sitios de RTC. <br/> |
+|Configuración  <br/> |Nombres de servidores  <br/> |**Diferentes** en todos los dispositivos. <br/> |**Diferentes** en todos los sitios de RTC. <br/> |
+|Configuración  <br/> |FQDN del grupo interno  <br/> |**Iguales** en todos los dispositivos. <br/> |**Iguales** en todos los sitios de RTC. <br/> |
+|Configuración  <br/> |IP internas  <br/> |**Diferentes** en todos los dispositivos. <br/> |**Diferentes** en todos los sitios de RTC. <br/> |
+|Configuración  <br/> |FQDN externo  <br/> |**Igual** en todos los dispositivos. <br/> |**Diferente** en todos los sitios de RTC. <br/> |
+|Configuración  <br/> |IP externas  <br/> |**Diferentes** en todos los dispositivos. <br/> |**Diferentes** en todos los sitios de RTC. <br/> |
+|Configuración  <br/> |Configuración de la puerta de enlace RTC  <br/> |**Igual** en todos los dispositivos. <br/> |**Diferente** en todos los sitios de RTC. <br/> |
+|Configuración  <br/> |Registro DNS  <br/> |Agregar registros con el **mismo** FQDN externos de acceso y direcciones IP **diferentes** <br/> |Agregar registros con **diferentes** FQDN de acceso externo y **diferentes** direcciones IP <br/> |
 |Configuración  <br/> |Inquilino híbrida  <br/> |Configurar HybridPSTNSite  <br/> Configurar PeerDestination para la reserva  <br/> |Configurar HybridPSTNSite  <br/> Configurar PeerDestination para la reserva  <br/> |
 |Configuración  <br/> |Puerta de enlace  <br/> |Asignación de MS GW **M:N** en este sitio <br/> |Las puertas de enlace RTC en cada sitio RTC deben conectarse solamente a los servidores de mediación en el mismo sitio.  <br/> |
 |Configuración  <br/> |Usuario  <br/> |Configurar UserPSTNSettings  <br/> |Configurar UserPSTNSettings  <br/> |
