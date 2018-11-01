@@ -12,7 +12,7 @@
 ### [Introducción general a la implementación](../deploy/deploy-clients/room-systems-v2.md)
 ### [Configurar cuentas](../deploy/deploy-clients/room-systems-v2-configure-accounts.md)
 ### [Con Office 365](../deploy/deploy-clients/with-office-365.md)
-### [Con Skype para Business Server 2015](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
+### [Con Skype para Business Server](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
 ### [Con Exchange Online (híbrido)](../deploy/deploy-clients/with-exchange-online.md)
 ### [Con Exchange local (híbrido)](../deploy/deploy-clients/with-exchange-on-premises.md)
 ### [Configurar una consola](../deploy/deploy-clients/console.md)
