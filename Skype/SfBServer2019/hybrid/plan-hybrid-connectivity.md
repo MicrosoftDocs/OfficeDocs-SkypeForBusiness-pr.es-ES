@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Consideraciones de planeación para implementar la conectividad de híbrida entre Skype para Business Server y Skype para profesionales en línea o los equipos.
-ms.openlocfilehash: d3726c2975056499ec61e12b4dd8d63f63beb3e9
-ms.sourcegitcommit: a54864c3fcd1b8d240d0f7f2ccf68f8cba566e47
+ms.openlocfilehash: 55a6fd1d59e8e5af578b9a1c35c61204f925d866
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25849365"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890574"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Planeación de la conectividad híbrida entre Skype para Business Server y Office 365
 
@@ -22,7 +22,7 @@ ms.locfileid: "25849365"
 
 Lea este tema para obtener información sobre cómo planear la conectividad híbrida entre Skype para Business Server y los equipos o Skype para profesionales en línea. Configurar conectividad híbrida es el primer paso para mover el entorno local a la nube.
 
-Si tiene un entorno local y usa los equipos, los usuarios que están hospedados en Skype para la empresa local no tienen la capacidad de interoperar con Skype para usuarios profesionales ni comunicarse con usuarios de organizaciones federadas. Para obtener esta funcionalidad en los equipos, estos usuarios se deben mover de Skype para empresarial local a la nube, que requiere la configuración de Skype para modo híbrido de negocio. Además, para la mejor experiencia, estos usuarios deben en modo sólo los equipos, lo que asegura que todas las llamadas entrantes y charlas desde cualquier land de usuario en el cliente de los equipos del usuario.
+Si dispone de Skype local para los usuarios de negocios que también está usando los equipos (en paralelo), los usuarios no tienen la capacidad de interoperar con Skype para los usuarios de negocio de su cliente de los equipos, ni comunicarse con los usuarios de organizaciones federadas, desde sus Cliente de los equipos. Para obtener esta funcionalidad en los equipos, estos usuarios se deben mover de Skype para empresarial local a la nube, que requiere la configuración de Skype para modo híbrido de negocio. Además, para la mejor experiencia, estos usuarios deben en modo sólo los equipos, lo que asegura que todas las llamadas entrantes y charlas desde cualquier land de usuario en el cliente de los equipos del usuario.
 
 Configurar conectividad híbrida y mover todos los usuarios a la nube también se requiere antes de retirar su Skype local para la implementación de la empresa.  Con conectividad híbrida configurar, puede elegir mover los usuarios a la nube en función de sus necesidades de negocio y programación. Con el enrutamiento directo, puede aprovechar la infraestructura de voz local mientras se mueve a la nube y una vez finalizada la migración.
 
@@ -83,59 +83,25 @@ Después de configurar la conectividad híbrida, puede mover los usuarios a los 
 ## <a name="topology-requirements"></a>Requisitos de topología
 <a name="BKMK_Topology"> </a>
 
-Para configurar la implementación para la implementación híbrida con los equipos o Skype para profesionales en línea, debe tener una de las siguientes topologías admitidas:
+Para configurar la implementación para la implementación híbrida con **los equipos o Skype para profesionales en línea**, debe tener una de las siguientes topologías admitidas:
 
 - Un Skype para la implementación de Business Server 2019 con todos los servidores que ejecutan Skype para Business Server 2019. 
-
 - Un Skype para la implementación de Business Server 2015 con todos los servidores que ejecutan Skype para Business Server 2015.
+- Una implementación de Lync Server 2013 con todos los servidores que ejecutan Lync Server 2013.  Sin embargo, si se requiere conectividad de voz híbrida, debe usar una topología mixta versión tal y como se indica a continuación.
+- Una implementación con máximo de 2 diferentes versiones de servidor enumerados a continuación:
+  - Skype para Business Server 2015 y Skype para Business Server 2019
+  - Lync Server 2013 y Skype para Business Server 2019
+  - Lync Server 2013 y Skype para Business Server 2015
 
-- Una implementación de Lync Server 2013 con todos los servidores que ejecutan Lync Server 2013.
+*Si se desea utilizar voz híbrida en cualquier topología*, debe ejecutar tanto el servidor perimetral que se designa como el borde de federación, así como el grupo asociado con la federación SIP Skype para 2015 empresarial o posterior. Los usuarios pueden permanecer en un grupo de servidores de Lync 2013, si lo hay. Para obtener más detalles, vea [Planear el sistema de teléfono con conectividad RTC en Skype para Business Server](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).
 
-    Para la conectividad de voz híbrida, el servidor perimetral que se designa como federación perimetral debe ser Skype para profesionales de 2015; el borde también requiere una Skype para Business Server back-end. Podría tener un grupo de servidores sin usuarios en él.
+Las siguientes topologías que incluyen **Lync Server 2010 son compatibles con Skype para empresarial en línea** para la mensajería instantánea y reuniones.  Topologías que incluyen **Lync Server 2010 no se admiten para voz híbrida ni los equipos**.
 
-- Lync Server 2015 y Skype para la implementación de Business Server 2019 con las siguientes funciones de servidor mixta: 
+- Un Lync Server 2010 y Skype para la implementación empresarial Server 2015 mixto
+- Una implementación de Lync Server 2010 y Lync Server 2013 mixta
+-   Una implementación de Lync Server 2010 con todos los servidores que ejecutan Lync Server 2010 con las últimas actualizaciones acumulativas.
+Deben ejecutar a la federación de servidor perimetral y el servidor del próximo salto de la federación de servidor perimetral de Lync Server 2010 con las últimas actualizaciones acumulativas. El Skype para Business Server 2015 o las herramientas administrativas de Lync Server 2013 debe estar instalado en al menos un servidor o estación de trabajo de administración.
 
-  - Al menos un grupo de servidores Enterprise o un servidor Standard Edition  
-
-  - El grupo de directores asociado con la federación SIP, si existe 
-
-  - El grupo de servidores perimetrales asociado con la federación SIP 
-
-- Lync Server 2013 y Skype para la implementación de Business Server 2019 con las siguientes funciones de servidor en al menos un sitio que ejecuta Skype para Business Server 2019 mixto: 
-
-  - Al menos un grupo de servidores Enterprise o un servidor Standard Edition  
-  - El grupo de directores asociado con la federación SIP, si existe 
-  - El grupo de servidores perimetrales asociado con la federación SIP 
-
-- Lync Server 2013 y Skype para la implementación de Business Server 2015 con las siguientes funciones de servidor en al menos un sitio que ejecuta Skype para Business Server 2015 mixto:
-
-  - Al menos un grupo de servidores Enterprise o un servidor Standard Edition 
-
-  - El grupo de directores asociado con la federación SIP, si existe
-
-  - El grupo de servidores perimetrales asociado con la federación SIP
-
-- Lync Server 2010 y Skype para la implementación de Business Server 2015 con las siguientes funciones de servidor en al menos un sitio que ejecuta Skype para Business Server 2015 mixto:
-
-  - Al menos un grupo de servidores Enterprise o un servidor Standard Edition 
-
-  - El grupo de directores asociado con la federación SIP, si existe
-
-  - El grupo de servidores perimetrales asociado con la federación SIP para el sitio
-
-- Una implementación mixta de Lync Server 2010 y Lync Server 2013 con las siguientes funciones de servidor en al menos un sitio que ejecutan Lync Server 2013:
-
-  - Al menos un grupo de servidores Enterprise o un servidor Standard Edition en el sitio
-
-  - El grupo de directores asociado con la federación SIP, si existe en el sitio
-
-  - El grupo de servidores perimetrales asociado con la federación SIP para el sitio
-
-- Una implementación de Lync Server 2010 con todos los servidores que ejecutan Lync Server 2010 con las últimas actualizaciones acumulativas.
-
-  - Deben ejecutar a la federación de servidor perimetral y el servidor del próximo salto de la federación de servidor perimetral de Lync Server 2010 con las últimas actualizaciones acumulativas.
-
-  - El Skype para Business Server 2015 o las herramientas administrativas de Lync Server 2013 debe estar instalado en al menos un servidor o estación de trabajo de administración.
 
 
  ## <a name="multi-forest-support"></a>Compatibilidad de bosques múltiples

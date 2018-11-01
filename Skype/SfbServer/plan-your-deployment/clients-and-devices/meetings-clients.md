@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Resumen: Los profesionales de TI deben revisar los requisitos de soporte técnico para la Skype para la aplicación empresarial de Web y aplicación de las reuniones de Skype durante la planeación de Skype para Business Server. En este artículo no está pensada para los usuarios de estas aplicaciones.'
-ms.openlocfilehash: c76770d570aaa1d1c686df7b0845e41a767cfbef
-ms.sourcegitcommit: 80e1983fd631b8ad63c902375f1128faa957e374
+ms.openlocfilehash: 6b0b8df34530005e7baf14cef4aa38c4536d4673
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25450637"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890618"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planeación de los clientes de las reuniones (Web App y aplicación de las reuniones)
  
@@ -38,7 +38,7 @@ Más adelante en, esos usuarios pueden crear reuniones e invitar a los usuarios 
   
 De forma predeterminada, el servidor que hospeda la reunión dirige al usuario para descargar e instalar Skype para Business Web App para unirse a la reunión. El Skype para la aplicación empresarial de Web se almacena en el servidor Front-End y obtiene envían asistentes a la reunión. 
   
-Para Skype para Business Server 2015, aplicación de las reuniones de Skype está disponible como un reemplazo de Skype para el principio de la aplicación Web de negocio con CU5, pero que proporciona la aplicación de las reuniones de Skype requiere la configuración adicional que se describen en [Habilitar la aplicación de las reuniones de Skype para reemplazar Skype para Business Web App (opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Si está habilitada la aplicación de las reuniones de Skype, los usuarios descargarán la versión más reciente de la aplicación desde el Office 365 entrega red contenido (CDN), en lugar de su Skype para Business server. Para Skype para aplicaciones de negocio servidor 2019 Skype reuniones es la única opción.
+Para Skype para Business Server, aplicación de las reuniones de Skype está disponible como un reemplazo de Skype para el principio de la aplicación Web de negocio con CU5, pero que proporciona la aplicación de las reuniones de Skype requiere la configuración adicional que se describen en [Habilitar la aplicación de las reuniones Skype para reemplazar Skype para la aplicación Web empresarial de (opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Si está habilitada la aplicación de las reuniones de Skype, los usuarios descargarán la versión más reciente de la aplicación desde el Office 365 entrega red contenido (CDN), en lugar de su Skype para Business server. Para Skype para aplicaciones de negocio servidor 2019 Skype reuniones es la única opción.
   
 Aplicación de las reuniones de Skype ofrece una experiencia de explorador simplificada para la descarga e instalación de la aplicación y unirse a reuniones, incluida la participación de un solo clic a los usuarios de Internet Explorer. Aplicación de las reuniones de Skype también tiene muchas mejoras a través de theSkype para la aplicación empresarial de Web para confiabilidad y la experiencia de reunión. 
   
@@ -76,7 +76,7 @@ La aplicación de las reuniones de Skype se ejecuta como una aplicación en equi
   
 La aplicación también ejecuta en Mac OS sistemas operativos 10.10 o posterior con ninguna dependencia del explorador específico. 
   
-Para cualquier las dependencias, consulte [plataformas admitidas para la aplicación de las reuniones de Skype](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
+Para obtener información sobre cualquier otra dependencia, consulte [Plataformas compatibles con la aplicación Reuniones de Skype](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
   
 ## <a name="hardware-requirements"></a>Requisitos de hardware
 <a name="OS-Browser"> </a>

@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 869adf9401e3704cc78de5f646b0b9e676e8efe9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 1c7cddeb2ee125fa54cc7db353c83157bec90d76
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016528"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890551"
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams
 =============================================================================
@@ -47,10 +47,10 @@ Se crea un sitio de SharePoint para cada equipo y la carpeta **Documentos compar
 > En este momento no es posible reemplazar el sitio de SharePoint predeterminado y la biblioteca de documentos con otro. Nos han comentado que les gustaría, por lo que estamos pensando en esa posibilidad. Revise el [mapa de ruta de Teams](https://aka.ms/teamsroadmap) o [Teams UserVoice](https://aka.ms/TeamsUserVoice) para estar al tanto de las próximas características.
 
 > [!TIP]
-> Para agregar una ficha a su equipo que vínculos a una existente de SharePoint del sitio o biblioteca de documentos a la base de SharePoint existente:
+> Para agregar una ficha a su equipo que vincula a una página del sitio de SharePoint existente o a la biblioteca de documentos de SharePoint existente:
 > 1. Seleccione el signo más junto a las fichas.
-> 2. Seleccione el **sitio Web**.
-> 3. Escriba un nombre y escriba la dirección URL de la biblioteca de documentos o sitio de SharePoint.
+> 2. Seleccione **Biblioteca de documentos** para una biblioteca de documentos existente o **SharePoint** para una página del sitio de SharePoint existente.
+> 3. Seleccione la biblioteca de documentos o página adecuada.
 
 Para cada usuario, la carpeta de OneDrive **Archivos de chat de Microsoft Teams** se usa para almacenar todos los archivos compartidos en los chat privados con otros usuarios (1:1 o 1:varios), y los permisos se configuran automáticamente para restringir el acceso sólo a usuarios autorizados.
 

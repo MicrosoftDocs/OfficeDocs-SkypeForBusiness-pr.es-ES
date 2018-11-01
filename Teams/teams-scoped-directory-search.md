@@ -15,18 +15,18 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65952539ceb52ec62f0c6cd2520f8b898a6a89b5
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 4c8173445fff6acaa3a5381199220a376401076c
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839265"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890700"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Uso Microsoft Teams con ámbito de búsqueda en el directorio
 
 Búsqueda en el directorio con ámbito Microsoft Teams permite a las organizaciones crear límites virtuales que controlan cómo los usuarios pueden encontrar y comunicarse con otros usuarios de su organización. 
 
-Microsoft Teams permite a las organizaciones a proporcionar vistas personalizadas del directorio a sus usuarios. Microsoft Teams usa [directivas de la libreta de direcciones de Exchange](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/address-book-policies?view=exchserver-2019) para admitir estas vistas personalizadas. Una vez que las directivas están habilitadas, se limita los resultados devueltos por las búsquedas para otros usuarios (por ejemplo, para iniciar una charla o para agregar a miembros a un equipo) según las directivas configuradas. Los usuarios no podrán buscar o detectar y unirse a nuevos equipos fuera de estas directivas. 
+Microsoft Teams permite a las organizaciones a proporcionar vistas personalizadas del directorio a sus usuarios. Microsoft Teams usa [directivas de la libreta de direcciones de Exchange](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/address-book-policies?view=exchserver-2019) para admitir estas vistas personalizadas. Una vez que las directivas están habilitadas, se limita los resultados devueltos por las búsquedas para otros usuarios (por ejemplo, para iniciar una charla o para agregar a miembros a un equipo) según las directivas configuradas. Los usuarios no podrán buscar o detectar los equipos al ámbito de búsqueda está en vigor. 
 
 ## <a name="when-should-you-use-scoped-directory-searches"></a>¿Cuándo se debe utilizar las búsquedas de directorio con ámbito?
 

@@ -10,23 +10,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Resumen: Implementar la Skype para la aplicación empresarial de Web y aplicación de las reuniones de Skype se utiliza con Skype para la empresa.'
-ms.openlocfilehash: 13facacfc2e42ec45e29aae1c1006c792ef6ac1e
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 7fabbbbd279e2f72f3468fbe73a55b86e532f6cf
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839229"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890692"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Implementar a los clientes que se pueden descargar de Web en Skype para Business Server
 
-**Resumen:** Implemente el Skype para profesionales de 2015 Web App y aplicación de las reuniones de Skype se utiliza con Skype para Business Server 2015.
+**Resumen:** Implemente el Skype para profesionales de 2015 Web App y aplicación de las reuniones de Skype se utiliza con Skype para Business Server.
 
-Skype para la aplicación empresarial de Web es un cliente de web de Internet Information Services (IIS) que está instalado en el servidor que ejecuta Skype para Business Server 2015 y de forma predeterminada se implementa a petición a los usuarios de reunión que ya no tienen la Skype para clientes empresariales. Estos usuarios de reuniones son más frecuentes que los casos de usuarios que no se conectan desde fuera de la red. Cada vez que un usuario hace clic en una dirección URL de la reunión, pero no tiene el Skype para Business client instalado, se presenta al usuario con la opción para unirse a la reunión mediante el uso de la versión más reciente de Skype para la aplicación empresarial de Web o aplicación de las reuniones de Skype.
+Skype para la aplicación empresarial de Web es un cliente de web de Internet Information Services (IIS) que está instalado en el servidor que ejecuta Skype para Business Server y de forma predeterminada se implementa a petición a los usuarios de reunión que ya no tienen la Skype para clientes empresariales. Estos usuarios de reuniones son más frecuentes que los casos de usuarios que no se conectan desde fuera de la red. Cada vez que un usuario hace clic en una dirección URL de la reunión, pero no tiene el Skype para Business client instalado, se presenta al usuario con la opción para unirse a la reunión mediante el uso de la versión más reciente de Skype para la aplicación empresarial de Web o aplicación de las reuniones de Skype.
 
 Las características de la voz, vídeo y uso compartida en Skype para la aplicación empresarial de Web requieren un control ActiveX de Microsoft que se usa como un complemento en el explorador del usuario. Puede instalar el control ActiveX de antemano o permitir a los usuarios que lo instale cuando se le solicite, lo que ocurre la primera vez que usa Skype para la aplicación empresarial de Web o la primera vez que tienen acceso a una característica que requiere el control ActiveX.
 
 > [!NOTE]
-> En Skype para implementaciones de servidor perimetral de Business Server 2015, un proxy inverso de HTTPS en la red perimetral se requiere para Skype para acceso de cliente de la aplicación Web de negocio. También debe publicar direcciones URL sencillas. Para obtener más información, vea [Setting Up Servers de Proxy inverso](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) y [los requisitos de DNS para direcciones URL simples en Skype para Business Server](../../plan-your-deployment/network-requirements/simple-urls.md).
+> En Skype para implementaciones de servidor perimetral de Business Server, un proxy inverso de HTTPS en la red perimetral se requiere para Skype para acceso de cliente de la aplicación Web de negocio. También debe publicar direcciones URL sencillas. Para obtener más información, vea [Setting Up Servers de Proxy inverso](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) y [los requisitos de DNS para direcciones URL simples en Skype para Business Server](../../plan-your-deployment/network-requirements/simple-urls.md).
 
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Habilitar la autenticación multifactor para Skype para la aplicación empresarial de Web
 <a name="MFA"> </a>
