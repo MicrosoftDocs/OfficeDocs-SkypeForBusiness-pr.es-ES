@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8741a76ccfbc9ef16cbf9c4298bacace25ac36ad
-ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
+ms.openlocfilehash: 44dc13f9ff6fd391d84a5a461badc7edbc8abbdb
+ms.sourcegitcommit: afc415ad4d0c2ed013eaf5f68a72418e66734ff0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25040775"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25898138"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidad de vídeo en la nube para los equipos de Microsoft
 
@@ -30,11 +30,11 @@ Vídeo teleconferencias con colaboración de contenido le ayudará a sacar el m�
 Los siguientes socios tienen soluciones de interoperabilidad de vídeo para Microsoft Teams. Es posible que elija su compañía para que funcione con cualquier combinación de estos asociados de negocios de la empresa. 
 
 
-|Socio|Solución de socio|Disponibilidad|
-|----|---|----|
-|![Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Servicio de RealConnect de Polycom</a> |Ahora disponibles|
-|![Pexip infinito](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Infinito Pexip para los equipos de Microsoft</a> | 19 de octubre de 2018|
-|![Puerta de enlace de blueJeans](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Puerta de enlace de blueJeans para los equipos de Microsoft</a> | 31 de octubre de 2018|
+|Socio|Solución de socio|
+|----|---|
+|![Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Servicio de RealConnect de Polycom</a> |
+|![Pexip infinito](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Infinito Pexip para los equipos de Microsoft</a> | 
+|![Puerta de enlace de blueJeans](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Puerta de enlace de blueJeans para los equipos de Microsoft</a> |
 
 ## <a name="partner-solutions"></a>Soluciones de socios
 

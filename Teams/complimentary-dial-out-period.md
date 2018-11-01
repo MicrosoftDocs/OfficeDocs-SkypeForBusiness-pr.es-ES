@@ -22,14 +22,13 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: true
 description: Los clientes pueden usar el Plan de llamadas de Office 365 y el servicio de Audioconferencia de Office 365 según lo permitido en el contrato de licencia de volumen del Cliente y en los Términos de Uso de Servicios RTC de Skype Empresarial Online.
-ms.openlocfilehash: c2d241c37d6124a19b4351142e9a25ff8c29fbb9
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 7415042e6604ae6bfa779fdcd578422faf7ac40c
+ms.sourcegitcommit: afc415ad4d0c2ed013eaf5f68a72418e66734ff0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699591"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25898130"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período gratuito para la realización de llamadas de Audioconferencia
 
