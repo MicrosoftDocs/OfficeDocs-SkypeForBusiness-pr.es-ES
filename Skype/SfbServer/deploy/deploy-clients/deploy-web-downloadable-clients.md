@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Resumen: Implementar la Skype para la aplicación empresarial de Web y aplicación de las reuniones de Skype se utiliza con Skype para la empresa.'
-ms.openlocfilehash: c50a8afc4d12d7f3cf35fdcc966e322bd48199fc
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 13facacfc2e42ec45e29aae1c1006c792ef6ac1e
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699540"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839229"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Implementar a los clientes que se pueden descargar de Web en Skype para Business Server
 
@@ -75,7 +75,7 @@ El Skype para la aplicación empresarial de Web y aplicación de las reuniones d
 
 La característica BranchCache de Windows 7 y Windows Server 2008 R2 puede interferir con Skype para los componentes web de negocio Web App. Para evitar problemas de Skype para usuarios de la aplicación Web de negocio, asegúrese de que no está habilitada la característica BranchCache.
 
-Para obtener información detallada acerca de cómo deshabilitar BranchCache, vea la [Guía de implementación de BranchCache](https://docs.microsoft.com/en-us/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
+Para obtener información detallada acerca de cómo deshabilitar BranchCache, vea la [Guía de implementación de BranchCache](https://docs.microsoft.com/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
 
 ## <a name="verifying-skype-for-business-web-app-deployment"></a>Comprobación de Skype para la implementación de aplicaciones Web de empresa
 <a name="MFA"> </a>
@@ -133,7 +133,7 @@ Este procedimiento es opcional y se aplica a Skype para Business Server 2015 CU5
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    La información que se envía a Microsoft cumple rigurosamente con las [prácticas de recopilación de datos de Skype Empresarial](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices).
+    La información que se envía a Microsoft cumple rigurosamente con las [prácticas de recopilación de datos de Skype Empresarial](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices).
 
 3. Establecer el tiempo de espera antes de retroceso a la Skype hospedado localmente para la experiencia de la aplicación Web de negocio si CDN no está disponible. El valor predeterminado es 6 segundos. En caso de que fuese 0, no habría tiempo de espera.
 

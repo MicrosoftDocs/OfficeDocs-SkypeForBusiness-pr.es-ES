@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo enrutamiento directo de Microsoft teléfono del sistema le permite conectar un compatibles, proporcionado por el cliente sesión controlador de borde (SBC) para el sistema telefónico de Microsoft.
-ms.openlocfilehash: ddfada14916b14c374479109732dbe1fa35a0174
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d9b1cf0f819639aebd1250bd37f4fc85d5555fc4
+ms.sourcegitcommit: a54864c3fcd1b8d240d0f7f2ccf68f8cba566e47
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017618"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "25849409"
 ---
 # <a name="plan-direct-routing"></a>Planeación de enrutamiento directo
 
@@ -74,9 +74,9 @@ En la siguiente tabla, se enumeran los requisitos de infraestructura para el SBC
 |Entrada DNS pública para el SBC |Una entrada DNS pública asignar el FQDN SBC a la dirección IP pública. |
 |Certificado de confianza pública para el SBC |Un certificado para el SBC que se usará para todas las comunicaciones con el enrutamiento directo. Para obtener más información, vea [pública certificado de confianza para el SBC](#public-trusted-certificate-for-the-sbc).|
 |Puntos de conexión para el enrutamiento directo |Los puntos de conexión para el enrutamiento directo son los FQDN de tres los siguientes:<br/><br/>`sip.pstnhub.microsoft.com`: FQDN global, debe intentar primero.<br/>`sip2.pstnhub.microsoft.com`: FQDN secundario, geográficamente se asigna a la segunda región de prioridad.<br/>`sip3.pstnhub.microsoft.com`– Terciario FQDN, geográficamente se asigna a la región de prioridad de terceros.<br/><br/>Para obtener información sobre los requisitos de configuración, vea [de señalización SIP: FQDN y los puertos de firewall](#sip-signaling-fqdns-and-firewall-ports).|
-|Las direcciones IP de servidor de seguridad y los puertos para los medios de enrutamiento directo |La SBC se comunica con los siguientes servicios en la nube:<br/><br/>Proxy, que controla la señalización SIP<br/>Procesador de medios, que controla los medios-excepto cuando es el desvío de medios en<br/><br/>Estos dos servicios tienen direcciones IP distintas en Microsoft Cloud, que se describen más adelante en este documento.<br/><br/>Para obtener más información, vea la [sección de equipos de Microsoft](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) en [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
+|Las direcciones IP de servidor de seguridad y los puertos para los medios de enrutamiento directo |La SBC se comunica con los siguientes servicios en la nube:<br/><br/>Proxy, que controla la señalización SIP<br/>Procesador de medios, que controla los medios-excepto cuando es el desvío de medios en<br/><br/>Estos dos servicios tienen direcciones IP distintas en Microsoft Cloud, que se describen más adelante en este documento.<br/><br/>Para obtener más información, vea la [sección de equipos de Microsoft](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) en [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Medios de transporte perfil|RTP/TCP/SAVP <br/>RTP/UDP/SAVP|
-Las direcciones IP de servidor de seguridad y los puertos de medios de Microsoft Teams |Para obtener más información, vea [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
+Las direcciones IP de servidor de seguridad y los puertos de medios de Microsoft Teams |Si desea más información, consulte [URL de Office 365 e intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>Concesión de licencias y otros requisitos 
@@ -221,16 +221,12 @@ El intervalo de puertos de los procesadores de medios se muestra en la siguiente
 
 ## <a name="supported-session-border-controllers-sbcs"></a>Admite controladores de borde de sesión (SBCs)
 
-Microsoft sólo admite la SBC certificada para emparejar con el enrutamiento directo. Debido a que Enterprise Voice es crítico para la empresa, Microsoft ejecuta pruebas intensivas con el seleccionado SBCs y funciona con los proveedores SBC para asegurarse de los dos sistemas es compatible. 
+Microsoft sólo admite SBCs certificadas para emparejar con el enrutamiento directo. Debido a que Enterprise Voice es fundamental para los negocios, Microsoft ejecuta pruebas intensivas con el seleccionado SBCs y funciona con los proveedores SBC para asegurarse de los dos sistemas es compatible. 
 
-Los dispositivos que se han validado aparecen como certificado para el enrutamiento directo de los equipos. Se garantizan que los dispositivos certificados para que funcione en todos los escenarios. También es un proceso de soporte conjunto entre Microsoft y los proveedores SBC establecidos.  
+Los dispositivos que se han validado aparecen como certificado para el enrutamiento directo de los equipos. Se garantizan que los dispositivos certificados para que funcione en todos los escenarios. 
 
-Los siguientes proveedores están en el proceso de estar certificadas:
-- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
-- Ribbon Communications (anteriormente Sonus):
-   - [Serie de SBC perimetral](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
-   - [SBC Core Series](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
-- ThinkTel: ThinkTel no se vende el SBCs a las empresas, pero su SBC es estar certificada.  
+Para obtener más información acerca de SBCs compatibles, vea la [lista de controladores de borde de sesión de certificados para el enrutamiento directo](direct-routing-border-controllers.md).
+
  
 ## <a name="see-also"></a>Vea también
 

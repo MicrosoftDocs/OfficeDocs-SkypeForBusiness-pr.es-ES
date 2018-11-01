@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: f99c99fc291a2df71a3e47448e3cc8fcf01e371f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: e686e42771b22d7c8d8b21ac05998bbbd5f9ad7e
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370919"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838955"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administradores: Configurar Skype Empresarial para usuarios individuales
 
@@ -63,11 +63,11 @@ Debe tener [permisos de administrador](https://support.office.com/en-us/article/
     
 |**Opción**|**Detalles**|
 |:-----|:-----|
-|Audio y vídeo HD  <br/> |Permita que esta persona pueda grabar reuniones de audio, reuniones con audio y vídeo, o impedirle que programe reuniones (ninguna).  <br/> |
+|Audio y vídeo HD  <br/> |Permitir que esta persona grabar las reuniones de audio, las reuniones de audio y vídeos, o no permitir que ellos programar las reuniones (ninguno).  <br/> |
 |Registrar conversaciones y reuniones  <br/> |Elija lo que puede grabar esta persona.  <br/> Esta opción no está disponible con Skype para empresarial básica.  <br/> |
 |Para cumplir con las normativas, desactive las características no archivadas  <br/> | Elija esta opción si tiene la obligación legal de conservar la información almacenada por medios electrónicos. <br/>  Si selecciona esta opción, se desactiva las características que no se capturan cuando haya una [Conservación local](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx) configurado en el centro de administración de Exchange. Desactiva las siguientes características: <br/>  Transferencia de archivos por mensajería instantánea <br/>  Páginas de OneNote compartidas <br/>  Anotaciones de PowerPoint <br/> |
    
-Para configurar estas opciones en masa, use PowerShell. Consulte [Administrar directivas en Skype Empresarial Online](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx).
+Para configurar estas opciones de configuración de forma masiva, use PowerShell. Vea [las directivas de administración de Skype para profesionales en línea](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx).
   
 ## <a name="block-external-communications"></a>Bloquear comunicaciones externas
 <a name="__toc325019206"> </a>
@@ -84,7 +84,7 @@ Después de [Permitir que los usuarios de Skype Empresarial agreguen contactos d
     
 3. Haga clic en **Guardar**.
     
-Para configurar estas opciones en masa, use PowerShell. Consulte [Administrar comunicaciones en Skype Empresarial Online con usuarios y organizaciones externos](https://technet.microsoft.com/en-us/library/dn362813%28v=ocs.15%29.aspx).
+Para configurar estas opciones de configuración de forma masiva, use PowerShell. Vea [administración de las comunicaciones en Skype para profesionales en línea con usuarios externos y las organizaciones](https://technet.microsoft.com/en-us/library/dn362813%28v=ocs.15%29.aspx).
   
 ## <a name="edit-audio-conferencing-settings-for-one-user"></a>Editar configuración de conferencia de audio de un usuario
 <a name="__toc314837483"> </a>

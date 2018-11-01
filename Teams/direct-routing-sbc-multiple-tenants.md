@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Obtenga información sobre cómo configurar un controlador de borde de sesión (SBC) para servir a varios inquilinos.
-ms.openlocfilehash: 7b085661e659e7836c5e463b24c9cc0a6f071aaa
-ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
+ms.openlocfilehash: 618f956519c4a9e8ffe07e3000a91af39469adfc
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25784819"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839090"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -56,7 +56,7 @@ Los siguientes son los pasos de implementación técnica para configurar el esce
 Para obtener instrucciones detalladas acerca de cómo implementar y configurar SBCs para un escenario de hospedaje de SBC, hacer referencia a la documentación del proveedor SBC.
 
 - **AudioCodes:** [Notas de configuración de enrutamiento directo](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), la configuración de la SBC que hospeda el escenario descrito en "Connecting AudioCodes SBC a Microsoft Teams directa enrutamiento Hosting modelo configuración Nota". 
-- **La cinta de opciones Communications:**  Consulte la [Guía de configuración de los equipos de Microsoft de la cinta de opciones Communications SBC principales](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) para obtener documentación acerca de cómo configurar la cinta de opciones principales serie SBCs y a esta página [la cinta de opciones mejor práctica recomendada - operadores de configuración de enrutamiento directo de los equipos de Microsoft Borde SBC](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **La cinta de opciones Communications:**  Consulte la [Guía de configuración de los equipos de Microsoft de la cinta de opciones Communications SBC principales](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) para obtener documentación acerca de cómo configurar la cinta de opciones principales serie SBCs y a esta página [recomendado de la cinta de opciones - configuración de operadores de SBC para enrutamiento directo de Microsoft los equipos Borde](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 
 > [!NOTE]
 > Por favor, preste atención a cómo configurar el encabezado "Contacto". El encabezado de contacto se usa para buscar al inquilino del cliente en el mensaje de invitación entrante. 

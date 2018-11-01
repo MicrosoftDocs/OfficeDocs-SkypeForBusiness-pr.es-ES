@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: 'Resumen: Cómo usar la herramienta de personalización de Office con el Skype para clientes empresariales.'
-ms.openlocfilehash: bee037e005a9887a3f338ef071bec6fddc8990ea
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6050a9e9c36fa62aff16994469e63a9689ab5958
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983710"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838668"
 ---
 # <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>Use la herramienta de personalización de Office (OCT) en Skype para Business Server
  
@@ -38,6 +38,6 @@ Los administradores usan la herramienta OCT para crear un archivo .msp de person
     
 - **Outlook** Usar para personalizar el perfil predeterminado de Outlook de un usuario, especificar la configuración de Exchange, agregar cuentas, quitar cuentas y exportar la configuración de y especificar grupos de envío o recepción.
     
-Para obtener información acerca de la herramienta OCT, vea [utilizar la herramienta OCT para personalizar Office 2013](https://docs.microsoft.com/en-us/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15)). Tenga en cuenta que esta información también se aplica a las versiones posteriores de Office.
+Para obtener información acerca de la herramienta OCT, vea [utilizar la herramienta OCT para personalizar Office 2013](https://docs.microsoft.com/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15)). Tenga en cuenta que esta información también se aplica a las versiones posteriores de Office.
   
 

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Solución de problemas de la implementación de nube conector Edition.
-ms.openlocfilehash: 5dbb046680824f2af72688844914db0096e2ded1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2290d032f1461c37c31d138510388f17a52f5843
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371316"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838624"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Solución de problemas con la implementación de Cloud Connector
  
@@ -93,7 +93,7 @@ A continuación se muestran soluciones para problemas habituales:
     
   - Inicie sesión en el servidor CMS o de mediación, y compruebe en el NIC de red corporativa que se haya asignado una dirección IP válida y que estén configurados un DNS y una IP estática válidos como la dirección IP del servidor de AD.
     
-  - Inicie sesión en el servidor de mediación/CMS y abra un símbolo del sistema. Asegúrese de que puede hacer ping a la dirección IP y FQDN del servidor de directorio activo. Si no se puede, puede haber un conflicto de dirección IP. Intente asignar una nueva dirección IP para Active Directory y actualizar DNS en el servidor de mediación/CMS en consecuencia.
+  - Inicie sesión en el servidor de mediación/CMS y abra un símbolo del sistema. Asegúrese de poder hacer ping a la dirección IP y el FQDN del servidor de Active Directory. Si no puede, es posible que haya un conflicto con la dirección IP. Intente asignar una nueva IP para Active Directory y actualice en consecuencia el DNS en el servidor CMS o de mediación.
     
 - **Problema: Recibe el siguiente mensaje de error "Remove-VMSwitch: error al eliminar la conmutación de Ethernet virtual. El modificador virtual 'Administración del conector en la nube cambiar' no pueden eliminarse porque está siendo utilizado mediante la ejecución de máquinas virtuales ni asignado a los grupos de servidores secundarios."**
     
@@ -222,7 +222,7 @@ A continuación se muestran soluciones para problemas habituales:
     Remove-CcLegacyServerCertificate 
     ```
 
-3. Ejecute el cmdlet Exit-CcUpdate para iniciar los servicios y salir del modo de mantenimiento.
+3. Ejecute el cmdlet de Exit CcUpdate para iniciar servicios y salir del modo de mantenimiento.
     
 4. Ejecute el cmdlet Export-CcRootCertificate en el archivo local file del dispositivo y después copie e instale el certificado exportado en sus puertas de enlace de RTC.
     
@@ -272,7 +272,7 @@ A continuación se muestran soluciones para problemas habituales:
 
 - **Problema: Después de cambiar la contraseña de la cuenta del servidor de host utilizados para la implementación, recibirá el siguiente mensaje de error: "ConvertTo-SecureString: especificar la clave no es válido para su uso en estado." en %ProgramFiles%\Skype para la nube de Business Connector Edition\ManagementService\CceManagementService.log o mientras se ejecuta el cmdlet Get-CcCredential.**
     
-    **Resolución:** Todas las credenciales del conector en la nube se almacenan en el siguiente archivo: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ". Cuando se cambia la contraseña en el servidor de host, debe actualizar las credenciales almacenadas localmente.
+    **Resolución:** Todas las credenciales del conector en la nube se almacenan en el siguiente archivo: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ". Cuando se modifica la contraseña en el servidor host, tendrá que actualizar las credenciales que hay almacenadas localmente.
     
     **Si ejecuta la versión 1.4.2 de Cloud Connector,** vuelva a generar todas las contraseñas de Cloud Connector mediante estos pasos:
     
@@ -280,7 +280,7 @@ A continuación se muestran soluciones para problemas habituales:
     
   2. Elimine el archivo siguiente: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ".
     
-  3. Iniciar una consola de PowerShell como administrador y, a continuación, ejecute "Register-CcAppliance-Local" para volver a escribir las contraseñas que sigue a la descripción. Escriba las mismas contraseñas que ha especificado antes de la implementación del conector en la nube.
+  3. Iniciar una consola de PowerShell como administrador y, a continuación, ejecute "Register-CcAppliance-Local" para volver a escribir las contraseñas que sigue a la descripción. Introduzca las mismas contraseñas que usó antes para la implementación de Cloud Connector.
     
      **Si está ejecutando en la nube conector versión 2.0 o posterior,** vuelva a generar todas las contraseñas de conector en la nube, siga estos pasos:
     
@@ -300,7 +300,7 @@ A continuación se muestran soluciones para problemas habituales:
     
   9. Cuando se soliciten las credenciales de cuenta nuevas, introduzca la contraseña para la contraseña de DomainAdmin que usó antes.
     
-     Si se ha generado el archivo de contraseña almacenada en caché con el conector de nube versión 2.0 o posterior, de forma predeterminada, VmAdmin y Administrador de dominio usan la misma contraseña como CceService. Si cambia la contraseña del administrador del dominio y VMAdmin, debe realizar los siguientes pasos:
+     Si se ha generado el archivo de contraseña almacenada en caché con el conector de nube versión 2.0 o posterior, de forma predeterminada, VmAdmin y Administrador de dominio usan la misma contraseña como CceService. Si ha cambiado las contraseñas de DomainAdmin y VMAdmin, debe realizar los siguientes pasos:
     
   10. Ejecute Set-CcCredential -AccountType DomainAdmin como sigue:
     

@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 2ee918cb82ea42a321af9b91ac9a4526fa849a65
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e2499cb2d1432c4b9ad48be3333e798a3a8b1574
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860647"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838712"
 ---
 # <a name="peer-to-peer-activity-report"></a>Informe de actividad punto a punto
 
@@ -78,7 +78,7 @@ Puede obtener una vista de su actividad punto a punto de Skype Empresarial en lo
 
 En ambos gráficos, el eje X es el intervalo de fechas seleccionado para este informe específico.
 ***
-![Número 7](../images/sfbcallout7.png)<br/>Puede filtrar las series que aparecen en el gráfico haciendo clic en un elemento de la leyenda. Por ejemplo, en el diagrama de **actividad** , haga clic en o puntee en **mensajería instantánea**, **Audio**, **vídeo**, **uso compartido de aplicaciones**y **las transferencias de archivos** para ver sólo la información relacionada con cada uno de ellos. Si se cambia esta selección, no se cambia la información en la tabla de cuadrícula. 
+![Número 7](../images/sfbcallout7.png)<br/>Puede filtrar las series que aparecen en el gráfico haciendo clic en un elemento de la leyenda. Por ejemplo, en el diagrama de **actividad** , haga clic en o puntee en **mensajería instantánea**, **Audio**, **vídeo**, **uso compartido de aplicaciones**y **las transferencias de archivos** para ver sólo la información relacionada con cada uno de ellos. Cambiar esta selección no cambia la información en la tabla de cuadrícula. 
 ***
 ![Número 8](../images/sfbcallout8.png)<br/>La tabla muestra un desglose de todas las actividades de punto a punto por usuario. Se muestran todos los usuarios que tienen Skype Empresarial asignado y sus actividades de punto a punto. Puede agregar columnas a la tabla.
 *    **Nombre de usuario** es el nombre del usuario.
@@ -107,7 +107,7 @@ Si las directivas de la organización le impiden ver los informes en los que la 
     
 - [Skype para informe de actividad de organizador de conferencia empresarial](conference-organizer-activity-report.md) Puede ver cuánto los usuarios están organizar conferencias que utilizan mensajería instantánea, audio y vídeo, compartir aplicaciones, Web, dial-in/out - 3rd fabricantes y dial-in/out - Microsoft.
     
-- [Skype para informe de actividad de participantes de conferencia empresarial](conference-participant-activity-report.md) Puede ver cuántos de mensajería instantánea, audio y vídeo, compartir aplicaciones, Web y y conferencias de conferencia de acceso telefónico de entrada/salida se va a participó en.
+- [Skype para informe de actividad de participantes de conferencia empresarial](conference-participant-activity-report.md) Puede ver cuántos de mensajería instantánea, audio y vídeo, uso compartido de aplicaciones, Web y conferencias de conferencia de acceso telefónico de entrada/salida se va a participó en.
     
 - [Informe de bloqueados de Skype para usuarios profesionales](users-blocked-report.md) Puede ver los usuarios de la organización que se han bloqueado desde la realización de llamadas de RTC.
     

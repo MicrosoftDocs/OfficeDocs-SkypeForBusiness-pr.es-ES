@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instrucciones de implementación de voz basados en la nube para los usuarios alojados en Skype para Business Server.
-ms.openlocfilehash: 80f154a7fa8e34b7912ebf5762e5d0390e21fd22
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 05c486ed338e8e77ab68f12a64c3a59646a157d0
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696187"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838749"
 ---
 # <a name="configure-cloud-voicemail-service"></a>Configurar el servicio de correo de voz en la nube
 
@@ -93,7 +93,7 @@ Get-CsHostedVoicemailPolicy
 
 ## <a name="assign-a-hosted-voicemail-policy"></a>Asignar una directiva de correo de voz hospedado
 
-De forma predeterminada, la Global hospedada directiva de correo de voz se asigna a todos los usuarios. Si utiliza una directiva diferente, antes de habilitar a los usuarios para correo de voz hospedado, primero debe conceder a los usuarios la directiva de correo de voz hospedado que desee mediante el cmdlet [Grant-CSHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-cshostedvoicemailpolicy?view=skype-ps) .
+De forma predeterminada, la Global hospedada directiva de correo de voz se asigna a todos los usuarios. Si utiliza una directiva diferente, antes de habilitar a los usuarios para correo de voz hospedado, primero debe conceder a los usuarios la directiva de correo de voz hospedado que desee mediante el cmdlet [Grant-CSHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cshostedvoicemailpolicy?view=skype-ps) .
 
 Por ejemplo, el comando siguiente asigna una directiva de correo de voz hospedado no Global a un usuario:
 
@@ -104,7 +104,7 @@ Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:Clou
 
 ## <a name="enable-a-user-for-cloud-voicemail"></a>Habilitar a un usuario de correo de voz en la nube
 
-Para habilitar las llamadas de correo de voz de un usuario deben enrutarse al correo de voz en la nube, usar el cmdlet [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuser?view=skype-ps) con el parámetro HostedVoiceMail. 
+Para habilitar las llamadas de correo de voz de un usuario deben enrutarse al correo de voz en la nube, usar el cmdlet [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) con el parámetro HostedVoiceMail. 
 
 Por ejemplo, el siguiente comando permite una cuenta de usuario de correo de voz en la nube: 
 

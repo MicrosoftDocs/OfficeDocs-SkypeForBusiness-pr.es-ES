@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 960ab8a3-352d-4b18-bc01-55b35f30ca0d
 description: En las secciones siguientes se proporcionan instrucciones acerca de cómo configurar un entorno que tiene varios bosques en un modelo de bosque de usuario o recurso para proporcionar funcionalidad empresarial en un escenario híbrido de Skype.
-ms.openlocfilehash: 772b93aab0d8adf08345870ac97a8e1487e240e2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ca3cd4bfe324690c41fbd045af967e57cab5fe36
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370927"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838566"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Configurar un entorno de varios bosque para entornos híbridos Skype para la empresa
  
@@ -39,9 +39,9 @@ Se admiten varios bosques de usuarios. Tenga en cuenta lo siguiente:
     
 - Exchange Server se pueden implementar en uno o más bosques, que pueden o no incluir el bosque que contiene Skype para Business Server. Asegúrese de que ha aplicado la actualización acumulativa más reciente.
     
-- Para obtener información detallada sobre la coexistencia con Exchange Server, incluida la compatibilidad con criterios y limitaciones en diversas combinaciones de local y en línea, vea [característica admitir](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) en [Planear la integración de Skype para empresas y Exchange](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
+- Para obtener información detallada sobre la coexistencia con Exchange Server, incluidos los criterios y las limitaciones de la compatibilidad en distintas combinaciones de implementaciones locales y en línea, vea [Compatibilidad con la característica](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) en [Plan to integrate Skype for Business and Exchange](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
     
-Para obtener más información, consulte [requisitos de entorno para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md).
+Para obtener más información, consulte [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md).
   
 ## <a name="user-homing-considerations"></a>Consideraciones sobre el hospedaje de usuarios
 
@@ -49,7 +49,7 @@ Skype para los usuarios empresariales alojados en local puede tener Exchange hos
   
 ## <a name="configure-forest-trusts"></a>Configurar confianzas de bosque
 
-Las confianzas necesarias son confianzas transitivas bidireccionales entre el bosque de recursos y cada uno de los bosques de usuarios. Si tiene varios bosques de usuarios, para habilitar la autenticación entre bosques es importante que el enrutamiento de sufijo de nombre esté habilitado para cada una de estas confianzas de bosque. Para obtener instrucciones, vea [Administración de confianzas de bosque](https://technet.microsoft.com/en-us/library/cc772440.aspx). 
+Las confianzas necesarias son confianzas transitivas bidireccionales entre el bosque de recursos y cada uno de los bosques de usuarios. Si tiene varios bosques de usuarios, para habilitar la autenticación entre bosques es importante que el enrutamiento de sufijo de nombre esté habilitado para cada una de estas confianzas de bosque. Para ver las instrucciones, consulte [Administrar confianzas de bosque](https://technet.microsoft.com/en-us/library/cc772440.aspx). 
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Sincronizar las cuentas en el bosque de Skype para la empresa de hospedaje
 
@@ -66,7 +66,7 @@ Para obtener una sincronización de identidades adecuada, deben sincronizarse lo
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-El [elegido el atributo de vínculo de la cuenta](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/) se utilizará como el delimitador de origen. Si tiene un atributo distinto e inmutable que prefiere usar, puede hacerlo, pero asegúrese de editar la regla de notificaciones de AD FS y seleccionar el atributo durante la configuración de AAD Connect.
+El [atributo de vínculo de cuenta elegida](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/) se usará como el delimitador de origen. Si tiene un atributo distinto e inmutable que prefiere usar, puede hacerlo, pero asegúrese de editar la regla de notificaciones de AD FS y seleccionar el atributo durante la configuración de AAD Connect.
   
 No sincronizar el UPN entre los bosques. Durante las pruebas, detectamos que era necesario un UPN único para cada bosque de usuarios, ya que no se puede usar el mismo UPN en varios bosques. Como resultado, se nos presentaron dos posibilidades: sincronizar el UPN o no sincronizarlo. 
   
@@ -76,7 +76,7 @@ No sincronizar el UPN entre los bosques. Durante las pruebas, detectamos que era
     
 ## <a name="create-an-office-365-tenant"></a>Crear un inquilino de Office 365
 
-A continuación, deberá facilitar un inquilino de Office 365 que vaya a usar con la implementación. Para obtener más información, vea [Los pasos de aprovisionamiento de Office 365](https://social.technet.microsoft.com/wiki/contents/articles/22808.office-365-provisioning-steps.aspx). 
+A continuación, deberá facilitar un inquilino de Office 365 que vaya a usar con la implementación. Para obtener más información, vea [Pasos de aprovisionamiento para Office 365](https://social.technet.microsoft.com/wiki/contents/articles/22808.office-365-provisioning-steps.aspx). 
   
 ## <a name="configure-ad-fs"></a>Configurar AD FS
 
@@ -92,7 +92,7 @@ A menos que utilice un SIP, SMTP/UPN único para los usuarios de cada bosque, a�
     
 Al colocar una granja de AD FS en cada bosque de usuarios y un SIP/SMTP/UPN único para cada bosque, se solucionan dos problemas. Durante los intentos de autenticación, solo se buscarían e identificarían las cuentas del bosque de usuarios específico. Esto ayudará a proporcionar un proceso de autenticación sin errores. 
   
-Esta será una implementación estándar de AD FS de Windows Server 2012 R2 y debería estar funcionando antes de continuar. Para obtener instrucciones, consulte [cómo instalar AD FS 2012 R2 para Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx). 
+Esta será una implementación estándar de AD FS de Windows Server 2012 R2 y debería estar funcionando antes de continuar. Para ver las instrucciones, consulte [Cómo instalar AD FS 2012 R2 para Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx). 
   
 Una vez que se haya implementado, se tiene que editar la regla de notificaciones para que coincida con la regla de delimitador de origen que haya escogido antes. En la MMC de AD FS, en Confianzas para Usuarios autenticados, haga clic con el botón secundario en Plataforma de identidad de Microsoft Office 365 y, a continuación, haga clic en Editar reglas de notificaciones. Edite la primera regla y cambie ObjectSID por employeeNumber. 
   
@@ -112,7 +112,7 @@ Los atributos resaltados en verde se han combinado de los atributos de Office 36
   
 Este es un usuario de prueba, y puede ver que AAD Connect identificó los sourceAnchor y cloudSourceAnchor del usuario y los objetos del bosque de recursos, y de Office 365, en nuestro caso, 1101 que es el employeeNumber seleccionado antes. Después, fue capaz de combinar este objeto en lo que se ve arriba. 
   
-Para obtener más información, vea [integración de sus identidades local con Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect/). 
+Para más información, vea [Integración de las identidades locales con Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/). 
   
 AAD Connect debe instalarse usando mayoritariamente los valores predeterminados. Excepto para los siguientes pasos: 
   
@@ -122,7 +122,7 @@ AAD Connect debe instalarse usando mayoritariamente los valores predeterminados.
     
 3.  Identificar a los usuarios en los directorios locales: seleccione **las identidades de usuario existen en varios directorios** y seleccione atributos **ObjectSID** y **msExchangeMasterAccountSID**
     
-4. Identificar a los usuarios en Azure AD: origen de anclaje - seleccione el atributo que se ha elegido después de leer la [selección de un atributo de buena sourceAnchor](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/), nombre Principal de usuario - **userPrincipalName**
+4. Identificar a los usuarios en Azure AD: origen de anclaje - seleccione el atributo que se ha elegido después de leer la [selección de un atributo de buena sourceAnchor](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/), nombre Principal de usuario - **userPrincipalName**
     
 5.  Las características opcionales - seleccione si tienen híbrida de Exchange implementado o no.
     
@@ -137,7 +137,7 @@ AAD Connect debe instalarse usando mayoritariamente los valores predeterminados.
     
 ## <a name="configure-hybrid-mode-for-skype-for-business-server"></a>Configurar el modo híbrido de Skype Empresarial Server
 
-Siga los procedimientos recomendados para la configuración de Skype para entornos híbridos de negocio. Para obtener más información de planeación, vea [Planear la implementación híbrida de Skype para Business Server 2015](https://technet.microsoft.com/en-us/library/jj205403.aspx)y para obtener información de configuración, vea [Configure híbrida con Skype para profesionales en línea](https://technet.microsoft.com/en-us/library/jj204669.aspx). 
+Siga los procedimientos recomendados para la configuración de Skype para entornos híbridos de negocio. Para obtener más información, vea [Planear la implementación híbrida para Skype Empresarial Server 2015](https://technet.microsoft.com/en-us/library/jj205403.aspx) y, para la información de configuración, vea [Realizar una configuración híbrida para Skype Empresarial Online](https://technet.microsoft.com/en-us/library/jj204669.aspx). 
   
 ## <a name="configure-hybrid-mode-for-exchange-server"></a>Configurar el modo híbrido de Exchange Server
 

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: Lea este tema para aprender a planear las directivas de ubicación para una implementación de servicios de emergencia mejorado (E9-1-1) en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 919a09bb907bda8666c9a44ee61436643a912d61
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ed5eb479224c82757d808c202633cd79f466a543
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887326"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839430"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>Planeación de las directivas de ubicación de Skype para Business Server
  
@@ -59,7 +59,7 @@ En esta configuración se especifica la declinación de responsabilidad que los 
 Esta cadena de marcado (menos el interlineado "+", pero incluido cualquier normalización hecha por el Plan de marcado para el usuario) significa que la llamada es una llamada de emergencia. La **cadena de marcado de emergencia** implica que el cliente incluya la información de la devolución de llamadas y de la ubicación con la llamada.
   
 > [!NOTE]
-> Si su organización no utiliza un prefijo de acceso a línea externa, no es necesario crear una Plan de marcado de normalización regla correspondiente que agrega un "+" a la cadena 911 antes de enviar la llamada para el enrutamiento saliente en un servidor que ejecuta Skype para Business Server; se eliminará mediante la "+" se antepone automáticamente por el Skype para clientes empresariales como consecuencia de la directiva de ubicación. Sin embargo, si el sitio usa un prefijo de acceso externo, debe agregar una regla de normalización a la directiva aplicable Plan de marcado que se elimina el prefijo de acceso externo y se agrega el "+". Por ejemplo, si su ubicación utiliza un prefijo de acceso externo de 9 y un usuario marca 9 911 para realizar una llamada de emergencia, el cliente usará su directiva de Plan de marcado para normalizar esto a +911 antes de la se evalúa el número marcado por las rutas en el perfil de ubicación del autor de la llamada. 
+> Si su organización no utiliza un prefijo de acceso a línea externa, no es necesario crear una Plan de marcado de normalización regla correspondiente que agrega un "+" a la cadena 911 antes de enviar la llamada para el enrutamiento saliente en un servidor que ejecuta Skype para Business Server; se eliminará mediante la "+" se antepone automáticamente por el Skype para clientes empresariales como consecuencia de la directiva de ubicación. Sin embargo, si el sitio usa un prefijo de acceso externo, debe agregar una regla de normalización a la directiva aplicable Plan de marcado que se elimina el prefijo de acceso externo y se agrega el "+". Por ejemplo, si su ubicación utiliza un prefijo de acceso externo de 9 y un usuario marca 9 911 para realizar una llamada de emergencia, el cliente usará su directiva de Plan de marcado para normalizar esto a +911 antes de que se evalúa el número marcado por las rutas en el perfil de ubicación del autor de la llamada. 
   
  **Máscaras de cadena de marcado de emergencia (número de marcado de E9-1-1)**
   

@@ -11,12 +11,12 @@ description: Guía práctica para implementar características de voz en la nube
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 068ddc726a366f5ee34b23dca0f76699d4c76afc
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: 5ae144405375daa818f334fdf5be85e75cd4f6b1
+ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019079"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25851587"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de la reunión de los equipos en la nube
 
@@ -31,7 +31,7 @@ En Microsoft Teams, los usuarios pueden registrar sus reuniones de los equipos y
 
 Para que reuniones del usuario de los equipos que se registre, Microsoft Stream debe estar habilitada para el inquilino. Además, los siguientes requisitos previos son necesarios para el organizador de la reunión y la persona que está iniciando la grabación:
 
-- El usuario tiene una licencia de Office 365 Enterprise E1, E3 o E5
+- El usuario tiene un Office 365 E1, E3, E5, A1, A3, A5, M365 Business, Business Premium o Business Essentials
 - El usuario debe tener licencia para Microsoft Stream
 - El usuario tiene Microsoft Stream cargar permisos de vídeo
 - Usuario ha aceptado a las directrices de la compañía, si establecido por el administrador
@@ -75,13 +75,13 @@ Para cambiar el valor de AllowCloudRecording en la directiva Global, use el sigu
 </br>
 
 
-|Escenario|Pasos |
-|---|---|
-|Deseo que todos los usuarios de mi compañía para poder registrar sus reuniones |<ol><li>Confirmar CsTeamsMeetingPolicy Global tiene AllowCloudRecording = True<li>Todos los usuarios tengan el Global OR CsTeamsMeetingPolicy una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = True </ol>|
-|Deseo que la mayoría de Mis usuarios puedan registrar sus reuniones pero deshabilitar selectivamente los usuarios específicos que no se permiten para registrar |<ol><li>Confirmar GlobalCsTeamsMeetingPolicy tiene AllowCloudRecording = True<li>La mayoría de los usuarios tienen la Global CsTeamsMeetingPolicy o una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = True<li>Se han concedido todos los demás usuarios una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = False</ol>|
-|La opción I want grabación para que sea 100% deshabilitado| <ol><li>Confirmar CsTeamsMeetingPolicy Global tiene AllowCloudRecording = False<li>Todos los usuarios se han concedido OR CsTeamsMeetingPolicy Global una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = False|
-|La opción I want grabación para ser deshabilitado para la mayoría de los usuarios sin habilitar de forma selectiva los usuarios específicos que se permiten para registrar|<ol><li>Confirmar CsTeamsMeetingPolicy Global tiene AllowCloudRecording = False<li>La mayoría de los usuarios se han concedido el Global CsTeamsMeetingPolicy o una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = False<li>Se han concedido todos los demás usuarios una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = True <ol>|
-|||
+|                                                                 Escenario                                                                 |                                                                                                                                                                         Pasos                                                                                                                                                                          |
+|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                    Deseo que todos los usuarios de mi compañía para poder registrar sus reuniones                                    |                                                                     <ol><li>Confirmar CsTeamsMeetingPolicy Global tiene AllowCloudRecording = True<li>Todos los usuarios tengan el Global OR CsTeamsMeetingPolicy una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = True </ol>                                                                     |
+| Deseo que la mayoría de Mis usuarios puedan registrar sus reuniones pero deshabilitar selectivamente los usuarios específicos que no se permiten para registrar |        <ol><li>Confirmar GlobalCsTeamsMeetingPolicy tiene AllowCloudRecording = True<li>La mayoría de los usuarios tienen la Global CsTeamsMeetingPolicy o una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = True<li>Se han concedido todos los demás usuarios una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = False</ol>         |
+|                                                   La opción I want grabación para que sea 100% deshabilitado                                                   |                                                                <ol><li>Confirmar CsTeamsMeetingPolicy Global tiene AllowCloudRecording = False<li>Todos los usuarios se han concedido OR CsTeamsMeetingPolicy Global una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = False                                                                 |
+|      La opción I want grabación para ser deshabilitado para la mayoría de los usuarios sin habilitar de forma selectiva los usuarios específicos que se permiten para registrar       | <ol><li>Confirmar CsTeamsMeetingPolicy Global tiene AllowCloudRecording = False<li>La mayoría de los usuarios se han concedido el Global CsTeamsMeetingPolicy o una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = False<li>Se han concedido todos los demás usuarios una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = True <ol> |
+|                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                        |
 
 ### <a name="enabledisable-recording-transcription-for-users"></a>Habilitar o deshabilitar transcripción de grabación para los usuarios
 
@@ -121,7 +121,7 @@ Las grabaciones de reunión se almacenan en Microsoft Stream, que es 365 Office 
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad sobre solo usa el centro de administración de Office 365, como cuando se realizan cambios de configuración para muchos usuarios a la vez. To get started with Windows PowerShell, see these topics:
+Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad sobre solo usa el centro de administración de Office 365, como cuando se realizan cambios de configuración para muchos usuarios a la vez. To get started with Windows PowerShell, see these topics:
 
 - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
 - [Configurar el equipo para Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525038)

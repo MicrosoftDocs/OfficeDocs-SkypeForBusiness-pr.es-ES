@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 description: Conozca los diferentes modelos de identidad de Microsoft Teams, como Nube, Sincronizada y Federada. Aprenda también sobre la autenticación multifactor.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49f2a4f3396e59f056f4e06db9e9d805228f47e1
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 3425cfac168e65cd062af67f7e05727f2fe5a837
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013646"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839138"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Modelos de identidad y autenticación en Microsoft Teams
 ==========================================
@@ -51,7 +51,7 @@ Consulte [Elegir un modelo de inicio de sesión para Office 365](https://go.micr
 
 Los planes de Office 365 admiten la autenticación multifactor (MFA) que aumenta la seguridad de los inicios de sesión de usuario en los servicios de Office 365. Con MFA para Office 365, los usuarios deben responder a una llamada de teléfono, un mensaje de texto o una notificación de aplicación en sus smartphones después de introducir correctamente la contraseña. Solo podrán iniciar sesión una vez que se haya cumplido este segundo factor de autenticación.
 
-La autenticación multifactor se admite con cualquier plan de Office 365 que incluya Microsoft Teams. La suscripción a los planes de Office 365 que incluyen Microsoft Teams se trata más adelante en la sección Licencias.
+Autenticación de múltiples factores es compatible con cualquier plan de Office 365 que incluye Microsoft Teams. Los planes de suscripción de Office 365 que incluyen Microsoft Teams se describen más adelante en la sección de licencia más adelante.
 
 Una vez que los usuarios se inscriban para MFA, la próxima vez que inicien sesión, verán un mensaje que les pide que configuren el segundo factor de autenticación. Los métodos de autenticación admitidos son:
 

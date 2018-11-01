@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: El nuevo panel Informes de Office 365 muestra la información general de actividad en los productos de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto.
-ms.openlocfilehash: 46a44a61777cdd4d52b9899429b4a17ffe6ad7cb
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 33aa42ea7acd2f28ab0e27da85421071f948ca99
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851813"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838540"
 ---
 # <a name="session-details-report"></a>Informe de detalles de la sesión
 
@@ -34,7 +34,7 @@ Consulte [información general de informes](https://support.office.com/article/0
 Este informe, junto con los otro Skype para informes de negocios proporcionan detalles sobre actividad, incluidos los detalles de la sesión en toda la organización. Estos detalles son muy útiles cuando se investigar, planear y realizar otros profesionales las decisiones durante la para su organización y para la configuración de [comunicaciones créditos](/microsoftteams/what-are-communications-credits).
   
 > [!NOTE]
-> Puede ver todos los informes de Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Office 365. 
+> Podrá ver todos los informes de Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Office 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>Cómo llegar a la Skype para el informe de detalles de sesiones de negocio
 
@@ -107,7 +107,7 @@ Para cada sesión, hay una tabla sub con datos diferentes disponibles en funció
     
 - [Skype para informe de actividad de organizador de conferencia empresarial](conference-organizer-activity-report.md) Puede ver cuánto los usuarios están organizar conferencias que utilizan mensajería instantánea, audio y vídeo, compartir aplicaciones, Web, dial-in/out - 3rd fabricantes y dial-in/out - Microsoft.
     
-- [Skype para informe de actividad de participantes de conferencia empresarial](conference-participant-activity-report.md) Puede ver cuántos de mensajería instantánea, audio y vídeo, compartir aplicaciones, Web y y conferencias de conferencia de acceso telefónico de entrada/salida se va a participó en.
+- [Skype para informe de actividad de participantes de conferencia empresarial](conference-participant-activity-report.md) Puede ver cuántos de mensajería instantánea, audio y vídeo, uso compartido de aplicaciones, Web y conferencias de conferencia de acceso telefónico de entrada/salida se va a participó en.
     
 - [Skype para informe de actividad de punto a punto de negocio](peer-to-peer-activity-report.md) Puede ver cuánto los usuarios utilizan mensajería instantánea, audio y vídeo, uso compartido de aplicaciones y transferencia de archivos.
     

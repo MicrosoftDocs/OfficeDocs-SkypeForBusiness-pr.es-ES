@@ -16,12 +16,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 38706497fc83cdc5eea4cafb7177d23d55879bf0
-ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
+ms.openlocfilehash: 3dec789d31737eeb4585da5e28737a15ca679a5b
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25436631"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839120"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Administrar los equipos durante la transición a la nueva Microsoft Teams & Skype para el centro de administración de negocio
 ======================================================
@@ -29,7 +29,7 @@ ms.locfileid: "25436631"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="what-is-the-new-microsoft-teams--skype-for-business-admin-center"></a>¿Qué es el nuevo Microsoft Teams & Skype para el centro de administración de negocio?  
+## <a name="what-is-the-new-microsoft-teams--skype-for-business-admin-center"></a>¿Qué es el nuevo Microsoft Teams & Skype para el centro de administración de negocio?  
 
 La nueva experiencia del centro de administración le proporcionará una experiencia unificada para administrar los equipos y Skype para la empresa. Ofrecemos una funcionalidad adicional, entendimiento de extremo a otro y la capacidad para administrar la configuración de los equipos en un nivel de usuario.
 
@@ -41,32 +41,32 @@ En la siguiente tabla identifica las secciones de la experiencia de los equipos 
 
 |Sección de los equipos en el centro de administración de Office 365  |Nombre de la configuración (nivel de inquilino)  |Microsoft Teams & Skype para directiva de centro de administración de negocio   |Nivel: Usuario o inquilino   |
 |---------|---------|---------|---------|
-|General     |Mostrar Chat organizativa en perfil Personal        |  [TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Inquilino       |
-|General     |Usar Skype para la empresa para los destinatarios que no tienen los equipos         |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
-|General     |Permitir que los mensajes de ayuda proactiva T-Bot         |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
-|Integración del correo electrónico     |Permitir a los usuarios enviar correos electrónicos a canales         |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
-|Integración del correo electrónico     |Permitir que los remitentes lista         |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Inquilino         |
-|Almacenamiento en nube personalizado     |Cuadro de         |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
-|Almacenamiento en nube personalizado     |Lista desplegable        |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
-|Almacenamiento en nube personalizado     |Unidad de Google        |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
-|Almacenamiento en nube personalizado     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
+|General     |Mostrar Chat organizativa en perfil Personal        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Inquilino       |
+|General     |Usar Skype para la empresa para los destinatarios que no tienen los equipos         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
+|General     |Permitir que los mensajes de ayuda proactiva T-Bot         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
+|Integración del correo electrónico     |Permitir a los usuarios enviar correos electrónicos a canales         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
+|Integración del correo electrónico     |Permitir que los remitentes lista         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Inquilino         |
+|Almacenamiento en nube personalizado     |Cuadro de         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
+|Almacenamiento en nube personalizado     |Lista desplegable        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
+|Almacenamiento en nube personalizado     |Unidad de Google        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
+|Almacenamiento en nube personalizado     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
 |Configuración por tipo de licencia de usuario o     |Activar Microsoft Teams activado o desactivado para todos los usuarios          |En desuso<sup>1</sup>        |         |
 |Equipos y canales     |         |Redirecciones a Azure grupo Administración de Active Directory (igual que la experiencia actual).              |Usuario         |
 |Equipos y canales     |         |Redirige a la administración de grupo de AAD (igual que la experiencia actual).             |Usuario          |
-|Las llamadas y las reuniones     |Permitir la programación de reuniones privadas         |[TeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuario          |
-|Las llamadas y las reuniones     |Permitir meetup de canal Ad hoc         |[TeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuario          |
-|Las llamadas y las reuniones     |Permitir la programación de reuniones de canal         |[TeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuario          |
-|Las llamadas y las reuniones     |Permitir vídeos en las reuniones         |[TeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuario          |
-|Las llamadas y las reuniones     |Permitir el uso compartido en reuniones de pantalla         |[TeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuario          |
-|Las llamadas y las reuniones     |Permitir llamadas privada         |[TeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |Usuario          |
-|Mensajes     |Habilitar Giphy, por lo que los usuarios pueden agregar archivos GIF a las conversaciones         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
-|Mensajes     |Clasificación de contenido         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
-|Mensajes     |Habilitar memes que los usuarios pueden editar y agregar a las conversaciones         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
-|Mensajes     |Habilitar a pegatinas que los usuarios pueden editar y agregar a las conversaciones         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
-|Mensajes     |Permitir que los propietarios de eliminar todos los mensajes         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
-|Mensajes     |Permitir a los usuarios editar sus propios mensajes de         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
-|Mensajes     |Permitir a los usuarios eliminar sus propios mensajes de         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
-|Mensajes     |Permite a los usuarios a conversaciones en privado         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
+|Las llamadas y las reuniones     |Permitir la programación de reuniones privadas         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuario          |
+|Las llamadas y las reuniones     |Permitir meetup de canal Ad hoc         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuario          |
+|Las llamadas y las reuniones     |Permitir la programación de reuniones de canal         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuario          |
+|Las llamadas y las reuniones     |Permitir vídeos en las reuniones         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuario          |
+|Las llamadas y las reuniones     |Permitir el uso compartido en reuniones de pantalla         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuario          |
+|Las llamadas y las reuniones     |Permitir llamadas privada         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |Usuario          |
+|Mensajes     |Habilitar Giphy, por lo que los usuarios pueden agregar archivos GIF a las conversaciones         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
+|Mensajes     |Clasificación de contenido         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
+|Mensajes     |Habilitar memes que los usuarios pueden editar y agregar a las conversaciones         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
+|Mensajes     |Habilitar a pegatinas que los usuarios pueden editar y agregar a las conversaciones         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
+|Mensajes     |Permitir que los propietarios de eliminar todos los mensajes         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
+|Mensajes     |Permitir a los usuarios editar sus propios mensajes de         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
+|Mensajes     |Permitir a los usuarios eliminar sus propios mensajes de         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
+|Mensajes     |Permite a los usuarios a conversaciones en privado         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
 
 <sup>1</sup> en desuso de invitado. Habilitación o deshabilitación de invitado ahora se pueden administrar en el Microsoft Teams & Skype para el centro de administración de negocio. Habilitar o deshabilitar los equipos para profesionales de empresa, Edu estudiantes, y quedará obsoleto Edu profesores pronto. Esto debe administrarse mediante la asignación de licencias en el centro de administración de Office 365. Vea [administrar el acceso de usuarios a los equipos de Microsoft](user-access.md).
 
