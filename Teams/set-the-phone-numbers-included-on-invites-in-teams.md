@@ -20,26 +20,34 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtener los pasos para crear un número de teléfono predeterminado para los autores de llamadas para unirse a una reunión de Microsoft Teams. '
-ms.openlocfilehash: 859bf6f4a99f95c67123385c99061b1546eaa60c
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 20dfd4255cd41e9f5aebf419f77307b30fe40042
+ms.sourcegitcommit: 75e0c9e186dc167bad01f5b17ec9de8a682ee007
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347580"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "26005524"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Establecer los números de teléfono incluidos en las invitaciones en Microsoft Teams
 
-Conferencias de audio en Office 365 permiten a los usuarios de la organización crear reuniones de Microsoft Teams y, a continuación, permitir a los usuarios para conectarse a las reuniones utilizando un teléfono. En Office 365, tendrá la opción de utilizar un puente de conferencia de audio de Microsoft o un puente de conferencia de audio de terceros que está hospedado en un proveedor de conferencias de audio aprobadas (ACP).
+Conferencias de audio en Office 365 permiten a los usuarios de la organización crear reuniones de Microsoft Teams y, a continuación, permitir a los usuarios para conectarse a las reuniones utilizando un teléfono.
   
 Un puente de conferencia le proporciona un conjunto de números de teléfono de acceso telefónico para su organización. Todos ellos se pueden usar para unirse a las reuniones que ha creado un organizador de la reunión, pero puede seleccionar cuáles se incluirá en sus invitaciones de reunión.
   
 > [!NOTE]
-> En la invitación para un organizador de reuniones, puede haber un máximo de un número de teléfono de pago y uno gratuito, aunque también habrá un vínculo situado en la parte inferior de cada invitación con el que se abre una lista de números de teléfono de acceso telefónico local que se pueden usar para unirse a una reunión. 
+> Puede haber un máximo de un teléfono de pago y un número de teléfono gratuito en la invitación a la reunión para un organizador de la reunión, pero también hay un vínculo que se encuentra en la parte inferior de cada invitación a la reunión que se abre la lista completa de todos los números de teléfono de acceso telefónico que se pueden usar para unirse a una reunión. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Establecer o cambiar el número de teléfono de audioconferencia predeterminado para un usuario o un organizar de reunión
+## <a name="initial-assignment-of-phone-numbers-that-are-included-in-the-meeting-invites-for-new-users"></a>Asignación inicial de números de teléfono que se incluyen en la reunión invitaciones para nuevos usuarios
+
+Se invita los números de teléfono que se incluyan en la reunión de los usuarios habilitados para conferencias de Audio se definen mediante el número de teléfono de pago de conferencia de forma predeterminada y la configuración de la conferencia teléfono gratuito número del usuario predeterminado. Cada opción de configuración especifica qué números de pago y el número de teléfono gratuito se incluirá en la invitación a la reunión de un usuario determinado. Como se mencionó anteriormente, cada invitación a la reunión contiene el número de teléfono de uno pago, un número de teléfono gratuito opcional y un vínculo que se abre la lista completa de todos los números de teléfono de acceso telefónico que se pueden usar para unirse a una reunión determinada.
+
+Para un nuevo usuario, se asignan los números de teléfono de pago de conferencia predeterminados según el país en el que se establece en el perfil de Office 365 del usuario cuando el usuario está habilitado para el servicio de conferencia de Audio. Si no hay un número de teléfono de pago en el puente de conferencia que coincide con el país del usuario, ese número se asignará automáticamente como el número de teléfono de pago predeterminado del usuario. Si no hay, se asignará el número al que se ha definido como el número de teléfono de pago predeterminado del puente de conferencia como el número de teléfono de pago predeterminado del usuario.  
+
+Una vez que el usuario está habilitado para el servicio de conferencia de Audio, el pago de forma predeterminada y los números de teléfono gratuito del usuario pueden cambiarse por el Administrador de inquilinos de sus valores iniciales en cualquier momento.
+
+## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Establecer o cambiar el número de teléfono de conferencia de audio predeterminada para un usuario o el organizador de la reunión
 
 ![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) Uso del equipos de Microsoft y Skype para centro de administración de negocio
 

@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53f8704daf923b54e30d0061669ea1de63eeb02e
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: f4503019a35580e662f5ca1e91e9645f92a584c6
+ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678253"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025130"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Detección del entorno para la implementación de Microsoft Teams
 ===================================================
@@ -136,7 +136,7 @@ Si procede, capturar los detalles de su Skype para la implementación empresaria
 
 > | Pregunta | Respuesta | Comentarios |
 > |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-> | ¿Qué versiones de Lync o Skype para la empresa actualmente <br>¿están instalados en servidores locales? | <input type="checkbox">Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">Skype para Business Server 2015 <br/> <input type="checkbox">Skype para Business Server 2019 <input type="checkbox"> Skype para Business Edition de conector en la nube | |
+> | ¿Qué versiones de Lync o Skype para la empresa actualmente <br>¿están instalados en servidores locales? | <input type="checkbox">Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">Skype para Business Server 2015 <br/> <input type="checkbox">Skype para Business Server 2019 <br/><input type="checkbox">Skype para Business Edition de conector en la nube | |
 > | ¿Está configurado el modo híbrido con Skype Empresarial Online? | <input type="checkbox">Sí <br/> <input type="checkbox">No | |
 > | ¿Es este entorno hospedado y administrado por un tercero? <br/>En caso afirmativo, tenga en cuenta los detalles en la columna comentarios. | <input type="checkbox">Sí <br/> <input type="checkbox">No | |
 > | Las modalidades y las características que están actualmente en uso <br>¿hoy? | <input type="checkbox">Mensajería instantánea y presencia (IM/P) <br/> <input type="checkbox">Conferencia <br/> <input type="checkbox">Federación <br/> <input type="checkbox">Grabación de la reunión <br/> <input type="checkbox">Chat en grupo o grupos de Chat <br/> <input type="checkbox">Conferencia de Audio de Microsoft <br>&nbsp;&nbsp; &nbsp;(anteriormente de marcado en la conferencia) en su <br>&nbsp;&nbsp; &nbsp;Lync Server local o <br>&nbsp;&nbsp; &nbsp;Skype para la implementación empresarial <br/> <input type="checkbox">Conferencia de audio de terceros <br>&nbsp;&nbsp; &nbsp;(Tenga en cuenta los detalles en la columna comentarios) <br/> <input type="checkbox">Uso de Enterprise Voice local RTC <br>&nbsp;&nbsp; &nbsp;conectividad <br/> <input type="checkbox">Planes de llamada (anteriormente RTC de llamada) a través de <br>&nbsp;&nbsp; &nbsp;Híbrida con Skype para la empresa en línea | |

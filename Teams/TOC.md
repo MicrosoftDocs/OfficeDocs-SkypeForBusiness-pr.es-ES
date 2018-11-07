@@ -1,11 +1,15 @@
 <!-- ============================================================ -->
-# Introducción
-
-## [Información general sobre Microsoft Teams](Teams-overview.md)
-## [Herramientas y talleres: planificar, entregar y usar Microsoft Teams](planning-workshop-practical-guide.md)
-## [Obtener ayuda en Microsoft Teams](get-help-in-microsoft-teams.md)
+# [Bienvenida a Teams](teams-overview.md)
 <!-- ============================================================ -->
 
+# [Introducción](get-started-with-teams-landing-page.md)
+## [Guía de inicio rápido - equipos](get-started-with-teams-quick-start.md)
+## [Crear su primera equipos y canales](get-started-with-teams-create-your-first-teams-and-channels.md)
+## [Primeros usuarios incorporados](get-started-with-teams-onboard-early-adopters.md)
+## [Uso de monitor y comentarios](get-started-with-teams-monitor-usage-and-feedback.md)
+## [Dónde ir siguiente](get-started-with-teams-resources-for-org-wide-rollout.md)
+## [Obtener ayuda en Microsoft Teams](get-help-in-microsoft-teams.md)
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Planificar
@@ -168,7 +172,7 @@
 ##  [Planes de llamada en Office 365 - tratamiento de Reclamación de código para el Reino Unido.](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ## [Prácticas de recopilación de datos](data-collection-practices.md)
 ##  [Etiquetas de llamada de emergencia](emergency-calling-labels.md)
-##  [Términos y condiciones de las llamadas de emergencias](emergency-calling-terms-and-conditions.md)
+##  [Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)
 
 <!-- ============================================================ -->
 
