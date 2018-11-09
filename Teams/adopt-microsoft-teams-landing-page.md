@@ -12,12 +12,12 @@ ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11865d4e4258be9df2d3a8201945bffbc9117b67
-ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
+ms.openlocfilehash: 6c19b6deb1c07622efd12ed74db2daf8bee78c05
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238101"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26216039"
 ---
 # <a name="adopt-microsoft-teams"></a>Adoptar los equipos de Microsoft
 
@@ -177,6 +177,7 @@ Planes de adopción pueden ser simples a complejos, dependiendo de su entorno. P
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">Definir el resultado y el éxito</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">Optimizar los comentarios y creación de informes</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">Conocimiento de la unidad e implementar recursos de aprendizaje</a></p>
+
                     </div>
                 </div>
             </div>
