@@ -3,24 +3,23 @@ title: Obtener la configuración de usuario
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
-description: 'Resumen: Obtenga información acerca de la operación de obtener la configuración de usuario, que es parte del servicio de configuración de usuario. El servicio de configuración de usuario es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.'
-ms.openlocfilehash: e3646b1c6d5a7f959ee76565bb7b92ac84cbe8a4
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Obtenga información acerca de la operación de obtener la configuración de usuario, que es parte del servicio de configuración de usuario. El servicio de configuración de usuario es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
+ms.openlocfilehash: 286939271bdc99790f125beabb68735dd4c5f758
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569253"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035648"
 ---
 # <a name="get-user-setting"></a>Obtener la configuración de usuario
  
-**Resumen:** Obtenga información acerca de la operación de obtener la configuración de usuario, que es parte del servicio de configuración de usuario. El servicio de configuración de usuario es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.
+**Resumen:** Obtenga información acerca de la operación de obtener la configuración de usuario, que es parte del servicio de configuración de usuario. El servicio de configuración de usuario es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.
   
 La operación de obtener la configuración de usuario es parte del servicio de configuración de usuario de la API de repositorio para llamar al panel de calidad.
   

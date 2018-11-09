@@ -16,14 +16,17 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo enrutamiento directo de Microsoft teléfono del sistema le permite conectar un compatibles, proporcionado por el cliente sesión controlador de borde (SBC) para el sistema telefónico de Microsoft.
-ms.openlocfilehash: d9b1cf0f819639aebd1250bd37f4fc85d5555fc4
-ms.sourcegitcommit: a54864c3fcd1b8d240d0f7f2ccf68f8cba566e47
+ms.openlocfilehash: a26dfc51e1a885569a37200d8613879e8f3bd484
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25849409"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26038922"
 ---
 # <a name="plan-direct-routing"></a>Planeación de enrutamiento directo
+
+> [!Tip]
+> Vea la sesión para obtener información sobre las ventajas de Direct enrutamiento, cómo planear para él y cómo implementarlo siguiente: [El enrutamiento directo en los equipos de Microsoft](https://aka.ms/teams-direct-routing)
 
 Enrutamiento directo de Microsoft teléfono del sistema le permite conectar un compatibles, proporcionado por el cliente sesión controlador de borde (SBC) para el sistema telefónico de Microsoft.  Con esta función, por ejemplo, puede configurar la conectividad de RTC local con el cliente de Microsoft Teams, tal como se muestra en el siguiente diagrama: 
 

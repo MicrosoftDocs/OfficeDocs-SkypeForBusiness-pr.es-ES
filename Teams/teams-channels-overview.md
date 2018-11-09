@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 552d6f084de369ce87f3e1e44d4e3ebc968b06ea
-ms.sourcegitcommit: f9410a182f571d2a8ebe71ecd91ec97f83d8e077
+ms.openlocfilehash: a5e3ec3bf4fc8f3f3a84ccec5558134b3bca43b7
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25942818"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26038812"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Información general de los equipos y canales en Microsoft Teams
 =================================================
@@ -30,7 +30,7 @@ Para empezar, veamos cómo Microsoft Teams permite que los equipos individuales 
 
     -   Los equipos también se pueden crear públicos y abiertos, de modo que todos los integrantes de la organización se pueden unir (hasta 2500 miembros).
     
-Los equipos están diseñados para reunir grupos de personas que trabajan juntos para intentar lograr sus objetivos. Los equipos pueden ser dinámicos para el trabajo basado en proyectos (por ejemplo, iniciar un producto o crear un centro de operaciones digital) o continuos para reflejar la estructura interna de su organización (por ejemplo, departamentos y ubicaciones de oficinas). Los miembros del equipo serán los únicos que podrán ver las conversaciones, los archivos y las notas de los canales del equipo.
+    Los equipos están diseñados para reunir grupos de personas que trabajan juntos para intentar lograr sus objetivos. Los equipos pueden ser dinámicos para el trabajo basado en proyectos (por ejemplo, iniciar un producto o crear un centro de operaciones digital) o continuos para reflejar la estructura interna de su organización (por ejemplo, departamentos y ubicaciones de oficinas). Los miembros del equipo serán los únicos que podrán ver las conversaciones, los archivos y las notas de los canales del equipo.
 
 -   Los **canales** son secciones dedicadas dentro de un equipo para mantener las conversaciones organizadas por temas, disciplinas o proyectos específicos, es decir, lo que le sea más conveniente al equipo.
 
@@ -38,7 +38,9 @@ Los equipos están diseñados para reunir grupos de personas que trabajan juntos
 
     -   Los canales son más valiosos cuando extendido con aplicaciones que incluyen pestañas, conectores y bots que aumente su valor a los miembros del equipo.
 
-<a name="membership-roles-and-settings"></a>Configuración, Roles y pertenencia
+[Vea este vídeo corto](https://youtu.be/hjJWtoaRJeE) para obtener más información acerca de los procedimientos recomendados para la creación de equipos y canales.
+
+<a name="membership-roles-and-settings"></a>Configuración, roles y pertenencia
 ------------------------------
 
 **Pertenencia a equipos**: Cuando Microsoft Teams se activa para toda la organización, los propietarios de equipo designados tienen la capacidad de invitar a cualquier empleado con el que trabajen para que se una al equipo. Con Microsoft Teams, los propietarios de equipo pueden agregar con facilidad personas de la organización por su nombre. En función de cuál sea la configuración de su organización, podrá agregar a sus equipos los invitados que sean miembros del equipo, pero que no pertenezcan a la organización. Vea [Acceso de invitado a Microsoft Teams](guest-access.md) para obtener más información. 

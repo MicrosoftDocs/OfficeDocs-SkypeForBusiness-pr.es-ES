@@ -1,0 +1,71 @@
+---
+title: Fase de adopción de Microsoft Teams 1 - Inicio
+author: LolaJacobsen
+ms.author: lolaj
+manager: serdars
+ms.date: 10/29/2018
+audience: Admin
+ms.topic: article
+ms.service: msteams
+ms.reviewer: karuanag
+localization_priority: Normal
+search.appverid: MET150
+description: Obtenga información sobre la fase de inicio de la adopción de los equipos.
+ms.custom:
+- NewAdminCenter_Update
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: aba79f52984b243aa0a10c425f5c5741119daf50
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26216072"
+---
+# <a name="microsoft-teams-adoption-phase-1---start"></a>Fase de adopción de Microsoft Teams 1 - Inicio
+
+Comenzará a la adopción de los equipos con las siguientes actividades:
+
+- [Requisitos previos de adopción de validar](#validate-adoption-prerequisites).
+- [Ensamblado de su equipo](#assemble-your-team).
+- [Canales y comprenda el funcionamiento equipos](teams-adoption-understand-teams-and-channels.md).
+- [Configurar los equipos en los equipos de primera](teams-adoption-your-first-teams.md) para crear sus conocimientos técnicos.
+- [Evalúe la preparación de su organización para el cambio](teams-adoption-assess-readiness.md).
+
+El objetivo principal de esta fase es garantizar la preparación para la fase de experimentación. También podrá determinar si necesita ayuda de Microsoft o de nuestra red de socios calificados.  
+
+## <a name="validate-adoption-prerequisites"></a>Validar los requisitos previos de adopción
+
+Revisar nuestros [requisitos previos de adopción](teams-adoption-get-started.md#adoption-prerequisites) y trabajar con el equipo técnico para cumplirlos si es necesario. También se abordará más profundos requisitos técnicos dentro de cada escenario de adopción.
+
+## <a name="assemble-your-team"></a>Ensamblar su equipo
+
+En la tabla siguiente se enumera las funciones principales de su equipo de proyecto. En una organización de tamaño reducido, algunas de estas funciones pueden llevarse a cabo por la misma persona.
+
+| Rol | Responsabilidades | Departamento |
+| ---- | ---------------- | ---------- |
+| Patrocinador ejecutivo<sup>1</sup> | Visión de alto nivel se comunican. Conectar implementación de los equipos a las iniciativas de misión y la prioridad de principal de la compañía. | Liderazgo ejecutivo |
+| Propietario de éxito<sup>1</sup> | Asegúrese de que se obtienen los objetivos empresariales de la implantación de los equipos. | Cualquier departamento |
+| Jefe de programa<sup>1</sup> | Supervisará el todo proceso de implementación y la ejecución de la lanzamiento de los equipos. | LO |
+| Campeones<sup>1</sup> | Ayuda de dé a conocer los equipos, admite la creación de aptitudes y proporciona perspectivas de uso. | Varios departamentos |
+| Responsable de formación | Administrar y comunicar el contenido de aprendizaje acerca de los equipos. | TI u otro |
+| Departamento de clientes potenciales (las partes interesadas)<sup>2</sup> | Identificar cómo determinados departamentos usará los equipos y fomentar la contratación. | Cualquier departamento (administración) |
+| TI especialistas en<sup>1</sup> | Supervisar todos los aspectos técnicos de implementación, incluida la integración. | LO |
+| Clientes potenciales de comunicación<sup>2</sup> | Supervisar las comunicaciones de toda la compañía acerca de los equipos. | Las comunicaciones corporativas, TI, u otro |
+| Administrador de la Comunidad | Administrar la actividad de red de Yammer diaria. Se proporcionan información y procedimientos recomendados. | Varios departamentos |
+
+<sup>1</sup> Estos roles son esenciales para el éxito del proyecto.</br>
+<sup>2</sup> Estos roles son importantes para el éxito global del programa.
+
+En la mayoría de los casos, este equipo inicial debe ser un pequeño grupo de personas de él que están interesados en los equipos y también pueden ser responsable de su implementación. Tal y como se mueve el plan de adopción en a fases adicionales, se incluyen más personas en su equipo. También es recomendable que permite aprovechar los recursos de Microsoft que están disponibles para ayudarle a. 
+
+## <a name="additional-resources"></a>Recursos adicionales
+
+La [Comunidad técnica de Microsoft](https://aka.ms/TechCommunity) ofrece siempre del mismo nivel entendimiento de adopción y problemas técnicos para muchos productos de Office 365. Es recomendable que unirse a las Comunidades siguientes:
+
+- [Comunidad técnica de los equipos de Microsoft](https://aka.ms/TeamsCommunity) – Obtenga respuestas a preguntas de producto, aprender de otros clientes de los equipos y siga nuestro blog para mantenerse al día sobre las nuevas características y casos de uso para los equipos. 
+- [Programa de campeones de Office 365](https://aka.ms/O365Champions) y la Comunidad de adopción tiende a – aprender de sus colegas acerca de cómo práctica estimular la adopción de las cargas de trabajo de Office 365, como equipos, SharePoint, Yammer y otros productos. Abra a los profesionales de TI, los usuarios empresariales, el desarrollador "accidental", y cualquier persona interesada en promoviendo la adopción de los servicios de nube.  
+
+[Aprendizaje personalizado para Office 365](https://aka.ms/CLO365) incluye una plantilla de SharePoint Online y el elemento Web personalizado que puede usar para crear un portal de aprendizaje para su organización. Esto gratis, abra permite de solución de origen stream activos de aprendizaje directamente en Office 365 inquilino de Microsoft. Se puede personalizar para los servicios que está usando y agrega contenido de recursos de aprendizaje adicionales a la experiencia del sitio. Si ya tiene un portal de aprendizaje de SharePoint Online, puede descargar el elemento Web para instalar directamente en el sitio de su compañía y, a continuación, configurarlo según los requisitos de implementación.  
+
+![Icono de pasos siguiente](media/teams-adoption-next-icon.png) siguiente: [canales y comprenda el funcionamiento equipos](teams-adoption-understand-teams-and-channels.md)

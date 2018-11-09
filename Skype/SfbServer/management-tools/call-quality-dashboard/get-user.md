@@ -3,24 +3,23 @@ title: Obtener el usuario
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 52b89a4b-a0bd-493d-bb5e-e21904eb8e48
-description: 'Resumen: Obtenga información acerca de la operación obtener usuario, que es parte del servicio de usuario. El servicio de usuario es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.'
-ms.openlocfilehash: 7fd3a552f543d9e66e26feb4dfa60289c3aeb971
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Obtenga información acerca de la operación obtener usuario, que es parte del servicio de usuario. El servicio de usuario es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
+ms.openlocfilehash: 3508336eda934cf317f857d7ad7e903cb7298e00
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569232"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035592"
 ---
 # <a name="get-user"></a>Obtener el usuario
  
-**Resumen:** Obtenga información acerca de la operación obtener usuario, que es parte del servicio de usuario. El servicio de usuario es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.
+**Resumen:** Obtenga información acerca de la operación obtener usuario, que es parte del servicio de usuario. El servicio de usuario es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.
   
 La operación de obtener los usuarios es parte del servicio de usuario de la API de repositorio para llamar al panel de calidad.
   

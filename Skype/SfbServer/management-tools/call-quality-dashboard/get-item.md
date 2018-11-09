@@ -3,24 +3,23 @@ title: Obtener elemento
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
-description: 'Resumen: Obtenga información acerca de la operación obtener elemento, que es parte del servicio de elemento. El servicio de elemento es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.'
-ms.openlocfilehash: 29811f7f760644d257a2600dea08e54e1a53421b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumen: Obtenga información acerca de la operación obtener elemento, que es parte del servicio de elemento. El servicio de elemento es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
+ms.openlocfilehash: 12b52bdd51e8ba59f1aa90e2a366b3e11fb54805
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569155"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035589"
 ---
 # <a name="get-item"></a>Obtener elemento
  
-**Resumen:** Obtenga información acerca de la operación obtener elemento, que es parte del servicio de elemento. El servicio de elemento es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.
+**Resumen:** Obtenga información acerca de la operación obtener elemento, que es parte del servicio de elemento. El servicio de elemento es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.
   
 La operación obtener elemento es parte del servicio de elemento de la API de repositorio para llamar al panel de calidad.
   

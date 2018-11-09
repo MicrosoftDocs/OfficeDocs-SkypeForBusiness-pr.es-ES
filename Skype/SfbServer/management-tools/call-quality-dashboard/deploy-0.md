@@ -1,26 +1,25 @@
 ---
-title: Implementar el panel de calidad de llamada para Skype para Business Server 2015
+title: Implementación de paneles de calidad de llamada de Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
-description: 'Resumen: Información sobre el proceso de implementación para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.'
-ms.openlocfilehash: 31e1dc8d5508c7d3d31de0ec3af0b9c8c06a6c40
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: 'Resumen: Información sobre el proceso de implementación para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
+ms.openlocfilehash: c9d641a8202560e558e33014670b4b1060795477
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372644"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035753"
 ---
-# <a name="deploy-call-quality-dashboard-for-skype-for-business-server-2015"></a>Implementar el panel de calidad de llamada para Skype para Business Server 2015
+# <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Implementación de paneles de calidad de llamada de Skype para Business Server
  
-**Resumen:** Obtenga información sobre el proceso de implementación para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre el proceso de implementación para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.
   
 ## <a name="deployment-overview"></a>Introducción a la implementación
 
@@ -185,6 +184,27 @@ El siguiente paso es configurar el panel de la CQD. Después de que los usuarios
 4. Haga clic en **Aplicar** en el lado derecho de la página.
     
 ## <a name="known-issues"></a>Problemas conocidos
+
+### <a name="the-cqd-shows-no-data-after-deployment"></a>La CQD no muestra datos después de la implementación
+
+Es posible que reciba el siguiente error:
+
+*No podríamos realizamos la consulta mientras se ejecuta en el cubo. Use el Editor de consultas para modificar la consulta y corregir los problemas. Asegúrese también de que el cubo es accesible.*
+
+Esto significa que se debe procesar el cubo en SQL Server Analysis Services antes de que se usa en CQD. Esto se puede resolver siguiendo estos pasos:
+
+1. Abra SQL Management Studio y seleccione **Analysis Services**.
+
+2. Expanda el clic con botón secundario **QoECube** objeto, seleccione la **Métrica de calidad de la experiencia**y, a continuación, elija **Examinar**. 
+
+    Si este parámetro devuelve explorador vacía, todavía no se han continuar con el cubo aún.
+
+3. Haga clic con el botón angain de **Métrica de calidad de la experiencia** y seleccione **procesar**.
+
+4. Una vez completado el procesamiento, haga clic en el objeto nuevo y elija **Examinar** para confirmar que la página del explorador ahora muestra los datos. 
+
+
+### <a name="users-have-trouble-logging-in-because-installer-fails-to-create-the-correct-settings-in-iis"></a>Los usuarios tienen problemas para iniciar sesión debido a que se produce un error de instalador crear la configuración correcta en IIS
 
 En algunos casos poco frecuentes, el programa de instalación no puede crear la configuración correcta en IIS. Cambio manual se requiere para permitir a los usuarios iniciar sesión en la CQD. Si los usuarios tienen problemas para iniciar sesión, siga estos pasos:
   

@@ -3,52 +3,52 @@ title: Servicio de usuario para CQD
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
-description: 'Resumen: Conozca el servicio de usuario, que forma parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de la llamada es una herramienta de Skype para Business Server 2015.'
-ms.openlocfilehash: c4bb2395ea3fa4541140a7966bbfb554ef53c168
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumen: Información sobre el servicio de usuario, que forma parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
+ms.openlocfilehash: 42268078337e41b2dff595f58963f94656c2fd66
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035620"
 ---
 # <a name="user-service-for-cqd"></a>Servicio de usuario para CQD
  
-**Resumen:** Obtenga información acerca del servicio de usuario, que forma parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de la llamada es una herramienta de Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre el servicio de usuario, que forma parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.
   
-El servicio de usuario forma parte de la API de repositorio para llamar al panel de calidad.
+El servicio de usuario es parte de la API de repositorio para llamar al panel de calidad.
   
 ## <a name="user-service"></a>Servicio de usuario
 
-API del depósito proporciona un modelo de administración de usuario simplificado donde usuario provisioning (creación de nuevas cuentas de usuario) es implícita y automática. Cuando un usuario realiza una solicitud de la API del depósito por primera vez, el repositorio crea un nuevo registro de usuario. 
+Repositorio de API proporciona un modelo de administración de usuario simplificada donde aprovisionamiento (creación de nuevas cuentas de usuario) del usuario es automática e implícita. Cuando un usuario realiza una solicitud de la API de repositorio por primera vez, el repositorio crea un nuevo registro de usuario. 
   
-Panel de calidad también crea automáticamente un usuario de llamada dedicado elementos para el nuevo usuario. Los nuevos elementos de usuario dedicado son clones completos de los elementos del usuario del sistema. De este modo, los usuarios comienzan con sus propias copias de informes y consultas que pueden iniciar inmediatamente personalizar. 
+Panel de calidad también crea automáticamente un usuario de llamada dedicado elementos para el nuevo usuario. Los nuevos elementos de usuario dedicada sean copias completados de los elementos del usuario del sistema. De este modo, los usuarios comienzan con sus propias copias de los informes y las consultas que puede iniciar inmediatamente personalización. 
   
 > [!NOTE]
-> Con llamar al panel de calidad, los usuarios pueden restablecer sus elementos dedicados en cualquier momento. 
+> Con el panel de calidad de llamadas, los usuarios pueden restablecer sus elementos dedicados en cualquier momento. 
   
- **Identificadores de usuario especial**
+ **Identificadores de usuario especiales**
   
-API del depósito incluye a resto API URIs que espera un valor entero para especificar un usuario en particular. Ejemplo: `https://<portal>/QoERepositoryService/repository/user/{userId}`. En este caso, {ID} debe reemplazarse por un valor entero como 0, 1, etcetera.
+API del depósito incluye a REST API URIs que espera un valor entero para especificar un usuario en particular. Ejemplo: `https://<portal>/QoERepositoryService/repository/user/{userId}`. En este caso, {userId} debe reemplazarse por un valor entero como 0, 1, etcetera.
   
-Por otra parte, API de repositorio aceptará dos identificadores de usuario especial en {ID} de URI.
+Además, API de repositorio aceptará dos identificadores de usuario especial en {userId} en los URI.
   
--  *predeterminado* - representa el usuario que actualmente está interactuando con la API. Esto permite que las aplicaciones tengan acceso a contenido del usuario actual sin seguimiento del valor de ID de usuario real. Ejemplo: ` https://<portal>/QoERepositoryService/repository/user/default`.
+-  *predeterminado* - representa el usuario que actualmente está interactuando con la API. Esto permite a las aplicaciones tener acceso a contenido del usuario actual sin seguimiento del valor de identificador de usuario real. Ejemplo: ` https://<portal>/QoERepositoryService/repository/user/default`.
     
--  *sistema* - representa el usuario del sistema. Esto permite que las aplicaciones tengan acceso a contenido del usuario del sistema sin conocer el valor de ID de usuario real. Ejemplo: `https://<portal>/QoERepositoryService/repository/user/system`.
+-  *sistema* - representa el usuario del sistema. Esto permite a las aplicaciones tener acceso a contenido del usuario del sistema sin necesidad de conocer el valor de identificador de usuario real. Ejemplo: `https://<portal>/QoERepositoryService/repository/user/system`.
     
-A menos que se indique lo contrario, se pueden utilizar los identificadores de usuario especial en {ID} en identificadores URI. 
+A menos que se indique lo contrario, se pueden usar los identificadores de usuario especial en {userId} en los URI. 
   
-Las operaciones de resto se incluyen en la tabla siguiente.
+Las operaciones de REST se incluyen en la siguiente tabla.
   
 |**Operación**|**Descripción**|
 |:-----|:-----|
-|[Conseguir que los usuarios](get-users.md) <br/> |Devuelve una lista de usuarios del repositorio.  <br/> |
-|[Obtener usuario](get-user.md) <br/> |Devuelve un registro de usuario.  <br/> |
+|[Obtención de usuarios](get-users.md) <br/> |Devuelve una lista de los usuarios en el repositorio.  <br/> |
+|[Obtener el usuario](get-user.md) <br/> |Devuelve un registro de usuario.  <br/> |
    
 
