@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Resumen: Lea este tema para obtener más información acerca del Administrador de estadísticas de Skype para Business Server.'
-ms.openlocfilehash: a7cd9fd3dd3eff7f1c9b0326d45475f95f9a909c
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: b843cf44edf0c566a1c0a8a99a5ba9380d41c306
+ms.sourcegitcommit: 8536a34cb13d40b30f84d95e6df10542ef85c36d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26283204"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26292979"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Plan para el Administrador de estadísticas de Skype para Business Server
 
@@ -30,15 +30,15 @@ Puede implementar las estadísticas de administrador en una implementación loca
 
 Este tema incluye las secciones siguientes:
 
-- [Características y funciones](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Features)
+- [Características y funciones](plan.md#BKMK_Features)
 
 - [¿Qué es nuevo en la versión 2.0](plan.md#BKMK_WhatsNew)
 
-- [Componentes](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Components)
+- [Componentes](plan.md#BKMK_Components)
 
 - [Implementación local](plan.md#BKMK_DeploymentOptions)
 
-- [Requisitos](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Requirements)
+- [Requisitos](plan.md#BKMK_Requirements)
 
 - [Consideraciones de seguridad](plan.md#BKMK_Security)
 
@@ -129,7 +129,7 @@ Debe tener en cuenta los siguientes requisitos de hardware, redes y software ant
 
 ### <a name="software-requirements"></a>Requisitos de software
 
-- Windows Server 2012 R2
+- Windows Server 2016 y 2019
 
 - IIS (instalados automáticamente)
 
@@ -182,6 +182,6 @@ Para obtener más información, consulte lo siguiente:
 
 - [Solucionar problemas de administrador de estadísticas de Skype para Business Server](troubleshoot.md)
 
-- [Blog del administrador de estadísticas de Skype Empresarial Server](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Blog del administrador de estadísticas de Skype Empresarial Server](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
 
 

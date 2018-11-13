@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: Los clientes pueden usar el Plan de llamadas de Office 365 y el servicio de Audioconferencia de Office 365 según lo permitido en el contrato de licencia de volumen del Cliente y en los Términos de Uso de Servicios RTC de Skype Empresarial Online.
-ms.openlocfilehash: 928afed68d8fa6bb6b8ae3a642c64c09e748ae06
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: f7e54c64d06b012790c630499ec31d7b2acac02a
+ms.sourcegitcommit: 853760e8d926fed7176c23754197442ccd860e6e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26283158"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26285920"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período gratuito para la realización de llamadas de Audioconferencia
 
@@ -38,7 +38,7 @@ Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as p
   
 ### <a name="complimentary-dial-out-period-details"></a>Marcado complementario detalles período
 
-Como beneficio adicional a los clientes que adopten nuestro servicio de conferencia de Audio de Office 365, Microsoft proporciona una ventaja complementaria adicional relacionados con marcar un número de las reuniones organizadas por los usuarios asignados a una suscripción de conferencia de Audio de Office 365 licencia a través de junio de 2019. Durante este período complementario, Microsoft permite a los organizadores de reuniones o asistentes autorizados tal como se define en la configuración de directiva, para realizar llamadas de salida desde dentro de la reunión a los números de teléfono que no sean premium en los países de "Zona" 44 enumerados a continuación de la reunión. Este beneficio es aplicable a las licencias de suscripción mensuales de conferencias de Audio y no se extiende a las licencias de pago por minuto de conferencias de Audio.
+Como una ventaja adicional para los clientes que adopten nuestro servicio de conferencia de Audio de Office 365, Microsoft proporciona una ventaja complementaria adicional relacionados con marcar un número de las reuniones organizadas por los usuarios asignados a una suscripción de conferencia de Audio de Office 365 licencia a través de junio de 2019. Durante este período complementario, Microsoft permite a los organizadores de reuniones o asistentes autorizados tal como se define en la configuración de directiva, para realizar llamadas de salida desde dentro de la reunión a los números de teléfono que no sean premium en los países de "Zona" 44 enumerados a continuación de la reunión. Este beneficio es aplicable a las licencias de suscripción mensuales de conferencias de Audio y no se extiende a las licencias de pago por minuto de conferencias de Audio.
 
 Además, hay un límite de 900 cap minuto durante el marcado complementario período como tales:
 
@@ -48,7 +48,8 @@ Los usuarios con una ubicación de uso de licencia (esta es la ubicación de pa�
 - Todas las llamadas que superan los 103,500 minutos por mes del calendario se cargarán por minuto con Communications créditos a nuestros publicados velocidades de ese destino. (Nota: inquilino debe configurar Communications créditos y asignar la licencia de créditos de comunicaciones para el organizador de la reunión).
 - Todas las llamadas salientes a destinos no está en la lista de país de la zona se facturan por minuto con Communications créditos a nuestros publicados velocidades de ese destino (siempre inquilino tiene configurar Communications créditos y asignado la licencia de créditos de comunicaciones para el Organizador de la reunión).
 
-Nota: Puede supervisar el uso de la salida de grupo de servidores minuto en el Skype para el centro de administración de negocio en el centro de administración de equipos/Skype > Centro de administración de heredado > Informes > grupos de servidores de RTC minuto.  Este minuto complementario grupo tendrá la etiqueta en el informe como "Saliente llamadas a zona A países".
+> [!NOTE]
+> Puede supervisar el uso de la salida de grupo de servidores minuto en el Skype para el centro de administración de negocio. En el Microsoft Teams & Centro de administración de Skype, vaya al **portal heredado** > **informes** > **Grupos de servidores de RTC minuto**. Este minuto complementario grupo tendrá la etiqueta en el informe como "Llamadas salientes a la zona A países".
 
 Se enviarán notificaciones por correo electrónico a todos los administradores de inquilinos de un cliente determinado cuando el uso del grupo de servidores de acceso telefónico de salida minutos del inquilino alcanza el 80% y 100%.
 

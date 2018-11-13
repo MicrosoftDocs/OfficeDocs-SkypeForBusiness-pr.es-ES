@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2683c2f116fd37f756cd111f6e3a4cc4639b629
-ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
+ms.openlocfilehash: d5cb52aa679144f2dc9673106addf1125a908d70
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26031800"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283142"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Supervisar el uso y los comentarios en Microsoft Teams
 Es importante saber cómo los usuarios usan los equipos y cuál es su experiencia con los equipos. Informes de uso le ayudarán a comprender los patrones de uso y mejor junto con los comentarios del usuario, proporcionan una perspectiva para informar a su implantación más amplia y where dar prioridad a los esfuerzos de aprendizaje y la comunicación.
@@ -35,7 +35,7 @@ Informes de actividad de los equipos en el centro de administración de Office 3
 
 Para ver estos informes, debe ser un administrador global en Office 365, el Administrador de servicios de los equipos o el lector de informes. Vaya al centro de administración de Office 365, haga clic en **informes de** > **uso**. En **Seleccione un informe**, haga clic en **Los equipos de Microsoft**. Desde aquí, elija el informe que desea ver.
 
-- **Informe de actvity de usuario de los equipos**: este informe muestra los tipos de actividades de comunicación a los usuarios integrarse en, por ejemplo, ¿cuántas personas conversación en un canal y cuántas personas comunican a través de chat privado.  
+- **Informe de actividad de usuario de los equipos**: este informe muestra los tipos de actividades de comunicación a los usuarios integrarse en, por ejemplo, ¿cuántas personas conversación en un canal y cuántas personas comunican a través de chat privado.  
 
     ![Informe de actividad de usuario de los equipos] (media/get-started-with-teams-user-activity-report.png "Captura de pantalla de informe de actividad de usuario de los equipos, que muestra un gráfico que indica el número de usuarios por tipo de actividad, que incluye los mensajes del canal, mensajes de chat, las llamadas, las reuniones. y otros") 
 - **Informe de uso de dispositivos de los equipos**: este informe muestra cómo los usuarios se conectan a los equipos, incluido cómo muchas personas usan equipos cuando en Ir.

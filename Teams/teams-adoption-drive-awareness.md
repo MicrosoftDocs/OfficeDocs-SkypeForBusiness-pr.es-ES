@@ -3,7 +3,7 @@ title: Conocimiento de la unidad e implementar recursos de aprendizaje para Micr
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/01/2018
+ms.date: 11/09/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5fe5e2cb270efa81b6b773d193d6a48f63c19cc0
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 91468e121e80255249d4f8a3d9676f6c3069a319
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26216061"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255727"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Conocimiento de la unidad e implementar recursos de aprendizaje para Microsoft Teams
 
@@ -65,13 +65,4 @@ Compartir el entendimiento de que obtener de los canales de comentarios con el h
 
 [Obtenga más información acerca de los informes de uso de Microsoft Teams en el centro de administración de Office 365.](teams-activity-reports.md)
 
-## <a name="ongoing-improvements"></a>Mejoras en curso
-
-En colaboración con el equipo de implementación técnica, plan contener todos los meses revisiones de mantenimiento de servicio para Microsoft Teams. En estas revisiones a compartir conocimientos sobre las medidas siguientes:
-
-- Uso del servicio: los datos de uso activo. Puede incluir información acerca de servicios en desuso o consumo reducido como resultado de mover a Microsoft Teams.  Normalmente dirigida por el Administrador de servicios o el propietario del producto para servicios de colaboración.
-- Mantenimiento: calidad de las llamadas, estado, de la reunión y de servicio general de mantenimiento. Revisión de los incidentes de soporte técnico y los niveles de vale de departamento de soporte técnico. Discusión de temas de seguridad y gobierno. Normalmente se llevó por parte de los equipos de soporte técnico y de protección de información. 
-- Guía básica de capacidad o proyecto – ¿qué es la programación de incorporación de empleados restantes o más proyectos de mejora de la colaboración? ¿Qué características adicionales su organización va a habilitar? Normalmente dirigida por el Administrador de servicios o el propietario del producto para servicios de colaboración en colaboración con los participantes de la clave del negocio. 
-- Conocimiento de las campañas y formación éxito medida actualización – incluye llegar a, participación, temas clave comentarios y abra problemas. Incluir claves wins y anécdotas de éxito.
- 
-Mensual revisiones pueden ser un proceso bastante formales en las organizaciones de gran tamaño o pueden ser reuniones virtuales en las empresas más pequeñas. Es importante compartir y supervisar estos datos para garantizar una implementación de cada vez más vibrante y en buen estada de Microsoft Teams. 
+![Icono de pasos siguiente](media/teams-adoption-next-icon.png) siguiente: [revisa el estado del servicio de programación](teams-adoption-schedule-service-health-reviews.md)
