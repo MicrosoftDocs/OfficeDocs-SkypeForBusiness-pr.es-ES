@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Las consideraciones de planeación relevantes para la implementación de sistemas de salón de Skype v2 y cómo implementar y administrar el sistema.
-ms.openlocfilehash: 52d837877a962a3a087073175a169268dd169eae
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 49fb892e6621c3bd601425fc2ccee84313b4444c
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838661"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294014"
 ---
 <h2>Sala de Skype sistemas v2 & #x 2013; <br>la próxima generación de sistemas de las salas de Skype </h2>
 <ul class="panelContent cardsW cols cols2">
@@ -50,13 +50,13 @@ ms.locfileid: "25838661"
 </ul>
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0">
+        <a href="https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/tasks-blue.svg" alt="Tasks" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-blue.svg" alt="Tasks" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -68,13 +68,13 @@ ms.locfileid: "25838661"
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-clients/room-systems-v2">
+        <a href="https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/deploy-clients/room-systems-v2">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/deploy-blue.svg" alt="Deploy" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-blue.svg" alt="Deploy" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -86,13 +86,13 @@ ms.locfileid: "25838661"
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/SkypeForBusiness/manage/skype-room-systems-v2/skype-room-systems-v2">
+        <a href="https://docs.microsoft.com/en-us/SkypeForBusiness/manage/skype-room-systems-v2/skype-room-systems-v2">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="Manage" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="Manage" />
                         </div>
                     </div>
                     <div class="cardText">

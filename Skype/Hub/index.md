@@ -1,18 +1,18 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Skype Empresarial
-description: Skype for Business
+title: Skype for Business
+description: Skype Empresarial
 ms.openlocfilehash: cbb9765c358047b628be45759e2002cdc5a46f02
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
-ms.translationtype: HT
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546669"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293651"
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Skype Empresarial</h1>
+        <h1>Skype for Business</h1>
         <ul class="pivots">
             <li>
                 <a href="#home"></a>
@@ -51,7 +51,7 @@ ms.locfileid: "25546669"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Soluciones híbridas</h3>
-                                                    <p>Encuentre información sobre cómo planear una implementación híbrida de Skype Empresarial.</p>
+                                                    <p>Obtenga información acerca de cómo planear un Skype para implementación híbrida de negocio.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -125,8 +125,8 @@ ms.locfileid: "25546669"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Transición desde Skype Empresarial a Microsoft Teams</h3>
-                                                    <p>Encuentre orientación y herramientas para analizar cuál es el mejor camino hacia Microsoft Teams.</p>
+                                                    <h3>Recorrido desde Skype Empresarial a Microsoft Teams</h3>
+                                                    <p>Busque las instrucciones y herramientas para explorar la ruta de acceso sea óptima para los equipos.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -180,7 +180,7 @@ ms.locfileid: "25546669"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Usuarios finales</h3>
-                                                    <p>Encuentre ayuda, formación y soporte técnico para usuarios de Skype for Business en <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>.</p>
+                                                    <p>Buscar ayuda, aprendizaje y soporte técnico para Skype para los usuarios empresariales en <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>.</p>
                                                 </div>
                                             </div>
                                         </div>
