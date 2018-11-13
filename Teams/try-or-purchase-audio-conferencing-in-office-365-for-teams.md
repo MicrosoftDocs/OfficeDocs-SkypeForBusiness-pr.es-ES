@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Descubra cómo probar o comprar licencias de audioconferencia (conferencia RTC) para Office 365 con el fin de configurar llamadas de conferencia a las que la gente pueda acceder. '
-ms.openlocfilehash: 8a5484aee9e8a5a9b8a3e1a0c0cf3e3f264b17d1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c404e427a83fc8b94d3f2a206e5c9c6b1ded5ed0
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371978"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283181"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Probar o comprar conferencias de Audio en Office 365 para Microsoft Teams
 
@@ -46,9 +46,9 @@ Debe ser un [administrador global o administrador de facturación](https://suppo
     
 2. Obtenga sus licencias de **Audioconferencia**. Si quiere:
 
-   - **Pruébelo** antes de comprarlo: puede suscribirse a una versión de prueba gratuita de Office 365 Enterprise E5 que incluye audioconferencia. Vea la [versión de prueba de Office 365 Enterprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
+   - **Pruébelo** antes de comprar: puede registrarse para una prueba gratuita de Office 365 Enterprise E5 que incluye las conferencias de Audio. Vea la [versión de prueba de Office 365 Enterprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Cómprelo**, vea [Skype para profesionales y los equipos de Microsoft complemento licencias](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+   - **Cómprelo**: vea [Skype para profesionales y los equipos de Microsoft complemento licencias](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
 
 3. [Asignar o cancelar licencia para Office 365 para empresas](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) que haya comprado a las personas de su organización que vayan a programar o coordinar reuniones.
 
@@ -74,7 +74,9 @@ Si es cliente de Volumen y licencias, puede obtener licencias de audioconferenci
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Paso 2: Configurar el proveedor de audioconferencias para las personas que dirigen o programan reuniones
 
-Cuando asigna una licencia de **audioconferencia** a personas de su organización que dirigen o programan reuniones, ¡ya están configuradas y listas para empezar! (No tiene que configurar su proveedor de audioconferencias).
+Cuando asigna una licencia de **Conferencias de Audio** a otras personas de la organización que no tienen Skype para empresa integrado con un proveedor de conferencias de audio de terceros 3ª, son todos los conjunto copia de seguridad y está listo para ir! (No tiene que configurar su proveedor de audioconferencias).
+
+Si ha habilitado con un proveedor de conferencias de audio 3ª parte de los usuarios, debe cambiar el proveedor de aquellos usuarios a Microsoft. Para cambiar el proveedor de usuario, vea [Asignar Microsoft como proveedor de conferencias de audio](assign-microsoft-as-the-audio-conferencing-provider.md).
 
 ## <a name="step-3-other-admin-tasks"></a>Paso 3: Otras tareas de administrador
 
@@ -94,7 +96,7 @@ Los siguientes pasos son **opcionales**, pero hay muchos administradores a los q
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Configurar Skype Empresarial Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+[Permiten a los equipos de la organización](office-365-set-up.md)
 
 [Números de teléfono para Audioconferencia](phone-numbers-for-audio-conferencing-in-teams.md)
 

@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d86183ecb8209da15edd7f97511d6297bd0910c
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 65790075f649693a5312c3a12cc5daac33c7ac90
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26216037"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255768"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimizar los comentarios y creación de informes para la adopción de Microsoft Teams
 
@@ -50,8 +50,8 @@ Procedimiento recomendado: representantes de velocidad media de su departamento 
 
 Hay tres tipos de informes deben revisar tal y como se implementa y adoptarán Microsoft Teams:
 
-- Mantenimiento – desde Office 365 y el soporte de TI interno de servicio de departamento.
-- Informes de actividad de servicio: desde la vista de Office 365 en Microsoft Teams. También puede utilizar la información de otros sistemas dentro de la organización.
+- [Estado del servicio](https://status.office365.com/) : Office 365 y el soporte de TI interno de departamento.
+- [Actividad de servicio](https://docs.microsoft.com/en-us/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) : desde Office 365 ver los [informes en los equipos de Microsoft](https://docs.microsoft.com/en-us/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide). También puede utilizar la información de otros sistemas dentro de la organización.
 - Satisfacción del servicio: obtenida con los foros de la Comunidad interna y encuestas en experiencias específicas
 
 ![Icono de pasos siguiente](media/teams-adoption-next-icon.png) siguiente: [unidad sensibilización e implementar recursos de aprendizaje](teams-adoption-drive-awareness.md)

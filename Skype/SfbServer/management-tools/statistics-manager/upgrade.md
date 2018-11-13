@@ -1,5 +1,5 @@
 ---
-title: Actualizar el administrador de estadísticas para Skype Empresarial Server 2015
+title: Actualizar el Administrador de estadísticas de Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,21 +10,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
-description: 'Resumen: Lea este tema para obtener información sobre cómo actualizar las estadísticas de administrador de Skype para Business Server 2015.'
-ms.openlocfilehash: d10dd5cd92fc0d7dbbb3285c43df78e8149f58c0
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: 'Resumen: Lea este tema para obtener información sobre cómo actualizar las estadísticas de administrador de Skype para Business Server.'
+ms.openlocfilehash: 13bb4a13d05f7c877c5dd62a9c17466389d0e564
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374860"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283173"
 ---
-# <a name="upgrade-statistics-manager-for-skype-for-business-server-2015"></a>Actualizar el administrador de estadísticas para Skype Empresarial Server 2015
+# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Actualizar el Administrador de estadísticas de Skype para Business Server
  
-**Resumen:** Lea este tema para obtener información sobre cómo actualizar las estadísticas de administrador de Skype para Business Server 2015.
+**Resumen:** Lea este tema para obtener información sobre cómo actualizar las estadísticas de administrador de Skype para Business Server.
   
 En este tema se describe cómo actualizar una instalación existente de administrador de estadísticas de Skype para Business Server — una eficaz herramienta que le permite ver Skype para los datos de estado y rendimiento de servidor empresarial en tiempo real. Puede sondear los datos de rendimiento a través de cientos de servidores cada pocos segundos y ver los resultados al instante en el sitio Web de estadísticas de administrador. 
   
-Para obtener más información acerca de las estadísticas de administrador y las nuevas características de la versión 1.1, vea [planear para el Administrador de estadísticas de Skype para Business Server 2015](plan.md) e [Implementar el Administrador de estadísticas de Skype para Business Server 2015](deploy.md). Para obtener información acerca de los problemas conocidos que se han corregido en la versión 1.1, vea [Problemas conocidos corregidos en la versión 1.1](upgrade.md#BKMK_Fixed).
+Para obtener más información acerca de las estadísticas de administrador y las nuevas características de la versión 2.0, vea [planear para el Administrador de estadísticas de Skype para Business Server](plan.md) e [Implementar el Administrador de estadísticas de Skype para Business Server](deploy.md).
   
 Existen dos métodos para actualizar:
   
@@ -100,35 +100,19 @@ Si, por algún motivo, se produce un error durante la actualización automática
     >   Mantenga Redis instalado para que los datos de la caché se conserven durante el proceso de actualización.
   
 2. 	Instale las nuevas versiones de los componentes, incluidos los valores que guardó anteriormente cuando se le pidan. Para obtener más información acerca de cómo instalar los componentes, vea [Implementar el administrador de estadísticas](deploy.md#BKMK_Deploy).
-    
-## <a name="known-issues-fixed-in-release-11"></a>Problemas conocidos corregidos en la versión 1.1
-<a name="BKMK_Fixed"> </a>
 
-En la versión 1.1 se han corregido los siguientes problemas conocidos:
-  
-- La interfaz de usuario/servidor/agente - numerosas confiabilidad significativo y mejoras de rendimiento
-    
-- La interfaz de usuario - control de filtro de Main ahora ordena correctamente con distintos casos (se otorga personas pensar en determinados servidores no estaban en el sistema cuando ocurría)
-    
-- Servidor: los componentes de servidor ahora se instalarán en servidores que no sean en inglés
-    
-- Servidor/Agente: en algunos casos, los componentes de agente y servidor no se instalaban con errores .NET debido a una versión concreta de .NET 4.0. Se ha solucionado este problema.
-    
-- Agente: el registro de eventos que se agregó para el agente de StatsMan extendido. El agente ya no se bloqueará cuando se instale en un servidor que no esté en la topología y esto no se registrará en el registro de eventos, junto con muchas otras posibles condiciones de error.
-    
-- La interfaz de usuario - clientes Web mediante el Explorador de Chrome pueden ver varias solicitudes de inicio de sesión cuando utilizando un equipo cliente que no se une al mismo grupo de trabajo o dominio que el servidor Web de estadísticas de administrador. Ahora solo se requiere un único inicio de sesión por cada sesión.
     
 ## <a name="for-more-information"></a>Para más información
 <a name="BKMK_Fixed"> </a>
 
 Para obtener más información, consulte lo siguiente:
   
-- [Planeación para el Administrador de estadísticas de Skype para Business Server 2015](plan.md)
+- [Plan para el Administrador de estadísticas de Skype para Business Server](plan.md)
     
-- [Implementar el administrador de estadísticas para Skype Empresarial Server 2015](deploy.md)
+- [Implementar el Administrador de estadísticas de Skype para Business Server](deploy.md)
     
-- [Solucionar problemas del administrador de estadísticas para Skype Empresarial Server 2015](troubleshoot.md)
+- [Solucionar problemas de administrador de estadísticas de Skype para Business Server](troubleshoot.md)
     
-- [Skype para Business Server Manager de estadísticas de blog](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Blog del administrador de estadísticas de Skype Empresarial Server](https://blogs.technet.microsoft.com/skypestatsman/)
     
 

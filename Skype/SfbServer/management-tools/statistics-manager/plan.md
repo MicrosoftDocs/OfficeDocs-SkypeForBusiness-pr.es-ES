@@ -1,5 +1,5 @@
 ---
-title: Planeación para el Administrador de estadísticas de Skype para Business Server 2015
+title: Plan para el Administrador de estadísticas de Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,29 +10,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
-description: 'Resumen: Lea este tema para obtener más información acerca del Administrador de estadísticas de Skype para Business Server 2015.'
-ms.openlocfilehash: de4f2bedcbd03191b852366504423ebb031cf5f1
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 'Resumen: Lea este tema para obtener más información acerca del Administrador de estadísticas de Skype para Business Server.'
+ms.openlocfilehash: a7cd9fd3dd3eff7f1c9b0326d45475f95f9a909c
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244009"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283204"
 ---
-# <a name="plan-for-statistics-manager-for-skype-for-business-server-2015"></a>Planeación para el Administrador de estadísticas de Skype para Business Server 2015
+# <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Plan para el Administrador de estadísticas de Skype para Business Server
 
-**Resumen:** Lea este tema para obtener más información acerca del Administrador de estadísticas de Skype para Business Server 2015.
+**Resumen:** Lea este tema para obtener más información acerca del Administrador de estadísticas de Skype para Business Server.
 
  Administrador de estadísticas de Skype para Business Server es una herramienta eficaz que le permite ver Skype para los datos de estado y rendimiento de servidor empresarial en tiempo real. Puede sondear los datos de rendimiento a través de cientos de servidores cada pocos segundos y ver los resultados al instante en el sitio Web de estadísticas de administrador.
 
 Puede usar el Administrador de estadísticas para identificar problemas de rendimiento en curso, ver los resultados de un cambio planeado a su entorno, realizar un seguimiento de resolución de interrupciones y mucho más. Fuera del cuadro, Administrador de estadísticas está configurado con los umbrales de indicador de estado de clave (KHI) y se puede personalizar para adaptarse a necesidades específicas de la implementación.
 
-Puede implementar las estadísticas de administrador en una implementación local en la que un único servidor hospeda todos los componentes de estadísticas administrador del servidor. Para obtener más información sobre la implementación de las estadísticas de administrador, vea [Implementar el Administrador de estadísticas de Skype para Business Server 2015](deploy.md). Si ya tiene una implementación existente de las estadísticas de administrador, pero aún no ha actualizado a la versión 1.1, vea [¿Qué es nuevo en la versión 1.1](plan.md#BKMK_WhatsNew) y [Actualizar las estadísticas de administrador de Skype para Business Server 2015](upgrade.md).
+Puede implementar las estadísticas de administrador en una implementación local en la que un único servidor hospeda todos los componentes de estadísticas administrador del servidor. Para obtener más información sobre la implementación de las estadísticas de administrador, vea [Implementar el Administrador de estadísticas de Skype para Business Server](deploy.md). Si ya tiene una implementación existente de las estadísticas de administrador, pero aún no ha actualizado a la versión 2.0, vea [¿Qué es nuevo en la versión 2.0](plan.md#BKMK_WhatsNew) y [Actualizar las estadísticas de administrador de Skype para Business Server](upgrade.md).
 
 Este tema incluye las secciones siguientes:
 
 - [Características y funciones](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Features)
 
-- [¿Qué es nuevo en la versión 1.1](plan.md#BKMK_WhatsNew)
+- [¿Qué es nuevo en la versión 2.0](plan.md#BKMK_WhatsNew)
 
 - [Componentes](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Components)
 
@@ -77,16 +77,14 @@ Administrador de estadísticas le permite:
 
   - Definiciones de vista KHI
 
-## <a name="whats-new-in-release-11"></a>¿Qué es nuevo en la versión 1.1
+## <a name="whats-new-in-release-20"></a>¿Qué es nuevo en la versión 2.0
 <a name="BKMK_WhatsNew"> </a>
 
-El siguiente describe cuáles son las novedades en la versión 1.1. Si tiene una implementación existente del Administrador de estadísticas y aún no se ha realizado la actualización, vea [Actualizar administrador de estadísticas de Skype para Business Server 2015](upgrade.md).
+El siguiente describe cuáles son las novedades en la versión 2.0. Si tiene una implementación existente del Administrador de estadísticas y aún no se ha realizado la actualización, vea [Actualizar administrador de estadísticas de Skype para Business Server](upgrade.md).
 
 - Se han agregado las vistas de escenario para medios perimetrales, estado de Fabric, conmutación por error y escenarios de registro.
 
-- PerfAgentStorageManager.exe línea de comandos (instalado con el agente de escucha) ahora pueden exportar los datos del contador como un CSV.
-
-- Muchos contadores nuevos se han agregado para servidores SQL Server, más de los contadores de Windows Fabric, más Skype para contadores de uso empresarial y así sucesivamente.
+- Muchos contadores nuevos se han agregado servidores SQL Server, más Skype para contadores de uso empresarial y así sucesivamente.
 
 - Integración de nodo de monitor para el agente de administrador de estadísticas - si el agente está instalado en un nodo de monitor, informará de las estadísticas de transacciones sintéticas como contadores de vuelta al administrador de estadísticas.
 
@@ -141,9 +139,7 @@ Debe tener en cuenta los siguientes requisitos de hardware, redes y software ant
 
 - PSExec - necesario para realizar la implementación de agentes remotos
 
-- .NET 4.5 (incluido con 2012 R2) - necesario para los componentes del lado del servidor
-
-- .NET 4.0 - necesarios para los agentes
+- .NET 4.5 (incluido con 2012 R2) - necesario para los agentes y componentes de servidor
 
 ### <a name="networking-requirements"></a>Requisitos de red
 
@@ -175,17 +171,17 @@ Se cifra todo el tráfico entre servidores.
 
 - El agente de comienza la transmisión de datos de rendimiento a través de la conexión con el agente de escucha.
 
-## <a name="for-more-information"></a>Más información
+## <a name="for-more-information"></a>Para más información
 <a name="BKMK_Security"> </a>
 
 Para obtener más información, consulte lo siguiente:
 
-- [Implementar el administrador de estadísticas para Skype Empresarial Server 2015](deploy.md)
+- [Implementar el Administrador de estadísticas de Skype para Business Server](deploy.md)
 
-- [Actualizar el administrador de estadísticas para Skype Empresarial Server 2015](upgrade.md)
+- [Actualizar el Administrador de estadísticas de Skype para Business Server](upgrade.md)
 
-- [Solucionar problemas del administrador de estadísticas para Skype Empresarial Server 2015](troubleshoot.md)
+- [Solucionar problemas de administrador de estadísticas de Skype para Business Server](troubleshoot.md)
 
-- [Skype para Business Server Manager de estadísticas de blog](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Blog del administrador de estadísticas de Skype Empresarial Server](https://blogs.technet.microsoft.com/skypestatsman/)
 
 

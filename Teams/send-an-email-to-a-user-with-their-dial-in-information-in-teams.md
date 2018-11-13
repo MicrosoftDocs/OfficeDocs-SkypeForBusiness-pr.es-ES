@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Envíe a sus usuarios un correo electrónico con la información de sus audioconferencias en Microsoft Teams.
-ms.openlocfilehash: 3b1cb1eb4fcf654a4ab3d3cb227416b0cf700817
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 78fc4c0c071c4cc66c4bc20339dcda52b2be2890
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347467"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283166"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Enviar un correo electrónico a un usuario con su información de audioconferencia en Microsoft Teams
 
-En ocasiones, los usuarios de Microsoft Teams necesite enviarles su información de conferencia de Audio. Puede hacerlo haciendo clic en **Enviar información de conferencia a través de correo electrónico** en las propiedades de un usuario. Al enviar este correo electrónico, contendrá toda la información de conferencia de audio, incluidos:
+A veces, puede que los usuarios de Microsoft Teams necesiten que les envíe su información sobre la audioconferencia. Para ello, haga clic en **Enviar información de conferencia por correo electrónico** en las propiedades de un usuario. Cuando se envíe este correo electrónico, este contendrá toda la información de la audioconferencia, incluido lo siguiente:
   
 - El número de teléfono de la conferencia o el número de teléfono de acceso telefónico local del usuario
     
@@ -69,8 +69,6 @@ A continuación se muestra un ejemplo del correo electrónico que se envía:
   - Cuando se cambia el proveedor de conferencia de audio para un usuario de Microsoft a otro proveedor o **Ninguno**.
     
   - Cuando se cambia el proveedor de conferencia de audio para un usuario a Microsoft.
-    
-- De forma predeterminada, será el remitente de los mensajes de correo electrónico de Office 365, pero puede cambiar la dirección de correo electrónico y nombre para mostrar mediante el uso de Windows PowerShell. Vea la [referencia de PowerShell de los equipos de Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 

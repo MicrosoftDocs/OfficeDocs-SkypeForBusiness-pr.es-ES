@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aba79f52984b243aa0a10c425f5c5741119daf50
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 239a90c295035da629b74711a41f7cec59f4c0a9
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26216072"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255728"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Fase de adopción de Microsoft Teams 1 - Inicio
 
@@ -66,6 +66,5 @@ La [Comunidad técnica de Microsoft](https://aka.ms/TechCommunity) ofrece siempr
 - [Comunidad técnica de los equipos de Microsoft](https://aka.ms/TeamsCommunity) – Obtenga respuestas a preguntas de producto, aprender de otros clientes de los equipos y siga nuestro blog para mantenerse al día sobre las nuevas características y casos de uso para los equipos. 
 - [Programa de campeones de Office 365](https://aka.ms/O365Champions) y la Comunidad de adopción tiende a – aprender de sus colegas acerca de cómo práctica estimular la adopción de las cargas de trabajo de Office 365, como equipos, SharePoint, Yammer y otros productos. Abra a los profesionales de TI, los usuarios empresariales, el desarrollador "accidental", y cualquier persona interesada en promoviendo la adopción de los servicios de nube.  
 
-[Aprendizaje personalizado para Office 365](https://aka.ms/CLO365) incluye una plantilla de SharePoint Online y el elemento Web personalizado que puede usar para crear un portal de aprendizaje para su organización. Esto gratis, abra permite de solución de origen stream activos de aprendizaje directamente en Office 365 inquilino de Microsoft. Se puede personalizar para los servicios que está usando y agrega contenido de recursos de aprendizaje adicionales a la experiencia del sitio. Si ya tiene un portal de aprendizaje de SharePoint Online, puede descargar el elemento Web para instalar directamente en el sitio de su compañía y, a continuación, configurarlo según los requisitos de implementación.  
 
 ![Icono de pasos siguiente](media/teams-adoption-next-icon.png) siguiente: [canales y comprenda el funcionamiento equipos](teams-adoption-understand-teams-and-channels.md)
