@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8336c3a8899e7719ae8ff50bb2bcdb9c6565c438
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: b1f73a709ae6235859cbdccab493d8fa6d198823
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26282968"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294964"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gestionar acceso de los usuarios a Microsoft Teams
 =====================================
@@ -66,7 +66,7 @@ Para deshabilitar los equipos de todos los usuarios con una licencia de activo p
 | | | |
 |---------|---------|---------|
 |![Icono de Punto de decisión.](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Punto de decisión         |<ul><li>¿Qué es la planeación de la organización de la incorporación de los equipos en toda la organización?  (Piloto o abrir)</li></ul>         |
-|![Icono de Siguientes pasos.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Siguientes pasos         |<ul><li>Si incorporación mediante una prueba piloto cerrada, decida si desea hacerlo a través de licencias, o dirigidas comunicación.</li><li>Dependiendo de la toma de decisiones, realice los pasos para asegurarse de que sólo los usuarios que tienen acceso los equipos (si es necesario) la prueba piloto.</li><li>Las instrucciones para que los usuarios que va a (o no) de documentos tienen acceso a los equipos.</li></ul>         |
+|![Icono de Siguientes pasos.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Siguientes pasos         |<ul><li>Si realiza la adopción a través de Piloto, decida si desea hacerlo a través de licencias o comunicación dirigida.</li><li>Dependiendo de la toma de decisiones, realice los pasos para asegurarse de que sólo los usuarios que tienen acceso los equipos (si es necesario) la prueba piloto.</li><li>Las instrucciones para que los usuarios que va a (o no) de documentos tienen acceso a los equipos.</li></ul>         |
 
 ## <a name="manage-teams-at-the-office-365-tenant-level"></a>Administrar los equipos en el nivel de inquilino de Office 365
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]

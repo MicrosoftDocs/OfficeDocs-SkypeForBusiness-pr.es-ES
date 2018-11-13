@@ -10,23 +10,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Resumen: Implementar la Skype para la aplicación empresarial de Web y aplicación de las reuniones de Skype se utiliza con Skype para la empresa.'
-ms.openlocfilehash: 7fabbbbd279e2f72f3468fbe73a55b86e532f6cf
-ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
+ms.openlocfilehash: c50a8afc4d12d7f3cf35fdcc966e322bd48199fc
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890692"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295117"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Implementar a los clientes que se pueden descargar de Web en Skype para Business Server
 
-**Resumen:** Implemente el Skype para profesionales de 2015 Web App y aplicación de las reuniones de Skype se utiliza con Skype para Business Server.
+**Resumen:** Implemente el Skype para profesionales de 2015 Web App y aplicación de las reuniones de Skype se utiliza con Skype para Business Server 2015.
 
-Skype para la aplicación empresarial de Web es un cliente de web de Internet Information Services (IIS) que está instalado en el servidor que ejecuta Skype para Business Server y de forma predeterminada se implementa a petición a los usuarios de reunión que ya no tienen la Skype para clientes empresariales. Estos usuarios de reuniones son más frecuentes que los casos de usuarios que no se conectan desde fuera de la red. Cada vez que un usuario hace clic en una dirección URL de la reunión, pero no tiene el Skype para Business client instalado, se presenta al usuario con la opción para unirse a la reunión mediante el uso de la versión más reciente de Skype para la aplicación empresarial de Web o aplicación de las reuniones de Skype.
+Skype para la aplicación empresarial de Web es un cliente de web de Internet Information Services (IIS) que está instalado en el servidor que ejecuta Skype para Business Server 2015 y de forma predeterminada se implementa a petición a los usuarios de reunión que ya no tienen la Skype para clientes empresariales. Estos usuarios de reuniones son más frecuentes que los casos de usuarios que no se conectan desde fuera de la red. Cada vez que un usuario hace clic en una dirección URL de la reunión, pero no tiene el Skype para Business client instalado, se presenta al usuario con la opción para unirse a la reunión mediante el uso de la versión más reciente de Skype para la aplicación empresarial de Web o aplicación de las reuniones de Skype.
 
 Las características de la voz, vídeo y uso compartida en Skype para la aplicación empresarial de Web requieren un control ActiveX de Microsoft que se usa como un complemento en el explorador del usuario. Puede instalar el control ActiveX de antemano o permitir a los usuarios que lo instale cuando se le solicite, lo que ocurre la primera vez que usa Skype para la aplicación empresarial de Web o la primera vez que tienen acceso a una característica que requiere el control ActiveX.
 
 > [!NOTE]
-> En Skype para implementaciones de servidor perimetral de Business Server, un proxy inverso de HTTPS en la red perimetral se requiere para Skype para acceso de cliente de la aplicación Web de negocio. También debe publicar direcciones URL sencillas. Para obtener más información, vea [Setting Up Servers de Proxy inverso](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) y [los requisitos de DNS para direcciones URL simples en Skype para Business Server](../../plan-your-deployment/network-requirements/simple-urls.md).
+> En Skype para implementaciones de servidor perimetral de Business Server 2015, un proxy inverso de HTTPS en la red perimetral se requiere para Skype para acceso de cliente de la aplicación Web de negocio. También debe publicar direcciones URL sencillas. Para obtener más información, vea [Setting Up Servers de Proxy inverso](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) y [los requisitos de DNS para direcciones URL simples en Skype para Business Server](../../plan-your-deployment/network-requirements/simple-urls.md).
 
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Habilitar la autenticación multifactor para Skype para la aplicación empresarial de Web
 <a name="MFA"> </a>
@@ -75,7 +75,7 @@ El Skype para la aplicación empresarial de Web y aplicación de las reuniones d
 
 La característica BranchCache de Windows 7 y Windows Server 2008 R2 puede interferir con Skype para los componentes web de negocio Web App. Para evitar problemas de Skype para usuarios de la aplicación Web de negocio, asegúrese de que no está habilitada la característica BranchCache.
 
-Para obtener información detallada acerca de cómo deshabilitar BranchCache, vea la [Guía de implementación de BranchCache](https://docs.microsoft.com/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
+Para obtener información detallada acerca de cómo deshabilitar BranchCache, vea la [Guía de implementación de BranchCache](https://docs.microsoft.com/en-us/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
 
 ## <a name="verifying-skype-for-business-web-app-deployment"></a>Comprobación de Skype para la implementación de aplicaciones Web de empresa
 <a name="MFA"> </a>
@@ -133,7 +133,7 @@ Este procedimiento es opcional y se aplica a Skype para Business Server 2015 CU5
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    La información que se envía a Microsoft cumple rigurosamente con las [prácticas de recopilación de datos de Skype Empresarial](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices).
+    La información que se envía a Microsoft cumple rigurosamente con las [prácticas de recopilación de datos de Skype Empresarial](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices).
 
 3. Establecer el tiempo de espera antes de retroceso a la Skype hospedado localmente para la experiencia de la aplicación Web de negocio si CDN no está disponible. El valor predeterminado es 6 segundos. En caso de que fuese 0, no habría tiempo de espera.
 

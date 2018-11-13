@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
-description: La vista FileTransfer almacena información acerca de las sesiones de transferencia de archivos de punto a punto. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 97bc5f957192c8a2c6d888f81fce0891aa2b4f75
-ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
+description: La vista FileTranfer almacena información acerca de las sesiones de transferencia de archivos de punto a punto. Esta vista se introdujo en Microsoft Lync Server 2013.
+ms.openlocfilehash: 5b7369769d8091aa3354ea364c7073dfa388986f
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025160"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296413"
 ---
 # <a name="filetransfers-view"></a>Vista FileTransfers
  
-La vista FileTransfer almacena información acerca de las sesiones de transferencia de archivos de punto a punto. Esta vista se introdujo en Microsoft Lync Server 2013.
+La vista FileTranfer almacena información acerca de las sesiones de transferencia de archivos de punto a punto. Esta vista se introdujo en Microsoft Lync Server 2013.
   
 > [!NOTE]
 > La vista FileTransfers contiene todos los de las columnas de la [SessionDetails view](sessiondetails-0.md) además las columnas enumeradas a continuación.

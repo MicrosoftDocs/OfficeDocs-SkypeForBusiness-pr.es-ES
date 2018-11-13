@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Obtenga información sobre la implementación de varios sitios de RTC en la nube conector Edition.
-ms.openlocfilehash: 388915d0ab22dc50378d84a82c01291cfd7c99eb
-ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
+ms.openlocfilehash: b6d4c489136f038a5d4dbe7188958ef60e4a5aed
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25851493"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295716"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Implementar varios sitios en Cloud Connector
  
@@ -78,7 +78,6 @@ En la siguiente tabla se muestran las diferencias entre un sitio único compatib
   
 |**Categoría**|**Elemento**|**Sitio único con HA**|**Varios sitios**|
 |:-----|:-----|:-----|:-----|
-|Configuración  <br/> |Nombre de Host del dispositivo <br/> |**Diferentes** en todos los dispositivos. <br/> |**Diferentes** en todos los sitios de RTC. <br/> |
 |Configuración  <br/> |Carpeta compartida  <br/> |Requiere la **misma** carpeta compartida a través de dispositivos <br/> |Requiere una carpeta compartida **distinta** en cada dispositivo. <br/> |
 |Configuración  <br/> |VirtualMachineDomain  <br/> |Requiere el **mismo** dominio en todos los dispositivos. <br/> |Requiere el **mismo** dominio en todos los sitios de RTC. <br/> |
 |Configuración  <br/> |SIPDomains  <br/> |Orden y nombres de dominio deben ser el **mismo** a través de dispositivos <br/> |Orden y nombres de dominio deben ser el **mismo** en todos los sitios de RTC <br/> |

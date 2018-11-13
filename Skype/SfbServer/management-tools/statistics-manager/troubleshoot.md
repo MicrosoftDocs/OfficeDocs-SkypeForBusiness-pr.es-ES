@@ -1,25 +1,26 @@
 ---
-title: Solucionar problemas de administrador de estadísticas de Skype para Business Server
+title: Solucionar problemas del administrador de estadísticas para Skype Empresarial Server 2015
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 5/23/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
-description: 'Resumen: Lea este tema para solucionar problemas de la implementación del Administrador de estadísticas de Skype para Business Server.'
-ms.openlocfilehash: 3a0bb2530e0b19685f28a747660e59b1fceec4e8
-ms.sourcegitcommit: 8536a34cb13d40b30f84d95e6df10542ef85c36d
+description: 'Resumen: Lea este tema para solucionar problemas de la implementación del Administrador de estadísticas de Skype para Business Server 2015.'
+ms.openlocfilehash: b2c9d5b3f5e4a6df0152807d33ec832417005f99
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/13/2018
-ms.locfileid: "26292986"
+ms.locfileid: "26294821"
 ---
-# <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Solucionar problemas de administrador de estadísticas de Skype para Business Server
+# <a name="troubleshoot-statistics-manager-for-skype-for-business-server-2015"></a>Solucionar problemas del administrador de estadísticas para Skype Empresarial Server 2015
  
-**Resumen:** Lea este tema para solucionar problemas de la implementación del Administrador de estadísticas de Skype para Business Server.
+**Resumen:** Lea este tema para solucionar problemas de la implementación del Administrador de estadísticas de Skype para Business Server 2015.
   
 En este tema se describe cómo solucionar problemas de la implementación del Administrador de estadísticas mediante la descripción de eventos, es posible que vea en el registro de eventos de aplicación y las acciones adecuadas que puede tardar para corregir el evento. Este tema contiene las siguientes secciones:
   
@@ -172,12 +173,12 @@ En este tema se describe cómo solucionar problemas de la implementación del Ad
 
 Para obtener más información, consulte lo siguiente:
   
-- [Plan para el Administrador de estadísticas de Skype para Business Server](plan.md)
+- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
     
-- [Implementar el Administrador de estadísticas de Skype para Business Server](deploy.md)
+- [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md)
     
-- [Actualizar el Administrador de estadísticas de Skype para Business Server](upgrade.md)
+- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
     
-- [Blog del administrador de estadísticas de Skype Empresarial Server](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
+- [Blog del administrador de estadísticas de Skype Empresarial Server](https://blogs.technet.microsoft.com/skypestatsman/)
     
 

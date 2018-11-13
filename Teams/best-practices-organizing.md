@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66bf2e6aa01c24b327d26e2a30678ca3722a8c97
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: ea8de6d6bd1d5e508654d30f27ea7f83a8097030
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26282952"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294314"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Prácticas recomendadas para organizar equipos en Microsoft Teams
 ======================================================
@@ -31,7 +31,7 @@ Antes de crear un equipo en nuestro producto, es aconsejable pensar en el objeti
 
 Eche un vistazo a este vídeo rápida para ver algunos ejemplos de cómo estructurar los equipos de propósito único o entre organizaciones:
 
-> [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Puede comenzar con un pequeño número de miembros del equipo para recopilar ideas a medida que se avanza, y después agregar personas o grupos nuevos según avanza el trabajo. Una de las grandes características de Microsoft Teams es que cuando se agregan nuevas personas o grupos, pueden ponerse al día rápidamente con lo que ya se ha hablado, ya que las conversaciones y los archivos están disponibles para los usuarios cuando se unen. Intente evitar crear equipos diferentes que tengan el mismo conjunto de miembros, ya que es posible que este enfoque no proporcione el contexto deseado para lograr el objetivo o completar el proyecto. Outlook es una herramienta ideal para compartir estos tipos de comunicaciones en todos los grupos.
 

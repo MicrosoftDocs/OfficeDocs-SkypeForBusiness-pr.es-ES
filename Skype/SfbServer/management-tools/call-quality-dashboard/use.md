@@ -1,25 +1,26 @@
 ---
-title: Usar el panel de calidad de llamada de Skype para Business Server
+title: Usar el panel de calidad de llamadas para Skype Empresarial Server 2015
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
-description: 'Resumen: Obtenga información sobre cómo usar el panel de calidad de llamadas. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: 6b431bb34ca6350662fbae720c61d2033d95fba4
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+description: 'Resumen: Obtenga información sobre cómo usar el panel de calidad de llamadas. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.'
+ms.openlocfilehash: 2aafd5c92a6b0b7a7985c76a20c9377fce44a5e7
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035732"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294901"
 ---
-# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Usar el panel de calidad de llamada de Skype para Business Server
+# <a name="use-call-quality-dashboard-for-skype-for-business-server-2015"></a>Usar el panel de calidad de llamadas para Skype Empresarial Server 2015
  
-**Resumen:** Obtenga información acerca de cómo usar el panel de calidad de llamadas. Panel de calidad de llamada es una herramienta de Skype para Business Server.
+**Resumen:** Obtenga información acerca de cómo usar el panel de calidad de llamadas. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.
   
 El panel de calidad de llamadas permite a los profesionales de TI usar datos de agregados para identificar áreas en su entorno que estén experimentando problemas en la calidad de los medios. También les permite comparar estadísticas de diferentes grupos de usuarios, e identificar tendencias y patrones. No se centra en la solución de problemas con llamadas individuales, sino en la identificación de problemas y soluciones aplicables a muchos usuarios dentro de un entorno.
   

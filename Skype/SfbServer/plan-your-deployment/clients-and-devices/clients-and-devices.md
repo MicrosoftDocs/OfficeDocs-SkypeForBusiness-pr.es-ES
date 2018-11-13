@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Resumen: revisión de los clientes y aplicaciones compatibles para Skype Empresarial.'
-ms.openlocfilehash: 3c68264f9eabc32c9e8c11a243fd103bb7c97426
-ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
+ms.openlocfilehash: 63981e9fbdc19eeeebc6b19b37f51f901a9493a2
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890596"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293659"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planificar los clientes y los dispositivos
 
@@ -84,7 +84,7 @@ Sistemas de salas de Skype v2 es la solución más moderna de conferencias de Mi
 
 ### <a name="skype-for-business-on-surface-hub"></a>Skype Empresarial en Surface Hub
 
-Microsoft Surface Hub es un dispositivo de productividad todo en uno que está concebido para las lluvias de ideas, la colaboración y las presentaciones. Tiene su propia iteración del cliente de Skype Empresarial, como se explica en el [Manual del administrador de Microsoft Surface Hub](https://docs.microsoft.com/surface-hub/).
+Microsoft Surface Hub es un dispositivo de productividad todo en uno que está concebido para las lluvias de ideas, la colaboración y las presentaciones. Tiene su propia iteración del cliente de Skype Empresarial, como se explica en el [Manual del administrador de Microsoft Surface Hub](https://docs.microsoft.com/en-us/surface-hub/).
 
 ## <a name="choosing-your-organizations-preferred-client"></a>Selección del cliente preferido de su organización
 <a name="BK_client_choose"> </a>

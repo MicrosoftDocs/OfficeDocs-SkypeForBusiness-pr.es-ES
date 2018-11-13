@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: Un usuario de confianza es aquel cuyas credenciales se han autenticado por un servidor de confianza en Skype para Business Server. Este servidor suele ser un servidor Standard Edition, Director o servidor Front-End de Enterprise Edition. Skype para Business Server se basa en los servicios de dominio de Active Directory como el repositorio back-end confianza único de credenciales de usuario.
-ms.openlocfilehash: a4f8661ba7f56e2bc5704af383dbd80e6a6869ac
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 9616774bf721863503c2ebd9145c6860f7068ef3
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839279"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294343"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>Autenticación de usuario y el cliente para Skype para Business Server
  
@@ -47,7 +47,7 @@ Certificados de cliente proporcionan un método alternativo para que los usuario
   
 ### <a name="cryptographic-requirements-due-to-asp-net-45"></a>Requisitos de cifrado debido a ASP .NET 4.5 
 
-A partir de Skype para Business Server 2015 CU5, AES no es compatible con ASP.NET 4.6 y esto puede causar la aplicación de las reuniones de Skype que se inicie. Si un cliente usa AES como el valor de la clave de validación de máquina debe restablecer el valor de clave de máquina a SHA-1 u otro algoritmo compatible en el nivel de sitio de la aplicación de las reuniones de Skype en IIS. Si es necesario, vea [Administración de la configuración de ASP.NET de IIS 8.0](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) para obtener instrucciones.
+A partir de Skype para Business Server 2015 CU5, AES no es compatible con ASP.NET 4.6 y esto puede causar la aplicación de las reuniones de Skype que se inicie. Si un cliente usa AES como el valor de la clave de validación de máquina debe restablecer el valor de clave de máquina a SHA-1 u otro algoritmo compatible en el nivel de sitio de la aplicación de las reuniones de Skype en IIS. Si es necesario, vea [Administración de la configuración de ASP.NET de IIS 8.0](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) para obtener instrucciones.
   
 Otros valores admitidos son:
   

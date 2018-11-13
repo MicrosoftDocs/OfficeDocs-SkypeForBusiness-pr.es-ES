@@ -3,23 +3,24 @@ title: Servicio de elemento para el panel de calidad de llamada (CQD)
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 6/8/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
-description: 'Resumen: Información sobre el servicio de elemento, que es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: 5e5198afd95d6c9e1de517054053b724a54b1105
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+description: 'Resumen: Información sobre el servicio de elemento, que es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.'
+ms.openlocfilehash: 5990b83e8b16d51be79c5afc80c0c08d53fa50e3
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035627"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295222"
 ---
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>Servicio de elemento para el panel de calidad de llamada (CQD)
  
-**Resumen:** Obtenga información sobre el servicio de elemento, que es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.
+**Resumen:** Obtenga información sobre el servicio de elemento, que es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.
   
 El servicio de elemento es parte de la API de repositorio para llamar al panel de calidad.
   

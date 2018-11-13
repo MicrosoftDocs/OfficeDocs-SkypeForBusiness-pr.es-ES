@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 960ab8a3-352d-4b18-bc01-55b35f30ca0d
 description: En las secciones siguientes se proporcionan instrucciones acerca de cómo configurar un entorno que tiene varios bosques en un modelo de bosque de usuario o recurso para proporcionar funcionalidad empresarial en un escenario híbrido de Skype.
-ms.openlocfilehash: ca3cd4bfe324690c41fbd045af967e57cab5fe36
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 772b93aab0d8adf08345870ac97a8e1487e240e2
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838566"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295245"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Configurar un entorno de varios bosque para entornos híbridos Skype para la empresa
  
@@ -66,7 +66,7 @@ Para obtener una sincronización de identidades adecuada, deben sincronizarse lo
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-El [atributo de vínculo de cuenta elegida](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/) se usará como el delimitador de origen. Si tiene un atributo distinto e inmutable que prefiere usar, puede hacerlo, pero asegúrese de editar la regla de notificaciones de AD FS y seleccionar el atributo durante la configuración de AAD Connect.
+El [atributo de vínculo de cuenta elegida](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/) se usará como el delimitador de origen. Si tiene un atributo distinto e inmutable que prefiere usar, puede hacerlo, pero asegúrese de editar la regla de notificaciones de AD FS y seleccionar el atributo durante la configuración de AAD Connect.
   
 No sincronizar el UPN entre los bosques. Durante las pruebas, detectamos que era necesario un UPN único para cada bosque de usuarios, ya que no se puede usar el mismo UPN en varios bosques. Como resultado, se nos presentaron dos posibilidades: sincronizar el UPN o no sincronizarlo. 
   
@@ -112,7 +112,7 @@ Los atributos resaltados en verde se han combinado de los atributos de Office 36
   
 Este es un usuario de prueba, y puede ver que AAD Connect identificó los sourceAnchor y cloudSourceAnchor del usuario y los objetos del bosque de recursos, y de Office 365, en nuestro caso, 1101 que es el employeeNumber seleccionado antes. Después, fue capaz de combinar este objeto en lo que se ve arriba. 
   
-Para más información, vea [Integración de las identidades locales con Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/). 
+Para más información, vea [Integración de las identidades locales con Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect/). 
   
 AAD Connect debe instalarse usando mayoritariamente los valores predeterminados. Excepto para los siguientes pasos: 
   
@@ -122,7 +122,7 @@ AAD Connect debe instalarse usando mayoritariamente los valores predeterminados.
     
 3.  Identificar a los usuarios en los directorios locales: seleccione **las identidades de usuario existen en varios directorios** y seleccione atributos **ObjectSID** y **msExchangeMasterAccountSID**
     
-4. Identificar a los usuarios en Azure AD: origen de anclaje - seleccione el atributo que se ha elegido después de leer la [selección de un atributo de buena sourceAnchor](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/), nombre Principal de usuario - **userPrincipalName**
+4. Identificar a los usuarios en Azure AD: origen de anclaje - seleccione el atributo que se ha elegido después de leer la [selección de un atributo de buena sourceAnchor](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/), nombre Principal de usuario - **userPrincipalName**
     
 5.  Las características opcionales - seleccione si tienen híbrida de Exchange implementado o no.
     

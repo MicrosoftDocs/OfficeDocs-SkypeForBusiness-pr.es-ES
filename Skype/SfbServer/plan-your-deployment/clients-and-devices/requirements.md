@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: En este artículo se resume los requisitos para la compatibilidad con sistemas de salas de Skype v2.
-ms.openlocfilehash: 23ab819c4a32efd4228a1d1d5b7aba89275e5b39
-ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
+ms.openlocfilehash: fcf108de8ac6d344061b4c95dcbe7438dc034d3b
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "26255775"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296361"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Requisitos de Sistemas de salas de Skype v2
 
@@ -26,9 +26,6 @@ La implementación incluirá la creación de cuentas como se describe en [implem
 
 > [!NOTE]
 > Sistemas de salón de Skype v2 está pensada para su uso con Skype para Business Server 2019, Skype Business Server 2015, Microsoft Teams o Skype para profesionales en línea. <br><br>No se espera plataformas anteriores al igual que Lync Server 2013 para trabajar con sistemas de salas de Skype v2. 
-
-> [!NOTE]
-> Si usa un servidor de Exchange en prem, sistemas de salón de Skype v2 requiere el uso de Exchange Server 2013 SP1 o posterior.
 
 ## <a name="hardware-requirements"></a>Requisitos de hardware
 
@@ -42,11 +39,11 @@ Sistemas de salón de Skype v2 puede escalar a tamaños de sala diferente a trav
 
 |Tablet PC|Procesador|MEMORIA RAM|Disco|
 |:-----|:-----|:-----|:-----|
-|Surface Pro (2017)  |I5 principales  |8GB  |256GB  |
-|Surface Pro (2017)  |I5 principales  |8GB  |128GB  |
-|Surface Pro (2017)  |I5 principales  |4GB  |128GB  |
-|Surface Pro 4       |I5 principales  |8GB  |256GB  |
 |Surface Pro 4       |I5 principales  |4GB  |128GB  |
+|Surface Pro 4       |I5 principales  |8GB  |256GB  |    
+|Surface Pro (2017)  |I5 principales  |4GB  |128GB  |
+|Surface Pro (2017)  |I5 principales  |8GB  |128GB  |
+|Surface Pro (2017)  |I5 principales  |8GB  |256GB  |
 
 > [!NOTE]
 > No se admiten los procesadores de núcleo M3.

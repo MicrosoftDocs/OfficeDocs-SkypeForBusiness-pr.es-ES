@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f3145455553c8126d66b3e56b69ec646f5f19ad
-ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
+ms.openlocfilehash: 6a1fb82f57035f238ce222bf7f21b72983d21075
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25851479"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295917"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams
 ==============================================================
@@ -35,17 +35,9 @@ Lea el anuncio del 12 de diciembre de 2017 sobre Planes de llamada en Microsoft 
 Ahora, al agregar Planes de llamada (una función de Office 365 con tecnología de Skype Empresarial), puede usar Microsoft Teams para hacer y recibir llamadas telefónicas a números nacionales y móviles o desde ellos a través de la red telefónica conmutada (RTC).
 
 ![Llamar en Microsoft Teams](media/Calling_in_Teams.png)
+
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Requisitos previos para habilitar la ficha **Llamadas** en Microsoft Teams.
-Para habilitar la ficha de **llamadas** en los equipos de los usuarios necesitan tener habilitada en los equipos de llamada y utilizando a un cliente de los equipos que admite una llamada a los equipos de 1:1 de 1:1. Para obtener información sobre cómo administrar las llamadas a 1:1 en los equipos, lea [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Para obtener información sobre los clientes que admiten las llamadas, lea [los límites y las especificaciones de los equipos de Microsoft](https://docs.microsoft.com/en-us/microsoftteams/limits-specifications-teams).
-
-> [!NOTE]
-> En la actualidad, correo de voz no estará disponible en la ficha llamadas a menos que el usuario está habilitado para las llamadas de RTC. 
-
-## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>Requisitos previos para habilitar el **Teclado de marcado** en los equipos
-Para habilitar la ficha de **Teclado de marcado** en los equipos y permitir que los usuarios a realizar y recibir llamadas de RTC debe abastecer a los usuarios para el sistema telefónico y planes de llamada. Para obtener información sobre cómo configurar planes de llamada, lea [Configurar planes de llamada](https://docs.microsoft.com/en-us/microsoftteams/set-up-calling-plans).
-
-> [!NOTE]
-> También puede usar el enrutamiento directo para permitir que a los usuarios obli y recibir llamadas de RTC. Para obtener información sobre cómo configurar el enrutamiento directo, leer la [Configuración de enrutamiento directo](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure).
+Para habilitar la ficha **Llamadas** en Microsoft Teams y permitir que los usuarios hagan y reciban llamadas RTC, deberá preparar a los usuarios para que puedan utilizar Sistema telefónico y Planes de llamada. Para aprender a realizar esta configuración, lea [Configurar Planes de llamada](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans).
 
 ## <a name="teams-interop-policy-configuration"></a>Configuración de la directiva de interoperabilidad de Microsoft Teams
 Para habilitar los equipos para empezar a recibir llamadas, que necesitará para actualizar la directiva de actualización de los equipos y la directiva de interoperabilidad de los equipos, uso de [los equipos de Microsoft & Skype para el centro de administración de negocio](https://aka.ms/teamsadmincenter) o mediante una sesión remota de Windows PowerShell con el Skype para la empresa [ `*-CsTeamsUpgradePolicy`y `*-CsTeamsInteropPolicy` ](https://docs.microsoft.com/powershell/module/skype) cmdlets, para redirigir las llamadas a los equipos.

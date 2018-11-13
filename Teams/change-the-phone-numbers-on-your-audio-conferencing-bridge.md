@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: When you buy Audio Conferencing licenses, Microsoft is hosting your audio conferencing bridge for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone.
-ms.openlocfilehash: d90daec99ced371aae3ef0685d1138656a6ab138
-ms.sourcegitcommit: 75e0c9e186dc167bad01f5b17ec9de8a682ee007
+ms.openlocfilehash: 7bd00f23a54780c94cdebeb413a8897e572ec47d
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "26005508"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294864"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Cambiar los números de teléfono de su puente de Audioconferencia
 
@@ -52,10 +52,6 @@ Además de los números de teléfono ya está asignados a su puente de conferenc
 
 4. En la página **Asignar**, haga clic en **Guardar**.
 
-### <a name="step-2---change-the-default-phone-number-of-your-conference-bridge-optional"></a>Paso 2: cambiar el número de teléfono predeterminado su de puente de conferencia (opcional)
-
-El número de teléfono predeterminado su de puente de conferencia define el identificador de autor de la llamada que se va a usar cuando se realiza una llamada saliente por un participante o el organizador desde dentro de una reunión.
-
 Sólo un número de teléfono de pago de servicio se puede establecer como el número predeterminado para el puente de conferencia; **números de teléfono gratuito de servicio no se puede establecer como el número predeterminado del puente de conferencia**. Si va a asignar a un número de teléfono de pago de servicio y que le gustaría establecer como el número predeterminado nuevo para el puente de conferencia de audio, siga estos pasos:
 
 1. Inicie sesión en Office 365 con su cuenta profesional.
@@ -65,10 +61,15 @@ Sólo un número de teléfono de pago de servicio se puede establecer como el n�
 3. Resalte el número de teléfono de pago de servicio que desea configurar como predeterminado.
 
 4. Haga clic en **Establecer como predeterminado**.
- 
-### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Paso 3: cambiar los números de teléfono predeterminado que se incluyen en la reunión invitaciones de usuarios (opcionales)
 
-Los números de teléfono predeterminado de un usuario son los que se incluyen en sus reuniones invita al programar una reunión. Para obtener más información, incluido cómo se asignan los números de teléfono predeterminada para nuevos usuarios, vea [Configurar el teléfono los números incluidos en invitaciones en los equipos de Microsoft](set-the-phone-numbers-included-on-invites-in-teams.md) o [el teléfono los números incluidos en invitaciones en Skype para profesionales en línea](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
+> [!NOTE]
+> Tras asignar un nuevo número de teléfono, incluso si el número ha pasado a ser el nuevo número predeterminado, no cambiará el número predeterminado de los usuarios existentes. Para establecer el pago predeterminado o un número de teléfono gratuito que se agrega a las invitaciones de reunión del organizador, consulte las instrucciones para [Los equipos de Microsoft](set-the-phone-numbers-included-on-invites-in-teams.md) o las instrucciones de [Skype para profesionales en línea](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites). 
+  
+
+
+### <a name="step-2---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Paso 2: Cambiar los números de teléfono predeterminados que se incluyen en las invitaciones de reunión de los usuarios (opcional)
+
+Cuando se programa una reunión, los números de teléfono que se incluyen en las invitaciones de reunión son los predeterminados del usuario. Para obtener más información, vea [Configurar el teléfono los números incluidos en invitaciones en los equipos de Microsoft](set-the-phone-numbers-included-on-invites-in-teams.md) o [el teléfono los números incluidos en invitaciones en Skype para profesionales en línea](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
   
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
 
@@ -80,11 +81,11 @@ Los números de teléfono predeterminado de un usuario son los que se incluyen e
 
 Después de que se han guardado los cambios, el nuevo número de teléfono de forma predeterminada los números se incluirá en la reunión invitaciones de los organizadores de la próxima vez que programan una reunión nueva.
 
-### <a name="step-4---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>Paso 4: actualizar las existentes de la reunión invitaciones de los usuarios que usan el servicio de migración de la reunión (opcional)
+### <a name="step-3---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>Paso 3: Actualizar las invitaciones de reunión existentes de los usuarios que usan el servicio de migración de reuniones (opcional)
 
 Para los dos pasos siguientes, debe iniciar Windows PowerShell.
   
-Si ha actualizado el teléfono de forma predeterminada los números que se incluye en la reunión invitaciones para algunos o todos los usuarios, puede actualizar, opcionalmente, las invitaciones de reunión que ya se han enviado a los usuarios de su organización antes de que se han cambiado sus números de teléfono predeterminado mediante la Servicio de migración de la reunión. Para obtener información adicional, consulte [Configuración del servicio de migración de reuniones (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+Mediante el servicio de migración de la reunión, puede actualizar, opcionalmente, las invitaciones de reunión que ya se han enviado a los usuarios de su organización antes de que se han cambiado sus números de teléfono predeterminado. Para obtener información adicional, consulte [Configuración del servicio de migración de reuniones (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
   
 - Ejecute el servicio de migración de reunión (MMS) para los usuarios que tenían sus números de teléfono predeterminado ha cambiado en el paso 2. Para ello, ejecute el siguiente comando:
 

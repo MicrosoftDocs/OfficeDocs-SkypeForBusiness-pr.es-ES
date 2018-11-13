@@ -9,16 +9,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 tiene software integrada que puede proporcionar servicios DNS, por lo que es posible que desee revisar la documentación disponible, como la Guía de escenario de directiva de DNS. Puede elegir una solución de terceros si lo prefiere.
-ms.openlocfilehash: 297dc905a308806aec9228a9514f8e1bd65a245b
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 3397d4ba2b3f8555652117d6de6bee54f7816307
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839058"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296136"
 ---
 # <a name="dns-basics"></a>Conceptos básicos DNS
  
-Windows Server 2016 tiene software integrada que puede proporcionar servicios DNS, por lo que es posible que desee revisar la documentación disponible, como la [Guía de escenario de directiva de DNS](https://docs.microsoft.com/windows-server/networking/dns/deploy/dns-policy-scenario-guide). Puede elegir una solución de terceros si lo prefiere.
+Windows Server 2016 tiene software integrada que puede proporcionar servicios DNS, por lo que es posible que desee revisar la documentación disponible, como la [Guía de escenario de directiva de DNS](https://docs.microsoft.com/en-us/windows-server/networking/dns/deploy/dns-policy-scenario-guide). Puede elegir una solución de terceros si lo prefiere.
   
 Se recomienda como práctica recomendada de dedicar un servidor específico en su implementación para proporcionar DNS. Se podría potencialmente establecido en uno de los servidores dedicados a uno de los Skype para funciones de servidor empresarial, pero si ese servidor también formaba parte de un grupo de servidores y obtuvo de baja por accidente Skype para profesionales sería mal funcionamiento hasta que se restablezca servicios DNS.
   

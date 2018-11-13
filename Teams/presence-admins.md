@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1934a602d89240c89ffb4f7410192d19a7dd2e61
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: d7f6ef1e7c20e4cc08d021d30a7b52062f08a2ac
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26038882"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296338"
 ---
 # <a name="user-presence-in-teams"></a>Presencia de usuario en los equipos
 
@@ -66,8 +66,3 @@ La siguiente configuración de administración en Skype para la empresa es difer
 
 > [!NOTE]
 > La capacidad de una administración de equipos para personalizar estas opciones no se admite actualmente.
-
-
-## <a name="coexistence-with-skype-for-business"></a>Coexistencia con Skype para la empresa
-
-Para obtener información detallada sobre el funcionamiento de presencia de los equipos cuando coexisten con Skype para la empresa, vea [coexistencia con Skype para la empresa](coexistence-chat-calls-presence.md) . 

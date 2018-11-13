@@ -3,7 +3,7 @@ title: Usar fichas integradas y personalizadas en Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 11/13/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,47 +12,49 @@ search.appverid: MET150
 description: Aprenda a usar fichas integradas y personalizadas para incluir características como conversaciones, archivos, mapas y mucho más.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afdf57e4b1a37cf5cc1e1de1f4c2c86f478baf79
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 01e74b526058842819e219fcaa34109a7f954ad4
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016376"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294678"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Usar fichas integradas y personalizadas en Microsoft Teams
 ==================================================
 
-Las fichas permiten a los miembros del equipo acceder a servicios en un lienzo dedicado dentro de un canal. De esta forma, el equipo puede trabajar directamente con las herramientas y los datos que se le proporcionen, y tener conversaciones sobre ellos, dentro del contexto del canal. Con cada nuevo canal, se proporcionan dos fichas de manera predeterminada, como se muestra en la imagen de abajo:
+Fichas permiten a los miembros del equipo tener acceso a servicios en un lienzo dedicado dentro de un canal o en un chat. Esto permite que el equipo a trabajar directamente con las herramientas y los datos y tener conversaciones sobre ellos en el contexto del canal o chat. 
 
--   Conversaciones
+Los propietarios y los miembros del equipo pueden agregar fichas a un canal, chat privado y conversaciones en grupo para ayudar a integrar sus servicios en la nube. Se pueden agregar fichas para ayudar a los usuarios fácilmente obtener acceso y administrar los datos que necesita o interactúan con el mayor número. Esto puede ser un informe de Power BI, un panel o incluso un canal de vídeo de [Secuencia de Microsoft](https://go.microsoft.com/fwlink/?linkid=855785) donde publicar vídeos de aprendizaje.
 
--   Archivos
+![Tres capturas de pantalla con contenido diverso en las fichas.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
-![Captura de pantalla de la sección Conversación del equipo de marketing.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
+## <a name="work-with-tabs"></a>Trabajar con fichas
 
-1.  Los propietarios y los miembros del equipo pueden agregar fichas adicionales a cada canal para integrar mejor sus servicios en la nube.
+- Con cada nuevo canal, dos fichas se aprovisionan de forma predeterminada, las conversaciones y archivos. 
 
-2.  Los archivos de Excel, PowerPoint, Word y PDF deben cargarse en la ficha **Archivos** para poder convertirlos en fichas. Si lo prefiere, puede convertir en ficha cualquier archivo existente que se haya cargado antes con un solo clic, como se muestra abajo.
+    ![Captura de pantalla de la sección Conversación del equipo de marketing.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
+- Con cada chat privado, cuatro fichas se aprovisionan de forma predeterminada, las conversaciones, archivos, organización y actividad.
+
+    ![Captura de pantalla de las fichas en una conversación.](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
+
+- Los propietarios y los miembros del equipo pueden agregar más fichas a un canal o chat haciendo clic en **Agregar una ficha** ![captura de pantalla de la adición de un botón de la ficha, que muestra un signo +.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) en la parte superior del canal o chat.
+
+- Archivos de Excel, PowerPoint, Word y PDF se deben cargar en la ficha **archivos** antes de que se pueden convertir a las fichas. Como alternativa, los archivos que se cargan existentes pueden convertirse a una ficha con un solo clic, tal y como se muestra a continuación.
 
     ![Captura de pantalla de la ficha Archivos con un archivo de PowerPoint seleccionado.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 
-3.  Para agregar un sitio web, la URL debe empezar con el prefijo **https** para que cualquier información que se intercambie permanezca segura.
+- Para agregar un sitio Web, la dirección URL debe comenzar con un prefijo de **https** por lo que la información que se intercambia sigue siendo segura.
 
-4.  Se proporcionan instrucciones detalladas cada vez que un miembro del equipo intenta agregar una ficha personalizada en su canal.
-
-5.  Cuando se agrega una ficha personalizada a un canal, se crea una **conversación de ficha** que permite a los miembros del equipo tener conversaciones centradas en el contenido.
+- Cuando un miembro del equipo intenta agregar una ficha personalizada a su canal o chat, se proporcionan instrucciones detalladas. Cuando se agrega una ficha personalizada a un canal, se crea una **conversación de ficha** que permite a los miembros del equipo se han centrado debates sobre el contenido.
 
     ![Captura de pantalla de una ficha personalizada con una conversación de ficha en la parte derecha de la ventana.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 
-6.  Pueden agregarse fichas adicionales a los canales para ayudar a los usuarios a acceder fácilmente a los datos que necesitan y administrarlos, o interactuar con la mayoría de ellos. Puede ser un informe de Power BI, un panel o incluso un canal de vídeo de [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) donde publicar vídeos de aprendizaje.
+## <a name="develop-custom-tabs"></a>Desarrollar fichas personalizadas
 
-    ![Tres capturas de pantalla con contenido diverso en las fichas.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
+Además de las fichas integradas, se puede diseñar y desarrollar sus propias fichas para integrar a los equipos o compartir con el resto de la Comunidad.
 
-<a name="develop-custom-tabs"></a>Desarrollar fichas personalizadas
--------------------
-
-Además de las fichas integradas, las organizaciones pueden diseñar y desarrollar sus propias fichas de manera sencilla. Después podrán integrarlas en Microsoft Teams o compartirlas con la comunidad.
-
-En Microsoft Developer Network se ofrecen [instrucciones detalladas](https://go.microsoft.com/fwlink/?linkid=855786) para diseñar y crear sus propias fichas. También puede descargar e implementar [fichas de muestra](https://go.microsoft.com/fwlink/?linkid=855787) desarrolladas por Microsoft.
+Microsoft Developer Network proporciona [instrucciones detalladas](https://go.microsoft.com/fwlink/?linkid=855786) para diseñar y crear sus propias fichas y [las fichas de ejemplo](https://go.microsoft.com/fwlink/?linkid=855787) desarrollado por Microsoft que puede descargar.
 
 ![Captura de pantalla de una ficha personalizada de ejemplo en Microsoft Teams](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
+
+---

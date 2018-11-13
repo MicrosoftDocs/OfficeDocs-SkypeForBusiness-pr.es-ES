@@ -3,23 +3,24 @@ title: Ejemplos de desarrollo de CQD
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
-description: 'Resumen: Revise un tutorial y desarrollo ejemplos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: 994a26af99ec141b531ed3011a42f626c0c62886
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+description: 'Resumen: Revise un tutorial y desarrollo ejemplos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.'
+ms.openlocfilehash: 6bd6031e1d7fc94ed463c53efb068fd1e2e51378
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035746"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296129"
 ---
 # <a name="cqd-development-samples"></a>Ejemplos de desarrollo de CQD
 
-**Resumen:** Revisar un tutorial y desarrollo ejemplos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.
+**Resumen:** revise un tutorial y muestras de desarrollo para el Panel de calidad de la llamada. El panel de calidad de la llamada es una herramienta Skype Empresarial Server 2015.
 
 En este artículo se proporcionan un tutorial y ejemplos sobre el desarrollo del panel de calidad de llamada (CQD).
 
@@ -31,9 +32,9 @@ Tutorial: crear presentaciones de informes personalizadas con el servicio de dat
 
 El CQD ofrece acceso rápido y fácil a la información agregada de calidad de la llamada para las implementaciones de Skype Empresarial Server locales. El CQD consta de tres componentes: la base de datos de QoE, el cubo y el portal. El portal es el nivel de presentación principal y se puede dividir en los siguientes tres componentes:
 
-1. Servicio de datos, que está accesible para los usuarios autenticados a través de la [API de datos de panel de calidad de llamadas (CQD) en Skype para Business Server](data-api.md).
+1. Servicio de datos, que está accesible para los usuarios autenticados a través de la [API de datos para panel de calidad de llamadas (CQD) en Skype para Business Server 2015](data-api.md).
 
-2. Servicio de repositorio, que está accesible para los usuarios autenticados a través de la [API de repositorio de panel de calidad de llamadas (CQD) en Skype para Business Server](repository-api.md).
+2. Servicio de repositorio, que está accesible para los usuarios autenticados a través de la [API de repositorio de panel para calidad de llamadas (CQD) en Skype para Business Server 2015](repository-api.md).
 
 3. Portal web, que es la interfaz basada en HTML5 que los usuarios del CQD ven y con la que interactúan. Es accesible para los usuarios autenticados.
 

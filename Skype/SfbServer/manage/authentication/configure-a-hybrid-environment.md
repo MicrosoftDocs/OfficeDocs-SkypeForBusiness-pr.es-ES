@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: 'Resumen: Configurar la autenticación de servidor a servidor para un Skype para entorno híbrido de Business Server.'
-ms.openlocfilehash: 2d4589d2d194cd885329dd701f69af7b8896f8f3
-ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
+ms.openlocfilehash: 02412c152e017da95c82ff6f8ad6f08db1a105ef
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25784887"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295237"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>Configurar la autenticación de servidor a servidor para un Skype para entorno híbrido de Business Server.
 
@@ -69,19 +69,19 @@ Tenga en cuenta que el nombre de dominio kerberos de un inquilino normalmente es
 $TenantID = (Get-CsTenant -DisplayName "Fabrikam.com").TenantId
 ```
 
-Para ejecutar este script, debe tener instalado Skype para el módulo de Powershell en línea de negocio y conectarse a su inquilino con este módulo. Si no ha instalado estos cmdlets, el script dará un error porque el cmdlet Get-CsTenant no estará disponible. Una vez completada la secuencia de comandos, a continuación, debe configurar una relación de confianza entre Skype para Business Server y el servidor de autorización y una segunda relación de confianza entre Exchange 2013/2016 y el servidor de autorización. Solo podrá hacer esto usando los cmdlets de Microsoft Online Services.
+Una vez completada la secuencia de comandos, a continuación, debe configurar una relación de confianza entre Skype para Business Server y el servidor de autorización y una segunda relación de confianza entre Exchange 2013 y el servidor de autorización. Solo podrá hacer esto usando los cmdlets de Microsoft Online Services.
 
 > [!NOTE]
-> Si no ha instalado los cmdlets de Microsoft Online Services, debe instalarlo desde el repositorio de powershell con el cmdlet install-módulo MSOnline. Puede encontrar información detallada para instalar y usar el módulo de Microsoft Online Services en el sitio web de Office 365. Estas instrucciones también describen cómo configurar el inicio de sesión único, la federación y la sincronización entre Active Directory y de Office 365. 
+> Si no ha instalado los cmdlets de Microsoft Online Services, antes de continuar necesitará realizar dos tareas. En primer lugar, descargue e instale la versión de 64 bits de Microsoft Online Services - Ayudante para el inicio de sesión. Una vez finalizada la instalación, descargue e instale la versión de 64 bits de Microsoft Online Services Module para Windows PowerShell. Puede encontrar información detallada para instalar y usar el módulo de Microsoft Online Services en el sitio web de Office 365. Estas instrucciones también describen cómo configurar el inicio de sesión único, la federación y la sincronización entre Active Directory y de Office 365. 
 
-
+Si no ha instalado estos cmdlets, el script dará un error porque el cmdlet Get-CsTenant no estará disponible.
 
 Después de configurar Office 365, y después de haber creado Office 365 entidades de seguridad de servicio de Skype para Business Server y Exchange 2013, a continuación, necesitará registrar sus credenciales con estas entidades de seguridad del servicio. Para hacer esto, primero debe obtener un Base64 X.509 que se guarda como un. Archivo CER. Este certificado, a continuación, se aplicará a las entidades de seguridad del servicio de Office 365.
 
-Cuando haya obtenido el certificado X.509, abra la consola de Powershell e importar el módulo de Microsoft Online Windows PowerShell que contiene los cmdlets que se pueden usar para administrar las entidades de seguridad de servicio:
+Cuando haya obtenido el certificado X.509, iniciar el módulo Microsoft Online Services (haga clic en **Inicio**, haga clic en **Todos los programas**, haga clic en **Microsoft Online Services**y, a continuación, haga clic en **Microsoft Online Services Module para Windows PowerShell**). Una vez que se abre el módulo de servicios, escriba lo siguiente para importar el módulo Microsoft Online Windows PowerShell que contiene los cmdlets que se pueden usar para administrar las entidades de seguridad de servicio:
 
 ```
-Import-Module MSOnline
+Import-Module MSOnlineExtended
 ```
 
 Cuando se ha importado el módulo, escriba el siguiente comando y, a continuación, presione ENTRAR para poder conectarse a Office 365:

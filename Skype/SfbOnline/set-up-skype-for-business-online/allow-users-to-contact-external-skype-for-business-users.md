@@ -26,12 +26,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: eaac8426677268e526f622b477caff062d81deef
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: b18c4d3f04cab78b48039bcd33dae00a960132ea
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839042"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293758"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial
 
@@ -71,9 +71,9 @@ Debe tener [permisos de administrador](https://support.office.com/en-us/article/
     
 7. Si usa el Firewall de Windows, Skype Empresarial abre automáticamente los puertos solicitados.
     
-    Si su organización usa una solución de firewall diferente para restringir la conexión a Internet de los equipos en la red, asegúrese de que sus equipos cliente pueden acceder a los siguientes [URL de Office 365 e intervalos de direcciones IP](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges). Esto puede requerir la adición de los FQDN para la salida permiten lista en el firewall o el proxy la configuración de la infraestructura: ** \*. api.skype.com**, \* **. users.storage.live.com**y **graph.skype.com**. Para obtener instrucciones sobre cómo abrir estos puertos en el servidor de seguridad, consulte la documentación que lo acompaña.
+    Si su organización usa una solución de firewall diferente para restringir la conexión a Internet de los equipos en la red, asegúrese de que sus equipos cliente pueden acceder a los siguientes [URL de Office 365 e intervalos de direcciones IP](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges). Esto puede requerir la adición de los FQDN para la salida permiten lista en el firewall o el proxy la configuración de la infraestructura: ** \*. api.skype.com**, \* **. users.storage.live.com**y **graph.skype.com**. Para obtener instrucciones sobre cómo abrir estos puertos en el servidor de seguridad, consulte la documentación que lo acompaña.
     
-    Para obtener una lista de todos los puertos que necesita abrir, vea [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).
+    Para obtener una lista de todos los puertos que necesita abrir, vea [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).
 
 8. Asegúrese de que el Administrador de la organización también ha seguido estos pasos.
     
@@ -84,7 +84,7 @@ Debe tener [permisos de administrador](https://support.office.com/en-us/article/
 ## <a name="test-and-troubleshoot"></a>Probar y solucionar problemas
 <a name="bk_preview"> </a>
 
- **El problema más común que se encuentran los usuarios al configurar la comunicación entre empresas es [URL de Office 365 e intervalos de direcciones IP](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges) correctamente.**
+ **El problema más común que se encuentran los usuarios al configurar la comunicación entre empresas es [URL de Office 365 e intervalos de direcciones IP](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges) correctamente.**
   
 Para probar su instalación, necesita un contacto en Skype Empresarial que no esté bloqueado por el firewall de su empresa.
   
@@ -92,7 +92,7 @@ Para probar su instalación, necesita un contacto en Skype Empresarial que no es
     
 2. En Skype Empresarial, busque su contacto en Skype Empresarial y envíe una solicitud para chatear.
     
-    Si recibe un mensaje que se han podido enviar debido a la directiva de empresa, debe comprobar su [URL de Office 365 y los intervalos de direcciones IP](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).
+    Si recibe un mensaje que se han podido enviar debido a la directiva de empresa, debe comprobar su [URL de Office 365 y los intervalos de direcciones IP](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).
     
 3. Pida a su contacto de Skype Empresarial que le envíe una solicitud para chatear. Si no recibe la solicitud, quiere decir que el problema se encuentra en la configuración de su firewall (siempre que haya confirmado que la configuración de su firewall es correcta).
     

@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Vídeos de aprendizaje, tutoriales y otros recursos para los usuarios de su organización a aprender y usar los equipos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa9555476fbf429d49c624365fd81fd9d548f06a
-ms.sourcegitcommit: f16c5dc7bbcdc3d4df8462ed2a37108137727430
+ms.openlocfilehash: ed20efec166c1c9599e1983b2626a826568cb523
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25909859"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294806"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Formación del usuario final para Microsoft Teams
 
@@ -32,7 +32,7 @@ Use estos recursos de aprendizaje para ayudar a los usuarios de su organización
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.svg" alt="megaphone" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-blue.svg" alt="megaphone" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -51,7 +51,7 @@ Vea este vídeo corto de presentación de los equipos</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="get started" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -68,7 +68,7 @@ Vea este vídeo corto de presentación de los equipos</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="Help" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/help.svg" alt="Help" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -86,7 +86,7 @@ Vea este vídeo corto de presentación de los equipos</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg" alt="education tutorial" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-blue.svg" alt="education tutorial" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -104,7 +104,7 @@ Vea este vídeo corto de presentación de los equipos</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="video play" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/video-play.svg" alt="video play" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -157,17 +157,6 @@ Vea este vídeo corto de presentación de los equipos</h3>
                          <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">Vídeo: Ir a guía para los propietarios de equipo</a></p>
                          <p><a href="https://support.office.com/article/organize-your-teams-list-741bf760-39fc-4807-ad8b-92558273f542">Vídeo: Organizar la lista de los equipos</a></p>
                          <p><a href="https://www.youtube.com/watch?v=hjJWtoaRJeE">Vídeo: Instrucciones para la configuración de los equipos, los canales y fichas</a></p> 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Formación en línea a petición</h3>
-                         <p><a href="https://microsoftteams.eventbuilder.com/event/1772">#ThisisTeams - cómo los equipos pueden trabajar para usted</a></p>
                     </div>
                 </div>
             </div>

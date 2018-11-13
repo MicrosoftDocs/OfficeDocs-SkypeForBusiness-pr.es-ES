@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Solución de problemas de creación de una sesión remota de PowerShell para conectarse a Skype para profesionales Online, incluidos Import-Module, shell simultánea, Live ID y errores de permiso.
-ms.openlocfilehash: 223886b68c22f3713118eaed4a556743df2c7cf1
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 651afa58513819eb57914bfa1cd92bc38a46298f
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839192"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295052"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexión con el conector de Skype Empresarial Online
 
@@ -112,7 +112,7 @@ Cuando intenta establecer una conexión remota con Skype para profesionales en l
 
 No puede realizar una toSkype de conexión de PowerShell remoto para profesionales en línea a menos que sea miembro del grupo de administradores de inquilinos. Si no lo está, se producirá un error en el intento de conexión y recibirá el mensaje de error siguiente:
 
-- **Error**: *New-PSSession: error de procesamiento de datos desde el servidor remoto admin.vdomain.com [admin.vdomain.com] con el siguiente mensaje de error: el usuario 'user@foo.com' no tiene permiso para administrar este inquilino. Se pueden conceder permisos mediante la asignación de usuario a la función adecuada de RBAC. Para obtener más información, vea la [Resolución de problemas remota](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
+- **Error**: *New-PSSession: error de procesamiento de datos desde el servidor remoto admin.vdomain.com [admin.vdomain.com] con el siguiente mensaje de error: el usuario 'user@foo.com' no tiene permiso para administrar este inquilino. Se pueden conceder permisos mediante la asignación de usuario a la función adecuada de RBAC. Para obtener más información, vea la [Resolución de problemas remota](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
 
 - **Resolución**: si piensa que están o, se supone que un miembro del grupo de administradores de inquilinos, deberá ponerse en contacto con soporte técnico de Office 365.
   
@@ -121,7 +121,7 @@ No puede realizar una toSkype de conexión de PowerShell remoto para profesional
 
 Para usar PowerShell para administrar Skype para profesionales en línea, se debe establecer la propiedad EnableRemotePowerShellAccess de su inquilino de la directiva de PowerShell `True`. Si no es así, se producirá un error en la conexión y recibirá el mensaje de error siguiente:
 
-- **Error**: *New-PSSession: error de procesamiento de datos desde el servidor remoto admin.vdomain.com [admin.vdomain.com] con el siguiente mensaje de error: se ha deshabilitado la capacidad para conectarse a este inquilino mediante el uso de una sesión remota de PowerShell. Póngase en contacto con ayuda de Lync para comprobar la directiva de Powershell inquilino de este inquilino. Para obtener más información, vea la [Resolución de problemas remota](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
+- **Error**: *New-PSSession: error de procesamiento de datos desde el servidor remoto admin.vdomain.com [admin.vdomain.com] con el siguiente mensaje de error: se ha deshabilitado la capacidad para conectarse a este inquilino mediante el uso de una sesión remota de PowerShell. Póngase en contacto con ayuda de Lync para comprobar la directiva de Powershell inquilino de este inquilino. Para obtener más información, vea la [Resolución de problemas remota](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
 
 - **Solución**: Si aparece este mensaje de error, que necesitará para ponerse en contacto con soporte técnico de Office 365 y obtener acceso remoto de PowerShell habilitado.
   
@@ -130,7 +130,7 @@ Para usar PowerShell para administrar Skype para profesionales en línea, se deb
 
 Cada administrador se permite un máximo de tres conexiones remotas simultáneas a Skype para profesionales en línea. Si tiene tres conexiones de PowerShell remotas copia de seguridad y en ejecución, cualquier intento de realizar un cuarto simultáneas conexión se producirá un error, con el mensaje de error siguiente:
 
-- **Error**: *New-PSSession: [admin.vdomain.com] no pudo conectar al servidor remoto admin.vdomain.com con el siguiente mensaje de error: el WS-Management no puede procesar la solicitud. Se superó el número máximo de shells simultáneos para este usuario. Cerrar shells existentes o aumentar la cuota para este usuario. Para obtener más información, vea el [Troubleshooting remoto] (https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
+- **Error**: *New-PSSession: [admin.vdomain.com] no pudo conectar al servidor remoto admin.vdomain.com con el siguiente mensaje de error: el WS-Management no puede procesar la solicitud. Se superó el número máximo de shells simultáneos para este usuario. Cerrar shells existentes o aumentar la cuota para este usuario. Para obtener más información, vea el [Troubleshooting remoto] (https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 
 - **Resolución**: es la única forma de resolver este problema cerrar una o varias de las conexiones de la anteriores. Cuando haya terminado con un Skype para la sesión en línea de negocio, se recomienda que utilice el cmdlet **Remove-PSSession** para terminar la sesión. Esto le ayudará a evitar que este problema.
   
@@ -139,7 +139,7 @@ Cada administrador se permite un máximo de tres conexiones remotas simultáneas
 
 Aunque cada administrador se puede tener como máximo tres conexiones simultáneas a un Skype para inquilino empresarial en línea, inquilino único no puede tener más de 20 conexiones simultáneas. Por ejemplo, seis los administradores es posible que cada uno de ellos tienen tres de las sesiones abiertas. Si un administrador de la cuarto intenta realizar conexiones más de 2 (resultante en un total de conexiones simultáneas 21), este intento se producirá un error, con el mensaje de error siguiente:
   
-- **Error**: *New-PSSession: [admin.vdomain.com] no pudo conectar al servidor remoto admin.vdomain.com con el siguiente mensaje de error: el WS-Management no puede procesar la solicitud. Se superó el número máximo de shells simultáneos para este inquilino. Cerrar shells existentes o aumentar la cuota para este inquilino. Para obtener más información, vea el [Troubleshooting remoto] (https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
+- **Error**: *New-PSSession: [admin.vdomain.com] no pudo conectar al servidor remoto admin.vdomain.com con el siguiente mensaje de error: el WS-Management no puede procesar la solicitud. Se superó el número máximo de shells simultáneos para este inquilino. Cerrar shells existentes o aumentar la cuota para este inquilino. Para obtener más información, vea el [Troubleshooting remoto] (https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 
 - **Resolución**: es la única forma de resolver este problema cerrar una o varias de las conexiones de la anteriores. Cuando haya terminado con un Skype para la sesión en línea de negocio, se recomienda que use el cmdlet **Remove-PSSession** para terminar de esa sesión. Esto le ayudará a evitar que este problema.  
  

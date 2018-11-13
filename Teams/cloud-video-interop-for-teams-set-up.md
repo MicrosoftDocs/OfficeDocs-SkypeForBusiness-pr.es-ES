@@ -13,11 +13,11 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e2090036aa5e1a05e46581d365d9b6b4aeb94b32
-ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25040783"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294139"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Configurar la interoperabilidad de vídeo en la nube de Microsoft Teams
 
@@ -35,7 +35,7 @@ Para planear la habilitación todo el usuario en función o simultánea/sitio:
 - Seleccione el plan de licencia ideal para su organización. 
 - Planeación de capacidad de las máquinas virtuales es que va a hospedar la infraestructura de vídeo.
 
-## <a name="configure"></a>Configurar 
+## <a name="configure"></a>Configuración 
 
 Para configurar la interoperabilidad de vídeo en la nube, siga estos pasos. 
 

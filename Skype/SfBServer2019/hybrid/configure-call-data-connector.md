@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instrucciones para configurar el conector de datos de llamadas, que permite la telemetría de Skype para empresarial local para verse mediante Skype para herramientas profesionales en línea.
-ms.openlocfilehash: 959bb182da91029fd43ebc3ccb99fb5a69d820b2
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: adc1c9a1e50130796c4749a958e9030c10a09fd0
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838826"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293619"
 ---
 # <a name="configure-call-data-connector"></a>Configurar el conector de datos de llamada
 
@@ -46,7 +46,7 @@ Para configurar y habilitar el conector de datos de llamadas, va a usar los cmdl
 
 ### <a name="configure-your-environment"></a>Configurar el entorno 
 
-Para configurar el entorno para habilitar a un recopilador de datos en línea, debe primero inicie sesión en Skype para profesionales Online PowerShell como administrador. Para obtener más información, vea [Administrar Skype para profesionales en línea con Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+Para configurar el entorno para habilitar a un recopilador de datos en línea, debe primero inicie sesión en Skype para profesionales Online PowerShell como administrador. Para obtener más información, vea [Administrar Skype para profesionales en línea con Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 Existen dos métodos para iniciar sesión en Skype para PowerShell en línea de negocio:
 
@@ -135,7 +135,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 ## <a name="view-on-premises-data-through-the-online-dashboard"></a>Vista de datos locales a través del panel en línea
 
- Después de llamar al conector de datos está habilitado, puede ver los datos de llamada local en el panel de análisis de llamadas, tal como se describe en el [Análisis de uso de llamadas para solucionar problemas de calidad deficiente](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality).
+ Después de llamar al conector de datos está habilitado, puede ver los datos de llamada local en el panel de análisis de llamadas, tal como se describe en el [Análisis de uso de llamadas para solucionar problemas de calidad deficiente](https://docs.microsoft.com/en-us/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality).
 
 
 ## <a name="for-more-information"></a>Para más información

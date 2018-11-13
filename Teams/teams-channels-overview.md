@@ -3,7 +3,7 @@ title: Información general de los equipos y canales en Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/02/2018
+ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10de89c43a653cd090f313ec368bde42bd774b03
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: b02fd487b7a5ef6ab7422791487a1c9cb3fa5795
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26282991"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295522"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Información general de los equipos y canales en Microsoft Teams
 =================================================
@@ -30,7 +30,7 @@ Para empezar, veamos cómo Microsoft Teams permite que los equipos individuales 
 
     -   Los equipos también se pueden crear públicos y abiertos, de modo que todos los integrantes de la organización se pueden unir (hasta 2500 miembros).
     
-    Los equipos están diseñados para reunir grupos de personas que trabajan juntos para intentar lograr sus objetivos. Los equipos pueden ser dinámicos para el trabajo basado en proyectos (por ejemplo, iniciar un producto o crear un centro de operaciones digital) o continuos para reflejar la estructura interna de su organización (por ejemplo, departamentos y ubicaciones de oficinas). Los miembros del equipo serán los únicos que podrán ver las conversaciones, los archivos y las notas de los canales del equipo.
+Los equipos están diseñados para reunir grupos de personas que trabajan juntos para intentar lograr sus objetivos. Los equipos pueden ser dinámicos para el trabajo basado en proyectos (por ejemplo, iniciar un producto o crear un centro de operaciones digital) o continuos para reflejar la estructura interna de su organización (por ejemplo, departamentos y ubicaciones de oficinas). Los miembros del equipo serán los únicos que podrán ver las conversaciones, los archivos y las notas de los canales del equipo.
 
 -   Los **canales** son secciones dedicadas dentro de un equipo para mantener las conversaciones organizadas por temas, disciplinas o proyectos específicos, es decir, lo que le sea más conveniente al equipo.
 
@@ -38,11 +38,7 @@ Para empezar, veamos cómo Microsoft Teams permite que los equipos individuales 
 
     -   Los canales son más valiosos cuando extendido con aplicaciones que incluyen pestañas, conectores y bots que aumente su valor a los miembros del equipo.
 
-Vea este vídeo corto para obtener más información sobre los procedimientos recomendados para la creación de equipos y canales.
-
-   > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
-
-<a name="membership-roles-and-settings"></a>Configuración, roles y pertenencia
+<a name="membership-roles-and-settings"></a>Configuración, Roles y pertenencia
 ------------------------------
 
 **Pertenencia a equipos**: Cuando Microsoft Teams se activa para toda la organización, los propietarios de equipo designados tienen la capacidad de invitar a cualquier empleado con el que trabajen para que se una al equipo. Con Microsoft Teams, los propietarios de equipo pueden agregar con facilidad personas de la organización por su nombre. En función de cuál sea la configuración de su organización, podrá agregar a sus equipos los invitados que sean miembros del equipo, pero que no pertenezcan a la organización. Vea [Acceso de invitado a Microsoft Teams](guest-access.md) para obtener más información. 
@@ -54,8 +50,7 @@ Los propietarios de equipo también pueden crear un equipo basado en un grupo de
 **Configuración del equipo**: Los propietarios de equipo pueden administrar la configuración de todo el equipo directamente en Microsoft Teams. En la configuración se incluye la capacidad de agregar una imagen del equipo, establecer permisos en todos los miembros del equipo para crear canales, agregar fichas y conectores, @mencionar a todo el equipo o el canal, y usar archivos GIF, adhesivos y memes. 
 
 Tardar tres minutos para desproteger este ir a la guía vídeo para los propietarios de equipo: 
-
-   > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Si es un administrador de Microsoft Teams en Office 365, tener acceso a la configuración de todo el sistema en los equipos & Skype para el centro de administración de negocio. Esta configuración puede influir en las opciones y la configuración predeterminada que los propietarios ven en la configuración del equipo. Por ejemplo, puede habilitar un canal predeterminado, "General", para los anuncios, los debates y los recursos de todo el equipo, que aparecerá en todos los equipos.
 
@@ -69,6 +64,7 @@ Una actividad clave de planificación inicial para animar a los usuarios a utili
 A continuación puede ver algunos ejemplos de cómo los distintos tipos de usuarios pueden enfocar la configuración de sus equipos, canales y aplicaciones (fichas/conectores/bots). Esto puede ser útil para iniciar una conversación sobre Microsoft Teams con su comunidad de usuarios. A medida que planifica la implementación de Microsoft Teams en su organización, recuerde que puede proporcionar instrucciones sobre cómo estructurar los equipos. Sin embargo, los usuarios son los que tienen el control de su propia organización. Estos solo son ejemplos para que los equipos comiencen a pensar en las posibilidades.
 
 Microsoft Teams es perfecta para eliminar la idea de los silos de la organización y promocionar equipos para varias funciones. Por lo tanto, deberá animar a los usuarios para que piensen en términos de equipos funcionales en vez de silos de la organización.
+
 
 |Tipos de equipos  |Canales potenciales  |Aplicaciones (fichas) ![Icono de fichas.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Conectores ![Icono de Conectores.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Icono de Bots.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
@@ -87,6 +83,3 @@ Es posible crear que Teams se alinee con la estructura de la organización.  Est
 
 ![Diagrama de una jerarquía de cómo los equipos y canales se organizan en Microsoft Teams.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
 
-## <a name="org-wide-teams"></a>Equipos de toda la organización
-
-Si su organización tiene no más de 1.000 usuarios, puede crear un equipo de toda la organización. Los equipos de toda la organización proporcionan una forma automática para todos los usuarios de una organización a formar parte de un único equipo para la colaboración. Para obtener más información, incluidas las prácticas recomendadas para crear y administrar un equipo de toda la organización, vea [crear un equipo de toda la organización en los equipos de Microsoft](create-an-org-wide-team.md).

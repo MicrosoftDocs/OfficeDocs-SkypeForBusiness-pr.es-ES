@@ -3,22 +3,23 @@ title: Actualizar elemento
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 6/8/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c15c56-cdae-4f3e-838a-52f0940cf729
-description: 'Resumen: Obtenga información acerca de la operación Actualizar elemento, que es parte del servicio de elemento. El servicio de elemento es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: 5839118dc6e907696d4ce3e9adfbc58504808fac
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+description: 'Resumen: Obtenga información acerca de la operación Actualizar elemento, que es parte del servicio de elemento. El servicio de elemento es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.'
+ms.openlocfilehash: 0616f41a3ae680412bdc435716d805af77e72f3a
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035690"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295269"
 ---
 # <a name="update-item"></a>Actualizar elemento
  
-**Resumen:** Obtenga información acerca de la operación Actualizar elemento, que es parte del servicio de elemento. El servicio de elemento es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.
+**Resumen:** Obtenga información acerca de la operación Actualizar elemento, que es parte del servicio de elemento. El servicio de elemento es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.
   
 La operación Actualizar elemento es parte del servicio de elemento de la API de repositorio para llamar al panel de calidad.
   

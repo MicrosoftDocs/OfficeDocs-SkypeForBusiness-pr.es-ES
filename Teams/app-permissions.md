@@ -13,12 +13,12 @@ description: Vea qué datos y permisos están solicitando las aplicaciones de su
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da1c22852f12bad79413d8b1f57d129be4e0ffcd
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: 39c104d10e14e602da21761667312a917d9a9ce0
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678405"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295770"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Consideraciones y permisos de las aplicaciones de Microsoft Teams
 
@@ -97,7 +97,7 @@ Una pestaña es un sitio Web que se ejecuta dentro de los equipos.
   <tr>
     <td valign="top">SEND_AND_RECEIVE_WEB_DATA</td>
     <td valign="top">Ninguno (actualmente).</td>
-    <td valign="top"><ul><li>El perfil de riesgo de una ficha es casi idéntico al mismo sitio Web que se ejecuta en una ficha de explorador. </li><li>Una ficha también obtiene el contexto en el que se & #39; s que se ejecuta, incluidos el nombre de inicio de sesión y el UPN del usuario actual, el identificador del objeto de AD de Azure para el usuario actual, el identificador de grupo de Office 365 (equipo) en el que reside, el identificador de inquilino y la configuración regional actual del usuario. Sin embargo asignar estos identificadores para un usuario & #39; información s, la ficha tendría que hacer que el usuario inicie sesión en Azure AD.</li></ul></td>
+    <td valign="top"><ul><li>El perfil de riesgo de una ficha es casi idéntico al mismo sitio Web que se ejecuta en una ficha de explorador. </li><li>Una ficha también obtiene el contexto en el que se & #39; s que se ejecuta, incluidos el nombre de inicio de sesión y el UPN del usuario actual, el identificador del objeto de AD de Azure para el usuario actual, el identificador de grupo de Office 365 en el que reside (si se trata de un equipo) , el identificador de inquilino y la configuración regional actual del usuario. Sin embargo asignar estos identificadores para un usuario & #39; información s, la ficha tendría que hacer que el usuario inicie sesión en Azure AD.</li></ul></td>
   </tr>
   </table>
 

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Administrar las actualizaciones de Windows para la sala de Skype v2 de sistemas
-ms.openlocfilehash: 4b1b0bc27be3f8277fde0c641efe5359ca002d65
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 5765f99a247edcb6287878d4cda1154ec00782f4
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839708"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294170"
 ---
 # <a name="manage-windows-updates"></a>Administrar las actualizaciones de Windows
 
@@ -30,13 +30,13 @@ Actualizaciones de Windows se puede administrar de varias formas diferentes:
 - Actualizaciones y controladores de calidad se descargue e instale día uno automáticamente. 
 - Actualizaciones de la característica. Consulte las notas adicionales que aparece a continuación. 
 
-## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[Actualizaciones de Windows para la empresa](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) (GPO o Intune)   
+## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomen-uswindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[Actualizaciones de Windows para la empresa](https://docs.microsoft.com/en-us/windows/deployment/update/waas-manage-updates-wufb) (GPO o Intune)   
 - Las actualizaciones se descargan desde Windows Update o su WSUS pero con retrasos configurados más allá de la fecha de lanzamiento original de la KB. 
 - Combinar con varias unidades Organizativas o filtrados de las directivas, esto permite la creación de la implementación "anillos", donde los administradores pueden especificar qué dispositivos instalación actualizaciones de calidad en primer lugar y que los instalará más adelante. Esto permite la confiabilidad y el rendimiento de las pruebas en un subconjunto de sistemas antes de implementar actualizaciones en toda la implementación completa sin la sobrecarga de administrar las actualizaciones de Windows en SCCM por ejemplo.
-- WSUS y las actualizaciones de Windows para la empresa pueden ser [configurada al mismo tiempo](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb) si así lo desea administración de ancho de banda y el control de las actualizaciones de Windows para la empresa proporciona.
+- WSUS y las actualizaciones de Windows para la empresa pueden ser [configurada al mismo tiempo](https://docs.microsoft.com/en-us/windows/deployment/update/waas-integrate-wufb) si así lo desea administración de ancho de banda y el control de las actualizaciones de Windows para la empresa proporciona.
 - Actualizaciones de la característica. Consulte las notas adicionales que aparece a continuación.
 
-## <a name="wsussccmhttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS O SCCM](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
+## <a name="wsussccmhttpsdocsmicrosoftcomen-uswindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS O SCCM](https://docs.microsoft.com/en-us/windows/deployment/update/waas-manage-updates-configuration-manager)
 - Muy similar a Windows Update para la empresa, pero con la opción adicional de identificación específica KB dentro de cada "anillo" o toda la implementación. Cada actualización puede ser individualmente implementado y probado según se desee, en lugar de confiar en sólo un retraso. 
 - Actualizaciones de la característica. Consulte las notas adicionales que aparece a continuación.
 

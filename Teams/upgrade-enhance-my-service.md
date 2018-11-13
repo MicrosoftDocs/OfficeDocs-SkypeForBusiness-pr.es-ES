@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f000a81c0762b11b06e81fd2fcca18915ce1233
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 56c33c6c4a31da1fbfffbb903c2200cf4afedf07
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838938"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295156"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa")
 
@@ -34,7 +34,7 @@ Después de que ha implementado correctamente los equipos en su organización y 
 
 Forma ideal para asegurarse de que siempre obtendrá el máximo partido de los servicios es supervisar las [guías públicas de los equipos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) de nuevas mejoras de características que podrían ser de interés para la organización. Si dispone de acceso al portal de administración de Office 365, recibirá actualizaciones regulares de nosotros acerca de las características nuevas y cambiantes a través de nuestro centro de mensajes. 
 
-Además, debido a que las organizaciones crecen y cambian, debe tomarse su tiempo para revisar y actualizar los casos de uso empresarial a intervalos regulares para asegurarse de que el servicio está configurado para satisfacer las necesidades de su organización actual.  Asegurarse de que obtiene los comentarios para el mundo real de los usuarios y campeones internos mediante el establecimiento de canales de comentarios en la organización. Se pueden conversaciones informales, reuniones periódicas, o a través de los equipos de un canal o Yammer de la Comunidad. 
+Además, debido a que las organizaciones crecen y cambian, debe tomarse su tiempo para revisar y actualizar los casos de uso empresarial a intervalos regulares para asegurarse de que el servicio está configurado para satisfacer las necesidades de su organización actual.  Asegurarse de que obtiene los comentarios para el mundo real de los usuarios y campeones internos mediante el establecimiento de canales de comentarios en la organización. Se pueden conversaciones informales, meeetings regular, o a través de los equipos de un canal o Yammer de la Comunidad. 
 
 Cuando vea las oportunidades para mejorar su servicio, tomarse el tiempo para hacerlo a la derecha. Vuelva a visitar nuestro [fases de implementación](quick-start-enable-teams.md) y aplicar la misma orientación de un extremo a otro. Cuando se realizan cambios pequeños e incrementales, es poco probable que necesitará para llevar a cabo todas las actividades y tareas en su totalidad, pero debe estar seguro de evaluar cada tarea a lo largo de la forma de proporcionar la mejor oportunidad en un resultado satisfactorio y la actividad.
 

@@ -15,18 +15,18 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c8173445fff6acaa3a5381199220a376401076c
-ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
+ms.openlocfilehash: 3e9cddc12a5ef4de6dfb42a714b83e29b6fb4f5f
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890700"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293810"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Uso Microsoft Teams con ámbito de búsqueda en el directorio
 
 Búsqueda en el directorio con ámbito Microsoft Teams permite a las organizaciones crear límites virtuales que controlan cómo los usuarios pueden encontrar y comunicarse con otros usuarios de su organización. 
 
-Microsoft Teams permite a las organizaciones a proporcionar vistas personalizadas del directorio a sus usuarios. Microsoft Teams usa [directivas de la libreta de direcciones de Exchange](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/address-book-policies?view=exchserver-2019) para admitir estas vistas personalizadas. Una vez que las directivas están habilitadas, se limita los resultados devueltos por las búsquedas para otros usuarios (por ejemplo, para iniciar una charla o para agregar a miembros a un equipo) según las directivas configuradas. Los usuarios no podrán buscar o detectar los equipos al ámbito de búsqueda está en vigor. 
+Microsoft Teams permite a las organizaciones a proporcionar vistas personalizadas del directorio a sus usuarios. Microsoft Teams usa [directivas de la libreta de direcciones de Exchange](https://docs.microsoft.com/en-us/Exchange/email-addresses-and-address-books/address-book-policies/address-book-policies?view=exchserver-2019) para admitir estas vistas personalizadas. Una vez que las directivas están habilitadas, se limita los resultados devueltos por las búsquedas para otros usuarios (por ejemplo, para iniciar una charla o para agregar a miembros a un equipo) según las directivas configuradas. Los usuarios no podrán buscar o detectar y unirse a nuevos equipos fuera de estas directivas. 
 
 ## <a name="when-should-you-use-scoped-directory-searches"></a>¿Cuándo se debe utilizar las búsquedas de directorio con ámbito?
 
@@ -35,14 +35,14 @@ Escenarios que se benefician de las búsquedas de directorio con ámbito son sim
 - Su organización tiene varias empresas dentro de su inquilino que desea mantener separados. 
 - Su escuela desea limitar chats entre profesores y estudiantes. 
  
-Encontrará más información acerca de cómo se pueden usar las directivas de la libreta de direcciones [aquí](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/abp-scenarios?view=exchserver-2019).
+Encontrará más información acerca de cómo se pueden usar las directivas de la libreta de direcciones [aquí](https://docs.microsoft.com/en-us/Exchange/email-addresses-and-address-books/address-book-policies/abp-scenarios?view=exchserver-2019).
 
 > [!IMPORTANT]
 > Directivas de la libreta de direcciones proporcionan sólo una virtual separación de los usuarios desde la perspectiva de Active directory. Los usuarios aún pueden iniciar comunicaciones con otros usuarios proporcionando direcciones de correo electrónico completa. 
 
 ## <a name="enable-scoped-directory-search"></a>Habilitar la búsqueda de Active directory con ámbito
 
-1.  Usar directivas de la libreta de direcciones para configurar su organización en subgrupos virtuales. Para obtener más información, vea [procedimientos para directivas de la libreta de direcciones](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/abp-procedures?view=exchserver-2019).
+1.  Usar directivas de la libreta de direcciones para configurar su organización en subgrupos virtuales. Para obtener más información, vea [procedimientos para directivas de la libreta de direcciones](https://docs.microsoft.com/en-us/Exchange/email-addresses-and-address-books/address-book-policies/abp-procedures?view=exchserver-2019).
 
 2.  Inicie sesión en el centro de administración de Microsoft 365, seleccione **centros de administración**y, a continuación, seleccione **los equipos & Skype**.
  

@@ -17,12 +17,12 @@ metadata:
   - Teams_ITAdmin_Training
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 3c125870dc05f68bdf9baaeeb80630a98ffd62bb
-  ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+  ms.openlocfilehash: e10967852a4bf4f89a3159d428a7f5b0441f03c7
+  ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 10/29/2018
-  ms.locfileid: "25838603"
+  ms.lasthandoff: 11/13/2018
+  ms.locfileid: "26295417"
 items:
 - durationInMinutes: 1
   content: >
@@ -69,7 +69,7 @@ items:
     De forma predeterminada, Microsoft Teams permite que los usuarios realicen llamadas de voz sobre IP (VoIP) entre clientes de Microsoft Teams.
 
 
-    En los equipos, hay dos opciones para permitir a los usuarios realizar, recibir y transferir llamadas a y desde landlines y teléfonos móviles en la red telefónica conmutada (RTC):
+    En los equipos, hay dos opciones para permitir que los usuarios de los usuarios realizar, recibir y transferir llamadas a y desde landlines y teléfonos móviles en la red telefónica conmutada (RTC):
 
     - Con el sistema telefónico con una llamada a los planes de Microsoft proporciona el número de teléfono a los usuarios y todos los servicios de RTC
 
