@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54f7805e4e6db4416601ea01bcb5fc66e57ead17
-ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
+ms.openlocfilehash: 10de89c43a653cd090f313ec368bde42bd774b03
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "26255657"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26282991"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Información general de los equipos y canales en Microsoft Teams
 =================================================
@@ -38,9 +38,9 @@ Para empezar, veamos cómo Microsoft Teams permite que los equipos individuales 
 
     -   Los canales son más valiosos cuando extendido con aplicaciones que incluyen pestañas, conectores y bots que aumente su valor a los miembros del equipo.
 
-Vea este vídeo corto para obtener más información acerca de los procedimientos recomendados para la creación de equipos y canales.
+Vea este vídeo corto para obtener más información sobre los procedimientos recomendados para la creación de equipos y canales.
 
-<iframe width="640" height="350" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+   > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
 
 <a name="membership-roles-and-settings"></a>Configuración, roles y pertenencia
 ------------------------------
@@ -54,7 +54,8 @@ Los propietarios de equipo también pueden crear un equipo basado en un grupo de
 **Configuración del equipo**: Los propietarios de equipo pueden administrar la configuración de todo el equipo directamente en Microsoft Teams. En la configuración se incluye la capacidad de agregar una imagen del equipo, establecer permisos en todos los miembros del equipo para crear canales, agregar fichas y conectores, @mencionar a todo el equipo o el canal, y usar archivos GIF, adhesivos y memes. 
 
 Tardar tres minutos para desproteger este ir a la guía vídeo para los propietarios de equipo: 
-<iframe width="640" height="350" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+   > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 
 Si es un administrador de Microsoft Teams en Office 365, tener acceso a la configuración de todo el sistema en los equipos & Skype para el centro de administración de negocio. Esta configuración puede influir en las opciones y la configuración predeterminada que los propietarios ven en la configuración del equipo. Por ejemplo, puede habilitar un canal predeterminado, "General", para los anuncios, los debates y los recursos de todo el equipo, que aparecerá en todos los equipos.
 
@@ -68,7 +69,6 @@ Una actividad clave de planificación inicial para animar a los usuarios a utili
 A continuación puede ver algunos ejemplos de cómo los distintos tipos de usuarios pueden enfocar la configuración de sus equipos, canales y aplicaciones (fichas/conectores/bots). Esto puede ser útil para iniciar una conversación sobre Microsoft Teams con su comunidad de usuarios. A medida que planifica la implementación de Microsoft Teams en su organización, recuerde que puede proporcionar instrucciones sobre cómo estructurar los equipos. Sin embargo, los usuarios son los que tienen el control de su propia organización. Estos solo son ejemplos para que los equipos comiencen a pensar en las posibilidades.
 
 Microsoft Teams es perfecta para eliminar la idea de los silos de la organización y promocionar equipos para varias funciones. Por lo tanto, deberá animar a los usuarios para que piensen en términos de equipos funcionales en vez de silos de la organización.
-
 
 |Tipos de equipos  |Canales potenciales  |Aplicaciones (fichas) ![Icono de fichas.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Conectores ![Icono de Conectores.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Icono de Bots.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
