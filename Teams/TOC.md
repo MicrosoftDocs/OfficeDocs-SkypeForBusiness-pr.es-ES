@@ -1,8 +1,12 @@
 <!-- ============================================================ -->
-# Introducción
-
-## [Información general sobre Microsoft Teams](Teams-overview.md)
-## [Herramientas y talleres: planificar, entregar y usar Microsoft Teams](planning-workshop-practical-guide.md)
+# [Bienvenida a Teams](teams-overview.md)
+<!-- ============================================================ -->
+# [Introducción](get-started-with-teams-landing-page.md)
+## [Guía de inicio rápido - equipos](get-started-with-teams-quick-start.md)
+## [Crear su primera equipos y canales](get-started-with-teams-create-your-first-teams-and-channels.md)
+## [Primeros usuarios incorporados](get-started-with-teams-onboard-early-adopters.md)
+## [Uso de monitor y comentarios](get-started-with-teams-monitor-usage-and-feedback.md)
+## [Dónde ir siguiente](get-started-with-teams-resources-for-org-wide-rollout.md)
 ## [Obtener ayuda en Microsoft Teams](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
 
@@ -20,10 +24,28 @@
 ## [Plan para la administración del ciclo de vida en Teams](plan-teams-lifecycle.md)
 ## [Plan de gobierno en los equipos](plan-teams-governance.md)
 ## [Planeación de Microsoft 365 gobierno - implementaciones GCC](plan-for-government-gcc.md)
-## [Crear la estrategia de administración de cambios](change-management-strategy.md)
 <!-- ============================================================ -->
 
+<!-- ============================================================ -->
+# [Adopción](adopt-microsoft-teams-landing-page.md) 
 
+## [Introducción](teams-adoption-get-started.md)
+## [Fase 1: inicio](teams-adoption-phase1.md)
+### [Descripción de los equipos y canales](teams-adoption-understand-teams-and-channels.md)
+### [Crear sus primera equipos](teams-adoption-your-first-teams.md)
+### [¿Cómo preparada es la organización de los equipos?](teams-adoption-assess-readiness.md)
+## [Fase 2 - experimento](teams-adoption-phase2-experiment.md)
+### [Crear su programa de campeones](teams-adoption-create-champions-program.md)
+### [Inicio rápido de gobierno](teams-adoption-governance-quick-start.md)
+### [Definir escenarios de uso](teams-adoption-define-usage-scenarios.md)
+### [Primeros usuarios incorporados y recopilar comentarios](teams-adoption-onboard-early-adopters.md)
+### [Soporte incorporado](teams-adoption-onboard-support.md)
+## [Fase 3: escala](teams-adoption-phase3-enable.md)
+### [Definir los resultados empresariales y operación correcta](teams-adoption-define-outcomes.md)
+### [Optimizar los comentarios y creación de informes](teams-adoption-optimize-feedback-and-reporting.md)
+### [Conocimiento de la unidad e implementar recursos de aprendizaje](teams-adoption-drive-awareness.md)
+### [Revisiones de mantenimiento del servicio de programación](teams-adoption-schedule-service-health-reviews.md)
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Configuración e implementación
@@ -127,9 +149,10 @@
 ## Calidad de la llamada Monitor y QoS
 ### [QoS en Teams](QoS-in-Teams.md)
 ### [Análisis de llamada y el panel de calidad de llamada](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Dimensiones y medidas disponibles en el Panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Configurar el análisis de llamadas](set-up-call-analytics.md)
 ### [Usar Análisis de llamadas para solucionar problemas de mala calidad de llamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [Activar y usar el Panel de calidad de llamadas](turning-on-and-using-call-quality-dashboard.md)
+### [Dimensiones y medidas disponibles en el Panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Clasificación de la transmisión en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md)
 ## Solución de problemas y soporte
 ### [Problemas conocidos de Teams](Known-issues.md)
