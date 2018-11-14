@@ -16,11 +16,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 5d70fbe7ddfbfb820e13bbba09a78024b48a80a6
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26216048"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26520064"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Fase de adopción de Microsoft Teams 2 - experimento
 

@@ -16,11 +16,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 65790075f649693a5312c3a12cc5daac33c7ac90
-ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "26255768"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26520070"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimizar los comentarios y creación de informes para la adopción de Microsoft Teams
 

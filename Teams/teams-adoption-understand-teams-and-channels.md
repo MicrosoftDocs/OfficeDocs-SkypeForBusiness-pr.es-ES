@@ -16,11 +16,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 979c288f58bfde0d65a923030f81750f90e69ba3
-ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "26255736"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26520061"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Descripción de los equipos y canales en Microsoft Teams
 

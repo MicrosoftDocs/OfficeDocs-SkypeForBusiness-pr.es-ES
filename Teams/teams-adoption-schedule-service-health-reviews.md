@@ -16,11 +16,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 126f64cad95f889f93eacca012b6a20c9962bcd1
-ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "26256408"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26520075"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>Programar revisiones de mantenimiento de servicio para la adopción de Microsoft Teams
 

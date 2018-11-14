@@ -16,11 +16,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 754ffc617fb310deac244a10160f435a0ba7f6ea
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26216064"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26520069"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Crear su programa de campeones para Microsoft Teams
 
