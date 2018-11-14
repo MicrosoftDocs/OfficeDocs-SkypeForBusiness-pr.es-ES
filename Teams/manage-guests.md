@@ -3,7 +3,7 @@ title: Administrar el acceso de invitado a Microsoft Teams
 author: LolaJacobsen
 ms.author: rramesan
 manager: serdars
-ms.date: 10/20/17
+ms.date: 11/13/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Los administradores de TI pueden agregar invitados en el nivel de inquilino, configurar y administrar permisos y directivas de usuarios invitados, determinar qué usuarios pueden invitar y extraer informes sobre la actividad de los usuarios invitados.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 091215e37af012c2e2203b451e3df4dd9cf6480f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 143170c6a7a174d35300b73693f0a828336b7d32
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016728"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510571"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Administrar el acceso de invitado a Microsoft Teams
 ======================================
@@ -35,5 +35,8 @@ Los propietarios de equipo pueden invitar a nuevos invitados y agregue los usuar
 
 Además, puede usar el portal de Azure Active Directory para administrar invitados y su acceso a los recursos de Office 365 y Microsoft Teams. El acceso de invitado de Microsoft Teams puede aprovechar las funcionalidades de colaboración negocio a negocio (B2B) de Azure Active Directory como la infraestructura subyacente donde almacenar la información relacionada con los principios de seguridad (como las propiedades de identidad, las suscripciones y la configuración de autenticación multifactor). Para obtener más información sobre la colaboración B2B de Azure Active Directory, consulte [¿Qué es la colaboración B2B de Azure AD?](https://go.microsoft.com/fwlink/p/?linkid=853011) y [Preguntas más frecuentes acerca de la colaboración B2B de Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853020).
 > [!NOTE]
-> Microsoft Teams siempre respeta la configuración externa de Azure Active Directory para permitir o impedir la adición de usuario de invitado para el inquilino. Para obtener más información, vea [autorizar el acceso de invitado en los equipos de Microsoft](Teams-dependencies.md).
+> Microsoft Teams siempre respeta la configuración externa de Azure Active Directory para permitir o evitar adiciones de usuario de invitado para el inquilino. Para obtener más información, vea [autorizar el acceso de invitado en los equipos de Microsoft](Teams-dependencies.md).
   
+## <a name="guest-access-latencies"></a>Latencias de acceso de invitado
+
+La configuración de invitado se establece en Azure Active Directory. Los cambios tardan de 2 a 24 en ser efectivos en toda la organización de Office 365. Si un usuario ve el mensaje "Póngase en contacto con el administrador" al intentar agregar un invitado a su equipo, es probable que todavía no se ha habilitado la característica de invitado o que la configuración no es efectiva todavía.

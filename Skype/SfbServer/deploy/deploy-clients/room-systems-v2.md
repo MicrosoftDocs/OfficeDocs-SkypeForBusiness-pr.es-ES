@@ -1,7 +1,7 @@
 ---
 title: Implementar Sistemas de salas de Skype v2
-ms.author: jambirk
-author: jambirk
+ms.author: Turgayo
+author: Turgayo
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este artículo para obtener más información sobre la implementación de sistemas de salón de Skype v2.
-ms.openlocfilehash: dac4929338ded6fdb3b7af1dadfb3b1ce5675b97
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 39704e044d5a5210d47a0347790f5602a3086270
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699633"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510648"
 ---
 # <a name="deployment-overview"></a>Introducción general a la implementación
 
@@ -128,7 +128,7 @@ Cada dispositivo v2 de sistemas de salón de Skype requiere una cuenta de recurs
 
 **Sugerencia pro** – Asegúrese de nombres de la presentación para estas cuentas descriptivo y fácil de entender. Estos son los nombres que los usuarios verán cuando busca y adición de Skype salón sistemas v2 a las reuniones. Algunas organizaciones utilizan la convención de *sitio*-*Nombre del salón*(*Capacidad de la sala Max*)-RS, por ejemplo Curie — una sala de conferencias de 12-persona en Londres, podría tener el nombre para mostrar LON CURIE (12)-RS. 
 
-Si su organización tiene muchos salas de conferencias que requieren varios, aprovisionadas cuentas, es posible que desea utilizar [Skype salón de sistemas de cuentas de aprovisionamiento de secuencias de comandos](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) para aprovisionar de forma masiva varias cuentas de servicio de forma automática. 
+<!-- If your organization has many conference rooms that require multiple, provisioned accounts, you might want to use [Skype Room Systems Accounts Provisioning Scripts](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) to bulk-provision multiple service accounts in an automated fashion. -->
 
 
 |    |     |

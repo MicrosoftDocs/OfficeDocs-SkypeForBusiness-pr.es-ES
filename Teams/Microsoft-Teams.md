@@ -4,12 +4,12 @@ hide_bc: true
 title: Guía práctica y documentación de Microsoft Teams
 description: Guía práctica y documentación de Microsoft Teams
 ms.topic: hub-page
-ms.openlocfilehash: 60f174ab661537e398292ac222ceae839e373fac
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: ecddd1e8e1eb02908314e91645415bd3fdcfba75
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294328"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510555"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -22,7 +22,7 @@ ms.locfileid: "26294328"
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsC">
                             <li>
-                                <a href="/MicrosoftTeams/Teams-overview">
+                                <a href="/MicrosoftTeams/get-started-with-teams-landing-page">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -60,7 +60,7 @@ ms.locfileid: "26294328"
                                 </a>
                             </li>
                             <li>
-                                <a href="/MicrosoftTeams/change-management-strategy">
+                                <a href="/MicrosoftTeams/adopt-microsoft-teams-landing-page">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">

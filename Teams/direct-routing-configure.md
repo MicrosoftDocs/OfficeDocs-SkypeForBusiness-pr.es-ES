@@ -15,14 +15,17 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Obtenga información sobre cómo configurar el enrutamiento directo de Microsoft teléfono del sistema.
-ms.openlocfilehash: 7e587c92e979c7985ccbd9f05bbb5ae1115d176a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 994d9d25c41f5f403873a0069564f675e0020d61
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374653"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510671"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
+
+> [!Tip]
+> Vea la sesión para obtener información sobre las ventajas de Direct enrutamiento, cómo planear para él y cómo implementarlo siguiente: [El enrutamiento directo en los equipos de Microsoft](https://aka.ms/teams-direct-routing)
 
 Si no lo ha hecho ya, lea [Planear el enrutamiento directo](direct-routing-plan.md) para los requisitos previos y para revisar otros pasos debe realizar antes de configurar la red del sistema de teléfono de Microsoft. 
 
@@ -101,17 +104,17 @@ Existen opciones adicionales que se pueden establecer durante el emparejamiento.
  
 En la siguiente tabla se enumera los parámetros adicionales que puede usar en la configuración de parámetros para *New-CsOnlinePstnGateway*. 
 
-|¿Obligatorio?|Nombre|Descripción|Predeterminado|Valores posibles|Tipo y restricciones|
+|¿Obligatorio?|Nombre|Descripción|Valor predeterminado|Valores posibles|Tipo y restricciones|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Sí|FQDN|El nombre FQDN de la SBC |Ninguna|Nombre de NoneFQDN, límite 63 caracteres|Cadena, lista de caracteres permitidos y no permitidos en [las convenciones de nomenclatura en Active Directory para equipos, dominios, sitios y unidades organizativas](https://support.microsoft.com/help/909264)|
-|No|MediaBypass |El parámetro reservado para uso futuro. Parámetro indicado de la SBC admite el desvío de medios y el administrador desea usarlo.|Ninguna|Verdadero<br/>Falso|Booleano|
-|Sí|SipSignallingPort |Puerto de escucha usado para la comunicación con los servicios de enrutamiento directa mediante el protocolo de seguridad de capa de transporte (TLS).|Ninguna|Cualquier puerto|0 a 65535 |
-|No|FailoverTimeSeconds |Cuando se establece en 10 (valor predeterminado), las llamadas salientes que no hay respondidas por la puerta de enlace dentro de 10 segundos se enrutan al siguiente tronco disponible; Si no hay ningún troncos adicionales, automáticamente se interrumpe la llamada. En una organización con redes lentas y respuestas a las puertas de enlace, puede tener como resultado interrupciones innecesarias de las llamadas. El valor predeterminado es 10.|10|Número|Int|
-|No|ForwardCallHistory |Indica si la información del historial de llamadas se reenviará a través del tronco. Si se habilita, el Proxy de RTC de Office 365 envía dos encabezados: información de historial y remitido por. El valor predeterminado es **False** ($False). |Falso|Verdadero<br/>Falso|Booleano|
-|No|ForwardPAI|Indica si el encabezado P-Asserted-Identity (PAI) se reenviará junto con la llamada. El encabezado PAI proporciona una forma de verificar la identidad del autor de la llamada. El valor predeterminado es **False** ($False).|Falso|Verdadero<br/>Falso|Booleano|
-|No|SendSIPOptions |Define si un SBC se o no enviará las opciones de SIP. Si deshabilita esta opción, la SBC se excluirán del sistema de supervisión y alertas. Se recomienda encarecidamente que habilite las opciones de SIP. Valor predeterminado es **True**. |True|True<br/>Falso|Booleano|
+|Sí|FQDN|El nombre FQDN de la SBC |Ninguno|Nombre de NoneFQDN, límite 63 caracteres|Cadena, lista de caracteres permitidos y no permitidos en [las convenciones de nomenclatura en Active Directory para equipos, dominios, sitios y unidades organizativas](https://support.microsoft.com/help/909264)|
+|No|MediaBypass |El parámetro reservado para uso futuro. Parámetro indicado de la SBC admite el desvío de medios y el administrador desea usarlo.|Ninguno|True<br/>False|Booleano|
+|Sí|SipSignallingPort |Puerto de escucha usado para la comunicación con los servicios de enrutamiento directa mediante el protocolo de seguridad de capa de transporte (TLS).|Ninguno|Cualquier puerto|0 a 65535 |
+|No|FailoverTimeSeconds |Cuando se establece en 10 (valor predeterminado), las llamadas salientes que no hay respondidas por la puerta de enlace dentro de 10 segundos se enrutan al siguiente tronco disponible; Si no hay ningún troncos adicionales, automáticamente se interrumpe la llamada. En una organización con redes y respuestas de puerta de enlace lentas, esto puede tener como resultado que las llamadas se pierdan innecesariamente. El valor predeterminado es 10.| 10|Número|Int|
+|No|ForwardCallHistory |Indica si la información del historial de llamadas se reenviará a través del tronco. Si se habilita, el Proxy de RTC de Office 365 envía dos encabezados: información de historial y remitido por. El valor predeterminado es **False** ($False). |False|True<br/>False|Booleano|
+|No|ForwardPAI|Indica si el encabezado P-Asserted-Identity (PAI) se reenviará junto con la llamada. El encabezado PAI proporciona un método para comprobar la identidad de la persona que realiza la llamada. El valor predeterminado es **False** ($False).|False|True<br/>False|Booleano|
+|No|SendSIPOptions |Define si un SBC se o no enviará las opciones de SIP. Si deshabilita esta opción, la SBC se excluirán del sistema de supervisión y alertas. Se recomienda encarecidamente que habilite las opciones de SIP. Valor predeterminado es **True**. |True|True<br/>False|Booleano|
 |No|MaxConcurrentSessions |Usada por el sistema de alertas. Cuando se establece ningún valor, el sistema de alertas generará una alerta para el Administrador de inquilinos cuando el número de sesión simultáneo es 90% o mayor que este valor. Si no se establece el parámetro, no se generan las alertas. Sin embargo, el sistema de supervisión informará número de sesiones simultáneas cada 24 horas. |Null|Null<br/>1 y 100.000. ||
-|No|Habilitado *|Se usa para habilitar este SBC para las llamadas salientes. Puede usarse para quitar temporalmente el SBC, mientras se está actualizando o durante el mantenimiento. |Falso|Verdadero<br/>Falso|Booleano|
+|No|Habilitado *|Se usa para habilitar este SBC para las llamadas salientes. Puede usarse para quitar temporalmente el SBC, mientras se está actualizando o durante el mantenimiento. |False|True<br/>False|Booleano|
  
 ### <a name="verify-the-sbc-pairing"></a>Compruebe el emparejamiento de SBC 
 

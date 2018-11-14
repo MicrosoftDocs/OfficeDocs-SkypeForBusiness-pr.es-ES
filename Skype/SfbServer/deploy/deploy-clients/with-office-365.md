@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lea este tema para obtener información acerca de cómo implementar sistemas de salón de Skype v2 con Office 365.
-ms.openlocfilehash: 7b3afbb0dbefb29a5cef7a9729254c1024c0369f
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 39f443acb6a0757539ee69cd5586daed09345e05
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699619"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510663"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Implementar Sistemas de salas de Skype v2 con Office 365 
 
@@ -149,7 +149,7 @@ Una vez haya completado los pasos anteriores para habilitar su cuenta de v2 de s
 
 4. Haga clic en la opción **Licencias**.
 
-5. En la sección **asignación de licencias** , es necesario seleccionar Skype para profesionales Online (Plan 2) o Skype para profesionales Online (Plan 3), en función de la concesión de licencias y que haya decidido en cuanto a la necesidad de Enterprise Voice. Debe utilizar una licencia de planeación 3 si desea usar en la nube PBX en sistemas de salón de Skype v2. Para la conectividad de voz, como mínimo necesitará PBX en la nube. Después deberá configurar la voz híbrida o las llamadas RTC en función del método de conectividad con RTC.
+5. En la sección **asignación de licencias** , es necesario seleccionar Skype para profesionales Online (Plan 2) o Skype para profesionales Online (Plan 3), en función de la concesión de licencias y que haya decidido en cuanto a la necesidad de Enterprise Voice. Debe utilizar una licencia de planeación 3 si desea usar en la nube PBX en sistemas de salón de Skype v2. Para la conectividad de voz, como mínimo necesitará PBX en la nube. Después deberá configurar la voz híbrida o las llamadas RTC en función del método de conectividad con RTC. Para obtener más información, vea [sistemas de salón de Skype v2 licencias](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2) .
 
 6. Haga clic en **Guardar** para completar la tarea.
 
