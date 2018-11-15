@@ -24,12 +24,12 @@ ms.custom:
 - Audio Conferencing
 description: 'Learn how to set up a third-party as your dial-in conferencing provider with Skype for Business. '
 robots: noindex
-redirect_url: https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider
+redirect_url: https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider
 redirect_document_id: true
-ms.openlocfilehash: cc04eb8e5ab2433b126991be742ef1dbc3ad5e3c
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 9a01595ee8318dc1204b7fc94ae6b714e20c091e
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294948"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532857"
 ---

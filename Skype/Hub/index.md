@@ -3,12 +3,12 @@ layout: HubPage
 hide_bc: true
 title: Skype for Business
 description: Skype Empresarial
-ms.openlocfilehash: cbb9765c358047b628be45759e2002cdc5a46f02
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: e7b0fc5197790f689e58ec68fa05f1ea38b4fd7e
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293651"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531370"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -27,7 +27,7 @@ ms.locfileid: "26293651"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-Online-400x140.svg" alt="Skype for Business Online" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/SkypeForBusiness-Online-400x140.svg" alt="Skype for Business Online" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -46,7 +46,7 @@ ms.locfileid: "26293651"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-hybrid-400x140.svg" alt="Hybrid solutions" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/SkypeForBusiness-hybrid-400x140.svg" alt="Hybrid solutions" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -64,7 +64,7 @@ ms.locfileid: "26293651"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-Server-400x140.svg" alt="Skype for Business Server" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/SkypeForBusiness-Server-400x140.svg" alt="Skype for Business Server" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -83,7 +83,7 @@ ms.locfileid: "26293651"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-Powershell-400x140.svg" alt="PowerShell" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/SkypeForBusiness-Powershell-400x140.svg" alt="PowerShell" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -102,7 +102,7 @@ ms.locfileid: "26293651"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-MicrosoftTeams-400x140.svg" alt="Microsoft Teams" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/SkypeForBusiness-MicrosoftTeams-400x140.svg" alt="Microsoft Teams" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -121,7 +121,7 @@ ms.locfileid: "26293651"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-JourneytoTeams-400x140.svg" alt="Journey" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/SkypeForBusiness-JourneytoTeams-400x140.svg" alt="Journey" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -139,7 +139,7 @@ ms.locfileid: "26293651"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-RoomSystems-400x140.svg" alt="Room Systems" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/SkypeForBusiness-RoomSystems-400x140.svg" alt="Room Systems" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -157,7 +157,7 @@ ms.locfileid: "26293651"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-Certified-400x140.svg" alt="Certification" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/SkypeForBusiness-Certified-400x140.svg" alt="Certification" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -175,7 +175,7 @@ ms.locfileid: "26293651"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-EndUsers-400x140.svg" alt="End users" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/SkypeForBusiness-EndUsers-400x140.svg" alt="End users" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
