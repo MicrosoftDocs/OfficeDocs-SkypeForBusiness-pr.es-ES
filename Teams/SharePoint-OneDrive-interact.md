@@ -3,7 +3,7 @@ title: Interacción de SharePoint Online y OneDrive para la Empresa con Microsof
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/31/2018
+ms.date: 11/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: snigdhav
@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 869adf9401e3704cc78de5f646b0b9e676e8efe9
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: d82509aedab32e7fa4fe14ea162d369a2bab5565
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295489"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532335"
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams
 =============================================================================
@@ -47,11 +47,18 @@ Se crea un sitio de SharePoint para cada equipo y la carpeta **Documentos compar
 > En este momento no es posible reemplazar el sitio de SharePoint predeterminado y la biblioteca de documentos con otro. Nos han comentado que les gustaría, por lo que estamos pensando en esa posibilidad. Revise el [mapa de ruta de Teams](https://aka.ms/teamsroadmap) o [Teams UserVoice](https://aka.ms/TeamsUserVoice) para estar al tanto de las próximas características.
 
 > [!TIP]
-> Para agregar una ficha a su equipo que vínculos a una existente de SharePoint del sitio o biblioteca de documentos a la base de SharePoint existente:
+> Para agregar una ficha a su equipo que vincula a una página del sitio de SharePoint existente o a la biblioteca de documentos de SharePoint existente:
 > 1. Seleccione el signo más junto a las fichas.
-> 2. Seleccione el **sitio Web**.
-> 3. Escriba un nombre y escriba la dirección URL de la biblioteca de documentos o sitio de SharePoint.
+> 2. Seleccione **Biblioteca de documentos** para una biblioteca de documentos existente o **SharePoint** para una página del sitio de SharePoint existente.
+> 3. Seleccione la biblioteca de documentos o página adecuada.
 
 Para cada usuario, la carpeta de OneDrive **Archivos de chat de Microsoft Teams** se usa para almacenar todos los archivos compartidos en los chat privados con otros usuarios (1:1 o 1:varios), y los permisos se configuran automáticamente para restringir el acceso sólo a usuarios autorizados.
 
 ![Diagrama de la carpeta de OneDrive denominada Archivos de chat de Microsoft Teams de los chats de cada usuario.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
+
+<a name="more-information"></a>Más información
+----------------
+
+Para obtener más información acerca del funcionamiento de SharePoint con los equipos, vea [SharePoint y equipos: mejor juntos](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
+
+

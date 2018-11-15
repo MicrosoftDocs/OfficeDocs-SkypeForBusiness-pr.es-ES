@@ -13,16 +13,20 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c537f37534c616965b74f5ea268f547cff28d41
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 85e7749bda08b1dbbf7a5afad5fc138facb62940
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294879"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533185"
 ---
 # <a name="cloud-voice-deployment"></a>Implementar voz en la nube
 
 Microsoft Teams, el concentrador de trabajo en equipo y comunicaciones en Office 365, ahora proporciona conferencias de Audio, el sistema telefónico con planes de llamada, y sistema telefónico directa capacidades de enrutamiento para cumplir los requisitos de negocio adicionales mediante la ampliación de la reunión de los equipos y experiencia de llamada para incluir usuarios externos conectados a través de la red telefónica conmutada (RTC).
+
+
+> [!Tip] 
+> Vea la sesión siguiente para obtener una introducción a los sistemas de telefonía: [Introducción al sistema de teléfono en los equipos de Microsoft](https://aka.ms/teams-phone-system)
  
 Actualizaremos esta página se lanzan las características de voz adicionales en la nube para los equipos a través del tiempo.
 

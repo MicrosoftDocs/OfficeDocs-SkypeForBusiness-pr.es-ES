@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: 'Resumen: Configurar el almacén de contactos unificado para Exchange Server y Skype para Business Server.'
-ms.openlocfilehash: 711dd4ea53b9985806833fbe5bc92428116bff23
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: ebed3e81b12718ae053b4482455cf38bd844799c
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295386"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533071"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>Configurar Skype Empresarial Server para usar el almacenamiento de contactos unificado
  

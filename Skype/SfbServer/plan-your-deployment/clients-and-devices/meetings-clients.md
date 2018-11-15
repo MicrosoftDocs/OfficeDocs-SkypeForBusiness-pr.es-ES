@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Resumen: Los profesionales de TI deben revisar los requisitos de soporte técnico para la Skype para la aplicación empresarial de Web y aplicación de las reuniones de Skype durante la planeación de Skype para Business Server. En este artículo no está pensada para los usuarios de estas aplicaciones.'
-ms.openlocfilehash: c76770d570aaa1d1c686df7b0845e41a767cfbef
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 6b0b8df34530005e7baf14cef4aa38c4536d4673
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293676"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531508"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planeación de los clientes de las reuniones (Web App y aplicación de las reuniones)
  
@@ -38,7 +38,7 @@ Más adelante en, esos usuarios pueden crear reuniones e invitar a los usuarios 
   
 De forma predeterminada, el servidor que hospeda la reunión dirige al usuario para descargar e instalar Skype para Business Web App para unirse a la reunión. El Skype para la aplicación empresarial de Web se almacena en el servidor Front-End y obtiene envían asistentes a la reunión. 
   
-Para Skype para Business Server 2015, aplicación de las reuniones de Skype está disponible como un reemplazo de Skype para el principio de la aplicación Web de negocio con CU5, pero que proporciona la aplicación de las reuniones de Skype requiere la configuración adicional que se describen en [Habilitar la aplicación de las reuniones de Skype para reemplazar Skype para Business Web App (opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Si está habilitada la aplicación de las reuniones de Skype, los usuarios descargarán la versión más reciente de la aplicación desde el Office 365 entrega red contenido (CDN), en lugar de su Skype para Business server. Para Skype para aplicaciones de negocio servidor 2019 Skype reuniones es la única opción.
+Para Skype para Business Server, aplicación de las reuniones de Skype está disponible como un reemplazo de Skype para el principio de la aplicación Web de negocio con CU5, pero que proporciona la aplicación de las reuniones de Skype requiere la configuración adicional que se describen en [Habilitar la aplicación de las reuniones Skype para reemplazar Skype para la aplicación Web empresarial de (opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Si está habilitada la aplicación de las reuniones de Skype, los usuarios descargarán la versión más reciente de la aplicación desde el Office 365 entrega red contenido (CDN), en lugar de su Skype para Business server. Para Skype para aplicaciones de negocio servidor 2019 Skype reuniones es la única opción.
   
 Aplicación de las reuniones de Skype ofrece una experiencia de explorador simplificada para la descarga e instalación de la aplicación y unirse a reuniones, incluida la participación de un solo clic a los usuarios de Internet Explorer. Aplicación de las reuniones de Skype también tiene muchas mejoras a través de theSkype para la aplicación empresarial de Web para confiabilidad y la experiencia de reunión. 
   

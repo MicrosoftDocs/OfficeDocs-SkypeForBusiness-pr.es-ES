@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Implementación de la herramienta de SEFAUtil de Skype para Business Server.
-ms.openlocfilehash: fc8b26dbc0f81be3ea7dd9f0fc3f5c728d49e965
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 1b2f981a438b71b44eb5d4c760e98d1d777f7235
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295891"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532787"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Implementar la herramienta SEFAUtil en Skype para la empresa
  
@@ -45,6 +45,10 @@ Puede ejecutar la herramienta de SEFAUtil de cualquier grupo de servidores Front
    ```
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
+    > [!NOTE]
+    > FQDN del grupo: El FQDN del servidor o grupo de servidores que se va a hospedar la aplicación de SEFAUtil (normalmente un Skype para servidor Front-End de negocio o grupo de servidores).
+    > FQDN del registrador del grupo de servidores: El FQDN de la Skype para servidor Front-End de negocio o grupo asociado con este grupo de aplicaciones.
+    > Sitio de grupo de servidores: El identificador de sitio del sitio en el que está hospedado en este grupo de servidores.
 
 4. Defina la herramienta SEFAUtil como aplicación de confianza. En la línea de comandos, ejecute:
     

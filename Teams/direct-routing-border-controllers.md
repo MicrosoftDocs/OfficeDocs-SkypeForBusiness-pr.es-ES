@@ -1,6 +1,7 @@
 ---
 title: Lista de controladores de borde de sesión certificados para el Enrutamiento directo
 ms.author: jambirk
+ms.reviewer: NMuravlyannikov
 author: jambirk
 manager: serdars
 ms.audience: ITPro
@@ -15,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Los socios de Microsoft con proveedores seleccionados de SBC certifica sus SBCs funcionan con el enrutamiento directo.
-ms.openlocfilehash: 45a562b83c6e89a1006bc1fd6e2180ff49daf1ad
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 2d0873916585cab3eed6295e9be499f0eab39d53
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294814"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531003"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el Enrutamiento directo
 
@@ -59,5 +60,7 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   Pendiente    |      V7.0.2      |
 |                                                                                                                     |    SBC sueco Lite     |     &#10004;     |   Pendiente    |      V7.0.4      |
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    SBC Think 365    |     &#10004;     |   Pendiente    |       V1.4       |
-|                                                                                                                     |                     |                  |              |                  |
-
+|                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    AP 3900       |   Pendiente    |   Pendiente  |   Pendiente    |
+|                                                                                                                     |      AP 4600         |    Pendiente    |   Pendiente    |      Pendiente      |
+|                                                                                                                     |      VME             |    Pendiente    |   Pendiente    |      Pendiente      |
+|                     [TE SISTEMAS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |    Pendiente    |   Pendiente    |      Pendiente      |

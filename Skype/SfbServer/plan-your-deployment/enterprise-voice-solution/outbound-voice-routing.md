@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: Obtenga información acerca del enrutamiento de voz salientes en Skype para Business Server Enterprise Voice, incluida la configuración de enrutamiento de llamadas, planes de marcado, reglas de normalización, las directivas de voz, registros de uso de RTC y rutas de voz.
-ms.openlocfilehash: 60a1041bee0f235a232c7516dd9e0122ea7b7b65
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 8b7ef6c4e07bd7618645606c777b257e1d32691f
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296122"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531641"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Plan para el enrutamiento de voz salientes en Skype para Business Server
  
@@ -44,7 +44,7 @@ Las reglas de normalización definen la forma en que los números de teléfono e
   
 ### <a name="dial-plan-scope"></a>Ámbito del plan de marcado
 
-El alcance de un plan de marcado determina el nivel jerárquico en el que se puede aplicar. En Skype para Business Server, un usuario puede asignar un plan de marcado por usuario específico. Si no se asigna un plan de marcado del usuario, se aplica el plan de marcado de grupo de servidores Front-End. Si no hay ningún plan de marcado de grupo de servidores de grupo de servidores Front-End, se aplica el plan de marcado de sitio. Por último, si no hay otro plan de marcado aplicable al usuario, se aplica el plan de marcado global.
+El alcance de un plan de marcado determina el nivel jerárquico en el que se puede aplicar. En Skype para Business Server, un usuario puede asignar un plan de marcado por usuario específico. Si no se asigna un plan de marcado del usuario, se aplica el plan de marcado de grupo de servidores Front-End. Si no hay ningún plan de marcado de grupo de servidores Front-End, se aplica el plan de marcado de sitio. Por último, si no hay otro plan de marcado aplicable al usuario, se aplica el plan de marcado global.
   
 Los clientes obtienen los niveles de ámbito del plan de marcado a través de la configuración de aprovisionamiento en banda que se proporciona cuando los usuarios inician sesión en Skype para la empresa. Como administrador, puede administrar y asignar niveles de ámbito del plan de marcado mediante Skype para el Panel de Control de servidor empresarial.
   

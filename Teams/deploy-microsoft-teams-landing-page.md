@@ -13,11 +13,11 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 5a33e45926675c98b86460ad9bac92fee0c15fcb
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26216034"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26535969"
 ---
 # <a name="deploy-microsoft-teams"></a>Implementación de equipos de Microsoft
 

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype para obtener información de planeación y configuración de Business Server para vídeo compartida basado en pantalla (VbSS)
-ms.openlocfilehash: a7ea07f02b73b1092a11f61757318d0d653e048a
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 8541bb0dc3b5791c670a3beac77560b3c9663733
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295124"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531627"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Vídeo según el uso compartido de la pantalla de Skype para Business Server 
  
@@ -150,7 +150,7 @@ Lo mejor es que, una vez que ha instalado el Skype para Business Server 2015 act
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
-    Para obtener más información acerca de este comando, consulte [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+    Para obtener más información acerca de este comando, consulte [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
     
 - Si necesita desactivar VbSS por completo, puede ejecutar este comando:
     
@@ -158,7 +158,7 @@ Lo mejor es que, una vez que ha instalado el Skype para Business Server 2015 act
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
-    Para obtener más información sobre este comando, vea [Set-CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
+    Para obtener más información sobre este comando, vea [Set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
     
 > [!NOTE]
 > En un Skype con varios participantes de la reunión de negocios, todos los extremos de cliente va a respetar la configuración de directiva para el organizador de la reunión. 
@@ -177,7 +177,7 @@ Lo mejor es que, una vez que ha instalado el Skype para Business Server 2015 act
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
-    Para obtener más información acerca de este comando, consulte [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+    Para obtener más información acerca de este comando, consulte [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
     
 - Si necesita volver a activar VbSS después de desactivarla (está activada de manera predeterminada), puede ejecutar este comando:
     
@@ -185,7 +185,7 @@ Lo mejor es que, una vez que ha instalado el Skype para Business Server 2015 act
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 
-    Para obtener más información sobre este comando, vea [Set-CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
+    Para obtener más información sobre este comando, vea [Set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
     
 > [!NOTE]
 > En un Skype varios participantes de la reunión de negocios, todos los extremos de cliente va a respetar la configuración de directiva para el organizador de la reunión. 

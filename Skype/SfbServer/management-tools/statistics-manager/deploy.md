@@ -1,33 +1,32 @@
 ---
-title: Implementar el administrador de estadísticas para Skype Empresarial Server 2015
+title: Implementar el Administrador de estadísticas de Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/9/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
-description: 'Resumen: Lea este tema para obtener información sobre cómo implementar las estadísticas de administrador para Skype para Business Server 2015.'
-ms.openlocfilehash: 75a8af0794431a0f74233ad0c6a422b3827c7656
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 'Resumen: Lea este tema para obtener información sobre cómo implementar las estadísticas de administrador para Skype para Business Server.'
+ms.openlocfilehash: f408f494fc95fecdf0a0e80114d4d68d99181885
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295185"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532150"
 ---
-# <a name="deploy-statistics-manager-for-skype-for-business-server-2015"></a>Deploy Statistics Manager for Skype for Business Server 2015
+# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Implementar el Administrador de estadísticas de Skype para Business Server
  
-**Resumen:** Lea este tema para obtener información sobre cómo implementar las estadísticas de administrador para Skype para Business Server 2015.
+**Resumen:** Lea este tema para obtener información sobre cómo implementar las estadísticas de administrador para Skype para Business Server.
   
  Administrador de estadísticas de Skype para Business Server es una herramienta eficaz que le permite ver Skype para los datos de estado y rendimiento de servidor empresarial en tiempo real. Puede sondear los datos de rendimiento a través de cientos de servidores cada pocos segundos y ver los resultados al instante en el sitio Web de estadísticas de administrador.
   
-Antes de intentar instalar el Administrador de estadísticas, asegúrese de que está familiarizado con los requisitos de hardware, redes y software. Para obtener más información, consulte [Plan para el Administrador de estadísticas de Skype para Business Server 2015](plan.md).
+Antes de intentar instalar el Administrador de estadísticas, asegúrese de que está familiarizado con los requisitos de hardware, redes y software. Para obtener más información, consulte [Plan para el Administrador de estadísticas de Skype para Business Server](plan.md).
   
 > [!NOTE]
-> Si va a actualizar desde una versión anterior del Administrador de estadísticas, vea [Actualizar administrador de estadísticas de Skype para Business Server 2015](upgrade.md). 
+> Si va a actualizar desde una versión anterior del Administrador de estadísticas, vea [Actualización de administrador de estadísticas de Skype para Business Server](upgrade.md). 
   
 > [!NOTE]
 > El sitio web del administrador de estadísticas se ha probado y funciona correctamente en Internet Explorer 11+, Edge 20.10240+ y Chrome 46+ (versión actual con actualización automática). 
@@ -62,7 +61,7 @@ Para implementar las estadísticas de administrador, siga estos pasos:
   
 ### <a name="prepare-the-listener-host-machine"></a>Preparar el equipo host de escucha
 
-Para preparar el equipo host, debe instalar el sistema de almacenamiento en caché en memoria Redis y asegurarse de que el equipo cuenta con un certificado válido. Microsoft recomienda instalar la compilación estable más reciente de Redis 3.0. Administrador de estadísticas versión 1.1 se ha probado con Redis 3.0.501 y Redis 2.8.2400. 
+Para preparar el equipo host, debe instalar el sistema de almacenamiento en caché en memoria Redis y asegurarse de que el equipo cuenta con un certificado válido. Microsoft recomienda instalar la compilación estable más reciente de Redis 3.0. Administrador de estadísticas versión 2.0 se ha probado con Redis 3.2.100. 
   
 1. Descargar Redis desde el siguiente sitio: [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis). 
     
@@ -212,7 +211,7 @@ El comando siguiente le permite ver todas las opciones:
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
-Para ver la información de servidores que ha importado, ejecute el siguiente script:  
+Para ver la información de servidor actualmente importado, ejecute el siguiente script: 
   
 ```
 .\Get-StatsManServerInfo.ps1
@@ -265,7 +264,7 @@ Si no se puede iniciar un agente, verifique lo siguiente:
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-Para obtener información acerca de todos los eventos que es posible que vea en el registro de eventos de aplicación, vea [Solución de problemas de administrador de estadísticas de Skype para Business Server 2015](troubleshoot.md).
+Para obtener información acerca de todos los eventos que es posible que vea en el registro de eventos de aplicación, vea [Solución de problemas de administrador de estadísticas de Skype para Business Server](troubleshoot.md).
   
 ## <a name="create-a-self-signed-certificate"></a>Crear un certificado autofirmado
 <a name="BKMK_SelfCert"> </a>
@@ -299,11 +298,11 @@ Microsoft recomienda encarecidamente usar un certificado firmado por una autorid
 
 Para obtener más información, consulte lo siguiente:
   
-- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
+- [Plan para el Administrador de estadísticas de Skype para Business Server](plan.md)
     
-- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
+- [Actualizar el Administrador de estadísticas de Skype para Business Server](upgrade.md)
     
-- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
+- [Solucionar problemas de administrador de estadísticas de Skype para Business Server](troubleshoot.md)
     
 - [Blog del administrador de estadísticas de Skype Empresarial Server](https://blogs.technet.microsoft.com/skypestatsman/)
     

@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para el Reino Unido los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: f3e83adc835f003091ed0a1aa38953269dbe4b95
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: ada6f7c5d4919a3c114488da8b30e7b58f9d6821
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293991"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531138"
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>Disponibilidad en el Reino Unido (Reino Unido)
 
@@ -62,7 +62,7 @@ Aquí están disponibles para el Reino Unido los servicios de Office 365 para Sk
 |:-----|:-----|
 |¿Los planes de llamada están disponibles para la compra?  <br/> |Sí  <br/> |
 |Minutos disponibles para llamar a los planes. |Hay cuatro opciones de plan disponibles por mes del calendario: <ul><li>120 minuto al llamar a planear nacionales </li><li>240 minuto al llamar a planear nacionales</li></li><li>1200 minuto al llamar a planear nacionales </li></li><li>minuto 600 para llamar a planes internacionales y nacionales</li></li> 
-|¿Puede realizar llamadas salientes a los números de premium? <br/> | Parcialmente compatible: se admiten llamadas a shared números de costo (prefijos 44843, 44844, 44845, 44870, 44871, 44872).  No se admiten llamadas a prefijos de 449XX. <br/> |
+|¿Puede realizar llamadas salientes a los números de premium? <br/> | Parcialmente compatible: se admiten llamadas a shared números de costo (prefijos 44843, 44844, 44845, 44870, 44871, 44872) mediante créditos Communications pagando por minuto.  No se admiten llamadas a prefijos de 449XX. <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios

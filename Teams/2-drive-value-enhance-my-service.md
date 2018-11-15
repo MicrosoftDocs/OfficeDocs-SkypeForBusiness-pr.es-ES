@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96af6eb707c8f104a7810e924323d9f32996f8f1
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: adb6aeca0892bb3ccd07c5d4dd60508424845b4c
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294561"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532172"
 ---
 # <a name="enhance-my-service"></a>Mejorar mi servicio
 
@@ -29,7 +29,7 @@ Después de que ha implementado correctamente conferencias de Audio o sistema te
 
 Forma ideal para asegurarse de que siempre obtendrá el máximo partido de los servicios es supervisar las [guías públicas de los equipos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) de nuevas mejoras de características que podrían ser de interés para la organización. Si dispone de acceso al portal de administración de Office 365 recibirá actualizaciones regulares de nosotros acerca de las características nuevas y cambiantes a través de nuestro centro de mensajes. 
 
-Además, debido a que las organizaciones crecen y cambian, debe tomarse su tiempo para revisar y actualizar los casos de uso empresarial a intervalos regulares para asegurarse de que el servicio está configurado para satisfacer las necesidades de su organización actual.  Asegúrese de que va a obtener comentarios del mundo real de los usuarios y campeones internos mediante el establecimiento de canales de comentarios en la organización. Se pueden conversaciones informales, meeetings regular o a través de los equipos de un canal o Yammer de la Comunidad. 
+Además, debido a que las organizaciones crecen y cambian, debe tomarse su tiempo para revisar y actualizar los casos de uso empresarial a intervalos regulares para asegurarse de que el servicio está configurado para satisfacer las necesidades de su organización actual.  Asegúrese de que va a obtener comentarios del mundo real de los usuarios y campeones internos mediante el establecimiento de canales de comentarios en la organización. Se pueden conversaciones informales, reuniones regulares o a través de los equipos de un canal o Yammer de la Comunidad. 
 
 Cuando vea las oportunidades para mejorar su servicio, tomarse el tiempo para hacerlo a la derecha. Revisar nuestras fases de implementación (https://docs.microsoft.com/MicrosoftTeams/quick-start-enable-teams) y aplicar la misma orientación de un extremo a otro. Cuando se realizan cambios pequeños e incrementales, es poco probable que necesitará para llevar a cabo todas las actividades y tareas en su totalidad, pero debe estar seguro de evaluar cada tarea a lo largo de la forma de proporcionar la mejor oportunidad en un resultado satisfactorio y la actividad.
 

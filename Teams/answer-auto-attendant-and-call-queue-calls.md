@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b176131cd8c491916f8b934daa763e62a9bf2a8
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 7b0b533020def2e344991fa758304888c8166436
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294708"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530949"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Responder a operador automático y las llamadas de cola de llamadas directamente desde los equipos
 ===========================================================
@@ -54,12 +54,12 @@ Compatibilidad para las llamadas de cola de operador y llamada automático está
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Configurar la auto attendant y llamada de cola compatibilidad con Microsoft Teams
 
-Para recibir el operador automático y llamar a las llamadas de cola en Microsoft Teams, debe configurar la directiva de interoperabilidad y actualización de directiva. Revise la [migración y la interoperabilidad para las organizaciones que utilizan los equipos junto con Skype para la empresa](migration-interop-guidance-for-teams-with-skype.md). Si no dispone de operador automático o cola de llamadas configurado y desea hacerlo, vea [configurar un operador automático de sistema telefónico](https://docs.microsoft.com/en-us/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant) y [crear una cola de llamadas de sistema telefónico](https://docs.microsoft.com/en-us/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+Para recibir el operador automático y llamar a las llamadas de cola en Microsoft Teams, debe configurar la directiva de interoperabilidad y actualización de directiva. Revise la [migración y la interoperabilidad para las organizaciones que utilizan los equipos junto con Skype para la empresa](migration-interop-guidance-for-teams-with-skype.md). Si no dispone de operador automático o cola de llamadas configurado y desea hacerlo, vea [configurar un operador automático de sistema telefónico](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant) y [crear una cola de llamadas de sistema telefónico](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
 ## <a name="related-topics"></a>Temas relacionados
 
 -   [¿Qué es el sistema telefónico en Office 365](what-is-phone-system-in-office-365.md)
--   [Crear una cola de llamadas de Sistema telefónico](https://docs.microsoft.com/en-us/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-   [Crear una cola de llamadas de Sistema telefónico](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 -   [¿Qué son los operadores automáticos de Sistema telefónico?](what-are-phone-system-auto-attendants.md)
--   [Configurar un operador automático de Sistema telefónico](https://docs.microsoft.com/en-us/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+-   [Configurar un operador automático de Sistema telefónico](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 

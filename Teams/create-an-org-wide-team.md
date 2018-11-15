@@ -2,6 +2,7 @@
 title: Crear un equipo de toda la organización en Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
+ms.reviewer: phlouie
 manager: serdars
 ms.date: 09/27/2018
 ms.topic: article
@@ -12,23 +13,23 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ef4426e2dca1a6ce20657e3e7480b9ee118bfa1
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 3980a73c817b83466c8c93c29fb60e7e20f4df48
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296282"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532812"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Crear un equipo de toda la organización en Microsoft Teams
 
 Los equipos de toda la organización proporcionan una forma automática para todos los usuarios en una organización pequeña a mediana forme parte de un único equipo para la colaboración. 
  
-Con los equipos de toda la organización, los administradores globales pueden crear fácilmente un equipo público que extrae en todos los usuarios de la organización y mantiene la pertenencia al día con Active Directory como unirse a los usuarios y salir de la organización. Sólo los administradores globales pueden crear los equipos de toda la organización y actualmente se limita a las organizaciones con no más de 1.000 usuarios un equipo de toda la organización. Si se cumplen estos requisitos, los administradores vea **toda la organización** como una opción en **privacidad** al crear un equipo.
+Con los equipos de toda la organización, los administradores globales pueden crear fácilmente un equipo público que extrae en todos los usuarios de la organización y mantiene la pertenencia al día con Active Directory como unirse a los usuarios y salir de la organización. Sólo los administradores globales pueden crear los equipos de toda la organización y actualmente se limita a las organizaciones con no más de 2.500 a los usuarios un equipo de toda la organización. Si se cumplen estos requisitos, los administradores vea **toda la organización** como una opción en **privacidad** al crear un equipo.
 
 ![Captura de pantalla de la opción de toda la organización para crear un equipo de toda la organización] (media/create-org-wide-team.png "Captura de pantalla de la opción de toda la organización para crear un equipo de toda la organización")
 
 > [!NOTE]
-> Si no ve la opción de **toda la organización** al crear un equipo y es un administrador global, la característica aún es posible que implantar o su organización puede tener más que el límite de tamaño actual de 1.000 miembros. Buscamos para aumentar este límite en el futuro.
+> Si no ve la opción de **toda la organización** al crear un equipo y es un administrador global, la característica aún es posible que implantar o su organización puede tener más que el límite de tamaño actual de 2.500 miembros. Buscamos para aumentar este límite en el futuro.
 
 Cuando se crea un equipo de toda la organización, todos los administradores globales se agregan como propietarios de equipo y todos los usuarios activos se agregan como miembros del equipo. Los usuarios que están deshabilitados para los equipos, los usuarios invitados y salas mayoría no se agregan al equipo. Como Active directory de su organización se ha actualizado para incluir nuevos usuarios activos o si los usuarios ya no funcionan en su empresa y su licencia de los equipos está deshabilitada, los cambios son automáticamente sincronizado y se agregan o se quitan del equipo de los usuarios. Los miembros del equipo no pueden dejar un equipo de toda la organización. Como propietario de un equipo, puede agregar manualmente o quitar los usuarios si es necesario.
 

@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Como administrador de Office 365, puede editar la configuración de Audioconferencia de Microsoft Teams (como el proveedor, el número gratuito o de pago predeterminado, el Id. de conferencia o el PIN) para una persona de su organización. '
-ms.openlocfilehash: 0be1276bbcba42cdf2b38c4ec1e54845608824e6
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 61b0cf5db964af19001069318f275ac237012cb4
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296191"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532091"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Administrar la configuración de Audioconferencia para un usuario en Microsoft Teams
 
-Como un administrador de Office 365, puede editar la configuración de Audioconferencia, como por ejemplo el proveedor, el número gratuito o de pago predeterminado, el identificador de conferencia o el PIN, de un usuario individual en la organización. Si quiere editar la configuración de su organización, consulte [Administrar la configuración de Audioconferencia de mi organización](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
+Como un administrador de Office 365, puede editar la configuración de Audioconferencia, como por ejemplo el proveedor, el número gratuito o de pago predeterminado, el identificador de conferencia o el PIN, de un usuario individual en la organización. Si desea editar la configuración de la organización, vea [Administrar la configuración de conferencia de Audio para su organización](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
 ## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) Uso del equipos de Microsoft y Skype para centro de administración de negocio
 
@@ -58,6 +58,6 @@ Como un administrador de Office 365, puede editar la configuración de Audioconf
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Administrar la configuración de Audioconferencia para mi organización](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+[Administrar la configuración de conferencia de Audio para la organización](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 
 [Preguntas comunes sobre Audioconferencia](audio-conferencing-common-questions.md)

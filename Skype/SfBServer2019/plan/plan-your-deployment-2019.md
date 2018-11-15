@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Resumen: Explore estos vínculos a información sobre cómo desarrollar conceptuales, lógicos y físicos diseños para configurar Skype para las características, servidores y topologías de Business Server 2019.'
-ms.openlocfilehash: 85b8dc6b4326a565e40331d4ba89cbed1d4edb59
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 83b406401d377d8ffd4b46aee3a5264273bb142b
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293575"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531298"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>Plan para su Skype para la implementación empresarial Server 2019
  
@@ -34,7 +34,7 @@ Ver los siguientes recursos para obtener información acerca de cómo planear su
   
 ||Contenido|Descripción|
 |:--- |:--- |:--- |
-|![Icono de vídeos](https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg)|[Skype para la empresa: una rápida introducción](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) [Skype para la empresa: una guía paso a paso para nuevos usuarios](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be)      |Descubra presentaciones de vídeo y formación para profesionales de Skype para la empresa.    |
+|![Icono de vídeos](https://docs.microsoft.com/office/media/icons/get-started-blue.svg)|[Skype para la empresa: una rápida introducción](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) [Skype para la empresa: una guía paso a paso para nuevos usuarios](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be)      |Descubra presentaciones de vídeo y formación para profesionales de Skype para la empresa.    |
    
 ## <a name="articles-about-planning-for-skype-for-business-server"></a>Artículos sobre la planeación de Skype para Business Server
 
@@ -42,7 +42,7 @@ Los siguientes artículos acerca de cómo planear Skype para Business Server est
   
 |Planificar soluciones|Planificar una arquitectura de servidor, clientes y dispositivos|
 |:-----|:-----|
-|![Icono de contenido de Solutions](https://docs.microsoft.com/en-us/office/media/icons/success.svg)   Lea los siguientes artículos para determinar qué soluciones son las adecuadas para la organización:    |![Icono de contenido de arquitectura del servidor](https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg)   Lea los siguientes artículos para planificar la arquitectura de servidor, y la compatibilidad de dispositivos y clientes:    |
+|![Icono de contenido de Solutions](https://docs.microsoft.com/office/media/icons/success.svg)   Lea los siguientes artículos para determinar qué soluciones son las adecuadas para la organización:    |![Icono de contenido de arquitectura del servidor](https://docs.microsoft.com/office/media/icons/get-started-blue.svg)   Lea los siguientes artículos para planificar la arquitectura de servidor, y la compatibilidad de dispositivos y clientes:    |
 |**[Planeación de la mensajería instantánea y presencia en Skype para Business Server](../../SfbServer/plan-your-deployment/instant-messaging-and-presence.md)**<br/><br/> ¿Cuáles son los requisitos para la mensajería instantánea (IM) y presencia? Aunque los servicios de presencia y mensajería instantánea (mi) y se incluyen en cada Skype para la implementación de Business Server, debe tomar decisiones acerca de los requisitos técnicos, las comunicaciones con los usuarios externos y el archivado. <br/> | **[Requisitos del sistema para Skype para Business Server 2019](system-requirements.md)**  <br/> **[Plan network requirements for Skype for Business](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md)**<br/> <br/>  Desea leer estos temas en primer lugar para determinar los requisitos previos para Skype para Business Server.    |
 |**[Planeación de Enterprise Voice en Skype para Business Server](../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)** <br/><br/>¿Cuáles son los requisitos de voz? Definir cómo se integrará el sistema telefónico de su organización con su Skype para la implementación de Business Server. <br/> Enterprise Voice es la voz más completa que ofrece--una voz a través de la solución IP (VoIP), lo que proporciona un amplio conjunto de características, incluida la integración con Outlook y Exchange.<br/>Llamar vía trabajo ofrece una forma de integrar su Skype para soluciones de negocio con los sistemas de teléfono PBX existentes.   |**[Conceptos básicos de la topología de Skype para Business Server](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md)** <br/><br/>Antes de preparar nada más, desea saber que está planeando para la topología correcta para la implementación de Skype para Business Server. Lo primero que hay que decidir es si va a tener una implementación local de Skype para Business Server, o si va a combinar esto con un Skype para la implementación de servidor en línea de negocio en una implementación híbrida. Lea los temas en esta sección para planificar los escenarios de combinación de los servidores y la topología.   |
 |**[Planeación de servidor de interoperabilidad vídeo en Skype para Business Server](../../SfbServer/plan-your-deployment/video-interop-server.md)** <br/><br/>¿Cuáles son los requisitos de vídeo para su organización? El Skype para Business Server vídeo interoperabilidad Server puede integrarse directamente con sistemas de teleconferencia de Cisco (VTCs). <br/>Obtenga información acerca de los requisitos técnicos y características de vídeo.   |**[Migración a Skype para Business Server 2019](../migration/migration-to-skype-for-business-server-2019.md)** <br/> <br/>¿Está actualizando desde una versión anterior de Lync Server o Skype para la empresa? Obtenga información acerca de cómo planear la actualización.   |
@@ -58,6 +58,6 @@ Los recursos siguientes sobre cómo planear Skype para Business Server están di
   
 ||**Contenido**|**Descripción**|
 |:--- |:--- |:--- |
-|![Icono de DMC](https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg)|[Skype Empresarial Server para profesionales de TI](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |Visite los centros de recursos y docs.microsoft.com para acceso a vídeos, sitios de la Comunidad, documentación, descargas y más.    |
-|![Icono de contenido de desarrollador](https://docs.microsoft.com/en-us/office/media/icons/developer-blue.svg)|[Plataforma para desarrolladores de Skype](https://go.microsoft.com/fwlink/?LinkId=619775)   |Busque recursos para desarrolladores Skype para Business Server, incluidos los SDK, aprendizaje y ejemplos de código.    |
-|![Icono de noticias, blogs, etc.](https://docs.microsoft.com/en-us/office/media/icons/blog-site-blue.svg)|[Adopción y administración de cambios](https://go.microsoft.com/fwlink/p/?LinkId=532796) [Blogs de Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) [Blog técnico de Office 365](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) [Blog del equipo de Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818)            |Manténgase informado con las noticias de los equipos que crean y documento Skype para Business Server.    |
+|![Icono de DMC](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Skype Empresarial Server para profesionales de TI](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |Visite los centros de recursos y docs.microsoft.com para acceso a vídeos, sitios de la Comunidad, documentación, descargas y más.    |
+|![Icono de contenido de desarrollador](https://docs.microsoft.com/office/media/icons/developer-blue.svg)|[Plataforma para desarrolladores de Skype](https://go.microsoft.com/fwlink/?LinkId=619775)   |Busque recursos para desarrolladores Skype para Business Server, incluidos los SDK, aprendizaje y ejemplos de código.    |
+|![Icono de noticias, blogs, etc.](https://docs.microsoft.com/office/media/icons/blog-site-blue.svg)|[Adopción y administración de cambios](https://go.microsoft.com/fwlink/p/?LinkId=532796) [Blogs de Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) [Blog técnico de Office 365](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) [Blog del equipo de Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818)            |Manténgase informado con las noticias de los equipos que crean y documento Skype para Business Server.    |

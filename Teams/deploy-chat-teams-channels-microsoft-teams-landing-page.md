@@ -13,11 +13,11 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: de3277b51e5af139feaa96c305cd06d14cda425b
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26216057"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26535964"
 ---
 # <a name="deploy-microsoft-teams-chat-teams-and-channels"></a>Implementar chat Microsoft Teams, equipos y canales
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Resumen: Obtenga información sobre cómo configurar su Skype para infraestructura de Business Server 2015 para trabajar con System Center Operations Manager.'
-ms.openlocfilehash: b94490c60234f76b0e07f0b7732d76cc2354eaad
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5a1d1b87e3f28fbbb2b8023093a9781bb0dc2627
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20994965"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533290"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Administrar Skype Empresarial Server 2015 con el módulo de administración SCOM
  
@@ -38,7 +38,7 @@ Identificar y [Configurar el servidor de administración principal](configure-th
   
 ## <a name="system-center-operations-manager-root-management-server-and-agent-support"></a>Servidor de administración de System Center Operations Manager raíz y compatibilidad con el agente
 
-Los paquetes de administración se pueden usar con System Center Operations Manager 2007 R2 (64 bits) (versión compatible solo con fines de migración) o System Center Operations Manager 2012 SP1 &amp; R2 (64 bits). La siguiente tabla muestran las configuraciones compatibles para los paquetes de administración de Skype para Business Server 2015: 
+Los paquetes de administración se pueden usar con System Center Operations Manager 2007 R2 (64 bits) (versión compatible solo con fines de migración) o System Center Operations Manager 2012 SP1 &amp; R2 (64 bits) o del sistema Centro Operations Manager 2016 (64 bits). La siguiente tabla muestran las configuraciones compatibles para los paquetes de administración de Skype para Business Server 2015: 
   
 |**Configuración**|**¿Se admite?**|
 |:-----|:-----|
@@ -57,7 +57,7 @@ La siguiente tabla muestra la capacidad y los requisitos del sistema operativo p
 |:-----|:-----|
 |CPU  <br/> |Uno de los siguientes:  <br/> Procesador de 64 bits, cuatro núcleos, 2,33 GHz o superior  <br/> Procesador de 64 bits, dos canales, doble núcleo, 2,33 GHz o superior  <br/> |
 |Memoria  <br/> |8 GB  <br/> |
-|Sistema operativo  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
+|Sistema operativo  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
 |Red  <br/> |1 adaptador de red de 1 Gbps  <br/> |
    
 ## <a name="prerequisites"></a>Requisitos previos
@@ -137,14 +137,14 @@ Skype para paquetes de administración de Business Server 2015 proporcionar aume
 |8  <br/> |Mensajería instantánea punto a punto MCX (móvil)  <br/> |Disponible en la versión de septiembre de 2011 de Lync Server 2010 para Skype para profesionales de 2015  <br/> |
  
 > [!NOTE]
-> Compatibilidad con MCX para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Los usuarios deben actualizar a un cliente actual.
+> Compatibilidad con MCX (servicio de movilidad) para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Todos los Skype actual para los clientes móviles de negocio ya usa la API de Web de comunicaciones unificadas (UCWA) para admitir la mensajería instantánea (IM), presencia y contactos. Los usuarios con los clientes heredados con MCX necesitará actualizar a un cliente actual.
   
 **Transacciones sintéticas compatibles para conferencias y chat persistente**
 
 ||||
 |:-----|:-----|:-----|
 |9  <br/> |Conferencias de audio y vídeo  <br/> |Disponible en Lync Server 2010 y más allá  <br/> |
-|10  <br/> |Conferencias de datos  <br/> |Disponible en Lync Server 2013 y más allá  <br/> |
+| 10  <br/> |Conferencias de datos  <br/> |Disponible en Lync Server 2013 y más allá  <br/> |
 |11  <br/> |Conferencia de mensajes instantáneos  <br/> |Disponible en Lync Server 2010 y más allá  <br/> |
 |12  <br/> | Chat persistente <br/> |Disponible en Lync Server 2013 y más allá  <br/> |
 |13  <br/> |Iniciador de participación en reuniones (reuniones programadas)  <br/> |Disponible en Lync Server 2013 y más allá  <br/> |
@@ -201,37 +201,37 @@ La creación de un nuevo módulo de administración para almacenar las personali
 
 Los siguientes vínculos permiten obtener acceso a información sobre tareas comunes asociadas con los módulos de supervisión de System Center 2012:
   
-- [Ciclo de vida del paquete de administración](https://technet.microsoft.com/en-us/library/hh212732.aspx)
+- [Ciclo de vida del módulo de administración](https://technet.microsoft.com/en-us/library/hh212732.aspx)
     
-- [Procedimiento para importar un paquete de administración de Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh212691.aspx)
+- [Cómo importar un paquete de administración en Operations Manager 2012 ](https://technet.microsoft.com/en-us/library/hh212691.aspx)
     
-- [Procedimiento para reemplazar una regla o un Monitor](https://technet.microsoft.com/en-us/library/hh212869.aspx)
+- [Cómo invalidar una regla o monitor](https://technet.microsoft.com/en-us/library/hh212869.aspx)
     
-- [Procedimiento para crear una ejecución como cuenta en Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh321655.aspx)
+- [Cómo crear una cuenta "Ejecutar como" en Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh321655.aspx)
     
-- [Administración de ejecutar como cuentas y perfiles](https://technet.microsoft.com/en-us/library/hh212714.aspx)
+- [Administrar perfiles y cuentas "Ejecutar como"](https://technet.microsoft.com/en-us/library/hh212714.aspx)
     
-- [Procedimiento para exportar un paquete de administración de Operations Manager](https://technet.microsoft.com/en-us/library/hh320149.aspx)
+- [Cómo exportar un módulo de administración de Operations Manager](https://technet.microsoft.com/en-us/library/hh320149.aspx)
     
-- [Cómo quitar un módulo de administración de Operations Manager](https://technet.microsoft.com/en-us/library/hh230746.aspx)
+- [Cómo eliminar un módulo de administración de Operations Manager](https://technet.microsoft.com/en-us/library/hh230746.aspx)
     
 Los siguientes vínculos permiten obtener acceso a información sobre tareas comunes asociadas con los módulos de supervisión de System Center 2007:
   
-- [Administración del ciclo de vida del paquete de administración](https://go.microsoft.com/fwlink/p/?LinkId=211463)
+- [Administrar el ciclo de vida del módulo de administración](https://go.microsoft.com/fwlink/p/?LinkId=211463)
     
-- [Procedimiento para importar un paquete de administración de Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=142351)
+- [Cómo importar un módulo de administración en Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=142351)
     
-- [Cómo supervisar el uso de invalida](https://go.microsoft.com/fwlink/p/?LinkID=117777)
+- [Cómo supervisar el uso de invalidaciones](https://go.microsoft.com/fwlink/p/?LinkID=117777)
     
-- [Procedimiento para crear una ejecución como cuenta en Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=165410)
+- [Cómo crear una cuenta "Ejecutar como" en Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=165410)
     
-- [Procedimiento para modificar una ejecución existente como perfil](https://go.microsoft.com/fwlink/p/?LinkID=165412)
+- [Cómo modificar un perfil "Ejecutar como" existente](https://go.microsoft.com/fwlink/p/?LinkID=165412)
     
-- [Cómo exportar las personalizaciones del paquete de administración](https://go.microsoft.com/fwlink/p/?LinkId=209940)
+- [Cómo exportar personalizaciones de módulos de administración](https://go.microsoft.com/fwlink/p/?LinkId=209940)
     
-- [Cómo quitar un paquete de administración](https://go.microsoft.com/fwlink/p/?LinkId=209941)
+- [Cómo quitar un módulo de administración](https://go.microsoft.com/fwlink/p/?LinkId=209941)
     
-Para preguntas acerca de Operations Manager y supervisión de paquetes, vea el [foro de la Comunidad de System Center Operations Manager](https://go.microsoft.com/fwlink/p/?LinkID=179635).
+Para preguntas acerca de Operations Manager y los módulos de supervisión, consulte el [foro de la comunidad de System Center Operations Manager](https://go.microsoft.com/fwlink/p/?LinkID=179635).
   
 Un recurso útil es el blog [Del sistema Center Operations Manager lanza](https://opsmgrunleashed.wordpress.com/) , que contiene entradas de "Por ejemplo" para los paquetes específicos de supervisión.
   
@@ -239,15 +239,15 @@ Para obtener información adicional acerca de Operations Manager, consulte los b
   
 - [Blog del equipo de Operations Manager](https://blogs.technet.com/momteam/default.aspx)
     
-- [OpsMgr Blog de Kevin Holman](https://blogs.technet.com/kevinholman/default.aspx)
+- [Blog sobre Operations Manager de Kevin Holman](https://blogs.technet.com/kevinholman/default.aspx)
     
-- [Pensamientos en OpsMgr](https://thoughtsonopsmgr.blogspot.com/)
+- [Ideas sobre Operations Manager](https://thoughtsonopsmgr.blogspot.com/)
     
 - [Blog de Raphael Burri](https://rburri.wordpress.com/)
     
 - [Espacio de administración de BWren](https://blogs.technet.com/brianwren/default.aspx)
     
-- [OpsMgr ++](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
+- [Ops Mgr ++](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
     
 > [!IMPORTANT]
 > Toda la información y contenido de sitios que no sean de Microsoft la proporciona el propietario o los usuarios del sitio web correspondiente. Microsoft no ofrece ninguna garantía, explícita, implícita o legal, con respecto a la información de dichos sitios web. 

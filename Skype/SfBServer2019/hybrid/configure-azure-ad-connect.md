@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.collection: ''
 description: Instrucciones para configurar Azure Connect AD en un entorno híbrido.
 ms.openlocfilehash: c2a57f9b58d88274dde8f9218faddabdee4342be
-ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25853535"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26536084"
 ---
 # <a name="configure-azure-ad-connect-for-skype-for-business-and-teams"></a>Configurar Azure AD Connect para Skype para profesionales y los equipos 
  

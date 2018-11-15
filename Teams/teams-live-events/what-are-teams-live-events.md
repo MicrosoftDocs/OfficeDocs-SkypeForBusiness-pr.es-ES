@@ -5,20 +5,18 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.collection:
-- Teams_ITAdmin_Help
-- Teams_ITAdmin_Help
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: tonysmit
 search.appverid: MET150
 description: Obtenga información sobre cómo live eventos permiten a los usuarios difundir vídeo y contenido a grandes audiencias en línea en Microsoft Teams, Yammer y Microsoft Stream.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db8f9223c74b29f7fd2bfa27b63419abcb4219c5
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 881d5c2754703766cb9b84525472bfa18fc6e651
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295823"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532244"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Cuáles son Teams Microsoft live eventos?
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -50,17 +48,17 @@ Los eventos live en Microsoft 365 admite una gran variedad de escenarios de prod
 
 - **Producción de inicio rápido**: el método de producción de inicio rápido permite a los usuarios producir sus eventos en directo con reuniones de los equipos. Esta opción es mejor y más rápida opción si desea usar los dispositivos de audio y vídeos conectado a su PC o invita a los moderadores remotos por participar en el evento. Esta opción permite a los usuarios usar sus cámaras web fácilmente y compartir su pantalla como entrada en el evento. 
 
-![Los equipos de eventos en directo] (../media/teams-live-events-quick-start.png "Captura de pantalla que muestra un evento en directo que se genera utilizando el rápido inicia el método de producción")
+    ![Captura de pantalla que muestra un evento en directo producido mediante el uso de rápido inicia el método de producción] (../media/teams-live-events-quick-start.png "Captura de pantalla que muestra un evento en directo que se genera utilizando el rápido inicia el método de producción")
 
 - **Producción de codificador externo**: codificadores externos permiten a los usuarios producir sus eventos en directo directamente desde un codificador basada en software con la [Secuencia de Microsoft](https://stream.microsoft.com)o un hardware externo. Esta opción es mejor si ya dispone de equipamiento de calidad studio (por ejemplo, mezcladores de medios) qué compatibilidad con transmisión por secuencias a un servicio de protocolo de mensajería en tiempo real (RTMP). Este tipo de producción se utiliza normalmente en los eventos de gran escala, como salas de ciudad ejecutivos – donde la difusión de una única secuencia de un mezclador de medios a la audiencia. 
 
-![Captura de pantalla que muestra un evento en directo que se genera utilizando el método de producción codificador externo] (../media/teams-live-events-external-encoder.png "Captura de pantalla que muestra un evento en directo que se genera utilizando el método de producción codificador externo")
+    ![Captura de pantalla que muestra un evento en directo producido mediante el método de producción codificador externo] (../media/teams-live-events-external-encoder.png "Captura de pantalla que muestra un evento en directo que se genera utilizando el método de producción codificador externo")
 
 ### <a name="streaming-platform"></a>Plataforma de transmisión por secuencias
 La plataforma de transmisión por secuencias del evento en directo se compone de las siguientes partes:
 
-- **Servicios de medios de Azure** [Servicios de medios de Azure](https://docs.microsoft.com/azure/media-services/previous/) proporciona servicios de transmisión por secuencias vídeo de calidad de difusión para llegar a más grandes audiencias en dispositivos móviles más populares de hoy.   Servicios de medios mejora la accesibilidad, la distribución y la escalabilidad y de manera fácil y rentable para transmitir contenido a su público local o en todo el mundo, al mismo tiempo que protege su contenido.
-- **Red de Azure entrega de contenido (CDN)**  Una vez que entre la secuencia, se entrega a través de la [Red de entrega de contenido (CDN) de Azure](https://docs.microsoft.com/azure/cdn/). Servicios de medios Azure proporciona CDN integrada para transmitir los extremos. Esto permite que las secuencias para que se vean en todo el mundo con ningún almacenamiento en búfer.
+- **Servicios de medios de Azure**: [Servicios de medios de Azure](https://docs.microsoft.com/azure/media-services/previous/) proporciona servicios de transmisión por secuencias vídeo de calidad de difusión para llegar a más grandes audiencias en dispositivos móviles más populares de hoy. Servicios de medios mejora la accesibilidad, la distribución y la escalabilidad y de manera fácil y rentable para transmitir contenido a su público local o en todo el mundo, al mismo tiempo que protege su contenido.
+- **Azure Content Delivery Network (CDN)**: una vez que entre la secuencia, se entrega a través de la [Red de entrega de contenido (CDN) de Azure](https://docs.microsoft.com/azure/cdn/). Servicios de medios Azure proporciona CDN integrada para transmitir los extremos. Esto permite que las secuencias para que se vean en todo el mundo con ningún almacenamiento en búfer.
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Red de entrega de contenido empresarial (eCDN)
 El objetivo de la red eCDN es tomar el contenido de vídeo de internet y distribuir el contenido en toda la empresa sin afectar el rendimiento de la red. Puede usar uno de estos partners de eCDN para optimizar la red para eventos en directo mantenidos dentro de la organización:
@@ -71,7 +69,10 @@ El objetivo de la red eCDN es tomar el contenido de vídeo de internet y distrib
 ### <a name="attendee-experience"></a>Experiencia del Asistente 
 La experiencia del asistente es el aspecto más importante de eventos en directo y es muy importante que los asistentes pueden participar en el evento en directo sin necesidad de los problemas. La experiencia del asistente usa el Reproductor multimedia de Azure y funciona a través de escritorio, explorador y mobile (iOS, Android). Office 365 proporciona Yammer y los equipos como dos concentradores de colaboración y el Asistente live experiencia se integra en estas herramientas de colaboración. 
 
-![Los equipos de eventos en directo] (../media/teams-live-events-attendee.png "Experiencia de captura de pantalla que muestra al Asistente de eventos en directo")
+![Experiencia de captura de pantalla que muestra al Asistente de eventos en directo] (../media/teams-live-events-attendee.png "Experiencia de captura de pantalla que muestra al Asistente de eventos en directo")
+
+## <a name="next-steps"></a>Pasos siguientes
+Vaya al [Plan para los equipos eventos en directo](plan-for-teams-live-events.md).
 
 ### <a name="related-topics"></a>Temas relacionados
 - [Eventos en directo a través de Microsoft 365 en Yammer, Microsoft Teams y Stream de Microsoft](https://docs.microsoft.com/stream/live-event-m365)

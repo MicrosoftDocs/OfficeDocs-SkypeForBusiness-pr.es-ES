@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumen: Obtenga información sobre las herramientas de administración de servicio de Skype para Business Server 2019.'
 ms.openlocfilehash: ceb7a44b52bb5c02551981fb9147b05dd9a0dd84
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26216148"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26536082"
 ---
 # <a name="skype-for-business-server-2019-management-tools"></a>Skype para herramientas de administración de servidor 2019 empresarial
  

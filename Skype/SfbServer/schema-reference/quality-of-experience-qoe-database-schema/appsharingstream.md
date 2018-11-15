@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: En la tabla AppSharingStream contiene las métricas de calidad de la experiencia de las secuencias de red usadas para uso compartido de aplicaciones. En esta tabla se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 4eeac3f7b082d4a798736bd9897b90668a1d44b2
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 3505467fd5e163fe2c26aca4b1ba13681c0d4ee6
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294306"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532773"
 ---
 # <a name="appsharingstream-table"></a>Tabla AppSharingStream
  
@@ -25,7 +25,7 @@ En la tabla AppSharingStream contiene las métricas de calidad de la experiencia
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |fecha y hora  <br/> |Principal, externa  <br/> |Fecha y hora en se inició la sesión.  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Principal, externa  <br/> |Identificador secuencial usado para distinguir entre las sesiones que iniciar en la misma fecha y al mismo tiempo.  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Principal, externa  <br/> | Consulte la [Tabla MediaLine](https://docs.microsoft.com/en-us/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0). <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Principal, externa  <br/> | Consulte la [Tabla MediaLine](https://docs.microsoft.com/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0). <br/> |
 |**StreamID** <br/> |int  <br/> |Primary  <br/> |Identificador único de la aplicación de uso compartido de secuencia.  <br/> |
 |**JitterInterArrival** <br/> |int  <br/> ||Valor medio de las vibraciones detectadas entre la llagada de paquetes RTP. (La vibración es una forma de medir la "inestabilidad" de una llamada). Los valores altos de vibración suelen deberse a la congestión o a una sobrecarga del servidor multimedia y dan lugar a la distorsión o pérdida del audio.  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> ||Vibración máxima detectado entre llegados de paquete RTP. (Vibración es una medida de la "inestabilidad" de una llamada). Los valores de vibración alta normalmente causados por la congestión o un servidor de medios sobrecargado y audio distorsionado o perdido como resultado.  <br/> |

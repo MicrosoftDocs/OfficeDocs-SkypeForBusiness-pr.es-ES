@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93a3174085f6e42eed1496415122c89b550e61a6
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: ba794c49543740c2b436320d6639454ffb447659
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295336"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532281"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -31,7 +31,7 @@ En este artículo se enumera los problemas conocidos de Microsoft Teams, por ár
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|Directiva EAF en el Kit de herramientas de la experiencia de mitigación mejorado (EMET) incorrectamente puede identificar las optimizaciones de espacio aislado de cromo como amenazas. <br/> |Hay un problema con espacio aislado de cromo en las que la directiva de exportación de dirección tabla acceso filtrado (EAF) en el Kit de herramientas de la experiencia de mitigación mejorado (EMET) incorrectamente puede identificar las optimizaciones de espacio aislado de cromo como amenazas. Esto impide que las fichas en la vista web de los equipos de representación correctamente. <br/> | Desactivar EAF cromo. Puede leer más información sobre el problema [instrucciones de mitigaciones EMET](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) <br/> |11/10/18 <br/> |
+|Directiva EAF en el Kit de herramientas de la experiencia de mitigación mejorado (EMET) incorrectamente puede identificar las optimizaciones de espacio aislado de cromo como amenazas. <br/> |Hay un problema con espacio aislado de cromo en las que la directiva de exportación de dirección tabla acceso filtrado (EAF) en el Kit de herramientas de la experiencia de mitigación mejorado (EMET) y en Defender avanzada amenaza protección (ATP) de Windows puede identificar incorrectamente espacio aislado de cromo optimizaciones de como amenazas. Esto hace que los equipos no funcionen correctamente.  <br/> | Para evitar este problema, desactive EAF para los equipos. Puede leer más información sobre el problema [instrucciones de mitigaciones EMET](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) para obtener más información acerca de la directiva de Windows Defender ATP y EAF, vea [Customize aprovechan la protección](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |11/10/18 <br/> |
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|

@@ -1,9 +1,8 @@
 ---
-title: Planeación de panel de calidad de llamada de Skype para Business Server 2015
+title: Planeación de panel de calidad de llamada de Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 4/27/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,20 +10,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Resumen: Obtenga información sobre lo que debe tener en cuenta al planear para el panel de calidad de llamadas.'
-ms.openlocfilehash: 05411bb62e36350dc9109ca0f8b9d74fc0541946
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 6df705b4d3b39bdd9f75d328277d9aa1c5fc23d1
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296060"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531236"
 ---
-# <a name="plan-for-call-quality-dashboard-for-skype-for-business-server-2015"></a>Planeación de panel de calidad de llamada de Skype para Business Server 2015
+# <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planeación de panel de calidad de llamada de Skype para Business Server 
  
 **Resumen:** Obtenga información sobre lo que debe tener en cuenta al planear para el panel de calidad de llamadas.
   
-## <a name="overview-of-the-skype-for-business-server-2015-call-quality-dashboard"></a>Información general de la Skype para Business Dashboard de calidad de llamada Server 2015
+## <a name="overview-of-the-skype-for-business-server-call-quality-dashboard"></a>Información general de la Skype para Business Dashboard de calidad de llamada de servidor
 
-El Skype para Business Server 2015 llamar calidad panel (CQD) es una capa informes sobre la calidad de experiencia de base de datos en el servidor de supervisión en Skype para Business Server 2015 y Lync Server 2013. CQD utiliza Microsoft SQL Server Analysis Services para proporcionar uso agregado e información sobre la calidad, así como para el filtrado y la creación de tablas dinámicas en el conjunto de datos de llamadas. Las características CQD incluyen:
+El Skype para servidor de llamadas calidad panel (CQD) de negocio es una capa informes sobre la calidad de experiencia de base de datos en el servidor de supervisión en Skype para Business Server. CQD utiliza Microsoft SQL Server Analysis Services para proporcionar uso agregado e información sobre la calidad, así como para el filtrado y la creación de tablas dinámicas en el conjunto de datos de llamadas. Las características CQD incluyen:
   
 - **Almacenamiento de archiving de datos de QoE mediante el componente de archivo QoE de CQD.** El componente de archiving QoE puede almacenar datos de QoE para una duración mucho mayor que el servidor de supervisión puede. Esto permite tendencias e informes para hasta siete meses a partir de datos a la vez, con la capacidad de diapositiva de la ventana de informes medida atrás en que no hay datos.
     
@@ -82,7 +81,7 @@ Los datos CQD se pueden ver a través del Portal de CQD y tener acceso a través
   
 ### <a name="cqd-portal"></a>Portal CQD
 
-El Portal es la manera más rápida de ver los datos del cubo. El Portal incluye varios informes integrados que se pueden usar inmediatamente. Los informes integrados están vinculados de forma estructurada para guiar al usuario a segmentos sucesivamente más pequeños y más pequeños de los datos de llamada. Los informes integrados también resaltan las diferentes formas de que los datos se pueden mostrar con la demostración de una combinación de los gráficos y tablas con tablas dinámicas diferentes, filtros y medidas. Cada usuario que obtiene acceso el Portal puede tener su propio conjunto de informes que éste puede modificar y compartir. Para obtener más información sobre el uso del Portal Web CQD, vea [Usar el panel de calidad de llamadas de Skype para Business Server 2015](use.md).
+El Portal es la manera más rápida de ver los datos del cubo. El Portal incluye varios informes integrados que se pueden usar inmediatamente. Los informes integrados están vinculados de forma estructurada para guiar al usuario a segmentos sucesivamente más pequeños y más pequeños de los datos de llamada. Los informes integrados también resaltan las diferentes formas de que los datos se pueden mostrar con la demostración de una combinación de los gráficos y tablas con tablas dinámicas diferentes, filtros y medidas. Cada usuario que obtiene acceso el Portal puede tener su propio conjunto de informes que éste puede modificar y compartir. Para obtener más información sobre el uso del Portal Web CQD, vea [Usar el panel de calidad de llamadas de Skype para Business Server](use.md).
   
 Sistemas operativos compatibles para CQD Portal: Windows 8.1, Windows 8, Windows Server 2012 R2 y Windows Server 2012.
   
@@ -90,7 +89,7 @@ Exploradores compatibles para CQD Portal: Internet Explorer 11, Internet Explore
   
 ### <a name="rest-apis"></a>API de REST
 
-También se pueden tener acceso a los datos del cubo a través de llamadas a la API de REST. Los datos recuperados a través de las llamadas de API de REST se pueden representar a través de las páginas HTML. Pueden realizar los usuarios aprovechar la velocidad de consulta y el esquema de alto nivel de CQD mientras aún crear informes personalizados se adapten a sus necesidades empresariales. Para obtener más información sobre la API y ejemplos, vea [Desarrollar el panel de calidad de llamadas de Skype para Business Server 2015](develop.md). 
+También se pueden tener acceso a los datos del cubo a través de llamadas a la API de REST. Los datos recuperados a través de las llamadas de API de REST se pueden representar a través de las páginas HTML. Pueden realizar los usuarios aprovechar la velocidad de consulta y el esquema de alto nivel de CQD mientras aún crear informes personalizados se adapten a sus necesidades empresariales. Para obtener más información sobre la API y ejemplos, vea [Desarrollar el panel de calidad de llamadas de Skype para Business Server](develop.md). 
   
 ## <a name="defining-your-organizations-requirements-for-cqd"></a>Definir los requisitos de su organización para CQD
 
@@ -133,7 +132,7 @@ CQD incluye varios componentes y ayuda a comprender los requisitos de cada compo
 
 Todos los componentes CQD y dependientes se puede instalar en un equipo. La configuración de un solo es la configuración más sencilla y permite CQD a ser autónomos. CQD simplemente tendría acceso a la base de datos de métricas de QoE en el servidor de supervisión. El servidor de CQD puede ser un equipo independiente, una máquina virtual, o incluso puede ser el servidor de supervisión, dependiendo de los recursos disponibles del equipo host y los requisitos de rendimiento. 
   
-Durante la instalación, el usuario realiza que la instalación simplemente se necesita para proporcionar a Microsoft SQL Server y las instancias de Microsoft SQL Server Analysis Services que se han previamente configuradas en el equipo donde está el CQD esté instalado. Hacer referencia a [Implementar el panel de calidad de llamadas de Skype para Business Server 2015](deploy-0.md) para obtener más información.
+Durante la instalación, el usuario realiza que la instalación simplemente se necesita para proporcionar a Microsoft SQL Server y las instancias de Microsoft SQL Server Analysis Services que se han previamente configuradas en el equipo donde está el CQD esté instalado. Hacer referencia a [Implementar el panel de calidad de llamadas de Skype para Business Server](deploy-0.md) para obtener más información.
   
 ### <a name="multiserver-configuration"></a>Configuración de varios servidores
 
@@ -238,6 +237,8 @@ Los siguientes sistemas operativos son necesarios para CQD:
 - Windows Server 2012 con IIS 8.0
     
 - Windows Server 2012 R2 con IIS 8,5
+
+- Windows Server 2016 con IIS
     
 Los siguientes son los servicios de rol requeridos de IIS (en orden jerárquico):
   
@@ -289,6 +290,8 @@ Se admiten las siguientes versiones de SQL Server:
 - SQL Server 2012
     
 - SQL Server 2014
+
+- SQL Server 2016
     
 Business Intelligence o Enterprise edition se recomienda por motivos de rendimiento. Estas ediciones de permiten el uso de varios archivos de partición que se pueden procesar en paralelo, lo que es beneficioso para el procesamiento de datos que abarcan varios meses o más larga. 
   

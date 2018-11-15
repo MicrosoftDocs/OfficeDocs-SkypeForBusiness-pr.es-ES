@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Descubra cómo probar o comprar licencias de audioconferencia (conferencia RTC) para Office 365 con el fin de configurar llamadas de conferencia a las que la gente pueda acceder. '
-ms.openlocfilehash: 566cdfdcea7c12c053f8dac43d68ef75a3b29e4b
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: c404e427a83fc8b94d3f2a206e5c9c6b1ded5ed0
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296053"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533096"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Probar o comprar conferencias de Audio en Office 365 para Microsoft Teams
 
@@ -74,7 +74,9 @@ Si es cliente de Volumen y licencias, puede obtener licencias de audioconferenci
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Paso 2: Configurar el proveedor de audioconferencias para las personas que dirigen o programan reuniones
 
-Cuando asigna una licencia de **audioconferencia** a personas de su organización que dirigen o programan reuniones, ¡ya están configuradas y listas para empezar! (No tiene que configurar su proveedor de audioconferencias).
+Cuando asigna una licencia de **Conferencias de Audio** a otras personas de la organización que no tienen Skype para empresa integrado con un proveedor de conferencias de audio de terceros 3ª, son todos los conjunto copia de seguridad y está listo para ir! (No tiene que configurar su proveedor de audioconferencias).
+
+Si ha habilitado con un proveedor de conferencias de audio 3ª parte de los usuarios, debe cambiar el proveedor de aquellos usuarios a Microsoft. Para cambiar el proveedor de usuario, vea [Asignar Microsoft como proveedor de conferencias de audio](assign-microsoft-as-the-audio-conferencing-provider.md).
 
 ## <a name="step-3-other-admin-tasks"></a>Paso 3: Otras tareas de administrador
 

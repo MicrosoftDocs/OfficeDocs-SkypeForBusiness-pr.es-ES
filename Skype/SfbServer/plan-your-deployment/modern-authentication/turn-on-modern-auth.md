@@ -11,19 +11,19 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: En este artículo los cmdlets de esquemas que ofrecen a los administradores más control de métodos de autenticación usado interior y exterior, de una empresa. Los administradores pueden activar los métodos de autenticación o desactivada interna o externamente a su red.
-ms.openlocfilehash: 51dfaf9dc4c65afdd615cf29632c21d4cba08f65
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 57b51a897f476d5c4b4b17ccda8ffe074f8a26cd
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294849"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531105"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planeación desactivar los métodos de autenticación Legacy interna y externamente a su red.
 
 > [!NOTE]
 > Si va a leer este artículo, ya debe conocer acerca de las topologías admitidas autenticación moderno, ADAL, y acerca de la configuración de autenticación moderno, pero, en caso de que no lo hace, aquí están los artículos que necesita para empezar: 
->  + [https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
->  + [https://docs.microsoft.com/en-us/skypeforbusiness/manage/authentication/use-adal](https://docs.microsoft.com/en-us/skypeforbusiness/manage/authentication/use-adal)
+>  + [https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
+>  + [https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal](https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal)
   
 Autenticación moderna no habilita solamente más seguros métodos de autenticación, al igual que la autenticación de dos factores o autenticación basada en certificados, puede llevar a cabo la autorización del usuario sin necesidad de un nombre de usuario o contraseña demasiado. Es muy útil.
 

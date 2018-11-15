@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c95eec7d05d0acb8e49c8236b1e9d5f498869c95
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 4983f8089a5d221a29f67ae25dfa6766751a7394
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295291"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530593"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Instalar Microsoft Teams con MSI
 =================================
@@ -63,9 +63,20 @@ Si un usuario desinstala los equipos de su perfil de usuario, el instalador MSI 
                     
 ## <a name="disable-auto-launch-for-the-msi-installer"></a>Deshabilitar el inicio automático para el instalador MSI
 
-Si desea deshabilitar el inicio automático, escriba el siguiente símbolo del sistema:
+Comportamiento predeterminado de MSI es instalar al cliente de los equipos tan pronto como un usuario inicia sesión y, a continuación, iniciar automáticamente los equipos. Puede modificar este comportamiento con los parámetros debajo de la siguiente manera:
 
+- Cuando un usuario inicia sesión en Windows, los equipos se instalará con el archivo MSI
+- Sin embargo, no se iniciará el cliente de los equipos hasta que el usuario ha iniciado los equipos manualmente
+- Se agregará un acceso directo para iniciar los equipos en el escritorio del usuario
+- Una vez que se inicie manualmente, los equipos se inicio automático cada vez que el usuario inicia sesión
+
+Para la versión de 32 bits
 ```
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 ```
-
+Para la versión de 64 bits
+```
+msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
+```
+> [!Note] 
+>  Si se ejecuta el archivo MSI manualmente, asegúrese de ejecutar con permisos elevados. Incluso si se ejecuta como un administrador, sin ejecutar con permisos elevados, el programa de instalación no podrá configurar la opción para deshabilitar el inicio automático.

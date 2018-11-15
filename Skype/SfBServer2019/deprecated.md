@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumen: Estas características se han quitado de Skype para Business Server 2019.'
-ms.openlocfilehash: 926f5539a31dbcb37ff4ccb5494ccaa7be517d30
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 66366c2272db8d6f605fde6dc066f730543883b6
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294251"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530545"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>¿Qué está en desuso de Skype para Business Server 2019 
 
@@ -25,7 +25,7 @@ Algunas características desaprovisionamiento emphasised se incluyen en Skype pa
 
 ## <a name="features-deprecated-in-skype-for-business-server-2019"></a>Características desusadas en Skype para Business Server 2019 
 
-        The following features and functionality have been deprecated in Skype for Business Server 2019.
+    The following features and functionality have been deprecated in Skype for Business Server 2019.
 
 ### <a name="xmpp-gateways-for-skype-for-business-server"></a>Puertas de enlace XMPP de Skype para Business Server
 
@@ -67,7 +67,7 @@ Las siguientes herramientas no estará disponibles para su uso en la versión in
 
 Las siguientes herramientas no son compatibles con Skype para Business Server 2019:
 
-- Panel de metodología de calidad de llamadas
+- Metodología de calidad de llamadas (pero no llamar al panel de calidad)
 - Cuadro de mandos de metodología de calidad de llamada de Microsoft, v1.5
 - Skype for Business Server 2015 Planning Tool
 - Skype for Business Server 2015 Stress and Performance Tool

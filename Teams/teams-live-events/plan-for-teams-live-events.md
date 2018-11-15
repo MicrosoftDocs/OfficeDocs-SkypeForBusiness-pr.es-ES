@@ -6,16 +6,18 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: tonysmit
+localization_priority: Normal
+MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: Obtenga información sobre los factores a tener en cuenta antes de configurar los eventos en directo en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ebee93a6a4e238e988e1e4ffcb796252d61eeb1
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 0c0ee1ed41f1d906e43f119e6683f772bde32be3
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294645"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532320"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planeación de eventos en directo en Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -103,3 +105,9 @@ Puede usar los eventos de los equipos live en varias regiones en todo el mundo. 
 
 ## <a name="next-steps"></a>Pasos siguientes
 Vaya a [configurar para los equipos eventos en directo](set-up-for-teams-live-events.md).
+
+### <a name="related-topics"></a>Temas relacionados
+- [¿Cuáles son los equipos de eventos en directo?](what-are-teams-live-events.md)
+- [Configurar para los equipos de eventos en directo](set-up-for-teams-live-events.md)
+- [Configurar live configuración de eventos en los equipos](configure-teams-live-events.md)
+

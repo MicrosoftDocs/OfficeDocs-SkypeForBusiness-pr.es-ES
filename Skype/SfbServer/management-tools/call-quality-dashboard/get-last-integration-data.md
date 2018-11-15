@@ -3,24 +3,23 @@ title: Obtener los últimos datos de integración
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
-description: 'Resumen: Obtenga información acerca de la operación Obtener última datos de integración, que es parte de la API de datos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.'
-ms.openlocfilehash: a5b6ee83cab333ebbacbd4986d6550b60dfa65dd
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 'Resumen: Obtenga información acerca de la operación Obtener última datos de integración, que es parte de la API de datos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
+ms.openlocfilehash: b2e759766987b6ee52795845ee55546920181807
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296368"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531790"
 ---
 # <a name="get-last-integration-data"></a>Obtener los últimos datos de integración
  
-**Resumen:** Obtenga información acerca de la operación Obtener última datos de integración, que es parte de la API de datos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server 2015.
+**Resumen:** Obtenga información acerca de la operación Obtener última datos de integración, que es parte de la API de datos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.
   
 La operación de obtener datos de integración de última forma parte de la API de datos para el panel de calidad de llamadas.
   

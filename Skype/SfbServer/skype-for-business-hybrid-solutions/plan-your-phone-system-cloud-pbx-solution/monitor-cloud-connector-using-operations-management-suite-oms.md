@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Lea este tema para obtener información acerca de cómo supervisar la versión 2.1 de conector en la nube y la implementación posterior mediante el uso conjunto de aplicaciones de administración de operaciones de Microsoft (OMS).
-ms.openlocfilehash: 19946c0d7701d2fd31c1b41cae58e08cfdf4c52d
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 36d70a1504eab085d319e46d03c3c6f0bd9d14f3
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295074"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532083"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Supervisar el conector en la nube con el conjunto de aplicaciones de administración de operaciones (OMS)
 
 Lea este tema para obtener información acerca de cómo supervisar la versión 2.1 de conector en la nube y la implementación posterior mediante el uso conjunto de aplicaciones de administración de operaciones de Microsoft (OMS).
 
-Ahora puede supervisar la versión 2.1 de conector en la nube y la implementación posterior mediante el uso conjunto de aplicaciones de administración de operaciones (OMS), una solución de administración de TI de nube de Microsoft. Análisis del registro de OMS le permite supervisar y analizar la disponibilidad y el rendimiento de los recursos incluidos físicos y máquinas virtuales. Para obtener más información acerca de OMS y análisis de registro, vea [¿Qué es el conjunto de aplicaciones de administración de operaciones (OMS)?](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-overview).
+Ahora puede supervisar la versión 2.1 de conector en la nube y la implementación posterior mediante el uso conjunto de aplicaciones de administración de operaciones (OMS), una solución de administración de TI de nube de Microsoft. Análisis del registro de OMS le permite supervisar y analizar la disponibilidad y el rendimiento de los recursos incluidos físicos y máquinas virtuales. Para obtener más información acerca de OMS y análisis de registro, vea [¿Qué es el conjunto de aplicaciones de administración de operaciones (OMS)?](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview).
 
 Este tema incluye las secciones siguientes:
 
@@ -39,11 +39,11 @@ Este tema incluye las secciones siguientes:
 
 Antes de que puede usar OMS para supervisar la implementación del conector de la nube, necesitará lo siguiente:
 
-- **Una cuenta de Azure y un área de trabajo OMS.** Si aún no tiene una cuenta de Azure, debe crear uno para usar el análisis de registro de OMS. Para obtener información acerca de cómo crear una cuenta de Azure y configurar un área de trabajo OMS, vea [Introducción a un área de trabajo de análisis de registro](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-get-started).
+- **Una cuenta de Azure y un área de trabajo OMS.** Si aún no tiene una cuenta de Azure, debe crear uno para usar el análisis de registro de OMS. Para obtener información acerca de cómo crear una cuenta de Azure y configurar un área de trabajo OMS, vea [Introducción a un área de trabajo de análisis de registro](https://docs.microsoft.com/azure/log-analytics/log-analytics-get-started).
 
 - **Conector de nube versión 2.1 o posterior**
 
-- **Nueva búsqueda de registro de análisis de registro** es necesario para la supervisión de conector en la nube. Para obtener más información, vea [actualizar su área de trabajo de análisis de registro de Azure para nueva búsqueda de registro](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-log-search-upgrade).
+- **Nueva búsqueda de registro de análisis de registro** es necesario para la supervisión de conector en la nube. Para obtener más información, vea [actualizar su área de trabajo de análisis de registro de Azure para nueva búsqueda de registro](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search-upgrade).
 
 ## <a name="configure-cloud-connector-to-use-oms"></a>Configurar el conector en la nube para usar OMS
 
@@ -103,7 +103,7 @@ En el portal de OMS, debe especificar información acerca de los registros de ev
      > [!NOTE]
      > Debe escribir manualmente Lync Server en el cuadro de texto. No aparece como una opción en la lista desplegable. 
 
-     Para obtener más información, vea [orígenes de datos de registro de eventos de Windows en el registro de análisis](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-data-sources-windows-events)
+     Para obtener más información, vea [orígenes de datos de registro de eventos de Windows en el registro de análisis](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)
 
 2. Vaya a configuración -\>datos -\> contadores de rendimiento de Windows, y agregar contadores de rendimiento para: 
 
@@ -126,11 +126,11 @@ En el portal de OMS, debe especificar información acerca de los registros de ev
      > [!NOTE]
      > Debe escribir manualmente los contadores de rendimiento en el cuadro de texto. No aparecen como opciones en la lista desplegable. 
 
-     Para obtener más información, vea [orígenes de datos de rendimiento de Windows y Linux en análisis de registro](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-data-sources-performance-counters)
+     Para obtener más información, vea [orígenes de datos de rendimiento de Windows y Linux en análisis de registro](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-performance-counters)
 
 ### <a name="create-alerts"></a>Crear alertas
 
-Hay dos tipos de alertas en OMS: número de alertas de los resultados y métrico. Para obtener más información acerca de cómo crear alertas, vea [trabajar con las reglas de alertas en el registro de análisis](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-alerts-creating).
+Hay dos tipos de alertas en OMS: número de alertas de los resultados y métrico. Para obtener más información acerca de cómo crear alertas, vea [trabajar con las reglas de alertas en el registro de análisis](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts-creating).
 
 Debe tener en cuenta lo siguiente al crear alertas:
 
@@ -158,7 +158,7 @@ Para crear este par de alerta:
 
     La consulta usa el filtro de equipo *donde equipo contiene "MediationServer"* . El filtro selecciona sólo el equipo cuyo nombre contiene la cadena "MediationServer".
 
-     ¿Reemplazar el filtro con su propio filtro del equipo o simplemente quitarlo. Puede crear filtros de cadena compleja sin expresiones regulares. Para obtener más información, vea [operadores de cadena](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators). También puede elegir utilizar expresiones regulares. Además, puede crear un grupo de equipos por guardar una consulta de búsqueda y el uso de ese grupo como el filtro de equipo en la consulta de la alerta. Para obtener más información, vea [grupos de equipo en el registro de análisis iniciar las búsquedas](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-computer-groups).
+     ¿Reemplazar el filtro con su propio filtro del equipo o simplemente quitarlo. Puede crear filtros de cadena compleja sin expresiones regulares. Para obtener más información, vea [operadores de cadena](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators). También puede elegir utilizar expresiones regulares. Además, puede crear un grupo de equipos por guardar una consulta de búsqueda y el uso de ese grupo como el filtro de equipo en la consulta de la alerta. Para obtener más información, vea [grupos de equipo en el registro de análisis iniciar las búsquedas](https://docs.microsoft.com/azure/log-analytics/log-analytics-computer-groups).
 
     Para cada equipo, la consulta de error obtendrá el último registro de eventos para el inicio de servicio RTCMEDSRV y detención del servicio. Devolverá uno inicie sesión si el último evento es el evento de detención del servicio; devolverá nothing si el último evento es el evento de inicio del servicio. En resumen, la consulta devolvería una lista de servidores cuyo RTCMEDSRV se ha detenido en la ventana de tiempo. 
 
@@ -202,7 +202,7 @@ La consulta obtendrá todos los contadores de uso de procesador y eventos de det
 
 ## <a name="analyze-the-alerts-in-your-log-analytics-repository"></a>Analizar las alertas en el repositorio de análisis de registro
 
-Para analizar las alertas en el repositorio, use la solución de administración de alertas. Para obtener más información, vea [solución de administración de alertas en conjunto de aplicaciones de administración de operaciones (OMS)](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-solution-alert-management)
+Para analizar las alertas en el repositorio, use la solución de administración de alertas. Para obtener más información, vea [solución de administración de alertas en conjunto de aplicaciones de administración de operaciones (OMS)](https://docs.microsoft.com/azure/log-analytics/log-analytics-solution-alert-management)
 
 ## <a name="recommended-minimal-monitoring-set"></a>Conjunto de supervisión mínimo recomendado
 
@@ -244,12 +244,12 @@ A continuación enumeran los contadores de la capacidad de llamadas que deben su
 
 Para obtener más información sobre cómo trabajar con OMS, consulte lo siguiente:
 
-- [Buscar datos de uso de búsquedas de registro en el registro de análisis](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-log-searches)
+- [Buscar datos de uso de búsquedas de registro en el registro de análisis](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-searches)
 
 - [Referencia del lenguaje de análisis de registro de Azure](https://docs.loganalytics.io/docs/Language-Reference)
 
-- [Conceptos básicos sobre alertas en el registro de análisis](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-alerts)
+- [Conceptos básicos sobre alertas en el registro de análisis](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts)
 
-- [Conectar los equipos de Windows con el servicio de análisis de registro en Azure](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-windows-agents)
+- [Conectar los equipos de Windows con el servicio de análisis de registro en Azure](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents)
 
 

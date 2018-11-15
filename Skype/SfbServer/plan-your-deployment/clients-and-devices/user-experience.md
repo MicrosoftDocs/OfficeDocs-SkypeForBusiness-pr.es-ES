@@ -14,13 +14,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
-description: 'Resumen: Información sobre el nuevo Skype para la empresa y los pasos que puede realizar para preparar su entorno y a los usuarios para la actualización, si está utilizando de Skype para profesionales en línea, Skype para Business Server 2015, Skype para Business Server 2015, Lync Server 2013, o Lync Server 2010.'
-ms.openlocfilehash: 99a1be886c257c58f007b42ee549b31a2340721a
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 'Resumen: Información sobre el nuevo Skype para la empresa y los pasos que puede realizar para preparar su entorno y a los usuarios para la actualización, si está utilizando de Skype para profesionales en línea, Skype para Business Server 2019, Skype para Business Server 2015, Lync Server 2013, o Lync Server 2010.'
+ms.openlocfilehash: 351582e7a7619541d5401acfb46854f61c9e052d
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294630"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531170"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planear la Skype para la experiencia del cliente empresarial 2015 para los usuarios
  
@@ -120,11 +120,11 @@ Esto es la experiencia predeterminada cuando se implementa el Skype para cliente
 ## <a name="use-the-lync-client-experience-with-skype-for-business-server-on-premises"></a>Usar la experiencia de cliente Lync con Skype Empresarial Server local
 <a name="LyncwithSfBServer"> </a>
 
-Siga los pasos descritos en esta sección si va a configurar la experiencia del cliente Lync en un Skype local para la implementación empresarial Server 2015.
+Siga los pasos descritos en esta sección si va a configurar la experiencia del cliente Lync en un Skype local para la implementación de Business Server.
   
 Siga los pasos de esta sección si desea configurar la experiencia de cliente Skype en una implementación local. Esta es la experiencia predeterminada para un entorno local.
   
- **Paso 1:** En primer lugar, implemente Skype para Business Server 2015.
+ **Paso 1:** En primer lugar, implemente Skype para Business Server.
   
  **Paso 2:** A continuación, utilice una directiva de cliente para establecer la experiencia del cliente Lync con la Skype para clientes empresariales. Hay **3 opciones** para usar una directiva de cliente para establecer la experiencia de cliente.
   

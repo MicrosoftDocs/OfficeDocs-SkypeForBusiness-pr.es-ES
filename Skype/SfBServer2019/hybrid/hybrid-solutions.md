@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Una explicación de las soluciones híbridas disponibles en Skype para Business Server 2019.
-ms.openlocfilehash: 2909f524d1b9984fe01700a89d1bf6dc1b70f100
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 269b0ae5dd7b4fc1cf2bb5f24b9350b745fe56de
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295372"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532751"
 ---
 NOTA: LOS SIGUIENTES SE COPIAN DESDE EL 2015 Y ESTÁ EN CURSO. Contenido de marcador de posición en curso adicionales puede encontrarse [debajo](#placeholder-topic-for-hybrid-solutions).
 
@@ -208,7 +208,7 @@ Para obtener más información, consulte los recursos siguientes:
   
 - [Recursos de arquitectura de TI de la nube de Microsoft](https://aka.ms/clouditarch)
     
-- [Identidad de nube de Microsoft para arquitectos de empresa](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
+- [Identidad de nube de Microsoft para arquitectos de empresa](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
     
 - [Preparar la organización para Office 365 Enterprise](https://aka.ms/O365EntPrep)
     

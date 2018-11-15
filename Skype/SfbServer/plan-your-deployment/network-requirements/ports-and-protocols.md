@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Resumen: Revise las consideraciones de uso del puerto antes de implementar Skype para Business Server.'
-ms.openlocfilehash: 6587bcfa9721362067d70bfc2e15549fa2a8e326
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 3de98f096215c8f703f23081d2b102d3d5c9ffac
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293864"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530876"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de protocolo y puerto para los servidores
  
@@ -49,7 +49,7 @@ En la tabla siguiente se enumeran los puertos que debe abrir en cada rol del ser
 
 |Rol de servidor|Nombre de servicio|Puerto|Protocolo|Notas|
 |:-----|:-----|:-----|:-----|:-----|
-|Todos los servidores  |Explorador SQL  |1434  |UDP  |Explorador SQL para la copia replicada local de la base de datos del Almacén de administración central.  |
+|Todos los servidores  |Explorador SQL  |1434  |UDP  |Explorador SQL para la copia replicada local de la base de datos de almacén de Administración Central.  |
 |Servidores front-end  |Skype para servicio Business Server front-end  |5060  |TCP  |Opcionalmente lo usan los servidores Standard Edition y front-end para rutas estáticas a servicios de confianza, como los servidores de control remoto de llamadas.  |
 |Servidores front-end  |Skype para servicio Business Server front-end  |5061  | TCP (TLS) |Lo usan los servidores Standard Edition y los grupos de servidores front-end para todas las comunicaciones SIP internas entre los servidores (MTLS), para las comunicaciones SIP entre el cliente y el servidor (TLS) y para las comunicaciones SIP entre los servidores front-end y los servidores de mediación (MTLS). También se usa para las comunicaciones con un servidor de supervisión.  |
 | Servidores front-end |Skype para servicio Business Server front-end  |444  | HTTPS <br/> TCP  |Se usa para las comunicaciones HTTPS entre el foco (Skype para el componente de Business Server que administra el estado de la conferencia) y los servidores individuales.  <br/> Este puerto también se utiliza para las comunicaciones TCP entre aplicaciones de sucursal con funciones de supervivencia y servidores Front-End.  |

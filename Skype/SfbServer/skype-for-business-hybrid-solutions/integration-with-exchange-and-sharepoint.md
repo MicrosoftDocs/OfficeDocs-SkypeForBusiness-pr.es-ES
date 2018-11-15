@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Resumen: Conozca Skype para la integración de Business Server 2015 con Exchange y SharePoint.'
-ms.openlocfilehash: f90e6c4724905edafdf0b8c6d3aec5f50d7a3996
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 8d080174ab5560384478c1320d09bc218ef8543b
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294054"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530610"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Integración con Exchange y SharePoint
 
@@ -48,7 +48,7 @@ Las siguientes tablas enumeran las características admitidas en una implementac
 |Publicar el estado según la información de disponibilidad del calendario de Outlook  <br/> ||
 |Lista de contactos (por medio del almacén de contactos unificado)  <br/> |Requiere Exchange 2016 o Exchange 2013.  <br/> Se requiere un Lync 2013 o Skype para el cliente de escritorio empresarial.  <br/>  Para obtener más información, vea [Configurar Skype para Business Server 2015 usar el almacén de contactos unificados](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md).  <br/> |
 |Alta resolución foto del contacto en el cliente Lync 2013, Skype para clientes empresariales y Lync Web App.  <br/> |Requiere Exchange 2016 o Exchange 2013.  <br/> Para obtener más información, vea [Configurar el uso de fotografías de alta resolución en Skype para Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
-|Delegación de reuniones  <br/> |Se admite solo cuando ambos usuarios están hospedados en línea en el mismo bosque o ambos están hospedados localmente. Para obtener más información, vea [Skype para soluciones híbridas de negocio](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
+|Delegación de reuniones  <br/> |Se admite solo cuando ambos usuarios están hospedados en línea en el mismo bosque o ambos están hospedados localmente. Para obtener más información, vea [Skype para soluciones híbridas de negocio](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Registros de llamadas y el historial de conversaciones perdidas se escriben en el buzón de exchange del usuario  <br/> ||
 |Contenido de archivado (mensajería instantánea y reuniones) en Exchange  <br/> |Requiere Exchange 2016 o Exchange 2013.  <br/> Para obtener más información, vea [Lista de comprobación de implementación para el archivado](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
 |Buscar contenido archivado  <br/> |Requiere Exchange 2016 o Exchange 2013.  <br/> |
@@ -68,7 +68,7 @@ Las siguientes tablas enumeran las características admitidas en una implementac
 |Publicar el estado según la información de disponibilidad del calendario de Outlook  <br/> ||
 |Lista de contactos (por medio del almacén de contactos unificado).  <br/> |Lync Server 2013. Se requiere un Lync 2013 o Skype para el cliente de escritorio empresarial.  <br/> Para obtener más información, vea [Configurar Skype para Business Server 2015 usar el almacén de contactos unificados](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md) <br/> |
 |Alta resolución foto del contacto en el cliente Lync 2013, Skype para clientes empresariales y Lync Web App.  <br/> |Para obtener más información, vea [Configurar el uso de fotografías de alta resolución en Skype para Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
-|Delegación de reuniones  <br/> |Se admite solo cuando ambos usuarios están hospedados en línea en el mismo bosque o ambos están hospedados localmente. Para obtener más información, vea [Skype para soluciones híbridas de negocio](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
+|Delegación de reuniones  <br/> |Se admite solo cuando ambos usuarios están hospedados en línea en el mismo bosque o ambos están hospedados localmente. Para obtener más información, vea [Skype para soluciones híbridas de negocio](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Registros de llamadas y el historial de conversaciones perdidas se escriben en el buzón de Exchange del usuario  <br/> ||
 |Contenido de archivado (mensajería instantánea y reuniones) en Exchange  <br/> |Para obtener más información, vea [Lista de comprobación de implementación para el archivado](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
 |Buscar contenido archivado  <br/> |Si desea más información, vea [Configurar Exchange para el Centro de exhibición de documentos electrónicos de SharePoint en](https://go.microsoft.com/fwlink/p/?LinkId=285448). <br/> |
@@ -87,7 +87,7 @@ Las siguientes tablas enumeran las características admitidas en una implementac
 |Publicar el estado según la información de disponibilidad del calendario de Outlook  <br/> ||
 |Registros de llamadas y el historial de conversaciones perdidas se escriben en el buzón de exchange del usuario  <br/> ||
 |Fotografías de alta resolución contacto en Lync 2013 o Skype para clientes empresariales.  <br/> |Requiere Exchange 2016 o Exchange 2013. No se admite en Lync Web App cuando los usuarios están hospedados en Skype para profesionales en línea.  <br/> |
-|Delegación de reuniones  <br/> |Se admite solo cuando ambos usuarios están hospedados en línea en el mismo bosque o ambos están hospedados localmente. Para obtener más información, vea [Skype para soluciones híbridas de negocio](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
+|Delegación de reuniones  <br/> |Se admite solo cuando ambos usuarios están hospedados en línea en el mismo bosque o ambos están hospedados localmente. Para obtener más información, vea [Skype para soluciones híbridas de negocio](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Registros de llamadas y el historial de conversaciones perdidas se escriben en el buzón de Exchange del usuario  <br/> ||
 |Historial de conversaciones en el servidor  <br/> ||
 
@@ -106,7 +106,7 @@ Las siguientes tablas enumeran las características admitidas en una implementac
 |Registros de llamadas y el historial de conversaciones perdidas se escriben en el buzón de exchange del usuario  <br/> ||
 |Lista de contactos (por medio del almacén de contactos unificado)  <br/> |Lync Server 2013 o Skype para clientes empresariales necesarios  <br/> |
 |Fotografías de alta resolución contacto en Lync 2013, Skype para clientes empresariales y Lync Web App  <br/> ||
-|Delegación de reuniones  <br/> |Se admite solo cuando ambos usuarios están hospedados en línea en el mismo bosque o ambos están hospedados localmente. Para obtener más información, vea [Skype para soluciones híbridas de negocio](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
+|Delegación de reuniones  <br/> |Se admite solo cuando ambos usuarios están hospedados en línea en el mismo bosque o ambos están hospedados localmente. Para obtener más información, vea [Skype para soluciones híbridas de negocio](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Contenido de archivado (mensajería instantánea y reuniones) en Exchange  <br/> ||
 |Buscar contenido archivado  <br/> ||
 |Correo de voz  <br/> ||

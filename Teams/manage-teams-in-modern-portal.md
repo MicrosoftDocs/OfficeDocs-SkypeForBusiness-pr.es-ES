@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8d517ce7f2fb614a22c45fcf63d59a7d46b606f
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: cf9c10640b132aeea352875f2a5acafe5cd6d377
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295026"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531451"
 ---
 <a name="manage-teams-in-the-microsoft-teams--skype-for-business-admin-center"></a>Administrar los equipos de Microsoft Teams & Skype para el centro de administración de negocio
 ==========================================
@@ -34,7 +34,7 @@ Como un administrador de TI, es posible que necesite vista o actualización de l
 - Administrador global
 - Administrador de servicios de Teams
 
-Encontrará más información acerca de las funciones de administración en Microsoft Teams [aquí](using-admin-roles.md), y pueden leer más información acerca de cómo usar los cmdlets de PowerShell para la administración de equipos en la [referencia del cmdlet de equipos de Microsoft](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps).  
+Encontrará más información acerca de las funciones de administración en Microsoft Teams [aquí](using-admin-roles.md), y pueden leer más información acerca de cómo usar los cmdlets de PowerShell para la administración de equipos en la [referencia del cmdlet de equipos de Microsoft](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
 
 En este artículo se proporciona una visión general de las herramientas de administración de equipos en el Microsoft Teams & Skype para el centro de administración de negocio.
 
@@ -91,7 +91,7 @@ Se registran los cambios que realice en un equipo. Si modifica la configuración
 
 ## <a name="learn-more"></a>Más información
 
-[Referencia del cmdlet de Microsoft Teams](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps)  
+[Referencia del cmdlet de Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
 [Roles de administrador en Microsoft Teams](using-admin-roles.md)
 <!--
 [Plan for Teams Lifecycle Management](plan-for-teams-lifecycle-management.md)
