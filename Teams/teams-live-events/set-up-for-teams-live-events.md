@@ -1,5 +1,5 @@
 ---
-title: Configurar para eventos en directo en Microsoft Teams
+title: Definir eventos en directo en Microsoft Teams
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
@@ -14,14 +14,14 @@ description: Aprenda los pasos para configurar live para los eventos de los equi
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a92f227b7f625da02e003622c8ff87e744206443
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 08dd8c431f31fef8dc30f72f4944c2ba907850cc
+ms.sourcegitcommit: 2be5458d05fab32771845f855201126a87303b95
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532666"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "26548833"
 ---
-# <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar para eventos en directo en Microsoft Teams
+# <a name="set-up-for-live-events-in-microsoft-teams"></a>Definir eventos en directo en Microsoft Teams
 
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
@@ -31,7 +31,7 @@ Cuando se está estableciendo para eventos en directo, hay varios pasos que debe
 Eventos en directo de inicio rápido requieren para [Preparar la red de su organización para que los equipos de Microsoft](https://docs.microsoft.com/microsoftteams/prepare-network).  
 
 ## <a name="step-2-get-and-assign-licenses"></a>Paso 2: obtener licencias y asignarlas
-Asegúrese de que tiene asignaciones de licencia correcta para [quién puede crear y programar eventos en directo?](#who-can-create-and-schedule-live-events) y [quién puede ver los eventos en directo?](#who-can-watch-live-events).
+Asegúrese de que tiene asignaciones de licencia correcta para [quién puede crear y programar eventos en directo](plan-for-teams-live-events.md#who-can-create-and-schedule-live-events) y [quién puede ver los eventos en directo](plan-for-teams-live-events.md#who-can-watch-live-events).
 
 ## <a name="step-3-set-up-live-events-policies"></a>Paso 3: Configurar las directivas de eventos en directo
 Las directivas se utilizan para controlar quién en la organización puede contener eventos en directo y las características que están disponibles en los eventos que se crean de eventos en directo. Puede usar la directiva predeterminada o crear uno o más personalizado live directivas de eventos. Después de crear una directiva personalizada, asignar a un usuario o grupos de usuarios de la organización.
