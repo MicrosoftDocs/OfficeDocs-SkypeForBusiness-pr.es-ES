@@ -13,16 +13,19 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8529adfafcac9e00bf97dc358944d83f31cd7722
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5becca716ad4790cc0b156dd15895e66fea7d836
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371861"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26539044"
 ---
 # <a name="plan-for-governance-in-teams"></a>Plan de gobierno en los equipos
 
 Los equipos proporciona un amplio conjunto de herramientas para implementar cualquier capacidades de gobierno, es posible que requiere su organización. En este artículo es una guía para profesionales de TI para las preguntas adecuadas para determinar los requisitos para el gobierno y cómo cumplirlos. 
+
+> [!Tip] 
+> Vea la sesión siguiente para obtener más información acerca de más información acerca del gobierno en Microsoft Teams: [gobierno, administración y ciclo de vida en los equipos de Microsoft](https://aka.ms/teams-governance)
 
 ## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>Creación de grupo y de equipo, nomenclatura, clasificación y acceso de invitado
 

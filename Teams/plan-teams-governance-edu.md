@@ -13,14 +13,17 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 867c5c6a2c4a2bf3456e7956ad1a212ccd75f317
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 687012404713bcbfcb8ecf86efa8af36b8eb0a59
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014502"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26539068"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Gobierno de Microsoft Education preguntas más frecuentes para los administradores
+
+> [!Tip]
+> Vea la sesión siguiente para obtener más información acerca de más información acerca de la administración en Microsoft Teams: [gobierno, administración y ciclo de vida en los equipos de Microsoft](https://aka.ms/teams-governance)
 
 ## <a name="how-do-i-control-team-creation-im-worried-students-are-going-to-create-inappropriate-teams"></a>¿Cómo controlar la creación del equipo? Le preocupa a los alumnos va a crear equipos inapropiados.
 

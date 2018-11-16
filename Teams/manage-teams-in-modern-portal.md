@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf9c10640b132aeea352875f2a5acafe5cd6d377
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 14ab474289e5a677e1125df7146ba7c5a6fc2ca1
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531451"
+ms.locfileid: "26539060"
 ---
 <a name="manage-teams-in-the-microsoft-teams--skype-for-business-admin-center"></a>Administrar los equipos de Microsoft Teams & Skype para el centro de administración de negocio
 ==========================================
@@ -34,13 +34,16 @@ Como un administrador de TI, es posible que necesite vista o actualización de l
 - Administrador global
 - Administrador de servicios de Teams
 
-Encontrará más información acerca de las funciones de administración en Microsoft Teams [aquí](using-admin-roles.md), y pueden leer más información acerca de cómo usar los cmdlets de PowerShell para la administración de equipos en la [referencia del cmdlet de equipos de Microsoft](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
+También debe asegurarse de que su cuenta se ha asignado una licencia de los equipos que no sean de prueba para la administración. Como parte de un problema conocido, debe asegurarse de que su cuenta tiene sólo **una** función Administrador asignada.  Encontrará más información acerca de las funciones de administración en Microsoft Teams en [roles de administrador de utilizar equipos de Microsoft para administrar los equipos](using-admin-roles.md)y puede leer más información acerca de cómo usar los cmdlets de PowerShell para la administración de equipos en la [referencia del cmdlet de equipos de Microsoft](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
 
 En este artículo se proporciona una visión general de las herramientas de administración de equipos en el Microsoft Teams & Skype para el centro de administración de negocio.
 
 ## <a name="teams-overview-grid"></a>Cuadrícula de visión general de los equipos
 
-Herramientas de administración de los equipos se encuentran en el nodo de **los equipos** en el Microsoft Teams & Skype para el centro de administración de negocio. (En el centro de administración, seleccione **los equipos** > **administrar equipos**.) Cada equipo se respaldadas por un grupo de Office 365, y este nodo proporciona una vista de todos los grupos que se han habilitado para los equipos de la organización de Microsoft.
+Herramientas de administración de los equipos se encuentran en el nodo de **los equipos** en el Microsoft Teams & Skype para el centro de administración de negocio. (En el centro de administración, seleccione **los equipos** > **administrar equipos**.) Cada equipo se respaldadas por un grupo de Office 365, y este nodo proporciona una vista de grupos que se han habilitado para los equipos de la organización de Microsoft.
+
+> [!NOTE]
+> Estamos en el proceso de recuperación de información creado previamente equipos para asegurarse de que se mostrará en esta vista.
 
 ![Cuadrícula de visión general de los equipos](media/manage-teams-in-modern-portal-image1.png)  
 
@@ -80,7 +83,6 @@ Puede cambiar los siguientes elementos de un equipo:
 - **Canales** : puede agregar nuevos canales o quitar canales existentes.  No se puede eliminar el canal "General" de forma predeterminada y una vez creados sólo se puede editar el nombre del canal, no descripción.
 - **Nombre del equipo**
 - **Descripción de equipo**
-- **Fotografía de equipo**
 - **Privacidad del equipo** - público o privado
 - **Clasificación de equipo** - respaldados por sus clasificaciones de grupo de Office 365
 - **Configuración del miembro de equipo** : configuración de miembro de equipo seleccione

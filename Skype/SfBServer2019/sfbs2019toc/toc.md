@@ -7,7 +7,7 @@
 ### [Actualizaciones de clientes](../../SfbServer/sfb-client-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Actualizaciones de servidor](../../SfbServer/sfb-server-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
-## Soluciones híbridas
+## Soluciones híbridas para equipos y Skype para la empresa
 ### [Planeación de la conectividad híbrida](../hybrid/plan-hybrid-connectivity.md)
 ### [Configurar conectividad híbrida](../hybrid/configure-hybrid-connectivity.md)
 #### [Configurar Azure Connect de AD para entornos híbridos](../hybrid/configure-azure-ad-connect.md)
@@ -15,6 +15,7 @@
 #### [Configurar un entorno de varios bosque](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
 ### [Mover usuarios de local a Skype para profesionales en línea](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
 ### [Mover usuarios de local a los equipos](../hybrid/move-users-from-on-premises-to-teams.md)
+### [Integración con Exchange y SharePoint](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
 ## Planificar
 ### [Conceptos básicos de topología](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)

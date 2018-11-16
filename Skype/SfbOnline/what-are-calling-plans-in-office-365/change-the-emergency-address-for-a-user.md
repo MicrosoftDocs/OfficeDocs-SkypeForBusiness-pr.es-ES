@@ -20,13 +20,14 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Consulte los pasos sobre cómo cambiar la dirección de emergencia de un usuario para que funcione con la red telefónica conmutada pública (RTC) en Estados Unidos y Europa. '
-ms.openlocfilehash: e27ea228972ceead0838cff481a0db983c503b02
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: 'Procedimiento para cambiar la dirección de emergencia de un usuario para que funcione con la pública teléfono red conmutada (RTC) en Estados Unidos y Europa. '
+ROBOTS: NOINDEX
+ms.openlocfilehash: 8dac43120fafa1a98e441b983b673e78d2a24d75
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347105"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26538963"
 ---
 # <a name="change-the-emergency-address-for-a-user"></a>Cambiar la dirección de emergencia de un usuario
 

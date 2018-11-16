@@ -1,5 +1,5 @@
 ---
-title: Pertinente de datos de Microsoft Teams
+title: Ubicación de los datos en Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d640dfd7d907f95167813f87ba82393923c3b1e
-ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
+ms.openlocfilehash: 163de21b41b584dc1961a1b8655b51f1f2e62668
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25004573"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26539052"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Ubicación de los datos en Microsoft Teams
 

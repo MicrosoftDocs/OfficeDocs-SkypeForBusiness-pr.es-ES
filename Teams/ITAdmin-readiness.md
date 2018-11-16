@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Vídeos de aprendizaje, tutoriales y otros recursos para los administradores acerca de cómo planear, implementación y ejecutan Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73c2163557706066f079f3ce61c1d4d3c58ed906
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 21a55aed41443ed0a1411384579cfad2acda7de5
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533130"
+ms.locfileid: "26538972"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 
@@ -165,6 +165,7 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
                         <h3>Planear e implementar</h3>
                          <p><a href="quick-start-enable-teams.md">Inicio rápido: Guía de planificación de Microsoft Teams</a></p>
                          <p><a href="http://aka.ms/teams-clients">Vídeo: Cliente de escritorio de Windows de los equipos</a></p>
+                         <p><a href="http://aka.ms/teams-governances">Vídeo: Gobierno, administración y ciclo de vida en Microsoft Teams</a></p>
                     </div>
                 </div>
             </div>

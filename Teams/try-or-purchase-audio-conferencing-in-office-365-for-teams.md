@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Descubra cómo probar o comprar licencias de audioconferencia (conferencia RTC) para Office 365 con el fin de configurar llamadas de conferencia a las que la gente pueda acceder. '
-ms.openlocfilehash: c404e427a83fc8b94d3f2a206e5c9c6b1ded5ed0
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 1b04a2506bd495165afcdf3e9f41ed6db6cd9252
+ms.sourcegitcommit: bd32d44d27990e373ce6afa38897159473601113
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533096"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "26544407"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Probar o comprar conferencias de Audio en Office 365 para Microsoft Teams
 
@@ -76,7 +76,7 @@ Si es cliente de Volumen y licencias, puede obtener licencias de audioconferenci
 
 Cuando asigna una licencia de **Conferencias de Audio** a otras personas de la organización que no tienen Skype para empresa integrado con un proveedor de conferencias de audio de terceros 3ª, son todos los conjunto copia de seguridad y está listo para ir! (No tiene que configurar su proveedor de audioconferencias).
 
-Si ha habilitado con un proveedor de conferencias de audio 3ª parte de los usuarios, debe cambiar el proveedor de aquellos usuarios a Microsoft. Para cambiar el proveedor de usuario, vea [Asignar Microsoft como proveedor de conferencias de audio](assign-microsoft-as-the-audio-conferencing-provider.md).
+Si ha habilitado con un proveedor de conferencias de audio 3ª parte de los usuarios, debe cambiar el proveedor de los usuarios a Microsoft. Para cambiar el proveedor para un usuario, consulte [Asignar Microsoft como proveedor de conferencias de audio](/Skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).
 
 ## <a name="step-3-other-admin-tasks"></a>Paso 3: Otras tareas de administrador
 

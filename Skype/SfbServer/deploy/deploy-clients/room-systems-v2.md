@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este artículo para obtener más información sobre la implementación de sistemas de salón de Skype v2.
-ms.openlocfilehash: 39704e044d5a5210d47a0347790f5602a3086270
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 7d9a24b69c1e91c5193f67b6bdc321981265cda7
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26510648"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26539075"
 ---
 # <a name="deployment-overview"></a>Introducción general a la implementación
 
@@ -100,7 +100,7 @@ Para que pueda administrar e informe en el equipo de sistemas de salón de Skype
 Definir un grupo de Active Directory o Azure AD local para agregar todas las cuentas de servicio (usuario) v2 de sistemas de salón de Skype a y, a continuación, crear informes de uso mediante el cmdlet Get-CSUserSession PowerShell a través de la implementación de sistemas de salón de Skype v2. Por ejemplo, cree un grupo denominado SkypeRoomSystemsv2 cuentas de servicio. 
 
 
-Defina una unidad organizativa en la jerarquía de Active Directory o Azure AD local para contener todas las cuentas de máquina de sistemas de salón de Skype v2 (si se está unido al dominio) y una unidad organizativa para que contenga todas las cuentas de usuario de sistemas de salón de Skype v2. Si crea una unidad organizativa para las cuentas de máquina de sistemas de salón de Skype v2, considere la posibilidad de deshabilitar la herencia para asegurarse de que se aplican sólo a las directivas pensado para aplicar a la sala de Skype unido a un dominio, Systemsv2. 
+Defina una unidad organizativa en la jerarquía de Active Directory o Azure AD local para contener todas las cuentas de máquina de sistemas de salón de Skype v2 (si se está unido al dominio) y una unidad organizativa para que contenga todas las cuentas de usuario de sistemas de salón de Skype v2. Si crea una unidad organizativa para las cuentas de máquina de sistemas de salón de Skype v2, considere la posibilidad de deshabilitar la herencia para asegurarse de que se aplican sólo a las directivas pensado para aplicar a la v2 de Skype salón sistemas unidos a un dominio. 
 
 Crear un objeto de directiva de grupo asignado a la unidad organizativa que contiene las cuentas de equipo de sistemas de salón de Skype. Utilice esta página para: 
 
@@ -128,7 +128,7 @@ Cada dispositivo v2 de sistemas de salón de Skype requiere una cuenta de recurs
 
 **Sugerencia pro** – Asegúrese de nombres de la presentación para estas cuentas descriptivo y fácil de entender. Estos son los nombres que los usuarios verán cuando busca y adición de Skype salón sistemas v2 a las reuniones. Algunas organizaciones utilizan la convención de *sitio*-*Nombre del salón*(*Capacidad de la sala Max*)-RS, por ejemplo Curie — una sala de conferencias de 12-persona en Londres, podría tener el nombre para mostrar LON CURIE (12)-RS. 
 
-<!-- If your organization has many conference rooms that require multiple, provisioned accounts, you might want to use [Skype Room Systems Accounts Provisioning Scripts](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) to bulk-provision multiple service accounts in an automated fashion. -->
+Si su organización tiene muchos salas de conferencias que requieren varios, aprovisionadas cuentas, es posible que desea utilizar [Skype salón de sistemas de cuentas de aprovisionamiento de secuencias de comandos](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) para aprovisionar de forma masiva varias cuentas de servicio de forma automática.
 
 
 |    |     |
