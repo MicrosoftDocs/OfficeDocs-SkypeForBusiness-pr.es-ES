@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: El nuevo Skype para el área de informes del centro de administración empresarial muestra realiza la llamada y audio conferencia actividad en la organización. Permite profundizar en los informes para proporciona una idea más granular acerca de las actividades de cada usuario. Por ejemplo, puede usar el informe Detalles de uso de RTC de Skype Empresarial para ver el número de minutos dedicados a llamadas entrantes y salientes, así como el coste de dichas llamadas. Puede ver detalles de uso de RTC de conferencia de Audio incluido el costo de la llamada para que pueda comprender su uso y llamar a los detalles de facturación para determinar el uso dentro de la organización.
-ms.openlocfilehash: 6003199b69395001dc47d77f83927ac32e06e5a4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e4af77832cca1cd2a9d9de49aa83f4400c359277
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862245"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561650"
 ---
 # <a name="pstn-usage-report"></a>Informe de uso de RTC
 
@@ -92,7 +92,9 @@ Este es el aspecto del informe.
      *    **MCOPSTN5** - nacionales llamar a Plan (plan llamada 120 minutos) 
      *    **MCOPSTN6** - nacionales llamar a Plan (plan de llamadas de 240 min) Nota: disponibilidad limitada
      *    **MCOMEETADD** - conferencias de Audio
-     *    **MCOMEETACPEA** - pago por minuto conferencias de Audio 
+     *    **MCOMEETACPEA** - pago por minuto conferencias de Audio
+> [!NOTE]
+> También es posible que vea "no hay datos" en algunos campos. "No hay datos" significa que el campo no es aplicable para el tipo de llamada o la capacidad. 
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>Haga clic para arrastrar una columna a **Para agrupar por una columna concreta, arrastre y coloque el encabezado de columna aquí** si desea crear una vista que agrupe todos los datos de una o más columnas.
  ***

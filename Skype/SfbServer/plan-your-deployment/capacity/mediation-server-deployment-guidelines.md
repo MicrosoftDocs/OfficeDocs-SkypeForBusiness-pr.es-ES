@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: En este tema se describe las instrucciones de planeación para la implementación de servidor de mediación.
-ms.openlocfilehash: 0e5568b93e0edb0b30bf3edf0893f5eb43ac8d19
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0b22a285be9e04929d53faffb58e0f7a3f8f3750
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967936"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561903"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>Instrucciones de implementación para el servidor de mediación en Skype para Business Server
  
@@ -48,13 +48,13 @@ Puede usar el Skype para la herramienta de planeación de negocio para evaluar s
 > [!NOTE]
 > La omisión de medios no interactuará con todas las puertas de enlace RTC, sistemas IP-PBX y SBC. Microsoft ha probado una serie de puertas de enlace RTC y SBC con asociados certificados y ha realizado algunas pruebas con los IP-PBX de Cisco. Desvío de medios es compatible solo con productos y versiones que aparecen en Unified Communications Open Interoperability Program - Lync Server en [Explorar probado dispositivos, infraestructura y las herramientas que admiten y extensión su Skype para que la experiencia empresarial](http://partnersolutions.skypeforbusiness.com/solutionscatalog). 
   
-Si se requiere la resistencia de la sucursal, una aplicación de sucursal con funciones de supervivencia o una combinación de un servidor Front-End, un servidor de mediación y una puerta de enlace debe estar implementado en el sitio de sucursal. (La suposición de resistencia de la sucursal es que presencia y conferencia no son resistentes en el sitio). Para obtener instrucciones sobre la planeación de voz de sitio de sucursal, consulte nuestra documentación de [planeación para la resistencia de voz del sitio de sucursal](https://technet.microsoft.com/en-us/library/gg398477%28v=ocs.15%29.aspx) , como debería ser relevante para Skype para Business Server 2015.
+Si se requiere la resistencia de la sucursal, una aplicación de sucursal con funciones de supervivencia o una combinación de un servidor Front-End, un servidor de mediación y una puerta de enlace debe estar implementado en el sitio de sucursal. (La suposición de resistencia de la sucursal es que presencia y conferencia no son resistentes en el sitio). Para obtener orientación sobre planeación de voz de sitio de sucursal, consulte [Plan para la resistencia de Enterprise Voice en Skype para Business Server](../enterprise-voice-solution/enterprise-voice-resiliency.md).
   
 Para las interacciones con un IP-PBX, si el IP-PBX no admite correctamente anticipado interacciones de medios con varios diálogos iniciales y las interacciones de RFC 3960, puede haber algunas palabras del saludo para las llamadas entrantes de la IP-PBX a extremos de Lync el recorte de la primera. Este comportamiento puede ser más grave si un servidor de mediación en un sitio central es enrutamiento de llamadas para un sistema IP-PBX donde finaliza la ruta en un sitio de sucursal, ya que se necesita más tiempo para señalización para llevar a cabo. Si experimenta este comportamiento, la implementación de un servidor de mediación en el sitio de sucursal es la única forma para reducir el recorte de la primera primeras palabras.
   
 Por último, si el sitio central tiene una PBX TDM, o si el IP-PBX no elimina la necesidad de una puerta de enlace de RTC, debe implementar una puerta de enlace en la ruta de llamada de conexión de servidor de mediación y el sistema PBX.
   
 > [!NOTE]
-> Para mejorar el rendimiento de medios del servidor de mediación independiente, es necesario habilitar el ajuste de escala en lado de recepción (RSS) en los adaptadores de red de estos servidores. RSS permite que los paquetes entrantes se administren en paralelo por varios procesadores en el servidor. Para obtener información detallada, consulte "[Mejoras de escala en el lado de recepción en Windows Server](https://go.microsoft.com/fwlink/p/?LinkId=268731)". Para obtener más detalles sobre cómo habilitar RSS, mira la documentación de tu adaptador de red. 
+> Para mejorar el rendimiento de medios del servidor de mediación independiente, es necesario habilitar el ajuste de escala en lado de recepción (RSS) en los adaptadores de red de estos servidores. RSS permite que los paquetes entrantes se administren en paralelo por varios procesadores en el servidor. Para obtener información detallada, consulte "[Mejoras de escala en el lado de recepción en Windows Server](https://go.microsoft.com/fwlink/p/?LinkId=268731)". Para más información sobre cómo habilitar RSS, vea la documentación de su adaptador de red. 
   
 

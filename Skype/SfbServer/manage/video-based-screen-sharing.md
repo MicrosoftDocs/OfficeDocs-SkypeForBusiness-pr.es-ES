@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype para obtener información de planeación y configuración de Business Server para vídeo compartida basado en pantalla (VbSS)
-ms.openlocfilehash: 8541bb0dc3b5791c670a3beac77560b3c9663733
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 450a6ab5550c00e91e2d9772d954dc8f51d38156
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531627"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561924"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Vídeo según el uso compartido de la pantalla de Skype para Business Server 
  
@@ -60,7 +60,7 @@ También debe saber que se ha dejado de lado parte de la fidelidad/precisión de
 Si QoS está habilitado para los siguientes puertos de medios y VbSS también está habilitada, durante una conferencia que incluye el uso compartido de escritorio en que la MCU AS usará la configuración de puertos de vídeo que se muestra negrita a continuación para el tráfico de recurso compartido de la pantalla. 
   
 > [!IMPORTANT]
-> Estos valores se encuentran un caso especial y se debe usar esta configuración exacta al implementar ambas de estas características. Esto reemplaza otra configuración recomendada en la [documentación de QoS](https://technet.microsoft.com/en-us/library/gg405409%28v=ocs.15%29.aspx). También tendrá que especificar ASMCUSVC.exe en el GPO de QoS además de definir estos valores de puerto el uso compartido de aplicaciones de fo. 
+> Estos valores se encuentran un caso especial y se debe usar esta configuración exacta al implementar ambas de estas características. Esto reemplaza otra configuración recomendada en la [documentación de QoS](https://technet.microsoft.com/en-us/library/gg405409%28v=ocs.15%29.aspx). Para uso compartido de aplicaciones también tendrá que especificar ASMCUSVC.exe en el GPO de QoS además de definir estos valores de puerto. 
   
 **Servidor de aplicación de QoS/VbSS la configuración necesaria**
 

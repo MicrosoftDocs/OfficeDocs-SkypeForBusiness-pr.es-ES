@@ -3,25 +3,24 @@ title: ¿Qué está en desuso de Skype para Business Server 2019
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 7/10/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumen: Estas características se han quitado de Skype para Business Server 2019.'
-ms.openlocfilehash: 66366c2272db8d6f605fde6dc066f730543883b6
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 399c5f219ae5a088c4e7f8aa40f40344885d571e
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530545"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561614"
 ---
-# <a name="whats-deprecated-from-skype-for-business-server-2019"></a>¿Qué está en desuso de Skype para Business Server 2019 
+# <a name="whats-deprecated-from-skype-for-business-server-2019"></a>¿Qué está en desuso de Skype para Business Server 2019
 
 Obtenga información sobre las características y funciones que están en desuso en Skype para Business Server 2019. Para obtener información acerca de las nuevas características de Skype para Business Server 2019, consulte [Novedades en Skype para Business Server 2019](whats-new.md).
 
-Algunas características desaprovisionamiento emphasised se incluyen en Skype para Business Server 2019 para la compatibilidad con versiones anteriores del producto. 
+Algunas características desaprovisionamiento emphasised se incluyen en Skype para Business Server 2019 para la compatibilidad con versiones anteriores del producto.
 
 ## <a name="features-deprecated-in-skype-for-business-server-2019"></a>Características desusadas en Skype para Business Server 2019 
 
@@ -31,12 +30,11 @@ Algunas características desaprovisionamiento emphasised se incluyen en Skype pa
 
 Skype para Business Server 2015 y sus predecesoras permite configurar un proxy de mensajería Extensible y protocolo de presencia (XMPP) en el servidor perimetral y una puerta de enlace de XMPP en el grupo de servidores Front-End o de servidor Front-End. Esta funcionalidad ya no está disponible en Skype para Business Server 2019.
 
-
 ### <a name="persistent-chat-for-skype-for-business-server"></a>Persistent Chat de Skype para Business Server
 
 Persistent Chat Server es un rol opcional que permite a varios usuarios de la organización participar en conversaciones de salón de chat que persisten a lo largo del tiempo. Chat en grupo no se puede implementar con Skype para Business Server 2019. Esta función de servidor se ha quitado el generador de topología, así como desde el código. 
 
-La misma funcionalidad está disponible en los equipos. Para obtener más información, vea [viaje de Skype para la empresa a los equipos de Microsoft](/microsoftteams/journey-skypeforbusiness-teams).   
+La misma funcionalidad está disponible en los equipos. Para obtener más información, vea [viaje de Skype para la empresa a los equipos de Microsoft](/microsoftteams/journey-skypeforbusiness-teams).
 
 ### <a name="sql-mirroring-for-skype-for-business-server"></a>Creación de reflejos SQL para Skype para Business Server
 
@@ -46,7 +44,7 @@ La creación de reflejos de SQL no se puede implementar con Skype para Business 
 
 Las actualizaciones en contexto estaban disponibles en Skype para Business Server 2015, pero ya no se admiten en Skype para Business Server 2019. En paralelo se admite la actualización y coexistencia, consulte [migración de Skype para Business Server 2019](migration/migration-to-skype-for-business-server-2019.md) para obtener más información.
 
-###  <a name="mobility-service-mcx"></a>Servicio de movilidad (Mcx)
+### <a name="mobility-service-mcx"></a>Servicio de movilidad (Mcx)
 
 Compatibilidad con el servicio movilidad usado por los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Anteriormente se presentó en Skype para Business Server 2015.
 

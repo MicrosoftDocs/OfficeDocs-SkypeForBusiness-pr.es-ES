@@ -1,5 +1,5 @@
 ---
-title: Equipos de Microsoft - actualización viaje de Skype para la empresa a los equipos de Microsoft - preguntas más frecuentes
+title: 'Preguntas frecuentes: recorrido de actualización desde Skype Empresarial a Microsoft Teams - Microsoft Teams'
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6371e0a13bc029706b25cdb576602f18ab9b43b0
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: e733d38bf914080274332abfffbd33c5eaddba50
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533152"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561743"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Preguntas frecuentes: recorrido desde Skype Empresarial a Microsoft Teams
 
@@ -35,7 +35,7 @@ Como los usuarios están trabajando en equipos más, vemos la oportunidad de for
 
 ### <a name="is-there-a-firm-deadline-by-which-customers-need-to-move-from-skype-for-business-online-to-teams"></a>¿Existe un plazo concreto para que los clientes pasen de Skype Empresarial Online a Microsoft Teams?
 
-Hemos realizado nuestra guía básica para los equipos disponibles para que pueden evaluar las capacidades de los equipos con respecto a sus necesidades y planear su traspaso a los equipos de los clientes. Los clientes pueden decidir cuáles son los tiempos que más le convienen para cambiar a Microsoft Teams. Un buen método para permanecer en la parte superior noticias sobre el viaje de Skype para empresas para los equipos es el [Skype para la empresa a la guía básica de las capacidades de los equipos de Microsoft](https://aka.ms/skype2teamsroadmap): puede descargarse el PDF (en solo en inglés, al menos por ahora) que proporciona a las expectativas actuales de Microsoft acerca de Skype para capacidades de negocio que incide en los equipos.
+Los clientes pueden decidir cuáles son los tiempos que más le convienen para cambiar a Microsoft Teams. Para los clientes que no es un proceso bastante listos para actualizar, aún pueden obtener los beneficios de los equipos mediante la adopción junto con Skype para la empresa. Para obtener más información, lea [comprender los equipos y Skype para la interoperabilidad y coexistencia de negocio](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>¿Qué futuro le espera a Skype Empresarial Server?
 
