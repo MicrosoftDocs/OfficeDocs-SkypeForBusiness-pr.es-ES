@@ -1,5 +1,5 @@
 ---
-title: Obtenga recursos para planear la implantación de toda la organización de Microsoft Teams
+title: Conseguir recursos para planificar el despliegue de Microsoft Teams en toda su organización
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2b831f419cb5f78f19248aaeaf9f8b12cb8765e
-ms.sourcegitcommit: 9928fd21818ecd031f0bdde1124401dc3d2a933f
+ms.openlocfilehash: cd2055a6449e29c53a3f0609110710a213631600
+ms.sourcegitcommit: 4dd2598efbfd4789587b9d816b69017817e0203b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26538040"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26622281"
 ---
-# <a name="get-resources-to-plan-your-organization-wide-rollout-of-microsoft-teams"></a>Obtenga recursos para planear la implantación de toda la organización de Microsoft Teams
+# <a name="get-resources-to-plan-your-organization-wide-rollout-of-microsoft-teams"></a>Conseguir recursos para planificar el despliegue de Microsoft Teams en toda su organización
 
 Ahora que se ha configurado correctamente los equipos de primera, onboarded un grupo inicial de usuarios mientras que dirigen el uso, es el momento para buscar en el plan de ir directa a implementar los equipos en el resto de la organización durante la marcha adopción.
 
@@ -32,6 +32,6 @@ La sección [Adoptar los equipos](adopt-microsoft-teams-landing-page.md) de nues
 
 ## <a name="let-us-know-what-you-think"></a>Díganos qué le parece
 
-Tómese un minuto para compartir sus ideas en este Get started sección completando [esta breve encuesta](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4LAPvZJykZPhSy1f9kvlZdURFVYS0k5V0xNQ1UwQlE3VzlDWUZYQU42WS4u). Es totalmente anónimo. 
+¿: memo: se completará <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4LAPvZJykZPhSy1f9kvlZdURFVYS0k5V0xNQ1UwQlE3VzlDWUZYQU42WS4u" target="_blank">esta encuesta</a> (tarda aproximadamente un minuto) para Cuéntenos su opinión de esta sección para **empezar a trabajar** ? Es anónima.
 
 También puede hacer comentarios para un artículo específico, vaya a la sección de **comentarios** de ese artículo. 
