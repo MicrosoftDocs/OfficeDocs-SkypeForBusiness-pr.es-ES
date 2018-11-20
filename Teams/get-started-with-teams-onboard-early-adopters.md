@@ -1,5 +1,5 @@
 ---
-title: Primeros usuarios incorporados a Microsoft Teams
+title: Incorporar usuarios pioneros en Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fa0b8971e6809b2488f6926f4acf0df898760f4
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 4f5f4b0732aab299a2cf4038547dfa9b6bf4562d
+ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26520076"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26620102"
 ---
-# <a name="onboard-early-adopters-to-microsoft-teams"></a>Primeros usuarios incorporados a Microsoft Teams
+# <a name="onboard-early-adopters-to-microsoft-teams"></a>Incorporar usuarios pioneros en Microsoft Teams
 
 ## <a name="invite-users-to-teams"></a>Invitar a usuarios a los equipos
 
@@ -52,7 +52,7 @@ Saltar a: [Los equipos para Windows](#teams-for-windows) | [equipos para Mac](#t
 El cliente de escritorio de los equipos proporciona a los usuarios de Windows y Mac la mejor experiencia general. Para obtener más información, vea [requisitos de Hardware para la aplicación de los equipos de Microsoft](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app)y [obtener los clientes para los equipos (cliente de escritorio)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client) .
 
 > [!NOTE]
-> Como administrador, puede elegir el método para distribuir los archivos de instalación en los equipos de la organización, como System Center Configuration Manager (Windows) o Jamf Pro (Mac OS). Para obtener el
+> Como administrador, puede elegir el método para distribuir los archivos de instalación en los equipos de la organización, como System Center Configuration Manager (Windows) o Jamf Pro (Mac OS).
 
 #### <a name="teams-for-windows"></a>Equipos para Windows 
 Es la forma más sencilla para instalar al cliente de escritorio de Windows:

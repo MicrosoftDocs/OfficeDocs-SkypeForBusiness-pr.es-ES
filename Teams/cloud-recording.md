@@ -1,24 +1,25 @@
 ---
-title: Grabación de la reunión de los equipos en la nube
+title: Grabación de reuniones en la nube de Teams
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
+ms.reviewer: sonua
 search.appverid: MET150
 description: Guía práctica para implementar características de voz en la nube en Microsoft Teams.
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ae144405375daa818f334fdf5be85e75cd4f6b1
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 1819aa33dd951483754f4c00377865460a3765ff
+ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532887"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26620086"
 ---
-# <a name="teams-cloud-meeting-recording"></a>Grabación de la reunión de los equipos en la nube
+# <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
 > [!Note]
 > [!INCLUDE [preview-feature](includes/preview-feature.md)]
@@ -46,7 +47,7 @@ En esta sección se explica cómo puede configurar y planeación para grabar las
 
 ### <a name="enable-microsoft-stream-for-users-in-the-organization"></a>Habilitar Microsoft Stream para los usuarios de la organización
 
-Microsoft Stream está disponible como parte de suscripciones a Office 365 optan o como un servicio independiente.  Vea la [información general sobre licencias de secuencia](https://docs.microsoft.com/stream/license-overview) para obtener más detalles.  Tenga en cuenta que Microsoft Stream no se incluye en Business Essentials o planes de Business Premium.
+Microsoft Stream está disponible como parte de suscripciones a Office 365 optan o como un servicio independiente.  Vea la [información general sobre licencias de secuencia](https://docs.microsoft.com/stream/license-overview) para obtener más detalles.  Microsoft Stream ahora se incluye en Microsoft 365 Business, Business Premium de Office 365 y Office 365 para el negocio.
 
 Obtenga más información acerca de cómo se pueden [asignar licencias a los usuarios de Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) para que los usuarios pueden tener acceso a Microsoft Stream. Asegúrese de que Microsoft Stream no está bloqueado para los usuarios, como se define en [este artículo](https://docs.microsoft.com/stream/disable-user-organization).
 
