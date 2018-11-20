@@ -1,7 +1,7 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Formación presencial para Microsoft Teams
+title: Formación dirigida por instructor para Microsoft Teams
 description: Regístrese para obtener impartidos por clases conocer todos los equipos de Microsft.
 author: dearbeen
 ms.topic: hub-page
@@ -9,16 +9,16 @@ ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: 4909c14205cd34b664603a33fcc469fc260674b9
-ms.sourcegitcommit: e33aa9ff5afa0c40b0bb4af67d2328c1a58c7f02
+ms.openlocfilehash: ea7ccef2f9411e0a851b421e131a77f454470132
+ms.sourcegitcommit: be8b6383261358e91dcb79bf819502b8b7ac6526
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25540288"
+ms.lasthandoff: 11/19/2018
+ms.locfileid: "26618603"
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Formación presencial para Microsoft Teams</h1>
+        <h1>Formación dirigida por instructor para Microsoft Teams</h1>
         <ul class="pivots">
             <li>
                 <a href="#tab1">Formación presencial</a>
@@ -28,7 +28,7 @@ ms.locfileid: "25540288"
                         <ul id="tab1-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Microsoft está interesado hospedar una serie de clases de aprendizaje en línea, live gratuita diseñadas para poner en funcionamiento y en ejecución con los equipos. Si usted es una toma de decisiones, administración, para profesionales de TI o usuarios finales, encontrará una clase que es el adecuado para usted. Únase a nosotros para ver los equipos en acción, obtener respuestas a sus preguntas e interactuar con nuestros instructores live.<br><br> Haga clic en un mosaico para registrar.</p>
+                                    <p>Microsoft está interesado hospedar una serie de clases de aprendizaje en línea, live gratuita diseñadas para poner en funcionamiento y en ejecución con los equipos.Si usted es una toma de decisiones, administración, para profesionales de TI o usuarios finales, encontrará una clase que es el adecuado para usted. Únase a nosotros para ver los equipos en acción, obtener respuestas a sus preguntas e interactuar con nuestros instructores live. ¿Está buscando de <a href="https://docs.microsoft.com/microsoftteams/enduser-training">capacitación de usuario final y a petición</a>?<br><br>Haga clic en un mosaico para registrar.</p>
                                 </div>
                             </li>
                             <li>
@@ -81,7 +81,7 @@ ms.locfileid: "25540288"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Administración de la actualización de Skype para la empresa a los equipos</h3>
-                                                <p>Implementar una actualización correcta de Skype para la empresa a los equipos y de planificar (audiencia: profesionales de TI, administradores de cambio de adopción)</p>
+                                                <p>Implementar una actualización correcta a los equipos y de planificar (audiencia: profesionales de TI, administradores de cambio de adopción)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -108,18 +108,18 @@ ms.locfileid: "25540288"
                             </a>
                         </li>
                         <li>
-                            <a href="https://docs.microsoft.com/MicrosoftTeams/enduser-training">
+                            <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-TrainingVideos-400x140.svg" alt="a video play symbol" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-EndUser-400x140.svg" alt="A call agent, a graduation cap, and a list symbol" data-linktype="external"/>
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Obtenga vídeos y recursos de aprendizaje a petición</h3>
-                                                <p>Obtener los equipos del usuario final de aprendizaje y vídeo a petición para usted y sus usuarios.</p>
+                                                <h3>Sugerencias y trucos</h3>
+                                                <p>Comprender y creativos formas de optimizar y organizar los equipos en su trabajo cotidiano. (Audiencia: los usuarios finales)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -137,7 +137,7 @@ ms.locfileid: "25540288"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Equipos en el ámbito educativo - seminarios Web</h3>
+                                                <h3>Equipos para el ámbito educativo - seminarios Web</h3>
                                                 <p>Obtenga información sobre cómo usar los equipos de enseñanza superior. (Audiencia: personal, los alumnos, académicos, de la investigación profesores, profesionales de TI)</p>
                                             </div>
                                         </div>
