@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 523530647834fa2c54d18d983f25733bbe25d1be
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 67685fc79f2d2cd1f3ef9f76f6802f73119be43a
+ms.sourcegitcommit: be8b6383261358e91dcb79bf819502b8b7ac6526
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372652"
+ms.lasthandoff: 11/19/2018
+ms.locfileid: "26618548"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Asignar propietarios de equipo y miembros en Microsoft Teams
 =================================================
@@ -28,26 +28,28 @@ ms.locfileid: "25372652"
 
 En Microsoft Teams existen dos roles de usuario: **propietario** y **miembros**. De forma predeterminada, un usuario que crea un nuevo equipo se concede el estado de propietario. Si se crea un equipo de un grupo de 365 existente de Office, los permisos se heredan.
 
-En la tabla siguiente se muestra la diferencia entre un propietario y un miembro:
+En la tabla siguiente muestra la diferencia de permisos entre un propietario y un miembro.
 
 
 |                                   | Propietario de equipo | Miembro de equipo |
 |-----------------------------------|------------|-------------|
-|          **Crear equipo**          |    Sí     |     No      |
+|          **Crear equipo**          |    Sí<sup>1</sup>     |     No      |
 |          **Abandonar equipo**           |    Sí     |     Sí     |
 |  **Editar nombre o descripción del equipo**   |    Sí     |     No      |
 |          **Eliminar equipo**          |    Sí     |     No      |
-|          **Agregar canal**          |    Sí     |    Sí\*    |
-| **Editar nombre o descripción del canal** |    Sí     |    Sí\*    |
-|        **Eliminar canal**         |    Sí     |    Sí\*    |
-|          **Agregar miembros**          |  Sí\*\*   |     No      |
-|           **Agregar fichas**            |    Sí     |    Sí\*    |
-|        **Agregar conectores**         |    Sí     |    Sí\*    |
-|           **Agregar bots**            |    Sí     |    Sí\*    |
+|          **Agregar canal**          |    Sí     |    Sí<sup>2</sup>|
+| **Editar nombre o descripción del canal** |    Sí     |    Sí<sup>2</sup>|
+|        **Eliminar canal**         |    Sí     |    Sí<sup>2</sup>|
+|          **Agregar miembros**          |  Sí<sup>3</sup>   |     No      |
+|           **Agregar fichas**            |    Sí     |    Sí<sup>2</sup>|
+|        **Agregar conectores**         |    Sí     |    Sí<sup>2</sup>|
+|           **Agregar bots**            |    Sí     |    Sí<sup>2</sup>|
 
-\*Estos elementos se pueden desactivar un propietario en un nivel de equipo, en cuyo caso los miembros no tienen acceso a ellos.
+<sup>1</sup> los propietarios de equipo pueden crear equipos a menos que ha ha restringido de hacerlo. Vea "Permisos para crear los equipos" más adelante.
+>
+<sup>2</sup> estos elementos se pueden desactivar un propietario en un nivel de equipo, en cuyo caso los miembros no tienen acceso a ellos.
 
-\*\*Tras agregar un miembro a un equipo, un propietario también puede promover un miembro al estado Propietario. También es posible que un propietario disminuya su propio estado a Miembro.
+<sup>3</sup> después de agregar a un miembro a un equipo, un propietario también puede ascender a un miembro al estado de propietario. También es posible para un propietario disminuir el nivel de su propio estado para un miembro.
 
 
 

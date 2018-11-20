@@ -1,5 +1,5 @@
 ---
-title: Administrar las características de Microsoft Teams en su organización de Office 365
+title: Administrar características de Microsoft Teams en su organización de Office 365
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,14 +15,14 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7411494c3baa56c1761ee3bcd69c2d49fdd4a961
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: ae8cd105d3f6f9e3524033ddbf98e85c1c657c6d
+ms.sourcegitcommit: be8b6383261358e91dcb79bf819502b8b7ac6526
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533170"
+ms.lasthandoff: 11/19/2018
+ms.locfileid: "26618556"
 ---
-# <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Administrar las características de Microsoft Teams en su organización de Office 365
+# <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Administrar características de Microsoft Teams en su organización de Office 365
 
 Todas las opciones de los equipos pronto se van a migrar a la nueva Microsoft Teams & Skype para el centro de administración de negocio. La única característica de los equipos que se administra en el centro de administración de Office 365 es las aplicaciones. 
 
@@ -119,3 +119,7 @@ Aquí puede elegir la aplicación que los usuarios utilizarán para unirse a Sky
 ## <a name="how-can-i-tell-which-features-are-available"></a>¿Cómo puedo saber qué características están disponibles?
 
 Vea la [Guía básica de Office 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) para obtener información acerca de las nuevas características de los equipos. Para obtener más información acerca de las características nuevas y futuras, consulte la página equipos [What ' s New](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) y el [blog de equipos de la Comunidad de Microsoft Tech](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531) para los equipos. 
+
+## <a name="more-information"></a>Más información
+
+Para obtener información sobre qué funciones pueden realizar funciones de administración, consulte [roles de administrador de equipos de uso de Microsoft para administrar los equipos](using-admin-roles.md).
