@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: badafff1ec2ca596828bdbcb7547cf777e08b432
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a987b6079b10a3deaf6a76dd2629be59b52a2007
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016560"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626242"
 ---
 # <a name="what-are-communications-credits"></a>¿Qué son los Créditos de comunicaciones?
 
@@ -55,7 +55,7 @@ Créditos de comunicaciones son una forma cómoda de pago para los minutos de co
   
 ## <a name="what-are-the-communications-credits-rates"></a>¿Cuáles son las tasas de créditos de comunicaciones?
 
-Si se pregunta cómo cuáles son el costo de las llamadas para llamar a los planes, consulte planes de créditos Communications [tasas de llamada](https://products.office.com/skype-for-business/pstn-calling-plans#Rates) .
+Si se pregunta cómo cuáles son el costo de las llamadas para llamar a los planes, consulte planes de créditos Communications [tasas de llamada](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates) .
   
 ## <a name="what-is-it"></a>¿Qué es?
 
@@ -89,7 +89,7 @@ Si está listo para establecer esto Subir todo, vea [Configurar Communications c
 
 Puede ver los planes y precios, visite uno de los siguientes vínculos:
   
-- [Planes de llamadas](https://go.microsoft.com/fwlink/?linkid=799761)
+- [Planes de llamada](https://go.microsoft.com/fwlink/?linkid=799761)
     
 - [Audioconferencia](https://go.microsoft.com/fwlink/?linkid=799762)
     

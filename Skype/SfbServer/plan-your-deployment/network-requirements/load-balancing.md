@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Resumen: Revise el equilibrio consideraciones antes de implementar Skype para Business Server de carga.'
-ms.openlocfilehash: cb0b1d8c77a4953ed7950d85bd198bfdd4823961
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 9c0153d9b366731a85070c42ed11ea1a061ee409
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882269"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626194"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Requisitos del equilibrio de carga para Skype Empresarial
  
@@ -34,7 +34,7 @@ Decidir por sí mismo qué solución de equilibrio de carga es adecuada para cad
     
 - Algunos tipos de tráfico requieren un equilibrador de carga de hardware. Por ejemplo, el tráfico HTTP requiere un equilibrador de carga de hardware en lugar del equilibrio de carga de DNS. El equilibrio de carga de DNS no funciona con tráfico web del cliente al servidor.
     
-Si decide usar el equilibrio de carga de DNS para un grupo, pero aún tiene que implementar equilibradores de carga de hardware para el tráfico, como el tráfico HTTP, la administración de los equilibradores de carga de hardware será mucho más sencilla. Por ejemplo, configurar el equilibrador de carga de hardware será más sencillo, pues solamente administrará el tráfico HTTPS y HTTP, mientras que el equilibrio de carga de DNS administrará todos los demás protocolos. Para obtener información detallada, vea [El equilibrio de carga de DNS](load-balancing.md#BKMK_DNSLoadBalancing). 
+Si decide usar el equilibrio de carga de DNS para un grupo, pero aún tiene que implementar equilibradores de carga de hardware para el tráfico, como el tráfico HTTP, la administración de los equilibradores de carga de hardware será mucho más sencilla. Por ejemplo, configurar el equilibrador de carga de hardware será más sencillo, pues solamente administrará el tráfico HTTPS y HTTP, mientras que el equilibrio de carga de DNS administrará todos los demás protocolos. Para más detalles, consulte [DNS Load Balancing](load-balancing.md#BKMK_DNSLoadBalancing). 
   
 Para el tráfico de servidor a servidor, Skype para Business Server usa el equilibrio de carga conscientes de la topología. Servidores leen la topología publicada en el almacén de Administración Central para obtener los FQDN de los servidores de la topología y distribuyen automáticamente el tráfico entre los servidores. Los administradores no necesitan configurar ni administrar este tipo de equilibrio de carga. 
   
@@ -73,7 +73,7 @@ A continuación se muestran los requisitos de equilibrador de carga de hardware 
     
 - La interfaz perimetral interna debe estar en una red distinta a la interfaz externa del servidor perimetral y debe deshabilitar el enrutamiento entre ellas. 
     
-- La interfaz externa del servidor perimetral que ejecuta el servicio perimetral A/v debe usar públicamente direcciones IP enrutables y ninguna NAT o traducción de puerto en cualquiera de las direcciones IP de servidor perimetral externas. 
+- La interfaz externa del servidor perimetral que ejecuta el servicio perimetral A/v debe usar direcciones IP enrutables públicamente y ninguna NAT o traducción de puerto en cualquiera de las direcciones IP de servidor perimetral externas. 
     
 - El equilibrador de carga no necesita cambiar la dirección de origen del cliente.
     
@@ -109,7 +109,7 @@ Si se implementan dispositivos móviles, es preciso que el equilibrador de carga
 > Los equilibradores de carga de hardware F5 tienen una característica llamada OneConnect que asegura que cada solicitud dentro de una conexión TCP tenga carga equilibrada individualmente. Si va a implementar dispositivos móviles, asegúrese de que su proveedor del equilibrador de carga de hardware admita la misma función. Las últimas aplicaciones móviles que utilizan Apple iOS requieren la versión 1.2 de la seguridad de la capa de transporte (TLS). Para ellos, F5 proporciona una configuración específica. 
   
 > [!CAUTION]
-> Para obtener información detallada en los equilibradores de carga de hardware de terceros, vea [infraestructura de Skype para la empresa](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
+> Para más detalles sobre los equilibradores de carga de hardware de terceros, consulte [Infraestructura para Skype Empresarial](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
   
 A continuación, se muestran los requisitos del equilibrador de carga de hardware para los servicios web del grupo de servidores front-end y de directores:
   
@@ -284,7 +284,7 @@ Para implementar el equilibrio de carga de DNS en un grupo de servidores de medi
 ### <a name="blocking-traffic-to-a-server-with-dns-load-balancing"></a>Bloquear tráfico a un servidor con equilibrio de carga de DNS
 <a name="BK_Mediation"> </a>
 
-Si utiliza el equilibrio de carga de DNS y necesita bloquear el tráfico a un equipo específico, no es suficiente con solo quitar las entradas de direcciones IP del FQDN del grupo de servidores. También es preciso quitar la entrada de DNS para el equipo. 
+Si utiliza el equilibrio de carga de DNS y necesita bloquear el tráfico a un equipo específico, no es suficiente con solo quitar las entradas de direcciones IP del grupo FQDN. También necesita quitar la entrada de DNS para el equipo. 
   
 Tenga en cuenta que para el tráfico de servidor a servidor, Skype para Business Server usa el equilibrio de carga conscientes de la topología. Servidores leen la topología publicada en el almacén de Administración Central para obtener los FQDN de los servidores de la topología y distribuyen automáticamente el tráfico entre los servidores. Para bloquear un servidor para que no reciba tráfico de servidor a servidor, necesita quitar el servidor de la topología. 
   

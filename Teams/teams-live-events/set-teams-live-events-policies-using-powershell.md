@@ -1,5 +1,5 @@
 ---
-title: Uso de PowerShell para establecer directivas de eventos en directo en Microsoft Teams
+title: Usar PowerShell para establecer directivas de eventos en directo en Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ MS.collection: Teams_ITAdmin_Help
 description: Ejemplos de cómo usar PowerShell para establecer directivas en los equipos para controlar quién puede contener eventos en directo en la organización y las características que están disponibles en los eventos que crean
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f802c2b67c0a4cd4b0838dd9aeec9c4bbf884968
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c198711d918914bbd6a1929514d7c2e9aa7dfe00
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26535968"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626226"
 ---
-# <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Uso de PowerShell para establecer directivas de eventos en directo en Microsoft Teams
+# <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Usar PowerShell para establecer directivas de eventos en directo en Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Puede usar los siguientes cmdlets de Windows PowerShell para establecer y asignar a configuraciones de directiva para eventos en directo en los equipos: 
@@ -82,15 +82,15 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 
 Crear una nueva directiva que no permite la programación de eventos en directo, ejecute:
 ```
-New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingpolicy
+New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy
 ```
 Deshabilitar la programación de eventos en directo, ejecute:
 ```
-Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingpolicy -AllowBroadcastScheduling $false
+Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -AllowBroadcastScheduling $false
 ```
 A continuación, asignar a usuarios a esta directiva, ejecute:
 ```
-Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingpolicy -Verbose
+Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
 ```
 **Desea deshabilitar el evento en directo de programación para un gran número de los usuarios y permitir que un conjunto de usuarios a programarlas**
 

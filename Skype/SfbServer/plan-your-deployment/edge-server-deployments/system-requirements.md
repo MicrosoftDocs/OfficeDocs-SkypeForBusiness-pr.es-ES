@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Resumen: Obtenga información sobre los requisitos del sistema para el servidor perimetral en Skype para Business Server.'
-ms.openlocfilehash: 05adb2fb0a4224699cf4465932eba1e7a85761e5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 16cc2a5e640872fe8c57113c7aaca588efab121a
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374874"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626163"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Requisitos del sistema del servidor de bordes en Skype para Business Server
  
@@ -156,7 +156,7 @@ Para cualquier servidor perimetral que ejecuta el servicio perimetral A/v, estos
     
 - La interfaz perimetral interna debe estar en una red distinta a la interfaz externa del servidor perimetral, y debe deshabilitar el enrutamiento entre ellas.
     
-- La interfaz externa de cualquier servidor perimetral que ejecuta el servicio perimetral A/v debe usar públicamente direcciones IP enrutables y ninguna NAT o traducción de puerto en cualquiera de las direcciones IP de servidor perimetral externas.
+- La interfaz externa de cualquier servidor perimetral que ejecuta el servicio perimetral A/v debe usar direcciones IP enrutables públicamente y ninguna NAT o traducción de puerto en cualquiera de las direcciones IP de servidor perimetral externas.
     
 #### <a name="hlb-requirements"></a>Requisitos de HLB
 

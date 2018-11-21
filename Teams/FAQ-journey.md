@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e733d38bf914080274332abfffbd33c5eaddba50
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 865da90f5b6c9ffc13694692a67ab092d05c755a
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561743"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626179"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Preguntas frecuentes: recorrido desde Skype Empresarial a Microsoft Teams
 
@@ -39,7 +39,7 @@ Los clientes pueden decidir cuáles son los tiempos que más le convienen para c
 
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>¿Qué futuro le espera a Skype Empresarial Server?
 
-Sabemos que los clientes utilizan Skype para empresariales locales y muchas necesidad para seguir usando Skype para empresarial local para algunos usuarios o ubicaciones geográficas debido a sus requisitos. Skype para Business Server 2019 se lanzó en octubre de 2019.
+Sabemos que los clientes utilizan Skype para empresariales locales y muchas necesidad para seguir usando Skype para empresarial local para algunos usuarios o ubicaciones geográficas debido a sus requisitos. Skype para Business Server 2019 se lanzó en octubre de 2018.
 
 ### <a name="what-will-happen-to-the-skype-brand"></a>¿Qué va a suceder con la marca Skype?
 
