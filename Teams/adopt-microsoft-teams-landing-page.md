@@ -12,12 +12,12 @@ ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26f1a5c4c928b0a6b97d9eac83c5c913389a2a52
-ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
+ms.openlocfilehash: 106c8bf9a36a55d63164c570933f39eccafa3b12
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26625746"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626257"
 ---
 # <a name="adopt-microsoft-teams"></a>Adoptar Microsoft Teams
 
@@ -122,7 +122,7 @@ Si es una empresa pequeña, o si desea desplegar chat a partir de los equipos, l
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Training" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Training" />
                         </div>
                     </div>
                     <div class="cardText">
