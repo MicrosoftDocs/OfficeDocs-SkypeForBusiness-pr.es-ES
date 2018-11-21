@@ -1,5 +1,5 @@
 ---
-title: Adoptar los equipos de Microsoft
+title: Adoptar Microsoft Teams
 description: Use estos recursos de adopción que le ayudarán a planear e implementar Microsoft Teams en su organización.
 layout: LandingPage
 ms.topic: landing-page
@@ -12,14 +12,14 @@ ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd69ba3592b23acdc963b8438e35ef998a3ceec1
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 26f1a5c4c928b0a6b97d9eac83c5c913389a2a52
+ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26520068"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26625746"
 ---
-# <a name="adopt-microsoft-teams"></a>Adoptar los equipos de Microsoft
+# <a name="adopt-microsoft-teams"></a>Adoptar Microsoft Teams
 
 Si es una empresa pequeña, o si desea desplegar chat a partir de los equipos, los equipos & canales y reuniones, usan nuestra orientación preceptiva de inicio rápido, que está diseñado para hacer copia de seguridad y a la ejecución de fast. Si es una organización grande con un híbrido o local Skype para la configuración empresarial, o si desea implantar las características de voz (como Office 365 llamar a planes o sistema telefónico), puede iniciar con nuestra guía de inicio rápido, pero necesita adicionales orientación a continuación, en **más profunda instrucciones de adopción**.
 
@@ -109,6 +109,24 @@ Si es una empresa pequeña, o si desea desplegar chat a partir de los equipos, l
                     </div>
                     <div class="cardText">
                         <h3>Formación y certificación</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/microsoftteams/adopt-tools-and-downloads">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Training" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Herramientas y descargas</h3>
                     </div>
                 </div>
             </div>

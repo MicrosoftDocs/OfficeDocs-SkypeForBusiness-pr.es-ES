@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f7f4dcc7ce15549384bbdd5485bed9fbe7b7ef5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 98112579a33d633e4303bbf4f395f508b955eb8e
+ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012412"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26625677"
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>Inicio rápido: Guía de planificación de Microsoft Teams
 ==========================================================
@@ -49,7 +49,7 @@ Vea este breve vídeo con sencillas instrucciones que se deben tener en cuenta a
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
-Si Microsoft Teams no está habilitado en su inquilino de Office 365 y es un administrador de Office 365, siga las instrucciones que aparecen en nuestro artículo [Administrar el acceso de los usuarios a Teams](user-access.md) para garantizar que los usuarios tengan acceso a la aplicación.
+Si Microsoft Teams no está habilitado en el inquilino de Office 365 y son un Office 365 administrador seguir las instrucciones que aparecen en nuestro artículo [administrar el acceso de usuarios a los equipos](user-access.md) para asegurarse de los usuarios tienen acceso a la aplicación.
 
 ## <a name="step-3-complete-technical-planning"></a>Paso 3: complete la planificación técnica
 
@@ -60,7 +60,7 @@ Una planificación técnica eficiente es la base para una experiencia de usuario
 3.  [URL de Office 365 e intervalos de direcciones IP](office-365-urls-ip-address-ranges.md)
 4.  [Acceso de invitado a Teams](guest-access.md)
 
-Además, para algunas organizaciones puede ser interesante leer [Información general de seguridad y cumplimiento en Microsoft Teams](security-compliance-overview.md).
+Además, algunas organizaciones desean revisar la [información general de seguridad y cumplimiento de normas en los equipos](security-compliance-overview.md).
 
 
 ## <a name="step-4-conduct-pilots-and-deploy-teams"></a>Paso 4: realice pruebas piloto e implemente Microsoft Teams

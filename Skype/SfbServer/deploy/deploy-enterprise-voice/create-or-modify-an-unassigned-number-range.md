@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Crear, modificar o eliminar los intervalos numéricos sin asignar para la aplicación de anuncio en Skype para Business Server Enterprise Voice. Esto afecta a cómo se administran las llamadas a números sin asignar.
-ms.openlocfilehash: ca8b3e621da3b479bcc650584ed2aea7669f07e1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 519f4b753314325b1af71f11f94ea669e78148a1
+ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372716"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26625669"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Crear o modificar un intervalo de números sin asignar en Skype para Business Server
  
@@ -40,7 +40,7 @@ Use uno de los siguientes procedimientos para configurar los intervalos numéric
   
 ### <a name="to-use-skype-for-business-server-control-panel-to-configure-unassigned-phone-numbers"></a>Usar Skype para el Panel de Control de Business Server para configurar los números de teléfono sin asignar
 
-1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como un miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener información detallada, vea **Delegar permisos de instalación**.
+1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para más información, consulte **Delegate Setup Permissions**.
     
 2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.  
     
@@ -95,7 +95,7 @@ Use uno de los siguientes procedimientos para configurar los intervalos numéric
 3. Use **New-CsUnassignedNumber** para crear un nuevo intervalo numérico sin asignar. Usar **Set-CsUnassignedNumber** para modificar un intervalo numérico sin asignar existente.
     
     > [!TIP]
-    > Si tiene intervalos solapados y desea que se apliquen en un orden específico, incluya el parámetro Prioridad. Se aplicará a la llamada el intervalo con la máxima prioridad. 
+    > Si tiene intervalos solapados y desea que se apliquen en un orden específico, incluya el parámetro Prioridad. Se aplicará a la llamada el intervalo con la máxima prioridad. El valor 0 representa la prioridad más alta.
   
     En la línea de comandos, realice una de las acciones siguientes:
     
@@ -133,7 +133,7 @@ Use uno de los siguientes procedimientos para configurar los intervalos numéric
 
 ### <a name="to-use-skype-for-business-server-control-panel-to-delete-an-unassigned-number-range"></a>Usar Skype para el Panel de Control de servidor empresarial para eliminar un intervalo de números sin asignar
 
-1.  Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como un miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener información detallada, vea **Delegar permisos de instalación**.
+1.  Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para más información, consulte **Delegate Setup Permissions**.
     
 2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.  
     
@@ -168,7 +168,7 @@ Use uno de los siguientes procedimientos para configurar los intervalos numéric
   
 ## <a name="see-also"></a>Vea también
 
-[Nueva CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/new-csunassignednumber?view=skype-ps)
+[New-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/new-csunassignednumber?view=skype-ps)
   
 [Set-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/set-csunassignednumber?view=skype-ps)
   
