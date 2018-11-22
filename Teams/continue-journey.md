@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8e81a20d5c3e792f2a249b86d95a0ca22ab042e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 91608a65530c7f57772b0fe544394a669e67b2a4
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016264"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649528"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa")
 
@@ -33,9 +33,9 @@ Tecnología está dispuestos a un ritmo sin precedentes. Mantiene la actual y la
 
 El estado de la red afecta a la experiencia del usuario. Cuando un usuario tiene una experiencia deficiente (por ejemplo, gotas de llamada o de posposición tiempo al unirse a reuniones), correlacionan esto con la propia tecnología, dejarlas con la impresión de que no funciona la tecnología y apertura de la puerta para las aplicaciones no compatibles. Implementación de un plan para supervisar y mitigar el estado de la red le ayudará a garantizar una experiencia de usuario positivo además de reducir las llamadas al soporte técnico de su. Para obtener más información, vea los siguientes artículos:
 
--   [Usar mi servicio](upgrade-operate-my-service.md)
+-   [Usar el servicio](upgrade-operate-my-service.md)
 -   [Calidad de Monitor](upgrade-monitor-quality.md)
--   [Mejorar mi servicio](upgrade-enhance-my-service.md)
+-   [Mejorar el servicio](upgrade-enhance-my-service.md)
 
 ## <a name="drive-user-momentum-and-adoption"></a>Unidad de usuario momentum y adopción
 

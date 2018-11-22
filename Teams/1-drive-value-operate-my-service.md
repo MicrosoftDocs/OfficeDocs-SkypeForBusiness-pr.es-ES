@@ -1,5 +1,5 @@
 ---
-title: Guía de operaciones para equipos de Microsoft
+title: Guía de operaciones para Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -14,12 +14,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5f0c1f83eca9bd7f48920eb603aaeabb8e1429e
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+ms.openlocfilehash: f87ab06fd867d216a8668d9bbb9e3ad1e807b463
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25502270"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649600"
 ---
 # <a name="operate-my-service"></a>Usar mi servicio
 
@@ -82,7 +82,7 @@ Esta guía trata las áreas clave de enfoque para administrar el servicio de los
 
 #### <a name="references"></a>Referencias 
 
-[Introducción a Microsoft Teams](teams-overview.md)
+[Información general sobre Microsoft Teams](teams-overview.md)
 
 [Interacción entre Exchange y Microsoft Teams](exchange-teams-interact.md)
 
@@ -169,7 +169,7 @@ El primer paso para la administración de cambios está supervisando los cambios
 En el [blog de equipos de Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog), puede obtener información sobre procedimientos recomendados, las tendencias y noticias sobre las actualizaciones de los equipos del producto. Esperar buscar actualizaciones características principales de los equipos se anuncian aquí. También puede suscribirse al blog de a través de una fuente RSS. A continuación, puede agregar [la fuente RSS](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog) directamente en un canal de los equipos, por lo que todas las noticias importantes se entregan directamente dentro de los equipos.
 
 Todas las características que se liberan se documentan en las [Notas de la versión para equipos de Microsoft](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de).
-Aquí encontrará una lista de características que se han publicado para escritorio, web y dispositivos móviles. El mismo conjunto de notas de la versión también están disponibles en la ficha Notas de la versión en los [Equipos de Microsoft T-Bot](t-bot.md).
+Aquí encontrará una lista de características que se han publicado para escritorio, web y dispositivos móviles. El mismo conjunto de notas de la versión también están disponibles en la ficha **Cuáles son las novedades** en la [Ayuda](get-help-in-microsoft-teams.md).
 
 Familiarizarse con los recursos disponibles y asegúrese de que se asignan a supervisar para cambiar los propietarios de aplicables.
 
@@ -181,13 +181,13 @@ Ahora que se ha de tener en cuenta próximos cambios en el servicio de los equip
 
 **Pista general**
 
-| Preparación de cambio | Estado   | Los pasos de notas y siguiente | Owner |
+| Preparación de cambio | Estado   | Los pasos de notas y siguiente | Propietario |
 |----|----|----|-----|
 | Revisión legal   | Completado     | Esta característica es un requisito previo para el equipo de recursos de aprendizaje de incorporación. | Equipo del proyecto  |
 
 **Administración de cambios técnicos**
 
-|       Preparación de cambio       | Estado |                      Los pasos de notas y siguiente                      |    Owner     |
+|       Preparación de cambio       | Estado |                      Los pasos de notas y siguiente                      |    Propietario     |
 |------------------------------|--------|------------------------------------------------------------|--------------|
 |     Cambios de TI necesarios      |  Sí   | Administrador necesita habilitar grabación identificados sólo para los usuarios. | Equipo de soporte técnico |
 | Preparación técnica completa |  Sí   |                                                            | Equipo de soporte técnico |
@@ -195,7 +195,7 @@ Ahora que se ha de tener en cuenta próximos cambios en el servicio de los equip
 
 **Administración de cambio de usuario** 
 
-| Preparación de cambio | Estado   | Los pasos de notas y siguiente | Owner |
+| Preparación de cambio | Estado   | Los pasos de notas y siguiente | Propietario |
 |----|----|----|-----|
 | Impacto de usuario                  | Bajo                  |                                                                 |                        |
 | Preparación del usuario requerido      | Sí                  |                                                                 |                        |
@@ -204,7 +204,7 @@ Ahora que se ha de tener en cuenta próximos cambios en el servicio de los equip
 
 **Seguimiento de estado**
 
-| Preparación de cambio | Estado   | Los pasos de notas y siguiente | Owner |
+| Preparación de cambio | Estado   | Los pasos de notas y siguiente | Propietario |
 |----|----|----|-----|
 | Estado de publicación               | en curso          | Revisión pendiente por el patrocinador ejecutivo.               | Equipo de administración de cambios |
 | Cierre la sesión de la versión             |                      |                                                                 |                        |
@@ -216,7 +216,7 @@ Para obtener más información acerca de la planeación de la administración de
 
 | Actividad               | Descripción                                                                                                                                                                                                                | Cadencia   | Equipo asignado |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
-| Monitor de cambio     | Supervisar las próximos cambios al servicio Microsoft Teams.                                                                                                                                                                   | A diario     |               |
+| Monitor de cambio     | Supervisar las próximos cambios al servicio Microsoft Teams.                                                                                                                                                                   | Cada día     |               |
 | Planificación de cambios    | Evaluación y planeación de las nuevas características y capacidades, incluidos los planes de comunicación, campañas de sensibilización y formación.                                                                                                     | Según sea necesario |               |
 | Preparación del usuario             | Lleve a cabo comunicación dirigida, conocimiento del producto o las campañas de formación para asegurarse de que los usuarios están preparados para el cambio próximo.                                                                                                        | Según sea necesario |               |
 | Preparación del equipo de soporte técnico | Lleve a cabo comunicación dirigida, conocimiento del producto o las campañas de formación para asegurarse de que el equipo de soporte técnico está listo. Equipos de soporte técnico pueden incluir el equipo "guante blanco", asistencia, nivel 2 o nivel 3 soporte técnico, socios externos y así sucesivamente. | Según sea necesario |               |
@@ -349,7 +349,7 @@ Para garantizar el mantenimiento de la red, un número de actividades de las ope
 
 | Actividad                                                       | Descripción                                                                                                                                                                                                                                                                                                                                                                 | Cadencia                | Equipo asignado |
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|---------------|
-| Supervisión de Office 365 IP y direcciones URL                                | Supervisar los cambios en [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://aka.ms/o365ips) mediante el uso de la [fuente RSS](https://go.microsoft.com/fwlink/p/?linkid=236301) proporcionada e iniciar una solicitud de cambio a los grupos de redes correspondientes.                                                                                                                                | A diario                  |               |
+| Supervisión de Office 365 IP y direcciones URL                                | Supervisar los cambios en [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://aka.ms/o365ips) mediante el uso de la [fuente RSS](https://go.microsoft.com/fwlink/p/?linkid=236301) proporcionada e iniciar una solicitud de cambio a los grupos de redes correspondientes.                                                                                                                                | Cada día                  |               |
 | Actualización de la red en función de los cambios realizados en Office 365 IP y direcciones URL | Realizar actualizaciones en los componentes de red aplicables (firewalls, servidores proxy, las redes privadas virtuales, firewalls de cliente y así sucesivamente) para reflejar los cambios realizados en [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://aka.ms/o365ips).                                                                                                                                                              | Según sea necesario              |               |
 | Proporcionar datos de creación                                          | Proporcionar información de subred actualizadas al Campeón de calidad (o partes interesadas relevantes) para asegurarse de que la [creación de definiciones de CQD](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) se mantienen actualizados. | Según sea necesario              |               |
 | Implementar cambio                                               | Implementar los cambios en la red a requisitos técnicos y empresariales cambiantes de los equipos de soporte técnico. Pueden incluir elementos de red:<ul><li>Firewalls</li><li>Redes privadas virtuales</li><li>Con cable y redes Wi-Fi</li><li>La conectividad a Internet y ExpressRoute</li><li>DNS</li></ul>     | Según sea necesario              |               |
@@ -389,7 +389,7 @@ Se recomienda encarecidamente que se nombra al Campeón de calidad desde el prin
 | Realizar la calidad de las revisiones de la experiencia (QERs)     | Realizar una QER para identificar las tendencias en la calidad y la confiabilidad, revisar frente a destinos definidos e informar las partes interesadas clave en la organización.                                                                                                                            | Mensual (semanalmente durante implementaciones) |               |
 | Unidad de corrección                      | Coordinar los esfuerzos de corrección en toda la organización basándose en las evaluaciones de QER y los resultados.                                                                                                                                                                                                           | Según sea necesario                           |               |
 | Actualizar los datos de creación de CQD            | Actualizar o agregar nuevas definiciones de creación en CQD cuando se realizan cambios en la red (consulte la [información de creación de carga](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)). | Según sea necesario                           |               |
-| La función de la calidad de los pesos de relleno      | Responsabilidad de extremo a extremo para la calidad de la organización. Esto incluye:<ul><li>Asegúrese de que el QER se llevan a cabo con regularidad.</li><li>Informe de a las partes interesadas clave en estado de calidad.</li><li>Asegúrese de los datos de creación son las definiciones de hasta la fecha.</li><li>Coordinar los esfuerzos de corrección en toda la organización para garantizar que los usuarios tengan una experiencia de alta calidad con los equipos.</li></ul>          | A diario                               |               |
+| La función de la calidad de los pesos de relleno      | Responsabilidad de extremo a extremo para la calidad de la organización. Esto incluye:<ul><li>Asegúrese de que el QER se llevan a cabo con regularidad.</li><li>Informe de a las partes interesadas clave en estado de calidad.</li><li>Asegúrese de los datos de creación son las definiciones de hasta la fecha.</li><li>Coordinar los esfuerzos de corrección en toda la organización para garantizar que los usuarios tengan una experiencia de alta calidad con los equipos.</li></ul>          | Cada día                               |               |
 
 
 
@@ -487,7 +487,7 @@ Para admitir usuarios, una organización puede requerir cualquier número de tar
 
 #### <a name="general-tasks"></a>Tareas generales
 
-[Gestionar acceso de los usuarios a Microsoft Teams](user-access.md)
+[Administrar el acceso de los usuarios a Microsoft Teams](user-access.md)
 
 #### <a name="common-tasks-for-phone-system"></a>Tareas comunes para el sistema telefónico
 

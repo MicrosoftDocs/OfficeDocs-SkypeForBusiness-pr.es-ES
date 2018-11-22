@@ -8,12 +8,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: En este artículo le guiará a través de los pasos para configurar un Skype existente para la instalación de Business Server para usar el servicio de movilidad, lo que permite a los dispositivos móviles que puedan aprovechar las ventajas de Skype para las características de movilidad de servidor empresarial.
-ms.openlocfilehash: 2afd462638eb6ed97f6efb694aa74994f2d59727
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: e1799459d2e7723298aa7fdda17f89a9041efd15
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375449"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649718"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Implementación y configuración de movilidad de Skype para Business Server  
  
@@ -174,7 +174,7 @@ Si tiene alguna pregunta sobre la planeación alrededor de certificados, nos hem
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
    ```
 
-   - Ahora, si tiene varios dominios SIP, no puede usar el parámetro AllSipDomain como en el ejemplo anterior. En cambio, tendrá que usar el parámetro DomainName y, en tal caso, tendrá que definir el FQDN para los registros lyncdiscoverinternal y lyncdiscover. Un ejemplo sería (mediante el reemplazo del parámetro -Ca con la ruta de acceso de nuestra propia entidad de certificación):
+   - Ahora, si tiene varios dominios SIP, no puede usar el parámetro AllSipDomain como se muestra en el ejemplo anterior. Debe usar el parámetro DomainName en su lugar. Y cuando se utiliza el parámetro DomainName, tiene que definir el FQDN de los registros de lyncdiscoverinternal y lyncdiscover. Un ejemplo sería (reemplazando el parámetro -Ca con su propia ruta de acceso de la entidad emisora de certificados):
     
    ```
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
@@ -188,7 +188,7 @@ Si tiene alguna pregunta sobre la planeación alrededor de certificados, nos hem
    Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -AllSipDomain -verbose
    ```
 
-   - Ahora, si tiene varios dominios SIP, no puede usar el parámetro AllSipDomain como en el ejemplo anterior. En cambio, tendrá que usar el parámetro DomainName y, en tal caso, tendrá que definir el FQDN para los registros lyncdiscoverinternal y lyncdiscover. Algunos ejemplos serían (mediante el reemplazo del parámetro -Ca con la ruta de acceso de nuestra propia entidad de certificación):
+   - Ahora, si tiene varios dominios SIP, no puede usar el parámetro AllSipDomain como se muestra en el ejemplo anterior. Debe usar el parámetro DomainName en su lugar. Y cuando se utiliza el parámetro DomainName, tiene que definir el FQDN de los registros de lyncdiscoverinternal y lyncdiscover. Algunos ejemplos serían (reemplazando el parámetro -Ca con su propia ruta de acceso de la entidad emisora de certificados):
     
    ```
    Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
@@ -258,7 +258,7 @@ Si tiene alguna pregunta sobre la planeación alrededor de certificados, nos hem
 
 No es necesario seguir al pie de la letra los pasos que se explican a continuación. En las versiones anteriores del producto, le hemos guiado, por ejemplo, en el proceso de configuración de Threat Management Gateway (TMG) y, si no lo estaba utilizando, tenía que encontrar la forma de adaptarlo a su propia versión a partir de la información con la que contaba.
   
-Microsoft como un producto ya no ofrece TMG y, si aún necesita configurarlo, puede consultar los [pasos de Lync Server 2013](https://technet.microsoft.com/en-us/library/hh690011%28v=ocs.15%29.aspx). Pero la siguiente información de pretende ser útiles de forma más general, incluso si no hay ninguna forma podemos proporcionar pasos del tutorial específico para cada proxy inverso ahí.
+Microsoft ya no ofrece TMG como producto, pero, si todavía necesita configurarlo, puede revisar los [pasos para Lync Server 2013](https://technet.microsoft.com/en-us/library/hh690011%28v=ocs.15%29.aspx). Pero la siguiente información de pretende ser útiles de forma más general, incluso si no hay ninguna forma podemos proporcionar pasos del tutorial específico para cada proxy inverso ahí.
   
 Debemos considerar dos aspectos:
   
@@ -459,7 +459,7 @@ Para los clientes de Lync Server 2010 en Skype para Business Server 2015, debe e
    Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
    ```
 
-Para revisar los procedimientos de comando aún más, para poder desproteger [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) y [Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/test-csmcxp2pim?view=skype-ps).
+Para revisar en detalle los procedimientos de comando, puede consultar [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) y [Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/test-csmcxp2pim?view=skype-ps).
   
 ## <a name="configure-for-push-notifications"></a>Configurar notificaciones de inserción
 <a name="ConfigPush"> </a>
@@ -602,7 +602,7 @@ Para que los usuarios puedan usar Vía trabajo, también deben:
    New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $false -RequireWiFiForIPAudio $True -RequireWiFiforIPVideo $True
    ```
 
-    Encontrará más información en [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+    Más información en [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
     
 ### <a name="modify-mobility-policy-by-user"></a>Modificar la directiva de movilidad por usuario
 

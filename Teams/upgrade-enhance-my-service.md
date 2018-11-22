@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f000a81c0762b11b06e81fd2fcca18915ce1233
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 278e6200547966e5a41983bf3a0f76ecb0e5ca11
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532358"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649687"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa")
 
@@ -29,7 +29,7 @@ En este artículo forma parte de la fase de excelencia operativa de su viaje de 
 
 En este artículo se proporciona una visión general de los requisitos para obtener el máximo partido de operativo los equipos después de la actualización. Mediante la supervisión de forma continua las capacidades de servicio de los equipos, puede estar seguro de que proporciona el máximo valor para su organización.
 
-## <a name="enhance-my-service-overview"></a>Mejorar la información general de mi servicio
+## <a name="enhance-your-service-overview"></a>Mejorar la introducción al servicio
 Después de que ha implementado correctamente los equipos en su organización y está usando el servicio con calidad y confiabilidad, el siguiente paso consiste en evaluar con regularidad si tiene cualquier oportunidades para mejorar los servicios. Esto es una parte de planeación, es decir, un moderno estándar para la administración de servicio de nube de la mejora continua del servicio. 
 
 Forma ideal para asegurarse de que siempre obtendrá el máximo partido de los servicios es supervisar las [guías públicas de los equipos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) de nuevas mejoras de características que podrían ser de interés para la organización. Si dispone de acceso al portal de administración de Office 365, recibirá actualizaciones regulares de nosotros acerca de las características nuevas y cambiantes a través de nuestro centro de mensajes. 

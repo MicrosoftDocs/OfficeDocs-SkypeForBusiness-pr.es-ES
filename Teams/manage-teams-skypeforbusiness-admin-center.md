@@ -16,12 +16,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 3dec789d31737eeb4585da5e28737a15ca679a5b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: b3305efee9636dfff391fc9a851227cf215b719a
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530578"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649536"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Administrar los equipos durante la transición a la nueva Microsoft Teams & Skype para el centro de administración de negocio
 ======================================================
@@ -43,7 +43,6 @@ En la siguiente tabla identifica las secciones de la experiencia de los equipos 
 |---------|---------|---------|---------|
 |General     |Mostrar Chat organizativa en perfil Personal        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Inquilino       |
 |General     |Usar Skype para la empresa para los destinatarios que no tienen los equipos         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
-|General     |Permitir que los mensajes de ayuda proactiva T-Bot         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
 |Integración del correo electrónico     |Permitir a los usuarios enviar correos electrónicos a canales         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
 |Integración del correo electrónico     |Permitir que los remitentes lista         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Inquilino         |
 |Almacenamiento en nube personalizado     |Cuadro de         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
