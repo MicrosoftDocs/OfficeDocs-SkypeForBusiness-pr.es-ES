@@ -12,12 +12,12 @@ ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cab5afba1e9e0bb468e474d0cb9439fcc198a91a
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: 87f91b4437cabc5c2f55d1619cdb454e6c514de3
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26629224"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649679"
 ---
 # <a name="tools-for-driving-adoption"></a>Herramientas para conducir adopción 
 
@@ -25,7 +25,8 @@ Use las siguientes herramientas para cada fase del plan de adopción de servicio
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/serviceadoptionplans-oct2018.zip?raw=true">
+        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-service-adoption-plans-oct-2018.zip
+?raw=true">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -44,13 +45,14 @@ Use las siguientes herramientas para cada fase del plan de adopción de servicio
         </a>
     </li>
     <li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/examplepersonas.zip?raw=true">
+        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-example-personas.zip
+?raw=true">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Chat" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -63,7 +65,8 @@ Use las siguientes herramientas para cada fase del plan de adopción de servicio
         </a>
     </li>
     <li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/workassignandstakeholders.zip?raw=true">
+        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-work-assign-and-stakeholders.zip
+?raw=true">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -81,7 +84,8 @@ Use las siguientes herramientas para cada fase del plan de adopción de servicio
         </a>
     </li>
     <li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/dayinthelifequicksheets.zip?raw=true">
+        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-day-in-the-life-quicksheets.zip
+?raw=true">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -117,13 +121,14 @@ Use las siguientes herramientas para cada fase del plan de adopción de servicio
         </a>
     </li>
 <li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/microsoftteamshelpdeskguide.pdf?raw=true">
+        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-helpdesk-guide.pdf
+?raw=true">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/success.svg" alt="Checklist" />
                         </div>
                     </div>
                     <div class="cardText">
