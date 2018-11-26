@@ -1,7 +1,7 @@
 ---
 title: Publicar aplicaciones en el catálogo de aplicaciones del inquilino de equipos de Microsoft
 author: ChuckEdmonson
-ms.author: chucked
+ms.author: lolaj
 manager: serdars
 ms.date: 08/02/2018
 ms.topic: article
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 714c30326519974c1d5e0483e8c181bb6ebf2a27
-ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
+ms.openlocfilehash: 2454ad195fbecb25b30218ac156e62d396b4a6dd
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25040791"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674823"
 ---
 <a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Publicar aplicaciones en el catálogo de aplicaciones del inquilino de equipos de Microsoft
 =======================================================

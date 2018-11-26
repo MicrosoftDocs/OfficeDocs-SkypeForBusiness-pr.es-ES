@@ -26,14 +26,17 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Suiza los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 022908195a6de8aacc4ba26ebe5397b14cb763e0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 22ec9173e00621694512f939818ed0987f5988d5
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012388"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674701"
 ---
 # <a name="availability-in-switzerland"></a>Disponibilidad en Suiza
+
+> [!NOTE]
+> Puede obtener los números de **servicio** en Suiza para su uso con la conferencia, el operador automático y las colas de llamadas, pero no se puede obtener los números de **usuario** en Suiza como planes de llamada no están disponibles.
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
@@ -44,7 +47,7 @@ Aquí están disponibles para Suiza los servicios de Office 365 para Skype para 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para: <br/><ul><li> Zúrich</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para: <br/><ul><li> Zurich</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
@@ -68,7 +71,7 @@ Aquí están disponibles para Suiza los servicios de Office 365 para Skype para 
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> |Zúrich  <br/> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> |Zurich  <br/> |
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
    

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: 'Resumen: Explore estos vínculos para obtener información sobre cómo implementar Skype para Business Server 2015.'
-ms.openlocfilehash: 3b65398ae8bf71041751738cd7119cf23f55e504
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 10ef6df61e3654a1bf413f0448bd0a96536571bc
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532697"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674830"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype Empresarial Server 2015
 
@@ -50,7 +50,6 @@ Skype para la empresa es una plataforma de comunicaciones y colaboración que re
                     <div class="cardImageOuter">
                         <div class="cardImage">
                             <img src="https://docs.microsoft.com/office/media/icons/hybrid-blue.svg" alt="Hybrid" />
-
                         </div>
                     </div>
                     <div class="cardText">

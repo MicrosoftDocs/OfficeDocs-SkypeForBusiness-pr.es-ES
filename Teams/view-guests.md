@@ -3,29 +3,32 @@ title: Ver los usuarios invitados en un equipo
 author: LolaJacobsen
 ms.author: rramesan
 manager: serdars
-ms.date: 10/23/2017
+ms.date: 11/26/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
-ms.reviwer: rramesan
+ms.reviwer: sbhatta
 search.appverid: MET150
 description: Descubra cómo un administrador puede ver la información sobre usuarios invitados en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0aab46d2cbaf3ffb186422a8ff83770493fa40e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: beb350905e41c6aa1e694178fc72d5ff9e123e5b
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014624"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674484"
 ---
 <a name="view-guest-users-in-a-team"></a>Ver los usuarios invitados en un equipo
 ==========================
-Cualquier persona de un equipo puede ver a todos los miembros de un equipo, incluidos a los invitados, a través de **Administrar equipo** en Microsoft Teams.  [Ver quién está en un equipo o en un canal](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7) tiene más detalles.
+Cualquier persona de un equipo puede ver a todos los miembros de un equipo, incluidos a los invitados, a través de **Administrar equipo** en Microsoft Teams. [Ver quién está en un equipo o en un canal](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7) tiene más detalles.
 
-Como administrador, puede usar el centro de administración de Office 365 para ver los usuarios invitados en el inquilino. Sin embargo, esta vista muestra *todos los* usuarios de invitado en el inquilino, no sólo los usuarios invitados en Microsoft Teams.
-1. Inicie sesión con su cuenta de administrador global de Office 365 en [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
-2. Vaya a **Usuarios** > **Guest users** (Usuarios invitados).
+Para identificar los usuarios invitados:
 
-![Opción de invitado a los usuarios en el centro de administración de Office 365.](media/95b83ff5-72ef-4668-b541-4e25b767620a.png)
+1.  Inicie sesión en el centro de administración de Microsoft 365.
+2.  Seleccione **centros de administración** > **equipos & Skype**.
+3.  En el Microsoft Teams & Centro de administración de Skype, seleccione **los usuarios**. Verá **invitado** que se anexa al nombre para mostrar de los usuarios de invitado.
   
+Además, puede identificar los usuarios invitados desde dentro de un equipo que es propietario.  
+
+

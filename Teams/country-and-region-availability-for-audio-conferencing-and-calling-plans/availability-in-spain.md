@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Teams disponibles para España.
-ms.openlocfilehash: 393ba45c9d16af788ca332cd24b329b213b1f4a9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a9410ddd7a64273ca56e30753c3f4ba2df2c05b3
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012996"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674741"
 ---
 # <a name="availability-in-spain"></a>Disponibilidad en España
 
@@ -61,7 +61,7 @@ Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Te
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿Los planes de llamada están disponibles para la compra?  <br/> |Sí  <br/> |
-|Minutos disponibles para llamar a los planes. |Hay cuatro opciones de plan disponibles por mes del calendario: <ul><li>120 minuto al llamar a planear nacionales </li><li>240 minuto al llamar a planear nacionales</li></li><li>1200 minuto al llamar a planear nacionales </li></li><li>minuto 600 para llamar a planes internacionales y nacionales</li></li> 
+|Minutos disponibles para llamar a los planes. |Hay cuatro opciones de plan disponibles por mes del calendario: <ul><li>120 minuto al llamar a planear nacionales </li><li>240 minuto al llamar a planear nacionales</li></li><li>1200 minuto al llamar a planear nacionales </li></li><li>Nacionales y llamar a planear internacional: 1200 minutos de minutos de OR 600 nacionales de las llamadas internacionales (lo que se alcance primero en el mes del calendario)</li></li> 
 |¿Puede realizar llamadas salientes a los números de premium? <br/> | No se admite en este momento. <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    

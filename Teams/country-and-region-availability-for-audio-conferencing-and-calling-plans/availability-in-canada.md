@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: A continuación se indican los servicios de Office 365 para Skype Empresarial y Microsoft Teams que están disponibles para Canadá.
-ms.openlocfilehash: 5f0f75a747ccc80bbe4a6e0a10a925c3e6b91bdb
-ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
+ms.openlocfilehash: c88d233f3b4120b202ac09f2b48406d21f896b75
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25495601"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674797"
 ---
 # <a name="availability-in-canada"></a>Disponibilidad en Canadá
 
@@ -61,7 +61,7 @@ A continuación se indican los servicios de Office 365 para Skype Empresarial y 
 | **Característica**                                        | **Detalles**                                                                                                                                                                                                                                                                 |
 |:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ¿Los planes de llamada están disponibles para la compra?  <br/>    | Sí  <br/>                                                                                                                                                                                                                                                                  |
-| Minutos disponibles para llamar a los planes.               | Hay cuatro opciones de plan disponibles por mes del calendario: <ul><li>120 minuto al llamar a planear nacionales </li><li>240 minuto al llamar a planear nacionales</li></li><li>3000 minuto al llamar a planear nacionales </li></li><li>nacionales de 3000 y 600 internacional minuto nacionales y llamar a planes de internacional</li></li> |
+| Minutos disponibles para llamar a los planes.               | Hay cuatro opciones de plan disponibles por mes del calendario: <ul><li>120 minuto al llamar a planear nacionales </li><li>240 minuto al llamar a planear nacionales</li></li><li>3000 minuto al llamar a planear nacionales</li></li><li>Nacionales y llamar a planear internacional: 3000 minutos de minutos de OR 600 nacionales de las llamadas internacionales (lo que se alcance primero en el mes del calendario)</li>|
 | ¿Puede realizar llamadas salientes a los números de premium?  <br/> | No se admite en este momento.<br/>                                                                                                                                                                                                                                            |
 | ¿A qué números se pueden hacer llamadas salientes?  <br/>                 | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/>                                                                                                                                                                  |
 

@@ -3,22 +3,22 @@ title: Cómo es la experiencia de invitado
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
-ms.date: 10/20/17
+ms.date: 11/26/18
 ms.topic: article
 ms.service: msteams
-ms.reviewer: laal
+ms.reviewer: sbhatta
 search.appverid: MET150
 description: Obtenga más información sobre la funcionalidad de Microsoft Teams que está disponible para los usuarios invitados.
 localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 921617c2f9a4a1bcc9f38030bdcea0d72c7f54aa
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 55f1a2ae8c958dba9dbdd71b9b271944dad1f50c
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016520"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674556"
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 =================================
@@ -31,7 +31,7 @@ Cuando a un invitado se le ofrece unirse a un equipo, recibe un mensaje de corre
   
     
     
-![La captura de pantalla muestra un ejemplo de un mensaje de correo electrónico de bienvenida que envía el propietario de un equipo en Microsoft Teams a un usuario invitado. El mensaje incluye texto que puede personalizar el propietario del equipo y breves descripciones de las características de Microsoft Teams, como el chat, las llamadas y las reuniones.](media/bc0deb82-6394-4280-8fed-312645c8fefe.png)
+![Ejemplo de un mensaje de correo electrónico de bienvenida enviado por el propietario de un equipo en Microsoft Teams a un usuario invitado. El mensaje incluye texto que puede personalizar el propietario del equipo y breves descripciones de las características de Microsoft Teams, como el chat, las llamadas y las reuniones.](media/guest-experience-image1.png)
   
     
     
@@ -43,7 +43,7 @@ Todos los miembros del equipo ven un mensaje en el hilo del canal en el que se a
   
     
     
-![La captura de pantalla muestra una parte del canal de marketing para Northwind Traders, con la notificación en el banner superior que indica "Este equipo tiene invitados" y los usuarios que son invitados identificados con la palabra "INVITADO" junto a su nombre.](media/33394a31-7d10-4950-8b39-b7d9953397c3.png)
+![La captura de pantalla muestra una parte del canal de marketing para Northwind Traders, con la notificación en el banner superior que indica "Este equipo tiene invitados" y los usuarios que son invitados identificados con la palabra "INVITADO" junto a su nombre.](media/guest-experience-image2.png)
   
     
     
@@ -70,8 +70,57 @@ En la siguiente tabla se compara la funcionalidad de Microsoft Teams que está d
 |Descubrir un equipo público y unirse a él  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Ver el organigrama  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
+En la siguiente tabla muestra las características llamadas y convocatorias de reunión disponibles a los invitados.
 
-    
+| Característica de llamada | Invitado | Usuario E1 y E3 | Usuario E5 y EV |
+| --------------- | ----- | -------------- | -------------- |
+| Llamadas de VOIP | Sí | Sí | Sí |
+| Llamada de grupo | Sí | Sí | Sí |
+| Los controles de llamada principal compatible (suspensión, vídeo silencio, activado/desactivado, uso compartido de pantalla) | Sí | Sí | Sí |
+| Destino de transferencia | Sí | Sí | Sí |
+| Puede transferir una llamada | Sí | Sí | Sí |
+| Puede a transferencia con consulta | Sí | Sí | Sí |
+| Puede agregar otros usuarios a una llamada a través de VOIP | Sí | Sí | Sí |
+| Puede agregar usuarios por número de teléfono a una llamada | No | No | Sí |
+| Destino hacia delante | No | Sí | Sí |
+| Destino de grupo de llamada | No | Sí | Sí |
+| Destino no respondida | No | Sí | Sí |
+| Puede ser el destino de una llamada federada | No | Sí | Sí |
+| Puede realizar una llamada federada | No | Sí | Sí |
+| Inmediatamente se puede desviar sus llamadas | No | No | Sí |
+| Puede llamar simultáneamente a sus llamadas | No | No | Sí |
+| Puede enrutar sus llamadas no respondidas | No | No | Sí |
+| Las llamadas perdidas pueden ir al correo de voz | No | No hay<sup>1</sup> |Sí |
+| Tiene un número de teléfono que puede recibir llamadas | No | No | Sí |
+| Puede marcar números de teléfono | No | No | Sí |
+| Puede llamar a access configuración | No | No | Sí |
+| Puede cambiar el saludo del correo de voz | No | No hay<sup>1</sup> | Sí |
+| Puede cambiar tonos de llamada | No | No  | Sí |
+| Admite TTY | No | No | Sí |
+| Puede tener delegados | No | No | Sí |
+|  Puede ser un delegado | No | No | Sí |
+
+
+<sup>1</sup> esta característica estará disponible pronto.
+
+
+
 > [!NOTE]
 > Los administradores de Office 365 controlan las características que tienen a su disposición los invitados. 
   
+## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
+  
+Q. ¿Los invitados tienen las mismas funciones que los miembros del equipo? R. no. Para obtener más información acerca de qué invitado puede y no puede hacer, vaya a las capacidades de invitado en los equipos.
+
+Q. ¿Cuántas invitados puedo invitar? R. puede agregar hasta 5 invitados por licencia de usuario.
+
+Q. ¿Los invitados tienen acceso a OneDrive para la empresa? R. no.
+
+Q. ¿Los invitados tienen acceso a los archivos de SharePoint? R. Sí.
+
+Q. ¿Pueden buscar en los invitados dentro de los archivos? R. no.
+
+Q. ¿Los invitados pueden adjunción de archivos? R. Sí, invitado puede adjuntar archivos de estas dos maneras: • seleccione los archivos en el panel izquierdo y, a continuación, vaya a la ubicación del archivo.
+• Carga desde su equipo.
+
+Q. ¿Puede invitado descargar un archivo en un chat privado? R. Sí, pueden recibir un archivo desde un miembro de un chat privado y, a continuación, descargarlo en su escritorio.
