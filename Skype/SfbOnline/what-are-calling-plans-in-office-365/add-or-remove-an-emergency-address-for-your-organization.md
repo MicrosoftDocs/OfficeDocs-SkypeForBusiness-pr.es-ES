@@ -1,5 +1,5 @@
 ---
-title: Agregar o quitar una dirección de emergencia para su organización
+title: Agregar, cambiar o quitar una dirección de emergencia para la organización
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,15 +20,15 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Aprenda cómo agregar una dirección de emergencia a su cuenta de Skype for Business. '
-ms.openlocfilehash: a4edcfa5673ac20c571bfae4d26f41facb9f0c80
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: 'Learn how to add an emergency address to your Skype for Business account. '
+ms.openlocfilehash: d4347610238230e5e509dab998b99fbd7b496833
+ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347065"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26676411"
 ---
-# <a name="add-or-remove-an-emergency-address-for-your-organization"></a>Agregar o quitar una dirección de emergencia para su organización
+# <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>Agregar, cambiar o quitar una dirección de emergencia para la organización
 
 Una dirección de emergencia debe asociarse con un número de teléfono, pero cuando esto sucede puede variar entre países o regiones. Por ejemplo, en los Estados Unidos, debe asociar una dirección de emergencia al asignar el número de teléfono al usuario. En el Reino Unido, debe asociar una dirección de emergencia al número de teléfono al obtener los números de teléfono de Office 365 o transferir los números de teléfono de su proveedor de servicio actual.
   
@@ -36,11 +36,11 @@ Independientemente del país o región en que se encuentre, es posible agregar u
   
 Para obtener información sobre cómo obtener planes de llamadas y su coste, vea [Licencias de complementos de Skype for Business y Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-## <a name="to-add-an-emergency-address"></a>Para agregar una dirección de emergencia
+## <a name="add-an-emergency-address"></a>Agregar una dirección de emergencia
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya a **los equipos de Microsoft y Skype para el centro de administración de negocio** > **portal heredado**.
+2. Vaya a **los equipos de Microsoft & Skype para el centro de administración de negocio** > **portal heredado**.
     
 3. En el panel de navegación izquierdo, vaya a VozUbicaciones de emergenciay, a continuación, haga clic en el botón Agregar nueva dirección.** **  >  ** ** ** **
     
@@ -58,6 +58,21 @@ Para obtener información sobre cómo obtener planes de llamadas y su coste, vea
     
 6. Después de validar la dirección, haga clic en **Guardar**.
     
+## <a name="change-an-emergency-address"></a>Cambiar una dirección de emergencia
+
+1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+    
+2. Vaya a **los equipos de Microsoft & Skype para el centro de administración de negocio** > **portal heredado**.
+    
+3. En el panel de navegación izquierdo, vaya a **voz** > **ubicaciones de emergencia**, seleccione la dirección que desea cambiar y, en el panel de acciones, haga clic en **Editar**.
+    
+    > [!IMPORTANT]
+    > Para que pueda ver la opción de **voz** en la izquierda en la Skype para el centro de administración de negocio, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia adicional para **El sistema de teléfono** o al menos una **licencia Enterprise E5**.
+
+4. Realice los cambios y, a continuación, haga clic en **Validar**.
+
+5. Haga clic en **Guardar**.
+
 ## <a name="to-remove-an-emergency-address"></a>Para quitar una dirección de emergencia
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
@@ -76,7 +91,7 @@ Para obtener información sobre cómo obtener planes de llamadas y su coste, vea
 
 [Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

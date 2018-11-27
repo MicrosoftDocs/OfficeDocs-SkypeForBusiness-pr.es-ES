@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 09/21/2018
+ms.date: 11/26/2018
 ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Vídeos de aprendizaje, tutoriales y otros recursos para los usuarios de su organización a aprender y usar los equipos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa9555476fbf429d49c624365fd81fd9d548f06a
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: f46eabe142ae62f1a231a14a919089e80e0c27b8
+ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533122"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26676430"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Formación del usuario final para Microsoft Teams
 
@@ -132,6 +132,7 @@ Vea este vídeo corto de presentación de los equipos</h3>
                         <h3>Guías de inicio rápidos</h3>
                          <p><a href="http://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf">Descargue a esta guía de inicio rápido (PDF) para aprender los conceptos básicos</a></p>
                         <p><a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">Siga los artículos de esta guía de inicio rápido para ponerse en marcha rápidamente</a></p>
+                        <p><a href="https://teamsdemo.office.com/">Demo interactiva de los equipos</a></p>
                     </div>
                 </div>
             </div>

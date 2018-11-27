@@ -20,25 +20,25 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Aprenda cómo configurar una dirección de emergencia y un número de teléfono para cada uno de los usuarios que funcione con la red telefónica pública conmutada (RTC).
-ms.openlocfilehash: 10b22db9e50c1913124d021bff1cc7c285c1f52c
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: Learn how to set up an emergency address and phone number for each of your users that works with the Public Switched Telephone Network (PSTN).
+ms.openlocfilehash: c16e53df15d46457501c75ad5adcb0882d8fe875
+ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347036"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26676401"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>Asignar o cambiar la dirección de emergencia de un usuario
 
-Cuando configura una llamada a los planes en Office 365, debe asignar un número de teléfono y dirección de emergencia a cada uno de los usuarios. Debe crear la dirección de emergencia antes de asociarlo con un número de teléfono. Vea [¿Cuáles son las ubicaciones de emergencia, direcciones y enrutamiento de llamadas?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) para obtener más información.
+Cuando configure un Plan de llamadas en Office 365, deberá asignar una dirección de emergencia a cada usuario o número de teléfono. En Europa, la dirección de emergencia se asocia con el número de teléfono cuando se obtiene desde Office 365 o cuando se transfiere a través de un número de teléfono para Office 365. En los Estados Unidos, la dirección de emergencia se asocia con el número de teléfono cuando se asigna al usuario. La dirección de emergencia se puede cambiar si se mueve a una nueva ubicación el usuario al que está asignada. Para obtener más información acerca de las direcciones de emergencias y ubicaciones, consulte [¿Cuáles son las ubicaciones de emergencia, direcciones y enrutamiento de llamadas?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
   
-Para obtener información sobre cómo obtener planes de llamada en Office 365 y su coste, vea [Licencias complementarias de Skype for Business y Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Para conseguir información sobre cómo obtener Planes de llamadas en Office 365 y su coste, consulte [Licencias de complementos de Skype Empresarial y Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 ## <a name="assign-or-change-an-emergency-address"></a>Asignar o cambiar una dirección de emergencia
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya a **los equipos de Microsoft y Skype para el centro de administración de negocio** > **portal heredado**.
+2. Vaya a **los equipos de Microsoft & Skype para el centro de administración de negocio** > **portal heredado**.
     
 3. En el panel de navegación izquierdo vaya a **voz**, a continuación, haga clic en **usuarios de voz**.
     
@@ -49,7 +49,7 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
     
 5. En el panel de acciones, en **Ubicación de emergencia**, haga clic en **Cambiar**.
     
-    > [!NOTE]
+    > [!IMPORTANT]
     > Solo se puede cambiar una dirección de emergencia que ya esté validada. Para cambiar una dirección de emergencia que no se ha validado, eliminarla y crear otra dirección de emergencia. 
   
 6. En la página **Asignar un número**, haga clic en **Cambiar ubicación**.
@@ -59,13 +59,18 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
 8. Seleccione la dirección de emergencia desde la lista desplegable de direcciones y, a continuación, haga clic en **Guardar**. 
     
 ## <a name="related-topics"></a>Temas relacionados
+## <a name="related-topics"></a>Temas relacionados
+[Agregar, cambiar o quitar una dirección de emergencia para la organización](add-or-remove-an-emergency-address-for-your-organization.md)
+
+[Agregar, cambiar o quitar una ubicación de emergencia para su organización](add-change-or-remove-an-emergency-location-for-your-organization.md)
+
 [¿Qué es la validación de direcciones?](what-is-address-validation.md)
 
 [Administrar los números de teléfono para su organización](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

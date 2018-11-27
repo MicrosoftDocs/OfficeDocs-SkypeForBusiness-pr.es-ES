@@ -1,5 +1,5 @@
 ---
-title: Planeación de enrutamiento directo
+title: Planear el enrutamiento directo
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,14 +16,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo enrutamiento directo de Microsoft teléfono del sistema le permite conectar un compatibles, proporcionado por el cliente sesión controlador de borde (SBC) para el sistema telefónico de Microsoft.
-ms.openlocfilehash: a26dfc51e1a885569a37200d8613879e8f3bd484
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: d3b102dc09011e5990a42c608d78c6bb3f414ff7
+ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531990"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26676555"
 ---
-# <a name="plan-direct-routing"></a>Planeación de enrutamiento directo
+# <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
 > [!Tip]
 > Vea la sesión para obtener información sobre las ventajas de Direct enrutamiento, cómo planear para él y cómo implementarlo siguiente: [El enrutamiento directo en los equipos de Microsoft](https://aka.ms/teams-direct-routing)
@@ -221,6 +221,21 @@ El intervalo de puertos de los procesadores de medios se muestra en la siguiente
 
   > [!NOTE]
   > Microsoft recomienda al menos dos puertos por llamada simultánea en la SBC.
+
+## <a name="media-traffic-codecs"></a>El tráfico de medios: códecs
+
+### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>Bifurcación entre el cliente SBC y procesador de medios en la nube o Teams de Microsoft.
+Se aplica a caso de desvío de medios y sin desvío de los casos
+
+La interfaz de enrutamiento directo en el tramo de entre el controlador de borde de sesión y el procesador de medios en la nube (sin desvío de medios) o entre el cliente de los equipos y la SBC (si se habilita el desvío de medios) puede usar los siguientes códecs: • no medios desvío (SBC a los medios de la nube Procesador): SEDA, G.711, G.722, G, 729 • el desvío de medios (SBC al cliente de los equipos): SEDA, G.711, G.722, G, OPUS 729,
+
+Puede forzar el uso del códec específico en el controlador de borde de sesión mediante la exclusión de códecs no deseados de la oferta.
+
+### <a name="leg-between-microsoft-teams-client--and-cloud-media-processor"></a>Bifurcación entre el cliente de los equipos de Microsoft y procesador de medios en la nube
+Se aplica a caso sólo el desvío de medios que no sean. Con los flujos de medios de desvío de medios directamente entre el cliente de los equipos y SBC
+
+En la bifurcación entre el procesador de medios en la nube y el cliente de Microsoft Teams SEDA o G.722 usa. La opción de códec en este tramo basado en algoritmos de Microsoft, que tener en cuenta varios parámetros. 
+
 
 ## <a name="supported-session-border-controllers-sbcs"></a>Admite controladores de borde de sesión (SBCs)
 
