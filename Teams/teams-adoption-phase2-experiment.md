@@ -1,7 +1,7 @@
 ---
-title: Fase de adopción de Microsoft Teams 2 - experimento
-author: LolaJacobsen
-ms.author: lolaj
+title: 'Fase 2 de la adopción de Microsoft Teams: Experimento'
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo llevar a cabo la fase de experimento de adopción de los equipos.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d70fbe7ddfbfb820e13bbba09a78024b48a80a6
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: f77989e31e8e79f13d54f7b3506cbf5c0b19d8e5
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26520064"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699728"
 ---
-# <a name="microsoft-teams-adoption-phase-2---experiment"></a>Fase de adopción de Microsoft Teams 2 - experimento
+# <a name="microsoft-teams-adoption-phase-2---experiment"></a>Fase 2 de la adopción de Microsoft Teams: Experimento
 
 Ahora se cuentan con un equipo de proyecto excelente y la información crítica acerca de la organización, y está listo para experimentar con los equipos. Se recomienda experimentar con proyectos de 2 y 3 para el mundo real dentro de un grupo que está a cargo de un participante con quien tiene una relación de positiva y en cuya organización hay un número suficiente de primeros usuarios proporcionar comentarios significativo. Si su organización es grande o pequeña, se recomienda completar esta fase para obtener información acerca de cómo los equipos pueden mejorar la colaboración más allá de sus conversaciones y características de almacenamiento de archivos.  
 

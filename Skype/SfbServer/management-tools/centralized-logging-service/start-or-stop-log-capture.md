@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Resumen: Obtenga información sobre cómo iniciar o detener una sesión de captura del registro de servicio de registro centralizado en Skype para Business Server 2015.'
-ms.openlocfilehash: c0b65fddcb5036cf41866ce79d82ae0bc49a79e3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d3dc2ca58964908bda0d8c2de845297bb0cb951b
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373767"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699862"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Iniciar o detener la captura de registros de CLS en Skype Empresarial Server 2015
  
@@ -47,7 +47,7 @@ El servicio de registro centralizado proporciona dos formas para emitir comandos
    ```
 
     > [!NOTE]
-    > El escenario AlwaysOn no tiene duración predeterminada. En este escenario se ejecutará hasta que lo detenga explícitamente con el cmdlet **Stop-CsClsLogging** . Para obtener información detallada, vea [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps). Para el resto de los escenarios, la duración predeterminada es de 4 horas. 
+    > El escenario AlwaysOn no tiene duración predeterminada. En este escenario se ejecutará hasta que lo detenga explícitamente con el cmdlet **Stop-CsClsLogging** . Para más detalles, consulte [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps). Para el resto de los escenarios, la duración predeterminada es de 4 horas. 
   
 3. Presione Entrar para ejecutar el comando. 
     
@@ -86,7 +86,7 @@ Tenga en cuenta que en este ejemplo, el escenario AlwaysOn está en ejecución j
 ## <a name="stop-the-centralized-logging-service-log-capture"></a>Detener la captura de registros del servicio de registro centralizado
 <a name="stop"> </a>
 
-Puede detener una sesión de registro que se esté ejecutando actualmente con el cmdlet Stop-CsClsLogging. Por lo general, no hay muchas situaciones en las que sería necesario detener una sesión de registro. Por ejemplo, puede buscar en registros y cambiar configuraciones sin tener que detener primero el registro. Si tiene dos escenarios en ejecución, por ejemplo, AlwaysOn y UserReplicator, y tiene que recopilar información relacionada con la autenticación, tendrá que detener uno de los demás escenarios (en un ámbito global, de sitio, de grupo o de equipo) antes de poder empezar a ejecutar en el escenario de autenticación. Para obtener información detallada, vea [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps).
+Puede detener una sesión de registro que se esté ejecutando actualmente con el cmdlet Stop-CsClsLogging. Por lo general, no hay muchas situaciones en las que sería necesario detener una sesión de registro. Por ejemplo, puede buscar en registros y cambiar configuraciones sin tener que detener primero el registro. Si tiene dos escenarios en ejecución, por ejemplo, AlwaysOn y UserReplicator, y tiene que recopilar información relacionada con la autenticación, tendrá que detener uno de los demás escenarios (en un ámbito global, de sitio, de grupo o de equipo) antes de poder empezar a ejecutar en el escenario de autenticación. Para más detalles, consulte [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps).
   
 > [!NOTE]
 > Al determinar qué escenarios puede ejecutar en una implementación, grupo o equipo determinado, tiene que recordar que está limitado a ejecutar dos escenarios **por equipo**: AlwaysOn y un escenario personalizado. Si está registrando actividad en un grupo, dicho grupo necesita considerarse como una entidad única. En la mayoría de los casos, no tendría sentido ejecutar diferentes escenarios en cada equipo de un grupo. Parece lógico mirar el problema sobre el que está recopilando datos y considerar qué escenario tiene más sentido en un equipo determinado en la implementación global. Por ejemplo, si tiene en cuenta el escenario UserReplicator, habrá muy poco valor en la ejecución de UserReplicator en un servidor perimetral o grupo de servidores perimetrales. 
@@ -105,6 +105,9 @@ Por ejemplo:
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
+> [!NOTE]
+> ¿Por lo que puede que se pregunte: ahora que se ha habilitado el registro, donde se guardan los registros? Dado que tendrá acceso a la información almacenada en los registros de uso de consultas de shell de administración enviadas a los agentes de CLS, y puede generar resultados en varios formatos de archivo posibles, donde en cada servidor de un agente de CLS mantiene sus registros no es realmente importante que debe conocer.  Los archivos de registro se pueden guardar en una ubicación que especifique y lee y analiza utilizando una gran variedad de herramientas, como **Snooper.exe** y cualquier otra herramienta que puede leer un archivo de texto, como **Notepad.exe**. Snooper.exe forma parte de la Skype para las herramientas de depuración de Business Server 2015 y está disponible como una [descarga de Web](https://go.microsoft.com/fwlink/p/?LinkId=285257).
+
 ### <a name="to-stop-a-currently-running-centralized-logging-service-session"></a>Para detener una sesión de servicio de registro centralizado actualmente en ejecución
 
 1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
@@ -117,7 +120,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
    ![Consola Windows PowerShell después de llamar Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
-   El resultado de Show-CsClsLogging es un resumen de los escenarios que se están ejecutando y en qué ámbito se están ejecutando. Para obtener información detallada, vea [Mostrar-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps).
+   El resultado de Show-CsClsLogging es un resumen de los escenarios que se están ejecutando y en qué ámbito se están ejecutando. Para más detalles, consulte [Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps).
     
 3. Para detener una sesión de registro actualmente en ejecución con un escenario específico, escriba:
     
@@ -133,10 +136,10 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Este comando detendrá el registro con el escenario de UserReplicatior en pool01.contoso.net.
     
     > [!NOTE]
-    > No se eliminan los registros creados durante esta sesión de registro con el escenario de UserReplicator. El registro todavía está disponible para que ejecute las búsquedas con el comando Search-CsClsLogging. Para obtener información detallada, vea [Search-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps). 
+    > No se eliminan los registros creados durante esta sesión de registro con el escenario de UserReplicator. El registro todavía está disponible para que ejecute las búsquedas con el comando Search-CsClsLogging. Para más detalles, consulte [Search-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps). 
   
 Al actuar como el comando complementario para Start-CsClsLogging, el cmdlet Stop-CsClsLogging finaliza la sesión de registro, definida por los escenarios, y conserva los registros creados por la sesión de registro. Puede ejecutar dos escenarios en un equipo determinado en cualquier momento. El método de detener un escenario para recopilar información usando otro escenario es una tarea común que puede llevar a cabo durante la mayor parte de la solución de problemas de cargas de trabajo.
 ## <a name="see-also"></a>Vea también
 <a name="stop"> </a>
 
-[Servicio de registro centralizado en Skype Empresarial 2015](centralized-logging-service.md)
+[Centralized Logging Service in Skype for Business 2015](centralized-logging-service.md)

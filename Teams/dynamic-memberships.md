@@ -1,9 +1,9 @@
 ---
-title: Información general de pertenencia dinámica para los equipos
+title: Información general sobre la pertenencia dinámica para los equipos
 author: jambirk
 ms.author: jambirk
 manager: serdars
-ms.date: 10/10/2018
+ms.reviewer: kblevens, phlouie
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -12,14 +12,14 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a98009237d6575e97705ae7a8eea4b444ac77a0
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: 7a96205f1971207f81d6191ef46e1be25e063f4c
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25682369"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699775"
 ---
-# <a name="overview-of-dynamic-membership-for-teams"></a>Información general de pertenencia dinámica para los equipos
+# <a name="overview-of-dynamic-membership-for-teams"></a>Información general sobre la pertenencia dinámica para los equipos
 
 Microsoft Teams es compatible con los equipos asociados con grupos de Office 365 mediante pertenencia dinámica. Pertenencia dinámica permite la pertenencia de un equipo a definirse por una o varias reglas que comprobación ciertos atributos de usuario en Azure Active Directory (AAD). Los usuarios automáticamente se agregan o quitan a los equipos de la correctos como cambian atributos de usuario o los usuarios al unirse y abandonar al inquilino.
 
@@ -28,12 +28,13 @@ Con pertenencia dinámica que se puede el programa de instalación para determin
 - Una universidad puede crear un equipo para todos los profesores dentro de un determinado universitario, incluido un profesor adjuntos que cambia con frecuencia.
 - Un compañías aéreas desea crear un equipo para cada vuelo (al igual que un martes por la tarde sin interrupciones de Chicago a Atlanta) y tienen un crew vuelo que cambia con frecuencia asignada automáticamente o quitan según sea necesario.
 
-Uso de esta característica, actualización de los miembros de un equipo determinado automáticamente según un conjunto específico de criterios, en lugar de administrar manualmente pertenencia. Esta acción requiere licencias de Azure AD Premium P1 y los miembros del equipo pueden ser [asignado por un administrador de inquilinos](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) a las propiedades AAD de cualquier usuario siempre y que cuando disponga de un inquilino y una cuenta de administrador.
+Uso de esta característica, actualización de los miembros de un equipo determinado automáticamente según un conjunto específico de criterios, en lugar de administrar manualmente pertenencia. Esta acción requiere licencias de Azure AD Premium P1 y los miembros del equipo pueden ser [asignado por un administrador de inquilinos](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) a las propiedades AAD de cualquier usuario siempre y que cuando disponga de un inquilino y una cuenta de administrador. 
 
-Microsoft Teams puede durar desde unos minutos hasta 2 horas para reflejar los cambios de pertenencia dinámica una vez que surtan efecto en el grupo de Office 365 para un equipo.
+Microsoft Teams puede durar desde unos minutos hasta 2 horas para reflejar los cambios de pertenencia dinámica una vez que surtan efecto en el grupo de Office 365 para un equipo. 
 
 > [!NOTE]
-> Pueden definir las reglas de los miembros del equipo, pero no los propietarios del equipo.
+> - Pueden definir las reglas de los miembros del equipo, pero no los propietarios del equipo.
+> - Vea [los límites y las especificaciones de los equipos de Microsoft](limits-specifications-teams.md) para conocer los límites actuales en los tamaños de canal y el equipo.
 
 ## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>Creación y administración de un grupo de Office 365 con pertenencia dinámica
 Cuando haya iniciado sesión como el Administrador de inquilinos, siga las instrucciones de [crear un grupo dinámico y compruebe el estado](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule). Según sea necesario, hacer referencia a [las reglas de pertenencia dinámica para los grupos en Active Directory de Azure](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership).

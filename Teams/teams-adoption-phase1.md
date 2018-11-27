@@ -1,7 +1,7 @@
 ---
-title: Fase de adopción de Microsoft Teams 1 - Inicio
-author: LolaJacobsen
-ms.author: lolaj
+title: 'Fase 1 de la adopción de Microsoft Teams: Inicio'
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre la fase de inicio de la adopción de los equipos.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 239a90c295035da629b74711a41f7cec59f4c0a9
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: cbebdc95a4c915e558f905e732cfae92fcd3ed14
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26520078"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699832"
 ---
-# <a name="microsoft-teams-adoption-phase-1---start"></a>Fase de adopción de Microsoft Teams 1 - Inicio
+# <a name="microsoft-teams-adoption-phase-1---start"></a>Fase 1 de la adopción de Microsoft Teams: Inicio
 
 Comenzará a la adopción de los equipos con las siguientes actividades:
 

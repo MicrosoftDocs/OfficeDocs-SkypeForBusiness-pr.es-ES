@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Resumen: Lea este tema para obtener más información acerca del Administrador de estadísticas de Skype para Business Server.'
-ms.openlocfilehash: 7b4c45bf3fe230c331725a4510a2a8a499300bef
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 390a49a4346af5ab1bc2005db04d99fd60bad056
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531084"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699855"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Plan para el Administrador de estadísticas de Skype para Business Server
 
@@ -139,6 +139,7 @@ Debe tener en cuenta los siguientes requisitos de hardware, redes y software ant
 - PSExec - necesario para realizar la implementación de agentes remotos
 
 - .NET 4.5 (incluido con 2012 R2) - necesario para los agentes y componentes de servidor
+- Descargar el [Skype para Business Server, el Administrador de estadísticas en tiempo real (64 bits)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)
 
 ### <a name="networking-requirements"></a>Requisitos de red
 

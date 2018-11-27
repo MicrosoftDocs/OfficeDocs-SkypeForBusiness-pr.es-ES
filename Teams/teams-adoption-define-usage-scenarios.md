@@ -1,7 +1,7 @@
 ---
-title: Definir escenarios de uso de Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Definir escenarios de uso para Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 10/31/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Elija los escenarios de uso para la fase de experimento de la adopción de los equipos.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf67d949bfbd9fab37a96d1c4307674a1e5e6b97
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 3276fc721ca1551ee810625229e9e64a3f8386da
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26520062"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699808"
 ---
-# <a name="define-usage-scenarios-for-microsoft-teams"></a>Definir escenarios de uso de Microsoft Teams
+# <a name="define-usage-scenarios-for-microsoft-teams"></a>Definir escenarios de uso para Microsoft Teams
 
 Asegúrese de que comprende los proyectos empresariales (escenarios) que se incluirá en el ámbito de esta fase de su implementación. Eche un vistazo a esta lista de escenarios de ejemplo que son buenos candidatos para un programa de adopción temprana. Puede empezar a trabajar con wins fáciles, como:
 

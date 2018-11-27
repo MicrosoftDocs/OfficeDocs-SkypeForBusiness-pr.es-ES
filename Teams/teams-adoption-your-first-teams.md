@@ -1,7 +1,7 @@
 ---
-title: Crear sus primera equipos en Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Crear sus primeros equipos en Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo impulsar la adopción de los equipos mediante el uso del producto.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8af87c00d15242296416f7bead06c873e75161e
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 82956a64e80811efd176f853651aa9db3770afc3
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26520077"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699715"
 ---
-# <a name="create-your-first-teams-in-microsoft-teams"></a>Crear sus primera equipos en Microsoft Teams
+# <a name="create-your-first-teams-in-microsoft-teams"></a>Crear sus primeros equipos en Microsoft Teams
 
 La mejor manera para estimular la adopción de los equipos es usar el producto. Se recomienda que administrar la implementación de Office 365 con los equipos. También debe crear una comunidad de empleados que se centran en el trabajo en equipo y la productividad. (Estos equipos iniciales pueden cambiar con el tiempo). Algunos equipos sugeridos son:
 

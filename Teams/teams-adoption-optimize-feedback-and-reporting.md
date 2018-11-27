@@ -1,7 +1,7 @@
 ---
-title: Optimizar los comentarios y creación de informes para la adopción de Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Optimizar los comentarios y los informes sobre su adopción de Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo obtener los comentarios del usuario y usar el servicio de informe de mantenimiento en la adopción de los equipos.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65790075f649693a5312c3a12cc5daac33c7ac90
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 5ab7a061b4f45564c6be42f708a0ded3ea00f268
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26520070"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699840"
 ---
-# <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimizar los comentarios y creación de informes para la adopción de Microsoft Teams
+# <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimizar los comentarios y los informes sobre su adopción de Microsoft Teams
 
 Asegúrese de que obtiene señales de vuelta desde el servicio y sus empleados siguiendo nuestras mejores prácticas para los comentarios del usuario y el informe de mantenimiento de servicio.  En algunos casos, es posible que requieren derechos de administrador de Office 365 para tener acceso a determinados informes de uso y mantenimiento del servicio. Si no es el Administrador de Office 365 para su organización, trabajar con esa persona tener el rol de lector de informe en el centro de administración de Microsoft 365 para tener acceso a algunos de estos datos. 
 

@@ -1,7 +1,7 @@
 ---
-title: Primeros usuarios incorporados y recopilar comentarios para Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Incorporar usuarios pioneros y recopilar comentarios para Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Elija los primeros usuarios para la fase de experimento de la adopción de los equipos y, a continuación, recopilar comentarios para el proyecto.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c1c85fead1bd1f1295a4ff3370d1b188f79eb73
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 58547d5f4577d9bca71317573677a56453188634
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26520074"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699673"
 ---
-# <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Primeros usuarios incorporados y recopilar comentarios para Microsoft Teams
+# <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Incorporar usuarios pioneros y recopilar comentarios para Microsoft Teams
 
 Volver a la lista de empleados que había expresado interés en el programa de adopción temprana. Decidir cuál de estas personas deben participar en su experimentación inicial con los equipos. Puede ser todo o parte de las personas que están interesadas. Incluso si no se selecciona para estos proyectos iniciales, continuar comunicarse con ellos de forma que permanecen interesados y estarán dispuestos a participar en el futuro. Va a formar parte del proceso de incorporación de los proyectos que ha seleccionado en función de sus conversaciones con las partes interesadas del negocio, su equipo técnico y su ejercicio de priorización que se muestra encima. 
 

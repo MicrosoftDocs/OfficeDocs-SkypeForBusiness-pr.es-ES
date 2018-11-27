@@ -3,21 +3,22 @@ title: Adoptar Microsoft Teams
 description: Use estos recursos de adopción que le ayudarán a planear e implementar Microsoft Teams en su organización.
 layout: LandingPage
 ms.topic: landing-page
-author: LolaJacobsen
-ms.author: lolaj
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 10/31/2018
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9fe430e18257468f6d88c7beb12dda165d9077a
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 33791cc16a7d2a45e16a41e4dfefe0efff8534b1
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649671"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699665"
 ---
 # <a name="adopt-microsoft-teams"></a>Adoptar Microsoft Teams
 

@@ -1,7 +1,7 @@
 ---
-title: Conocimiento de la unidad e implementar recursos de aprendizaje para Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Darlo a conocer e implementar formación para Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo aumentar el conocimiento e implementar un programa de aprendizaje para la adopción de Microsoft Teams.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91468e121e80255249d4f8a3d9676f6c3069a319
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 8da00716e83d1b227bdf2c4ff66b1c026aa8e55c
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26520096"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699760"
 ---
-# <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Conocimiento de la unidad e implementar recursos de aprendizaje para Microsoft Teams
+# <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Darlo a conocer e implementar formación para Microsoft Teams
 
 Conocimiento del producto y la formación son el segmento de marketing y comunicaciones de su estrategia de adopción. Esto le permitirá garantizar que sus empleados conozcan las nuevas capacidades de Microsoft Teams y sus servicios de Office 365 subyacentes y aplicaciones.
    

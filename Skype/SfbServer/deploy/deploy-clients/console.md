@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: En este artículo se describe cómo configurar la consola de v2 de sistemas de salón de Skype y sus periféricos.
-ms.openlocfilehash: bb23f0dad26f37554657a101dc68dc7d776080b2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 01bc2fe49fc56a4926563ad18e384455ef437b77
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371064"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699433"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Configurar una consola de Sistemas de salas de Skype v2
  
@@ -47,14 +47,17 @@ Instalación de la aplicación de consola de sistemas de salón de Skype v2 requ
 > Error al crear los discos de instalación de sistemas de salón de Skype v2 según estas instrucciones probablemente tendrá como resultado un comportamiento inesperado. Actualización de aniversario de empresa de Windows 10 (versión 1607) ya no se admite para la creación de medios de instalación de sistemas de salón de Skype v2.
   
 > [!NOTE]
-> Funcionará un v2 de Skype salón sistemas existentes con Windows 10 Enterprise aniversario de actualización de mover a sistemas de salón de Skype v2 actualización 3 mediante el almacén de Windows, pero se debe realizar una nueva instalación tal y como se describe a continuación. 
+> Funcionará un v2 de Skype salón sistemas existentes con Windows 10 Enterprise mover a sistemas de salón de Skype v2 actualización 3 mediante el almacén de Windows, pero se debe realizar una nueva instalación tal y como se describe a continuación. 
   
-1. Descargar el [script CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842).
+1. Descargue el [script CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842). 
 2. (Opcional) Descargue y coloque los archivos CAB de paquete de idioma deseado en el mismo directorio que la secuencia de comandos. La secuencia de comandos que le indicará que puede descargar los archivos de paquete de idioma apropiados para el tipo de medios que se va a crear, si no está seguro de dónde adquirir los paquetes de idioma de.
 3. Ejecute el script CreateSrsMedia.ps1 desde un símbolo de sistema con privilegios elevados en un equipo con Windows 10.
 
 
 Siga las instrucciones de la secuencia de comandos para crear un disco de instalación de sistemas de salón de Skype v2 USB. Cuando haya terminado, quitar el disco USB de su equipo y proceda a [instalar 10 de Windows y la aplicación de consola de sistemas de salón de Skype v2](console.md#Reimage).
+
+> [!TIP]
+> Es posible que haya observado que nos ya no destacar versiones específicas de los controladores, cliente de sistemas de salón de Skype v2 o Windows 10 Enterprise. Esto es deliberado, queremos que la secuencia de comandos para hacer coincidir y comprobar la compatibilidad para todos los instaladores. La secuencia de comandos se automáticamente obtenga y lo que necesita para una configuración compatible.  
     
 ## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>Instalación de Windows 10 y la aplicación de consola Sistemas de salas de Skype
 <a name="Reimage"> </a>
@@ -181,7 +184,7 @@ La consola de sistemas de salón de Skype v2 debe confiar en los certificados us
 ### <a name="join-an-active-directory-domain-optional"></a>Unirse a un dominio de Active Directory (opcional)
 <a name="Certs"> </a>
 
-Puede unirse a consolas de sistemas de salón de Skype v2 a su dominio. Consolas de sistemas de salón de Skype v2 deben ubicarse en una unidad organizativa independiente desde estaciones de trabajo de sus PC debido a que muchas de las directivas de estación de trabajo no son compatibles con sistemas de salas de Skype v2. Un ejemplo común son las directivas de cumplimiento de contraseña que se impiden que se inicie automáticamente sistemas de salón de Skype v2. Para obtener información acerca de la administración de configuraciones de GPO, consulte [administrar sistemas de salón de Skype v2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md).
+Puede unirse a consolas de sistemas de salón de Skype v2 a su dominio. Consolas de sistemas de salón de Skype v2 deben ubicarse en una unidad organizativa independiente desde estaciones de trabajo de sus PC debido a que muchas de las directivas de estación de trabajo no son compatibles con sistemas de salas de Skype v2. Un ejemplo común son las directivas de cumplimiento de contraseña que se impiden que se inicie automáticamente sistemas de salón de Skype v2. Si desea obtener más información sobre la administración de la configuración de GPO, consulte [Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md).
   
 ### <a name="to-join-skype-room-system-v2-to-a-domain"></a>Para unir Sistemas de salas de Skype v2 a un dominio
 
@@ -242,7 +245,7 @@ Utilizar la lista de comprobación siguiente mientras se hace una comprobación 
 ## <a name="see-also"></a>Vea también
 <a name="Checklist"> </a>
 
-[Plan para Sistemas de salas de Skype v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [Implementar Sistemas de salas de Skype v2](room-systems-v2.md)
   

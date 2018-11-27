@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 'Resumen: Revise las consideraciones de tipo de dirección IP a continuación antes de implementar Skype para Business Server.'
-ms.openlocfilehash: 46d448e0004c9a83921f0c92d12513e39f076dc3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 58d359b626334b49ed08904134c758128f78673e
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375206"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699419"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Configurar tipos de dirección IP en Skype Empresarial
 
@@ -34,7 +34,7 @@ Con el generador, realice los pasos del siguiente procedimiento para implementar
 
 1. En **Grupo de servidores front-end Enterprise Edition**, haga clic con el botón secundario dentro de un grupo y seleccione **Editar propiedades** (también puede seleccionar el servidor y hacer clic en **Editar propiedades** en el menú **Acción**).
 
-2. En el cuadro de diálogo **Editar propiedades**, seleccione el tipo de dirección IP que desea configurar. Para establecer una configuración de doble pila, seleccione **Habilitar IPv4** y **Habilitar IPv6**, como se muestra en la figura siguiente.
+2. En el cuadro de diálogo **Editar propiedades**, seleccione el tipo de dirección IP que desea configurar. Para una configuración de pila dual, seleccione **Habilitar IPv4** e **IPv6 habilitar**.
 
    **Cuadro de diálogo Editar propiedades para el grupo de servidores front-end**
 
@@ -49,8 +49,8 @@ Con el generador, realice los pasos del siguiente procedimiento para implementar
 
    - **Dirección IP de RTC**. Defina una dirección IP para la RTC cuando asigne un servidor de mediación en el servidor front-end. Esta dirección necesita coincidir con el formato del tipo de dirección seleccionado.
 
-     > [!NOTE]
-     > No se admite la instalación de tarjetas de interfaz de red adicionales (NIC) para admitir la configuración de direcciones IP PSTN en servidores Front-End. Para obtener más información acerca de configuraciones compatibles de NIC de Skype para Business Server, vea [plataformas de hardware de servidor para Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
+> [!NOTE]
+> No se admite la instalación de tarjetas de interfaz de red adicionales (NIC) para admitir la configuración de direcciones IP PSTN en servidores Front-End. Para obtener más información acerca de configuraciones compatibles de NIC de Skype para Business Server, vea [plataformas de hardware de servidor para Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>Implementar tipos de dirección IP en un servidor de mediación
 
@@ -74,9 +74,14 @@ Con el generador, realice los pasos del siguiente procedimiento para implementar
   - **Dirección IP principal**. Introduzca una dirección IP que el servidor usará para todas las comunicaciones excepto para red telefónica conmutada (RTC). La dirección IP introducida necesita coincidir con el formato del tipo de dirección seleccionado.
 
   - **Dirección IP de RTC**. Defina una dirección IP para la RTC cuando asigne un servidor de mediación en el servidor front-end. Esta dirección necesita coincidir con el formato del tipo de dirección seleccionado.
+> [!IMPORTANT]
+> Sólo se admiten dos tarjetas de red en *dedicado* servidores de mediación. Si el rol de servidor de mediación está combinado en el Front-End, dos tarjetas de red no son compatibles. 
 
-    > [!NOTE]
-    > No se admite la instalación de NIC adicionales para admitir la configuración de direcciones IP PSTN en los servidores de mediación independiente. Para obtener más información acerca de configuraciones compatibles de NIC de Skype para Business Server, vea [plataformas de hardware de servidor para Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
+> [!NOTE]
+> - Para obtener más información acerca de configuraciones compatibles de NIC de Skype para Business Server 2015, vea [Hardware de Skype para Business Server 2015](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)
+> - Para obtener más información acerca de configuraciones compatibles de NIC de Skype para Business Server 2019, vea [Hardware de Skype para Business Server 2019](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)
+
+
 
 ## <a name="deploy-ip-address-types-on-an-edge-server"></a>Implementar tipos de dirección IP en un servidor perimetral
 

@@ -1,28 +1,28 @@
 ---
-title: Definir los resultados empresariales y operación correcta para la adopción de Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Definir resultados y el éxito de su adopción de Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo se va a medir los resultados empresariales y el éxito de la habilitación de gran escala de los equipos.
-ms.custom:
-- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe4a146492712b4d18e8a4e1b18ea393a646662e
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 2df638a12b67ac70b0759f70365f48330c26914d
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26520105"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699823"
 ---
-# <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definir los resultados empresariales y operación correcta para la adopción de Microsoft Teams
+# <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definir resultados y el éxito de su adopción de Microsoft Teams
 
 Para cada escenario de negocio o servicio que modernizar la, es fundamental para definir qué éxito el aspecto de su negocio. Habrá recopilada esa información para los escenarios de iniciales, tal y como se asignó en la fase anterior. Mientras se prepara para la implementación de escala, debe revisar y expanda estos criterios de éxito importante.
   

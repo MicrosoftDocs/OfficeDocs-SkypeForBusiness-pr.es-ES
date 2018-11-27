@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b30ca95bb3ff5a01d5e8d991dda8e696148ab85c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c97ce12f2dd55807cd806afa05ea6d1813ad457b
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372322"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699412"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Requisitos de hardware para la aplicación Microsoft Teams
 
@@ -33,11 +33,11 @@ ms.locfileid: "25372322"
 |Disco duro    | 3.0 GB de espacio disponible en disco        |
 |Pantalla    |   resolución de pantalla de 1024 x 768 |
 |Hardware de gráficos |  Mínimo de 128 MB de memoria gráfica
-|Sistema operativo  |    10 de Windows, Windows 8.1, Windows 8 o Windows 7 Service Pack 1 32 bits y 64 bits.  Para la mejor experiencia, use la versión más reciente de cualquier sistema operativo.|
+|Sistema operativo  |    10 de Windows, Windows 8.1, Windows 8 o Windows 7 Service Pack 1 32 bits y 64 bits. Para la mejor experiencia, use la versión más reciente de cualquier sistema operativo.|
 |Versión de .NET    |  Requiere CLR de .NET 4.5 o posterior       |
 |Vídeo    |  Cámara de vídeo USB 2.0       |
 |Dispositivos    |   Altavoces, micrófono y cámara portátil estándar    | 
-|Las reuniones y llamadas de vídeo | Mejor experiencia con las llamadas de vídeo y reuniones en línea, se recomienda usar un equipo que tenga un procesador de 2,0 GHz y 4.0 GB de RAM (o superior).
+|Las reuniones y llamadas de vídeo | Mejor experiencia con las llamadas de vídeo y reuniones en línea, se recomienda usar un equipo que tenga un procesador de 2,0 GHz y 4.0 GB de RAM (o superior). El opcional blur mi fondo efecto de vídeo requiere un procesador con compatibilidad con las extensiones de Vector avanzada 2 (AVX2).
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Requisitos de hardware para la aplicación de escritorio de los equipos en Mac
 
@@ -50,7 +50,7 @@ ms.locfileid: "25372322"
 |Sistema operativo  |    Mac OS X 10.11 El capitán o posterior     |
 |Vídeo  |    Cámara Web compatible     |
 |Voz    |  Compatible con micrófono y altavoces, auriculares con micrófono o dispositivo equivalente       |
-|Las reuniones y llamadas de vídeo | Mejor experiencia con las llamadas de vídeo y reuniones en línea, se recomienda usar un equipo que tenga un procesador de 2,0 GHz y 4.0 GB de RAM (o superior).
+|Las reuniones y llamadas de vídeo | Mejor experiencia con las llamadas de vídeo y reuniones en línea, se recomienda usar un equipo que tenga un procesador de 2,0 GHz y 4.0 GB de RAM (o superior). El opcional blur mi fondo efecto de vídeo requiere un procesador con compatibilidad con las extensiones de Vector avanzada 2 (AVX2), admitida en la mayoría de los dispositivos Mac retrasada 2013 y versiones posteriores.
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>Requisitos de hardware para la aplicación en los equipos en los dispositivos móviles
 

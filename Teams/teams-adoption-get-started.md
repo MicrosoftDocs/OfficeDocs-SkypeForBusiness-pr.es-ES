@@ -1,7 +1,7 @@
 ---
-title: Empezar a promoviendo la adopción de Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Comenzar a impulsar la adopción de Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre el el inicio, experimentar y habilitar las fases de adopción de Microsoft Teams.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6615f296fd1ff248b2801fd44c6cc92586b27876
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 75cecfd5050ce964fd7b2dbc9dff97da2fb920b3
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26520097"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699752"
 ---
-# <a name="get-started-driving-adoption-of-microsoft-teams"></a>Empezar a promoviendo la adopción de Microsoft Teams
+# <a name="get-started-driving-adoption-of-microsoft-teams"></a>Comenzar a impulsar la adopción de Microsoft Teams
 
 Al impulsar la adopción de Microsoft Teams, puede ofrecer una experiencia de usuario excelente y mayor valor para el negocio dentro de su compañía. Nuestro objetivo es obtener que copia de seguridad y ejecutar rápidamente para que pueda comenzar su viaje con los equipos. Esta guía se centra en la adopción de usuario de los equipos y no tiene dependencias en preparación técnica de su entorno, que se trata en otras secciones de nuestra documentación.
 
