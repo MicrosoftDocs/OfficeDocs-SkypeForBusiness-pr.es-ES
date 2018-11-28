@@ -11,22 +11,22 @@ ms.collection: Teams_ITAdmin_Help
 ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
-description: Aprenda a usar los distintos clientes disponibles para Microsoft Teams, que incluyen web, escritorio (Windows y Mac) y móvil (Android, iOS y Windows Phone).
+description: Obtenga información sobre cómo utilizar los diversos clientes disponibles para Microsoft Teams que incluyen web, escritorio (Windows y Mac) y mobile (Android y iOS).
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f90913cfcaa3fe36380ba0c072d921c7f55fa126
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 16ee59e01a45e79bb04a410857e128df7f12934e
+ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649544"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26716354"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
 ===========================
 
-Microsoft Teams tiene los clientes disponibles para escritorio web (Windows y Mac) y para dispositivos móviles (Android, iOS y Windows Phone). Todos estos clientes requieren una conexión a Internet activa y no admiten el modo sin conexión.
+Microsoft Teams tiene los clientes disponibles para escritorio web (Windows y Mac) y para dispositivos móviles (Android y iOS). Todos estos clientes requieren una conexión a Internet activa y no admiten el modo sin conexión.
 
 > [!NOTE]
 > 29 de noviembre eficaz de 2018, ya no podrá usar el Teams Microsoft para la aplicación de Windows 10 S (vista previa), esté disponible de Microsoft Store. Se recomienda que use una de las aplicaciones de los equipos que se describe a continuación en este artículo después de 29 de noviembre.

@@ -11,21 +11,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: En este artículo se resume los requisitos para la compatibilidad con sistemas de salas de Skype v2.
-ms.openlocfilehash: 23ab819c4a32efd4228a1d1d5b7aba89275e5b39
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8cadbed89be0301071c2c8a30c715f786b549d36
+ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532076"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26716454"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Requisitos de Sistemas de salas de Skype v2
 
 En este artículo se resume los requisitos para la compatibilidad con sistemas de salas de Skype v2. 
 
-La implementación incluirá la creación de cuentas como se describe en [implementar sistemas de salón de Skype v2](../../deploy/deploy-clients/room-systems-v2.md) y configurar una consola de reunión tal como se describe en [Configurar una consola de v2 de sistemas de salón de Skype](../../deploy/deploy-clients/console.md). También es posible que necesita hacer referencia a [Skype para Business licensing del complemento](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).
+La implementación incluirá la creación de cuentas como se describe en [implementar sistemas de salón de Skype v2](../../deploy/deploy-clients/room-systems-v2.md) y configurar una consola de reunión tal como se describe en [Configurar una consola de v2 de sistemas de salón de Skype](../../deploy/deploy-clients/console.md). 
+
+También es posible que necesite hacer referencia a:
+
+- [Licencias complementarias de Skype Empresarial](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+- [En función del plan de opciones de licencia: v2 de sistemas de salón de Skype](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Sistemas de salón de Skype v2 está pensada para su uso con Skype para Business Server 2019, Skype Business Server 2015, Microsoft Teams o Skype para profesionales en línea. <br><br>No se espera plataformas anteriores al igual que Lync Server 2013 para trabajar con sistemas de salas de Skype v2. 
+> Sistemas de salón de Skype v2 está pensada para su uso con Skype para Business Server 2019, Skype Business Server 2015, Microsoft Teams o Skype para profesionales en línea. <br><br>No se espera plataformas anteriores al igual que Lync Server 2013 para trabajar con sistemas de salas de Skype v2.
 
 > [!NOTE]
 > Si usa un servidor de Exchange en prem, sistemas de salón de Skype v2 requiere el uso de Exchange Server 2013 SP1 o posterior.

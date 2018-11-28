@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f5f4b0732aab299a2cf4038547dfa9b6bf4562d
-ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
+ms.openlocfilehash: 966768e447e236d7b9d313d3fd699fd788914c1f
+ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26620102"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26716440"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Incorporar usuarios pioneros en Microsoft Teams
 
@@ -35,7 +35,7 @@ Por ejemplo, para el equipo de "Obtener saber los equipos", es posible que desee
    ```
    Welcome to Microsoft Teams for <insert_company_name>. Teams is a chat-based workspace that brings together chat, files, people, and tools in one place. 
 
-   We created a team called "Get to know Teams" to get you started. Use it to experiment, ask questions, and discover the possibilites of Teams. 
+   We created a team called "Get to know Teams" to get you started. Use it to experiment, ask questions, and discover the possibilities of Teams. 
 
    To join, click <link to the team>.
    ```
