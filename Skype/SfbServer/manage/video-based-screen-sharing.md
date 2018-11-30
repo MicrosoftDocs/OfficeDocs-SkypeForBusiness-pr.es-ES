@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype para obtener información de planeación y configuración de Business Server para vídeo compartida basado en pantalla (VbSS)
-ms.openlocfilehash: 450a6ab5550c00e91e2d9772d954dc8f51d38156
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 84547168eb883522005480fb07ff2bfb9abd54f6
+ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561924"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "26993436"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Vídeo según el uso compartido de la pantalla de Skype para Business Server 
  
@@ -120,14 +120,13 @@ Hay situaciones donde uso compartido de pantalla va a realizar la transición a 
 - Si la cuenta está alojada en un entorno en el que ASMCU no cumple con la compilación mínima admitida por VbSS.
 - Si una persona que usa una versión anterior de la Skype para clientes empresariales se une a la sesión, por ejemplo cualquier persona con cualquier versión de cliente de Windows que es menor que 16.0.6330.1000, Skype para dispositivos del sistema empresarial salón o Skype para aplicaciones empresariales de Mobile. 
 - Si un usuario está compartiendo desde el Skype para la aplicación empresarial de Web.
-- Si alguien usa Skype para la empresa en Mac y no está hospedado en Skype para profesionales en línea.
+- Si alguien usa Skype para la empresa en Mac y no está hospedado en Skype para profesionales en línea o Skype para Business Server 2015 con la actualización acumulativa de julio de 2018 (o posterior).
 - Si alguien inicia cualquier programa o Windows uso compartido.
 - Si alguien inicia la grabación de la sesión.
-- Si alguien invoca al control de pantalla remota durante la sesión.
-
-    Tenga en cuenta que cuando la sesión cambie a RDP, no volverá a VbSS. Nuevamente, la transición de VbSS debe ser ininterrumpida y, es de esperar, que no sea sencillo detectarla en la mayoría de los casos.
-  
+- Si alguien invoca al control de pantalla remota durante la sesión. 
 - En el caso de reuniones con más de 250 participantes (donde VbSS no es compatible actualmente).
+
+Tenga en cuenta que cuando la sesión cambie a RDP, no volverá a VbSS. Nuevamente, la transición de VbSS debe ser ininterrumpida y, es de esperar, que no sea sencillo detectarla en la mayoría de los casos.
     
 > [!NOTE]
 > No se admite el bloque, o intenta bloquear, la transición de VbSS a RDP en Skype para compartir la pantalla empresarial. 

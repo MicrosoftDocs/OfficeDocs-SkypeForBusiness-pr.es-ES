@@ -1,5 +1,5 @@
 ---
-title: Crear un equipo de toda la organización en Microsoft Teams
+title: Crear un equipo que abarque toda la organización en Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: phlouie
@@ -13,18 +13,18 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3980a73c817b83466c8c93c29fb60e7e20f4df48
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: cefcf6cb4d1710935e6448e4babd7a284165e767
+ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532812"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "26993421"
 ---
-# <a name="create-an-org-wide-team-in-microsoft-teams"></a>Crear un equipo de toda la organización en Microsoft Teams
+# <a name="create-an-org-wide-team-in-microsoft-teams"></a>Crear un equipo que abarque toda la organización en Microsoft Teams
 
 Los equipos de toda la organización proporcionan una forma automática para todos los usuarios en una organización pequeña a mediana forme parte de un único equipo para la colaboración. 
  
-Con los equipos de toda la organización, los administradores globales pueden crear fácilmente un equipo público que extrae en todos los usuarios de la organización y mantiene la pertenencia al día con Active Directory como unirse a los usuarios y salir de la organización. Sólo los administradores globales pueden crear los equipos de toda la organización y actualmente se limita a las organizaciones con no más de 2.500 a los usuarios un equipo de toda la organización. Si se cumplen estos requisitos, los administradores vea **toda la organización** como una opción en **privacidad** al crear un equipo.
+Con los equipos de toda la organización, los administradores globales pueden crear fácilmente un equipo público que extrae en todos los usuarios de la organización y mantiene la pertenencia al día con Active Directory como unirse a los usuarios y salir de la organización. Sólo los administradores globales pueden crear los equipos de toda la organización y actualmente se limita a las organizaciones con no más de 2.500 a los usuarios un equipo de toda la organización. Si se cumplen estos requisitos, los administradores globales vea **toda la organización** como una opción en **privacidad** al crear un equipo.
 
 ![Captura de pantalla de la opción de toda la organización para crear un equipo de toda la organización] (media/create-org-wide-team.png "Captura de pantalla de la opción de toda la organización para crear un equipo de toda la organización")
 
@@ -48,3 +48,11 @@ Reducir el ruido de canal por tener solo del equipo que los propietarios de entr
 
 ### <a name="remove-accounts-that-might-not-belong"></a>Quitar las cuentas que no es posible que pertenecen
 Aunque los miembros no pueden dejar un equipo de toda la organización, como propietario de un equipo, puede administrar la lista de participantes de equipo mediante la eliminación de las cuentas que no pertenecen. Asegúrese de que usar los equipos para quitar los usuarios de su equipo de toda la organización.  Si usa otra forma de quitar un usuario, como el centro de administración de Microsoft 365 o desde un grupo en Outlook, el usuario podría agregarse al equipo de toda la organización. 
+
+## <a name="faq"></a>Preguntas más frecuentes
+
+### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>¿Hay alguna forma para crear un equipo de toda la organización que no sea mediante el cliente de los equipos? 
+
+Los administradores globales sólo pueden crear un equipo de toda la organización mediante el cliente de los equipos. Si su organización limita los equipos de creación para uso de PowerShell, la solución recomendada es agregar los administradores globales para el grupo de seguridad de los usuarios que puede crear un equipo. Si desea más información, consulte [Administrar quién puede crear grupos de Office 365](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups). 
+
+Si esto no es una opción, puede crear un equipo público con PowerShell y agregar un administrador global como el propietario del equipo. A continuación, tienen el administrador global haga clic en **... Más opciones** junto al nombre de equipo, haga clic en **Editar equipo**y, a continuación, cambie la privacidad a **toda la organización - todas las personas de su organización se agregará automáticamente**. Tenga en cuenta que sólo los propietarios de equipo pueden tener acceso a la opción **Editar equipo** y los administradores globales sólo pueden ver la opción de **toda la organización** .

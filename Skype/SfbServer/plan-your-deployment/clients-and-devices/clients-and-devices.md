@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Resumen: revisión de los clientes y aplicaciones compatibles para Skype Empresarial.'
-ms.openlocfilehash: 3c68264f9eabc32c9e8c11a243fd103bb7c97426
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: bde1e70699de8adfdf58a7cc892405d8eee8675c
+ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530816"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "26993383"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planificar los clientes y los dispositivos
 
@@ -34,13 +34,13 @@ Skype Empresarial Server admite varios tipos de clientes, como el software de cl
 
 ### <a name="skype-for-business-2019"></a>Skype Empresarial (2019)
 
-Skype Empresarial (2019) es el cliente de Skype Empresarial Server 2019 que incluye todas las características y se recomienda. Consulte [Novedades en Skype Empresarial 2016](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) para ver una descripción de las características nuevas. Todos los detalles sobre la compatibilidad de las características de los clientes se encuentran en [Comparación de características de cliente de escritorio de Skype Empresarial](desktop-feature-comparison.md) y la documentación de usuario en la [Ayuda de Skype Empresarial](https://support.office.com/en-US/Skype-for-business). Este cliente se incluye cuando un usuario instala Office 365.
+Skype para la empresa (2019) es el cliente recomendado completas de Skype para Business Server 2015 y 2019. Para obtener una descripción de las nuevas características, vea [siga las actualizaciones más recientes de Skype para la empresa](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) . Todos los detalles sobre la compatibilidad de las características de los clientes se encuentran en [Comparación de características de cliente de escritorio de Skype Empresarial](desktop-feature-comparison.md) y la documentación de usuario en la [Ayuda de Skype Empresarial](https://support.office.com/en-US/Skype-for-business). Este cliente se incluye cuando un usuario instala Office 365.
 
 También hay disponible un cliente básico gratuito con menos características. Ambas versiones se pueden descargar en [Descargar Skype Empresarial en todos los dispositivos](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3). En la sección de [limitaciones del cliente básico](desktop-feature-comparison.md#Full-Basic) se describen las diferencias que existen entre los clientes básicos y los completos.
 
 ### <a name="skype-for-business-2016"></a>Skype Empresarial 2016
 
-Skype Empresarial 2016 es el cliente de Skype Empresarial Server que incluye todas las características y se recomienda. Consulte [Novedades en Skype Empresarial 2016](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) para ver una descripción de las características nuevas. Todos los detalles sobre la compatibilidad de las características de los clientes se encuentran en [Comparación de características de cliente de escritorio de Skype Empresarial](desktop-feature-comparison.md) y la documentación de usuario en la [Ayuda de Skype Empresarial](https://support.office.com/en-US/Skype-for-business). Este cliente se incluye cuando un usuario instala Office 365.
+Skype para 2016 empresarial es un cliente completas de Skype para Business Server 2015 o 2019. Consulte [Novedades en Skype Empresarial 2016](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) para ver una descripción de las características nuevas. Todos los detalles sobre la compatibilidad de las características de los clientes se encuentran en [Comparación de características de cliente de escritorio de Skype Empresarial](desktop-feature-comparison.md) y la documentación de usuario en la [Ayuda de Skype Empresarial](https://support.office.com/en-US/Skype-for-business). Este cliente se incluye cuando un usuario instala Office 365.
 
 También hay disponible un cliente básico gratuito con menos características. Ambas versiones se pueden descargar en [Descargar Skype Empresarial en todos los dispositivos](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3). En la sección de [limitaciones del cliente básico](desktop-feature-comparison.md#Full-Basic) se describen las diferencias que existen entre los clientes básicos y los completos.
 
