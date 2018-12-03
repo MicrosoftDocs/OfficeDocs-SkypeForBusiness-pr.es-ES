@@ -3,12 +3,12 @@ layout: HubPage
 hide_bc: true
 title: Skype for Business
 description: Skype Empresarial
-ms.openlocfilehash: e7b0fc5197790f689e58ec68fa05f1ea38b4fd7e
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: b351a492d14e7273daec0adc12f96a74abd08d4e
+ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531370"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27131210"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -58,7 +58,7 @@ ms.locfileid: "26531370"
                                     </div>
                                 </a>
                             </li><br/>                            <li>
-                                <a href="/SkypeForBusiness/skype-for-business-server-2015">
+                                <a href="/SkypeForBusiness/skype-for-business-server-2019">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">

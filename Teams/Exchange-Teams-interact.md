@@ -3,7 +3,6 @@ title: Interacción entre Exchange y Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: crowe
@@ -13,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9aeeab6f84b222500829282d29ac06ec73d42ecc
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1fc28a19f8ebccc494f59416cec0faa21a2b6d8f
+ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373339"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27131241"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams 
 =========================================
@@ -40,8 +39,8 @@ En la siguiente tabla se ofrece información para usuarios con Exchange Online h
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Sí<sup>2</sup>|Sí<sup>2</sup>|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|
 |**Exchange Online Dedicated vNext**|Sí<sup>2</sup>|Sí<sup>2</sup>|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|
-|**Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)|Sí ([lista de permitidos](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))<sup>2</sup>|Sí,<sup>2, 3</sup>|No|Sí|No|No|Sí|Sí|No|No|No|Sí|Sí|
-|**Exchange local** (requiere sincronización con Azure AD)|Sí ([lista de permitidos](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))<sup>2</sup>|Sí,<sup>2, 3</sup>|No|Sí|Sí (Exchange 2016 CU3 +)|No|Sí|Sí|No|No|No|No|Sí|
+|**Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)|Sí <sup>2</sup>|Sí,<sup>2, 3</sup>|No|Sí|No|No|Sí|Sí|No|No|No|Sí|Sí|
+|**Exchange local** (requiere sincronización con Azure AD)|Sí <sup>2</sup>|Sí,<sup>2, 3</sup>|No|Sí|Sí (Exchange 2016 CU3 +)|No|Sí|Sí|No|No|No|No|Sí|
                                                             
 <sup>1</sup> CU3 de 2016 admite exchange y por encima de  
 <sup>2</sup> de exhibición de documentos electrónicos y retención Legal para el cumplimiento de mensajes del canal es compatible con todas las opciones de hospedaje.  
@@ -67,7 +66,7 @@ Información adicional:
 > Por el momento, si su organización tiene ciertas normativas por las que se tienen que poder detectar todas las discusiones de las reuniones, debe deshabilitar las reuniones privadas si el organizador tiene un buzón de correo local de Exchange.
 > 
 > [!IMPORTANT]
->   Los usuarios que participan en las conversaciones que forman parte de la lista de Chat en Microsoft Teams deben tener un buzón de Exchange Online (basada en la nube) para un administrador buscar las conversaciones de chat. Eso es porque las conversaciones que forman parte de la lista de Chat se almacenan en los buzones de correo basados en la nube de los participantes de chat. Si un participante de chat no tiene un buzón de Exchange Online, el administrador no podrá buscar o colocar una suspensión en las conversaciones de chat. Por ejemplo, en una implementación híbrida de Exchange, los usuarios con buzones locales es posible que puedan participar en las conversaciones que forman parte de la lista de Chat en Microsoft Teams. Sin embargo, en este caso, el contenido de estas conversaciones no es que admite búsquedo y no se puede colocar en espera, debido a que los usuarios no dispongan de buzones de correo basados en la nube. Para obtener más información acerca de las búsquedas de contenido y Microsoft Teams, vea [ejecutar una búsqueda de contenido en el centro de cumplimiento y seguridad de Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
+> En una implementación híbrida de Exchange, contenido de mensajes de chat es que admite búsquedo independientemente de si los participantes de chat tienen un buzón de correo basados en la nube o un buzón de correo local. Para obtener más información, lea [los buzones basados en la nube de búsqueda para los usuarios de Office 365 local](https://docs.microsoft.com/en-us/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para obtener información acerca de cómo buscar contenido en los equipos, lea la [Búsqueda de contenido en el centro de cumplimiento y seguridad de Office 365](https://docs.microsoft.com/en-us/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 > 
 > [!TIP]
->   Para obtener información acerca de cómo usar Azure Connect de AD para sincronizar con Azure Active Directory, vea [*integración de sus identidades local con Azure Active Directory*](https://go.microsoft.com/fwlink/?linkid=854600).
+> Para obtener información acerca de cómo usar Azure Connect de AD para sincronizar con Azure Active Directory, vea [integración de sus identidades local con Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=854600).

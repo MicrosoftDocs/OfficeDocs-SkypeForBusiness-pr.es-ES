@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo enrutamiento directo de Microsoft teléfono del sistema le permite conectar un compatibles, proporcionado por el cliente sesión controlador de borde (SBC) para el sistema telefónico de Microsoft.
-ms.openlocfilehash: d3b102dc09011e5990a42c608d78c6bb3f414ff7
-ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
+ms.openlocfilehash: f5634a65d6648d34671c372bc20c2145abdbfc96
+ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26676555"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27131313"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -227,7 +227,9 @@ El intervalo de puertos de los procesadores de medios se muestra en la siguiente
 ### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>Bifurcación entre el cliente SBC y procesador de medios en la nube o Teams de Microsoft.
 Se aplica a caso de desvío de medios y sin desvío de los casos
 
-La interfaz de enrutamiento directo en el tramo de entre el controlador de borde de sesión y el procesador de medios en la nube (sin desvío de medios) o entre el cliente de los equipos y la SBC (si se habilita el desvío de medios) puede usar los siguientes códecs: • no medios desvío (SBC a los medios de la nube Procesador): SEDA, G.711, G.722, G, 729 • el desvío de medios (SBC al cliente de los equipos): SEDA, G.711, G.722, G, OPUS 729,
+La interfaz de enrutamiento directo en el tramo de entre el controlador de borde de sesión y el procesador de medios en la nube (sin desvío de medios) o entre el cliente de los equipos y la SBC (si se habilita el desvío de medios) puede usar los siguientes códecs:
+- (SBC para procesador de medios en la nube) el desvío de medios de no: SEDA, G.711, G.722, G, 729
+- Desvío de medios (SBC al cliente de los equipos): SEDA, G.711, G.722, G, OPUS 729,
 
 Puede forzar el uso del códec específico en el controlador de borde de sesión mediante la exclusión de códecs no deseados de la oferta.
 
