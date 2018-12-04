@@ -3,7 +3,7 @@ title: Implementación de equipos de Microsoft para el concentrador de superfici
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 09/26/2018
+ms.date: 12/04/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,17 +16,20 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aca03693a7abea6e26f175cc49f0142894749160
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 485e4063c523608421955b86e0be680d5dc10b9a
+ms.sourcegitcommit: 5742301cdd28e5e26107920f18e70f41b0f67cfb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372184"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27132006"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Implementación de equipos de Microsoft para el concentrador de superficie
 ======================================
 
 Antes de implementar Microsoft Teams Microsoft Surface concentrador, asegúrese de que haya cumplido con el hardware, sistema operativo y otros requisitos. Para obtener más información, consulte la [Guía de administración de Microsoft Surface concentrador](https://docs.microsoft.com/surface-hub/).
+
+> [!NOTE]
+> Si se están realizando la transición de Skype para profesionales en línea, debe confirmar que se ha asignado una licencia de Microsoft Teams al usuario.
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Instalación de los equipos para exponer concentrador desde el almacén de Microsoft 
 
@@ -39,7 +42,7 @@ Estas instrucciones son para la instalación de los equipos de concentrador de s
 3. Una vez finalizada la instalación, reinicie el concentrador de superficie. 
 
 > [!NOTE]
-> Puntee en no en el **Inicio** de la lista de página de la tienda.
+> No puntee en **Iniciar** desde la página de lista de la tienda.
 
 ## <a name="make-teams-the-default-calling-and-meetings-application"></a>Hacer que los equipos de la aplicación de las reuniones y llamadas de forma predeterminada
  
