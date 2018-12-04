@@ -11,18 +11,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
-description: 'Derecha haga clic en el grupo de Chat persistentes en el generador de topología para realizar lo siguiente:'
-ms.openlocfilehash: 0fce18fb4e0882141b28cb073ce1b4e608487c02
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Botón secundario haga clic en el grupo de Chat persistente en el generador de topología para realizar lo siguiente:'
+ms.openlocfilehash: e8126dd3576d71a955c45a53c4fd2cd66eb14142
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503441"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>Crear nodo de ámbito de servidores de chat persistente
  
-Derecha haga clic en **Chat de agrupaciones persistentes** en el generador de topología para realizar lo siguiente:
+Botón secundario haga clic en el **Grupo de Chat persistente** en el generador de topología para realizar lo siguiente:
   
-- **Nuevo grupo de Chat persistentes**: inicia el Asistente para **Definir nuevo grupo de Chat persistentes** utilizado para definir un nuevo servidor de Chat persistentes o grupo.
+- **Nuevo grupo de Chat persistente**: inicia el Asistente de **Definir nuevo grupo de Chat persistente** que se utiliza para definir un nuevo servidor de Chat persistente o grupo de servidores.
     
 Además de la opción Nuevo grupo de chat persistente, puede realizar las tareas generales siguientes:
   
@@ -32,9 +33,6 @@ Además de la opción Nuevo grupo de chat persistente, puede realizar las tareas
     
 ## <a name="see-also"></a>Vea también
 
-#### 
-
-[Plan para el servidor de charla persistente en Skype para Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planificar el servidor de chat persistente en Skype Empresarial Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Agregar servidor de Chat persistentes a su Skype para la topología de servidor de negocios 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-
+[Agregar servidor de Chat persistente a su Skype para topología empresarial Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

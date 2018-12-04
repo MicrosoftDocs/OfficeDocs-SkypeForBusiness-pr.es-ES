@@ -11,24 +11,22 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
-description: Crear un nuevo servidor de Chat persistentes o grupo persistente Chat Server mediante el Asistente para definir nuevos grupos de Chat persistentes. Seleccione un grupo de equipo varios o un grupo de equipo único. Si selecciona un grupo de un solo equipo y, más adelante, necesita uno de varios equipos, deberá eliminar el grupo de un solo equipo y definir uno de varios equipos.
-ms.openlocfilehash: b4fbeb54c926573e908b361e7556fab9d87da848
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Crear un nuevo servidor de Chat persistente o el grupo de servidores de Chat persistente mediante el Asistente para definir nuevo grupo de Chat persistente. Seleccione un Grupo de varios equipos o un Grupo de un solo equipo. Si selecciona un grupo de un solo equipo y, más adelante, necesita uno de varios equipos, deberá eliminar el grupo de un solo equipo y definir uno de varios equipos.
+ms.openlocfilehash: 5dc548f791abe6aa0b697d69bc30ecf3af54d701
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503938"
 ---
 # <a name="define-persistent-chat-fqdn"></a>Definir FQDN de chat persistente
  
-Crear un nuevo servidor de Chat persistentes o grupo persistente Chat Server mediante el Asistente para **Definir nuevos grupos de Chat persistentes** . Seleccione un **Grupo de varios equipos** o un **Grupo de un solo equipo**. Si selecciona un grupo de un solo equipo y, más adelante, necesita uno de varios equipos, deberá eliminar el grupo de un solo equipo y definir uno de varios equipos.
+Crear un nuevo servidor de Chat persistente o el grupo de servidores de Chat persistente mediante el Asistente para **Definir nuevo grupo de Chat persistente** . Seleccione un **Grupo de varios equipos** o un **Grupo de un solo equipo**. Si selecciona un grupo de un solo equipo y, más adelante, necesita uno de varios equipos, deberá eliminar el grupo de un solo equipo y definir uno de varios equipos.
   
-También debe definir un **Pool FQDN** para el servidor de charla persistente o el grupo de servidores de charla persistente. El nombre de dominio completo (FQDN) del grupo de un solo equipo debe coincidir con el FQDN del equipo que forma el único grupo de servidores. En el caso de un grupo de varios equipos, el FQDN debe ser el nombre que elija para representar a este grupo de varios equipos y que se define en DNS mediante un registro de host A (y AAAA si se usa IPv6).
+También debe definir un **FQDN del grupo de servidores** para el servidor de Chat persistente o grupo de servidores de Chat persistente. El nombre de dominio completo (FQDN) del grupo de un solo equipo debe coincidir con el FQDN del equipo que forma el único grupo de servidores. En el caso de un grupo de varios equipos, el FQDN debe ser el nombre que elija para representar a este grupo de varios equipos y que se define en DNS mediante un registro de host A (y AAAA si se usa IPv6).
   
 ## <a name="see-also"></a>Vea también
 
-#### 
-
-[Plan para el servidor de charla persistente en Skype para Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planificar el servidor de chat persistente en Skype Empresarial Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Agregar servidor de Chat persistentes a su Skype para la topología de servidor de negocios 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-
+[Agregar servidor de Chat persistente a su Skype para topología empresarial Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

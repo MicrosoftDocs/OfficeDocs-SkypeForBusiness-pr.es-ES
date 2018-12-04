@@ -11,28 +11,26 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a3adee56-819e-48a5-a5a8-673eca45ec16
-description: Se describen los pasos necesarios para definir una nueva VIS o puerta de enlace de vídeo en el generador de topología en línea en crear un grupo de VIS en Skype para Business Server 2015.
-ms.openlocfilehash: 6dc4ccc9a71fe903f84cf4d2ce627557d9d24f51
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Se describen los pasos necesarios para definir un nuevo frente o puerta de enlace de vídeo en el generador en línea en crear un grupo de servidores con respecto de Skype para Business Server 2015.
+ms.openlocfilehash: 23288496d4c824d69de391af988b8753f58732d3
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 09/04/2018
+ms.locfileid: "19504330"
 ---
 # <a name="video-gateways-scope"></a>Àmbito de puertas de enlace de vídeo
  
-Los pasos necesarios para definir una nueva VIS o puerta de enlace de vídeo en el generador de topología se describen en línea en [crear un grupo de VIS en Skype para Business Server 2015](../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
+Los pasos necesarios para definir un nuevo frente o puerta de enlace de vídeo en el generador se describen en línea en [crear un grupo de servidores con respecto de Skype para Business Server 2015](../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
   
-Los pasos necesarios para asignar un rol de servidor de interoperabilidad de Video en un servidor con Windows PowerShell se describen en línea al [implementar el rol de servidor de VIS de Skype para Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
+Los pasos necesarios para asignar un rol de servidor de interoperabilidad de vídeo en un servidor con Windows PowerShell se describen en línea al [implementar el rol de servidor de respecto de Skype para Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
   
-Los pasos de configuración para un nuevo servidor de interoperabilidad de vídeo mediante Windows PowerShell se describen en línea al [Configurar el servidor de interoperabilidad de vídeo en Skype para Business Server 2015](../../deploy/deploy-video-interop-server/configure-the-vis.md).
+Los pasos de configuración para un nuevo servidor de interoperabilidad de vídeo con Windows PowerShell se describen en línea en [Configuración del servidor de interoperabilidad de vídeo en Skype para Business Server 2015](../../deploy/deploy-video-interop-server/configure-the-vis.md).
   
- La configuración de una puerta de enlace de vídeo que se deben establecer en la GUI de Cisco para la interoperación con un VIS se describe en línea al [Configurar CUCM para la interoperación con Skype para Business Server 2015](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).
+ La configuración de una puerta de enlace de vídeo que se deben establecer en la GUI de Cisco para la interoperación con un respecto se describe en línea al [Configurar CUCM para la interoperación con Skype para Business Server 2015](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).
   
- La configuración de un VTC que deben establecerse en la GUI de Cisco para la interoperación con una puerta de enlace de vídeo y un VIS se describe en línea al [Configurar una VTC para la interoperación con Skype para Business Server 2015](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
+ La configuración de un VTC que es necesario definir en la GUI de Cisco para la interoperación con una puerta de enlace de vídeo y un respecto se describe en línea al [configurar un VTC para la interoperación con Skype para Business Server 2015](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
   
 ## <a name="see-also"></a>Vea también
 
-#### 
-
-[Plan de vídeo servidor interoperabilidad en Skype para Business Server 2015](../../plan-your-deployment/video-interop-server.md)
-
+[Planificar el servidor de interoperabilidad de vídeo en Skype Empresarial Server 2015](../../plan-your-deployment/video-interop-server.md)
