@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Obtenga información sobre los factores a tener en cuenta antes de configurar los eventos en directo en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40722ee1e58e7524184408819932d9a2cfdc1275
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: 590246808849b2cf25bdc0fb114352977973410f
+ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626265"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "27156136"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -44,17 +44,20 @@ El usuario debe tener:
 - Permisos para crear eventos en directo en Microsoft Stream (para [producción codificador externo](#production)).
 
 > [!IMPORTANT]
-> Invitados de Office 365, los usuarios federados y anónimos no pueden ser invitados como productores o moderadores en los equipos eventos en directo. No obstante, invitado y los usuarios federados pueden unirse a como asistentes de evento live anónimo. 
+> Invitados de Office 365, los usuarios federados y anónimos no pueden ser invitados como productores o moderadores en los equipos eventos en directo. Invitado de Office 365 y los usuarios federados pueden sólo verla eventos en directo forma anónima. 
  
 ## <a name="who-can-watch-live-events"></a>¿Quién puede ver los eventos en directo?
 
-|**Visibilidad de ATTENDEE**           |**Guía de inicio rápido** |**Codificador externo**  |
-|------------------------------|-------------|------------------|
-|Público (usuarios anónimos)      |  Sí        |  No              |
-|Usuarios invitados                   |  No         |  No              |
-|Todos los usuarios de empresa federada |  No         |  No              |
-|Todos los usuarios de empresa           |  Sí        |  Sí             |
-|Específicos de grupos o de personas      |  Sí        |  Sí             |
+|**Visibilidad de ATTENDEE**       |**Guía de inicio rápido**  |**Codificador externo**  |
+|------------------------------|-----------------|----------------------|
+|Público (usuarios anónimos)      |  Sí            |  No                  |
+|Usuarios invitados                   |  No hay<sup>1</sup> |  No                  |
+|Todos los usuarios de empresa federada |  No hay<sup>1</sup> |  No                  |
+|Todos los usuarios de empresa           |  Sí            |  Sí                 |
+|Específicos de grupos o de personas      |  Sí            |  Sí                 |
+
+<sup>1</sup> solo puede ver eventos en directo como los usuarios anónimos.
+
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Los equipos de live Meeting Difundir presentación de Skype y eventos
 En la siguiente tabla resalta las principales características y funciones ofrecidas en eventos en directo y cómo se diferencian de Difundir presentación de reunión de Skype. 

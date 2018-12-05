@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 865da90f5b6c9ffc13694692a67ab092d05c755a
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: ec2db02fe8b91736675027aee2a08a7a8587105c
+ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626179"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "27156080"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Preguntas frecuentes: recorrido desde Skype Empresarial a Microsoft Teams
 
@@ -97,7 +97,7 @@ Una correcta actualización incluirá validar preparación técnica además de p
  
 ### <a name="my-organization-is-already-running-teams-alongside-skype-for-business-can-i-just-disable-skype-for-business"></a>Mi organización ya se está ejecutando los equipos junto con Skype para la empresa. ¿Puedo deshabilitar simplemente Skype para la empresa?
 
-No, querrá cambiar los usuarios al modo de **sólo los equipos** para llevar a cabo su actualización a los equipos. Si su organización está preparada para pasar a los equipos, dedique tiempo a comunicar a los usuarios para permitirles saber qué ocurre y permitir algún tiempo a aclimatar a los equipos. Esto le ayudará a asegurarse de que tienen un positivo experiencia de actualización y ayudar a mitigar las llamadas a su departamento de soporte técnico. Para las plantillas de comunicación de ejemplo, descargue nuestro [Kit de éxito de actualización](https://aka.ms/skypetoteams-UpgradeSuccessKit).
+No, querrá cambiar los usuarios al modo de **sólo los equipos** para llevar a cabo su actualización a los equipos. Si su organización está preparada para pasar a los equipos, dedique tiempo a comunicar a los usuarios para permitirles saber qué ocurre y permitir algún tiempo a aclimatar a los equipos. Esto le ayudará a asegurarse de que tienen un positivo experiencia de actualización y ayudar a mitigar las llamadas a su departamento de soporte técnico. Para las plantillas de comunicación de ejemplo, descargue nuestro [Kit de éxito de actualización](https://aka.ms/UpgradeSuccessKit).
  
 ### <a name="who-can-i-contact-if-i-have-questions-about-the-upgrade-process"></a>¿A quién contacto si tengo preguntas sobre el proceso de actualización?
 

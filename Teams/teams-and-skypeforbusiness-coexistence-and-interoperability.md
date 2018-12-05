@@ -1,5 +1,5 @@
 ---
-title: Comprender la coexistencia e interoperabilidad de Skype para empresas y Microsoft Teams
+title: Descripción de la coexistencia y la interoperabilidad de Skype Empresarial y Microsoft Teams
 author: lsomi
 ms.author: lsomi
 manager: serdars
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be6cb8b6154c67e75a84bbb2e44add6109b3108c
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 67f12156fbdb6bf619b1c6a7406b4bb104ec725b
+ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532442"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "27156128"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de definición del proyecto] (media/upgrade-banner-project-definition.png "Fases de la actualización viaje, con especial hincapié en la fase de definición del proyecto")
 
@@ -54,7 +54,7 @@ En este modo de coexistencia, denominado **Islas**, cada una de las aplicaciones
 
 En este modo de coexistencia, los usuarios permanecen en Skype para la empresa: los equipos no — para chat, convocatorias de reunión y llamar a funciones y no usan los equipos para los equipos y los canales. Este modo está disponible en la actualidad; Sin embargo, en la implementación actual modalidades de los equipos no se desactivan para el usuario automáticamente. Esta capacidad es próxima. Mientras tanto, los administradores pueden quitar la licencia de los equipos de los usuarios que necesiten permanecer en Skype para la empresa como su única aplicación de comunicaciones.
 
-### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-by-fall-2018"></a>Sólo los equipos (este modo iniciado sucesivas desproteger verano 2018 y se completará para todos los inquilinos otoño 2018)
+### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-in-calendar-year-2019"></a>Sólo los equipos (este modo iniciado sucesivas desproteger verano 2018 y se completará para todos los inquilinos en el año de Calendario 2019)
 
 Tan pronto como su organización está preparada para algunos o todos los usuarios usar los equipos como su herramienta de comunicaciones y colaboración sólo, puede actualizar esos usuarios a modo de **Sólo los equipos** .
 
