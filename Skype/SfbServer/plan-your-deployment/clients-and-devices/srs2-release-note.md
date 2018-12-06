@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
-ms.openlocfilehash: b4b7e8f238ce0963908b5aba1984bbd3f6d18a9f
-ms.sourcegitcommit: 19daa277829019807532e4ccb88cad1fdac6ee85
+ms.openlocfilehash: d37cf7561f2728dafa850aaa38d6e322fda7cfb9
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "25607385"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182483"
 ---
 # <a name="release-notes"></a>Notas de la versión 
 
@@ -26,6 +26,7 @@ Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
 
 | Versión | Publicado en <br>Almacén de Microsoft | 
 | ---     | ---  |
+| 4.0.51.0 | 17/11/2018   | 
 | 4.0.31.0 | 16/10/2018   | 
 | 4.0.27.0 |  1/10/2018    | 
 | 4.0.19.0 |  31/08/2018    |   
@@ -48,6 +49,10 @@ Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Sistemas de salón de Skype v2 característica introducción y su resolución
+
+### <a name="40510-11172018"></a>4.0.51.0 (17/11/2018)
+Se introdujeron en esta actualización:
+- Compatibilidad con pantalla dual (frontal de sala) para las reuniones de los equipos 
 
 ### <a name="40310-10162018"></a>4.0.31.0 (16/10/2018)
 Se introdujeron en esta actualización:
@@ -196,6 +201,6 @@ Se introdujeron en esta actualización:
 
 [Problemas conocidos de v2 de sistemas de salón de Skype](../../manage/skype-room-systems-v2/known-issues.md)
 
-[Plan para Sistemas de salas de Skype v2](skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
 
 [Administrar Sistemas de salas de Skype v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

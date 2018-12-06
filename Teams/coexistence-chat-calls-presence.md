@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c427f1cb342b64211aeabf042b0cb00d4a89759f
-ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
+ms.openlocfilehash: 9eb5626e9b4094ec814e0b55f4bb4fd3d0a42da8
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "27156120"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182507"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistencia con Skype Empresarial
 
@@ -47,12 +47,13 @@ Los parámetros que determinan el método de enrutamiento de subproceso son:
 - Si la conversación es nueva o forma parte de un tema existente
 - Si la conversación está en el inquilino o federados
 - Si es posible la conversación
-    - Interoperabilidad de inquilino requiere que el inquilino es puro en línea o Skype para entornos híbridos de negocio. Los inquilinos puramente local no pueden tener en el inquilino interoperabilidad.
-    - Si el Skype para cuenta de empresa que el autor es in situ hospedado, que el usuario no puede usar al cliente de los equipos para la interoperabilidad en el inquilino o para la federación. Sólo que puede usar el Skype para cliente empresarial para la interoperabilidad y la federación.
-    - Los equipos para la comunicación de los equipos siempre es posible en el inquilino
+    - Interoperabilidad *de inquilino* requiere que el inquilino es puro en línea o Skype para entornos híbridos de negocio. Los inquilinos puramente local no pueden tener en el inquilino interoperabilidad.
+    - *Federación entre inquilino* siempre requiere Skype adecuado para la configuración de federación de negocio, así como la configuración de federación de los equipos adecuado desde tanto los inquilinos. No es necesario de puede ser inquilino Skype para entornos híbridos de negocio.
+    - Si el Skype para cuenta de empresa que el autor es in situ hospedado, que el usuario no puede usar al cliente de los equipos para la interoperabilidad en el inquilino o para la federación. Que el usuario sólo puede usar el Skype para cliente empresarial para la interoperabilidad y la federación.
+    - Los equipos para la comunicación de los equipos siempre es posible en el inquilino.
 
 > [!NOTE]
-> Actualmente, todas la federación implica a los equipos aprovecha la Skype para canalización de federación de negocio, así como los equipos – Skype para la interoperabilidad de negocio. Tenemos previsto equipos nativos – federación de los equipos. El presente documento se actualizarán tras el lanzamiento de federación nativa
+> Actualmente, todas la federación implica a los equipos aprovecha la Skype para canalización de federación de negocio, así como los equipos – Skype para la interoperabilidad de negocio. Tenemos previsto equipos nativos – federación de los equipos. El presente documento se actualizará tras el lanzamiento de federación nativa.
 
 # <a name="chat-and-call-routing"></a>Chat y el enrutamiento de llamadas
 

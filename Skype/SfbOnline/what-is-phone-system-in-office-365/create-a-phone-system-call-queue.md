@@ -3,7 +3,7 @@ title: Crear una cola de llamadas de Sistema telefónico
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: makolomi
+ms.reviewer: phans, wasseemh
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 742fdbf38aeb64426ad1781d552c580385dc8117
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: ec3cbc89a0a8ab07d7936d604d1f38a5d99ed2b6
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531838"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182397"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Crear una cola de llamadas de Sistema telefónico
 
@@ -156,7 +156,7 @@ En los **equipos de Microsoft & Skype para el centro de administración de negoc
 ![Set up call queues.](../images/skype-for-business-add-agents-to-call-queue.png)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/><br/>Los agentes de llamadas (como máximo 50) pueden ser:
+![Número 1](../images/sfbcallout1.png)<br/><br/>Los agentes de llamada (máximo 200) pueden ser:
 * Un usuario en línea con una licencia de **Sistema telefónico** y habilitado para Enterprise Voice o con un Plan de llamada. <br/><br/> **Nota:**  Para redirigir las llamadas a personas de la organización que están en línea, deben tener una licencia de **Sistema telefónico** y estar habilitados para Enterprise Voice o disponer de un Plan de llamada. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
 * Usuarios en línea con una licencia de **Sistema telefónico** y un Plan de llamadas que se agregan a un grupo de Office 365, una lista de distribución habilitada para correo o un grupo de seguridad. El nuevo agente agregado a una lista de distribución o a un grupo de seguridad podría tardar hasta 30 minutos en recibir llamadas de una cola de llamadas. Un grupo de seguridad o lista de distribución recién creado puede tardar hasta 48 horas para que estén disponibles para usarse con colas de llamadas. Los grupos de Office 365 que se acaban de crear están disponibles casi de forma inmediata. <br/> 
 

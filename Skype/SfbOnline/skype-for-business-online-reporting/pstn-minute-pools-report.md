@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: El nuevo Skype para el área de informes del centro de administración empresarial muestra realiza la llamada y audio conferencia actividad en la organización. Permite profundizar en los informes para proporciona una idea más granular acerca de las actividades de cada usuario. Por ejemplo, puede usar el Skype para informe de grupos de servidores minuto RTC de negocio para ver el número de minutos consumidos durante el mes actual dentro de la organización.
-ms.openlocfilehash: 41f1e0c2dcc7504341bb6d9076c7a99b63ed50a9
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 2840ac4bde1234f0f87fe17c41f43b6efad647b5
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865113"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182379"
 ---
 # <a name="pstn-minute-pools-report"></a>Informe de grupos de minutos de RTC
 
@@ -37,7 +37,7 @@ Revise la [información general de informes](https://support.office.com/article/
 Este informe, junto con los otro Skype para los informes de negocio, proporciona detalles sobre la actividad en toda la organización. Estos detalles son muy útiles al investigar, planear y realizar otras decisiones empresariales para su organización y para la configuración de [Comunicaciones de créditos](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> Puede ver todos los informes de Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Office 365. 
+> Podrá ver todos los informes de Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Office 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Cómo llegar a la Skype para informe de grupos de servidores minuto RTC de negocio
 
@@ -62,7 +62,7 @@ Este es el aspecto del informe.
 ![Número 1](../images/sfbcallout1.png)<br/>La tabla muestra un desglose de los grupos de servidores minutos por licencia (capacidad) y la ubicación de uso. 
 *    **Capacidad** es el plan de licencia/servicio utilizado para la llamada. Los planes de licencia o servicio que puede ver en este informe se incluyen:
      * MCOPSTN1 - nacionales llamar a planear (3000 minuto 1200/US-minuto UE planes
-     * MCOPSTN2 - Plan de llamadas internacionales
+     * MCOPSTN2 - nacionales & internacional llamar a planear desde la que podrá ver un grupo de servidores interno (3000 minuto Estados Unidos, Canadá/PR, 1200 minuto países de Europa) y un grupo de servidores internacional (600 minutos). Minuto cap se alcanza cada vez que se alcanza el cap OR internacional nacional dentro del mes del calendario. 
      * MCOPSTN5 - nacionales llamar a Plan (plan llamada 120 minutos)
      * MCOPSTN6 - nacionales llamar a Plan (plan de llamadas de 240 minutos)
      * MCOMEETADD - conferencias de Audio

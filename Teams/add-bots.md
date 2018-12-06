@@ -3,7 +3,7 @@ title: Agregar bots para chats privados y canales en Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 12/05/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,12 +12,12 @@ ms.reviewer: lucarras
 description: Obtenga más información sobre cómo agregar bots en Microsoft Teams para chats privados y canales, crear bots personalizados y transferir localmente su propio bot para chats privados.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ff6cf5af3a1a2129ee22ae0ff51ac4216ccaefe
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 548da99413714f3947cec909ea51301eb68d2c0d
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013364"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182388"
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Agregar bots para chats privados y canales en Microsoft Teams
 ==========================================================
@@ -56,3 +56,14 @@ Los bots se pueden probar con [emulador de Bot Framework](https://go.microsoft.c
 
 
 3.  El identificador de la aplicación se resolverá con el **nombre del bot** y después podrá iniciar una conversación de chat con el bot.
+
+<a name="side-load-your-bot-for-channels"></a>Lado cargar su bot de canales
+-----------------------------------
+
+Si desea compartir su bot con sus compañeros, aquí es cómo agregar a los canales de diferentes equipos:
+
+1. Cuando haya [creado un paquete de aplicación para su bot](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/apps/apps-upload), abra equipos y busque el equipo en el que se podrá ser lado carga el robot.
+2. Seleccione **más** (...) junto al nombre del equipo.
+3. Seleccione **Administrar equipo** y, a continuación, seleccione la pestaña de **aplicaciones** .
+4. En la parte inferior derecha de la pantalla, seleccione **carga una aplicación personalizada**.
+5. Vaya a la ubicación del paquete de aplicación, selecciónelo y, a continuación, haga clic en **Abrir**.

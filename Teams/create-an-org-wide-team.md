@@ -13,18 +13,18 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d7e8654ed1f3dd7c10376a21d3c48563b688381
-ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
+ms.openlocfilehash: 2b838652ee68895d8c2be3768316aa200a203945
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2018
-ms.locfileid: "27131305"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182523"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Crear un equipo que abarque toda la organización en Microsoft Teams
 
 Los equipos de toda la organización proporcionan una forma automática para todos los usuarios en una organización pequeña a mediana forme parte de un único equipo para la colaboración. 
  
-Con los equipos de toda la organización, los administradores globales pueden crear fácilmente un equipo público que extrae en todos los usuarios de la organización y mantiene la pertenencia al día con Active Directory como unirse a los usuarios y salir de la organización. Sólo los administradores globales pueden crear los equipos de toda la organización y actualmente se limita a las organizaciones con no más de 2.500 a los usuarios un equipo de toda la organización. Si se cumplen estos requisitos, los administradores globales vea **toda la organización** como una opción en **privacidad** al crear un equipo.
+Con los equipos de toda la organización, los administradores globales pueden crear fácilmente un equipo público que extrae en todos los usuarios de la organización y mantiene la pertenencia al día con Active Directory como unirse a los usuarios y salir de la organización. Sólo los administradores globales pueden crear los equipos de toda la organización y actualmente se limita a las organizaciones con no más de 2.500 a los usuarios un equipo de toda la organización. Si se cumplen estos requisitos, los administradores globales vea **toda la organización** como una opción en **privacidad** al crear un equipo. 
 
 ![Captura de pantalla de la opción de toda la organización para crear un equipo de toda la organización] (media/create-org-wide-team.png "Captura de pantalla de la opción de toda la organización para crear un equipo de toda la organización")
 

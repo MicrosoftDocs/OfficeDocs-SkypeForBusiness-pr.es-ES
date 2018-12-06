@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67f12156fbdb6bf619b1c6a7406b4bb104ec725b
-ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
+ms.openlocfilehash: 4b2fa0d1631a3feb6d993b23a57cf084c3774c42
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "27156128"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182466"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de definición del proyecto] (media/upgrade-banner-project-definition.png "Fases de la actualización viaje, con especial hincapié en la fase de definición del proyecto")
 
@@ -128,4 +128,4 @@ Para todas estas limitaciones (excepto para Chat persistente), una posible soluc
 > [!Important]
 > ¿Qué se inicia como un simple chat (IM) es posible que pasar rápidamente a una llamada o una reunión ad-hoc. Sabemos que estos escenarios son esenciales para la experiencia del usuario y la facilidad de uso, y nos estamos evolucionando experiencias de interoperabilidad entre Skype para los usuarios profesionales y los equipos. Vuelva a consultar para obtener la información más reciente.
 
-Después de revisar este artículo, vea [elegir su viaje por la actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), [migración y la Guía de interoperabilidad](https://aka.ms/SkypeToTeams-Interop)y [establecer la coexistencia y la configuración de actualizaciones](https://aka.ms/SkypeToTeams-SetCoexistence) para detalles de implementación.
+Después de revisar este artículo, vea [elegir su viaje por la actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), [instrucciones de interoperabilidad y migración](https://aka.ms/SkypeToTeams-Interop), [coexistencia con Skype para la empresa](coexistence-chat-calls-presence.md)y [establecer la coexistencia y la configuración de actualizaciones](https://aka.ms/SkypeToTeams-SetCoexistence) para la implementación obtener información detallada.
