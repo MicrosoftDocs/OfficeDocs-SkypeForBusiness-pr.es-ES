@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Vídeos de aprendizaje, tutoriales y otros recursos para los administradores acerca de cómo planear, implementación y ejecutan Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21a55aed41443ed0a1411384579cfad2acda7de5
-ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
+ms.openlocfilehash: f8f83869d715c01f678e112eb9170013f2f1b956
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26538972"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201344"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 
@@ -130,7 +130,11 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
                 <div class="card">
                     <div class="cardText">
                         <h3>Recorrido desde Skype Empresarial a Microsoft Teams</h3>
-                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Recorrido desde Skype Empresarial a Microsoft Teams</a></p>
+                         <p><a href="https://aka.ms/teams-upgrade-intro">Vídeo: Introducción a la actualización</a></p>
+                        <p><a href="https://aka.ms/teams-upgrade-plan">Vídeo: Planear la actualización</a></p>
+                        <p><a href="https://aka.ms/teams-upgrade-coexistence-interop">Vídeo: Interoperabilidad y coexistencia</a></p>
+                        <p><a href="https://aka.ms/teams-upgrade-admin">Vídeo: Experiencia del administrador</a></p>
+                        <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Recorrido desde Skype Empresarial a Microsoft Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -165,7 +169,7 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
                         <h3>Planear e implementar</h3>
                          <p><a href="quick-start-enable-teams.md">Inicio rápido: Guía de planificación de Microsoft Teams</a></p>
                          <p><a href="http://aka.ms/teams-clients">Vídeo: Cliente de escritorio de Windows de los equipos</a></p>
-                         <p><a href="http://aka.ms/teams-governances">Vídeo: Gobierno, administración y ciclo de vida en Microsoft Teams</a></p>
+                         <p><a href="http://aka.ms/teams-governance">Vídeo: Gobierno, administración y ciclo de vida en Microsoft Teams</a></p>
                     </div>
                 </div>
             </div>
