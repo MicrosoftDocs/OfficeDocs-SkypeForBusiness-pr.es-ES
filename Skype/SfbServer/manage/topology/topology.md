@@ -9,28 +9,28 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2f8ce22-938e-4e22-8a1a-c829a1366b27
 description: 'Resumen: Obtenga información sobre los pasos necesarios para administrar la topología de Skype para Business Server.'
-ms.openlocfilehash: f00168f706d1639f20cbfa2df7cb3fd089eb2bc4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d56ee1f0e7203415d541b7a2690f520c4b8d27f3
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20986610"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214576"
 ---
-# <a name="manage-your-topology-in-skype-for-business-server"></a><span data-ttu-id="9e7c5-103">Administrar la topología de Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="9e7c5-103">Manage your topology in Skype for Business Server</span></span> 
+# <a name="manage-your-topology-in-skype-for-business-server"></a><span data-ttu-id="21e50-103">Administrar la topología de Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="21e50-103">Manage your topology in Skype for Business Server</span></span> 
  
-<span data-ttu-id="9e7c5-104">**Resumen:** Obtenga información sobre los pasos necesarios para administrar la topología de Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="9e7c5-104">**Summary:** Learn about the steps to manage your topology in Skype for Business Server.</span></span>
+<span data-ttu-id="21e50-104">**Resumen:** Obtenga información sobre los pasos necesarios para administrar la topología de Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="21e50-104">**Summary:** Learn about the steps to manage your topology in Skype for Business Server.</span></span>
   
-<span data-ttu-id="9e7c5-105">Los temas siguientes proporcionan instrucciones paso a paso en tareas relacionadas con la administración de su Skype para la topología de servidor empresarial y los servidores Front-End.</span><span class="sxs-lookup"><span data-stu-id="9e7c5-105">The following topics provide step-by-step instructions on tasks involved with managing your Skype for Business Server topology and your Front End Servers.</span></span>
+<span data-ttu-id="21e50-105">Los temas siguientes proporcionan instrucciones paso a paso en tareas relacionadas con la administración de su Skype para la topología de servidor empresarial y los servidores Front-End.</span><span class="sxs-lookup"><span data-stu-id="21e50-105">The following topics provide step-by-step instructions on tasks involved with managing your Skype for Business Server topology and your Front End Servers.</span></span>
   
-- [<span data-ttu-id="9e7c5-106">Una revisión o actualización de servidores Front-End en Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="9e7c5-106">Patch or update Front End Servers in Skype for Business Server</span></span>](patch-or-update-front-end-servers.md)
+- [<span data-ttu-id="21e50-106">Administrar servidores Front-End</span><span class="sxs-lookup"><span data-stu-id="21e50-106">Manage Front End Servers</span></span>](manage-front-end-servers.md)
     
-- [<span data-ttu-id="9e7c5-107">Agregar o quitar un servidor Front-End en Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="9e7c5-107">Add or remove a Front End Server in Skype for Business Server</span></span>](add-or-remove-a-front-end-server.md)
+- [<span data-ttu-id="21e50-107">Administrar bases de datos con un grupo de disponibilidad AlwaysOn</span><span class="sxs-lookup"><span data-stu-id="21e50-107">Manage databases with an AlwaysOn Availability Group</span></span>](manage-databases.md)
+
+- [<span data-ttu-id="21e50-108">Revisar o actualizar un servidor back-end o un servidor Standard Edition</span><span class="sxs-lookup"><span data-stu-id="21e50-108">Patch or update a Back End Server or Standard Edition server</span></span>](patch-or-update-a-back-end-or-standard-edition-server.md)
     
-- <span data-ttu-id="9e7c5-108">[Agregar las bases de datos a un grupo de disponibilidad AlwaysOn en Skype para Business Server](add-databases.md) [Revisión o actualización de un servidor Back-End o servidor Standard Edition en Skype para Business Server](patch-or-update-a-back-end-or-standard-edition-server.md)</span><span class="sxs-lookup"><span data-stu-id="9e7c5-108">[Add databases to an AlwaysOn Availability Group in Skype for Business Server](add-databases.md)[Patch or update a Back End Server or Standard Edition server in Skype for Business Server](patch-or-update-a-back-end-or-standard-edition-server.md)</span></span>
-    
-- [<span data-ttu-id="9e7c5-109">Una revisión o actualización de un servidor SQL Server en un grupo de disponibilidad AlwaysOn en Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="9e7c5-109">Patch or update a SQL Server in an AlwaysOn Availability Group in Skype for Business Server</span></span>](patch-or-update-sql-server.md)
-    
-- [<span data-ttu-id="9e7c5-110">Almacén de archivos de movimiento de datos a un nuevo almacén de archivos en Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="9e7c5-110">Move File Store Data to a New File Store in Skype for Business Server</span></span>](../../help-topics/help-topobld/move-file-store-data.md)
+- [<span data-ttu-id="21e50-109">Mover los datos del almacén de archivos a un almacén de archivos nuevo</span><span class="sxs-lookup"><span data-stu-id="21e50-109">Move File Store Data to a New File Store</span></span>](../../help-topics/help-topobld/move-file-store-data.md)
+
+- [<span data-ttu-id="21e50-110">Administración de servicios</span><span class="sxs-lookup"><span data-stu-id="21e50-110">Manage services</span></span>](manage-services.md)
 
     
 
