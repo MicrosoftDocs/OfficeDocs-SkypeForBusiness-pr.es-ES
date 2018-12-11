@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: 'Resumen: Información sobre el informe de detalles de conferencia usadas en Skype para Business Server.'
-ms.openlocfilehash: ff8b7fa0643eedf7ddb38f908bc585af8bf7ac1f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 025e8bda6e26baf261aeb3729907a3f13c220774
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372350"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214598"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>Informe de detalles de conferencia en Skype para Business Server
 
@@ -26,13 +26,13 @@ El Informe de detalles de conferencia proporciona información detallada sobre t
 
 Es posible obtener acceso al Informe de detalles de conferencia a partir de los siguientes informes:
 
-- El [Informe del Control de admisión de llamadas en Skype para Business Server](call-admission-control-report.md) (haciendo clic en la métrica detalle de una conferencia)
+- El [Call Admission Control Report](call-admission-control-report.md) (haciendo clic en la métrica Detalle de una conferencia)
 
-- El [Informe de lista de errores en Skype para Business Server](failure-list-report.md) (haciendo clic en la métrica conferencia)
+- El [Failure List Report](failure-list-report.md) (haciendo clic en la métrica Conferencia)
 
-- El [Informe de actividad de usuario en Skype para Business Server](user-activity-report.md) (haciendo clic en la métrica URI de conferencia)
+- El [User Activity Report](call-diagnostic-reports-per-user.md) (haciendo clic en la métrica URI de conferencia)
 
-Desde el informe de detalles de conferencia, puede acceder al [Informe de diagnóstico en Skype para Business Server](diagnostic-report.md) haciendo clic en la métrica informe de diagnósticos (detalle).
+Desde el informe de detalles de conferencia puede tener acceso a la búsqueda de [Diagnóstico de inform](diagnostic-report.md) haciendo clic en la métrica informe de diagnósticos (detalle).
 
 ## <a name="filters"></a>Filtros
 
@@ -47,7 +47,7 @@ La siguiente tabla muestra la información brindada en la sección Información 
 
 | **Nombre.**                 | **Descripción**                                                                                                            |
 |:-------------------------|:---------------------------------------------------------------------------------------------------------------------------|
-| **URI de conferencia** <br/> | URI asignado a la conferencia. Por ejemplo:  <br/> SIP:kmyer@litwareinc.com;GRUU;OPAQUE=App:conf:Focus:ID:drg2y8v4  <br/> |
+| **URI de conferencia** <br/> | URI asignado a la conferencia. Por ejemplo:  <br/> sip:kmyer@litwareinc.com;gruu;opaque=app:conf:focus:id:drg2y8v4  <br/> |
 | **FQDN del grupo de servidores** <br/>      | Nombre de dominio completo del grupo de registrador o servidor perimetral involucrado en una sesión.  <br/>                             |
 | **Hora de inicio** <br/>     | Fecha y hora en que comenzó la conferencia.  <br/>                                                                          |
 | **Organizador** <br/>      | Dirección SIP del usuario que organizó la conferencia  <br/>                                                               |

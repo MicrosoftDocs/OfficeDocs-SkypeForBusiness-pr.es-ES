@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Resumen: Revise las consideraciones de componente de red a continuación antes de implementar Skype para Business Server.'
-ms.openlocfilehash: ad0e3b48a320997ddce0559e388d5cfdcab861d1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: fd21ada12a8e2b05654fe6809dd5147480b0e306
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375085"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214515"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
@@ -117,16 +117,16 @@ El uso del ancho de banda de tráfico multimedia puede resultar difícil de calc
 
 |**Códec de audio**|**Escenario**|**Velocidad de bits de carga de audio (KBPS)**|**Solo ancho de banda de carga de audio y encabezado IP (Kbps)**|**Ancho de banda de carga de audio, encabezado IP, UDP, RTP y SRTP (Kbps)**|**Ancho de banda de carga de audio, encabezado IP, UDP, RTP, SRTP y corrección de error de reenvío (Kbps)**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Banda ancha de RTAudio  <br/> |Punto a punto  <br/> |29.0  <br/> |45.0  <br/> |57.0  <br/> |86.0  <br/> |
-|Banda estrecha de RTAudio  <br/> |Punto a punto, RTC  <br/> |11.8  <br/> |27.8  <br/> |39.8  <br/> |51.6  <br/> |
-|G.722  <br/> |Conferencia  <br/> |64,0  <br/> |80,0  <br/> |95.6  <br/> |159.6  <br/> |
-|G.722 estéreo  <br/> |Punto a punto, conferencias  <br/> |128.0  <br/> |144.0  <br/> |159.6  <br/> |223.6  <br/> |
-|G.711  <br/> |RTC, conferencias  <br/> |64,0  <br/> |80,0  <br/> |92.0  <br/> |156.0  <br/> |
-|Siren  <br/> |Conferencia  <br/> |16,0  <br/> |32,0  <br/> |47.6  <br/> |63.6  <br/> |
-|Banda ancha SILK  <br/> |Punto a punto  <br/> |36,0  <br/> |52.0  <br/> |64,0  <br/> |100,0  <br/> |
-|Banda ancha SILK  <br/> |Punto a punto  <br/> |26.0  <br/> |42.0  <br/> |54,0  <br/> |80,0  <br/> |
-|Banda ancha SILK  <br/> |Punto a punto  <br/> |20,0  <br/> |36,0  <br/> |48.0  <br/> |68.0  <br/> |
-|SEDA banda ancha/banda estrecha  <br/> |Punto a punto  <br/> |13.0  <br/> |29.0  <br/> |41.0  <br/> |54,0  <br/> |
+|Banda ancha de RTAudio  <br/> |Punto a punto  <br/> |29,0  <br/> |45,0  <br/> |57,0  <br/> |86,0  <br/> |
+|Banda estrecha de RTAudio  <br/> |Punto a punto, RTC  <br/> |11,8  <br/> |27,8  <br/> |39,8  <br/> |51,6  <br/> |
+|G.722  <br/> |Conferencia  <br/> |64,0  <br/> |80,0  <br/> |95,6  <br/> |159,6  <br/> |
+|G.722 estéreo  <br/> |Punto a punto, conferencias  <br/> |128,0  <br/> |144,0  <br/> |159,6  <br/> |223,6  <br/> |
+|G.711  <br/> |RTC, conferencias  <br/> |64,0  <br/> |80,0  <br/> |92,0  <br/> |156,0  <br/> |
+|Siren  <br/> |Conferencia  <br/> |16,0  <br/> |32,0  <br/> |47,6  <br/> |63,6  <br/> |
+|Banda ancha SILK  <br/> |Punto a punto  <br/> |36,0  <br/> |52,0  <br/> |64,0  <br/> |100,0  <br/> |
+|Banda ancha SILK  <br/> |Punto a punto  <br/> |26,0  <br/> |42,0  <br/> |54,0  <br/> |80,0  <br/> |
+|Banda ancha SILK  <br/> |Punto a punto  <br/> |20,0  <br/> |36,0  <br/> |48,0  <br/> |68,0  <br/> |
+|SEDA banda ancha/banda estrecha  <br/> |Punto a punto  <br/> |13,0  <br/> |29,0  <br/> |41,0  <br/> |54,0  <br/> |
 
 Las cantidades del ancho de banda de la tabla anterior se basan en los paquetes de 20 ms (50 paquetes por segundo) y para los códecs Siren y G.722 se incluyen las sobrecargas adicionales del protocolo de transporte seguro en tiempo real (SRTP) de los escenarios de conferencia y asumen que la secuencia está 100 % activa. La corrección de error de reenvío (FEC) se utiliza de forma dinámica cuando existe una pérdida de paquetes en el vínculo para ayudar a mantener la calidad de la secuencia de audio.
 
@@ -187,7 +187,7 @@ Además del ancho de banda necesario para el tráfico del protocolo de transport
 |**Media**|**Ancho de banda máximo RTCP (Kbps)**|
 |:-----|:-----|
 |Audio  <br/> |5  <br/> |
-|Vídeo (solo se envía/recibe H.264 o RTVideo)  <br/> |10  <br/> |
+|Vídeo (solo se envía/recibe H.264 o RTVideo)  <br/> | 10  <br/> |
 |Vídeo (se envía/recibe H.264 y RTVideo)  <br/> |15  <br/> |
 
 Para la planeación de la capacidad, las dos estadísticas siguientes son de interés:
@@ -204,9 +204,9 @@ En las siguientes tablas se proporcionan los valores para los distintos escenari
 
 |**Media**|**Códec**|**Ancho de banda de secuencia típica (Kbps)**|**Ancho de banda de secuencia máximo sin FEC**|**Ancho de banda de secuencia máximo con FEC**|
 |:-----|:-----|:-----|:-----|:-----|
-|Audio  <br/> |Banda ancha de RTAudio  <br/> |39.8  <br/> |62  <br/> |91  <br/> |
+|Audio  <br/> |Banda ancha de RTAudio  <br/> |39,8  <br/> |62  <br/> |91  <br/> |
 |Audio  <br/> |Banda estrecha de RTAudio  <br/> |29,3  <br/> |44,8  <br/> |56,6  <br/> |
-|Audio  <br/> |Banda ancha SILK  <br/> |44.3  <br/> |69  <br/> |105  <br/> |
+|Audio  <br/> |Banda ancha SILK  <br/> |44,3  <br/> |69  <br/> |105  <br/> |
 |Vídeo principal al llamar a Skype para extremos de Business Server  <br/> |H.264  <br/> |460  <br/> |4010 (para una resolución máxima de 1920 x 1080)  <br/> |Ya incluido  <br/> |
 |Video principal al llamar a los extremos de Lync 2010 u Office Communicator 2007 R2  <br/> |RTVideo  <br/> |460  <br/> |2510 (para una resolución máxima de 1920 x 720)  <br/> |Ya incluido  <br/> |
 |Video principal al llamar a Skype para extremos de Business Server  <br/> |H.264  <br/> |190  <br/> |2010 (para una resolución máxima de 1920 x 288)  <br/> |Ya incluido  <br/> |
@@ -216,8 +216,8 @@ En las siguientes tablas se proporcionan los valores para los distintos escenari
 
 |**Media**|**Códec típico**|**Ancho de banda de secuencia típica (Kbps)**|**Ancho de banda de secuencia máximo sin FEC**|**Ancho de banda de secuencia máximo con FEC**|
 |:-----|:-----|:-----|:-----|:-----|
-|Audio  <br/> |G.722  <br/> |46.1  <br/> |100.6  <br/> |164.6  <br/> |
-|Audio  <br/> |Siren  <br/> |25,5  <br/> |52.6  <br/> |68.6  <br/> |
+|Audio  <br/> |G.722  <br/> |46,1  <br/> |100,6  <br/> |164,6  <br/> |
+|Audio  <br/> |Siren  <br/> |25,5  <br/> |52,6  <br/> |68,6  <br/> |
 |Recepción principal de vídeo  <br/> |H.264 y RTVideo¹  <br/> |260  <br/> |8015  <br/> |No aplicable  <br/> |
 |Envío principal de vídeo  <br/> |H.264 y RTVideo  <br/> |270  <br/> |8015  <br/> |No aplicable  <br/> |
 |Recepción de vídeo panorámico  <br/> |H.264 y RTVideo  <br/> |190  <br/> |2010 (para una resolución máxima de 1920 x 288)  <br/> |No aplicable  <br/> |
@@ -243,7 +243,7 @@ El ancho de banda de secuencia típico para los vídeos panorámicos se basa en 
 
 |**Media**|**Códec típico**|**Ancho de banda de secuencia típica (Kbps)**|**Ancho de banda de secuencia máximo sin FEC**|**Ancho de banda de secuencia máximo con FEC**|
 |:-----|:-----|:-----|:-----|:-----|
-|Audio  <br/> |G.711 (Esto incluye a los participantes de RTC en las conferencias)  <br/> |64.8  <br/> |97  <br/> |161  <br/> |
+|Audio  <br/> |G.711 (Esto incluye a los participantes de RTC en las conferencias)  <br/> |64,8  <br/> |97  <br/> |161  <br/> |
 |Audio  <br/> |Banda estrecha de RTAudio  <br/> |30,9  <br/> |44,8  <br/> |56,6  <br/> |
 
 Las cifras de ancho de banda de red de estas tablas representan solamente tráfico unidireccional; incluyen 5 Kpbs para sobrecarga de tráfico RTPC de cada secuencia.
@@ -260,21 +260,14 @@ Skype para Business Server no requiere QoS, pero se recomienda encarecidamente. 
 
 Skype para Business Server ofrece compatibilidad total con QoS: que significa que las organizaciones que ya está usando la QoS fácilmente pueden integrar Skype para Business Server en su infraestructura de red existente. Para ello, es necesario llevar a cabo los siguientes pasos:
 
-- [Habilitar QoS para dispositivos que no son de Windows](https://technet.microsoft.com/library/26f793df-aef8-4028-9e3b-6c2c37ea61b9.aspx). De forma predeterminada, la QoS está deshabilitada en los equipos y otros dispositivos (como iPhone) que ejecutan otros sistemas operativos. Aunque puede usar Skype para Business Server para habilitar y deshabilitar QoS para dispositivos, normalmente no se puede usar el producto para cambiar los códigos DSCP utilizados por estos dispositivos.
+- [Habilitar QoS en Skype para Business Server para los dispositivos que no están basados en Windows](../../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md). De forma predeterminada, la QoS está deshabilitada en los equipos y otros dispositivos (como iPhone) que ejecutan otros sistemas operativos. Aunque puede usar Skype para Business Server para habilitar y deshabilitar la calidad de servicio para los dispositivos, normalmente no se puede usar el producto para modificar los códigos DSCP utilizados por estos dispositivos.
 
-- [Configuración de intervalos de puertos para la conferencia, aplicación y los servidores de mediación](https://technet.microsoft.com/library/4d6eaa5d-0127-453f-be6a-e55384772d83.aspx). Es preciso reservar un conjunto único de puertos para distintos tipos de paquetes, como paquetes de audio y vídeo. Mediante el uso de Skype para Business Server no habilitar o deshabilitar QoS estableciendo el valor de una propiedad en True o en False. En su lugar, la calidad de servicio se habilita al configurar intervalos de puertos y al crear y aplicar posteriormente una directiva de grupo. Si más adelante decide no usar QoS puede "Deshabilitar" QoS mediante la eliminación de los objetos de directiva de grupo adecuados.
+- [Configuración de intervalos de puertos y una directiva de calidad de servicio para los servidores de conferencia, aplicación y mediación](../../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md). Es preciso reservar un conjunto único de puertos para distintos tipos de paquetes, como paquetes de audio y vídeo. Mediante el uso de Skype para Business Server no habilitar o deshabilitar QoS estableciendo el valor de una propiedad en True o en False. En su lugar, la calidad de servicio se habilita al configurar intervalos de puertos y al crear y aplicar posteriormente una directiva de grupo. Si más adelante decide no usar QoS puede "Deshabilitar" QoS mediante la eliminación de los objetos de directiva de grupo adecuados.
 
-- [Configuración de intervalos de puertos para los servidores perimetrales](https://technet.microsoft.com/library/6f0ae442-6624-4e3f-849a-5b9e387fb8cf.aspx). Aunque no es un requisito, puede configurar los servidores perimetrales para que usen los mismos intervalos de puertos que los otros servidores.
+- [Configurar intervalos de puertos y una directiva de calidad de servicio para los servidores perimetrales](../../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md). Aunque no es un requisito, puede configurar los servidores perimetrales para que usen los mismos intervalos de puertos que los otros servidores. Configuración de una directiva de QoS sólo realizará el lado interno de los servidores perimetrales. Eso es porque QoS está diseñado para su uso en la red interna y no en Internet.
 
-- [Configuración de intervalos de puertos para los clientes de Microsoft Lync](https://technet.microsoft.com/library/287d5cea-7ada-461c-9b4a-9da2af315e71.aspx). Estos intervalos de puertos solo se aplican a equipos cliente y, por lo general, no son los mismos que los intervalos de puertos configurados en los servidores.
+- [Configurar intervalos de puertos y una directiva de calidad de servicio para los clientes en Skype para Business Server](../../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md). Estos intervalos de puertos solo se aplican a equipos cliente y, por lo general, no son los mismos que los intervalos de puertos configurados en los servidores. Tenga en cuenta que Skype para Business Server no es compatible con QoS para sistemas operativos Windows que no sea Windows 10.
 
-- [Configuración de una directiva de calidad de servicio para la conferencia, aplicación y los servidores de mediación](https://technet.microsoft.com/library/8adcbbc5-c9f5-476d-ab7f-72e61859cacf.aspx). Estas directivas determinan los códigos DSCP que se aplican a diferentes tipos de paquetes.
-
-- [Configuración de una directiva de calidad de servicio para su A servidores perimetrales A/v](https://technet.microsoft.com/library/119ee1f5-45b9-40ba-98e5-c694dd2fc5c2.aspx). Sólo debe realizarse para el lado interno de los servidores perimetrales. Eso es porque QoS está diseñado para su uso en la red interna y no en Internet.
-
-- [Configuración de la calidad de punto a punto de las directivas de servicio para los clientes que se ejecutan en Windows 7 o Windows 8](https://technet.microsoft.com/library/efff2b98-b3fb-4183-a4f0-329a9105ce2c.aspx). Tenga en cuenta que Skype para Business Server no admite QoS para otros sistemas operativos de Windows, como Windows Vista o Windows XP.
-
-- [Configuración de la calidad de servicio en los dispositivos Microsoft Lync Phone Edition](https://technet.microsoft.com/library/a6eb2620-a512-4ab6-bdfd-eb76be43bbfe.aspx). De forma predeterminada, QoS está habilitado para dispositivos Lync Phone Edition. Pero, tal vez desee cambiar el valor predeterminado de DSCP a fin de garantizar que todos los paquetes de audio de la organización usen el mismo código DSCP.
 
 > [!NOTE]
 > Si usa Windows Server 2012 o Windows Server 2012 R2 podría estar interesado en el nuevo conjunto de cmdlets de Windows PowerShell disponibles para la administración de QoS en esa plataforma. Para obtener más información, vea [QoS Cmdlets de red en Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=285379).

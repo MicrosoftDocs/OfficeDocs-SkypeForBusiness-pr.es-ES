@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Obtenga información sobre cómo configurar el enrutamiento directo de Microsoft teléfono del sistema.
-ms.openlocfilehash: 994d9d25c41f5f403873a0069564f675e0020d61
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 3b023262971e9dcae111ed82d49d101437bbcda3
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26510671"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214614"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -33,8 +33,8 @@ En este artículo se describe cómo configurar el enrutamiento directo de Micros
 
 Se recomienda que confirme que ya se ha configurado la SBC recomendada por su proveedor SBC: 
 
-- Documentación de implementación de AudioCodes 
-- Documentación de implementación de comunicaciones de la cinta de opciones
+- [Documentación de implementación de AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [Documentación de implementación de comunicaciones de la cinta de opciones](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
 
 Puede configurar el sistema de teléfono de Microsoft y permiten a los usuarios usar el enrutamiento directo, a continuación, configurar Microsoft Teams como el cliente preferido de la llamada al completar los procedimientos siguientes: 
 
@@ -209,7 +209,7 @@ Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMai
 Por ejemplo, para agregar un número de teléfono para el usuario "Sergio bajo", escribiría lo siguiente: 
 
 ```
-Set-CsUser - “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsUser -Identity “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
 El número de teléfono utilizado debe configurarse como un número de teléfono E.164 completo con el código de país. 
@@ -534,4 +534,4 @@ Sólo enrutamiento directa enruta las llamadas a y desde los usuarios si utiliza
 
 ## <a name="see-also"></a>Vea también
 
-[Planeación de enrutamiento directo](direct-routing-plan.md)
+[Planear el enrutamiento directo](direct-routing-plan.md)

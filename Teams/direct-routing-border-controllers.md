@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Los socios de Microsoft con proveedores seleccionados de SBC certifica sus SBCs funcionan con el enrutamiento directo.
-ms.openlocfilehash: 2d0873916585cab3eed6295e9be499f0eab39d53
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: feed9c228f1bdc0fb4bb8beb8f403617e9907b9f
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531003"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214553"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el Enrutamiento directo
 
@@ -45,7 +45,7 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 
 |                                                       Proveedor                                                        |       Producto       | Desvío de lo que no son medios | Desvío de medios | Versión de software |
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|
-| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways) |   SBC Mediant 500   |     &#10004;     |   Pendiente    |  7.20A.200.055   |
+| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   SBC Mediant 500   |     &#10004;     |   Pendiente    |  7.20A.200.055   |
 |                                                                                                                     |   SBC Mediant 800   |     &#10004;     |   Pendiente    |  7.20A.200.055   |
 |                                                                                                                     |  SBC Mediant 2600   |     &#10004;     |   Pendiente    |  7.20A.200.055   |
 |                                                                                                                     |  SBC Mediant 4000   |     &#10004;     |   Pendiente    |  7.20A.200.055   |

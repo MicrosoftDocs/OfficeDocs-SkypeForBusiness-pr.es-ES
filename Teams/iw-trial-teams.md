@@ -3,7 +3,7 @@ title: Administrar la oferta de prueba comercial en la nube de Microsoft Teams
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 10/23/2018
+ms.date: 12/10/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: annikaelias
@@ -14,17 +14,17 @@ description: Los usuarios de Office 365 que no tienen licencia para Microsoft Te
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c544290c13409e3ac857e44cabf1deb56614657
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: dc0b62ce0be0606ad4c31d3cee04347729fbbe32
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674781"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214584"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Administrar la oferta de prueba comercial en la nube de Microsoft Teams
 =======================================================
 
-Microsoft Teams es una gran herramienta de colaboración para su organización. Permite a las personas y los equipos se analizan, innovar y compartir ideas utilizando la potencia de Office 365. Microsoft los equipos comerciales en la nube prueba ofrece usuarios de Office 365 existentes en la organización que no tienen licencia para que Microsoft Teams iniciar una versión de prueba de 1 año del producto. Los administradores tienen la capacidad de activar o desactivar esta característica para los usuarios dentro de su organización.
+Microsoft Teams es una gran herramienta de colaboración para su organización. Permite a las personas y los equipos se analizan, innovar y compartir ideas utilizando la potencia de Office 365. Microsoft los equipos comerciales en la nube prueba ofrece usuarios de Office 365 existentes en la organización que no tienen licencia para que Microsoft Teams iniciar una versión de prueba de 1 año del producto. Los administradores pueden cambiar esta característica activada o desactivada para los usuarios de su organización.
 
 ## <a name="whats-in-the-offer"></a>¿Qué es en la oferta
 
@@ -40,59 +40,95 @@ Los planes de servicio incluidos en esta oferta son:
 - Influir hora de elegir
 - Yammer Enterprise
 
-La oferta se puede asignar a un máximo de 500.000 usuarios por la organización. La licencia de prueba asignan 2 GB de almacenamiento de SharePoint Online para cada usuario de prueba.
+La versión de evaluación concede una suscripción de prueba de un año en toda la organización. La versión de evaluación hace 500.000 licencias disponibles para la asignación. Para cada licencia asignada, la versión de evaluación asigna 2 GB de almacenamiento de SharePoint Online. 
 
 ## <a name="who-is-eligible"></a>¿Quiénes son elegibles
 
-Los usuarios que no tienen una licencia de Office 365 que incluye los equipos pueden iniciar la oferta de prueba de Microsoft los equipos comerciales en la nube. Por ejemplo, si un usuario tiene Office 365 Business Premium (que incluye los equipos) y el plan de servicio de los equipos está deshabilitado, no son aptos para la versión de evaluación.
+Los usuarios deben estar habilitados para registrarse y obtener aplicaciones y versiones de evaluación (en el centro de administración de Office 365). Para obtener más información, vea [Manage la versión de prueba](#manage-the-trial) más adelante en este artículo. 
 
-Además, la organización no es aptos para la prueba if: 
+Los usuarios que no tienen una licencia de Office 365 que incluye los equipos pueden iniciar la oferta de prueba de Microsoft los equipos comerciales en la nube. Por ejemplo, si un usuario tiene Office 365 Business (que no se incluyen los equipos), son aptos para la versión de evaluación.
+
+## <a name="who-is-not-eligible"></a>Que no es válido
+
+Su organización no está apto para la prueba if: 
+
 - Usted es un cliente de socio de distribución
 - Usted es un cliente de socio revendedor
-- Usted es un cliente GCC, GOV o edu.
+- Usted es un cliente de gobierno o edu.
 
-Además, si su organización es no válida para la oferta de prueba Microsoft los equipos de comercial en la nube, no verá el modificador **permiten a los usuarios instalar los servicios y aplicaciones de prueba** .
-
-En el nivel de organización, los equipos como un servicio debe habilitarse (en el centro de administración de equipos). Para obtener más información, vea [características de administración de equipos de Microsoft en su organización de Office 365](enable-features-office-365.md). Además, deben estar habilitados para registrarse y obtener aplicaciones y versiones de evaluación (en el centro de administración de Office 365). Para obtener más información, vea [Manage la versión de prueba](#manage-the-trial) más adelante en este artículo.
+Si su organización es no válida para la oferta de prueba Microsoft los equipos de comercial en la nube, no verá el modificador **permiten a los usuarios instalar los servicios y aplicaciones de prueba** .
 
 ## <a name="how-users-sign-up-for-the-trial"></a>Cómo los usuarios suscribirse a la versión de evaluación
 
-Los usuarios optan pueden registrarse para la oferta de prueba iniciando sesión en los equipos ([teams.microsoft.com](https://teams.microsoft.com)). Si optan, verán la pantalla siguiente para iniciar la versión de evaluación. 
+Los usuarios optan pueden registrarse para la oferta de prueba iniciando sesión en los equipos ([teams.microsoft.com](https://teams.microsoft.com)). Verán la pantalla siguiente para iniciar la versión de evaluación. 
 
 ![Captura de pantalla de la página de inicio para la versión de evaluación de los equipos trabajador de la información.](media/iw-trial-start-screen.png)
 
-La versión de evaluación concede una versión de prueba de un año en toda la organización. Esta versión de prueba hará 500.000 licencias disponibles para la asignación. Para cada licencia asignada, la versión de evaluación asigna 2 GB de almacenamiento de SharePoint Online. Los usuarios optan adicionales dentro de la organización pueden registrarse para la versión de prueba pasando por el mismo proceso.
-
-Todos los ensayos dentro de la organización compartan el mismo fechas inicial y final, que es la fecha en que el primer usuario firmado para la versión de evaluación. Por ejemplo, si un usuario inicia la primera versión de evaluación en el 25 de abril de 2018 y el usuario B inicia una versión de prueba en 3 de junio de 2018, versión de prueba de los dos usuarios caducará el 25 de abril de 2019.
-
-La primera persona que se registró para la versión de prueba es el "propietario" de la suscripción. Sólo esa persona puede administrar la suscripción. 
+Todos los ensayos dentro de la organización compartan el mismo fechas inicial y final, que es la fecha del primer usuario suscrito a la versión de evaluación. Por ejemplo, si un usuario inicia la primera versión de evaluación en el 25 de enero de 2019 y el usuario B inicia una versión de prueba en 3 de junio de 2019, versión de prueba de los dos usuarios caducará el 25 de enero de 2020.
 
 ## <a name="manage-the-trial"></a>Administración de la versión de evaluación
 
-Los administradores pueden deshabilitar la capacidad de los usuarios finales para aplicaciones de prueba y servicios dentro de su organización de notificación. Actualmente, la versión de evaluación de los equipos es la prueba sólo en esta categoría, pero esto es posible que se aplica a otros programas similares en el futuro. 
+Los administradores pueden administrar las licencias para los usuarios que han iniciado una sesión. 
 
-1\. Desde el [Centro de administración de Office 365](https://portal.office.com/adminportal/home), vaya a **Servicios & complementos** > **usuario que son propiedad de aplicaciones y servicios**.
+Además, los administradores pueden deshabilitar la capacidad para los usuarios finales para aplicaciones de prueba y servicios dentro de su organización de notificación. Actualmente, la versión de evaluación que se describen en este artículo es la prueba sólo en esta categoría, pero es posible que se aplican a otros programas similares en el futuro. 
 
-![Captura de pantalla de la página Servicios & complementos en el centro de administración de Office 365.](media/iw-trial-enable-1.png)
+### <a name="prevent-users-from-installing-trial-apps-and-services"></a>Impedir que los usuarios instalen servicios y aplicaciones de prueba
 
-2\. Desactivar la opción **Permitir a los usuarios instalar los servicios y aplicaciones de prueba**.
+Puede desactivar la capacidad de un usuario para instalar los servicios y aplicaciones de prueba.
 
-![Captura de pantalla del usuario que pertenecen a la página de aplicaciones y servicios en el centro de administración de Office 365.](media/iw-trial-enable-2.png)
+1. Desde el [Centro de administración de Microsoft 365](https://portal.office.com/adminportal/home), vaya a **configuración** > **Services & complementos** > **usuario que son propiedad de aplicaciones y servicios**.
 
-3\. Puede desactivar los equipos para su organización, vaya al portal de administración de equipos. Cuando esta opción está deshabilitada, los usuarios no se pueden reclamar que ofrecen los equipos de prueba.
+    ![Captura de pantalla de la página Servicios & complementos en el centro de administración de Office 365.](media/iw-trial-enable-1.png)
 
-4\. Si ha deshabilitado el plan de servicio de los equipos para un usuario individual que tiene una licencia de aplicaciones, el usuario no es aptos para una licencia de prueba de notificación.
+2. Desactivar la opción **Permitir a los usuarios instalar los servicios y aplicaciones de prueba**.
 
-5\. Si un usuario ha solicitado una licencia de prueba de los equipos, puede quitarlo mediante la eliminación de la licencia o plan de servicio. 
+    ![Captura de pantalla del usuario que pertenecen a la página de aplicaciones y servicios en el centro de administración de Office 365.](media/iw-trial-enable-2.png)
 
-![Captura de pantalla de la página de licencias del producto en el centro de administración de Office 365.](media/iw-trial-enable-3.png)
+
+### <a name="manage-trial-availability-for-a-user-with-a-license-that-includes-teams"></a>Administrar la disponibilidad de prueba para un usuario con una licencia que incluye los equipos
+
+Un usuario que se asigna una licencia que incluye los equipos no es apto para la versión de evaluación. Cuando está habilitado el plan de servicio de los equipos, el usuario puede iniciar sesión y utilizar los equipos. Si el plan de servicio está deshabilitado, el usuario no puede iniciar sesión y no se presenta ya sea con la opción de prueba.
+
+Para desactivar el acceso a los equipos:
+
+1. En el centro de administración de Microsoft 365, seleccione **los usuarios** > **usuarios activos**.
+
+2. Active la casilla situada junto al nombre del usuario.
+
+3. En la derecha, en la fila de **licencias de producto** , elija **Editar**.
+
+4. En el panel de **licencias de producto** , cambie la alternancia a **desactivar**.
+
+    ![Captura de pantalla de la página de licencias del producto en el centro de administración de Office 365.](media/iw-trial-enable-3.png)
+
+### <a name="manage-teams-availability-for-users-who-already-claimed-the-trial"></a>Administrar la disponibilidad de los equipos para los usuarios que ya se solicite la versión de evaluación
+
+Si un usuario ha solicitado una licencia de prueba de los equipos, puede quitarlo mediante la eliminación de la licencia o plan de servicio.
+
+Para desactivar la licencia de prueba:
+
+1. En el centro de administración de Microsoft 365, seleccione **los usuarios** > **usuarios activos**.
+
+2. Active la casilla situada junto al nombre del usuario.
+
+3. En la derecha, en la fila de **licencias de producto** , elija **Editar**.
+
+4. En el panel de **licencias de producto** , cambie la alternancia a **desactivar**.
+
+    ![Captura de pantalla de la configuración de la licencia de prueba de los equipos en el panel de licencias de producto](media/iW-trial-enable-4.png)
+
+### <a name="manage-teams-for-users-who-have-the-trial-license"></a>Administración de los equipos de los usuarios que tienen la licencia de prueba
+
+Puede administrar los usuarios que tienen una licencia de prueba, al igual que administrar los usuarios que tienen una licencia de pagada regular. Para obtener más información, vea [características de administración de equipos de Microsoft en su organización de Office 365](enable-features-office-365.md).
 
 ### <a name="upgrade-users-from-the-trial-license"></a>Actualizar los usuarios de la licencia de prueba
 
 Actualización de los usuarios de la licencia de prueba, realice lo siguiente:
 
-1. Comprar un SKU que incluye los equipos.
-2. Quitar el SKU de prueba de los equipos del usuario.
-3. A continuación, asignar la licencia adquirida recientemente.
+1. Adquirir una suscripción que incluye los equipos.
+
+2. Quitar la suscripción de prueba de los equipos del usuario.
+
+3. Asignar la licencia adquirida recientemente.
 
 Para obtener más información, consulte [Licencias de Office 365 para Microsoft Teams](Office-365-licensing.md).
