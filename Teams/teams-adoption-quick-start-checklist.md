@@ -15,12 +15,12 @@ ms.custom: Adopt
 ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 814cea93b78985e96c20095dff8cf42c0c4715bc
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 48ae0d4551bf5ca786f995fc22165d4f3f09fa04
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699696"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240876"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Lista de comprobación para el inicio rápido de la adopción de Microsoft Teams
 
@@ -35,7 +35,7 @@ ms.locfileid: "26699696"
 - [Descripción de los equipos y canales](teams-adoption-understand-teams-and-channels.md)
 - [Crear sus primera equipos](teams-adoption-your-first-teams.md)
 - [¿Está preparado para los equipos?](teams-adoption-assess-readiness.md)
-- [Reunirse con las partes interesadas](teams-adoption-assess-readiness.md#assess-your-stakeholders))
+- [Reunirse con las partes interesadas](teams-adoption-assess-readiness.md#assess-your-stakeholders)
 - [Identificar los primeros usuarios](teams-adoption-assess-readiness.md#identify-early-adopters)
 
 ## <a name="phase-2---experiment"></a>Fase 2 - experimento

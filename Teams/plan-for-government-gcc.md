@@ -3,10 +3,10 @@ title: Planeación de gobierno de 365 de Microsoft - implementaciones GCC - Micr
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
-ms.date: 09/14/2018
+ms.date: 12/10/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: lehewe
+ms.reviewer: daro
 description: Instrucciones para los profesionales de TI a las implementaciones de Office 365 de unidad en las entidades que controlan datos sujetas a regulación gubernamental de EE.
 localization_priority: Normal
 search.appverid: MET150
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 410edd32855c85d2efa5a631cb893c1a5307a5e6
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: cf9571a52d99e9993161b6de99a190bc9b675f78
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015128"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240913"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planeación de Microsoft 365 gobierno - implementaciones GCC
 
@@ -57,16 +57,74 @@ La [Descripción del servicio de gobierno de Estados Unidos de Office 365](https
 
 ## <a name="step-2-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Paso 2. Comprender las características que actualmente no están disponibles o deshabilitados de forma predeterminada. 
 
-Para dar cabida a los requisitos de nuestros clientes de nube de gobierno, existen algunas diferencias entre Microsoft 365 gobierno - GCC y planes de empresa. Las características que aparecen en la tabla siguiente no están disponibles.
+Para dar cabida a los requisitos de nuestros clientes de nube de gobierno, existen algunas diferencias entre Microsoft 365 gobierno - GCC y planes de empresa. Hacer referencia a la tabla siguiente para ver las características que están disponibles.
 
-| Característica                     | Motivo            |
-|-----------------------------|-------------------|
-| Llamada y la grabación de la reunión  | Grabación depende de Microsoft Stream, que estará disponible en los planes de gobierno de Estados Unidos en el futuro. |
-| Aplicaciones       | Aplicaciones (por ejemplo, bots, las fichas y los conectores) no estarán disponibles inicialmente, pero trabajamos para ponerlos a disposición tan pronto como todos los componentes de sus cumplen la barra de cumplimiento de normas FedRAMP moderadas. |
-| Un canal de correo electrónico             | La arquitectura de la característica actual no es compatible con los planes de gobierno. |
-| Presencia unificada            | Estamos trabajo acabado para nuestros clientes empresariales primero para que esta característica importante. Estará disponible para los clientes de gobierno en el futuro. |
-| Chat interoperabilidad entre los equipos & SfB a los usuarios            | Interoperabilidad es dependiente en el servicio de presencia unificada (UPS) y no puede funcionar hasta los inquilinos de los equipos de GCC están habilitados para SAI (UPS). |
-| Notificaciones de correo electrónico         | La arquitectura de la característica actual no es compatible con los planes de gobierno de Estados Unidos. Trabajo está en curso para permitir esta característica esté disponible para los clientes de plan de gobierno de Estados Unidos en el futuro. |
+|                             | Característica                     | GCC            |
+|-----------------------------|-----------------------------|----------------|
+| Base | Inicio de sesión | Disponible |
+| | Presencia | Disponible |
+| | Presencia unificada (Skype para profesionales y los equipos unificados) | En el trabajo pendiente del gobierno |
+| Actividad | Fuente | Disponible |
+|  | Mi actividad | Disponible |
+| Chat | Conversación | Disponible |
+| | Archivos | Disponible |
+| | Organigrama | Disponible |
+| | Actividad | Disponible |
+| | Interoperabilidad (1:1 los equipos-Skype para chat empresarial) | En el trabajo pendiente del gobierno |
+| Microsoft Teams | Mensaje de canal | Disponible |
+| | Archivos de canal | Disponible |
+| | Ficha de OneNote | En el trabajo pendiente del gobierno |
+| | Un canal de correo electrónico | No disponible |
+| | Agregar miembros | Disponible |
+| | Acceso de invitado | Disponible |
+| Reuniones. | Programar reunión | Disponible |
+| | Unirse a la reunión | Disponible |
+| | Reunión de VoIP | Disponible |
+| | Compartir escritorio | Disponible |
+| | Dar y tomar control de uso compartido | Disponible |
+| | Conectar desde una sala de conferencias | Disponible |
+| | Unión anónima | Disponible |
+| | Grabación de nube | En el trabajo pendiente del gobierno |
+| | Notas de la reunión | Disponible |
+| | Difusión de presentaciones de reuniones | En el trabajo pendiente del gobierno |
+| | Reuniones federadas | Disponible |
+| | Compatibilidad de concentradores de superficie (vista previa) | Disponible |
+| Llamadas | Contactos | Disponible |
+| | Historial de | Disponible |
+| | Correo de voz | Disponible |
+| | Llamada de VoIP | Disponible |
+| | Skype para la empresa - equipos de llamada | Disponible |
+| | Planes de llamadas | Disponible |
+| | Conferencias de audio (permitiendo que los participantes de la reunión para unirse a través de RTC) | Disponible |
+| | Enrutamiento directo de sistema telefónico de Microsoft | Disponible |
+| | Sala de espera para los autores de llamadas de RTC | Disponible |
+| | Cola de llamada | Disponible |
+| | Compatibilidad con el jefe y delegado | Disponible |
+| | Transferencia de consultoría y segura | Disponible |
+| | No molestar innovadora | Disponible |
+| | Timbre distintivo | Disponible |
+| | 1:1 a la extensión de la llamada de grupo con los equipos de Skype para la empresa y los participantes de RTC | Disponible |
+| | Reenviar a grupo | Disponible |
+| | Transferir a la llamada de RTC | Disponible |
+| | Llamadas de emergencia - planes de llamada | Disponible |
+| | Soporte técnico para los teléfonos SIP certificados existentes | Disponible |
+| | USB HID | Disponible |
+| | exhibición de documentos electrónicos para las llamadas y las reuniones | Disponible |
+| | Operador automático de organización | Disponible |
+| | Consumidor de Skype - compatibilidad con llamadas de los equipos | Disponible |
+| Archivos | Recientes | Disponible |
+| | Microsoft Teams | Disponible |
+| Almacén | Tienda de aplicaciones | En el trabajo pendiente del gobierno |
+| Buscar. | Mensajes | Disponible |
+| | Personas | Disponible |
+| | Archivos | Disponible |
+| | Comandos de barra diagonal | Disponible |
+| Cumplimiento de normas | Búsqueda de contenido de cumplimiento | Disponible |
+| | Retención | Disponible |
+| | Búsqueda de registro de auditoría | Disponible |
+| | Retención legal | Disponible |
+| | eDiscovery | Disponible |
+
 
 
 |    |     |

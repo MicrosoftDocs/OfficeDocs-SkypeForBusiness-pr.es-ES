@@ -9,58 +9,62 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
-description: Antes de implementar y operar Skype para Business Server, debe preparar los servicios de dominio de Active Directory mediante la extensión del esquema. Las extensiones de esquema agregan las clases y atributos requeridos por Skype para Business Server.
-ms.openlocfilehash: 42b4417311c557323535aa03053ccb03d95cc840
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Antes de implementar y operar Skype para Business Server, debe preparar los servicios de dominio de Active Directory extendiendo el esquema. Las extensiones del esquema agregan las clases y atributos que se necesitan por Skype para Business Server.
+ms.openlocfilehash: 8594ff3a25c7af7ef8c57468a8900d3abbb7f790
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240920"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>Cambios de esquema en Skype para Business Server
  
-Antes de implementar y operar Skype para Business Server, debe preparar los servicios de dominio de Active Directory mediante la extensión del esquema. Las extensiones de esquema agregan las clases y atributos requeridos por Skype para Business Server. 
+Antes de implementar y operar Skype para Business Server, debe preparar los servicios de dominio de Active Directory extendiendo el esquema. Las extensiones del esquema agregan las clases y atributos que se necesitan por Skype para Business Server.
+
+> [!NOTE]
+> Si va a actualizar desde Lync Server 2013 a Skype para Business Server 2015, no se realizan cambios de esquema y, por tanto, en este artículo no se aplica.
   
-Skype para Business Server requiere varias nuevas clases y atributos y modifica algunas clases existentes y los atributos. Además, mucha información de configuración de Skype para Business Server se almacena en el almacén de Administración Central, en lugar de en AD DS como en versiones anteriores. La información siguiente todavía se almacena en AD DS en Skype para Business Server:
+Skype para Business Server requiere varias nuevas clases y atributos y modifica algunos atributos y clases existentes. Además, mucho información de configuración de Skype para Business Server se almacena en el almacén de Administración Central en lugar de hacerlo en AD DS como en versiones anteriores. La siguiente información aún se almacena en AD DS en Skype para Business Server:
   
 - **Extensiones de esquema**:
     
   - Extensiones de objetos de usuario
     
-  - Extensiones de clases para mantener la compatibilidad con versiones anteriores compatibles de Lync Server.
+  - Extensiones para las clases mantener la compatibilidad con versiones anteriores con versiones anteriores de Lync Server.
     
-- **Datos** (almacenado en Skype para esquema extendido Business Server y en las clases de esquema existentes):
+- **Datos** (almacenados en Skype para el esquema extendido de Business Server y en las clases de esquema existentes):
     
-  - Usuario SIP Uniform Resource Identifier (URI) y otras configuraciones de usuario
+  - Usuario SIP Uniform Resource Identifier (URI) y otros parámetros de usuario
     
-  - Objetos Contact para aplicaciones como el grupo de respuesta y el operador de conferencia
+  - Objetos de contacto para aplicaciones como grupo de respuesta y operador de conferencia
     
   - Un puntero al almacén de Administración Central
     
   - Cuenta de autenticación de Kerberos (un objeto de equipo opcional)
     
-Este tema describe los cambios de esquema de Active Directory requeridos por Skype para Business Server. Describe los cambios de esquema que se introdujeron en versiones anteriores de Office Communications Server. Para obtener una lista de las clases y sus descripciones, vea [clases de esquema y descripciones en Skype para Business Server](schema-classes-and-descriptions.md). Para obtener una lista de atributos y sus descripciones, consulte [descripciones de Skype para Business Server y atributos de esquema](schema-attributes-and-descriptions.md). Para obtener una lista de clases con los atributos pueden contener, vea [atributos de esquema por clase en Skype para Business Server](schema-attributes-by-class.md).
+En este tema se describe los cambios de esquema de Active Directory requeridos por Skype para Business Server. No se describen los cambios de esquema que se introdujeron en versiones anteriores de Office Communications Server. Para obtener una lista de las clases y sus descripciones, vea [las clases de esquema y descripciones de Skype para Business Server](schema-classes-and-descriptions.md). Para obtener una lista de atributos y sus descripciones, vea [atributos de esquema y descripciones de Skype para Business Server](schema-attributes-and-descriptions.md). Para obtener una lista de las clases con los atributos puede contener, vea [atributos de esquema por clase en Skype para Business Server](schema-attributes-by-class.md).
   
-El prefijo msRTCSIP identifica las clases y atributos específicos de Skype para Business Server.
+El prefijo msRTCSIP identifica clases y atributos que son específicos de Skype para Business Server.
   
 ## <a name="new-active-directory-attributes"></a>Nuevos atributos de Active Directory
 
-La tabla siguiente describe los atributos de Active Directory que se agregan por Skype para Business Server.
+En la siguiente tabla se describe los atributos de Active Directory que se agregan por Skype para Business Server.
   
 **Atributos agregados por Skype para Business Server**
 
 |**Atributo**|**Descripción**|
 |:-----|:-----|
-|msExchUserHoldPolicies  <br/> |Este atributo multivalor contiene identificadores para contener las directivas que se aplican al usuario. Mantenga las políticas preservar elementos del buzón del usuario durante el tiempo que dure la suspensión. Este atributo se comparte con Exchange de 2013.  <br/> |
-|msRTCSIP-UserRoutingGroupId  <br/> |Es el Id. de grupo de enrutamiento de SIP Los usuarios del mismo grupo se registran en el mismo servidor de Front-End.  <br/> |
-|msRTCSIP-MirrorBackEndServer  <br/> |Este atributo se utiliza para almacenar el servidor reflejado de SQL Server utilizado por el grupo de Front-End.  <br/> |
+|msExchUserHoldPolicies  <br/> |Este atributo de varios valor contiene los identificadores para contener las directivas que se aplican al usuario. Mantenga las directivas de conservar los elementos del buzón para el usuario para la duración de la suspensión. Este atributo se comparte con Exchange 2013.  <br/> |
+|msRTCSIP-UserRoutingGroupId  <br/> |Este es el SIP enrutamiento de identificador de grupo. Los usuarios en el mismo grupo registrará en el mismo servidor de Front-End.  <br/> |
+|msRTCSIP-MirrorBackEndServer  <br/> |Este atributo se usa para almacenar el reflejado SQL Server usado por el grupo de servidores Front-End.  <br/> |
    
-## <a name="modified-active-directory-classes"></a>Clases de Active Directory modificado
+## <a name="modified-active-directory-classes"></a>Clases de Active Directory modificadas
 
-La tabla siguiente describen las clases de Active Directory que se modifican por Skype para Business Server.
+En la siguiente tabla se describe las clases de Active Directory que se modifican por Skype para Business Server.
   
 **Clases modificadas por Skype para Business Server**
 
-|**Clase**|**Cambio**|**Clase o atributo**|
+|**Clase**|**CAMBIAR**|**Clase o atributo**|
 |:-----|:-----|:-----|
 |Usuario  <br/> |agregar: mayContain  <br/> agregar: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
 |Contacto  <br/> |agregar: mayContain  <br/> agregar: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |

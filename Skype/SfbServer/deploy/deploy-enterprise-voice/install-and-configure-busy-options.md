@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Lea acerca de cómo instalar y configurar las opciones de disponibilidad en Skype para Business Server.
-ms.openlocfilehash: 3cf197f58dda13ab0c1af2077a6eb0fb59dafcc4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a5fdd117f2c812bba69978a7d2943321b940bcc4
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370811"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240662"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Instalar y configurar Opciones de disponibilidad para Skype Empresarial Server
 
@@ -33,7 +33,7 @@ Si Opciones de disponibilidad está habilitada para la organización, todos los 
 
 Independientemente de cómo esté configurada Opciones de disponibilidad, los usuarios que estén al teléfono o en una conferencia, o bien aquellos que tengan una llamada en espera, podrán iniciar nuevas llamadas o conferencias.  
 
-Para obtener más información acerca de la característica de opciones ocupado, consulte [Plan para las opciones de disponibilidad de Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md).
+Para obtener más información acerca de la característica Opciones de disponibilidad, vea [Plan for Busy Options for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md).
 
 ## <a name="install"></a>Instalación 
 
@@ -76,7 +76,7 @@ El instalador implementará la última versión de la aplicación Opciones de di
 3. A continuación, ejecute el cmdlet [New-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps) para agregar opciones de disponibilidad a la lista de aplicaciones de servidor tal como se muestra en el siguiente ejemplo:
 
    ```
-   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri https://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
+   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
    ```
 
     > [!NOTE]
@@ -94,9 +94,9 @@ El instalador implementará la última versión de la aplicación Opciones de di
    Start-CsWindowsService
    ```
 
-## <a name="configure"></a>Configurar
+## <a name="configure"></a>Configuración
 
-Para configurar las opciones de disponibilidad, use el cmdlet [Set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx) .
+Para configurar Opciones de disponibilidad, use el cmdlet [Set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx).  
 
 Por ejemplo, el siguiente comando configura Opciones de disponibilidad para el usuario "Ken Myer". En esta configuración, cualquier llamada a "Ken Myer" devolverá una señal de línea ocupada cuando ya esté al teléfono:
 
@@ -106,18 +106,17 @@ Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
 
 En el siguiente ejemplo, el comando configura Opciones de disponibilidad para la usuaria "Chrystal Velasquez". En esta configuración, se enviarán al correo de voz las nuevas llamadas entrantes de "Chrystal Velasquez" cuando ya esté al teléfono:
 
-
 ```
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
 ```
 
-Puede recuperar información de configuración acerca de las opciones de disponibilidad mediante el cmdlet [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) . En el ejemplo siguiente se devuelve la configuración de opciones de disponibilidad para "KenMyer@Contoso.com":
+Puede recuperar la información de configuración acerca de Opciones de disponibilidad usando el cmdlet [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx). En el ejemplo siguiente se devuelve la configuración de opciones de disponibilidad para "KenMyer@Contoso.com":
 
 ```
 Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
 ```
 
-Puede quitar las opciones de disponibilidad mediante el cmdlet [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx) . El siguiente comando quita Opciones de disponibilidad para "Ken Myer":
+Puede quitar Opciones de disponibilidad usando el cmdlet [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx). El siguiente comando quita Opciones de disponibilidad para "Ken Myer":
 
 ```
 Remove-CsBusyOptions -Identity "Ken Myer"
@@ -144,7 +143,7 @@ Después de instalar las opciones de disponibilidad, puede comprobar que la inst
 <pre>
 Identity   : Service:Registrar:pool0.vdomain.com/BusyOptions
 Priority   : 5
-Uri        : https://www.microsoft.com/LCS/BusyOptions
+Uri        : http://www.microsoft.com/LCS/BusyOptions
 Name       : BusyOptions
 Enabled    : True
 Critical   : False

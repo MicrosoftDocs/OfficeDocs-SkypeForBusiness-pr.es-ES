@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 'Resumen: lea este tema para aprender a planificar la conectividad híbrida entre Skype Empresarial Server y Skype Empresarial Online.  A la hora de implementar muchas soluciones híbridas de Skype Empresarial, el primer paso consiste en configurar la conectividad híbrida.'
-ms.openlocfilehash: 909d8be38bd03291268c7fa3b2b091072a47970e
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6b0456c115e1d1fc9b1a341b17cfc9711f2a6bb7
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530891"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240766"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Planificar la conectividad híbrida entre Skype Empresarial Server y Skype Empresarial Online
 
@@ -329,11 +329,11 @@ Al sincronizar las cuentas de usuario entre su implementación local y el inquil
 
 También necesita tener en cuenta los siguientes problemas relacionados con el usuario al planear una implementación híbrida.
 
-- **Contactos de usuario** El límite para los contactos de los usuarios de Lync Online es 250. Cuando se mueve la cuenta a Lync Online, se quitarán todos los contactos más allá de ese número de lista de contactos del usuario.
+- **Contactos de usuario** El límite para los contactos de Skype para usuarios profesionales en línea es 250. Cuando la cuenta se mueve a Skype para profesionales en línea, se quitarán todos los contactos más allá de ese número de lista de contactos del usuario.
 
 - **Mensajería instantánea y presencia** Se migran las listas de contactos de usuarios, grupos y listas de control de acceso (ACL) con la cuenta de usuario.
 
-- **Datos de conferencia, el contenido de la reunión y las reuniones programadas** Este contenido no se migra con la cuenta de usuario. Los usuarios necesitan reprogramar reuniones una vez que estas cuentas migran a Lync Online.
+- **Datos de conferencia, el contenido de la reunión y las reuniones programadas** Este contenido no se migra con la cuenta de usuario. Los usuarios deben volver a programar las reuniones después de que sus cuentas se migran a Skype para profesionales en línea.
 
 ## <a name="user-policies-and-features"></a>Directivas de usuario y características
 <a name="BKMK_UserPolicies"> </a>

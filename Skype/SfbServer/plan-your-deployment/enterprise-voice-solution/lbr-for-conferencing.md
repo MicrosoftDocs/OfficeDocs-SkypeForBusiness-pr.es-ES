@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planeación de basados en ubicación enrutamiento para las conferencias en Skype para Business Server Enterprise Voice, incluidas consultoría llame a transferencias.
-ms.openlocfilehash: d786f8def8cf88e29bbac2a908163a5a92d61d47
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 810b93d20fe9bdbf0ae057250509b1e9ec612afe
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373245"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240741"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Enrutamiento para las conferencias en Skype para Business Server basados en ubicación
 
@@ -142,9 +142,13 @@ Por ejemplo, si la aplicación de "UdcAgent" tiene un valor de prioridad de "2",
 
 Después de encontrar el valor de prioridad correcta para el enrutamiento basado en la ubicación para la aplicación de conferencia, escriba el siguiente cmdlet para cada servidor Standard Edition o grupo de servidores front-end que los usuarios de casas habilitados para enrutamiento basados en ubicación:
 
-New-CsServerApplication-identidad Service: Registrar:<Pool FQDN>/LBRouting-prioridad <Application Priority> -habilitado $true-crítico $true - Uri <https://www.microsoft.com/LCS/LBRoutingFor> ejemplo:
+New-CsServerApplication-identidad Service: Registrar:`<Pool FQDN`> / LBRouting-prioridad \<aplicación prioridad\> -habilitado $true-$true - Uri crítico<http://www.microsoft.com/LCS/LBRouting> 
 
-New-CsServerApplication-Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting Identity-prioridad 3 - $true habilitado-crítico $true - Uri https://www.microsoft.com/LCS/LBRoutingAfter con este cmdlet, reinicie todos los servidores Front-End en los servidores Standard Edition o el grupo de servidores donde el Se ha habilitado el enrutamiento basado en la ubicación para la aplicación de conferencia.
+Por ejemplo:
+
+New-CsServerApplication-Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting Identity-prioridad 3 - $true habilitado-$true - Uri críticohttp://www.microsoft.com/LCS/LBRouting 
+
+Después de utilizar este cmdlet, reinicie todos los servidores Front-End en el grupo de servidores o los servidores Standard Edition donde se ha habilitado el enrutamiento basado en la ubicación para la aplicación de conferencia.
 
 > [!IMPORTANT]
 > No se exige basados en ubicación de aplicaciones de enrutamiento a las conferencias o transferencias con consultas hasta que todos los servidores Front-End en los grupos de servidores aplicables o se reinician los servidores Standard Edition. Si establece **-crítico** en **$true** en los cmdlets anteriores, su Skype para servicios de Business Server va a reiniciarse inmediatamente. Si no desea que estos servicios para reiniciar inmediatamente, establezca **-crítico** a **$false** en este momento y, a continuación, utilice el **Set-CsServerApplication** para cambiar **-crítico** en **$true** más adelante, después de haberse reiniciados los servicios.

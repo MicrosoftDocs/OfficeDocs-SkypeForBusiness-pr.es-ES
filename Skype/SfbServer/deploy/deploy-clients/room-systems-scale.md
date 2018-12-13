@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este tema para obtener más información sobre la implementación de sistemas de salón de Skype v2 en las implementaciones de gran escala.
-ms.openlocfilehash: 536530fa7836389d8c621f7c81287bfb564f024d
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: ce3a857971fd60988e89608391cc3ec7d3d0c3ae
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699554"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240967"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Implementación de sistemas de salón de Skype v2 mediante System Center Configuration Manager
 
@@ -504,6 +504,28 @@ Es compatible con sistemas de salas de Skype v2 Surface Pro y Surface Pro 4. Deb
 
 > [!NOTE]
 > Repita los mismos pasos para otros modelos Surface Pro, es posible que deba. Para obtener más información, vea [Administrar controladores en System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers).
+
+### <a name="create-skype-room-system-configuration-package"></a>Crear paquete de configuración del sistema de sala de Skype
+
+1.  En la consola de Configuration Manager, vaya a la **Biblioteca de Software** \> **Administración de aplicaciones** \> **paquetes**y, a continuación, seleccione **Crear paquete**.
+
+2.  Escriba la información siguiente para crear el paquete:
+
+    -   Nombre: **v2 SRS - Configurar paquete de instalación de SRS**
+
+    -   Fabricante: **Microsoft Corporation**
+
+    -   Versión: **versión 1.0.0**
+
+    -   Active la casilla de verificación **este paquete contiene archivos de origen** , escriba la ruta de acceso a la carpeta **SRS v2 - configurar el programa de instalación de SRS** y, a continuación, seleccione **siguiente**.
+
+3.  Seleccione **no crear un programa**y, a continuación, seleccione **siguiente**.
+
+4.  Revise la página **Confirmar la configuración** y, a continuación, seleccione **siguiente**.
+
+5.  Seleccione **Cerrar**.
+
+
 
 ## <a name="distribute-configuration-manager-packages"></a>Distribuir los paquetes de Configuration Manager
 

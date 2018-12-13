@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumen: Skype para Business Server 2015 o Skype para los administradores en línea de negocio puede usar estas tablas para comprender qué características son compatibles con los clientes que.'
-ms.openlocfilehash: 1dc94b9cb6b723d344994babe655921045b2acb0
-ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
+ms.openlocfilehash: 35db705545dbec988a29b2025b4c3f1817923093
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25002392"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240804"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparación de características de cliente de escritorio de Skype para Business Server 2015
  
@@ -35,7 +35,7 @@ Consulte la [comparación de características de cliente de escritorio de Skype 
 Las siguientes tablas muestran las características que están disponibles con cada cliente que funciona con Skype para Business Server 2015 o Skype para profesionales en línea. También es posible que desee hacer referencia a la [comparación de características de cliente móvil de Skype para la empresa](mobile-feature-comparison.md) para Smartphone y tableta comparaciones de características de cliente. La licencia de acceso de cliente o la licencia de suscripción de usuario que adquiera su organización también influirá en qué características están disponibles para sus usuarios. La decisión de implementar el cliente completo o el básico en los usuarios depende de la licencia o el plan que su organización decida comprar. Consulte la [Guía de licencias](https://products.office.com/en-us/skype-for-business/it-pros) para obtener más detalles.
   
 > [!IMPORTANT]
-> Skype para Business Server 2015 y Skype para profesionales Online admiten los siguientes clientes publicados anteriormente: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition y Lync 2010 Attendant. Para obtener información acerca de estos clientes cuando se usa con otros servidores, vea las [tablas de comparación de clientes para Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) y [tablas de comparación de clientes para Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx). 
+> Skype para Business Server 2015 y Skype para profesionales Online admiten los siguientes clientes publicados anteriormente: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition y Lync 2010 Attendant. Para obtener información sobre estos clientes cuando se utilizan con otros servidores, consulte las [Tablas de comparación de clientes para Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) y las [Tablas de comparación de clientes para Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx). 
   
 > [!NOTE]
 > El cliente de **Lync 2010 Attendant** no se admite en Skype para profesionales en línea.
@@ -269,6 +269,8 @@ Las características que figuran a continuación están disponibles con el clien
 - Cambiar mensaje de saludo
     
 - Atender llamada grupal
+
+- Correos electrónicos de notificación de llamada perdida no se generan cuando un estado de usuario está deshabilitada de mensajería unificada y que utilicen a un cliente de Outlook heredado (2013 o anteriores)
     
 ### <a name="online-or-hybrid-user-account-limitations"></a>Limitaciones de las cuentas de usuario en línea o híbridas
 <a name="Online-Hybrid"> </a>

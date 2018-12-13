@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Vea cómo configurar los equipos para permitir a los usuarios comunicarse con usuarios de otra organización.
-ms.openlocfilehash: 3c01724d10867c210ff5fe13981b9ddfb801f8f1
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 6fb71e4c9e1461ca920d480336288b06e3111eb2
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013308"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240843"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir que el chat de los usuarios de los equipos y comunicarse con los usuarios de otra organización de los equipos
 
@@ -51,11 +51,11 @@ Siga estos pasos.
 
    3. Si desea permitir que todas las organizaciones de los equipos para comunicarse con los usuarios de su organización, vaya al paso 5. 
    
-   4. Si desea limitar que las organizaciones pueden comunicarse con los usuarios de su organización, agregue el dominio de la otra organización a la lista de permitidos haciendo clic en **Agregar dominio**. En el panel **Agregar un dominio** , coloque en el nombre de dominio, haga clic en **permitidos** y, a continuación, en **Listo**.
+   4. Si desea limitar que las organizaciones pueden comunicarse con los usuarios de la organización puede permitir que todos los pero algunos dominios o permitir sólo las organizaciones específicas. Para permitir que todos los pero algunos dominios, agregue los dominios que desee bloquear, haga clic en **Agregar dominio**. En el panel **Agregar un dominio** , poner en el nombre de dominio, haga clic en **bloqueado** y, a continuación, en **Listo**. Para limitar las comunicaciones a organizatioins específica, añada esos dominios a la lista con un estado de **Alowed**. Una vez haya agregado cualquier dominio a la lista Permitir, communications a otras organizaciones se limitará a sólo esas organizaciones cuyos dominios se encuentran en la lista Permitir. 
+   
+   5. Haga clic en **Guardar**. 
 
-   4. Haga clic en **Guardar**. 
-
-   5. A continuación, asegúrese de que el Administrador de la organización de los equipos otros estos mismos pasos. Por ejemplo, en su lista de **permitidos dominios** , su administrador debe introducir el dominio para su negocio si limita a que las organizaciones pueden comunicarse con sus usuarios. 
+   6. A continuación, asegúrese de que el Administrador de la organización de los equipos otros estos mismos pasos. Por ejemplo, en su lista de **permitidos dominios** , su administrador debe introducir el dominio para su negocio si limita a que las organizaciones pueden comunicarse con sus usuarios. 
 
 ### <a name="step-3---test-it"></a>Paso 3: ponerlo a prueba
 Para probar el programa de instalación, necesita un usuario de los equipos que no está detrás de un firewall.

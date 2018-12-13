@@ -1,5 +1,5 @@
 ---
-title: Límites y las especificaciones de Microsoft Teams
+title: Límites y especificaciones para Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -13,14 +13,14 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fb9594ddc5fd82f1f11d4425f000a831e2b90e4
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 9f77de0515cc026b0d225100e7528a6eae4a7965
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532312"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240688"
 ---
-<a name="limits-and-specifications-for-microsoft-teams"></a>Límites y las especificaciones de Microsoft Teams
+<a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 =============================================
 
 En este artículo se describe algunos de los límites, especificaciones y otros requisitos que se aplican a Microsoft Teams. 
@@ -45,7 +45,7 @@ En este artículo se describe algunos de los límites, especificaciones y otros 
 |Característica     | Límite máximo |
 |------------|---------------|
 |Número de personas en una reunión  | 250    |
-|Número de personas en un chat privado  | 20    |
+|Número de personas en un chat privado  | 50    |
 
 <a name="storage"></a>Almacenamiento de información
 -------
