@@ -10,128 +10,100 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 'Resumen: Obtenga información sobre cómo migrar la configuración de usuario y mover los usuarios a los equipos.'
-ms.openlocfilehash: af0867bfdc2e12a248baf7cc07746845154d27fd
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6bee0562b38ce3119306e23b11ea50ebdb8ac3e9
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533144"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244035"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Mover usuarios de local a los equipos
 
-Con Skype para Business Server 2019, puede migrar los usuarios locales a los equipos, tal como se describe en este artículo.
+Cuando un usuario se mueve de local a sólo los equipos, el usuario de Skype para la página principal de Business se mueve de local a en línea y el usuario esté asignado TeamsUpgradePolicy con el modo = TeamsOnly.  Después de que un usuario se mueve de local al modo de TeamsOnly:
 
-Tenga en cuenta que después de mover los usuarios a los equipos: 
- 
-- Sus reuniones se migran a Skype para profesionales en línea, y sus contactos se migran a los equipos. 
-- Puede unirse a reuniones de Skype a través de la Skype para el cliente enriquecido de negocio (no le pide a los usuarios para cada hora de inicio de sesión) o a través de la aplicación de las reuniones de Skype (requiere una descarga única e inicio de sesión). Cuando un usuario hace clic en un Skype para el vínculo de la reunión de negocio dentro de los equipos, se iniciará la reunión en la aplicación correspondiente.
+- Entrante todas las llamadas y charlas de otros usuarios (si se envió desde Skype para profesionales o equipos), va a abrir en el cliente de los equipos del usuario.
+- El usuario podrán interoperar con otros usuarios que usan Skype para la empresa (ya sea en línea o local). 
+- El usuario podrá comunicarse con los usuarios de organizaciones federadas.
+- Nuevas reuniones programadas por ese usuario son las reuniones de los equipos.
+- Usuario todavía puede unirse a cualquier Skype para reuniones de negocios.
+- Programado para el futuro de reuniones existentes del usuario se van a migrar desde local a Skype para profesionales en línea.
+- Los contactos que se encontraba en local que están disponibles en los equipos poco después de que el usuario inicia sesión por primera vez.
+- Los usuarios no pueden iniciar llamadas o conversaciones de Skype para la empresa, ni tampoco pueden programar las reuniones nuevas en Skype para la empresa. Si intentan abrir el Skype para clientes empresariales, se redirigirán para usar los equipos tal y como se muestra a continuación. Si no está instalado el cliente de los equipos, se dirigirá a la versión de web de los equipos mediante su explorador.<br><br>
+    ![Redirigir a un usuario a los equipos de mensaje](../media/go-to-teams-page.png)
 
-- En el móvil, los usuarios podrán unirse a Skype existente para reuniones de negocio mediante la aplicación nativa sólo.
+Antes de mover los usuarios, asegúrese de revisar los [requisitos previos](move-users-between-on-premises-and-cloud.md#prerequisites) para mover los usuarios a la nube. Asimismo, asegúrese de revisar [migración e instrucciones de interoperabilidad para las organizaciones que utilizan los equipos junto con Skype para la empresa](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
 
-> [!NOTE]
-> Después de que un usuario se mueve a modo de TeamsOnly, el usuario está hospedado en Skype para profesionales en línea.
+Existen dos métodos para mover un usuario desde local a los equipos:
 
-## <a name="prerequisites-for-moving-on-premises-users-to-teams"></a>Requisitos previos para mover usuarios locales a los equipos 
+- Si usa una versión anterior a Skype para Business Server 2015 CU8, el movimiento requiere dos pasos (que se pueden crear scripts para que se realice conjuntamente como un solo paso, si así lo desea):
+    - [Mover el usuario de Skype para Business Server (local) para Skype para profesionales en línea](move-users-from-on-premises-to-skype-for-business-online.md).
+    - Una vez que el usuario está hospedado en Skype para negocios en línea, asigne al usuario TeamsUpgradePolicy con el modo = TeamsOnly. Para conceder el modo TeamsOnly, ejecute el siguiente cmdlet desde un Skype para la ventana de PowerShell en línea de negocio:`Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams`
+- Si dispone de herramientas de administración de Skype para Business Server 2015 CU8 o posterior, puede usar el método anterior, o puede hacer este cambio en un solo paso tal y como se describe a continuación. Además, puede proporcionar opcionalmente una notificación dentro de la Skype para cliente de negocio antes de moverlos a sólo los equipos, así como tener, opcionalmente, el cliente de los equipos que se descarga en modo silencioso por la Skype para clientes empresariales.
 
-En esta sección se describe los requisitos previos para mover los usuarios locales a los equipos. Debe:
-- [Configurar conectividad híbrida](#set-up-hybrid-connectivity) (si no lo ha hecho ya)
-- [Notifique a los usuarios de la mover a los equipos](#notify-your-users-of-the-move-to-teams) (opcional)
-- [Asegúrese de que los usuarios tienen una licencia válida](#make-sure-your-users-have-a-valid-license)
-- [Debe tener en cuenta los requisitos de configuración de voz](#voice-configuration-requirements)
-- [Asignar una directiva de actualización de los equipos](#assign-a-teams-upgrade-policy) (opcional)
+## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>Mover un usuario directamente de Skype para la empresa local a sólo los equipos
 
-## <a name="set-up-hybrid-connectivity"></a>Configurar conectividad híbrida
-Antes de migrar los usuarios, si aún no lo ha hecho, debe asegurarse de que ha configurado la conectividad híbrida entre su Skype para entorno local de Business Server y Skype para profesionales en línea. Conectividad híbrida requiere la sincronización de Active Directory, configuración de federación y así sucesivamente. Para obtener más información, vea [Planear la conectividad híbrida](plan-hybrid-connectivity.md) y [conectividad de la configuración híbrida](configure-hybrid-connectivity.md).
+Las herramientas de administración local en Skype para Business Server 2015 con CU8, así como en Skype para 2019 de servidor empresarial, le permiten mover los usuarios desde local al modo de sólo los equipos en un solo paso mediante el cmdlet Move-CsUser en PowerShell o el Skype para empresarial Se servidor de Panel de Control, tal y como se describe a continuación.
 
-## <a name="notify-your-users-of-the-move-to-teams"></a>Notifique a los usuarios de la mover a los equipos 
-Esto es un paso opcional, pero que se deben tener en cuenta. Para notificar a los usuarios de la actualización de los equipos pendiente, puede usar los cmdlets de TeamsUpgradePolicy y TeamsUpgradeConfiguration local. También puede configurar la descarga automática silenciosa de los equipos en segundo plano antes de la actualización (solo para clientes de Win32). 
+### <a name="move-to-teams-using-move-csuser"></a>Mover a los equipos con Move-CsUser
 
-Por ejemplo, para notificar a los usuarios que se van a actualizar a los equipos, use el cmdlet de TeamsUpgradePolicy local con el parámetro - NotifySbUser. Puede establecer la directiva en un nivel global, de sitio, grupo o usuario. El comando siguiente, se crea y concede una directiva de nivel de usuario:
- 
-```
-New-CsTeamsUpgradePolicy -Identity UpgradeNotice -NotifySfbUser $true 
-Grant-CsTeamsUpgradePolicy -Identity user01 -PolicyName “UpgradeNotice”
-```
+Move-CsUser está disponible desde un Skype local para la ventana de PowerShell de Shell de administración de negocio. Los pasos descritos a continuación y los permisos necesarios son los mismos que mover un usuario a Skype para en línea de negocio, excepto que también debe especificar el modificador MoveToTeams y debe asegurarse de que el usuario también ha concedido una licencia para los equipos (además de Skype para la empresa En línea).
 
-Puede comprobar esta directiva mediante el cmdlet Get-csTeamsUpgradePolicy.
+Debe tener privilegios suficientes en el entorno local y el inquilino de Office 365, tal como se describe en [requiere credenciales administrativas](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Puede usar una única cuenta que tiene privilegios en ambos entornos, o puede iniciar un Skype local para la ventana de Shell de administración de servidor empresarial con credenciales locales y usar la `-Credential` parámetro para especificar las credenciales para una Office 365 cuenta con la función administrativa de Office 365 es necesaria.
 
-Los usuarios verán una notificación de la inminente mover a los equipos. Se produce la notificación en Win32, Mac, Mobile y clientes Web (con la versión correcta).
+Para mover un usuario a modo de equipos sólo con Move-CsUser:
 
-Puede especificar la descarga automática de los equipos (para los clientes de Win32) para los usuarios que se está actualizando mediante el cmdlet de TeamsUpgradeConfiguration de local con el parámetro DownloadTeams. Establecer esta directiva en el nivel de inquilino, y que se pueden aplicar en un sitio global y del nivel de grupo de servidores. Por ejemplo, el comando siguiente establece la directiva en el nivel de sitio:
+- Especificar el usuario para mover mediante el `Identity` parámetro.
+- Especifique el destino parámetro - con el valor "sipfed.online.lync. <span>com ".
+- Especificar el `MoveToTeams` cambiar.
+- Si no tiene una cuenta con permisos suficientes en ambos en local y Office 365, use la `-credential` parámetro para proporcionar una cuenta con permisos suficientes en Office 365.
+- Si la cuenta con permisos en Office 365 no termina en "on.microsoft. <span>com ", debe especificar el `-HostedMigrationOverrideUrl` parámetro, con el valor correcto como se describe en [requiere credenciales administrativas](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
 
-```
-New-CsTeamsUpgradeConfiguration -Identity “site:redmond1” 
-```
+La siguiente secuencia de cmdlet puede usarse para mover un usuario a TeamsOnly y se da por supuesto la credencial de Office 365 es una cuenta independiente y se proporciona como entrada para el símbolo del sistema de Get-Credential.
 
-De forma predeterminada, el valor de DownloadTeams es True, pero también se debe establecer NotifySfbUser en True para habilitar los equipos para un usuario determinado. 
+    ```
+    $cred=Get-Credential
+    $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
+    Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -Credential $cred -HostedMigrationOverrideUrl $url
+    ```
 
-## <a name="make-sure-your-users-have-a-valid-license"></a>Asegúrese de que los usuarios tienen una licencia válida  
-Antes de la migración, el usuario local se debe proporcionar una licencia válida, como se indica a continuación:
+### <a name="move-to-teams-using-skype-for-business-server-control-panel"></a>Mover a los equipos con Skype para el Panel de Control de servidor empresarial
 
--   Usuario debe tener una licencia de los equipos.
--   Si el usuario está configurado para usar local Enterprise Voice, deben tener una licencia de voz en línea al mover. 
--   Si el usuario está configurado para conferencias de acceso telefónico local, deben tener una licencia para el sistema telefónico (nube PBX).
+1.  Abra el Skype para el Control de servidor empresarial aplicación de Panel.
+2.  En el panel de navegación izquierdo, elija **usuarios**.
+3.  Use **Buscar** para buscar el usuario o usuarios que le gustaría mover a los equipos.
+4.  Seleccione los usuarios y, a continuación, en la lista desplegable **acción** encima de la lista, elija **mover usuarios seleccionados a los equipos**.
+5.  En el asistente, haga clic en **siguiente**.
+6.  Si se le solicita, inicie sesión en Office 365, con una cuenta que termina en. onmicrosoft.com y tiene permisos suficientes.
+7.  Haga clic en **siguiente**y, a continuación, **siguiente** una vez más para mover el usuario.
+8. Tenga en cuenta que los mensajes de estado sobre el éxito o el fracaso se proporcionan en la parte superior de la aplicación de Panel de Control principal, no en el asistente.
 
-## <a name="voice-configuration-requirements"></a>Requisitos de configuración de voz
+## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>Notificar a su Skype local para usuarios de empresas del movimiento próximo a los equipos
 
-Si los usuarios local tienen voz local, tiene dos opciones:
+Las herramientas de administración local en Skype para Business Server 2015 con CU8, así como en Skype para Business Server 2019, permiten notificar Skype local para los usuarios empresariales de su traspaso próxima a los equipos. Al habilitar estas notificaciones, los usuarios verán una notificación en su Skype para Business client (Win32, Mac, web y móviles) tal y como se muestra a continuación. Si los usuarios, haga clic en el botón **probar** , el cliente de los equipos se iniciará si está instalado; de lo contrario, los usuarios se desplazará a la versión de web de los equipos en su explorador. De forma predeterminada, cuando se habilitan las notificaciones, Win32 Skype para clientes empresariales en modo silencioso descargar el cliente de los equipos para que el cliente enriquecido de esté disponible antes de mover el usuario a los equipos sólo modo; Sin embargo, también puede deshabilitar este comportamiento.  Las notificaciones están configuradas con la versión local de `TeamsUpgradePolicy`, y descarga silenciosa para los clientes de Win32 se controla mediante el local `TeamsUpgradeConfiguration` cmdlet.
 
--  **Migrar los usuarios con funciones de telefonía.** Los usuarios pueden realizar y recibir llamadas con el cliente de los equipos.  Puede elegir llamar a planeación de Microsoft o enrutamiento directo para conectarse a los servicios de telefonía para los equipos.  
+![Notificación de movimiento próxima a los equipos](../media/teams-upgrade-notification.png)
 
-    -  Llamar a planeación de Microsoft proporciona una solución de voz totalmente la en nube. Para obtener más información acerca de una llamada a planeación de Microsoft, consulte (vínculo próximamente). 
-    -  Enrutamiento directo le permite usar prácticamente cualquier tronco RTC y se puede configurar la interoperabilidad entre equipos de telefonía que pertenecen al cliente y el sistema de teléfono de Microsoft.  Para obtener más información, vea [Planear el enrutamiento directo](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan) y [Configurar el enrutamiento directo](https://docs.microsoft.com/MicrosoftTeams/direct-routing-configure).
-
--  **Migrar los usuarios sin funciones de telefonía.** Si migra a los usuarios sin mantener funciones de telefonía, asegúrese de que los usuarios tienen licencias adecuadas en la nube. 
-
-## <a name="assign-a-teams-upgrade-policy"></a>Asignar una directiva de actualización de los equipos  
-Puede usar herramientas en línea para administrar las directivas de usuario, por ejemplo, para controlar el enrutamiento de los mensajes entrantes y las llamadas. Para obtener más información, vea (vínculo próximamente).
-
-## <a name="move-on-premises-users-to-teams"></a>Mover usuarios locales a los equipos
-
-Puede mover los usuarios locales a los equipos mediante el uso de los cmdlets de PowerShell o mediante el Skype para el Panel de Control de Business Server 2019.
-
-### <a name="move-users-by-using-powershell"></a>Mover usuarios mediante el uso de PowerShell
-Para mover los usuarios a los equipos mediante el uso de PowerShell, debe usar el cmdlet Move-CsUser con el parámetro moveToTeams como se indica a continuación:
+Para notificar a los usuarios locales que se va a ser actualizado pronto a los equipos, crear una nueva instancia de TeamsUpgradePolicy con NotifySfBUsers = true. A continuación, asignar esa directiva a los usuarios que desea notificar, mediante la asignación de la directiva de directamente al usuario o mediante la configuración de la directiva en el nivel global, el grupo de servidores o el sitio. Los cmdlets siguientes crear y conceder una directiva de nivel de usuario:
 
 ```
-Move-CsUser -Identity user0 -Target sipfed.online.lync.com -moveToTeams -credentials $cred. 
+New-CsTeamsUpgradePolicy -Identity EnableNotifications -NotifySfbUser $true 
+Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName EnableNotifications
 ```
 
-($cred = get-credenciales. Debe proporcionar credenciales de administrador de Office 365.)
+La descarga automática de los equipos a través de la Skype para cliente de Win32 de negocio se controla mediante el cmdlet de TeamsUpgradeConfiguration local con el parámetro DownloadTeams. Crear esta configuración en un global, el sitio y el nivel de grupo de servidores. Por ejemplo, el siguiente comando crea la configuración para el sitio Redmond1:
 
-> [!NOTE]
-> Este comando establece la TeamsUpgradePolicy al modo de TeamsOnly. 
- 
-Una vez realizada correctamente la mover a los equipos, Skype del usuario para Business client mostrará el mensaje siguiente: 
+`New-CsTeamsUpgradeConfiguration -Identity “site:redmond1”`
 
-![Se ha completado correctamente la migración a los mensajes de los equipos](../media/teams-upgrade-complete-message.png)
+De forma predeterminada, el valor de DownloadTeams es True; Sin embargo, *solo* garantizada si está NotifySfbUser = True para un usuario determinado.
 
-Tenga en cuenta que Skype para la empresa ya no estará disponible para el usuario excepto al unirse a una reunión. 
 
-En algunos casos poco frecuentes, al mover los usuarios a los equipos, es posible que desee invalidar la conferencia de acceso telefónico y la funcionalidad de voz en nube. Puede hacerlo mediante el uso de los siguientes parámetros con el comando Move-CsUser:
-- **BypassAudioConferencingCheck:** Si un usuario tiene telefónico habilitado para local, el usuario también debe tener una licencia de AudioConf asignada en Office 365 antes de migrar. Una vez que se migran a la nube, el usuario se aprovisionará para conferencias de audio en la nube. Si, por alguna razón, desea mover a un usuario a la nube, pero no use la funcionalidad de conferencia de audio, se puede invalidar mediante la especificación de este parámetro.
-- **ByPassEnterpriseVoice:** Si un usuario tiene Enterprise Voice habilitado para local, el usuario debe tener una licencia de Enterprise Voice asignada en Office 365 antes de migrar. Después de la migración a la nube, el usuario se aprovisionará para voz en la nube. Si, por alguna razón, desea mover a un usuario a la nube, pero no usar la funcionalidad de voz de la nube, se puede invalidar la voz de la nube mediante la especificación de este parámetro.
- 
-### <a name="move-users-by-using-the-skype-for-business-server-control-panel"></a>Mover usuarios mediante el Skype para el Panel de Control de servidor empresarial 
+## <a name="see-also"></a>Vea también
 
-Para mover los usuarios a los equipos mediante el Skype para el Panel de Control:
+[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
 
-1. Abra el Skype para el Panel de Control e inicie sesión su cuenta de Office 365.
+[GRANT CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsupgradepolicy
+)
 
-2. Seleccione **los usuarios** en el panel de navegación izquierdo y seleccione los usuarios a migrar. 
-     
-3. En el menú **acción** , elija **mover usuarios seleccionados a los equipos**. 
+[Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
-    ![Al hacer clic en siguiente para confirmar la migración](../media/migration-confirmation.png)
-    
-4. Haga clic en **siguiente** para confirmar la migración. 
-
-Después de que el usuario se mueva a los equipos, verá las confirmaciones similar al siguiente:
-
-![Mover la confirmación de los usuarios](../media/move-user-confirmation.png)
-<br/><br/>
-![Mensaje que se han movido a los usuarios](../media/users-moved-successfully.png)
-
-Si el movimiento no se realizó correctamente, verá un mensaje similar al siguiente:
-
-![Mensajes que no se pudo mover el usuario](../media/users-not-moved.png)
+[Coexistencia con Skype Empresarial](/microsoftteams/coexistence-chat-calls-presence)

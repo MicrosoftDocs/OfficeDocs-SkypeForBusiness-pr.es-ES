@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instrucciones para configurar Azure Connect AD en un entorno híbrido.
-ms.openlocfilehash: c2a57f9b58d88274dde8f9218faddabdee4342be
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 5d27de4786c588d5d2f2a276dc20c25436bada98
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26536084"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244119"
 ---
 # <a name="configure-azure-ad-connect-for-skype-for-business-and-teams"></a>Configurar Azure AD Connect para Skype para profesionales y los equipos 
  
@@ -35,9 +35,9 @@ Si tiene un bosque de Active Directory local o de varios bosques, Azure Connect 
 
 1. Un solo bosque, que contiene las identidades de usuario relevantes y hospeda Skype para Business Server. 
 
-2. Varios bosques, solo uno de los cuales hospeda Skype para Business Server, así como uno o varios otros bosques que contienen las identidades de usuario relevantes. 
+2. Varios bosques, solo uno de los cuales hospeda Skype para Business Server, así como uno o varios otros bosques que contienen las identidades de usuario relevantes (bosques de cuentas). 
 
-3. Varias implementaciones de Skype para Business Server en varios bosques. Soporte técnico para este escenario complejo pronto será anunciado.
+3. Varias implementaciones de Skype para Business Server en varios bosques. Siempre que se cumplan determinados requisitos, las organizaciones pueden consolidar estas implementaciones de varios en un único inquilino de Office 365.
 
 ### <a name="single-forest"></a>Bosque único 
 
@@ -58,7 +58,7 @@ En este escenario se denomina a menudo una topología de bosque de recursos. Las
 
 ### <a name="multiple-skype-for-business-server-deployments-in-multiple-forests"></a>Varios Skype para las implementaciones de Business Server en varios bosques 
 
-Microsoft se pronto se anuncio de soporte para la sincronización de varios Skype para bosques de negocio en un único inquilino en línea, siempre que sea de sólo una implementación en modo híbrido en cualquier momento en el tiempo. Obtener más detalles próximamente. 
+En este escenario, hay varios bosques, cada contenedor Skype para Business Server y un único inquilino de Office 365.  Cada bosque que contiene Skype para Business Server puede sincronizarse en Azure AD para ese inquilino con AAD conectar. Como máximo, un solo bosque puede configurarse para Skype para entornos híbridos de negocio en un momento dado. Antes de habilitar híbrida en un bosque, se deben deshabilitar todos los dominios SIP de todos los otros bosques utilizando [disable-csonlineSipDomain](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain). Para obtener más información acerca de cómo consolidar un entorno de este tipo en Office 365, consulte [la consolidación en la nube para equipos y Skype para la empresa](cloud-consolidation.md).
 
 ## <a name="general-requirements"></a>Requisitos generales 
 

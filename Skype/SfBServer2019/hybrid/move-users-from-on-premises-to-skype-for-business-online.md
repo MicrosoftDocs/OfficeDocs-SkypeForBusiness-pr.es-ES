@@ -9,78 +9,50 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
-description: 'Resumen: Obtenga información sobre cómo migrar la configuración de usuario y mover los usuarios a Skype para profesionales en línea.'
-ms.openlocfilehash: 9fd51c55be35e55be6ca837ccb72413043283ac7
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+description: Obtenga información sobre cómo mover los usuarios a Skype para profesionales en línea.
+ms.openlocfilehash: 083f2f52fd07439d85d017db9c4b035b8ea326b6
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "25030752"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244000"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>Mover usuarios de local a Skype Empresarial Online
 
-**Resumen:** Obtenga información sobre cómo migrar la configuración de usuario y mover los usuarios a Skype para profesionales en línea.
+Después de mover un usuario de local a Skype para profesionales en línea, el usuario interactúa con Skype para empresarial en línea para su funcionalidad. Todos los contactos que se encontraba local que estará disponibles en Skype para profesionales en línea, y se actualizan las reuniones existentes que el usuario organizó para el futuro a para que los vínculos señalan Skype para profesionales en línea. Si el usuario está habilitado para conferencias de Audio, las reuniones también incluirá las coordenadas de marcado.  Para mover usuarios de un entorno local a Skype para profesionales en línea, use el cmdlet Move-CsUser o el Skype para el Panel de Control de servidor empresarial, que son herramientas local. 
 
-Antes de mover realmente un usuario a Office 365, primero debe confirmar que las cuentas de usuario se sincronizan en la nube y asígneles una licencia. Para hacerlo, use el Centro de administración de Office 365.
+Antes de mover los usuarios, asegúrese de revisar los [requisitos previos](move-users-between-on-premises-and-cloud.md#prerequisites) para mover los usuarios a la nube.
+ 
+## <a name="move-users-with-move-csuser"></a>Mover usuarios con Move-CsUser 
 
-### <a name="to-confirm-that-an-on-premises-user-account-has-been-synchronized-with-office-365"></a>Para confirmar que se ha sincronizado una cuenta de usuario local con Office 365
+Move-CsUser está disponible desde un Skype local para la ventana de PowerShell de Shell de administración de negocio. Debe tener privilegios suficientes en ambos el entorno local, así como en el inquilino de Office 365, tal como se describe en [requiere credenciales administrativas](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Puede usar una única cuenta que tiene privilegios en ambos entornos, o puede iniciar un Skype in situ para la ventana de Shell de administración de servidor empresarial con las credenciales locales y usar el `-Credential` parámetro para especificar las credenciales para una Office 365 cuenta con la función administrativa de Office 365 es necesaria.
 
-1. Con una cuenta de administrador de inquilinos, abra el centro de administración de Office 365 para el inquilino.  Las cuentas de administración de inquilinos deben concederse tanto la Skype para la función de administración de negocio y la función de administración de usuario (o la función de administrador Global) realizar esta función en Office 365.
+Para mover un usuario a online mediante Move-CsUser:
 
-2. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, haga clic en **Usuarios activos**.
+- Especifique el usuario para mover mediante el parámetro Identity.
+- Especifique el destino parámetro - con el valor "sipfed.online.lync. <span>com ".
+- Si no tiene una cuenta con permisos suficientes en ambos en local y Office 365, use el - parámetro de credenciales para proporcionar una cuenta con permisos suficientes en Office 365.
+- Si la cuenta con permisos en Office 365 no termina en "on.microsoft. <span>com ", a continuación, debe especificar el parámetro - HostedMigrationOverrideUrl, con el valor correcto, tal como se describe en [requiere credenciales administrativas](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
 
-3. Haga clic en **Buscar un usuario** y escriba el nombre del usuario.
-
-4. Confirme que ve el usuario y que su estado es **Synched con Active Directory**.
-
-    Si el usuario todavía no está sincronizado, la siguiente sincronización automática debería producirse en tres horas. También puede forzar la sincronización para que se produzca antes. Para obtener más información, vea [Forzar la sincronización de directorios](https://msdn.microsoft.com/en-us/library/azure/jj151771.aspx).
-
-Para asignar la licencia de Office 365, vea [asignar licencias a los usuarios de Office 365 para la empresa](https://support.office.com/en-us/article/Assign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
-
-## <a name="migrate-user-settings-to-skype-for-business-online"></a>Migrar la configuración de usuario a Skype para profesionales en línea
-
-Antes de migrar los usuarios a Skype para profesionales en línea, debe hacer una copia seguridad de los datos de usuario asociados con las cuentas que se va a mover. No todos los datos de usuario se mueve con la cuenta de usuario. Para obtener información, vea [requisitos de restauración y copia de seguridad: datos](https://technet.microsoft.com/library/ecfb8e4d-cb4f-476d-9772-4486bd683c04.aspx).
-
-La configuración de usuario se mueve con la cuenta de usuario. Algunos valores de configuración locales no se mueven con la cuenta de usuario.
-
-## <a name="move-pilot-users-to-skype-for-business-online"></a>Mover los usuarios pilotos a Skype para profesionales en línea
-
-Antes de mover los usuarios a Skype para profesionales en línea, desea mover algunos usuarios pilotos para confirmar que el entorno está configurado correctamente. Después puede verificar que las características y los servicios de Lync funcionan del modo esperado antes de intentar mover más usuarios.
-
-Para mover un usuario local a su Skype para inquilino en línea de negocio, ejecute los siguientes cmdlets en el Skype para Shell de administración de servidor empresarial, con las credenciales de administrador para el inquilino de Microsoft Office 365. Reemplace "username@contoso.com" con la información para el usuario que desea mover.
+La siguiente secuencia de cmdlet puede usarse para mover un usuario a Skype para profesionales en línea y se da por supuesto la credencial de Office 365 es una cuenta independiente y se proporciona como entrada para el símbolo del sistema de Get-Credential.
 
 ```
-$creds=Get-Credential
+$cred=Get-Credential
+$url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
+ 
+Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $cred -HostedMigrationOverrideUrl $url
 ```
+## <a name="move-users-with-skype-for-business-server-control-panel"></a>Mover usuarios con Skype para el Panel de Control de servidor empresarial 
 
-```
-Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds
-```
+1. Abra el Skype para el Control de servidor empresarial aplicación de Panel.
+2. En el panel de navegación izquierdo, elija **usuarios**.
+3. Use **Buscar** para buscar el usuario o usuarios que le gustaría mover a Skype para profesionales en línea.
+4. Seleccione los usuarios y, a continuación, en la lista desplegable **acción** encima de la lista, elija **mover usuarios seleccionados a Skype para profesionales en línea**.
+5. En el asistente, haga clic en **siguiente**.
+6. Si se le solicita, inicie sesión en Office 365, con una cuenta que termina en. onmicrosoft.com y tiene permisos suficientes.
+7. Haga clic en **siguiente**y, a continuación, **siguiente** una vez más para mover el usuario.
+8. Tenga en cuenta que los mensajes de estado sobre el éxito o el fracaso se proporcionan en la parte superior de la aplicación de Panel de Control principal, no en el asistente.
 
-## <a name="move-users-to-skype-for-business-online"></a>Mover usuarios a Skype Empresarial Online
+## <a name="see-also"></a>Vea también
 
-Puede mover varios usuarios mediante el cmdlet [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) -el parámetro Filter para seleccionar los usuarios con una propiedad concreta asignada a las cuentas de usuario, como RegistrarPool. A continuación, puede canalizar los usuarios devueltos al cmdlet [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser?view=skype-ps) , tal como se muestra en el ejemplo siguiente:
-
-```
-Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds
-```
-
-También puede usar el parámetro - OU para recuperar todos los usuarios de la unidad organizativa especificada, tal como se muestra en el ejemplo siguiente:
-
-```
-Get-CsUser -OU "cn=hybridusers,cn=contoso.." | Move-CsUser -Target sipfed.online.lync.com -Credentials $creds
-```
-
-## <a name="verify-online-user-settings-and-features"></a>Comprobar las características y configuración de usuario en línea
-
-Puede comprobar que el usuario se ha movido correctamente de las siguientes maneras:
-
-- Vea el estado del usuario en el Panel de Control de Skype Empresarial Online. El indicador visual de los usuarios locales y los usuarios en línea es diferente.
-
-- Ejecute el siguiente cmdlet:
-
-  ```
-  Get-CsUser -Identity
-  ```
-
-
+[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)

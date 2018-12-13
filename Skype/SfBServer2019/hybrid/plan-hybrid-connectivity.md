@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Consideraciones de planeación para implementar la conectividad de híbrida entre Skype para Business Server y Skype para profesionales en línea o los equipos.
-ms.openlocfilehash: 825057f84300d9e47427eea5b27117d168b4126f
-ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
+ms.openlocfilehash: ef74a0b2dcc4943b5e95ddd8ba15005e50ec6cd6
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26625692"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244028"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Planeación de la conectividad híbrida entre Skype para Business Server y Office 365
 
@@ -31,7 +31,7 @@ En este tema se describe la infraestructura y los requisitos del sistema que nec
 Una vez leído este tema y esté listo para configurar la conectividad híbrida, vea [Configurar la conectividad híbrida entre Skype para Business Server y Office 365](configure-hybrid-connectivity.md). Los temas de configuración proporcionan instrucciones paso a paso para la configuración de conectividad híbrida entre su implementación local y los equipos o Skype para el negocio en línea.
 
 
-## <a name="about-split-domain-functionality"></a>Acerca de la funcionalidad de dominio dividido
+## <a name="about-shared-sip-address-space-functionality"></a>Acerca de las funciones Shared espacio de direcciones SIP
 <a name="BKMK_Overview"> </a>
 
  Con conectividad híbrida configurar entre una implementación local de Skype para Business Server y los equipos o Skype para profesionales en línea, puede tener algunos usuarios alojarse en local y algunos usuarios alojados en línea.
@@ -43,13 +43,9 @@ Este tipo de configuración se basa en la funcionalidad de espacio de direccione
 Cuando se configura el espacio de direcciones SIP compartido:
 
 - Azure Active Directory conectar se usa para sincronizar el directorio local con Office 365.
-
 - Los usuarios que están hospedados en local interactúan con Skype local para servidores empresariales. 
-
 - Los usuarios que están hospedados en línea pueden interactuar con Skype para los servicios en línea de negocio o los equipos.
-
 - Los usuarios de ambos entornos pueden comunicarse entre sí. 
-
 - Active Directory local está autorizado. Todos los usuarios deben crearse en el Active Directory local en primer lugar y, a continuación, se sincronizan con Azure AD. Incluso si piensa para que el usuario a estar alojado en línea, debe crear primero el usuario en el entorno local y, a continuación, mover el usuario a en línea para asegurarse de que el usuario es reconocible por los usuarios locales. 
 
 Antes de que un usuario se puede mover en línea, el usuario debe estar asignado un Skype para licencia empresarial Online (Plan 2). Si el usuario va a utilizar los equipos, el usuario también debe tener una licencia de los equipos (y la Skype para licencia de negocio debe permanecer habilitado). Si desean que los usuarios aprovechar las características en línea adicionales, como conferencias de Audio o el sistema de teléfono, necesita asignarlas la licencia correspondiente en Office 365.
@@ -61,24 +57,18 @@ Antes de que un usuario se puede mover en línea, el usuario debe estar asignado
 Para implementar la conectividad híbrida entre su entorno local y los servicios de comunicación de Office 365, debe cumplir los siguientes requisitos de infraestructura:
 
 - Una única implementación local de Skype para Business Server o Lync Server que se haya implementado en una topología admitida. En este tema, vea [requisitos de la topología](plan-hybrid-connectivity.md#BKMK_Topology) .
-
 - Un inquilino de Microsoft Office 365 con Skype para profesionales Online habilitado.
-
     > [!NOTE]
     > Solo puede usar un inquilino para una configuración híbrida con su implementación local.
-
 - Azure Active Directory Connect para sincronizar su directorio local con Office 365. Para obtener más información, vea [Azure Connect AD: permisos y cuentas de](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
-
 - Skype para herramientas administrativas de Business Server.  Son necesarios para mover usuarios de local a la nube. Estas herramientas deben estar instaladas en un servidor con acceso a la implementación local e internet. 
-
 - Herramientas administrativas en línea.  Puede usar los equipos y la Skype para el centro de administración de negocio o Windows PowerShell para administrar los equipos y Skype para profesionales en línea. Para usar PowerShell para administrar los equipos o Skype para profesionales en línea, descargue e instale el Skype para Business Connector en línea. 
-
 - Espacio de direcciones SIP compartido debe estar habilitada y la implementación local debe configurarse para usar Office 365 como un proveedor de hospedaje. Para obtener más información acerca de los pasos necesarios para configurar la conectividad híbrida, vea [Configurar la conectividad de híbrida](configure-hybrid-connectivity.md).
 
 Después de configurar la conectividad híbrida, puede mover los usuarios a los equipos o Skype para profesionales en línea. Para obtener más información, vea [mover usuarios de local a los equipos](move-users-from-on-premises-to-teams.md) y [mover los usuarios de local a Skype para profesionales en línea](move-users-from-on-premises-to-skype-for-business-online.md).
 
 
-## <a name="topology-requirements"></a>Requisitos de topología
+## <a name="server-version-requirements"></a>Requisitos de la versión de servidor
 <a name="BKMK_Topology"> </a>
 
 Para configurar la implementación para la implementación híbrida con **los equipos o Skype para profesionales en línea**, debe tener una de las siguientes topologías admitidas:
@@ -105,13 +95,18 @@ Deben ejecutar a la federación de servidor perimetral y el servidor del próxim
  ## <a name="multi-forest-support"></a>Compatibilidad de bosques múltiples
 <a name="BKMK_MultiForest"> </a>
 
-Los usuarios pueden acceder a la funcionalidad de Skype Empresarial en otro bosque si se cumplen los siguientes requisitos:
+Microsoft admite los siguientes tipos de escenarios híbridos de varios bosques:
 
-- Los usuarios están correctamente sincronizados en el bosque que aloja a Skype Empresarial: en configuraciones híbridas, esto significa que los usuarios deben estar sincronizados como objetos de usuarios deshabilitados.
+- **Topología de bosque de recursos.** En este tipo de topología, hay un bosque que hospeda Skype para Business Server (el bosque de recursos) y hay uno o más bosques adicionales que identidades de cuenta de host, que obtener acceso a la Skype para Business Server en el bosque de recursos. En general, los usuarios pueden tener acceso a Skype para la funcionalidad de negocio en otro bosque si se cumplen los siguientes requisitos:
+    - Los usuarios se sincronizan correctamente en el bosque que hospeda Skype para la empresa. En configuraciones híbridas, esto significa que los usuarios deben sincronizarse como objetos de usuario deshabilitados.
+    - El bosque que aloja a Skype Empresarial debe confiar en el bosque que contiene a los usuarios.
+    Para obtener información detallada en escenarios híbridos de bosque de recursos, vea [implementar una topología de bosque de recursos para la implementación híbrida Skype para la empresa](configure-a-multi-forest-environment-for-hybrid.md).
+- **Varias implementaciones de Skype para Business Server en varios bosques.** Esta configuración puede surgir como resultado de fusiones y adquisiciones escenarios, así como en las empresas más complejas.  Consolidación de todos los usuarios de local a la nube en un único inquilino de Office 365 se puede lograr para las organizaciones con varios Skype para las implementaciones empresariales, siempre que se cumplan los requisitos de la claves siguientes: 
+    - Debe haber como máximo un inquilino de Office 365 implicados. No se admite la consolidación en escenarios con más de un inquilino de Office 365.
+    - En cualquier momento dado, sólo un local puede ser Skype para el bosque de negocio en modo híbrido (espacio de direcciones SIP compartido). Todos los demás Skype local para bosques de negocio debe permanecer totalmente local (y supuestamente federados con cada una de las demás). Tenga en cuenta que pueden sincronizar estas otras organizaciones local a AAD si así lo desea con la [nueva funcionalidad para deshabilitar los dominios SIP en línea](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain) disponible a partir de diciembre de 2018.
 
-- El bosque que aloja a Skype Empresarial debe confiar en el bosque que contiene a los usuarios.
+    Los clientes con las implementaciones de Skype para la empresa en varios bosques totalmente deben migrar cada Skype para el bosque de negocio individualmente en el inquilino de Office 365 con la funcionalidad de dominio de dividido (Shared espacio de direcciones SIP) y, a continuación, deshabilitar híbrida con la implementación local, antes de pasar a migrar el siguiente local Skype para la implementación de la empresa. Además, antes de que se está migrando a la nube, los usuarios locales permanecen en un estado federado con todos los usuarios que no se representan en el mismo directorio del usuario local. Para obtener más detalles, consulte [en la nube de la consolidación de los equipos y Skype para la empresa](cloud-consolidation.md).
 
-Para obtener información detallada en escenarios híbridos de varios bosques, vea [Configure un entorno de varios bosque para entornos híbridos Skype para la empresa](configure-a-multi-forest-environment-for-hybrid.md).
 
 
 ## <a name="federation-requirements"></a>Requisitos de la federación
@@ -122,11 +117,8 @@ Al configurar híbrida, debe asegurarse de que sus entornos en línea y local pu
 Los requisitos siguientes necesitan cumplirse para configurar correctamente una implementación híbrida:
 
 - La coincidencia de dominios necesita configurarse de la misma manera para la implementación local y para el inquilino de Office 365. Si la detección de asociado está habilitada en la implementación local, configure una federación abierta para el inquilino en línea. Si, por el contrario, la detección de asociado no está habilitada, configure una federación cerrada para el inquilino en línea.
-
 - La lista de dominios bloqueados de la implementación local necesita coincidir exactamente con la lista de dominios bloqueados del inquilino en línea.
-
 - La lista de dominios permitidos de la implementación local necesita coincidir exactamente con la lista de dominios permitidos del inquilino en línea.
-
 - Federación debe estar habilitada para las comunicaciones externas para el inquilino en línea.
 
 

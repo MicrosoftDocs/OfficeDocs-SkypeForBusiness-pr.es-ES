@@ -1,5 +1,5 @@
 ---
-title: Configurar un entorno de varios bosque para entornos híbridos Skype para la empresa
+title: Implementar una topología de bosque de recursos
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,32 +10,29 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: En las secciones siguientes se proporcionan instrucciones acerca de cómo configurar un entorno que tiene varios bosques en un modelo de bosque de usuario o recurso para proporcionar funcionalidad empresarial en un escenario híbrido de Skype.
-ms.openlocfilehash: ef2b57d1f89e4d5479cacce57ce9a6c47c495f21
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2e9e3d9f1f6d276ff99ee1e346bb1812ef0c3ea7
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532434"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244014"
 ---
-# <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Configurar un entorno de varios bosque para entornos híbridos Skype para la empresa
+# <a name="deploy-a-resource-forest-topology"></a>Implementar una topología de bosque de recursos
  
 En las secciones siguientes se proporcionan instrucciones acerca de cómo configurar un entorno que tiene varios bosques en un modelo de bosque de usuario o recurso para proporcionar funcionalidad empresarial en un escenario híbrido de Skype. 
   
 ![Entorno de varios bosques para Hybrid](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
   
-## <a name="validate-the-forest-topology"></a>Validar la topología de bosque
+## <a name="topology-requirements"></a>Requisitos de topología
 
 Se admiten varios bosques de usuarios. Tenga en cuenta lo siguiente: 
-  
-- Para un bosque de un solo usuario o en la implementación de usuario de varios bosques, debe haber una implementación única de Skype para Business Server.
     
-- Las versiones compatibles de Lync Server y Skype para Business Server en una configuración híbrida, vea [requisitos de la topología](plan-hybrid-connectivity.md#BKMK_Topology) de [planeación de la conectividad híbrida entre Skype para Business Server y Office 365](plan-hybrid-connectivity.md).
+- Las versiones compatibles de Lync Server y Skype para Business Server en una configuración híbrida, vea [requisitos de versión de servidor](plan-hybrid-connectivity.md#server-version-requirements) en la [planeación de la conectividad híbrida entre Skype para Business Server y Office 365](plan-hybrid-connectivity.md).
     
 - Exchange Server se pueden implementar en uno o más bosques, que pueden o no incluir el bosque que contiene Skype para Business Server. Asegúrese de que ha aplicado la actualización acumulativa más reciente.
     
 - Para obtener información detallada sobre la coexistencia con Exchange Server, incluidos los criterios y las limitaciones de la compatibilidad en distintas combinaciones de implementaciones locales y en línea, vea [Compatibilidad con la característica](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) en [Plan to integrate Skype for Business and Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
     
-Para obtener más información, consulte [los requisitos del sistema](../plan/system-requirements.md).
   
 ## <a name="user-homing-considerations"></a>Consideraciones sobre el hospedaje de usuarios
 
@@ -43,7 +40,7 @@ Skype para los usuarios empresariales alojados en local puede tener Exchange hos
   
 ## <a name="configure-forest-trusts"></a>Configurar confianzas de bosque
 
-Las confianzas necesarias son confianzas transitivas bidireccionales entre el bosque de recursos y cada uno de los bosques de usuarios. Si tiene varios bosques de usuarios, para habilitar la autenticación entre bosques es importante que el enrutamiento de sufijo de nombre esté habilitado para cada una de estas confianzas de bosque. Para ver las instrucciones, consulte [Administrar confianzas de bosque](https://technet.microsoft.com/en-us/library/cc772440.aspx). 
+En una topología de bosque de recursos, los bosques de recursos hospedar Skype para Business Server deben confiar en cada bosque de cuentas que contiene las cuentas de los usuarios que tendrán acceso a él. Si tiene varios bosques de usuarios, para habilitar la autenticación entre bosques es importante que el enrutamiento de sufijo de nombre esté habilitado para cada una de estas confianzas de bosque. Para ver las instrucciones, consulte [Administrar confianzas de bosque](https://technet.microsoft.com/en-us/library/cc772440.aspx). Si tiene Exchange Server implementados en un bosque de otro y proporciona la funcionalidad de Skype para los usuarios empresariales, del bosque que aloja Exchange debe confiar en el bosque de hospedaje Skype para Business Server. Por ejemplo, si Exchange se implementaron en el bosque de cuentas, esto eficazmente significaría que una confianza bidireccional entre cuenta y Skype para bosques empresarial es necesario en esa configuración.
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Sincronizar las cuentas en el bosque de Skype para la empresa de hospedaje
 
@@ -94,9 +91,9 @@ Una vez que se haya implementado, se tiene que editar la regla de notificaciones
   
 ## <a name="configure-aad-connect"></a>Configurar AAD Connect
 
-AAD Connect se usará para combinar las cuentas entre los diferentes bosques y entre los bosques y Office 365. Debe implementar AAD Connect en el bosque de recursos. Es necesario para poder sincronizar varios bosques y Office 365, lo cual no es compatible con Dirsync. 
-  
-AAD Connect no sincroniza las cuentas entre bosques locales. Usa conectores de AD para leer objetos que ya están sincronizados entre bosques locales (por FIM o productos similares). A continuación, aprovecha las reglas de filtrado para crear una representación única que coincida al mismo tiempo con el objeto habilitado y deshabilitado en su metaverso y, a continuación, replica ese único objeto combinado en Office 365. 
+En las topologías de bosque de recursos, es necesario que se sincronizan los atributos de usuario desde el bosque de recursos y los bosques de cuenta (s) en Azure AD. La forma más sencilla y recomendada para ello es que Azure Connect AD sincronizar y combinar las identidades de usuario de *todos los* bosques que han habilitado las cuentas de usuario y el bosque que contiene Skype para la empresa. Para obtener información detallada, vea, [Configurar Azure AD conectar para Skype para profesionales y los equipos](configure-azure-ad-connect.md).
+
+Tenga en cuenta que AAD conectar no proporciona sincronización entre los bosques de cuentas y recursos de forma local. Que deben configurarse por separado mediante el Administrador de identidades de Microsoft o un producto similar, tal y como se ha descrito anteriormente.
   
 Cuando haya terminado y AAD Connect se esté combinando, si observa un objeto en el metaverso, debería ver algo parecido a esto: 
   
