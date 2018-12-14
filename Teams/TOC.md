@@ -500,6 +500,7 @@
 #### [Configurar el correo de voz de Sistema telefónico](set-up-phone-system-voicemail.md)
 #### [¿Qué son los operadores automáticos de Sistema telefónico?](what-are-phone-system-auto-attendants.md)
 #### [Responder a operador automático y las llamadas de cola de llamadas directamente desde los equipos](answer-auto-attendant-and-call-queue-calls.md)
+#### [Configurar teléfonos de área común en Microsoft Teams](set-up-common-area-phones.md)
 ### Enrutamiento directo de teléfono del sistema
 #### [Planear el enrutamiento directo](direct-routing-plan.md)
 #### [Configurar el enrutamiento directo](direct-routing-configure.md)

@@ -36,7 +36,7 @@
 | 07/11/2018 | [Implementar reuniones en Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | agregado |
 | 07/11/2018 | [Implementar Microsoft Teams](/MicrosoftTeams/deploy-microsoft-teams-landing-page) | agregado |
 | 07/11/2018 | [Implementar voz para Microsoft Teams](/MicrosoftTeams/deploy-voice-microsoft-teams-landing-page) | agregado |
-| 07/11/2018 | [Introducción a Microsoft Teams](/MicrosoftTeams/get-started-microsoft-teams-landing-page) | agregado |
+| 07/11/2018 | [Introducción a Microsoft Teams](/MicrosoftTeams/get-started-with-teams-landing-page) | agregado |
 | 07/11/2018 | [¿Hasta qué punto está preparada su organización para Microsoft Teams?](/MicrosoftTeams/teams-adoption-assess-readiness) | agregado |
 | 07/11/2018 | [Crear su programa para expertos para Microsoft Teams](/MicrosoftTeams/teams-adoption-create-champions-program) | agregado |
 | 07/11/2018 | [Definir resultados y el éxito de su adopción de Microsoft Teams](/MicrosoftTeams/teams-adoption-define-outcomes) | agregado |
@@ -88,7 +88,7 @@
 | 12/11/2018 | [Administrar el acceso de los usuarios a Microsoft Teams](/MicrosoftTeams/user-access) | modificado |
 | 12/11/2018 | [Administrar sus dispositivos en Microsoft Teams](/MicrosoftTeams/device-management) | modificado |
 | 13/11/2018 | [Adoptar Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | agregado |
-| 13/11/2018 | [Introducción a Microsoft Teams](/MicrosoftTeams/get-started-microsoft-teams-landing-page) | agregado |
+| 13/11/2018 | [Introducción a Microsoft Teams](/MicrosoftTeams/get-started-with-teams-landing-page) | agregado |
 | 13/11/2018 | [Crear sus primeros equipos y canales en Microsoft Teams](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | agregado |
 | 13/11/2018 | [Introducción a Microsoft Teams](/MicrosoftTeams/get-started-with-teams-landing-page) | agregado |
 | 13/11/2018 | [Supervisar el uso y los comentarios en Microsoft Teams](/MicrosoftTeams/get-started-with-teams-monitor-usage-and-feedback) | agregado |

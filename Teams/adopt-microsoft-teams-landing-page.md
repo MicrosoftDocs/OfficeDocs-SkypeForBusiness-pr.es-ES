@@ -13,16 +13,16 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33791cc16a7d2a45e16a41e4dfefe0efff8534b1
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 4c21eb588b899c6a0b4acd4e25eb79d54750e956
+ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699665"
+ms.lasthandoff: 12/14/2018
+ms.locfileid: "27264913"
 ---
 # <a name="adopt-microsoft-teams"></a>Adoptar Microsoft Teams
 
-Si es una empresa pequeña, o si desea desplegar chat a partir de los equipos, los equipos & canales y reuniones, usan nuestra orientación preceptiva de inicio rápido, que está diseñado para hacer copia de seguridad y a la ejecución de fast. Si es una organización grande con un híbrido o local Skype para la configuración empresarial, o si desea implantar las características de voz (como Office 365 llamar a planes o sistema telefónico), puede iniciar con nuestra guía de inicio rápido, pero necesita adicionales orientación a continuación, en **más profunda instrucciones de adopción**.
+Si eres una empresa pequeña o si desea desplegar chat a partir de los equipos, los equipos & canales y reuniones, usan nuestra descriptiva [obtener iniciado instrucciones](get-started-with-teams-landing-page.md), que se ha diseñado para ayudarle a trabajar rápidamente. Si es una organización grande con un híbrido o local Skype para configuración de negocio, o si desea implantar las características de voz (por ejemplo, una llamada a planes o sistema telefónico de Office 365), puede iniciar con nuestra guía de introducción, pero necesita adicionales orientación a continuación, en **más profunda instrucciones de adopción**.
 
 <ul class="panelContent cardsFTitle">
     <li>

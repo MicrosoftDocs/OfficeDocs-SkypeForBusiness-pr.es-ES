@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Diseñar y crear flujos de trabajo de grupo de respuesta, en Skype para Business Server Enterprise Voice. Se cubren tanto los flujos de trabajo de grupo de extensiones como los flujos de trabajo interactivos.
-ms.openlocfilehash: c141c5e933a54bc0d6234093441d1b66331713d9
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 9bb701cf3d4894ff46127b04a3132b6b1fb5895a
+ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372276"
+ms.lasthandoff: 12/14/2018
+ms.locfileid: "27264863"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Diseñar y crear flujos de trabajo de grupo de respuesta en Skype para la empresa
 
@@ -43,26 +43,26 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 
 4. En la página **Flujo de trabajo**, haga clic en **Crear o editar un flujo de trabajo**.
 
-5. En el campo de búsqueda **Seleccionar un servicio** , escriba todo o parte del nombre del servicio **ApplicationServer** que hospeda el flujo de trabajo que desea crear o cambiar. En la lista de resultados que aparece, haga clic en el servicio que desea y en **Aceptar**.
+5. En el campo de búsqueda **Seleccionar un servicio** , escriba todo o parte del nombre del servicio **ApplicationServer** que hospeda el flujo de trabajo que desea crear o cambiar. En la lista de servicios resultante, haga clic en el servicio que desee y, a continuación, haga clic en **Aceptar**.
 
     > [!NOTE]
-    > Se abre la herramienta de configuración de grupo de respuesta. También puede abrir la herramienta de configuración de grupo de respuesta directamente desde un explorador web, escriba la siguiente dirección URL: https:// _ \<Fqdngrupoweb\>_/RgsConfig.
+    > Se abre la herramienta de configuración de grupo de respuesta. También puede abrir la herramienta de configuración de grupo de respuesta directamente desde un explorador web, escriba la siguiente dirección URL: https://\<Fqdngrupoweb\>/RgsConfig.
 
 6. Siga uno de estos pasos:
 
-   - En **crear un nuevo flujo de trabajo**, junto a **Grupo de extensiones, haga clic en crear**.
+   - En **crear un nuevo flujo de trabajo**, junto a **Grupo de extensiones**, haga clic en **crear**.
 
    - En **Administrar un flujo de trabajo existente**, localice el flujo de trabajo que desea cambiar y, a continuación, en **Acción**, haga clic en **Editar**.
 
 7. Si está listo para que los usuarios empiecen a llamar al flujo de trabajo, seleccione **Activar el flujo de trabajo**.
 
     > [!NOTE]
-    >  Si está creando un flujo de trabajo administrado, seleccione **Activar el flujo de trabajo**. Después de guardar el flujo de trabajo administrado activo, puede modificarlo y desactivarlo.
+    >  Si va a crear un flujo de trabajo administrado, debe seleccionar **activar el flujo de trabajo**. Después de guardar el flujo de trabajo administrado activo, puede modificarlo y desactivarlo.
 
 8. Para permitir que los usuarios federados puedan llamar al grupo, active la casilla **Habilitar para federación**. También debe tener una directiva de acceso externo que se aplica a la aplicación de grupo de respuesta configurada para la federación.
 
     > [!NOTE]
-    > La directiva de acceso externo global se aplica a la aplicación de grupo de respuesta. Puede configurar la directiva global para la federación de grupo de respuesta mediante el uso de Skype para el Panel de Control de servidor empresarial o mediante el cmdlet **Set-CsExternalAccessPolicy** para establecer el parámetro EnableOutsideAccess en True. Recuerde que la configuración de la directiva global se aplica a todos los usuarios, a menos que se les haya asignado una directiva de usuario o de sitio. Por lo tanto, antes de cambiar la configuración de los grupos de respuesta, asegúrese de que la configuración de la federación cumpla los requisitos de la organización. Para obtener información detallada acerca de cómo aplican las directivas a los usuarios, vea [Administración de directiva de acceso externo para su organización](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Para obtener información detallada acerca de la configuración de federación, vea [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
+    > La directiva de acceso externo global se aplica a la aplicación de grupo de respuesta. Puede configurar la directiva global para la federación de grupo de respuesta mediante el uso de Skype para el Panel de Control de servidor empresarial o mediante el cmdlet **Set-CsExternalAccessPolicy** para establecer el parámetro EnableOutsideAccess en True. Recuerde que la configuración de la directiva global se aplica a todos los usuarios, a menos que se les haya asignado una directiva de usuario o de sitio. Por lo tanto, antes de cambiar la configuración de los grupos de respuesta, asegúrese de que la configuración de la federación cumpla los requisitos de la organización. Para más información sobre la aplicación de las directivas a los usuarios, consulte [Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Para obtener información detallada acerca de la configuración de federación, vea [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
 
     > [!NOTE]
     > Los usuarios que se hospedan en Skype para profesionales en línea no pueden realizar llamadas a grupos de respuesta que se hospedan en una implementación local. Esto es así en ambas implementaciones híbridas y en los casos donde una implementación local está asociada con un Skype para la implementación empresarial en línea.
@@ -109,7 +109,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
     - Para usar una grabación de un archivo de audio de Windows Media (.wma) o WAVE (.wav) para el mensaje de bienvenida, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo de audio y luego haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
 
     > [!NOTE]
-    > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo compatibles, vea [Requisitos técnicos para grupos de respuesta](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+    > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener más información acerca de los formatos de archivo compatibles, consulte [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 18. En **Paso 4 Especificar horario comercial**, en el cuadro **Su zona horaria**, haga clic en la zona horaria para el flujo de trabajo.
 
@@ -130,7 +130,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 
 20. Si está creando una programación personalizada para este flujo de trabajo, haga clic en las casillas correspondientes a los días de la semana durante los que se encuentra disponible el grupo de respuesta.
 
-21. Si está creando una programación personalizada, especifique las horas en **Abrir** y **Cerrar** para cada día de la semana en el que esté disponible el grupo de respuesta.
+21. Si va a crear una programación personalizada, escriba las horas de **apertura** y de **cierre** de cada día de la semana en los que el grupo de respuesta está disponible.
 
     > [!NOTE]
     > Las horas de **Abrir** y **Cerrar** deben mostrarse en formato de 24 horas. Por ejemplo, si en su oficina se trabaja de 9 a 5 y se cierra al mediodía para el almuerzo, el horario comercial se especificará de la siguiente manera: **Abrir** 9:00, **Cerrar** 12:00, **Abrir** 13:00 y **Cerrar** 17:00.
@@ -145,17 +145,17 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
     - Para usar una grabación en un archivo de audio para el mensaje, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea usar y después haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
 
       > [!NOTE]
-      > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo de audio compatibles, vea [Requisitos técnicos para grupos de respuesta](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener más información sobre los formatos de audio admitidos, consulte [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 23. Especifique cómo abordar las llamadas tras la reproducción del mensaje (si se ha configurado uno):
 
     - Para desconectar la llamada, haga clic en **Desconectar llamada**.
 
-    - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y escriba la dirección de correo de voz. El formato de la dirección de correo de voz es * \<nombre de usuario\>*@ *\<domainName\> * (por ejemplo, bob@contoso.com).
+    - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y escriba la dirección de correo de voz. El formato de la dirección de correo de voz es * \<nombre de usuario\>*@*\<domainName\> * (por ejemplo, bob@contoso.com).
 
-    - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI del SIP** y escriba la dirección de usuario. El formato de la dirección del usuario es _ \<nombre de usuario\>_@ _\<domainName\>_.
+    - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI del SIP** y escriba la dirección de usuario. El formato de la dirección del usuario es _ \<nombre de usuario\>_@_\<domainName\>_.
 
-    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato del número de teléfono es * \<número\>*@ *\<domainName\> * (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
+    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato del número de teléfono es * \<número\>*@*\<domainName\> * (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
 
 24. En **Paso 5 Especificar vacaciones**, haga clic en las casillas para uno o más conjuntos de vacaciones que definan los días en los que el grupo de respuesta no esté laboralmente disponible.
 
@@ -172,17 +172,17 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
     - Para usar una grabación en un archivo de audio para el mensaje, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea usar y después haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
 
       > [!NOTE]
-      > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo de audio compatibles, vea [Requisitos técnicos para grupos de respuesta](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener más información sobre los formatos de audio admitidos, consulte [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 26. Especifique cómo abordar las llamadas tras la reproducción del mensaje (si se ha configurado uno):
 
     - Para desconectar la llamada, haga clic en **Desconectar llamada**.
 
-    - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y escriba la dirección de correo de voz. El formato de la dirección de correo de voz es * \<nombre de usuario\>*@ *\<domainName\> * (por ejemplo, bob@contoso.com).
+    - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y escriba la dirección de correo de voz. El formato de la dirección de correo de voz es * \<nombre de usuario\>*@*\<domainName\> * (por ejemplo, bob@contoso.com).
 
-    - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI del SIP** y escriba la dirección de usuario. El formato de la dirección del usuario es _ \<nombre de usuario\>_@ _\<domainName\>_.
+    - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI del SIP** y escriba la dirección de usuario. El formato de la dirección del usuario es _ \<nombre de usuario\>_@_\<domainName\>_.
 
-    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato del número de teléfono es * \<número\>*@ *\<domainName\> * (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
+    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato del número de teléfono es * \<número\>*@*\<domainName\> * (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
 
 27. En el **Paso 6 Configurar una cola**, en **Seleccione la cola que recibirá las llamadas**, seleccione la cola donde desea que los autores de las llamadas se mantengan en espera hasta que un agente esté disponible.
 
@@ -193,7 +193,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
     - Para usar una grabación de un archivo de audio para la música en espera, haga clic en **Seleccionar un archivo de música**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **un archivo de música**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea usar y después haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
 
       > [!NOTE]
-      > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo de audio compatibles, vea [Requisitos técnicos para grupos de respuesta](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener más información sobre los formatos de audio admitidos, consulte [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 29. Haga clic en **Implementar**.
 
@@ -233,7 +233,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
    ```
 
     > [!NOTE]
-    > Para los flujos de trabajo de grupo de búsqueda, la acción habitual será dirigir la llamada a una cola. Este parámetro se usa para los flujos de trabajo activos. No se necesita para los flujos de trabajo inactivos.
+    > Para los flujos de trabajo de grupo de búsqueda, la acción habitual será dirigir la llamada a una cola. Este parámetro es necesario para flujos de trabajo activos. No se necesita para los flujos de trabajo inactivos.
 
     Por ejemplo:
 
@@ -248,13 +248,13 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 8. Recuperar el nombre del servicio para el servicio de grupo de respuesta de Lync Server y asignarla a una variable. En la línea de comandos, ejecute:
 
    ```
-   $serviceId="service:"+(Get-CSService | ?{$_.Applications -like "*RGS*"}).ServiceId;
+   $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
 9. Cree o modifique el flujo de trabajo. Para crear un flujo de trabajo, use **New-CsRgsWorkflow**. Para modificar un flujo de trabajo, use **Set-CsRgsWorkflow**. En la línea de comandos, escriba lo siguiente:
 
    ```
-   $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-MangersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
+   $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-ManagersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
    ```
 
     Por ejemplo:
@@ -376,10 +376,10 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 
 4. En la página **Flujo de trabajo**, haga clic en **Crear o editar un flujo de trabajo**.
 
-5. En el campo de búsqueda **Seleccionar un servicio** , escriba todo o parte del nombre del servicio **ApplicationServer** que hospeda el flujo de trabajo que desea crear o modificar. En la lista de resultados que aparece, haga clic en el servicio que desea y en **Aceptar**.
+5. En el campo de búsqueda **Seleccionar un servicio** , escriba todo o parte del nombre del servicio **ApplicationServer** que hospeda el flujo de trabajo que desea crear o modificar. En la lista de servicios resultante, haga clic en el servicio que desee y, a continuación, haga clic en **Aceptar**.
 
     > [!NOTE]
-    > Se abre la herramienta de configuración de grupo de respuesta. También puede abrir la herramienta de configuración de grupo de respuesta directamente desde un explorador web, escriba la siguiente dirección URL: https:// _ \<Fqdngrupoweb\>_/RgsConfig.
+    > Se abre la herramienta de configuración de grupo de respuesta. También puede abrir la herramienta de configuración de grupo de respuesta directamente desde un explorador web, escriba la siguiente dirección URL: https://\<Fqdngrupoweb\>/RgsConfig.
 
 6. Siga uno de estos pasos:
 
@@ -390,12 +390,12 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 7. Si todavía no está listo para que los usuarios comiencen a llamar al flujo de trabajo, desactive la casilla **Activar el flujo de trabajo**.
 
     > [!NOTE]
-    >  Si está creando un flujo de trabajo administrado, seleccione **Activar el flujo de trabajo**. Después de guardar el flujo de trabajo administrado activo, puede modificarlo y desactivarlo.
+    >  Si va a crear un flujo de trabajo administrado, debe seleccionar **activar el flujo de trabajo**. Después de guardar el flujo de trabajo administrado activo, puede modificarlo y desactivarlo.
 
 8. Para permitir que los usuarios federados puedan llamar al grupo, active la casilla **Habilitar para federación**. También debe tener una directiva de acceso externo que se aplica a la aplicación de grupo de respuesta configurada para la federación.
 
     > [!NOTE]
-    > La directiva de acceso externo global se aplica a la aplicación de grupo de respuesta. Puede configurar la directiva global para la federación de grupo de respuesta mediante el uso de Skype para el Panel de Control de servidor empresarial o mediante el cmdlet **Set-CsExternalAccessPolicy** para establecer el parámetro EnableOutsideAccess en True. Recuerde que la configuración de la directiva global se aplica a todos los usuarios, a menos que se les haya asignado una directiva de usuario o de sitio. Por lo tanto, antes de cambiar la configuración de los grupos de respuesta, asegúrese de que la configuración de la federación cumpla los requisitos de la organización. Para obtener información detallada acerca de cómo aplican las directivas a los usuarios, vea [Administración de directiva de acceso externo para su organización](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Para obtener información detallada acerca de la configuración de federación, consulte **Set-CsExternalAccessPolicy** en la documentación de..
+    > La directiva de acceso externo global se aplica a la aplicación de grupo de respuesta. Puede configurar la directiva global para la federación de grupo de respuesta mediante el uso de Skype para el Panel de Control de servidor empresarial o mediante el cmdlet **Set-CsExternalAccessPolicy** para establecer el parámetro EnableOutsideAccess en True. Recuerde que la configuración de la directiva global se aplica a todos los usuarios, a menos que se les haya asignado una directiva de usuario o de sitio. Por lo tanto, antes de cambiar la configuración de los grupos de respuesta, asegúrese de que la configuración de la federación cumpla los requisitos de la organización. Para más información sobre la aplicación de las directivas a los usuarios, consulte [Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Para obtener información detallada acerca de la configuración de federación, consulte **Set-CsExternalAccessPolicy** en la documentación de..
 
     > [!NOTE]
     > Los usuarios que se hospedan en Skype para profesionales en línea no pueden realizar llamadas a grupos de respuesta que se hospedan en una implementación local. Esto es así en ambas implementaciones híbridas y en los casos donde una implementación local está asociada con un Skype para la implementación empresarial en línea.
@@ -410,7 +410,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 11. En **Nombre para mostrar**, escriba el nombre que desea mostrar para el flujo de trabajo (por ejemplo, Grupo de respuesta IVR de ventas).
 
     > [!NOTE]
-    > No incluya el "\<"o"\>" caracteres en el nombre para mostrar. No use los siguientes nombres para mostrar porque están reservados: Observador de presencia de RGS o Servicio de anuncio.
+    > No incluya el "\<"o"\>" caracteres en el nombre para mostrar. No use los siguientes nombres para mostrar porque están reservados: **RGS Presence Watcher** o **Announcement Service**.
 
 12. En **Número de teléfono**, escriba el URI de línea para el grupo de respuesta (por ejemplo, +14255550165).
 
@@ -422,7 +422,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 
     a. Escriba el URI del SIP de un administrador para este flujo de trabajo y haga clic en **Agregar**.
 
-    b. Escriba el URI del SIP de otros administradores para agregar al flujo de trabajo y haga clic en **Agregar**.
+    b. Escriba el URI del SIP de otros administradores que desee agregar al flujo de trabajo y haga clic en **Agregar**.
 
     > [!IMPORTANT]
     > A todos los usuarios designados como administradores de un grupo de respuestas se les asigna el rol CsResponseGroupManager. Los usuarios a los que no se haya asignado este rol no pueden administrar grupos de respuesta.
@@ -439,7 +439,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     - Para usar una grabación de archivos de Wave o Windows Media Audio para el mensaje de bienvenida, haga clic en **Seleccionar una grabación**. Si desea cargar un nuevo archivo de audio, haga clic en el vínculo de **una grabación**. En la nueva ventana de explorador, haga clic en **Examinar**, seleccione el archivo de audio que desea usar y haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
 
     > [!NOTE]
-    > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo compatibles, vea [Requisitos técnicos para grupos de respuesta](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+    > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener más información acerca de los formatos de archivo compatibles, consulte [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 18. En **Paso 4 Especificar horario comercial**, en el cuadro **Su zona horaria**, haga clic en la zona horaria del flujo de trabajo.
 
@@ -451,13 +451,13 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     - Para usar una programación predefinida de horario comercial, haga clic en **Usar una programación preestablecida** y después seleccione el horario que desea utilizar en la lista desplegable.
 
       > [!NOTE]
-      > Debe definir al menos una programación preestablecida previamente para poder seleccionar esta opción. Puede definir programaciones preestablecidas con el cmdlet **New-CSRgsHoursOfBusiness**. Para obtener información detallada, vea el [grupo de respuesta (opcional) definir el horario en Skype para la empresa](optional-define-response-group-business-hours.md). Cuando selecciona una programación preestablecida, **Día**, **Abrir** y **Cerrar** se rellenan automáticamente con los días y las horas en los que el grupo de respuesta se encuentra disponible.
+      > Debe definir al menos una programación preestablecida previamente para poder seleccionar esta opción. Definir programaciones preestablecidas mediante el cmdlet **New-CsRgsHoursOfBusiness** . Para obtener información detallada, vea el [grupo de respuesta (opcional) definir el horario en Skype para la empresa](optional-define-response-group-business-hours.md). Cuando selecciona una programación preestablecida, **Día**, **Abrir** y **Cerrar** se rellenan automáticamente con los días y las horas en los que el grupo de respuesta se encuentra disponible.
 
     - Para usar una programación personalizada que se aplique solo a este flujo de trabajo, haga clic en **Usar una programación personalizada**.
 
 20. Si está creando una programación personalizada para este flujo de trabajo, haga clic en las casillas correspondientes a los días de la semana durante los que se encuentra disponible el grupo de respuesta.
 
-21. Para crear una programación personalizada, escriba las horas de   **Abrir** y **Cerrar** en las que el grupo de respuesta se encuentra disponible.
+21. Si va a crear una programación personalizada, escriba las horas de **apertura** y de **cierre** cuándo estará disponible el grupo de respuesta.
 
      > [!NOTE]
      > Las horas de **Abrir** y **Cerrar** deben mostrarse en formato de 24 horas. Por ejemplo, si en su oficina se trabaja de 9 a 5 y se cierra al mediodía para el almuerzo, el horario comercial se especificará de la siguiente manera: **Abrir** 9:00, **Cerrar** 12:00, **Abrir** 13:00 y **Cerrar** 17:00.
@@ -472,17 +472,17 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     - Para usar una grabación en un archivo de audio para el mensaje, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea usar y después haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
 
     > [!NOTE]
-    > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo compatibles, vea [Requisitos técnicos para grupos de respuesta](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+    > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener más información acerca de los formatos de archivo compatibles, consulte [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 23. Especifique cómo abordar las llamadas tras la reproducción del mensaje (si se ha configurado uno):
 
     - Para desconectar la llamada, haga clic en **Desconectar llamada**.
 
-    - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y escriba la dirección de correo de voz. El formato de la dirección de correo de voz es * \<nombre de usuario\>*@ *\<domainname\> * (por ejemplo, bob@contoso.com).
+    - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y escriba la dirección de correo de voz. El formato de la dirección de correo de voz es * \<nombre de usuario\>*@*\<domainname\> * (por ejemplo, bob@contoso.com).
 
-    - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI del SIP** y escriba la dirección de usuario. El formato de la dirección del usuario es _ \<nombre de usuario\>_@ _\<domainname\>_.
+    - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI del SIP** y escriba la dirección de usuario. El formato de la dirección del usuario es _ \<nombre de usuario\>_@_\<domainname\>_.
 
-    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato del número de teléfono es * \<número\>*@ *\<domainname\> * (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
+    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato del número de teléfono es * \<número\>*@*\<domainname\> * (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
 
 24. En **Paso 5 Especificar vacaciones**, haga clic en las casillas para uno o más conjuntos de vacaciones que definan los días en los que el grupo de respuesta no esté laboralmente disponible.
 
@@ -499,17 +499,17 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     - Para usar una grabación en un archivo de audio para el mensaje, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea usar y después haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
 
       > [!NOTE]
-      > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo de audio compatibles, vea [Requisitos técnicos para grupos de respuesta](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener más información sobre los formatos de audio admitidos, consulte [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 26. Especifique cómo abordar las llamadas tras la reproducción del mensaje (si se ha configurado uno):
 
     - Para desconectar la llamada, haga clic en **Desconectar llamada**.
 
-    - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y escriba la dirección de correo de voz. El formato de la dirección de correo de voz es * \<nombre de usuario\>*@ *\<domainname\> * (por ejemplo, bob@contoso.com).
+    - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y escriba la dirección de correo de voz. El formato de la dirección de correo de voz es * \<nombre de usuario\>*@*\<domainname\> * (por ejemplo, bob@contoso.com).
 
-    - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI del SIP** y escriba la dirección de usuario. El formato de la dirección del usuario es _ \<nombre de usuario\>_@ _\<domainname\>_.
+    - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI del SIP** y escriba la dirección de usuario. El formato de la dirección del usuario es _ \<nombre de usuario\>_@_\<domainname\>_.
 
-    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato del número de teléfono es * \<número\>*@ *\<domainname\> * (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
+    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato del número de teléfono es * \<número\>*@*\<domainname\> * (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
 
 27. En **Paso 6 Configurar música en espera**, elija lo que desea que escuchen los autores de las llamadas mientras esperan a un agente con uno de los procedimientos siguientes:
 
@@ -518,7 +518,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     - Para usar una grabación de archivo de audio para la música en espera, haga clic en **Seleccionar un archivo de música**. Si desea cargar un nuevo archivo de audio, haga clic en el vínculo de   **un archivo de música**. En la nueva ventana de explorador, haga clic en **Examinar**, seleccione el archivo de audio que desea usar y haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
 
     > [!NOTE]
-    > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo compatibles, vea [Requisitos técnicos para grupos de respuesta](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+    > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener más información acerca de los formatos de archivo compatibles, consulte [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 28. En **Paso 7 Configurar una respuesta interactiva de voz**, en   **El usuario escuchará el siguiente texto o mensaje grabado**, especifique la pregunta que desea formular a los autores de las llamadas, como se indica a continuación:
 
@@ -533,7 +533,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     - Para usar un archivo de audio pregrabado que contiene la pregunta, haga clic en **Seleccionar una grabación** y en el vínculo **una grabación** para cargar el archivo. En la nueva ventana de explorador, haga clic en **Examinar**, seleccione el archivo de audio y haga clic en **Abrir**. Haga clic en **cargar** para cargar el archivo y, a continuación, opcionalmente, puede escribir la pregunta en el cuadro de texto (Esto permite que la pregunta y la respuesta del autor, se transfieran al agente encargado de responder).
 
       > [!NOTE]
-      > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener información detallada acerca de los formatos de archivo compatibles, vea [Requisitos técnicos para grupos de respuesta](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener más información acerca de los formatos de archivo compatibles, consulte [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 29. En **Respuesta 1**, especifique la primera respuesta posible a la pregunta con este procedimiento:
 
@@ -566,7 +566,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 3. Recupere el nombre de servicio del servicio Grupo de respuestas y asígnelo a una variable. En la línea de comandos, ejecute:
 
    ```
-   $serviceId="service:"+(Get-CSService | ?{$_.Applications -like "*RGS*"}) .ServiceId;
+   $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
 4. Un flujo de trabajo interactivo requiere dos o más colas y dos o más grupos de agentes. En primer lugar, cree los grupos de agentes. Ejecute:
@@ -639,7 +639,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     ```
 
      > [!NOTE]
-     > El rol CsResponseGroupManager debe asignarse a todos los usuarios que se designen como administradores de un grupo de respuesta. De lo contrario, no podrán administrar los grupos de respuestas.
+     > Todos los usuarios que se han designado como administrador de un grupo de respuesta se deben asignar el rol CsResponseGroupManager. De lo contrario, no podrán administrar los grupos de respuestas.
 
 ## <a name="see-also"></a>Vea también
 
