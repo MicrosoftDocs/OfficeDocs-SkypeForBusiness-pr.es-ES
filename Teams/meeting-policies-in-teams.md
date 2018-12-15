@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Obtenga información sobre cómo administrar la configuración de directivas en los equipos de la reunión.
-ms.openlocfilehash: 52efb73cb1d7774dcafe417c7a51ec7117daceec
-ms.sourcegitcommit: 2fee995f69e81ea67a93c1f6554f05815b21ff25
+ms.openlocfilehash: 03c983e98d5bcb349a7a2796ad59cb22c03e22bd
+ms.sourcegitcommit: a51d357069765b7d0956880da2ffd041533cfa57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2018
-ms.locfileid: "25348606"
+ms.lasthandoff: 12/15/2018
+ms.locfileid: "27283544"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar las directivas de reunión en los equipos
 
@@ -41,7 +41,7 @@ Las directivas de reunión se usan para controlar las características que está
    - **Permitir transcripción** Si desactiva esta, transcripción de la reunión estará disponible para los usuarios.
    - **Grabación de permitir en la nube** Activar esto le permitirá grabaciones van a guardar en la nube.
    - **Permitir IP vídeo** Activar esto le permitirá vídeos IP durante las reuniones.
-   - **[Próximamente]** **(KB) de velocidad de bits de medios** Puede establecer la velocidad de bits para las reuniones. El valor predeterminado es 50 MB.
+   - **(KB) de velocidad de bits de medios** Puede establecer la velocidad de bits para las reuniones. El valor predeterminado es 50 MB.
 
 <a name="bkcontentsharing"> </a>
 

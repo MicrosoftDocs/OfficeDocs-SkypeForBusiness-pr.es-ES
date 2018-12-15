@@ -1,5 +1,5 @@
 ---
-title: Administrar la configuración de reunión en Microsoft Teams
+title: Administrar la configuración de reuniones en Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,14 +15,14 @@ search.appverid: MET150
 f1keywords: ms.teamsadmincenter.meetingsettings.overview
 MS.collection: Teams_ITAdmin_Help
 description: Obtenga información sobre cómo administrar la configuración para las reuniones de los equipos que los usuarios programar en la organización.
-ms.openlocfilehash: bf7350d94f61fcbaff60dacb161d5096b8f549e7
-ms.sourcegitcommit: 72afa227b917f9fabd278fc7bea9d515b5d53def
+ms.openlocfilehash: 1e3415b1fd17a863e14a79fcc66b32e6749b39e7
+ms.sourcegitcommit: a51d357069765b7d0956880da2ffd041533cfa57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26671043"
+ms.lasthandoff: 12/15/2018
+ms.locfileid: "27283552"
 ---
-# <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de reunión en Microsoft Teams
+# <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de reuniones en Microsoft Teams
 
 Como administrador, usa la configuración de las reuniones de los equipos para controlar si los usuarios anónimos pueden participar en las reuniones de los equipos, personalizar las invitaciones a reuniones y si desea habilitar la calidad de servicio (QoS), definir puertos para el tráfico en tiempo real. Esta configuración aplica a todas las reuniones de los equipos que programación a los usuarios de la organización. Administrar estas opciones de configuración de **reuniones** > **configuración de reunión** en Microsoft Teams & Skype para el centro de administración de negocio. 
 
@@ -62,7 +62,7 @@ Puede personalizar las invitaciones a reuniones de los equipos para satisfacer l
     - **Pie de página** Escriba el texto que desea incluir como un pie de página. 
 3. Tiempo de espera una hora o lo propagar los cambios. A continuación, programar una reunión de los equipos para ver qué aspecto tiene la invitación a la reunión.  
 
-## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings-coming-soon"></a>Establecer cómo desea controlar el tráfico de medios en tiempo real para las reuniones de los equipos (próximamente) 
+## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>Establecer cómo desea controlar el tráfico de medios en tiempo real para las reuniones de los equipos
 Si se usa la calidad de servicio (QoS) para dar prioridad al tráfico de red, puede habilitar QoS marcadores y puede establecer los intervalos de puertos para cada tipo de tráfico de medios. 
 
  ![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) Uso de la Microsoft Teams & Skype para el centro de administración de negocio
