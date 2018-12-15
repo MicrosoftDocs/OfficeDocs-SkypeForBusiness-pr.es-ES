@@ -501,6 +501,9 @@
 #### [¿Qué son los operadores automáticos de Sistema telefónico?](what-are-phone-system-auto-attendants.md)
 #### [Responder a operador automático y las llamadas de cola de llamadas directamente desde los equipos](answer-auto-attendant-and-call-queue-calls.md)
 #### [Configurar teléfonos de área común en Microsoft Teams](set-up-common-area-phones.md)
+#### [Estacionamiento y recuperación](call-park-and-retrieve.md)
+#### [Uso compartido de llamada y el grupo de atención de llamadas](call-sharing-and-group-call-pickup.md)
+#### [Apariencia de línea compartida](shared-line-appearance.md)
 ### Enrutamiento directo de teléfono del sistema
 #### [Planear el enrutamiento directo](direct-routing-plan.md)
 #### [Configurar el enrutamiento directo](direct-routing-configure.md)
