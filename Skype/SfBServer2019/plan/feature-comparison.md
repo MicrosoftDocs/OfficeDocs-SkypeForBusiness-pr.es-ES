@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumen: Skype para Business Server 2019 o Skype para los administradores en línea de negocio puede usar estas tablas para comprender qué características son compatibles con los clientes que.'
-ms.openlocfilehash: 9d19920e16a6b9ffbeab0d1d3597fadf8a4a48b9
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c7933e37582314db431c14c99a188d4b962cadf7
+ms.sourcegitcommit: f69b5dbdbd61f77ffc0494886516effe35a0c338
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371323"
+ms.lasthandoff: 12/15/2018
+ms.locfileid: "27282597"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Comparación de características de cliente de escritorio de Skype para Business Server 2019
 
@@ -121,7 +121,7 @@ Para obtener información detallada, vea el [Skype para la descripción de servi
 |Compartir el escritorio (si se habilita)  |& #x 2714;|& #x 2714; & #x 2776; |& #x 2714; & #x 2776; (requiere un complemento) |& #x 2714;| & #x 2714;|
 |Compartir un programa (si se habilita) |& #x 2714;|Ver solamente   |& #x 2714;(requires plug-in)  |& #x 2714;|& #x 2714;|   
 |Agregar participantes anónimos (si se habilita) |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
-|Usar reuniones de audio de acceso telefónico local |& #x 2714; & #x 2777; |& #x 2714;|& #x 2714; & #x 2777; |& #x 2714;|& #x 2714; & #x 2777; |
+|Use las reuniones telefónico audioconferencias & #x 2777;|& #x 2714; |& #x 2714;|& #x 2714;  |& #x 2714;|& #x 2714;  |
 |Empezar una reunión de tipo Reunirse ahora|& #x 2714;|& #x 2714;||& #x 2714;|& #x 2714;|  
 |Agregar y presentar archivos de Microsoft PowerPoint |& #x 2714;| & #x 2778; Anotaciones no está disponibles   |& #x 2714;|& #x 2714;|& #x 2714;| 
 |Explorar archivos de Microsoft PowerPoint |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;| 
