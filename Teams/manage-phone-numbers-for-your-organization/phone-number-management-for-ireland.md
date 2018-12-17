@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo se obtienen y se administran los números de teléfono en Irlanda para Skype Empresarial Online y Microsoft Teams.
-ms.openlocfilehash: af194a4babcbdf87d589084d4a8f40d196fc1454
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: c8a38ca3f5c872e001784e52b8c2fbae07c26bbc
+ms.sourcegitcommit: 08ab8b02c717be65d79a945301518c3528184609
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013942"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "27292928"
 ---
 # <a name="phone-number-management-for-ireland"></a>Administración de números de teléfono para Irlanda
 
@@ -39,7 +39,7 @@ Para obtener más información, consulte [Administrar los números de teléfono 
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos**|
 |:-----|:-----|
-|Conseguir números de teléfono de usuario nuevos.  <br/> |En Irlanda, no se pueden conseguir números de teléfono para su organización mediante el Centro de administración de Skype Empresarial. Debe enviar una solicitud de número de teléfono nuevo. Descargue el formulario [Solicitud de número de teléfono nuevo para Irlanda (números geográficos) (v.3.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(geographic-numbers)-(v.3.0)-(en-us).pdf?raw=true), rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).  <br/> |
+|Conseguir números de teléfono de usuario nuevos.  <br/> |En Irlanda, no se pueden conseguir números de teléfono para su organización mediante el Centro de administración de Skype Empresarial. Debe enviar una solicitud de número de teléfono nuevo. Descargue el [nueva solicitud de número de teléfono para Irlanda (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.4.0)-(en-us).pdf?raw=true) rellenar lo y [enviarlo para nosotros](mailto:ptneu@microsoft.com).  <br/> |
 |Obtener números de teléfono de servicio nuevo que no se enumeran en la Skype para centro de administración de negocio. <br/> |Para los números de servicio fuera de los Estados Unidos, descargue [este formulario](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf?raw=true), rellenar lo y [enviarlo para nosotros](mailto:ptneu@microsoft.com).
 |Necesita transferirnos números de teléfono.  <br/> |Descargue uno de estos formularios: <br/> [Carta de autorización (LOA) para Irlanda (números geográficos) (v.3.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(geographic-numbers)-(v.1.0)-(en-us).pdf?raw=true) <br/> [Carta de autorización (LOA) para Irlanda (números no geográficos) (v.1.0)(en.us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(non-geographic-numbers)-(v.1.0)-(en-us).pdf?raw=true) <br/>  <br/>  Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).  <br/> |
 |Necesita publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de teléfono que quiere publicar o quitar de esta guía. <br/> |
@@ -53,7 +53,7 @@ Para obtener más información, consulte [Administrar los números de teléfono 
 
 [Términos y condiciones de las llamadas de emergencia](../emergency-calling-terms-and-conditions.md)
   
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
  
   
  
