@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
-ms.openlocfilehash: d37cf7561f2728dafa850aaa38d6e322fda7cfb9
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: cdc180c0caa8cfe581d02a206d9b13e255214bfd
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182483"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297891"
 ---
 # <a name="release-notes"></a>Notas de la versión 
 
@@ -26,6 +26,7 @@ Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
 
 | Versión | Publicado en <br>Almacén de Microsoft | 
 | ---     | ---  |
+| 4.0.64.0 | 14/12/2018   |
 | 4.0.51.0 | 17/11/2018   | 
 | 4.0.31.0 | 16/10/2018   | 
 | 4.0.27.0 |  1/10/2018    | 
@@ -49,6 +50,11 @@ Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Sistemas de salón de Skype v2 característica introducción y su resolución
+
+### <a name="40640-12142018"></a>4.0.64.0 (14/12/2018)
+Se introdujeron en esta actualización:
+- Mostrar el contenido en ambas front-sala de (muestra en los sistemas de la sala de pantalla dual para)
+- Creación de temas y front-sala de mejoras de la interfaz de usuario
 
 ### <a name="40510-11172018"></a>4.0.51.0 (17/11/2018)
 Se introdujeron en esta actualización:

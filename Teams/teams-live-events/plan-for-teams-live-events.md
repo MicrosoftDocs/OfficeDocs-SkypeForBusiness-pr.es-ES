@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Obtenga información sobre los factores a tener en cuenta antes de configurar los eventos en directo en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 590246808849b2cf25bdc0fb114352977973410f
-ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
+ms.openlocfilehash: e0c71258ee0285c4c00f69e63be1f2efbfc5e4ab
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "27156136"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297820"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -28,7 +28,7 @@ Al planear los equipos eventos en directo para incluir grandes reuniones de la o
 Los siguientes requisitos previos son necesarios para el usuario programar un evento en directo los equipos.
 
 Estas son las licencias que se deben asignar:  
-- Una licencia de Office 365 Enterprise E1, E3 o E5 o una licencia de Office 365 A3 o A5. 
+- Una licencia de Office 365 Enterprise E3 o E5 o una licencia de Office 365 A3 o A5. 
 - Un Microsoft Teams, Skype para la empresa y la licencia de Microsoft Stream.
 
 Es importante saber que se requiere una licencia de Office 365 para participar en un evento en directo como un usuario autenticado, pero esto depende del método de producción usado:

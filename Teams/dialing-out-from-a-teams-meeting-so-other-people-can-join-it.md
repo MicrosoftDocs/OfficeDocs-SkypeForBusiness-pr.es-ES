@@ -21,39 +21,44 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Aprenda todo lo que necesita y cómo los organizadores de reuniones pueden llamar a otras personas con Teams.
-ms.openlocfilehash: 7fe3cbdca38c04b498806d3bd05a4f7bef5ea290
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: adb4d9ae492c324937dbe552fc138933428cc466
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012740"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297794"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Llamar desde una reunión de Microsoft Teams para que otras personas puedan unirse
 
-Como organizador de la reunión, puede marcar con la aplicación de los equipos para permitir que otras personas a unirse a la reunión misma mediante su teléfono. Aunque no es necesario, cuando llama a alguien se recomienda que llame al número completo, incluido el código de región o país. Para llamar al trabajo:
+Como organizador de la reunión, puede marcar con la aplicación de los equipos para permitir que otras personas a unirse a la reunión misma mediante sus teléfonos.
+
+Cuando se llama a una persona, se recomienda que lo haga con sus números de teléfono completo (incluido el código de país o región).
   
-- Puede llamar solo si se une a una reunión con Teams.
-    
-- Como organizador de la reunión, se le ha habilitado para las audioconferencias.
+  Tenga en cuenta:
+
+- Puede marcar sólo si se une a una reunión mediante los equipos.
+- Usted, como el organizador de la reunión, se han habilitado para conferencias de audio.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
- **Paso 1:** En la reunión, use la opción **Agregar personas** ![botón Agregar personas](media/add-people-button.png) para llamar a un número de teléfono.
+Aquí es cómo sacar el marcado para que funcione:
+
+ **Paso 1:** En la reunión, use las **personas agregar** ![botón de agregar personas](media/add-people-button.png) opción Marcar un número de teléfono.
+ **Paso 2:** Escriba el número de teléfono completo, incluido el código de país o región en el cuadro **Invitar a alguien o marcar un número** .
   
-  
- **Paso 2:** Escriba el número de teléfono completo incluyendo el código del país o la región en el cuadro **Invite a alguien o marque un número**.
-  
-![Cuadro Invite a alguien o marque un número](media/invite-someone-box.png)
-  
-## <a name="supported-countries-and-regions"></a>Países y regiones compatibles
+![Invitar a alguien o un cuadro de número de marcado](media/invite-someone-box.png)
+    
+## <a name="supported-countries-and-regions"></a>Países y regiones admitidas
 
 Dial-out is only available to some countries/regions. Para obtener una lista completa, vea [disponibilidad de país y región para las conferencias de Audio y planes de llamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
-  
-## <a name="want-to-know-more-about-audio-conferencing"></a>¿Quiere saber más sobre la audioconferencia?
+
+## <a name="allow-users-to-dial-in"></a>Permitir a los usuarios acceso telefónico
+
+Si desea obtener instrucciones acerca de cómo permitir a los usuarios conectarse a una reunión de los equipos, vea [los números de teléfono para conferencias de Audio en los equipos de Microsoft](/Teams/phone-numbers-for-audio-conferencing-in-teams.md).
+
+## <a name="want-to-know-more-about-audio-conferencing"></a>¿Desea saber más sobre las conferencias de acceso telefónico local?
 
 [Probar o comprar Audioconferencia en Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
     
 [Licencias complementarias de Skype Empresarial y Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-    
-

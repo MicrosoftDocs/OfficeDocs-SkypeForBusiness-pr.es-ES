@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Servicio de migración (MMS) de la reunión es un Skype para servicio empresarial que se ejecuta en segundo plano y Skype se actualiza automáticamente para las reuniones de negocios y Microsoft Teams para los usuarios. MMS está diseñado para eliminar la necesidad de los usuarios ejecutar la herramienta de migración de la reunión para actualizar su Skype para las reuniones de negocios y Microsoft Teams.
-ms.openlocfilehash: b5484459fc01337bd9eb2dad38e9f0e3349abd07
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: aeb174110fec955d66850ad73a0c2dd9596fdfca
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674589"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297711"
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>Configuración del servicio de migración de reuniones (MMS)
 
@@ -168,10 +168,10 @@ Para obtener información detallada de todas las migraciones realizadas en un pe
 Get-CsMeetingMigrationStatus -StartTime "10/1/2016" -EndTime "10/8/2016"
 ```
 
-También puede interesarle comprobar el estado de la migración de un usuario concreto, para lo que puede usar el parámetro  `UserId`. Por ejemplo, el siguiente comando devolverá el estado del usuario ashaw@contoso.com:
+También puede interesarle comprobar el estado de la migración de un usuario concreto, para lo que puede usar el parámetro  `Identity`. Por ejemplo, el siguiente comando devolverá el estado del usuario ashaw@contoso.com:
   
 ```
-Get-CsMeetingMigrationStatus -UserId "ashaw@contoso.com"
+Get-CsMeetingMigrationStatus -Identity "ashaw@contoso.com"
 ```
 
 ### <a name="what-do-i-do-if-there-is-an-error"></a>¿Qué debo hacer si hay un error?
@@ -182,7 +182,7 @@ Si ejecuta el cmdlet  `Get-CsMeetingMigrationStatus` para obtener una vista de r
 1. Determine a qué usuarios afecta. Ejecute el siguiente comando para obtener la lista de usuarios afectados y el error concreto registrado:
     
    ```
-   Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table UserId,LastMessage
+   Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table Identity,LastMessage
    ```
 
 2. Ejecute la [Herramienta de migración de reuniones](https://go.microsoft.com/fwlink/p/?linkid=626047) para cada uno de estos usuarios, para migrar sus reuniones manualmente.

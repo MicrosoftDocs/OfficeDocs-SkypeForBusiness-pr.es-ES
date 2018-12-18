@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Obtenga información sobre cómo configurar el enrutamiento directo de Microsoft teléfono del sistema.
-ms.openlocfilehash: b56816d57b628c92e4c7f412b306ca1161021a66
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: cf856989cd4f87f4b46e1eb36cbeb403bf92b029
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240936"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297914"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -82,8 +82,8 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
   > [!NOTE]
   > 1. Se recomienda establecer un límite para el SBC, uso de la información que se encuentra en la documentación de SBC. El límite activará una notificación si SBC está en el nivel de capacidad.
   > 2. Sólo puede emparejar la SBC con FQDN, donde la parte del dominio del nombre coincide con uno de los dominios registrados en el inquilino, excepto \*. onmicrosoft.com. Uso de \*. omicrosoft.com los nombres de dominio no es compatible con los nombres de SBC FQDN. Por ejemplo, si tiene dos nombres de dominio:<br/><br/>
-  > .xyz **ABC**<br/>**ABC**. onmicrosoft.com<br/><br/>
-  > Para el nombre SBC, puede usar el nombre sbc.abc.xyz. Si se intenta emparejar la SBC con un nombre sbc.xyz.abc, el sistema no le, como el dominio no pertenece a este inquilino.
+  > **Contoso**.com<br/>**Contoso**. onmicrosoft.com<br/><br/>
+  > Para el nombre SBC, puede usar el nombre sbc.contoso.com. Si se intenta emparejar la SBC con un nombre sbc.contoso.abc, el sistema no le, como el dominio no pertenece a este inquilino.
 
 ```
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
@@ -310,7 +310,7 @@ En el ejemplo siguiente, puede ver el resultado de la ejecución del comando de 
 Para crear la ruta de "Redmond 1", escriba:
 
   ```
-  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^+1(425|206)
+  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
   (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
   ```
 
@@ -336,7 +336,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 Para crear la ruta de otra + 1, escriba:
 
 ```
-New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\\+1(\d{10})$"
+New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 -OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
 ```
 
@@ -377,7 +377,7 @@ Name            : Redmond 2
 Identity        : Other +1 
 Priority            : 4
 Description     : 
-NumberPattern       : ^\\+1(\d{10})$
+NumberPattern       : ^\+1(\d{10})$
 OnlinePstnUsages    : {US and Canada}    
 OnlinePstnGatewayList   : {sbc5.contoso.biz, sbc6.contoso.biz}
 Name            : Other +1
@@ -444,9 +444,9 @@ En la siguiente tabla se resume denominación de uso de enrutamiento directiva "
 
 |**Uso de RTC**|**Ruta de voz**|**Patrón de números**|**Prioridad**|**SBC**|**Descripción**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|NOSOTROS solo|"Redmond 1"|^ + 1 (425\|206)(\d{7})$|1|sbc1<span></span>. contoso.biz<br/>sbc2<span></span>. contoso.biz|Ruta activa para los números del destinatario de la llamada +1 425 XXX XX XX o +1 206 XXX XX XX|
-|NOSOTROS solo|"Redmond 2"|^ + 1 (425\|206)(\d{7})$|2|sbc3<span></span>. contoso.biz<br/>sbc4<span></span>. contoso.biz|Ruta de reserva para los números del destinatario de la llamada +1 425 XXX XX XX o +1 206 XXX XX XX|
-|NOSOTROS solo|"Otros + 1"|^ + 1 (\d{10}) $|3|sbc5<span></span>. contoso.biz<br/>sbc6<span></span>. contoso.biz|+ 1 XXX XXX XX XX (excepto +1 425 XXX XX XX o +1 206 XXX XX XX) los números de ruta para el destinatario de la llamada|
+|NOSOTROS solo|"Redmond 1"|^\\+ 1 (425\|206)(\d{7})$|1|sbc1<span></span>. contoso.biz<br/>sbc2<span></span>. contoso.biz|Ruta activa para los números del destinatario de la llamada +1 425 XXX XX XX o +1 206 XXX XX XX|
+|NOSOTROS solo|"Redmond 2"|^\\+ 1 (425\|206)(\d{7})$|2|sbc3<span></span>. contoso.biz<br/>sbc4<span></span>. contoso.biz|Ruta de reserva para los números del destinatario de la llamada +1 425 XXX XX XX o +1 206 XXX XX XX|
+|NOSOTROS solo|"Otros + 1"|^\\+ 1 (\d{10}) $|3|sbc5<span></span>. contoso.biz<br/>sbc6<span></span>. contoso.biz|+ 1 XXX XXX XX XX (excepto +1 425 XXX XX XX o +1 206 XXX XX XX) los números de ruta para el destinatario de la llamada|
 |International|International|\d+|4|sbc2<span></span>. contoso.biz<br/>sbc5<span></span>. contoso.biz|Ruta para cualquier patrón de número |
 
 

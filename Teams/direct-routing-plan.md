@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo enrutamiento directo de Microsoft teléfono del sistema le permite conectar un compatibles, proporcionado por el cliente sesión controlador de borde (SBC) para el sistema telefónico de Microsoft.
-ms.openlocfilehash: f5634a65d6648d34671c372bc20c2145abdbfc96
-ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
+ms.openlocfilehash: dbc3de5c6eb7a9f45be1165614cd14fcb2d6d8c9
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2018
-ms.locfileid: "27131313"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297884"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -147,7 +147,8 @@ El certificado debe ser generado por una de las siguientes entidades de certific
 - Entidad de certificación principal pública de clase 3
 - Entidad de certificación raíz de seguro de comodo
 - Marco alemán Telekom 
-- DigiCert de entidad de certificación raíz Global 
+- DigiCert de entidad de certificación raíz Global
+- Entidad de certificación raíz de DigiCert High Assurance EV
 - Entrust
 - GlobalSign
 - Go Daddy.

@@ -96,7 +96,7 @@
 
 
 <!-- ============================================================ -->
-# [Actualización de Skype para la empresa a los equipos](Journey-SkypeforBusiness-Teams.md)
+# [Actualización de Skype Empresarial a Microsoft Teams](Journey-SkypeforBusiness-Teams.md)
 ## [Tutorial: Recorrido desde Skype Empresarial a Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [Actualizar básico](upgrade-basic.md)
 ### [Encuestas y muestra mensajes de correo electrónico](upgrade-emails-surveys.md)
@@ -507,11 +507,13 @@
 ### Enrutamiento directo de teléfono del sistema
 #### [Planear el enrutamiento directo](direct-routing-plan.md)
 #### [Configurar el enrutamiento directo](direct-routing-configure.md)
-#### [Migración a enrutamiento directo](direct-routing-migrating.md)
+#### [Migrar a enrutamiento directo](direct-routing-migrating.md)
 #### [Supervisar y solucionar problemas de enrutamiento directo](direct-routing-monitor-and-troubleshoot.md)
 #### [Cuentas de usuario en un entorno híbrido con conectividad RTC](direct-routing-user-accounts-in-a-hybrid-environment.md)
 #### [Configurar un controlador de borde de sesión para varios inquilinos](direct-routing-sbc-multiple-tenants.md)
 #### [Lista de controladores de borde de sesión certificados para el enrutamiento directo](direct-routing-border-controllers.md)
+#### Referencia técnica para el enrutamiento directo
+##### [Conmutación por error de tronco en las llamadas salientes](direct-routing-trunk-failover-on-outbound-call.md)
 ### [Flujos de llamadas de los equipos de Microsoft Online](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 

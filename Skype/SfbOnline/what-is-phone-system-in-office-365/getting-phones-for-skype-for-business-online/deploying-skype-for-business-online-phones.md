@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Obtenga información sobre los pasos de implementación para obtener el firmware correcto, actualizarlo si es necesario, asignar licencias y configurar las opciones de Skype para teléfonos en línea de negocio
-ms.openlocfilehash: 809cec268ac2a086a01fc00cf043759a326a34f5
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: f036f2fa47c99d1ea206192c15c901fc9391c1ee
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531820"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297661"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Implementación de teléfonos de Skype Empresarial Online
 
@@ -39,7 +39,7 @@ En todos los tipos de empresas, tener un número de teléfono permite a los usua
 
 Antes de comenzar, es recomendable descargar las guías para administradores y los manuales de usuario de los teléfonos que proporciona el fabricante.
   
-- Para los teléfonos Polycom, vea la [Guía de implementación de Polycom] ((http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
+- Para los teléfonos Polycom, consulte la [Guía de implementación de Polycom](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
     
 - Para los teléfonos Yealink, vea [Skype Yealink for Business HD SIP teléfonos Solution](http://www.yealink.com/products_top_2.html).
     

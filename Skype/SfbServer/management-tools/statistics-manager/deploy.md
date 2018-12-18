@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Resumen: Lea este tema para obtener información sobre cómo implementar las estadísticas de administrador para Skype para Business Server.'
-ms.openlocfilehash: 2813b12dfda612374f1e10d4082d54ce46d88216
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: ef2dd51306dc2806161fc0c0d4b11087a2f466ea
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699426"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297702"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Implementar el Administrador de estadísticas de Skype para Business Server
  
@@ -302,8 +302,4 @@ Para obtener más información, consulte lo siguiente:
     
 - [Actualizar el Administrador de estadísticas de Skype para Business Server](upgrade.md)
     
-- [Solucionar problemas de administrador de estadísticas de Skype para Business Server](troubleshoot.md)
-    
-- [Blog del administrador de estadísticas de Skype Empresarial Server](https://blogs.technet.microsoft.com/skypestatsman/)
-    
-
+- [Solucionar problemas de administrador de estadísticas de Skype para Business Server](troubleshoot.md) ß

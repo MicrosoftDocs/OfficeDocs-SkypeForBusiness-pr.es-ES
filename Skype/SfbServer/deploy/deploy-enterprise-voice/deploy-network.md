@@ -13,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Crear o modificar regiones de red, sitios de red y asociar subredes de red en Skype para Business Server. Todas estas se usan para las características avanzadas de Enterprise Voice: desvío de medios, el control de admisión y enrutamiento basado en la ubicación de llamadas.'
-ms.openlocfilehash: c0f8f63c6141e2cb163abad66665eee2d83c181f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: fe6edf779d00b96918d8bf92ac7e749b9c003f15
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883911"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297652"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Implementar regiones de red, sitios y las subredes de Skype para la empresa
 
 Crear o modificar regiones de red, sitios de red y asociar subredes de red en Skype para Business Server. Todas estas se usan para las características avanzadas de Enterprise Voice: desvío de medios, el control de admisión y enrutamiento basado en la ubicación de llamadas.
 
-Las características avanzadas de Telefonía IP empresarial son [call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md) y [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Para todas estas características, es necesario crear regiones de red, sitios de red y subredes. Por ejemplo, todas estas características requieren que cada una de las subredes de la topología estén asociadas a un sitio de red específico, y cada uno de los sitios de red debe estar asociado a una región de red. Para obtener más información acerca de estos términos, vea [configuración de red para las características avanzadas de Enterprise Voice en Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
+Las características avanzadas de Telefonía IP empresarial son [call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md) y [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Para todas estas características, es necesario crear regiones de red, sitios de red y subredes. Por ejemplo, todas estas características requieren que cada una de las subredes de la topología estén asociadas a un sitio de red específico, y cada uno de los sitios de red debe estar asociado a una región de red. Para obtener más información acerca de estos términos, consulte [Network settings for the advanced Enterprise Voice features in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md).
 
 El control de admisión de llamadas y E9-1-1 tienen requisitos de configuración adicionales para los sitios de red:
 
@@ -260,7 +260,7 @@ Todas las direcciones IP públicas de los servidores perimetrales de audio y ví
 3. Ejecute el siguiente cmdlet para importar **subnet.csv**y, a continuación, almacenar su contenido en el almacén de administración de Lync Server:
 
    ```
-   import-csv subnet.csv | foreach {New-CsNetworkSubnet $_IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
+   import-csv subnet.csv | foreach {New-CsNetworkSubnet -Identity $_.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
    ```
 
 ### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-control-panel"></a>Para asociar una subred a un sitio de red mediante el uso de Skype para el Panel de Control de servidor empresarial
@@ -280,7 +280,7 @@ Todas las direcciones IP públicas de los servidores perimetrales de audio y ví
 7. Haga clic en **Id. de sitio de red** y seleccione el identificador de sitio del sitio al que agrega esta subred.
 
     > [!NOTE]
-    > Si todavía no ha creado sitios de red, esta lista estará vacía. Para obtener información detallada sobre el procedimiento, vea [creación o modificación de un sitio de red](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx). También puede recuperar los identificadores de sitio para la implementación mediante la ejecución del cmdlet **Get-CsNetworkSite** . Para obtener información detallada, vea el Skype para la documentación del Shell de administración de servidor empresarial.
+    > Si todavía no ha creado sitios de red, esta lista estará vacía. Para ver más detalles sobre el procedimiento, consulte [Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx). También puede recuperar los identificadores de sitio para la implementación mediante la ejecución del cmdlet **Get-CsNetworkSite** . Para obtener información detallada, vea el Skype para la documentación del Shell de administración de servidor empresarial.
 
 8. Si lo desea, haga clic en **Descripción** y escriba información adicional para describir esta subred.
 
@@ -314,7 +314,7 @@ Por ejemplo, si la lista de direcciones IP de la alerta especifica 10.121.248.22
 <a name="BKMK_AssociateSubnets"> </a>
 
 
-[Nueva CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
+[New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
 
 [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregion?view=skype-ps)
 
