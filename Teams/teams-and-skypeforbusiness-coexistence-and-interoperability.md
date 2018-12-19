@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2296d7eb423d1d268742be184e7e724e69dc0965
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: c70519fc328b74a6269d4ed767d9223b8deca83d
+ms.sourcegitcommit: bb4e7dec155dee358bec9d6e586730dae0b8f559
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201480"
+ms.lasthandoff: 12/19/2018
+ms.locfileid: "27371182"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de definición del proyecto] (media/upgrade-banner-project-definition.png "Fases de la actualización viaje, con especial hincapié en la fase de definición del proyecto")
 
@@ -51,7 +51,7 @@ De forma predeterminada, los usuarios pueden ejecutar los equipos junto con Skyp
 En este modo de coexistencia, denominado **Islas**, cada una de las aplicaciones cliente funciona como una isla separada. Skype para se comunica empresarial con Skype para la empresa y los equipos se comunica con los equipos. Los usuarios ejecutan a ambos clientes y pueden comunicarse de forma nativa en el cliente desde el que se inició la comunicación. Por lo tanto, no es necesario para la interoperabilidad en modo de **Islas** .
 
 > [!Tip]
-> Skype para profesionales en línea a los clientes de ruta de acceso recomendada es iniciar con el modo de **Islas** de forma predeterminada, saturación de adopción de la unidad en la organización y, a continuación, mover rápidamente a modo de **Sólo los equipos** . En local y híbrido clientes se beneficiarán de implementar el modo de **Skype para la empresa con la colaboración de equipos** próximo como punto de partida en lugar de islas y el progreso desde allí al modo de **Sólo los equipos** cuando esté lista para adoptar la organización Equipos. 
+> Skype para profesionales en línea a los clientes de ruta de acceso recomendada es iniciar con el modo de **Islas** de forma predeterminada, saturación de adopción de la unidad en la organización y, a continuación, mover rápidamente a modo de **Sólo los equipos** . En local y híbrido, los clientes pueden beneficiarse de implementar el modo de **Skype para la empresa con la colaboración de equipos** próximo como punto de partida en lugar de islas y el progreso desde allí al modo de **Sólo los equipos** cuando esté lista para adoptar la organización Equipos. 
 
 ### <a name="skype-for-business-only"></a>Skype para la empresa solo
 
