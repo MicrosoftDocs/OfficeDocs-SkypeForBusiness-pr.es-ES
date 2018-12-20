@@ -3,7 +3,7 @@ title: Planeación de gobierno de 365 de Microsoft - implementaciones GCC - Micr
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
-ms.date: 12/10/2018
+ms.date: 12/19/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -14,19 +14,19 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf9571a52d99e9993161b6de99a190bc9b675f78
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 978f9d6b298bb1376b236a883dad836d6e6b5860
+ms.sourcegitcommit: b4c7f2a0c5660610469fbb67e9810dd3fdcedbaa
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240913"
+ms.lasthandoff: 12/19/2018
+ms.locfileid: "27378580"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planeación de Microsoft 365 gobierno - implementaciones GCC
 
 Esta guía es para los profesionales de TI que están llevando a las implementaciones de Office 365 en federal de Estados Unidos, estado, las entidades de gobierno local, tribal o territoriales u otras entidades que controlan los datos que estén sujetos a reglamentaciones gubernamentales y los requisitos, donde el uso de Microsoft Gobierno 365 - GCC es adecuado para cumplir estos requisitos.
 
 > [!NOTE]
-> Si su organización ya tiene cumplen el gobierno de 365 Microsoft - requisitos de idoneidad GCC y para aplicar y se han aceptado en el programa, puede omitir los pasos 1 a 4 y vaya directamente al paso 5 para comenzar la implementación. 
+> Si su organización ya tiene cumplen el gobierno de 365 Microsoft - requisitos de idoneidad GCC y para aplicar y se han aceptado en el programa, puede omitir los pasos 1 y 2 y vaya directamente al paso 3. 
 
 ## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---gcc-and-meets-eligibility-requirements"></a>Paso 1. Determinar si la organización necesita Microsoft 365 gobierno - GCC y que cumpla los requisitos de idoneidad. 
 
@@ -46,16 +46,27 @@ La [Descripción del servicio de gobierno de Estados Unidos de Office 365](https
 > [!Tip]
 > Es posible que desee transferir las tablas de información en la descripción del servicio a un libro de Excel y agregue dos columnas: **pertinente para mi organización Y o N** y **satisfaga las necesidades de mi organización Y o N**. A continuación, puede revisar esta lista con sus compañeros para confirmar que este servicio satisface las necesidades de su organización.
 
-
 |    |     |
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decidir si Microsoft 365 gobierno - GCC es adecuada para su organización.</li><li>Confirme que la organización cumpla con los requisitos de idoneidad.</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Siguiente paso|<ul><li>Comprender las funciones proporcionadas por Microsoft 365 gobierno - GCC.</li></ul>|
 
 > [!Note]
 > Gobierno de Microsoft 365 - GCC sólo está disponible en los Estados Unidos. Los clientes de gobierno de los EE: no pueden elegir entre un número de [planes de gobierno de Office 365](https://products.office.com/en/government/compare-office-365-government-plans).
 
-## <a name="step-2-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Paso 2. Comprender las características que actualmente no están disponibles o deshabilitados de forma predeterminada. 
+
+## <a name="step-2-apply-for-microsoft-365-government---gcc"></a>Paso 2. Aplicar para Microsoft 365 gobierno - GCC
+
+Tener decidido que este servicio es el adecuado para su organización, iniciar el proceso de la [aplicación para este servicio aquí](https://products.office.com/government/eligibility-validation).
+
+## <a name="step-3-understand-microsoft-365-government---gcc-default-security-settings"></a>Paso 3. Descripción de Microsoft 365 gobierno - configuración de seguridad predeterminada GCC.
+
+Se recomienda que tenga tiempo para revisar detenidamente la [configuración de administración y seguridad](enable-features-office-365.md) antes de modificarlos y considere la posibilidad de impactos en cumplimiento antes de realizar cualquier cambio en la configuración de seguridad predeterminada.
+
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decidir si va modificar cualquiera del valor predeterminado de Microsoft 365 gobierno - configuración de seguridad GCC, resolver en primer lugar comprender el impacto de los cambios que es posible que realice.</li></ul> |
+
+## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Paso 4. Comprender las características que actualmente no están disponibles o deshabilitados de forma predeterminada. 
 
 Para dar cabida a los requisitos de nuestros clientes de nube de gobierno, existen algunas diferencias entre Microsoft 365 gobierno - GCC y planes de empresa. Hacer referencia a la tabla siguiente para ver las características que están disponibles.
 
@@ -77,7 +88,7 @@ Para dar cabida a los requisitos de nuestros clientes de nube de gobierno, exist
 | | Un canal de correo electrónico | No disponible |
 | | Agregar miembros | Disponible |
 | | Acceso de invitado | Disponible |
-| Reuniones. | Programar reunión | Disponible |
+| Reuniones | Programar reunión | Disponible |
 | | Unirse a la reunión | Disponible |
 | | Reunión de VoIP | Disponible |
 | | Compartir escritorio | Disponible |
@@ -115,7 +126,7 @@ Para dar cabida a los requisitos de nuestros clientes de nube de gobierno, exist
 | Archivos | Recientes | Disponible |
 | | Microsoft Teams | Disponible |
 | Almacén | Tienda de aplicaciones | En el trabajo pendiente del gobierno |
-| Buscar. | Mensajes | Disponible |
+| Buscar | Mensajes | Disponible |
 | | Personas | Disponible |
 | | Archivos | Disponible |
 | | Comandos de barra diagonal | Disponible |
@@ -126,27 +137,17 @@ Para dar cabida a los requisitos de nuestros clientes de nube de gobierno, exist
 | | eDiscovery | Disponible |
 
 
-
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decidir si el gobierno de 365 Microsoft - conjunto de características GCC cumple las necesidades de su organización.</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Siguiente paso|<ul><li>Comprender la configuración de seguridad predeterminada.</li></ul>|
-
-## <a name="step-3-understand-microsoft-365-government---gcc-default-security-settings"></a>Paso 3. Descripción de Microsoft 365 gobierno - configuración de seguridad predeterminada GCC.
-
-Se recomienda que tenga tiempo para revisar detenidamente la [configuración de administración y seguridad](enable-features-office-365.md) antes de modificarlos y considere la posibilidad de impactos en cumplimiento antes de realizar cualquier cambio en la configuración de seguridad predeterminada.
-
-|    |     |
-|-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decidir si va modificar cualquiera del valor predeterminado de Microsoft 365 gobierno - configuración de seguridad GCC, resolver en primer lugar comprender el impacto de los cambios que es posible que realice.</li></ul> |
-
-## <a name="step-4-apply-for-microsoft-365-government---gcc"></a>Paso 4. Aplicar para Microsoft 365 gobierno - GCC
-
-Tener decidido que este servicio es el adecuado para su organización, iniciar el proceso de la [aplicación para este servicio aquí](https://products.office.com/government/eligibility-validation).
+| ![](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decidir si el conjunto de características de los equipos cumple las necesidades de su organización.</li></ul> |
 
 ## <a name="step-5-plan-for-governance"></a>Paso 5. Plan de gobierno
 
 Determinar los requisitos para el gobierno y cómo puede cumplirlos. Para obtener más información, vaya a la [planeación de gobierno en los equipos](plan-teams-governance.md) .
+
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Determinar y documentar los requisitos de gobierno, siga las instrucciones en el [Plan de gobierno en los equipos](plan-teams-governance.md).</li></ul> |
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Paso 6. Implementación de los equipos para colaboración
 
