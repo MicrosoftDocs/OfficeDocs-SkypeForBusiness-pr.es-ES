@@ -488,6 +488,9 @@
 #### [¿Qué son los planes de marcado?](what-are-dial-plans.md)
 #### [Crear y administrar planes de marcado](create-and-manage-dial-plans.md)
 ### Sistema telefónico
+#### Teléfonos de los equipos
+##### [Teléfonos para equipos de Microsoft](phones-for-teams.md)
+##### [Comprar e implementación de teléfonos IP de los equipos de Microsoft](buying-and-deploying-teams-ip-phones.md)
 #### [¿Qué es Sistema telefónico en Office 365?](what-is-phone-system-in-office-365.md)
 #### [Configuración del sistema telefónico en su organización](setting-up-your-phone-system.md)
 #### [Cambiar el idioma predeterminado en los saludos del buzón de voz y los correos electrónicos](change-the-default-language-for-greetings-and-emails.md)

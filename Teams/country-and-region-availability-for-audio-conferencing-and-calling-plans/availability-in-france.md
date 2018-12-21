@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Francia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: d1956b9970a84ee9e1e66e6f745a29a0de04d354
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 4845b612b3a1316f8d7ac3da527ae118c6d6681c
+ms.sourcegitcommit: b67c2cb5ffd6d27cc9257c5e81ee1ea494ef8bd1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674789"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "27382665"
 ---
 # <a name="availability-in-france"></a>Disponibilidad en Francia
 
@@ -62,7 +62,7 @@ Aquí están disponibles para Francia los servicios de Office 365 para Skype par
 |:-----|:-----|
 |¿Los planes de llamada están disponibles para la compra?  <br/> |Sí  <br/> |
 |Minutos disponibles para llamar a los planes. |Hay cuatro opciones de plan disponibles por mes del calendario: <ul><li>120 minuto al llamar a planear nacionales </li><li>240 minuto al llamar a planear nacionales</li></li><li>1200 minuto al llamar a planear nacionales </li></li><li>Nacionales y llamar a planear internacional: 1200 minutos de minutos de OR 600 nacionales de las llamadas internacionales (lo que se alcance primero en el mes del calendario)</li></li> 
-|¿Puede realizar llamadas salientes a los números de premium? <br/> | Sí, totalmente compatibles en este momento. <br/> |
+|¿Puede realizar llamadas salientes a los números de francés premium? <br/> | Sí, totalmente compatibles cuando se usa Communications créditos pagando por minuto. <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
