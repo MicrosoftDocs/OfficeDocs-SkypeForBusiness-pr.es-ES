@@ -7,12 +7,12 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skypeforbusiness-server-itpro
 description: En este tema, se explica qué debe tener en cuenta cuando decida migrar su Skype existente para las implementaciones Business Server o Exchange Server a la versión más reciente o a Skype para profesionales Online o Exchange Online.
-ms.openlocfilehash: 64d489a944e7b56315e4b600893b46f5c1cc3355
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: ce3078b7a1e877422eb66040c3fa3a8b0e4fbdae
+ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699291"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "27382843"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Planeación de Skype para migración Business Server y Exchange Server
 
@@ -51,7 +51,7 @@ Se admiten los siguientes escenarios que permiten migrar los usuarios a Exchange
 - Exchange 2013/Exchange 2016 y Skype para Business Server 2015 para Exchange 2019 y Skype para Business Server 2019
 - Skype para Business Server 2015 para Skype para Business Server 2019 con Exchange 2013/Exchange 2016
 
-Los siguientes escenarios requieren que no hay configuraciones de PBX o SBC existen como parte de su implementación actual y se suponen que ha configurado en sus servidores de Exchange local de mensajería unificada. Cada una de estas soluciones también se da por supuesto que se haya decidido configurar una implementación híbrida entre su Skype local para servidores empresariales y Office 365. Para obtener más información acerca de Skype para las implementaciones híbridas de negocio, vea [Skype para soluciones híbridas de negocio](hybrid-solutions.md).
+Los siguientes escenarios requieren que no hay configuraciones de PBX o SBC existen como parte de su implementación actual y se suponen que ha configurado en sus servidores de Exchange local de mensajería unificada. Cada una de estas soluciones también se da por supuesto que se haya decidido configurar una implementación híbrida entre su Skype local para servidores empresariales y Office 365. Para obtener más información acerca de Skype para las implementaciones híbridas de negocio, vea [Planear la conectividad híbrida](plan-hybrid-connectivity.md).
 
 ### <a name="exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019"></a>Exchange 2013/Exchange 2016 y Skype para 2015 empresarial para Exchange 2019 y Skype para 2019 empresarial
 

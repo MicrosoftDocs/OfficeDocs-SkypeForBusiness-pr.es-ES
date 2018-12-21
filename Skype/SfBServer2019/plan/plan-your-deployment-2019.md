@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Resumen: Explore estos vínculos a información sobre cómo desarrollar conceptuales, lógicos y físicos diseños para configurar Skype para las características, servidores y topologías de Business Server 2019.'
-ms.openlocfilehash: 83b406401d377d8ffd4b46aee3a5264273bb142b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 4ddaeac0f0e06c8e11e7a98dc46755c907b2937f
+ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531298"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "27382850"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>Plan para su Skype para la implementación empresarial Server 2019
  
@@ -49,8 +49,7 @@ Los siguientes artículos acerca de cómo planear Skype para Business Server est
 |**[Plan para la integración de Skype Empresarial y Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)** <br/><br/>¿La organización implementar Exchange Server y Skype para Business Server? Si es así, lea acerca de cómo puede integrar características de ambos productos. Por ejemplo, información de presencia y archivado de datos.   |**[Planificar los clientes y los dispositivos](../../SfbServer/plan-your-deployment/clients-and-devices/clients-and-devices.md)** <br/><br/>Skype para Business Server admite una colección de interfaces de cliente que puede implementar para los usuarios de su organización. Diseño exhaustivo garantiza que los empleados obtengan lo que necesitan y que tienen a su disposición Skype para la empresa es cualquier lugar donde se.   |
 |**[Plan para las implementaciones de servidor perimetral de Skype para Business Server](../../SfbServer/plan-your-deployment/edge-server-deployments/edge-server-deployments.md)** <br/><br/> ¿La organización comunicarse con usuarios de fuera de la red interna? Si es así, lea acerca de cómo se puede implementar servidor perimetral para admitir comunicaciones a través de firewall de la organización.   |**[Planeación de alta disponibilidad y recuperación ante desastres en Skype para Business Server](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)** <br/><br/>Alta disponibilidad hace referencia a asegurándose de que Skype para servicios de Business Server están disponibles incluso si uno o más servidores deja de funcionar. La recuperación ante desastres se basa en preservar los servicios en caso de que ocurra un desastre natural o un error humano, intentando resguardar la mayor cantidad de datos que sea posible. Lea los temas de esta sección para planear una alta disponibilidad y recuperación ante desastres.   |
 |**[Planeación de conferencia en Skype para Business Server](../../SfbServer/plan-your-deployment/conferencing/conferencing.md)** <br/><br/> ¿Cuáles son los requisitos de conferencia para su organización? Lea acerca de la conferencia web, o conferencia A/v y las características de conferencia de acceso telefónico y requisitos.   |**[Planear la seguridad en Skype para Business Server](../../SfbServer/plan-your-deployment/security/security.md)** <br/><br/>Busque recursos acerca de la autenticación de usuario, autenticación de servidor a servidor y autenticación de la aplicación que le ayudarán a comprender y planear la autenticación en Skype para Business Server.   |
-|**[Skype para soluciones híbridas de negocio](../hybrid/hybrid-solutions.md)**  <br/><br/>¿Tiene usuarios que están hospedados en local Skype para Business Server y Skype para profesionales en línea? Si es así, lea acerca de cómo configurar una implementación híbrida que sincroniza los usuarios en línea y local a través de un solo dominio.   ||
-|||
+|**[Planeación de la conectividad híbrida](../hybrid/plan-hybrid-connectivity.md)**  <br/><br/>¿Tiene usuarios que están hospedados en local Skype para Business Server y Skype para profesionales en línea? Si es así, lea acerca de cómo configurar una implementación híbrida que sincroniza los usuarios en línea y local a través de un solo dominio.   
    
 ## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Recursos adicionales sobre la planeación de Skype para Business Server
 
