@@ -1,5 +1,5 @@
 ---
-title: Configuración del servicio de migración de reuniones (MMS)
+title: Uso del servicio de migración de reunión (MMS)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,281 +20,192 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Servicio de migración (MMS) de la reunión es un Skype para servicio empresarial que se ejecuta en segundo plano y Skype se actualiza automáticamente para las reuniones de negocios y Microsoft Teams para los usuarios. MMS está diseñado para eliminar la necesidad de los usuarios ejecutar la herramienta de migración de la reunión para actualizar su Skype para las reuniones de negocios y Microsoft Teams.
-ms.openlocfilehash: aeb174110fec955d66850ad73a0c2dd9596fdfca
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+description: Servicio de migración (MMS) de la reunión es un servicio que se ejecuta en segundo plano y Skype se actualiza automáticamente para las reuniones de negocios y Microsoft Teams para los usuarios. MMS está diseñado para eliminar la necesidad de los usuarios ejecutar la herramienta de migración de la reunión para actualizar su Skype para las reuniones de negocios y Microsoft Teams.
+ms.openlocfilehash: 5b01dfc0c50ecb742e049905c81a418007ea3600
+ms.sourcegitcommit: d00b85ace80af0403efb85b71e5bcc66e76f837b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297711"
+ms.lasthandoff: 12/22/2018
+ms.locfileid: "27411119"
 ---
-# <a name="setting-up-the-meeting-migration-service-mms"></a>Configuración del servicio de migración de reuniones (MMS)
+# <a name="using-the-meeting-migration-service-mms"></a>Uso del servicio de migración de reunión (MMS)
 
-Servicio de migración (MMS) de la reunión es un Skype para servicio empresarial que se ejecuta en segundo plano y Skype se actualiza automáticamente para las reuniones de negocios y Microsoft Teams para los usuarios. MMS está diseñado para eliminar la necesidad de los usuarios ejecutar la herramienta de migración de la reunión para actualizar su Skype para las reuniones de negocios y Microsoft Teams.  Esta herramienta no migra reuniones de Skype for Business a reuniones de Microsoft Teams.  
-  
- **Requisitos**
-  
-MMS requiere que los buzones de los organizadores de las reuniones estén en Exchange Online.
-  
- **Escenarios principales**
-  
-MMS actualiza las reuniones de Skype de un usuario en los siguientes dos escenarios principales:
-  
-- Cuando el usuario se migra de Skype local para Business Server a Skype para profesionales en línea.
-    
-- Cuando un administrador realiza un cambio en la configuración del usuario conferencias de audio que sería necesario actualizar la información de conferencia de audio en las reuniones de dicho usuario.
-    
-  **Escenarios comunes en los que no puede usar MMS**
-  
-Estos son algunos de los escenarios comunes con los que puede encontrarse. Todos son escenarios admitidos para la migración, aunque en ellos no se puede ejecutar MMS y tendrá que usar en su lugar la [Herramienta de migración de reuniones](https://go.microsoft.com/fwlink/p/?linkid=626047).
-  
-- Los buzones de los usuarios están en un servidor de Exchange local.
-    
-- Uso de un proveedor de conferencia de audio de terceros
-    
-- Migración de usuarios de Skype para empresarial en línea para el servidor local Skype
-    
-## <a name="updating-meetings-when-an-on-premises-user-is-migrated-to-skype-for-business-online"></a>Actualización de reuniones cuando se migra un usuario local a Skype Empresarial Online
+El servicio de migración de reunión (MMS) es el servicio que actualiza las reuniones existentes de un usuario en los siguientes escenarios:
 
-Este es el escenario más común en el que MMS puede simplificar la transición a sus usuarios. Cuando un usuario se migra desde una Skype local para Business Server a Skype para profesionales en línea, MMS detectará el nuevo usuario y calendario de dicho usuario se analizará en busca de Skype para las reuniones de negocios y Microsoft Teams. Las reuniones futuras se actualizará con la nueva información de dicho usuario.
-  
-### <a name="if-youre-currently-using-skype-server-2015-for-audio-conferencing"></a>Si está utilizando actualmente el servidor 2015 de Skype para conferencias de audio
+- Cuando un usuario se migra desde local a la nube (si va a Skype para profesionales en línea o TeamsOnly).
+- Cuando un administrador realiza un cambio a la configuración del usuario conferencias de audio 
+- Cuando un usuario se actualiza a modo de TeamsOnly (sólo para clientes de programa de adopción de tecnología [Puntee en])
 
-Le invitamos a seguir los procedimientos recomendados indicados a continuación para obtener la mejor experiencia con MMS en este escenario:
-  
-- Dado que MMS requiere que el buzón del usuario se encuentre en Exchange Online, si también va a realizar la migración desde un servidor de Exchange local, mueva el buzón del usuario a Exchange Online en primer lugar.
-    
-- Asignar la licencia de **Conferencias de Audio** al usuario antes de ejecutar el `Move-CSUser` cmdlet para migrar el usuario. Esto es debido a que MMS también actualiza las reuniones cuando se cambia la configuración de conferencia de audio para un usuario. Si no asigna la licencia en primer lugar, MMS actualizará todas las reuniones de nuevo cuando la asigne.
-    
-### <a name="if-youre-currently-using-a-third-party-audio-conferencing-provider-acp"></a>Si utiliza un proveedor de servicios de audioconferencia (ACP) de terceros
-
-Con un ACP de terceros, o si no se ejecuta MMS depende de configuración de conferencia de audio de la organización. Puede elegir reemplazar automáticamente los números de acceso telefónico desde su ACP cuando se asigna a un usuario una licencia de **Conferencias de Audio** . También es posible que deba evitar que esto suceda y que necesite conservar los números de acceso telefónico local de su ACP. Para ver la configuración de la organización, ejecute el siguiente comando de Windows PowerShell y comprobar el valor del parámetro `AutomaticallyReplaceAcpProvider`. Si necesita ayuda con PowerShell, consulte la sección [Usar PowerShell para administrar su organización de Skype Empresarial](setting-up-the-meeting-migration-service-mms.md#WPSInfo) al final de este artículo.
-  
-```
-Get-CsOnlineDialInConferencingTenantSettings
-```
-
-- Si el valor de este parámetro es $true, MMS va a ejecutar cuando un usuario se le asigna una licencia de **Conferencias de Audio** y actualizar sus reuniones. Los números de acceso telefónico desde su ACP se conservan hasta que se asigna la licencia de **Conferencias de Audio** .
-    
-- Si el valor de este parámetro es $false, a continuación, MMS no actualizarán las reuniones incluso si un usuario se le asigna una licencia de **Conferencias de Audio** . Los números de acceso telefónico desde su ACP se conservan hasta que el usuario está configurado manualmente para conferencias de audio en Skype para el centro de administración de negocio o con Windows PowerShell.
-    
-## <a name="updating-meetings-when-a-users-audio-conferencing-settings-change"></a>Actualización de reuniones cuando cambie la configuración de conferencia de audio de un usuario
-
-MMS actualizará un Skype existente para las reuniones de negocios y Microsoft Teams en los siguientes casos:
-  
-- Al asignar o quitar la licencia de **Conferencias de Audio** .
-    
-- Al habilitar o deshabilitar conferencias de audio.
-    
-- Al cambiar o restablecer el identificador de conferencia para un usuario configurado para usar reuniones públicas.
-    
-- Cuando el usuario se mueve a un nuevo puente de conferencia de audio.
-    
-- Cuando un número de teléfono es sin asignar de un puente de conferencia de audio. Este es un escenario complejo que requiere pasos adicionales. Para obtener más información, vea [cambiar el teléfono de pago o gratuito números de teléfono de pago en el puente de conferencia de Audio](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
-    
-> [!IMPORTANT]
-> MMS solo actualiza las reuniones si se utiliza el puente de Microsoft. Si usa un proveedor de conferencia de audio de terceros, los usuarios será necesario actualizar sus reuniones manualmente. En este caso, puede usar la [Herramienta de migración de reuniones](https://go.microsoft.com/fwlink/p/?linkid=626047). 
-  
-No todos los cambios a la configuración de conferencia de audio de un usuario desencadenan MMS. Concretamente, los siguientes cambios no provocan que MMS actualice las reuniones:
-  
-- Cuando cambia la dirección SIP del organizador de la reunión (tanto el nombre de usuario SIP como el dominio SIP).
-    
-- Cuando cambia la URL de una reunión de su organización mediante el comando [Update-CsTenantMeetingUrl](https://go.microsoft.com/fwlink/p/?linkid=836442).
-    
-## <a name="what-happens-when-mms-updates-meetings"></a>¿Qué sucede cuando MMS actualiza las reuniones?
-
-Cuando MMS detecta que es necesario actualizar las reuniones de un usuario, realiza lo siguiente:
-  
-1. Identificar todos los Skype para profesionales y Microsoft Teams las reuniones que el usuario ha programado en el futuro
-    
-   - Se pasan por alto cualquier Skype para las reuniones de negocios o Teams de Microsoft que se produjo antes de cuando se ejecuta MMS
-    
-   - Solo se actualizan las reuniones en las que el usuario es el organizador.
-    
-2. Sustituye el bloque de información de la reunión en línea en los detalles de la reunión.
-    
-3. Envía actualizaciones a todos los destinatarios de la reunión en nombre del organizador.
-    
-   **¿Cuánto tardará MMS en completar la operación?**
-  
-La cantidad de tiempo que tarda para que MMS migrar las reuniones varía en función de cuántos usuarios se ven afectados y el número total de Skype para reuniones profesionales o Teams de Microsoft, que cada usuario tiene en su calendario. Como mínimo, requerirá diez minutos. Aunque algunas migraciones de gran tamaño pueden llevar hasta 12 horas, la mayoría se completan en una hora.
-  
- **Limitaciones y problemas potenciales**
-  
-- Se migran sólo el Skype para las reuniones de negocios o Teams de Microsoft que se han programado haciendo clic en el botón **Agregar Skype reunión** en Outlook en el Web o mediante el complemento de reunión de Skype para Outlook. En otras palabras, si un usuario copia y pega la información de una reunión en línea de Skype en otra nueva, la nueva reunión no se actualizará.
-    
-- Cuando migra una reunión, MMS sustituye todo el contenido del bloque de información de la reunión en línea. Por lo tanto, si el usuario ha editado ese bloque, los cambios se sobrescriben. No se verá afectado por esta acción ningún contenido que el usuario tenga en los detalles de la reunión, fuera del bloque de información de la reunión en línea.
-    
-     ![El bloque de reunión que MMS actualiza](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
-  
-- El contenido que se haya creado o adjuntado a la reunión (pizarras, sondeos, etc.) no se conservará tras la ejecución de MMS. Si sus organizadores de reuniones adjuntaron contenido a las reuniones antes de la ejecución de MMS, será necesario volver a crear el contenido una vez finalizada la operación.
-    
-- También se sobrescribirá el vínculo a las notas de la reunión compartidas en el elemento de calendario y en la reunión de Skype. Tenga en cuenta que las notas de la reunión almacenadas en OneNote no se perderán, solo se sobrescribe el vínculo que conduce a las notas compartidas.
-    
-- Las reuniones que tengan más de 250 participantes (incluido el organizador) no se migrarán.
-    
-- Algunos caracteres UNICODE del cuerpo de la invitación se pueden actualizar de forma incorrecta y mostrar uno de los siguientes caracteres especiales: ï, ¿, ½, �.
-    
-### <a name="what-will-the-users-see-when-mms-updates-their-meetings"></a>¿Qué verán los usuarios cuando MMS actualice sus reuniones?
-
-Al igual que la Herramienta de migración de reuniones, MMS envía las actualizaciones de reuniones en nombre de los usuarios. Por lo tanto, lo único que verán los usuarios es otra ronda de notificaciones de aceptación de reunión para sus reuniones. Esto puede resultar confusa para los usuarios, por lo que recomendamos que notifique a los usuarios por adelantado no sólo cuando se migran ellos de local a Skype para profesionales en línea, pero también cuando se realizan cambios de conferencias de audio que activará MMS.
-  
-## <a name="managing-mms"></a>Administrar MMS
-
-Debe usar Windows PowerShell para administrar MMS y compruebe el estado de las migraciones continuadas. La información de esta sección asume que está familiarizado con el uso de PowerShell para administrar su organización de Skype Empresarial. Si está familiarizado con PowerShell, vea la sección [Uso de PowerShell para administrar su Skype para organización empresarial](setting-up-the-meeting-migration-service-mms.md#WPSInfo) al final de este artículo.
+De forma predeterminada, MMS se activa automáticamente en cada uno de estos casos, aunque los administradores pueden deshabilitar en el nivel de inquilino. Además, los administradores pueden utilizar un cmdlet de PowerShell para activar manualmente la migración de la reunión para un usuario determinado.
 
 > [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-  
-### <a name="how-do-i-check-the-status-of-meeting-migrations"></a>¿Cómo compruebo el estado de las migraciones de las reuniones?
+> La capacidad para convertir Skype para reuniones de negocios a las reuniones de los equipos y la capacidad para actualizar las reuniones de los equipos existentes para modificar la configuración de conferencias de audio está actualmente limitado a TAP únicamente para los clientes.
 
-Debe usar el cmdlet  `Get-CsMeetingMigrationStatus` para comprobar el estado de las migraciones de las reuniones. A continuación puede ver algunos ejemplos.
-  
-Para obtener un resumen del estado de todas las migraciones de MMS, ejecute el siguiente comando:
-  
-```
-Get-CsMeetingMigrationStatus -SummaryOnly
-```
+**Limitaciones**: la reunión no se puede utilizar el servicio de migración si cualquiera de las condiciones siguientes:
 
-De este modo obtendrá una vista en forma de tabla de todos los estados de migración similar a esta:
-  
-Estado UserCount---------------<br/> 21 pendientes<br/>6 en curso<br/> 2 con errores <br/> 131 correctas
-> [!IMPORTANT]
-> Si ve alguna migración que haya dado error, solucione los problemas cuanto antes. Nadie podrá acceder mediante acceso telefónico local a las reuniones organizadas por estos usuarios hasta que lo haga. Consulte la sección [¿Qué debo hacer si hay un error?](setting-up-the-meeting-migration-service-mms.md#Troubleshooting) para obtener más información.
-  
-Para obtener información detallada de todas las migraciones realizadas en un período de tiempo específico puede usar los parámetros  `StartTime` y `EndTime`. Por ejemplo, el siguiente comando devolverá información detallada sobre todas las migraciones realizadas entre el 1 de octubre de 2016 y el 8 de octubre de 2016.
-  
-```
-Get-CsMeetingMigrationStatus -StartTime "10/1/2016" -EndTime "10/8/2016"
-```
+- El buzón del usuario se hospeda en Exchange local.
+- El usuario está configurado para usar un proveedor de conferencia de audio de terceros. Tenga en cuenta que soporte técnico del proveedor de servicios [ACP] de conferencias de audio está programada para el final del ciclo de vida en el 1 de abril de 2019 como [anunciado previamente](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers).
+- El usuario se están migrando desde la nube a Skype para Business Server local.
 
-También puede interesarle comprobar el estado de la migración de un usuario concreto, para lo que puede usar el parámetro  `Identity`. Por ejemplo, el siguiente comando devolverá el estado del usuario ashaw@contoso.com:
-  
-```
-Get-CsMeetingMigrationStatus -Identity "ashaw@contoso.com"
-```
+En estas situaciones, los usuarios finales puede usar la [Herramienta de migración de reunión](https://www.microsoft.com/en-us/download/details.aspx?id=51659) para migrar sus propias reuniones en su lugar.
 
-### <a name="what-do-i-do-if-there-is-an-error"></a>¿Qué debo hacer si hay un error?
-<a name="Troubleshooting"> </a>
+## <a name="how-mms-works"></a>Cómo funciona la MMS
 
-Si ejecuta el cmdlet  `Get-CsMeetingMigrationStatus` para obtener una vista de resumen y advierte que hay migraciones con el estado Con erroresesto es lo que tiene que hacer:
-  
+Cuando se desencadena MMS para un usuario determinado, una solicitud de migración para que el usuario se coloca en una cola. Para evitar las condiciones de carrera, deliberadamente, no se procesa la solicitud en cola hasta que se han pasado al menos 90 minutos. Una vez MMS procesa la solicitud, realiza las tareas siguientes:
+
+1. Busca en el buzón de ese usuario para todas las reuniones organizadas por ese usuario y programadas en el futuro.
+2. En función de la información que se encuentran en el buzón del usuario, que actualiza o programa reuniones nuevo en los equipos o Skype para empresarial en línea para dicho usuario, según el caso concreto.
+3. En el mensaje de correo electrónico, reemplaza el bloque de reunión en línea en los detalles de la reunión.
+4. La versión actualizada de la reunión envía a todos los destinatarios de la reunión en nombre del organizador de la reunión. Los invitados de la reunión recibirán una actualización de la reunión con las coordenadas de la reunión actualizada en su correo electrónico. 
+
+    ![El bloque de reunión que MMS actualiza](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
+
+Desde el momento en que se desencadena MMS, normalmente se tarda aproximadamente 2 horas hasta que se migran las reuniones del usuario. Sin embargo, si el usuario tiene un gran número de las reuniones, puede tardar más tiempo. Si MMS encuentra un error en la migración de una o más reuniones para el usuario, reintentará periódicamente hasta 9 veces en el intervalo de 24 horas.
+
+**Notas**:
+
+- Cuando migra una reunión, MMS sustituye todo el contenido del bloque de información de la reunión en línea. Por lo tanto, si el usuario ha editado ese bloque, los cambios se sobrescriben. No se verá afectado por esta acción ningún contenido que el usuario tenga en los detalles de la reunión, fuera del bloque de información de la reunión en línea.
+- Se migran sólo el Skype para las reuniones de negocios o Teams de Microsoft que se han programado haciendo clic en el botón **Agregar Skype reunión** en Outlook en el Web o mediante el complemento de reunión de Skype para Outlook. Si un usuario copia y pega la información de la reunión en línea de Skype de una reunión a una nueva reunión, dicha reunión nueva no se actualizan porque no hay ninguna reunión en el servicio original.
+- No se conserva el contenido que se ha creado o adjunto a la reunión (pizarras, sondeos y así sucesivamente) de la reunión después de que se ejecuta MMS. Si sus organizadores de reuniones adjuntaron contenido a las reuniones antes de la ejecución de MMS, será necesario volver a crear el contenido una vez finalizada la operación.
+- También se sobrescribirá el vínculo a las notas de la reunión compartidas en el elemento de calendario y en la reunión de Skype. Tenga en cuenta que las notas de la reunión real almacenadas en OneNote seguirá estar allí; es solo el vínculo a las notas compartidas se sobrescribe.
+- Las reuniones que tengan más de 250 participantes (incluido el organizador) no se migrarán.
+- Es posible que se actualizan correctamente algunos caracteres UNICODE en el cuerpo de la invitación a uno de los siguientes caracteres especiales: ï, ø, ½,.
+
+## <a name="triggering-mms-for-a-user"></a>Desencadenar MMS para un usuario
+
+En esta sección se describe lo que sucede cuando se desencadena MMS en cada uno de los siguientes casos:
+
+- Cuando un usuario se migra desde local a la nube
+- Cuando un administrador realiza un cambio a la configuración del usuario conferencias de audio 
+- Cuando un usuario se actualiza a modo de TeamsOnly (sólo para clientes TAP)
+- Cuándo usar PowerShell 
+
+### <a name="updating-meetings-when-you-move-an-on-premises-user-to-the-cloud"></a>Actualización de reuniones al mover un usuario local a la nube
+
+Este es el escenario más común donde MMS ayuda a crear una transición más fácil para los usuarios. Sin migración de reunión, las reuniones existentes organizadas por un usuario en Skype para Business Server local ya no funcionará una vez que el usuario se mueva en línea. Por lo tanto, al usar las herramientas de administración local (ya sea `Move-CsUser` o el Panel de Control de administración) para mover un usuario a la nube, las reuniones existentes se mueven automáticamente a la nube como sigue:
+
+- Si el `MoveToTeams` cambiar en `Move-CsUser` se especifica, las reuniones se migran directamente a los equipos. Uso de este modificador requiere Skype para Business Server con CU8 o posterior.
+- En caso contrario, las reuniones se migran a Skype para profesionales en línea.
+
+En cualquier caso, si el usuario se ha asignado una licencia de conferencias de Audio antes de moverse a la nube, las reuniones se creará con las coordenadas de marcado. Si mueve un usuario desde local a la nube y que piensa para que ese usuario usar la conferencia de Audio, se recomienda asignar en primer lugar la conferencia de audio antes de mover el usuario para que se desencadena la migración de reunión sólo 1.
+
+> [!NOTE]
+> Actualmente sólo está disponible en puntee dos veces en la capacidad para migrar las reuniones directamente a los equipos mediante el modificador MoveToTeams. Si no es un cliente de TAP y se especifica el modificador MoveToTeams, el usuario se moverán a modo de TeamsOnly, pero las reuniones se moverán a Skype para profesionales en línea. Aunque el usuario está en modo de TeamsOnly, todavía puede unirse a cualquier Skype para la reunión de negocios.
+
+### <a name="updating-meetings-when-a-users-audio-conferencing-settings-change"></a>Actualización de reuniones cuando cambie la configuración de conferencia de audio de un usuario
+
+En los siguientes casos, MMS actualizará Skype existente para las reuniones de negocios y Microsoft Teams para agregar, quitar o modificar las coordenadas de marcado:
+
+- Al asignar o quitar una licencia de servicio de conferencia de Audio de Microsoft de un usuario que no está habilitado para la integración de Skype para la empresa con proveedores de audioconferencia de otro fabricante.
+- Cuando se cambia el proveedor de conferencia de audio de un usuario que tenga la licencia de servicio de conferencia de Audio de una Microsoft asignada desde cualquier otro proveedor a Microsoft.
+- Al habilitar o deshabilitar conferencias de audio para un usuario.
+- Al cambiar o restablecer el identificador de conferencia para un usuario configurado para usar reuniones públicas.
+- Cuando el usuario se mueve a un nuevo puente de conferencia de audio.
+- Cuando un número de teléfono de un puente de conferencia de audio es sin asignar. Este es un escenario complejo que requiere pasos adicionales. Para obtener más información, vea [cambiar los números de teléfono en el puente de conferencia de audio](https://docs.microsoft.com/en-us/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
+
+No todos los cambios a la configuración de conferencia de audio de un usuario desencadenan MMS. Concretamente, los siguientes cambios no provocan que MMS actualice las reuniones:
+
+- Cuando cambia la dirección SIP del organizador de la reunión (tanto el nombre de usuario SIP como el dominio SIP).
+- Cuando se cambia la organización reunión de dirección URL mediante el `Update-CsTenantMeetingUrl` comando.
+
+> [!NOTE]
+> MMS no se desencadena si el usuario está habilitado para un ACP de terceros. ACP está programada para el final del ciclo de vida en el 1 de abril de 2019 como [anunciado previamente](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers). Si desea que MMS para migrar la reunión de un usuario, en primer lugar deshabilitar ACP para el usuario.
+
+### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>Actualización de reuniones al asignar TeamsUpgradePolicy
+
+> [!NOTE]
+> Esta sección describe la funcionalidad próxima que primero estarán disponible para los clientes de puntee dos veces en.
+
+De forma predeterminada, migración de la reunión se automáticamente activará cuando un usuario se le concede a una instancia de `TeamsUpgradePolicy` con `mode=TeamsOnly` o `mode= SfBWithTeamsCollabAndMeetings`. Si no desea migrar las reuniones cuando la concesión de cualquiera de estos modos, a continuación, especifique `MigrateMeetingsToTeams $false` en `Grant-CsTeamsUpgradePolicy`.
+
+También tenga en cuenta lo siguiente:
+
+- Migración de la reunión sólo se invoca al conceder `TeamsUpgradePolicy` para un usuario específico. Si concede `TeamsUpgradePolicy` con `mode=TeamsOnly` o `mode=SfBWithTeamsCollabAndMeetings` en todo el inquilino, no se invoca migración de la reunión.
+- Un usuario sólo puede concederse TeamsOnly modo si el usuario está hospedado en línea. Deben mover los usuarios que están hospedados en implementaciones locales con `Move-CsUser` como se describió anteriormente.
+- Concesión de un modo distinto de TeamsOnly o SfBWithTeamsCollabAndMeetings no convierte las reuniones de los equipos existentes en Skype para reuniones de negocios.
+
+## <a name="managing-mms"></a>Administrar MMS
+
+Con Windows PowerShell, puede comprobar el estado de las migraciones continuadas, manualmente desencadenar la migración de la reunión y deshabilitar totalmente la migración. 
+
+### <a name="check-the-status-of-meeting-migrations"></a>Comprobar el estado de las migraciones de la reunión
+
+Usar el `Get-CsMeetingMigrationStatus` cmdlet para comprobar el estado de las migraciones de la reunión. A continuación puede ver algunos ejemplos.
+
+- Para obtener un estado del resumen de todas las migraciones de MMS, ejecute el siguiente comando, que proporciona una vista tabular de todos los Estados de migración:
+
+    ```
+    Get-CsMeetingMigrationStatus -SummaryOnly
+
+    State      UserCount
+    ------     ---------
+    Pending      21
+    InProgress    6
+    Failed            2 
+    Succeeded   131
+    ```
+- Para obtener detalles completos de todas las migraciones dentro de un período de tiempo específico, utilice la `StartTime` y `EndTime` parámetros. Por ejemplo, el siguiente comando devolverá detalles completos en todas las migraciones que se ha producido desde el 1 de octubre de 2018 a 8 de octubre de 2018.
+
+    ```
+    Get-CsMeetingMigrationStatus -StartTime "10/1/2018" -EndTime "10/8/2018"
+    ```
+- Para comprobar el estado de la migración de un usuario específico, use el `Identity` parámetro. Por ejemplo, el siguiente comando devolverá el estado del usuario ashaw@contoso.com:
+
+    ```
+    Get-CsMeetingMigrationStatus -Identity ashaw@contoso.com
+    ```
+Si ve cualquier migraciones que se han producido un error, tomar medidas para resolver estos problemas tan pronto como sea posible, ya que las personas no serán capaz de marcado en las reuniones organizadas por los usuarios hasta que se resuelven. Si `Get-CsMeetingMigrationStatus` muestra las migraciones en un estado de error, siga estos pasos:
+ 
 1. Determine a qué usuarios afecta. Ejecute el siguiente comando para obtener la lista de usuarios afectados y el error concreto registrado:
-    
-   ```
-   Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table Identity,LastMessage
-   ```
 
-2. Ejecute la [Herramienta de migración de reuniones](https://go.microsoft.com/fwlink/p/?linkid=626047) para cada uno de estos usuarios, para migrar sus reuniones manualmente.
-    
+    ```
+    Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table Identity, LastMessage
+    ```
+2. Para cada usuario afectado, ejecute la herramienta de migración de reunión para migrar manualmente sus reuniones.
+
 3. Si la migración sigue sin funcionar con la Herramienta de migración de reuniones, tiene dos opciones:
-    
-   - Hacer que los usuarios creen reuniones de Skype nuevas.
-    
-   - [Ponerse en contacto con el equipo de soporte técnico](https://go.microsoft.com/fwlink/p/?LinkID=518322).
-    
-### <a name="enabling-and-disabling-mms"></a>Habilitar y deshabilitar MMS
-<a name="Troubleshooting"> </a>
 
-MMS está habilitado de forma predeterminada para todas las organizaciones, pero se puede deshabilitar si es necesario. Por ejemplo, si desea migrar manualmente todas las reuniones o si usa un proveedor de conferencia de audio de terceros, es posible que no necesita MMS ejecuta. También tiene la opción de deshabilitar temporalmente MMS. Por ejemplo, se pueden realizar cambios importantes en la configuración de conferencia de audio para su organización y no desea MMS se ejecuta hasta que se hayan completado todos los cambios.
-  
-Para ver si MMS está habilitado en su organización, ejecute el siguiente comando y observe el valor del parámetro  `MeetingMigrationEnabled`. Si este parámetro está ajustado en $true, MMS está habilitado.
-  
+    - Hacer que los usuarios creen reuniones de Skype nuevas.
+    - [Ponerse en contacto con el equipo de soporte técnico](https://go.microsoft.com/fwlink/p/?LinkID=518322).
+
+### <a name="trigger-meeting-migration-manually-for-a-user"></a>Migración de reunión de desencadenador manualmente para un usuario
+
+Además de las migraciones de reunión automática, los administradores pueden desencadenar manualmente migración de reunión para un usuario ejecutando el cmdlet `Start-CsExMeetingMigration`. Este cmdlet pone en cola una solicitud de migración para el usuario especificado. El `TargetMeetingType` parámetro le permite especificar cómo migrar las reuniones: 
+
+- Uso de `TargetMeetingType Current` especifica que Skype para reuniones de negocios permanecen Skype para reuniones de negocios y reuniones de los equipos permanecen las reuniones de los equipos. Coordenadas de conferencias de audio sin embargo es posible que se pueden cambiar, y cualquier Skype local para reuniones de negocios se migrará a Skype para profesionales en línea.
+- Uso de `TargetMeetingType Teams` especifica que se debe migrar cualquier reunión existente a los equipos, independientemente de si la reunión está hospedada en Skype para negocios en línea o local e independientemente de si se requiere cualquier actualización de conferencias de audio. 
+
+En el ejemplo siguiente se muestra cómo iniciar la migración de la reunión para usuario ashaw@contoso.com para que todas las reuniones se migran a los equipos:
+
+```
+Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
+```
+### <a name="enabling-and-disabling-mms"></a>Habilitar y deshabilitar MMS
+
+MMS está habilitada de forma predeterminada para todas las organizaciones, pero se puede deshabilitar de manera:
+
+- Deshabilitar por completo para el inquilino. 
+- Deshabilitar sólo para los cambios relacionados con las conferencias de audio. En este caso, MMS aún se ejecutará cuando un usuario se migra desde local a la nube o al conceder modo TeamsOnly o SfBWithTeamsCollabAndMeetings en `TeamsUpgradePolicy`.
+
+Por ejemplo, es posible que desee migrar todas las reuniones de forma manual o deshabilitar temporalmente MMS mientras realiza cambios importantes en la configuración de conferencia de audio para la organización
+
+Para ver si MMS está habilitada para la organización, ejecute el siguiente comando. MMS está habilitado si la `MeetingMigrationEnabled` parámetro es `$true`.
 ```
 Get-CsTenantMigrationConfiguration
 ```
+Para habilitar o deshabilitar totalmente la MMS, use la `Set-CsTenantMigrationConfiguration` comando. Por ejemplo, para deshabilitar MMS, ejecute el siguiente comando:
 
-Para deshabilitar MMS, ejecute el siguiente comando:
-  
 ```
 Set-CsTenantMigrationConfiguration -MeetingMigrationEnabled $false
 ```
+Si MMS está habilitado en la organización y que desea comprobar si se habilita para actualizaciones en las conferencias de audio, compruebe el valor de la `AutomaticallyMigrateUserMeetings` parámetro en la salida de `Get-CsOnlineDialInConferencingTenantSettings`. Para habilitar o deshabilitar MMS para conferencias de audio, use `Set-CsOnlineDialInConferencingTenantSettings`. Por ejemplo, para deshabilitar MMS para conferencias de audio, ejecute el siguiente comando:
 
-Para habilitar MMS, ejecute el siguiente comando:
-  
 ```
-Set-CsTenantMigrationConfiguration -MeetingMigrationEnabled $true
-```
-
-### <a name="enabling-and-disabling-mms-only-for-audio-conferencing-changes"></a>Habilitación y deshabilitación de MMS únicamente para los cambios de conferencias de audio
-<a name="Troubleshooting"> </a>
-
-También puede deshabilitar MMS únicamente para los cambios de conferencias de audio. Aún se ejecutará cuando un usuario se migra de Skype para empresarial local a Skype para profesionales en línea. Para comprobar el estado actual de MMS para actualizaciones en las conferencias de audio, ejecute el siguiente comando y compruebe el valor de la `AutomaticallyMigrateUserMeetings` parámetro. Si este parámetro se establece en true de $, MMS se establece para actualizar las reuniones del usuario cuando se cambia la configuración de conferencias de audio.
-  
-```
-Get-CsOnlineDialInConferencingTenantSettings
+Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false
 ```
 
-Para deshabilitar MMS para conferencias de audio, ejecute el siguiente comando:
-  
-```
-Set-CsOnlineDialInConferencingTenantSettings -AutomaticallyMigrateUserMeetings $false
-```
-
-Para habilitar MMS para conferencias de audio, ejecute el siguiente comando:
-  
-```
-Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $true
-```
-
-### <a name="how-do-i-run-meeting-migration-manually-for-a-user"></a>¿Cómo ejecuto la migración de reuniones manualmente para un usuario?
-<a name="Troubleshooting"> </a>
-
-Además de las migraciones de reuniones automáticas, puede ejecutar la migración de reuniones de forma manual para un usuario a través del cmdlet **Start-CsExMeetingMigration**. Este cmdlet agrega el usuario en la cola de migración de la reunión. El servicio de migración de reuniones leerá la solicitud del usuario y migrará sus reuniones. Puede comprobar el estado de la migración de reuniones con el cmdlet **Get-CsMeetingMigrationStatus**.
-  
-Aquí puede ver un ejemplo que inicia la migración de reuniones para el usuario ashaw@contoso.com:
-  
-```
-Start-CsExMeetingMigration -Identity ashaw@contoso.com
-```
-
-## <a name="using-powershell-to-manage-your-skype-for-business-organization"></a>Usar PowerShell para administrar su organización de Skype Empresarial
-<a name="WPSInfo"> </a>
-
- **Comprobar que está ejecutando Windows PowerShell versión 3.0 o superior**
-  
-1. Para comprobar que se está ejecutando la versión 3.0 o superior: **Menú Inicio** > **Windows PowerShell**.
-    
-2. Para comprobar la versión, escriba  _Get-Host_ en la ventana **Windows PowerShell**.
-    
-3. Si no tiene la versión 3.0 o superior, deberá descargar e instalar las actualizaciones de Windows PowerShell. Vea [Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845) para descargar y actualizar Windows PowerShell a la versión 4.0. Reinicie el equipo cuando se le solicite.
-    
-4. También necesitará instalar el módulo Windows PowerShell para Skype Empresarial Online que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype Empresarial Online. Este módulo, que solo se admite en equipos de 64 bits, puede descargarse desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=294688). Reinicie el equipo cuando se le solicite.
-    
-Si necesita más información, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
-  
- **Iniciar una sesión de Windows PowerShell**
-  
-1. En el **menú Inicio** > **Windows PowerShell**.
-    
-2. En la ventana **Windows PowerShell**, puede conectarse a su organización de Office 365 ejecutando:
-    
-    > [!NOTE]
-    > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.
-  
-> 
->   ```
->   Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
->   $credential = Get-Credential
->   $session = New-CsOnlineSession -Credential $credential
->   Import-PSSession $session
->   ```
-> Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [Configurar el equipo de Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
-  
-- En relación con Windows PowerShell, todo se reduce a la administración de usuarios y de lo que pueden o no hacer los usuarios. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
-    
-  - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
-    
-  - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
-    
-- Windows PowerShell ofrece numerosas ventajas de velocidad, sencillez y productividad con respecto al uso exclusivo del Centro de administración de Office 365, como por ejemplo a la hora de realizar cambios de configuración para varios usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
-    
-  - [Mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
-    
-  - [Usar Windows PowerShell para administrar Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525453)
-    
-  - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525038)
-    
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 
 [Probar o comprar Audioconferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+
+[Mover usuarios entre local y la nube](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
