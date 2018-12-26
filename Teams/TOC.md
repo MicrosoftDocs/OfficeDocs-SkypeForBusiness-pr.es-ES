@@ -88,6 +88,7 @@
 ### [Asignar licencias de Skype Empresarial y Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Licencias del complemento de Skype Empresarial y Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
 ### [Administrar la oferta de prueba de los equipos comerciales](iw-trial-teams.md)
+### [Actualización de los equipos gratuitos a la versión de suscripción de Office 365](upgrade-freemium.md)
 ## Dispositivos admitidos
 ### [Teléfonos IP](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Dispositivos de audio y vídeo USB](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
