@@ -3,71 +3,6 @@
 
 
 
-## <a name="week-of-november-12-2018"></a>Semana del lunes, 12 de noviembre de 2018
-
-
-| Fecha de publicación |Título del tema | CAMBIAR |
-|------|------------|--------|
-| 12/11/2018 | [Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams](/MicrosoftTeams/sharepoint-onedrive-interact) | modificado |
-| 12/11/2018 | [Guía práctica para implementar Audioconferencia en Microsoft Teams](/MicrosoftTeams/audio-conferencing) | modificado |
-| 12/11/2018 | [Prácticas recomendadas para organizar equipos en Microsoft Teams](/MicrosoftTeams/best-practices-organizing) | modificado |
-| 12/11/2018 | [Período gratuito de aceptación de llamadas](/MicrosoftTeams/complimentary-dial-out-period) | modificado |
-| 12/11/2018 | [Supervisar el uso y los comentarios en Microsoft Teams](/MicrosoftTeams/get-started-with-teams-monitor-usage-and-feedback) | modificado |
-| 12/11/2018 | [Administración de números de teléfono para Australia](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia) | modificado |
-| 12/11/2018 | [Administrar la configuración de Audioconferencia para su organización en Microsoft Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | modificado |
-| 12/11/2018 | [Instalar Microsoft Teams con MSI](/MicrosoftTeams/msi-deployment) | modificado |
-| 12/11/2018 | [Consultar una lista de usuarios que se han habilitado para Audioconferencia en Microsoft Teams](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams) | modificado |
-| 12/11/2018 | [Enviar un correo electrónico a un usuario con su información de Audioconferencia en Microsoft Teams](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams) | modificado |
-| 12/11/2018 | [Información general de los equipos y canales en Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | modificado |
-| 12/11/2018 | [Probar o comprar Audioconferencia en Office 365 para Microsoft Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams) | modificado |
-| 12/11/2018 | [Administrar el acceso de los usuarios a Microsoft Teams](/MicrosoftTeams/user-access) | modificado |
-| 12/11/2018 | [Administrar sus dispositivos en Microsoft Teams](/MicrosoftTeams/device-management) | modificado |
-| 13/11/2018 | [Adoptar Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | agregado |
-| 13/11/2018 | [Introducción a Microsoft Teams](/MicrosoftTeams/get-started-microsoft-teams-landing-page) | agregado |
-| 13/11/2018 | [Crear sus primeros equipos y canales en Microsoft Teams](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | agregado |
-| 13/11/2018 | [Introducción a Microsoft Teams](/MicrosoftTeams/get-started-with-teams-landing-page) | agregado |
-| 13/11/2018 | [Supervisar el uso y los comentarios en Microsoft Teams](/MicrosoftTeams/get-started-with-teams-monitor-usage-and-feedback) | agregado |
-| 13/11/2018 | [Incorporar usuarios pioneros en Microsoft Teams](/MicrosoftTeams/get-started-with-teams-onboard-early-adopters) | agregado |
-| 13/11/2018 | [Inicio rápido: Microsoft Teams](/MicrosoftTeams/get-started-with-teams-quick-start) | agregado |
-| 13/11/2018 | [Conseguir recursos para planificar el despliegue de Microsoft Teams en toda su organización](/MicrosoftTeams/get-started-with-teams-resources-for-org-wide-rollout) | agregado |
-| 13/11/2018 | [¿Hasta qué punto está preparada su organización para Microsoft Teams?](/MicrosoftTeams/teams-adoption-assess-readiness) | agregado |
-| 13/11/2018 | [Crear su programa para expertos para Microsoft Teams](/MicrosoftTeams/teams-adoption-create-champions-program) | agregado |
-| 13/11/2018 | [Definir resultados y el éxito de su adopción de Microsoft Teams](/MicrosoftTeams/teams-adoption-define-outcomes) | agregado |
-| 13/11/2018 | [Definir escenarios de uso para Microsoft Teams](/MicrosoftTeams/teams-adoption-define-usage-scenarios) | agregado |
-| 13/11/2018 | [Darlo a conocer e implementar formación para Microsoft Teams](/MicrosoftTeams/teams-adoption-drive-awareness) | agregado |
-| 13/11/2018 | [Comenzar a impulsar la adopción de Microsoft Teams](/MicrosoftTeams/teams-adoption-get-started) | agregado |
-| 13/11/2018 | [Comenzar el inicio rápido para Microsoft Teams](/MicrosoftTeams/teams-adoption-governance-quick-start) | agregado |
-| 13/11/2018 | [Incorporar usuarios pioneros y recopilar comentarios para Microsoft Teams](/MicrosoftTeams/teams-adoption-onboard-early-adopters) | agregado |
-| 13/11/2018 | [Incorporar compatibilidad con Microsoft Teams](/MicrosoftTeams/teams-adoption-onboard-support) | agregado |
-| 13/11/2018 | [Optimizar los comentarios y los informes sobre su adopción de Microsoft Teams](/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting) | agregado |
-| 13/11/2018 | [Fase 1 de la adopción de Microsoft Teams: Inicio](/MicrosoftTeams/teams-adoption-phase1) | agregado |
-| 13/11/2018 | [Fase 2 de la adopción de Microsoft Teams: Experimento](/MicrosoftTeams/teams-adoption-phase2-experiment) | agregado |
-| 13/11/2018 | [Fase 3 de la adopción de Microsoft Teams: Escala](/MicrosoftTeams/teams-adoption-phase3-enable) | agregado |
-| 13/11/2018 | [Lista de comprobación para el inicio rápido de la adopción de Microsoft Teams](/MicrosoftTeams/teams-adoption-quick-start-checklist) | agregado |
-| 13/11/2018 | [Programar revisiones de estado del servicio para su adopción de Microsoft Teams](/MicrosoftTeams/teams-adoption-schedule-service-health-reviews) | agregado |
-| 13/11/2018 | [Descripción de los equipos y canales en Microsoft Teams](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | agregado |
-| 13/11/2018 | [Crear sus primeros equipos en Microsoft Teams](/MicrosoftTeams/teams-adoption-your-first-teams) | agregado |
-| 13/11/2018 | [Guía práctica y documentación de Microsoft Teams](/MicrosoftTeams/microsoft-teams) | modificado |
-| 13/11/2018 | [Información general sobre Microsoft Teams](/MicrosoftTeams/teams-overview) | modificado |
-| 13/11/2018 | [Configurar el enrutamiento directo](/MicrosoftTeams/direct-routing-configure) | modificado |
-| 13/11/2018 | [Cuentas de usuario en un entorno híbrido con conectividad RTC](/MicrosoftTeams/direct-routing-user-accounts-in-a-hybrid-environment) | modificado |
-| 13/11/2018 | [Administrar el acceso de invitado en Microsoft Teams](/MicrosoftTeams/manage-guests) | modificado |
-| 13/11/2018 | [Activar o desactivar el acceso de invitado a Microsoft Teams](/MicrosoftTeams/set-up-guests) | modificado |
-| 14/11/2018 | [Crear un equipo que abarque toda la organización en Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team) | modificado |
-| 14/11/2018 | [Límites y especificaciones para Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
-| 14/11/2018 | [Configurar su coexistencia y la configuración de actualización](/MicrosoftTeams/setting-your-coexistence-and-upgrade-settings) | modificado |
-| 15/11/2018 | [Conseguir recursos para planificar el despliegue de Microsoft Teams en toda su organización](/MicrosoftTeams/get-started-with-teams-resources-for-org-wide-rollout) | modificado |
-| 15/11/2018 | [Formación de administradores para Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | modificado |
-| 15/11/2018 | [Ubicación de los datos en Microsoft Teams](/MicrosoftTeams/location-of-data-in-teams) | modificado |
-| 15/11/2018 | [Administrar equipos en el Centro de administración de Microsoft Teams y Skype Empresarial](/MicrosoftTeams/manage-teams-in-modern-portal) | modificado |
-| 15/11/2018 | [Preguntas frecuentes de la administración de Microsoft Education para profesionales de TI - Microsoft Teams](/MicrosoftTeams/plan-teams-governance-edu) | modificado |
-| 15/11/2018 | [Plan para la administración en Teams - Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | modificado |
-| 15/11/2018 | [Iniciar sesión en Microsoft Teams con la autenticación moderna](/MicrosoftTeams/sign-in-teams) | modificado |
-| 15/11/2018 | [Probar o comprar Audioconferencia en Office 365 para Microsoft Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams) | modificado |
-| 16/11/2018 | [Definir eventos en directo en Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modificado |
-| 16/11/2018 | [Preguntas frecuentes: recorrido de actualización desde Skype Empresarial a Microsoft Teams - Microsoft Teams](/MicrosoftTeams/faq-journey) | modificado |
-
-
 ## <a name="week-of-november-19-2018"></a>Semana del lunes, 19 de noviembre de 2018
 
 
@@ -245,3 +180,35 @@
 | 14/12/2018 | [Apariencia de línea compartida en Microsoft Teams](/MicrosoftTeams/shared-line-appearance) | modificado |
 | 14/12/2018 | [Directivas de reuniones en Microsoft Teams](/MicrosoftTeams/meeting-policies-in-teams) | modificado |
 | 14/12/2018 | [Administrar la configuración de reuniones en Microsoft Teams](/MicrosoftTeams/meeting-settings-in-teams) | modificado |
+
+
+## <a name="week-of-december-17-2018"></a>Semana del lunes, 17 de diciembre de 2018
+
+
+| Fecha de publicación |Título del tema | CAMBIAR |
+|------|------------|--------|
+| 17/12/2018 | [Administración de números de teléfono para Bélgica](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | modificado |
+| 17/12/2018 | [Administración de números de teléfono para Francia](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | modificado |
+| 17/12/2018 | [Administración de números de teléfono para Alemania](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | modificado |
+| 17/12/2018 | [Administración de números de teléfono para Irlanda](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | modificado |
+| 17/12/2018 | [Administración de números de teléfono para España](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain) | modificado |
+| 17/12/2018 | [Administración de números de teléfono para Países Bajos](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | modificado |
+| 17/12/2018 | [Administración de números de teléfono para Reino Unido](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k) | modificado |
+| 17/12/2018 | [Estacionamiento y recuperación de llamadas en Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | modificado |
+| 17/12/2018 | [Calidad de servicio (QoS) en Microsoft Teams - Microsoft Teams](/MicrosoftTeams/qos-in-teams) | modificado |
+| 17/12/2018 | [Problemas conocidos de Microsoft Teams](/MicrosoftTeams/known-issues) | modificado |
+| 17/12/2018 | [Llamar desde una reunión de Microsoft Teams para que otras personas puedan unirse](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it) | modificado |
+| 17/12/2018 | [Configurar el enrutamiento directo](/MicrosoftTeams/direct-routing-configure) | modificado |
+| 17/12/2018 | [Planear el enrutamiento directo](/MicrosoftTeams/direct-routing-plan) | modificado |
+| 17/12/2018 | [Plan para eventos en directo en Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modificado |
+| 17/12/2018 | [Conmutación por error de tronco en llamadas salientes](/MicrosoftTeams/direct-routing-trunk-failover-on-outbound-call) | modificado |
+| 18/12/2018 | [Plan para Microsoft 365 Administración Pública - Implementaciones de alta disponibilidad de GCC - Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | agregado |
+| 18/12/2018 | [Descripción de la coexistencia y la interoperabilidad de Skype Empresarial y Microsoft Teams](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | modificado |
+| 19/12/2018 | [Plan para Microsoft 365 Administración Pública - Implementaciones de alta disponibilidad de GCC - Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | modificado |
+| 19/12/2018 | [Plan para Microsoft 365 Administración Pública - Implementaciones de GCC - Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc) | modificado |
+| 20/12/2018 | [Usar Office 365 y conectores personalizados en Microsoft Teams](/MicrosoftTeams/office-365-custom-connectors) | modificado |
+| 20/12/2018 | [Disponibilidad en Francia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france) | modificado |
+| 20/12/2018 | [Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | modificado |
+| 20/12/2018 | [Teléfonos para Microsoft Teams](/MicrosoftTeams/phones-for-teams) | agregado |
+| 20/12/2018 | [Actualizar Microsoft Teams gratis a la versión de suscripción de Office 365](/MicrosoftTeams/upgrade-freemium) | agregado |
+| 21/12/2018 | [Descripción de la actualización de Skype Empresarial a Microsoft Teams](/MicrosoftTeams/tutorial-journey-skypeforbusiness-to-teams) | modificado |
