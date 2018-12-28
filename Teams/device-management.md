@@ -1,5 +1,5 @@
 ---
-title: Administrar los dispositivos en Microsoft Teams
+title: Administrar sus dispositivos en Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,19 +12,19 @@ description: Obtenga información sobre cómo administrar dispositivos utilizado
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97fd4b8d7f613c6d3f435f2d505bbd2cf99d4b10
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: dff307b1bd4ede3e8999a78a5e6a8df36b8a1411
+ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531782"
+ms.lasthandoff: 12/28/2018
+ms.locfileid: "27458553"
 ---
-# <a name="manage-your-devices-in-microsoft-teams"></a>Administrar los dispositivos en Microsoft Teams
+# <a name="manage-your-devices-in-microsoft-teams"></a>Administrar sus dispositivos en Microsoft Teams
 
  Como administrador, puede administrar todos los dispositivos utilizados con los equipos de la organización de la Microsoft Teams & Skype para el centro de administración de negocio. Puede ver y administrar el inventario de los dispositivos para su organización y realizar tareas como la actualización, reiniciar y diagnósticos de monitor para dispositivos. También puede crear y asignar perfiles de configuración a un dispositivo o grupos de dispositivos. 
 
 ## <a name="what-devices-can-you-manage"></a>¿Qué dispositivos pueden administrar?
-Dispositivos deben ser certificados para los equipos e inscritos en los equipos. Un dispositivo está inscrito automáticamente la primera vez que un usuario inicia sesión en los equipos en el dispositivo. 
+Dispositivos deben ser certificados para los equipos e inscritos en los equipos. Un dispositivo está inscrito automáticamente la primera vez que un usuario inicia sesión en los equipos en el dispositivo. Para obtener una lista de los dispositivos certificados que se pueden administrar, consulte [teléfonos de conferencia](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?categoryid=ddb1bc66-7499-4823-8d2b-a2c6dbe4f716) y [teléfonos de escritorio](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?categoryid=c6536b33-f554-4b55-bd3d-c98733ebc017&page=1&filters=).
 
 > [!NOTE]
 > Si tiene Microsoft Intune, los dispositivos se inscriben automáticamente en Intune. Después de que un dispositivo está inscrito, se confirme el cumplimiento del dispositivo y se aplican las directivas de acceso condicional para el dispositivo. 

@@ -1,9 +1,9 @@
 ---
-title: Tomar decisiones de servicio de conferencia de Audio - Microsoft Teams
+title: 'Tomar decisiones relacionadas con el servicio de Audioconferencia: Microsoft Teams'
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 03/13/2018
+ms.date: 12/28/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81dca894a378c5331c34b5840108e63536c8ac37
-ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
+ms.openlocfilehash: 0057f18d334c89f745ec74952fd01796c8b30880
+ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25597841"
+ms.lasthandoff: 12/28/2018
+ms.locfileid: "27458505"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 
@@ -360,6 +360,7 @@ Para obtener más información acerca de los planes de marcado, consulte [¿Cuá
 > ||**FR-Service**<br>_Normalización de número de servicio para Francia_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>1 $<br>False|
 
 <br>
+
 > [!TIP]
 > La plantilla de ejemplo siguiente se puede utilizar para documentar las asignaciones de planes de marcado de su proyecto:
 >
