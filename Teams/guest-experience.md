@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55f1a2ae8c958dba9dbdd71b9b271944dad1f50c
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 51d0de81701983fb64c60c5c4e29b9e6511b6357
+ms.sourcegitcommit: afccaf26c8718869fc0b3c277d186bb82cb304b4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674556"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "27544147"
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 =================================
@@ -110,17 +110,24 @@ En la siguiente tabla muestra las características llamadas y convocatorias de r
   
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
   
-Q. ¿Los invitados tienen las mismas funciones que los miembros del equipo? R. no. Para obtener más información acerca de qué invitado puede y no puede hacer, vaya a las capacidades de invitado en los equipos.
+Q. ¿Los invitados tienen las mismas funciones que los miembros del equipo?<br>
+A. No. Para obtener más información acerca de qué invitado puede y no puede hacer, vaya a las capacidades de invitado en los equipos.
 
-Q. ¿Cuántas invitados puedo invitar? R. puede agregar hasta 5 invitados por licencia de usuario.
+Q. ¿Cuántas invitados puedo invitar?<br>
+A. Puede agregar hasta 5 invitados por licencia de usuario.
 
-Q. ¿Los invitados tienen acceso a OneDrive para la empresa? R. no.
+Q. ¿Los invitados tienen acceso a OneDrive para la empresa?<br>
+A. No.
 
-Q. ¿Los invitados tienen acceso a los archivos de SharePoint? R. Sí.
+Q. ¿Los invitados tienen acceso a los archivos de SharePoint?<br>
+A. Sí.
 
-Q. ¿Pueden buscar en los invitados dentro de los archivos? R. no.
+Q. ¿Pueden buscar en los invitados dentro de los archivos?<br>
+A. No.
 
-Q. ¿Los invitados pueden adjunción de archivos? R. Sí, invitado puede adjuntar archivos de estas dos maneras: • seleccione los archivos en el panel izquierdo y, a continuación, vaya a la ubicación del archivo.
+Q. ¿Los invitados pueden adjunción de archivos?<br>
+A. Sí, un invitado puede adjuntar archivos de estas dos maneras: • seleccione los archivos en el panel izquierdo y, a continuación, vaya a la ubicación del archivo.
 • Carga desde su equipo.
 
-Q. ¿Puede invitado descargar un archivo en un chat privado? R. Sí, pueden recibir un archivo desde un miembro de un chat privado y, a continuación, descargarlo en su escritorio.
+Q. ¿Puede invitado descargar un archivo en un chat privado?<br>
+A. Sí, pueden recibir un archivo desde un miembro de un chat privado y, a continuación, descargarlo en su escritorio.
