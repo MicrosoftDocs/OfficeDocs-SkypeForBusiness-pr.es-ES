@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Para los clientes que requieren teléfonos de escritorio y teléfonos de sala de conferencias para realizar y recibir llamadas de audio o unirse a reuniones, Microsoft Teams proporciona una cartera creciente de dispositivos. Los clientes pueden adquirir directamente estos dispositivos en nuestro Marketplace de los equipos.
-ms.openlocfilehash: f84bf50e7139b82c97af47e62fc128f5a178b5d0
-ms.sourcegitcommit: a4fed143f0e906c2b70933dd2db8f751e4eb46ba
+ms.openlocfilehash: c91a20f100e8edf9b7a6d9897b693ec0f511657f
+ms.sourcegitcommit: 370741f97ed8ea5026f73ec97de2f89b223df9fa
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/08/2019
-ms.locfileid: "27747972"
+ms.locfileid: "27760562"
 ---
 # <a name="buying-and-deploying-microsoft-teams-ip-phones"></a>Comprar e implementación de teléfonos IP de los equipos de Microsoft
 
@@ -27,7 +27,7 @@ Para los clientes que requieren teléfonos de escritorio y teléfonos de sala de
 
 Teléfonos deben se en una versión de firmware mínima que se enumeran en la siguiente tabla para ejecutar Microsoft Teams de forma nativa.
 
-|Modelo del teléfono|Versión de firmware|Fecha de lanzamiento|
+|Modelo del teléfono|Versión de firmware|Fecha de lanzamiento |
 |---|---|---|---|
 |AudioCodes C450HD| Próximamente |Próximamente|
 |Horario flexible Crestron P100-T/P110-T    |Próximamente|Próximamente
