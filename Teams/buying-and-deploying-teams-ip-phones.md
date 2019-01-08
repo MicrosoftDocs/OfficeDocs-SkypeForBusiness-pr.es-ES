@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Para los clientes que requieren teléfonos de escritorio y teléfonos de sala de conferencias para realizar y recibir llamadas de audio o unirse a reuniones, Microsoft Teams proporciona una cartera creciente de dispositivos. Los clientes pueden adquirir directamente estos dispositivos en nuestro Marketplace de los equipos.
-ms.openlocfilehash: b5dda1a8deb88278d1a3be1caefa7ef8eb90d933
-ms.sourcegitcommit: b67c2cb5ffd6d27cc9257c5e81ee1ea494ef8bd1
+ms.openlocfilehash: f84bf50e7139b82c97af47e62fc128f5a178b5d0
+ms.sourcegitcommit: a4fed143f0e906c2b70933dd2db8f751e4eb46ba
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "27383189"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "27747972"
 ---
 # <a name="buying-and-deploying-microsoft-teams-ip-phones"></a>Comprar e implementación de teléfonos IP de los equipos de Microsoft
 
@@ -33,8 +33,8 @@ Teléfonos deben se en una versión de firmware mínima que se enumeran en la si
 |Horario flexible Crestron P100-T/P110-T    |Próximamente|Próximamente
 |Crestron M100|2.3875.00068|Dic de 2018|       
 |Polycom Trio   |Próximamente|Próximamente|   
-|Yealink CP 960 |73.15.0.11|Dic de 2018
-|Serie Yealink T58/T56 |58.15.0.11|Dic de 2018|
+|Yealink CP 960 |73.15.0.20|Dic de 2018
+|Serie Yealink T58/T56 |58.15.0.20|Dic de 2018|
 
 
 La versión de firmware mínima puede comprobarse en la página de inicio de sesión de equipos seleccionando el icono de **configuración** en la esquina superior derecha y, a continuación, haga clic en **acerca de**.
@@ -56,4 +56,4 @@ Para obtener más información acerca de cómo obtener los equipos, desproteger 
 
 ## <a name="see-also"></a>Vea también
 
-[Teléfonos para equipos de Microsoft](phones-for-teams.md)
+[Teléfonos para Microsoft Teams](phones-for-teams.md)
