@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Servicio de migración (MMS) de la reunión es un servicio que se ejecuta en segundo plano y Skype se actualiza automáticamente para las reuniones de negocios y Microsoft Teams para los usuarios. MMS está diseñado para eliminar la necesidad de los usuarios ejecutar la herramienta de migración de la reunión para actualizar su Skype para las reuniones de negocios y Microsoft Teams.
-ms.openlocfilehash: 5b01dfc0c50ecb742e049905c81a418007ea3600
-ms.sourcegitcommit: d00b85ace80af0403efb85b71e5bcc66e76f837b
+ms.openlocfilehash: 94f3d315810e6fdee93ffa8abfe6a657ca8b43fd
+ms.sourcegitcommit: 1b9f19b1bd8f33ee2f011cd5ea2d0d75bf8647c9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/22/2018
-ms.locfileid: "27411119"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "27783521"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Uso del servicio de migración de reunión (MMS)
 
@@ -44,7 +44,6 @@ De forma predeterminada, MMS se activa automáticamente en cada uno de estos cas
 **Limitaciones**: la reunión no se puede utilizar el servicio de migración si cualquiera de las condiciones siguientes:
 
 - El buzón del usuario se hospeda en Exchange local.
-- El usuario está configurado para usar un proveedor de conferencia de audio de terceros. Tenga en cuenta que soporte técnico del proveedor de servicios [ACP] de conferencias de audio está programada para el final del ciclo de vida en el 1 de abril de 2019 como [anunciado previamente](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers).
 - El usuario se están migrando desde la nube a Skype para Business Server local.
 
 En estas situaciones, los usuarios finales puede usar la [Herramienta de migración de reunión](https://www.microsoft.com/en-us/download/details.aspx?id=51659) para migrar sus propias reuniones en su lugar.
@@ -96,8 +95,8 @@ En cualquier caso, si el usuario se ha asignado una licencia de conferencias de 
 
 En los siguientes casos, MMS actualizará Skype existente para las reuniones de negocios y Microsoft Teams para agregar, quitar o modificar las coordenadas de marcado:
 
-- Al asignar o quitar una licencia de servicio de conferencia de Audio de Microsoft de un usuario que no está habilitado para la integración de Skype para la empresa con proveedores de audioconferencia de otro fabricante.
-- Cuando se cambia el proveedor de conferencia de audio de un usuario que tenga la licencia de servicio de conferencia de Audio de una Microsoft asignada desde cualquier otro proveedor a Microsoft.
+- Al asignar o quitar una licencia de servicio de conferencia de Audio de Microsoft a un usuario y el usuario no está habilitado para un proveedor de conferencia de audio de terceros.
+- Al cambiar el proveedor de conferencia de audio de un usuario desde cualquier otro proveedor a proporcionados por Microsoft, el usuario se le asigna una licencia de conferencia de Audio de Microsoft. Para obtener más información, vea [Asignar Microsoft como proveedor de conferencias de audio](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider). Tenga en cuenta también que soporte para proveedores de audioconferencia de terceros [ACP] está programada para el final del ciclo de vida en el 1 de abril de 2019 como [anunciado previamente](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers).
 - Al habilitar o deshabilitar conferencias de audio para un usuario.
 - Al cambiar o restablecer el identificador de conferencia para un usuario configurado para usar reuniones públicas.
 - Cuando el usuario se mueve a un nuevo puente de conferencia de audio.
@@ -108,8 +107,6 @@ No todos los cambios a la configuración de conferencia de audio de un usuario d
 - Cuando cambia la dirección SIP del organizador de la reunión (tanto el nombre de usuario SIP como el dominio SIP).
 - Cuando se cambia la organización reunión de dirección URL mediante el `Update-CsTenantMeetingUrl` comando.
 
-> [!NOTE]
-> MMS no se desencadena si el usuario está habilitado para un ACP de terceros. ACP está programada para el final del ciclo de vida en el 1 de abril de 2019 como [anunciado previamente](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers). Si desea que MMS para migrar la reunión de un usuario, en primer lugar deshabilitar ACP para el usuario.
 
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>Actualización de reuniones al asignar TeamsUpgradePolicy
 
@@ -123,6 +120,23 @@ También tenga en cuenta lo siguiente:
 - Migración de la reunión sólo se invoca al conceder `TeamsUpgradePolicy` para un usuario específico. Si concede `TeamsUpgradePolicy` con `mode=TeamsOnly` o `mode=SfBWithTeamsCollabAndMeetings` en todo el inquilino, no se invoca migración de la reunión.
 - Un usuario sólo puede concederse TeamsOnly modo si el usuario está hospedado en línea. Deben mover los usuarios que están hospedados en implementaciones locales con `Move-CsUser` como se describió anteriormente.
 - Concesión de un modo distinto de TeamsOnly o SfBWithTeamsCollabAndMeetings no convierte las reuniones de los equipos existentes en Skype para reuniones de negocios.
+
+### <a name="trigger-meeting-migration-manually-via-powershell"></a>Migración de reunión de desencadenador manualmente a través de PowerShell
+
+Además de las migraciones de reunión automática, los administradores pueden desencadenar manualmente migración de reunión para un usuario ejecutando el cmdlet `Start-CsExMeetingMigration`. Este cmdlet pone en cola una solicitud de migración para el usuario especificado. El nuevo `TargetMeetingType` parámetro (que actualmente está limitada a los participantes en el programa de adopción de tecnología) le permite especificar cómo migrar las reuniones: 
+
+- Uso de `TargetMeetingType Current` especifica que Skype para reuniones de negocios permanecen Skype para reuniones de negocios y reuniones de los equipos permanecen las reuniones de los equipos. Coordenadas de conferencias de audio sin embargo es posible que se pueden cambiar, y cualquier Skype local para reuniones de negocios se migrará a Skype para profesionales en línea.
+- Uso de `TargetMeetingType Teams` especifica que se debe migrar cualquier reunión existente a los equipos, independientemente de si la reunión está hospedada en Skype para negocios en línea o local e independientemente de si se requiere cualquier actualización de conferencias de audio. 
+
+En el ejemplo siguiente se muestra cómo iniciar la migración de la reunión para usuario ashaw@contoso.com para que todas las reuniones se migran a los equipos:
+
+```
+Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
+```
+
+> [!NOTE]
+> El cmdlet Start-CsExMeetingMigration está disponible para todos los clientes, pero sólo actualmente es funcional para los clientes de puntee dos veces en el nuevo TargetMeetingTypeParameter. 
+
 
 ## <a name="managing-mms"></a>Administrar MMS
 
@@ -168,18 +182,7 @@ Si ve cualquier migraciones que se han producido un error, tomar medidas para re
     - Hacer que los usuarios creen reuniones de Skype nuevas.
     - [Ponerse en contacto con el equipo de soporte técnico](https://go.microsoft.com/fwlink/p/?LinkID=518322).
 
-### <a name="trigger-meeting-migration-manually-for-a-user"></a>Migración de reunión de desencadenador manualmente para un usuario
 
-Además de las migraciones de reunión automática, los administradores pueden desencadenar manualmente migración de reunión para un usuario ejecutando el cmdlet `Start-CsExMeetingMigration`. Este cmdlet pone en cola una solicitud de migración para el usuario especificado. El `TargetMeetingType` parámetro le permite especificar cómo migrar las reuniones: 
-
-- Uso de `TargetMeetingType Current` especifica que Skype para reuniones de negocios permanecen Skype para reuniones de negocios y reuniones de los equipos permanecen las reuniones de los equipos. Coordenadas de conferencias de audio sin embargo es posible que se pueden cambiar, y cualquier Skype local para reuniones de negocios se migrará a Skype para profesionales en línea.
-- Uso de `TargetMeetingType Teams` especifica que se debe migrar cualquier reunión existente a los equipos, independientemente de si la reunión está hospedada en Skype para negocios en línea o local e independientemente de si se requiere cualquier actualización de conferencias de audio. 
-
-En el ejemplo siguiente se muestra cómo iniciar la migración de la reunión para usuario ashaw@contoso.com para que todas las reuniones se migran a los equipos:
-
-```
-Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
-```
 ### <a name="enabling-and-disabling-mms"></a>Habilitar y deshabilitar MMS
 
 MMS está habilitada de forma predeterminada para todas las organizaciones, pero se puede deshabilitar de manera:
