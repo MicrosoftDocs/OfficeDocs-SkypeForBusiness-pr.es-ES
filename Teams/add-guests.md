@@ -1,7 +1,7 @@
 ---
 title: Agregar un invitado a un equipo
-author: LaithAlShamri
-ms.author: laal
+author: somakbhattacharyya
+ms.author: sbhatta
 manager: serdars
 ms.date: 11/26/2018
 ms.topic: article
@@ -12,12 +12,12 @@ ms.reviewer: sbhatta
 description: Conozca las herramientas que un administrador tiene a su disposición para agregar usuarios invitados nuevos a una organización, incluidos los clientes web y de escritorio de Microsoft Teams y el portal de colaboración B2B de Azure Active Directory.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 729490af1c1e15b82d62dc35386e9ad4344d863a
-ms.sourcegitcommit: 042717530bffa18ca401ad6665a652212a85bc99
+ms.openlocfilehash: efd44fade33f611148dc2ab4ca9afb4040705123
+ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/29/2018
-ms.locfileid: "26984737"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "27772747"
 ---
 <a name="add-a-guest-to-a-team"></a>Agregar un invitado a un equipo
 =====================
@@ -50,4 +50,4 @@ Se puede llevar un registro de qué invitados se han agregado en Azure Active Di
 
 [Autorizar el acceso de invitado en Microsoft Teams](teams-dependencies.md)</br>
 [Activar o desactivar el acceso como invitado en Microsoft Teams](set-up-guests.md)</br>
-[Usar PowerShell para controlar el acceso de invitado a un equipo](guest-access-powershell.md)
+[Usar PowerShell para controlar el acceso de invitados a un equipo](guest-access-powershell.md)

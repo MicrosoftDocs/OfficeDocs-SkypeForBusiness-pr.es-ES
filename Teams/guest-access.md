@@ -1,7 +1,7 @@
 ---
 title: Acceso de invitado a Microsoft Teams
-author: LaithAlShamri
-ms.author: lolaj
+author: somakbhattacharyya
+ms.author: sbhatta
 manager: serdars
 ms.date: 11/26/2018
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a486fb17e5ce09d7084d013479ab3087bcbe3f07
-ms.sourcegitcommit: 370741f97ed8ea5026f73ec97de2f89b223df9fa
+ms.openlocfilehash: b77af005130a4e3783f69c908184a8e19b44a9c5
+ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "27760538"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "27772796"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acceso de invitado a Microsoft Teams
 ======================================

@@ -1,7 +1,7 @@
 ---
 title: Activar o desactivar el acceso de invitado a Microsoft Teams
-author: LaithAlShamri
-ms.author: lolaj
+author: somakbhattacharyya
+ms.author: sbhatta
 manager: serdars
 ms.date: 10/18/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 436dc26e9ef9b75849fb6aac0383ed40bc5e581b
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 42fead56b8064d2697ca4e8b115eefd0116a5e36
+ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26510563"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "27772764"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Activar o desactivar el acceso de invitado a Microsoft Teams
 ======================================
