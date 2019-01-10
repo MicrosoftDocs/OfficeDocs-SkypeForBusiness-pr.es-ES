@@ -4,12 +4,12 @@ hide_bc: true
 title: Guía práctica y documentación de Microsoft Teams
 description: Guía práctica y documentación de Microsoft Teams
 ms.topic: hub-page
-ms.openlocfilehash: ecddd1e8e1eb02908314e91645415bd3fdcfba75
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 8f781db7f75cd9a07da867ccc2ec29d8a00ba9d8
+ms.sourcegitcommit: 0c6099ef56cfc5242e8b709eacaa39d13cb12366
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26510555"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27797086"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -41,7 +41,7 @@ ms.locfileid: "26510555"
                                 </a>
                             </li>
                             <li>
-                                <a href="/MicrosoftTeams/journey-skypeforbusiness-teams">
+                                <a href="/MicrosoftTeams/upgrade-introduction">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
