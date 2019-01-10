@@ -1,5 +1,5 @@
 ---
-title: Crear su primera equipos y canales en Microsoft Teams
+title: Crear sus primeros equipos y canales en Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 496d5f941f245d513aefbf165e37c33d9e431780
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: c2cb8fb04f244139255cb363a6779379824cb709
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26520098"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789326"
 ---
-# <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Crear su primera equipos y canales en Microsoft Teams
+# <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Crear sus primeros equipos y canales en Microsoft Teams
 
 Configurar y utilizar su primer conjunto de equipos y canales basa su experiencia con los equipos e identifican a campeones que pueden ayudar a estimular la adopción de los equipos en toda la organización. 
 
@@ -41,7 +41,7 @@ Aquí es una estructura sugerida para el equipo.
 | ------------ | -------------------- | -------------------- |
 | General | Inicie todos los equipos de con un canal General. Use este canal para realizar anuncios como para comenzar a conocer los equipos. |  |
 | Diga hi | Introducir usted mismo al equipo de y comparta lo que desea obtener de los equipos. |  |
-| ¿Cómo se hace? | Un canal para formular preguntas sobre procedimientos.</br>Paso 1: instalar a los clientes móviles y de escritorio.</br>Paso 2: saltar en los equipos.| Ficha anclado que vincula a la del [Centro de Ayuda de los equipos](https://support.office.com/teams)</br>Ficha anclado que vincula a [los equipos de vídeos de aprendizaje](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)</br>Ficha anclado que vincula a [los equipos de los vínculos de descarga de cliente de escritorio y móviles](https://teams.microsoft.com/downloads) |
+| ¿Cómo se hace | Un canal para formular preguntas sobre procedimientos.</br>Paso 1: instalar a los clientes móviles y de escritorio.</br>Paso 2: saltar en los equipos.| Ficha anclado que vincula a la del [Centro de Ayuda de los equipos](https://support.office.com/teams)</br>Ficha anclado que vincula a [los equipos de vídeos de aprendizaje](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)</br>Ficha anclado que vincula a [los equipos de los vínculos de descarga de cliente de escritorio y móviles](https://teams.microsoft.com/downloads) |
 | Comentarios | Compartir sus ideas sobre su experiencia de los equipos. | Ficha anclado con Polly sondeo|
 | Ideas para los equipos del futuro | Compartir sus ideas en donde los equipos pueden controlar valores adicionales en la organización. ¿Lo que podrían estos equipos se denomina? ¿Que sería (miembros)? ||
 | Asistencia técnica | Si algo no funciona como se esperaba, use este canal para obtener ayuda. ||

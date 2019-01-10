@@ -20,32 +20,32 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Vea cómo se seleccionan los idiomas del operador automático de audioconferencias para un número de audioconferencia en Microsoft Teams.
-ms.openlocfilehash: a9586e7d6741d49342a34a694c2a5def7406946c
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 8cd57dea5b50a69f95670f81d6f3b73748d9699a
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347493"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789318"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Establecer los idiomas del operador automático para Audioconferencia en Microsoft Teams
 
 El operador automático de audioconferencias para Microsoft Teams puede saludar en diferentes idiomas a los que realizan una llamada de audio cuando se unen a una reunión.
   
-Elija un idioma principal y hasta cuatro idiomas secundarios. El idioma principal que ha configurado en primer lugar se va a usar y los idiomas secundarios utilizará el operador automático de forma que seleccione. 
+Elija un idioma principal y hasta cuatro idiomas secundarios. El operador automático usará el idioma principal que configure en primer lugar y los idiomas secundarios, en el orden que seleccione. 
   
 > [!NOTE]
->  Puede configurar los idiomas solo en números de acceso telefónico nacionales.
+>  Sólo puede cambiar los idiomas de números de conferencia de audio de la categoría dedicada. No se puede cambiar los idiomas de número de conferencia de audio compartidos.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="set-the-conferencing-auto-attendant-languages"></a>Establecer los idiomas del operador automático de conferencia
+## <a name="set-the-conferencing-auto-attendant-languages"></a>Configurar la conferencia de idiomas de operador automático
 
 ![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) Uso del equipos de Microsoft y Skype para centro de administración de negocio
 
 1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**.
 
-2. Seleccione el número de teléfono de conferencia de audio de la lista y, en la parte superior de la página, haga clic en **Editar**.
+2. Seleccione un número de teléfono de conferencia de audio de **Dedidcated** de la lista y, en la parte superior de la página, haga clic en **Editar**. Sólo es posible cambiar los idiomas de números de conferencias de audio dedicada. La opción **Editar** sólo se muestra cuando se selecciona un número de conferencia de audio dedicada.
 
 3. En el panel de la derecha, seleccione el idioma predeterminado que desee y los idiomas alternativos. 
  

@@ -10,12 +10,12 @@ ms.reviewer: islubin
 description: Aprenda a usar las funciones administrativas diferentes para administrar los equipos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 895c0992ea15ebff65ff2e4c5cd47823afc81be1
-ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
+ms.openlocfilehash: 26b9342703fbfd25992821984b2f40638d7bda62
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26620078"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789201"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Usar los roles de administrador de Microsoft Teams para administrar Teams
 
@@ -30,8 +30,8 @@ Hay cuatro roles de administrador de equipos disponibles: Administrador de servi
 | Rol | Puede realizar estas tareas | Puede obtener acceso a las siguientes herramientas |
 |----- | ------------------ | ------------------------------ |
 | Administrador de servicios de Teams | Administrar el servicio de Microsoft Teams y administrar y crear grupos de Office 365 | Todo el contenido en el Microsoft Teams & Skype para el centro de administración de negocios y controles asociados de PowerShell, incluidos:<br><br> Administrar reuniones, incluida la conferencia, las configuraciones y directivas de puentes<sup>1,3</sup> de la reunión<br><br> Administrar voz, incluida la llamada a las directivas y número de inventario y asignación<sup>1</sup> de teléfono<br><br> Administración de mensajería, incluidas la mensajería de directivas<sup>1,3</sup><br><br> Administrar toda la configuración de toda la organización, incluida la federación, actualización de los equipos y los equipos cliente configuración<sup>1,3</sup><br><br> Administrar los equipos de la organización y sus valores asociados, incluyendo pertenencia (administración de grupo que se admiten mediante PowerShell, la administración de equipo en el portal de administración implantar) <sup>23</sup><br><br> Ver la página de perfil de usuario y solucionar los problemas de calidad de llamada de usuario utilizando de conjunto de herramientas de solución de problemas avanzada<sup>3</sup> |
-| Administrador de comunicaciones de Teams | Administre las características de reuniones y llamadas dentro del servicio de Microsoft Teams | Administrar reuniones, incluida la conferencia, las configuraciones y directivas de puentes<sup>1,3</sup> de la reunión<br><br> Administrar voz, incluida la llamada a las directivas y número de inventario y asignación<sup>1</sup> de teléfono<br><br> Ver la página de perfil de usuario y solucionar los problemas de calidad de llamada de usuario utilizando de conjunto de herramientas de solución de problemas avanzada<sup>1,3</sup> |
-| Ingeniero de soporte en comunicaciones de Teams | Solucionar problemas de las comunicaciones dentro de los equipos mediante el uso de herramientas **Avanzadas** . | Acceso a la página de perfil de usuario para solucionar problemas de las llamadas en llamar análisis. Puede ver la información de registro de llamadas completa. <sup>3</sup> |
+| Administrador de comunicaciones de Teams | Administre las características de reuniones y llamadas dentro del servicio de Microsoft Teams | Administrar reuniones, incluida la conferencia, las configuraciones y directivas de puentes<sup>1,3</sup> de la reunión<br><br> Administrar voz, incluida la llamada a las directivas y número de inventario y asignación<sup>1</sup> de teléfono<br><br> Ver la página de perfil de usuario y solucionar los problemas de calidad de llamada de usuario utilizando de conjunto de herramientas de solución de problemas avanzada<sup>3</sup> |
+| Ingeniero de soporte en comunicaciones de Teams | Solucionar problemas de las comunicaciones dentro de los equipos mediante el uso de herramientas **Avanzadas** . | Ver la página de perfil de usuario y solucionar los problemas de calidad de llamada de usuario utilizando de conjunto de herramientas de solución de problemas avanzada<sup>3</sup> |
 | Especialista en soporte técnico de comunicaciones de los equipos | Solucionar problemas de las comunicaciones dentro de los equipos mediante el uso de herramientas **básicas** .| Acceso a la página de perfil de usuario para solucionar problemas de las llamadas en llamar análisis. Solo se puede ver la información de usuario del usuario concreto que se está buscando.<sup>3</sup>
 
 <sup>1</sup> [PowerShell - Skype para módulo empresarial](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
@@ -61,5 +61,5 @@ La mayoría de las herramientas de PowerShell para estos roles de administrador 
 
 - [Información general de PowerShell de equipos de Microsoft](teams-powershell-overview.md)
 - [Los equipos de Microsoft PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-- [Asignar propietarios de equipo y miembros en Microsoft Teams](https://docs.microsoft.com/microsoftteams/assign-roles-permissions)
+- [Asignar miembros y propietarios de equipo en Microsoft Teams](https://docs.microsoft.com/microsoftteams/assign-roles-permissions)
 

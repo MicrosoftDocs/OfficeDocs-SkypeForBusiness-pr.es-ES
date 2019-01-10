@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Resumen: Revise este tema para obtener información acerca de cómo integrar Skype para Business Server con Exchange Server 2016 o Exchange Server 2013.'
-ms.openlocfilehash: 901bfd35ef0e781d12c8f4f455912e9ad47d0bdd
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 327a564e9c7a0a73ef178866f511c75388ac14bc
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532538"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789401"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Plan para la integración de Skype Empresarial y Exchange
  
@@ -104,9 +104,13 @@ En la siguiente tabla se detalla las características admitidas en diversas comb
 |Registros de llamadas y el historial de conversaciones perdidas se escriben en el buzón de exchange del usuario  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
 |Contenido de archivado (mensajería instantánea y reuniones) en Exchange  <br/> |Y (requiere Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
 |Buscar contenido archivado  <br/> |Y (requiere Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Correo de voz de mensajería unificada de Exchange  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
+|Correo de voz de mensajería unificada de Exchange  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |N  <br/> |
 |Historial de conversaciones en el servidor  <br/> |Y  <br/> |Y  <br/> |N  <br/> |Y  <br/> |Y  <br/> |
-   
+
+> [!NOTE]
+> No hay un servicio de correo de voz en la nube que es compatible con Skype para empresarial en línea, Skype para Business Server 2019, Skype para Business Server 2015 y Skype para Business Server 2013.
+> 
+
 ## <a name="see-also"></a>Vea también
 <a name="feature_support"> </a>
 

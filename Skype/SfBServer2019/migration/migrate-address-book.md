@@ -8,26 +8,21 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'En general, la libreta de direcciones se migra junto con el resto de la topología. Sin embargo, es posible que necesite realizar algunos pasos posteriores a la migración si ha personalizado lo siguiente en el entorno heredado:'
-ms.openlocfilehash: 01279284086499b112028644ea0e1ca2fc708dd0
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 081246acaaede37ab7f7f204a3f7204d9b25fbcc
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370772"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788997"
 ---
 # <a name="migrate-address-book"></a>Migrar la libreta de direcciones
 
 En general, la libreta de direcciones se migra junto con el resto de la topología. Sin embargo, es posible que necesite realizar algunos pasos posteriores a la migración si ha personalizado lo siguiente en el entorno heredado: 
 
-- Establecer la propiedad WMI **PartitionbyOU** para agrupar entradas de la libreta de direcciones por unidad organizativa (OU). 
-
 - Puede personalizar las reglas de normalización de la libreta de direcciones.
 
 - Cambiar el valor predeterminado para el parámetro **UseNormalizationRules** en False. 
 
-  **Entradas de la libreta de direcciones agrupadas**
-
-Si establece la propiedad WMI **PartitionbyOU** en True para crear libretas de direcciones para cada unidad organizativa, debe establecer el atributo **msRTCSIP-GroupingId** de Active Directory en usuarios y contactos si desea continuar agrupar entradas de la libreta de direcciones. Es posible que desee para agrupar entradas de la libreta de direcciones para limitar el ámbito de las búsquedas de la libreta de direcciones. Para usar el atributo **msRTCSIP-GroupingId** , escribir un script para rellenar el atributo, asignar el mismo valor para todos los usuarios que desea agrupar. Por ejemplo, asignar un valor único para todos los usuarios en una unidad organizativa. 
 
  **Reglas de normalización de la libreta de direcciones**
 
@@ -67,7 +62,7 @@ Si establece el valor de **UseNormalizationRules** en False para que los usuario
 
 1. Iniciar el Skype para Shell de administración de negocio Server: haga clic en **Inicio**, haga clic en **Todos los programas**, haga clic en **Microsoft Skype para Business Server 2019**y, a continuación, haga clic en **Skype para Shell de administración de servidor empresarial**.
 
-2. Realice una de las acciones siguientes:
+2. Siga uno de estos pasos:
 
    - Si la implementación incluye solo Skype para Business Server 2019, ejecute el siguiente cmdlet en el nivel global para cambiar los valores de **UseNormalizationRules** e **IgnoreGenericRules** a True: 
 

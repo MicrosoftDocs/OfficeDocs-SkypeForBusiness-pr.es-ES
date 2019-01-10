@@ -17,18 +17,18 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Obtenga información sobre las causas habituales de Skype para errores de inicio de sesión en línea de negocio y de trabajo a través de solucionar estos problemas. '
-ms.openlocfilehash: df34252281bebe429a85fb1a778b6d28023eb9d4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b9eccd817fbb9a67fcbce61d73b4a701c6b063de
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371153"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789088"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Solución de problemas de Skype para errores de inicio de sesión empresarial en línea para los administradores
 
 Para solucionar problemas de Skype para errores de inicio de sesión de negocio en línea, inicie mediante la eliminación de las causas más comunes de inicio de sesión de dificultad. Si es necesario, a continuación, puede seguir pasos en función del tipo de error de resolución específica. Si el usuario aún no se puede iniciar sesión, recopilar información adicional y, a continuación, busca ayuda adicional.
 
-## <a name="what-do-you-want-to-do"></a>¿Qué acción desea realizar?
+## <a name="what-do-you-want-to-do"></a>¿Qué desea hacer?
 <a name="top"> </a>
 
 > [Verificación de las causas habituales de Skype para errores de inicio de sesión de negocio en línea](troubleshooting-sign-in-errors-for-admins.md#toc323194094)
@@ -124,7 +124,7 @@ Si su organización tiene un dominio personalizado, este procedimiento es una so
 
   - **Nombre**: sip
 
-  - **Valor/destino**: sipdir.online.microsoft.com
+  - **Valor/destino**: sipdir.online.lync.com
 
 Para obtener información detallada, vea el artículo de Microsoft Knowledge Base 2566790, [Solución de problemas de Skype para problemas de configuración de DNS en línea de negocio en Office 365](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790).
 

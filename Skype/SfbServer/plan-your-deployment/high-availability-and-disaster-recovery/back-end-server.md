@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Obtenga información sobre las opciones de alta disponibilidad de servidor Back-End admitidas en Skype para Business Server, incluidos los grupos de disponibilidad AlwaysOn, las instancias de clúster de conmutación por error de AlwaysOn, la creación de reflejo de la base de datos y agrupación en clústeres de conmutación por error SQL.
-ms.openlocfilehash: 57cc09765ab8f753e60a5f76f5d93b385c7fd406
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c17d4afb20a0aeef2a1dacc40080a1092fbda357
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983187"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789295"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Back-End alta disponibilidad del servidor en Skype para Business Server
  
@@ -41,11 +41,16 @@ Si usa una alta disponibilidad de servidor Back-End en un grupo de servidores Fr
 
 Skype para Business Server admite la creación de reflejos con el software de base de datos siguientes:
   
+- SQL Server 2016, Enterprise Edition y Standard Edition
+
 - SQL Server Enterprise Edition y Standard Edition de 2014
     
 - Service Pack 2 SQL Server 2012 y CU2, Enterprise Edition y Standard Edition
     
 - Service Pack 2 SQL Server 2008 R2, Enterprise Edition y Standard Edition
+
+> [!NOTE]
+> SQL Server 2016 es la única versión compatible con Skype para Business Server 2019.
     
 La creación de reflejo de base de datos asincrónica no se admite para alta disponibilidad de servidor Back-End en Skype para Business Server. En lo que resta de este documento, la creación de reflejo de la base de datos implica la creación de reflejo de la base de datos sincrónica, a menos que se indique lo contrario. 
   
@@ -108,13 +113,18 @@ Para ver los pasos para la implementación de grupos de disponibilidad AlwaysOn,
 
 Skype para Business Server admite clústeres con el siguiente software de base de datos de conmutación por error de SQL Server:
   
+- SQL Server 2016, Enterprise Edition y Standard Edition
+
 - SQL Server Enterprise Edition y Standard Edition de 2014
     
 - Service Pack 2 SQL Server 2012 y CU2, Enterprise Edition y Standard Edition
     
 - Service Pack 2 SQL Server 2008 R2, Enterprise Edition y Standard Edition
+
+> [!NOTE]
+> SQL Server 2016 es la única versión compatible con Skype para Business Server 2019.
     
-Para usar la agrupación en clústeres de conmutación por error SQL, primero debe configurar y configurar el clúster de SQL Server antes de implementar el grupo de servidores Front-End. Para obtener instrucciones de instalación para conmutación por error de SQL Server 2012 y procedimientos recomendados, consulte [https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx). Para la conmutación por error de agrupación en clústeres de SQL Server 2008, consulte [https://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx).
+Para usar la agrupación en clústeres de conmutación por error SQL, primero debe configurar y configurar el clúster de SQL Server antes de implementar el grupo de servidores Front-End. Para obtener instrucciones de instalación para conmutación por error de SQL Server 2014 y 2016 y procedimientos recomendados, consulte [https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx). Para la conmutación por error de agrupación en clústeres de SQL Server 2008, consulte [https://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx).
   
 Al instalar SQL Server, es preciso instalar también SQL Server Management Studio para administrar las ubicaciones de la base de datos y de los archivos de registro. SQL Server Management Studio se instala como un componente opcional al instalar SQL Server.
   

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumen: Skype para Business Server 2019 o Skype para los administradores en línea de negocio puede usar estas tablas para comprender qué características son compatibles con los clientes que.'
-ms.openlocfilehash: dfc9e568ae9d600e03e1473aff7bcf6571b68f38
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 296e96af455b7cea8cddf833acff19a665349933
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297695"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789114"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Comparación de características de cliente de escritorio de Skype para Business Server 2019
 
@@ -135,9 +135,9 @@ Para obtener información detallada, vea el [Skype para la descripción de servi
 |Deshabilitar la mensajería instantánea de la reunión |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
 |Desactivar el audio del público |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Convertir a todos en asistentes |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
-|Producir difusión de reunión de Skype |& #x 2714; & #x 2779;|||& #x 2714; & #x 2780;||
+|Producir difusión de reunión de Skype |& #x 2714;|||||
 |El delegado puede programar una reunión en nombre del delegador |& #x 2714;|& #x 2714;|& #x 2714;|||
-|Sincronizar delegados entre Skype Empresarial y Outlook |& #x 2714;||& #x 2714;||| 
+|Sincronizar delegados entre Skype Empresarial y Outlook |& #x 2714;||& #x 2714;|& #x 2714;|| 
 |Establecer el primer plano del vídeo (bloquear vídeo) |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;| 
 |Ceder y tomar el control de la pantalla compartida  |& #x 2714;||& #x 2714;|||
 

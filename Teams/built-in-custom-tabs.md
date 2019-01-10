@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Aprenda a usar fichas integradas y personalizadas para incluir características como conversaciones, archivos, mapas y mucho más.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01e74b526058842819e219fcaa34109a7f954ad4
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: dca1d1a49a749991c97e2e8807557c457f1b67f6
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294678"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788960"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Usar fichas integradas y personalizadas en Microsoft Teams
 ==================================================
@@ -51,7 +51,7 @@ Los propietarios y los miembros del equipo pueden agregar fichas a un canal, cha
 
 ## <a name="develop-custom-tabs"></a>Desarrollar fichas personalizadas
 
-Además de las fichas integradas, se puede diseñar y desarrollar sus propias fichas para integrar a los equipos o compartir con el resto de la Comunidad.
+Además de las fichas integradas, se puede diseñar y desarrollar sus propias fichas para integrar a los equipos o compartir con el resto de la Comunidad. Puede [controlar el acceso a la ficha personalizada](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/design#streamline-access) mediante la configuración de los grupos correspondientes de Office 365.
 
 Microsoft Developer Network proporciona [instrucciones detalladas](https://go.microsoft.com/fwlink/?linkid=855786) para diseñar y crear sus propias fichas y [las fichas de ejemplo](https://go.microsoft.com/fwlink/?linkid=855787) desarrollado por Microsoft que puede descargar.
 

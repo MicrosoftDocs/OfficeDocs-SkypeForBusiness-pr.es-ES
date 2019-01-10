@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: Skype para Business Server usa TLS y MTLS para cifrar los mensajes instantáneos. Todo el tráfico de servidor a servidor requiere MTLS, independientemente de si el tráfico se limita a la red interna o de si cruza el perímetro de la red interna. Cuando la conexión Skype para Business Server a sistemas IPPBX parte 3ª o troncos SIP TLS es opcional pero se recomienda encarecidamente entre el servidor de mediación y la puerta de enlace multimedia. Si en este vínculo está configurado TLS, se requiere MTLS. Por lo tanto, la puerta de enlace debe configurarse con un certificado de una entidad de certificación que el servidor de mediación es de confianza.
-ms.openlocfilehash: d6793af3329918af6d566199f8d9fd752df49a71
-ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
+ms.openlocfilehash: 1a109bea59644e00b3b010c42d9b12918296b47c
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "27382871"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789379"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>Cifrado de Skype para Business Server
  
@@ -45,7 +45,7 @@ En la tabla siguiente se resumen los requisitos de protocolo para cada tipo de t
 El tráfico de medios se cifra mediante RTP seguro (SRTP), que es un perfil de protocolo de transporte en tiempo real (RTP) que proporciona al tráfico RTP confidencialidad, autenticación y protección contra los ataques de reproducción. Además, los medios que fluyen en ambas direcciones entre el servidor de mediación y el servidor interno del próximo salto también se cifran mediante SRTP. Los medios que fluyen en ambas direcciones entre el servidor de mediación y una puerta de enlace multimedia se cifran de manera opcional, pero recomendable. El servidor de mediación puede admitir el cifrado hacia la puerta de enlace multimedia, pero la puerta de enlace debe admitir MTLS y el almacenamiento de un certificado.
   
 > [!NOTE]
-> Si va a implementar un entorno híbrido, también debe modificar el Skype para el nivel de cifrado del servidor de negocio. De manera predeterminada, el nivel de cifrado es obligatorio. Debe cambiar esta configuración a compatibles mediante la Skype de consola de administración de servidor empresarial. Para obtener más información sobre la configuración híbrida, consulte [Plan de conectividad híbrida entre Skype para Business Server y Skype para profesionales en línea](../../../SfBServer2019/hybrid/plan-hybrid-connectivity.md).
+> Para obtener más información sobre la configuración híbrida, consulte [Plan de conectividad híbrida entre Skype para Business Server y Skype para profesionales en línea](../../../SfBServer2019/hybrid/plan-hybrid-connectivity.md).
   
 ## <a name="fips"></a>FIPS
 

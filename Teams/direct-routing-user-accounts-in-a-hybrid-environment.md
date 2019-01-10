@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Obtenga información sobre diferentes combinaciones de creación de usuarios y qué combinaciones son compatibles o no compatibles.
-ms.openlocfilehash: f742efc18de05997f73a33b96800cc10a9a9d124
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 15513b426b37f01749c6253021ebb619385fb61e
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26510625"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789212"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Cuentas de usuario en un entorno híbrido con conectividad RTC
 
@@ -62,10 +62,9 @@ Un Skype para entornos híbridos, empresarial con conectividad RTC proporciona f
 |En AD local|Online |Microsoft Teams |Enrutamiento directo  |Sí |
 |**Combinaciones admitidas**    | |         |         |
 |Azure AD| En local o en línea | Skype para los equipos de negocio y Microsoft|Enterprise Voice de voz híbrida enrutamiento conectividad/Direct  |No, debe crearse el objeto de usuario en AD local en primer lugar |
-|En AD local  |Implementación local| Microsoft Teams| Enterprise Voice de voz híbrida enrutamiento conectividad/Direct   |No, el cliente de Microsoft Teams no es compatible con Skype local para la empresa |
-|En AD local  |Online |Skype for Business | Enrutamiento directo  | No, Skype para Business client no es compatible con el enrutamiento directo  |
-|En AD local  |Online |Skype for Business  | Enrutamiento directo  |No, el enrutamiento directo no es compatible con Skype para cliente de negocio y usuario debe estar habilitado para Enterprise Voice en Skype para la empresa en primer lugar  |
-|   |         |         |         ||
+|En AD local  |Implementación local| Microsoft Teams| Enterprise Voice de voz híbrida enrutamiento conectividad/Direct   |No, el cliente de Microsoft Teams no es compatible con Skype local para la empresa |     
+    
+| En local AD | Online | Skype para la empresa | Enrutamiento directo | No, el enrutamiento directo no es compatible con Skype para cliente de negocio y usuario debe estar habilitado para Enterprise Voice en Skype para la empresa en primer lugar ||   |         |         |         ||
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>Instrucción de compatibilidad para el entorno híbrido con RTC
 

@@ -18,22 +18,22 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Desafortunadamente, hay algunas licencias de usuario que se bloquean cuando el usuario vaya a https://broadcast.skype.com y quiere usar Difundir presentación de reunión de Skype. Si un usuario ve este mensaje, tienen una de las licencias bloqueadas asignadas a ellos. Si aún desea usarlo, asígnele otra licencia de Office 365.
-ms.openlocfilehash: 68ea3a6632ce5c25c0c443edc8abc66a5c6f5bbe
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: b20334a525aa7942af90439cf05add7c49fc1f8b
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861409"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788969"
 ---
-# <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Licencias de usuario bloqueadas para Difusión de reunión de Skype
+# <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Bloquea las licencias de usuario para hospedar la difusión de reunión de Skype
 
-Desafortunadamente, hay algunas licencias de usuario que se bloquean cuando los usuarios que vayan a https://broadcast.skype.com y quiere usar Difundir presentación de reunión de Skype. Si un usuario ve este mensaje, tienen una de las licencias bloqueadas asignadas a ellos. Si aún desea usarlo, asígnele otra licencia de Office 365.
+Desafortunadamente, hay algunas licencias de usuario que se bloquean cuando los usuarios que vayan a https://broadcast.skype.com y desea hospedar una difusión de reunión de Skype. Si un usuario ve este mensaje, tienen una de las licencias bloqueadas asignadas a ellos. Si aún desea usarlo, asígnele otra licencia de Office 365.
   
  *"La directiva de empresa no permite usar Difundir presentación de reunión de Skype. Compruebe con el administrador del sistema para asegurarse de que el servicio está habilitado y que tiene la licencia correcta".* 
   
-## <a name="blocked-user-licenses"></a>Licencias de usuario bloqueados
+## <a name="blocked-user-licenses"></a>Licencias de usuario bloqueados 
 
-Difundir presentación de reunión de Skype se bloqueará si cualquiera de las siguientes licencias de usuario se asignan a un usuario.
+Difundir presentación de reunión de Skype eventos de alojamiento se bloqueará si cualquiera de las siguientes licencias de usuario se asignan a un usuario. Los asistentes que se transmisión por secuencias de eventos de difusión no requieren ninguna licencia de usuario.
   
 - Office 365 educación /fac/personal
     

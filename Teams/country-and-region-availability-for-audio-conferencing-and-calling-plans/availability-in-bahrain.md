@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Bahrein los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 164334abc83df2005163dfdfcb72579405429c2e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 78a33a13df4b495313a8e8bb258fe5b383e20f12
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013092"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789185"
 ---
 # <a name="availability-in-bahrain"></a>Disponibilidad en Bahrein
 
@@ -43,7 +43,7 @@ Aquí están disponibles para Bahrein los servicios de Office 365 para Skype par
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿La audioconferencia está disponible para la compra?  <br/> |No  <br/> |
+|¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para: <br/><ul><li>Manama</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Requiere créditos de comunicación  <br/> |
    
@@ -78,7 +78,7 @@ Aquí están disponibles para Bahrein los servicios de Office 365 para Skype par
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Los créditos de comunicaciones están disponibles?  <br/> |Sí  <br/> |
+|¿Los créditos de comunicaciones están disponibles?  <br/> |No  <br/> |
    
 Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para su organización](../set-up-communications-credits-for-your-organization.md).
   

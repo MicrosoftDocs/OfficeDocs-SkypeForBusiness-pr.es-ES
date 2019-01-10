@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Learn about the Skype Meeting Broadcast feature of Skype for Business Online that enables you to schedule, produce, and broadcast meetings or events to large online audiences up to 10,000 attendees.
-ms.openlocfilehash: 7c22b4b0911935ffd90d10e65d2fff0d71018910
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b29ec51ddcb672f6727f7bc43958872962245ebb
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374558"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788979"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Configurar la red para Difusión de reunión de Skype
 
@@ -45,13 +45,13 @@ Utilice **uno** de los métodos siguientes para configurar los dominios permitid
 
 2. En la página de **uso compartido externo** , en **excepciones de dominio**, seleccione **todos los dominios están bloqueados, excepto**y especifique los siguientes dominios separados con una coma (,):
 
-   - noammeetings.Lync.com
+   - noammeetings.lync.com
 
-   - emeameetings.Lync.com
+   - emeameetings.lync.com
 
-   - apacmeetings.Lync.com
+   - apacmeetings.lync.com
 
-   - Resources.Lync.com
+   - resources.lync.com
 
 3. Haga clic en **Guardar**.
 
@@ -93,7 +93,7 @@ El segundo paso en el proceso de instalación es para que usted agregar dominios
 
 ## <a name="set-up-skype-meeting-broadcast-in-hybrid-deployments-and-organizations"></a>Configurar Difusión de reunión de Skype en organizaciones e implementaciones híbridas
 
-Si tiene un Skype para la organización en línea de negocio y una implementación local de Lync Server 2010, Microsoft Lync Server 2013 y Skype para Business Server 2015 y tienen los usuarios tanto en línea y local, hay otros pasos de configuración que debe llevar a cabo en Además de las anteriores para habilitar la organización local para comunicarse con Skype para profesionales en línea y permitir que todos los usuarios puedan crear y unirse a una reunión de Skype Difundir presentación. Para ver cuáles son esos requisitos, consulte [Configurar la implementación local para la Difusión de reunión de Skype](https://go.microsoft.com/fwlink/?LinkId=617070).
+Si tiene un Skype para la organización en línea de negocio y una implementación local de Lync Server 2010, Microsoft Lync Server 2013 y Skype para Business Server 2015 y tienen los usuarios tanto en línea y local, hay otros pasos de configuración que debe llevar a cabo en Además de las anteriores para habilitar la organización local para comunicarse con Skype para profesionales en línea y permitir que todos los usuarios para unirse a una reunión de Skype Difundir presentación. Para ver cuáles son esos requisitos, consulte [Configurar la implementación local para la Difusión de reunión de Skype](https://go.microsoft.com/fwlink/?LinkId=617070).
 
 ## <a name="related-topics"></a>Temas relacionados
 

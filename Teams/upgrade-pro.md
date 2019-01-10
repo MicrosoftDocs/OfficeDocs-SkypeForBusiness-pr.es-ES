@@ -1,5 +1,5 @@
 ---
-title: Actualizar Pro para equipos de Microsoft - equipos de Microsoft
+title: 'Actualización profesional para Microsoft Teams: Microsoft Teams'
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2613bd346a8780b23e1ca37fd37e148502e020c
-ms.sourcegitcommit: 4f848bba1b3522f1de573e3dac081906d47eb5ca
+ms.openlocfilehash: 9a849e9c6ab5934252f5bae1cbd26542f3393d57
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25719130"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789387"
 ---
 # <a name="upgrade-pro"></a>Actualice Pro
 
@@ -61,7 +61,7 @@ Para ayudar a demostrar cómo es posible que se desdoblan su viaje por la actual
 |**1**     |**Evaluar el entorno existente para identificar riesgos y requisitos**         |Mediante la evaluación de su entorno, identificar los riesgos y los requisitos que se va a influir en la implementación general. Mediante la identificación de estos elementos de forma proactiva, puede ajustar la planeación ayudar a garantizar el éxito.         |[Evaluación del entorno antes de actualizar a los equipos](upgrade-plan-journey-evaluate-environment.md)         |
 |**2**     |**Completar la incorporación técnica de Office 365 y los equipos**        |Aprovechamiento de listas de comprobación de incorporación existentes para identificar las tareas y actividades para llevar a cabo la preparación técnica para la colaboración y las capacidades de voz con los equipos.         |[Preparar su servicio para la actualización a los equipos](upgrade-prepare-environment-prepare-service.md)         |
 |**3**     |**Optimizar el rendimiento de red de los equipos, especialmente para escenarios multimedia en tiempo real**         |Si va a implementar las reuniones, audio o vídeo, puede realizar algunos pasos adicionales para optimizar la red para que la funcionalidad. Los equipos utiliza audio y vídeo tecnología (códecs) que puede adaptarse a&mdash;y por lo tanto, tener un mejor rendimiento en&mdash;más de las condiciones de la red. Para garantizar un rendimiento óptimo y coherente, debe preparar la red para los equipos.          |[Preparar la red para la actualización a los equipos](upgrade-prepare-environment-prepare-network.md)         |
-|**4**     |**Evaluar la preparación de cambios en la organización y casos de uso clave y roles**        |Para obtener el valor de los equipos, los usuarios deben usarlo realmente. Permitir a los equipos no garantiza que logre su objetivo. Los usuarios tienen distintos casos de uso y diferentes estilos de aprendizaje y se adapten a la nueva tecnología a diferentes velocidades.  Descripción de la base de usuarios permite preparar el nivel adecuado de formación para facilitar y acelerar la adopción de usuario.         |[Preparación de cambios en la organización](upgrade-org-change-readiness.md#organizational-change-readiness)<br><br>[Casos de uso](upgrade-org-change-readiness.md#use-cases)<br><br>[Roles](upgrade-org-change-readiness.md#personas)           |
+|**4**     |**Evalúe la preparación de los cambios en la organización**        |Para obtener el valor de los equipos, los usuarios deben usarlo realmente. Permitir a los equipos no garantiza que logre su objetivo. Los usuarios tienen distintos casos de uso y diferentes estilos de aprendizaje y se adapten a la nueva tecnología a diferentes velocidades.  Descripción de la base de usuarios permite preparar el nivel adecuado de formación para facilitar y acelerar la adopción de usuario.         |[Preparación de cambios en la organización](upgrade-org-change-readiness.md#organizational-change-readiness)           |
 |**5**     |**Preparar un plan de preparación del usuario para definir cómo va a comunicarse, aprendizaje y admitir usuarios**         |Asegúrese de receptiveness óptima para la nueva tecnología, use una combinación de amplio alcance mensajería (incorporar la visión y valor de mensajería y casos de uso universal) y la mensajería, formación y admitir adaptadas a los roles y las cohortes que haya definido y también a sus rezagados, según corresponda. Este plan personalizado le ayudará a facilitar la adopción de usuario mediante la habilitación de los usuarios relacionar con mayor rapidez a los equipos, durante la demostración de que comprende sus necesidades. Esto puede usarse como piloto, incorporado y actualización a los equipos.         |[Preparar un plan de preparación del usuario](upgrade-user-readiness.md)<br><br>[Kit de actualización correcta](https://aka.ms/UpgradeSuccessKit)<br><br>[Aprendizaje de vídeo de los equipos](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)<br><br>[Cambiar a los equipos de Skype para la empresa](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)       |
 |**6**     |**Anunciar el lanzamiento de Microsoft Teams pendiente**       |Comunicarse con los usuarios anticipado ayuda a los usuarios haremos incluido, reduce la confusión genera diversión sobre Microsoft Teams, ayudar a acelerar la actualización de Skype para la empresa a través del tiempo.          | [Kit de actualización correcta](https://aka.ms/UpgradeSuccessKit)         |
 |**7**     |**Preparar su personal de TI para los equipos**         |Los administradores de inquilinos de Office 365, técnicas y clientes potenciales, servicio de asistencia técnica son responsables de tiende a una experiencia de usuario de alta calidad. Esto incluye asegurarse de que la red está preparada admitir los equipos, configurar los equipos para los usuarios y ser capaz de solucionar problemas de forma eficaz y resolver los problemas que puedan surgir.         |[Preparar su personal de TI para Microsoft Teams](https://docs.microsoft.com/microsoftteams/upgrade-prepare-it-pros)<br><br>[Kit de actualización correcta](https://aka.ms/UpgradeSuccessKit)       |
@@ -82,7 +82,7 @@ Para ayudar a demostrar cómo es posible que se desdoblan su viaje por la actual
 |Paso  |  |Resumen |Recurso |
 |---------|---------|---------|---------|
 |**1**     |**Anunciar el lanzamiento oficial de los equipos**       |Comunicarse con los usuarios sobre el inicio de su lanzamiento organizativa de los equipos para garantizar el conocimiento del producto y land valor y se benefician con los usuarios. Considere la posibilidad de varios formularios de comunicación, incluidos un evento de lanzamiento y el correo electrónico.         |[Kit de actualización correcta](https://aka.ms/UpgradeSuccessKit)          |
-|**2**     |**Habilitar el modo de coexistencia adecuados para los usuarios**         |Siga los pasos para establecer los modos de coexistencia adecuada para su organización.         |[Establecer las opciones de actualización y coexistencia](setting-your-coexistence-and-upgrade-settings.md)         |
+|**2**     |**Habilitar el modo de coexistencia adecuados para los usuarios**         |Siga los pasos para establecer los modos de coexistencia adecuada para su organización.         |[Configurar su coexistencia y la configuración de actualización](setting-your-coexistence-and-upgrade-settings.md)         |
 |**3**     |**Mantenerse informado acerca de la guía básica de los equipos**       |Supervisar la guía básica de los equipos y evaluar continuamente la preparación de la organización para identificar el momento adecuado para su organización mover a los equipos.         |[Guía básica de los equipos](https://aka.ms/teamsroadmap)         |
 |**4**     |**Enviar comunicaciones adicionales e integrarse a campeones de los equipos a unidad** diversión y adopción de los equipos       |Fomentar la adopción de usuario y mantener diversión para los equipos con communications continuada y Campeones.          |[Programa de campeones de Microsoft 365](https://aka.ms/O365Champions)         |
 

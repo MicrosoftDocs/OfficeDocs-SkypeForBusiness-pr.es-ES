@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c70519fc328b74a6269d4ed767d9223b8deca83d
-ms.sourcegitcommit: bb4e7dec155dee358bec9d6e586730dae0b8f559
+ms.openlocfilehash: f27acda0494a436cf4d4bb7b47f91fda2bb42f22
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2018
-ms.locfileid: "27371182"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789365"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de definición del proyecto] (media/upgrade-banner-project-definition.png "Fases de la actualización viaje, con especial hincapié en la fase de definición del proyecto")
 
@@ -59,9 +59,11 @@ En este modo de coexistencia, los usuarios permanecen en Skype para la empresa: 
 
 ### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-in-calendar-year-2019"></a>Sólo los equipos (este modo iniciado sucesivas desproteger verano 2018 y se completará para todos los inquilinos en el año de Calendario 2019)
 
+Un usuario de **los equipos sólo** solo puede usar la Skype para cliente empresarial para unirse a Skype existente para reuniones de negocios o reuniones en Skype para la empresa que se han organizado por los usuarios que no sean actualizado o partes externas. Un usuario actualizado puede continuar para comunicarse con otros usuarios de la organización que todavía se están utilizando la Skype para la empresa mediante el uso de las capacidades de la interoperabilidad entre los equipos y Skype para la empresa; Sin embargo, un usuario actualizado no puede iniciar un Skype para chat empresarial, la llamada o reunión.
+
 Tan pronto como su organización está preparada para algunos o todos los usuarios usar los equipos como su herramienta de comunicaciones y colaboración sólo, puede actualizar esos usuarios a modo de **Sólo los equipos** .
 
-Un usuario de **los equipos sólo** solo puede usar la Skype para cliente empresarial para unirse a Skype existente para reuniones de negocios o reuniones en Skype para la empresa que se han organizado por los usuarios que no sean actualizado o partes externas. Un usuario actualizado puede continuar para comunicarse con otros usuarios de la organización que todavía se están utilizando la Skype para la empresa mediante el uso de las capacidades de la interoperabilidad entre los equipos y Skype para la empresa; Sin embargo, un usuario actualizado no puede iniciar un Skype para chat empresarial, la llamada o reunión.
+Para obtener consideraciones adicionales acerca de cómo mover al modo de sólo los equipos, vea [Consideraciones acerca del modo sólo los equipos](teams-only-mode-considerations.md).
 
 ![Skype para cliente empresarial que se ejecuta en un modo especial después de actualiza el usuario como un usuario solo los equipos] (media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Skype para cliente empresarial que se ejecuta en un modo especial después de actualiza el usuario como un usuario solo los equipos")
 

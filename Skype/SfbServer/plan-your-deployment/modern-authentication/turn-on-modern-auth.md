@@ -11,12 +11,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: En este artículo los cmdlets de esquemas que ofrecen a los administradores más control de métodos de autenticación usado interior y exterior, de una empresa. Los administradores pueden activar los métodos de autenticación o desactivada interna o externamente a su red.
-ms.openlocfilehash: 8350e1b6f3bae27c3b8355b0dee3b737bccaf655
-ms.sourcegitcommit: bb4e7dec155dee358bec9d6e586730dae0b8f559
+ms.openlocfilehash: 1761722bca624451b1cfc6acc28bed7b00eabe6d
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2018
-ms.locfileid: "27371189"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789263"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planeación desactivar los métodos de autenticación Legacy interna y externamente a su red.
 
@@ -82,6 +82,10 @@ Además, si hay sólo una función presente para un grupo de servidores:
 * Si ambas funciones están presentes para un grupo de servidores, pero no se definen las directivas en el nivel de grupo de servidores, Get-realizarán devolver un mensaje de error.
 
 Es posible que wisest a hacer un Get-para estos valores y para captura de pantalla o para registrar su estado inicial antes de realizar cambios. También es posible que considere la posibilidad de mantener un registro de cambios en un OneNote.
+
+> [!NOTE]
+> 
+> Nota: Después de configurar el CsAuthConfig, debe ejecutar Enable-CsComputer en cada equipo para que la configuración surta efecto.
 
 > [!IMPORTANT]
 > Si está utilizando Lync Web Access (LWA) y debe usar Access basada en formularios (FBA) para el acceso externo, reconfigurar LWA de modo que los clientes pueden tener acceso a él con el acceso anónimo para admitir estos escenarios. Del mismo modo, si usa el Pin de acceso telefónico, se bloqueará FBA para sólo a los usuarios externos. Si tiene que cambiar su NIP, deben iniciar sesión en su corporation para hacerlo, internamente.

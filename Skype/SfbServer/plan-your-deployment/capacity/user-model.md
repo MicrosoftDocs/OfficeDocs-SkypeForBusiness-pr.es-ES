@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: En este artículo se proporciona orientación sobre cuántos servidores necesita en un sitio para el número de usuarios en ese sitio, según el uso descrito en modelos de usuario de Skype para Business Server.
-ms.openlocfilehash: 3a1838200e4590649fd290530a50fba3015b670f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 1e802bc130086bcefc8fd06cbacd3f21222d6d0a
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261605"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789408"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>Planificación de capacidad uso del modelo de usuario de Skype para Business Server
 
@@ -33,9 +33,9 @@ Hemos finalizado nuestras pruebas de rendimiento en el hardware que se describe 
 |**Componente de hardware**|**Recomendado**|
 |:-----|:-----|
 |CPU  <br/> |Procesador dual de 64 bits, seis núcleos y 2,26 gigahercios (GHz) o superior.  <br/> Los procesadores Intel Itanium no se admiten para Skype para funciones de servidor de Business Server.  <br/> |
-|Memoria  <br/> |32 gigabytes (GB).  <br/> &bull;&nbsp;&nbsp;unidades de disco duro 8 o más de 10.000 RPM con al menos 72 GB de espacio libre de espacio en disco.  <br/> Dos de los discos deben usar RAID 1 y seis deben usar RAID 10.  <br/> O BIEN   <br/> &bull;&nbsp;&nbsp;Unidades de estado sólido (SSD) que proporcionan un rendimiento similar a 8 unidades de disco mecánicas de 10.000 RPM.  <br/> |
-|Disco  <br/> ||
-|Red  <br/> |&bull;&nbsp;&nbsp;1 adaptador de red de doble puerto, 1 Gbps o superior (se recomiendan 2 unidades, lo que requiere la formación de equipos con una sola dirección MAC y una única dirección IP).  <br/> |
+|Memoria  <br/> |32 gigabytes (GB).  <br/> |
+|Disco  <br/> |8 o más unidades de disco duro de 10 000 RPM con al menos 72 GB de espacio libre en disco. Dos de los discos deben usar RAID 1 y seis deben usar RAID 10.  <br/> O BIEN  <br/>Unidades de estado sólido (SSD) que ofrecen un rendimiento similar a 8 unidades de disco mecánicas de 10.000 RPM. <br/> |
+|Red  <br/> |1 adaptador de red de puerto doble, 1 Gbps o superior (recomendado: 2, lo que requiere la formación de equipos con una sola dirección MAC y una sola dirección IP).  <br/> |
 
 ## <a name="summary-of-results"></a>Resumen de los resultados
 
@@ -81,7 +81,7 @@ En la siguiente tabla se muestra el ancho de banda medio para mensajería instan
 |1,3 Kbps  <br/> |13 Mbps  <br/> |
 
 > [!NOTE]
-> Para mejorar el rendimiento de medios de la co-autoría encuentra A / funcionalidad de conferencia A/v y el servidor de mediación en los servidores Front-End, debe habilitar el lado de recepción (RSS) de escala en los adaptadores de red en los servidores Front-End. La RSS permite que varios procesadores en el servidor gestionen los paquetes entrantes. Para obtener información detallada, vea [Recibir del ajuste de escala (RSS) en la documentación de Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=620365). Para más información sobre cómo habilitar RSS, vea la documentación de su adaptador de red.
+> Para mejorar el rendimiento de medios de la co-autoría encuentra A / funcionalidad de conferencia A/v y el servidor de mediación en los servidores Front-End, debe habilitar el lado de recepción (RSS) de escala en los adaptadores de red en los servidores Front-End. RSS permite que varios procesadores del servidor administren en paralelo los paquetes entrantes. Para más información, vea [Ajuste de escala en lado de recepción (RSS) en la documentación de Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=620365). Para más información sobre cómo habilitar RSS, vea la documentación de su adaptador de red.
 
 ## <a name="conferencing-maximums"></a>Máximos de conferencia
 
@@ -105,7 +105,7 @@ Debe implementar un servidor perimetral para cada 12.000 usuarios remotos tengan
 Cuando calcule el número de usuarios para los servidores perimetrales, incluya los usuarios hospedados en aplicaciones de sucursal con funciones de supervivencia y servidores de sucursal con funciones de supervivencia en sucursales que están asociadas con un grupo de servidores Front-End en este sitio.
 
 > [!NOTE]
-> Para mejorar el rendimiento del servicio perimetral de conferencia en los servidores perimetrales, debe habilitar el lado de recepción escala (RSS) en los adaptadores de red en los servidores perimetrales. La RSS permite que varios procesadores en el servidor gestionen los paquetes entrantes. Para obtener información detallada, consulte "[Recibir del ajuste de escala (RSS) en Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". Para más información sobre cómo habilitar RSS, vea la documentación de su adaptador de red.
+> Para mejorar el rendimiento del servicio perimetral de conferencia en los servidores perimetrales, debe habilitar el lado de recepción escala (RSS) en los adaptadores de red en los servidores perimetrales. RSS permite que varios procesadores del servidor administren en paralelo los paquetes entrantes. Para obtener información detallada, consulte "[Recibir del ajuste de escala (RSS) en Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". Para más información sobre cómo habilitar RSS, vea la documentación de su adaptador de red.
 
 ## <a name="director"></a>Director
 
@@ -149,13 +149,13 @@ Las siguientes tablas suponen uso como se resume en los [modelos de usuario de S
 > Este número es mucho menor que los números para el servidor de mediación independiente. Que es debido a que el servidor Front-End tiene que controlar otras características y funciones para los 6600 usuarios hospedados en él, además de la transcodificación necesario para las llamadas de voz.
 
 > [!NOTE]
-> Para mejorar el rendimiento del servidor de mediación, debe habilitar el lado de recepción escala (RSS) en los adaptadores de red en los servidores de mediación. La RSS permite que varios procesadores en el servidor gestionen los paquetes entrantes. Para obtener información detallada, vea "[Receive-Side Scaling en Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". Para más información sobre cómo habilitar RSS, vea la documentación de su adaptador de red.
+> Para mejorar el rendimiento del servidor de mediación, debe habilitar el lado de recepción escala (RSS) en los adaptadores de red en los servidores de mediación. RSS permite que varios procesadores del servidor administren en paralelo los paquetes entrantes. Para obtener información detallada, vea "[Receive-Side Scaling en Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". Para más información sobre cómo habilitar RSS, vea la documentación de su adaptador de red.
 
 ## <a name="back-end-server"></a>Servidor back-end
 
 Aunque gran parte de la información de la base de datos se almacena principalmente en los servidores Front-End, debe asegurarse de que los servidores Back-End cumple las recomendaciones de hardware enumeradas anteriormente en esta sección y en [Plataformas de Hardware de servidor](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
 
-Para proporcionar una alta disponibilidad de su servidor Back-End, se recomienda implementar grupos de disponibilidad AlwaysOn o la creación de reflejo de servidor. Para obtener más información, vea [servidor Back-End de alta disponibilidad en Skype para Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
+Para proporcionar una alta disponibilidad de su servidor Back-End, se recomienda implementar grupos de disponibilidad AlwaysOn o la creación de reflejo de servidor. Para más información, vea [Back End Server high availability in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
 
 ## <a name="monitoring-and-archiving"></a>Supervisión y archivado
 
