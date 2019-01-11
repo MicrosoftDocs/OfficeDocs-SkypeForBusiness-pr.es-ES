@@ -1,5 +1,5 @@
 ---
-title: Herramientas y descargas para adopción
+title: Herramientas y descargas para la adopción
 description: Use estos recursos de adopción que le ayudarán a estimular la adopción de Microsoft Teams y otros servicios de Office 365.
 layout: LandingPage
 ms.topic: landing-page
@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d7bf96f5da37b4f70ea24025e18b96a1061a483
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 9a01c837924f0499b9378d88b9ed6d7e70c9ba91
+ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699704"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27896142"
 ---
 # <a name="tools-for-driving-adoption"></a>Herramientas para conducir adopción 
 
@@ -144,3 +144,6 @@ Use las siguientes herramientas para cada fase del plan de adopción de servicio
 
 ### <a name="office-365-champions-program"></a>Programa de campeones de Office 365
 El programa de campeones de Office 365 es un programa gratuito que ayuda a las personas que desean obtener más provecho de Microsoft Teams y otros servicios de Office 365. Nuestra comunidad en línea en la [Comunidad técnica de Microsoft](https://aka.ms/DriveAdoption) se combina con las llamadas de la Comunidad mensual que resaltan todos los componentes de promoviendo la adopción de gobierno a los procedimientos recomendados para las nuevas características. Participar en nuestra comunidad en https://aka.ms/O365Champions y obtener acceso a la versión preliminar, escuchar desde otros clientes y aprender de los expertos de Microsoft.  
+
+### <a name="teams-adoption-guide"></a>Guía de adopción de los equipos
+Desprotección de esta guía en línea que le ayudarán a desplegar en los equipos de su compañía. Incluye muchas herramientas que se pueden descargar, plantillas y otros recursos que le ayudarán a lo largo de su viaje por la adopción de los equipos.
