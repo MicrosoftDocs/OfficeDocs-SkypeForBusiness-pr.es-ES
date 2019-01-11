@@ -15,12 +15,12 @@ ms.custom: Adopt
 ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b59da606f908334768fbe249bc40df87282caf5a
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: d8413bdf3bbcc2bcb4b172d46a84b7a46bd7d190
+ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699720"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27896126"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Descripción de los equipos y canales en Microsoft Teams
 
@@ -30,12 +30,13 @@ Los conceptos de los equipos y canales son fundamentales para una implementació
 
 - Los canales son los espacios de colaboración dentro de un equipo en el que se realiza el trabajo real. 
 
-Para obtener más información acerca de los equipos y canales, consulte la [información general de los equipos y los canales en los equipos de Microsoft](teams-channels-overview.md). Para obtener más información acerca de los equipos y grupos de Office 365, vea [Office 365 grupos y equipos de Microsoft](office-365-groups.md) y [Obtenga más información acerca de los grupos de Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Para obtener más información acerca de los equipos y canales, consulte la [información general de los equipos y los canales en los equipos de Microsoft](teams-channels-overview.md). Para obtener instrucciones exhaustiva sobre la adopción de los equipos, obtenga la [Guía de adopción de los equipos](https:aka.ms/teamstoolkit). Para obtener más información acerca de los equipos y grupos de Office 365, vea [Office 365 grupos y equipos de Microsoft](office-365-groups.md) y [Obtenga más información acerca de los grupos de Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
 |  |  |
 |---------|---------|
 | Vea este vídeo corto   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+
 
 
 Tipos de acceso de equipo determinan que puede unir a un equipo:

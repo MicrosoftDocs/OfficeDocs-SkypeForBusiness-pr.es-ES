@@ -1,5 +1,5 @@
 ---
-title: Guía de inicio rápido - Microsoft Teams
+title: 'Inicio rápido: Microsoft Teams'
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 929e669cc360f5f072399b1e533db00758e1416e
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: b99dc3b0aff15c417ef58affb6ac4fab5638f61c
+ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26520060"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27896134"
 ---
 # <a name="quick-start---microsoft-teams"></a>Guía de inicio rápido - Microsoft Teams
 
@@ -43,3 +43,5 @@ Asegúrese de que tiene las licencias de los equipos de todo el mundo. Desproteg
 
 ## <a name="next-steps"></a>Pasos siguientes
 Vaya a [crear su primer equipos y canales](get-started-with-teams-create-your-first-teams-and-channels.md).
+
+Consulte la [Guía de adopción de los equipos](https://aka.ms/teamstoolkit).

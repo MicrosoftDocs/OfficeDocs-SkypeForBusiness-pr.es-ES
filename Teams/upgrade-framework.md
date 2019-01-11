@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1facd38b3ae5e55b0928127aa054d80e7445210
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: e205eeb00373e66271c98405209df69b272f89a4
+ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27791744"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27896150"
 ---
 # <a name="about-the-upgrade-framework"></a>Acerca del marco de actualización
 
@@ -44,7 +44,8 @@ Para ayudar a demostrar cómo es posible que se desdoblan su viaje por la actual
 
 **Prepare la organización para los equipos**. Para ayudar a garantizar una correcta actualización a los equipos, es importante asignar tiempo suficiente para la preparación del. No sólo a su organización puedan iniciar rápidamente darse cuenta el valor de los equipos, podrá acelerar la actualización de Skype para la empresa tan pronto como está listo para los equipos. Si ya ha habilitado los equipos junto con Skype para la empresa, use estas actividades previa a la actualización como un punto de comprobación para validar la preparación de su organización antes de actualizar a los usuarios a los equipos. 
 
-> [SUGERENCIA] Descargue el [Kit de actualización de éxito](https://aka.ms/UpgradeSuccessKit) para materiales de preparación de usuario de plantilla, como las comunicaciones y encuestas de usuario, además de un ejemplo de plan de actualización del proyecto piloto de pruebas y plan. Los elementos que están disponibles en el kit se marcan con un asterisco (*) en las listas de abajo.
+> [!TIP]
+> Descargue el [Kit de actualización de éxito](https://aka.ms/UpgradeSuccessKit) para materiales de preparación de usuario de plantilla, como las comunicaciones y encuestas de usuario, además de un ejemplo de plan de actualización del proyecto piloto de pruebas y plan. Los elementos que están disponibles en el kit se marcan con un asterisco (*) en las listas de abajo.
 
 ### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>Plan: Crear un plan de actualización para ayudar a garantizar que su organización está configurada para el éxito a largo plazo
 
