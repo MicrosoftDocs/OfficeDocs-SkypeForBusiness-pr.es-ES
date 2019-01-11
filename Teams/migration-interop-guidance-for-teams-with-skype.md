@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d252b95496a3d86eb9667fd6dec9256d7ad98a00
-ms.sourcegitcommit: b67c2cb5ffd6d27cc9257c5e81ee1ea494ef8bd1
+ms.openlocfilehash: 6d5bd0fc2e476e256d94717a1f77d1c30d880ddf
+ms.sourcegitcommit: cdaef5d0f7e1dbd1d934151152f40ad141b7bf83
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "27382681"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27895985"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial
 
@@ -90,7 +90,7 @@ TeamsUpgradePolicy expone dos propiedades claves: modo y NotifySfbUsers.
 
 |Parámetro|Tipo|Valores permitidos</br>(valor predeterminado en cursiva)|Descripción|
 |---|---|---|---|
-|Modo|Enum|*Islas*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>Heredado|Indica el modo en que se debe ejecutar en el cliente. Si el modo = Legacy, componentes de consumo de esta directiva se revertirán a teniendo en cuenta y TeamsInteropPolicy. TeamsUpgradePolicy ahora es totalmente compatible y los clientes deben actualizar sus modos de uso de las configuraciones que no sean heredados.|
+|Modo|Enum|*Islas*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>SfBWithTeamsCollabAndMeetings</br>Heredado|Indica el modo en que se debe ejecutar en el cliente. Si el modo = Legacy, componentes de consumo de esta directiva se revertirán a teniendo en cuenta y TeamsInteropPolicy. TeamsUpgradePolicy ahora es totalmente compatible y los clientes deben actualizar sus modos de uso de las configuraciones que no sean heredados.|
 |NotifySfbUsers|Booleano|*False* o true|Indica si se debe mostrar una pancarta en la Skype para clientes empresariales que informa al usuario que los equipos pronto reemplazará Skype para la empresa. Esto no puede ser true si el modo = TeamsOnly.|
 |||||
 
