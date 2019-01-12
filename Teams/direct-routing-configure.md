@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Obtenga información sobre cómo configurar el enrutamiento directo de Microsoft teléfono del sistema.
-ms.openlocfilehash: cf856989cd4f87f4b46e1eb36cbeb403bf92b029
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: d7744841b99e343339624314a94d95ab9472fa85
+ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297914"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "27988290"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -81,7 +81,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
 ```
   > [!NOTE]
   > 1. Se recomienda establecer un límite para el SBC, uso de la información que se encuentra en la documentación de SBC. El límite activará una notificación si SBC está en el nivel de capacidad.
-  > 2. Sólo puede emparejar la SBC con FQDN, donde la parte del dominio del nombre coincide con uno de los dominios registrados en el inquilino, excepto \*. onmicrosoft.com. Uso de \*. omicrosoft.com los nombres de dominio no es compatible con los nombres de SBC FQDN. Por ejemplo, si tiene dos nombres de dominio:<br/><br/>
+  > 2. Sólo puede emparejar la SBC con FQDN, donde la parte del dominio del nombre coincide con uno de los dominios registrados en el inquilino, excepto \*. onmicrosoft.com. Uso de \*. onmicrosoft.com los nombres de dominio no es compatible con los nombres de SBC FQDN. Por ejemplo, si tiene dos nombres de dominio:<br/><br/>
   > **Contoso**.com<br/>**Contoso**. onmicrosoft.com<br/><br/>
   > Para el nombre SBC, puede usar el nombre sbc.contoso.com. Si se intenta emparejar la SBC con un nombre sbc.contoso.abc, el sistema no le, como el dominio no pertenece a este inquilino.
 

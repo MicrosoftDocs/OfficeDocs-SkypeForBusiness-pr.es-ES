@@ -15,24 +15,23 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5172781911a944b5fd25042260cebdd77a48ddaa
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 6e50992aa8489d93b577e957cffc98c18e7cc15e
+ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013870"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "27988181"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurar la administración para aplicaciones en Microsoft Teams
 ==========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Aplicaciones son las fichas, conectores, bots o cualquier combinación de estos tres, proporcionada por un servicio de terceros. Existen las directivas de administración de los equipos que se pueden configurar en el centro de administración de Office 365 para controlar qué aplicaciones de otros fabricantes externos están permitidas. Estas directivas le permiten especificar qué aplicaciones están permitidos y no permitidos, nuevo comportamiento de la aplicación externa, y si se permite la carga de lado aplicaciones.
+Aplicaciones son las fichas, conectores, bots o cualquier combinación de estos tres, proporcionada por y los equipos (aplicaciones de cookies, también conocido como aplicaciones de forma predeterminada) o por un tercero (también conocido como aplicaciones externas). En el centro de administración de Microsoft 365, puede habilitar y deshabilitar aplicaciones predeterminadas y configurar las opciones para controlar las aplicaciones externas. Esta configuración permite especificar qué aplicaciones externas permitidas y no permitidos, nuevo comportamiento de la aplicación externa, y si se permite la carga de lado aplicaciones.
 
-> [!NOTE]
-> Para ajustar la configuración de la administración de aplicaciones en Microsoft Teams, vaya al Centro de administración de Office 365, abra **Configuración** > **Servicios y complementos**, y seleccione **Microsoft Teams**. Si ha iniciado sesión como administrador de Office 365, puede acceder con este vínculo:
-> 
-> https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
+ Para administrar la configuración de administración de aplicaciones en los equipos, vaya al centro de administración de Microsoft 365 y elija **configuración** > **Services & complementos** > **Equipos de Microsoft**. Si ha iniciado sesión como administrador de Office 365, puede acceder con este vínculo:
+
+https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
 
 Si desea más información sobre la configuración de administrador para las aplicaciones, consulte el siguiente vídeo: 
  
@@ -42,7 +41,7 @@ Si desea más información sobre la configuración de administrador para las apl
 
 ## <a name="allow-external-apps-in-teams"></a>Permitir aplicaciones externas en Microsoft Teams
 
-De manera predeterminada, la opción **Permitir aplicaciones externas en Microsoft Teams** está activada con todas las aplicaciones seleccionadas.  Si desactiva este conmutador, se desactivarán todas las aplicaciones externas de terceros. 
+De manera predeterminada, la opción **Permitir aplicaciones externas en Microsoft Teams** está activada con todas las aplicaciones seleccionadas.  Si desactiva esta opción, se deshabilitan todas las aplicaciones de otros fabricantes externas. 
 
 ## <a name="enable-new-external-apps-by-default"></a>Habilitar nuevas aplicaciones externas de manera predeterminada
 
@@ -53,13 +52,13 @@ Para activar algunas aplicaciones (y desactivar otras), desactive **Permitir la 
 > [!NOTE]
 > Aplicaciones predeterminadas, como los creados por Microsoft, no se ven afectadas por la configuración de **Habilitar las nuevas aplicaciones externas de forma predeterminada** . Nuevas aplicaciones están habilitadas de forma predeterminada cuando publicadas por Microsoft.
 
-Cuando este conmutador está activado, los usuarios pueden activar nuevas aplicaciones en cuanto estas se agregan al catálogo de aplicaciones de Microsoft Teams. Para abrir el catálogo de aplicaciones de Microsoft Teams, haga clic en **Tienda** en la parte inferior de Microsoft Teams y después en **Aplicaciones**. Si desea controlar qué aplicaciones están disponibles, desactive este conmutador. Si lo desactiva, deberá recordar revisar periódicamente las nuevas incorporaciones para que su organización no se pierda las nuevas aplicaciones de interés. 
+Cuando esta opción está activada, los usuarios pueden activar las nuevas aplicaciones tan pronto como el que se agregan al catálogo de aplicaciones de los equipos. Para abrir el catálogo de aplicaciones de Microsoft Teams, haga clic en **Tienda** en la parte inferior de Microsoft Teams y después en **Aplicaciones**. Si desea controlar qué aplicaciones están disponibles, desactivar esta configuración. Si lo desactiva, deberá recordar revisar periódicamente las nuevas incorporaciones para que su organización no se pierda las nuevas aplicaciones de interés. 
 
 La instalación de prueba es la forma en que se agrega una aplicación a Microsoft Teams mediante la carga de un archivo zip directamente a un equipo. La instalación de prueba le permite probar una aplicación en fase de desarrollo. También le permite crear una aplicación solo para el uso interno y compartirla con su equipo sin enviarla al catálogo de aplicaciones de Microsoft Teams en la Tienda Office. 
 
 La instalación de prueba de aplicaciones en Microsoft Teams la pueden realizar únicamente los propietarios del equipo o los miembros con los permisos adecuados.  
 
-![Captura de pantalla de la sección aplicaciones expandida en configuración de todo el inquilino.](media/Admin_settings_for_apps_in_Microsoft_Teams_image2.png)
+![Captura de pantalla de la sección de aplicaciones externas expandida.] (media/teams-tenant-wide-settings-external-apps.png "Captura de pantalla de la sección aplicaciones externas expandida que muestra aplicaciones externas")
 
 ## <a name="creating-and-uploading-app-packages"></a>Crear y cargar paquetes de aplicaciones 
 
