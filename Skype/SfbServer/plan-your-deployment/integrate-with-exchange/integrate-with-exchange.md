@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Resumen: Revise este tema para obtener información acerca de cómo integrar Skype para Business Server con Exchange Server 2016 o Exchange Server 2013.'
-ms.openlocfilehash: 327a564e9c7a0a73ef178866f511c75388ac14bc
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 13be5cf29369b84db74052b36dec288220b91395
+ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789401"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015343"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Plan para la integración de Skype Empresarial y Exchange
  
@@ -108,7 +108,7 @@ En la siguiente tabla se detalla las características admitidas en diversas comb
 |Historial de conversaciones en el servidor  <br/> |Y  <br/> |Y  <br/> |N  <br/> |Y  <br/> |Y  <br/> |
 
 > [!NOTE]
-> No hay un servicio de correo de voz en la nube que es compatible con Skype para empresarial en línea, Skype para Business Server 2019, Skype para Business Server 2015 y Skype para Business Server 2013.
+> No hay un servicio de correo de voz en la nube que se admite para Skype para profesionales en línea, Skype para Business Server 2019, Skype para Business Server 2015 y Lync Server 2013.
 > 
 
 ## <a name="see-also"></a>Vea también

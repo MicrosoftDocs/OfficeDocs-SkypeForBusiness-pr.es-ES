@@ -12,12 +12,12 @@ description: Guía práctica para implementar características de voz en la nube
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1819aa33dd951483754f4c00377865460a3765ff
-ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
+ms.openlocfilehash: 085f2ff382c33f6914454fd1633054fd3e4602ca
+ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26620086"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015336"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -38,8 +38,10 @@ Para que reuniones del usuario de los equipos que se registre, Microsoft Stream 
 - Usuario ha aceptado a las directrices de la compañía, si establecido por el administrador
 - El usuario tiene suficiente espacio de almacenamiento en Microsoft Stream para grabaciones que se guarde
 - El usuario tiene TeamsMeetingPolicy AllowCloudRecording configuración establecida en true
-- El usuario tiene TeamsMeetingPolicy AllowTranscription configuración establecida en true, por lo que el usuario puede elegir si desea transcribir automáticamente las grabaciones
 - Usuario no es un anónimo, invitado o usuario federado en la reunión
+
+> [!NOTE]
+> Además, para permitir que la persona que inicia la grabación de elegir si desea transcribir automáticamente la grabación, la configuración del usuario TeamsMeetingPolicy - AllowTranscription debe estar establecida en true
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Configurar la grabación de la reunión los equipos en la nube para los usuarios de su organización
 
@@ -90,7 +92,7 @@ Cuando los usuarios grabar sus reuniones de los equipos, puede confirmar si se d
 
 Use la opción AllowTranscription en TeamsMeetingPolicy en los equipos de PowerShell para controlar si un iniciador de grabación Obtiene una opción para transcribir la grabación de la reunión. Encontrará más información acerca de cómo administrar TeamsMeetingPolicy con Office 365 PowerShell [aquí](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
-A menos que haya asignado una directiva personalizada a los usuarios, reciben la directiva Global, que se ha deshabilitado habilitada de forma predeterminada.
+A menos que haya asignado una directiva personalizada a los usuarios, obtienen una directiva Global, que tiene AllowTranscription deshabilitado de forma predeterminada.
 
 Para que un usuario se retrocede a la directiva Global, use el siguiente cmdlet para quitar una asignación de directiva específica de un usuario:
 
