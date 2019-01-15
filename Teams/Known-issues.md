@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f649ebce7a1938961d1c9f9ef143617a863a924
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 9e0a74bf35a122a672f99e91c872eab77a6ce6cd
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297742"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789170"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -61,7 +61,7 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 |**Problema**|**Comportamiento/síntomas**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |Los autores de llamadas RTC con el mismo número "Desde" aparecen como el mismo usuario en la lista de la reunión.  <br/> |Cuando varios autores de llamadas RTC se unen a una reunión y sus identificadores de llamada se enmascaran como un solo número, se mostrarán como un único llamador en la lista de la reunión.  <br/> |No hay ninguna solución.  <br/> |25/09/2017  <br/> |
-|El panel de información de la reunión no aparece intermitentemente.  <br/> |Es posible que el panel de información de la reunión no se muestre en el cliente de Microsoft Teams cuando los usuarios intentan buscar números de teléfono de puente de conferencia o ids. de conferencia.  <br/> |Busque en los detalles de la reunión o en el calendario de Outlook los números de teléfono de puente de conferencia o los ids. de conferencia.  <br/> |25/09/2017  <br/> |
+|El panel de información de la reunión no aparece intermitentemente.  <br/> |Es posible que el panel de información de la reunión no se muestre en el cliente de Microsoft Teams cuando los usuarios intentan buscar números de teléfono de puente de conferencia o id. de conferencia.  <br/> |Busque en los detalles de la reunión o en el calendario de Outlook los números de teléfono de puente de conferencia o los id. de conferencia.  <br/> |25/09/2017  <br/> |
 |Las invitaciones a reuniones desde el complemento de Outlook muestran como caracteres dañados en las coordenadas RTC para las configuraciones regionales de fuera de EE. UU.  <br/> |Al programar reuniones privadas con el complemento de Outlook para Microsoft Teams en un equipo sin configuraciones regionales de fuera de EE. UU., las coordenadas RTC podrían tener caracteres dañados.  <br/> |No hay ninguna solución.  <br/> |25/09/2017  <br/> |
 |Las llamadas externas deben usar 5 dígitos o más.  <br/> |Los usuarios que intentan realizar llamadas externas desde una reunión deberán marcar 5 o más dígitos, aunque haya disponible una regla normativa de plan de marcado para normalizar la marcación de dígitos breve a E.164.  <br/> |Realice las llamadas externas escribiendo el número DID completo o el formato de número local en vez del número de extensión interna.  <br/> |25/09/2017  <br/> |
 |El control de llamadas externas no aparece intermitentemente.  <br/> |Es posible que el control de llamadas externas no esté visible desde el panel de información de la reunión.  <br/> |No hay ninguna solución.  <br/> |25/09/2017  <br/> |
@@ -163,7 +163,7 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|Los usuarios no pueden acceder a las reuniones o conectores, pero tienen buzones de Exchange Online. <br/> |El cliente bloquea activamente EWS de los servicios de Exchange Online, pero necesita tener Microsoft Teams en cumplimiento de las directivas de EWS. <br/> |Para que Microsoft Teams sea compatible, deberá agregar las siguientes cadenas de agente de usuario de MS Teams en EWSAllowList: `*skypespaces*` y `*microsoftninja*`, incluidos los asteriscos. Se puede usar el siguiente comando: `Set-organizationconfig -EwsAllowList @{Add="*MicrosoftNinja*","*SkypeSpaces*"}`<br/> Para obtener más información: https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps. <br/> |30/05/2017  <br/>|
+|Los usuarios no pueden acceder a las reuniones o conectores, pero tienen buzones de Exchange Online. <br/> |El cliente bloquea activamente EWS de los servicios de Exchange Online, pero necesita tener Microsoft Teams en cumplimiento de las directivas de EWS. <br/> |Para que MS Teams cumpla con la normativa, debe agregar las siguientes cadenas de agente de usuario para MS Teams en EWSAllowList: `*skypespaces*` y `*microsoftninja*`, incluidos los asteriscos. Se puede usar el siguiente comando: `Set-organizationconfig -EwsAllowList @{Add="*MicrosoftNinja*","*SkypeSpaces*"}`<br/> Para obtener más información: https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps. <br/> |30/05/2017  <br/>|
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
@@ -205,8 +205,7 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|Fotos de perfiles de usuario  <br/> | Actualmente, Teams no tiene un mecanismo para impedir que los usuarios cambien la foto. El equipo de BTS se ha reunido con el equipo de desarrollo que ha registrado el siguiente tema para su consideración: Característica 108874: Directiva de TI para deshabilitar la carga de fotos de perfil   <br/> | Si tiene clientes que desean tener la posibilidad de impedir la carga de fotos de perfilen Teams, avíseles que pueden agregar su voto y su caso de negocio en los comentarios: https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos
- <br/> |01/03/2017 <br/> |
+|Fotos de perfiles de usuario  <br/> | Actualmente, Teams no tiene un mecanismo para impedir que los usuarios cambien la foto. El equipo de BTS se ha reunido con el equipo de desarrollo que ha registrado el siguiente tema para su consideración: Característica 108874: Directiva de TI para deshabilitar la carga de fotos de perfil   <br/> | Si tiene clientes que desean tener la posibilidad de impedir la carga de fotos de perfilen Teams, avíseles que pueden agregar su voto y su caso de negocio en los comentarios: https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos <br/> |01/03/2017 <br/> |
 
 ## <a name="provisioning"></a>Aprovisionamiento
 
@@ -227,10 +226,6 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|La ficha Sitio web provoca la confusión de los clientes  <br/> |Las fichas Sitio web no son equivalentes a las de su explorador. Una serie de sitios, en especial los que requieren autenticación o el uso de ventanas emergentes, no funcionarán cuando se anclan como ficha de sitio web.  <br/> |Estamos trabajando en mejorar la interfaz de usuario para que sea más obvia para los clientes.  <br/> |02/05/2018  <br/> |
-
-|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
-|:-----|:-----|:-----|:-----|
 |Las fichas no funcionan desde que se habilitó el acceso condicional <br/> |Es posible que algunas fichas no se carguen más en el cliente de escritorio desde que se habilitó el Acceso condicional en el inquilino. Las fichas se cargan cuando se usa el cliente web. Algunas de las fichas que se pueden ver afectadas son: PowerBI, Forms, VSTS, PowerApps y SharePoint List.  <br/> |Para ver las fichas afectadas, deberá usar Microsoft Teams en Microsoft Edge, IE o Chrome con la extensión de cuentas de Windows 10 instalada. Algunas fichas todavía dependen de la autenticación web, que no funciona en el cliente de escritorio cuando la entidad de certificación está habilitada. Estamos trabajando con nuestros socios para habilitar estos escenarios; de momento hemos habilitado Planner, OneNote y Stream. <br/> |05/04/2018  <br/>|
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
@@ -247,7 +242,11 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|La ficha de la página de SharePoint muestra una pantalla blanca<br/> |Los dominios personales de SharePoint Online no se admiten actualmente. La experiencia del usuario es una pantalla blanca cuando se intenta agregar una ficha de página de SharePoint. <br/> |No hay ninguna solución. <br/> |20/08/2018  <br/>|
+|La ficha de la página de SharePoint muestra una pantalla blanca <br/> |Los dominios personales de SharePoint Online no se admiten actualmente. La experiencia del usuario es una pantalla blanca cuando se intenta agregar una ficha de página de SharePoint. <br/> |No hay ninguna solución. <br/> |20/08/2018  <br/>|
+
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|Ficha OneNote heredada  <br/> |Las fichas OneNote heredadas que se crearon durante la versión preliminar pública de Microsoft Teams no se pueden eliminar ni se les puede cambiar el nombre.  <br/> |No hay ninguna solución. <br/> |8/11/2017  <br/> |
 
 ## <a name="teams"></a>Microsoft Teams
 
