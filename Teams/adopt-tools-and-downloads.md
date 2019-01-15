@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a01c837924f0499b9378d88b9ed6d7e70c9ba91
-ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
+ms.openlocfilehash: 64041c7cf66e880374d8d52f68c7ec5def0de61c
+ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27896142"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015328"
 ---
 # <a name="tools-for-driving-adoption"></a>Herramientas para conducir adopción 
 
@@ -146,4 +146,7 @@ Use las siguientes herramientas para cada fase del plan de adopción de servicio
 El programa de campeones de Office 365 es un programa gratuito que ayuda a las personas que desean obtener más provecho de Microsoft Teams y otros servicios de Office 365. Nuestra comunidad en línea en la [Comunidad técnica de Microsoft](https://aka.ms/DriveAdoption) se combina con las llamadas de la Comunidad mensual que resaltan todos los componentes de promoviendo la adopción de gobierno a los procedimientos recomendados para las nuevas características. Participar en nuestra comunidad en https://aka.ms/O365Champions y obtener acceso a la versión preliminar, escuchar desde otros clientes y aprender de los expertos de Microsoft.  
 
 ### <a name="teams-adoption-guide"></a>Guía de adopción de los equipos
-Desprotección de esta guía en línea que le ayudarán a desplegar en los equipos de su compañía. Incluye muchas herramientas que se pueden descargar, plantillas y otros recursos que le ayudarán a lo largo de su viaje por la adopción de los equipos.
+Desprotección de la [serie de adopción de los equipos](https://aka.ms/teamstoolkit), una guía en línea que le ayudarán a desplegar en los equipos de su compañía. Incluye muchas herramientas que se pueden descargar, plantillas y otros recursos que le ayudarán a lo largo de su viaje por la adopción de los equipos.
+
+### <a name="teams-customer-success-kit"></a>Kit de éxito de los equipos cliente
+El [Kit de éxito de los equipos cliente](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) proporciona herramientas para ayudar a implantar los equipos de la organización. Incluye plantillas de correo electrónico para anuncios, Pósteres prospectos, cuenta atrás y sugerencias y trucos. También incluye a guías de introducción de jefes de equipo y los administradores de TI.
