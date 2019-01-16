@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fdd9c47e54c9ce51e736363eb47227614824a4c
-ms.sourcegitcommit: 768c7b5f0aaa4b38a0b98c7c9ff904ffedd2e9b9
+ms.openlocfilehash: 7f761e36712b94274ccf88aa03bd3658c039d438
+ms.sourcegitcommit: 71ba178ff60c4b36d4d8e287be9b16233a29ad55
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27893360"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28022918"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación de turnos para su organización en Microsoft Teams
 
@@ -36,7 +36,11 @@ Es importante saber que turnos actualmente no es compatible con los usuarios inv
 
 Turnos está disponible en todas las suscripciones a Office 365 que incluyen equipos con un par de excepciones. Las excepciones son equipos gratuitos y nos gubernamentales en la nube Comunidad (GCC). Turnos no está disponible en Office 365 gobierno de Estados Unidos o las ofertas de libre de los equipos.
 
-Para obtener más información acerca de las licencias para los equipos, vea [licencias de Office 365 para los equipos](Office-365-licensing.md).
+Para obtener más información acerca de las licencias para los equipos, incluida una lista de suscripciones a Office 365 que incluye los equipos, vea [licencias de Office 365 para los equipos](Office-365-licensing.md).
+
+## <a name="location-of-shifts-data"></a>Ubicación de los datos de turnos
+
+Datos de turnos actualmente se almacenan en Azure en centros de datos en Norteamérica, Europa occidental y Asia Pacífico. Para obtener más información acerca de dónde se almacenan los datos, vea [¿dónde están mis datos](http://o365datacentermap.azurewebsites.net/)?
 
 ## <a name="set-up-shifts"></a>Configurar los turnos
 
