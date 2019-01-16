@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Este artículo describe las ventajas, las consideraciones de planeación y requisitos para implementar el servicio de correo de voz de Microsoft en la nube. Para obtener información acerca de cómo configurar el correo de voz en la nube, vea Configuración de correo de voz en la nube.
-ms.openlocfilehash: 1cf4376becb9826e7403b22e621843de7426abb6
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: 0ea27643acce66484081034b8685c7dcad9aa311
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988173"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326774"
 ---
 # <a name="plan-cloud-voicemail-service"></a>Planeación de servicio de correo de voz en la nube
 
@@ -75,9 +75,9 @@ Además de los requisitos anteriores, la debajo de los requisitos de debe estar 
 
 - Local a los usuarios deben estar habilitados para Enterprise Voice y correo de voz hospedado en Skype para Business Server.
 
-- Un servicios de Web externo de Exchange (EWS) detección automática y la dirección URL deben ser el programa de instalación o algunas características de correo de voz en la nube estarán limitadas.
+- Un servicios de Web externo de Exchange (EWS) detección automática y la dirección URL deben configurar o algunas características de correo de voz en la nube estarán limitadas.
 
--  Si tiene una implementación única de local & #x 2014; es decir, sólo de Exchange y Skype para la empresa local servidores & #x 2014; pero desea aprovechar las ventajas del correo de voz en la nube, necesitará la licencia ON PREM. 
+-  Si tiene un deployment& de sólo local #x 2014; es decir, sólo Exchange y Skype para la empresa local servers& #x 2014; pero desea aprovechar las ventajas del correo de voz en la nube, no se necesitan licencias adicionales.
 
 ## <a name="migration-and-interoperability"></a>Migración e interoperabilidad
 

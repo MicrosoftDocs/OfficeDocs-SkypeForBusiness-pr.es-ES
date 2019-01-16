@@ -21,18 +21,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Aprenda todo lo que necesita y cómo los organizadores de reuniones pueden llamar a otras personas con Teams.
-ms.openlocfilehash: adb4d9ae492c324937dbe552fc138933428cc466
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: a1d06d75d48c45cfc13490c5c6562451909120dd
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297794"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326861"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Llamar desde una reunión de Microsoft Teams para que otras personas puedan unirse
 
 Como organizador de la reunión, puede marcar con la aplicación de los equipos para permitir que otras personas a unirse a la reunión misma mediante sus teléfonos.
 
-Cuando se llama a una persona, se recomienda que lo haga con sus números de teléfono completo (incluido el código de país o región).
+Cuando se llama a una persona, se recomienda que lo haga con sus números de teléfono completo (incluido el código de país o región - formato E.164).
   
   Tenga en cuenta:
 

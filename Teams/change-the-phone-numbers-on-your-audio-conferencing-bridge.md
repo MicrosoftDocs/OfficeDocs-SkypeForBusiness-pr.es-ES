@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: When you buy Audio Conferencing licenses, Microsoft is hosting your audio conferencing bridge for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone.
-ms.openlocfilehash: d90daec99ced371aae3ef0685d1138656a6ab138
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c1590fe63a712ece4c2f073dc6642b09ac273d32
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531783"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326877"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Cambiar los números de teléfono de su puente de Audioconferencia
 
@@ -46,7 +46,7 @@ Además de los números de teléfono ya está asignados a su puente de conferenc
 
 1. Inicie sesión en Office 365 con su cuenta profesional.
 
-2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **equipos & Skype** > **portal heredado** > **voz** > **los números de teléfono**.
+2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **& equipos Skype** > **portal heredado** > **voz** > **los números de teléfono**.
 
 3. Seleccione el número de teléfono de la lista y, en el panel de acciones, haga clic en **asignar**.
 
@@ -60,7 +60,7 @@ Sólo un número de teléfono de pago de servicio se puede establecer como el n�
 
 1. Inicie sesión en Office 365 con su cuenta profesional.
 
-2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **equipos & Skype** > **reuniones** > **Puentes de conferencia**.
+2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **& equipos Skype** > **reuniones** > **Puentes de conferencia**.
 
 3. Resalte el número de teléfono de pago de servicio que desea configurar como predeterminado.
 
@@ -72,7 +72,7 @@ Los números de teléfono predeterminado de un usuario son los que se incluyen e
   
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
 
-2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **equipos & Skype** > **portal heredado** > **conferencias de Audio** > **a los usuarios**y seleccione los usuarios en la lista.
+2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **& equipos Skype** > **portal heredado** > **conferencias de Audio** > **a los usuarios**y seleccione los usuarios en la lista.
 
 3. Haga clic en **Editar** en el panel de acciones.
 
@@ -136,7 +136,7 @@ Para obtener más información sobre el servicio de migración de reuniones, con
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
 
-2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **equipos & Skype** > **portal heredado** > **voz** > **los números de teléfono**.
+2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **& equipos Skype** > **portal heredado** > **voz** > **los números de teléfono**.
 
 3. Seleccione el número de teléfono de la lista y, en el panel de acciones, haga clic en **Cancelar asignación**.
 
@@ -220,6 +220,24 @@ Para ahorrar tiempo mediante la automatización de este proceso, puede usar el [
 
     > [!NOTE]
     > La ubicación que se usa arriba debe coincidir con la información de contacto de los usuarios establecidos en el Centro de administración de Office 365.
+
+## <a name="troubleshooting"></a>Solución de problemas
+
+**Cancelar la asignación de botón está atenuado de salida**
+
+Que desea cancelar la asignación de un número, pero el botón está atenuado-out y si mientras se hoovering sobre él, se redirigen para ponerse en contacto con el siguiente mensaje _"predeterminado o can´t números compartida se sin asignar desde el puente. Para cancelar la asignación de números de teléfono de pago dedicado, póngase en contacto con soporte técnico._".
+
+Para obtener más información acerca de la bridge(s), ejecute el siguiente Powershell:
+```
+Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
+```
+
+El resultado, reservar otra información como identidad, nombre y región, también debe contener el DefaultServiceNumber.
+
+**Ejemplo**, para cancelar la asignación, la DefaultServiceNumber "8005551234"
+```
+Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName “Conference Bridge” -RemoveDefaultServiceNumber 8005551234 
+```
 
 ## <a name="about-windows-powershell"></a>Acerca de Windows PowerShell
 

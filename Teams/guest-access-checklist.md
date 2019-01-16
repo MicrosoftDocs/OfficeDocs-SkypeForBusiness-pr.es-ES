@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7fa7e7d7999bd42748e1997a4ec73b37ca14a67
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: efb5b4394ae7659982a747e79ace2296dbdf2345
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772772"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326712"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de comprobación de acceso de invitado a los equipos
 ==========================================
@@ -71,7 +71,7 @@ Para obtener más información, consulte [Autorizar el acceso de invitado en Mic
 
 ## <a name="-step-2-configure-office-365-groups"></a>□ Paso 2: configurar grupos de Office 365
 
-1. En el centro de administración de Microsoft 365, vaya a **configuración de** > **Services & Add-ins** > **Grupos de Office 365**.
+1. En el centro de administración de Microsoft 365, vaya a **configuración de** > **& Services Add-ins** > **Grupos de Office 365**.
 2. Asegúrese de **Permitir que los miembros del grupo fuera el contenido de grupo de acceso de la organización** está establecido en **On**. Si esta opción está desactivada, los invitados no puedan tener acceso a cualquier contenido de grupo.
 3. Asegúrese de **que permitir a los propietarios de grupo agregar personas fuera de la organización a grupos** se establece en **On**. Si esta opción está desactivada, los propietarios de equipo no puedan agregar a nuevos invitados. Como mínimo, este valor debe ser sesión en compatibilidad con acceso como invitado.
 
@@ -82,7 +82,7 @@ Para obtener instrucciones detalladas acerca de cómo configurar estas opciones,
 
 ## <a name="-step-3-enable-guest-access-at-the-tenant-level"></a>□ Paso 3: habilitar el acceso de invitado en el nivel de inquilino
 
-Como mínimo, debe activar Microsoft Teams para todos los usuarios del tipo de licencia **invitado**. 
+Como mínimo, debe activar el acceso de invitado para Microsoft Teams en los **equipos de Microsoft & Skype para el centro de administración de negocio**. 
 
 1. En los equipos & Skype para el centro de administración de negocio, seleccione **configuración de toda la organización** > **acceso de invitado**.
 2. Configurar el conmutador de **Permitir el acceso de invitado en los equipos de Microsoft** **activado**.
@@ -99,7 +99,7 @@ Para obtener instrucciones detalladas, vea [Activar o desactivar el acceso de in
 
 Asegúrese de que los usuarios pueden agregar a invitados. Aquí es cómo:
 
-1. En el centro de administración de Microsoft 365, vaya a **configuración de** > **de seguridad y privacidad**.
+1. En el centro de administración de Microsoft 365, vaya a **configuración de** > **privacy & de seguridad**.
 
      ![Captura de pantalla muestra un ejemplo de una configuración de servicios](media/guest-access-checklist-Office365Admin_Services_addins.png)
 

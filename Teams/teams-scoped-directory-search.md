@@ -1,5 +1,5 @@
 ---
-title: Uso Microsoft Teams con ámbito de búsqueda en el directorio
+title: Usar la búsqueda de directorios enfocada de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,14 +15,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c8173445fff6acaa3a5381199220a376401076c
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6260651dfa48dc07a15dbc1bbcf41297ecc281cf
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531829"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326822"
 ---
-# <a name="use-microsoft-teams-scoped-directory-search"></a>Uso Microsoft Teams con ámbito de búsqueda en el directorio
+# <a name="use-microsoft-teams-scoped-directory-search"></a>Usar la búsqueda de directorios enfocada de Microsoft Teams
 
 Búsqueda en el directorio con ámbito Microsoft Teams permite a las organizaciones crear límites virtuales que controlan cómo los usuarios pueden encontrar y comunicarse con otros usuarios de su organización. 
 
@@ -32,13 +32,13 @@ Microsoft Teams permite a las organizaciones a proporcionar vistas personalizada
 
 Escenarios que se benefician de las búsquedas de directorio con ámbito son similares a los escenarios de directiva de la libreta de direcciones. Por ejemplo, es posible que desee usar la búsqueda en el directorio con ámbito en las situaciones siguientes:
 
-- Su organización tiene varias empresas dentro de su inquilino que desea mantener separados. 
-- Su escuela desea limitar chats entre profesores y estudiantes. 
+- La organización tiene varias compañías en su inquilino, pero prefiere mantenerlas por separado. 
+- Su centro educativo quiere limitar los chats entre el personal académico y los estudiantes. 
  
 Encontrará más información acerca de cómo se pueden usar las directivas de la libreta de direcciones [aquí](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/abp-scenarios?view=exchserver-2019).
 
 > [!IMPORTANT]
-> Directivas de la libreta de direcciones proporcionan sólo una virtual separación de los usuarios desde la perspectiva de Active directory. Los usuarios aún pueden iniciar comunicaciones con otros usuarios proporcionando direcciones de correo electrónico completa. 
+> Directivas de la libreta de direcciones proporcionan sólo una virtual separación de los usuarios desde la perspectiva de Active directory. Los usuarios aún pueden iniciar comunicaciones con otros usuarios proporcionando direcciones de correo electrónico completa. También es importante tener en cuenta que los datos de usuario que tenían ya ha almacenado en caché, antes de la aplicación de directivas de la libreta de direcciones nuevos o actualizados, permanecerá disponibles para los usuarios de hasta 30 días.
 
 ## <a name="enable-scoped-directory-search"></a>Habilitar la búsqueda de Active directory con ámbito
 
@@ -46,7 +46,7 @@ Encontrará más información acerca de cómo se pueden usar las directivas de l
 
 2.  Inicie sesión en el centro de administración de Microsoft 365, seleccione **centros de administración**y, a continuación, seleccione **los equipos & Skype**.
  
-3.  En el Microsoft Teams & Skype para el centro de administración de negocio, seleccione **configuración de toda la organización** > **configuración de los equipos**.
+3.  En la & Teams Microsoft Skype para el centro de administración de negocio, seleccione **configuración de toda la organización** > **configuración de los equipos**.
 
 4.  En la **búsqueda**, junto a **búsqueda de Active directory de ámbito en los equipos mediante una directiva de la libreta de direcciones de Exchange (APB)**, activar la alternancia **en**. 
 

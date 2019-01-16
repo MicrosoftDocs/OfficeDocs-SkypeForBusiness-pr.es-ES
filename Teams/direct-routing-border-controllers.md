@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Los socios de Microsoft con proveedores seleccionados de SBC certifica sus SBCs funcionan con el enrutamiento directo.
-ms.openlocfilehash: feed9c228f1bdc0fb4bb8beb8f403617e9907b9f
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 0230828c9aef49f8979c30d19c1d2d5e15779d84
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214553"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326846"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el Enrutamiento directo
 
@@ -63,4 +63,4 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 |                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    AP 3900       |   Pendiente    |   Pendiente  |   Pendiente    |
 |                                                                                                                     |      AP 4600         |    Pendiente    |   Pendiente    |      Pendiente      |
 |                                                                                                                     |      VME             |    Pendiente    |   Pendiente    |      Pendiente      |
-|                     [TE SISTEMAS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |    Pendiente    |   Pendiente    |      Pendiente      |
+|                     [TE SISTEMAS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |   Pendiente    |      V3.16.2      |

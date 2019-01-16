@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: b648c068131cd01f536aab65ca3cca05cfa0e7c7
-ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
+ms.openlocfilehash: f374a87a8cfa3645a685b6628a93b0e4d5236191
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26620094"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326893"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>Dimensiones y medidas disponibles en el Panel de calidad de llamadas
 
@@ -395,7 +395,7 @@ En la siguiente tabla se enumeran las medidas que están disponibles en este mom
 |Audio OnePercent PacketLoss Count  <br/> |Número de transmisiones  <br/> |Número de transmisiones de audio con una pérdida de paquetes superior al 1%.  <br/> |
 |Audio OnePercent PacketLoss Percentage  <br/> |Porcentaje  <br/> |Porcentaje de todas las transmisiones de audio con una pérdida de paquetes superior al 1%.  <br/> |
 |Audio Poor Due To Jitter Count  <br/> |Número de transmisiones  <br/> |Número de secuencias de audio donde la métrica de vibración supera los umbrales que se muestra aquí: [Clasificación de secuencia en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md).  <br/> |
-|Audio Poor Due To PacketLoss Count  <br/> |Número de transmisiones  <br/> |Número de secuencias de audio donde la métrica de pérdida de paquetes supera los umbrales que se muestra aquí:[Clasificación de secuencia en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md)  <br/> |
+|Audio Poor Due To PacketLoss Count  <br/> |Número de transmisiones  <br/> |Número de secuencias de audio donde la métrica de pérdida de paquetes supera los umbrales que se muestra aquí: [Clasificación de secuencia en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md)  <br/> |
 |Audio Poor Due To Degradation Count  <br/> |Número de transmisiones  <br/> |Número de secuencias de audio donde la métrica de degradación supera los umbrales que se muestra aquí: [Clasificación de secuencia en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md).  <br/> |
 |Audio Poor Due To RoundTrip Count  <br/> |Número de transmisiones  <br/> |Número de secuencias de audio donde la ida y vuelta supera los umbrales que se muestra aquí: [Clasificación de secuencia en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md).  <br/> |
 |Audio Poor Due To ConcealedRatio Count  <br/> |Número de transmisiones  <br/> |Número de secuencias de audio donde la proporción oculta supera los umbrales que se muestra aquí: [Clasificación de secuencia en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md).  <br/> |

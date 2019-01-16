@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: En este artículo se describe cómo configurar la consola de v2 de sistemas de salón de Skype y sus periféricos.
-ms.openlocfilehash: fab2854406e22b156c8fcca76e6701214199f62c
-ms.sourcegitcommit: d3708702393ac434344c758959109a3be2b3bfa4
+ms.openlocfilehash: 162aaaed5472fefc3c23cc11800b166ed4b26bc2
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/16/2019
-ms.locfileid: "28324937"
+ms.locfileid: "28326719"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Configurar una consola de Sistemas de salas de Skype v2
  
@@ -52,6 +52,9 @@ Instalación de la aplicación de consola de sistemas de salón de Skype v2 requ
 1. Descargue el [script CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842). 
 2. Ejecute el script CreateSrsMedia.ps1 desde un símbolo de sistema con privilegios elevados en un equipo con Windows 10.
 3. Siga las instrucciones de la secuencia de comandos para crear un disco de instalación de sistemas de salón de Skype v2 USB.
+
+> [!CAUTION]
+> El nombre de la carpeta que se ejecutan los medios de secuencia de comandos de creación de no puede contener un espacio. Si hay un espacio de nombre de carpeta, se producirá un error en la secuencia de comandos.
 
 Cuando haya terminado, quitar el disco USB de su equipo y proceda a [instalar 10 de Windows y la aplicación de consola de sistemas de salón de Skype v2](console.md#Reimage).
 
