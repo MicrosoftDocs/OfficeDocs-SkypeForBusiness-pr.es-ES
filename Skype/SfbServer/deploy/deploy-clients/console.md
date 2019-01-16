@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: En este artículo se describe cómo configurar la consola de v2 de sistemas de salón de Skype y sus periféricos.
-ms.openlocfilehash: 4218365e7cb4b396d3e93d3fa969546138ace33d
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
+ms.openlocfilehash: fab2854406e22b156c8fcca76e6701214199f62c
+ms.sourcegitcommit: d3708702393ac434344c758959109a3be2b3bfa4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716377"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28324937"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Configurar una consola de Sistemas de salas de Skype v2
  
@@ -41,22 +41,20 @@ Sólo debe realizar estos pasos si el Skype es necesario para las cuentas empres
 ## <a name="prepare-the-installation-media"></a>Preparar los medios de instalación
 <a name="Prep_Media"> </a>
 
-Instalación de la aplicación de consola de sistemas de salón de Skype v2 requiere un dispositivo de almacenamiento USB con al menos 32GB de memoria con formato de un disco FAT32. No debería haber otros archivos en el dispositivo; cualquier archivo que esté en el almacenamiento USB se perderá.
+Instalación de la aplicación de consola de sistemas de salón de Skype v2 requiere un dispositivo de almacenamiento USB con al menos 32GB de capacidad. No debe haber ningún otro archivo en el dispositivo; se perderán todos los archivos existentes en el almacenamiento USB.
   
 > [!NOTE]
-> Error al crear los discos de instalación de sistemas de salón de Skype v2 según estas instrucciones probablemente tendrá como resultado un comportamiento inesperado. Actualización de aniversario de empresa de Windows 10 (versión 1607) ya no se admite para la creación de medios de instalación de sistemas de salón de Skype v2.
+> Error al crear los discos de instalación de sistemas de salón de Skype v2 según estas instrucciones probablemente tendrá como resultado un comportamiento inesperado.
 
 > [!NOTE]
-> Funcionará un v2 de Skype salón sistemas existentes con Windows 10 Enterprise mover a sistemas de salón de Skype v2 actualización 3 mediante el almacén de Windows, pero se debe realizar una nueva instalación tal y como se describe a continuación.
+> El proceso siguiente es para la creación de medios de instalación de dispositivos de imagen nuevos del sistema de salas de Skype v2. Dispositivos existentes, de forma predeterminada, se actualizan automáticamente desde el almacén de Windows y Windows Update.
   
 1. Descargue el [script CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842). 
-2. (Opcional) Descargue y coloque los archivos CAB de paquete de idioma deseado en el mismo directorio que la secuencia de comandos. La secuencia de comandos que le indicará que puede descargar los archivos de paquete de idioma apropiados para el tipo de medios que se va a crear, si no está seguro de dónde adquirir los paquetes de idioma de.
-3. Ejecute el script CreateSrsMedia.ps1 desde un símbolo de sistema con privilegios elevados en un equipo con Windows 10.
+2. Ejecute el script CreateSrsMedia.ps1 desde un símbolo de sistema con privilegios elevados en un equipo con Windows 10.
+3. Siga las instrucciones de la secuencia de comandos para crear un disco de instalación de sistemas de salón de Skype v2 USB.
 
-Siga las instrucciones de la secuencia de comandos para crear un disco de instalación de sistemas de salón de Skype v2 USB. Cuando haya terminado, quitar el disco USB de su equipo y proceda a [instalar 10 de Windows y la aplicación de consola de sistemas de salón de Skype v2](console.md#Reimage).
+Cuando haya terminado, quitar el disco USB de su equipo y proceda a [instalar 10 de Windows y la aplicación de consola de sistemas de salón de Skype v2](console.md#Reimage).
 
-> [!TIP]
-> Es posible que haya observado que nos ya no destacar versiones específicas de los controladores, cliente de sistemas de salón de Skype v2 o Windows 10 Enterprise. Esto es deliberado, queremos que la secuencia de comandos para hacer coincidir y comprobar la compatibilidad para todos los instaladores. La secuencia de comandos se automáticamente obtenga y lo que necesita para una configuración compatible.  
     
 ## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>Instalación de Windows 10 y la aplicación de consola Sistemas de salas de Skype
 <a name="Reimage"> </a>
