@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f3145455553c8126d66b3e56b69ec646f5f19ad
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: cc1c20f87103dc91a317e58dac03389275b255f2
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530699"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694700"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams
 ==============================================================
@@ -48,7 +48,7 @@ Para habilitar la ficha de **Teclado de marcado** en los equipos y permitir que 
 > También puede usar el enrutamiento directo para permitir que a los usuarios obli y recibir llamadas de RTC. Para obtener información sobre cómo configurar el enrutamiento directo, leer la [Configuración de enrutamiento directo](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure).
 
 ## <a name="teams-interop-policy-configuration"></a>Configuración de la directiva de interoperabilidad de Microsoft Teams
-Para habilitar los equipos para empezar a recibir llamadas, que necesitará para actualizar la directiva de actualización de los equipos y la directiva de interoperabilidad de los equipos, uso de [los equipos de Microsoft & Skype para el centro de administración de negocio](https://aka.ms/teamsadmincenter) o mediante una sesión remota de Windows PowerShell con el Skype para la empresa [ `*-CsTeamsUpgradePolicy`y `*-CsTeamsInteropPolicy` ](https://docs.microsoft.com/powershell/module/skype) cmdlets, para redirigir las llamadas a los equipos.
+Para habilitar los equipos para empezar a recibir llamadas, que necesitará para actualizar la directiva de actualización de los equipos y la directiva de interoperabilidad de los equipos mediante [& de equipos de Microsoft Skype para el centro de administración de negocio](https://aka.ms/teamsadmincenter) o mediante una sesión remota de Windows PowerShell con el Skype para la empresa [ `*-CsTeamsUpgradePolicy`y `*-CsTeamsInteropPolicy` ](https://docs.microsoft.com/powershell/module/skype) cmdlets, para redirigir las llamadas a los equipos.
 
 Para obtener más información acerca de la directiva de actualización de los equipos y la directiva de interoperabilidad de los equipos, vea [migración e instrucciones de interoperabilidad para las organizaciones que utilizan los equipos junto con Skype para la empresa](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype).
 
@@ -97,7 +97,7 @@ Los comportamientos de la directiva anterior son los siguientes:
 * **Para los clientes sin Skype Empresarial**, al aplicar esta directiva, las llamadas RTC se recibirán en Microsoft Teams.
 
 > [!WARNING]
-> Actualmente, cambiar `CallingDefaultClient` a Teams afectará también a las llamadas a teléfonos IP de Skype Empresarial. Las llamadas entrantes no se recibirán en los teléfonos y solo sonarán en los clientes de Microsoft Teams. Consulte [De Skype Empresarial a Microsoft Teams: mapa de ruta de las opciones](https://aka.ms/skype2teamsroadmap) para obtener información sobre compatibilidad con teléfonos SIP existentes.
+> Actualmente, cambiar `CallingDefaultClient` a Teams afectará también a las llamadas a teléfonos IP de Skype Empresarial. Las llamadas entrantes no se recibirán en los teléfonos y solo sonarán en los clientes de Microsoft Teams. Consulte la [Guía básica de 365 de Microsoft](https://aka.ms/O365Roadmap) para obtener información acerca de la compatibilidad con los teléfonos SIP certificadas existentes.
 
 ### <a name="how-to-configure-users-to-receive-pstn-calls-in-teams"></a>Cómo configurar usuarios para recibir RTC llama en los equipos
 Cuando se usa la directiva heredada de actualización de los equipos, aplicar la directiva de interoperabilidad de los equipos como se describió anteriormente a través de Skype para la sesión remota de Windows PowerShell de negocio para redirigir las llamadas a los equipos:
@@ -112,7 +112,7 @@ Si decide usar el modo de TeamsOnly, puede cambiar el modo de coexistencia del u
 ## <a name="see-also"></a>Vea también
 [Configurar Planes de llamada](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
-[Guía de interoperabilidad y migración para las organizaciones que utilizan los equipos junto con Skype para la empresa](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
+[Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
 [Guía práctica para Sistema telefónico con planes de llamada en Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)
 

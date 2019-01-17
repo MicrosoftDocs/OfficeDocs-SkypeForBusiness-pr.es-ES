@@ -19,12 +19,12 @@ metadata:
   - Teams_ITAdmin_Training
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: ef0b4330f1697dc800363336300b7dce41312a3d
-  ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
+  ms.openlocfilehash: b739361e49143a5efe941a5a942bb1ba844472ce
+  ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 12/28/2018
-  ms.locfileid: "27458489"
+  ms.lasthandoff: 01/17/2019
+  ms.locfileid: "28694716"
 items:
 - durationInMinutes: 1
   content: >
@@ -112,6 +112,6 @@ items:
         - Para enviarnos comentarios acerca de Teams o solicitar una nueva característica, diríjase a [UserVoice de Teams](https://microsoftteams.uservoice.com/forums/555103-public).
     4.  Manténgase al día:
         - Siga el [Blog de los equipos](https://aka.ms/teamsblog).
-        - Leer la [Guía básica de los equipos](https://aka.ms/skype2teamsroadmap).
+        - Leer la [Guía básica de los equipos](https://aka.ms/O365Roadmap).
         - Obtenga información acerca de las características más recientes lanzamiento en las [Notas de la versión](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
     5.  Descubra [más módulos de formación y tutoriales](https://aka.ms/Teamsacademy).

@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0057f18d334c89f745ec74952fd01796c8b30880
-ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
+ms.openlocfilehash: ad00f5df93cb91cc878a0b75a413b9299cde9a88
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/28/2018
-ms.locfileid: "27458505"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694778"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 
@@ -35,7 +35,7 @@ Como parte de la definición de las características necesarias de conferencias 
 -   Confirmación de que las características de conferencia de Audio en los equipos que se describen en la guía pública más reciente cumplen el usuario, las funciones y los requisitos de ámbito, dentro de la escala de tiempo de la implementación.
 
 > [!NOTE]
-> La guía básica de los equipos más reciente para la identificación de las características de conferencia de Audio de los equipos en el ámbito para la implementación se puede encontrar en <https://aka.ms/skype2teamsroadmap>.
+> La guía básica de los equipos más reciente para la identificación de las características de conferencia de Audio de los equipos en el ámbito para la implementación se puede encontrar en <https://aka.ms/O365Roadmap>.
 
 ## <a name="meetings-in-teams"></a>Reuniones en Teams
 
@@ -44,7 +44,7 @@ Los equipos proporciona a los usuarios la capacidad de programar y unirse a reun
 Se pueden programar reuniones como las conferencias privadas (sólo los participantes invitados se pueden unir a) o reuniones de canal (abierto para todos los usuarios que tienen acceso al canal) y los usuarios también pueden iniciar reuniones improvisadas dentro de los canales.
 
 > [!NOTE]
-> Para obtener más información acerca de las características de las reuniones en los equipos, vea [Skype para la empresa a la guía básica de las capacidades de los equipos de Microsoft] https://aka.ms/skype2teamsroadmap).
+> Para obtener más información acerca de las características de las reuniones en los equipos, vea la [Guía básica de 365 de Microsoft](https://aka.ms/O365Roadmap).
 
 Los participantes de la reunión puede participar en las reuniones de los equipos marcando en el teléfono de pago o el puente de conferencia de acceso telefónico gratuito los números de teléfono a través de landlines o teléfonos móviles. Además, los usuarios pueden permitir que el servicio de conferencia de Audio a iniciar la característica "Llamarme" para que puedan participar en una reunión mediante la necesidad de llamar a sus teléfonos (es útil cuando la conexión de datos no es confiable) el puente de conferencia o reunión permiten los organizadores de invitar a la reunión participantes mediante marcación a sus teléfonos.
 

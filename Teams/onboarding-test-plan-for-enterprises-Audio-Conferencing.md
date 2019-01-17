@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 79d9fcde21b6d6f7d0c169efd852629fb43ae9b5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1f9fea1e2d3f8dcf4fc966d1392a38168fc1656e
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373789"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694864"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>Definir y documentar la conferencia de Audio en el plan de pruebas de los equipos para empresas 
 ===============================================================================
@@ -80,7 +80,7 @@ Como parte de la definición de los requisitos de la característica de conferen
 -   Si puede confirmar que las características de conferencia de Audio que se describen en la guía pública más reciente cumplen el usuario, las funciones y requisitos de ámbito en la escala de tiempo de la implementación
 
 > [!TIP]
-> La guía básica de los equipos más reciente para la identificación de las características de conferencia de Audio en el ámbito para la implementación se puede encontrar en <https://aka.ms/skype2teamsroadmap>.
+> La guía básica de los equipos más reciente para la identificación de las características de conferencia de Audio en el ámbito para la implementación se puede encontrar en <https://aka.ms/O365Roadmap>.
 
 Ahora que se han definido las características y el rol de conferencias de Audio, el siguiente criterios para la evaluación será la experiencia de interoperabilidad con los equipos. Para obtener información adicional acerca de la experiencia de interoperabilidad junto con opciones de configuración disponibles, vea [los equipos de Microsoft y Skype para la interoperabilidad de negocio](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability).
 
@@ -269,7 +269,7 @@ En un nivel alto, normalmente se compone de:
 > [!TIP]
 > A continuación es un ejemplo de una plantilla de requisito pruebas de escala de tiempo que puede utilizar para documentar las fechas anticipadas para cuando se completará las actividades de pruebas específicas o hitos enviados por.
 
-| Tarea                                     | Hito       | Fecha de inicio                                                             | Fecha de finalización | Owner | Recursos asignados | Estimación |
+| Tarea                                     | Hito       | Fecha de inicio                                                             | Fecha de finalización | Propietario | Recursos asignados | Estimación |
 |------------------------------------------|-----------------|------------------------------------------------------------------------|-----------------|-------|--------------------|------------|
 | Informe de pruebas                              | TBD             | TBD                                                                    | TBD             | TBD   | TBD                | Horas de TBD  |
 | La ejecución del caso de prueba: Conferencia de Audio  | TBD             | TBD                                                                    | TBD             | TBD   | TBD                | Horas de TBD  |
@@ -434,7 +434,7 @@ En un nivel alto, estos incluyen normalmente, pero no están limitados a:
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>Decidir qué entregas deben crearse y capturan como resultado de cada fase de pruebas. Para cada entrega, decide cuál será su:<ul><li>Formato</li><li>Owner</li><li>Revisor</li><li>Aprobador</li></ul></li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>Decidir qué entregas deben crearse y capturan como resultado de cada fase de pruebas. Para cada entrega, decide cuál será su:<ul><li>Formato</li><li>Propietario</li><li>Revisor</li><li>Aprobador</li></ul></li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Un plan entrega creación y la entrega matriz de pruebas del documento.</li></ul></td></tr>
 </table>
 
@@ -601,7 +601,7 @@ Una vez haya completado todas las pruebas de rendimiento para los sitios en el �
 
 
 
-| Métrica                                                        | Target                                                                                                            | Weekday: horario de oficina 9:30 A.M. a 11:00 A.M.                                                                                                                                                                                                                                                                                                 | Weekday: las horas de oficina 2:30 P.M. a 4:30 P.M. | Día de la semana: después del horario laboral 10:30 P.M. a 12:30 A.M. | Fin de semana: después del horario laboral 9:30 A.M. a 11:30 AM | Fin de semana: después del horario laboral 2:30 P.M. a 4:30 P.M. |
+| Métrica                                                        | Destino                                                                                                             | Weekday: horario de oficina 9:30 A.M. a 11:00 A.M.                                                                                                                                                                                                                                                                                                 | Weekday: las horas de oficina 2:30 P.M. a 4:30 P.M. | Día de la semana: después del horario laboral 10:30 P.M. a 12:30 A.M. | Fin de semana: después del horario laboral 9:30 A.M. a 11:30 AM | Fin de semana: después del horario laboral 2:30 P.M. a 4:30 P.M. |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|-------------------------------------------|------------------------------------------|-----------------------------------------
 | Latencia (unidireccional)                                             | \<50 ms                                                                                                           | 40 ms                                                                                                                                                                                                                                                                                                                                     | 38 ms                                    | 41 ms                                     | 35 ms                                    | 36 ms                                   |
 | Latencia (tiempo de ida y vuelta o RTT)                             | \<100 ms                                                                                                          | 81 ms                                                                                                                                                                                                                                                                                                                                     | 77 ms                                    | 80 ms                                     | 72 ms                                    | 70 ms                                   |
@@ -615,7 +615,7 @@ Una vez haya completado todas las pruebas de rendimiento para los sitios en el �
 <tr><th colspan="2">Aspectos destacados de pruebas </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
 <tr><th colspan="2">Prueba de relieve  </th></tr><br/><tr><td><strong>Problema</strong>: latencia alta</td><td><strong>Corrección:</strong> Investigar el enrutamiento de paquetes e implementar la ruta ideal.</td></tr>
-<tr><td><strong>Problema</strong>: ida y vuelta no es de tiempo & #39; t doble la latencia</td><td><strong>Corrección:</strong> Investigue un posible problema de configuración del firewall o enrutador. Investigar las rutas de tráfico.</td></tr>
+<tr><td><strong>Problema</strong>: tiempo de ida y vuelta isn& #39; t doble la latencia</td><td><strong>Corrección:</strong> Investigue un posible problema de configuración del firewall o enrutador. Investigar las rutas de tráfico.</td></tr>
 <tr><td><strong>Problema</strong>: alta pérdida de paquetes </td><td><strong>Corrección:</strong> A través del organizador de la red, compruebe que se ha asignado suficiente ancho de banda. </td></tr>
 <tr><td><strong>Problema</strong>: vibración alta </td><td> <strong>Corrección:</strong> Investigue si se usan los valores de punto (DSCP) de código de servicios diferenciados correcta. </td></tr>
 <tr><td><strong>Problema</strong>: alta pérdida de paquetes </td><td><strong>Corrección:</strong> Investigue la pérdida de paquetes. </td></tr>
@@ -653,7 +653,7 @@ Identificar y documentar toda la información de cuenta (incluido el nombre que 
 Normalmente, puede encontrar la información que necesitará en la lista más reciente o la factura de su proveedor de servicio actual.
 
 > [!TIP]
-> Puede trasladar o números de teléfono de transferencia dentro de todos los países o regiones; admiten actualmente Sin embargo, la forma de enviar una solicitud de orden de puerto podría variar según el país o región donde se proceden de los números de teléfono. Para obtener la lista más reciente de países o regiones admitidas actualmente, vea [países y la disponibilidad de la región para las conferencias de Audio y planes de llamar a](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). < /br/ ><br/>
+> Puede trasladar o números de teléfono de transferencia dentro de todos los países o regiones; admiten actualmente Sin embargo, la forma de enviar una solicitud de orden de puerto podría variar según el país o región donde se proceden de los números de teléfono. Para obtener la lista más reciente de países o regiones admitidas actualmente, consulte .</br/> [países y la disponibilidad de la región para las conferencias de Audio y planes de llamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)<br/>
 >   Para obtener información adicional acerca de cómo transferir los números de teléfono a la conferencia de Audio, junto con las restricciones de posibles — vea [transferir los números de teléfono a Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365) y [Marcar gratuito restricciones dentro de Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.).
 
 #### <a name="step-3"></a>Paso 3

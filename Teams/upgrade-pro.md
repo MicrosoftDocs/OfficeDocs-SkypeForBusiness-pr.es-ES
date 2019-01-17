@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a849e9c6ab5934252f5bae1cbd26542f3393d57
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 6f1068a2e77211542fd56971615bab7cf23af39e
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789387"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694918"
 ---
 # <a name="upgrade-pro"></a>Actualice Pro
 
@@ -37,7 +37,7 @@ Para ayudar a demostrar cómo es posible que se desdoblan su viaje por la actual
 
 ## <a name="pre-upgrade"></a>Previos a la actualización
 
-**Preparar la organización de los equipos.**  Para ayudar a garantizar una correcta actualización a los equipos, es importante asignar tiempo suficiente para la preparación del. No sólo a su organización puedan iniciar rápidamente darse cuenta el valor de los equipos, podrá acelerar la actualización de Skype para la empresa tan pronto como está listo para los equipos. Supervisar la [Guía básica](https://aka.ms/skype2teamsroadmap) para las mejoras que se ha planeado para los equipos; Esto ayudará a identificar la escala de tiempo a la derecha de actualización para la organización. Si ya ha habilitado los equipos junto con Skype para la empresa, use estas actividades previa a la actualización como un punto de comprobación para validar la preparación de su organización antes de actualizar a los usuarios a los equipos. 
+**Preparar la organización de los equipos.**  Para ayudar a garantizar una correcta actualización a los equipos, es importante asignar tiempo suficiente para la preparación del. No sólo a su organización puedan iniciar rápidamente darse cuenta el valor de los equipos, podrá acelerar la actualización de Skype para la empresa tan pronto como está listo para los equipos. Supervisar la [Guía básica](https://aka.ms/O365Roadmap) para las mejoras que se ha planeado para los equipos; Esto ayudará a identificar la escala de tiempo a la derecha de actualización para la organización. Si ya ha habilitado los equipos junto con Skype para la empresa, use estas actividades previa a la actualización como un punto de comprobación para validar la preparación de su organización antes de actualizar a los usuarios a los equipos. 
 
 > [!Tip]
 > Descargue el [Kit de actualización de éxito](https://aka.ms/UpgradeSuccessKit) para materiales de preparación de usuario de plantilla, como comunicaciones y encuestas de usuario, además de un plan de proyecto de actualización de ejemplo y un plan de prueba piloto. Los elementos que están disponibles en el kit de están marcados con un asterisco (\*) en las listas siguientes.  
@@ -123,5 +123,5 @@ Para ayudar a demostrar cómo es posible que se desdoblan su viaje por la actual
 > Nuestro contenido de actualización Pro evoluciona continuamente. No olvide Eche un vistazo a las instrucciones más reciente y leer el [blog de los equipos](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
 
 > [!Important]
-> Si es administrador en el inquilino de Office 365, es posible que inicie vean las opciones de actualización en su cmdlet de PowerShell o equipos & Skype para el centro de administración de negocio. Tener la opción de actualización no significa necesariamente que su organización está preparada para que este cambio. Para una experiencia de usuario óptima, confirme que los equipos cumple los requisitos de colaboración y comunicación, validar que está lista para equipos de soporte técnico e implementar el plan de preparación del usuario antes de actualizar a los usuarios a los equipos de la red.
+> Si es administrador en el inquilino de Office 365, es posible que inicie vean las opciones de actualización de los equipos & Skype para el centro de administración de negocio o de cmdlet de PowerShell. Tener la opción de actualización no significa necesariamente que su organización está preparada para que este cambio. Para una experiencia de usuario óptima, confirme que los equipos cumple los requisitos de colaboración y comunicación, validar que está lista para equipos de soporte técnico e implementar el plan de preparación del usuario antes de actualizar a los usuarios a los equipos de la red.
  

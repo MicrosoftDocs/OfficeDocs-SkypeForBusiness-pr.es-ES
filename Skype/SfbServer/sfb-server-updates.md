@@ -12,18 +12,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Busque y administre actualizaciones de Skype Empresarial Server 2015 y Lync 2013 desde un solo lugar. Use los vínculos de esta página para obtener más información sobre las actualizaciones y después descárguelas.
-ms.openlocfilehash: 5ee195ab6837c8fb68e6768b0dadf5e014129e1b
-ms.sourcegitcommit: 71ba178ff60c4b36d4d8e287be9b16233a29ad55
+ms.openlocfilehash: fba22692c29461783cc4eb73a04aa668db93362c
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28022895"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694738"
 ---
 # <a name="skype-for-business-server-updates"></a>Actualizaciones de Skype Empresarial Server
 
 Busque y administre actualizaciones de [Skype Empresarial Server 2015](#skype-for-business-server-2015-update-history), [Lync 2013](#Lync-2013-update-history) y [Lync Server 2010](#lync-server-2010-update-history) desde un solo lugar. Use los vínculos de esta página para obtener más información sobre las actualizaciones y después descárguelas.
 
-Para ver las actualizaciones más recientes de Skype Empresarial Online y Office 365, consulte el [Mapa de ruta de Office 365](https://go.microsoft.com/fwlink/p/?linkid=529454).
+Para el más reciente Skype para actualizaciones de negocio Online y Office 365, vea la [Guía básica de 365 de Microsoft](https://go.microsoft.com/fwlink/p/?linkid=529454).
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Historial de actualizaciones de Skype Empresarial Server 2015
 [KB 3061064](https://support.microsoft.com/kb/3061064) contiene la lista de todas las actualizaciones acumuladas que se ha publicado. La fecha indica la última fecha de lanzamiento. 

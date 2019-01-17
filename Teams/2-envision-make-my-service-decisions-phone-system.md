@@ -1,5 +1,5 @@
 ---
-title: Hacer que el sistema telefónico con planes de llamar a decisiones de servicio - Microsoft Teams
+title: 'Tomar decisiones relacionadas con el servicio de Sistema telefónico con planes de llamada: Microsoft Teams'
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1bf0d5514f4202029acabe44268e8e7e7d671f60
-ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
+ms.openlocfilehash: 702b126ac065b3fd84737cd0a6bb00f47c6d4991
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25597849"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694762"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 
@@ -29,7 +29,7 @@ Para planear la implementación técnica del sistema telefónico con planes de l
 Con Microsoft Teams, los usuarios pueden realizar y recibir llamadas de teléfono a o desde la red telefónica conmutada (RTC). Los usuarios pueden utilizar sus propios números de teléfono dedicado para realizar y recibir llamadas telefónicas internacionales y nacionales de las aplicaciones de cliente de los equipos, con características avanzadas que incluyen el correo de voz.
 
 > [!NOTE]
-> La guía básica de los equipos más reciente para la identificación del sistema de teléfono de los equipos con las características de planeación de la llamada en el ámbito para la implementación se puede encontrar en <https://aka.ms/skype2teamsroadmap>.
+> La guía básica de los equipos más reciente para la identificación del sistema de teléfono de los equipos con las características de planeación de la llamada en el ámbito para la implementación se puede encontrar en <https://aka.ms/O365Roadmap>.
 
 ## <a name="phone-system-in-teams"></a>Sistema telefónico en los equipos
 
@@ -76,7 +76,7 @@ Después de confirmar que su organización puede obtener el servicio al llamar a
 > [!TIP]
 > A continuación es un ejemplo de un sistema telefónico con planes de llamar a la lista de habilitación de sitios.
 > 
-> | **Oficina**                     | **Ubicación**   | **Servicio del sistema de teléfono** |
+> | **Office**                     | **Ubicación**   | **Servicio del sistema de teléfono** |
 > |--------------------------------|----------------|--------------------------|
 > | One Epping Road                | Australia      | Servicio de RTC antiguo |
 > | 100 Cyberport Road             | RAE de Hong Kong  | Enrutamiento directo de teléfono del sistema |
@@ -216,7 +216,7 @@ Para obtener más información sobre el sistema telefónico y planes de llamada,
 
 -   [Sistema telefónico](https://products.office.com/skype-for-business/phone-system)
 
--   [Planes de llamadas](https://products.office.com/skype-for-business/calling-plans)
+-   [Planes de llamada](https://products.office.com/skype-for-business/calling-plans)
 
 <br>
 

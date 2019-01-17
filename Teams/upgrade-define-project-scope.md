@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9830605dad592a147c22a60d1c7c275cbf969a64
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 833720e28fd53032ca9cb65fadc39b8cb753799e
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375222"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694849"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de definición del proyecto] (media/upgrade-banner-project-definition.png "Fases de la actualización viaje, con especial hincapié en la fase de definición del proyecto")
 
@@ -96,7 +96,7 @@ En la siguiente tabla se muestra ejemplos de OKRs y KSIs para las fases iniciale
 
 
 > [!TIP]
-> Para ayudar a garantizar que su proyecto permanece en el camino, considere la posibilidad de definir hitos pequeños y a corto plazo, además de los objetivos más grandes y a largo plazo. Esto puede incluir las métricas que podrá capturar como parte de la prueba piloto de usuario. Cuando teniendo en cuenta la escala de tiempo, use la [Skype para guía básica de los equipos](https://aka.ms/skype2teamsroadmap) si está esperando para las características que aún no están disponibles en los equipos.
+> Para ayudar a garantizar que su proyecto permanece en el camino, considere la posibilidad de definir hitos pequeños y a corto plazo, además de los objetivos más grandes y a largo plazo. Esto puede incluir las métricas que podrá capturar como parte de la prueba piloto de usuario. Al considerar la escala de tiempo, use la [Guía básica de 365 de Microsoft](https://aka.ms/O365Roadmap) si está esperando para las características que aún no están disponibles en los equipos.
 
 ## <a name="risks-and-mitigation"></a>Los riesgos y mitigación
 
@@ -112,7 +112,7 @@ En la siguiente tabla se muestra ejemplos de OKRs y KSIs para las fases iniciale
 
 Tal y como se define el ámbito de su viaje por la actualización, asegúrese de establecer una escala de tiempo para los hitos clave (por ejemplo, habilitar los equipos junto con Skype para la empresa para todos los usuarios) además de la fecha de finalización. Una escala de tiempo definido ayuda a la unidad de equipo de proyecto hacia un estado coherente final y se informa a la programación de copia de trabajo a la derecha, ayudar a garantizar que el proyecto se ajusta en el camino. Considere la posibilidad de una escala de tiempo que no se demasiado acelerado (donde tareas es posible que se puede pasar por alto) o demasiado lejano (donde se podrían perder momentum). Las cuentas de escala de tiempo ideal para:
  
--   **Preparación de producto para los requisitos de escenario de usuario y de cumplimiento de normas**: consulte la [Guía del producto](https://aka.ms/skype2teamsroadmap) para estimar cuando los equipos estará listos para su organización.
+-   **Preparación de producto para los requisitos de escenario de usuario y de cumplimiento de normas**: consulte la [Guía del producto](https://aka.ms/O365Roadmap) para estimar cuando los equipos estará listos para su organización.
 -   **Actualizar grupos**: determinar si se debe permitir a los equipos o actualización de los usuarios por grupos de actualización, que pueden afectar a la escala de tiempo de su viaje actualización general.
 -   **Organizativa factores, como cambiar inmovilizar, fin de año fiscal, los ciclos de vida de implementación**: se abordan y de cuenta para los procesos internos que pueden influir en la escala de tiempo de actualización.
 -   **Otros cambios que se producen en o alrededor de la misma hora**: considere la posibilidad de agrupación de los cambios o espaciado para facilitar un usuario positivo experiencia y minimizar cualquier impacto en la productividad.
