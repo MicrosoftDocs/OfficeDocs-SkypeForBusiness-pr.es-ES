@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Los administradores de TI pueden agregar invitados en el nivel de inquilino, configurar y administrar permisos y directivas de usuarios invitados, determinar qué usuarios pueden invitar y extraer informes sobre la actividad de los usuarios invitados.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4375f6e9eb0d36d05d20f96da2410767465fcc2
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: c43309a6e4ae287181f6e363a40d99a0650984cc
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772780"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328250"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Administrar el acceso de invitado a Microsoft Teams
 ======================================
@@ -26,7 +26,7 @@ ms.locfileid: "27772780"
 
 Después de que el tipo de licencia de usuario o **invitado** está activado, puede establecer la configuración para invitados a través de los controles que describen en [las características de administración de equipos de Microsoft en su organización de Office 365](enable-features-office-365.md) y [administrar equipos durante la transición a la nueva Microsoft Los equipos y Skype para el centro de administración de negocio](manage-teams-skypeforbusiness-admin-center.md).     
     
-Los administradores de TI pueden agregar invitados en el nivel de inquilino, establecer y administrar los permisos y las directivas de usuario de invitado y extracción informa sobre la actividad de usuario de invitado. Estos controles están disponibles a través de la Microsoft Teams & Skype para el centro de administración de negocio. Las actividades y el contenido de los usuarios invitados están protegidos con el mismo cumplimiento de normativas y auditorías que el resto de Office 365.
+Los administradores de TI pueden agregar invitados en el nivel de inquilino, establecer y administrar los permisos y las directivas de usuario de invitado y extracción informa sobre la actividad de usuario de invitado. Estos controles están disponibles a través de la & Teams Microsoft Skype para el centro de administración de negocio. Las actividades y el contenido de los usuarios invitados están protegidos con el mismo cumplimiento de normativas y auditorías que el resto de Office 365.
 
 Los propietarios de equipo pueden invitar a nuevos invitados y agregue los usuarios invitados de Active directory existente a sus equipos. Los propietarios de equipo pueden identificar a los usuarios de invitado a través de **los equipos** > **administrar equipos**y las capacidades relacionadas con el canal de conjunto de invitados a través de la **configuración de toda la organización** > **acceso como invitado**, incluido el permiso de invitados crear, actualizar, y eliminar canales, como se muestra en la siguiente captura de pantalla.
 
@@ -47,7 +47,7 @@ Puede realizar una revisión de acceso de invitado usted mismo, pregunte invitad
 
 Revisiones de Access están disponibles con la edición Premium P2 de Azure AD, que se incluye en Microsoft Enterprise movilidad + seguridad, E5. Para obtener más información, vea "Elegir una edición" en [las ediciones de Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis). Cada usuario que interactúa con esta característica mediante la creación de una revisión, rellenar una revisión o confirmar su acceso, debe tener una licencia. 
 
-Si tiene previsto pedir a los usuarios de invitado para revisar su propios acceso, lea acerca de las licencias de usuario de invitado. Para obtener más información, vea [licencias de colaboración de Azure AD B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance).
+Los equipos no limita el número de invitados que se puede agregar. Sin embargo, el número total de los invitados que se pueden agregar a su inquilino se basa en qué su AAD de licencias permite. Para obtener más información, vea [licencias de colaboración de Azure AD B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance).
 
 ## <a name="guest-access-latencies"></a>Latencias de acceso de invitado
 

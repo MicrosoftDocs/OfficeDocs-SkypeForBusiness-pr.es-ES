@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f77de0515cc026b0d225100e7528a6eae4a7965
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: aa699ebabd57299ef2ced07c2c6d0fc551ac6b17
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240688"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328258"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 =============================================
@@ -30,14 +30,14 @@ En este artículo se describe algunos de los límites, especificaciones y otros 
 
 |Característica    | Límite máximo |
 |-----------|---------------|
-|Número de equipos, que puede crear un usuario | Sujeto a un límite de 250 objeto & sup1;         |
+|Número de equipos, que puede crear un usuario | Sujeto a un limit&sup1 250 objeto;         |
 |Número de miembros de un equipo | 2.500       |
 |Número de miembros de un [equipo de toda la organización](create-an-org-wide-team.md) | 2.500       |
-|Número de equipos, que puede crear un administrador global        | 500.000   |
+|Número de equipos, que puede crear un administrador global        |  500.000   |
 |Número de equipos que puede tener un inquilino de Office 365    | 500.000     |
-|Número de canales por equipo    | 200         |
+|Número de canales por equipo    | 200 (incluye canales eliminados)         |
 
-& sup1; Los recuentos de cualquier objeto de directorio en Azure Active Directory para este límite.
+&sup1; Los recuentos de cualquier objeto de directorio en Azure Active Directory para este límite.
 
 <a name="meetings-and-calls"></a>Las reuniones y llamadas 
 ------------------

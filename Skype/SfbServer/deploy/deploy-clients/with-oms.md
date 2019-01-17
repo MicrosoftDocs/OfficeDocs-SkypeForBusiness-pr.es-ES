@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: En este artículo se explica cómo implementar la administración de dispositivos de sistemas de salón de Skype v2 de manera integrada, end-to-end con el conjunto de aplicaciones de administración de operaciones de Microsoft.
-ms.openlocfilehash: 5f370c7e222f75b11b41a39e99b9cba568d58241
-ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
+ms.openlocfilehash: 9a55238296452119679ff3c07147961fcec3eb7a
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/08/2018
-ms.locfileid: "25450492"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328281"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>Implementar la administración de Sistemas de salas de Skype v2 con OMS
 
@@ -140,7 +140,7 @@ Para extraer los campos personalizados fuera de los registros de eventos captura
 |:-----------------------------|:---------------------------|:----------------|
 | Descripción                  | SRSEventDescription_CF     | No seleccionado    |
 | ResourceState                | SRSResourceState_CF        | No seleccionado    |
-| NombreDeOperación                | SRSOperationName_CF        | No seleccionado    |
+| OperationName                | SRSOperationName_CF        | No seleccionado    |
 | OperationResult              | SRSOperationResult_CF      | No seleccionado    |
 | OS                           | SRSOSVersion_CF            | No seleccionado    |
 | OSVersion                    | SRSOSLongVersion_CF        | No seleccionado    |
@@ -195,7 +195,7 @@ Como alternativa, puede crear su propio escritorio y agregar sólo los mosaicos 
 
 ### <a name="create-a-tile-that-displays-active-devices"></a>Crear un icono que muestra los dispositivos de activos
 1.  Seleccione el **Panel de vista** para empezar a agregar los mosaicos.
-2.  Seleccione el **número y la lista** de la Galería de
+2.  Seleccione la **lista & de número** de la Galería
 3.  Definir las propiedades **generales** :<br>
     **Título de grupo:** Estado del latido<br>
     **Nuevo grupo:** Seleccionado
@@ -212,7 +212,7 @@ Como alternativa, puede crear su propio escritorio y agregar sólo los mosaicos 
 8.  Seleccione **Aplicar**y, a continuación, en **Cerrar**.
 
 ### <a name="create-a-tile-that-displays-devices-that-have-connectivity-issues"></a>Crear un icono que muestra los dispositivos que tienen problemas de conectividad
-1.  Seleccione el **número y la lista** de la Galería de y, a continuación, agregue un nuevo mosaico.
+1.  Seleccione **lista & de número** de la galería y, a continuación, agregue un nuevo mosaico.
 2.  Definir las propiedades **generales** :<br>
     **Título de grupo:** Deje en blanco<br>
     **Nuevo grupo:** No seleccionado
@@ -230,7 +230,7 @@ Como alternativa, puede crear su propio escritorio y agregar sólo los mosaicos 
 
 ### <a name="create-a-tile-that-displays-devices-that-have-a-hardware-error"></a>Crear un icono que muestra los dispositivos que tienen un error de hardware
 
-1.  Seleccione el **número y la lista** de la Galería de y, a continuación, agregue un nuevo mosaico.
+1.  Seleccione **lista & de número** de la galería y, a continuación, agregue un nuevo mosaico.
 2.  Definir las propiedades **generales** :<br>
     **Título de grupo:** Estado de hardware<br>
     **Nuevo grupo:** Seleccionado
@@ -248,7 +248,7 @@ Como alternativa, puede crear su propio escritorio y agregar sólo los mosaicos 
 
 ### <a name="create-a-tile-that-displays-skype-room-systems-v2-operating-system-versions"></a>Crear un icono que muestra las versiones de sistema operativo de v2 de sistemas de salón de Skype
 
-1.  Seleccione **rosquilla & lista** de la galería y, a continuación, agregue un nuevo mosaico.
+1.  Seleccione **lista de & rosquilla** desde la Galería de y, a continuación, agregue un nuevo mosaico.
 2.  Definir las propiedades **generales** :<br>
     **Título de grupo:** Detalles de sistema operativos <br>
     **Nuevo grupo:** Seleccionado
@@ -272,7 +272,7 @@ Como alternativa, puede crear su propio escritorio y agregar sólo los mosaicos 
 
 ### <a name="create-a-tile-that-displays-skype-room-systems-v2-application-versions"></a>Crear un icono que muestra las versiones de la aplicación de sistemas de salón de Skype v2
 
-1.  Seleccione **rosquilla & lista** de la galería y, a continuación, agregue un nuevo mosaico.
+1.  Seleccione **lista de & rosquilla** desde la Galería de y, a continuación, agregue un nuevo mosaico.
 2.  Definir las propiedades **generales** :<br>
     **Título de grupo:** Detalles de la aplicación de sistemas de salón de Skype v2 <br>
     **Nuevo grupo:** Seleccionado
@@ -296,7 +296,7 @@ Como alternativa, puede crear su propio escritorio y agregar sólo los mosaicos 
 
 ### <a name="create-a-tile-that-displays-devices-that-have-an-application-error"></a>Crear un icono que muestra los dispositivos que tienen un error de aplicación
 
-1.  Seleccione el **número y la lista** de la Galería de y, a continuación, agregue un nuevo mosaico.
+1.  Seleccione **lista & de número** de la galería y, a continuación, agregue un nuevo mosaico.
 2.  Definir las propiedades **generales** .<br>
     **Título de grupo:** Deje en blanco<br>
     **Nuevo grupo:** No seleccionado
@@ -314,7 +314,7 @@ Como alternativa, puede crear su propio escritorio y agregar sólo los mosaicos 
 
 ### <a name="create-a-tile-that-displays-devices-that-have-been-restarted"></a>Crear un icono que muestra los dispositivos que se haya reiniciado
 
-1.  Seleccione el **número y la lista** de la Galería de y, a continuación, agregue un nuevo mosaico.
+1.  Seleccione **lista & de número** de la galería y, a continuación, agregue un nuevo mosaico.
 2.  Definir las propiedades **generales** .<br>
     **Título de grupo:** Deje en blanco<br>
     **Nuevo grupo:** No seleccionado
@@ -392,7 +392,7 @@ Configurar una regla de alerta, que comprueba para sistemas de salón de Skype v
 2.  Escriba la siguiente consulta y, a continuación, seleccione **Ejecutar**.<br>
     ```
     Event
-    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(10h)
+    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
     | summarize arg_max(TimeGenerated, *) by Computer
     | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
     | sort by TimeGenerated desc

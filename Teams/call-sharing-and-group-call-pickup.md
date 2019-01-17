@@ -1,9 +1,9 @@
 ---
-title: Uso compartido de llamada y el grupo de atención de llamadas en Microsoft Teams
+title: Compartir llamadas y atender llamadas grupales en Microsoft Teams
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 12/13/2018
+ms.date: 01/16/19
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Uso compartido de llamadas y respuesta de llamadas en grupo permite a los usuarios compartir las llamadas entrantes con compañeros de trabajo para que las llamadas se pueden capturar cuando el usuario no está disponible.
-ms.openlocfilehash: 7f05484f0ba780eb8ed00df68b455d8555c1e4c0
-ms.sourcegitcommit: 5f7e078125f810a9e9a89052854ef63916afe7d3
+ms.openlocfilehash: 31df45d0420457528fd517c851b845a09cab32e0
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27283154"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328320"
 ---
-# <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Uso compartido de llamada y el grupo de atención de llamadas en Microsoft Teams
+# <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Compartir llamadas y atender llamadas grupales en Microsoft Teams
 
 El uso compartido de llamada y el grupo de llamadas pickup características de recurso compartido de permiten a los usuarios de Microsoft Teams sus las llamadas entrantes con compañeros de trabajo para que los compañeros pueden responder a las llamadas que se producen mientras el usuario no está disponible.
 
@@ -44,7 +44,7 @@ Los usuarios deben ser Enterprise Voice está habilitado para configurar y uso c
 
 ## <a name="configure-group-call-pickup"></a>Configurar respuesta de llamadas en grupo
 
-Para configurar la respuesta de llamadas en grupo, un usuario en primer lugar configura un grupo de llamada y, a continuación, agrega los usuarios que desean compartir sus llamadas con. A continuación, se elige una llamada simultánea o configuración de reenvío de llamadas. Para obtener más información, vea [anillo desvío y simultánea en los equipos de llamadas](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
+Para configurar la respuesta de llamadas en grupo, un usuario en primer lugar configura un grupo de llamada (Esto no es lo mismo como un grupo de seguridad o un grupo de Office 365) y, a continuación, agrega los usuarios que desean compartir sus llamadas con. A continuación, se elige una llamada simultánea o configuración de reenvío de llamadas. Para obtener más información y procedimientos paso a paso, vea [llamada anillo desvío y simultánea en los equipos](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
 
 Llamar a la creación del grupo y notificación preferencias son las características de controlado por el usuario; no es necesario que los administradores configurar estas características para sus usuarios. No se puede crear grupos de llamada de grupos de seguridad o grupos de Office 365; se deben crear en los equipos.
 

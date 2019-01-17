@@ -15,46 +15,52 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a36c0a23076c5aa172824fe85103c57a8494dbf
-ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
+ms.openlocfilehash: 383a4a18d466e367a31e4b99f9975b51cc5f559a
+ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/28/2018
-ms.locfileid: "27458481"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "27988189"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Administrar características de Microsoft Teams en su organización de Office 365
 
-Todas las configuraciones de Teams se migrarán pronto al nuevo Centro de administración de Microsoft Teams y Skype Empresarial. La única característica que se administra en el Centro de administración de Office 365 es Aplicaciones. 
+Todas las configuraciones de Teams se migrarán pronto al nuevo Centro de administración de Microsoft Teams y Skype Empresarial. La única característica de Teams que se administra en el Centro de administración de Office 365 es Aplicaciones. 
 
 A menos que se indique lo contrario, el valor predeterminado para una opción es **Activado**.
 
-## <a name="office-365-tenant-wide-settings"></a>Configuración de todos los inquilinos en Office 365 
+## <a name="tenant-wide-settings"></a>Configuración de todos los inquilinos 
 
-En **Configuración de todos los inquilinos** puede activar o desactivar Aplicaciones.
+Puede activar o desactivar aplicaciones para Teams en **Configuración de todos los inquilinos** en el Centro de administración de Microsoft 365. 
 
-Para editar **Configuración de todos los inquilinos** para Teams, vaya al Centro de administración de Microsoft Teams y Skype Empresarial y seleccione **Portal anterior**. Elija **Configuración** > **Servicios y complementos** > **Microsoft Teams**. Si ha iniciado sesión como administrador de Office 365, puede acceder con este vínculo: 
->  
-> https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns  
+Para editar **Configuración de todos los inquilinos** para Teams, vaya al Centro de administración de Microsoft 365 y seleccione **Configuración** > **Servicios y complementos** > **Microsoft Teams**. Si ha iniciado sesión como administrador de Office 365, puede acceder con este vínculo: 
+
+https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns  
 
 ### <a name="apps"></a>Aplicaciones
 
-Las aplicaciones son fichas, conectores, bots o cualquier combinación de estos tres elementos que proporciona un servicio de terceros. Hay directivas de administración de Microsoft Teams que se pueden configurar en el Centro de administración de Office 365 para controlar qué aplicaciones externas de terceros están permitidas. Estas directivas permiten especificar qué aplicaciones están permitidas y cuáles no, el comportamiento de las aplicaciones nuevas externas y si se permite la instalación de prueba de aplicaciones. 
+Las aplicaciones son fichas, conectores, bots o cualquier combinación de estos tres elementos que proporciona Teams (aplicaciones de origen o aplicaciones predeterminadas, como también se conocen) o un servicio de terceros (también denominadas aplicaciones externas). En **Aplicaciones**, puede habilitar y deshabilitar las aplicaciones predeterminadas, así como configurar el control sobre las aplicaciones externas.  
 
-La sección **Aplicaciones** le permite establecer la siguiente configuración para su organización: 
+#### <a name="default-apps"></a>Aplicaciones predeterminadas
 
-![Captura de pantalla de la sección Aplicaciones.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.png)
+Estas aplicaciones (como Planner, Elogio y El Tiempo) las ofrece Teams. Si desea activar una aplicación, seleccione la casilla de verificación que corresponde a esa aplicación. Para desactivarla, anule la selección de dicha casilla. 
 
-- **Permitir aplicaciones externas en Microsoft Teams:** si este conmutador está activado, los usuarios pueden agregar las fichas y los bots que estén disponibles al inquilino de Office 365. 
- 
-    ![Captura de pantalla del control para permitir aplicaciones externas en la sección Aplicaciones.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.2.png)
+![Captura de pantalla de la sección Aplicaciones predeterminadas.](media/teams-tenant-wide-settings-default-apps.png "Captura de pantalla de la sección Aplicaciones predeterminadas")
 
-- **Habilitar nuevas aplicaciones externas de manera predeterminada**: si este conmutador está activado, los usuarios pueden activar nuevas aplicaciones en cuanto estas se agregan al catálogo de aplicaciones de Microsoft Teams. Desactive este conmutador si quiere controlar las aplicaciones nuevas. Si lo desactiva, deberá recordar revisar periódicamente las nuevas incorporaciones para que su organización no se pierda las nuevas aplicaciones de interés. 
+#### <a name="external-apps"></a>Aplicaciones externas
 
-- **Permitir la instalación de prueba de aplicaciones externas:** si este conmutador está activado, los usuarios pueden instalar y activar bots y fichas personalizados. 
+Estas aplicaciones las proporcionan terceros. Es posible configurar las siguientes opciones relacionadas con las aplicaciones externas.
 
-Para obtener más información, consulte [Configurar la administración para aplicaciones en Microsoft Teams](admin-settings.md). 
+![Captura de pantalla de la sección Aplicaciones externas.](media/teams-tenant-wide-settings-external-apps-settings.png "Captura de pantalla de la sección Aplicaciones externas, donde se muestran las opciones que se pueden activar o desactivar")
 
-## <a name="teams-org-wide-settings"></a>Configuración de toda la organización de Microsoft Teams
+- **Permitir aplicaciones externas en Microsoft Teams:** si esta opción se activa, los usuarios podrán agregar aplicaciones externas que estén disponibles para la organización. 
+
+- **Habilitar nuevas aplicaciones externas de manera predeterminada**: si esta opción se activa, los usuarios podrán activar nuevas aplicaciones en cuanto estas se agreguen al catálogo de aplicaciones de Teams. Desactive esta opción si quiere controlar las aplicaciones nuevas. Si la desactiva, deberá recordar revisar periódicamente las nuevas aplicaciones para que su organización no se pierda las nuevas aplicaciones de interés. 
+
+- **Permitir la instalación de prueba de aplicaciones externas**: Si quiere activar algunas aplicaciones externas y desactivar otras, desactive esta opción y, a continuación, en la lista de aplicaciones externas, desactive aquellas a las que no desea que accedan los usuarios. Cuando esta opción esté activada, los miembros y los propietarios de los equipos que tengan autorización para ello podrán transferir localmente aplicaciones a Teams. 
+
+Para obtener más información, consulte [Configurar la administración de aplicaciones en Teams](admin-settings.md). 
+
+## <a name="teams-org-wide-settings"></a>Configuración de toda la organización de Teams
 
 Puede controlar la configuración del usuario de toda la organización en el Centro de administración de Microsoft Teams y Skype Empresarial. Para editar la configuración de toda la organización, vaya al Centro de administración de Microsoft Teams y Skype Empresarial y seleccione **Configuración de toda la organización**. Puede configurar las siguientes opciones.
 
@@ -83,10 +89,6 @@ Los usuarios pueden cargar y compartir archivos de los servicios de almacenamien
 #### <a name="organization"></a>Organización
 
 Aquí puede activar la ficha **Organización**, que muestra el organigrama detallado de la organización del usuario. Si desea más información, consulte [Usar la ficha Organización en Microsoft Teams](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
-
-#### <a name="skype-for-business-interop"></a>Interoperabilidad de Skype Empresarial
-
-Use esta configuración para que los usuarios de Teams puedan chatear con los usuarios de Skype Empresarial. Para obtener información detallada sobre la interoperabilidad entre Teams y Skype Empresarial, vaya a [Descripción de la coexistencia y la interoperabilidad de Skype Empresarial y Microsoft Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 #### <a name="devices"></a>Dispositivos
 
