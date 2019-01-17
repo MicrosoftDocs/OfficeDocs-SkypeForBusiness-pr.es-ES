@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 6296e5ea0dde283dc46418d42db97c524277267b
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328288"
+---
 # [Skype para Business Server 2019](../skype-for-business-server-2019.md)
 
 ## [Novedades](../whats-new.md)
@@ -151,7 +159,6 @@
 ##### [Cifrado](../../SfbServer/plan-your-deployment/security/encryption.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Herramientas de administración](../../SfbServer/plan-your-deployment/security/management-tools.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Afrontar las amenazas](../../SfbServer/plan-your-deployment/security/addressing-threats.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-##### [Procedimientos recomendados](../../SfbServer/plan-your-deployment/security/best-practices.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Capacidad](../../SfbServer/plan-your-deployment/capacity/capacity.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Modelo de usuario](../plan/user-model-2019.md)
 ##### [Estimar el tráfico de voz](../../SfbServer/plan-your-deployment/capacity/estimating-voice-traffic.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -315,7 +322,7 @@
 #### [Ejecutar analizador de procedimientos recomendados](../migration/run-best-practices-analyzer.md)
 #### [Copia de seguridad de los datos y sistemas](../migration/back-up-systems-and-data.md)
 #### [Configurar a los clientes para la migración](../migration/configure-clients-for-migration.md)
-#### [Comprobación del entorno heredado que son migración desde](../migration/verify-environment.md)
+#### [Comprobación del entorno heredado que va a migrar desde](../migration/verify-environment.md)
 ### [Fase 3: Implementar grupo piloto](../migration/phase-3-deploy-pilot-pool.md)
 #### [Preparar Active Directory para el grupo piloto](../migration/prepare-active-directory.md)
 #### [Descargar una topología desde una implementación existente](../migration/download-topology-from-existing-deployment.md)
