@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: El nuevo Skype para el área de informes del centro de administración empresarial muestra realiza la llamada y audio conferencia actividad en la organización. Permite profundizar en los informes para proporciona una idea más granular acerca de las actividades de cada usuario. Por ejemplo, puede usar el informe Detalles de uso de RTC de Skype Empresarial para ver el número de minutos dedicados a llamadas entrantes y salientes, así como el coste de dichas llamadas. Puede ver detalles de uso de RTC de conferencia de Audio incluido el costo de la llamada para que pueda comprender su uso y llamar a los detalles de facturación para determinar el uso dentro de la organización.
-ms.openlocfilehash: e4af77832cca1cd2a9d9de49aa83f4400c359277
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: c0a207681db425bd411bfdbda1bb9f380fbb70a1
+ms.sourcegitcommit: 5f289e4ca3ba40013d38c352bd34eff96d6421b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561650"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726629"
 ---
 # <a name="pstn-usage-report"></a>Informe de uso de RTC
 
@@ -76,7 +76,7 @@ Este es el aspecto del informe.
      **Aplicaciones de comunicaciones unificadas (UCAP)** 
      *    **ucap_in** (una llamada de RTC entrante a la aplicación de comunicaciones unificadas como una cola de llamada o de operador automático) 
      *    **ucap_out** (una llamada de RTC saliente desde la aplicación de comunicaciones unificadas como cola de llamada o de operador automático)
-     *    **Nota:** Las llamadas que se han transferido a un usuario de la aplicación de comunicaciones unificadas, como una cola de llamada o de operador automático no aparecerán en el informe de uso de RTC como estos tramos de llamada son las llamadas de audio de punto a punto (P2P). Puede obtener acceso a las llamadas de P2P en la Skype para el centro de administración de negocio en "Herramientas > Skype para Business llamar Analytics" y buscar por dirección SIP o el nombre de usuario que correlaciona la llamada por fecha y hora o que se originan CLID (identificador de la línea de llamada). 
+     *    **Nota:** Las llamadas que se han transferido a un usuario de la aplicación de comunicaciones unificadas, como una cola de llamada o de operador automático no aparecerán en el informe de uso de RTC como estos tramos de llamada son las llamadas de audio de punto a punto (P2P). Puede obtener acceso a las llamadas de P2P en la Skype para el centro de administración de negocio en "Herramientas > Skype para Business Analytics de llamada" y buscar por dirección SIP o el nombre de usuario que correlaciona la llamada por fecha y hora o que se originan CLID (identificador de la línea de llamada). 
 *     
      **Nacional o internacional** le indica si la llamada que se ha colocado se consideró nacionales (dentro de un país o región) o internacionales (fuera de un país o región) según la ubicación del usuario. 
 *    **Marcado de destino** es el nombre del destino del país o región que se marca como Francia, Alemania o de los Estados Unidos (US). 
@@ -93,6 +93,9 @@ Este es el aspecto del informe.
      *    **MCOPSTN6** - nacionales llamar a Plan (plan de llamadas de 240 min) Nota: disponibilidad limitada
      *    **MCOMEETADD** - conferencias de Audio
      *    **MCOMEETACPEA** - pago por minuto conferencias de Audio
+> [!NOTE]
+> Si desea ejecutar un informe para que incluya un pago único por minutos llamadas que no se incluyen en la llamada o suscripción de conferencia, filtrar el informe con capacidad de "MCOPSTNPP". Al hacerlo, se proporcionará un desglose de todos los pago por minutos llamadas.  Para pago por minuto conferencias de audio, filtrar por "MCOMEETACPEA" en lugar de "MCOPSTNPP".  
+***
 > [!NOTE]
 > También es posible que vea "no hay datos" en algunos campos. "No hay datos" significa que el campo no es aplicable para el tipo de llamada o la capacidad. 
 ***
