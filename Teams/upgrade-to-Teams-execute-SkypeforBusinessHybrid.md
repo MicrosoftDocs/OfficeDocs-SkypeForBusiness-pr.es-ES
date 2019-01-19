@@ -1,9 +1,8 @@
 ---
-title: Actualizar desde un Skype para implementación híbrida de negocio a los equipos - Microsoft Teams
+title: Actualización de Skype para su implementación híbrida empresarial en Microsoft Teams | RTC
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,24 +13,24 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c77f9de2d3e916902fb3c2ae7e08d8c2c5527761
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: c78c5b519997c125dc1902021acabe664ea03047
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013292"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349578"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación] (media/upgrade-banner-deployment.png "Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación")
 
 En este artículo forma parte de la fase de implementación y la implementación de su viaje por la actualización. Antes de continuar, confirme que ha realizado las siguientes actividades:
 
--   [Los participantes en el proyecto de alta](upgrade-enlist-stakeholders.md)
--   [Define el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
--   [Entiende coexistencia e interoperabilidad de Skype para profesionales y los equipos](https://aka.ms/SkypeToTeams-Coexist)
--   [Elegido su viaje por la actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
--   [Preparar el entorno](https://aka.ms/SkypeToTeams-TechnicalReadiness)
--   [Preparar la organización](https://aka.ms/SkypeToTeams-UserReadiness)
--   [Realiza una prueba piloto](https://aka.ms/SkypeToTeams-Pilot)
+- [Los participantes en el proyecto de alta](upgrade-enlist-stakeholders.md)
+- [Define el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
+- [Entiende coexistencia e interoperabilidad de Skype para profesionales y los equipos](https://aka.ms/SkypeToTeams-Coexist)
+- [Elegido su viaje por la actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Preparar el entorno](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [Preparar la organización](https://aka.ms/SkypeToTeams-UserReadiness)
+- [Realiza una prueba piloto](https://aka.ms/SkypeToTeams-Pilot)
 
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Actualizar desde un Skype para implementación híbrida de negocio a los equipos
 

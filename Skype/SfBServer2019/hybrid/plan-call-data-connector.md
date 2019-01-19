@@ -1,5 +1,5 @@
 ---
-title: Planeación de conector de datos de llamada
+title: Planeación de conector de datos de llamada | Panel de calidad supervisión análisis híbrido de llamadas
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,16 +9,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Información general del uso de Skype para herramientas de telemetría de negocio en línea para supervisar una implementación local en un escenario híbrido.
-ms.openlocfilehash: d704f23f9b8260e8d755c4d1f0f48da927859ba1
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6bcf1e26ca005a30e4f1c940f655a3277e18001e
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530538"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349539"
 ---
 # <a name="plan-call-data-connector"></a>Planeación de conector de datos de llamada
 
 ## <a name="overview"></a>Información general
+
 Este tema describe las ventajas, las consideraciones de planeación y requisitos para la implementación de Skype para el conector de datos de llamadas de Business Server. Para obtener más información acerca de cómo configurar el conector de datos de llamadas, vea [Configuración de conector de datos de llamada](configure-call-data-connector.md).
 
 > [!NOTE]
@@ -32,7 +33,7 @@ Con el conector de datos de llamadas, puede realizar las siguientes tareas media
 
 - Ver y solucionar los problemas a través de la red.
 
-- Asignación de roles de departamento de soporte técnico y administrador para análisis de llamadas, por lo que puede ofrecer a los trabajadores del departamento de soporte técnico ver y solucionar problemas de sus áreas de responsabilidad. 
+- Asignación de roles de departamento de soporte técnico y administrador para análisis de llamadas, por lo que puede ofrecer a los trabajadores del departamento de soporte técnico ver y solucionar problemas de sus áreas de responsabilidad.
 
 Con el conector de datos de llamadas, la Skype para Business Server inserta datos de la llamada al servicio de nube para que puede aprovechar la Skype para herramientas de análisis de llamadas en línea en Business (CA) y el panel de calidad de llamadas (CQD), tal como se muestra en el siguiente diagrama:
 
@@ -52,24 +53,23 @@ Por supuesto, es posible que desee mantener algunos datos de calidad de llamada 
 
 ![Correo de voz de SfB en la nube](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
-
 ## <a name="requirements"></a>Requisitos
 
 Los siguientes requisitos se suponen que ya dispone de Skype para Business Server implementado en una topología admitida.  Para obtener más información sobre la implementación de Skype para Business Server y las topologías admitidas, vea [Conceptos básicos de la topología](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics). Para configurar el conector de datos de llamadas, debe:
 
-- Habilitar la conectividad híbrida. Si ya dispone de Skype para Business Server implementado y que desea habilitar el conector de datos de llamadas, debe asegurarse de que dispone de conectividad híbrida configurar entre los entornos en línea y local. En ocasiones, esto se denomina una configuración de dominio dividido. 
+- Habilitar la conectividad híbrida. Si ya dispone de Skype para Business Server implementado y que desea habilitar el conector de datos de llamadas, debe asegurarse de que dispone de conectividad híbrida configurar entre los entornos en línea y local. En ocasiones, esto se denomina una configuración de dominio dividido.
 
    Para obtener más información, vea [Planear la conectividad híbrida entre Skype para Business Server y Office 365](plan-hybrid-connectivity.md) y [Configure la conectividad híbrida entre Skype para Business Server y Office 365](configure-hybrid-connectivity.md).
 
--  Autenticar a su inquilino Office 365 y asegúrese de que tiene las siguientes funciones habilitadas:
+- Autenticar a su inquilino Office 365 y asegúrese de que tiene las siguientes funciones habilitadas:
 
-   - Skype para el administrador del servidor de negocio 
-   - Administrador Global de Office 365 
+  - Skype para el administrador del servidor de negocio
+  - Administrador Global de Office 365
 
 - Si no lo ha hecho ya, activar en el panel de calidad de llamada tal como se describe en [activar y con el panel de calidad de llamadas para los equipos de Microsoft y Skype para profesionales en línea](/microsoftteams/turning-on-and-using-call-quality-dashboard).
- 
-- Habilitar el grupo de servidores front-end de supervisión, con bases de datos LCSCdr y QoEMetrics locales. Sin esto, llame al conector de datos no tiene datos de métricas para que funcione con. 
- 
+
+- Habilitar el grupo de servidores front-end de supervisión, con bases de datos LCSCdr y QoEMetrics locales. Sin esto, llame al conector de datos no tiene datos de métricas para que funcione con.
+
 > [!IMPORTANT]
 > Conector de datos de llamada no funcionará si no está habilitada la supervisión en el grupo de servidores front-end.
 

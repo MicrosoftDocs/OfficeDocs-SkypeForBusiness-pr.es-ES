@@ -1,9 +1,8 @@
 ---
-title: Planificar la conectividad híbrida entre Skype Empresarial Server y Skype Empresarial Online
+title: Planeación de la conectividad híbrida | Skype para Business Server 2015 y en línea
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 1/23/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -17,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 'Resumen: lea este tema para aprender a planificar la conectividad híbrida entre Skype Empresarial Server y Skype Empresarial Online.  A la hora de implementar muchas soluciones híbridas de Skype Empresarial, el primer paso consiste en configurar la conectividad híbrida.'
-ms.openlocfilehash: 8fd32e8b70f2fc63919b9ec8abca2d0b70c90107
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: fe862c5d25a9fca17a42fb1026b608b8656d419d
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015288"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349103"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Planificar la conectividad híbrida entre Skype Empresarial Server y Skype Empresarial Online
 
@@ -65,6 +64,7 @@ Una vez que haya leído este tema y esté listo para implementar, consulte [Depl
 (Para obtener información acerca de cómo configurar su Lync Server 2013 o implementación de Lync Server 2010 para entornos híbridos, vea [Lync Server 2013 hybrid](https://go.microsoft.com/fwlink/p/?LinkId=617360)).
 
 ## <a name="overview"></a>Información general
+
 <a name="BKMK_Overview"> </a>
 
 Con las soluciones híbridas podrá transferir a sus usuarios a la nube en función de su programación y la necesidad de su negocio. Este tema se centra en la conectividad híbrida entre una implementación local de Skype Empresarial Server y Skype Empresarial Online. Esta conectividad le permite tener a algunos usuarios alojados en local y a otros en línea.
@@ -122,6 +122,7 @@ Para obtener más información acerca de cómo configurar una solución híbrida
 También puede configurar las implementaciones híbridas para la integración con Exchange y SharePoint local o con aplicaciones de Microsoft Office 365, incluido Exchange Online y SharePoint Online. También puede configurar una solución de voz híbrida que no requiera una implementación completa de Skype Empresarial Server mediante Cloud Connector Edition. Para obtener más información acerca de todos los Skype para soluciones híbridas de negocio y planear la migración a la nube, vea [Skype para soluciones híbridas de negocio](skype-for-business-hybrid-solutions.md).
 
 ## <a name="infrastructure-requirements"></a>Requisitos de infraestructura
+
 <a name="BKMK_Infrastructure"> </a>
 
 Para implementar una conectividad híbrida entre Skype Empresarial Server y Skype Empresarial Online, debe configurar lo siguiente en su entorno:
@@ -147,6 +148,7 @@ Para implementar una conectividad híbrida entre Skype Empresarial Server y Skyp
 - Un espacio de dirección de protocolo de inicio de sesión (SIP) compartido. Una dirección SIP es un identificador único para cada usuario de una red, parecido a un número de teléfono o a una dirección de correo electrónico. Antes de intentar mover usuarios de local a Skype para profesionales en línea, debe configurar el inquilino de Office 365 para compartir el espacio de direcciones de protocolo de inicio de sesión (SIP) compartidos con la implementación local. Para más información, vea [Configure federation with Skype for Business Online](deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md).
 
 ## <a name="multi-forest-support"></a>Compatibilidad de bosques múltiples
+
 <a name="BKMK_MultiForest"> </a>
 
 Los usuarios pueden acceder a la funcionalidad de Skype Empresarial en otro bosque si se cumplen los siguientes requisitos:
@@ -158,6 +160,7 @@ Los usuarios pueden acceder a la funcionalidad de Skype Empresarial en otro bosq
 Para obtener información detallada en escenarios híbridos de varios bosques, vea [Configure un entorno de varios bosque para entornos híbridos Skype para la empresa](deploy-hybrid-connectivity/configure-a-multi-forest-environment-for-hybrid.md).
 
 ## <a name="exchange-co-existence"></a>Coexistencia de Exchange
+
 <a name="BKMK_Exchange"> </a>
 
 Para admitir la coexistencia con Exchange, tenga lo siguiente en cuenta:
@@ -173,16 +176,19 @@ Para admitir la coexistencia con Exchange, tenga lo siguiente en cuenta:
 Para obtener información detallada sobre la coexistencia con Exchange Server, incluidos los criterios y las limitaciones de la compatibilidad en distintas combinaciones de implementaciones locales y en línea, vea [Compatibilidad con la característica](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) en [Plan to integrate Skype for Business and Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
 
 ## <a name="administrator-credentials"></a>Credenciales de administrador
+
 <a name="BKMK_Credentials"> </a>
 
 Cuando se le pregunte para proporcionar sus credenciales de administrador, puede usar el nombre de usuario y la contraseña para la cuenta de administrador para el inquilino de Office 365. También va a usar estas credenciales al configurar Azure Active Directory para la federación, la sincronización de directorios, el inicio de sesión único y mover a los usuarios a Skype para profesionales en línea.
 
 ## <a name="skype-for-business-online-powershell"></a>PowerShell de Skype Empresarial Online
+
 <a name="BKMK_PowerShell"> </a>
 
 Ahora, los administradores tienen la capacidad de usar Windows PowerShell para administrar Skype para profesionales en línea y su Skype para las cuentas de usuario en línea de negocio. Para ello, primero debe descargar e instalar el Skype para profesionales de módulo de conector en línea desde Microsoft Download Center. Para obtener más información acerca de cómo descargar, instalar y utilizar el Skype para el módulo del conector de negocio en línea y para obtener información detallada sobre el uso de Windows PowerShell para administrar Skype para en línea de negocio, consulte [Using Windows PowerShell para administrar Skype para la empresa Online](https://technet.microsoft.com/library/dn362831.aspx).
 
 ## <a name="skype-for-business-client-support"></a>Compatibilidad de clientes de Skype Empresarial
+
 <a name="BKMK_ClientSupport"> </a>
 
 Hay algunas diferencias en las características compatibles con los clientes, así como en las disponibles en entornos locales y en línea. Los clientes siguientes son compatibles con Skype para profesionales en línea en una implementación híbrida:
@@ -214,6 +220,7 @@ Antes de decidir donde desea que usuarios particulares en su organización, debe
 - [Comparación de características de cliente móvil de Skype para la empresa](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)
 
 ## <a name="topology-requirements"></a>Requisitos de topología
+
 <a name="BKMK_Topology"> </a>
 
 Para configurar la implementación para la implementación híbrida con Skype para profesionales en línea, debe tener una de las siguientes topologías admitidas:
@@ -255,6 +262,7 @@ Para configurar la implementación para la implementación híbrida con Skype pa
   - El grupo de servidores perimetrales asociado con la federación SIP para el sitio
 
 ## <a name="federation-allowedblocked-lists-requirements"></a>Requisitos para las listas de permitidos/bloqueados de la federación
+
 <a name="BKMK_Federation"> </a>
 
 La lista de dominios permitidos incluye los dominios que tienen configurado un nombre de dominio completo (FQDN) del perímetro de asociado. En ocasiones, estos se conocen como socios federados de socio permitido servidores ordirect. Debe estar familiarizado con la diferencia entre la federación abierta y federación cerrado, conocida como lista de dominio de socio de socio detección andallowed, respectivamente, en las implementaciones locales.
@@ -270,6 +278,7 @@ Los requisitos siguientes necesitan cumplirse para configurar correctamente una 
 - Federación debe estar habilitada para las comunicaciones externas para el inquilino en línea, que se configura mediante el Skype para el Panel de Control en línea de negocio.
 
 ## <a name="dns-settings"></a>Configuración de DNS
+
 <a name="BKMK_DNS"> </a>
 
 Al crear registros DNS para implementaciones híbridas, todos los Skype para los registros DNS externos empresariales debe apuntar a la infraestructura local. Para obtener detalles sobre los registros DNS necesarios, consulte [requisitos de DNS para Skype para Business Server 2015](../plan-your-deployment/network-requirements/dns.md).
@@ -286,6 +295,7 @@ Según el modo en que DNS esté configurado en su organización, es probable que
 [!NOTE] _sipfederationtls._tcp. \<sipdomain.com\> solución del registro SRV desde el servidor perimetral es necesario para la configuración híbrida. Si el servidor perimetral no se puede resolver estos registros, los usuarios locales no podrán ver el estado de presencia o comunicarse con usuarios en línea.
 
 ## <a name="firewall-considerations"></a>Consideraciones sobre el firewall
+
 <a name="BKMK_Firewall"> </a>
 
 Los equipos de la red necesitan poder efectuar búsquedas estándar de DNS en Internet. Si estos equipos acceden a sitios de Internet estándar, la red cumplirá este requisito.
@@ -295,12 +305,12 @@ Según la ubicación de su centro de datos de Microsoft Online Services, tambié
 Si desea más información, consulte [URL de Office 365 e intervalos de direcciones IP](https://go.microsoft.com/fwlink/p/?LinkId=252942).
 
 ## <a name="port-and-protocol-requirements"></a>Requisitos de puerto y protocolo
+
 <a name="BKMK_Ports"> </a>
 
 Además de los requisitos de puerto para la comunicación interna, debe configurar también los puertos siguientes para permitir la conectividad híbrida:
 
-
-|**Protocolo**|**TCP o UDP**|**IP de origen**|**IP de destino**|**Puerto de origen**|**Puerto de destino**|**Notas**|
+|Protocolo|TCP o UDP|IP de origen|IP de destino|Puerto de origen|Puerto de destino|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |SIP (MTLS)  <br/> |TCP  <br/> |Perímetro de acceso  <br/> |Office 365  <br/> |Cualquiera  <br/> |5061  <br/> |Señalización  <br/> |
 |SIP (MTLS)  <br/> |TCP  <br/> |Office 365  <br/> |Perímetro de acceso  <br/> |Cualquiera  <br/> |5061  <br/> |Señalización  <br/> |
@@ -312,6 +322,7 @@ Además de los requisitos de puerto para la comunicación interna, debe configur
 Para obtener más información acerca de puerto y firewall para servidor perimetral de planeación, vea [requisitos de entorno de servidor perimetral de Skype para Business Server 2015](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md). Consulte también [Port and protocol requirements for servers](../plan-your-deployment/network-requirements/ports-and-protocols.md) y el [diagrama de cargas de trabajo de protocolos](https://go.microsoft.com/fwlink/p/?LinkId=550989).
 
 ## <a name="user-accounts-and-data"></a>Cuentas de usuarios y datos
+
 <a name="BKMK_UserAccounts"> </a>
 
 En una implementación híbrida, cualquier usuario que se desea particular en línea, primero debe crearse en la implementación local, por lo que se crea la cuenta de usuario en servicios de dominio de Active Directory. A continuación, puede mover el usuario a Skype para profesionales en línea, que se va a mover la lista de contactos del usuario.
@@ -335,8 +346,8 @@ También necesita tener en cuenta los siguientes problemas relacionados con el u
 
 - **Datos de conferencia, el contenido de la reunión y las reuniones programadas** Este contenido no se migra con la cuenta de usuario. Los usuarios deben volver a programar las reuniones después de que sus cuentas se migran a Skype para profesionales en línea. El servicio de migración de la reunión se hacerlo automáticamente al migrar desde un Skype para Business server a Skype para profesionales en línea o los equipos, consulte [con el servicio de migración de la reunión](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
 
-
 ## <a name="user-policies-and-features"></a>Directivas de usuario y características
+
 <a name="BKMK_UserPolicies"> </a>
 
 - En un entorno híbrido, se puede habilitar a los usuarios para mensajería instantánea y conferencias (reuniones) en modo local o en línea, pero no en ambos a la vez.
@@ -344,5 +355,3 @@ También necesita tener en cuenta los siguientes problemas relacionados con el u
 - **Soporte de cliente** Algunos usuarios pueden requerir una nueva versión de cliente cuando se mueven a Skype para profesionales en línea. Para Office Communications Server 2007 R2, deben mover los usuarios a un Skype para un grupo de servidores Business Server o Lync Server 2013 antes de la migración a Skype para profesionales en línea.
 
 - **Local las directivas y configuración (que no sean de usuario)** En línea y local las directivas requieren una configuración independiente. No se pueden establecer directivas globales para aplicarlas a ambas.
-
-

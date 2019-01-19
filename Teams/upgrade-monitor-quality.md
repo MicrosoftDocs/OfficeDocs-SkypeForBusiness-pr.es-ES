@@ -1,9 +1,8 @@
 ---
-title: Calidad de experiencia consulte la Guía de-equipos de Microsoft
+title: Calidad de la experiencia de usuario | Los equipos de Microsoft | QoS | Calidad de la llamada
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bf538dc4e68d3068d6ae0875ec916cdd1f8fd52
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 59acafa7555b793555b504b1555b0d6969a12b4b
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017988"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349322"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa")
 
@@ -33,17 +32,17 @@ La [Calidad de experiencia consulte la guía](https://aka.ms/qerguide) incluye u
 
 Al continuamente evaluar y solucionar relativos a las áreas que se describen en la guía, puede reducir su potencial de afectar negativamente a la experiencia del usuario. Mayoría de experiencia de usuario los problemas encontrada en una implementación puede agruparse en las siguientes categorías:
 
--   Configuración de firewall o proxy incompleto
+- Configuración de firewall o proxy incompleto
 
--   Cobertura Wi-Fi deficiente
+- Cobertura Wi-Fi deficiente
 
--   Ancho de banda insuficiente
+- Ancho de banda insuficiente
 
--   VPN
+- VPN
 
--   Uso de dispositivos de audio integrados o no optimizados
+- Uso de dispositivos de audio integrados o no optimizados
 
--   Subredes problemáticas o dispositivos de red
+- Subredes problemáticas o dispositivos de red
 
 Las instrucciones proporcionadas en la Guía de revisión de calidad de experiencia se centra en uso en pantalla de panel de calidad de llamadas (CQD) como la principal herramienta para notificar e investigar cada área que se ha descrito, con un enfoque en audio para maximizar la adopción y el impacto. Cualquier optimizaciones realizadas a la red para mejorar la experiencia de audio traducirá también directamente a las mejoras en uso compartido de escritorio y de vídeo.
 

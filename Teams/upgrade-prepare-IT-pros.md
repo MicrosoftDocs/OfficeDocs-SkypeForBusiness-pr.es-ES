@@ -1,9 +1,8 @@
 ---
-title: Preparar el personal de TI para Microsoft Teams - Microsoft Teams
+title: Recursos de aprendizaje para los equipos de Microsoft | Administración de problemas de soporte de TI
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,21 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7a552affaf0a50325e8a90c9f6c1f7f60d2c3b2
-ms.sourcegitcommit: e49e9e8e6f42738a153306ae6f2a1d0a2e46d736
+ms.openlocfilehash: 8d7030c8695ccfcbfd34fb01772eabc1f68ebf12
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25354343"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349306"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica] (media/upgrade-banner-tech-readiness.png "Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica")
 
 En este artículo forma parte de la fase de preparación técnica de su viaje de actualización, una actividad completar en paralelo con la fase de preparación del usuario. Antes de continuar, confirme que ha realizado estas actividades de fases anteriores:
 
--   [Los participantes en el proyecto de alta](upgrade-enlist-stakeholders.md)
--   [Define el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
--   [Entiende coexistencia e interoperabilidad de Skype para profesionales y los equipos](https://aka.ms/SkypeToTeams-Coexist)
--   [Elegido su viaje por la actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Los participantes en el proyecto de alta](upgrade-enlist-stakeholders.md)
+- [Define el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
+- [Entiende coexistencia e interoperabilidad de Skype para profesionales y los equipos](https://aka.ms/SkypeToTeams-Coexist)
+- [Elegido su viaje por la actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Preparar su personal de TI para Microsoft Teams
 
@@ -36,18 +35,15 @@ Los administradores de inquilinos de Office 365, técnicas y clientes potenciale
 
 Compartir los siguientes recursos con miembros de su personal de TI y confirmar que ya están listos para admitir usuarios antes de comenzar la actualización a los equipos:
 
--   [Formación de administradores para Microsoft Teams](itadmin-readiness.md)
- 
--   [Recursos de soporte técnico para Microsoft Teams](support-resources.md)
- 
--   [Solucionar problemas de conectividad con el cliente de Microsoft Teams](connectivity-issues.md)
- 
--   [Usar los archivos de registro para solucionar problemas en Microsoft Teams](log-files.md)
+- [Formación de administradores para Microsoft Teams](itadmin-readiness.md)
+- [Recursos de soporte técnico para Microsoft Teams](support-resources.md)
+- [Solucionar problemas de conectividad con el cliente de Microsoft Teams](connectivity-issues.md)
+- [Usar los archivos de registro para solucionar problemas en Microsoft Teams](log-files.md)
 
 [//]: # (Formular Debbie para estudiar:)
 
-|    |     |
-|-----------|------------|
+| | |
+|---|---|
 | ![](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Ha necesarios para todos los personal de soporte técnico que es probable que sean necesarios para implementar y dar soporte a los equipos?</li><li>¿Ha desarrollado un plan de aprendizaje para el personal de incorporación de redes adicionales a medida que avanza el actualización?</li></ul> |
 | ![](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Compruebe que el personal de TI tiene la información que necesitan.</li><li>Revisar los planes de aprendizaje y preparación de medida que se publican nuevas características.</li></ul>|
 

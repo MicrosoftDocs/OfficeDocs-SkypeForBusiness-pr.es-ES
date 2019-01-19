@@ -1,9 +1,8 @@
 ---
-title: Planeación de la administración de servicios y calidad - Microsoft Teams
+title: Planeación de la administración de servicios y calidad | Preparación técnica
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,36 +13,37 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e23fba83c9b853f80baff0b2abd6b82c06955e1
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 59c881c6c40b8877fee46e3956970a0c305d0a4a
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017804"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349532"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica] (media/upgrade-banner-tech-readiness.png "Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica")
 
 En este artículo forma parte de la fase de preparación técnica de su viaje de actualización, una actividad completar en paralelo con la fase de preparación del usuario. Antes de continuar, confirme que ha realizado estas actividades de fases anteriores:
 
--   [Los participantes en el proyecto de alta](upgrade-enlist-stakeholders.md)
--   [Define el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
--   [Entiende coexistencia e interoperabilidad de Skype para profesionales y los equipos](https://aka.ms/SkypeToTeams-Coexist)
--   [Elegido su viaje por la actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Los participantes en el proyecto de alta](upgrade-enlist-stakeholders.md)
+- [Define el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
+- [Entiende coexistencia e interoperabilidad de Skype para profesionales y los equipos](https://aka.ms/SkypeToTeams-Coexist)
+- [Elegido su viaje por la actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 <!-- [!INCLUDE [envision-planning-for-service-management-and-quality-complete-guide](envision-planning-for-service-management-and-quality-complete-guide.md)]-->
+
 # <a name="plan-for-quality"></a>Planeación de la calidad
 
 Si va a implementar las reuniones, audio o vídeo, puede realizar algunos pasos adicionales para optimizar el entorno para que la funcionalidad. Este contenido proporcionará una descripción general de los requisitos que son necesarios para entregar y mantener una implementación de Microsoft Teams de alta calidad. Puede ayudar a garantizar una correcta implementación mediante la planificación de administración de servicios y la calidad, antes de la primera implementación piloto o de producción.
 
 Las instrucciones se organizan en las secciones siguientes:
 
--   En primer lugar es una visión general de la experiencia de usuario y los componentes principales que respaldan calidad. Esto destaca las áreas para centrarse en antes de incorporación a Microsoft Teams.
+- En primer lugar es una visión general de la experiencia de usuario y los componentes principales que respaldan calidad. Esto destaca las áreas para centrarse en antes de incorporación a Microsoft Teams.
 
--   En segundo lugar, se dan orientaciones para la planeación de un modelo de soporte técnico para administrar Microsoft Teams antes de la primera implementación piloto o de producción de usuario. En esta sección se describe las tareas que deben realizarse de forma periódica para mantener una implementación de los equipos de alta calidad. Además, esta sección presentan instrucciones adicionales que puede usar para comenzar a entender y en marcha la estas tareas.
+- En segundo lugar, se dan orientaciones para la planeación de un modelo de soporte técnico para administrar Microsoft Teams antes de la primera implementación piloto o de producción de usuario. En esta sección se describe las tareas que deben realizarse de forma periódica para mantener una implementación de los equipos de alta calidad. Además, esta sección presentan instrucciones adicionales que puede usar para comenzar a entender y en marcha la estas tareas.
 
--   Instrucciones en tercer lugar, específico ayuda con la planificación de la red y los extremos de la organización para admitir Microsoft Teams.
+- Instrucciones en tercer lugar, específico ayuda con la planificación de la red y los extremos de la organización para admitir Microsoft Teams.
 
--   Por último, se resumen los pasos siguientes con referencias a contenido relacionado.
+- Por último, se resumen los pasos siguientes con referencias a contenido relacionado.
 
 ## <a name="key-technical-components-that-affect-user-experience"></a>Componentes técnicos clave que afectan a la experiencia del usuario
 
@@ -67,13 +67,13 @@ Una organización o un socio auxiliar debe comenzar durante la fase de preparaci
 
 Administración de servicios se puede dividir en dos categorías diferentes de responsabilidad:
 
--   **Responsabilidad de Microsoft**. Microsoft es responsable de los componentes de infraestructura que comprende el servicio Office 365. Microsoft es responsable de los clientes para asegurarse de que cualquiera de sus usuarios que se conectan a los equipos se proporciona con una experiencia confiable y de alta calidad.
+- **Responsabilidad de Microsoft**. Microsoft es responsable de los componentes de infraestructura que comprende el servicio Office 365. Microsoft es responsable de los clientes para asegurarse de que cualquiera de sus usuarios que se conectan a los equipos se proporciona con una experiencia confiable y de alta calidad.
 
--   **Responsabilidad del cliente**. Usted y su organización son responsables de administrar los diversos aspectos de los extremos del usuario, red local y servicio de Office 365. Por ejemplo, cuando se agregan nuevas direcciones IP a Office 365, debe actualizar los servidores de seguridad adecuadas para permitir la comunicación a los extremos de nuevo para evitar la interrupción del usuario.
+- **Responsabilidad del cliente**. Usted y su organización son responsables de administrar los diversos aspectos de los extremos del usuario, red local y servicio de Office 365. Por ejemplo, cuando se agregan nuevas direcciones IP a Office 365, debe actualizar los servidores de seguridad adecuadas para permitir la comunicación a los extremos de nuevo para evitar la interrupción del usuario.
 
 Para obtener instrucciones detalladas para la planeación de la administración de servicio, consulte [Plan para la administración de servicio](#plan-for-service-management).
 
-#### <a name="network"></a>Red 
+#### <a name="network"></a>Network
 
 En la mayoría de las organizaciones, las redes inicialmente se diseñaron para proporcionar acceso a datos y las aplicaciones que se encontraba en sus centros de datos. Aplicaciones basadas en la nube como Office 365 requieren los cambios realizados en estas redes para admitir los nuevos flujos de acceso y los datos que requiere que los equipos. Para poder habilitar a los usuarios para los equipos de la organización, debe evaluar y optimizar la red actual. Esto es muy importante cuando aprovechar las capacidades de voz en la nube.
 
@@ -101,7 +101,7 @@ Administración del servicio abarca todas las actividades y procesos implicados 
 
 ![Diagrama que ilustra los tres componentes de calidad, y cómo administración de servicios superpone todos los tres componentes. Con un enfoque en la administración de servicio.] (media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "Diagrama que ilustra los tres componentes de calidad, y cómo administración de servicios superpone todos los tres componentes. Con un enfoque en la administración de servicio.")
 
-### <a name="introduction-to-the-operations-guide"></a>Introducción a la Guía de operaciones 
+### <a name="introduction-to-the-operations-guide"></a>Introducción a la Guía de operaciones
 
 **¿Qué**, **quién**y **cómo** son tres preguntas importantes que necesitan ser respondidas en lo que respecta a la administración de servicio.
 
@@ -133,17 +133,17 @@ La Guía de revisión de calidad de experiencia tiene un conjunto de actividades
 
 Al continuamente evaluar y solucionar relativos a las áreas que se describen en este documento, puede reducir su potencial de afectar negativamente a la experiencia del usuario. Mayoría de experiencia de usuario los problemas encontrada en una implementación puede agruparse en las siguientes categorías:
 
--   Configuración de firewall o proxy incompleto
+- Configuración de firewall o proxy incompleto
 
--   Cobertura Wi-Fi deficiente
+- Cobertura Wi-Fi deficiente
 
--   Ancho de banda insuficiente
+- Ancho de banda insuficiente
 
--   VPN
+- VPN
 
--   Uso de dispositivos de audio integrados o no optimizados
+- Uso de dispositivos de audio integrados o no optimizados
 
--   Subredes problemáticas o dispositivos de red
+- Subredes problemáticas o dispositivos de red
 
 Las instrucciones proporcionadas en la Guía de revisión de calidad de experiencia se centra en uso en pantalla de panel de calidad de llamadas (CQD) como la principal herramienta para notificar e investigar cada área que se ha descrito, con un enfoque en audio para maximizar la adopción y el impacto. Cualquier optimizaciones realizadas a la red para mejorar la experiencia de audio traducirá también directamente a las mejoras en uso compartido de escritorio y de vídeo.
 
@@ -151,7 +151,7 @@ Se recomienda encarecidamente que se nombra al Campeón de calidad desde el prin
 
 La Guía de revisión de calidad de experiencia puede encontrarse [aquí](https://aka.ms/qerguide).
 
-## <a name="plan-for-network-quality"></a>Planeación de la calidad de la red 
+## <a name="plan-for-network-quality"></a>Planeación de la calidad de la red
 
 Planear la calidad de la red será el foco de la siguiente sección.
 
@@ -223,7 +223,7 @@ Debido a su naturaleza con seguimiento de estado, TCP no está preferido para mu
 
 Se proporcionan instrucciones completas para abrir el firewall para Microsoft Teams en el artículo de [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://aka.ms/o365ips) .
 
-Después de abre el servidor de seguridad, puede usar la [Herramienta de evaluación de red de Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) para validar la conectividad de las capacidades de voz en la nube.
+Después de abre el servidor de seguridad, puede usar la [Herramienta de evaluación de red de Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) para validar la conectividad de las capacidades de voz en la nube.
 
 > [!IMPORTANT]
 > Las direcciones URL y Microsoft Office 365 IP cambiará a través del tiempo. Como parte de la planeación del servicio de administración, es importante garantizar un proceso operativo está en su lugar y un grupo es responsable de supervisar [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://aka.ms/o365ips) y realizar actualizaciones según corresponda.
@@ -250,13 +250,13 @@ Al igual que VPN, redes Wi-Fi no necesariamente están diseñadas o configuradas
 
 Hay varios factores que se precie para optimizar una red Wi-Fi.
 
--   Implementación de QoS o Multimedia Wi-Fi (WMM) para asegurarse de que el tráfico de medios se Introducción prioriza según corresponda a través de las redes Wi-Fi.
+- Implementación de QoS o Multimedia Wi-Fi (WMM) para asegurarse de que el tráfico de medios se Introducción prioriza según corresponda a través de las redes Wi-Fi.
 
--   Planeación y optimización de la W-Fi bandas y el acceso de punto de colocación. El intervalo de 2,4 GHz puede proporcionar una experiencia adecuada según la posición del punto de acceso, pero los puntos de acceso a menudo se ven afectados por otros dispositivos del consumidor que operan en ese intervalo. El intervalo de 5 GHz se adapta mejor a medios en tiempo real debido a su intervalo denso, pero requiere más puntos de acceso para obtener la cobertura suficiente. Los extremos también deben admitir dicho rango y configurarse para aprovechar las bandas en consecuencia.
+- Planeación y optimización de la W-Fi bandas y el acceso de punto de colocación. El intervalo de 2,4 GHz puede proporcionar una experiencia adecuada según la posición del punto de acceso, pero los puntos de acceso a menudo se ven afectados por otros dispositivos del consumidor que operan en ese intervalo. El intervalo de 5 GHz se adapta mejor a medios en tiempo real debido a su intervalo denso, pero requiere más puntos de acceso para obtener la cobertura suficiente. Los extremos también deben admitir dicho rango y configurarse para aprovechar las bandas en consecuencia.
 
--   Si se implementan redes Wi-Fi de banda dual, considere la posibilidad de implementar el control de banda. El control de banda es una técnica de implementada por proveedores de Wi-Fi para influir en los clientes de banda dual para utilizar el intervalo de 5Ghz.
+- Si se implementan redes Wi-Fi de banda dual, considere la posibilidad de implementar el control de banda. El control de banda es una técnica de implementada por proveedores de Wi-Fi para influir en los clientes de banda dual para utilizar el intervalo de 5Ghz.
 
--   Superposición de canal – cuando los puntos de acceso del mismo canal son demasiado juntos puede provocar la superposición de señal y compiten por equivocación, lo que resulta en una mala experiencia para el usuario. Asegúrese de que el punto de acceso que están junto a los demás están en canales que no se superpongan.
+- Superposición de canal – cuando los puntos de acceso del mismo canal son demasiado juntos puede provocar la superposición de señal y compiten por equivocación, lo que resulta en una mala experiencia para el usuario. Asegúrese de que el punto de acceso que están junto a los demás están en canales que no se superpongan.
 
 Cada proveedor inalámbrico tiene sus propias recomendaciones para la implementación de su solución inalámbrica. Se recomienda que consulte a su proveedor para obtener instrucciones específicas.
 
@@ -340,7 +340,7 @@ Una organización no tiene ningún control o acceso a una configuración de dire
 En esta tabla se incluye un resumen de las actividades de planeación con vínculos a contenido relacionado.
 
 | Área | Detalles | Referencias |
-|-----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|---|---|---|
 | Plan para la administración de servicio | Llevar a cabo un ejercicio de asignación de rol operativas <br/> Firma de equipos responsables <br/> Preparación de roles | [Guía de operaciones](1-drive-value-operate-my-service.md) |
 | | Sea propietaria Champion(s) de calidad <br/> Preparación de campeones de calidad| [Obtenga información sobre CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Consulte la Guía de experiencia calidad](https://aka.ms/qerguide) |
 | | Instalar las plantillas de revisión de la experiencia de calidad <br/> Cargar un archivo de creación | [Plantillas de QERLite](https://aka.ms/qertemplates) <br/> [Información de creación de carga](turning-on-and-using-call-quality-dashboard.md)|
@@ -348,7 +348,7 @@ En esta tabla se incluye un resumen de las actividades de planeación con víncu
 | | Implementar QoS | [Calidad de servicio en los equipos de Microsoft](qos-in-teams.md) |
 | | Omita los servidores proxy | [Instrucciones de proxy](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
 | | Implementar dividido túnel VPN | [Instrucciones de túnel dividido VPN](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
-| | Optimizar las redes Wi-Fi para multimedia en tiempo real  | Consulte a los proveedores de terceros |
+| | Optimizar las redes Wi-Fi para multimedia en tiempo real | Consulte a los proveedores de terceros |
 | | Implementar la salida de internet local | [Salida de Internet local](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
 | | Implementar la conectividad de red <br/> Validar la conectividad de red | [Direcciones IP y URL de Office 365](https://aka.ms/o365ips) |
 | | | [Herramienta de evaluación de la red](https://www.microsoft.com/download/details.aspx?id=53885) |

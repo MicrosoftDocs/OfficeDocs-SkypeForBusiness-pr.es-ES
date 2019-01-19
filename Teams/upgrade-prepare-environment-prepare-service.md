@@ -1,9 +1,8 @@
 ---
-title: Preparar su servicio para la actualización a los equipos - Microsoft Teams
+title: Preparación para la actualización de Microsoft Teams |  Lista de comprobación de implantación de incorporación
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,21 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7858737dc69f076ca059aca9de5437cb3cb88e52
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2243e1420e2bd1046789669168834cff2125c4ac
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374599"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349463"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica] (media/upgrade-banner-tech-readiness.png "Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica")
 
 En este artículo forma parte de la fase de preparación técnica de su viaje de actualización, una actividad completar en paralelo con la fase de preparación del usuario. Antes de continuar, confirme que ha realizado estas actividades de fases anteriores:
 
--   [Los participantes en el proyecto de alta](upgrade-enlist-stakeholders.md)
--   [Define el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
--   [Entiende coexistencia e interoperabilidad de Skype para profesionales y los equipos](https://aka.ms/SkypeToTeams-Coexist)
--   [Elegido su viaje por la actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Los participantes en el proyecto de alta](upgrade-enlist-stakeholders.md)
+- [Define el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
+- [Entiende coexistencia e interoperabilidad de Skype para profesionales y los equipos](https://aka.ms/SkypeToTeams-Coexist)
+- [Elegido su viaje por la actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Preparar su servicio para la actualización a los equipos
 
@@ -38,17 +37,17 @@ En este artículo se ofrece una visión general de los requisitos de preparació
 
 Las listas de comprobación siguientes le guiarán a través de los pasos para la implementación de Microsoft Teams en su organización:
 
--  [Preparación de Office 365 para los equipos](onboarding-checklist-enable-office-365.md)
+- [Preparación de Office 365 para los equipos](onboarding-checklist-enable-office-365.md)
 
--  [Configurar la funcionalidad básica de los equipos](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
+- [Configurar la funcionalidad básica de los equipos](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
--  [Configuración de redes](onboarding-checklist-configure-networking.md)
+- [Configuración de redes](onboarding-checklist-configure-networking.md)
 
--  [Configurar las cargas de trabajo de voz de la nube en los equipos](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+- [Configurar las cargas de trabajo de voz de la nube en los equipos](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 
--  [Configurar el enrutamiento directo en los equipos](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
+- [Configurar el enrutamiento directo en los equipos](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
 
-Las tareas y actividades en estas listas de comprobación son los elementos de "tareas pendientes" principales que se aplican a todas las implementaciones de colaboración y las capacidades de voz con los equipos. Puede personalizar las listas de comprobación para incluir las actividades y tareas que son específicas de su propio viaje de los equipos. 
+Las tareas y actividades en estas listas de comprobación son los elementos de "tareas pendientes" principales que se aplican a todas las implementaciones de colaboración y las capacidades de voz con los equipos. Puede personalizar las listas de comprobación para incluir las actividades y tareas que son específicas de su propio viaje de los equipos.
 
 Use las listas de comprobación proporcionadas para realizar un seguimiento del estado de cada actividad individual y tareas, y estar seguro de que no ha omitido los pasos más importantes. Cada actividad incluye una descripción detallada de las acciones necesarias y las referencias a información adicional que puede usar para llevar a cabo dicha actividad.
 
@@ -57,7 +56,7 @@ Aunque se recomienda que siga las listas de comprobación en orden, la secuencia
 Cuando se haya de incorporación a los usuarios en una base por sitio, se recomienda que use la [Guía de habilitación de sitio para voz (Guía)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) como una guía adicional a estas listas de comprobación.
 
 >[!NOTE]
->La mayoría de las opciones de configuración es comunes entre los equipos y Skype para profesionales en línea. Use el Microsoft Teams & Skype para el centro de administración de negocio para configurar esas opciones de configuración.
+>La mayoría de las opciones de configuración es comunes entre los equipos y Skype para profesionales en línea. Use la & Teams Microsoft Skype para el centro de administración de negocio para configurar esas opciones de configuración.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>¿Quién será responsable de supervisar la finalización de las listas de comprobación de incorporación?</li></ul></td></tr>

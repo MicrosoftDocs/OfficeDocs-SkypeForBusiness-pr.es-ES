@@ -1,9 +1,8 @@
 ---
-title: Actualización de Skype Empresarial a Microsoft Teams
+title: Actualización de Skype para la empresa a los equipos de Microsoft
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,21 +13,27 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59e1723e388ef58c48650a916d73d2ac09b13d00
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
-ms.translationtype: HT
+ms.openlocfilehash: bfe9fb437be2df1c069c79d3c5281dbb121b4204
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012076"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349080"
 ---
 # <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Actualización de Skype Empresarial a Microsoft Teams
-
 
 Como respaldo a la línea de la visión de comunicaciones inteligentes de Microsoft, Microsoft Teams es el centro de trabajo en equipo donde se aúnan aspectos como chat, reuniones, llamadas, colaboración, integración de aplicaciones y almacenamiento de archivos. Como cliente actual de Skype Empresarial, se le invita a actualizar a Microsoft Teams para poder disfrutar del conjunto completo de funcionalidades de comunicación y colaboración en un único cliente.
 
 El proceso de actualización puede llevar un tiempo durante el cual contará con nuestro respaldo para asistirle en cada una de las fases de esta transición. Tanto si es la primera vez que va a usar Teams como si ya lo está usando junto con Skype Empresarial o si está listo para realizar la actualización, nos estamos esforzando en ofrecer el nivel adecuado de instrucciones que requiere su organización y le animamos a continuar con los siguientes pasos donde comenzará a reconocer el valor que puede ofrecer Teams a su organización.
 
 Vea esta [descripción](https://aka.ms/UpgradeOverview); en ella encontrará una introducción al proceso de transición para actualizar de Skype Empresarial a Teams, incluidos los conceptos principales, el marco y los métodos de actualización.
+
+> [!Tip]
+> Vea la siguiente sesión para obtener información sobre la Actualización de Skype Empresarial a Microsoft Teams:
+> - [Introducción a la actualización](https://aka.ms/teams-upgrade-intro)
+> - [Planificar la actualización](https://aka.ms/teams-upgrade-plan)
+> - [Coexistencia e interoperabilidad](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [Experiencia del administrador](https://aka.ms/teams-upgrade-admin)
 
 ## <a name="upgrade-journey-framework"></a>Marco para la transición de actualización
 
@@ -45,7 +50,6 @@ Sabemos que los clientes no son todos iguales. Para una mayor flexibilidad, hemo
 
 Seleccione una de las opciones siguientes o analice ambas para determinar cuál es la mejor en su caso. Se irá ofreciendo más información en línea, por lo le sugerimos que siga comprobándola conforme su organización avance en esta transición a Teams. Para ayudarnos a conocer su método de actualización y qué instrucciones adicionales podrían serle útiles, dedique unos minutos a <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u" target="_blank">compartir su opinión con nosotros</a>.
 
-
 <div class="mx-tableFixed">
 <table>
 <tbody>
@@ -54,7 +58,6 @@ Seleccione una de las opciones siguientes o analice ambas para determinar cuál 
 <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-pro"><img src="media/upgrade-to-teams-upgrade-pro-icon.png" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better accommodate the unique attributes of an organization."></a></td></tr>
 </tbody></table>
 </div>
-
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

@@ -1,9 +1,8 @@
 ---
-title: Guía de operaciones para equipos de Microsoft - equipos de Microsoft
+title: Operaciones para equipos de Microsoft | Administración de servicios | Calidad
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 042c53f09fd7797c0a25703d204680885d675a29
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: d0ee02c2d8b8303bb353c2ebf1e30a72cc0e4f17
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649703"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349392"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa")
 
@@ -43,12 +42,10 @@ Las tareas y actividades de esta guía se agrupan en ocho categorías como se mu
 
 ![Un diagrama que muestra una lista de categorías de tareas y actividades que comprende las tareas de administración de servicios para los equipos. El diagrama también describe que administración de servicios es en gran medida una tarea de cliente.] (media/operate-my-service-image1.png "Un diagrama que muestra una lista de categorías de tareas y actividades que comprende las tareas de administración de servicios para los equipos. El diagrama también describe que administración de servicios es en gran medida una tarea de cliente.")
 
-
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>Decidir cómo se implementarán las operaciones para los equipos.</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Revise a la Guía de operaciones en su totalidad.</li><li>Implementar una estrategia de operaciones que se alinea con los objetivos de la organización para ofrecer la calidad y la fiabilidad de cargas de trabajo de los equipos.</li><li>Revise a la Guía de revisión de calidad de experiencia.</li><li> Implementar una estrategia de operaciones para llevar a cabo con regularidad revisiones de calidad de experiencia para asegurarse de que la implementación de los equipos está funcionando a su capacidad máxima.</li></ul></td></tr>
 </table>
-
 
 ### <a name="operational-role-mapping"></a>Asignación de funciones operativas
 
@@ -72,11 +69,11 @@ Una vez un contrato, deben iniciar los equipos correspondientes que controle sus
 
 Microsoft Teams reúne tecnologías a través de Office 365 para proporcionar un concentrador de trabajo en equipo. Algunos ejemplos son:
 
--   Azure Active Directory (AD Azure) proporciona servicios de autenticación y autorización para los equipos.
+- Azure Active Directory (AD Azure) proporciona servicios de autenticación y autorización para los equipos.
 
--   Exchange Online proporciona características avanzadas como retención legal y exhibición de documentos electrónicos.
+- Exchange Online proporciona características avanzadas como retención legal y exhibición de documentos electrónicos.
 
--   SharePoint Online proporciona la capacidad de compartir archivos en canales y OneDrive para la empresa proporciona un mecanismo para uso compartido de archivos dentro de un chat privado.
+- SharePoint Online proporciona la capacidad de compartir archivos en canales y OneDrive para la empresa proporciona un mecanismo para uso compartido de archivos dentro de un chat privado.
 
 Las organizaciones también pueden aprovechar las inversiones existentes en infraestructura local. Por ejemplo, cuentas de Active Directory local existentes pueden utilizarse para la autenticación mediante el aprovechamiento de Azure Connect de AD. Ciertas versiones de Exchange Server se pueden usar en lugar de Exchange Online.
 
@@ -84,7 +81,7 @@ Estas tecnologías se reúnan para proporcionar un conjunto de aplicaciones de c
 
 Esta guía trata las áreas clave de enfoque para administrar el servicio de los equipos. Probablemente, tener planes de servicio de administración en lugar de las tecnologías de apoyo que depende de los equipos. Si no, necesitará establecer planes de administración de servicio adecuados para esos componentes de la tecnología (tanto local y en línea) así como. Esto le ayudará a asegurarse de que los usuarios disfrutan de una experiencia confiable de alta calidad con los equipos.
 
-#### <a name="references"></a>Referencias 
+#### <a name="references"></a>Referencias
 
 [Información general sobre Microsoft Teams](teams-overview.md)
 
@@ -110,12 +107,12 @@ Incorporar esta actividad en el proceso de administración de incidentes para in
 
 Las secciones siguientes describen las herramientas que puede aprovechar para supervisar la de [incidentes de servicio](https://technet.microsoft.com/library/office-365-service-health.aspx#Anchor_1) que afectan al servicio de los equipos. Un resumen de las ventajas de cada herramienta, y cuándo se debe usar cada uno de ellos se incluye en la siguiente tabla.
 
-| Herramienta de supervisión                       | Ventajas                                            | Cuándo se debe usar                                                                                  |
-|---------------------------------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------|
-| Portal de Office 365                     | Disponible desde cualquier dispositivo con un explorador compatible. | Se utiliza cuando no es necesario notificaciones en tiempo real.                                          |
-| Aplicación de administración de Office 365                  | Proporciona notificaciones de inserción a su dispositivo móvil.  | Se utiliza cuando se necesita recibir una notificación de incidentes del servicio mientras está fuera de la oficina.                  |
-| Microsoft System Center               | Integración con Microsoft System Center.           | Se utiliza cuando necesita capacidades avanzadas de supervisión y soporte técnico de notificación.                       |
-| API de comunicación de servicio de Office 365 | Acceso mediante programación para el mantenimiento del servicio Office 365.   | Se utiliza cuando necesita integración con una herramienta de supervisión de terceros o si desea crear su propia solución. |
+| Herramienta de supervisión | Ventajas | Cuándo se debe usar |
+|---|---|---|
+| Portal de Office 365 | Disponible desde cualquier dispositivo con un explorador compatible. | Se utiliza cuando no es necesario notificaciones en tiempo real. |
+| Aplicación de administración de Office 365 | Proporciona notificaciones de inserción a su dispositivo móvil. | Se utiliza cuando se necesita recibir una notificación de incidentes del servicio mientras está fuera de la oficina. |
+| Microsoft System Center | Integración con Microsoft System Center. | Se utiliza cuando necesita capacidades avanzadas de supervisión y soporte técnico de notificación. |
+| API de comunicación de servicio de Office 365 | Acceso mediante programación para el mantenimiento del servicio Office 365. | Se utiliza cuando necesita integración con una herramienta de supervisión de terceros o si desea crear su propia solución. |
 
 > [!NOTE]
 > Sólo los individuos que tienen asignados la función de **administrador global** o **Administrador de servicio** pueden ver el estado del servicio.
@@ -145,12 +142,12 @@ Puede supervisar el estado del servicio y los próximos cambios mediante el apro
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tareas de diario o semanal o mensual/según sea necesario
 
-| Actividad               | Descripción                                                                                                                                                                                                               | Cadencia   | Equipo asignado |
-|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
-| Estado del servicio de Monitor | Forma proactiva, supervise el estado del servicio de Microsoft Teams, (y servicios dependientes) mediante el uso de las herramientas disponibles. Incluyen servicios dependientes: Exchange Online, SharePoint Online, OneDrive para la empresa, Azure Active Directory. | En tiempo real |               |
-| Notificación de incidentes  | Notificar a los participantes internos de eventos que afectan al servicio de los equipos. Los participantes internos pueden incluir usuarios, asistencia y los administradores de incidente.                                                                          | Según sea necesario |               |
+| Actividad | Descripción | Cadencia | Equipo asignado |
+|---|---|---|---|
+| Estado del servicio de Monitor | Forma proactiva, supervise el estado del servicio de Microsoft Teams, (y servicios dependientes) mediante el uso de las herramientas disponibles. Incluyen servicios dependientes: Exchange Online, SharePoint Online, OneDrive para la empresa, Azure Active Directory. | En tiempo real | |
+| Notificación de incidentes | Notificar a los participantes internos de eventos que afectan al servicio de los equipos. Los participantes internos pueden incluir usuarios, asistencia y los administradores de incidente. | Según sea necesario | |
 
-### <a name="references"></a>Referencias 
+### <a name="references"></a>Referencias
 
 [Cómo comprobar el estado del servicio Office 365](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
 
@@ -185,41 +182,41 @@ Ahora que se ha de tener en cuenta próximos cambios en el servicio de los equip
 
 **Pista general**
 
-| Preparación de cambio | Estado   | Los pasos de notas y siguiente | Propietario |
-|----|----|----|-----|
-| Revisión legal   | Completado     | Esta característica es un requisito previo para el equipo de recursos de aprendizaje de incorporación. | Equipo del proyecto  |
+| Preparación de cambio | Estado | Los pasos de notas y siguiente | Propietario |
+|---|---|---|---|
+| Revisión legal | Completado | Esta característica es un requisito previo para el equipo de recursos de aprendizaje de incorporación. | Equipo del proyecto |
 
 **Administración de cambios técnicos**
 
-|       Preparación de cambio       | Estado |                      Los pasos de notas y siguiente                      |    Propietario     |
-|------------------------------|--------|------------------------------------------------------------|--------------|
-|     Cambios de TI necesarios      |  Sí   | Administrador necesita habilitar grabación identificados sólo para los usuarios. | Equipo de soporte técnico |
-| Preparación técnica completa |  Sí   |                                                            | Equipo de soporte técnico |
-|                              |        |                                                            |              |
+| Preparación de cambio | Estado | Los pasos de notas y siguiente | Propietario |
+|---|---|---|---|
+| Cambios de TI necesarios | Sí | Administrador necesita habilitar grabación identificados sólo para los usuarios. | Equipo de soporte técnico |
+| Preparación técnica completa | Sí | | Equipo de soporte técnico |
+| | | | |
 
-**Administración de cambio de usuario** 
+**Administración de cambio de usuario**
 
-| Preparación de cambio | Estado   | Los pasos de notas y siguiente | Propietario |
-|----|----|----|-----|
-| Impacto de usuario                  | Bajo                  |                                                                 |                        |
-| Preparación del usuario requerido      | Sí                  |                                                                 |                        |
-| Comunicaciones listas         | No                   | Correo electrónico de comunicación haya sido redactada — pendientes de revisión.            | Equipo de comunicaciones    |
-| Recursos de aprendizaje listo               | Sí                  | Recursos de aprendizaje aprovechará vídeo de Microsoft existente.                | Equipo de formación          |
+| Preparación de cambio | Estado | Los pasos de notas y siguiente | Propietario |
+|---|---|---|---|
+| Impacto de usuario | Bajo | | |
+| Preparación del usuario requerido | Sí | | |
+| Comunicaciones listas | No | Correo electrónico de comunicación haya sido redactada — pendientes de revisión. | Equipo de comunicaciones |
+| Recursos de aprendizaje listo | Sí | Recursos de aprendizaje aprovechará vídeo de Microsoft existente. | Equipo de formación |
 
 **Seguimiento de estado**
 
-| Preparación de cambio | Estado   | Los pasos de notas y siguiente | Propietario |
-|----|----|----|-----|
-| Estado de publicación               | en curso          | Revisión pendiente por el patrocinador ejecutivo.               | Equipo de administración de cambios |
-| Cierre la sesión de la versión             |                      |                                                                 |                        |
-| Fecha de lanzamiento                 |                      |                                                                 |                        |
+| Preparación de cambio | Estado | Los pasos de notas y siguiente | Propietario |
+|---|---|---|---|
+| Estado de publicación | en curso | Revisión pendiente por el patrocinador ejecutivo. | Equipo de administración de cambios |
+| Cierre la sesión de la versión | | | |
+| Fecha de lanzamiento | | | |
 
 Para obtener más información acerca de la planeación de la administración de cambio con los equipos, vea [crear una estrategia de administración de cambios para los equipos de Microsoft](change-management-strategy.md).
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tareas de diario o semanal o mensual/según sea necesario
 
 | Actividad| Descripción| Cadencia| Equipo asignado |
-|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
+|---|---|---|---|
 | Monitor de cambio| Supervisar las próximos cambios al servicio Microsoft Teams.| Cada día||
 | Planificación de cambios| Evaluación y planeación de las nuevas características y capacidades, incluidos los planes de comunicación, campañas de sensibilización y formación.| Según sea necesario ||
 | Preparación del usuario| Lleve a cabo comunicación dirigida, conocimiento del producto o las campañas de formación para asegurarse de que los usuarios están preparados para el cambio próximo.| Según sea necesario ||
@@ -233,11 +230,11 @@ Después de que comience la prueba piloto inicial, es muy importante establecer 
 
 Revisión de uso con frecuencia antes de la implementación le ofrece la oportunidad de:
 
--   Validar si los usuarios utilizan los equipos.
+- Validar si los usuarios utilizan los equipos.
 
--   Identificar los posibles retos de adopción antes de crear problemas críticos en toda la organización.
+- Identificar los posibles retos de adopción antes de crear problemas críticos en toda la organización.
 
--   Comprender si hay discrepancias entre los requisitos de la fase de previsión y el uso real.
+- Comprender si hay discrepancias entre los requisitos de la fase de previsión y el uso real.
 
 Si uso no es lo que espera, puede deberse a un problema de implementación o el plan de adopción no se va a ejecutar correctamente, o en cualquier otro problema. Según el motivo real detrás del uso bajo, el administrador del servicio debe colaborar con los equipos relacionados para ayudar a eliminar las barreras de uso.
 
@@ -265,22 +262,22 @@ Es importante identificar las variaciones entre uso planeado y real antes de rea
 
 En primer lugar, determinar con precisión si se trata de un problema técnico o adopción. Empezar por investigar los elementos a continuación, en orden, para determinar dónde está el problema.
 
-1.  Validar la calidad mediante la realización de una [Revisión de calidad de experiencia](upgrade-monitor-quality.md).
+1. Validar la calidad mediante la realización de una [Revisión de calidad de experiencia](upgrade-monitor-quality.md).
 
-2.  Trabajar con el equipo del departamento de soporte técnico para comprobar que no hay ningún problema técnico tendencia impide a los usuarios tener acceso o uso del servicio. Si existen tendencias de problemas, use la sección [solución de problemas de extremo](#endpoint-troubleshooting) más adelante en este artículo para intentar resolver el problema antes de contratación de soporte técnico.
+2. Trabajar con el equipo del departamento de soporte técnico para comprobar que no hay ningún problema técnico tendencia impide a los usuarios tener acceso o uso del servicio. Si existen tendencias de problemas, use la sección [solución de problemas de extremo](#endpoint-troubleshooting) más adelante en este artículo para intentar resolver el problema antes de contratación de soporte técnico.
 
-3.  Trabajar con el equipo de adopción y aprendizaje para recopilar los comentarios de los usuarios (consulte la [opinión de los clientes de Assess usuario](#assess-user-sentiment) más adelante en este artículo) así como para comprobar la eficacia de las actividades de sensibilización y adopción.
+3. Trabajar con el equipo de adopción y aprendizaje para recopilar los comentarios de los usuarios (consulte la [opinión de los clientes de Assess usuario](#assess-user-sentiment) más adelante en este artículo) así como para comprobar la eficacia de las actividades de sensibilización y adopción.
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tareas de diario o semanal o mensual/según sea necesario
 
 | Actividad | Descripción | Cadencia | Equipo asignado |
-|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
+|---|---|---|---|
 | Uso de medida (fase habilitación) | Medir y evaluar el uso de los equipos, como sitios siguen siendo onboarded durante la fase de habilitación. Solución de problemas de uso según sea necesario. | Cada semana | |
-| Uso de medida | Medir y evaluar el uso de los equipos en la fase de valor de unidad (después de que se ha completado la implementación). Solución de problemas de uso según sea necesario. | Bisemanales  | |
+| Uso de medida | Medir y evaluar el uso de los equipos en la fase de valor de unidad (después de que se ha completado la implementación). Solución de problemas de uso según sea necesario. | Bisemanales | |
 | (fase de valor de unidad) | | | |
 | Actualizar el plan de adopción | Actualización en función de su plan de adopción de uso medido cómo se compara con los objetivos de planeación. | Según sea necesario | |
 
-### <a name="references"></a>Referencias 
+### <a name="references"></a>Referencias
 
 [Acerca del centro de administración de Office 365](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
@@ -294,29 +291,29 @@ Descripción de la opinión de los clientes de usuario puede actuar como un indi
 
 Es importante obtener comentarios pronto y continuar con la opinión de los clientes de usuario a lo largo del ciclo de vida del proyecto y más allá de evaluación. Use las directrices siguientes para determinar el intervalo en el que la organización buscará los comentarios:
 
--   **A partir del proyecto**: evaluando la opinión de los clientes de usuario al principio del proyecto, puede obtener una vista anticipada en cómo se sienten a los usuarios sobre su experiencia de los equipos.
+- **A partir del proyecto**: evaluando la opinión de los clientes de usuario al principio del proyecto, puede obtener una vista anticipada en cómo se sienten a los usuarios sobre su experiencia de los equipos.
 
--   **Después de hitos principales**: mediante la recopilación de comentarios a lo largo del ciclo de vida del proyecto, puede evaluar la opinión de los clientes de usuario de forma continua y realice los cambios según sea necesario. Esto es especialmente útil después de hitos principales.
+- **Después de hitos principales**: mediante la recopilación de comentarios a lo largo del ciclo de vida del proyecto, puede evaluar la opinión de los clientes de usuario de forma continua y realice los cambios según sea necesario. Esto es especialmente útil después de hitos principales.
 
--   **Conclusión de Project**: evaluar la opinión de los clientes de usuario al final de un proyecto le indicará cómo también ha realizado y donde trabajo aún debe realizarse y permiten comparar los resultados de la encuesta anterior.
+- **Conclusión de Project**: evaluar la opinión de los clientes de usuario al final de un proyecto le indicará cómo también ha realizado y donde trabajo aún debe realizarse y permiten comparar los resultados de la encuesta anterior.
 
--   **En curso**: continuar medir la opinión de los clientes de usuario indefinidamente. Es posible que los cambios en la opinión de los clientes de usuario debido a los cambios en el entorno de su organización o los cambios realizados en el servicio de los equipos. Por cómo determinar ofrecen la opinión de los clientes de usuario a intervalos regulares, puede comprender grado en la realización de los equipos de administración de servicio y cómo la organización está respondiendo a los cambios en el servicio de los equipos.
+- **En curso**: continuar medir la opinión de los clientes de usuario indefinidamente. Es posible que los cambios en la opinión de los clientes de usuario debido a los cambios en el entorno de su organización o los cambios realizados en el servicio de los equipos. Por cómo determinar ofrecen la opinión de los clientes de usuario a intervalos regulares, puede comprender grado en la realización de los equipos de administración de servicio y cómo la organización está respondiendo a los cambios en el servicio de los equipos.
 
 Puede ser evaluado la opinión de los clientes de usuario a través de muchos métodos diferentes. Estos pueden incluir encuestas de correo electrónico, en persona o entrevistas de estilo de teléfono o simplemente crear un canal de comentarios en los equipos o Yammer. Para obtener más información, vea [procedimientos recomendados para los métodos de comentarios del usuario en los equipos de Microsoft](best-practices-feedback.md).
 
 También puede utilizar un enfoque de formación para evaluar la opinión de usuario llamado promotor neto puntuación (NPS), que se describe en la sección siguiente.
 
-### <a name="nps"></a>NPS 
+### <a name="nps"></a>NPS
 
 Puntuación promotor neto (NPS) es una métrica de fidelidad del cliente formación y un buen método para usar para evaluar la opinión de los clientes de usuario. NPS se puede calcular mediante dos preguntas: "¿con qué probabilidad va a recomendar los equipos a un compañero?", seguido de la forma libre pregunta, "¿por qué?"
 
-NPS es un índice, comprendido entre -100 y 100, que mide su deseo de un cliente a recomendar una compañía producto o servicio. NPS se basa en una encuesta anónima que se entrega a los usuarios a través de correo electrónico u otros medios electrónicos. NPS mide la fidelidad entre un proveedor y un consumidor. Consta de una pregunta, que pide a los usuarios clasificar su experiencia comprendido entre 1 y 10, con la opción de proporcionar comentarios adicionales. Los usuarios, a continuación, se clasifican en función de las clasificaciones siguientes:
+NPS es un índice comprendido entre -100 y 100 que mide su deseo de un cliente a recomendar una compañía producto o servicio. NPS se basa en una encuesta anónima que se entrega a los usuarios a través de correo electrónico u otros medios electrónicos. NPS mide la fidelidad entre un proveedor y un consumidor. Consta de una pregunta, que pide a los usuarios clasificar su experiencia comprendido entre 1 y 10, con la opción de proporcionar comentarios adicionales. Los usuarios, a continuación, se clasifican en función de las clasificaciones siguientes:
 
--   9 o 10 son activadores: leales entusiastas que será promover su servicio y que otros usuarios de combustible.
+- 9 o 10 son activadores: leales entusiastas que será promover su servicio y que otros usuarios de combustible.
 
--   7 u 8 son pasivo: satisfecho pero no entusiasta, vulnerables a otro servicio o una oferta.
+- 7 u 8 son pasivo: satisfecho pero no entusiasta, vulnerables a otro servicio o una oferta.
 
--   De 1 a 6 son detractores: insatisfacción en los clientes que puede dañar su servicio y obstaculizar crecimiento.
+- De 1 a 6 son detractores: insatisfacción en los clientes que puede dañar su servicio y obstaculizar crecimiento.
 
 ![Este diagrama muestra la escala NPS. Muestra que las clasificaciones de 0 a 6 son detractores, son pasivos 7 a 8 y 9 y 10 son activadores.] (media/operate-my-service-image2.png "Este diagrama muestra la escala NPS. Muestra que las clasificaciones de 0 a 6 son detractores, son pasivos 7 a 8 y 9 y 10 son activadores.")
 
@@ -326,12 +323,12 @@ Para proporcionar las encuestas NPS para su organización, puede aprovechar la h
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Diario o semanal o mensual o como sea necesario tareas
 
-| Actividad | Descripción | Cadencia   | Equipo asignado |
-|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
+| Actividad | Descripción | Cadencia | Equipo asignado |
+|---|---|---|---|
 | Evaluar la opinión de los clientes de usuario | Captura y evaluar la opinión de los clientes de usuario mediante el uso de encuestas o entrevistas, o a través de un canal de comentarios en los equipos o Yammer. | Según sea necesario | |
 | Actualizar los planes de adopción | Cambio de la unidad en la organización en función de los comentarios del usuario; Esto puede incluir los cambios realizados en los planes de comunicación, programas de formación o la forma en que ofrecer soporte técnico a los usuarios. | Según sea necesario | |
 
-### <a name="references"></a>Referencias 
+### <a name="references"></a>Referencias
 
 [Puntuación promotor NET](https://en.wikipedia.org/wiki/Net_Promoter)
 
@@ -352,7 +349,7 @@ Para garantizar el mantenimiento de la red, un número de actividades de las ope
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tareas de diario o semanal o mensual/según sea necesario
 
 | Actividad | Descripción | Cadencia | Equipo asignado |
-|----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|---------------|
+|---|---|---|---|
 | Supervisión de Office 365 IP y direcciones URL | Supervisar los cambios en [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://aka.ms/o365ips) mediante el uso de la [fuente RSS](https://go.microsoft.com/fwlink/p/?linkid=236301) proporcionada e iniciar una solicitud de cambio a los grupos de redes correspondientes. | Cada día | |
 | Actualización de la red en función de los cambios realizados en Office 365 IP y direcciones URL | Realizar actualizaciones en los componentes de red aplicables (firewalls, servidores proxy, las redes privadas virtuales, firewalls de cliente y así sucesivamente) para reflejar los cambios realizados en [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://aka.ms/o365ips). | Según sea necesario | |
 | Proporcionar datos de creación | Proporcionar información de subred actualizadas al Campeón de calidad (o partes interesadas relevantes) para asegurarse de que la [creación de definiciones de CQD](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) se mantienen actualizados. | Según sea necesario | |
@@ -362,7 +359,7 @@ Para garantizar el mantenimiento de la red, un número de actividades de las ope
 | Solución de problemas de red y corrección | Prestar asistencia a la asistencia de equipos, los propietarios de servicio y las partes interesadas clave para solucionar problemas y corregir los problemas a relacionados con la conectividad de los equipos, confiabilidad o calidad. Pueden incluir elementos de red:<ul><li>Firewalls</li><li>Redes privadas virtuales</li><li>Con cable y redes Wi-Fi</li><li>La conectividad a Internet y ExpressRoute</li><li>DNS</li></ul> | Según sea necesario | |
 | Recuperación ante desastres y pruebas de alta disponibilidad | Lleve a cabo regular alta disponibilidad y recuperación ante desastres pruebas en la infraestructura de red para asegurarse de que cumple los objetivos de nivel de servicio indicada (SLOs) o acuerdos de nivel de servicio (SLA) para el servicio de los equipos. | Cada mes | |
 
-### <a name="references"></a>Referencias 
+### <a name="references"></a>Referencias
 
 [Organizador de red](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
@@ -372,7 +369,7 @@ Para garantizar el mantenimiento de la red, un número de actividades de las ope
 
 <!--ENDOFSECTION-->
 
-## <a name="assess-and-ensure-quality"></a>Evaluar y garantizar la calidad 
+## <a name="assess-and-ensure-quality"></a>Evaluar y garantizar la calidad
 
 Todas las organizaciones necesitan un individuo o grupo sea responsable de calidad. Esta es la función más importante de la administración de servicio. La función de los pesos pesados calidad se asigna a una persona o grupo que es entusiastas acerca de la experiencia de sus usuarios.
 Esta función requiere las aptitudes para identificar las tendencias en el entorno y el apoyo para trabajar con otros equipos para la corrección de unidad. El mejor candidato para ser experto en calidad es normalmente el propietario del servicio al cliente. Según el tamaño y la complejidad de la organización, podría tratarse de cualquier persona o grupo con pasión para garantizar una experiencia de usuario de alta calidad.
@@ -387,14 +384,14 @@ Se recomienda encarecidamente que se nombra al Campeón de calidad desde el prin
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tareas de diario o semanal o mensual/según sea necesario
 
 | Actividad | Descripción | Cadencia | Equipo asignado |
-|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|---------------|
+|---|---|---|---|
 | Sea propietaria y formar a champion(s) de calidad | Sea propietaria y formar a un experto de calidad. | Según sea necesario | |
 | Realizar la calidad de las revisiones de la experiencia (QERs) | Realizar una QER para identificar las tendencias en la calidad y la confiabilidad, revisar frente a destinos definidos e informar las partes interesadas clave en la organización. | Mensual (semanalmente durante implementaciones) | |
 | Unidad de corrección | Coordinar los esfuerzos de corrección en toda la organización basándose en las evaluaciones de QER y los resultados. | Según sea necesario | |
 | Actualizar los datos de creación de CQD | Actualizar o agregar nuevas definiciones de creación en CQD cuando se realizan cambios en la red (consulte la [información de creación de carga](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)). | Según sea necesario | |
 | La función de la calidad de los pesos de relleno | Responsabilidad de extremo a extremo para la calidad de la organización. Esto incluye:<ul><li>Asegúrese de que el QER se llevan a cabo con regularidad.</li><li>Informe de a las partes interesadas clave en estado de calidad.</li><li>Asegúrese de los datos de creación son las definiciones de hasta la fecha.</li><li>Coordinar los esfuerzos de corrección en toda la organización para garantizar que los usuarios tengan una experiencia de alta calidad con los equipos.</li></ul> | Cada día | |
 
-### <a name="references"></a>Referencias 
+### <a name="references"></a>Referencias
 
 [Obtenga información sobre CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
@@ -431,29 +428,27 @@ Un catálogo de los extremos compatibles y dispositivos de interfaz (por ejemplo
 
 Incluso si ha seguido las instrucciones anteriores, los usuarios de su organización aún es posible que ejecute problemas con los equipos. Aunque no es posible que sea el problema con el propio extremo, los síntomas del problema normalmente se exponen a través del cliente para el usuario. Las siguientes instrucciones está pensada para proporcionar los pasos generales que puede seguir para resolver el problema; no se pretende ser una guía completa sobre la solución de problemas. Los pasos que se proporcionan en un orden concreto, pero no tiene que ser seguido de forma explícita y es posible que no sea aplicables, dependiendo de la naturaleza del problema.
 
-1.  **Validar el estado del servicio:** El problema que puede haber un usuario puede estar relacionado con un evento que afecta negativamente al servicio de los equipos o sus servicios dependientes. Como primer paso, se recomienda que confirme que no hay ningún problema de servicio de active. Consulte [cómo comprobar el estado del servicio Office 365](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0).
-    No olvide comprobar el estado de los servicios dependientes (por ejemplo, Exchange, SharePoint, OneDrive para la empresa). Supervisión de estado del servicio se describe con más detalle en la sección anterior, [el estado del servicio de Monitor](#monitor-service-health).
+1. **Validar el estado del servicio:** El problema que puede haber un usuario puede estar relacionado con un evento que afecta negativamente al servicio de los equipos o los servicios de itsdependent. Como primer paso, se recomienda que confirme que no hay ningún problema de servicio de active. Consulte [cómo comprobar el estado del servicio Office 365](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0). No olvide comprobar el estado de los servicios dependientes (por ejemplo, Exchange, SharePoint, OneDrive para la empresa). Supervisión de estado del servicio se describe con más detalle en la sección anterior, [el estado del servicio de Monitor](#monitor-service-health).
 
-2.  **Validar la conectividad de cliente:** Problemas de conectividad de producen funcionalidad o problemas de inicio de sesión en los equipos. Se recomienda (especialmente para los sitios nuevos o ubicaciones) que valide la conectividad con el servicio. Asegúrese de que se siguen las siguientes instrucciones de [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://aka.ms/o365ips) para cada sitio. Puede sacar provecho de la [Herramienta de evaluación de red de Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) para realizar una prueba de conectividad para validar que los puertos de medios se han abierto correctamente para las capacidades de los equipos. Se proporcionan instrucciones detalladas acerca de cómo realizar las pruebas de conectividad en la Guía de [preparación de la red](upgrade-prepare-environment-prepare-network.md) .
+2. **Validar la conectividad de cliente:** Problemas de conectividad de producen funcionalidad o problemas de inicio de sesión en los equipos. Se recomienda (especialmente para los sitios nuevos o ubicaciones) que valide la conectividad con el servicio. Asegúrese de que se siguen las siguientes instrucciones de [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://aka.ms/o365ips) para cada sitio. Puede sacar provecho de la [Herramienta de evaluación de red de Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) para realizar una prueba de conectividad para validar que los puertos de medios se han abierto correctamente para las capacidades de los equipos. Se proporcionan instrucciones detalladas acerca de cómo realizar las pruebas de conectividad en la Guía de [preparación de la red](upgrade-prepare-environment-prepare-network.md) .
 
-3.  **Compruebe la lista de problemas conocidos:** Consulte la [lista de problemas conocidos de los equipos](known-issues.md) para determinar si el usuario haya sido afectado negativamente por uno de estos problemas. Siga la solución alternativa proporcionada (si hay alguno) para resolver el problema.
+3. **Compruebe la lista de problemas conocidos:** Consulte la [lista de problemas conocidos de los equipos](known-issues.md) para determinar si el usuario haya sido afectado negativamente por uno de estos problemas. Siga la solución alternativa proporcionada (si hay alguno) para resolver el problema.
 
-4.  **Visite la Comunidad de Microsoft Teams:** La [Comunidad de equipos de Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) ofrece espacios dedicados para los equipos. La Comunidad de equipos proporciona una lista de discusión, entradas de blog y anuncios centrados en los equipos. Puede registrar una pregunta o buscar conversaciones anteriores para soluciones para el problema.
+4. **Visite la Comunidad de Microsoft Teams:** La [Comunidad de equipos de Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) ofrece espacios dedicados para los equipos. La Comunidad de equipos proporciona una lista de discusión, entradas de blog y anuncios centrados en los equipos. Puede registrar una pregunta o buscar conversaciones anteriores para soluciones para el problema.
 
-5.  **Póngase en contacto con soporte técnico de Microsoft:** Puede ponerse en contacto con Microsoft Support para problemas con los equipos en línea o por teléfono. Para obtener información, vea [contacto admite para los equipos de Microsoft](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
-    Para Premier a los clientes, compatibilidad con las solicitudes se pueden iniciar siguiendo las instrucciones en [póngase en contacto con soporte técnico para Microsoft Teams (Premier a los clientes)](https://support.microsoft.com/premier/contacts).
+5. **Póngase en contacto con soporte técnico de Microsoft:** Puede ponerse en contacto con Microsoft Support para problemas con los equipos en línea o por teléfono. Para obtener información, vea [contacto admite para los equipos de Microsoft](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). Para Premier a los clientes, compatibilidad con las solicitudes se pueden iniciar siguiendo las instrucciones en [póngase en contacto con soporte técnico para Microsoft Teams (Premier a los clientes)](https://support.microsoft.com/premier/contacts).
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tareas de diario o semanal o mensual/según sea necesario
 
 | Actividad | Descripción | Cadencia | Equipo asignado |
-|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
+|---|---|---|---|
 | Requisitos del extremo | Asegúrese de que los equipos de extremo continúa para cumplir todos los requisitos de software para los equipos que aparecen en [obtener los clientes de equipos de Microsoft](get-clients.md). | Cada mes | |
 | Firewalls de extremo | Mantener las exclusiones adecuadas en el firewall de extremo en función de la información de [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://aka.ms/o365ips). Su proveedor de terceros tendrá las instrucciones específicas sobre cómo mantener las exclusiones. Suscríbase a la [fuente RSS](https://support.office.com/o365ip/rss) para recibir automáticamente una notificación de cambios. | Según sea necesario | |
 | Controladores de Wi-Fi | Probar y actualizar los controladores de Wi-Fi en su PC. Validar los resultados mediante el uso de CQD ([Guía de revisión de calidad de experiencia](https://aka.ms/qerguide)). | Según sea necesario | |
 | Administración de extremo | Mantener el catálogo de los extremos compatibles y dispositivos de interfaz (por ejemplo, auriculares con micrófono). Administrar contratos de proveedores, garantía, distribución, reemplazo y reparar las directivas. | Cada mes | |
 | Solución de problemas de extremo | Solución de problemas de tareas puede incluir la comprobación de la conectividad, la lista de problemas conocidos, registro de recopilación, análisis y escalación a Microsoft Support o proveedores de terceros de consultoría. | Según sea necesario | |
 
-### <a name="references"></a>Referencias 
+### <a name="references"></a>Referencias
 
 [URL de Office 365 e intervalos de direcciones IP](https://aka.ms/o365ips)
 
@@ -490,7 +485,6 @@ Para admitir usuarios, una organización puede requerir cualquier número de tar
 
 [Administrar el acceso de los usuarios a Microsoft Teams](user-access.md)
 
-
 ### <a name="team-creation-optional"></a>Creación del equipo (opcional)
 
 De forma predeterminada, todos los usuarios con un buzón en Exchange Online tienen permisos para crear grupos de Office 365 y, por lo tanto, un equipo en Microsoft Teams. Si desea tener un control más estricto y [restringir la creación de nuevos equipos](assign-roles-permissions.md#permissions-to-create-teams) (y, por tanto, la creación de nuevos grupos de Office 365), puede delegar la creación de grupos y derechos de administración a un conjunto de administradores. Si desea que su organización a decidirse por esta opción, vea el proceso descrito en este artículo para permitir a los usuarios enviar solicitudes que se procesan por un equipo asignados.
@@ -500,11 +494,11 @@ De forma predeterminada, todos los usuarios con un buzón en Exchange Online tie
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tareas de diario o semanal o mensual/según sea necesario
 
 | Actividad | Descripción | Cadencia | Equipo asignado |
-|-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
+|---|---|---|---|
 | Administración del servicio | Administración de configuración de los equipos de todo el inquilino. | Según sea necesario | |
 | Administración de usuarios | Administración de configuración de usuario y concesión de licencias en los equipos. | Según sea necesario | |
-| Administración de licencias | Planear las necesidades actuales y futuras para el usuario y basada en el consumo de licencias (planes de llamada y comunicación créditos) al aprovechar el informe [informe de uso de RTC](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report) y [grupos de servidores de minutos de RTC](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report) . | Cada semana    | |
+| Administración de licencias | Planear las necesidades actuales y futuras para el usuario y basada en el consumo de licencias (planes de llamada y comunicación créditos) al aprovechar el informe [informe de uso de RTC](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report) y [grupos de servidores de minutos de RTC](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report) . | Cada semana | |
 | Administración de números de teléfono | Administrar los números de teléfono disponibles para el crecimiento futuro y ajustar los niveles de inventario para satisfacer las necesidades de su organización. | Cada semana | |
-| Creación del equipo (opcional)    | Proceso de revisión y las solicitudes de creación del equipo. | Según sea necesario | |
+| Creación del equipo (opcional) | Proceso de revisión y las solicitudes de creación del equipo. | Según sea necesario | |
 
 <!--ENDOFSECTION-->

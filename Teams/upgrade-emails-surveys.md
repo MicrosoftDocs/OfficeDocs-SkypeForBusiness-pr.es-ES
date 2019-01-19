@@ -1,9 +1,8 @@
 ---
-title: Muestra mensajes de correo electrónico y encuestas para la lista de comprobación de actualización básica - Microsoft Teams
+title: Los correos electrónicos de transición de los equipos de Microsoft y encuestas | Actualización básica
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf684ff7b6d2b8470496276664e95b1556377a85
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 43d2df58bef38b65470791b40948170a9cd54374
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014326"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349456"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Muestra mensajes de correo electrónico y encuestas para las comunicaciones de actualización básica
 
@@ -44,6 +43,7 @@ Microsoft has indicated that Teams now has key capabilities that meet our commun
 
 Microsoft has provided an upgrade checklist outlining the essential tasks we should take to facilitate this transition. If you’re listed on the To line, you’re a key stakeholder in executing a successful transition to Teams and I may be reaching out for assistance. In the interim, let me know if you have any questions.
 ````
+
 [Devuelva al paso 1](upgrade-basic.md#step-1)
 
 <a name="step-4-email"></a>
@@ -67,8 +67,8 @@ Our official transition to Teams is set for <<X date>>, but your journey starts 
 
 CALL TO ACTION: Get started with Teams today
 
--   View this [Introducing Microsoft Teams video](https://teamsdemo.office.com/)
--   Follow these [Quick Start](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d) steps to send your first chat in Teams
+- View this [Introducing Microsoft Teams video](https://teamsdemo.office.com/)
+- Follow these [Quick Start](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d) steps to send your first chat in Teams
 
 If you have questions or need help, please reach out to <<insert company support information>>.
 ````
@@ -91,9 +91,9 @@ We’re just <<X weeks/days>> away from the transition to Microsoft Teams and wa
 
 CALL TO ACTION: Make your next online meeting a Teams meeting
 
--   Follow [these steps](https://support.office.com/article/get-your-team-together-for-better-meetings-71e3858c-7e5f-4ad7-bb67-c77d80237e96) to host your first Teams meeting.
--   Begin rescheduling recurring Skype for Business meetings in Teams.
--   Make every new online meeting a Teams meeting.
+- Follow [these steps](https://support.office.com/article/get-your-team-together-for-better-meetings-71e3858c-7e5f-4ad7-bb67-c77d80237e96) to host your first Teams meeting.
+- Begin rescheduling recurring Skype for Business meetings in Teams.
+- Make every new online meeting a Teams meeting.
 
 What will happen to my Skype for Business meetings after we move to Teams?
 
@@ -121,16 +121,16 @@ Cuerpo del correo electrónico:
 ````
 Let me be the first to officially welcome you to Microsoft Teams. Your Skype for Business client will be decommissioned, and Teams is your default application for chat and meetings. In case you missed it, let’s review what Microsoft Teams can do for you:
 
--   Offers familiar Skype for Business chat and meeting features to maintain a consistent feel.
--   Simplifies communication with a centralized contact list and persistent chat tracking for quick access to your conversations.
--   Saves time by providing a single location for your project notes, Office documents, team members, conversations AND meetings.
--   Alleviates the frustration of trying to find that lost email attachment, by storing and accessing files in one place
--   Makes communication more fun and personal with customizable memes and Giphys.
+- Offers familiar Skype for Business chat and meeting features to maintain a consistent feel.
+- Simplifies communication with a centralized contact list and persistent chat tracking for quick access to your conversations.
+- Saves time by providing a single location for your project notes, Office documents, team members, conversations AND meetings.
+- Alleviates the frustration of trying to find that lost email attachment, by storing and accessing files in one place
+- Makes communication more fun and personal with customizable memes and Giphys.
 
 CALL TO ACTION: If you need assistance getting started in Teams:
 
--   View this Introducing Microsoft Teams video: https://teamsdemo.office.com/
--   Visit the Office 365 Training Center, or simply ask T-Bot.
+- View this Introducing Microsoft Teams video: https://teamsdemo.office.com/
+- Visit the Office 365 Training Center, or simply ask T-Bot.
 
 Should you have questions about Teams, contact <<insert alias or contact info>>.
 
@@ -144,7 +144,6 @@ Regards,
 <a name="step-9-email"></a>
 
 ### <a name="check-in-email-for-step-9"></a>Protección de correo electrónico, para el paso 9
-
 
 Línea de asunto:
 
@@ -181,8 +180,8 @@ Now that you’re up and running with Microsoft Teams, learn what else Teams can
 
 CALL TO ACTION: Give teams and channels a try
 
--   Learn about [teams and channels](https://support.office.com/article/learn-about-teams-and-channels-5e4fd702-85f5-48d7-ae14-98821a1f90d3).
--   [Create a team](https://support.office.com/article/video-teams-and-channels-c3d63c10-77d5-4204-a566-53ddcf723b46) for a current project or initiative.
+- Learn about [teams and channels](https://support.office.com/article/learn-about-teams-and-channels-5e4fd702-85f5-48d7-ae14-98821a1f90d3).
+- [Create a team](https://support.office.com/article/video-teams-and-channels-c3d63c10-77d5-4204-a566-53ddcf723b46) for a current project or initiative.
 
 Tip: The best use of the Teams workspace comes when the right people join the right team. Work with your manager or colleagues to optimize the use of teams and channels.
 
@@ -199,32 +198,30 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 Indicar el grado se encuentra al realizar las siguientes actividades en los equipos y si hay una o más actividades que le gustaría usar para obtener más información acerca de.
 
-|  &nbsp;  | Mucha experiencia | Algo de experiencia | No especializados en todos los | Para obtener más información | N/D | ¿No está seguro o no familiar |   |   |   |    |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|------------------|--------------------|--------------------|-----|---------------------|---|---|---|----|
-| Equipos de uso de mensajería instantánea o charlar con otras personas                                                                                                                     |              |                  |                    |                    |     |                     |   |   |   |    |
-| Equipos de uso para las reuniones en línea                                                                                                                             |              |                  |                    |                    |     |                     |   |   |   |    |
-| Equipos de uso para la colaboración (equipos y canales)                                                                                                          |              |                  |                    |                    |     |                     |   |   |   |    |
-| Use los equipos en mi dispositivo móvil                                                                                                                             |              |                  |                    |                    |     |                     |   |   |   |    |
+| &nbsp; | Mucha experiencia | Algo de experiencia | No especializados en todos los | Para obtener más información | N/D | ¿No está seguro o no familiar | | | | |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Equipos de uso de mensajería instantánea o charlar con otras personas | | | | | | | | | | |
+| Equipos de uso para las reuniones en línea | | | | | | | | | | |
+| Equipos de uso para la colaboración (equipos y canales) | | | | | | | | | | |
+| Use los equipos en mi dispositivo móvil | | | | | | | | | | |
 
-
-| **¿Qué ocurre, en caso de haber algo, se le impide usar Microsoft Teams?**   | **Seleccione todos los que se aplican** |
-|--------|-------|
-| Nunca he oído sobre él    | & #9744; |
-| No tengo instalado en mi equipo   |  & #9744;  |
-| No sé cómo puede beneficiarme a mí o a las personas que trabajo con   |  & #9744;  |
-| No he tenido tiempo para evaluar para mis necesidades   |  & #9744;  |
-| Ya uso otras aplicaciones que mis necesidades de comunicación y colaboración   |  & #9744;  |
-| ¿Necesito formación antes de usarlo   |  & #9744;  |
-| He intentó usarlo, pero tenía problemas técnicos o una mala experiencia    |  & #9744;   |
-| Nuestro servicio de asistencia técnica no se ha podido ayudarme con mis preguntas   | & #9744;   |
-| Nothing, actualmente puedo usarlo    |  & #9744;  |
-| Otros (especifique)     | & #9744;   |
-
+| **¿Qué ocurre, en caso de haber algo, se le impide usar Microsoft Teams?** | **Seleccione todos los que se aplican** |
+|---|---|
+| Nunca he oído sobre él | & #9744; |
+| No tengo instalado en mi equipo | & #9744; |
+| No sé cómo puede beneficiarme a mí o a las personas que trabajo con | & #9744; |
+| No he tenido tiempo para evaluar para mis necesidades | & #9744; |
+| Ya uso otras aplicaciones que mis necesidades de comunicación y colaboración | & #9744; |
+| ¿Necesito formación antes de usarlo | & #9744; |
+| He intentó usarlo, pero tenía problemas técnicos o una mala experiencia | & #9744; |
+| Nuestro servicio de asistencia técnica no se ha podido ayudarme con mis preguntas | & #9744; |
+| Nothing, actualmente puedo usarlo | & #9744; |
+| Otros (especifique) | & #9744; |
 
 **¿Con qué probabilidad va a recomendar Teams Microsoft a un compañero o amigo? (0 = no es probable en absoluto... 10 = extremadamente probable)**
 
-| 0      | 1            | 2                | 3                  | 4                  | 5   | 6                   | 7 | 8 | 9 | 10 |
-| ------| -----  | ---------|-------|-----|-------|------|------|------|------|------|
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
+| ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 
 [Devuelva al paso 9](upgrade-basic.md#step-9)

@@ -1,5 +1,5 @@
 ---
-title: Novedades de Skype Empresarial Server
+title: ¿Qué es una novedad de Skype para Business Server 2019 | Características
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,14 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumen: Estas características son nuevas en Skype para Business Server 2019.'
-ms.openlocfilehash: b0a7040b0d63866bffd2e86a68a7447463485b1e
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 044901b134c71c1cae004f9930bedeae0057578d
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561577"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29348887"
 ---
-# <a name="whats-in-skype-for-business-server-2019"></a>¿Qué es en Skype para Business Server 2019 
+# <a name="whats-in-skype-for-business-server-2019"></a>¿Qué es en Skype para Business Server 2019
 
 **Resumen:** Lea este tema para obtener más información acerca de las nuevas características de Skype para Business Server 2019.  
 
@@ -26,13 +26,13 @@ Nuevas características de Skype para Business Server 2019 incluyen lo siguiente
 - Conector de datos de llamada
 - Migración en paralelo
 
-## <a name="unified-messaging-services-cloud-voicemail"></a>Servicios de mensajería unificado: correo de voz en la nube 
+## <a name="unified-messaging-services-cloud-voicemail"></a>Servicios de mensajería unificado: correo de voz en la nube
 
 Mensajería unificada de Exchange sigue estando disponible en Skype para Business Server 2019 al integrar Skype para la empresa 2019 con Exchange 2013 o 2016 de Exchange. Debido a los cambios en la compatibilidad en Exchange 2019, integración de mensajería unificada de Exchange se está desaprovisionamiento emphasised en favor de las características de correo de voz en la nube y operador automático de la nube.  
 
-Correo de voz en la nube permite todas su Skype para los usuarios empresariales 2019 & #x 2014; si están hospedados en local o en línea & #x 2014; tener acceso al mismo servicio de correo de voz en el Microsoft Cloud. Correo de voz en la nube proporciona las siguientes ventajas para los usuarios en línea y local:
+Correo de voz en la nube permite todas su Skype para profesionales 2019 users& #x 2014; si están hospedados en local o online& #x 2014; para tener acceso al mismo servicio de correo de voz en el Microsoft Cloud. Correo de voz en la nube proporciona las siguientes ventajas para los usuarios en línea y local:
 
-- Acceso al correo de voz en su buzón de Exchange mediante el uso de la Skype para clientes empresariales en línea, los equipos o Outlook 
+- Acceso al correo de voz en su buzón de Exchange mediante el uso de la Skype para clientes empresariales en línea, los equipos o Outlook
 - Posibilidad de usar el portal basado en web para administrar sus opciones de correo de voz
 
 Para obtener más información, vea [servicio de planeación de correo de voz en la nube](hybrid/plan-cloud-voicemail.md) y [planeación de Skype para Business Server y la migración de Exchange Server](hybrid/plan-um-migration.md) .
@@ -45,7 +45,7 @@ Con el conector de datos de llamadas, puede realizar las siguientes tareas media
 
 - Supervisar la experiencia del usuario a través de Microsoft Teams, Skype para profesionales en línea y Skype para Business Server.
 - Ver y solucionar los problemas a través de la red
-- Asignación de roles de departamento de soporte técnico y administrador para análisis de llamadas, por lo que puede ofrecer a los trabajadores del departamento de soporte técnico ver y solucionar problemas de sus áreas de responsabilidad. 
+- Asignación de roles de departamento de soporte técnico y administrador para análisis de llamadas, por lo que puede ofrecer a los trabajadores del departamento de soporte técnico ver y solucionar problemas de sus áreas de responsabilidad.
 
 Para obtener más información, consulte [Planeación de conector de datos de llamada](hybrid/plan-call-data-connector.md) .
 
