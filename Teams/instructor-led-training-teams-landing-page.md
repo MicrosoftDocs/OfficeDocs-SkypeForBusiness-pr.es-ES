@@ -1,20 +1,19 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Formación dirigida por instructor para Microsoft Teams
-description: Regístrese para obtener impartidos por clases conocer todos los equipos de Microsft.
+title: Formación presencial y vídeos para los administradores de los equipos de Microsoft
+description: Regístrese para obtener impartidos por clases obtener todos los detalles sobre Microsoft Teams.
 author: dearbeen
 ms.topic: hub-page
 ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
-ms.date: 08/24/2018
-ms.openlocfilehash: efb105e3d6b5ab1c2ec87df6520c52eeb7ded90d
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 35b8a75e1c19acbe66e05c6d163b55cd4ab9f904
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214561"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349314"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -80,7 +79,7 @@ ms.locfileid: "27214561"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Trucos y sugerencias de los equipos</h3>
+                                                <h3>Los equipos sugerencias y trucos del &</h3>
                                                 <p>Comprender y creativos formas de optimizar y organizar los equipos en su trabajo cotidiano. (Audiencia: los usuarios finales)</p>
                                             </div>
                                         </div>
@@ -100,7 +99,7 @@ ms.locfileid: "27214561"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Administración de la actualización de Skype para la empresa a los equipos</h3>
-                                                <p>Implementar una actualización correcta a los equipos y de planificar (audiencia: profesionales de TI, administradores de cambio de adopción)</p>
+                                                <p>Plan & implementar una actualización correcta a los equipos (audiencia: profesionales de TI, administradores de cambio de adopción)</p>
                                             </div>
                                         </div>
                                     </div>
