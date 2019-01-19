@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3c273868a07099ce0aaed60cb16e698adbdd13f
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 7cbce74cdc06a2f37f628dd32f6f36356c1ad27a
+ms.sourcegitcommit: 708e691b00f490da45d8d7f1d6594be29f45023b
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349524"
+ms.locfileid: "29354503"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial
 
@@ -44,11 +44,10 @@ Como una organización con Skype para la empresa comienza a adoptar los equipos,
 
 6.  Comportamiento de actualización e interoperabilidad se determina en función de modo de coexistencia de un usuario, que se administra por TeamsUpgradePolicy. TeamsInteropPolicy ya no está pagado y otorgar el modo = heredados ya no está permitido. 
 
-7.  Actualización de un usuario para el modo de TeamsOnly garantiza que todos los chats entrantes y las llamadas se siempre colocará en cliente de los equipos del usuario, independientemente del cliente orignated desde. Estos usuarios también va a programar todas las nuevas reuniones en los equipos. Para estar en modo de TeamsOnly, un usuario debe estar alojado en línea en Skype para la empresa. Este proceso es necesario para garantizar la interoperabilidad, la federación y la administración completa del usuario de los equipos. Para actualizar un usuario a TeamsOnly:
-    - Si el usuario está hospedado en Skype para la empresa en línea (o nunca tenía cualquier cuenta de Skype), concederles TeamsUpgradePolicy con el modo = TeamsOnly utilizando la instancia de "UpgradeToTeams" con PowerShell, o use el centro de administración de equipos para seleccionar el modo de TeamsOnly.
-    - Si el usuario es alojarse en local, use `Move-CsUser` desde el local herramientas admin al primer movimiento al usuario Skype para profesionales en línea. Hay 2 opciones al mover usuarios de local:  
-     - Si tiene Skype para Business Server 2019 o CU8 de Skype para Business Server 2015, puede especificar el `-MoveToTeams` cambiar en `Move-CsUser` para mover el usuario directamente a los equipos. Esta opción también migrar las reuniones del usuario a los equipos (aunque por ahora, la migración de la reunión sólo es funcional para los clientes TAP). 
-      - En caso contrario, después de `Move-CsUser` completa, asignar el modo de TeamsOnly a ese usuario con PowerShell o el centro de administración de equipos.  
+7.  Actualización de un usuario para el modo de TeamsOnly garantiza que todos los chats entrantes y las llamadas se siempre colocará en cliente de los equipos del usuario, independientemente del cliente orignated desde. Estos usuarios también va a programar todas las nuevas reuniones en los equipos. Para estar en modo de TeamsOnly, un usuario debe estar alojado en línea en Skype para la empresa. Este proceso es necesario para garantizar la interoperabilidad, la federación y la administración completa del usuario de los equipos. Para actualizar un usuario a TeamsOnly: r. Si el usuario está hospedado en Skype para la empresa en línea (o nunca tenía cualquier cuenta de Skype), concederles TeamsUpgradePolicy con el modo = TeamsOnly utilizando la instancia de "UpgradeToTeams" con PowerShell, o use el centro de administración de equipos para seleccionar la Modo de TeamsOnly.
+    B. Si el usuario es alojarse en local, use `Move-CsUser` desde el local herramientas admin al primer movimiento al usuario Skype para profesionales en línea. Hay 2 opciones al mover usuarios de local:  
+      - Si tiene Skype para Business Server 2019 o CU8 de Skype para Business Server 2015, puede especificar el `-MoveToTeams` cambiar en `Move-CsUser` para mover el usuario directamente a los equipos. Esta opción también migrar las reuniones del usuario a los equipos (aunque por ahora, la migración de la reunión sólo es funcional para los clientes TAP). 
+       - En caso contrario, después de `Move-CsUser` completa, asignar el modo de TeamsOnly a ese usuario con PowerShell o el centro de administración de equipos.  
      Para obtener más información, vea [mover usuarios entre local y la nube](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  Para obtener más detalles sobre la migración de la reunión, vea [utilizar el servicio de migración de reunión (MMS)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
 
 
@@ -137,18 +136,8 @@ Cuando los usuarios están en cualquiera de los Skype para los modos de negocio 
 
 Hasta que se entrega esta solución, los administradores pueden aplicar la experiencia del cliente previsto del modo TeamsUpgradePolicy mediante la configuración manual de los valores de TeamsMessagingPolicy, TeamsCallingPolicy y TeamsMeetingPolicy. Además, al usar `Grant-CsTeamsUpgradePolicy` en PowerShell, el cmdlet comprobará automáticamente la configuración de los valores correspondientes en TeamsMessagingPolicy, TeamsCallingPolicy y TeamsMeetingPolicy a determmine si son compatibles con estas opciones de configuración el modo especificado. Si alguna no están configurado correctamente, la concesión se realizará correctamente pero se proporcionará una advertencia que indica los valores de configuración no están configurados correctamente. El administrador debe actualizar posteriormente las directivas indicadas para proporcionar una experiencia de usuario final compatible en los equipos. Si el administrador decide no realizar ninguna acción como consecuencia de la advertencia, los usuarios aún tener acceso a conversaciones, llamar o funciones de programación en los equipos según los valores de TeamsMessagingPolicy, TeamsCallingPolicy y TeamsMeetingPolicy, de la reunión lo que puede conllevar una experiencia de usuario final confusa.
 
-
-`PS C:\Users\janedoe> Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab
-WARNING: The user 'user1@contoso.com' currently has effective policy enabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the near term, when granting TeamsUpgradePolicy with mode=SfBWithTeamsCollab to a user, you must also separately assign policy to ensure the user has effective policy disabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the future, the capability will automatically honor TeamsUpgradePolicy.
-PS C:\Users\janedoe>`
-
-
-Antes de la entrega de la aplicación automática de comportamiento de los clientes se ha descrito anteriormente, cada uno de los modos de SfB se comportan básicamente el mismo. Los modos de SfBOnly, SfBWithTeamsCollab y SfBWithTeamsCollabAndMeetings son todos los idénticos en cómo se enrutan charlas y las llamadas entrantes. La única diferencia, por ahora, es en si están habilitados los complementos de Outlook para los equipos y Skype para la empresa. Hasta que se entrega la experiencia de cliente diferenciados, sólo 1 de los modos de SfB está habilitada en el Portal de administración. Pero todos los modos están disponibles en PowerShell.
-
-
-### <a name="powershell-warning-matrix"></a>Matriz de advertencia de PowerShell
-
-Esta tabla muestra la configuración de directiva que se comprueba cuando se concede TeamsUpgradeMode. En el futuro, la intención es para que el modo SfBOnly también desactivar canales en los equipos; Sin embargo, actualmente no hay ninguna opción que permite que la característica de canales en los equipos que va a deshabilitar.
+### <a name="expected-values-of-workload-policy-settings-per-mode"></a>Valores esperados de configuración de directiva de carga de trabajo por modo
+La tabla muestra la configuración de directiva que se comprueba cuando se concede TeamsUpgradeMode. En el futuro, la intención es para que el modo SfBOnly también desactivar canales en los equipos; Sin embargo, actualmente no hay ninguna opción que permite que la característica de canales en los equipos que va a deshabilitar.
 
 
 |**Modalidad (aplicación)**|**Policy.Setting**|
@@ -158,9 +147,27 @@ Esta tabla muestra la configuración de directiva que se comprueba cuando se con
 |Programación de reuniones|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
 |||
 
+El mostrar a continuación se muestra, de un modo determinado, los valores esperados de estas opciones:
 
-El administrador ve una advertencia si no hay una desconexión entre la habilitación de carga de trabajo y el modo deseado. Temporalmente, el administrador debe habilitar o deshabilitar la carga de trabajo a través de la directiva de carga de trabajo principal.  Una vez implementada la aplicación automática en función de TeamsUpgradePolicy, se actualizarán las advertencias de PowerShell para informar al administrador de que la experiencia del cliente se aplicará automáticamente. En ese caso, los valores de TeamsMessagingPolicy, TeamsCallingPolicy y TeamsMeetingPolicy permanecen inalterados – pero la experiencia del cliente previsto se exigirán según TeamsUpgradePolicy.
+|Modo|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
+|---|---|---|---|---|
+|TeamsOnly o Islas|Habilitado|Habilitado|Habilitado|Habilitado|
+|SfBWithTeamsCollabAndMeetings|Deshabilitado|Deshabilitado|Habilitado|Habilitado|
+|SfBWithTeamsCollab o SfBOnly|Deshabilitado|Deshabilitado|Deshabilitado|Deshabilitado|
+||||||
 
+
+Si se detecta cualquier otra combinación de estas opciones de configuración durante Grant-CsTeamsUpgradePolicy, la concesión se realizará correctamente, pero se mostrará una advertencia que indica la configuración específica que no cumplen el comportamiento esperado. Temporalmente, el administrador debe habilitar o deshabilitar la carga de trabajo a través de la directiva de carga de trabajo principal.  Una vez implementada la aplicación automática en función de TeamsUpgradePolicy, se actualizarán las advertencias de PowerShell para informar al administrador de que la experiencia del cliente se aplicará automáticamente. En ese caso, los valores de TeamsMessagingPolicy, TeamsCallingPolicy y TeamsMeetingPolicy permanecen inalterados – pero la experiencia del cliente previsto se exigirán según TeamsUpgradePolicy.
+
+A continuación es un ejemplo del aspecto que podría tener la advertencia de PowerShell:
+
+
+`PS C:\Users\janedoe> Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab
+WARNING: The user 'user1@contoso.com' currently has effective policy enabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the near term, when granting TeamsUpgradePolicy with mode=SfBWithTeamsCollab to a user, you must also separately assign policy to ensure the user has effective policy disabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the future, the capability will automatically honor TeamsUpgradePolicy.
+PS C:\Users\janedoe>`
+
+
+Antes de la entrega de la aplicación automática de comportamiento de los clientes se ha descrito anteriormente, cada uno de los modos de SfB se comportan básicamente el mismo. Los modos de SfBOnly, SfBWithTeamsCollab y SfBWithTeamsCollabAndMeetings son todos los idénticos en cómo se enrutan charlas y las llamadas entrantes. La única diferencia, por ahora, es en si están habilitados los complementos de Outlook para los equipos y Skype para la empresa. Hasta que se entrega la experiencia de cliente diferenciados, sólo 1 de los modos de SfB está habilitada en el Portal de administración. Pero todos los modos están disponibles en PowerShell.
 
 
 ## <a name="teamsinteroppolicy-and-legacy-mode-being-retired"></a>TeamsInteropPolicy y modo heredado que se retiran 
