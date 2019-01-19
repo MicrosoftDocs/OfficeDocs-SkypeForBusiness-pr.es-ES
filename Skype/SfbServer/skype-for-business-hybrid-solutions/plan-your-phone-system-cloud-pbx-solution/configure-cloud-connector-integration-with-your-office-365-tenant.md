@@ -13,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Obtenga información sobre cómo configurar la integración de conector en la nube con el inquilino de Office 365.
-ms.openlocfilehash: 01e5135a4b0ac6de391140bc6fc0d80bcc00e2ce
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 837775fea5a128dbbb8d143f15064e08d9267756
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375772"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729382"
 ---
-# <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configurar la integración de Cloud Connector con el inquilino de Office 365
+# <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configure Cloud Connector integration with your Office 365 tenant
  
 Obtenga información sobre cómo configurar la integración de conector en la nube con el inquilino de Office 365.
   
@@ -54,7 +54,7 @@ Asegúrese de haber completado los pasos para actualizar el dominio en Office 36
   
 ## <a name="add-dns-records-in-office-365-for-your-edge"></a>Agregar registros DNS en Office 365 desde el perímetro
 
-Agregue los siguientes registros DNS a su inquilino de Office 365. Para obtener información acerca de cómo agregar registros DNS en su inquilino de Office 365, vea [Agregar o editar registros DNS personalizados en Office 365](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1).
+Agregue los siguientes registros DNS a su inquilino de Office 365. Para obtener información sobre cómo agregar registros DNS a su inquilino de Office 365, consulte [Agregar o editar registros DNS personalizados en Office 365](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1).
   
 1. Agregar un registro A de DNS para el acceso perimetral.
     
@@ -74,7 +74,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
 ```
 
 > [!NOTE]
-> El FQDN externo de perimetral de acceso de destino del mismo nivel debe establecerse en un sitio de RTC que solo se usará como reserva en caso de que un usuario no está asignado a un sitio de RTC. Para obtener más información, vea [implementar un sitio de conector en la nube](deploy-a-single-site-in-cloud-connector.md) e [implementar varios sitios de conector en la nube](deploy-multiple-sites-in-cloud-connector.md). 
+> El FQDN externo de perimetral de acceso de destino del mismo nivel debe establecerse en un sitio de RTC que solo se usará como reserva en caso de que un usuario no está asignado a un sitio de RTC. Para obtener más información, consulte [Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) y [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
   
 ## <a name="set-up-pstn-gateways"></a>Configurar las puertas de enlace RTC
 
@@ -166,7 +166,10 @@ Cuando una llamada de P2P se remite a una conferencia de RTC, la Skype para serv
     
     Usar el dominio SIP predeterminado del conector en la nube (el primer dominio SIP en el archivo. ini) como el dominio de usuario.
     
-    Tenga en cuenta que asignación de licencias sólo es necesario para la propagación de usuario en el Skype para el directorio en línea de negocio. Asignar una licencia de Office 365 (como E5) a la cuenta crear, permitir propagar los cambios de una hora, a continuación, quite la licencia de esta cuenta.
+    Tenga en cuenta que asignación de licencias sólo es necesario para la propagación de usuario en el Skype para el directorio en línea de negocio. Asignar licencias de un Office 365 (por ejemplo, E5) a la cuenta crear, permitir hasta una hora para que los cambios propagar, compruebe las cuentas de usuario se ha aprovisionado correctamente a la Skype para el directorio en línea de negocio mediante el siguiente cmdlet que se está ejecutando, a continuación, quitar el licencia de esta cuenta.
+    ```
+   Gets-CsOnlineUser -Identity <UserPrincipalName>
+   ```
     
 2. Inicie una sesión de PowerShell remota de inquilino Azure AD mediante su global o credenciales de administrador del usuario y, a continuación, ejecute el siguiente cmdlet para establecer el departamento para la cuenta de usuario de Azure AD configurado en el paso 1 para "HybridMediationServer":
 

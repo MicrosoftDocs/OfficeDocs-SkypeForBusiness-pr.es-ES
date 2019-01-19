@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
-ms.openlocfilehash: cdc180c0caa8cfe581d02a206d9b13e255214bfd
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 7eb6eb3c9bcd2cbbbe72a6fc96d619303216cd37
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297891"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729403"
 ---
 # <a name="release-notes"></a>Notas de la versión 
 
@@ -55,6 +55,7 @@ Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
 Se introdujeron en esta actualización:
 - Mostrar el contenido en ambas front-sala de (muestra en los sistemas de la sala de pantalla dual para)
 - Creación de temas y front-sala de mejoras de la interfaz de usuario
+- Compatibilidad en el lado de cliente de TLS 1.2. Para en los clientes in situ, habilitar Threats a través de TLS 1.2 para V2 de Skype salón del sistema requiere Skype para Business Server 2015 Cummulative actualización 9 (la actualización acumulativa 9) o Skype para negocio Server 2019 Cummulative Update 1 (CU1).
 
 ### <a name="40510-11172018"></a>4.0.51.0 (17/11/2018)
 Se introdujeron en esta actualización:

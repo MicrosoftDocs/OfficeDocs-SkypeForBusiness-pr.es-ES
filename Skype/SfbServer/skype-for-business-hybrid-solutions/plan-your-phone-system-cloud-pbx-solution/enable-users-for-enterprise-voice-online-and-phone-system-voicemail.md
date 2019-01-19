@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Obtenga información sobre cómo habilitar sistema telefónico en servicios de voz de Office 365 para su Skype para los usuarios empresariales.
-ms.openlocfilehash: ec0e37c0597f81001075f144dd38b58acfbb1159
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 9f11e52a3992e484643cfea06d0720d12e3f0e77
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372673"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729296"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Habilitar a usuarios para Enterprise Voice en línea y el sistema de teléfono en el correo de voz de Office 365
  
@@ -31,11 +31,11 @@ El último paso de implementación del sistema de teléfono en Office 365 con co
   
 ## <a name="enable-phone-system-in-office-365-voice-services"></a>Habilitar sistema telefónico en servicios de voz de Office 365
 
-Para habilitar a un usuario para el sistema telefónico en Office 365 voz y correo de voz, debe realizar algunos pasos iniciales, como la comprobación para ver de la Skype para Business Connector en línea se implementa en los servidores y permitir que los usuarios de correo de voz hospedado.
+Para habilitar a un usuario para el sistema telefónico en Office 365 voz y correo de voz, debe realizar algunos pasos iniciales, como la comprobación para ver si el Skype para Business Connector en línea se implementa en los servidores y permitir que los usuarios de correo de voz hospedado.
   
 ### <a name="to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail"></a>Para habilitar a los usuarios para el sistema telefónico en correo de voz y voz de Office 365
 
-1. Antes de comenzar, compruebe que la Skype para Business Connector en línea (módulo de Windows PowerShell) se implementa en los servidores Front-End. Si no es así, se puede descargar desde [el centro de descarga](https://www.microsoft.com/en-us/download/details.aspx?id=39366). Puede encontrar más información acerca del uso de este módulo a la [configuración de su equipo para Skype para administración en línea de negocio](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx).
+1. Antes de comenzar, compruebe que la Skype para Business Connector en línea (módulo de Windows PowerShell) se implementa en los servidores Front-End. Si no lo está, lo puede descargar en el [Centro de descarga](https://www.microsoft.com/en-us/download/details.aspx?id=39366). Encontrará más información sobre cómo usar este módulo en [Configurar el equipo para la administración de Skype Empresarial Online](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx).
     
 2. Inicie Windows PowerShell como un administrador.
     

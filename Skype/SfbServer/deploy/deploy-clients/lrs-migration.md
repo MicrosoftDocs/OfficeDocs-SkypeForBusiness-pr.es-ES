@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Lea este tema para obtener información sobre cómo migrar el sistema de salas de Lync dispositivos para utilizar el software de sistema de salas de Skype v2.
-ms.openlocfilehash: b2d748a37e7e060e19d0708b6979f9254af13682
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: 9436c5a843f21b9913c0dbcbed6e62df8ef62ce2
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772906"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729410"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Migrar dispositivos de Lync salón del sistema (LRS) al sistema de salas de Skype v2 
 Dispositivos de Lync salón del sistema (LRS) con el software del sistema de sala de Skype versión 1 (v1 SRS) ha alcanzado el [final del soporte técnico de 9 de octubre de 2018](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018). Esto significa que el software de sistemas de salón de Skype v1 dejarán de recibir cualquier actualizaciones de productos o revisiones ya. Se aconseja a los clientes de dispositivos del sistema de salas de Lync mediante el sistema de salas de Skype v1 software para actualizar sus dispositivos al sistema de sala de Skype versión 2 (v2 SRS).
@@ -45,27 +45,14 @@ Los clientes existentes de Crestron RL2 (también denominada Crestron RL200) pue
 ### <a name="smart-room-systems-upgrade"></a>Actualización de sistemas de las salas inteligente 
 Para los clientes inteligentes LRS, aparte de programa de permuta de hardware Crestron, Microsoft e inteligente también estén trabajando en proporcionar una solución para actualizar a v2 de sistema de salas de Skype. Esta actualización se proporcionará por inteligentes Technologies Inc. Consulte más información acerca de este [aquí](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml).
 
-<!--  
-For later 
-### Do-It-Yourself
-A Do-It-Yourself option is also available for customers with upgrade to Windows 10 and Skype Room Systems v2 software. Windows 10 Enterprise Licenses are available through [approved resellers](https://www.microsoft.com/en-us/Licensing/how-to-buy/how-to-buy.aspx) and Skype Room System V2 software will be available through this guide. 
- 
   
-To use this option however, customers must additionaly buy a [Logitech Screen Share](https://www.logitech.com/en-us/product/screen-share) adapter. Microsoft will provide instructions on how to use this adapter with Skype Room System v2 software. 
+Para usar esta opción sin embargo, los clientes deben comprar además un adaptador de [Recurso compartido de pantalla Logitech](https://www.logitech.com/en-us/product/screen-share) . Microsoft proporciona instrucciones sobre cómo utilizar este adaptador con el software de sistema de salas de Skype v2. 
 
 
-Look for upgrade instructions on this page shortly. 
+Busque en breve actualización instrucciones de esta página. 
   
-### Summary of upgrade options
-This table lists summary of all available options for existing LRS devices:
-<!--  For later 
-| Upgrade Option | SMART Room Systems | Crestron RL2 | Polycom CX8000 | Crestron RL |
-|:--- |:--- |:--- |:--- |:--- |
-|**Crestron hardware </br>Trade-in program**|Available|Available|Available|Available|
-|**Crestron RL3**|Not Available|Available|Not Available|Not Available|
-|**Do-It-Yourself**|Available|Not Available|Not Available|Not Available|
-| | | | | |
--->
+### <a name="summary-of-upgrade-options"></a>Resumen de las opciones de actualización
+En esta tabla se enumera resumen de todas las opciones disponibles para los dispositivos LRS existentes:
 
 ## <a name="what-should-you-do"></a>¿Qué debe hacer?
 Se recomienda que planear actualizar los dispositivos de sistema de salas de Lync a sistemas de salón de Skype v2 antes de degradación de TLS 1.0/1.1 mediante las opciones de actualización mencionadas anteriormente. Además, también puede considerar la sustitución de dispositivos existentes con nuevos dispositivos certificados para SRS v2. Para obtener detalles, consulte [dispositivos de sala](https://aka.ms/roomdevices) y también Eche un vistazo a [los requisitos de sistemas de salón de Skype v2](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements).  
@@ -74,4 +61,4 @@ Se recomienda que planear actualizar los dispositivos de sistema de salas de Lyn
 > Funcionalidad táctil y Pizarra no se admite todavía en el sistema de salas de Skype v2. Compatibilidad con táctil y Pizarra se encuentra en el registro de sistema de salas de Skype v2 y se agregará en CY2019 H1.
 
 > [!NOTE]
-> Software Skype salón del sistema V2 actualmente no admite protocolo TLS 1.2. Compatibilidad con TLS 1.2 es que se está trabajando en y se completará antes de degradación de TLS 1.0/1.1. Upgradging de los clientes a SRS v2 no verán ningún impacto de degradación de TLS 1.0/1.1 en los dispositivos de sala con la versión más reciente de SRS v2 app. Skype para la empresa en los clientes local debe deshabilitar TLS 1.0/1.1 hasta que admiten annouces V2 de sistema de salas de Skype para TLS 1.2. 
+> Software Skype salón del sistema V2 admite protocolo TLS 1.2 desde el 14 de diciembre de 2018 con la versión de la aplicación 4.0.64.0. Para en los clientes in situ, habilitar Threats a través de TLS 1.2 para V2 de Skype salón del sistema requiere Skype para Business Server 2015 Cummulative actualización 9 (la actualización acumulativa 9) o Skype para negocio Server 2019 Cummulative Update 1 (CU1). El cambio debe ser independiente de Skype para clientes empresariales en línea como los cambios de cliente son hacia adelante y hacia atrás compatible. 

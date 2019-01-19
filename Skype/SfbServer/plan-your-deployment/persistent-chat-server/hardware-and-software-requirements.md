@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: 'Resumen: Lea este tema para obtener más información acerca de los requisitos de hardware y software para el servidor de Chat persistente en Skype para Business Server 2015.'
-ms.openlocfilehash: 487ee3beac288bc3573d640afa18aa790774b9c3
-ms.sourcegitcommit: a9bf4de79c84d239488455575322188a03535f71
+ms.openlocfilehash: ce39d4c535c75517160b53f89378144c5299bebf
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "24013533"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729424"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Requisitos de hardware y software para el servidor de chat persistente en Skype Empresarial Server 2015
  
@@ -60,9 +60,11 @@ Persistent Chat Server requiere el software de base de datos de SQL Server para 
     
 - La base de datos de Chat persistente (mgc) y la base de datos de cumplimiento (mgccomp) pueden estar ubicadas en la misma instancia de SQL Server o en diferentes servidores de SQL Server.
     
-Para preparar una plataforma de servidor de base de datos, asegúrese de que cada equipo cumpla los requisitos de hardware y, luego, instale el software que se necesita como requisito previo. La plataforma de servidor para los servidores de base de datos de Chat persistente requiere el mismo hardware que el Skype para servidor de base de datos back-end de Business Server 2015. Para obtener información detallada, vea [requisitos de servidor para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+Para preparar una plataforma de servidor de base de datos, asegúrese de que cada equipo cumpla los requisitos de hardware y, luego, instale el software que se necesita como requisito previo. La plataforma de servidor para los servidores de base de datos de Chat persistente requiere el mismo hardware que el Skype para servidor de base de datos back-end de Business Server 2015. Para más información, vea [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
   
 Confirma que una de las siguientes aplicaciones de software está instalada en el servidor de bases de datos:
+
+- Microsoft SQL Server 2017 con el último service pack.
 
 - 2016 de Microsoft SQL Server con Service Pack 1 y se debe ejecutar con Skype para Business Server actualización acumulativa 7 o versiones posteriores. Es recomendable que ejecuta SQL Server 2016 con el último service pack. Para obtener información detallada acerca de cómo instalar Microsoft SQL Server 2016, vea [instalar SQL Server 2016](https://docs.microsoft.com/pt-pt/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016).
 
@@ -70,8 +72,6 @@ Confirma que una de las siguientes aplicaciones de software está instalada en e
 
 - Microsoft SQL Server 2012 (edición de 64 bits) y se recomienda la ejecución con el último service pack. Para obtener información detallada acerca de cómo instalar Microsoft SQL Server 2012, vea [instalar SQL Server 2012](https://go.microsoft.com/fwlink/p/?LinkID=248559).
 
-- Microsoft SQL Server 2008 R2 (64-bit edition) y se recomienda la ejecución con el último service pack. Para obtener información detallada acerca de cómo instalar Microsoft SQL Server 2008 R2, vea [Instalación de SQL Server (SQL Server 2008 R2)](https://go.microsoft.com/fwlink/p/?LinkId=275702). 
-    
 ## <a name="persistent-chat-server-certificate-requirements"></a>Requisitos de certificado de servidor de Chat persistentes
 
 Para obtener información detallada sobre cómo adquirir certificados, crear la base de datos de SQL Server y crear almacenes de archivos, vea [Implementar Skype para Business Server 2015](../../deploy/deploy.md). 
@@ -80,8 +80,8 @@ Para obtener información detallada sobre cómo adquirir certificados, crear la 
 
 Para obtener más información sobre los requisitos de hardware y software, mira los siguientes temas:
   
-- [Requisitos del servidor para Skype Empresarial Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+- [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
     
-- [Requisitos del entorno para Skype Empresarial Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)
+- [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)
     
 
