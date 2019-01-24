@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Obtenga información sobre el análisis de llamadas y, a continuación, llame al panel de calidad y cuándo usarlos para supervisar y solucionar los problemas de calidad de la llamada.
-ms.openlocfilehash: 8d41e051a7f55c24c3388e707648970bb1ab64df
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a212afea9f8d5010fa68af66ce72b39280a7d11c
+ms.sourcegitcommit: 09fcd68e30e7f83110f98172382c74f970b339a7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013550"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "29442440"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Análisis de llamada y el panel de calidad de llamada
 
@@ -43,7 +43,7 @@ Microsoft Teams y Skype para la empresa le ofrecen dos maneras para supervisar y
 
 Análisis de la llamada muestran información detallada acerca de los dispositivos, redes y conectividad relacionadas con las llamadas específicas y las reuniones para cada usuario en un Microsoft Teams o Skype para la cuenta de empresa. Si usted es un administrador de Office 365, puede usar llamar análisis para solucionar problemas de conexión y la calidad de llamada en Microsoft Teams y Skype para la empresa.
 
-Para ver esta información para un usuario en el Microsoft Teams y Skype para el centro de administración de negocio, haga clic en la ficha **Historial de llamadas** para ese usuario en la página de detalles del usuario, que muestra todas las llamadas y las reuniones que el usuario ha participado en para los últimos 30 días.
+Para ver esta información para un usuario en el & Teams Microsoft Skype para el centro de administración de negocio, haga clic en la ficha **Historial de llamadas** para ese usuario en la página de detalles del usuario, que muestra todas las llamadas y las reuniones que el usuario ha participado en para los últimos 30 días.
 
 ![Llame al análisis de datos de usuario.](media/call-analytics-user-data.png)
 
@@ -51,14 +51,19 @@ Para obtener información adicional acerca de una sesión determinada, incluidos
 
 ![Llame al análisis de datos de sesión de usuario.](media/call-analytics-user-data-session.png)
 
-Si desea que no son de administrador, como agentes de departamento de soporte técnico de un proveedor externo, para usar el análisis de llamadas, puede asignar permisos para que pueden utilizar llamadas análisis pero no pueden obtener acceso el resto de la Skype para el centro de administración empresarial: 
+Si desea que no son de administrador, como agentes de departamento de soporte técnico de un proveedor externo, para usar el análisis de llamadas, puede asignar permisos para que pueden utilizar análisis de llamada, pero no puede acceder el resto de la & Teams Microsoft Skype para el centro de administración de negocio: 
   
-- **Los agentes del departamento de soporte técnico con permisos de nivel 1**: agentes vea un conjunto limitado de datos y la información de identificación personal (PII) en análisis de llamadas. Pueden solucionar problemas de las llamadas, pero problemas con las reuniones se entregan a un agente de nivel 2.
+- **Los agentes del departamento de soporte técnico con las comunicaciones admiten permisos especialista**: agentes vea un conjunto limitado de datos y la información de identificación personal (PII) en análisis de llamadas. Pueden solucionar problemas de las llamadas, pero problemas con las reuniones se entregan a un ingeniero de soporte técnico de comunicaciones.
     
-- **Los agentes del departamento de soporte técnico con permisos de nivel 2**: los agentes vea todos los datos disponibles en análisis de llamadas y solucionar problemas de llamadas y las reuniones. Tienen acceso completo para llamar a los registros y la información del cliente.
+- **Los agentes del departamento de soporte técnico con las comunicaciones admiten permisos de ingeniería**: los agentes vea todos los datos disponibles en análisis de llamadas y solucionar problemas de llamadas y las reuniones. Tienen acceso completo para llamar a los registros y la información del cliente.
+
+> [!NOTE]
+> La función de especialista en soporte técnico de communications es equivalente a soporte técnico de nivel 1 y la función de ingeniero de soporte técnico de comunicaciones es equivalente a soporte técnico de nivel 2.
+
+Para obtener más información acerca de las comunicaciones especialista en soporte técnico y comunicaciones admite ingeniero de roles, consulte [roles de administrador de equipos de uso de Microsoft para administrar los equipos](using-admin-roles.md).
 
 > [!IMPORTANT]
-> Permisos de agente de departamento de soporte técnico y la carga de la topología de red estará disponibles en el nuevo portal de administración en los próximos meses. Mientras tanto, puede seguir usando https://adminportal.services.skypeforbusiness.com para el acceso de departamento de soporte técnico de nivel 1 y nivel 2.
+> Permisos de agente de departamento de soporte técnico y la carga de la topología de red están disponibles en la & Teams Microsoft Skype para el centro de administración de negocio. Especialistas en soporte técnico de comunicaciones y los ingenieros de soporte técnico de comunicaciones pueden usar este portal para obtener acceso a análisis de llamadas y el panel de calidad de llamadas.
     
 Para obtener información detallada sobre la configuración de análisis de llamadas, vea [Set up Skype para llamadas de Business Analytics](set-up-call-analytics.md). Para obtener más información acerca de cómo los agentes del departamento de soporte técnico puede trabajar con análisis de llamadas, vea [Uso de llamadas de análisis para solucionar problemas de calidad de la llamada deficiente](use-call-analytics-to-troubleshoot-poor-call-quality.md).
   
@@ -74,11 +79,14 @@ Quizá la calidad de llamadas deficientes de Tomás es debido a un problema de r
   
 Para obtener más información, vea [características del panel de calidad de llamada de Skype para profesionales en línea](turning-on-and-using-call-quality-dashboard.md#BKMKFeaturesOfTheCQD).
   
-Análisis de la llamada y CQD ejecutarán en paralelo y pueden usarse independientemente o juntos. Por ejemplo, supongamos que un agente de nivel 1 determina que necesitan más ayuda para solucionar un problema de la llamada. El agente de nivel 1, pasa la llamada a un agente de nivel 2, que tiene acceso para obtener más información de análisis de llamadas que el agente de nivel 1. A su vez, el agente de nivel 2 puede alertar a un ingeniero de red a un problema. El ingeniero de red puede comprobar CQD para ver si un problema relacionado con el sitio global podría ser un colaborador causa de los problemas de la llamada.
+Análisis de la llamada y CQD ejecutarán en paralelo y pueden usarse independientemente o juntos. Por ejemplo, una especialista en soporte técnico determina que necesitan más ayuda para solucionar un problema de llamada de las comunicaciones. El especialista en soporte técnico de comunicaciones pasa la llamada a un ingeniero de soporte de comunicaciones, quién tiene acceso a más información en análisis de llamadas de la especialista en soporte de las comunicaciones. A su vez, el ingeniero de soporte de comunicaciones puede alertar a un ingeniero de red a un problema. El ingeniero de red podría comprobar CQD para ver si un problema relacionado con el sitio global podría ser un colaborador causa de los problemas de la llamada.
   
 Para obtener más información sobre CQD, vea [activar y con el panel de calidad de llamadas para los equipos de Microsoft y Skype para profesionales en línea](turning-on-and-using-call-quality-dashboard.md) y [las dimensiones y medidas disponibles en el panel de calidad de llamadas para los equipos de Microsoft y Skype para profesionales en línea de](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 ## <a name="related-topics"></a>Temas relacionados
+
 [Configurar el análisis de llamadas](set-up-call-analytics.md)
 
 [Usar Análisis de llamadas para solucionar problemas de mala calidad de llamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+
+[Activar y con el panel de calidad de llamadas para Microsoft Teams y Skype para profesionales en línea](turning-on-and-using-call-quality-dashboard.md)

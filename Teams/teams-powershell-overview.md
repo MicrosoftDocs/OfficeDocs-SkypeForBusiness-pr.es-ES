@@ -1,5 +1,5 @@
 ---
-title: Información general de PowerShell de los equipos
+title: Descripción de PowerShell para Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -9,20 +9,24 @@ ms.service: msteams
 description: Aprenda a usar los controles de PowerShell para administrar Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a898a4eca8d96ef2da44f17695472301d6332724
-ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
+ms.openlocfilehash: 477aa468cf057bd5f1a042acd5aff9772e8244f0
+ms.sourcegitcommit: 09fcd68e30e7f83110f98172382c74f970b339a7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26625754"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "29442432"
 ---
-# <a name="teams-powershell-overview"></a>Información general de PowerShell de los equipos
+# <a name="teams-powershell-overview"></a>Descripción de PowerShell para Teams
 
-Microsoft Teams tiene un amplio conjunto de herramientas para los administradores de TI a administrar el producto a través de la Microsoft Teams & Skype para el centro de administración de negocio, los controles de PowerShell y las API de gráfico. Esta guía explica cómo se estructura nuestros cmdlets de PowerShell para los administradores de TI a utilizar y proporciona punteros a la documentación adicional. Tenga en cuenta que distintas funciones de administración de los equipos tienen acceso a los cmdlets de diferentes. Para obtener más información, vea [roles de administrador de equipos de uso de Microsoft para administrar los equipos](using-admin-roles.md).
+Microsoft Teams tiene un amplio conjunto de herramientas para los administradores de TI a administrar el producto a través de la & Teams Microsoft Skype para el centro de administración de negocio, los controles de PowerShell y las API de gráfico. Esta guía explica cómo se estructura nuestros cmdlets de PowerShell para los administradores de TI a utilizar y proporciona punteros a la documentación adicional. Tenga en cuenta que distintas funciones de administración de los equipos tienen acceso a los cmdlets de diferentes. Para obtener más información, vea [roles de administrador de equipos de uso de Microsoft para administrar los equipos](using-admin-roles.md).
 
 ## <a name="which-modules-do-you-need-to-use"></a>¿Qué módulos necesita usar?
 
-Los controles de PowerShell para administrar Microsoft Teams están en dos módulos diferentes de PowerShell: el [módulo de PowerShell de los equipos de Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.5) (vista previa pública) y la [Skype para el módulo de PowerShell de negocio](https://www.microsoft.com/en-us/download/details.aspx?id=39366). El módulo de PowerShell de equipos contiene todos los cmdlets que se necesita para crear y administrar los equipos de sí mismos, mientras que el Skype para el módulo de PowerShell de negocio contiene los controles de administración de directivas, las configuraciones y otras herramientas de los equipos. Los documentos de referencia para los controles de PowerShell le indicará qué módulo contiene el cmdlet que va a investigar. (Al final, los dos módulos se combinarán.)
+Los controles de PowerShell para la administración de los equipos se encuentran en dos módulos diferentes de PowerShell: 
+- [Módulo de PowerShell de los equipos de Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.5) (vista previa pública): módulo de PowerShell de los equipos contiene todos los cmdlets que necesita para crear y administrar los equipos.  
+- [Skype para el módulo de PowerShell empresarial](https://www.microsoft.com/en-us/download/details.aspx?id=39366): el Skype para el módulo de PowerShell de negocio contiene los cmdlets para administrar las directivas, las configuraciones y otras herramientas de los equipos. 
+
+La documentación de referencia para los controles de PowerShell le indicará qué módulo contiene el cmdlet que va a investigar. (Al final, los dos módulos se combinarán.)
 
 ## <a name="what-can-each-admin-role-do"></a>¿Qué puede hacer con cada rol de administrador?
 
@@ -71,7 +75,7 @@ Los cmdlets para la administración de la configuración se encuentran en el [Sk
 
 Las configuraciones son depósitos de configuración que se mantienen en el servicio que no se puede especificar un nivel de usuario. Configuración siempre se aplica en toda la organización. La configuración global es la configuración sólo eficaz en la organización. Cada tipo de configuración se suministra con dos cmdlets principales:
 
-- ``Get-Cs<ConfigurationName>``(por ejemplo, ``Get-CsTeamsClientConfiguration``): 
+- Por ejemplo:``Get-Cs<ConfigurationName>``. 
 
 - CONJUNTO de comandos (por ejemplo, ``Set-CsTeamsClientConfiguration``): establecer las propiedades de la configuración de ese tipo. Especificar los parámetros que desea modificar.
    > Puede hacer referencia a la configuración que está modificando en una de estas dos formas: especificando -**Identity Global**, o bien ejecutando ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>``.

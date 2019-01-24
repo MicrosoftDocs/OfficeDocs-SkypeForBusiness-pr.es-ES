@@ -23,74 +23,71 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Configurar y usar el análisis de llamada para identificar y solucionar problemas de Skype para profesionales y Microsoft Teams problemas de calidad de llamada.
-ms.openlocfilehash: 1e7c7eaa769ba1e08a46b539b15e673d35891f5c
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b2d6e6dc820e7cff7fa24858beb1de340704556e
+ms.sourcegitcommit: 09fcd68e30e7f83110f98172382c74f970b339a7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016912"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "29442424"
 ---
 # <a name="set-up-call-analytics"></a>Configurar el análisis de llamadas
 
-Como un Skype para administración en línea de negocio, puede usar el análisis de llamadas para solucionar problemas de Skype para la empresa y Microsoft Teams llamar a problemas de calidad y de conexión. Es posible que encuentre útil para configurar las siguientes funciones en análisis de llamadas:
+Como un equipos o Skype para administración en línea de negocio, puede usar el análisis de llamadas para solucionar problemas de Skype para la empresa y Microsoft Teams llamar a problemas de calidad y de conexión. Es posible que encuentre útil para configurar las siguientes funciones en análisis de llamadas:
   
-- Establecer los permisos que permiten a otros personal, por ejemplo, los agentes del departamento de soporte técnico, use llamar análisis pero impedir que obtener acceso al resto de la Skype para el centro de administración de negocio. 
+- Establecer los permisos que permiten que a otros personal, por ejemplo, los agentes del departamento de soporte técnico, use llamar análisis, pero impedir que obtener acceso al resto de la & Teams Microsoft Skype para el centro de administración de negocio. 
     
 - Agregar información del inquilino, de sitio y de creación para llamar a análisis al cargar un archivo de datos .tsv o .csv.
     
-**Análisis de llamada está ahora disponible en el Microsoft Teams y Skype para el centro de administración de negocio.** Para ver toda la información de la llamada y los datos para un usuario, utilice la ficha **Historial de llamadas** . Para ello, puede buscar en la página de perfil del usuario buscando el usuario desde el panel o buscar el usuario de **los usuarios** en el panel de navegación izquierdo.
+**Análisis de llamada está ahora disponible en el Microsoft Teams y Skype para el centro de administración de negocio.** Para ver toda la información de llamada y los datos para un usuario, utilice la ficha **Historial de llamadas** . Para ello, ¿está buscando en la página de perfil del usuario, realice una de las siguientes opciones:
 
-> [!IMPORTANT]
-> Permisos de agente de departamento de soporte técnico y la carga de la topología de red estará disponibles en el nuevo portal de administración en los próximos meses. Mientras tanto, puede seguir usando https://adminportal.services.skypeforbusiness.com para el acceso de departamento de soporte técnico de nivel 1 y nivel 2.
+- Para el usuario desde el panel de búsqueda.
+  
+   ![Captura de pantalla de búsqueda de usuarios en el panel](media/set-up-call-analytics-image-1.png)
+
+-  Seleccione **los usuarios** en el panel de navegación izquierdo.
+
+   ![Captura de pantalla de exploración izquierda](media/set-up-call-analytics-image-2.png)
   
 ## <a name="set-call-analytics-permissions"></a>Establecer permisos de análisis de llamadas
 <a name="BKMK_SetCAPerms"></a>
 
-Como la administración, obtener acceso completo a todas las características de análisis de llamadas. Además, puede usar un modelo de departamento de soporte técnico en análisis de llamadas que incluye los grupos de permisos de nivel 1 y nivel 2. Los usuarios con permisos de nivel 1 pueden obtener acceso sólo una vista limitada del análisis de llamadas. Los usuarios con permisos de nivel 2 pueden tener acceso a la funcionalidad completa de análisis de llamadas. Ambos niveles de permisos impiden el acceso al resto de la Microsoft Teams y Skype para el centro de administración de negocio. Puede conceder acceso a los niveles mediante la adición de un grupo que contiene el usuario para el nivel 1 o la sección de nivel 2 de la página de permisos. Para obtener información detallada, vea [configurar permisos en niveles en el análisis de llamadas](set-up-call-analytics.md#BKMK_SetUpTier).
+Como la administración, obtener acceso completo a todas las características de análisis de llamadas. Además, puede asignar funciones de Azure Active Directory para el personal de soporte técnico. Asignar la función de especialista de soporte de comunicaciones de los equipos a los usuarios que deben tener una vista limitada del análisis de llamadas. Asigne la función de ingeniero de soporte de comunicaciones de los equipos a los usuarios que necesitan tener acceso a la funcionalidad completa de análisis de llamadas. Ambos niveles de permisos impiden el acceso al resto de la & Teams Microsoft Skype para el centro de administración de negocio.
+
+> [!NOTE]
+> La función de especialista en soporte técnico de communications es equivalente a soporte técnico de nivel 1 y la función de ingeniero de soporte técnico de comunicaciones es equivalente a soporte técnico de nivel 2.
+
+Para obtener más información acerca de las funciones de administración de equipos, vea [roles de administrador de equipos de uso de Microsoft para administrar los equipos](using-admin-roles.md). 
   
-Los agentes del departamento de soporte técnico de nivel 1 controlan problemas básicos de calidad de la llamada. Los agentes de nivel 1 no investigar problemas con reuniones; puedan recopilan información relacionada y, a continuación, pasar a un agente de nivel 2. Los agentes de nivel 2 ver información en el registro de llamadas detallada que está oculto de agentes de nivel 1. En la siguiente tabla proporciona una visión general de la información disponible a agentes mediante el análisis de llamadas.
+Especialistas en soporte técnico de comunicaciones controlan problemas básicos de calidad de la llamada. No investigar los problemas con las reuniones. En su lugar, puedan recopilan información relacionada y, a continuación, pasar a un ingeniero de soporte técnico de comunicaciones. Los ingenieros de soporte técnico de comunicaciones vea información en el registro de llamadas detallada que está oculta de communications especialistas en soporte técnico. En la siguiente tabla se proporciona una introducción a información disponible a ingenieros de soporte técnico comunicaciones y especialistas en soporte técnico de comunicaciones al usar análisis de llamadas.
 
-
-|**Actividad**|**Información de análisis de llamada**|**Lo que ve el agente de nivel 1**|**Lo que ve el agente de nivel 2**|
+|Actividad|**Información de análisis de llamada**|**¿Qué las comunicaciones admiten especialista verá**|**¿Qué las comunicaciones admiten ingeniero verá**|
 |:-----|:-----|:-----|:-----|
-|**Llamadas** <br/> |Nombre del autor de la llamada  <br/> |El nombre del usuario para el que desea buscar el agente.  <br/> |Nombre de usuario.  <br/> |
+|**Llamadas** <br/> |Nombre del autor de la llamada  <br/> |El nombre del usuario para el que desea buscar el agente.  <br/> |Nombre de usuario  <br/> |
 ||Nombre del destinatario  <br/> |Se muestra como usuario interno o externo.  <br/> |Nombre del destinatario.  <br/> |
 ||Número de teléfono del autor de la llamada  <br/> |Número de teléfono completo, excepto los últimos tres dígitos son confusos con los símbolos de asterisco. Por ejemplo, 15552823 ***.  <br/> |Número de teléfono completo, excepto los últimos tres dígitos son confusos con los símbolos de asterisco. Por ejemplo, 15552823 ***.  <br/> |
 ||Número de teléfono del destinatario  <br/> |Número de teléfono completo, excepto los últimos tres dígitos son confusos con los símbolos de asterisco. Por ejemplo, 15552823 ***.  <br/> |Número de teléfono completo, excepto los últimos tres dígitos son confusos con los símbolos de asterisco. Por ejemplo, 15552823 ***.  <br/> |
 ||**Detalles de llamadas** > ficha**Opciones avanzadas** <br/> |Información que no se muestra.  <br/> |Todos los detalles que se muestran, como los nombres de dispositivo, dirección IP, asignación de subred y mucho más.  <br/> |
 ||**Detalles de llamadas** > **Avanzadas** > ficha**Depurar** <br/> |Información que no se muestra.  <br/> |Todos los detalles que se muestran como sufijo DNS y SSID.  <br/> |
-|**Reuniones.** <br/> |Nombres de los participantes  <br/> |El nombre del usuario para el que desea buscar el agente. Demás participantes identificados como usuario interno o externo.  <br/> |Todos los nombres que se muestran.  <br/> |
+|Reuniones <br/> |Nombres de los participantes  <br/> |El nombre del usuario para el que desea buscar el agente. Demás participantes identificados como usuario interno o externo.  <br/> |Todos los nombres que se muestran.  <br/> |
 ||Recuento de participantes  <br/> |Número de participantes.  <br/> |Número de participantes.  <br/> |
 ||Detalles de la sesión  <br/> |Detalles de la sesión se muestra con excepciones. Se muestra sólo el nombre del usuario para el que desea buscar el agente. Demás participantes identificados como usuario interno o externo. Los últimos tres dígitos del número de teléfono confusos con los símbolos de asterisco.  <br/> |Detalles de la sesión que se muestra. Los nombres de usuario y se muestra detalles de la sesión. Los últimos tres dígitos del número de teléfono confusos con los símbolos de asterisco.  <br/> |
+||||
    
- **Configurar permisos en niveles de análisis de llamadas de** 
- <a name="BKMK_SetUpTier"> </a>
+ ### <a name="set-up-permissions-by-assigning-admin-roles"></a>Configurar los permisos mediante la asignación de roles de administrador
+<a name="BKMK_SetUpTier"> </a>
 
-![logotipo-sfb-30x30.png](media/sfb-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
-  
-1. Creación de grupos de seguridad de Office 365 para nivel 1 y nivel 2, y agregue las personas que desee a cada grupo. También puede volver a usar los grupos de seguridad existentes. Para obtener más información, vea [crear, editar o eliminar un grupo de seguridad en el centro de administración de Office 365](https://support.office.com/article/55c96b32-e086-4c9e-948b-a018b44510cb).
-    
-2. En el centro de administración de Office 365, vaya a **centros de administración** > **Skype para la empresa**.
+Para obtener información sobre cómo asignar funciones administrativas en Azure Active Directory, vea [Ver y asignar funciones en Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-manage-roles-portal).
 
-    > [!NOTE]
-    > Si se encuentra en los **equipos de Microsoft y Skype para el centro de administración de negocio**, en el panel de navegación izquierdo, haga clic en **portal heredado**.
-  
-3. Seleccione **Herramientas** > **Skype para llamar a los análisis empresarial (vista previa)** > de**configuración**y, a continuación, haga clic en **permisos**.
-    
-4. Agregue los grupos de seguridad de Office 365 a los cuadros de **nivel 1** y **nivel 2** . Puede agregar varios grupos a cada rol.
-    
-     ![Captura de pantalla muestra la página permisos para llamar a análisis con las opciones de permisos de nivel 1 y nivel 2.](media/setup-call-analytics-image1.png)
-  
- Obtienen los usuarios con cualquiera de estos niveles de permisos para llamar a análisis a través de la dirección URL dedicada *https://adminportal.services.skypeforbusiness.com*.
-  
 ## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>Cargue un archivo .tsv o .csv para agregar la creación de sitios y la información de inquilinos
 <a name="BKMK_UploadFiles"> </a>
 
 Puede agregar información del inquilino, de sitio y de creación para análisis de llamar a cargar un archivo .csv o .tsv. Con toda esta información, llame al análisis puede asignar direcciones IP a ubicaciones físicas. Usted o departamento de soporte técnico los agentes pueden encontrar esta información útil para ayudar a las tendencias de manchas de color en problemas de llamada. Por ejemplo, ¿por qué son similares de muchos usuarios en el mismo edificio tener llamar a problemas de calidad? 
-  
-![Captura de pantalla muestra la página de sitios con los valores de número de sitios y el número de subredes y el botón Seleccionar archivo para importar datos del sitio mediante la carga de un .tsv o un archivo .csv.](media/b2f3a5cb-32b5-4f60-a9af-0691aa6ff1e8.png)
-  
-Si usted es un Skype para administración empresarial, puede usar un archivo de datos existente desde el Skype para profesionales Online panel calidad de llamadas. En primer lugar, descargue el archivo desde el panel de calidad de llamadas y, a continuación, cárguela en análisis de llamadas. Para descargar un archivo de datos existente, vaya a la **Skype para el centro de administración de negocio de** > **Herramientas** > **Skype para profesionales Online panel calidad de llamadas** > **Cargar ahora**. En la lista **Mis cargas** , haga clic en **Descargar** junto al archivo que desee.
+
+Si es un equipos y Skype para administración empresarial, puede usar un archivo de datos existente desde el & los equipos Skype para Business Dashboard de calidad de llamadas. En primer lugar, descargue el archivo desde el panel de calidad de llamadas y, a continuación, cárguela en análisis de llamadas. 
+
+- Para descargar un archivo de datos existente, vaya a **& de equipos de Microsoft Skype para el centro de administración de negocio** > **Panel de calidad de llamada** > **Cargar ahora**. En la lista **Mis cargas** , haga clic en **Descargar** junto al archivo que desee.
+
+- Para cargar el nuevo archivo, vaya a **& de equipos de Microsoft Skype para el centro de administración de negocio** > **ubicaciones**y, a continuación, seleccione **cargar datos de ubicación** o **reemplazar los datos de ubicación**.
   
 Si está creando el archivo .tsv o .csv desde el principio, vea [formato y estructura de archivos de datos de creación de archivos de datos de inquilinos](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataFile).
   
