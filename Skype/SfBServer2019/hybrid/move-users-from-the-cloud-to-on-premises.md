@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: Obtenga información sobre cómo mover usuarios de Skype para empresarial en línea para local.
-ms.openlocfilehash: fadb3a485cac691a97f0786aea78000b6b48c344
-ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
+ms.openlocfilehash: 7032e7f2968b7861a7fac199fd8ba949980fe770
+ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "27247731"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "29530946"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>Mover usuarios de la nube para local 
 
@@ -35,7 +35,7 @@ Si es necesario, puede mover un usuario que se migró anteriormente desde local 
 Una vez que mover un usuario de la nube volver a local:
 
 - El usuario interactúa con su Skype para la implementación de servidor empresarial para su funcionalidad. 
-- Todos los contactos que se encontraba en Skype para profesionales en línea que se migran a Skype para Business Server. Actualmente, los contactos que se encuentran en los equipos no se migran a local.
+- Todos los contactos que existían en ambos Skype para profesionales en línea o equipos se migran a Skype para Business Server. Los dos conjuntos de contactos están combinados y, a continuación, volver a migrar a local.  Además, los contactos que están ya existentes en los equipos permanecen en los equipos.
 - Si el usuario utiliza también los equipos, no tendrá la capacidad para interoperar con Skype para usuarios profesionales ni podrán comunicarse con los usuarios de organizaciones federadas.
 - Reuniones en Skype para profesionales en línea son *no* automáticamente volver a migrar a local. Los usuarios deben cualquiera volver a programar sus reuniones o, si lo desea, use la [Herramienta de migración de la reunión](https://support.office.com/en-us/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4).
 
@@ -82,4 +82,4 @@ Como alternativa, para asignar otra instancia de TeamsUpgradePolicy que no tiene
 
 ## <a name="see-also"></a>Vea también
 
-[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
+Move-CsUser
