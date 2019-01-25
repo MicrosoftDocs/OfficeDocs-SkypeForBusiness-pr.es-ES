@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 957d1d3b708d0d35c2743b9382af3ad12aba6632
-ms.sourcegitcommit: 38f225d59929a08923e801f334fea7b3d28f537d
+ms.openlocfilehash: f50a41333956458b3db36a13b9133c1cabcc163d
+ms.sourcegitcommit: ee8996ce081039f61c070f5b0b3fd6294ea4a5f5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "29454579"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "29561994"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 =============================================
@@ -31,8 +31,8 @@ En este artículo se describe algunos de los límites, especificaciones y otros 
 |Característica    | Límite máximo |
 |-----------|---------------|
 |Número de equipos, que puede crear un usuario | Sujeto a un limit&sup1 250 objeto;         |
-|Número de miembros de un equipo | 2.500 $       |
-|Número de miembros de un [equipo de toda la organización](create-an-org-wide-team.md) | 2.500 $       |
+|Número de miembros de un equipo | 2.500       |
+|Número de miembros de un [equipo de toda la organización](create-an-org-wide-team.md) | 2.500       |
 |Número de equipos, que puede crear un administrador global        |  500.000   |
 |Número de equipos que puede tener un inquilino de Office 365    | 500.000     |
 |Número de canales por equipo    | 200 (incluye canales eliminados)         |
@@ -45,15 +45,12 @@ En este artículo se describe algunos de los límites, especificaciones y otros 
 |Característica     | Límite máximo |
 |------------|---------------|
 |Número de personas en una reunión  | 250    |
-|Número de personas en un chat privado  | 50%    |
+|Número de personas en un chat privado  | 50    |
 
-> [!IMPORTANT]
-> Los trabajadores de Quiosco no tendrán la capacidad de programar reuniones de los equipos, como de forma predeterminada, AllowChannelMeetingScheduling y AllowPrivateMeetingScheduling no se incluyen con aprovisionamiento en banda con respecto a la TeamsMeetingPolicy. Esto sólo se aplica a los trabajadores de quiosco. 
-
-<a name="storage"></a>Almacenamiento de 
+<a name="storage"></a>Almacenamiento de información
 -------
 
-Cada equipo en Microsoft Teams tiene un sitio de grupo en SharePoint Online, y cada canal en un equipo obtiene una carpeta dentro de la biblioteca de documentos del sitio de equipo de forma predeterminada. Archivos compartidos dentro de una conversación se agregan automáticamente a la biblioteca de documentos, y los permisos y las opciones de seguridad de archivo definido en SharePoint se reflejan automáticamente en los equipos.
+Cada equipo de Microsoft Teams tiene un sitio de grupo en SharePoint Online y cada canal de un equipo tiene una carpeta dentro de la biblioteca de documentos del sitio de grupo predeterminado. Los archivos compartidos en un chat se agregan automáticamente a la biblioteca de documentos y los permisos y opciones de seguridad configurados en SharePonit se reflejan automáticamente en Microsoft Teams.
 
 Si no tiene habilitado en el inquilino de SharePoint Online, los usuarios de Microsoft Teams siempre no pueden compartir archivos en los equipos. Los usuarios de chat privado también no pueden compartir archivos porque es necesario para que la funcionalidad OneDrive para la empresa (que está asociado a la licencia de SharePoint).
 
@@ -63,7 +60,7 @@ Dado que los equipos se ejecuta en un back-end de SharePoint Online para uso com
 
 |Característica                 |Office 365 Business Essentials  |Office 365 Business Premium   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
-|Almacenamiento de                  |1 TB por organización más de 10 GB por cada licencia adquirida  |1 TB por organización más de 10 GB por cada licencia adquirida  |1 TB por organización más de 10 GB por cada licencia adquirida   |1 TB por organización más de 10 GB por cada licencia adquirida |1 TB por organización más de 10 GB por cada licencia adquirida  |1 TB por organización           |
+|Almacenamiento de información                 |1 TB por organización más de 10 GB por cada licencia adquirida  |1 TB por organización más de 10 GB por cada licencia adquirida  |1 TB por organización más de 10 GB por cada licencia adquirida   |1 TB por organización más de 10 GB por cada licencia adquirida |1 TB por organización más de 10 GB por cada licencia adquirida  |1 TB por organización           |
 |Almacenamiento de información para los archivos de los equipos |Hasta 25 TB por colección de sitios o de grupo |Hasta 25 TB por colección de sitios o de grupo |Hasta 25 TB por colección de sitios o de grupo |Hasta 25 TB por colección de sitios o de grupo |Hasta 25 TB por colección de sitios o de grupo |Hasta 25 TB por colección de sitios o de grupo |
 |Límite de carga de archivo       |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 
@@ -82,7 +79,7 @@ Función de chat de Microsoft Teams funciona en un back-end de Microsoft Exchang
 |---------|---------|---------|---------|---------|
 |Límite de tamaño de mensaje&dagger;  |25 KB   |25 KB   |25 KB   |25 KB   |
 |Límite de datos adjuntos del archivo&Dagger;  | 10     | 10     | 10     | 10    |
-|Límite de imágenes en línea&Dagger; |50%   |50%   |50%   |50%   |
+|Límite de imágenes en línea&Dagger; |50   |50   |50   |50   |
 
 &dagger;Si el mensaje supera este límite, se genera una vista previa del mensaje y se pregunta al usuario a la vista y descarga el correo electrónico original desde el vínculo proporcionado.
 
