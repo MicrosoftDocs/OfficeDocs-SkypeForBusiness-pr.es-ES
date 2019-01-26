@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Vídeos de aprendizaje, tutoriales y otros recursos para los administradores acerca de cómo planear, implementación y ejecutan Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8f83869d715c01f678e112eb9170013f2f1b956
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: 8ed98c1d26d6116d95e91030f57e92af9ebae61e
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201344"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562600"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 
@@ -146,6 +146,9 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
                     <div class="cardText">
                         <h3>Trabajo en equipo</h3>
                          <p><a href="https://aka.ms/edx-cld267x-about">Curso: Habilitar el trabajo en equipo con los equipos de Microsoft</a></p>
+                         <p><a href="https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b">Vídeo: Obtener el equipo de funcionamiento</a></p>
+                         <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">Vídeo: Ir a guía para los propietarios de equipo</a></p>
+                         <p><a href="create-an-org-wide-team.md">Artículo: Crear un equipo de toda la organización en los equipos</a></p>
                     </div>
                 </div>
             </div>
@@ -166,7 +169,7 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Planear e implementar</h3>
+                        <h3>Implementar el plan de &</h3>
                          <p><a href="quick-start-enable-teams.md">Inicio rápido: Guía de planificación de Microsoft Teams</a></p>
                          <p><a href="http://aka.ms/teams-clients">Vídeo: Cliente de escritorio de Windows de los equipos</a></p>
                          <p><a href="http://aka.ms/teams-governance">Vídeo: Gobierno, administración y ciclo de vida en Microsoft Teams</a></p>
@@ -191,10 +194,9 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Equipos y canales</h3>
-                         <p><a href="https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b">Vídeo: Obtener el equipo de funcionamiento</a></p>
-                         <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">Vídeo: Ir a guía para los propietarios de equipo</a></p>
-                         <p><a href="create-an-org-wide-team.md">Artículo: Crear un equipo de toda la organización en los equipos</a></p>
+                        <h3>Calidad de la llamada & a redes</h3>
+                         <p><a href="https://aka.ms/teams-quality">Vídeo: Información general de la calidad de llamada</a></p>
+                         <p><a href="https://aka.ms/teams-networking">Vídeo: Planeación de red</a></p>
                     </div>
                 </div>
             </div>
@@ -228,7 +230,7 @@ Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener infor
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Herramientas y aplicaciones</h3>
+                        <h3>Herramientas de & de aplicaciones</h3>
                         <p><a href="https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3">Vídeo: Agregar herramientas con fichas</a></p>
                         <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">Vídeo: Utilizar el cuadro de comando</a></p>
                         <p><a href="https://www.youtube.com/watch?v=wYrRCRphrp0">Vídeo: Información general de la barra de comandos</a></p>
