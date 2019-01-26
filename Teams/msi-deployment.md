@@ -1,5 +1,5 @@
 ---
-title: Instalar Microsoft Teams con MSI
+title: Instalar Teams Microsoft con MSI a través de SCCM
 author: Lester-Hewett
 ms.author: lehewe
 manager: serdars
@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4983f8089a5d221a29f67ae25dfa6766751a7394
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: ad0564d491302ae6b934cca1ae8501329951d9fd
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530593"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562592"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Instalar Microsoft Teams con MSI
 =================================

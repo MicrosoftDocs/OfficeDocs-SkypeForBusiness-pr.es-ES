@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8336c3a8899e7719ae8ff50bb2bcdb9c6565c438
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: be2e95d7be359856d5aef4f67664ef27ee62fa74
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531063"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562616"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gestionar acceso de los usuarios a Microsoft Teams
 =====================================
@@ -46,6 +46,9 @@ Una licencia de usuario de los equipos se puede deshabilitar en cualquier moment
 ![Captura de pantalla de la sección Licencias de productos en el Centro de administración de Office 365, donde se ve Microsoft Teams seleccionado.](media/Manage_user_access_to_Microsoft_Teams_image4.png)
 
 ## <a name="manage-via-powershell"></a>Administrar a través de PowerShell
+
+> [!IMPORTANT]
+> Nuevo MsolLicenseOptions permitirá a todos los servicios que estaban deshabilitados a menos que explictitly identitied en la secuencia de comandos personalizada. Por ejemplo, si deseara deje ambos & Exchange balanceo deshabilitado mientras además deshabilitar los equipos, necesitará incluya esto en la secuencia de comandos o ambos & Exchange balanceo se habilitará para aquellos usuarios que ha identificado. Si desea utilizar una interfaz gráfica de usuario para administrar esta funcionalidad, vea: [informes de licencia de Office 365 y la herramienta de administración-asignar licencias de quitar de forma masiva](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)
 
 Para habilitar y deshabilitar Teams como licencia de carga de trabajo mediante PowerShell se sigue el mismo procedimiento que con cualquier otra carga de trabajo. El nombre del plan de servicio es TEAMS1 para Microsoft Teams. Para organizaciones de gobierno, el nombre del plan de servicio es TEAMS_GOV. (Consulte [Deshabilitar el acceso a los servicios con Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) para obtener más información).
 

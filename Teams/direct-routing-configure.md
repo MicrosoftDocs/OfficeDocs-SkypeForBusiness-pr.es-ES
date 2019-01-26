@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Obtenga información sobre cómo configurar el enrutamiento directo de Microsoft teléfono del sistema.
-ms.openlocfilehash: f89cae3569d5faf09e511439740485b40d91880e
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: 565d25566843a507cb875eb96f32531d2ee77caf
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729447"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562826"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -57,7 +57,7 @@ Puede usar una sesión de PowerShell conectado a los inquilinos para emparejar l
 Después de establecer una sesión remota de PowerShell, compruebe que puede ver los comandos para administrar la SBC. Para validar los comandos, escriba o copiar y pegar en las siguientes opciones en la sesión de PowerShell y presione ENTRAR: 
 
 ```
-gcm *onlinePSTNGateway*
+Get-Command *onlinePSTNGateway*
 ```
 
 El comando devolverá las cuatro funciones que se muestra aquí que le permiten administrar el SBC. 

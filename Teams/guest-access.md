@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b77af005130a4e3783f69c908184a8e19b44a9c5
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: f15aeaec8ed894cf25e72c8494aed3ae36070992
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772796"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562624"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acceso de invitado a Microsoft Teams
 ======================================
@@ -44,7 +44,7 @@ El acceso de invitado es una configuración a nivel de inquilino de Microsoft Te
 
 ## <a name="who-is-a-guest"></a>¿Quién es un invitado?
 
-Un invitado es un usuario que no es empleado, estudiante ni es un miembro de su organización. Tampoco tiene una cuenta profesional o educativa con su organización. Por ejemplo, los invitados pueden incluir socios, proveedores o consultores. Cualquier persona que no forma parte de la organización puede agregarse como invitado en los equipos. Esto significa que cualquier persona con una cuenta de empresa (es decir, una cuenta de Azure Active Directory) o la cuenta de correo electrónico del consumidor (con Outlook.com, Gmail.com u otras) puede participar como invitado en los equipos, con acceso completo a los equipos y las experiencias de canal. (Puede leer acerca de las restricciones de invitado en [autorizar el acceso de invitado en los equipos de Microsoft](teams-dependencies.md)). Todos los invitados en los equipos están cubiertos por la misma cumplimiento y la auditoría protección como el resto de Office 365 y se pueden administrar de forma segura dentro de Azure AD. 
+Un invitado es un usuario que no es empleado, estudiante ni es un miembro de su organización. Tampoco tiene una cuenta profesional o educativa con su organización. Por ejemplo, los invitados pueden incluir socios, proveedores o consultores. Cualquier persona que no forma parte de la organización puede agregarse como invitado en los equipos. Esto significa que cualquier persona con una cuenta de empresa (es decir, una cuenta de Azure Active Directory) o la cuenta de correo electrónico del consumidor (con Outlook.com, Gmail.com u otras) puede participar como invitado en los equipos, con acceso completo a los equipos y las experiencias de canal. (Puede leer acerca de las restricciones de invitado en [autorizar el acceso de invitado en los equipos de Microsoft](teams-dependencies.md)). Todos los invitados en los equipos están cubiertos por la misma cumplimiento y la auditoría protección como el resto de Office 365 y se pueden administrar de forma segura dentro de Azure AD.
 
 ## <a name="why-use-guest-access"></a>¿Por qué usar acceso como invitado?
       

@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0ee02c2d8b8303bb353c2ebf1e30a72cc0e4f17
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 9b455d7599f5de8e2eb76f560e593eb5e409ecae
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349392"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562802"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa")
 
@@ -165,7 +165,7 @@ Las actualizaciones de los equipos se implementan automáticamente a los usuario
 
 ### <a name="monitoring-for-change"></a>Supervisión de cambio
 
-El primer paso para la administración de cambios está supervisando los cambios que se ha planeado para los equipos. La mejor fuente para la supervisión de estos cambios es la [Guía básica de Office 365](https://products.office.com/business/office-365-roadmap), que se enumeran las características que están actualmente en desarrollo, que se implantan a los clientes, o se han iniciado completamente. Puede buscar para características específicas de los equipos mediante el filtro proporcionado, o puede descargar la guía básica para un archivo de Excel para su análisis posterior. Para cada característica, la guía ofrece una descripción breve, junto con la fecha de lanzamiento anticipado.
+El primer paso para la administración de cambios está supervisando los cambios que se ha planeado para los equipos. La mejor fuente para la supervisión de estos cambios es la [Guía básica de 365 de Microsoft](https://www.microsoft.com/microsoft-365/roadmap), que se enumeran las características que están actualmente en desarrollo, que se implantan a los clientes, o se han iniciado completamente. Puede buscar para características específicas de los equipos mediante el filtro proporcionado, o puede descargar la guía básica para un archivo de Excel para su análisis posterior. Para cada característica, la guía ofrece una descripción breve, junto con la fecha de lanzamiento anticipado.
 
 En el [blog de equipos de Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog), puede obtener información sobre procedimientos recomendados, las tendencias y noticias sobre las actualizaciones de los equipos del producto. Esperar buscar actualizaciones características principales de los equipos se anuncian aquí. También puede suscribirse al blog de a través de una fuente RSS. A continuación, puede agregar [la fuente RSS](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog) directamente en un canal de los equipos, por lo que todas las noticias importantes se entregan directamente dentro de los equipos.
 

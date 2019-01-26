@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66a5a75d31b06976cd59d40f189fc87bf96c316e
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: ac7466df9000eba2ea2689c717a2012fd252e150
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29348909"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562608"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa")
 
@@ -51,5 +51,6 @@ El ciclo de vida de cualquier tecnología de determinado ha cambiado a un ciclo 
 
 - Supervisar la [Guía básica](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)de los equipos.
 - Implementar un cambio en la planeación de formulario (como se muestra a continuación) para preparar e implementar la nueva funcionalidad. No olvide incluir las actividades de preparación técnico y de usuario.
+
 
 ![Ejemplo de formulario que muestra las fechas de lanzamiento esperado y notas acerca de la nueva funcionalidad, incluidos con los siguientes pasos y los propietarios de] (media/upgrade-change-plan-form.png "Ejemplo de formulario que muestra las fechas de lanzamiento esperado y notas acerca de la nueva funcionalidad, incluidos con los siguientes pasos y los propietarios de")

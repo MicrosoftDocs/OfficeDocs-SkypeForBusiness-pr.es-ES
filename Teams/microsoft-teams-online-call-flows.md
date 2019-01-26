@@ -13,21 +13,24 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Describe cómo utiliza la carga de trabajo de los equipos flujos de Office 365 en varias topologías.
-ms.openlocfilehash: 7bb107d58290798a2f075f4c789b788c6b5080f2
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 455e90d05a26ce387f916f531991ccaf664860d2
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013622"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562810"
 ---
 # <a name="microsoft-teams-online-call-flows"></a>Flujos de llamadas de los equipos de Microsoft Online
+
+> [!Tip]
+> Vea la sesión siguiente para obtener más información cómo los equipos aprovecha la red y cómo planear mejor para la conectividad de red óptima: [Planeación de los equipos de red](https://aka.ms/teams-networking)
 
 ## <a name="overview"></a>Información general
 Este documento describe cómo utiliza la carga de trabajo de los equipos flujos de Office 365 en varias topologías. Además, especifica únicos flujos de los equipos que se usan para la comunicación de punto a punto medio. El documento enumera estos flujos y describe su propósito y sus redes de origen y terminación. Por ejemplo, flujo de X se usa en Office 365 cliente local para comunicarse con el servicio Office 365 en la nube, se originó en la red del cliente y finalizadas por un extremo en nube de Office 365, y flujo Y se usa en Office 365 cliente local para comunicarse con un servicio en Internet, que Office 365 tiene dependencia de, se originó en la red del cliente y se termina por un extremo en Internet.
 
 El documento tiene tres secciones principales. La primera proporciona una información de fondo, como las redes (que es posible que atraviesan los flujos de Office 365), el tipo de tráfico, directrices sobre la conectividad de red del cliente para los extremos de servicio de Office 365, interoperabilidad con componentes de terceros y entidades de seguridad que se utilizan por parte de equipos para seleccionar los flujos de medios. La segunda ilustra el uso de estos flujos en varias topologías. Para cada topología, se enumeran todos los flujos de admitidos y se muestra cómo se utilizan estos flujos a través de varios casos de uso. Para cada caso de uso, describen la secuencia y selección de flujos de a través de un diagrama de flujo. La tercera describe cómo se utilizan estos flujos cuando se implementa ruta Express para la optimización, que se muestra a través de una topología simple.
 
-## <a name="background"></a>Fondo
+## <a name="background"></a>Información general
 ### <a name="network-segments"></a>Segmentos de red
 **Red del cliente**: éste es el segmento de red que forma parte de la red general que puede controla y administrar. Esto incluye todas las conexiones de cliente dentro de las oficinas de atención al cliente, ya sea por cable o inalámbrica, entre edificios de oficinas, en centros de datos locales y las conexiones a proveedores, ruta de Express o cualquier otro interconexión privada de Internet. 
 
