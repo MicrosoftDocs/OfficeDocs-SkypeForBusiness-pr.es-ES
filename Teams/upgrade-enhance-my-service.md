@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bb2ed4352b8a3fa1bfcb4d17527ca2272f06b3c
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 5f93a3ad801e72adaa7514fef83572f7766b0ee6
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349282"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594369"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa")
 
@@ -34,9 +34,9 @@ Después de que ha implementado correctamente los equipos en su organización y 
 
 Forma ideal para asegurarse de que siempre obtendrá el máximo partido de los servicios es supervisar las [guías públicas de los equipos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) de nuevas mejoras de características que podrían ser de interés para la organización. Si dispone de acceso al portal de administración de Office 365, recibirá actualizaciones regulares de nosotros acerca de las características nuevas y cambiantes a través de nuestro centro de mensajes.
 
-Además, debido a que las organizaciones crecen y cambian, debe tomarse su tiempo para revisar y actualizar los casos de uso empresarial a intervalos regulares para asegurarse de que el servicio está configurado para satisfacer las necesidades de su organización actual. Asegurarse de que obtiene los comentarios para el mundo real de los usuarios y campeones internos mediante el establecimiento de canales de comentarios en la organización. Se pueden conversaciones informales, reuniones periódicas, o a través de los equipos de un canal o Yammer de la Comunidad.
+Cuando vea las oportunidades para mejorar su servicio, tomarse el tiempo para hacerlo a la derecha. Revisar [Deploy chat, los equipos, los canales y aplicaciones en los equipos de Microsoft](deploy-chat-teams-channels-microsoft-teams-landing-page.md) y aplicar la misma orientación de un extremo a otro. Cuando se realizan cambios pequeños e incrementales, es poco probable que necesitará para llevar a cabo todas las actividades y tareas en su totalidad, pero debe estar seguro de evaluar cada tarea a lo largo de la forma de proporcionar la mejor oportunidad en un resultado satisfactorio y la actividad.
 
-Cuando vea las oportunidades para mejorar su servicio, tomarse el tiempo para hacerlo a la derecha. Vuelva a visitar nuestro [fases de implementación](quick-start-enable-teams.md) y aplicar la misma orientación de un extremo a otro. Cuando se realizan cambios pequeños e incrementales, es poco probable que necesitará para llevar a cabo todas las actividades y tareas en su totalidad, pero debe estar seguro de evaluar cada tarea a lo largo de la forma de proporcionar la mejor oportunidad en un resultado satisfactorio y la actividad.
+Cuando vea las oportunidades para mejorar su servicio, tomarse el tiempo para hacerlo a la derecha. Vuelva a visitar nuestro [fases de implementación](deploy-chat-teams-channels-microsoft-teams-landing-page.md) y aplicar la misma orientación de un extremo a otro. Cuando se realizan cambios pequeños e incrementales, es poco probable que necesitará para llevar a cabo todas las actividades y tareas en su totalidad, pero debe estar seguro de evaluar cada tarea a lo largo de la forma de proporcionar la mejor oportunidad en un resultado satisfactorio y la actividad.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>Decidir quién va a supervisar guías públicas y otros anuncios de servicio para las nuevas características o servicios que su organización puede beneficiarse.</li><li>Decide cuál será la cadencia en el que se va a informar de las nuevas características o servicios a las partes interesadas claves, a través de su Comité de dirección.</li></ul></td></tr>

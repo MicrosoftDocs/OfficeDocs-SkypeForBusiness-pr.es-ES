@@ -8,7 +8,6 @@ ms.topic: article
 ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 ms.tgt.pltfrm: cloud
 ms.service:
-- skype-for-business-online
 - msteams
 ms.collection:
 - Adm_Skype4B_Online
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Este tema contiene todos los países o regiones que los usuarios pueden realizar llamadas salientes a si tienen un Plan de llamada.
-ms.openlocfilehash: 987379350d2605702d0e9e080f6a7a3a6d3a0383
-ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
+ms.openlocfilehash: 6843d06d99e049cdd7576c4c5618c1f5d0297133
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "25576579"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594329"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Los usuarios pueden hacer llamadas salientes a estos países y regiones
 
@@ -48,10 +47,10 @@ ms.locfileid: "25576579"
 |Antigua y Barbuda | Islas Feroe |Italia |Martinica |Polonia |Turkmenistán |
 |Argentina|Fiyi |Jamaica |Mauricio |Portugal |Islas Turcas y Caicos   |
 |Armenia |Finlandia |Japón |Mayotte | Puerto Rico |Uganda  |
-|Aruba |Francia |Jordania |México |Catar | Ucrania   |
+|Aruba |Francia |Jordania |México |Qatar | Ucrania   |
 |Australia |Guayana Francesa |Kazajstán |Micronesia |Reunión |Emiratos Árabes Unidos (E.A.U.)  |
-|Austria |Polinesia Francesa |Kenia |Moldavia, República de |Rumania |Reino Unido (UK) |
-|Azerbaiyán |Georgia |Corea, República de |Mónaco | Federación de Rusia |Estados Unidos (EE. UU.)  |
+|Austria |Polinesia Francesa |Kenia |Moldavia, República de |Rumanía |Reino Unido (UK) |
+|Azerbaiyán |Georgia |Corea, República de |Mónaco | Federación de Rusia |Estados Unidos (EE. UU.)  |
 |Bahamas |Alemania |Kuwait |Mongolia |Ruanda | Uruguay |
 |Baréin |Ghana |Kirguistán |Montenegro | San Cristóbal y Nieves |Uzbekistán  |
 |Bangladesh |Gialtar |Lao |Montserrat | Santa Lucía |Ciudad del Vaticano  |
@@ -63,7 +62,7 @@ ms.locfileid: "25576579"
 |Bermudas |Guatemala |Lituania |Países Bajos |Singapur |Yemen |
 |Bután |Guinea |Luxemburgo |Antillas Holandesas |Eslovaquia |Zambia  |
 |Bolivia |Guyana| |Nueva Caledonia |Eslovenia |Zimbabue |
-|Bosnia-Herzegovina |Haití ||Nueva Zelanda |Sudáfrica | 
+|Bosnia y Herzegovina |Haití ||Nueva Zelanda |Sudáfrica | 
 |Botsuana |Honduras ||Nicaragua |España |
 |Brasil |Hong Kong ||Níger |Sri Lanka | 
 |Bunei Darussalam |Hungría ||Nigeria |San Pedro y Miquelón | 

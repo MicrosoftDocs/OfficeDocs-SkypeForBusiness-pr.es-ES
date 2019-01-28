@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 335d5baac6f13d899b8d6f9875a419d86da1b6af
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: cdcf5bd3da33463d39f8681a41d7299f3d66e727
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374320"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593937"
 ---
 # <a name="prepare-my-service"></a>Preparar mi servicio
 
@@ -41,7 +41,7 @@ Las listas de comprobación siguientes le guiarán a través de los pasos para l
 Las tareas y actividades en estas listas de comprobación son los elementos de "tareas pendientes" principales que se aplican a todas las implementaciones de las capacidades de voz en la nube con los equipos. Puede personalizar las listas de comprobación para incluir las actividades y tareas que son específicas de su propio viaje de los equipos.
 
 >[!NOTE]
->Esta guía se centra únicamente en los planes de llamada, conferencias de Audio y el enrutamiento directo. Si está familiarizado con los equipos, revise la [Información general de los equipos de Microsoft](teams-overview.md). Para obtener instrucciones generales para planear la implementación de los equipos, consulte la [Guía de planeación de los equipos de Microsoft](quick-start-enable-teams.md).
+>Esta guía se centra únicamente en los planes de llamada, conferencias de Audio y el enrutamiento directo. Si está familiarizado con los equipos, revise la [Información general de los equipos de Microsoft](teams-overview.md). Para obtener instrucciones generales para planear la implementación de los equipos, empiece con [chat Deploy, los equipos, los canales y aplicaciones en los equipos de Microsoft](deploy-chat-teams-channels-microsoft-teams-landing-page.md).
 
 Use las listas de comprobación proporcionadas para realizar un seguimiento del estado de cada actividad individual y tareas, y estar seguro de que no ha omitido los pasos más importantes. Cada actividad incluye una descripción detallada de las acciones necesarias y las referencias a información adicional que puede usar para llevar a cabo dicha actividad.
 
@@ -114,18 +114,18 @@ Para obtener información adicional, vea:
 
 - [Configurar conferencias de Audio de Skype para la empresa y Teams de Microsoft](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
 
-- [Técnica de planeación para el sistema telefónico con planes de llamada](phone-system-with-calling-plans.md#technical-planning-for-phone-system-with-calling-plans)
+- [Técnica de planeación para el sistema telefónico con planes de llamada](calling-plan-landing-page.md)
 
 - [Configurar planes de llamada de Skype para empresas y Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
-- [Planeación de enrutamiento directo](https://docs.microsoft.com/microsoftteams/direct-routing-plan)
+- [Planear el enrutamiento directo](https://docs.microsoft.com/microsoftteams/direct-routing-plan)
 
 - [Configurar el enrutamiento directo](https://docs.microsoft.com/microsoftteams/direct-routing-configure)
 
 ### <a name="execute-the-test-plan"></a>Ejecutar el plan de pruebas
 
 [//]: # (¿Editar bien? "Usuario" parece un poco ambiguo a mí.)
-Después de que se han configurado el entorno del usuario y el servicio, el último paso de prueba incluye la ejecución de planes de prueba con el foco en la validación de características y funcionalidades. 
+Después de que se han configurado el entorno del usuario y el servicio, el último paso de prueba incluye la ejecución de planes de prueba con el foco en la validación de características y funcionalidades. 
 
 **Las pruebas de los requisitos previos y supuestos para los usuarios y sitios en el ámbito de conferencia de audio:**
 
@@ -137,7 +137,7 @@ Después de que se han configurado el entorno del usuario y el servicio, el últ
 
 -   Se han identificado y configurado la lista de conferencias de audio dedicada y compartida marcado en los números con la preferencia de idioma.
 
--   [Créditos de comunicaciones](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) (si es necesario) se han configurado para su organización.
+-   [Créditos de comunicaciones](what-are-communications-credits.md) (si es necesario) se han configurado para su organización.
 
 -   Configuración de puente de conferencia de audio conferencia ha sido identificados y configurado (longitud PIN, las notificaciones de entrada o salida, preferencia de notificación de activación).
 
@@ -155,7 +155,7 @@ Después de que se han configurado el entorno del usuario y el servicio, el últ
 
 -   Los números de teléfono que se asignará a los usuarios se han adquirido o trasladado a Microsoft y están disponibles en el portal de inquilinos.
 
--   [Créditos de comunicaciones](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) (si es necesario) se han configurado para su organización.
+-   [Créditos de comunicaciones](what-are-communications-credits.md) (si es necesario) se han configurado para su organización.
 
 -   Las directivas de usuario de inquilinos y que admiten una llamada a planes de escenarios se han identificado, configurados y aplica la configuración del plan de marcado.
 

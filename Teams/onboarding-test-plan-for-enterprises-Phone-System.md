@@ -1,5 +1,5 @@
 ---
-title: Enterprise plan de pruebas para el sistema telefónico con planes de llamada en Microsoft Teams
+title: Plan de pruebas de empresa para Sistema telefónico con planes de llamada en Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 995635ed8a7f3c9a9a5d4291652208246c3f9697
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: 85774296ad871d7d9d036a660299cc88099c4de6
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694793"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594065"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Defina y documente el sistema de teléfono con planes de llamada en el plan de pruebas de los equipos para empresas 
 ============================================================================================
@@ -72,8 +72,8 @@ Mientras se prepara para evaluar el sistema telefónico con una llamada a los pl
 <a name="define-phone-system-with-calling-plans-feature-requirements"></a>Definir el sistema telefónico con una llamada a los planes de requisitos de característica 
 ------------------------------------------------------------
 
-Como parte de la definición de sistema telefónico con planes de llamar a los requisitos de características para los usuarios en el ámbito, uno de los primeros pasos que debe haber completado durante la fase de previsión era el [Análisis de rol](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#assess-environment-and-evaluate-adoption-readiness), donde se define el sistema telefónico con planes de llamada rol y escenarios.
-Con esta línea de base identificado, el siguiente paso es evaluar la guía pública más reciente de los equipos para determinar:
+Como parte de la definición de sistema telefónico con planes de llamar a los requisitos de características para los usuarios en el ámbito, vea [Sistema de teléfono con planes de llamada](calling-plan-landing-page.md).
+A continuación, evaluar la guía pública más reciente de los equipos para determinar:
 
 -   Qué sistema de teléfono con una llamada a los planes de características va a implementar para los usuarios en el ámbito.
 

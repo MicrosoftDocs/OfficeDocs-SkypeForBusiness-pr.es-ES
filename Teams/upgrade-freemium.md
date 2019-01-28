@@ -1,5 +1,5 @@
 ---
-title: Actualizar Microsoft Teams gratis a la versión de suscripción de Office 365
+title: Actualizar Microsoft Teams gratuito a la versión de suscripción de Office 365
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,14 +16,14 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: cb8770b0929b46aa0e98e1429a11874756ed07e1
-ms.sourcegitcommit: d9059e8cb0a9b968ee16508f6bfcb5d949575590
+ms.openlocfilehash: 468a3c60b83784fb308165a5da835d451f2bc780
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "27733206"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594233"
 ---
-<a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Actualizar Microsoft Teams gratis a la versión de suscripción de Office 365
+<a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Actualizar Microsoft Teams gratuito a la versión de suscripción de Office 365
 ======================================================
 
 Si su organización usa la versión gratuita de Microsoft Teams, puede actualizar fácilmente a la versión completa mediante la compra de un plan de suscripción de Office 365 para los usuarios. La versión completa proporciona características de los equipos adicionales: like de la programación, conferencias de audio, administración mejorada y funciones de seguridad, que no proporciona la versión gratuita. Office 365 combina el conjunto de aplicaciones de escritorio familiar de Microsoft Office con versiones basadas en nube de servicios de colaboración y comunicaciones de próxima generación de Microsoft, incluidos Exchange Online, SharePoint Online y Office Online: para ayudar a los usuarios a ser productivos desde prácticamente cualquier lugar a través de internet. Al actualizar los equipos, los datos de los equipos existentes no se perderán; todos los equipos, canales, charlas, archivos y permisos se incluyen con usted. 
@@ -86,7 +86,7 @@ Escriba la dirección de correo electrónico que use para iniciar sesión los eq
 
 ## <a name="whats-next"></a>¿Qué sigue?
 
-Una vez finalizada la actualización, vea [Introducción a los equipos de Microsoft](get-started-with-teams-landing-page.md) para el primer pasos y [Adoptar los equipos de Microsoft](adopt-microsoft-teams-landing-page.md) para un enfoque por fases para la adopción de los equipos en toda la organización.
+Una vez finalizada la actualización, vea [Introducción a los equipos de Microsoft](get-started-with-teams-quick-start.md) para el primer pasos y [Adoptar los equipos de Microsoft](adopt-microsoft-teams-landing-page.md) para un enfoque por fases para la adopción de los equipos en toda la organización.
 
 ## <a name="more-information"></a>Más información
 

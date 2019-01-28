@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b77f53398eda22ec2f3b7313d8c2b641228c5b5e
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: d0b6940a2e58a0a459c6f7858c0d7bd19f53ca39
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349416"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594417"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -72,7 +72,7 @@ Equipos ofrece Skype compatible para la funcionalidad empresarial — como mensa
 
 - [Información general sobre Microsoft Teams](Teams-overview.md)
 - [Obtenga información sobre los equipos y canales](teams-channels-overview.md)
-- [Completar planeación técnica](quick-start-enable-teams.md#step-3-complete-technical-planning)
+- [Completar planeación técnica](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 - [Administración de sistemas de salón de Skype](https://aka.ms/srsdocs)
 
 [Volver al principio](#about-upgrade-basic)

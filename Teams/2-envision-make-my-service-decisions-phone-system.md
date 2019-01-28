@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 702b126ac065b3fd84737cd0a6bb00f47c6d4991
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: eb254de21bfaf0ffb66a9c9177e5109a1b4eafc1
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694762"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593969"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 
@@ -135,7 +135,7 @@ El correo de voz de Sistema telefónico cuenta con transcripción del correo de 
 >[!NOTE]
 > Se ha implementado un mecanismo de reserva para que el correo de voz de Sistema telefónico pueda reenviar mensajes mediante SMTP, lo que implica que los usuarios con un buzón de un sistema de correo electrónico de terceros podrán recibir sus mensajes de correo de voz. Este mecanismo no incluye el tiempo de actividad de servicio garantizado u otras funciones de correo de voz, como cambiar el saludo del correo de voz.
 
-Para obtener más información acerca de correo de voz en una implementación del sistema de teléfono, vea [compatibilidad con Exchange Server de correo de voz de PBX de Azure](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#licensing-for-calling-plans).
+Para obtener más información acerca de correo de voz en una implementación del sistema de teléfono, vea [Sistema de teléfono con planes de llamada](calling-plan-landing-page.md).
 
 <br>
 

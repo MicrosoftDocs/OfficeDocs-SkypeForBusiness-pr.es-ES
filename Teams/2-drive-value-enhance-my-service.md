@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adb6aeca0892bb3ccd07c5d4dd60508424845b4c
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 66f7aafe353227c9602fbaecbd386a897aa021ea
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532172"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593889"
 ---
 # <a name="enhance-my-service"></a>Mejorar mi servicio
 
@@ -31,7 +31,7 @@ Forma ideal para asegurarse de que siempre obtendrá el máximo partido de los s
 
 Además, debido a que las organizaciones crecen y cambian, debe tomarse su tiempo para revisar y actualizar los casos de uso empresarial a intervalos regulares para asegurarse de que el servicio está configurado para satisfacer las necesidades de su organización actual.  Asegúrese de que va a obtener comentarios del mundo real de los usuarios y campeones internos mediante el establecimiento de canales de comentarios en la organización. Se pueden conversaciones informales, reuniones regulares o a través de los equipos de un canal o Yammer de la Comunidad. 
 
-Cuando vea las oportunidades para mejorar su servicio, tomarse el tiempo para hacerlo a la derecha. Revisar nuestras fases de implementación (https://docs.microsoft.com/MicrosoftTeams/quick-start-enable-teams) y aplicar la misma orientación de un extremo a otro. Cuando se realizan cambios pequeños e incrementales, es poco probable que necesitará para llevar a cabo todas las actividades y tareas en su totalidad, pero debe estar seguro de evaluar cada tarea a lo largo de la forma de proporcionar la mejor oportunidad en un resultado satisfactorio y la actividad.
+Cuando vea las oportunidades para mejorar su servicio, tomarse el tiempo para hacerlo a la derecha. Revisar [Deploy chat, los equipos, los canales y aplicaciones en los equipos de Microsoft](deploy-chat-teams-channels-microsoft-teams-landing-page.md) y aplicar la misma orientación de un extremo a otro. Cuando se realizan cambios pequeños e incrementales, es poco probable que necesitará para llevar a cabo todas las actividades y tareas en su totalidad, pero debe estar seguro de evaluar cada tarea a lo largo de la forma de proporcionar la mejor oportunidad en un resultado satisfactorio y la actividad.
 
 
 <table>
