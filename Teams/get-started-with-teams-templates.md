@@ -1,9 +1,9 @@
 ---
-title: Introducción a las plantillas de equipos
+title: Introducción a las plantillas de Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/10/2019
+ms.date: 01/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,14 +16,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ead0a3dc9e27b90c49808bcece0aab39bf01f13a
-ms.sourcegitcommit: 4c5b9e8c4bdb1187d610209d365680702d4372fd
+ms.openlocfilehash: d6b5059e5c0a4a7f49553758762905a1a3523389
+ms.sourcegitcommit: bb5fe98e73a794eb8154551a40276d9cd68bc2af
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27801467"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29603805"
 ---
-# <a name="get-started-with-teams-templates"></a>Introducción a las plantillas de equipos 
+# <a name="get-started-with-teams-templates"></a>Introducción a las plantillas de Teams 
 
 Las plantillas de equipos son predefinidas definiciones de estructura de un equipo diseñado alrededor de un proyecto o necesidad empresarial. Puede usar las plantillas de equipos para crear rápidamente los espacios de colaboración con los canales para diferentes temas y preinstalación de aplicaciones que se van a extraer en servicios y contenido de misión crítica. Las plantillas de equipos proporcionan una estructura de equipo predefinidos que puede ayudarle a crear fácilmente los equipos coherentes en toda la organización. 
 
@@ -58,178 +58,23 @@ Tipos de plantilla de base son plantillas especiales que Microsoft ha creado par
 
 Una vez que se define un tipo de plantilla base, puede ampliar o reemplazar estas plantillas especiales con propiedades adicionales que le gustaría usar para especificar. Pero algunos tipos de plantilla base contienen las propiedades que no se puede reemplazar. 
 
-De forma predeterminada, la plantilla base se establece en **estándar** que no contiene propiedades especiales ni aplicaciones adicionales de su propiedad. A continuación está disponible la lista actual de tipos de plantillas de base.
+De forma predeterminada, la plantilla base se establece en **estándar** que no contiene propiedades especiales ni aplicaciones adicionales de su propiedad. A continuación está disponible la lista actual de tipos de plantilla de base.
 
-| Tipo de plantilla de base | baseTemplateId | Aplicaciones propietario de plantilla de base y las propiedades especiales |
+| Tipo de plantilla de base | baseTemplateId | Propiedades que se incluyen con esta plantilla de base |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | Standard | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`standard` | No hay aplicaciones adicionales y propiedades |
-| Educación- <br>Clase equipo<sup>1</sup> | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationClass` | Aplicaciones:<ul><li>Bloc de notas de OneNote clase (anclado a la ficha **General** ) </li><li>Aplicación de las asignaciones (anclado a la ficha **General** )</li></ul> Propiedades de equipo:<ul><li>Visibilidad de equipo se establece en **HiddenMembership** (no se puede reemplazar)</li></ul> |
-| Educación-<br>Personal de grupo<sup>1</sup> | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationStaff` | Aplicaciones:<ul><li>Bloc de notas de OneNote personal (anclado a la ficha **General** )</li></ul> |
+| Educación-<br>Equipo de clase | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationClass` | Aplicaciones:<ul><li>Bloc de notas de OneNote clase (anclado a la ficha **General** ) </li><li>Aplicación de las asignaciones (anclado a la ficha **General** )</li></ul> Propiedades de equipo:<ul><li>Visibilidad de equipo se establece en **HiddenMembership** (no se puede reemplazar)</li></ul> |
+| Educación-<br>Equipo de personal | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationStaff` | Aplicaciones:<ul><li>Bloc de notas de OneNote personal (anclado a la ficha **General** )</li></ul> |
 |Educación-<br>Equipo PLC |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationProfessionalLearningCommunity` | Aplicaciones:<ul><li>Bloc de notas de OneNote PLC (anclado a la ficha **General** )</ul></li>|
+| Venta por menor-<br>Almacén | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore` | Canales de entrada:<ul><li>Entrega de MAYÚS</li><li>Recursos de aprendizaje</li></ul>Propiedades de equipo<ul><li>Visibilidad de equipo establecida en público</li></ul>Permisos de miembro<ul><li>Impedir que a los miembros de creación, actualización o eliminación de canales</li><li>Impedir que a los miembros de la adición o eliminación de aplicaciones</li><li>Impedir que a los miembros de creación, actualización o eliminación de los conectores</li></ul> |
+| Venta por menor-<br>Colaboración de administrador | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration` | Canales de entrada:<ul><li>Entrega de MAYÚS</li><li>Recursos de aprendizaje</li></ul>Propiedades de equipo:<ul><li>Visibilidad de equipo establecida en privado</li></ul>Permisos de los miembros:<ul><li>Impedir que a los miembros de creación, actualización o eliminación de canales</li><li>Impedir que a los miembros de la adición o eliminación de aplicaciones</li><li>Impedir que a los miembros de creación, actualización o eliminación de los conectores</li></ul>|
+| Healthcare-<br>Toda la distrito |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWardWide` |Canales de entrada: <ul><li>Anuncios\*</li><li>Luces de llamada</li><li>Material variado\*</li><li>Huddles\*<li>Recuento de programación y paciente\*</li><li>Recursos de aprendizaje y certificación </li><li>Redondea hacia arriba\*</li></ul>\*Canales de automático favoritos |
+|Healthcare-<br>Hospital amplia | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospitalWide` |Canales de entrada:<ul><li>Anuncios\*</li><li>Cumplimiento de normas\*</li><li>Custodia</li><li>Servicios financieros</li><li>Material variado\*</li><li>Recursos humanos</li><li>Laboratorio</li><li>La seguridad del paciente y mejora de la calidad\*</li><li>Farmacia</li></ul>\*Canal automático favoritos|
 |||
-
-Publicación de <sup>1</sup> de octubre de 2018 las últimas
 
 > [!NOTE]
 > Agregaremos más plantilla base de tipos de en futuras versiones de Microsoft Teams, por lo que verificación atrás para la información más actualizada sobre admite propiedades.
 
-## <a name="examples"></a>Ejemplos 
-
-Puede empezar a usar una plantilla para crear un equipo mediante el uso de la [API de Microsoft Graph](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
-
-### <a name="create-a-team-from-a-template"></a>Crear un equipo a partir de una plantilla
-
-#### <a name="requests"></a>Solicitudes
-
-**Solicitud para crear un equipo con la plantilla de base estándar**
-
-~~~
-POST /teams
-Authorization: Bearer <TOKEN>
-Content-Type: application/json
-{
-  "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/standard",
-  "displayName": "Sample Team",
-  "description": "Sample Team’s Description"
-}
-
-~~~
-
-**Para crear un equipo con un canal extra y no permitir a los miembros de eliminar los canales de solicitudes**
-
-~~~
-POST /teams
-Authorization: Bearer <TOKEN>
-Content-Type: application/json
-{
-  "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/standard",
-  "displayName": "My Sample Team",
-  "description": "My Sample Team’s Description",
-  "channels": [
-    {
-        "displayName": "Random",
-        "isFavoriteByDefault": true
-    }
-              ],
-    "memberSettings": {
-        "allowDeleteChannels": false
-    }
-}
-
-~~~
-
-**Solicitud para crear un equipo con todas las propiedades compatibles**
-
-~~~
-POST /teams
-Authorization: Bearer <TOKEN>
-Content-Type: application/json
-{
-    "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('standard')",
-    "visibility": "Private",
-    "displayName": "Sample Engineering Team",
-    "description": "This is a sample engineering team, used to showcase the range of properties 
-supported by this API",
-    "channels": [
-        {
-            "displayName": "Announcements 📢",
-            "isFavoriteByDefault": true,
-            "description": "This is a sample announcements channel that is favorited by default. Use this 
-channel to make important team, product, and service announcements."
-        },
-        {
-            "displayName": "Training 🏋️",
-            "isFavoriteByDefault": true,
-            "description": "This is a sample training channel that is favorited by default and contains an 
-example of pinned website and YouTube tabs.",
-            "tabs": [
-                {
-                    "teamsApp@odata.bind":
-"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
-                   "name": "A Pinned Website",
-                    "configuration": {
-                        "contentUrl": "https://docs.microsoft.com/en-us/microsoftteams/microsoft-teams"
-                    }
-                },
-                {
-                    "teamsApp@odata.bind": 
-"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.youtube')",
-                    "name": "A Pinned YouTube Video",
-                    "configuration": {
-                        "contentUrl": "https://tabs.teams.microsoft.com/Youtube/Home/YoutubeTab?
-videoId=X8krAMdGvCQ",
-                        "websiteUrl": "https://www.youtube.com/watch?v=X8krAMdGvCQ"
-                    }
-                }
-            ]
-        },
-        {
-"displayName": "Planning 📅 ",
-            "description": "This is a sample of a channel that is not favorited by default, these channels 
-will appear in the more channels overflow menu.",
-            "isFavoriteByDefault": false
-        },
-        {
-            "displayName": "Issues and Feedback 🐞",
-            "description": "This is a sample of a channel that is not favorited by default, these channels 
-will appear in the more channels overflow menu."
-        }
-    ],
-    "memberSettings": {
-        "allowCreateUpdateChannels": true,
-        "allowDeleteChannels": true,
-        "allowAddRemoveApps": true,
-        "allowCreateUpdateRemoveTabs": true,
-        "allowCreateUpdateRemoveConnectors": true
-    },
-    "guestSettings": {
-        "allowCreateUpdateChannels": false,
-        "allowDeleteChannels": false
-    },
-    "funSettings": {
-        "allowGiphy": true,
-        "giphyContentRating": "Moderate",
-        "allowStickersAndMemes": true,
-        "allowCustomMemes": true
-    },
-    "messagingSettings": {
-        "allowUserEditMessages": true,
-        "allowUserDeleteMessages": true,
-        "allowOwnerDeleteMessages": true,
-        "allowTeamMentions": true,
-        "allowChannelMentions": true
-    },
-    "installedApps": [
-        {
-            "teamsApp@odata.bind": 
-"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.vsts')"
-        },
-        {
-            "teamsApp@odata.bind": 
-"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('1542629c-01b3-4a6d-8f76-1938b779e48d')"
-        }
-    ]
-}
-~~~
-
-### <a name="get-status"></a>Obtener el estado
-
-#### <a name="request"></a>Solicitud
-
-~~~
-GET   /workflow/status/c953c202-7b44-4a63-aa33-364fcb2d65aa
-Authorization: Bearer <TOKEN>
-~~~
-
-#### <a name="response"></a>Respuesta
-
-~~~
-HTTP/1.1 200 OK
-Content-Type: application/json
-{
-    "status": "[InProgress|Completed|Cancelled|Failed]"
-}
-~~~
 
 ## <a name="related-topics"></a>Temas relacionados
 
