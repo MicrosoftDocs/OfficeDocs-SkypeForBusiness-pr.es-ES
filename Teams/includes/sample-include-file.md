@@ -1,1 +1,1 @@
-<span data-ttu-id="95089-101">Archivo de muestra incluido: solo tiene que reemplazar este texto con uno que cree usted.</span><span class="sxs-lookup"><span data-stu-id="95089-101">Sample include file - just replace this text with your own.</span></span>
+<span data-ttu-id="e46c5-101">Archivo de muestra incluido: solo tiene que reemplazar este texto con uno que cree usted.</span><span class="sxs-lookup"><span data-stu-id="e46c5-101">Sample include file - just replace this text with your own.</span></span>
