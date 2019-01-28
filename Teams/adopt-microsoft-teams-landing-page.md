@@ -13,16 +13,16 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c21eb588b899c6a0b4acd4e25eb79d54750e956
-ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
+ms.openlocfilehash: 41b2b503e9a3a0f3e5957879e99ffb431596d1ee
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27264913"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594345"
 ---
 # <a name="adopt-microsoft-teams"></a>Adoptar Microsoft Teams
 
-Si eres una empresa pequeña o si desea desplegar chat a partir de los equipos, los equipos & canales y reuniones, usan nuestra descriptiva [obtener iniciado instrucciones](get-started-with-teams-landing-page.md), que se ha diseñado para ayudarle a trabajar rápidamente. Si es una organización grande con un híbrido o local Skype para configuración de negocio, o si desea implantar las características de voz (por ejemplo, una llamada a planes o sistema telefónico de Office 365), puede iniciar con nuestra guía de introducción, pero necesita adicionales orientación a continuación, en **más profunda instrucciones de adopción**.
+Si está una empresa pequeña, o si desea desplegar chat a partir de los equipos, los canales de & de los equipos y las reuniones, usan nuestro descriptiva [obtener iniciado instrucciones](get-started-with-teams-quick-start.md), que se ha diseñado para ayudarle a trabajar rápidamente. Si es una organización grande con un híbrido o local Skype para configuración de negocio, o si desea implantar las características de voz (por ejemplo, una llamada a planes o sistema telefónico de Office 365), puede iniciar con nuestra guía de introducción, pero necesita adicionales orientación a continuación, en **más profunda instrucciones de adopción**.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -109,7 +109,7 @@ Si eres una empresa pequeña o si desea desplegar chat a partir de los equipos, 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Formación y certificación</h3>
+                        <h3>Certificación de & de recursos de aprendizaje</h3>
                     </div>
                 </div>
             </div>
