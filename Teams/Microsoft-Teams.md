@@ -4,12 +4,12 @@ hide_bc: true
 title: Documentación técnica de Microsoft Teams
 description: Documentación técnica de Microsoft Teams
 ms.topic: hub-page
-ms.openlocfilehash: 74bd78ba2498c3f52d9c0dde59d851cf998b24d8
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: 756c3701e69a8fd41378487329e95d169b5207da
+ms.sourcegitcommit: 12a3932fa95dedec0fa0d24951932d70c64a7e78
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594137"
+ms.locfileid: "29597661"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -23,7 +23,7 @@ ms.locfileid: "29594137"
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsF">
                             <li>
-                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/teams-overview?branch=lolaj-tocoverhaul4">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/teams-overview">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -42,7 +42,7 @@ ms.locfileid: "29594137"
                             </a>
                             </li>
                            <li>
-                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/how-to-roll-out-teams?branch=lolaj-tocoverhaul4"><div class="cardSize">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/how-to-roll-out-teams"><div class="cardSize">
                                 <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardImageOuter">
@@ -60,7 +60,7 @@ ms.locfileid: "29594137"
                             </a>
                             </li> 
                             <li>
-                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start?branch=lolaj-tocoverhaul4">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -79,7 +79,7 @@ ms.locfileid: "29594137"
                             </a>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams?branch=lolaj-tocoverhaul4">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -98,7 +98,7 @@ ms.locfileid: "29594137"
                             </a>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/adopt-microsoft-teams-landing-page?branch=lolaj-tocoverhaul4">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/adopt-microsoft-teams-landing-page">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -117,7 +117,7 @@ ms.locfileid: "29594137"
                             </a>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/training-microsoft-teams-landing-page?branch=lolaj-tocoverhaul4">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/training-microsoft-teams-landing-page">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
