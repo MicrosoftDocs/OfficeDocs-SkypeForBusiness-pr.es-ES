@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 05cd733e96ad77b0a413c9846ceb3697b45eec13
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694785"
----
 # [Skype para Business Server 2019](../skype-for-business-server-2019.md)
 
 ## [Novedades](../whats-new.md)
@@ -166,7 +158,7 @@ ms.locfileid: "28694785"
 #### [Modelos de usuario](../../SfbServer/plan-your-deployment/capacity/user-models.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
 
-## Implementar 
+## Implementar
 ### [Instalación ](../../SfbServer/deploy/install/install.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Instalar los requisitos previos](../../SfbServer/deploy/install/install-prerequisites.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Create a file share](../../SfbServer/deploy/install/create-a-file-share.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -275,7 +267,6 @@ ms.locfileid: "28694785"
 #### [Fotografías de alta resolución](../../SfbServer/deploy/integrate-with-exchange-server/high-resolution-photos.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Usar el almacén de contactos unificados](../../SfbServer/deploy/integrate-with-exchange-server/use-the-unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [ExchangeUnified de mensajería de correo de voz](../../SfbServer/deploy/integrate-with-exchange-server/exchangeunified-messaging-for-voice-mail.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-#### [Almacén de contactos personales](../../SfbServer/deploy/integrate-with-exchange-server/personal-contacts-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Outlook Web App](../../SfbServer/deploy/integrate-with-exchange-server/outlook-web-app.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [OAuth con en línea y local](../../SfbServer/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Implementar el almacenamiento de contactos unificado](../../SfbServer/deploy/deploy-unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
