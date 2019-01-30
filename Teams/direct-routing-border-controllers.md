@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Los socios de Microsoft con proveedores seleccionados de SBC certifica sus SBCs funcionan con el enrutamiento directo.
-ms.openlocfilehash: cf62dd1d19ec5404bda756b190502e00078d80db
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: dee7420f01cf3adbf6ef818e6161213ec0eaf89b
+ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594177"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29635702"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el Enrutamiento directo
 
@@ -60,7 +60,9 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   Pendiente    |      V7.0.2      |
 |                                                                                                                     |    SBC sueco Lite     |     &#10004;     |   Pendiente    |      V7.0.4      |
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    SBC Think 365    |     &#10004;     |   Pendiente    |       V1.4       |
-|                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    AP 3900       |    &#10004;     |   Pendiente  |   GA ECZ8.1.0 MR-1 (compilación 145)  |
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 3900       |    &#10004;     |   Pendiente  |   GA ECZ8.1.0 MR-1 (compilación 145)  |
 |                                                                                                                     |      AP 4600         |    &#10004;   |   Pendiente    |     GA ECZ8.1.0 MR-1 (compilación 145)  |
-|                                                                                                                     |      VME             |    &#10004;    |   Pendiente    |     GA ECZ8.1.0 MR-1 (compilación 145)     |
+|                                                                                                                    |      AP 6300         |    &#10004;   |   Pendiente    |     GA ECZ8.1.0 MR-1 (compilación 145)  |
+|                                                                                                                   |      AP 6350           |    &#10004;   |   Pendiente    |     GA ECZ8.1.0 MR-1 (compilación 145)  |                                             
+|                                                                                                                    |      VME           |    &#10004;    |   Pendiente    |     GA ECZ8.1.0 MR-1 (compilación 145)   |
 |                     [TE SISTEMAS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |   Pendiente    |      V3.16.2      |

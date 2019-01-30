@@ -17,17 +17,19 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Obtenga información acerca de los requisitos para la administración remota de Skype para profesionales en línea a través de Windows PowerShell, incluidos los sistemas operativos compatibles.
-ms.openlocfilehash: 001e8da26daaff65a1761519073667e530688243
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 01fa2856149bb7718fc34bb83f48e03a307496b8
+ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862597"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29635632"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Configurar el equipo para Windows PowerShell
 
 Administración remota de Skype para profesionales en línea mediante Microsoft PowerShell sólo se admite en los equipos de 64 bits que ejecutan uno de los siguientes sistemas operativos:
-  
+
+- Windows Server 2016
+
 - Windows 10
     
 - Windows 8.1
@@ -38,7 +40,7 @@ Administración remota de Skype para profesionales en línea mediante Microsoft 
     
 - Windows Server 2012
     
-- Windows Server 2008
+- Windows Server 2008
     
 - Windows 7
     

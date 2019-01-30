@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to add an emergency address to your Skype for Business account. '
-ms.openlocfilehash: f4d66c58066cd5547a8692066763675006d97920
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: a1e1421e79b25da37f26c09b271abb67f7b3340b
+ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326703"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29635758"
 ---
 # <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>Agregar, cambiar o quitar una dirección de emergencia para la organización
 
@@ -53,6 +53,8 @@ Para obtener información sobre cómo obtener planes de llamadas y su coste, vea
     
     > [!IMPORTANT]
     > Validar una dirección civil o postal implica asegurarse de que sea legítima y tenga el formato correcto. Es posible que una dirección de emergencia parcialmente correcta, por ejemplo con el nombre de la ciudad mal escrito, pueda seguir pasando como válida. Incluso si está mal escrita, pero pasó la validación, la combinación del nombre de la ciudad mal escrito junto con las demás partes correctas de la dirección constituye información suficiente para dirigir la llamada al centro de distribución emergencia correspondiente. 
+    
+    > Nota: En Bélgica, Francia, Alemania, Irlanda, países bajos y España es importante comprender que para poder activar correctamente un número de teléfono en Office 365, el programa de instalación de la dirección en la ubicación de emergencia, que se usará para adquirir el número, deben coincidir con el código de área del número de teléfono.
   
     Si no se puede validar la dirección, puede enviar una solicitud de validación manual haciendo clic en **Enviar una solicitud de validación** si está intentando validar una dirección de Estados Unidos, o haga clic en **Abrir una solicitud de servicio para obtener ayuda con la validación de direcciones** si está fuera de la Estados Unidos.
     
