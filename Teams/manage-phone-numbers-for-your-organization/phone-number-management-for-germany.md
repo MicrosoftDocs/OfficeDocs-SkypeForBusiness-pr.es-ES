@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo se obtienen y se administran los números de teléfono en Alemania para Skype Empresarial Online y Microsoft Teams.
-ms.openlocfilehash: 9bebb35762985245aa90f4feeed707ca38ca1464
-ms.sourcegitcommit: 08ab8b02c717be65d79a945301518c3528184609
+ms.openlocfilehash: e4e7240934b41e64f3b2d072788d2a270c8ff4f1
+ms.sourcegitcommit: e2ba383205baa447990d4b2f9c145e299406b9ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "27292936"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29651060"
 ---
 # <a name="phone-number-management-for-germany"></a>Administración de números de teléfono para Alemania
 
@@ -39,11 +39,10 @@ Para obtener más información, consulte [Administrar los números de teléfono 
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos**|
 |:-----|:-----|
-|Obtener números de teléfono de usuario nuevo que no se enumeran en la Skype para centro de administración de negocio.  <br/> | En Alemania, no se pueden conseguir números de teléfono para su organización mediante el Centro de administración de Skype Empresarial. Debe enviar una solicitud de número de teléfono nuevo. En primer lugar, descargue este formulario. <br/> [Solicitud de número de teléfono nuevo para Alemania (números geográficos) (v.3.0)(de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.3.0)-(de-de).pdf?raw=true) <br/> [Nueva solicitud de número de teléfono para Alemania (números geográficos) (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.4.0)-(en-us).pdf?raw=true) </br>A continuación, rellene lo y [enviarlo a nosotros](mailto:ptneu@microsoft.com)  <br/> |
-|Obtener números de teléfono de servicio nuevo que no se enumeran en la Skype para centro de administración de negocio. <br/> |Descargar este formulario [nueva solicitud de número de teléfono para Alemania (números de servicio) (v.1.2) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/new-phone-number-request-for-germany-(service-numbers)-(v.1.2)-(de-de).pdf?raw=true)<br/> [Nueva solicitud de número de teléfono para Alemania (números de servicio) (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.4.0)-(en-us).pdf?raw=true) </br> Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).
-|Necesita transferirnos números de teléfono.  <br/> | Descargue uno de estos formularios. <br/> Para los números de usuario: <br/> [Carta de autorización (LOA) para Alemania (números geográficos) (v.1.0)(de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de-de).pdf?raw=true) <br/><br/> Para los números gratuitos: <br/> [Carta de autorización (LOA) para Alemania (los números gratuitos) (v.2.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.2.0)-(de-de).pdf?raw=true) <br/><br/> Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).  <br/> |
-|Necesita publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de teléfono que quiere publicar o quitar de esta guía. <br/> |
-|Tiene que cambiar de un número de usuario a un número de servicio.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de usuario que quiere convertir en números de servicio. <br/> |
+|Obtenga el nuevo usuario o números de teléfono de servicio que no se enumeran en la Skype para el centro de administración de negocio.  <br/> | En Alemania, no se pueden conseguir números de teléfono para su organización mediante el Centro de administración de Skype Empresarial. Debe enviar una solicitud de número de teléfono nuevo. En primer lugar, descargue este formulario. <br/> [Nueva solicitud de número de teléfono para Alemania (v.4.0)(de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.4.0)-(de-de).pdf?raw=true) <br/> [Nueva solicitud de número de teléfono para Alemania (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.4.0)-(en-us).pdf?raw=true) </br>A continuación, rellene lo y [enviarlo para nosotros](mailto:ptneu@microsoft.com).  <br/> |
+|Obtenga los números de teléfono que se transfiere a nosotros.  <br/> | Descargue uno de estos formularios. <br/> Para los números de usuario: <br/> [Carta de autorización (LOA) para Alemania (números geográficos) (v.1.0)(de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de-de).pdf?raw=true) <br/><br/> Para los números gratuitos: <br/> [Carta de autorización (LOA) para Alemania (los números gratuitos) (v.2.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.2.0)-(de-de).pdf?raw=true) <br/><br/> Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).  <br/> |
+|Publicar o cancelar la publicación de números de teléfono en el directorio nacional de teléfono.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de teléfono que quiere publicar o quitar de esta guía. <br/> |
+|Cambie el número de un usuario a un número de servicio.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de usuario que quiere convertir en números de servicio. <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 
