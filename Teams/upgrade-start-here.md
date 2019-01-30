@@ -3,7 +3,7 @@ title: Introducción a su actualización de Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 01/14/2019
+ms.date: 01/30/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc428a6e4e256a38248e66a99d5a95b668e5eeb6
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: 3881990e6c6906f59ceef2c2c4055399457d6952
+ms.sourcegitcommit: 784dcab3923adec61449b3b901e22a991f0c262d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562763"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29662473"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Introducción a su actualización de Microsoft Teams
 
@@ -34,6 +34,8 @@ Microsoft anima a los clientes actualizar a los equipos tan pronto como sea posi
 ## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>¿Cómo Microsoft ayuda a los clientes con su actualización a los equipos? 
 
 Microsoft se compromete a su éxito y proporciona instrucciones sólida creado en torno a un marco de trabajo de actualización correcta probadas, end-to-end diseñado para ayudarle a planear y ejecutar la actualización a los equipos. Nuestra guía está diseñada para cada etapa del viaje de actualización, si se acaba de empezar con la planificación, los equipos junto con Skype para la empresa, ya está ejecutando o está listo para actualizar a los equipos.
+
+Para facilitar la planeación e implementación de actualización, Microsoft hospeda complementario formación en línea, diseñado para familiarizarse con nuestro marco de actualización rápidamente, compartir entendimiento de preparación de los usuarios para la actualización y orientar a la distintas opciones de coexistencia su organización puede realizar en su viaje a los equipos. Únase a nosotros en una sesión de información general de planeación de la actualización: [https://aka.ms/Upgrade101](https://aka.ms/upgrade101).
  
 ## <a name="why-do-i-need-upgrade-guidance-cant-i-just-deletedecommission-skype-for-business"></a>¿Por qué necesario actualizar instrucciones? ¿No puedo acaba eliminar/retirar Skype para la empresa? 
 
