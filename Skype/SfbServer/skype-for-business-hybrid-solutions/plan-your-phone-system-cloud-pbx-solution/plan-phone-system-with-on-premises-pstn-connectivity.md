@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Obtenga información acerca de las consideraciones de planeación para el sistema telefónico en Office 365 (en la nube PBX) con conectividad de RTC local.
-ms.openlocfilehash: 4614b3fdc62d8a51323ee7c9f261bec3d6cea6c3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 978da546961188c54c7e08e2ed140f8d01986e44
+ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531605"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "29686475"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planear el sistema telefónico en Office 365 con conectividad de RTC local en Skype para Business Server
 
 Obtenga información acerca de las consideraciones de planeación para el sistema telefónico en Office 365 (en la nube PBX) con conectividad de RTC local.
 
-Este contenido es relevante si ya dispone de Skype para Business Server o Lync Server 2013 implementado localmente. Para otros escenarios, vea [Planear el sistema telefónico en la solución de Office 365 (en la nube PBX)](plan-your-phone-system-cloud-pbx-solution.md).
+Este contenido es relevante si ya dispone de Skype para Business Server o Lync Server 2013 implementado localmente. Para otros escenarios, consulte [soluciones de telefonía de Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
  Sistema telefónico en Office 365 con conectividad de RTC local le permite aprovechar las capacidades de sistema telefónico (PBX en la nube) para los usuarios. Esto puede resultarle útil en los escenarios siguientes:
 
@@ -105,12 +105,12 @@ Además debe asegurarse de lo siguiente:
     > [!NOTE]
     > La versión de AAD Connect que use tiene que ser la versión 1.0.9125.0 o posterior. Si usa una versión anterior de las herramientas de AAD Connect o DirSync, actualice a la versión compatible. Puede actualizar la instalación actual y mantener las reglas personalizadas que haya definido en su entorno. 
 
-- **Configure su implementación híbrida** Si todos su Skype para usuarios profesionales actualmente están hospedados ya sea en línea o local, o si tiene actualmente una combinación, debe completar los pasos para configurar una implementación híbrida de Skype para Business Server o Lync Server 2013, tal como se describe en [implementación híbrida conectividad entre Skype para Business Server y Skype para profesionales Online](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). Para obtener más información de fondo en las implementaciones híbridas, consulte [Plan de conectividad híbrida entre Skype para Business Server y Skype para profesionales en línea](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md). 
+- **Configure su implementación híbrida** Si todos su Skype para usuarios profesionales actualmente están hospedados ya sea en línea o local, o si tiene actualmente una combinación, debe completar los pasos para configurar una implementación híbrida de Skype para Business Server o Lync Server 2013, tal como se describe en [implementación híbrida conectividad entre Skype para Business Server y Office 365](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). Para obtener más información de fondo en las implementaciones híbridas, consulte [Plan de conectividad híbrida entre Skype para Business Server y Office 365](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md). 
 
     Si está utilizando Lync Server 2013, consulte [Lync Server 2013 hybrid](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx).
 
 - **Servicios de federación de Active Directory (AD FS) (recomendado)** Se recomienda implementar AD FS para admitir Single Sign-on. Para obtener más información, vea [Servicios de federación de Active Directory (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx).
 
-Para obtener información acerca de la implementación del sistema de teléfono en Office 365, vea [Habilitar usuarios para el sistema telefónico en Office 365 con conectividad de RTC local en Skype para Business Server](enable-users-for-phone-system.md).
+Para obtener información acerca de la implementación del sistema de teléfono en Office 365, consulte [configuración de sistema de teléfono de la organización](https://docs.microsoft.com/en-us/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 

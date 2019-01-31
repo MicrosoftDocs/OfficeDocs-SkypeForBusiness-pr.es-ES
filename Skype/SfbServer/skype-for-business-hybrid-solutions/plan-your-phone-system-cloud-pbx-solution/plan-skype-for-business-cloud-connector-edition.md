@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Obtenga información sobre Skype Empresarial Cloud Connector Edition, un conjunto de máquinas virtuales (VM) empaquetadas que implementa la conectividad RTC local con el Sistema telefónico de Office 365 (PBX en la nube).
-ms.openlocfilehash: 6fcdaf3d3186effa5bb88f1252d51537dd1dba5f
-ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
+ms.openlocfilehash: 4d03d8ea6936ad906de01a5b478fce01d62113c4
+ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26676481"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "29686511"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Plan para Skype Empresarial Cloud Connector Edition
 
 Obtenga información sobre Skype Empresarial Cloud Connector Edition, un conjunto de máquinas virtuales (VM) empaquetadas que implementa la conectividad RTC local con el Sistema telefónico de Office 365 (PBX en la nube).
 
-En la nube conector Edition puede ser la solución adecuada para su organización si no ya tiene un servidor existente de Lync o Skype para la implementación de Business Server. Si aún está investigar el sistema telefónico en la solución de Office 365 es el adecuado para su negocio, vea [Planear el sistema telefónico en la solución de Office 365 (en la nube PBX)](plan-your-phone-system-cloud-pbx-solution.md).
+En la nube conector Edition puede ser la solución adecuada para su organización si no ya tiene un servidor existente de Lync o Skype para la implementación de Business Server. Si aún está investigar el sistema telefónico en la solución de Office 365 es el adecuado para su negocio, consulte [soluciones de telefonía de Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
 Este documento describe los requisitos de las ediciones de conector en la nube y las topologías admitidas y le ayudará a planear la implementación de nube conector Edition. Asegúrese de leer este tema antes de configurar el entorno de conector en la nube. Cuando esté listo para implementar y configurar Edition de conector en la nube, vea [configurar y administrar Skype para Business Edition de conector en la nube](configure-skype-for-business-cloud-connector-edition.md).
 
@@ -262,7 +262,7 @@ Antes de implementar en la nube conector Edition, asegúrese de que tener lo sig
 - Un inquilino de Office 365 con todos los registros SRV y a de DNS creado.
 
     > [!IMPORTANT]
-    > Al integrar el inquilino con la edición de conector en la nube, el uso del sufijo de dominio predeterminado,. onmicrosoft.com, como un dominio SIP de la organización no se admite. > No puede usar sip. \<Nombre de dominio\> como el nombre de su acceso perimetral de conector de nube de proxy de la interfaz debido a que se usa este registro DNS en Office 365.
+    > Al integrar el inquilino con la edición de conector en la nube, el uso del sufijo de dominio predeterminado,. onmicrosoft.com, como un dominio SIP de la organización no se admite. > no se puede usar sip. \<Nombre de dominio\> como el nombre de su acceso perimetral de conector de nube de proxy de la interfaz debido a que se usa este registro DNS en Office 365.
 
 - Un certificado del servidor perimetral externo obtenido de una entidad de certificación (CA) pública.
 
@@ -380,10 +380,10 @@ En este caso, todo el tráfico de medios a internet fluirá a través del borde 
 |**IP de origen**|**IP de destino**|**Puerto de origen**|**Puerto de destino**|
 |:-----|:-----|:-----|:-----|
 |Cualquiera  <br/> |Interfaz externa del borde de conector en la nube  <br/> |Cualquiera  <br/> |TCP(MTLS) 5061  <br/> |
-|Interfaz externa del borde de conector en la nube  <br/> |Cualquiera  <br/> |Cualquiera  <br/> |TCP(MTLS) 5061  <br/> |
-|Interfaz externa del borde de conector en la nube  <br/> |Cualquiera  <br/> |Cualquiera  <br/> |TCP 80  <br/> |
-|Interfaz externa del borde de conector en la nube  <br/> |Cualquiera  <br/> |Cualquiera  <br/> |UDP 53  <br/> |
-|Interfaz externa del borde de conector en la nube  <br/> |Cualquiera  <br/> |Cualquiera  <br/> |TCP 53  <br/> |
+|Interfaz externa del borde de conector en la nube  <br/> |Cualquiera   <br/> |Cualquiera  <br/> |TCP(MTLS) 5061  <br/> |
+|Interfaz externa del borde de conector en la nube  <br/> |Cualquiera   <br/> |Cualquiera  <br/> |TCP 80  <br/> |
+|Interfaz externa del borde de conector en la nube  <br/> |Cualquiera   <br/> |Cualquiera  <br/> |UDP 53  <br/> |
+|Interfaz externa del borde de conector en la nube  <br/> |Cualquiera   <br/> |Cualquiera  <br/> |TCP 53  <br/> |
 |Interfaz externa del borde de conector en la nube  <br/> |Cualquiera  <br/> |UDP 3478  <br/> |UDP 3478  <br/> |
 |Cualquiera  <br/> |Interfaz externa del borde de conector en la nube  <br/> |TCP 50.000-59.999  <br/> |TCP 443  <br/> |
 |Cualquiera  <br/> |Interfaz externa del borde de conector en la nube  <br/> |UDP 3478  <br/> |UDP 3478  <br/> |
@@ -402,12 +402,12 @@ En este caso, todo el tráfico de medios para el punto final en internet puede f
 |**IP de origen**|**IP de destino**|**Puerto de origen**|**Puerto de destino**|
 |:-----|:-----|:-----|:-----|
 |Cualquiera  <br/> |Interfaz externa del borde de conector en la nube  <br/> |Cualquiera  <br/> |TCP(MTLS) 5061  <br/> |
-|Interfaz externa del borde de conector en la nube  <br/> |Cualquiera  <br/> |Cualquiera  <br/> |TCP(MTLS) 5061  <br/> |
-|Interfaz externa del borde de conector en la nube  <br/> |Cualquiera  <br/> |Cualquiera  <br/> |TCP 80  <br/> |
-|Interfaz externa del borde de conector en la nube  <br/> |Cualquiera  <br/> |Cualquiera  <br/> |UDP 53  <br/> |
-|Interfaz externa del borde de conector en la nube  <br/> |Cualquiera  <br/> |Cualquiera  <br/> |TCP 53  <br/> |
+|Interfaz externa del borde de conector en la nube  <br/> |Cualquiera   <br/> |Cualquiera  <br/> |TCP(MTLS) 5061  <br/> |
+|Interfaz externa del borde de conector en la nube  <br/> |Cualquiera   <br/> |Cualquiera  <br/> |TCP 80  <br/> |
+|Interfaz externa del borde de conector en la nube  <br/> |Cualquiera   <br/> |Cualquiera  <br/> |UDP 53  <br/> |
+|Interfaz externa del borde de conector en la nube  <br/> |Cualquiera   <br/> |Cualquiera  <br/> |TCP 53  <br/> |
 |Interfaz externa del borde de conector en la nube  <br/> |Cualquiera  <br/> |TCP 50.000-59.999  <br/> |Cualquiera  <br/> |
-|Interfaz externa del borde de conector en la nube  <br/> |Cualquiera  <br/> |UDP 3478; UDP 50000-59999  <br/> |Cualquiera  <br/> |
+|Interfaz externa del borde de conector en la nube  <br/> |Cualquiera  <br/> |UDP 3478; UDP 50000-59999  <br/> |Cualquiera   <br/> |
 |Cualquiera  <br/> |Interfaz externa del borde de conector en la nube  <br/> |Cualquiera  <br/> |TCP 443; TCP 50000-59999  <br/> |
 |Cualquiera  <br/> |Interfaz externa del borde de conector en la nube  <br/> |Cualquiera  <br/> |UDP 3478; UDP 50000-59999  <br/> |
 
@@ -497,10 +497,10 @@ Al configurar la información de puerta de enlace, recuerde lo siguiente:
 |Máquina de almacén de administración central (CMS)  <br/> |FQDN único que se usa para el Almacén de administración central (CMS). El nombre de dominio de AD se usará para generar el FQDN.  <br/> Nombre de archivo .ini: "NombreDeServidor" en "parámetros para principal servicio de Administración Central  <br/> |Debe tener 15 caracteres o menos de longitud. Escriba solo el nombre de Netbios.  <br/> (Nombre del grupo de servidores de CMS = nombre del servidor)  <br/> |
 |Dirección IP del equipo de CMS  <br/> |Dirección IP para servidor de CMS (interno de la red perimetral).  <br/> Nombre de archivo INI: "IP" bajo "parámetros para principal servicio de Administración Central  <br/> ||
 |Nombre de recurso compartido de archivos    <br/> |Nombre del recurso compartido de archivo que se creará en el servidor CMS de Skype para datos profesionales de replicación (por ejemplo, CmsFileStore).  <br/> En la mayoría de los casos, se puede usar el valor sugerido predeterminado.  <br/> Nombre de archivo .ini: "CmsFileStore" en "parámetros para principal servicio de Administración Central  <br/> ||
-|Componente del nombre de grupo de servidores de mediación  <br/> |Nombre de grupo del componente de mediación. Escriba únicamente el nombre NETBIOS. El nombre de dominio de AD se usará para generar el FQDN.  <br/> Nombre de archivo .ini: "PoolName" en "Parámetros para un grupo de servidores de mediación"  <br/> |Debe tener 15 caracteres o menos de longitud. Escriba solo el nombre de Netbios.  <br/> |
-|Nombre de componente de mediación  <br/> |Nombre de componente del componente de mediación 1. Escriba únicamente el nombre NETBIOS. El nombre de dominio de AD se usará para generar el FQDN.  <br/> Nombre de archivo .ini: "NombreDeServidor" en "Parámetros para un grupo de servidores de mediación"  <br/> |Debe tener 15 caracteres o menos de longitud. Escriba solo el nombre de Netbios.  <br/> |
+|Componente del nombre de grupo de servidores de mediación  <br/> |Nombre de grupo del componente de mediación. Escriba solo el nombre de Netbios. El nombre de dominio de AD se usará para generar el FQDN.  <br/> Nombre de archivo .ini: "PoolName" en "Parámetros para un grupo de servidores de mediación"  <br/> |Debe tener 15 caracteres o menos de longitud. Escriba solo el nombre de Netbios.  <br/> |
+|Nombre de componente de mediación  <br/> |Nombre de componente del componente de mediación 1. Escriba solo el nombre de Netbios. El nombre de dominio de AD se usará para generar el FQDN.  <br/> Nombre de archivo .ini: "NombreDeServidor" en "Parámetros para un grupo de servidores de mediación"  <br/> |Debe tener 15 caracteres o menos de longitud. Escriba solo el nombre de Netbios.  <br/> |
 |Dirección IP del equipo de mediación componente  <br/> |IP Corpnet interna para el componente de mediación (interno de la red perimetral).  <br/> Nombre de archivo .ini: "IP" bajo "Parámetros para un grupo de servidores de mediación"  <br/> ||
-|Nombre interno del grupo de servidores perimetrales  <br/> |Nombre de grupo del componente perimetral. Escriba únicamente el nombre NETBIOS. El nombre de dominio de AD se usará para generar el FQDN.  <br/> Nombre de archivo .ini: "InternalPoolName" en "Parámetros para un grupo de servidores perimetrales"  <br/> |Debe tener 15 caracteres o menos de longitud. Escriba solo el nombre de Netbios.  <br/> |
+|Nombre interno del grupo de servidores perimetrales  <br/> |Nombre de grupo del componente perimetral. Escriba solo el nombre de Netbios. El nombre de dominio de AD se usará para generar el FQDN.  <br/> Nombre de archivo .ini: "InternalPoolName" en "Parámetros para un grupo de servidores perimetrales"  <br/> |Debe tener 15 caracteres o menos de longitud. Escriba solo el nombre de Netbios.  <br/> |
 |Nombre interno del servidor perimetral  <br/> |Nombre de componente del componente perimetral. Escriba únicamente el nombre NETBIOS. El nombre de dominio de AD se usará para generar el FQDN.   <br/> Nombre de archivo .ini: "InternalServerName" en "Parámetros para un grupo de servidores perimetrales"  <br/> |Debe tener 15 caracteres o menos de longitud. Escriba solo el nombre de Netbios.  <br/> |
 |IP interna del servidor perimetral   <br/> |Componente de IP de perímetro de red de perímetro interno para comunicarse con otros componentes del conector en la nube.  <br/> Nombre de archivo .ini: "InternalServerIPs" en "Parámetros para un grupo de servidores perimetrales"  <br/> ||
 |Nombre externo de grupo de servidores de acceso  <br/> |El nombre del componente perimetral de acceso (por ejemplo, AP). Este nombre tiene que coincidir con el nombre proporcionado para el certificado SSL. Escriba únicamente el nombre NETBIOS. El nombre de dominio SIP se usará para generar el FQDN. Un nombre de grupo de servidores externos se usará para todos los componentes de borde en el grupo de servidores. Un grupo de servidores de acceso perimetral es necesario por sitio de RTC.  <br/> Nombre de archivo .ini: "ExternalSIPPoolName" en "Parámetros para un grupo de servidores perimetrales"  <br/> |Debe tener 15 caracteres o menos de longitud. Escriba solo el nombre de Netbios.  <br/> "sip" está reservado y, por tanto, no se puede usar como el nombre.  <br/> El nombre de FQDN generado debe coincidir con el nombre que proporciona el certificado SSL.    <br/> |
@@ -705,7 +705,7 @@ Cloud Connector 2.1 y versiones posteriores admiten la supervisión de Cloud Con
 
 Para obtener más información, consulte lo siguiente:
 
-- [Planear el sistema telefónico en la solución de Office 365 (en la nube PBX)](plan-your-phone-system-cloud-pbx-solution.md)
+- [Soluciones de telefonía de Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [Configuración y administración de Skype Empresarial Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md)
 

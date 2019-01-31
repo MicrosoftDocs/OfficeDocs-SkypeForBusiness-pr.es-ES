@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: 'Resumen: Explore estos vínculos para obtener información sobre cómo implementar Skype para Business Server 2015.'
-ms.openlocfilehash: bab1513d34aba9a48a1740ebd4101bea1eccce1a
-ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
+ms.openlocfilehash: cfd3745b2b8e43c475028595e4bd8b8e9b3b5266
+ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2018
-ms.locfileid: "27131289"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "29686518"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype Empresarial Server 2015
 
@@ -43,7 +43,7 @@ Skype para la empresa es una plataforma de comunicaciones y colaboración que re
         </a>
     </li>
     <li>
-        <a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions">
+        <a href="/SkypeForBusiness/hybrid/plan-hybrid-connectivity">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -71,7 +71,7 @@ Skype para la empresa es una plataforma de comunicaciones y colaboración que re
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Implementar </h3>
+                        <h3>Implementar</h3>
                     </div>
                 </div>
             </div>
@@ -198,9 +198,7 @@ Skype para la empresa es una plataforma de comunicaciones y colaboración que re
                     <div class="cardText">
                         <h3>Soluciones híbridas</h3>
                         <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">Planeación de la conectividad híbrida</a></p>
-                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution" data-raw-source="[Plan your Phone System (Cloud PBX) solution ](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution)">Planear la solución de sistema telefónico (PBX en la nube)</a></p>
-                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition" data-raw-source="[Plan for Cloud Connector Edition](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)">Planeación de la edición de conector en la nube</a></p>
-               </div>
+                                       </div>
                 </div>
             </div>
         </div> 
