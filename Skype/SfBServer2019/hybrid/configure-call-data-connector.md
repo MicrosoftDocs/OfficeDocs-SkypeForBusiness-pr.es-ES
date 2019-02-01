@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instrucciones para configurar el conector de datos de llamadas, que permite la telemetría de Skype para empresarial local para verse mediante Skype para herramientas profesionales en línea.
-ms.openlocfilehash: 959bb182da91029fd43ebc3ccb99fb5a69d820b2
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 4b358562838cfd1412891514e999f2c8544f3a4f
+ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533137"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690462"
 ---
 # <a name="configure-call-data-connector"></a>Configurar el conector de datos de llamada
 
@@ -27,7 +27,7 @@ Para obtener más información acerca de las ventajas de conector de datos de ll
 
 ## <a name="enable-monitoring"></a>Habilitar la supervisión
  
-Debe configurar el registro de datos de llamadas (CDR) y recopilación de datos de calidad de la experiencia (QoE) en el front-end del grupo de servidores de supervisión, con bases de datos LCSCdr y QoEMetrics locales; de lo contrario, el análisis de llamadas y paneles de calidad de llamadas no obtienen datos para que funcione con. Antes Configure conector de datos de llamada, siga los pasos proporcionados en [Deploy supervisión en Skype para Business Server](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) para configurar tanto CDR y QoE, así como supervisión básica.
+Debe configurar el registro de datos de llamadas (CDR) y recopilación de datos de calidad de la experiencia (QoE) en el front-end del grupo de servidores de supervisión, con bases de datos LcsCDR y QoEMetrics locales; de lo contrario, el análisis de llamadas y paneles de calidad de llamadas no obtienen datos para que funcione con. Antes Configure conector de datos de llamada, siga los pasos proporcionados en [Deploy supervisión en Skype para Business Server](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) para configurar tanto CDR y QoE, así como supervisión básica.
 
 > [!IMPORTANT]
 > Conector de datos de llamada no funcionará si no está habilitada la supervisión en el grupo de servidores front-end.

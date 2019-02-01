@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo enrutamiento directo de Microsoft teléfono del sistema le permite conectar un compatibles, proporcionado por el cliente sesión controlador de borde (SBC) para el sistema telefónico de Microsoft.
-ms.openlocfilehash: dbc3de5c6eb7a9f45be1165614cd14fcb2d6d8c9
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 77c4e21b2be0f8d4729924484102ba31becbfbe7
+ms.sourcegitcommit: 10370b163e5a9d0e27dde71b847c8bca26dcaa74
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297884"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690575"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -135,7 +135,7 @@ Microsoft recomienda encarecidamente que solicitar el certificado para el SBC me
 
 El certificado debe tener el FQDN SBC en el asunto, el nombre común o los campos de nombre alternativo de sujeto.
 
-Como alternativa, el enrutamiento directo es compatible con un carácter comodín en el nombre común o SAN, y el carácter comodín debe ajustarse al estándar [RFC HTTP a través de TLS](https://tools.ietf.org/html/rfc2818#section-3.1). Un ejemplo sería utilizar *. contoso.com en el SAN, que coincidirá con el FQDN SBC sbc.contoso.com, pero no coincide con sbc.test.contoso.com.
+Como alternativa, el enrutamiento directo es compatible con un carácter comodín en SAN, y el carácter comodín debe ajustarse al estándar [RFC HTTP a través de TLS](https://tools.ietf.org/html/rfc2818#section-3.1). Un ejemplo sería utilizar *. contoso.com en el SAN, que coincidirá con el FQDN SBC sbc.contoso.com, pero no coincide con sbc.test.contoso.com.
 
 El certificado debe ser generado por una de las siguientes entidades de certificación raíz:
 

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Información general del uso de Skype para herramientas de telemetría de negocio en línea para supervisar una implementación local en un escenario híbrido.
-ms.openlocfilehash: 6bcf1e26ca005a30e4f1c940f655a3277e18001e
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 4e38f7d190cd30c1f0e39dc4cdfa5166ba6a929d
+ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349539"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690448"
 ---
 # <a name="plan-call-data-connector"></a>Planeación de conector de datos de llamada
 
@@ -68,7 +68,7 @@ Los siguientes requisitos se suponen que ya dispone de Skype para Business Serve
 
 - Si no lo ha hecho ya, activar en el panel de calidad de llamada tal como se describe en [activar y con el panel de calidad de llamadas para los equipos de Microsoft y Skype para profesionales en línea](/microsoftteams/turning-on-and-using-call-quality-dashboard).
 
-- Habilitar el grupo de servidores front-end de supervisión, con bases de datos LCSCdr y QoEMetrics locales. Sin esto, llame al conector de datos no tiene datos de métricas para que funcione con.
+- Habilitar el grupo de servidores front-end de supervisión, con bases de datos LcsCDR y QoEMetrics locales. Sin esto, llame al conector de datos no tiene datos de métricas para que funcione con.
 
 > [!IMPORTANT]
 > Conector de datos de llamada no funcionará si no está habilitada la supervisión en el grupo de servidores front-end.
@@ -78,13 +78,13 @@ Los siguientes requisitos se suponen que ya dispone de Skype para Business Serve
 | Informes de característica | Skype Empresarial Online | Skype Empresarial Server   |
 |:---------------------------|:---------------------|:---------------------|:------------------|
 | Métrica de uso compartido de aplicaciones |Sí | Limitado |
-| Información de creación de cliente| Sí | Sí |
+| Información de creación de cliente| Sí  | Sí |
 | Análisis en profundidad | Sí | No |
 | Métricas de confiabilidad de medios | Sí | Limitado |
-| Informes de fábrica | Sí | Sí |
+| Informes de fábrica | Sí  | Sí |
 | Información general sobre informes | Sí | No |
-| Por informes de usuario | Sí | Sí |
-| Personalización del conjunto de informes <br> (agregar, eliminar, modificar informes) | Sí | Sí |
+| Por informes de usuario | Sí  | Sí |
+| Personalización del conjunto de informes <br> (agregar, eliminar, modificar informes) | Sí  | Sí |
 | Uso compartido de las métricas de pantalla basados en vídeo | Sí | No |
 | API de datos para el acceso mediante programación <br> a CQD | No | Sí |
 ||||

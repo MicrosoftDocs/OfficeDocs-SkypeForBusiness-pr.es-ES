@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Resumen: Revise las consideraciones de uso del puerto antes de implementar Skype para Business Server.'
-ms.openlocfilehash: 3de98f096215c8f703f23081d2b102d3d5c9ffac
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: b02f329fdc8209fa9143a966181180ed7cf3b0be
+ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530876"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690477"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de protocolo y puerto para los servidores
  
@@ -31,7 +31,7 @@ Aunque esto puede parecer complicado bit en primer lugar, el trabajo para planea
   
 También puede encontrar la información en estas tablas en forma de diagrama revisando el póster de cargas de trabajo de protocolo vinculado fuera el artículo [Technical diagrams de Skype para Business Server 2015](../../technical-diagrams.md) .
 > [!NOTE]
-> - Si se está implementando Skype para profesionales en línea (O365) hacen referencia a [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Entornos híbridos deberá hacer referencia a este tema y también los [requisitos de puerto y protocolo](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md#port-and-protocol-requirements)híbrida.
+> - Si se está implementando Skype para profesionales en línea (O365) hacen referencia a [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Entornos híbridos deberá hacer referencia a este tema y también [Planear la conectividad híbrida](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md).
 > - Se puede tener los servidores de seguridad de hardware o software, no requieren modelos específicos o versiones. Lo que importa es qué puertos están en la lista blanca, por lo que el servidor de seguridad no poner en peligro el funcionamiento de Skype para Business Server.
   
 ## <a name="port-and-protocol-details"></a>Detalles de protocolo y puerto
@@ -181,18 +181,18 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 
 |Nombre de regla|IP de origen|IP de destino|Protocolo|Puerto de origen|Puerto de destino|Requisito de autenticación|
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
-|Servidor perimetral A/V interno entrante  |Cualquiera  |Servidor perimetral A/V interno  |UDP y TCP  |Cualquiera  |Cualquiera  |No autenticar  |
-|Servidor perimetral A/V externo entrante  |Cualquiera  |Servidor perimetral A/V externo  |UDP y TCP  |Cualquiera  |Cualquiera  |No autenticar  |
-|Servidor perimetral A/V interno saliente  |Servidor perimetral A/V interno  |Cualquiera  |UDP &amp; TCP  |Cualquiera  |Cualquiera  |No autenticar  |
-|Servidor perimetral A/V externo saliente  |Servidor perimetral A/V externo  |Cualquiera  |UDP y TCP  |Cualquiera  |Cualquiera  |No autenticar  |
-|Servidor de mediación entrante  |Cualquiera  |Servidores  <br/> de mediación  |UDP y TCP  |Cualquiera  |Cualquiera  |No autenticar  |
-|Servidor de mediación saliente  |Servidores  <br/> de mediación  |Cualquiera  |UDP y TCP  |Cualquiera  |Cualquiera  |No autenticar  |
-|Operador de conferencia entrante  |Cualquiera  |Servidor front-end que ejecuta operador de conferencia  |UDP y TCP  |Cualquiera  |Cualquiera  |No autenticar  |
-|Operador de conferencia saliente  |Servidor front-end que ejecuta operador de conferencia  |Cualquiera  |UDP y TCP  |Cualquiera  |Cualquiera  |No autenticar  |
-|Servidor de conferencia A/V entrante  |Cualquiera  |Servidores front-end  |UDP y TCP  |Cualquiera  |Cualquiera  |No autenticar  |
-|Salida de conferencia A/V  |Servidores front-end  |Cualquiera  |UDP y TCP  |Cualquiera  |Cualquiera  |No autenticar  |
-|Exchange entrante  |Cualquiera  |Mensajería unificada de Exchange  |UDP y TCP  |Cualquiera  |Cualquiera  |No autenticar  |
-|Servidores de aplicaciones compartidas entrantes  |Cualquiera  |Servidores de aplicaciones compartidas  |TCP  |Cualquiera  |Cualquiera  |No autenticar  |
-|Servidor de aplicaciones compartidas saliente  |Servidores de aplicaciones compartidas  |Cualquiera  |TCP  |Cualquiera  |Cualquiera  |No autenticar  |
-|Exchange saliente  |Mensajería unificada de Exchange  |Cualquiera  |UDP y TCP  |Cualquiera  |Cualquiera  |No autenticar  |
-|Clientes  |Cualquiera  |Cualquiera  |UDP  |Intervalo de puertos de medios especificado  |Cualquiera  |No autenticar  |
+|Servidor perimetral A/V interno entrante  |Cualquiera  |Servidor perimetral A/V interno  |UDP y TCP  |Cualquiera   |Cualquiera  |No autenticar  |
+|Servidor perimetral A/V externo entrante  |Cualquiera  |Servidor perimetral A/V externo  |UDP y TCP  |Cualquiera   |Cualquiera  |No autenticar  |
+|Servidor perimetral A/V interno saliente  |Servidor perimetral A/V interno  |Cualquiera  |UDP &amp; TCP  |Cualquiera   |Cualquiera  |No autenticar  |
+|Servidor perimetral A/V externo saliente  |Servidor perimetral A/V externo  |Cualquiera  |UDP y TCP  |Cualquiera   |Cualquiera  |No autenticar  |
+|Servidor de mediación entrante  |Cualquiera  |Servidores  <br/> de mediación  |UDP y TCP  |Cualquiera   |Cualquiera  |No autenticar  |
+|Servidor de mediación saliente  |Servidores  <br/> de mediación  |Cualquiera  |UDP y TCP  |Cualquiera   |Cualquiera  |No autenticar  |
+|Operador de conferencia entrante  |Cualquiera  |Servidor front-end que ejecuta operador de conferencia  |UDP y TCP  |Cualquiera   |Cualquiera  |No autenticar  |
+|Operador de conferencia saliente  |Servidor front-end que ejecuta operador de conferencia  |Cualquiera  |UDP y TCP  |Cualquiera   |Cualquiera  |No autenticar  |
+|Servidor de conferencia A/V entrante  |Cualquiera  |Servidores front-end  |UDP y TCP  |Cualquiera   |Cualquiera  |No autenticar  |
+|Salida de conferencia A/V  |Servidores front-end  |Cualquiera  |UDP y TCP  |Cualquiera   |Cualquiera  |No autenticar  |
+|Exchange entrante  |Cualquiera  |Mensajería unificada de Exchange  |UDP y TCP  |Cualquiera   |Cualquiera  |No autenticar  |
+|Servidores de aplicaciones compartidas entrantes  |Cualquiera  |Servidores de aplicaciones compartidas  |TCP  |Cualquiera   |Cualquiera  |No autenticar  |
+|Servidor de aplicaciones compartidas saliente  |Servidores de aplicaciones compartidas  |Cualquiera  |TCP  |Cualquiera   |Cualquiera  |No autenticar  |
+|Exchange saliente  |Mensajería unificada de Exchange  |Cualquiera  |UDP y TCP  |Cualquiera   |Cualquiera  |No autenticar  |
+|Clientes  |Cualquiera   |Cualquiera  |UDP  |Intervalo de puertos de medios especificado  |Cualquiera  |No autenticar  |

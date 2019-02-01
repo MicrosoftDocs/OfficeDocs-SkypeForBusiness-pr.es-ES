@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Hong Kong los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 33f685d4e3da5b17395caffb5e6e09a9111cc9b8
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: e25fd1bb12f3ee7e2e0f4aac236519bab37de483
+ms.sourcegitcommit: 10370b163e5a9d0e27dde71b847c8bca26dcaa74
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013468"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690552"
 ---
 # <a name="availability-in-hong-kong"></a>Disponibilidad en Hong Kong
 
@@ -43,7 +43,7 @@ Aquí están disponibles para Hong Kong los servicios de Office 365 para Skype p
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿La audioconferencia está disponible para la compra?  <br/> |No  <br/> |
+|¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para:<br/><ul><li> Hong Kong</ul> Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible  <br/> |
    
