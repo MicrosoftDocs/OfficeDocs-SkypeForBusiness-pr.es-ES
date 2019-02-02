@@ -13,45 +13,25 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c65d5378ebe72175ac3238ba058866c49f6c4dd
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: c1fc83f0911849655c1a27bdee2d87107f6eaebc
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772804"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706318"
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 =================================
 
 Cuando a un invitado se le ofrece unirse a un equipo, recibe un mensaje de correo de bienvenida que incluye información sobre el equipo y qué puede esperar ahora que es miembro. El invitado debe canjear la invitación del mensaje de correo electrónico para poder acceder al equipo y sus canales.
-  
-    
-    
-
-  
-    
     
 ![Ejemplo de un mensaje de correo electrónico de bienvenida enviado por el propietario de un equipo en Microsoft Teams a un usuario invitado. El mensaje incluye texto que puede personalizar el propietario del equipo y breves descripciones de las características de Microsoft Teams, como el chat, las llamadas y las reuniones.](media/guest-experience-image1.png)
-  
-    
     
 Todos los miembros del equipo ven un mensaje en el hilo del canal en el que se anuncia que el propietario del equipo ha agregado a un invitado y da el nombre del invitado. Todos los miembros del equipo pueden identificar con facilidad quién es un invitado. Como se muestra en la siguiente captura de pantalla realizada en un equipo de muestra, un banner indica "Este equipo tiene invitados" y aparece una etiqueta "INVITADO" junto al nombre de cada invitado.
-  
-    
-    
-
-  
-    
     
 ![La captura de pantalla muestra una parte del canal de marketing para Northwind Traders, con la notificación en el banner superior que indica "Este equipo tiene invitados" y los usuarios que son invitados identificados con la palabra "INVITADO" junto a su nombre.](media/guest-experience-image2.png)
-  
-    
-    
-En la siguiente tabla se compara la funcionalidad de Microsoft Teams que está disponible para los miembros del equipo de una organización con la funcionalidad que está disponible para un usuario invitado del equipo.
-  
-    
-    
 
+En la siguiente tabla se compara la funcionalidad de Microsoft Teams que está disponible para los miembros del equipo de una organización con la funcionalidad que está disponible para un usuario invitado del equipo.
 
 |**Funcionalidad en Microsoft Teams**|**Usuario de Microsoft Teams de la organización**|**Usuario invitado**|
 |:-----|:-----|:-----|
@@ -103,15 +83,17 @@ En la siguiente tabla muestra las características llamadas y convocatorias de r
 
 <sup>1</sup> esta característica estará disponible pronto.
 
-
-
 > [!NOTE]
 > Los administradores de Office 365 controlan las características que tienen a su disposición los invitados. 
-  
+ 
+## <a name="guest-access-vs-external-access-federation"></a>Acceso de invitado frente a acceso externo (federación de)
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+ 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
   
 Q. ¿Los invitados tienen las mismas funciones que los miembros del equipo?<br>
-A. No. Para obtener más información acerca de qué invitado puede y no puede hacer, vaya a las capacidades de invitado en los equipos.
+A. No. Para obtener más información acerca de qué invitado puede y no puede hacer, vaya a [las capacidades de invitado en los equipos](https://support.office.com/article/guest-capabilities-in-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b).
 
 Q. ¿Cuántas invitados puedo invitar?<br>
 A. Puede agregar hasta 5 invitados por licencia de usuario.

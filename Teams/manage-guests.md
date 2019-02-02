@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Los administradores de TI pueden agregar invitados en el nivel de inquilino, configurar y administrar permisos y directivas de usuarios invitados, determinar qué usuarios pueden invitar y extraer informes sobre la actividad de los usuarios invitados.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c43309a6e4ae287181f6e363a40d99a0650984cc
-ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
+ms.openlocfilehash: 3866e4c3f8e63e9fe8518917193d4587e670ad93
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28328250"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706294"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Administrar el acceso de invitado a Microsoft Teams
 ======================================
@@ -37,6 +37,10 @@ Puede usar el portal de Azure Active Directory para administrar los invitados y 
 > [!NOTE]
 > Microsoft Teams siempre respeta la configuración externa de Azure Active Directory para permitir o evitar adiciones de usuario de invitado para el inquilino. Para obtener más información, vea [autorizar el acceso de invitado en los equipos de Microsoft](Teams-dependencies.md).
   
+## <a name="guest-access-vs-external-access-federation"></a>Acceso de invitado frente a acceso externo (federación de)
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
 ## <a name="review-guest-access-periodically"></a>Revise periódicamente el acceso como invitado
 
 En los equipos, puede agregar a 5 invitados para cada usuario con licencia. Debido a esta limitación, o debido a que desea mantener el inquilino al día, debe revisar periódicamente para identificar a los usuarios que tienen acceso a los que no necesite acceso como invitado. Puede usar Azure Active Directory (AD Azure) para crear una revisión de acceso para los miembros del grupo o los usuarios asignados a una aplicación. Creación periódica access revisiones pueden ahorrar tiempo. Si necesita revisar periódicamente los usuarios que tienen acceso a una aplicación o son miembros de un grupo, puede definir la frecuencia de las revisiones. 

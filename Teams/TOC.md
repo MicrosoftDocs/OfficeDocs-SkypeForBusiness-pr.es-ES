@@ -21,6 +21,7 @@
 ## [Asignar miembros y propietarios de equipo en Microsoft Teams](assign-roles-permissions.md)
 ## [Prácticas recomendadas para organizar equipos en Microsoft Teams](best-practices-organizing.md)
 ## [Crear un equipo de toda la organización en los equipos](create-an-org-wide-team.md)
+## [¿Qué son de las directivas de mensajería?](messaging-policies-in-teams.md)
 ## [Introducción a las plantillas de Teams](get-started-with-teams-templates.md)
 ## [Información general sobre la pertenencia dinámica para los equipos](dynamic-memberships.md)
 ## [Presencia](presence-admins.md)
@@ -52,6 +53,7 @@
 ### [Usar PowerShell para controlar el acceso de invitado a un equipo](guest-access-PowerShell.md)
 ### [Lista de comprobación de acceso de invitado](guest-access-checklist.md)
 
+## [Acceso externo (federación de)](manage-external-access.md)
 
 ## [Administración de equipos](using-admin-roles.md)
 ### [Administrar las características de los equipos en la organización](enable-features-office-365.md)
@@ -114,7 +116,6 @@
 # [Conferencia de & de las reuniones](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Reuniones en Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Administrar la configuración de las reuniones](meeting-settings-in-teams.md)
-## [¿Qué son de las directivas de mensajería?](messaging-policies-in-teams.md)
 ## [Correos electrónicos que se envían a los usuarios cuando cambia la configuración](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Permitir que los usuarios registren su nombre cuando se unan a una reunión](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Activar o desactivar los anuncios de entrada y salida para las reuniones](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
@@ -288,7 +289,7 @@
 ### [Uso compartido de llamada y el grupo de atención de llamadas](call-sharing-and-group-call-pickup.md)
 ### [Apariencia de línea compartida](shared-line-appearance.md)
 
-## [Planes de llamada](calling-plan-landing-page.md)
+## [Planes de llamadas](calling-plan-landing-page.md)
 ### [Planes de llamada para Office 365](calling-plans-for-office-365.md)
 ### [Configurar planes de llamada para la organización](set-up-calling-plans.md)
 ### [Guía de inicio rápido: configuración de planes de llamada](configuring-teams-calling-quickstartguide.md)

@@ -3,7 +3,7 @@ title: Lista de comprobación para el acceso de invitado de Microsoft Teams
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
-ms.date: 11/09/18
+ms.date: 01/22/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efb5b4394ae7659982a747e79ace2296dbdf2345
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 0e51042d5478dbaeb89691b9ad482955055a58ac
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326712"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706374"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de comprobación de acceso de invitado a los equipos
 ==========================================
@@ -39,6 +39,10 @@ La experiencia de invitado tiene limitaciones por diseño. Asegúrese de que com
 - Cargar archivos a una conversación entre dos persona
 
 Para obtener más información, vea [¿Qué es la experiencia de invitado como](guest-experience.md) y [acceso de invitado en grupos de Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
+
+### <a name="guest-access-vs-external-access-federation"></a>Acceso de invitado frente a acceso externo (federación de)
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>Si los invitados están viendo errores de licencia
 

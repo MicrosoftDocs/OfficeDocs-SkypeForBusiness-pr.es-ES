@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e50992aa8489d93b577e957cffc98c18e7cc15e
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: da73768f69159c32543d0843139facc2b9ef4f9a
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988181"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706358"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurar la administración para aplicaciones en Microsoft Teams
 ==========================================
@@ -29,7 +29,7 @@ ms.locfileid: "27988181"
 
 Aplicaciones son las fichas, conectores, bots o cualquier combinación de estos tres, proporcionada por y los equipos (aplicaciones de cookies, también conocido como aplicaciones de forma predeterminada) o por un tercero (también conocido como aplicaciones externas). En el centro de administración de Microsoft 365, puede habilitar y deshabilitar aplicaciones predeterminadas y configurar las opciones para controlar las aplicaciones externas. Esta configuración permite especificar qué aplicaciones externas permitidas y no permitidos, nuevo comportamiento de la aplicación externa, y si se permite la carga de lado aplicaciones.
 
- Para administrar la configuración de administración de aplicaciones en los equipos, vaya al centro de administración de Microsoft 365 y elija **configuración** > **Services & complementos** > **Equipos de Microsoft**. Si ha iniciado sesión como administrador de Office 365, puede acceder con este vínculo:
+ Para administrar la configuración de administración de aplicaciones en los equipos, vaya al centro de administración de Microsoft 365 y elija **configuración** > **complementos & de servicios** > **Equipos de Microsoft**. Si ha iniciado sesión como administrador de Office 365, puede acceder con este vínculo:
 
 https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
 

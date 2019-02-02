@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42fead56b8064d2697ca4e8b115eefd0116a5e36
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: bc01f54229e5a2644fc004b4014ad41e3c0f8d73
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772764"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706262"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Activar o desactivar el acceso de invitado a Microsoft Teams
 ======================================
@@ -28,13 +28,16 @@ Como administrador de Office 365, debe habilitar la característica de invitado 
 
 La configuración de invitado se establece en Azure Active Directory. Los cambios tardan de 2 a 24 en ser efectivos en toda la organización de Office 365. Si un usuario ve el mensaje "Póngase en contacto con el administrador" al intentar agregar un invitado a su equipo, es probable que todavía no se ha habilitado la característica de invitado o que la configuración no es efectiva todavía.
 
-
 > [!IMPORTANT]
 > Para habilitar la experiencia completa de la característica de acceso de invitado, es muy importante que conozca bien la dependencia de autorización principal entre Microsoft Teams, Azure Active Directory y Office 365. Para obtener más información, consulte [Autorizar el acceso de invitado en Microsoft Teams](Teams-dependencies.md).
 
-## <a name="configure-guest-access-in-the-teams--skype-for-business-admin-center"></a>Configurar el acceso de invitado en los equipos & Skype para centro de administración de negocio
+## <a name="guest-access-vs-external-access-federation"></a>Acceso de invitado frente a acceso externo (federación de)
 
-1.  Inicie sesión en los equipos de & Skype para el centro de administración de negocio.
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+## <a name="configure-guest-access-in-the-teams--skype-for-business-admin-center"></a>Configurar el acceso de invitado en la & equipos Skype para el centro de administración de negocio
+
+1.  Inicie sesión en la & equipos Skype para el centro de administración de negocio.
 
 2.  Seleccione **configuración de toda la organización** > **acceso de invitado**.
 
@@ -54,7 +57,7 @@ La configuración de invitado se establece en Azure Active Directory. Los cambio
     - **Editar los mensajes enviados** : activar esta opción **en** para permitir que los invitados editar los mensajes envió anteriormente.
     - **Los invitados pueden eliminar los mensajes enviados** : activar esta opción **en** para permitir que los invitados eliminar los mensajes envió anteriormente.
     - **Chat** – activar esta opción **en** para dar invitados de la capacidad de usar chat en los equipos.
-    - **Use Giphys en las conversaciones** – activar esta opción **en** para permitir que los invitados a usar Giphys en las conversaciones. Giphy es una base de datos en línea y el motor de búsqueda que permite a los usuarios buscar y compartir los archivos GIF animados. Cada Giphy se le asigna una clasificación de contenido.
+    - **Use Giphys en las conversaciones** – activar esta opción **en** para permitir que los invitados a usar Giphys en las conversaciones. Giphy es una base de datos en línea y un motor de búsqueda que permite a los usuarios buscar y compartir archivos GIF animados. A cada Giphy se le asigna una clasificación de contenido.
     - **Clasificación de contenido Giphy** – seleccionar una clasificación de la lista desplegable:
        - **Permitir todo el contenido** - invitados podrán insertar todos los Giphys en los chats, independientemente de la clasificación del contenido.
        - **Moderado** - invitados podrán insertar Giphys en los chats, pero se limitará moderadamente de contenido para adultos.
