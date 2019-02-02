@@ -302,6 +302,11 @@
 ### [Cuentas de usuario en un entorno híbrido con conectividad RTC](direct-routing-user-accounts-in-a-hybrid-environment.md)
 ### [Configurar un controlador de borde de sesión para varios inquilinos](direct-routing-sbc-multiple-tenants.md)
 ### [Lista de controladores de borde de sesión certificados para el enrutamiento directo](direct-routing-border-controllers.md)
+### Enrutamiento basado en ubicación
+#### [Terminología de enrutamiento basados en ubicación](location-based-routing-terminology.md)
+#### [Planeación de enrutamiento basado en ubicación para el enrutamiento directo](location-based-routing-plan.md)
+#### [Establecer la configuración de red para el enrutamiento basado en la ubicación](location-based-routing-configure-network-settings.md)
+#### [Habilitar el enrutamiento basado en ubicación para el enrutamiento directo](location-based-routing-enable.md)
 ### Referencia técnica para el enrutamiento directo
 #### [Conmutación por error de tronco en llamadas salientes](direct-routing-trunk-failover-on-outbound-call.md)
 
@@ -641,6 +646,7 @@
 
 ## Equipos de los trabajadores de la firstline
 ### [Administrar la aplicación de turnos para su organización en los equipos](manage-the-shifts-app-for-your-organization-in-teams.md)
+### [Introducción a las plantillas de equipos de venta por menor](get-started-with-retail-teams-templates.md)
 
 ## [Planeación de gobierno de Microsoft 365 - GCC](plan-for-government-gcc.md)
 ### [Planeación de gobierno de Microsoft 365 - GCC alta](plan-for-government-gcc-high.md)
