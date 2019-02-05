@@ -23,6 +23,7 @@
 ## [Crear un equipo de toda la organización en los equipos](create-an-org-wide-team.md)
 ## [¿Qué son de las directivas de mensajería?](messaging-policies-in-teams.md)
 ## [Introducción a las plantillas de Teams](get-started-with-teams-templates.md)
+## [Empezar a trabajar con plantillas de Microsoft los equipos sanitarios](healthcare/healthcare-templates.md)
 ## [Información general sobre la pertenencia dinámica para los equipos](dynamic-memberships.md)
 ## [Presencia](presence-admins.md)
 ## [Comunicarse con los usuarios de los equipos de otras organizaciones](let-your-teams-users-communicate-with-other-people.md)
