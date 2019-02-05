@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Configuración de OAuth autenticación entre Exchange local y Skype para profesionales en línea permite la Skype para características empresariales y de integración de Exchange que se describen en compatibilidad con la característica.
-ms.openlocfilehash: d4c7e491b43b457c96a69ebba1ea808054346d98
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: f6108842f827cbb9cfb6761495c4787ed2b7868b
+ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373874"
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "29735177"
 ---
 # <a name="configure-oauth-between-skype-for-business-online-and-exchange-on-premises"></a>Configurar OAuth entre Skype Empresarial Online y Exchange local
 
@@ -30,7 +30,7 @@ En este tema se aplica a Exchange Server 2016 y Exchange Server 2013.
 
 -  Necesita tener permisos asignados antes de poder realizar los siguientes procedimientos. Para ver qué permisos necesita, vea el tema de [permisos de infraestructura de Exchange y el Shell](https://go.microsoft.com/fwlink/p/?LinkId=746511) .
 
-- Para obtener información sobre los métodos abreviados de teclado que se pueden aplicar a los procedimientos descritos en este tema, vea [métodos abreviados de teclado en el centro de administración de Exchange]( https://go.microsoft.com/fwlink/p/?LinkId=746512).
+- Para obtener información acerca de los métodos abreviados de teclado que se pueden aplicar a los procedimientos de este tema, consulte [Métodos abreviados de teclado en el Centro de administración de Exchange]( https://go.microsoft.com/fwlink/p/?LinkId=746512).
 
 ## <a name="configure-oauth-authentication-between-your-on-premises-exchange-and-skype-for-business-organizations"></a>Configurar la autenticación OAuth entre su Exchange local y organizaciones de Skype Empresarial
 
@@ -52,7 +52,7 @@ Ejecute el siguiente comando en Exchange PowerShell en sus instalaciones de orga
 Get-PartnerApplication | ?{$_.ApplicationIdentifier -eq "00000002-0000-0ff1-ce00-000000000000" -and $_.Realm -eq ""} | Set-PartnerApplication -Enabled $true
 ```
 
-### <a name="step-3-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>Paso 3: Crear una cuenta de usuario de correo para la aplicación de socio de Skype Empresarial Online
+### <a name="step-3-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>Paso 3: Crear una cuenta de usuario de correo para la aplicación de socio de Skype Empresarial Online 
 
 Este paso se realiza localmente. Creará un usuario de correo y le asignará los derechos de roles de administración apropiados. Esta cuenta se usará en el siguiente paso.
 
@@ -126,7 +126,7 @@ A continuación, use Windows PowerShell para cargar el certificado de autorizaci
    $cer.Import($CertFile);
    $binCert = $cer.GetRawCertData();
    $credValue = [System.Convert]::ToBase64String($binCert);
-   $ServiceName = "00000002-0000-0ff1-ce00-000000000000";
+   $ServiceName = "00000004-0000-0ff1-ce00-000000000000";
    $p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName
    New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue
    ```
@@ -140,7 +140,7 @@ A continuación, use Windows PowerShell para cargar el certificado de autorizaci
 Especifique un dominio comprobado para la organización de Exchange. Este dominio debe ser el mismo dominio que se utiliza como el dominio SMTP principal que se utiliza para las cuentas de Exchange local. Este dominio se conoce como \<su dominio comprobado\> en el siguiente procedimiento.
 
 > [!NOTE]
-> Successfully running the following script requires that the Windows PowerShell for Azure Active Directory is connected to your Microsoft Online Azure AD tenant, as explained in step 4 in the previous section. 
+> Successfully running the following script requires that the Windows PowerShell for Azure Active Directory is connected to your Microsoft Online Azure AD tenant, as explained in step 4 in the previous section.
 
 1. Guarde el siguiente texto en un script de PowerShell con nombre, por ejemplo, RegisterEndpoints.ps1. Este ejemplo usa un carácter comodín para registrar todos los puntos de conexión para contoso.com. Reemplace contoso.com con una entidad de certificación de nombre de host para la organización de Exchange local
 

@@ -1,5 +1,5 @@
 ---
-title: Implementar la calidad de servicio en los equipos de Microsoft
+title: Implementar Calidad de servicio en Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b519327b37c61a126c5101080f0c1eee9f8582f5
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 5667374b52561af8809ab136646ffaf9d6077ad1
+ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326735"
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "29735133"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar la calidad de servicio (QoS) en los equipos de Microsoft
 
@@ -232,13 +232,15 @@ Para crear una directiva de audio de QoS para equipos Windows 10, primero inicie
 
 6. En el cuadro de diálogo de **QoS basada en directiva** , en la página de apertura, escriba un nombre para la nueva directiva en el cuadro **nombre** . Seleccione **Especificar el valor de DSCP** y establezca el valor **46**. Deje **Especificar velocidad de aceleración saliente** no está seleccionada y, a continuación, haga clic en **siguiente**.
 
-7. En la página siguiente, asegúrese de que **todas las aplicaciones** está activada y, a continuación, haga clic en **siguiente**. Esta opción indica a la red para buscar todos los paquetes con un marcado DSCP 46, no sólo de paquetes de creados mediante una aplicación específica.
+7. En la página siguiente, seleccione **sólo las aplicaciones con este nombre del archivo ejecutable** y escriba el nombre **Teams.exe**y, a continuación, haga clic en **siguiente**. Esta opción indica a la directiva de solo dar prioridad al tráfico coincidente desde el cliente de los equipos.
 
 8. En la tercera página, asegúrese de que **cualquier dirección IP de origen** y **cualquier dirección IP de destino** están seleccionados y, a continuación, haga clic en **siguiente**. Estos dos valores Asegúrese de que se administrarán los paquetes independientemente de qué equipo (dirección IP) envía los paquetes y qué equipo (dirección IP) recibirán los paquetes.
 
 9. En la cuarta página, seleccione **TCP y UDP** en la lista desplegable **Seleccione el protocolo que se aplica esta directiva de QoS** . TCP (Protocolo de Control de transmisión) y UDP (Protocolo de datagramas de usuario) son los dos protocolos de red usados con más frecuencia.
 
 10. Bajo el encabezado, **Especifique el número de puerto de origen**, seleccione **desde este intervalo o el puerto de origen**. En el cuadro de texto que lo acompaña, escriba el intervalo de puertos reservado para las transmisiones de audioconferencias. Por ejemplo, si ha reservado puertos 50000 a través de puertos 50019 para el tráfico de audio, escriba el intervalo de puertos con este formato: **50000:50019**. Haga clic en **Finalizar**.
+
+11. Repita los pasos del 5 al 10 para crear directivas para vídeo y uso compartido de aplicaciones y escritorio, sustituyendo los valores apropiados en los pasos 6 y 10.
 
 Las nuevas directivas que se ha creado no surtirán efecto hasta que se ha actualizado la directiva de grupo en los equipos cliente. Aunque la directiva de grupo se actualiza periódicamente en su propio, puede forzar una actualización inmediata.
 

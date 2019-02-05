@@ -9,19 +9,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: phecda louie
 localization_priority: Normal
-robots: NOINDEX, NOFOLLOW
 search.appverid: MET150
 description: Obtenga información sobre cómo usar las plantillas de equipos para crear un equipo con los canales de predefinidos.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6b5059e5c0a4a7f49553758762905a1a3523389
-ms.sourcegitcommit: bb5fe98e73a794eb8154551a40276d9cd68bc2af
+ms.openlocfilehash: 6b4e0ad44904a14d6a1296ea17080f668a3ab461
+ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29603805"
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "29735209"
 ---
 # <a name="get-started-with-teams-templates"></a>Introducción a las plantillas de Teams 
 
@@ -81,3 +80,5 @@ De forma predeterminada, la plantilla base se establece en **estándar** que no 
 - [Crear equipo](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (en la vista previa)
 - [Nuevo equipo](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Formación de administradores para Microsoft Teams](itadmin-readiness.md)
+- [Introducción a las plantillas de equipos de venta por menor](get-started-with-retail-teams-templates.md)
+- [Introducción a las plantillas de equipos sanitarios](healthcare/healthcare-templates.md)

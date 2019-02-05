@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Los socios de Microsoft con proveedores seleccionados de SBC certifica sus SBCs funcionan con el enrutamiento directo.
-ms.openlocfilehash: dee7420f01cf3adbf6ef818e6161213ec0eaf89b
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.openlocfilehash: b14463bfeb7010e23a567517b34b6a6d8595c478
+ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635702"
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "29735217"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el Enrutamiento directo
 
@@ -60,8 +60,9 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   Pendiente    |      V7.0.2      |
 |                                                                                                                     |    SBC sueco Lite     |     &#10004;     |   Pendiente    |      V7.0.4      |
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    SBC Think 365    |     &#10004;     |   Pendiente    |       V1.4       |
-|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 3900       |    &#10004;     |   Pendiente  |   GA ECZ8.1.0 MR-1 (compilación 145)  |
-|                                                                                                                     |      AP 4600         |    &#10004;   |   Pendiente    |     GA ECZ8.1.0 MR-1 (compilación 145)  |
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |   Pendiente  |   GA ECZ8.1.0 MR-1 (compilación 145)  |
+|                                                                                                                    |    AP 3900           |    &#10004;     |   Pendiente  |   GA ECZ8.1.0 MR-1 (compilación 145)  | 
+|                                                                                                                    |      AP 4600         |    &#10004;   |   Pendiente    |     GA ECZ8.1.0 MR-1 (compilación 145)  |
 |                                                                                                                    |      AP 6300         |    &#10004;   |   Pendiente    |     GA ECZ8.1.0 MR-1 (compilación 145)  |
 |                                                                                                                   |      AP 6350           |    &#10004;   |   Pendiente    |     GA ECZ8.1.0 MR-1 (compilación 145)  |                                             
 |                                                                                                                    |      VME           |    &#10004;    |   Pendiente    |     GA ECZ8.1.0 MR-1 (compilación 145)   |
