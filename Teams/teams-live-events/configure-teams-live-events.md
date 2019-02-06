@@ -1,5 +1,5 @@
 ---
-title: Configurar las opciones de evento en directo en Microsoft Teams
+title: Configurar eventos en directo en Microsoft Teams
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
@@ -14,32 +14,32 @@ description: Obtenga información sobre cómo administrar la configuración para
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8e12b6b85b61bb8c6312054be07dc37365c62c0
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 5dec5d34721bc30001972590c4501045a6e46ca8
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532252"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754482"
 ---
-# <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar las opciones de evento en directo en Microsoft Teams
+# <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar eventos en directo en Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Usar la configuración de eventos en directo de los equipos para establecer la configuración para eventos en directo que se conservan en la organización. Puede configurar una dirección URL de soporte y configurar un proveedor de distribución de vídeo de otro fabricante. Esta configuración se aplica a todos los eventos en directo que se crean en la organización. 
 
-Puede administrar fácilmente esta configuración en el Microsoft Teams & Skype para el centro de administración de negocio. En el panel de navegación izquierdo, vaya a **las reuniones** > **configuración de eventos en directo**. 
+Puede administrar fácilmente esta configuración en el centro de administración de Microsoft Teams. En el panel de navegación izquierdo, vaya a **las reuniones** > **configuración de eventos en directo**. 
 
-![settings.png Live (evento)] (../media/teams-live-events-settings.png "Captura de pantalla de los equipos live configuración de eventos que se puede configurar en los equipos de Microsoft & Skype para el centro de administración de negocio") 
+![settings.png Live (evento)] (../media/teams-live-events-settings.png "Captura de pantalla de los equipos live configuración de eventos que se puede configurar en el centro de administración de equipos de Microsoft") 
 
 ## <a name="set-up-event-support-url"></a>Configurar la dirección URL de soporte (evento)
 
 Esta dirección URL se muestra a los asistentes del evento de live. Agregue la dirección URL de soporte para la organización para dar a los asistentes una forma de ponerse en contacto con el soporte técnico durante un evento en directo.
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams--skype-for-business-admin-center"></a>![los equipos-logotipo-30x30.png](../media/teams-logo-30x30.png) Uso de la Microsoft Teams & Skype para el centro de administración de negocio
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![los equipos-logotipo-30x30.png](../media/teams-logo-30x30.png) Desde el centro de administración de Microsoft Teams
 
 1. En el panel de navegación izquierdo, vaya a **las reuniones** > **configuración de evento en directo**.
 2. En **Dirección URL de soporte**, escriba la dirección URL de soporte técnico de su organización. 
 
-    ![Configuración de la dirección URL de soporte para live eventos en los equipos de Microsoft & Skype para el centro de administración de negocio] (../media/teams-live-events-settings-supporturl.png "Captura de pantalla de admite la dirección URL de configuración para los equipos de eventos en directo")
+    ![Configuración de la dirección URL de soporte para eventos en el centro de administración de equipos de Microsoft en directo] (../media/teams-live-events-settings-supporturl.png "Captura de pantalla de admite la dirección URL de configuración para los equipos de eventos en directo")
 
 ### <a name="using-windows-powershell"></a>Usar Windows PowerShell
 Ejecute lo siguiente:
@@ -51,12 +51,12 @@ Para obtener más información, vea [Set-CsTeamsMeetingBroadcastConfiguration](h
 
 Si adquirió y configurar una solución de software definido network (SDN) o una solución de red (eCDN) de entrega de contenido empresarial a través de un socio de entrega de vídeo de Microsoft, configure el proveedor de eventos en directo en los equipos. 
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams--skype-for-business-admin-center"></a>![los equipos-logotipo-30x30.png](../media/teams-logo-30x30.png) Uso de la Microsoft Teams & Skype para el centro de administración de negocio
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![los equipos-logotipo-30x30.png](../media/teams-logo-30x30.png) Desde el centro de administración de Microsoft Teams
 
 1. En el panel de navegación izquierdo, vaya a **las reuniones** > **configuración de evento en directo**.
 2. En **proveedores de distribución de vídeo de terceros**, complete lo siguiente: 
 
-    ![Configuración del proveedor de distribución de vídeo de terceros en los equipos de Microsoft & Skype para el centro de administración de negocio] (../media/teams-live-events-settings-distribution-provider.png "Captura de pantalla de la configuración del proveedor de distribución de vídeo de otro fabricante para eventos en directo")
+    ![Configuración del proveedor de distribución de vídeo de terceros en el centro de administración de equipos de Microsoft] (../media/teams-live-events-settings-distribution-provider.png "Captura de pantalla de la configuración del proveedor de distribución de vídeo de otro fabricante para eventos en directo")
 
     - **Usar un proveedor de distribución de terceros** Desactivar esta sesión en habilitar el proveedor de distribución de vídeo de otro fabricante.
     - **Nombre del proveedor de SDN** Elija el proveedor que está utilizando.

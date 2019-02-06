@@ -15,28 +15,29 @@ search.appverid: MET150
 f1keywords: ms.teamsadmincenter.meetingsettings.overview
 MS.collection: Teams_ITAdmin_Help
 description: Obtenga información sobre cómo administrar la configuración para las reuniones de los equipos que los usuarios programar en la organización.
-ms.openlocfilehash: 1e3415b1fd17a863e14a79fcc66b32e6749b39e7
-ms.sourcegitcommit: a51d357069765b7d0956880da2ffd041533cfa57
+ms.openlocfilehash: e4eba5f585f7621add95101d06194bebead507e2
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/15/2018
-ms.locfileid: "27283552"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754420"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de reuniones en Microsoft Teams
 
-Como administrador, usa la configuración de las reuniones de los equipos para controlar si los usuarios anónimos pueden participar en las reuniones de los equipos, personalizar las invitaciones a reuniones y si desea habilitar la calidad de servicio (QoS), definir puertos para el tráfico en tiempo real. Esta configuración aplica a todas las reuniones de los equipos que programación a los usuarios de la organización. Administrar estas opciones de configuración de **reuniones** > **configuración de reunión** en Microsoft Teams & Skype para el centro de administración de negocio. 
+Como administrador, usa la configuración de las reuniones de los equipos para controlar si los usuarios anónimos pueden participar en las reuniones de los equipos, personalizar las invitaciones a reuniones y si desea habilitar la calidad de servicio (QoS), definir puertos para el tráfico en tiempo real. Esta configuración aplica a todas las reuniones de los equipos que programación a los usuarios de la organización. Administrar estas opciones de configuración de **reuniones** > **configuración de reunión** en el centro de administración de Microsoft Teams. 
 
 ## <a name="allow-anonymous-users-to-join-meetings"></a>Permitir a los usuarios anónimos unirse a reuniones
 
 Unión anónima, cualquier usuario puede unirse a la reunión como un usuario anónimo haciendo clic en el vínculo en la invitación a la reunión. 
 
-![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) Uso de la Microsoft equipos & Skype para el centro de administración de negocio
+![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **desde el centro de administración de equipos de Microsoft**
 1. En el panel de navegación izquierdo, vaya a **las reuniones** > **configuración de reunión**. 
 2. En **los participantes**, activar **los usuarios anónimos pueden unirse a una reunión**. 
 
-    ![reunión-configuración-participants.png] (media/meeting-settings-participants.png "Captura de pantalla de configuración de los participantes de las reuniones de los equipos en los equipos de Microsoft & Skype para el centro de administración de negocio")
+    ![reunión-configuración-participants.png] (media/meeting-settings-participants.png "Captura de pantalla de configuración de los participantes de las reuniones de los equipos en el centro de administración de equipos de Microsoft")
 
 Si no desea que los usuarios anónimos a participar en reuniones programadas por los usuarios de su organización, desactive esta opción. 
+
 ## <a name="customize-meeting-invitations"></a>Personalizar invitaciones a reuniones
 
 Puede personalizar las invitaciones a reuniones de los equipos para satisfacer las necesidades de su organización. Puede agregar el logotipo de su organización e incluye información útil, como vínculos a su sitio Web de soporte técnico y renuncia de responsabilidad legal y un pie de página de sólo texto. 
@@ -49,7 +50,7 @@ Puede personalizar las invitaciones a reuniones de los equipos para satisfacer l
 
 ### <a name="customize-your-meeting-invitations"></a>Personalizar las invitaciones de reunión
 
-![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) Uso de la Microsoft equipos & Skype para el centro de administración de negocio
+![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **desde el centro de administración de equipos de Microsoft**
 
 1. En el panel de navegación izquierdo, vaya a **las reuniones** > **configuración de reunión**.
 2. En la **invitación por correo electrónico**, haga lo siguiente: 
@@ -65,12 +66,12 @@ Puede personalizar las invitaciones a reuniones de los equipos para satisfacer l
 ## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>Establecer cómo desea controlar el tráfico de medios en tiempo real para las reuniones de los equipos
 Si se usa la calidad de servicio (QoS) para dar prioridad al tráfico de red, puede habilitar QoS marcadores y puede establecer los intervalos de puertos para cada tipo de tráfico de medios. 
 
- ![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) Uso de la Microsoft Teams & Skype para el centro de administración de negocio
+ ![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **desde el centro de administración de equipos de Microsoft**
 
 1. En el panel de navegación izquierdo, vaya a **las reuniones** > **configuración de reunión**. 
 2. En la **red**, haga lo siguiente:
 
-    ![reunión-configuración-network.png] (media/meeting-settings-network.png "Captura de pantalla de la configuración de red para las reuniones de los equipos en los equipos de Microsoft & Skype para el centro de administración de negocio")
+    ![reunión-configuración-network.png] (media/meeting-settings-network.png "Captura de pantalla de la configuración de red para las reuniones de los equipos en el centro de administración de equipos de Microsoft")
 
     - Para habilitar QoS marcadores, activar **marcadores de insertar calidad de servicio (QoS) para el tráfico de medios en tiempo real**.
     - Para especificar intervalos de puertos, junto al **Seleccionar un rango de puerto para cada tipo de tráfico de medios en tiempo real**, seleccione **especificar intervalos de puertos**y, a continuación, escriba los puertos inicial y final de audio, vídeo y uso compartido de la pantalla. 

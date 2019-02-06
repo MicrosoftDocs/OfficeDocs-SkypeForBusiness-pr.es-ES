@@ -13,12 +13,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb2e7ba5f854c392d86006fdb6bd313b3fd87c68
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 5195b929cb5da2fc462cc2ed6826300d835c2b35
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182458"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754000"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Configurar su coexistencia y la configuración de actualización
 
@@ -35,7 +35,7 @@ Puede obtener una mejor comprensión de los tipos de modos que están disponible
 
 ## <a name="set-upgrade-options-for-all-users-in-your-organization"></a>Establecer las opciones de actualización para todos los usuarios de la organización
 
-![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **uso de los equipos de Microsoft & Skype para el centro de administración de negocio**
+![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **desde el centro de administración de equipos de Microsoft**
 
 1. En el panel de navegación izquierdo, vaya a **configuración de toda la organización** > **actualización de los equipos**. 
 
@@ -53,7 +53,7 @@ Puede obtener una mejor comprensión de los tipos de modos que están disponible
 
 ## <a name="set-upgrade-options-for-a-single-user-in-your-organization"></a>Establecer las opciones de actualización para un único usuario de la organización
 
-![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **uso de los equipos de Microsoft & Skype para el centro de administración de negocio**
+![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **desde el centro de administración de equipos de Microsoft**
 
 1. En el panel de navegación izquierdo, vaya a **los usuarios**y, a continuación, seleccione el usuario en la lista. 
 2. En la ficha de **cuenta** para el usuario, en **los equipos de actualización**, haga clic en **Editar**.

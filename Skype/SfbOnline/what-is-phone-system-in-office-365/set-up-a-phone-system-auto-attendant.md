@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar y probar a automáticos de sistema telefónico (PBX en la nube) para administración de la organización eficaz de las llamadas. '
-ms.openlocfilehash: 0bf312734c788e0bd02bc4fce40dbea4267850d4
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 9e84ea2130238866db61fa222169435772cc7758
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531582"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754157"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Configurar un operador automático de Sistema telefónico
 
@@ -49,9 +49,9 @@ Si desea obtener más información sobre los operadores automáticos, consulte [
   
 ## <a name="step-2---create-a-new-auto-attendant"></a>Paso 2: crear un operador automático nuevo
 
- **Uso de la Microsoft equipos & Skype para el centro de administración de negocio**
+ **Desde el centro de administración de Microsoft Teams**
 
-En los **equipos de Microsoft & Skype para el centro de administración de negocio**, haga clic en ![sfb-logotipo-30x30.png](../images/sfb-logo-30x30.png) **Portal heredado** >  **enrutamiento de llamadas** > **operadores automáticos**, a continuación, haga clic en **+ Agregar nuevo**:
+En el **Centro de administración de equipos de Microsoft**, haga clic en ![sfb-logotipo-30x30.png](../images/sfb-logo-30x30.png) **Portal heredado** >  **enrutamiento de llamadas** > **operadores automáticos**, a continuación, haga clic en **+ Agregar nuevo**:
 
 ### <a name="edit-general-info-page"></a>Página Editar información general
 

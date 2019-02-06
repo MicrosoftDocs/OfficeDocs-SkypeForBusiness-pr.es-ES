@@ -21,25 +21,25 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Descubra qué países y regiones tienen números de conferencia de acceso telefónico local, y cómo se asignan automáticamente.
-ms.openlocfilehash: 29fd127fd132d953aafcec46807e2fd6012e7c4b
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 280c873385b29a7381d6bb9f4d3aae2d52a3bc1d
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347414"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754763"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Números de teléfono para Audioconferencia en Microsoft Teams
 
-Al establecer una **Conferencia de Audio** para Microsoft Teams, los números de teléfono de acceso telefónico se asignan automáticamente a su organización. Para ver el teléfono de los números que se asignan a su puente de conferencia de audio, en el Microsoft Teams & Skype para el centro de administración de negocio, vaya a **las reuniones** > **puentes de conferencia**. Para obtener más información, vaya a [Ver una lista de números de conferencia de Audio](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+Al configurar **Audioconferencia** para Microsoft Teams, los números de teléfono de acceso telefónico local se asignan automáticamente a su organización. Para ver el teléfono de los números que se asignan a su puente de conferencia de audio, en el centro de administración de Microsoft Teams, vaya a **las reuniones** > **puentes de conferencia**. Para obtener más información, vaya a [Ver una lista de números de conferencia de Audio](see-a-list-of-audio-conferencing-numbers-in-teams.md).
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Precios y cobertura de Audioconferencia
 
-Para obtener una lista completa de todos los países o regiones y ciudades donde conferencias de Audio está disponible, vea [disponibilidad de país y región para las conferencias de Audio y planes de llamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Para obtener información sobre precios, consulte [Precios de Audioconferencia](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+Para ver una lista completa de todos los países o regiones y ciudades donde Audioconferencia está disponible, consulte [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Para ver información relativa a los precios, consulte [Precios de Audioconferencia](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Números de teléfono de acceso telefónico local en la invitación a la reunión
 
-Cuando un usuario de Microsoft Teams programa una reunión en Outlook o Outlook Web App, el número de conferencia de audio predeterminado que se establece para el usuario se incluye en la invitación a la reunión. Si desea seleccionar un número predeterminado diferente para uno o varios usuarios, puede cambiar desplazándose a **los usuarios**, seleccione el usuario y edición de la configuración del usuario conferencias de Audio. Vea [el teléfono los números incluidos en invitaciones](set-the-phone-numbers-included-on-invites-in-teams.md).
+Cuando un usuario de Microsoft Teams programa una reunión en Outlook o en Outlook Web App, en la invitación a la reunión se incluye el número predeterminado de la audioconferencia que se ha configurado para el usuario. Si desea seleccionar un número predeterminado diferente para uno o varios usuarios, puede cambiar desplazándose a **los usuarios**, seleccione el usuario y edición de la configuración del usuario conferencias de Audio. Consulte [Establecer los números de teléfono incluidos en las invitaciones](set-the-phone-numbers-included-on-invites-in-teams.md).
   
   
 ## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Números de teléfono de acceso telefónico local establecidos en un puente de audioconferencia
@@ -62,14 +62,14 @@ Para ver una lista de los países o regiones en los que se asignan automáticame
 > La ubicación del país o la región de su organización se puede averiguar si inicia sesión en el **Centro de administración de Office 365** y mira en el **perfil de la empresa**. 
   
 > [!CAUTION]
-> Debido a la disponibilidad limitada de los números de teléfono de pago en Venezuela, Indonesia y Emiratos Árabes Unidos (EAU), las organizaciones de estos países o regiones no tienen un número de teléfono de pago de conferencias de Audio que se asignan automáticamente a ellos. Los números de teléfono gratuitos de estos lugares estarán disponibles según el inventario existente. 
+> Debido a la disponibilidad limitada de números de teléfono de pagos en Venezuela, Indonesia y los Emiratos Árabes Unidos (UAE), no se asignará automáticamente un número de pago de audioconferencia a las organizaciones de estos países o regiones. Los números de teléfono gratuitos de estos lugares estarán disponibles según el inventario existente. 
   
 
 ## <a name="what-else-should-you-know"></a>¿Qué más debe saber?
 
 - Si desea ver la lista de los idiomas compatibles para Audioconferencia, consulte [Idiomas compatibles con Audioconferencia](audio-conferencing-supported-languages.md).
     
-- Puede establecer hasta cuatro idiomas para cada número de teléfono de conferencia de audio - uno principal y secundario de tres. Además, también puede establecer idiomas en un número de teléfono dedicado para conferencia de acceso telefónico local.
+- Puede configurar hasta 4 idiomas para cada número de teléfono de audioconferencia: uno principal y tres secundarios. Además, también puede establecer idiomas en un número de teléfono dedicado para audioconferencia.
     
 - Para establecer el número de teléfono de acceso telefónico local de un usuario, vea [Establecer los números de teléfono incluidos en las invitaciones](set-the-phone-numbers-included-on-invites-in-teams.md).
 

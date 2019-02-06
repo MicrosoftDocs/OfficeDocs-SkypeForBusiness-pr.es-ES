@@ -1,5 +1,5 @@
 ---
-title: Configuración de uso compartido de escritorio en Microsoft Teams
+title: Configurar Compartir escritorio en Microsoft Teams
 author: LolaJacobsen
 ms.author: Lolaj
 manager: serdars
@@ -12,21 +12,21 @@ description: Configurar una directiva de reunión para permitir a los usuarios c
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 422d5fb3a19dad2e14e0cdf54a532b0afc6eed67
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: fcc76f79d288844611e17154359e8c9c3ab4ed23
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27202516"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754771"
 ---
-<a name="configure-desktop-sharing-in-microsoft-teams"></a>Configuración de uso compartido de escritorio en Microsoft Teams
+<a name="configure-desktop-sharing-in-microsoft-teams"></a>Configurar Compartir escritorio en Microsoft Teams
 ============================================
 
 Uso compartido de escritorio permite a los usuarios presentar una pantalla o una aplicación durante una reunión o conversación. Los administradores pueden configurar el uso compartido en Microsoft Teams para permitir a los usuarios compartir una pantalla completa, una aplicación o un archivo de pantalla. Puede permitir a los usuarios conceder o solicitar el control, permitir el uso compartido de PowerPoint, agregar una pizarra y permitir notas compartidas. También puede configurar si los usuarios anónimos o externos pueden solicitar el control de la pantalla compartida.
 
 Para configurar el uso compartido de la pantalla, crear una nueva directiva de reuniones y, a continuación, se asigna a los usuarios que desea administrar.
 
-En los equipos de Microsoft & Skype para el centro de administración de negocio:
+**En el centro de administración de Microsoft Teams**
 
 1. Seleccione **las reuniones** > **las directivas de reunión**.
 

@@ -3,29 +3,29 @@ title: Configurar la aplicación de las reuniones de Skype para trabajar con los
 author: LolaJacobsen
 ms.author: Lolaj
 manager: serdars
-ms.date: 08/21/2018
+ms.date: 09/21/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Los administradores pueden utilizar para configurar la aplicación de las reuniones de Skype para trabajar con los equipos de la Microsoft Teams y el centro de administración de Skype
+description: Los administradores pueden utilizar el centro de administración de Microsoft Teams para configurar la aplicación de las reuniones de Skype para trabajar con los equipos
 Set_Free_Tag: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d87433b57936534afad05d38cb42e64c798f74e4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e94598822ab321ea514bb41af2fa0e4f8ee57ff0
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23853410"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754578"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurar la aplicación de las reuniones de Skype para trabajar con los equipos
 ===================================================
 
-Después de que un usuario se actualiza a Microsoft Teams, los administradores pueden utilizar el Microsoft Teams y el centro de administración de Skype para especificar la aplicación preferida que los usuarios utilizarán para unirse a Skype para reuniones de negocios.
+Después de que un usuario se actualiza a Microsoft Teams, los administradores pueden utilizar el centro de administración de Microsoft Teams para especificar la aplicación preferida que los usuarios utilizarán para unirse a Skype para reuniones de negocios.
 
 Para especificar el Skype para reuniones de aplicación como la aplicación preferida:
 
-1. Iniciar sesión en los equipos de Microsoft y el centro de administración.
+1. Inicie sesión en el centro de administración de Microsoft Teams.
 2. En el panel izquierdo, en **configuración de toda la organización**, seleccione **actualización los equipos**.
 3. En los equipos de la página, en **las preferencias de aplicación**de actualización, seleccione la **Aplicación de las reuniones de Skype** desde la lista desplegable **aplicación preferido para los usuarios participar en Skype para reuniones de negocios** .
 

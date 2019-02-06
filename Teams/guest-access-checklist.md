@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e51042d5478dbaeb89691b9ad482955055a58ac
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: 660b838c38da478be2f1226fcdd1b104c3b10b54
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706374"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753935"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de comprobación de acceso de invitado a los equipos
 ==========================================
@@ -86,9 +86,9 @@ Para obtener instrucciones detalladas acerca de cómo configurar estas opciones,
 
 ## <a name="-step-3-enable-guest-access-at-the-tenant-level"></a>□ Paso 3: habilitar el acceso de invitado en el nivel de inquilino
 
-Como mínimo, debe activar el acceso de invitado para Microsoft Teams en los **equipos de Microsoft & Skype para el centro de administración de negocio**. 
+Como mínimo, debe activar el acceso de invitado para Microsoft Teams en el **Centro de administración de equipos de Microsoft**. 
 
-1. En los equipos & Skype para el centro de administración de negocio, seleccione **configuración de toda la organización** > **acceso de invitado**.
+1. En el centro de administración de equipos, seleccione **configuración de toda la organización** > **acceso de invitado**.
 2. Configurar el conmutador de **Permitir el acceso de invitado en los equipos de Microsoft** **activado**.
 
     ![Captura de pantalla muestra un ejemplo de un control de alternancia de la configuración de los equipos](media/set-up-guests-image1.png)

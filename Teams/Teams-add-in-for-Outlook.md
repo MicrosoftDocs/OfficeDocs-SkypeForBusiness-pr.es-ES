@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba75e2efa5ce96a30f868bef44349468753abeec
-ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
+ms.openlocfilehash: e892e5c615fce6ed8c65fdfaeadbacba88e1ec5c
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "29686468"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753753"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -51,9 +51,9 @@ Para obtener más información sobre cómo configurar la autenticación, consult
 
 ## <a name="enable-private-meetings"></a>Habilitar las reuniones privadas
 
-Permitir la programación para reuniones privadas debe estar habilitada en el & los equipos Skype para el centro de administración de negocio para el complemento para obtener implementado. En el centro de administración, vaya a **las reuniones** > **Las directivas de reunión**y en la sección **General** , alternar **permitir programar reuniones privadas** a activado.)
+Permitir la programación para reuniones privadas debe estar habilitada en el centro de administración de Microsoft Teams del complemento obtener implementado. En el centro de administración, vaya a **las reuniones** > **Las directivas de reunión**y en la sección **General** , alternar **permitir programar reuniones privadas** a activado.)
 
-![Captura de pantalla de la configuración en la & equipos Skype para el centro de administración de negocio.](media/teams-add-in-for-outlook-image1.png)
+![Captura de pantalla de la configuración en el centro de administración de equipos de Microsoft.](media/teams-add-in-for-outlook-image1.png)
 
 El cliente de Microsoft Teams determina si los usuarios necesitan la versión de 32 o de 64 bits e instala el complemento correcto.
 

@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e205eeb00373e66271c98405209df69b272f89a4
-ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
+ms.openlocfilehash: 5a9a2bd4bfe1122fe31951f4382340a7bbd57b1f
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27896150"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754570"
 ---
 # <a name="about-the-upgrade-framework"></a>Acerca del marco de actualización
 
@@ -123,5 +123,5 @@ Para ayudar a demostrar cómo es posible que se desdoblan su viaje por la actual
 > Nuestro contenido de actualización está en constante evolución. No olvide Eche un vistazo a las instrucciones más reciente y leer el [blog de los equipos](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
 
 > [!Important]
-> Si es administrador en el inquilino de Office 365, es posible que inicie vean las opciones de actualización en su cmdlet de PowerShell o equipos & Skype para el centro de administración de negocio. Tener la opción de actualización no significa necesariamente que su organización está preparada para que este cambio. Para una experiencia de usuario óptima, confirme que los equipos cumple los requisitos de colaboración y comunicación, validar que está lista para equipos de soporte técnico e implementar el plan de preparación del usuario antes de actualizar a los usuarios a los equipos de la red.
+> Si es administrador en el inquilino de Office 365, es posible que inicie vean las opciones de actualización en el cmdlet de PowerShell o el centro de administración de Microsoft Teams. Disponer de la opción para actualizar no significa necesariamente que su organización esté lista para hacerlo. Para una experiencia de usuario óptima, confirme que los equipos cumple los requisitos de colaboración y comunicación, validar que está lista para equipos de soporte técnico e implementar el plan de preparación del usuario antes de actualizar a los usuarios a los equipos de la red.
  

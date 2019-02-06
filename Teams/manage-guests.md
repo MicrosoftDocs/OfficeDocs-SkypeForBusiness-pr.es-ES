@@ -12,21 +12,21 @@ search.appverid: MET150
 description: Los administradores de TI pueden agregar invitados en el nivel de inquilino, configurar y administrar permisos y directivas de usuarios invitados, determinar qué usuarios pueden invitar y extraer informes sobre la actividad de los usuarios invitados.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3866e4c3f8e63e9fe8518917193d4587e670ad93
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: ef7a62f46a767271f96de6f8540867aa2e8bd917
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706294"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753613"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Administrar el acceso de invitado a Microsoft Teams
 ======================================
 
 **Invitado** es un tipo de licencia de usuario o en Microsoft Teams que se incluye con todas las suscripciones a Office 365 Business Premium, Office 365 Enterprise y Office 365 educación. No se necesita ninguna otra licencia de Office 365. El acceso de invitado de Teams es una configuración a nivel de inquilino y se encuentra desactivada de forma predeterminada. Para obtener información detallada acerca de cómo habilitar el acceso de invitado, vea [Activar o desactivar el acceso de invitado a los equipos de Microsoft](set-up-guests.md).
 
-Después de que el tipo de licencia de usuario o **invitado** está activado, puede establecer la configuración para invitados a través de los controles que describen en [las características de administración de equipos de Microsoft en su organización de Office 365](enable-features-office-365.md) y [administrar equipos durante la transición a la nueva Microsoft Los equipos y Skype para el centro de administración de negocio](manage-teams-skypeforbusiness-admin-center.md).     
+Después de que el tipo de licencia de usuario o **invitado** está activado, puede establecer la configuración para invitados a través de los controles que describen en [las características de administración de equipos de Microsoft en su organización de Office 365](enable-features-office-365.md) y [administrar equipos durante la transición a la nueva Microsoft Centro de administración de equipos](manage-teams-skypeforbusiness-admin-center.md).     
     
-Los administradores de TI pueden agregar invitados en el nivel de inquilino, establecer y administrar los permisos y las directivas de usuario de invitado y extracción informa sobre la actividad de usuario de invitado. Estos controles están disponibles a través de la & Teams Microsoft Skype para el centro de administración de negocio. Las actividades y el contenido de los usuarios invitados están protegidos con el mismo cumplimiento de normativas y auditorías que el resto de Office 365.
+Los administradores de TI pueden agregar invitados en el nivel de inquilino, establecer y administrar los permisos y las directivas de usuario de invitado y extracción informa sobre la actividad de usuario de invitado. Estos controles están disponibles a través del centro de administración de Microsoft Teams. Las actividades y el contenido de los usuarios invitados están protegidos con el mismo cumplimiento de normativas y auditorías que el resto de Office 365.
 
 Los propietarios de equipo pueden invitar a nuevos invitados y agregue los usuarios invitados de Active directory existente a sus equipos. Los propietarios de equipo pueden identificar a los usuarios de invitado a través de **los equipos** > **administrar equipos**y las capacidades relacionadas con el canal de conjunto de invitados a través de la **configuración de toda la organización** > **acceso como invitado**, incluido el permiso de invitados crear, actualizar, y eliminar canales, como se muestra en la siguiente captura de pantalla.
 

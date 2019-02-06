@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Learn how to set up an emergency address and phone number for each of your users that works with the Public Switched Telephone Network (PSTN).
-ms.openlocfilehash: c16e53df15d46457501c75ad5adcb0882d8fe875
-ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
+ms.openlocfilehash: 4778009ddcd004f37c5ed0f0566d64dae6648997
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26676401"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753440"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>Asignar o cambiar la dirección de emergencia de un usuario
 
@@ -38,7 +38,7 @@ Para conseguir información sobre cómo obtener Planes de llamadas en Office 365
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya a **los equipos de Microsoft & Skype para el centro de administración de negocio** > **portal heredado**.
+2. Vaya al **Centro de administración de equipos de Microsoft** > **portal heredado**.
     
 3. En el panel de navegación izquierdo vaya a **voz**, a continuación, haga clic en **usuarios de voz**.
     

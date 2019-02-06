@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6260651dfa48dc07a15dbc1bbcf41297ecc281cf
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 2a4a36de9b535d7c95f93175a97ce5266fdc37ec
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326822"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754310"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Usar la búsqueda de directorios enfocada de Microsoft Teams
 
@@ -46,11 +46,11 @@ Encontrará más información acerca de cómo se pueden usar las directivas de l
 
 2.  Inicie sesión en el centro de administración de Microsoft 365, seleccione **centros de administración**y, a continuación, seleccione **los equipos & Skype**.
  
-3.  En la & Teams Microsoft Skype para el centro de administración de negocio, seleccione **configuración de toda la organización** > **configuración de los equipos**.
+3.  En el centro de administración de Microsoft Teams, seleccione **configuración de toda la organización** > **configuración de los equipos**.
 
 4.  En la **búsqueda**, junto a **búsqueda de Active directory de ámbito en los equipos mediante una directiva de la libreta de direcciones de Exchange (APB)**, activar la alternancia **en**. 
 
-    ![Ámbito de búsqueda en el directorio en los equipos & Skype para el centro de administración de negocio](media/teams-scoped-directory-search-image1.png)
+    ![Ámbito de búsqueda en el directorio en el centro de administración de Microsoft Teams](media/teams-scoped-directory-search-image1.png)
 
 > [!NOTE]
 > Configuraciones híbridas (los equipos con Exchange local) no admiten el modo de búsqueda con un ámbito. 

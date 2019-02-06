@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Use Analytics llamada obtener información detallada sobre los dispositivos, redes y la conectividad para solucionar problemas de usuario con Microsoft Teams y Skype para reuniones y llamadas de trabajo.
-ms.openlocfilehash: 45512012beb07403239ccd2f681edb7f0f9eff41
-ms.sourcegitcommit: 09fcd68e30e7f83110f98172382c74f970b339a7
+ms.openlocfilehash: 3e35a72150d74580d1f44623583419b37e3ad1c5
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "29442416"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754068"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Usar Análisis de llamadas para solucionar problemas de mala calidad de llamada
 
@@ -37,17 +37,17 @@ Análisis de llamada le ayudará a solucionar los problemas de conexión o llama
   
 ## <a name="call-analytics-permissions"></a>Permisos de análisis de llamada
 
-Como la administración, obtener acceso completo a todas las características de análisis de llamadas. Además, puede asignar funciones de Azure Active Directory para el personal de soporte técnico. Asignar la función de especialista de soporte de comunicaciones de los equipos a los usuarios que deben tener una vista limitada del análisis de llamadas. Asigne la función de ingeniero de soporte de comunicaciones de los equipos a los usuarios que necesitan tener acceso a la funcionalidad completa de análisis de llamadas. Ambos niveles de permisos impiden el acceso al resto de la & Teams Microsoft Skype para el centro de administración de negocio.
+Como la administración, obtener acceso completo a todas las características de análisis de llamadas. Además, puede asignar funciones de Azure Active Directory para el personal de soporte técnico. Asignar la función de especialista de soporte de comunicaciones de los equipos a los usuarios que deben tener una vista limitada del análisis de llamadas. Asigne la función de ingeniero de soporte de comunicaciones de los equipos a los usuarios que necesitan tener acceso a la funcionalidad completa de análisis de llamadas. Ambos niveles de permisos impiden el acceso al resto del centro de administración de Microsoft Teams.
 
 Especialistas en soporte técnico de comunicaciones controlan problemas básicos de calidad de la llamada. No investigar los problemas con las reuniones. En su lugar, puedan recopilan información relacionada y, a continuación, pasar a un ingeniero de soporte técnico de comunicaciones. Los ingenieros de soporte técnico de comunicaciones vea información en el registro de llamadas detallada que está oculta de communications especialistas en soporte técnico. En la siguiente tabla se proporciona una introducción a información disponible a ingenieros de soporte técnico comunicaciones y especialistas en soporte técnico de comunicaciones al usar análisis de llamadas.
 
 El nivel de permisos que se le han asignado determina qué tipo de información tiene acceso a llamar análisis de:
   
-- **Los equipos de servicio de administrador o administrador de comunicaciones de los equipos**: tener acceso a toda la información en análisis de llamadas y en el & los equipos Skype para el centro de administración de negocio.
+- **Los equipos de servicio de administrador o administrador de comunicaciones de los equipos**: tener acceso a toda la información en análisis de llamadas y en el centro de administración de Microsoft Teams.
     
-- **Especialista en soporte de comunicaciones de los equipos**: vea un conjunto limitado de datos de análisis de llamadas. Puede solucionar problemas de las llamadas, pero podrá entregar problemas con las reuniones a un ingeniero de soporte de comunicaciones de los equipos. No tiene acceso al resto de la & de los equipos Skype para el centro de administración de negocio.
+- **Especialista en soporte de comunicaciones de los equipos**: vea un conjunto limitado de datos de análisis de llamadas. Puede solucionar problemas de las llamadas, pero podrá entregar problemas con las reuniones a un ingeniero de soporte de comunicaciones de los equipos. No tiene acceso al resto del centro de administración de Microsoft Teams.
     
-- **Ingeniero de soporte de los equipos de comunicaciones**: vea todos los datos disponibles en análisis de llamadas y puede ayudar a solucionar los problemas con las llamadas y las reuniones. No tiene acceso al resto de la & de los equipos Skype para el centro de administración de negocio.
+- **Ingeniero de soporte de los equipos de comunicaciones**: vea todos los datos disponibles en análisis de llamadas y puede ayudar a solucionar los problemas con las llamadas y las reuniones. No tiene acceso al resto del centro de administración de Microsoft Teams.
     
 > [!NOTE]
 > La función de especialista en soporte técnico de communications es equivalente a soporte técnico de nivel 1 y la función de ingeniero de soporte técnico de comunicaciones es equivalente a soporte técnico de nivel 2.
@@ -66,7 +66,7 @@ Si necesita ayuda con los permisos, vea sus equipos y Skype para administración
     
 4. En el **panel**, en la **Búsqueda de usuarios**, empiece a escribir el nombre o la dirección sip del usuario cuyas llamadas desea solucionar problemas o seleccione **Ver los usuarios** para ver una lista de los usuarios.
     
-    ![Captura de pantalla del cuadro de búsqueda de usuarios del análisis de llamadas en la & equipos Skype para el centro de administración de negocio.](media/use-call-analytics-to-troubleshoot-image-1.png)
+    ![Captura de pantalla del cuadro de búsqueda de usuarios del análisis de llamadas en el centro de administración de Microsoft Teams.](media/use-call-analytics-to-troubleshoot-image-1.png)
   
 5. Seleccione el usuario en la lista.
 

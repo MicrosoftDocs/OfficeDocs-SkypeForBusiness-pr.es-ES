@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Aprenda a asignar, cambiar o quitar un número de teléfono de trabajo para sus usuarios de Skype for Business, de forma que los clientes y las empresas externas puedan llamar.
-ms.openlocfilehash: 40c067657132781d29b8f20a3738d6d28ce36331
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: Learn how to assign, change, or remove a work phone number to your Skype for Business users so outside businesses and clients can call in.
+ms.openlocfilehash: 4e0189f29b2e7f8324e378c4ad314f8a55a8fa0b
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374662"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754872"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Asignar, cambiar o quitar un número de teléfono de un usuario
 
@@ -50,7 +50,7 @@ Cuando se establecen los usuarios para que puede realizar y recibir llamadas tel
 Para obtener información sobre cómo obtener planes de llamada en Office 365 y su coste, vea [Licencias complementarias de Skype for Business y Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 > [!NOTE]
-> One way to see whether a user has a license assigned is by going to **Skype for Business admin center** > **Voice** > **Voice users** and selecting the user. If a license is assigned, it will be noted under **Assigned license**. You also can use the Office 365 admin center. 
+> Una forma para ver si un usuario tiene una licencia asignada es yendo al **Skype para el centro de administración de negocio** > **voz** > **a los usuarios de voz** y seleccionar el usuario. Si se asigna una licencia, se va a tener en cuenta bajo **licencia asignada**. También puede usar el centro de administración de Office 365. 
   
  ## <a name="assign-a-phone-number-to-a-user"></a>Asignar un número de teléfono a un usuario
  
@@ -58,7 +58,7 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
  
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya a **los equipos de Microsoft y Skype para el centro de administración de negocio** > **portal heredado**.
+2. Vaya al **Centro de administración de equipos de Microsoft** > **portal heredado**.
     
 3. En el panel de navegación izquierdo, haga clic en **voz** > **a los usuarios de voz**.
    > [!NOTE]
@@ -80,7 +80,7 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
 8. Después de asignar el número de teléfono y la ubicación de emergencia, haga clic en **Guardar**.
     
     > [!NOTE]
-    > Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for users to be enabled. If after 24 hours, if the phone number isn't assigned correctly, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). We're here to help! 
+    > Debido a la latencia entre Office 365 y Skype para profesionales en línea, posiblemente pueden tardar hasta 24 horas para los usuarios a habilitarse. Si después de 24 horas el número de teléfono no está asignado correctamente, [contacte al soporte técnico para productos de empresa: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). Estamos aquí para ayudarle. 
   
 
 
@@ -90,7 +90,7 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
  
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya a **los equipos de Microsoft y Skype para el centro de administración de negocio** > **portal heredado**.
+2. Vaya al **Centro de administración de equipos de Microsoft** > **portal heredado**.
     
 3. En el panel de navegación izquierdo, haga clic en **voz** > **a los usuarios de voz**.
     
@@ -114,7 +114,7 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
  
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya a **los equipos de Microsoft y Skype para el centro de administración de negocio** > **portal heredado**.
+2. Vaya al **Centro de administración de equipos de Microsoft** > **portal heredado**.
     
 3. En el panel de navegación izquierdo, haga clic en **voz** > **a los usuarios de voz**.
     

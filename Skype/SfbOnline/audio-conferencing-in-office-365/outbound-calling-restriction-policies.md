@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Los administradores pueden controlar el tipo de audioconferencias llamadas de RTC de conferencia y el usuario final que pueden realizar los usuarios.
-ms.openlocfilehash: ed61dc5c131dd38d59820f3ccda9682dcf7fd886
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 97df093168e896eabbc210545d516f386e1a6d25
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882016"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753476"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restricción de llamadas salientes para Audioconferencia y las llamadas RTC de usuario
 
@@ -34,8 +34,8 @@ Controles de llamada saliente se pueden aplicar por usuario y proporcionan los s
 
 |Control|Descripción|Opciones de control|
 |:-----|:-----|:-----|
-|Llamadas de audio de conferencia RTC|Restringe el tipo de salida </br>llamadas que se permiten desde dentro </br>reuniones organizadas por un usuario.|Internacionales y nacionales (valor predeterminado)</br>Nacionales</br>Ninguna|
-|Llamadas de RTC del usuario final|Restringe el tipo de llamadas </br>que puede ser realizados por un usuario.|Internacionales y nacionales (valor predeterminado)</br>Nacionales</br>Ninguna|
+|Llamadas de audio de conferencia RTC|Restringe el tipo de salida </br>llamadas que se permiten desde dentro </br>reuniones organizadas por un usuario.|Internacionales y nacionales (valor predeterminado)</br>Nacionales</br>Ninguno|
+|Llamadas de RTC del usuario final|Restringe el tipo de llamadas </br>que puede ser realizados por un usuario.|Internacionales y nacionales (valor predeterminado)</br>Nacionales</br>Ninguno|
 
    > [!NOTE]
    > Una llamada se determina como nacionales si el número de teléfono llamada se encuentra en el mismo país como el país en el que se ha establecido en Office 365 para el organizador de la reunión (en el caso de conferencias de audio) o el usuario final (en el caso de las llamadas de RTC de usuario final). 
@@ -45,7 +45,7 @@ Controles de llamada saliente se pueden aplicar por usuario y proporcionan los s
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Restringir las llamadas salientes de conferencias de audio 
 
-![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **utilizando los equipos de Microsoft y Skype para el centro de administración de negocio**
+![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **desde el centro de administración de equipos de Microsoft**
 
 1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 

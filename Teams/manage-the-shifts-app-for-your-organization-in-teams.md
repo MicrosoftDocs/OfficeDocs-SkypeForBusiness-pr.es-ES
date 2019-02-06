@@ -1,5 +1,5 @@
 ---
-title: Administrar la aplicación de turnos para su organización en Microsoft Teams
+title: Administrar la aplicación Turnos para su organización en Microsoft Teams
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
@@ -12,14 +12,14 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f761e36712b94274ccf88aa03bd3658c039d438
-ms.sourcegitcommit: 71ba178ff60c4b36d4d8e287be9b16233a29ad55
+ms.openlocfilehash: 204dc5899a72b1bc1516441ca8654e7341f19942
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28022918"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754530"
 ---
-# <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación de turnos para su organización en Microsoft Teams
+# <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Turnos para su organización en Microsoft Teams
 
 > [!IMPORTANT]
 > Eficaces se deben retirarse el 1 de octubre de 2019, Microsoft StaffHub. Que estamos creando las capacidades de StaffHub, incluida la administración de programación y tarea, en Microsoft Teams. Funciones adicionales para los trabajadores de firstline va a desplegar a los equipos a través del tiempo. Para obtener más información, vea [Microsoft StaffHub retirarse](https://support.office.com/article/microsoft-staffhub-to-be-retired-30ca17f3-5502-4bc9-bb0a-bed04bb362f0).  
@@ -49,7 +49,7 @@ Datos de turnos actualmente se almacenan en Azure en centros de datos en Norteam
 Turnos está habilitado de forma predeterminada para todos los usuarios de los equipos de la organización. Puede activar o desactivar en la aplicación para su organización en el centro de administración de Microsoft 365.
 
 1. Inicie sesión en el centro de administración de Microsoft 365 con su cuenta de administración de Office 365.
-2. Vaya a **configuración** > **Services & complementos** > **Equipos de Microsoft**. 
+2. Vaya a **configuración** > **complementos & de servicios** > **Equipos de Microsoft**. 
 3. En **configuración de todo el inquilino**, seleccione **aplicaciones**y, a continuación, en **Aplicaciones de valor predeterminado**, desactive o Active la casilla de verificación **turnos** para activar o desactivar en la aplicación. 
 
     ![Captura de pantalla de la sección de aplicaciones predeterminado] (media/firstline-worker-enable-disable-shifts.png "Captura de pantalla de la sección de aplicaciones predeterminado en el centro de administración de Microsoft 365, que muestra la lista de aplicaciones, como las aplicaciones de turnos")
@@ -62,13 +62,13 @@ Las directivas de aplicación del programa de instalación le permiten personali
  
 Los equipos incluye una directiva del programa de instalación de aplicación FirstLineWorker integrada que puede asignar a los trabajadores de firstline en su organización. De forma predeterminada, la directiva incluye las aplicaciones de actividad, turnos, Chat y llamadas. 
 
-Para ver la directiva de FirstLineWorker, en la izquierda del SDK de Microsoft Teams & Skype para el centro de administración de negocio, vaya a la **aplicación de los equipos** > **las directivas de aplicación del programa de instalación**.
+Para ver la directiva de FirstLineWorker, en la izquierda del centro de administración de Microsoft Teams, vaya a la **aplicación de los equipos** > **las directivas de aplicación del programa de instalación**.
 
-![Captura de pantalla de la directiva de FirstLineWorker aplicación del programa de instalación en los equipos de Microsoft & Skype para el centro de administración de negocio] (media/firstline-worker-app-setup-policy.png "Captura de pantalla de la directiva de FirstLineWorker aplicación del programa de instalación en los equipos de Microsoft & Skype para el centro de administración de negocio")
+![Captura de pantalla de la directiva de configuración de aplicación FirstLineWorker en el centro de administración de equipos de Microsoft] (media/firstline-worker-app-setup-policy.png "Captura de pantalla de la directiva de configuración de aplicación FirstLineWorker en el centro de administración de equipos de Microsoft")
 
 #### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>Asigne la directiva FirstLineWorker a usuarios individuales
 
-1. En la izquierda del SDK de Microsoft Teams & Skype para el centro de administración de negocio, vaya a **los usuarios**y, a continuación, haga clic en el usuario.
+1. En la izquierda el centro de administración de Microsoft Teams, vaya a **los usuarios**y, a continuación, haga clic en el usuario.
 2. Junto a **las directivas asignadas**, elija **Editar**.
 3. En **el programa de instalación de los equipos de aplicación de directiva**, seleccione **FirstLineWorker**y, a continuación, elija **Guardar**.
 

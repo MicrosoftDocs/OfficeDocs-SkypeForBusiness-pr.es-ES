@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to add an emergency address to your Skype for Business account. '
-ms.openlocfilehash: a1e1421e79b25da37f26c09b271abb67f7b3340b
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.openlocfilehash: d2eddc3812919a187fffa01279136be2a7735095
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635758"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753680"
 ---
 # <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>Agregar, cambiar o quitar una dirección de emergencia para la organización
 
@@ -40,7 +40,7 @@ Para obtener información sobre cómo obtener planes de llamadas y su coste, vea
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya a los **equipos de Microsoft & Skype para el centro de administración de negocio** > **portal heredado**.
+2. Vaya al **Centro de administración de equipos de Microsoft** > **portal heredado**.
     
 3. En el panel de navegación izquierdo, vaya a VozUbicaciones de emergenciay, a continuación, haga clic en el botón Agregar nueva dirección.** **  >  ** ** ** **
     
@@ -64,7 +64,7 @@ Para obtener información sobre cómo obtener planes de llamadas y su coste, vea
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya a los **equipos de Microsoft & Skype para el centro de administración de negocio** > **portal heredado**.
+2. Vaya al **Centro de administración de equipos de Microsoft** > **portal heredado**.
     
 3. En el panel de navegación izquierdo, vaya a **voz** > **ubicaciones de emergencia**, seleccione la dirección que desea cambiar y, en el panel de acciones, haga clic en **Editar**.
     
@@ -79,7 +79,7 @@ Para obtener información sobre cómo obtener planes de llamadas y su coste, vea
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya a **los equipos de Microsoft y Skype para el centro de administración de negocio** > **portal heredado**.
+2. Vaya al **Centro de administración de equipos de Microsoft** > **portal heredado**.
     
 3. En el panel de navegación izquierdo, vaya a **voz** > **ubicaciones de emergencia**, seleccione la dirección que desea eliminar y, en el panel de acciones, haga clic en **Eliminar**.
     
@@ -106,7 +106,7 @@ Si en realidad se ha utilizado una dirección de emergencia incorrecta, asegúre
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya a los **equipos de Microsoft & Skype para el centro de administración de negocio** > **portal heredado**.
+2. Vaya al **Centro de administración de equipos de Microsoft** > **portal heredado**.
     
 3. En el panel de navegación izquierdo, vaya a **voz** > **Los números de teléfono**y, a continuación, haga doble clic en el número en estado de **"Error"** y, en el menú de sitio de la derecha, seleccione la **Nueva dirección de emergencia**.
 

@@ -12,17 +12,14 @@ description: Guía práctica para implementar características de voz en la nube
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2b57b7c39dc129c485943c5048a8d4b6441d942
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: f773c88c16f77e6879adb29852514ef7548790fa
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594201"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754755"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
-
-> [!Note]
-> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 En Microsoft Teams, los usuarios pueden registrar sus reuniones de los equipos y las llamadas de grupo para capturar audio, vídeo y uso compartido de actividad de pantalla. También es una opción para grabaciones tener transcripción automática, por lo que los usuarios pueden reproducir grabaciones de la reunión con títulos cerrados y buscar elementos de discusión importantes en la transcripción. La grabación sucede en la nube y se guarda en la [Secuencia de Microsoft](https://docs.microsoft.com/stream/), por lo que los usuarios pueden compartirla de manera segura en toda su organización.
 

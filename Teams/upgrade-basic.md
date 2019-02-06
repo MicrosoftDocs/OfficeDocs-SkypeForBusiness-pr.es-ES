@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0b6940a2e58a0a459c6f7858c0d7bd19f53ca39
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: ccc958aaba8546f1af8f8bb1644d0fdeea8f0860
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594417"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754302"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -153,7 +153,7 @@ Los usuarios están ocupados con sus responsabilidades diarias. Recordar a ellos
 
 *(Actualización día)*
 
-Hoy es el día de que la organización actualiza oficialmente a los equipos como la solución de comunicación y colaboración. En los equipos & Skype para el centro de administración de negocio, activar el modificador actualización estableciendo el modo de coexistencia en **Los equipos sólo**. (En el centro de administración, vaya a **configuración de toda la organización** > **Actualización de los equipos**.) Los usuarios recibirán una notificación en su Skype para cliente de negocio que se ha actualizado a los equipos.
+Hoy es el día de que la organización actualiza oficialmente a los equipos como la solución de comunicación y colaboración. En el centro de administración de Microsoft Teams, activar el modificador actualización estableciendo el modo de coexistencia en **Los equipos sólo**. (En el centro de administración, vaya a **configuración de toda la organización** > **Actualización de los equipos**.) Los usuarios recibirán una notificación en su Skype para cliente de negocio que se ha actualizado a los equipos.
 
 Se recomienda que después de que todos los usuarios se han actualizado, envíe un correo electrónico le les da la bienvenida a los equipos.
 

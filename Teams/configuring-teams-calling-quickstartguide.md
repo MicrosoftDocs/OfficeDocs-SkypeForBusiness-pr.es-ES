@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e66005ca69a08cd0cf944455e73c155d20bfea9
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: 0aa397b7a859e24beaf5f8455ef054b7d5a18222
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593929"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753621"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams
 ==============================================================
@@ -48,7 +48,7 @@ Para habilitar la ficha de **Teclado de marcado** en los equipos y permitir que 
 > También puede usar el enrutamiento directo para permitir que a los usuarios obli y recibir llamadas de RTC. Para obtener información sobre cómo configurar el enrutamiento directo, leer la [Configuración de enrutamiento directo](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure).
 
 ## <a name="teams-interop-policy-configuration"></a>Configuración de la directiva de interoperabilidad de Microsoft Teams
-Para habilitar los equipos para empezar a recibir llamadas, que necesitará para actualizar la directiva de actualización de los equipos y la directiva de interoperabilidad de los equipos mediante [& de equipos de Microsoft Skype para el centro de administración de negocio](https://aka.ms/teamsadmincenter) o mediante una sesión remota de Windows PowerShell con el Skype para la empresa [ `*-CsTeamsUpgradePolicy`y `*-CsTeamsInteropPolicy` ](https://docs.microsoft.com/powershell/module/skype) cmdlets, para redirigir las llamadas a los equipos.
+Para habilitar los equipos para empezar a recibir llamadas, que necesitará para actualizar la directiva de actualización de los equipos y la directiva de interoperabilidad de los equipos mediante el [Centro de administración de equipos de Microsoft](https://aka.ms/teamsadmincenter) o mediante una sesión remota de Windows PowerShell con el Skype para la empresa [ `*-CsTeamsUpgradePolicy` y `*-CsTeamsInteropPolicy` ](https://docs.microsoft.com/powershell/module/skype) cmdlets, para redirigir las llamadas a los equipos.
 
 Para obtener más información acerca de la directiva de actualización de los equipos y la directiva de interoperabilidad de los equipos, vea [migración e instrucciones de interoperabilidad para las organizaciones que utilizan los equipos junto con Skype para la empresa](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype).
 
@@ -90,7 +90,7 @@ Si elige seguir usando la directiva heredada de actualización de los equipos, u
     CallingDefaultClient       : Teams
     ChatDefaultClient          : Teams
 
-Si decide utilizar la directiva de actualización de los equipos actualizada, debe asignar el modo de TeamsOnly a los usuarios.
+Si decide utilizar la directiva de actualización de los equipos actualizada, debe asignar el modo de sólo los equipos a los usuarios.
 
 Los comportamientos de la directiva anterior son los siguientes:
 * **Para los clientes existentes de Skype Empresarial**, esta directiva está diseñada para redirigir las llamadas entrantes a Microsoft Teams. Esto afecta tanto a las llamadas VoIP (desde Microsoft Teams y Skype Empresarial) como a las RTC. 
@@ -104,7 +104,7 @@ Cuando se usa la directiva heredada de actualización de los equipos, aplicar la
 
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
-Si decide usar el modo de TeamsOnly, puede cambiar el modo de coexistencia del usuario a TeamsOnly a Microsoft Teams & Skype para el centro de administración de negocio, o a través de Skype para la sesión remota de Windows PowerShell de negocio para redirigir las llamadas a los equipos:
+Si decide usar el modo de sólo los equipos, puede cambiar el modo de coexistencia del usuario a sólo los equipos a través del centro de acmin Teams Microsoft o a través de un Skype para la sesión remota de Windows PowerShell de negocio para redirigir las llamadas a los equipos:
 
     Grant-CsTeamsUpgradePolicy -PolicyName tag:UpgradeToTeams -Identity user@contoso.com
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com

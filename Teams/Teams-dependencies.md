@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Administre las funcionalidades y las características de acceso de invitado de Microsoft Teams a través de cuatro niveles de autorización distintos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 396650240c1d7b10e2fd6716ec52c13a649839e5
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: be1aa39a73cf5c4a28866ac8b702afebeb992b0d
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706326"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753822"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar el acceso de invitado en Microsoft Teams
 ===========================================
@@ -75,7 +75,7 @@ Licencias de Azure AD le permite agregar a hasta 5 invitados por licencia. Para 
 
 En los equipos, puede controlar si la experiencia de invitado está habilitada o deshabilitada para su organización. La configuración está deshabilitada de forma predeterminada y solo se aplica en el nivel de inquilino para los equipos.
 
-Puede administrar la configuración de acceso de invitado de los equipos desde el & Teams Microsoft Skype para el centro de administración de negocio. Si desea más información, consulte [Activar o desactivar el acceso de invitado para Microsoft Teams](set-up-guests.md). 
+Puede administrar la configuración de acceso de invitado de los equipos desde el centro de administración de Microsoft Teams. Si desea más información, consulte [Activar o desactivar el acceso de invitado para Microsoft Teams](set-up-guests.md). 
 
 
 ## <a name="control-guest-access-in-office-365-groups"></a>Controlar el acceso de invitado en grupos de Office 365

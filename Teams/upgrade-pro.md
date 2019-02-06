@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bff0bc862313ecf5ef85152797266b8cc40b2be
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: e948685a1a49920ca7cf200435266e2cbaaf165d
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349384"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754837"
 ---
 # <a name="upgrade-pro"></a>Actualice Pro
 
@@ -122,4 +122,4 @@ Para ayudar a demostrar cómo es posible que se desdoblan su viaje por la actual
 > Nuestro contenido de actualización Pro evoluciona continuamente. No olvide Eche un vistazo a las instrucciones más reciente y leer el [blog de los equipos](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog).
 
 > [!Important]
-> Si es administrador en el inquilino de Office 365, es posible que inicie vean las opciones de actualización de los equipos & Skype para el centro de administración de negocio o de cmdlet de PowerShell. Tener la opción de actualización no significa necesariamente que su organización está preparada para que este cambio. Para una experiencia de usuario óptima, confirme que los equipos cumple los requisitos de colaboración y comunicación, validar que está lista para equipos de soporte técnico e implementar el plan de preparación del usuario antes de actualizar a los usuarios a los equipos de la red.
+> Si es administrador en el inquilino de Office 365, es posible que inicie vean las opciones de actualización en el cmdlet de PowerShell o el centro de administración de Microsoft Teams. Disponer de la opción para actualizar no significa necesariamente que su organización esté lista para hacerlo. Para una experiencia de usuario óptima, confirme que los equipos cumple los requisitos de colaboración y comunicación, validar que está lista para equipos de soporte técnico e implementar el plan de preparación del usuario antes de actualizar a los usuarios a los equipos de la red.

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Consideraciones de planeación para implementar la conectividad de híbrida entre Skype para Business Server y Skype para profesionales en línea o los equipos.
-ms.openlocfilehash: ca6fce658443cd100cc03b14730dac722337733d
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 9e71ec9de7e9ade3502532056ec63826d9f77597
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29348947"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753953"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Planeación de la conectividad híbrida entre Skype para Business Server y Office 365
 
@@ -62,7 +62,7 @@ Para implementar la conectividad híbrida entre su entorno local y los servicios
     > Solo puede usar un inquilino para una configuración híbrida con su implementación local.
 - Azure Active Directory Connect para sincronizar su directorio local con Office 365. Para obtener más información, vea [Azure Connect AD: permisos y cuentas de](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 - Skype para herramientas administrativas de Business Server.  Son necesarios para mover usuarios de local a la nube. Estas herramientas deben estar instaladas en un servidor con acceso a la implementación local e internet.
-- Herramientas administrativas en línea.  Puede usar los equipos y la Skype para el centro de administración de negocio o Windows PowerShell para administrar los equipos y Skype para profesionales en línea. Para usar PowerShell para administrar los equipos o Skype para profesionales en línea, descargue e instale el Skype para Business Connector en línea.
+- Herramientas administrativas en línea.  Puede usar el centro de administración de equipos o en el Windows PowerShell para administrar los equipos y Skype para profesionales en línea. Para usar PowerShell para administrar los equipos o Skype para profesionales en línea, descargue e instale el Skype para Business Connector en línea.
 - Espacio de direcciones SIP compartido debe estar habilitada y la implementación local debe configurarse para usar Office 365 como un proveedor de hospedaje. Para obtener más información acerca de los pasos necesarios para configurar la conectividad híbrida, vea [Configurar la conectividad de híbrida](configure-hybrid-connectivity.md).
 
 Después de configurar la conectividad híbrida, puede mover los usuarios a los equipos o Skype para profesionales en línea. Para obtener más información, vea [mover usuarios de local a los equipos](move-users-from-on-premises-to-teams.md) y [mover los usuarios de local a Skype para profesionales en línea](move-users-from-on-premises-to-skype-for-business-online.md).

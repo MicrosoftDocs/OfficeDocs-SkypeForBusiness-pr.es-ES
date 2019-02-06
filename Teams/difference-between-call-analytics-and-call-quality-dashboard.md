@@ -23,18 +23,18 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Obtenga información sobre el análisis de llamadas y, a continuación, llame al panel de calidad y cuándo usarlos para supervisar y solucionar los problemas de calidad de la llamada.
-ms.openlocfilehash: 8f664dfc8a609e23485f1dd935c00d8e5a745943
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: b4c009d356453b11ecf4af70380491f69f843188
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/06/2019
-ms.locfileid: "29742992"
+ms.locfileid: "29754642"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Análisis de llamada y el panel de calidad de llamada
 
 Microsoft Teams y Skype para la empresa le ofrecen dos maneras para supervisar y solucionar los problemas de calidad de la llamada: análisis de llamadas y panel de calidad de llamadas. En este artículo se describe ambos y se indica cuándo se debe usar cada uno de ellos.
   
-**Análisis de llamada está ahora disponible en el Microsoft Teams y Skype para el centro de administración de negocio.** Para ver toda la información de la llamada y los datos para un usuario, utilice la ficha **Historial de llamadas** . Para ello, puede buscar en la página de perfil del usuario buscando el usuario desde el panel o buscar el usuario de **los usuarios** en el panel de navegación izquierdo.
+**Análisis de la llamada está ahora disponible en el centro de administración de Microsoft Teams.** Para ver toda la información de la llamada y los datos para un usuario, utilice la ficha **Historial de llamadas** . Para ello, puede buscar en la página de perfil del usuario buscando el usuario desde el panel o buscar el usuario de **los usuarios** en el panel de navegación izquierdo.
 
 > [!IMPORTANT]
 > Permisos de agente de departamento de soporte técnico y la carga de la topología de red estará disponibles en el nuevo portal de administración en los próximos meses. Mientras tanto, puede seguir usando https://adminportal.services.skypeforbusiness.com para el acceso de departamento de soporte técnico de nivel 1 y nivel 2.
@@ -43,7 +43,7 @@ Microsoft Teams y Skype para la empresa le ofrecen dos maneras para supervisar y
 
 Análisis de la llamada muestran información detallada acerca de los dispositivos, redes y conectividad relacionadas con las llamadas específicas y las reuniones para cada usuario en un Microsoft Teams o Skype para la cuenta de empresa. Si usted es un administrador de Office 365, puede usar llamar análisis para solucionar problemas de conexión y la calidad de llamada en Microsoft Teams y Skype para la empresa.
 
-Para ver esta información para un usuario en el & Teams Microsoft Skype para el centro de administración de negocio, haga clic en la ficha **Historial de llamadas** para ese usuario en la página de detalles del usuario, que muestra todas las llamadas y las reuniones que el usuario ha participado en para los últimos 30 días.
+Para ver esta información para un usuario en el centro de administración de Microsoft Teams, haga clic en la ficha **Historial de llamadas** para ese usuario en la página de detalles del usuario, que muestra todas las llamadas y las reuniones que el usuario ha participado en para los últimos 30 días.
 
 ![Llame al análisis de datos de usuario.](media/call-analytics-user-data.png)
 
@@ -51,7 +51,7 @@ Para obtener información adicional acerca de una sesión determinada, incluidos
 
 ![Llame al análisis de datos de sesión de usuario.](media/call-analytics-user-data-session.png)
 
-Si desea que no son de administrador, como agentes de departamento de soporte técnico de un proveedor externo, para usar el análisis de llamadas, puede asignar permisos para que pueden utilizar análisis de llamada, pero no puede acceder el resto de la & Teams Microsoft Skype para el centro de administración de negocio: 
+Si desea que no son de administrador, como agentes de departamento de soporte técnico de un proveedor externo, para usar el análisis de llamadas, puede asignar permisos para que pueden utilizar análisis de llamada, pero no pueden obtener acceso el resto del centro de administración de Microsoft Teams: 
   
 - **Los agentes del departamento de soporte técnico con las comunicaciones admiten permisos especialista**: agentes vea un conjunto limitado de datos y la información de identificación personal (PII) en análisis de llamadas. Pueden solucionar problemas de las llamadas, pero problemas con las reuniones se entregan a un ingeniero de soporte técnico de comunicaciones.
     
@@ -63,7 +63,7 @@ Si desea que no son de administrador, como agentes de departamento de soporte t�
 Para obtener más información acerca de las comunicaciones especialista en soporte técnico y comunicaciones admite ingeniero de roles, consulte [roles de administrador de equipos de uso de Microsoft para administrar los equipos](using-admin-roles.md).
 
 > [!IMPORTANT]
-> Permisos de agente de departamento de soporte técnico y la carga de la topología de red están disponibles en la & Teams Microsoft Skype para el centro de administración de negocio. Especialistas en soporte técnico de comunicaciones y los ingenieros de soporte técnico de comunicaciones pueden usar este portal para obtener acceso a análisis de llamadas y el panel de calidad de llamadas.
+> Permisos de agente de departamento de soporte técnico y la carga de la topología de red están disponibles en el centro de administración de Microsoft Teams. Especialistas en soporte técnico de comunicaciones y los ingenieros de soporte técnico de comunicaciones pueden usar este portal para obtener acceso a análisis de llamadas y el panel de calidad de llamadas.
     
 Para obtener información detallada sobre la configuración de análisis de llamadas, vea [Set up Skype para llamadas de Business Analytics](set-up-call-analytics.md). Para obtener más información acerca de cómo los agentes del departamento de soporte técnico puede trabajar con análisis de llamadas, vea [Uso de llamadas de análisis para solucionar problemas de calidad de la llamada deficiente](use-call-analytics-to-troubleshoot-poor-call-quality.md).
   

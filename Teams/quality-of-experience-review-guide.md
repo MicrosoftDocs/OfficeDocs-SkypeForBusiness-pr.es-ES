@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa50607a01888f776c480b33af52fccd67a1b7b5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 34ec9518c8f5406b3bb6c489d571d89f50f34b34
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373178"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754829"
 ---
 # <a name="quality-of-experience-review-guide"></a>Calidad de experiencia consulte la Guía
 
@@ -463,11 +463,11 @@ Puede tener acceso a CQD de tres maneras:
 
 -   Vaya a <https://cqd.lync.com>.
 
--   Vaya a **los equipos de Microsoft & Skype para el centro de administración de negocio** y seleccione el vínculo a CQD, tal como se muestra en la siguiente ilustración.
+-   Vaya a **Centro de administración de equipos de Microsoft** y seleccione el vínculo a CQD, como se muestra en la siguiente ilustración.
 
 ![En el panel de la barra de navegación izquierda, se selecciona el vínculo al panel de calidad de llamada.] (media/qerguide-image-mopo.png "En el panel de la barra de navegación izquierda, se selecciona el vínculo al panel de calidad de llamada.")
 
-_La figura 7: obtener acceso a CQD a través de los equipos de Microsoft & Skype para el centro de administración de negocio_
+_La figura 7: acceso a CQD a través del centro de administración de Microsoft Teams_
 
 -   Vaya a la heredado **Skype para el centro de administración de negocio** > **Herramientas**y seleccione el vínculo a CQD, como se muestra en la siguiente ilustración.
 
@@ -627,20 +627,20 @@ _Tabla 5: creación de la estructura de archivos_
 
 | Nombre de columna        | Tipo de datos | Ejemplo                   | Orientación    |
 |--------------------|-----------|---------------------------|-------------|
-| Red            | Cadena    | 192.168.1.0               |  Obligatorio    |
-| NetworkName        | Cadena    | Estados Unidos/Seattle/SEATTLE-mar-1 |  Obligatorio\*  |
-| NetworkRange       | Número    | 26                        |  Obligatorio    |
-| Nombredeedificio       | Cadena    | SEATTLE-MAR-1             |  Obligatorio\*  |
+| Network            | Cadena    | 192.168.1.0               | Requerido    |
+| NetworkName        | Cadena    | Estados Unidos/Seattle/SEATTLE-mar-1 | Requerido\*  |
+| NetworkRange       | Número    | 26                        | Requerido    |
+| BuildingName       | Cadena    | SEATTLE-MAR-1             | Requerido\*  |
 | OwnershipType      | Cadena    | Contoso                   | Opcional     |
 | BuildingType       | Cadena    | Terminación de TI            | Opcional     |
 | BuildingOfficeType | Cadena    | De ingeniería               | Opcional     |
 | Ciudad               | Cadena    | Seattle                   | Recomendado |
-| Código postal            | Cadena    | 98001                     | Recomendado |
+| ZipCode            | Cadena    | 98001                     | Recomendado |
 | País            | Cadena    | NOSOTROS                        | Recomendado |
 | Estado              | Cadena    | WA                        | Recomendado |
 | Region             | Cadena    | MSUS                      | Recomendado |
-| InsideCorp         | Booleano      | 1                         |  Obligatorio    |
-| ExpressRoute       | Booleano      | 0                         |  Obligatorio    |
+| InsideCorp         | Booleano      | 1                         | Requerido    |
+| ExpressRoute       | Booleano      | 0                         | Requerido    |
 
 \*Si bien no es necesario por CQD, las plantillas están configuradas para mostrar la generación y red nombre.
 
@@ -786,7 +786,7 @@ Estas herramientas se basan en PowerShell y pueden sacar provecho de los sitios 
 
 Para obtener más información acerca de esta herramienta, vea [esta entrada de blog](https://aka.ms/cqdtools).
 
-#### <a name="network-planner"></a>Organizador de red
+#### <a name="network-planner"></a> Planificador de red
 
 El organizador de la red determina y organiza los requisitos de red para la implementación de voz en la nube en unos pocos pasos sencillos. Al proporcionar que la organización de la red de detalles y uso de voz en la nube, puede obtener un cálculo aproximado de los requisitos de red para la implementación de voz en la nube, administrar y exportar estos detalles para informes y ver áreas para la investigación adicional y los pasos siguientes.
 
@@ -1206,7 +1206,7 @@ _La figura 30 - informe de versiones de cliente_
 
 #### <a name="diagnostic-alert"></a>Alerta de diagnóstico
 
-Si ha recibido un diagnóstico alerta "conocidos bajo rendimiento versiones de cliente están en uso", céntrese en la actualización de los clientes en primer lugar. Ha identificado la alerta de que estos clientes afectan negativamente a la calidad de la llamada. Puede usar el informe de cliente y dispositivos (mostrado anteriormente) para ayudar a garantizar que los clientes que presentan problemas conocidos ya no se van a actualizar.
+Si ha recibido un diagnóstico alerta "conocidos bajo rendimiento versiones de cliente están en uso", céntrese en la actualización de los clientes en primer lugar. Ha identificado la alerta de que estos clientes afectan negativamente a la calidad de la llamada. Puede usar el informe de dispositivos (mostrado anteriormente) para ayudar a garantizar que ya no se actualizan los clientes que presentan problemas conocidos de cliente &.
 
 #### <a name="remediation"></a>Corrección
 
@@ -1245,7 +1245,7 @@ El conjunto disponible de MOS y métricas asociadas proporcionan una vista a la 
 
 Al proporcionar a los usuarios con los dispositivos certificados para los equipos y Skype para la empresa, se reduce la probabilidad de que se produzcan experiencias negativas debido al propio dispositivo (que es más probable, por ejemplo, con micrófonos y altavoces portátil integrada). Para obtener más información, vea estos artículos en el [programa de certificación](/SkypeForBusiness/certification/overview) y el [catálogo de soluciones de socios](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs).
 
-Los informes de dispositivo se usan para evaluar el uso del dispositivo por volumen y MOS puntuación (solo audio) y pueden encontrarse en las plantillas que lo acompaña en los clientes y dispositivos. 
+Los informes de dispositivo se usan para evaluar el uso del dispositivo por volumen y MOS puntuación (solo audio) y pueden encontrarse en las plantillas en los clientes & dispositivos que lo acompaña. 
 
 > [!IMPORTANT]
 > A menos que excluir datos participantes federados, estos informes incluirán telemetría de cliente desde los extremos federados. Para excluir los extremos federados, debe agregar un filtro de consulta para el **Segundo identificador de inquilino** establecida en el [identificador de inquilino](#tenant-id)de su organización. Como alternativa, puede utilizar un [filtro para direcciones URL](#url-filter) para excluir telemetría participante federado.
@@ -1262,7 +1262,7 @@ _Figura 31 - informan de dispositivos (micrófono)_
 
 ##### <a name="diagnostic-alert"></a>Alerta de diagnóstico
 
-Si recibe una alerta de diagnóstico "controladores de Audio están causando gotas de llamada," centrarse en solucionar relativos a dichos controladores en primer lugar. La alerta ha identificado que controladores defectuosos conocidos que provocan las llamadas colocar y afectan negativamente a confiabilidad de la llamada. Puede usar el informe de controladores de micrófono (mostrado anteriormente), que se encuentra en la sección cliente y dispositivos, para ayudar con el proceso.
+Si recibe una alerta de diagnóstico "controladores de Audio están causando gotas de llamada," centrarse en solucionar relativos a dichos controladores en primer lugar. La alerta ha identificado que controladores defectuosos conocidos que provocan las llamadas colocar y afectan negativamente a confiabilidad de la llamada. Puede usar el informe controladores de micrófono (mostrado anteriormente), que se encuentra en la sección de dispositivos de cliente &, para ayudar con el proceso.
 
 ##### <a name="remediation"></a>Corrección
 
@@ -1351,7 +1351,7 @@ Para obtener más información, vea [este artículo acerca del rendimiento de re
 
 ### <a name="devices"></a>Dispositivos
 
--   [Skype para soluciones empresariales de catálogo periféricos personales y PCs](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
+-   [Skype para Business Solutions catálogo periféricos Personal & PCs](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
 
 ### <a name="tenant-reporting"></a>Creación de informes de inquilinos
 

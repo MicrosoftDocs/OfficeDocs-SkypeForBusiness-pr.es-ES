@@ -14,12 +14,12 @@ description: Aprenda los pasos para configurar live para los eventos de los equi
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fe13722bfc8b5aa7a9f57d0dfd39c67146e6c31
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: 078374652325d177e30db1d320f22e5d814ac548
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626273"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754787"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Definir eventos en directo en Microsoft Teams
 
@@ -41,7 +41,7 @@ Las directivas se utilizan para controlar quién en la organización puede conte
 
 ### <a name="create-or-edit-a-live-events-policy"></a>Crear o editar una directiva de eventos en directo
 
-**![los equipos-logotipo-30x30.png](../media/teams-logo-30x30.png) utilizando el Microsoft Teams & Skype para el centro de administración de negocio**
+**![los equipos-logotipo-30x30.png](../media/teams-logo-30x30.png) mediante el centro de administración de Microsoft Teams**
 
 1. En el panel de navegación izquierdo, vaya a **las reuniones** > **las directivas de eventos en directo**. 
 2. Siga uno de estos pasos:
@@ -51,7 +51,7 @@ Las directivas se utilizan para controlar quién en la organización puede conte
 
     Estos son los valores que puede cambiar para ajustarse a las necesidades de su organización.
 
-    ![Captura de pantalla de configuración de directiva de eventos de live] (../media/teams-live-events-policies.png "Captura de pantalla de configuración de directiva de eventos en los equipos de Microsoft & Skype para el centro de administración de negocio de live") 
+    ![Captura de pantalla de configuración de directiva de eventos de live] (../media/teams-live-events-policies.png "Captura de pantalla de live configuración de directiva de eventos en el centro de administración de equipos de Microsoft") 
 
 |Configuración  |Descripción  |
 |---------|---------|
@@ -68,7 +68,7 @@ También puede hacerlo mediante el uso de Windows PowerShell. Para obtener más 
 
 Si ha creado una directiva personalizada eventos en directo, asignar a los usuarios para la directiva para estar activa. 
 
-![los equipos-logotipo-30x30.png](../media/teams-logo-30x30.png) Uso de la Microsoft Teams & Skype para el centro de administración de negocio
+![los equipos-logotipo-30x30.png](../media/teams-logo-30x30.png) Desde el centro de administración de Microsoft Teams
 
 1. En el panel de navegación izquierdo, vaya a **los usuarios**y, a continuación, seleccione el usuario.
 2. Junto a **las directivas asignadas**, elija **Editar**. 

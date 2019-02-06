@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: ec3cbc89a0a8ab07d7936d604d1f38a5d99ed2b6
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 84134809d11b8175dca6369afdf552543ffc07d0
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182397"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753975"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Crear una cola de llamadas de Sistema telefónico
 
@@ -104,9 +104,9 @@ Antes de crear o configurar una cola, tendrá que obtener sus números de servic
   
 ## <a name="step-3---create-a-new-call-queue"></a>Paso 3: crear una cola de llamadas nueva
 
- **Uso de la Microsoft equipos & Skype para el centro de administración de negocio**
+ **Desde el centro de administración de Microsoft Teams**
 
-En los **equipos de Microsoft & Skype para el centro de administración de negocio**, haga clic en ![sfb-logotipo-30x30.png](../images/sfb-logo-30x30.png) **Portal heredado** >  **enrutamiento de llamadas** > **colas de llamadas**, a continuación, haga clic en **+ Agregar nuevo**:
+En el **Centro de administración de equipos de Microsoft**, haga clic en ![sfb-logotipo-30x30.png](../images/sfb-logo-30x30.png) **Portal heredado** >  **enrutamiento de llamadas** > **colas de llamadas**, a continuación, haga clic en **+ Agregar nuevo**:
   
 ### <a name="set-the-call-queue-display-name-phone-number-and-domain-if-any"></a>Definir el nombre para mostrar de la cola de llamadas, el número de teléfono y el dominio (si disponible)
 

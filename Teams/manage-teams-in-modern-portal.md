@@ -1,5 +1,5 @@
 ---
-title: Administrar los equipos en el & Teams Microsoft Skype para el centro de administración de negocio
+title: Administrar los equipos en el centro de administración de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,39 +8,39 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: islubin
-description: Obtenga información sobre cómo ver o actualizar los equipos en el & Teams Microsoft Skype para el centro de administración de negocio.
+description: Obtenga información sobre cómo ver o actualizar los equipos en el centro de administración de Microsoft Teams.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df8e60f8a5d7aaf2638e1220baf1c41a59075ae0
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: bd56bd9147ca58ad38b41f64a7a6f3c6a8daf134
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706445"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754190"
 ---
-<a name="manage-teams-in-the-microsoft-teams--skype-for-business-admin-center"></a>Administrar los equipos en el & Teams Microsoft Skype para el centro de administración de negocio
+<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Administrar los equipos en el centro de administración de Microsoft Teams
 ==========================================
 
 [!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
 
 ## <a name="overview"></a>Información general
 
-Como un administrador de TI, es posible que necesite vista o actualización de los equipos de su organización ha configurado para la colaboración o necesite para llevar a cabo las acciones de corrección, como la asignación de propietarios de los equipos sin dueño. Puede administrar los equipos que se usan en la organización a través del módulo de PowerShell de los equipos de Microsoft y la & Teams Microsoft Skype para el centro de administración de negocio. Para las capacidades de administración completa con estos dos conjuntos de herramientas, debe asegurarse de que se le asigna uno de los siguientes roles:
+Como un administrador de TI, es posible que necesite vista o actualización de los equipos de su organización ha configurado para la colaboración o necesite para llevar a cabo las acciones de corrección, como la asignación de propietarios de los equipos sin dueño. Puede administrar los equipos que se usan en la organización a través del módulo de PowerShell de los equipos de Microsoft y el centro de administración de Microsoft Teams. Para las capacidades de administración completa con estos dos conjuntos de herramientas, debe asegurarse de que se le asigna uno de los siguientes roles:
 
 - Administrador global
 - Administrador de servicios de Teams
 
 También debe asegurarse de que su cuenta se ha asignado una licencia de los equipos que no sean de prueba para la administración. Como parte de un problema conocido, debe asegurarse de que su cuenta tiene sólo **una** función Administrador asignada.  Encontrará más información acerca de las funciones de administración en Microsoft Teams en [roles de administrador de utilizar equipos de Microsoft para administrar los equipos](using-admin-roles.md)y puede leer más información acerca de cómo usar los cmdlets de PowerShell para la administración de equipos en la [referencia del cmdlet de equipos de Microsoft](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
 
-En este artículo se proporciona una visión general de las herramientas de administración de equipos en el & Teams Microsoft Skype para el centro de administración de negocio.
+En este artículo se proporciona una visión general de las herramientas de administración de equipos en el centro de administración de Microsoft Teams.
 
 ## <a name="teams-overview-grid"></a>Cuadrícula de visión general de los equipos
 
-Herramientas de administración de los equipos se encuentran en el nodo de **los equipos** en el & Teams Microsoft Skype para el centro de administración de negocio. (En el centro de administración, seleccione **los equipos** > **administrar equipos**.) Cada equipo se respaldadas por un grupo de Office 365, y este nodo proporciona una vista de grupos que se han habilitado para los equipos de la organización de Microsoft.
+Herramientas de administración de los equipos se encuentran en el nodo de **los equipos** en el centro de administración de Microsoft Teams. (En el centro de administración, seleccione **los equipos** > **administrar equipos**.) Cada equipo se respaldadas por un grupo de Office 365, y este nodo proporciona una vista de grupos que se han habilitado para los equipos de la organización de Microsoft.
 
 > [!NOTE]
 > Estamos en el proceso de recuperación de información creado previamente equipos para asegurarse de que se mostrará en esta vista.
@@ -94,7 +94,7 @@ Se registran los cambios que realice en un equipo. Si modifica la configuración
 
 **Problema: Los equipos que faltan en la cuadrícula de visión general del equipo**
 
-Al escribir la & Teams Microsoft Skype para el centro de administración de negocio, en la opción de **los equipos** de los equipos de faltan algunas desde la lista en la cuadrícula de visión general de los equipos.
+Al escribir el centro de administración de Microsoft Teams, debajo de la opción de **los equipos** faltan algunas de sus equipos desde la lista en la cuadrícula de visión general de los equipos.
 
 **Causa**: este problema se produce cuando el equipo de perfil se incorrectamente (o no todavía) generó el sistema que puede dar lugar a una propiedad que faltan para que se reconozca.
 
@@ -112,7 +112,7 @@ Reemplace **{groupid}** en la consulta para el GroupId real en cuestión, que se
 
 5. Ejecute la consulta en la esquina superior derecha.
 
-6. Confirmar que el equipo aparece correctamente en el & Teams Microsoft Skype para el centro de administración de negocio - información general del equipo
+6. Confirme que el equipo correctamente aparece en el centro de administración de Microsoft Teams - información general del equipo
 
 
 ## <a name="learn-more"></a>Más información

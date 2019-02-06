@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Vea cómo buscar números de teléfono que pueda asignar a los usuarios, por país/región, provincia/región o ciudad, y especificar la cantidad de números que necesita. '
-ms.openlocfilehash: 0edf61b52869eff4a52e7b109085e02d4b380742
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: 'See how to search for phone numbers you can assign to your users, by country/region, state/region, or city, and specify the quantity of numbers you need. '
+ms.openlocfilehash: eeae7ad4bcafea1f8a1f86d36e59d2f57a2edff1
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347075"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753520"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Buscar números de teléfono para los usuarios
 
 Cuando está configurando los usuarios de la organización para realizar y recibir llamadas de teléfono, debe usar el **Skype para el centro de administración de negocio** y obtenga primero los números de teléfono que se pueden asignar a los usuarios. El número de teléfono que se asigna a un usuario será un número de teléfono que ha elegido para su organización y se mostrarán en la lista desplegable al editar las propiedades del usuario y haga clic en **asignar**.
   
-Pero antes de poder asignar números de teléfono a los usuarios, necesita usar la página **Números nuevos** para buscar los números que están disponibles en un área. Puede buscar por **país o región**, **estado**y **Ciudad**y, a continuación, escriba el número de números de teléfono que se necesita para los usuarios. 
+Para poder asignar los números de teléfono a los usuarios, debe usar la página de **los nuevos números** para buscar los números que están disponibles para usted dentro de un área. Puede buscar por **país o región**, **estado**y **Ciudad**y, a continuación, escriba el número de números de teléfono que se necesita para los usuarios. 
   
 Si necesita ayuda con la introducción de los números de teléfono, puede ver [Administrar números de teléfono para su organización](/microsoftteams/manage-phone-numbers-for-your-organization) o [Ponerse en contacto con el soporte para productos de empresa: ayuda de administración](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
@@ -44,7 +44,7 @@ Si necesita ayuda con la introducción de los números de teléfono, puede ver [
   
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya a **los equipos de Microsoft y Skype para el centro de administración de negocio** > **portal heredado**.
+2. Vaya al **Centro de administración de equipos de Microsoft** > **portal heredado**.
     
 3. En el panel de navegación izquierdo, vaya a **voz** > **los números de teléfono**y, a continuación, haga clic en **Agregar nuevo número** > **nuevos números de usuario**.
   
@@ -75,7 +75,7 @@ Si necesita ayuda con la introducción de los números de teléfono, puede ver [
 
 [Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  
