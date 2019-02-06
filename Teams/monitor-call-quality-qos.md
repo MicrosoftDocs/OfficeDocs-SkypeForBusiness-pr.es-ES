@@ -1,7 +1,7 @@
 ---
-title: Implementar QoS y análisis de la llamada de Monitor en los equipos de Microsoft
+title: Implementar QoS y supervisar los análisis de llamadas en Microsoft Teams
 author: jambirk
-ms.author: MyAdvisor
+ms.author: jambirk
 manager: Serdars
 ms.topic: article
 ms.service: msteams
@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0f82a546057558cc6c69c9c0de19bc9ccb021cd
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 505409ac51552a99fabc4eb41801a1f19a737877
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28328181"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742953"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Implementar QoS y calidad de la llamada Monitor en los equipos de Microsoft
 
@@ -37,7 +37,7 @@ Panel de calidad de llamada (CQD) está diseñado para ayudar a los administrado
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Implementar QoS para equipos de Microsoft](monitor-call-quality-qos.md)
+[Vídeo: Información general de la calidad de llamada](https://aka.ms/teams-quality)
 
 [Configurar el análisis de llamadas](set-up-call-analytics.md)
 

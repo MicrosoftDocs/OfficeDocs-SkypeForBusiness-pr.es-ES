@@ -1,5 +1,5 @@
 ---
-title: Interoperabilidad de vídeo en la nube para los equipos de Microsoft
+title: Interoperabilidad de vídeos en la nube para Microsoft Teams
 author: lolaj
 ms.author: lolaj
 manager: serdars
@@ -12,14 +12,14 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44dc13f9ff6fd391d84a5a461badc7edbc8abbdb
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: e038a4618bd456336681c2fff95936a821c770ea
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533362"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742969"
 ---
-# <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidad de vídeo en la nube para los equipos de Microsoft
+# <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidad de vídeos en la nube para Microsoft Teams
 
 Interoperabilidad de vídeo en la nube permite que terceros dispositivos de salón para unirse a reuniones de Microsoft Teams de la reunión.
 
@@ -67,10 +67,10 @@ En el siguiente diagrama se describe la arquitectura de alto nivel de una soluci
 
 ## <a name="key-business-considerations"></a>Consideraciones sobre la clave del negocio
 
-**Microsoft Teams junto con la infraestructura de video P 3**
+**Microsoft Teams junto con la infraestructura de vídeo de terceros**
 
-- ¿Tiene una implementación de gran tamaño de los dispositivos de vídeo 3P?
-- ¿Tiene una P 3 controlador de llamadas en su organización?
+- ¿Tiene una implementación de gran tamaño de los dispositivos de vídeo de terceros?
+- ¿Tiene un controlador de llamadas de terceros en su organización?
 - ¿Piensa acerca de cómo mantener su controlador de llamada actual junto con Microsoft Teams?
 - ¿Desea ejecutar su propio vídeo infra u hospedado? 
 - ¿Piensa implementar sistemas de sala de equipos? ¿Cuando?
@@ -88,11 +88,11 @@ En el siguiente diagrama se describe la arquitectura de alto nivel de una soluci
 
 ## <a name="business-workflow-scenarios"></a>Escenarios de flujo de trabajo de negocio
 
-- **Skype para Business Server -> equipos de Microsoft:** Su organización tiene dispositivos de otros fabricantes y mover de Skype para Business en prem server a Microsoft Teams.  
-- **Skype para la empresa en línea -> Microsoft Teams:** La organización está migrando a Microsoft Teams de Skype para profesionales en línea.
-- **Cisco UC -> equipos de Microsoft:** Su organización está pasando de Cisco a Microsoft Teams, pero no está listo para reemplazar los dispositivos Cisco.
-- **Sistemas mixtos -> equipos de Microsoft:** Su organización tiene varios sistemas en el entorno paralelo (Cisco, BroadSoft, SfB Server, SfBO).
-- **Otro proveedor de reunión en la nube -> Microsoft Teams:** Su organización ha sido un usuario de otro proveedor de reunión en la nube migrar a Microsoft Teams.
+- **Skype para Business Server-equipos de Microsoft >:** Su organización tiene dispositivos de otros fabricantes y mover de Skype para Business en prem server a Microsoft Teams.  
+- **Skype para la empresa en línea - > Microsoft Teams:** La organización está migrando a Microsoft Teams de Skype para profesionales en línea.
+- **Cisco UC-equipos de Microsoft >:** Su organización está pasando de Cisco a Microsoft Teams, pero no está listo para reemplazar los dispositivos Cisco.
+- **Mixto sistemas-equipos de Microsoft >:** Su organización tiene varios sistemas en el entorno paralelo (Cisco, BroadSoft, SfB Server, SfBO).
+- **Otro proveedor de reunión en la nube-> Microsoft Teams:** Su organización ha sido un usuario de otro proveedor de reunión en la nube migrar a Microsoft Teams.
 
 
 Después de elegir un socio o socios, estará listo para [Configurar la interoperabilidad de vídeo en la nube para los equipos de Microsoft](cloud-video-interop-for-teams-set-up.md). 

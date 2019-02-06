@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5667374b52561af8809ab136646ffaf9d6077ad1
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: 8aa4bb6858fceb45fbf6abca8fe475ba49dbe1ba
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735133"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742866"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar la calidad de servicio (QoS) en los equipos de Microsoft
 
@@ -333,6 +333,8 @@ Repita la verificación para cada carga de trabajo que marque el GPO.
 
 ## <a name="more-information"></a>Más información
 
+[Vídeo: Planeación de red](https://aka.ms/teams-networking)
+
 [Preparar la red de la organización para Microsoft Teams](prepare-network.md)
 
-[Requisitos de ExpressRout QoS](https://docs.microsoft.com/azure/expressroute/expressroute-qos)
+[Requisitos de ExpressRoute QoS](https://docs.microsoft.com/azure/expressroute/expressroute-qos)

@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Obtenga información sobre el análisis de llamadas y, a continuación, llame al panel de calidad y cuándo usarlos para supervisar y solucionar los problemas de calidad de la llamada.
-ms.openlocfilehash: a212afea9f8d5010fa68af66ce72b39280a7d11c
-ms.sourcegitcommit: 09fcd68e30e7f83110f98172382c74f970b339a7
+ms.openlocfilehash: 8f664dfc8a609e23485f1dd935c00d8e5a745943
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "29442440"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742992"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Análisis de llamada y el panel de calidad de llamada
 
@@ -84,6 +84,8 @@ Análisis de la llamada y CQD ejecutarán en paralelo y pueden usarse independie
 Para obtener más información sobre CQD, vea [activar y con el panel de calidad de llamadas para los equipos de Microsoft y Skype para profesionales en línea](turning-on-and-using-call-quality-dashboard.md) y [las dimensiones y medidas disponibles en el panel de calidad de llamadas para los equipos de Microsoft y Skype para profesionales en línea de](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 ## <a name="related-topics"></a>Temas relacionados
+
+[Vídeo: Información general de la calidad de llamada](https://aka.ms/teams-quality)
 
 [Configurar el análisis de llamadas](set-up-call-analytics.md)
 

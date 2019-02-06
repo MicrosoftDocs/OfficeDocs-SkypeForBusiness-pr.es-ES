@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2af8872253e2962322712a013cb3043a7da2d81b
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: b6b95da8ee416d4f64d22a8c0622acd417b7bb1d
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562632"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742851"
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams
 =================================================
@@ -117,3 +117,6 @@ Si llegara a suceder que no cumple con estos criterios, este es el momento de pe
 |![Icono de Punto de decisión.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |Punto de decisión         |¿Ha evaluado la capacidad de la red para admitir elementos multimedia en tiempo real?<br></br>Si su red no ha sido evaluada correctamente, o si sabe que no admitirá los elementos multimedia en tiempo real, ¿deshabilitaría las funciones de vídeo y pantalla compartida para disminuir el impacto en la red y las experiencias deficientes en Teams?         |
 |![Icono de Siguientes pasos.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Siguientes pasos         |Calidad de red desconocida: Siga la guía de [evaluación de preparación de la red](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness) para determinar si la red está lista para elementos multimedia en tiempo real.<br></br>Calidad de red deficiente: Siga los pasos para reparar la red a fin de proporcionar un entorno adecuado para elementos multimedia en tiempo real de alta calidad.<br></br>Red satisfactoria: Asegúrese de que se pueda acceder correctamente a todos los puertos y las direcciones IP.           |
 
+## <a name="related-topics"></a>Temas relacionados
+
+[Vídeo: Planeación de red](https://aka.ms/teams-networking)
