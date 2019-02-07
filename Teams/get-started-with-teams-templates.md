@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08abde935b69aa58e5e54bd50b31f1c9d554552e
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 27c27aabd9463287c15a98282d6efe114642a8a1
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29742961"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760578"
 ---
 # <a name="get-started-with-teams-templates"></a>Introducción a las plantillas de Teams 
 
@@ -67,8 +67,8 @@ De forma predeterminada, la plantilla base se establece en **estándar** que no 
 |Educación-<br>Equipo PLC |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationProfessionalLearningCommunity` | Aplicaciones:<ul><li>Bloc de notas de OneNote PLC (anclado a la ficha **General** )</ul></li>|
 | Venta por menor-<br>Almacén | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore` | Canales de entrada:<ul><li>Entrega de MAYÚS</li><li>Recursos de aprendizaje</li></ul>Propiedades de equipo<ul><li>Visibilidad de equipo establecida en público</li></ul>Permisos de miembro<ul><li>Impedir que a los miembros de creación, actualización o eliminación de canales</li><li>Impedir que a los miembros de la adición o eliminación de aplicaciones</li><li>Impedir que a los miembros de creación, actualización o eliminación de los conectores</li></ul> |
 | Venta por menor-<br>Colaboración de administrador | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration` | Canales de entrada:<ul><li>Entrega de MAYÚS</li><li>Recursos de aprendizaje</li></ul>Propiedades de equipo:<ul><li>Visibilidad de equipo establecida en privado</li></ul>Permisos de los miembros:<ul><li>Impedir que a los miembros de creación, actualización o eliminación de canales</li><li>Impedir que a los miembros de la adición o eliminación de aplicaciones</li><li>Impedir que a los miembros de creación, actualización o eliminación de los conectores</li></ul>|
-| Healthcare-<br>Distrito |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWardWide` |Canales de entrada: <ul><li>Anuncios\*</li><li>Luces de llamada</li><li>Material variado\*</li><li>Huddles\*</li><li>Redondea hacia arriba</li><li>Recursos de aprendizaje\*</li></ul>\*Canales de automático favoritos |
-|Healthcare-<br>Hospital | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospitalWide` |Canales de entrada:<ul><li>Anuncios\*</li><li>Cumplimiento de normas\*</li><li>Custodia</li><li>Servicios financieros</li><li>Material variado\*</li><li>Recursos humanos</li><li>Laboratorio</li></li><li>Farmacia</li></ul>\*Canal automático favoritos|
+| Healthcare-<br>Distrito |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWard` |Canales de entrada: <ul><li>Anuncios\*</li><li>Huddles\*</li><li>Redondea hacia arriba</li><li>Personal\*</li><li>Recursos de aprendizaje\*</li></ul>\*Canales de automático favoritos |
+|Healthcare-<br>Hospital | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospital` |Canales de entrada:<ul><li>Anuncios\*</li><li>Cumplimiento de normas\*</li><li>Custodia</li><li>Recursos humanos</li></li><li>Farmacia</li></ul>\*Canal automático favoritos|
 |||
 
 > [!NOTE]

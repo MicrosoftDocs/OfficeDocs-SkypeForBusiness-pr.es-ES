@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Empezar a trabajar con plantillas de Microsoft los equipos sanitarios
-ms.openlocfilehash: 7d55d2d6a5f062bc5eb85b6bfc5227f7813c91ca
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: e2b1e9cb2171f250c9d9e635c3d5233c4f47f24e
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735639"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760570"
 ---
 # <a name="get-started-with-microsoft-teams-healthcare-templates"></a>Empezar a trabajar con plantillas de Microsoft los equipos sanitarios
 
@@ -34,7 +34,7 @@ La plantilla de distrito está pensada para la comunicación y la colaboración 
 
 |Tipo de plantilla de base |baseTemplateId |Canales de la plantilla de línea de base|
 |:--- |:---|:---|
-|Healthcare - distrito | https://<span></span>gráfico<span></span>.microsoft.com/beta/teamsTemplates/healthcareWardWide   | Anuncios\* <br> Luces de llamada\* <br> Material variado\* <br> Huddles\* <br>Redondea hacia arriba\* <br>Recursos de aprendizaje\* |
+|Healthcare - distrito | https://<span></span>gráfico<span></span>.microsoft.com/beta/teamsTemplates/healthcareWard   | Anuncios\* <br> Huddles\* <br> Redondea hacia arriba\* <br> Personal\* <br> Recursos de aprendizaje\* |
 |     | |         |
 
 \*Automático favoritos 
@@ -45,7 +45,7 @@ La plantilla de hospital está pensada para la comunicación y la colaboración 
 
 |Tipo de plantilla de base |baseTemplateId |Canales de la plantilla de línea de base|
 |:--- |:---|:---|
-|Healthcare - Hospital | https://<span></span>gráfico<span></span>.microsoft.com/beta/teamsTemplates/healthcareWardWide   | Anuncios\* <br> Cumplimiento de normas\* <br> Material variado\* <br>Custodia<br>Servicios financieros<br>Recursos humanos <br>Laboratorio<br> Farmacia |
+|Healthcare - Hospital | https://<span></span>gráfico<span></span>.microsoft.com/beta/teamsTemplates/healthcareHospital   | Anuncios\* <br> Cumplimiento de normas\* <br> Custodia <br> Recursos humanos <br> Farmacia |
 | | |  |
 
 \*Automático favoritos 
@@ -58,7 +58,7 @@ Para usar estas plantillas, bastará con cambiar la propiedad 'template@odata.bi
 
 ``` Powershell
 { 
-          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/healthcareHospitalWide",
+          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/healthcareHospital",
           "DisplayName": "Contoso Hospital",
           "Description": "Team for all staff in Contoso Hospital",
           "Channels": [

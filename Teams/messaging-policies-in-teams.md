@@ -16,31 +16,33 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
-ms.openlocfilehash: 203acb58113d162e6752ca5d327b8575c58a7133
-ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
+ms.openlocfilehash: 5292d88c148e2bd23242f96a3593d98178b9a923
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "29530939"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760586"
 ---
 # <a name="what-are-messaging-policies-in-teams"></a>¿Cuáles son las directivas de mensajería de Teams?
+::: zone target="docs"
+Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams. You can use the default policy that is created or create one or more custom messaging policies for people in your organization. After you create a policy, you will assign it a user or groups of users in your organization.
 
-Las directivas de mensajería se utilizan para controlar qué características de mensajería en canales y chats tienen disponibles los usuarios en Microsoft Teams. Se puede usar la directiva predeterminada que ya hay o bien crear una nueva o más directivas de mensajería personalizadas para los miembros de su organización. Después de crear una directiva, tendrá que asignarla a un usuario o grupos de usuarios de la organización.
-
-Las directivas se administran fácilmente en el Centro de administración de Teams (http://admin.teams.microsoft.com) iniciando sesión con las credenciales de administrador y haciendo clic en **Directivas de mensajería** en el panel de navegación izquierdo). Para editar la directiva predeterminada actual de su organización, seleccione la fila **Global (configuración predeterminada para toda la organización)** y haga clic en **Editar**. Para crear una directiva de mensajería nueva, haga clic en **Nueva directiva**.
+Policies can be easily managed in the Teams Admin Center (http://admin.teams.microsoft.com) by logging in with administrator credentials and clicking **Messaging Policies** in the left navigation. To edit the existing default policy for your organization, select the **Global (Org-wide default)** row and click **Edit**. To create a new messaging policy, click **New policy**.
 
 ![Directivas de mensajería en Teams](media/messaging-policies.png)
+::: zone-end
 
+::: zone target="chromeless"
 A continuación se describe la configuración disponible para la directiva: 
 
 - **Los propietarios pueden eliminar los mensajes enviados** Use esta opción para permitir que los propietarios eliminen los mensajes que envían los usuarios en un chat.
 - **Los usuarios pueden eliminar los mensajes enviados** Use esta opción para permitir que los usuarios eliminen los mensajes que envían en un chat.
 - **Los usuarios pueden editar los mensajes enviados** Use esta opción para permitir que los usuarios editen los mensajes que envían en un chat.
-- **Confirmaciones de lectura** Use esta opción para especificar si las confirmaciones de lectura las controla el usuario, están habilitadas para todos o si, por el contrario, están deshabilitadas.
+- **Read receipts** Use this setting to specify whether read receipts are user controlled, enabled for everyone, or disabled.
 <a name="bkchat"> </a>
 
 - **Chat** Active esta opción si desea que los usuarios de su organización puedan chatear con otras personas con la aplicación de Teams.
-- **Usar imágenes Giphy en las conversaciones** Si activa esta opción, los usuarios podrán incluir imágenes Giphy en las conversaciones de chat que mantengan con otras personas. Giphy es una base de datos en línea y un motor de búsqueda que permite a los usuarios buscar y compartir archivos GIF animados. A cada Giphy se le asigna una clasificación de contenido.
+- **Use Giphys in conversations**  If you turn this on, users can include Giphys in chat conversations with other people. Giphy is an online database and search engine that allows users to search for and share animated GIF files. Each Giphy is assigned a content rating.
 - **Clasificación de contenido de Giphy** 
     - **Sin restricción** Indica que los usuarios pueden insertar todas las imágenes Giphy en los chats, independientemente de la clasificación de contenido que tengan.
     - **Moderado** Indica que los usuarios pueden insertar imágenes Giphy en los chats, pero el contenido para adultos estará restringido de forma moderada.
@@ -49,8 +51,12 @@ A continuación se describe la configuración disponible para la directiva:
 - **Usar adhesivos en las conversaciones** Si activa esta opción, los usuarios podrán incluir adhesivos en las conversaciones de chat que mantengan con otras personas.
 - **Permitir vistas previas de URL** Use esta opción si desea activar o desactivar la visualización previa automática de direcciones URL en los mensajes.
 - **Permitir a los usuarios traducir mensajes** Active esta opción para que los usuarios pueden traducir automáticamente los mensajes de Teams en el idioma que se especifique en su configuración de idioma personal de Office 365.
+::: zone-end
 
-Si ha creado una directiva de mensajería personalizada, solo estará activa para un usuario cuando esa directiva se asigna al usuario.  Para asignar una directiva personalizada a un usuario en el Centro de administración de Teams, haga clic en **Usuarios** en el panel de navegación izquierdo, seleccione el usuario al que quiere asignar la directiva y, a continuación, elija **Editar** en **Directivas asignadas**.
+::: zone target="docs"
+If you have created a custom Messaging policy, it will only be active for a user if that policy is assigned to a user.  To assign a custom policy to a user in the Teams Admin Center, click **Users** in the left navigation, select the user you want to assign the policy to, and then choose **Edit** under **Assigned Policies**.
+
 
 ### <a name="related-topics"></a>Temas relacionados
 [Directivas de reuniones en Microsoft Teams](meeting-policies-in-teams.md)
+::: zone-end

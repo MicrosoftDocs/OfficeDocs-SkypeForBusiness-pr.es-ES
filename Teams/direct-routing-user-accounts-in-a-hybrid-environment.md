@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Obtenga información sobre diferentes combinaciones de creación de usuarios y qué combinaciones son compatibles o no compatibles.
-ms.openlocfilehash: f85a9903c2b1d35d110c26b276305ed4c9ce949a
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.openlocfilehash: 6f1cdbfc012026d7a41f5ca96e730aeb861eeb40
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635727"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760562"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Cuentas de usuario en un entorno híbrido con conectividad RTC
 
@@ -34,7 +34,7 @@ En este artículo se aplica a entornos tienen todas las opciones siguientes:
 - Usuarios que están habilitados para realizar y recibir llamadas de red pública de telefónica conmutada (RTC) a y desde el cliente
 
  
-Si tiene un entorno diferente (por ejemplo, Skype para Business Edition de conector en la nube), híbrida no está configurado o no se habilitará a los usuarios para las llamadas de RTC, la matriz de compatibilidad de será diferente.  
+Si tiene un entorno diferente (por ejemplo, Skype para Business Edition de conector en la nube), híbrida no está configurado o los usuarios no están habilitados para las llamadas de RTC, la matriz de compatibilidad de será diferente.  
 
 ## <a name="about-the-combinations-and-the-supportability-statement"></a>Acerca de las combinaciones y la declaración de compatibilidad  
 
@@ -43,12 +43,12 @@ Un Skype para entornos híbridos, empresarial con conectividad RTC proporciona f
 
 **Definiciones:**   
 - **Enterprise Voice:** Opción para proporcionar acceso a RTC para usuarios con Skype local para la cuenta de usuario de negocio. Skype local para el servidor de mediación de negocio proporciona interconectividad a RTC.  
-- **Conectividad de voz híbrida:** Opción para proporcionar acceso a RTC para con Skype en línea para la cuenta de empresa. Skype local para el servidor de mediación de negocio proporciona interconectividad a RTC. 
+- **Conectividad de voz híbrida:** Opción para proporcionar acceso a RTC para usuarios con Skype para la cuenta en línea de negocio. Skype local para el servidor de mediación de negocio proporciona interconectividad a RTC. 
 - **Enrutamiento directo:** Opción para proporcionar acceso a RTC para usuarios con Skype en línea para la cuenta de empresa, licencia de Microsoft Teams, utilizando el cliente de Microsoft Teams. La SBC está conectado al Proxy SIP en Office 365 sin necesidad de cualquier software local de Microsoft.
 
   
 **El entorno es compatible con las siguientes combinaciones:**
-- **Escenario 1:** Usuario de cuenta de Skype para la empresa local y usará el Skype para clientes empresariales con Enterprise Voice
+- **Escenario 1:** Usuario de cuenta de Skype para empresarial local y usará el Skype para clientes empresariales con Enterprise Voice
 - **Escenario 2:** Usuario de cuenta de Skype para la empresa en línea y usará el Skype para clientes empresariales con conectividad de voz híbrida
 - **Escenario 3:** Usuario de cuenta de Skype para la empresa en línea con licencia de Microsoft Teams y va a usar el cliente de los equipos
  
