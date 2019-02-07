@@ -16,12 +16,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
-ms.openlocfilehash: 5292d88c148e2bd23242f96a3593d98178b9a923
-ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
+ms.openlocfilehash: d4d2a4f424de1750c70ea851d1d1d35a2aaf9e44
+ms.sourcegitcommit: dfd075d092db9826c792cf947c83c33cfcd8ef4e
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/07/2019
-ms.locfileid: "29760586"
+ms.locfileid: "29763719"
 ---
 # <a name="what-are-messaging-policies-in-teams"></a>¿Cuáles son las directivas de mensajería de Teams?
 ::: zone target="docs"
@@ -32,7 +32,6 @@ Policies can be easily managed in the Teams Admin Center (http://admin.teams.mic
 ![Directivas de mensajería en Teams](media/messaging-policies.png)
 ::: zone-end
 
-::: zone target="chromeless"
 A continuación se describe la configuración disponible para la directiva: 
 
 - **Los propietarios pueden eliminar los mensajes enviados** Use esta opción para permitir que los propietarios eliminen los mensajes que envían los usuarios en un chat.
@@ -51,12 +50,10 @@ A continuación se describe la configuración disponible para la directiva:
 - **Usar adhesivos en las conversaciones** Si activa esta opción, los usuarios podrán incluir adhesivos en las conversaciones de chat que mantengan con otras personas.
 - **Permitir vistas previas de URL** Use esta opción si desea activar o desactivar la visualización previa automática de direcciones URL en los mensajes.
 - **Permitir a los usuarios traducir mensajes** Active esta opción para que los usuarios pueden traducir automáticamente los mensajes de Teams en el idioma que se especifique en su configuración de idioma personal de Office 365.
-::: zone-end
 
 ::: zone target="docs"
 If you have created a custom Messaging policy, it will only be active for a user if that policy is assigned to a user.  To assign a custom policy to a user in the Teams Admin Center, click **Users** in the left navigation, select the user you want to assign the policy to, and then choose **Edit** under **Assigned Policies**.
-
+::: zone-end
 
 ### <a name="related-topics"></a>Temas relacionados
 [Directivas de reuniones en Microsoft Teams](meeting-policies-in-teams.md)
-::: zone-end
