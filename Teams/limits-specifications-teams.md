@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f397dd63cfa50069d6072686ae3650b837ca53a1
-ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
+ms.openlocfilehash: 77ee256352925ad92f0d74f7a9fb60704847709a
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690470"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29770911"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 =============================================
@@ -37,7 +37,7 @@ En este artículo se describe algunos de los límites, especificaciones y otros 
 |Número de equipos que puede tener un inquilino de Office 365    | 500.000     |
 |Número de canales por equipo    | 200 (incluye canales eliminados)         |
 
-&sup1; Los recuentos de cualquier objeto de directorio en Azure Active Directory para este límite.
+&sup1; Los recuentos de cualquier objeto de directorio en Azure Active Directory para este límite. Los administradores globales están exentos de este límite, como son aplicaciones que llaman a Microsoft Graph con [permisos de la aplicación](https://docs.microsoft.com/graph/permissions-reference).
 
 > [!NOTE]
 > ¿Canales no admiten caracteres especiales como ~ # % & * {} + / \: < >? | ' "en el nombre del canal.  

@@ -13,14 +13,16 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83886e76ae6f23601c970dd784706f466459708d
-ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
+ms.openlocfilehash: 82e11cb47aeeaf0c88ba0f6179f99195af9a7473
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29715488"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771035"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planeación de enrutamiento basado en ubicación para el enrutamiento directo
+
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 ## <a name="overview-of-location-based-routing"></a>Información general de enrutamiento basado en la ubicación
 

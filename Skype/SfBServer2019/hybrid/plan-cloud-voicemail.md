@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Este artículo describe las ventajas, las consideraciones de planeación y requisitos para implementar el servicio de correo de voz de Microsoft en la nube. Para obtener información acerca de cómo configurar el correo de voz en la nube, vea Configuración de correo de voz en la nube.
-ms.openlocfilehash: d1e962f36cdefafdd1efa2d02a719eed1d2e93fd
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: e16ad9fb123342f7ac7e780f43bffd9b54b82ce6
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349026"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29770918"
 ---
 # <a name="plan-cloud-voicemail-service"></a>Planeación de servicio de correo de voz en la nube
 
@@ -93,7 +93,7 @@ Interoperabilidad de versiones y las topologías admitidas para el correo de voz
 Skype Empresarial Server 2015 | Servidor de mensajería unificada de Exchange | Servidor de mensajería unificada de Exchange |  | Correo de voz en la nube <br> Exchange Online mensajería unificada * |
 Lync Server 2013 <br>  | Servidor de mensajería unificada de Exchange | Servidor de mensajería unificada de Exchange | | Correo de voz en la nube <br> Exchange Online mensajería unificada * |
 
-\*Hasta que en desuso.
+\*Hasta que en desuso. Para obtener más información, vea [migración de Exchange Unified Messaging Online admite](../plan/exchange-unified-messaging-online-migration-support.md) . 
 
 Microsoft recomienda las siguientes rutas de acceso de migración:
 

@@ -126,6 +126,8 @@
 ##### [Introducción general a la implementación](../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Almacén de contactos unificado](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Planeación de Skype para migración Business Server y Exchange Server](../hybrid/plan-um-migration.md)
+#### [Soporte de migración de Exchange Unified Messaging en línea](../plan/exchange-unified-messaging-online-migration-support.md)
+
 ### [Supervisión](../../SfbServer/plan-your-deployment/monitoring.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Archivado](../../SfbServer/plan-your-deployment/archiving/archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Conferencia](../../SfbServer/plan-your-deployment/conferencing/conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)

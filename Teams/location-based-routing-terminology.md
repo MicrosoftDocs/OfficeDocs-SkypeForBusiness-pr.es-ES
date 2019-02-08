@@ -13,14 +13,16 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f0f399dab4097a69ef9d7a90865b81eeb206b54
-ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
+ms.openlocfilehash: 7bcf4341d171f8b9faf8c11bbe8d85503cf2240b
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29715448"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771003"
 ---
-# <a name="location-based-routing-terminology"></a>Terminología de enrutamiento basados en ubicación 
+# <a name="location-based-routing-terminology"></a>Terminología de enrutamiento basados en ubicación
+
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
 A continuación presentamos algunos términos y conceptos que se usan en toda la documentación de enrutamiento basado en la ubicación. Es una buena idea estar familiarizado con estos términos y conceptos antes de obtener más profunda en la documentación.
 

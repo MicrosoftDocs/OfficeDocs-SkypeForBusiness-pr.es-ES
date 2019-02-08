@@ -13,14 +13,16 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3468b413fedc5d3e24871a632f50b5d58c7c5467
-ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
+ms.openlocfilehash: 8437eba299cb42415d224017ca7d0e888fffa684
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29715456"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771011"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Habilitar el enrutamiento basado en ubicación para el enrutamiento directo
+
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 Antes de seguir los pasos descritos en este artículo, asegúrese de que ha leído [Plan Location-Based enrutamiento para el enrutamiento directo](location-based-routing-plan.md) y completado los pasos de [configuración de red para el enrutamiento basado en la ubicación](location-based-routing-configure-network-settings.md).
 
@@ -34,7 +36,7 @@ Este artículo describe cómo habilitar el enrutamiento basados en ubicación pa
 
 ## <a name="enable-location-based-routing-for-users"></a>Habilitar el enrutamiento basado en la ubicación para los usuarios
 
-1. Usar el ``Set-CsOnlinPstnUsages`` cmdlet para establecer usos de RTC. Para varios usos, separe cada uso con una coma.
+1. Usar el ``Set-CsOnlinePstnUsages`` cmdlet para establecer usos de RTC. Para varios usos, separe cada uso con una coma.
 
     ```
     Set-CsOnlinePstnUsage -Usage <usages> 
