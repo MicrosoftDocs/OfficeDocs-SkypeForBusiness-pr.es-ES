@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Obtenga información sobre los pasos de implementación para obtener el firmware correcto, actualizarlo si es necesario, asignar licencias y configurar las opciones de Skype para teléfonos en línea de negocio
-ms.openlocfilehash: f036f2fa47c99d1ea206192c15c901fc9391c1ee
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 04cb3aa17574f56d9069f07a10c1c6ae95f9576d
+ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297661"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29770366"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Implementación de teléfonos de Skype Empresarial Online
 
@@ -184,7 +184,7 @@ Puede encontrar más información acerca de los Planes de llamada mediante la le
     
 - **Bloqueo del teléfono**: esta es una característica que se ha incorporado a los teléfonos certificados para Skype Empresarial recientemente como medida de protección del teléfono. Si se habilita, los usuarios le pedirá que cree un PIN tras la autenticación. Una vez creado, el teléfono se bloqueará cuando transcurra el tiempo de inactividad definido, o si el usuario bloquea manualmente el teléfono o sincroniza el bloqueo del teléfono con el de su equipo mediante la característica de emparejamiento del teléfono. Si el PIN de bloqueo del teléfono se escribe mal varias veces, el teléfono se cierre la sesión del usuario o requieren código de un administrador para desbloquear el teléfono, pero esto variará en función del socio de teléfono. El PIN del usuario debe estar comprendido entre 6 y 15 dígitos.
     
-    Puede deshabilitar el bloqueo del teléfono para la organización (que está habilitada de forma predeterminada), cambiar el tiempo de espera de inactividad y elija si los usuarios pueden realizar llamadas telefónicas mientras están bloqueados o no utiliza configuración de banda. Consulte [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) para obtener más detalles sobre esta configuración.
+    Puede deshabilitar el bloqueo del teléfono para la organización (que está habilitada de forma predeterminada), cambiar el tiempo de espera de inactividad y elija si los usuarios pueden realizar llamadas telefónicas mientras están bloqueados o no utiliza configuración de banda. Para obtener más información acerca de la configuración, consulte [Set-CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/mt629497.aspx) .
     
 ## <a name="step-7-optional---if-you-have-device-pairing-and-better-together-over-ethernet-btoe"></a>Paso 7 (opcional): si se dispone de emparejamiento de dispositivos y Better Together over Ethernet (BToE)
 <a name="BK_BTOE"> </a>
