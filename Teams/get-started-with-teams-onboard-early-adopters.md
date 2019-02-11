@@ -7,30 +7,30 @@ ms.date: 11/06/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
-description: Incorporado primeros usuarios para el primer conjunto de equipos y canales que ha creado en Microsoft Teams.
-localization_priority: Normal
+description: Incorporar usuarios pioneros al primer conjunto de equipos y canales que creó en Microsoft Teams.
+localization_priority: Priority
 search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 966768e447e236d7b9d313d3fd699fd788914c1f
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
-ms.translationtype: MT
+ms.openlocfilehash: 108979714eea2b6e39a7e40539b4d049d3b64f6c
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716440"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594353"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Incorporar usuarios pioneros en Microsoft Teams
 
-## <a name="invite-users-to-teams"></a>Invitar a usuarios a los equipos
+## <a name="invite-users-to-teams"></a>Invitar usuarios a Teams
 
-Enviar un correo electrónico de bienvenida a los usuarios con los nombres y descripciones de los equipos que ha creado y les invite a participar en las conversaciones en los equipos. Asegúrese de incluir los siguientes vínculos en el correo electrónico para que sepan dónde obtener soporte técnico, formación y los clientes de los equipos:
-- [Cliente web de los equipos](https://teams.microsoft.com)
-- [Vínculos de descarga del cliente de escritorio y móviles](https://teams.microsoft.com/downloads)
-- [Equipos de vídeos de aprendizaje](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
-- [Documentación de la Ayuda de los equipos](https://support.office.com/teams)
+Envíe un correo electrónico de bienvenida a los usuarios con los nombres y las descripciones de los equipos que ha creado e invítelos a unirse a las conversaciones en Teams. Asegúrese de incluir los siguientes vínculos en el correo electrónico para que sepan dónde obtener el soporte técnico, las guías y los clientes de Teams:
+- [Cliente web de Teams](https://teams.microsoft.com)
+- [Vínculos de descarga del cliente de escritorio y móvil](https://teams.microsoft.com/downloads)
+- [Vídeos de aprendizaje de Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+- [Documentación de Ayuda de Teams](https://support.office.com/teams)
 
-Por ejemplo, para el equipo de "Obtener saber los equipos", es posible que desee iniciar su correo electrónico similar:
+Por ejemplo, para el equipo "Familiarizarse con Teams", puede empezar el correo así:
 
    ```
    Welcome to Microsoft Teams for <insert_company_name>. Teams is a chat-based workspace that brings together chat, files, people, and tools in one place. 
@@ -40,58 +40,58 @@ Por ejemplo, para el equipo de "Obtener saber los equipos", es posible que desee
    To join, click <link to the team>.
    ```
 
-Integrarse con los usuarios cuando se unan en primer lugar. Enviar un mensaje de bienvenida en los equipos e iniciar una charla en un canal. De esta forma establece el tono y se anima a los usuarios a realizar el cambio a los equipos. En el mensaje de bienvenida, incluir los mismos vínculos enviados por correo electrónico para que los usuarios sepan dónde obtener los equipos así como cualquier otra información útil para obtener los usuarios copia de seguridad y ejecutar rápidamente. Toque base con los usuarios para asegurarse de que saben cómo descargar, instalar e iniciar sesión en los equipos para que puedan pueden iniciarse charlar, uso compartido de archivos y colaborar con cada una de las demás.  
+Interactúe con los usuarios cuando se unan por primera vez. Publique un mensaje de bienvenida en Teams e inicie un chat en un canal. Al hacer esto establecerá el tono y animará a los usuarios a realizar el cambio a Teams. En el mensaje de bienvenida, incluya los mismos vínculos que ha enviado por correo electrónico para que los usuarios sepan dónde obtener Teams, así como cualquier otra información que pueda ser útil para que los usuarios puedan empezar a trabajar rápidamente. Póngase en contacto con los usuarios para asegurarse de que saben cómo descargar, instalar e iniciar sesión en Teams para que puedan empezar a chatear, compartir archivos y colaborar entre sí.  
 
-## <a name="get-teams-clients"></a>Obtener a los clientes de equipos
-Los equipos tiene los clientes de escritorio web (Windows y Mac) y mobile (iOS y Android). Se recomienda a los usuarios a instalar los clientes móviles y de escritorio para tener la mejor experiencia con los equipos. 
+## <a name="get-teams-clients"></a>Obtener clientes de Teams
+Teams tiene clientes para escritorio (Windows y Mac), web y móvil (iOS y Android). Recomendamos a los usuarios instalar los clientes móviles y de escritorio para obtener la mejor experiencia con Teams. 
 
-Saltar a: [Los equipos para Windows](#teams-for-windows) | [equipos para Mac](#teams-for-mac) | [los equipos de los exploradores web](#web-client) | [los equipos para iOS](#teams-for-ios) | [equipos para Android](#teams-for-android)
+Saltar a: [Teams para Windows](#teams-for-windows) | [Teams para Mac](#teams-for-mac) | [Teams para exploradores web](#web-client) | [Teams para iOS](#teams-for-ios) | [Teams para Android](#teams-for-android)
 
 ### <a name="desktop-client"></a>Cliente de escritorio
 
-El cliente de escritorio de los equipos proporciona a los usuarios de Windows y Mac la mejor experiencia general. Para obtener más información, vea [requisitos de Hardware para la aplicación de los equipos de Microsoft](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app)y [obtener los clientes para los equipos (cliente de escritorio)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client) .
+El cliente de escritorio de Teams ofrece a los usuarios de Windows y Mac la mejor experiencia general. Para obtener más información, consulte [Obtener clientes para Teams (cliente de escritorio)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client) y [Requisitos de hardware para la aplicación de Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app).
 
 > [!NOTE]
-> Como administrador, puede elegir el método para distribuir los archivos de instalación en los equipos de la organización, como System Center Configuration Manager (Windows) o Jamf Pro (Mac OS).
+> Como administrador, puede elegir el método para distribuir los archivos de instalación en equipos de su organización, como System Center Configuration Manager (Windows) o Jamf Pro (macOS).
 
-#### <a name="teams-for-windows"></a>Equipos para Windows 
-Es la forma más sencilla para instalar al cliente de escritorio de Windows:
+#### <a name="teams-for-windows"></a>Teams para Windows 
+La manera más sencilla de instalar el cliente de escritorio para Windows es:
 
-1. Descargar el cliente de escritorio de Windows desde [https://teams.microsoft.com/downloads](https://teams.microsoft.com/downloads).
-2. Ejecute el programa de instalación (no requiere permisos de administrador). 
-3. Una vez completada la instalación, inicie los equipos.
+1. Descargar el cliente de escritorio para Windows de [https://teams.microsoft.com/downloads](https://teams.microsoft.com/downloads).
+2. Ejecutar el instalador (no requiere permisos de administrador). 
+3. Iniciar Teams cuando se complete la instalación.
 
 > [!NOTE]
-> Más adelante, cuando está pensando en una implementación más formal, masa de los equipos en toda la organización, desproteger el vídeo de [Windows de los equipos cliente de escritorio](http://aka.ms/teams-clients) para aprender a planear e implementarlo. 
+> Más adelante, si está pensando en una implementación más formal y a gran escala de Teams en toda la organización, consulte el vídeo [cliente de escritorio de Teams para Windows](http://aka.ms/teams-clients) para aprender a planearlo e implementarlo. 
 
-#### <a name="teams-for-mac"></a>Equipos para Mac 
-La forma más sencilla para instalar al cliente de escritorio de Mac es:
+#### <a name="teams-for-mac"></a>Teams para Mac 
+La manera más sencilla de instalar el cliente de escritorio para Mac es:
 
-1. Descargar el cliente de escritorio de Mac de [https://teams.microsoft.com/downloads](https://teams.microsoft.com/downloads).
-2. Ejecute el programa de instalación (requiere permisos de administrador). 
-3. Una vez completada la instalación, inicie los equipos.
+1. Descargar el cliente de escritorio para Mac de [https://teams.microsoft.com/downloads](https://teams.microsoft.com/downloads).
+2. Ejecutar el instalador (requiere permisos de administrador). 
+3. Iniciar Teams cuando se complete la instalación.
 
-### <a name="web-client"></a>Cliente web
-Los equipos ofrece un cliente enriquecido de la característica de web, [https://teams.microsoft.com](https://teams.microsoft.com), que admite una gran variedad de exploradores.
+### <a name="web-client"></a>Cliente Web
+Teams proporciona un cliente web lleno de funciones, [https://teams.microsoft.com](https://teams.microsoft.com), que es compatible con distintos exploradores.
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
 ### <a name="mobile-client"></a>Cliente móvil
 
-Los clientes móviles de equipos para iOS y Android mantienen a los usuarios conectados y productivos cuando en Ir. Para obtener más información, vea [obtener de los clientes para los equipos (clientes móviles)](https://docs.microsoft.com/MicrosoftTeams/get-clients#mobile-clients).
+Los clientes móviles de Teams para iOS y Android mantienen la conectividad y la productividad de los usuarios en cualquier sitio. Para obtener más información, consulte [Obtener clientes para Teams (clientes móviles)](https://docs.microsoft.com/MicrosoftTeams/get-clients#mobile-clients).
 
-#### <a name="teams-for-ios"></a>Equipos para iOS 
+#### <a name="teams-for-ios"></a>Teams para iOS 
 
-Los usuarios que ejecutan iOS 10.0 o posterior pueden descargar la aplicación móvil de los equipos de Apple App Store y comenzar inmediatamente.  
+Los usuarios que usan iOS 10.0 o versiones posteriores pueden descargar la aplicación móvil de Teams desde la App Store de Apple y empezar a usarlo inmediatamente.  
 
-#### <a name="teams-for-android"></a>Equipos para Android 
-Los usuarios que ejecutan Android 4.4 o posterior pueden descargar la aplicación móvil de los equipos desde el almacén de reproducir Google y comenzar inmediatamente.  
+#### <a name="teams-for-android"></a>Teams para Android 
+Los usuarios que usan Android 4.4 o versiones posteriores pueden descargar la aplicación móvil de Teams desde la Google Play Store y empezar a usarlo inmediatamente.  
 
-## <a name="drive-initial-adoption"></a>Estimular la adopción inicial
+## <a name="drive-initial-adoption"></a>Impulsar la adopción inicial
 
-Es importante fomentar sus primeros usuarios a utilizar de forma activa los equipos para promover nuevas experiencias de colaboración y desarrollar a campeones de los equipos. Se recomienda usar el canal de "¿cómo" en el equipo de "Obtener saber los equipos" que creó para compartir la guía con los usuarios para ayudar a impulsar la adopción. 
+Es importante animar a los primeros usuarios a usar Teams activamente para promover nuevas experiencias de colaboración y desarrollar expertos de Teams. Se recomienda usar el canal "Cómo..." en el equipo "Familiarizarse con Teams" que ha creado para compartir las instrucciones con los usuarios para ayudar a impulsar la adopción. 
 
-Para obtener instrucciones detalladas en fuerzas adopción de los equipos de la organización, vea [Adoptar los equipos](adopt-microsoft-teams-landing-page.md).
+Para obtener instrucciones detalladas sobre cómo impulsar la adopción de Teams en su organización, consulte [Adoptar Teams](adopt-microsoft-teams-landing-page.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
-Vaya a los [comentarios y uso de Monitor](get-started-with-teams-monitor-usage-and-feedback.md).
+Vaya a [Supervisar el uso y los comentarios](get-started-with-teams-monitor-usage-and-feedback.md).

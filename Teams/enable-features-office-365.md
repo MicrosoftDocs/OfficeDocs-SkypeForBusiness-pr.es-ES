@@ -15,20 +15,20 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 383a4a18d466e367a31e4b99f9975b51cc5f559a
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: dfa908418061b4a9cc1d899d2ed64a9564b6f181
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988189"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753511"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Administrar características de Microsoft Teams en su organización de Office 365
 
-Todas las configuraciones de Teams se migrarán pronto al nuevo Centro de administración de Microsoft Teams y Skype Empresarial. La única característica de Teams que se administra en el Centro de administración de Office 365 es Aplicaciones. 
+Todas las configuraciones de Teams se migrarán pronto al nuevo Centro de administración de Microsoft Teams. La única característica de Teams que se administra en el Centro de administración de Microsoft 365 es Aplicaciones. 
 
 A menos que se indique lo contrario, el valor predeterminado para una opción es **Activado**.
 
-## <a name="tenant-wide-settings"></a>Configuración de todos los inquilinos 
+## <a name="tenant-wide-settings"></a>Configuración aplicable en todo el inquilino 
 
 Puede activar o desactivar aplicaciones para Teams en **Configuración de todos los inquilinos** en el Centro de administración de Microsoft 365. 
 
@@ -38,31 +38,31 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 
 ### <a name="apps"></a>Aplicaciones
 
-Las aplicaciones son fichas, conectores, bots o cualquier combinación de estos tres elementos que proporciona Teams (aplicaciones de origen o aplicaciones predeterminadas, como también se conocen) o un servicio de terceros (también denominadas aplicaciones externas). En **Aplicaciones**, puede habilitar y deshabilitar las aplicaciones predeterminadas, así como configurar el control sobre las aplicaciones externas.  
+Apps are tabs, connectors, bots, or any combination of these three, provided by Teams (first-party apps, also known as default apps) or by a third-party (also known as external apps). Under **Apps**, you can enable and disable default apps and configure settings to control external apps.  
 
 #### <a name="default-apps"></a>Aplicaciones predeterminadas
 
-Estas aplicaciones (como Planner, Elogio y El Tiempo) las ofrece Teams. Si desea activar una aplicación, seleccione la casilla de verificación que corresponde a esa aplicación. Para desactivarla, anule la selección de dicha casilla. 
+These apps, such as Planner, Praise, and Weather, are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box. 
 
 ![Captura de pantalla de la sección Aplicaciones predeterminadas.](media/teams-tenant-wide-settings-default-apps.png "Captura de pantalla de la sección Aplicaciones predeterminadas")
 
 #### <a name="external-apps"></a>Aplicaciones externas
 
-Estas aplicaciones las proporcionan terceros. Es posible configurar las siguientes opciones relacionadas con las aplicaciones externas.
+These apps are provided by third parties. You can configure the following settings for external apps.
 
 ![Captura de pantalla de la sección Aplicaciones externas.](media/teams-tenant-wide-settings-external-apps-settings.png "Captura de pantalla de la sección Aplicaciones externas, donde se muestran las opciones que se pueden activar o desactivar")
 
 - **Permitir aplicaciones externas en Microsoft Teams:** si esta opción se activa, los usuarios podrán agregar aplicaciones externas que estén disponibles para la organización. 
 
-- **Habilitar nuevas aplicaciones externas de manera predeterminada**: si esta opción se activa, los usuarios podrán activar nuevas aplicaciones en cuanto estas se agreguen al catálogo de aplicaciones de Teams. Desactive esta opción si quiere controlar las aplicaciones nuevas. Si la desactiva, deberá recordar revisar periódicamente las nuevas aplicaciones para que su organización no se pierda las nuevas aplicaciones de interés. 
+- **Enable new external apps by default**: When this setting is turned on, users can activate new apps as soon as they're added to the Teams app catalog. Turn off this setting if you want to control new apps. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on new apps. 
 
-- **Permitir la instalación de prueba de aplicaciones externas**: Si quiere activar algunas aplicaciones externas y desactivar otras, desactive esta opción y, a continuación, en la lista de aplicaciones externas, desactive aquellas a las que no desea que accedan los usuarios. Cuando esta opción esté activada, los miembros y los propietarios de los equipos que tengan autorización para ello podrán transferir localmente aplicaciones a Teams. 
+- **Allow sideloading of external apps**: If you want to turn on some external apps and turn off others , turn off this setting, and then in the list of external apps, turn off the apps that you don't want users to access. When this setting is turned on, team owners and members who are granted permission can sideload apps to Teams. 
 
 Para obtener más información, consulte [Configurar la administración de aplicaciones en Teams](admin-settings.md). 
 
 ## <a name="teams-org-wide-settings"></a>Configuración de toda la organización de Teams
 
-Puede controlar la configuración del usuario de toda la organización en el Centro de administración de Microsoft Teams y Skype Empresarial. Para editar la configuración de toda la organización, vaya al Centro de administración de Microsoft Teams y Skype Empresarial y seleccione **Configuración de toda la organización**. Puede configurar las siguientes opciones.
+Puede controlar la configuración de usuario en toda la organización en el Centro de administración de Microsoft Teams. Para editar la configuración de toda la organización, vaya al Centro de administración de Microsoft Teams y, después, seleccione **Configuración de toda la organización**. Puede configurar las opciones siguientes.
 
 ### <a name="external-access"></a>Acceso externo
 
@@ -76,7 +76,7 @@ Puede controlar la configuración del usuario de toda la organización en el Cen
 
 En **Configuración de Microsoft Teams** puede configurar la integración del correo electrónico, las opciones de almacenamiento en nube, la interoperabilidad de Skype Empresarial y los dispositivos.
 
-#### <a name="email-integration"></a>Integración del correo electrónico
+#### <a name="email-integration"></a>Integración de correo electrónico
 
 Active esta característica para que los usuarios puedan enviar un correo electrónico a un canal en Microsoft Teams mediante la dirección de correo electrónico del canal. Los usuarios pueden hacer esto para cualquier canal que pertenezca a un equipo que sea de su posesión. Los usuarios también pueden enviar correos electrónicos a cualquier canal de un equipo que tenga conectores activados para los miembros del equipo. Para activar la integración del correo electrónico, asegúrese de que **Permitir que los usuarios puedan enviar correos electrónicos a la dirección de correo electrónico de un canal** esté **Activado**. 
 
@@ -98,7 +98,7 @@ Esta configuración controla el comportamiento de la cuenta del recurso para los
 - **Establecer el PIN de contenido**: Requiera que los usuarios especifiquen este PIN para impedir el acceso no autorizado a los documentos. Con esto se impide que los usuarios no autorizados se unan a reuniones futuras y vean los datos adjuntos.
 - **Las cuentas de recursos pueden enviar mensajes**: **Active** esta opción para permitir que se envíen mensajes desde la cuenta del recurso de Surface Hub.
 
-#### <a name="search"></a>Buscar
+#### <a name="search"></a>Búsqueda
 
 La búsqueda de directorios enfocada de Microsoft Teams usa la directiva de libretas de direcciones (APB) de Exchange para permitir que las organizaciones puedan crear límites virtuales que controlen la forma en que los usuarios pueden encontrar a otros usuarios de la organización y comunicarse con ellos. Sería conveniente usar la búsqueda de directorios enfocada en estas situaciones:
 
@@ -116,11 +116,11 @@ Puede especificar un modo de coexistencia: **Microsoft Teams solo**, **Aplicacio
 
 #### <a name="app-preferences"></a>Preferencias de la aplicación
 
-Aquí puede elegir la aplicación que utilizarán los usuarios para unirse a las reuniones de Skype Empresarial (Skype Empresarial o la [Aplicación Reuniones de Skype](https://support.office.com/en-us/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Esta opción no depende de la configuración del modo de coexistencia.
+Aquí puede elegir la aplicación que utilizarán los usuarios para unirse a las reuniones de Skype Empresarial (Skype Empresarial o la [Aplicación Reuniones de Skype](https://support.office.com/es-ES/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Esta opción no depende de la configuración del modo de coexistencia.
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>¿Cómo puedo saber qué características están disponibles?
 
-Lea el [Mapa de ruta de Office 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) para ver información sobre las nuevas características de Microsoft Teams. Para obtener más información acerca de las nuevas y las próximas características, vea la página de [Novedades](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) de Teams y el [blog de la comunidad tecnológica de Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
+Lea el [Mapa de ruta de Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) para ver información sobre las nuevas características de Microsoft Teams. Para obtener más información acerca de las nuevas y las próximas características, vea la página de [Novedades](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) de Teams y el [blog de la comunidad tecnológica de Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
 
 ## <a name="more-information"></a>Más información
 
