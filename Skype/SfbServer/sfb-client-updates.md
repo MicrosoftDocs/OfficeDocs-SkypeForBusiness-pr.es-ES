@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Proporciona a los profesionales de TI vínculos a la información más reciente acerca de las actualizaciones para las versiones perpetuas de los clientes de Skype Empresarial 2016, Skype Empresarial 2015 y Lync 2013.
-ms.openlocfilehash: 62aa604385b76df94c647199994211f25f265d56
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: f3cf01aeec5117a210207cb958f7255f6592c606
+ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771042"
+ms.locfileid: "29786409"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Actualizaciones más recientes de las versiones de Skype Empresarial que usan Windows Installer (MSI)
 
@@ -42,7 +42,7 @@ La compatibilidad de Skype Empresarial con Office 365 y el entorno local depende
 
 |Nombre de paquete|Número de KB|Fecha de lanzamiento|
 |:---  |:---  |:---  |
-|Actualización de Skype Empresarial 2016 |[KB4461586](https://support.microsoft.com/kb/4461586/) | Enero de 2018|
+|Actualización de Skype Empresarial 2016 |[KB4461586](https://support.microsoft.com/kb/4461586/) | Enero de 2019|
 |Actualización de Skype Empresarial 2016 |[KB4461545](https://support.microsoft.com/kb/4461545/) | Diciembre de 2018|
 |Actualización de seguridad de Skype Empresarial Server 2016 |[KB4461473](https://support.microsoft.com/kb/4461473/) | Noviembre de 2018|
 |Actualización de Skype Empresarial 2016 |[KB4092445](https://support.microsoft.com/kb/4092445/) | Octubre de 2018|
@@ -83,6 +83,11 @@ La compatibilidad de Skype Empresarial con Office 365 y el entorno local depende
 
 |Nombre de paquete|Número de KB|Fecha de lanzamiento|
 |:--- |:--- |:--- |
+|Actualización de Skype Empresarial 2015/Lync 2013 |[KB4461557](https://support.microsoft.com/kb/4461557/)| Enero de 2019 |
+|Actualización de seguridad de Skype Empresarial 2015/Lync 2013 |[KB4461487](https://support.microsoft.com/kb/4461487/)| Noviembre de 2018 |
+|Actualización de Skype Empresarial 2015/Lync 2013 |[KB4461446](https://support.microsoft.com/kb/4461446/)| Octubre de 2018 |
+|Actualización de Skype Empresarial 2015/Lync 2013 |[KB4092457](https://support.microsoft.com/kb/4092457/)| Septiembre de 2018 |
+|Actualización de Skype Empresarial 2015/Lync 2013 |[KB4032250](https://support.microsoft.com/kb/4032250/)| Agosto de 2018 |
 |Actualización de seguridad de Skype Empresarial 2015/Lync 2013 |[ KB 4022225 ](https://support.microsoft.com/kb/4022225) | Julio de 2018 |
 |Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4022170 ](https://support.microsoft.com/kb/4022170) | Junio de 2018 |
 |Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4018377 ](https://support.microsoft.com/kb/4018377) | Mayo de 2018 |
@@ -135,6 +140,11 @@ La compatibilidad de Skype Empresarial con Office 365 y el entorno local depende
 
 Nombre de paquete|Número de KB|Fecha de lanzamiento|
 |:--- |:--- |:--- |
+|Actualización de Skype Empresarial 2015/Lync 2013 |[KB4461557](https://support.microsoft.com/kb/4461557/)| Enero de 2019 |
+|Actualización de seguridad de Skype Empresarial 2015/Lync 2013 |[KB4461487](https://support.microsoft.com/kb/4461487/)| Noviembre de 2018 |
+|Actualización de Skype Empresarial 2015/Lync 2013 |[KB4461446](https://support.microsoft.com/kb/4461446/)| Octubre de 2018 |
+|Actualización de Skype Empresarial 2015/Lync 2013 |[KB4092457](https://support.microsoft.com/kb/4092457/)| Septiembre de 2018 |
+|Actualización de Skype Empresarial 2015/Lync 2013 |[KB4032250](https://support.microsoft.com/kb/4032250/)| Agosto de 2018 |
 |Actualización de seguridad de Skype Empresarial/Lync 2013 |[KB 4022225 ](https://support.microsoft.com/kb/4022225)| Julio de 2018 |
 |Actualización de Skype Empresarial 2015/Lync 2013|[KB 4022170 ](https://support.microsoft.com/kb/4022170) | Junio de 2018 |
 |Actualización de Skype Empresarial 2015/Lync 2013|[KB 4018377 ](https://support.microsoft.com/kb/4018377) | Mayo de 2018 |

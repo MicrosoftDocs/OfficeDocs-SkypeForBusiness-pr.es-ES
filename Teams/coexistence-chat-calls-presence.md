@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67c2e403511c3329d37fa3712bc8f559dcc16c38
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: c7dee2921e6458c797a09f5b3fa78118992766b2
+ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29743000"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29786402"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistencia con Skype Empresarial
 
@@ -177,7 +177,7 @@ Para saber qué comportamiento cabe esperar, necesita comprender que la presenci
     * De Skype para la empresa, cualquier otro usuario verán Skype del usuario islas de presencia de negocio (tanto en el inquilino y federado); Esto se alinea con las tablas de enrutamiento anteriores
 
 > [!NOTE]
-> Se trata de un cambio reciente de la implementación anterior (denominado presencia unificada) que se mostró una presencia combinada, agregado de los equipos y Skype el destino para los clientes empresariales. Ese enfoque anterior resultado para ser confusa para los usuarios, ya que con frecuencia daría lugar de mostrar en presencia exacta, es decir, un usuario no está accesible, aunque su presencia les mostramos en línea.
+> Se trata de un cambio reciente de la implementación anterior (denominado presencia unificada) que se mostró una presencia combinada, agregado de los equipos y Skype el destino para los clientes empresariales. Ese enfoque anterior resultado para ser confusa para los usuarios, ya que con frecuencia daría lugar en Mostrar imprecisos presencia, es decir, un usuario no está accesible, aunque su presencia les mostramos en línea.
 
 ## <a name="in-tenant-presence"></a>Presencia en el inquilino
 

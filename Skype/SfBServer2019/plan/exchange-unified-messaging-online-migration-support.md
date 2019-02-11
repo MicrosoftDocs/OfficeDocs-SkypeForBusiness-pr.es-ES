@@ -10,16 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft retira el servicio Exchange Unified Messaging en línea (ExchUMO) en febrero de 2020. En este artículo se resume qué afectados los clientes deben conocer y para planear su continuidad del negocio.
-ms.openlocfilehash: 1f755f8974ba18eba296051c547ee12b79b114d1
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: af9418a764780efca07a37f1c0b55415d0305f55
+ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/08/2019
-ms.locfileid: "29779892"
+ms.locfileid: "29786424"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración de Exchange Unified Messaging en línea  
 
-En relación con el [anuncio](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-support-for-unified-messaging-in-exchange-online/) en el 8 de febrero de 2019 Microsoft es retirar el servicio de Exchange Unified Messaging en línea (ExchUMO) en febrero de 2020. En este artículo se ofrece un resumen de qué clientes afectados debe conocer y para planear su continuidad del negocio. 
+En relación con el [anuncio](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) en el 8 de febrero de 2019 Microsoft es retirar el servicio de Exchange Unified Messaging en línea (ExchUMO) en febrero de 2020. En este artículo se ofrece un resumen de qué clientes afectados debe conocer y para planear su continuidad del negocio. 
  
 ExchUMO se implementa por los clientes de correo de voz, operador automático o servicios de integración de fax. Planes de Microsoft ayudar a estos clientes a migrar a sus servicios basados en la nube que admiten miles de clientes ya en Skype para profesionales en línea y Microsoft Teams. 
 
@@ -54,7 +54,7 @@ Microsoft ha identificado varias implementaciones de cliente que se consuman de 
 
 1.  **Obtener informados**
  
-    Familiarícese con el [anuncio de blog](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-support-for-unified-messaging-in-exchange-online/) y este artículo para planear una migración sin problemas para los usuarios. Vea [Comprobación de Skype para correo de voz empresarial y opciones](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) para obtener información detallada sobre las funciones de correo de voz en la nube.  
+    Familiarícese con el [anuncio de blog](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) y este artículo para planear una migración sin problemas para los usuarios. Vea [Comprobación de Skype para correo de voz empresarial y opciones](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) para obtener información detallada sobre las funciones de correo de voz en la nube.  
  
 
 2.  **Establecer un Skype para topología híbrida de negocio**
