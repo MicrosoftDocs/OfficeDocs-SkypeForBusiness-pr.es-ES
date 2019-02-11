@@ -7,76 +7,76 @@ ms.date: 11/06/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
-description: Obtenga información sobre cómo crear su primer conjunto de equipos y canales en Microsoft Teams.
-localization_priority: Normal
+description: Aprenda a crear su primer conjunto de equipos y canales en Microsoft Teams.
+localization_priority: Priority
 search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2cb8fb04f244139255cb363a6779379824cb709
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
-ms.translationtype: MT
+ms.openlocfilehash: da17a6e0cb409946085d14f05b1eb09bc9c1747f
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789326"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754747"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Crear sus primeros equipos y canales en Microsoft Teams
 
-Configurar y utilizar su primer conjunto de equipos y canales basa su experiencia con los equipos e identifican a campeones que pueden ayudar a estimular la adopción de los equipos en toda la organización. 
+Al configurar y usar el primer conjunto de equipos y canales comenzará su experiencia con Teams e identificará a expertos que puedan ayudarle a impulsar la adopción de Teams en toda la organización. Si todavía no ha instalado Teams, consulte [Obtener clientes de Teams](get-clients.md) e [Iniciar sesión en Teams con autenticación moderna](sign-in-teams.md).
 
-## <a name="suggestions-for-your-first-teams-and-channels"></a>Sugerencias para la primera equipos y canales
+## <a name="suggestions-for-your-first-teams-and-channels"></a>Sugerencias para los primeros equipos y canales
 
- Un equipo es una colección de las personas que reúna alrededor de un objetivo común. Los canales son los espacios de colaboración dentro de un equipo donde se realiza el trabajo real. 
+ Un equipo es una colección de personas que se reúnen por un objetivo común. Los canales son los espacios de colaboración dentro de un equipo donde se realiza el trabajo real. 
 
-Para obtener más información, vea [información general de los equipos y los canales en los equipos](teams-channels-overview.md) y [procedimientos recomendados para organizar los equipos en los equipos](best-practices-organizing.md).
+Para obtener más información, consulte [Información general sobre los equipos y canales en Teams](teams-channels-overview.md) y [Procedimientos recomendados para organizar los equipos en Teams](best-practices-organizing.md).
 
- Le recomendamos que empiece con un equipo "Obtener saber los equipos", donde pueden reproducir alrededor de los primeros usuarios, formular preguntas y descubrir las capacidades de los equipos. Este equipo puede ser esencial para su éxito comenzar a experimentar con los equipos. 
+ Le recomendamos que empiece por un equipo llamado "Familiarizarse con Teams" en el que los primeros usuarios puedan probar cosas, formular preguntas y descubrir las funciones de Teams. Este equipo puede ser esencial para el correcto funcionamiento cuando empiece a experimentar con Teams. 
 
-### <a name="get-to-know-teams-team"></a>Equipo "Obtener saber los equipos"
-Su equipo de proyecto puede usar el equipo de "Introducción a conocer los equipos" para asegurarse de que estén configuradas con los clientes de los equipos, tienen algunas excelentes conversaciones iniciales y explore ¿qué pueden hacer los equipos. Ya puede tener un grupo de personas en la organización que disfrute de obtención de acceso rápido a las nuevas funciones. Esto puede ser una de sus equipos iniciales al ponerlos a bordo y le ayudará a empezar inmediatamente a recibir comentarios.
+### <a name="get-to-know-teams-team"></a>Equipo "Familiarizarse con Teams"
+El equipo de proyecto puede usar el equipo "Familiarizarse con Teams" para asegurarse de que se han configurado los clientes de Teams, tener algunas conversaciones iniciales y explorar lo que Teams puede hacer. Puede que ya tenga un grupo de personas en su organización que disfrute de obtener acceso anticipado a nuevas funciones. Este grupo puede ser uno de sus equipos iniciales al incluirlos en el proceso y le ayudarán a saber las primeras opiniones y comentarios.
 
-Aquí es una estructura sugerida para el equipo.
+Esta una sugerencia de estructura para el equipo.
 
-| Canal | Descripción y uso | Fichas ancladas, bots y aplicaciones |
+| Canal | Descripción y uso | Pestañas ancladas, bots y aplicaciones |
 | ------------ | -------------------- | -------------------- |
-| General | Inicie todos los equipos de con un canal General. Use este canal para realizar anuncios como para comenzar a conocer los equipos. |  |
-| Diga hi | Introducir usted mismo al equipo de y comparta lo que desea obtener de los equipos. |  |
-| ¿Cómo se hace | Un canal para formular preguntas sobre procedimientos.</br>Paso 1: instalar a los clientes móviles y de escritorio.</br>Paso 2: saltar en los equipos.| Ficha anclado que vincula a la del [Centro de Ayuda de los equipos](https://support.office.com/teams)</br>Ficha anclado que vincula a [los equipos de vídeos de aprendizaje](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)</br>Ficha anclado que vincula a [los equipos de los vínculos de descarga de cliente de escritorio y móviles](https://teams.microsoft.com/downloads) |
-| Comentarios | Compartir sus ideas sobre su experiencia de los equipos. | Ficha anclado con Polly sondeo|
-| Ideas para los equipos del futuro | Compartir sus ideas en donde los equipos pueden controlar valores adicionales en la organización. ¿Lo que podrían estos equipos se denomina? ¿Que sería (miembros)? ||
-| Asistencia técnica | Si algo no funciona como se esperaba, use este canal para obtener ayuda. ||
+| General | Todos los equipos empieza con un canal General. Use este canal para realizar anuncios cuando empiece a familiarizarse con Teams. |  |
+| Saludad | Preséntese al equipo y comparta los objetivos que desea alcanzar con Teams. |  |
+| Cómo... | Un canal para realizar preguntas sobre procedimientos.</br>Paso 1: instalar los clientes móviles y de escritorio.</br>Paso 2: empezar a usar Teams| Pestaña anclada que vincula al [centro de ayuda de Teams](https://support.office.com/teams)</br>Pestaña anclada que vincula a los [vídeos de aprendizaje de Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)</br>Pestaña anclada que vincula a [Vínculos de descarga del cliente de escritorio y móvil de Teams](https://teams.microsoft.com/downloads) |
+| Comentarios | Comparta su opinión sobre su experiencia con Teams. | Pestaña anclada con sondeo Polly|
+| Ideas para equipos futuros | Comparta sus ideas sobre qué áreas podrían beneficiarse mejor de Teams en su organización. ¿Cómo podrían llamarse estos equipos? ¿Quiénes serían miembros? ||
+| Soporte técnico | Si algo no funciona según lo esperado, use este canal para obtener ayuda. ||
 
-## <a name="get-your-first-teams-up-and-running"></a>Poner en funcionamiento los equipos de primera
-Como administrador, puede crear y administrar los equipos y canales en el cliente de los equipos o Microsoft Teams & Skype para el centro de administración de negocio. Puede crear equipos como público o privado. También puede crear un equipo de toda la organización. Uso de los equipos de la organización pueden unirse a un equipo público. Para que los equipos privados, los propietarios de equipo administran pertenencia al equipo. Y para un equipo de toda la organización, todas las personas de su organización se agregan automáticamente. 
+## <a name="get-your-first-teams-up-and-running"></a>Ponga en funcionamiento los primeros equipos
+Como administrador, puede crear y administrar equipos y canales en el cliente de Teams o en el centro de administración de Microsoft Teams. Puede crear los equipos como públicos o privados. También puede crear un equipo de toda la organización. Todos los usuarios de Teams de su organización pueden unirse a un grupo público. En los equipos privados, los propietarios del equipo administran los miembros del grupo. Y en un grupo de toda la organización, todas las personas de su organización se agregan automáticamente. 
 
-Para empezar, se recomienda crear equipos privados y agregar otro propietario para administrar la configuración de equipo y pertenencia. 
+Para empezar, se recomienda crear equipos privados y agregar otro propietario para administrar los miembros y la configuración de cada equipo. 
 
 > [!NOTE]
-> En los pasos siguientes, usamos al cliente de escritorio de los equipos para crear equipos y canales. Tenga en cuenta que como administrador, también puede realizar estas tareas en el Microsoft Teams & Skype para el centro de administración de negocio.
+> En los pasos siguientes, usamos el cliente de escritorio de Teams para crear equipos y canales. Tenga en cuenta que, como administrador, también puede realizar estas tareas en el centro de administración de Microsoft Teams.
 
 ### <a name="create-a-team"></a>Crear un equipo
 
-En el lado izquierdo de los equipos, haga clic en **los equipos**y, a continuación, en la parte inferior de la lista de equipos, haga clic en **unirse a o crear un equipo**. En la **creación de un equipo de** mosaico, haga clic en **Crear equipo**.
+En el lado izquierdo de Teams, haga clic en **Equipos** y, a continuación, en la parte inferior de la lista de equipos, haga clic EN **Unirse o crear un equipo**. En el icono **Crear un equipo**, haga clic en **Crear equipo**.
 
-Desde aquí, el nombre de su equipo, agregar una descripción y establecer la privacidad. Una vez hecho esto, invitar a personas a participar en el equipo. Puede agregar usuarios individuales, grupos y todo incluso grupos de contactos (anteriormente conocidos como "listas de distribución"). 
+Una vez que haya creado el equipo, invite a personas a unirse a él. Puede agregar usuarios individuales, grupos e incluso un grupo entero de contactos (anteriormente conocido como "lista de distribución"). 
 
-![Crear un equipo] (media/get-started-with-teams-create-team.png "Obtener captura de pantalla de un ejemplo conocer los equipos de equipo, que muestra el nombre del grupo y la descripción") 
+![Crear un equipo](media/get-started-with-teams-create-team.png "captura de pantalla de un equipo \"Familiarizarse con Teams\" de ejemplo, que muestra el nombre del equipo y la descripción") 
 
-### <a name="add-a-team-owner"></a>Agregar el propietario de un equipo
-Busque el equipo que ha creado, haga clic en **más ˙˙˙ opciones** > **Administrar equipo**. A continuación, vaya a la ficha **miembros** , busque el usuario o usuarios que desea designar como propietario del equipo y, a continuación, en la **función**, haga clic en **propietario**.
+### <a name="add-a-team-owner"></a>Agregar propietario del equipo
+Busque el equipo que ha creado, haga clic en **Más opciones** > **Administrar equipo**. Después, vaya a la pestaña **Miembros**. Busque las personas que desea designar como propietarios del equipo. En **Rol**, haga clic en **Propietario**.
 
 ### <a name="create-a-channel-in-a-team"></a>Crear un canal en un equipo
-Busque el equipo que ha creado, haga clic en **más ˙˙˙ opciones** > **Agregar canal**. También puede haga clic en **Administrar equipo** y agregar un canal en la ficha **canales** . 
+Busque el equipo que ha creado, haga clic en **Más opciones** > **Agregar canal**. También puede hacer clic en **Administrar equipo** y agregar un canal en la pestaña **Canales**. 
 
-![Agregar un canal a un equipo] (media/get-started-with-teams-add-channel.png "Captura de pantalla de la opción de Agregar canal, opción del equipo de administrar y otras opciones que están disponibles al hacer clic en más opciones en un equipo") 
+![Agregar un canal a un equipo](media/get-started-with-teams-add-channel.png "captura de pantalla de la opción de Agregar canal, opción de Administrar equipo y otras opciones que están disponibles al hacer clic en Más opciones de un equipo") 
 
-Asigne el canal de un nombre descriptivo para facilitar a los usuarios a comprender lo que la conversación en el canal está allí para lograr. 
+De al canal un nombre descriptivo para que sea más fácil para los usuarios comprender el propósito del canal. 
 
-Como propietario de un equipo, puede canales favoritos automáticamente para todo el equipo, hacer que los canales más visible para todos los usuarios en el equipo. También puede anclar pestañas para el canal para agregar herramientas como OneNote o vínculos a páginas Web y otro contenido para facilitar a los usuarios a encontrar lo que necesitan y comparta sus ideas.  
+Como propietario de un equipo, puede marcar canales favoritos automáticamente para todo el equipo, haciendo que los canales sean más visibles para todos los miembros del equipo. También puede anclar pestañas en el canal para agregar herramientas, como OneNote, vínculos a páginas web y otro contenido que haga que sea más fácil para los usuarios encontrar lo que necesitan y compartir su opinión.  
 
-Este es un ejemplo del canal "¿cómo" en el equipo de "Obtener saber los equipos", que muestra anclado las fichas que vinculan a páginas Web de los equipos &ndash; vínculos de descarga de aprendizaje en vídeo equipos, centro de Ayuda de los equipos y los equipos. 
+Este es un ejemplo del canal "¿Cómo..." en el equipo "Familiarizarse con Teams", que muestra pestañas ancladas que vinculan a páginas web de Teams (vínculos de descarga de Teams, centro de ayuda de Teams y vídeos de aprendizaje de Teams). 
 
-![Fichas de PIN a un canal] (media/get-started-with-teams-add-tabs.png "Captura de pantalla de las fichas ancladas al ejemplo llegar a conocer los equipos team.") 
+![Anclar pestañas a un canal](media/get-started-with-teams-add-tabs.png "captura de pantalla de pestañas ancladas en el equipo de ejemplo \"Familiarizarse con Teams\".") 
 
 ## <a name="next-steps"></a>Pasos siguientes
-Vaya a [incorporado los primeros usuarios](get-started-with-teams-onboard-early-adopters.md).
+Vaya a [Incorporar primeros usuarios](get-started-with-teams-onboard-early-adopters.md).
