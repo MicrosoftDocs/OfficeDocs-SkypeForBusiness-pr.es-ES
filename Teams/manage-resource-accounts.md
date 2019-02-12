@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Administración de cuentas de recursos en Microsoft Teams
-ms.openlocfilehash: 53d335b4f345967494767445ec206efcb6f78388
-ms.sourcegitcommit: e091201f2bcb86bee011e7ac0de741a6c673cedd
+ms.openlocfilehash: a40d281349f6b5f8cdc8a95dbb77a7d3f9da8cc4
+ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29770719"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29890759"
 ---
 # <a name="manage-resource-accounts-in-teams"></a>Administrar cuentas de recursos en los equipos 
 
@@ -33,7 +33,7 @@ En Microsoft Teams os Skype para profesionales en línea, cada llamada de cola o
 
 Para empezar a es importante recordar algunas cosas:
   
-- Su organización debe tener (como mínimo) una licencia Enterprise E3 plus **Sistema telefónico** o una licencia Enterprise E5. El número de licencias de usuario de **Sistema telefónico** que se asignan afecta al número de números de servicio que están disponibles para ser usadas para las cuentas de recursos asignadas a las colas u operadores automáticos de llamadas. El número de cuentas de recursos que puede hacer que depende el número de licencias de **Sistema telefónico** y **Conferencias de Audio** que se asignan en la organización. Para obtener más información acerca de las licencias, vea [Skype para profesionales y los equipos de Microsoft complemento licencias](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- Su organización debe tener (como mínimo) una licencia Enterprise E3 plus **Sistema telefónico** o una licencia Enterprise E5. El número de licencias de usuario de **Sistema telefónico** que se asignan afecta al número de números de servicio que están disponibles para ser usadas para las cuentas de recursos asignadas a las colas u operadores automáticos de llamadas. El número de cuentas de recursos que puede hacer que depende el número de licencias de **Sistema telefónico** y **Conferencias de Audio** que se asignan en la organización. Para obtener más información acerca de las licencias, vea [Skype para profesionales y los equipos de Microsoft complemento licencias](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
 
     > [!NOTE]
     > Para redirigir las llamadas a personas de la organización que están en línea, deben tener una licencia de **Sistema telefónico** y estar habilitados para Enterprise Voice o tienen planes de llamada de Office 365. See [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
@@ -89,19 +89,19 @@ Cuando haya terminado, haga clic en **Guardar**.
 
 Para las implementaciones que son híbrida con Skype para Business Server:
 
-[Planeación de operador automático de la nube](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant.md)
+[Planeación de operador automático de la nube](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
 
-[Configurar operadores automáticos en la nube](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant.md)
+[Configurar operadores automáticos en la nube](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant)
 
 Para las implementaciones en los equipos o Skype para empresarial en línea:
 
-[¿Qué son los operadores automáticos de Sistema telefónico?](what-are-phone-system-auto-attendants.md)
+[¿Qué son los operadores automáticos de Sistema telefónico?](what-are-phone-system-auto-attendants)
 
-[Configurar un operador automático de Sistema telefónico](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+[Configurar un operador automático de Sistema telefónico](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
 [Ejemplo de pequeña empresa - configurar un operador automático](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
 
-[Crear una cola de llamadas de Sistema telefónico](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
+[Crear una cola de llamadas de Sistema telefónico](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
 [Nueva CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 

@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28827be78c93a3ea3a922d16bb9d985d3439ad7a
-ms.sourcegitcommit: afccaf26c8718869fc0b3c277d186bb82cb304b4
+ms.openlocfilehash: 24ceb6ff76bb84f8de9d9248fc4c10a73ee454f4
+ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "27544203"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29890767"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planeación de Microsoft 365 gobierno - implementaciones GCC
 
@@ -74,14 +74,14 @@ Para dar cabida a los requisitos de nuestros clientes de nube de gobierno, exist
 |-----------------------------|-----------------------------|----------------|
 | Base | Inicio de sesión | Disponible |
 | | Presencia | Disponible |
-| | Presencia unificada (Skype para profesionales y los equipos unificados) | En el trabajo pendiente del gobierno |
+| | Presencia unificada (Skype para profesionales y los equipos unificados) | Disponible |
 | Actividad | Fuente | Disponible |
 |  | Mi actividad | Disponible |
 | Chat | Conversación | Disponible |
 | | Archivos | Disponible |
 | | Organigrama | Disponible |
 | | Actividad | Disponible |
-| | Interoperabilidad (1:1 los equipos-Skype para chat empresarial) | En el trabajo pendiente del gobierno |
+| | Interoperabilidad (1:1 los equipos-Skype para chat empresarial) | Disponible |
 | Microsoft Teams | Mensaje de canal | Disponible |
 | | Archivos de canal | Disponible |
 | | Ficha de OneNote | En el trabajo pendiente del gobierno |
@@ -126,7 +126,7 @@ Para dar cabida a los requisitos de nuestros clientes de nube de gobierno, exist
 | Archivos | Recientes | Disponible |
 | | Microsoft Teams | Disponible |
 | Almacén | Tienda de aplicaciones | En el trabajo pendiente del gobierno |
-| Buscar | Mensajes | Disponible |
+| Búsqueda | Mensajes | Disponible |
 | | Personas | Disponible |
 | | Archivos | Disponible |
 | | Comandos de barra diagonal | Disponible |
