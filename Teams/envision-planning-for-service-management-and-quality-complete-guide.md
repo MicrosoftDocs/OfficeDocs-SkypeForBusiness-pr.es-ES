@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29b17157178f8e7565fd6f484d6d95262c76ce05
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: e30eed7432a628bbd4951867e77883143f9290eb
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015584"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964461"
 ---
 # <a name="plan-for-service-management-and-quality"></a>Plan para la calidad y la administración de servicios
 
@@ -204,7 +204,7 @@ La configuración que hay que aplicar para omitir el servidor proxy es diferente
 
 Algunos proveedores de servidores proxy ofrecen un proceso automatizado que garantiza que la configuración está actualizada. Si el proveedor no ofrece este proceso automático, puede descargar un archivo PAC actualizado en <https://aka.ms/o365proxies>
 
-[Servidores proxy para Skype Empresarial Online y Teams](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)
+[Servidores proxy para Skype Empresarial Online o Teams](proxy-servers-for-skype-for-business-online.md)
 
 #### <a name="firewalls"></a>Firewalls
 
@@ -216,7 +216,7 @@ Dada su naturaleza de firewall con estado, el protocolo TCP no es el preferido p
 
 En el artículo [URL de Office 365 e intervalos de direcciones IP](https://aka.ms/o365ips) se detallan instrucciones completas para abrir el firewall de Microsoft Teams.
 
-Una vez que el firewall esté abierto, podrá usar la [herramienta de evaluación de red de Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) para validar la conectividad de las funcionalidades de voz en la nube.
+Una vez que el firewall esté abierto, podrá usar la  [herramienta de evaluación de red de Microsoft](https://www.microsoft.com/download/details.aspx?id=53885)  para validar la conectividad de las funcionalidades de voz en la nube.
 
 > [!IMPORTANT]
 > Las direcciones URL e IP de Microsoft Office 365 irán cambiando a lo largo del tiempo. Como parte de la planificación de la administración de servicios, es importante garantizar que hay un proceso operativo en vigor y un grupo designado como responsable de supervisar los [rangos de direcciones IP y URL de Office 365](https://aka.ms/o365ips) y hacer las actualizaciones oportunas.
@@ -343,7 +343,7 @@ En esta tabla se incluye un resumen de las actividades de planificación con ví
 | | Implementar VPN de túnel dividido | [Guía de túnel dividido de VPN](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
 | | Optimizar redes Wi-Fi para medios en tiempo real  | Consultar proveedores de terceros |
 | | Implementar salida local de Internet | [Salida local de Internet](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
-| | Implementar conectividad de red <br/> Validar conectividad de red | [URL de Office 365 y direcciones IP](https://aka.ms/o365ips) |
+| | Implementar conectividad de red <br/> Comprobar la conectividad de red | [URL de Office 365 y direcciones IP](https://aka.ms/o365ips) |
 | | | [Herramienta de evaluación de red de Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) |
 | | Realizar evaluación de red | [Evaluación de preparación de la red](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
 | Plan para la calidad de los puntos de conexión | Actualizar firewalls de puntos de conexión | [URL de Office 365 y direcciones IP](https://aka.ms/o365ips) |
