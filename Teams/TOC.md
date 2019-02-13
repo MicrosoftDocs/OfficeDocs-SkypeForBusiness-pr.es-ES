@@ -581,6 +581,7 @@
 ## Información adicional
 ### [Migración e interoperabilidad con Skype para la empresa](migration-interop-guidance-for-teams-with-skype.md)
 ### [Coexistencia con Skype Empresarial](coexistence-chat-calls-presence.md)
+### [Experiencia de los equipos cliente y conformidad a los modos de coexistencia](teams-client-experience-and-conformance-to-coexistence-modes.md)
 <!-- ============================================================ -->
 #       
 #        

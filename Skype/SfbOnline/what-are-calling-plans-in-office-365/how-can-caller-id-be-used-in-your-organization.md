@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Identificador de autor de la llamada se puede controlar mediante el uso de una directiva denominada CallingLineIdentity para las llamadas entrantes y salientes para los usuarios del sistema telefónico.
-ms.openlocfilehash: c8a823235c3c3fedaf71d42e8482c5f4579b80ef
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 4ae5c54d68410096104f61bf8cdbd71fa0628003
+ms.sourcegitcommit: 99bc2db8cb857b6fd2ddf9b837198be849dafb9b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958175"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29981918"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Cómo se puede usar la identificación de llamadas en su organización
 
@@ -65,7 +65,7 @@ Para establecer la identificación de llamadas de salida, consulte [Establecer e
 
 El atributo EnableUserOverride permite a uno o varios usuarios cambiar su configuración de identificación de llamadas a **Anónimo**. Esto solo se aplica cuando una directiva de CallingLineIdentity se configura con un parámetro CallingIDSubstitute de LineURI o Substitute. El valor predeterminado de EnableUserOverride es False.
   
-Los usuarios finales puede establecer su identificador de autor de la llamada a **anónimo** mediante el uso de la ficha **Llamada configuración hacia delante** en el Skype para el cliente de escritorio empresarial.
+Los usuarios finales pueden establecer su identificador de autor de la llamada a **anónimo** mediante la ficha **configuración** en el Skype para el cliente de escritorio empresarial, seleccione **llamadas a un usuario final** (si se habilita por admin), seleccione información del perfil y el número de **Ocultar Mi teléfono para todas las llamadas **.
   
 ||||
 |:-----|:-----|:-----|
