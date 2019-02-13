@@ -30,7 +30,7 @@ Cada registro representa una línea de medios. (Normalmente, una sesión de audi
 |**CallerIceWarningFlags** <br/> |int  <br/> | <br/> |Información sobre el proceso de establecimiento interactivo de conectividad (ICE) que se describe en los indicadores de bits. Para obtener información detallada, consulte la *Calidad de experiencia Monitoring Server especificación del protocolo* , disponible para su descarga. <br/> |
 |**CalleeIceWarningFlags** <br/> |int  <br/> | <br/> |Igual que CallerIceWarningFlags, pero en el lado del destinatario de la llamada. Para obtener información detallada, consulte la *Calidad de experiencia Monitoring Server especificación del protocolo* , disponible para su descarga. <br/> |
 |**Seguridad** <br/> |tinyint  <br/> | <br/> |El perfil de seguridad en uso. 0 es NONE, 1 es SRTP, 2 es V1.  <br/> |
-|**Transporte** <br/> |tinyint  <br/> | <br/> |0 es UDP, 1 es TCP.  <br/> |
+|**Transport** <br/> |tinyint  <br/> | <br/> |0 es UDP, 1 es TCP.  <br/> |
 |**CallerIPAddr** <br/> |int  <br/> |Externa  <br/> |Dirección IP del autor de la llamada. Vea la [tabla IPAddress](ipaddress.md) para obtener más información. <br/> |
 |**CallerPort** <br/> |int  <br/> | <br/> | Puerto usado por el autor de la llamada. <br/> |
 |**CallerSubnet** <br/> |int  <br/> | Externa <br/> |Subred del autor de la llamada. Vea la [tabla IPAddress](ipaddress.md) para obtener más información. <br/> |

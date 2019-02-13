@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59c881c6c40b8877fee46e3956970a0c305d0a4a
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 81b47a5a77a04becee748e4285641ce341fb65d4
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349532"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964429"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica] (media/upgrade-banner-tech-readiness.png "Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica")
 
@@ -211,7 +211,7 @@ La configuración necesaria para omitir el servidor proxy varía entre los prove
 
 Algunos proveedores de servidores proxy proporcionan un proceso automatizado para garantizar la configuración está actualizado. Si el proveedor no proporciona este proceso automático, puede descargar un archivo PAC actualizado desde <https://aka.ms/o365proxies>.
 
-[Servidores proxy de Skype para empresas en línea y los equipos](/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)
+[Servidores proxy para los equipos o Skype para la empresa en línea y los equipos](proxy-servers-for-skype-for-business-online.md)
 
 #### <a name="firewalls"></a>Firewalls
 

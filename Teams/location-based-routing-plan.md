@@ -1,5 +1,5 @@
 ---
-title: Planeación de enrutamiento basado en ubicación para el enrutamiento directo
+title: Planear enrutamiento basado en la ubicación para el enrutamiento directo
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82e11cb47aeeaf0c88ba0f6179f99195af9a7473
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 8faf0f70b509a851b8365bea5ce4a69a57f198d1
+ms.sourcegitcommit: 09c2094104ee055cb1cb047a5fab8f9fd02b123e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771035"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29967459"
 ---
-# <a name="plan-location-based-routing-for-direct-routing"></a>Planeación de enrutamiento basado en ubicación para el enrutamiento directo
+# <a name="plan-location-based-routing-for-direct-routing"></a>Planear enrutamiento basado en la ubicación para el enrutamiento directo
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
@@ -30,7 +30,7 @@ En algunos países y regiones, no es válido para omitir el proveedor público r
 
 Aquí podrá obtener una visión general de enrutamiento basados en ubicación e instrucciones que le ayudarán a planear para él. Cuando esté listo para aplicar y habilitar el enrutamiento basado en la ubicación, consulte:
 - [Implementar la configuración de red para el enrutamiento basado en la ubicación](location-based-routing-configure-network-settings.md)
-- [Habilitar el enrutamiento basado en ubicación para el enrutamiento directo](location-based-routing-enable.md)
+- [Habilitar enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-enable.md)
 
 Enrutamiento basado en la ubicación es una característica que le permite restringir el desvío de pago en función de directiva y la ubicación geográfica del usuario en el momento de una llamada entrante o saliente de RTC. 
 
@@ -235,7 +235,7 @@ Se admiten los siguientes clientes de los equipos:
 - Clientes móviles de equipos (iOS y Android)
 - Teléfonos IP de los equipos
 
-No se admiten Skype para clientes empresariales.
+No se admiten el cliente de web de los equipos y Skype para clientes empresariales.
 
 ### <a name="capabilities-not-supported-by-location-based-routing"></a>Capacidades no compatibles con el enrutamiento basado en ubicación
 
@@ -251,5 +251,5 @@ No se permite un usuario habilitado de enrutamiento basados en ubicación en una
 Vaya a [configuración de red para el enrutamiento basado en la ubicación](location-based-routing-configure-network-settings.md).
 
 ### <a name="related-topics"></a>Temas relacionados
-- [Habilitar el enrutamiento basado en ubicación para el enrutamiento directo](location-based-routing-enable.md)
-- [Terminología de enrutamiento basados en ubicación](location-based-routing-terminology.md)
+- [Habilitar enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-enable.md)
+- [Terminología de enrutamiento basado en la ubicación](location-based-routing-terminology.md)

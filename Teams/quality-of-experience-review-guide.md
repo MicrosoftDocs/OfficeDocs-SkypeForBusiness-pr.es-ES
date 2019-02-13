@@ -1,5 +1,5 @@
 ---
-title: Calidad de experiencia consulte la guía para los equipos de Microsoft
+title: Guía de revisión de la experiencia de calidad de Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34ec9518c8f5406b3bb6c489d571d89f50f34b34
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 3b19fe5dce5c728880c54321e5d6dbb1901d0aac
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754829"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964453"
 ---
 # <a name="quality-of-experience-review-guide"></a>Calidad de experiencia consulte la Guía
 
@@ -625,7 +625,7 @@ El formato del archivo de datos que se carga debe cumplir los siguientes requisi
 
 _Tabla 5: creación de la estructura de archivos_
 
-| Nombre de columna        | Tipo de datos | Ejemplo                   | Orientación    |
+| Nombre de columna        | Tipo de datos | Ejemplo                   | Instrucciones    |
 |--------------------|-----------|---------------------------|-------------|
 | Network            | Cadena    | 192.168.1.0               | Requerido    |
 | NetworkName        | Cadena    | Estados Unidos/Seattle/SEATTLE-mar-1 | Requerido\*  |
@@ -899,7 +899,7 @@ Ahora cuando comience la corrección, puede Centrar los esfuerzos de un determin
 _Tabla 8: pasos siguientes para llamada de corrección de error del programa de instalación_
 
 
-|      Corrección      |                                                                                                                                                                                                                                                                                                                                                                   Orientación                                                                                                                                                                                                                                                                                                                                                                   |
+|      Corrección      |                                                                                                                                                                                                                                                                                                                                                                   Instrucciones                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configurar servidores | Trabajar con el equipo de red y comprobar la configuración de servidores frente a [la lista de direcciones IP de Office 365](https://aka.ms/o365ips).<br><br>Compruebe que las [subredes de medios](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) y puertos se encuentran en las reglas de firewall. <br><br>Compruebe que se abren los puertos necesarios (enumerados a continuación) en el servidor de seguridad. UDP debe tener prioridad debido a que TCP se considera un protocolo de la conmutación por recuperación para el audio, vídeo, y el uso compartido de pantalla basados en vídeo y su uso afectará a la calidad de la llamada. Compartir aplicaciones de RDP heredado sólo utilice TCP.<br><ul><li>**TCP:** el puerto 443</li><li>**UDP:** puertos 3478 – 3481</li><ul> |
 |        Comprobar         |                                                                                                                                                                                                                                                                 Usar la [Herramienta de evaluación de red de Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) para comprobar la conectividad de la creación afectado o subred mediante el uso de la función de comprobación de conectividad.                                                                                                                                                                                                                                                                  |
@@ -958,7 +958,7 @@ En la siguiente tabla se enumera algunos métodos comunes para administrar y cor
 
 _Tabla 9 - pasos siguientes para llamada drop corrección_
 
-| Corrección                              | Orientación                      |
+| Corrección                              | Instrucciones                      |
 |------------------------------------------|-------------------------------|
 | **Red o a internet**                         | **Congestión**: trabajar con su equipo de red para supervisar el ancho de banda de los edificios/subredes específicas para confirmar que no hay problemas con sobreutilización. Si confirma que hay congestión de la red, tenga en cuenta el aumento de ancho de banda para dicho edificio o aplicar QoS. Use incluye [informes de resumen de calidad deficiente secuencia](#quality-investigations) para revisar las subredes de problema de problemas de vibración, latencia y pérdida de paquetes, porque a menudo, estos preceden una secuencia descartada.<br><br>También puede usar la [Herramienta de planeación de la red](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) para ayudar a comprender mejor las necesidades de ancho de banda de su organización.<br><br>**QoS**: si cada vez mayor ancho de banda no es práctico o costo sumamente elevado, considere la implementación de QoS. Esta herramienta es muy eficaz al administrar el tráfico de congestionada y puede garantizar que los paquetes de multimedia en la red administrada se priorizan encima el tráfico de medios que no sean. Como alternativa, si no hay ninguna evidencia borrar que dicho ancho de banda es el punto de entrada, tenga en cuenta estas soluciones:<ul><li>[Instrucciones de QoS de los equipos de Microsoft](qos-in-teams.md)</li><li>[Skype para obtener instrucciones de QoS de negocio](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul><br>**Realizar una evaluación de disponibilidad de red**: una evaluación de la red proporciona información detallada sobre el uso del ancho de banda esperado, cómo lidiar con ancho de banda y de la red cambia y redes procedimientos recomendados para los equipos y Skype para la empresa. Uso de la tabla anterior como su origen, tener una lista de los edificios o subredes que son candidatos excelentes para una evaluación.<ul><li>[Evaluación de preparación de redes de equipos de Microsoft](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype para evaluación de preparación para la red empresarial](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Herramienta de evaluación de la red de Microsoft:** Use esta herramienta para una prueba simple de rendimiento de la red para determinar el grado en que debería realizar la red para los equipos de un o Skype para llamadas en línea de negocio. La herramienta le ayuda a evaluar el rendimiento de una subred y validar la preparación de la red frente a [requisitos](https://aka.ms/performancerequirements)de rendimiento de Microsoft.<ul><li>[Descargar la herramienta de evaluación de la red](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul> |
 | **Los clientes (Skype para la empresa sólo en línea)** | Algunos clientes más antiguos tienen conocidos, documentan problemas con la confiabilidad de los medios. Revisar los informes de análisis de llamadas desde varios usuarios afectados o crear un informe de tabla de versión de cliente personalizado en CQD filtrado a edificios específicos o subredes con medida % de error Total de llamadas colocada. Esta información le ayudará a comprender si existe una relación entre gotas de llamada en dicho edificio específico y una versión específica del cliente.     |
@@ -1040,7 +1040,7 @@ No olvide que el departamento de soporte técnico sepan que estas redes están e
 
 _Tabla 10 - colaboradores comunes en alta producidos en regiones determinadas_
 
-| Corrección                              | Orientación                         |
+| Corrección                              | Instrucciones                         |
 |------------------------------------------|----------------------------------|
 | **Redes**                                 | **Congestión**: una sobreutilizados o aprovisionado en la red puede provocar problemas con la calidad de medios. Trabajo con el equipo de red para determinar si las conexiones de red desde el usuario a la salida de internet señalan tiene suficiente ancho de banda para admitir los medios. El [Organizador de la red](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) pueden ayudarle a comprender mejor las necesidades de ancho de banda de su organización.<br><br>**Realizar una evaluación de disponibilidad de red**: una evaluación de la red proporciona información detallada sobre el uso del ancho de banda esperado, cómo lidiar con ancho de banda y de la red cambia y redes procedimientos recomendados para los equipos y Skype para la empresa. Uso de la tabla anterior como su origen, tener una lista de los edificios o subredes que son candidatos excelentes para una evaluación.<ul><li>[Evaluación de preparación de redes de equipos de Microsoft](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype para evaluación de preparación para la red empresarial](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Herramienta de evaluación de la red de Microsoft:** Use esta herramienta para una prueba simple de rendimiento de la red para determinar el grado en que debería realizar la red para los equipos de un o Skype para llamadas en línea de negocio. La herramienta le ayuda a evaluar el rendimiento de una subred y validar la preparación de la red frente a [requisitos](https://aka.ms/performancerequirements)de rendimiento de Microsoft.<ul><li>[Descargar la herramienta de evaluación de la red](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br> |
 | **Calidad de servicio (QoS)**  | QoS es una herramienta probada para dar prioridad a los paquetes en una red congestionada para asegurarse de que llegan a su destino intacta y en el tiempo. Considere la implementación de QoS en toda la organización para maximizar la calidad de la experiencia del usuario donde se limita el ancho de banda. QoS le ayudará a solucionar problemas asociados normalmente con niveles altos de pérdida de paquetes, y, en menor grado, tiempos de ida y vuelta y vibración.<ul><li>[Instrucciones de QoS de los equipos de Microsoft](qos-in-teams.md)</li><li>[Skype para obtener instrucciones de QoS de negocio](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul> |
@@ -1123,7 +1123,7 @@ La causa más común de uso TCP falta reglas de excepción en los servidores de 
 
 _Tabla 11 - instrucciones de corrección para las secuencias de TCP mediante la creación y la subred_
 
-| Corrección        | Orientación     |
+| Corrección        | Instrucciones     |
 |--------------------|--------------------------------------|
 | Configuración del firewall | Compruebe que [las direcciones y puertos IP de Office 365](https://aka.ms/o365ips) se excluyen desde el servidor de seguridad. Para problemas relacionados con los medios TCP, centrar los esfuerzos de iniciales en lo siguiente:<ul><li>Compruebe que el cliente medios subredes 13.107.64.0/18 y 52.112.0.0/14 están en las reglas de firewall.</li><li>Puertos UDP 3478 – 3481 son los puertos de medios necesarios y deben abrirse, en caso contrario, se producirá un error del cliente al puerto TCP 443.</li></ul> |
 | Comprobar             | Use la [Herramienta de evaluación de red de Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) para buscar problemas con la conectividad a determinadas direcciones IP de Office 365 y puertos desde la creación afectado o subred.    |
@@ -1172,13 +1172,13 @@ _Figura 29 – uso de Proxy HTTP mediante la generación y subred_
 
 ##### <a name="remediation"></a>Corrección
 
-Se [recomienda](/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online) omitir siempre los servidores proxy de Skype para profesionales y los equipos, especialmente el tráfico de medios. Los servidores proxy no realiza Skype para la empresa más seguro, porque el tráfico ya está cifrado. Se pueden introducir problemas relacionados con el rendimiento en el entorno a través de latencia y pérdida de paquetes. Cuestiones como éstas dará como resultado una experiencia negativa con audio, vídeo y uso compartido de pantalla, donde las secuencias en tiempo real son esenciales.
+Se [recomienda](proxy-servers-for-skype-for-business-online.md) omitir siempre los servidores proxy de Skype para profesionales y los equipos, especialmente el tráfico de medios. Los servidores proxy no realiza Skype para la empresa más seguro, porque el tráfico ya está cifrado. Se pueden introducir problemas relacionados con el rendimiento en el entorno a través de latencia y pérdida de paquetes. Cuestiones como éstas dará como resultado una experiencia negativa con audio, vídeo y uso compartido de pantalla, donde las secuencias en tiempo real son esenciales.
 
 La causa más común de uso HTTP falta reglas de excepción en los servidores proxy. Mediante el uso de la creación o subred siempre puede determinar rápidamente qué proxy debe configurarse para los medios de desvío.
 
 Compruebe que los necesarios [Y los FQDN de Office 365](https://aka.ms/o365ips) están en la lista blanca en el proxy.
 
-Para obtener más información acerca del uso de los servidores proxy con Skype para profesionales en línea y los equipos, vea [este artículo](/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online).
+Para obtener más información acerca del uso de los servidores proxy con Skype para profesionales en línea y los equipos, vea [este artículo](proxy-servers-for-skype-for-business-online.md).
 
 ## <a name="endpoint-investigations"></a>Investigaciones de extremo
 
@@ -1337,11 +1337,11 @@ Para obtener más información, vea [este artículo acerca del rendimiento de re
 
 -   [Introducción a la llamada de análisis](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)
 
--   [Configurar el análisis de llamadas](set-up-call-analytics.md)
+-   [Configurar el Análisis de llamadas](set-up-call-analytics.md)
 
 -   [Diferencia entre el análisis de llamadas y el Panel de calidad de llamadas](difference-between-call-analytics-and-call-quality-dashboard.md)
 
--   [Usar Análisis de llamadas para solucionar problemas de mala calidad de llamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+-   [Usar el Análisis de llamadas para solucionar problemas de mala calidad en las llamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 ### <a name="call-analytics-support"></a>Soporte de análisis de llamada
 
