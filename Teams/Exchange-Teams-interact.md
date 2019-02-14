@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e1140fd30baa027ded92494b7455aab5500a726
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 7c251255807e1c673c672db20a85b7f56c4a64d6
+ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29770903"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29992820"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams 
 =========================================
@@ -46,7 +46,7 @@ En la siguiente tabla se ofrece información para usuarios con Exchange Online h
 <sup>2</sup> de exhibición de documentos electrónicos y retención Legal para el cumplimiento de mensajes del canal es compatible con todas las opciones de hospedaje.  
 <sup>3</sup> mensajes de chat privado de los equipos aún de no admiten la suspensión Legal para esta opción de hospedaje.
 
-<sup>4</sup> retención va a usar un buzón de sombra para el usuario en línea para almacenar los mensajes. [EDiscovery es compatible con los equipos de Microsoft para el usuario de los equipos en un entorno de implementación híbrida de Exchange](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009).
+<sup>4</sup> retención va a usar un buzón de sombra para el usuario en línea para almacenar los mensajes. [Exhibición de documentos electrónicos es compatible con los equipos de Microsoft para el usuario de los equipos en un entorno de implementación híbrida de Exchange](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009).
 
 <sup>5</sup> usuarios de los equipos con locales buzón de Exchange puede usar el correo de voz con los equipos y recibir mensajes de correo de voz en Outlook, pero los mensajes de correo de voz no estarán disponibles para ver o reproducir el cliente de los equipos.
 
