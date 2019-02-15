@@ -1,5 +1,5 @@
 ---
-title: ¿Cuáles son las directivas de mensajería de Teams?
+title: Administración de directivas de mensajería
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,21 +16,20 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
-ms.openlocfilehash: d4d2a4f424de1750c70ea851d1d1d35a2aaf9e44
-ms.sourcegitcommit: dfd075d092db9826c792cf947c83c33cfcd8ef4e
-ms.translationtype: HT
+ms.openlocfilehash: 3b360be09f8e35d560b13b40ef25a72a060e6033
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29763719"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056590"
 ---
 # <a name="what-are-messaging-policies-in-teams"></a>¿Cuáles son las directivas de mensajería de Teams?
-::: zone target="docs"
+
 Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams. You can use the default policy that is created or create one or more custom messaging policies for people in your organization. After you create a policy, you will assign it a user or groups of users in your organization.
 
 Policies can be easily managed in the Teams Admin Center (http://admin.teams.microsoft.com) by logging in with administrator credentials and clicking **Messaging Policies** in the left navigation. To edit the existing default policy for your organization, select the **Global (Org-wide default)** row and click **Edit**. To create a new messaging policy, click **New policy**.
 
 ![Directivas de mensajería en Teams](media/messaging-policies.png)
-::: zone-end
 
 A continuación se describe la configuración disponible para la directiva: 
 
@@ -51,9 +50,7 @@ A continuación se describe la configuración disponible para la directiva:
 - **Permitir vistas previas de URL** Use esta opción si desea activar o desactivar la visualización previa automática de direcciones URL en los mensajes.
 - **Permitir a los usuarios traducir mensajes** Active esta opción para que los usuarios pueden traducir automáticamente los mensajes de Teams en el idioma que se especifique en su configuración de idioma personal de Office 365.
 
-::: zone target="docs"
 If you have created a custom Messaging policy, it will only be active for a user if that policy is assigned to a user.  To assign a custom policy to a user in the Teams Admin Center, click **Users** in the left navigation, select the user you want to assign the policy to, and then choose **Edit** under **Assigned Policies**.
-::: zone-end
 
 ### <a name="related-topics"></a>Temas relacionados
 [Directivas de reuniones en Microsoft Teams](meeting-policies-in-teams.md)

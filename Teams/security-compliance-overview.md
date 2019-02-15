@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f080d90f0a384bfdc4010a80d7c84a1b51a10754
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: 20b1ff0536117516484a1d9f54fc49fedbab2e12
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201368"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056526"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================
@@ -31,15 +31,15 @@ Los servicios en las categorías de cumplimiento C y D que tienen compromisos de
 
 Los equipos también se aplica a todo el equipo y toda la organización autenticación en dos fases, inicio de sesión único a través de Active Directory y el cifrado de datos en tránsito y en reposo. Los archivos se almacenan en SharePoint y se realizan mediante el cifrado de SharePoint. Las notas se almacenan en OneNote y se realizan mediante el cifrado de OneNote. Los datos de OneNote se almacenan en el sitio de SharePoint del equipo. También se puede usar la ficha sitio Wiki para tomar notas y su contenido también se almacena en el sitio de SharePoint del equipo.
 
-También hemos agregado compatibilidad con la búsqueda en el registro de auditoría, eDiscovery y la suspensión legal para los canales, los chats y los archivos, así como la administración de aplicaciones móviles con Microsoft Intune. Vaya a la seguridad de Office 365 & Centro de cumplimiento para administrar esta configuración. 
+También hemos agregado compatibilidad con la búsqueda en el registro de auditoría, eDiscovery y la suspensión legal para los canales, los chats y los archivos, así como la administración de aplicaciones móviles con Microsoft Intune. Visite el centro de cumplimiento para administrar estas opciones de configuración de seguridad de Office 365 &. 
 
 ## <a name="auditing-and-reporting"></a>Auditoría y generación de informes
 
-Búsqueda de registro de auditoría derecha en el centro de cumplimiento y seguridad de Office 365 se conecta y expone capacidades para establecer alertas o informar sobre eventos de auditoría haciendo que estén disponibles, exportar de carga de trabajo específica o evento genérico se establece para el uso de administración y de investigación, a través de un escala de tiempo de auditoría ilimitado. Todos los datos de registro de auditoría está disponibles para la configuración de alertas en el centro de cumplimiento y seguridad de Office 365, así como para filtrar y exportar para realizar un análisis. Consulte este [vínculo](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) para obtener más información acerca de cómo llevar a cabo una búsqueda de registro de auditoría para eventos de Microsoft Teams en el centro de cumplimiento y seguridad de Office 365. 
+Búsqueda de registro de auditoría derecha en el centro de cumplimiento de seguridad de Office 365 & se conecta y expone capacidades para establecer alertas o informar sobre eventos de auditoría haciendo que estén disponibles, exportar de carga de trabajo específica o evento genérico se establece para el uso de administración y de investigación, a través de un escala de tiempo de auditoría ilimitado. Todos los datos de registro de auditoría está disponibles para la configuración de alertas en el centro de cumplimiento de seguridad de Office 365 &, así como para filtrar y exportar para realizar un análisis. Consulte este [vínculo](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) para obtener más información acerca de cómo llevar a cabo una búsqueda de registro de auditoría para eventos de Microsoft Teams en el centro de cumplimiento de seguridad de Office 365 &. 
 
 ## <a name="compliance-content-search"></a>Búsqueda de contenido de cumplimiento
 
-Búsqueda de contenido puede se usa para buscar todos los datos de los equipos a través de capacidades de filtrado de enriquecido y exportar a un contenedor específico para la compatibilidad con el cumplimiento de normas y litigios. Esto puede realizarse con o sin un caso de exhibición de documentos electrónicos. Esto permite que los administradores de cumplimiento recopilar datos de los equipos a través de todos los usuarios, revisar y exportar para continuar el procesamiento. Consulte este [vínculo](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) para obtener más información acerca de cómo realizar una búsqueda de contenido de cumplimiento de normas de contenido de Microsoft Teams en el centro de cumplimiento y seguridad de Office 365. 
+Búsqueda de contenido puede se usa para buscar todos los datos de los equipos a través de capacidades de filtrado de enriquecido y exportar a un contenedor específico para la compatibilidad con el cumplimiento de normas y litigios. Esto puede realizarse con o sin un caso de exhibición de documentos electrónicos. Esto permite que los administradores de cumplimiento recopilar datos de los equipos a través de todos los usuarios, revisar y exportar para continuar el procesamiento. Consulte este [vínculo](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) para obtener más información acerca de cómo realizar una búsqueda de contenido de cumplimiento de normas de contenido de Microsoft Teams en el centro de cumplimiento de seguridad de Office 365 &. 
 
 Sugerencia: El tipo Microsoft Teams puede usará para filtrar a través de para Microsoft Teams solo contenido, es decir, Chat y mensajes de canal, reuniones y llamadas. 
 
@@ -47,7 +47,7 @@ Sugerencia: El tipo Microsoft Teams puede usará para filtrar a través de para 
 
 La exhibición de documentos electrónicos es el aspecto electrónico de identificación, recolección y producción de información almacenada por medios electrónicos (ESI) en respuesta a una solicitud para la producción en una demanda legal o una investigación. Capacidades incluyen la administración de casos, conservación, búsqueda, análisis y exportación de datos de los equipos. Esto incluye los resúmenes de chat, mensajería y archivos, reuniones y llamadas. Para las reuniones de los equipos y las llamadas, un resumen de los eventos que se realizaron en la reunión y la llamada se crean y está disponible en la exhibición de documentos electrónicos. 
 
-Para obtener más información acerca de cómo realizar la exhibición de documentos electrónicos en el centro de cumplimiento y seguridad y ejecute la búsqueda de contenido de cumplimiento para el contenido de los equipos, vaya a los siguientes vínculos: 
+Para obtener más información acerca de cómo realizar la exhibición de documentos electrónicos en & centro de cumplimiento de seguridad y ejecute la búsqueda de contenido de cumplimiento para el contenido de los equipos, vaya a los siguientes vínculos: 
 
 [eDiscovery](https://support.office.com/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e) 
 
@@ -70,7 +70,7 @@ Los clientes pueden aprovechar por sus requisitos de exhibición de documentos e
 
 ## <a name="legal-hold"></a>Suspensión legal
 
-Durante un litigio, a menudo es necesario que todos los datos asociados con un usuario (custodia) o un equipo se conserva inalterados por lo que se puede usar como evidencia para el caso. Esto se logra mediante la colocación de un usuario (buzón de correo del usuario) o a un equipo con retención legal. Cuando cualquier equipo dentro de los equipos se pone en conservación local (subconjunto de la colección de sitio o buzón de correo a través de las consultas de destinadas o contenido filtrado) o juicio (colección completa de buzón de correo o sitio), la suspensión se coloca en el buzón de grupos. Esto garantiza que, incluso si los usuarios finales eliminar o editar los mensajes de canal que se ingestión en el buzón de correo de grupo, inmutables copias de que el contenido se conservan y disponibles en la búsqueda de exhibición de documentos electrónicos. Las suspensiones legales suelen aplicarse en el contexto de un caso de eDiscovery. Consulte [este](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) artículo para conocer más información acerca de la conservación y las suspensiones en el centro de cumplimiento y seguridad de Office 365 de ayuda. 
+Durante un litigio, a menudo es necesario que todos los datos asociados con un usuario (custodia) o un equipo se conserva inalterados por lo que se puede usar como evidencia para el caso. Esto se logra mediante la colocación de un usuario (buzón de correo del usuario) o a un equipo con retención legal. Cuando cualquier equipo dentro de los equipos se pone en conservación local (subconjunto de la colección de sitio o buzón de correo a través de las consultas de destinadas o contenido filtrado) o juicio (colección completa de buzón de correo o sitio), la suspensión se coloca en el buzón de grupos. Esto garantiza que, incluso si los usuarios finales eliminar o editar los mensajes de canal que se ingestión en el buzón de correo de grupo, inmutables copias de que el contenido se conservan y disponibles en la búsqueda de exhibición de documentos electrónicos. Las suspensiones legales suelen aplicarse en el contexto de un caso de eDiscovery. Consulte [este](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) artículo para conocer más información acerca de la conservación y las suspensiones en el centro de cumplimiento de seguridad de Office 365 & de ayuda. 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>Arquitectura de protección de la información para los equipos de Microsoft. 
 
@@ -93,13 +93,13 @@ En lo que se refiere a las funciones de protección de información, las suscrip
 
 | Funcionalidad de protección de información | Office 365 Business Essentials | Office 365 Business Premium | Office 365 Enterprise E1 | Office 365 Enterprise E3/E4 | Office 365 Enterprise E5 |
 |-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
-|              Archivo              |               -                |              -              |            -             |             Sí             |           Sí            |
-|        eDiscovery local        |               -                |              -              |            -             |             Sí             |           Sí            |
+|              Archivo              |               -                |              -              |            -             |             Sí              |           Compatibilidad en varios países o regiones            |
+|        eDiscovery local        |               -                |              -              |            -             |             Sí              |           Sí            |
 |        eDiscovery avanzado        |               -                |              -              |            -             |              -              |           Sí            |
-|            Suspensión legal             |               -                |              -              |            -             |             Sí             |           Sí            |
-|     Búsqueda de contenido de cumplimiento     |               -                |              -              |            -             |             Sí             |           Sí            |
-|      Auditoría y generación de informes       |              Sí               |             Sí             |           Sí            |             Sí             |           Sí            |
-|       Acceso condicional\*        |              Sí               |             Sí             |           Sí            |             Sí             |           Sí            |
+|            Suspensión legal             |               -                |              -              |            -             |             Sí              |           Compatibilidad en varios países o regiones            |
+|     Búsqueda de contenido de cumplimiento     |               -                |             Sí              |           Sí             |             Sí              |           Sí            |
+|      Auditoría y generación de informes       |              Sí               |             Sí              |           Sí             |             Sí              |           Compatibilidad en varios países o regiones            |
+|       Acceso condicional\*        |              Sí                |             Sí             |           Sí            |             Sí             |           Sí            |
 
 > [!NOTE]
 > \*El acceso condicional requiere licencias adicionales
@@ -110,9 +110,9 @@ En lo que se refiere a las funciones de protección de información, las suscrip
 |![Icono de Punto de decisión.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Puntos de decisión         |¿Su organización tiene las licencias necesarias para cumplir con los requisitos empresariales de seguridad y cumplimiento?         |
 |![Icono de Siguientes pasos.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Pasos siguientes         |Revise la licencia actual de la organización y confirme que cumple con todos los requisitos de negocio de cumplimiento y seguridad.         |
 
-Antes de habilitar cualquiera de estas características, asegúrese de que tener acceso a la seguridad y el centro de cumplimiento en el centro de administración de Office 365. De manera predeterminada, los administradores de inquilinos tienen acceso.
+Antes de habilitar cualquiera de estas características, asegúrese de que tener acceso a la & centro de cumplimiento de seguridad en el centro de administración de Office 365. De manera predeterminada, los administradores de inquilinos tienen acceso.
 
-Búsqueda de contenido y exhibición de documentos electrónicos no requieren activación en el centro de cumplimiento y seguridad.
+Búsqueda de contenido y exhibición de documentos electrónicos no requieren activación en el centro de cumplimiento de seguridad &.
 
 <a name="location-of-data-in-teams"></a>Ubicación de los datos en Teams
 -------------------------

@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 864e687634426fd8fce0d489ef81cc85bbacf5e0
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 9898bcea949c5150667ae502edfa6b1fccd64764
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048208"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056622"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Esto es lo que conseguirá con Sistema telefónico en Office 365
 
@@ -74,12 +74,14 @@ Mediante el uso del sistema de teléfono, su Skype para usuarios profesionales o
 
 Configurar el sistema telefónico de la manera que mejor se adapte a su negocio:
   
-- Puede utilizar el complemento de sistema telefónico con líneas de teléfono existentes de su compañía, o la [¿Cuáles son los planes de llamada en Office 365?](what-are-calling-plans-in-office-365.md) servicio para las llamadas entrantes y salientes.
+- Puede usar el complemento de sistema telefónico con líneas de teléfono existentes de su compañía o el servicio del [Sistema de teléfono con planes de llamada](calling-plan-landing-page.md) para las llamadas entrantes y salientes.
     
 - Puede obtener nuevos números de teléfono de Office 365 o transferir números existentes a Skype Empresarial. 
     
 Vea estos artículos para planear y configurar el sistema telefónico en su negocio:
-  
+
+- [Sistema telefónico con Planes de llamada](calling-plan-landing-page.md)
+
 - [Configurar planes de llamada](set-up-calling-plans.md): este artículo contiene instrucciones paso a paso para configurar la aplicación con sus números de teléfono o para transferir los números de teléfono existente a Skype para la empresa.
     
 - [Planear el sistema telefónico en la solución de Office 365 (PBX en la nube)](https://go.microsoft.com/fwlink/?LinkId=708645): en este artículo se dispone de todas las opciones de implementación. También tiene información acerca de cómo planificar una solución completamente basada en la nube. 
@@ -89,7 +91,8 @@ Vea estos artículos para planear y configurar el sistema telefónico en su nego
 - [Configurar el correo de voz de Sistema telefónico - Ayuda para el administrador](set-up-phone-system-voicemail.md)
     
 - [Descubra Skype Empresarial](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba): Ayude a los miembros de su empresa a aprender a usar las características de Skype Empresarial. 
-    
+
+
 ## <a name="availability"></a>Disponibilidad
 <a name="bkmk_setup"> </a>
 

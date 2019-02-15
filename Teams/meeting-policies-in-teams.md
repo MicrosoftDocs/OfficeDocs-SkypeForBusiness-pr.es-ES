@@ -1,5 +1,5 @@
 ---
-title: Directivas de reunión en los equipos
+title: Administrar las directivas de reunión
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -12,13 +12,15 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
+f1keywords:
+- ms.teamsadmincenter.meetingpolicies.overview
 description: Obtenga información sobre cómo administrar la configuración de directivas en los equipos de la reunión.
-ms.openlocfilehash: 03c983e98d5bcb349a7a2796ad59cb22c03e22bd
-ms.sourcegitcommit: a51d357069765b7d0956880da2ffd041533cfa57
+ms.openlocfilehash: 96b5008ebbdbcad2dc44234d861c4127c77ed69c
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/15/2018
-ms.locfileid: "27283544"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056614"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar las directivas de reunión en los equipos
 
@@ -37,7 +39,7 @@ Las directivas de reunión se usan para controlar las características que está
 
 <a name="bkaudioandvideo"> </a>
 
-## <a name="audio--video"></a>Audio y vídeo
+## <a name="audio--video"></a>Audio & de vídeo
    - **Permitir transcripción** Si desactiva esta, transcripción de la reunión estará disponible para los usuarios.
    - **Grabación de permitir en la nube** Activar esto le permitirá grabaciones van a guardar en la nube.
    - **Permitir IP vídeo** Activar esto le permitirá vídeos IP durante las reuniones.
@@ -55,7 +57,7 @@ Las directivas de reunión se usan para controlar las características que está
 
 <a name="bkparticipantsandguests"> </a>
 
-## <a name="participants--guests"></a>Los participantes & invitados
+## <a name="participants--guests"></a>Invitados de & de los participantes
    - **Permitir a los usuarios anónimos de salida** Si desea que los participantes de la reunión a la llamada de salida para agregar otra persona, puede activar esto. Si se lo desactive, ninguno de los participantes de la reunión pueden marcar de la reunión.
    - **Permitir a los usuarios anónimos a iniciar reuniones** Si esta opción está desactivada, sólo una persona que se ha autenticado a la reunión con una aplicación de los equipos puede iniciar la conferencia. Si está activado, cualquier usuario puede iniciar la reunión.
    - **Admitir automáticamente a los usuarios** Si desactiva esta opción, los participantes de la reunión se dejará en la sala de espera hasta que alguien inicia la reunión. Si está activado, se permitirá participantes de la reunión para unirse automáticamente a la reunión.

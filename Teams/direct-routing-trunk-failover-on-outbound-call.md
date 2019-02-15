@@ -1,5 +1,5 @@
 ---
-title: Conmutación por error de tronco en las llamadas salientes
+title: Conmutación por error de tronco en llamadas salientes
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,14 +16,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo controlar las conmutaciones por error de tronco en las llamadas salientes desde los equipos para el controlador de borde de sesión (SBC).
-ms.openlocfilehash: 620230ca3be07bb54386f54a983539716d07b2e9
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: bab62130c060b4bfadd633c86dd75caf98b07a46
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297812"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056598"
 ---
-# <a name="trunk-failover-on-outbound-calls"></a>Conmutación por error de tronco en las llamadas salientes
+# <a name="trunk-failover-on-outbound-calls"></a>Conmutación por error de tronco en llamadas salientes
 
 En este tema se describe cómo evitar tronco conmutaciones por error en las llamadas salientes--desde los equipos para el controlador de borde de sesión (SBC).
 
@@ -34,7 +34,7 @@ Por ejemplo, una conexión puede producirse un error si un administrador limita 
 
 ## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a>Conmutación por error de códigos específicos de SIP recibidos desde el controlador de borde de sesión (SBC)
 
-Si el enrutamiento directo recibe los códigos de error 4xx o 6xx SIP en respuesta a una invitación saliente, la llamada se considera completada de forma predeterminada. Saliente significa una llamada desde un cliente de los equipos a la pública teléfono red conmutada (RTC) con el siguiente flujo de tráfico: los equipos cliente -> enrutamiento directo -> SBC -> red de telefonía.
+Si el enrutamiento directo recibe los códigos de error 4xx o 6xx SIP en respuesta a una invitación saliente, la llamada se considera completada de forma predeterminada. Saliente significa una llamada desde un cliente de los equipos a la pública teléfono red conmutada (RTC) con el siguiente flujo de tráfico: los equipos cliente-> enrutamiento directo-> SBC-red de telefonía de >.
 
 La lista de códigos de SIP puede encontrarse en el [Protocolo de inicio de sesión (SIP) RFC](https://tools.ietf.org/html/rfc3261).
 
@@ -48,11 +48,11 @@ De forma predeterminada, la llamada se completará en este momento.
 ![Muestra SBC no puede alcanzar RTC debido a problemas de red](media/direct-routing-failover-response-codes1.png)
 
 Pero hay una SBC más en la ruta que potencialmente puede ofrecer la llamada.
-Si configura el parámetro Set-CSOnlinePSTNGateway-Identity sbc1.contoso.com - ReinviteResponceCode "408", será el segundo SBC probado--SBC2.contoso.com en el siguiente diagrama:
+Si configura el parámetro `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"`, se intentará la segunda SBC--SBC2.contoso.com en el siguiente diagrama:
 
 ![Muestra el enrutamiento al segundo SBC](media/direct-routing-failover-response-codes2.png)
 
-Si se establece el parámetro - FailoverResponceCodes y especificando los códigos de le ayuda a no pasa nada, ajuste el enrutamiento y evitar posibles problemas cuando un SBC no puede realizar una llamada debido a la red u otros problemas.
+Si se establece el parámetro - FailoverResponseCodes y especificando los códigos de le ayuda a no pasa nada, ajuste el enrutamiento y evitar posibles problemas cuando un SBC no puede realizar una llamada debido a la red u otros problemas.
 
 Valores predeterminados: 408, 503, 504
 
