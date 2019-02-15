@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en Italia
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Teams disponibles para Italia.
-ms.openlocfilehash: 1c264388e11d7cd541ec135c4660507055a97416
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 06742f92162ab499219546b6ab1f9ed5466c8a8e
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016040"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046403"
 ---
 # <a name="availability-in-italy"></a>Disponibilidad en Italia
 

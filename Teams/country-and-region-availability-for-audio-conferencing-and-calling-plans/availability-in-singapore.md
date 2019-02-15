@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad de Singapur
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Singapur los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 1131eccc2a288a29de780306cbf80c80985edda6
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 96e2118522253d121a55db2a1848710798eb7983
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012868"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048150"
 ---
 # <a name="availability-in-singapore"></a>Disponibilidad de Singapur
 

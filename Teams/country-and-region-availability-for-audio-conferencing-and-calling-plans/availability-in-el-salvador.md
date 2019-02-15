@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en El Salvador
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para El Salvador los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: cf4e2e2be874df4a0356e049fb2517c001314d10
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 014a665eaab8c5aac0497b5fe1af70f63df4b449
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015592"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047445"
 ---
 # <a name="availability-in-el-salvador"></a>Disponibilidad en El Salvador
 

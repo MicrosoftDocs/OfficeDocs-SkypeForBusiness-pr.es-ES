@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en España
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Teams disponibles para España.
-ms.openlocfilehash: a9410ddd7a64273ca56e30753c3f4ba2df2c05b3
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 9ce7603c8145c41401b145e48c0547e0164a1777
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674741"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048829"
 ---
 # <a name="availability-in-spain"></a>Disponibilidad en España
 

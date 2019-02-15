@@ -1,7 +1,7 @@
 ---
 title: ¿Qué son los operadores automáticos de Sistema telefónico?
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: makolomi
 ms.date: 9/1/2018
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre qué son automáticos de sistema telefónico (nube PBX) y cómo usarlas. '
-ms.openlocfilehash: 9a1b99de7d4a1ef10518c632436bf4c3e67732c9
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: bd59a88c0e8a1bd23c0caf23a3a3099e6ad98063
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347564"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048328"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>¿Qué son los operadores automáticos de Sistema telefónico?
 

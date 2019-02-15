@@ -1,7 +1,7 @@
 ---
 title: Administración de números de teléfono para Reino Unido
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo se obtienen y se administran los números de teléfono en Reino Unido para Skype Empresarial Online y Microsoft Teams.
-ms.openlocfilehash: 7e6aec80123c28593bcadbe0fc587ba013d1f3d7
-ms.sourcegitcommit: e2ba383205baa447990d4b2f9c145e299406b9ab
+ms.openlocfilehash: ed1d64a498b66f4aa497bf4cd13a8488b084ecc2
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29651076"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048470"
 ---
 # <a name="phone-number-management-for-the-uk"></a>Administración de números de teléfono para Reino Unido
 

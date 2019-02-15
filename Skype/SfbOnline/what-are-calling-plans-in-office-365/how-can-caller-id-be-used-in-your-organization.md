@@ -1,7 +1,7 @@
 ---
 title: Cómo se puede usar la identificación de llamadas en su organización
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz
 ms.topic: article
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Identificador de autor de la llamada se puede controlar mediante el uso de una directiva denominada CallingLineIdentity para las llamadas entrantes y salientes para los usuarios del sistema telefónico.
-ms.openlocfilehash: 4ae5c54d68410096104f61bf8cdbd71fa0628003
-ms.sourcegitcommit: 99bc2db8cb857b6fd2ddf9b837198be849dafb9b
+ms.openlocfilehash: df6c7c053b5dce4ffb1d121a1adbf829efda9943
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "29981918"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047901"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Cómo se puede usar la identificación de llamadas en su organización
 

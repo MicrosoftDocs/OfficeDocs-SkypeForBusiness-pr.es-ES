@@ -1,7 +1,7 @@
 ---
 title: Configurar el correo de voz de Sistema telefónico
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: wasseemh, phans
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up the phone system (Cloud PBX) voicemail for your Skype for Business users. '
-ms.openlocfilehash: fa0783cf51b7d3b7bf29b4948994060a3d1f63a1
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: b0111c1d83772aee2b1b4075fdfe5125b4685c88
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182515"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047827"
 ---
 # <a name="set-up-phone-system-voicemail"></a>Configurar el correo de voz de Sistema telefónico
 

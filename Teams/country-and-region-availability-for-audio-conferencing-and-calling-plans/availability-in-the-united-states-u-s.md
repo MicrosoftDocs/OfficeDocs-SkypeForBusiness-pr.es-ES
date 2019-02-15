@@ -1,7 +1,7 @@
 ---
-title: Disponibilidad en los Estados Unidos (Estados Unidos)
-ms.author: tonysmit
-author: tonysmit
+title: Disponibilidad en Estados Unidos (EE. UU.)
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,14 +26,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Teams disponibles para los Estados Unidos.
-ms.openlocfilehash: 8441420c953222538b10488d99f11c7f0f742e0d
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 5ef3e2435f4219f42f6e8cc9b02b057bcee96634
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674805"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048781"
 ---
-# <a name="availability-in-the-united-states-us"></a>Disponibilidad en los Estados Unidos (Estados Unidos)
+# <a name="availability-in-the-united-states-us"></a>Disponibilidad en Estados Unidos (EE. UU.)
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 

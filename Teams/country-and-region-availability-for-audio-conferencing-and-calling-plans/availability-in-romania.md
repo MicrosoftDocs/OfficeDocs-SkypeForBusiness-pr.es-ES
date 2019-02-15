@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad de Rumania
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Rumania los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 7b77f0a0d324588c44310238fe7d6e4ed5f47eb7
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: ac70baa59208820d38d97721d80f2843f85f4107
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017290"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046685"
 ---
 # <a name="availability-in-romania"></a>Disponibilidad de Rumania
 

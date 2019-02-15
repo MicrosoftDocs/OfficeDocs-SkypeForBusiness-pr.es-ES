@@ -1,7 +1,7 @@
 ---
 title: Configuración del sistema telefónico en su organización
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: makolomi
 ms.topic: article
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar el sistema telefónico (PBX en la nube) para su organización. '
-ms.openlocfilehash: aae5a8e5fc8a0cd2cb20a2e3964c14a89039ce1e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 0ae2d890e87ecef217bfdafd2c547de7ae35414d
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374453"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047565"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Configuración del sistema telefónico en su organización
 
@@ -63,7 +63,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
 
-2. Inicie sesión en Office 365 con su cuenta profesional o educativa.**** > ****
+2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
     
 3. En el panel de navegación izquierdo, vaya a **voz** > **los números de teléfono**, haga clic en **Agregar nuevo número** ![botón Agregar](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)y, a continuación, haga clic en **nuevo usuario los números**.
     
@@ -90,7 +90,7 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
 
-2. Inicie sesión en Office 365 con su cuenta profesional o educativa.**** > ****
+2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
 
 3. En el panel de navegación izquierdo, vaya a **voz** > **los números de teléfono** > **Agregar nuevo número**y, a continuación, haga clic en **los números de servicio nueva**.
 
@@ -270,7 +270,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 2. En la izquierda el centro de administración de Office 365, vaya a **los usuarios** > **usuarios activos**y, a continuación, seleccione un usuario o usuarios de la lista.
 
-3. En el panel de acciones, en **Licencia asignada**, haga clic en **Editar**.
+3. En el panel de acciones, en **Licencias de productos**, haga clic en **Editar**.
 
 4. En la página **licencias de producto** , alternar **Communications créditos** **en** para asignar esta licencia y, a continuación, haga clic en **Guardar**.
 

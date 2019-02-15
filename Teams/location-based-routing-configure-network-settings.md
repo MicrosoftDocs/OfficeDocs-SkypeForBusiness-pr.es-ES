@@ -1,5 +1,5 @@
 ---
-title: Establecer la configuración de red para el enrutamiento basado en la ubicación
+title: Configuración de red de enrutamiento basado en la ubicación
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b99e21d172e35eb8e2ceb2aaabacee78cf45ef9
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 3b818b10a333fbb7cf50cf4e49d521aa224e2d17
+ms.sourcegitcommit: b53d99d06178c26297d1349ff82d05f706dfb479
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771019"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30050767"
 ---
-# <a name="configure-network-settings-for-location-based-routing"></a>Establecer la configuración de red para el enrutamiento basado en la ubicación
+# <a name="configure-network-settings-for-location-based-routing"></a>Configuración de red de enrutamiento basado en la ubicación
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
@@ -42,10 +42,10 @@ New-CsTenantNetworkRegion -NetworkRegionID "India"
 
 ## <a name="define-network-sites"></a>Definir sitios de red
 
-Usar el ``New-CsTenantNetworkSitePowerShell`` cmdlet de PowerShell para definir sitios de red. 
+Usar el ``New-CsTenantNetworkSite`` cmdlet de PowerShell para definir sitios de red. 
 
 ```
-New-CsTenantNetworkSite -NetworkRegionID <region ID>  
+New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
 En este ejemplo, creamos dos nuevos sitios de red, Delhi y Hyderabad, en la región de India. 
 ```
@@ -93,16 +93,16 @@ Identity, Mask, SiteID
 ## <a name="define-external-subnets"></a>Definir subredes externas
 Usar el ``New-CsTenantTrustedIPAddress`` cmdlet para definir subredes externas y asignarlas a los inquilinos. Puede definir un número ilimitado de subredes de un inquilino. 
 ```
-New-CsTenantTrustedIPAddress -IPAddress <Subnet IP address> -MaskBits <Subnet bitmask> -Description <description> 
+New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```
 Por ejemplo:
 ```
-New-CsTenantTrustedIPAddress -IPAddress 192.168.0.1 -MaskBits 30 -Description "Contoso address"  
+New-CsTenantTrustedIPAddress -IPAddress 167.220.2.206 -MaskBits 30 -Description "Contoso address"  
 ```
 
 ## <a name="next-steps"></a>Pasos siguientes
 Vaya a [Habilitar el enrutamiento basado en ubicación para el enrutamiento directo](location-based-routing-enable.md).
 
 ### <a name="related-topics"></a>Temas relacionados
-- [Planeación de enrutamiento basado en ubicación para el enrutamiento directo](location-based-routing-plan.md)
-- [Terminología de enrutamiento basados en ubicación](location-based-routing-terminology.md)
+- [Planear enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-plan.md)
+- [Terminología de enrutamiento basado en la ubicación](location-based-routing-terminology.md)

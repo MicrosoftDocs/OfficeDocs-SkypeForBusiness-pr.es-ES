@@ -1,7 +1,7 @@
 ---
 title: Los usuarios pueden hacer llamadas salientes a estos países y regiones
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark
 ms.topic: article
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Este tema contiene todos los países o regiones que los usuarios pueden realizar llamadas salientes a si tienen un Plan de llamada.
-ms.openlocfilehash: 6843d06d99e049cdd7576c4c5618c1f5d0297133
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: 55158366711e51472884aab74db6f5f70a9241c3
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594329"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047533"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Los usuarios pueden hacer llamadas salientes a estos países y regiones
 

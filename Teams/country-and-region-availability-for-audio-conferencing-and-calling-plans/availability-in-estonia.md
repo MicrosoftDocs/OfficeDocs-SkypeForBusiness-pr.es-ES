@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en Estonia
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Estonia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 537f61c0eddcef9c5db8b19dc625ce35f9e997d6
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b650a237f6284655d9012da94a0271672fbf603e
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015752"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048502"
 ---
 # <a name="availability-in-estonia"></a>Disponibilidad en Estonia
 

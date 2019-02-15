@@ -1,7 +1,7 @@
 ---
 title: Asignar o cambiar la ubicación de emergencia para un usuario
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to change the emergency location for your users. With an unlimited number of locations, you can change emergency locations as employees move floors or buildings. '
-ms.openlocfilehash: fc128a8de266bbf5ed6804ea07cc73bb2287a6e5
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: c55f8f51ee7d94ad3b9e0c91c0bb67c319a28c46
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754846"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046500"
 ---
 # <a name="assign-or-change-the-emergency-location-for-a-user"></a>Asignar o cambiar la ubicación de emergencia para un usuario
 

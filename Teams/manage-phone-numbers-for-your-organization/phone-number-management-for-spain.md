@@ -1,7 +1,7 @@
 ---
 title: Administración de números de teléfono para España
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo se obtienen y se administran los números de teléfono en España para Skype Empresarial Online y Microsoft Teams.
-ms.openlocfilehash: c6a696df87f150fe297d7ec48c9345c0659ceb4b
-ms.sourcegitcommit: e2ba383205baa447990d4b2f9c145e299406b9ab
+ms.openlocfilehash: 7f901fb360944bf96af8585e276bc06da84744c1
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29651052"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048861"
 ---
 # <a name="phone-number-management-for-spain"></a>Administración de números de teléfono para España
 

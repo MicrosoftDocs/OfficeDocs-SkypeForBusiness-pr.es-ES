@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad de Tailandia
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Tailandia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 10737fd39b0b9ab2a3963f755f27ccd0892247f0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: f7c302e9b936ecf9e38729ea6f8b9ed1f14c6f81
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012668"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048296"
 ---
 # <a name="availability-in-thailand"></a>Disponibilidad de Tailandia
 

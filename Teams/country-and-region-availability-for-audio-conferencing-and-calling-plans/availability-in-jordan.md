@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad de Jordania
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Jordania los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 2e37a388193049bb8909691b70978f0271a2f208
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d2ae9828e9edb4787059f3cb714a40078d2cc9b1
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012420"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048046"
 ---
 # <a name="availability-in-jordan"></a>Disponibilidad de Jordania
 

@@ -1,7 +1,7 @@
 ---
 title: Planes de llamada para Office 365
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: article
@@ -28,12 +28,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: e1e5c362ba1074b48949fffe6b2c70579f377dda
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 75a3e031109216899b218c2572ae5906b4be796c
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375071"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047990"
 ---
 # <a name="calling-plans-for-office-365"></a>Planes de llamada para Office 365
 
@@ -82,7 +82,7 @@ A continuación, asignar las licencias de complemento E5 de la empresa o **Siste
     
 - [Precios de Audioconferencia](https://go.microsoft.com/fwlink/?linkid=799762)
     
-## <a name="for-more-information"></a>Más información
+## <a name="for-more-information"></a>Para más información
 
 A continuación presentamos más artículos que explican cómo configurar los planes de llamada:
   

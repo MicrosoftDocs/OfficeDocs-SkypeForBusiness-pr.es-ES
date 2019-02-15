@@ -1,7 +1,7 @@
 ---
 title: Agregar fondos y administrar Créditos de comunicaciones
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: article
@@ -32,12 +32,12 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Obtenga información sobre cómo pagar créditos de comunicación (consumo de RTC) para Skype para servicios de negocios y vea los planes para mantener a los usuarios con acceso al sistema de teléfono continua. '
-ms.openlocfilehash: ac35a202e6ab8fd9e5b1aeb0ea381344ca92bf7d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 1ae700c315188fe68d856a0a39b5dd35a4997a0c
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016512"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047227"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Agregar fondos y administrar Créditos de comunicaciones
 

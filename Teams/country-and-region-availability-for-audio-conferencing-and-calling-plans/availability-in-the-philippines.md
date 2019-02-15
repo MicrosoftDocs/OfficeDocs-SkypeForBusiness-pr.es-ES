@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en Filipinas
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Filipinas los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: c312afb06c60f6b6f05f25844488d293c845bc8b
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 91c2a49eca7f1366cd861d5024a51214adda455d
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012932"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047892"
 ---
 # <a name="availability-in-the-philippines"></a>Disponibilidad en Filipinas
 

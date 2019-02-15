@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en Venezuela
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Venezuela los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 726e1aef76a9fc02e81c33cde30b6a087a079647
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 605190796cf2ab719dc25bd615aa3cffc17ba6a0
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015184"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046793"
 ---
 # <a name="availability-in-venezuela"></a>Disponibilidad en Venezuela
 

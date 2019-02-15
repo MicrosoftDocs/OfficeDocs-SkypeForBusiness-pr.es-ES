@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad de Nueva Zelanda
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Nueva Zelanda los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 11d0a00350f1b9440f04a901396d1c97c7859dce
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4c24c7996c190294d12c3d98364d48097fac8906
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016616"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048248"
 ---
 # <a name="availability-in-new-zealand"></a>Disponibilidad de Nueva Zelanda
 

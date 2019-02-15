@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad de Panamá
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Panamá los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 714f28348d6bc1b2934edc99ccedab55f64c0220
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: acc077d9af4f109e33b9086cb7e3b112af55b05f
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017924"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048280"
 ---
 # <a name="availability-in-panama"></a>Disponibilidad de Panamá
 

@@ -1,7 +1,7 @@
 ---
 title: ¿Cuántos números de teléfono puede conseguir?
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Al obtener números de teléfono para su organización, puede obtener más números de teléfono que los que le corresponden por las licencias que tiene asignadas. Sin embargo, esto depende de los tipos de números de teléfono y del tipo de licencias que ha adquirido y asignado. Puede hacer clic en distintos tipos de números de teléfono utilizados para llamar a los planes para obtener información acerca de los números de teléfono diferentes que se usan en Skype para profesionales en línea.
-ms.openlocfilehash: b5c095f6030f1a5874e04df3b3be7ce9dac62dd4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4eeef8ea633b1ba26169681b2e994b6d3176fd67
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014358"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048765"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>¿Cuántos números de teléfono puede conseguir?
 
@@ -61,7 +61,7 @@ Puede ver el número de los números de teléfono que puede obtener en la págin
 
 [Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

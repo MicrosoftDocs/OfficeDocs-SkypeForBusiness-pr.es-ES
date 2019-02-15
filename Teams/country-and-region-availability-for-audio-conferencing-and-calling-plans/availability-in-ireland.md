@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en Irlanda
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para (Irlanda) los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 5068160a625a87daac5b7a269e2994681dc3c494
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: eaadbe2d960184d0de1733cf5c8bc410da98ccaf
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674765"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047301"
 ---
 # <a name="availability-in-ireland"></a>Disponibilidad en Irlanda
 

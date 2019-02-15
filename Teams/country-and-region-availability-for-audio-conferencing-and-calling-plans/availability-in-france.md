@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en Francia
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Francia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 4845b612b3a1316f8d7ac3da527ae118c6d6681c
-ms.sourcegitcommit: b67c2cb5ffd6d27cc9257c5e81ee1ea494ef8bd1
+ms.openlocfilehash: 1714edad45c3be07b99b742a47743ad4fbf091cf
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "27382665"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047613"
 ---
 # <a name="availability-in-france"></a>Disponibilidad en Francia
 

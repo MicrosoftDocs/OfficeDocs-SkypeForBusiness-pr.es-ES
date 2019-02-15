@@ -1,7 +1,7 @@
 ---
 title: Crear una cola de llamadas de Sistema telefónico
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 84134809d11b8175dca6369afdf552543ffc07d0
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 53d3eee97ba5fc396b47396b969fef6f2e899df1
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753975"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046742"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Crear una cola de llamadas de Sistema telefónico
 

@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en Luxemburgo
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Luxemburgo los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 01311756d8501633f27608529d35909a7cc262df
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9eefc9645ab2f03ce8156193799e7e99adfc1c27
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013124"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047145"
 ---
 # <a name="availability-in-luxembourg"></a>Disponibilidad en Luxemburgo
 

@@ -1,7 +1,7 @@
 ---
 title: ¿Qué son los Créditos de comunicaciones?
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: a987b6079b10a3deaf6a76dd2629be59b52a2007
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: c51d058cfc6fc378047d439259042b0316c56d84
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626242"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048661"
 ---
 # <a name="what-are-communications-credits"></a>¿Qué son los Créditos de comunicaciones?
 
@@ -89,7 +89,7 @@ Si está listo para establecer esto Subir todo, vea [Configurar Communications c
 
 Puede ver los planes y precios, visite uno de los siguientes vínculos:
   
-- [Planes de llamada](https://go.microsoft.com/fwlink/?linkid=799761)
+- [Planes de llamadas](https://go.microsoft.com/fwlink/?linkid=799761)
     
 - [Audioconferencia](https://go.microsoft.com/fwlink/?linkid=799762)
     

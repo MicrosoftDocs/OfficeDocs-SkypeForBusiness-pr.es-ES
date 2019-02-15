@@ -1,7 +1,7 @@
 ---
 title: Configurar Créditos de comunicaciones para su organización
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: d97c95ed3fd4d398a4422645ab1e1491e1df6e3c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 0570c454cdc3fc98fa6dfa4a8fe571714263421e
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375240"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048288"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de comunicaciones para su organización
 
@@ -94,7 +94,7 @@ Cuando está configurando créditos Communications, debe investigar el uso de la
     
 2. En la izquierda el centro de administración de Office 365, vaya a **los usuarios** > **usuarios activos**y, a continuación, seleccione un usuario o usuarios de la lista.
     
-3. En el panel de acciones, en **Licencia asignada**, haga clic en **Editar**.
+3. En el panel de acciones, en **Licencias de productos**, haga clic en **Editar**.
     
 4. En la página **licencias de producto** , alternar **Communications créditos** **en** para asignar esta licencia y, a continuación, haga clic en **Guardar**.
     

@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad de Pakistán
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Pakistán los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: c9a7da1486828d6ccb2805e23c33ba077e8fbed5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 6195b45983a7e444627b17bc37566b8220cf4939
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015384"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047057"
 ---
 # <a name="availability-in-pakistan"></a>Disponibilidad de Pakistán
 

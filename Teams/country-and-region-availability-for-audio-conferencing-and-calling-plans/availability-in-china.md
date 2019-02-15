@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en China
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Teams disponibles para China.
-ms.openlocfilehash: 4388b5b52ce4d4250b97f3126144332585efe818
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 8f288d921922622f4059cfb9f1c928774c3377d0
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017346"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046969"
 ---
 # <a name="availability-in-china"></a>Disponibilidad en China
 

@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad de Honduras
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Honduras los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 6cb910272042ee66e65f82c9e5aa1daaef3f7dc5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: cacdb2b723637af2c8342f35955090107f52d639
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016688"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048573"
 ---
 # <a name="availability-in-honduras"></a>Disponibilidad de Honduras
 

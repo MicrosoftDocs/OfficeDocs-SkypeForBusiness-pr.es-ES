@@ -1,7 +1,7 @@
 ---
-title: Disponibilidad de Bielorrusia
-ms.author: tonysmit
-author: tonysmit
+title: Disponibilidad en Belarús
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,14 +26,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Bielorrusia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 9df2ad1f118e5f0fe1ed1e88579fe8c14d34cf95
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: f2daefe760235dc7f80ea351933102c70d5c9fb5
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789256"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048320"
 ---
-# <a name="availability-in-belarus"></a>Disponibilidad de Bielorrusia
+# <a name="availability-in-belarus"></a>Disponibilidad en Belarús
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 

@@ -1,7 +1,7 @@
 ---
 title: Administración de números de teléfono para los Países Bajos
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo se obtienen y se administran los números de teléfono en los Países Bajos para Skype Empresarial Online y Microsoft Teams.
-ms.openlocfilehash: 9bf4c759a5ed1cd9da1e903c3fb3ae428f6788ab
-ms.sourcegitcommit: e2ba383205baa447990d4b2f9c145e299406b9ab
+ms.openlocfilehash: 2fbcdf54044ee8c463f0cba26716cce3cd37e46a
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29651124"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048717"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>Administración de números de teléfono para los Países Bajos
 

@@ -1,7 +1,7 @@
 ---
 title: Restricciones de marcado gratuito en Francia
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Esto le ayudará a encontrar información acerca de cómo marcar los números de pago libre en cada país o región. Después de seleccionar el país o región, le llevará a una página específica de país que contiene detalles específicos, las restricciones y límites para la disponibilidad del servicio gratuito donde está disponible un servicio gratuito. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número de teléfono gratuito.
-ms.openlocfilehash: 13a5856e1b9efcf5aec6d4ec7d44c645add0b7a7
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 95ef627f59f07d66346bd8efcf3632a499f0edb8
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012924"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048773"
 ---
 # <a name="toll-free-dialing-restrictions-in-france"></a>Restricciones de marcado gratuito en Francia
 
@@ -42,7 +42,7 @@ ms.locfileid: "25012924"
 |Formatos de marcado  <br/> |0 800 9XX XXX  <br/> |
 |Código ISO de país o región  <br/> |FR  <br/> |
 |Isla/territorio que abarque  <br/> | Francia continental y Córcega <br/> |
-|Isla o territorio que no están cubierta  <br/> |Sin acceso en Mónaco, Reunión, Martinica, Guadalupe, Guyana, San Pedro y Miquelón, Mayotte, Nueva Caledonia, Polinesia Francesa, Wallis y Futuna.  <br/> |
+|Isla o territorio que no están cubierta  <br/> |No access from Monaco, Reunion, Martinique, Guadeloupe, Guyane, St. Pierre-&amp;-Miquelon, Mayotte, New Caledonia, French Polynesia, Wallis &amp; Futuna.  <br/> |
 |Disponibilidad de la línea con cable o fijo  <br/> |Sí  <br/> |
 |Disponibilidad de red móvil  <br/> |Sí  <br/> |
 |Comentarios, las restricciones y problemas de acceso  <br/> |Acceso móvil: Se cobra el tiempo de llamada.  <br/> |

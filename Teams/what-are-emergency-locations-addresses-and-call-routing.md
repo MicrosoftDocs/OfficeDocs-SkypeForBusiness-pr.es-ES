@@ -1,7 +1,7 @@
 ---
 title: ¿Cuáles son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -25,12 +25,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn what emergency address, location, and emergency call routing are, and how to plan and assign them to your users. '
-ms.openlocfilehash: 7ce9d9ceecdfdb19d80e8d2b2fa3b45e4f330398
-ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
+ms.openlocfilehash: 70cb54b3f8315bef7dc0d317234326fb056034c1
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26676547"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048438"
 ---
 # <a name="what-are-emergency-locations-addresses-and-call-routing"></a>¿Cuáles son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?
 

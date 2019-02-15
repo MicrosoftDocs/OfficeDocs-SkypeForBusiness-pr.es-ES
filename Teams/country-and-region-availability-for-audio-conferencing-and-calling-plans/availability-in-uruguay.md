@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en Uruguay
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Uruguay los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 542a6392dc9798090fb1e1e7f49ddd67bfe95f21
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 561d11daa032474ff8bd6d48fb2f47cfa67511f0
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015896"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048384"
 ---
 # <a name="availability-in-uruguay"></a>Disponibilidad en Uruguay
 

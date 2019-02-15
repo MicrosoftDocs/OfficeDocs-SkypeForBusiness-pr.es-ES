@@ -1,7 +1,7 @@
 ---
 title: Esto es lo que conseguirá con Sistema telefónico en Office 365
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 msreviewer: jastarck, makolomi
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: ac97c6d194673087ad90be88e649b7cb067ba89f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 864e687634426fd8fce0d489ef81cc85bbacf5e0
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017482"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048208"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Esto es lo que conseguirá con Sistema telefónico en Office 365
 
@@ -96,7 +96,7 @@ Vea estos artículos para planear y configurar el sistema telefónico en su nego
 ||||
 |:-----|:-----|:-----|
 |**Clientes avanzados** <br/> |**Clientes móviles** <br/> |**Teléfonos IP** <br/> |
-| Funciona con todos los clientes MAC y PC compatibles en Office 365. <br/> [Instalar Skype Empresarial](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) <br/> [Configurar Skype Empresarial para Mac 2011 para Office 365](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) <br/> | Tenemos clientes de Skype Empresarial para: <br/> [iOS](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=ios) <br/> [Android](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=android) <br/> [Windows Phone](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=windows_phone) <br/> |Elija entre una gran número de teléfonos de escritorio compatibles con Skype Empresarial. Consulte [Obtener teléfonos con Skype Empresarial Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online).<br/> |
+| Funciona con todos los clientes MAC y PC compatibles en Office 365. <br/> [Instalar Skype Empresarial](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) <br/> [Configurar Skype Empresarial para Mac 2011 para Office 365](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) <br/> | Tenemos clientes de Skype Empresarial para: <br/> [iOS](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=ios) <br/> [Android](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=android) <br/> [Windows Phone](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=windows_phone) <br/> |Elija entre una gran número de teléfonos de escritorio compatibles con Skype Empresarial. Consulte [Obtener teléfonos con Skype Empresarial Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online). <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)

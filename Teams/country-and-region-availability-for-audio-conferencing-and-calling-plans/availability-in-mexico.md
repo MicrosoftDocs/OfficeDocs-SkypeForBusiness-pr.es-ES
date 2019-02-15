@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en México
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para México los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 2dc2487b1990ab6a06b594f9105c0139b696a66e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: c5f9d1381fc2e27e68d34db191ecfe2d827467e3
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015064"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046451"
 ---
 # <a name="availability-in-mexico"></a>Disponibilidad en México
 

@@ -1,7 +1,7 @@
 ---
-title: Disponibilidad en los países bajos
-ms.author: tonysmit
-author: tonysmit
+title: Disponibilidad en Países Bajos
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,14 +26,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para los países bajos los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 2937526a0867002d745eb67187b0396e9f0167ac
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: bd597692cc63119b5b8d3f09fcc9f929c1864b11
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674725"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048078"
 ---
-# <a name="availability-in-the-netherlands"></a>Disponibilidad en los países bajos
+# <a name="availability-in-the-netherlands"></a>Disponibilidad en Países Bajos
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 

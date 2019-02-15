@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad de Serbia
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Serbia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: a5e62d8653100870bdc431a931e587cbf7abac74
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: f427e0aea74dc5c0fd0b5693171289d0803d5694
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015992"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046953"
 ---
 # <a name="availability-in-serbia"></a>Disponibilidad de Serbia
 

@@ -1,7 +1,7 @@
 ---
 title: Crear y administrar planes de marcado
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to create calling dial plans (PSTN Calling dial plans) in Office 365 and how to manage them. '
-ms.openlocfilehash: 49ce76cc723b120fce4fd259304e6bb066b10f6e
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: b65e8bf7dc55e88f3c71414f3ac2f81abfa3be07
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326830"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048534"
 ---
 # <a name="create-and-manage-dial-plans"></a>Crear y administrar planes de marcado
 
