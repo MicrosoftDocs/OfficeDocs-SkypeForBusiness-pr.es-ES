@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Resumen: Revise este tema cuando planee integrar Skype para Business Server con Exchange 2013 o 2016.'
-ms.openlocfilehash: f560df43ab6347890cc5a3b956d43ed37a55bdf3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: ee6e6bc81c4bd0b2291b7f4be7ceb13894d2aec2
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263903"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059190"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planear la integración de la mensajería unificada de Exchange en Skype Empresarial
 
@@ -27,7 +27,7 @@ Skype para Business Server admite la integración con Exchange mensajería unifi
 En Microsoft Exchange Server 2013 y 2016, mensajería unificada de Exchange se ejecuta como un servicio en un servidor de buzones de Exchange. Skype para las implementaciones empresariales Server Enterprise Voice, mensajería unificada combina mensajería de voz y correo electrónico de mensajería en un único almacén que pueden tener acceso los usuarios de un equipo o un teléfono (Outlook Voice Access). Mensajería unificada y Skype para Business Server funcionan conjuntamente para proporcionar el contestador automático, Outlook Voice Access y servicios de operador automático para los usuarios de Enterprise Voice.
 
 > [!NOTE]
-> Mensajería unificada de Exchange sigue estando disponible en Skype para Business Server 2019 al integrar Skype para la empresa 2019 con Exchange 2013 o 2016 de Exchange. Debido a los cambios en la compatibilidad en Exchange 2019, integración de mensajería unificada de Exchange se está desaprovisionamiento emphasised en favor de las características de correo de voz en la nube y operador automático de la nube.  Para obtener más información, vea [servicio de planeación de correo de voz en la nube](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) y [planeación de Skype para Business Server y la migración de Exchange Server](../../../SfBServer2019/hybrid/plan-um-migration.md) .
+> Mensajería unificada de Exchange sigue estando disponible en Skype para Business Server 2019 al integrar Skype para la empresa 2019 con Exchange 2013 o 2016 de Exchange. Debido a los cambios en la compatibilidad en Exchange 2019, integración de mensajería unificada de Exchange se está desaprovisionamiento emphasised en favor de las características de correo de voz en la nube y operador automático de la nube.  Para obtener más información, vea [servicio de planeación de correo de voz en la nube](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) y [planeación de Skype para Business Server y la migración de Exchange Server](../../../sfbhybrid/hybrid/plan-um-migration.md) .
 
 
 Para que estas características sean compatibles con una implementación local de mensajería unificada de Exchange, debe ejecutar uno de estos procedimientos:
@@ -38,7 +38,7 @@ Para que estas características sean compatibles con una implementación local d
 - Microsoft Exchange Server 2019 (Skype para Business Server 2019 sólo)
 
 > [!NOTE]
-> Mensajería unificada de Exchange como conocidos anteriormente ya no está disponible en Skype para Business Server 2019, que usa el sistema telefónico para registrar los mensajes de correo de voz y, a continuación, deje la grabación en el buzón de Exchange del usuario. Para obtener más información, vea [servicio de planeación de correo de voz en la nube](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) .
+> Mensajería unificada de Exchange como conocidos anteriormente ya no está disponible en Skype para Business Server 2019, que usa el sistema telefónico para registrar los mensajes de correo de voz y, a continuación, deje la grabación en el buzón de Exchange del usuario. Para obtener más información, vea [servicio de planeación de correo de voz en la nube](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) .
 
 ## <a name="features-of-integrated-unified-messaging-and-skype-for-business-server"></a>Características de mensajería unificada integrada y Skype para Business Server
 
@@ -52,7 +52,7 @@ Skype para Business Server, Enterprise Voice usa la infraestructura de mensajer�
 
 - **Operador automático** Operador automático es una característica de mensajería unificada de Exchange que se puede usar para configurar un número de teléfono que los usuarios externos puede marcar para llegar a los representantes de la empresa. En concreto, proporciona una serie de mensajes de voz que ayudan a un autor de la llamada externa a navegar por un sistema de menús. Se configura la lista de opciones disponibles en el servidor de mensajería unificada de Exchange por el Administrador de la mensajería unificada de Exchange.
 
-- **Servicios de fax** Mensajería unificada de Exchange incluye características de fax, que permiten a los usuarios recibir faxes entrantes en sus buzones de Exchange. Para obtener información detallada, vea [Mensajería unificada](https://go.microsoft.com/fwlink/p/?linkId=135652) en la documentación de Microsoft Exchange Server.
+- **Servicios de fax** Mensajería unificada de Exchange incluye características de fax, que permiten a los usuarios recibir faxes entrantes en sus buzones de Exchange. Para más información, vea [Mensajería unificada](https://go.microsoft.com/fwlink/p/?linkId=135652) en la documentación de Microsoft Exchange Server.
 
     > [!NOTE]
     > Los servicios de fax proporcionados por el servidor de mensajería unificada de Exchange no están disponibles en Skype para las implementaciones de Business Server que se integran con Microsoft Exchange Server 2010, Exchange 2010 con el último service pack, Exchange 2013 o 2016 de Exchange.
@@ -134,11 +134,11 @@ Para obtener información detallada acerca de cómo habilitar o deshabilitar la 
 
 - [Habilitar mensajería unificada en Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204418)
 
-- [Deshabilitar la mensajería unificada en Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204416)
+- [Deshabilitar mensajería unificada en Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204416)
 
 ### <a name="exchange-server-2019"></a>Exchange Server 2019
 
-Mensajería unificada de Exchange ya no está presente en Exchange 2019, si dispone de Exchange 2019 y desea que necesita usar el servicio de correo de voz en la nube que se describen en el [servicio de correo de voz de la nube de planeación de](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md)una funcionalidad equivalente.
+Mensajería unificada de Exchange ya no está presente en Exchange 2019, si dispone de Exchange 2019 y desea que necesita usar el servicio de correo de voz en la nube que se describen en el [servicio de correo de voz de la nube de planeación de](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)una funcionalidad equivalente.
 
 
 ## <a name="see-also"></a>Vea también

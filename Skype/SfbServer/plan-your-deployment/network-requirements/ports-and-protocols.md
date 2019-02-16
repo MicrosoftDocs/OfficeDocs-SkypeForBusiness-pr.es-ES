@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Resumen: Revise las consideraciones de uso del puerto antes de implementar Skype para Business Server.'
-ms.openlocfilehash: b02f329fdc8209fa9143a966181180ed7cf3b0be
-ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
+ms.openlocfilehash: a014df31ad27e5ed89b97fd7ca09979d4cfb5661
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690477"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069515"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de protocolo y puerto para los servidores
  
@@ -31,7 +31,7 @@ Aunque esto puede parecer complicado bit en primer lugar, el trabajo para planea
   
 También puede encontrar la información en estas tablas en forma de diagrama revisando el póster de cargas de trabajo de protocolo vinculado fuera el artículo [Technical diagrams de Skype para Business Server 2015](../../technical-diagrams.md) .
 > [!NOTE]
-> - Si se está implementando Skype para profesionales en línea (O365) hacen referencia a [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Entornos híbridos deberá hacer referencia a este tema y también [Planear la conectividad híbrida](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md).
+> - Si se está implementando Skype para profesionales en línea (O365) hacen referencia a [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Entornos híbridos deberá hacer referencia a este tema y también [Planear la conectividad híbrida](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json).
 > - Se puede tener los servidores de seguridad de hardware o software, no requieren modelos específicos o versiones. Lo que importa es qué puertos están en la lista blanca, por lo que el servidor de seguridad no poner en peligro el funcionamiento de Skype para Business Server.
   
 ## <a name="port-and-protocol-details"></a>Detalles de protocolo y puerto

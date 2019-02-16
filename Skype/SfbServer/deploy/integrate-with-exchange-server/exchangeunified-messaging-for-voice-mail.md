@@ -3,7 +3,7 @@ title: Configurar la mensajería unificada de Exchange Server para el correo de 
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/19/2016
+ms.date: 2/11/2019
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Resumen: Configurar la mensajería unificada de Exchange Server para Skype Business Server para correo de voz.'
-ms.openlocfilehash: 09ff81c170713f1dd3235f3968d586afc80929fd
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 03511671e0535e07dbc10e50b427364c3502a674
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375814"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059197"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Configurar la mensajería unificada de Exchange Server para el correo de voz de Skype Empresarial Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "25375814"
 Skype para Business Server permite que los mensajes de correo de voz almacenados en Exchange Server 2016 o Exchange Server 2013; los mensajes de correo de voz, a continuación, se mostrará como mensajes de correo electrónico en las bandejas de entrada de los usuarios. 
 
 > [!NOTE]
-> Mensajería unificada de Exchange como conocidos anteriormente ya no está disponible en Exchange 2019, pero puede seguir usando el sistema telefónico a los mensajes de correo de voz de registro y, a continuación, deje la grabación en el buzón de Exchange del usuario. Para obtener más información, vea [servicio de planeación de correo de voz en la nube](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) .
+> Mensajería unificada de Exchange como conocidos anteriormente ya no está disponible en Exchange 2019, pero puede seguir usando el sistema telefónico a los mensajes de correo de voz de registro y, a continuación, deje la grabación en el buzón de Exchange del usuario. Para obtener más información, vea [servicio de planeación de correo de voz en la nube](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) .
   
 Si ya ha configurado la autenticación de servidor a servidor entre Skype para Business Server y Exchange Server 2016 o Exchange Server 2013, a continuación, está listo para configurar la mensajería unificada. Para ello, en primer lugar debe crear y asignar un nuevo plan de marcado de mensajería unificada en el servidor de Exchange. Por ejemplo, estos dos comandos (ejecutar desde dentro de la consola de administración de Exchange) configuración un nuevo plan de marcado de 3 dígitos para Exchange:
   
@@ -93,7 +93,7 @@ $credential = Get-Credential "litwareinc\kenmyer"
 Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 ```
 
-Si dispone de un segundo usuario que se ha habilitado para mensajería unificada puede usar el cmdlet [Test-CsExUMVoiceMail](https://docs.microsoft.com/powershell/module/skype/test-csexumvoicemail?view=skype-ps) para comprobar que este segundo usuario puede dejar un mensaje de correo de voz para el primer usuario.
+Si tiene un segundo usuario que ha sido habilitado para la mensajería unificada, puede utilizar el cmdlet [Test-CsExUMVoiceMail](https://docs.microsoft.com/powershell/module/skype/test-csexumvoicemail?view=skype-ps) para verificar que este segundo usuario pueda dejar un mensaje de correo de voz para el primer usuario.
   
 ```
 $credential = Get-Credential "litwareinc\pilar"
@@ -140,7 +140,7 @@ Las herramientas siguientes deben estar disponibles en cada servidor que ejecuta
 
 
 
-### <a name="configure-unified-messaging-on-microsoft-exchange-with-exchucutilps1"></a>Configurar la mensajería unificada de Microsoft Exchange con ExchUCUtil.ps1 
+### <a name="configure-unified-messaging-on-microsoft-exchange-with-exchucutilps1"></a>Configure Unified Messaging on Microsoft Exchange with ExchUCUtil.ps1 
 
 Cuando se está integra Microsoft Skype para Business Server con Exchange mensajería unificada (UM), tendrá que ejecutar el script ExchUcUtil.ps1 en el Shell. El script ExchUcUtil.ps1 hace lo siguiente:
 
@@ -152,7 +152,7 @@ Cuando se está integra Microsoft Skype para Business Server con Exchange mensaj
 - Crea un grupo de extensiones de mensajería unificada para cada puerta de enlace IP de mensajería unificada. El identificador piloto de cada grupo de búsqueda especifica el plan de marcado de mensajería unificada URI de SIP utilizado por el Skype de grupo empresarial servidor Front-End o un servidor Standard Edition que está asociado con la puerta de enlace IP de mensajería unificada.
 - Concede a Skype de permiso de Business Server para leer los planes, operadores automáticos, las puertas de enlace IP de mensajería unificada de marcado de Active Directory contenedor objetos de mensajería unificada, como la mensajería unificada y grupos de extensiones de mensajería unificada.
   > [!IMPORTANT]
-  > Cada bosque de mensajería unificada debe configurarse para que confíe en el bosque en el que se implementa Skype para Business Server y el bosque en el que se implementa Skype para Business Server 2013 debe configurarse para que confíe en cada bosque de mensajería unificada. Si la mensajería unificada de Exchange se instala en varios bosques, los pasos de integración de Exchange Server deben realizarse para cada bosque de mensajería unificada o tendrá que especificar el Skype para dominio Business Server. Por ejemplo, ExchUcUtil.ps1 – bosque: < lync dominio-controlador fqdn >. 
+  > Cada bosque de mensajería unificada debe configurarse para que confíe en el bosque en el que se implementa Skype para Business Server y el bosque en el que se implementa Skype para Business Server 2013 debe configurarse para que confíe en cada bosque de mensajería unificada. Si la mensajería unificada de Exchange se instala en varios bosques, los pasos de integración de Exchange Server deben realizarse para cada bosque de mensajería unificada o tendrá que especificar el Skype para dominio Business Server. Por ejemplo, ExchUcUtil.ps1 – bosque: <lync-dominio-controlador-fqdn>. 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>Usar el Shell para ejecutar el script ExchUcUtil.ps1
 
@@ -163,7 +163,7 @@ Ejecute el script ExchUcUtil.ps1 en cualquier servidor de Exchange de la organiz
 > Debe tener los permisos de la función de administración de la organización de Exchange o ser miembro del grupo de seguridad Administradores de organización de Exchange para ejecutar el script. 
 
 1. Abra el Shell de administración de Exchange.
-2. En el símbolo del sistema de C:\Windows\System32, escriba cd ** \<letra de unidad >: \Program Files\Microsoft\Exchange Server\V15\Scripts >. ExchUcUtil.ps1**, y, a continuación, presione ENTRAR.
+2. En el símbolo del sistema de C:\Windows\System32, escriba cd ** \<letter>:\Program Files\Microsoft\Exchange Server\V15\Scripts> de unidad. ExchUcUtil.ps1**, y, a continuación, presione ENTRAR.
 
 #### <a name="how-do-you-know-this-worked"></a>¿Cómo sabrá funcionó?
 
@@ -188,7 +188,7 @@ El servidor de Exchange debe configurarse con un certificado de servidor para po
 
 **Para descargar el certificado de entidad emisora de certificados:**
 
-1. En el servidor que ejecuta mensajería unificada de Exchange, haga clic en **Inicio**, haga clic en **Ejecutar**, tipo **http://\<nombre de su servidor de entidad de certificación emitir > / certsrv**y, a continuación, haga clic en **Aceptar**.
+1. En el servidor que ejecuta mensajería unificada de Exchange, haga clic en **Inicio**, haga clic en **Ejecutar**, tipo **http://\<nombre de la entidad emisora Server>/certsrv**y, a continuación, haga clic en **Aceptar**.
 2. En Seleccione una tarea, haga clic en **Descargar certificado de CA, cadena de certificados o CRL**.
 3. En **Descargar certificado de CA, cadena de certificados o CRL**, seleccione el **Método de codificación en Base 64**y, a continuación, haga clic en**Descargar certificado de CA**.
    > [!NOTE]

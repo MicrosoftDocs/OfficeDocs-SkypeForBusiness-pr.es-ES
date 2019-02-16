@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Vea cómo activar y usar el Skype para profesionales Online panel calidad de llamadas y obtener informes de resumen de calidad de las llamadas. '
-ms.openlocfilehash: 008fbeca5ae9b81d74e9a38f60c12a6fc1f919cc
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 18c5c87d437235733e9ffc7c8a1ec60883a33305
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373811"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069620"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activar y con el panel de calidad de llamadas para Microsoft Teams y Skype para profesionales en línea
 
@@ -167,7 +167,7 @@ Como los nombres indican, esto es un criterio de clasificación en función del 
 > Dado un objeto stream, si uno de los dos extremos está conectado a una red Wifi, a continuación, se clasifica como Wifi en CQD. 
   
 ## <a name="selecting-product-data-to-see-in-reports"></a>Selección de datos de productos para ver en los informes
-<a name="BKMKFeaturesOfTheCQD"> </a>
+<a name="BKMKProductFilter"></a>
 
 En el resumen y ubicación mejorado informes, puede usar la lista desplegable **Filtro de producto** para mostrar todos los datos del producto, sólo los datos de Microsoft Teams o sólo Skype para datos profesionales en línea.
   
@@ -176,7 +176,7 @@ En el resumen y ubicación mejorado informes, puede usar la lista desplegable **
 En los informes detallados, puede usar la dimensión de **Los equipos es** para filtrar los datos a Microsoft Teams o Skype para datos profesionales en línea como parte de la definición del informe.
   
 ## <a name="upload-building-information"></a>Información de creación de carga
-<a name="BKMKFeaturesOfTheCQD"> </a>
+<a name="BKMKBuildingInformationUpload"></a>
 
 El panel de informes de resumen de CQD incluye una página **Inquilino la carga de datos** , puede tener acceso seleccionando el **Inquilino al cargar los datos** desde el menú de configuración en la esquina superior derecha. Esta página se usa para los administradores para cargar su propia información, como la asignación de dirección IP y la información geográfica, asignación de cada punto de acceso inalámbrico y su dirección MAC, etcetera.
   
@@ -226,12 +226,12 @@ El formato del archivo de datos que se carga debe cumplir lo siguiente para pasa
 |Red  <br/> |Cadena  <br/> |192.168.1.0  <br/> |
 |NetworkName  <br/> |Cadena  <br/> |Estados Unidos/Seattle/SEATTLE-mar-1  <br/> |
 |NetworkRange  <br/> |Número  <br/> |26  <br/> |
-|Nombredeedificio  <br/> |Cadena  <br/> |SEATTLE-MAR-1  <br/> |
+|BuildingName  <br/> |Cadena  <br/> |SEATTLE-MAR-1  <br/> |
 |OwnershipType  <br/> |Cadena  <br/> |Contoso  <br/> |
 |BuildingType  <br/> |Cadena  <br/> |Terminación de TI  <br/> |
 |BuildingOfficeType  <br/> |Cadena  <br/> |De ingeniería  <br/> |
 |Ciudad  <br/> |Cadena  <br/> |Seattle  <br/> |
-|Código postal  <br/> |Cadena  <br/> |98001  <br/> |
+|ZipCode  <br/> |Cadena  <br/> |98001  <br/> |
 |País  <br/> |Cadena  <br/> |NOSOTROS  <br/> |
 |Estado  <br/> |Cadena  <br/> |WA  <br/> |
 |Region  <br/> |Cadena  <br/> |MSUS  <br/> |
@@ -242,7 +242,7 @@ El formato del archivo de datos que se carga debe cumplir lo siguiente para pasa
 > El intervalo de red puede usarse para representar un supernet (combinación de varias subredes con un prefijo de enrutamiento único). Para los rangos superpuestos se comprobarán todas las cargas de creación nuevo. Si anteriormente se ha cargado un archivo de creación, debe descargar el archivo actual y volver a cargarla para identificar cualquier superposiciones y solucionar el problema antes de volver a cargar. En las asignaciones de incorrectos de subredes a edificios en los informes puede ocasionar que cualquier superposición en los archivos cargados previamente. Algunas implementaciones de VPN no informar con precisión la información de subred. Se recomienda que al agregar una subred VPN para el archivo de creación, en lugar de una entrada para la subred, separe las entradas se agregan para cada dirección de la subred VPN como una red independiente de 32 bits. Cada fila puede tener los mismos metadatos de creación. Por ejemplo, en lugar de una fila para 172.16.18.0/24, debe tener 256 filas, con una fila por cada dirección entre 172.16.18.0/32 y 172.16.18.255/32, ambos inclusive. 
   
 ## <a name="selecting-media-type-in-detailed-reports"></a>Seleccionar tipo de medio en informes detallados
-<a name="BKMKFeaturesOfTheCQD"> </a>
+<a name="BKMKMediaType"></a>
 
 Los informes detallados admiten mirar confiabilidad de medios y calidad de audio, vídeo, uso compartido de aplicaciones y tipos de medios de uso compartido de pantalla basados en vídeo. Dimensiones, las medidas y los filtros que son específicos de un tipo de medio único tienen "Audio", "Vídeo", "Uso compartido de aplicaciones" o "VBSS" como prefijo.
   
@@ -257,7 +257,7 @@ Si desea ver las dimensiones y medidas para un tipo de medio único, la nueva di
 
 [Análisis de uso de llamadas para solucionar problemas de calidad de la llamada deficiente](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Análisis de llamada y el panel de calidad de llamada](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Análisis de llamadas y Panel de calidad de llamadas](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  

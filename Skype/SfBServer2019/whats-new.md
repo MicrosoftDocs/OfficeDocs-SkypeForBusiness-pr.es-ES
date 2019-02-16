@@ -1,5 +1,5 @@
 ---
-title: ¿Qué es una novedad de Skype para Business Server 2019 | Características
+title: ¿Qué es una novedad de Skype para Business Server 2019 | Funciones
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumen: Estas características son nuevas en Skype para Business Server 2019.'
-ms.openlocfilehash: 044901b134c71c1cae004f9930bedeae0057578d
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 4eb674293b152109a9743fce5114fe11e3e97158
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29348887"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30058985"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>¿Qué es en Skype para Business Server 2019
 
@@ -35,7 +35,7 @@ Correo de voz en la nube permite todas su Skype para profesionales 2019 users& #
 - Acceso al correo de voz en su buzón de Exchange mediante el uso de la Skype para clientes empresariales en línea, los equipos o Outlook
 - Posibilidad de usar el portal basado en web para administrar sus opciones de correo de voz
 
-Para obtener más información, vea [servicio de planeación de correo de voz en la nube](hybrid/plan-cloud-voicemail.md) y [planeación de Skype para Business Server y la migración de Exchange Server](hybrid/plan-um-migration.md) .
+Para obtener más información, vea [servicio de planeación de correo de voz en la nube](../sfbhybrid/hybrid/plan-cloud-voicemail.md) y [planeación de Skype para Business Server y la migración de Exchange Server](../sfbhybrid/hybrid/plan-um-migration.md) .
   
 ## <a name="call-monitoring-call-data-connector"></a>Supervisión de llamadas: conector de datos de llamada
 
@@ -47,7 +47,7 @@ Con el conector de datos de llamadas, puede realizar las siguientes tareas media
 - Ver y solucionar los problemas a través de la red
 - Asignación de roles de departamento de soporte técnico y administrador para análisis de llamadas, por lo que puede ofrecer a los trabajadores del departamento de soporte técnico ver y solucionar problemas de sus áreas de responsabilidad.
 
-Para obtener más información, consulte [Planeación de conector de datos de llamada](hybrid/plan-call-data-connector.md) .
+Para obtener más información, consulte [Planeación de conector de datos de llamada](../sfbhybrid/hybrid/plan-call-data-connector.md) .
 
 ### <a name="see-also"></a>Vea también
 

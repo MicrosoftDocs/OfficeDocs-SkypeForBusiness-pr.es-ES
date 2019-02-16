@@ -14,18 +14,18 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 'Resumen: Obtenga información sobre los pasos que necesarios para llevar a cabo para configurar Difundir presentación de reunión de Skype para su Skype local para la implementación híbrida de Business Server.'
-ms.openlocfilehash: bae25dae268dd5ad3b3ab7862feb1156df850953
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 09b99cab45b8832be34a3219a222324d199c5195
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371397"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069472"
 ---
-# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configurar la implementación local para la difusión de reunión de Skype
+# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configure your on-premises deployment for Skype Meeting Broadcast
  
 **Resumen:** Obtenga información sobre los pasos que necesarios para llevar a cabo para configurar Difundir presentación de reunión de Skype para su Skype local para la implementación híbrida de Business Server.
   
-Difundir presentación de reunión de Skype es un servicio en línea que forma parte de Office 365. Si está ejecutando Skype para Business Server local y desea usar Difundir presentación de reunión de Skype en su entorno, debe seguir los pasos de configuración en este tema. Antes de empezar, el entorno debe configurarse para la implementación híbrida con Skype para profesionales en línea. Para obtener más información, vea [Planear la conectividad híbrida entre Skype para Business Server y Skype para profesionales en línea](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) y la [conectividad de híbrido de implementar entre Skype para Business Server y Skype para profesionales en línea](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
+Difundir presentación de reunión de Skype es un servicio en línea que forma parte de Office 365. Si está ejecutando Skype para Business Server local y desea usar Difundir presentación de reunión de Skype en su entorno, debe seguir los pasos de configuración en este tema. Antes de empezar, el entorno debe configurarse para la implementación híbrida con Skype para profesionales en línea. Para más información, vea [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) y [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
   
 ## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Configurar su entorno híbrido para difundir presentación de reunión de Skype
 
@@ -49,7 +49,7 @@ Para habilitar la federación con Skype para recursos en línea de negocio, debe
 |:-----|:-----|
 |**Habilitar las comunicaciones con este proveedor:** <br/> |Seleccionado  <br/> |
 |**Nombre del proveedor:** <br/> |LyncOnlineResources  <br/> |
-|**Servicio perimetral de acceso (FQDN):** <br/> |sipfed.Resources.Lync.com  <br/> |
+|**Servicio perimetral de acceso (FQDN):** <br/> |sipfed.resources.lync.com  <br/> |
 |**Nivel de verificación predeterminado:** <br/> |Permita a los usuarios comunicarse con todos los usuarios con este proveedor.  <br/> |
    
 También puede habilitar la federación con Skype para recursos en línea de negocio ejecutando el siguiente cmdlet en el Skype para Shell de administración de servidor empresarial:
@@ -68,13 +68,13 @@ A continuación, deberá agregar dominios federados SIP a la lista de dominios p
     
 3. Para el **Nombre de dominio (o FQDN):**, especifique el dominio, repitiendo este procedimiento para cada uno de los siguientes dominios:
     
-   - noammeetings.Lync.com
+   - noammeetings.lync.com
     
-   - emeameetings.Lync.com
+   - emeameetings.lync.com
     
-   - apacmeetings.Lync.com
+   - apacmeetings.lync.com
     
-   - Resources.Lync.com
+   - resources.lync.com
     
 También puede configurar el acceso externo para los dominios federados SIP mediante la ejecución de los siguientes cmdlets en el Skype para Shell de administración de servidor empresarial:
   

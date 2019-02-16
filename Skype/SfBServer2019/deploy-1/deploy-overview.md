@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Resumen: Explore estos vínculos para obtener información sobre cómo instalar y configurar Skype para Business Server 2019.'
-ms.openlocfilehash: af4edc8c3c938f6016ebf743b8ce9ac982cfefbf
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a8512e55cdc0062be1548458f2ce6a4aca0296ad
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531443"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30058999"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>Implementación de Skype para Business Server 2019
  
@@ -40,7 +40,7 @@ Los siguientes artículos acerca de cómo instalar y configurar Skype para Busin
 |![Icono de procedimiento numérico](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[Instalar Skype Empresarial Server](../../SfbServer/deploy/install/install.md)<br/> |Obtenga información sobre cómo instalar Skype para Business Server en varias topologías, en entornos físicos y virtuales.  <br/> |
 |![Icono de procedimiento numérico](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Migración a Skype para Business Server 2019](../migration/migration-to-skype-for-business-server-2019.md) <br/> |Obtenga información sobre cómo migrar desde versiones anteriores de Skype para empresariales o de Lync Server.  <br/> |
 |![Icono de procedimiento numérico](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[Configure the client experience with Skype for Business](../../SfbServer/deploy/deploy-clients/configure-the-client-experience.md) <br/> |Obtenga más información sobre cómo configurar la experiencia del cliente.  <br/> |
-|![Icono de procedimiento numérico](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Configurar la conectividad híbrida entre Skype para Business Server y Skype para profesionales en línea](../hybrid/configure-hybrid-connectivity.md) <br/> |Obtenga información sobre cómo configurar los requisitos previos para una implementación híbrida y, a continuación, configurar la implementación para administrar los usuarios entre Skype para Business Server local y Skype para profesionales en línea.  <br/> |
+|![Icono de procedimiento numérico](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Configurar la conectividad híbrida entre Skype para Business Server y Skype para profesionales en línea](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md) <br/> |Obtenga información sobre cómo configurar los requisitos previos para una implementación híbrida y, a continuación, configurar la implementación para administrar los usuarios entre Skype para Business Server local y Skype para profesionales en línea.  <br/> |
 |![Icono de procedimiento numérico](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Implemente servidores perimetrales en Skype para Business Server](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md) <br/> |Si los usuarios de la organización comunican con usuarios externos que no están registrados en la red interna, desea implementar el servidor perimetral.  <br/> |
 |![Icono de procedimiento numérico](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Implementación de Enterprise Voice en Skype para Business Server](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |Obtenga más información sobre cómo implementar una solución de telefonía IP empresarial de voz sobre IP (VoIP) completa, que proporciona la integración enriquecida con Outlook y Exchange y muchas funciones eficaces, como los grupos de respuesta, el estacionamiento de llamadas, la llamada de equipo, la atención de llamadas grupales y la asistencia de E9-1-1 de emergencia mejorada.  <br/> |
 | ![Icono de procedimiento numérico](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Implementar servidor de interoperabilidad vídeo en Skype para Business Server](../../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md) <br/> |Si desea admitir la interoperación vídeo, lea acerca de cómo implementar el servidor de vídeo de interoperabilidad (VISIBLES).  <br/> |

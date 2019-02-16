@@ -1,5 +1,5 @@
 ---
-title: Introducción a la característica (herramienta de planeación)
+title: Feature Overview (Planning Tool)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype para la herramienta de planeación de Business Server
-ms.openlocfilehash: 22f14c0d31eaed5a6518263b15a9962e4bd136d0
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: f7a9f7fd0dfc7f4c65d85404bd827aee7b98332b
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082611"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059147"
 ---
-# <a name="feature-overview-planning-tool"></a>Introducción a la característica (herramienta de planeación)
+# <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  
 Skype para la herramienta de planeación de Business Server
   
@@ -90,7 +90,7 @@ Los elementos restantes se rellenaron con las respuestas proporcionadas a las pr
     Skype para Business Server permite que los mensajes de correo de voz almacenados en Exchange mensajería unificada (UM); los mensajes de correo de voz, a continuación, se mostrará como mensajes de correo electrónico en las bandejas de entrada de los usuarios.
 
     > [!NOTE]
-    > Mensajería unificada de Exchange como conocidos anteriormente ya no está disponible en Exchange 2019, pero puede seguir usando el sistema telefónico a los mensajes de correo de voz de registro y, a continuación, deje la grabación en el buzón de Exchange del usuario. Para obtener más información, vea [servicio de planeación de correo de voz en la nube](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) .
+    > Mensajería unificada de Exchange como conocidos anteriormente ya no está disponible en Exchange 2019, pero puede seguir usando el sistema telefónico a los mensajes de correo de voz de registro y, a continuación, deje la grabación en el buzón de Exchange del usuario. Para obtener más información, vea [servicio de planeación de correo de voz en la nube](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) .
     
 ### <a name="voice"></a>Voz
 
@@ -105,7 +105,7 @@ Los elementos restantes se rellenaron con las respuestas proporcionadas a las pr
     Correo de voz de mensajería unificada de Exchange (UM) combina y correo electrónico en una sola infraestructura de mensajería. Skype para Business Server 2015 mensajería unificada de Exchange usa para proporcionar el contestador automático, acceso de suscriptor, notificación de llamadas y servicios de operador automático. Si utiliza estos servicios, debe integrar la mensajería unificada de Exchange y Skype para Business Server en una topología de Active Directory compartida.
 
     > [!NOTE]
-    > Mensajería unificada de Exchange como conocidos anteriormente ya no está disponible en Exchange 2019, pero puede seguir usando el sistema telefónico a los mensajes de correo de voz de registro y, a continuación, deje la grabación en el buzón de Exchange del usuario. Para obtener más información, vea [servicio de planeación de correo de voz en la nube](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) .
+    > Mensajería unificada de Exchange como conocidos anteriormente ya no está disponible en Exchange 2019, pero puede seguir usando el sistema telefónico a los mensajes de correo de voz de registro y, a continuación, deje la grabación en el buzón de Exchange del usuario. Para obtener más información, vea [servicio de planeación de correo de voz en la nube](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) .
     
 ### <a name="additional-deployment-options"></a>Opciones de implementación adicionales
 
