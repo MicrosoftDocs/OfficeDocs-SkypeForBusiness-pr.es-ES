@@ -4,19 +4,19 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 layout: LandingPage
-ms.date: 7/10/2018
+ms.date: 2/11/2019
 ms.audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Resumen: Explore estos vínculos para obtener información sobre cómo implementar Skype para Business Server 2019.'
-ms.openlocfilehash: 882338dc02f8db9c73415e73938a116ee3ea6171
-ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
+ms.openlocfilehash: 4233644bb8e5c252a1fb435b20b64ca692dcba9b
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2018
-ms.locfileid: "27131218"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069455"
 ---
 # <a name="skype-for-business-server-2019"></a>Skype para Business Server 2019
 
@@ -40,7 +40,7 @@ ms.locfileid: "27131218"
         </a>
     </li>
     <li>
-        <a href="hybrid/plan-hybrid-connectivity.md">
+        <a href="../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -68,7 +68,7 @@ ms.locfileid: "27131218"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Implementar </h3>
+                        <h3>Implementar</h3>
                     </div>
                 </div>
             </div>
@@ -191,7 +191,7 @@ ms.locfileid: "27131218"
                 <div class="card">
                     <div class="cardText">
                         <h3>Hybrid solutions</h3>
-                        <p>[Plan hybrid connectivity](hybrid/plan-hybrid-connectivity.md)<br> [Plan Cloud Voicemail service](hybrid/plan-cloud-voicemail.md)<br>[Plan Call Data Connector](hybrid/plan-call-data-connector.md)</p>
+                        <p>[Plan hybrid connectivity](../sfbhybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)<br> [Plan Cloud Voicemail service](../sfbhybrid/hybrid/plan-cloud-voicemail.md)<br>[Plan Call Data Connector](../sfbhybrid/hybrid/plan-call-data-connector.md)</p>
                     </div>
                 </div>
             </div>
@@ -205,7 +205,7 @@ ms.locfileid: "27131218"
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Antes de empezar** <br>[Requisitos del sistema](plan/system-requirements.md) <br>[Requisitos de red](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **Instalación ** <br>[Instalar Skype Empresarial Server](../SfbServer/deploy/install/install.md) <br> [Migrar a Skype para 2019 empresarial](migration/migration-to-skype-for-business-server-2019.md)                             | **Telefonía IP empresarial**<br>[Planificar](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Implementar](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
-| **Nuevas características**<br>[Novedades](whats-new.md)                                                                                                                                         | **Soluciones híbridas**<br>[Planeación de la conectividad híbrida](hybrid/plan-hybrid-connectivity.md)<br> [Planeación de servicio de correo de voz en la nube](hybrid/plan-cloud-voicemail.md)<br>[Planeación de conector de datos de llamada](hybrid/plan-call-data-connector.md) |  **Versiones anteriores**<br/>  [Skype para la documentación de Business Server 2015](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Documentación de Lync Server 2013](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
+| **Nuevas características**<br>[Novedades](whats-new.md)                                                                                                                                         | **Soluciones híbridas**<br>[Planeación de la conectividad híbrida](../sfbhybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)|  **Versiones anteriores**<br/>  [Skype para la documentación de Business Server 2015](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Documentación de Lync Server 2013](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 
 * * *

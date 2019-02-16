@@ -6,28 +6,28 @@
 ## [Novedades de Skype Empresarial Server](../what-s-new-in-skype-for-business-server.md)
 
 ## [Skype para la empresa, descargas y actualizaciones](../software-updates.md)
-### [Actualizaciones de clientes](../sfb-client-updates.md)
+### [Actualizaciones del cliente](../sfb-client-updates.md)
 ### [Actualizaciones de servidor](../sfb-server-updates.md)
-
-## [Soluciones de telefonía de Microsoft](../../SFBServer2019/hybrid/msft-telephony-solutions.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-
-
-### [Planear el sistema telefónico con conectividad de RTC local](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
+<!--
+## [Microsoft telephony solutions](../../SFBServer2019/hybrid/msft-telephony-solutions.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
 
-### [Planeación de Skype para Business Edition de conector en la nube](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)
-#### [Plan de sitios de RTC con Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-cloud-connector-edition-pstn-sites.md)
-#### [Plan para la omisión de medios en Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-media-bypass-in-cloud-connector-edition.md)
+### [Plan Phone System with on-premises PSTN connectivity](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
+
+
+### [Plan Skype for Business Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)
+#### [Plan for Cloud Connector Edition PSTN sites](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-cloud-connector-edition-pstn-sites.md)
+#### [Plan for media bypass in Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-media-bypass-in-cloud-connector-edition.md)
 ### [Configure Skype for Business Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-skype-for-business-cloud-connector-edition.md)
-#### [Preparar el dispositivo de Cloud Connector](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/prepare-your-cloud-connector-appliance.md)
+#### [Prepare your Cloud Connector appliance](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/prepare-your-cloud-connector-appliance.md)
 #### [Deploy a single site in Cloud Connector](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-a-single-site-in-cloud-connector.md)
-#### [Implementar varios sitios en Cloud Connector](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-multiple-sites-in-cloud-connector.md)
+#### [Deploy multiple sites in Cloud Connector](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-multiple-sites-in-cloud-connector.md)
 #### [Configure Cloud Connector integration with your Office 365 tenant](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-cloud-connector-integration-with-your-office-365-tenant.md)
 #### [Validate your Cloud Connector deployment](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/validate-your-cloud-connector-deployment.md)
 #### [Upgrade to a new version of Cloud Connector](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/upgrade-to-a-new-version-of-cloud-connector.md)
 #### [Modify the configuration of an existing Cloud Connector deployment](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/modify-the-configuration-of-an-existing-cloud-connector-deployment.md)
-#### [Implementar el desvío de medios en el conector de la nube](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-media-bypass-in-cloud-connector.md)
-#### [Supervisar el conector en la nube con el conjunto de aplicaciones de administración de operaciones (OMS)](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/monitor-cloud-connector-using-operations-management-suite-oms.md)
+#### [Deploy media bypass in Cloud Connector](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-media-bypass-in-cloud-connector.md)
+#### [Monitor Cloud Connector using Operations Management Suite (OMS)](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/monitor-cloud-connector-using-operations-management-suite-oms.md)
 #### [Cloud Connector cmdlet reference](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/cloud-connector-cmdlet-reference.md)
 ##### [Backup-CcCertificationAuthority](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/backup-cccertificationauthority.md)
 ##### [Convert-CcIsoToVhdx](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/convert-ccisotovhdx.md)
@@ -44,7 +44,7 @@
 ##### [Get-CcSiteDirectory](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/get-ccsitedirectory.md)
 ##### [Get-CcSiteLogDirectory](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/get-ccsitelogdirectory.md)
 ##### [Get-CcVersion](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/get-ccversion.md)
-##### [CcConfiguration de importación](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/import-ccconfiguration.md)
+##### [Import-CcConfiguration](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/import-ccconfiguration.md)
 ##### [Install-CcAppliance](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/install-ccappliance.md)
 ##### [Publish-CcAppliance](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/publish-ccappliance.md)
 ##### [Register-CcAppliance](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/register-ccappliance.md)
@@ -53,7 +53,7 @@
 ##### [Renew-CcCACertificate](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/renew-cccacertificate.md)
 ##### [Renew-CcServerCertificate](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/renew-ccservercertificate.md)
 ##### [Reset-CcCACertificate](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/reset-cccacertificate.md)
-##### [Restauración CcCredentials](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/restore-cccredentials.md)
+##### [Restore-CcCredentials](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/restore-cccredentials.md)
 ##### [Search-CcLog](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/search-cclog.md)
 ##### [Set-CcApplianceDirectory](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/set-ccappliancedirectory.md)
 ##### [Set-CcCredential](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/set-cccredential.md)
@@ -67,41 +67,11 @@
 ##### [Unregister-CcAppliance](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/unregister-ccappliance.md)
 ##### [Update-CcCACertificate](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/update-cccacertificate.md)
 ##### [Update-CcServerCertificate](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/update-ccservercertificate.md)
-#### [Solución de problemas con la implementación de Cloud Connector](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/troubleshoot-your-cloud-connector-deployment.md)
+#### [Troubleshoot your Cloud Connector deployment](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/troubleshoot-your-cloud-connector-deployment.md)
 
+-->
 
-
-
-## Soluciones híbridas para equipos y Skype para la empresa
-### [Planeación de la conectividad híbrida](../../SFBServer2019/hybrid/plan-hybrid-connectivity.md)
-
-
-### [Configurar conectividad híbrida](../../SFBServer2019/hybrid/configure-hybrid-connectivity.md)
-#### [Configurar Azure Connect de AD para entornos híbridos](../../SFBServer2019/hybrid/configure-azure-ad-connect.md)
-#### [Configuración de Skype para entornos híbridos de negocio](../../SFBServer2019/hybrid/configure-federation-with-skype-for-business-online.md)
-
-### [Mover usuarios entre local y la nube](../../SFBServer2019/hybrid/move-users-between-on-premises-and-cloud.md)
-#### [Mover usuarios de local a los equipos](../../SFBServer2019/hybrid/move-users-from-on-premises-to-teams.md)
-#### [Mover usuarios de local a Skype Empresarial Online](../../SFBServer2019/hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
-#### [Mover usuarios de la nube para local](../../SFBServer2019/hybrid/move-users-from-the-cloud-to-on-premises.md)
-#### [Administración de la migración de la reunión](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
-
-### [Deshabilitar híbrido para completar la migración a la nube](../../SFBServer2019/hybrid/cloud-consolidation-disabling-hybrid.md)
-
-### [Implementar una topología de bosque de recursos](../../SFBServer2019/hybrid/configure-a-multi-forest-environment-for-hybrid.md)
-
-### [Consolidación de la nube para equipos y Skype para la empresa](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/cloud-consolidation)
-
-#### [Actualizar el certificado de servidor perimetral](../../SFBServer2019/hybrid/cloud-consolidation-edge-certificates.md)
-
-#### [Actualizar AAD conectar para incluir más de un bosque](../../SFBServer2019/hybrid/cloud-consolidation-aad-connect.md)
-
-### [Integración con Exchange y SharePoint](../skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md)
-
-
-
-
-
+## [Soluciones híbridas para equipos y Skype para la empresa](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
 ## [Planear la implementación](../plan-your-deployment/plan-your-deployment.md)
 ### [Conceptos básicos de topología](../plan-your-deployment/topology-basics/topology-basics.md)
@@ -552,7 +522,7 @@
 
 #### [Configurar la compatibilidad de federación con un Skype para clientes empresariales en línea](../manage/federation-and-external-access/federation-support/configuring-federation-support.md)
 
-### Network
+### Red
 #### [Calidad de servicio (QoS)](../manage/network-management/qos/managing-quality-of-service-qos.md)
 ##### [Habilitar QoS para dispositivos que no están basados en Windows](../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md)
 ##### [Configurar intervalos de puertos y la directiva de QoS para los servidores de conferencia, aplicación y mediación](../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md)
@@ -622,7 +592,7 @@
 #### [Planificar](../management-tools/call-quality-dashboard/plan.md)
 #### [Implementar](../management-tools/call-quality-dashboard/deploy-0.md)
 #### [Uso](../management-tools/call-quality-dashboard/use.md)
-#### [Desarrollar](../management-tools/call-quality-dashboard/develop.md)
+#### [desarrollar](../management-tools/call-quality-dashboard/develop.md)
 ##### [API de datos](../management-tools/call-quality-dashboard/data-api.md)
 ###### [Obtener el cubo](../management-tools/call-quality-dashboard/get-cube.md)
 ###### [Obtener a miembros de dimensión](../management-tools/call-quality-dashboard/get-dimension-members.md)
