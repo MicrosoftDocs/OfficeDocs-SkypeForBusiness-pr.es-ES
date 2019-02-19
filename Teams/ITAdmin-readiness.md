@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Vídeos de aprendizaje, diapositivas de PowerPoint, tutoriales y otros recursos para los administradores acerca de cómo planear, implementación y ejecutan Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eda922ce0346a69d657789bdc13a6381254c2b3a
-ms.sourcegitcommit: 2ef6a05c659100eea0d92c729001cd4e14434b9f
+ms.openlocfilehash: 58f37fba985817b777ebce7c125b9cd5d80cc425
+ms.sourcegitcommit: 11f95d0df48a23e701ffaf3b26445d736cbbb884
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30062626"
+ms.lasthandoff: 02/18/2019
+ms.locfileid: "30079136"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 
@@ -94,7 +94,7 @@ Utilice los recursos de aprendizaje para autodidacta acerca de los equipos, ense
 | Introducción de las reuniones | [Vídeo](http://aka.ms/teams-meetings-intro) | [Baraja](http://aka.ms/teams-meetings-intro-deck) |
 | Introducción del sistema de teléfono | [Vídeo](http://aka.ms/teams-phone-system) | [Baraja](http://aka.ms/teams-phone-system-deck) |
 | Enrutamiento directo | [Vídeo](http://aka.ms/teams-direct-routing) | [Baraja](http://aka.ms/teams-direct-routing-deck) |
-| Actualización de Skype Empresarial a Microsoft Teams | [Vídeo 1: Introducción a la actualización](https://aka.ms/teams-upgrade-intro)</br>[Vídeo 2: Planear la actualización](https://aka.ms/teams-upgrade-plan)</br>[Vídeo 3: Interoperabilidad y coexistencia](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vídeo 4: Experiencia del administrador](https://aka.ms/teams-upgrade-admin) | [Baraja](htt://aka.ms/teams-upgrade-deck)|
+| Actualización de Skype Empresarial a Microsoft Teams | [Vídeo 1: Introducción a la actualización](https://aka.ms/teams-upgrade-intro)</br>[Vídeo 2: Planear la actualización](https://aka.ms/teams-upgrade-plan)</br>[Vídeo 3: Interoperabilidad y coexistencia](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vídeo 4: Experiencia del administrador](https://aka.ms/teams-upgrade-admin) | [Baraja](http://aka.ms/teams-upgrade-deck)|
 
 <h2>Guías de inicio rápido</h2>
 
