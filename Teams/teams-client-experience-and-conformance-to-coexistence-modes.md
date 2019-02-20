@@ -1,5 +1,5 @@
 ---
-title: Experiencia de los equipos cliente y conformidad a los modos de coexistencia
+title: Experiencia del cliente de Teams y cumplimiento con los modos de coexistencia
 author: dearbeen
 ms.author: bjwhalen
 manager: serdars
@@ -13,16 +13,16 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5353079da3cc697d88983407db97c2d8894ea7a8
-ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
+ms.openlocfilehash: 8cc7f27d244b557b96f79b62247ae887a083a0e6
+ms.sourcegitcommit: d8a68433949edfbbece628dd0e1c0ce9205ba0a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "29992860"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "30087847"
 ---
 <a name="about-upgrade-basic"></a>
 
-# <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Experiencia de los equipos cliente y conformidad a los modos de coexistencia
+# <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Experiencia del cliente de Teams y cumplimiento con los modos de coexistencia
 
 > [!NOTE]
 > Esta página describe los próximos cambios importantes en el comportamiento del cliente de los equipos cuando los usuarios están en cualquiera de los Skype para los modos de negocio (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
@@ -74,9 +74,9 @@ Los administradores deben establecer cada una de estas opciones de configuració
 Antes de la implantación de conformidad automática de la experiencia del usuario en función de los modos, el `Grant-csTeamsUpgradePolicy` cmdlet comprueba la configuración de los valores correspondientes en TeamsMessagingPolicy, TeamsCallingPolicy y TeamsMeetingPolicy para determinar si estos configuración de es compatible con el modo especificado. Si alguna no están configurado correctamente, la concesión se realizará correctamente pero, proporcionará una advertencia en PowerShell que indica qué configuración específica no está configurados correctamente. A continuación es un ejemplo del aspecto que podría tener la advertencia de PowerShell:
 
 
-`PS C:\Users\janedoe> Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab
-WARNING: The user 'user1@contoso.com' currently has effective policy enabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the near term, when granting TeamsUpgradePolicy with mode=SfBWithTeamsCollab to a user, you must also separately assign policy to ensure the user has effective policy disabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the future, the capability will automatically honor TeamsUpgradePolicy.
-PS C:\Users\janedoe>`
+`Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
+
+*Advertencia: El usuario 'user1@contoso.com' tiene actualmente los valores de directiva efectiva habilitado para: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. En el término near, al conceder TeamsUpgradePolicy con el modo = SfBWithTeamsCollab a un usuario, debe asignar también por separado directiva para asegurarse de que el usuario tiene los valores de directiva efectiva deshabilitada para: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. En el futuro, la capacidad de automáticamente respeta TeamsUpgradePolicy.*
 
 Al ver una advertencia de este tipo, el administrador debe actualizar posteriormente las directivas indicadas para proporcionar una experiencia de usuario final compatible en los equipos. Si el administrador decide no realizar ninguna acción como consecuencia de la advertencia, los usuarios aún tener acceso a conversaciones, llamar o funciones de programación en los equipos según los valores de TeamsMessagingPolicy, TeamsCallingPolicy y TeamsMeetingPolicy, de la reunión lo que puede conllevar una experiencia de usuario final confusa.
 
