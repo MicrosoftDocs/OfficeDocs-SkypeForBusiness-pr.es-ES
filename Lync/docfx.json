@@ -75,6 +75,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "bilingual_type": "hover over",
       "breadcrumb_path": "/LyncServer/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "searchScope": [
