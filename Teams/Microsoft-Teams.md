@@ -4,12 +4,12 @@ hide_bc: true
 title: Documentación técnica de Microsoft Teams
 description: Documentación técnica de Microsoft Teams
 ms.topic: hub-page
-ms.openlocfilehash: 756c3701e69a8fd41378487329e95d169b5207da
-ms.sourcegitcommit: 12a3932fa95dedec0fa0d24951932d70c64a7e78
+ms.openlocfilehash: a68d3c6c7fe5fbe3a78af76e95672d10b797638d
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29597661"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120302"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -79,7 +79,7 @@ ms.locfileid: "29597661"
                             </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-introduction">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
