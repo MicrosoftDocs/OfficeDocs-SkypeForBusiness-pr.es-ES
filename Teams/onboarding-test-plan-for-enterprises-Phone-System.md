@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85774296ad871d7d9d036a660299cc88099c4de6
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: e96f39cbcf5dcca4c0687f89f37ead6791ff2d98
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594065"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120745"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Defina y documente el sistema de teléfono con planes de llamada en el plan de pruebas de los equipos para empresas 
 ============================================================================================
@@ -235,7 +235,7 @@ En un nivel alto, estos recursos normalmente constan de:
 |---------------|--------------------------------------------------------------|----------------------|
 | Personas        | Los evaluadores tienen resultados de prueba de las partes interesadas                               | TBD                  |
 | Tecnología    | Acceso a Office 365 con habilitados los siguientes servicios:<ul><li>Office 365 E5 licencias asignadas</li><li>Plan nacional e internacional llamada asignado</li></ul>    | TBD                  |
-| Asistencia técnica       | Jefe de soporte técnico de prueba de administrador técnico de prueba de pruebas | TBD                  |
+| Soporte técnico       | Jefe de soporte técnico de prueba de administrador técnico de prueba de pruebas | TBD                  |
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>Decidir los tipos de recursos (personas, tecnología y soporte técnico) que necesitará para admitir la fase de pruebas.</li><li>Decidir los recursos específicos necesarios para los tipos de recursos que ha identificado.</li><li>Decidir si debe proporcionar aún más detalles para describir los tipos de recursos que necesita.</li></ul></td></tr>
@@ -752,7 +752,7 @@ Ahora que ha definido su plan de pruebas, el siguiente paso es recorrer los caso
 
 -   Se han identificado la lista de sitios organizativos y grupos de usuarios en el ámbito.
 
--   [Créditos de comunicaciones](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) (si es necesario) se han configurado para su organización.
+-   [Créditos de comunicaciones](what-are-communications-credits.md) (si es necesario) se han configurado para su organización.
 
 -   Sistema telefónico con la configuración de planes de llamada se han identificado y configurado.
 

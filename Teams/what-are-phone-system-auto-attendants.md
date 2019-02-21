@@ -1,5 +1,5 @@
 ---
-title: ¿Qué son los operadores automáticos de Sistema telefónico?
+title: ¿Qué son los operadores automáticos del Sistema telefónico?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -24,14 +24,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre qué son automáticos de sistema telefónico (nube PBX) y cómo usarlas. '
-ms.openlocfilehash: bd59a88c0e8a1bd23c0caf23a3a3099e6ad98063
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: f0b93d39bffc2c479e853228cb4d14f38d9a570d
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048328"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120811"
 ---
-# <a name="what-are-phone-system-auto-attendants"></a>¿Qué son los operadores automáticos de Sistema telefónico?
+# <a name="what-are-phone-system-auto-attendants"></a>¿Qué son los operadores automáticos del Sistema telefónico?
 
 Sistema telefónico en Office 365 operadores automáticos se pueden usar para crear un sistema de menús para la organización que permite a los autores de llamadas externas e internas mover a través de un sistema de menús para localizar y colocar o transferir las llamadas a los usuarios de la compañía o los departamentos de la organización.
   
@@ -53,10 +53,10 @@ Un operador automático de sistema telefónico tiene las siguientes característ
 
 Para comenzar a utilizar operadores automáticos, es importante recordar que:
   
-- Su organización debe tener (como mínimo) una licencia Enterprise E3 plus **Sistema telefónico** o una licencia Enterprise E5. El número de licencias de usuario de **Sistema telefónico** que se les asigna la repercusión en el número del servicio de números que está disponible para usarse en operadores automáticos. El número de operadores automáticos que puede tener depende de las licencias números de **Sistema telefónico** y **Conferencias de Audio** que se asignan en la organización. Para obtener más información acerca de las licencias, vaya [Skype para profesionales y los equipos de Microsoft complemento licencias](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+- Su organización debe tener (como mínimo) una licencia Enterprise E3 plus **Sistema telefónico** o una licencia Enterprise E5. El número de licencias de usuario de **Sistema telefónico** que se les asigna la repercusión en el número del servicio de números que está disponible para usarse en operadores automáticos. El número de operadores automáticos que puede tener depende de las licencias números de **Sistema telefónico** y **Conferencias de Audio** que se asignan en la organización. Para obtener más información acerca de las licencias, vea [licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
     > [!TIP]
-    > Para redirigir las llamadas a un operador o una opción de menú que es un usuario con una licencia de **Sistema telefónico** en línea, debe habilitarlos para Enterprise Voice o asignar planes de llamada a ellos. See [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). También puede usar Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > Para redirigir las llamadas a un operador o una opción de menú que es un usuario con una licencia de **Sistema telefónico** en línea, debe habilitarlos para Enterprise Voice o asignar planes de llamada a ellos. Vea [las licencias de asignar los equipos de Microsoft](assign-teams-licenses.md). También puede usar Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Para obtener y usar números de servicio gratuito para los operadores automáticos, debe configurar Communications créditos. Para hacer esto, vea [¿Cuáles son las comunicaciones créditos?](what-are-communications-credits.md) y [Configurar Communications créditos para su organización](set-up-communications-credits-for-your-organization.md).
     
@@ -271,7 +271,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 Puede obtener más información acerca de cómo realizar cambios en la configuración de identificador de autor de la llamada de la organización [cómo se puede usar el identificador de autor de la llamada de la organización](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization).
   
 ## <a name="related-topics"></a>Temas relacionados
-[Esto es lo que conseguirá con Sistema telefónico en Office 365](here-s-what-you-get-with-phone-system.md)
+[Esto es lo obtiene con el Sistema telefónico de Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

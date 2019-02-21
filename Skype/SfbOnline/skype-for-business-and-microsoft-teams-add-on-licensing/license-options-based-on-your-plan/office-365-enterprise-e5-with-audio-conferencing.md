@@ -14,23 +14,22 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga información sobre cómo comprar para planes de Office 365 Enterprise, características y licencias adicionales. '
-ms.openlocfilehash: bc88524050e8606c6d93a8fcf24ed5d8c1638fe3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 084d60a2c21712e119657005a52dc0af11bce9a0
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886761"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120351"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Enterprise E5
 
-El plan de [Office 365 Enterprise E5](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software) incluye Skype la mayoría de las características empresariales y de Microsoft Teams. Solo hay unas pocas opciones adicionales.
+El plan [Office 365 Enterprise E5](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software) incluye la mayoría de las características de Skype Empresarial. Solo hay unas pocas opciones adicionales.
   
 |||
 |:-----|:-----|

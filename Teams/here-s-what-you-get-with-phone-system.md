@@ -1,5 +1,5 @@
 ---
-title: Esto es lo que conseguirá con Sistema telefónico en Office 365
+title: Esto es lo obtiene con el Sistema telefónico de Office 365
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -24,14 +24,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 9898bcea949c5150667ae502edfa6b1fccd64764
-ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
+ms.openlocfilehash: 655e095f87ee9ad53cb57df09ca8366ecc8eb8f6
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30056622"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120903"
 ---
-# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Esto es lo que conseguirá con Sistema telefónico en Office 365
+# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Esto es lo obtiene con el Sistema telefónico de Office 365
 
 Un PBX es un sistema telefónico dentro de una empresa. El sistema de teléfono en el complemento de Office 365 proporciona capacidades de PBX, pero sin la costoso y complejo de equipos. 
   
@@ -46,7 +46,7 @@ Mediante el uso del sistema de teléfono, su Skype para usuarios profesionales o
 |||
 |:-----|:-----|
 |**Sistema de teléfono en la característica de Office 365** <br/> |**Descripción** <br/> |
-|[¿Qué son los operadores automáticos de Sistema telefónico?](what-are-phone-system-auto-attendants.md) <br/> |Sistema telefónico operadores automáticos se pueden usar para crear un sistema de menús para la organización que permite a los autores de llamadas externas e internas mover a través de un sistema de menús para localizar y colocar o transferir las llamadas a los usuarios de la compañía o los departamentos de la organización.  <br/> |
+|[¿Qué son los operadores automáticos del Sistema telefónico?](what-are-phone-system-auto-attendants.md) <br/> |Sistema telefónico operadores automáticos se pueden usar para crear un sistema de menús para la organización que permite a los autores de llamadas externas e internas mover a través de un sistema de menús para localizar y colocar o transferir las llamadas a los usuarios de la compañía o los departamentos de la organización.  <br/> |
 |Iniciar/responder llamadas (por nombre y número)  <br/> |Conteste llamadas entrantes con un toque y realice llamadas salientes ya sea marcando el número completo o haciendo clic en un nombre en Skype Empresarial u Outlook.  <br/> |
 |[Configurar las opciones de desvío de llamadas en Skype Empresarial](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Realice o conteste llamadas en nombre de un administrador que usted admita. Las notificaciones permiten a los participantes ver claramente cuándo se contesta o realiza una llamada en nombre de otra persona.  <br/> |
 |[Desvío de llamadas y llamada simultánea](https://support.office.com/article/967d9aaf-3fed-448b-ab96-40bbc9a11a20) <br/> |Estas características permiten establecer las reglas de desvío para que sus llamadas puedan ir a cualquier parte, y usted pueda desviar llamadas a colegas o al correo de voz.  <br/> |
@@ -86,7 +86,7 @@ Vea estos artículos para planear y configurar el sistema telefónico en su nego
     
 - [Planear el sistema telefónico en la solución de Office 365 (PBX en la nube)](https://go.microsoft.com/fwlink/?LinkId=708645): en este artículo se dispone de todas las opciones de implementación. También tiene información acerca de cómo planificar una solución completamente basada en la nube. 
     
-- [Skype para profesionales y los equipos de Microsoft complemento licencias](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing): Obtenga información sobre las licencias que necesitará comprar para obtener el sistema telefónico en Office 365.
+- [Licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): Obtenga información sobre las licencias que necesitará comprar para obtener el sistema telefónico en Office 365.
     
 - [Configurar el correo de voz de Sistema telefónico - Ayuda para el administrador](set-up-phone-system-voicemail.md)
     

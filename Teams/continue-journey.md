@@ -14,10 +14,10 @@ MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: ac7466df9000eba2ea2689c717a2012fd252e150
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.sourcegitcommit: d8a68433949edfbbece628dd0e1c0ce9205ba0a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/26/2019
+ms.lasthandoff: 02/20/2019
 ms.locfileid: "29562608"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa")

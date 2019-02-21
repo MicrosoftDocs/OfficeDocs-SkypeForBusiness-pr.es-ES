@@ -1,5 +1,5 @@
 ---
-title: Configuración de la licencia de teléfono de área común para Microsoft Teams
+title: Configuración de la licencia de teléfono de área común de Microsoft Teams
 ms.author: lolaj
 author: lolaj
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar los teléfonos de área común para salas de espera, áreas de recepción y salas de conferencias '
-ms.openlocfilehash: 44cd9a4faa6c94a60d84fa825149bbf4c6b846fe
-ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
+ms.openlocfilehash: b7fb997a8e9367c4a3b8629f037ad79871b64b25
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27271160"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30121047"
 ---
-# <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configuración de la licencia de teléfono de área común para Microsoft Teams
+# <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configuración de la licencia de teléfono de área común de Microsoft Teams
 
 Un teléfono de área común normalmente se coloca en un área como una sala de espera o a otra área que se encuentra disponible a varias personas para realizar una llamada; Por ejemplo, una recepción área, sala de espera o conferencia telefónica. Teléfonos de área común se configuran como dispositivos en lugar de los usuarios y pueden iniciar sesión automáticamente en una red.
 
@@ -50,7 +50,7 @@ Las primeras cosas que debe hacer son compra una licencia de teléfono de área 
 > [!NOTE]
 > No necesita una licencia de sistema telefónico. Está incluida en la licencia del teléfono de área común.
 
-Para obtener más información sobre las licencias, vea [Skype para profesionales y los equipos de Microsoft complemento licencias](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Para obtener más información sobre las licencias, vea [licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Paso 2: crear una nueva cuenta de usuario para el teléfono y asignar las licencias
 
@@ -74,7 +74,7 @@ Para obtener más información, vea [Agregar un usuario](https://docs.microsoft.
 
 Use el Skype para el centro de administración de negocio para asignar a un número al usuario.
 
-1. En el centro de administración de Microsoft 365, seleccione **centros de administración** > **equipos & Skype** > **portal heredado**.
+1. En el centro de administración de Microsoft 365, seleccione **centros de administración** > **& equipos Skype** > **portal heredado**.
 
 2. En Skype para el centro de administración de negocio, seleccione **voz** > **los números de teléfono**.
 

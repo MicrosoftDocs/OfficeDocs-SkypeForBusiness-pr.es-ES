@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Obtenga información sobre los factores a tener en cuenta antes de configurar los eventos en directo en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0c71258ee0285c4c00f69e63be1f2efbfc5e4ab
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: cee30cc853043b4424a9a30c1ad785f77ea05f70
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297820"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120927"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -36,7 +36,7 @@ Es importante saber que se requiere una licencia de Office 365 para participar e
 - **Producción de inicio para rápido**  El usuario debe estar asignado a una licencia de Microsoft Teams.
 - **Producción de codificador para externo** El usuario debe estar asignado a una licencia de Microsoft Stream.
 
-Para obtener más información acerca de las licencias, vea [Skype para profesionales y los equipos de Microsoft complemento licencias](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Para obtener más información acerca de las licencias, vea [licencias de complemento de equipos de Microsoft](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 El usuario debe tener:
 - Programación de reunión privada en los equipos habilitados (*AllowPrivateMeetingScheduling - TeamsMeetingPolicy el parámetro = True*).
@@ -68,7 +68,7 @@ En la siguiente tabla resalta las principales características y funciones ofrec
 |Duración máxima de live (evento) |4 horas |4 horas |4 horas |
 |Creación de Live (evento) |   Portal de difusión de la reunión de Skype |Los equipos, Yammer a través de los equipos | Los equipos, Yammer a través de los equipos, secuencia |
 |Compromiso de audiencia – Yammer |& #x 2714; |& #x 2714; (experiencia integrada) |& #x 2714; (experiencia integrada) |
-|Compromiso de audiencia – moderan preguntas y respuestas |& #x 2714;  |& #x 2714; |& #x 2714; |
+|Compromiso de audiencia – Q moderan & A |& #x 2714;  |& #x 2714; |& #x 2714; |
 |Cliente de productor en Windows |& #x 2714; (Skype para la empresa) |& #x 2714; (Equipos) |& #x 2714; (Secuencia, los equipos a través de secuencia incrustar) |
 |Cliente de productor en Mac |X  | & #x 2714; (Equipos) |& #x 2714; (Secuencia, los equipos a través de secuencia incrustar) |
 |Recuento de ATTENDEE de la interfaz de usuario de productor |X  |& #x 2714; (Equipos) |& #x 2714; (Secuencia, los equipos a través de secuencia incrustar) |
@@ -85,7 +85,7 @@ Invitar a un moderador durante la reunión |& #x 2714; (Skype para la empresa) |
 |Controles DVR ATTENDEE (pausa, retroceso) |& #x 2714; |& #x 2714; |& #x 2714; |
 |Socio eCDN soporte técnico |& #x 2714; (Subárbol, Kollective, mejorar) |& #x 2714; (Subárbol, Kollective, mejorar) |& #x 2714; (Subárbol, Kollective, mejorar) |
 |Informe de asistencia posteriores a la difusión de productores |& #x 2714; |& #x 2714; |X |
-|Análisis de la opinión de los clientes de audiencia – Live de votación & sondeos |& #x 2714; (Impulsos de Microsoft) |X |X |
+|Análisis de opinión de los clientes de audiencia – Live sondeos & votación |& #x 2714; (Impulsos de Microsoft) |X |X |
 
 > [!IMPORTANT]
 > Es posible que se puede cambiar los límites que se han establecido.

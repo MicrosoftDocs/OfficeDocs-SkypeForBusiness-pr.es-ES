@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up the phone system (Cloud PBX) voicemail for your Skype for Business users. '
-ms.openlocfilehash: b0111c1d83772aee2b1b4075fdfe5125b4685c88
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 891279af8416786ae25efd72450f1cd695b11df4
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047827"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30121015"
 ---
 # <a name="set-up-phone-system-voicemail"></a>Configurar el correo de voz de Sistema telefónico
 
@@ -42,9 +42,9 @@ En este artículo es para la [administración de Office 365](https://support.off
 
 Para Skype para los usuarios en línea de negocio y planes de llamada, correo de voz del sistema telefónico se configuran automáticamente y aprovisionar para los usuarios después de asignar una licencia de **Sistema telefónico** y un número de teléfono a ellos.
   
-1. If the Phone System feature isn't included in your plan, you may need to purchase **Phone System** add-on licenses. You may also need to purchase an Exchange Online license. See [Skype for Business and Microsoft Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+1. Si la característica del sistema de teléfono no está incluida en el plan, debe comprar licencias de complemento de **Sistema telefónico** . También es posible que necesite comprar una licencia de Exchange Online. Vea [las licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
-2. [Assign or remove licenses for Office 365 for business](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), the [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), and the Exchange Online licenses to the people in your business. After you do that, they will be able to receive voicemail messages!
+2. [Asignar o quitar licencias de Office 365 para profesionales](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), las [licencias de asignar los equipos de Microsoft](assign-teams-licenses.md)y las licencias de Exchange Online a las personas de su empresa. Después de hacerlo, podrán recibir mensajes del correo de voz.
     
 3. Support for voicemail transcription has been added as of March 2017 and is enabled by default for all organizations and users. You can disable transcription for your organization by using Windows PowerShell and following the steps below.
 
@@ -52,9 +52,9 @@ Para Skype para los usuarios en línea de negocio y planes de llamada, correo de
 
 La siguiente información se refiere a la configuración del correo de voz del Sistema telefónico para que funcione con los entornos locales del Plan de llamadas.
   
-1. If the Phone System feature isn't included in your plan, you may need to purchase **Phone System** add-on licenses. You also need to purchase an Exchange Online license. See [Skype for Business and Microsoft Teams add-on licensing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+1. Si la característica del sistema de teléfono no está incluida en el plan, debe comprar licencias de complemento de **Sistema telefónico** . También necesitará comprar una licencia de Exchange Online. Vea [las licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
-2. [Asignar o quitar licencias de Office 365 para profesionales](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), la [Asignación de Skype para licencias de negocio y equipos de Microsoft](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)y las licencias de Exchange Online a las personas de su empresa.
+2. [Asignar o quitar licencias de Office 365 para profesionales](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), las [licencias de asignar los equipos de Microsoft](assign-teams-licenses.md)y las licencias de Exchange Online a las personas de su empresa.
     
 3. Siga las instrucciones que aparecen en la sección **Permitir que los usuarios de voz de sistema telefónico y servicios de correo de voz** de la [Configuración de Skype para guía de Business Edition de conector en la nube](https://technet.microsoft.com/library/mt605228.aspx).
 
@@ -62,7 +62,7 @@ La siguiente información se refiere a la configuración del correo de voz del S
 
 5. También puede ver el [soporte de correo de voz de Azure PBX para Exchange Server](https://support.microsoft.com/kb/3195158) para aprender a configurar la entrega de mensajes de correo de voz de Azure para usuarios del Sistema telefónico con buzones de correo locales.
 
-6. También lea y siga los pasos descritos en el siguiente documento: [Asistente de configuración híbrida](https://docs.microsoft.com/en-us/exchange/hybrid-configuration-wizard)
+6. También lea y siga los pasos descritos en el siguiente documento: [Asistente de configuración híbrida](https://docs.microsoft.com/exchange/hybrid-configuration-wizard)
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>Configuración de directivas de correo de voz en su organización
 

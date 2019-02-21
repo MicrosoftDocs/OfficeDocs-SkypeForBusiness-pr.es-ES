@@ -1,5 +1,5 @@
 ---
-title: Probar o comprar conferencias de Audio en Office 365 para Microsoft Teams
+title: Probar o comprar Audioconferencia en Office 365 para Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,14 +21,14 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Descubra cómo probar o comprar licencias de audioconferencia (conferencia RTC) para Office 365 con el fin de configurar llamadas de conferencia a las que la gente pueda acceder. '
-ms.openlocfilehash: 1b04a2506bd495165afcdf3e9f41ed6db6cd9252
-ms.sourcegitcommit: bd32d44d27990e373ce6afa38897159473601113
+ms.openlocfilehash: 58abec46586e93c2eb9b7fccdc1190cf9cf4c778
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "26544407"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120761"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Probar o comprar conferencias de Audio en Office 365 para Microsoft Teams
+# <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Probar o comprar Audioconferencia en Office 365 para Microsoft Teams
 
 En algunas ocasiones, en su organización se necesitará un teléfono para llamar a una reunión. ¡Microsoft Teams incluye la característica de conferencia de Audio para justo esta situación! Personas puedan llamar a reuniones de Microsoft Teams mediante un teléfono, en lugar de usar la aplicación de Microsoft Teams en un dispositivo móvil o un PC.
 
@@ -48,11 +48,11 @@ Debe ser un [administrador global o administrador de facturación](https://suppo
 
    - **Pruébelo** antes de comprar: puede registrarse para una prueba gratuita de Office 365 Enterprise E5 que incluye las conferencias de Audio. Vea la [versión de prueba de Office 365 Enterprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Cómprelo**: vea [Skype para profesionales y los equipos de Microsoft complemento licencias](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+   - **Cómprelo**: vea [las licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 3. [Asignar o cancelar licencia para Office 365 para empresas](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) que haya comprado a las personas de su organización que vayan a programar o coordinar reuniones.
 
-4. Si ha comprado licencias del complemento de audioconferencia y licencias de créditos de comunicaciones, asígnelas también. Para obtener instrucciones, vea [Asignar Skype para licencias de negocio y equipos de Microsoft](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+4. Si ha comprado licencias del complemento de audioconferencia y licencias de créditos de comunicaciones, asígnelas también. Para obtener instrucciones, vea [licencias de asignar los equipos de Microsoft](assign-teams-licenses.md).
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>Para comprar y asignar licencias de audioconferencia con pago por minuto:
 

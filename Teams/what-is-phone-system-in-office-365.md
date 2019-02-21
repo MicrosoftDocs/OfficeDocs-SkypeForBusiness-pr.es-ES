@@ -1,5 +1,5 @@
 ---
-title: ¿Qué es Sistema telefónico en Office 365?
+title: ¿Qué es el Sistema telefónico en Office 365?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,14 +22,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre lo que puede aportar sistema telefónico. '
-ms.openlocfilehash: ebf8e5dbf628cf0619df0ab9906c25d75662bdc6
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 4c05c8b5007ea5ffcba6b2c46fc36757858a0dfa
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048805"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30121031"
 ---
-# <a name="what-is-phone-system-in-office-365"></a>¿Qué es Sistema telefónico en Office 365?
+# <a name="what-is-phone-system-in-office-365"></a>¿Qué es el Sistema telefónico en Office 365?
 
 ## <a name="phone-system-in-office-365-and-skype-for-business-server"></a>Sistema telefónico en Office 365 y Skype para Business Server
 
@@ -76,8 +76,8 @@ Planes de llamada (nacionales y nacionales e internacionales) están disponibles
 Si está listo para empezar, consulte [configuración de sistema de teléfono de la organización](setting-up-your-phone-system.md).
 
 ## <a name="related-topics"></a>Temas relacionados
-- [Licencias complementarias de Skype Empresarial y Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [Administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-- [Diferentes tipos de números de teléfono que se usan para Planes de llamada](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- [Licencias de complemento de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Administrar los números de teléfono de la organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+- [Diferentes tipos de números de teléfono que se usan para planes de llamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Obtener teléfonos para Skype Empresarial Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
 

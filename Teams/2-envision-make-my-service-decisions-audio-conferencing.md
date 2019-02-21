@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad00f5df93cb91cc878a0b75a413b9299cde9a88
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: ba2faa36cbb1a745ada776d40113aab80790b728
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694778"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120719"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 
@@ -72,7 +72,7 @@ Después de confirmar que la organización tiene derecho a obtener el servicio d
 > [!TIP]
 > A continuación es un ejemplo de una plantilla de lista de habilitación de sitio de conferencia de Audio:
 > 
-> |Oficina   |Ubicación |Servicio de conferencia RTC  |
+> |Office   |Ubicación |Servicio de conferencia RTC  |
 > |---------|---------|---------|
 > |One Epping Road|Australia|Audioconferencia|
 > |100 Cyberport Road|RAE de Hong Kong|Conferencia RTC antigua|
@@ -84,20 +84,20 @@ Después de confirmar que la organización tiene derecho a obtener el servicio d
 
 ## <a name="licensing-for-audio-conferencing"></a>Licencias para Audioconferencia
 
-Una [licencia de conferencias de Audio](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) está disponible como parte de los planes de suscripción de Office 365 E5, o como servicio complementario a planes de suscripción de Office 365 E1 o E3 de Office 365.
+Una [licencia de conferencias de Audio](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) está disponible como parte de los planes de suscripción de Office 365 E5, o como servicio complementario a planes de suscripción de Office 365 E1 o E3 de Office 365.
 
 > [!NOTE]
 > Conferencia de RTC o telefónico en los equipos no es compatible con los proveedores de servicios de audioconferencia (ACP).
 > <br>Si está usando la Conferencia RTC para Skype Empresarial Online, puede beneficiarse al instante de Audioconferencia en Microsoft Teams.
 
-Para proporcionar números de teléfono de puente de conferencia gratuito y para admitir la conferencia de salida para los números de teléfono internacional, debe establecer [Comunicaciones créditos](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) para su organización.
+Para proporcionar números de teléfono de puente de conferencia gratuito y para admitir la conferencia de salida para los números de teléfono internacional, debe establecer [Comunicaciones créditos](what-are-communications-credits.md) para su organización.
 
 > [!IMPORTANT]
 > Algunos países son atendidas por los números de teléfono de puente de conferencia gratuito sólo. Para admitir telefónico en estos países, debe usar créditos Communications.
 
 La primera consideración al implementar Communications créditos consiste en decidir la cantidad inicial de los fondos que desea comprar. Si la organización decide usar automático recarga, debe decidir el desencadenador importe (menor de fondos) y la cantidad de recarga de automático. Su uso real determinará la cantidad de recarga de automático. Debe supervisar el uso de créditos de comunicaciones a través del tiempo y ajustar la cantidad de recarga según sea necesario.
 
-Encontrará más información acerca de las comunicaciones créditos [aquí](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
+Encontrará más información acerca de las comunicaciones créditos [aquí](what-are-communications-credits.md).
 
 <br>
 

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Resumen: Prepare su Skype Business Server 2019 servidores y la infraestructura de dominio con este tema. Hardware, sistema operativo, las bases de datos, software, todos los requisitos del sistema y recomendaciones, junto con el certificado de DNS, recurso compartido de archivos e información de Active Directory, están aquí ayudar a garantizar una instalación correcta y la implementación de la granja de servidores.'
-ms.openlocfilehash: a812c2cbc96ab80eea55072162c54bc7371a9dc5
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: 0f2926bc0d110ce7270b6798895ecda7ebabb23a
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729354"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120661"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Requisitos del sistema para Skype para Business Server 2019
  
@@ -50,7 +50,7 @@ Hardware recomendado para los servidores Standard Edition:
 |:-----|:-----|
 |CPU  <br/> |Procesador dual de Intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahercios (GHz) o superior.  <br/> Los procesadores Intel Itanium no se admiten para Skype para funciones de Business Server 2019.  <br/> |
 |Memoria  <br/> |32 gigabytes (GB).  <br/> |
-|Disco  <br/> |O  <br/> • 8 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (dos de los discos con RAID 1 y 6 con RAID 10).   <br/> O bien  <br/> • Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 8 unidades de disco mecánicas de 10000 RPM.  <br/> |
+|Disco  <br/> |O  <br/> • 8 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (dos de los discos con RAID 1 y 6 con RAID 10).   <br/> O BIEN  <br/> • Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 8 unidades de disco mecánicas de 10000 RPM.  <br/> |
 |Red  <br/> |1 adaptador de red de puerto doble, 1 Gbps o superior (pueden usarse dos adaptadores de red, pero es necesario formar con ellos un equipo con una sola dirección MAC y una sola dirección IP).  <br/> Las configuraciones de host múltiple o dobles son **no** admite los servidores para servidores Front-End, servidores Back-End y Standard Edition. <br/> Siempre que no se exponen en el sistema operativo y se usan para supervisar y administrar el hardware del servidor, puede hacer que los sistemas de administración fuera de banda, como DRAC o ILO. Este escenario no constituye un servidor de múltiples ubicaciones, y es un escenario compatible.  <br/> |
 
 
@@ -60,7 +60,7 @@ Hardware recomendado para servidores Front-End y servidores Back-End:
 |:-----|:-----|
 |CPU  <br/> |Procesador dual de Intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahercios (GHz) o superior. <br/> Los procesadores Intel Itanium no se admiten para Skype para funciones de Business Server 2019.  <br/> |
 |Memoria  <br/> |64 gigabytes (GB).  <br/> |
-|Disco  <br/> |O  <br/> • 8 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (dos de los discos con RAID 1 y 6 con RAID 10).   <br/> O bien  <br/> • Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 8 unidades de disco mecánicas de 10000 RPM.  <br/> |
+|Disco  <br/> |O  <br/> • 8 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (dos de los discos con RAID 1 y 6 con RAID 10).   <br/> O BIEN  <br/> • Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 8 unidades de disco mecánicas de 10000 RPM.  <br/> |
 |Red  <br/> |1 adaptador de red de puerto doble, 1 Gbps o superior (pueden usarse dos adaptadores de red, pero es necesario formar con ellos un equipo con una sola dirección MAC y una sola dirección IP).  <br/> Las configuraciones de host múltiple o dobles son **no** admite los servidores para servidores Front-End, servidores Back-End y Standard Edition. <br/> Siempre que no se exponen en el sistema operativo y se usan para supervisar y administrar el hardware del servidor, puede hacer que los sistemas de administración fuera de banda, como DRAC o ILO. Este escenario no constituye un servidor de múltiples ubicaciones, y es un escenario compatible.  <br/> |
    
 Hardware recomendado para los servidores perimetrales, servidores de mediación independiente y directores:
@@ -91,7 +91,7 @@ Una vez que tenga el hardware en su lugar, que necesitará para el sistema opera
 |Windows Server 2016 <br/> ||
 ||
    
-Cualquier cosa que no son los sistemas operativos que se muestra aquí no funcionará correctamente; Por favor, no lo pruebe para instalaciones de Skype para Business Server 2019.
+Cualquier cosa que no son los sistemas operativos que se muestra aquí no funcionará correctamente; Por favor, no lo pruebe para instalaciones de Skype para Business Server 2019. Por ejemplo, la opción Server Core no aparece y, por tanto, no es compatible con.
 
 > [!NOTE]
 > 
@@ -462,7 +462,7 @@ Certificados para servidores Front-End de un grupo de servidores Front-End:
   
 |**Certificado**|**Nombre común o nombre de sujeto**|**Nombre alternativo de sujeto**|**Ejemplo**|**Comentarios**|
 |:-----|:-----|:-----|:-----|:-----|
-|Predeterminado  <br/> |FQDN del grupo de servidores  <br/> |FQDN del grupo y FQDN del servidor  <br/> Si hay varios dominios SIP y está habilitada la configuración automática de los clientes, el Asistente para certificados detectará y agregará los FQDN de todos los dominios SIP admitidos.  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta del sistema de nombres de dominio (DNS) en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com   <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |El asistente detecta todos los dominios SIP especificados durante la instalación y los agrega automáticamente al nombre alternativo de sujeto.  <br/> También puede usar este certificado para la autenticación de servidor a servidor.  <br/> |
+|Valor predeterminado  <br/> |FQDN del grupo de servidores  <br/> |FQDN del grupo y FQDN del servidor  <br/> Si hay varios dominios SIP y está habilitada la configuración automática de los clientes, el Asistente para certificados detectará y agregará los FQDN de todos los dominios SIP admitidos.  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta del sistema de nombres de dominio (DNS) en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com   <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |El asistente detecta todos los dominios SIP especificados durante la instalación y los agrega automáticamente al nombre alternativo de sujeto.  <br/> También puede usar este certificado para la autenticación de servidor a servidor.  <br/> |
 |Web interno  <br/> |FQDN del grupo de servidores  <br/> |Cada uno de los siguientes elementos:  <br/> • Internal web FQDN (que no es el mismo que el FQDN del servidor)  <br/> FQDN del servidor •  <br/> • Skype para el FQDN del grupo de negocio  <br/> Y  <br/> • Direcciones URL sencillas de reunión  <br/> Dirección URL sencilla de • dial-in  <br/> • Dirección URL sencilla de administración  <br/> O BIEN  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN =\*. contoso.com  <br/> |Si tiene varias URL simples de reunión, debe incluir todos ellos como nombres alternativos del sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
 |Web externo  <br/> |FQDN del grupo de servidores  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN de web externo  <br/> Y  <br/> Dirección URL sencilla de • dial-in  <br/> • Dirección URL sencilla de administración  <br/> O BIEN  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN =\*. contoso.com  <br/> |Si tiene varias URL simples de reunión, debe incluir todos ellos como nombres alternativos del sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
    
@@ -478,7 +478,7 @@ Certificados para el servidor de mediación independiente:
   
 |**Certificado**|**Nombre común o nombre de sujeto**|**Nombre alternativo de sujeto**|**Ejemplo**|
 |:-----|:-----|:-----|:-----|
-|Predeterminado  <br/> |FQDN del grupo de servidores  <br/> |FQDN del grupo de servidores  <br/> FQDN del miembro del grupo de servidores  <br/> |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net  <br/> |
+|Valor predeterminado  <br/> |FQDN del grupo de servidores  <br/> |FQDN del grupo de servidores  <br/> FQDN del miembro del grupo de servidores  <br/> |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net  <br/> |
    
 Certificados para la aplicación de sucursal con funciones de supervivencia (específicamente, con funciones de supervivencia aplicación de sucursal 2015 para Skype para Business Server 2019):
   

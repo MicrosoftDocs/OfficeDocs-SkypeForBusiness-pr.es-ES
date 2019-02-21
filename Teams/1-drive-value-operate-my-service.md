@@ -14,24 +14,24 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f87ab06fd867d216a8668d9bbb9e3ad1e807b463
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 9a11360c5cae498262a717c41e4247037de1db54
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649600"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120514"
 ---
 # <a name="operate-my-service"></a>Usar mi servicio
 
 En este artículo se proporciona una visión general de los requisitos para el funcionamiento correctamente los servicios de voz en la nube para su organización. Por funciona correctamente los servicios de voz en la nube, puede estar seguro de que si va a proporcionar una experiencia confiable de alta calidad para su organización.
 
-## <a name="introduction-to-the-operations-guide"></a>Introducción a la Guía de operaciones
+## <a name="introduction-to-the-operations-guide"></a>Introducción a la guía de operaciones
 
 La Guía de operaciones le ofrece una visión general de todas las tareas y actividades necesarias como parte de la función de administración de servicios para Microsoft Teams.
 
-Administración de servicios es un tema amplio que se describen las operaciones diarias del servicio Microsoft Teams después de que se ha implementado y se habilita para los usuarios. El servicio de los equipos incluye Microsoft Office 365 y los componentes de infraestructura que están implementan en servidores locales (por ejemplo, la red).
+La administración de servicios es un tema muy amplio que cubre las operaciones del día a día del servicio de Microsoft Teams una vez que se ha implementado y habilitado para los usuarios. El servicio de Teams abarca Microsoft Office 365 y los componentes de infraestructura que se implementan en local (por ejemplo, las redes).
 
-La noción de administración de servicios no lo más probable es un concepto nuevo para la mayoría de las organizaciones. Es posible que ya se ha implementado los procesos y las tareas que están asociadas con servicios existentes. Dicho esto, probablemente puede aumentar sus procesos actuales al planear la administración del servicio de hoy en día admitir los equipos en el futuro.
+Seguramente, el concepto de "administración de servicios" no es nuevo para la mayoría de organizaciones. Es posible que ya se ha implementado los procesos y las tareas que están asociadas con servicios existentes. Dicho esto, probablemente puede aumentar sus procesos actuales al planear la administración del servicio de hoy en día admitir los equipos en el futuro.
 
 Administración del servicio abarca todas las actividades y procesos implicados en la administración de equipos de un extremo a otro. Tal y como se ha mencionado anteriormente, algunos componentes de administración de servicios, la infraestructura que se compone del propio servicio de Office 365: son responsabilidad de Microsoft, mientras que usted, el cliente, es responsables de los usuarios para administrar los diversos aspectos de los equipos de la red y los extremos que proporciona.
 
@@ -46,7 +46,7 @@ Las tareas y actividades de esta guía se agrupan en ocho categorías como se mu
 </table>
 
 
-### <a name="operational-role-mapping"></a>Asignación de funciones operativas
+### <a name="operational-role-mapping"></a>Asignación de roles operativos
 
 La planeación que llevó a cabo para operaciones durante la fase de previsión es fundamental, ya que las actividades de operaciones comenzar cuando se habilitan la primera que los usuarios pilotos. Esta guía enumera las actividades y tareas que se deben realizar de forma diaria, semanal, mensual o como sea necesario para mantener una implementación de los equipos de alta calidad. Esta guía proporciona los conocimientos y las instrucciones sobre cómo realizar estas tareas y actividades críticas.
 
@@ -137,7 +137,7 @@ Estos grupos pueden incluir los propietarios de servicio, asistencia, los grupos
 
 ### <a name="monitoring-for-advanced-scenarios"></a>Supervisión para escenarios avanzados
 
-Puede supervisar el estado del servicio y los próximos cambios mediante el aprovechamiento de la API de comunicaciones de Office 365 Service para obtener acceso a los cambios y el estado del servicio Office 365 mediante programación. Utilice esta API para crear su propia supervisión herramienta o conectar sus herramientas de supervisión existentes para las comunicaciones de servicio de Office 365, potencialmente simplificación de cómo supervisar el entorno. Para obtener más información, vea [Office 365 para desarrolladores de la empresa](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx).
+Puede supervisar el estado del servicio y los próximos cambios mediante el aprovechamiento de la API de comunicaciones de Office 365 Service para obtener acceso a los cambios y el estado del servicio Office 365 mediante programación. Utilice esta API para crear su propia supervisión herramienta o conectar sus herramientas de supervisión existentes para las comunicaciones de servicio de Office 365, potencialmente simplificación de cómo supervisar el entorno. Para obtener más información, vea [Office 365 para desarrolladores de la empresa](https://developer.microsoft.com/office).
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tareas de diario o semanal o mensual/según sea necesario
 
@@ -361,9 +361,9 @@ Para garantizar el mantenimiento de la red, un número de actividades de las ope
 
 ### <a name="references"></a>Referencias 
 
-[Organizador de red](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
+[Planificador de red](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
-[URL de Office 365 e intervalos de direcciones IP](https://aka.ms/o365ips)
+[Direcciones URL e intervalos de direcciones IP de Office 365](https://aka.ms/o365ips)
 
 [Esquema de datos de creación](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#tenant-data-file-format-and-building-data-file-structure)
 
@@ -371,13 +371,13 @@ Para garantizar el mantenimiento de la red, un número de actividades de las ope
 
 ## <a name="assess-and-ensure-quality"></a>Evaluar y garantizar la calidad 
 
-Todas las organizaciones necesitan un individuo o grupo sea responsable de calidad. Esta es la función más importante de la administración de servicio. La función de los pesos pesados calidad se asigna a una persona o grupo que es entusiastas acerca de la experiencia de sus usuarios.
-Esta función requiere las aptitudes para identificar las tendencias en el entorno y el apoyo para trabajar con otros equipos para la corrección de unidad. El mejor candidato para ser experto en calidad es normalmente el propietario del servicio al cliente. Según el tamaño y la complejidad de la organización, podría tratarse de cualquier persona o grupo con pasión para garantizar una experiencia de usuario de alta calidad.
+Todas las organizaciones necesitan un individuo o grupo sea responsable de calidad. Es, sin duda, el rol más importante en la administración de servicios. La función de los pesos pesados calidad se asigna a una persona o grupo que es entusiastas acerca de la experiencia de sus usuarios.
+y requiere las habilidades adecuadas para identificar tendencias del entorno y el respaldo necesario para poder trabajar con otros equipos y dirigir las correcciones que corresponda. El mejor candidato para ser experto en calidad es normalmente el propietario del servicio al cliente. Según el tamaño y la complejidad de la organización, podría tratarse de cualquier persona o grupo con pasión para garantizar una experiencia de usuario de alta calidad.
 
 El Campeón de calidad aprovecha las herramientas existentes y procesos documentados, como el panel de calidad de llamadas (CQD) y la calidad de experiencia revisión guía, para supervisar la experiencia del usuario, identifican las tendencias de calidad y corrección de la unidad donde sea necesario.
 El Campeón de calidad debe trabajar con los equipos respectivos a las acciones de corrección de unidad y el informe a un Comité de dirección sobre el progreso y cualquier problema open.
 
-La [Calidad de experiencia consulte la guía](https://aka.ms/qerguide) incluye las actividades que evaluación y se proporcionan instrucciones de corrección en áreas clave que tienen el mayor impacto sobre cómo mejorar la experiencia del usuario. Las instrucciones proporcionadas en la Guía de revisión de calidad de experiencia se centra en uso CQD en línea como la principal herramienta para notificar e investigar cada área, con un enfoque en audio para maximizar la adopción y el impacto. Cualquier optimizaciones realizadas a la red para mejorar la experiencia de audio traducirá también directamente a las mejoras en uso compartido de escritorio y de vídeo.
+La [Calidad de experiencia consulte la guía](https://aka.ms/qerguide) incluye las actividades que evaluación y se proporcionan instrucciones de corrección en áreas clave que tienen el mayor impacto sobre cómo mejorar la experiencia del usuario. Las instrucciones proporcionadas en la Guía de revisión de calidad de experiencia se centra en uso CQD en línea como la principal herramienta para notificar e investigar cada área, con un enfoque en audio para maximizar la adopción y el impacto. Las optimizaciones que se realicen en la red para mejorar la experiencia de audio se traducirán directamente en mejoras de las de vídeo y escritorio compartido.
 
 Se recomienda encarecidamente que se nombra al Campeón de calidad desde el principio. Después de que se ha designado, debe comenzar a familiarizarse con el contenido de la Guía de revisión de calidad de experiencia y materiales de formación asociados.
 
@@ -395,9 +395,9 @@ Se recomienda encarecidamente que se nombra al Campeón de calidad desde el prin
 
 ### <a name="references"></a>Referencias 
 
-[Obtenga información sobre CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
+[Información sobre el Panel de calidad de llamadas](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
-[Información de creación de carga](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
+[Información de creación de carga](turning-on-and-using-call-quality-dashboard.md#upload-building-information)
 
 [Calidad de experiencia consulte la Guía](https://aka.ms/qerguide)
 
@@ -409,16 +409,16 @@ Los extremos de Microsoft Teams pueden definirse como cualquier PC, Mac, Tablet 
 
 ### <a name="endpoint-requirements"></a>Requisitos del extremo
 
-Uno de los beneficios clave de los equipos es que el cliente se mantiene actualizado automáticamente. Los clientes en el PC y Mac se actualizan mediante el uso de un proceso en segundo plano que comprueba para las versiones nuevas y descarga al nuevo cliente cuando la aplicación está inactiva. Los equipos de aplicaciones móviles se mantienen actuales a través de sus almacenes respectivos de aplicación.
+Uno de los beneficios clave de los equipos es que el cliente se mantiene actualizado automáticamente. Los clientes de PC y Mac se actualizan mediante un proceso en segundo plano que comprueba si hay nuevas compilaciones y descarga el cliente nuevo cuando la aplicación está inactiva. Los equipos de aplicaciones móviles se mantienen actuales a través de sus almacenes respectivos de aplicación.
 
 El cliente de los equipos tiene requisitos mínimos en cuanto a la plataforma de software subyacente. Estos requisitos podrían cambiar con el tiempo y, por lo tanto, es importante que las supervise para que los cambios. Por ejemplo, el cliente de los equipos tiene una versión de iOS mínimo. Si el cliente utiliza un explorador de internet, debe mantenerse actual así como el explorador. Una lista de plataformas compatibles puede encontrarse en [obtener los clientes de equipos de Microsoft](get-clients.md).
 
-### <a name="endpoint-firewalls"></a>Firewalls de extremo
+### <a name="endpoint-firewalls"></a>Firewalls para los puntos de conexión
 
-Firewalls de cliente pueden tener un impacto significativo en la experiencia del usuario.
+Los firewalls del cliente pueden repercutir de forma significativa en la experiencia de usuario.
 Firewalls de cliente pueden afectar a la calidad de las llamadas e incluso impedir que una llamada desde el que se establezca. Después de que se han configurado las exclusiones adecuadas en el firewall de cliente, que necesitan para mantenerse al día en función de la información de [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://aka.ms/o365ips). Su proveedor de terceros tendrá las instrucciones específicas sobre cómo actualizar las exclusiones.
 
-### <a name="wi-fi-drivers"></a>Controladores de Wi-Fi
+### <a name="wi-fi-drivers"></a>Controladores Wi-Fi
 
 Controladores de Wi-Fi podrían ser un inconveniente. Por ejemplo, un controlador podría tener muy agresivos comportamientos de movilidad entre puntos de acceso que pueden provocar innecesario-punto de acceso de conmutación, lo que a la calidad de llamadas deficientes. Se puede detectar un controlador Wi-Fi bajo rendimiento a través de una revisión de calidad de experiencia (vea [Calidad de experiencia consulte la guía](https://aka.ms/qerguide) para obtener más detalles). Es esencial para implementar un proceso controlado por la calidad que supervisa nuevos controladores Wi-Fi y se asegura de que probarlos antes de que se implementan en la población general de usuario.
 
@@ -447,14 +447,14 @@ Incluso si ha seguido las instrucciones anteriores, los usuarios de su organizac
 | Actividad                 | Descripción                                                                                                                                                                                                                                                                                                                                                                     | Cadencia   | Equipo asignado |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Requisitos del extremo    | Asegúrese de que los equipos de extremo continúa para cumplir todos los requisitos de software para los equipos que aparecen en [obtener los clientes de equipos de Microsoft](get-clients.md).                                                                                                                                                                                       | Cada mes   |               |
-| Firewalls de extremo       | Mantener las exclusiones adecuadas en el firewall de extremo en función de la información de [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://aka.ms/o365ips). Su proveedor de terceros tendrá las instrucciones específicas sobre cómo mantener las exclusiones. Suscríbase a la [fuente RSS](https://support.office.com/o365ip/rss) para recibir automáticamente una notificación de cambios. | Según sea necesario |               |
-| Controladores de Wi-Fi            | Probar y actualizar los controladores de Wi-Fi en su PC. Validar los resultados mediante el uso de CQD ([Guía de revisión de calidad de experiencia](https://aka.ms/qerguide)).                                                                                                                                                                                                                                                                   | Según sea necesario |               |
+| Firewalls para los puntos de conexión       | Mantener las exclusiones adecuadas en el firewall de extremo en función de la información de [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://aka.ms/o365ips). Su proveedor de terceros tendrá las instrucciones específicas sobre cómo mantener las exclusiones. Suscríbase a la [fuente RSS](https://support.office.com/o365ip/rss) para recibir automáticamente una notificación de cambios. | Según sea necesario |               |
+| Controladores Wi-Fi            | Probar y actualizar los controladores de Wi-Fi en su PC. Validar los resultados mediante el uso de CQD ([Guía de revisión de calidad de experiencia](https://aka.ms/qerguide)).                                                                                                                                                                                                                                                                   | Según sea necesario |               |
 | Administración de extremo      | Mantener el catálogo de los extremos compatibles y dispositivos de interfaz (por ejemplo, auriculares con micrófono). Administrar contratos de proveedores, garantía, distribución, reemplazo y reparar las directivas.                                                                                                                                                                                                        | Cada mes   |               |
 | Solución de problemas de extremo | Solución de problemas de tareas puede incluir la comprobación de la conectividad, la lista de problemas conocidos, registro de recopilación, análisis y escalación a Microsoft Support o proveedores de terceros de consultoría.                                                                                                                                                                                               | Según sea necesario |               |
 
 ### <a name="references"></a>Referencias 
 
-[URL de Office 365 e intervalos de direcciones IP](https://aka.ms/o365ips)
+[Direcciones URL e intervalos de direcciones IP de Office 365](https://aka.ms/o365ips)
 
 [Obtener clientes para Microsoft Teams](get-clients.md)
 
@@ -497,25 +497,25 @@ Para admitir usuarios, una organización puede requerir cualquier número de tar
 
 [Agregar, cambiar o quitar una ubicación de emergencia para su organización](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization)
 
-[Crear y administrar planes de marcado](https://docs.microsoft.com/microsoftteams/create-and-manage-dial-plans)
+[Crear y administrar planes de marcado](create-and-manage-dial-plans.md)
 
 #### <a name="common-tasks-for-audio-conferencing"></a>Tareas comunes para conferencias de Audio
 
-[Cambiar la configuración de un puente de Audioconferencia](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge)
+[Cambiar la configuración de un puente de Audioconferencia](change-the-settings-for-an-audio-conferencing-bridge.md)
 
-[Cambiar los números de teléfono de su puente de Audioconferencia](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge)
+[Cambiar los números de teléfono de su puente de Audioconferencia](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 
-[Administrar la configuración de Audioconferencia para un usuario](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)
+[Administrar la configuración de Audioconferencia para un usuario](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
-[Restablecer el PIN de conferencia de Audio](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/reset-the-audio-conferencing-pin)
+[Restablecer el PIN de conferencia de Audio](reset-the-audio-conferencing-pin-in-teams.md)
 
 ### <a name="license-management"></a>Administración de licencias
 
-Que su organización crezca o contratos, es importante que planee la concesión de licencias para las necesidades actuales y futuras. No hay una licencia básica de los equipos, además de las licencias para las capacidades de voz de la nube ([Sistema telefónico](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) y [Conferencias de Audio](https://products.office.com/skype-for-business/audio-conferencing)).
+Que su organización crezca o contratos, es importante que planee la concesión de licencias para las necesidades actuales y futuras. No hay una licencia básica de los equipos, además de las licencias para las capacidades de voz de la nube ([Sistema telefónico](here-s-what-you-get-with-phone-system.md) y [Conferencias de Audio](https://products.office.com/skype-for-business/audio-conferencing)).
 
-Para los equipos, licencias del sistema de teléfono requieren licencias de [Planeación de llamada](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) asociadas. Llamar al Plan de licencias permite realizar y recibir llamadas de teléfono nacionales o internacionales. Estos planes están basados en uso y tener minutos grupos asociados con ellos. Aprovisionamiento [Communications créditos](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) se asegurará de que nunca se ejecute fuera de servicio.
+Para los equipos, licencias del sistema de teléfono requieren licencias de [Planeación de llamada](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) asociadas. Llamar al Plan de licencias permite realizar y recibir llamadas de teléfono nacionales o internacionales. Estos planes están basados en uso y tener minutos grupos asociados con ellos. Aprovisionamiento [Communications créditos](what-are-communications-credits.md) se asegurará de que nunca se ejecute fuera de servicio.
 
-Conferencias de audio permite la conferencia de acceso telefónico tolled y servicios de conferencia de acceso telefónico de salida nacionales. Conferencia de acceso telefónico gratuita o no nacionales de salida de escenarios pueden provocar que incurrir en gastos adicionales para qué [Comunicaciones créditos](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) son necesarios.
+Conferencias de audio permite la conferencia de acceso telefónico tolled y servicios de conferencia de acceso telefónico de salida nacionales. Conferencia de acceso telefónico gratuita o no nacionales de salida de escenarios pueden provocar que incurrir en gastos adicionales para qué [Comunicaciones créditos](what-are-communications-credits.md) son necesarios.
 
 Créditos Communications pueden complementar las licencias de llamar a planear y conferencias de Audio. Llamar a planear las licencias y créditos de comunicación están basados en uso y por lo tanto, es necesario supervisar y aprovisionados para según corresponda.
 
@@ -525,7 +525,7 @@ Puede aprovechar el [informe de uso de RTC](https://docs.microsoft.com/skypeforb
 
 Existen dos métodos para adquirir los números en los equipos: puertos de números de teléfono de otro proveedor o puede aprovisionar los números directamente desde el inventario de número de Microsoft. Ambos métodos se describen en [los números de teléfono de introducción para los usuarios](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
 
-Hay un límite para el número de números de teléfono que puede aprovisionar del inventario de número de Microsoft. Los límites se determinan mediante una serie de factores que se detallan en [cuántos números de teléfono puede obtener?](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get).
+Hay un límite para el número de números de teléfono que puede aprovisionar del inventario de número de Microsoft. Los límites se determinan mediante una serie de factores que se detallan en [cuántos números de teléfono puede obtener?](how-many-phone-numbers-can-you-get.md).
 Los límites dependen del tipo de números: gratuito números de servicio, los números de teléfono de pago de servicio y los números de suscriptor (usuario). Cada uno tiene sus propios límites y debe administrarse de forma independiente. Si se encuentra cerca del límite de (o ha alcanzado el límite), puede aplicar un incremento al límite. Este proceso se describe en el artículo en el párrafo anterior.
 
 Puede que a veces cuando un número no está disponible estén configurados en una región que el servicio esté disponible. Para obtener información acerca del proceso para los números que solicita, vea [administrar los números de teléfono para su organización](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
@@ -552,21 +552,21 @@ La [Calidad de experiencia consulte la guía](https://aka.ms/qerguide) incluye u
 
 ![Las áreas clave que se desea examinar durante una revisión de calidad de experiencia: audio, la confiabilidad y resultados de la encuesta.] (media/plan-my-service-management-image2.png "Las áreas clave que se desea examinar durante una revisión de calidad de experiencia: audio, la confiabilidad y resultados de la encuesta.")
 
-Al continuamente evaluar y solucionar relativos a las áreas que se describen en la guía, puede reducir su potencial de afectar negativamente a la experiencia del usuario. Mayoría de experiencia de usuario los problemas encontrada en una implementación puede agruparse en las siguientes categorías:
+Al continuamente evaluar y solucionar relativos a las áreas que se describen en la guía, puede reducir su potencial de afectar negativamente a la experiencia del usuario. La mayoría de problemas que se encuentran en la experiencia de usuario de una implementación se pueden agrupar en las siguientes categorías:
 
--   Configuración de firewall o proxy incompleto
+-   Una configuración de proxy o firewall incompleta
 
--   Cobertura Wi-Fi deficiente
+-   Una cobertura Wi-Fi insuficiente
 
--   Ancho de banda insuficiente
+-   Un ancho de banda insuficiente
 
 -   VPN
 
--   Uso de dispositivos de audio integrados o no optimizados
+-   El uso de dispositivos de audio integrados o no optimizados
 
--   Subredes problemáticas o dispositivos de red
+-   Dispositivos de red o subred problemáticos
 
-Las instrucciones proporcionadas en la Guía de revisión de calidad de experiencia se centra en uso en pantalla de panel de calidad de llamadas (CQD) como la principal herramienta para notificar e investigar cada área que se ha descrito, con un enfoque en audio para maximizar la adopción y el impacto. Cualquier optimizaciones realizadas a la red para mejorar la experiencia de audio traducirá también directamente a las mejoras en uso compartido de escritorio y de vídeo.
+Las instrucciones proporcionadas en la Guía de revisión de calidad de experiencia se centra en uso en pantalla de panel de calidad de llamadas (CQD) como la principal herramienta para notificar e investigar cada área que se ha descrito, con un enfoque en audio para maximizar la adopción y el impacto. Las optimizaciones que se realicen en la red para mejorar la experiencia de audio se traducirán directamente en mejoras de las de vídeo y escritorio compartido.
 
 Se recomienda encarecidamente que se nombra al Campeón de calidad desde el principio. Después de que se ha designado, debe comenzar a familiarizarse con el contenido en la [Calidad de experiencia de guía para la revisión](https://aka.ms/qerguide).
 

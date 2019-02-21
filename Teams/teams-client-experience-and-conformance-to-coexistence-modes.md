@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cc7f27d244b557b96f79b62247ae887a083a0e6
-ms.sourcegitcommit: d8a68433949edfbbece628dd0e1c0ce9205ba0a0
+ms.openlocfilehash: bd81915739d9ad2087dec5b66595efd1c49e2c84
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "30087847"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120895"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -71,7 +71,7 @@ Los administradores deben establecer cada una de estas opciones de configuració
 |SfBWithTeamsCollab o SfBOnly|Deshabilitado|Deshabilitado|Deshabilitado|Deshabilitado|
 ||||||
 
-Antes de la implantación de conformidad automática de la experiencia del usuario en función de los modos, el `Grant-csTeamsUpgradePolicy` cmdlet comprueba la configuración de los valores correspondientes en TeamsMessagingPolicy, TeamsCallingPolicy y TeamsMeetingPolicy para determinar si estos configuración de es compatible con el modo especificado. Si alguna no están configurado correctamente, la concesión se realizará correctamente pero, proporcionará una advertencia en PowerShell que indica qué configuración específica no está configurados correctamente. A continuación es un ejemplo del aspecto que podría tener la advertencia de PowerShell:
+Antes de la implantación de conformidad automática de la experiencia del usuario en función de los modos, el `Grant-CsTeamsUpgradePolicy` cmdlet comprueba la configuración de los valores correspondientes en TeamsMessagingPolicy, TeamsCallingPolicy y TeamsMeetingPolicy para determinar si estos configuración de es compatible con el modo especificado. Si alguna no están configurado correctamente, la concesión se realizará correctamente pero, proporcionará una advertencia en PowerShell que indica qué configuración específica no está configurados correctamente. A continuación es un ejemplo del aspecto que podría tener la advertencia de PowerShell:
 
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`

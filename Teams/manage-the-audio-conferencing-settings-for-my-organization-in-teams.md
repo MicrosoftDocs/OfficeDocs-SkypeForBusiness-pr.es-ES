@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Vea los pasos que hay que seguir en Microsoft Teams para asignar una licencia de conferencia de acceso telefónico local y un Id. de conferencia a un usuario y muchas otras opciones de la conferencia de acceso telefónico local. '
-ms.openlocfilehash: 9769f5cd0a31ddf8494f57454bec698d1a626d4a
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 34afd4597bad857b061296feb87fe8cae758c99f
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754050"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30121039"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Administrar la configuración de Audioconferencia para su organización en Microsoft Teams
 
@@ -37,7 +37,7 @@ Puede que le resulte más sencillo ver todas las opciones de audioconferencias p
 ## <a name="assign-an-audio-conferencing-license"></a>Asignar una licencia de Audioconferencia
 
 > [!NOTE]
-> No es posible asignar licencias con Teams. Hay que usar el Centro de administración de Office 365. See [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). 
+> No es posible asignar licencias con Teams. Hay que usar el Centro de administración de Office 365. See [Assign Skype for Business and Microsoft Teams licenses](assign-teams-licenses.md). 
   
  **Para asignar una licencia a un usuario**
   
@@ -50,7 +50,7 @@ Puede que le resulte más sencillo ver todas las opciones de audioconferencias p
   
 3. En el panel de acciones, en **Product licenses** (Licencias de producto), haga clic en **Editar**. 
     
-4. En la página **Asignar licencia**, active **Conferencias RTC de Skype Empresarial** y haga clic en **Guardar**. Para obtener más información sobre licencias, consulte [Licencias complementarias de Skype Empresarial](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+4. En la página **Asignar licencia**, active **Conferencias RTC de Skype Empresarial** y haga clic en **Guardar**. Para obtener más información acerca de las licencias, vea [licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
 > [!NOTE]
 > Después de asignar la licencia, puede que Microsoft no aparezca en el menú desplegable como un proveedor de servicios de conferencia de acceso telefónico local. Si esto ocurre, cierre la sesión del centro de administración de Office 365 o presione CTRL + F5 para actualizar la ventana del explorador. 

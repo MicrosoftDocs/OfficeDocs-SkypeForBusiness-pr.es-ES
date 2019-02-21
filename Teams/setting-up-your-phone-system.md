@@ -1,5 +1,5 @@
 ---
-title: Configuración del sistema telefónico en su organización
+title: Configurar el Sistema telefónico en su organización
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -23,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar el sistema telefónico (PBX en la nube) para su organización. '
-ms.openlocfilehash: 0ae2d890e87ecef217bfdafd2c547de7ae35414d
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 5318c51fc389945fea09242cc211bb80ccbe4450
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047565"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120967"
 ---
-# <a name="setting-up-phone-system-in-your-organization"></a>Configuración del sistema telefónico en su organización
+# <a name="setting-up-phone-system-in-your-organization"></a>Configurar el Sistema telefónico en su organización
 
 The following is a step-by-step guide for setting up Phone System in Office 365. Links to additional, detailed information are available at the end of each step.
 
@@ -44,7 +44,7 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>Paso 2: comprar y asignar licencias del sistema telefónico y del plan de llamadas
 
-To assign a Phone System and Calling Plan license to a single user the steps are the same as assigning an Office 365 license. See [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). If you want to assign multiple users in bulk, see [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+Para asignar una licencia del sistema telefónico y del plan de llamadas a un solo usuario los pasos son los mismos que para asignar una licencia de Office 365. Vea [las licencias de asignar los equipos de Microsoft](assign-teams-licenses.md). Si desea asignar a varios usuarios de forma masiva, vea [licencias de asignar los equipos de Microsoft](assign-teams-licenses.md).
 
 ## <a name="step-3-get-phone-numbers-for-your-users"></a>Paso 3: Obtener los números de teléfono para los usuarios
 
@@ -182,7 +182,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
   
 Para ver las preguntas más frecuentes acerca de las audioconferencias, consulte [Preguntas frecuentes sobre audioconferencias](audio-conferencing-common-questions.md).
     
-1. If you purchased **Audio Conferencing** add-on licenses and Communications Credits licenses, assign them too. For instructions, see [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+1. Si ha comprado licencias del complemento de **audioconferencia** y licencias de créditos de comunicaciones, asígnelas también. Para obtener instrucciones, vea [licencias de asignar los equipos de Microsoft](assign-teams-licenses.md).
 
     Decide on your audio conferencing provider. An audio conferencing provider supplies an audio conferencing bridge. The conferencing bridge sets your dial-in phone numbers, PINs, and conference IDs for meetings. Decide whether to use Microsoft or a third-party audio conferencing provider:
 
@@ -203,7 +203,7 @@ Para ver las preguntas más frecuentes acerca de las audioconferencias, consulte
     
    3. Establecer los idiomas de operador automático para conferencias de Audio [en Skype para la empresa](/skypeforbusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing) o [en los equipos de Microsoft](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) que usa el operador automático de conferencia de audio para saludar a un autor de la llamada al conectarse a un número de teléfono de conferencia de Audio. Este paso solo se aplica si está utilizando Microsoft como su proveedor de audioconferencias.
     
-   4. Establecer la longitud del eje para las reuniones de conferencia de Audio [en Skype para la empresa](/skypeforbusiness/audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings) o [en los equipos de Microsoft](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md).
+   4. Establecer la longitud del eje para las reuniones de conferencia de Audio [en los equipos de Microsoft](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md).
     
       > [!NOTE]
       > This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
@@ -280,7 +280,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 **Para obtener más información acerca de la asignación de licencias de créditos de comunicaciones, consulte [Configurar créditos de comunicaciones para su organización](set-up-communications-credits-for-your-organization.md).**
 
 ## <a name="related-topics"></a>Temas relacionados
-[Esto es lo que conseguirá con Sistema telefónico en Office 365](here-s-what-you-get-with-phone-system.md)
+[Esto es lo obtiene con el Sistema telefónico de Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

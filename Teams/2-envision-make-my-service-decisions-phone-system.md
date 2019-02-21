@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb254de21bfaf0ffb66a9c9177e5109a1b4eafc1
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: a7cd550b266f69d4ad0223bd7364ec1b69e56745
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593969"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120574"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 
@@ -88,20 +88,20 @@ Después de confirmar que su organización puede obtener el servicio al llamar a
 
 ## <a name="phone-numbers-and-emergency-locations"></a>Números de teléfono y ubicaciones de emergencia
 
-Con una llamada a los planes en Office 365, todos los usuarios de su organización deben tener un único entrante directa marcando el número de teléfono (DID) y una dirección de emergencia validada correspondiente. Revise los [números de teléfono de voz en la nube de administrar](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-phone-system#manage-cloud-voice-telephone-numbers) para planear la adquisición de número de teléfono para la implementación de planes de llamada.
+Con una llamada a los planes en Office 365, todos los usuarios de su organización deben tener un único entrante directa marcando el número de teléfono (DID) y una dirección de emergencia validada correspondiente. Revise los [números de teléfono de voz en la nube de administrar](2-envision-make-my-service-decisions-phone-system.md#manage-cloud-voice-telephone-numbers) para planear la adquisición de número de teléfono para la implementación de planes de llamada.
 
 Cuando está configurando los números de teléfono para llamar a los planes, debe asignar una dirección de emergencia a cada número de teléfono antes de asignar al número a un usuario. Este paso es necesario para poder realizar llamadas de emergencia. La dirección de emergencia debe validarse para asegurarse de que se encuentra en el formato correcto para ser usados por los servicios de respuesta de emergencia.
 
 > [!IMPORTANT]
-> Llamar a los servicios de emergencia funciona de forma diferente en el servicio al llamar a los planes que en servicios de telefonía tradicional. Es importante que entienda estas diferencias y comunicarlas a todos los usuarios. Para obtener más información, consulte [emergencia llamar a términos y condiciones](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/emergency-calling-terms-and-conditions) .
+> Llamar a los servicios de emergencia funciona de forma diferente en el servicio al llamar a los planes que en servicios de telefonía tradicional. Es importante que entienda estas diferencias y comunicarlas a todos los usuarios. Para obtener más información, consulte [emergencia llamar a términos y condiciones](emergency-calling-terms-and-conditions.md) .
 
 Además de proporcionar una dirección de emergencia validada, puede definir las ubicaciones de emergencia y asociarlos a la dirección de emergencia validada para proporcionar una ubicación más exacta dentro de una dirección. Una ubicación de emergencia es, normalmente, el número de edificio, la planta, la sección del edificio o el número de oficina donde se encuentra el usuario.
 
 Para obtener más información acerca de las ubicaciones de emergencias en relación con los planes de llamada, revise los siguientes artículos:
 
--   [¿Qué son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
+-   [¿Qué son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?](what-are-emergency-locations-addresses-and-call-routing.md)
 
--   [Términos y condiciones de las llamadas de emergencia](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
+-   [Términos y condiciones de llamadas de emergencia](emergency-calling-terms-and-conditions.md)
 
 <br>
 
@@ -130,7 +130,7 @@ Correo de voz de sistema de teléfono, con tecnología de servicios de correo de
 
 De forma predeterminada, el correo de voz de sistema telefónico funciona con Exchange Online; Sin embargo, tiene un mínimo Exchange local versión e implementación modelo compatible para permitir la entrega de mensajes de correo de voz a los buzones de usuario en la implementación de Exchange local.
 
-El correo de voz de Sistema telefónico cuenta con transcripción del correo de voz y esta opción está activada de forma predeterminada para todos los usuarios de la organización. Las necesidades de negocio pueden requerir que deshabilite la transcripción de correo de voz para usuarios específicos o todos los usuarios en toda la organización. Si su organización ha decidido mantener habilitado de transcripción de correo de voz, debe también tener en cuenta si deben habilitarse enmascaramiento de contenido ofensivo de transcripción de correo de voz. Para obtener más información, vea [configuración de directivas de correo de voz en su organización](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) .
+El correo de voz de Sistema telefónico cuenta con transcripción del correo de voz y esta opción está activada de forma predeterminada para todos los usuarios de la organización. Las necesidades de negocio pueden requerir que deshabilite la transcripción de correo de voz para usuarios específicos o todos los usuarios en toda la organización. Si su organización ha decidido mantener habilitado de transcripción de correo de voz, debe también tener en cuenta si deben habilitarse enmascaramiento de contenido ofensivo de transcripción de correo de voz. Para obtener más información, vea [configuración de directivas de correo de voz en su organización](set-up-phone-system-voicemail.md) .
 
 >[!NOTE]
 > Se ha implementado un mecanismo de reserva para que el correo de voz de Sistema telefónico pueda reenviar mensajes mediante SMTP, lo que implica que los usuarios con un buzón de un sistema de correo electrónico de terceros podrán recibir sus mensajes de correo de voz. Este mecanismo no incluye el tiempo de actividad de servicio garantizado u otras funciones de correo de voz, como cambiar el saludo del correo de voz.
@@ -149,8 +149,8 @@ Para obtener más información acerca de correo de voz en una implementación de
 > 
 > |Usuario |Buzón de Exchange |¿Habilitar correo de voz? |Transcripción de correo de voz |Enmascaramiento de contenido ofensivo de transcripción de correo de voz |
 > |------------------|------------------|-------------------|----------|----------|
-> |Emily Braun      |En línea      |Sí |Habilitado |Habilitado |
-> |Lidia Holloway   |En línea      |Sí |Habilitado |Deshabilitado |
+> |Emily Braun      |Online      |Sí |Habilitado |Habilitado |
+> |Lidia Holloway   |Online      |Sí |Habilitado |Deshabilitado |
 > |Louis Lahr       |Local |Sí |Habilitado |Habilitado |
 > |Marcel Beauchamp |Local |Sí |Deshabilitado |N/D |
 > |Rachelle Cormier |En línea      |Sí |Deshabilitado |N/D |
@@ -178,7 +178,7 @@ De forma predeterminada, todas las llamadas salientes usan el número de teléfo
 > |Lidia Holloway|Sí|Número de servicio (OrgAA, +44 20 7946 0000)|No|Sí|
 > |Louis Lahr|No|N/D|Sí|No|
 > |Marcel Beauchamp|Sí|Número de servicio (OrgAA, TBA)|No|Sí|
-> |Rachelle Cormier|Sí|Anonimizar|Sí|No|
+> |Rachelle Cormier|Sí|Anonimizar|No|No|
 > |Isabell Potvin|Sí|Número de servicio (OrgAA, TBA)|No|Sí|
 
 <!--ENDOFSECTION-->
@@ -214,9 +214,9 @@ Puede configurar Communications créditos para las organizaciones habilitar a lo
 
 Para obtener más información sobre el sistema telefónico y planes de llamada, revise los siguientes artículos:
 
--   [Sistema telefónico](https://products.office.com/skype-for-business/phone-system)
+-   [Sistema telefónico](https://products.office.com/en-us/skype-for-business/phone-system)
 
--   [Planes de llamada](https://products.office.com/skype-for-business/calling-plans)
+-   [Planes de llamadas](https://products.office.com/en-us/skype-for-business/calling-plans)
 
 <br>
 
@@ -247,7 +247,7 @@ La primera consideración que hay que tener en cuenta a la hora de implementar C
 
 Para la implementación de planes de llamada, puede controlar el uso de créditos Communications en una base por usuario, que le ayudará a asegurarse de que haya asignado estos créditos en alineación con las necesidades de negocio.
 
-Para obtener más información acerca de las comunicaciones créditos, revise [¿Cuáles son las comunicaciones créditos?](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
+Para obtener más información acerca de las comunicaciones créditos, revise [¿Cuáles son las comunicaciones créditos?](what-are-communications-credits.md).
 
 <br>
 
@@ -297,11 +297,11 @@ Los dos tipos de números de teléfono en las soluciones de voz de la nube de Mi
 
 -   Números de servicio, disponibles como números de un servicio gratuito, que tengan la mayor capacidad de llamadas concurrentes que números de suscriptor y que se pueden asignar a servicios, como conferencias de Audio, operadores automáticos o colas de llamadas y de pago.
 
-Para obtener más información acerca de los tipos de números de teléfono, vea [distintos tipos de números de teléfono utilizados para llamar a los planes](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans).
+Para obtener más información acerca de los tipos de números de teléfono, vea [distintos tipos de números de teléfono utilizados para llamar a los planes](different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
 La cantidad total de números de teléfono que puede obtener depende del tipo de número de teléfono y el número de licencias que ha comprado y asignado a los usuarios.
 
-Para obtener más información acerca de la cantidad total de números de teléfono que puede obtener, vea [cuántos números de teléfono puede obtener?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)
+Para obtener más información acerca de la cantidad total de números de teléfono que puede obtener, vea [cuántos números de teléfono puede obtener?](how-many-phone-numbers-can-you-get.md)
 
 <br>
 
@@ -322,9 +322,9 @@ Como alternativa (si es compatible con el puerto parcial), puede enviar varias s
 
 Portabilidad del número de teléfono es un tema complejo y requiere planeación minuciosa, la coordinación y administrar adecuadamente las expectativas de las partes interesadas. Para obtener más información, vea los siguientes artículos:
 
--   [Transferencia de los números de teléfono a Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
+-   [Transferencia de los números de teléfono a Office 365](transfer-phone-numbers-to-office-365.md)
 
--   [Preguntas comunes sobre la transferencia de números de teléfono](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
+-   [Preguntas comunes sobre la transferencia de números de teléfono](transferring-phone-numbers-common-questions.md)
 
 <br>
 
@@ -356,7 +356,7 @@ El plan de marcado efectivos asignado a los usuarios es la combinación del plan
 > [!IMPORTANT]
 > Puede haber un máximo de 25 reglas de normalización en cada plan de marcado de inquilino; por lo tanto, es importante evitar la duplicación de reglas de normalización que ya están disponibles como parte del servicio de plan de marcado.
 
-Para obtener más información acerca de los planes de marcado, consulte [¿Cuáles son los planes de marcado?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
+Para obtener más información acerca de los planes de marcado, vea [¿Qué son los planes de marcado?](what-are-dial-plans.md).
 
 <br>
 

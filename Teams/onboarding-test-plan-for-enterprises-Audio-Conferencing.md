@@ -1,5 +1,5 @@
 ---
-title: Plan de pruebas de la empresa para conferencias de Audio en Microsoft Teams
+title: Plan de pruebas de empresa para Audioconferencia en Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f9fea1e2d3f8dcf4fc966d1392a38168fc1656e
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: 16207273020dbe6e1ab4e2cd5ff958fcdbe614dc
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694864"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120753"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>Definir y documentar la conferencia de Audio en el plan de pruebas de los equipos para empresas 
 ===============================================================================
@@ -234,7 +234,7 @@ En un nivel alto, estos recursos normalmente constan de:
 |---------------|--------------------------------------------------------------|----------------------|
 | Personas        | Los evaluadores tienen resultados de prueba de las partes interesadas                               | TBD                  |
 | Tecnología    | Acceso a Office 365 con habilitados los siguientes servicios:<ul><li>Office 365 E5 licencias asignadas</li><li>Plan nacional e internacional llamada asignado</li></ul>    | TBD                  |
-| Asistencia técnica       | Jefe de soporte técnico de prueba de administrador técnico de prueba de pruebas | TBD                  |
+| Soporte técnico       | Jefe de soporte técnico de prueba de administrador técnico de prueba de pruebas | TBD                  |
 
 
 
@@ -752,7 +752,7 @@ Ahora que ha definido su plan de pruebas, el siguiente paso es recorrer los caso
 
 -   La lista de números de acceso telefónico dedicado y compartida conferencias de audio, con preferencia de idioma para sitios organizativos y usuarios de ámbito: se han identificado y configurado.
 
--   [Créditos de comunicaciones](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) (si es necesario) se han configurado para su organización para proporcionar acceso a conferencia gratuito puente teléfono números de compatibilidad con las conferencias y escenarios de salida internacionales.
+-   [Créditos de comunicaciones](what-are-communications-credits.md) (si es necesario) se han configurado para su organización para proporcionar acceso a conferencia gratuito puente teléfono números de compatibilidad con las conferencias y escenarios de salida internacionales.
 
 -   Configuración de puente de conferencia de audio conferencia se han identificado y configurados para todos los usuarios en el ámbito (longitud PIN, las notificaciones de entrada o salida, preferencia de notificación de activación).
 
