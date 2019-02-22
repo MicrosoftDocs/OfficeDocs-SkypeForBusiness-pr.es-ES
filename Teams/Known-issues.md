@@ -3,7 +3,7 @@ title: Problemas conocidos de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 8/21/2018
+ms.date: 2/19/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e0a74bf35a122a672f99e91c872eab77a6ce6cd
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 0877ce3f92a9266d3ae4ea93f634a1e8d612be57
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789170"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120444"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -32,15 +32,15 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|La directiva de EAF del Kit de herramientas de Experiencia de mitigación mejorada (EMET) puede identificar incorrectamente las optimizaciones del espacio aislado de Chromium como amenazas. <br/> |Hay un problema con el espacio aislado de Chromium en el que la directiva de exportación del filtrado de acceso a la tabla de direcciones (EAF) del Kit de herramientas de Experiencia de mitigación mejorada (EMET) y de la Protección contra amenazas avanzada (ATP) de Windows Defender puede identificar incorrectamente las optimizaciones del espacio aislado de Chromium como amenazas. Esto hace que Teams no funcione correctamente.  <br/> | Para solucionar este problema, desactive EAF en Microsoft Teams. Puede leer más información sobre el problema [Directrices de mitigaciones de EMET](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines). Para obtener más información acerca de la directiva de ATP y EAF de Windows Defender, vea [Personalizar la protección contra las vulnerabilidades](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |11/10/2018 <br/> |
+|La directiva de EAF del Kit de herramientas de Experiencia de mitigación mejorada (EMET) puede identificar incorrectamente las optimizaciones del espacio aislado de Chromium como amenazas. <br/> |Hay un problema con el espacio aislado de Chromium en el que la directiva de exportación del filtrado de acceso a la tabla de direcciones (EAF) del Kit de herramientas de Experiencia de mitigación mejorada (EMET) y de la Protección contra amenazas avanzada (ATP) de Windows Defender puede identificar incorrectamente las optimizaciones del espacio aislado de Chromium como amenazas. Esto hace que Teams no funcione correctamente.  <br/> | Para solucionar este problema, desactive EAF en Microsoft Teams. Puede leer más información sobre el problema [Directrices de mitigaciones de EMET](https://support.microsoft.com/es-ES/help/2909257/emet-mitigations-guidelines). Para obtener más información acerca de la directiva de ATP y EAF de Windows Defender, vea [Personalizar la protección contra las vulnerabilidades](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |11/10/2018 <br/> |
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|No se pueden agregar miembros a los equipos cuando UsersPermissionToReadOtherUsersEnabled está establecido como falso  <br/> |Cuando este valor se establece como falso en AAD, el cliente no puede agregar miembros externos o internos en Microsoft Teams, y aparece el siguiente mensaje de error: "No se han podido agregar los miembros. Ha surgido un problema. Inténtelo de nuevo más tarde". Sin embargo, los miembros se pueden agregar directamente en los grupos de Office 365.    <br/> |En AAD, cambie este ajuste a verdadero.  <br/> |10/04/2018  <br/> |
+|No se pueden agregar miembros a los equipos cuando UsersPermissionToReadOtherUsersEnabled está establecido como falso  <br/> |Cuando este valor se establece como falso en AAD, el cliente no puede agregar miembros externos o internos en Microsoft Teams, y aparece el siguiente mensaje de error: "No se han podido agregar los miembros. Ha surgido un problema. Inténtelo de nuevo más tarde". Sin embargo, los miembros se pueden agregar directamente en los grupos de Office 365.    <br/> |En AAD, cambie este ajuste a verdadero.  <br/> |10/4/18  <br/> |
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|La administración de conectores a nivel de inquilino ya no está disponible  <br/> |Al intentar agregar un conector en la versión de cliente y la versión en línea, se recibe el error: Se ha producido un error inesperado. Inténtalo de nuevo. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Deshabilítelo en la configuración de Microsoft Teams. Vea este artículo de soporte: https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |21/06/2017  <br/> |
+|La administración de conectores a nivel de inquilino ya no está disponible  <br/> |Al intentar agregar un conector en la versión de cliente y la versión en línea, se recibe el error: Se ha producido un error inesperado. Inténtalo de nuevo. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Deshabilítelo en la configuración de Microsoft Teams. Vea este artículo de soporte: https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |21/6/17  <br/> |
 
 ## <a name="apps"></a>Aplicaciones
 
@@ -60,12 +60,12 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 
 |**Problema**|**Comportamiento/síntomas**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|Los autores de llamadas RTC con el mismo número "Desde" aparecen como el mismo usuario en la lista de la reunión.  <br/> |Cuando varios autores de llamadas RTC se unen a una reunión y sus identificadores de llamada se enmascaran como un solo número, se mostrarán como un único llamador en la lista de la reunión.  <br/> |No hay ninguna solución.  <br/> |25/09/2017  <br/> |
-|El panel de información de la reunión no aparece intermitentemente.  <br/> |Es posible que el panel de información de la reunión no se muestre en el cliente de Microsoft Teams cuando los usuarios intentan buscar números de teléfono de puente de conferencia o id. de conferencia.  <br/> |Busque en los detalles de la reunión o en el calendario de Outlook los números de teléfono de puente de conferencia o los id. de conferencia.  <br/> |25/09/2017  <br/> |
-|Las invitaciones a reuniones desde el complemento de Outlook muestran como caracteres dañados en las coordenadas RTC para las configuraciones regionales de fuera de EE. UU.  <br/> |Al programar reuniones privadas con el complemento de Outlook para Microsoft Teams en un equipo sin configuraciones regionales de fuera de EE. UU., las coordenadas RTC podrían tener caracteres dañados.  <br/> |No hay ninguna solución.  <br/> |25/09/2017  <br/> |
-|Las llamadas externas deben usar 5 dígitos o más.  <br/> |Los usuarios que intentan realizar llamadas externas desde una reunión deberán marcar 5 o más dígitos, aunque haya disponible una regla normativa de plan de marcado para normalizar la marcación de dígitos breve a E.164.  <br/> |Realice las llamadas externas escribiendo el número DID completo o el formato de número local en vez del número de extensión interna.  <br/> |25/09/2017  <br/> |
-|El control de llamadas externas no aparece intermitentemente.  <br/> |Es posible que el control de llamadas externas no esté visible desde el panel de información de la reunión.  <br/> |No hay ninguna solución.  <br/> |25/09/2017  <br/> |
-|No se admite el id. de conferencia estático para las reuniones de Microsoft Teams.  <br/> |Si el administrador reemplaza la configuración predeterminada de id. de conferencia dinámico a id. de conferencia estático, este ajuste no tendrá vigor en las reuniones de Microsoft Teams. Vea [Uso de identificadores dinámicos de Audioconferencia en su organización](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |No hay ninguna solución.  <br/> |25/09/2017  <br/> |
+|Los autores de llamadas RTC con el mismo número "Desde" aparecen como el mismo usuario en la lista de la reunión.  <br/> |Cuando varios autores de llamadas RTC se unen a una reunión y sus identificadores de llamada se enmascaran como un solo número, se mostrarán como un único llamador en la lista de la reunión.  <br/> |No hay ninguna solución.  <br/> |25/9/2017  <br/> |
+|El panel de información de la reunión no aparece intermitentemente.  <br/> |Es posible que el panel de información de la reunión no se muestre en el cliente de Microsoft Teams cuando los usuarios intentan buscar números de teléfono de puente de conferencia o id. de conferencia.  <br/> |Busque en los detalles de la reunión o en el calendario de Outlook los números de teléfono de puente de conferencia o los id. de conferencia.  <br/> |25/9/2017  <br/> |
+|Las invitaciones a reuniones desde el complemento de Outlook muestran como caracteres dañados en las coordenadas RTC para las configuraciones regionales de fuera de EE. UU.  <br/> |Al programar reuniones privadas con el complemento de Outlook para Microsoft Teams en un equipo sin configuraciones regionales de fuera de EE. UU., las coordenadas RTC podrían tener caracteres dañados.  <br/> |No hay ninguna solución.  <br/> |25/9/2017  <br/> |
+|Las llamadas externas deben usar 5 dígitos o más.  <br/> |Los usuarios que intentan realizar llamadas externas desde una reunión deberán marcar 5 o más dígitos, aunque haya disponible una regla normativa de plan de marcado para normalizar la marcación de dígitos breve a E.164.  <br/> |Realice las llamadas externas escribiendo el número DID completo o el formato de número local en vez del número de extensión interna.  <br/> |25/9/2017  <br/> |
+|El control de llamadas externas no aparece intermitentemente.  <br/> |Es posible que el control de llamadas externas no esté visible desde el panel de información de la reunión.  <br/> |No hay ninguna solución.  <br/> |25/9/2017  <br/> |
+|No se admite el id. de conferencia estático para las reuniones de Microsoft Teams.  <br/> |Si el administrador reemplaza la configuración predeterminada de id. de conferencia dinámico a id. de conferencia estático, este ajuste no tendrá vigor en las reuniones de Microsoft Teams. Vea [Uso de identificadores dinámicos de Audioconferencia en su organización](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |No hay ninguna solución.  <br/> |25/9/2017  <br/> |
 |Las coordenadas de RTC no están disponibles para los usuarios locales de Skype Empresarial  <br/> |Si el usuario es un usuario local de Skype Empresarial que tiene asignadas licencias de Skype Empresarial Online, Audioconferencia y Microsoft Teams, las reuniones programadas con Teams no incluirán coordenadas de reuniones de RTC. <br/> |No hay ninguna solución.  <br/> |01/02/2018  <br/> |
 
 ## <a name="authentication"></a>Autenticación
@@ -222,7 +222,7 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 
-## <a name="tabs"></a>Fichas
+## <a name="tabs"></a>Pestañas
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
@@ -242,7 +242,7 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|La ficha de la página de SharePoint muestra una pantalla blanca <br/> |Los dominios personales de SharePoint Online no se admiten actualmente. La experiencia del usuario es una pantalla blanca cuando se intenta agregar una ficha de página de SharePoint. <br/> |No hay ninguna solución. <br/> |20/08/2018  <br/>|
+|La ficha de la página de SharePoint muestra una pantalla blanca <br/> |Los dominios personales de SharePoint Online no se admiten actualmente. La experiencia del usuario es una pantalla blanca cuando se intenta agregar una ficha de página de SharePoint. <br/> |No hay ninguna solución. <br/> |20/8/18  <br/>|
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
@@ -268,11 +268,11 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|Un nombre de equipo que tenga un símbolo &amp; rompe la funcionalidad del conector  <br/> |Cuando se crea un nombre de equipo e incluye el símbolo &amp;, no pueden establecerse los conectores dentro del equipo/grupo.  <br/> |No se deben usar caracteres especiales en los nombres de equipo.  <br/> |21/06/2017  <br/> |
+|Un nombre de equipo que tenga un símbolo &amp; rompe la funcionalidad del conector  <br/> |Cuando se crea un nombre de equipo e incluye el símbolo &amp;, no pueden establecerse los conectores dentro del equipo/grupo.  <br/> |No se deben usar caracteres especiales en los nombres de equipo.  <br/> |21/6/17  <br/> |
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|El límite máximo de miembros de un equipo es 2500.  <br/> |Cada equipo de Microsoft Teams puede incluir un máximo de 2500 miembros por equipo.  <br/> |No hay ninguna solución.  <br/> |13/03/2017  <br/> |
+|El límite máximo de miembros de un equipo es 5000.  <br/> |Cada equipo de Microsoft Team puede tener un máximo de 5000 miembros por equipo.  <br/> |No hay ninguna solución.  <br/> |6/2/2019  <br/> |
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
