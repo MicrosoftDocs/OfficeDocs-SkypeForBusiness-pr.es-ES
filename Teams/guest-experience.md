@@ -14,10 +14,10 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c1fc83f0911849655c1a27bdee2d87107f6eaebc
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2019
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "29706318"
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado

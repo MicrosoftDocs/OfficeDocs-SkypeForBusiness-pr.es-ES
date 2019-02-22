@@ -15,10 +15,10 @@ description: Obtenga información sobre cómo usar el informe de uso de los equi
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 6f3b437beb56f7cc073c9ab32728e2bb16fbfd4d
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "29754522"
 ---
 # <a name="microsoft-teams-usage-report"></a>Informe de uso de Microsoft Teams

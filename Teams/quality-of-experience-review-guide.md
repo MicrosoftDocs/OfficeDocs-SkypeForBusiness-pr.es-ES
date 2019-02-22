@@ -1,7 +1,7 @@
 ---
 title: Guía de revisión de la experiencia de calidad de Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: rowille
 manager: serdars
 ms.date: 09/05/2018
 ms.topic: article
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b19fe5dce5c728880c54321e5d6dbb1901d0aac
-ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
+ms.openlocfilehash: c9162a10d55b224e14867866395b1e44d18e8e6e
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "29964453"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178743"
 ---
 # <a name="quality-of-experience-review-guide"></a>Calidad de experiencia consulte la Guía
 
@@ -33,15 +33,15 @@ Para que el mayor impacto sobre cómo mejorar la experiencia del usuario, las or
 
 _En la figura 1 - áreas operativas clave tratadas a lo largo de esta guía_
 
-Al continuamente evaluar y solucionar relativos a las áreas que se describen en esta guía, puede reducir su potencial de afectar negativamente a la calidad de la experiencia de los usuarios. Mayoría de experiencia de usuario los problemas encontrada en una implementación puede agruparse en las siguientes categorías:
+Al continuamente evaluar y solucionar relativos a las áreas que se describen en esta guía, puede reducir su potencial de afectar negativamente a la calidad de la experiencia de los usuarios. La mayoría de problemas que se encuentran en la experiencia de usuario de una implementación se pueden agrupar en las siguientes categorías:
 
--   Configuración de firewall o proxy incompleto
--   Cobertura Wi-Fi deficiente
--   Ancho de banda insuficiente
+-   Una configuración de proxy o firewall incompleta
+-   Una cobertura Wi-Fi insuficiente
+-   Un ancho de banda insuficiente
 -   VPN
 -   Controladores y versiones de cliente incoherentes o no actualizada
 -   Dispositivos de audio integrados o no optimizados
--   Subredes problemáticas o dispositivos de red
+-   Dispositivos de red o subred problemáticos
 
 A través de planear y diseñar correctamente antes de implementar los equipos o Skype para profesionales en línea, puede reducir la cantidad de esfuerzo que será necesarios para mantener experiencias de alta calidad.
 
@@ -57,11 +57,17 @@ Esta guía también está pensada para usarse por la champion(s) calidad designa
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Antes de usar a esta guía, asegúrese de que tiene el inquilino adecuados [roles](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) asignados por lo que puede tener acceso a CQD.
+Antes de usar a esta guía, asegúrese de que tiene el inquilino adecuados [roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) asignados por lo que puede tener acceso a CQD.
 
--   **Función de administrador Global de office 365:** Tiene acceso a todas las características administrativas en el conjunto de aplicaciones de Office 365 de servicios en el plan, incluyendo Skype para la empresa.
+-   **Función de administrador Global de Office 365** 
 
--   **Skype para el rol de administrador empresarial:** Configura Skype para la empresa para su organización y puede ver todos los [informes de actividad](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) en el centro de administración de Office 365. Esta función es necesaria, incluso si se implementación sólo los equipos.
+-   **Skype para el rol de administrador de negocio** 
+
+-   **Rol de administrador de servicio de los equipos** 
+
+-   **Rol de ingeniero de soporte técnico de comunicaciones de los equipos** 
+
+-   **Función de especialista en soporte técnico de comunicaciones de los equipos** 
 
 Como alternativa, puede asignar la siguiente función a una cuenta de usuario de Office 365 para permitir el acceso a sólo las características de informes.
 
@@ -95,7 +101,7 @@ La medida real en CQD varía según la carga de trabajo, pero para los fines de 
 > CQD proporciona "Deficiente debido a..." las medidas mejor comprender qué condición provocó la secuencia se clasifican como deficientes.
 
 
-_Tabla 1 - métricas de un servicio deficiente_
+_Tabla 1 - métricas de mala calidad de Audio_
 
 | Promedio de métrico     | Descripción     | Experiencia de usuario |
 |-------------|-----------------|-----------------|
@@ -139,7 +145,7 @@ _Tabla 2 - medidas de evaluación de estado de destino principales_
 <tr><td rowspan="5"><strong>Conferencia</strong></td><td>Interno</td><td>% de 2.0</td><td>0,5%</td><td>% de 2.0</td></tr>
 <tr><td>Con cable interno</td><td>1.0%</td><td>0,5%</td><td>1.0%</td></tr>
 <tr><td>Wi-Fi 5 GHz interno</td><td>1.0%</td><td>0,5%</td><td>1.0%</td></tr>
-<tr><td>Wi-Fi 2,4 GHz interno</td><td>% de 4.0</td><td>0,5%</td><td>% de 2.0</td></tr>
+<tr><td>Wi-Fi 2,4 GHz interno</td><td>% de 2.0</td><td>0,5%</td><td>% de 2.0</td></tr>
 <tr><td>General</td><td>% de 2.0</td><td>0,5%</td><td>% de 3.0</td></tr>
 <tr><td rowspan="4"><strong>P2P</strong></td><td>Interno</td><td>% de 2.0</td><td>0,5%</td><td>% de 2.0</td></tr>
 <tr><td>Con cable, Wi-Fi 5 GHz interno</td><td>1.0%</td><td>0,5%</td><td>1.0%</td></tr>
@@ -627,7 +633,7 @@ _Tabla 5: creación de la estructura de archivos_
 
 | Nombre de columna        | Tipo de datos | Ejemplo                   | Instrucciones    |
 |--------------------|-----------|---------------------------|-------------|
-| Network            | Cadena    | 192.168.1.0               | Requerido    |
+| Red            | Cadena    | 192.168.1.0               | Requerido    |
 | NetworkName        | Cadena    | Estados Unidos/Seattle/SEATTLE-mar-1 | Requerido\*  |
 | NetworkRange       | Número    | 26                        | Requerido    |
 | BuildingName       | Cadena    | SEATTLE-MAR-1             | Requerido\*  |
@@ -786,7 +792,7 @@ Estas herramientas se basan en PowerShell y pueden sacar provecho de los sitios 
 
 Para obtener más información acerca de esta herramienta, vea [esta entrada de blog](https://aka.ms/cqdtools).
 
-#### <a name="network-planner"></a> Planificador de red
+#### <a name="network-planner"></a>Planificador de red
 
 El organizador de la red determina y organiza los requisitos de red para la implementación de voz en la nube en unos pocos pasos sencillos. Al proporcionar que la organización de la red de detalles y uso de voz en la nube, puede obtener un cálculo aproximado de los requisitos de red para la implementación de voz en la nube, administrar y exportar estos detalles para informes y ver áreas para la investigación adicional y los pasos siguientes.
 

@@ -1,9 +1,9 @@
 ---
-title: Activar y usar el Panel de calidad de llamadas
+title: Activar y usar paneles de calidad de llamadas
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney
+ms.reviewer: mikedav, wlooney, gageames
 ms.topic: article
 ms.assetid: 553fa13c-92d2-4d5c-a3d5-41a073cb047c
 ms.tgt.pltfrm: cloud
@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Vea cómo activar y usar el Skype para profesionales Online panel calidad de llamadas y obtener informes de resumen de calidad de las llamadas. '
-ms.openlocfilehash: 18c5c87d437235733e9ffc7c8a1ec60883a33305
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: 24721591a2018f77dc6ec9f292ad5b58683cda7f
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069620"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178704"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activar y con el panel de calidad de llamadas para Microsoft Teams y Skype para profesionales en línea
 

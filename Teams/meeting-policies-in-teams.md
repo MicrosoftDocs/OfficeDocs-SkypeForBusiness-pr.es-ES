@@ -1,5 +1,5 @@
 ---
-title: Administrar las directivas de reunión
+title: Administrar directivas de reunión
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -16,10 +16,10 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 description: Obtenga información sobre cómo administrar la configuración de directivas en los equipos de la reunión.
 ms.openlocfilehash: 96b5008ebbdbcad2dc44234d861c4127c77ed69c
-ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2019
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "30056614"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar las directivas de reunión en los equipos

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: En los temas de esta sección le ayudarán a comprender cómo planear e implementar Skype para Business Server de forma que pueda planear adecuadamente para el número de usuarios en la organización y la planeación de la carga del servidor que generan sus actividades.
-ms.openlocfilehash: 996fd1df51442bcaadbd0ae548e9cf57e580279a
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 4a18b68d080eb7cb2a384b727e4ce4d7593d0ac4
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696348"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178719"
 ---
 # <a name="capacity-planning-for-skype-for-business-server-2019"></a>Planificación de capacidad de Skype para Business Server 2019
 
@@ -171,8 +171,8 @@ Durante las pruebas de rendimiento, Microsoft usó el hardware de la tabla sigui
 |:-----|:-----|
 |CPU  <br/> |Procesador dual de Intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahercios (GHz) o superior.  <br/> |
 |Memoria  <br/> |48 GB  <br/> |
-|Disco  <br/> |
-CUALQUIERA: • 4 o más unidades de disco duro de 10.000 RPM con al menos 72 GB de espacio libre de espacio en disco (los discos deben estar en una de 2 x configuración RAID 1). O • unidades de estado sólido (SSD), puede proporcionar el mismo espacio libre y un rendimiento similar de 4 unidades de disco mecánicas de 10.000 RPM.   <br/> | | Red  <br/> | 1 adaptador de red de doble puerto, 1 Gbps o superior (se recomiendan 2 unidades, lo que requiere la formación de equipos con una sola dirección MAC y una única dirección IP).  <br/> |
+|Disco  <br/> | O<br/> • 4 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (los discos deben estar en una configuración de 2 unidades RAID 1). <br/>O bien <br/>• Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 4 unidades de disco mecánicas de 10000 RPM.   <br/> |
+|Red  <br/> | 1 adaptador de red de puerto doble, 1 Gbps o superior (recomendado: 2, lo que requiere la formación de equipos con una sola dirección MAC y una sola dirección IP).  <br/> |
 
 **Configuraciones de disco recomendadas**
 

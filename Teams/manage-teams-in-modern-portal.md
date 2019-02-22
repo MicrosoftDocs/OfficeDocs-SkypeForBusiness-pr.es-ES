@@ -1,5 +1,5 @@
 ---
-title: Administrar los equipos en el centro de administración de Microsoft Teams
+title: Administrar equipos en el Centro de administración de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,14 +15,14 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd56bd9147ca58ad38b41f64a7a6f3c6a8daf134
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: cf4d312f8fcb7f9ba509359eaaeed415be3e9662
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754190"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178680"
 ---
-<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Administrar los equipos en el centro de administración de Microsoft Teams
+<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Administrar equipos en el Centro de administración de Microsoft Teams
 ==========================================
 
 [!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
@@ -56,7 +56,7 @@ La cuadrícula muestra las siguientes propiedades:
 - **Los invitados** - un recuento de los usuarios de invitado de Azure Active Directory B2B que son miembros de este equipo.
 - **Privacidad** - la AccessType del grupo de realizar la copia de Office 365.
 
-### <a name="search"></a>Buscar
+### <a name="search"></a>Búsqueda
 
 Búsqueda actualmente es compatible con la cadena "Comienza por" y busca en el campo **nombre del equipo** .
 
@@ -104,7 +104,7 @@ Reemplace **{groupid}** en la consulta para el GroupId real en cuestión, que se
 
 1. [El Explorador de gráfico](https://developer.microsoft.com/en-us/graph/graph-explorer) de acceso
 
-2. Inicie sesión en el Explorador de gráfico en el menú del lado izquierdo
+2. Inicie sesión en el Explorador de gráfico en el menú de la izquierda
 
 3. Cambie la línea de consulta para: revisión > v1.0 >https://graph.microsoft.com/v1.0/groups/{groupid}
 

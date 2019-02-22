@@ -3,7 +3,7 @@ title: Análisis de llamadas y Panel de calidad de llamadas
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney
+ms.reviewer: mikedav, wlooney, gageames
 ms.topic: article
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Obtenga información sobre el análisis de llamadas y, a continuación, llame al panel de calidad y cuándo usarlos para supervisar y solucionar los problemas de calidad de la llamada.
-ms.openlocfilehash: e3d768178723a2bce611770698338d8d4e4cce61
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: b3a65c4fa6a3dfe8de6b4ef70cd7657661cf4dc9
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069612"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178672"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Análisis de llamadas y Panel de calidad de llamadas
 
@@ -44,7 +44,7 @@ Análisis de la llamada y CQD ejecutarán en paralelo y pueden usarse independie
 > Permisos de agente de departamento de soporte técnico y la carga de la topología de red estará disponibles en el nuevo portal de administración en los próximos meses. Mientras tanto, puede seguir usando https://adminportal.services.skypeforbusiness.com para el acceso de departamento de soporte técnico de nivel 1 y nivel 2.
   
 
-Análisis de la llamada muestran información detallada acerca de los dispositivos, redes y conectividad relacionadas con las llamadas específicas y las reuniones para cada usuario en un Microsoft Teams o Skype para la cuenta de empresa. ¿Por qué tenía usuario Amos Mármol una llamada deficiente esta tarde? Uso de análisis de llamadas, un agente de departamento de soporte técnico capacitados o administración de Office 365 puede investigar el dispositivo, red, conectividad y otros factores relacionados con la llamada del Amos para solucionar problemas de calidad y conexión de llamada en Microsoft Teams y Skype para la empresa.
+Análisis de la llamada muestran información detallada acerca de los dispositivos, redes y conectividad relacionadas con las llamadas específicas y las reuniones para cada usuario en un Microsoft Teams o Skype para la cuenta de empresa. ¿Por qué este usuario tiene una llamada deficiente esta tarde? Uso de análisis de llamadas, un agente de departamento de soporte técnico capacitados o administración de Office 365 puede investigar el dispositivo, red, conectividad y otros factores relacionados con su llamada a solucionar problemas de conexión y la calidad de llamada en Microsoft Teams y Skype para la empresa.
 
 Para ver esta información para un usuario en el centro de administración de Microsoft Teams, haga clic en la ficha **Historial de llamadas** para ese usuario en la página de detalles del usuario, que muestra todas las llamadas y las reuniones que el usuario ha participado en para los últimos 30 días.
 
@@ -52,7 +52,7 @@ Para ver esta información para un usuario en el centro de administración de Mi
 
 Para obtener información adicional acerca de una sesión determinada, incluidos los medios detalladas y las estadísticas de red, haga clic en una sesión para ver los detalles.
 
-![Llame al análisis de datos de sesión de usuario.](media/call-analytics-user-data-session.png)
+![Llame al análisis de datos de sesión de usuario.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
 
 Si desea que no son de administrador, como agentes de departamento de soporte técnico de un proveedor externo, para usar el análisis de llamadas, puede asignar permisos para que pueden utilizar análisis de llamada, pero no pueden obtener acceso el resto del centro de administración de Microsoft Teams: 
   
@@ -74,26 +74,29 @@ Para obtener información detallada sobre la configuración de análisis de llam
   
 Donde entidad de certificación está diseñada para ayudar a los administradores y los agentes del departamento de soporte técnico solución los problemas de calidad de llamada con llamadas específicas, el panel de calidad de llamadas (CQD) está diseñado para ayudar a los administradores de Microsoft Teams, Skype para los administradores de negocios, y los ingenieros de red optimizan una red. CQD lleva el enfoque de usuarios específicos y en su lugar busca en la información de agregado de toda una Microsoft Teams o Skype organización empresarial. Para obtener más información, vea [características del panel de calidad de llamada de Skype para profesionales en línea](turning-on-and-using-call-quality-dashboard.md#BKMKFeaturesOfTheCQD).
   
-Quizá la calidad de llamadas deficientes de Amos es debido a un problema de red que también está afectando a muchos otros usuarios. Experiencia de llamada individual del amos no está visible en CQD, pero se captura la calidad general de las llamadas realizadas mediante Microsoft Teams o Skype para la empresa. Con el CQD general patrones pueden ponerse de manifiesto, que los ingenieros de red realizar las evaluaciones informadas de calidad de la llamada. CQD proporciona informes de métricas de calidad de llamada que le brindarán en general llamada calidad, secuencias de cliente a servidor, secuencias de cliente a cliente y calidad de voz [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252).
+Quizá la calidad de llamadas deficientes del usuario es debido a un problema de red que también está afectando a muchos otros usuarios. La experiencia de llamada individuales no está visible en CQD, pero se captura la calidad general de las llamadas realizadas mediante Microsoft Teams o Skype para la empresa. Con el CQD general patrones pueden ponerse de manifiesto, que los ingenieros de red realizar las evaluaciones informadas de calidad de la llamada. CQD proporciona informes de métricas de calidad de llamada que le brindarán en general llamada calidad, secuencias de cliente a servidor, secuencias de cliente a cliente y calidad de voz [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252).
   
-![Captura de pantalla del panel de calidad de llamada. Las fichas que se muestran son calidad de llamada general, servidor - cliente, cliente - cliente y SLA de calidad de voz.](media/6eaccf99-8ee8-4f99-bdf2-ba1c72471cb9.png)
+![Captura de pantalla del panel de calidad de llamada. Las fichas que se muestran son calidad de llamada general, servidor - cliente, cliente - cliente y SLA de calidad de voz.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
-Con la Ayuda de informes de Location-Enhanced del CQD, se pueden evaluar la calidad de llamada agregado y la confiabilidad dentro de creación del Amos para determinar si el problema se aísla a un solo usuario o afecta a un segmento mayor de usuarios.
+Con la Ayuda de informes de Location-Enhanced del CQD, se pueden evaluar la calidad de llamada agregado y la confiabilidad dentro de creación del usuario para determinar si el problema se aísla a un solo usuario o afecta a un segmento mayor de usuarios.
 
 ![Captura de pantalla de informes de mejorado a la ubicación del panel de calidad de llamada. Las fichas que se muestran son información general, los edificios - cableada, los edificios - WiFi y Mobile (LTE). Se aplica un filtro para ver las secuencias dentro de un edificio específico.](media/call-quality-dashboard-location-enhanced-reports-building-selection.png)
 
 > [!NOTE]
 > Para habilitar las vistas específicas de creación en CQD, un administrador debe [cargar información de creación](turning-on-and-using-call-quality-dashboard.md#BKMKBuildingInformationUpload) de página del CQD inquilino la carga de datos.
 
-  
-Si desea que no son de administrador, como agentes de departamento de soporte técnico, para usar el panel de calidad de llamadas, puede asignar a los usuarios la función de **Lector de informes** . Los usuarios con las siguientes funciones de pueden tener acceso a los paneles de calidad de llamadas:
+Si desea que no son de administrador, como agentes de departamento de soporte técnico, para usar el panel de calidad de llamadas, puede asignar a los usuarios la función de **Ingeniero de soporte técnico de los equipos de comunicaciones**, **Especialista en soporte técnico de comunicaciones de los equipos**o **Lector de informes** . Los usuarios con las siguientes funciones de pueden tener acceso a los paneles de calidad de llamadas:
 
- - Administrador global
- - Administración de Skype Empresarial
- - Lector de informes
+- Administrador global
+- Skype para el Administrador de negocio
+- Administrador de servicios de Teams
+- Administrador de comunicaciones de Teams
+- Ingeniero de soporte en comunicaciones de Teams
+- Especialista en soporte técnico de comunicaciones de los equipos
+- Lector de informes
 
 > [!NOTE]
-> La función de lector de informes no puede modificar los archivos en la página de carga de datos de inquilinos del CQD ni activar CQD para un inquilino.
+> Las funciones de ingeniero de soporte técnico de los equipos de comunicaciones, especialista en soporte técnico de los equipos de comunicaciones y lector de informes no pueden modificar los archivos en la página de carga de datos de inquilinos del CQD ni activar CQD para un inquilino.
 
 Para obtener más información acerca de estas funciones, vea [roles de administrador acerca de Office 365](/office365/admin/add-users/about-admin-roles).
 

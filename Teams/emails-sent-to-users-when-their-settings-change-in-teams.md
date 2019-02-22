@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Vea qué información se envía por correo electrónico automáticamente a los usuarios cuando cambia su configuración de las conferencias de acceso telefónico local en Microsoft Teams. '
-ms.openlocfilehash: 1d38963771388b1aec9bb2274e23dcfd22e9fe4b
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 1431cd4391219e052ec2ad3702a9e4c227912a06
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120887"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178696"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Correos electrónicos que se envían a los usuarios cuando cambia la configuración en Microsoft Teams
 
@@ -42,9 +42,9 @@ De manera predeterminada, hay cuatro tipos de correos electrónicos que se envia
 
     A continuación tiene un ejemplo de este correo electrónico:
 
-     ![Skype Empresarial: comprobar licencia](media/audio-conferencing-user-enabled.png)
+     ![Skype Empresarial: comprobar licencia](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
-    Puede encontrar más información acerca de las licencias por vean [licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+    Para obtener más información acerca de las licencias, vea [licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 - **El Id. de conferencia o el número de teléfono de conferencia predeterminado de un usuario cambia.**
 
@@ -52,7 +52,7 @@ De manera predeterminada, hay cuatro tipos de correos electrónicos que se envia
 
     A continuación tiene un ejemplo de este correo electrónico:
 
-     ![La información de conferencias de acceso telefónico local ha cambiado.](media/audio-conferencing-info-change.png)
+     ![La información de conferencias de acceso telefónico local ha cambiado.](media/teams-emails-sent-to-users-when-settings-change-image2.png)
 
 - **El PIN de audioconferencia de un usuario se ha restablecido.**
 
@@ -60,7 +60,7 @@ De manera predeterminada, hay cuatro tipos de correos electrónicos que se envia
     
      A continuación tiene un ejemplo de este correo electrónico:
     
-     ![La información de las conferencias de acceso telefónico local ha cambiado.](media/audio-conferencing-pin-has-changed.png)
+     ![La información de las conferencias de acceso telefónico local ha cambiado.](media/teams-emails-sent-to-users-when-settings-change-image3.png)
   
 - **Cuando se quita la licencia de un usuario o cuando el proveedor de servicios de audioconferencia cambia de Microsoft a otro proveedor o a Ninguno.**
 
@@ -70,7 +70,7 @@ De manera predeterminada, hay cuatro tipos de correos electrónicos que se envia
 
     A continuación tiene un ejemplo de este correo electrónico:
 
-     ![Las conferencias de acceso telefónico local están desactivadas.](media/audio-conferencing-turned-off.png)
+     ![Las conferencias de acceso telefónico local están desactivadas.](media/teams-emails-sent-to-users-when-settings-change-image4.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

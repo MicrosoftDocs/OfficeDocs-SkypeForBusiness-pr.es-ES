@@ -1,5 +1,5 @@
 ---
-title: Administrar los equipos durante la transición al nuevo centro de administración de Microsoft Teams
+title: Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,14 +16,14 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: e695c54427dbe80daa179ad6d02e99a2556d9782
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 581be37a3acf4b0063cf93da1ba1289cd08b2f2e
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753539"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178505"
 ---
-<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Administrar los equipos durante la transición al nuevo centro de administración de Microsoft Teams
+<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams
 ======================================================
 
 > [!IMPORTANT]
@@ -43,8 +43,8 @@ En la siguiente tabla identifica las secciones de la experiencia de los equipos 
 |---------|---------|---------|---------|
 |General     |Mostrar Chat organizativa en perfil Personal        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Inquilino       |
 |General     |Usar Skype para la empresa para los destinatarios que no tienen los equipos         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
-|Integración del correo electrónico     |Permitir a los usuarios enviar correos electrónicos a canales         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
-|Integración del correo electrónico     |Permitir que los remitentes lista         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Inquilino         |
+|Integración de correo electrónico     |Permitir a los usuarios enviar correos electrónicos a canales         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
+|Integración de correo electrónico     |Permitir que los remitentes lista         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Inquilino         |
 |Almacenamiento en nube personalizado     |Cuadro de         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
 |Almacenamiento en nube personalizado     |Lista desplegable        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
 |Almacenamiento en nube personalizado     |Unidad de Google        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
@@ -52,6 +52,11 @@ En la siguiente tabla identifica las secciones de la experiencia de los equipos 
 |Configuración por tipo de licencia de usuario o     |Activar Microsoft Teams activado o desactivado para todos los usuarios          |En desuso<sup>1</sup>        |         |
 |Equipos y canales     |         |Redirecciones a Azure grupo Administración de Active Directory (igual que la experiencia actual).              |Usuario         |
 |Equipos y canales     |         |Redirige a la administración de grupo de AAD (igual que la experiencia actual).             |Usuario          |
+|Aplicaciones|Habilitar nuevas aplicaciones externas de manera predeterminada|Configuración de aplicaciones de toda la organización|Inquilino|
+|Aplicaciones|Permitir aplicaciones externas|Configuración de aplicaciones de toda la organización|Inquilino|
+|Aplicaciones|Permitir sideloading de aplicaciones externas<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Usuario|
+|Aplicaciones|De forma predeterminada aplicaciones<sup>3</sup>|TeamsAppPermissionPolicy|Usuario|
+|Aplicaciones|<sup>3</sup> de aplicaciones externas|TeamsAppPermissionPolicy|Usuario|
 |Las llamadas y las reuniones     |Permitir la programación de reuniones privadas         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuario          |
 |Las llamadas y las reuniones     |Permitir meetup de canal Ad hoc         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuario          |
 |Las llamadas y las reuniones     |Permitir la programación de reuniones de canal         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuario          |
@@ -68,6 +73,13 @@ En la siguiente tabla identifica las secciones de la experiencia de los equipos 
 |Mensajes     |Permite a los usuarios a conversaciones en privado         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
 
 <sup>1</sup> en desuso de invitado. Habilitación o deshabilitación de invitado ahora pueden administrarse en el centro de administración de Microsoft Teams. Habilitar o deshabilitar los equipos para profesionales de empresa, Edu estudiantes, y quedará obsoleto Edu profesores pronto. Esto debe administrarse mediante la asignación de licencias en el centro de administración de Office 365. Vea [administrar el acceso de usuarios a los equipos de Microsoft](user-access.md).
+<br><br>
+<sup>2</sup> Sideloading se divide de la siguiente manera:
+
+- Permitir que a un usuario a las aplicaciones sideload que se pueden administrar en un nivel de usuario en [TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps).
+- Permitir a los usuarios en un inquilino para interactuar con aplicaciones personalizadas que se pueden administrar en un nivel de inquilino de la configuración de aplicaciones de toda la organización.
+ 
+<sup>3</sup> aplicaciones predeterminadas y aplicaciones externas pueden ser habilitadas y deshabilitadas en el nivel de usuario en TeamsAppPermissionPolicy. Además, las aplicaciones se pueden bloquear en el nivel de inquilino en la configuración de aplicaciones de toda la organización que invalida cualquier configuración de nivel de inquilino y usuario. 
 
 > [!NOTE]
 > Podrá continuar usar el panel de grupos en el centro de administración de Office 365 para la configuración relacionada con los equipos y los canales. Configuración de aplicaciones permanecerá en el área de los equipos del centro de administración de Office 365 y se van a migrar más adelante. 
