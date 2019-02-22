@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0877ce3f92a9266d3ae4ea93f634a1e8d612be57
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 252d1508065aaf0a26e865b8f8d8109dec81512e
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120444"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178584"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -163,7 +163,7 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|Los usuarios no pueden acceder a las reuniones o conectores, pero tienen buzones de Exchange Online. <br/> |El cliente bloquea activamente EWS de los servicios de Exchange Online, pero necesita tener Microsoft Teams en cumplimiento de las directivas de EWS. <br/> |Para que MS Teams cumpla con la normativa, debe agregar las siguientes cadenas de agente de usuario para MS Teams en EWSAllowList: `*skypespaces*` y `*microsoftninja*`, incluidos los asteriscos. Se puede usar el siguiente comando: `Set-organizationconfig -EwsAllowList @{Add="*MicrosoftNinja*","*SkypeSpaces*"}`<br/> Para obtener más información: https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps. <br/> |30/05/2017  <br/>|
+|Los usuarios no pueden acceder a las reuniones o conectores, pero tienen buzones de Exchange Online. <br/> |El cliente bloquea activamente EWS de los servicios de Exchange Online, pero necesita tener Microsoft Teams en cumplimiento de las directivas de EWS. <br/> |Para que MS Teams cumpla con la normativa, debe agregar las siguientes cadenas de agente de usuario para MS Teams en EWSAllowList: `SkypeSpaces/*` y `MicrosoftNinja/*`, incluidos los asteriscos. Se puede usar el siguiente comando: `Set-organizationconfig -EwsAllowList @{Add="MicrosoftNinja/*","SkypeSpaces/*"}`<br/> Para obtener más información: https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps. <br/> |30/05/2017  <br/>|
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
@@ -242,7 +242,7 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|La ficha de la página de SharePoint muestra una pantalla blanca <br/> |Los dominios personales de SharePoint Online no se admiten actualmente. La experiencia del usuario es una pantalla blanca cuando se intenta agregar una ficha de página de SharePoint. <br/> |No hay ninguna solución. <br/> |20/8/18  <br/>|
+|La ficha de la página de SharePoint muestra una pantalla blanca <br/> |Los dominios personales de SharePoint Online no se admiten actualmente. La experiencia del usuario es una pantalla blanca cuando se intenta agregar una ficha de página de SharePoint. <br/> |No hay ninguna solución. <br/> |20/08/2018  <br/>|
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
@@ -268,7 +268,7 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|Un nombre de equipo que tenga un símbolo &amp; rompe la funcionalidad del conector  <br/> |Cuando se crea un nombre de equipo e incluye el símbolo &amp;, no pueden establecerse los conectores dentro del equipo/grupo.  <br/> |No se deben usar caracteres especiales en los nombres de equipo.  <br/> |21/6/17  <br/> |
+|Un nombre de equipo que tenga un símbolo &amp; rompe la funcionalidad del conector  <br/> |Cuando se crea un nombre de equipo e incluye el símbolo &amp;, no pueden establecerse los conectores dentro del equipo/grupo.  <br/> |No se deben usar caracteres especiales en los nombres de equipo.  <br/> |21/06/2017  <br/> |
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
