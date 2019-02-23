@@ -98,6 +98,12 @@
 #### Correo de voz en la nube
 #####[Planeación de correo de voz en la nube](../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
 ##### [Configurar el correo de voz en la nube](../../sfbhybrid/hybrid/configure-cloud-voicemail.md)
+#### En la nube operadores automáticos
+##### [Planeación de operadores automáticos en la nube](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)
+##### [Configurar operadores automáticos en la nube](../../SfbHybrid/hybrid/configure-cloud-auto-attendant.md)
+#### Colas de llamada de nube
+##### [Planeación de las colas de llamada de nube](../../SfbHybrid/hybrid/plan-call-queue.md)
+##### [Configurar colas de llamada de nube](../../SfbHybrid/hybrid/configure-call-queue.md)
 ### [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Mensajería unificada](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-messaging.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Introducción general a la implementación](../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 

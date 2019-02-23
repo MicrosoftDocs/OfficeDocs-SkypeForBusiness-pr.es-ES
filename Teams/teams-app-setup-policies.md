@@ -1,5 +1,5 @@
 ---
-title: Administrar directivas del programa de instalación de aplicaciones en Microsoft Teams
+title: Administrar directivas de configuración de aplicación en Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,14 +15,14 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre directivas del programa de instalación de aplicaciones en Microsoft Teams y cómo usarlos para aplicaciones de pin para personalizar los equipos de los usuarios de su organización.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fe6281015072858c959a65a6cd17ed157db0afa9
-ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
+ms.openlocfilehash: 4e6ad41dac9021079bffa80284809733c39f3cc9
+ms.sourcegitcommit: ad126165b6440b98e550ab48e6b3491aeba9402b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29894314"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30205766"
 ---
-# <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas del programa de instalación de aplicaciones en Microsoft Teams
+# <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
@@ -108,7 +108,7 @@ Según la cantidad de los miembros del grupo, este comando puede tardar varios m
 
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>¿Qué directivas de configuración de aplicación integrada se incluyen en el centro de administración de Microsoft Teams?
 
-- **Global (valor predeterminado de toda la organización)**: esta directiva predeterminada se aplica a todos los usuarios de la organización a menos que asigne a otra directiva. Editar la directiva global para aplicaciones de pin que son más importantes para los usuarios. 
+- **Global (valor predeterminado de toda la organización)**: esta directiva predeterminada se aplica a todos los usuarios de la organización a menos que asigne a otra directiva. Editar la directiva global para aplicaciones de pin que son más importantes para los usuarios.
 - **FirstLineWorker**: esta directiva es firstline a los trabajadores. Puede asignar a los trabajadores de firstline en su organización. Es importante saber que las directivas personalizadas que cree, tiene que asignar la directiva a los usuarios para la configuración debe estar activo. Para obtener más información, vaya a la sección [asignación de una directiva de aplicación personalizada del programa de instalación a los usuarios](#assign-a-custom-app-setup-policy-to-users) de este artículo.
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>¿Por qué no puedo encontrar una aplicación en el panel de aplicaciones anclados agregar?
@@ -142,9 +142,9 @@ Para ver todas las aplicaciones que están ancladas para un usuario, los usuario
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>¿Qué necesito saber acerca de la experiencia móvil de los equipos?
 
-Los clientes móviles de equipos (iOS y Android) actualmente no admiten aplicaciones personal. Dependiendo de las aplicaciones en la directiva, aplicaciones ancladas para el cliente de escritorio de los equipos no es posible que aparezca en los clientes móviles de los equipos. Bots personal seguirá apareciendo en Chat en clientes móviles. 
+Los clientes móviles de equipos (iOS y Android) actualmente no admite aplicaciones personal con las fichas estáticas. Dependiendo de las aplicaciones en la directiva, aplicaciones ancladas para el cliente de escritorio de los equipos no es posible que aparezca en los clientes móviles de los equipos. Bots personal seguirá apareciendo en Chat en clientes móviles.
 
-Con los clientes móviles de los equipos, los usuarios verán las aplicaciones de los equipos de núcleo como actividad, Chat y los equipos y puede anclar algunas aplicaciones inicial de terceros de Microsoft, como turnos y organizador.
+Con los clientes móviles de los equipos, los usuarios verán las aplicaciones de los equipos de núcleo como actividad, Chat y los equipos y puede anclar algunas aplicaciones inicial de terceros de Microsoft, como turnos.
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>¿Pueden los usuarios cambiar el orden de aplicaciones anclados a través de una directiva?
 

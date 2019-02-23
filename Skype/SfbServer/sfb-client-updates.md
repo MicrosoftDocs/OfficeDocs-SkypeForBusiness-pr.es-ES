@@ -2,20 +2,20 @@
 title: Actualizaciones más recientes de las versiones de Skype Empresarial que usan Windows Installer (MSI)
 ms.author: jambirk
 author: jambirk
+ms.reviewer: qingy
 manager: serdars
 ms.audience: ITPro
-ms.reviewer: qingy
 ms.topic: reference
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Proporciona a los profesionales de TI vínculos a la información más reciente acerca de las actualizaciones para las versiones perpetuas de los clientes de Skype Empresarial 2016, Skype Empresarial 2015 y Lync 2013.
-ms.openlocfilehash: f3cf01aeec5117a210207cb958f7255f6592c606
-ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
+ms.openlocfilehash: aaeb13de41beff5e7e1230f84a0f7bc3a7f571e4
+ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29786409"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30210861"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Actualizaciones más recientes de las versiones de Skype Empresarial que usan Windows Installer (MSI)
 

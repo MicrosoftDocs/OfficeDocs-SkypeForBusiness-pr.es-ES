@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Resumen: Conozca Skype para la integración de Business Server 2015 con Exchange y SharePoint.'
-ms.openlocfilehash: 6bd76957a18c8cfcbff02bf1d92f944bb76cb8b2
-ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
+ms.openlocfilehash: 98e84fdac1e070c10bdcfb99278e78fb6f56a9a6
+ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29890720"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30210625"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Integración con Exchange y SharePoint
 
@@ -106,7 +106,7 @@ Las siguientes tablas enumeran las características admitidas en una implementac
 |Registros de llamadas y el historial de conversaciones perdidas se escriben en el buzón de exchange del usuario  <br/> ||
 |Lista de contactos (por medio del almacén de contactos unificado)  <br/> |Lync Server 2013 o Skype para clientes empresariales necesarios  <br/> |
 |Fotografías de alta resolución contacto en Lync 2013, Skype para clientes empresariales y Lync Web App  <br/> ||
-|Delegación de reuniones  <br/> |Admite sólo cuando los dos usuarios están hospedados en línea en el mismo bosque o ambos están hospedados en local. Para obtener más información, vea [Skype para soluciones híbridas de negocio](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
+|Delegación de reuniones  <br/> |Se admite solo cuando ambos usuarios están hospedados en línea en el mismo bosque o ambos están hospedados localmente. Para obtener más información, vea [Skype para soluciones híbridas de negocio](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Contenido de archivado (mensajería instantánea y reuniones) en Exchange  <br/> ||
 |Buscar contenido archivado  <br/> ||
 |Correo de voz  <br/> ||
