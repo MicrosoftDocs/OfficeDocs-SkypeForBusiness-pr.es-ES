@@ -682,6 +682,7 @@
 ### [Gobierno de Microsoft Education preguntas más frecuentes para los administradores](plan-teams-governance-edu.md)
 
 ## Equipos de los trabajadores de la firstline
+### [Microsoft StaffHub que deben retirarse](microsoft-staffhub-to-be-retired.md)
 ### [Administrar la aplicación de turnos para su organización en los equipos](manage-the-shifts-app-for-your-organization-in-teams.md)
 ### [Introducción a las plantillas comerciales de Teams](get-started-with-retail-teams-templates.md)
 

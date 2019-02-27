@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb5310823db4e0a5fa441eca885599423f240dcc
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: b9da36d938a5b6e55920826b10f1ac2c1f528fe3
+ms.sourcegitcommit: c2e4e9b59183440d6aa903832d6d6a1769ccf57d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178529"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30274611"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Administrar características de Microsoft Teams en su organización de Office 365
 
@@ -44,13 +44,13 @@ Apps are tabs, connectors, bots, or any combination of these three, provided by 
 
 These apps, such as Planner, Praise, and Weather, are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box. 
 
-![Captura de pantalla de la sección Aplicaciones predeterminadas.](media/teams-tenant-wide-settings-default-apps.png "Captura de pantalla de la sección Aplicaciones predeterminadas")
+![Captura de pantalla de la sección Aplicaciones predeterminadas.](media/teams-manage-features-in-office365-image1.png "Captura de pantalla de la sección Aplicaciones predeterminadas")
 
 #### <a name="external-apps"></a>Aplicaciones externas
 
 These apps are provided by third parties. You can configure the following settings for external apps.
 
-![Captura de pantalla de la sección Aplicaciones externas.](media/teams-tenant-wide-settings-external-apps-settings.png "Captura de pantalla de la sección Aplicaciones externas, donde se muestran las opciones que se pueden activar o desactivar")
+![Captura de pantalla de la sección Aplicaciones externas.](media/teams-manage-features-in-office365-image2.png "Captura de pantalla de la sección Aplicaciones externas, donde se muestran las opciones que se pueden activar o desactivar")
 
 - **Permitir aplicaciones externas en Microsoft Teams:** si esta opción se activa, los usuarios podrán agregar aplicaciones externas que estén disponibles para la organización. 
 

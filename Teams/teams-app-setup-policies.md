@@ -15,12 +15,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre directivas del programa de instalación de aplicaciones en Microsoft Teams y cómo usarlos para aplicaciones de pin para personalizar los equipos de los usuarios de su organización.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4e6ad41dac9021079bffa80284809733c39f3cc9
-ms.sourcegitcommit: ad126165b6440b98e550ab48e6b3491aeba9402b
+ms.openlocfilehash: 3e46f5ea50d3e9cdb1717838beec454cca05ba30
+ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30205766"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30302692"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -47,7 +47,7 @@ Puede modificar la configuración de la directiva global para incluir las aplica
 
 Puede usar el centro de administración de Microsoft Teams o Windows PowerShell para crear una directiva personalizada.
 
-1. En la izquierda el centro de administración de Microsoft Teams, vaya a la **aplicación de los equipos** > **las directivas de aplicación del programa de instalación**.
+1. En la izquierda el centro de administración de Microsoft Teams, vaya a **las aplicaciones de los equipos** > **las directivas de aplicación del programa de instalación**.
 2. Seleccione **nueva directiva**.
 3. Escriba un nombre descriptivo para la directiva y, a continuación, haga clic en **Agregar aplicaciones**.
 4. En el panel **Agregar anclados aplicaciones** , de búsqueda para las aplicaciones que desea agregar y, a continuación, haga clic en **Agregar**.  Para ver una lista de todas las aplicaciones, seleccione la **aplicación de los equipos de almacén**. Cuando haya elegido su lista de aplicaciones, haga clic en **Agregar**.
@@ -62,7 +62,7 @@ Puede usar el centro de administración de Microsoft Teams o Windows PowerShell 
 
 Puede usar el centro de administración de Microsoft Teams o Windows PowerShell para modificar una directiva, incluida la directiva global de (valor predeterminado de toda la organización) y las directivas personalizadas que se crean. 
 
-1. En la izquierda el centro de administración de Microsoft Teams, vaya a la **aplicación de los equipos** > **las directivas de aplicación del programa de instalación**.
+1. En la izquierda el centro de administración de Microsoft Teams, vaya a **las aplicaciones de los equipos** > **las directivas de aplicación del programa de instalación**.
 2. Seleccione la directiva que desee editar. 
 3. Desde aquí, realice los cambios que desee. Puede agregar, quitar y cambiar el orden de las aplicaciones.
 4. Haga clic en **Guardar**. 
@@ -152,7 +152,7 @@ Actualmente, los usuarios pueden cambiar el orden de sus aplicaciones anclados e
 
 ### <a name="custom-teams-apps"></a>Aplicaciones personalizadas de los equipos
 
-#### <a name="my-organization-built-a-custom-teams-app-and-published-it-through-appsource-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>Mi organización había creado una aplicación personalizada de los equipos y había publicado a través de AppSource, pero no se muestra el icono de la aplicación según lo esperado cuando la aplicación está anclada a la barra de la aplicación en los equipos. ¿Cómo se puede solucionar? 
+#### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>Mi organización había creado una aplicación personalizada de los equipos y la ha publicado, ya sea a AppSource o el catálogo de aplicaciones inquilino, pero no se muestra el icono de la aplicación según lo esperado cuando la aplicación está anclada a la barra de la aplicación en los equipos. ¿Cómo se puede solucionar? 
 
 Asegúrese de seguir las instrucciones del logotipo antes de enviar la aplicación. Para obtener más información, vea [lista de comprobación para el envío de panel de vendedores](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist). 
 

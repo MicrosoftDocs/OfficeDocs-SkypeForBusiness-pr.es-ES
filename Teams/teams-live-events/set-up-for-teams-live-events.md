@@ -14,12 +14,12 @@ description: Aprenda los pasos para configurar live para los eventos de los equi
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 078374652325d177e30db1d320f22e5d814ac548
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: aaa22e0b28d883c805eaddc1e01d3cf7d2cda450
+ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754787"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30302708"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Definir eventos en directo en Microsoft Teams
 
@@ -40,6 +40,7 @@ Las directivas se utilizan para controlar quién en la organización puede conte
 > Los usuarios de su organización obtendrá la directiva global, a menos que se cree y asigne una directiva personalizada. De forma predeterminada en la directiva global, la programación de evento en directo está habilitada para los usuarios de los equipos, transcripción está desactivada, todas las personas de la organización pueden unir a eventos en directo y la configuración de grabación se establece para registrar siempre. 
 
 ### <a name="create-or-edit-a-live-events-policy"></a>Crear o editar una directiva de eventos en directo
+<a name="bkcreatepolicy"> </a>
 
 **![los equipos-logotipo-30x30.png](../media/teams-logo-30x30.png) mediante el centro de administración de Microsoft Teams**
 
