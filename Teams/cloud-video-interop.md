@@ -12,23 +12,36 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e038a4618bd456336681c2fff95936a821c770ea
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 7ebf153def5c53f2cabdf9a6293ed55e69c1c2f9
+ms.sourcegitcommit: ea1085228894ae448f575f9e13a9f25a1f47e636
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29742969"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30312271"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidad de vídeos en la nube para Microsoft Teams
 
-Interoperabilidad de vídeo en la nube permite que terceros dispositivos de salón para unirse a reuniones de Microsoft Teams de la reunión.
+Interoperabilidad de vídeo en la nube (CVI) es una solución de terceros de Microsoft Qualified que permite que las salas de reuniones de terceros (telepresencia) y los dispositivos de vídeo personal (VTCs) para participar en reuniones de Microsoft Teams.
+ 
+Con Microsoft Teams, obtendrá enriquecido colaboración de contenido en línea en las reuniones que incluyen el uso compartido de audio, vídeo y contenido. Esto puede disfrutado a través del cliente web y de escritorio, así como a través de muchos dispositivos de socio que se integren de forma nativa con Microsoft Teams. Sin embargo, muchos clientes ya han invertido en teleconferencia por vídeo y dispositivos de comunicación de vídeo personal, que pueden ser costosos actualizar. Interoperabilidad de vídeo en la nube proporciona una solución sencilla, lo que le permite seguir usando las soluciones existentes hasta que esté listo para actualizar.
 
-Vídeo teleconferencias con colaboración de contenido le ayudará a sacar el máximo partido de las reuniones. Sin embargo, sala de reuniones son caros actualizar sistemas y dispositivos. Interoperabilidad de vídeo en la nube de Microsoft Teams funciona con sistemas y ofrece una experiencia de reuniones nativo para todos los participantes – en las salas de reuniones o dentro de los clientes de los equipos. 
+Con la interoperabilidad de vídeo en la nube, Microsoft Teams ofrece una experiencia de reuniones nativo para todos los participantes – en las salas de reuniones o dentro de los clientes de los equipos.
 
-## <a name="partners-certified-for-microsoft-teams"></a>Socios certificados para los equipos de Microsoft
+### <a name="is-cloud-video-interop-for-me"></a>¿Es la interoperabilidad de vídeo en la nube para mí?
+
+Interoperabilidad de vídeo en la nube proporciona un servicio de nivel intermedio mientras realiza la transición a una solución completa nativa de los equipos de Microsoft, con los extremos de los equipos. El servicio proporcionado debe formar parte de la ruta de migración.
+
+Interoperabilidad de vídeo en la nube está pensado para clientes que cumplan los siguientes criterios:
+
+- Una implementación de gran tamaño de los dispositivos de la sala de la reunión y la implementación de los dispositivos de vídeo personal (más de 50 dispositivos) que no son compatibles con la integración directa con Microsoft Teams
+- Son compatibles con uno de nuestros socios de interoperabilidad de vídeo en la nube
+- Para conservar el valor de su inversión en su actual durante la migración a una solución de Microsoft Teams nativa de reunión dispositivos de sala y los dispositivos de vídeo personal
+
+Mientras la interoperabilidad de vídeo en la nube proporciona una gran solución intermedia, le animamos a nuestros clientes para que busque en nuestras soluciones nativos de reunión de los equipos, como los equipos de los sistemas de sala, a largo plazo. 
+
+### <a name="partners-certified-for-microsoft-teams"></a>Socios certificados para los equipos de Microsoft
 
 Los siguientes socios tienen soluciones de interoperabilidad de vídeo para Microsoft Teams. Es posible que elija su compañía para que funcione con cualquier combinación de estos asociados de negocios de la empresa. 
-
 
 |Socio|Solución de socio|
 |----|---|
@@ -36,63 +49,72 @@ Los siguientes socios tienen soluciones de interoperabilidad de vídeo para Micr
 |![Pexip infinito](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Infinito Pexip para los equipos de Microsoft</a> | 
 |![Puerta de enlace de blueJeans](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Puerta de enlace de blueJeans para los equipos de Microsoft</a> |
 
-## <a name="partner-solutions"></a>Soluciones de socios
+### <a name="cloud-video-interop-overview"></a>Introducción a la interoperabilidad de vídeo en la nube
 
-Nuestros socios han desarrollado soluciones de puerta de enlace para conectar dispositivos SIP y H.323 del basado en estándares de terceros a las reuniones de Microsoft Teams.  
- 
-**Certificados y compatible con Microsoft**
+Interoperabilidad de vídeo en la nube es un servicio de terceros que se ofrece por nuestros socios para proporcionar interoperabilidad entre soluciones de dispositivo de vídeo personal y conferencias de vídeo existente en local y Microsoft Teams.
 
-- Sólo está disponible a través de las soluciones de socios certificados
-- Ingeniería conjunta con Microsoft
-- Cliente puntee en antes de la certificación
-
-**Preparado para las empresas**
-
-- Vídeo de alta definición (1080p) y contenido (VBSS)
-- Compatibilidad con H.323 y SIP dispositivos para salas de reuniones
-- Programación de los equipos de Exchange o nativo
-- Diseño de la puerta de enlace en lugar de VMR
-
-**Escala para la nube**
-
-- Implementan y administran en Azure
-- Escala automática con soluciones de nube
-
- 
-## <a name="reference-architecture"></a>Arquitectura de referencia
-
-En el siguiente diagrama se describe la arquitectura de alto nivel de una solución de socio de los equipos.
+Las soluciones de nuestros socios constan de los componentes que se pueden implementar totalmente en la nube en función o parcialmente o completamente en local. 
+     
+En el siguiente diagrama muestra la arquitectura de alto nivel de nuestro socio de soluciones.
 
 ![Solución de socio de interoperabilidad de vídeo en la nube de los equipos](media/teams-cloud-video-interop-partner-solution.png)
 
-## <a name="key-business-considerations"></a>Consideraciones sobre la clave del negocio
 
-**Microsoft Teams junto con la infraestructura de vídeo de terceros**
+## <a name="deploy-cloud-video-interop"></a>Implementar la interoperabilidad de vídeo en la nube
 
-- ¿Tiene una implementación de gran tamaño de los dispositivos de vídeo de terceros?
-- ¿Tiene un controlador de llamadas de terceros en su organización?
-- ¿Piensa acerca de cómo mantener su controlador de llamada actual junto con Microsoft Teams?
-- ¿Desea ejecutar su propio vídeo infra u hospedado? 
-- ¿Piensa implementar sistemas de sala de equipos? ¿Cuando?
+Al implementar una solución de interoperabilidad de vídeo en la nube, es importante comprender que va a implementar una solución de socio. En el siguiente diagrama, se enumeran los pasos básicos que debe seguir para implementar la interoperabilidad de vídeo en la nube.
 
-**Ya existentes certificación proveedor de interoperabilidad**
+![Implementación de CVI en la organización](media/deploying-cvi.png)
 
-- ¿Desea continuar con su socio certificado actual?
-- ¿Es necesario continuar la compatibilidad para el entorno de sala integrada (Exchange, un marcado táctil)?
+### <a name="plan"></a>Planificar
 
-**Otros requisitos**
+Durante la fase de planeación, debe identificar los dispositivos que no reemplazar con un dispositivo nativo de los equipos y buscar a un socio de interoperabilidad de vídeo en la nube que puede admitir estos dispositivos.  
 
-- ¿Necesita en tiempo real de supervisión, solución de problemas y capacidades de reporting?
-- ¿Necesita estar disponible en nubes soberanos o gobierno?
-- ¿Dispone de empresas externas que se unan a las reuniones de los equipos? 
+También es importante comprender que necesitará una licencia para cada usuario que va a programar reuniones en la que desee que un dispositivo habilitado para la interoperabilidad de vídeo en la nube para unirse a. Tenga en cuenta que los requisitos de licencia exactos pueden obtenerse desde el asociado de interoperabilidad de vídeo en la nube. Asegúrese de que está desactivada antes de empezar la implementación.
 
-## <a name="business-workflow-scenarios"></a>Escenarios de flujo de trabajo de negocio
+### <a name="configure"></a>Configuración
 
-- **Skype para Business Server-equipos de Microsoft >:** Su organización tiene dispositivos de otros fabricantes y mover de Skype para Business en prem server a Microsoft Teams.  
-- **Skype para la empresa en línea - > Microsoft Teams:** La organización está migrando a Microsoft Teams de Skype para profesionales en línea.
-- **Cisco UC-equipos de Microsoft >:** Su organización está pasando de Cisco a Microsoft Teams, pero no está listo para reemplazar los dispositivos Cisco.
-- **Mixto sistemas-equipos de Microsoft >:** Su organización tiene varios sistemas en el entorno paralelo (Cisco, BroadSoft, SfB Server, SfBO).
-- **Otro proveedor de reunión en la nube-> Microsoft Teams:** Su organización ha sido un usuario de otro proveedor de reunión en la nube migrar a Microsoft Teams.
+El socio que ha elegido para la implementación de CVI le proporcionará un documento de una implementación completa que se compone de todos los pasos necesarios para implementar correctamente dentro de la organización. Esto incluirá los puertos de firewall y rangos IP, los cambios de configuración para los dispositivos y otras opciones de configuración que se deben cambiar.
 
+### <a name="provision"></a>Provisión  
 
-Después de elegir un socio o socios, estará listo para [Configurar la interoperabilidad de vídeo en la nube para los equipos de Microsoft](cloud-video-interop-for-teams-set-up.md). 
+Durante la fase de aprovisionamiento, va a asignar licencias a los usuarios adecuados según el socio Guía de configuración. También necesitará ir a través del proceso de consentimiento de Azure para proporcionar el acceso de socios para el entorno de los equipos. Aquí encontrará más información sobre el proceso de consentimiento de Azure:https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent 
+
+### <a name="schedule"></a>Programación
+
+Después de que un usuario está habilitado para la interoperabilidad de vídeo en la nube, cualquier reunión programada con puede ser la reunión de los equipos complemento para Outlook o el cliente de los equipos tendrá la adecuada información adicional se agrega automáticamente en los equipos de la reunión lo que el vídeo en la nube Los dispositivos compatibles con interoperabilidad pueden unirse a estas reuniones.
+
+### <a name="join"></a>Join
+
+Dependiendo de la solución de socio, hay varias maneras para unirse a una reunión habilitado para la interoperabilidad de vídeo en la nube. Exacta de participación en la reunión, se proporcionará escenarios por su socio de interoperabilidad de vídeo en la nube. Presentamos algunos ejemplos que aparece a continuación:
+
+- IVR (respuesta interactiva de voz) 
+  - Puede marcar a IVR del socio con la tenantkey@domain.
+  - Cuando se encuentre en el socio IVR, se le pedirá que lo especifique el conferenceId VTC, que, a continuación, se conectará a la reunión de los equipos.
+- Marcado directo 
+  - Puede marcar directamente en a la reunión de los equipos sin necesidad de interacción con IVR del socio mediante el uso de la característica de marcado directo, con la cadena completa de tenantkey. VTC ConferenceId@domain.
+- Marcado con un solo toque 
+  - Si tiene un salón de equipos integrado, puede usar las capacidades de acceso telefónico con un solo toque ofrecidas por su socio (sin necesidad de escribir cualquier cadena de marcado).
+
+## <a name="manage-cloud-video-interop"></a>Administrar la interoperabilidad de vídeo en la nube
+
+Una vez se haya implementado la interoperabilidad de vídeo en la nube, puede administrar los dispositivos con las soluciones proporcionadas por nuestros asociados de negocios. Cada socio proporcionará una interfaz de administración que se incluye la administración de licencias y el dispositivo. 
+
+Creación de informes también está disponible directamente desde la interfaz administrativa de socio. Para obtener más información sobre las funcionalidades de informes, póngase en contacto con el socio de su elección. 
+
+### <a name="troubleshooting-cloud-video-interop"></a>Solución de problemas de interoperabilidad de vídeo en la nube
+
+Interoperabilidad de vídeo en la nube es un servicio proporcionados por los socios. Si experimenta problemas, el primer paso es conectar un dispositivo que tiene instalado el cliente de los equipos y conectarse al mismo segmento como el dispositivo de interoperabilidad de vídeo en la nube que está causando problemas. 
+
+Si las funciones de los equipos correctamente en este segmento y también han seguido todas las instrucciones de redes y configuración que ha proporcionado el socio, debe ponerse en contacto con el socio para solucionar problemas. 
+
+## <a name="powershell-for-cloud-video-interop"></a>PowerShell para la interoperabilidad de vídeo en la nube
+
+Los cmdlets de PowerShell siguientes están disponibles para (parcialmente) automatizar la implementación de interoperabilidad de vídeo en la nube.
+
+- **Get-CsTeamsVideoInteropServicepolicy**: Microsoft proporciona directivas construidas previamente para cada uno de nuestros socios compatibles que le permiten designar qué socios a usar para la interoperabilidad de vídeo en la nube.<br>Este cmdlet permite identificar las directivas construidas previa a la que pueden usar en su organización. Puede asignar esta directiva a uno o varios de los usuarios al aprovechar el cmdlet Grant-CsTeamsVideoInteropServicePolicy.
+- **Grant CsTeamsVideoInteropServicePolicy**: este cmdlet permite asignar una directiva previamente construida para su uso en la organización o asignar la directiva a usuarios específicos.
+- **New-CsVideoInteropServiceProvider**: Use este cmdlet para especificar la información acerca de un socio CVI compatible que su organización le gustaría usar.
+- **Set-CsVideoInteropServiceProvider**: Use este cmdlet para actualizar la información sobre un socio CVI compatible que usa la organización.
+- **Get-CsVideoInteropServiceProvider**: Use este cmdlet para obtener todos los proveedores que se han configurado para su uso dentro de la organización.
+- **Remove-CsVideoInteropServiceProvider**: Use este cmdlet para quitar toda la información de proveedor acerca de un proveedor que ya no se usa la organización.

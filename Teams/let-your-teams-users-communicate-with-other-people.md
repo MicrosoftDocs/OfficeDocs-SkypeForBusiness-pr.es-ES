@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Vea cómo configurar los equipos para permitir a los usuarios comunicarse con usuarios de otra organización.
-ms.openlocfilehash: 39fa6de27b6ff4f662955ac3cf36d7826379d753
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 664c459f85d3a6657c0e556d19d92b7b278f0aee
+ms.sourcegitcommit: ea1085228894ae448f575f9e13a9f25a1f47e636
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754731"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30312279"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir que el chat de los usuarios de los equipos y comunicarse con los usuarios de otra organización de los equipos
 
@@ -32,6 +32,9 @@ Siga los pasos de este artículo cuando:
 - Cualquier persona que desee en el mundo que usa los equipos que puedan buscar y ponerse en contacto con usted, utilizando su dirección de correo electrónico. Si usted y otro usuario tanto habilitación el acceso externo y permitir que los demás dominios, esto funcionará. Si no funciona, el otro usuario, debe asegurarse de que su o su configuración no esté bloqueando su dominio.
 
 Esto le permitirá a los usuarios buscar, llamar y enviar mensajes instantáneos, así como configurar reuniones con usted. Si desea que los usuarios externos tengan acceso a los equipos y los canales, acceso de invitado podría ser una mejor manera para ir. Siga los pasos descritos en este artículo y asegúrese de que al [activar el acceso de invitado](set-up-guests.md) para que los usuarios puedan comunicarse.
+
+> [!IMPORTANT]
+> Para poder federar actualmente el cliente de Microsoft Teams a un usuario externo fuera de la organización que actualmente no es un invitado de su inquilino de AAD, debe estar correctamente el programa de instalación para la implementación híbrida y movido a Skype para profesionales en línea. A partir de 25/2/2019, los equipos aún no admite federación nativa sin que el usuario del perfil SIP que se hospedados en Skype para profesionales en línea. Para obtener más información sobre la configuración de su cuenta de seguridad para entornos híbridos y, a continuación, se mueven a los equipos, consulte [Actualización de Skype para su implementación híbrida empresarial en los equipos](https://docs.microsoft.com/en-us/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid).
 
 ## <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir que el chat de los usuarios de los equipos y comunicarse con los usuarios de otra organización de los equipos
 
